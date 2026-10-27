@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:34:57Z",
+ "generated_utc": "2026-10-26T14:12:55Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
@@ -71,6 +71,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_fNCZD29rp4knVvj4",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/8-transport-in-plants/8-1-transport-in-plants/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_nFKBYznfB6vSGQcG",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -83,35 +95,334 @@
    "question_count": 29,
    "questions_embedded": 29,
    "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/8-transport-in-plants/8-1-transport-in-plants/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_zjHf8Z7YKFg8f3Vn",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 18,
+   "questions_embedded": 18,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/8-transport-in-plants/8-1-transport-in-plants/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 29,
+  "questions_embedded": 50,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2025/06/5890_q18-mcq-paper-21-june-2021-cie-igcse-biology.png": "001-life-cycle-of-a-bulb-plant-showing-stages-from-s.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/12767_q14-mcq-paper-21-june-2021-cie-igcse-biology.png": "002-graph-showing-co2-uptake-and-transpiration-rates.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/51043_screenshot-2025-05-31-121926.png": "003-diagram-of-a-dicot-leaf-s-cross-section-with-lab.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/5954_screenshot-2025-05-31-121622.png": "004-diagram-of-a-cross-section-of-a-plant-stem-showi.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/52017_q17-mcq-paper-11-june-2021-cie-igcse-biology.png": "005-diagram-of-a-plant-cell-s-cross-section-showcasi.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/17795_8-1-image-hq8.png": "006-8-1-image-hq8.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/11523_8-1-image-hq7.png": "007-8-1-image-hq7.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/33136_8-1-image-hq6.png": "008-8-1-image-hq6.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/8-q1-wilting.png": "009-8-q1-wilting.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/potometer.png": "010-potometer.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/8--q11--transpiration-.png": "011-8-q11-transpiration.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/8--q4-root-and-stem.png": "012-8-q4-root-and-stem.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/--8--model-answer-4--structure-roots-and-stem-.png": "013-8-model-answer-4-structure-roots-and-stem.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/q11-organisms-and-their-environment-mcq-booklet-1-cie-igcse-biology.png": "014-q11-organisms-and-their-environment-mcq-booklet-.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/8--q9--rate-and-humidity.png": "015-8-q9-rate-and-humidity.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/8-1-q5-h---ma.png": "016-8-1-q5-h-ma.png"
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2020-specimen-p6-q2a-leaf.png": "001-cie-igcse-2020-specimen-p6-q2a-leaf.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2020-specimen-p6-q2a-leaf-ma.png": "002-cie-igcse-2020-specimen-p6-q2a-leaf-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2020-specimen-p6-q2b-leaves.png": "003-cie-igcse-2020-specimen-p6-q2b-leaves.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2020-specimen-p6-q2c-graph-paper.png": "004-cie-igcse-2020-specimen-p6-q2c-graph-paper.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/ma-for-cie-igcse-2020-specimen-p6-q2c.png": "005-ma-for-cie-igcse-2020-specimen-p6-q2c.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/ma-for-cie-igcse-2020-specimen-p6-q2c-iii.png": "006-ma-for-cie-igcse-2020-specimen-p6-q2c-iii.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/investigating-transpiration-rates-using-a-potometer.png": "007-investigating-transpiration-rates-using-a-potome.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/cut-end-of-beech-shoot.png": "008-cut-end-of-beech-shoot.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/8-1-atpq---blank-results-table.png": "009-8-1-atpq-blank-results-table.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/8-1-1c-atpq---cylinder-volume.png": "010-8-1-1c-atpq-cylinder-volume.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/q1-1.png": "011-graph-paper.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/8-1-atpq-3d---ma-bar-graph.png": "012-8-1-atpq-3d-ma-bar-graph.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-paper6-feb-mar-1a-1.png": "013-cie-igcse-2018-paper6-feb-mar-1a-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-paper6-feb-mar-1a-2.png": "014-cie-igcse-2018-paper6-feb-mar-1a-2.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-paper6-feb-mar-1a-3.png": "015-cie-igcse-2018-paper6-feb-mar-1a-3.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-paper6-feb-mar-1a-4.png": "016-cie-igcse-2018-paper6-feb-mar-1a-4.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/1e0254d6-58aa-4379-821c-241fda81c8be.jpeg": "017-1e0254d6-58aa-4379-821c-241fda81c8be.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/ba0270d3-475a-4aeb-8a87-b0fb2fc85adb.jpeg": "018-ba0270d3-475a-4aeb-8a87-b0fb2fc85adb.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-paper6--feb-mar-1d.png": "019-cie-igcse-2018-paper6-feb-mar-1d.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/5890_q18-mcq-paper-21-june-2021-cie-igcse-biology.png": "020-life-cycle-of-a-bulb-plant-showing-stages-from-s.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/12767_q14-mcq-paper-21-june-2021-cie-igcse-biology.png": "021-graph-showing-co2-uptake-and-transpiration-rates.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/51043_screenshot-2025-05-31-121926.png": "022-diagram-of-a-dicot-leaf-s-cross-section-with-lab.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/5954_screenshot-2025-05-31-121622.png": "023-diagram-of-a-cross-section-of-a-plant-stem-showi.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/52017_q17-mcq-paper-11-june-2021-cie-igcse-biology.png": "024-diagram-of-a-plant-cell-s-cross-section-showcasi.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/17795_8-1-image-hq8.png": "025-8-1-image-hq8.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/11523_8-1-image-hq7.png": "026-8-1-image-hq7.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/33136_8-1-image-hq6.png": "027-8-1-image-hq6.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8-q1-wilting.png": "028-8-q1-wilting.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/potometer.png": "029-potometer.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8--q11--transpiration-.png": "030-8-q11-transpiration.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8--q4-root-and-stem.png": "031-8-q4-root-and-stem.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/--8--model-answer-4--structure-roots-and-stem-.png": "032-8-model-answer-4-structure-roots-and-stem.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/q11-organisms-and-their-environment-mcq-booklet-1-cie-igcse-biology.png": "033-q11-organisms-and-their-environment-mcq-booklet-.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8--q9--rate-and-humidity.png": "034-8-q9-rate-and-humidity.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8-1-q5-h---ma.png": "035-8-1-q5-h-ma.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/61324-figure-3---phloem.png": "036-illustration-comparing-a-tree-trunk-immediately-.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061041-may-2018-paper-4-q3a-xylem---sq.png": "037-061041-may-2018-paper-4-q3a-xylem-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061041-may-2018-paper-4-q3a-xylem---ma.png": "038-061041-may-2018-paper-4-q3a-xylem-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/HcAG7PNx_bubble-potometer-sq.png": "039-hcag7pnx-bubble-potometer-sq.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8-1-q5bh---ma.png": "040-8-1-q5bh-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8-1-q5dh---ma.png": "041-8-1-q5dh-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-12-11-31-11.png": "042-screenshot-2022-10-12-11-31-11.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018mj0610p42q3a.png": "043-2018mj0610p42q3a.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/plant.png": "044-plant.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s1-oct-p4-q3a-xylem.png": "045-cie-igcse-2018-s1-oct-p4-q3a-xylem.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s1-oct-p4-q3c-flow-rate-in-onions.png": "046-cie-igcse-2018-s1-oct-p4-q3c-flow-rate-in-onions.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/ma-for-2018-oct-s1-paper-4-q3ci1.png": "047-ma-for-2018-oct-s1-paper-4-q3ci1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/q2a-plant-tissues-and-organs-principles-of-organisation-gcse-aqa-biology-21.png": "048-q2a-plant-tissues-and-organs-principles-of-organ.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/8-1-q5bm---ma.png": "049-8-1-q5bm-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/xylem.png": "050-xylem.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/banana-with-seeds-1.png": "051-banana-with-seeds-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-p4-q3b.png": "052-cie-igcse-2018-s3-p4-q3b.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7p-uldVO_8-1-q4ce---sq.png": "053-7p-uldvo-8-1-q4ce-sq.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/lignin-content-ma.png": "054-lignin-content-ma.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_wRdMKNFm7ZkS2SGr",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_w8KMSCZBCxh7Ch3J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/06",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vBM84MMDRcwhh8MN"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig.1 shows the lower surface of a leaf from a dicotyledonous plant, on a 1cm<sup>2</sup> grid.\n\n![cie-igcse-2020-specimen-p6-q2a-leaf](assets/001-cie-igcse-2020-specimen-p6-q2a-leaf.png)\n\n**Fig. 1**\n\n(i)\n\nCalculate the surface area of the leaf in Fig.1.\n\n[1]\n\n(ii)\n\nDescribe the method you used to determine the surface area of the leaf.\n\n[2]",
+     "solution_md": "(i) The surface area of the leaf is...\n\n- 32–34 **AND** cm<sup>2</sup> / 320–340 **AND** mm<sup>2</sup>; **[1 mark]**\n\n(ii) The method used in this calculation is...\n\n- Marking off squares (to avoid miscounting); **[1 mark]**\n- Including partial squares / counting squares that are more than half covered;** [1 mark]**\n\n**[Total: 3 marks]**\n\n![cie-igcse-2020-specimen-p6-q2a-leaf-ma](assets/002-cie-igcse-2020-specimen-p6-q2a-leaf-ma.png)"
+    },
+    {
+     "id": "qstnprt_Q3r9Rdzb3TnDP9NT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/06",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vBM84MMDRcwhh8MN"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2 shows the upper and lower surfaces of the same leaf of another dicotyledonous plant.\n\n![cie-igcse-2020-specimen-p6-q2b-leaves](assets/003-cie-igcse-2020-specimen-p6-q2b-leaves.png)\n\nUpper surface              Lower surface\n\n**Fig. 2**\n\nDescribe** two** ways, visible in Fig. 2, in which the upper surface of the leaf is different from the lower surface.",
+     "solution_md": "Two visible ways in which the upper surface of the leaf is different from the lower surface are...\n\nAny **two **of the following:\n\n- Veins are <u>less</u> prominent;** [1 mark]**\n- <u>More</u> shiny;** [1 mark]**\n- Dark<u>er</u> colour; **[1 mark]**\n- Smooth<u>er</u> / <u>more</u> waxy; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Note that the question asks you for differences that are **visible** in Fig.2, so answers relating to features that cannot be seen in the image will not be credited.*\n\n> *It is important to **compare** here in order to get the mark. For example, saying that one leaf is dark as a statement on its own, without comparing to the second lighter leaf, would not allow you to gain the mark. *"
+    },
+    {
+     "id": "qstnprt_MPD8GxXGCGYgWcZh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 11,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/06",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the effect of different wind speeds on the rate of transpiration of some leaves.\n\nThe student took five leaves from a tree and weighed each of them on a balance.\n\nEach of the leaves was then hung from a different piece of wire.\n\nFans were used to blow air at different speeds over each leaf.\n\nAfter 12 hours, the student weighed each leaf again. The results are shown in Table 1.\n\n**Table 1**\n\n| **Wind speed / m per s** | **Mass of leaf at the start / g** | **Mass of leaf at the end / g** | **Loss in mass / g** |\n|---|---|---|---|\n| 0 | 5.7 | 3.8 |   |\n| 1 | 5.3 | 3.3 |   |\n| 3 | 5.9 | 3.7 |   |\n| 6 | 5.1 | 2.6 |   |\n| 8 | 5.3 | 2.6 |   |\n\n(i)\n\nCalculate the loss in mass for each leaf. Complete Table 1.\n\n[2]\n\n(ii)\n\nConstruct a graph to show the loss in mass against wind speed.\n\n![cie-igcse-2020-specimen-p6-q2c-graph-paper](assets/004-cie-igcse-2020-specimen-p6-q2c-graph-paper.png)\n\n[5]\n\n(iii)\n\nUse your graph to determine the loss in mass at a wind speed of 10 m per s. Show on the graph how you obtained your answer.\n\nGive your answer in grams.\n\n[2]\n\n(iv)\n\nA student criticised the results by saying that the loss in mass does not allow for a fair comparison between leaves.\n\nSuggest a more appropriate calculation and explain why it gives a fairer comparison.\n\n[2]",
+     "solution_md": "(i) The loss of mass for each leaf is...\n\n| Wind speed / m per s | Mass of leaf at the start / g | Mass of leaf at the end / g | Loss in mass / g |\n|---|---|---|---|\n| 0 | 5.7 | 3.8 | 1.9 |\n| 1 | 5.3 | 3.3 | 2.0 |\n| 3 | 5.9 | 3.7 | 2.2 |\n| 6 | 5.1 | 2.6 | 2.5 |\n| 8 | 5.3 | 2.6 | 2.7 |\n\n- All values are correct;** [1 mark]**\n- All values given to one decimal place; **[1 mark]**\n\n(ii) Marks can be awarded for a graph that has the following features...\n\n- Axes correctly labelled **AND** units;** [1 mark]**\n- Even scale **AND** plots to fill more than half of the printed grid;** [1 mark]**\n- All five points correctly (plotted points must be accurate to ±½ small square); **[2 marks]**\n- Straight line that passes through the plotted points; **[1 mark]**\n\n*If four of the plotted points are correct then ***[1 mark]*** can be awarded for marking point 3. Fewer than four correctly plotted points = no marks.*\n\n(iii) The loss in mass at a wind speed of 10 m per s is...\n\n- 2.9 g; **[1 mark]**\n- Line drawn correctly on the graph (vertical line drawn up to line of best fit from 10 m per s and a horizontal line drawn across from the line of best fit to 2.9 g); **[1 mark]**\n\n*Allow error carried forward here, meaning that if the points were plotted incorrectly in part ii) marks can still be awarded for reading the graph correctly here in part iii).*\n\n(iv)  A more appropriate calculation that gives a fairer comparison is...\n\n- Percentage change in mass = (change in mass ÷ starting mass) × 100; **[1 mark]**\n- Different original mass would affect the result / this takes into account the starting mass; **[1 mark]**\n\n**[Total: 11 marks]**\n\n> *i) When filling in data in a table, always make sure that the numbers you are adding match the same number of decimal places as all the other numbers in the table. *\n\n> *ii) The graph should be drawn as follows:*\n\n![ma-for-cie-igcse-2020-specimen-p6-q2c](assets/005-ma-for-cie-igcse-2020-specimen-p6-q2c.png)\n\n> *iii) The loss in mass can be calculated as follows:*\n\n![ma-for-cie-igcse-2020-specimen-p6-q2c-iii](assets/006-ma-for-cie-igcse-2020-specimen-p6-q2c-iii.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jpDQjfr3TXgySzKr",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 25,
+   "parts": [
+    {
+     "id": "qstnprt_TjsQnBR29GTxz89D",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "Some students decided to investigate the effect of wind speed on the rate of transpiration from leaves. For this, they used a potometer as shown in Fig. 1.\n\n![investigating-transpiration-rates-using-a-potometer](assets/007-investigating-transpiration-rates-using-a-potome.png)\n\n**Fig.1**\n\nThey selected a beech tree from the grounds of their school. Beech was selected because it is a species with a thin waxy cuticle.\n\nIn the laboratory, they filled a sink with water, placed the small branch underwater and cut a shoot off the branch. This shoot contained ten leaves.\n\nPetroleum jelly (e.g. Vaseline™) was smeared around the edges of the cut end of the shoot prior to inserting the shoot into the potometer, as shown in Fig. 2.\n\nCare was taken to avoid petroleum jelly getting onto the cut end of the shoot.\n\n![cut-end-of-beech-shoot](assets/008-cut-end-of-beech-shoot.png)\n\n**Fig. 2**\n\n(i)\n\nSuggest why a species with a thin waxy cuticle was chosen for this experiment.\n\n[2]\n\n(ii)\n\nExplain why the shoot with ten leaves was cut from the branch under water and not in air.\n\n[2]\n\n(iii)\n\nExplain the purpose of petroleum jelly being smeared on the areas shown in Fig. 2.\n\n[1]\n\n(iv)\n\nExplain why the students should avoid petroleum jelly getting onto the cut end of the shoot as shown in Fig. 2.\n\n[2]",
+     "solution_md": "(i) A species with a thin waxy cuticle was chosen for this experiment because:\n\n- (Thin waxy cuticle) will lose water / transpire / evaporate water more quickly (than a thick cuticle); **[1 mark]**\n- (So) will produce a measurable result in quicker time / it will be easier to measure its transpiration rate;** [1 mark]**\n\n(ii) The shoot with ten leaves was cut from the branch under water and not in air because:\n\n- Prevents air bubble getting into xylem / vascular bundle; **[1 mark]**\n- (Which could) cause an airlock / stop further transpiration; **[1 mark]**\n\n(iii) The purpose of petroleum jelly being smeared on in the areas shown in Fig. 2 is:\n\n- To give a watertight / airtight seal between the shoot and the bung / rest of the potometer; **[1 mark]**\n\n(iv) The students should avoid petroleum jelly getting onto the cut end of the shoot as shown in Fig. 2 because:\n\n- The petroleum jelly would block xylem vessels/tubes / vascular bundle; **[1 mark]**\n- (And) transpiration / water uptake is stopped / slowed down; **[1 mark]**\n\n**[Total: 7 marks]**"
+    },
+    {
+     "id": "qstnprt_R6DD3jR67RRDv26V",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N",
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSome students decided to investigate the effect of wind speed on the rate of transpiration from leaves. For this, they used a potometer as shown in Fig. 1.\n\nThey selected a beech tree from the grounds of their school. Beech was selected because it is a species with a thin waxy cuticle.\n\nIn the laboratory, they filled a sink with water, placed the small branch underwater and cut a shoot off the branch. This shoot contained ten leaves.\n\nPetroleum jelly (e.g. Vaseline™) was smeared around the edges of the cut end of the shoot prior to inserting the shoot into the potometer, as shown in Fig. 2.\n\nCare was taken to avoid petroleum jelly getting onto the cut end of the shoot.\n\nBefore the first experiment, the leaves were dried carefully by blotting excess water from the sink off them using pieces of paper towel.\n\nThe students used an electric fan with three speed settings to adjust the speed of air flowing over the leaves. The speed settings were numbered 0 (fan switched off), I (slowest setting), II and III (fastest setting).\n\nAt each wind speed they measured the time taken for the air bubble to move a set distance of 50 mm in the potometer.\n\n(i)\n\nExplain why the leaves were first dried using a paper towel.\n\n[2]\n\n(ii)\n\nSuggest and explain an experimental step that the students should take after drying the leaves and before beginning to take measurements.\n\n[2]\n\n(iii)\n\nDraw a blank results table that the students could fill in with their experimental data.\n\n[3]",
+     "solution_md": "(i) The leaves were first dried using a paper towel because:\n\nAny **two** from the following:\n\n- Water droplets may block stomata / prevent transpiration; **[1 mark]**\n- First experiment (with wet leaves) would not be a valid comparison to subsequent experiments (when the leaves would be dry); **[1 mark]**\n- An artificial rate of transpiration would be recorded; **[1 mark]**\n\n(ii) An experimental step that the students should take after drying the leaves and before beginning to take measurements is:\n\n- To let the experiment equilibrate / wait until the bubble starts to move; **[1 mark]**\n- To demonstrate that the piece of beech is alive / able to transpire freely / will give valid results; **[1 mark]**\n\n(iii) A blank results table would have the following features:\n\n**Three **from the following:\n\n- Independent variable / wind speed in the first column; **[1 mark]**\n- Column 2 labelled Time taken to move 50mm; **[1 mark]**\n- Unit of time included s/min/seconds/minutes; **[1 mark]**\n\n![8-1-atpq---blank-results-table](assets/009-8-1-atpq-blank-results-table.png)\n\n*Ignore repeats / lack of repeats*\n\n**[Total: 7 marks]**"
+    },
+    {
+     "id": "qstnprt_ZXd5BPdTzHPvJFYV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSome students decided to investigate the effect of wind speed on the rate of transpiration from leaves. For this, they used a potometer as shown in Fig. 1.\n\nThey selected a beech tree from the grounds of their school. Beech was selected because it is a species with a thin waxy cuticle.\n\nIn the laboratory, they filled a sink with water, placed the small branch underwater and cut a shoot off the branch. This shoot contained ten leaves.\n\nPetroleum jelly (e.g. Vaseline™) was smeared around the edges of the cut end of the shoot prior to inserting the shoot into the potometer, as shown in Fig. 2.\n\nCare was taken to avoid petroleum jelly getting onto the cut end of the shoot.\n\nBefore the first experiment, the leaves were dried carefully by blotting excess water from the sink off them using pieces of paper towel.\n\nThe students used an electric fan with three speed settings to adjust the speed of air flowing over the leaves. The speed settings were numbered 0 (fan switched off), I (slowest setting), II and III (fastest setting).\n\nAt each wind speed they measured the time taken for the air bubble to move a set distance of 50 mm in the potometer.\n\nThe capillary tube in the potometer used in this experiment (see Fig. 1) has a diameter of 1mm.\n\n(i)\n\nCalculate the volume of water transpired by the piece of plant in the time taken for the bubble to move a distance of 50mm.\n\nThe volume of a cylinder = ***πr***<sup>***2***</sup>***h***, where ***r*** is the radius and ***h*** is the length of capillary tube.\n\nGive your answer in appropriate units.\n\n[3]\n\n(ii)\n\nThe piece of beech under zero wind speed conditions took 7 minutes and 45 seconds to move the bubble 50mm.\n\nCalculate the rate of transpiration in mm<sup>3</sup> minute<sup>-1</sup>.\n\n[2]\n\n(iii)\n\nSuggest **two** reasons why the answer you calculated in part (ii) might be an under-estimate of the rate of transpiration that the plant may experience in its natural habitat.\n\n[2]",
+     "solution_md": "(i) The volume of water transpired by the piece of plant in the time taken for the bubble to move a distance of 50mm is:\n\n- r = 1mm ÷ 2 = 0.5mm; **[1 mark]**\n- πr<sup>2</sup>h = π × 0.5<sup>2</sup> × 50 = 39.25 / 39.3 / 39; **[1 mark]**\n- Units: mm<sup>3</sup>; **[1 mark]**\n\n![8-1-1c-atpq---cylinder-volume](assets/010-8-1-1c-atpq-cylinder-volume.png)\n\n(ii) The rate of transpiration in mm<sup>3</sup> min<sup>-1</sup> is calculated as follows:\n\n- 39 (mm<sup>3</sup>) ÷ 7.75; **[1 mark]**\n\n*Allow error carried forward Do not award mark for dividing by 7.45*\n\n- = 5.03 mm<sup>3</sup> min<sup>-1</sup>;** [1 mark]**\n\n*Error carried forward means that if you got sub-part (i) wrong, you won't be penalised twice for that error; if you use whatever answer you gave for part (i) in this calculation, and it works out correctly, then you'll get the ***[2 marks]*** available for sub-part (ii).*\n\n> *It's important to use a decimal number for minutes. 7 minutes and 45 seconds is 7-and-three-quarter minutes which in decimal terms is 7.75. Using 7.45 as your number of minutes only equates to 7 minutes and 27 seconds. *\n\n(iii) Two reasons why the answer calculated in part (ii) might be an under-estimate of the rate of transpiration that the plant may experience in its natural habitat, are:\n\n**Two** from the following:\n\n- The piece of branch is no longer attached to the rest of the tree / it may be dying / stopping its metabolic processes;** [1 mark]**\n- The light conditions in the lab may be darker than natural daylight / reduced rate of photosynthesis; **[1 mark]**\n- The plant cannot absorb minerals from the potometer; **[1 mark]**\n\n*Ignore, the plant is drying out*\n\n**[Total: 7 marks]**"
+    },
+    {
+     "id": "qstnprt_CDST4YQ3Nj4hwpq7",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "plot",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSome students decided to investigate the effect of wind speed on the rate of transpiration from leaves. For this, they used a potometer as shown in Fig. 1.\n\nThey selected a beech tree from the grounds of their school. Beech was selected because it is a species with a thin waxy cuticle.\n\nIn the laboratory, they filled a sink with water, placed the small branch underwater and cut a shoot off the branch. This shoot contained ten leaves.\n\nPetroleum jelly (e.g. Vaseline™) was smeared around the edges of the cut end of the shoot prior to inserting the shoot into the potometer, as shown in Fig. 2.\n\nCare was taken to avoid petroleum jelly getting onto the cut end of the shoot.\n\nBefore the first experiment, the leaves were dried carefully by blotting excess water from the sink off them using pieces of paper towel.\n\nThe students used an electric fan with three speed settings to adjust the speed of air flowing over the leaves. The speed settings were numbered 0 (fan switched off), I (slowest setting), II and III (fastest setting).\n\nAt each wind speed they measured the time taken for the air bubble to move a set distance of 50 mm in the photometer.\n\nThe capillary tube in the potometer used in this experiment (see Fig. 1) has a diameter of 1mm.\n\nIn a similar experiment using a piece of shoot and leaves from a different species of tree, the students achieved the following results.\n\nFan setting **0** = transpiration rate 45 mm<sup>3</sup>min<sup>-1</sup>\n\nFan setting **I** = transpiration rate 57 mm<sup>3</sup>min<sup>-1</sup>\n\nFan setting **II** = transpiration rate 68 mm<sup>3</sup>min<sup>-1</sup>\n\nFan setting **III** = transpiration rate 70 mm<sup>3</sup>min<sup>-1</sup>\n\nPlot the results on a suitable graph using the grid below.\n\n![Graph paper](assets/011-graph-paper.png)",
+     "solution_md": "The chart would have the following features:\n\n- Bar chart **OR** line chart taking up more than half the allotted space; **[1 mark]**\n- Fan setting / wind speed on x-axis; **[1 mark]**\n- Transpiration rate on y-axis with units; **[1 mark]**\n- Bars plotted accurately; **[1 mark]**\n\n**[Total: 4 marks]**\n\n![8-1-atpq-3d---ma-bar-graph](assets/012-8-1-atpq-3d-ma-bar-graph.png)\n\n> *You can use a bar chart or a line chart for this graph. Strictly speaking, if the independent variable was a wind speed with a set of measured speeds, this should be a line chart with a linear x-axis scale. Because we are just plotting 'fan setting' where all we know is that I is faster than 0, III is faster then II etc., we can count these as a non-linear set of wind speeds, so that is why a bar chart can be allowed in this case. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BpVTxbdZmxJT6dHQ",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_6KkhVBzFrxgVcdYM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hSJhh8dvRpmpDjNF",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the effect of temperature on water uptake in celery stalks.\n\nWater is transported in the xylem tissue in plant stems.\n\nStep 1\n\nOne celery stalk was placed into a beaker containing **warm** red stain. Another celery stalk was placed into a beaker containing **cool** red stain.\n\nThis is shown in Fig 1.\n\n![cie-igcse-2018-paper6-feb-mar-1a-1](assets/013-cie-igcse-2018-paper6-feb-mar-1a-1.png)\n\n**Fig. 1**\n\nStep 2\n\nBoth celery stalks were left in the red stain for 10 minutes.\n\nStep 3\n\nAfter 10 minutes the celery stalks were removed from the red stain.\n\nStep 4\n\nA 5 mm section was cut from the end of the celery stalk which had been in the warm red stain, as shown in Fig. 2.\n\n![cie-igcse-2018-paper6-feb-mar-1a-2](assets/014-cie-igcse-2018-paper6-feb-mar-1a-2.png)\n\n**Fig. 2**\n\nStep 5\n\nThe section was inspected for the presence of the red stain in the xylem tissue in the celery stalk, as shown in Fig. 3.\n\n![cie-igcse-2018-paper6-feb-mar-1a-3](assets/015-cie-igcse-2018-paper6-feb-mar-1a-3.png)\n\n**Fig. 3**\n\nStep 6\n\nIf the red stain was visible in the cut section, another 5 mm section was cut and the process repeated until no red stain was visible in the cut section. This allowed the student to estimate how far the red stain had moved up the celery stalk.\n\nStep 7\n\nSteps 4 to 6 were repeated for the celery stalk which had been in the **cool** red stain.\n\n(i)\n\nState **one** safety precaution that should be taken while carrying out this method.\n\n[1]\n\n(ii)\n\nThe student’s results are shown in Fig. 4.\n\n![cie-igcse-2018-paper6-feb-mar-1a-4](assets/016-cie-igcse-2018-paper6-feb-mar-1a-4.png)\n\n**Fig. 4**\n\nPrepare a table and record your results in your table, in the space provided.Your table should include:\n\n- the temperature (cool or warm) of the red stain\n- the number of sections that were stained in 10 minutes\n- the total distance moved by the red stain in 10 minutes.\n\n[3]\n\n(iii)\n\nUse the data to calculate the rate of movement of the red stain in the celery stalk at each temperature.\n\nGive your answers in mm per minute.\n\n[2]\n\n(iv)\n\nState a conclusion for these results.\n\n[1]",
+     "solution_md": "(i) Safety precautions that should be taken while carrying out this method include:\n\nAny **one **from the following:\n\n- Cut on a (flat) surface **OR** do not cut in mid-air **OR** do not cut on an uneven/slippery surface;** [1 mark]**\n- Cut slowly **OR** cut in a controlled manner **OR **cut only with a sharp blade **OR **cut with a solid/firm/good grip on the celery stalk (and on the knife/scalpel); **[1 mark]**\n- Wear gloves / goggles (to avoid stain on body); **[1 mark]**\n\n(ii) The results table should be prepared and completed as follows:\n\n![1e0254d6-58aa-4379-821c-241fda81c8be](assets/017-1e0254d6-58aa-4379-821c-241fda81c8be.jpeg)\n\n(iii) The rate of movement of the red stain in the celery stalk at each temperature should be calculated as follows:\n\n![ba0270d3-475a-4aeb-8a87-b0fb2fc85adb](assets/018-ba0270d3-475a-4aeb-8a87-b0fb2fc85adb.jpeg)\n\n(iv) A suitable conclusion for these results would be:\n\n- The higher temperature, the faster/further the stain/water moves **OR** the lower the temperature, the slower/smaller the distance the stain/water moves;** [1 mark]**\n\n**[Total: 7 marks]**\n\n> *For parts ii) and iii) be careful and read the information in the question **very carefully** - the question clearly states that \"the cutting process was repeated until **no red stain was visible in the cut section**\" - this means that the final cut section for each temperature (i.e. the **11th** cut section for the **warm** stain and the **5th** cut section for the **cool** stain) actually contain **no stain**. This means that these sections **should not be counted as 'stained sections' in the results table**, hence **10** stained sections for the **warm** stain and **4** stained sections for the **cool** stain! As we cannot be sure exactly where the stain stopped in the final section, you can give a range of values, as shown in the table.*"
+    },
+    {
+     "id": "qstnprt_2MygRBFVsMv8cB6r",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hSJhh8dvRpmpDjNF",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nOne celery stalk was placed into a beaker containing warm red stain. Another celery stalk was placed into a beaker containing cool red stain.\nBoth celery stalks were left in the red stain for 10 minutes.\nA 5 mm section was cut from the end of the celery stalk which had been in the warm red stain, as shown in Fig. 2.\nSteps 4 to 6 were repeated for the celery stalk which had been in the cool red stain.\n\nState **two** variables which were kept constant in this experiment.",
+     "solution_md": "Variables that were kept constant in this experiment included:\n\nAny **two **from the following:\n\n- Length / width / surface area / size of celery (stalk);** [1 mark]**\n- Size / width of cut pieces; **[1 mark]**\n- Species / type (of plant); **[1 mark]**\n- Time in stain; **[1 mark]**\n- Concentration (of stain); **[1 mark]**\n- Volume / depth (of stain); **[1 mark]**\n- Type / colour of stain; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *These are known as the **control variables**. During any kind of scientific investigation, it is very important to keep as many factors as possible **constant / the same **(other than the factor you are changing - known as the **independent variable**). This is so you can be confident that **any changes measured **(i.e. changes in the **dependent variable**) are due to the change in the independent variable and not some other factor.*"
+    },
+    {
+     "id": "qstnprt_FGr6Nd22PbrjRqFj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the effect of temperature on water uptake in celery stalks.\n\nWater is transported in the xylem tissue in plant stems.\n\nStep 1\n\nOne celery stalk was placed into a beaker containing warm red stain. Another celery stalk was placed into a beaker containing cool red stain.\n\nStep 2\n\nBoth celery stalks were left in the red stain for 10 minutes.\n\nStep 3\n\nAfter 10 minutes the celery stalks were removed from the red stain.\n\nStep 4\n\nA 5 mm section was cut from the end of the celery stalk which had been in the warm red stain.\n\nStep 5\n\nThe section was inspected for the presence of the red stain in the xylem tissue in the celery stalk.\n\nStep 6\n\nIf the red stain was visible in the cut section, another 5 mm section was cut and the process repeated until no red stain was visible in the cut section. This allowed the student to estimate how far the red stain had moved up the celery stalk.\n\nStep 7\n\nSteps 4 to 6 were repeated for the celery stalk which had been in the cool red stain.\n\nOne way of improving the method used in this investigation would be to repeat it a number of times.\n\nIdentify **two other** sources of error in this investigation.\n\nFor each error, suggest an improvement to minimise the effect of the error.",
+     "solution_md": "Other sources of error, and suggestions for improvement to minimise the effect of the error, include:\n\nAny **two rows **from the following table:\n\n| **Source of error** | **Improvement ** |\n|---|---|\n| Stain may change temperature / cool down / warm up | Use water-bath / insulation / temperature controlled room / incubator / fridge / lids |\n| Stalks / xylem tissue may be different width/length/size/age | Select stalks of same size/width/age / cut to same length or select celery stalks with same diameter / same number of vascular bundles |\n| (5 mm) sections were too big to give precise results | Cut thinner sections / cut longitudinally |\n| Stain may still move after stalks removed | Do each stalk (experiment) separately |\n| Length of time on tile different | Cut both stalks at the same time |\n\n*The suggested improvement must match the source of error, as shown in the table above, in order to achieve full marks. However, improvements given without an accompanying error (or vice versa) can gain 1 mark each (up to a maximum of 2 marks).*\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_BYDf9tWRgxKZJmgp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "plan",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_vTwVB2d58fmGyyHw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWater is transported in the xylem tissue in plant stems. One celery stalk was placed into a beaker containing red stain. The celery stalk was left in the red stain for a set period of time. After the time, the celery stalk was removed from the red stain. A section was cut from the end of the celery stalk which had been in the red stain. The section was inspected for the presence of the red stain in the xylem tissue in the celery stalk. If the red stain was visible in the cut section, another section was cut and the process repeated until no red stain was visible in the cut section. This allowed the student to estimate how far the red stain had moved up the celery stalk.\n\nSome farmers wanted to investigate the effect of humidity on the rate of transpiration in celery plants.\n\nFig. 5 shows celery plants being harvested.\n\n![cie-igcse-2018-paper6--feb-mar-1d](assets/019-cie-igcse-2018-paper6-feb-mar-1d.png)\n\n**Fig. 5**\n\nOne method of measuring the rate of transpiration is to record how long it takes a red stain to travel up the xylem tissue in a celery stalk that still has its leaves attached.\n\nPlan an investigation to determine the effect of humidity on the rate of movement of water through leafy celery stalks.",
+     "solution_md": "An investigation to determine the effect of humidity on the rate of movement of water through leafy celery stalks should be planned as follows:\n\nAny **six **from the following:\n\n***Independent variable****, maximum of ****three**** from:*\n\n- Test at least two humidities; **[1 mark]**\n- At least two stated humidity values with appropriate units; **[1 mark]**\n- Method to create different humidity; **[1 mark]**\n\n***Controlled variables****, maximum of ****two**** from:*\n\n- <u>Same</u> temperature;** [1 mark]**\n- <u>Same</u> wind speed / do investigation in still air; **[1 mark]**\n- <u>Same</u>  light intensity / wavelength (of light); **[1 mark]**\n- <u>Same</u> carbon dioxide concentration;** [1 mark]**\n- <u>Same</u> species / leaf area / age / length; **[1 mark]**\n\n***Dependent variable****, maximum of ****four**** from:*\n\n- Measure the distance travelled up the stalk by stain **OR** use a photometer **OR** measure volume loss of liquid in beaker **OR **measure mass loss of ‘hanging’ celery **OR** record number of stain pieces; **[1 mark]**\n- In a set time; **[1 mark]**\n- Divide the distance by time (to determine rate);** [1 mark]**\n- (At least) three repeat values at each humidity; **[1 mark]**\n\n**[Total: 6 marks]**"
+    }
+   ]
+  },
   {
    "id": "qstn_WVszSvTNQjV42BZ4",
    "set_slug": "multiple-choice-questions",
@@ -347,7 +658,7 @@
       "spcpt_89yR3KvRWvS93cMn"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows an onion plant that has been grown from a seed. Each onion plant takes two years to flower and produce more seeds.\n\n![Life cycle of a bulb plant showing stages from seed to developing leaves, bulb formation, flowering, and mature plant over two years.](assets/001-life-cycle-of-a-bulb-plant-showing-stages-from-s.png)\n\nWhat is the onion bulb acting as in stage 3 and in stage 6?\n\n|   | stage 3 | stage 6 |\n|---|---|---|\n| **A** | sink | sink |\n| **B** | sink | source |\n| **C** | source | sink |\n| **D** | source | source |",
+     "problem_md": "The diagram shows an onion plant that has been grown from a seed. Each onion plant takes two years to flower and produce more seeds.\n\n![Life cycle of a bulb plant showing stages from seed to developing leaves, bulb formation, flowering, and mature plant over two years.](assets/020-life-cycle-of-a-bulb-plant-showing-stages-from-s.png)\n\nWhat is the onion bulb acting as in stage 3 and in stage 6?\n\n|   | stage 3 | stage 6 |\n|---|---|---|\n| **A** | sink | sink |\n| **B** | sink | source |\n| **C** | source | sink |\n| **D** | source | source |",
      "solution_md": "**Final answer:** **The correct answer is ****B****.**\n\n- A source is an area of the plant which produces more glucose in photosynthesis than it uses in respiration.\n- In stage 3, the bulb has photosynthesizing leaves and provides glucose which can be stored within the bulb.\n- In stage 6, the bulb no longer has leaves and so becomes a source of glucose for the next stage of development.\n\n**A **is incorrect because the bulb provides glucose in stage 6 and so is a source at this point rather than a sink.\n\n**C **is incorrect because  in stage 3, the bulb is storing glucose and is therefore a sink and not a source and in stage 6, the bulb uses the stored glucose up and so becomes a source of glucose, rather than a sink.\n\n**D **is incorrect because in stage 3, the bulb is storing glucose and is therefore a sink and not a source.",
      "choices": [
       {
@@ -398,7 +709,7 @@
       "spcpt_JgKsK7zdJYwfspc7"
      ],
      "part_tier": null,
-     "problem_md": "The graph shows daily carbon dioxide uptake and transpiration by the plant Agave americana.\n\nThe plant is adapted to live in very dry conditions.\n\n![Graph showing CO2 uptake and transpiration rates over 24 hours. CO2 uptake peaks at 0 and 24 hours, while transpiration remains steady with slight midday dip.](assets/002-graph-showing-co2-uptake-and-transpiration-rates.png)\n\nWhat can be concluded from this graph?",
+     "problem_md": "The graph shows daily carbon dioxide uptake and transpiration by the plant Agave americana.\n\nThe plant is adapted to live in very dry conditions.\n\n![Graph showing CO2 uptake and transpiration rates over 24 hours. CO2 uptake peaks at 0 and 24 hours, while transpiration remains steady with slight midday dip.](assets/021-graph-showing-co2-uptake-and-transpiration-rates.png)\n\nWhat can be concluded from this graph?",
      "solution_md": "**Final answer:** **The correct answer is ****B****.**\n\n- In plants that are adapted to live in very dry conditions, the stomata close when the temperatures increase to reduce water loss by transpiration. As a result, more stomata are likely to be open when it is dark than when it is light during the day\n- This is shown in the graph by the reduced uptake of carbon dioxide during the day compared to during the night and also by the decrease in transpiration rate in the daytime, between approximately 6:00 and 18:00\n\n**A** is incorrect because the higher rate of CO<sub>2</sub> uptake and transpiration during the night time (between 18:00 and 6:00) indicates that the stomata are open.\n\n**C** is incorrect because CO<sub>2 </sub> uptake continues throughout the 24 hour period and is at its highest during the nighttime hours.\n\n**D** is incorrect because, although transpiration is reduced during the light periods, the process does not stop completely and so water uptake will also continue.",
      "choices": [
       {
@@ -449,7 +760,7 @@
       "spcpt_wnsYq9ZtzYsVC62X"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a cross-section through a leaf.\n\nFrom which cell will most water evaporate during transpiration?\n\n![Diagram of a dicot leaf's cross-section with labelled structures: A. palisade mesophyll, B. xylem, C. phloem, D. spongy mesophyll, showing cellular details.](assets/003-diagram-of-a-dicot-leaf-s-cross-section-with-lab.png)",
+     "problem_md": "The diagram shows a cross-section through a leaf.\n\nFrom which cell will most water evaporate during transpiration?\n\n![Diagram of a dicot leaf's cross-section with labelled structures: A. palisade mesophyll, B. xylem, C. phloem, D. spongy mesophyll, showing cellular details.](assets/022-diagram-of-a-dicot-leaf-s-cross-section-with-lab.png)",
      "solution_md": "**Final answer:** **The correct answer is ****D****.**\n\n- This is because spongy mesophyll cells have a large surface area and a lot of air spaces around them for the water to evaporate to\n- They are also close to the stomata, which is where most water evaporates out of during transpiration\n\n**A** is incorrect because the palisade mesophyll cells have a small surface area close to the air and so only have a small area for evaporation. They also use up water during photosynthesis and so take in a lot of water for that reason.\n\n**B** is incorrect because the xylem carries water into the leaf but is not a cell. The “cells” of the xylem are not alive.\n\n**C** is incorrect because the phloem takes in sugars and amino acids and carries them away from the leaf. Water is not carried in the phloem.",
      "choices": [
       {
@@ -501,7 +812,7 @@
       "spcpt_bH8PcsMVGRmpSKPw"
      ],
      "part_tier": null,
-     "problem_md": "A non-woody plant stem is placed in water containing a red dye. It is left for one day and then a section of the stem is examined using a microscope.\n\nWhich tissue is stained red?\n\n![Diagram of a cross-section of a plant stem, showing a circular arrangement of five labelled vascular bundles: A, B, C, and D inside a circle.](assets/004-diagram-of-a-cross-section-of-a-plant-stem-showi.png)",
+     "problem_md": "A non-woody plant stem is placed in water containing a red dye. It is left for one day and then a section of the stem is examined using a microscope.\n\nWhich tissue is stained red?\n\n![Diagram of a cross-section of a plant stem, showing a circular arrangement of five labelled vascular bundles: A, B, C, and D inside a circle.](assets/023-diagram-of-a-cross-section-of-a-plant-stem-showi.png)",
      "solution_md": "**Final answer:** **The correct answer is ****D****.**\n\n- This is because this is the xylem vessel, which is the vessel that water and minerals travel through in order to get from the roots to the leaves of the plant\n\n**A** is incorrect because this is the outer part of the plant and has the function of protecting the plant from the entry of pathogens.\n\n**B** is incorrect because this is the phloem that carries sucrose and amino acids through the plant, not water.\n\n**C** is incorrect because the cells in this part of the plant support the plant with their turgor pressure but they are not vessels for the transport of water.",
      "choices": [
       {
@@ -603,7 +914,7 @@
       "spcpt_v7XgMvCgz4NwX2Tp"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows part of a cross-section of a root.\n\n![Diagram of a plant cell's cross-section, showcasing labelled parts: 1 represents a trichome, 2 indicates an epidermal cell, and 3 shows a guard cell.](assets/005-diagram-of-a-plant-cell-s-cross-section-showcasi.png)\n\nWhat are cells 1, 2 and 3?\n\n|   | 1 | 2 | 3 |\n|---|---|---|---|\n| **A** | root cortex cell | root hair cell | mesophyll cell |\n| **B** | root hair cell | root cortex cell | xylem |\n| **C** | root hair cell | root cortex cell | mesophyll cell |\n| **D** | root cortex cell | root hair cell | xylem |",
+     "problem_md": "The diagram shows part of a cross-section of a root.\n\n![Diagram of a plant cell's cross-section, showcasing labelled parts: 1 represents a trichome, 2 indicates an epidermal cell, and 3 shows a guard cell.](assets/024-diagram-of-a-plant-cell-s-cross-section-showcasi.png)\n\nWhat are cells 1, 2 and 3?\n\n|   | 1 | 2 | 3 |\n|---|---|---|---|\n| **A** | root cortex cell | root hair cell | mesophyll cell |\n| **B** | root hair cell | root cortex cell | xylem |\n| **C** | root hair cell | root cortex cell | mesophyll cell |\n| **D** | root cortex cell | root hair cell | xylem |",
      "solution_md": "**Final answer:** **The correct answer is**** B****.**\n\n- The root hair cell is the most external cell of the root, the cortex cells are aligned between the root hair cell and the xylem in the centre of the root.\n\nAll other answers are incorrect combinations of cells.",
      "choices": [
       {
@@ -654,7 +965,7 @@
       "spcpt_89yR3KvRWvS93cMn"
      ],
      "part_tier": null,
-     "problem_md": "Roots and leaves both act as sources and sinks for sucrose and amino acids at different times during the year.\n\nAt which point in the year are the roots most active as a source?\n\n![8-1-image-hq8](assets/006-8-1-image-hq8.png)",
+     "problem_md": "Roots and leaves both act as sources and sinks for sucrose and amino acids at different times during the year.\n\nAt which point in the year are the roots most active as a source?\n\n![8-1-image-hq8](assets/025-8-1-image-hq8.png)",
      "solution_md": "**Final answer:** **The correct answer is A.**\n\n- This is because the new leaves require the sucrose and amino acids in order to grow\n- The new leaves have not yet grown and started to photosynthesise in order to provide a source of new biological molecules\n\n**B** is incorrect because the mature leaves are able to photosynthesise and provide a source of biological molecules like sucrose and amino acids\n\n**C **and **D** are incorrect because there is very little new growth/metabolic activity happening at these times of year and so the source of amino acids and sucrose is not needed very much",
      "choices": [
       {
@@ -705,7 +1016,7 @@
       "spcpt_BXpc8jpnCQQ59z8N"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows two shoots at the start of an experiment on transpiration.\n\n![8-1-image-hq7](assets/007-8-1-image-hq7.png)\n\nWhat are the likely readings on the spring balances after three days?\n\n|   | shoot X/g | shoot Y/g |\n|---|---|---|\n| **A** | 25 | 30 |\n| **B** | 25 | 25 |\n| **C** | 30 | 25 |\n| **D** | 30 | 30 |",
+     "problem_md": "The diagram shows two shoots at the start of an experiment on transpiration.\n\n![8-1-image-hq7](assets/026-8-1-image-hq7.png)\n\nWhat are the likely readings on the spring balances after three days?\n\n|   | shoot X/g | shoot Y/g |\n|---|---|---|\n| **A** | 25 | 30 |\n| **B** | 25 | 25 |\n| **C** | 30 | 25 |\n| **D** | 30 | 30 |",
      "solution_md": "**Final answer:** **The correct answer is B because:**\n\n- Shoot X will have carried out transpiration and lost water from the leaves; this will have caused a reduction in mass\n- Shoot Y has no leaves and so will not have lost water by transpiration, meaning that the mass will have stayed the same\n\n**A **is incorrect because shoot Y would not have gained mass for any reason\n\n**C** is incorrect because shoot X should have lost mass due to transpiration and shoot Y would not have gained mass for any reason\n\n**D** is incorrect because shoot X should have lost mass due to transpiration\n\n18. The diagram shows a section through a human heart.",
      "choices": [
       {
@@ -756,7 +1067,7 @@
       "spcpt_bH8PcsMVGRmpSKPw"
      ],
      "part_tier": null,
-     "problem_md": "The photomicrograph shows a cross-section through the root of a buttercup plant.\n\n![8-1-image-hq6](assets/008-8-1-image-hq6.png)\n\nWhat is the main function of the tissue labelled Z?",
+     "problem_md": "The photomicrograph shows a cross-section through the root of a buttercup plant.\n\n![8-1-image-hq6](assets/027-8-1-image-hq6.png)\n\nWhat is the main function of the tissue labelled Z?",
      "solution_md": "**Final answer:** **The correct answer is D because:**\n\n- Z shows a xylem vessel, which has the role of transporting water (and mineral ions) from the root to the rest of the plant\n- Xylem vessels can be recognised by their thickened cell walls\n\n**A** is incorrect because photosynthesis takes place in the cells of the leaves, not in the roots.\n\n**B** is incorrect because xylem vessel cells are dead and therefore do not carry out respiration.\n\n**C** is incorrect because phloem vessels transport sugars, not xylem vessels.",
      "choices": [
       {
@@ -859,7 +1170,7 @@
       "spcpt_wnsYq9ZtzYsVC62X"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows a potted plant and the same plant 48 hours later.\n\n![8-q1-wilting](assets/009-8-q1-wilting.png)\n\nWhat has caused the plant’s appearance to change?",
+     "problem_md": "The diagram below shows a potted plant and the same plant 48 hours later.\n\n![8-q1-wilting](assets/028-8-q1-wilting.png)\n\nWhat has caused the plant’s appearance to change?",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- After 48 hours the leaves have **wilted**, you can see them drooping in the image\n- Wilting is a sign that a plant has **insufficient water** – it has lost more water by transpiration than it has taken up and therefore water has moved out of cells, causing them to become flaccid\n\n**A** & **B** are incorrect because translocation is the term used to describe the movement of sucrose and amino acids in the phloem.\n\n**D** is incorrect because water loss occurs by evaporation of water from mesophyll cells inside the leaf and then diffusion of this water vapour through the stomata. Osmosis describes the movement of water between solutions separated by partially permeable membranes.",
      "choices": [
       {
@@ -1013,7 +1324,7 @@
       "spcpt_BXpc8jpnCQQ59z8N"
      ],
      "part_tier": null,
-     "problem_md": "A potometer can be used to measure the rate that a piece of plant transpires under various conditions.\n\nPart of a potometer is shown in the diagram below.\n\n![potometer](assets/010-potometer.png)\n\nWhich statement, relating to how a potometer works, is **false**?",
+     "problem_md": "A potometer can be used to measure the rate that a piece of plant transpires under various conditions.\n\nPart of a potometer is shown in the diagram below.\n\n![potometer](assets/029-potometer.png)\n\nWhich statement, relating to how a potometer works, is **false**?",
      "solution_md": "**Final answer:** **The correct (false) statement is ****B.**** (in a potometer, an air bubble moves away from the piece of plant tissue that is under investigation) because:**\n\nThe air bubble moves **towards** the plant. the transpiration stream pulls water into the xylem at the bottom of the piece of plant. The bubble moves with the water, therefore towards the plant.\n\n**A**, **C** and **D** are all correct statements.\n\nFor **A**, the transpiration of water pulls water up from the potometer, provided there is a tight seal between the end of the cut stem of the plant and the water supply beneath.\n\nFor **C**, the rate of reaction (or any process) always requires a measurement of time so that, in this case, the speed of uptake of water per minute/hour can be measured and stated quantitatively.\n\nFor **D**, water on the leaves may block stomata and prevent water vapour from diffusing out, hence affecting the rate of transpiration.",
      "choices": [
       {
@@ -1116,7 +1427,7 @@
       "spcpt_Rp6X4q34Qb99Qrhd"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe diagram below shows two shoots at the start of an experiment set up by a group of students. Shoot A is on the left, while Shoot B is on the right.\n\n![8--q11--transpiration-](assets/011-8-q11-transpiration.png)\n\nWhat are the most likely readings on the spring balances after four days?\n\n|   | **Spring balance readings / g** |   |\n|---|---|---|\n| **shoot A** | **shoot B** |   |\n| **A** | 40 | 40 |\n| **B** | 40 | 34 |\n| **C** | 34 | 40 |\n| **D** | 34 | 34 |",
+     "problem_md": "#### Extended only\n\nThe diagram below shows two shoots at the start of an experiment set up by a group of students. Shoot A is on the left, while Shoot B is on the right.\n\n![8--q11--transpiration-](assets/030-8-q11-transpiration.png)\n\nWhat are the most likely readings on the spring balances after four days?\n\n|   | **Spring balance readings / g** |   |\n|---|---|---|\n| **shoot A** | **shoot B** |   |\n| **A** | 40 | 40 |\n| **B** | 40 | 34 |\n| **C** | 34 | 40 |\n| **D** | 34 | 34 |",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Shoot **B** has leaves and so transpiration will occur\n- The water level in the tube will decrease, leading to a loss in mass\n\nShoot **A** has no leaves, so no transpiration will occur and the water level in the tube will remain the same, so there will be no change in mass.",
      "choices": [
       {
@@ -1219,8 +1530,8 @@
       "spcpt_bH8PcsMVGRmpSKPw"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nA dicot plant is placed into a bowl of water coloured with red dye.\n\nAfter 1 hour, a cross section of one of the roots is cut.\n\nAfter 4 hours, a cross section is cut from the stem.\n\n![8--q4-root-and-stem](assets/012-8-q4-root-and-stem.png)\n\nWhich labelled regions would be stained red in each case?",
-     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n2 is the xylem as seen in a cross-section of a root in a dicotyledonous plant, and 3 is the xylem in a cross-section taken of the stem. The dye molecules are dissolved in water which moves up the xylem through the plant.\n\n![--8--model-answer-4--structure-roots-and-stem-](assets/013-8-model-answer-4-structure-roots-and-stem.png)\n\n**A** is incorrect because 1 is the phloem. The phloem tissue is located in the outer region of the vascular bundle.\n\n**B** and **C** are incorrect because 4 is the phloem in the root, which is found in smaller bundles surrounding the larger xylem vessels.",
+     "problem_md": "#### Extended only\n\nA dicot plant is placed into a bowl of water coloured with red dye.\n\nAfter 1 hour, a cross section of one of the roots is cut.\n\nAfter 4 hours, a cross section is cut from the stem.\n\n![8--q4-root-and-stem](assets/031-8-q4-root-and-stem.png)\n\nWhich labelled regions would be stained red in each case?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n2 is the xylem as seen in a cross-section of a root in a dicotyledonous plant, and 3 is the xylem in a cross-section taken of the stem. The dye molecules are dissolved in water which moves up the xylem through the plant.\n\n![--8--model-answer-4--structure-roots-and-stem-](assets/032-8-model-answer-4-structure-roots-and-stem.png)\n\n**A** is incorrect because 1 is the phloem. The phloem tissue is located in the outer region of the vascular bundle.\n\n**B** and **C** are incorrect because 4 is the phloem in the root, which is found in smaller bundles surrounding the larger xylem vessels.",
      "choices": [
       {
        "label": "A",
@@ -1270,7 +1581,7 @@
       "spcpt_wnsYq9ZtzYsVC62X"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a simplified water cycle.\n\n![q11-organisms-and-their-environment-mcq-booklet-1-cie-igcse-biology](assets/014-q11-organisms-and-their-environment-mcq-booklet-.png)\n\nWhich of the processes listed below would be involved in the loss of water from the tree?",
+     "problem_md": "The diagram shows a simplified water cycle.\n\n![q11-organisms-and-their-environment-mcq-booklet-1-cie-igcse-biology](assets/033-q11-organisms-and-their-environment-mcq-booklet-.png)\n\nWhich of the processes listed below would be involved in the loss of water from the tree?",
      "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\nPlants lose water through **transpiration**. Water vapour can diffuse out of the leaves through the **stomata**. This water vapour comes from the spongy cells within the leaf; water will **evaporate **from the surface of these cells.\n\n**A** is incorrect because respiration produces water, but it is not the process by which water is lost from the plant.\n\n**B** is incorrect because translocation is the movement of nutrients and amino acids through the phloem.\n\n**C** is incorrect because photosynthesis requires water as a source of hydrogen to produce carbohydrates.",
      "choices": [
       {
@@ -1321,7 +1632,7 @@
       "spcpt_vTwVB2d58fmGyyHw"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nWhich of the following graphs correctly shows the relationship between the rate of transpiration and atmospheric humidity?\n\n![8--q9--rate-and-humidity](assets/015-8-q9-rate-and-humidity.png)",
+     "problem_md": "#### Extended only\n\nWhich of the following graphs correctly shows the relationship between the rate of transpiration and atmospheric humidity?\n\n![8--q9--rate-and-humidity](assets/034-8-q9-rate-and-humidity.png)",
      "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Humidity is a measure of the concentration of water vapour in the air\n- When humidity is low there is a steep water vapour concentration gradient between the inside of the leaf and the surrounding air, so transpiration rate is high\n- When humidity is high the concentration gradient is very shallow so transpiration rate is much lower\n\n**B** and **C** are incorrect because both graphs show the rate of transpiration increasing as humidity increases.\n\n**D** is incorrect because graph **D** shows the rate of transpiration remaining constant as humidity increases, which would suggest no relationship between the two factors.",
      "choices": [
       {
@@ -1476,7 +1787,7 @@
      ],
      "part_tier": null,
      "problem_md": "The table below shows some characteristics of four different plants.\n\nThe plants are growing in the same environmental conditions.\n\nWhich plant will have the **lowest **rate of transpiration?\n\n|   | **number of leaves on plant** | **average surface area of one leaf / cm**<sup>**2**</sup> | **average density of stomata on leaves / stomata per mm**<sup>**2**</sup> | **average diameter of one stoma / µm** |\n|---|---|---|---|---|\n| **A** | 36 | 53 | 276 | 19 |\n| **B** | 21 | 51 | 247 | 18 |\n| **C** | 24 | 45 | 249 | 15 |\n| **D** | 17 | 40 | 151 | 16 |",
-     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Transpiration takes place via stomata, so the plant that has the lowest stomatal density will have the lowest rate of transpiration\n- **D** has the lowest total surface area (number of leaves × average surface area of one leaf) and also the lowest density of stomata per mm<sup>2</sup>, with each stoma being fairly small in diameter\n\n![8-1-q5-h---ma](assets/016-8-1-q5-h-ma.png)",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Transpiration takes place via stomata, so the plant that has the lowest stomatal density will have the lowest rate of transpiration\n- **D** has the lowest total surface area (number of leaves × average surface area of one leaf) and also the lowest density of stomata per mm<sup>2</sup>, with each stoma being fairly small in diameter\n\n![8-1-q5-h---ma](assets/035-8-1-q5-h-ma.png)",
      "choices": [
       {
        "label": "A",
@@ -1601,6 +1912,1326 @@
        "text_md": "A decrease in wind speed."
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vdbxn4vdzKrVWP8p",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_part",
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_q2fH4nZbTXM4v8hP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Glucose is produced in the leaves of plants during photosynthesis. This glucose is converted into a different carbohydrate for transport.\n\nName the carbohydrate transported in the phloem.",
+     "solution_md": "> **[mark-scheme]**\n> - Sucrose **[1 mark]**\n\n> **[exam-tip]**\n> Do not say \"sugar\" or \"glucose\" is transported; plants move carbohydrate in the form of **sucrose**.\n> \n> Amino acids are not carbohydrates, so no marks will be awarded for naming these compounds."
+    },
+    {
+     "id": "qstnprt_JBwDTZfVdsZ936cn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VCWcZxVHZqTfWqTZ",
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "An experiment was conducted where a ring of bark was removed from a tree, as shown in Fig. 3.1.\n\nThis process removes the phloem but leaves the xylem intact.\n\n![Illustration comparing a tree trunk immediately and 24 hours after bark removal, showing the cut area without bark.](assets/036-illustration-comparing-a-tree-trunk-immediately-.png)\n\n**Fig. 3.1**\n\nExplain why the area above the ring becomes swollen after 24 hours.",
+     "solution_md": "> **[mark-scheme]**\n> - Carbohydrates/glucose/sugars / amino acids are made in the leaves **[1 mark]**\n> - The ring / removal of bark prevents downward movement in the phloem / blocks the phloem / prevents translocation **[1 mark]**\n> - Sugars/sucrose / amino acids collect/accumulate (above the ring) **[1 mark]**\n> - This lowers the water potential in the (blocked) phloem **[1 mark]**\n> - Water moves in by osmosis **[1 mark]**\n\n> **[exam-tip]**\n> This is a high-level applied question. The most common mistake is forgetting the **osmosis** part.\n> \n> The swelling isn't just \"stuffed with sugar\"; it's swollen because the sugar build-up draws water into the phloem. Mentioning water potential and osmosis is the key to the final marks."
+    },
+    {
+     "id": "qstnprt_g28J5bCP6rbSr3th",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GNBx3NXrNW2bNwX8"
+     ],
+     "part_tier": null,
+     "problem_md": "The terms *source* and *sink* are used to describe the movement of substances in a plant.\n\nIn early spring a potato plant begins to grow new shoots from an underground tuber (potato).\n\nIdentify the source and the sink in this specific scenario.",
+     "solution_md": "> **[mark-scheme]**\n> - Source = tuber/potato **[1 mark]**\n> - Sink = new shoots / growing buds  **[1 mark]**\n\n> **[exam-tip]**\n> In **summer** the leaves are the source (making sugar) and the tuber is the sink (storing it). In **spring**, the roles are **reversed** because the tuber is releasing its stored starch to provide energy for the new shoots.\n> \n> Read the time of year in the question carefully."
+    },
+    {
+     "id": "qstnprt_d3fbR68gCf8X3pkd",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nAn experiment was conducted where a ring of bark was removed from a tree, as shown in Fig. 3.1.\n\nThis process removes the phloem but leaves the xylem intact.\n\n![Illustration comparing a tree trunk immediately and 24 hours after bark removal, showing the cut area without bark.](assets/036-illustration-comparing-a-tree-trunk-immediately-.png)\n\n**Fig. 3.1**\n\nExplain why the tree in Fig. 3.1 will eventually die, despite having functional xylem vessels.",
+     "solution_md": "> **[mark-scheme]**\n> Any **five** from:\n> \n> - Root cells will run out of glucose for respiration\n> - Root cells cannot release energy\n> - Roots will be unable to carry out active transport / actively transport minerals (into cells)\n> - There will be fewer nitrates for production of amino acids\n> - There will be less magnesium for production of chlorophyll\n> - Photosynthesis rate decreases / leaves cannot photosynthesise so the tree cannot grow\n> \n> **[5 marks]**\n> \n> Reject references to energy being made or produced in marking point 2.\n\n> **[exam-tip]**\n> The phloem transports sugars from the leaves to the roots. If this is disrupted, the roots will no longer receive the glucose they need for respiration and active transport.\n> \n> Without active transport, the roots cannot absorb mineral ions from the soil. This matters because minerals are essential for key biological processes — nitrates are needed to produce amino acids, which are required for protein synthesis, while magnesium is needed to produce chlorophyll. Without chlorophyll, the rate of photosynthesis decreases and the tree can no longer grow."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vqv2g9J8FPY5T54R",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_PNQvZWZ5HJDfmkgP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the mass of water lost by a potted plant over one hour in different environmental conditions. The results are shown in **Table 3.1**.\n\n**Table 3.1**\n\n| **Condition** | **Water lost in 1 hour (g)** |\n|---|---|\n| Cool and still | 2.5 |\n| Hot and still | 8.0 |\n| Hot and windy | 14.5 |\n\nWater is transported from the roots to the leaves before it is lost to the atmosphere.\n\n(i) State the name of the tissue that transports water up the stem of plants.\n\n[1]\n\n(ii) State the name of the small openings on the underside of the leaf from which most water vapour is lost.\n\n[1]\n\n(iii) State the name of the cells that control the opening and closing of the openings named in (ii).\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The tissue that transports water up the stem of plants is:\n> \n> - Xylem **[1 mark]**\n> \n> (ii) The name of the small openings on the underside of the leaf from which most water vapour is lost is:\n> \n> - Stomata / stoma **[1 mark]**\n> \n> (iii) The name of the cells that control the opening and closing of the openings named in (ii) is:\n> \n> - Guard (cells) **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_KmW6BCYXsB3XK3CY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the mass of water lost by a potted plant over one hour in different environmental conditions. The results are shown in **Table 3.1**.\n\n**Table 3.1**\n\n| **Condition** | **Water lost in 1 hour (g)** |\n|---|---|\n| Cool and still | 2.5 |\n| Hot and still | 8.0 |\n| Hot and windy | 14.5 |\n\nUsing the results in Table 3.1, describe the effect of temperature and wind speed on the mass of water lost.",
+     "solution_md": "> **[mark-scheme]**\n> Any **three** from:\n> \n> - At higher temperatures more water / a higher mass of water is lost **[1 mark]**\n> - At higher wind speed more water / a higher mass of water is lost **[1 mark]**\n> - Correct data quoted to back up either of the above points — e.g. water loss was greater in hot conditions than cool conditions, increasing from 2.5 g to 8.0 g **[1 mark]**\n\n> **[exam-tip]**\n> When asked to \"describe\" data from a table or graph, it is a good idea to first identify the trend or pattern, and then support it with numbers from the data."
+    },
+    {
+     "id": "qstnprt_3qW2WsZPCJTNfjgJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the mass of water lost by a potted plant over one hour in different environmental conditions. The results are shown in **Table 3.1**.\n\n**Table 3.1**\n\n| **Condition** | **Water lost in 1 hour (g)** |\n|---|---|\n| Cool and still | 2.5 |\n| Hot and still | 8.0 |\n| Hot and windy | 14.5 |\n\nUsing the data recorded for the hot and still condition in Table 3.1, calculate the rate of water loss per minute over the hour time period.\n\nShow your working.",
+     "solution_md": "To calculate the rate of water loss per minute:\n\nrate of water loss = total water lost ÷ total time in minutes\n\n- Determine the total water lost\n\n8 g\n\n- Determine the number of minutes\n\n1 hour = 60 minutes\n\n- Calculate rate of water loss\n\n= 8.0 ÷ 60 **[1 mark]**\n\n= **0.13** **g / minute** **[1 mark]**\n\n> **[mark-scheme]**\n> Award full marks for the correct answer in the absence of additional calculations.\n> \n> Award a maximum of 1 mark for the correct answer without suitable units."
+    },
+    {
+     "id": "qstnprt_3YdDZhZXd467swnf",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "The loss of water vapour from the surface of leaves is a named biological process.\n\n(i) State the name of this process.\n\n[1]\n\n(ii) Explain how the process of water movement named in (i) occurs.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The name of this process is:\n> \n> - Transpiration **[1 mark]**\n> \n> (ii) The process of water movement named in (i) occurs as follows:\n> \n> - Water evaporates from the cell surfaces inside the leaf / surfaces of mesophyll cells **[1 mark]**\n> - Water vapour diffuses out through the stomata / moves out of the stomata down a concentration gradient **[1 mark]**\n\n> **[exam-tip]**\n> This is an \"explain\" question, so it is not enough to simply state that water moves out through the stomata — you must refer to the processes involved, such as evaporation and diffusion, to access both marks."
+    },
+    {
+     "id": "qstnprt_whpvb3F322STJmRY",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TKMXprKx346TSYWB",
+      "spcpt_GrJZQ6tGDVSC29wc"
+     ],
+     "part_tier": null,
+     "problem_md": "Another student placed a potted plant on a windowsill. After one week they noticed that the stem of the plant had bent and was growing towards the window.\n\nState the name of the plant's growth response, and explain why this response is an advantage to the plant.",
+     "solution_md": "> **[mark-scheme]**\n> - Phototropism** [1 mark]**\n> - More light can be absorbed for photosynthesis** [1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vgymhGkWVyxby9Jv",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_YzvQttBmSXcRWzRv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/04",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PnQVP9vCZ9pfZ9Vd"
+     ],
+     "part_tier": null,
+     "problem_md": "When yeast respires anaerobically, ethanol is produced.\n\nEthanol is a type of sustainable resource that can be made from a wide range of crop plants.\n\nIt can be used as a biofuel.\n\nTable 4.1 summarises some information about crop plants that are used to make biofuel.\n\n**Table 4.1**\n\n| crop plant | biofuel produced | energy yield / GJ per ha | optimum growth temperature / °C | optimum annual rainfall range / mm |\n|---|---|---|---|---|\n| wheat | ethanol | 53–84 | 24 | 800–1200 |\n| corn | ethanol | 63–76 | 18 | 360–1000 |\n| sugar beet | ethanol | 110–122 | 18 | 360–1000 |\n| sugarcane | ethanol | 110–140 | 28 | 800–1200 |\n| oil palm | oil | 150–166 | 28 | 1100–2500 |\n\nA country has a mean temperature range of 12 °C to 24 °C. The country has a mean annual rainfall of 1000 mm.\n\nSuggest **and** explain which crop plant would be the most suitable crop to grow to produce biofuel in the country.\n\nUse the information in Table 4.1 to support your choice. crop plant .................................................................................................................................. explanation ...............................................................................................................................",
+     "solution_md": "*Crop plant:*\n\n- Sugar beet; [1 mark]\n\n*Explanation:*\n\nMaximum** two** from:\n\n- It grows in an appropriate temperature range; **[1 mark]**\n- It grows in an appropriate rainfall range; **[1 mark]**\n- Energy yield is greater than wheat / corn; **[1 mark]**\n- Use of data to support answer e.g. of the three crops that can grow in the 12 - 24 °C temperature range, sugar beet has the highest energy yield of 110-140 GJ per ha compared to wheat with a max of 84 GJ per ha and corn with a max of 76 GJ per ha; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *If you are given data in a table or a graph try to get into the habit of quoting numbers from the provided data in your answers. This is very important in explanation questions to provide evidence to support your explanation and is a very common type of question. *"
+    },
+    {
+     "id": "qstnprt_2gp3m6wrvDDh5frs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/04",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vTwVB2d58fmGyyHw"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe **and** explain how a reduced concentration of water vapour in the air would increase the movement of water through crop plants",
+     "solution_md": "Any **three** from:\n\n- Increased rate of transpiration; **[1 mark]**\n- Greater concentration of water vapour inside the leaf than outside; **[1 mark]**\n- More water vapour diffuses out of the leaf; **[1 mark]**\n- Through stomata; **[1 mark]**\n- More water moves up the xylem / by transpiration pull; **[1 mark]**\n\n**[Total: 3 marks]**\n\nA reduced concentration of water in the air increases the concentration gradient for diffusion. Remember that water diffuses out of the stomata of the leaf. It does not move by osmosis because it is not passing through a partially permeable membrane."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gpVTJQq59XrKCZRg",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_TcY5sf3x9QRjftGN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_vTwVB2d58fmGyyHw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDescribe **and** explain how a reduced concentration of water vapour in the air would increase the movement of water through crop plants.",
+     "solution_md": "A reduced concentration of water vapour in the air would increase the movement of water through crop plants as follows...\n\nAny **three **of the following:\n\n- Increased rate of transpiration; **[1 mark]**\n\n**This is because...**\n\n- The concentration of water vapour is greater inside the leaf than outside; **[1 mark]**\n- More water vapour diffuses <u>out</u> of the leaf / the rate of diffusion of water vapour <u>out</u> of the leaf increases; **[1 mark]**\n- (Diffusion occurs) through the stomata; **[1 mark]**\n- More water moves up the xylem / due to transpiration pull (to replace the water lost at the stomata by transpiration); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Reducing the concentration of water vapour in the air will lead to a steeper concentration gradient between the inside of the leaf and the outside. This will increase the rate of diffusion of water vapour out of the leaf through the stomata, causing more water to be pulled up the xylem vessels to replace it. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ggcY8RvbnJxhQQYg",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_YkDGNzXWZpqVBbFN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nA student cut a section of a root and made an outline drawing of the distribution of tissues as shown in Fig. 1\n\n![061041-may-2018-paper-4-q3a-xylem---sq](assets/037-061041-may-2018-paper-4-q3a-xylem-sq.png)\n\n**Fig 1**\n\n(i)\n\nIdentify the position of the xylem tissue by drawing a label line and the letter **X** on** **Fig. 1\n\n[1]\n\n(ii)\n\nState why the xylem is a tissue.\n\n[2]",
+     "solution_md": "(i) The position of the xylem is shown by:\n\n- Label line **AND X** pointing to any part of the ‘star’ in the centre of the root section;** [1 mark]**\n\n![061041-may-2018-paper-4-q3a-xylem---ma](assets/038-061041-may-2018-paper-4-q3a-xylem-ma.png)\n\n(ii) The xylem is a tissue because it is:\n\n- Composed of (group of) cells with similar structures; **[1 mark]**\n- Which work together to perform shared functions; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_78nPm2PKXthtKNDF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nWater absorbed by the roots moves through the stem and enters the leaves. Most of this water is lost in transpiration.\n\nExplain how the internal structure of leaves results in the loss of large quantities of water in transpiration.",
+     "solution_md": "The internal structure of leaves results in the loss of large quantities of water in transpiration by:\n\nAny **three **of the following from:\n\n- <u>Xylem</u> supplies water; **[1 mark]**\n- Air spaces (in the leaf); **[1 mark]**\n- (Which create) a large (internal) surface area; **[1 mark]**\n- Water evaporates from surface of mesophyll cells; **[1 mark]**\n- Guard cells, open / close, stomata; **[1 mark]**\n- Water <u>vapour</u>, diffuses / moves, out through stomata; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *This is a challenging question and there is a lot of scope for students to trip up and make errors.*\n\n> *Avoid:*\n\n- Explaining how the leaf is adapted for photosynthesis; this isn't the question\n- Stating that water diffuses out of the stomata, without clarifying that it is water *vapour* that diffuses out\n- Stating that 'guard cells open' when in fact guard cells change shape, which causes *stomata* to open\n\n> *Make sure to:*\n\n- Add that the air spaces in the leaf mean that there is a large surface area for the evaporation of water\n- State that water evaporates <u>before</u> diffusing out of the stomata as vapour"
+    }
+   ]
+  },
+  {
+   "id": "qstn_d9hk39nmN5Gwn7J7",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_nYjwPVY8FCpdP2cx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a potometer set up to measure the rate of transpiration in a piece of cut plant.\n\n![HcAG7PNx_bubble-potometer-sq](assets/039-hcag7pnx-bubble-potometer-sq.png)\n\n**Fig. 1**\n\nIdentify labels **W**,** X**,** Y **and **Z.**",
+     "solution_md": "Labels W, X, Y and Z are:\n\n- W - bung; **[1 mark]**\n- X - water reservoir; **[1 mark]**\n- Y - cm/mm scale; **[1 mark]**\n- Z -  air bubble; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_3NYb3tHwFfC8pRPx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N",
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "In the experiment shown in Fig. 1, the bubble moved a distance of 23 mm in 47 minutes of experiment time.\n\nThe bore (internal diameter) of the capillary tube that the bubble is in is 1 mm.\n\n(i)\n\nCalculate the volume of water taken up by the plant in the time of the experiment.\n\n[2]\n\n(ii)\n\nCalculate the rate of transpiration of the piece of plant.\n\nState your answer in mm<sup>3</sup>hr<sup>-1</sup>.\n\n[2]",
+     "solution_md": "(i) The volume of water taken up by the plant in the time of the experiment is:\n\n- π × 0.5<sup>2</sup> × 23; **[1 mark] **\n- 18 mm<sup>3</sup>; **[1 mark]**\n\n(ii) The rate of transpiration of the piece of plant in mm<sup>3</sup>hr<sup>-1</sup> is:\n\n- 18 ÷ (47÷60); **[1 mark]**\n- 23 mm<sup>3</sup>hr<sup>-1</sup>; **[1 mark]**\n\n**[Total: 4 marks]**\n\n![8-1-q5bh---ma](assets/040-8-1-q5bh-ma.png)"
+    },
+    {
+     "id": "qstnprt_wxV6rQBZSCFrr8DS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn the experiment shown in Fig. 1, the bubble moved a distance of 23 mm in 47 minutes of experiment time. The bore (internal diameter) of the capillary tube that the bubble is in is 1 mm.\n\n(ii)\n\nThe rate of transpiration of the piece of plant in mm^3^hr^-1^ is:\n\n- 18 ÷ (47÷60); [1 mark]\n- 23 mm^3^hr^-1^; [1 mark]\n\nFor the experiment described in part (b), a subsequent experiment used an electric fan to blow air across the leaves of the plant throughout the experiment.\n\nPredict the rate of transpiration that would be measured. State your answer as a number with units.\n\nExplain your reasoning.",
+     "solution_md": "The predicted rate of transpiration would be;\n\n- Any number over 23 mm<sup>3</sup>hr<sup>-1</sup>; **[1 mark]**\n\n*Allow error carried forward; accept a number higher than the answer given in part (b)*\n\n**Reason:**\n\n- That air current dries the air / removes water vapour from around the leaf; more water is transpired to replace the lost water; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_47ck9VYXrYf4HhsG",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N",
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "A different piece of the plant (from a species of tree) was measured and its transpiration rate was found to be 350 mm<sup>3</sup>hr<sup>-1</sup>.\n\nThe piece of the tree being studied contained 8 leaves whereas a mature tree of the same species would consist of an average of 65 000 leaves.\n\n(i)\n\nEstimate the rate of transpiration of a mature tree of this species.\n\nExpress your answer in litres per day (dm<sup>3</sup>day<sup>-1</sup>)\n\n1dm<sup>3</sup> = 1 000 000 mm<sup>3</sup>\n\n[3]\n\n(ii)\n\nGive **three** reasons to suggest why the estimate in part (d) (i) is likely to be inaccurate.\n\n[3]",
+     "solution_md": "(i) The rate of transpiration of a mature tree in litres per day (dm<sup>3</sup>day<sup>-1</sup>) is calculated as follows:\n\n- Scale up 350 mm<sup>3</sup>hr<sup>-1</sup> to 2.84 × 10<sup>6</sup> mm<sup>3</sup>hr<sup>-1</sup> for a whole tree; **[1 mark]**\n- Convert to dm<sup>3</sup>;** [1 mark]**\n- Convert to 68 dm<sup>3</sup> per day; **[1 mark]**\n\n![8-1-q5dh---ma](assets/041-8-1-q5dh-ma.png)\n\n(ii) Reasons why the estimate in part (d) (i) is likely to be inaccurate are:\n\nAny **three** from the following:\n\n- The whole tree is standing outside / not in controlled conditions; **[1 mark]**\n- Unlikely that the whole tree is under the same conditions throughout eg. varying temperature / wind patterns; **[1 mark]**\n- 24 hours will include the night when the tree is not photosynthesising / low transpiration rate; **[1 mark]**\n- Not all leaves transpire at the same rate / no account of leaf age/size is taken here; **[1 mark]**\n- The piece of the cut tree may be dying / dead / not as metabolically active as the whole tree because it's been cut off the tree; **[1 mark]**\n- Water may be in short supply to the whole tree in its habitat **SO **the tree cannot transpire as much water**; [1 mark]**\n\n**[Total: 6 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7MpRVSB99mNWjwZq",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_h6pwRmgmKJtFKPM7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j",
+      "spcpt_Rp6X4q34Qb99Qrhd"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig.1 is a photomicrograph of some xylem vessels.\n\n![screenshot-2022-10-12-11-31-11](assets/042-screenshot-2022-10-12-11-31-11.png)\n\n**Fig. 1**\n\n(i)\n\nState **one **structural feature of xylem vessels **and** explain how this is related to the function of water transport.\n\n[2]\n\n(ii)\n\nExplain the mechanism that is responsible for the movement of water in xylem vessels.\n\n[4]\n\n(iii)\n\nState **one **role of xylem vessels **other than** transport.\n\n[1]",
+     "solution_md": "(i) A structural feature of the xylem can be described and the corresponding function explained as follows...\n\nAny pair of points from the following:\n\n- Structure: Xylem cells have a thick/strong (cell) wall; **[1 mark]**\n- Function: (The xylem can) withstand / will not be negatively affected by tension/collapse/hydrostatic pressure; **[1 mark]**\n\n**OR**\n\n- Structure: Cells have lignin (in walls) / walls are impermeable; **[1 mark]**\n- Function: (Lignin) prevents collapse **OR **provides waterproofing (of the xylem) / prevents water from escaping; **[1 mark]**\n\n**OR**\n\n- Structure: (The xylem lumen) is wide / has a large diameter; **[1 mark]**\n- Function: (Xylem can) transport large volumes of water; **[1 mark]**\n\n**OR**\n\n- Structure: (Xylem have) no (cell) contents / cells are empty/dead / hollow pipes/tubes; **[1 mark]**\n- Function: (There is) no/little resistance to flow of water / water can flow easily / continuous columns of water can flow / there is no obstruction to water flow; **[1 mark]**\n\n**OR**\n\n- Structure: (Xylem cells have) no cross/end walls; **[1 mark]**\n- Function: (There is) no/little resistance to flow of water / water can flow easily / continuous columns of water can flow / there is no obstruction to water flow; **[1 mark]**\n\n**OR**\n\n- Structure: (Xylem cells have bordered) pits; **[1 mark]**\n- Function: (This allows) lateral transport / movement of water out of the sides of the xylem (into neighbouring vessels); **[1 mark]**\n\n(ii) The mechanism that is responsible for the movement of water in xylem vessels is...\n\nAny **four **of the following:\n\n- (Water is lost by) evaporation from (cell walls) in mesophyll (in the leaf); **[1 mark]**\n- (This evaporated water is then lost by) <u>diffusion</u> of water vapour through stomata; **[1 mark]**\n- (This leads to) decrease in (hydrostatic) pressure at the top (of plant/xylem) resulting in water moving upwards (down the pressure gradient); **[1 mark]**\n- (Water moves in a) continuous column (in the xylem) **OR **there are no breaks/gaps/air bubbles in the column of water; **[1 mark]**\n- (This is because of the) cohesion of water (molecules); **[1 mark]**\n- (Cohesion is) the attraction between water molecules; **[1 mark]**\n- (This force pulling the water up through the xylem is known as) transpiration pull; **[1 mark]**\n- Water enters/leaves xylem by osmosis / down water potential gradient; **[1 mark]**\n\n(iii) A role of the xylem other than transport is:\n\n- Support / helping the plant stay upright; **[1 mark]**\n\n***Accept ****other descriptions of support.*\n\n**[Total: 7 marks]**\n\n> *When referring to the pits within the xylem, avoid using the term 'holes' as this could lead to doubt as to whether you are referring to the pits in the sides of the vessels or the holes in the end walls of the xylem.*\n\n> *When describing the upward movement of water in the xylem ensure that your answer clearly show an understanding of the importance of cohesion and that water does not move upwards due to osmosis. Remember that osmosis can only occur when there is a partially permeable membrane.*"
+    },
+    {
+     "id": "qstnprt_FZbyMj9KKRRCK77K",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N",
+      "spcpt_vTwVB2d58fmGyyHw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe rate of transpiration is affected by several factors including the temperature and the humidity of the air.\n\nState **and** explain the effect of an increase in temperature on the rate of transpiration.",
+     "solution_md": "An increase in temperature will have the following effect...\n\nAny **three **of the following:\n\n- (There will be an) increase (in the rate of transpiration); **[1 mark]**\n- (Because there will be) more / an increased rate of evaporation (from the surface of the mesophyll cells); **[1 mark]**\n- (This leads to an) increase in the rate of diffusion (of water vapour out of the stomata); **[1 mark]**\n- (Increasing temperature increases kinetic) the energy of water (molecules); **[1 mark]**\n- Stomatal pores become wider (at higher temperatures); **[1 mark]**\n- (Pores widen because) guard cells become turgid; **[1 mark]**\n\n***Accept ****reverse answers here if they are clearly related to a ****decrease ****in temperature.*\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6hBdY7mhvsrrqJzj",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_Jm8ptxzyJmygtTsp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nAphids are insects that feed on the phloem sap in plants.\n\nFig. 1 shows a diagram of an aphid with its mouth parts inserted into the stem of a plant.\n\n![2018mj0610p42q3a](assets/043-2018mj0610p42q3a.png)\n\n**Fig. 1**\n\nThe mouth parts of the aphid reach the phloem tissue of the stem.\n\n(i)\n\nState the name of the foods the aphid could suck out of the phloem tissue.\n\n[2]\n\n(ii)\n\nExplain the role of phloem in plant transport. Use the words **source** and **sink** in your answer\n\n[4]",
+     "solution_md": "(i) The foods that the aphid could suck out of the phloem tissue are:\n\n- Sucrose/sugar; **[1 mark]**\n- Amino acids; **[1 mark]**\n\n(ii) The role of phloem in plant transport can be explained as follows:\n\nAny **four** from the following:\n\n- (Transport in phloem is called) <u>translocation</u>; **[1 mark]**\n- (Phloem) allows bidirectional movement / movement in two directions / movement up or down the plant; **[1 mark]**\n- Movement (of food/phloem sap) occurs from a <u>source</u> to a <u>sink</u>; **[1 mark]**\n- Sucrose/amino acids/food are produced / taken from storage (tissues/organs) at a <u>source</u>; **[1 mark]**\n- A region of respiration/storage/growth is called a <u>sink</u>; **[1 mark]**\n- Any named example of a source/sink (in the correct context), e.g. roots act as a sink when leaves are photosynthesising;** [1 mark]**\n- Organs can be either a source or a sink at different times (in development / of the year); **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *Phloem tissue transports the soluble products of photosynthesis around the plant. This process is known as translocation and will always occur from a source (where the substances are produced / removed from storage tissue) to a sink (any part that requires these products). Some plant organs may be either a source or a sink depending on the development stage of the plant. For example, roots may act as a source during a growth period but become a sink once the growth period is over.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_zJJJrzBZr3MhCJpk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 1 shows some of the features of xylem.\n\nDescribe how xylem is adapted for its functions.",
+     "solution_md": "Xylem is adapted for its functions in the following ways:\n\nFunctions\n\n- (Xylem tissue) conducts/transports water (and mineral ions); **[1 mark]**\n- (To replace water lost through) <u>transpiration</u>; **[1 mark]**\n- Water flows with low/little resistance (in xylem vessels); **[1 mark]**\n- (Xylem provides structural) support (for plants); **[1 mark]**\n- (Spirals) allows (some) flexibility / bending of stems (to prevent breaking); **[1 mark]**\n\n**AND**\n\nAdaptations\n\nA maximum of **five** from the following:\n\n- (It consists of) long/elongated (cells/vessels/tubes); **[1 mark]**\n- (The walls contain) lignin / (are) lignified; **[1 mark]**\n- (The cell walls) are impermeable to water / waterproof / do not allow water through; **[1 mark]**\n- (There is a secondary) thickening of cell walls / (secondary) thickening appears as rings / spirals; **[1 mark]**\n- (Xylem vessels are) hollow / contains no cytoplasm / (named) organelles; **[1 mark]**\n- (There are) no end/cross walls (between cells); **[1 mark]**\n- Vessels are joined with end plates / end to end; **[1 mark]**\n- (There are) pits in the walls (for lateral water movement between vessels); **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *This is a popular question for exam purposes so make sure that you familiarise yourself with how the structural adaptations of xylem vessels enable them to perform their role in a plant.*"
+    },
+    {
+     "id": "qstnprt_qfJgb8VKcVXnFjC6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_zF3phYzBW6x3WDGn"
+     ],
+     "part_tier": null,
+     "problem_md": "Some farmers spray their crops with insecticides to kill pests such as aphids.\n\nExplain the benefits of killing pests.",
+     "solution_md": "The benefits of killing pests are as follows:\n\nAny **two** from the following:\n\n- (It will lead to) reduced/no damage to crops **OR **fewer/no crops will be eaten by pests; **[1 mark]**\n- (This will) increase the yield / quality (of the crop); **[1 mark]**\n- (This is) because there will be more sugar/amino acids available for (plant) growth; **[1 mark]**\n- (Which would) increase / lead to more income/profit (for the farmer); **[1 mark]**\n- (There would be a) reduced/less/smaller (risk / occurrence of) disease transmission (between pests and crop plants); **[1 mark]**\n\n***Accept**** reverse arguments, e.g. 'pests would eat/damage crops' instead of 'killing pests will reduce damage to crops'.*\n\n**[Total: 2 marks]**\n\n> *Pests will eat the leaves and/or fruits of a plant, which will have a negative impact on the growth and yield of crop plants. This will ultimately cause the farmer to lose money in lost profits, so there are benefits to killing pests before they cause crop damage.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZWbC6rS6wsxRpq2z",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_NsMgtkBJpCNDF6F9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "State the predominant process by which water is lost from the leaf.",
+     "solution_md": "The predominant process by which water is lost from the leaf is:\n\n- Diffusion **OR** evaporation; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Water evaporates inside the leaf air spaces, then the water vapour molecules diffuse out through the stomata. This makes both answers acceptable for the mark. *\n\n> *Transpiration is a process that pulls water up the plant in a long continuous column, and that water is in the liquid phase. However, water exits a leaf in gaseous form as water vapour, so evaporation or diffusion is a more accurate answer. *"
+    },
+    {
+     "id": "qstnprt_rs36r9ZYHVMcpvSn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "Suggest **two** reasons why transpiration is beneficial for the plant.",
+     "solution_md": "Transpiration is beneficial for the plant because...\n\nAny **two **from the following:\n\n- It helps keep the leaves cool (as heat energy is lost as the water evaporates); **[1 mark]**\n- Transport of water for photosynthesis **OR** to maintain cell turgidity; **[1 mark]**\n- Transport of dissolved minerals/mineral ions/named mineral ion for growth / chlorophyll / protein synthesis; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Remember that magnesium is an important mineral in the green pigment chlorophyll and is therefore key for plant growth.*\n\n> *Nitrates are important for growth as they are used in the synthesis of DNA or proteins in cells.*"
+    },
+    {
+     "id": "qstnprt_kK938Rv6ZWSZpDCY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_Rp6X4q34Qb99Qrhd"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nFig. 1 shows the movement of water through a plant. Arrows indicate the direction of movement.\n\n![plant](assets/044-plant.png)\n\n**Fig. 1**\n\nExplain how the transpiration stream happens in plants. Use the information in** **Fig. 1.",
+     "solution_md": "The transpiration stream happens in plants in the following way...\n\nAny **four** of the following:\n\n- Most transpiration occurs at the leaves/3; **[1 mark]**\n- Transpiration is caused by evaporation and diffusion of water from the surface of the leaf / spongy mesophyll cells; **[1 mark]**\n- Water <u>diffuses</u> through the <u>stomata</u> to the surrounding air down the concentration gradient; **[1 mark]**\n- Water then evaporates; **[1 mark]**\n- This decreases the concentration of water in the leaf **OR** reduces pressure/tension; **[1 mark]**\n- Water is drawn up through the plant/roots/1 and stem/2 through the xylem by cohesion; **[1 mark]**\n- To replace the water lost from the leaf; **[1 mark]**\n- This results in more water being drawn up from the roots/1; **[1 mark]**\n- This causes a constant 'transpiration stream' of water; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_YGY3Mj3Rq7ZPCTCK",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows the movement of water through a plant. Arrows indicate the direction of movement.\n\nThe transpiration stream happens in plants in the following way...\n- Most transpiration occurs at the leaves\n- Transpiration is caused by evaporation and diffusion of water from the surface of the leaf / spongy mesophyll cells\n- Water diffuses through the stomata to the surrounding air down the concentration gradient\n- Water then evaporates\n- This decreases the concentration of water in the leaf or reduces pressure/tension\n- Water is drawn up through the plant/roots and stem through the xylem by cohesion\n- To replace the water lost from the leaf\n- This results in more water being drawn up from the roots\n- This causes a constant 'transpiration stream' of water\n\nPredict what would happen to the transpiration rate of the plant in** **Fig. 1 during the night time.",
+     "solution_md": "Transpiration at night time would:\n\n- Decrease / reduce; **[1 mark]**\n\n*Allow: fall to zero*\n\n**[Total: 1 mark]**\n\n> *Photosynthesis does not occur in the dark, consequently, stomata will close (as there is less demand for CO*<sub>*2*</sub>*) so less water diffuses out and evaporates from the leaf. This results in a reduction in the rate of transpiration.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xrpvfwMpQtdhFf2w",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_sfprRygsBVD7BR3F",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/41",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 1 shows a photomicrograph of a section of a root.\n\n![cie-igcse-2018-s1-oct-p4-q3a-xylem](assets/045-cie-igcse-2018-s1-oct-p4-q3a-xylem.png)\n\n**Fig. 1**\n\nStructure **J **is a xylem vessel.\n\nThe xylem vessels conduct water from the roots to the stems.\n\nState the features of xylem vessels that enable them to conduct water.",
+     "solution_md": "The features of xylem vessels that enable them to conduct water are:\n\nAny **three **from the following:\n\n- (Xylem vessels contains) no cytoplasm / (named organelle) / they are hollow; **[1 mark]**\n- (They have) lignin (in their walls); **[1 mark]**\n- (The cell walls) are waterproof / water impermeable / does not allow water through; **[1 mark]**\n- (There is secondary) thickening of the cell wall; **[1 mark]**\n- (Xylem consists of) long / elongated (cells / vessels / tubes); **[1 mark]**\n- (The vessels have bordered) pits (for water movement between vessels); **[1 mark]**\n- (There are) no end / cross walls (between cells) / end plates to connect vessels (end to end); **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_nmKXQKH7SkntMWqn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "apply",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/41",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_v7XgMvCgz4NwX2Tp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows a photomicrograph of a section of a root.\n\nStructure J is a xylem vessel.\n\nThe xylem vessels conduct water from the roots to the stems.\n\nDescribe the pathway of water from outside the root to the xylem vessels (**J**) at the centre of the root.\n\nUse the letters in** **Fig. 1 in your answer.",
+     "solution_md": "A description of the pathway of water from outside the root to the xylem vessels is:\n\nAny **five **from the following:\n\n- (Water enters) root hair (cells) / **M **...; **[1 mark]**\n- ... by <u>osmosis</u>; **[1 mark]**\n- The soil has a higher <u>water potential</u> than the root (cells) **OR** the root (cells) have a lower <u>water potential</u> than the soil; **[1 mark]**\n- Water moves from an area of high(er) water potential to low(er) water potential; **[1 mark]**\n- (The) active transport of ions creates a water potential gradient (between the soil and root cells); **[1 mark]**\n- (Movement of water occurs) across / through (partially permeable) membrane(s); **[1 mark]**\n- Water moves across the root cortex/**L **(to xylem vessels) **OR** water moves from **M** to **L** to (**K**) to **J**; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_qjX9tMmqbqxsndGq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/41",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_hSJhh8dvRpmpDjNF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nScientists wanted to determine the flow-rate of water in roots. They measured the flow-rate in three zones of onion roots as shown in Fig. 2. They measured the flow-rate in healthy roots and roots that had been treated with a toxic solution. Their results are shown in Table 1.\n\nTable 1\n| zone in Fig. 2 | average flow-rate of water / arbitrary units |\n| healthy roots | treated roots |\n| 1 | 150 | 160 |\n| 2 | 230 | 200 |\n| 3 | 280 | 270 |\n\nThe scientists observed that the xylem vessels nearer the root tip were narrower than the xylem vessels higher up the root.\n\nScientists wanted to determine the flow-rate of water in roots.\n\nThey measured the flow-rate in three zones of onion roots as shown in** **Fig. 2\n\n![cie-igcse-2018-s1-oct-p4-q3c-flow-rate-in-onions](assets/046-cie-igcse-2018-s1-oct-p4-q3c-flow-rate-in-onions.png)\n\n**Fig. 2**\n\nThey measured the flow-rate in healthy roots and roots that had been treated with a toxic solution.\n\nTheir results are shown in** **Table 1.\n\n**Table 1**\n\n| zone in Fig. 2 | average flow-rate of water / arbitrary units |   |\n|---|---|---|\n| healthy roots | treated roots |   |\n| **1** | 150 | 160 |\n| **2** | 230 | 200 |\n| **3** | 280 | 270 |\n\n(i)\n\nCalculate the percentage increase in the average flow-rate between zone **1** and **3** for healthy roots.\n\nGive your answer to **two** significant figures.\n\nShow your working.\n\n[2]\n\n(ii)\n\nThe scientists observed that the xylem vessels nearer the root tip were narrower than the xylem vessels higher up the root.\n\nDescribe how the width of xylem vessels in different zones of a root affects the average flow-rate of water.\n\nUse the information in Table 1 in your answer.\n\n[3]\n\n(iii)\n\nSuggest why there was little difference in the flow-rate in healthy roots and in roots treated with the toxic solution.\n\n[2]",
+     "solution_md": "(i) The percentage increase in the average flow-rate between zone 1 and 3 for healthy roots is:\n\n- 87; **[2 marks]**\n\n*Full marks awarded for the correct answer in the absence of calculations.*\n\n**[1 mark] ***awarded for correct working in the presence of an incorrect answer.*\n\n![ma-for-2018-oct-s1-paper-4-q3ci1](assets/047-ma-for-2018-oct-s1-paper-4-q3ci1.png)\n\n(ii) The width of xylem vessels in different zones of a root affects the average flow-rate of water by:\n\nAny **three** from the following:\n\n- The nearer to the tip / zone 1, the lower flow rate **OR** the further from the tip/zone 1, the higher the flow rate; **[1 mark]**\n- Flow rate increases (from tip to bulb) in both treated and healthy roots; **[1 mark]**\n- Flow rate is greater in zone 1 in the treated roots (than the healthy roots); **[1 mark]**\n- Flow rate is lower in zones 2 and 3 in the treated roots (than the healthy roots); **[1 mark]**\n- Comparative data quote with units e.g. flow rate in zone 1 of the treated roots was 160 au whereas in zone 3 it was 270 au; **[1 mark]**\n\n(iii) There was little difference in the flow-rate in healthy roots and in roots treated with the toxic solution because:\n\n- Xylem vessels are dead so toxins / treatment have no effect; **[1 mark]**\n- Osmosis / water flow into root does not rely on living cells / energy / is passive; **[1 mark]**\n\n**[Total: 7 marks]**\n\n> *Always make sure to include units whenever you are quoting data from a figure or a table as part of your answer.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WQ3YgDXpwV6Tz4Sy",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_tXJXk9nYQM23BGPW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw",
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nComplete the sentence by choosing the missing words from the box below.\n\nThe __________ transports food substances such as dissolved __________ made in the __________ to the rest of the plant. This process is called __________ .\n\n| xylem         sugars          phloem          mineral ions         translocation         water         leaves     transpiration          roots         photosynthesis |\n|---|",
+     "solution_md": "The completed sentence is as follows...\n\n- The **phloem**** **transports food substances such as dissolved **sugars** made in the **leaves** to the rest of the plant. This process is called **translocation**.\n\n- 3 or 4 words correct;** [2 marks]**\n- 1 or 2 words correct;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_W54G65SHrRcJ6fbK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the sentences.\n\nChoose the answers from the box below.\n\nWater moves into the cytoplasm of root hair cells by the process of __________ .\n\nMineral ions move into the cytoplasm of root hair cells by the process of __________ .\n\n| evaporation         diffusion          active transport<br><br>osmosis          translocation           transpiration |\n|---|",
+     "solution_md": "The completed sentences are as follows...\n\n- (Water... process of) osmosis; **[1 mark]**.\n- (Mineral ions move... process of); active transport;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_PWPj45qm2zCPwMBn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7rYkZNxvfrCvMRPr"
+     ],
+     "part_tier": null,
+     "problem_md": "Root hair cells possess long hair-like projections.\n\nExplain why this is a beneficial adaptation for absorbing water and mineral ions.",
+     "solution_md": "Possessing long hair-like projections is a useful adaptation for root hair cells because...\n\nAny **two** from the following:\n\n- This gives the plant a <u>large surface area;</u> **[1 mark]**\n- Root hairs can grow between soil particles; **[1 mark]**\n- This increases osmosis of water / active transport of minerals into the root cell; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *A larger surface area on the root hairs which protrude into the soil means that there is better access to water and minerals as more molecules come into contact with the membrane.*\n\n> *They also give better anchorage for the plant, but this is not directly necessary for increasing absorption.*"
+    },
+    {
+     "id": "qstnprt_pHWS2VMg2NNgz3jv",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "place",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_v7XgMvCgz4NwX2Tp",
+      "spcpt_7rYkZNxvfrCvMRPr"
+     ],
+     "part_tier": null,
+     "problem_md": "The following statements are the structures that water passes through on its way through a plant.\n\n- leaf mesophyll cell\n- root cortex cell\n- root hair cell\n- xylem\n\nPlace the structures in the correct order in which water passes through them.",
+     "solution_md": "The correct order is:\n\n1. root hair cell\n2. root cortex cells\n3. xylem\n4. leaf mesophyll cells\n\nAll correct for **[2 marks]** 2 or 3 correct; **[1 mark]** 0 or 1 correct; **[0 marks]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SM2P3h9yY8DzdjXd",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_pXTfrWmVp6pFcFKZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Plant leaves have many adaptations to maximise the rate at which they can photosynthesise. A group of students wanted to investigate the behaviour of stomata in different plants.\n\nFig. 1 is a drawing of the underside of a leaf of one of the plants as visualised under a light microscope.\n\n![q2a-plant-tissues-and-organs-principles-of-organisation-gcse-aqa-biology-21](assets/048-q2a-plant-tissues-and-organs-principles-of-organ.png)\n\n**Fig. 1**\n\nName cell **X** in Fig. 1 and outline its role in the leaf.",
+     "solution_md": "Cell **X** in Fig. 1 is a:\n\n- <u>Guard</u> cell; **[1 mark]**\n\nIts role in the leaf is:\n\n- When turgid, stomatal opening is large; **[1 mark]**\n- Allows gas exchange / carbon dioxide to diffuse in for photosynthesis;** ****[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_cptSGRKN7SswngGX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n4 stomata per 0.2 mm × 0.4 mm = 0.08 mm^2; 1mm^2 ÷ 0.08mm^2 = 12.5; 4 × 12.5; 50 stomata per mm^2;\n\nCalculate the number of stomata per mm<sup>2</sup> of this leaf surface.",
+     "solution_md": "The number of stomata per mm<sup>2</sup> of this leaf surface can be calculated as follows:\n\n- 4 stomata per 0.2 mm × 0.4 mm = 0.08 mm<sup>2</sup>; **[1 mark]**\n- 1mm<sup>2</sup> ÷ 0.08mm<sup>2</sup> = 12.5\n- 4 × 12.5\n- 50 stomata per mm<sup>2</sup>; **[1 mark]**\n\n**Final answer:** **[Total: 2 marks]**\n\n> *Always show your working out for calculations as it can help you get marks sometimes even if you ended up with the wrong final answer!*\n\n![8-1-q5bm---ma](assets/049-8-1-q5bm-ma.png)"
+    },
+    {
+     "id": "qstnprt_KS5YdyFTtjgRqmNv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "Another plant species has 200 stomata per mm<sup>2</sup> of its leaf surface.\n\nAn increased number of stomata is not always advantageous.\n\nExplain why.",
+     "solution_md": "An increased number of stomata is not always advantageous because:\n\n**Two** from the following:\n\n- Water vapour is lost through the stomata; **[1 mark]**\n- Larger number will increase water loss of the plant by transpiration; **[1 mark]**\n- A plant will have to absorb more water from the soil to make up for larger transpiration loss;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_Bs52SFVXGV286rKp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "The students then measured the mean widths of the stomata from three different species of plant which had been growing under different light conditions.\n\nTable 1 shows their results.\n\n**Table 1**\n\n| Condition | Time in light or dark / hours | Mean width of stomata as a percentage of their maximum width |   |   |\n|---|---|---|---|---|\n| Species A | Species B | Species C |   |   |\n| Light | 1 | 45 | 67 | 7 |\n| Light | 1 | 89 | 72 | 4 |\n| Light | 1 | 98 | 78 | 2 |\n| Light | 1 | 100 | 64 | 1 |\n| Dark | 1 | 5 | 14 | 96 |\n| Dark | 1 | 5 | 16 | 87 |\n| Dark | 1 | 6 | 11 | 78 |\n| Dark | 1 | 5 | 13 | 76 |\n| Light | 1 | 49 | 57 | 4 |\n| Light | 1 | 83 | 64 | 1 |\n| Light | 1 | 100 | 79 | 0 |\n| Light | 1 | 99 | 80 | 1 |\n\nSpecies A is unlikely to be found growing in a hot, dry desert.\n\nExplain why, using data from Table 1.",
+     "solution_md": "Species **A** is unlikely to be found growing in a hot, dry desert because:\n\nAny **three** of the following from:\n\n- (For Species **A**) Stomata are open in the light / closed in the dark; **[1 mark]**\n- (For Species **A**) Stomata would be open during the day / when it is hot / warmest; **[1 mark]**\n- In the desert the heat (in the light / day) would increase water loss by transpiration;** [1 mark]**\n- Desert plants close their stomata in the light / day / Species **C** is more likely a desert plant; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Qqkzz9mjQsGk7GZD",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_DHMzyRGzxDZvtgSQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Fig. 1** shows a drawing of the cross-section of a plant root.\n\nThe transport tissues are labelled.\n\n![xylem](assets/050-xylem.png)\n\n**Fig. 1**\n\nName the structure labelled **X.**",
+     "solution_md": "The structure labelled **X** is...\n\n- Xylem; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_f9Yrn3tq7dq7NF4R",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "Name the substances that are primarily transported in the phloem.",
+     "solution_md": "The substances that are primarily transported in the phloem are:\n\n- Sucrose / (dissolved sugars);** [1 mark]**\n- Amino acids;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_M24txs7Tjg29NyD2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structure labelled X is... \n\n- Xylem;\n\nComplete **Table 1** below with a tick (**✓**) or ticks to represent the direction(s) of movement of substances in the phloem and structure **X**.\n\n**Table 1**\n\n|   | Structure X | Phloem |\n|---|---|---|\n| Up only |   |   |\n| Up and down |   |   |",
+     "solution_md": "The correctly completed **Table 1 **is as follows:\n\n|   | Structure X | Phloem |\n|---|---|---|\n| Up only | **✓** |   |\n| Up and down |   | **✓** |\n\n**[1 mark]** for each correct tick\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_cQqGFfzrq2wkZXFy",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "The flow of water from the roots to the leaves via the vascular network is an important process in plants.\n\nName this process.",
+     "solution_md": "The process of the flow of water from the roots to the leaves via the vascular network is ...\n\n- <u>Transpiration</u>;** [1 mark]**\n\n*Allow 'transpiration stream'*\n\n**[Total: 1 mark]**\n\n> *Transpiration is the **process** by which water evaporates from the leaves driving movement of water through the plants whereas the transpiration stream refers to the **physical flow** of the water through the vessels, its a subtle difference, but important to distinguish between when referring to transpiration.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MGw2hqJTTBv78kxM",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_DpzzX2ptXd3z4Q5Z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nCompare the plant processes of transpiration and translocation.",
+     "solution_md": "Comparison of transpiration and translocation:\n\n**Similarities**\n\nAt least **one** of the following:\n\n- Substances flow through vascular bundle; **[1 mark]**\n- As aqueous solutions; **[1 mark]**\n- Both can travel upwards in a plant; **[1 mark]**\n\n**Differences**\n\nUp to **three **of the following:\n\n- Transpiration occurs in the xylem **whereas** translocation is in the phloem; **[1 mark]**\n- Transpiration carries water / mineral ions **whereas** translocation carries sugars / amino acids; **[1 mark]**\n- Transpiration only travels upwards **whereas** translocation travels upwards and downwards; **[1 mark]**\n- Transpiration involves some dead tissues **whereas** translocation needs live tissues to function; **[1 mark]**\n- Transpiration is an open loop (soil → air) **whereas** translocation is more a closed loop (to avoid wastage); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The command word 'compare' really means 'compare and contrast' which requires you to identify similarities and differences, not just one or the other. *"
+    },
+    {
+     "id": "qstnprt_8Z7SSD5rYzwcdYpb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended\n\nName the two main products of a plant's metabolism that are carried in the phloem.",
+     "solution_md": "The two main products of a plant's metabolism that are carried in the phloem are:\n\n- <u>Sucrose</u>; **[1 mark]**\n- Amino acids;** [1 mark]**\n\n*Accept any named amino acid*\n\n**[Total: 2 marks]**\n\n> *Other substances travel in the phloem and in the other vascular tissues like the xylem, but these two are referred to as assimilates. These are derived from the products of photosynthesis (in the case of sucrose) and the end result of nitrogen fixation / nitrogen uptake (in the case of amino acids required for protein synthesis). *"
+    },
+    {
+     "id": "qstnprt_2ccD9TpTwVwnPSJY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nDefine the term 'source' when used in the context of plant biology.",
+     "solution_md": "The term 'source' when used in the context of plant biology means:\n\nAny **two** of the following from:\n\n- (A tissue that) acts as the site of manufacture/synthesis/production of a particular nutrient/food compound/group of compounds; **[1 mark]**\n- The part of a plant where a particular nutrient enters/is taken up; **[1 mark]**\n- Any photosynthetically-active part of a plant; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *As opposed to a sink, which is any area of active growth and/or storage. *"
+    },
+    {
+     "id": "qstnprt_pKJW4WD97V2Kq2N6",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_89yR3KvRWvS93cMn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe term 'source' when used in the context of plant biology means:\n\nAny two of the following from:\n\n- (A tissue that) acts as the site of manufacture/synthesis/production of a particular nutrient/food compound/group of compounds;\n- The part of a plant where a particular nutrient enters/is taken up;\n- Any photosynthetically-active part of a plant;\n\nAs opposed to a sink, which is any area of active growth and/or storage.\n\n#### Extended only\n\nThe image shows a wild banana, cut lengthways. Inside the banana, its seeds are clearly visible. Seeds are usually regarded as sinks.\n\nGive an example of when seeds such as these act as a source.\n\n![banana-with-seeds-1](assets/051-banana-with-seeds-1.png)",
+     "solution_md": "Seeds such as these act as a source when:\n\n- The seeds are germinating / the plant is growing from seed; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *It makes sense that a sink that stores energy and nutrients will have to give up its contents at some stage. In the case of seeds like these banana seeds, it is when the seed is required to germinate to grow the next generation of banana plants. *\n\n> *The more familiar eating bananas that are sold widely in greengrocers / food stores are a seedless variety grown specifically for human consumption. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KQdyRHzpy3zctcSS",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_KBvsdvKV4WFR9GvK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the sentences by placing appropriate words in the spaces to give a definition of transpiration.\n\nIn transpiration water is lost from the .............................................. of a plant.\n\nThe water .............................................. from the surface of the ..............................................  cells and water vapour is produced.\n\nThe water vapour moves by .............................................. out of the plant through pores called ..............................................",
+     "solution_md": "The words to complete the gaps are as follows:\n\nIn transpiration water is lost from the **leaves**<u> </u>of a plant.\n\nThe water **evaporates**<u> </u>from the surface of the<u> </u>**(spongy) mesophyll**<u> </u>cells and water vapour is produced.\n\nThe water vapour moves by **diffusion***** out of the plant through pores called **stoma(ta)**<u>.</u>\n\nAward** [1 mark] **for each correct word\n\n**[Total: 5 marks]**\n\n> ** A common error here is to state '**osmosis**'. Remember that water only moves by osmosis when it is in its **liquid **phase, and when it crosses a partially permeable membrane. In this scenario, water is in its vapour (gaseous) state and merely moves out of the leaf's air space and into the surrounding air, so does not cross any membranes in the process. This Is therefore an example of simple diffusion. *"
+    },
+    {
+     "id": "qstnprt_GGRNqtgj7yQdRktQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete** **Table 1 by\n\n- stating **two** environmental conditions that affect the rate of transpiration\n- stating how a **decrease** in each environmental condition affects the rate of transpiration\n\n**Table 1**\n\n| Environmental condition | Effect of a decrease on the rate of transpiration |\n|---|---|\n|   |   |\n|   |   |",
+     "solution_md": "A completed Table 1 would contain the following information:\n\nAny **two **of the following rows:\n\n| Environmental condition | Effect of a decrease on the rate of transpiration |   |\n|---|---|---|\n| Humidity | Increases | **[1 mark]** |\n| Temperature | Decreases | **[1 mark]** |\n| Light (intensity) | Decreases | **[1 mark]** |\n| Wind (speed) | Decreases | **[1 mark]** |\n\n**[Total: 4 marks]**\n\n> *Remember to describe the effect of a decrease, as specified in the question. Descriptions of an increase in the environmental condition won't earn a mark. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_JmjQW78ss59btkwW",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_WpRDzTnf2ft6STxG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_RFPrxpN4wfQRnJJ5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nWhen water is in short supply, plants can wilt as shown in Fig. 2\n\n![cie-igcse-2018-s3-p4-q3b](assets/052-cie-igcse-2018-s3-p4-q3b.png)\n\n**Fig. 2**\n\nState **two** conditions that are likely to increase the chances of wilting.",
+     "solution_md": "Two conditions that may cause wilting are as follows:\n\nAny **two **from the following:\n\n- No / little, water; **[1 mark]**\n- High temperature; **[1 mark]**\n- Low humidity / dry air; **[1 mark]**\n- High wind speed; **[1 mark]**\n- Long day length / high light intensity; **[1 mark]**\n- High salinity / high salt (levels); **[1 mark]**\n- Freezing; **[1 mark]**\n- Disease; **[1 mark]**\n- (Soil) waterlogging / low oxygen concentration / pH ; **[1 mark]**\n- Mineral / magnesium, deficiency; **[1 mark]**\n\nAnswers must be qualified with a specific description of what would cause wilting e.g. not just temperature, but HIGH temperature.\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_cqSJNjjd6cYQFWXJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_RFPrxpN4wfQRnJJ5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nExplain what happens to the cells of a leaf to cause wilting.",
+     "solution_md": "When wilting occurs, the following happens in the leaf:\n\nAny **four **from the following:\n\n- (Water moves by) osmosis; **[1 mark]**\n- Water is lost from / moves out of, cells / vacuoles; **[1 mark]**\n- (Movement occurs) down water potential gradient; **[1 mark]**\n- The pressure of water / cell contents on (inelastic) cell wall decreases; **[1 mark]**\n- The cell loses turgor / turgidity **OR** becomes flaccid / plasmolysed; **[1 mark]**\n- Plants / cells rely on water for (structural) support / to prevent wilting; **[1 mark]**\n- Water in (wilted) cells not being replaced as quickly (as it is being lost); **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_j6Kz6kY5tvygrx58",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_RFPrxpN4wfQRnJJ5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nWilting may look harmful, but it is often a strategy for survival.\n\nSuggest the advantages to a plant of wilting.",
+     "solution_md": "The advantages of wilting are as follows:\n\nAny **two **from the following:\n\n- (Wilting causes) the stomata to close; **[1 mark]**\n- This helps to prevent more water loss; **[1 mark]**\n- Therefore water is conserved for other processes / other parts of the plant; **[1 mark]**\n- (Wilting leads to) a decrease surface area exposed to the Sun / for absorption of heat; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fpyGPZZYXksZ7KMD",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_jmfgm9bzwGTCh3Hf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept \"less/minimal resistance\" or \"water flows easily/smoothly\" for \"allows free passage of water\"; accept \"hollow\" for \"no cell contents\".\n- Accept \"no walls between cells\" for \"no cross walls\"; accept \"allows water to move/flow continuously\" or \"continuous column of water\" for \"forms a long continuous tube\", including \"allowing them/it to move continuously\" where the pronoun refers to the water.\n- Accept \"prevents collapse/breakage\" or \"withstands pressure/weight\" for \"strengthens the tubes / helps support the plant\".\n\n#### Extended only\n\nState **three** adaptations of the xylem and for each, explain how it helps the xylem to perform its function.",
+     "solution_md": "Adaptation of the xylem are:\n\nAny **three** from the following:\n\n- Cells joined end-to-end / with no cross walls **AND** therefore forms a long continuous tube; **[1 mark]**\n- Cells are dead / no cell contents **AND **therefore allows free passage of water; **[1 mark]**\n- Outer walls are thickened / contain lignin **AND** therefore this strengthens the tubes / helps support the plant; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Using a word like 'therefore' shows you have read and understood the question command word **explain **and have included this extra detail in your answer.*\n\n> **[exam-tip]**\n> For each adaptation, name the structural feature of the xylem first, then link it to how it helps water move or supports the plant.\n> \n> Avoid vague phrases such as maximise space or minimise resistance unless you also say exactly what this allows the water to do."
+    },
+    {
+     "id": "qstnprt_fPNkrbGdFX9SGrRV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "Xylem and phloem vessels running side-by-side make up a recognisable structure within a plant's stem and roots.\n\nState the name of this structure.",
+     "solution_md": "Xylem and phloem vessels running side-by-side make up...\n\n- Vascular bundle(s); **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_gj4HmpcJ8RkYvxWb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "join",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows some data on the lignin content of various plants' stem tissues.\n\nLignin content: 15%, 26%, 30%\nOrganism: oak tree (height 20m), wheat crop (height 0.8m), rhododendron (height 3.5m)\n\nThe role of lignin is to provide strength to a plant stem, so the stem can hold up the mass of the plant as a whole. In general, taller plants such as tree have a higher lignin content in their stems than short plants like grass and short crops eg. wheat.\n\n#### Extended only\n\nFig. 1 shows some data on the lignin content of various plants' stem tissues.\n\n![7p-uldVO_8-1-q4ce---sq](assets/053-7p-uldvo-8-1-q4ce-sq.png)\n\n**Fig. 1**\n\nUsing your knowledge of the function of lignin, join the boxes with three straight lines to estimate the lignin content of the various species' plant stems.",
+     "solution_md": "The boxes correctly joined are as follows:\n\n![lignin-content-ma](assets/054-lignin-content-ma.png)\n\n**[1 mark]** for each correct line.\n\n**[Total: 3 marks]**\n\n> *The important thing to realise here is that the role of lignin is to provide strength to a plant stem, so the stem can hold up the mass of the plant as a whole. In general, taller plants such as tree have a higher lignin content in their stems than short plants like grass and short crops eg. wheat. *\n\n> *There are many other factors that govern the height of a plant, but lignin content is definitely one of them. *"
+    },
+    {
+     "id": "qstnprt_6k8DsSHD7w2q6cqR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xMzRHjyKZYKgGt7j",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCells are dead / no cell contents **AND **therefore allows free passage of water;\n\n#### Extended only\n\nExplain an advantage of the xylem containing dead tissue as opposed to live tissue.\n\nYour answer should refer to the xylem's role in transporting water and minerals.",
+     "solution_md": "An advantage of the xylem containing dead tissue like lignin is:\n\n**One** from the following:\n\n- No need to supply the cells with food/nutrients/minerals **OR** no cell waste products to excrete; **[1 mark]**\n- Cells can be hollow / no cell contents **TO** allow free passage of water / minerals; **[1 mark]**\n\n*Ignore references to the xylem providing support/strength to the plant. *\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8xJr2Pp8bv49kZbz",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_YvqJJyCS8VqwK3Vc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "State the name of the piece of equipment that can be used to measure transpiration rate.",
+     "solution_md": "The piece of equipment that can be used to measure transpiration rate is:\n\n- (A) potometer; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_r4gvD2X3ygXcgrQg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BXpc8jpnCQQ59z8N"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe piece of equipment that can be used to measure transpiration rate is: (A) potometer.\n\nUsing the piece of equipment referred to in part (a), explain how an experimenter might do the following:\n\n(i)\n\nVary the temperature to examine the effects on the rate of transpiration.\n\n[1]\n\n(ii)\n\nVary the wind speed to examine the effects on the rate of transpiration.\n\n[1]",
+     "solution_md": "(i) An experimenter might vary the temperature by:\n\n- Carrying out the experiment in different rooms / in a cold room / heated room; **[1 mark]**\n\n***Allow ****specific examples of different temperatures*\n\n(ii) An experimenter might vary the wind speed by:\n\n- Using a fan / air blower / hair dryer set to cool to mimic different wind speeds; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_pDNQCfMPtKXj7Whr",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vTwVB2d58fmGyyHw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nTable 1 shows the conditions that can be varied to cause differences in the rate of transpiration of a given piece of cut plant (stem and leaves).\n\nThe numbers of Table 1 give an expected level of the rate of transpiration, in arbitrary units on a scale 0 - 5, with 5 being the highest rate.\n\n**Table 1**\n\n|   | Level of each variable |   |   |\n|---|---|---|---|\n| Condition | High | Medium | Low |\n| Wind speed |   | 2.5 |   |\n| Temperature (range 10°C - 35°C) |   | 2.5 |   |\n| Air humidity |   | 2.5 |   |\n\nComplete the missing boxes in Table 1 with numbers from 0 - 5 to show your predictions for the missing sets of conditions.",
+     "solution_md": "The completed table is as follows:\n\n|   | Level of each variable |   |   |   |\n|---|---|---|---|---|\n| Condition | High | Medium | Low |   |\n|   | **Final answer:** **Any number in the quoted ranges below** | ** ** |   |   |\n| Wind speed | **Final answer:** **2.6 - 5** | 2.5 | **Final answer:** **0 - 2.4** | **[1 mark]** |\n| Temperature (range 10°C - 35°C) | **Final answer:** **2.6 - 5** | 2.5 | **Final answer:** **0 - 2.4** | **[1 mark]** |\n| Air humidity | **Final answer:** **0 - 2.4** | 2.5 | **Final answer:** **2.6 - 5** | **[1 mark]** |\n\n**[1 mark]** for each correct row.\n\n**[Total: 3 marks]**\n\n> *Transpiration rate generally increases in proportion to temperature and wind speed, because both factors increase evaporation from the leaf surfaces. *\n\n> *Conversely, humid air reduces evaporation from leaf surfaces. An analogy is trying to dry clothes on a humid day; it's much slower than when the air is dry. *"
+    },
+    {
+     "id": "qstnprt_fk9NCMgWKc32pBBK",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_RFPrxpN4wfQRnJJ5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nState the condition of a plant whose water levels have fallen so low that the plant can no longer support itself.",
+     "solution_md": "The condition of a plant whose water levels have fallen so low that the plant can no longer support itself is called:\n\n- Wilting / wilted; **[1 mark]**\n\n**[Total: 1 mark]**"
     }
    ]
   }

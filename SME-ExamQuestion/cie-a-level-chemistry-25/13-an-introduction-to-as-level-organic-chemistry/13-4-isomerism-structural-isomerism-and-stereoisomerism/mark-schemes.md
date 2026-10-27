@@ -227,3 +227,477 @@
 **B** is incorrect as this is the definition for stereoisomers, which have the same molecular and structural formula but atoms arranged differently in space.
 
 **C** is incorrect as empirical formula is the smallest whole number ratio of atoms in a compound. Molecular formula is the actual number of atoms of elements in a compound.
+
+## Structured Questions (6 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The systematic name of compound **A** is:
+> 
+> - 4-methylheptan-3-ol **[1 mark]**
+
+ii) One pair of optical isomers of compound **A**:
+
+| ![Structural formula of a chiral carbon bonded to hydrogen, hydroxyl, ethyl, and CH(CH3)C3H7 groups, showing wedge and dash stereochemistry](assets/018-structural-formula-of-a-chiral-carbon-bonded-to-.png) | ![Structural formula of a chiral alcohol showing a central carbon bonded to hydroxyl, ethyl, hydrogen and a branched CH(CH₃)C₃H₇ alkyl group](assets/019-structural-formula-of-a-chiral-alcohol-showing-a.png) |
+|---|---|
+
+**OR**
+
+| ![Structural formula of a chiral carbon atom bonded to CHOH–C₂H₅, C₃H₇, CH₃ and H groups, showing wedge and dash stereochemistry.](assets/020-structural-formula-of-a-chiral-carbon-atom-bonde.png) | ![Structural formula of a chiral carbon bonded to CHOH–C2H5, C3H7, CH3 and a wedge-shaped H, showing a three-dimensional organic molecule.](assets/021-structural-formula-of-a-chiral-carbon-bonded-to-.png) |
+|---|---|
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for one correct three-dimensional structure of compound **A**
+> 
+> 1 mark for the second structure drawn as a mirror image of the first
+
+> **[exam-tip]**
+> Compound **A** is 4-methylheptan-3-ol. The two chiral centres are at C3 (bonded to OH, H, ethyl group, and the C4-side chain) and C4 (bonded to methyl branch, H, propyl group, and the C3-side chain).
+> 
+> To draw a pair of optical isomers, arrange the four substituents on one chiral centre in a 3D tetrahedral arrangement using wedge and dash bonds, then draw its non-superimposable mirror image.
+The bond(s) responsible for geometrical (cis/trans) isomerism in each compound are:
+
+Compound **B**:
+
+![Compound B with the C=C bond responsible for geometrical isomerism circled; the other C=C bond with two identical substituents on one carbon is not circled](assets/022-compound-b-with-the-c-c-bond-responsible-for-geo.png)
+
+Compound **C**:
+
+![Compound C with the C=C bond responsible for geometrical isomerism circled; other C=C bonds with two identical substituents are not circled](assets/023-compound-c-with-the-c-c-bond-responsible-for-geo.png)
+
+Compound **D**:
+
+![Cyclohexanone structure with a methyl group and adjacent double bond highlighted by a green oval, labelled D underneath](assets/024-cyclohexanone-structure-with-a-methyl-group-and-.png)
+
+Compound **E**:
+
+![Organic molecule line diagram with ester group and carbon chain, two adjacent carbon–carbon double bonds highlighted by green circles, labelled E underneath](assets/025-organic-molecule-line-diagram-with-ester-group-a.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct C=C bond in compound **B** circled and no other C=C bond circled in compound **B**
+> 
+> 1 mark for the correct C=C bond in compound **C** circled and no other C=C bond circled in compound **C**
+> 
+> 1 mark for the C=C bond in compound **D** circled **AND **both C=C bonds in compound **E** circled
+
+> **[exam-tip]**
+> Not all C=C bonds show geometrical (cis/trans) isomerism. A C=C bond only shows this isomerism if both carbons of the double bond each have two different substituents. If one carbon has two identical groups, that C=C bond cannot show geometrical isomerism.
+> **[mark-scheme]**
+> i) The mechanism for this reaction is:
+> 
+> - Electrophilic addition **[1 mark]**
+
+ii) The three-dimensional structures of this pair of stereoisomers are:
+
+| ![Chemical structure of a chloromethyl cyclohexanone with a marked chiral centre inside the ring and wedge bonds showing chlorine and CH₃ orientation](assets/026-chemical-structure-of-a-chloromethyl-cyclohexano.png) | ![Cyclohexanone ring with a marked chiral carbon bearing a wedge methyl group and a dashed wedge chlorine substituent shown in skeletal formula style](assets/027-cyclohexanone-ring-with-a-marked-chiral-carbon-b.png) |
+|---|---|
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for one correct three-dimensional structure of the product
+> 
+> 1 mark for the second structure drawn as a mirror image of the first
+> 
+> 1 mark for an asterisk (*) correctly placed on the chiral carbon in one of the structures
+
+> **[exam-tip]**
+> Compound **D** is a cyclic alkene. When HCl adds across the C=C bond, the major product (Markovnikov's rule) is 3-chloro-3-methylcyclohexan-1-one, which has a chiral centre at C3.
+> 
+> The four different groups on C3 are: Cl, CH<sub>3</sub>, and the two non-equivalent portions of the ring (one side leads to the C=O group; the other does not).
+> **[mark-scheme]**
+> The type of reaction is:
+> 
+> - Hydrolysis **[1 mark]**
+
+> **[exam-tip]**
+> Compound **E** is a methyl ester. Hydrolysis is the reaction in which the ester bond is broken by water, producing the parent alcohol (methanol) and the carboxylic acid (deca-2,4-dienoic acid). This can occur under acid or alkaline conditions.
+
+### Q2
+> **[mark-scheme]**
+> The two types of stereoisomerism are:
+> 
+> - Geometrical (cis/trans)
+> **AND**
+> Optical **[1 mark]**
+
+> **[exam-tip]**
+> Stereoisomers are molecules with the same structural formula but a different arrangement of atoms in 3D space.
+> **[mark-scheme]**
+> A chiral centre is:
+> 
+> - A carbon atom that has four different atoms / groups of atoms attached to it **[1 mark]**
+
+> **[exam-tip]**
+> Defining a chiral centre is not a common question as the focus is usually on identifying and drawing them. However, you cannot identify or draw chiral centres without knowing this definition.
+The three-dimensional structure of the other optical isomer is:
+
+![Three-dimensional structure of the other optical isomer of the chlorofluorocarbon, a mirror image of Fig 2.1](assets/029-three-dimensional-structure-of-the-other-optical.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for a correct mirror image of the structure shown in Fig 2.1
+
+> **[exam-tip]**
+> Enantiomers are non-superimposable mirror images of each other. To draw the other enantiomer, simply draw the mirror image of the structure given in Fig 2.1.
+> **[mark-scheme]**
+> The carbon atom labelled **a** is not a chiral centre because:
+> 
+> - It has two methyl groups attached
+> **OR**
+> It does not have four different atoms / groups of atoms attached **[1 mark]**
+
+> **[exam-tip]**
+> Remember: chiral centres have four different atoms or groups of atoms attached. If any two substituents on a carbon are identical, it cannot be a chiral centre.
+
+### Q3
+> **[mark-scheme]**
+> The three types of structural isomerism are:
+> 
+> - Chain (isomerism) **[1 mark]**
+> - Positional (isomerism) **[1 mark]**
+> - Functional group (isomerism) **[1 mark]**
+
+> **[exam-tip]**
+> Structural isomers are compounds that have the same molecular formula but different structural formulae.
+> 
+> You should know the three different types and be prepared to determine the possible structural formulae of an organic molecule given its molecular formula.
+> **[mark-scheme]**
+> i) The type of structural isomerism shown by 2-methylpentane and 2,3-dimethylbutane is:
+> 
+> - Chain (isomerism) **[1 mark]**
+> 
+> ii) The type of structural isomerism shown by butan-1-ol and butan-2-ol is:
+> 
+> - Positional (isomerism) **[1 mark]**
+
+> **[exam-tip]**
+> Chain isomers have the same molecular formula but different longest carbon chain lengths because a section of the chain has been branched off.
+> 
+> Positional isomers arise from differences in the position of a functional group along the carbon chain. Both butan-1-ol and butan-2-ol are C<sub>4</sub>H<sub>10</sub>O alcohols but the –OH group is on a different carbon.
+> **[mark-scheme]**
+> i) The systematic name of compound **B** is:
+> 
+> - Butanoic acid **[1 mark]**
+> 
+> ii) The type of structural isomerism shown by compounds **A** and **D** is:
+> 
+> - Functional group isomerism **[1 mark]**
+> 
+> iii) The type of structural isomerism shown by compounds **C** and **E** is:
+> 
+> - Chain isomerism **[1 mark]**
+
+> **[exam-tip]**
+> Compound **B** has four carbons (but–), single carbon–carbon bonds (–an–) and a carboxylic acid functional group (–oic acid). This gives the systematic name butanoic acid.
+> 
+> Compounds **A** (a ketone) and **D** (an aldehyde) are functional group isomers. Both have the molecular formula C<sub>4</sub>H<sub>8</sub>O but the C=O group has moved from within the chain to the terminal position, changing the functional group.
+> 
+> Compounds **C** and **E** are chain isomers. Both are C<sub>4</sub>H<sub>10</sub>O alcohols but one has a branched carbon chain and the other is straight-chain.
+
+### Q4
+The completed table is:
+
+| **Compound** | **Displayed formula** | **Skeletal formula** |
+|---|---|---|
+| **1. ***Z*-2-chloro-but-2-en-1-ol | ![Displayed formula of 2-chlorobut-2-en-1-ol](assets/032-displayed-formula-of-2-chlorobut-2-en-1-ol.png) | ![Skeletal formula of 2-chlorobut-2-en-1-ol](assets/033-skeletal-formula-of-2-chlorobut-2-en-1-ol.png) |
+| **2. **2-chloropropanal | ![Displayed formula of 2-chloropropanal](assets/036-displayed-formula-of-2-chloropropanal.png) | ![Skeletal formula of 2-chloropropanal](assets/037-skeletal-formula-of-2-chloropropanal.png) |
+| **3. **3-bromo-2-methylpropan-1-ol | ![Displayed formula of 3-bromo-2-methylpropan-1-ol](assets/034-displayed-formula-of-3-bromo-2-methylpropan-1-ol.png) | ![Skeletal formula of 3-bromo-2-methylpropan-1-ol](assets/038-skeletal-formula-of-3-bromo-2-methylpropan-1-ol.png) |
+| **4. **3-methyl-but-2-enoic acid | ![Displayed formula of 3-methylbut-2-enoic acid](assets/039-displayed-formula-of-3-methylbut-2-enoic-acid.png) | ![Skeletal formula of 3-methylbut-2-enoic acid](assets/035-skeletal-formula-of-3-methylbut-2-enoic-acid.png) |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for compound 2 displayed formula correct **AND** compound 2 skeletal formula correct
+> 
+> 1 mark for compound 3 systematic name correct **AND** compound 3 skeletal formula correct
+> 
+> 1 mark for compound 4 systematic name correct **AND** compound 4 displayed formula correct
+
+> **[exam-tip]**
+> For compound 2 (2-chloropropanal):
+> 
+> - The -prop- portion tells you the main carbon chain is 3 carbons long
+> - The -an- portion tells you the main chain contains only single bonds
+> - The -al suffix tells you carbon-1 is an aldehyde (CHO) group
+> - The 2-chloro portion tells you there is a chlorine atom attached to carbon-2
+> - A common mistake when drawing the skeletal formula of any aldehyde is to forget the hydrogen atom attached to the carbonyl (C=O) bond
+> 
+> For compound 3 (3-bromo-2-methylpropan-1-ol):
+> 
+> - The main carbon chain is 3 carbons with single bonds, so the name is propane-based
+> - There is an alcohol group, a methyl group and a bromine group
+> - The alcohol is highest priority, so it is on carbon-1: propan-1-ol
+> - The methyl group is second highest priority: 2-methylpropan-1-ol
+> - The bromine group is lowest priority: 3-bromo-2-methylpropan-1-ol
+> - For the skeletal formula: re-draw the displayed formula, remove the carbon symbols (angling the chain to show structure clearly), then remove all hydrogen atoms except the one attached to the oxygen
+> 
+> For compound 4 (3-methylbut-2-enoic acid):
+> 
+> - The longest carbon chain is 4 carbons, so the name is but-based
+> - The carboxylic acid group is automatically carbon-1: butanoic acid
+> - There is a C=C double bond at carbon-2: but-2-enoic acid
+> - There is a methyl group on carbon-3: 3-methylbut-2-enoic acid
+> - For the displayed formula: re-draw the skeletal formula, place carbon symbols at each junction and chain end, then add the correct number of hydrogen atoms to each carbon — take care around double bonds as carbon has a maximum of 4 bonds
+> **[mark-scheme]**
+> The empirical formula of compound **1** is:
+> 
+> - C<sub>4</sub>H<sub>7</sub>ClO **[1 mark]**
+
+> **[exam-tip]**
+> The empirical formula gives the simplest whole number ratio of atoms of each element in a compound.
+> 
+> The molecular formula of compound 1, found by counting all atoms in the structure, is C<sub>4</sub>H<sub>7</sub>ClO. Since this cannot be simplified further, the empirical formula is the same as the molecular formula.
+> **[mark-scheme]**
+> Compound **1** shows geometrical (cis/trans) isomerism but compound **4** does not because:
+> 
+> - There is no free rotation about the C=C / carbon-carbon double bond **[1 mark]**
+> - Due to the presence of a π bond **[1 mark]**
+> - The C=C of compound **1** has different atoms / groups on each carbon **[1 mark]**
+> - The C=C of compound **4** has two identical groups / methyl groups on one carbon **[1 mark]**
+
+> **[exam-tip]**
+> For an alkene to show geometrical (cis/trans) isomerism, each carbon of the C=C double bond must have two different atoms or groups attached.
+> 
+> Compound 1 has a hydrogen atom and a methyl group at one end of the C=C, and a chlorine atom and a CH<sub>2</sub>OH group at the other end. Both ends have two different groups, so compound 1 shows geometrical isomerism.
+> 
+> Compound 4 has two methyl groups at one end of the C=C. Because this end has two identical groups, geometrical isomerism is not possible.
+> 
+> The isomerism arises because the π bond system above and below the σ bond prevents free rotation about the C=C.
+> **[mark-scheme]**
+> i) The type of stereoisomerism shown by compounds **2** and **3** is:
+> 
+> - Optical (isomerism) **[1 mark]**
+> 
+> ii) Compound **2** shows optical isomerism because:
+> 
+> - There is a carbon atom with four different atoms or groups of atoms attached **[1 mark]**
+> - The two molecules are non-superimposable mirror images of each other **[1 mark]**
+
+iii) The three-dimensional structures of the two optical isomers of compound **2** are:
+
+![Two optical isomers of 2-chloropropanal shown as three-dimensional structures](assets/040-two-optical-isomers-of-2-chloropropanal-shown-as.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for two correct three-dimensional structures drawn as non-superimposable mirror images
+
+> **[exam-tip]**
+> A chiral centre is a carbon atom with four different atoms or groups of atoms attached to it.
+> 
+> Optical isomerism arises because the four different groups can be arranged in two orientations that are non-superimposable mirror images of each other.
+> 
+> ![Chiral centres in compounds 2 and 3](assets/041-chiral-centres-in-compounds-2-and-3.png)
+> 
+> Compounds 2 and 3 both contain chiral centres, as shown in the diagram above.
+
+### Q5
+> **[mark-scheme]**
+> i) The systematic name of the unbranched alkane with the fewest carbon atoms that shows structural isomerism is:
+> 
+> - Butane **[1 mark]**
+> 
+> ii) The type of structural isomerism shown is:
+> 
+> - Chain / branched chain **[1 mark]**
+
+> **[exam-tip]**
+> The three types of structural isomerism are chain isomerism, positional isomerism and functional group isomerism.
+> 
+> A straight-chain alkane cannot show functional group isomerism because the molecule is saturated. This means you are looking for chain or positional isomerism.
+> 
+> Methane, ethane and propane cannot have chain or positional isomers as their chains are too short. Butane is the first straight-chain alkane long enough to rearrange:
+> 
+> - Taking a methyl group from the main chain leaves a 3-carbon chain
+> - Placing the methyl group on carbon-2 gives 2-methylpropane, a chain isomer of butane
+> 
+> ![Structural isomers of butane: straight-chain butane and branched 2-methylpropane](assets/042-structural-isomers-of-butane-straight-chain-buta.png)
+> **[mark-scheme]**
+> i) The homologous series that C<sub>4</sub>H<sub>8</sub> belongs to is:
+> 
+> - Alkenes **[1 mark]**
+> 
+> Cycloalkanes is also accepted
+
+ii) The skeletal formulae are:
+
+Cyclic isomers
+
+![Skeletal formula of cyclobutane](assets/043-skeletal-formula-of-cyclobutane.png)
+
+![Skeletal formula of methylcyclopropane](assets/044-skeletal-formula-of-methylcyclopropane.png)
+
+Isomers showing geometrical (cis/trans) isomerism
+
+![Skeletal formula of (E)-but-2-ene](assets/045-skeletal-formula-of-e-but-2-ene.png)
+
+![Skeletal formula of (Z)-but-2-ene](assets/046-skeletal-formula-of-z-but-2-ene.png)
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for each correct skeletal formula drawn:
+> 
+> - Cyclobutane
+> - Methylcyclopropane
+> - (E)-but-2-ene
+> - (Z)-but-2-ene
+
+> **[mark-scheme]**
+> iii) The two unsaturated C<sub>4</sub>H<sub>8</sub> isomers that do not show geometrical (cis/trans) isomerism are:
+> 
+> - But-1-ene **[1 mark]**
+> - Methylpropene **[1 mark]**
+> 
+> These isomers do not show geometrical (cis/trans) isomerism because one carbon of the C=C has two identical atoms or groups attached **[1 mark]**
+
+> **[exam-tip]**
+> The general formula C<sub>n</sub>H<sub>2n</sub> matches both alkenes and cycloalkanes, so C<sub>4</sub>H<sub>8</sub> belongs to both homologous series.
+> 
+> For cyclic isomers of C<sub>4</sub>H<sub>8</sub>, there are exactly two possibilities:
+> 
+> - A 4-membered ring: cyclobutane
+> - A 3-membered ring with a methyl substituent: methylcyclopropane
+> 
+> For unsaturated (alkene) isomers, draw out all possibilities and check each for geometrical isomerism. An alkene shows geometrical (cis/trans) isomerism only if both carbons of the C=C have two different atoms or groups attached.
+> 
+> But-1-ene has two hydrogen atoms on carbon-1 of the C=C, so geometrical isomerism is not possible.
+> 
+> Methylpropene has two methyl groups on one carbon of the C=C, so geometrical isomerism is not possible:
+> 
+> ![Skeletal formula of methylpropene](assets/047-skeletal-formula-of-methylpropene.png)
+The displayed formulae and chiral centres are:
+
+2,4-dimethylhexan-3-ol
+
+![Displayed formula of 2,4-dimethylhexan-3-ol with chiral centres C3 and C4 marked with asterisks](assets/048-displayed-formula-of-2-4-dimethylhexan-3-ol-with.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula including the O–H bond
+> 
+> 1 mark for chiral centre on carbon-3 identified with an asterisk
+> 
+> 1 mark for chiral centre on carbon-4 identified with an asterisk
+
+3-chloro-2,4-dimethylpentane
+
+![Displayed formula of 3-chloro-2,4-dimethylpentane](assets/049-displayed-formula-of-3-chloro-2-4-dimethylpentan.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula (no chiral centres are present in this compound)
+
+2-aminobutane
+
+![Displayed formula of 2-aminobutane with chiral centre on carbon-2 marked with an asterisk](assets/050-displayed-formula-of-2-aminobutane-with-chiral-c.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula including the N–H bonds
+> 
+> 1 mark for chiral centre on carbon-2 identified with an asterisk
+
+> **[exam-tip]**
+> A chiral centre is a carbon atom with four different atoms or groups of atoms attached. Identify these with an asterisk (*).
+> 
+> When drawing displayed formulae, show all bonds, including C–H, O–H and N–H bonds.
+> 
+> For 2,4-dimethylhexan-3-ol: carbon-2 is not chiral as it is bonded to two identical methyl groups (from carbon-1 and the 2-methyl branch). Carbons 3 and 4 each have four different groups attached, so both are chiral centres.
+> 
+> For 3-chloro-2,4-dimethylpentane: carbon-3 is bonded to a chlorine atom, a hydrogen atom and two identical isopropyl groups, so it is not a chiral centre. This compound has no chiral centres.
+> 
+> For 2-aminobutane: carbon-2 is bonded to H, NH<sub>2</sub>, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>, all different, so it is a chiral centre.
+> 
+> Some mark schemes accept functional group shorthand (OH, NH<sub>2</sub>) rather than explicitly showing all bonds.
+The three-dimensional structures of the two optical isomers of 1-bromopropan-1-ol are:
+
+![Three-dimensional structures of the two optical isomers of 1-bromopropan-1-ol](assets/051-three-dimensional-structures-of-the-two-optical-.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a correct three-dimensional structure of one enantiomer
+> 
+> 1 mark for a second enantiomer shown as a non-superimposable mirror image of the first
+
+> **[exam-tip]**
+> Other three-dimensional representations are acceptable as the placement of the four different groups in the first enantiomer can vary.
+> 
+> For 1-bromopropan-1-ol, the chiral carbon has four different groups: H, Br, OH and an ethyl group (CH<sub>2</sub>CH<sub>3</sub>).
+> 
+> The second enantiomer must always be drawn as a non-superimposable mirror image of the first.
+
+### Q6
+The displayed formulae of butan-2-ol and its positional isomer are:
+
+Butan-2-ol
+
+![Displayed formula of butan-2-ol](assets/052-displayed-formula-of-butan-2-ol.png)
+
+**[1 mark]**
+
+Butan-1-ol (positional isomer)
+
+![Displayed formula of butan-1-ol](assets/053-displayed-formula-of-butan-1-ol.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula of butan-2-ol including the O–H bond
+> 
+> 1 mark for correct displayed formula of butan-1-ol including the O–H bond
+
+> **[exam-tip]**
+> The structure of butan-2-ol can be read from its name:
+> 
+> - But- = 4 carbon atoms in the main chain
+> - -an- = all carbon-carbon single bonds
+> - -2-ol = a hydroxyl group on carbon-2
+> 
+> The positional isomer of butan-2-ol has the hydroxyl group on carbon-1, giving butan-1-ol.
+> 
+> When drawing a displayed formula, show all bonds, including the bond between the oxygen and hydrogen atoms in the hydroxyl group.
+> **[mark-scheme]**
+> The two branched-chain structural isomers of butan-2-ol are:
+> 
+> - 2-methylpropan-1-ol **[1 mark]**
+> - 2-methylpropan-2-ol **[1 mark]**
+
+> **[exam-tip]**
+> A branched-chain isomer has the same molecular formula as butan-2-ol but a shorter main chain with a methyl branch.
+> 
+> To find the branched-chain isomers, reduce the main chain from 4 carbons to 3 and consider where the removed methyl group can be placed:
+> 
+> - Moving a methyl from carbon-1 gives 2-methylpropan-1-ol
+> - Moving a methyl from carbon-4 gives 2-methylpropan-2-ol
+> 
+> Take care not to count different orientations (branch pointing up vs. down) as different isomers. The true test is to name each structure: a genuine isomer will have a different systematic name.
+> **[mark-scheme]**
+> The positional isomer of butan-2-ol (butan-1-ol) does not show stereoisomerism because:
+> 
+> - It does not contain a C=C / carbon-carbon double bond
+> **AND**
+> so cannot show geometrical (cis/trans) isomerism **[1 mark]**
+> - It does not contain a chiral centre
+> **AND**
+> so cannot show optical isomerism **[1 mark]**
+
+> **[exam-tip]**
+> Stereoisomerism has two types: geometrical (cis/trans) isomerism and optical isomerism.
+> 
+> Geometrical (cis/trans) isomerism requires a C=C double bond with two different groups on each carbon of the double bond.
+> 
+> Optical isomerism requires a chiral centre: a carbon atom with four different atoms or groups attached.
+> 
+> Butan-1-ol contains only single bonds and its carbon-1 has two hydrogen atoms attached, so it meets neither condition for stereoisomerism.

@@ -1,0 +1,933 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:39:26Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "9-algorithm-design-and-problem-solving-",
+  "name": "9. Algorithm Design & Problem-solving"
+ },
+ "topic": {
+  "id": "top_t2vJyBMt3q2sT9bs",
+  "slug": "algorithms",
+  "name": "Algorithms",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "algorithm-basics",
+   "name": "Algorithm basics",
+   "revision_note_id": "rn_mfDmX7BYbxc9wdSF"
+  },
+  {
+   "slug": "pseudocode",
+   "name": "Pseudocode",
+   "revision_note_id": "rn_ymfKNwgpVgqXFSJq"
+  },
+  {
+   "slug": "translation-skills",
+   "name": "Translation skills",
+   "revision_note_id": "rn_KNyVTK96WQbjqkb4"
+  },
+  {
+   "slug": "refinement-and-logic",
+   "name": "Refinement & logic",
+   "revision_note_id": "rn_crR5yWTHNbcdQPHn"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_k9rC7JPRbSHbymqH",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 17,
+   "questions_embedded": 17,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/9-algorithm-design-and-problem-solving-/algorithms/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 17,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/10317_screenshot-2025-11-12-200604.png": "001-diagram-showing-module-a-linked-to-sub-y1-sub-y2.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/27886_screenshot-2025-11-12-193140.png": "002-blank-flowchart-diagram-with-start-in-the-top-le.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/49979_screenshot-2025-11-12-193339.png": "003-flowchart-for-finding-the-minimum-index-it-sets-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/30362_screenshot-2025-11-12-191820.png": "004-flowchart-showing-a-process-with-a-start-oval-at.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/1888_screenshot-2025-11-12-192118.png": "005-flowchart-for-inputting-numbers-start-set-total-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/7359_screenshot-2025-11-12-181804.png": "006-flowchart-with-start-several-processes-a-decisio.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/42131_screenshot-2025-11-12-182034.png": "007-flowchart-displaying-a-process-with-five-zones-i.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/55119_screenshot-2025-11-12-173114.png": "008-flowchart-starts-with-input-of-three-numbers-fol.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/3707_screenshot-2025-11-12-173251.png": "009-flowchart-determining-largest-of-three-numbers-a.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/59461_screenshot-2025-11-12-174143.png": "010-flowchart-with-steps-start-set-flag-to-getstat-c.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/340_screenshot-2025-11-12-144041.png": "011-spreadsheet-with-columns-titled-count-c-l-index-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/28968_screenshot-2025-11-12-141425.png": "012-flowchart-with-a-start-point-input-prompt-for-a-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/62192_screenshot-2025-11-12-141646.png": "013-flowchart-of-a-process-starting-with-initialisin.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_KPTvqWKbpts6bZcg",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_zrMpvnpTVv6qCR7q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/23",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A structure chart shows the modular structure of a program:\n\n![Diagram showing Module-A linked to Sub-Y1, Sub-Y2, and Sub-9. Arrows labelled T1, SA, RA, and RB indicate data flow between modules.](assets/001-diagram-showing-module-a-linked-to-sub-y1-sub-y2.png)\n\nExplain the meaning of the curved arrow symbol which begins and ends at Module-A().",
+     "solution_md": "> **[mark-scheme]**\n> **MP1**   iteration / looping  \n> **MP2**  naming all four modules correctly in the correct sequence // e.g. `Module-A` repeatedly calls `Sub-Y1`,then `SubY2` then `Sub-9`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_C7V9czFysMHZRTFk",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_wwPQxTNN9bkhT9kQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/23",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_rkVZyJmwwKynTj9B",
+      "spcpt_ky6dXSQyCVpC8pHf"
+     ],
+     "part_tier": null,
+     "problem_md": "`Data` is a 1D array of integers, containing 30 elements. All element values are unique.\n\nAn algorithm will output the index of the element with the smallest value.\n\nDraw a program flowchart to represent the algorithm.\n\n![Blank flowchart diagram with \"Start\" in the top left corner and \"End\" in the bottom left corner, no connectors or additional elements.](assets/002-blank-flowchart-diagram-with-start-in-the-top-le.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Flowchart for finding the minimum index. It sets initial values, checks conditions in loops, updates indices, and outputs the minimum index before ending.](assets/003-flowchart-for-finding-the-minimum-index-it-sets-.png)\n> \n> **MP1**   Initialise `Min` to first value in `Data `**and** `MinIndex` to 1 \n> **MP2**  Loop through 29 more values (or 30 values in total) \n> **MP3**  Compare element from `Data[]` with `Min`  \n> **MP4**  Set new `Min` **AND** save `MinIndex` when element value `<` `Min` **in a loop**  \n> **MP5  **Output `MinIndex`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_d927GY7DJtzZwTZV",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_xXTpcQx8tpfvMDt3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/22",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rkVZyJmwwKynTj9B",
+      "spcpt_ky6dXSQyCVpC8pHf"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm will:\n\n1. input a sequence of integer values, one at a time\n2. ignore all values until the value 27 is input, then sum the remaining values in the sequence\n3. stop summing values when the value 0 is input and then output the sum of the values.\n\nDraw a program flowchart to represent the algorithm.\n\n![Flowchart showing a process with a \"Start\" oval at the top and an \"End\" oval at the bottom, connected by a single line.](assets/004-flowchart-showing-a-process-with-a-start-oval-at.png)",
+     "solution_md": "> **[mark-scheme]**\n> Example Solution\n> \n> ![Flowchart for inputting numbers: Start, set total to 0, input number, check if number is 27, if yes then input another number, else add to total, output total, end.](assets/005-flowchart-for-inputting-numbers-start-set-total-.png)\n> \n> **One** mark per point:\n> \n> 1. Initialise `Total` to zero\n> 2. Check for only **first** input of 27 **in a loop** then attempt to sum values\n> 3. Loop until 0 input\n> 4. Sum values **input** (after input of first 27)** in a loop**\n> 5. Output `Total` after a reasonable attempt"
+    }
+   ]
+  },
+  {
+   "id": "qstn_r6Sm8mcvY8qRk9Qf",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_4YKpG4r9qWGCqSVq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WNyy3hqQgGcqb3Nm",
+      "spcpt_ky6dXSQyCVpC8pHf"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm is expressed as follows:\n\n- input 100 numbers, one at a time\n- keep a total of all numbers input that have a value between 30 and 70 inclusive and output this total after the last number has been input.\n\nOutline, using stepwise refinement, the five steps for this algorithm which could be used to produce pseudocode.\n\nDo **not** use pseudocode statements in your answer.\n\nStep 1 .....................................................................................................................\n\nStep 2 ....................................................................................................................\n\nStep 3 ....................................................................................................................\n\nStep 4 ....................................................................................................................\n\nStep 5 ....................................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> **Max 5** marks\n> \n> **MP1**    Set total to <u>zero</u> \n> **MP2**   Input a number \n> **MP3**   Check if number greater than 29 and less than 71 \n> **MP4  ** … if check is true - add number to total \n> **MP5**   Repeat from step 2 99 times // for a total of 100 iterations \n> **MP6**   Output the total"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZGHSFVC4fG498rc8",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hk385mc8fbW8MDjG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/23",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is being designed in pseudocode.\n\nThe program contains the following declaration:\n\n`    DECLARE Data : ARRAY[1:1000] OF STRING `\n\nA procedure `ArrayInitialise()` is written to initialise the values in the array:\n\n`    PROCEDURE ArrayInitialise(Label : STRING) `\n`       DECLARE `\n`       Index : INTEGER Index`$\\leftarrow$`1 `\n`       WHILE Index <= 1000 `\n`          CASE OF (Index MOD 2) `\n`             0 : Data[Index]`$\\leftarrow$`FormatA(Label) `\n`                 Index`$\\leftarrow$`Index + 1 `\n`             1 : Data[Index]`$\\leftarrow$`FormatB(Label) `\n`                 Index`$\\leftarrow$`Index + 1 `\n`          ENDCASE `\n`       ENDWHILE `\n`    ENDPROCEDURE `\n\nFunctions `FormatA()` and `FormatB()` apply fixed format case changes to the parameter string.\n\nThe algorithm calls one of the functions `FormatA()` and `FormatB() `each time within the loop.\n\nExplain why this is **not** efficient **and** suggest a more efficient solution.",
+     "solution_md": "> **[mark-scheme]**\n> Two mark for Statement of Problem:\n> \n> 1. The functions will return the same value every time they are called\n> 2. ... because `Label` / the parameter value does not change within the loop\n> \n> Two marks for Solution:\n> \n> 3.  Assign `FormatA(Label)` and `FormatB(Label)` to two (local) variables         <u>before</u> the loop\n> \n> 4.  Use the (new) variables in place of the function calls / in the loop //       Replace the references to `FormatA()` and `FormatB()`in the `CASE` clauses with     the new variable names",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hh6TZTG8HwyVSvjN",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_z6f2KccfDprBhWbY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/23",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rkVZyJmwwKynTj9B",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A module `InRange()` will:\n\n- be called with an integer parameter representing an index value of a record in the `Batch` array\n- check if the weight of the indexed component is within the acceptable range\n- return `TRUE` if the weight is in the range and `FALSE` if it is **not**.\n\nA module `BatchCheck()` will:\n\n- iterate through a batch of 1000 component records\n- call module `InRange() `to check each individual component record\n- keep a count of the number of components that fail\n- output a suitable warning message and immediately stop if the number of failed components exceeds 5.\n\nComplete the program flowchart to represent the algorithm for module BatchCheck().\n\n![Flowchart with start, several processes, a decision checking if index equals 1001, branching to yes or no paths, leading to an end.](assets/006-flowchart-with-start-several-processes-a-decisio.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Flowchart displaying a process with five zones: initialising counters, incrementing index, checking range, updating count, and determining output limit.](assets/007-flowchart-displaying-a-process-with-five-zones-i.png)\n> \n> One mark per zone"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GZn8cKF4GzkyjYMC",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_dBJq5KmBcpRqZGHy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rkVZyJmwwKynTj9B",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is being developed.\n\nAn algorithm for part of the program will:\n\n- input three numeric values and assign them to identifiers` Num1`, `Num2` and `Num3 `\n- assign the largest value to variable `Ans`\n- output a message giving the largest value and the average of the three numeric values.\n\nAssume the values are all different and are input in no particular order.\n\nComplete the program flowchart on page 5 to represent the algorithm.\n\n![Flowchart starts with input of three numbers, followed by decision points, leading to various processes, and ends with a terminal step.](assets/008-flowchart-starts-with-input-of-three-numbers-fol.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Flowchart determining largest of three numbers and calculating average. Inputs: Num1, Num2, Num3. Outputs largest number and average of the three.](assets/009-flowchart-determining-largest-of-three-numbers-a.png)\n> \n> Mark points\n> \n> 1. Condition for selecting one of the input numbers as largest value\n> 2. … and assign to `Ans`\n> 3. Condition for selecting largest number for all three number input and assigning to `Ans`\n> 4. Average calculated using `Num1`, `Num2` and `Num3` and stored in a variable. Reject use of DIV\n> 5. Output of `Ans` and average in output symbol / parallelogram"
+    },
+    {
+     "id": "qstnprt_2cQVknRfbqZVsYZR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YFT6RKY5hvgMzdtv",
+      "spcpt_tQ74wpHyRyJwcbWH",
+      "spcpt_p6gdsGKbBwW2jTbr",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A different part of the program contains an algorithm represented by the following program flowchart:\n\n![Flowchart with steps: start, set flag to GetStat(), check if flag is true, end or set port to 1, check if port is 4, call reset if not, increment port.](assets/010-flowchart-with-steps-start-set-flag-to-getstat-c.png)\n\nWrite pseudocode for the algorithm.",
+     "solution_md": "> **[mark-scheme]**\n> Example solutions:\n> \n> `Flag `$\\leftarrow$` GetStat() `\n> `WHILE Flag <> TRUE `\n> `   FOR Port `$\\leftarrow$` 1 TO 3 `\n> `      CALL Reset(Port) `\n>         `NEXT Port `\n>         `Flag `$\\leftarrow$` GetStat() `\n> `ENDWHILE `\n> \n> Alternative:\n> \n> `REPEAT `\n>         `Flag `$\\leftarrow$` GetStat() `\n>        `IF Flag <> TRUE THEN `\n>                `FOR Port `$\\leftarrow$` 1 TO 3 `\n>                      `CALL Reset(Port) `\n>               `NEXT Port `\n>        `ENDIF `\n> `UNTIL Flag = TRUE `\n> \n> One mark per point:\n> \n> 1. (Outer) conditional loop testing `Flag`\n> 2. Correct assignment of `Flag` from `GetStat()` **in a loop**\n> 3. (Inner) loop checking / counting port // Check if `Port` is different to 4\n> 4. … loop for 3 iterations\n> 5. a call to `Reset()`**in a loop**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8Hm59WfPHmbZg5XV",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_5jjNbSxH7WBxscqv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "Refer to the** **[insert](https://cdn.savemyexams.com/uploads/2025/11/46562-9618_s24_in_22.pdf) for the list of pseudocode functions and operators.\n\nThe following table contains pseudocode examples.\n\nEach example may contain statements that relate to one or more of the following:\n\n- selection\n- iteration (repetition)\n- input/output.\n\nComplete the table by placing **one or more** ticks (**✓**) in each row.\n\n| **Pseudocode example** | **Selection** | **Iteration** | **Input/Output** |\n|---|---|---|---|\n| `FOR Index `$\\leftarrow$`1 TO 10 `<br>`   Data[Index] `$\\leftarrow$`0 `<br>`NEXT Index` |   |   |   |\n| `WRITEFILE ThisFile, \"****\"` |   |   |   |\n| `UNTIL Level > 25` |   |   |   |\n| `IF Mark > 74 THEN `<br>`   READFILE OldFile, Data`<br>`ENDIF` |   |   |   |",
+     "solution_md": "| **Pseudocode example** | **Selection** | **Iteration** | **Input/Output** |\n|---|---|---|---|\n| `FOR Index `$\\leftarrow$`1 TO 10 `<br>`   Data[Index] `$\\leftarrow$`0 `<br>`NEXT Index` |   | **✓** |   |\n| `WRITEFILE ThisFile, \"****\"` |   |   | **✓** |\n| `UNTIL Level > 25` |   | **✓** |   |\n| `IF Mark > 74 THEN `<br>`   READFILE OldFile, Data`<br>`ENDIF` | **✓** |   | **✓** |\n\nOne mark per row.",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_83h6XMbHRY3PfmTF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_K5x493txHdkbQvJt"
+     ],
+     "part_tier": null,
+     "problem_md": "Program variables have data types as follows:\n\n| **Variable** | **Data type** |\n|---|---|\n| `MyChar` | `CHAR` |\n| `MyString` | `STRING` |\n| `MyInt` | `INTEGER` |\n\nThe variables given in part** (b)** are chosen during the design stage of the program development life cycle.\n\nThe choices are to be documented to simplify program maintenance.\n\nState a suitable way of documenting the variables **and** give **one** piece of information that should be recorded, in addition to the data type.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for stating a suitable way of documenting:\n> \n> - <u>Identifier table </u>\n> 1 mark for giving one piece of information that should be recorded. \n> examples include: \n> Explanation of what (each) variable is used for \n> The purpose of (each) variable \n> An example of data values stored // Initialisation value"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wcRhT9WjfCGRfzz9",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_TSVgWKcS2CYtP6cr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 7,
+      "question_part": "aii,aiii"
+     },
+     "spec_point_ids": [
+      "spcpt_N8XKYrJwZSkNn4CF",
+      "spcpt_ky6dXSQyCVpC8pHf"
+     ],
+     "part_tier": null,
+     "problem_md": "A fitness club has a computerised membership system. The fitness club offers a number of different exercise classes.\n\nThe following information is stored for each club member: name, home address, email address, mobile phone number, date of birth and the exercise(s) they are interested in.\n\nWhen an exercise class is planned, a new module will send personalised text messages to each member who has expressed an interest in that exercise. Members wishing to join the class send a text message back. Members may decide not to receive future text messages by replying with the message ‘STOP’.\n\n(i) Identify **three** items of information that will be required by the new module. \nJustify your choices with reference to the given scenario.\n\nItem 1 required .........................................................................................................\n\nJustification .............................................................................................................\n\nItem 2 required ........................................................................................................\n\nJustification ............................................................................................................\n\nItem 3 required .......................................................................................................\n\nJustification ............................................................................................................\n\n[3]\n\n(ii) Identify **two** operations that would be required to process data when the new module receives a text message back from a member.\n\nOperation 1 ...........................................................................................................\n\nOperation 2 ............................................................................................................\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> One mark per item **and** justification\n> \n> Item: mobile phone number \n> Justification: to send the text message\n> \n> Item: name \n> Justification: to personalise the text message\n> \n> Item: exercise interest \n> Justification: to determine whether this member would be interested\n> \n> (ii)\n> \n> Examples include:\n> \n> - Add a member to a list of those interested in the new class\n> - Remove the member from future SMS messages\n> - Read/process Message\n> - Identify who from\n> \n> One mark for each.\n> \n> **Max 2 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_G4FDZxKtq3Yhp3XR",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_p5sTf5nX8r2Y3TQn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_K5x493txHdkbQvJt",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A global 1D array of strings contains three elements which are assigned values as shown:\n\n`Data[1] `$\\leftarrow$`\"aaaaaa\" `\n`Data[2] `$\\leftarrow$`\"bbbbbb\" `\n`Data[3] `$\\leftarrow$`\"cccccc\" `\n\nProcedure `Process()` manipulates the values in the array.\n\nThe procedure is written in pseudocode as follows:\n\n`PROCEDURE Process(Format : STRING) `\n`   DECLARE Count, Index, L : INTEGER `\n`   DECLARE Result : STRING `\n`   DECLARE C : CHAR `\n\n`   Result`$\\leftarrow$` \"****\" `\n\n`   FOR Count 1 TO LENGTH(Format) STEP 2 `\n`      C`$\\leftarrow$` MID(Format, Count, 1) `\n`      L`$\\leftarrow$` STR_TO_NUM(MID(Format, Count + 1, 1)) `\n\n`      Index `$\\leftarrow$`(Count + 1) DIV 2 `\n\n`      CASE OF C `\n`         'X' : Result `$\\leftarrow$`TO_UPPER(Data[Index]) `\n`         'Y' : Result `$\\leftarrow$`TO_LOWER(Data[Index]) `\n`         'Z' : Result `$\\leftarrow$` \"**\" & Data[Index] `\n`      ENDCASE `\n\n`      Data[Index] `$\\leftarrow$`LEFT(Result, L) `\n`   NEXT Count `\n\n`ENDPROCEDURE`\n\nComplete the trace table by dry running the procedure when it is called as follows:\n\n`CALL Process(\"X3Y2W4\")`\n\n| **Count** | **C** | **L** | **Index** | **Result** | **Data[1]** | **Data[2]** | **Data[3]** |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> ![Spreadsheet with columns titled Count, C, L, Index, Result, Data[1], Data[2], Data[3]. Rows have alphanumeric data and ASCII box outlines.](assets/011-spreadsheet-with-columns-titled-count-c-l-index-.png)\n> \n> One mark per zone.",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PMXnCcSp4BKznrTm",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_w3D7cgDd53GfHzSC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rkVZyJmwwKynTj9B",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm has three steps. It will:\n\n1. repeatedly input a pair of numeric values `A` and `B`\n2. count the number of pairs that are input until `A` has been greater than `B` 10 times\n3. output the number of pairs that were input.\n\nComplete the program flowchart.\n\n![Flowchart with a start point, input prompt for A and B, decision branches marked Yes and No, leading to an end point.](assets/012-flowchart-with-a-start-point-input-prompt-for-a-.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Flowchart of a process starting with initialising variables, inputting A and B, comparing them, incrementing counters, and ending with output.](assets/013-flowchart-of-a-process-starting-with-initialisin.png)\n> \n> One mark per outlined region:\n> \n> 1. Initialise both counts\n> 2. Increment `Tries` every time a pair is input\n> 3. Compare A > B **and** increment `Count `if TRUE\n> 4. Test for Count = 10 (10<sup>th</sup> time A > B) – MUST include Yes / No labels\n> 5. If so output `Tries`, otherwise loop"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bVkcsn2zks2c5cSk",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_TSbqfPpDrX8MyWzH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VMP6ksfMD7mZPq5Y",
+      "spcpt_ky6dXSQyCVpC8pHf",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "In some countries, on the third Sunday in March, daylight saving time begins when clocks move forward by one hour.\n\nA module `AdjustClock()` will take an integer parameter representing a year. The module will return an integer value representing the number of the day in March on which the clocks move forward.\n\nFor example, the following line of pseudocode would assign `DayNumber `the value 20:\n\n`DayNumber`$\\leftarrow$`AdjustClock(2022) `\n\nWrite pseudocode for the function `AdjustClock()`.\n\nDate functions from the **insert** should be used in your solution.",
+     "solution_md": "> **[mark-scheme]**\n> Loop Solution \n> Example solution:\n> \n> `FUNCTION AdjustClock(ThisYear : INTEGER) RETURNS INTEGER`\n> `   DECLARE ThisDayNumber, SundayCount : INTEGER `\n> `   DECLARE ThisDate : DATE `\n> \n> `   ThisDayNumber `$\\leftarrow$` 0 `\n>          `SundayCount `$\\leftarrow$` 0 `\n>          `REPEAT `\n>                  `ThisDayNumber `$\\leftarrow$` ThisDayNumber + 1 `\n>                  `ThisDate `$\\leftarrow$` SETDATE(ThisDayNumber, 3, ThisYear) `\n>                  `IF DAYINDEX(ThisDate) = 1 THEN `\n>                          `SundayCount `$\\leftarrow$` SundayCount + 1 `\n>                  `ENDIF `\n>          `UNTIL SundayCount = 3 `\n>         `RETURN ThisDayNumber `\n> `ENDFUNCTION `\n> \n> Mark as follows: \n> **MP1**    Function heading, parameter, ending and return type \n> **MP2   **Declare local integer variable that is used to create a date \n> **MP3**   Loop until 3<sup>rd</sup> Sunday found \n> **MP4**   Attempt to use both `SETDATE()`** and** `DAYINDEX()`** in a loop** \n> **MP5**   Correctly generate value of type `DATE` using `SETDATE()` **in a loop** \n> **MP6**   Test if value represents a Sunday using `DAYINDEX()` **in a loop** \n> **MP7**   Increment Sunday count **in a loop and** initialised correctly before loop \n> **MP8**   Return day number of **third **Sunday\n> \n> **Max 7 marks **\n> \n> Non-loop solution \n> Example solution:\n> \n> `FUNCTION AdjustClock(ThisYear : INTEGER) RETURNS INTEGER `\n> `   DECLARE FirstDayIndex: INTEGER `\n> `   DECLARE ThisDate : DATE `\n> \n> `   ThisDate `$\\leftarrow$` SETDATE(1, 3, ThisYear) `\n> `   FirstDayIndex `$\\leftarrow$` DAYINDEX(ThisDate) `\n> `   IF FirstDayIndex = 1 THEN `\n> `      ThirdSunday `$\\leftarrow$` FirstDayIndex + 14 //First day is Sunday `\n>          `ELSE `\n> `      ThirdSunday `$\\leftarrow$` 23 – FirstDayIndex // Other days `\n>         `ENDIF `\n>         `RETURN ThirdSunday `\n> `ENDFUNCTION`\n> \n> Mark as follows: \n> **MP1**   Function heading, parameter, ending and return type \n> **MP2**   Declare local integer variable that is used to hold a day number \n> **MP4**   Attempt to use both `SETDATE()` **and** `DAYINDEX() `\n> **MP5**   Correctly generate value of type `DATE` using `SETDATE()` for first of March / specific day in March \n> **MP6**   Test if date represents a Sunday / specific day using `DAYINDEX()` and calculate third Sunday // Correctly calculate third Sunday for a value returned by `DAYINDEX()`for one day \n> **MP7**   Calculate third Sunday for other six days \n> **MP8**   Return day number of **third **Sunday\n> \n> **Max 7 marks**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6v7xYbTtPZJ7GvYx",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_YtXszpvZ5Pwq9Thm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "An examination paper has a maximum of 75 marks. One of five pass grades (A to E) is assigned, depending on the mark obtained. The lowest mark for a given grade is known as the grade boundary.\n\nA program is being written to process examination marks.\n\nThe five grade boundaries are stored in a global 1D array `GB` of type `INTEGER`, for example:\n\n| **Index** | **Value** | **Comment** |\n|---|---|---|\n| 1 | `65` | The minimum mark for an A grade. |\n| 2 | `57` | The minimum mark for a B grade. |\n| 3 | `43` | The minimum mark for a C grade. |\n| 4 | `35` | The minimum mark for a D grade. |\n| 5 | `27` | The minimum mark for an E grade. |\n\nAny paper that achieves a mark within 2 marks of a grade boundary must be checked. Using the given table, a paper with 45 marks would need to be checked.\n\nThe pseudocode algorithm to determine whether a paper should be checked is as shown. The mark for the paper is stored in variable `Mark`. Global variables Mark, Index, Upper and Lower are declared as integers.\n\nComplete the pseudocode.\n\n`FOR Index `$\\leftarrow$` 1 TO ........................................... `\n\n`    Lower `$\\leftarrow$` GB[Index] - 2 `\n\n`    Upper `$\\leftarrow$` ....................................................... `\n\n`    IF Mark ........................................... AND Mark ........................................... THEN `\n\n`       OUTPUT \"Check this paper\" `\n\n`    ENDIF `\n\n` NEXT Index`",
+     "solution_md": "> **[mark-scheme]**\n> One mark per highlighted part:\n> \n> `FOR Index `$\\leftarrow$ `1 TO` <u>**5**</u> \n>         `Lower `$\\leftarrow$` GB[Index] - 2 `\n>         `Upper `$\\leftarrow$ <u>**GB[Index] + 2**</u> `// `<u>**Lower + 4**</u> \n>         `IF Mark` <u>**>= Lower**</u> `AND Mark` <u>**<= Upper**</u> `THEN` \n>  `//IF Mark` <u>**<= Upper **</u>`AND Mark` <u>**>= Lower**</u> `THEN `\n>              `OUTPUT \"Check this paper\" `\n> `   ENDIF `\n> `NEXT Index`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3b7ggsrQKq8MfV4G",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_w5mNFSjxkzGhGZRd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ky6dXSQyCVpC8pHf",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm will:\n\n1. prompt and input a sequence of 100 integer values, one at a time\n2. sum the positive integers\n3. output the result of the sum.\n\nWrite pseudocode for the algorithm.\n\nAssume the value zero is neither positive nor negative.\n\nYou must declare all variables used in the algorithm.",
+     "solution_md": "> **[mark-scheme]**\n> `DECLARE Count, Total, NextNumber : INTEGER `\n> \n> `Total `$\\leftarrow$` 0 `\n> `FOR  Count `$\\leftarrow$` 1 TO 100 `\n> `    OUTPUT \"Input an integer value\"`\n> `    INPUT NextNumber `\n> `    IF NextNumber > 0 THEN `\n> `       Total `$\\leftarrow$` Total + NextNumber `\n> `    END IF `\n> `NEXT Count `\n> \n> `OUTPUT Total `\n> \n> Mark as follows: \n> **MP1**     Declarations of all variables used \n> **MP2**    Loop for 100 iterations \n> **MP3**    Prompt **and** input a value **in a loop and **\n> **MP4**    Test for value > 0 // >=1 **in a loop **\n> **MP5**    Sum the Total **in a loop** \n> **MP6**    Output of Total after the **loop**\n> \n> **Max 5 marks**",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xGyTFzfP2w58Jdbt",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_79CpznGj3KDD3ZKK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ky6dXSQyCVpC8pHf",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop sells sandwiches and snacks. The owner chooses a ‘daily special’ sandwich which is displayed on a board outside the shop. Each ‘daily special’ has two different fillings and is made with one type of bread.\n\nThe owner wants a program to randomly choose the ‘daily special’ sandwich.\n\nThe program designer decides to store the possible sandwich fillings in a 1D array of type string.\n\nThe array is declared in pseudocode as follows:\n\n`   DECLARE Filling : ARRAY [1:35] OF STRING `\n\nEach element contains the name of one filling.\n\nAn example of the first five elements is as follows:\n\n| **Index** | **Element value** |\n|---|---|\n| 1 | `\"Cheese\"` |\n| 2 | `\"Onion\"` |\n| 3 | `\"Salmon\"` |\n| 4 | `\"Anchovies\"` |\n| 5 | `\"Peanut Butter\"` |\n\nA second 1D array stores the possible bread used:\n\n`     DECLARE Bread : ARRAY [1:10] OF STRING `\n\nEach element contains the name of one type of bread.\n\nAn example of the first three elements is as follows:\n\n| **Index ** | **Element value** |\n|---|---|\n| 1 | `\"White\"` |\n| 2 | `\"Brown\"` |\n| 3 | `\"Pitta\"` |\n\nBoth arrays may contain unused elements. The value of these will be an empty string and they may occur anywhere in each array.\n\nA procedure `Special() `will output a message giving the ‘daily special’ sandwich made from **two** randomly selected different fillings and **one** randomly selected bread.\n\nUnused array elements must** not** be used when creating the ‘daily special’ sandwich.\n\nUsing the above examples, the output could be:\n\n`     \"The daily special is Cheese and Onion on Brown bread.\"`\n\nComplete the pseudocode for the procedure `Special()`.\n\nAssume that both arrays are global.\n\n`PROCEDURE Special()`",
+     "solution_md": "> **[mark-scheme]**\n> Example solution:\n> \n> `PROCEDURE Special() `\n> `   DECLARE Index : INTEGER `\n> `   DECLARE Filling1, Filling2 : STRING `\n> \n> `   REPEAT `\n> `      Index `$\\leftarrow$` INT(RAND(35)) + 1 `\n> `   UNTIL Filling[Index] <> \"\" `\n> \n> `   Filling1 `$\\leftarrow$` Filling[Index] `\n> \n> `   REPEAT `\n> `      Index `$\\leftarrow$` INT(RAND(35)) + 1 `\n> `   UNTIL Filling[Index] <> \"\" AND Filling1 <> Filling[Index] `\n> \n> `   Filling2 `$\\leftarrow$` Filling[Index] `\n> \n> `   REPEAT `\n> `      Index`$\\leftarrow$` INT(RAND(10) + 1) `\n> `   UNTIL Bread[Index] <> \"\" `\n> \n> `   OUTPUT \"The daily special is \", Filling1, \" and \", __ Filling2, \"   on \", Bread[Index], \" bread.\" `\n> \n> `ENDPROCEDURE `\n> \n> Mark as follows: \n> **MP1**   Loop for Filling 1, avoiding unused elements \n> **MP2**  Loop for Filling 2 avoiding unused elements \n> **MP3**  Check Filling 2 is different from Filling 1 – could correctly compare either the indices or the array contents\n> \n> **MP4**   Loop for Bread, avoiding unused elements\n> \n> **MP5**   Using `RAND(10)` /` RAND(35)` \n> **MP6**   Completely correct use of RAND() - including `INT()`and +1 in all cases\n> \n> **MP7**   Correct output -** once only** – following a reasonable attempt at selection of filings and bread",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PkKDzY9xtPq8Pwbk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WNyy3hqQgGcqb3Nm",
+      "spcpt_N8XKYrJwZSkNn4CF"
+     ],
+     "part_tier": null,
+     "problem_md": "The owner decides that some combinations of fillings do not go well together. For example, anchovies and peanut butter.\n\nDescribe how the design could be changed to prevent certain combinations being selected.",
+     "solution_md": "> **[mark-scheme]**\n> Answers include:\n> \n> **MP1**    For each filling, create a list of <u>acceptable</u> / <u>incompatible</u> fillings/indexes \n> **MP2**   When selecting the second filling, (as well as checking for an unused element) <u>check</u> that the filling / index is / is not on the list\n> \n> ALTERNATIVE: \n> **MP1**    Create a list of ‘good’ combinations \n> **MP2**   <u>Randomly select</u> from this list"
+    }
+   ]
+  },
+  {
+   "id": "qstn_z599G6Zdx7wSWwDR",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_3n4BrqtZkdjkXQS9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ky6dXSQyCVpC8pHf",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A global integer variable `Tick` is always incremented every millisecond (1000 times per second) regardless of the other programs running.\n\nThe value of `Tick` can be read by any program but the value should not be changed.\n\nAssume that the value of `Tick` does not overflow.\n\nAs an example, the following pseudocode algorithm would output `\"Goodbye\" `40 seconds after outputting `\"Hello\"`.\n\n`    DECLARE Start : INTEGER `\n\n`    OUTPUT \"Hello\" `\n`    Start Tick `\n\n`    REPEAT `\n`      //do nothing `\n`    UNTIL Tick = Start + 40000 `\n\n`    OUTPUT \"Goodbye\" `\n\nA program is needed to help a user to time an event such as boiling an egg.\n\nThe time taken for the event is known as the elapsed time.\n\nThe program contains a procedure `Timer() `which will:\n\n- take two integer values representing an elapsed time in minutes and seconds\n- use the value of variable `Tick` to calculate the elapsed time\n- output a warning message 30 seconds before the elapsed time is up\n- output a final message when the total time has elapsed\n\nFor example, to set an alarm for 5 minutes and 45 seconds the program makes the following call:\n\n`    CALL Timer(5, 45) `\n\nWhen 5 minutes and 15 seconds have elapsed, the program will output:\n\n`    \"30 seconds to go\" `\n\nWhen 5 minutes and 45 seconds have elapsed, the program will output:\n\n`    \"The time is up!\"`\n\nWrite pseudocode for the procedure `Timer()`.",
+     "solution_md": "> **[mark-scheme]**\n> Example solution:\n> \n> `PROCEDURE Timer(Mins, Secs : INTEGER) `\n> `   DECLARE WarningTick, EndTick : INTEGER `\n> \n> `   EndTick `$\\leftarrow$` Tick + 1000 * ((Mins * 60) + Secs) `\n> `   WarningTick `$\\leftarrow$` EndTick - (30 * 1000) `\n> \n> `   REPEAT `\n> `      //do nothing `\n> `   UNTIL Tick = WarningTick `\n> `   OUTPUT \"30 seconds to go\" `\n> \n> `   REPEAT `\n> `     //do nothing `\n> `   UNTIL Tick = EndTick `\n> \n> `   OUTPUT \"The time is up!\" `\n> \n> `ENDPROCEDURE `\n> \n> Mark as follows: \n> **MP1** Procedure heading **and** parameters **and** ending \n> **MP2** ‘Attempt’ to calculate ‘total time’/`EndTick` // ‘elapsed time’ // `WarningTick `\n> **MP3** Correct calculation of `EndTick` **and** `WarningTick`\n> \n> **MP4** **(Design mark) **\n> \n> - Two separate loops – checking warning time then the final time, **OR** …\n> - Single loop checking the final time with an IF statement to check for warning time, **OR** …\n> - Single loop with two IF statements checking the warning time and final time\n> \n> **MP5** Completely correct MP4 \n> **MP6** Output both messages (must be meaningful and follow successful MP4)",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_s4gFB7Bb8m9wtr97",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pTPMvNNjPnGvCqTY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm will output the **last** three lines from a text file `Result.txt`\n\nThe lines need to be output in the same order as they appear in the file.\n\nAssume:\n\n- Three variables` LineX`, `LineY` and `LineZ` will store the three lines. These are of type string and all three variables have been initialised to an empty string.\n- The file exists and contains **at least** three lines.\n\nThe algorithm to output the lines is expressed in eight steps.\n\nComplete the steps.\n\n1. Open the file ...........................................................................\n\n2. Loop until ...........................................................................\n\n3. ........................................................................... and store in `ThisLine `\n\n4. Assign `LineY `to `LineX`\n\n5. Assign `LineZ` to `LineY`\n\n6. Assign `ThisLine` to `LineZ`\n\n7. After the loop, ...........................................................................\n\n8. Output `LineX, LineY, LineZ`\n\nExplain the purpose of steps 4, 5 and 6 in the algorithm from part **(a)**.",
+     "solution_md": "> **[mark-scheme]**\n> Example answer:\n> \n> So that the last three lines of the file are output in the correct **order **\n> \n> A mark for mentioning one of:\n> \n> - (Ensuring) the lines are **output in correct order**\n> - Ordering the last <u>three </u>lines\n> - Ordering the lines so they are in the same order as (they occur) <u>in the file </u>\n> \n> **Max 1 marks**"
+    }
+   ]
+  }
+ ]
+}

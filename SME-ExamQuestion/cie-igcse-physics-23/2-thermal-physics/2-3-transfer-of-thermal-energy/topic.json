@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T03:36:09Z",
+ "generated_utc": "2026-10-26T14:23:22Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/",
@@ -66,6 +66,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_SmQH8s2wsnN3qBVy",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/2-thermal-physics/2-3-transfer-of-thermal-energy/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_dxCZmBByXQ4tPQNW",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -78,29 +90,792 @@
    "question_count": 26,
    "questions_embedded": 26,
    "page_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/2-thermal-physics/2-3-transfer-of-thermal-energy/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_GWgQmkpMjjdvhktt",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 19,
+   "questions_embedded": 19,
+   "page_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/2-thermal-physics/2-3-transfer-of-thermal-energy/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 26,
+  "questions_embedded": 53,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/02/54856-cie-p1-q15-cooling-curves.png": "001-a-graph-of-temperature-versus-time-four-curves-l.png",
-   "https://cdn.savemyexams.com/uploads/2025/01/54222_q17.png": "002-two-horizontal-rectangles-labelled-cold-and-hot-.png",
-   "https://cdn.savemyexams.com/uploads/2025/01/14277_q18-2022-june-paper-1.png": "003-diagram-of-a-beaker-with-a-piece-of-ice-floating.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q1-easy-mcq-2-3-thermal-processes-cie-igcse-physics.png": "004-q1-easy-mcq-2-3-thermal-processes-cie-igcse-phys.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/2-3-5-e.png": "005-2-3-5-e.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q2-hard-mcq-2-3-thermal-processes-cie-igcse-physics.png": "006-q2-hard-mcq-2-3-thermal-processes-cie-igcse-phys.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q4-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "007-q4-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q3-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "008-q3-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q5-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "009-q5-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q1-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "010-q1-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png"
+   "https://cdn.savemyexams.com/uploads/2025/01/1477_q1-2023-specimen-atp.png": "001-diagram-showing-a-thermometer-held-by-a-stand-pa.png",
+   "https://cdn.savemyexams.com/uploads/2025/01/1639_q1ii-2023-specimen-atp.png": "002-horizontal-thermometer-image-showing-range-from-.png",
+   "https://cdn.savemyexams.com/uploads/2025/01/16565_q1b-2023-specimen-atp.png": "003-two-diagrams-show-beakers-with-lids-fig-1-3-has-.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/p3-2a.PNG": "004-p3-2a.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q2e-ms.png": "005-q2e-ms.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000-13.png": "006-file-000-13.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000-11.png": "007-file-000-11.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000-10.png": "008-file-000-10.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000-14.png": "009-file-000-14.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/atp-3.png": "010-atp-3.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/img-194e8e044c18-1.jpeg": "011-img-194e8e044c18-1.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/11/p2-3a.PNG": "012-p2-3a.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/p2-2aii.PNG": "013-p2-2aii.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000---2022-11-10t121138-814.png": "014-file-000-2022-11-10t121138-814.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q2-a.png": "015-q2-a.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/AD~sMfr8_q2b-ms.png": "016-ad-smfr8-q2b-ms.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000---2022-11-10t100921-710.png": "017-file-000-2022-11-10t100921-710.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/54856-cie-p1-q15-cooling-curves.png": "018-a-graph-of-temperature-versus-time-four-curves-l.png",
+   "https://cdn.savemyexams.com/uploads/2025/01/54222_q17.png": "019-two-horizontal-rectangles-labelled-cold-and-hot-.png",
+   "https://cdn.savemyexams.com/uploads/2025/01/14277_q18-2022-june-paper-1.png": "020-diagram-of-a-beaker-with-a-piece-of-ice-floating.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q1-easy-mcq-2-3-thermal-processes-cie-igcse-physics.png": "021-q1-easy-mcq-2-3-thermal-processes-cie-igcse-phys.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-5-e.png": "022-2-3-5-e.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q2-hard-mcq-2-3-thermal-processes-cie-igcse-physics.png": "023-q2-hard-mcq-2-3-thermal-processes-cie-igcse-phys.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q4-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "024-q4-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q3-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "025-q3-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q5-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "026-q5-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q1-medium-mcq-2-3-thermal-processes-cie-igcse-physics.png": "027-q1-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png",
+   "https://cdn.savemyexams.com/uploads/2025/01/63925_q6-2022-june-paper-4.png": "028-coastal-road-with-double-lines-curves-along-clif.png",
+   "https://cdn.savemyexams.com/uploads/2025/03/27376_q6a-2022-june-paper-3.png": "029-graph-showing-the-temperature-of-wax-in-c-over-t.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-3a-h.png": "030-2-3-3a-h.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/feb-march-2018-42-q4.jpg": "031-feb-march-2018-42-q4.jpg",
+   "https://cdn.savemyexams.com/uploads/2022/10/BEbOezVl_q4a.png": "032-beboezvl-q4a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q4ai.png": "033-q4ai.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q4ai-markscheme.png": "034-q4ai-markscheme.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/ms2.PNG": "035-ms2.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/file-000---2022-10-13t162900-811.png": "036-file-000-2022-10-13t162900-811.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-4a-h-leslie-differential.png": "037-2-3-4a-h-leslie-differential.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/screenshot-2023-02-07-at-14-46-13.png": "038-screenshot-2023-02-07-at-14-46-13.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-4d-h-vacuum-flask-physics.png": "039-2-3-4d-h-vacuum-flask-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/screenshot-2023-02-07-at-11-21-16.png": "040-screenshot-2023-02-07-at-11-21-16.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/screenshot-2023-02-07-at-11-23-54.png": "041-screenshot-2023-02-07-at-11-23-54.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-5c-h.png": "042-2-3-5c-h.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/agEqmhRp_q5.png": "043-ageqmhrp-q5.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q5-markscheme.png": "044-q5-markscheme.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q6a1.png": "045-q6a1.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/5-3-m-5a-thermal-radiation-experiment-graph.png": "046-5-3-m-5a-thermal-radiation-experiment-graph.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/SkOFCQ_F_q6a-markscheme-1.png": "047-skofcq-f-q6a-markscheme-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q6a-markscheme-2.png": "048-q6a-markscheme-2.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/feb-march-2018-32-q6b.jpg": "049-feb-march-2018-32-q6b.jpg",
+   "https://cdn.savemyexams.com/uploads/2022/10/0Xga8iPl_file-000-10.png": "050-0xga8ipl-file-000-10.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/A2~o7Qvo_file-000-11.png": "051-a2-o7qvo-file-000-11.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/feb-march-2018-32-q6c.jpg": "052-feb-march-2018-32-q6c.jpg",
+   "https://cdn.savemyexams.com/uploads/2022/10/feb-march-2018-32-q6c2.jpg": "053-feb-march-2018-32-q6c2.jpg",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-20-at-09-57-32.png": "054-screenshot-2022-10-20-at-09-57-32.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-20-at-09-59-36.png": "055-screenshot-2022-10-20-at-09-59-36.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-2019-10.png": "056-cie-2019-10.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/img-6b673fd336e1-1.jpeg": "057-img-6b673fd336e1-1.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/lML7SMGy_cie-2020-31-9.png": "058-lml7smgy-cie-2020-31-9.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-5a-e.png": "059-2-3-5a-e.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-3-5c-e.png": "060-2-3-5c-e.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/screenshot-2023-02-02-at-10-55-57.png": "061-screenshot-2023-02-02-at-10-55-57.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/screenshot-2023-02-02-at-11-05-17.png": "062-screenshot-2023-02-02-at-11-05-17.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q6a.png": "063-q6a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q6a2.png": "064-q6a2.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q6.png": "065-q6.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/car.PNG": "066-car.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_MJhsPyzY4FQNzC3Y",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_FtFGwvRpJknFJrwq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "plan",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is investigating ways of reducing heat loss from hot liquids in a container. The student knows that using a plastic lid will reduce the rate of cooling. She wants to find out if wrapping the container in different insulating materials makes any difference to the rate of cooling.\n\nPlan an experiment which will enable her to compare the effects of different insulating materials around the container.\n\nIn your plan, you should:\n\n- list the apparatus needed\n- explain briefly how you would carry out the investigation, including the measurements to be taken\n- state any key variables that would need to be kept the same\n- draw a suitable table or tables, with column headings, to show how the readings would be displayed (you are not required to enter any readings in the table)\n- explain how you would use your readings to reach a conclusion.\n\nYou may draw a diagram if it helps to explain your plan.",
+     "solution_md": "To investigate the effect of different insulating materials on a plastic lid on the cooling rate of hot liquids in a container:\n\nDraw or describe the set-up:\n\n- Beaker **AND** plastic lid  **AND** insulating material wrapped around the beaker **AND** a thermometer **AND** stop clock drawn and labelled **[1 mark]**\n\nOutline the method:\n\n- Pour hot water into each container and measure the temperature of the water over a period of time **[1 mark]**\n- Repeat with different insulating materials wrapped around the container **[1 mark]**\n\nList the control variables:\n\nAny **two **from:\n\n- The initial temperature of the water should be the same\n- The same volume of water should be used\n- The volume / material / thickness of the beaker should be the same\n- The same plastic lid should be used for each test\n- The thickness of each insulating material should be the same\n- The same time intervals should be measured for each material\n- The room temperature should be the same for each beaker\n\n**[2 marks]**\n\nDesign a results table:\n\nA results table scoring one mark:\n\n| Time/min | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Temp/°C Material 1 |   |   |   |   |   |   |\n| Temp/°C Material 2 |   |   |   |   |   |   |\n| Temp/°C Material 3 |   |   |   |   |   |   |\n\n- Results table drawn with suitable headings and units given **[1 mark]**\n\nExplain how you would use your results to form a conclusion:\n\nAny **one **from:\n\n- Compare the temperature decrease with the different insulating materials\n- Plot a graph of temperature over time (with three lines for the three different materials)\n\n**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zB99nnn4rxG48s4H",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_h9pC87S8GDztxTg4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "note",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A student investigates how partly covering the top of a beaker of water affects the rate at which the water cools.\n\nThe apparatus used is shown in Fig. 1.1.\n\n![Diagram showing a thermometer held by a stand, partially covered by a lid in a beaker containing water. Labelled as Fig. 1.1.](assets/001-diagram-showing-a-thermometer-held-by-a-stand-pa.png)\n\n![Horizontal thermometer image showing range from -10 to 110 degrees Celsius with bulb on left end. Marked increments of 10. Labelled as Fig. 1.2.](assets/002-horizontal-thermometer-image-showing-range-from-.png)\n\nRead and record the room temperature *θ*<sub>R</sub>, shown on the thermometer in Fig. 1.2.\n\n*θ*<sub>R </sub>= ................................................",
+     "solution_md": "The room temperature is:\n\n- 21 °C **[1 mark]**\n\n**[Total: 1 mark]**\n\nEach division on the thermometer represents 1 °C"
+    },
+    {
+     "id": "qstnprt_h7rpqnxpR6VKrx8h",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The student pours 100 cm<sup>3</sup> of hot water into a beaker. She places lid** A** on the beaker. This leaves half of the top of the beaker uncovered, as shown in Fig. 1.3.\n\nShe records the temperature of the water in the beaker and immediately starts a stopwatch. She records the temperature* θ *of the water every 30 s. Her readings are shown in Table 1.1.\n\nShe repeats the procedure using lid **B**. This leaves a quarter of the top of the beaker uncovered, as shown in Fig. 1.4.\n\n![Two diagrams show beakers with lids. Fig 1.3 has half uncovered, while Fig 1.4 shows a smaller uncovered section. Both are labelled.](assets/003-two-diagrams-show-beakers-with-lids-fig-1-3-has-.png)\n\nComplete the headings row in Table 1.1.\n\nComplete the time *t* column in Table 1.1.\n\n**Table 1.1**\n\n|   | beaker with lid A | beaker with lid B |\n|---|---|---|\n| t/....... | $θ$/....... | $θ$/....... |\n| 0 | 80.0 | 81.0 |\n|   | 77.0 | 79.0 |\n|   | 74.5 | 77.5 |\n|   | 72.5 | 76.0 |\n|   | 70.5 | 75.0 |\n|   | 69.0 | 74.0 |\n|   | 68.0 | 73.5 |",
+     "solution_md": "An example of a table gaining two marks:\n\n|   | beaker with lid A | beaker with lid B |\n|---|---|---|\n| t/....**s.**.. | $θ$/...**°C**.... | $θ$/....**°C**... |\n| 0 | 80.0 | 81.0 |\n| **Final answer:** **30** | 77.0 | 79.0 |\n| **Final answer:** **60** | 74.5 | 77.5 |\n| **Final answer:** **90** | 72.5 | 76.0 |\n| **Final answer:** **120** | 70.5 | 75.0 |\n| **Final answer:** **150** | 69.0 | 74.0 |\n| **Final answer:** **180** | 68.0 | 73.5 |\n\n- Units of s, °C and °C correct; **[1 mark]**\n- Times of 30, 60, 90, 120, 150 and 180 correct; **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xGyC7ddxnmnNBtvm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vPZ7Cr4dXd32gbRq"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigates how partly covering the top of a beaker of water affects the rate at which the water cools. The apparatus used is shown in Fig. 1.1.\n\nRead and record the room temperature θ_R, shown on the thermometer in Fig. 1.2.\n\nThe student pours 100 cm^3^ of hot water into a beaker. She places lid A on the beaker. This leaves half of the top of the beaker uncovered, as shown in Fig. 1.3.\n\nShe records the temperature of the water in the beaker and immediately starts a stopwatch. She records the temperature θ of the water every 30 s. Her readings are shown in Table 1.1.\n\nShe repeats the procedure using lid B. This leaves a quarter of the top of the beaker uncovered, as shown in Fig. 1.4.\n\nDescribe a precaution that should be taken to ensure that the temperature readings are as accurate as possible in the experiment.",
+     "solution_md": "A precaution for accuracy of temperature readings:\n\nAny **one** from:\n\n- Read level with the thermometer to avoid parallax error; **[1 mark]**\n- Wait until the reading stops rising; **[1 mark]**\n- Always measure from the same position in the beaker; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_QBc6M7vhztM67DfS",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ",
+      "spcpt_SWtQ8yctW7Sty5c3"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe student pours 100 cm^3^ of hot water into a beaker. She places lid A on the beaker. This leaves half of the top of the beaker uncovered, as shown in Fig. 1.3.\nShe records the temperature of the water in the beaker and immediately starts a stopwatch. She records the temperature θ of the water every 30 s. Her readings are shown in Table 1.1. \nShe repeats the procedure using lid B. This leaves a quarter of the top of the beaker uncovered, as shown in Fig. 1.4.\n\n|   | beaker with lid A | beaker with lid B |\n| --- | --- | --- |\n| t/s | θ/°C | θ/°C |\n| 0 | 80.0 | 81.0 |\n| 30 | 77.0 | 79.0 |\n| 60 | 74.5 | 77.5 |\n| 90 | 72.5 | 76.0 |\n| 120 | 70.5 | 75.0 |\n| 150 | 69.0 | 74.0 |\n| 180 | 68.0 | 73.5 |\n\n**Extended Tier Only**\n\n(i)** ** Write a conclusion to this experiment, stating for which lid the rate of cooling is greater. Justify your answer with reference to the results.\n\n[2]\n\n(ii)** **Suggest a change to the **apparatus **that produces a greater difference between the rates of cooling for lid **A** and lid** B.** Explain why the change produces a greater difference.\n\n[2]",
+     "solution_md": "(i) A conclusion for the experiment:\n\nState which lid has a greater cooling rate:\n\n- The beaker with lid **A** has a greater rate of cooling; **[1 mark]**\n\nJustify this with the results:\n\n- <u>From 0 s to 180 s</u>, lid **A** has a temperature drop of 12.0 °C <u>whereas</u> lid **B** has a temperature drop of only 7.5 °C; **[1 mark]**\n\n(ii) Suggest a change to apparatus for a greater difference in cooling rates:\n\n**EITHER**\n\n- Insulate sides **OR** stand the beaker on a mat; **[1 mark]**\n- Ensures all thermal energy is lost through the surface / uncovered area; **[1 mark]**\n\n**OR**\n\n- Use a plastic beaker; **[1 mark]**\n- No thermal energy is lost through the sides / base of the beaker; **[1 mark]**\n\n**OR**\n\n- Use thicker lids;**[1 mark]**\n- Less conduction through the lid; **[1 mark]**\n\n**OR**\n\n- Use a fan; **[1 mark]**\n- More evaporation occurs due to air movement; **[1 mark]**\n\n**OR**\n\n- Use a wider beaker; **[1 mark]**\n- More evaporation occurs due to a larger surface area; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *For the second mark in part (i), the justification must be comparative and use time and temperature values.*\n\n> *In part (ii), if more heat loss occurs via evaporation through the uncovered areas in the lids, the difference in cooling rates will be more pronounced. This can either happen by increasing the amount of evaporation overall (using fans or a larger surface area) or by minimising the other routes of heat loss (insulating the beaker, thickening the lids).*"
+    },
+    {
+     "id": "qstnprt_smwwmSWmxtF9Rjjk",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "e"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Another student thinks that the cooling rate is directly proportional to the percentage of the surface area uncovered. He draws a graph of cooling rate against the percentage of uncovered area to investigate this.\n\nDescribe how his graph line shows whether the rate of cooling and the percentage of uncovered surface area are directly proportional.",
+     "solution_md": "The graph line can show that cooling rate is proportional to percentage covered if it is:\n\n- A straight line; **[1 mark]**\n- Through the origin; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_Vy9Bt6rN397KpzwJ",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "f"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigates how partly covering the top of a beaker of water affects the rate at which the water cools.\n\nThe student pours 100 cm^3 of hot water into a beaker. She places lid A on the beaker. This leaves half of the top of the beaker uncovered, as shown in Fig. 1.3.\n\nShe records the temperature of the water in the beaker and immediately starts a stopwatch. She records the temperature θ of the water every 30 s. Her readings are shown in Table 1.1.\n\nShe repeats the procedure using lid B. This leaves a quarter of the top of the beaker uncovered, as shown in Fig. 1.4.\n\nRead and record the room temperature θ_R, shown on the thermometer in Fig. 1.2.\n\nθ_R = ................................................\n\nStudents in other countries are doing the same experiment.\n\nState **one** factor they must keep the same to obtain similar readings.",
+     "solution_md": "A factor that must be kept constant is:\n\nAny **one** from:\n\n- Volume of water;\n- Initial temperature of water;\n- The lid shapes / materials used;\n- Type / material / size of beaker;\n- Room temperature / wind speed / humidity;\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xs2kzy9R8P4vz7JM",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_YzvGDwHwWcVMTM28",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "record",
+     "source_paper": {
+      "date": "Feb 2019",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Students are investigating how the use of a lid or insulation affects the rate of cooling of hot water in a beaker. They use the apparatus shown in Fig. 2.1.\n\n![p3-2a](assets/004-p3-2a.png)\n\nRecord the room temperature *θ*<sub>R</sub> in °C shown on the thermometer in Fig. 2.1.\n\n*θ*<sub>R</sub> = ........................................................",
+     "solution_md": "Record the room temperature *θ*<sub>R</sub> in °C shown on the thermometer in Fig. 2.1.\n\n- *θ*<sub>R</sub> = 23 (°C) **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_TVNDcnVWk4vwBDgK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Feb 2019",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "- 100 cm<sup>3</sup> of hot water is poured into beaker **A** and the initial temperature* θ* is recorded in Table 2.1.\n- The temperature *θ* of the water at times *t *= 30 s, 60 s, 90 s, 120 s, 150 s and 180 s are shown in Table 2.1.\n- This process is repeated for beaker **B**.\n\nComplete the headings and the time column in Table 2.1.\n\n**Table 2.1**\n\n|   | beaker **A** with insulation | beaker **B** with a lid |\n|---|---|---|\n| t/ | *θ/* | *θ/* |\n| 0 | 83.0 | 86.0 |\n|   | 79.0 | 84.0 |\n|   | 75.5 | 82.5 |\n|   | 73.0 | 81.0 |\n|   | 71.0 | 80.0 |\n|   | 69.5 | 79.0 |\n|   | 68.5 | 78.5 |",
+     "solution_md": "A correctly completed table would look like:\n\n**Table 2.1**\n\n|   | beaker **A** with insulation | beaker **B** with a lid |\n|---|---|---|\n| t/**s** | *θ/***°C** | *θ/***°C** |\n| 0 | 83.0 | 86.0 |\n| **Final answer:** **30** | 79.0 | 84.0 |\n| **Final answer:** **60** | 75.5 | 82.5 |\n| **Final answer:** **90** | 73.0 | 81.0 |\n| **Final answer:** **120** | 71.0 | 80.0 |\n| **Final answer:** **150** | 69.5 | 79.0 |\n| **Final answer:** **180** | 68.5 | 78.5 |\n\n- <u>All</u> units correct: s, °C, °C **[1 mark]**\n- <u>All</u> times correct: 30, 60, 90, 120, 150, 180 **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *It is important to note that **all** the units need to be right to get the first mark, and **all **the times have to be right to get the second mark.*"
+    },
+    {
+     "id": "qstnprt_X7chDN8MWKKRkqbn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": "Feb 2019",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ",
+      "spcpt_KPnyNjwzYHSHdm3m"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n|   | beaker **A** with insulation | beaker **B** with a lid |\n| t/s | *θ/*°C | *θ/*°C |\n| 0 | 83.0 | 86.0 |\n| 30 | 79.0 | 84.0 |\n| 60 | 75.5 | 82.5 |\n| 90 | 73.0 | 81.0 |\n| 120 | 71.0 | 80.0 |\n| 150 | 69.5 | 79.0 |\n| 180 | 68.5 | 78.5 |\n\nWrite a conclusion stating whether the insulation or the lid is more effective in reducing the cooling rate of the water in the beakers in this experiment.\n\nJustify your answer by reference to the results.",
+     "solution_md": "Conclude whether the the insulation or the lid is more effective:\n\n- The lid is more effective; **[1 mark]**\n\nJustify your answer:\n\nIdentify the pattern:\n\n- The temperature loss over time with the lid is less\n\n**AND**\n\nGive an example:\n\n- The overall temperature loss with the lid is (86.0−78.5) 7.5 °C but with the insulation it is (83.0−68.5) 14.5 °C **[1 mark]**\n\n**[Total: 2 marks]**\n\nIf you are asked to refer to the results then you absolutely have to to get full marks!"
+    },
+    {
+     "id": "qstnprt_sZJbWht4PwnVgpsP",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "Feb 2019",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- 100 cm^3^ of hot water is poured into beaker A and the initial temperature θ is recorded in Table 2.1.\n- The temperature θ of the water at times t = 30 s, 60 s, 90 s, 120 s, 150 s and 180 s are shown in Table 2.1.\n- This process is repeated for beaker B.\n|   | beaker A with insulation | beaker B with a lid |\n\nOne student thinks that the experiment does not show how effective insulation is on its own or how effective a lid is on its own.\n\nSuggest an additional experiment which could be used to show how effective a lid or insulation is.\n\nExplain how the additional results could be used.",
+     "solution_md": "Suggest an additional experiment which could be used to show how effective a lid or insulation is:\n\n- Experiment repeated but using both the lid and the insulation; **[1 mark]**\n\n**OR**\n\n- Experiment completed using neither the lid nor the insulation; **[1 mark]**\n\nExplain how the additional results could be used:\n\n- Compare the results of the previous experiment with the results of the additional experiment; **[1 mark]**\n\n**[Total: 2 marks]**\n\nThe original experiment doesn't have a control, and so this is what is needed to draw a full conclusion. The additional experiment will give this control."
+    },
+    {
+     "id": "qstnprt_JtytkSjgZXvjMZ56",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Feb 2019",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| t/s | θ/°C (beaker A with insulation) |\n| 0   | 83.0 |\n| 30  | 79.0 |\n| 60  | 75.5 |\n| 90  | 73.0 |\n| 120 | 71.0 |\n| 150 | 69.5 |\n| 180 | 68.5 |\n\nUse the equation: x_A = (θ_0 - θ_180) / T, where T = 180 s, θ_0 = 83.0 °C, θ_180 = 68.5 °C.\n\n(i) Calculate *x*<sub>A</sub>, the average cooling rate for beaker **A** over the whole experiment. Use the readings for beaker **A** from Table 2.1 and the equation\n\n$x_{A}=\\frac{θ_{0}-θ_{180}}{T}$\n\nwhere *T* = 180 s and *θ*<sub>0</sub> and *θ*<sub>180</sub> are the temperatures at time *t* = 0 and time *t* = 180 s. Include the unit for the cooling rate.\n\n*x*<sub>A</sub> = ........................................................ [2]\n\n(ii) Students in another school are carrying out this experiment using identical equipment.\n\nState why they should make the initial temperature of the water the same as in this experiment if they are to obtain average cooling rates that are the same as in Table 2.1. Assume that the room temperature is the same in each case.\n\nUse the results from beaker **A** to explain why this factor should be controlled.\n\n[2]",
+     "solution_md": "(i) To calculate  *x*<sub>A</sub>, the average cooling rate for beaker **A** over the whole experiment:\n\nObtain the values from the table:\n\n![q2e-ms](assets/005-q2e-ms.png)\n\nList the known values:\n\n- *θ*<sub>0</sub> = 83.0 °C\n- *θ*<sub>180</sub> = 68.5 °C\n- *T* = 180 s\n\nFrom the question:\n\n- $x_{A}=\\frac{θ_{0}-θ_{180}}{T}$\n\nSubstitute in the known values:\n\n- $x_{A}=\\frac{83.0-68.5}{180}$\n- *x*<sub>A</sub> = 0.081 **[1 mark]**\n\nState the unit:\n\n- °C / s **[1 mark]**\n\n(ii) State why the initial temperature of the water should be controlled:\n\n- Because cooling is more rapid at higher temperatures; **[1 mark]**\n\nExplain why:\n\n- The rate of cooling over the first 30 seconds is greater than over the final 30 seconds\n\n**AND**\n\n- For beaker A the temperature drop is 4 °C in the first 30 s and 1 °C in the final 30 s; **[1 mark]**\n\n**OR**\n\n- For beaker B the temperature drop is 2 °C in the first 30 s and 0.5 °C in the final 30 s; **[1 mark]**\n\n**[Total: 4 marks]**\n\nUsing specific examples will enable you to gain maximum marks in questions like this one!",
+     "equations": [
+      {
+       "latex": "x_{A}=\\frac{θ_{0}-θ_{180}}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mi mathvariant=\"normal\">A</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>θ</mi><mn>0</mn></msub><mo> </mo><mo>-</mo><mo> </mo><msub><mi>θ</mi><mn>180</mn></msub></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript straight A space equals space fraction numerator theta subscript 0 space minus space theta subscript 180 over denominator T end fraction"
+      },
+      {
+       "latex": "x_{A}=\\frac{θ_{0}-θ_{180}}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mi mathvariant=\"normal\">A</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>θ</mi><mn>0</mn></msub><mo> </mo><mo>-</mo><mo> </mo><msub><mi>θ</mi><mn>180</mn></msub></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript straight A space equals space fraction numerator theta subscript 0 space minus space theta subscript 180 over denominator T end fraction"
+      },
+      {
+       "latex": "x_{A}=\\frac{83.0-68.5}{180}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mi mathvariant=\"normal\">A</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>83</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>-</mo><mo> </mo><mn>68</mn><mo>.</mo><mn>5</mn></mrow><mn>180</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript straight A space equals space fraction numerator 83.0 space minus space 68.5 over denominator 180 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wV3Vh6HVXnM8JK7z",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_FB6dmF48c9R7n6xS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "plan",
+     "source_paper": {
+      "date": "2020 May/June Series 1",
+      "number": "0625/61",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigates the effect of the colour of the surface of a metal container on the rate of loss of heat from the container. She knows that black surfaces are better radiators of thermal energy than white surfaces and wants to investigate the effect of other colours.\n\nThe following apparatus is available:\n\n- metal containers each with the outer surface painted a different colour\n- a thermometer\n- a stop-watch\n- a supply of hot water.\n\nShe can also use other apparatus and materials that are usually available in a school laboratory.\n\nPlan an experiment to investigate the effect of the colour of the surface of a metal container on the rate of loss of heat from the container.\n\nYou should:\n\n- draw a diagram of the apparatus used\n- explain briefly how you would carry out the investigation\n- state the key variables to be kept constant\n- draw a table, or tables, with column headings, to show how you would display your readings (you are not required to enter any readings in the table)\n- explain how you would use your readings to reach a conclusion.",
+     "solution_md": "To investigate the effect of surface colour on rate of heat loss:\n\nDraw a labelled diagram to show how to set up the equipment:\n\n![file-000-13](assets/006-file-000-13.png)\n\n- Thermometer shown in the container; **[1 mark]**\n\nBriefly outline the method:\n\n- Put hot water in container **AND** record starting temperature **AND** temperature at regular intervals; **[1 mark]**\n**OR**\n- Put hot water in container **AND** record starting temperature **AND** temperature after a named amount of time; **[1 mark]**\n\nSpecify the range:\n\n- Repeat with at least three colours; **[1 mark]**\n\nIdentify the control variables and state at least two:\n\n- Same starting temperature of the water; **[1 mark]**\n**OR**\nSame room temperature; **[1 mark]**\n- Use of a lid; **[1 mark]**\n**OR** Three (or more) named colours; **[1 mark]**\n**OR** Same thickness of paint; **[1 mark]**\n\nDraw a table showing columns and units:\n\n![file-000-11](assets/007-file-000-11.png)\n\n- Correctly labelled columns for all variables **AND**** **units; **[1 mark]**\n\nExplain how to draw a conclusion from the results:\n\n- Greatest loss of temperature is best radiator **OR**** **least loss of temperature is worst radiator / best insulator: **[1 mark]** **                           **\n\n**An example of an answer which would score 7 marks is:**\n\n![file-000-10](assets/008-file-000-10.png)\n\n**[diagram with thermometers in containers: 1 mark]**\n\nThe student should take the black and white containers and place them on the bench at the same time (same room temperature). **[1 mark]**\n\nThen they take three identical containers but choosing three colours, for example yellow, red and green. **[1 mark] **Make sure that the thickness of paint **[1 mark] **and material of the container are the same.\n\nThe student adds a measured volume of boiling water to each container, and decides a starting temperature for the experiment, say 90 °C.\n\nPut a thermometer into each container and watch the temperature until it drops to 90 °C. Use a lid to stop heat loss.\n\nStart the stopwatch and time for 5 minutes. After five minutes record the new temperature. **[1 mark]**\n\nFinally empty the water out (taking care with hot water - wear safety glasses) and repeat the whole experiment two more times.\n\nRecord the results in the table and plot a graph. The paint colour with the higest drop in temperature is the best radiator of heat.  **[1 mark]**\n\n![file-000-11](assets/007-file-000-11.png)\n\n**[table with correct columns and ****units****; 1 mark]**\n\nThe example above shows the kind of short descriptions which easily score full marks in the exam. An alternative method would be to take the temperature every minute and this would also score full marks.\n\nThe most common mistakes with the investigation question are;\n\n- Saying what the result will be, rather than how to draw the conclusion;\n- Forgetting that only one variable can change, and changing all of them;\n- Showing repeat readings or the range in the table, but not mentioning them in the description (it seems unfair, but this won't get you the mark);\n- Wasting time by inventing data for the table.\n\nIf you find yourself doing one of these - stop!\n\nAnd finally, the examiner will award marks for the diagram, so anything which is explained there will count. Our diagram above would actually score four marks of the seven. Here is how the examiner would see it:\n\n![file-000-14](assets/009-file-000-14.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vmH26h5SFcQmw6mW",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_NM6TXCfKBgrTgpKS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Some students are investigating how the volume of water affects the rate at which water in a beaker cools.\n\n![atp-3](assets/010-atp-3.png)\n\nThey are using the apparatus shown in Fig. 2.1.\n\n(i) 200 cm<sup>3</sup> of hot water is poured into beaker **A** and the initial temperature rises to the value shown on thermometer **A** in Fig. 2.1.\n\nIn the first row of Table 2.1, record this temperature θ<sub>A</sub> for time *t* = 0.\n\n100 cm<sup>3</sup> of hot water is poured into beaker **B**. The temperature rises to the value shown on thermometer **B** in Fig. 2.1.\n\nIn the first row of the table, record this temperature θ<sub>B</sub> for time *t* = 0.\n\n[1]\n\n(ii) The temperatures *θ*<sub>A</sub> and *θ*<sub>B </sub>of the water in each experiment at times t = 30 s, 60 s, 90 s, 120 s, 150 s and 180 s are shown in the table.\n\nComplete the headings and the time column in the table.\n\n[2]\n\n**Table 2.1**\n\n|   | beaker **A** with 200 cm<sup>3</sup> of water | beaker **B** with 100 cm<sup>3</sup> of water |\n|---|---|---|\n| *t*/ | *θ*<sub>A</sub>/ | *θ*<sub>B</sub>/ |\n| 0 |   |   |\n|   | 85.0 | 86.0 |\n|   | 83.0 | 83.0 |\n|   | 81.5 | 80.5 |\n|   | 80.0 | 78.0 |\n|   | 78.5 | 76.0 |\n|   | 77.5 | 74.5 |",
+     "solution_md": "(i) In the first row of Table 2.1, record the temperature θ<sub>A</sub> and  θ<sub>B</sub> for time *t* = 0:\n\nA table that would score 1 mark should look like:\n\n**Table 2.1**\n\n|   | beaker **A** with 200 cm<sup>3</sup> of water | beaker **B** with 100 cm<sup>3</sup> of water |\n|---|---|---|\n| *t*/ | *θ*<sub>A</sub>/ | *θ*<sub>B</sub>/ |\n| 0 | **Final answer:** **87.0** | **Final answer:** **89.0** |\n|   | 85.0 | 86.0 |\n|   | 83.0 | 83.0 |\n|   | 81.5 | 80.5 |\n|   | 80.0 | 78.0 |\n|   | 78.5 | 76.0 |\n|   | 77.5 | 74.5 |\n\n- *θ*<sub>A</sub> = 87(.0)(°C) **AND** *θ*<sub>B</sub> = 89(.0)(°C) **[1 mark]**\n\n(ii) Complete the headings and the time column in the table:\n\nA table that would score 2 marks should look like:\n\n|   | beaker **A** with 200 cm<sup>3</sup> of water | beaker **B** with 100 cm<sup>3</sup> of water |\n|---|---|---|\n| *t*/**s** | *θ*<sub>A</sub>/**°C** | *θ*<sub>B</sub>/**°C** |\n| 0 | **87.0** | **89.0** |\n| **Final answer:** **30** | 85.0 | 86.0 |\n| **Final answer:** **60** | 83.0 | 83.0 |\n| **Final answer:** **90** | 81.5 | 80.5 |\n| **Final answer:** **120** | 80.0 | 78.0 |\n| **Final answer:** **150** | 78.5 | 76.0 |\n| **Final answer:** **180** | 77.5 | 74.5 |\n\n- s, °C, °C in correct columns; **[1 mark]**\n- Times *t *30, 60, 90, 120, 150 in the first column; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_CbxkMvYvfsmB2jP2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSome students are investigating how the volume of water affects the rate at which water in a beaker cools.\n\nThey are using the apparatus shown in Fig. 2.1.\n\n(i) 200 cm<sup>3</sup> of hot water is poured into beaker **A** and the initial temperature rises to the value shown on thermometer **A** in Fig. 2.1.\n\nIn the first row of Table 2.1, record this temperature θ<sub>A</sub> for time *t* = 0.\n\n100 cm<sup>3</sup> of hot water is poured into beaker **B**. The temperature rises to the value shown on thermometer **B** in Fig. 2.1.\n\n(ii)\n\nThe temperatures *θ*<sub>A</sub> and *θ*<sub>B </sub>of the water in each experiment at times t = 30 s, 60 s, 90 s, 120 s, 150 s and 180 s are shown in the table.\n\n**Table 2.1**\n\n|   | beaker **A** with 200 cm<sup>3</sup> of water | beaker **B** with 100 cm<sup>3</sup> of water |\n|---|---|---|\n| *t*/ | *θ*<sub>A</sub>/ | *θ*<sub>B</sub>/ |\n| 0 |   |   |\n|   | 85.0 | 86.0 |\n|   | 83.0 | 83.0 |\n|   | 81.5 | 80.5 |\n|   | 80.0 | 78.0 |\n|   | 78.5 | 76.0 |\n|   | 77.5 | 74.5 |\n\nDescribe one precaution which should be taken to ensure that the temperature readings in the experiment are as accurate as possible.",
+     "solution_md": "One precaution which should be taken to ensure that the temperature readings in the experiment are as accurate as possible is\n\n**Any one from:**\n\n- Read (the values) at 90° / at right angles / perpendicular to the scale;** [1 mark]**\n- Stir (before reading);** [1 mark]**\n- Wait under the reading stops rising (on the thermometer) (at the start);** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_hYZQRZTtzD8Xj8bh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n|   | beaker A with 200 cm^3 of water | beaker B with 100 cm^3 of water |\n| t/s | θ_A_/°C | θ_B_/°C |\n| 0 | 87.0 | 89.0 |\n| 30 | 85.0 | 86.0 |\n| 60 | 83.0 | 83.0 |\n| 90 | 81.5 | 80.5 |\n| 120 | 80.0 | 78.0 |\n| 150 | 78.5 | 76.0 |\n| 180 | 77.5 | 74.5 |\n\nWrite a conclusion stating how the volume of water in the beaker affects the rate of cooling of the water. Justify your answer by reference to the results.",
+     "solution_md": "A conclusion stating how the volume of water in the beaker affects the rate of cooling of the water is:\n\n- The lower the <u>volume</u> of water, the faster the rate of cooling; **[1 mark]**\n\nJustification by reference to the results:\n\n- <u>From </u><u>*t*</u><u> = 0 s to </u><u>*t*</u><u> = 180 s</u>, for beaker **A** / 200 cm<sup>3</sup>, the temperature change was (87.0 – 77.5 =) 9.5 °C whilst for beaker **B **/ 100 cm<sup>3</sup>, the temperature change was (89.0 – 74.5 =) 14.5 °C **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Make sure to answer **all** parts of the question. Your justification must reference the results, so try and use values from the table (or graph in some cases) to match your conclusion.*\n\n> *The opposite conclusion will also be accepted i.e. the larger the volume of water, the slower the rate of cooling.*\n\n> *In the mark scheme, a conclusion matching the results will be enough. This is just an example of what an ideal answer would be.*"
+    },
+    {
+     "id": "qstnprt_xPnTFPfWwZr4PpKy",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n|   | beaker A with 200 cm^3 of water | beaker B with 100 cm^3 of water |\n| t/s | θ_A/°C | θ_B/°C |\n| 0 | 87.0 | 89.0 |\n| 30 | 85.0 | 86.0 |\n| 60 | 83.0 | 83.0 |\n| 90 | 81.5 | 80.5 |\n| 120 | 80.0 | 78.0 |\n| 150 | 78.5 | 76.0 |\n| 180 | 77.5 | 74.5 |\n\n(i) Using the results for 100 cm<sup>3 </sup>of water, calculate the average rate of cooling* x*<sub>1</sub> for the **first** 90 s of the experiment. Use the readings from the table and the equation\n\n$x_{1}=\\frac{θ_{0}--θ_{90}}{t}$\n\nwhere t = 90 s and *θ*<sub>0 </sub>and *θ*<sub>90</sub> are the temperatures at time 0 and at time 90 s. Include the unit for the rate of cooling.\n\n*x*<sub>1</sub> = ...........................................................[1]\n\n(ii) Using the results for 100 cm<sup>3</sup> of water, calculate the average rate of cooling *x*<sub>2</sub> in the **last** 90 s of the experiment. Use the readings from the table and the equation\n\n$x_{2}=\\frac{θ_{90}--θ_{180}}{t}$\n\nwhere t = 90 s and *θ*<sub>90</sub> and *θ*<sub>180 </sub>are the temperatures at time 90 s and at time 180 s. Include the unit for the rate of cooling.\n\n*x*<sub>2</sub> = ............................................................[1]",
+     "solution_md": "(i) Calculate the average rate of cooling* x*<sub>1</sub> for the first 90 s of the experiment:\n\nList the known quantities:\n\n- Temperature at *t* = 0 s, *θ*<sub>0 </sub>= 89.0 °C\n- Temperature at *t* = 90 s, *θ*<sub>90</sub> = 80.5 °C\n- Time, *t* = 90 s\n\nSubstitute the values into the equation:\n\n- $x_{1}=\\frac{θ_{0}--θ_{90}}{t}=\\frac{89.0--80.5}{90}$\n- *x*<sub>1</sub> = 0.094\n\n(ii) Calculate the average rate of cooling *x*<sub>2</sub> in the last 90 s of the experiment:\n\nList the known quantities:\n\n- Temperature at *t* = 90 s, *θ*<sub>90 </sub>= 80.5 °C\n- Temperature at *t* = 180 s, *θ*<sub>180 </sub>= 74.5 °C\n- Time, *t* = 90 s\n\nSubstitute the values into the equation:\n\n- $x_{2}=\\frac{θ_{90}--θ_{180}}{t}=\\frac{80.5--74.5}{90}$\n- *x*<sub>2</sub> = 0.067 **[1 mark]**\n\nState the correct unit for both *x*<sub>1</sub> and *x*<sub>2</sub>:\n\n- °C/s **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The marks are allocated slightly differently here that what you may be used to. 1 mark is given for the correct values of **x*<sub>*1*</sub>* and **x*<sub>*2*</sub>* and the second mark is given for the correct unit on **both **values.*\n\n> *The way to work out the unit is by looking at the equations for **x*<sub>*1*</sub>* and **x*<sub>*2*</sub>*. *\n\n- *The numerator (top half) of the fraction has units of °C as **θ** is the temperature*\n- *The denominator (bottom half) of the fraction has units of s as **t** is the time*\n\n  - *Therefore, the units are °C/s*\n\n> *With all units the '/' means 'per unit'. Therefore, if the unit is for the value on the denominator of a fraction it is always / unit (per unit). E.g. m/s is 'metres **per** second'*",
+     "equations": [
+      {
+       "latex": "x_{1}=\\frac{θ_{0}--θ_{90}}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>θ</mi><mn>0</mn></msub><mo> </mo><mo>–</mo><mo> </mo><msub><mi>θ</mi><mn>90</mn></msub></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 space equals space fraction numerator theta subscript 0 space – space theta subscript 90 over denominator t end fraction"
+      },
+      {
+       "latex": "x_{2}=\\frac{θ_{90}--θ_{180}}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>θ</mi><mn>90</mn></msub><mo> </mo><mo>–</mo><mo> </mo><msub><mi>θ</mi><mn>180</mn></msub></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 2 space equals space fraction numerator theta subscript 90 space – space theta subscript 180 over denominator t end fraction"
+      },
+      {
+       "latex": "x_{1}=\\frac{θ_{0}--θ_{90}}{t}=\\frac{89.0--80.5}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>θ</mi><mn>0</mn></msub><mo> </mo><mo>–</mo><mo> </mo><msub><mi>θ</mi><mn>90</mn></msub></mrow><mi>t</mi></mfrac><mo>=</mo><mfrac><mrow><mn>89</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>–</mo><mo> </mo><mn>80</mn><mo>.</mo><mn>5</mn></mrow><mn>90</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 space equals space fraction numerator theta subscript 0 space – space theta subscript 90 over denominator t end fraction equals fraction numerator 89.0 space – space 80.5 over denominator 90 end fraction"
+      },
+      {
+       "latex": "x_{2}=\\frac{θ_{90}--θ_{180}}{t}=\\frac{80.5--74.5}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>θ</mi><mn>90</mn></msub><mo> </mo><mo>–</mo><mo> </mo><msub><mi>θ</mi><mn>180</mn></msub></mrow><mi>t</mi></mfrac><mo>=</mo><mfrac><mrow><mn>80</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>–</mo><mo> </mo><mn>74</mn><mo>.</mo><mn>5</mn></mrow><mn>90</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 2 space equals space fraction numerator theta subscript 90 space – space theta subscript 180 over denominator t end fraction equals fraction numerator 80.5 space – space 74.5 over denominator 90 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sS4XcTZBhKSwmqDK",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "justify",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n(i) Calculate the average rate of cooling x1 for the first 90 s of the experiment:\n\nList the known quantities:\n\n- Temperature at t = 0 s, θ0 = 89.0 °C\n- Temperature at t = 90 s, θ90 = 80.5 °C\n- Time, t = 90 s\n\nSubstitute the values into the equation:\n\n- x1 = (θ0 – θ90) / t = (89.0 – 80.5) / 90\n- x1 = 0.094\n\n(ii) Calculate the average rate of cooling x2 in the last 90 s of the experiment:\n\nList the known quantities:\n\n- Temperature at t = 90 s, θ90 = 80.5 °C\n- Temperature at t = 180 s, θ180 = 74.5 °C\n- Time, t = 90 s\n\nSubstitute the values into the equation:\n\n- x2 = (θ90 – θ180) / t = (80.5 – 74.5) / 90\n- x2 = 0.067\n\nState the correct unit for both x1 and x2:\n\n- °C/s\n\nA student suggests that it is important that the experiments with the two volumes of water should have the same starting temperatures.\n\nState whether your values for *x*<sub>1</sub> and *x*<sub>2</sub> support this suggestion. Justify your statement with reference to your results.",
+     "solution_md": "State whether your values for *x*<sub>1</sub> and *x*<sub>2</sub> support this suggestion:\n\n- *x*<sub>1</sub> and *x*<sub>2 </sub>do not support this suggestion; **[1 mark]**\n\nJustify your statement with reference to your results:\n\n- Because they are calculated from the difference in temperatures (*θ*<sub>0</sub> – *θ*<sub>90</sub> and *θ*<sub>90</sub> – *θ*<sub>180</sub>) so the difference in starting temperature of either 89.0 °C and 80.5 °C doesn't matter; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_3QGC3WyGMn3KnFPh",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "March 2018",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "f"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSome students are investigating how the volume of water affects the rate at which water in a beaker cools.\n\nThey are using the apparatus shown in Fig. 2.1.\n\n(i) 200 cm<sup>3</sup> of hot water is poured into beaker **A** and the initial temperature rises to the value shown on thermometer **A** in Fig. 2.1.\n\nIn the first row of Table 2.1, record this temperature θ<sub>A</sub> for time *t* = 0.\n\n100 cm<sup>3</sup> of hot water is poured into beaker **B**. The temperature rises to the value shown on thermometer **B** in Fig. 2.1.\n\n(ii)\n\nThe temperatures *θ*<sub>A</sub> and *θ*<sub>B </sub>of the water in each experiment at times t = 30 s, 60 s, 90 s, 120 s, 150 s and 180 s are shown in the table.\n\n**Table 2.1**\n\n|   | beaker **A** with 200 cm<sup>3</sup> of water | beaker **B** with 100 cm<sup>3</sup> of water |\n|---|---|---|\n| *t*/ | *θ*<sub>A</sub>/ | *θ*<sub>B</sub>/ |\n| 0 |   |   |\n|   | 85.0 | 86.0 |\n|   | 83.0 | 83.0 |\n|   | 81.5 | 80.5 |\n|   | 80.0 | 78.0 |\n|   | 78.5 | 76.0 |\n|   | 77.5 | 74.5 |\n\nAnother student plans to investigate whether more thermal energy is lost from the water surface than from the sides of the beakers.\n\nDescribe an experiment that could be done to investigate this.\n\nYou may draw a diagram to help your description.",
+     "solution_md": "Describe an experiment to investigate whether more thermal energy is lost from the water surface than from the sides of the beakers:\n\n- With the same volume of water, measure the difference in temperature of a beaker with a lid <u>and</u> no insulation; **[1 mark]**\n- Repeat the experience but now with a beaker with no lid <u>and</u> insulation; **[1 mark]**\n\n![img-194e8e044c18-1](assets/011-img-194e8e044c18-1.jpeg)\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dRztNZWn7hhTy6X8",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_Pw6PQWc4zYvXZmNZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "record",
+     "source_paper": {
+      "date": "May 2019",
+      "number": "0625/61",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is investigating the rate of cooling of water under different conditions. A greater rate of cooling occurs if there is a greater change in the temperature during the same period of time.\n\nFig. 3.1 shows some of the apparatus.\n\n![p2-3a](assets/012-p2-3a.png)\n\nThe thermometer in Fig.3.2 shows the room temperature *θ*<sub>R </sub>at the beginning of the experiment. Record *θ*<sub>R</sub> in °C.\n\n![p2-2aii](assets/013-p2-2aii.png)\n\n*θ*<sub>R</sub> = ........................................................",
+     "solution_md": "Record* θ*<sub>R</sub> in °C from Fig. 3.2.:\n\n- *θ*<sub>R </sub>= 24°C **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_q9W6HySDKRhPYqT7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "May 2019",
+      "number": "0625/61",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The student pours 200 cm<sup>3</sup> of hot water into the beaker.\n\nShe records the temperature *θ* of the hot water at time *t *= 0. She immediately starts a stopclock.\n\nShe continues recording the time and the temperature readings every 30 s. The readings are shown in Table 3.1.\n\n**Table 3.1**\n\nBeaker\n\n| *t */ | *θ */ |\n|---|---|\n| 0 | 94 |\n| 30 | 93 |\n| 60 | 92 |\n| 90 | 91 |\n| 120 | 90 |\n| 150 | 89 |\n\n**Table 3.2**\n\nCan\n\n| t / | θ / |\n|---|---|\n| 0 | 93 |\n| 30 | 91 |\n| 60 | 90 |\n| 90 | 89 |\n| 120 | 88 |\n| 150 | 87 |\n\nThe student repeats the procedure using a metal can, painted matt black, in place of the beaker.\n\nThe readings are shown in Table 3.2.\n\n(i) Complete the column headings in Table 3.1 and in Table 3.2.\n\n[1]\n\n(ii) Look carefully at the readings in Table 3.1 and in Table 3.2.\n\nTick the box to show your conclusion from the readings.\n\n`square` The water in the beaker has a greater rate of cooling than the water in the can.\n\n`square` The water in the beaker has a smaller rate of cooling than the water in the can.\n\n`square` There is no significant difference between the rates of cooling of the water in the beaker and the can.\n\n[1]\n\n(iii) Justify your conclusion by reference to the readings.\n\n[2]",
+     "solution_md": "(i) Complete the column headings in Table 3.1 and in Table 3.2:\n\nTables scoring two marks:\n\nTable 3.1: Beaker\n\n| *t */ **s** | *θ */ **°C** |\n|---|---|\n| 0 | 94 |\n| 30 | 93 |\n| 60 | 92 |\n| 90 | 91 |\n| 120 | 90 |\n| 150 | 89 |\n\nTable 3.2: Can\n\n| t / **s** | θ / **°C** |\n|---|---|\n| 0 | 93 |\n| 30 | 91 |\n| 60 | 90 |\n| 90 | 89 |\n| 120 | 88 |\n| 150 | 87 |\n\n- *t */ <u>s</u> shown in both tables; **[1 mark]**\n- *θ* / <u>°C</u> shown in both tables; **[1 mark]**\n\n(ii) Tick the box to show your conclusion from the readings:\n\n`square` The water in the beaker has a greater rate of cooling than the water in the can.\n\n`square` The water in the beaker has a smaller rate of cooling than the water in the can.\n\n**✓** There is no significant difference between the rates of cooling of the water in the beaker and the can; **[1 mark]**\n\n** **\n\n(iii) Justify your conclusion by reference to the readings:\n\nAny **one** from:\n\n- The beaker cooled by a total of 5°C over 150 s and the can cooled by 6°C over 150 s, which is not a significant difference; **[1 mark]**\n- Between *t* = 30 s and* t* = 60 s the beaker cooled from 93°C to 92°C, and the can cooled from 91°C to 90°C, which is the same rate of cooling; **[1 mark]**\n\n**For the second mark:**\n\n- The total cooling only differed by 1°C between the beaker and the can\n\n**OR**\n\n- The difference in the rate of cooling between the beaker and the can was small; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *For the first marking point of part (iii) any similar comparative values from the table may be used to gain the mark.*"
+    },
+    {
+     "id": "qstnprt_HkZB6ZP6d9j3cXps",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "May 2019",
+      "number": "0625/61",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe student pours 200 cm^3^ of hot water into the beaker. She records the temperature θ of the hot water at time t = 0. She immediately starts a stopclock. She continues recording the time and the temperature readings every 30 s. The readings are shown in Table 3.1. The student repeats the procedure using a metal can, painted matt black, in place of the beaker. The readings are shown in Table 3.2.\n\nA student in another school carries out the experiment and reports that the rate of cooling of the water in the can is different from the rate of cooling of the water in the beaker. He plans a change to the experiment to find out whether this difference in the rates of cooling is caused by\n\n- the matt black surface of the can being a better radiator of thermal energy than the shiny surface of the beaker\n- the metal of the can being a better conductor of thermal energy than the material of the beaker.\n\n(i) Suggest two suitable changes to the apparatus that the student could make.\n\n[2]\n\n(ii) Suggest two variables that should be controlled in order to make the experiment a fair test.\n\n[2]",
+     "solution_md": "(i) Suggest two suitable changes to the apparatus that the student could make:\n\n- Use a black painted beaker and a black painted can; **[1 mark]**\n- Use a shiny can and an unpainted beaker; **[1 mark]**\n\n(ii) Suggest two variables that should be controlled in order to make the experiment a fair test:\n\n**Any two from:**\n\n- Room temperature; **[1 mark]**\n- The volume of the water used; **[1 mark]**\n- The initial temperature of the water; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The suggestions made in part (i) increase the **validity** of the investigation. In the previous investigation, there were two factors that changed: the material of the container and whether or not they were painted black. Both of these factors could be affecting the rate of cooling. This is called a confounding variable. It is impossible to tell which factor is producing the results. This is why is it important to have **control variables**, so only one factor is being changed and the results can be attributed to that change alone.*"
+    },
+    {
+     "id": "qstnprt_Gcr35fsGJhCxFXYB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "May 2019",
+      "number": "0625/61",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe student pours 200 cm<sup>3</sup> of hot water into the beaker.\n\nShe records the temperature *θ* of the hot water at time *t *= 0. She immediately starts a stopclock.\n\nShe continues recording the time and the temperature readings every 30 s. The readings are shown in Table 3.1.\n\n**Table 3.1**\n\nBeaker\n\n| *t */ | *θ */ |\n|---|---|\n| 0 | 94 |\n| 30 | 93 |\n| 60 | 92 |\n| 90 | 91 |\n| 120 | 90 |\n| 150 | 89 |\n\n**Table 3.2**\n\nCan\n\n| t / | θ / |\n|---|---|\n| 0 | 93 |\n| 30 | 91 |\n| 60 | 90 |\n| 90 | 89 |\n| 120 | 88 |\n| 150 | 87 |\n\nThe student repeats the procedure using a metal can, painted matt black, in place of the beaker.\n\nThe readings are shown in Table 3.2.\n\nThe water in the beaker has a greater rate of cooling than the water in the can.\n\nThe water in the beaker has a smaller rate of cooling than the water in the can.\n\nThere is no significant difference between the rates of cooling of the water in the beaker and the can.\n\nState **one** precaution that you would take in order to record accurate temperature readings.",
+     "solution_md": "State **one** precaution that you would take in order to record accurate temperature readings:\n\n**Any one from:**\n\n- View the thermometer at eye level at an angle perpendicular to the reading (to reduce parallax error); **[1 mark]**\n- Stir the water prior to taking a reading (to ensure even heat distribution throughout the water); **[1 mark]**\n- Ensure the thermometer is not touching the beaker when the readings are taken (as the beaker might be at a different temperature to the water); **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *The image below shows how viewing the thermometer from different angles can change the measurement recorded. This is known as parallax error. Readings should always be taken from eye level and at a right angle to the object.*\n\n![file-000---2022-11-10t121138-814](assets/014-file-000-2022-11-10t121138-814.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9Sm37MKtJpZn7vjV",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_3WySH7BPSbFYMzjf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "record",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_bXFk6WFVNy3KvTbF"
+     ],
+     "part_tier": null,
+     "problem_md": "Students are investigating the cooling of hot water in a beaker.\n\nThey are using the apparatus shown in Fig. 2.1.\n\n![q2-a](assets/015-q2-a.png)\n\nRecord room temperature *θ*<sub>R</sub> in °C shown on the thermometer in Fig. 2.1.\n\n*θ*<sub>R</sub> = ........................................................",
+     "solution_md": "Room temperature *θ*<sub>R</sub> shown on the thermometer is:\n\n- 21 (°C) **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *This is a straightforward mark to obtain, but it is important to take care, as this value will then be used in subsequent question parts!*"
+    },
+    {
+     "id": "qstnprt_4yk9KR3GXp7kJdpD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bXFk6WFVNy3KvTbF"
+     ],
+     "part_tier": null,
+     "problem_md": "A volume of 150 cm<sup>3</sup> of hot water is poured into the beaker and the initial temperature* θ* is recorded in Table 2.1.\n\nThe temperature of the water is recorded every 30 s. The values are shown in Table 2.1.\n\n(i) Complete the headings in Table 2.1.\n\n[1]\n\n**Table 2.1**\n\n| t/ | *θ/* |\n|---|---|\n| 0 | 95.0 |\n| 30 | 89.0 |\n| 60 | 83.5 |\n| 90 | 79.0 |\n| 120 | 75.0 |\n| 150 | 71.5 |\n| 180 | 68.5 |\n| 210 | 66.0 |\n| 240 | 64.0 |\n| 270 | 62.5 |\n\n(ii) Describe one precaution that you would take to ensure that the temperature readings in the experiment are as accurate as possible.\n\n[1]",
+     "solution_md": "(i) The competed headings should look like:\n\n![AD~sMfr8_q2b-ms](assets/016-ad-smfr8-q2b-ms.png)\n\n- Unit for t = s **AND** unit for *θ* = °C; **[1 mark]**\n\n(ii) To describe a precaution to ensure the accuracy of the temperature readings:\n\n**Any one from:**\n\n- Line of sight is perpendicular to scale (when taking a reading); **[1 mark]**\n- Wait until the reading stops rising (at start); **[1 mark]**\n- Stir before reading; **[1 mark]**\n- Keep the thermometer at same depth; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *It is important to be able to identify the units for different variables.*"
+    },
+    {
+     "id": "qstnprt_QsCj7DFpwrNgWHQV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_bXFk6WFVNy3KvTbF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 2.1\n\nt/s   θ/°C\n0     95.0\n30    89.0\n60    83.5\n90    79.0\n120   75.0\n150   71.5\n180   68.5\n210   66.0\n240   64.0\n270   62.5\n\n(i) Calculate the average cooling rate *x*<sub>1</sub> during the first 90s of the experiment. Use the readings from Table 2.1 and the equation\n\n$x_{1}=\\frac{θ_{0}-θ_{90}}{T}$\n\nwhere* T* = 90 s and *θ*<sub>0</sub> and *θ*<sub>90</sub> are the temperatures at *t* = 0 and *t *= 90 s.\n\nInclude the unit for the cooling rate.\n\n*x*<sub>1</sub> = ........................................................ [1]\n\n(ii) Calculate the average cooling rate *x*<sub>2</sub> during the middle 90 s of the experiment. Use the readings from Table 2.1 and the equation\n\n$x_{2}=\\frac{θ_{90}-θ_{180}}{T}$\n\nwhere* T* = 90 s and *θ*<sub>90</sub> and *θ*<sub>180</sub> are the temperatures at *t* = 90 and *t *= 180 s.\n\n*x*<sub>2</sub> = ........................................................ [1]\n\n(iii) Calculate the average cooling rate *x*<sub>3</sub> during the last 90 s of the experiment. Use the readings from Table 2.1 and the equation\n\n$x_{3}=\\frac{θ_{180}-θ_{270}}{T}$\n\nwhere* T* = 90 s and *θ*<sub>180</sub> and *θ*<sub>270</sub> are the temperatures at *t* = 180 and *t *= 270 s.\n\n*x*<sub>3</sub> = ........................................................ [1]",
+     "solution_md": "(i) To calculate the average cooling rate x<sub>1</sub> during the first 90 s of the experiment:\n\nRead the values from the table:\n\n**Table 2.1**\n\n| t/s | *θ/*°C |\n|---|---|\n| 0 | **Final answer:** **95.0** |\n| 30 | 89.0 |\n| 60 | 83.5 |\n| 90 | **Final answer:** **79.0** |\n| 120 | 75.0 |\n| 150 | 71.5 |\n| 180 | 68.5 |\n| 210 | 66.0 |\n| 240 | 64.0 |\n| 270 | 62.5 |\n\n- *θ*<sub>0</sub> = 95.0 (°C)\n- *θ*<sub>90</sub> = 79.0 (°C)\n\nSubstitute values into the equation:\n\n- $x_{1}=\\frac{95.0-79.0}{90}$\n- *x*<sub>1</sub> = 0.18 **AND** state the units: °C/s **[1 mark]**\n\n** **\n\n(ii) To calculate the average cooling rate x<sub>2</sub> during the middle 90 s of the experiment:\n\nRead the values from the table:\n\n**Table 2.1**\n\n| t/s | *θ/*°C |\n|---|---|\n| 0 | 95.0 |\n| 30 | 89.0 |\n| 60 | 83.5 |\n| 90 | **Final answer:** **79.0** |\n| 120 | 75.0 |\n| 150 | 71.5 |\n| 180 | **Final answer:** **68.5** |\n| 210 | 66.0 |\n| 240 | 64.0 |\n| 270 | 62.5 |\n\n- *θ*<sub>90</sub> = 79.0 (°C)\n- *θ*<sub>180</sub> = 68.5 (°C)\n\nSubstitute values into the equation:\n\n- $x_{2}=\\frac{79.0-68.5}{90}$\n- *x*<sub>2</sub> = 0.12 (°C/s) **[1 mark]**\n\n** **\n\n(iii) To calculate the average cooling rate x<sub>3</sub> during the last 90 s of the experiment:\n\nRead the values from the table:\n\n**Table 2.1**\n\n| t/s | *θ/*°C |\n|---|---|\n| 0 | 95.0 |\n| 30 | 89.0 |\n| 60 | 83.5 |\n| 90 | 79.0 |\n| 120 | 75.0 |\n| 150 | 71.5 |\n| 180 | **Final answer:** **68.5** |\n| 210 | 66.0 |\n| 240 | 64.0 |\n| 270 | **Final answer:** **62.5** |\n\n- *θ*<sub>180</sub> = 68.5 (°C)\n- *θ*<sub>270</sub> = 62.5 (°C)\n\nSubstitute values into the equation:\n\n- $x_{3}=\\frac{68.5-62.5}{90}$\n- *x*<sub>3</sub> = 0.07 (°C/s) **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Reading carefully off the table is really important, as is giving the value to an appropriate number of significant figures.*\n\n> *Giving the wrong unit at any point will negate the first mark.*",
+     "equations": [
+      {
+       "latex": "x_{1}=\\frac{θ_{0}-θ_{90}}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>θ</mi><mn>0</mn></msub><mo>-</mo><msub><mi>θ</mi><mn>90</mn></msub></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 equals fraction numerator theta subscript 0 minus theta subscript 90 over denominator T end fraction"
+      },
+      {
+       "latex": "x_{2}=\\frac{θ_{90}-θ_{180}}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>θ</mi><mn>90</mn></msub><mo>-</mo><msub><mi>θ</mi><mn>180</mn></msub></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 2 equals fraction numerator theta subscript 90 minus theta subscript 180 over denominator T end fraction"
+      },
+      {
+       "latex": "x_{3}=\\frac{θ_{180}-θ_{270}}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>θ</mi><mn>180</mn></msub><mo>-</mo><msub><mi>θ</mi><mn>270</mn></msub></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 3 equals fraction numerator theta subscript 180 minus theta subscript 270 over denominator T end fraction"
+      },
+      {
+       "latex": "x_{1}=\\frac{95.0-79.0}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>95</mn><mo>.</mo><mn>0</mn><mo>-</mo><mn>79</mn><mo>.</mo><mn>0</mn></mrow><mn>90</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 equals fraction numerator 95.0 minus 79.0 over denominator 90 end fraction"
+      },
+      {
+       "latex": "x_{2}=\\frac{79.0-68.5}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>79</mn><mo>.</mo><mn>0</mn><mo>-</mo><mn>68</mn><mo>.</mo><mn>5</mn></mrow><mn>90</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 2 equals fraction numerator 79.0 minus 68.5 over denominator 90 end fraction"
+      },
+      {
+       "latex": "x_{3}=\\frac{68.5-62.5}{90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><mn>68</mn><mo>.</mo><mn>5</mn><mo>-</mo><mn>62</mn><mo>.</mo><mn>5</mn></mrow><mn>90</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 3 equals fraction numerator 68.5 minus 62.5 over denominator 90 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_d4f4yvQzWqj5WQx2",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_bXFk6WFVNy3KvTbF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n(From part c)\nTable 2.1\n| t/s | θ/°C |\n| 0   | 95.0 |\n| 30  | 89.0 |\n| 60  | 83.5 |\n| 90  | 79.0 |\n| 120 | 75.0 |\n| 150 | 71.5 |\n| 180 | 68.5 |\n| 210 | 66.0 |\n| 240 | 64.0 |\n| 270 | 62.5 |\n\nx₁ = 0.18 °C/s (first 90 s)\nx₂ = 0.12 °C/s (middle 90 s)\nx₃ = 0.07 °C/s (last 90 s)\n\n(From part a)\nRoom temperature θ_R shown on the thermometer is: 21 (°C)\n\n(i) The temperature of the water falls as time passes. Use the results from **(c)** to describe the pattern of the rate of cooling of the water during the experiment.\n\nJustify your answer by reference to the results.\n\n[1]\n\n(ii) Give an estimate of the probable final temperature *θ*<sub>F</sub> of the water if left to cool for many hours.\n\n*θ*<sub>F</sub> = ........................................................ [1]",
+     "solution_md": "(i) To describe the pattern of the rate of cooling:\n\nState the pattern:\n\n- The cooling rate decreases (over time)\n\n**AND**\n\nUse an example from the results:\n\nAny **one** from:\n\n- Over the first 90 seconds the cooling rate is 0.18 °C/s but over the middle 90 s the cooling rate is 0.12 °C/s **[1 mark]**\n- Over the first 90 seconds the cooling rate is 0.18 °C/s but over the last 90 s the cooling rate is 0.07 °C/s **[1 mark]**\n- Over the middle 90 seconds the cooling rate is 0.12 °C/s but over the last 90 s the cooling rate is 0.07 °C/s **[1 mark]**\n\n** **\n\n(ii) To give an estimate of the probable final temperature:\n\n- *θ*<sub>F </sub>= *θ*<sub>R</sub> **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Over time the rate of cooling decreases. Once the temperature has reached the temperature of the room, **θ*<sub>*R*</sub>* there will be no further cooling experienced as the water and the room are in thermal equilibrium.*"
+    },
+    {
+     "id": "qstnprt_d8PMPSYK5KN9JWy9",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/62",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_bXFk6WFVNy3KvTbF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 2.1:\n| t/s | θ/°C |\n| 0 | 95.0 |\n| 30 | 89.0 |\n| 60 | 83.5 |\n| 90 | 79.0 |\n| 120 | 75.0 |\n| 150 | 71.5 |\n| 180 | 68.5 |\n| 210 | 66.0 |\n| 240 | 64.0 |\n| 270 | 62.5 |\n\nCooling rates calculated:\nx1 = 0.18 °C/s (first 90 s)\nx2 = 0.12 °C/s (middle 90 s)\nx3 = 0.07 °C/s (last 90 s)\n\nThe cooling rate decreases over time (and as temperature decreases):\n- Over the first 90 seconds the cooling rate is 0.18 °C/s but over the middle 90 s the cooling rate is 0.12 °C/s\n- Over the first 90 seconds the cooling rate is 0.18 °C/s but over the last 90 s the cooling rate is 0.07 °C/s\n- Over the middle 90 seconds the cooling rate is 0.12 °C/s but over the last 90 s the cooling rate is 0.07 °C/s\n\n(i) A student in another school carries out a similar experiment.\n\nShe starts with the hot water at a lower initial temperature.\n\nSuggest how her cooling rates are likely to compare with those calculated in **(c)**.\n\nUse the results to explain your answer.\n\n[2]\n\n(ii) State one variable, other than the initial temperature, which the student should control.\n\n[1]",
+     "solution_md": "(i) If a lower starting temperature of water was used:\n\n**EITHER**\n\nCompare cooling rates:\n\n- There would be smaller cooling rates (at equivalent times); **[1 mark]**\n\nUse the results to explain your answer:\n\n**Any one from:**\n\n- Over the first 90 seconds the cooling rate is 0.18 °C/s but over the middle 90 s the cooling rate is 0.12 °C/s\n- Over the first 90 seconds the cooling rate is 0.18 °C/s but over the last 90 s the cooling rate is 0.07 °C/s\n- Over the middle 90 seconds the cooling rate is 0.12 °C/s but over the last 90 s the cooling rate is 0.07 °C/s\n\n**AND**\n\n- So the cooling rate is less at lower temperatures; **[1 mark]**\n\n** **\n\n**OR**\n\nCompare cooling rates:\n\n- There would be a smaller difference in cooling rates (between equivalent times); **[1 mark]**\n\nUse the results to explain your answer:\n\nAny **one** from:\n\n- Over the middle 90 seconds the cooling rate is <u>greater</u> at 0.18 °C/s but over the last 90 s the cooling rate is <u>smaller</u> at 0.012 °C/s; **[1 mark]**\n- Over the middle 90 seconds the cooling rate is <u>greater</u> at 0.18 °C/s but over the last 90 s the cooling rate is <u>smaller</u> at 0.07 °C/s; **[1 mark]**\n- Over the middle 90 seconds the cooling rate is <u>greater</u> at 0.12 °C/s but over the last 90 s the cooling rate is <u>smaller</u> at 0.07 °C/s; **[1 mark]**\n\n** **\n\n(ii) Control variables which the student should control are:\n\n**Any one from:**\n\n- (same) volume of water; **[1 mark]**\n- (same) material of beaker; **[1 mark]**\n- (same) duration of experiment; **[1 mark]**\n- (same) room temp / named appropriate environmental condition; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Comparison saying that (**x*<sub>*2 *</sub>*to **x*<sub>*3*</sub>*) is smaller than (**x*<sub>*1*</sub>* to **x*<sub>*2*</sub>*) is what gains you the second mark. It's important to state both the relationship AND use data from the experiment to draw your conclusions.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7cpntKCmYnt6njSb",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_dPwPPbsR9C5KpG8N",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "plan",
+     "source_paper": {
+      "date": "Nov 2019",
+      "number": "0625/63",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A student is investigating ways of slowing the rate of cooling of hot liquids in a container. The student knows that a lid will reduce the rate of cooling. He wants to find out if the thickness of the lid makes any difference to the rate of cooling.\n\nPlan an experiment which will enable him to compare the effects of lids of different thicknesses.\n\nIn your plan, you should:\n\n- list the apparatus needed\n- explain briefly how you would carry out the investigation, including the measurements to be taken\n- state any key variables that would need to be kept the same\n- draw a suitable table or tables, with column headings, to show how the readings would be displayed (you are not required to enter any readings in the table)\n- explain how you would use your readings to reach a conclusion.\n\nYou may draw a diagram if it helps to explain your plan.",
+     "solution_md": "To investigate the effect of lids of different thicknesses on the cooling rate of hot liquids in a container:\n\nDraw a labelled diagram to show how to set up the equipment:\n\n![file-000---2022-11-10t100921-710](assets/017-file-000-2022-11-10t100921-710.png)\n\n- Beaker **AND** lid **AND** thermometer **AND** stop clock drawn and labelled; **[1 mark]**\n\nOutline the method:\n\n- Pour hot water into a container and measure the temperature of the water over a period of time; **[1 mark]**\n- Repeat with different thicknesses of lids; **[1 mark]**\n\nList the control variables:\n\n**Any two from:**\n\n- The initial temperature of the water should be the same; **[1 mark]**\n- The same volume of water should be used; **[1 mark]**\n- The volume / material / thickness of the beaker should be the same; **[1 mark]**\n- The material for each lid should be the same; **[1 mark]**\n- The same time intervals should be measured for each lid; **[1 mark]**\n- The room temperature should be the same for each beaker; **[1 mark]**\n\nDesign a results table:\n\nA results table scoring one mark:\n\n| Time/min | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Temp/°C<br><br>Lid 1 |   |   |   |   |   |   |\n| Temp/°C<br><br>Lid 2 |   |   |   |   |   |   |\n| Temp/°C<br><br>Lid 3 |   |   |   |   |   |   |\n\n- Results table drawn with suitable headings and units given; **[1 mark]**\n\nExplain how you would use your results to form a conclusion:\n\n**Any one from:**\n\n- Compare the temperature decrease with the thickness of the different lids; **[1 mark]**\n- Plot a graph of temperature over time (with three lines for the three different lids); **[1 mark]**\n\n**[Total: 7 marks] **\n\n> *The instruction to list the equipment needed can be done as a labelled diagram. *\n\n> *Control variables should only be factors that would affect the results, make sure you chose ones that are contextually relevant!*\n\n> *Remember that you do **not **need to waste time making up data to put in your results table!*\n\n> *The mark scheme shows the kind of short descriptions which easily score full marks in the exam.*\n\n> *An alternative method would be to record the times at which the water cooled by 1°C, and this would also score full marks.*\n\n> *The most common mistakes with investigation questions are;*\n\n- *Saying what the result will be, rather than how to draw the conclusion;*\n- *Forgetting that only one variable can change, and changing all of them;*\n- *Showing repeat readings or the range in the table, but not mentioning them in the description (it seems unfair, but this won't get you the mark);*\n- *Wasting time by inventing data for the table.*\n\n> *If you find yourself doing one of these - stop!*\n\n> *And finally, the examiner will award marks for the diagram, so anything which is explained there will count. *"
+    }
+   ]
+  },
   {
    "id": "qstn_yQG3Wx4rFj4tmR78",
    "set_slug": "multiple-choice-questions",
@@ -227,7 +1002,7 @@
       "spcpt_vXBb2PPxkhDS66zk"
      ],
      "part_tier": null,
-     "problem_md": "A student investigates the rate of emission of thermal radiation by four metal containers, W, X, Y, and Z. The metal containers are identical except for the texture and colour of their surfaces.\n\nThe student fills the metal containers with equal volumes of water at the same temperature.\n\nThe graph shows how the temperature of the water in the containers varies with time.\n\n![A graph of temperature versus time. Four curves, labelled W, X, Y, and Z, start at the same initial temperature. The curves increase in steepness from W to Z, with curve W being the shallowest and curve Z being the steepest.](assets/001-a-graph-of-temperature-versus-time-four-curves-l.png)\n\nWhich row correctly identifies the four surfaces?\n\n|   | **W** | **X** | **Y** | **Z** |\n|---|---|---|---|---|\n| **A** | shiny white | dull white | shiny black | dull black |\n| **B** | dull black | shiny black | dull white | shiny white |\n| **C** | shiny black | dull black | shiny white | dull white |\n| **D** | dull white | shiny white | dull black | shiny black |",
+     "problem_md": "A student investigates the rate of emission of thermal radiation by four metal containers, W, X, Y, and Z. The metal containers are identical except for the texture and colour of their surfaces.\n\nThe student fills the metal containers with equal volumes of water at the same temperature.\n\nThe graph shows how the temperature of the water in the containers varies with time.\n\n![A graph of temperature versus time. Four curves, labelled W, X, Y, and Z, start at the same initial temperature. The curves increase in steepness from W to Z, with curve W being the shallowest and curve Z being the steepest.](assets/018-a-graph-of-temperature-versus-time-four-curves-l.png)\n\nWhich row correctly identifies the four surfaces?\n\n|   | **W** | **X** | **Y** | **Z** |\n|---|---|---|---|---|\n| **A** | shiny white | dull white | shiny black | dull black |\n| **B** | dull black | shiny black | dull white | shiny white |\n| **C** | shiny black | dull black | shiny white | dull white |\n| **D** | dull white | shiny white | dull black | shiny black |",
      "solution_md": "**Final answer:** **The correct answer is A**\n\n- The containers are identical, and each contains the same amount of water at the same initial temperature\n- This means that the only thing that affects the rate of emission of thermal radiation (how quickly the temperature falls) is the type of surface\n\n  - Black surfaces are better emitters of radiation than white surfaces\n  - Dull surfaces are better emitters of radiation than shiny surfaces\n- The surface that is the best emitter of radiation will lose energy at the fastest rate, which is shown by the **steepest **curve on the graph\n\n  - Dull black surfaces are the best emitters of thermal radiation, so this must be surface **Z**\n- The surface that is the worst emitter of radiation will lose energy at the slowest rate, which is shown by the **shallowest **curve on the graph\n\n  - Shiny white surfaces are the worst emitters of thermal radiation, so this must be surface **W**\n- The rate of cooling, from fastest to slowest, by surface is:\n\n  - dull black (Z)  >  shiny black (Y)  > dull white (X) > shiny white (W)\n- This is shown by option **A**",
      "choices": [
       {
@@ -432,7 +1207,7 @@
       "spcpt_twfhtNGMdcM5yHxQ"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows the gap between a hot surface and a cold surface. The gap can contain air (gas), iron (solid), a vacuum or water (liquid).\n\n![Two horizontal rectangles labelled 'cold' and 'hot' are separated by a gap. The gap is labelled 'gap', indicating a break between the two.](assets/002-two-horizontal-rectangles-labelled-cold-and-hot-.png)\n\nWhich material in the gap allows the quickest transfer of thermal energy between the surfaces by conduction?",
+     "problem_md": "The diagram shows the gap between a hot surface and a cold surface. The gap can contain air (gas), iron (solid), a vacuum or water (liquid).\n\n![Two horizontal rectangles labelled 'cold' and 'hot' are separated by a gap. The gap is labelled 'gap', indicating a break between the two.](assets/019-two-horizontal-rectangles-labelled-cold-and-hot-.png)\n\nWhich material in the gap allows the quickest transfer of thermal energy between the surfaces by conduction?",
      "solution_md": "**Final answer:** **The correct answer is B**\n\n- The material allowing the quickest transfer of thermal energy is the best conductor\n- Metals (such as iron) are the best conductors of the materials listed\n\n**A **is incorrect as metals conduct thermal energy much better than gases, due to the large spacing of particles in a gas\n\n**C **is incorrect as a vacuum cannot transfer thermal energy via conduction (there are no particles to collide and transfer energy)\n\n**D **is incorrect as metals conduct thermal energy better than liquids, due to particles being able to move past each other in a liquid",
      "choices": [
       {
@@ -585,7 +1360,7 @@
       "spcpt_Gbf3XsJ7DpjcvTTF"
      ],
      "part_tier": null,
-     "problem_md": "** **The diagram shows a convection current caused by a piece of ice placed in a beaker of water at room temperature.\n\n![Diagram of a beaker with a piece of ice floating on the water surface. Arrows indicate motion, labelled P and Q, showing a circular flow.](assets/003-diagram-of-a-beaker-with-a-piece-of-ice-floating.png)\n\nWhich row correctly compares the temperatures and densities at water points P and Q?\n\n| ** ** | **temperature at P** | **density at P** |\n|---|---|---|\n| **A** | higher than at Q | higher than at Q |\n| **B** | higher than at Q | lower than at Q |\n| **C** | lower than at Q | higher than at Q |\n| **D** | lower than at Q | lower than at Q |",
+     "problem_md": "** **The diagram shows a convection current caused by a piece of ice placed in a beaker of water at room temperature.\n\n![Diagram of a beaker with a piece of ice floating on the water surface. Arrows indicate motion, labelled P and Q, showing a circular flow.](assets/020-diagram-of-a-beaker-with-a-piece-of-ice-floating.png)\n\nWhich row correctly compares the temperatures and densities at water points P and Q?\n\n| ** ** | **temperature at P** | **density at P** |\n|---|---|---|\n| **A** | higher than at Q | higher than at Q |\n| **B** | higher than at Q | lower than at Q |\n| **C** | lower than at Q | higher than at Q |\n| **D** | lower than at Q | lower than at Q |",
      "solution_md": "**Final answer:** **The correct answer is C**\n\n- A convection current occurs in a liquid when a difference in temperature causes a change in density\n- When the piece of ice is added to the beaker of water, it cools the region of water around it\n- As a result, the water molecules lose energy and move closer together, making the water more dense\n- The denser, cooler water then sinks downwards to point P\n- This causes the warmer, less dense water to rise upwards to point Q\n- Therefore, at point P:\n\n  - the temperature of the water is **lower **than at Q\n  - the density of the water is **higher **than at Q",
      "choices": [
       {
@@ -636,7 +1411,7 @@
       "spcpt_Gbf3XsJ7DpjcvTTF"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a bucket of ice which is hanging from the ceiling of a room as a makeshift air-conditioner. This is a cheaper, less effective means of cooling the room.\n\n![q1-easy-mcq-2-3-thermal-processes-cie-igcse-physics](assets/004-q1-easy-mcq-2-3-thermal-processes-cie-igcse-phys.png)\n\nThe ice cools the air next to it. What happens to the cold air and why?\n\n|   | **What happens** | **Explanation** |\n|---|---|---|\n| **A** | the cold air rises | it is less dense than the warmer air in the room |\n| **B** | the cold air rises | it is more dense than the warmer air in the room |\n| **C** | the cold air falls | it is less dense than the warmer air in the room |\n| **D** | the cold air falls | it is more dense than the warmer air in the room |",
+     "problem_md": "The diagram shows a bucket of ice which is hanging from the ceiling of a room as a makeshift air-conditioner. This is a cheaper, less effective means of cooling the room.\n\n![q1-easy-mcq-2-3-thermal-processes-cie-igcse-physics](assets/021-q1-easy-mcq-2-3-thermal-processes-cie-igcse-phys.png)\n\nThe ice cools the air next to it. What happens to the cold air and why?\n\n|   | **What happens** | **Explanation** |\n|---|---|---|\n| **A** | the cold air rises | it is less dense than the warmer air in the room |\n| **B** | the cold air rises | it is more dense than the warmer air in the room |\n| **C** | the cold air falls | it is less dense than the warmer air in the room |\n| **D** | the cold air falls | it is more dense than the warmer air in the room |",
      "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Convection happens because warmer fluids are less dense than cooler fluids.\n\n- The ice cools the air, making it more dense.\n- This denser air falls to the ground.\n\nThe other answers get one or both of the statements incorrect.",
      "choices": [
       {
@@ -738,7 +1513,7 @@
       "spcpt_Gbf3XsJ7DpjcvTTF"
      ],
      "part_tier": null,
-     "problem_md": "Which diagram correctly shown the motion of particles in a beaker filled with liquid heated from the base?\n\n![2-3-5-e](assets/005-2-3-5-e.png)",
+     "problem_md": "Which diagram correctly shown the motion of particles in a beaker filled with liquid heated from the base?\n\n![2-3-5-e](assets/022-2-3-5-e.png)",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- This is the only diagram that shows liquid **near** the heat source rising **and** cooled liquid at the top sinking back to the bottom",
      "choices": [
       {
@@ -994,7 +1769,7 @@
       "spcpt_vXBb2PPxkhDS66zk"
      ],
      "part_tier": null,
-     "problem_md": "Two cars sit side by side, a black car and a white car. It is Summer.\n\n![q2-hard-mcq-2-3-thermal-processes-cie-igcse-physics](assets/006-q2-hard-mcq-2-3-thermal-processes-cie-igcse-phys.png)\n\nDuring the day both cars absorb infrared radiation from the Sun, and during the night, both cars lose energy by emitting infrared radiation.\n\nWhich car heats up more quickly during the day, and which car cools down more quickly at night?\n\n|   | **Car which heats up more quickly during the day** | **Car which cools down more quickly at night** |\n|---|---|---|\n| **A** | black | black |\n| **B** | black | white |\n| **C** | white | black |\n| **D** | white | white |",
+     "problem_md": "Two cars sit side by side, a black car and a white car. It is Summer.\n\n![q2-hard-mcq-2-3-thermal-processes-cie-igcse-physics](assets/023-q2-hard-mcq-2-3-thermal-processes-cie-igcse-phys.png)\n\nDuring the day both cars absorb infrared radiation from the Sun, and during the night, both cars lose energy by emitting infrared radiation.\n\nWhich car heats up more quickly during the day, and which car cools down more quickly at night?\n\n|   | **Car which heats up more quickly during the day** | **Car which cools down more quickly at night** |\n|---|---|---|\n| **A** | black | black |\n| **B** | black | white |\n| **C** | white | black |\n| **D** | white | white |",
      "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Darker coloured objects emit **and **absorb infrared radiation at a greater rate than their light coloured counterparts.\n- A **greater rate of absorption** of infrared radiation raises the temperature more quickly.\n- A **greater rate of emission** of infrared radiation lowers the temperature more quickly.\n\nIn general: black objects **change temperature** quickly, while white objects change temperature slowly.\n\n**B** is incorrect as the white car will cool more slowly at night.\n\n**C **is incorrect as the white car will heat up more slowly during the day.\n\n**D **is incorrect as the white car will both heat up and cool more slowly than the black car.",
      "choices": [
       {
@@ -1098,7 +1873,7 @@
       "spcpt_Gbf3XsJ7DpjcvTTF"
      ],
      "part_tier": null,
-     "problem_md": "**Extended tier only**\n\nThe walls of a vacuum flask contain two layers of glass, separated by a vacuum.\n\n![q4-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/007-q4-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nWhich method(s) of thermal energy transfer are prevented by the vacuum?",
+     "problem_md": "**Extended tier only**\n\nThe walls of a vacuum flask contain two layers of glass, separated by a vacuum.\n\n![q4-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/024-q4-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nWhich method(s) of thermal energy transfer are prevented by the vacuum?",
      "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- The vacuum is helpful because it contains no particles at all.\n- This means that the methods of **thermal** energy transfer that involve **particles**: **conduction** and **convection**, cannot take place in a vacuum.\n\n**A **is incorrect as radiation can still travel through a vacuum.\n\n**B **is incorrect as radiation can still travel through a vacuum, though conduction is prevented.\n\n**C **is incorrect as it *does* prevent convection, but radiation can still travel through the vacuum.",
      "choices": [
       {
@@ -1149,7 +1924,7 @@
       "spcpt_h4v9pvr9HyNMC2Mm"
      ],
      "part_tier": null,
-     "problem_md": "A lit match is placed above a thermometer.\n\n![q3-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/008-q3-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nWhich row in the table shows how the thermal energy from the lit match reaches the thermometer?\n\n|   | **Convection** | **Conduction** | **Radiation** |\n|---|---|---|---|\n| **A** | yes | yes | yes |\n| **B** | yes | yes | no |\n| **C** | no | yes | yes |\n| **D** | no | no | yes |",
+     "problem_md": "A lit match is placed above a thermometer.\n\n![q3-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/025-q3-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nWhich row in the table shows how the thermal energy from the lit match reaches the thermometer?\n\n|   | **Convection** | **Conduction** | **Radiation** |\n|---|---|---|---|\n| **A** | yes | yes | yes |\n| **B** | yes | yes | no |\n| **C** | no | yes | yes |\n| **D** | no | no | yes |",
      "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Air is a terrible thermal conductor.\n- Convection only transfers heat in an upwards direction, and the thermometer is being held **beneath** the match.\n- Infrared radiation is emitted equally in all directions, so this is the only one that can reach the match.\n\nAlways look for a **direction** when dealing with convection questions. **Convection** always transfers heat **upwards**.",
      "choices": [
       {
@@ -1304,7 +2079,7 @@
       "spcpt_Gbf3XsJ7DpjcvTTF"
      ],
      "part_tier": null,
-     "problem_md": "In modern housing, it is convenient to locate heaters so they are not on the walls, taking up valuable wall space for furniture.\n\nOther than wall-mounted radiators, two other options would be viable: ceiling heaters or underfloor heaters.\n\n![q5-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/009-q5-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nWhich of the two options would heat the room more effectively and why?\n\n|   | **Option** | **Explanation** |\n|---|---|---|\n| **A** | ceiling-mounted | hot air is more dense and falls |\n| **B** | ceiling-mounted | hot air is less dense and falls |\n| **C** | underfloor | hot air is less dense and rises |\n| **D** | underfloor | hot air is more dense and rises |",
+     "problem_md": "In modern housing, it is convenient to locate heaters so they are not on the walls, taking up valuable wall space for furniture.\n\nOther than wall-mounted radiators, two other options would be viable: ceiling heaters or underfloor heaters.\n\n![q5-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/026-q5-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nWhich of the two options would heat the room more effectively and why?\n\n|   | **Option** | **Explanation** |\n|---|---|---|\n| **A** | ceiling-mounted | hot air is more dense and falls |\n| **B** | ceiling-mounted | hot air is less dense and falls |\n| **C** | underfloor | hot air is less dense and rises |\n| **D** | underfloor | hot air is more dense and rises |",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- The fact that hotter air is less dense, and so it rises, is what makes underfloor heating the best.\n- Heat given off from underfloor heating will rise to the ceiling, and heat the whole room on the way up.\n- If the heater were in the ceiling, on the other hand, all the warm air would be created at the ceiling, and would stay there, leaving the floor rather cold.\n- It's also nice on your toes!\n\nCeiling-mounted heaters *are* a thing, but you tend to need a fan with them to blow the hot air back down to the ground. Or at least really, really good air circulation.\n\n**A** is incorrect as hot air is less dense, not more dense.\n\n**B** is incorrect as hot air is less dense, but it does not fall\n\n**D** is incorrect as hot air is less dense, not more dense.",
      "choices": [
       {
@@ -1406,7 +2181,7 @@
       "spcpt_twfhtNGMdcM5yHxQ"
      ],
      "part_tier": null,
-     "problem_md": "In a very common classroom Physics demonstration, a teacher sets up a rod, as shown in the diagram. Half of the rod is copper, the other half is wood.\n\nShe sticks four lead balls to the rod using wax. The wax melts when its temperature rises a small amount, causing the ball to fall off.\n\n![q1-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/010-q1-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nThe teacher heats the rod in the centre, with something more gentle than a Bunsen burner, that will not burn the wood.\n\nWhich ball falls off first?",
+     "problem_md": "In a very common classroom Physics demonstration, a teacher sets up a rod, as shown in the diagram. Half of the rod is copper, the other half is wood.\n\nShe sticks four lead balls to the rod using wax. The wax melts when its temperature rises a small amount, causing the ball to fall off.\n\n![q1-medium-mcq-2-3-thermal-processes-cie-igcse-physics](assets/027-q1-medium-mcq-2-3-thermal-processes-cie-igcse-ph.png)\n\nThe teacher heats the rod in the centre, with something more gentle than a Bunsen burner, that will not burn the wood.\n\nWhich ball falls off first?",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Copper is a significantly better **conductor** of heat than wood.\n- This means that the heat will be conducted towards balls B and A more quickly than it will towards C and D.\n- Since ball B is closest to the heat source, its wax will melt first, and it will be the first to fall\n\n**A **is incorrect as **A** is further from the heat source than **B**\n\n**C** is incorrect as wood is a worse conductor of heat than copper\n\n**D** is incorrect as wood is a worse conductor of heat than copper and the ball is further from the heat source.",
      "choices": [
       {
@@ -1430,6 +2205,1215 @@
        "text_md": ""
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_X7V9SPRxj5zpBTqR",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_ydbMDBNTcxB2DYnz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 4",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 6.1 shows a road next to the sea.\n\n![Coastal road with double lines curves along cliff edge, overlooking ocean waves and distant horizon under cloudy sky; labelled \"Fig. 6.1\" below.](assets/028-coastal-road-with-double-lines-curves-along-clif.png)\n\nOn a sunny day, the Sun warms the road.\n\nDescribe how energy from the Sun reaches the Earth and warms the road.",
+     "solution_md": "Energy from the Sun reaches the Earth and warms the road by:\n\nAny **three **from:\n\n- Radiation; **[1 mark]**\n- Light / infrared / electromagnetic (radiation); **[1 mark]**\n- Travelling through space / a vacuum; **[1 mark]**\n- Being absorbed by the road; **[1 mark]**\n\n**Total: [3 marks]**"
+    },
+    {
+     "id": "qstnprt_tGQQ7WNHDc3XFpRG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 4",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk"
+     ],
+     "part_tier": null,
+     "problem_md": "The temperature of the road is greater than the temperature of the sea.\n\nThe surface of the road is black.\n\nSuggest **one **reason why the temperature of the road is greater than that of the sea.",
+     "solution_md": "The temperature of the road is greater than that of the sea because:\n\n- The road / black surfaces are good absorbers (of radiation) **OR** the sea is a poor absorber (of radiation); **[1 mark]**\n\n**Total: [1 mark]**"
+    },
+    {
+     "id": "qstnprt_rmTWV9QRV9PdXDY9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 4",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_wKChjs9vtmgvvyBW",
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 6.1 shows a road next to the sea.\nOn a sunny day, the Sun warms the road.\nThe temperature of the road is greater than the temperature of the sea.\nThe surface of the road is black.\n\nThe air above the road is heated by the warm road.\n\n(i)** **Describe how this affects the molecules of the air.\n\n[2]\n\n(ii)** **A cyclist travelling along the road notices that a cool breeze is blowing from the sea to the land.\n\nExplain how convection produces this breeze. You may include a diagram if it helps your answer.\n\n[3]",
+     "solution_md": "(i) When the warm road heats the air above it, the air molecules:\n\n- Speed up **OR** gain kinetic energy;**[1 mark]**\n- Move further apart; **[1 mark]**\n\n(ii) Convection produces a breeze because:\n\n- The density of the (hot) air (above the road) decreases; **[1 mark]**\n- The (hot) air (above the road) rises; **[1 mark]**\n- The (hot) air (above the road) is replaced by cool air / air from above the sea; **[1 mark]**\n\n**Total: [5 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NBNsttZ7bd9rv5Vb",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_3Bsx4NKS3pwgJJTb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 3",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ",
+      "spcpt_9kkYvqFDXhhjCjjB"
+     ],
+     "part_tier": null,
+     "problem_md": "A teacher fills a copper can with solid wax and heats the can. She measures the temperature of the wax every minute. She continues heating once the wax has melted and stops heating when the wax is boiling.\n\n(i) State the term used for the process that transfers thermal energy through the copper.\n\n[1]\n\n(ii) Fig. 6.1 shows how the temperature of the wax changes as it is heated.\n\n![Graph showing the temperature of wax in °C over time in minutes. The curve rises from 0 to 50°C, levels, then rises from 100 to 150°C between 0-40 minutes.](assets/029-graph-showing-the-temperature-of-wax-in-c-over-t.png)\n\nUsing the graph in Fig. 6.1, determine:\n\n1. the melting point of the wax ...................................................... °C\n\n[1]\n\n2. the boiling point of the wax ...................................................... °C\n\n[1]\n\n3. the time at which the wax starts to boil. .................................................... min\n\n[1]",
+     "solution_md": "(i) The process of transferring thermal energy through the copper can is:\n\n- Conduction; **[1 mark]**\n\n(ii) The graph in Fig. 6.1 shows:\n\n- On the temperature axis, each small square represents 5°C\n- On the time axis, each small square represents 1 minute\n\n- **1.**  Melting point of the wax = 80 °C **[1 mark]**\n\n  - *Allow 75°C to 85°C*\n- **2.**  Boiling point of the wax = 170 °C **[1 mark]**\n\n  - *Allow 165°C to 175°C*\n- **3.**  Time at which the wax starts to boil = 26 minutes **[1 mark]**\n\n  - *Allow 25 to 27 minutes*\n\n**Total: [4 marks]**\n\nA tolerance of ∓½ a small square is allowed when reading data from graphs."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3xcq5Pn8wJprBhnp",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_b7sgqNphNWF4KvHz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 4",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_SWtQ8yctW7Sty5c3"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extended Tier Only**\n\nDuring a picnic on a warm, dry day, a metal can of lemonade is wrapped in a damp cloth.\n\nEvaporation cools the water in the cloth.\n\nAs the water in the cloth cools, so does the lemonade.\n\nExplain how electrons transfer thermal energy through the metal of the can.",
+     "solution_md": "Electrons transfer thermal energy by conduction which is when:\n\nAny **three **from:\n\n- (Lattice) atoms / ions vibrate; **[1 mark]**\n- (Vibrating) atoms / ions collide with electrons; **[1 mark]**\n- (In a metal) many electrons are free / delocalised; **[1 mark]**\n- So they can travel / move through the metal; **[1 mark]**\n- And collide with (distant) atoms / ions; **[1 mark]**\n\n**Total: [3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZqNWQD5S4y7zXkcB",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_56tsXcgfwmdQjcTS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_QsDHvcMP7d9yjpc3"
+     ],
+     "part_tier": null,
+     "problem_md": "A solar panel is mounted on the roof of a house. Fig. 1.1 shows a section through part of the solar panel.\n\n![2-3-3a-h](assets/030-2-3-3a-h.png)\n\nA pump makes water flow through the copper pipes. The water is heated by passing through the solar panel.\n\nSelect and explain three features of the solar panel that maximise the final temperature of the water.",
+     "solution_md": "Explain three features that maximise final temperature:\n\n**Any three from:**\n\n- Copper / metal is a <u>good</u> conductor (of heat); **[1 mark]**\n- Black is a <u>good</u> absorber / <u>bad</u> reflector; **[1 mark]**\n- Insulating material <u>reduces</u> heat loss; **[1 mark]**\n- Glass / trapped air reduces convection / warm air being blown away; **[1 mark]**\n- Glass produces greenhouse effect / reflects some IR radiation back; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Most materials conduct or insulate to an extent, so just saying \"metal is a conductor\" is not going to get you the mark here. You must state explicitly that something is **better or worse** at conducting or insulating **compared to most materials**.*"
+    },
+    {
+     "id": "qstnprt_MDzHxWvgDCQXPsRP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qYwr6S5bMbBD2Drg",
+      "spcpt_8Rgzjv5rbHHScDjZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA solar panel is mounted on the roof of a house. Fig. 1.1 shows a section through part of the solar panel.\n\nA pump makes water flow through the copper pipes. The water is heated by passing through the solar panel.\n\n**Extended tier only**\n\nDuring one day, 250 kg of water is pumped through the solar panel. The temperature of this water rises from 16 °C to 38 °C.\n\nThe water absorbs 25% of the energy incident on the solar panel. The specific heat capacity of water is 4200 J/(kg °C)\n\nCalculate the energy incident on the solar panel during that day.",
+     "solution_md": "Calculate the energy incident on the solar panel during that day:\n\nList the known quantities:\n\n- Mass of water, $m$ = 250 kg\n- Initial temperature = 16 °C\n- Final temperature = 38 °C ** **\n- Efficiency of panel = 25 % = 0.25\n- Specific heat capacity of water, $c$ = 4200 J/kg °C\n\nCalculate the energy transferred to the water, $ΔE$:\n\n- $c=\\frac{\\DeltaE}{m\\Deltaθ}$\n- $ΔE=mcΔθ$ **[1 mark]**\n- `capital delta E = 250 x 4200 x ( 38 - 16 )` **[1 mark]**\n- $ΔE=2.31\\times10^{7}J$ **[1 mark]**\n\nCalculate the energy transferred to the solar panel, $E_{s}$:\n\n- $\\mathrm{efficiency}=\\frac{\\mathrm{useful} \\mathrm{energy} \\mathrm{out}}{\\mathrm{total} \\mathrm{energy} \\mathrm{in}}=\\frac{ΔE}{E_{s}}$\n- $E_{s}=\\frac{ΔE}{\\mathrm{efficiency}}=\\frac{2.31\\times10^{7}}{0.25}$ **[1 mark]**\n- $E_{s}=9.24\\times10^{7}$\n\nGive the answer with units and to two significant figures:\n\n- Energy incident on the solar panel = 9.2 × 10<sup>7</sup> J **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c"
+      },
+      {
+       "latex": "ΔE",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta E"
+      },
+      {
+       "latex": "c=\\frac{\\DeltaE}{m\\Deltaθ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>E</mi></mrow><mrow><mi>m</mi><mo>∆</mo><mi>θ</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c space equals space fraction numerator increment E over denominator m increment theta end fraction"
+      },
+      {
+       "latex": "ΔE=mcΔθ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mi>m</mi><mi>c</mi><mi mathvariant=\"normal\">Δ</mi><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta E space equals space m c straight capital delta theta"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight capital delta E space equals space 250 space cross times space 4200 space cross times space open parentheses 38 space minus space 16 close parentheses",
+       "render": "`capital delta E = 250 x 4200 x ( 38 - 16 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "ΔE=2.31\\times10^{7}J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>31</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>7</mn></msup><mo> </mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta E space equals space 2.31 space cross times space 10 to the power of 7 space straight J"
+      },
+      {
+       "latex": "E_{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>E</mi><mi>s</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E subscript s"
+      },
+      {
+       "latex": "\\mathrm{efficiency}=\\frac{\\mathrm{useful} \\mathrm{energy} \\mathrm{out}}{\\mathrm{total} \\mathrm{energy} \\mathrm{in}}=\\frac{ΔE}{E_{s}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>efficiency</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>useful</mi><mo> </mo><mi>energy</mi><mo> </mo><mi>out</mi></mrow><mrow><mi>total</mi><mo> </mo><mi>energy</mi><mo> </mo><mi>in</mi></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><msub><mi>E</mi><mi mathvariant=\"italic\">s</mi></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "efficiency space equals space fraction numerator useful space energy space out over denominator total space energy space in end fraction space equals space fraction numerator straight capital delta E over denominator E subscript s end fraction"
+      },
+      {
+       "latex": "E_{s}=\\frac{ΔE}{\\mathrm{efficiency}}=\\frac{2.31\\times10^{7}}{0.25}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mi>s</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mi>efficiency</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>31</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>7</mn></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>25</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E subscript s space equals space fraction numerator straight capital delta E over denominator efficiency end fraction space equals space fraction numerator 2.31 space cross times space 10 to the power of 7 over denominator 0.25 end fraction"
+      },
+      {
+       "latex": "E_{s}=9.24\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mi>s</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn><mo>.</mo><mn>24</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E subscript s space equals space 9.24 space cross times space 10 to the power of 7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4S6f4fJNfzT3SjZ7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mkgYVfprBRPpNZ8D"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA solar panel is mounted on the roof of a house. Fig. 1.1 shows a section through part of the solar panel.\n\nA pump makes water flow through the copper pipes. The water is heated by passing through the solar panel.\n\n**Extended tier only**\n\nThe heated water is stored in a sealed copper hot-water tank. During the day, the water cools as thermal energy (heat) passes from the water to the air surrounding the tank.\n\nName and describe the process by which the thermal energy is transferred from the hot water to the air.",
+     "solution_md": "Name and describe the process by which the thermal energy is transferred from the hot water to the air:\n\n- The process is <u>conduction</u>; **[1 mark]**\n- (Vibrating) water molecules hit the copper atoms / tank; **[1 mark]**\n- The vibrating (copper) atoms hit neighbouring atoms **OR** the vibrating (copper) atoms hit (free) electrons; **[1 mark]**\n- The (outer) copper atoms / electrons hit air particles (causing them to vibrate); **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_4KBWMHhq42WgRDJj",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA solar panel is mounted on the roof of a house. Fig. 1.1 shows a section through part of the solar panel.\n\nA pump makes water flow through the copper pipes. The water is heated by passing through the solar panel.\n\n**Extended tier only**\n\nThe manufacturer of the hot-water tank says that when the outside surface is polished regularly and kept bright and shiny, the hot water will cool more slowly.\n\nDescribe an experiment that shows whether a container with a bright and shiny surface is better at keeping its contents warm than one with a dull and dark surface.",
+     "solution_md": "Describe an experiment that shows whether a container with a bright and shiny surface is better at keeping its contents warm than one with a dull and dark surface:\n\nDescribe the two vessels:\n\n- One vessel shiny / bright **AND** one vessel dull / dark; **[1 mark]**\n\nDescribe how to fill the vessels:\n\n- Fill (the vessels) with the <u>same mass / volume</u> of hot water; **[1 mark]**\n- With the <u>same initial temperature</u>; **[1 mark]**\n\nDescribe the comparison:\n\n- Measure the final temperature **AND** compare the temperature change;** [1 mark]**\n- After the same period of time;** [1 mark]**\n\n**[Total: 5 marks]**\n\n> *Multiple methods exist for determining this - for example, painting the same vessel different colours and repeating the experiment with the same vessel, or the Leslie cube experiment. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YRWSfr4Mdn7g7MzB",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_cMWrrCXWqjdS2CtP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "February/March 2018",
+      "number": "0625/42",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mkgYVfprBRPpNZ8D"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended\n\nFig. 4.1 shows a cold plastic spoon that has just been placed in hot liquid in a cup.\n\n![feb-march-2018-42-q4](assets/031-feb-march-2018-42-q4.jpg)\n\nDescribe, in terms of molecules, why the temperature of the whole of the spoon increases.",
+     "solution_md": "The temperature of the whole spoon increases because:\n\n- The molecules of hot liquid collide with the surface of the spoon; **[1 mark]**\n- Energy / heat is transferred from the hot liquid to the molecules of the spoon; **[1 mark]**\n- The amplitude of the vibration of the spoon's molecules increases / gets faster, this increases the spoon's temperature; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The question says \"Define in terms of molecules\", so you must mention **molecules **in your final answer.*"
+    },
+    {
+     "id": "qstnprt_pw362nBg6MV56x57",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "February/March 2018",
+      "number": "0625/42",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_mkgYVfprBRPpNZ8D"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe temperature of the whole spoon increases because:\n\n- The molecules of hot liquid collide with the surface of the spoon; [1 mark]\n- Energy / heat is transferred from the hot liquid to the molecules of the spoon; [1 mark]\n- The amplitude of the vibration of the spoon's molecules increases / gets faster, this increases the spoon's temperature; [1 mark]\n\nThe question says \"Define in terms of molecules\", so you must mention **molecules **in your final answer.\n\n**Extended**\n\nThe plastic spoon is replaced by a metal spoon.\n\nDescribe an additional process by which the temperature of the whole of this spoon increases.",
+     "solution_md": "An additional process by which the temperature of the whole spoon increases is:\n\n- The molecules of hot liquid also transfer energy to the free electrons in the metal spoon;** [1 mark]**\n- These free electrons move through the metal; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Notice that the question asks you to describe the process not 'state the name of it'. You may have written conduction and thought that covered it. In this case the first part of the question has already asked you about conduction. Be careful to note the command word used!*\n\n> *Metals are great conductors of heat and electricity because of the electrons that are free to move around away from the nucleus.*"
+    },
+    {
+     "id": "qstnprt_f7XmbZ3Ff7NMtwYS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "February/March 2018",
+      "number": "0625/42",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_qYwr6S5bMbBD2Drg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 4.1 shows a cold plastic spoon that has just been placed in hot liquid in a cup.\n\n**Extended**\n\nThe cup contains 150 g of liquid of specific heat capacity 4.2 J / (g°C). When the cold spoon is placed into the hot liquid, the temperature of the liquid decreases from 80 °C to 56 °C.\n\nCalculate the loss of thermal energy from the liquid.\n\nenergy loss = .........................................................",
+     "solution_md": "List the known quantities:\n\n- Mass of liquid, *m *= 150 g\n- Specific heat capacity, *c *= 4.2 J / (g°C)\n- Starting temperature of liquid, *T*<sub>*1*</sub> = 80 °C\n- Final temperature of liquid, *T*<sub>*2*</sub> = 56 °C\n\nRecall the equation to calculate the specific heat capacity of the liquid:\n\n- Loss of thermal energy, $Q=mcΔθ$* ***[1 mark]**\n\nSubstitute the known quantities into the equation:\n\n- $Q = 150 \\times 4.2 \\times ( 80 - 56 )$ **[1 mark]**\n\nCalculate the loss of thermal energy, *Q*:\n\n- *Q *= 15 000 J **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *To calculate the amount of thermal energy lost you must find the temperature difference.*",
+     "equations": [
+      {
+       "latex": "Q=mcΔθ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>=</mo><mi>m</mi><mi>c</mi><mi mathvariant=\"normal\">Δ</mi><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q equals m c straight capital delta theta"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q equals 150 cross times 4.2 space cross times space open parentheses 80 minus 56 close parentheses",
+       "render": "$Q = 150 \\times 4.2 \\times ( 80 - 56 )$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wpPbcK2FzCVJZGNd",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_cc3dFP2zchMscVzM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/32",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pRhK3Zg6hGVvVFKB"
+     ],
+     "part_tier": null,
+     "problem_md": "A Bunsen burner heats a beaker of water, as shown in Fig. 4.1.\n\n![BEbOezVl_q4a](assets/032-beboezvl-q4a.png)\n\n(i) Fig. 4.2 shows the thermometer used in Fig. 4.1.\n\nState the temperature shown on the thermometer.\n\n![q4ai](assets/033-q4ai.png)\n\ntemperature = .................................................... °C [1]\n\n(ii) The thermometer shown in Fig. 4.2 uses a physical property that changes with temperature.\n\nIndicate the measurable property that changes with temperature. Tick **one** box.\n\n`square` expansion of glass\n\n`square` expansion of liquid\n\n`square` colour of liquid\n\n`square` colour of glass\n\n[1]",
+     "solution_md": "(i) Read the temperature from the picture of the thermometer:\n\n![q4ai-markscheme](assets/034-q4ai-markscheme.png)\n\n- The temperature is 38 °C; **[1 mark]**\n\n(ii) The measurable property that changes with temperature is:\n\n- Expansion / volume of the liquid; **[1 mark]**\n\n**[2 marks]**"
+    },
+    {
+     "id": "qstnprt_9TWnTx4KGJJsWj4G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/32",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA Bunsen burner heats a beaker of water, as shown in Fig. 4.1.\n\n(i) Fig. 4.2 shows the thermometer used in Fig. 4.1.\n\n(ii) The thermometer shown in Fig. 4.2 uses a physical property that changes with temperature.\n\nThermal energy (heat) transfers through the bottom of the beaker to the water.\n\nState the name given to this process.",
+     "solution_md": "State the name given to this process:\n\n- Conduction; **[1 mark]**\n\n**[1 mark]**\n\nTransfer of heat through a solid happens by the means of conduction. Since glass is a solid, this must be an example of conduction."
+    },
+    {
+     "id": "qstnprt_RTmXcZZ7FhzK5Bhs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/32",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA Bunsen burner heats a beaker of water, as shown in Fig. 4.1.\n\nThermal energy transfers throughout the water in the beaker.\n\nDescribe and explain how this happens.",
+     "solution_md": "To describe and explain how thermal energy transfers throughout the water in the beaker:\n\n**Any three from:**\n\n- Water is a fluid; **[1 mark]**\n- Energy is transferred into the kinetic energy store of the water molecules / The water molecules more faster; **[1 mark]**\n- The volume of the water increases; **[1 mark]**\n- The warm / hot water rises; **[1 mark]**\n- A convection current is created; **[1 mark]**\n- The cooler water falls; **[1 mark]**\n\n**AND**** ****for the final mark:**\n\n- The density of the water decreases when it is heated** ****OR **The density of the water increases as it cools; **[1 mark]**\n\n**An example of an answer which would gain 4 marks is:**\n\nAs the water is heated, energy is transferred to the kinetic energy store of the water molecules, causing them to move faster **[1 mark]**. This increases the volume of the water, and hence decreases its density **[1 mark]**. The warm water rises **[1 mark]**. Away from the heat the water cools, decreases in volume and falls, creating a convection current **[1 mark]**.\n\n**[Total: 4 marks]**\n\n> *It is incredibly important that you don't say 'the molecules expand' as it is the space between the molecules that increases, not the size of the molecules themselves!*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_w74ktG3WGRDFJyXd",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_WcXDPDgqrznnPTsJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Nov 2018 (S1)",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Some materials are poor conductors of thermal energy (heat energy).\n\nState the term that describes materials that are poor conductors of thermal energy.",
+     "solution_md": "State the term that describes materials that are poor conductors of thermal energy:\n\n- Insulators; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Good thermal conductors are solids which easily transfer heat, for example, a metal pan or a ceramic tea cup.*\n\n> *Bad thermal conductors (also called insulators) are solids which do not transfer heat well, for example, a woollen blanket or layers of cardboard or paper.*"
+    },
+    {
+     "id": "qstnprt_mMMzsxdXK6DWG3kg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "Nov 2018 (S1)",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Some materials are good conductors of thermal energy.\n\nDraw a ring around each material that is a good conductor of thermal energy.\n\n| air | aluminium | copper | glass | plastic | water |\n|---|---|---|---|---|---|",
+     "solution_md": "Draw a ring around each material that is a good conductor of thermal energy:\n\n**One mark if both are correct:**\n\n![ms2](assets/035-ms2.png)\n\n**[Total: 1 mark]**\n\n> *Metals are especially good at conducting heat as the delocalised electrons can collide with the atoms, helping to transfer the vibrations through the material and hence transfer heat better.*"
+    },
+    {
+     "id": "qstnprt_2wn66qJRhHsPbMVM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "Nov 2018 (S1)",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "A student has two rods made of different materials. The rods are the same size.\n\nDescribe an experiment to identify which material is the better conductor of thermal energy.\n\nYou may draw a diagram in the space below.",
+     "solution_md": "Describe an experiment to identify which material is the better conductor of thermal energy:\n\nAn example of a diagram that would help clarify description:\n\n![file-000---2022-10-13t162900-811](assets/036-file-000-2022-10-13t162900-811.png)\n\n- Attach a pin / drawing pin / paper clip to the rod with some melted wax / petroleum jelly / Vaseline; **[1 mark]**\n- Heat one end of both metal rods with the same type of heat source / Bunsen burner; **[1 mark]**\n- The first pin to fall shows the metal rod which is the best conductor; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Any reasonable version of this experiment will get you the marks. You may have stuck birthday candles on the ends of the rods with melted wax which fall of when the rod is heated.  You may have placed a large blob of petroleum jelly on the end of the rod which falls off when heated. The apparatus itself is less important, what matters is that you were doing a** fair test**, and how you measure the result.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TNTB2fTVF3c5fJRt",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 18,
+   "parts": [
+    {
+     "id": "qstnprt_dMHvY8ygZRkVrkbs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nThe apparatus shown in Fig. 1.1 is known as Leslie’s Differential Air Thermometer.\n\n![2-3-4a-h-leslie-differential](assets/037-2-3-4a-h-leslie-differential.png)\n\n**Fig. 1.1**\n\nThe heater is switched off. Tap T is opened so that the air on the two sides of T has the same pressure. Tap T is then closed.\n\n(i) The heater is switched on. On Fig. 1.1, mark clearly where the two liquid levels might be a short time later.\n\n[1]\n\n(ii) Explain your answer to **(a)(i)**.\n\n[2]",
+     "solution_md": "(i) The heater is switched on. On Fig. 1.1, mark clearly where the two liquid levels might be a short time later:\n\nA diagram scoring one mark:\n\n![screenshot-2023-02-07-at-14-46-13](assets/038-screenshot-2023-02-07-at-14-46-13.png)\n\n- Left side down **AND** right side up **AND** by equal amounts (by eye); **[1 mark]**\n\n(ii) Explain your answer to **(a)(i)**:\n\n- The left / black side has a greater temperature rise / absorbs more energy; **[1 mark]**\n- (Therefore) on the left / black side there is a greater <u>expansion</u> of air / greater <u>pressure</u> of air; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_QtTRz8pvDCHDfJbK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "A gym has a low initial temperature. A larger radiant heater is placed on the floor in the centre of a gym to heat the room. The room has no open windows or ventilation.\n\nDescribe and explain the subsequent motion of air in the gym, naming any processes.",
+     "solution_md": "Describe and explain the subsequent motion of air in the gym:\n\n- The heat causes (nearby) air <u>particles</u> to move further apart **OR** the (nearby) air <u>expands</u> / increases in <u>volume</u>; **[1 mark]**\n- This hot air is <u>less dense</u>; **[1 mark]**\n- This less dense air <u>rises</u>; **[1 mark]**\n- The <u>cooler / more dense</u> air replaces it; **[1 mark]**\n- This forms a <u>convection current</u>; **[1 mark]**\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_NhkyccH4qb9r2jc6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "After a marathon in winter, the athlete has sweated a large amount.\n\n(i) Explain why this could be dangerous.\n\n[3]\n\n(ii) Some athletes choose to wear a shiny foil blanket immediately after a race. Explain why.\n\n[3]",
+     "solution_md": "(i) Explain why this could be dangerous:\n\n- Heat is transferred / radiated from the athlete to the sweat; **[1 mark]**\n- The sweat evaporates; **[1 mark]**\n- The temperature of the athlete reduces; **[1 mark]**\n\n**   **\n\n(ii) Some athletes choose to wear a shiny foil blanket immediately after a race. Explain why:\n\n- They lose heat by emitting thermal <u>radiation</u>; **[1 mark]**\n- Shiny surfaces reflect radiation; **[1 mark]**\n- (Therefore) the athletes lose less thermal energy / retain more thermal energy; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_mzQJYgZTrfFXyySM",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_q5qbtd9rYY3Y62SV",
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nFor the end of the marathon, the athlete's coach has a double-walled vacuum flask (Fig. 1.2), which is designed to maintain the temperature of its contents. It is partially filled with a hot liquid.\n\nThe lid is made of black plastic and sealed tight. The walls are silvered metal.\n\n![2-3-4d-h-vacuum-flask-physics](assets/039-2-3-4d-h-vacuum-flask-physics.png)\n\nEventually the liquid cools. Explain how thermal energy is transferred from the hot liquid through the lid over time.",
+     "solution_md": "Explain how thermal energy is transferred from the hot liquid through the lid over time:\n\nDiscuss thermal energy transfer from radiation:\n\n- The hot liquid emits <u>radiation</u>; **[1 mark]**\n- The black lid is a <u>good absorber</u> / <u>poor reflector</u>; **[1 mark]**\n\nDiscuss convection and conduction:\n\n- The air (near the lid) is heated by <u>convection</u>; **[1 mark]**\n- (A small amount of) thermal energy is transferred from the <u>air</u> to the <u>lid</u> by thermal <u>conduction</u>; **[1 mark]**\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Nk8TvnSD9mtk9cXC",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_6yxTzF6b9dR78GSz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h4v9pvr9HyNMC2Mm",
+      "spcpt_66Kx8rnxCRstHGpr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nAn object in the space between Earth and the Sun has an average temperature of 3 K.\n\n(i) State how the intensity of radiation the object receives from the Sun at this point differs from the intensity at the Earth's surface.\n\n[1]\n\n(ii) Explain why the temperature of the object in space here is lower than if it was on Earth.\n\n[2]",
+     "solution_md": "(i) State how the intensity of radiation the object receives from the Sun at this point differs from the intensity at the Earth's surface:\n\n- This point in space receives a <u>greater</u> amount of radiation (from the Sun); **[1 mark]**\n\n(ii) Explain why the temperature of space here is lower than that of Earth:\n\n- Earth is insulated by its <u>atmosphere</u>; **[1 mark]**\n- The gases <u>absorb</u> radiation <u>reflected</u> by Earth **OR** the <u>greenhouse effect</u> occurs; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *If an object is closer to a source of radiation, it receives more radiation that if it was further away. This is intuitive - think of when you have been close to a hot object compared to when you are further away.*\n\n> *Closer object:*\n\n![screenshot-2023-02-07-at-11-21-16](assets/040-screenshot-2023-02-07-at-11-21-16.png)\n\n> *Further object:*\n\n![screenshot-2023-02-07-at-11-23-54](assets/041-screenshot-2023-02-07-at-11-23-54.png)"
+    },
+    {
+     "id": "qstnprt_cfPZ8RMpYqhKC3tc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_66Kx8rnxCRstHGpr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nThe average surface temperature of Venus is 475 °C.\n\nThe average surface temperature of Earth is 13 °C.\n\nIf Venus had an atmosphere the same as Earth's, it would have a maximum surface temperature of 35 °C.\n\nIf Venus had an orbital radius the same as Earth's, it would have a surface temperature of 227 °C.\n\nVenus is ~30% closer to the Sun that the Earth is.\n\nReferring to these data, explain why the surface temperature of Venus is much higher than Earth's.",
+     "solution_md": "Referring to these data, explain why the surface temperature of Venus is much higher than Earth's:\n\nDiscuss the atmosphere of Venus:\n\n- Venus' atmosphere makes its temperature <u>440 °C</u> hotter / a factor of <u>14</u> hotter than if it had Earth's atmosphere; **[1 mark]**\n- (Therefore) the atmosphere must be <u>denser</u> than Earth's / have a strong greenhouse effect; **[1 mark]**\n\nDiscuss Venus' distance to the Sun:\n\n- Venus' proximity to the Sun makes its temperature <u>248 °C</u> hotter / a factor of <u>2</u> hotter than if it had Earth's orbit; **[1 mark]**\n\nCompare the effect of each:\n\n- Venus' atmosphere contributes to its high temperature <u>more</u> than its proximity to the Sun; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_t8FJ7ZNppZ9fncDB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "The Earth's magnetic field arises from its iron-rich molten core, shown in Fig. 1.2.\n\nMolten iron must be **in motion** to generate a magnetic field.\n\nThe inner core is very hot and solid. The outer core is also iron-rich and liquid.\n\n![2-3-5c-h](assets/042-2-3-5c-h.png)\n\nExplain the origin of the Earth's magnetic field, referring to density in your answer.",
+     "solution_md": "Explain the origin of the Earth's magnetic field:\n\n- The inner core heats the (innermost part of the molten) outer core; **[1 mark]**\n- This molten core becomes <u>less</u> <u>dense</u>; **[1 mark]**\n- It rises (and is replaced by cooler molten core); **[1 mark]**\n- This forms a <u>convection current</u> (which causes the motion of iron, creating the magnetic field); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Often, exam questions will have complicated contexts to test whether you can **apply** your knowledge. This was really just a convection question, but spotting that is the tricky part!*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nHWvyV5DBWqTbWDX",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_4D3DtQG4YRdQFnPJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/42",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nA student wants to investigate good and bad absorbers of thermal radiation. She has the apparatus shown in Fig. 5.1, a supply of cold water and a metre rule.\n\n![agEqmhRp_q5](assets/043-ageqmhrp-q5.png)\n\nExplain how the student could use the apparatus she has available to carry out her investigation.\n\nDescribe the results she would expect to obtain. Draw a diagram of the set-up.",
+     "solution_md": "Draw a diagram of the set-up:\n\n![q5-markscheme](assets/044-q5-markscheme.png)\n\n- Diagram shows the cans placed near a heater; **[1 mark]**\n\nExplain how the student could use the apparatus she has available to carry out her investigation:\n\n- Thermometers are placed in <u>water</u> **AND** readings observed; **[1 mark]**\n\nExplain how to make it a fair test:\n\n**Any one from:**\n\n- Cans placed at equal distances from heater; **[1 mark]**\n- Cans have the same water volumes / levels; **[1 mark]**\n- Thermometers have the same positions in cans; **[1 mark]**\n\nDescribe the results:\n\n- The (painted) black can will have the higher thermometer reading; **[1 mark]**\n\n**OR**\n\n- The black (surface) is a good / the best/ better absorber; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Make sure you lay out practical method in a logical order and remember to include how to make it a fair test.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mnQbX9GCwXbRF8sG",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_NrdZMDCK74Z3sDwZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/33",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigates the thermal energy lost from two metal cans, X and Y. The cans are identical apart from their outside colour.\n\nThe student pours the same volume of hot water into each can and seals each can. The student records the temperature of the water in each can at regular time intervals for a period of 35 minutes.\n\nThe equipment is shown in Fig. 6.1.\n\n![q6a1](assets/045-q6a1.png)\n\nFig. 6.2 is a graph of the results from the investigation.\n\n![5-3-m-5a-thermal-radiation-experiment-graph](assets/046-5-3-m-5a-thermal-radiation-experiment-graph.png)\n\n*Fig. 6.2*\n\nFor can X, use Fig. 6.2 to determine the drop in temperature of the water\n\n(i) in the **first **five minutes\n\n[1]\n\n(ii) in the **last **five minutes\n\n[1]",
+     "solution_md": "(i) Determine the drop in temperature for can X in the first 5 minutes:\n\n![SkOFCQ_F_q6a-markscheme-1](assets/047-skofcq-f-q6a-markscheme-1.png)\n\n- Initial temperature = 80 °C\n\n  - *Allow 78 °C to 82 °C*\n- Final temperature = 56 °C\n\n  - *Allow 54 °C to 58 °C*\n- Change in temperature = 80 − 56 = 24 °C **[1 mark]**\n\n(ii) Determine the drop in temperature for can X in the last 5 minutes:\n\n![q6a-markscheme-2](assets/048-q6a-markscheme-2.png)\n\n- Initial temperature = 20 °C\n\n  - *Allow 18 °C to 22 °C*\n- Final temperature = 18 °C\n\n  - *Allow 16 °C to 20 °C*\n- Change in temperature = 20 − 18 = 2 °C **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *A tolerance of ∓½ a small square is generally allowed when reading data from graphs. Therefore, if you read the initial temperature as 22 °C and then correctly use that value in your calculation, you will still gain the mark.*\n\n> *Being able to read and interpret graphs is a key skill. Using a ruler to draw onto the graph can help prevent errors. Sometimes questions can have a lot of information to 'set the scene'. Make sure you careful check the specifics of the question.*"
+    },
+    {
+     "id": "qstnprt_X9Y769jMHRQF4NWT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/33",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigates the thermal energy lost from two metal cans, X and Y. The cans are identical apart from their outside colour.\n\nThe student pours the same volume of hot water into each can and seals each can. The student records the temperature of the water in each can at regular time intervals for a period of 35 minutes.\n\nThe equipment is shown in Fig. 6.1.\n\nFig. 6.2 is a graph of the results from the investigation.\n\nFor can X, use Fig. 6.2 to determine the drop in temperature of the water\n\nExplain why the water cools at a greater rate during the first five minutes of the experiment, compared with the last five minutes.",
+     "solution_md": "To explain why the water cools at a greater rate during the first five minutes compared with the last five minutes:\n\n- The water is hotter at the start; **[1 mark]**\n- So there is a greater temperature difference between the can and the surroundings; **[1 mark]**\n\n**[Total: 2 marks]   **\n\n> *The greater the temperature difference between an object and the surroundings, the faster the rate of cooling.*"
+    },
+    {
+     "id": "qstnprt_yd6cRtNVVJnJQ4Vf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/33",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigates the thermal energy lost from two metal cans, X and Y. The cans are identical apart from their outside colour.\n\nThe student pours the same volume of hot water into each can and seals each can. The student records the temperature of the water in each can at regular time intervals for a period of 35 minutes.\n\nThe equipment is shown in Fig. 6.1.\n\nFig. 6.2 is a graph of the results from the investigation.\n\nFor can X, use Fig. 6.2 to determine the drop in temperature of the water\n\nThe outside of one can is dull black and the outside of the other is shiny white.\n\nState the colour of can Y.\n\nExplain your answer.",
+     "solution_md": "State the colour of can Y:\n\n- (Dull) black; **[1 mark]**\n\nExplain this answer:\n\n- There is a greater rate of loss of thermal energy from dark colours; **[1 mark]**\n\n**OR**\n\n- Black or it is better radiator / emitter of thermal energy; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jyfq42CxbQT5SvYF",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_fC8qSZG7tqK2sTJw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "February/March 2018",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_45XFyxVbJCBM32jz"
+     ],
+     "part_tier": null,
+     "problem_md": "A thermometer is used to measure the temperature inside a room in a house.\n\nState a physical property that varies with temperature and can be used in a thermometer.",
+     "solution_md": "A physical property that varies with temperature and can be used in a thermometer:\n\n**Any one from:**** **\n\n- volume (of liquid); **[1 mark]**\n- expansion; **[1 mark]**\n- voltage; **[1 mark]**\n- potential difference; **[1 mark]**\n- emf; **[1 mark]**\n- length; **[1 mark]**\n- colour; **[1 mark]**\n- pressure; **[1 mark]**\n- resistance; **[1 mark]**\n- density; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *There are many different types of \"thermometer\". A lot of these properties are related to electrical thermometers. The easiest thermometer for you to familiarise yourself with is a traditional thermometer containing liquid. When the temperature increases the liquid moves up, so its volume increases. *"
+    },
+    {
+     "id": "qstnprt_jG6bhmWVmWCcqYBn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "February/March 2018",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA thermometer is used to measure the temperature inside a room in a house.\n\nFig. 6.1 shows how the temperature of the room changes between 6:00 pm and 11:00 pm.\n\n![feb-march-2018-32-q6b](assets/049-feb-march-2018-32-q6b.jpg)\n\nA heater in the room is switched on at 6 pm. The room has a large window. A large amount of thermal energy is transferred through the window. The window in the room has thick curtains.\n\nClosing the curtains reduces the loss of thermal energy from the room.\n\n(i) Suggest the time at which the heater is switched off.\n\n[1]\n\n(ii) Suggest the time at which the curtains were closed and explain your answer. Use information from the graph.\n\n[2]",
+     "solution_md": "(i) To suggest the time at which the heater is switched off.\n\nDraw lines on the graph to find the time when the heater is switched off:\n\n- Identify the peak temperature on the graph\n- Draw a line from the peak temperature to the time\n\n![0Xga8iPl_file-000-10](assets/050-0xga8ipl-file-000-10.png)\n\nCheck the temperature of the room after the peak temperature has been reached:\n\n- The temperature decreases following this peak\n\nIdentify the time the heater was switched off:\n\n- Hence, the heater was switched off at 8.30 pm; **[1 mark]**\n\n(ii) To suggest the time at which the curtains were closed:\n\nDraw a line on the graph to identify when the curtains were closed:\n\n- Identify the point at the change in rate of heat loss from the room\n- Draw a line from this point to the time\n\n![A2~o7Qvo_file-000-11](assets/051-a2-o7qvo-file-000-11.png)\n\nIdentify the time the curtains were closed:\n\n- Hence, the curtains were drawn at 9.00 pm; **[1 mark]**\n\nExplanation:\n\n- The slope / gradient of the graph is less after this time; **[1 mark]**\n\n**   OR **\n\n- Temperature drops / falls more slowly / slower after this time; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *A tolerance of ∓½ a small square is generally allowed when reading data from graphs. Therefore, in part (i), you would gain the mark for a time between 8.24 pm and 8.36 pm. And for part (ii), you would gain a mark for an answer between 8.54 pm and 9.06 pm.*\n\n> *Don't panic when you see questions about graphs. Start by reading the axis carefully, and then think about what it means as the gradient increases/decreases. *"
+    },
+    {
+     "id": "qstnprt_22jH3myYmHzpGYZv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "February/March 2018",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mkgYVfprBRPpNZ8D",
+      "spcpt_KPnyNjwzYHSHdm3m"
+     ],
+     "part_tier": null,
+     "problem_md": "In cool climates, people use mineral wool to reduce heat loss from houses. Mineral wool is made of fibres and trapped air, as shown in Fig.6.2.\n\n![feb-march-2018-32-q6c](assets/052-feb-march-2018-32-q6c.jpg)\n\nUse words from the box to complete the sentences. Each word may be used once, more than once, or not at all.\n\n![feb-march-2018-32-q6c2](assets/053-feb-march-2018-32-q6c2.jpg)\n\nAir is a good ............................................ .\n\nWhen air is trapped between fibres, it reduces heat loss by ..................................... and by ........................................ .",
+     "solution_md": "Sentences that would score 3 marks should look like this:\n\n- Air is a good **insulator**; **[1 mark].**\n- When air is trapped between fibres, it reduces heat loss by:\n\n  - **conduction** **[1 mark] **and by\n  - **convection**;** ****[1 mark]**.\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GdKr2wcHcgDtX22T",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_zfpTBSxRQnTppVGn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Oct 2019",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_mkgYVfprBRPpNZ8D"
+     ],
+     "part_tier": null,
+     "problem_md": "A student heats some water in a metal can, as shown in Fig. 6.2.\n\n![screenshot-2022-10-20-at-09-57-32](assets/054-screenshot-2022-10-20-at-09-57-32.png)\n\nComplete the sentence. Choose a word from the box.\n\n![screenshot-2022-10-20-at-09-59-36](assets/055-screenshot-2022-10-20-at-09-59-36.png)\n\nThermal (heat) energy moves through the metal can by ............................................",
+     "solution_md": "Complete the sentence:\n\n- Thermal (heat) energy moves through the metal can by **conduction**; **[1 mark]**\n\n**[Total: 1 marks]**"
+    },
+    {
+     "id": "qstnprt_jzKFb8fjkDs5Y3XX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Oct 2019",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student heats some water in a metal can, as shown in Fig. 6.2.\n\nDescribe how thermal energy is transferred throughout the water. Include your ideas about density changes.",
+     "solution_md": "Describe how thermal energy is transferred throughout the water:\n\n**Any three from:**\n\n- Heat causes water molecules to move further apart **OR **the water expands / volume increases; **[1 mark]**\n- The hot <u>water is less dense</u>; **[1 mark]**\n- This less dense <u>water rises</u> (and is replaced by colder water); **[1 mark]**\n- This is <u>convection</u> / a <u>current</u> in the water; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You won't score a mark for saying that particles become less dense or expand - the size of water molecules never changes, only the distances between them and their motion. As the particles move further apart, the **water** becomes less dense. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GB3XcmCfvNPJ65cH",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_83pj88g3fRnPx5NZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 6.1 is a diagram of the inside of an electric oven. The diagram shows a side view of the oven.\n\n![cie-2019-10](assets/056-cie-2019-10.png)\n\nThe heater is switched on.\n\n(i) On Fig. 6.1, draw two arrows to show how thermal energy moves throughout the oven by convection.\n\n[2]\n\n(ii) Explain how thermal energy moves throughout the oven by convection. Use your ideas about density and expansion.\n\n[3]\n\n(iii) Use a word from the box to complete the sentence.\n\n| conduction  expansion   insulation  radiation |\n|---|\n\nThermal energy travels at the speed of light by .....................................\n\n[1]",
+     "solution_md": "(i) On Fig. 6.1, draw two arrows to show how thermal energy moves throughout the oven by convection.\n\nA diagram that would score 2 marks should look like:\n\n![img-6b673fd336e1-1](assets/057-img-6b673fd336e1-1.jpeg)\n\n- Arrow upwards from heating element; **[1 mark]**\n- Arrow across top **OR** down on opposite side; **[1 mark]**\n\n(ii) Thermal energy moves throughout the oven by convection by:\n\n- Warm air <u>expands</u>; **[1 mark]**\n- Which makes it become <u>less dense</u>; **[1 mark]**\n- So makes it <u>rise</u>; **[1 mark]**\n\n** **\n\n(iii) Use a word from the box to complete the sentence.\n\n- Thermal energy travels at the speed of light by **radiation****;**** [1 mark]**\n\n**[Total: 6 marks]**\n\nRadiation is how, although space is a vacuum with no particles, we are still able to receive heat energy from the sun. Radiation does not require particles to transfer heat energy, unliked conduction and convection.\n\nWhen talking about convection, remember to refer to the change in **density** of the air. Less dense air (air molecules are further apart) rise whilst more dense air (air molecules become closer together) falls. Air becomes less dense when** heated** and more dense when it **cools down**."
+    },
+    {
+     "id": "qstnprt_scrP9CvntsZJ8YMt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2019",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 6.1 is a diagram of the inside of an electric oven. The diagram shows a side view of the oven.\n\nThe heater is switched on.\n\nThe oven is in a kitchen that is fitted with a smoke detector.\n\nWarm, moving air can carry smoke particles.\n\nSuggest the best position for the smoke detector in the kitchen.",
+     "solution_md": "The best position for the smoke detector in the kitchen would be:\n\n- (On the) ceiling; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Convection causes the warm air (and the smoke particles) to **rise**. Therefore, the detector must be in a position where the smoke particles will be incident upon, which will be on the highest point in the room i.e. the ceiling.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FwY9NcssBYcGD8zz",
+   "set_slug": "theory-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_bgKZqsXgmxf2WMN5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is testing how different surfaces absorb radiant heat.\n\nThe student puts two metal plates in holders and places them on either side of a radiant heater as shown in Fig. 6.2. One plate has a shiny metal side facing towards the heater and the other plate has a dull black side facing towards the heater.\n\nA metal disc is attached to each plate using wax.\n\n![lML7SMGy_cie-2020-31-9](assets/058-lml7smgy-cie-2020-31-9.png)\n\n(i) The student turns on the radiant heater and starts a stop-clock. The wax on the plate with a dull black side melts and the metal disc falls off the plate 53 seconds after the stop-clock is started.\n\nThe metal disc on the plate with a shiny metal side remains attached for another 32 seconds after the metal disc on the first plate falls.\n\nExplain why the metal disc on the plate with a dull black side falls before the metal disc on the plate with a shiny metal side.\n\n[2]\n\n(ii) Another student observes the experiment shown in Fig. 6.2 and says that the comparison of the two plates is not fair.\n\nSuggest why the experiment is not fair.\n\n[2]",
+     "solution_md": "To explain the experimental results:\n\n(i) The metal disc on the plate with a dull black side falls before the metal disc on the plate with a shiny metal side because:\n\n- Black is a better/the best absorber; **[1 mark]**\n- Therefore, the temperature of the wax rises faster on the black plate; **[1 mark]**\n\n(ii) The experiment is not fair because:\n\n- For a fair test, all independent variables must be the same; **[1 mark]**\n- The plates/discs should be at equal distances (from the heater); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *A fair test is all about keeping all variables, that are not the independent (the colour of the face of the plate facing the heater) and the dependent (time taken for the disc to fall) **constant**. In this case, the distance of the discs from the heater are different, which would interfere with the results as the only variable affecting the time taken the disc to fall is no longer just the colour of the plates, but the distance too!*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DyV2PFb7yw5WTszr",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_bQwFCNp74gdD68GC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended\n\nA student is performing an experiment to investigate how much infrared radiation is radiated by different coloured surfaces.\n\nFour conical flasks are painted shiny grey, dull drey, black and white, see Fig. 1.1.\n\n![2-3-5a-e](assets/059-2-3-5a-e.png)\n\nThey fill the four conical flasks with boiling water and record the subsequent temperature every 30 s.\n\nState the dependent and independent variables in this experiment.",
+     "solution_md": "- Dependent variable is <u>temperature</u>; **[1 mark]**\n- Independent variable is <u>colour</u>; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Independent variable: the variable **you** change, it is unaffected by others.*\n\n> *Dependent variable: the variable you **measure**, it depends on other variables.*"
+    },
+    {
+     "id": "qstnprt_cqBBjTvrQxkZDZXZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student is performing an experiment to investigate how much infrared radiation is radiated by different coloured surfaces.\n\nFour conical flasks are painted shiny grey, dull drey, black and white, see Fig. 1.1.\n\nThey fill the four conical flasks with boiling water and record the subsequent temperature every 30 s.\n\n#### Extended\n\nState two control variables in this investigation.",
+     "solution_md": "Two control variables:\n\n**Any two from:**\n\n- Same room temperature; **[1 mark]**\n- Identical flasks (apart from colour); **[1 mark]**\n- Same <u>volume</u> of hot water; **[1 mark]**\n- Same initial temperature; **[1 mark]**\n- Same time interval; **[1 mark]**\n- Same depth of thermometer; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_rYT24NY4ckvKMfCj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student is performing an experiment to investigate how much infrared radiation is radiated by different coloured surfaces. Four conical flasks are painted shiny grey, dull grey, black and white, see Fig. 1.1. They fill the four conical flasks with boiling water and record the subsequent temperature every 30 s.\n\n#### Extended\n\nThe results of the experiment are plotted in Fig. 1.2 below. Each line represents the temperature loss of a different flask.\n\n![2-3-5c-e](assets/060-2-3-5c-e.png)\n\n**Fig. 1.2**\n\n(i) State the letter of the curve with the lowest temperature change per second.\n\n[1]\n\n(ii) State the letter of the flask covered in the best conductor.\n\n[1]",
+     "solution_md": "(i) State the letter of the curve with the lowest temperature change per second:\n\n- A; **[1 mark]**\n\n(ii) State the letter of the flask covered in the best conductor:\n\n- D; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_72Gk9CrJRMDJqhN4",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_cCcthYS5WCgxcgkc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student is performing an experiment to investigate how much infrared radiation is radiated by different coloured surfaces. Four conical flasks are painted shiny grey, dull grey, black and white. They fill the four conical flasks with boiling water and record the subsequent temperature every 30 s. The results of the experiment are plotted in Fig. 1.2 below. Each line represents the temperature loss of a different flask. (i) State the letter of the curve with the lowest temperature change per second: - A. (ii) State the letter of the flask covered in the best conductor: - D.\n\n#### Extended\n\n(i) Draw **four** lines between the labels from Fig. 1.2 and the different flask colours.\n\n![screenshot-2023-02-02-at-10-55-57](assets/061-screenshot-2023-02-02-at-10-55-57.png)\n\n[4]\n\n(ii) Suggest why the temperature of flask D does not drop below 23 °C.\n\n[1]",
+     "solution_md": "(i)\n\n**One mark for each correct line; [4 marks]**\n\n![screenshot-2023-02-02-at-11-05-17](assets/062-screenshot-2023-02-02-at-11-05-17.png)\n\n(ii) Suggest why the temperature of flask D does not drop below 23 °C:\n\n- 23 °C is room temperature **OR** the flask cannot get colder than its surroundings;** [1 mark]**\n\n**[Total: 5 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CRhZFpNQV3gSsy9w",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_fHwwhSKPyKHCDSJT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "determine",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "A student constructs a device for absorbing thermal energy from the Sun. Fig. 6.1 shows the device.\n\n![q6a](assets/063-q6a.png)\n\nThe student places the white plastic pipe in sunlight. The cold water flows slowly from Tank A to Tank B. Energy from the Sun heats the water in the pipe.\n\nFig. 6.2 shows the temperatures in Tank A and Tank B.\n\n![q6a2](assets/064-q6a2.png)\n\nDetermine the rise in temperature of the water.\n\ntemperature rise = .................................................... °C",
+     "solution_md": "To determine the rise in temperature of the water:\n\nRead the values off the thermometers:\n\n- Tank A temperature = 23 °C\n- Tank B temperature = 26 °C\n\nDetermine the change in temperature:\n\n- 26 − 23 = 3 °C **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_4Y6zcCPg74ckHDPP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student constructs a device for absorbing thermal energy from the Sun. The student places the white plastic pipe in sunlight. The cold water flows slowly from Tank A to Tank B. Energy from the Sun heats the water in the pipe.\n\nThe student wants to increase the thermal energy absorbed by the water in the pipe. Suggest three improvements he can make to increase the thermal energy absorbed.",
+     "solution_md": "Improvements which can be made to increase the thermal energy absorbed:\n\n**Any three from:**\n\n- Use a metal pipe; **[1 mark]**\n- Paint the pipe black **OR** use a black pipe; **[1 mark]**\n- Use matt / dull paint; **[1 mark]**\n- Place a reflector behind the pipe; **[1 mark]**\n- Use a long(er) pipe; **[1 mark]**\n- Use a pipe with a great(er) surface area; **[1 mark]**\n- Use a slow(er) flow rate; **[1 mark]**\n- Place glass  or a clear plastic cover over pipe; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_8xjqV3qHCw6cZ7zs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0625/31",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_rtZN57rysfDX3Kxf"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student constructs a device for absorbing thermal energy from the Sun. The student places the white plastic pipe in sunlight. The cold water flows slowly from Tank A to Tank B. Energy from the Sun heats the water in the pipe.\n\nDescribe how the thermal energy is transferred from the Sun to the water inside the pipe.",
+     "solution_md": "To describe how the thermal energy is transferred from the Sun to the water inside the pipe:\n\n- Thermal energy is transferred by <u>infra-red</u>** **radiation (from the Sun to the pipe); **[1 mark]**\n- The heat transfers by <u>conduction</u> (through the material of the pipe); **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8qPSZSfYjtq45sjm",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_9NpchFKkJH63QH2j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk",
+      "spcpt_Gbf3XsJ7DpjcvTTF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n(i) Shiny silver surface, 2 marks. First mark: reflects / does not allow transmission of / poor emitter / poor absorber / good reflector. Second mark: infrared / thermal radiation / heat radiation; do not accept \"heat\" alone. (ii) Vacuum, 3 marks. 1 mark: conduction cannot take place (accept prevents or reduces). 1 mark: convection cannot take place (accept prevents or reduces). 1 mark: no particles / no medium in a vacuum, so conduction and convection cannot occur; accept \"only radiation can travel through a vacuum\". Do not credit \"the vacuum stops radiation\".\n\nFig. 6.1 shows a hot liquid in a vacuum flask. The vacuum flask keeps the temperature of the liquid in the flask constant for a long time.\n\n![q6](assets/065-q6.png)\n\nDescribe how each feature helps to keep the liquid hot for longer.\n\n(i) shiny silver surface\n\n[2]\n\n(ii) the vacuum between the silvered surfaces\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> (i) Shiny silver surface:\n> \n> - Reflects / does not allow transmission of / is a poor emitter of / is a poor absorber of **[1 mark]**\n> - Infrared / thermal radiation **[1 mark]**\n> \n> Accept \"good reflector\" for the first mark\n> \n> Do not accept \"heat\" alone for the second mark: \"infrared\", \"thermal radiation\" or \"heat radiation\" is needed\n\n> **[mark-scheme]**\n> (ii) The vacuum between the silvered surfaces:\n> \n> - Conduction cannot take place (through the vacuum) **[1 mark]**\n> - Convection cannot take place (through the vacuum) **[1 mark]**\n> - Because there are no particles in a vacuum, and particles / a medium are needed for conduction and convection **[1 mark]**\n> \n> Accept \"prevents\" or \"reduces\" for the first two marks\n> \n> Accept \"no particles / no molecules / no medium in the vacuum\" or \"only radiation can travel through a vacuum\" for the third mark\n> \n> Do not accept \"the vacuum stops radiation\": radiation does not need a medium\n\n> **[exam-tip]**\n> Match each feature to its own processes: the silvered surface deals with radiation and the vacuum deals with conduction and convection. Name conduction and convection separately, then give the reason, which is that a vacuum contains no particles to carry them. Never say the vacuum stops radiation, because radiation is the one process that crosses a vacuum."
+    },
+    {
+     "id": "qstnprt_bZDPQ3PXXfxKhpJb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0625/32",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n(i) Expected: any non-metal or insulator, e.g. plastic, cork, rubber. (ii) Expected: non-metals are poor conductors of heat / good insulators, or metals are good conductors of heat. Do not credit \"keeps the heat in\" alone for the reason.\n\n(i) Suggest a material for the stopper that will help to keep the liquid hot for longer.\n\n[1]\n\n(ii) Give a reason for your answer.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) A suitable material for the stopper:\n> \n> - Any non-metal, e.g. plastic / cork / rubber **[1 mark]**\n> \n> Accept \"an insulator\"\n\n> **[mark-scheme]**\n> (ii) The reason:\n> \n> - Non-metals are poor conductors of heat / good insulators **OR** metals are good conductors of heat **[1 mark]**\n\n> **[exam-tip]**\n> Name a specific everyday material and then give the property that matters: a poor conductor slows the transfer of thermal energy out through the top of the flask. \"It keeps the heat in\" repeats the question and does not score the reason mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_7Wpw99Xpzz4nFmzc",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_nNJ6crBRq75jxhRp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2020 Feb/March",
+      "number": "0625/42",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_twfhtNGMdcM5yHxQ",
+      "spcpt_h4v9pvr9HyNMC2Mm"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the sentences with words that describe the main process of energy transfer by heating in each case.\n\nA man goes for a walk on a cold day. He touches a metal gate, which removes energy from his hands by ................................. . He holds the sides of a cup containing a hot drink. His hands gain energy by ................................. . Some farm workers have lit a fire. The man warms his hands by the side of the fire. His hands gain energy by ................................. .",
+     "solution_md": "Recall that **conduction **happens in solids, and **radiated **heat travels in all directions:\n\n- A man goes for a walk on a cold day. He touches a metal gate, which removes energy from his hands by **conduction**; **[1 mark]**\n- He holds the sides of a cup containing a hot drink. His hands gain energy by **conduction**; **[1 mark]**\n- Some farm workers have lit a fire. The man warms his hands by the side of the fire. His hands gain energy by **radiation**; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_3H5Mj5pRBvNrVCC6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2020 Feb/March",
+      "number": "0625/42",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_mkgYVfprBRPpNZ8D"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA man goes for a walk on a cold day. He touches a metal gate, which removes energy from his hands by conduction.\n\n#### Extended\n\nDescribe in terms of particles the transfer of energy from the thermal store of the man's hands through the metal of the gate.",
+     "solution_md": "To describe thermal conduction in terms of particles:\n\nAny **three** from:\n\n- The particles/atoms in the metal near the man's hands gain thermal energy from the hands; **[1 mark]**\n- These particles/atoms vibrate faster / with a larger amplitude;**[1 mark]**\n- These vibrating particles pass on energy/vibration to neighbouring atoms/particles by collision;**[1 mark]**\n- Metal contains free/delocalised electrons;**[1 mark]**\n- These electrons gain (thermal/kinetic) energy from the hotter region (near the hands);**[1 mark]**\n- The energized electrons move through the metal; **[1 mark]**\n- They then collide with distant ions/particles or transfer energy to distant atoms/particles; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The terminology for free or delocalised electrons which you may have heard in chemistry is also useful here in physics. Look out for links between your subjects - especially the sciences and maths.*"
+    },
+    {
+     "id": "qstnprt_kQ893wYKhwH4kKVY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2020 Feb/March",
+      "number": "0625/42",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vXBb2PPxkhDS66zk"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 5.1 shows a car on a sunny day in a hot country.\n\n![car](assets/066-car.png)\n\nThe object labelled A is placed inside the windscreen. It is used by the owner of the car to reduce the temperature rise of the air in the car.\n\nSelect the most suitable material for the outer surface of object A. Explain your choice.\n\n| **dull black** | **dull white** | **shiny black** | **shiny white** |\n|---|---|---|---|",
+     "solution_md": "The most suitable material is:\n\n- Shiny white; **[1mark]**\n\nExplain why:\n\n- To reduce the temperature the object needs to reflect incoming thermal radiation\n- Shiny surfaces and white surfaces are the <u>best reflectors</u>; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The best reflectors are shiny and white / silver and the best emitters are black and matt (rough). If you have trouble remembering which is which then simply think about sunglasses (shiny) and laptop chargers (black - usually!). These objects have been designed to reflect or emit heat.*"
     }
    ]
   }

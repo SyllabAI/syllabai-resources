@@ -1,6 +1,6 @@
 # Exam Questions — Atoms, Nuclei & Radiation
 **11. Particle Physics** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 35 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 43 questions across 2 sets
 
 
 ## Multiple Choice Questions (35 questions)
@@ -376,3 +376,254 @@ A stationary decay `P presubscript 84 presuperscript 210 o` of  by *α*-emission
 $P_{84}^{210} o \rightarrow P_{82}^{206} b + \\alpha$
 
 What is the kinetic energy of the daughter nucleus `P presubscript 82 presuperscript 206 b` ?
+
+## Structured Questions (8 questions)
+
+
+### Q1 — medium — 3 marks
+
+**Q1** [3 marks]
+
+In the alpha-particle scattering experiment, a beam of alpha particles was directed at a thin gold foil.
+
+State the conclusion that can be drawn about the structure of the atom from
+
+(i) the observation that most alpha-particles pass through the foil
+
+[1]
+
+(ii) the observation that very few alpha-particles were deflected through angles greater than 90°.
+
+[2]
+
+### Q2 — easy — 8 marks
+
+**Q2** [2 marks]
+
+The equation below represents the decay of tungsten-184.
+
+Complete the equation by writing the correct number in each of the **two** boxes.
+
+`W _ 74 ^ 184 -> Po _ square ^ square + alpha particle`
+
+**Q2** [3 marks]
+
+Beta decay does **not** cause the mass number of an atom to change.
+
+Explain why not.
+
+**Q2** [2 marks]
+
+The equation representing the decay of iodine-128 to xenon is shown below.
+
+Complete the equation by writing the correct number in each of the **two** boxes.
+
+`I _ 53 ^ 128 -> Xe _ square ^ square + beta particle`
+
+**Q2** [1 mark]
+
+State another particle emitted in beta minus decay.
+
+### Q3 — medium — 11 marks
+
+**Q3** [3 marks]
+
+When a nucleus of plutonium-239 absorbs a neutron, the following reaction may take place.
+
+$Pu_{94}^{239} + \mathrm{n} pre_{b} pre^{a} \rightarrow \text{Xe} pre_{54} pre^{x} + \text{Zr} pre_{y} pre^{103} + 3 \mathrm{n} pre_{b} pre^{a}$
+
+State the values of *a*, *b*, *x* and *y*.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+When a nucleus of plutonium-239 absorbs a neutron, the following reaction may take place. \$\$\_{94}^{239}Pu + \_{b}^{a}n \rightarrow \_{54}^{x}Xe + \_{y}^{103}Zr + 3 \_{b}^{a}n\$\$
+
+State two quantities, other than the proton and neutron number, that are conserved in the fission reaction in part (a).
+
+**Q3** [3 marks]
+
+A Plutonium-239 nucleus has a mean density of 1.3 × 10<sup>17</sup> kg m<sup>–3</sup>.
+
+Show that the radius of a Plutonium-239 nucleus is 9.0 × 10<sup>–15</sup> m.
+
+**Q3** [3 marks]
+
+Plutonium-239 is an α-emitter whilst Uranium-237 is a β-emitter.
+
+Aside from their structure, distinguish between an α-particle and a β-particle.
+
+### Q4 — hard — 10 marks
+
+**Q4** [3 marks]
+
+The study of beta decay provided early hints to the existence of a yet undiscovered particle.
+
+Scientists were interested in the energy distribution of the beta particles emitted when a radioactive source decayed. The source has an activity of 120 Bq.
+
+The energy released by each decaying nucleus was labelled as X and the total energy released each second by the source was measured to be 7.5 × 10<sup>–11</sup> J.
+
+Sketch a graph to show the energy distribution of the beta particles and indicate X on the diagram.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+The source has an activity of 120 Bq. The energy released by each decaying nucleus was labelled as X and the total energy released each second by the source was measured to be 7.5 × 10^–11^ J.
+
+Determine the value of X to an appropriate degree of accuracy.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+The study of beta decay provided early hints to the existence of a yet undiscovered particle. Scientists were interested in the energy distribution of the beta particles emitted when a radioactive source decayed. The source has an activity of 120 Bq. The energy released by each decaying nucleus was labelled as X and the total energy released each second by the source was measured to be 7.5 × 10^–11^ J.
+
+Explain why no beta particles had an energy equal to X.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+The study of beta decay provided early hints to the existence of a yet undiscovered particle. Scientists were interested in the energy distribution of the beta particles emitted when a radioactive source decayed.
+
+Suggest the standard form of the two possible equations that represent this decay and define all the terms used.
+
+### Q5 — medium — 11 marks
+
+**Q5** [2 marks]
+
+The deflection of α-particles by a thin metal foil is investigated with the arrangement shown in Fig 1.1.
+
+![11-1-2a-m-rutherford-scattering-apparatus](assets/015-11-1-2a-m-rutherford-scattering-apparatus.png)
+
+**Fig 1.1**
+
+The detector of α-particles, D, is moved around the path labelled WXY.
+
+State the environment the apparatus must be enclosed in and explain why this is required for the experiment.
+
+**Q5** [4 marks]
+
+**Extract:**
+
+The deflection of α-particles by a thin metal foil is investigated with the arrangement shown in Fig 1.1. Fig 1.1 The detector of α-particles, D, is moved around the path labelled WXY.
+
+Explain the readings detected by D and the conclusions that were made about the nature of atoms at points
+
+(i) W,
+
+[2]
+
+(ii) X.
+
+[2]
+
+**Q5** [2 marks]
+
+**Extract:**
+
+The deflection of α-particles by a thin metal foil is investigated with the arrangement shown in Fig 1.1. Fig 1.1 The detector of α-particles, D, is moved around the path labelled WXY.
+
+State what the readings detected by D at position Y conclude about the charge of the nucleus. Explain why.
+
+**Q5** [3 marks]
+
+A beam of α-particles produces a current of 3.5 pA. Calculate the number of α-particles per second passing a point in the beam.
+
+### Q6 — hard — 10 marks
+
+**Q6** [2 marks]
+
+A radioactive nucleus `X _ 85 ^ 229` undergoes a beta−minus decay followed by an alpha decay to form a daughter nucleus $\mathrm{Y} pre_{Z} pre^{A}$.
+
+Write a decay equation for this interaction and hence determine the values of A and Z.
+
+**Q6** [3 marks]
+
+Thorium, `Th presubscript 90 presuperscript 232` decays to an isotope of Radium (Ra) through a series of transformations. The particles emitted in successive transformations are:
+
+$αββγα$
+
+Determine the resulting nuclide after these successive transformations.
+
+**Q6** [3 marks]
+
+Through a combination of successive alpha and beta decays, the isotope of any original nucleus can be formed.
+
+Explain the simplest sequence of alpha and beta decays required to do this.
+
+**Q6** [2 marks]
+
+A nucleus of Bohrium $\text{Bh} pre_{Y} pre^{X}$ decays to Mendelevium `Md presubscript 101 presuperscript 255` by a sequence of three alpha particle emissions.
+
+Determine the number of neutrons in a nucleus of $\text{Bh} pre_{Y} pre^{X}$.
+
+### Q7 — easy — 10 marks
+
+**Q7** [4 marks]
+
+Ionising radiation often comes in three forms: alpha, beta and gamma.
+
+Table 1.1 below shows information about the properties of each type of radiation.
+
+| **Type** | **Nuclear notation** | **Relative charge** |
+|---|---|---|
+| **Alpha** |   | +2 |
+| **Beta** | `beta _ - 1 ^ 0` |   |
+| **Gamma** |   |   |
+
+**Table 1.1   **
+
+Complete the missing information in Table 1.1.
+
+**Q7** [2 marks]
+
+Identify **one** similarity and **one** difference between alpha particles and beta particles**.**
+
+**Q7** [1 mark]
+
+The properties of ionising radiation that make it so useful is related to the study of the structure of atoms.
+
+Evidence that atoms had an internal structure was confirmed by Ernest Rutherford. He was able to show that a thin sheet of gold foil scattered ionising radiation in ways that could not be explained by accepted models of atomic structure at the time.
+
+State the type of ionising radiation that was scattered by gold foil in Rutherford’s experiment.
+
+**Q7** [3 marks]
+
+**Extract:**
+
+Evidence that atoms had an internal structure was confirmed by Ernest Rutherford. He was able to show that a thin sheet of gold foil scattered ionising radiation in ways that could not be explained by accepted models of atomic structure at the time.
+
+Each of the observations from Rutherford’s experiment had profound implications about how atoms were structured.
+
+In the space provided below, match each observation from Rutherford’s experiment to its corresponding conclusion about atomic structure.
+
+| **Observation** |   | **Conclusion** |
+|---|---|---|
+| A small proportion of radiation is slightly deflected by the gold foil | The atom is mostly empty space |   |
+| The majority of radiation is undeflected by the gold foil | The mass of a nucleus is concentrated in a very small volume |   |
+| A very small proportion of radiation is deflected back on itself | The nucleus carries a positive charge |   |
+
+### Q8 — medium — 3 marks
+
+**Q8** [2 marks]
+
+A nucleus X decays by emitting a β+ particle to form a new nucleus, $Na_{11}^{23}$.
+
+State the number of protons and the number of neutrons in nucleus X.
+
+number of protons = .......................................................
+
+number of neutrons = .......................................................
+
+*Source: Specimen 2022 Paper 2 Q7A*
+
+
+**Q8** [1 mark]
+
+State **one** similarity between a β<sup>+</sup> particle and a β<sup>–</sup> particle.
+
+*Source: Specimen 2022 Paper 2 Q7B*
+

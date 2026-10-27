@@ -326,3 +326,737 @@ CH<sub>3</sub>CH<sub>2</sub>CO<sub>2</sub>CH<sub>2</sub><sup>•</sup> + Cl<sup>
 **B** is incorrect as 4 would account for two diol OH groups (from one C=C) plus the carboxylic acid and alcohol (2 H). However, santonin contains two C=C double bonds, both oxidised to diols, giving four diol OH groups in total, not two.
 
 **C** is incorrect as 5 omits one of the six displaceable hydrogen atoms. Both the carboxylic acid and the alcohol produced by lactone hydrolysis each contribute one active hydrogen, and the two diols from mild oxidation of the two alkenes contribute four more, giving six in total.
+
+## Structured Questions (11 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The reagents, conditions and type of reaction for step 1 are:
+> 
+> - K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> / Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> / (potassium) dichromate
+> **OR**
+> KMnO<sub>4</sub> / MnO<sub>4</sub><sup>-</sup> / (potassium) permanganate **[1 mark]**
+> - H<sub>2</sub>SO<sub>4</sub> / H<sup>+</sup> / acidified
+> **OR**
+> Heat **[1 mark]**
+> - Oxidation **[1 mark]**
+
+> **[exam-tip]**
+> Compound **A** is a carboxylic acid formed by oxidation of an aldehyde. The aldehyde and the carboxylic acid both contain the same number of carbon atoms as oxidation does not extend the carbon chain.
+> 
+> A carboxylic acid cannot be produced from the ketone (the second molecule shown in Fig. 5.1), which is why step 1 uses the aldehyde.
+i) The systematic name and fully displayed formula of compound **B** are:
+
+Butan-2-ol
+
+![Butan-2-ol displayed formula](assets/026-butan-2-ol-displayed-formula.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct name of butan-2-ol
+> 
+> 1 mark for a fully displayed formula for butan-2-ol, including all C-H, C-C and O-H bonds explicitly shown
+
+> **[mark-scheme]**
+> ii) The type of reaction and reagents/conditions for step 2 are:
+> 
+> - Reduction **[1 mark]**
+> - LiAlH<sub>4</sub> / lithium aluminium hydride / lithium tetrahydridoaluminate
+> **OR**
+> NaBH<sub>4</sub> / sodium borohydride / sodium tetrahydridoborate **[1 mark]**
+
+> **[exam-tip]**
+> Step 2 is the reduction of butanone (a ketone) to butan-2-ol (a secondary alcohol). Two reducing agents are acceptable: LiAlH<sub>4</sub> and NaBH<sub>4</sub>.
+> 
+> LiAlH<sub>4</sub> is more reactive and must be used in dry ether solvent (water would decompose it). NaBH<sub>4</sub> is safer and can be used in aqueous or alcoholic solution.
+> **[mark-scheme]**
+> The two-step synthesis of ethanol from ethane:
+> 
+> Step 1 (ethane → chloroethane / bromoethane):
+> 
+> - Reagent: chlorine / Cl<sub>2</sub> **OR** bromine / Br<sub>2</sub> **[1 mark]**
+> - Conditions: UV light / high temperature **[1 mark]**
+> - Type of reaction: free radical substitution / halogenation **[1 mark]**
+> 
+> Step 2 (chloroethane / bromoethane → ethanol):
+> 
+> - Reagent: aqueous sodium hydroxide / NaOH (aq)
+> **OR**
+> Aqueous potassium hydroxide / KOH (aq) **[1 mark]**
+> - Conditions: heat / heat under reflux **[1 mark]**
+> - Type of reaction: nucleophilic substitution / hydrolysis **[1 mark]**
+
+> **[exam-tip]**
+> This is a non-standard synthesis route as ethanol is made by hydration of ethene in industry. However, the route via free radical halogenation tests your ability to connect alkane and halogenoalkane chemistry.
+> 
+> Note: free radical halogenation of ethane can produce multiple products (CH<sub>3</sub>CH<sub>2</sub>Cl, CH<sub>3</sub>CHCl<sub>2</sub>, etc.), making it impractical in reality. The question assumes controlled monohalogenation for the purposes of the synthesis.
+> **[mark-scheme]**
+> i) The systematic name of compound **D** is:
+> 
+> Any **one** from:
+> 
+> - 1-bromopropane
+> - 1-chloropropane
+> - 1-iodopropane
+> 
+> **[1 mark]**
+> 
+> Any 1-halopropane is accepted
+> 
+> ii) The reagents and conditions for step 4 are:
+> 
+> - Aqueous sodium hydroxide / NaOH (aq)
+> **OR**
+> Aqueous potassium hydroxide / KOH (aq) **[1 mark]**
+> - Heat / heat under reflux **[1 mark]**
+
+> **[exam-tip]**
+> In Fig. 5.2:
+> 
+> - **A** = propanone
+> - **B** = propan-2-ol
+> - **C** = propene
+> - **D** = 1-halopropane
+> 
+> Note on step 3:
+> 
+> - 1-halopropane is the minor product of HX addition to propene.
+> - By Markovnikov's rule, the major product is 2-halopropane (via the more stable secondary carbocation).
+> - The pathway in Fig. 5.2 requires anti-Markovnikov addition.
+> - In practice, propan-1-ol can be produced via other routes such as hydroboration.
+> 
+> Step 4 is nucleophilic substitution: the OH<sup>-</sup> ion displaces the halide from compound **D**, giving propan-1-ol. Aqueous (not ethanolic) NaOH or KOH is required as ethanolic conditions would favour elimination, regenerating propene.
+
+### Q2
+> **[mark-scheme]**
+> The reagents, conditions and equation for the one-step process (hydration) are:
+> 
+> - Steam / water vapour / H<sub>2</sub>O (g) **[1 mark]**
+> - Concentrated phosphoric acid / H<sub>3</sub>PO<sub>4</sub> catalyst
+> **OR**
+> Concentrated sulfuric acid / H<sub>2</sub>SO<sub>4</sub> catalyst **[1 mark]**
+> - CH<sub>3</sub>CH=CHCH<sub>3</sub> + H<sub>2</sub>O → CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub> **[1 mark]**
+
+> **[exam-tip]**
+> The one-step conversion of an alkene directly to an alcohol is hydration. It requires steam (not liquid water) and a strong acid catalyst such as phosphoric acid or sulfuric acid.
+> 
+> This reaction is also an example of electrophilic addition.
+> **[mark-scheme]**
+> The intermediate and reagents/conditions are:
+> 
+> - Intermediate: 2-bromobutane **[1 mark]**
+> - Step 1 reagent: hydrogen bromide / HBr **[1 mark]**
+> - Step 2 reagent: aqueous sodium hydroxide / NaOH (aq) **AND **heat under reflux
+> **OR**
+> Aqueous potassium hydroxide / KOH (aq) **AND **heat under reflux **[1 mark]**
+
+> **[exam-tip]**
+> Step 1 is electrophilic addition of HBr to but-2-ene. Because but-2-ene is a symmetrical alkene, there is only one possible product: 2-bromobutane.
+> 
+> Step 2 is nucleophilic substitution: aqueous NaOH (or KOH) replaces the Br with OH, giving butan-2-ol.
+> **[mark-scheme]**
+> Using but-1-ene gives a lower yield of butan-2-ol because:
+> 
+> - But-1-ene is an unsymmetrical alkene, so when the C=C breaks it can form a primary or a secondary carbocation intermediate **[1 mark]**
+> - This results in the formation of both butan-1-ol and butan-2-ol, reducing the yield of butan-2-ol **[1 mark]**
+
+> **[exam-tip]**
+> But-2-ene is a symmetrical alkene where the two carbons of the C=C are equivalent, so only one product is possible: butan-2-ol.
+> 
+> But-1-ene is unsymmetrical, so two different carbocation intermediates can form, giving a mixture of products. The yield of butan-2-ol is lower because some of the but-1-ene converts to butan-1-ol instead.
+Reaction with cold dilute acidified KMnO<sub>4</sub>:
+
+![Fully displayed formula of butane-2,3-diol, the product of cold dilute acidified KMnO4 with but-2-ene](assets/028-fully-displayed-formula-of-butane-2-3-diol-the-p.jpeg)
+
+**[1 mark]**
+
+Reaction with hot concentrated acidified KMnO<sub>4</sub>:
+
+![Fully displayed formula of ethanoic acid, two molecules formed from hot concentrated acidified KMnO4 with but-2-ene](assets/029-fully-displayed-formula-of-ethanoic-acid-two-mol.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct fully displayed formula of butane-2,3-diol (diol formed across the C=C)
+> 
+> 1 mark for correct fully displayed formula of ethanoic acid (both sides of but-2-ene give CH<sub>3</sub>COOH; only one type of product)
+
+> **[exam-tip]**
+> The reaction of an alkene with KMnO<sub>4</sub> depends on conditions:
+> 
+> Cold dilute acidified KMnO<sub>4</sub>:
+> 
+> - Adds two OH groups across the C=C to form a diol.
+> - Colour change: purple to colourless.
+> 
+> Hot concentrated acidified KMnO<sub>4</sub>:
+> 
+> - Cleaves the C=C completely.
+> - Each carbon of the double bond is oxidised to a carboxylic acid (if it carries a H) or CO<sub>2</sub> (if it is =CH<sub>2</sub>).
+> 
+> For but-2-ene (CH<sub>3</sub>CH=CHCH<sub>3</sub>), both carbons of the C=C carry a CH<sub>3</sub> group, so both oxidise to give ethanoic acid and only one organic product is formed.
+
+### Q3
+> **[mark-scheme]**
+> A test-tube reaction to distinguish between compounds **G** and **H** is:
+> 
+> - Reagent: acidified potassium dichromate(VI) / K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> / H<sup>+</sup> / Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> **[1 mark]**
+> - Compound **G** (secondary alcohol) turns the solution from orange to green
+> **AND**
+> Compound **H** (ketone) produces no colour change **[1 mark]**
+> 
+> (Acidified) potassium manganate(VII) solution going purple to colourless with **G** and showing no change with **H**
+
+> **[exam-tip]**
+> Compound **G** is cyclopentanol, a secondary alcohol. Compound **H** is cyclopentanone, a ketone.
+> 
+> Secondary alcohols are oxidised by acidified potassium dichromate(VI), turning the orange solution green. Ketones cannot be oxidised under these conditions, so the solution remains orange.
+> **[mark-scheme]**
+> A test-tube reaction to distinguish between compounds **I** and **J** is:
+> 
+> - Reagent: warm with aqueous silver nitrate / AgNO<sub>3</sub> (aq) **[1 mark]**
+> - Compound **J** (halogenoalkane) produces a white precipitate (silver chloride / AgCl)
+> **AND**
+> Compound **I** (saturated hydrocarbon) produces no precipitate **[1 mark]**
+
+> **[exam-tip]**
+> Compound **I** is methylcyclopentane, a saturated hydrocarbon. Compound **J** is (chloromethyl)cyclopentane, a halogenoalkane.
+> 
+> When warmed with aqueous silver nitrate, the C–Cl bond in **J** undergoes hydrolysis, releasing Cl<sup>-</sup> ions that precipitate as white silver chloride (AgCl). The saturated hydrocarbon **I** has no halogen and produces no precipitate.
+> 
+> Warming is needed to provide sufficient energy for hydrolysis of the C–Cl bond. State the colour and composition of the precipitate clearly: white AgCl.
+> **[mark-scheme]**
+> A test-tube reaction to distinguish between compounds **K** and **L** is:
+> 
+> Any **one** of the following pairs (1 mark for the reagent and 1 mark for the associated observation):
+> 
+> Pair 1
+> 
+> - Reagent: Tollens' reagent / ammoniacal silver nitrate
+> - Observations: Compound **K** (aldehyde / propanal) produces a silver mirror
+> **AND**
+> Compound **L** (carboxylic acid / propanoic acid) produces no reaction
+> 
+> Pair 2
+> 
+> - Reagent: Benedict's / Fehling's solution
+> - Observations: Compound **K** (aldehyde / propanal) produces a red / brick-red precipitate
+> **AND**
+> Compound **L** (carboxylic acid / propanoic acid) produces no reaction
+> 
+> Pair 3
+> 
+> - Reagent: Sodium carbonate / Na<sub>2</sub>CO<sub>3</sub> / sodium hydrogencarbonate / NaHCO<sub>3</sub>
+> - Observations: Compound **K** (aldehyde / propanal) produces no reaction
+> **AND**
+> Compound **L** (carboxylic acid / propanoic acid) produces effervescence / CO<sub>2</sub> / bubbles
+> 
+> **[2 marks]**
+
+> **[exam-tip]**
+> Compound **K** is propanal, an aldehyde. Compound **L** is propanoic acid, a carboxylic acid.
+> 
+> Aldehydes are reducing agents:
+> 
+> - Tollens' reagent is reduced to give a silver mirror
+> - Fehling's solution is reduced to give a red/brick-red precipitate.
+> - Carboxylic acids do not reduce these reagents.
+> 
+> Alternatively, sodium carbonate or sodium hydrogencarbonate reacts with the carboxylic acid (**L**) to produce CO<sub>2</sub> effervescence; the aldehyde (**K**) does not react. If using this reagent, the positive observation is for compound **L**, not compound **K**.
+
+### Q4
+> **[mark-scheme]**
+> The reagent and conditions required for reaction 1 are:
+> 
+> - Concentrated H<sub>2</sub>SO<sub>4</sub> / concentrated H<sub>3</sub>PO<sub>4</sub> **[1 mark]**
+> - Heat
+> **OR**
+> Pass vapour over hot Al<sub>2</sub>O<sub>3</sub> **[1 mark]**
+
+> **[exam-tip]**
+> Reaction 1 is the dehydration of butan-1-ol to give but-1-ene, which is an elimination reaction. It requires a dehydrating agent (concentrated H<sub>2</sub>SO<sub>4</sub> or H<sub>3</sub>PO<sub>4</sub>) and heat, or the vapour can be passed over hot Al<sub>2</sub>O<sub>3</sub>.
+> **[mark-scheme]**
+> i) The equation for reaction 2 is:
+> 
+> - C<sub>4</sub>H<sub>9</sub>OH + 2[O] → C<sub>3</sub>H<sub>7</sub>CO<sub>2</sub>H + H<sub>2</sub>O **[1 mark]**
+> 
+> ii) The reagents and conditions required for reaction 2 are:
+> 
+> - Reagent: sodium dichromate / Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>
+> **OR**
+> Potassium dichromate / K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> **[1 mark]**
+> - Conditions: H<sup>+</sup> / acidified
+> **AND**
+> Heat under reflux **[1 mark]**
+
+> **[exam-tip]**
+> Reaction 2 is the full oxidation of butan-1-ol (a primary alcohol) to butanoic acid (a carboxylic acid). Full oxidation requires heating under reflux. If distillation were used instead, the product would be the aldehyde (butanal), not the carboxylic acid.
+> **[mark-scheme]**
+> The structural formulae of **U** and **V** are:
+> 
+> Any **one** of the following pairs (1 mark for **U** and 1 mark for **V**):
+> 
+> Pair 1
+> 
+> - **U** = CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub>
+> - **V** = CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub>
+> 
+> Pair 2
+> 
+> - **U** = CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH
+> - **V** = CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br
+> 
+> **[2 marks]**
+> 
+> **U** and **V** must be consistent with each other (i.e. if **U** is the secondary alcohol, **V** must be the secondary bromoalkane).
+
+> **[exam-tip]**
+> But-1-ene is an unsymmetrical alkene. When it reacts with steam (electrophilic addition / hydration), two alcohols can form:
+> 
+> - Butan-2-ol: major product (via more stable secondary carbocation)
+> - Butan-1-ol: minor product (via less stable primary carbocation)
+> 
+> Whichever alcohol you choose for **U**, compound **V** is the corresponding bromoalkane formed by reaction of that alcohol with HBr.
+> **[mark-scheme]**
+> The reagent and conditions required for reaction 3 are:
+> 
+> - Reagent: KOH / NaOH **[1 mark]**
+> - Conditions: ethanol / alcoholic
+> **AND**
+> Heat / reflux **[1 mark]**
+
+> **[exam-tip]**
+> Reaction 3 is an elimination reaction: a hydrogen and a bromine atom are removed from compound **V** to reform but-1-ene (an alkene).
+> 
+> This requires a strong base (KOH or NaOH) dissolved in ethanol (not water as aqueous conditions would give nucleophilic substitution instead) and heat.
+
+### Q5
+> **[mark-scheme]**
+> The reagents and conditions required are:
+> 
+> i) Conversion of compound **A** to compound **B** (elimination):
+> 
+> - Potassium hydroxide / KOH / sodium hydroxide / NaOH **[1 mark]**
+> - Ethanol / ethanolic / alcoholic **[1 mark]**
+> - Heat / heat under reflux **[1 mark]**
+> 
+> ii) Conversion of compound **A** to compound **C** (nucleophilic substitution):
+> 
+> - Potassium cyanide / KCN **[1 mark]**
+> - Ethanol / ethanolic / alcoholic **[1 mark]**
+> - Heat / heat under reflux **[1 mark]**
+
+> **[exam-tip]**
+> The conversion of a halogenoalkane to an alkene (**A** to **B**) is an elimination reaction. It requires an alkoxide/hydroxide base dissolved in ethanol as the solvent, heated under reflux. Using aqueous conditions instead would give nucleophilic substitution to produce an alcohol, not the alkene.
+> 
+> The conversion of a halogenoalkane to a nitrile (**A** to **C**) is a nucleophilic substitution. The cyanide ion (CN<sup>-</sup>) from KCN acts as the nucleophile, displacing the halide. Ethanol is used as solvent and heat is applied.
+> **[mark-scheme]**
+> The systematic name of compound **C** is:
+> 
+> - Butanenitrile **[1 mark]**
+
+> **[exam-tip]**
+> When a cyanide ion (CN<sup>-</sup>) reacts with a halogenoalkane by nucleophilic substitution, the CN group adds one carbon to the chain. Compound **A** has three carbon atoms, so compound **C** has four carbons in total.
+> 
+> When naming a nitrile, count the CN carbon as part of the main chain. Butanenitrile has four carbons: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CN.
+i) The skeletal formula of compound **D** is:
+
+![Skeletal formula of propane-1,2-diol, showing a 3-carbon chain with OH groups on carbons 1 and 2](assets/035-skeletal-formula-of-propane-1-2-diol-showing-a-3.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct diol structure of compound **D** with OH groups on adjacent carbons
+
+ii) The skeletal formulae of compounds **E** and **F** are (in any order):
+
+![Skeletal formula of ethanoic acid](assets/036-skeletal-formula-of-ethanoic-acid.jpeg)
+
+![Structural formula of methanoic acid](assets/037-structural-formula-of-methanoic-acid.jpeg)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct skeletal formula of ethanoic acid
+> 
+> 1 mark for correct skeletal formula of methanoic acid (or CO<sub>2</sub> if methanoic acid is fully oxidised)
+
+> **[exam-tip]**
+> The reaction of an alkene with potassium manganate(VII) depends on the conditions used:
+> 
+> - Cold dilute acidified KMnO<sub>4</sub>: oxidises the C=C to form a diol (two OH groups added across the double bond). Colour change: purple to colourless.
+> - Hot concentrated acidified KMnO<sub>4</sub>: cleaves the C=C bond completely. Each carbon of the double bond is oxidised: a CH<sub>2</sub>= group gives methanoic acid (which may be further oxidised to CO<sub>2</sub> and H<sub>2</sub>O); a CH<sub>3</sub>CH= group gives ethanoic acid.
+> 
+> The actual products depend on what is bonded to each carbon of the C=C double bond in the starting alkene.
+
+### Q6
+> **[mark-scheme]**
+> The mechanisms are:
+> 
+> - Reaction **1**: electrophilic addition **[1 mark]**
+> - Reaction **3**: nucleophilic addition **[1 mark]**
+
+> **[exam-tip]**
+> Reaction 1 (propene → propan-2-ol) is hydration: an electrophile (H<sup>+</sup> from water) adds to the C=C bond.
+> 
+> Reaction 3 (propanone → 2-hydroxy-2-methylpropanenitrile) is nucleophilic addition: the CN<sup>-</sup> ion (a nucleophile) attacks the electron-deficient carbonyl carbon.
+> **[mark-scheme]**
+> The reagents and conditions are:
+> 
+> Reaction **1** (propene → propan-2-ol):
+> 
+> - Steam / H<sub>2</sub>O (g) **[1 mark]**
+> - Concentrated phosphoric acid / H<sub>3</sub>PO<sub>4</sub> / concentrated sulfuric acid / H<sub>2</sub>SO<sub>4</sub> (catalyst) **[1 mark]**
+> 
+> Reaction **2** (propan-2-ol → compound **G**, propanone):
+> 
+> - Acidified potassium dichromate / K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> / H<sup>+</sup>
+> **OR**
+> Acidified potassium manganate(VII) / KMnO<sub>4</sub> / H<sup>+</sup> **[1 mark]**
+> - Heat
+> **AND**
+> Reflux **[1 mark]**
+
+> **[exam-tip]**
+> Reaction 1 is hydration of propene. Steam (not liquid water) is required as the reagent, along with an acid catalyst.
+> 
+> Reaction 2 is oxidation of propan-2-ol (a secondary alcohol) to propanone (a ketone). Unlike primary alcohols, secondary alcohols can only be oxidised to ketones under these conditions.
+The completed mechanism for reaction **3** (nucleophilic addition of HCN to propanone) is:
+
+![Mechanism for nucleophilic addition of CN- to propanone showing: lone pair on CN- nucleophile, curly arrow from CN- lone pair to delta-positive carbonyl carbon, curly arrow from C=O bond to oxygen, negatively charged tetrahedral intermediate with O-, and final protonation by H+ to give 2-hydroxy-2-methylpropanenitrile](assets/038-mechanism-for-nucleophilic-addition-of-cn-to-pro.jpeg)
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct partial charges (δ+ on carbonyl C, δ- on carbonyl O) and lone pair shown on CN<sup>-</sup>
+> 
+> 1 mark for curly arrow from lone pair on CN<sup>-</sup> to δ+ carbon atom of C=O bond
+> 
+> 1 mark for curly arrow from C=O bond to O atom
+> 
+> 1 mark for curly arrow from lone pair on negatively charged O<sup>-</sup> intermediate to H<sup>+</sup> ion, giving the final product
+
+> **[exam-tip]**
+> The nucleophilic addition of HCN to a carbonyl compound is a two-step mechanism:
+> 
+> 1. The CN<sup>-</sup> ion (nucleophile) attacks the δ+ carbonyl carbon. The C=O bond breaks, with both electrons going to the oxygen, forming a negatively charged tetrahedral intermediate.
+> 2. The negatively charged oxygen is protonated by H<sup>+</sup> (from HCN, water, or dilute acid) to give the 2-hydroxynitrile product.
+> 
+> HCN is generated in situ from KCN or NaCN with dilute sulfuric acid. It is highly toxic.
+> **[mark-scheme]**
+> 2-hydroxy-2-methylpropanenitrile does not exhibit optical isomerism because:
+> 
+> - There is no chiral carbon / chiral centre; **[1 mark]**
+> - The central carbon bears two identical methyl groups (two of the four substituents are the same), so it does not have four different groups attached; **[1 mark]**
+
+> **[exam-tip]**
+> For optical isomerism to occur, a molecule must contain a chiral carbon (a carbon with four different atoms or groups attached).
+> 
+> It can help to draw out the structure and identify the main carbon chain. In nitriles, the CN carbon is the first carbon.
+> 
+> ![Structure showing a three‑carbon chain with OH, CH₃ and CN substituents labelled on carbons 1–3 in a stylised organic chemistry diagram](assets/039-structure-showing-a-three-carbon-chain-with-oh-c.jpeg)
+> 
+> In 2-hydroxy-2-methylpropanenitrile, the central carbon is bonded to: –OH, –CN, –CH<sub>3</sub>, and –CH<sub>3</sub>. Since two of the groups are identical (–CH<sub>3</sub>), this carbon is not chiral and optical isomers cannot form.
+
+### Q7
+> **[mark-scheme]**
+> The reagents and conditions required to convert butan-1-ol into 1-bromobutane are:
+> 
+> Any **one** of the following (1 mark for each point):
+> 
+> Set 1
+> 
+> - Reagents: sodium bromide / NaBr **AND** concentrated sulfuric acid / H<sub>2</sub>SO<sub>4</sub>
+> - Conditions: heat / heat under reflux
+> 
+> **OR**
+> 
+> Set 2
+> 
+> - Reagents: phosphorus tribromide / PBr<sub>3</sub>
+> - Conditions: added dropwise / room temperature
+> 
+> **[2 marks]**
+
+> **[exam-tip]**
+> Two reagent sets can convert butan-1-ol into 1-bromobutane:
+> 
+> 1. NaBr and concentrated H<sub>2</sub>SO<sub>4</sub> with heat — the acid generates HBr in situ from the NaBr, which reacts with the alcohol.
+> 2. PBr<sub>3</sub> added dropwise at room temperature — reacts directly with the alcohol.
+> 
+> Make sure your stated conditions are consistent with the reagents you give.
+> **[mark-scheme]**
+> The type of reaction and the systematic name of the alkene formed are:
+> 
+> - Elimination / dehydration **[1 mark]**
+> - But-1-ene **[1 mark]**
+
+> **[exam-tip]**
+> When a primary alcohol such as butan-1-ol is heated with concentrated sulfuric acid, an elimination reaction (also called dehydration) occurs. A water molecule is removed from the alcohol, and a C=C double bond forms.
+> 
+> Since the hydroxyl group is on carbon 1 of butan-1-ol, the only alkene that can form is but-1-ene.
+> **[mark-scheme]**
+> The major organic product is:
+> 
+> - 2-bromobutane **[1 mark]**
+
+> **[exam-tip]**
+> But-1-ene is an unsymmetrical alkene. When HBr adds across the double bond, two products form:
+> 
+> - 1-bromobutane (minor product, via primary carbocation intermediate)
+> - 2-bromobutane (major product, via more stable secondary carbocation intermediate)
+
+### Q8
+To determine the systematic name of compound **Y**:
+
+- Calculate the relative molecular mass:
+
+*M*<sub>r</sub> = $\frac{\mathrm{mass}}{\mathrm{moles}}$
+
+*M*<sub>r</sub> = $\frac{2.754}{0.0270}$
+
+*M*<sub>r</sub> = 102.0 g mol<sup>-1</sup> **[1 mark]**
+
+- Compound **Y** has 5 carbons
+- It is a carboxylic acid (oxidation product of a primary alcohol)
+- So, compound **Y** is:
+
+**pentanoic acid** **[1 mark]**
+
+> **[exam-tip]**
+> Start by calculating *M*<sub>r</sub>.
+> 
+> - With 5 carbons (60 g mol<sup>-1</sup>) accounted for, the remaining mass is 42 g mol<sup>-1</sup>.
+> - Testing with 2 oxygen atoms: 42 − 32 = 10 g mol<sup>-1</sup> of hydrogen, giving C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>
+> - This is consistent with a carboxylic acid.
+> 
+> Compound **X** is a primary alcohol (pentan-1-ol), which oxidises fully to the carboxylic acid (compound **Y**). A carboxylic acid has two oxygen atoms in the formula.
+> **[mark-scheme]**
+> The structural formula of compound **W** and identity of **Z** are:
+> 
+> - **W** = CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> **[1 mark]**
+> - Compound **Z** = H<sub>2</sub>O, formed by condensation reaction between compound **X** (pentan-1-ol) and compound **Y** (pentanoic acid); **[1 mark]**
+
+> **[exam-tip]**
+> Compound **W** is an ester formed from pentanoic acid (**Y**) and pentan-1-ol (**X**). Its systematic name is pentyl pentanoate.
+> 
+> The condensation reaction between an alcohol and a carboxylic acid always produces an ester and water. The water molecule is lost from the −OH of the acid and the H of the alcohol's −OH group.
+> **[mark-scheme]**
+> The homologous series and conditions are:
+> 
+> - Aldehyde / pentanal **[1 mark]**
+> - Distil the product immediately as it forms / use distillation conditions so it is removed from the reaction mixture before further oxidation can occur **[1 mark]**
+
+> **[exam-tip]**
+> A primary alcohol oxidises in two stages: first to an aldehyde, then to a carboxylic acid. To stop at the aldehyde stage, the aldehyde must be removed from the reaction mixture as soon as it forms. This is achieved by distilling it off immediately.
+> 
+> Under reflux conditions, the aldehyde stays in the flask and is further oxidised to the carboxylic acid. Using distillation instead of reflux prevents this.
+The skeletal formula and systematic name are:
+
+![2-methylbutan-2-ol skeletal formula](assets/040-2-methylbutan-2-ol-skeletal-formula.png)
+
+2-methylbutan-2-ol
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the skeletal formula of 2-methylbutan-2-ol
+> 
+> 1 mark for the name: 2-methylbutan-2-ol
+
+> **[exam-tip]**
+> For a C<sub>5</sub> alcohol to not react with acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, it must be a tertiary alcohol. Only 2-methylbutan-2-ol fits: the central carbon has an OH group and is bonded to three other carbon atoms (no H on the OH-bearing carbon).
+> 
+> Primary and secondary alcohols both react with acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> to give aldehydes/carboxylic acids or ketones respectively. Tertiary alcohols cannot be oxidised in this way because there is no H atom on the carbon bearing the OH group.
+
+### Q9
+> **[mark-scheme]**
+> The types of reaction are:
+> 
+> - Step 1: nucleophilic substitution **[1 mark]**
+> - Step 2: oxidation **[1 mark]**
+
+> **[exam-tip]**
+> In step 1, 1-chlorobutane reacts with NaOH (aq). The hydroxide ion is a nucleophile that displaces the chloride ion, forming butan-1-ol (compound **G**).
+> 
+> In step 2, the acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> oxidises butan-1-ol. The reagents in step 2 are the clue: K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>/H<sub>2</sub>SO<sub>4</sub> is an oxidising agent used for alcohol oxidation.
+> **[mark-scheme]**
+> The systematic name of compound **H** is:
+> 
+> - Butanoic acid **[1 mark]**
+
+> **[exam-tip]**
+> Compound **G** is butan-1-ol (a primary alcohol). When a primary alcohol is heated under reflux with acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, full oxidation occurs and a carboxylic acid is formed. If distillation were used instead, the product would be the aldehyde (butanal).
+The skeletal formula of the alkene is:
+
+![but-2-ene skeletal formula](assets/041-but-2-ene-skeletal-formula.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the skeletal formula of but-2-ene
+> 
+> The reagent is:
+> 
+> - Hydrogen chloride / HCl **[1 mark]**
+
+> **[exam-tip]**
+> Due to Markovnikov's rule, when HCl adds to but-1-ene, the major product is 2-chlorobutane (formed via the more stable secondary carbocation). 1-chlorobutane is only the minor product.
+> 
+> But-2-ene cannot give 1-chlorobutane at all. Addition of HCl to but-2-ene only gives 2-chlorobutane.
+> **[mark-scheme]**
+> The homologous series is:
+> 
+> - Ketone (rather than carboxylic acid) **[1 mark]**
+> 
+> Explanation:
+> 
+> - 2-chlorobutane undergoes nucleophilic substitution to form a secondary alcohol / butan-2-ol, which is oxidised to a ketone when heated under reflux with acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> **[1 mark]**
+
+> **[exam-tip]**
+> The key distinction:
+> 
+> - Primary alcohols: oxidised to aldehydes (distillation) or carboxylic acids (reflux)
+> - Secondary alcohols: oxidised to ketones (whether distillation or reflux)
+> - Tertiary alcohols: not oxidised by acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>
+> 
+> Since 2-chlorobutane gives the secondary alcohol butan-2-ol in step 1, the product of step 2 is butanone (a ketone), not a carboxylic acid.
+
+### Q10
+The skeletal formulae of compounds **B**, **C** and **D** are:
+
+| Compound** B** | Compound **C** | Compound **D** |
+|---|---|---|
+| ![Skeletal formula of pent-3-en-2-ol, the product of LiAlH4 reduction of the ketone group in compound A, with the C=C double bond retained](assets/043-skeletal-formula-of-pent-3-en-2-ol-the-product-o.jpeg) | ![Skeletal formula of pentan-2-one, the product of H2 and Ni hydrogenation of the C=C double bond in compound A, with the ketone group retained](assets/044-skeletal-formula-of-pentan-2-one-the-product-of-.jpeg) | ![Skeletal formula of the diol product formed by cold dilute acidified KMnO4 adding OH groups across the C=C double bond of compound A](assets/045-skeletal-formula-of-the-diol-product-formed-by-c.jpeg) |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct skeletal formula of compound **B** (pent-3-en-2-ol)
+> 
+> 1 mark for correct skeletal formula of compound **C** (pentan-2-one)
+> 
+> 1 mark for correct skeletal formula of compound **D** (3,4-dihydroxypentan-2-one)
+
+> **[exam-tip]**
+> The key to this question is knowing which functional group each reagent attacks:
+> 
+> - LiAlH<sub>4</sub>:
+> 
+>   - Reduces C=O (ketone/aldehyde) to C-OH
+>   - Does **not** react with C=C
+> - H<sub>2</sub>/Ni:
+> 
+>   - Reduces C=C (alkene)
+>   - Does **not** normally reduce C=O under these conditions
+> - Cold dilute acidified KMnO<sub>4</sub>:
+> 
+>   - Oxidises C=C to form a diol
+>   - Does **not** cleave the bond
+> **[mark-scheme]**
+> The colour change is:
+> 
+> - Purple / violet to colourless **[1 mark]**
+
+> **[exam-tip]**
+> Potassium manganate(VII) (KMnO<sub>4</sub>) is purple/violet in solution. When it oxidises an alkene, the Mn is reduced from +7 to +2 (Mn<sup>2+</sup>), which is colourless in dilute acidic solution. This decolourisation is the test for the presence of a C=C double bond.
+The yellow precipitate is:
+
+- Triiodomethane / CHI<sub>3</sub> / iodoform **[1 mark]**
+
+The skeletal formula of the organic ion is:
+
+![Skeletal formula of the but-2-enoate carboxylate organic ion, the second product of the iodoform reaction of compound A with alkaline I2 (aq)](assets/046-skeletal-formula-of-the-but-2-enoate-carboxylate.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct skeletal formula of the organic carboxylate ion
+
+> **[exam-tip]**
+> The iodoform reaction is a specific test for the CH<sub>3</sub>CO- group (methyl ketone). It produces two products:
+> 
+> - A yellow solid precipitate of triiodomethane (CHI<sub>3</sub>)
+> - The organic carboxylate ion (from the rest of the molecule)
+> 
+> Note: CHI<sub>3</sub> has only one carbon atom and cannot be drawn as a skeletal formula, so it must be identified by name or molecular formula.
+> **[mark-scheme]**
+> The systematic name of compound **A** is:
+> 
+> - Pent-3-en-2-one
+> **OR**
+> 3-penten-2-one; **[1 mark]**
+
+> **[exam-tip]**
+> Compound **A** has 5 carbons in the main chain, so uses the prefix 'pent'.
+> 
+> ![Skeletal formula of a five‑carbon chain showing a carbonyl at carbon 2 and a double bond between carbons 3 and 4, with carbons numbered 1 to 5.](assets/047-skeletal-formula-of-a-five-carbon-chain-showing-.jpeg)
+> 
+> The ketone group (C=O) is on carbon 2, giving the suffix '2-one'. The C=C double bond is on carbon 3, giving '3-en' in the name.
+
+### Q11
+> **[mark-scheme]**
+> i) The name of the mechanism is:
+> 
+> Electrophilic addition **[1 mark]**
+
+ii) The completed mechanism is:
+
+![Mechanism for electrophilic addition of HBr to 1-methylcyclohexene, showing curly arrows from C=C to H, partial charges on H-Br, tertiary carbocation intermediate labelled with positive charge, and major product 1-bromo-1-methylcyclohexane](assets/048-mechanism-for-electrophilic-addition-of-hbr-to-1.jpeg)
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for curly arrow from C=C bond to H in H-Br **AND** δ+ shown on H and δ- shown on Br
+> 
+> 1 mark for curly arrow from H-Br bond to Br atom
+> 
+> 1 mark for tertiary carbocation correctly drawn and labelled with positive charge on carbon
+> 
+> 1 mark for curly arrow from lone pair on :Br<sup>-</sup> to carbocation **AND** correct skeletal structure of 1-bromo-1-methylcyclohexane drawn as major product
+
+> **[exam-tip]**
+> The methyl substituent on compound **E** (1-methylcyclohexene) means the addition of H-Br can generate either a tertiary or a secondary carbocation intermediate. The major product forms via the more stable carbocation.
+> 
+> For full marks on a mechanism, always show:
+> 
+> - The bond dipole on the electrophile (δ+ on H, δ- on Br)
+> - Each curly arrow starting from a bond or a lone pair, ending at the atom being attacked
+> - The charge on any ionic intermediate
+> **[mark-scheme]**
+> A major and a minor product are produced because:
+> 
+> - The reaction proceeds via a tertiary carbocation intermediate (giving the major product)
+> **OR**
+> A secondary carbocation intermediate (giving the minor product) **[1 mark]**
+> - The tertiary carbocation is more stable than the secondary carbocation, due to the greater electron-donating effect of three alkyl groups delocalising the positive charge **[1 mark]**
+
+> **[exam-tip]**
+> This is an application of Markovnikov's rule. Because one carbon of the C=C double bond in compound **E** carries a methyl group (and is part of the ring), addition of H<sup>+</sup> to that carbon would give a secondary carbocation, while addition to the other carbon gives a tertiary carbocation.
+> 
+> Tertiary carbocations are more stable because three alkyl groups donate electron density towards the positive charge. The more stable intermediate forms more readily, so the tertiary carbocation pathway is favoured and 1-bromo-1-methylcyclohexane is the major product.
+i) Possible structures for compound **D** are:
+
+![1-methylcyclohexanol and 2-methylcyclohexanol skeletal formulae](assets/049-1-methylcyclohexanol-and-2-methylcyclohexanol-sk.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the skeletal formula of 1-methylcyclohexanol **OR** 2-methylcyclohexanol
+
+> **[mark-scheme]**
+> ii) The reagents and conditions required for step 1 are:
+> 
+> - Concentrated phosphoric acid / H<sub>3</sub>PO<sub>4</sub>
+> **OR**
+> Concentrated sulfuric acid / H<sub>2</sub>SO<sub>4</sub>
+> **OR**
+> Aluminium oxide / Al<sub>2</sub>O<sub>3</sub> **[1 mark]**
+> - Heat **[1 mark]**
+
+> **[exam-tip]**
+> Step 1 is a dehydration (elimination) reaction, where compound **D** (a methylcyclohexanol) loses water to form compound **E** (1-methylcyclohexene).
+> 
+> The dehydrating agent can be concentrated H<sub>3</sub>PO<sub>4</sub>, concentrated H<sub>2</sub>SO<sub>4</sub>, or hot Al<sub>2</sub>O<sub>3</sub>. Make sure your conditions match the reagent given and that heat is included.

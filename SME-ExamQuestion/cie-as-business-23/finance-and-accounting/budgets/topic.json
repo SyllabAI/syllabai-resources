@@ -1,0 +1,242 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:32:51Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/business/cie/23/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "business",
+  "exam_code": "9609",
+  "sme_course_id": "crs_Dcg88t8tynSpGy2T",
+  "syllabus_version": "2022",
+  "sme_alias_path": "23",
+  "course_name": "Cambridge (CIE) AS Business"
+ },
+ "section": {
+  "slug": "finance-and-accounting",
+  "name": "5. Finance & Accounting"
+ },
+ "topic": {
+  "id": "top_fvZw8rr4k6npkZ4f",
+  "slug": "budgets",
+  "name": "Budgets",
+  "order": 4
+ },
+ "subtopics": [
+  {
+   "slug": "using-budgets-effectively",
+   "name": "Using Budgets Effectively",
+   "revision_note_id": "rn_fZHdbFdjtChpk3Y5"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_kvj6B74jFMX4cfXf",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/as/business/cie/23/topic-questions/finance-and-accounting/budgets/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 4,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_ssQwdC5qBW8s5TC4",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_8kzm7nwNM73zWdDZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "May/June 2024",
+      "number": "23",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Yh4pS8Qnnb4NZY4P",
+      "spcpt_tvBZWjGwzsDBT984"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Recruitment Process (RP)**\n> \n> RP is a private limited company based in country Z. RP is an employment agency that operates in a dynamic business environment. To survive in the market RP must be efficient and maintain a good reputation. RP uses social media to attract customers and relies on word-of-mouth recommendations. RP has recently won an award for its diversity and equality practices.\n> \n> RP's customers provide details of the roles and number of employees required. RP quotes a price to its customer and then agrees a contract to provide its services at the price quoted.\n> \n> Ray, Managing Director, has asked Adjil, Finance Director, to provide a budget breakdown of a recent customer contract. RP's staff are specialist recruiters who find the appropriate employees for each job role.\n> \n> **Table 1.1 RP's budget for a recent customer contract, March 2024**\n> \n> | Job role | Number of employees required | Specialist recruiters required | Cost per specialist recruiter (\\$000) | Total cost (\\$000) |\n> |---|---|---|---|---|\n> | Warehouse | 70 | 1 | 100 | 100 |\n> | Sales | 225 | 3 | 120 | 360 |\n> | Technology | 145 | 3 | 140 | 420 |\n> | Management | 10 | 2 | 190 | 380 |\n> | **Total** | **450** |   |   | **1260** |\n> \n> Adjil noted that the actual cost per employee recruited showed an adverse variance of \\$500.\n> \n> Ray is concerned that the budget does not accurately show the costs to RP. Ray thinks this is because of inefficient practices in the recruitment process.\n\nRefer to Table 1.1 and other information. Calculate RP's actual cost per hire for the customer contract in March 2024.",
+     "solution_md": "> **[mark-scheme]**\n> | Marks | Award for |\n> |---|---|\n> | **3** | Correct answer **\\$3300** — units not required |\n> | **2** | Two correct stages of calculation, OR incorrect answer with one mistake (OFR for final stage) |\n> | **1** | Correct formula OR one correct calculation stage |\n> | **0** | No creditable content |\n> \n> **Indicative content**\n> \n> - **Formula**: Budgeted cost per hire = Total cost / Total hires **[1 mark]**\n> - **Budgeted cost per hire** = \\$1 260 000 / 450 = **\\$2800** **[1 mark]**\n> - **Actual cost per hire** = Budgeted + adverse variance = \\$2800 + \\$500 = **\\$3300** **[1 mark OFR]**\n> \n> *Alternative phrasing*: 1260 / 450 = 2.8 (\\$000), then 2.8 + 0.5 = 3.3 (\\$000) = \\$3300\n> \n> **Own figure rule (OFR)** applies.\n> \n> Accept all valid responses\n\n> **[exam-tip]**\n> Two-step process: (1) divide total budgeted cost by total hires (the *budgeted* cost per hire), (2) ADD the adverse variance of \\$500 to get *actual* cost per hire. Adverse = costs went UP from budget, so you add. Watch the units: Table 1.1 totals are in \\$000s, so 1260 / 450 = 2.8 in thousands = \\$2800. Don't forget to add \\$500 — forgetting it is the most common slip."
+    },
+    {
+     "id": "qstnprt_dstXP35zW2FV66p4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "May/June 2024",
+      "number": "23",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_tHGX29nKMyPf2b4w",
+      "spcpt_PhwzKXch6sY2gh8c"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Recruitment Process (RP)**\n> \n> RP is a private limited company based in country Z. RP is an employment agency that operates in a dynamic business environment. To survive in the market RP must be efficient and maintain a good reputation. RP uses social media to attract customers and relies on word-of-mouth recommendations. RP has recently won an award for its diversity and equality practices.\n> \n> RP's customers provide details of the roles and number of employees required. RP quotes a price to its customer and then agrees a contract to provide its services at the price quoted.\n> \n> Ray, Managing Director, has asked Adjil, Finance Director, to provide a budget breakdown of a recent customer contract. RP's staff are specialist recruiters who find the appropriate employees for each job role.\n> \n> **Table 1.1 RP's budget for a recent customer contract, March 2024**\n> \n> | Job role | Number of employees required | Specialist recruiters required | Cost per specialist recruiter (\\$000) | Total cost (\\$000) |\n> |---|---|---|---|---|\n> | Warehouse | 70 | 1 | 100 | 100 |\n> | Sales | 225 | 3 | 120 | 360 |\n> | Technology | 145 | 3 | 140 | 420 |\n> | Management | 10 | 2 | 190 | 380 |\n> | **Total** | **450** |   |   | **1260** |\n> \n> Adjil noted that the actual cost per employee recruited showed an adverse variance of \\$500.\n> \n> Ray is concerned that the budget does not accurately show the costs to RP. Ray thinks this is because of inefficient practices in the recruitment process.\n\nExplain **one** benefit to RP of using a budget.",
+     "solution_md": "> **[mark-scheme]**\n> | Marks | Knowledge & Application |\n> |---|---|\n> | **3** | Knowledge of a benefit of a budget + explanation + applied to RP |\n> | **2** | Knowledge + explanation, OR knowledge + applied to RP |\n> | **1** | Knowledge of a benefit of a budget only |\n> | **0** | No creditable response |\n> \n> **Indicative content** — *AO1 Knowledge and understanding*\n> \n> Benefits of using a budget:\n> \n> - Can plan for the future / forecast revenue / profit / costs\n> - Allocate resources\n> - Monitor performance\n> - Improve decision making\n> \n> **AO2 Application** — *explanation of the benefit*\n> \n> - Can use the budget to price work done for other businesses\n> - Can see variance once work is completed / improve future contract pricing\n> \n> **Context applied to RP**\n> \n> - Use of Table 1.1 (reference to any row / numbers / costs)\n> - OFR from answer to Q1(b)(i)\n> - Adverse variance of \\$500\n> - Concerns that budget is not accurate\n> \n> Accept all valid responses\n\n> **[exam-tip]**\n> Pick one benefit (planning, monitoring, control, pricing) and apply to RP's contract pricing. The strongest angle: 'RP quotes a price to customers before agreeing the contract — a budget lets RP set a price that covers all four job-role costs in Table 1.1 plus a margin'. Variances (the \\$500 adverse) let RP learn for the next contract. Don't drift into disadvantages."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FpFMJD4n8SgbWCTJ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_jZQZCHPPgStBbtN5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "May/June 2024",
+      "number": "22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Yh4pS8Qnnb4NZY4P",
+      "spcpt_tvBZWjGwzsDBT984"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Post Scent (PS)**\n> \n> PS is a private limited company operating in country H. It sells perfume for men and women using its own website. PS purchases the perfume in large quantities from various manufacturers and then sells it in smaller quantities to its customers. Most of the perfumes are sold in glass bottles.\n> \n> PS has two main ways in which it sells perfume:\n> \n> - A website where customers can purchase a range of perfumes. The perfumes are priced to be lower than high street competitors.\n> - A subscription service where customers pay a monthly fee for a mystery perfume to be delivered each month.\n> \n> All of PS's products are delivered to customers' homes using the postal service. The packages can be left in a mailbox or in a safe place outside of the home. PS has an aim to improve the sustainability of its operations.\n> \n> PS uses incremental budgeting. Table 1.1 shows the budgeted and actual cost and revenue data for 2023.\n> \n> **Table 1.1 Budgeted and actual cost and revenue data for 2023 (\\$000)**\n> \n> | Item | Budgeted | Actual | Variance |\n> |---|---|---|---|\n> | Revenue | 500 | 600 | **x** |\n> | Direct costs | 300 | 350 | **y** |\n> | Indirect costs | 150 | 125 | **z** |\n> \n> The directors of PS have decided that the business needs a Marketing Manager. The role of the Marketing Manager will be:\n> \n> - to plan the recruitment and training of a new sales team\n> - to organise the production of digital promotions\n> - to advise the Board of Directors on changes to the PS product portfolio.\n> \n> The directors have shortlisted five suitable applicants and plan to invite them all to an assessment centre as part of the recruitment process.\n\nRefer to Table 1.1. Calculate the variances in 2023 (**x**, **y** and **z**) and state whether each variance is favourable or adverse.",
+     "solution_md": "> **[mark-scheme]**\n> | Item | Budgeted (\\$000) | Actual (\\$000) | Variance | F / A |\n> |---|---|---|---|---|\n> | Revenue | 500 | 600 | **100** | **Favourable (F)** |\n> | Direct costs | 300 | 350 | **50** | **Adverse (A)** |\n> | Indirect costs | 150 | 125 | **25** | **Favourable (F)** |\n> \n> **1 mark for each correctly calculated variance** (including correct F / A label).\n> \n> - **x** = 100 F **[1 mark]**\n> - **y** = 50 A **[1 mark]**\n> - **z** = 25 F **[1 mark]**\n> \n> Ignore + / − signs. Allow 'unfavourable' instead of 'adverse'.\n> \n> Accept all valid responses\n\n> **[exam-tip]**\n> F / A logic: revenue ABOVE budget is favourable; costs ABOVE budget are adverse (you spent more than planned); costs BELOW budget are favourable (you saved). Don't lose easy marks by forgetting to label F / A — the mark is for the calculation AND the label together."
+    },
+    {
+     "id": "qstnprt_Txp8pNymQtSYkv78",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "May/June 2024",
+      "number": "22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_tHGX29nKMyPf2b4w",
+      "spcpt_rkj8ySdMtxRCPcDs"
+     ],
+     "part_tier": null,
+     "problem_md": "> **[case-study]**\n> **Post Scent (PS)**\n> \n> PS is a private limited company operating in country H. It sells perfume for men and women using its own website. PS purchases the perfume in large quantities from various manufacturers and then sells it in smaller quantities to its customers. Most of the perfumes are sold in glass bottles.\n> \n> PS has two main ways in which it sells perfume:\n> \n> - A website where customers can purchase a range of perfumes. The perfumes are priced to be lower than high street competitors.\n> - A subscription service where customers pay a monthly fee for a mystery perfume to be delivered each month.\n> \n> All of PS's products are delivered to customers' homes using the postal service. The packages can be left in a mailbox or in a safe place outside of the home. PS has an aim to improve the sustainability of its operations.\n> \n> PS uses incremental budgeting. Table 1.1 shows the budgeted and actual cost and revenue data for 2023.\n> \n> **Table 1.1 Budgeted and actual cost and revenue data for 2023 (\\$000)**\n> \n> | Item | Budgeted | Actual | Variance |\n> |---|---|---|---|\n> | Revenue | 500 | 600 | **x** |\n> | Direct costs | 300 | 350 | **y** |\n> | Indirect costs | 150 | 125 | **z** |\n> \n> The directors of PS have decided that the business needs a Marketing Manager. The role of the Marketing Manager will be:\n> \n> - to plan the recruitment and training of a new sales team\n> - to organise the production of digital promotions\n> - to advise the Board of Directors on changes to the PS product portfolio.\n> \n> The directors have shortlisted five suitable applicants and plan to invite them all to an assessment centre as part of the recruitment process.\n\nExplain **one** benefit to PS of using incremental budgeting.",
+     "solution_md": "> **[mark-scheme]**\n> | Marks | Knowledge & Application |\n> |---|---|\n> | **3** | Knowledge of a benefit of incremental budgeting + explanation + applied to PS |\n> | **2** | Knowledge + explanation, OR knowledge + applied to PS |\n> | **1** | Knowledge of a benefit of incremental budgeting only |\n> | **0** | No creditable response |\n> \n> **Indicative content** — *AO1 Knowledge and understanding*\n> \n> Must be about incremental budgeting (as opposed to budgeting in general). Benefits include:\n> \n> - Simplicity / easy to adjust\n> - Speed (quicker)\n> - Consistency\n> - Avoids conflict between managers\n> - Realistic\n> - Allows business to respond to changes\n> \n> **AO2 Application** — *explanation of the benefit*\n> \n> - Simplicity — by adding a small amount to the previous time period, this avoids complicated preparations\n> - Speed (quicker) — reduces the time needed to prepare a business's budgets\n> - Consistency — each budget uses the previous as a base, so there is a consistent approach every time\n> - Avoids conflict between managers — due to the consistent approach\n> - Realistic — because it is based on previous data\n> \n> **Context applied to PS**\n> \n> - Use of Table 1.1 (each budget has a variance)\n> - OFR from answer to Q1(b)(i)\n> - PS sells through its own website\n> - Web sales and subscription available\n> - PS uses the postal service\n> - Aim to improve the sustainability of its operations\n> - New Marketing Manager being recruited\n> \n> Accept all valid responses\n\n> **[exam-tip]**\n> Stay anchored on INCREMENTAL budgeting (adds a small amount to last year's figure) — not budgeting in general. Pick speed, simplicity, or consistency, then apply to PS: e.g. 'PS's revenue grew by \\$100 000 in 2023, so adding a similar increment for 2024 is quick, freeing the Marketing Manager's time for digital promotions'. 'Budgeting is useful' alone scores zero."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wQdCr2756NMtKTjd",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_MXX3ZJjBh2nGYrHx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": "May/June 2024",
+      "number": "11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZPcdZxjWCYvzZpMX",
+      "spcpt_tHGX29nKMyPf2b4w",
+      "spcpt_PhwzKXch6sY2gh8c"
+     ],
+     "part_tier": null,
+     "problem_md": "Evaluate whether setting budgets is important to the success of a farming business.",
+     "solution_md": "> **[mark-scheme]**\n> | Level | AO1 Knowledge and understanding (2 marks) | AO2 Application (2 marks) | AO3 Analysis (2 marks) | AO4 Evaluation (6 marks) |\n> |---|---|---|---|---|\n> | **3** |   |   |   | **5–6 marks — Developed evaluation in context**: developed judgement / conclusion in the business context; developed evaluative comments which balance some key arguments in context |\n> | **2** | **2 marks**: developed knowledge of relevant key term(s) / factor(s) | **2 marks**: developed application of relevant point(s) to the business context | **2 marks**: developed analysis identifying connections between causes, impacts and / or consequences | **3–4 marks — Developed evaluation**: developed judgement / conclusion; developed evaluative comments which balance some key arguments |\n> | **1** | **1 mark**: limited knowledge | **1 mark**: limited application | **1 mark**: limited analysis | **1–2 marks — Limited evaluation**: judgement with limited supporting evidence; an attempt is made to balance the arguments |\n> | **0** | No creditable response | No creditable response | No creditable response | No creditable response |\n> \n> **Indicative content** — *AO1 Knowledge and understanding*\n> \n> - Budgets — role and purpose\n> - Variance from the budget\n> - Business factors which may be important to success\n> \n> **AO2 Application** (farming)\n> \n> - Farming items — arable, crops, fruit, livestock, cattle, dairy, sheep, chicken, fertiliser, farm machinery\n> \n> **AO3 Analysis**\n> \n> - Budgets encourage forward thinking / planning so can plan for future financial needs\n> - Provide discipline and a framework for planning and control\n> - Many farmers unlikely to have financial knowledge of setting budgets but are still successful due to experience\n> - Farming businesses may set budgets, but this may be informal as part of their normal seasonal planning\n> - A farm may operate for survival and consider budgeting irrelevant, e.g. small subsistence farm\n> - Profit-driven farm may see budgets as essential for achieving profit\n> - External conditions are often unpredictable in farming making budgeting difficult\n> - Even if variances are monitored, natural conditions may make changes to budget impossible or difficult\n> - May give stakeholders of large commercial farms the profit they judge success by\n> \n> **AO4 Evaluation**\n> \n> A judgement / conclusion is made as to the importance of budgets for the success of a farming business. Possible evaluative points:\n> \n> - Effectiveness of budget may only be seen at the end of the trading period, which can be a long time in some types of farming\n> - How is success measured — survival / security for family members / better quality of produce / increased number of customers / increased revenue / amount of profit / ability to compete / market share / expansion / improved reputation?\n> - It is meaningless to set budgets if the information included in them is badly researched or recorded — does the business have suitable employees and experience to produce budgets correctly?\n> - Is the success of a farming business, especially a small one, more dependent on the experience of farming rather than knowledge of finance and budgeting?\n> \n> **Evaluation mark band guidance**\n> \n> - **Eval 6** — developed judgement / conclusion made in context (farming business) **[6 marks]**\n> - **Eval 5** — developed evaluative comments given in context **[5 marks]**\n> - **Eval 4** — developed judgement / conclusion made, not in context **[4 marks]**\n> - **Eval 3** — developed evaluative comments, not in context **[3 marks]**\n> - **Eval 2** — judgement / conclusion with little supporting evidence, not in context **[2 marks]**\n> - **Eval 1** — an attempt is made to balance arguments **[1 mark]**\n> - **Eval 0** — no evaluation\n> \n> Accept all valid responses\n\n> **[exam-tip]**\n> Farming is the key context twist — weather, harvest timing and livestock disease make outcomes hard to forecast, undermining budget accuracy. Argue budgets are important for large commercial farms (profit-driven, multiple stakeholders) but less so for subsistence / family farms (experience-driven). Always name 'farming' in your judgement to secure Eval 5–6."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2pMZdS3VKkk9894b",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_yjc9msY9wVjFRxBq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "Paper 1",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_tHGX29nKMyPf2b4w"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term ‘zero budgeting’.",
+     "solution_md": "> **[mark-scheme]**\n> AO1 out of 2 marks.\n> \n> **Indicative content **\n> \n> Responses may include:\n> \n> **AO1 Knowledge and understanding **\n> \n> - An approach to budgeting that sets budgets to zero each year – not from the current year’s levels.\n> - Requires budget holders to justify their budgets each year – in order to gain financial resources.\n> \n> Accept all valid responses."
+    },
+    {
+     "id": "qstnprt_zXm9fmDWvkd7GsHF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "Paper 1",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PhwzKXch6sY2gh8c"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain **one **benefit to a business of using budgets.",
+     "solution_md": "> **[mark-scheme]**\n> AO1 out of 1 mark. \n> AO2 out of 2 marks.\n> \n> **Indicative content **\n> \n> Responses may include:\n> \n> **AO1 Knowledge and understanding **\n> \n> - A budget is a detailed financial plan for the future.\n> - Any benefit of using budgets, e.g. allocating resources, assessing performance, giving managers authority.\n> \n> **AO2 Application **\n> \n> - Budgets are set for both sales revenue and business costs – allowing a business to create and monitor profit centres and cost centres.\n> - Budgets require budget holders to consider their future financial requirements – and to set realistic financial targets.\n> - A system of budgets facilitates financial performance measurement – and increases budget holder accountability.\n> - Budgets require careful financial planning – that should lead to a more efficient allocation of resources.\n> - Budgets may well serve to motivate budget/profit and cost centre managers – creating an incentive to perform.\n> - Budgets throughout a business may encourage co-operation and co-ordination of business activities – helping to avoid conflict.\n> - Budgets are a measure of control – and allow monitoring to provide financial discipline within a business.\n> - Budgets may indicate the need for change – by signalling the unrealistic nature of financial plans in the light of changed situations.\n> - Budgets allow for the use of variance analysis – which indicate major areas for management action.\n> \n> Accept all valid responses."
+    }
+   ]
+  }
+ ]
+}

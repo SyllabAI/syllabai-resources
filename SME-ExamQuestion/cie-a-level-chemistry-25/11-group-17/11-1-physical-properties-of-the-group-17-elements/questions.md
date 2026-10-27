@@ -1,6 +1,6 @@
 # Exam Questions — Physical Properties of the Group 17 Elements
 **11. Group 17** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 11 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 14 questions across 2 sets
 
 
 ## Multiple Choice Questions (11 questions)
@@ -115,3 +115,99 @@ Which row describes the trends in the strengths of the forces between molecules 
 | **B** | decrease | increase |
 | **C** | increase | decrease |
 | **D** | increase | increase |
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 7 marks
+
+**Q1** [3 marks]
+
+State and explain the trend in the boiling points of the halogens from fluorine to iodine.
+
+trend:
+
+explanation:
+
+**Q1** [2 marks]
+
+The bond enthalpies of the halogens generally decrease down the group as shown in Table 3.1.
+
+**Table 3.1**
+
+| **Halogen** | **Bond enthalpy / kJ mol**<sup>**-1**</sup> |
+|---|---|
+| F–F | 159 |
+| Cl–Cl | 242 |
+| Br–Br | 193 |
+| I–I | 151 |
+
+State and explain the deviation in this trend.
+
+deviation:
+
+explanation:
+
+**Q1** [2 marks]
+
+Chlorine is a strong oxidising agent.
+
+Construct the simplest ionic equation for the reaction between chlorine and aqueous sodium iodide. State what is observed when this reaction occurs.
+
+equation:
+
+observation:
+
+### Q2 — medium — 9 marks
+
+**Q2** [3 marks]
+
+The elements of Group 17 of the Periodic Table show trends in their properties.
+
+i) Complete Table 2.1, stating the colour of each element in its state at room temperature.
+
+[1]
+
+**Table 2.1**
+
+| **Halogen** | **Boiling point / °C** | **Colour** |
+|---|---|---|
+| Chlorine | −36 |   |
+| Bromine | 59 |   |
+| Iodine | 184 |   |
+
+ii) Explain why the boiling points of the halogens increase from chlorine to iodine.
+
+[2]
+
+**Q2** [1 mark]
+
+State the full electronic configuration of bromine.
+
+**Q2** [3 marks]
+
+Explain why bromine is a liquid at room temperature, but fluorine and chlorine are gases.
+
+**Q2** [2 marks]
+
+The bond enthalpy of the halogen molecules generally decreases down Group 17. Explain why the bond enthalpy of F<sub>2</sub> is lower than that of Cl<sub>2</sub>.
+
+### Q3 — medium — 7 marks
+
+**Q3** [3 marks]
+
+State the trend in volatility of chlorine, bromine and iodine. Explain your answer.
+
+**Q3** [2 marks]
+
+Explain why Cl<sub>2</sub> reacts more vigorously with a solution of I<sup>−</sup> than Br<sub>2</sub> does.
+
+**Q3** [2 marks]
+
+Astatine, At, is a member of Group 17.
+
+Predict the physical state and colour of astatine at room temperature.
+
+physical state:
+
+colour:

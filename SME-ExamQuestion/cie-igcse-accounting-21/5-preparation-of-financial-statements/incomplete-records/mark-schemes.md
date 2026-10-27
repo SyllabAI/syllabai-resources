@@ -362,3 +362,166 @@
 **B **is incorrect; the drawings have been subtracted instead of added (you would subtract drawings to find the closing capital but you add it to find the profit)
 
 **D** is incorrect; you need to find the difference between the capital balances so you do not add them together
+
+## Structured Questions (3 questions)
+
+
+### Q1
+Calculate the **cost of sales**
+
+- Divide the sales by the mark up
+
+$90000 \div 150 \% = 60000$
+
+Calculate the **purchases **of goods
+
+- Add the closing inventory and the purchases returns to the cost of sales
+
+$60000+4175+3000=67175$
+
+Calculate the adjusted figure for **motor expenses**
+
+- Find one third
+
+$\frac{1}{3}\times4992=1664$
+
+- Subtract from the amount
+
+$4992-1664=3328$
+
+Calculate the **depreciation of the motor vehicle**
+
+- Multiply the net book value by the percentage
+
+$25 \% \times 8000 = 2000$
+
+Calculate the figure for **wages**
+
+- Subtract \$12 000 from the cash drawn from the bank
+
+$14600-12000=2600$
+
+- Add this to the amount paid from the bank
+
+$2600+8060=10660$
+
+Lionel 
+Income Statement for the year ended 30 June 2023
+
+|   | \$ |   | \$ |   |
+|---|---|---|---|---|
+| Revenue |   |   | 90 000 | **[1]** |
+| Cost of sales |   |   |   |   |
+| Purchases | 67 175 | **[1]** |   |   |
+| Less Purchases returns | <u>3 000</u> |   |   |   |
+|   | 64 175 | **[1]** |   |   |
+| Less Closing inventory | <u>4 175</u> |   | 60 000 |   |
+| Gross profit |   |   | 30 000 | **[1]** |
+| Less Expenses |   |   |   |   |
+| Wages | 10 660 | **[1]** |   |   |
+| General expenses | 1 140 | **[1]** |   |   |
+| Rent and insurance | 5 585 |   |   |   |
+| Motor expenses | 3 328 | **[1]** |   |   |
+| Depreciation of motor vehicles | <u>2 000</u> | **[1]** | <u>22 713</u> |   |
+| Profit for the year |   |   | <u>7 287</u> | **[1]** |
+
+> **[mark-scheme]**
+> 9 marks in total.
+> 
+> 1 mark for each of the following in the correct place with correct figures:
+> 
+> - revenue
+> - gross profit
+> - wages
+> - motor expenses
+> - **both **general expenses **and **rates and insurance
+> - depreciation
+> 
+> 1 mark for each of the following in the correct place with your own figures:
+> 
+> - purchases
+> - net purchases
+> - profit for the year
+Calculate the total amount of **drawings **taken
+
+- Add the cash drawn from the bank with personal motor expenses
+
+$12000+1664=13664$
+
+Lionel
+ Capital account
+
+| Date | Details | \$ |   | Date | Details | \$ |   |
+|---|---|---|---|---|---|---|---|
+| 2023 |   |   |   | 2022 |   |   |   |
+| Jun 30 | Drawings | 13 664 | **[2]** | Jul 1 | Bank | 15 000 | **[1]** |
+|   | Balance c/d | 8 623 |   | 2023 |   |   |   |
+|   |   |   |   | Jun 30 | Income statement (profit for the year) | 7 287 | **[1]** |
+|   |   | <u>22 287</u> |   |   |   | <u>22 287</u> |   |
+|   |   |   |   | Jul 1 | Balance b/d | 8 623 | **[1]** |
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 2 marks for drawings with the correct figure
+> 
+>   - 1 mark for \$12 000
+>   - 1 mark for \$1 664
+> - 1 mark for bank with the correct figure
+> - 1 mark for your **own figure** for the profit
+> - 1 mark for your **own figure** for balance b/d using your balance c/d
+> **[mark-scheme]**
+> 1 mark for any one correct reason.
+> 
+> - Lionel would know the full details of the assets, liabilities, income and expenses of his business
+> - Lionel would be able to prepare the financial statements relatively easily
+> - The profit or loss for the year is more likely to be accurate
+> - Lionel would be able to make more informed decisions about the business
+> - The risk of fraud would be reduced
+> - Lionel would be able to compare his information with previous years or other businesses more easily
+> - Lionel would have the details for reference reasons
+> - Lionel would have information readily available for the bank and other lenders
+If Lionel allowed trade discount, then it might encourage his credit customers to make repeat orders **[1]**. If it is successful, then it should increase his revenue and gross profit **[1]**.
+
+If Lionel allowed cash discount, then it might encourage his credit customers to pay their invoices promptly **[1]**. It might also reduce the risk of irrecoverable debts occurring **[1]**.
+
+Lionel should allow trade discount **[1] **as it has the possibility of forming loyal customers, which is especially important during the first few years of business.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - Maximum 4 marks for comments about allowing trade and cash discount.
+> 
+>   - Up to 3 marks for comments about **trade discount**.
+>   - Up to 3 marks for comments about **cash discount**.
+> 
+> Points about **trade discount** may include:
+> 
+> - It may encourage customers to place repeat orders
+> - If it is successful it might increase revenue and gross profit
+> - If it is unsuccessful, it might decrease revenue and gross profit
+> - Customers who do not purchase regularly might feel they are being overcharged
+> - Lionel will need to keep track of which customers order regularly to allow trade discount
+> - Other valid points are accepted
+> 
+> Points about **cash discount ** may include:
+> 
+> - It may encourage customers to pay more quickly
+> - Cash discount will reduce profit for the year
+> - Some customers might think 3% discount is not worth the early payment
+> - It might reduce the risk of irrecoverable debts
+> - Other valid points are accepted
+
+### Q2
+> **[mark-scheme]**
+> 1 mark for each advantage, up to a maximum of 2 marks.
+> 
+> - All information about assets, liabilities, income and expenses is available
+> - It is easier to prepare financial statements
+> - The calculation for the profit or loss is more likely to be accurate
+> - It reduces the risk of fraud
+> - It enables more informed decision making
+> - It is easier to make comparisons with previous years or other businesses
+> - Information needed for the bank or other lenders is easily available
+> - It is easier to have more control over business activities

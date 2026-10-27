@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:34:41Z",
+ "generated_utc": "2026-10-26T14:12:41Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
@@ -86,6 +86,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_QxC64CDBBmkYxdG6",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/6-plant-nutrition/6-1-photosynthesis-and-leaf-structure/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_CcJJT7JS5ty53WVd",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -98,35 +110,334 @@
    "question_count": 29,
    "questions_embedded": 29,
    "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/6-plant-nutrition/6-1-photosynthesis-and-leaf-structure/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_8J2zDDJyMYKXvnXm",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 20,
+   "questions_embedded": 20,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/6-plant-nutrition/6-1-photosynthesis-and-leaf-structure/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 29,
+  "questions_embedded": 52,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/03/15354-limiting-factors.png": "001-graph-showing-rate-of-photosynthesis-increasing-.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/29654_screenshot-2025-05-31-191931.png": "002-bar-chart-comparing-tomato-fruit-production-in-d.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/63998_q13-mcq-paper-11-june-2021-cie-igcse-biology.png": "003-diagram-of-a-leaf-cross-section-shows-labelled-p.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/27661_q12-mcq-paper-11-june-2021-cie-igcse-biology.png": "004-illustration-of-a-leaf-with-a-green-stripe-in-th.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/1638_q12-choice-mcq-paper-11-june-2021-cie-igcse-biology.png": "005-four-leaf-diagrams-labelled-a-to-d-showing-colou.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/17677_6-1-image-eq6.png": "006-6-1-image-eq6.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/4689_6-1-image-hq6.png": "007-6-1-image-hq6.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/6-q5-limiting-factors.png": "008-6-q5-limiting-factors.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/picture14.png": "009-picture14.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/K44yEXqo_picture9.png": "010-k44yexqo-picture9.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/picture5.png": "011-picture5.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/XCyLLKrC_picture8.png": "012-xcyllkrc-picture8.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/tv02bT3k_picture2.png": "013-tv02bt3k-picture2.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/6-q7-cross-section.png": "014-6-q7-cross-section.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/insert-diagram-6-q9-experiment.png": "015-insert-diagram-6-q9-experiment.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/eeEIuXLc_picture4.png": "016-eeeiuxlc-picture4.png"
+   "https://cdn.savemyexams.com/uploads/2025/06/8453_q2-june-0222-p61.png": "001-figure.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/41995_q2-p61.png": "002-figure.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/34694_q2-d3.png": "003-figure.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/5117_picture4.png": "004-picture.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/10814_graph1.png": "005-graph.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/6288_calc.png": "006-table.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/7307_graph2.png": "007-graph.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/experimental-setup.png": "008-experimental-setup.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/picture4.png": "009-picture4.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/mean-rate-of-photosynthesis.png": "010-mean-rate-of-photosynthesis.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/Ggzbcswg_cie-2019-p6-q2a.png": "011-ggzbcswg-cie-2019-p6-q2a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-2019-p6-q2a-microscope-image.png": "012-cie-2019-p6-q2a-microscope-image.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/untitled-26.png": "013-untitled-26.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/untitled-25-1.png": "014-untitled-25-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/untitled-26-1.png": "015-untitled-26-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/pQJZ2uCU_q2-ma.png": "016-pqjz2ucu-q2-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q2-bar-chart-ma.png": "017-q2-bar-chart-ma.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/15354-limiting-factors.png": "018-graph-showing-rate-of-photosynthesis-increasing-.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/29654_screenshot-2025-05-31-191931.png": "019-bar-chart-comparing-tomato-fruit-production-in-d.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/63998_q13-mcq-paper-11-june-2021-cie-igcse-biology.png": "020-diagram-of-a-leaf-cross-section-shows-labelled-p.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/27661_q12-mcq-paper-11-june-2021-cie-igcse-biology.png": "021-illustration-of-a-leaf-with-a-green-stripe-in-th.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/1638_q12-choice-mcq-paper-11-june-2021-cie-igcse-biology.png": "022-four-leaf-diagrams-labelled-a-to-d-showing-colou.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/17677_6-1-image-eq6.png": "023-6-1-image-eq6.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/4689_6-1-image-hq6.png": "024-6-1-image-hq6.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-q5-limiting-factors.png": "025-6-q5-limiting-factors.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/picture14.png": "026-picture14.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/K44yEXqo_picture9.png": "027-k44yexqo-picture9.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/picture5.png": "028-picture5.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/XCyLLKrC_picture8.png": "029-xcyllkrc-picture8.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/tv02bT3k_picture2.png": "030-tv02bt3k-picture2.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-q7-cross-section.png": "031-6-q7-cross-section.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/insert-diagram-6-q9-experiment.png": "032-insert-diagram-6-q9-experiment.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/eeEIuXLc_picture4.png": "033-eeeiuxlc-picture4.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/60842-breathing-rate.png": "034-line-graph-showing-breathing-rate-over-14-minute.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/49904_fig-8-1-paper-31-june-2021-cie-igcse-biology.png": "035-diagram-showing-four-test-tubes-labelled-a-b-c-d.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/39814_image-6-1-mq6.png": "036-image-6-1-mq6.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2019-paper4-2b.png": "037-cie-igcse-2019-paper4-2b.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2019-paper4-2c.png": "038-cie-igcse-2019-paper4-2c.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/QXw7i0~I_untitled-11.png": "039-qxw7i0-i-untitled-11.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2019-paper4-2d.png": "040-cie-igcse-2019-paper4-2d.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/Mwh8Idbd_picture10.png": "041-mwh8idbd-picture10.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018-nov-s1-061031-q2c.png": "042-2018-nov-s1-061031-q2c.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018-nov-s1-061031-q2cma.png": "043-2018-nov-s1-061031-q2cma.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/QMBWBCIq_photosynthesis.png": "044-qmbwbciq-photosynthesis.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/limiting-factors-and-photosynthesis-2.png": "045-limiting-factors-and-photosynthesis-2.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/light-intensity.png": "046-light-intensity.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/anomaly.png": "047-anomaly.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/graph-paper-1.png": "048-graph-paper-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/05/ma-rate-of-ps.png": "049-ma-rate-of-ps.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/actual-rate-of-photosynthesis-ma-sq.png": "050-actual-rate-of-photosynthesis-ma-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-may-p3-q2b-photosynthesis-equipment.png": "051-cie-igcse-2018-s3-may-p3-q2b-photosynthesis-equi.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-may-p3-q2b-graph-of-results.png": "052-cie-igcse-2018-s3-may-p3-q2b-graph-of-results.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-may-p3-q2b-graph-of-results-ma.png": "053-cie-igcse-2018-s3-may-p3-q2b-graph-of-results-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2023-specimen-q4a.png": "054-cie-igcse-2023-specimen-q4a.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/U_dYSFWN_picture6.png": "055-u-dysfwn-picture6.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/fig.png": "056-fig.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/0610p31q9a.png": "057-0610p31q9a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/igcse-2018mayjuneq9ai.png": "058-igcse-2018mayjuneq9ai.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/igcse-2018-mayjune-q9aii.png": "059-igcse-2018-mayjune-q9aii.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-p4-q3.png": "060-cie-igcse-2018-s3-p4-q3.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/aquatic-plant.png": "061-aquatic-plant.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/light-intensity-and-strawberry-plants-1.png": "062-light-intensity-and-strawberry-plants-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s2-may-p3-q2a-leaf.png": "063-cie-igcse-2018-s2-may-p3-q2a-leaf.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_gfSwTF26WVBGbnjq",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_C4dtmwGpTXXtPh7x",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "0970/June 2022",
+      "number": "61",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_JgKsK7zdJYwfspc7"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2.1 is a photomicrograph of a section through part of a marram grass leaf, Ammophila arenaria.\n\n![Figure](assets/001-figure.png)\n\n(i) Draw a large diagram of the section of marram grass leaf shown in Fig. 2.1.\n\nDo **not** draw individual cells.\n\n(ii) Fig. 2.2 shows a cross-section of a whole marram grass leaf.\n\n![Figure](assets/002-figure.png)\n\nMeasure the length of line **PQ** on Fig. 2.2.\n\nlength of line **PQ** ................................................ mm\n\nCalculate the actual diameter of the marram grass leaf using the formula and your measurement.\n\n$\\mathrm{magnification}=\\frac{\\mathrm{length} \\mathrm{of} \\mathrm{line} \\mathrm{PQ} \\mathrm{on} \\mathrm{Fig}2.2}{\\mathrm{actual} \\mathrm{diameter} \\mathrm{of} \\mathrm{the} \\mathrm{marram} \\mathrm{grass} \\mathrm{leaf}}$\n\nGive your answer to** one** decimal place.\n\n......................................................... mm\n\n[3]",
+     "solution_md": "Do not draw individual cells.\n\n**Answer:**\n\n- The outline is a single, clear, unbroken line; **[1 mark]**\n- Drawing is larger than 90 mm diagonally (top left to bottom right); **[1 mark]**\n- At least four projections are drawn; **[1 mark]**\n- At least four vascular bundles are drawn **OR** hairs are drawn on at least two of the projections; **[1 mark]**\n\n![Figure](assets/003-figure.png)\n\n**Answer:**\n\n- Length of line PQ = 111/112/113 (mm); **[1 mark]**\n\n*Actual diameter calculations*\n\n- Actual diameter = 112 ÷ 120; **[1 mark]**\n- 0.9 (mm); **[1 mark]**\n\n*Award 2 marks for the correct actual diameter in the absence of other calculations.*\n\n*Note that the measurements will be different on the screen to those on a printed copy of the exam paper*\n\n![picture](assets/004-picture.png)",
+     "equations": [
+      {
+       "latex": "\\mathrm{magnification}=\\frac{\\mathrm{length} \\mathrm{of} \\mathrm{line} \\mathrm{PQ} \\mathrm{on} \\mathrm{Fig}2.2}{\\mathrm{actual} \\mathrm{diameter} \\mathrm{of} \\mathrm{the} \\mathrm{marram} \\mathrm{grass} \\mathrm{leaf}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>magnification</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>length</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>line</mi><mo>&#160;</mo><mi mathvariant=\"bold\">PQ</mi><mo>&#160;</mo><mi>on</mi><mo>&#160;</mo><mi>Fig</mi><mn>2</mn><mo>.</mo><mn>2</mn></mrow><mrow><mi>actual</mi><mo>&#160;</mo><mi>diameter</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>the</mi><mo>&#160;</mo><mi>marram</mi><mo>&#160;</mo><mi>grass</mi><mo>&#160;</mo><mi>leaf</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "magnification space equals space fraction numerator length space of space line space bold PQ space on space Fig 2.2 over denominator actual space diameter space of space the space marram space grass space leaf end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tHtj5cRMGYGpFvft",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "0970/June 2022",
+      "number": "61",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jMd7ZNTNqdJtbhVx"
+     ],
+     "part_tier": null,
+     "problem_md": "Scientists investigated the effect of different concentrations of sodium chloride solution on the germination and growth of marram grass.\n\nMarram grass seeds were germinated in Petri dishes on filter paper which had been soaked in one of the different sodium chloride solutions. Each Petri dish contained 15 seeds and the investigation was repeated four times.\n\nAfter 20 days, the lengths of the seedling roots were measured with a ruler.\n\n(i) State the variable that was changed (independent variable) and the variable that was measured (dependent variable) in this investigation.\n\nindependent variable ......................................................................................................... .........\n\ndependent variable .................................................................................................................\n\n[2]\n\n(ii) State** two** ways the scientists designed the investigation to produce valid and reliable results.\n\n[2]",
+     "solution_md": "(i)\n\n**Answer:**\n\n- Independent variable = concentration of sodium chloride solution;** [1 mark]**\n- Dependent variable = length of roots; **[1 mark]**\n\n(ii)\n\n**Answer:**\n\nAny two from:\n\n- Repeating the investigation; **[1 mark] **\n- A large number of / 15 seeds at each concentration;** [1 mark]**\n- Seedlings are measured after the same growth period / after 20 days; **[1 mark]**\n- Same plant species / all marram grass seeds; **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_4j4jqCczyBxgjJfk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "0970/June 2022",
+      "number": "61",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jMd7ZNTNqdJtbhVx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nScientists investigated the effect of different concentrations of sodium chloride solution on the germination and growth of marram grass. Marram grass seeds were germinated in Petri dishes on filter paper which had been soaked in one of the different sodium chloride solutions. Each Petri dish contained 15 seeds and the investigation was repeated four times. After 20 days, the lengths of the seedling roots were measured with a ruler.\n\nTable 2.1\n| concentration of sodium chloride solution /g per dm^3 | average root length /mm |\n| --- | --- |\n| 0 | 33 |\n| 2 | 22 |\n| 4 | 19 |\n| 6 | 13 |\n| 8 | 2 |\n| 10 | 1 |\n\nThe results of the investigation described in** 2(b)** are shown in Table 2.1.\n\n**Table 2.1 **\n\n| **concentration of sodium chloride solution /g perdm**<sup>**3**</sup> | **average root length /mm** |\n|---|---|\n| 0 | 33 |\n| 2 | 22 |\n| 4 | 19 |\n| 6 | 13 |\n| 8 | 2 |\n| 10 | 1 |\n\n(i) Using the information in Table 2.1, calculate the percentage decrease in the average root length when the concentration of sodium chloride was changed from 4 g perdm<sup>3</sup> to 6 g perdm<sup>3.</sup>\n\nGive your answer to** three **significant figures.\n\n............................................................ % [3]\n\n(ii) Plot a line graph on the grid of the data in Table 2.1.\n\n![graph](assets/005-graph.png)\n\n[4]",
+     "solution_md": "(i)\n\n**Answer:**\n\n- 19 (mm) **AND **13 (mm); **[1 mark]**\n- 19-1319 x 100; **[1 mark]**\n- 31.6 (%); **[1 mark]**\n\n*Award full marks for the correct answer in the absence of other calculations.*\n\n![table](assets/006-table.png)\n\n(ii)\n\n**Answer:**\n\n- Axes are labelled **AND** units are included;** [1 mark]**\n- A suitable even scale is used **AND** plotting area occupies at least half the grid in both directions; **[1 mark]**\n- Six points are plotted accurately to within half a small square;** [1 mark]**\n- A suitable line is drawn; **[1 mark]**\n\n![graph](assets/007-graph.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_r6V9c4pfJ9yFTS7G",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_MgFFbtf979t56qPX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the effect of light intensity on the rate of photosynthesis.\n\n1. They placed a 10 cm piece of *Elodea* pondweed in a beaker of water placed 10 cm away from a lamp.\n2. A glass tank with water was placed between the lamp and the beaker containing the pondweed.\n3. The pondweed was left for 5 minutes before the number of bubbles were counted and recorded over a period of 2 minutes.\n4. A thermometer was used to monitor the temperature throughout the experiment.\n5. Step 3 was repeated when the lamp was placed at different distances from the pondweed.\n6. The experiment was repeated once more.\n\nFig. 1 shows the experimental setup.\n\n![experimental-setup](assets/008-experimental-setup.png)\n\n**Fig. 1**\n\nFig. 2 shows the results for the two repeats that the student wrote in their notebook.\n\n![picture4](assets/009-picture4.png)\n\n**Fig. 2**\n\n(i)\n\nPrepare a suitable results table to present the data.\n\nYour table should include:\n\n- Distance from the lamp\n- The rate of photosynthesis in bubbles min<sup>-1 </sup>\n\n[4]\n\n(ii)\n\nState a conclusion for the results.\n\n[1]",
+     "solution_md": "(i) The mark allocation for the results table would be as follows...\n\n- A suitable table was drawn with at least three columns; **[1 mark]**\n- Appropriate headings with units are used e.g. Distance from lamp / cm **AND** Rate of photosynthesis / bubbles min<sup>-1</sup>; **[1 mark]**\n- Results for both trials 1 and 2 were correctly recorded / ten measurements were correctly recorded; **[1 mark]**\n- Raw data was correctly converted to bubbles per minute; **[1 mark]**\n\n> *Your results table would look like this:*\n\n| **Distance from the lamp / cm** | **Rate of photosynthesis / bubbles min**<sup>**-1**</sup> |   |\n|---|---|---|\n| **Trial 1** | **Trial 2** |   |\n| 10 | 35 | 36 |\n| 20 | 22 | 24 |\n| 30 | 8 | 7 |\n| 40 | 5 | 4 |\n| 50 | 2 | 1 |\n\n> *Remember that the raw data shows the number of bubbles counted over 2 minutes so you would have to divide these measurements by 2 to get the number of bubbles per minute. It is important to round your values to the nearest whole number as you cannot have a fraction of a bubble! *\n\n> *Another important thing to remember when constructing results tables is that the units must only appear in the column headings, never in the body of the table.*\n\n(ii) A conclusion for the results would be the following...\n\n- The greater the distance from the lamp / the lower the light intensity, the lower the rate of photosynthesis / the less bubbles are released; **[1 mark]**\n\n*Accept the converse argument as a valid conclusion*\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_N39kZjTbk9Gwqh92",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDistance from the lamp: 10 cm = 70 and 72 bubbles; 50 cm = 3 and 1 bubbles. Bubbles counted over 2 minutes. To calculate bubbles per minute: (70 + 72) ÷ 2 = 71 (for 10 cm); (3 + 1) ÷ 2 = 2 (for 50 cm). To calculate means: 10 cm: 71 ÷ 2 ≈ 36; 50 cm: 2 ÷ 2 = 1. The difference in the mean rate of photosynthesis: 36 - 1 = 35 (bubbles min^-1^).\n\nCalculate the difference in the mean rate of photosynthesis when the lamp was moved from a distance of 10 cm to 50 cm away from the pondweed.",
+     "solution_md": "The difference in the mean rate of photosynthesis can be calculated as follows...\n\n- Mean at 10 cm = 36 **AND **mean at 50 cm = 1 cm; **[1 mark]**\n- (36 - 1) = 35 (bubbles min<sup>-1</sup>); **[1 mark]**\n\n*Full marks awarded for the correct answer in the absence of other calculations Accept mean values of 36 and 2 at marking point 1 if values from results table from part (a)(i) were used Accept an answer of 34 if values from results table from part (a)(i) were used*\n\n**[Total: 2 marks]**\n\n![mean-rate-of-photosynthesis](assets/010-mean-rate-of-photosynthesis.png)"
+    },
+    {
+     "id": "qstnprt_wRTYvPzrQ7yY2FX8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the effect of light intensity on the rate of photosynthesis.\n\n1. They placed a 10 cm piece of Elodea pondweed in a beaker of water placed 10 cm away from a lamp.\n2. A glass tank with water was placed between the lamp and the beaker containing the pondweed.\n3. The pondweed was left for 5 minutes before the number of bubbles were counted and recorded over a period of 2 minutes.\n4. A thermometer was used to monitor the temperature throughout the experiment.\n5. Step 3 was repeated when the lamp was placed at different distances from the pondweed.\n6. The experiment was repeated once more.\n\n(i)\n\nState the independent variable for this investigation.\n\n[1]\n\n(ii)\n\nState **two** variables that should be kept constant in this investigation.\n\n[2]\n\n(iii)\n\nSuggest an improvement for determining the rate of photosynthesis in this investigation.\n\n[1]",
+     "solution_md": "(i) The independent variable for this investigation is...\n\n- Light intensity / distance from the lamp; **[1 mark]**\n\n> *The independent variable is always the one that is changed by the investigator, so in this case, it would be the distance between the lamp and the pondweed which changes the light intensity.*\n\n(ii) Variables that should be kept constant for this investigation...\n\nAny **two** of the following:\n\n- Temperature (of the water around the pondweed); **[1 mark]**\n- The carbon dioxide concentration of the water (around the pondweed); **[1 mark]**\n- The time that the pondweed is left to equilibrate before readings are taken **OR** the time during which bubbles are counted; **[1 mark]**\n\n> *Keeping these variables constant between readings will ensure that no other factor other than light intensity would affect the rate of photosynthesis in the pondweed.*\n\n(iii) An improvement in determining the rate of photosynthesis would be...\n\n- Measure the volume of oxygen released (instead of counting the number of bubbles) **OR** a description of measuring the volume of oxygen e.g. use an inverted graduated measuring cylinder / use a syringe attached to a delivery tube connected to a funnel; **[1 mark]**\n\n> *The size of the bubbles will vary and is therefore not the most accurate way of determining the rate of photosynthesis. Measuring the volume of oxygen released over a period of time will provide a more accurate indication of the rate of photosynthesis.*\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_sd4fXzyFqMk3KqZC",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the effect of light intensity on the rate of photosynthesis.\n\n1. They placed a 10 cm piece of Elodea pondweed in a beaker of water placed 10 cm away from a lamp.\n2. A glass tank with water was placed between the lamp and the beaker containing the pondweed.\n3. The pondweed was left for 5 minutes before the number of bubbles were counted and recorded over a period of 2 minutes.\n4. A thermometer was used to monitor the temperature throughout the experiment.\n5. Step 3 was repeated when the lamp was placed at different distances from the pondweed.\n6. The experiment was repeated once more.\n\nDescribe how this experiment could be adapted to investigate the effect of carbon dioxide on the rate of photosynthesis.",
+     "solution_md": "The experiment could be adapted to investigate the effect of carbon dioxide on the rate of photosynthesis in the following ways...\n\n**Descriptions of relevant points of original method**\n\nA maximum of **two** from the following:\n\n- Use 10 cm section of *Elodea* pondweed placed at a distance of 10 cm away from a lamp; **[1 mark]**\n- Place a glass tank with water between the lamp and beakers containing the pondweed (to absorb heat from lamp); **[1 mark]**\n- Leave the pondweed for 5 minutes before taking readings/measurements (to equilibrate); **[1 mark]**\n- Repeat the experiment at least once; **[1 mark]**\n\n**Additions / changes to the method**\n\nA maximum of **three** from the following:\n\n- Use at least three different concentrations of sodium hydrogen carbonate solution; **[1 mark]**\n- Concentration of sodium hydrogen carbonate solutions in a range of 0.1% to 1% (independent variable); **[1 mark]**\n- Count the number of bubbles released in 1 minute **OR** measure the volume of gas released in 1 minute (dependent variable); **[1 mark]**\n- Calculate the mean rate of photosynthesis (for each sodium hydrogen carbonate solution); **[1 mark]**\n\n**Control variables / safety precautions**\n\nAny **one** of the following:\n\n- Keep the distance between the lamp and the pondweed constant throughout experiment; **[1 mark]**\n- Monitor the temperature of the water using a thermometer (to ensure it doesn't vary); **[1 mark]**\n- Use the same species / length of pondweed during the investigation; **[1 mark]**\n- Use forceps when handling pondweed; **[1 mark]**\n- Cut away from yourself when cutting the pondweed into sections; **[1 mark]**\n\n*Accept any other valid control variable or safety precaution*\n\n**[Total: 6 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HSsFmgDXktSPYcrG",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 21,
+   "parts": [
+    {
+     "id": "qstnprt_Th7YjQD7XVPQnMJw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/61",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 is a photomicrograph of a cross-section of part of a leaf.\n\n![Ggzbcswg_cie-2019-p6-q2a](assets/011-ggzbcswg-cie-2019-p6-q2a.png)\n\n**Fig. 1**\n\n(i)\n\nDraw a large diagram to show the layers present in the leaf section shown in Fig.1.\n\nDo not draw any cells.\n\n[3]\n\n(ii)\n\nMeasure the thickness of the leaf along the line **AB** on Fig.1.\n\nCalculate the actual thickness of the leaf using your measurement and the formula.\n\nInclude the units.\n\n$\\mathrm{magnification}=\\frac{\\mathrm{length} \\mathrm{of} \\mathrm{line} \\mathrm{AB} \\mathrm{on} \\mathrm{Fig}.1}{\\mathrm{actual} \\mathrm{thickness} \\mathrm{of} \\mathrm{leaf}}$\n\n[3]\n\n(iii)\n\nFig. 2 shows a photomicrograph of cells from one type of tissue found in leaves.\n\n![cie-2019-p6-q2a-microscope-image](assets/012-cie-2019-p6-q2a-microscope-image.png)\n\n**Fig. 2**\n\nLabel the layer on your drawing, with the letter **X**, to show where this type of tissue is found.\n\n[1]",
+     "solution_md": "(i) Marks are awarded for the following features in your drawing...\n\n- Lines should be clear single and continuous **AND **there should be no shading; **[1 mark]**\n- Size of diagram should be at least half of the space provided; **[1 mark]**\n- Proportions should be approximately correct (for each of the layers of the leaf); **[1 mark]**\n\n![untitled-26](assets/013-untitled-26.png)\n\n(ii) Actual length should be calculated as follows...\n\n- Length of line AB = 4 cm/40 mm;** [1 mark]**\n- 40 ÷ 100; **[1 mark]**\n- 0.4 mm;**[1 mark]**\n\n![untitled-25-1](assets/014-untitled-25-1.png)\n\n(iii) This tissue type should be labelled as follows...\n\n- X should be written on the spongy mesophyll of drawing; **[1 mark]**\n\n![untitled-26-1](assets/015-untitled-26-1.png)\n\n**[Total: 7 marks]**",
+     "equations": [
+      {
+       "latex": "\\mathrm{magnification}=\\frac{\\mathrm{length} \\mathrm{of} \\mathrm{line} \\mathrm{AB} \\mathrm{on} \\mathrm{Fig}.1}{\\mathrm{actual} \\mathrm{thickness} \\mathrm{of} \\mathrm{leaf}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>magnification</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>length</mi><mo> </mo><mi>of</mi><mo> </mo><mi>line</mi><mo> </mo><mi>AB</mi><mo> </mo><mi>on</mi><mo> </mo><mi>Fig</mi><mo>.</mo><mn>1</mn></mrow><mrow><mi>actual</mi><mo> </mo><mi>thickness</mi><mo> </mo><mi>of</mi><mo> </mo><mi>leaf</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "magnification space equals space fraction numerator length space of space line space AB space on space Fig.1 over denominator actual space thickness space of space leaf end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_2yDnvwBPtss6drb3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/61",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vBM84MMDRcwhh8MN",
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Scientists carried out an investigation into the effect of light on the growth of leaves.\n\nPlants of the same species (**A**) were grown in three different light intensities.\n\nThe plants were grown in the same soil and kept in glasshouses with automatic watering.\n\nA sample of 100 leaves was selected at random and collected from plants in each of the three different light intensities. A total of 300 leaves were collected.\n\nThe scientists studied the variations in the size and structure of the leaves in each sample.\n\n(i)\n\nSuggest why the scientists used large samples of leaves.\n\n[1]\n\n(ii)\n\nSuggest why the leaves in each light intensity were selected at random.\n\n[1]\n\n(iii)\n\nA grid, divided into millimetre squares, was used to measure the surface area of the leaves.\n\nOutline how the grid could have been used.\n\n[2]\n\n(iv)\n\nState the variable that was changed (independent variable) in this investigation.\n\n[1]",
+     "solution_md": "(i) Scientists used a large sample of leaves to...\n\nAny **one **of the following:\n\n- Obtain a representative leaf size ;**[1 mark] **\n- Identify anomalous results; **[1 mark]**\n\n(ii) Leaves were selected at random to...\n\nAny **one **of the following:\n\n- Avoid bias / gain a representative sample; ** [1 mark]**\n- Allow a comparison to be made (between the different light intensities); **[1 mark]**\n\n*Accept a description that includes the idea that leaves may be different sizes depending on their height on the stem.*\n\n(iii) A grid could have been used in the following way...\n\nAny **two **of the following:\n\n- Draw round the outline of the leaf on a grid / place leaf under a (transparent) grid;** [1 mark]**\n- Count the squares (within the outline);** [1 mark]**\n- Include any squares more than half covered / other valid method described, e.g. estimating percentage cover;** [1 mark]**\n\n(iv) The variable that was changed was...\n\n- Light intensity; **[1 mark]**\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_xnDrCy7HKzXq8bR4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/61",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vBM84MMDRcwhh8MN",
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 1\n\n| Light intensity / arbitrary units | Average leaf area / mm^2^ |\n| Species A | Species B |\n| 100 | 3600 | 2800 |\n| 50 | 3900 | 3400 |\n| 10 | 6500 | 2900 |\n\n(i)\nCalculate the percentage difference in the average leaf area for species A from a light intensity of 50 arbitrary units to 10 arbitrary units.\n\nShow your working and give your answer as a percentage to the nearest whole number.\n\n(ii)\nPlot a bar chart on the grid to show the average leaf area for species A and B, at each light intensity.\n\n(iii)\nDescribe the trends shown in your graph for species A and species B.\n\n(iv)\nThe scientists want to determine more precisely the light intensity that results in the largest leaf area for species B.\n\nSuggest how the method used in the investigation could be modified to achieve this.\n\nThe scientists collected data from one other plant species (**B**).\n\nTable 1 shows the results.\n\n**Table 1**\n\n| **Light intensity / arbitrary units** | **Average leaf area / mm**<sup>**2**</sup> |   |\n|---|---|---|\n| **Species** **A** | **Species** **B** |   |\n| 100 | 3600 | 2800 |\n| 50 | 3900 | 3400 |\n| 10 | 6500 | 2900 |\n\n(i)\n\nCalculate the percentage difference in the average leaf area for species **A** from a light intensity of 50 arbitrary units to 10 arbitrary units.\n\nShow your working and give your answer as a percentage to the nearest whole number.\n\n[2]\n\n(ii)\n\nPlot a bar chart on the grid to show the average leaf area for species **A** and **B**, at each light intensity.\n\n[4]\n\n(iii)\n\nDescribe the trends shown in your graph for species **A** and species **B**.\n\n[2]\n\n(iv)\n\nThe scientists want to determine more precisely the light intensity that results in the largest leaf area for species **B**.\n\nSuggest how the method used in the investigation could be modified to achieve this.\n\n[1]",
+     "solution_md": "(i) The percentage difference can be calculated as follows...\n\n- (2600 ÷ 3900) x 100; **[1 mark]**\n- 67 (%); **[1 mark]**\n\n(ii) The bar chart should be plotted as follows...\n\n- Axis headings should include 'Light intensity / arbitrary units/a.u.' **AND** 'Average leaf area / mm<sup>2</sup>' **AND** 'Species A' and 'Species B' are labelled / key given; **[1 mark]**\n- A suitable scale has been used for leaf area **AND** sequential bars are used on the x-axis **AND** plotting area occupies at least half the grid in both directions; **[1 mark]**\n- Six values plotted accurately ± ½ small square; **[1 mark]**\n- Bars are the same width (at least 1 small square wide) **AND** gaps are present between bars / pairs of bars;** [1 mark]**\n\n(iii) The trends in the graph can be described as follows...\n\n- (Species A =) as the light intensity decreases the (average) leaf area increases; **[1 mark]**\n- (Species B = average) leaf area increases with increasing light intensity (to maximum at 50 a.u.) and then decreases; **[1 mark]**\n\n*Accept reverse arguments, e.g. for species A as light intensity increases the average leaf area decreases.*\n\n(iv) The method could be modified in the following way...\n\n- Measure leaf growth at a narrower range of light intensities around 50 (a.u.);** [1 mark]**\n\n**[Total: 9 marks]**\n\n> *i) Percentage difference can be calculated:*\n\n![pQJZ2uCU_q2-ma](assets/016-pqjz2ucu-q2-ma.png)\n\n> *ii) When drawing a graph you should always be aware what marks will be awarded for:*\n\n- Correctly labelled axes with units.\n- An appropriate, even scale.\n- Good use of the space provided.\n- Accurate plotting/drawing of data points.\n- An appropriate line drawn through points (this is not relevant in this particular question)\n\n> *Note that If bars are drawn touching each other rather than with a space in between, this represents continuous data and is known as a histogram rather than a bar chart.*\n\n![q2-bar-chart-ma](assets/017-q2-bar-chart-ma.png)\n\n> *iii) The results for species B show that the largest leaf area was found in leaves at a light intensity of 50 arbitrary units. Either side of this, the size decreases. Testing leaf size at light intensity in between 10 and 50 or in between 50 and 100 may give a better indication as to which light intensity results in the largest leaf size.*"
+    }
+   ]
+  },
   {
    "id": "qstn_Xjd3XjKw3n7v2T3T",
    "set_slug": "multiple-choice-questions",
@@ -151,7 +462,7 @@
       "spcpt_nYfWmvbhbsQwyQVT"
      ],
      "part_tier": "extended_only",
-     "problem_md": "The graph shows the effect of increasing light intensity on the rate of photosynthesis.\n\n![Graph showing rate of photosynthesis increasing with light intensity, then plateauing. Point A indicates the plateau phase.](assets/001-graph-showing-rate-of-photosynthesis-increasing-.png)\n\nWhich does point A show?",
+     "problem_md": "The graph shows the effect of increasing light intensity on the rate of photosynthesis.\n\n![Graph showing rate of photosynthesis increasing with light intensity, then plateauing. Point A indicates the plateau phase.](assets/018-graph-showing-rate-of-photosynthesis-increasing-.png)\n\nWhich does point A show?",
      "solution_md": "**Final answer:** **The correct answer is ****A.**\n\n- If the rate stops increasing even when **light intensity continues to increase**, then **light is no longer the limiting factor**. Another factor must now be limiting the rate\n\n**B** is incorrect because if light stopped reaching the leaf, the rate would decrease.\n\n**C** is incorrect because the graph shows the rate has levelled off, not fallen to zero.\n\n**D** is incorrect because chlorophyll is not used up in photosynthesis.",
      "choices": [
       {
@@ -457,7 +768,7 @@
       "spcpt_nYfWmvbhbsQwyQVT"
      ],
      "part_tier": null,
-     "problem_md": "Tomato fruit production was measured in five different environmental conditions.\n\n![Bar chart comparing tomato fruit production in different environments, with heated glasshouse and artificial light showing highest yield.](assets/002-bar-chart-comparing-tomato-fruit-production-in-d.png)\n\nWhat is a correct conclusion for the data shown in the graph?",
+     "problem_md": "Tomato fruit production was measured in five different environmental conditions.\n\n![Bar chart comparing tomato fruit production in different environments, with heated glasshouse and artificial light showing highest yield.](assets/019-bar-chart-comparing-tomato-fruit-production-in-d.png)\n\nWhat is a correct conclusion for the data shown in the graph?",
      "solution_md": "**Final answer:** **The correct answer is ****D****.**\n\n- This is because temperature and carbon dioxide concentration are not limiting factors in this condition, and in 5 the addition of the light increased production, so therefore light must be a limiting factor in 4\n\n**A** is incorrect because there are several limiting factors for 1, which is the cause of the low production.\n\n**B** is incorrect because temperature is not a limiting factor at 3 because the glasshouse is heated.\n\n**C** is incorrect because carbon dioxide is not a limiting factor for 4 and 5 because it is provided in those conditions.",
      "choices": [
       {
@@ -610,7 +921,7 @@
       "spcpt_vBM84MMDRcwhh8MN"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a section through the leaf of a plant.\n\nWhich label shows a palisade mesophyll cell?\n\n![Diagram of a leaf cross-section shows labelled parts: A for palisade cells, B for spongy parenchyma, C for vascular bundle, and D for lower epidermis.](assets/003-diagram-of-a-leaf-cross-section-shows-labelled-p.png)",
+     "problem_md": "The diagram shows a section through the leaf of a plant.\n\nWhich label shows a palisade mesophyll cell?\n\n![Diagram of a leaf cross-section shows labelled parts: A for palisade cells, B for spongy parenchyma, C for vascular bundle, and D for lower epidermis.](assets/020-diagram-of-a-leaf-cross-section-shows-labelled-p.png)",
      "solution_md": "**Final answer:** **The correct answer is ****B.**\n\n- The palisade mesophyll cells are found underneath the upper epidermis. These cells are adapted to maximise the absorption of sunlight for photosynthesis and so are tightly packed.\n\n**A **is incorrect because it represents the upper epidermis of the leaf.\n\n**C** is incorrect because it identifies the vascular bundle (xylem and the phloem) of the plant.\n\n**D** is incorrect because it shows the spongy mesophyll cells which are adapted for gas exchange.",
      "choices": [
       {
@@ -661,7 +972,7 @@
       "spcpt_Hq7NkC4XhTcFMwqb"
      ],
      "part_tier": null,
-     "problem_md": "A plant with striped leaves was kept in bright light for six hours.\n\n![Illustration of a leaf with a green stripe in the centre and a white stripe along the edge, labelled with directional arrows.](assets/004-illustration-of-a-leaf-with-a-green-stripe-in-th.png)\n\nA leaf was taken from the plant and the chlorophyll was removed. The leaf was then tested for starch using iodine solution.\n\nWhich diagram shows the result of the test?\n\n![Four leaf diagrams labelled A to D, showing colour patterns: A is yellow-brown and blue-black, B is white and blue-black, C is blue-black and green, D is yellow-brown and green.](assets/005-four-leaf-diagrams-labelled-a-to-d-showing-colou.png)",
+     "problem_md": "A plant with striped leaves was kept in bright light for six hours.\n\n![Illustration of a leaf with a green stripe in the centre and a white stripe along the edge, labelled with directional arrows.](assets/021-illustration-of-a-leaf-with-a-green-stripe-in-th.png)\n\nA leaf was taken from the plant and the chlorophyll was removed. The leaf was then tested for starch using iodine solution.\n\nWhich diagram shows the result of the test?\n\n![Four leaf diagrams labelled A to D, showing colour patterns: A is yellow-brown and blue-black, B is white and blue-black, C is blue-black and green, D is yellow-brown and green.](assets/022-four-leaf-diagrams-labelled-a-to-d-showing-colou.png)",
      "solution_md": "**Final answer:** **The correct answer is ****A.**\n\n- Iodine changes from yellow-brown to blue-black in the presence of starch.\n- Glucose from photosynthesis is stored as starch in the green parts of the leaf where chloroplasts are present.\n- Leaf A shows a positive result in the green striped region and a negative result in the white striped regions.\n\n**B** is incorrect because the iodine would cause the outer white regions of the leaf to be coloured yellow-brown.\n\n**C** is incorrect because the central part of the leaf would no longer be green as the chlorophyll has been removed. The outer white regions of the leaf have no starch and so would be coloured yellow-brown due to the iodine.\n\n**D** is incorrect because the central part will not be green as chlorophyll has been removed.",
      "choices": [
       {
@@ -763,7 +1074,7 @@
       "spcpt_vBM84MMDRcwhh8MN"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a cross-section of part of a leaf\n\n![6-1-image-eq6](assets/006-6-1-image-eq6.png)\n\nWhat is the name of the cell labelled X?",
+     "problem_md": "The diagram shows a cross-section of part of a leaf\n\n![6-1-image-eq6](assets/023-6-1-image-eq6.png)\n\nWhat is the name of the cell labelled X?",
      "solution_md": "**Final answer:** **The correct answer is C because:**\n\nCell labelled X is a palisade mesophyll cell\n\n**A** is incorrect because the epidermis is the upper and lower layer of cells in a leaf.\n\n**B** is incorrect because the guard cells sit in the bottom of the leaf in the lower epidermis, where they control the opening and closing of the stomata.\n\n**D** is incorrect because the spongy mesophyll cells sit below the palisade layer and can be identified by the large air spaces around the cells.",
      "choices": [
       {
@@ -814,7 +1125,7 @@
       "spcpt_rB4QVJDcCJF98PVb"
      ],
      "part_tier": null,
-     "problem_md": "The apparatus shown was used in an experiment.\n\nThe carbon dioxide content of the water in each test-tube was measured at the start of the experiment and again three hours later.\n\nIn which test-tube will the carbon dioxide concentration decrease?\n\n![6-1-image-hq6](assets/007-6-1-image-hq6.png)",
+     "problem_md": "The apparatus shown was used in an experiment.\n\nThe carbon dioxide content of the water in each test-tube was measured at the start of the experiment and again three hours later.\n\nIn which test-tube will the carbon dioxide concentration decrease?\n\n![6-1-image-hq6](assets/024-6-1-image-hq6.png)",
      "solution_md": "**Final answer:** **The correct answer is C because:**\n\nThe plant in the tube is exposed to light, so is carrying out photosynthesis\n\nPhotosynthesis uses carbon dioxide\n\n**A** is incorrect because the plant is in the dark, so is not carrying out photosynthesis. In addition to this the aquatic animal is releasing carbon dioxide during respiration.\n\n**B** is incorrect because the plant is in the dark so is not carrying out photosynthesis.\n\n**D** is incorrect because the aquatic animal will be releasing carbon dioxide as a waste product from respiration.",
      "choices": [
       {
@@ -866,7 +1177,7 @@
       "spcpt_8PMns5BkXxpCK6fj"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe diagram below shows how the rate of photosynthesis is affected by different conditions.\n\n![6-q5-limiting-factors](assets/008-6-q5-limiting-factors.png)\n\nWhat of the following correctly identifies the limiting factor for photosynthesis at the three points on the graph?\n\n|   | 1 | 2 | 3 |\n|---|---|---|---|\n| **A** | light intensity | light intensity | carbon dioxide concentration |\n| **B** | temperature | temperature | light intensity |\n| **C** | light intensity | temperature | carbon dioxide concentration |\n| **D** | light intensity | carbon dioxide concentration | temperature |",
+     "problem_md": "#### Extended only\n\nThe diagram below shows how the rate of photosynthesis is affected by different conditions.\n\n![6-q5-limiting-factors](assets/025-6-q5-limiting-factors.png)\n\nWhat of the following correctly identifies the limiting factor for photosynthesis at the three points on the graph?\n\n|   | 1 | 2 | 3 |\n|---|---|---|---|\n| **A** | light intensity | light intensity | carbon dioxide concentration |\n| **B** | temperature | temperature | light intensity |\n| **C** | light intensity | temperature | carbon dioxide concentration |\n| **D** | light intensity | carbon dioxide concentration | temperature |",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- At 1, the **rate** of photosynthesis has yet to level off (neither temperature nor concentration of carbon dioxide are limiting in this experiment) so light intensity is still the limiting factor\n- At 2, the **rate** of photosynthesis is **no longer increasing** even though the **light intensity is still increasing**, so some other factor is limiting (in the table, we can see the temperature for experiment 2 is 20℃, so the temperature is the limiting factor)\n- At 3, the **rate** of photosynthesis is **no longer increasing** even though the light intensity is still increasing, so **some other factor is limiting **(in the table, we can see the carbon dioxide concentration is lower than other experiments, so carbon dioxide concentration is the limiting factor)\n\n**A** is incorrect because **temperature** is the limiting factor for experiment 2, not light intensity.\n\n**B** is incorrect because **light intensity **is the limiting factor in experiment 1, not temperature.\n\n**D** is incorrect because **temperature** is the limiting factor for experiment 2, and **carbon** **dioxide** is the limiting factor for experiment 3.",
      "choices": [
       {
@@ -968,7 +1279,7 @@
       "spcpt_QpJ9pvTTFqX996sr"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows a cross-section through a leaf as seen under a microscope.\n\n![picture14](assets/009-picture14.png)\n\nIn which part of the leaf would the concentration of carbon dioxide be lowest on a warm, sunny day?",
+     "problem_md": "The diagram below shows a cross-section through a leaf as seen under a microscope.\n\n![picture14](assets/026-picture14.png)\n\nIn which part of the leaf would the concentration of carbon dioxide be lowest on a warm, sunny day?",
      "solution_md": "**Final answer:** **The correct answer is ****B ****because:**\n\nThe concentration of carbon dioxide in the leaf would be at its lowest in regions where the rate of photosynthesis is highest (as carbon dioxide is used up to produce glucose). The cells in the leaf with the highest rate of photosynthesis are the palisade mesophyll cells (cell **B**).\n\n**A** is incorrect because epidermal cells do not have chloroplasts and so do not photosynthesise, so would not be using up carbon dioxide.\n\n**C** is incorrect because xylem and phloem cells do not have chloroplasts, so would not be using up carbon dioxide.\n\n**D** is incorrect because spongy mesophyll cells do not photosynthesise as much as palisade mesophyll cells, as they don’t contain as many chloroplasts.",
      "choices": [
       {
@@ -1020,7 +1331,7 @@
      ],
      "part_tier": null,
      "problem_md": "#### Extended only\n\nThe following could be used to write a balanced symbol equation for photosynthesis.\n\n1. 6CO<sub>2</sub> + 6H<sub>2</sub>O\n2. CO<sub>2</sub> + 6H<sub>2</sub>O\n3. Light and chlorophyll\n4. C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>\n5. 6C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>\n\nWhich of the following show the correct balanced chemical equation for photosynthesis?",
-     "solution_md": "**Final answer:** **The correct answer is ****D**** (1 → 4 in the presence of 3) because:**\n\nThe correct balanced equation for photosynthesis is:\n\n`6 CO subscript 2 space plus space 6 straight H subscript 2 straight O space rightwards arrow from chlorophyll to light of space straight C subscript 6 straight H subscript 12 straight O subscript 6 space plus space 6 straight O subscript 2`\n\n6 molecules of carbon dioxide react with 6 molecules of water to form 1 molecule of glucose and 6 molecules of oxygen.\n\n**A** is incorrect because this option has 1 molecule of carbon dioxide reacting with 6 molecules of water to form 6 molecules of glucose and 6 molecules of oxygen which is not balanced.\n\n**B** is incorrect because this option has 1 molecule of carbon dioxide reacting with 6 molecules of water to form 1 molecule of glucose and 6 molecules of oxygen which is not balanced.\n\n**C** is incorrect because this option has 6 molecules of carbon dioxide reacting with 6 molecules of water to form 6 molecules of glucose and 6 molecules of oxygen which is not balanced.",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** (1 → 4 in the presence of 3) because:**\n\nThe correct balanced equation for photosynthesis is:\n\n`6 CO _ 2 + 6 H _ 2 O -> from chlorophyll to light of C _ 6 H _ 12 O _ 6 + 6 O _ 2`\n\n6 molecules of carbon dioxide react with 6 molecules of water to form 1 molecule of glucose and 6 molecules of oxygen.\n\n**A** is incorrect because this option has 1 molecule of carbon dioxide reacting with 6 molecules of water to form 6 molecules of glucose and 6 molecules of oxygen which is not balanced.\n\n**B** is incorrect because this option has 1 molecule of carbon dioxide reacting with 6 molecules of water to form 1 molecule of glucose and 6 molecules of oxygen which is not balanced.\n\n**C** is incorrect because this option has 6 molecules of carbon dioxide reacting with 6 molecules of water to form 6 molecules of glucose and 6 molecules of oxygen which is not balanced.",
      "choices": [
       {
        "label": "A",
@@ -1041,6 +1352,15 @@
        "label": "D",
        "is_correct": true,
        "text_md": "1 → 4 in the presence of 3"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "6 CO subscript 2 space plus space 6 straight H subscript 2 straight O space rightwards arrow from chlorophyll to light of space straight C subscript 6 straight H subscript 12 straight O subscript 6 space plus space 6 straight O subscript 2",
+       "render": "`6 CO _ 2 + 6 H _ 2 O -> from chlorophyll to light of C _ 6 H _ 12 O _ 6 + 6 O _ 2`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1070,7 +1390,7 @@
       "spcpt_BwK89dHxRfBFMjzg"
      ],
      "part_tier": null,
-     "problem_md": "A student sets up a photosynthesis experiment.\n\nA plant with striped leaves (similar to the one shown below) was kept in bright light for four hours.\n\n![K44yEXqo_picture9](assets/010-k44yexqo-picture9.png)\n\nA leaf was removed from the plant and treated with ethanol in hot water to remove chlorophyll before iodine was used to test for starch.\n\nWhich diagram shows the result of the test?",
+     "problem_md": "A student sets up a photosynthesis experiment.\n\nA plant with striped leaves (similar to the one shown below) was kept in bright light for four hours.\n\n![K44yEXqo_picture9](assets/027-k44yexqo-picture9.png)\n\nA leaf was removed from the plant and treated with ethanol in hot water to remove chlorophyll before iodine was used to test for starch.\n\nWhich diagram shows the result of the test?",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- The green area of the leaf would have been able to **photosynthesise**, producing glucose which is converted into **starch**. When the chlorophyll which is green has been removed from the leaf, the **starch** in that area would turn **iodine** **blue-black**\n- The outer rim of the leaf does not contain chlorophyll (as it is white) so would not be able to photosynthesise, so no starch would be present and the iodine remains yellow-brown\n\n**A** is incorrect because the outer part of the leaf does not contain chlorophyll and would therefore not be able to photosynthesise, so starch would not be present in this area to turn iodine blue-black.\n\n**B** is incorrect because no area of the leaf remains green after chlorophyll has been extracted. The iodine would stain the inner region blue-black.\n\n**D** is incorrect because iodine would stain the outer rim of the leaf yellow-brown, it would not remain white.",
      "choices": [
       {
@@ -1121,7 +1441,7 @@
       "spcpt_QpJ9pvTTFqX996sr"
      ],
      "part_tier": null,
-     "problem_md": "The average number of chloroplasts found in four different types of cell from the leaf of a plant are shown in the bar chart below.\n\n![picture5](assets/011-picture5.png)\n\nWhat are the names of the four types of cell?\n\n|   | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| **A** | spongy mesophyll cell | epidermal cell | palisade mesophyll cell | guard cell |\n| **B** | palisade mesophyll cell | guard cell | spongy mesophyll cell | epidermal cell |\n| **C** | epidermal cell | spongy mesophyll cell | palisade mesophyll cell | guard cell |\n| **D** | palisade mesophyll cell | spongy mesophyll cell | guard cell | epidermal cell |",
+     "problem_md": "The average number of chloroplasts found in four different types of cell from the leaf of a plant are shown in the bar chart below.\n\n![picture5](assets/028-picture5.png)\n\nWhat are the names of the four types of cell?\n\n|   | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| **A** | spongy mesophyll cell | epidermal cell | palisade mesophyll cell | guard cell |\n| **B** | palisade mesophyll cell | guard cell | spongy mesophyll cell | epidermal cell |\n| **C** | epidermal cell | spongy mesophyll cell | palisade mesophyll cell | guard cell |\n| **D** | palisade mesophyll cell | spongy mesophyll cell | guard cell | epidermal cell |",
      "solution_md": "**Final answer:** **The correct answer is ****B ****because:**\n\n**Palisade** mesophyll cells contain the **most** chloroplasts, followed by spongy mesophyll cells. **Guard** **cells** contain a **small** **number** of **chloroplasts** (far fewer than either mesophyll cell).\n\nPalisade mesophyll cells are found towards the top of the leaf and therefore have access to more sunlight hitting them than the cells of the spongy mesophyll; this is why they contain greater numbers of chloroplasts than spongy mesophyll cells.\n\nGuard cells have a smaller number of chloroplasts; they indirectly help control stomatal opening and closing.\n\nEpidermal cells in the leaf do not contain chloroplasts. Cells in the upper epidermal layer need to allow light to penetrate the mesophyll layers below, and cells in the lower epidermal layer do not receive enough sunlight to photosynthesise.",
      "choices": [
       {
@@ -1172,7 +1492,7 @@
       "spcpt_BwK89dHxRfBFMjzg"
      ],
      "part_tier": null,
-     "problem_md": "Two test tubes are set up with two similar leaves inside them, as shown in the diagram below.\n\nOne test tube is exposed to light, while the other is kept in the dark.\n\n![XCyLLKrC_picture8](assets/012-xcyllkrc-picture8.png)\n\nThe test tubes are left for 4 hours.\n\nWhat colour will the hydrogencarbonate indicator solution be in each test tube?\n\n|   | dark | light |\n|---|---|---|\n| **A** | purple | yellow |\n| **B** | colourless | yellow |\n| **C** | purple | colourless |\n| **D** | yellow | purple |",
+     "problem_md": "Two test tubes are set up with two similar leaves inside them, as shown in the diagram below.\n\nOne test tube is exposed to light, while the other is kept in the dark.\n\n![XCyLLKrC_picture8](assets/029-xcyllkrc-picture8.png)\n\nThe test tubes are left for 4 hours.\n\nWhat colour will the hydrogencarbonate indicator solution be in each test tube?\n\n|   | dark | light |\n|---|---|---|\n| **A** | purple | yellow |\n| **B** | colourless | yellow |\n| **C** | purple | colourless |\n| **D** | yellow | purple |",
      "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\nIn the presence of **low** levels of **carbon dioxide** hydrogencarbonate **indicator** changes colour from red to **purple**, whereas in high levels of carbon dioxide hydrogencarbonate indicator changes colour from red to **yellow**.\n\nThe leaf in the test tube on the left is able to **photosynthesise** as it is exposed to **light**, so carbon dioxide is absorbed from the air surrounding the leaf, lowering the level of carbon dioxide so that the indicator turns **purple**. Even though the plant leaf will be respiring, the rate of respiration will probably be lower than the rate of photosynthesis.\n\nThe leaf in the test tube on the right is not exposed to light and so will not photosynthesise (it is in the dark). However, it will **respire**, **producing carbon dioxide**. Levels of carbon dioxide in the air surrounding the leaf increase, turning the indicator yellow.",
      "choices": [
       {
@@ -1223,7 +1543,7 @@
       "spcpt_rB4QVJDcCJF98PVb"
      ],
      "part_tier": null,
-     "problem_md": "An experiment is set up with four test tubes as shown in the diagram below.\n\nAll four test tubes are left in sunlight for 6 hours.\n\nWhich test tube would contain the least amount of dissolved carbon dioxide after 6 hours?\n\n![tv02bT3k_picture2](assets/013-tv02bt3k-picture2.png)",
+     "problem_md": "An experiment is set up with four test tubes as shown in the diagram below.\n\nAll four test tubes are left in sunlight for 6 hours.\n\nWhich test tube would contain the least amount of dissolved carbon dioxide after 6 hours?\n\n![tv02bT3k_picture2](assets/030-tv02bt3k-picture2.png)",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- The test tube contains pondweed, which in the presence of light can **photosynthesise**. As a result, carbon dioxide levels in the water will decrease\n- A carbon dioxide diffusion gradient is set up between the water and the leaves  as photosynthesis occurs, resulting in **diffusion** of carbon dioxide **into** the leaf for photosynthesis\n\n**A** is incorrect because there is nothing in the test tube photosynthesising or respiring, so the concentration of carbon dioxide in the water will not change.\n\n**B** is incorrect because although the **pondweed** in the test tube will be **photosynthesising** and therefore decreasing the carbon dioxide concentration of the water, the **snail** will be **respiring** and so releasing carbon dioxide. There will be more carbon dioxide than in test tube **C**.\n\n**D** is incorrect because the test tube contains a snail which will be **respiring** and therefore releasing carbon dioxide into the water, increasing the overall amount.",
      "choices": [
       {
@@ -1326,7 +1646,7 @@
       "spcpt_QpJ9pvTTFqX996sr"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows a section through a leaf.\n\nWhich cell type would have the highest concentration of oxygen on a bright, sunny day?\n\n![6-q7-cross-section](assets/014-6-q7-cross-section.png)",
+     "problem_md": "The diagram below shows a section through a leaf.\n\nWhich cell type would have the highest concentration of oxygen on a bright, sunny day?\n\n![6-q7-cross-section](assets/031-6-q7-cross-section.png)",
      "solution_md": "**Final answer:** **The correct answer is ****A ****because:**\n\n**A** is a palisade mesophyll cell which is where most photosynthesis takes place (due to palisade mesophyll cells having the highest concentration of chloroplasts). The more photosynthesis occurring, the greater the amount of oxygen produced as a waste product. Some oxygen will be used up by each type of plant cell in the process of aerobic respiration, but the amounts are similar in each type of cell.\n\n**B** is incorrect because it is part of the vascular bundle (xylem and phloem); these tissues do not contain chloroplasts.\n\n**C** is incorrect because it is a spongy mesophyll cell which has fewer chloroplasts than the palisade cells (so photosynthesises less).\n\n**D** is incorrect because it is an epidermal cell. Epidermal cells do not contain chloroplasts so do not photosynthesise.",
      "choices": [
       {
@@ -1530,7 +1850,7 @@
       "spcpt_8PMns5BkXxpCK6fj"
      ],
      "part_tier": null,
-     "problem_md": "A student sets up an experiment to measure the rate of oxygen production of an aquatic plant when it is photosynthesising.\n\nThe student repeated the experiment several times to calculate the average amount of oxygen collected.\n\nWhich two factors should be kept constant during the student’s experiment?\n\n![insert-diagram-6-q9-experiment](assets/015-insert-diagram-6-q9-experiment.png)",
+     "problem_md": "A student sets up an experiment to measure the rate of oxygen production of an aquatic plant when it is photosynthesising.\n\nThe student repeated the experiment several times to calculate the average amount of oxygen collected.\n\nWhich two factors should be kept constant during the student’s experiment?\n\n![insert-diagram-6-q9-experiment](assets/032-insert-diagram-6-q9-experiment.png)",
      "solution_md": "**Final answer:** **The correct answer is ****B**** (the size of the aquatic plant and time exposed to light.) because:**\n\n- A smaller plant would photosynthesise less than a larger plant, affecting the amount of gas produced each time\n- The time of exposure to **light** is also a control variable as light is necessary for photosynthesis to occur, so each time the experiment is run the plants should be exposed to the same amount of light\n\n**A** is incorrect because neither the beaker nor the funnel will affect the rate of photosynthesis.\n\n**C** is incorrect because water is already in excess, the exact amount is not important as long as there is water in the measuring cylinder to be displaced by any gas produced by the plant and readings are taken before and after each experiment.\n\n**D** is incorrect because the amount of gas in the measuring cylinder is the dependent variable, not a control variable.",
      "choices": [
       {
@@ -1582,7 +1902,7 @@
       "spcpt_QpJ9pvTTFqX996sr"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows a palisade mesophyll cell found in the leaves of plants.\n\nIn which region of the cell would starch be stored?\n\n![eeEIuXLc_picture4](assets/016-eeeiuxlc-picture4.png)",
+     "problem_md": "The diagram below shows a palisade mesophyll cell found in the leaves of plants.\n\nIn which region of the cell would starch be stored?\n\n![eeEIuXLc_picture4](assets/033-eeeiuxlc-picture4.png)",
      "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\nIt represents the chloroplasts which are the organelles where photosynthesis occurs. They contain chlorophyll which absorb light energy.\n\n**A** is incorrect because this is the nucleus where genetic information is stored.\n\n**B** is incorrect because this is the vacuole, which contains a solution of sugars and salts and helps the cell maintain its shape.\n\n**C** is incorrect because this is the cell wall which contains the polymer cellulose which provides structural support to the cell.",
      "choices": [
       {
@@ -1606,6 +1926,1456 @@
        "text_md": ""
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xM7K23HNRTQZTZph",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_y2b2d4cNHKrmVm6c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rB4QVJDcCJF98PVb"
+     ],
+     "part_tier": null,
+     "problem_md": "A student monitored their breathing rate before, during, and after an exercise period. The exercise period began at minute 1 and ended at minute 7.\n\nThe results are shown in Fig. 2.1.\n\n![Line graph showing breathing rate over 14 minutes, peaking at 32 breaths per minute at 7 minutes, then declining steadily.](assets/034-line-graph-showing-breathing-rate-over-14-minute.png)\n\n**Fig. 2.1**\n\nDetermine the breathing rate at minute 4 and at minute 8 in Fig. 2.1.",
+     "solution_md": "> **[mark-scheme]**\n> - Minute 4 = 17 breaths per minute **[1 mark]**\n> - Minute 8 = 29 breaths per minute **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_38BRwV27fYMX68hb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rB4QVJDcCJF98PVb"
+     ],
+     "part_tier": null,
+     "problem_md": "During a race, a runner's breathing rate remains constant at 26 breaths per minute for 7 minutes.\n\nCalculate the total number of breaths the runner takes during the race.",
+     "solution_md": "To calculate the total number of breaths the runner takes during the race:\n\n- Multiply the average breath rate by the total number of minutes\n\n= 26 x 7 **[1 mark]**\n\n= **182** (breaths) **[1 mark]**\n\n> **[mark-scheme]**\n> Award full marks for the correct answer in the absence of additional calculations."
+    }
+   ]
+  },
+  {
+   "id": "qstn_C25D5QDrxBgBbQ7f",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_cTWbZ876PGVdGDVV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0970/31",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jMd7ZNTNqdJtbhVx",
+      "spcpt_5PsDhK6cgBrSCHFD"
+     ],
+     "part_tier": null,
+     "problem_md": "Photosynthesis and germination have different requirements.\n\n(i) State the word equation for photosynthesis.\n\n[2]\n\n(ii) State the name of **one** condition needed for both photosynthesis and germination.\n\n[1]",
+     "solution_md": "(i)\n\n- carbon dioxide + water;** [1 mark]**\n- → glucose + oxygen;** [1 mark]**\n\n*Note that the question specifically asks for the word equation so you would not achieve marks for using the symbols.*\n\n(ii)\n\n- Water **OR** optimum / suitable temperature; **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_53Z4ZGMFGkzwMRDH",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_mCdp2nfcW5dkQRYj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "0970/31",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jMd7ZNTNqdJtbhVx"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the conditions needed for germination of seeds.\n\nFig. 8.1 shows the apparatus and conditions used.\n\n![Diagram showing four test tubes labelled A, B, C, D with seeds. A and C have wet and dry soil in light; B and D in dark with a box to exclude light.](assets/035-diagram-showing-four-test-tubes-labelled-a-b-c-d.png)\n\nThe seeds in test-tubes **A** and **B **germinated but the seeds in test-tubes **C** and **D** did not germinate.\n\n(i) Use the information in Fig. 8.1 to state** one **condition required for germination.\n\n[1]\n\n(ii) Use the information in Fig. 8.1 to state** one **condition not required for germination.\n\n[1]\n\n(iii) The investigation was repeated with seeds that had been boiled for 10 minutes and then cooled.\n\nPredict and explain the effect of boiling on the results.\n\n[2]",
+     "solution_md": "(i)\n\n- Water; **[1 mark]**\n\nThe results show that seeds with access to water grew whereas those without did not.\n\n(ii)\n\n- Light; **[1 mark]**\n\nThe results show that seeds with no access to light still grew if they had access to water.\n\n(iii)\n\n- No seeds germinate / grow; **[1 mark]**\n- (Because) seeds are killed / damaged **OR** enzymes are destroyed;**[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rgNjzzKtKXvzXjJz",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_HctNjJ3Xy7J6Pv5D",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_7rYkZNxvfrCvMRPr"
+     ],
+     "part_tier": null,
+     "problem_md": "Water is required for the process of photosynthesis.\n\n(i)\n\nDescribe where and how water enters a plant.\n\n[3]\n\n(ii)\n\nDescribe one function of water in a plant other than for photosynthesis.\n\n[1]\n\n(iii)\n\nState the name of the tissue in a plant that transports water.\n\n[1]\n\n(iv)\n\nState the name of the part of a leaf through which most water vapour is lost from the plant\n\n[1]",
+     "solution_md": "(i) \nAny three from:\n\n- (Water moves) into the root; **[1 mark]**\n- (Via) root hair cells; **[1 mark]**\n- Through the cell walls; **[1 mark]**\n- Across a partially permeable membrane; **[1 mark]**\n- By osmosis; **[1 mark]**\n\n(ii)\n\n- Support / transport of mineral ions / solvent / coolant; **[1 mark]**\n\n(iii)\n\n- Xylem; **[1 mark]**\n\n(iv)\n\n- Stoma(ta); **[1 mark]**\n\n**[Total: 6 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WNJMRhd9XXzpMkFt",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_nCR82T58zZWJKy4Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_zWw6jqdvgXTt2kdq",
+      "spcpt_Hq7NkC4XhTcFMwqb"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 4.1 is a diagram of a variegated leaf from a plant. The plant was exposed to sunlight so that it could photosynthesise.\n\n![image-6-1-mq6](assets/036-image-6-1-mq6.png)\n\nA student tested the leaf for starch and found that:\n\n• starch was present in the green part of the leaf \n• there was no starch in the white part of the leaf.\n\nExplain the results of this test.",
+     "solution_md": "Any four from:\n\n- Chlorophyll is required (for photosynthesis); **[1 mark]**\n- Chlorophyll absorbs light energy (for photosynthesis); **[1 mark]**\n- Only the green part contains chlorophyll; **[1 mark]**\n- And produces glucose; **[1 mark]**\n- Glucose is converted to / stored as starch; **[1 mark]**\n\nThe reverse points said about the white part of the leaf could also gain marks here, for example instead of saying that that green part contains chlorophyll you could say that the white part does not contain chlorophyll for that mark instead.\n\nRemember that glucose must be stored as starch to prevent it affecting osmosis in the cells of the leaf.\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sjJPGgSGr6Zrrcf2",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_FYNdGTsrMCMgFKwq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/41",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BX3yd2fGdZ5rnyXr"
+     ],
+     "part_tier": null,
+     "problem_md": "The rate of photosynthesis of terrestrial plants can be determined by measuring the uptake of carbon dioxide.\n\nExplain why plants take up carbon dioxide during photosynthesis.",
+     "solution_md": "Plants take up carbon dioxide during photosynthesis because:\n\n- Carbon dioxide is a raw material / substrate/reactant; **[1 mark]**\n- The concentration of carbon dioxide is higher outside the leaf than inside (so carbon dioxide diffuses into the leaf); **[1 mark]**\n\n***Accept*** *for one mark the statement that carbon dioxide is used in photosynthesis to make glucose.*\n\n**[Total: 2 marks]**\n\n> *Be careful not to describe the **production** of carbon dioxide in respiration, as this is not what the question is asking about!*\n\n> *This question part covers core content but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_Y325BfztHnXjhrcZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/41",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "The rate of photosynthesis of parts of individual leaves can be measured using a hand-held device as shown in Fig. 1.\n\n![cie-igcse-2019-paper4-2b](assets/037-cie-igcse-2019-paper4-2b.png)\n\n**Fig. 1**\n\nThis apparatus allows air to flow through the transparent chamber that encloses part of the leaf. The apparatus measures the carbon dioxide concentration of the air entering and leaving the chamber.\n\nExplain how the results from the apparatus can be used to calculate the rate of photosynthesis.",
+     "solution_md": "The results from the apparatus can be used to calculate the rate of photosynthesis in the following way:\n\nAny **two **from the following:\n\n- Subtract the concentration of carbon dioxide at the end / leaving the chamber from the concentration at the start / entering the chamber; **[1 mark]**\n- Divide by the time (taken) / per unit time; **[1 mark]**\n- Taking (rate of) respiration into account; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The key here is to find the **difference** between the concentrations of carbon dioxide entering the leaf (this is the air entering the chamber)and leaving the leaf (this is the air leaving the chamber), and then to divide this value by the **time taken**. The reason it is important to take the **rate of respiration** of the leaf into account is that some of the carbon dioxide produced by respiration is then used in photosynthesis, so this will slightly reduce the accuracy of the measurements.*\n\n> *This question part covers core content but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_2gTVHVnJYCRyXxPR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/41",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT",
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student used the apparatus shown in Fig. 1 to investigate the effect of temperature on the rate of photosynthesis of the leaves of Chinese plantain, Plantago asiatica, at two different concentrations of carbon dioxide, A and B. Fig. 2 shows the results of the investigation. In Fig. 2, the rate of photosynthesis (μmol per m^2 per s) is plotted against the temperature of leaves (°C) for two CO2 concentrations: A (370 ppm CO2) and B (1000 ppm CO2). At 30°C, the rate of photosynthesis for A is 22 μmol per m^2 per s and for B is 30 μmol per m^2 per s. The percentage increase in rate at 30°C when CO2 is increased from A to B is calculated as ((8 ÷ 22) × 100) = 36%.\n\n#### Extended Only\n\nA student used the apparatus shown in Fig. 1 to investigate the effect of temperature on the rate of photosynthesis of the leaves of Chinese plantain, *Plantago asiatica*, at two different concentrations of carbon dioxide, **A** and **B**.\n\nFig. 2 shows the results of the investigation.\n\n![cie-igcse-2019-paper4-2c](assets/038-cie-igcse-2019-paper4-2c.png)\n\n**Fig. 2**\n\n(i)\n\nState **one** environmental factor that should have been kept constant in this investigation.\n\n[1]\n\n(ii)\n\nDescribe the effect of temperature on the rate of photosynthesis when carbon dioxide concentration **A** was supplied.\n\nUse the data from Fig. 2 in your answer.\n\n[3]\n\n(iii)\n\nCalculate the percentage increase in the rate of photosynthesis at 30 °C when the carbon dioxide concentration was increased from **A** to **B** as shown in Fig. 2.\n\nShow your working and give your answer to the nearest whole number.\n\n[2]\n\n(iv)\n\nExplain the effect of increasing temperature on the rate of photosynthesis for carbon dioxide concentration **B**.\n\nUse the term *limiting factor* in your answer.\n\n[3]\n\n(v)\n\nThe student concluded that carbon dioxide concentration is the factor limiting the rate of photosynthesis between 30 °C and 35 °C for the results shown for **A** in Fig. 2.\n\nState the evidence for this conclusion.\n\n[1]",
+     "solution_md": "(i) Environmental factors that should have been kept constant in this investigation include:\n\nAny **one **from the following:\n\n- Light <u>intensity</u>; **[1 mark]**\n- Water (supply/availability); **[1 mark]**\n- Humidity; **[1 mark]**\n\n(ii) The effect of temperature on the rate of photosynthesis when carbon dioxide concentration **A** was supplied can be described as follows:\n\n- Increases **AND** reaches a plateau / remains constant / levels off; **[1 mark]**\n- Increases (from 10 °C) to 30 °C / levels off at 30 °C;** [1 mark]**\n- Any comparative use of figures for rate with units at least once, e.g. photosynthesis rate increases from 12 μm per m<sup>2</sup> per s to 22 μm per m<sup>2</sup> per s; **[1 mark]**\n\n(iii) The percentage increase in the rate of photosynthesis at 30 °C when the carbon dioxide concentration was increased from **A** to **B** was:\n\n- (8 ÷ 22) x 100; **[1 mark]**\n- 36 (%); **[1 mark]**\n\n(iv) The effect of increasing temperature on the rate of photosynthesis, for carbon dioxide concentration **B**, can be explained as follows:\n\nAny **three **from the following:\n\n- <u>Temperature</u> is the limiting factor (over whole range); **[1 mark]**\n- Increased temperature increases <u>kinetic</u> energy / <u>KE</u> (of molecules); **[1 mark]**\n- (Increased movement of molecules) increases rate of diffusion of carbon dioxide (into leaf); **[1 mark]**\n- Temperature influences/affects (activity of) <u>enzymes</u>; **[1 mark]**\n- More (effective) collisions occur between substrate molecules and enzymes (in plants) / more enzyme-substrate complexes form; **[1 mark]**\n- More carbon dioxide is fixed / used in photosynthesis / converted into sugar; **[1 mark]**\n- Carbon dioxide (concentration) is <u>not</u> limiting; **[1 mark]**\n\n*A maximum of ***[2 marks]*** to be awarded here if the term ****limiting factor**** is not used.*\n\n(v) The evidence for the conclusion that carbon dioxide concentration is the factor limiting the rate of photosynthesis between 30 °C and 35 °C, for the results shown for **A**, is as follows:\n\n- **B** shows that the rate of photosynthesis is higher / continues to increase if carbon dioxide is increased (at all temperatures); **[1 mark]**\n\n**[Total: 10 marks]**\n\n> *In (c) (i) you would not gain marks for carbon dioxide concentration or temperature as these factors are given in the question and are factors that are deliberately being changed; i.e. they are independent variables. You must use the term '**intensity**' when referring to light as an experimental variable - 'light' on its own is not sufficient.*\n\n> *When quoting rates of photosynthesis in (c) (ii) be careful to include the units and take special care to include the units **in** **full** (e.g. don't forget to include the '**per s**' at the end of the units)!*\n\n![QXw7i0~I_untitled-11](assets/039-qxw7i0-i-untitled-11.png)\n\n> *Remember; if a plant is given unlimited light, CO*<sub>*2*</sub>* (and water) and is at a warm temperature, the limit on the rate at which it can photosynthesise is simply its **own ability** to absorb these materials and allow them to react. However, most often plants do not have unlimited supplies of these raw materials, so their rate of photosynthesis is **limited** by whatever factor is the **lowest** at that time - in this case, **temperature**.*"
+    },
+    {
+     "id": "qstnprt_Ht469xYQ42fPD53g",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/41",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT",
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nA similar investigation was carried out on Arizona honeysweet, *Tidestromia oblongifolia*, that grows in Death Valley in California where the highest temperatures may be greater than 45 °C.\n\nThe results are shown in Fig. 3.\n\n![cie-igcse-2019-paper4-2d](assets/040-cie-igcse-2019-paper4-2d.png)\n\n**Fig. 3**\n\nPredict **and** explain what would happen to the rate of photosynthesis if the investigation is continued at temperatures higher than 45 °C.",
+     "solution_md": "A correct prediction of what would happen to the rate of photosynthesis if the investigation is continued at temperatures higher than 45 °C would be:\n\n- The rate of photosynthesis remains constant/decreases/slows; **[1 mark]**\n\nA correct explanation for this would be:\n\nAny **one** from the following:\n\n- Enzymes/active sites are denatured (at high temperatures); **[1 mark]**\n- Stomata close so little/no carbon dioxide can enter leaves; **[1 mark]**\n- Plant is adapted to survive at high temperatures; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SDddjTVG6rmRBJDM",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_wqRfdcDrjbT2xF2W",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BwK89dHxRfBFMjzg",
+      "spcpt_79pKS5qMBVm9kChz"
+     ],
+     "part_tier": null,
+     "problem_md": "The apparatus shown in Fig. 1 was used to investigate the effects of different conditions on the rate of photosynthesis in an aquatic plant.\n\n![Mwh8Idbd_picture10](assets/041-mwh8idbd-picture10.png)\n\n**Fig. 1**\n\nA student investigated the effects of light and carbon dioxide on the rate of photosynthesis.\n\nThe number of bubbles of oxygen produced in one minute was counted in four different conditions.\n\nTable 1 shows the results.\n\n**Table 1**\n\n| test | conditions | number of bubbles of oxygen per minute |   |\n|---|---|---|---|\n| light | carbon dioxide source added to the water |   |   |\n| 1 | present | no | 2 |\n| 2 | absent | no | 0 |\n| 3 | present | yes | 20 |\n| 4 | absent | yes | 0 |\n\nState **two** conclusions about the conditions needed for photosynthesis using the information in Table 1.",
+     "solution_md": "The following conclusions can be made about the conditions needed for photosynthesis:\n\n- Light is needed (for photosynthesis); **[1 mark]**\n- Carbon dioxide is needed for / increases the rate (of photosynthesis) **OR** no / low levels of carbon dioxide results in a low rate of photosynthesis / few bubbles released; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Light and carbon dioxide are essential for photosynthesis to occur. Sunlight is trapped by chlorophyll in plant cells to provide energy for the process of photosynthesis. Carbon dioxide is an important raw material needed to produce glucose.*"
+    },
+    {
+     "id": "qstnprt_xj8mhB78sXgKsk5P",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_BwK89dHxRfBFMjzg",
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| test | conditions | number of bubbles of oxygen per minute |\n| light | carbon dioxide source added to the water |\n| 1 | present | no | 2 |\n| 2 | absent | no | 0 |\n| 3 | present | yes | 20 |\n| 4 | absent | yes | 0 |\n\nThe investigation was carried out at 15 °C. It was repeated at 25 °C.\n\nSuggest **and** explain the effect this had on the results of test **2** and test **3**.",
+     "solution_md": "The effect that an increase in temperature would have on the results of test **2** and **3** would be as follows:\n\n**Test 2:**\n\nA maximum of **two **of the following:\n\n- (The results) will stay the same / no (oxygen) bubbles (are released / produced); **[1 mark]**\n- (This is because) no photosynthesis occurred; **[1 mark]**\n- (Due to) no light / carbon dioxide (being present); **[1 mark]**\n\n**Test 3:**\n\nA maximum of **two **of the following:\n\n- The number of oxygen bubbles increases; **[1 mark]**\n- (This is because) there is an increase in the rate of photosynthesis/reaction / more photosynthesis is occurring; **[1 mark]**\n- (Due to) enzymes being more active / gaining more/increased (kinetic) energy; **[1 mark]**\n\n**OR**\n\n- The number of oxygen bubbles decreases; **[1 mark]**\n- (This is because) there is a decrease in the rate of photosynthesis/reaction / less/no photosynthesis is occurring; **[1 mark]**\n- (Due to) high temperatures causing enzymes to denature / not work **OR** (due to) a decrease in the solubility of carbon dioxide; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *For this question, you need to be familiar with the effects of an increase in temperature on photosynthesis. Remember that in test 2 there is no light or carbon dioxide present, so increasing the temperature will have no effect, but in test 3 the increase in temperature will have a definite impact on the rate of photosynthesis.*"
+    },
+    {
+     "id": "qstnprt_GqsnZFnPHpZQdFY2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon dioxide enters plant cells by diffusion.\n\nThe word diffusion on the left can be joined to two boxes on the right to make two correct statements about diffusion.\n\nDraw **two** straight lines from diffusion to the boxes to complete the two statements.\n\n![2018-nov-s1-061031-q2c](assets/042-2018-nov-s1-061031-q2c.png)",
+     "solution_md": "The correct statements that refers to diffusion is as follows:\n\n![2018-nov-s1-061031-q2cma](assets/043-2018-nov-s1-061031-q2cma.png)\n\n**[Total: 2 marks]**\n\n> *Diffusion is the movement of particles from a high to a low concentration. Another way of saying this is that particles move down their concentration gradient. This is a process that occurs in all living cells, but it can also occur in the environment around us (think about how odours can spread across a room or how a few drops of food colouring can change the colour of water in a glass if left for long enough). No energy is required for this type of movement and it occurs due to the random movement of particles.*"
+    },
+    {
+     "id": "qstnprt_pdS6QzN5zvbfsJtq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BX3yd2fGdZ5rnyXr",
+      "spcpt_5PsDhK6cgBrSCHFD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 2:\n| total volume of water absorbed by the roots / cm^3 | volume of water lost by transpiration / cm^3 | volume of water used during photosynthesis / cm^3 |\n| 265 | 262.4 | 2.6 |\n\nTable 2 shows the volume of water absorbed, as well as the water usage by a plant over a period of 24 hours.\n\n**Table 2**\n\n| total volume of water absorbed by the roots / cm<sup>3</sup> | volume of water lost by transpiration / cm<sup>3</sup> | volume of water used during photosynthesis / cm<sup>3</sup> |\n|---|---|---|\n| 265 | 262.4 | 2.6 |\n\n(i)\n\nCalculate the percentage of water used during photosynthesis.\n\nShow your working and give your answer to **two** decimal places.\n\n[2]\n\n(ii)\n\nUse the information in Table 2 and your answer at part (i) to explain why water is usually **not** a limiting factor of photosynthesis.\n\n[1]",
+     "solution_md": "(i) The percentage water used during photosynthesis can be calculated as follows...\n\n- (2.6 ÷ 265) x 100; **[1 mark]**\n- 0.98 (%); **[1 mark]**\n\n*Full marks awarded in the absence of other calculations Maximum of ***[1 mark]*** if answer is not given to two decimal places*\n\n![QMBWBCIq_photosynthesis](assets/044-qmbwbciq-photosynthesis.png)\n\n(ii) The reason why water is usually not a limiting factor...\n\n- Very little water is used during / required for photosynthesis **OR** most water is lost during transpiration; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_q6BnZX8T6kfH9YM9",
+   "set_slug": "theory-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_sGF2dvv4nPj5Nvgb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nFig. 1 shows the effect of several different factors on the growth of strawberry plants in a greenhouse.\n\n![limiting-factors-and-photosynthesis-2](assets/045-limiting-factors-and-photosynthesis-2.png)\n\n**Fig. 1**\n\nDescribe and explain how temperature and light intensity affected the rate of photosynthesis up until 20°C.",
+     "solution_md": "Light intensity and temperature affected the rate of photosynthesis in the following ways...\n\nAny **four** of the following:\n\n- As temperature increases, the rate of photosynthesis also increases (for both light intensities) until the optimum temperature is reached; **[1 mark]**\n- (This is because) enzyme activity is faster/increases as temperature increases **OR** as temperature increases it becomes less of a limiting factor; **[1 mark]**\n- Plants grown at a low(er) light intensity had a lower rate of photosynthesis (than those grown at high(er) light intensity); **[1 mark]**\n- (This is because) at low light intensity, light is a limiting factor / less light is available for photosynthesis **OR** at high light intensity there is more light available for photosynthesis / light is not a limiting factor; **[1 mark]**\n- Any data point correctly read from the graph to support marking points e.g. optimum temperature for plants grown at low light intensity is 16/17/18°C;** [1 mark]**\n\n**[Total: 4 marks]**\n\n> *Correctly reading from a graph to support your answer is always worth a mark in questions that require you to describe or explain trends in a graph.*"
+    },
+    {
+     "id": "qstnprt_9ZnZ7DgT8hP2xvSS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nIdentify the limiting factor(s) between point **X** and **Y** in Fig. 1.",
+     "solution_md": "The limiting factors between point **X** and **Y** is...\n\n- Temperature; **[1 mark]**\n- Light <u>intensity</u>; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_xVSTv6NPwDgsRgpn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAt 25°C, the net rate of photosynthesis for plants grown at high light intensity is 2.95 mg g⁻¹ h⁻¹ and for plants grown at low light intensity is 1.5 mg g⁻¹ h⁻¹.\n\n#### Extended only\n\nCalculate the percentage difference in the rate of photosynthesis at 25°C in the plants grown at low and high light intensity. Show your working and give your answer to one decimal place.",
+     "solution_md": "The percentage difference in the rate of photosynthesis at 25°C can be calculated as follows...\n\n- (1.45 ÷ 1.5) x 100; **[1 mark]**\n- 96.7(%); **[1 mark]**\n\n*Full marks awarded for the correct answer in the absence of other calculations*\n\n**[Total: 2 marks]**\n\n![light-intensity](assets/046-light-intensity.png)"
+    },
+    {
+     "id": "qstnprt_xk7hDncYP7BkZGpW",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nLight intensity and temperature affected the rate of photosynthesis in the following ways...\n\nAny four of the following:\n\n- As temperature increases, the rate of photosynthesis also increases (for both light intensities) until the optimum temperature is reached; [1 mark]\n- (This is because) enzyme activity is faster/increases as temperature increases OR as temperature increases it becomes less of a limiting factor; [1 mark]\n- Plants grown at a low(er) light intensity had a lower rate of photosynthesis (than those grown at high(er) light intensity); [1 mark]\n- (This is because) at low light intensity, light is a limiting factor / less light is available for photosynthesis OR at high light intensity there is more light available for photosynthesis / light is not a limiting factor; [1 mark]\n- Any data point correctly read from the graph to support marking points e.g. optimum temperature for plants grown at low light intensity is 16/17/18°C; [1 mark]\n\nCorrectly reading from a graph to support your answer is always worth a mark in questions that require you to describe or explain trends in a graph.\n\n#### Extended only\n\nExplain why light intensity is no longer limiting the rate of photosynthesis at temperatures higher than 30°C.",
+     "solution_md": "Light intensity is no longer limiting the rate of photosynthesis at temperatures higher than 30°C because...\n\n- The enzymes (involved with photosynthesis) will denature at high temperatures; **[1 mark]**\n- This will decrease the rate of photosynthesis (regardless of the level of light intensity); **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_J4QYjQcG7YmsDfFJ",
+   "set_slug": "theory-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_6V2ybqbnMvMfHWQd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_R35kB4QywtG2qyYy"
+     ],
+     "part_tier": null,
+     "problem_md": "A student carried out an investigation into the effect of soil magnesium on plant growth.\n\nIn this investigation, the student set up two different environments as follows:\n\n1. One plant was grown in sterile soil, provided with distilled water and placed in bright light.\n2. One plant was grown in sterile soil, provided with magnesium dissolved in distilled water and placed in bright light.\n\nPredict what the student will have observed after two weeks of growing in these conditions.",
+     "solution_md": "The student will have made the following observation...\n\n- The plant that had been provided with water and magnesium / plant 2 will have shown a greater amount of growth (compared to the other plant / plant 1); **[1 mark]**\n- Plant 1 will have yellow leaves; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_SdgZQFdS2Fp3Wbgw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_R35kB4QywtG2qyYy"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student carried out an investigation into the effect of soil magnesium on plant growth.\n\nIn this investigation, the student set up two different environments as follows:\n\n1. One plant was grown in sterile soil, provided with distilled water and placed in bright light.\n2. One plant was grown in sterile soil, provided with magnesium dissolved in distilled water and placed in bright light.\n\nPredict what the student will have observed after two weeks of growing in these conditions.\n\nThe student will have made the following observation...\n\n- The plant that had been provided with water and magnesium / plant 2 will have shown a greater amount of growth (compared to the other plant / plant 1);\n- Plant 1 will have yellow leaves;\n\nExplain your prediction from part (a).",
+     "solution_md": "An explanation of the prediction at part (a) would include...\n\nAny **four** from the following:\n\n- Magnesium is needed for production of chlorophyll / chloroplasts; **[1 mark]**\n- **In plant 1, lack of chlorophyll results in yellow leaves; [1 mark]**\n- In plant 1, chlorophyll / chloroplasts are limiting factors **OR ** in plant 2 there is more chlorophyll / chlorophyll is not a limiting factor; **[1 mark]**\n- More chlorophyll means more light can be absorbed for photosynthesis; **[1 mark]**\n- More photosynthesis means more glucose; **[1 mark]**\n- More glucose means more growth / more proteins / cellulose; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_2dXht4CNgk8cjdZD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BX3yd2fGdZ5rnyXr",
+      "spcpt_5PsDhK6cgBrSCHFD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student carried out an investigation into the effect of soil magnesium on plant growth.\n\nIn this investigation, the student set up two different environments as follows:\n\n1. One plant was grown in sterile soil, provided with distilled water and placed in bright light.\n2. One plant was grown in sterile soil, provided with magnesium dissolved in distilled water and placed in bright light.\n\nWhen selecting the plants for the investigation in part (a), the student made sure that they picked plants with the same number of leaves.\n\nExplain why this was necessary.",
+     "solution_md": "The student selected leaves with the same number of leaves..\n\nAny **three** from the following:\n\n- To ensure results were valid / comparable; **[1 mark]**\n- It was a control variable; **[1 mark]**\n- More leaves would mean more chlorophyll / chloroplasts; **[1 mark]**\n- (More chloroplasts would lead to) a faster rate of / more photosynthesis; **[1 mark]**\n\n*Allow converse explanations*\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_fYxrRrH83nvMRwp9",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hq7NkC4XhTcFMwqb"
+     ],
+     "part_tier": null,
+     "problem_md": "One method that can be used to show that photosynthesis has occurred is to test the leaves with iodine.\n\nExplain how this shows that photosynthesis has occurred.",
+     "solution_md": "Testing the leaves with iodine would show that photosynthesis has occurred because...\n\n- Glucose (from photosynthesis) is stored as starch (in the leaves); **[1 mark]**\n- The presence of starch is shown when iodine changes from brown to black; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dhFQBNmdGWQrXG37",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_m72YXYrPB2Pg4Rwd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "An investigation was carried out to test the effect of temperature on the rate of photosynthesis of pondweed.\n\nThe volume of oxygen produced per hour was measured. The results can be seen in Table 1**.**\n\n**Table 1**\n\n| temperature / °C | rate of photosynthesis / cm<sup>3 </sup>hour<sup>-1</sup> |   |   |   |\n|---|---|---|---|---|\n| test 1 | test 2 | test 3 | mean |   |\n| 20 | 18.4 | 19.3 | 19.6 | 19.1 |\n| 25 | 31.6 | 35.1 | 31.9 | 32.8 |\n| 30 | 42.9 | 44.2 | 44.9 | 44.0 |\n| 35 | 40.6 | 39.8 | 42.0 | 40.8 |\n| 40 | 23.1 | 20.5 | 22.4 | 22.0 |\n| 45 | 1.9 | 14.2 | 2.2 | **X** |\n\nCalculate the mean rate of photosynthesis per hour when the temperature was 45 °C.",
+     "solution_md": "The rate of photosynthesis at 45 °C should be calculated as follows:\n\n- (1.9 + 2.2) ÷ 2; **[1 mark]**\n- 2.1 cm<sup>3</sup> / hour<sup>;</sup> **[1 mark]**\n\n**OR**\n\n**Allow [1 mark] for an answer which includes the anomalous result as follows:**\n\n- **(1.9 + 14.2 + 2.2) ÷ 3 = 6.1**\n\n**[Total: 2 marks]**\n\n> *Note that the 14.2 reading was excluded from the results as it is an anomaly.*\n\n![anomaly](assets/047-anomaly.png)"
+    },
+    {
+     "id": "qstnprt_pXqByNdCQVhkhXCy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "plot",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| temperature / °C | rate of photosynthesis / cm^3 ^hour^-1^ |\n| test 1 | test 2 | test 3 | mean |\n| 20 | 18.4 | 19.3 | 19.6 | 19.1 |\n| 25 | 31.6 | 35.1 | 31.9 | 32.8 |\n| 30 | 42.9 | 44.2 | 44.9 | 44.0 |\n| 35 | 40.6 | 39.8 | 42.0 | 40.8 |\n| 40 | 23.1 | 20.5 | 22.4 | 22.0 |\n| 45 | 1.9 | 14.2 | 2.2 | **X** |\n\nPlot the results from Table 1 onto an appropriate graph using the graph paper in Fig. 1.\n\n![graph-paper-1](assets/048-graph-paper-1.png)\n\n**Fig. 1**",
+     "solution_md": "The graph should be plotted as follows:\n\n- Sensible, linear scale;** [1 mark]**\n- Axis labelled correctly (both X and Y); **[1 mark]**\n- Points plotted correctly; **[1 mark]**\n- Line chart with suitable line/curve of best fit; **[1 mark]**\n- Units included; **[1 mark]**\n\n**[Total: 5 marks]**\n\n![ma-rate-of-ps](assets/049-ma-rate-of-ps.png)"
+    },
+    {
+     "id": "qstnprt_jdY7rpgmDbBqWj4f",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn investigation was carried out to test the effect of temperature on the rate of photosynthesis of pondweed.\n\nThe volume of oxygen produced per hour was measured. The results can be seen in Table 1.\n\nTable 1\n\ntemperature / °C | rate of photosynthesis / cm^3 hour^-1^\n| test 1 | test 2 | test 3 | mean |\n| 20 | 18.4 | 19.3 | 19.6 | 19.1 |\n| 25 | 31.6 | 35.1 | 31.9 | 32.8 |\n| 30 | 42.9 | 44.2 | 44.9 | 44.0 |\n| 35 | 40.6 | 39.8 | 42.0 | 40.8 |\n| 40 | 23.1 | 20.5 | 22.4 | 22.0 |\n| 45 | 1.9 | 14.2 | 2.2 | X |\n\nNote that the 14.2 reading was excluded from the results as it is an anomaly.\n\nDescribe and explain the results shown in the graph.",
+     "solution_md": "The results on the graph can be explained as follows:\n\nAny **four** from the following:\n\n- As temperature increases, so does the rate of photosynthesis, up to 30 °C; **[1 mark]**\n- This is because an increase in temperature increases enzyme activity / kinetic energy so the rate of reaction increases; **[1 mark]**\n- After 30 °C the rate of photosynthesis decreases; **[1 mark]**\n- This is because an increase in temperature past the optimum temperature results in enzymes being denatured so photosynthesis cannot occur; **[1 mark]**\n- The optimum temperature is between 30 and 35 °C; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_2YGy7fJDYSxw3yFX",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 1\n\ntemperature / °C | rate of photosynthesis / cm^3 ^hour^-1^ | test 1 | test 2 | test 3 | mean\n...\n30 | 42.9 | 44.2 | 44.9 | 44.0\n...\n\nThe mean rate of photosynthesis per hour when the temperature was 30 °C is 44.0 cm^3^/hr.\n\nA farmer growing strawberries in his greenhouse used the results in Table 1 to decide on the best temperature for his greenhouse. He decided to heat the greenhouse to 30 °C.\n\nWhen the farmer measured the rate of photosynthesis of his plants, he found the rate to be 11.5% slower than the data suggested.\n\nCalculate the rate of photosynthesis that the farmer actually achieved at 30 °C.",
+     "solution_md": "The rate of photosynthesis that the farmer achieved at 30 °C can be calculated as follows:\n\n- Predicted rate = 44 cm<sup>3</sup> / hr; **[1 mark]**\n- 11.5 %  = (44 / 100) X 11.5 = 5.06; **[1 mark]**\n- Actual rate = 44 - 5.06; **[1 mark]**\n- = 38.94 / 38.9 / 39 cm<sup>3</sup> hr<sup>-1</sup>; **[1 mark]**\n\n*Allow full marks for correct calculations using readings from students own graph*\n\n**[Total: 4 marks]**\n\n![actual-rate-of-photosynthesis-ma-sq](assets/050-actual-rate-of-photosynthesis-ma-sq.png)"
+    },
+    {
+     "id": "qstnprt_79nQTr9cSJwyT5dj",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA farmer growing strawberries in his greenhouse used the results in Table 1 to decide on the best temperature for his greenhouse. He decided to heat the greenhouse to 30 °C.\n\nWhen the farmer measured the rate of photosynthesis of his plants, he found the rate to be 11.5% slower than the data suggested.\n\n#### Extended only\n\nSuggest why the farmer may not have achieved a rate of photosynthesis as high as the data in Fig. 1 predicted.",
+     "solution_md": "The farmer may not have achieved a rate of photosynthesis as high as predicted because...\n\n- Another factor is limiting photosynthesis;** [1 mark]**\n- (This could include) carbon dioxide / light intensity; **[1 mark]**\n\n**[2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WcqYBCZNGK7xfmFx",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_pr4tGmrCgkzgrQST",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of students used an aquatic plant to investigate the effect of temperature on the rate of photosynthesis.\n\nFig. 1 shows the apparatus the students used.\n\n![cie-igcse-2018-s3-may-p3-q2b-photosynthesis-equipment](assets/051-cie-igcse-2018-s3-may-p3-q2b-photosynthesis-equi.png)\n\n**Fig. 1**\n\nThe students counted the number of bubbles of gas the aquatic plant produced, in two minutes, at different temperatures.\n\nFig. 2 shows a graph of their results.\n\n![cie-igcse-2018-s3-may-p3-q2b-graph-of-results](assets/052-cie-igcse-2018-s3-may-p3-q2b-graph-of-results.png)\n\n**Fig. 2**\n\n(i)\n\nState the temperature at which the aquatic plant produced the most bubbles of gas in two minutes.\n\nGive your answer in °C.\n\n[1]\n\n(ii)\n\nUse Fig. 2 to find the number of bubbles of gas produced by the aquatic plant, in two minutes, at 15 °C **and** at 25 °C.\n\n[1]\n\n(iii)\n\nUse your answer to (a)(ii) to calculate the percentage increase in the number of bubbles of gas produced by the aquatic plant at 15 °C and at 25 °C.\n\nShow your working.\n\n[2]",
+     "solution_md": "(i) The temperature at which the aquatic plant produced the most bubbles of gas in two minutes is:\n\n- 30 (°C); **[1 mark]**\n\n(a) (ii) The number of bubbles of gas produced by the aquatic plant, in two minutes, at 15 °C and at 25 °C is:\n\n- 85 and 170; **[1 mark]**\n\n(a) (iii) The percentage increase in the number of bubbles of gas produced by the aquatic plant at 15 °C and at 25 °C is:\n\n- 100 %; **[2 marks] **\n\n***Accept**** error carried forward for part (iii), i.e. a correctly calculated percentage increase using the wrong number from part (ii) can still be credited for full marks.*\n\n**[Total: 4 marks]**\n\n> *If you got the answer to part (ii) wrong but used the correct calculation in part (iii) you can still get two marks for the correct outcome of your calculation. This is why it is always important to show your working. *\n\n![cie-igcse-2018-s3-may-p3-q2b-graph-of-results-ma](assets/053-cie-igcse-2018-s3-may-p3-q2b-graph-of-results-ma.png)"
+    },
+    {
+     "id": "qstnprt_BZRgHdzvW7KrkpMM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe students counted the number of bubbles of gas the aquatic plant produced, in two minutes, at different temperatures. Fig. 2 shows a graph of their results.\n\nDescribe the results shown in Fig. 2.",
+     "solution_md": "A description of the results shown in Fig. 2 is:\n\nAny **three **from the following:\n\n- Rises and falls / rises and peaks / peaks and falls; **[1 mark]**\n- Slow increase and fast decrease / slower increase (to peak) **OR** steeper / faster decrease; **[1 mark]**\n- Slowest rise between 0 °C and 10 °C / increase more rapid between 10 °C and 25 °C; **[1 mark]**\n- Decrease is most rapid after 35 °C; **[1 mark]**\n- (No bubbles / gas) stops at 40 °C; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Remember to always quote numbers from the graph in your description. You do not need to explain any science about the results because you have not been asked to do so. *"
+    },
+    {
+     "id": "qstnprt_Ps9QGtpKNDk3y7Mj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bWFsrk7vr3qVsrjn",
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Decrease is most rapid after 35 °C; (No bubbles / gas) stops at 40 °C;\n\n#### Extended only\n\nUse your knowledge on enzymes to suggest an explanation for the results obtained between 30°C and 40°C in Fig. 2.",
+     "solution_md": "Between 30°C and 40°C...\n\n- The enzymes (involved with photosynthesis) denatured / active sites changed shape; **[1 mark]**\n- Which decreased the rate of photosynthesis (leading to less bubbles being released); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *For questions where you have to explain parts of a graph, you need to think of reasons why the shape of the graph looks the way it does. In this case, there is a clear decrease in the number of bubbles released, which indicates that the rate of photosynthesis has decreased (since the bubbles are being released as a result of photosynthesis). This is another synoptic question that requires you to refer back to Topic 5 on Enzymes. Enzymes are proteins that are sensitive to high temperatures because this will denature them and negatively affect their ability to catalyse reactions (such as those involved with photosynthesis).*"
+    },
+    {
+     "id": "qstnprt_Ggpr7NdMgvvChmdk",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of students used an aquatic plant to investigate the effect of temperature on the rate of photosynthesis.\n\nThe students counted the number of bubbles of gas the aquatic plant produced, in two minutes, at different temperatures.\n\nThe students added sodium hydrogen carbonate (NaHCO<sub>3</sub>) to the water in the beaker in Fig.1.\n\nState the purpose of this.",
+     "solution_md": "The purpose of adding sodium hydrogen carbonate to the water is...\n\n- To act as a source of / provide carbon dioxide/CO<sub>2</sub> (to the plant); **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Making sure that the aquatic plant has an abundant supply of carbon dioxide will prevent it from being a limiting factor in this investigation. If carbon dioxide becomes a limiting factor, it will decrease the rate of photosynthesis which will then not give an accurate reflection of the effect of temperature on photosynthesis.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V2st5wpKxJvV5KtQ",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_x32QkfXbGDzdNfdr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023",
+      "number": "0970/03",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Hq7NkC4XhTcFMwqb"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 is a diagram of a variegated leaf from a plant. The plant was exposed to sunlight so that it could photosynthesise.\n\n![cie-igcse-2023-specimen-q4a](assets/054-cie-igcse-2023-specimen-q4a.png)\n\n**Fig. 1**\n\nA student tested the leaf for starch and found that:\n\n- Starch was present in the green part of the leaf\n- There was **no** starch in the white part of the leaf.\n\nExplain the results of this test.",
+     "solution_md": "The results can be explained as follows:\n\nAny **four **from the following:\n\n- Chlorophyll is required (for photosynthesis); **[1 mark]**\n- (Because) chlorophyll absorbs light energy (for photosynthesis); **[1 mark]**\n- Only the green part (of the leaf) contains chlorophyll / chlorophyll is only found where the leaf is green **OR **there is no chlorophyll in the white parts; **[1 mark] **\n- (Photosynthesis results in) production of glucose **OR** glucose is produced in photosynthesis/the green parts **OR **no glucose can be produced in the white parts/where there is no chlorophyll; **[1 mark] **\n- This glucose is converted to / stored as starch (in the green parts of the leaf) **OR **the white parts will not store any starch (as there is no glucose produced); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The chloroplasts of a plant cell contain chlorophyll, a green pigment which gives leaves their colour. Photosynthesis occurs in the chloroplasts and therefore the green parts of the leaf. When testing the leaf you would expect there to be no starch in the parts of the leaf where there is no glucose being produced.*"
+    },
+    {
+     "id": "qstnprt_j2Mw5BqmYWzrY9Fs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hq7NkC4XhTcFMwqb"
+     ],
+     "part_tier": null,
+     "problem_md": "Testing a leaf for the presence of starch involves several steps. Explain the following:\n\n(i)\n\nBoiling the leaf at the start of the procedure.\n\n[1]\n\n(ii)\n\nHeating ethanol in a water bath.\n\n[1]",
+     "solution_md": "(i) The leaf is boiled at the start of the procedure because...\n\n- To kill the cells **and** break down the cell membranes; **[1 mark]**\n\n*Allow 'to make the cells more permeable for the iodine solution' as an answer*\n\n(ii) Ethanol is heated in a water bath because...\n\n- Ethanol is flammable / to avoid ethanol catching fire; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *You should spend some time becoming familiar with the steps of the starch test, as well as the safety precautions that must be followed when performing it. Ethanol must never be heated over an open flame as it can catch fire and cause much damage in the process.*"
+    },
+    {
+     "id": "qstnprt_WPvzRCgH9VcdCk6Z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CQbQQ9Ysjbvfrbxg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nPhotosynthesis occurred in certain parts of the leaf in Fig. 1.\n\nGive the balanced chemical equation for photosynthesis.",
+     "solution_md": "The balanced chemical equation for photosynthesis is...\n\n- 6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>; **[3 marks]**\n\n*Reactants: CO*<sub>*2*</sub>* ****and**** H*<sub>*2*</sub>*O; ***[1 mark]** \n*Products: C*<sub>*6*</sub>*H*<sub>*12*</sub>*O*<sub>*6*</sub>* ****and**** O*<sub>*2*</sub>*; ***[1 mark]** \n*Correctly balanced; ***[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You will not receive marks for writing the word equation here since the question is asking for the chemical equation. Remember that a chemical equation must always be balanced correctly so pay close attention to that part. It is also not a mathematical equation so avoid separating the reactants and products with an equal sign (=) instead of an arrow (→).*"
+    },
+    {
+     "id": "qstnprt_rJWRPytyWtFVZwHQ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CQbQQ9Ysjbvfrbxg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nEnergy is converted from one form to another during the process of photosynthesis.\n\nDescribe this energy conversion.",
+     "solution_md": "The energy conversion occurring during photosynthesis is...\n\n- <u>Light</u> energy is converted into <u>chemical</u> (potential) energy; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *The chemical energy is stored in the bonds between the atoms in the glucose molecules. When these bonds are broken during respiration, the chemical energy stored in them are released to be used by the cells.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_s8g4JK9DvxgmJbZF",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_pDpB4wpk55PWbGKQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "A plant leaf contains various structures that makes it adapted for the process of photosynthesis.\n\nComplete the following by drawing lines to connect each listed structure with the correct adaptation.\n\n| **Structure** |   | **Adaptation** |\n|---|---|---|\n|   |   |   |\n| Waxy cuticle |   | Allows gas exchange to occur |\n|   |   |   |\n| Stomata |   | Tightly packed with chloroplasts for maximum absorption of light |\n|   |   |   |\n| Palisade mesophyll |   | Protect the leaf from water loss |\n|   |   |   |\n| Spongy mesophyll |   | Increases the surface area to volume ratio for the diffusion of gases |",
+     "solution_md": "The correct adaptation for each structure is...\n\n![U_dYSFWN_picture6](assets/055-u-dysfwn-picture6.png)\n\n*Award ***[1 mark]*** for each correct line drawn*\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_Q34JWnvtSQJzs9Ff",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows the cross section of a leaf.\n\n![fig](assets/056-fig.png)\n\n**Fig. 1**\n\nStructure **Y** represents a vascular bundle.\n\n(i)\n\nIdentify **two** types of tissue found in structure **Y**.\n\n[2]\n\n(ii)\n\nDescribe the function of each type of tissue identified at part (i).\n\n[2]",
+     "solution_md": "(i) The types of tissue that can be found in structure **Y** are...\n\n- Xylem (vessels); **[1 mark]**\n- Phloem (sieve tubes); **[1 mark]**\n\n(ii) The function of each type of tissue is...\n\n- Xylem transports water (and mineral ions) into the leaf for the mesophyll cells **OR** thick cell walls of xylem help to support the stem and leaf; **[1 mark]**\n- Phloem transports sucrose and amino acids around the plant; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Make sure that you know the structure of a leaf very well, as these types of recall questions is an easy way to obtain marks in an exam.*"
+    },
+    {
+     "id": "qstnprt_4K3swQh9pFPGHwtG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows the cross section of a leaf.\n\nStructure Y represents a vascular bundle.\n\nLayer **X** and **Z** in Fig. 1 form the outer boundaries of the leaf.\n\n(i)\n\nState **one visible** difference between layer **X** and **Z**.\n\n[1]\n\n(ii)\n\nThe cells in layer **X** are transparent.\n\nExplain the importance of this to the plant.\n\n[2]",
+     "solution_md": "(i) A visible difference between layer **X** and **Z** is...\n\nAny **one** of the following:\n\n- **X** has no guard cells/stomata while **Z** does; **[1 mark]**\n- The cells in **X** is larger than in **Z**; **[1 mark]**\n- **X** consists of fewer cells than **Z**; **[1 mark]**\n\n*Accept the converse statement for the marking points above*\n\n> *You must mention both **X** and **Z** in order to obtain the mark as the question is asking you to state a **difference **between them.*\n\n(ii) The cells in **X** are transparent because...\n\nAny **two** of the following:\n\n- To allow sunlight through; **[1 mark]**\n- To (reach) the <u>palisade mesophyll</u> cells; **[1 mark]**\n- For maximum photosynthesis (to occur); **[1 mark]**\n\n> *You must be very specific in stating that it is the palisade mesophyll cells that must receive the light since this is the layer where most photosynthesis occur. Simply stating mesophyll cells will not gain you any marks here.*\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_qS79msmRHYRjQJB7",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon dioxide must enter the chloroplasts within plant cells for photosynthesis to occur.\n\nDescribe the movement of carbon dioxide from the atmosphere into the chloroplasts.",
+     "solution_md": "The movement of carbon dioxide is as follows...\n\nAny **three** of the following:\n\n- There is a higher concentration of carbon dioxide/CO<sub>2</sub> in the atmosphere compared to inside the leaf; **[1 mark]**\n- Carbon dioxide/CO<sub>2</sub> diffuses into the leaf through (open) stomata; **[1 mark]**\n- Into the air spaces between <u>spongy mesophyll</u> cells;** [1 mark]**\n- It diffuses through the cell wall and cell membrane (of mesophyll cells); **[1 mark]**\n- It dissolves in the cytoplasm (before diffusing into chloroplasts); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Be careful of how you word your answer; the air spaces are found between **spongy mesophyll cells** and carbon dioxide moves by **diffusion**. Do not get confused and start discussing osmosis, since that only refers to the movement of water molecules in liquid form. All gases move by diffusion.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_q8XwvFNTVXbrj45V",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_ppV3vVrXGZmTJZC5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BX3yd2fGdZ5rnyXr",
+      "spcpt_5PsDhK6cgBrSCHFD"
+     ],
+     "part_tier": null,
+     "problem_md": "In an investigation, the carbon dioxide concentration in the air above a crop of maize plants was measured for 24 hours.\n\nThere was no wind blowing during the 24 hours of the investigation.\n\nThe results of this investigation are shown in Fig. 1.\n\n![0610p31q9a](assets/057-0610p31q9a.png)\n\n**Fig. 1**\n\n(i)\n\nState the **two** times, on Fig. 1, at which the carbon dioxide concentration in the air was 37 arbitrary units.\n\n[1]\n\n(ii)\n\nCalculate the difference in the carbon dioxide concentration in the air between 04:00 (sunrise) and 12:00 (midday) on Fig. 1. Give your answer in arbitrary units.\n\n[1]\n\n(iii)\n\nExplain why the concentration of carbon dioxide decreases between 04:00 and 09:00.\n\n[3]",
+     "solution_md": "(i) Two times when the carbon dioxide concentration was 37 arbitrary units:\n\n- 02:00 **and** 05:00; **[1 mark]**\n\n(ii) The difference in carbon dioxide concentration between 04:00 and 12:00 was:\n\n- 11 (arbitrary units); **[1 mark]**\n\n(a) (iii) The concentration of carbon dioxide decreases between 04:00 and 09:00 because:\n\nAny **three** from the following:\n\n- (Sun)light is present / it is sunrise; **[1 mark]**\n- Carbon dioxide is absorbed / used (by the plants); **[1 mark]**\n- (for) photosynthesis; **[1 mark]**\n- Photosynthesis is using carbon dioxide faster / at a higher rate than respiration can provide / replace it **OR** (the rate of) photosynthesis is higher/faster than (the rate of) respiration; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Reading the times from the graph for (a) (i):*\n\n![igcse-2018mayjuneq9ai](assets/058-igcse-2018mayjuneq9ai.png)\n\n> *The calculation for (a) (ii) is as follows:*\n\n![igcse-2018-mayjune-q9aii](assets/059-igcse-2018-mayjune-q9aii.png)"
+    },
+    {
+     "id": "qstnprt_Sq75DqnX3TY3kNXS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn an investigation, the carbon dioxide concentration in the air above a crop of maize plants was measured for 24 hours. There was no wind blowing during the 24 hours of the investigation.\n\nState **two** environmental factors that would affect the results of this investigation.",
+     "solution_md": "Environmental factors that would affect the results of this investigation:\n\nAny **two **from the following:\n\n- Rain / precipitation; **[1 mark]**\n- Wind / movement of air; **[1 mark]**\n- Humidity; **[1 mark]**\n- Temperature; **[1 mark]**\n- Shade / (the presence of) clouds / time of the year/season; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_NqWdYBcdNwz5QxX7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rB4QVJDcCJF98PVb"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn an investigation, the carbon dioxide concentration in the air above a crop of maize plants was measured for 24 hours. There was no wind blowing during the 24 hours of the investigation. The results of this investigation are shown in Fig. 1.\n\nDescribe and explain the concentration of carbon dioxide between 16:00 and sunset in Fig. 1.",
+     "solution_md": "The carbon dioxide concentration between 16:00 and sunset...\n\n- Did not change / remained the same/constant; **[1 mark]**\n- (This is because) the rate of photosynthesis was equal to the rate of (aerobic) respiration; **[1 mark]**\n- (This means) the amount of carbon dioxide absorbed (by photosynthesis) was the same as the amount of carbon dioxide released (by aerobic respiration); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Remember that respiration is occurring in the plant cells during the day and night. During the day, respiration and photosynthesis are occurring simultaneously. Whether there is a net absorption or release of carbon dioxide by the plant depends on the respective rates of respiration and photosynthesis. When the rates are equal, then there will be no overall increase or decrease in the carbon dioxide levels outside the plant.*"
+    },
+    {
+     "id": "qstnprt_YS4PYgGqKpT6HbW5",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rB4QVJDcCJF98PVb"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn an investigation, the carbon dioxide concentration in the air above a crop of maize plants was measured for 24 hours. There was no wind blowing during the 24 hours of the investigation. The results of this investigation are shown in Fig. 1. (Sun)light is present / it is sunrise; Carbon dioxide is absorbed / used (by the plants); (for) photosynthesis; Photosynthesis is using carbon dioxide faster / at a higher rate than respiration can provide / replace it OR (the rate of) photosynthesis is higher/faster than (the rate of) respiration.\n\nThe concentration of carbon dioxide was highest at sunrise.\n\nSuggest a reason for this.",
+     "solution_md": "The carbon dioxide concentration was highest at sunrise because...\n\n- No photosynthesis occurred during the night; **[1 mark]**\n- (This means) no carbon dioxide was absorbed by the plant / the plant only released carbon dioxide (by respiration); **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PHdBZ55SjdD6gF6R",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_YQCYRRfp5NmCtkGM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GNBx3NXrNW2bNwX8"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbohydrates are produced during photosynthesis.\n\nDescribe **four** ways in which a plant may use the carbohydrates produced during photosynthesis.",
+     "solution_md": "The carbohydrates can be used as follows...\n\nAny **four** of the following:\n\n- It may be converted into starch molecules for storage (of energy); **[1 mark]**\n- It may be converted into cellulose to build cell walls; **[1 mark]**\n- Glucose can be used in respiration to release energy (to the plant); **[1 mark]**\n- It could be converted into sucrose for transport (in the phloem); **[1 mark]**\n- It may form nectar to attract insects for pollination; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_HFbh8bJ5kh8dswPZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GNBx3NXrNW2bNwX8"
+     ],
+     "part_tier": null,
+     "problem_md": "The carbohydrates produced during photosynthesis may also be converted to lipids and amino acids.\n\nState the function of lipids and amino acids in a plant.",
+     "solution_md": "The function of lipids and amino acids is...\n\n- Lipids is an energy source in seeds **OR** for synthesis of new cellular material eg. membranes; **[1 mark]**\n- Amino acids are used to make proteins that facilitates growth in a plant; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Spend some time familiarising yourself with the functions of the different molecules in a plant as these types of questions require you to simply recall knowledge.*"
+    },
+    {
+     "id": "qstnprt_ygK5DGdp4d6pS3Ym",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_R35kB4QywtG2qyYy"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitrate is an important source of nitrogen which is needed to make amino acids.\n\nOther than nitrogen, identify **two** other chemical elements that could be found in amino acids.",
+     "solution_md": "Two other chemical elements found in amino acids include...\n\nAny **two** of the following:\n\n- Carbon; **[1 mark]**\n- Hydrogen; **[1 mark]**\n- Oxygen; **[1 mark]**\n- Sulphur; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Remember that all the biological molecules that you've learned about in Topic 4 contains the same three elements, namely carbon, hydrogen and oxygen. Amino acids which makes up proteins, also contains nitrogen while some may contain sulphur as well.*"
+    },
+    {
+     "id": "qstnprt_W6YKbZNpXxtRxDvG",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_R35kB4QywtG2qyYy"
+     ],
+     "part_tier": null,
+     "problem_md": "Some plants may grow in nutrient poor soils where they are not able to absorb enough nitrate through their roots.\n\nDescribe the appearance of a plant that is deficient in nitrate.",
+     "solution_md": "Plants with a nitrate deficiency will have the following appearance...\n\n- They may be short / show poor/stunted growth; **[1 mark]**\n- Their leaves will turn yellow / yellowing of the leaves will occur; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Proteins formed by amino acids, are an essential part of the structure and functioning of the plant cell. Enzymes that catalyse biochemical reactions within the cell are all proteins. A lack of protein (caused by a lack of nitrate) will prevent the plant cells from functioning as normal and this will have a negative impact on the growth of a plant.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MKcfjRFg2SNsZbWX",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_zYSsqfq3RtXnzRpF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2023",
+      "number": "3/1/0970",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wnsYq9ZtzYsVC62X",
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "Water is required for the process of photosynthesis.\n\n(i)\n\nDescribe where** and **how water enters a plant.\n\n[3]\n\n(ii)\n\nDescribe** one** function of water in a plant other than for photosynthesis.\n\n[1]\n\n(iii)\n\nState the name of the tissue in a plant that transports water.\n\n[1]\n\n(iv)\n\nState the name of the part of a leaf through which most water vapour is lost from the plant\n\n[1]",
+     "solution_md": "(i)  Water enters the plant in the following way:\n\nAny **three **from the following:\n\n- Water enters the root (from the soil); **[1 mark]**\n- Via the <u>root hair cells</u>; **[1 mark]**\n- Water moves through the cell walls; **[1 mark]**\n- Then it travels across a partially permeable (cell) membrane (into the cytoplasm); **[1 mark]**\n- Water travels by <u>osmosis</u>**; [1 mark]**\n\n(ii)  One function of water in the plant could be:\n\nAny **one **from the following:\n\n- Support (of cells/stems/tissues); **[1 mark]**\n- Transport of mineral ions/named mineral ions (around the plant); **[1 mark]**\n- A solvent / to dissolve mineral ions/sugars/soluble substances into; **[1 mark]**\n- A coolant **OR **to maintain optimum temperatures for plant growth; **[1 mark]**\n\n*Also accept the idea of water to be used to stimulate germination of seedlings*\n\n(a)(iii)  Water is transported in the:\n\n- Xylem; **[1 mark]**\n\n(a)(iv)  The name of the part of the leaf is... :\n\n- The stoma/stomata ; **[1 mark]**\n\n**[Total: 6 marks]**"
+    },
+    {
+     "id": "qstnprt_hjkZNR6pZWyWgb8G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vbtTGfZDMC9Fcq6S"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorophyll is another requirement for photosynthesis to occur.\n\nComplete the following sentences on chlorophyll.\n\nChlorophyll is a pigment found in ___________________ within plant cells. It is responsible for transferring energy from ___________________ into __________________ energy.",
+     "solution_md": "The completed sentences would be as follows...\n\n- Chlorophyll is a pigment found in <u>**chloroplasts**</u>; **[1 mark]** within plant cells. It is responsible for transferring energy from <u>**light**</u>; **[1 mark]** into <u>**chemical**</u>; **[1 mark]** energy.\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_J65wJGngVVZcxjCy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BX3yd2fGdZ5rnyXr",
+      "spcpt_5PsDhK6cgBrSCHFD"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one** other raw material besides water that is required for photosynthesis and describe how the plant obtains this substance.",
+     "solution_md": "Another raw material required for photosynthesis along with a description of how the plant obtains it includes...\n\n- Carbon dioxide/CO<sub>2</sub>; **[1 mark]**\n- (Carbon dioxide) diffuses into the leaf through the stomata; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M6kmWYTtPVHs99Px",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_WqYCFHPzJqFdV4Gt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 is a scanning electron micrograph of a vertical section through part of the leaf of a broad bean plant, *Vicia faba.*\n\n![cie-igcse-2018-s3-p4-q3](assets/060-cie-igcse-2018-s3-p4-q3.png)\n\n**Fig. 1**\n\n(i)\n\nState the names of the tissues labelled **A** and **B**.\n\n[2]\n\n(ii)\n\nThe cells in regions **B** and **C** in Fig. 1 have a large surface area.\n\nExplain why this is necessary for the functioning of the leaf cells.\n\n[3]\n\n(iii)\n\nExplain why there are many interconnecting air spaces within the leaf.\n\n[2]",
+     "solution_md": "(i) The tissues can be named as follows:\n\n- **A**: (Upper) <u>epider</u>mis; **[1 mark]**\n- **B**: Palisade (mesophyll); **[1 mark]**\n\n(ii) It is necessary to have a large surface area because:\n\nAny **three **from the following:\n\n- (Cell surfaces are sites of) gas exchange; **[1 mark]**\n- (This means there is) movement of gases by diffusion; **[1 mark]**\n- (A large surface area gives) efficient / faster gas exchange / diffusion / photosynthesis; **[1 mark]**\n- This is because carbon dioxide is raw material / needed for photosynthesis; **[1 mark]**\n- (Diffusion allows) absorption of carbon dioxide (when light is available); **[1 mark]**\n- (Diffusion also allows) loss of oxygen (when light available) / absorption of oxygen; **[1 mark] **\n- Oxygen is required for (aerobic) respiration; **[1 mark]**\n- (Larger surface area also allows) more evaporation; **[1 mark]**\n- Idea of maximising light absorption; **[1 mark]**\n\n> *The best answers here would consider both the maximal absorption of light and gas exchange.*\n\n(iii) There are interconnecting spaces because:\n\nAny **two **from the following:\n\n- It allows for movement of (named/oxygen/carbon dioxide/water vapour) gases / diffusion / gas exchange throughout the whole of the leaf; **[1 mark]**\n- (This leads to) faster / (more) efficient diffusion / gas exchange; **[1 mark]**\n- (Gas exchange) allows photosynthesis / respiration / transpiration / evaporation; **[1 mark]**\n- Reference to storage of carbon dioxide (within the airspaces); **[1 mark]**\n- (Air spaces) connect (to outside air) via stomata; **[1 mark]**\n\n**[Total: 7 marks]**"
+    },
+    {
+     "id": "qstnprt_vgx3kJgwdXjXtbV5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_QpJ9pvTTFqX996sr"
+     ],
+     "part_tier": null,
+     "problem_md": "Stomata are found on the lower surface of broad bean leaves.\n\nDescribe the function of stomata.",
+     "solution_md": "The function of the stomata is:\n\nAny **three **from the following:\n\n- For gas <u>exchange</u> / <u>diffusion</u> of gases; **[1 mark]**\n- For photosynthesis / respiration / transpiration; **[1 mark]**\n- For diffusion of carbon dioxide <u>into</u> the cell / oxygen <u>out</u> of the cell; **[1 mark]**\n- Controls the <u>rate</u> of diffusion / transpiration / photosynthesis **OR** prevents wilting / excess water loss (from the plant); **[1 mark]**\n- Aids in transpiration pull of water (from the roots to the leaves); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Remember that stomata have roles in both transpiration and the exchange of gases. It is a common error to focus on just one of these functions.*\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_kWK38gYyksZTzWkP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vbtTGfZDMC9Fcq6S",
+      "spcpt_R35kB4QywtG2qyYy"
+     ],
+     "part_tier": null,
+     "problem_md": "Plants growing in soils lacking magnesium ions struggle to photosynthesise and therefore do not grow to their full potential.\n\nSuggest an explanation why.",
+     "solution_md": "Plants growing in soil lacking magnesium struggle to photosynthesise and therefore do not grow to their full potential because...\n\nAny **four** from the following:\n\n- Magnesium is needed to synthesise <u>chlorophyll</u>; **[1 mark]**\n- (Chlorophyll) absorbs light to provide energy needed for photosynthesis; **[1 mark]**\n- (Less light absorbed means) <u>less</u> photosynthesis so the plant can synthesise/make/produce less glucose; **[1 mark]**\n- (Less glucose means) <u>less </u>respiration **and therefore** less energy is released for growth; **[1 mark]**\n- (Less glucose means)<u> less</u> materials (amino acids / proteins / cellulose) available for growth; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The word 'less' has been underlined in the mark scheme to emphasize that the processes are reduced but not stopped. It is important to acknowledge that when processes, such as photosynthesis (but also respiration) are limited, it usually doesn't mean that it is stopped completely so you should pick your wording carefully to show you understand this.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DkJjGgGhjr8k4xcw",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_fYwcjc9HgGChWbWn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BX3yd2fGdZ5rnyXr"
+     ],
+     "part_tier": null,
+     "problem_md": "(i)\n\nState the word equation for photosynthesis.\n\n[2]\n\n(ii)\n\nState the name of the green substance plants need for photosynthesis.\n\n[1]",
+     "solution_md": "(i) The word equation for photosynthesis is:\n\n- Reactants: carbon dioxide + water; **[1 mark]**\n- Products: glucose + oxygen; **[1 mark]**\n\n*The products and the reactants can be in any order i.e. water + carbon dioxide, or oxygen + glucose*\n\n(ii) The green substance needed for photosynthesis is:\n\n- Chlorophyll; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The full equation should be: **carbon dioxide + water → glucose + oxygen.*\n\n> *If you put CO*<sub>*2*</sub>* or any other symbol you can't get the mark because the question asked for the **word** equation, not the symbol equation. Another common mistake is to use an = sign rather than an arrow to represent the reaction.  *\n\n> *Remember that chloroplasts are the organelles that **contain** chlorophyll. The two are not interchangeable. *"
+    },
+    {
+     "id": "qstnprt_3X2xK5dhGbxsnkW7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "A student wanted to test the effect of temperature on the rate of photosynthesis.\n\nFig. 1 shows how the student set up his investigation.\n\n![aquatic-plant](assets/061-aquatic-plant.png)\n\n**Fig. 1**\n\n(i)\n\nIdentify the gas that is being collected in Fig. 1.\n\n[1]\n\n(ii)\n\nExplain the purpose of using an aquatic plant in this investigation.\n\n[2]",
+     "solution_md": "(i) The gas being collected in Fig. 1 is...\n\n- Oxygen; **[1 mark]**\n\n(ii) The purpose of using an aquatic plant is...\n\n- The oxygen that is released can be seen as bubbles (because the plant is in water); **[1 mark]**\n- This enables (the investigator) to count the number of bubbles produced in a minute **OR** counting the number of bubbles can be used to determine the rate of photosynthesis; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *We cannot see oxygen gas being released from land based plants, since it is a colourless gas. Using aquatic plants in investigations on the rate of photosynthesis provides a visual way of obtaining data.*"
+    },
+    {
+     "id": "qstnprt_yjVdwFkMjbfKGph9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe gas being collected in Fig. 1 is... Oxygen. The purpose of using an aquatic plant is... The oxygen that is released can be seen as bubbles (because the plant is in water); This enables (the investigator) to count the number of bubbles produced in a minute OR counting the number of bubbles can be used to determine the rate of photosynthesis.\n\nThe temperature is increased from 10°C to 25°C.\n\nState and explain the observation that the student would make.",
+     "solution_md": "The observation that the student would make is...\n\n- The number of bubbles released (by the plant) would increase; **[1 mark]**\n- This is because the rate of photosynthesis would increase (due to the increase in temperature); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The enzymes catalysing the process of photosynthesis would be working at a faster rate when the temperature increases, which in turn speeds up photosynthesis resulting in more oxygen bubbles being released in the same amount of time.*"
+    },
+    {
+     "id": "qstnprt_3wTc7pQntmxSgN33",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_8PMns5BkXxpCK6fj"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one** factor, other than temperature, that affects the rate of photosynthesis.",
+     "solution_md": "One factor, other than temperature, that affects the rate of photosynthesis is:\n\nAny **one **from the following:\n\n- Light intensity / brightness of light;** [1 mark]**\n- Size of plant / number of leaves / size of leaves / surface area of leaves;** [1 mark]**\n- Availability/concentration/amount of CO<sub>2</sub>;** [1 mark]**\n- Amount of chlorophyll / number of chloroplasts;** [1 mark]**\n- Species/type of plant;** [1 mark]**\n- Water;** [1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bxckdbQnZZ4NwX7n",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_bz6mTrPf5X9VPqnh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nA gardener is setting up his greenhouse.\n\nHe is given advice from two friends on the correct conditions for his greenhouse to grow the most vegetables.\n\n**Friend X **suggested that he provide plenty of water to his vegetables but should cover all the windows in black card to stop the plants getting too hot.\n\n**Friend Y **suggested that he provide plenty of water and open the windows of the greenhouse but did not suggest covering them.\n\nShould the farmer follow the advice of friend **X** or friend **Y**?\n\nExplain your choice.",
+     "solution_md": "The gardener should follow the advice of friend...\n\n- Y; **[1 mark]**\n\nAny **one **from the following:\n\n- Opening the windows will keep the temperature cool; **[1 mark]**\n- Covering the windows with black card will prevent light energy getting in **OR** light will be the limiting factor **OR **plants need the light for photosynthesis; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_vGZmsmRy7td2dyw4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nThe graph in Fig. 1 shows how the rate of photosynthesis of strawberry plants is affected by changes in **three** limiting factors.\n\n![light-intensity-and-strawberry-plants-1](assets/062-light-intensity-and-strawberry-plants-1.png)\n\n**Fig. 1**\n\nIdentify which **three** limiting factors were investigated to produce this graph.",
+     "solution_md": "The three limiting factors that were investigated were...\n\n- Carbon dioxide; **[1 mark]**\n- Light <u>intensity</u>; **[1 mark]**\n- Temperature; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *These factors are all tested in a range of different quantities as shown in the detail in the graph. You have to examine the graph carefully, it's not just the x-axis variable (CO*<sub>*2*</sub>* concentration) being tested. *"
+    },
+    {
+     "id": "qstnprt_MCgwSdCxMdrqjdry",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe graph in Fig. 1 shows how the rate of photosynthesis of strawberry plants is affected by changes in three limiting factors.\nThe three limiting factors that were investigated were...\n- Carbon dioxide\n- Light intensity\n- Temperature\nThese factors are all tested in a range of different quantities as shown in the detail in the graph. You have to examine the graph carefully, it's not just the x-axis variable (CO~2~ concentration) being tested.\n\n#### Extended only\n\nFinding the optimum conditions for photosynthesis will ensure that growth is maximised.\n\nUsing Fig. 1 , complete the following sentences to identify which conditions gave the fastest rate of photosynthesis and therefore, the maximum growth.\n\nOptimum temperature would be __________\n\nOptimum carbon dioxide % would be __________\n\nOptimum light intensity would be __________",
+     "solution_md": "The optimum conditions would be as follows:\n\n- 30 °C;**[1 mark]**\n- 600 ppm (or above);**[1 mark]**\n- Bright light; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The optimum conditions are those which provide the biggest growth in the strawberry plants. The optimum carbon dioxide reading can be taken anywhere after the point where the graph levels off, although in reality, the gardener will pick the lowest quantity that will give the maximum growth.*"
+    },
+    {
+     "id": "qstnprt_wGjsSMqfPqpfZxK7",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nYfWmvbhbsQwyQVT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe optimum conditions would be as follows:\n\n- 30 °C;[1 mark]\n- 600 ppm (or above);[1 mark]\n- Bright light; [1 mark]\n\nThe optimum conditions are those which provide the biggest growth in the strawberry plants. The optimum carbon dioxide reading can be taken anywhere after the point where the graph levels off, although in reality, the gardener will pick the lowest quantity that will give the maximum growth.\n\n#### Extended only\n\nA gardener used the results in Fig. 1 to decide how much carbon dioxide to pump into the greenhouse.\n\nHe decided to increase the atmospheric levels to 600 ppm rather than 700 ppm.\n\nSuggest why he made this decision.",
+     "solution_md": "The gardener made this decision because...\n\n- There was no further increase in photosynthesis after 600 ppm; **[1 mark]**\n- It would cost more to increase the levels higher than that / it would not be cost effective; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6XGffg6hX4QXBwM2",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_qJ4kDfSRfm6H6WJR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018 (Series 2)",
+      "number": "0610/32",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Hq7NkC4XhTcFMwqb"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a diagram of a leaf.\n\n![cie-igcse-2018-s2-may-p3-q2a-leaf](assets/063-cie-igcse-2018-s2-may-p3-q2a-leaf.png)\n\n**Fig. 1**\n\n- The part of the leaf labelled **G** contains no chlorophyll and is a white colour.\n- The part of the leaf labelled **H** contains chlorophyll and is a green colour.\n\nGlucose produced during photosynthesis is stored in the leaf as starch.\n\nThe leaf was boiled in ethanol to remove the chlorophyll. The leaf was then tested for the presence of starch with iodine solution.\n\n(i)\n\nPredict the colour of the part of the leaf labelled **G** after iodine solution has been added.\n\n[1]\n\n(ii)\n\nPredict the colour of the part of the leaf labelled **H** after iodine solution has been added.\n\n[1]\n\n(iii)\n\nState a conclusion about chlorophyll from this investigation.\n\n[1]",
+     "solution_md": "(i) The part of the leaf labelled G after iodine solution has been added is:\n\n- Yellow / brown; **[1 mark]**\n\n(ii) The colour of the part of the leaf labelled H after iodine solution has been added is:\n\n- Blue-black; **[1 mark]**\n\n(iii) A conclusion about chlorophyll from this investigation is:\n\n- Chlorophyll is required for photosynthesis / production of starch or glucose; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You are told about chlorophyll in the question stem so it is important to pay attention to the information you are given. *"
+    },
+    {
+     "id": "qstnprt_bqNZtCSZCgDZQbnZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018 (Series 2)",
+      "number": "0610/32",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_BwK89dHxRfBFMjzg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nGlucose produced during photosynthesis is stored in the leaf as starch. Chlorophyll is required for photosynthesis / production of starch or glucose.\n\nA similar leaf was kept in the dark for 24 hours and then tested for the presence of starch.\n\nThe leaf contained no starch.\n\nExplain why the leaf contained no starch.",
+     "solution_md": "The leaf contained no starch because:\n\nAny **one **from the following:\n\n- Light required for photosynthesis / to make starch or glucose; **[1 mark]**\n- No photosynthesis took place; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Remember that plants still respire in the dark and so they need to use the glucose from their starch storage to keep them going. *"
+    },
+    {
+     "id": "qstnprt_bqgSbGpV5szNhgh8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG",
+      "spcpt_GNBx3NXrNW2bNwX8"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nGlucose is converted into insoluble starch for storage.\n\nUse your knowledge about osmosis to explain why plant cells do not use glucose as a storage molecule.",
+     "solution_md": "Plant cells do not use glucose as a storage molecule because...\n\nAny **two** of the following:\n\n- Glucose is soluble so will decrease the water potential (of the plant cell); **[1 mark]**\n- Water will move by osmosis from neighbouring cells; **[1 mark]**\n- This will increase the turgor pressure/turgidity of the cells; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This synoptic question requires you to refer back to Topic 3 that covered osmosis and its effect on plant and animal cells.*"
+    },
+    {
+     "id": "qstnprt_pWP626H9nf25bWqC",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BwK89dHxRfBFMjzg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows a diagram of a leaf.\n- The part of the leaf labelled G contains no chlorophyll and is a white colour.\n- The part of the leaf labelled H contains chlorophyll and is a green colour.\nGlucose produced during photosynthesis is stored in the leaf as starch.\nThe leaf was boiled in ethanol to remove the chlorophyll. The leaf was then tested for the presence of starch with iodine solution.\nA similar leaf was kept in the dark for 24 hours and then tested for the presence of starch.\nThe leaf contained no starch.\n\nA student modified the experiment from part (a) in order to investigate if light is needed for photosynthesis. Before carrying out the experiment, the student had to include an important step to ensure they obtain accurate results.\n\n(i)\n\nDescribe this step.\n\n[1]\n\n(ii)\n\nExplain the importance of the step described at part (i).\n\n[2]",
+     "solution_md": "(i) The step that must be included before the experiment can be done is...\n\n- Destarch the plant / place the plant in a dark cupboard for 24 hours; **[1 mark]**\n\n(ii) The importance of this step is...\n\n- To ensure that any starch present in the leaf is used up / removed; **[1 mark]**\n- This will avoid a positive result/test (for starch) in parts that were not exposed to light; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Destarching a plant before investigating the need for light (or carbon dioxide) is a crucial step that cannot be skipped. If the starch that is already present in the leaf is not removed first, then the entire leaf will test positive for starch and your results will not be accurate.*"
     }
    ]
   }

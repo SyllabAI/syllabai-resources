@@ -213,3 +213,191 @@ Al<sub>2</sub>O<sub>3</sub> (s) + 6HCl (aq) → 2AlCl<sub>3</sub> (aq) + 3H<sub>
 
 > **[exam-tip]**
 > A common trap is to confuse argon (18 electrons) with neon (10 electrons). Sodium, oxygen, magnesium, and nitrogen all form ions with 10 electrons. They are isoelectronic with neon, not argon.
+
+## Structured Questions (3 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The element that forms a soluble hydroxide and an insoluble sulfate:
+> 
+> - Ba **[1 mark]**
+> 
+> ii) The most volatile element in a group that contains elements in all three states of matter at room temperature and pressure:
+> 
+> - F **[1 mark]**
+> 
+> iii) The element that forms the largest cation:
+> 
+> - Cs **[1 mark]**
+
+> **[exam-tip]**
+> The trend in solubility for Group 2 hydroxides and sulfates:
+> 
+> - Going down Group 2, the solubility of the hydroxides increases
+> - Going down Group 2, the solubility of the sulfates decreases
+> 
+> Barium hydroxide is soluble and barium sulfate is insoluble. Barium is therefore the only Group 2 element that satisfies both conditions in part i).
+> 
+> Group 17 is the only group that contains elements in all three states of matter at room temperature and pressure:
+> 
+> - Fluorine = gas
+> - Chlorine = gas
+> - Bromine = liquid
+> - Iodine = solid
+> - Astatine = solid
+> 
+> Volatility refers to how easily a substance can evaporate. The lower the boiling point, the more volatile a substance is. Fluorine has the lowest boiling point in Group 17 and is therefore the most volatile.
+> 
+> Metals form cations (positively charged ions). For part iii), this eliminates the non-metal elements on the right-hand side of the Periodic Table. Caesium and barium are in the same period but caesium has a lower nuclear charge, so its outer electrons are held less strongly. Therefore, caesium forms the largest cation.
+i) The first ionisation energy is:
+
+- Energy required / energy change
+- when one electron is removed
+- from each atom in one mole of
+- gaseous atoms
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 2 marks for all four points
+> 
+> 1 mark for any two or three points.
+
+> **[mark-scheme]**
+> ii) The first ionisation energy of **B** is much less than that of **A** because:
+> 
+> - (For element **B**) the outer electron is removed from a higher energy level **[1 mark]**
+> - There is more shielding (by inner electrons) **[1 mark]**
+> - So there is less attraction to the nucleus **[1 mark]**
+
+> **[exam-tip]**
+> The four factors that affect the first ionisation energy are:
+> 
+> - Nuclear charge
+> - Distance of outer electrons from nucleus
+> - Shielding by inner electrons
+> - Spin-pair repulsion
+> 
+> The question states that the ionisation energies are for six successive elements. Generally, across a period, ionisation energy increases due to increasing nuclear charge and reasonably constant shielding. Element **B** is an exception as its outer electron is in a new, higher energy level with more inner shells providing additional shielding, making the electron easier to remove despite the higher nuclear charge.
+i) A graph showing the trend in atomic radius across Period 3 is:
+
+![Graph showing atomic radius decreasing smoothly from Na to Ar across Period 3, with a general downward trend from left to right](assets/004-graph-showing-atomic-radius-decreasing-smoothly-.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for a line that decreases from left to right across Period 3 (Na to Ar)
+
+> **[mark-scheme]**
+> ii) The trend occurs because:
+> 
+> - Increasing nuclear charge (across Period 3) **[1 mark]**
+> - Electrons remain in the same electron shell / number of shells does not change **[1 mark]**
+> - Greater attraction between the nucleus and outer electrons / increased effective nuclear charge **[1 mark]**
+
+> **[exam-tip]**
+> Atomic radius is the distance between the nucleus and the outermost electron.
+> 
+> Going across Period 3, each successive element has one more proton in the nucleus (greater nuclear charge), but all electrons are still added to the third shell. The shielding remains approximately constant, so the effective nuclear charge experienced by the outer electrons increases across the period. The nucleus pulls the outer electrons closer, reducing the atomic radius.
+
+### Q2
+> **[mark-scheme]**
+> Element **A** is:
+> 
+> - Phosphorus / P **[1 mark]**
+> - There is a (very) large jump between the 5th and 6th ionisation energies
+> **OR**
+> There is a (very) large jump in ionisation energy after the 5th ionisation energy **[1 mark]**
+
+> **[exam-tip]**
+> Successive ionisation energies increase because once an electron has been removed from an atom, you are left with a positive ion. Removing an electron from an increasingly positive ion requires progressively more energy.
+> 
+> The key to identifying an element from its successive ionisation energies is to look for the large jump in ionisation energy. In this question, the jump from the 5th to the 6th ionisation energy is almost 15,000 kJ mol<sup>-1</sup>, far greater than any earlier increase.
+> 
+> A common mistake is to correctly identify the large jump between the 5th and 6th ionisation energies, then incorrectly identify the element as being in Group 6. If the large jump occurs after the 5th ionisation energy, the element has 5 electrons in its outer shell and must be in Group 5.
+> **[mark-scheme]**
+> The trend shown in the graph:
+> 
+> - A general increase in first ionisation energy across Period 3 **[1 mark]**
+> - (Across a period) nuclear charge increases / a proton is added to the nucleus **[1 mark]**
+> - Aluminium deviates from the general trend because its outermost / valence electron is in a 3p orbital **[1 mark]**
+> - The 3p orbital is further from the nucleus
+> **OR**
+> The 3p orbital has a slightly higher energy than the 3s orbital **[1 mark]**
+> - Sulfur deviates because its outermost / valence electron is paired / shares a 3p orbital with another electron
+> **AND**
+> There is repulsion between the paired electrons (in the 3p orbital) **[1 mark]**
+> **[mark-scheme]**
+> The second ionisation energy of aluminium is larger than the first because:
+> 
+> - Electrons are now being removed from a positive ion
+> **OR**
+> The electrons being removed are closer to the nucleus
+> **OR**
+> Al<sup>+</sup> ions are smaller than Al atoms
+> **OR**
+> The electron is being removed from a 3s orbital rather than a 3p orbital **[1 mark]**
+
+> **[exam-tip]**
+> Successive ionisation energies increase because the more positive an ion becomes, the more energy is needed to remove the next electron. You are removing a negatively charged electron from an increasingly positive ion.
+> 
+> In the case of aluminium, the 1st ionisation energy removes an electron from a 3p orbital, and the 2nd removes an electron from a 3s orbital. The 3s orbital is closer to the nucleus and at a lower energy than the 3p, so more energy is required to remove a 3s electron than a 3p electron.
+
+### Q3
+> **[mark-scheme]**
+> Element **X** is:
+> 
+> - Sodium / Na **[1 mark]**
+> 
+> Its full electron configuration is:
+> 
+> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup> **[1 mark]**
+> 
+> [Ne] 3s<sup>1</sup> is not accepted as a full electron configuration.
+
+> **[exam-tip]**
+> The graph shows that a total of 11 electrons are removed from element X. The number of electrons equals the number of protons, so element X has 11 protons and is sodium.
+> 
+> The number of electron shells can be determined from the large jumps in ionisation energy. A large jump indicates the next electron is being removed from a shell closer to the nucleus:
+> 
+> - Large jump between the 1st and 2nd ionisation energies: only 1 electron in the outermost shell (n = 3)
+> - Large jump between the 9th and 10th ionisation energies: the 10th electron is in the innermost shell (n = 1), so there are 2 electrons in that shell
+> - Electrons 2 to 9 (8 electrons) are in the second shell (n = 2)
+> 
+> The question asks for the full electron configuration. The condensed noble gas configuration [Ne] 3s<sup>1</sup> is not accepted for the second mark.
+> **[mark-scheme]**
+> The successive ionisation energy data relates to the electron configuration of element **X** as follows:
+> 
+> - The first electron is the easiest to remove
+> **OR**
+> There is 1 electron in the outermost energy level (n = 3) **[1 mark]**
+> - Large increase between the 1st and 2nd ionisation energies as the electron is now removed from n = 2
+> **AND**
+> The next 8 electrons show a relatively small increase as these electrons are all in the same energy level (n = 2) **[1 mark]**
+> - Large increase between the 9th and 10th ionisation energies as the electron is now removed from n = 1
+> **AND**
+> The final two electrons are the most difficult to remove / are in the innermost energy level (n = 1) **[1 mark]**
+
+> **[exam-tip]**
+> As successive electrons are removed, it becomes increasingly difficult to remove the next electron. This is because the effective nuclear charge experienced by the remaining electrons increases as the ion becomes more positive, strengthening the attraction to the nucleus.
+> **[mark-scheme]**
+> i) Element **Y** is:
+> 
+> - Silicon / Si **[1 mark]**
+
+ii) The equation for the reaction of silicon tetrachloride with water is:
+
+SiCl<sub>4</sub> (l) + 2H<sub>2</sub>O (l) → SiO<sub>2</sub> (s) + 4HCl (g)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct formulas and state symbols
+> 
+> 1 mark for correctly balanced equation
+
+> **[exam-tip]**
+> Silicon tetrachloride (SiCl<sub>4</sub>) reacts rapidly with water to form a white precipitate of silicon dioxide (SiO<sub>2</sub>) and white steamy fumes of hydrogen chloride (HCl).
+> 
+> Make sure you know the observations and equations for Period 3 chlorides and oxides reacting with water as these are common exam questions.

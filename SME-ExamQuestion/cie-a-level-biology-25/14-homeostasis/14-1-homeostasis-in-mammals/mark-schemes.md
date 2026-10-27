@@ -521,10 +521,15 @@ The adaptations of the proximal convoluted tubule help as follows:
 
 | 1. | Microvilli on the inner surface | increase surface area for selective reabsorption | **[1 mark]** |
 |---|---|---|---|
-| 2. | Many mitochondria in epithelial cells | release energy from respiration for active processes/transport | **[1 mark]** |
+| 2. | Many mitochondria in epithelial cells | release energy from respiration for active processes/transport **OR** provide/produce ATP for active processes/transport | **[1 mark]** |
 | 3. | Tightly-packed cells in the epithelium | prevent diffusion of solutes out of the PCT between cells / force solutes to pass through epithelial cells | **[1 mark]** |
 
 **[Total: 3 marks]**
+
+> **[exam-tip]**
+> When a question asks how an adaptation helps a structure carry out its function, always name the specific process it helps, not just the general feature.
+> 
+> Do not confuse the PCT with the filtration barrier in the glomerulus, because the PCT's job is reabsorption, not stopping large molecules passing through.
 The afferent and efferent arterioles differ:
 
 - Afferent: blood flows into the glomerulus / efferent: blood flows out of the glomerulus; **[1 mark]**

@@ -1,6 +1,6 @@
 # Exam Questions — The Trial Balance & Correction of Errors
 **3. Verification of Accounting Records** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 20 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 28 questions across 2 sets
 
 
 ## Multiple Choice Questions (20 questions)
@@ -240,3 +240,485 @@ Which of the following statements about this trial balance is correct?
 **Q20** [1 mark]
 
 Which of the following consists of a list of ledger balances on a particular date?
+
+## Structured Questions (8 questions)
+
+
+### Q1 — medium — 11 marks
+
+**Q1** [6 marks]
+
+Amadi prepared the following trial balance which is not yet totalled and contains errors.
+
+Amadi 
+Trial balance at 31 March 2023
+
+|   | Debit | Credit |
+|---|---|---|
+|   | \$ | \$ |
+| Fittings and equipment at cost |   | 30 000 |
+| Provision for depreciation of fittings and equipment | 7 500 |   |
+| Trade receivables | 6 100 |   |
+| Bank overdraft | 3 106 |   |
+| Trade payables |   | 3 485 |
+| Capital |   | 20 000 |
+| Sales |   | 73 250 |
+| Purchases |   | 41 785 |
+| Discount received | 1 990 |   |
+| Sales returns | 3 390 |   |
+| Carriage inwards | 1 223 |   |
+| General expenses | 6 430 |   |
+| Rent and rates | 7 380 |   |
+| Drawings | 9 500 |   |
+| Inventory at 1 April 2022 |   | 3 752 |
+| Inventory at 31 March 2023 | 3 965 |   |
+
+**REQUIRED**
+
+Prepare a corrected trial balance at 31 March 2023. Show the remaining difference between the debit and credit totals as ‘suspense.’
+
+Amadi 
+Corrected Trial Balance at 31 March 2023
+
+|   | Debit | Credit |
+|---|---|---|
+|   | \$ | \$ |
+| Fittings and equipment at cost |   |   |
+| Provision for depreciation of fittings and equipment |   |   |
+| Trade receivables |   |   |
+| Bank overdraft |   |   |
+| Trade payables |   |   |
+| Capital |   |   |
+| Sales |   |   |
+| Purchases |   |   |
+| Discount received |   |   |
+| Sales returns |   |   |
+| Carriage inwards |   |   |
+| General expenses |   |   |
+| Rent and rates |   |   |
+| Drawings |   |   |
+| Inventory |   |   |
+| Suspense |   |   |
+|   |   |   |
+
+*Source: June 2023 0452/22 Q5A*
+
+
+**Q1** [5 marks]
+
+Amadi then discovered the following errors.
+
+1. The general expenses account had been undercast by \$200.
+2. A rent payment, \$516, had been posted to the rent and rates account as \$615.
+3. The total for discount received in the cash book for February 2023, \$165, had been debited to the drawings account. No other entry for this total had been made.
+
+**REQUIRED **
+
+Prepare the suspense account.
+
+Amadi 
+Suspense account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2023 |   |   | 2023 |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/22 Q5B*
+
+
+### Q2 — medium — 16 marks
+
+**Q2** [10 marks]
+
+Ramla has calculated her draft profit figure for the year ended 28 February 2023. Adjustments in Ramla’s ledger accounts have still to be made for the following items
+
+1. An amount of \$99 owed to Ramla by Mai is to be written off as irrecoverable.
+2. Fixtures and fittings, \$875, were purchased on credit from Padma.
+3. A loan repayment, \$500, had been incorrectly recorded as loan interest.
+4. Rent paid, \$350, had been recorded as \$530.
+5. Drawings, \$120, had been debited to the wages account
+
+**REQUIRED **
+
+Prepare the journal entries required for items 1–5. Narratives are **not **required.
+
+Ramla 
+Journal
+
+| Item number | Details | Debit <br>\$ | Credit <br>\$ |
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+
+*Source: June 2023 0452/22 Q2A*
+
+
+**Q2** [6 marks]
+
+Complete the following table by entering the amount of each adjustment required to calculate Ramla’s adjusted profit. If an item has no effect on profit, enter zero (0) in the ‘no effect on profit’ box.
+
+| Item | Increase in profit<br><br>\$ | Decrease in profit <br>\$ | No effect on profit | Profit <br>\$ |
+|---|---|---|---|---|
+| Draft profit |   |   |   | 11 650 |
+| 1 |   |   |   |   |
+| 2 |   |   |   |   |
+| 3 |   |   |   |   |
+| 4 |   |   |   |   |
+| 5 |   |   |   |   |
+| Adjusted profit |   |   |   |   |
+
+*Source: June 2023 0452/22 Q2B*
+
+
+### Q3 — medium — 19 marks
+
+**Q3** [9 marks]
+
+Rachel is a trader. 
+The totals of Rachel’s trial balance prepared on 30 September 2023 did not agree and the difference was placed in a suspense account.
+
+Rachel later discovered the errors shown in the following table.
+
+**REQUIRED**
+
+Complete the following table to show the entries required to correct each error. The first one has been completed as an example.
+
+| Error | Entries required to correct the error |   |   |   |
+|---|---|---|---|---|
+| Debit | Credit |   |   |   |
+| Account | \$ | Account | \$ |   |
+| A payment for rent, \$350, had been debited to the wages account | *Rent payable* | *350* | *Wages* | *350* |
+| The sales journal for September had been overcast by \$90. |   |   |   |   |
+| Sales returns, \$110, had been recorded as purchases returns |   |   |   |   |
+| A payment for office expenses, \$18, had been recorded in the office expenses account as \$81. |   |   |   |   |
+| A petty cash book payment, \$29, to Cole, a supplier, had been recorded in the column for motor expenses. |   |   |   |   |
+
+*Source: Nov 2023 0452/22 Q4A*
+
+
+**Q3** [5 marks]
+
+Prepare the suspense account. Include the balancing figure as the original difference on the trial balance.
+
+Rachel 
+Suspense account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/22 Q4B*
+
+
+**Q3** [5 marks]
+
+Rachel’s draft profit before the errors were discovered was \$18 243.
+
+**REQUIRED**
+
+Calculate Rachel’s profit for the year ended 30 September 2023 **after **the errors in the table have been corrected.
+
+*Source: Nov 2023 0452/22 Q4C*
+
+
+### Q4 — medium — 20 marks
+
+**Q4** [11 marks]
+
+Asia is a trader. She prepared her trial balance at 31 August 2023. The credit side totalled \$273 more than the debit side. Asia placed the difference in a suspense account.
+
+Asia later discovered the following errors.
+
+1. A credit purchase, \$112, from Jacques, had been entered twice in the purchases journal.
+2. The wages account had been overcast by \$300.
+3. Cash received, \$75, from Savanah, a trade receivable, had only been entered in the cash book.
+4. The total of the sales returns journal for August 2023 of \$198, had been credited to both the sales returns account and the purchases returns account.
+5. A payment to Sophie, \$93, had been recorded as \$39 in Sophie’s account.
+
+**REQUIRED**
+
+Prepare the journal entries to correct errors 1–5. Narratives are **not **required.
+
+Asia
+Journal
+
+| Error number | Details | Debit<br><br>\$ | Credit<br><br>\$ |
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+
+*Source: Nov 2023 0452/21 Q4A*
+
+
+**Q4** [5 marks]
+
+Prepare the suspense account, including the original difference on the trial balance
+
+Asia 
+Suspense account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 042/21 Q4B*
+
+
+**Q4** [4 marks]
+
+Complete the following table by placing a tick (✓) to show the effect of each error. The first one has been completed as an example.
+
+| Error number | Error | Gross profit | Profit for the year | No effect |   |   |
+|---|---|---|---|---|---|---|
+| + | - | + | - |   |   |   |
+| 1 | A credit purchase, \$112, from Jacques, had been debited twice to the purchases account. |   | ✓ |   | ✓ |   |
+| 2 | The wages  account had been overcast by \$300. |   |   |   |   |   |
+| 3 | Cash received, \$75 from Savanah, a trade receivable, had only been entered in the cash book. |   |   |   |   |   |
+| 4 | The total of the sales returns journal for August 2023, \$198, had been credited to both the sales returns account and the purchases returns account. |   |   |   |   |   |
+| 5 | A payment to Sophie, \$93, had been recorded as \$39 in Sophie’s account. |   |   |   |   |   |
+
+*Source: Nov 2023 0452/21 Q4C*
+
+
+### Q5 — medium — 20 marks
+
+**Q5** [10 marks]
+
+Eshe is a trader. She has prepared a trial balance at 31 March 2023. The totals did not agree and the difference was placed in a suspense account.
+
+Eshe later discovered the errors shown in the following table.
+
+**REQUIRED **
+
+Complete the table to show the entries required to correct each error. The first one has been completed as an example.
+
+| Error | Entries required to correct the error |   |   |   |
+|---|---|---|---|---|
+| Debit | Credit |   |   |   |
+| Account | \$ | Account | \$ |   |
+| A payment for rent, \$300, had been debited to the insurance account. | *Rent paid* | *300* | *Insurance* | *300* |
+| Credit sales to Raymond of \$105 had been debited to the sales account and credited to Raymond’s account. |   |   |   |   |
+| Eshe’s total drawings from the bank for her own use, \$9500, had been debited to the cash account. |   |   |   |   |
+| A purchases invoice from Danika for \$137 had been recorded in her account and in the purchases journal as \$173. |   |   |   |   |
+| Returns inwards, \$44, had not been recorded in the returns inwards account. |   |   |   |   |
+| The motor expenses account had been overcast by \$100. |   |   |   |   |
+
+*Source: June 2023 0452/21 Q3A*
+
+
+**Q5** [3 marks]
+
+Prepare the suspense account. Include the balancing figure as the original difference on the trial balance.
+
+Eshe 
+Suspense account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/21 Q3B*
+
+
+**Q5** [7 marks]
+
+Eshe’s capital at 1 April 2022 was \$31000. Her draft profit for the year ended 31 March 2023 before correction of the errors was \$15600.
+
+**REQUIRED **
+
+Calculate Eshe’s capital at 31 March 2023 **after** the errors have been corrected.
+
+*Source: June 2023 0452/21 Q3C*
+
+
+### Q6 — medium — 20 marks
+
+**Q6** [7 marks]
+
+Wasim is a trader. His financial year ends on 31 March.
+
+The totals of his trial balance on 31 March 2017 did not agree. The difference was a shortage on the debit side of \$495. This was entered in a suspense account.
+
+The following errors were later discovered.
+
+1. The total of a page of the purchases account, \$3842, had been carried forward as \$3824.
+2. A cheque received from DEC Limited, \$150, had been credited to the account of DDE Limited.
+3. The balance of the petty cash book, \$100, had been omitted from the trial balance.
+4. Repairs to a motor vehicle, \$283, had been debited to the motor vehicles account.
+5. Purchase of fixtures, \$2000, on credit from OS Supplies had been debited to OS Supplies and credited to fixtures account.
+6. The total of the discount allowed column in the cash book, \$250, had been credited to the discount received account in the ledger.
+7. The total of the analysis column for stationery in the petty cash book, \$67, had not been transferred to the stationery account in the ledger.
+
+**REQUIRED **
+
+Prepare the suspense account. Start with the balance arising from the difference on the trial balance. The account should be balanced or totalled as necessary.
+
+Wasim 
+Suspense account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Specimen 2020 0452/02 Q4A*
+
+
+**Q6** [6 marks]
+
+Prepare journal entries to correct** two** of the errors which do **not **require correcting by means of the suspense account. Narratives **are **required.
+
+Wasim
+Journal
+
+| Error number | Details | Debit<br>\$ | Credit<br>\$ |
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+
+*Source: Specimen 2020 0452/02 Q4B*
+
+
+**Q6** [1 mark]
+
+Identify the type of error made in **Error 2**.
+
+*Source: Specimen 2020 0452/02 Q4C*
+
+
+**Q6** [6 marks]
+
+Wasim prepared draft financial statements for the year.
+
+**REQUIRED **
+
+Complete the following table by placing a tick (✓) in the correct column to indicate whether the profit for the year would be affected by **each** of the errors. Ignore depreciation of non-current assets.
+
+The first one has been completed as an example.
+
+| error number | affects the profit for the year | does not affect the profit for the year |
+|---|---|---|
+| 1 | ✓ |   |
+| 2 |   |   |
+| 3 |   |   |
+| 4 |   |   |
+| 5 |   |   |
+| 6 |   |   |
+| 7 |   |   |
+
+*Source: Specimen 2020 0452/02 Q4D*
+
+
+### Q7 — hard — 18 marks
+
+**Q7** [6 marks]
+
+Nabila is a trader. Her financial year ends on 30 September.
+
+The trial balance totals at 30 September 2025 did not agree. The total of the debit balances was \$108 more than the total of the credit balances. The difference was placed in a suspense account.
+
+The following errors were later discovered.
+
+1. An electricity payment \$78, by direct debit, was not recorded.
+2. A cheque \$246 received from K. Patel was correctly entered in the cash book, but was credited to the account of N. Patel.
+3. Drawings \$360 from the business bank account had been debited to wages.
+4. A contra entry \$190 to set off mutual balances between Nabila and Jazeem was only recorded in the sales ledger.
+5. Discount received column total \$84 in the cash book was debited to discount allowed in the ledger.
+6. The sales returns journal for September was overcast by \$220.
+7. A purchase of office equipment \$1 540 on credit from ByteTech Ltd was entered into the office equipment account as \$1 450.
+
+**REQUIRED**
+
+Prepare journal entries to correct **Error 1** and **Error 2**. Narratives **are **required.
+
+| Error number | Details | Debit<br>\$ | Credit<br>\$ |
+|---|---|---|---|
+| 1 |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+| 2 |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+
+**Q7** [1 mark]
+
+Identify the type of error made in **Error 3**.
+
+**Q7** [5 marks]
+
+Prepare the suspense account, including the original difference on the trial balance.
+
+Nabila
+Suspense account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+**Q7** [6 marks]
+
+Complete the following table by placing a tick (✓) to show the effect of each error. The first one has been completed as an example.
+
+Ignore depreciation of non-current assets.
+
+| Error number | Increases the profit for the year | Decreases the profit for the year | No effect on the profit for the year |
+|---|---|---|---|
+| 1 | ✓ |   |   |
+| 2 |   |   |   |
+| 3 |   |   |   |
+| 4 |   |   |   |
+| 5 |   |   |   |
+| 6 |   |   |   |
+| 7 |   |   |   |
+
+### Q8 — easy — 2 marks
+
+**Q8** [2 marks]
+
+State **two **reasons for preparing a trial balance.

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:22:23Z",
+ "generated_utc": "2026-10-26T14:39:48Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -447,9 +447,23 @@
        "alt": "1 over 18 space plus space 1 over 51 space equals space 0.075 space"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator 1 over denominator 0.075 end fraction space equals space 13.3 space straight mu straight F space equals space 13 space straight mu straight F space open parentheses 2 space straight s. straight f. close parentheses",
+       "render": "$\\frac{1}{0.075} = 13.3 \\ \\\\mu \\mathrm{F} = 13 \\ \\\\mu \\mathrm{F} ( 2 \\mathrm{s} . \\mathrm{f} . )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "energy=\\frac{1}{2}CV^{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>e</mi><mi>n</mi><mi>e</mi><mi>r</mi><mi>g</mi><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>C</mi><msup><mi>V</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "e n e r g y space equals space 1 half C V squared"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "e n e r g y space equals space 1 half space cross times space open parentheses 13.3 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 8 squared",
+       "render": "$e n e r g y = 1 \\frac{1}{2} \\times ( 13.3 \\times 10^{- 6} ) \\times 8^{2}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "energy=4.16\\times10^{-4}J",
@@ -550,7 +564,23 @@
      ],
      "part_tier": null,
      "problem_md": "A student has available three capacitors, each of capacitance 24 μF.\n\nDraw circuit diagrams, one in each case, to show how the student connects the three capacitors to provide a combined capacitance of:\n\n(i) 36 μF\n\n[1]\n\n(ii) 16 μF\n\n[1]",
-     "solution_md": "Consider mathematically the combination of capacitors and their combined capacitance:\n\nList the known quantities:\n\n- Capacitance of each capacitor, *C *= 24 μF\n\nTwo capacitors in series with one in parallel:\n\n- `C = ( (1)/(1 / 24 + 1 / 24) ) + 24 = 36 mu F`\n- Hence, this is the arrangement needed for (i)\n\nTwo capacitors in parallel with one in series:\n\n- $C = \\frac{1}{( \\frac{1}{24 + 24} ) + \\frac{1}{24} } = 16 \\ \\\\mu \\mathrm{F}$\n- Hence, this is the arrangement needed for (ii)\n\n(i) A circuit diagram to show the 3 capacitors connected to obtain a capacitance of 36 μF is:\n\n![2 series 1 parallel capacitor solution](assets/007-2-series-1-parallel-capacitor-solution.png)\n\n- Two capacitors are drawn in series with one capacitor drawn in parallel to these; **[1 mark]**\n\n(ii) A circuit diagram to show the 3 capacitors connected to obtain a capacitance of 16 μF is:\n\n![2 parallel 1 series capacitor solution](assets/008-2-parallel-1-series-capacitor-solution.png)\n\n- Two capacitors are drawn in parallel with one capacitor in series to these;** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *This question requires a bit of **trial and error** by considering the different combinations of capacitors in a logical order:*\n\n- *All in parallel*\n- *All in series*\n- *Two in parallel and one in series - then mathematically you will notice this is an answer*\n- *Two in series and one in parallel - this is the other answer*\n\n> *You also don't have to do each calculation in one go, break it down into the parallel part and the series part.*"
+     "solution_md": "Consider mathematically the combination of capacitors and their combined capacitance:\n\nList the known quantities:\n\n- Capacitance of each capacitor, *C *= 24 μF\n\nTwo capacitors in series with one in parallel:\n\n- `C = ( (1)/(1 / 24 + 1 / 24) ) + 24 = 36 mu F`\n- Hence, this is the arrangement needed for (i)\n\nTwo capacitors in parallel with one in series:\n\n- $C = \\frac{1}{( \\frac{1}{24 + 24} ) + \\frac{1}{24} } = 16 \\ \\\\mu \\mathrm{F}$\n- Hence, this is the arrangement needed for (ii)\n\n(i) A circuit diagram to show the 3 capacitors connected to obtain a capacitance of 36 μF is:\n\n![2 series 1 parallel capacitor solution](assets/007-2-series-1-parallel-capacitor-solution.png)\n\n- Two capacitors are drawn in series with one capacitor drawn in parallel to these; **[1 mark]**\n\n(ii) A circuit diagram to show the 3 capacitors connected to obtain a capacitance of 16 μF is:\n\n![2 parallel 1 series capacitor solution](assets/008-2-parallel-1-series-capacitor-solution.png)\n\n- Two capacitors are drawn in parallel with one capacitor in series to these;** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *This question requires a bit of **trial and error** by considering the different combinations of capacitors in a logical order:*\n\n- *All in parallel*\n- *All in series*\n- *Two in parallel and one in series - then mathematically you will notice this is an answer*\n- *Two in series and one in parallel - this is the other answer*\n\n> *You also don't have to do each calculation in one go, break it down into the parallel part and the series part.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "C space equals space open parentheses fraction numerator 1 over denominator 1 over 24 space plus space 1 over 24 end fraction close parentheses space plus space 24 space equals space 36 space straight mu straight F",
+       "render": "`C = ( (1)/(1 / 24 + 1 / 24) ) + 24 = 36 mu F`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "C space equals space fraction numerator 1 over denominator open parentheses fraction numerator 1 over denominator 24 space plus space 24 end fraction close parentheses space plus space 1 over 24 end fraction space equals space 16 space straight mu straight F",
+       "render": "$C = \\frac{1}{( \\frac{1}{24 + 24} ) + \\frac{1}{24} } = 16 \\ \\\\mu \\mathrm{F}$",
+       "via": "alt-transpile"
+      }
+     ]
     }
    ]
   },
@@ -638,9 +668,23 @@
        "alt": "Q subscript 1 space equals space C subscript 1 space V subscript m a x end subscript"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q subscript 1 space equals space open parentheses 27 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 4",
+       "render": "$Q_{1} = ( 27 \\times 10^{- 6} ) \\times 4$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "Q_{1}=1.08\\times10^{-4}C",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Q</mi><mn>1</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>08</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">C</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "Q subscript 1 space equals space 1.08 space cross times space 10 to the power of negative 4 end exponent space straight C space"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V subscript 2 space equals space Q subscript 2 over C subscript P space equals space fraction numerator open parentheses 1.08 space cross times space 10 to the power of negative 4 end exponent close parentheses over denominator open parentheses 54 space cross times space 10 to the power of negative 6 end exponent close parentheses end fraction space equals space 2 space straight V",
+       "render": "`V _ 2 = Q _ 2 / C _ P = (( 1.08 x 10 ^ - 4 ))/(( 54 x 10 ^ - 6 )) = 2 V`",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -697,6 +741,13 @@
        "latex": "C=9\\times10^{-4}F=900\\mathrm{μF}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>900</mn><mo>&#160;</mo><mi>&#956;F</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "C space equals space 9 space cross times space 10 to the power of negative 4 end exponent space straight F space equals space 900 space straight mu straight F"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A space equals space 1 half open parentheses a space plus space b close parentheses h space equals space 1 half space open parentheses open parentheses 5.4 space cross times space 10 to the power of negative 3 end exponent close parentheses space plus space open parentheses 7.2 space cross times space 10 to the power of negative 3 end exponent close parentheses close parentheses space cross times space 2",
+       "render": "$A = 1 \\frac{1}{2} ( a + b ) h = 1 \\frac{1}{2} ( ( 5.4 \\times 10^{- 3} ) + ( 7.2 \\times 10^{- 3} ) ) \\times 2$",
+       "via": "alt-transpile"
       },
       {
        "latex": "A=0.0126J=12.6\\mathrm{mJ}",

@@ -479,3 +479,829 @@ Other effects of adrenaline include:
 - During strenuous exercise the body temperature will rise (due to increased muscle activity) and therefore sweat will be produced to help cool the body down as evaporation of water from the skin results in increased heat loss leading to a cooling effect
 - This increases the volume of water lost through the skin. To prevent dehydration and maintain blood pressure, less water will need to be lost from the kidneys in the production of urine. As such, more water would be reabsorbed back into the bloodstream from the kidney tubules (resulting in a smaller volume of more concentrated urine being produced)
 - As body temperature rises, the skin responds by relaxing effector muscles so that the hairs on the skin lie flat. Less air is trapped against the skin, reducing the insulting effect so that more heat loss can occur
+
+## Theory Questions (18 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> (i) The hormone and the glands are:
+> 
+> - Adrenaline **[1 mark]**
+> - Adrenal (glands) **[1 mark]**
+> 
+> (ii) One effect other than an increased heart rate is:
+> 
+> Any **one** from:
+> 
+> - increased breathing rate
+> - widened pupils / increased pupil diameter
+> 
+> **[1 mark]**
+> 
+> Accept references to increased blood glucose.
+
+### Q2
+To calculate the rate of pupil constriction between 0.5 seconds and 2.5 seconds:
+
+- Determine the time that has passed, i.e. the change in the Y axis:
+
+= 2.5 - 0.5
+
+= 2 seconds
+
+- Determine the change in pupil diameter, i.e. the change in the X-axis:
+
+= 8 - 2
+
+= 6 mm
+
+- Determine the change in pupil diameter per second:
+
+  - Divide the change in diameter by the number of seconds
+
+= 6 ÷ 2
+
+= **3 mm/s**
+
+> **[mark-scheme]**
+> Award marks as follows:
+> 
+> - 2 (seconds) **AND** 6 (mm) **[1 mark]**
+> - 3 **[1 mark]**
+> - mm/s **OR **mm s<sup>-1 </sup>**[1 mark]**
+> 
+> Award full marks for the correct answer and units in the absence of other calculations.
+> **[mark-scheme]**
+> Any **four** from:
+> 
+> - Neurotransmitter does not diffuse across the synaptic gap / cleft
+> - Neurotransmitter molecules do not bind with receptor proteins on the next neurone
+> - The next neurone is not stimulated / no impulse is generated in the next neurone
+> - No impulse is transmitted to the circular muscles of the iris
+> - The circular muscles do not contract
+> 
+> **[4 marks]**
+
+> **[exam-tip]**
+> You must use the word **diffuse**. Impulses do not "jump" across the gap, and saying that the neurotransmitters "move" across is too vague for a mark.
+> 
+> Here you should be sure to follow the chain of reasoning through to the pupil, i.e. linking the events at the synapse to the circular muscles of the iris.
+> **[mark-scheme]**
+> - Ciliary muscles relax** [1 mark]**
+> - Suspensory ligaments are pulled tight / taut **[1 mark]**
+> - The lens becomes thinner / less convex **[1 mark]**
+> - Light is refracted less (to focus the image on the fovea/retina)** [1 mark]**
+
+> **[exam-tip]**
+> The most common mistake is confusing near and distant vision — for distant objects ciliary muscles relax, for near objects they contract.
+> 
+> Make sure to mention refraction - the purpose of changing the lens shape is to change how much the light is bent. For a distant object, light needs to be refracted less.
+> **[mark-scheme]**
+> Any **three** from:
+> 
+> - Nervous response is faster **OR** hormonal response is slower
+> - Nervous response is short-lived **WHILE** hormonal response is long-lasting
+> - Nervous signals are electrical impulses **WHILE** hormonal signals are chemicals
+> - Nervous signals travel via neurones **WHILE** hormonal signals travel in the blood
+> 
+> **[3 marks]**
+
+### Q3
+![Flowchart showing features of aerobic respiration, including enzyme action, occurring only in animals, producing water, and requiring oxygen.](assets/022-flowchart-showing-features-of-aerobic-respiratio.png)
+
+- [1 mark] for each correct line
+
+*Note that marks will be deducted for any additional lines*
+| change in the genotype |   |
+|---|---|
+| decreased breathing rate |   |
+| development of lung cancer |   |
+| increased pulse rate | ✓; [1 mark] |
+| widened pupils | ✓; [1 mark] |
+
+*Note that marks will be deducted for any additional ticks*
+
+(ii)
+
+- The adrenal (gland); [1 mark]
+
+(iii)
+
+- (In the) blood **OR** in the plasma; [1 mark]
+
+### Q4
+- Gravitropism; **[1 mark] **
+- Idea of negating the effect of gravitational pull / gravity on one side of the plant (only); **[1 mark] **
+- (Used as a control) to compare with (the response of) plant **B**;  **[1 mark] **
+(i)
+
+- Auxin;  **[1 mark] **
+
+(ii)
+
+Any three from:
+
+- (Auxin / hormone produced in the tip);  **[1 mark] **
+- Moves / diffuses away from tip / down the stem *or* shoot *or* plant;  **[1 mark] **
+- Moves to / collects on one / lower side (of the stem / plant);  **[1 mark] **
+- Stimulates <u>cell</u> elongation;  **[1 mark] **
+- Stem / plant bends / grows / turns upwards; **[1 mark] **
+
+There is flexibility here to gain extra marks for other valid answers that are not specifically named on the mark scheme.
+Any three from:
+
+- Reach light for photosynthesis;  **[1 mark] **
+- (Reach air for) carbon dioxide for photosynthesis;  **[1 mark] **
+- (Reach air for) oxygen for respiration;  **[1 mark] **
+- Idea that they grow tall so that flowers are exposed for, (wind / insect) pollination;  **[1 mark] **
+- Roots grow downwards / towards (direction of) gravity;  **[1 mark] **
+- To reach water / ions or minerals;  **[1 mark] **
+- To anchor plant in the soil; **[1 mark] **
+
+There is flexibility here to gain extra marks for other valid answers that are not specifically named on the mark scheme.
+
+### Q5
+- J = liver; [1 mark]
+- K = gallbladder; [1 mark]
+- L = duodenum / small intestine; [1 mark]
+*Hormones*
+
+- Insulin; [1 mark]
+- Glucagon; [1 mark]
+
+*Enzymes*
+
+- Amylase / carbohydrase; [1 mark]
+- Trypsin / protease; [1 mark]
+- Lipase; [1 mark]
+Any three from:
+
+- Active transport; [1 mark]
+- Movement occurs against a concentration gradient / from low concentration to high concentration; [1 mark]
+- The CFTR protein changes shape to move (chloride) ions; [1 mark]
+- Energy is needed; [1 mark]
+
+Note that you are not expected to know anything about cystic fibrosis, but instead you should be able to apply your knowledge of active transport to this context.
+Any three from:
+
+- Chloride ions (in duct) decrease water potential; [1 mark]
+- Water moves by <u>osmosis</u>; [1 mark]
+- Water moves down a water potential gradient / from high water potential to low water potential; [1 mark]
+- Water moves through a partially permeable membrane; [1 mark]
+
+### Q6
+- Chemical substance produced by a (endocrine) gland;** [1 mark]**
+- Carried by the blood;** [1 mark]**
+- Alters the activity of specific target organs; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Always make sure you are really confident on your key definitions like this. They are easy marks if you’ve done your revision correctly.*
+(i) 136(%); **[3 marks]**
+
+**[1 mark]** for correct readings from the graph, 72 and 170
+
+**[1 mark]** for the correct calculation
+
+**[1 mark]** for correct rounding to a whole number
+
+> *You can still get the second and third marks if you picked the incorrect numbers from the graph but did the correct calculation*
+
+![Graph showing blood glucose concentration over time for two individuals, A and B, with handwritten notes on calculation of percentage increase.](assets/027-graph-showing-blood-glucose-concentration-over-t.png)
+
+(ii) Any **three** from:
+
+- Similar response first 30 minutes (after the glucose ingestion); **[1 mark]**
+- (Person A) increases / decreases more steeply / faster; **[1 mark]**
+- (Person A) increases to / has a higher concentration;** [1 mark]**
+- (Person A) reaches a peak / decreases (much) later; **[1 mark]**
+- (Person A) does not return to starting concentration / original value / normal;** [1 mark]**
+- Any comparative use of figures with correct units e.g. blood glucose concentration peak of person A is 210 mg per 100 cm<sup>3</sup> whereas peak of person B is 100 mg per 100 cm<sup>3</sup>; **[1 mark]**
+
+(iii) Increase in glucose concentration causes secretion of insulin; [1 mark]
+
+- (Secretion) by the pancreas; **[1 mark]**
+- Insulin causes the liver to take up glucose from the blood; **[1 mark]**
+- Glucose is converted to glycogen;** [1 mark]**
+
+> *You can also get a mark for any other correct answers, such as a reference to the detection of increased glucose by the pancreas OR the activation of enzymes in the liver.*
+
+(iv) Any **two** from:
+
+- Taking of insulin; **[1 mark]**
+- Injections / pump; **[1 mark]**
+- (Regular) monitoring of blood glucose concentration;** [1 mark]**
+- Controlling carbohydrate intake; **[1 mark]**
+- Exercise regularly; **[1 mark]**
+- Maintain a healthy mass; **[1 mark]**
+
+**[Total: 12 marks]**
+
+### Q7
+Advantages and disadvantages of changing to treatment F include...
+
+**Advantages**
+
+A maximum of **three** of the following:
+
+- Lower (dry) mass of weeds (after treatment F in comparison to C); **[1 mark]**
+- Lower weed density / fewer weeds (after treatment F in comparison to C); **[1 mark]**
+- (Fewer weeds means that crops have) less competition; **[1 mark]**
+- (Less competition will give a) higher crop yield; **[1 mark]**
+
+**Disadvantages**
+
+A maximum of **three** of the following:
+
+- More treatments / repeat treatments (are required in treatment F compared to C); **[1 mark]**
+- (More treatments will mean) increased cost/time/effort; **[1 mark]**
+- (More treatments will mean) increased environmental impact; **[1 mark]**
+- (More treatments will mean) increased health risks; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Aim to give a reasonable balance of advantages and disadvantages in questions like this. Statements here should involve **comparative** terms such as 'lower', 'less', 'increased', and 'higher' because two treatments are being compared.*
+
+> *Note that while the use of weedkiller 2,4-D is no longer in the CIE IGCSE syllabus for 2023-2025, this question is about dealing with data and making reasonable suggestions about the consequences of weedkiller use and therefore does not require any specialist knowledge of 2,4-D. *
+
+> *This question does not require extended knowledge but is taken from an extended paper 4 question.*
+The name of the response during which shoots of a plant grow away from gravity is...
+
+- Gravi/geo; **[1 mark]**
+- Tropism;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question covers core knowledge but is taken from an extended paper 4 question.*
+
+### Q8
+The effect a less flexible lens would have on the path of light is as follows...
+
+Any **three **from the following:
+
+- The light is refracted by a smaller amount / narrower angle; **[1 mark]**
+- As the lens is thin / stretched; **[1 mark]**
+- Images / light rays are brought into focus behind the retina; **[1 mark]**
+- So (close objects) appear blurred/fuzzy; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *To help you answer this question, think of the lens and path of light as being similar to when looking at a distant object but as the person is looking at a near object, the amount of light refraction is not sufficient. This condition is known as presbyopia and can be corrected by wearing reading glasses. *
+The changes that occur in the normal human eye to focus on near and distant objects are...
+
+**Process/eye structure:**
+
+Up to **two** from the following:
+
+- Key term accommodation used; **[1 mark]**
+- Lens held in place by suspensory ligaments that are attached to the ciliary muscles; **[1 mark]**
+- Accommodation achieved by changing the shape of the lens; **[1 mark]**
+- Which alters the path of / refracts light rays; **[1 mark]**
+- So that they focus on the retina; **[1 mark]**
+
+**Looking at near objects:**
+
+Up to **two** from the following:
+
+- The ciliary muscles contract; **[1 mark]**
+- The suspensory ligaments slacken / loosen; **[1 mark]**
+- Making the lens thicker / lens is fat; **[1 mark]**
+- So that light is refracted strongly; **[1 mark]**
+
+**Looking at distant objects:**
+
+Up to **two** from the following:
+
+- The ciliary muscles relax; **[1 mark]**
+- The suspensory ligaments are taut / stretched / tighten; **[1 mark]**
+- Making the lens thinner / lens is pulled thin; **[1 mark]**
+- So that light is only refracted slightly; **[1 mark]**
+
+*Credit any other valid points made but ignore any irrelevant points*
+
+**[Total: 6 marks]**
+People with long-sightedness cannot see nearby objects clearly because...
+
+- In long-sightedness the light rays do not focus on the retina **OR** they focus behind the retina; **[1 mark]**
+- Image would be blurred / out-of-focus; **[1 mark]**
+
+**[Total: 2 marks]**
+The difference between the number of people needing no vision correction and the people who chose to use contact lenses is calculated as follows:
+
+- No correction: 4 500 × 0.28 = 1 260 **AND** contact lenses: 4 500 × 0.13 = 585; **[1 mark]**
+- Difference: 1 260 - 585 = 675 people; **[1 mark]**
+
+**OR**
+
+- 28% - 13% = 15%; **[1 mark]**
+- 4 500 × 0.15 = 675; **[1 mark]**
+
+**[Total: 2 marks]**
+
+![vision-ma](assets/031-vision-ma.png)
+
+### Q9
+The five sentences about the eye and the nervous system should be completed using the following words:
+
+- Accommodation; **[1 mark]**
+- Antagonistic; **[1 mark]**
+- Peripheral; **[1 mark]**
+- Optic; **[1 mark]**
+- Brain; **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *Be careful to use the correct terms for **accommodation** and **antagonistic**, as students often get these wrong - for example, using ‘focusing’ instead of accommodation, or ‘opposing’ instead of antagonistic, would **not** gain marks.*
+Ions are moved across membranes by active transport in the following way:
+
+Any **three **from the following:
+
+- (In a process that) involves proteins/carriers/pumps (in neurone membrane); **[1 mark]**
+- Ion(s) bind to proteins/carriers/pumps to be transported; **[1 mark]**
+- Ions are moved against their concentration gradient / from low to high concentration; **[1 mark]**
+- (This) requires energy/ATP; **[1 mark]**
+
+***Accept**** a reference to a change in the shape of the carrier (protein) in order to transport an ion across the membrane.*
+
+**[Total: 3 marks]**
+The effects of these two drugs on the nervous system can be explained as follows:
+
+- Neurotransmitters move across synapse/gap/junction;  **[1 mark]**
+
+A maximum of **four** from the following:
+
+Atropine
+
+- Neurotransmitter cannot bind to/enter/reach receptors; **[1 mark]**
+- (Therefore) no impulses are transmitted (along next neurone/postsynaptic neurone) / reach the CNS; **[1 mark]**
+- (This could result in) no/reduced sensitivity to stimuli / feels no/reduced pain / acts as a painkiller; **[1 mark]**
+- (This could result in) no contraction of muscle / no response / longer reaction time / no reflex action; **[1 mark]**
+- (This drug could act as a) depressant; **[1 mark]**
+
+A maximum of **four** from the following:
+
+Eserine
+
+- Neurotransmitter stays in synapse/synaptic gap; **[1 mark]**
+- Neurotransmitter can bind to receptor; **[1 mark]**
+- (This means that the neurotransmitter can continuously) stimulate the next neurone/postsynaptic neurone; **[1 mark]**
+- (More) impulses are sent (in next neurone/postsynaptic neurone); **[1 mark]**
+- (This could lead to) repeated contraction of muscle / response; **[1 mark]**
+- (This drug could act as a) stimulant; **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *While knowledge of the effects of drugs on synapses is no longer covered in the 2023-25 specification, this question does not actually require any knowledge of the effects of drugs to gain the available marks. This question requires you to use your knowledge of the events at a synapse to explain how disruption of these events would affect nerve transmission.*
+
+### Q10
+The term hormone refers to...
+
+- A chemical (substance) produced by an endocrine gland; **[1 mark]**
+- Transported/carried by the blood; **[1 mark]**
+- It affects/alters the activity of target organs/cells; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *This question covers core knowledge but is taken from an extended paper 4 question.*
+(i) The percentage increase in the blood glucose concentration in person **A** between 60 and 90 minutes can be calculated as follows...
+
+- 72 and 170 read correctly from graph; **[1 mark]**
+- (98 ÷ 72) x 100; **[1 mark]**
+- 136 (%); **[1 mark]**
+
+*Full marks can be awarded for the correct answer in the absence of any other calculations.*
+
+***Accept**** error carried forward for marking points 2 and 3, i.e. if the numbers are read from the graph incorrectly but the correct calculation is carried out.*
+
+(ii) The response of person **A** can be compared with the response of person **B** as follows...
+
+Any **three **of the following:
+
+- Responses are similar for the first 30 minutes / between 30 and 60 minutes; **[1 mark]**
+- (The response of person **A**) increases / decreases at a faster rate / more steeply / more quickly; **[1 mark]**
+- (The response of person **A**) increases to / has a higher maximum glucose concentration; **[1 mark]**
+- The decrease in blood glucose (for person **A**) occurs later (than for person **B**) **OR** the peak blood glucose (for person **A**) occurs later (than for person **B**); **[1 mark]**
+- (The response of person **A**) does not return to the starting level/value/concentration/normal level; **[1 mark]**
+- Any correctly compared pair of equivalent values for **A** and **B** **AND** correct units are used; **[1 mark]**
+
+***Accept ****reverse statements for any of the marking points, i.e. where person ****B**** is compared to person ****A****.*
+
+(iii) The response of person **B** after 90 minutes can be explained as follows...
+
+- Increase in blood glucose causes secretion of insulin; **[1 mark]**
+- (Insulin is secreted) by the pancreas; **[1 mark]**
+- Insulin causes the liver (cells) to take up/in / remove glucose from the blood; **[1 mark]**
+- Glucose is converted to glycogen (inside liver cells); **[1 mark]**
+
+***Accept ****references to:*
+
+- *The pancreas detecting changes in blood glucose.*
+- *Insulin activating enzymes inside liver cells.*
+
+(iv) The treatment of type 1 diabetes involves...
+
+Any **two **of the following:
+
+- (Taking) insulin; **[1 mark]**
+- (Insulin can be taken by) injection / insulin pump; **[1 mark]**
+- Monitoring of blood glucose levels/concentration; **[1 mark]**
+- Regulating/controlling carbohydrate intake (in diet); **[1 mark]**
+
+***Accept ****references to:*
+
+- *Regular exercise.*
+- *Maintenance of a healthy body mass/weight.*
+- *Insulin ****not**** being taken orally.*
+
+**[Total: 12 marks]**
+
+![VrKD-gbE_untitled-16](assets/034-vrkd-gbe-untitled-16.jpg)
+
+> *Remember when answering 'compare' questions to include both similarities and differences. Statements of difference should include a direct comparison.*
+
+> *The response of person **B** is that of a healthy individual with a normal response to raised blood glucose so your explanation in part iii) should explain how insulin works to lower blood glucose.*
+
+### Q11
+The the correct order of components during a nervous response is...
+
+1. Stimulus
+2. Receptor
+3. Coordinator
+4. Effector
+5. Response
+
+- 5 correct; **[3 marks]**
+- 3 or 4 correct; **[2 marks]**
+- 1 or 2 correct; **[1 mark]**
+
+**[Total: 3 marks]**
+The sense organ that contains receptor cells that respond to changes in light is the...
+
+- Eye; **[1 mark]**
+
+**[Total: 1 mark]**
+The name of this junction is:
+
+- Synapse; **[1 mark]**
+
+**[Total: 1 mark]**
+The impact that a general anaesthetic would have on the nerve signal...
+
+Any **three **of the following:
+
+- A nerve/electrical impulse arrives at the end of the neurone; **[1 mark]**
+- (But), anaesthetic stops/inhibits the release of chemicals/neurotransmitters; **[1 mark]**
+- (So) no/fewer chemicals/neurotransmitters diffuse across / crosses the gap between neurones; **[1 mark]**
+- No / a reduced impulse is triggered/sent to the next neurone; **[1 mark]**
+- (Thus) stopping/disrupting the transmission of nerve/electrical impulse; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q12
+Sensitivity is...
+
+- Ability to <u>detect</u> and <u>respond</u> to changes in the environment; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *When a word is underlined in a mark scheme it means that it is essential in order to get the mark. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+The three types of neurone shown are:
+
+![cie-igcse-2020-specimen-p4-q3b-reflex-arc-ms](assets/037-cie-igcse-2020-specimen-p4-q3b-reflex-arc-ms.png)
+
+- Sensory neurone; **[1 mark]**
+- Relay / connector / intermediate neurone; **[1 mark]**
+- Motor / effector neurone; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Check the exact place your label lines join to the diagram. You need to be accurate otherwise you can lose the mark. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+An involuntary action is:
+
+- Automatic / no thought required / not a conscious action / no (higher centres in) brain involved; **[1 mark]**
+- Stimulus always leads to the same response / fixed response; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Any reference to the speed of the response will not gain you a mark in this question. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+(i) A synapse is:
+
+- A <u>junction</u> between two <u>neurones</u>; **[1 mark]**
+
+(ii) Impulses are transmitted across a synapse by:
+
+Any **three **from the following:
+
+- (An impulse triggers) the release of <u>neurotransmitters</u> (into the gap); **[1 mark]**
+- Diffuse across the gap; **[1 mark]**
+- Binds to receptors...; **[1 mark]**
+- ...which allows the passage of the impulse; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Underlined words are essential in order to gain marks. These are the words it is important to focus on when you are revising. *
+The hormone adrenaline affects the body by:
+
+Any **two **from the following:
+
+- Heart beats faster / increased pulse;** [1 mark]**
+- Increased rate of breathing;** [1 mark]**
+- Stimulates breakdown of glycogen in the liver;** [1 mark]**
+- Increases blood glucose concentration;** [1 mark]**
+- Dilate pupils;** [1 mark]**
+- Heightened sensitivity / increased mental awareness / sharper senses / more alert; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+One difference between nervous and hormonal control systems is:
+
+Any **one **from the following:
+
+- Nervous control is faster / hormonal control is slower; **[1 mark]**
+- Hormonal control is longer-lasting / nervous control is shorter-lasting; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *In order to gain the mark here you must compare the two systems. For example, a statement of "nervous control is fast" could not gain the mark because it is not comparing to hormonal control. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+
+### Q13
+(i) Cell **P **is:
+
+Any **one **of the following:
+
+- Sensory neurone; **[1 mark]**
+- Temperature / thermo- receptor (neurone); **[1 mark]**
+
+(ii) Blood vessels **Q**, **S** and **T** are:
+
+- **Q** - Venule; **[1 mark]**
+- **S**- Arteriole; **[1 mark]**
+- **T** - Capillary; **[1 mark]**
+
+> *Be sure to state 'venule' and 'arteriole' rather than 'vein' and 'artery' here. *
+
+(iii) Tissue **R** that provides insulation is:
+
+- Fat / fatty tissue; **[1 mark]**
+
+**[Total: 5 marks]**
+(i) The effect of increasing the temperature of the skin surface on blood flow to the skin without capsaicin is:
+
+Any** three **of the following:
+
+- Blood flow remains constant and then increases; **[1 mark]**
+- Blood flow remains at, 4 / 5%; **[1 mark]**
+- Increase in blood flow from 25 (±2) ºC;** [1 mark]**
+- (To) a maximum / 100%, at 41ºC; **[1 mark]**
+
+(ii) The mechanism that increases blood flow through the skin is:
+
+Any** three **of the following:
+
+- Detection by, sensory neurone / receptor (in skin); **[1 mark]**
+- Brain / hypothalamus, as control centre;** [1 mark]**
+- <u>Impulses</u> in, motor / effector, neurones; **[1 mark]**
+- <u>Muscles</u> in shunt vessels contract / arterioles relax;** [1 mark]**
+- (So) shunt vessels constrict / close; **[1 mark]**
+- Arterioles dilate / <u>vasodilation</u>; **[1 mark]**
+- Increased / more blood flow into capillaries / near surface (of skin); **[1 mark]**
+
+> *A common error is to state that blood capillaries 'move up towards the surface of the skin'. Another is that 'capillaries dilate'. Neither of these things happen! Make sure to use accurate language to convey your meaning here. *
+
+(iii) The difference between the average blood flow for the treatments (with and without capsaicin) at 35°C is:
+
+- 66% - 20% = 46%; **[1 mark]**
+
+![061041-may-2018-paper-4-q4b-skin-graph---ma](assets/040-061041-may-2018-paper-4-q4b-skin-graph-ma.png)
+
+(iv) The process by which capsaicin could reach receptors in the skin is:
+
+Any** three **of the following from:
+
+- <u>Diffusion</u>; **[1 mark]**
+- Down concentration gradient / high to low concentration; **[1 mark]**
+- Active transport; **[1 mark]**
+- Through epidermis; **[1 mark]**
+- Between / into / through, cells; **[1 mark]**
+- Across cell membranes; **[1 mark]**
+
+**[Total: 10 marks]**
+The importance of regulating body temperature in humans is:
+
+Any** four **of the following from:
+
+- (So that) enzymes do not denature / enzymes remain active / maintains optimum temperature for enzymes; **[1 mark]**
+- Idea of maintaining a constant rate of reactions / metabolism / respiration; **[1 mark]**
+- Avoids to damage to other named (type of) protein eg. hormone, haemoglobin etc; **[1 mark]**
+- Avoids damage to cell membranes;** [1 mark]**
+- Avoids, heatstroke / hyperthermia / overheating / dehydration / freezing / chills / becoming too cold / hypothermia;** [1 mark]**
+- At high temperature sperm production, reduced / harmed; **[1 mark]**
+
+***Allow ****other valid points such as: temperature regulation permits colonisation of different parts of the world / different climates active in, both day and night / different seasons. *
+
+**[Total: 4 marks]**
+
+> *Ensure you read the question carefully, it would an easy mistake to make if you explained **how** the body temperature is controlled rather than explaining its importance. *
+Coordination by hormones differs from coordination by nerves as follows:
+
+Any** three **of the following** **from:
+
+- Hormones are chemicals / hormonal coordination is only chemical; **[1 mark]**
+- Transported in the blood / circulatory system; **[1 mark]**
+- (Effects are) slow<u>er</u> (than nerves); **[1 mark]**
+- (Effects are) long<u>er</u> lasting (than nerves); **[1 mark]**
+- Each hormone may have more than one target, organ / tissue / cells; **[1 mark]**
+
+***Allow ****reverse arguments in each case eg. effects of nerves are faster than hormonal effects.*
+
+**[Total: 3 marks]**
+
+> *It is important here to write "er" statements, slower and longer, rather than just slow or long. This then answers the question fully by giving context to the difference to nerves.*
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+
+### Q14
+The completed table is as follows:
+
+| function | name of part | letter on **Fig. 1** |
+|---|---|---|
+| carries impulses to the brain | optic nerve | **Y**; **[1 mark]** |
+| focuses light onto the back of the eye | lens | **S**; **[1 mark]** |
+| controls the tension of the suspensory ligaments | ciliary muscles/body | **Q**; **[1 mark]** |
+| tissue that detects light and colour | retina | **W**; **[1 mark]** |
+| location of most of the cone cells | fovea | **X**; **[1 mark]** |
+
+**[Total: 5 marks]**
+
+> *You must get both the name of the part and the letter correct for each eye part in order to get the mark. *
+
+> *This question covers core knowledge but is taken from an extended paper 4 question.*
+(i) The term that describes the action of a pair of muscles working in opposition to each other is:
+
+- Antagonistic; **[1 mark] **
+
+(ii) The name of the process that allows the eye to view objects at different distances is:
+
+- Accommodation; **[1 mark] **
+
+**[Total: 2 marks]**
+The eye cannot easily identify different colours in low levels of light because:
+
+Any **two **from the following:
+
+- <u>Cones</u> are less sensitive in <u>low</u> light; **[1 mark]**
+- <u>Cones</u> detect colour; **[1 mark]**
+- Rods work in low light but can’t detect colour; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q15
+The part of the eye that gives people different eye colours is:
+
+- Iris shaded on the diagram; **[1 mark]**
+
+![cie-igcse-2018-s2-may-p3-q4a-the-eye-ma](assets/043-cie-igcse-2018-s2-may-p3-q4a-the-eye-ma.png)
+
+**[Total: 1 mark]**
+The correct ways to link the functions to the different part of the eye are:
+
+![cie-igcse-2018-s2-may-p3-q4b-the-eye-parts-ms](assets/045-cie-igcse-2018-s2-may-p3-q4b-the-eye-parts-ms.png)
+
+**[1 mark] **for 1 correct line** [2 marks]** for 2 / 3 correct lines** [3 marks] **for 4 correct lines
+
+**[Total: 3 marks]**
+
+> *Make sure to always draw straight lines with a ruler. If you draw a wiggly line that is not clear to an examiner then you risk getting zero marks. *
+(i) The stimulus for the response shown in Fig. 2 is:
+
+- (Change in) temperature / cold / fear;** [1 mark]**
+
+(ii) The effector that causes the response shown in Fig. 2 is:
+
+- (Hair) erector muscles;** [1 mark]**
+
+**[Total: 2 marks]**
+
+### Q16
+(i) The plant hormone that stimulates cell elongation in stems is:
+
+- Auxin; **[1 mark]**
+
+(ii) The way in which the response of stems to gravity is controlled can be explained as follows:
+
+Any **four **from the following:
+
+- (Auxin / the hormone) is made in the shoot tip / stem tip; **[1 mark]**
+- (Auxin) moves away from the tip; **[1 mark]**
+- (Auxin) moves to / collects on the lower side of the stem; **[1 mark]**
+- (Auxin) stimulates cell elongation; **[1 mark]**
+- (The) stem bends/grows upwards; **[1 mark]**
+
+**[Total: 5 marks]**
+
+### Q17
+A hormone can be defined as follows:
+
+Any **two **from the following:
+
+- (A hormone is) a chemical / substance produced by a gland; **[1 mark]**
+- They are transported in the blood (plasma); **[1 mark]**
+- (Hormones) alter the activity of one of more specific target organs / tissues / cells; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+(i) The tissue in the eye is:
+
+- The retina; ** [1 mark]**
+
+(ii)  The part of the eye that has the most light sensitive cells is:
+
+- The fovea; **[1 mark]**
+
+(iii) The neurone that conducts impulses from the eye to the brain is:
+
+- The sensory (neurone / nerve cell); **[1 mark]**
+
+(iv) The nerve that contains these neurones is:
+
+- The optic (nerve); **[1 mark]**
+
+(v) The organ labelled P is:
+
+- The spinal cord; **[1 mark]**
+
+*Ignore ' the spine'*
+
+(vi) The gland labelled Q is:
+
+- The adrenal (gland); **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *Specificity of your terminology may affect your marks here. For example, the spinal cord must not be referred to as the spine (as this implies a part of the skeleton which protects the spinal cord).*
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+The table should be completed as follows:
+
+| organ | effect of the hormone |
+|---|---|
+| heart | Increased, pulse / heart, rate / beat; **[1 mark]** |
+| liver | Conversion of glycogen to glucose (concentration); **[1 mark]** |
+| lungs | Increase rate/depth of breathing; **[1 mark]** |
+| eyes | Dilated pupils / radial muscles (in iris) contract; **[1 mark]** |
+
+**[Total: 4 marks]**
+
+> *Note that when describing the effect on the eyes, be sure to refer to the dilation of the **pupils** and not the eyes.*
+The advantages of controlling a response with both the nervous system and the endocrine system is as follows:
+
+Any **four **from the following:
+
+- The nervous system responds quickly / immediately; **[1 mark]**
+- (Nerve) impulses travel to (specific) muscles / (adrenal) glands / effector(s); **[1 mark]**
+- The effects of endocrine system / hormones are long lasting; **[1 mark]**
+- Hormones / adrenaline travels throughout the body / allows multiple (target) organs to respond (to same signal) ;  **[1 mark]**
+- Less energy is required (for the endocrine system) than to have nerves going to every, cell / tissue ; **[1 mark]**
+- (Responding with both endocrine and nervous systems) stimulate both voluntary and involuntary responses (simultaneously); **[1 mark]**
+- This leads to a more effective / enhanced response (than using one system alone); **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Clarity is important to obtain full marks in this question. You should make it obvious whether you are referring to the nervous system or the endocrine system for each statement you make.*
+One hormone made by plants is
+
+- Auxin; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+
+### Q18
+The correct words to complete the sentence is as follows:
+
+- (i) Nervous; **[1 mark]**
+- (ii) Motor; **[1 mark]**
+- (iii) Impulses; **[1 mark]**
+- (iv) Synapses; **[1 mark]**
+- (v) Fast; **[1 mark]**
+
+**[Total: 5 marks]**
+
+*Neurones are cells that are part of the ***nervous*** system.*
+
+*There are three types of neurone involved in a simple reflex action: a sensory neurone, a relay neurone and a ***motor*** neurone.*
+
+*The nerves conduct electrical ***impulses***. These are transmitted from one neurone to the next at junctions called ***synapses***. *
+
+*A reflex action is automatic, co-ordinated and ***fast***.*

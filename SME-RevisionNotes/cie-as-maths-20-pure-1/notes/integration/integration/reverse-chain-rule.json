@@ -1,0 +1,109 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RK3xyRjPcSWQMtfx",
+ "course_slug": "cie-as-maths-20-pure-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/pure-1/revision-notes/integration/integration/reverse-chain-rule",
+ "title": "Reverse Chain Rule",
+ "page_title": "Reverse Chain Rule | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "integration",
+   "integration",
+   "reverse-chain-rule"
+  ],
+  "section": "integration",
+  "topic": "integration",
+  "leaf": "reverse-chain-rule"
+ },
+ "titles": {
+  "section": "Integration",
+  "topic": "Integration",
+  "subtopic": "Reverse Chain Rule"
+ },
+ "updated_at": "2026-07-02T08:19:38.487Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_mKHXcsmPbmp8B2Mg",
+   "rnl_dxccMBKQXBKcpqw3"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_vwFJKqrJdkHZzdFk"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "integral left parenthesis a x plus b right parenthesis to the power of n d x",
+   "render": "$\\int ( a x + b )^{n} d x$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "integral left parenthesis a x blank plus blank b right parenthesis to the power of n blank straight d x equals fraction numerator open parentheses a x plus b close parentheses to the power of n plus 1 end exponent over denominator n plus 1 end fraction cross times 1 over a plus c",
+   "render": "$\\int ( a x + b )^{n \\mathrm{d} x = \\frac{( a x + b )^{n} + 1} }{n + 1} \\times \\frac{1}{a} + c$",
+   "via": "alt-transpile"
+  }
+ ],
+ "stats": {
+  "blocks": 6,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_vwFJKqrJdkHZzdFk",
+   "name": "Reverse Chain Rule",
+   "definition": "",
+   "video_id": "820422506"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Reverse Chain Rule"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do you integrate (ax + b)<sup>n</sup>?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The reverse chain rule can be used for integrating functions in the form y = (*ax* + *b*)<sup>n</sup>\n\n  - Make sure you are confident using **the chain rule** to **differentiate **functions in the form y = (*ax* + *b*)<sup>n</sup>\n  - The reverse chain rule works backwards\n- For *n = 2* you will most likely **expand the brackets** and **integrate each term separately**\n- If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely\n- To use the **reverse chain rule** $\\int ( a x + b )^{n} d x$(provided *n* is not -1)\n\n  - **Raise** the **power of *****n***** by 1**\n  - **Divide** by this **new power**\n  - **Divide** this whole function by the **coefficient of *****x***\n  \n    - $\\int ( a x + b )^{n \\mathrm{d} x = \\frac{( a x + b )^{n} + 1} }{n + 1} \\times \\frac{1}{a} + c$\n- You can **check your answer by differentiating it**\n\n  - You should get the original function when you differentiate your answer\n- Note that this method **only works** when the function in the brackets is **linear (*****ax***** + *****b*****)**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![6-1-4-reverse-chain-rule-we-solution](assets/b75f1dd33ea6-6-1-4-reverse-chain-rule-we-solution.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Make sure you can recognise when a question needs to use the reverse chain rule, it may not always be obvious."
+  }
+ ]
+}

@@ -354,6 +354,6 @@ Identify by writing next to the graphs on Fig 1.3 the correct name of the starti
 
 The equation below defines how the speed of an oscillator changes with the displacement of the oscillator.
 
-`v space equals space plus-or-minus omega square root of open parentheses x subscript 0 squared space minus space x squared close parentheses end root`
+$v = \pm \\omega \sqrt{( x_{0}^{2} - x^{2} )}$
 
 Identify the variables in the equation by stating the variable and the quantity it represents in the space below.

@@ -307,3 +307,203 @@
 **B** is incorrect; \$4500 is the full amount of the incorrect depreciation (not the difference between the correct and incorrect figures), and the change should be an increase not a decrease
 
 **D** is incorrect; \$4500 is the full amount of the incorrect depreciation (not the difference between the correct and incorrect figures)
+
+## Structured Questions (2 questions)
+
+
+### Q1
+**Final answer:** **Profit \$500**
+
+Find the depreciation for the year 2020
+
+$16000 \times 25 \% = 4000$
+
+Find the net book value at the start of 2021
+
+$16000-4000=12000$
+
+Find the depreciation for the year 2020
+
+$12000 \times 25 \% = 3000$
+
+Find the total depreciation
+
+$4000+3000=7000$
+
+Find the profit or loss by subtracting the net book value from the sale proceeds
+
+|   | \$ | \$ |
+|---|---|---|
+| Sale proceeds |   | 9 500 |
+| Less net book value |   |   |
+| Cost **[1]** | 16 000 |   |
+| Less provision for depreciation **[1]** | <u>7 000</u> | <u>9 000</u> |
+| Profit on disposal **[2]** |   | <u>500</u> |
+
+> **[mark-scheme]**
+> 4 marks in total.
+> 
+> - 1 mark for using the original cost
+> - 1 mark for subtracting the total depreciation to date
+> - 1 mark for identifying that it is a profit
+> - 1 mark for subtracting your **own figure** for the net book value from the sale proceeds
+
+> **[exam-tip]**
+> You do not need to set this out in a table format. However, it does clearly show your method.
+Stalla 
+Motor vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2022 |   |   | 2022 |   |   |
+| Jan 1 | Balance b/d | 48 000 | Dec 31 | Disposal **[1]** | 16 000 |
+|   |   |   |   | Balance c/d | 32 000 |
+|   |   | <u>48 000</u> |   |   | <u>48 000</u> |
+| 2023 |   |   |   |   |   |
+| Jan 1 | Balance b/d **[1]** | 32 000 |   |   |   |
+
+> **[mark-scheme]**
+> 2 marks in total.
+> 
+> - 1 mark for a credit entry labelled disposal with the correct date and amount
+> - 1 mark for the correct balance on 1 Jan 2023
+
+> **[exam-tip]**
+> Remember that the original cost is transferred to the disposal account. A common mistake is **incorrectly **transferring \$7 000 to the provision for depreciation and then transferring the remaining \$9 000 to the disposal.
+Find the net book value of the remaining vehicles at the end of the year
+
+- Find the provision for depreciation for those vehicles
+
+$21000-7000=14000$
+
+- Subtract this from the cost of these vehicles
+
+$32000-14000=18000$
+
+Find the depreciation for the year ended 2022 for the remaining vehicles
+
+$18000 \times 25 \% = 4500$
+
+Stalla 
+Provision for depreciation on motor vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2022 |   |   | 2022 |   |   |
+| Dec 31 | Disposal **[1]** | 7 000 | Jan 1 | Balance b/d **[1]** | 21 000 |
+|   | Balance c/d | 18 500 | Dec 31 | Income statement **[2]** | 4 500 |
+|   |   | <u>25 500</u> |   |   | <u>25 500</u> |
+|   |   |   | 2023 |   |   |
+|   |   |   | Jan 1 | Balance b/d **[1]** | 18 500 |
+
+> **[mark-scheme]**
+> 5 marks in total.
+> 
+> - 1 mark for entering the correct balance for 1 Jan 2022 on the correct side
+> - 1 mark of entering your **own figure** for the total depreciation of the sold vehicle on the debit side with the correct date
+> - 2 marks for the correct figure for the amount to transfer to the income statement on the credit side
+> 
+>   - Or you get 1 mark if the amount is found using your **own figure** for the depreciation of the sold vehicle
+> - 1 mark for balancing the account using your **own figures**
+
+> **[exam-tip]**
+> A common mistake is forgetting to subtract the total depreciation for the sold vehicle from the provision for **all **vehicles before calculating the depreciation charge for the year.
+> 
+> Remember, the balance is on the credit side, as it represents a reduction in a non-current asset.
+
+### Q2
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2024 |   |   | 2024 |   |   |
+| Jun 30 | Balance b/d | 85 000 | Dec 31 | Disposal **[1]** | 12 000 |
+| Jul 1 | EZ Motors **[1]** | 20 000 | 2025 |   |   |
+|   |   |   | Jun 30 | Balance c/d | 93 000 |
+|   |   | <u>105 000</u> |   |   | <u>105 000</u> |
+| 2025 |   |   |   |   |   |
+| Jul 1 | Balance b/d **[1]** | 93 000 |   |   |   |
+
+> **[mark-scheme]**
+> 1 mark for the correct details and amount for each of the following:
+> 
+> - disposal with the **cost **amount
+> - EZ Motors with the **cost **amount
+> - balance b/d
+Find the total depreciation for the vehicle that was sold on 31 December 2024
+
+- Find the yearly depreciation charge
+
+$20 \% \times 12000 = 2400$
+
+- Find the number of years that Roger owned the vehicle
+
+*1 July 2022 to 31 December 2024 = 2.5 years*
+
+- Multiply the yearly depreciation charge by the number of years
+
+$2.5\times2400=6000$
+
+Find the depreciation charge for the year ended 30 June 2025
+
+- The charge for the vehicle sold halfway through the year is
+
+$1 \frac{1}{2} \times 20 \% \times 12000 = 1200$
+
+- The charge for the other vehicles Roger owned at the start of the year is
+
+$20 \% \times ( 85000 - 12000 ) = 14600$
+
+- The charge for the new vehicle purchases at the start of the year is
+
+$20 \% \times 20000 = 4000$
+
+- Add the charges together
+
+$1200+14600+4000=19800$
+
+Roger
+Provision for depreciation of vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2024 |   |   | 2024 |   |   |
+| Dec 31 | Disposal **[1]** | 6 000 | Jul 1 | Balance b/d | 52 500 |
+| 2025 |   |   | 2025 |   |   |
+| Jun 30 | Balance c/d | 66 300 | Jun 30 | Income statement **[3]** | 19 800 |
+|   |   | <u>72 300</u> |   |   | <u>72 300</u> |
+|   |   |   | Jul 1 | Balance b/d **[1]** | 66 300 |
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for the disposal entry with the correct amount.
+> - 1 mark for adding each of the following to form the income statement amount:
+> 
+>   - 1200
+>   - 14600
+>   - 4000
+> - 1 mark for the balance b/d entry. This amount is for using your **own figures **and balancing the account.
+
+> **[exam-tip]**
+> Instead of working out the depreciation charge per month, here it was easier to spot that July to December is half a year.
+Roger
+Disposal account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2024 |   |   | 2024 |   |   |
+| Dec 31 | Vehicles | 12 000 | Dec 31 | Provision for depreciation **[1]** | 6 000 |
+|   |   |   |   | Bank **[1]** | 5 500 |
+|   |   |   | 2025 |   |   |
+|   |   |   | Jun 30 | Income statement **[1]** | 500 |
+|   |   | <u>12 000</u> |   |   | <u>12 000</u> |
+
+> **[mark-scheme]**
+> 1 mark for each of the following:
+> 
+> - provision for depreciation using your **own figure**
+> - bank **and **vehicles using the amounts in the question
+> - income statement with an amount that balances with your **own figures**
+**Loss** **[1 mark]**
+
+> **[mark-scheme]**
+> The sale price (\$5 500) is less than the net book value (\$6 000) which means it is a loss. Also, this was a credit entry in the disposal account, which means it is a debit entry in the income statement. And debit entries in the income statement reduce the profit.

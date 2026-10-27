@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:24:04Z",
+ "generated_utc": "2026-10-26T14:40:21Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -177,9 +177,23 @@
        "alt": "epsilon space equals space N space fraction numerator increment ϕ over denominator increment t end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "epsilon space equals space 96 space cross times space fraction numerator open parentheses 6.8 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 3.5 space cross times space 2 over denominator 2.4 space cross times space 10 to the power of negative 3 end exponent end fraction",
+       "render": "$\\\\epsilon = 96 \\times \\frac{( 6.8 \\times 10^{- 6} ) \\times 3.5 \\times 2}{2.4 \\times 10^{- 3} }$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "ε",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#949;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "epsilon"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "epsilon space equals space 1.904 space straight V space equals space 1.9 space straight V space open parentheses 2 s. f. close parentheses",
+       "render": "$\\\\epsilon = 1.904 \\mathrm{V} = 1.9 \\mathrm{V} ( 2 s. f. )$",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -287,7 +301,30 @@
      ],
      "part_tier": null,
      "problem_md": "As the magnet is moved away from the coil, the voltmeter shows a value of 1.5 mV for 2.0 s.\n\nCalculate the change in magnetic flux linkage as the magnet is moved away from the coil.",
-     "solution_md": "Calculate the change in magnetic flux linkage:\n\nList the known quantities:\n\n- Induced e.m.f., *ε* = 1.5 mV = 1.5 × 10<sup>–3</sup> V\n- Time interval, *t* = 2.0 s\n\nUse Faraday's law and rearrange:\n\n- $\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t} \\Leftrightarrow \\Delta ( N \\\\Phi ) = \\\\epsilon \\Delta t$ **[1 mark]**\n- $\\Delta ( N \\\\Phi ) = ( 1.5 \\times 10^{- 3} ) \\times 2.0$ **[1 mark]**\n- $\\Delta ( N \\\\Phi )$ = 3.0 × 10<sup>–3</sup> Wb (turns) **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Both Wb (Weber) and Wb turns are valid units of magnetic flux linkage, but since 'turns' is more of a multiplier rather than a unit, it's not strictly necessary.*"
+     "solution_md": "Calculate the change in magnetic flux linkage:\n\nList the known quantities:\n\n- Induced e.m.f., *ε* = 1.5 mV = 1.5 × 10<sup>–3</sup> V\n- Time interval, *t* = 2.0 s\n\nUse Faraday's law and rearrange:\n\n- $\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t} \\Leftrightarrow \\Delta ( N \\\\Phi ) = \\\\epsilon \\Delta t$ **[1 mark]**\n- $\\Delta ( N \\\\Phi ) = ( 1.5 \\times 10^{- 3} ) \\times 2.0$ **[1 mark]**\n- $\\Delta ( N \\\\Phi )$ = 3.0 × 10<sup>–3</sup> Wb (turns) **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Both Wb (Weber) and Wb turns are valid units of magnetic flux linkage, but since 'turns' is more of a multiplier rather than a unit, it's not strictly necessary.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "epsilon space equals space fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction space space space space space rightwards double arrow space space space space space space increment open parentheses N capital phi close parentheses space equals space epsilon increment t",
+       "render": "$\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t} \\Leftrightarrow \\Delta ( N \\\\Phi ) = \\\\epsilon \\Delta t$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "increment open parentheses N capital phi close parentheses space equals space left parenthesis 1.5 cross times 10 to the power of negative 3 end exponent right parenthesis cross times 2.0",
+       "render": "$\\Delta ( N \\\\Phi ) = ( 1.5 \\times 10^{- 3} ) \\times 2.0$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "increment open parentheses N capital phi close parentheses",
+       "render": "$\\Delta ( N \\\\Phi )$",
+       "via": "alt-transpile"
+      }
+     ]
     }
    ]
   },
@@ -431,6 +468,13 @@
        "alt": "capital phi space equals space B A"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "capital phi space equals space open parentheses 80 cross times 10 to the power of negative 3 end exponent close parentheses cross times 0.1",
+       "render": "$\\\\Phi = ( 80 \\times 10^{- 3} ) \\times 0.1$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "Φ=8\\times10^{-3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#934;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "capital phi space equals space 8 cross times 10 to the power of negative 3 end exponent"
@@ -457,6 +501,20 @@
      "solution_md": "(i) Magnetic flux linkage is defined as:\n\n- The product of the magnetic flux and the number of turns on a coil $( N \\\\Phi )$ **OR** the product of magnetic flux density, area, and the number of turns on a coil $( B A N )$; **[1 mark]**\n\n(ii) Calculate the change in magnetic flux linkage:\n\nList the known quantities:\n\n- Magnetic flux, $Φ$ = 8 × 10<sup>−3</sup> Wb (from **(b)**)\n- Number of turns, N = 500\n\nCalculate the change in magnetic flux linkage:\n\n- Flux linkage:  $NΦ=BAN$\n- Change in flux linkage:  $\\Delta ( N \\\\Phi ) = 500 \\times ( 8 \\times 10^{- 3} ) - 0$ **[1 mark]**\n- $\\Delta ( N \\\\Phi )$ = 4 Wb (turns) **[1 mark]**\n\n**[Total: 3 marks]**",
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses N capital phi close parentheses",
+       "render": "$( N \\\\Phi )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses B A N close parentheses",
+       "render": "$( B A N )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "Φ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#934;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "capital phi"
@@ -465,6 +523,20 @@
        "latex": "NΦ=BAN",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mi>&#934;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>A</mi><mi>N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "N capital phi space equals space B A N"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "increment open parentheses N capital phi close parentheses space equals space 500 space cross times space open parentheses 8 cross times 10 to the power of negative 3 end exponent close parentheses space minus space 0",
+       "render": "$\\Delta ( N \\\\Phi ) = 500 \\times ( 8 \\times 10^{- 3} ) - 0$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "increment open parentheses N capital phi close parentheses",
+       "render": "$\\Delta ( N \\\\Phi )$",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -488,9 +560,23 @@
      "solution_md": "Calculate the average magnitude of the induced e.m.f. in the coil during the rotation:\n\nList the known quantities:\n\n- Change in flux linkage, $\\Delta ( N \\\\Phi )$ = 4 Wb\n- Time interval, $\\Deltat$ = 300 ms = 300 × 10<sup>−3</sup> s\n\nUse Faraday's law to calculate the induced e.m.f.\n\n- Faraday's law:  $\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$ **[1 mark]**\n- Induced e.m.f.  $ε=\\frac{4}{300\\times10^{-3}}$ **[1 mark]**\n- Induced e.m.f.  $ε$ = 13.3 ≈ 13 V **[1 mark]**\n\n**[Total: 3 marks]**",
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "increment open parentheses N capital phi close parentheses",
+       "render": "$\\Delta ( N \\\\Phi )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\Deltat",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "increment t"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "epsilon space equals space fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction",
+       "render": "$\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "ε=\\frac{4}{300\\times10^{-3}}",
@@ -534,9 +620,23 @@
      "solution_md": "(i) Faraday's law of electromagnetic induction states:\n\n- The (magnitude of the) induced e.m.f. is (directly) proportional to the rate; **[1 mark]**\n- of change of magnetic flux linkage; **[1 mark]** ** **\n\n(ii) Faraday's law is defined by the equation\n\n- $\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$ **[1 mark]**\n- Where $ε$ = induced e.m.f., $\\Delta ( N \\\\Phi )$ = change in magnetic flux linkage and $\\Deltat$ = time interval of change; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *It’s crucial that you remember an emf is only induced if there is a **change** in magnetic flux linkage. *\n\n> *How quickly this quantity changes (i.e., the **rate **of change of magnetic flux linkage) determines the magnitude of the induced emf. *",
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "epsilon space equals space fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction",
+       "render": "$\\\\epsilon = \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "ε",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#949;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "epsilon"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "increment open parentheses N capital phi close parentheses",
+       "render": "$\\Delta ( N \\\\Phi )$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\Deltat",
@@ -581,7 +681,16 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\n(ii) Faraday's law is defined by the equation \\$\\$\\epsilon = \\frac{\\Delta \\left(N \\Phi\\right)}{\\Delta t}\\$\\$ Where \\$\\$\\epsilon\\$\\$ = induced e.m.f., \\$\\$\\Delta \\left(N \\Phi\\right)\\$\\$ = change in magnetic flux linkage and \\$\\$\\Delta t\\$\\$ = time interval of change\n\nRewrite the equation you wrote in **(a)(ii)** to include Lenz's law.",
-     "solution_md": "The equation including Lenz's law is:\n\n- $\\\\epsilon = - \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$\n- Minus sign included; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Lenz’s law says the **direction** of the induced emf is set up to oppose the change causing it, which is encapsulated by the negative sign in the equation.*\n\n> *This is similar to vectors, for example, if vector **a** and vector **b** are related by **a** = – **b**, this means they point in opposite directions. In this sense, the vectors ‘**oppose**’ each other, just like the induced emf **ε** opposes the changing flux linkage. *"
+     "solution_md": "The equation including Lenz's law is:\n\n- $\\\\epsilon = - \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$\n- Minus sign included; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Lenz’s law says the **direction** of the induced emf is set up to oppose the change causing it, which is encapsulated by the negative sign in the equation.*\n\n> *This is similar to vectors, for example, if vector **a** and vector **b** are related by **a** = – **b**, this means they point in opposite directions. In this sense, the vectors ‘**oppose**’ each other, just like the induced emf **ε** opposes the changing flux linkage. *",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "epsilon space equals space minus fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction",
+       "render": "$\\\\epsilon = - \\frac{\\Delta ( N \\\\Phi )}{\\Delta t}$",
+       "via": "alt-transpile"
+      }
+     ]
     },
     {
      "id": "qstnprt_KbVYYFXJMwpj96Sm",
@@ -676,6 +785,13 @@
        "latex": "ΦN=BAN",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#934;</mi><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>B</mi><mi>A</mi><mi>N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "capital phi N space equals space B A N"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "capital phi N space equals space open parentheses 200 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 0.01 space cross times space 5",
+       "render": "$\\\\Phi N = ( 200 \\times 10^{- 3} ) \\times 0.01 \\times 5$",
+       "via": "alt-transpile"
       },
       {
        "latex": "ΦN=0.01\\mathrm{Wb}",
@@ -803,6 +919,20 @@
        "latex": "NΦ=NBA",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mi>&#934;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>N</mi><mi>B</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "N capital phi space equals space N B A"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N capital phi space equals space 800 cross times open parentheses 7.8 cross times 10 to the power of negative 3 end exponent close parentheses cross times B space equals space 6.24 B",
+       "render": "$N \\\\Phi = 800 \\times ( 7.8 \\times 10^{- 3} ) \\times B = 6.24 B$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N capital phi space equals space 2000 cross times open parentheses 1.2 cross times 10 to the power of negative 3 end exponent close parentheses cross times B space equals space 2.4 B",
+       "render": "$N \\\\Phi = 2000 \\times ( 1.2 \\times 10^{- 3} ) \\times B = 2.4 B$",
+       "via": "alt-transpile"
       }
      ]
     },

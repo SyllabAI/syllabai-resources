@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:28:58Z",
+ "generated_utc": "2026-10-26T14:43:32Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -48,14 +48,28 @@
    "question_count": 14,
    "questions_embedded": 14,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/7-waves/7-2-transverse-and-longitudinal-waves/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_n7zmj7YqmWTkh7GG",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/7-waves/7-2-transverse-and-longitudinal-waves/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 14,
+  "questions_embedded": 19,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images339png.png": "001-cie-ial-images339png.png",
@@ -67,7 +81,17 @@
    "https://cdn.savemyexams.com/uploads/2024/01/75kUAiIF_cie-7-2-mcq-hard-q4.png": "007-75kuaiif-cie-7-2-mcq-hard-q4.png",
    "https://cdn.savemyexams.com/uploads/2024/01/cie-7-2-mcq-hard-q3.png": "008-cie-7-2-mcq-hard-q3.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images338png.png": "009-cie-ial-images338png.png",
-   "https://cdn.savemyexams.com/uploads/2024/01/cie-7-2-mcq-easy-q5.png": "010-cie-7-2-mcq-easy-q5.png"
+   "https://cdn.savemyexams.com/uploads/2024/01/cie-7-2-mcq-easy-q5.png": "010-cie-7-2-mcq-easy-q5.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/4-3-q2d-question-stem-sl-sq-easy-phy.png": "011-4-3-q2d-question-stem-sl-sq-easy-phy.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/q1a_wave-characteristics_ib-sl-physics-sq-medium.png": "012-q1a-wave-characteristics-ib-sl-physics-sq-medium.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/ma1a_wave-characteristics_ib-sl-physics-sq-medium.png": "013-ma1a-wave-characteristics-ib-sl-physics-sq-mediu.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/ma1b-1_wave-characteristics_ib-sl-physics-sq-medium.png": "014-ma1b-1-wave-characteristics-ib-sl-physics-sq-med.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/ma1b-2_wave-characteristics_ib-sl-physics-sq-medium.png": "015-ma1b-2-wave-characteristics-ib-sl-physics-sq-med.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7-1-3b-m-waves-graph-1.png": "016-7-1-3b-m-waves-graph-1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7-1-3b-m-waves-graph-2.png": "017-7-1-3b-m-waves-graph-2.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/screenshot-2023-02-27-at-12-24-48.png": "018-screenshot-2023-02-27-at-12-24-48.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-1-s-q--q3b-answer-medium-aqa-a-level-physics.png": "019-3-1-s-q-q3b-answer-medium-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-1-s-q--q3d-answer-medium-aqa-a-level-physics.png": "020-3-1-s-q-q3d-answer-medium-aqa-a-level-physics.png"
   }
  },
  "questions": [
@@ -139,6 +163,13 @@
        "latex": "\\frac{1.6\\times10^{-6}}{I_{2}}=\\frac{4}{9}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><msub><mi>I</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>9</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "fraction numerator 1.6 cross times 10 to the power of negative 6 end exponent over denominator I subscript 2 end fraction equals 4 over 9"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I subscript 2 equals 9 over 4 cross times open parentheses 1.6 cross times 10 to the power of negative 6 end exponent close parentheses equals 3.6 cross times 10 to the power of negative 6 end exponent",
+       "render": "$I_{2} = \\frac{9}{4} \\times ( 1.6 \\times 10^{- 6} ) = 3.6 \\times 10^{- 6}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -233,6 +264,13 @@
        "latex": "\\frac{I_{B}}{I_{A}}=\\frac{f_{B}^{2}}{f_{A}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>I</mi><mi>B</mi></msub><msub><mi>I</mi><mi>A</mi></msub></mfrac><mo>=</mo><mo> </mo><mfrac><msup><msub><mi>f</mi><mi>B</mi></msub><mn>2</mn></msup><msup><msub><mi>f</mi><mi>A</mi></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "I subscript B over I subscript A equals space f subscript B squared over f subscript A squared"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I subscript B over I subscript A equals space f subscript B squared over open parentheses 1 half f subscript B close parentheses squared space equals space 1 over open parentheses 1 half close parentheses squared space equals space 4",
+       "render": "`I _ B / I _ A = f _ B ^2 / ( 1 half f _ B ) ^2 = 1 / ( 1 half ) ^2 = 4`",
+       "via": "alt-transpile"
       },
       {
        "latex": "I_{B}=4I_{A}",
@@ -1073,6 +1111,485 @@
        "label": "D",
        "is_correct": false,
        "text_md": "sound can be reflected from a solid surface"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ySsQ74HGRSBXWnCF",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_CNnYvCdj247VxrTh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g2ynzxbvrxByhZ2j"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows graphs of waves X and Y. The scales of the graphs are identical.\n\n![4-3-q2d-question-stem-sl-sq-easy-phy](assets/011-4-3-q2d-question-stem-sl-sq-easy-phy.png)\n\n**Fig. 1.1**\n\nDescribe **two **similarities between the properties of waves X and Y.",
+     "solution_md": "The similarities between waves X and Y are:\n\n- Both waves have the <u>same period</u> (10 squares); **[1 mark]**\n- Both waves have the <u>same frequency</u> (3 complete waves in the time shown); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Wavelength would not be an acceptable answer here, because the graph shows time on the x-axis not distance. When time is on the x-axis, the distance between each trough or crest is the period.*"
+    },
+    {
+     "id": "qstnprt_Z4Vv8HfkNMQ5ctCR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g2ynzxbvrxByhZ2j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows graphs of waves X and Y. The scales of the graphs are identical.\n\nState **one **difference between waves X and Y.",
+     "solution_md": "The difference between waves X and Y is:\n\n- The waves have different amplitudes **OR** wave X has a greater amplitude than wave Y;** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_yhKsZJD4gYFrS3Tj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the difference between transverse and longitudinal waves.",
+     "solution_md": "Transverse waves are:\n\n- Vibrations / oscillations that are perpendicular / normal to the direction of energy transfer; **[1 mark]**\n\nLongitudinal waves are:\n\n- Vibrations / oscillations that are parallel to the direction of energy transfer; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_Hx7KVRsZYkjDntwM",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1.1 shows graphs of waves X and Y. The scales of the graphs are identical.\n\nExplain how it could be determined whether waves X and Y are transverse or longitudinal.",
+     "solution_md": "The wave type can be determined by:\n\n**EITHER**\n\n- Determining the motion of the particles relative to the direction of propagation / energy transfer; **[1 mark]**\n\n**OR**\n\n- Polarisation only works for transverse waves / longitudinal waves cannot be polarised; **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mrk9BtGw58SdGmBv",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_QCBDNZmhv3MZ2mQx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g2ynzxbvrxByhZ2j"
+     ],
+     "part_tier": null,
+     "problem_md": "A large water tank is set up so that a wave can be generated at each end of the tank. The two waves, A and B, travel towards each other at the same speed.\n\nFig. 1.1 shows the variation of displacement of the water surface with distance travelled at a particular instant.\n\n![q1a_wave-characteristics_ib-sl-physics-sq-medium](assets/012-q1a-wave-characteristics-ib-sl-physics-sq-medium.png)\n\n**Fig. 1.1**\n\nDeduce how many times greater the amplitude of B is to the amplitude of A.",
+     "solution_md": "Determine the amplitudes from the graphs:\n\n- In each case reading maximum displacement from the *y*-axis of the graph:\n\n![ma1a_wave-characteristics_ib-sl-physics-sq-medium](assets/013-ma1a-wave-characteristics-ib-sl-physics-sq-mediu.png)\n\n- Wave A = 4 cm **AND **Wave B = 6 cm; **[1 mark]**\n\nCalculate how much B is larger than A:\n\n- $\\frac{B}{A}$= $\\frac{6}{4}$ = $\\frac{3}{2}$\n- B is $\\frac{3}{2}$ **OR** 1.5 times larger than A; **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{B}{A}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>B</mi><mi>A</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "B over A"
+      },
+      {
+       "latex": "\\frac{6}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>6</mn><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "6 over 4"
+      },
+      {
+       "latex": "\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 over 2"
+      },
+      {
+       "latex": "\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "3 over 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_yX55NXYBf2JgKVJH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g2ynzxbvrxByhZ2j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA large water tank is set up so that a wave can be generated at each end of the tank. The two waves, A and B, travel towards each other at the same speed. Fig. 1.1 shows the variation of displacement of the water surface with distance travelled at a particular instant.\n\nWave A has a frequency of 8.0 Hz.\n\n![q1a_wave-characteristics_ib-sl-physics-sq-medium](assets/012-q1a-wave-characteristics-ib-sl-physics-sq-medium.png)\n\n**Fig. 1.1 **\n\n(i) Calculate the velocity of wave A.\n\n[2]\n\n(ii) Determine the frequency of wave B.\n\n[2]",
+     "solution_md": "(i) The velocity of wave A:\n\nList the known quantities:\n\n- Frequency A, *f*<sub>*A*</sub> = 8.0 Hz\n\nDetermine wavelength of A from the graph:\n\n- Wavelength A, *λ*<sub>*A*</sub> = 4.0 cm **OR**** **= 0.04 m **[1 mark]**\n\n  - You can read wavelength it from the x-axis, at the point where one wave completes ![ma1b-1_wave-characteristics_ib-sl-physics-sq-medium](assets/014-ma1b-1-wave-characteristics-ib-sl-physics-sq-med.png)\n\nCalculate the speed of the wave:\n\n- velocity of wave A:\n\n  - *v = fλ*\n  - *v*<sub>*A*</sub>* = f*<sub>*A*</sub>*λ*<sub>*A*</sub>= 4.0 × 8.0\n  - *v  *= 32 cm s<sup>–1</sup> **OR**** **= 0.32 m s<sup>–1</sup> **[1 mark]**\n\n(ii) Determine the frequency of wave B:\n\nList the known quantities:\n\n- Velocity of wave A, *v*<sub>A</sub>= 32 cm s<sup>–1</sup>\n\nDetermine wavelength of B from the graph:\n\n![ma1b-2_wave-characteristics_ib-sl-physics-sq-medium](assets/015-ma1b-2-wave-characteristics-ib-sl-physics-sq-med.png)\n\n- Wavelength B, *λ*<sub>*B*</sub> = 1.8 cm **OR**** **= 0.018 m **[1 mark]**\n\nDetermine velocity of wave B:\n\n- Velocity of wave B = velocity wave A, *v*<sub>*B*</sub>* *= 32 cm s<sup>–1</sup> (because they are travelling at the same speed)\n\nCalculate the frequency of the wave:\n\n- *f*<sub>*B*</sub>* = *$\\frac{v_{B}}{λ_{B}}$*= *$\\frac{32}{1.8}$\n- *f*<sub>*B*</sub>* =* 18 Hz **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *In a question like this, where measurements are given in non-SI units, you must state your units in your final answer. It is reasonable to calculate for these waves in either centimetres or metres, so be careful to show which you worked in and clearly show in your answer which is applicable. Notice that in the final calculation for frequency, as long as you do not mix up your units, i.e.: use all centimetres or all metres, then the value for frequency will be correct as the unit of length has cancelled out as this is a ratio.*",
+     "equations": [
+      {
+       "latex": "\\frac{v_{B}}{λ_{B}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msub><mi>v</mi><mi>B</mi></msub><msub><mi>&#955;</mi><mi>B</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "v subscript B over lambda subscript B"
+      },
+      {
+       "latex": "\\frac{32}{1.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>32</mn><mrow><mn>1</mn><mo>.</mo><mn>8</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 32 over denominator 1.8 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TPHmsRbfSfNRxRCY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nPP65pgJhsqh9Sp6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA large water tank is set up so that a wave can be generated at each end of the tank. The two waves, A and B, travel towards each other at the same speed.\n\nExplain how the stationary wave is generated in the tank.",
+     "solution_md": "The stationary wave is generated in the tank by:\n\n- Two (water) waves (in the tank) move in opposite directions; **[1 mark]**\n- As they are reflected from the fixed ends of the tank; **[1 mark]**\n- The two waves interfere / superpose to produce a standing / stationary wave; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The key words here are the ‘interfere’ or ‘superpose’ for how the waves ‘meet’ to create the stationary wave. It is better to use these terms instead of just ‘meet’ or ‘overlap’ as they are more relevant to this scenario and not as vague. This makes it much easier for the examiner to award you the mark!*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_93xsH5txN9pM9rkm",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_58KV7f3XBRFxpY2X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "Define a transverse wave.",
+     "solution_md": "A wave is transverse if...\n\n- The oscillations are perpendicular / at right angles to the direction of wave motion / energy transfer; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_XMGQQSY2x7CJzG9Q",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two** properties of a longitudinal wave.",
+     "solution_md": "The properties of a longitudinal wave are:\n\n**Final answer:** **Any ****two**** from:**\n\n- The oscillations are parallel to the direction of wave motion / energy transfer;** [1 mark]**\n- Comprises of areas of compressions and rarefactions; **[1 mark]**\n- Requires a medium to propagate; **[1 mark]**\n- Cannot be polarised; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_sm7MKSH57G4z2tzk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **examples of transverse waves.",
+     "solution_md": "Examples of transverse waves are:\n\n**Final answer:** **Any ****two**** from:**\n\n- Water waves; **[1 mark]**\n- Secondary waves / S-waves; **[1 mark]**\n- Vibrations on a (guitar) string; **[1 mark]**\n- Electromagnetic waves / any named EM wave (gamma, X-ray, ultraviolet, visible light, infrared, microwave, radio); **[1 mark] **\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_6dR3gcHvXkfqXz8k",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two** examples of longitudinal waves.",
+     "solution_md": "Examples of longitudinal waves are:\n\n**Final answer:** **Any ****two**** from:**\n\n- Sound waves;** [1 mark]**\n- Ultrasound; **[1 mark]**\n- Primary waves / P-waves; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3Mrk4WCYfmZB6xjc",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_sZhzPdNtJ24Gcr7m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_THr5p3J68VZ5dHwP"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by a progressive wave.",
+     "solution_md": "Explain what is meant by a progressive wave:\n\n- A transfer of energy; **[1 mark]**\n- With no transfer of matter; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_7bxwt589NPPPzHyx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g2ynzxbvrxByhZ2j"
+     ],
+     "part_tier": null,
+     "problem_md": "An elastic cord is fixed at one end and attached to a mechanical oscillator at the other end. Fig. 1.1 shows, at time *t* = 0, the shape of a section of the cord as the wave travels from left to right. W, X, Y and Z are four marked points on the cord.\n\n![7-1-3b-m-waves-graph-1](assets/016-7-1-3b-m-waves-graph-1.png)\n\nThe mechanical oscillator has a steady frequency of 5.0 Hz. The wave has a wavelength of 0.60 m and an amplitude of 0.030 m.\n\nOn the axes of Fig. 1.2 sketch the graph of the displacement of point X over the period *t* = 0 to 0.40 s. Add suitable scales to the axes.\n\n![7-1-3b-m-waves-graph-2](assets/017-7-1-3b-m-waves-graph-2.png)",
+     "solution_md": "A correctly completed graph of the oscillation looks like:\n\n![screenshot-2023-02-27-at-12-24-48](assets/018-screenshot-2023-02-27-at-12-24-48.png)\n\n- Shape is sinusoidal with exactly two cycles shown; **[1 mark]**\n- Amplitude at ± 0.03; **[1 mark]**\n- Period = 0.2 s **AND **x-axis labelled 0.1, 0.2, 0.3 and 0.4; **[1 mark]**\n- Curve starts at (0, 0.03); **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_HrXN3gCgnPzpyzFy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_g2ynzxbvrxByhZ2j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn elastic cord is fixed at one end and attached to a mechanical oscillator at the other end. Fig. 1.1 shows, at time *t* = 0, the shape of a section of the cord as the wave travels from left to right. W, X, Y and Z are four marked points on the cord.\n\nThe mechanical oscillator has a steady frequency of 5.0 Hz. The wave has a wavelength of 0.60 m and an amplitude of 0.030 m.\n\nFor time *t* = 0, state which of the points W, X, Y and Z\n\ni) is instantaneously at rest\n\n[1]\n\nii) has the greatest speed\n\n[1]",
+     "solution_md": "For time *t* = 0, state which of the points W, X, Y and Z:\n\ni) Is instantaneously at rest:\n\n- X;** [1 mark]**\n\nii) Has the greatest speed:\n\n- W; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_gScpdVG7RgGjzfVt",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_K8NQGqcVPZW9Kjny"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn elastic cord is fixed at one end and attached to a mechanical oscillator at the other end. Fig. 1.1 shows, at time t = 0, the shape of a section of the cord as the wave travels from left to right. W, X, Y and Z are four marked points on the cord. The mechanical oscillator has a steady frequency of 5.0 Hz. The wave has a wavelength of 0.60 m and an amplitude of 0.030 m.\n\nThe speed of point W on the cord at *t* = 0 is 0.94 m s<sup>–1</sup>. With the cord at its original tension, the frequency of oscillation is now doubled to 10 Hz.\n\nThe amplitude is kept at 0.030 m. Calculate the new speed of point W at *t* = 0. Explain your reasoning.",
+     "solution_md": "Calculate the new speed of point W at *t* = 0. Explain your reasoning:\n\n- The speed of the oscillation is proportional to frequency when amplitude is constant, so doubling *f* doubles the maximum speed; **[1 mark]**\n- Therefore speed doubles **OR** new speed = 1.9 m s<sup>–1 </sup>**[1 mark]**\n\n**[Total: 2 marks]**\n\nFrequency has doubled, so point W has got to move double the distance in the same time / move the same distance in half the time."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3JQTYKJyHRqWH2rx",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_ty69dxtZmM5ZfZfR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain briefly how transmission of energy by a longitudinal wave differs from transmission of energy by a transverse wave. Give **one** example of a transverse wave.",
+     "solution_md": "Explain:\n\n- The disturbances/oscillations/vibrations are parallel for longitudinal and perpendicular for transverse **[1 mark]**\n- To the direction of transmission of energy/wave/propagation/direction **[1 mark]**\n\n*Do not accept ‘movement’ of the wave*\n\nExample:\n\n**Final answer:** **Any ****one**** from:**\n\n- Electromagnetic waves e.g. microwaves, radio waves, UV **[1 mark]**\n- Waves on a string **[1 mark]**\n- Seismic S-waves **[1 mark]**\n- Ripples on the surface of water **[1 mark]**** **\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_TFgYmpHsVBHkjTvD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "Sketch a diagram showing the direction of the propagation of a sound wave, and explain how a sound wave in air transmits energy away from its source.",
+     "solution_md": "![3-1-s-q--q3b-answer-medium-aqa-a-level-physics](assets/019-3-1-s-q-q3b-answer-medium-aqa-a-level-physics.png)\n\n- Clear diagram of particle oscillations / pressure variations (compressions and rarefactions)\n\n**AND**\n\n- Includes label indicating direction of propagation;* ***[1 mark]**\n\nExplain:\n\n**Final answer:** **Any ****two**** from:**\n\n- The sound source is a vibrating source (e.g. speaker); **[1 mark]**\n- Energy is transferred to (air) molecules; **[1 mark]**\n- Energy is transferred by collisions between molecules; **[1 mark]**\n- Oscillations of (air) molecule neighbours are slightly out of phase; **[1 mark]**\n- Oscillations / waves are longitudinal / energy transfer is parallel to vibrations; **[1 mark]**** **\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_FRwQ2SsDdhsZcKns",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "Short pulses of sound are reflected from a wall 30 m from the sound source. The reflected pulses return to the source after 0.18 s.\n\nCalculate the speed of sound.",
+     "solution_md": "The total distance is equal to the distance to and from the wall\n\n- Distance travelled = 2 × 30 = 60 m **[1 mark]**\n\nCalculating the speed of sound:\n\n- Speed = $\\frac{\\mathrm{distance}}{\\mathrm{time}}$\n- Speed =$\\frac{60}{0.18}$ **[1 mark]**\n- Speed = 333.3 = 330 m s<sup>–1</sup> (2 s .f.) **[1 mark]**** **\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{distance}}{\\mathrm{time}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>distance</mi><mi>time</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "distance over time"
+      },
+      {
+       "latex": "\\frac{60}{0.18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>60</mn><mrow><mn>0</mn><mo>.</mo><mn>18</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 60 over denominator 0.18 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zFsFwtv3hND46JZh",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6GDf9qQyHvqtdZMB"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nShort pulses of sound are reflected from a wall 30 m from the sound source. The reflected pulses return to the source after 0.18 s. Calculate the speed of sound. Speed = 60/0.18 = 333.3 = 330 m s^–1\n\nFig.1.1 represents the sound wave from part (c).\n\n![3-1-s-q--q3d-answer-medium-aqa-a-level-physics](assets/020-3-1-s-q-q3d-answer-medium-aqa-a-level-physics.png)\n\n**Fig. 1.1**\n\nCalculate the frequency of the sound wave.",
+     "solution_md": "To calculate the frequency of the sound wave:\n\nList the known quantities:\n\n- Speed of sound, *v* = 333** **m s<sup>–1</sup> (from part (c))\n\nDetermine the wavelength:\n\n- From Fig. 1.1: 140 cm = 2$λ$\n- $λ$= 70 cm **[1 mark]**\n\nCalculate the frequency:\n\n- *f* = $\\frac{v}{λ}$\n- *f* = $\\frac{333}{0.70}$**[1 mark]**\n- *f *= 476 =** **480 Hz (2 s. f.) **[1 mark]**** **\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "\\frac{v}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>v</mi><mi>&#955;</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v over lambda"
+      },
+      {
+       "latex": "\\frac{333}{0.70}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>333</mn><mrow><mn>0</mn><mo>.</mo><mn>70</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 333 over denominator 0.70 end fraction"
       }
      ]
     }

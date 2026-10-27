@@ -349,6 +349,28 @@ def scrape_course(course: dict, delay: float, force: bool,
     print(f"[{course['slug']}] landing {BASE}{tq_prefix}/", flush=True)
     landing_html = eq.http_get(f"{BASE}{tq_prefix}/")
     leaf_urls = leaf_urls_from_landing(landing_html, tq_prefix)
+    # 2026-10-26 lane (SME-COVERAGE-AUDIT r0 follow-up): SME landings link
+    # only ONE leaf-type per topic on several courses (the structured/
+    # theory/alt-to-practical legs are reachable only via the sitemap), so
+    # landing-only discovery under-scrapes those legs (audit: live SQ
+    # 90 vs ours 39 on a-level chemistry 25). Merge the sitemap-census leaf
+    # URLs for this course — SME's own index — before grouping.
+    _LEAVES = {"exam-questions", "multiple-choice-questions",
+               "theory-questions", "alternative-to-practical-questions",
+               "structured-questions"}
+    try:
+        _census = json.loads(cc.CENSUS.read_text(encoding="utf-8"))["cambridge_urls"]
+        # normalize BOTH sources to absolute form first — SME landing hrefs
+        # are relative while sitemap locs are absolute; without this the
+        # union double-counts every landing-linked leaf (2026-10-26 lane fix)
+        leaf_urls = [u if u.startswith("http") else BASE + u for u in leaf_urls]
+        _pref = f"{BASE}/{path}/topic-questions/"
+        leaf_urls = sorted(set(leaf_urls) | {
+            u for u in _census
+            if u.startswith(_pref)
+            and u.rstrip("/").split("/")[-1] in _LEAVES})
+    except Exception as _exc:  # noqa: BLE001 — census cache absent: degrade
+        print(f"    (census merge skipped: {_exc})", flush=True)
     if limit:
         leaf_urls = leaf_urls[:limit]
     leaf_types: dict[str, int] = {}

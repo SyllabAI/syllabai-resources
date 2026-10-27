@@ -114,28 +114,71 @@ here.
 
 Added by operator directive (trace 1a1472e1880cc011): the attested SME corpora extended to the Cambridge lanes on savemyexams.com — 8 `a-level/cie` full-course lanes (AS+A2), 2 `as/cie` lanes where a-level has no counterpart, 24 `igcse/cie` lanes; O Level out of scope (no Edexcel equivalent). Scraper: `scripts/sme_cambridge_examq_scrape.py` (compiled set-page model, corpus schema 1.1, curriculum page-sourced). Same authorization — LICENSE-DATA.md SME attestation. spcpt/spec-index harvest not yet run for these lanes (no `spec_index` blocks yet — honestly absent).
 
+## 2026-10-26 scrape lane — AS lanes, geography 21, history 17, CIE leaf-gap fill
+
+Operator directive 2026-10-26 (zai-web trace 1a178211cb946f29 "Order a scrape
+lane"), following the SME-COVERAGE-AUDIT r0 live-sitemap diff:
+
+- **12 new lanes**: 8 AS courses scraped (biology 25, business 23, chemistry 25,
+  computer-science 19, maths 20 as 4 unit lanes — pure-1/pure-2/mechanics/PS1,
+  physics 25); 3 recorded honestly empty (as accounting 21, a-level geography 21,
+  Edexcel igcse history 17 — all three are past-papers-only stubs on SME:
+  topic-questions 404 / zero embedded sets, probed live this lane). Geography 21
+  was absent from the 2026-10-17 census; the 7 AS lanes reverse the 2026-10-17
+  "subset-view" exclusion per operator order (content overlaps the a-level
+  lanes' AS sections by design — syllabai mirrors SME's own catalog).
+- **Leaf-gap fill (10 courses re-scraped --force)**: SME landings link only ONE
+  leaf-type per topic on several courses (structured/theory/alt-to-practical
+  legs reachable only via the sitemap), so the original landing-only discovery
+  under-scraped them. Discovery now merges the sitemap census
+  (`scripts/sme_cambridge_examq_scrape.py` 2026-10-26 patch). Filled: CIE
+  IGCSE sciences theory+ATP legs (chem 528→1300 q, bio 586→995, phys
+  662→1197), cie-igcse-accounting-21 SQ leg (+73 q), CIE A-Level sciences SQ
+  legs (chem 1003→1336, bio 930→1252, phys 1049→1310), igcse-economics-17
+  (+3 topics), ial-biology-18 (+1 synoptic topic), ial-physics-19 (+1 SQ page
+  via surgical topic rebuild — its landing links only 6 of 37 SQ pages).
+- Edexcel-side note: igcse-history-17 was scraped by the Cambridge toolchain
+  (honest-empty probe); the missing `sme_examq_courses.py` (cited by the 49
+  Edexcel course manifests) is still absent from scripts/ at main HEAD.
+- Observation for the operator: the AS maths tree carries a **pure-2** lane
+  SME never published on the A-Level tree — candidate to fill the registered
+  `cie-a-level-maths-20-pure-2` skeleton (ruling 2026-10-22), operator decision.
+- spec_point_index/registry (v2 courses.json) rows for the new lanes are a
+  follow-up; corpus refresh 2026-10-26.
+
 | course | status | topics | questions | assets |
 |---|---|---|---|---|
 | cie-a-level-accounting-21 | no_topic_questions_on_sme | 0 | 0 | 0 |
-| cie-a-level-biology-25 | scraped | 44 | 930 | 588 |
+| cie-a-level-biology-25 | scraped | 44 | 1252 | 1116 |
 | cie-a-level-business-23 | scraped | 33 | 692 | 29 |
-| cie-a-level-chemistry-25 | scraped | 90 | 1003 | 846 |
+| cie-a-level-chemistry-25 | scraped | 90 | 1336 | 1351 |
 | cie-a-level-computer-science-19 | scraped | 45 | 1060 | 136 |
 | cie-a-level-economics-23 | no_topic_questions_on_sme | 0 | 0 | 0 |
+| cie-a-level-geography-21 | no_topic_questions_on_sme | 0 | 0 | 0 |
 | cie-a-level-maths-20-mechanics | scraped | 10 | 304 | 332 |
 | cie-a-level-maths-20-pure-1 | scraped | 22 | 725 | 363 |
 | cie-a-level-maths-20-pure-3 | scraped | 24 | 791 | 182 |
 | cie-a-level-maths-20-probability-and-statistics-1 | scraped | 10 | 276 | 253 |
 | cie-a-level-maths-20-probability-and-statistics-2 | scraped | 9 | 254 | 544 |
-| cie-a-level-physics-25 | scraped | 76 | 1049 | 1145 |
+| cie-a-level-physics-25 | scraped | 76 | 1310 | 1744 |
+| cie-as-accounting-21 | no_topic_questions_on_sme | 0 | 0 | 0 |
+| cie-as-biology-25 | scraped | 24 | 1011 | 772 |
+| cie-as-business-23 | scraped | 19 | 293 | 16 |
+| cie-as-chemistry-25 | scraped | 51 | 1075 | 855 |
+| cie-as-computer-science-19 | scraped | 29 | 264 | 92 |
 | cie-as-english-general-paper-21 | no_topic_questions_on_sme | 0 | 0 | 0 |
 | cie-as-environmental-management-20 | scraped | 22 | 70 | 46 |
-| cie-igcse-accounting-21 | scraped | 21 | 242 | 2 |
+| cie-as-maths-20-mechanics | scraped | 10 | 304 | 332 |
+| cie-as-maths-20-probability-and-statistics-1 | scraped | 10 | 276 | 253 |
+| cie-as-maths-20-pure-1 | scraped | 22 | 726 | 366 |
+| cie-as-maths-20-pure-2 | scraped | 15 | 490 | 140 |
+| cie-as-physics-25 | scraped | 32 | 1005 | 1137 |
+| cie-igcse-accounting-21 | scraped | 21 | 315 | 2 |
 | cie-igcse-accounting-25 | no_topic_questions_on_sme | 0 | 0 | 0 |
-| cie-igcse-biology-23 | scraped | 21 | 586 | 228 |
+| cie-igcse-biology-23 | scraped | 21 | 995 | 988 |
 | cie-igcse-business-23 | scraped | 25 | 478 | 8 |
 | cie-igcse-business-25 | scraped | 29 | 576 | 33 |
-| cie-igcse-chemistry-23 | scraped | 28 | 528 | 164 |
+| cie-igcse-chemistry-23 | scraped | 28 | 1300 | 1177 |
 | cie-igcse-computer-science-23 | scraped | 30 | 280 | 54 |
 | cie-igcse-economics-20 | scraped | 39 | 612 | 31 |
 | cie-igcse-economics-25 | scraped | 36 | 625 | 34 |
@@ -152,7 +195,7 @@ Added by operator directive (trace 1a1472e1880cc011): the attested SME corpora e
 | cie-igcse-maths-25-extended | scraped | 55 | 1171 | 1113 |
 | cie-igcse-maths-international-maths-23-core | scraped | 45 | 912 | 714 |
 | cie-igcse-maths-international-maths-23-extended | scraped | 55 | 1159 | 1067 |
-| cie-igcse-physics-23 | scraped | 24 | 662 | 327 |
+| cie-igcse-physics-23 | scraped | 24 | 1197 | 1466 |
 | cie-igcse-religious-studies-23 | scraped | 21 | 72 | 0 |
 | cie-igcse-science-co-ordinated-sciences-double-award-23-biology | scraped | 19 | 236 | 89 |
 | cie-igcse-science-co-ordinated-sciences-double-award-23-chemistry | scraped | 26 | 378 | 135 |

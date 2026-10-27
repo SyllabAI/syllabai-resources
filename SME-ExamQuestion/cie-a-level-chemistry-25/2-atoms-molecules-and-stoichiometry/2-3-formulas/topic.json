@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:47:42Z",
+ "generated_utc": "2026-10-26T14:55:07Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -63,17 +63,33 @@
    "question_count": 12,
    "questions_embedded": 12,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-3-formulas/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_tSQmyYm8MDvt97Ds",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-3-formulas/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 12,
+  "questions_embedded": 20,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/06/15346-phenazine-skeletal-formula.png": "001-skeletal-formula-of-phenazine.png"
+   "https://cdn.savemyexams.com/uploads/2026/06/15346-phenazine-skeletal-formula.png": "001-skeletal-formula-of-phenazine.png",
+   "https://cdn.savemyexams.com/uploads/2026/05/29841-acetic-acid-glucose-and-lactic-acid.png": "002-displayed-structural-formulas-of-acetic-acid-glu.png"
   }
  },
  "questions": [
@@ -848,6 +864,983 @@
        "label": "D",
        "is_correct": false,
        "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XBP3TTFZZWssvrFN",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_9xRPGpg9yXw2cnXG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "A synthetic carbohydrate was isotopically labelled with carbon-13.\n\nAnalysis of a 12 g sample of the carbohydrate found it to contain 6.93 g carbon, 0.80 g hydrogen and the remainder was oxygen.\n\nCalculate the empirical formula of the carbohydrate. Show your working.",
+     "solution_md": "To calculate the empirical formula of the carbohydrate:\n\n- Calculate the mass of oxygen:\n\nmass of O = 12.00 − 6.93 − 0.80\n\nmass of O = 4.27 g\n\n**[1 mark]**\n\n- Divide each mass by the relative atomic mass (*A*<sub>r</sub>):\n\n  - Note: carbon-13 has *A*<sub>r</sub> = 13.0\n\nmoles of C = $\\frac{6.93}{13.0}$ = 0.5331\n\nmoles of H = $\\frac{0.80}{1.0}$ = 0.80\n\nmoles of O = $\\frac{4.27}{16.0}$ = 0.2669\n\n**[1 mark]**\n\n- Divide by the smallest value (0.2669) to find the simplest ratio:\n\nC: $\\frac{0.5331}{0.2669}$ = 1.997\n\nH: $\\frac{0.80}{0.2669}$ = 2.998\n\nO: $\\frac{0.2669}{0.2669}$ = 1\n\nEmpirical formula = **C**<sub>**2**</sub>**H**<sub>**3**</sub>**O**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the mass of O: 4.27 g\n> \n> 1 mark for the correct moles of carbon (using *A*<sub>r</sub>(C) = 13.0), hydrogen and oxygen\n> \n> 1 mark for the correct empirical formula: C<sub>2</sub>H<sub>3</sub>O\n\n> **[exam-tip]**\n> The key detail here is that the carbon is carbon-13, so *A*<sub>r</sub>(C) = 13.0, not 12.0. This is intentional. Using *A*<sub>r</sub> = 12.0 gives the awkward ratio 2.16 : 3 : 1, which should prompt you to re-read the question.\n> \n> Always calculate the missing element's mass before starting. Here: mass of O = 12.00 − 6.93 − 0.80 = 4.27 g.\n> \n> Keep the full, unrounded mole values on your calculator when dividing by the smallest to find the ratio. The values 1.997 and 2.998 round cleanly to 2 and 3, confirming the empirical formula C<sub>2</sub>H<sub>3</sub>O.",
+     "equations": [
+      {
+       "latex": "\\frac{6.93}{13.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>.</mo><mn>93</mn></mrow><mrow><mn>13</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{6.93}{13.0}"
+      },
+      {
+       "latex": "\\frac{0.80}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>80</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.80}{1.0}"
+      },
+      {
+       "latex": "\\frac{4.27}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>27</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.27}{16.0}"
+      },
+      {
+       "latex": "\\frac{0.5331}{0.2669}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>5331</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>2669</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.5331}{0.2669}"
+      },
+      {
+       "latex": "\\frac{0.80}{0.2669}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>80</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>2669</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.80}{0.2669}"
+      },
+      {
+       "latex": "\\frac{0.2669}{0.2669}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>2669</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>2669</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.2669}{0.2669}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gyV27pSyVKx9grTn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "The fermentation of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, produces ethanol and carbon dioxide.\n\nConstruct an equation for this reaction.",
+     "solution_md": "> **[mark-scheme]**\n> The balanced equation for fermentation of glucose:\n> \n> - C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> → 2C<sub>2</sub>H<sub>5</sub>OH + 2CO<sub>2</sub> **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> Fermentation converts glucose to ethanol and carbon dioxide in a 1 : 2 : 2 molar ratio. This ratio is used directly in the percentage yield calculation in part (c).\n> \n> Hydration of ethene is the other main industrial method for producing ethanol: CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub>O → CH<sub>3</sub>CH<sub>2</sub>OH. Both routes are covered in the organic chemistry topics later in the specification."
+    },
+    {
+     "id": "qstnprt_x4pCJCpJpSJHkxx5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe fermentation of glucose, C~6~H~12~O~6~, produces ethanol and carbon dioxide.\n\nThe balanced equation for fermentation of glucose:\nC~6~H~12~O~6~ → 2C~2~H~5~OH + 2CO~2~\n\nDuring the fermentation process in the reaction in part (b), 312 g of ethanol was produced from 1.5 kg of glucose.\n\nCalculate the percentage yield of this reaction. Give your answer to 3 significant figures. Show your working.",
+     "solution_md": "To calculate the percentage yield of ethanol:\n\n- Calculate the moles of glucose (convert 1.5 kg to g first):\n\nmoles = $\\frac{mass ( \\mathrm{g} )}{M_{r} }$\n\nmoles of glucose = $\\frac{1500}{180.0}$\n\nmoles of glucose = 8.333 mol\n\n**[1 mark]**\n\n- Calculate the theoretical moles and mass of ethanol (molar ratio 1 : 2):\n\nmoles of ethanol = 8.333 × 2\n\nmoles of ethanol = 16.667 mol\n\nmass = moles x *M*<sub>r</sub>\n\ntheoretical mass of ethanol = 16.667 × 46.0\n\ntheoretical mass of ethanol = 766.7 g\n\n**[1 mark]**\n\n- Calculate the percentage yield:\n\npercentage yield = $\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}$ x 100\n\npercentage yield = $\\frac{312}{766.7}$ × 100\n\npercentage yield = **40.7%**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the moles of glucose: 8.333 mol\n> \n> 1 mark for moles of ethanol: 16.667 mol **AND **theoretical mass of ethanol: 766.7 g\n> \n> 1 mark for the correct percentage yield: 40.7%\n> \n> Allow error carried forward from an incorrect molar ratio in part (b), applied consistently throughout.\n\n> **[exam-tip]**\n> Always convert kg to g before calculating moles: 1.5 kg = 1500 g.\n> \n> Keep the full, unrounded moles of glucose on your calculator throughout. Using 8.3 mol instead of 8.333 mol leads to a theoretical mass of 763.6 g and a final answer of 40.9%, which is incorrect due to early rounding and will lose marks.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator mass space open parentheses straight g close parentheses over denominator M subscript straight r end fraction",
+       "render": "$\\frac{mass ( \\mathrm{g} )}{M_{r} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{1500}{180.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1500</mn><mrow><mn>180</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1500}{180.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>actual</mi><mo>&#160;</mo><mi>yield</mi></mrow><mrow><mi>theoretical</mi><mo>&#160;</mo><mi>yield</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator actual space yield over denominator theoretical space yield end fraction"
+      },
+      {
+       "latex": "\\frac{312}{766.7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>312</mn><mrow><mn>766</mn><mo>.</mo><mn>7</mn></mrow></mfrac></math>",
+       "alt": "\\frac{312}{766.7}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WpMfQ6zXnQfTr3XV",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_QGpGzmdYGtJr4DJW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Chevreul's salt or copper(I, II) sulfite dihydrate, Cu<sub>3</sub>(SO<sub>3</sub>)<sub>2</sub>•2H<sub>2</sub>O, is an unusual hydrated salt as it contains copper in both of its common oxidation states.\n\nThe first step in the formation of Chevreul's salt is the reaction of aqueous copper sulfate with a solution of potassium metabisulfite, K<sub>2</sub>S<sub>2</sub>O<sub>5</sub>.\n\nComplete the equation for the reaction to form the anhydrous Chevreul's salt.\n\n_CuSO<sub>4</sub> + _K<sub>2</sub>S<sub>2</sub>O<sub>5</sub> → _Cu<sub>3</sub>(SO<sub>3</sub>)<sub>2</sub> + 4K<sub>2</sub>SO<sub>4</sub> + _SO<sub>2</sub>",
+     "solution_md": "The completed equation is:\n\n**3**CuSO<sub>4</sub> + **4**K<sub>2</sub>S<sub>2</sub>O<sub>5</sub> → Cu<sub>3</sub>(SO<sub>3</sub>)<sub>2</sub> + 4K<sub>2</sub>SO<sub>4</sub> + **5**SO<sub>2</sub>\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for coefficient 3 (CuSO<sub>4</sub>)\n> \n> 1 mark for coefficient 4 (K<sub>2</sub>S<sub>2</sub>O<sub>5</sub>) **AND **coefficient 5 (SO<sub>2</sub>)\n\n> **[exam-tip]**\n> To balance this equation, start with copper. The product Cu<sub>3</sub>(SO<sub>3</sub>)<sub>2</sub> contains 3 copper atoms, so 3CuSO<sub>4</sub> is needed on the reactant side.\n> \n> With 4K<sub>2</sub>SO<sub>4</sub> as a fixed product, you need 4K<sub>2</sub>S<sub>2</sub>O<sub>5</sub> to provide the 8 potassium atoms. This also brings in 8 sulfur atoms from the metabisulfite.\n> \n> Count total sulfur on the reactant side: 3 (from 3CuSO<sub>4</sub>) + 8 (from 4K<sub>2</sub>S<sub>2</sub>O<sub>5</sub>) = 11. Sulfur on the product side: 2 (in Cu<sub>3</sub>(SO<sub>3</sub>)<sub>2</sub>) + 4 (in 4K<sub>2</sub>SO<sub>4</sub>) = 6. The remaining 5 sulfur atoms appear as 5SO<sub>2</sub>."
+    },
+    {
+     "id": "qstnprt_X8KdxmBzNzWhgMwq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "The chemical formula of Chevreul's salt is sometimes written as Cu<sub>2</sub>SO<sub>3</sub>•CuSO<sub>3</sub>•2H<sub>2</sub>O to show that it contains copper(I) sulfite and copper(II) sulfite.\n\nCalculate the percentage by mass of copper(I) ions in copper(I) sulfite.\n\nShow your working.",
+     "solution_md": "To calculate the percentage by mass of copper(I) ions in Cu<sub>2</sub>SO<sub>3</sub>:\n\n- Calculate the *M*<sub>r</sub> of copper(I) sulfite, Cu<sub>2</sub>SO<sub>3</sub>:\n\n*M*<sub>r</sub>(Cu<sub>2</sub>SO<sub>3</sub>) = 2(63.5) + 32.1 + 3(16.0)\n\n*M*<sub>r</sub>(Cu<sub>2</sub>SO<sub>3</sub>) = 207.1 **[1 mark]**\n\n- Apply the percentage by mass formula:\n\n% by mass = $\\frac{A_{r}\\times\\mathrm{number} \\mathrm{of} \\mathrm{atoms}}{\\mathrm{mass} \\mathrm{of} \\mathrm{compound}}$ x 100\n\n% by mass of Cu<sup>+</sup> = $\\frac{2\\times63.5}{207.1} \\times 100$ **[1 mark]**\n\n% by mass of Cu<sup>+</sup> = **61.3%** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the *M*<sub>r</sub> of copper(I) sulfite, Cu<sub>2</sub>SO<sub>3</sub>: 207.1\n> \n> 1 mark for correct substitution of values into the % by mass equation\n> \n> 1 mark for a correct final answer of 61.3%\n\n> **[exam-tip]**\n> Copper(I) sulfite has the formula Cu<sub>2</sub>SO<sub>3</sub> (not CuSO<sub>3</sub>). Copper(I) has a +1 charge, so two Cu<sup>+</sup> ions are needed to balance the 2− charge of the sulfite ion (SO<sub>3</sub><sup>2-</sup>).",
+     "equations": [
+      {
+       "latex": "\\frac{A_{r}\\times\\mathrm{number} \\mathrm{of} \\mathrm{atoms}}{\\mathrm{mass} \\mathrm{of} \\mathrm{compound}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub><mo>&#215;</mo><mi>number</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>atoms</mi></mrow><mrow><mi>mass</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>compound</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator A subscript straight r cross times number space of space atoms over denominator mass space of space compound end fraction"
+      },
+      {
+       "latex": "\\frac{2\\times63.5}{207.1} \\times 100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>&#xD7;</mo><mn>63</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>207</mn><mo>.</mo><mn>1</mn></mrow></mfrac><mo>&#xD7;</mo><mn>100</mn></math>",
+       "alt": "\\frac{2 \\times 63.5}{207.1} \\times 100"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XvHrcXN5CyDByY63",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nChevreul's salt or copper(I, II) sulfite dihydrate, Cu₃(SO₃)₂•2H₂O, is an unusual hydrated salt as it contains copper in both of its common oxidation states.\n\nThe chemical formula of Chevreul's salt is sometimes written as Cu₂SO₃•CuSO₃•2H₂O to show that it contains copper(I) sulfite and copper(II) sulfite.\n\nChevreul's salt can react with ammonia solution to form a deep blue solution of the tetraamminecopper(II) complex, [Cu(NH<sub>3</sub>)<sub>4</sub>]<sup>2+</sup> (aq). It can also react with hydrochloric acid to form a white solid of copper(I) chloride, water and sulfur dioxide.\n\nWrite an **ionic** equation for the formation of copper(I) chloride from Chevreul's salt. Include state symbols.",
+     "solution_md": "The ionic equation for the formation of copper(I) chloride:\n\nCu<sup>+</sup> (aq) + Cl<sup>-</sup> (aq) → CuCl (s)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct ionic equation\n> \n> 1 mark for correct state symbols: (aq), (aq), (s)\n> \n> Multiples of the equation, e.g. 2Cu<sup>+</sup> (aq) + 2Cl<sup>-</sup> (aq) → 2CuCl (s), are accepted\n\n> **[exam-tip]**\n> Chevreul's salt contains both copper(I) sulfite (Cu<sub>2</sub>SO<sub>3</sub>) and copper(II) sulfite (CuSO<sub>3</sub>). The question specifies that copper(I) chloride forms, so it is the Cu<sub>2</sub>SO<sub>3</sub> component that reacts with HCl.\n> \n> The molecular equation is:\n> \n> Cu<sub>2</sub>SO<sub>3</sub> + 2HCl → 2CuCl + SO<sub>2</sub> + H<sub>2</sub>O\n> \n> For the ionic equation, include only the species that change. The key reaction is Cu<sup>+</sup> combining with Cl<sup>-</sup> to form insoluble CuCl. Since Cu<sub>2</sub>SO<sub>3</sub> contains two Cu<sup>+</sup> ions, this also gives:\n> \n> 2Cu<sup>+</sup> (aq) + 2Cl<sup>-</sup> (aq) → 2CuCl (s)."
+    },
+    {
+     "id": "qstnprt_pv6Fk8fQzqpbMK7H",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "When Chevreul's salt is heated in an inert atmosphere, it is stable to around 200 <sup>o</sup>C. Above this temperature, a variety of compounds can be produced although the final product of sustained heating at high temperatures is copper(II) oxide.\n\nDuring the heating process, a sample of the mixture is taken. After separation, the most common compound was analysed and found to contain 39.8% copper, 20.1% sulfur and the rest oxygen.\n\nCalculate the empirical formula of the most common compound. Show your working.",
+     "solution_md": "To calculate the empirical formula of the most common compound:\n\n- Calculate the percentage of oxygen:\n\n%O = 100 − 39.8 − 20.1 = 40.1% **[1 mark]**\n\n- Divide each percentage by the relative atomic mass (*A*<sub>r</sub>):\n\nmoles of Cu = $\\frac{39.8}{63.5}$ = 0.6268\n\nmoles of S = $\\frac{20.1}{32.1}$ = 0.6262\n\nmoles of O = $\\frac{40.1}{16.0}$ = 2.506\n\n**[1 mark]**\n\n- Divide by the smallest value (0.6262) to find the simplest ratio:\n\nCu: $\\frac{0.6268}{0.6262}$ = 1.001\n\nS: $\\frac{0.6262}{0.6262}$ = 1\n\nO: $\\frac{2.506}{0.6262}$ = 4.002\n\nEmpirical formula = **CuSO**<sub>**4**</sub>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for %O = 40.1%\n> \n> 1 mark for all three mole values correctly calculated by dividing by the respective *A*<sub>r</sub>\n> \n> 1 mark for the ratio (1 : 1 : 4) **AND **the correct empirical formula CuSO<sub>4</sub>\n> \n> Use *A*<sub>r</sub> values to one decimal place: Cu = 63.5, S = 32.1, O = 16.0\n\n> **[exam-tip]**\n> The percentage of oxygen is not given directly; calculate it: %O = 100 − 39.8 − 20.1 = 40.1%.\n> \n> Use *A*<sub>r</sub> values to one decimal place from the CIE Data Booklet (Cu = 63.5, not 64). Rounding *A*<sub>r</sub> values before dividing introduces errors.\n> \n> The ratios of 1.001 and 4.002 are very close to integers, so always round to the nearest whole number when the ratio is clearly near an integer. The empirical formula CuSO<sub>4</sub> is the anhydrous form of copper(II) sulfate.",
+     "equations": [
+      {
+       "latex": "\\frac{39.8}{63.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>39</mn><mo>.</mo><mn>8</mn></mrow><mrow><mn>63</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{39.8}{63.5}"
+      },
+      {
+       "latex": "\\frac{20.1}{32.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>20</mn><mo>.</mo><mn>1</mn></mrow><mrow><mn>32</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{20.1}{32.1}"
+      },
+      {
+       "latex": "\\frac{40.1}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>40</mn><mo>.</mo><mn>1</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{40.1}{16.0}"
+      },
+      {
+       "latex": "\\frac{0.6268}{0.6262}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>6268</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>6262</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.6268}{0.6262}"
+      },
+      {
+       "latex": "\\frac{0.6262}{0.6262}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>6262</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>6262</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.6262}{0.6262}"
+      },
+      {
+       "latex": "\\frac{2.506}{0.6262}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>506</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>6262</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.506}{0.6262}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tGGG4hm28VBFSy73",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_FYtswhrMrk5XSnFd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Cobalt(II) sulfate is used in storage batteries, electroplating baths and as an additive to soils and animal feeds.\n\nA sample of hydrated cobalt sulfate, CoSO<sub>4</sub>•xH<sub>2</sub>O, has a relative formula mass of 173.0.\n\nCalculate a value for 'x'.",
+     "solution_md": "To calculate the value of x in CoSO<sub>4</sub>•xH<sub>2</sub>O:\n\n- Calculate the *M*<sub>r</sub> of anhydrous CoSO<sub>4</sub>:\n\n*M*<sub>r</sub>(CoSO<sub>4</sub>) = 58.9 + 32.1 + 4(16.0) = 155.0\n\n- Calculate the mass of water in the hydrated salt:\n\nmass of water = *M*<sub>r</sub> of anhydrous CoSO<sub>4</sub>•xH<sub>2</sub>O - *M*<sub>r</sub> of anhydrous CoSO<sub>4</sub>\n\nmass of water = 173.0 − 155.0 \nmass of water = 18.0\n\n**[1 mark]**\n\n- Divide by the *M*<sub>r</sub> of water to find x:\n\nx = $\\frac{18.0}{18.0}$\n\nx = **1**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for both *M*<sub>r</sub>(CoSO<sub>4</sub>) = 155.0 and mass of H<sub>2</sub>O = 18.0\n> \n> 1 mark for x = 1 **OR** CoSO<sub>4</sub>•H<sub>2</sub>O / CoSO<sub>4</sub>•1H<sub>2</sub>O\n\n> **[exam-tip]**\n> This question gives you the *M*<sub>r</sub> of the hydrated salt directly. To find x, subtract the *M*<sub>r</sub> of the anhydrous salt from the given *M*<sub>r</sub> to find the mass contributed by the water, then divide by 18.0 (*M*<sub>r</sub> of H<sub>2</sub>O).\n> \n> You can also set up the equation: 155.0 + 18.0x = 173.0, then solve for x. Both approaches give the same answer.\n> \n> Always calculate *M*<sub>r</sub>(CoSO<sub>4</sub>) from Data Booklet values: Co (58.9) + S (32.1) + 4 × O (16.0) = 155.0.",
+     "equations": [
+      {
+       "latex": "\\frac{18.0}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{18.0}{18.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MRYtwKn4WcFdJ5Th",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "A student completed an experiment to determine the value of 'x' in a hydrated salt.\n\nThey heated a solid sample of the salt, CoSO<sub>4</sub>.xH<sub>2</sub>O, in a crucible for 60 seconds and recorded the following set of results.\n\n**Table 2.1**\n\n| Mass of empty crucible (g) | 29.22 |\n|---|---|\n| Mass of crucible and solid before heating (g) | 32.67 |\n| Mass of crucible and solid after heating (g) | 32.02 |\n\nUse the data obtained by the student in Table 2.1 to calculate a value for 'x'.",
+     "solution_md": "To calculate the value of x in CoSO<sub>4</sub>.xH<sub>2</sub>O:\n\n- Calculate the masses of anhydrous CoSO<sub>4</sub> and water removed:\n\nmass of CoSO<sub>4</sub> = 32.02 − 29.22 = 2.80 g\n\nmass of H<sub>2</sub>O = 32.67 − 32.02 = 0.65 g\n\n**[1 mark]**\n\n- Calculate the moles of each compound:\n\nmoles of CoSO<sub>4</sub> = $\\frac{2.80}{155.0}$ = 0.01806 mol\n\nmoles of H<sub>2</sub>O = $\\frac{0.65}{18.0}$ = 0.03611 mol\n\n**[1 mark]**\n\n- Find the mole ratio:\n\nratio CoSO<sub>4</sub> : H<sub>2</sub>O = $\\frac{0.01806}{0.01806}$ : $\\frac{0.03611}{0.01806}$ = 1 : 1.998\n\n**[1 mark]**\n\nx = **2** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct mass of anhydrous CoSO<sub>4</sub> = 2.80 g **AND **correct mass of H<sub>2</sub>O lost = 0.65 g; both required\n> \n> 1 mark for correct moles of CoSO<sub>4</sub> = 0.01806 mol **AND **correct moles of H<sub>2</sub>O = 0.03611 mol; both required\n> \n> 1 mark for correct mole ratio ≈ 1 : 2\n> \n> 1 mark for x = 2, given as a whole number\n> \n> 1 : 1.99 or similar mole ratios from unrounded moles are accepted\n> \n> An alternative method that also achieves full marks: calculate the *M*<sub>r</sub> of the hydrated salt (mass of sample ÷ moles of CoSO<sub>4</sub>), subtract *M*<sub>r</sub>(CoSO<sub>4</sub>) = 155.0, then divide by 18.0 to find x.\n\n> **[exam-tip]**\n> The mass of anhydrous salt is found from the mass after heating minus the empty crucible (32.02 − 29.22 = 2.80 g). The mass of water removed is the difference in mass of the crucible and solid before and after heating (32.67 − 32.02 = 0.65 g). A common mistake is to subtract the wrong pair of readings.\n> \n> Keep full, unrounded intermediate values on your calculator. Do not round the moles before finding the ratio, as rounding errors may prevent the ratio from being clearly close to 1 : 2. Only round the final answer for x to the nearest whole number.\n> \n> The calculated value of x = 2 is much lower than the actual value (x = 7 for CoSO<sub>4</sub>•7H<sub>2</sub>O) because the student only heated for 60 seconds, which was not long enough to drive off all the water of crystallisation.",
+     "equations": [
+      {
+       "latex": "\\frac{2.80}{155.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>80</mn></mrow><mrow><mn>155</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.80}{155.0}"
+      },
+      {
+       "latex": "\\frac{0.65}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>65</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.65}{18.0}"
+      },
+      {
+       "latex": "\\frac{0.01806}{0.01806}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>01806</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>01806</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.01806}{0.01806}"
+      },
+      {
+       "latex": "\\frac{0.03611}{0.01806}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>03611</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>01806</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.03611}{0.01806}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sVksRjNxcdgZ6hnv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student completed an experiment to determine the value of 'x' in a hydrated salt.\n\nThey heated a solid sample of the salt, CoSO~4~.xH~2~O, in a crucible for 60 seconds and recorded the following set of results.\n\n**Table 2.1**\n\n| Mass of empty crucible (g) | 29.22 |\n| --- | :---: |\n| Mass of crucible and solid before heating (g) | 32.67 |\n| Mass of crucible and solid after heating (g) | 32.02 |\n\nThe actual value for x in CoSO<sub>4</sub>.xH<sub>2</sub>O is 7.\n\ni) Suggest **one** reason for the difference between your calculated value in **part (b)** and the actual value.\n\n[1]\n\nii) Explain how you could improve the experiment the student did, using the same equipment, to achieve a value closer to the correct value for x.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) One reason for the calculated value being lower than the actual value:\n> \n> Any **one** from:\n> \n> - Failure to remove / drive off all of the water of crystallisation\n> - Not heated to constant mass\n> - Heated for an insufficient time (60 seconds is not long enough)\n> \n> **[1 mark]**\n> \n> ii) How the experiment could be improved:\n> \n> - Heat to constant mass\n> **OR**\n> Continue heating and reweighing until successive readings agree **[1 mark]**\n> - To ensure that all / more of the water of crystallisation has been removed / driven off **[1 mark]**\n\n> **[exam-tip]**\n> For part i, the student heated for only 60 seconds. The time was too short to drive off all the water of crystallisation, so the calculated x is lower than the actual value.\n> \n> For part ii, \"heat to constant mass\" is the standard improvement for this experiment. State both the procedure (heat, cool, weigh, repeat until successive masses agree) and the reason (ensures all water of crystallisation has been removed). Both points are needed for full marks."
+    },
+    {
+     "id": "qstnprt_w7Vpbvv4Z7cFvwgS",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Cobalt(II) sulfate undergoes a displacement reaction with magnesium because magnesium is a more reactive metal than cobalt.\n\nWrite an **ionic **equation for this reaction. State symbols are **not** required.",
+     "solution_md": "> **[mark-scheme]**\n> The ionic equation for the displacement reaction:\n> \n> - Co<sup>2+</sup> + Mg → Mg<sup>2+</sup> + Co **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> In an ionic equation, spectator ions are removed. Sulfate (SO<sub>4</sub><sup>2-</sup>) appears in both CoSO<sub>4</sub> and MgSO<sub>4</sub> and does not change, so it is a spectator ion and is excluded.\n> \n> The overall equation is:\n> \n> CoSO<sub>4</sub> + Mg → MgSO<sub>4</sub> + Co\n> \n> Removing the sulfate spectator ion gives the ionic equation:\n> \n> Co<sup>2+</sup> + Mg → Mg<sup>2+</sup> + Co\n> \n> Magnesium and cobalt are both uncharged metals in this equation, so only the aqueous ions carry charges."
+    }
+   ]
+  },
+  {
+   "id": "qstn_s7SMx98mfsXycb9V",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_mdsytTSV7r3y42Fn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium carbonate is a common antacid that is used to neutralise excess stomach acid, HCl.\n\nMgCO<sub>3</sub> (s) + 2HCl (aq) → MgCl<sub>2</sub> (aq) + CO<sub>2</sub> (g) + H<sub>2</sub>O (l)\n\n5.31 g of magnesium carbonate reacts completely with an excess of hydrochloric acid.\n\nCalculate the volume, in dm<sup>3</sup>, of carbon dioxide produced at room conditions. Show your working.\n\nVolume of CO<sub>2</sub> = .................. dm<sup>3</sup>",
+     "solution_md": "To calculate the volume of CO<sub>2</sub> produced at room conditions:\n\n- Calculate the moles of MgCO<sub>3</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of MgCO<sub>3</sub> = $\\frac{5.31}{84.3}$\n\nmoles of MgCO<sub>3</sub> = 0.06299 mol **[1 mark]**\n\n- Calculate the volume of CO<sub>2</sub> (moles CO<sub>2</sub> = moles MgCO<sub>3</sub>):\n\nvolume = moles x molar gas volume\n\nvolume CO<sub>2</sub> = 0.06299 x 24.0\n\nvolume CO<sub>2</sub> = **1.51 dm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward for the volume if an incorrect number of moles is used consistently.\n\n> **[exam-tip]**\n> The *M*<sub>r</sub> of MgCO<sub>3</sub> = 24.3 + 12.0 + 3(16.0) = 84.3. You need to calculate this from the CIE Data Booklet atomic masses.\n> \n> From the equation, MgCO<sub>3</sub> and CO<sub>2</sub> are in a 1 : 1 molar ratio, so moles of CO<sub>2</sub> = moles of MgCO<sub>3</sub>.\n> \n> 1 mol of any gas occupies 24.0 dm<sup>3</sup> at room conditions.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{5.31}{84.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>31</mn></mrow><mrow><mn>84</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.31}{84.3}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Yv2NkVnH8m7cnMWY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Another magnesium salt, magnesium sulfate, can exist in hydrated or anhydrous forms.\n\n6.31 g of a sample of magnesium sulfate, MgSO<sub>4</sub>.xH<sub>2</sub>O, was strongly heated until a mass of 3.61 g of solid remained with no further change in mass recorded.\n\nCalculate the value of x. Show your working.\n\nx = .....................",
+     "solution_md": "To calculate the number of moles of water of crystallisation, x:\n\n- Calculate the moles of MgSO<sub>4</sub> (anhydrous residue):\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles MgSO<sub>4</sub> = $\\frac{3.61}{120.4}$\n\nmoles MgSO<sub>4</sub> = 0.02999 mol **[1 mark]**\n\n- Calculate the moles of H<sub>2</sub>O lost on heating:\n\nmass H<sub>2</sub>O = 6.31 − 3.61 = 2.70 g\n\nmoles H<sub>2</sub>O = $\\frac{2.70}{18.0}$ = 0.1500 mol **[1 mark]**\n\n- Calculate the molar ratio MgSO<sub>4</sub> : H<sub>2</sub>O:\n\nratio = $\\frac{0.1500}{0.02999}$ = 5.00\n\nMgSO<sub>4</sub> : H<sub>2</sub>O = 1 : 5\n\nx = **5 ****[1 mark]**\n\n> **[mark-scheme]**\n> x must be given as an integer.\n> \n> MgSO<sub>4</sub>.5H<sub>2</sub>O is an accepted final answer\n> \n> Allow error carried forward from incorrect moles in steps 1 and 2 provided method is correct.\n\n> **[exam-tip]**\n> This is an empirical formula question applied to a hydrated salt. After heating, the solid that remains is anhydrous MgSO<sub>4</sub>. The mass lost is the water that was driven off.\n> \n> Calculate moles of MgSO<sub>4</sub> from the residue mass and moles of H<sub>2</sub>O from the mass loss. The ratio of moles H<sub>2</sub>O : moles MgSO<sub>4</sub> gives x directly.\n> \n> x must always be a whole number. If your ratio is not close to an integer, check you have used the correct *M*<sub>r</sub> values: MgSO<sub>4</sub> = 120.4 and H<sub>2</sub>O = 18.0.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{3.61}{120.4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>61</mn></mrow><mrow><mn>120</mn><mo>.</mo><mn>4</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.61}{120.4}"
+      },
+      {
+       "latex": "\\frac{2.70}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>70</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.70}{18.0}"
+      },
+      {
+       "latex": "\\frac{0.1500}{0.02999}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>1500</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>02999</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.1500}{0.02999}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Xt5qQPN23gFFYDXW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Another sample of hydrated magnesium sulfate, MgSO<sub>4</sub>.xH<sub>2</sub>O, is found to contain 51.1% water by mass.\n\nCalculate the value of x. Show your working.\n\nx = .....................",
+     "solution_md": "To calculate x in MgSO<sub>4</sub>.xH<sub>2</sub>O containing 51.1% water by mass:\n\n- Assume a 100 g sample; identify the mass of each component:\n\nmass H<sub>2</sub>O = 51.1 g\n\nmass MgSO<sub>4</sub> = 48.9 g\n\n- Calculate the moles of each component:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles MgSO<sub>4</sub> = $\\frac{48.9}{120.4}$ = 0.4061 mol **[1 mark]**\n\nmoles H<sub>2</sub>O = $\\frac{51.1}{18.0}$ = 2.839 mol **[1 mark]**\n\n- Calculate the molar ratio MgSO<sub>4</sub> : H<sub>2</sub>O:\n\nratio = $\\frac{2.839}{0.4061}$ = 6.99 ≈ 7\n\nMgSO<sub>4</sub> : H<sub>2</sub>O = 1 : 7\n\nx = **7 ****[1 mark]**\n\n> **[mark-scheme]**\n> x must be given as an integer. Allow 6.99 rounded to 7.\n> \n> MgSO<sub>4</sub>.7H<sub>2</sub>O is an accepted final answer\n> \n> Allow error carried forward from incorrect moles in steps 1 and 2 provided method is correct.\n\n> **[exam-tip]**\n> When given percentage composition, treat the percentages as masses by assuming a 100 g sample. This converts percentages directly into grams.\n> \n> The calculation then follows the same steps as the previous part: find moles of each component and take the ratio.\n> \n> MgSO<sub>4</sub>.7H<sub>2</sub>O is Epsom salt, so x = 7 is a well-known hydrated salt. Keep full calculator values for all intermediate steps. Only round x to an integer at the very end.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{48.9}{120.4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>48</mn><mo>.</mo><mn>9</mn></mrow><mrow><mn>120</mn><mo>.</mo><mn>4</mn></mrow></mfrac></math>",
+       "alt": "\\frac{48.9}{120.4}"
+      },
+      {
+       "latex": "\\frac{51.1}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>51</mn><mo>.</mo><mn>1</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{51.1}{18.0}"
+      },
+      {
+       "latex": "\\frac{2.839}{0.4061}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>839</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>4061</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.839}{0.4061}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DQ3H6nTW2YtxZx77",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAnother magnesium salt, magnesium sulfate, can exist in hydrated or anhydrous forms.\n\n6.31 g of a sample of magnesium sulfate, MgSO~4~.xH~2~O, was strongly heated until a mass of 3.61 g of solid remained with no further change in mass recorded.\n\nCalculate the value of x. Show your working.\n\nState the effect on the calculated value of x if the salt was not heated to constant mass. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of not heating to constant mass on the value of x:\n> \n> - Some water remains in the salt / the salt remains partially hydrated / not all water is driven off **[1 mark]**\n> - The calculated moles of water are too low\n> **AND**\n> The value of x is too small **[1 mark]**\n\n> **[exam-tip]**\n> Think through the chain of consequences. If the salt is not fully dehydrated, the mass loss appears smaller than the true value, so fewer moles of water are recorded.\n> \n> The mark scheme expects two separate points. The first mark is for identifying that some water remains (the direct cause). The second mark requires both linked consequences together: calculated moles of water too low **AND **x too small."
+    }
+   ]
+  },
+  {
+   "id": "qstn_MYg9Sc7MVDbcn9xQ",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_6gDKrcmDGx4RDhm3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of a caffeinated drink contains 34 mg of caffeine, *M*<sub>r</sub> = 194.0 g mol<sup>-1</sup>.\n\nCalculate the amount, in mol, of caffeine in the sample. Show your working.\n\namount of caffeine = .................... mol",
+     "solution_md": "To calculate the amount of caffeine in the sample:\n\n- Convert mass to grams: 34 mg = 0.034 g\n\namount of caffeine = $\\frac{0.034}{194.0}$\n\namount of caffeine = **1.75 x 10**<sup>**-4**</sup> mol **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 1.74–1.76 x 10<sup>-4</sup> mol.\n\n> **[exam-tip]**\n> Always check the units given in the question. The mass here is in milligrams; convert to grams before dividing by *M*<sub>r</sub>: 34 mg ÷ 1000 = 0.034 g.",
+     "equations": [
+      {
+       "latex": "\\frac{0.034}{194.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>034</mn></mrow><mrow><mn>194</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0 . 034}{194 . 0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_drTwFK5gHTMFMMwZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY",
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "Caffeine contains 49.48% carbon, 5.20% hydrogen and 28.85% nitrogen by mass. The remainder is oxygen.\n\nCalculate the empirical formula of caffeine. Show your working.",
+     "solution_md": "To calculate the empirical formula of caffeine:\n\n- Find % oxygen by mass:\n\n%O = 100 − 49.48 − 5.20 − 28.85\n\n%O = 16.47%\n\n- Divide each % by *A*<sub>r</sub> to find moles:\n\nmoles C = $\\frac{49.48}{12.0}$ = 4.123\n\nmoles H = $\\frac{5.20}{1.0}$ = 5.200\n\nmoles N = $\\frac{28.85}{14.0}$ = 2.061\n\n**[1 mark]**\n\nmoles O = $\\frac{16.47}{16.0}$ = 1.029\n\n**[1 mark]**\n\n- Divide each by the smallest value (moles O = 1.029):\n\nC : H : N : O = $\\frac{4.123}{1.029}$ : $\\frac{5.200}{1.029}$ : $\\frac{2.061}{1.029}$ : $\\frac{1.029}{1.029}$\n\nC : H : N : O = 4 : 5 : 2 : 1\n\nempirical formula = **C**<sub>**4**</sub>**H**<sub>**5**</sub>**N**<sub>**2**</sub>**O**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct moles of carbon, hydrogen and nitrogen\n> \n> 1 mark for correct moles of oxygen\n> \n> 1 mark for correct empirical formula\n> \n> Allow error carried forward from a correct method with incorrect moles.\n\n> **[exam-tip]**\n> The oxygen percentage is not given; you must calculate it: 100 − 49.48 − 5.20 − 28.85 = 16.47%.\n> \n> Show all working clearly. If any individual mole calculation is wrong, you can still gain marks for a correct method.\n> \n> The full calculation can be set out as a table:\n> \n> | Element | C | H | N | O |\n> |---|---|---|---|---|\n> | % | 49.48 | 5.20 | 28.85 | 16.47 |\n> | *A*<sub>r</sub> | 12.0 | 1.0 | 14.0 | 16.0 |\n> | Moles | 4.123 | 5.200 | 2.061 | 1.029 |\n> | Ratio | 4 | 5.05 ≈ 5 | 2 | 1 |\n> \n> Always divide by the smallest moles value to get the ratio. Keep full calculator values throughout, only round to whole numbers at the ratio step.",
+     "equations": [
+      {
+       "latex": "\\frac{49.48}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>49</mn><mo>.</mo><mn>48</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{49 . 48}{12 . 0}"
+      },
+      {
+       "latex": "\\frac{5.20}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>20</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5 . 20}{1 . 0}"
+      },
+      {
+       "latex": "\\frac{28.85}{14.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>28</mn><mo>.</mo><mn>85</mn></mrow><mrow><mn>14</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{28 . 85}{14 . 0}"
+      },
+      {
+       "latex": "\\frac{16.47}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>16</mn><mo>.</mo><mn>47</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{16 . 47}{16 . 0}"
+      },
+      {
+       "latex": "\\frac{4.123}{1.029}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>123</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>029</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4 . 123}{1 . 029}"
+      },
+      {
+       "latex": "\\frac{5.200}{1.029}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>200</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>029</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5 . 200}{1 . 029}"
+      },
+      {
+       "latex": "\\frac{2.061}{1.029}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>061</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>029</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2 . 061}{1 . 029}"
+      },
+      {
+       "latex": "\\frac{1.029}{1.029}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>029</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>029</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1 . 029}{1 . 029}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JF3KX9FDsGJkT2Bj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA sample of a caffeinated drink contains 34 mg of caffeine, Mr = 194.0 g mol^-1.\n\nCaffeine contains 49.48% carbon, 5.20% hydrogen and 28.85% nitrogen by mass. The remainder is oxygen.\n\nCalculate the empirical formula of caffeine.\n\nUse your answer to (b) and the *M*<sub>r</sub> of caffeine given in part (a) to deduce the molecular formula of caffeine. Show your working.",
+     "solution_md": "To deduce the molecular formula of caffeine:\n\n- Calculate the *M*<sub>r</sub> of empirical formula C<sub>4</sub>H<sub>5</sub>N<sub>2</sub>O:\n\n*M*<sub>r</sub>(C<sub>4</sub>H<sub>5</sub>N<sub>2</sub>O) = (4 x 12.0) + (5 x 1.0) + (2 x 14.0) + 16.0\n\n*M*<sub>r</sub>(C<sub>4</sub>H<sub>5</sub>N<sub>2</sub>O) = 97.0\n\n- Find the multiplier:\n\nmultiplier = $\\frac{194.0}{97.0}$ = 2.00 ≈ 2\n\nmolecular formula = **C**<sub>**8**</sub>**H**<sub>**10**</sub>**N**<sub>**4**</sub>**O**<sub>**2**</sub> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from an incorrect empirical formula in (b) provided method is correct.\n\n> **[exam-tip]**\n> Divide the *M*<sub>r</sub> of caffeine (194.0) by the *M*<sub>r</sub> of the empirical formula (97.0) to find the multiplier. Here, 194.0 / 97.0 = 2, so the molecular formula is 2 x C<sub>4</sub>H<sub>5</sub>N<sub>2</sub>O = C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.",
+     "equations": [
+      {
+       "latex": "\\frac{194.0}{97.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>194</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>97</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{194 . 0}{97 . 0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mB4TGnQ925h4fCjp",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_cq82CjGgDhjBf4NF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD",
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Apatite is a general term used for a family of various calcium phosphate compounds commonly found in rocks and minerals, bones and teeth.\n\ni) State the formula of calcium phosphate.\n\n[1]\n\nii) Hydroxylapatite, Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>OH, is one member of the apatite family and is a major component of bone.\n\nDeduce the oxidation number of phosphorus in hydroxylapatite, Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>OH. Show your working.\n\n[2]\n\niii) Another member of the apatite family is chlorapatite.\n\nSuggest the formula of chlorapatite.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The formula of calcium phosphate is:\n> \n> - Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> **[1 mark]**\n> \n> ii) Deducing the oxidation number of phosphorus in hydroxylapatite:\n> \n> - P + 4(–2) = –3 **[1 mark]**\n> - P = +5 **[1 mark]**\n> \n> iii) The formula of chlorapatite is:\n> \n> - Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>Cl **[1 mark]**\n\n> **[exam-tip]**\n> For part i), recall that calcium forms Ca<sup>2+</sup> ions and the phosphate ion is PO<sub>4</sub><sup>3–</sup>. You need three Ca<sup>2+</sup> ions to balance two PO<sub>4</sub><sup>3–</sup> ions, giving a neutral compound, Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>.\n> \n> For part ii), work through the oxidation numbers in the phosphate ion. Oxygen has a standard oxidation number of –2. With four oxygen atoms, the total contribution from oxygen is –8. Since the overall charge of the phosphate ion is –3, phosphorus must satisfy P + (–8) = –3, giving P = +5.\n> \n> For part iii), compare the formula of hydroxylapatite, Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>OH, with that of chlorapatite. The hydroxide ion (OH<sup>–</sup>) at the end is replaced by a chloride ion (Cl<sup>–</sup>), giving Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>Cl."
+    },
+    {
+     "id": "qstnprt_Msc4rnZnxnDcnrhd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_jHXFWjBrkFcCCgVD"
+     ],
+     "part_tier": null,
+     "problem_md": "Fluorapatite, Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F, reacts with sulfuric acid to form phosphoric acid, calcium sulfate and hydrogen fluoride.\n\nConstruct a balanced equation for this reaction.",
+     "solution_md": "The balanced equation for the reaction of fluorapatite with sulfuric acid is:\n\nCa<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F + 5H<sub>2</sub>SO<sub>4</sub> → 3H<sub>3</sub>PO<sub>4</sub> + 5CaSO<sub>4</sub> + HF\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct chemical formulae for all species\n> \n> 1 mark for correct balancing\n\n> **[exam-tip]**\n> Before balancing, identify the formulas of the three products:\n> \n> - Phosphoric acid, H<sub>3</sub>PO<sub>4</sub>, is produced from the phosphate groups in fluorapatite.\n> - Calcium sulfate contains Ca<sup>2+</sup> and SO<sub>4</sub><sup>2–</sup> in a 1:1 ratio, giving CaSO<sub>4</sub>.\n> - Hydrogen fluoride contains H<sup>+</sup> and F<sup>–</sup>, giving HF.\n> \n> Once you have the correct formulas, balance systematically. The five calcium atoms and three phosphate groups in Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F suggest 5 CaSO<sub>4</sub> and 3 H<sub>3</sub>PO<sub>4</sub> as starting points. Five CaSO<sub>4</sub> requires 5 H<sub>2</sub>SO<sub>4</sub>. One fluorine gives one HF. Check all atoms balance before finalising."
+    },
+    {
+     "id": "qstnprt_BGVQFQ2YWkFSYgT5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Fluorapatite, Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F, can also react with sulfuric acid to form calcium dihydrogenphosphate, Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>, calcium sulfate and hydrogen fluoride.\n\n2Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F + 7H<sub>2</sub>SO<sub>4</sub> → 3Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> + 7CaSO<sub>4</sub> + 2HF\n\nCalculate the mass of calcium dihydrogenphosphate formed when 50.2 g of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F reacts with 87.9 g H<sub>2</sub>SO<sub>4</sub>. Show your working.\n\nmass of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = ............................ g",
+     "solution_md": "To calculate the mass of calcium dihydrogenphosphate, Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>, formed:\n\n- List the known values:\n\n  - mass of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F = 50.2 g\n  - *M*<sub>r</sub> of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F = 504.5\n  - mass of H<sub>2</sub>SO<sub>4</sub> = 87.9 g\n  - *M*<sub>r</sub> of H<sub>2</sub>SO<sub>4</sub> = 98.1\n  - stoichiometric ratio from the equation: Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F : H<sub>2</sub>SO<sub>4</sub> : Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 2 : 7 : 3\n- Calculate the moles of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F:\n\nmoles = $\\frac{mass}{M_{r}}$\n\nmoles of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F = $\\frac{50.2}{504.5}$\n\nmoles of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F = 0.0995 mol\n\n**[1 mark]**\n\n- Calculate the moles of H<sub>2</sub>SO<sub>4</sub>:\n\nmoles of H<sub>2</sub>SO<sub>4</sub> = $\\frac{87.9}{98.1}$\n\nmoles of H<sub>2</sub>SO<sub>4</sub> = 0.89602 mol\n\n**[1 mark]**\n\n- Identify the limiting reagent using the 2:7 molar ratio:\n\nH<sub>2</sub>SO<sub>4</sub> required = $\\frac{7}{2}$ x 0.0995 = 0.34825 mol\n\nCa<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F is the limiting reagent\n(0.34825 mol required < 0.89602 mol available)\n\n**[1 mark]**\n\n- Calculate moles of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> and *M*<sub>r</sub> of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>:\n\nmoles of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = $\\frac{3}{2}$ x 0.0995\n\nmoles of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 0.14925 mol\n\n*M*<sub>r</sub> of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 40.1 + (1.0 x 2 x 2) + (31.0 x 2) + (16.0 x 4 x 2)\n\n*M*<sub>r</sub> of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 234.1\n\n**[1 mark]**\n\n- Calculate the mass of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.14925 x 234.1\n\nmass = **34.9 g** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *M*<sub>r</sub> of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F = 504.5 and moles of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F = 0.0995\n> \n> 1 mark for *M*<sub>r</sub> of H<sub>2</sub>SO<sub>4</sub> = 98.1 and moles of H<sub>2</sub>SO<sub>4</sub> = 0.89602\n> \n> 1 mark for correct molar comparison using the 2:7 stoichiometric ratio, with Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F identified as the limiting reagent\n> \n> 1 mark for moles of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 0.14925 and *M*<sub>r</sub> of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 234.1\n> \n> 1 mark for mass of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> = 34.9 g\n> \n> Allow error carried forward from an incorrect number of moles in steps 1 or 2, provided the stoichiometric ratio applied is correct\n\n> **[exam-tip]**\n> Calculate *M*<sub>r</sub> of Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F using atomic masses from the Data Booklet:\n> \n> (40.1 x 5) + (31.0 x 3) + (16.0 x 4 x 3) + 19.0 = 504.5\n> \n> The critical step is applying the 2:7 molar ratio from the equation to identify the limiting reagent. With 0.0995 mol Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F and 0.89602 mol H<sub>2</sub>SO<sub>4</sub>, calculate how much H<sub>2</sub>SO<sub>4</sub> the Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F would require, or how much Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F the H<sub>2</sub>SO<sub>4</sub> would require, and compare with what is available.\n> \n> Since Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F is the limiting reagent, use the 2:3 ratio from the equation to find moles of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>:\n> \n> $\\frac{0.0995}{2}$ x 3 = 0.14925 mol\n> \n> *M*<sub>r</sub> of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>: 40.1 + (1.0 x 2 x 2) + (31.0 x 2) + (16.0 x 4 x 2) = 234.1\n> \n> Multiply the moles of Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> by its *M*<sub>r</sub> to find the mass.",
+     "equations": [
+      {
+       "latex": "\\frac{mass}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><msub><mi>M</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{mass}{M_r}"
+      },
+      {
+       "latex": "\\frac{50.2}{504.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>50</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>504</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{50.2}{504.5}"
+      },
+      {
+       "latex": "\\frac{87.9}{98.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>87</mn><mo>.</mo><mn>9</mn></mrow><mrow><mn>98</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{87.9}{98.1}"
+      },
+      {
+       "latex": "\\frac{7}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{7}{2}"
+      },
+      {
+       "latex": "\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{3}{2}"
+      },
+      {
+       "latex": "\\frac{0.0995}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0995</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.0995}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gyGdkmpMwpPc5Cmc",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_PRDMCRR2DMNZv7rT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1.\n\n**Table 1.1**\n\n| **Ion** | **Formula** |\n|---|---|\n| Nitrate | NO<sub>3</sub><sup>-</sup> |\n|   | CO<sub>3</sub><sup>2-</sup> |\n| Sulfate |   |\n|   | OH<sup>-</sup> |\n|   | NH<sub>4</sub><sup>+</sup> |\n| Zinc(II) |   |\n|   | Ag<sup>+</sup> |\n|   | HCO<sub>3</sub><sup>-</sup> |\n| Phosphate |   |",
+     "solution_md": "The completed Table 1.1 is:\n\n| **Ion** | **Formula** |\n|---|---|\n| Nitrate | NO<sub>3</sub><sup>-</sup> |\n| **Final answer:** **Carbonate** | CO<sub>3</sub><sup>2-</sup> |\n| Sulfate | **Final answer:** **SO**<sub>**4**</sub><sup>**2-**</sup> |\n| **Final answer:** **Hydroxide** | OH<sup>-</sup> |\n| **Final answer:** **Ammonium** | NH<sub>4</sub><sup>+</sup> |\n| Zinc(II) | **Final answer:** **Zn**<sup>**2+**</sup> |\n| **Final answer:** **Silver** | Ag<sup>+</sup> |\n| **Final answer:** **Hydrogencarbonate** | HCO<sub>3</sub><sup>-</sup> |\n| Phosphate | **Final answer:** **PO**<sub>**4**</sub><sup>**3-**</sup> |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 3 marks for all 8 answers correct\n> \n> 2 marks for 4–7 answers correct\n> \n> 1 mark for 1–3 answers correct\n\n> **[exam-tip]**\n> All ions in this table must be memorised for CIE 9701; they are not provided in the Data Booklet.\n> \n> You can use the Periodic Table to deduce ionic charges: oxygen forms O<sup>2-</sup>, halogens form X<sup>-</sup>, Group 1 metals form M<sup>+</sup>, and Group 2 metals form M<sup>2+</sup>.\n> \n> Roman numerals indicate the charge of a metal ion, such as zinc(II) for Zn<sup>2+</sup>. Silver does not require a Roman numeral as it forms only one common ion, Ag<sup>+</sup>."
+    },
+    {
+     "id": "qstnprt_VXfSs75TcgqqSBPG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.2.\n\n**Table 1.2**\n\n| **Ionic compound** | **Formula** |\n|---|---|\n| Sodium chloride | NaCl |\n| Potassium oxide |   |\n|   | Al<sub>2</sub>(CO<sub>3</sub>)<sub>3</sub> |\n| Copper(II) nitrate |   |",
+     "solution_md": "The completed Table 1.2 is:\n\n| **Ionic compound** | **Formula** |\n|---|---|\n| Sodium chloride | NaCl |\n| Potassium oxide | **Final answer:** **K**<sub>**2**</sub>**O** |\n| **Final answer:** **Aluminium carbonate** | Al<sub>2</sub>(CO<sub>3</sub>)<sub>3</sub> |\n| Copper(II) nitrate | **Final answer:** **Cu(NO**<sub>**3**</sub>**)**<sub>**2**</sub> |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for formula of potassium oxide: K<sub>2</sub>O\n> \n> 1 mark for name: aluminium carbonate\n> \n> 1 mark for formula of copper(II) nitrate: Cu(NO<sub>3</sub>)<sub>2</sub>\n\n> **[exam-tip]**\n> To work out the formula of an ionic compound, balance the charges of the component ions.\n> \n> Potassium is in Group 1, so K<sup>+</sup>; oxide is O<sup>2-</sup>. Two K<sup>+</sup> ions balance one O<sup>2-</sup> ion, giving K<sub>2</sub>O.\n> \n> For compounds with complex ions in brackets, the subscript outside the bracket shows how many of that ion are present: Cu(NO<sub>3</sub>)<sub>2</sub> contains two NO<sub>3</sub><sup>-</sup> ions."
+    },
+    {
+     "id": "qstnprt_hjwFbwbftHnP6KdG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Aqueous silver nitrate should not be acidified with hydrochloric acid as it forms a white precipitate of silver chloride, AgCl, and nitric acid.\n\ni) Write the chemical equation for the reaction of silver nitrate with hydrochloric acid. Your answer should include state symbols.\n\n[2]\n\nii) Silver ions from the silver nitrate and chloride ions from the hydrochloric acid are responsible for the formation of silver chloride.\n\nAg<sup>+</sup> + Cl<sup>-</sup> → AgCl\n\nSuggest why the nitrate ions and hydrogen ions do not appear in this ionic equation.\n\n[1]",
+     "solution_md": "i) The balanced chemical equation for the reaction is:\n\nAgNO<sub>3</sub> (aq) + HCl (aq) → AgCl (s) + HNO<sub>3</sub> (aq)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all correct chemical formulae: AgNO<sub>3</sub>, HCl, AgCl, HNO<sub>3</sub>\n> \n> 1 mark for all state symbols correct: (aq), (aq), (s), (aq)\n\n> **[mark-scheme]**\n> ii) The nitrate and hydrogen ions do not appear in the ionic equation because:\n> \n> Any **one **from:\n> \n> - They are spectator ions\n> - They do not take part in the reaction\n> - They are not involved in the formation of silver chloride\n> \n> **[1 mark]**\n\n> **[exam-tip]**\n> State symbols are always required unless the question says otherwise. Silver nitrate and hydrochloric acid are aqueous (aq); silver chloride is a precipitate (s).\n> \n> An ionic equation shows only the ions directly involved in forming the product. Nitrate and hydrogen ions are spectator ions; their state, charge, and oxidation number are unchanged by the reaction, so they are not included."
+    },
+    {
+     "id": "qstnprt_jfQG4n4ntf6NmbMK",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Aqueous barium chloride should not be acidified with sulfuric acid as it forms a white precipitate of barium sulfate and hydrochloric acid.\n\ni) Write the chemical equation for the reaction of barium chloride with sulfuric acid. Your answer should include state symbols.\n\n[2]\n\nii) Write the ionic equation for the formation of barium sulfate.\n\n[1]",
+     "solution_md": "i) The balanced chemical equation for the reaction is:\n\nBaCl<sub>2</sub> (aq) + H<sub>2</sub>SO<sub>4</sub> (aq) → BaSO<sub>4</sub> (s) + 2HCl (aq)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all correct chemical formulae: BaCl<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, BaSO<sub>4</sub>, HCl\n> \n> 1 mark for correct balancing **AND** all state symbols correct: (aq), (aq), (s), (aq)\n\n> **[mark-scheme]**\n> ii) The ionic equation for the formation of barium sulfate is:\n> \n> - Ba<sup>2+</sup> (aq) + SO<sub>4</sub><sup>2-</sup> (aq) → BaSO<sub>4</sub> (s) **[1 mark]**\n> \n> State symbols are required\n\n> **[exam-tip]**\n> BaCl<sub>2</sub> releases two Cl<sup>-</sup> ions, so two HCl are produced on the right to balance the equation.\n> \n> Spectator ions (Cl<sup>-</sup> and H<sup>+</sup>) are removed from the ionic equation; only the ions forming the precipitate, Ba<sup>2+</sup> and SO<sub>4</sub><sup>2-</sup>, are shown."
+    }
+   ]
+  },
+  {
+   "id": "qstn_dVxCDmQxsXgHFZty",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_xZtTZt2VYYVZFVcK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the terms empirical formula and molecular formula.",
+     "solution_md": "> **[mark-scheme]**\n> Empirical formula and molecular formula are:\n> \n> - Empirical formula: the simplest whole number ratio of atoms of each element in a compound **[1 mark]**\n> - Molecular formula: the actual number of atoms of each element in one molecule of a compound **[1 mark]**\n\n> **[exam-tip]**\n> These are 1-mark definitions that appear frequently in CIE papers.\n> \n> - For empirical formula, the key phrase is \"simplest whole number ratio.\"\n> - For molecular formula, be specific: \"actual number of atoms of each element in one molecule\". \"Actual ratio,\" is too vague.\n> \n> The empirical formula and molecular formula can be identical.\n> \n> For example, H<sub>2</sub>O and CO<sub>2</sub> cannot be simplified further. This means that their empirical and molecular formulas are the same."
+    },
+    {
+     "id": "qstnprt_W7dk3pKzb9b76v5D",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "Three organic compounds are shown in Fig. 5.1.\n\n![Displayed structural formulas of acetic acid, glucose and lactic acid](assets/002-displayed-structural-formulas-of-acetic-acid-glu.png)\n\n**Fig. 5.1**\n\ni) State the molecular formula of each compound.\n\nAcetic acid ..............................\n\nGlucose ..............................\n\nLactic acid ..............................\n\n[3]\n\nii) State the empirical formula of all three compounds.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The molecular formula of each compound:\n> \n> - Acetic acid: C<sub>2</sub>H<sub>4</sub>O<sub>2</sub> **[1 mark]**\n> - Glucose: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> **[1 mark]**\n> - Lactic acid: C<sub>3</sub>H<sub>6</sub>O<sub>3</sub> **[1 mark]**\n> \n> ii) The empirical formula of all three compounds:\n> \n> - CH<sub>2</sub>O **[1 mark]**\n\n> **[exam-tip]**\n> For part i, count the atoms directly from the displayed structural formula in Fig. 5.1.\n> \n> - Acetic acid has 2C, 4H, 2O\n> - Glucose has 6C, 12H, 6O\n> - For lactic acid, note that the structure shown is not a fully displayed formula. Skeletal carbons and one hydrogen are not drawn explicitly. The complete structure has 3 carbons, 6 hydrogens, and 3 oxygens, giving C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>.\n> \n> For part ii, all three compounds have the same C:H:O ratio of 1:2:1. The simplest whole number ratio gives the empirical formula CH<sub>2</sub>O, even though their molecular formulas are all different. This shows why the empirical formula alone cannot uniquely identify a compound."
+    },
+    {
+     "id": "qstnprt_SjB6Y8ypJQbH7kyJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "An unknown hydrocarbon contains 85.7% carbon. The relative molecular mass of the unknown hydrocarbon is 56.0.\n\ni) Calculate the empirical formula of the unknown hydrocarbon. Show your working.\n\n[3]\n\nii) Determine the molecular formula of the unknown hydrocarbon. Show your working.\n\n[2]",
+     "solution_md": "i) To calculate the empirical formula of the unknown hydrocarbon:\n\n- Determine the percentage of hydrogen:\n\n%H = 100 − 85.7\n\n%H = 14.3%\n\n- Divide each percentage by the relative atomic mass (A<sub>r</sub>):\n\nmoles of C = $\\frac{85.7}{12.0}$ = 7.142\n\nmoles of H = $\\frac{14.3}{1.0}$ = 14.3\n\n**[1 mark]**\n\n- Divide by the smallest value (7.142) to find the simplest ratio:\n\nC: $\\frac{7.142}{7.142}$ = 1\n\nH: $\\frac{14.3}{7.142}$ = 2.00\n\n**[1 mark]**\n\nEmpirical formula = **CH**<sub>**2**</sub>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for the correct moles of carbon (7.142) **AND **hydrogen (14.3)\n> \n> 1 mark for the correct ratio values of carbon (1) **AND **hydrogen (2)\n> \n> 1 mark for the correct empirical formula (CH<sub>2</sub>)\n> \n> Workings must be shown\n\nii) To determine the molecular formula of the unknown hydrocarbon:\n\n- Calculate the mass of one empirical formula unit and the multiplier:\n\nM<sub>r</sub> of CH<sub>2</sub> = 12.0 + 2(1.0) = 14.0\n\n$\\frac{56.0}{14.0}$ = 4 **[1 mark]**\n\nMolecular formula = **C**<sub>**4**</sub>**H**<sub>**8**</sub> **[1 mark]**\n\n> **[mark-scheme]**\n> ii) Allow error carried forward from an incorrect empirical formula in part (i)\n\n> **[exam-tip]**\n> For empirical formula calculations from percentage composition, assume a 100 g sample. This converts percentage values directly to masses in grams.\n> \n> Always use A<sub>r</sub> values to one decimal place from the CIE Data Booklet (C = 12.0, H = 1.0). Rounding atomic masses introduces errors that compound across calculation stages.\n> \n> Show the division step explicitly (% ÷ A<sub>r</sub> = moles). This step carries a mark, and writing only the result is not sufficient when working is required.\n> \n> To go from empirical formula to molecular formula: calculate the M<sub>r</sub> of the empirical formula unit, divide the given M<sub>r</sub> by this to find the multiplier, then multiply each subscript.",
+     "equations": [
+      {
+       "latex": "\\frac{85.7}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>85</mn><mo>.</mo><mn>7</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{85.7}{12.0}"
+      },
+      {
+       "latex": "\\frac{14.3}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>.</mo><mn>3</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{14.3}{1.0}"
+      },
+      {
+       "latex": "\\frac{7.142}{7.142}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>.</mo><mn>142</mn></mrow><mrow><mn>7</mn><mo>.</mo><mn>142</mn></mrow></mfrac></math>",
+       "alt": "\\frac{7.142}{7.142}"
+      },
+      {
+       "latex": "\\frac{14.3}{7.142}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>.</mo><mn>3</mn></mrow><mrow><mn>7</mn><mo>.</mo><mn>142</mn></mrow></mfrac></math>",
+       "alt": "\\frac{14.3}{7.142}"
+      },
+      {
+       "latex": "\\frac{56.0}{14.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>56</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>14</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{56.0}{14.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Gbj2VzbzJvYG7rCK",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "State the difference between an anhydrous salt and a hydrated salt.",
+     "solution_md": "> **[mark-scheme]**\n> The difference between an anhydrous salt and a hydrated salt:\n> \n> - An anhydrous salt contains no water of crystallisation\n> **OR**\n> A hydrated salt contains water of crystallisation **[1 mark]**\n\n> **[exam-tip]**\n> The prefix *hydr-* in \"hydrated\" refers to water. A hydrated salt contains water molecules incorporated into its crystal structure (water of crystallisation). An anhydrous salt has had all such water removed, typically by heating.\n> \n> Water of crystallisation is chemically bonded within the crystal lattice in a fixed ratio, shown by the formula notation, e.g. CaSO<sub>4</sub>•2H<sub>2</sub>O for hydrated gypsum."
+    },
+    {
+     "id": "qstnprt_wr979KBBDVjsy7bW",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3",
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Gypsum is a salt that can contain water of crystallisation. In its anhydrous form, the chemical formula of gypsum is CaSO<sub>4</sub>. 1.80 g of water is added to 6.81 g of gypsum to form the hydrated salt, CaSO<sub>4</sub>•xH<sub>2</sub>O.\n\nCalculate the value of x in CaSO<sub>4</sub>•xH<sub>2</sub>O. Show your working.",
+     "solution_md": "To calculate the value of x in CaSO<sub>4</sub>•xH<sub>2</sub>O:\n\n- Calculate the molar mass of CaSO<sub>4</sub>:\n\nM<sub>r</sub>(CaSO<sub>4</sub>) = 40.1 + 32.1 + 4(16.0) = 136.2\n\n- Calculate the moles of CaSO<sub>4</sub>:\n\nmoles of CaSO<sub>4</sub> = $\\frac{6.81}{136.2}$ = 0.05000 mol **[1 mark]**\n\n- Calculate the molar mass of H<sub>2</sub>O:\n\nM<sub>r</sub>(H<sub>2</sub>O) = 2(1.0) + 16.0 = 18.0\n\n- Calculate the moles of H<sub>2</sub>O:\n\nmoles of H<sub>2</sub>O = $\\frac{1.80}{18.0}$ = 0.1000 mol **[1 mark]**\n\n- Find the mole ratio and state the value of x:\n\nratio CaSO<sub>4</sub> : H<sub>2</sub>O = $\\frac{0.05000}{0.05000}$ : $\\frac{0.1000}{0.05000}$ = 1 : 2\n\nx = **2** **[1 mark]**\n\n> **[mark-scheme]**\n> Accept x = 2 from a consistent method even if intermediate values differ slightly due to rounding.\n> \n> CaSO<sub>4</sub>•2H<sub>2</sub>O is accepted as an alternative to x = 2.\n> \n> The value of x must be a whole number.\n> \n> Allow error carried forward from an incorrect number of moles of CaSO<sub>4</sub> as long as the ratio method is applied correctly.\n\n> **[exam-tip]**\n> Water of crystallisation calculations follow the same approach as empirical formula calculations, convert masses to moles, then find the simplest whole number ratio.\n> \n> Always calculate *M*<sub>r</sub> from the formula using Data Booklet values. For CaSO<sub>4</sub>: Ca (40.1) + S (32.1) + 4 × O (16.0) = 136.2.\n> \n> The value of x must always be a whole number. If your calculation gives a non-integer result (e.g. 1.98), round to the nearest integer and state clearly that x = 2.",
+     "equations": [
+      {
+       "latex": "\\frac{6.81}{136.2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>.</mo><mn>81</mn></mrow><mrow><mn>136</mn><mo>.</mo><mn>2</mn></mrow></mfrac></math>",
+       "alt": "\\frac{6.81}{136.2}"
+      },
+      {
+       "latex": "\\frac{1.80}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>80</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.80}{18.0}"
+      },
+      {
+       "latex": "\\frac{0.05000}{0.05000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>05000</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>05000</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.05000}{0.05000}"
+      },
+      {
+       "latex": "\\frac{0.1000}{0.05000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>1000</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>05000</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.1000}{0.05000}"
       }
      ]
     }

@@ -1,6 +1,6 @@
 # Exam Questions — Bank Reconciliation
 **3. Verification of Accounting Records** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 8 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 10 questions across 2 sets
 
 
 ## Multiple Choice Questions (8 questions)
@@ -105,3 +105,39 @@ What is the bank balance that Bob should show in his statement of financial posi
 Jill has received her bank statement from the bank.
 
 Which of the following does she need to record when updating her cash book?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 4 marks
+
+**Q1** [4 marks]
+
+Shakir received a bank statement dated 30 September 2023. The bank statement showed that Shakir had \$763 in the bank account. The bank balance in the cash book was \$1 013. On comparing the bank statement to his cash book, Shakir noted the following.
+
+Bank charges, \$35, were charged by the bank in September. 
+Cash Sales, \$175, had been paid for by credit transfer but not recorded in the cash book. 
+The cheque received from Sydney had not yet been cleared by the bank. 
+The cash sales, \$290, had been omitted from the bank statement in error.
+
+**REQUIRED**
+
+Calculate the corrected bank balance.
+
+*Source: Nov 2023 0452/21 Q1C*
+
+
+### Q2 — medium — 4 marks
+
+**Q2** [4 marks]
+
+On 30 September 2025, the bank balance in Hashim's cash book was \$1 061. A bank statement dated 30 September 2025 showed that Hashim has \$1 529 in the bank account, Hashim compared the bank statement and the cash book and found the following.
+
+Electricity, \$87, has been paid by direct debit but not recorded in the cash book.
+The cheque for rent, \$630, dated 3 September does not appear on the bank statement.
+The cheque received by Jai, \$196, on 24 September had not yet been cleared by the bank.
+A refund, \$121, had been received by credit transfer from a supplier but not recorded in the cash book.
+
+**REQUIRED**
+
+Calculate the corrected bank balance.

@@ -1,6 +1,6 @@
 # Exam Questions — Some Reactions of the Halide Ions
 **11. Group 17** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 14 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 20 questions across 2 sets
 
 
 ## Multiple Choice Questions (14 questions)
@@ -22,7 +22,7 @@ Which statement correctly explains these observations?
 
 The reaction scheme shows a series of reactions using a solution of **Q** as the starting reagent.
 
-**Q** (aq) `rightwards arrow from AgNO subscript 3 space open parentheses aq close parentheses to HNO subscript 3 space open parentheses aq close parentheses of` precipitate `rightwards arrow with excess space dilute space NH subscript 3 space open parentheses aq close parentheses on top` colourless solution  `rightwards arrow with excess space dilute space HNO subscript 3 space open parentheses aq close parentheses on top` precipitate
+**Q** (aq) `-> from AgNO _ 3 ( aq ) to HNO _ 3 ( aq ) of` precipitate $\xrightarrow{excess \text{dilute} NH_{3} ( \text{aq} )}$ colourless solution  $\xrightarrow{excess \text{dilute} HNO_{3} ( \text{aq} )}$ precipitate
 
 What could **Q** be?
 
@@ -151,3 +151,283 @@ Which row correctly identifies the chemical test and observation for an iodide i
 | **B** | Acidified barium chloride | White precipitate insoluble in hydrochloric acid |
 | **C** | Acidified potassium nitrate | Yellow precipitate insoluble in concentrated aqueous ammonia |
 | **D** | Bromine water | Brown solution changes to colourless solution |
+
+## Structured Questions (6 questions)
+
+
+### Q1 — easy — 8 marks
+
+**Q1** [2 marks]
+
+Construct an ionic equation, including state symbols, to show the reaction between aqueous silver nitrate, AgNO<sub>3</sub> (aq), and aqueous sodium iodide, NaI (aq).
+
+**Q1** [5 marks]
+
+Sodium iodide reacts with concentrated sulfuric acid via the following equation.
+
+H<sub>2</sub>SO<sub>4</sub> (l) + NaI (s) → HI (g) + NaHSO<sub>4</sub> (s)
+
+Hydrogen iodide reacts further with concentrated H<sub>2</sub>SO<sub>4</sub> to produce a yellow solid, a purple vapour, and a gas with a smell of rotten eggs.
+
+i) Identify the three products responsible for these observations.
+
+yellow solid ........................................
+
+smell of rotten eggs ........................................
+
+purple vapour ........................................
+
+[3]
+
+ii) Construct an equation for the reaction of HI with H<sub>2</sub>SO<sub>4</sub> to form the yellow solid and the purple vapour. Include state symbols in your answer.
+
+[2]
+
+**Q1** [1 mark]
+
+When sodium bromide reacts with concentrated sulfuric acid, bromine and sulfur dioxide are formed.
+
+Construct an ionic half-equation for the oxidation of bromide ions to bromine.
+
+### Q2 — medium — 14 marks
+
+**Q2** [2 marks]
+
+This question is about the redox reactions of halide ions.
+
+Chlorine can displace iodine from potassium iodide.
+
+i) Construct the balanced equation for this reaction.
+
+[1]
+
+ii) Construct the ionic equation for this reaction.
+
+[1]
+
+**Q2** [2 marks]
+
+**Extract:**
+
+This question is about the redox reactions of halide ions.
+
+Chlorine can displace iodine from potassium iodide.
+
+i) Construct the balanced equation for this reaction.
+
+ii) Construct the ionic equation for this reaction.
+
+i) The balanced equation for the displacement of iodine by chlorine is:
+
+- Cl~2~ + 2KI → 2KCl + I~2~
+
+ii) The ionic equation for this reaction is:
+
+- Cl~2~ + 2I^-^ → 2Cl^-^ + I~2~
+
+Using oxidation numbers, explain how iodide ions act as a reducing agent in this reaction.
+
+**Q2** [6 marks]
+
+**Extract:**
+
+This question is about the redox reactions of halide ions.
+
+Chlorine can displace iodine from potassium iodide.
+
+i) Construct the balanced equation for this reaction.
+
+The balanced equation for the displacement of iodine by chlorine is:
+- Cl~2~ + 2KI → 2KCl + I~2~
+
+The ionic equation for this reaction is:
+- Cl~2~ + 2I^-^ → 2Cl^-^ + I~2~
+
+i) Chlorine also displaces bromine from potassium bromide but not as readily as it can displace iodine from potassium iodide.
+
+Explain how you can use these results to determine which is the stronger reducing agent, bromide ions or iodide ions.
+
+[2]
+
+ii) Explain why the halide ions show this trend in reducing power.
+
+[4]
+
+**Q2** [4 marks]
+
+Iodide ions can also act as a reducing agent to reduce Fe<sup>3+</sup> ions to Fe<sup>2+</sup>.
+
+i) Construct the ionic equation for this reaction.
+
+[2]
+
+ii) Explain, in terms of electrons, how Fe<sup>3+</sup> ions act as an oxidising agent.
+
+[2]
+
+### Q3 — medium — 15 marks
+
+**Q3** [6 marks]
+
+Three solutions of sodium salts are labelled **X**, **Y** and **Z**. The results of tests carried out on each solution are shown in Table 1.1.
+
+**Table 1.1**
+
+| **Unknown** | **Test** | **Result** |
+|---|---|---|
+| **X** | Added acidified silver nitrate solution. Then added concentrated ammonia solution. | Yellow precipitate formed. Precipitate remained. |
+| **Y** | Added acidified barium chloride solution. | White precipitate formed. |
+| **Z** | Added acidified silver nitrate solution. Then added concentrated ammonia solution. | Cream precipitate formed. Precipitate dissolved. |
+
+Identify **X**, **Y** and **Z** and construct ionic equations, including state symbols, to demonstrate the key reaction in each test.
+
+- **X**:
+- ionic equation:
+
+[2]
+
+- **Y**:
+- ionic equation:
+
+[2]
+
+- **Z**:
+- ionic equation:
+
+[2]
+
+**Q3** [3 marks]
+
+The following statements are about oxidising ability in Group 17.
+
+Statement **A**: The oxidising ability of the halide ions increases down the group.
+
+Statement **B**: The oxidising ability of the halogen molecules increases down the group.
+
+State whether Statement **A**, Statement **B** or neither is correct. Justify your answer.
+
+**Q3** [3 marks]
+
+On gently heating, the compound KClO<sub>3</sub> reacts as shown in the equation.
+
+4KClO<sub>3</sub> (s) → KCl (s) + 3KClO<sub>4</sub> (s)
+
+This reaction is an example of disproportionation.
+
+State what is meant by disproportionation and use oxidation numbers to show that disproportionation has taken place.
+
+**Q3** [3 marks]
+
+Bromine is used to extract iodine from a solution containing iodide ions.
+
+Explain why iodine is a weaker oxidising agent than bromine.
+
+### Q4 — hard — 9 marks
+
+**Q4** [4 marks]
+
+The equation for the reaction between solid potassium bromide and concentrated sulfuric acid is:
+
+2H<sub>2</sub>SO<sub>4</sub> (l) + 2KBr (s) → K<sub>2</sub>SO<sub>4</sub> (aq) + SO<sub>2</sub> (g) + Br<sub>2</sub> (g) + 2H<sub>2</sub>O (l)
+
+Identify the **two** redox products and one possible observation for each.
+
+**Q4** [3 marks]
+
+Explain why the reaction between solid potassium iodide and concentrated sulfuric acid produces hydrogen sulfide whereas the reaction between solid potassium bromide and concentrated sulfuric acid does not.
+
+**Q4** [2 marks]
+
+In aqueous solution, hydrogen fluoride is classified as a weak acid, whereas hydrogen chloride is classified as a strong acid. Explain this difference.
+
+### Q5 — medium — 11 marks
+
+**Q5** [3 marks]
+
+When solid NaCl reacts with concentrated sulfuric acid the only gas produced is HCl (g) and when solid NaBr reacts with concentrated sulfuric acid the gases produced are brown fumes of Br<sub>2</sub> (g) as well as HBr (g).
+
+Explain the difference in the reactions of concentrated sulfuric acid with NaBr and with NaCl. Your answer should refer to the role of the sulfuric acid in each reaction.
+
+**Q5** [3 marks]
+
+Solid sodium iodide, NaI (s), reacts with concentrated sulfuric acid to form purple fumes of I<sub>2</sub> (g), a yellow solid and hydrogen sulfide gas, H<sub>2</sub>S (g).
+
+i) Construct the half-equation for the formation of the yellow solid.
+
+[1]
+
+ii) Construct the half-equation for the formation of iodine gas.
+
+[1]
+
+iii) Hence construct the full equation using your answers to parts **(b)(i)** and **(b)(ii)**.
+
+[1]
+
+**Q5** [4 marks]
+
+Chlorine reacts with hot concentrated sodium hydroxide solution.
+
+i) Construct the equation for this reaction.
+
+[1]
+
+ii) Use oxidation numbers to explain why this is a disproportionation reaction.
+
+[2]
+
+iii) In terms of electrons, state the meaning of the term oxidising agent.
+
+[1]
+
+**Q5** [1 mark]
+
+Chlorine is added to drinking water to ensure that it is safe to drink.
+
+State a concern with adding chlorine to drinking water.
+
+### Q6 — hard — 11 marks
+
+**Q6** [4 marks]
+
+Aqueous silver nitrate, AgNO<sub>3</sub> (aq), is added to separate solutions of NaI and NaCl and precipitates form. An excess of aqueous ammonia is then added to both precipitates.
+
+i) Complete Table 1.1 to state the colour and name of the precipitate formed in each reaction and the effect of the addition of an excess of aqueous ammonia to each of the precipitates formed.
+
+**Table 1.1**
+
+|   | **NaI (aq) + AgNO**<sub>3</sub>** (aq)** | **NaCl (aq) + AgNO**<sub>3</sub>** (aq)** |
+|---|---|---|
+| **Colour of precipitate** |   |   |
+| **Name of precipitate** |   |   |
+| **Effect of addition of an excess of aqueous ammonia to the precipitate** |   |   |
+
+[3]
+
+ii) Construct an ionic equation to show the reaction occurring when AgNO<sub>3</sub> (aq) is added to NaI (aq).
+
+[1]
+
+**Q6** [3 marks]
+
+Solid NaI reacts with concentrated sulfuric acid to form purple fumes of I<sub>2</sub> (g) and hydrogen sulfide gas, H<sub>2</sub>S (g). However, when solid NaCl reacts with concentrated sulfuric acid, the only gas produced is HCl (g).
+
+Explain this difference in the reactions. Your answer should state the role of the sulfuric acid in each reaction.
+
+**Q6** [4 marks]
+
+Chlorine is used in water purification. It reacts with water to produce a mixture of acids, one of which is chloric(I) acid, HClO.
+
+i) Explain what is meant by the term oxidising agent in terms of electron transfer.
+
+[1]
+
+ii) Construct an equation for this reaction of chlorine with water.
+
+[1]
+
+iii) Construct an equation for the reaction of chlorine with hot aqueous sodium hydroxide.
+
+Use oxidation numbers to explain why this is a disproportionation reaction.
+
+[2]

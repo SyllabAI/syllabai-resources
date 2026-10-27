@@ -620,3 +620,683 @@ Therefore, 90% of an iceberg's volume (and mass) is submerged underwater
 - $\frac{p}{P_{2}}=\frac{1}{2}$
 - $P_{2}=2p$
 - The pressure of liquid 2 at 60 cm is two times larger than the pressure of liquid 1 at 20 cm
+
+## Structured Questions (11 questions)
+
+
+### Q1
+Complete the definition of hydrostatic pressure:
+
+- Hydrostatic pressure is the pressure that is exerted by a **fluid**;** ****[1 mark]**
+- at **equilibrium **at a given point within the fluid; **[1 mark]**
+- due to the force of **gravity**; **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the difference in hydrostatic pressure between the top and bottom surfaces of the cylinder:
+
+List the known quantities:
+
+- Density of seawater, *ρ* = 1020 kg m<sup>−3</sup>
+- Height of cylinder, Δ*h* = 1.8 m
+- Acceleration due to gravity, *g* = 9.81 m s<sup>−2</sup>
+
+Use the equation for hydrostatic pressure:
+
+- Hydrostatic pressure:  $\DeltaP=ρg\Deltah$
+- $\DeltaP=1020\times9.81\times1.8$ **[1 mark]**
+- $\Delta P = 18 000 \text{Pa} ( 2 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
+
+**[Total: 2 marks]**
+Calculate the upthrust on the cylinder:
+
+List the known quantities:
+
+- Radius of cylinder, *r* = 75 cm ÷ 2 = 37.5 cm = 0.375 m
+- Density of seawater, *ρ* = 1020 kg m<sup>−3</sup>
+
+Calculate the volume, *V* of the cylinder to find the volume of displaced sea water:
+
+- Volume of a cylinder = height × cross-sectional area (of a circle)
+- Volume of a cylinder:  $V=πr^{2}h$
+- $V = \mathrm{\pi } \times ( 0.375 )^{2} \times 1.8$ **[1 mark]**
+- $V=0.795=0.80m^{3}$ **[1 mark]**
+
+Substitute values for *ρ* and *V* into the equation for upthrust and calculate:
+
+- Archimedes' Principle (upthrust):  $F=ρgV$
+- $F=1020\times9.81\times0.795$ **[1 mark]**
+- $F = 7955 = 8000 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 4 marks]**
+(i) If the density of the liquid decreased:
+
+- Upthrust would be <u>less</u>; **[1 mark]**
+- (Because) upthrust is proportional to density (of the displaced fluid); **[1 mark]**
+
+(ii) The cylinder would:
+
+- Sink lower / float at a deeper depth **OR**
+- The distance between the cylinder and surface of the water would increase / be more than 0.2 m (**NOT **the cylinder would sink to the bottom); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Be careful of guessing more than you can know from the information given.*
+
+> *We can be sure the cylinder would sink to a lower position, but not that it would rest on the bottom of the tank.*
+
+### Q2
+By modelling the balloon as a point mass, sketch a free body force diagram for the balloon and ribbon:
+
+![screenshot-2023-03-10-at-12-14-49](assets/020-screenshot-2023-03-10-at-12-14-49.png)
+
+- Weight and tension / W and T downwards **AND **from a <u>point</u>, **not **a balloon; **[1 mark]**
+- Upthrust / U upwards; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the upthrust on the balloon:
+
+Determine the volume of the balloon:
+
+- Assume the balloon is a sphere with diameter, *d* = 40 cm = 0.40 m
+- Volume of the balloon, $V_{b} = \frac{4}{3} \pi r^{3} = \frac{4}{3} \pi \times ( \frac{0.4}{2} )^{3} = 0.0335 \mathrm{m}^{3}$ **[1 mark]**
+
+Determine the upthrust, *F*:
+
+- $F=ρgV=1.30\times9.81\times0.0335$**[1 mark]**
+- $F = 0.43 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
+
+**[Total: 3 marks]**
+
+> *It is reasonable to assume that the volume of the balloon can be found by treating it as a **sphere** with the same diameter.*
+A balloon filled with helium floats because:
+
+- Helium is <u>less</u> <u>dense</u> than air;** [1 mark]**
+- (Therefore) the <u>weight of the displaced air</u> is greater than the <u>weight of the helium</u>; **[1 mark]**
+- Upthrust is equal to weight of displaced air; **[1 mark]**
+- Upthrust / upwards force on the (helium-filled) balloon is larger than the <u>weight of the balloon;</u> **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q3
+(i) State both measurements in S.I. units:
+
+- *h* = 10 cm = 0.1 m **[1 mark]**
+
+Calculate cm<sup>3</sup> to m<sup>3</sup> in steps:
+
+- *A*  = 10 cm<sup>2</sup> = 10 × (1 × 10<sup>−2</sup>)<sup>2</sup> m<sup>2</sup>
+- *A* = 1.0 × 10<sup>−3</sup> m<sup>2</sup> **[1 mark]**
+
+(ii) Hence calculate the pressure at the base of the measuring cylinder due to the water:
+
+- Hydrostatic pressure:  $\DeltaP=ρg\Deltah$
+- $P=1000\times9.81\times0.1$ **[1 mark]**
+- $P=981=980\mathrm{Pa}$ **[1 mark]**
+
+(iii) Calculate the total pressure at the base of the measuring cylinder:
+
+- Total pressure = pressure caused by the water + atmospheric pressure
+- $P = 980 + ( 1.01 \times 10^{5} ) = 1.02 \times 10^{5} \text{Pa}$ **[1 mark]**
+
+**[Total: 5 marks]**
+(i) If the water became five times deeper:
+
+- Pressure and depth are directly proportional, so...
+- (The pressure would be) five times larger; **[1 mark]**
+
+(ii) If the surface area became nine times larger:
+
+- The depth is the same, so...
+- (The pressure would be) the same;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *The instruction 'without further calculation' is a clue that something straightforward will get you the answer. In this case, pressure is directly proportional to depth, but since area isn't in the equation for pressure in a liquid, it has no effect and can be ignored.*
+Calculate the volume of the ball in S.I. units:
+
+Convert the diameter to S.I. units:
+
+- diameter, *d* = 3.0 cm = 0.030 m **OR**
+- radius, *r* = 0.015 m** [1 mark]**
+
+Replace radius, *r* with diameter, *d* in the equation for the volume of a sphere:
+
+- Volume of a sphere:  $V=\frac{4}{3}πr^{3}$
+- $V = \frac{4}{3} \mathrm{\pi } ( 0.015 )^{3}$**[1 mark]**
+- $V=1.41\times10^{-5}m^{3}$ **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the upthrust on the submerged ball in part **(c)**:
+
+Recall the equation for upthrust:
+
+- Upthrust: $F=ρgV$ **[1 mark]**
+- Where *ρ* and *V* are the density and volume of the displaced fluid
+
+Substitute known quantities:
+
+- Density of water, *ρ* = 1000 kg m<sup>−3</sup> (from **(a)**)
+- Volume, *V* = 1.41 × 10<sup>−5</sup> m<sup>3</sup> (from **(c)**)
+
+Substitute the known quantities and calculate:
+
+- $F = 1000 \times 9.81 \times ( 1.41 \times 10^{- 5} )$ **[1 mark]**
+- $F = 0.14 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q4
+Calculate the upthrust exerted on the submarine by the seawater:
+
+List the known quantities:
+
+- Volume of submarine, $V$ = 5.83 × 10<sup>3</sup> m<sup>3</sup>
+- Density of seawater, $ρ$ = 1.03 × 10<sup>3</sup> kg m<sup>−3</sup>
+- Acceleration of free fall, *g* = 9.81 m s<sup>−2</sup>
+
+Use Archimedes' principle equation to calculate upthrust:
+
+- Upthrust:  $U=ρgV$ **[1 mark]**
+- Upthrust:  $U = ( 1.03 \times 10^{3} ) \times 9.81 \times ( 5.83 \times 10^{3} )$
+- Upthrust:  $U$ = 5.89 × 10<sup>7 </sup>N **[1 mark]**
+
+**[Total: 2 marks]**
+The mass of the submarine must be 6.0 × 10<sup>6</sup> kg because:
+
+- Weight (of the submarine) is equal to the upthrust; **[1 mark]**
+
+Use a calculation to justify a mass of 6.0 × 10<sup>6</sup> kg:
+
+**EITHER**
+
+- Using weight:  $W=mg\Rightarrowm=\frac{W}{g}$
+- Mass:  $m=\frac{5.89\times10^{7}}{9.81}$ = 6.0 × 10<sup>6</sup> kg **[1 mark]**
+
+**OR**
+
+- Using density:  $ρ=\frac{m}{V}\Rightarrowm=ρV$
+- $m = ( 1.03 \times 10^{3} ) \times ( 5.83 \times 10^{3} )$** **= 6.0 × 10<sup>6</sup> kg** [1 mark]**
+
+**[Total: 2 marks]**
+As the submarine moves into a region of lower-density seawater:
+
+- The upthrust (of the water on the submarine) will be <u>less</u> than the weight (of the submarine); **[1 mark]**
+- Hence, a resultant force will act downwards on the submarine; **[1 mark]**
+- Therefore, the submarine will (begin to) <u>sink</u>; **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the required change in mass of water needed to maintain its depth:
+
+List the known quantities:
+
+- Density of new water,$ρ$ = 1.01 × 10<sup>3</sup> kg m<sup>−3</sup>
+- Volume of submarine, $V$ = 5.83 × 10<sup>3</sup> m<sup>3</sup>
+- Initial upthrust = 5.89 × 10<sup>7 </sup>N
+- Acceleration of free fall, *g* = 9.81 m s<sup>−2</sup>
+
+Calculate the new upthrust:
+
+- Upthrust:  $U=ρgV$
+- Upthrust:  $U = ( 1.01 \times 10^{3} ) \times 9.81 \times ( 5.83 \times 10^{3} ) = 5.78 \times 10^{7} \mathrm{N}$ **[1 mark]**
+
+Use the net downward force to calculate the required mass to be lost:
+
+- Resultant force:  $F = ( 5.89 \times 10^{7} ) - ( 5.78 \times 10^{7} ) = 1.14 \times 10^{6} \mathrm{N}$
+- Required change in mass:  $m=\frac{W}{g}=\frac{1.14\times10^{6}}{9.81}=1.17\times10^{5}\mathrm{kg}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+Discuss the physics of the Cartesian Diver when the sides of the bottle are squeezed:
+
+(i) Explain the observed motion of the 'diver':
+
+**Final answer:** **Any ****five ****from:**
+
+- The trapped air in the <u>bottle</u> compresses; **[1 mark]**
+- Because gas is compressible (but water is not); **[1 mark]**
+- The air pressure in the <u>bottle</u> increases; **[1 mark]**
+- This increases the pressure everywhere; **[1 mark]**
+- The bottle is a sealed unit / closed system; **[1 mark]**
+- So, (the Increased pressure) compresses the air bubble in the diver; **[1 mark]**
+- The density of the diver increases so it sinks; **[1 mark]**
+- The volume of water displaced by the diver decreases; **[1 mark]**
+- This reduces the upthrust on the diver; **[1 mark]**
+
+(ii) Predict which direction the diver moves in when the sides of the bottle are squeezed:
+
+- Downwards / sinks; **[1 mark]**
+
+**[Total: 6 marks]**
+Explain why the diver returns to its original position in the bottle:
+
+- The bottle is a closed system;** [1 mark]**
+
+**Final answer:** **Any ****three ****from:**
+
+- When the air bubble expands; **[1 mark]**
+- The air pressure decreases; **[1 mark]**
+- So, the compressed air bubble in the diver expands; **[1 mark]**
+- The air is trapped; **[1 mark]**
+- So, the diver density decreases and it moves upwards;** [1 mark]**
+
+**[Total: 4 marks]**
+
+### Q6
+(i) To calculate the density of the wood:
+
+- Calculate the cross-sectional area of the rod
+
+  - $A=πr^{2}=\frac{πd^{2}}{4}$
+  - $A = \frac{ \mathrm{\pi } \times ( 1.5 \times 10^{- 2} )^{2}}{4} = 1.77 \times 10^{- 4} \mathrm{m}^{2}$
+- Calculate the volume of the rod
+
+  - $V=A\timesL$
+  - $V = ( 1.77 \times 10^{- 4} ) \times ( 7.5 \times 10^{- 2} ) = 1.33 \times 10^{- 5} \mathrm{m}^{3}$ **[1 mark]**
+- Calculate the density
+
+  - $ρ=\frac{m}{V}$
+  - $\\rho = \frac{1.3 \times 10^{- 2} }{1.33 \times 10^{- 5} } = 977 = 980 \text{kg} \mathrm{m}^{- 3} ( 2 \mathrm{s} . \mathrm{f} )$ **[1 mark]**
+
+(ii) State why the designer chose this type of wood to use in their investigation:
+
+- Value is close to the density of water; **[1 mark]**
+
+Explanation:
+
+- The density of the wood is likely similar to the density of the human body **OR**
+- Humans are made mostly from water; **[1 mark]**
+
+(iii) Suggest one change to the experimental setup which the designer needs to make to model the situation they are investigating:
+
+- Add salt / sugar / minerals to the water; **[1 mark]**
+- To mimic / copy the density of sea water; **[1 mark]**
+
+**[Total: 6 marks]**
+Calculate the speed of the rod as its base reaches the water:
+
+List the known quantities:
+
+- Height, *h* = 0.20 m
+- Initial velocity, *u* = 0 m s<sup>−1</sup>
+- Acceleration, *a* = 9.81 m s<sup>−2</sup>
+
+Choose the best SUVAT equation and calculate:
+
+- $v^{2}=u^{2}+2as$
+- $v=\sqrt{2\times9.81\times0.2}$ **[1 mark]**
+- $v = 2.0 \mathrm{m} \mathrm{s}^{- 1} ( 2 \mathrm{s} . \mathrm{f} )$ **[1 mark]**
+
+**[Total: 2 marks]**
+(i) The forces acting on the wooden rod should look like:
+
+![puqhnaKu_file-000-17](assets/027-puqhnaku-file-000-17.png)
+
+- Downwards arrow labelled W /** **weight / mg; **[1 mark]**
+- Upwards arrow labelled U / upthrust; **[1 mark]**
+- Upwards arrow labelled D / drag / friction; **[1 mark]**
+
+(ii) The resultant force on the wooden cylinder varies by:
+
+- Resultant force decreases (with time or as the cylinder descends); **[1 mark]**
+- Upthrust remains constant / drag decreases (as speed decreases) / resultant force is upwards / at the lowest point, drag is zero; **[1 mark]**
+- At the deepest point, the resultant force is upwards; **[1 mark]**
+
+**[Total: 6 marks]   **
+
+- *You might have phrased the last two points in part (ii) as one sentence, saying something like 'the resultant force is always directed upwards'. This would be awarded two marks since it includes two ideas from the list*
+- *For part (i), you may also have annotated the diagram differently. The two upwards arrows can be drawn side by side, although showing the point which they act from is a better choice*
+
+![JbbuDYtT_file-000-16](assets/028-jbbudytt-file-000-16.png)
+Estimate the range of pressure guests will feel in their ears:
+
+Choose a range of likely heights for the guests:
+
+- Height of adult guests, *h*<sub>g</sub> : 1.5 m ≤ h ≤ 2.1 m *(answers in range from 1.4 *m* to 2.2 *m*)*** [1 mark]**
+
+Calculate minimum and maximum pressures:
+
+- Depth of ears below the surface, *h* = 4 - h<sub>g</sub>
+
+  - *h* = 4 - 1.5 = 2.5 m
+  - *h* = 4 - 2.1 = 1.9 m
+- Therefore, 1.9 m ≤ h ≤ 2.5 m
+
+Calculate pressure in a liquid, *P*:
+
+- $P=ρgh$
+- $P_{max}=1030\times9.81\times2.5=25260\mathrm{Pa}$ **[1 mark]**
+- $P_{min}=1030\times9.81\times1.9=19198\mathrm{Pa}$ **[1 mark]**
+
+State the range of pressures:
+
+- 19 kPa – 25 kPa **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *A quick sketch would help you think about the range of depths. Guests will jump in **feet** first, to a depth of **4 m**, and the question is about the pressure change in their **ears**.*
+
+![screenshot-2023-03-10-at-10-58-49](assets/029-screenshot-2023-03-10-at-10-58-49.png)
+
+> *We have already assumed a sensible range of heights for adults. One final assumption is to say that the ears are at this height. You could deduct 5 cm, say, from each height, but the point of assumptions and modelling is to get to **reasonable **answers more quickly and easily than by doing a full and complex calculation.*
+
+### Q7
+(i) The property of the liquid that changes with temperature is:
+
+- Density; **[1 mark]**
+
+(ii) Calculate the density of the liquid:
+
+List the known quantities:
+
+- Radius, *r* = 1.2 cm = 1.2 × 10<sup>–2</sup> m
+- Mass of liquid displaced, *m* = 7.3 g = 7.3 × 10<sup>–3</sup> kg
+
+Determine the volume of the sphere
+
+- Volume of a sphere:  $V=\frac{4}{3}πr^{3}$
+- $V = \frac{4}{3} \mathrm{\pi } ( 1.2 \times 10^{- 2} )^{3}$ = 7.24 × 10<sup>–6</sup> m<sup>3</sup> **[1 mark]**
+
+Determine the density of the liquid:
+
+- Density:  $ρ=\frac{m}{V}$
+- $ρ=\frac{7.3\times10^{-3}}{7.24\times10^{-6}}$ **[1 mark]**
+- $ρ$ = 1008.5 = 1010 kg m<sup>–3</sup> **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The basic principle of a Galileo thermometer is that the liquid in the column will become denser if the room temperature drops and less dense if the room temperature rises.*
+
+> *As a result, the spheres, which have a fixed density, will float or sink depending on the temperature of the room:*
+
+- *An object will **float** if it is **less dense** than the fluid i.e. the spheres will float when the **temperature is low*
+- *An object will **sink** if it is **denser **than the fluid it is placed in i.e. the spheres will sink when the **temperature is high*
+
+![galileo-thermo-ma](assets/031-galileo-thermo-ma.png)
+Arrows to show the relative size of the forces acting on the sphere as it falls should look like:
+
+![sphere-forces-upthrust-weight-ma](assets/033-sphere-forces-upthrust-weight-ma.png)
+
+- Arrow drawn downwards **AND** labelled weight / *W* / *mg*; **[1 mark]**
+- Arrow drawn upwards **AND** labelled upthrust / *U*; **[1 mark]**
+- Arrow drawn upwards **AND** labelled (viscous) drag / *D*; **[1 mark]**
+- Weight is drawn <u>visibly</u> longer than upthrust and (viscous) drag; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Make sure not to be sloppy with any sketches or drawings in A-level physics, as you can lose some easy marks! Remember, these forces are **vectors**, so the lengths of the arrows represent their size. Since the sphere is falling, its weight will be larger than the sum of the upwards forces (unless you're told it is at terminal velocity, in which case, the size of the arrows upwards = the size of the arrows downwards).*
+Show that the upthrust on the sphere is about 0.07 N:
+
+List the known quantities:
+
+- Mass of liquid displaced, *m* = 7.3 g = 7.3 × 10<sup>–3</sup> kg
+- Acceleration of free fall, *g* = 9.81 m s<sup>–2 </sup>
+
+Calculate the upthrust:
+
+- Upthrust = Weight of liquid displaced; **[1 mark]**
+- Upthrust = *mg *= (7.3 × 10<sup>–3</sup>) × 9.81 = 7.16 × 10<sup>–2</sup> = 0.072 = 0.07 N **[1 mark]**
+
+**[Total: 2 marks]**
+A sphere with a weight 0.069 N will:
+
+- Have a net upwards force as the upthrust / *U* is greater than the weight / *W*;** [1 mark]**
+- (Hence) the sphere would accelerate upwards / higher **OR** stay at the top; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This value should be compared to the weight calculated in part **(c)**. Since it is **lower** than 0.07 N, the upthrust will be slightly higher on this sphere than one of weight 0.07 N. Always keep tabs on the values asked for in previous subparts.*
+
+### Q8
+State the word definition of density:
+
+- The mass per unit volume; **[1 mark]**
+
+**[Total: 1 mark]**
+(i) The equation for density is:
+
+- $ρ=\frac{m}{V}$ where *ρ *= density, *m* = mass and *V* = volume; **[1 mark]**
+
+(ii) State the SI units and a common non-SI unit for density:
+
+- SI units are kg m<sup>−3</sup>; **[1 mark]**
+- Commonly used non-SI units are g cm<sup>−3</sup>; **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Pressure is defined as:
+
+- Force per unit area; **[1 mark]**
+
+(ii) The equation for pressure is:
+
+- $P=\frac{F}{A}$ where *P* = pressure, *F* = force and* A* = area;** [1 mark]**
+
+**[Total: 2 marks]**
+Show that in a liquid the pressure at the depth h is found using $\DeltaP=ρg\Deltah$:
+
+Write out all the equations which will be needed:
+
+- Pressure:  $P=\frac{F}{A}$ *(equation 1)*
+- At the depth *h,* the force is the **weight** of liquid at *h*:  $W=mg$ *(equation 2)*
+- Density:  $ρ=\frac{m}{V}$ *(equation 3)*
+- Volume of a cylinder, $V=Ah$ *(equation 4)*
+
+Substitute *equation 3* into *equation 1* to get a new term for the weight:
+
+- $W=ρVg$ **[1 mark]**
+
+Replace the term *V* with the expression in *equation 4*:
+
+- $W=ρAhg$ *(equation 5)*
+
+Substitute equation 5 into equation 1 and cancel to complete the derivation:
+
+- $P = \frac{F}{A} = \frac{\\rho \cancel{ \cancel{ \cancel{A} } } h g}{ \cancel{A} }$  **[1 mark]**
+- $ΔP=ρgΔh$
+
+**[Total: 2 marks]**
+
+> *When doing a derivation it's helpful to write down any relevant equations before you start.*
+
+> *Also keep the equation you are deriving in front of you, so that you can see when you are getting close.*
+
+> *Finally, practice!*
+
+### Q9
+When the air inside the envelope is hot enough, the balloon is released:
+
+(i) Calculate the resultant upwards force on the balloon:
+
+Determine the volume of the fully inflated balloon:
+
+- $V = \frac{4}{3} \pi r^{3} = \frac{4}{3} \pi ( \frac{d}{2} )^{3} = \frac{4}{3} \pi \times 16^{3} = 17 157 \mathrm{m}^{3}$ **[1 mark]**
+
+Use a sketch to identify the forces:
+
+![hot air balloon MA](assets/036-hot-air-balloon-ma.png)
+
+Calculate upthrust:
+
+- $U=ρVg=1.225\times17157\times9.81=206177N$ **[1 mark]**
+
+Calculate weight and subtract from upthrust to find the resultant force:
+
+- $W=mg=20900\times9.81=205029N$ **[1 mark]**
+- $R=U-W=206177-205029=1148N$ **[1 mark]**
+
+(ii) Calculate the initial upwards acceleration of the balloon:
+
+Apply Newton's Second Law:
+
+- $F=ma$
+- $a=\frac{R}{m}=\frac{1148}{20900}=0.055ms^{-2}$ **[1 mark]**
+
+**[Total: 4 marks]**
+Discuss how this would affect the ability of the balloon to fly:
+
+- Will be more difficult to take off; **[1 mark]**
+- Reduce the weight the balloon is carrying; **[1 mark]**
+
+**Final answer:** **Any ****two ****from:**
+
+- The air is less dense;** [1 mark]**
+- Upthrust equals weight of displaced air / fluid; **[1 mark]**
+- Less upthrust (but same load); **[1 mark]**
+
+**[Total: 4 marks]**
+For the hotter conditions
+
+(i) Calculate the mass that must be removed in order to achieve the same initial acceleration as in part (a)(ii):
+
+List the known quantities:
+
+- Volume of the envelope, *V* = 17 157 m<sup>3</sup> (From part (a))
+- Air density at 15 °C = 1.225 kg m<sup>−3 </sup>(From part (a))
+- Air density at 45 °C, *ρ* = 0.96 × 1.225 kg m<sup>−3 </sup> = 1.176 kg m<sup>−3 </sup> **[1 mark]**
+
+Calculate upthrust at the point of take-off:
+
+- Upthrust, $F_{u}=ρgV=1.176\times9.81\times17157=197933N$
+
+Relate upthrust, weight and resultant force to calculate the resultant force using Newton's Second Law:
+
+![screenshot-2023-03-23-at-09-46-04](assets/037-screenshot-2023-03-23-at-09-46-04.png)
+
+- $F_{u}-W=R\uparrow$ and $R\uparrow=ma$
+- Therefore, $F_{u}-mg=ma$**[1 mark]**
+- Therefore, $F_{u} = m a + m g = m ( a + g )$
+- Maximum mass for take-off at the hotter temperature, $m = \frac{F_{u} }{a + g} = \frac{197 933}{( 0.055 + 9.81 )} = 20 064 \text{kg}$ **[1 mark]**
+
+Compare this to the original mass to find the mass that must be removed:
+
+- $( 20 900 - 20 064 ) = 836 \approx 840 \text{kg} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+(ii) Suggest how this might be achieved:
+
+- Reduce the number of passengers / 12-13 less passengers / smaller basket / carry less fuel;**[1 mark]**
+
+**[Total: 4 marks]**
+
+> *When the air density is **4% less** it means that the value is **96% of the original**. *
+
+### Q10
+Explain why the ships sit lower in the water when they are fully loaded:
+
+- (In equilibrium the) upthrust equals the weight of the ship (and its load); **[1 mark]**
+- Upthrust is (defined as / calculated from the) weight of displaced water; **[1 mark]**
+- When weight increases, required upthrust increases;** [1 mark]**
+- More water has to be displaced; **[1 mark]**
+
+**[Total: 4 marks]**
+(i) Explain why different load lines for types of water and times of year are useful:
+
+- Ships will sink to <u>different depths</u> with the <u>same load</u> (depending on the water); **[1 mark]**
+- Because <u>weight</u> of <u>displaced water</u> must remain the same / is always the same as the weight of the ship; **[1 mark]**
+
+**Any ****three ****from ***(reverse argument allowed for all points, e.g.: freshwater is less dense than saltwater)*
+
+- Saltwater is more dense than freshwater; **[1 mark]**
+- Ships are more buoyant in saltwater / saltwater provides more upthrust; **[1 mark]**
+- Cold water is more dense than warm water; **[1 mark]**
+- Ships are more buoyant in cold water / cold water provides more upthrust; **[1 mark]**
+
+(ii) Hence complete the diagram in Fig. 1.1. by adding the missing labels S, TF, W and WNA:
+
+The correctly completed diagram looks like:
+
+![4-2-2a-h-plimsoll-line-buoyancy-ma](assets/039-4-2-2a-h-plimsoll-line-buoyancy-ma.png)
+
+- TF and WNA correctly placed; **[1 mark]**
+- S and W correctly placed;** [1 mark]**
+
+**[Total: 7 marks]**
+Suggest and comment on the likely next steps in this demonstration:
+
+**Steps must be in this order:**
+
+- Add salt / sugar to make water more dense **AND **the egg will move upwards; **[1 mark]** **THEN**
+- (After the egg has risen) heat the water to make it less dense **AND **the egg will move downwards / sink; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question is harder than it looks!*
+
+> *The egg starts sitting on the bottom of the beaker. For the classroom demonstration to work the students must see something happen. In other words, the egg must first move upwards. Only then it can be made to move back down.*
+
+> *Starting with a step which would make the egg sink wouldn't work because observers wouldn't see anything happening.*
+
+> *Since the water is already ice cold only one method can be used to increase density. And you can't take the salt back out once it is dissolved, so the only way to reduce density is to heat the water.*
+
+### Q11
+The brass cylinder floats because:
+
+**EITHER**
+
+- There is an upthrust which is equal to the weight of water displaced; **[1 mark]**
+- The upthrust is equal to the weight of the cylinder (when it’s partially submerged); **[1 mark]**
+
+**OR**
+
+- The (overall) density (of the cylinder) is less than the density of the water; **[1 mark]**
+- The weight of water displaced is equal to the weight of the cylinder; **[1 mark]**
+
+**[Total: 2 marks]**
+Show that the mass of the cylinder is about 9 × 10<sup>−3</sup> kg:
+
+List the known quantities:
+
+- Diameter of cylinder = 2.1 cm = 2.1 × 10<sup>−2</sup> m
+- Length of cylinder, $l$ = 4.0 cm = 4.0 × 10<sup>−2</sup> m
+- Percentage of cylinder submerged = 63%
+- Density of water = 1.0 × 10<sup>3</sup> kg m<sup>−3</sup>
+
+Determine the volume of the brass cylinder that is submerged:
+
+- Volume of brass cylinder:  $V = π r^{2} l$
+- $V = \mathrm{\pi } \times ( \frac{2.1 \times 10^{- 2} }{2} )^{2} \times ( 4.0 \times 10^{- 2} ) = 1.39 \times 10^{- 5} \mathrm{m}^{3}$ **[1 mark]**
+- Volume that is submerged: $V_{s u b} = 0.63 \times ( 1.39 \times 10^{- 5} ) = 8.76 \times 10^{- 6} \mathrm{m}^{3}$ **[1 mark]**
+
+Calculate the mass of the cylinder:
+
+- Mass of cylinder = mass of water displaced
+- $ρ = \frac{m}{V} \Rightarrow m = ρ V$
+- Mass of cylinder:  `m = \left(1 \times 10^{3}\right) \times \left(8 . 76 \times 10^{- 6}\right)` = 8.76 × 10<sup>−3</sup> kg **[1 mark]**
+
+**[Total: 3 marks]**
+Deduce whether an identical hollow cylinder made of gold would also float:
+
+List the known quantities:
+
+- Density of gold = 19.3 × 10<sup>3</sup> kg m<sup>−3</sup>
+- Density of brass = 8.7 × 10<sup>3</sup> kg m<sup>−3</sup>
+
+Determine the equivalent volume of gold:
+
+- Volume of gold = volume of brass
+- Volume of brass that floats:  $V=\frac{m}{ρ}=\frac{8.76\times10^{-3}}{8.7\times10^{3}}$
+- Equivalent volume of gold:  $V=1.01\times10^{-6}m^{3}$** [1 mark]**
+
+Calculate the volume of water required to float the gold cylinder:
+
+- Mass of gold cylinder:  $m=ρV$
+- Mass of gold cylinder:  $m = ( 19.3 \times 10^{3} ) \times ( 1.01 \times 10^{- 6} ) = 0.0194 \text{kg}$ **[1 mark]**
+- Minimum volume of water required to float cylinder:  $V=\frac{m}{ρ}$
+- $V=\frac{0.0194}{1.00\times10^{3}}=1.94\times10^{-5}m^{3}$ **[1 mark]**
+
+State a conclusion backed up by calculated values:
+
+Minimum volume of water required to float cylinder = $1.94\times10^{-5}m^{3}$
+
+Volume of gold cylinder = $1.39\times10^{-5}m^{3}$
+
+- $1.94\times10^{-5}m^{3}>1.39\times10^{-5}m^{3}$, therefore the gold cylinder would sink; **[1 mark]**
+
+**OR**
+
+Maximum mass (or weight) of water that could be displaced = 0.014 kg (0.14 N)
+
+Mass of the gold cylinder (or weight) = 0.019 kg (0.19 N)
+
+- 0.019 kg  > 0.014 kg **or** 0.19 N > 0.14 N, therefore the gold cylinder would sink; **[1 mark]**
+
+**[Total: 4 marks]**

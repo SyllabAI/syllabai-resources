@@ -1,0 +1,184 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_VFWSj88hpxFJBtcw",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/3-hardware-/computers-and-components/monitoring-and-control",
+ "title": "Monitoring & control",
+ "page_title": "Monitoring & control | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "3-hardware-",
+   "computers-and-components",
+   "monitoring-and-control"
+  ],
+  "section": "3-hardware-",
+  "topic": "computers-and-components",
+  "leaf": "monitoring-and-control"
+ },
+ "titles": {
+  "section": "3. Hardware",
+  "topic": "Computers & Components",
+  "subtopic": "Monitoring & control"
+ },
+ "updated_at": "2026-01-05T11:45:11.735Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_NXQkJSSGwbx4bdCc",
+  "spcpt_5M3GQTQ5zXtyXGFG",
+  "spcpt_PTxQ9BkNctX3djVm"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 26,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_NXQkJSSGwbx4bdCc",
+   "name": "Monitoring vs control",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Monitoring vs control"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Monitoring systems"
+  },
+  {
+   "type": "bullets",
+   "md": "- A monitoring system is used to **collect data continuously** through observation\n- It works by **passively gathering data**\n- It **does not interact with or change** the environment\n- The system **does not take action** based on the data collected\n- Designed for **high accuracy** using **precise sensors and measurements**\n- Examples of monitoring systems include:\n\n  - **Weather stations**\n  - **Patient monitoring in hospitals**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Weather stations"
+  },
+  {
+   "type": "bullets",
+   "md": "- Collect data like **temperature, wind speed, humidity, and rainfall**\n- Used by **meteorologists** to observe and predict weather patterns\n- Data is collected **24/7** but the system does **not react or change anything**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Patient monitoring"
+  },
+  {
+   "type": "bullets",
+   "md": "- Tracks **heart rate, oxygen levels, and blood pressure** in real-time\n- Alerts medical staff if readings go outside safe ranges\n- The system itself just **records and displays data**, it doesn’t directly treat the patient"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Control systems"
+  },
+  {
+   "type": "bullets",
+   "md": "- A control system is used to **automatically manage or adjust** a process based on data collected from sensors\n- It works by **monitoring input**, then **taking action** if certain conditions are met\n- Unlike monitoring systems, control systems **do interact with the environment**\n- They are designed to keep systems **stable, safe, or working efficiently** without human input\n- Examples of control systems include:\n\n  - **Central heating system**\n  - **Automatic irrigation system**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Central heating system"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Monitors room temperature** using a thermostat\n- If the temperature drops below the set level, the **boiler is switched on**\n- Once the target temperature is reached, the system **turns the heating off** automatically\n- The system constantly checks and **adjusts** to maintain the desired temperature"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Automatic irrigation system"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Monitors soil moisture levels** in farmland or gardens\n- If moisture drops too low, it **activates sprinklers** to water the plants\n- Once the soil reaches the correct level, the system **turns off the water supply**\n- Ensures plants are **watered efficiently** without wasting resources"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- **Actuators **are output devices in a control system that carry out actions based on data from sensors\n- Examples include motors, heaters, valves, and pumps"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_5M3GQTQ5zXtyXGFG",
+   "name": "Use of sensors",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Use of sensors"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are sensors?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Sensors are **input devices**\n- They **measure a physical property of their environment** such as light levels, temperature or movement\n- Sensors can be used for both **monitoring and control systems**\n- A process where **outputs are recycled and used as inputs**, creating a continuous cycle is called a** feedback loop**"
+  },
+  {
+   "type": "table",
+   "md": "| **Sensor type** | **What it measures** | **Typical use** |\n|---|---|---|\n| **Acoustic** | Sound levels | To detect changes in sound levels of industrial machinery<br><br>To monitor noise pollution<br><br>In security system to detect suspicious sounds |\n| **Accelerometer** | Acceleration rate, tilt, vibration | Detecting sudden changes in vehicle movement and deploy safety features if needed<br><br>In mobile phones to detect orientation of the device |\n| **Flow** | Rate of gas, liquid or powder flow | Detect changes in the flow through pipes in water system |\n| **Gas** | Presence of a gas e.g. carbon monoxide | Detect levels of gas in confined spaces<br><br>Detect gas levels when fixing gas leaks |\n| **Humidity** | Levels of water vapour | Monitor humidity in greenhouses |\n| **Infra-red** | Detecting motion or a heat source | Security systems detecting intruders who break the beam<br><br>Measures heat radiation of objects - used by emergency services to detect people |\n| **Level** | Liquid levels | Detects levels of petrol in a car tank<br><br>Detect levels of water in a water tank<br><br>Detect a drop in water levels due to a leak |\n| **Light** | Light levels | Automatically switching on lights when it gets dark (street lights, headlights) |\n| **Magnetic field** | Presence and strength | Anti-lock braking system<br><br>Monitoring rotating machinery such as turbines |\n| **Moisture** | Presence and levels of moisture | Monitoring moisture in the soil<br><br>Monitoring dampness in buildings |\n| **pH** | Acidity or alkaline | Monitoring soil to ensure optimum growing conditions<br><br>Monitor ph levels in chemical processes |\n| **Pressure** | Gas, liquid or physical pressure | Monitoring tyre pressure<br><br>Monitoring pressure in pipes during the manufacturing process |\n| **Proximity** | Distance | Monitoring the position of objects in robotics<br><br>Used in safety systems to prevent objects from colliding |\n| **Temperature** | Temperature in Celsius, Fahrenheit or Kelvin | Used to maintain temperature in swimming pools<br><br>Used to control temperature in chemical processes |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_PTxQ9BkNctX3djVm",
+   "name": "Feedback loops",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Feedback loops"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a feedback loop?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A feedback loop is when a control system uses its **output to influence its next input**\n- Allows the system to **automatically adjust** and stay within set conditions\n- Feedback allows the system to** check if it’s working as expected**\n- The **output affects the next input**, helping the system make adjustments\n- This means the system can **automatically respond to changes** in its environment\n- Helps the system **stay within set limits or target values** (e.g. temperature, moisture)\n- Makes the system **more accurate and efficient** without needing human control"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example: Central heating system"
+  },
+  {
+   "type": "bullets",
+   "md": "- The system uses a **thermostat** to monitor the **room temperature**\n- If the room gets **too cold**, the system **turns the heating on**\n- Once the room reaches the **set temperature**, the system **turns the heating off**\n- This process uses **feedback**:\n\n  - The **output** (room temperature) affects the **input** (whether heating is needed)\n- Feedback ensures the system **automatically adjusts** to keep the room at the right temperature\n- No need for manual control as the system **self-corrects** using feedback"
+  }
+ ]
+}

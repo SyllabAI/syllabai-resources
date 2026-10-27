@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:29:56Z",
+ "generated_utc": "2026-10-26T14:44:43Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -48,14 +48,29 @@
    "question_count": 16,
    "questions_embedded": 16,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/8-superposition/8-4-the-diffraction-grating/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_gRnpJDck5P53Qfp4",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/8-superposition/8-4-the-diffraction-grating/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 16,
+  "questions_embedded": 24,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2024/01/cie-8-2-mcq-hard-q4-cie-ial-physics.png": "001-cie-8-2-mcq-hard-q4-cie-ial-physics.png",
@@ -67,7 +82,20 @@
    "https://cdn.savemyexams.com/uploads/2022/03/q6_diffraction_aqa-as-physics-mcq.png": "007-q6-diffraction-aqa-as-physics-mcq.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images409png.png": "008-cie-ial-images409png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images415png.png": "009-cie-ial-images415png.png",
-   "https://cdn.savemyexams.com/uploads/2022/09/9y-U8QQq_file_000-33.png": "010-9y-u8qqq-file-000-33.png"
+   "https://cdn.savemyexams.com/uploads/2022/09/9y-U8QQq_file_000-33.png": "010-9y-u8qqq-file-000-33.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/0WrH29zL_3-4-s-q--q4d-answer-easy-aqa-a-level-physics.png": "011-0wrh29zl-3-4-s-q-q4d-answer-easy-aqa-a-level-phy.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-4-s-q--q1c-easy-aqa-a-level-physics.png": "012-3-4-s-q-q1c-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-4-s-q--q1d-answer-easy-aqa-a-level-physics.png": "013-3-4-s-q-q1d-answer-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/55484-3-4-s-q--q2a-answer-hard-aqa-a-level-physics.png": "014-diagram-of-twelve-vertical-interference-fringes-.png",
+   "https://cdn.savemyexams.com/uploads/2024/05/8-4-q2d-h-sq-cie-ial-physics-new.png": "015-8-4-q2d-h-sq-cie-ial-physics-new.png",
+   "https://cdn.savemyexams.com/uploads/2025/01/34332_diffraction-triangle.png": "016-diagram-showing-wave-diffraction-through-a-grati.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/9-3-ib-hl-hsq2a-q.png": "017-9-3-ib-hl-hsq2a-q.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/9-4-ib-hl-hsq2b-q.png": "018-9-4-ib-hl-hsq2b-q.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/9-3-ib-hl-sq5c-commentary.jpg": "019-9-3-ib-hl-sq5c-commentary.jpg",
+   "https://cdn.savemyexams.com/uploads/2022/09/9-3-2.png": "020-9-3-2.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/9-3-ms.png": "021-9-3-ms.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-4-s-q--q4a-easy-aqa-a-level-physics.png": "022-3-4-s-q-q4a-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-4-s-q--q4a-answer-easy-aqa-a-level-physics.png": "023-3-4-s-q-q4a-answer-easy-aqa-a-level-physics.png"
   }
  },
  "questions": [
@@ -249,6 +277,20 @@
        "alt": "d space s i n space theta space equals space n lambda"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space s i n open parentheses 18 close parentheses space equals space 2 lambda",
+       "render": "$d s i n ( 18 ) = 2 \\\\lambda$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda over d space equals space fraction numerator s i n open parentheses 18 close parentheses over denominator 2 end fraction space equals space 0.1545",
+       "render": "$\\frac{ \\lambda }{d} = \\frac{s i n ( 18 ) }{2} = 0.1545$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{λ}{d}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>&#955;</mi><mi>d</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda over d"
@@ -262,6 +304,13 @@
        "latex": "sinθ=3\\frac{λ}{d}=3\\times0.1545",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mfrac><mi>&#955;</mi><mi>d</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>1545</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "s i n space theta space equals space 3 lambda over d space equals space 3 space cross times space 0.1545"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta space equals space s i n to the power of negative 1 end exponent space open parentheses 3 space cross times space 0.1545 close parentheses space equals space 27.6 degree",
+       "render": "$\\\\theta = s i n^{- 1} ( 3 \\times 0.1545 ) = 27.6^{\\circ}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "2\\times27.6=55.2^{\\circ}",
@@ -347,6 +396,13 @@
        "alt": "lambda over d"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses lambda over d close parentheses",
+       "render": "$( \\frac{ \\lambda }{d} )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{d}{λ}=4",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>d</mi><mi>&#955;</mi></mfrac><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "d over lambda equals 4"
@@ -357,6 +413,13 @@
        "alt": "lambda over d equals 1 fourth"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 1 fourth close parentheses",
+       "render": "$( 1 \\frac{1}{4} )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{d}{λ}=5",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>d</mi><mi>&#955;</mi></mfrac><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "d over lambda equals 5"
@@ -365,6 +428,13 @@
        "latex": "\\frac{λ}{d}=\\frac{1}{5}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>&#955;</mi><mi>d</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda over d equals 1 fifth"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 1 fifth close parentheses",
+       "render": "$( 1 \\frac{1}{5} )$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\leq",
@@ -445,9 +515,51 @@
        "alt": "s i n space beta equals lambda over d"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "beta equals s i n to the power of negative 1 end exponent open parentheses lambda over d close parentheses",
+       "render": "$\\beta = s i n^{ - } 1 ( \\frac{ \\lambda }{d} )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "2β=α",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>β</mi><mo>=</mo><mi>α</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "2 beta equals alpha"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "2 beta equals alpha equals 2 space s i n to the power of negative 1 end exponent open parentheses lambda over d close parentheses",
+       "render": "$2 \\beta = \\alpha = 2 s i n^{ - } 1 ( \\frac{ \\lambda }{d} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "2 space s i n to the power of negative 1 end exponent open parentheses fraction numerator lambda over denominator 2 d end fraction close parentheses",
+       "render": "$2 s i n^{- 1} ( \\frac{\\\\lambda }{2 d} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "2 space sin to the power of negative 1 end exponent open parentheses lambda over d close parentheses",
+       "render": "$2 \\text{sin} ^{ - } 1 ( \\frac{ \\lambda }{d} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin to the power of negative 1 end exponent open parentheses fraction numerator lambda over denominator 2 d end fraction close parentheses",
+       "render": "$\\sin ^{- 1} ( \\frac{\\\\lambda }{2 d} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin to the power of negative 1 end exponent open parentheses lambda over d close parentheses",
+       "render": "$\\text{sin} ^{ - } 1 ( \\frac{ \\lambda }{d} )$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -511,6 +623,13 @@
        "latex": "\\frac{60^{^{\\circ}}}{2}=30^{\\circ}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msup><mn>60</mn><mo>°</mo></msup><mn>2</mn></mfrac><mo>=</mo><mn>30</mn><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "60 to the power of degree over 2 equals 30 degree"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda equals fraction numerator d space s i n space theta over denominator n end fraction equals 1.15 cross times 10 to the power of negative 6 end exponent open parentheses s i n space 30 close parentheses equals 5.75 cross times 10 to the power of negative 7 end exponent space straight m",
+       "render": "$\\\\lambda = \\frac{d s i n \\\\theta }{n} = 1.15 \\times 10^{- 6} ( s i n 30 ) = 5.75 \\times 10^{- 7} \\mathrm{m}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -601,6 +720,13 @@
        "alt": "s i n space theta subscript 2 equals 2 cross times 0.2656 equals 0.5311"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta subscript 2 equals sin to the power of negative 1 end exponent open parentheses 0.5311 close parentheses equals 32.08 to the power of degree",
+       "render": "$theta_{2} = \\text{sin} ^{ - } 1 ( 0.5311 ) = 32.08^{ ^{\\circ} }$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "θ_{2}-θ_{1}=32.1^{\\circ}-15.4^{\\circ}=16.7^{\\circ}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>-</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mn>32</mn><mo>.</mo><mn>1</mn><mo>°</mo><mo>-</mo><mn>15</mn><mo>.</mo><mn>4</mn><mo>°</mo><mo>=</mo><mn>16</mn><mo>.</mo><mn>7</mn><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "theta subscript 2 minus theta subscript 1 equals 32.1 degree minus 15.4 degree equals 16.7 degree"
@@ -674,6 +800,13 @@
        "alt": "s i n space theta subscript 1 equals lambda over d equals fraction numerator 600 cross times 10 to the power of negative 9 end exponent over denominator 2.00 cross times 10 to the power of negative 6 end exponent end fraction space equals space 0.30"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta subscript 1 equals s i n to the power of negative 1 end exponent open parentheses 0.30 close parentheses equals 17.45 degree",
+       "render": "$\\theta_{1} = s i n^{- 1} ( 0.30 ) = 17.45^{\\circ}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "dsinθ_{2}=2λ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>n</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>λ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "d space s i n space theta subscript 2 equals 2 lambda"
@@ -682,6 +815,20 @@
        "latex": "sinθ_{2}=\\frac{2λ}{d}=2\\times0.30=0.60",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo> </mo><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>λ</mi></mrow><mi>d</mi></mfrac><mo>=</mo><mn>2</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>30</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>60</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "s i n space theta subscript 2 equals fraction numerator 2 lambda over denominator d end fraction equals 2 space cross times space 0.30 space equals space 0.60"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta subscript 2 equals s i n to the power of negative 1 end exponent open parentheses 0.60 close parentheses equals 36.87 degree",
+       "render": "$\\theta_{2} = s i n^{- 1} ( 0.60 ) = 36.87^{\\circ}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses theta subscript 2 minus theta subscript 1 close parentheses equals 36.87 degree minus 17.45 degree equals 19.42 degree",
+       "render": "$( \\theta_{2} - \\theta_{1} ) = 36.87^{\\circ} - 17.45^{\\circ} = 19.42^{\\circ}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1000,6 +1147,13 @@
        "latex": "dsinθ=nλ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>n</mi><mo> </mo><mi>θ</mi><mo>=</mo><mi>n</mi><mi>λ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "d space s i n space theta equals n lambda"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n equals fraction numerator d space s i n space theta over denominator lambda end fraction equals fraction numerator open parentheses 3.33 cross times 10 to the power of negative 6 end exponent close parentheses s i n space 90 degree over denominator 690 cross times 10 to the power of negative 9 end exponent end fraction equals 4.8",
+       "render": "$n = \\frac{d s i n \\\\theta }{\\\\lambda } = \\frac{( 3.33 \\times 10^{- 6} ) s i n 90^{\\circ}}{690 \\times 10^{- 9} } = 4.8$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1073,6 +1227,13 @@
        "latex": "dsinθ=nλ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>n</mi><mo> </mo><mi>θ</mi><mo>=</mo><mi>n</mi><mi>λ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "d space s i n space theta equals n lambda"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n equals fraction numerator d space s i n space theta over denominator lambda end fraction equals fraction numerator open parentheses 2.0 cross times 10 to the power of negative 6 end exponent close parentheses s i n space 90 degree over denominator 600 cross times 10 to the power of negative 9 end exponent end fraction equals 3.3",
+       "render": "$n = \\frac{d s i n \\\\theta }{\\\\lambda } = \\frac{( 2.0 \\times 10^{- 6} ) s i n 90^{\\circ}}{600 \\times 10^{- 9} } = 3.3$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1317,11 +1478,1500 @@
        "alt": "fraction numerator square root of 2 over denominator 6 end fraction space equals space 1 over n"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "n space equals space fraction numerator 1 over denominator open parentheses fraction numerator square root of 2 over denominator 6 end fraction close parentheses end fraction space equals space fraction numerator 6 over denominator square root of 2 end fraction",
+       "render": "$n = \\frac{1}{( \\frac{ \\sqrt{2} }{6} )} = \\frac{6}{ \\sqrt{2} }$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "n=4.2",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo> </mo><mo>=</mo><mo> </mo><mn>4</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "n space equals space 4.2"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mw39R7yj3kmhWMHZ",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_tBYd2843BgsRDQ9Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pBSg9mht2kW4tsK5"
+     ],
+     "part_tier": null,
+     "problem_md": "Monochromatic light is incident normally on a diffraction grating.\n\nDescribe the diffraction of the light waves at the grating.",
+     "solution_md": "> **[mark-scheme]**\n> When light is incident on the diffraction grating:\n> \n> - The light wave(s) pass through / enter the slit(s) **[1 mark]**\n> - And spread (into a geometric shadow) **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_t5cxm3QmcP2qNrTR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMonochromatic light is incident normally on a diffraction grating.\n\nA diffraction pattern forms on a screen.\n\nThe light has a wavelength of 630 nm. The diffraction grating has 4.50 × 10<sup>2</sup> lines per millimetre.\n\nDetermine the total number of gaps between orders, formed on the screen.",
+     "solution_md": "To determine the total number ofgaps between orders, formed  on the screen:\n\n- List the known quantities:\n\n  - Wavelength, $λ$ = 630 nm = 630 × 10<sup>-9</sup> m\n  - Number of lines*, *$N$ = 4.50 × 10<sup>2</sup> lines mm<sup>-1</sup>\n\n- Recall the diffraction grating equation:\n\n$d\\mathrm{sin}θ=nλ$ **[1 mark]**\n\n- Calculate the separation $d$ of the lines in the grating in metres:\n\n$N=\\frac{4.50\\times10^{2}}{10^{-3}}=4.50\\times10^{5}\\mathrm{lines}m^{-1}$\n\n$d=\\frac{1}{N}=\\frac{1}{4.50\\times10^{5}}$\n\n$d=2.22\\times10^{-6}m$ **[1 mark]**\n\n- Determine the highest diffraction order $n$ produced on the screen:\n\nThe highest possible order is at $θ=90^{\\circ}$ **OR** $\\mathrm{sin}θ=1$\n\n$d\\mathrm{sin}90^{\\circ}=nλ$\n\n$n=\\frac{d}{λ}$ **[1 mark]**\n\n$n=\\frac{2.22\\times10^{-6}}{630\\times10^{-9}}$\n\n$n=3.52...$\n\nThe highest order produced is $n=3$\n\n- Determine the total number of gaps formed on the screen:\n\nTotal number of gaps = 2 × 3\n\nTotal number of gaps = **6** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for stating the diffraction grating equation $d\\mathrm{sin}θ=nλ$\n> \n> 1 mark for $d=\\frac{1}{4.50\\times10^{5}}$ **OR** $d=2.22\\times10^{-6}m$\n> \n> 1 mark for $d\\mathrm{sin}90^{\\circ}=nλ$ **OR** $d=nλ$ **OR**  $n=\\frac{d}{λ}$\n> \n> 1 mark for the total number of gaps = $2n$ **AND** given as an integer\n\n> **[exam-tip]**\n> Remember to always round your calculated value of $n$ down rather than up. This is because $n$ indicates the total number of visible maxima.\n> \n> In a diffraction pattern, there is one gap between each pair of adjacent maxima. In this case, there are three diffraction maxima on either side of the central maximum, and therefore 6 gaps between these as visible on the screen.",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3BB;</mi></math>",
+       "alt": "\\lambda"
+      },
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "N"
+      },
+      {
+       "latex": "d\\mathrm{sin}θ=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "N=\\frac{4.50\\times10^{2}}{10^{-3}}=4.50\\times10^{5}\\mathrm{lines}m^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>50</mn><mo>&#215;</mo><msup><mn>10</mn><mn>2</mn></msup></mrow><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>50</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>&#160;</mo><mi>lines</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "N space equals space fraction numerator 4.50 cross times 10 squared over denominator 10 to the power of negative 3 end exponent end fraction space equals space 4.50 cross times 10 to the power of 5 space lines space straight m to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "d=\\frac{1}{N}=\\frac{1}{4.50\\times10^{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>N</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>.</mo><mn>50</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space 1 over N space equals space fraction numerator 1 over denominator 4.50 cross times 10 to the power of 5 end fraction"
+      },
+      {
+       "latex": "d=2.22\\times10^{-6}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>22</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space 2.22 cross times 10 to the power of negative 6 end exponent space straight m"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "θ=90^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>90</mn><mo>&#176;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta space equals space 90 degree"
+      },
+      {
+       "latex": "\\mathrm{sin}θ=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "sin space theta space equals space 1"
+      },
+      {
+       "latex": "d\\mathrm{sin}90^{\\circ}=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mn>90</mn><mo>&#176;</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space sin space 90 degree space equals space n lambda"
+      },
+      {
+       "latex": "n=\\frac{d}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>d</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n space equals space d over lambda"
+      },
+      {
+       "latex": "n=\\frac{2.22\\times10^{-6}}{630\\times10^{-9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>22</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>630</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n space equals space fraction numerator 2.22 cross times 10 to the power of negative 6 end exponent over denominator 630 cross times 10 to the power of negative 9 end exponent end fraction"
+      },
+      {
+       "latex": "n=3.52...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>52</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n space equals space 3.52..."
+      },
+      {
+       "latex": "n=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n space equals space 3"
+      },
+      {
+       "latex": "d\\mathrm{sin}θ=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda"
+      },
+      {
+       "latex": "d=\\frac{1}{4.50\\times10^{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>.</mo><mn>50</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 1 over denominator 4.50 cross times 10 to the power of 5 end fraction"
+      },
+      {
+       "latex": "d=2.22\\times10^{-6}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>22</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space 2.22 cross times 10 to the power of negative 6 end exponent space straight m"
+      },
+      {
+       "latex": "d\\mathrm{sin}90^{\\circ}=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mn>90</mn><mo>&#176;</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space sin space 90 degree space equals space n lambda"
+      },
+      {
+       "latex": "d=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space n lambda"
+      },
+      {
+       "latex": "n=\\frac{d}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>d</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n space equals space d over lambda"
+      },
+      {
+       "latex": "2n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VgdSCj3d4pdsZMzg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG",
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA diffraction pattern forms on a screen. The light has a wavelength of 630 nm. The diffraction grating has 4.50 × 10^2 lines per millimetre. Determine the total number of gaps between orders, formed on the screen.\n\nThe beam of light in **(b)** is replaced by a beam of blue light incident on the same diffraction grating.\n\n(i) State whether the frequency of the blue light is greater than, less than, or the same as the frequency of the original light.\n\n[1]\n\n(ii) State and explain the effect of this change on the number of gaps formed on the screen. A calculation is not required.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The frequency of the blue light is\n> \n> - Greater than (the frequency of the original light) **[1 mark]**\n> \n> (ii) The effect of this change on the number of gaps formed is:\n> \n> - The number (of gaps formed) is greater **OR** more gaps form (on the screen) **[1 mark]**\n> \n> Explanation:\n> \n> - The wavelength of blue light is shorter (than 630 nm / wavelength of original light) so the maximum order $( n_{m a x} )$ increases $( n = \\frac{d}{ \\lambda } )$ and more diffraction orders appear on the screen **[1 mark]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses n subscript m a x end subscript close parentheses",
+       "render": "$( n_{m a x} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses n space equals space d over lambda close parentheses",
+       "render": "$( n = \\frac{d}{ \\lambda } )$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Yy6b9zkR7SGxGjhv",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_VvwZQBvwsyh8NcHv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "A laser produces a monochromatic light of wavelength 581.9 nm which falls normally on a diffraction grating. A second order maximum is produced at an angle of 35° measured from the normal to the grating.\n\nCalculate the number of lines per metre on the grating.",
+     "solution_md": "Calculate the number of lines per metre on the grating:\n\nList the known quantities:\n\n- Wavelength, *λ* = 581.9 nm\n- Second order angle, *θ* = 35°\n- Order, n = 2\n\nCalculate the spacing between slits:\n\n- Grating equation: * *$d\\mathrm{sin}θ=nλ\\Rightarrowd=\\frac{nλ}{\\mathrm{sin}θ}$\n- Slit separation:  $d = \\frac{2 \\times ( 581.9 \\times 10^{- 9} )}{\\sin 35}$ **[1 mark]**\n- Slit separation:  $d$* *= 2.029 × 10<sup>–6</sup>* *m **[1 mark]**\n\nCalculate the number of lines per metre:\n\n- Number of lines per metre:  $N=\\frac{1}{d}$**  **\n- Number of lines per metre:  $N=\\frac{1}{2.029\\times10^{-6}}$ = 4.93 × 10<sup>5</sup> m<sup>–1 </sup>**[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "d\\mathrm{sin}θ=nλ\\Rightarrowd=\\frac{nλ}{\\mathrm{sin}θ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>n</mi><mi>&#955;</mi></mrow><mrow><mi>sin</mi><mo>&#160;</mo><mi mathvariant=\"normal\">&#952;</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda space space space space space rightwards double arrow space space space space space d space equals space fraction numerator n lambda over denominator sin space straight theta end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space equals space fraction numerator 2 cross times open parentheses 581.9 cross times 10 to the power of negative 9 end exponent close parentheses over denominator sin space 35 end fraction",
+       "render": "$d = \\frac{2 \\times ( 581.9 \\times 10^{- 9} )}{\\sin 35}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "N=\\frac{1}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N space equals space 1 over d"
+      },
+      {
+       "latex": "N=\\frac{1}{2.029\\times10^{-6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>.</mo><mn>029</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N space equals space fraction numerator 1 over denominator 2.029 cross times 10 to the power of negative 6 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Wqs3yjM9m8pW3h5q",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA laser produces a monochromatic light of wavelength 581.9 nm which falls normally on a diffraction grating. A second order maximum is produced at an angle of 35° measured from the normal to the grating. Calculate the number of lines per metre on the grating. Slit separation d = 2.029 × 10^–6 m\n\nCalculate the highest order which is observable.",
+     "solution_md": "Calculate the highest order which is observable:\n\nList the known quantities:\n\n- Slit separation, $d$ = 2.029 × 10<sup>−6</sup> m (from (a))\n- Wavelength, $λ$ = 581.9 nm = 581.9 × 10<sup>−9</sup> m\n\nThe highest order would be observed at:\n\n- Diffraction angle:*  θ *= 90° / $\\mathrm{sin}$ *θ* = 1 **[1 mark]**\n- Grating equation:  $d\\mathrm{sin}θ=nλ\\Rightarrown=\\frac{d\\mathrm{sin}90^{\\circ}}{λ}=\\frac{d}{λ}$\n- Highest order: * *$n=\\frac{2.029\\times10^{-6}}{581.9\\times10^{-9}}$ = 3.49 **[1 mark]**\n- The highest order is the third / n = 3 **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Make sure to always **round down** when calculating diffraction orders*",
+     "equations": [
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "\\mathrm{sin}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>sin</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sin"
+      },
+      {
+       "latex": "d\\mathrm{sin}θ=nλ\\Rightarrown=\\frac{d\\mathrm{sin}90^{\\circ}}{λ}=\\frac{d}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mn>90</mn><mo>&#176;</mo></mrow><mi>&#955;</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>d</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda space space space space space rightwards double arrow space space space space space n space equals space fraction numerator d space sin space 90 degree over denominator lambda end fraction space equals space d over lambda"
+      },
+      {
+       "latex": "n=\\frac{2.029\\times10^{-6}}{581.9\\times10^{-9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>029</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>581</mn><mo>.</mo><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space equals space fraction numerator 2.029 cross times 10 to the power of negative 6 end exponent over denominator 581.9 cross times 10 to the power of negative 9 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YSdmNWYyMdsvn8b7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA laser produces a monochromatic light of wavelength 581.9 nm which falls normally on a diffraction grating. A second order maximum is produced at an angle of 35° measured from the normal to the grating. Slit separation d = 2.029 × 10^–6 m.\nCalculate the highest order which is observable. The highest order is the third / n = 3\n\nCalculate the angular separation between the highest order and second order maxima.",
+     "solution_md": "Calculate the angular separation between the n = 2 and n = 3:\n\nList the known quantities:\n\n- Wavelength, *λ* = 581.9 nm = 581.9 × 10<sup>−9</sup> m\n- Slit separation, *d* = 2.029 × 10<sup>−6</sup> m (from (a))\n- Second order, n = 2\n- Highest order, n = 3\n- Second-order angle, $θ_{2}$ = 35°\n\nCalculate the third-order diffraction angle:\n\n- Grating equation:  $d\\mathrm{sin}θ=nλ\\Rightarrow\\mathrm{sin}θ=\\frac{nλ}{d}$\n- Third-order angle: * *$\\sin \\theta_{3} = \\frac{3 \\\\lambda }{d} = \\frac{3 \\times ( 581.9 \\times 10^{- 9} )}{2.029 \\times 10^{- 6} }$* ***[1 mark]**\n- Third-order angle:  $\\theta_{3} = \\sin ^{- 1} ( \\frac{3 \\times 581.9 \\times 10^{- 9} }{2.029 \\times 10^{- 6} } )$ = 59.4° **[1 mark]**\n\nCalculate the angular separation:\n\n- Angular separation:  $\\Deltaθ=θ_{3}-θ_{2}$\n- Angular separation:  $\\Deltaθ$ = 59 – 35 = 24°** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *Don't worry if you got the answers incorrect in parts (a) and (b), whatever answers you obtained, as long as you used them correctly here, you would still gain full marks - this is known as 'e.c.f.' or 'error carried forward' marks*",
+     "equations": [
+      {
+       "latex": "θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2"
+      },
+      {
+       "latex": "d\\mathrm{sin}θ=nλ\\Rightarrow\\mathrm{sin}θ=\\frac{nλ}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>n</mi><mi>&#955;</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda space space space space space rightwards double arrow space space space space space sin space theta space equals space fraction numerator n lambda over denominator d end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin space theta subscript 3 space equals space fraction numerator 3 lambda over denominator d end fraction space equals space fraction numerator 3 cross times open parentheses 581.9 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 2.029 cross times 10 to the power of negative 6 end exponent end fraction",
+       "render": "$\\sin \\theta_{3} = \\frac{3 \\\\lambda }{d} = \\frac{3 \\times ( 581.9 \\times 10^{- 9} )}{2.029 \\times 10^{- 6} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta subscript 3 space equals space sin to the power of negative 1 end exponent space open parentheses fraction numerator 3 cross times 581.9 cross times 10 to the power of negative 9 end exponent over denominator 2.029 cross times 10 to the power of negative 6 end exponent end fraction close parentheses",
+       "render": "$\\theta_{3} = \\sin ^{- 1} ( \\frac{3 \\times 581.9 \\times 10^{- 9} }{2.029 \\times 10^{- 6} } )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\Deltaθ=θ_{3}-θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>&#952;</mi><mn>3</mn></msub><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msub><mi>&#952;</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment theta space equals space theta subscript 3 space minus space theta subscript 2"
+      },
+      {
+       "latex": "\\Deltaθ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment theta"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DQznmSFfFW7pnTRs",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cSF2TgJrgW884gPT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA laser produces a monochromatic light of wavelength 581.9 nm which falls normally on a diffraction grating. A second order maximum is produced at an angle of 35° measured from the normal to the grating. Slit separation d = 2.029 × 10^–6 m\n\nWhen the same grating is used with a different monochromatic source, the second-order maximum is observed at an angle of 25.7°.\n\nCalculate the wavelength of this second source.",
+     "solution_md": "Calculate the wavelength of the second source:\n\nList the known quantities:\n\n- Diffraction order, n = 2\n- Second order angle, $θ_{2}$ = 25.7°\n- Slit separation, *d = *2.029 × 10<sup>–6</sup>* *m (from (a))\n\nCalculate the new wavelength:\n\n- Grating equation: * *$nλ=d\\mathrm{sin}θ\\Rightarrowλ=\\frac{d\\mathrm{sin}θ}{n}$\n- New wavelength:  $\\lambda_{n e w } = \\frac{( 2.029 \\times 10^{- 6} ) \\times \\sin 25.7^{\\circ}}{2}$* ***[1 mark]**\n- New wavelength:  $λ_{new}$ *=* 4.40 × 10<sup>–7</sup> m = 440 nm **[1 mark]**** **\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2"
+      },
+      {
+       "latex": "nλ=d\\mathrm{sin}θ\\Rightarrowλ=\\frac{d\\mathrm{sin}θ}{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo></mrow><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n lambda space equals space d space sin space theta space space space space space rightwards double arrow space space space space space lambda space equals space fraction numerator d space sin space theta space over denominator n end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda subscript n e w space end subscript equals space fraction numerator open parentheses 2.029 cross times 10 to the power of negative 6 end exponent close parentheses cross times sin space 25.7 degree over denominator 2 end fraction",
+       "render": "$\\lambda_{n e w } = \\frac{( 2.029 \\times 10^{- 6} ) \\times \\sin 25.7^{\\circ}}{2}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "λ_{new}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#955;</mi><mrow><mi>n</mi><mi>e</mi><mi>w</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript n e w end subscript"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wd645pdC4JNRgbcw",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_jJWGnQkZCyXJhNhS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nQf2JTC4vpMYZVK7"
+     ],
+     "part_tier": null,
+     "problem_md": "A teacher explains a diffraction investigation to a group of physics students.\n\n'In this investigation a laser will be used to shine monochromatic light of wavelength 581.9 nm onto a diffraction grating. The light passing through the grating will therefore be coherent.'\n\nDefine the following terms used by the teacher\n\n(i) Monochromatic\n\n[1]\n\n(ii) Coherent\n\n[2]",
+     "solution_md": "(i) Monochromatic is defined as:\n\n- Having only one wavelength; **[1 mark]**\n\n(ii) Coherent is defined as:\n\n- Having the same frequency; **[1 mark]**\n- And constant phase difference; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_hvD4ZTMXP3c784Sc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn this investigation a laser will be used to shine monochromatic light of wavelength 581.9 nm onto a diffraction grating. The light passing through the grating will therefore be coherent.\n\nDuring the investigation, a second-order maximum is produced at an angle of 35° measured from the normal to the grating.\n\n(i) Calculate the number of lines per metre on the grating.\n\n[3]\n\n(ii) Calculate the highest order which is observable.\n\n[3]",
+     "solution_md": "(i) Calculate the number of lines per metre on the grating:\n\nList the known quantities:\n\n- Wavelength, *λ* = 581.9 nm = 581.9 × 10<sup>−9</sup> m\n- Second order angle, *θ* = 35°\n- Order, *n* = 2\n\nSpacing between slits, *d*:\n\n- $nλ=d\\mathrm{sin}θ$\n- $d = \\frac{n \\\\lambda }{ \\sin \\\\theta } = \\frac{2 \\times ( 581.9 \\times 10^{- 9} )}{\\sin 35}$ **[1 mark]**\n- $d=2.029\\times10^{-6}m$ **[1 mark]**\n\nCalculate the number of lines per metre:\n\n- Number of lines per metre $N=\\frac{1}{d}=\\frac{1}{2.029\\times10^{-6}}$\n- $N=4.93\\times10^{5}m^{-1}$ **[1 mark]**\n\n(ii) Calculate the highest order which is observable:\n\n- The highest order would be at *θ* = 90° / sin*θ* = 1 **[1 mark]**\n- $n=\\frac{d}{λ}=\\frac{2.029\\times10^{-6}}{581.9\\times10^{-9}}=3.49$** [1 mark]**\n- The highest order is the third / *n* = 3 **[1 mark]**\n\n**[Total: 6 marks]**",
+     "equations": [
+      {
+       "latex": "nλ=d\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n lambda space equals space d space sin theta"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space equals space fraction numerator n lambda over denominator space sin theta end fraction space equals fraction numerator 2 cross times open parentheses 581.9 cross times 10 to the power of negative 9 end exponent close parentheses over denominator sin 35 end fraction",
+       "render": "$d = \\frac{n \\\\lambda }{ \\sin \\\\theta } = \\frac{2 \\times ( 581.9 \\times 10^{- 9} )}{\\sin 35}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "d=2.029\\times10^{-6}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>029</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 2.029 space cross times 10 to the power of negative 6 end exponent space straight m"
+      },
+      {
+       "latex": "N=\\frac{1}{d}=\\frac{1}{2.029\\times10^{-6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mfrac><mn>1</mn><mi>d</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>.</mo><mn>029</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N space equals 1 over d space equals space fraction numerator 1 over denominator 2.029 cross times 10 to the power of negative 6 end exponent end fraction"
+      },
+      {
+       "latex": "N=4.93\\times10^{5}m^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>93</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>&#160;</mo><msup><mi>m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N space equals space 4.93 space cross times 10 to the power of 5 space m to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "n=\\frac{d}{λ}=\\frac{2.029\\times10^{-6}}{581.9\\times10^{-9}}=3.49",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>d</mi><mi>&#955;</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>029</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>581</mn><mo>.</mo><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>49</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space equals space d over lambda space equals space fraction numerator 2.029 cross times 10 to the power of negative 6 end exponent over denominator 581.9 cross times 10 to the power of negative 9 end exponent end fraction space equals space 3.49"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DzyXZNRd5fdPhSJ6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA teacher explains a diffraction investigation... monochromatic light of wavelength 581.9 nm onto a diffraction grating.\n\nDuring the investigation, a second-order maximum is produced at an angle of 35° measured from the normal to the grating.\n(i) Calculate the number of lines per metre on the grating. [d = 2.029 × 10⁻⁶ m]\n(ii) Calculate the highest order which is observable. [The highest order is the third / n = 3]\n\nCalculate the angular separation between the highest order and second order maxima.",
+     "solution_md": "Calculate the angular separation between the second and third maxima:\n\nList the known quantities:\n\n- Highest order, *n* = 3\n- Second order angle, *θ*<sub>2</sub> = 35°\n- Wavelength, *λ* = 581.9 nm\n\nCalculate the third-order angle:\n\n- $\\sin \\theta_{3} = \\frac{n \\\\lambda }{d} = \\frac{3 \\times ( 581.9 \\times 10^{- 9} )}{2.029 \\times 10^{- 6} }$* ***[1 mark]**\n- $θ_{3}=59.36^{\\circ}$ **[1 mark]**\n\nCalculate the angular separation:\n\n- $\\Deltaθ=θ_{3}-θ_{2}$\n- $\\Deltaθ=59--35=24^{\\circ}(2s.f.)$** [1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin space theta subscript 3 space equals space fraction numerator n lambda over denominator d end fraction equals fraction numerator 3 cross times open parentheses 581.9 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 2.029 cross times 10 to the power of negative 6 end exponent end fraction",
+       "render": "$\\sin \\theta_{3} = \\frac{n \\\\lambda }{d} = \\frac{3 \\times ( 581.9 \\times 10^{- 9} )}{2.029 \\times 10^{- 6} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "θ_{3}=59.36^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#952;</mi><mn>3</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>59</mn><mo>.</mo><mn>36</mn><mo>&#176;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 3 space equals space 59.36 degree"
+      },
+      {
+       "latex": "\\Deltaθ=θ_{3}-θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>&#952;</mi><mn>3</mn></msub><mo>-</mo><mo>&#160;</mo><msub><mi>&#952;</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment theta space equals space theta subscript 3 minus space theta subscript 2"
+      },
+      {
+       "latex": "\\Deltaθ=59--35=24^{\\circ}(2s.f.)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>59</mn><mo>&#160;</mo><mo>&#8211;</mo><mo>&#160;</mo><mn>35</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>24</mn><mo>&#176;</mo><mo>&#160;</mo><mo>(</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">s</mi><mo>.</mo><mi mathvariant=\"normal\">f</mi><mo>.</mo><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment theta space equals space 59 space – space 35 space equals space 24 degree space left parenthesis 2 space straight s. straight f. right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MCsVCC9WjnwJ7Q4q",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cSF2TgJrgW884gPT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDuring the investigation, a second-order maximum is produced at an angle of 35° measured from the normal to the grating.\n\nCalculate the number of lines per metre on the grating:\n- Wavelength, λ = 581.9 nm = 581.9 × 10^−9 m\n- Second order angle, θ = 35°\n- Order, n = 2\n- nλ = d sinθ\n- d = nλ/sinθ = 2 × (581.9 × 10^−9)/sin35\n- d = 2.029 × 10^−6 m\n\nThe investigation is repeated using the same grating but a different monochromatic source.\n\nIn this experiment, the second-order maximum is observed at an angle of 25.7°.\n\nCalculate the wavelength of this second source.",
+     "solution_md": "Calculate the wavelength of this second source:\n\nList the known quantities:\n\n- Order, *n* = 2\n- Second order angle, θ<sub>2</sub> = 25.7°\n- Slit separation, *d = 2.*029 × 10<sup>–6</sup>* *m\n\nCalculate the wavelength:\n\n- $nλ=d\\mathrm{sin}θ$\n- $\\lambda_{n e w} = \\frac{d \\sin \\\\theta }{n} = \\frac{( 2.029 \\times 10^{- 6} ) \\times \\sin 25.7}{2}$ **[1 mark]**\n- $λ_{new}=4.40\\times10^{--7}m=440\\mathrm{nm}$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "nλ=d\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n lambda space equals space d space sin theta"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda subscript n e w end subscript equals space fraction numerator d space sin theta over denominator n end fraction space equals fraction numerator open parentheses 2.029 cross times 10 to the power of negative 6 end exponent close parentheses cross times sin space 25.7 over denominator 2 end fraction",
+       "render": "$\\lambda_{n e w} = \\frac{d \\sin \\\\theta }{n} = \\frac{( 2.029 \\times 10^{- 6} ) \\times \\sin 25.7}{2}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "λ_{new}=4.40\\times10^{--7}m=440\\mathrm{nm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>n</mi><mi>e</mi><mi>w</mi></mrow></msub><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>40</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>&#8211;</mo><mn>7</mn><mo>&#160;</mo></mrow></msup><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>440</mn><mo>&#160;</mo><mi>nm</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript n e w end subscript equals space 4.40 cross times 10 to the power of – 7 space end exponent straight m space space equals space 440 space nm space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_G4W2thXwjwQWm266",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_WvYYKYF8Kx2RwFk6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "A helium-neon laser produces monochromatic light of wavelength 672 nm which falls perpendicular on a diffraction grating which has 350 lines per mm.\n\nCalculate the angle between the second-order maxima.",
+     "solution_md": "Calculate the angle between the second-order maxima:\n\nList the known quantities:\n\n- Number of lines, *N* = 350 lines per mm = 350 × 10<sup>3</sup> lines per metre\n- Wavelength, $λ$ = 672 nm = 672 × 10<sup>–9</sup> m\n\nCalculate the spacing between the slits:\n\n- Slit separation:  $d=\\frac{1}{N}$\n- Slit separation:  $d=\\frac{1}{350\\times10^{3}}$** **= 2.86 × 10<sup>–6</sup> m **[1 mark]**\n\nCalculate the angle between the central and second-order maxima:\n\n- Grating equation:  $d\\mathrm{sin}θ=nλ\\Rightarrow\\mathrm{sin}θ=\\frac{nλ}{d}$\n- Diffraction angle:  $\\sin \\\\theta = \\frac{2 \\times ( 672 \\times 10^{- 9} )}{2.86 \\times 10^{- 6} }$ **[1 mark]**\n- Diffraction angle:  $\\\\theta = \\sin ^{- 1} ( \\frac{2 \\times 672 \\times 10^{- 9} }{2.86 \\times 10^{- 6} } )$ = 28° **[1 mark]**\n\nDetermine the angle between both second-order maxima:\n\n- Angle between <u>both</u> second-order maxima = 2 × 28° = 56° **[1 mark]**** **\n\n**[Total: 4 marks]**\n\n> *The angle we calculated in the second step is from the central maxima to **one** of the second-order maxima, remember, there are maxima on each side of the central maxima, so the final mark is for recognising this and multiplying your angle by 2*",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "d=\\frac{1}{N}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>N</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 1 over N"
+      },
+      {
+       "latex": "d=\\frac{1}{350\\times10^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>350</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 1 over denominator 350 cross times 10 cubed end fraction"
+      },
+      {
+       "latex": "d\\mathrm{sin}θ=nλ\\Rightarrow\\mathrm{sin}θ=\\frac{nλ}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>n</mi><mi>&#955;</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda space space space space space rightwards double arrow space space space space space sin space theta space equals space fraction numerator n lambda over denominator d end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin space theta space equals space fraction numerator 2 cross times open parentheses 672 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 2.86 cross times 10 to the power of negative 6 end exponent end fraction",
+       "render": "$\\sin \\\\theta = \\frac{2 \\times ( 672 \\times 10^{- 9} )}{2.86 \\times 10^{- 6} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta space equals space sin to the power of negative 1 end exponent space open parentheses fraction numerator 2 cross times 672 cross times 10 to the power of negative 9 end exponent over denominator 2.86 cross times 10 to the power of negative 6 end exponent end fraction close parentheses",
+       "render": "$\\\\theta = \\sin ^{- 1} ( \\frac{2 \\times 672 \\times 10^{- 9} }{2.86 \\times 10^{- 6} } )$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_HgDqQXBhDFsc6TDM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA helium-neon laser produces monochromatic light of wavelength 672 nm which falls perpendicular on a diffraction grating which has 350 lines per mm.\nNumber of lines, N = 350 lines per mm = 350 × 10^3 lines per metre; Wavelength, λ = 672 nm = 672 × 10^–9 m; Slit separation d = 1/N = 2.86 × 10^–6 m; Grating equation: d sin θ = n λ\n\nShow that the highest order image shown in this arrangement is n = 4.",
+     "solution_md": "To show that the highest order image shown in this arrangement is n = 4:\n\n- The highest order would be at $θ$= 90° / $\\mathrm{sin}θ$ = 1 **[1 mark]**\n- $n=\\frac{d}{λ}=\\frac{2.86\\times10^{-6}}{672\\times10^{-9}}$ = 4.26 **[1 mark]**\n- The highest order is the fourth / n = 4\n\n**OR**\n\nSubstitute in *n = 5:*\n\n- $\\sin \\\\theta = \\frac{n \\\\lambda }{d} = \\frac{5 \\times ( 672 \\times 10^{- 9} )}{2.86 \\times 10^{- 6} }$ = 1.17 **[1 mark]**\n- $\\mathrm{sin}θ$ cannot be greater than 1 **[1 mark]**\n\nFinal statement:\n\n- Therefore, the fourth order is the maximum order possible / visible **[1 mark]**** **\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "sin theta"
+      },
+      {
+       "latex": "n=\\frac{d}{λ}=\\frac{2.86\\times10^{-6}}{672\\times10^{-9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mfrac><mi>d</mi><mi>&#955;</mi></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>86</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>672</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n equals d over lambda equals fraction numerator 2.86 cross times 10 to the power of negative 6 end exponent over denominator 672 cross times 10 to the power of negative 9 end exponent end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin theta equals fraction numerator n lambda over denominator d end fraction equals fraction numerator 5 cross times open parentheses 672 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 2.86 cross times 10 to the power of negative 6 end exponent end fraction",
+       "render": "$\\sin \\\\theta = \\frac{n \\\\lambda }{d} = \\frac{5 \\times ( 672 \\times 10^{- 9} )}{2.86 \\times 10^{- 6} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "sin theta"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ykWKYhQsmScSnmff",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "A different laser that produces monochromatic light of wavelength $λ$ falls perpendicular to a diffraction grating from which adjacent lines are 5$λ$ apart.\n\nCalculate the angle for the third order maximum.",
+     "solution_md": "To calculate the angle for the third order maximum:\n\nList the known quantities:\n\n- *d *= 5$λ$\n\nCalculate the angle of third order maximum:\n\n- $\\sin ( \\theta_{3} )$=* *$\\frac{3λ}{5λ}$* *=* *$\\frac{3}{5}$* ***[1 mark]**\n- $θ_{3}$= $\\sin ^{- 1} ( \\frac{3}{5} )$ = 37° **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin open parentheses theta subscript 3 close parentheses",
+       "render": "$\\sin ( \\theta_{3} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{3λ}{5λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3</mn><mi>&#955;</mi></mrow><mrow><mn>5</mn><mi>&#955;</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 3 lambda over denominator 5 lambda end fraction"
+      },
+      {
+       "latex": "\\frac{3}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>5</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "3 over 5"
+      },
+      {
+       "latex": "θ_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 3"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin to the power of negative 1 end exponent open parentheses 3 over 5 close parentheses",
+       "render": "$\\sin ^{- 1} ( \\frac{3}{5} )$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nvxxBbCd8tPSbHRn",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA different laser that produces monochromatic light of wavelength λ falls perpendicular to a diffraction grating from which adjacent lines are 5λ apart. Calculate the angle for the third order maximum. To calculate the angle for the third order maximum: d = 5λ; sin(θ3) = 3λ/5λ = 3/5; θ3 = sin⁻¹(3/5) = 37°\n\nThe diffraction grating is placed 2.7 m from a screen.\n\nCalculate the distance between the third diffraction order and the normal to the grating as measured on the screen.",
+     "solution_md": "To calculate the distance between the third diffraction order and the normal to the grating:\n\nList the known quantities:\n\n- Angle to third order maximum, $θ_{3}$= 37° (from part c)\n- Distance from grating to screen = 2.7 m\n\n![0WrH29zL_3-4-s-q--q4d-answer-easy-aqa-a-level-physics](assets/011-0wrh29zl-3-4-s-q-q4d-answer-easy-aqa-a-level-phy.png)\n\nCalculate from centre to third order:\n\n- **AB** = 2.7 × $\\mathrm{tan}$ (37) **[1 mark]**\n- **AB** = 2.0 m **[1 mark]**\n\n**[Total: 2 marks]**** **\n\n> *Drawing out a diagram here to see which sides are the adjacent, hypotenuse and opposite of the right-angled triangle will make this question to visualise.*",
+     "equations": [
+      {
+       "latex": "θ_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 3"
+      },
+      {
+       "latex": "\\mathrm{tan}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>tan</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Fpr3yPRf8h49whv3",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_R8VcpsFJCHFkXYHX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "The diffraction grating equation is given by:\n\n$d\\mathrm{sin}θ=nλ$\n\nState the definition of the following variables and an appropriate unit for each.\n\n(i) $d$\n\n[1]\n\n(ii) $θ$\n\n[1]\n\n(iii) $n$\n\n[1]\n\n(iv) $λ$\n\n[1]",
+     "solution_md": "(i) *d *represents:\n\n- Spacing between (adjacent) slits **AND**\n- (Measured in) metres / m; **[1 mark]**\n\n(ii) *θ* represents:\n\n- Angular separation between (order of) maxima **AND**\n- (Measured in) degrees / °; **[1 mark]**\n\n(iii) *n* represents:\n\n- Order of maxima **AND**\n- It has no units; **[1 mark]**\n\n(iv)* λ* represents:\n\n- Wavelength (of the light source) **AND**\n- (Measured in) metres / m; **[1 mark]**** **\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "d\\mathrm{sin}θ=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WzFkyzhTPDfbnWRQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "A diffraction grating has 720 × 10<sup>3</sup> lines per metres.\n\nCalculate the distance between adjacent slits of the grating.",
+     "solution_md": "List the known quantities:\n\n- Lines per m, *N* = 720 × 10<sup>3</sup>\n\nCalculate the distance between adjacent slits, *d*:\n\n- $d=\\frac{1}{N}$\n- $d=\\frac{1}{720\\times10^{3}}$ **[1 mark]**\n- $d$* *= 1.39 × 10<sup>–6</sup> m (1.39 µm) **[1 mark]**** **\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "d=\\frac{1}{N}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>N</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 1 over N"
+      },
+      {
+       "latex": "d=\\frac{1}{720\\times10^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>720</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 1 over denominator 720 cross times 10 cubed end fraction"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vqcFDBvnn26dYcTh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA diffraction grating has 720 × 10^3 lines per metres. Calculate the distance between adjacent slits of the grating. d = 1/N = 1/(720 × 10^3) = 1.39 × 10^–6 m (1.39 µm)\n\nA narrow beam of light of wavelength 635 nm is incident normally on the diffraction grating, as shown in Fig. 1.1\n\n![3-4-s-q--q1c-easy-aqa-a-level-physics](assets/012-3-4-s-q-q1c-easy-aqa-a-level-physics.png)\n\n**Fig. 1.1**\n\nThe first‑order diffraction maximum of the light is at an angle of *θ* to the direction of the incident light beam.\n\nCalculate the value of *θ*.",
+     "solution_md": "Calculate the value of *θ*:\n\nList the known quantities:\n\n- Distance between adjacent slits, *d* = 1.39 × 10<sup>–6</sup> m (from part b)\n- Wavelength, *λ* = 635 nm = 635 × 10<sup>–9</sup> m\n- Order of maxima, *n* = 1\n\nRearrange the grating equation for *θ*:\n\n- Grating equation:  $d\\mathrm{sin}θ=nλ$\n- Rearrange:  $\\mathrm{sin}θ=\\frac{nλ}{d}$\n- $\\\\theta = \\sin ^{- 1} ( \\frac{n \\\\lambda }{d} )$ **[1 mark]**\n\nSubstitute in values to calculate *θ*:\n\n- $\\\\theta = \\sin ^{- 1} ( \\frac{635 \\times 10^{- 9} }{1.39 \\times 10^{- 6} } )$ **[1 mark]**\n- $θ$ = 27.2° **[1 mark]**** **\n\n**[Total: 3 marks]**** **\n\n> *Remember to always have your calculator in **degrees** (and not radians) mode when calculating the angles using this equation!*",
+     "equations": [
+      {
+       "latex": "d\\mathrm{sin}θ=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda"
+      },
+      {
+       "latex": "\\mathrm{sin}θ=\\frac{nλ}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>n</mi><mi>&#955;</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sin space theta space equals space fraction numerator n lambda over denominator d end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta space equals space sin to the power of negative 1 end exponent open parentheses fraction numerator n lambda over denominator d end fraction close parentheses",
+       "render": "$\\\\theta = \\sin ^{- 1} ( \\frac{n \\\\lambda }{d} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "theta space equals space sin to the power of negative 1 end exponent open parentheses fraction numerator 635 cross times 10 to the power of negative 9 end exponent over denominator 1.39 cross times 10 to the power of negative 6 end exponent end fraction close parentheses",
+       "render": "$\\\\theta = \\sin ^{- 1} ( \\frac{635 \\times 10^{- 9} }{1.39 \\times 10^{- 6} } )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_99HXZN8gXSKsCNMn",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "The highest order observed on the screen is the **second-order** diffraction maximum.\n\nState how many minima are seen on the screen.",
+     "solution_md": "The number of minima seen on the screen is:\n\n- 4** [1 mark] **\n\n**[Total: 1 mark]**** **\n\n> *These minima are easier to see from drawing a diagram. The minima are in between all the maxima. Remember that **n** starts from 0 and the subsequent orders are measured from **both **sides of the centre.*\n\n![3-4-s-q--q1d-answer-easy-aqa-a-level-physics](assets/013-3-4-s-q-q1d-answer-easy-aqa-a-level-physics.png)\n\n> *Minima occur between two adjacent maxima, therefore an answer of 6 would not be awarded the mark.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CKtGtX3Y44wFgjfq",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_SNQBcrXVJk7P8JKB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cSF2TgJrgW884gPT"
+     ],
+     "part_tier": null,
+     "problem_md": "A narrow beam of coherent light of wavelength 520 nm is incident upon a diffraction grating that has 3.10 × 10<sup>2</sup> lines per mm. The diffraction pattern is seen on a screen.\n\nCalculate the maximum number of minima that could be seen on the screen.",
+     "solution_md": "List the known quantities:\n\n- Wavelength, $λ$ = 520 nm = 520 × 10<sup>-9</sup> m\n- *N* = 3.10 × 10<sup>2</sup> lines per mm = 3.10 × 10<sup>5</sup> lines per m\n\nCalculate adjacent spacing between slits, *d*:\n\n- *d = *$\\frac{1}{N}$* = *$\\frac{1}{3.10\\times10^{5}}$*  =* 3.23 × 10<sup>–6</sup> m **[1 mark]**\n\nCalculate the highest order possible:\n\n- Recall:* d* sin *θ* = *nλ*\n- The highest order would be at *θ* = 90° **OR **sin *θ* = 1\n- So *d* sin (90) = *nλ* becomes *d *= *nλ*\n- *n *= $\\frac{d}{λ}$= $\\frac{3.23\\times10^{-6}}{520\\times10^{-9}}$ = 6.21\n- The highest order is the sixth (*n *= 6) **[1 mark]**\n\nTotal minima:\n\n- Total minima = (2 × 6) = 12 **[1 mark]*** *** **\n\n**[Total: 3 marks]**\n\n> *Remember, for a grating, there is one minimum between each pair of adjacent maxima. With maxima from n = -6 to n = +6 plus the central maximum, there are 13 maxima and therefore 12 minima. There are no additional minima beyond the outermost maxima.*\n\n![Diagram of twelve vertical interference fringes, numbered 1–12, with central maximum at n = 0, minima labelled nearby, and outer maxima at n = 6 on both sides](assets/014-diagram-of-twelve-vertical-interference-fringes-.png)",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "\\frac{1}{N}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>1</mn><mi>N</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 16px style 1 over N end style"
+      },
+      {
+       "latex": "\\frac{1}{3.10\\times10^{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>1</mn><mrow><mn>3</mn><mo>.</mo><mn>10</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 over denominator 3.10 cross times 10 to the power of 5 end fraction"
+      },
+      {
+       "latex": "\\frac{d}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mi>d</mi><mi>&#955;</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d over lambda"
+      },
+      {
+       "latex": "\\frac{3.23\\times10^{-6}}{520\\times10^{-9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>23</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>520</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 3.23 cross times 10 to the power of negative 6 end exponent over denominator 520 cross times 10 to the power of negative 9 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FCsRRCRqgWmmXTCR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cSF2TgJrgW884gPT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA narrow beam of coherent light of wavelength 520 nm is incident upon a diffraction grating that has 3.10 × 10^2 lines per mm. The diffraction pattern is seen on a screen.\nN = 3.10 × 10^2 lines per mm = 3.10 × 10^5 lines per m\nd = 1/N = 1/(3.10 × 10^5) = 3.23 × 10^–6 m\n\nA different light source is incident upon the same diffraction grating. A student suspects there are two wavelengths of light in this incident beam, one of wavelength 490 nm and another of wavelength 490.2 nm.\n\nDetermine the highest order of the visible diffracted light.",
+     "solution_md": "List the known quantities:\n\n- *d *= 3.23 × 10<sup>–6</sup> m (from part a)\n- Wavelength,$λ$ = 490 nm = 490 × 10<sup>-9</sup> m\n\nExplain where the different wavelengths of light are most distinguishable:\n\n- They are most likely to be distinguishable at the <u>highest</u> order; **[1 mark]**\n\nCalculate the highest order visible:\n\n- The highest order would be at *θ* = 90° **OR** $\\mathrm{sin}θ$ = 1\n- *n *= $\\frac{d}{λ}$= $\\frac{3.23\\times10^{-6}}{490\\times10^{-9}}$ = 6.59 **[1 mark]**\n- The highest order is the sixth (*n *= 6)\n\n**[Total: 2 marks]**** **\n\n> *Remember to always round **down **for the value of your highest order since **n** indicates the number of visible maxima. For example, **n** = 4.8 means there will be at most 4 visible maxima (one central maxima, and three maxima either side of this). Note, we cannot round up to 5, because there are not 5 maxima visibly created. *",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo mathvariant=\"italic\">&#160;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sin italic space theta"
+      },
+      {
+       "latex": "\\frac{d}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mi>d</mi><mi>&#955;</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d over lambda"
+      },
+      {
+       "latex": "\\frac{3.23\\times10^{-6}}{490\\times10^{-9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>23</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>490</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 3.23 cross times 10 to the power of negative 6 end exponent over denominator 490 cross times 10 to the power of negative 9 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NgGfTKZSyBSfD4Mf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cSF2TgJrgW884gPT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA narrow beam of coherent light of wavelength 520 nm is incident upon a diffraction grating that has 3.10 × 10^2 lines per mm. Calculate adjacent spacing between slits, d = 1/N = 1/(3.10 × 10^5) = 3.23 × 10^–6 m.\n\nA different light source is incident upon the same diffraction grating. A student suspects there are two wavelengths of light in this incident beam, one of wavelength 490 nm and another of wavelength 490.2 nm. Determine the highest order of the visible diffracted light. n = d/λ = 3.23 × 10^–6 / 490 × 10^-9 = 6.59; The highest order is the sixth (n = 6).\n\nThe minimum angular separation for which the two wavelengths may be differentiated is 0.05<sup>­­º</sup>.\n\nDetermine whether the student observed the two wavelengths as distinct images at this order. Support your answer with calculations ignoring the blurring effect often observed at higher order maxima.",
+     "solution_md": "List the known quantities:\n\n- Wavelength, $λ_{1}$ = 490 nm = 490 × 10<sup>­–9</sup> m\n- Wavelength, $λ_{2}$= 490.2 nm = 490.2 × 10<sup>–9</sup> m\n- Slit spacing, *d *= 3.23 × 10<sup>–6</sup> m (from part a)\n- Highest order visible *n* = 6 (from part b)\n\nCalculate the angle for the highest order visible for the first wavelength, $θ_{1}$:\n\n- *n*$λ$*= d *sin *θ *therefore *θ = *$\\sin ^{- 1} ( \\frac{n \\\\lambda }{d} )$\n- $θ_{1}$*= *$\\sin ^{- 1} ( \\frac{6 \\times ( 490 \\times 10^{- 9} )}{3.23 \\times 10^{- 6} } )$* = *65.535<sup>º</sup>\n\nCalculate the angle of the highest order visible for the second wavelength, $θ_{2}$:\n\n- $θ_{2}$*= *$\\sin ^{- 1} ( \\frac{6 \\times ( 490.2 \\times 10^{- 9} )}{3.23 \\times 10^{- 6} } )$= 65.587<sup>º</sup>\n\nCalculate the difference in angles:\n\n- Δ*θ* = $θ_{2}-θ_{1}$ = 65.587º – 65.535º = 0.052<sup>º </sup>**[1 mark]**\n\nConclusion\n\n- Since 0.052<sup>º </sup>> 0.05<sup>º </sup>the student can observe the two wavelengths as separate distinct images; **[1 mark]**** **\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "λ_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#955;</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript 1"
+      },
+      {
+       "latex": "λ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#955;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript 2"
+      },
+      {
+       "latex": "θ_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 1"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin to the power of negative 1 end exponent open parentheses fraction numerator n lambda over denominator d end fraction close parentheses",
+       "render": "$\\sin ^{- 1} ( \\frac{n \\\\lambda }{d} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "θ_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 1"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 16px style sin to the power of negative 1 end exponent open parentheses fraction numerator 6 cross times open parentheses 490 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 3.23 cross times 10 to the power of negative 6 end exponent end fraction close parentheses end style",
+       "render": "$\\sin ^{- 1} ( \\frac{6 \\times ( 490 \\times 10^{- 9} )}{3.23 \\times 10^{- 6} } )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2"
+      },
+      {
+       "latex": "θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "sin to the power of negative 1 end exponent open parentheses fraction numerator 6 cross times open parentheses 490.2 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 3.23 cross times 10 to the power of negative 6 end exponent end fraction close parentheses",
+       "render": "$\\sin ^{- 1} ( \\frac{6 \\times ( 490.2 \\times 10^{- 9} )}{3.23 \\times 10^{- 6} } )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "θ_{2}-θ_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#952;</mi><mn>2</mn></msub><mo>-</mo><msub><mi>&#952;</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2 minus theta subscript 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pmsyTWbQk2ybNBMT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cSF2TgJrgW884gPT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA different light source is incident upon the same diffraction grating. A student suspects there are two wavelengths of light in this incident beam, one of wavelength 490 nm and another of wavelength 490.2 nm.\n\nθ1 = sin^-1(6 × (490 × 10^-9)/(3.23 × 10^-6)) = 65.535°\n\nFig. 1.1 shows the shortest wavelength of this light incident on the screen after the other has been removed from part c).\n\n![8-4-q2d-h-sq-cie-ial-physics-new](assets/015-8-4-q2d-h-sq-cie-ial-physics-new.png)\n\n**Fig. 1.1**\n\nDetermine the distance between the diffraction grating and the screen, *D*.",
+     "solution_md": "List the known quantities:\n\n- Wavelength of light, $λ$ = 490 nm = 490 × 10<sup>−9</sup> m (from part b)\n- Angle of diffraction, *θ *= 65.535° (from part c)\n\nDetermine the distance for the hypotenuse, *H* of the triangle from slit to sixth order:\n\n- The number of complete wavelengths between the grating and the screen = 5.25 (from Fig. 1.1)\n- Hence, the distance is 5.25$λ$\n- *H *= 5.25 × (490 × 10<sup>−9</sup>) = 2.47 × 10<sup>−6</sup> m **[1 mark]**\n\nUse trigonometry to find the length of the adjacent side of the triangle, *D*:\n\n![Diagram showing wave diffraction through a grating. Includes labelled triangle with adjacent side D, hypotenuse, and angle theta (θ) moving towards a screen.](assets/016-diagram-showing-wave-diffraction-through-a-grati.png)\n\n- adj = cos*θ *× hyp\n- *D *= cos*θ *× *H*\n- *D *= cos(65.535)* *× (2.47 × 10<sup>−6</sup>)\n- *D *= 1.07 × 10<sup>−6</sup> m **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Look at the information on this diagram carefully. You can see that there are five and a quarter wavelengths of light between the slit and the screen, so this can give you the length of the hypotenuse of the triangle.*\n\n> *Make sure you obtain the correct information from the previous parts of this question too.*\n\n> *Drawing the triangle is essential, so you do not make a mistake with your trigonometry. *",
+     "equations": [
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>λ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>λ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_chtJYb9VD4FMYRBT",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_pnjpvDwgxZGJGRFy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "Students in a laboratory have created the following set-up shown in Fig 1.1. Parallel rays of monochromatic light from two adjacent slits A and B of wavelength *λ* are incident normally on a diffraction grating with a slit separation *d.*\n\n![9-3-ib-hl-hsq2a-q](assets/017-9-3-ib-hl-hsq2a-q.png)\n\n**Fig. 1.1**\n\nUse Figure 1.1 and the condition for constructive interference to show that the relationship between $d$, $λ$, $θ$, and $n$ is given by $nλ=d\\mathrm{sin}θ$.",
+     "solution_md": "Consider the path difference in terms of wavelength, *λ* when bright fringes are created:\n\n- Constructive interference between two parallel rays of light from two adjacent slits A and B results in bright fringes of light known as maxima; **[1 mark]**\n- AC is the path difference between the two parallel rays of light; **[1 mark]**\n- Constructive interference occurs when the path difference between the two rays is a whole number of wavelengths\n\n  - Therefore, AC =* nλ, *where *n *is an integer and corresponds to the order of maxima; **[1 mark]**\n\nConsider the path difference in terms of trigonometry:\n\n- Using trigonometry:\n\n  - $sinθ=\\frac{AC}{AB}$\n  - So, AC = *d *× sin*θ ***[1 mark]**\n\nEquate the two expressions for path difference, AC:\n\n- Therefore the equation to calculate the angle of diffraction, *θ* of each order of maxima *n *is:\n\n  - *nλ *= *d*sin*θ *as required; **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "lambda"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "nλ=d\\mathrm{sin}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n lambda space equals space d space sin space theta"
+      },
+      {
+       "latex": "sinθ=\\frac{AC}{AB}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>A</mi><mi>C</mi></mrow><mrow><mi>A</mi><mi>B</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "s i n theta space equals space fraction numerator A C over denominator A B end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tjz83nJTJKXK2TVR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "determine",
+     "source_paper": {
+      "date": "2021",
+      "number": "2221-6514",
+      "question_number": null,
+      "question_part": "b)"
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nStudents in a laboratory have created the following set-up shown in Fig 1.1. Parallel rays of monochromatic light from two adjacent slits A and B of wavelength λ are incident normally on a diffraction grating with a slit separation d. Use Figure 1.1 and the condition for constructive interference to show that the relationship between d, λ, θ, and n is given by nλ = dsinθ.\n\nThe monochromatic light in the set-up in part (a) has a wavelength of 499 nm. The graph in Fig. 1.2 shows the variation of sin*θ *with the order *n *of the maximum. The central order corresponds to *n *= 0.\n\n![9-4-ib-hl-hsq2b-q](assets/018-9-4-ib-hl-hsq2b-q.png)\n\n**Fig. 1.2**\n\nDetermine a mean value for the number of slits per mm of the grating.",
+     "solution_md": "List the known quantities:\n\n- Wavelength of light, *λ *= 499 nm = 499 × 10<sup>−9</sup> m\n\nObtain an expression for the gradient of the graph:\n\n- The gradient of a straight line, $\\frac{\\Deltay}{\\Deltax}$\n- Therefore, $\\frac{\\Delta\\mathrm{sin}θ}{\\Deltan}=\\frac{\\mathrm{sin}θ}{n}$ **[1 mark]**\n\nConsider the gradient of the graph in terms of the diffraction grating equation:\n\n- Recall:* nλ *= *d*sin*θ *\n- Dividing by *d* and* n* gives, $\\frac{λ}{d}=\\frac{\\mathrm{sin}θ}{n}$ **[1 mark]**\n\nUse the graph to calculate the value of the gradient:\n\n- Δsin*θ *= 0.39\n- Δ*n *= 5\n- So, gradient = $\\frac{0.39}{5}$ = 0.078** [1 mark]**\n\nConsider the gradient in terms of *d*:\n\n- Gradient = $\\frac{λ}{d}$ so $d=\\frac{λ}{Gradient}$\n- $d=\\frac{499\\times10^{-9}}{0.078}$\n- *d *= 6.40 × 10<sup>−6</sup> m **[1 mark]**\n\nConvert the slit separation to mm and calculate the mean number of slits per mm, *N*:\n\n- 1000 mm = 1 m\n- Therefore, 6.40 × 10<sup>−6</sup> × 1000 = 6.40 × 10<sup>−3</sup> mm\n- Hence, in 1 mm there are $\\frac{1}{6.40\\times10^{-3}}$ slits\n- Therefore, *N *= 156.25 = 156 **[1 mark]**\n\n**[Total: 5 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{\\Deltay}{\\Deltax}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>&#8710;</mo><mi>y</mi></mrow><mrow><mo>&#8710;</mo><mo>&#160;</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator increment y over denominator increment space x end fraction"
+      },
+      {
+       "latex": "\\frac{\\Delta\\mathrm{sin}θ}{\\Deltan}=\\frac{\\mathrm{sin}θ}{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>&#8710;</mo><mi>sin</mi><mi>&#952;</mi></mrow><mrow><mo>&#160;</mo><mo>&#8710;</mo><mi>n</mi></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>sin</mi><mi>&#952;</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator increment sin theta over denominator space increment n end fraction space equals space fraction numerator sin theta over denominator n end fraction"
+      },
+      {
+       "latex": "\\frac{λ}{d}=\\frac{\\mathrm{sin}θ}{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>&#955;</mi><mi>d</mi></mfrac><mo>=</mo><mfrac><mrow><mi>sin</mi><mi>&#952;</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "lambda over d equals fraction numerator sin theta over denominator n end fraction"
+      },
+      {
+       "latex": "\\frac{0.39}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>39</mn></mrow><mn>5</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.39 over denominator 5 end fraction"
+      },
+      {
+       "latex": "\\frac{λ}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>&#955;</mi><mi>d</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "lambda over d"
+      },
+      {
+       "latex": "d=\\frac{λ}{Gradient}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>&#955;</mi><mrow><mi>G</mi><mi>r</mi><mi>a</mi><mi>d</mi><mi>i</mi><mi>e</mi><mi>n</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator lambda over denominator G r a d i e n t end fraction"
+      },
+      {
+       "latex": "d=\\frac{499\\times10^{-9}}{0.078}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>499</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>078</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 499 space cross times space 10 to the power of negative 9 end exponent over denominator 0.078 end fraction"
+      },
+      {
+       "latex": "\\frac{1}{6.40\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mrow><mn>6</mn><mo>.</mo><mn>40</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 over denominator 6.40 cross times 10 to the power of negative 3 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_dH6Sm6J6h7f9vCKS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe monochromatic light in the set-up in part (a) has a wavelength of 499 nm.\nUse Figure 1.1 and the condition for constructive interference to show that the relationship between d, λ, θ, and n is given by nλ = dsinθ.\n\nThe grating is 30 mm wide.\n\nDetermine the number of slits required to obtain a maximum of five bright fringes on the screen.",
+     "solution_md": "List the known quantities:\n\n- Wavelength, *λ* = 499 nm = 499 × 10<sup>−9</sup> m (from part (b))\n- Grating width = 30 mm = 30 × 10<sup>−3</sup> m\n- Number of maxima, *n *= 2\n\nConsider the angle of diffraction required to obtain a maximum of 5 bright fringes:\n\n- The maximum angle of diffraction is 90° **[1 mark]**\n\nRearrange the diffraction grating equation and substitute in the known quantities to calculate the slit separation, *d*:\n\n- Recall: *nλ *= *d*sin*θ *\n- $d=\\frac{nλ}{\\mathrm{sin}θ}$\n- $d=\\frac{2\\times(499\\times10^{-9})}{\\mathrm{sin}(90)}$\n- $d=9.98\\times10^{-7}m$ **[1 mark]**\n\nCalculate the number of slits required in the grating 30 mm wide:\n\n- The grating is 30 × 10<sup>−3</sup> m wide, so there are $\\frac{30\\times10^{-3}}{9.98\\times10^{-7}}$ slits\n- So the number of slits = 30 060 **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Recognising that the maximum angle of diffraction is 90° and using **n **= 5 at this angle is the key to answering this question correctly. The diagram shows why 90° is the maximum angle of diffraction. *\n\n![9-3-ib-hl-sq5c-commentary](assets/019-9-3-ib-hl-sq5c-commentary.jpg)",
+     "equations": [
+      {
+       "latex": "d=\\frac{nλ}{\\mathrm{sin}θ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>n</mi><mi>&#955;</mi></mrow><mrow><mi>sin</mi><mi>&#952;</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator n lambda over denominator sin theta end fraction"
+      },
+      {
+       "latex": "d=\\frac{2\\times(499\\times10^{-9})}{\\mathrm{sin}(90)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mo>(</mo><mn>499</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>)</mo></mrow><mrow><mi>sin</mi><mo>(</mo><mn>90</mn><mo>)</mo></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 2 space cross times space left parenthesis 499 space cross times space 10 to the power of negative 9 end exponent right parenthesis over denominator sin left parenthesis 90 right parenthesis end fraction"
+      },
+      {
+       "latex": "d=9.98\\times10^{-7}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>98</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space 9.98 space cross times space 10 to the power of negative 7 end exponent space straight m"
+      },
+      {
+       "latex": "\\frac{30\\times10^{-3}}{9.98\\times10^{-7}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>30</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>9</mn><mo>.</mo><mn>98</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 30 cross times 10 to the power of negative 3 end exponent over denominator 9.98 cross times 10 to the power of negative 7 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Wjq89QdmKrtB6J3b",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe grating is 30 mm wide. Determine the number of slits required to obtain a maximum of five bright fringes on the screen.\nSo the number of slits = 30 060\n\nThe students claim that they observed the following diffraction pattern in Fig. 1.3 on the screen for the grating from part (c).\n\n![9-3-2](assets/020-9-3-2.png)\n\n**Fig. 1.3**\n\nState two reasons why the interference pattern obtained cannot be correct.",
+     "solution_md": "The diffraction pattern obtained cannot be correct because:\n\n- The bright fringes are too wide; **[1 mark]**\n- The dark fringes are too narrow (for a diffraction grating containing 30 060 slits); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *It can be difficult to identify problems with diffraction patterns, especially isolated patterns but putting it together with another diffraction pattern makes it possible to compare them. *\n\n![9-3-ms](assets/021-9-3-ms.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2MX9jZSpC8ndSxhp",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_xddS6mHYZFPthFTB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "In a laboratory experiment, monochromatic light from a laser of wavelength *λ* is incident normally on a diffraction grating.\n\nThe diffracted laser light is projected on a white screen which is parallel to the plane of the grating. Fig 1.1 shows the position of the diffraction maxima.\n\n![3-4-s-q--q4a-easy-aqa-a-level-physics](assets/022-3-4-s-q-q4a-easy-aqa-a-level-physics.png)\n\n**Fig. 1.1**\n\nOn Fig. 1.1, sketch the diffracted laser light and label the second and fifth-order diffraction maxima angles, $θ_{2}$ and $θ_{5}$ respectively.",
+     "solution_md": "The paths of the second and fifth-order diffraction maxima are as follows:\n\n![3-4-s-q--q4a-answer-easy-aqa-a-level-physics](assets/023-3-4-s-q-q4a-answer-easy-aqa-a-level-physics.png)\n\n- Straight line from grating to n = 2 with angle labelled $θ_{2}$ from centre to line; **[1 mark]**\n- Straight line from grating to n = 5 with angle labelled $θ_{5}$from centre to line; **[1 mark]**** **\n\n**[Total: 2 marks]**** **\n\n> *Remember to always draw straight lines with a ruler or straight edge and clearly label your diagrams. If the sketches look too messy or vague, the examiner is unlikely to award you full marks. The angles should always be considered from the line connecting the grating to the central maximum (dashed line in Fig 1.1)*",
+     "equations": [
+      {
+       "latex": "θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2"
+      },
+      {
+       "latex": "θ_{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>5</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 5"
+      },
+      {
+       "latex": "θ_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 2"
+      },
+      {
+       "latex": "θ_{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>&#952;</mi><mn>5</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "theta subscript 5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nz2QWc97BHbYwF9c",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "The spacing between each slit in the grating is 2.45 µm.\n\nCalculate the number of lines per metre in this grating.",
+     "solution_md": "Calculate the number of lines per metre in this grating:\n\nList the known quantities:\n\n- Spacing between adjacent slits, *d* = 2.45 µm = 2.45 × 10<sup>–6</sup> m\n\nCalculate number of lines per metre, *N*:\n\n- $N=\\frac{1}{d}$\n- $N=\\frac{1}{2.45\\times10^{-6}}$ **[1 mark]**\n- $N$* *= 4.08 × 10<sup>5</sup> lines per metre **[1 mark]**** **\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "N=\\frac{1}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N space equals space 1 over d"
+      },
+      {
+       "latex": "N=\\frac{1}{2.45\\times10^{-6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>.</mo><mn>45</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N space equals space fraction numerator 1 over denominator 2.45 cross times 10 to the power of negative 6 end exponent end fraction"
+      },
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PSpfWndPGYtHQcpF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn a laboratory experiment, monochromatic light from a laser of wavelength λ is incident normally on a diffraction grating.\nThe spacing between each slit in the grating is 2.45 µm.\n\nThe third–order spectral line is formed at an angle of 36º from the normal to the grating.\n\nCalculate the value of *λ*.",
+     "solution_md": "List the known quantities:\n\n- Spacing between adjacent slits, *d* = 2.45 µm = 2.45 × 10<sup>–6</sup> m\n- Order of maxima, *n* = 3\n- Third-order diffraction angle, *θ* = 36°\n\nRearrange diffraction grating equation for *λ*:\n\n- Grating equation:  $d\\mathrm{sin}θ=nλ$ **[1 mark]**\n\n- Rearrange: * *$λ=\\frac{d\\mathrm{sin}θ}{n}$\n\nSubstitute in the values:\n\n- $\\\\lambda = \\frac{( 2.45 \\times 10^{- 6} ) \\sin 36^{\\circ}}{3}$ **[1 mark]**\n- $λ$ = 480 × 10<sup>–9</sup> m (480 nm) **[1 mark]**** **\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "d\\mathrm{sin}θ=nλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space sin space theta space equals space n lambda"
+      },
+      {
+       "latex": "λ=\\frac{d\\mathrm{sin}θ}{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>d</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#952;</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda space equals space fraction numerator d space sin space theta over denominator n end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda space equals space fraction numerator open parentheses 2.45 cross times 10 to the power of negative 6 end exponent close parentheses space sin space 36 degree over denominator 3 end fraction",
+       "render": "$\\\\lambda = \\frac{( 2.45 \\times 10^{- 6} ) \\sin 36^{\\circ}}{3}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "λ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_W3XK2P4DP9SWVW8g",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zbG2Xc9VnZdqTwNG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn a laboratory experiment, monochromatic light from a laser of wavelength *λ* is incident normally on a diffraction grating. The diffracted laser light is projected on a white screen which is parallel to the plane of the grating. Fig 1.1 shows the position of the diffraction maxima.\n\nState the order that would produce the brightest image on the white screen.",
+     "solution_md": "The order that would produce the brightest image is:\n\n- Zeroth order / *n* = 0 **[1 mark]**** **\n\n**[Total: 1 mark]**"
     }
    ]
   }

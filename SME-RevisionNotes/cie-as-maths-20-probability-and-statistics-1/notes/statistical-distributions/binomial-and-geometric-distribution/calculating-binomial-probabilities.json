@@ -1,0 +1,225 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_JgZhprbWpgpfH976",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/revision-notes/statistical-distributions/binomial-and-geometric-distribution/calculating-binomial-probabilities",
+ "title": "Calculating Binomial Probabilities",
+ "page_title": "Calculating Binomial Probabilities | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "binomial-and-geometric-distribution",
+   "calculating-binomial-probabilities"
+  ],
+  "section": "statistical-distributions",
+  "topic": "binomial-and-geometric-distribution",
+  "leaf": "calculating-binomial-probabilities"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Binomial & Geometric Distribution",
+  "subtopic": "Calculating Binomial Probabilities"
+ },
+ "updated_at": "2026-07-02T08:19:38.481Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_Qq3TphXhtJvXQhrH",
+   "rnl_H29Y9gcNQChbnNHT"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_JpjTxPV33Mm5vDvf"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style",
+   "render": "$X \\sim \\mathrm{B} ( n , p )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "begin mathsize 16px style straight P left parenthesis X equals r right parenthesis equals p subscript r equals open parentheses table row n row r end table close parentheses p to the power of r open parentheses 1 minus p close parentheses to the power of n minus r end exponent end style",
+   "render": "$\\mathrm{P} ( X = r ) = p_{r} = ( \\begin{gathered} n \\\\ r \\end{gathered} ) p^{r ( 1 - p )^{n} - r}$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "open parentheses n minus r close parentheses",
+   "render": "$( n - r )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "open parentheses table row n row r end table close parentheses equals C presuperscript n subscript r equals fraction numerator n factorial over denominator r factorial left parenthesis n minus r right parenthesis factorial end fraction",
+   "render": "$( \\begin{gathered} n \\\\ r \\end{gathered} ) = C pre^{n}_{r} = \\frac{n factorial}{r \\text{factorial} ( n - r ) factorial}$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "stretchy left parenthesis table row n row r end table stretchy right parenthesis",
+   "render": "$( \\begin{gathered} n \\\\ r \\end{gathered} )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(X\\leqr)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>r</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X less or equal than r right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leqr)=1-P(X>r)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X<r)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X<r)=1-P(X\\geqr)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X\\geqr)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X\\geqr)=1-P(X<r)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X>r)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X>r)=1-P(X\\leqr)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis a less or equal than X less or equal than b right parenthesis end style"
+  },
+  {
+   "latex": "P(4<X\\leq10)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mn mathsize=\"16px\">4</mn><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mn mathsize=\"16px\">10</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "X tilde straight B left parenthesis 10 comma 0.35 right parenthesis",
+   "render": "$X \\sim \\mathrm{B} ( 10 , 0.35 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(X=3)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals 3 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leq3)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than 3 right parenthesis"
+  },
+  {
+   "latex": "P(X>3)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than 3 right parenthesis"
+  },
+  {
+   "latex": "P(3<X<6)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>3</mn><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mn>6</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 3 less than X less than 6 right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 9,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 21
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_JpjTxPV33Mm5vDvf",
+   "name": "Calculating Binomial Probabilities",
+   "definition": null,
+   "video_id": "849054560"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Binomial Probabilities"
+  },
+  {
+   "type": "paragraph",
+   "md": "Throughout this section we will use the random variable $X \\sim \\mathrm{B} ( n , p )$. For binomial, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Where does the formula for a binomial distribution come from?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The formula for calculating an individual **binomial probability **is\n\n  - $\\mathrm{P} ( X = r ) = p_{r} = ( \\begin{gathered} n \\\\ r \\end{gathered} ) p^{r ( 1 - p )^{n} - r}$\n  \n    - If there are *r* successes then there are $( n - r )$ failures\n    - The number of times this can happen is calculated by the **binomial coefficient**\n    - $( \\begin{gathered} n \\\\ r \\end{gathered} ) = C pre^{n}_{r} = \\frac{n factorial}{r \\text{factorial} ( n - r ) factorial}$\n- This can be seen by considering a **probability tree diagram** with *n *trials, where *p* is the probability of success and the tree diagram is being used to find *r *successes\n- $( \\begin{gathered} n \\\\ r \\end{gathered} )$ is the number of pathways through the tree there would be exactly *r* successes within the *n* trials\n- The formula allows statisticians to quickly find probabilities for larger values of *n* without needing to draw the whole tree diagram\n- Your calculator may have a function that would allow you to calculate binomial probabilities\n\n  - You can learn how to use this to check your work but it is important you always show your working using the formula to get the marks in the exam"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate the cumulative probabilities for a binomial distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Most of the time you will be required to calculate** cumulative binomial probabilities **rather than individual ones\n- Use the formula to find the individual probabilities and then add them up\n- Make sure you are confident working with inequalities for **discrete values**\n\n  - Only integer values will be included so it is easiest to look at which integer values you should include within your calculation\n  - Sometimes it is quicker to find the probabilities that are **not being asked for** and subtract from one\n- $P(X\\leqr)$is asking you to find the probabilities of **all values up to and including *****r***\n\n  - This means all values that are **at most *****r***\n  - Don’t forget to include P(*X *= 0)\n  - It could also be written as $P(X\\leqr)=1-P(X>r)$\n- $P(X<r)$is asking you to find the probabilities of **all values up to but not including *****r***\n\n  - This means all values that are **less than *****r***\n  - Stop at *r - 1*\n  - It could also be written as $P(X<r)=1-P(X\\geqr)$\n- $P(X\\geqr)$ is asking you to find the probabilities of **all values greater than and including *****r***\n\n  - This means all values that are **at least *****r***\n  - It could also be written as  $P(X\\geqr)=1-P(X<r)$\n- $P(X>r)$is asking you to find the probabilities of **all values greater than but not including *****r***\n\n  - This means all values that are **more than r**\n  - Start at *r + 1*\n  - It could also be written as $P(X>r)=1-P(X\\leqr)$\n- If calculating $P(a\\leqX\\leqb)$ pay attention to whether the probability of *a* and *b* should be included in the calculation or not\n\n  - For example, $P(4<X\\leq10)$ :\n  \n    - You want the integers 5 to 10"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "If $X$ is the random variable $X \\sim \\mathrm{B} ( 10 , 0.35 )$. Find:\n\n(i) $P(X=3)$\n\n(ii) $P(X\\leq3)$\n\n(iii) $P(X>3)$\n\n(iv) $P(3<X<6)$\n\n**Answer:**\n\n![3-2-2-calculating-binomial-probabilities-we-solution](assets/fa956f713b35-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Looking carefully at the inequality within the probability is key here, make sure you consider which integers should be counted within your calculations."
+  }
+ ]
+}

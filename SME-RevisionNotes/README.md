@@ -1,6 +1,6 @@
 # SME Revision Notes (Edexcel IGCSE + IAL; Cambridge IGCSE + A Level/AS)
 
-Scraped from Save My Exams revision-notes trees (93 courses incl. the Cambridge/CAIE lanes, T-SME-CAMBRIDGE 2026-10-17); mirrors `../SME-ExamQuestion/` course-for-course. 8384/8384 leaf pages, 17913 assets, 15163 spec-point links.
+Scraped from Save My Exams revision-notes trees (105 courses incl. the Cambridge/CAIE lanes, T-SME-CAMBRIDGE 2026-10-17); mirrors `../SME-ExamQuestion/` course-for-course. 9151/9151 leaf pages, 20051 assets, 16388 spec-point links.
 
 Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim) + `<leaf>.md` (render). Callout variants map to typed blocks (`exam-tip` -> Exam Hint, `worked-example` -> Worked Example, `case-study` -> Case Study).
 
@@ -17,14 +17,25 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 | cie-a-level-chemistry-25 | 239/239 | 756 | 330 |
 | cie-a-level-computer-science-19 | 144/144 | 203 | 282 |
 | cie-a-level-economics-23 | 159/159 | 286 | 507 |
+| cie-a-level-geography-21 | 0/0 | 0 | 0 |
 | cie-a-level-maths-20-mechanics | 31/31 | 111 | 36 |
 | cie-a-level-maths-20-probability-and-statistics-1 | 31/31 | 104 | 46 |
 | cie-a-level-maths-20-probability-and-statistics-2 | 16/16 | 43 | 28 |
 | cie-a-level-maths-20-pure-1 | 74/74 | 342 | 77 |
 | cie-a-level-maths-20-pure-3 | 79/79 | 394 | 84 |
 | cie-a-level-physics-25 | 201/201 | 514 | 300 |
+| cie-as-accounting-21 | 98/98 | 69 | 166 |
+| cie-as-biology-25 | 124/124 | 270 | 135 |
+| cie-as-business-23 | 67/67 | 157 | 242 |
+| cie-as-chemistry-25 | 134/134 | 472 | 181 |
+| cie-as-computer-science-19 | 77/77 | 115 | 156 |
 | cie-as-english-general-paper-21 | 22/22 | 7 | 80 |
 | cie-as-environmental-management-20 | 52/52 | 140 | 83 |
+| cie-as-maths-20-mechanics | 31/31 | 111 | 36 |
+| cie-as-maths-20-probability-and-statistics-1 | 31/31 | 104 | 46 |
+| cie-as-maths-20-pure-1 | 74/74 | 342 | 77 |
+| cie-as-maths-20-pure-2 | 39/39 | 203 | 41 |
+| cie-as-physics-25 | 92/92 | 295 | 145 |
 | cie-igcse-accounting-21 | 75/75 | 69 | 157 |
 | cie-igcse-accounting-25 | 105/105 | 74 | 166 |
 | cie-igcse-biology-23 | 148/148 | 245 | 239 |
@@ -84,6 +95,7 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 | igcse-english-literature-16 | 136/136 | 298 | 625 |
 | igcse-further-maths-19 | 58/58 | 117 | 99 |
 | igcse-geography-19 | 102/102 | 171 | 262 |
+| igcse-history-17 | 0/0 | 0 | 0 |
 | igcse-ict-17 | 69/69 | 94 | 149 |
 | igcse-maths-a-18-foundation | 139/139 | 248 | 155 |
 | igcse-maths-a-18-higher | 191/191 | 389 | 203 |

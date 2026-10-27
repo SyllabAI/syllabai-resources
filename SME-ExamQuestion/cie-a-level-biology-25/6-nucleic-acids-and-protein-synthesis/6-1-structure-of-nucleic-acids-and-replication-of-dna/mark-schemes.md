@@ -324,3 +324,720 @@
 > *C** is incorrect as this shows a **base pair** which is two nucleotides bonded by **hydrogen bonds** formed between bases.*
 
 > *D **is incorrect asthis shows a **nitrogenous base,** which is part of a nucleotide.*
+
+## Structured Questions (16 questions)
+
+
+### Q1
+Antiparallel means...
+
+- (Two DNA) strands run alongside each other; **[1 mark]**
+- But in opposite directions / 3' end on each strand is at opposite ends of the helix / 5' end on each strand is at opposite ends of the helix; **[1 mark]**
+
+**[Total: 2 marks]**
+The ends of a DNA strand are referred to as the 3' end and the 5' end because...
+
+- Carbon 5/C5 of one nucleotide is bonded by a <u>phosphodiester</u> bond to carbon 3/C3 of the adjacent nucleotide (in a DNA strand); **[1 mark]**
+- (Therefore) there will always be one free/unbonded carbon 3/C3 and one free/unbonded carbon 5/C5 at each end of the strand; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Try and avoid going into detail about the double-helix; this question is purely about the structure of a single strand of DNA before it joins its complementary strand.*
+Other molecules that can bind to DNA bases and the function they perform include...
+
+**Final answer:** **Any ****two**** examples and their corresponding function:**
+
+- DNA polymerase can bind to regions at the edges of the bases; **[1 mark]**
+- To carry out DNA replication / synthesise new DNA strands; **[1 mark]**
+
+**OR**
+
+- RNA polymerase can bind to bases where DNA molecule unwinds; **[1 mark]**
+- To carry out transcription / synthesise a strand of mRNA (to be translated); **[1 mark]**
+
+**OR**
+
+- (May act as a) binding site for other proteins / restriction enzymes / ligases / gene promoters / transcription factors / gene blockers; **[1 mark]**
+- For the control of gene expression; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *DNA is well recognised as a stable molecule on account of its structure, but it cannot be so stable that it is chemically inert. In order to be useful, DNA must be reactive enough to be unwound and transcribed/copied, before re-forming and resuming its relatively static role within the nucleus.*
+A comparison between DNA and RNA structure includes...
+
+**Final answer:** **Any ****six**** of the following:**
+
+**Similarities:**
+
+- Both are polynucleotides / contain many nucleotides; **[1 mark]**
+- Both contain adenine/A, cytosine/C and guanine/G bases; **[1 mark]**
+- Both contain a pentose sugar **AND** a phosphate group; **[1 mark]**
+- Both are linked by phosphodiester bonds between 3' and 5' carbon atoms; **[1 mark]**
+
+**Differences:**
+
+- DNA is double-stranded / RNA is single-stranded; **[1 mark]**
+- DNA is a longer molecule / RNA is a shorter molecule; **[1 mark]**
+- DNA contains deoxyribose sugars / RNA contains ribose sugars; **[1 mark]**
+- DNA contains thymine/T base / RNA contains uracil/U base; **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *Make sure that you stick to structural differences in your answer, no marks will be awarded for mentioning the different functions of DNA and RNA.*
+
+### Q2
+Two deductions that can be made from the data include:
+
+- Within each species, the amount/percentage of adenine/A (roughly) equals the amount/percentage of thymine/T **AND** the amount/percentage of cytosine/C (roughly) equals the amount/percentage of guanine/G; **[1 mark]**
+- The composition of DNA bases varies between different species **OR** the amount/percentage of purine and pyrimidine bases differs between species; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *These deductions are also known as Chargaff's rules, named after Erwin Chargaff who was one of the first scientists to analyse the base composition of DNA between different species.*
+The value of **X** can be calculated as follows:
+
+- **X**(%G) = 50.6 ÷ 2; **[1 mark]**
+- = 25.3(%); **[1 mark]**
+
+*Full marks awarded for the correct answer only.*
+
+**[Total: 2 marks]**
+
+![hl-ib-sq-7-1-h-q3b-ma](assets/017-hl-ib-sq-7-1-h-q3b-ma.png)
+The results obtained by Chargaff impacted the work of Crick and Watson in the following ways:
+
+- It showed that DNA was composed of equal numbers/amounts of purine and pyrimidine bases, suggesting (complementary) base pairing; **[1 mark]**
+- Crick and Watson could deduce that the two strands / complementary bases had an antiparallel orientation towards each other **OR** (complementary) base pairing would lead to a double helix with a highly compacted structure; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Complementary base pairing indicated that the DNA molecule was double stranded and that the most stable structure could be obtained if the two strands run antiparallel to each other. Chargaff was one of many scientists whose research provided clues to Crick and Watson which helped them to unravel the mystery of the structure of a DNA molecule.*
+The base-pairing characteristics of pyrimidine and purine bases in DNA and RNA are...
+
+- Pyrimidines are thymine/T, cytosine/C and uracil/U; **[1 mark]**
+- Purines are adenine/A and guanine/G; **[1 mark]**
+- Base-pairing: A-T or A-U with <u>two</u> hydrogen bonds **AND** C-G with <u>three</u> hydrogen bonds; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Don't forget about uracil, as the question mentions RNA too. The number of hydrogen bonds in each base pair is important to mention, it's not enough to just state A-T / A-U and C-G.*
+
+### Q3
+The results at 7 seconds and 120 seconds can be contrasted as follow:
+
+- At 7 seconds, most radioactivity was found in the smaller fragments **WHILE** the fragments were much larger after a "chase" period of 120 seconds; **[1 mark]**
+- The radioactivity of the fragments was low / peaked below 1 cpm cm<sup>-3</sup> at 7 seconds **WHILE** the radioactivity of the fragments was high / peaked above 5 cpm cm<sup>-3</sup> at 120 seconds; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The command word contrast requires you to look at the differences in the data between the two "chase" periods and compile your answer accordingly.*
+An explanation for the results at 60 seconds would be:
+
+- Two peaks indicate that there are both small and large / two different sized fragments present in this sample; **[1 mark]**
+- The smaller fragments would result from (discontinuous) replication occurring on the lagging strand while the larger fragments would be due to the (continuous) replication of the leading strand; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Only the leading strand can be replicated continuously since DNA polymerase can only add nucleotides in the 5' to 3' direction. This results in the presence of larger fragments in the DNA sample that was "chased" for 60 seconds. The lagging strand is replicated in short fragments (Okazaki fragments) which explains their presence in this DNA sample.*
+A possible reason for the low number of small fragments at 120 seconds would be:
+
+- Many of the smaller/Okazaki fragments would have been joined together by <u>DNA ligase</u> resulting in a decrease of small fragments / increase in larger fragments; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *It is important to be able to apply your knowledge of DNA replication to an unfamiliar scenario. At a "chase" period of 120 seconds, DNA ligase would have been able to join many of the smaller fragments produced on the lagging strand, which explains the low peak for the small fragments and the presence of many large fragments.*
+A line of the predicted results at 150 seconds would include:
+
+- First peak below **AND** second peak above 120 second line; **[1 mark]**
+- Similar shape to 120 second line **AND** radioactivity at the start and end of the line is higher than for 120 second line; **[1 mark]**
+
+**[Total: 2 marks]**
+
+![hl-ib-7-1-h-q2d-ma](assets/019-hl-ib-7-1-h-q2d-ma.png)
+
+### Q4
+The number of Kb in the DNA of the fruit fly is:
+
+- 5.6cm = 56000μm; **[1 mark]**
+- 56000 ÷ 0.34 = 164706; **[1 mark]**
+
+*Full marks are awarded for the correct answer only*
+
+**[Total: 2 marks]**
+
+> *Note that you can only get one mark if you gave your answer as 164705.88 or 164705.9 because the question specifically asks you to give your answer to the nearest whole number. *
+
+![length-of-dna-ma](assets/020-length-of-dna-ma.png)
+An advantage of DNA molecules having two strands is...
+
+**Final answer:** **Any ****one ****of the following:**
+
+- Hydrogen bonding between complementary bases (in double-stranded DNA) contributes to the stability (of the molecule);** [1 mark]**
+- It provides protection for the bases (from mutagens/digestive enzymes);** [1 mark]**
+
+**[Total: 1 mark]**
+
+> *The structure of the DNA double helix ensures that the nitrogenous bases are kept on the inside of the molecule away from potential harm or damage.*
+The numbering of the carbon atoms in the pentose sugars are as follows:
+
+![dna-skeletal-formulae-sq-ma](assets/022-dna-skeletal-formulae-sq-ma.png)
+
+1 mark given for each correct strand; **[2 marks]**
+
+**[Total: 2 marks]**
+
+> *This question is quite tricky because with a skeletal formula the carbon atoms aren't labelled. Remember that wherever two lines meet there is a carbon atom. The rule with numbering the carbons is to start at the oxygen atom and go around the pentagon clockwise. Don't forget that the 5th carbon is outside the pentagon shape! *
+The total number of each base present in the strand and the % composition of each base is:
+
+- Number of adenine **and** thymine bases = 835 each; **[1 mark]**
+- Number of cytosine **and** guanine bases = 365 each; **[1 mark]**
+- % of adenine **and** thymine bases = 35% each; **[1 mark]**
+- % of cytosine **and** guanine bases = 15% each; **[1 mark]**
+
+*Full marks are awarded for the correct answer only*
+
+**[Total: 4 marks]**
+
+![number-of-bases-in-a-dna-strand-ma](assets/023-number-of-bases-in-a-dna-strand-ma.png)
+
+### Q5
+(i) The band of DNA from bacteria first grown in the (<sup>15</sup>N) culture and then transferred to the normal (<sup>14</sup>N) culture would appear…
+
+- Higher than tube A; **[1 mark]**
+- Lower than tube C; **[1 mark] **
+
+For example:
+
+![ocr-a-2-3h-sq-meselson-and-stahl-tubes-answer](assets/025-ocr-a-2-3h-sq-meselson-and-stahl-tubes-answer.png)
+
+(ii) After one more generation in the (<sup>14</sup>N) culture the appearance of tube B would be...
+
+- One band in the same position as part (i); **[1 mark]**
+- One band in the same position as tube C; **[1 mark]**
+
+![meselson-and-stahl-experiment-second-generation-results](assets/026-meselson-and-stahl-experiment-second-generation-.png)
+
+**[Total: 4 marks]**
+
+> *For part (ii) of the question it is important to understand that during the next phase of reproduction, the lighter (less dense) (*<sup>*14*</sup>*N) would be incorporated into the bacteria and so this generation would float higher up than the first as they would be less dense than the generation with only (*<sup>*15*</sup>*N). This process happens as part of the semi-conservative replication of the bacterium's DNA.*
+This is because…
+
+(i)
+
+- In the (bacterium's) DNA molecule, the old strand contains (<sup>15</sup>N), while the new strand contains (<sup>14</sup>N); **[1 mark]**
+- So the DNA is **less **dense/heavy than that containing entirely (<sup>15</sup>N), but **more **dense/heavy than that containing entirely (<sup>14</sup>N); **[1 mark]**
+
+**(ii)**
+
+- Two strands of (bacterium's) DNA contain (<sup>15</sup>N) DNA from the original culture, with new (<sup>14</sup>N) incorporated from the new culture; **[1 mark]**
+- Two stands are fully (<sup>14</sup>N) because they contain the (<sup>14</sup>N) strand from the previous generation as well as a new (<sup>14</sup>N) strand; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *To apply your knowledge to this question you need to be confident in your understanding of semi-conservation replication of DNA.*
+Meselson and Stahl’s experiment demonstrates the semi-conservative replication of DNA because…
+
+- In semi-conservative replication, when DNA is replicated, the new DNA molecule will be made of one original strand and one newly synthesised strand; **[1 mark]**
+- Tube B shows a band of DNA which is **less **dense/heavy than bacteria grown in (<sup>15</sup>N) (tube A) and **more **dense/heavy than bacteria grown in (<sup>14</sup>N) (tube C); **[1 mark]**
+- When the bacteria are grown in (<sup>15</sup>N), it incorporates the heavier isotope into its DNA;** [1 mark]**
+- When this bacteria is transferred to (<sup>14</sup>N) medium and allowed to replicate once, the new strand will incorporate (<sup>14</sup>N); **[1 mark]**
+- The resulting DNA molecule is made of one strand containing (<sup>15</sup>N), and one containing (<sup>14</sup>N);** [1 mark]**
+
+**[Total: 5 marks]**
+The outcome of the experiment would be...
+
+- One band in the same position as tube A; **[1 mark]**
+- One in the same position as tube C; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q6
+The purpose of DNA replication is to...
+
+- Copy/make new DNA for new cells/daughter cells / cell division **OR** to ensure that daughter cells (after cell division) are genetically identical to the parent cell;** [1 mark]**
+
+**[Total: 1 mark] **
+The correct diagram is...
+
+- A; **[1 mark]**
+
+This is because...
+
+- (A) shows semi-conservative replication / half of the new double helix contains original DNA while half contains new DNA OR B shows (fully) conservative replication;** [1 mark]**
+
+**[Total: 2 marks] **
+Two enzymes that are involved with the process of DNA replication include...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- Helicase; **[1 mark]**
+- DNA polymerase; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Be careful not to mix up DNA polymerase with RNA polymerase; DNA polymerase joins DNA nucleotides during DNA replication while RNA polymerase joins RNA nucleotides during transcription*
+
+> *.*
+The fraction of a cell’s original DNA that will be present after 3 full replication cycles is...
+
+- ½ x ½ x ½ OR (½)3  OR 1 ÷ 2 and 0.5 ÷ 2 and 0.25 ÷ 2; **[1 mark]**
+- ⅛ / 0.125 / 12.5 %; **[1 mark]**
+
+Full marks can be awarded for the correct answer in the absence of other calculations.
+
+**[Total: 2 marks] **
+
+> *Because of semi-conservative replication **half** the original cell’s DNA will be conserved every time the cell replicates itself. There are 3 cycles of replication so we have to multiply 0.5 by itself three times, i.e 0.5 cubed, or divide it by 2 three times (as shown below) instead. The question asks for a fraction but you can express your answer correctly as a** decimal** or** percentage** without penalty. *
+
+![b9395092-4917-461a-b0f1-e0ca468f0e37](assets/028-b9395092-4917-461a-b0f1-e0ca468f0e37.jpeg)
+
+### Q7
+RNA can be described as a polymer and as a macromolecule because...
+
+*As a polymer:*
+
+**Final answer:** **Any ****one**** of the following:**
+
+- (RNA contains) (similar) repeating smaller molecules/subunits; **[1 mark]**
+- It has repeating / many monomers / (RNA) nucleotides; **[1 mark]**
+- Nucleotides joined together to form a chain; **[1 mark]**
+- It is made of nucleotides to form <u>poly</u>nucleotide; **[1 mark]**
+
+*As a macromolecule:*
+
+**Final answer:** **Any ****one**** of the following:**
+
+- It has large (biological) molecules / is made up of 1000 or more atoms / with a high molecular mass; **[1 mark]**
+- It has a giant/huge structure; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Be very careful about what the subunits are in RNA. 'Bases', 'amino acids' or 'sugars' are often given as answers by students, which are both wrong. The best word to use for this is **nucleotides**. You may understand what a polymer is but make sure you're also aware of the definition of 'macromolecule'.*
+The test for reducing sugars and the observations for a positive result are...
+
+*Test*
+
+- Add Benedict’s (solution / reagent) <u>and</u> boil/heat to a temperature 80 °C and above; **[1 mark]**
+
+*Observation*
+
+- A precipitate forms / (change from clear blue to various colours) green / yellow / orange / red / brown (**NOT** black / purple / blue); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The most common omission is that students fail to mention that the reaction mixture is boiled as part of the test procedure. Make sure to include this step!*
+The completed Table 1 is as follows...
+
+| **Feature** | **DNA nucleotides** | **RNA nucleotides** |
+|---|---|---|
+| Pentose sugar  component | **Final answer:** **Deoxyribose** | **Final answer:** **Ribose** |
+| Purine bases | **Final answer:** **Adenine /A Guanine / G** | **Final answer:** **Adenine /A Guanine / G** |
+| Pyrimidine bases | **Final answer:** **Cytosine / C Thymine / T** | **Final answer:** **Cytosine / C Uracil / U** |
+
+**[1 mark] **for each correct row of the table.
+
+**[Total: 3 marks]**
+
+### Q8
+The percentage of thymine in this DNA is...
+
+- C-G = 34 (%) OR A-T = 66 (%);** [1 mark]**
+- T = 33 (%); **[1 mark]**
+
+*Full marks awarded for the correct answer in the absence of calculations*
+
+**[Total: 2 marks] **
+
+![ma-for-dna--base-question](assets/029-ma-for-dna-base-question.jpg)
+The calculation from part (a) could not be performed for a strand of RNA because…
+
+**Final answer:** **Any ****one**** of the following:**
+
+- RNA does not contain thymine / contains uracil (in place of thymine) / the answer would always be 0 %; **[1 mark]**
+- RNA is (usually) single-stranded (so doesn’t form base pairs); **[1 mark]**
+
+**[Total: 1 mark]**
+Structures **A**, **B**, and **D** are...
+
+- **A** = sugar-phosphate backbone / repeated (pentose) sugar and phosphate molecules; **[1 mark]**
+- **B** = nucleotide; **[1 mark]**
+- **D** = nitrogenous base; **[1 mark]**
+
+**[Total: 3 marks]**
+One type of bond in the structure labelled **C** is...
+
+**Final answer:** **Any ****one**** of the following:**
+
+- Hydrogen bond (between the bases); **[1 mark]**
+- Covalent bond (between the sugar and the base/phosphate / between the nucleotides); **[1 mark]**
+
+***Accept**** phosphodiester bond.*
+
+**[Total: 1 mark]**
+
+### Q9
+The completed table is as follows:
+
+|   | **Purine** | **Pyrimidine** |
+|---|---|---|
+| Adenine | ✓ |   |
+| Thymine |   | ✓ |
+| Cytosine |   | ✓ |
+| Guanine | ✓ |   |
+| Uracil |   | ✓ |
+|   | **; [1 mark]** | ; **[1 mark]** |
+
+**[Total: 2 marks]**
+The the direction in which DNA polymerase adds new DNA nucleotides during DNA replication is...
+
+- 5' to 3'; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *This is pronounced out loud as 5 "prime" to 3 "prime".*
+
+> *DNA polymerase is an enzyme, so its active site is a specific shape and can only bind to the 3' end of a piece of DNA. This means that the DNA polymerase 'reads' the template in the 3' to 5' direction, and **builds a new DNA strand** in the antiparallel **5' to 3' direction**. Be careful not to get confused between the direction of reading and the direction of building here!*
+The formation of new DNA differs between the leading and lagging strands as follows...
+
+- On the leading strand the formation of the new DNA is continuous; **[1 mark]**
+- On the lagging strand the DNA is synthesised in small segments / Okazaki fragments; **[1 mark]**
+
+**[Total: 2 marks]**
+The function of DNA ligase during DNA replication is:
+
+- To join together the DNA fragments / Okazaki fragments / forms a continuous DNA strand (in the lagging strand); **[1 mark]**
+- Catalyse the formation of phosphodiester bonds in the DNA backbone / between nucleotides;** [1 mark]**
+
+**[Total: 2 marks]**
+
+### Q10
+A comparison of the structures of RNA and DNA nucleotides should include...
+
+*Similarities*
+
+- Both have a pentose sugar **AND** a phosphate **AND** a nitrogenous base; **[1 mark]**
+- Both have adenine **AND** guanine **AND** cytosine; **[1 mark]**
+
+*Differences*
+
+A **maximum of** **two **of the following:
+
+- RNA has uracil **WHILE** DNA has thymine; **[1 mark]**
+- DNA has deoxyribose sugar **WHILE** RNA has ribose sugar; **[1 mark]**
+- Ribose sugar has -OH at carbon 2 **WHILE** deoxyribose sugar has -H at carbon 2; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember that the command word 'compare' means that you need to give similarities and/or differences, so be sure to give a balance of both types of point.*
+
+> *Make sure to refer to both DNA and RNA together when comparing. Use link words like 'while' or 'both' to aid your comparison. *
+The structures are:
+
+- X = uracil; **[1 mark]**
+- Y = hydrogen bonds; **[1 mark]**
+- Z = <u>ribose</u> sugar; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *While the topic of transcription is not covered in detail until 6.2, topic 6.1 does cover RNA structure, so you should be able to answer this question based on this knowledge alone.*
+Neighbouring nucleotides are held together in the sugar-phosphate backbone by:
+
+- Phosphodiester (bonds); **[1 mark]**
+
+**[Total: 1 mark]**
+Examples of molecule types that contains RNA include...
+
+**Final answer:** **Any ****one**** of the following:**
+
+- mRNA/messenger RNA / pre-mRNA; **[1 mark]**
+- tRNA/transfer RNA; **[1 mark]**
+- rRNA/ribosomal RNA; **[1 mark]**
+
+***Accept**** other correctly named examples, e.g. siRNA, miRNA, snoRNA, piRNA.*
+
+**[Total: 1 mark]**
+
+> *Topic 6.1 covers mRNA as an example of an RNA molecule, so you would be expected to know this here. Other types of RNA, such as tRNA and rRNA are covered in more detail in topic 6.2.*
+
+### Q11
+mRNA structure of mRNA enables it to perform its function as follows:
+
+Any **two** of the following:
+
+- It is single-stranded **SO** it can fit through the nuclear pores / attach to a ribosome; **[1 mark]**
+- It has exposed / accessible bases **SO** can form complementary base pairs with the bases in tRNA / tRNA anticodons; **[1 mark]**
+- It is complementary to the DNA template strand **SO** is an accurate copy of the DNA; **[1 mark]**
+- It is unstable / degrades easily (compared to DNA) **SO** it can be broken down to switch off protein production; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The structure of RNA enables it to create a reliable copy of the DNA molecule, which can then be taken to the ribosomes situated outside the nucleus. DNA is too large to fit through the nuclear pores, due to its double-stranded nature, but RNA can fit through the pores.*
+The following statements apply to each of the molecules:
+
+**Final answer:** **One**** mark per correct column:**
+
+| **Statement** | **DNA** | **messenger RNA** | **protein** |
+|---|---|---|---|
+| Hydrogen bonds stabilise the molecule | √ |   | √ |
+| Subunits are joined by peptide bonds |   |   | √ |
+| The molecule is double stranded | √ |   |   |
+| Contains phosphodiester bonds | √ | √ |   |
+| Uracil is present |   | √ |   |
+| **Marks allocated** | ; **[1 mark]** | ; **[1 mark]** | ; **[1 mark]** |
+
+**[Total: 3 marks]**
+The maximum number of hydrogen bonds that could be present in this section of DNA would be:
+
+- 62 x 3; **[1 mark]**
+- =<u>186</u> (hydrogen bonds); **[1 mark]**
+
+*Full marks awarded for the correct answer only.*
+
+**[Total: 2 marks]**
+
+![~CJ5xd~k_model-ans-dna-3c](assets/033-cj5xd-k-model-ans-dna-3c.png)
+The role of covalent bonds in forming polynucleotides include:
+
+**Final answer:** **Any ****two**** of the following:**
+
+- These bonds are called phosphodiester bonds; **[1 mark]**
+- They link the 5-carbon of deoxyribose/sugar to the phosphate group within each nucleotide; **[1 mark]**
+- (This type of bond) also links the phosphate group of one nucleotide to the 3-carbon of deoxyribose/sugar of the next nucleotide; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Covalent bonds occur when electron pairs are shared between atoms, which make for the formation of a strong bond between them. In the case of nucleotides, these bonds are called phosphodiester bonds and they provide stability to the sugar-phosphate backbone of DNA.*
+
+### Q12
+The term leading and lagging strand refers to the following in DNA replication:
+
+- (The leading strand) is being copied continuously / towards the replication fork / in the 5' to 3' direction; **[1 mark]**
+- (The lagging strand) is being copied in segments / fragments / Okazaki fragments / away from the replication fork; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *DNA polymerase can only build a new strand in the 5' to 3' direction. The leading strand allows the enzyme to do this continuously, while this is not possible on the lagging strand. The Okazaki fragments that result from the replication of the lagging strand will be joined together by DNA ligase to form a continuous strand.*
+The structure of a monomer of a DNA molecule includes:
+
+**Final answer:** **Any ****two**** from the following:**
+
+- Deoxyribose <u>and</u> phosphate <u>and</u> a (nitrogenous) base; **[1 mark]**
+- One correctly named base (e.g. adenine/A, thymine/T, cytosine/C, guanine/G); **[1 mark]**
+- Description of phosphate group and base <u>attached</u>/<u>bonded</u> to deoxyribose; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Make sure that you know the monomers of biological molecules very well. In the case of DNA it is a nucleotide and its basic structure is important to know. *
+The bases for RNA are as follow:
+
+Purines:
+
+- Adenine <u>and</u> guanine (no letters accepted); **[1 mark]**
+
+Pyrimidines:
+
+- Cytosine <u>and</u> uracil (no letters accepted); **[1 mark]**
+
+**[Total: 2 marks]**
+DNA replicates in the following way:
+
+**Final answer:** **Any ****five**** of the following:**
+
+- DNA (double helix) unwinds/uncoils; **[1 mark]**
+- Hydrogen bonds between (complementary) bases break; **[1 mark]**
+- *Mention of* complementary base/nucleotide pairing / A-T <u>and</u> C-G; **[1 mark]**
+- Both strands are used as templates **OR **both strands are copied; **[1 mark]**
+- (DNA replication) produces two identical DNA molecules; **[1 mark]**
+- Replication is semi-conservative / each new DNA molecule has one original and one new strand; **[1 mark]**
+- *Reference to* binding of DNA polymerase to template strands; **[1 mark]**
+- Leading strand is copied continuously while lagging strand is copied in fragments / Okazaki fragments; **[1 mark]**
+- DNA ligase will join Okazaki fragments / new nucleotides together; **[1 mark]**
+- Nucleotides are joined together with phosphodiester bonds; **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *Make sure you understand the steps involved with DNA replication. You need to mention what happens to the original DNA molecule, the enzymes that are involved with the process and the bonds that are broken and formed. Also take note that the two strands are copied differently due to the fact that DNA polymerase can only copy in the 5' to 3' direction. The leading strand is copied continuously as a result of this, while the lagging strand is copied in fragments that must then be joined together to form a continuous strand.*
+
+### Q13
+DNA replication can be described as semi-conservative because:
+
+- Each DNA strand acts as a template (for the synthesis of a new/complementary strand); **[1 mark]**
+- The new DNA (molecule) has one old/parental/original strand **and** one new/daughter strand; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *During semi-conservative replication, the DNA molecule will unwind and unzip, with each strand acting as a template for the formation of a new strand of DNA. This means that every new molecule of DNA will contain the template strand from the original DNA molecule and the new strand that formed as a result of the template strand. So the original DNA molecule is only 'semi-conserved' within the new DNA molecules.*
+The structure of DNA will facilitate semi-conservative replication in the following ways:
+
+**Final answer:** **Any ****three**** of the following:**
+
+- Base pairing occurs **OR** adenine binds to thymine / A-T <u>and</u> cytosine binds to guanine / C-G **OR** purine binds to pyrimidine; **[1 mark]**
+- Reference to hydrogen bonds involved with base pairing; **[1 mark]**
+- (Free) nucleotides pair with both strands / each strand/polynucleotide/side; **[1 mark]**
+- Both strands act as a template (for a new strand to form); **[1 mark]**
+- Two identical DNA molecules are produced; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The structure of the DNA molecule enables it to unwind and unzip so that each strand acts as a template for a new strand to form, leading to two identical DNA molecules each consisting of one original and one new strand. Complementary base pairing ensures that the two new molecules will have the exact same base sequence as the original DNA molecule.*
+The importance of the new DNA molecules being identical to each other is because...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- (It ensures all cells/nuclei) are <u>genetically</u> identical / contain the same genetic information / genetic material does not vary / same genotype; **[1 mark]**
+- There would be no mutations present; **[1 mark]**
+- A consequence of mutations (e.g. cells not recognised, uncontrollable cell division, cancer, disease such as sickle cell anaemia, altered active sites for enzymes, different proteins with different functions); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is very important that cells contain the same genetic information in order for them to continue performing the same function. Any change to the genetic code is called a mutation and can have a very negative impact on the cells, and ultimately the organism.*
+(i) The missing values in Table 4.1 would be as follow:
+
+| **Generation** | **Percentage DNA containing **<sup>**14**</sup>**N and **<sup>**15**</sup>**N** | **Percentage DNA containing **<sup>**14**</sup>**N only** |
+|---|---|---|
+| 1 | 100 | 0 |
+| 2 | 50 | 50 |
+| 3 | 25 | 75 |
+| 4 | 12 | 88 |
+| 5 | 6; **[1 mark]** | 94; **[1 mark]** |
+
+![model-ans-dna-4d](assets/034-model-ans-dna-4d.png)
+
+(ii) The conclusion that can be drawn from these results:
+
+- *E. coli* DNA replicates semi-conservatively / semi-conservative DNA replication took place; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The results support semi-conservative DNA replication. After each cycle of DNA replication, the amount of DNA containing both isotopes of nitrogen would halve, compared to the total amount of DNA. This is because there is only *<sup>*14*</sup>*N in the growth medium, so no new DNA strands containing *<sup>*15*</sup>*N can form.*
+
+![dna-replication](assets/035-dna-replication.png)
+
+### Q14
+Information that could be added to** **two of the labels to confirm that this cell is prokaryotic and not eukaryotic is...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Cell wall made from peptidoglycan/murein / cell wall <u>not</u> made from cellulose; **[1 mark]**
+- DNA free in the cytoplasm **OR** circular / closed loop of DNA **OR** naked DNA / no histones; **[1 mark]**
+- 70s ribosomes; **[1 mark]**
+- No membrane around flagellum; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *For this question you cannot get marks for suggesting new labels, only adding to the labels that already exist, as stated in the question. *
+The scientists were able to deduce that the pathogen infected the phloem tissue because...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Transport of sucrose/products of photosynthesis (in phloem) is prevented; **[1 mark]**
+- Starch (would usually be) synthesised in the root from transported assimilates; **[1 mark]**
+- Starch is not converted in leaf to sugars/sucrose (for transport, and so starch accumulates in the leaves); **[1 mark]**
+- The pathogen and the phloem are present in many organs/leaves/roots; **[1 mark]**
+
+***Accept**** correct reasons why the infected tissue cannot be the xylem, e.g. "xylem are dead cells with no cell content and so would not be able to support living pathogens".*
+
+**[Total: 2 marks]**
+
+> *Remember that starch is not transported in the phloem, it is **stored** in the leaves and hydrolysed to **sucrose** before it is transported.*
+The completed table is as follows…
+
+| feature | DNA nucleotide with adenine | RNA nucleotide with adenine | ATP |   |
+|---|---|---|---|---|
+| contains nitrogen (yes or no) | yes | yes | yes | ;** [1 mark]** |
+| contains a pyrimidine base (yes or no) | no | no | no | ;** [1 mark]** |
+| number of phosphate groups | 1 | 1 | 3 | **; [1 mark]** |
+| name of the sugar component | deoxyribose | ribose | ribose | **DNA has deoxyribose**;** [1 mark]  **<br><br>**AND**<br><br>**RNA ****and **ATP have ribose; **[1 mark]** |
+
+**[Total: 5 marks]**
+
+> *If you struggle with this, try drawing some diagrams of the three nucleotides together and label the differences. *
+
+### Q15
+From the data in Table 1 the following can be confirmed:
+
+**Final answer:** **Any ****three**** from the following:**
+
+- A purine base will always pair with a pyrimidine base; **[1 mark]**
+- (Named) base/nucleotide pairing (A - T , C - G); **[1 mark]**
+- The percentage adenine/A is very similar / the same as the percentage of thymine/T; **[1 mark]**
+- The percentage cytosine/C is very similar / the same as the percentage of guanine/G; **[1 mark]**
+- Data quote in support of above statements; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Chargaff's work indicated that the amount of adenine and thymine was similar, as well as the amount of cytosine and guanine in the DNA of different organisms. This provided a clue as to how the bases arranged themselves in a DNA molecule, with adenine binding to thymine and guanine binding to cytosine.*
+The ways in the structure of DNA and RNA differ include the following:
+
+**Final answer:** **Any ****three**** of the following:**
+
+- DNA is made up of two polynucleotides/chains/strands while RNA is a single polynucleotide/chain/strand; **[1 mark]**
+- DNA has a <u>double helix</u> structure while RNA is not a helix / is a straight chain; **[1 mark]**
+- The pentose sugar in DNA is <u>deoxyribose</u> as opposed to <u>ribose</u> in RNA; **[1 mark]**
+- DNA contains thymine but no uracil while RNA contains uracil but no thymine; **[1 mark]**
+- Hydrogen bonding occur between all DNA bases but not between / only between some RNA bases; **[1 mark]**
+- DNA is a longer molecule (than RNA); **[1 mark]**
+- DNA is only one type of molecule while there are three types of RNA (mRNA, tRNA, rRNA); **[1 mark]**
+- In DNA the ratio of A+G / purines to C+T / pyrimidines is 1:1, while the ratio of A+G / purines to C+U / pyrimidines varies; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Make sure that you are able to contrast the main differences in the structure of DNA and RNA with one another. The pentose sugar is different (deoxyribose in DNA, ribose in RNA), as well as one of the bases (thymine in DNA, uracil in RNA).  Another main difference is the fact that DNA is a double stranded molecule with hydrogen bonds holding the two strands together, while RNA is a single stranded molecule. The double stranded structure of DNA is what leads to the ratio of 1:1 between purines and pyrimidines in the molecule, since a purine base will always bind to a pyrimidine base.*
+ATP can be described as a phosphorylated nucleotide due to the following reasons:
+
+- It contains three phosphate groups that have been added to adenosine/ribose/pentose sugar; **[1 mark]**
+- (It is a nucleotide due to) the presence of a pentose sugar, nitrogenous base and a phosphate group; **[1 mark]**
+
+**[Total: 2 marks] **
+
+> *The chemical energy that is stored in the bonds between the phosphate groups is what makes ATP such a great energy carrier in living organisms. These bonds can be easily broken when ATP is hydrolysed to release the energy for use in biochemical reactions.*
+
+### Q16
+The bases in Fig. 1 can be identified as follows:
+
+- **Q** - adenine; **[1 mark]**
+- **R** - guanine; **[1 mark]**
+- **S** - cytosine; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *To identify the bases correctly you must begin with the base that is given. Due to complementary base pairing we know that **Q** will be adenine as it will always bind to thymine. The next base pair has three hydrogen bonds between them, which means it must be guanine and cytosine. Guanine is a purine due to its double ring structure which is represented by **R** in Fig. 1, which means that **S** must be cytosine (due to complementary base pairing).*
+The importance of hydrogen bonding includes the following:
+
+**Final answer:** **Any ****two**** of the following:**
+
+- Hydrogen bonds hold (two) polynucleotides / strands /  chains together **OR** hold (complementary) nucleotides / base pairs together **OR** prevents unwinding / strand separation; **[1 mark]**
+- (many hydrogen bonds) give stability / stabilises DNA molecule; **[1 mark]**
+- (Hydrogen bonds) can be broken for transcription / replication; **[1 mark]**
+- Contributes to (double) helix structure (of DNA molecule); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Hydrogen bonding is important to the structure of a DNA molecule as it holds the complementary base pairs in position and therefore the entire double helix structure. Even though the hydrogen bonds are strong enough to keep the molecule intact, it can be broken in order for the molecule to unzip during DNA replication and transcription.*
+A comparison of the structure of ATP and DNA nucleotides includes the following:
+
+**Final answer:** **Any ****three**** of the following:**
+
+Similarities:
+
+- Both contain a <u>pentose sugar</u>, <u>nitrogenous base</u> and a <u>phosphate</u> group; **[1 mark]**
+
+Differences:
+
+- For DNA the pentose sugar is deoxyribose while for ATP it is ribose; **[1 mark]**
+- In DNA the nitrogenous base could be adenine, guanine, cytosine or thymine while for ATP it is (always) adenine; **[1 mark]**
+- DNA nucleotides contain only one phosphate group while for ATP it is three; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *ATP and DNA nucleotides share some similarities in their basic structure, even though their functions are completely different. The energy that is stored in the bonds between the phosphate groups can be readily released when ATP is hydrolysed, which is what makes it such a good energy carrier in living organisms.*
+The percentage nucleotides containing cytosine would be calculated as follows:
+
+- 42 ÷ 2; **[1 mark]**
+- = <u>21</u>(%); **[1 mark]**
+
+*Full marks awarded for the correct answer only.*
+
+**[Total: 2 marks]**
+
+![model-ans-dna-1d](assets/039-model-ans-dna-1d.png)

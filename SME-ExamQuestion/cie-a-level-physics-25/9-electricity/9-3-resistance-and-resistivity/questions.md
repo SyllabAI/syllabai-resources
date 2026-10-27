@@ -1,6 +1,6 @@
 # Exam Questions — Resistance & Resistivity
 **9. Electricity** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 56 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 67 questions across 2 sets
 
 
 ## Multiple Choice Questions (56 questions)
@@ -670,3 +670,436 @@ The graph shows how the electric current *I*  through a conducting liquid varies
 At which point on the graph does the liquid have the smallest resistance?
 
 ![cie-ial-images449png](assets/052-cie-ial-images449png.png)
+
+## Structured Questions (11 questions)
+
+
+### Q1 — medium — 8 marks
+
+**Q1** [3 marks]
+
+Fig. 1.1. shows the graph of V against I for a non-ohmic conductor.
+
+![9-2-2a-m-iv-graph](assets/053-9-2-2a-m-iv-graph.png)
+
+**Fig. 1.1.**
+
+Calculate the maximum resistance of the lamp over the range shown by the graph.
+
+**Q1** [2 marks]
+
+Using the axes in Fig. 1.2. sketch the graph of current against potential difference for a diode.
+
+![9-2-2b-m-diode-axes](assets/055-9-2-2b-m-diode-axes.png)
+
+**Fig. 1.2.**
+
+**Q1** [3 marks]
+
+For the graph in Fig. 1.3. determine
+
+![9-2-2c-m-iv-graph-3](assets/058-9-2-2c-m-iv-graph-3.png)
+
+**Fig. 1.3.**
+
+(i) the resistance when current = 10 mA
+
+[2]
+
+(ii) the power when current = 10 mA
+
+[1]
+
+### Q2 — easy — 10 marks
+
+**Q2** [2 marks]
+
+On Fig 1.1, sketch the change in resistance with temperature for a thermistor.
+
+![9-3-2a-e-thermistor-graph](assets/059-9-3-2a-e-thermistor-graph.png)
+
+**Fig 1.1**
+
+**Q2** [3 marks]
+
+At 20 °C a wire is used to create a thermistor and has an electrical resistivity of 5.6 × 10<sup>–8 </sup>Ω m.
+
+State and explain what would happen to the resistivity of the thermistor if its temperature is increased to 60 °C.
+
+**Q2** [3 marks]
+
+(i) State the meaning of *LDR*.
+
+[1]
+
+(ii) On Fig 1.2, sketch the change in resistance with light intensity for an LDR.
+
+![9-3-2c-e-ldr-graph](assets/061-9-3-2c-e-ldr-graph.png)
+
+**Fig 1.2**
+
+[2]
+
+**Q2** [2 marks]
+
+**Extract:**
+
+On Fig 1.2, sketch the change in resistance with light intensity for an LDR. A graph of the change in resistance with light intensity for an LDR should look like: Curved line showing decreasing gradient with greater light intensity; Smooth line not touching light intensity axis AND no horizontal or vertical line anywhere.
+
+An LDR is connected to a circuit to operator an automatic street light. The resistance of the LDR is measured to be 5 kΩ at one time and 20 MΩ at another.
+
+State which resistance the LDR is likely to be at during the day and which it will be at night.
+
+### Q3 — easy — 9 marks
+
+**Q3** [1 mark]
+
+A straight wire of unstretched length *L* has an electrical resistance *R*. The area of the cross-section *A *of the wire may be assumed to be constant.
+
+State the relation between *R, L,* *A* and the resistivity *ρ *of the material of the wire.
+
+**Q3** [3 marks]
+
+Measurements made for a sample of metal wire are shown in Table 1.1.
+
+**Table 1.1**
+
+| Quantity | Measurement |
+|---|---|
+| resistance<br><br>diameter<br><br>length | 6.1 Ω<br><br>0.44 mm<br><br>1390 mm |
+
+State the most appropriate instrument to use to measure
+
+(i) the resistance of the wire
+
+[1]
+
+(ii) the diameter of the wire
+
+[1]
+
+(iii) the length of the wire.
+
+[1]
+
+**Q3** [3 marks]
+
+**Extract:**
+
+Measurements made for a sample of metal wire are shown in Table 1.1. Table 1.1 - resistance: 6.1 Ω; diameter: 0.44 mm; length: 1390 mm
+
+Show that the resistivity of the metal is 6.67 × 10<sup>–7 </sup>Ω m.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Measurements made for a sample of metal wire are shown in Table 1.1. Quantity: resistance 6.1 Ω, diameter 0.44 mm, length 1390 mm.
+
+State and explain what would happen to the resistivity of the wire if the diameter was doubled.
+
+### Q4 — medium — 10 marks
+
+**Q4** [2 marks]
+
+An electrical component has the I-V characteristic shown in Fig. 1.1.
+
+![9-2-3a-m-iv-graph-2](assets/063-9-2-3a-m-iv-graph-2.png)
+
+**Fig. 1.1**
+
+Determine the resistance of the component when a potential difference of 6.0 V is applied across it.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+An electrical component has the I-V characteristic shown in Fig. 1.1. Fig. 1.1
+
+For the component in part **(a)** calculate the minimum value of *R* as the potential difference across it changes over the range 0-10 V.
+
+**Q4** [6 marks]
+
+**Extract:**
+
+An electrical component has the I-V characteristic shown in Fig. 1.1. Fig. 1.1 (I-V graph of the component).
+
+For the component in part **(a)** calculate
+
+(i) The power dissipated when *V* = 2.0 V
+
+[2]
+
+(ii) The maximum power dissipated before the component heats up
+
+[2]
+
+(iii) The value of resistance at the point identified in part (ii)
+
+[2]
+
+### Q5 — medium — 7 marks
+
+**Q5** [4 marks]
+
+At room temperature, a metal has a resistivity of 3.0 × 10<sup>–7</sup> Ω m.
+
+A 2.5 m length of wire made from this metal has a cross-sectional area of 0.50 mm<sup>2</sup>.
+
+Calculate the power dissipated in this length of wire when it carries a current of 10 mA.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+At room temperature, a metal has a resistivity of 3.0 × 10^–7^ Ω m. A 2.5 m length of wire made from this metal has a cross-sectional area of 0.50 mm^2^. Calculate the power dissipated in this length of wire when it carries a current of 10 mA.
+
+State and explain the assumption that is necessary for calculating the answer to part (a).
+
+**Q5** [1 mark]
+
+In electrical power transmission conventional copper wires are often replaced with wires which conduct with wires with an effective resistance which is close to zero, called superconducting wires.
+
+Explain why the superconducting wires increase the efficiency of electrical power transmission.
+
+### Q6 — easy — 11 marks
+
+**Q6** [4 marks]
+
+Complete Table 1.1 by placing a tick (**✓**)** **in the correct column to show whether each of the quantities affects or does not affect the resistance of a conducting wire.
+
+**Table** **1.1**
+
+| **quantity** | **does not affect resistance** | **affects resistance** |
+|---|---|---|
+| cross-sectional area |   |   |
+| length |   |   |
+| resistivity |   |   |
+| mass |   |   |
+
+**Q6** [2 marks]
+
+A lamp is designed to take a current of 0.65 A when connected across a 24 V mains supply.
+
+The filament is made from one of the three metals from Table 1.2 with a diameter of 66 µm.
+
+**Table 1.2**
+
+| **Metal** | **Resistivity / Ω m** |
+|---|---|
+| Nichrome | 1.1  × 10<sup>–6</sup> |
+| Tungsten | 5.5 × 10<sup>–7</sup> |
+| Copper | 1.7 × 10<sup>–8</sup> |
+
+Calculate the cross-sectional area of the metal wire.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+A lamp is designed to take a current of 0.65 A when connected across a 24 V mains supply.
+
+Calculate the resistance of the wire.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+A lamp is designed to take a current of 0.65 A when connected across a 24 V mains supply. The filament is made from one of the three metals from Table 1.2 with a diameter of 66 µm. Table 1.2: Nichrome resistivity 1.1 × 10^–6 Ω m; Tungsten resistivity 5.5 × 10^–7 Ω m; Copper resistivity 1.7 × 10^–8 Ω m. Cross-sectional area A = 3.421 × 10^–9 m². Resistance R = V/I = 24/0.65 = 36.9 Ω.
+
+Hence, or otherwise, determine which metal the filament is made from for a length of 23 cm.
+
+### Q7 — hard — 8 marks
+
+**Q7** [2 marks]
+
+A wire of cross-sectional area *A* is from made metal of resistivity *ρ*. The wire is extended. Assume that the volume *V* of the wire remains constant as it extended.
+
+![9-3-2a-h](assets/065-9-3-2a-h.png)
+
+**Fig 1.1**
+
+Sketch on Fig 1.1 how the resistance *R *of the extending wires varies with the length *l*.
+
+**Q7** [3 marks]
+
+Two resistors X and Y have resistance *R*<sub>X</sub> and *R*<sub>Y</sub> respectively. The resistors are connected in series with a battery with electromotive force (e.m.f) *E* and zero internal resistance, as shown in Fig 1.1.
+
+![9-3-2b-h-resistors-x-and-y-in-series](assets/067-9-3-2b-h-resistors-x-and-y-in-series.png)
+
+**Fig 1.1**
+
+The resistors are made from metal wires. Data from the resistors are given in Table 1.1.
+
+**Table 1.1**
+
+| resistor | X | Y |
+|---|---|---|
+| resistivity of metal | $\frac{ρ}{3}$ | $ρ$ |
+| length of metal | $2l$ | $l$ |
+| diameter of metal | $4d$ | $d$ |
+
+Use information from Table 1.1 to determine the ratio
+
+$\frac{powerdissipatedinY}{powerdissipatedinX}$
+
+**Q7** [3 marks]
+
+**Extract:**
+
+Two resistors X and Y have resistance R_X and R_Y respectively. The resistors are connected in series with a battery with electromotive force (e.m.f) E and zero internal resistance. The resistors are made from metal wires. Data from the resistors are given in Table 1.1.
+
+Table 1.1
+resistor | X | Y
+resistivity of metal | ρ/3 | ρ
+length of metal | 2l | l
+diameter of metal | 4d | d
+
+Use information from Table 1.1 to determine the ratio (power dissipated in Y)/(power dissipated in X). The answer for the series arrangement is: (P_Y/P_X)_series = 24.
+
+Show that the product of the ratio $\frac{powerdissipatedinY}{powerdissipatedinX}$ of X and Y connected in series and connected in parallel is 1.
+
+### Q8 — medium — 9 marks
+
+**Q8** [3 marks]
+
+The photograph shows a statue of Buddha in Sri Lanka, which is protected by a lightning conductor.
+
+![q5-nov-2020-9ph0-03-edexcel-as-a-level-phy](assets/068-q5-nov-2020-9ph0-03-edexcel-as-a-level-phy.png)
+
+During a storm, a potential difference of 2.7 MV was generated between a cloud and the top of the lightning conductor on the statue. A flash of lightning passed between the cloud and the lightning conductor, producing a current of 25 kA for a time of 7.5 ms.
+
+Calculate the energy transferred by the lightning strike.
+
+Energy transferred = ............................................
+
+*Source: 2020 Nov 9PH0/03 Q5A*
+
+
+**Q8** [3 marks]
+
+The lightning conductor is made from copper.
+
+Sketch an *I–V *graph for the rod when it conducts a lightning strike to earth
+
+**Q8** [3 marks]
+
+**Extract:**
+
+The lightning conductor is made from copper. Sketch an I–V graph for the rod when it conducts a lightning strike to earth
+(The rod will get hot since copper wires get hot, therefore) it is the equivalent of a non-ohmic resistor / filament lamp
+
+Explain any changes which the lightning rod would undergo during a lightning strike.
+
+### Q9 — medium — 13 marks
+
+**Q9** [5 marks]
+
+An electrical heating element, made from uniform nichrome wire, is required to dissipate 600 W when connected to the 230 V mains supply.
+
+The radius of the wire is 0.16 mm.
+
+Calculate the length of nichrome wire required.
+
+Resistivity of nichrome = 1.1 × 10<sup>–6</sup> Ω m
+
+**Q9** [2 marks]
+
+**Extract:**
+
+An electrical heating element, made from uniform nichrome wire, is required to dissipate 600 W when connected to the 230 V mains supply.
+
+Suggest **two** properties that the nichrome wire must have to make it suitable as an electrical heating element.
+
+**Q9** [3 marks]
+
+**Extract:**
+
+An electrical heating element, made from uniform nichrome wire, is required to dissipate 600 W when connected to the 230 V mains supply.
+
+Explain why the resistivity of the nichrome wire changes with temperature.
+
+**Q9** [3 marks]
+
+**Extract:**
+
+An electrical heating element, made from uniform nichrome wire, is required to dissipate 600 W when connected to the 230 V mains supply. The radius of the wire is 0.16 mm. Calculate the length of nichrome wire required. Resistivity of nichrome = 1.1 × 10^–6 Ω m. [Answer: L = 6.4 m (2 s.f.)]
+
+An engineer wants to use the same uniform nichrome wire to use in another identical electrical heating element which is also required to dissipate 600 W when connected to the 230 V mains supply.
+
+The only nichrome wire they have available has a radius of 0.08 mm.
+
+Calculate the length needed for this new nichrome wire to produce the same current through the heating element.
+
+### Q10 — hard — 13 marks
+
+**Q10** [5 marks]
+
+Thin films of carbon are sometimes used in electronic systems. Typical dimensions of such a film are shown in Fig. 1.1.
+
+![thin-film-resistivity](assets/070-thin-film-resistivity.png)
+
+**Fig. 1.1.**
+
+Calculate the current which passes through the carbon film in Fig. 1.1. for an applied voltage of 2.5 mV.
+
+The resistivity of carbon = 4.0 × 10<sup>–5</sup> Ω m
+
+**Q10** [4 marks]
+
+**Extract:**
+
+Thin films of carbon are sometimes used in electronic systems. Typical dimensions of such a film are shown in Fig. 1.1. Calculate the current which passes through the carbon film in Fig. 1.1. for an applied voltage of 2.5 mV. The resistivity of carbon = 4.0 × 10^–5 Ω m.
+
+From (a): Current when directed horizontally, I_A = 3.3 × 10^–4 A. Length which current passes through, L = 3.0 × 10^–3 m; Cross-sectional area of conductor, A = (8.0 × 10^–3) × (2.0 × 10^–6) = 1.6 × 10^–8 m^2.
+
+The applied voltage is kept constant, but the current is now directed through the carbon film as shown in Fig. 1.2.
+
+![resistivity-images-1](assets/071-resistivity-images-1.png)
+
+**Fig. 1.2.**
+
+Show that the current is approximately a million times larger if it is directed through the carbon film as shown in Fig. 1.2.
+
+**Q10** [4 marks]
+
+**Extract:**
+
+The applied voltage is kept constant, but the current is now directed through the carbon film as shown in Fig. 1.2. Fig. 1.2. The length that the current passes through, L = 2.0 × 10^–6 m AND the cross-sectional area of conductor, A = (8.0 × 10^–3) × (3.0 × 10^–3) = 2.4 × 10^–5 m^2.
+
+A **tensile** force is applied to the carbon film as shown in Fig. 1.2 in a plane that is normal to the current.
+
+Without performing any calculations, discuss how the resistance of the carbon film changes as a result of the applied tensile force.
+
+State any assumptions you make in your answer.
+
+### Q11 — medium — 9 marks
+
+**Q11** [3 marks]
+
+A student investigates the resistivity* ρ *of a length of a wire *l*, with resistance *R*, diameter *d* and a potential difference *V* through it.
+
+Determine the resistivity, in terms of* ρ*, of a wire of the same length with a diameter 2*d *and* *a* *potential difference 3*V* through it instead.
+
+**Q11** [3 marks]
+
+The student decides to investigate how the cross-sectional area of a wire affects its resistance. The circuit they use to carry out the experiment is shown in Fig 1.1.
+
+![9-3-2b-m-wire-and-resistance-experiment](assets/073-9-3-2b-m-wire-and-resistance-experiment.png)
+
+**Fig 1.1**
+
+Describe a method to accurately determine the cross-sectional area of the wires.
+
+**Q11** [3 marks]
+
+**Extract:**
+
+The student decides to investigate how the cross-sectional area of a wire affects its resistance. The circuit they use to carry out the experiment is shown in Fig 1.1.
+
+The student uses three pieces of nichrome wire, each 1.5 m long. The cross-sectional area of the pieces of wire are
+
+| 0.45 m<sup>2</sup> | 0.21 m<sup>2</sup> | 0.89 m<sup>2</sup> |
+|---|---|---|
+
+Sketch a graph of voltage *V* against the current *I* for each of the wires.

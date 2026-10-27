@@ -248,3 +248,482 @@ theoretical yield = 44.2 g
 **C** is incorrect as Fehling's solution is only reduced by aldehydes. Lactic acid does not contain an aldehyde group.
 
 **D** is incorrect as lactic acid is soluble in water because the alcohol (–OH) and carboxylic acid (–COOH) groups both form hydrogen bonds with water molecules.
+
+## Structured Questions (6 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The reagents and conditions for hydrolysis:
+> 
+> - Dilute acid (sulfuric acid / hydrochloric acid)
+> **OR**
+> Dilute alkali (sodium hydroxide) **[1 mark]**
+> - Heat / reflux / warm **[1 mark]**
+> 
+> ii) The equation for hydrolysis:
+> 
+> - CH<sub>3</sub>(CH<sub>2</sub>)<sub>2</sub>CO<sub>2</sub>CH<sub>3</sub> + H<sub>2</sub>O → CH<sub>3</sub>(CH<sub>2</sub>)<sub>2</sub>CO<sub>2</sub>H + CH<sub>3</sub>OH **[1 mark]**
+> 
+> iii) One major commercial use of esters:
+> 
+> Any **one** from:
+> 
+> - Solvents
+> - Plasticisers / plastics
+> - Textiles / synthetic fibres
+> 
+> **[1 mark]**
+
+> **[exam-tip]**
+> In acid hydrolysis the reaction is reversible (ester reforms). In alkaline hydrolysis the carboxylate salt is formed irreversibly.
+> 
+> When an ester is hydrolysed it reforms the carboxylic acid (from the left-hand side of –COO–) and the alcohol (from the right-hand side). For methyl butanoate: butanoic acid (4 carbons) and methanol (1 carbon).
+i) The other stereoisomer of leaf alcohol is:
+
+![Skeletal formula of the (E)-stereoisomer of leaf alcohol showing the trans double bond at C3](assets/016-skeletal-formula-of-the-e-stereoisomer-of-leaf-a.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the correct (E)-stereoisomer of leaf alcohol
+
+> **[exam-tip]**
+> To draw the other stereoisomer: swap the position of the CH<sub>2</sub>CH<sub>3</sub> group to the opposite side of the double bond. The original leaf alcohol is the (Z)-isomer (cis, with CH<sub>2</sub>OH and C<sub>2</sub>H<sub>5</sub> on the same side). The other stereoisomer is the (E)-isomer (trans).
+
+ii) The ester formed when leaf alcohol reacts with ethanoic acid is:
+
+![Skeletal formula of the ester product showing the fully displayed ester linkage formed when leaf alcohol reacts with ethanoic acid](assets/017-skeletal-formula-of-the-ester-product-showing-th.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct ester linkage with all bonds displayed
+> 
+> 1 mark for correct rest of molecule
+
+> **[exam-tip]**
+> To draw the ester: replace the –OH group of leaf alcohol with –O–CO–CH<sub>3</sub>. Show the ester linkage as –C(=O)–O– with all bonds clearly drawn.
+i) To calculate the *M*<sub>r</sub> of leaf alcohol:
+
+*M*<sub>r</sub> = (6 x 12) + (12 x 1) + 16
+
+*M*<sub>r</sub> = **100** **[1 mark]**
+
+> **[mark-scheme]**
+> ii) The structure of the dehydration product and type of reaction:
+> 
+> - CH<sub>2</sub> = CH – CH = CH – CH<sub>2</sub>CH<sub>3</sub> **[1 mark]**
+> - Dehydration / elimination **[1 mark]**
+
+> **[exam-tip]**
+> A product with M<sub>r</sub> 18 less than leaf alcohol has lost water (M<sub>r</sub> of H<sub>2</sub>O = 18). The loss of H<sub>2</sub>O from an alcohol is dehydration / elimination and forms an alkene.
+> 
+> Leaf alcohol already has a C=C at C3. Eliminating H<sub>2</sub>O from C1 (where –OH is) and C2 introduces a second double bond: the product is hexa-1,3-diene, CH<sub>2</sub>=CH–CH=CH–CH<sub>2</sub>CH<sub>3</sub>.
+> **[mark-scheme]**
+> A chemical test to distinguish between leaf alcohol and the product in (c)(ii):
+> 
+> Any **one** of the following (1 mark per reagent and observation pair):
+> 
+> Alternative 1:
+> 
+> - Reagent: PCl<sub>5</sub>
+> - Observation with leaf alcohol: steamy / misty fumes
+> - Observation with the product: no reaction
+> 
+> **OR**
+> 
+> Alternative 2:
+> 
+> - Reagent: Acidified / H<sup>+</sup> / Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
+> - Observation with leaf alcohol: changes from orange to green
+> - Observation with the product: no change / remains orange
+> 
+> **OR**
+> 
+> Alternative 3:
+> 
+> - Reagent: Concentrated H<sub>2</sub>SO<sub>4</sub> with a carboxylic acid
+> - Observation with leaf alcohol: sweet / fruity ester smell
+> - Observation with the product: no reaction
+> 
+> **OR**
+> 
+> Alternative 4:
+> 
+> - Reagent: Sodium
+> - Observation with leaf alcohol: effervescence / bubbles / gas produced
+> - Observation with the product: no reaction
+> 
+> **[2 marks]**
+
+> **[exam-tip]**
+> The key difference between leaf alcohol and the dehydration product is the –OH group. Choose a test that is specific to the hydroxyl group.
+> 
+> Do not use bromine water: both leaf alcohol and the alkene product have a C=C double bond, so bromine water would decolourise for both and cannot distinguish between them.
+
+### Q2
+i) The fully displayed formula of  3-methylbutanoic acid is:
+
+![3-methylbutanoic acid displayed formula](assets/018-3-methylbutanoic-acid-displayed-formula.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct fully displayed formula of 3-methylbutanoic acid
+
+ii) The fully displayed formula of  methyl ethanoate is:
+
+![Methyl ethanoate displayed formula](assets/019-methyl-ethanoate-displayed-formula.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct fully displayed formula of methyl ethanoate
+
+> **[exam-tip]**
+> When drawing 3-methylbutanoic acid, the COOH carbon counts as C1, so the methyl branch is on C3 (second carbon from the left in the main chain).
+> 
+> For methyl ethanoate, the ester linkage (-COO-) connects the ethanoate group on the left to the methyl group on the right.
+> **[mark-scheme]**
+> The colour change observed is:
+> 
+> - Orange to green **[1 mark]**
+
+> **[exam-tip]**
+> The orange dichromate(VI) ions (Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>) are reduced to green chromium(III) ions (Cr<sup>3+</sup>) as the alcohol is oxidised to the carboxylic acid.
+> 
+> Heating under reflux ensures complete oxidation to the carboxylic acid rather than stopping at the aldehyde stage.
+> **[mark-scheme]**
+> The organic products formed are:
+> 
+> - Methanol
+> **AND**
+> Ethanoic acid **[1 mark]**
+
+> **[exam-tip]**
+> Acidic hydrolysis of an ester reforms the alcohol and carboxylic acid it was made from. For methyl ethanoate: the methyl group comes from methanol and the ethanoate group comes from ethanoic acid.
+i) The two products formed are:
+
+![Structural formulae showing sodium ethanoate with Na⁺ and COO⁻ group on the left and methanol molecule with OH group on the right](assets/020-structural-formulae-showing-sodium-ethanoate-wit.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct fully displayed formula of sodium ethanoate
+> 
+> 1 mark for correct fully displayed formula of methanol
+
+> **[mark-scheme]**
+> ii) The reagent required to convert the salt into a carboxylic acid:
+> 
+> - Dilute acid / dilute HCl / dilute H<sub>2</sub>SO<sub>4</sub> **[1 mark]**
+> 
+> iii) One difference between acid and alkaline hydrolysis (other than reagents and products):
+> 
+> - Acid hydrolysis is reversible / alkaline hydrolysis is irreversible / acid hydrolysis establishes an equilibrium **[1 mark]**
+
+> **[exam-tip]**
+> In alkaline hydrolysis, sodium hydroxide acts as a reactant rather than just a catalyst, making the reaction irreversible. The carboxylate salt must then be acidified to release the free carboxylic acid.
+> 
+> In acid hydrolysis, an equilibrium is established, so some ester is always present and the yield of carboxylic acid is lower than in alkaline hydrolysis.
+
+### Q3
+> **[mark-scheme]**
+> i) The systematic names of the two isomers are:
+> 
+> - A = 3-hydroxy-3-methylbutanoic acid
+> **AND**
+> B = 2-hydroxy-3-methylbutanoic acid **[1 mark]**
+> 
+> ii) A reagent to distinguish the isomers and the type of reaction:
+> 
+> - Acidified / H<sup>+</sup> / H<sub>2</sub>SO<sub>4</sub>
+> **AND**
+> (potassium) dichromate(VI) / K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> / Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
+> **OR**
+> Acidified / H<sup>+</sup> / H<sub>2</sub>SO<sub>4</sub>
+> **AND**
+> (potassium) manganate(VII) / KMnO<sub>4</sub> / MnO<sub>4</sub><sup>-</sup> **[1 mark]**
+> - Oxidation **[1 mark]**
+> 
+> iii) The observations in each case are:
+> 
+> - Isomer A: no change / no reaction
+> - Isomer B: changes from orange to green
+> 
+> **OR**
+> 
+> - Isomer A: no change / no reaction
+> - Isomer B: changes from purple to colourless
+> 
+> **[2 marks]**
+> 
+> The observations in part (iii) must match the reagent specified in part (ii)
+
+> **[exam-tip]**
+> Naming priority: when a molecule contains both a carboxylic acid and a hydroxyl group, the carboxylic acid takes priority as the principal characteristic group. The hydroxyl group is named as a prefix (hydroxy–) and the methyl branch is also a prefix (methyl–).
+> 
+> Isomer A is a tertiary alcohol where the –OH group is on a carbon bonded to three other carbon groups. Tertiary alcohols cannot be oxidised by dichromate(VI) or manganate(VII) under standard conditions, so isomer A gives no reaction.
+> 
+> Always state both the before and after colours for the oxidising agent test. 'The solution turns green' is not awarded because you must state it turns from orange to green (for dichromate) or from purple to colourless (for manganate(VII)).
+> **[mark-scheme]**
+> i) The equation for this oxidation, using [O] to represent the oxidising agent is:
+> 
+> - CH<sub>3</sub>CH(CH<sub>3</sub>)CH(OH)COOH + [O] → CH<sub>3</sub>CH(CH<sub>3</sub>)COCOOH + H<sub>2</sub>O **[1 mark]**
+> 
+> State symbols are not required
+
+ii) The overall ionic equation for the oxidation of B to C is:
+
+3CH<sub>3</sub>CH(CH<sub>3</sub>)CH(OH)COOH (aq) + Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> (aq) + 8H<sup>+</sup> (aq) → 3CH<sub>3</sub>CH(CH<sub>3</sub>)COCOOH (aq) + 2Cr<sup>3+</sup> (aq) + 7H<sub>2</sub>O (l)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct reactants and products in the overall equation
+> 
+> 1 mark for correct balancing
+> 
+> State symbols are not required
+
+> **[exam-tip]**
+> For part (i):
+> 
+> - [O] represents one oxygen atom from the oxidising agent.
+> - In the oxidation of a secondary alcohol –CHOH– to a ketone –C=O–, two hydrogen atoms are removed as H<sub>2</sub>O, so one [O] is needed.
+> 
+> For part (ii):
+> 
+> - The B→C half-equation shows 2 electrons transferred.
+> - The dichromate half-equation shows 6 electrons.
+> - Multiply the B→C half-equation by 3 (to give 6e<sup>–</sup>), add the two half-equations, then cancel the 6H<sup>+</sup> that appear on both sides:
+> 
+>   - 14H<sup>+</sup> − 6H<sup>+</sup> = 8H<sup>+</sup> on the left.
+> **[mark-scheme]**
+> To produce ethanal or ethanoic acid from the oxidation of ethanol:
+> 
+> - To produce ethanal: distil the product immediately as it forms / carry out a simple distillation so the product is removed as soon as it is formed **[1 mark]**
+> - To produce ethanoic acid: heat under reflux
+> **OR**
+> Use an excess of the oxidising agent **[1 mark]**
+
+> **[exam-tip]**
+> Ethanal has a lower boiling point than ethanol or ethanoic acid (no hydrogen bonding to self), so it vaporises easily. Distilling it off as soon as it forms removes it from contact with the oxidising agent and prevents further oxidation to ethanoic acid.
+> 
+> Heating under reflux keeps all the product in the reaction mixture in contact with excess oxidising agent, allowing the aldehyde to be further oxidised to the carboxylic acid.
+> **[mark-scheme]**
+> i) The type of reaction and conditions:
+> 
+> - Esterification / condensation **[1 mark]**
+> - Warm / heat with concentrated sulfuric acid / conc. H<sub>2</sub>SO<sub>4</sub> **[1 mark]**
+
+ii) The structure of the dimer product is:
+
+![Structural formula of dimer ester product option 1, showing the ester linkage formed between two molecules of compound A](assets/022-structural-formula-of-dimer-ester-product-option.png)
+
+**OR**
+
+![Structural formula of dimer ester product option 2, showing the ester linkage formed between two molecules of compound A](assets/023-structural-formula-of-dimer-ester-product-option.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for a correct drawing showing the ester linkage
+
+> **[exam-tip]**
+> A dimer is a molecule made from two identical repeating units. When two molecules of compound A (a hydroxy acid) react together, one –OH group reacts with the –COOH group of the other molecule to form an ester linkage, releasing water in an esterification reaction.
+> 
+> The concentrated sulfuric acid acts as a catalyst for the esterification reaction.
+
+### Q4
+> **[mark-scheme]**
+> The acid, alcohol, catalyst, condition, and equation for the formation of ester S:
+> 
+> - Propanoic acid **[1 mark]**
+> - 2-methylpropan-1-ol **[1 mark]**
+> - Concentrated sulfuric acid / conc. H<sub>2</sub>SO<sub>4</sub> **[1 mark]**
+> - Heat / warm / heat under reflux **[1 mark]**
+> - CH<sub>3</sub>CH<sub>2</sub>COOH + HOCH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub> ⇌ CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>O **[1 mark]**
+> 
+> Only systematic names are accepted. The common name 'isobutanol' for 2-methylpropan-1-ol is not accepted.
+
+> **[exam-tip]**
+> You need to state both the catalyst (concentrated sulfuric acid) and a condition (heat) or you will lose a mark.
+i) The organic products of acid hydrolysis are:
+
+![Acid hydrolysis products of ester S](assets/024-acid-hydrolysis-products-of-ester-s.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for propanoic acid structure shown correctly
+> 
+> 1 mark for 2-methylpropan-1-ol structure shown correctly)
+
+ii) The organic products of alkaline hydrolysis are:
+
+![Alkaline hydrolysis products of ester S](assets/025-alkaline-hydrolysis-products-of-ester-s.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for sodium propanoate structure shown correctly
+> 
+> 1 mark for 2-methylpropan-1-ol structure shown correctly
+
+> **[exam-tip]**
+> In alkaline hydrolysis, the carboxylic acid product is the carboxylate salt (sodium propanoate), not propanoic acid. Sodium hydroxide reacts irreversibly with the acid to form the sodium salt.
+Ester T is made from:
+
+- methanoic acid
+- 2-methylpropan-1-ol
+
+![Displayed formula of 2-methylpropyl methanoate showing the ester linkage between methanoic acid and 2-methylpropan-1-ol](assets/026-displayed-formula-of-2-methylpropyl-methanoate-s.jpeg)
+
+It is called 2-methylpropyl methanoate
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for identifying the carboxylic acid as methanoic acid
+> 
+> 1 mark for identifying the alcohol as 2-methylpropan-1-ol
+> 
+> 1 mark for correct displayed formula of ester T
+> 
+> 1 mark for systematic name: 2-methylpropyl methanoate
+> 
+> 'Formic acid' is not accepted for methanoic acid
+
+> **[exam-tip]**
+> To deduce ester T:
+> 
+> - The molecular formula C<sub>5</sub>H<sub>10</sub>O<sub>2</sub> shows 5 carbons total.
+> - 2-methylpropan-1-ol contributes 4 carbons
+> - So, the acid must contribute 1 carbon
+> - The acid is methanoic acid (HCOOH).
+> 
+> Use the systematic name methanoic acid. The common name 'formic acid' is not accepted.
+
+### Q5
+The completed table is:
+
+| carboxylic acid | alcohol | ester |
+|---|---|---|
+| ethanoic acid | **Final answer:** **methanol** | methyl ethanoate |
+| **Final answer:** **propanoic acid** | ethanol | ethyl propanoate |
+| butanoic acid | propan-1-ol | **Final answer:** **propyl butanoate** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for methanol
+> 
+> 1 mark for propanoic acid
+> 
+> 1 mark for propyl butanoate
+
+> **[exam-tip]**
+> When naming an ester, the alcohol provides the first part of the name and the carboxylic acid provides the second part. For methyl ethanoate, methanol contributes the methyl group and ethanoic acid contributes the ethanoate group.
+> **[mark-scheme]**
+> The catalyst and conditions required for esterification are:
+> 
+> - Concentrated sulfuric acid catalyst **[1 mark]**
+> - Heat / heat under reflux **[1 mark]**
+
+> **[exam-tip]**
+> This reaction is also called esterification. The concentrated sulfuric acid acts as a catalyst and speeds up the reaction without being consumed. Heating under reflux prevents volatile products from escaping while allowing the reaction to reach equilibrium.
+> **[mark-scheme]**
+> The reagents and conditions required for the acidic hydrolysis of an ester are:
+> 
+> - Dilute acid / dilute H<sub>2</sub>SO<sub>4</sub> / dilute HCl **[1 mark]**
+> - Heat / heat under reflux **[1 mark]**
+
+> **[exam-tip]**
+> Acidic hydrolysis is a reversible reaction that reforms the original carboxylic acid and alcohol. Because it is reversible, heating under reflux is used to keep reactants and products in contact.
+> 
+> Alkaline hydrolysis (using NaOH) is irreversible and produces a carboxylate salt rather than the free carboxylic acid. This question specifies acidic conditions, so only dilute acid and heat are needed.
+> **[mark-scheme]**
+> One commercial use of esters is:
+> 
+> Any **one** from:
+> 
+> - Food flavourings / artificial flavourings
+> - Perfumes / fragrances
+> - Solvents
+> - Plasticisers
+> 
+> **[1 mark]**
+
+> **[exam-tip]**
+> Esters are widely used because of their pleasant fruity or floral smells and low toxicity. As well as food and fragrance applications, they are important industrial solvents and plasticisers used to soften polymers such as PVC.
+
+### Q6
+> **[mark-scheme]**
+> The molecular formula of B:
+> 
+> - C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> **[1 mark]**
+
+> **[exam-tip]**
+> The *M*<sub>r</sub> of the empirical formula C<sub>2</sub>H<sub>4</sub>O is (2 x 12) + 4 + 16 = 44.
+> 
+> Dividing 88.0 by 44 gives exactly 2
+> 
+> So, the molecular formula is 2 x C<sub>2</sub>H<sub>4</sub>O = C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>.
+The skeletal formulae of four isomers of **B** that are esters are:
+
+| ![1-methylethyl methanoate skeletal formula](assets/027-1-methylethyl-methanoate-skeletal-formula.png) | ![methyl propanoate skeletal formula](assets/028-methyl-propanoate-skeletal-formula.png) |
+|---|---|
+| ![ethyl ethanoate skeletal formula](assets/029-ethyl-ethanoate-skeletal-formula.png) | ![propyl methanoate skeletal formula](assets/030-propyl-methanoate-skeletal-formula.png) |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct skeletal structure of 1-methylethyl methanoate (top left)
+> 
+> 1 mark for the correct skeletal structure of methyl propanoate (top right)
+> 
+> 1 mark for the correct skeletal structure of ethyl ethanoate (bottom left)
+> 
+> 1 mark for the correct skeletal structure of propyl methanoate (bottom right)
+> 
+> Any correct structural representation of each ester is accepted
+
+> **[exam-tip]**
+> Start by drawing the ester functional group (–COO–) then vary the lengths of the carbon chains on either side.
+> 
+> With molecular formula C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> and an ester group, the possible carbon splits are 1+3, 2+2, and 3+1.
+> 
+> The 1+3 split gives two isomers: one with a straight three-carbon chain (propyl methanoate) and one with a branched chain (1-methylethyl methanoate).
+> **[mark-scheme]**
+> i) The functional group shown to be present in D:
+> 
+> - C=O / carbonyl group **[1 mark]**
+> 
+> ii) The result of the Tollens' reagent test shows:
+> 
+> - No aldehyde / –CHO group is present
+> **OR**
+> D is a ketone **[1 mark]**
+> 
+> iii) The structural formula of alcohol C:
+> 
+> - (CH<sub>3</sub>)<sub>2</sub>CHOH **[1 mark]**
+> 
+> iv) The ester with the same structure as B:
+> 
+> - 1-methylethyl methanoate / HCO<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub> **[1 mark]**
+
+> **[exam-tip]**
+> 2,4-DNP reacts with all carbonyl compounds (aldehydes and ketones) to form a yellow/orange precipitate. Tollens' reagent gives a silver mirror only with aldehydes. A positive 2,4-DNP result combined with a negative Tollens' result confirms D is a ketone, not an aldehyde.
+> 
+> The ketone D must be propanone (3 carbons), so the original alcohol C was a secondary alcohol: propan-2-ol, (CH<sub>3</sub>)<sub>2</sub>CHOH. The –OR side of the ester –COO– comes from the alcohol. Propan-2-ol gives the –OCH(CH<sub>3</sub>)<sub>2</sub> group, which matches 1-methylethyl methanoate / HCO<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub>.
+> **[mark-scheme]**
+> Which, if any, of the esters is chiral, and the reason:
+> 
+> - None **[1 mark]**
+> - No chiral centre(s) present / no carbon atom bonded to four different groups in any of the four esters **[1 mark]**
+
+> **[exam-tip]**
+> A chiral centre is a carbon atom bonded to four different atoms or groups. Check each ester by inspecting every carbon atom. None of the four isomers contains a carbon bonded to four different substituents, so none is chiral.

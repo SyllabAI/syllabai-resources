@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:45:46Z",
+ "generated_utc": "2026-10-26T14:54:44Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -68,19 +68,36 @@
    "question_count": 30,
    "questions_embedded": 30,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/10-group-2/10-1-similarities-and-trends-in-the-properties-of-the-group-2-metals-magnesium-to-barium-and-their-compounds/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_W3SQZPPXfggpTQjW",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 13,
+   "questions_embedded": 13,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/10-group-2/10-1-similarities-and-trends-in-the-properties-of-the-group-2-metals-magnesium-to-barium-and-their-compounds/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 30,
+  "questions_embedded": 43,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/2-2-cie-ial-chemistry-diagram-q2easy.png": "001-sketch-graph-showing-variation-of-one-group-2-pr.png",
    "https://cdn.savemyexams.com/uploads/2023/05/2-2-e-2a.JPG": "002-graph-showing-variation-of-melting-point-with-at.jpg",
-   "https://cdn.savemyexams.com/uploads/2023/05/2-2-cie-ial-chemistry-diagram-q3medium.png": "003-diagram-showing-numbered-links-between-group-2-c.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/2-2-cie-ial-chemistry-diagram-q3medium.png": "003-diagram-showing-numbered-links-between-group-2-c.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/3052-simplified-lime-cycle.png": "004-diagram-of-the-calcium-cycle-showing-arrows-betw.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/44862-structure-of-lactic-acid.png": "005-structural-formula-of-lactic-acid-showing-three-.png"
   }
  },
  "questions": [
@@ -1708,6 +1725,1223 @@
        "alt": "rightwards arrow"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yXp3GRfVNtkWfbZX",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_yBnJr3kQ2BcxPth4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of students are asked to prepare a sample of barium sulfate using barium carbonate.\n\nStudent **A** suggests adding sulfuric acid to the barium carbonate.\n\ni) Construct an equation for the reaction of barium carbonate with sulfuric acid.\n\n[1]\n\nii) Suggest a reason why this preparation of barium sulfate will not have a 100% yield.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction of barium carbonate with sulfuric acid:\n> \n> - BaCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + H<sub>2</sub>O + CO<sub>2</sub> **[1 mark]**\n> \n> State symbols are not required\n> \n> ii) A reason why the preparation will not have a 100% yield:\n> \n> - (Insoluble) barium sulfate forms a layer / coating on the surface of the barium carbonate **[1 mark]**\n> - This prevents the acid from reaching the barium carbonate / the reaction going to completion **[1 mark]**\n\n> **[exam-tip]**\n> The general equation for a metal carbonate reacting with an acid is:\n> \n> metal carbonate + acid → metal salt + water + carbon dioxide\n> \n> Sulfuric acid forms sulfates, so barium sulfate is the expected product.\n> \n> Barium sulfate is insoluble. As it forms, it coats the surface of unreacted barium carbonate and prevents the acid from reaching it, so the reaction cannot go to completion and yield is reduced."
+    },
+    {
+     "id": "qstnprt_YMwPqptmkWzSvSb7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc",
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "Student **B** suggests that barium carbonate can be converted into barium sulfate in a two-step process.\n\nbarium carbonate `-> from heat to step 1 of` barium oxide $\\overset{\\mathrm{step}2}{\\rightarrow}$ barium sulfate\n\ni) Name the type of reaction that occurs in step 1.\n\n[1]\n\nii) In step 2, barium oxide is reacted with sulfuric acid. Construct an equation for the reaction in step 2.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The type of reaction that occurs in step 1:\n> \n> - Thermal decomposition **[1 mark]**\n> \n> ii) The equation for the reaction in step 2:\n> \n> - BaO + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + H<sub>2</sub>O **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> In step 1, barium carbonate is heated and decomposes into barium oxide and carbon dioxide:\n> \n> BaCO<sub>3</sub> → BaO + CO<sub>2</sub>\n> \n> Using heat to break a compound down is called thermal decomposition.\n> \n> In step 2, the general equation for a metal oxide reacting with an acid is:\n> \n> metal oxide + acid → metal salt + water",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "rightwards arrow from heat to step space 1 of",
+       "render": "`-> from heat to step 1 of`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\overset{\\mathrm{step}2}{\\rightarrow}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mstyle mathsize=\"16px\"><mover><mo>→</mo><mrow><mi>step</mi><mo> </mo><mn>2</mn></mrow></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rightwards arrow with step space 2 on top"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GxdpGxFpRTBg4hRF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nStudent **B** suggests that barium carbonate can be converted into barium sulfate in a two-step process.\n\nbarium carbonate →(heat, step 1)→ barium oxide →(step 2)→ barium sulfate\n\nStudent **C** makes an adaptation to student **B**'s suggestion.\n\nbarium carbonate `-> from heat to step 1 of` barium oxide `-> from water to step 2 of` barium hydroxide `-> from sulfuric acid to step 3 of` barium sulfate\n\nState the solubility in water of barium hydroxide and barium sulfate.",
+     "solution_md": "> **[mark-scheme]**\n> The solubility in water of each compound:\n> \n> - Barium hydroxide: soluble **[1 mark]**\n> - Barium sulfate: insoluble **[1 mark]**\n\n> **[exam-tip]**\n> The Group 2 hydroxides become more soluble down the group, and the Group 2 sulfates become less soluble down the group.\n> \n> Barium is near the bottom of Group 2, so barium hydroxide is soluble and barium sulfate is insoluble.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "rightwards arrow from heat to step space 1 of",
+       "render": "`-> from heat to step 1 of`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "rightwards arrow from water to step space 2 of",
+       "render": "`-> from water to step 2 of`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "rightwards arrow from sulfuric space acid to step space 3 of",
+       "render": "`-> from sulfuric acid to step 3 of`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JfhsbJp8vmtCYSPV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nStudent **C** makes an adaptation to student **B**'s suggestion.\n\nbarium carbonate →(heat, step 1) barium oxide →(water, step 2) barium hydroxide →(sulfuric acid, step 3) barium sulfate\n\nConstruct the ionic equation for the reaction in step 3 between barium hydroxide and sulfuric acid to form barium sulfate. Include state symbols.",
+     "solution_md": "The ionic equation for the reaction in step 3 is:\n\nBa<sup>2+</sup> (aq) + SO<sub>4</sub><sup>2–</sup> (aq) → BaSO<sub>4</sub> (s)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae: Ba<sup>2+</sup>, SO<sub>4</sub><sup>2–</sup>, BaSO<sub>4</sub>\n> \n> 1 mark for all correct state symbols: (aq), (aq), (s)\n\n> **[exam-tip]**\n> The full molecular equation for step 3 is:\n> \n> Ba(OH)<sub>2</sub> (aq) + H<sub>2</sub>SO<sub>4</sub> (aq) → BaSO<sub>4</sub> (s) + 2H<sub>2</sub>O (l)\n> \n> To write the ionic equation, remove the spectator ions. The OH<sup>-</sup> ions and H<sup>+</sup> ions cancel to form water, leaving only the ions that form the precipitate:\n> \n> Ba<sup>2+</sup> (aq) + SO<sub>4</sub><sup>2–</sup> (aq) → BaSO<sub>4</sub> (s)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XQypYMG3PMbb4Bt7",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_V5FdYyBCbVv7Jk7t",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc",
+      "spcpt_D8QTDDTJ8mHD6MPr"
+     ],
+     "part_tier": null,
+     "problem_md": "Group 2 oxides react with water to form Group 2 hydroxides.\n\nDescribe the general trends in solubility and pH of the Group 2 hydroxides as you move down Group 2.",
+     "solution_md": "> **[mark-scheme]**\n> The general trends in solubility and pH of the Group 2 hydroxides as you move down Group 2 are:\n> \n> - The solubility increases\n> **OR**\n> The hydroxides become more soluble / the Group 2 hydroxides become more soluble **[1 mark]**\n> - The pH increases\n> **OR**\n> The solutions become more alkaline **[1 mark]**\n\n> **[exam-tip]**\n> Moving down Group 2, the hydroxides become more soluble in water, so more OH<sup>-</sup> ions are present in solution. This raises the pH of the solution.\n> \n> Be precise about the direction of both trends, as you move from magnesium to barium:\n> \n> 1. Solubility increases\n> 2. pH increases"
+    },
+    {
+     "id": "qstnprt_sDxmdx8WD9sC47kT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "3.71 g of calcium hydroxide, Ca(OH)<sub>2</sub>, is added to hydrochloric acid.\n\ni) Construct an equation for this reaction.\n\n[2]\n\nii) Calculate the mass of calcium chloride produced in this reaction. Show your working.\n\n[2]",
+     "solution_md": "i) The equation for the reaction of calcium hydroxide with hydrochloric acid is:\n\nCa(OH)<sub>2</sub> + 2HCl → CaCl<sub>2</sub> + 2H<sub>2</sub>O\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae: Ca(OH)<sub>2</sub>, HCl, CaCl<sub>2</sub>, H<sub>2</sub>O\n> \n> 1 mark for correct balancing: Ca(OH)<sub>2</sub> + 2HCl → CaCl<sub>2</sub> + 2H<sub>2</sub>O\n\nii) To calculate the mass of calcium chloride produced:\n\n- Determine the moles of calcium hydroxide, Ca(OH)<sub>2</sub>:\n\n*M*<sub>r</sub> of Ca(OH)<sub>2</sub> = 40.1 + 2(16.0 + 1.0) = 74.1 g mol<sup>-1</sup>\n\nmoles of Ca(OH)<sub>2</sub> = $\\frac{3.71}{74.1}$ = 0.0501 mol\n\n**[1 mark]**\n\n- Calculate the mass of calcium chloride, CaCl<sub>2</sub>:\n\n*M*<sub>r</sub> of CaCl<sub>2</sub> = 40.1 + 2(35.5) = 111.1 g mol<sup>-1</sup>\n\nmoles of CaCl<sub>2</sub> = 0.0501 mol (1:1 molar ratio with Ca(OH)<sub>2</sub>)\n\nmass of CaCl<sub>2</sub> = 0.0501 x 111.1 = **5.56 g**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *M*<sub>r</sub> (Ca(OH)<sub>2</sub>) = 74.1 **AND** moles = 0.0500–0.0501 mol\n> \n> 1 mark for *M*<sub>r</sub> (CaCl<sub>2</sub>) = 111.1 **AND** mass = 5.55–5.56 g\n\n> **[exam-tip]**\n> The reaction follows the general pattern:\n> \n> metal hydroxide + acid → metal salt + water.\n> \n> The coefficient of HCl must be 2 to balance the two OH groups in Ca(OH)<sub>2</sub>.\n> \n> For the calculation:\n> \n> - *M*<sub>r</sub> (Ca(OH)<sub>2</sub>) = 40.1 + 2(17.0) = 74.1 and *M*<sub>r</sub> (CaCl<sub>2</sub>) = 40.1 + 2(35.5) = 111.1\n> - The 1:1 molar ratio means the moles of CaCl<sub>2</sub> equals the moles of Ca(OH)<sub>2</sub> used.",
+     "equations": [
+      {
+       "latex": "\\frac{3.71}{74.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>71</mn></mrow><mrow><mn>74</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.71}{74.1}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_c4qc98r5mWHc3vS2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc"
+     ],
+     "part_tier": null,
+     "problem_md": "Strontium carbonate reacts with hydrochloric acid to form strontium chloride, water and carbon dioxide.\n\ni) Describe a test to identify the gas produced as carbon dioxide.\n\n[2]\n\nii) Carbon dioxide is also produced when strontium carbonate reacts with sulfuric acid. The effervescence observed in this reaction stops after a short period of time.\n\nSuggest why the reaction stops even though the reactants have not been used up.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) To test that the gas produced is carbon dioxide:\n> \n> - Pass / bubble the gas through limewater (calcium hydroxide solution) **[1 mark]**\n> - The limewater turns cloudy / milky\n> **OR**\n> A white precipitate forms **[1 mark]**\n> \n> ii) The reason the reaction stops even though the reactants have not been used up:\n> \n> - Insoluble strontium sulfate (SrSO<sub>4</sub>) is formed **[1 mark]**\n> - (Which) coats the surface of the strontium carbonate / forms a barrier between the acid and the strontium carbonate **[1 mark]**\n\n> **[exam-tip]**\n> The test for carbon dioxide uses limewater (calcium hydroxide solution). Carbon dioxide reacts with calcium hydroxide to form insoluble calcium carbonate, which turns the solution cloudy or milky.\n> \n> The same principle applies whenever a Group 2 carbonate reacts with sulfuric acid. The Group 2 sulfate salts are insoluble, so the sulfate product coats the carbonate surface and prevents further reaction."
+    }
+   ]
+  },
+  {
+   "id": "qstn_WW8gwmpsC95XBhFy",
+   "set_slug": "structured-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_H7rQpPFWtW2Ss8fK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Construct an equation for the thermal decomposition of calcium nitrate, Ca(NO<sub>3</sub>)<sub>2</sub>.\n\n[1]\n\nii) State and explain how the thermal stabilities of the nitrates vary down Group 2.\n\n[3]\n\niii) Predict what you would observe if a sample of lithium nitrate was heated.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the thermal decomposition of calcium nitrate:\n> \n> - 2Ca(NO<sub>3</sub>)<sub>2</sub> → 2CaO + 4NO<sub>2</sub> + O<sub>2</sub> **[1 mark]**\n> \n> State symbols are not required\n> \n> ii) The variation in thermal stability of Group 2 nitrates down the group:\n> \n> - Down the group, the nitrates become more thermally stable / are more difficult to decompose / require a higher temperature to decompose **[1 mark]**\n> - The ionic radius of the cation / M<sup>2+</sup> increases\n> **OR**\n> The charge density of the cation decreases **[1 mark]**\n> - This causes less polarisation / distortion of the NO<sub>3</sub><sup>-</sup> / nitrate ion **[1 mark]**\n> \n> iii) The observation when lithium nitrate is heated:\n> \n> - Brown / orange fumes are produced\n> **OR**\n> A glowing splint relights **[1 mark]**\n\n> **[exam-tip]**\n> When Group 2 nitrates decompose they produce a Group 2 oxide, nitrogen dioxide (NO<sub>2</sub>) and oxygen (O<sub>2</sub>).\n> \n> The explanation for the trend in thermal stability (larger cation radius → lower charge density → less polarisation of NO<sub>3</sub><sup>-</sup> → more thermally stable) applies equally to Group 2 carbonates.\n> \n> Lithium is anomalous within Group 1. Due to its small ionic radius and high charge density, it behaves more like a Group 2 metal (diagonal relationship with Mg). Lithium nitrate therefore decomposes like a Group 2 nitrate, producing Li<sub>2</sub>O, NO<sub>2</sub> and O<sub>2</sub>, rather than forming a nitrite like Na or K.\n> \n> NO<sub>2</sub> is a brown / orange gas. O<sub>2</sub> relights a glowing splint."
+    },
+    {
+     "id": "qstnprt_6zFQXFKNsrVXxntm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "The nitrates of calcium, strontium or barium are often added to firework mixtures to produce red or green flames. The equation for the decomposition of one such mixture is as follows.\n\nSr(NO<sub>3</sub>)<sub>2</sub> (s) + 3C (s) → SrO (s) + N<sub>2</sub> (g) + 2CO<sub>2</sub> (g) + CO (g)\n\nCalculate the volume of gas given off (measured at room temperature and pressure) when a 10.0 g sample of this mixture decomposes. Show your working.\n\n[*M*<sub>r</sub>: Sr(NO<sub>3</sub>)<sub>2</sub> = 211.6]",
+     "solution_md": "To calculate the volume of gas produced when 10.0 g of the mixture decomposes:\n\n- List the known values:\n\n  - *M*<sub>r</sub>(Sr(NO<sub>3</sub>)<sub>2</sub>) = 211.6\n  - *M*<sub>r</sub>(C) = 12.0\n  - Molar volume = 24.0 dm<sup>3</sup> mol<sup>-1</sup>\n- Calculate the *M*<sub>r</sub> of the mixture (1 mol Sr(NO<sub>3</sub>)<sub>2</sub> + 3 mol C):\n\n*M*<sub>r</sub> = 211.6 + (3 x 12.0) = 247.6 **[1 mark]**\n\n- Calculate the moles of mixture in 10.0 g:\n\nmoles = $\\frac{10.0}{247.6}$\n\nmoles = 0.04039 mol **[1 mark]**\n\n- From the equation, 1 mol of mixture produces 4 mol of gas (1 mol N<sub>2</sub> + 2 mol CO<sub>2</sub> + 1 mol CO)\n\n- Calculate the moles of gas and the volume:\n\nmoles of gas = 0.04039 x 4 = 0.1616 mol\n\nvolume = 0.1616 x 24.0 = **3.88 dm**<sup>**3**</sup>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> Carbon must be included in the *M*<sub>r</sub> of the mixture. Omitting carbon gives *M*<sub>r</sub> = 211.6 and a final volume of 4.54 dm<sup>3</sup>; this answer scores a maximum of 2 marks.\n> \n> Allow 3.9 dm<sup>3</sup> (2 sf) for the final volume.\n> \n> Allow error carried forward: if an incorrect moles value is used consistently, award the volume mark if the method is correct.\n\n> **[exam-tip]**\n> The mixture consists of 1 mol Sr(NO<sub>3</sub>)<sub>2</sub> and 3 mol C, so the *M*<sub>r</sub> of the mixture is the sum of their molar masses: 211.6 + (3 x 12.0) = 247.6 g mol<sup>-1</sup>.\n> \n> From the equation, 1 mol of the mixture produces 1 mol N<sub>2</sub> + 2 mol CO<sub>2</sub> + 1 mol CO = 4 mol of gas in total. Note that SrO is a solid and does not contribute to the gas volume.\n> \n> The molar volume at room temperature and pressure is 24.0 dm<sup>3</sup> mol<sup>-1</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{10.0}{247.6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>247</mn><mo>.</mo><mn>6</mn></mrow></mfrac></math>",
+       "alt": "\\frac{10.0}{247.6}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Ry4b83kphmkTzbk4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp",
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "One of the major ores of magnesium is the mixed carbonate called dolomite, CaMg(CO<sub>3</sub>)<sub>2</sub>.\n\nCalculate the percentage loss in mass that would be observed when a sample of dolomite is heated at a high temperature until the reaction is complete. Show your working.",
+     "solution_md": "To calculate the percentage loss in mass when dolomite is heated:\n\n- Construct the equation for the thermal decomposition:\n\nCaMg(CO<sub>3</sub>)<sub>2</sub> → CaO + MgO + 2CO<sub>2</sub>\n\n- Calculate *M*<sub>r</sub>(CaMg(CO<sub>3</sub>)<sub>2</sub>):\n\n*M*<sub>r</sub> = 40.1 + 24.3 + 2(12.0 + 3 x 16.0) = 40.1 + 24.3 + 120 = 184.4 **[1 mark]**\n\n- The mass lost per mole = mass of 2CO<sub>2</sub> produced:\n\n*M*<sub>r</sub>(2CO<sub>2</sub>) = 2 x 44.0 = 88.0 g mol<sup>-1</sup> **[1 mark]**\n\n- Calculate the percentage mass loss:\n\n% loss = $\\frac{88.0}{184.4}$ x 100\n\n% loss = **47.7%** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 48% (2 sf) for the final answer.\n> \n> Allow error carried forward: if an incorrect *M*<sub>r</sub>(dolomite) or incorrect mass lost is used consistently, award the percentage mark if the method is correct.\n\n> **[exam-tip]**\n> When Group 2 carbonates thermally decompose they produce a Group 2 oxide and carbon dioxide. For dolomite, both calcium oxide and magnesium oxide are produced:\n> \n> CaMg(CO<sub>3</sub>)<sub>2</sub> → CaO + MgO + 2CO<sub>2</sub>\n> \n> The mass that is lost comes from the CO<sub>2</sub> produced (gases escape). Since 2 mol of CO<sub>2</sub> are produced per mole of dolomite, the mass lost = *M*<sub>r</sub>(2CO<sub>2</sub>) = 88.0 g per 184.4 g of dolomite.",
+     "equations": [
+      {
+       "latex": "\\frac{88.0}{184.4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>88</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>184</mn><mo>.</mo><mn>4</mn></mrow></mfrac></math>",
+       "alt": "\\frac{88.0}{184.4}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wnwxdgHh2ZQTZrB6",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_BMtPkpmhrJ38Z4kf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium, calcium and barium are some of the Group 2 elements of the Periodic Table.\n\nState and explain the trend in the atomic radius of the Group 2 elements from magnesium to barium.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in the atomic radius of Group 2 elements from magnesium to barium is:\n> \n> - The atomic radius increases / atoms get bigger (as you descend Group 2) **[1 mark]**\n> - (Because) there are more shells / energy levels\n> **OR**\n> The number of shells / energy levels increases **[1 mark]**\n\n> **[exam-tip]**\n> This is a Group 2 trend that you need to learn and be able to explain\n> \n> As you descend the group:\n> \n> - Each atom has the same effective nuclear charge of +2\n> - Each atom gains an additional shell of electrons\n> - This means that the force of attraction between the nucleus and the outermost electrons becomes weaker resulting in the atomic radius increasing"
+    },
+    {
+     "id": "qstnprt_QP7rGCPXBpGxYVyM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium is frequently used in fireworks. It burns rapidly in oxygen, and it adds sparks which generally improves the appearance and brilliance of the firework.\n\nConstruct an equation to represent the reaction which takes place when a strip of magnesium is burned in oxygen and state an observation which would be made.\n\nState symbols are **not** required.",
+     "solution_md": "> **[mark-scheme]**\n> When magnesium burns in oxygen:\n> \n> - 2Mg + O<sub>2</sub> → 2MgO **[1 mark]**\n> - Magnesium burns with a bright white light **[1 mark]**\n\n> **[exam-tip]**\n> Burning magnesium in oxygen is a common demonstration; you need to be able to state the observation which would be made\n> \n> The bright white light is dangerous if looked at directly as it can cause temporary loss of sight. Therefore, a blue screen / blue glass must be used\n> \n> The burning of magnesium also generates intense heat which can cause burns or could initiate combustion of any flammable materials which are too close"
+    },
+    {
+     "id": "qstnprt_FY6dCybgF93t6tPF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr",
+      "spcpt_VxkBdpWt7QbVj8qs"
+     ],
+     "part_tier": null,
+     "problem_md": "Group 2 compounds, such as the hydroxides of magnesium and calcium, have a number of other uses.\n\ni) Construct equations to show the formation of magnesium hydroxide and calcium hydroxide from their metals.\n\n[2]\n\nii) Give an approximate pH value and a use for each of the hydroxides.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) Equations for the formation of magnesium hydroxide and calcium hydroxide from their metals are:\n> \n> - Mg + 2H<sub>2</sub>O → Mg(OH)<sub>2</sub> + H<sub>2</sub> **[1 mark]**\n> - Ca + 2H<sub>2</sub>O → Ca(OH)<sub>2</sub> + H<sub>2</sub> **[1 mark]**\n> \n> ii) The pH values and uses of calcium hydroxide and magnesium hydroxide are:\n> \n> - pH value of both hydroxides must be between 8 and 14\n> **AND**\n> The pH value of calcium hydroxide must be higher than the pH value stated for magnesium hydroxide **[1 mark]**\n> - Magnesium hydroxide is used as a cure / remedy for indigestion\n> **OR**\n> Magnesium hydroxide is milk of magnesia **[1 mark]**\n> - Calcium hydroxide is used in agriculture\n> **OR**\n> Calcium hydroxide is used to neutralise / raise the pH of acidic soil **[1 mark]**\n\n> **[exam-tip]**\n> As well as the trends of Group 2, you need to know the reactions which the Group 2 elements undergo and the uses of the Group 2 compounds\n> \n> You should be able to provide approximate pH values for the hydroxides of Group 2"
+    },
+    {
+     "id": "qstnprt_kGSGwMJXyWhMtHJV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs"
+     ],
+     "part_tier": null,
+     "problem_md": "Group 2 elements will react with water.\n\nA student added 20 cm<sup>3</sup> of water to two boiling tubes. A small piece of calcium was added to one of the boiling tubes and a small piece of barium was added to the other.\n\nState **two** observations that the student would make and how the observations would differ between the two boiling tubes.",
+     "solution_md": "> **[mark-scheme]**\n> Comparing the reaction of calcium with water and barium with water:\n> \n> Observations:\n> \n> - The student would see effervescence / bubbles / fizzing in both boiling tubes\n> **OR**\n> The student would see effervescence / bubbles / fizzing with calcium **AND** barium **[1 mark]**\n> - The solid would dissolve / disappear in both boiling tubes **[1 mark]**\n> \n> Difference:\n> \n> - The reaction would be more vigorous / violent with barium\n> **OR**\n> The solid would dissolve / disappear faster with barium\n> **OR**\n> A colourless solution would form with barium **[1 mark]**\n\n> **[exam-tip]**\n> The reactions of Group 2 elements with water are asked about very often in exam questions\n> \n> You must be able to describe the reactions of different Group 2 metals with water, comparing them to each other and must be able to provide reaction equations\n> \n> The reactivity of Group 2 elements increases down the group, so the reaction of barium with water is more vigorous than of calcium with water\n> \n> The atoms get bigger and the outermost electrons become further from the nucleus\n> \n> The attraction between the nucleus and the outermost electrons is weaker as you descend the group, meaning the outermost electrons are lost more easily\n> \n> This makes the elements lower down the group more reactive"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jDfcgGrbxYyMbP9s",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_t82nyhRkvs3YVP6x",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "i) State the name of a Group 2 element that burns in air to give a bright white flame.\n\n[1]\n\nii) Construct an equation for the reaction of this element with oxygen.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The Group 2 element that burns in air with a bright white flame is:\n> \n> - Magnesium / Mg **[1 mark]**\n> \n> ii) The equation for the combustion of magnesium with oxygen is:\n> \n> - 2Mg + O<sub>2</sub> → 2MgO **[1 mark]**\n\n> **[exam-tip]**\n> Of the Group 2 metals from magnesium to barium, only magnesium burns with a characteristic bright white flame. The other Group 2 metals produce coloured flames when burned in air.\n> \n> The combustion equation 2Mg + O<sub>2</sub> → 2MgO must be balanced so that the number of atoms of each element is equal on both sides."
+    },
+    {
+     "id": "qstnprt_33FhyzbTPmy2Czdr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr",
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "i) State the reagent and conditions required for magnesium to react to form magnesium hydroxide.\n\n[2]\n\nii) Construct an equation for this reaction. Include state symbols.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The reagent and conditions required for magnesium to react to form magnesium hydroxide are:\n> \n> - Reagent: water **[1 mark]**\n> - Condition: cold / the water must be cold **[1 mark]**\n\nii) The equation for the reaction of magnesium with cold water is:\n\nMg (s) + 2H<sub>2</sub>O (l) → Mg(OH)<sub>2</sub> (s) + H<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct equation: Mg + 2H<sub>2</sub>O → Mg(OH)<sub>2</sub> + H<sub>2</sub>\n> \n> 1 mark for all four state symbols correct: (s), (l), (s), (g)\n\n> **[exam-tip]**\n> The reaction of magnesium with cold water is slow. Magnesium hydroxide is almost insoluble, forming a solid precipitate (s) on the surface of the magnesium, which slows the reaction further.\n> \n> Note that magnesium reacts with steam to form magnesium oxide (MgO), not magnesium hydroxide. The conditions (cold water versus steam) determine which product forms."
+    },
+    {
+     "id": "qstnprt_f9BnnV6R6kC7fcZJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Calcium is added to dilute hydrochloric acid.\n\ni) State one observation for this reaction.\n\n[1]\n\nii) Construct an equation for this reaction. Include state symbols.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) One observation for the reaction of calcium with dilute hydrochloric acid:\n> \n> Any **one** from:\n> \n> - Effervescence / fizzing / bubbles (of hydrogen gas)\n> - The solid calcium dissolves / decreases in size\n> - The solution warms up / (the reaction is exothermic)\n> \n> **[1 mark]**\n\nii) The equation for the reaction of calcium with dilute hydrochloric acid is:\n\nCa (s) + 2HCl (aq) → CaCl<sub>2</sub> (aq) + H<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct equation: Ca + 2HCl → CaCl<sub>2</sub> + H<sub>2</sub>\n> \n> 1 mark for all four state symbols correct: (s), (aq), (aq), (g)\n\n> **[exam-tip]**\n> Calcium reacts vigorously with dilute hydrochloric acid. The product calcium chloride (CaCl<sub>2</sub>) is soluble in water, so the aqueous solution remains clear.\n> \n> When assigning state symbols:\n> \n> - Calcium is a solid (s)\n> - Hydrochloric acid is aqueous (aq)\n> - Calcium chloride is soluble so remains aqueous (aq)\n> - Hydrogen is a gas (g)"
+    },
+    {
+     "id": "qstnprt_V45YHdxHyp35QqTY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Barium reacts with dilute hydrochloric acid. Construct an equation for this reaction. Include state symbols.\n\n[2]\n\nii) Barium reacts with dilute sulfuric acid. Construct an equation for this reaction. Include state symbols.\n\n[2]\n\niii) Explain why the reaction of barium with dilute sulfuric acid soon slows down and stops.\n\n[1]",
+     "solution_md": "i) The equation for the reaction of barium with dilute hydrochloric acid is:\n\nBa (s) + 2HCl (aq) → BaCl<sub>2</sub> (aq) + H<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct equation: Ba + 2HCl → BaCl<sub>2</sub> + H<sub>2</sub>\n> \n> 1 mark for all four state symbols correct: (s), (aq), (aq), (g)\n\nii) The equation for the reaction of barium with dilute sulfuric acid is:\n\nBa (s) + H<sub>2</sub>SO<sub>4</sub> (aq) → BaSO<sub>4</sub> (s) + H<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct equation: Ba + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + H<sub>2</sub>\n> \n> 1 mark for all four state symbols correct: (s), (aq), (s), (g)\n\n> **[mark-scheme]**\n> iii) The reaction of barium with dilute sulfuric acid slows down and stops because:\n> \n> - Barium sulfate (BaSO<sub>4</sub>) is insoluble / forms an insoluble solid layer on the surface of the barium **[1 mark]**\n\n> **[exam-tip]**\n> The key difference between the two reactions is the solubility of the product salt. Barium chloride (BaCl<sub>2</sub>) is soluble (aq), so the reaction with hydrochloric acid continues until the barium dissolves. Barium sulfate (BaSO<sub>4</sub>) is insoluble (s), so it forms a solid coating on the barium surface that prevents further reaction.\n> \n> Both reactions produce hydrogen gas, so both show initial effervescence. The reaction with sulfuric acid stops quickly, while the reaction with hydrochloric acid continues to completion."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gSJqrzMKkTnJVgNd",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_hkmPFk3Dy4dQsMtM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 4.1 to describe the general trends as you move down Group 2.\n\n**Table 4.1**\n\n| **Property** | **Trend** |\n|---|---|\n| Melting point |   |\n| Atomic radius |   |\n| First ionisation energy |   |",
+     "solution_md": "The completed table is:\n\n| **Property** | **Trend** |\n|---|---|\n| Melting point | **Final answer:** **Decreases** |\n| Atomic radius | **Final answer:** **Increases** |\n| First ionisation energy | **Final answer:** **Decreases** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for melting point: decreases / generally decreases\n> \n> 1 mark for atomic radius: increases\n> \n> 1 mark for first ionisation energy: decreases\n\n> **[exam-tip]**\n> As you move down Group 2:\n> \n> - Melting point generally decreases (magnesium has a lower melting point than expected for its position in the group and is an anomaly)\n> - Atomic radius increases because each successive element has an additional electron shell\n> - First ionisation energy decreases because the outer electrons are further from the nucleus and experience greater shielding\n> \n> These three trends are commonly tested together in Group 2 questions."
+    },
+    {
+     "id": "qstnprt_dXyFY5ybtvbm4Gc4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nComplete Table 4.1 to describe the general trends as you move down Group 2.\n\nTable 4.1\n\n| **Property** | **Trend** |\n| --- | --- |\n| Melting point |   |\n| Atomic radius |   |\n| First ionisation energy |   |\n\nName the Group 2 element that does not follow the general trend in melting point.",
+     "solution_md": "> **[mark-scheme]**\n> The Group 2 element that does not follow the general trend in melting point is:\n> \n> - Magnesium / Mg **[1 mark]**\n\n> **[exam-tip]**\n> The melting points of the Group 2 elements do not follow a perfectly smooth decreasing trend. Magnesium has a lower melting point than might be expected given the general trend from calcium to barium, making it an anomaly.\n> \n> You are not expected to explain the reason for this anomaly at A Level."
+    },
+    {
+     "id": "qstnprt_798tkDCJ6ztfgntg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yXBkCC4sjD5KyPrZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Construct equations for the first ionisation energy of barium and the second ionisation energy of calcium. Include state symbols.",
+     "solution_md": "> **[mark-scheme]**\n> The equations for the ionisation energies are:\n> \n> - Ba (g) → Ba<sup>+</sup> (g) + e<sup>-</sup> **[1 mark]**\n> - Ca<sup>+</sup> (g) → Ca<sup>2+</sup> (g) + e<sup>-</sup> **[1 mark]**\n> \n> State symbols are required for each mark\n\n> **[exam-tip]**\n> Ionisation energy equations always involve gaseous species.\n> \n> The first ionisation energy removes an electron from a neutral gaseous atom.\n> \n> The second ionisation energy removes an electron from a 1+ gaseous ion."
+    },
+    {
+     "id": "qstnprt_bZVHZNzrTSdfgmRY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "The trend in ionisation energy down Group 2 can be explained by the factors shown in Table 4.2.\n\nComplete Table 4.2 to show how each factor changes as you move down Group 2.\n\n**Table 4.2**\n\n| **Factor affecting ionisation energy** | **Increase / decrease** |\n|---|---|\n| Distance between the nucleus and outer electron |   |\n| Shielding |   |\n| Nuclear attraction |   |",
+     "solution_md": "The completed table is:\n\n| **Factor affecting ionisation energy** | **Increase / decrease** |\n|---|---|\n| Distance between the nucleus and outer electron | **Final answer:** **Increases** |\n| Shielding | **Final answer:** **Increases** |\n| Nuclear attraction | **Final answer:** **Decreases** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for distance between nucleus and outer electron: increases\n> \n> 1 mark for shielding: increases\n> \n> 1 mark for nuclear attraction: decreases\n\n> **[exam-tip]**\n> As you move down Group 2, each element has an additional electron shell:\n> \n> - The outer electrons are further from the nucleus, so the distance between the nucleus and the outer electron increases\n> - More inner electron shells provide greater shielding of the outer electrons from the nuclear charge\n> - Both factors reduce the effective nuclear attraction experienced by the outer electron\n> \n> These three factors together explain why first ionisation energy decreases down Group 2. A larger distance and greater shielding both weaken the nuclear attraction, making it easier to remove the outer electron."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fTSXQQf22qwRbK3K",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_KksrK6cpv5JXWYbC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Calcium salts have a number of industrial, agricultural and medicinal uses.\n\nCalcium carbonate is used as an antacid to relieve heartburn, acid indigestion, and upset stomach. Calcium oxide is used to make porcelain, glass, mortars and cement. Calcium hydroxide is used in agriculture when a rapid change in the pH of soil is required.\n\nThese three calcium salts are connected by the Lime cycle shown in Fig. 4.1.\n\n![Diagram of the calcium cycle showing arrows between calcium hydroxide, calcium carbonate, and calcium oxide forming a triangular reaction pathway](assets/004-diagram-of-the-calcium-cycle-showing-arrows-betw.png)\n\n**Fig. 4.1**\n\nConstruct **three** equations to demonstrate the reactions that occur in the Lime cycle. Include state symbols.",
+     "solution_md": "The **three** equations for the Lime cycle are:\n\nCa(OH)<sub>2</sub> (aq) + CO<sub>2</sub> (g) → CaCO<sub>3</sub> (s) + H<sub>2</sub>O (l)\n\nCaCO<sub>3</sub> (s) → CaO (s) + CO<sub>2</sub> (g)\n\nCaO (s) + H<sub>2</sub>O (l) → Ca(OH)<sub>2</sub> (aq)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for Ca(OH)<sub>2</sub> (aq) + CO<sub>2</sub> (g) → CaCO<sub>3</sub> (s) + H<sub>2</sub>O (l)\n> \n> 1 mark for CaCO<sub>3</sub> (s) → CaO (s) + CO<sub>2</sub> (g)\n> \n> 1 mark for CaO (s) + H<sub>2</sub>O (l) → Ca(OH)<sub>2</sub> (aq)\n> \n> 1 mark for all state symbols correct: Ca(OH)<sub>2</sub> (aq), CO<sub>2</sub> (g), CaCO<sub>3</sub> (s), H<sub>2</sub>O (l), CaO (s)\n\n> **[exam-tip]**\n> You are expected to know the formulae of calcium hydroxide, calcium carbonate and calcium oxide\n> \n> From Fig. 4.1, you have sufficient information to build the unbalanced reaction equations and deduce the balanced chemical equations\n> \n> Calcium hydroxide\n> \n> Ca(OH)<sub>2</sub> → CaCO<sub>3</sub>\n> \n> Calcium hydroxide is also known as limewater, which tests for the presence of CO<sub>2</sub>:\n> \n> Ca(OH)<sub>2</sub> + CO<sub>2</sub> → CaCO<sub>3</sub>\n> \n> The unbalanced equation is missing one oxygen and two hydrogen atoms on the right-hand side, which is a water molecule:\n> \n> Ca(OH)<sub>2</sub> + CO<sub>2</sub> → CaCO<sub>3</sub> + H<sub>2</sub>O\n> \n> Calcium carbonate\n> \n> CaCO<sub>3</sub> → CaO\n> \n> This unbalanced equation is missing one carbon and two oxygen atoms on the right-hand side, which is a carbon dioxide molecule:\n> \n> CaCO<sub>3</sub> → CaO + CO<sub>2</sub>\n> \n> Calcium oxide\n> \n> CaO → Ca(OH)<sub>2</sub>\n> \n> This unbalanced equation is missing one oxygen and two hydrogen atoms on the right-hand side, which is a water molecule:\n> \n> CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>\n> \n> Remember: The question asks for state symbols so you need to add state symbols to all of the equations\n> \n> It is more common to be asked to include state symbols for one of the specific equations but you should be adding state symbols as part of your good practice"
+    },
+    {
+     "id": "qstnprt_d5CZGpp5RYsPfmKT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_hhsQcFzVK8SK2Fpk"
+     ],
+     "part_tier": null,
+     "problem_md": "In agriculture, bulk lime spreaders are used to cover fields with solid calcium salts, including calcium carbonate, calcium oxide and calcium hydroxide.\n\ni) Explain how solid calcium hydroxide increases the pH of acidic soil.\n\n[3]\n\nii) Construct an **ionic** equation to show the reaction that causes the pH of the soil to increase. State symbols are **not** required.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) How solid calcium hydroxide increases the pH of acidic soil:\n> \n> - The solid calcium hydroxide dissolves (in rainwater / the moisture of the soil) **[1 mark]**\n> - This releases hydroxide ions / OH<sup>–</sup> into the soil **[1 mark]**\n> - The hydroxide ions / OH<sup>–</sup> react with / remove / neutralise the (acidic) hydrogen ions / H<sup>+</sup> **[1 mark]**\n> \n> ii) The **ionic** equation to show the reaction that causes the pH of the soil to increase is:\n> \n> - H<sup>+</sup> + OH<sup>–</sup> → H<sub>2</sub>O **[1 mark]**\n\n> **[exam-tip]**\n> Questions like this often see extra, unnecessary and incorrect answers\n> \n> This is because part i) of the question asks specifically about calcium hydroxide but the introductory sentence talks about calcium carbonate, calcium hydroxide and calcium oxide\n> \n> Careful: The calcium hydroxide is being added as a solid to a field\n> \n> - This means that you need to explain how the solid calcium hydroxide releases the hydroxide ions\n> - The hydroxide ions will then react with the hydrogen ions in the soil\n> - As more hydrogen ions are removed:\n> \n>   - The soil becomes less acidic\n>   - The soil becomes more alkaline\n>   - This means that the pH of the soil increases\n> \n> The increase in the pH is a result of a neutralisation reaction, so you should write the ionic equation for neutralisation as your answer to part ii)\n> \n> H<sup>+</sup> + OH<sup>–</sup> → H<sub>2</sub>O"
+    },
+    {
+     "id": "qstnprt_NcMKVVMPcxfkXHQf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "When calcium carbonate is heated strongly it undergoes a process called calcination.\n\ni) What is the chemical reaction that is described by calcination?\n\n[1]\n\nii) Explain why strontium carbonate has greater thermal stability than calcium carbonate.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The chemical reaction of calcination is:\n> \n> - Thermal decomposition **[1 mark]**\n> \n> ii) Strontium carbonate has greater thermal stability than calcium carbonate because:\n> \n> - Strontium ion has a larger / greater ionic radius\n> **OR**\n> The strontium ion / cation has a lower / decreased charge density **[1 mark]**\n> - So, the polarising / distorting power of the strontium ion / cation decreases **[1 mark]**\n> - Which means that there is less polarisation / distortion of (the electron cloud) of the carbonate ion / anion **[1 mark]**\n\n> **[exam-tip]**\n> You should be aware that heating calcium carbonate results in its decomposition to calcium oxide and carbon dioxide\n> \n> The thermal stability of the Group 2 carbonates increases as you move down the group\n> \n> The smaller positive metal ions at the top of the group polarise the anions more than the larger ions at the bottom of the group\n> \n> These small positive metal ions attract the delocalised electrons in the carbonate ion towards themselves\n> \n> The higher the charge and the smaller the ion, the higher the polarising power\n> \n> The more polarised the carbonate ions are, the more likely they are to thermally decompose as the covalent bonds within them are weaker"
+    },
+    {
+     "id": "qstnprt_sCpYG8mf6shKrS8g",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of hydrated calcium nitrate crystals was gently heated in a test tube. With further heating, a mixture of two gases was evolved. One of the gases was coloured and the other was colourless.\n\ni) Identify the coloured gas and give its colour.\n\n[1]\n\nii) Identify and describe a test, including the result, for the colourless gas.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The coloured gas and its colour are:\n> \n> - Nitrogen dioxide / nitrogen(IV) oxide / NO<sub>2</sub> **OR **dinitrogen tetroxide / N<sub>2</sub>O<sub>4</sub>\n> **AND**\n> Brown **[1 mark]**\n> \n> ii) The identity and test, including the result, for the colourless gas are:\n> \n> - Oxygen / O<sub>2</sub>\n> **AND**\n> Relights a glowing splint **[1 mark]**\n\n> **[exam-tip]**\n> The hydrated calcium nitrate is gently heated to remove the water of crystallisation\n> \n> Further heating then causes the calcium nitrate to decompose into calcium oxide, nitrogen dioxide and oxygen\n> \n> 2Ca(NO<sub>3</sub>)<sub>2</sub> (s) → 2CaO (s) + 4NO<sub>2</sub> (g) + O<sub>2</sub> (g)\n> \n> Nitrogen dioxide is a dark brown gas\n> \n> Some mark schemes may allow the use of red-brown or reddish-brown as the colour, but most mark schemes will not allow red as the colour\n> \n> Oxygen is the colourless gas\n> \n> You should know the gas test for oxygen as well as carbon dioxide, hydrogen, ammonia and chlorine"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dPbJQ35sTpxG7Cdy",
+   "set_slug": "structured-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_BBwqVqwpSXgQrP56",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs"
+     ],
+     "part_tier": null,
+     "problem_md": "Barium is silvery white but blackens when exposed to air.\n\nThis is due to the formation of barium nitride and one other compound.\n\nConstruct equations for the two separate reactions that occur. Include state symbols.",
+     "solution_md": "The equations for the two reactions are:\n\n2Ba (s) + O<sub>2</sub> (g) → 2BaO (s)\n\n3Ba (s) + N<sub>2</sub> (g) → Ba<sub>3</sub>N<sub>2</sub> (s)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae in the barium and oxygen equation: 2Ba, O<sub>2</sub>, 2BaO\n> \n> 1 mark for all correct state symbols in the barium and oxygen equation: (s), (g), (s)\n> \n> 1 mark for correct formulae in the barium and nitrogen equation: 3Ba, N<sub>2</sub>, Ba<sub>3</sub>N<sub>2</sub>\n> \n> 1 mark for all correct state symbols in the barium and nitrogen equation: (s), (g), (s)\n\n> **[exam-tip]**\n> When barium is exposed to air, it reacts with both oxygen (forming barium oxide, BaO) and nitrogen (forming barium nitride, Ba<sub>3</sub>N<sub>2</sub>).\n> \n> For BaO:\n> \n> - Barium forms Ba<sup>2+</sup> and oxygen forms O<sup>2-</sup>, giving the formula BaO.\n> - Balance by placing a coefficient of 2 in front of both Ba and BaO:\n> \n> 2Ba + O<sub>2</sub> → 2BaO.\n> \n> For Ba<sub>3</sub>N<sub>2</sub>:\n> \n> - Barium forms Ba<sup>2+</sup> and nitrogen forms N<sup>3-</sup>.\n> - Three barium ions (3 x 2+ = 6+) balance two nitride ions (2 x 3- = 6-), giving Ba<sub>3</sub>N<sub>2</sub>.\n> - The equation balances with 3 Ba atoms and 1 N<sub>2</sub> molecule."
+    },
+    {
+     "id": "qstnprt_bt5hHxcgxkqRcnSK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Barium can also react with water.\n\nA student reacted 0.20 g of barium with 250 cm<sup>3</sup> of water.\n\ni) Calculate the volume of gas, in cm<sup>3</sup>, produced in this reaction at room conditions. Show your working.\n\n[3]\n\nii) Calculate the concentration, in mol dm<sup>-3</sup>, of the barium hydroxide solution produced.\n\n[1]",
+     "solution_md": "i) To calculate the volume of hydrogen gas produced:\n\n- List the known values:\n\n- mass of Ba = 0.20 g; M<sub>r</sub>(Ba) = 137.3; molar volume at room conditions = 24 000 cm<sup>3</sup> mol<sup>-1</sup>\n\n- Construct the equation for the reaction of barium with water:\n\nBa (s) + 2H<sub>2</sub>O (l) → Ba(OH)<sub>2</sub> (aq) + H<sub>2</sub> (g) **[1 mark]**\n\n- Calculate the moles of barium:\n\nmoles = $\\frac{mass}{M_{r}}$\n\nmoles of Ba = $\\frac{0.20}{137.3}$\n\nmoles of Ba = 0.001457 mol **[1 mark]**\n\n- The molar ratio of Ba : H<sub>2</sub> = 1 : 1, so moles of H<sub>2</sub> = 0.001457 mol\n\n- Calculate the volume of H<sub>2</sub>:\n\nvolume = moles x molar volume\n\nvolume = 0.001457 x 24 000\n\nvolume = **35.0 cm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> State symbols are not required for the equation.\n> \n> Allow 0.00146 mol for moles of barium (3 sf).\n> \n> Allow 35.0 cm<sup>3</sup> for volume of H<sub>2</sub> (accept 34.97 cm<sup>3</sup> before rounding).\n\nii) To calculate the concentration of barium hydroxide:\n\n- The molar ratio of Ba : Ba(OH)<sub>2</sub> = 1 : 1, so moles of Ba(OH)<sub>2</sub> = 0.001457 mol\n\n- Convert volume: 250 cm<sup>3</sup> ÷ 1000 = 0.250 dm<sup>3</sup>\n\n- Calculate the concentration:\n\nconcentration = $\\frac{n}{V}$\n\nconcentration = $\\frac{0.001457}{0.250}$\n\nconcentration = **0.00583 mol dm**<sup>**-3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from the moles value into the volume and concentration calculations.\n\n> **[exam-tip]**\n> The equation for barium reacting with water is one you are expected to recall. State symbols are not required for this mark.\n> \n> The molar volume of a gas at room conditions is 24 000 cm<sup>3</sup> mol<sup>-1</sup> (or 24.0 dm<sup>3</sup> mol<sup>-1</sup>). Since the question asks for volume in cm<sup>3</sup>, use 24 000 cm<sup>3</sup> mol<sup>-1</sup>.\n> \n> The molar ratios Ba : H<sub>2</sub> and Ba : Ba(OH)<sub>2</sub> are both 1 : 1 from the balanced equation.\n> \n> Remember to convert the volume from cm<sup>3</sup> to dm<sup>3</sup> (divide by 1000) before calculating the concentration.",
+     "equations": [
+      {
+       "latex": "\\frac{mass}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><msub><mi>M</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{mass}{M_r}"
+      },
+      {
+       "latex": "\\frac{0.20}{137.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>20</mn></mrow><mrow><mn>137</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.20}{137.3}"
+      },
+      {
+       "latex": "\\frac{n}{V}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mi>V</mi></mfrac></math>",
+       "alt": "\\frac{n}{V}"
+      },
+      {
+       "latex": "\\frac{0.001457}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>001457</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.001457}{0.250}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_T4JBMp7bsg9m6ccK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe and explain the trend in the reactivity of Group 2 elements with water.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in reactivity of Group 2 elements with water:\n> \n> - Reactivity increases down the group **[1 mark]**\n> - Atomic radius increases\n> **OR**\n> There are more electron shells **[1 mark]**\n> - There is more shielding / screening of the outer electrons (by inner electron shells) **[1 mark]**\n> - The nuclear attraction for the outer electrons decreases\n> **OR**\n> The outer electrons are more easily removed / ionisation energy decreases **[1 mark]**\n\n> **[exam-tip]**\n> This is a common exam question. Make sure you can apply the same chain of reasoning in either direction (up or down the group).\n> \n> The key chain of reasoning going down the group is:\n> \n> - Larger atomic radius\n> - → more electron shells\n> - → increased shielding\n> - → decreased nuclear attraction for outer electrons\n> - → lower ionisation energy\n> - → greater reactivity."
+    },
+    {
+     "id": "qstnprt_nzHnZmBMPY4wjdXW",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the reaction of calcium with water is a redox reaction.\n\nUse oxidation numbers in your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The reaction of calcium with water is a redox reaction because:\n> \n> - Calcium has been oxidised\n> **AND**\n> Its oxidation number increases from 0 (in Ca) to +2 (in Ca(OH)<sub>2</sub>) **[1 mark]**\n> - Hydrogen has been reduced\n> **AND**\n> Its oxidation number decreases from +1 (in H<sub>2</sub>O) to 0 (in H<sub>2</sub>) **[1 mark]**\n\n> **[exam-tip]**\n> The oxidation number of an element in its standard state is always 0. In H<sub>2</sub>O, the oxidation number of oxygen is -2 and hydrogen is +1.\n> \n> A substance is oxidised if its oxidation number increases, and reduced if its oxidation number decreases.\n> \n> Note that the oxidation number of oxygen remains -2 throughout this reaction (in both H<sub>2</sub>O and Ca(OH)<sub>2</sub>), so oxygen is neither oxidised nor reduced."
+    },
+    {
+     "id": "qstnprt_vnYW7Sxvdqqf6n99",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr",
+      "spcpt_PDpsg9sZvq5fb2rC",
+      "spcpt_BYxDMWGVpx8M2cnb"
+     ],
+     "part_tier": null,
+     "problem_md": "The trend in solubility and strength as a base can also be observed going down Group 2.\n\nExplain how these two trends are connected.",
+     "solution_md": "> **[mark-scheme]**\n> The link between the trend in solubility and the trend in base strength:\n> \n> - The solubility of the Group 2 hydroxides increases down the group\n> **AND**\n> The strength as a base increases down the group **[1 mark]**\n> - Increasing solubility means more hydroxide / OH<sup>-</sup> ions are present in solution\n> **OR**\n> Increasing solubility increases the concentration of hydroxide / OH<sup>-</sup> ions in solution **[1 mark]**\n> - The hydroxide / OH<sup>-</sup> ion is responsible for base behaviour\n> **OR**\n> Base strength is determined by the concentration of hydroxide / OH<sup>-</sup> ions in solution **[1 mark]**\n\n> **[exam-tip]**\n> The Group 2 hydroxides increase in solubility down the group. Magnesium hydroxide is almost insoluble and exists as a suspension in water. Barium hydroxide is the most soluble of the Group 2 hydroxides and dissolves to produce a strongly alkaline solution.\n> \n> Base strength is measured by the concentration of OH<sup>-</sup> ions in solution: a more soluble hydroxide produces more OH<sup>-</sup> ions and is therefore a stronger base."
+    }
+   ]
+  },
+  {
+   "id": "qstn_c2mwDgzQtFk8SYXf",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_GWRFrB7m9yJS2dyc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "Group 2 metals and their compounds are used commercially in a variety of processes and applications.\n\nCalcium carbonate is an insoluble solid that can be used to lower the acidity of lake water.\n\nExplain why the rate of this reaction decreases when the water temperature falls.",
+     "solution_md": "> **[mark-scheme]**\n> The rate of this reaction decreases when the water temperature falls because:\n> \n> - A decrease in temperature decreases the energy of the particles / ions / H<sup>+</sup> (in the lake) **[1 mark]**\n> - Which decreases the number of particles / ions / H<sup>+</sup> (in the lake) with *E* $\\geq$ *E*<sub>a</sub>\n> **OR**\n> Which decreases the number of particles / ions / H<sup>+</sup> (in the lake) with sufficient energy to react **[1 mark]**\n> - So there are less frequent successful / effective / productive collisions **[1 mark]**\n\n> **[exam-tip]**\n> Decreasing temperature results in the particles having less kinetic energy\n> \n> This means that more particles don't have the required energy to react, i.e. *E* $\\geq$ *E*<sub>a</sub>\n> \n> Therefore, there are less frequent successful collisions / less successful collisions per unit time, which results in a slower rate of reaction",
+     "equations": [
+      {
+       "latex": "\\geq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x2265;</mo></math>",
+       "alt": "\\geq"
+      },
+      {
+       "latex": "\\geq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x2265;</mo></math>",
+       "alt": "\\geq"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fgPNjFM8tHVK9zGM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Feb 2018",
+      "number": "9701/22",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_hhsQcFzVK8SK2Fpk"
+     ],
+     "part_tier": null,
+     "problem_md": "Calcium carbonate reacts with lactic acid (Figure 3.1) to form calcium lactate, which is used to treat or prevent low blood calcium levels (hypocalcemia).\n\n![Structural formula of lactic acid showing three carbon chain with hydroxyl and carboxylic acid groups, labelled “Lactic acid” underneath](assets/005-structural-formula-of-lactic-acid-showing-three-.png)\n\n**Figure 3.1**\n\nState the **two** other products of the reaction of calcium carbonate with lactic acid.",
+     "solution_md": "> **[mark-scheme]**\n> The **two** other products of the reaction of calcium carbonate with lactic acid are:\n> \n> - Carbon dioxide / CO<sub>2</sub>\n> **AND**\n> Water / H<sub>2</sub>O **[1 mark]**\n\n> **[exam-tip]**\n> The displayed formula of lactic acid shows that it is a carboxylic acid\n> \n> This means that the question is asking for the products of a neutralisation reaction between a metal carbonate and a carboxylic acid\n> \n> metal carbonate + carboxylic acid → metal salt + carbon dioxide + water"
+    },
+    {
+     "id": "qstnprt_8TNmtbk6g3bqc8HT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium can be used to extract titanium.\n\ni) Construct an equation to show how magnesium is used as the reducing agent in the reaction of magnesium with titanium(IV) chloride. State symbols are **not** required.\n\n[2]\n\nii) Explain, in terms of oxidation numbers, why magnesium is the reducing agent.\n\n[1]\n\niii) The excess magnesium used in this extraction is removed by reacting it with dilute sulfuric acid to form magnesium sulfate.\n\nExplain why the magnesium sulfate formed is easy to separate from the titanium.\n\n[1]",
+     "solution_md": "i) The equation to show how magnesium is used as the reducing agent in the reaction of magnesium with titanium(IV) chloride is:\n\n2Mg + TiCl<sub>4</sub> → 2MgCl<sub>2</sub> + Ti\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct chemical species\n> \n> 1 mark for correct balancing\n\n> **[mark-scheme]**\n> ii) In terms of oxidation states, magnesium is the reducing agent because:\n> \n> - Mg changes its oxidation number from 0 to +2, so electrons are lost\n> **OR**\n> Ti changes its oxidation number from +4 to 0, so electrons are gained **[1 mark]**\n> \n> iii) The magnesium sulfate formed is easy to separate from the titanium because:\n> \n> - Magnesium sulfate / it is soluble in water\n> **AND**\n> So, the titanium can be filtered from the solution **[1 mark]**\n\n> **[exam-tip]**\n> For part i)\n> \n> - You are told that the magnesium reacts with titanium(IV) chloride to produce titanium\n> \n> Mg + TiCl<sub>4</sub> → Ti\n> \n> - The other product must be magnesium chloride\n> \n> Mg + TiCl<sub>4</sub> → MgCl<sub>2</sub> + Ti\n> \n> - There are four chlorine atoms on the left-hand side and two on the right, so you need 2MgCl<sub>2</sub>\n> \n> Mg + TiCl<sub>4</sub> → 2MgCl<sub>2</sub> + Ti\n> \n> - There are now two magnesium atoms on the right-hand side and one on the left, so you need 2Mg\n> \n> 2Mg + TiCl<sub>4</sub> → 2MgCl<sub>2</sub> + Ti\n> \n> For part ii)\n> \n> - Remember: Reducing agents cause reduction in other chemicals and are themselves oxidised\n> - The oxidation number of the magnesium starts at 0 in Mg and becomes +2 in MgCl<sub>2</sub>\n> - This increase in the oxidation number is oxidation, which means that magnesium is the reducing agent\n> \n> For part iii)\n> \n> - Magnesium sulfate is soluble in water\n> - Titanium metal is solid and does not dissolve in / react with water\n> - This means that the titanium can be filtered from the mixture"
+    },
+    {
+     "id": "qstnprt_sj8Px62TNrcq5YTZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "Strontium metal is used in the manufacture of alloys.\n\nExplain why strontium has a higher melting point than barium.",
+     "solution_md": "> **[mark-scheme]**\n> Strontium has a higher melting point than barium because:\n> \n> - The delocalised electrons (in strontium) are closer to the positive ions / cations / atom / nuclei\n> **OR**\n> The positive ions / cations / atoms (in strontium) are smaller\n> **OR**\n> The positive ions / cations / atoms have fewer (electron) shells / levels **[1 mark]**\n> - So, strontium has a stronger attraction between the positive ions / cations / atoms / nuclei and the delocalised electrons\n> **OR**\n> So, strontium has stronger metallic bonding **[1 mark]**\n\n> **[exam-tip]**\n> As you move down Group 2:\n> \n> - The elements have the same equivalent nuclear charge of +2\n> - The elements have increased shielding\n> - This results in a weaker force of attraction between the nuclei and the outermost electrons\n> \n> For the metallic bonding present in Group 2 metals, this means that the force of attraction / metallic bond gets weaker as you move down the group"
+    }
+   ]
+  },
+  {
+   "id": "qstn_b4xsGyGWjvXGPWxZ",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_7vc3dyjtfQybRsgb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Group 2 hydroxides, M(OH)<sub>2</sub>, can be used to neutralise acids.\n\nConstruct an equation for the reaction of barium with cold water. State symbols are **not** required.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the reaction of barium with cold water:\n> \n> - Ba + 2H<sub>2</sub>O → Ba(OH)<sub>2</sub> + H<sub>2</sub> **[1 mark]**\n\n> **[exam-tip]**\n> Barium reacts with cold water to form barium hydroxide (an alkaline solution) and hydrogen gas.\n> \n> To balance, start with:\n> \n> Ba + H<sub>2</sub>O → Ba(OH)<sub>2</sub> + H<sub>2</sub>\n> \n> There is 1 O atom on the left and 2 on the right. Adding a second H<sub>2</sub>O on the left gives:\n> \n> Ba + 2H<sub>2</sub>O → Ba(OH)<sub>2</sub> + H<sub>2</sub>\n> \n> The equation is now balanced."
+    },
+    {
+     "id": "qstnprt_kVMcBWjmvHGHYFZH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a saturated solution of barium hydroxide is more alkaline than a saturated solution of magnesium hydroxide.",
+     "solution_md": "> **[mark-scheme]**\n> A saturated solution of barium hydroxide is more alkaline than magnesium hydroxide because:\n> \n> - Barium hydroxide is more soluble than magnesium hydroxide\n> **OR**\n> The solubility of Group 2 hydroxides increases going down the group **[1 mark]**\n> - The concentration of hydroxide / OH<sup>-</sup> ions is greater in barium hydroxide solution\n> **OR**\n> There are more hydroxide / OH<sup>-</sup> ions in barium hydroxide solution **[1 mark]**\n\n> **[exam-tip]**\n> Group 2 metal hydroxides dissolve to produce M<sup>2+</sup> and 2OH<sup>-</sup> ions. The greater the solubility, the higher the concentration of OH<sup>-</sup> ions, and the higher the pH.\n> \n> Barium hydroxide is more soluble than magnesium hydroxide, so a saturated Ba(OH)<sub>2</sub> solution has a higher [OH<sup>-</sup>] and is more alkaline."
+    },
+    {
+     "id": "qstnprt_XbNFVCh3bcY5DNMj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "An unknown solution of a group 2 metal salt was tested for the presence of carbonate ions.\n\nDilute hydrochloric acid was added to the solution and the gas given off was bubbled through limewater. A white precipitate formed.\n\ni) Construct the **ionic** equation for the formation of the gas. State symbols are **not** required.\n\n[1]\n\nii) Construct an equation for the formation of the precipitate. Include state symbols.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The ionic equation for the formation of the gas:\n> \n> - CO<sub>3</sub><sup>2–</sup> + 2H<sup>+</sup> → CO<sub>2</sub> + H<sub>2</sub>O **[1 mark]**\n\nii) The equation for the formation of the precipitate is:\n\nCO<sub>2</sub> (g) + Ca(OH)<sub>2</sub> (aq) → CaCO<sub>3</sub> (s) + H<sub>2</sub>O (l)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae and balancing: CO<sub>2</sub>, Ca(OH)<sub>2</sub>, CaCO<sub>3</sub>, H<sub>2</sub>O\n> \n> 1 mark for all correct state symbols: (g), (aq), (s), (l)\n\n> **[exam-tip]**\n> For part i): the carbonate ion reacts with hydrogen ions (from the acid) to produce CO<sub>2</sub> gas. To write the ionic equation, remove the spectator ions:\n> \n> CO<sub>3</sub><sup>2–</sup> + 2H<sup>+</sup> → CO<sub>2</sub> + H<sub>2</sub>O.\n> \n> For part ii): the CO<sub>2</sub> gas is bubbled through limewater, which is calcium hydroxide solution, Ca(OH)<sub>2</sub> (aq). This is a neutralisation reaction:\n> \n> CO<sub>2</sub> + Ca(OH)<sub>2</sub> → CaCO<sub>3</sub> + H<sub>2</sub>O."
+    },
+    {
+     "id": "qstnprt_WxKXRXyHGs8srN5H",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium hydroxide can be used as an indigestion remedy to neutralise hydrochloric acid in the stomach.\n\nMg(OH)<sub>2</sub> + 2HCl → MgCl<sub>2</sub> + 2H<sub>2</sub>O\n\nCalculate the minimum mass of magnesium hydroxide needed to neutralise 0.210 mol of hydrochloric acid. Give your answer to an appropriate number of significant figures. Show your working.",
+     "solution_md": "To calculate the minimum mass of magnesium hydroxide needed:\n\n- The molar ratio Mg(OH)<sub>2</sub> : HCl = 1 : 2 from the equation\n\n- Calculate the moles of Mg(OH)<sub>2</sub>:\n\nmoles of Mg(OH)<sub>2</sub> = $\\frac{0.210}{2}$\n\nmoles of Mg(OH)<sub>2</sub> = 0.105 mol **[1 mark]**\n\n- Calculate *M*<sub>r</sub>(Mg(OH)<sub>2</sub>):\n\n*M*<sub>r</sub> = 24.3 + 2(16.0 + 1.0) = 58.3 g mol<sup>-1</sup> **[1 mark]**\n\n- Calculate the mass:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.105 x 58.3 = 6.1215 g\n\nmass = **6.12 g** (3 sf)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> Accept 6.1 g (2 sf) for the final answer.\n> \n> Allow error carried forward: if incorrect moles are used consistently, award the mass mark if the method is correct.\n\n> **[exam-tip]**\n> The stoichiometric ratio Mg(OH)<sub>2</sub> : HCl = 1 : 2, so divide the moles of HCl by 2 to find moles of Mg(OH)<sub>2</sub>.\n> \n> *M*<sub>r</sub>(Mg(OH)<sub>2</sub>) = 24.3 + 2 x (16.0 + 1.0) = 58.3 g mol<sup>-1</sup>.\n> \n> The question asks for an appropriate number of significant figures; since the data is given to 3 sf, 3 sf (6.12 g) is most appropriate, but 2 sf (6.1 g) is also accepted.",
+     "equations": [
+      {
+       "latex": "\\frac{0.210}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>210</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.210}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7R274MzFG57n4NQr",
+   "set_slug": "structured-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_dVXByqhn4wDsSVKS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr"
+     ],
+     "part_tier": null,
+     "problem_md": "Samples of calcium, strontium and barium are reacted with water to form their hydroxides. The resulting solutions are then filtered to collect the precipitates.\n\nExplain the trend in the expected mass of the precipitates.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in expected mass of precipitate:\n> \n> - Calcium hydroxide will have the greatest mass of precipitate **AND **barium hydroxide will have the least mass of precipitate\n> **OR**\n> The mass of precipitate decreases down the group / increases up the group **[1 mark]**\n> - The solubility of Group 2 hydroxides increases going down the group **[1 mark]**\n\n> **[exam-tip]**\n> The question refers to filtering to collect precipitates. The more soluble the hydroxide, the less precipitate remains after filtering.\n> \n> Calcium hydroxide is sparingly soluble, so a large mass of precipitate is collected. Barium hydroxide is very soluble, so very little (if any) precipitate remains."
+    },
+    {
+     "id": "qstnprt_S3hxvnwGtzRcBWHN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Table 2.1 shows the solubility data for the Group 2 metal hydroxides.\n\n**Table 2.1**\n\n| **Group 2 metal hydroxide** | **Solubility / g dm**<sup>-3</sup>** at 20 °C** |\n|---|---|\n| Magnesium hydroxide | 0.140 |\n| Calcium hydroxide | 1.730 |\n| Strontium hydroxide | 17.70 |\n| Barium hydroxide | 38.90 |\n\nA student determined that a 50 cm<sup>3</sup> solution of an unknown Group 2 metal hydroxide contained 802 mg of the metal hydroxide.\n\nIdentify the metal hydroxide in the unknown sample. Show your working.",
+     "solution_md": "To identify the metal hydroxide in the unknown sample:\n\n- Convert the mass from mg to g:\n\n802 ÷ 1000 = 0.802 g\n\n- Scale the mass to per dm<sup>3</sup> (multiply by 1000 ÷ 50):\n\n0.802 x 20 = 16.04 g dm<sup>-3</sup>\n\n**[1 mark]**\n\nThe value 16.04 g dm<sup>-3</sup> is closest to strontium hydroxide (17.70 g dm<sup>-3</sup>) in Table 2.1.\n\nThe unknown metal hydroxide is **strontium hydroxide** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correctly converting 802 mg in 50 cm<sup>3</sup> to g dm<sup>-3</sup> (accept 16.0 g dm<sup>-3</sup> or any value rounded consistently)\n> \n> 1 mark for correctly identifying strontium hydroxide, supported by working\n> \n> Strontium hydroxide is not accepted without supporting working.\n> \n> Allow error carried forward: if the calculated g dm<sup>-3</sup> value is incorrect, award 1 mark for identifying the hydroxide with the closest solubility value in Table 2.1 to the candidate’s calculated value.\n\n> **[exam-tip]**\n> The table gives solubility in g dm<sup>-3</sup>, but the data is given in mg and cm<sup>3</sup>. Two conversions are needed:\n> \n> 1 g = 1000 mg, so divide by 1000 to convert mass to grams.\n> \n> 1 dm<sup>3</sup> = 1000 cm<sup>3</sup>, so multiply by (1000 ÷ 50) = 20 to scale the mass from 50 cm<sup>3</sup> to 1 dm<sup>3</sup>.\n> \n> The calculated value will not exactly match a table value, so you should select the closest entry."
+    },
+    {
+     "id": "qstnprt_XJ2NnzfJ2rskGrVW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr",
+      "spcpt_WpJSvwGhQxKyqdHc"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium hydroxide reacts with sulfuric acid.\n\ni) Construct an equation for the reaction between magnesium hydroxide and sulfuric acid. Include state symbols.\n\n[2]\n\nii) Barium hydroxide also reacts with sulfuric acid. State and explain any differences in the observations between the two reactions.\n\n[3]",
+     "solution_md": "i) The equation for the reaction between magnesium hydroxide and sulfuric acid is:\n\nMg(OH)<sub>2</sub> (s) + H<sub>2</sub>SO<sub>4</sub> (aq) → MgSO<sub>4</sub> (aq) + 2H<sub>2</sub>O (l)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae and balancing: Mg(OH)<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, MgSO<sub>4</sub>, 2H<sub>2</sub>O\n> \n> 1 mark for all correct state symbols: (s), (aq), (aq), (l)\n\n> **[mark-scheme]**\n> ii) Differences in observations between the two reactions:\n> \n> - With magnesium hydroxide, a colourless solution is produced **[1 mark]**\n> - With barium hydroxide, a white precipitate is produced **[1 mark]**\n> - Barium sulfate is insoluble\n> **AND**\n> Magnesium sulfate is soluble **[1 mark]**\n\n> **[exam-tip]**\n> Group 2 hydroxides are bases:\n> \n> metal hydroxide + sulfuric acid → metal sulfate + water.\n> \n> The solubility of Group 2 sulfates decreases down the group. Magnesium sulfate is soluble (so MgSO<sub>4</sub> carries the state symbol (aq) in the equation), while barium sulfate is insoluble and forms a white precipitate.\n> \n> The formation of a white precipitate with barium ions is also the test for sulfate ions in solution."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5jfK7sZbwKc4zWmZ",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_dcH5Jqc2YZ6ZxRKV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "State the type of reaction that occurs when strontium carbonate is heated to form strontium oxide and carbon dioxide.\n\nSrCO<sub>3</sub> (s) → SrO (s) + CO<sub>2</sub> (g)",
+     "solution_md": "> **[mark-scheme]**\n> The type of reaction is:\n> \n> - Thermal decomposition **[1 mark]**\n> \n> Both 'thermal' and 'decomposition' are required for the mark.\n\n> **[exam-tip]**\n> The word 'thermal' indicates that heat is required to drive the reaction.\n> \n> The word 'decomposition' indicates that a compound breaks down into simpler substances.\n> \n> Together, thermal decomposition describes a reaction where a compound breaks down due to heating."
+    },
+    {
+     "id": "qstnprt_gzCBcDjhs8zV3nbB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4qRycvt2DMVqCSNT",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "When heated, strontium nitrate breaks down to form strontium oxide, nitrogen dioxide and oxygen.\n\nComplete the balanced chemical equation for this reaction.\n\n2Sr(NO<sub>3</sub>)<sub>2</sub> (s) → .......... (.....) + .......... (.....) + .......... (.....)",
+     "solution_md": "The completed equation is:\n\n2Sr(NO<sub>3</sub>)<sub>2</sub> (s) → 2SrO (s) + 4NO<sub>2</sub> (g) + O<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae of all products **AND** all three state symbols correct: (s), (g), (g)\n> \n> 1 mark for correct balancing: 2SrO, 4NO<sub>2</sub>, O<sub>2</sub>\n\n> **[exam-tip]**\n> Strontium nitrate decomposes in a similar way to other Group 2 nitrates. The products are the metal oxide, nitrogen dioxide and oxygen.\n> \n> To balance, start with strontium:\n> \n> - 2 Sr on the left means two SrO on the right\n> - Then count nitrogen:\n> \n>   - 4N (from two Sr(NO<sub>3</sub>)<sub>2</sub>) gives 4NO<sub>2</sub>.\n> - Finally, count oxygen:\n> \n>   - 12O on the left (4 x 3) versus 5O in 2SrO and 4NO<sub>2</sub> (2 + 4), leaving one O<sub>2</sub> to balance."
+    },
+    {
+     "id": "qstnprt_WqnCgsc9fMvsn6zv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "5.00 g of magnesium carbonate breaks down to form 1.75 g of magnesium oxide and carbon dioxide when heated.\n\nMgCO<sub>3</sub> (s) → MgO (s) + CO<sub>2</sub> (g)\n\nCalculate the percentage yield of magnesium oxide. Show your working.",
+     "solution_md": "To calculate the percentage yield of magnesium oxide:\n\n- Determine the moles of magnesium carbonate, MgCO<sub>3</sub>:\n\n*M*<sub>r</sub> of MgCO<sub>3</sub> = 24.3 + 12.0 + 3(16.0) = 84.3 g mol<sup>-1</sup>\n\nmoles of MgCO<sub>3</sub> = $\\frac{5.00}{84.3}$ = 0.0593 mol\n\n**[1 mark]**\n\n- Calculate the theoretical mass of magnesium oxide, MgO:\n\n*M*<sub>r</sub> of MgO = 24.3 + 16.0 = 40.3 g mol<sup>-1</sup>\n\nmoles of MgO = 0.0593 mol (1:1 molar ratio with MgCO<sub>3</sub>)\n\ntheoretical mass of MgO = 0.0593 x 40.3 = 2.39 g\n\n**[1 mark]**\n\n- Calculate the percentage yield:\n\n% yield = $\\frac{\\text{actual yield}}{\\text{theoretical yield}}$ x 100\n\n% yield = $\\frac{1.75}{2.39}$ x 100 = **73.2%**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *M*<sub>r</sub> (MgCO<sub>3</sub>) = 84.3 **AND** moles = 0.0593 mol\n> \n> 1 mark for *M*<sub>r</sub> (MgO) = 40.3 **AND** theoretical mass = 2.38–2.39 g\n> \n> 1 mark for % yield = 73.2% (allow 73.2–73.3%)\n\n> **[exam-tip]**\n> Percentage yield compares the actual mass of product obtained with the maximum theoretical mass assuming complete conversion of the limiting reagent. It is always ≤100%.\n> \n> In this reaction the molar ratio of MgCO<sub>3</sub> to MgO is 1:1, so the moles of MgO that could theoretically form equals the moles of MgCO<sub>3</sub> that decomposes.\n> \n> A percentage yield below 100% indicates that not all the MgCO<sub>3</sub> decomposed, or that some product was lost during collection.",
+     "equations": [
+      {
+       "latex": "\\frac{5.00}{84.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>84</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.00}{84.3}"
+      },
+      {
+       "latex": "\\frac{\\text{actual yield}}{\\text{theoretical yield}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>actual yield</mtext><mtext>theoretical yield</mtext></mfrac></math>",
+       "alt": "\\frac{\\text{actual yield}}{\\text{theoretical yield}}"
+      },
+      {
+       "latex": "\\frac{1.75}{2.39}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>75</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>39</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.75}{2.39}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_H9MSTFgDMQGBJGvf",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4qRycvt2DMVqCSNT"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the trend in the thermal stability of the Group 2 carbonates and nitrates as you move down Group 2.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in thermal stability of the Group 2 carbonates and nitrates as you move down Group 2 is:\n> \n> - The thermal stability increases (as you move down Group 2) **[1 mark]**\n\n> **[exam-tip]**\n> Moving down Group 2 from magnesium to barium, the carbonates and nitrates become increasingly difficult to decompose by heat, meaning higher temperatures are required to break them down.\n> \n> For example, magnesium carbonate decomposes at a much lower temperature than barium carbonate. This trend also applies to the Group 2 nitrates."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3tmWyzqhy5k3HTtH",
+   "set_slug": "structured-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_dSPP2FTBmFq29H4z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PDpsg9sZvq5fb2rC"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the first ionisation energy of calcium (590 kJ mol<sup>-1</sup>) is greater than that of strontium (550 kJ mol<sup>-1</sup>).",
+     "solution_md": "> **[mark-scheme]**\n> Calcium has a greater first ionisation energy than strontium because:\n> \n> - Calcium's outer electrons are closer to the nucleus\n> **OR**\n> Calcium has a smaller atomic radius\n> **OR**\n> Calcium has fewer electron shells **[1 mark]**\n> - Calcium has less shielding\n> **AND**\n> More energy is required to overcome the stronger force of attraction between the outer electron and the nucleus **[1 mark]**\n\n> **[exam-tip]**\n> When explaining trends in ionisation energy, you should cover:\n> \n> - The distance of the outer electrons from the nucleus\n> - The amount of shielding\n> - The resulting force of attraction between the outer electron and the nucleus.\n> \n> A smaller atom (calcium) has electrons closer to the nucleus with less shielding, so more energy is required to remove an outer electron."
+    },
+    {
+     "id": "qstnprt_CJ25dzYkCzTXqCft",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Strontium chloride is used in toothpaste for sensitive teeth.\n\ni) Construct an equation for the formation of strontium chloride from strontium and hydrochloric acid. Include state symbols.\n\n[2]\n\nii) Suggest why this reaction is not used to produce strontium chloride on an industrial scale.\n\n[1]",
+     "solution_md": "i) The equation for the formation of strontium chloride is:\n\nSr (s) + 2HCl (aq) → SrCl<sub>2</sub> (aq) + H<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae and balancing: Sr, 2HCl, SrCl<sub>2</sub>, H<sub>2</sub>\n> \n> 1 mark for all correct state symbols: (s), (aq), (aq), (g)\n\n> **[mark-scheme]**\n> ii) A reason why this reaction is not used on an industrial scale:\n> \n> - The reaction is vigorous / violent\n> **OR**\n> There is a risk of explosion **[1 mark]**\n\n> **[exam-tip]**\n> Strontium reacts with acids following the general pattern:\n> \n> metal + acid → salt + hydrogen.\n> \n> Group 2 metals become more reactive down the group. The reaction of strontium with hydrochloric acid is more vigorous than magnesium, making it unsafe on an industrial scale."
+    },
+    {
+     "id": "qstnprt_XWZBn9RHYry3R5bt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VxkBdpWt7QbVj8qs",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium sulfate solution can be given as first aid to someone who has accidentally swallowed barium chloride.\n\nExplain, with the help of an ionic equation, why drinking magnesium sulfate solution is an effective treatment for barium poisoning. State symbols are **not** required.",
+     "solution_md": "> **[mark-scheme]**\n> Magnesium sulfate is an effective treatment for barium poisoning because:\n> \n> - Insoluble barium sulfate is formed\n> **OR**\n> Barium ions are removed from solution (as a precipitate) **[1 mark]**\n> - Ba<sup>2+</sup> + SO<sub>4</sub><sup>2–</sup> → BaSO<sub>4</sub> **[1 mark]**\n\n> **[exam-tip]**\n> The solubility of Group 2 sulfates decreases down the group. Magnesium sulfate is soluble, but barium sulfate is insoluble.\n> \n> When magnesium sulfate solution is consumed, Ba<sup>2+</sup> ions react with SO<sub>4</sub><sup>2–</sup> ions to form insoluble BaSO<sub>4</sub>, which passes through the body without causing harm."
+    },
+    {
+     "id": "qstnprt_MczWPXQy5XXnYHsB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc"
+     ],
+     "part_tier": null,
+     "problem_md": "Milk of magnesia, Mg(OH)<sub>2</sub>, and calcium carbonate can both be used in the effective relief of acid indigestion.\n\nBy comparing the chemical equations for their reactions with hydrochloric acid, justify which remedy might cause the person taking it to have wind.",
+     "solution_md": "The reactions for comparison are:\n\nMg(OH)<sub>2</sub> (s) + 2HCl (aq) → MgCl<sub>2</sub> (aq) + 2H<sub>2</sub>O (l)\n\nCaCO<sub>3</sub> (s) + 2HCl (aq) → CaCl<sub>2</sub> (aq) + H<sub>2</sub>O (l) + CO<sub>2</sub> (g)\n\n> **[mark-scheme]**\n> The remedy that might cause the person taking it to have wind is:\n> \n> - Calcium carbonate\n> **AND**\n> The reaction with hydrochloric acid produces carbon dioxide gas **[1 mark]**\n> - Both reactions produce a metal chloride and water **[1 mark]**\n\n> **[exam-tip]**\n> Comparing both equations: the only difference is that CaCO<sub>3</sub> produces CO<sub>2</sub> gas. Carbon dioxide could cause wind in the person taking it.\n> \n> Both reactions are neutralisation reactions:\n> \n> metal hydroxide + acid → salt + water\n> \n> metal carbonate + acid → salt + water + CO<sub>2</sub>"
     }
    ]
   }

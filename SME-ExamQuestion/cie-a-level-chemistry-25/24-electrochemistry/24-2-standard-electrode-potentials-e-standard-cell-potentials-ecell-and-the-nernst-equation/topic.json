@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:50:06Z",
+ "generated_utc": "2026-10-26T14:55:16Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -195,6 +195,20 @@
      "problem_md": "Use the Nernst equation from the Data Booklet to calculate the electrode potential (*E*) for the Fe<sup>3+</sup>/Fe<sup>2+</sup> half-cell where [Fe<sup>3+</sup>] = 0.50 mol dm<sup>-3</sup> and [Fe<sup>2+</sup>] = 0.01 mol dm<sup>-3</sup> (*E*<sup>θ</sup> = +0.77 V). Show your working.",
      "solution_md": "To calculate the electrode potential of the Fe<sup>3+</sup>/Fe<sup>2+</sup> half-cell:\n\n- List the known values:\n\n  - *E*<sup>θ</sup>(Fe<sup>3+</sup>/Fe<sup>2+</sup>) = +0.77 V\n  - [Fe<sup>3+</sup>] = 0.50 mol dm<sup>-3</sup>\n  - [Fe<sup>2+</sup>] = 0.01 mol dm<sup>-3</sup>\n  - *z* = 1 (one electron transferred: Fe<sup>3+</sup> + e<sup>-</sup> ⇌ Fe<sup>2+</sup>)\n- Substitute into the Nernst equation:\n\n*E* = *E*<sup>θ</sup> + $( \\frac{0.059}{z} )$ log<sub>10</sub> $\\frac{[ \\text{oxidised} \\text{species} ]}{[ \\text{reduced} \\text{species} ]}$\n\n*E* = 0.77 + $\\frac{0.059}{1}$ log<sub>10</sub> $\\frac{0.50}{0.01}$ **[1 mark]**\n\n*E* = 0.77 + 0.059 x log<sub>10</sub> (50)\n\n*E* = 0.77 + (0.059 x 1.699)\n\n*E* = 0.77 + 0.100\n\n*E* = **+0.870 V** **[1 mark]**\n\n> **[exam-tip]**\n> Check that the oxidised species ([Fe<sup>3+</sup>]) is in the numerator and the reduced species ([Fe<sup>2+</sup>]) is in the denominator of the log term. Here *z* = 1 since only one electron is transferred in the Fe<sup>3+</sup>/Fe<sup>2+</sup> half-equation. The simplified Nernst constant of 0.059 only applies at 298 K.",
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 0.059 over denominator z end fraction close parentheses",
+       "render": "$( \\frac{0.059}{z} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket oxidised space species right square bracket over denominator left square bracket reduced space species right square bracket end fraction",
+       "render": "$\\frac{[ \\text{oxidised} \\text{species} ]}{[ \\text{reduced} \\text{species} ]}$",
+       "via": "alt-transpile"
+      },
       {
        "latex": "\\frac{0.059}{1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>059</mn></mrow><mn>1</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",

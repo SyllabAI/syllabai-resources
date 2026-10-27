@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:31:56Z",
+ "generated_utc": "2026-10-26T14:30:34Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -53,14 +53,27 @@
    "question_count": 7,
    "questions_embedded": 7,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/the-cash-and-petty-cash-books/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_MrVGsSYXT87DwW3M",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/the-cash-and-petty-cash-books/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 7,
+  "questions_embedded": 12,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -420,6 +433,212 @@
        "label": "D",
        "is_correct": true,
        "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CSYzps88JHxgMCbc",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_fWw5rsRtr4VkHss2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 11,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_trF9W7SNqQSggT9k",
+      "spcpt_kVTbzsX7VFFJwHbX"
+     ],
+     "part_tier": null,
+     "problem_md": "Omer is a trader.\n\nThe following transactions took place in April 2023\n\n| April 3 | Paid \\$1000 into the bank from his own personal money |\n|---|---|\n| 7 | Paid \\$360 to a supplier, Alexander, by telephone transfer |\n| 10 | Cash sales, \\$695, were paid directly into the bank account |\n| 12 | Purchased goods, \\$340, on credit from Alexander |\n| 15 | Paid \\$68 cash for petrol |\n| 16 | Paid rent, \\$400, by standing order |\n| 23 | Received a cheque, \\$384, from a credit customer, Esme, in full settlement of an invoice for \\$400 |\n| 27 | Paid \\$323 by cheque to Alexander, having deducted \\$17 cash discount |\n| 28 | Purchased goods, \\$235, on credit from Alexander |\n\n**REQUIRED **\n\nComplete Omer’s cash book. Balance the cash book and bring down the balances on 1 May 2023.\n\nOmer \nCash Book\n\n| Date | Details | Discount allowed | Cash | Bank | Date | Details | Discount received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n|   |   | \\$ | \\$ | \\$ |   |   | \\$ | \\$ | \\$ |\n| *2023* |   |   |   |   | *2023* |   |   |   |   |\n| *Apr 1* | *Balance b/d* |   | *120* |   | *Apr 1* |   |   |   | *477* |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |",
+     "solution_md": "Find the discount on Apr 23\n\n$400-384=16$\n\nOmer \nCash Book\n\n| Date | Details | Discount allowed | Cash | Bank | Date | Details | Discount received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n|   |   | \\$ | \\$ | \\$ |   |   | \\$ | \\$ | \\$ |\n| *2023* |   |   |   |   | *2023* |   |   |   |   |\n| *Apr 1* | *Balance b/d* |   | *120* |   | *Apr 1* |   |   |   | *477* |\n| 3 | Capital **[1]** |   |   | 1 000 | 7 | Alexander **[1]** |   |   | 360 |\n| 10 | Sales **[1]** |   |   | 695 | 15 | Motor expenses **[1]** |   | 68 |   |\n| 23 | Esme **[1]** | 16 |   | 384 | 16 | Rent paid **[1]** |   |   | 400 |\n|   |   |   |   |   | 27 | Alexander **[1]** | 17 |   | 323 |\n|   |   |   |   |   | 30 | Balance c/d |   | 52 | 519 |\n| **[1]** |   | <u>16</u> | <u>120</u> | <u>2 079</u> |   |   | <u>17</u> | <u>120</u> | <u>2 079</u> |\n| May 1 | Balance b/d **[2]** |   | 52 | 519 |   |   |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 11 marks in total:\n> \n> - 1 mark for entering all the dates correctly.\n> - 1 mark for both discount totals.\n> - 1 mark for the correct details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> Work through each date individually.\n> \n> - Apr 3: Debit bank with entry for capital\n> \n>   - This is because depositing personal money increases the bank balance\n> - Apr 7: Credit bank with entry for Alexander\n> \n>   - This is because a payment by telephone transfer reduces the bank balance\n> - Apr 10: Debit bank with entry for sales\n> \n>   - This is because cash sales paid into the bank increases the bank balance\n> - Apr 15: Credit cash with entry for motor expenses\n> \n>   - This is because a cash payment reduces the cash in hand\n> - Apr 16: Credit bank with entry for rent paid\n> \n>   - This is because a payment by standing order reduces the bank balance\n> - Apr 23: Debit bank with entry for Esme and include the discount allowed\n> \n>   - This is because receiving a cheque increases the bank balance\n> - Apr 27: Credit bank with entry for Alexander and include the discount received\n> \n>   - This is because paying by cheque reduces the bank balance\n> - May 1: Debit cash and bank with entry for balance b/d\n> \n>   - You get one mark for **each **amount\n>   - These mark are for using your **own figures** from the balance c/d entries\n\n> **[exam-tip]**\n> Take care to assign the correct names. Remember, the details column on the debit side should say where the money is coming from and the details column on the credit side should say where the money is going to.\n> \n> No entries are made for the Apr 12 and Apr 28 transactions. This is because no money has been exchanged as the goods were purchased on credit.",
+     "equations": [
+      {
+       "latex": "400-384=16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>-</mo><mn>384</mn><mo>=</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "400 minus 384 equals 16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NQskjnK8w9Bc6jPv",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_mH5SThnCTT7Mmygb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 11,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_trF9W7SNqQSggT9k",
+      "spcpt_kVTbzsX7VFFJwHbX"
+     ],
+     "part_tier": null,
+     "problem_md": "Shakir started trading in the year ended 31 August 2023 but did not keep proper books of account. His assets and liabilities at 1 September 2023 are as follows.\n\n|   | \\$ |\n|---|---|\n| Motor vehicle | 9 500 |\n| Inventory | 1 240 |\n| Cash at bank | 1 682 |\n| Trade payables: |   |\n| Latif | 200 |\n| Harrison | 237 |\n\nDuring September 2023, the following transactions took place.\n\n| Sept 2 | Paid rent, \\$420, by credit transfer |\n|---|---|\n| 4 | Withdrew cash, \\$350, from the bank for business use |\n| 7 | Paid Latif, \\$194, by telephone transfer, in full settlement of the amount owing at 1 September 2023 |\n| 10 | Sold goods on credit, \\$195, to Sydney |\n| 12 | Paid \\$161, cash, for wages |\n| 17 | Cash sales, \\$290, were paid directly into the bank account |\n| 28 | Received a cheque, \\$100, from Sydney |\n| 29 | Paid \\$95 to Harrison, by electronic transfer, having deducted \\$5 cash discount from the amount due |\n\n**REQUIRED**\n\nPrepare Shakir’s cash book.\n\nBalance the cash book and bring down the balances at 1 October 2023.\n\nShakir \nCash Book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n| 2023 |   | \\$ | \\$ | \\$ | 2023 |   | \\$ | \\$ | \\$ |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |",
+     "solution_md": "Shakir \nCash Book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n| 2023 |   | \\$ | \\$ | \\$ | 2023 |   | \\$ | \\$ | \\$ |\n| Sep 1 | Balance b/d **[1]** |   |   | 1 682 | Sep 2 | Rent paid **[1]** |   |   | 420 |\n| 4 | Bank **[1]** |   | 350 |   | 4 | Cash **[1]** |   |   | 350 |\n| 17 | Sales |   |   | 290 | 7 | Latif **[1]** | 6 |   | 194 |\n| 28 | Sydney **[1]** |   |   | 100 | 12 | Wages **[1]** |   | 161 |   |\n|   |   |   |   |   | 29 | Harrison **[1]** | 5 |   | 95 |\n|   |   |   |   |   | 30 | Balance c/d |   | 189 | 1 013 |\n|   |   | <u>-</u> | <u>350</u> | <u>2 072</u> |   |   | <u>11</u> **[1]** | <u>350</u> | <u>2 072</u> |\n| Oct 1 | Balance b/d **[1]** |   | 189 | 1 013 |   |   |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 11 marks in total:\n> \n> - 1 mark for entering all the dates correctly.\n> - 1 mark for the correct total for discount received.\n> - 1 mark for the correct details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> Work through each date individually.\n> \n> - Sep 1: Debit bank with entry for balance b/d\n> - Sep 2: Credit bank with entry for rent\n> \n>   - This is because a credit transfer reduces the bank balance\n> - Sep 4: Credit bank with entry for cash\n> \n>   - This is because withdrawing cash reduces the bank balance\n> - Sep 4: Debit cash with entry for bank\n> \n>   - This is because withdrawing cash increases the cash in hand\n> - Sep 7: Credit bank with entry for Latif and include discount received\n> \n>   - This is because paying by telephone transfer reduces the bank balance\n> - Sep 12: Credit cash with entry for wages\n> \n>   - This is because paying wages by cash reduces the cash in hand\n> - **Both **entries for Sep 17 **and **28 are needed for this mark\n> \n>   - Debit bank with entry for sales\n>   \n>     - This is because sales paid directly into the bank account increases the bank balance\n>   - Debit bank with entry for Sydney\n>   \n>     - This is because receiving a cheque increases the bank balance\n> - Sep 29: Credit bank with entry for Harrison and include discount received\n> \n>   - This is because paying by electronic transfer reduces the bank balance\n> - Oct 1: Credit cash and bank with entries for balance b/d\n> \n>   - This is because the balance c/d was on the debit side\n>   - This mark is for using your **own figures** from the balance c/d entries\n\n> **[exam-tip]**\n> The transaction on Sep 10 is not entered into the cash book, as no payment has been issued or received."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2HNJdyJ2BYK9pC7P",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_4xT9P2dwZxHRkGty",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_KGJGHCSn8px5mmjB"
+     ],
+     "part_tier": null,
+     "problem_md": "Shvan maintains a petty cash book using the imprest system. The imprest amount, which is \\$200, is restored every Wednesday.\n\nAll payments of less than \\$75 are made from petty cash. All cash receipts of less than \\$75 are paid into petty cash.\n\nOn 1 March 2023 Shvan had \\$61 in his petty cash box. He provided the following information for the first week in March 2023.\n\n| March 1 | Restored petty cash imprest from the business bank account |\n|---|---|\n| 2 | Paid \\$55 to Giles, a trade payable |\n| 3 | Paid taxi fare, \\$21 |\n| 6 | Paid \\$18 for notepads and pens |\n| 6 | Received cash, \\$25, from Mitchell, a trade receivable |\n| 7 | Paid \\$30 for office cleaning |\n\n**REQUIRED **\n\nPrepare Shvan’s petty cash book for the first week of March 2023, on the page opposite. Balance the petty cash book at 7 March 2023 and bring down the balance at 8 March 2023\n\nShvan \nPetty Cash Book\n\n| Total received | Date | Details | Total paid | Office expenses | Travel | Ledger accounts |\n|---|---|---|---|---|---|---|\n| \\$ |   |   | \\$ | \\$ | \\$ | \\$ |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |",
+     "solution_md": "Find the amount needed to restore the petty cash to the imprest amount\n\n$200-61=139$\n\nShvan \nPetty Cash Book\n\n| Total received | Date | Details | Total paid | Office expenses | Travel | Ledger accounts |\n|---|---|---|---|---|---|---|\n| \\$ |   |   | \\$ | \\$ | \\$ | \\$ |\n|   | 2023 |   |   |   |   |   |\n| 61 | Mar 1 | Balance b/d **[1]** |   |   |   |   |\n| 139 | 1 | Bank **[1]** |   |   |   |   |\n|   | 2 | Giles **[1]** | 55 |   |   | 55 |\n|   | 3 | Taxi fare **[1]** | 21 |   | 21 |   |\n|   | 6 | Notepads and pens **[1]** | 18 | 18 |   |   |\n| 25 | 6 | Mitchell **[1]** |   |   |   |   |\n|   | 7 | Office cleaning **[1]** | 30 | 30 |   |   |\n|   |   | **[1]** | 124 | <u>48</u> | <u>21</u> | <u>55</u> |\n|   | 7 | Balance c/d | 101 |   |   |   |\n| <u>225</u> |   |   | <u>225</u> |   |   |   |\n| 101 | Mar 8 | Balance b/d **[1]** |   |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 10 marks in total:\n> \n> - 1 mark for entering all the dates correctly.\n> - 1 mark for the correct details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> Work through each date individually.\n> \n> - Mar 1: Total received with entry for balance b/d\n> - Mar 1: Total received with entry for bank\n> - Mar 2: Total paid and ledger account with entry for Giles\n> - Mar 3: Total paid and travel with entry for taxi fare\n> - Mar 6: Total paid and office expenses with entry for notepads and pens\n> - Mar 6: Total received with entry for Mitchell\n> - Mar 7: Total paid and office expenses with entry for office cleaning\n> - Add together your **own figures** in the columns on the right\n> - Mar 8: Total received with entry for balance b/d\n> \n>   - This mark is for using your **own figure** from the balance c/d entry\n\n> **[exam-tip]**\n> Remember to total the payment columns before finding the balance c/d. You do not need to restore the imprest amount on 8 March.",
+     "equations": [
+      {
+       "latex": "200-61=139",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>200</mn><mo>-</mo><mn>61</mn><mo>=</mo><mn>139</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "200 minus 61 equals 139"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MdPN2Bk4w8tTZPWK",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_X3FMZwDjRys2T4WK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 11,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_trF9W7SNqQSggT9k",
+      "spcpt_kVTbzsX7VFFJwHbX"
+     ],
+     "part_tier": null,
+     "problem_md": "Shahid is a trader. He maintains a full set of accounting records including a three-column cash book.\n\nOn 1 August 2017 Shahid had the following balances in his cash book\n\n|   | \\$ |\n|---|---|\n| Cash | 50 |\n| Bank overdraft | 7 150 |\n\nShahid’s transactions for August 2017 included the following.\n\n| August 9 | A cheque received in July for \\$362 from EN Supplies was dishonoured by the bank |\n|---|---|\n| 18 | Paid \\$54 by cheque for fuel of private motor vehicle |\n| 24 | Received a cheque from Mariam to settle her debt of \\$520, less 2½% cash discount |\n| 27 | Paid \\$400 by cheque. This included \\$365 for new office equipment and the balance was for repairs to existing office equipment. |\n| 30 | Cash sales, \\$3224 |\n| 31 | Paid all the remaining cash into the bank except \\$100 |\n\n**REQUIRED**\n\nComplete Shahid’s cash book.\n\nBalance the cash book and bring down the balances on 1 September 2017.\n\nShahid’s cash book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n|   |   | \\$ | \\$ | \\$ |   |   | \\$ | \\$ | \\$ |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |",
+     "solution_md": "Find the amounts for the transaction dated Aug 24\n\n- Find the discount allowed\n\n$\\begin{gathered} 2.5 \\% \\times 520 & = 13 \\end{gathered}$\n\n- Find the amount received\n\n$520-13=507$\n\nFind the amount for office equipment repairs for the transaction dated Aug 27\n\n$400-365=35$\n\nFind the amount of cash paid into the bank on Aug 31\n\n- Find the total amount of cash at the end of the month\n\n$50+3224=3274$\n\n- Subtract \\$100 to find how much is paid into the bank\n\n$3274-100=3174$\n\nShahid\nCash Book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n| 2017 |   | \\$ | \\$ | \\$ | 2017 |   | \\$ | \\$ | \\$ |\n| Aug 1 | Balance b/d |   | 50 |   | Aug 1 | Balance b/d |   |   | 7 150 |\n| 24 | Mariam **[1]** | 13 |   | 507 | 9 | EN Supplies (dishonoured cheque) **[1]** |   |   | 362 |\n| 30 | Sales **[1]** |   | 3 224 |   | 18 | Drawings **[1]** |   |   | 54 |\n| 31 | Cash **[1]** |   |   | 3 174 | 27 | Office equipment **[1]** |   |   | 365 |\n|   |   |   |   |   | 27 | Office equipment repairs **[1]** |   |   | 35 |\n|   |   |   |   |   | 31 | Bank **[1]** |   | 3 174 |   |\n| 31 | Balance c/d |   |   | 4 285 | 31 | Balance c/d |   | 100 |   |\n|   |   | <u>13</u> | <u>3 274</u> | <u>7 966</u> |   |   |   | <u>3 274</u> | <u>7 966</u> |\n| Sep 1 | Balance b/d **[1]** |   | 100 |   | Sep 1 | Balance b/d **[1]** |   |   | 4 285 |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 11 marks in total:\n> \n> - 1 mark for entering all the dates correctly.\n> - 1 mark for the correct details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> Work through each date individually.\n> \n> - Aug 9: Credit bank with entry for EN Supplies\n> \n>   - This is because a dishonoured cheque from a customer reduces the bank balance in the cash book\n> - Aug 18: Credit bank with entry for drawings\n> \n>   - This is because a cheque payment reduces the bank balance\n>   - The drawings account is used as it is for the owner's use, not the business use\n> - Aug 24: Debit bank with entry for Mariam and fill in the discount allowed\n> \n>   - This is because a received cheque increases the bank balance\n> - Aug 27: Credit bank with entry for office equipment\n> \n>   - This is because a cheque payment reduces the bank balance\n> - Aug 27: Credit bank with entry for office equipment repairs\n> \n>   - This is because a cheque payment reduces the bank balance\n> - Aug 30: Debit cash with entry for sales\n> \n>   - This is because cash sales increases the cash in hand\n> - Aug 31: Credit cash with entry for bank\n> \n>   - This is because depositing cash into the bank reduces the cash in hand\n> - Aug 31: Debit bank with entry for cash\n> \n>   - This is because depositing cash into the bank increases the bank balance\n>   - This mark is for using your **own figures** from the corresponding entry for Aug 31\n> - Sep 1: Credit bank with entry for balance b/d\n> \n>   - This is because the balance c/d was on the debit side\n>   - This mark is for using your **own figures** from the balance c/d entries\n> - Sep 1: Debit cash with entry for balance b/d\n> \n>   - This is because the balance c/d was on the credit side\n\n> **[exam-tip]**\n> Take care to assign the correct names. Remember, the details column on the debit side should say where the money is coming from and the details column on the credit side should say where the money is going to.\n> \n> The balance b/d for cash is **always **on the debit side. The balance b/d for bank is on the credit side because a bank overdraft is used, which means that Shahid **owes **the money to the bank.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 2.5 percent sign cross times 520 end cell equals 13 end table",
+       "render": "$\\begin{gathered} 2.5 \\% \\times 520 & = 13 \\end{gathered}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "520-13=507",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>520</mn><mo>-</mo><mn>13</mn><mo>=</mo><mn>507</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "520 minus 13 equals 507"
+      },
+      {
+       "latex": "400-365=35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>-</mo><mn>365</mn><mo>=</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "400 minus 365 equals 35"
+      },
+      {
+       "latex": "50+3224=3274",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>50</mn><mo>+</mo><mn>3224</mn><mo>=</mo><mn>3274</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "50 plus 3224 equals 3274"
+      },
+      {
+       "latex": "3274-100=3174",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3274</mn><mo>-</mo><mn>100</mn><mo>=</mo><mn>3174</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3274 minus 100 equals 3174"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4YGFSjFw2VQfk536",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_rtRjcjZvrNVz2WHX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 11,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_trF9W7SNqQSggT9k",
+      "spcpt_kVTbzsX7VFFJwHbX"
+     ],
+     "part_tier": null,
+     "problem_md": "Hashim is a trader.\n\nOn 1 September 2025 Hashim had the following balances in his cash book.\n\n|   | \\$ |\n|---|---|\n| Cash in hand | 523 |\n| Cash at bank | 1250 |\n\nThe following transactions took place in September 2025.\n\n| Sep 3 | Paid rent, \\$630, by cheque |\n|---|---|\n| 4 | Sold goods on credit, \\$210, to Jai |\n| 5 | Paid \\$240 to TJ Ltd, by electronic transfer, having deducted 4% cash discount from the amount due |\n| 12 | Paid cash, \\$284, for wages |\n| 15 | Cash sales, \\$973 |\n| 17 | Withdrew \\$200 from the business bank account for personal use |\n| 22 | A cheque received in August for \\$315 from Kyra was dishonoured by the bank |\n| 24 | Received a cheque, \\$196, from Jai, in full settlement of the goods sold on 4 September 2025 |\n| 29 | Deposited \\$1000 cash into the bank |\n\n**REQUIRED**\n\nPrepare Hashim's cash book.\n\nBalance the cash book and bring down the balances at 1 October 2025\n\nHashim\nCash Book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n| 2025 |   | \\$ | \\$ | \\$ | 2025 |   | \\$ | \\$ | \\$ |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   |   |   |",
+     "solution_md": "Find the discount received for the transaction dated Sep 5\n\n$\\begin{gathered} 240 \\div 0.96 & = 250 \\\\ 250 - 240 & = 10 \\end{gathered}$\n\nFind the discount allowed for the transaction dated Sep 24\n\n$210-196=14$\n\nHashim\nCash Book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n| 2025 |   | \\$ | \\$ | \\$ | 2025 |   | \\$ | \\$ | \\$ |\n| Sep 1 | Balance b/d **[1]** |   | 523 | 1 250 | Sep 3 | Rent **[1]** |   |   | 630 |\n| 15 | Sales **[1]** |   | 973 |   | 5 | TJ Ltd **[1]** | 10 |   | 240 |\n| 24 | Jai **[1]** | 14 |   | 196 | 12 | Wages **[1]** |   | 284 |   |\n| 29 | Cash |   |   | 1 000 | 17 | Drawings **[1]** |   |   | 200 |\n|   |   |   |   |   | 22 | Kyra **[1]** |   |   | 315 |\n|   |   |   |   |   | 29 | Bank **[1]** |   | 1 000 |   |\n|   |   |   |   |   | 30 | Balance c/d |   | 212 | 1 061 |\n|   |   | <u>14</u> | <u>1 496</u> | <u>2 446</u> |   |   | <u>10</u> | <u>1 496</u> | <u>2 446</u> |\n| Oct 1 | Balance b/d **[1]** |   | 212 | 1 061 |   |   |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 11 marks in total:\n> \n> - 1 mark for entering all the dates correctly.\n> - 1 mark for the correct details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> Work through each date individually.\n> \n> - Sep 1: Debit cash and bank with entry for balance b/d\n> \n>   - This is because these balances are assets\n>   - You need **both **balances to get this mark\n> - Sep 3: Credit bank with entry for rent\n> \n>   - This is because a cheque payment reduces the bank balance\n> - Sep 5: Credit bank with entry for TJ Ltd and fill in the discount received\n> \n>   - This is because an electronic payment reduces the bank balance\n> - Sep 12: Credit cash with entry for wages\n> \n>   - This is because a cash payment reduces the cash in hand\n> - Sep 15: Debit cash with entry for sales\n> \n>   - This is because cash sales increases the cash in hand\n> - Sep 17: Credit cash with entry for drawings\n> \n>   - This is because taking money for personal use reduces the bank balance\n> - Sep 22: Credit bank with entry for Kyra\n> \n>   - This is because a dishonoured cheque from a customer reduces the bank balance in the cash book\n> - Sep 24: Debit bank with entry for Jai and fill in the discount allowed\n> \n>   - This is because a cheque receipt increases the bank balance\n> - Sep 29: Credit cash with entry for bank and debit bank with entry for cash\n> \n>   - This is because depositing cash into the bank reduces the cash in hand and increases the bank balance\n>   - You need **both **entries to get this mark\n> - Oct 1: Debit cash and bank with entry for balance b/d\n> \n>   - You need **both **entries to get this mark\n>   - This mark is for using your **own figures** from the balance c/d entries\n\n> **[exam-tip]**\n> Take care to assign the correct names. Remember, the details column on the debit side should say where the money is coming from and the details column on the credit side should say where the money is going to.\n> \n> No entry is made for the Sep 4 transaction. This is because no money has been exchanged as the goods were sold on credit.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 240 divided by 0.96 end cell equals 250 row cell 250 minus 240 end cell equals 10 end table",
+       "render": "$\\begin{gathered} 240 \\div 0.96 & = 250 \\\\ 250 - 240 & = 10 \\end{gathered}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "210-196=14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>210</mn><mo>-</mo><mn>196</mn><mo>=</mo><mn>14</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "210 minus 196 equals 14"
       }
      ]
     }

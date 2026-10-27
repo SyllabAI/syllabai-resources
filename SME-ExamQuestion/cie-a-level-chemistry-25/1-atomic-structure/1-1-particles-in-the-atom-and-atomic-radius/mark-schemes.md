@@ -241,3 +241,354 @@
 **C** is incorrect as it also has 16 protons, which is not the atomic number of phosphorus.
 
 **D** is incorrect as a neutral phosphorus atom has 15 electrons, but the 3− charge means the ion has gained 3 electrons, giving 18 electrons, not 15.
+
+## Structured Questions (6 questions)
+
+
+### Q1
+The completed table is:
+
+| **atomic number** | **nucleon number** | **number of electrons** | **number of protons** | **number of neutrons** | **species** |
+|---|---|---|---|---|---|
+| 15 | 31 | 18 | **Final answer:** **15** | **Final answer:** **16** | <sup>31</sup>P<sup>3-</sup> |
+| **Final answer:** **17** | **Final answer:** **36** | 18 | 17 | 19 | <sup>36</sup>Cl<sup>-</sup> |
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for row 1 all correct: 15 protons, 16 neutrons, species = <sup>31</sup>P<sup>3-</sup>
+> 
+> 1 mark for row 2 all correct: atomic number = 17, nucleon number = 36, species = <sup>36</sup>Cl<sup>-</sup>
+
+> **[exam-tip]**
+> The number of protons equals the atomic number. The number of neutrons equals the nucleon number minus the atomic number.
+> 
+> To identify the element from its atomic number, use the Periodic Table. Write the nucleon number as a superscript before the symbol and the ionic charge as a superscript after the symbol.
+> 
+> For ions, adjust the electron count for the charge. P<sup>3-</sup> has gained three electrons: 15 protons but 18 electrons. Cl<sup>-</sup> has gained one electron: 17 protons but 18 electrons, giving nucleon number 17 + 19 = 36.
+The completed diagram is:
+
+![Completed diagram of an electric field showing the paths of electrons, protons and neutrons: electrons and protons deflect towards opposite plates, with protons deflecting less than electrons, and neutrons travelling straight through](assets/003-completed-diagram-of-an-electric-field-showing-t.jpg)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for neutron path drawn as a straight line, labelled "neutrons" / "neutron beam"
+> 
+> 1 mark for electron path deflected towards the positive plate, labelled "electrons" / "electron beam"
+> 
+> 1 mark for electron path showing more deflection / a sharper curve than the proton path
+
+> **[exam-tip]**
+> Neutrons carry no charge and are not deflected by the electric field — draw a straight horizontal line in the same direction as the original beam.
+> 
+> Electrons are negatively charged and deflect towards the positive plate. The key third mark is that electrons deflect more than protons. Although they carry the same magnitude of charge, electrons are approximately 1836 times lighter, giving them a much larger charge-to-mass ratio and therefore a sharper, steeper curve.
+> **[mark-scheme]**
+> The atomic radius of a chlorine atom is smaller than that of a sulfur atom because:
+> 
+> - Chlorine has a greater nuclear charge / more protons than sulfur **[1 mark]**
+> - The outer electrons in both atoms occupy the same shell / shielding is similar
+> **AND**
+> The greater nuclear charge in chlorine draws the outer electrons closer to the nucleus **[1 mark]**
+
+> **[exam-tip]**
+> Both sulfur and chlorine are in Period 3 and have the same number of electron shells. Chlorine has one more proton than sulfur, giving it a greater nuclear charge. Since the outer electrons in both atoms are in the same (third) shell, shielding is similar. The higher nuclear charge in chlorine therefore pulls the outer electrons closer to the nucleus, reducing the atomic radius.
+
+### Q2
+The completed table is:
+
+| **Particle** | **Relative charge** | **Relative mass** |
+|---|---|---|
+| Proton | **Final answer:** **+1** | **Final answer:** **1** |
+| Neutron | **Final answer:** **0** | **Final answer:** **1** |
+| Electron | **Final answer:** **−1** | **Final answer:** **0** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for proton: relative charge = +1 **AND **relative mass = 1
+> 
+> 1 mark for neutron: relative charge = 0 / no charge / neutral **AND **relative mass = 1
+> 
+> 1 mark for electron: relative charge = −1 **AND **relative mass = 0 / negligible / 1/1836
+> 
+> Electron relative mass values of 1/1800, 1/1840, or a value in the range 5.4 x 10<sup>-4</sup> to 5.6 x 10<sup>-4</sup> are accepted
+
+> **[exam-tip]**
+> The relative mass of an electron is roughly 1/1836 of a proton, which is so small it is treated as negligible, so 0 is the expected answer. Values close to the true mass, such as 1/1836 or 1/1840, are also accepted.
+> 
+> For the relative charge of a neutron, "no charge", "neutral", and "zero" all mean the same thing and are all accepted.
+> **[mark-scheme]**
+> Silicon is placed in the:
+> 
+> - p block **[1 mark]**
+> - Silicon's highest energy / outermost / valence electron is in a (3)p orbital **[1 mark]**
+> 
+> The number 3 is not required. Any other number is not accepted.
+
+> **[exam-tip]**
+> The blocks of the Periodic Table are named after the type of orbital the outermost electron occupies. Silicon's electron configuration ends in 3p<sup>2</sup>, so its outermost electron is in a p orbital, making it a p block element.
+> 
+> You do not need to include the number 3 in your answer. Including any other number will cost you the mark.
+> **[mark-scheme]**
+> i) Isotopes are:
+> 
+> - Atoms of the same element with the same number of protons / same atomic number but different numbers of neutrons / different mass numbers **[1 mark]**
+
+> **[exam-tip]**
+> Always include both parts of the definition — same number of protons and different numbers of neutrons. Stating only one part will not score the mark.
+> 
+> Do not confuse isotopes with ions: isotopes differ in neutron number, not in electron number or charge.
+
+ii) To calculate the relative atomic mass, *A*<sub>r</sub>, of silicon:
+
+*A*<sub>r</sub> = $\frac{(92.23\times28)+(4.68\times29)+(3.09\times30)}{100}$
+
+*A*<sub>r</sub> = $\frac{2582.44+135.72+92.70}{100}$
+
+*A*<sub>r</sub> = **28.11** **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for *A*<sub>r</sub> = 28.11
+
+> **[exam-tip]**
+> To calculate relative atomic mass, multiply each isotope's mass number by its percentage abundance, add the results together, then divide by 100.
+> 
+> The question asks for two decimal places, so round 28.1086... to 28.11.
+
+### Q3
+> **[mark-scheme]**
+> i) The trend in atomic radius across Period 2 is:
+> 
+> - Atomic radius decreases (from Li to F) **[1 mark]**
+> - Nuclear charge increases across Period 2
+> **AND**
+> Shielding is similar / constant across the period / electrons are added to the same shell **[1 mark]**
+> - There is a stronger attraction between the nucleus and outer electrons **[1 mark]**
+
+> **[exam-tip]**
+> This is a three-point answer:
+> 
+> - State the trend
+> - Give the cause
+> - Explain why
+> 
+> Make sure you state that atomic radius decreases before giving the explanation, or you risk missing the first marking point.
+> 
+> The key phrase for the second marking point is that shielding remains roughly constant across the period because all new electrons enter the same shell (the 2nd shell).
+> 
+> This means the increasing nuclear charge acts more effectively on the outer electrons, pulling them closer.
+
+> **[mark-scheme]**
+> ii) The atomic radius of neon cannot be determined in the same way because:
+> 
+> - Neon does not form covalent bonds / exists as single atoms / is monoatomic **[1 mark]**
+> - Atomic radius is defined as half the distance between the nuclei of two covalently bonded atoms of the same element **[1 mark]**
+
+> **[exam-tip]**
+> The atomic radius values in the table are covalent radii, measured as half the bond length between two atoms of the same element. Since neon is a noble gas and does not form bonds, no bond length can be measured and this method cannot be applied.
+The box notation for boron in the ground state is:
+
+![Box notation diagram showing the ground state electronic configuration of boron: 1s fully paired, 2s fully paired, one electron in 2p](assets/005-box-notation-diagram-showing-the-ground-state-el.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct ground state box notation for boron: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup> with paired electrons drawn with opposite spins and the 2p electron in any of the three 2p boxes
+
+> **[exam-tip]**
+> The ground state electronic configuration of boron is 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup>.
+> 
+> In box notation, paired electrons must be drawn with opposite spins (one arrow up, one arrow down). The single 2p electron can be placed in any of the three 2p boxes with any spin direction.
+> 
+> In the excited state, one 2s electron is promoted to the 2p subshell, giving 1s<sup>2</sup> 2s<sup>1</sup> 2p<sup>2</sup>. This question asks for the ground state, so the excited state configuration would not be accepted.
+> **[mark-scheme]**
+> The first ionisation energy of boron is lower than that of beryllium because:
+> 
+> - The outer electron of B is in the 2p subshell
+> **AND**
+> The outer electron of Be is in the 2s subshell **[1 mark]**
+> - The 2p subshell is at higher energy / further from the nucleus / more shielded by the 2s electrons than the 2s subshell
+> **AND**
+> Less energy is required to remove the outer electron of B **[1 mark]**
+
+> **[exam-tip]**
+> The key is subshell type, not electron count. Although B has more protons than Be, the extra electron is in the higher-energy 2p subshell, which is further from the nucleus and partially shielded by the 2s electrons. This makes the 2p electron easier to remove than Be's 2s electron.
+> 
+> The electronic configurations are:
+> 
+> - Be: 1s<sup>2</sup> 2s<sup>2</sup>
+> - B: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup>
+> **[mark-scheme]**
+> The formula of the compound formed when element J reacts with chlorine is:
+> 
+> - JCl<sub>2</sub> **[1 mark]**
+
+> **[exam-tip]**
+> To identify the group of element J, look for the largest jump between consecutive ionisation energies. The largest jump is between the 2nd (1450 kJ mol<sup>-1</sup>) and 3rd (7733 kJ mol<sup>-1</sup>) ionisation energies.
+> 
+> This large jump occurs because the 3rd electron is being removed from a new, inner shell that is much closer to the nucleus and experiences less shielding. This tells us J has 2 outer shell electrons and is in Group 2.
+> 
+> Group 2 elements form 2+ ions, so two chloride ions (Cl<sup>-</sup>) are needed to balance the charge, giving JCl<sub>2</sub>.
+
+### Q4
+The completed table is:
+
+| **Species** | **number of protons** | **number of neutrons** | **number of electrons** |
+|---|---|---|---|
+| <sup>23</sup>Na | **Final answer:** **11** | **Final answer:** **12** | **Final answer:** **11** |
+| <sup>32</sup>S<sup>2-</sup> | **Final answer:** **16** | **Final answer:** **16** | **Final answer:** **18** |
+| <sup>86</sup>Sr<sup>2+</sup> | **Final answer:** **38** | **Final answer:** **48** | **Final answer:** **36** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for all three values for <sup>23</sup>Na correct: 11 protons, 12 neutrons, 11 electrons
+> 
+> 1 mark for all three values for <sup>32</sup>S<sup>2-</sup> correct: 16 protons, 16 neutrons, 18 electrons
+> 
+> 1 mark for all three values for <sup>86</sup>Sr<sup>2+</sup> correct: 38 protons, 48 neutrons, 36 electrons
+
+> **[exam-tip]**
+> The number of protons equals the atomic number, which you can find on the Periodic Table. The number of neutrons is the mass number minus the atomic number.
+> 
+> For neutral atoms, electrons equal protons.
+> 
+> For ions, adjust for the charge: add electrons for negative ions and subtract for positive ions. For S<sup>2-</sup>, add 2 (16 + 2 = 18). For Sr<sup>2+</sup>, subtract 2 (38 - 2 = 36).
+> **[mark-scheme]**
+> The trend in atomic radius across Period 3, and the reason, are:
+> 
+> - Decreases **[1 mark]**
+> 
+> Explanation:
+> 
+> - The atomic / proton number / nuclear charge increases **[1 mark]**
+> - Shielding remains the same / similar across the period
+> **OR**
+> Electrons are added to the same principal quantum shell **[1 mark]**
+
+> **[exam-tip]**
+> Across Period 3, each element has one more proton than the last, increasing the nuclear charge. The extra electrons are added to the same outer shell, so shielding stays roughly constant. The stronger nuclear pull on the same outer electrons contracts the atom, so atomic radius decreases.
+> **[mark-scheme]**
+> The chloride ion has a larger radius than chlorine because:
+> 
+> - The Cl<sup>-</sup> ion has the same nuclear charge / same number of protons (17) but one more electron / more electrons (18) **[1 mark]**
+> - Greater electron-electron repulsion / the outer electrons experience a reduced effective nuclear charge, causing the electron cloud to expand **[1 mark]**
+
+> **[exam-tip]**
+> Chlorine gains one electron to form Cl<sup>-</sup>, giving it 17 protons but 18 electrons. The nuclear charge stays the same, but there is now more electron-electron repulsion in the outer shell. This repulsion pushes the electrons further from the nucleus, increasing the ionic radius compared to the atomic radius.
+
+### Q5
+The correct labelling is shown in Fig. 5.1:
+
+![Diagram of charged plates deflecting a particle beam: protons curve towards the negative plate, electrons towards the positive, while neutrons continue straight](assets/007-diagram-of-charged-plates-deflecting-a-particle-.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for both plates correctly labelled
+
+> **[exam-tip]**
+> Electrons are negatively charged and are deflected towards the positive plate.
+> 
+> Neutrons carry no charge and pass straight through unaffected.
+> 
+> Protons are positively charged and are deflected towards the negative plate.
+> 
+> Protons are deflected by a much smaller angle than electrons. Although they carry the same magnitude of charge, protons have a mass approximately 1836 times greater than electrons, giving them a much smaller charge-to-mass ratio and therefore less deflection.
+The completed table is:
+
+| **Species** | **number of protons** | **number of neutrons** | **number of electrons** |
+|---|---|---|---|
+| <sup>23</sup>Na | **Final answer:** **11** | **Final answer:** **12** | **Final answer:** **11** |
+| <sup>32</sup>S<sup>2–</sup> | **Final answer:** **16** | **Final answer:** **16** | **Final answer:** **18** |
+| <sup>86</sup>Sr<sup>2+</sup> | **Final answer:** **38** | **Final answer:** **48** | **Final answer:** **36** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for all three values correct for <sup>23</sup>Na
+> 
+> 1 mark for all three values correct for <sup>32</sup>S<sup>2–</sup>
+> 
+> 1 mark for all three values correct for <sup>86</sup>Sr<sup>2+</sup>
+
+> **[exam-tip]**
+> The number of protons equals the atomic number, found on the Periodic Table.
+> 
+> The number of neutrons = mass number (the superscript before the symbol) minus the atomic number.
+> 
+> For ions, adjust the electron count by the charge: subtract electrons for positive charges (Sr<sup>2+</sup> has 38 − 2 = 36 electrons), and add electrons for negative charges (S<sup>2–</sup> has 16 + 2 = 18 electrons).
+> **[mark-scheme]**
+> The full electronic configuration of the <sup>32</sup>S<sup>2–</sup> ion is:
+> 
+> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> **[1 mark]**
+
+> **[exam-tip]**
+> A sulfur atom has 16 electrons with configuration 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup>. The S<sup>2–</sup> ion gains 2 electrons, giving 18 electrons in total.
+> 
+> The resulting configuration, 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>, is the same as that of argon. Ions that are isoelectronic with a noble gas are particularly stable.
+> 
+> Because the question asks for the full electronic configuration, noble gas shorthand such as [Ne] 3s<sup>2</sup> 3p<sup>6</sup> is not accepted.
+
+### Q6
+The completed table is:
+
+| **Subatomic particle** | **Relative charge** | **Relative mass** |
+|---|---|---|
+| Proton | **Final answer:** **+1** | 1 |
+| Neutron | **Final answer:** **0** | **Final answer:** **1** |
+| Electron | **Final answer:** **-1** | $\frac{1}{1836}$ |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for proton relative charge: +1
+> 
+> 1 mark for neutron relative charge: 0
+> 
+> 1 mark for neutron relative mass: 1
+> 
+> 1 mark for electron relative charge: -1
+> 
+> The relative mass of an electron can be expressed as $\frac{1}{1836}$, $\frac{1}{2000}$, or 5 × 10<sup>-4</sup>. In many contexts it is acceptable to describe the electron mass as negligible or approximately zero.
+
+> **[exam-tip]**
+> These values are fundamental to atomic structure and should be memorised.
+The completed table is:
+
+| **Species** | **Number of protons** | **Number of neutrons** | **Number of electrons** |
+|---|---|---|---|
+| <sup>31</sup>P | **Final answer:** **15** | **Final answer:** **16** | **Final answer:** **15** |
+| <sup>24</sup>Na<sup>+</sup> | **Final answer:** **11** | **Final answer:** **13** | **Final answer:** **10** |
+| <sup>37</sup>Cl<sup>–</sup> | **Final answer:** **17** | **Final answer:** **20** | **Final answer:** **18** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for all three values correct for <sup>31</sup>P
+> 
+> 1 mark for all three values correct for <sup>24</sup>Na<sup>+</sup>
+> 
+> 1 mark for all three values correct for <sup>37</sup>Cl<sup>–</sup>
+
+> **[exam-tip]**
+> The number of protons equals the atomic number, found on the Periodic Table.
+> 
+> The number of neutrons = mass number (the superscript before the symbol) minus the atomic number.
+> 
+> For ions, adjust the electron count: subtract electrons for positive charges (Na<sup>+</sup> has 11 − 1 = 10 electrons), and add electrons for negative charges (Cl<sup>−</sup> has 17 + 1 = 18 electrons).
+> **[mark-scheme]**
+> Isotopes of the same element have different physical properties because:
+> 
+> - Isotopes have different numbers of neutrons / different mass numbers **[1 mark]**
+
+> **[exam-tip]**
+> Physical properties such as density, melting point, and boiling point depend on the mass of the atom. Since isotopes differ in their number of neutrons, they have different masses and therefore different physical properties.
+> **[mark-scheme]**
+> The chemical properties of <sup>35</sup>Cl and <sup>37</sup>Cl are identical because:
+> 
+> - They have the same electronic configuration / same number of electrons / same number of outer shell electrons **[1 mark]**
+
+> **[exam-tip]**
+> Chemical properties are determined by the arrangement of electrons, particularly the outer shell electrons that take part in bonding and reactions. Since isotopes of the same element have the same atomic number, they have the same number of electrons and the same electronic configuration, giving identical chemical properties.

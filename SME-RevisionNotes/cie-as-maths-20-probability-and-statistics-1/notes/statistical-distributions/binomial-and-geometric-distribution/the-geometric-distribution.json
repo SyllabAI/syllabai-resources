@@ -1,0 +1,454 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_G5t5fmY7WmVWFWpJ",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/revision-notes/statistical-distributions/binomial-and-geometric-distribution/the-geometric-distribution",
+ "title": "The Geometric Distribution",
+ "page_title": "The Geometric Distribution | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "binomial-and-geometric-distribution",
+   "the-geometric-distribution"
+  ],
+  "section": "statistical-distributions",
+  "topic": "binomial-and-geometric-distribution",
+  "leaf": "the-geometric-distribution"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Binomial & Geometric Distribution",
+  "subtopic": "The Geometric Distribution"
+ },
+ "updated_at": "2026-07-02T08:19:38.480Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_XQm6RtvmZC9Dt2ZT",
+   "rnl_Zw7sg66cQYYShp9N",
+   "rnl_KPQypfK4kDrSrtPS",
+   "rnl_bHf5HVR3JwYs9ttD",
+   "rnl_rtkskHghpKhhHcZh"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_7RxxhPNkwYwmz3vV",
+  "spcpt_VxJMMF37MG3rQ92M",
+  "spcpt_CrCq4jsdbsJthgqb"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "X tilde Geo left parenthesis p right parenthesis",
+   "render": "$X \\sim \\text{Geo} ( p )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(X=r)=(1-p)^{r-1}p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">r</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><msup><mrow><mo mathvariant=\"bold\">(</mo><mn mathvariant=\"bold\">1</mn><mo mathvariant=\"bold\">-</mo><mi mathvariant=\"bold\">p</mi><mo mathvariant=\"bold\">)</mo></mrow><mrow><mi mathvariant=\"bold\">r</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow></msup><mi mathvariant=\"bold-italic\">p</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic P bold left parenthesis bold italic X bold equals bold italic r bold right parenthesis bold equals bold left parenthesis bold 1 bold minus bold p bold right parenthesis to the power of bold r bold minus bold 1 end exponent bold italic p end style"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "P left parenthesis X equals 6 right parenthesis equals left parenthesis 1 minus 0.3 right parenthesis to the power of 6 minus 1 end exponent left parenthesis 0.3 right parenthesis equals left parenthesis 0.7 right parenthesis to the power of 5 open parentheses 0.3 close parentheses equals 0.050421",
+   "render": "$P ( X = 6 ) = ( 1 - 0.3 )^{6 - 1} ( 0.3 ) = ( 0.7 )^{5} ( 0.3 ) = 0.050421$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "S_{\\infty}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>S</mi><mo>∞</mo></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S subscript infinity"
+  },
+  {
+   "latex": "a=p,r=q=1-p,S_{\\infty}=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mi>p</mi><mo>,</mo><mi>r</mi><mo>=</mo><mi>q</mi><mo>=</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>,</mo><mo> </mo><msub><mi>S</mi><mo>∞</mo></msub><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a equals p comma r equals q equals 1 minus p comma space S subscript infinity equals 1"
+  },
+  {
+   "latex": "P(X=r)>0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals r right parenthesis greater than 0"
+  },
+  {
+   "latex": "ℕ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">ℕ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight natural numbers"
+  },
+  {
+   "latex": "ℤ^{+}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"normal\">ℤ</mi><mo>+</mo></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight integer numbers to the power of plus"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P open parentheses X equals r close parentheses less than straight P left parenthesis X equals r minus 1 right parenthesis",
+   "render": "$\\mathrm{P} ( X = r ) < \\mathrm{P} ( X = r - 1 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "begin mathsize 16px style open parentheses 1 minus p close parentheses p end style",
+   "render": "$( 1 - p ) p$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis X equals r vertical line X greater than k right parenthesis equals straight P left parenthesis X equals r minus k right parenthesis",
+   "render": "$\\mathrm{P} ( X = r \\vert X > k ) = \\mathrm{P} ( X = r - k )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "bold P bold left parenthesis bold italic X bold equals bold 7 bold vertical line bold italic X bold greater than bold 5 bold right parenthesis equals straight P left parenthesis X equals 7 minus 5 right parenthesis equals bold italic P bold left parenthesis bold italic X bold equals bold 2 bold right parenthesis",
+   "render": "$P ( X = 7 \\vert X > 5 ) = \\mathrm{P} ( X = 7 - 5 ) = P ( X = 2 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(X=r)=qP(X=r-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mo>)</mo><mo>=</mo><mi>q</mi><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mo>-</mo><mn>1</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X equals r right parenthesis equals q P left parenthesis X equals r minus 1 right parenthesis"
+  },
+  {
+   "latex": "E(X)=\\frac{1}{p}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">E</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mi mathvariant=\"bold\">p</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic E bold left parenthesis bold italic X bold right parenthesis bold equals bold 1 over bold p"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "begin mathsize 16px style 0.5 comma 1 third comma 42 percent sign end style",
+   "render": "$0.5 , 1 \\frac{1}{3} , 42 \\%$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "begin mathsize 16px style X tilde Geo left parenthesis 0.5 right parenthesis end style",
+   "render": "$X \\sim \\text{Geo} ( 0.5 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(X=r)=(1-p)^{r-1}p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msup><mi>p</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals r right parenthesis equals left parenthesis 1 minus p right parenthesis to the power of r minus 1 end exponent p"
+  },
+  {
+   "latex": "P(X>r)=(1-p)^{r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>r</mi><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>)</mo></mrow><mi>r</mi></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than r right parenthesis equals left parenthesis 1 minus p right parenthesis to the power of r"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "P(X\\geqr)=P(X>r-1)=q^{r-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>r</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>r</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mi>q</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater or equal than r right parenthesis equals straight P left parenthesis X greater than r minus 1 right parenthesis equals q to the power of r minus 1 end exponent"
+  },
+  {
+   "latex": "P(X<r)=1-P(X>r-1)=1-q^{r-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><msup><mi mathsize=\"16px\">q</mi><mrow><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than r right parenthesis equals 1 minus straight P left parenthesis X greater than r minus 1 right parenthesis equals 1 minus q to the power of r minus 1 end exponent"
+  },
+  {
+   "latex": "P(X\\leqr)=1-P(X>r)=1-q^{r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">r</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><msup><mi mathsize=\"16px\">q</mi><mi mathsize=\"16px\">r</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than r right parenthesis equals 1 minus straight P left parenthesis X greater than r right parenthesis equals 1 minus q to the power of r"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)=P(X\\leqb)-P(X<a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">a</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">b</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">b</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">a</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis a less or equal than X less or equal than b right parenthesis equals straight P left parenthesis X less or equal than b right parenthesis minus straight P left parenthesis X less than a right parenthesis"
+  },
+  {
+   "latex": "P(X=a)+P(X=a+1)+...+P(X=b)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X equals a right parenthesis plus P left parenthesis X equals a plus 1 right parenthesis plus... plus P left parenthesis X equals b right parenthesis end style"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "P left parenthesis X equals 8 vertical line X greater than 6 right parenthesis",
+   "render": "$P ( X = 8 \\vert X > 6 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "P left parenthesis X equals 8 vertical line X greater than 6 right parenthesis equals P left parenthesis X equals 8 minus 6 right parenthesis equals P left parenthesis X equals 2 right parenthesis",
+   "render": "$P ( X = 8 \\vert X > 6 ) = P ( X = 8 - 6 ) = P ( X = 2 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "E(X)=\\frac{1}{p}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">E</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mi mathvariant=\"bold-italic\">p</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold E bold left parenthesis bold italic X bold right parenthesis bold equals bold 1 over bold italic p"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "X tilde Geo left parenthesis 0.4 right parenthesis",
+   "render": "$X \\sim \\text{Geo} ( 0.4 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(X=5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals 5 right parenthesis"
+  },
+  {
+   "latex": "P(X>5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than 5 right parenthesis"
+  },
+  {
+   "latex": "P(3\\leqX<8)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>3</mn><mo>≤</mo><mi>X</mi><mo>&lt;</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 3 less or equal than X less than 8 right parenthesis"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis X equals 8 space vertical line space X greater than 5 right parenthesis",
+   "render": "$\\mathrm{P} ( X = 8 \\vert X > 5 )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "r",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "r"
+  },
+  {
+   "latex": "r-1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"color\":\"#FFFFFF\"}</annotation></semantics></math>",
+   "alt": "r minus 1"
+  }
+ ],
+ "stats": {
+  "blocks": 38,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 37
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_7RxxhPNkwYwmz3vV",
+   "name": "Properties of Geometric Distribution",
+   "definition": null,
+   "video_id": "884054736"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Properties of Geometric Distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a geometric distribution and its notation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **geometric** **distribution** is a **discrete probability distribution**\n- The discrete random variable $X$ follows a geometric distribution if it counts the number of trials until the first success occurs for an experiment that satisfies the conditions\n\n  - **Each trial has only two outcomes** Broadly labelled as “success” and “failure” - these are *mutually exclusive*"
+  },
+  {
+   "type": "paragraph",
+   "md": "Such trials may be referred to as **Bernoulli** **trials** – named after the Swiss mathematician Jacob Bernoulli (1655-1705)"
+  },
+  {
+   "type": "bullets",
+   "md": "- **The outcomes of trials are independent **The outcome of one trial does not affect the outcome of another trial\n\n  - **The probability of each outcome is constant across all trials**"
+  },
+  {
+   "type": "paragraph",
+   "md": "i.e.   The probability of “success” does not change between trials"
+  },
+  {
+   "type": "bullets",
+   "md": "- *p* is the probability of “**success**” in a **single** **trial**\n\n  - The probability of “**failure”** in a **single** trial is *1- p* ; often denoted by *q*\n- If *X*  follows a geometric distribution, it is denoted by $X \\sim \\text{Geo} ( p )$\n- The formula for finding the probability that the first success occurs after *r* trials (or after *r* -1 failures) is"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(X=r)=(1-p)^{r-1}p$"
+  },
+  {
+   "type": "bullets",
+   "md": "- e.g. If the probability of success in a single trial is 0.3, then the probability it will take 6 trials to obtain the first success is given by"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P ( X = 6 ) = ( 1 - 0.3 )^{6 - 1} ( 0.3 ) = ( 0.7 )^{5} ( 0.3 ) = 0.050421$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What does a geometric distribution look like?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If represented visually, using a vertical line graph, the probabilities in a geometric distribution decrease but **never** reach zero\n\n  - The probabilities form a **geometric** **progression**\n  \n    - Question: What would the first term (“a”), the common ratio (“r”) and the sum to infinity be (“$S_{\\infty}$”)?                          (Answer below diagram)\n    - The probabilities decrease exponentially; drawing a curve through the tops of the lines would produce a decreasing exponential curve\n  - The graphs also show how 1 is the **mode** for **every** geometric distribution"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-2-3-cie-fig0-geo-dist-graphs.png",
+   "file": "assets/c5898eb73fda-3-2-3-cie-fig0-geo-dist-graphs.png",
+   "alt": "3-2-3-cie-fig0-geo-dist-graphs",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Answer: $a=p,r=q=1-p,S_{\\infty}=1$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the properties of a geometric distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $P(X=r)>0$ for all r\n\n  - Every geometric distribution has an infinite (discrete) **sample** **space** which is the set of natural numbers ($ℕ$) or positive integers ($ℤ^{+}$)\n- $\\mathrm{P} ( X = r ) < \\mathrm{P} ( X = r - 1 )$ for all r\n\n  - The **mode** of **every** geometric distribution is **1** (the value of r that has the highest probability)\n- Geometric distributions are ***memoryless***\n\n  - The number of trials needed for the first success is not dependent on the number of trials that have already occurred e.g.   If 5 (failed) trials have already occurred, the probability of the first success happening after 7 trials is the same as the probability of it happening after 2 trials which would be $( 1 - p ) p$\n  - Mathematically this is written as"
+  },
+  {
+   "type": "paragraph",
+   "md": "$\\mathrm{P} ( X = r \\vert X > k ) = \\mathrm{P} ( X = r - k )$  where $k$ is the number of trials that have already occurred"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g.   $P ( X = 7 \\vert X > 5 ) = \\mathrm{P} ( X = 7 - 5 ) = P ( X = 2 )$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Geometric distributions have the **recurrence** **relation **$P(X=r)=qP(X=r-1)$\n- The **mean**, or **expected** **value**, of a geometric distribution is $E(X)=\\frac{1}{p}$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_VxJMMF37MG3rQ92M",
+   "name": "Modelling with Geometric Distribution",
+   "definition": null,
+   "video_id": "886754811"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Modelling with Geometric Distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I set up a geometric model?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Identify** what a **trial** is in the **context** of a problem\n\n  - Flipping a coin, rolling a dice, a football match\n- **Identify** a **successful** **outcome**\n\n  - Heads, a square number, a win\n- **Identify** the probability of “**success**”\n\n  - $0.5 , 1 \\frac{1}{3} , 42 \\%$\n- Define your **random** **variable** using the correct **notation**\n\n  - Let *X* be the number of trials required to obtain the first heads when flipping a fair coin,  $X \\sim \\text{Geo} ( 0.5 )$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What can be modelled using a geometric distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Anything where the **first** occurrence of a **successful** **outcome** is of significance\n\n  - Rolling a double with two dice before being allowed to start a game\n  - The number of on/off presses a switch can withstand before wearing out"
+  },
+  {
+   "type": "paragraph",
+   "md": "(In which case the first “success” would be the first failure of the switch!)"
+  },
+  {
+   "type": "bullets",
+   "md": "- In addition, the scenario must satisfy the t**hree conditions**\n\n  - Trials only have two outcomes of interest\n  - Trials are independent\n  - Probability of success is constant for all trials\n  - These are also three of the four conditions for a **binomial** **distribution** so are not enough on their own – it will also depend on the context\n- Many scenarios may appear as having more than two outcomes but in the context of the question only two are of significance\n\n  - e.g. A light that randomly flashes in 8 different colours, but the only colour of interest is blue          So “blue” is “success” and all other colours, regardless of whether it  is red, yellow, etc – i.e. “not blue” - is “failure”\n- Sometimes a sample may be taken from a population\n\n  - As long as the population is large enough and the sample is random the probability of “success” in the sample is the same as the probability of “success” in the population"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What cannot be modelled using a geometric distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Be careful not to confuse **binomial** and **geometric** distributions/models\n\n  - **Binomial** is for the number of **successes** in a **fixed** number of **trials**\n  - **Geometric** is for the number of **trials** up to and **including** the **first** **success**\n- Anything where a trial would have **more** **than** **two** **outcomes** of interest\n\n  - e.g. Outcome of a football match – win, draw or lose\n- Where the **probability** of an **outcome** of a **trial** is **influenced** by a previous trial\n\n  - i.e. trials are **not** **independent**\n  - e.g. drawing counters from a bag **without** replacement\n- Anything where the **probability** of “**success**” **changes** with time – or practice\n\n  - e.g. a skateboarder performing a trick - the probability of success should increase after practising the trick"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_CrCq4jsdbsJthgqb",
+   "name": "Calculating Geometric Probabilities",
+   "definition": null,
+   "video_id": "886759832"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Geometric Probabilities"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate geometric probabilities?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Identify *p*, the probability of “success” and *1- p*, the probability of “failure” (q)\n- For **exact** probabilities use $P(X=r)=(1-p)^{r-1}p$\n- For **inequalities **use\n\n  - $P(X>r)=(1-p)^{r}$\n  \n    - This means the first success occurs ***after r*** trials, therefore the first $r$  trials all ended in failure\n    - Similarly, $P(X\\geqr)=P(X>r-1)=q^{r-1}$\n  - $P(X<r)=1-P(X>r-1)=1-q^{r-1}$\n  \n    - Similarly, $P(X\\leqr)=1-P(X>r)=1-q^{r}$\n  - $P(a\\leqX\\leqb)=P(X\\leqb)-P(X<a)$\n  \n    - If *a* and *b* are close it may be easier to use"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(X=a)+P(X=a+1)+...+P(X=b)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Logic can be used to deduce most geometric distribution questions so memorising these formulae is not essential\n- Beware of questions that exploit the ***memorylessness*** property of geometric distributions – loosely called “given that” questions\n\n  - e.g.  $P ( X = 8 \\vert X > 6 )$ means         “the probability that  equals 8 given that  is greater than 6” or          “the probability of 8 trials given that 6 trials have already occurred”               $P ( X = 8 \\vert X > 6 ) = P ( X = 8 - 6 ) = P ( X = 2 )$\n- The **mean** (**expected** **value**) or **mode** of a geometric distribution may be required\n\n  - ** **$E(X)=\\frac{1}{p}$\n  - The **mode** is **1** for all geometric distributions"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Given that $X \\sim \\text{Geo} ( 0.4 )$ find\n\n(i)  $P(X=5)$\n\n(ii) $P(X>5)$\n\n(iii) $P(3\\leqX<8)$\n\n(iv) $\\mathrm{P} ( X = 8 \\vert X > 5 )$\n\n(v) The mode of  $X$.\n\n**Answer:**\n\n![3-2-3-cie-fig1-we-solution-1](assets/c7847eb25a45-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Try not to get bogged down with formulae for the geometric distribution, most questions can be deduced using logic\n- If you are asked to criticise a geometric model always consider whether trials are independent\n\n  - especially if it involves “practising” or “performing” a skill\n  - most people will improve after they’ve made several attempts at a skill\n  - so the probability of success should gradually increase over time\n- If finding the number of trials required ($r$) then be careful counting calculator presses; remember you are likely to be finding $r-1$(the number of failures *before* success) in the first instance"
+  }
+ ]
+}

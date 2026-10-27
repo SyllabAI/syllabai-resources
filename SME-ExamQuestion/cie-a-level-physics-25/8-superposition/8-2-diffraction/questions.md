@@ -1,6 +1,6 @@
 # Exam Questions — Diffraction
 **8. Superposition** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 15 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 20 questions across 2 sets
 
 
 ## Multiple Choice Questions (15 questions)
@@ -133,3 +133,172 @@ The diagram shows a wave approaching an aperture.
 Which diagram correctly shows the resulting diffraction pattern for the wave?
 
 ![4-4-q7-sl-easy-mcq-phy](assets/014-4-4-q7-sl-easy-mcq-phy.png)
+
+## Structured Questions (5 questions)
+
+
+### Q1 — medium — 9 marks
+
+**Q1** [2 marks]
+
+White light is passed through a single narrow slit and illuminates a screen.
+
+Describe the pattern observed on the screen.
+
+**Q1** [2 marks]
+
+Blue light from a laser is now passed through a single narrow slit, as shown in Fig 1.1. A pattern of bright and dark regions can be observed on the screen which is placed several metres beyond the slit.
+
+![3-4-s-q--q3b-medium-aqa-a-level-physics](assets/016-3-4-s-q-q3b-medium-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Describe the effect on the diffraction pattern if the width of the narrow slit is decreased.
+
+**Q1** [2 marks]
+
+**Extract:**
+
+Blue light from a laser is now passed through a single narrow slit, as shown in Fig 1.1. A pattern of bright and dark regions can be observed on the screen which is placed several metres beyond the slit.
+
+Describe the effect on the diffraction pattern if the width of the narrow slit is decreased.
+
+With the original slit width, state and explain the effect on the width of the fringes on the diffraction pattern if the blue light is replaced with a red light of the same intensity.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Blue light from a laser is now passed through a single narrow slit, as shown in Fig 1.1. A pattern of bright and dark regions can be observed on the screen which is placed several metres beyond the slit.
+
+With the original slit width, state and explain the effect on the width of the fringes on the diffraction pattern if the blue light is replaced with a red light of the same intensity. The maxima / fringes become further apart / wider because red light has a longer wavelength.
+
+The intensity graph for the diffracted blue light is shown in Fig 1.2.** **
+
+![3-4-s-q--q3d--medium-aqa-a-level-physics](assets/017-3-4-s-q-q3d-medium-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+On the axes shown in Fig 1.2, sketch the intensity graph for the laser emitting red light.
+
+### Q2 — easy — 8 marks
+
+**Q2** [2 marks]
+
+Wavefronts of a water wave pass through a gap in a harbour, as shown in Fig 1.1.
+
+![3-4-s-q--q5a-easy-aqa-a-level-physics](assets/019-3-4-s-q-q5a-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Annotate Fig 1.1 to show four wavefronts after they have emerged from the gap.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Wavefronts of a water wave pass through a gap in a harbour, as shown in Fig 1.1.
+
+State **two **changes to Fig. 1.1 that would decrease the amount of diffraction of the water waves.
+
+**Q2** [2 marks]
+
+Fig. 1.2 shows a water wave meeting a barrier.
+
+![tVfXvfRn_3-1-q5d-e-diffraction-barrier-q](assets/021-tvfxvfrn-3-1-q5d-e-diffraction-barrier-q.png)
+
+**Fig 1.2**
+
+Annotate Fig. 1.2 to show the wavefronts after they have passed the barrier.
+
+**Q2** [2 marks]
+
+Fig. 1.3 shows the wavefronts of a water wave moving from left to right in a harbour.
+
+![8-2-e-q2d-sq-cie-ial-physics](assets/023-8-2-e-q2d-sq-cie-ial-physics.png)
+
+**Fig. 1.3**
+
+Annotate Fig. 1.3 to show the wavefronts as they pass to the right of point A.
+
+### Q3 — medium — 6 marks
+
+**Q3** [2 marks]
+
+A beam of monochromatic light is incident upon two slits. The distance between the slits is *d *as shown in Fig 1.1.
+
+![q1a_wave-behaviour_ib-sl-physics-sq-medium](assets/025-q1a-wave-behaviour-ib-sl-physics-sq-medium.png)
+
+**Fig 1.1**
+
+A series of bright and dark fringes appear on the screen. Explain how a bright fringe is formed.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+A beam of monochromatic light is incident upon two slits. The distance between the slits is d as shown in Fig 1.1. A series of bright and dark fringes appear on the screen.
+
+If the wavelength of the incident light is halved and the distance between the slits is doubled, outline the effect on the separation of the fringes of the interference pattern.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+A beam of monochromatic light is incident upon two slits. The distance between the slits is *d *as shown in Fig 1.1. A series of bright and dark fringes appear on the screen.
+
+One of the slits is covered so it emits no light.
+
+Describe how this changes the pattern's appearance and the intensities observed on the screen.
+
+### Q4 — easy — 10 marks
+
+**Q4** [2 marks]
+
+State what is meant by the *diffraction* of a wave.
+
+**Q4** [2 marks]
+
+State **one** property of a wave that changes when it is diffracted and **one** that remains the same.
+
+**Q4** [2 marks]
+
+Use words from Table 1.1 to complete the following sentence:
+
+................................ passing through  ................................ will produce a large diffraction effect.
+
+**Table 1.1**
+
+![3-4-s-q--q3c-easy-aqa-a-level-physics](assets/026-3-4-s-q-q3c-easy-aqa-a-level-physics.png)
+
+**Q4** [4 marks]
+
+Fig. 1.1 shows a child in a hallway looking for a toy which is making a noise and emitting light.
+
+![8-2-e-q1d-sq-cie-ial-physics](assets/027-8-2-e-q1d-sq-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+The child can hear the sound of the toy, but cannot see the light coming from it.
+
+Complete the following sentences by circling the correct word:
+
+Sound waves emitted by the toy **diffract / refract** around the corner because the **amplitude / wavelength** is** **similar in size to the width of the hallway.
+
+The **amplitude / wavelength** of light is much** larger / smaller** than that of the sound waves, so light is not **diffracted / refracted** around the corner.
+
+### Q5 — medium — 5 marks
+
+**Q5** [1 mark]
+
+Define diffraction.
+
+**Q5** [4 marks]
+
+The diagram shows a student in a room with an open door and a television in the next room.
+
+![4-4-3b-question-stem-sl-sq-easy-phy](assets/030-4-4-3b-question-stem-sl-sq-easy-phy.png)
+
+The student can hear the sound of the television, but cannot see the picture coming from it.
+
+Explain why this is the case.

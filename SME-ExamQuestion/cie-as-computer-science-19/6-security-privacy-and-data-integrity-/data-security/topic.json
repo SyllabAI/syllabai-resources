@@ -1,0 +1,371 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:39:01Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "6-security-privacy-and-data-integrity-",
+  "name": "6. Security, Privacy & Data Integrity"
+ },
+ "topic": {
+  "id": "top_rwPf8kdxTbP7ZWGH",
+  "slug": "data-security",
+  "name": "Data Security",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "threats",
+   "name": "Threats",
+   "revision_note_id": "rn_4VfyBJYJrwXyDPhs"
+  },
+  {
+   "slug": "security-measures",
+   "name": "Security measures",
+   "revision_note_id": "rn_CdFdXG8bK83R9DKB"
+  },
+  {
+   "slug": "data-protection",
+   "name": "Data protection",
+   "revision_note_id": "rn_wGxjmXZHCbPk4KGr"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_8QV9h4Jc3RgsGjks",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/6-security-privacy-and-data-integrity-/data-security/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/58161_june-2024-9618-13-7e.png": "001-robot-waiter-with-trays-stands-in-a-restaurant-s.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_M4TSHj2PyqjVyr8S",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_m35xVvTQzpS4Xcvw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h2PT9qYZGR6gtQrJ"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **difference and **one **similarity between pharming and phishing.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for difference\n> \n> **1 mark** for similarity\n> \n> Difference:\n> \n> - Pharming is malicious code that redirects to a** fake website**. Phishing uses an **email **to prompt user action.\n> - Pharming is **automatic**. Phishing requires** user action**.\n> \n> Similarity:\n> \n> - Both try to obtain financial or personal information\n> - Both are a false representation of an official organisation, e.g. a bank\n> - Both make use of fake websites"
+    },
+    {
+     "id": "qstnprt_dZKBsS3NMw5tfd2k",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_dTCKSSntqmpQVQ4j",
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how the data security risks of malware can be restricted.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**).\n> \n> - Download programs from reputable websites / sources\n> - …as these are less likely to contain malware\n> - Backup / archive computer systems\n> - …so they can be restored in case of data loss from malware program installation\n> - **Install and run** anti-malware program\n> - …so that regular scans can be made for known malware\n> - …and if malware is found it can be quarantined / removed\n> - …and computer’s anti-malware definitions are regularly updated\n> - Using a firewall to block unused ports\n> - …so that malware cannot enter the computer system\n> - Deny administrator privileges to everyday users\n> - …so that malware cannot be downloaded by everyday users\n> - Avoid the use of / access to removable devices\n> - …so that malware cannot be installed from these devices"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wsh365wPpy27hfB6",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_HGHdnQXPP2W5dXwg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "a(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_dTCKSSntqmpQVQ4j",
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "A company sells online Computer Science courses to students in different countries.\n\nThe courses are stored on a public cloud.\n\nState how the following security measures can be used to protect computer systems.\n\nFirewall ...............................................\n\nEncryption ..........................................\n\nPasswords ..........................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each for firewall, encryption and passwords.\n> \n> Firewall:\n> \n> - Monitors incoming and outgoing traffic and rejects any traffic that does not meet the set rules\n> \n> Encryption:\n> \n> - Ensures that if data is intercepted / obtained it cannot be understood without the decryption key\n> \n> Passwords:\n> \n> - Ensures only users with the correct password can access the resources // prevents unauthorised access"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dbNfqNsBQxZcqWMp",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_N2Z7XkmPq8YTgy2G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XDpr3szNcPW7PdyK"
+     ],
+     "part_tier": null,
+     "problem_md": "State the meaning of **privacy of data**.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> Either\n> \n> - Ensuring data can only be accessed by / disclosed to authorised persons\n> \n> Or\n> \n> - Ensuring data cannot be accessed by / disclosed to unauthorised persons"
+    },
+    {
+     "id": "qstnprt_YJVcbmcWCQNtCtHz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XDpr3szNcPW7PdyK"
+     ],
+     "part_tier": null,
+     "problem_md": "State the meaning of** integrity of data.**",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 1**)\n> \n> - Ensuring the accuracy / completeness / consistency of data (during / after processing) .\n> - Ensuring the data is up to date"
+    },
+    {
+     "id": "qstnprt_Hy8YcVTXNnGpXDMn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_h2PT9qYZGR6gtQrJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the following threats to a computer system.\n\nPhishing email\n\nSpyware",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point.\n> \n> Phishing email (**max 2**)\n> \n> - The email pretends to be from an official body\n> - ... persuading individuals to disclose private information // by example such as bank details\n> - ... or requesting authentication by redirecting to an unofficial/unauthorised website // inviting a user to click a link\n> \n> Spyware (**max 2**)\n> \n> - Malware downloaded **without the user’s knowledge **\n> - ... which secretly records the user’s actions / keystrokes on the computer\n> - ... and sends logs of the actions to a third party"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZPqTdjQ8TSkRkQ8F",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_dMbhKG5gg8kGhZrr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_dTCKSSntqmpQVQ4j",
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "Authentication is one method a Database Management System (DBMS) can use to improve the security of a database.\n\nDescribe **other **methods that a DBMS can use to improve the security of a database.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)** **\n> \n> **Max 2 **if no descriptions\n> \n> - Backup / recovery procedures\n> - … automatically takes copies of the database and store off site on a regular basis / weekly, etc.\n> - ... so that the data can be recovered if lost\n> - Use of access rights\n> - … some users are given different access permissions to different tables\n> - ... read/write, read only, full access, etc.\n> - Views\n> - … different users are able to see different parts of the database\n> - ... only see what users need to see // by example\n> - Record and table locking\n> - … prevents simultaneous access to data\n> - ... so updates are not lost // data is not overwritten\n> - Encryption\n> - ... the data is turned into ciphertext\n> - ... so it cannot be understood without a decryption key"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CM3mTT4zhsRQWsFY",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_CFZW7NmDJrPRPqSm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "f(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "Robots are used to serve food and drink to customers at a restaurant.\n\n![Robot waiter with trays stands in a restaurant setting with round tables and chairs, suggesting automated serving service in dining environment.](assets/001-robot-waiter-with-trays-stands-in-a-restaurant-s.png)\n\nThe data from the robots is transmitted to a central computer using a wireless connection.\n\nExplain how encryption can protect the security of data during transmission.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - Encodes/scrambles data\n> - ... so if it is intercepted it cannot be **understood**\n> - Algorithm/**key** is required to decode the data"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NNQm62DHMWqBYwDn",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_vV2vgVQ7bSjgqGC7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h2PT9qYZGR6gtQrJ",
+      "spcpt_dTCKSSntqmpQVQ4j",
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "An assessment board scans exam papers and stores the digitised papers on a server. Exam markers download the digitised papers to mark. The exam markers then upload the mark for each paper.\n\nThe assessment board needs to make sure the data stored on the server is secure.\n\n(i) Authentication methods can help to protect the server against hackers.\n\nIdentify **one** **other** security measure that helps to protect the server from hackers.\n\nDescribe how the security measure works.\n\n(3)\n\n(ii) Identify **one **security measure that helps to protect the data when it is being transmitted to its destination. Describe how the security measure works.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for security measure\n> \n> **1 mark** each to max 2 for how the chosen measure works:\n> \n> - Firewall\n> - Checks incoming connections\n> - ... against criteria\n> - Blocks data from entering specific ports\n> - Blocks data that does not meet whitelist that meets blacklist\n> - Proxy server\n> - Prevents devices accessing the web server directly\n> - Intercepts any requests\n> - Forwards the request using its own IP address\n> - Screens returning data before sending it to the user"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GvTcdp58xFGzKPRG",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_CYpDcQCtkGHNzDRJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 5,
+      "question_part": "c(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_h2PT9qYZGR6gtQrJ",
+      "spcpt_dTCKSSntqmpQVQ4j",
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "The bank also needs to keep its customers’ data private and secure.\n\nThe bank’s network has a firewall.\n\nExplain how a firewall can help protect the customers’ data.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 3**:\n> \n> - Compares all incoming and outgoing transmissions\n> - ... against set criteria/whitelist/blacklist\n> - Blocks all transmissions that do not meet rules\n> - Blocks data entering from specific ports\n> - Blocks unauthorised/unknown internal software transmitting data"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5CfcCqCkK5CMxctm",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_qtGtGMX6mncrtPg3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_dTCKSSntqmpQVQ4j",
+      "spcpt_7jM928mhSzWFBWTz"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is written in a high-level language by a team of three programmers using an Integrated Development Environment (IDE).\n\nThe file containing the final program code will be sent by email for beta testing.\n\nIdentify **one** security method that can be used to protect the program code from unauthorised access during email transfer.\n\nExplain how your chosen method protects the program code.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for the security method. **2 marks** for explanation.\n> \n> Security method:\n> \n> Encryption\n> \n> Explanation\n> \n> - File contents are converted to cipher text\n> - If intercepted the data cannot be understood without the decryption key"
+    }
+   ]
+  }
+ ]
+}

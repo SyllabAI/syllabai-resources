@@ -131,3 +131,280 @@
 **B** is incorrect as a catalyst does not increase the overall collision frequency between molecules. Collision frequency is increased by raising concentration or pressure. A catalyst only increases the proportion of collisions that are effective by lowering *E*<sub>a</sub>.
 
 **D** is incorrect as a catalyst lowers *E*<sub>a</sub> equally for both the forward and reverse reactions. It increases the rate at which equilibrium is reached but does not alter the equilibrium position of the reaction.
+
+## Structured Questions (4 questions)
+
+
+### Q1
+i) The completed graph showing the concentrations of **A** and **B** is:
+
+![Completed concentration-time graph showing the concentrations of A and B as inverted curves decreasing from their initial values and levelling off at equilibrium without reaching zero, mirroring the shape of the curve for C](assets/005-completed-concentration-time-graph-showing-the-c.jpg)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for curves of the same inverted shape as **C**, showing **A** and **B** reducing over time **AND** not reaching zero
+> 
+> 1 mark for the curves levelling off at the same point as the curve for **C**
+
+ii) The point at which equilibrium is first established is:
+
+![Completed concentration-time graph with the letter E marked at the point where all concentration curves become horizontal straight lines, indicating the establishment of equilibrium](assets/006-completed-concentration-time-graph-with-the-lett.jpg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> ii) The equilibrium point:
+> 
+> 1 mark for **E** marked at any correct position on the graph, at the point where both concentration curves first become horizontal straight lines
+
+> **[exam-tip]**
+> For part (i), the concentrations of **A** and **B** decrease at the same rate as **C** increases, so the curves are an inverted version of the **C** curve. The lines should not reach zero, because the reaction is reversible; some **C** reacts to reform **A** and **B**, so a non-zero equilibrium concentration of **A** and **B** is maintained.
+> 
+> For part (ii), equilibrium is established when the concentrations of all species stop changing. Mark **E** at the point where all curves become flat horizontal lines.
+> **[mark-scheme]**
+> The effect of a catalyst on the rate of reaction and the equilibrium yield is:
+> 
+> - The rate of reaction increases / the reaction reaches equilibrium faster **[1 mark]**
+> - A catalyst provides an alternative reaction pathway of lower activation energy **[1 mark]**
+> - The equilibrium yield is unchanged, because the rates of the forward and reverse reactions increase equally (so the equilibrium position does not change) **[1 mark]**
+
+> **[exam-tip]**
+> A catalyst speeds up the reaction by providing an alternative reaction pathway of lower activation energy, increasing the rate of both the forward and reverse reactions equally. Equilibrium is therefore reached more quickly. However, the equilibrium position is unchanged, meaning the yield of products is the same as without a catalyst.
+i) The completed Boltzmann distribution is:
+
+![Completed Boltzmann distribution at constant temperature showing a single curve with Ea labelled to the right of the peak and the activation energy with catalyst labelled to the left of Ea, closer to the origin](assets/008-completed-boltzmann-distribution-at-constant-tem.jpg)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for both axes correctly labelled: y-axis (number of / proportion of) molecules; x-axis (kinetic) energy
+> 
+> 1 mark for a single correct Boltzmann distribution curve: starts at / near the origin and does not touch the x-axis at higher energies
+> 
+> 1 mark for *E*<sub>a</sub> correctly labelled to the right of the peak **AND** *E*<sub>a,cat</sub> correctly labelled to the left of *E*<sub>a</sub>
+
+> **[mark-scheme]**
+> ii) Using the Boltzmann distribution to explain how a catalyst increases the rate of reaction:
+> 
+> - Without a catalyst, only a small proportion of molecules have energy greater than or equal to the activation energy (*E*<sub>a</sub>) **[1 mark]**
+> - Adding a catalyst lowers the activation energy (to *E*<sub>a,cat</sub>) **[1 mark]**
+> - With a catalyst, a greater proportion of molecules have energy greater than or equal to *E*<sub>a,cat</sub>, so more collisions are successful and the rate increases **[1 mark]**
+
+> **[exam-tip]**
+> For part (i), since the temperature is constant, only one Boltzmann distribution curve is needed. The catalyst lowers the activation energy but does not change the distribution of molecular energies. Label *E*<sub>a</sub> to the right of the peak and *E*<sub>a,cat</sub> closer to the origin, to the left of *E*<sub>a</sub>.
+> 
+> For part (ii), the key idea is that a catalyst lowers the activation energy. This means a greater proportion of molecules in the same distribution have sufficient energy to react. More frequent successful collisions lead to a higher rate of reaction.
+
+### Q2
+The equation for the decomposition of hydrogen peroxide is:
+
+2H<sub>2</sub>O<sub>2</sub> (aq) → 2H<sub>2</sub>O (l) + O<sub>2</sub> (g)
+
+**OR**
+
+H<sub>2</sub>O<sub>2</sub> (aq) → H<sub>2</sub>O (l) + ½O<sub>2</sub> (g)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct species and correct balancing
+> 
+> 1 mark for all correct state symbols: (aq), (l), (g)
+
+> **[exam-tip]**
+> This is a standard decomposition reaction. The products are water and oxygen:
+> 
+> - Hydrogen peroxide solution is aqueous: H<sub>2</sub>O<sub>2</sub> (aq)
+> - Water is liquid at room temperature: H<sub>2</sub>O (l)
+> - Oxygen is released as a gas: O<sub>2</sub> (g)
+> 
+> A catalyst is often used in this reaction to increase the rate of decomposition.
+> **[mark-scheme]**
+> The type of catalysis for each catalyst is:
+> 
+> - Manganese dioxide: heterogeneous
+> **AND**
+> The catalyst is in a different state / phase to the reactants **[1 mark]**
+> - Catalase solution: homogeneous
+> **AND**
+> The catalyst is in the same state / phase as the reactants **[1 mark]**
+
+> **[exam-tip]**
+> Homogeneous catalysts are in the same physical state as the reactants. Heterogeneous catalysts are in a different physical state from the reactants.
+> 
+> - Hydrogen peroxide solution is aqueous (aq)
+> - Manganese dioxide is a solid (s), which is a different state from H<sub>2</sub>O<sub>2</sub> (aq), making it a heterogeneous catalyst
+> - Catalase is in solution (aq), the same state as H<sub>2</sub>O<sub>2</sub> (aq), making it a homogeneous catalyst
+The reaction pathway diagram for the reaction using each catalyst is:
+
+![Reaction pathway diagram for the exothermic decomposition of hydrogen peroxide showing two curves, one for manganese dioxide and one for catalase, with the manganese dioxide curve having a lower activation energy peak, and both Ea and ΔH labelled](assets/010-reaction-pathway-diagram-for-the-exothermic-deco.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a correct exothermic profile: both curves start at the same reactant level (H<sub>2</sub>O<sub>2</sub>) and end at the same lower product level (H<sub>2</sub>O + O<sub>2</sub>), each with a 'hump'
+> 
+> 1 mark for the curve for manganese dioxide drawn lower (smaller hump) than the curve for catalase solution
+> 
+> 1 mark for activation energy arrows (*E*<sub>a</sub>) **AND** enthalpy change arrows (Δ*H*) correctly labelled on the diagram
+
+> **[exam-tip]**
+> The reaction profile shows the same exothermic reaction taking place via two different catalysts:
+> 
+> - Both curves start and finish at the same energy levels (same reactants and products)
+> - The enthalpy change Δ*H* is identical for both
+> - Manganese dioxide is a more effective catalyst, lowering the activation energy more than catalase, so its curve has a smaller 'hump'
+> 
+> Make sure you label both the activation energy arrows (*E*<sub>a</sub>) from the reactant level to the peak of each curve, and both enthalpy change arrows (Δ*H*) from reactants to products.
+
+### Q3
+i) A labelled Boltzmann distribution for *T*<sub>1</sub> and *T*<sub>2</sub> is:
+
+![Completed Boltzmann distribution showing two overlapping curves T₁ and T₂, where T₂ has a lower peak shifted to the right, with both axes labelled](assets/012-completed-boltzmann-distribution-showing-two-ove.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for axes correctly labelled: y-axis (number of) molecules; x-axis (kinetic) energy
+> 
+> 1 mark for *T*<sub>2</sub> correctly drawn: lower peak than *T*<sub>1</sub>, shifted to the right, crossing *T*<sub>1</sub> once, with *T*<sub>2</sub> above *T*<sub>1</sub> at higher energies **AND** both curves start at or near the x-axis and neither goes below the x-axis
+
+> **[mark-scheme]**
+> ii) When temperature increases from *T*<sub>1</sub> to *T*<sub>2</sub>:
+> 
+> - The proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases **[1 mark]**
+
+> **[exam-tip]**
+> For part (i), key features of Boltzmann distribution curves:
+> 
+> - Curves start at or near the origin (very few molecules have very low energy)
+> - Curves do not touch the x-axis at high energies (there is no upper energy limit)
+> - *T*<sub>2</sub> is at a higher temperature, so it has a lower peak and a longer tail at higher energies
+> 
+> For part (ii), at higher temperature the Boltzmann distribution shifts to the right, meaning a greater area under the curve lies to the right of *E*<sub>a</sub>. A greater proportion of molecules therefore have energy greater than or equal to *E*<sub>a</sub>, leading to more frequent successful collisions and a higher rate of reaction.
+i) The reaction profile for the decomposition of hydrogen iodide is:
+
+![Reaction energy profile diagram showing an exothermic reaction with reactants 2HI(g) at higher energy and products H₂(g) + I₂(g) at lower energy, with two activation energy humps where the uncatalysed hump is higher than the catalysed hump](assets/013-reaction-energy-profile-diagram-showing-an-exoth.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a correct exothermic energy profile: reactants (2HI (g)) at a higher energy level than products (H<sub>2</sub> (g) + I<sub>2</sub> (g)), both curves starting from the reactant level and ending at the product level
+> 
+> 1 mark for the uncatalysed curve drawn higher (larger hump) than the catalysed curve
+
+ii) The activation energy for the reverse reaction is calculated by adding |Δ*H*| to *E*<sub>a</sub> of the forward reaction:
+
+- Calculate *E*<sub>a</sub> for the uncatalysed reverse reaction:
+
+*E*<sub>a</sub> (reverse, uncatalysed) = 183 + 52
+
+*E*<sub>a</sub> (reverse, uncatalysed) = **(+) 235 kJ mol**<sup>**-1**</sup> **[1 mark]**
+
+- Calculate *E*<sub>a</sub> for the catalysed reverse reaction:
+
+*E*<sub>a</sub> (reverse, catalysed) = 105 + 52
+
+*E*<sub>a</sub> (reverse, catalysed) = **(+) 157 kJ mol**<sup>**-1**</sup> **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for *E*<sub>a</sub> uncatalysed (reverse) = 235 kJ mol<sup>-1</sup>
+> 
+> 1 mark for *E*<sub>a</sub> catalysed (reverse) = 157 kJ mol<sup>-1</sup>
+
+> **[mark-scheme]**
+> iii) Increasing the concentration of hydrogen iodide gas increases the rate of reaction because:
+> 
+> - More molecules are present in the same volume / molecules are closer together **[1 mark]**
+> - The frequency of successful collisions increases **[1 mark]**
+
+> **[exam-tip]**
+> For part (i), make sure the catalysed and uncatalysed curves do not merge before reaching the products; each should have a distinct, separate peak.
+> 
+> For part (ii), to find the activation energy of the reverse reaction, add the magnitude of Δ*H* to the forward *E*<sub>a</sub>. The forward reaction is exothermic (Δ*H* = −52 kJ mol<sup>-1</sup>), so the products are at a lower energy level than the reactants. Reversing the direction means starting from the products and climbing up to the transition state, so the reverse *E*<sub>a</sub> = forward *E*<sub>a</sub> + |Δ*H*|.
+> 
+> For part (iii), increasing the concentration places more molecules in the same volume, so collisions between reactant molecules are more frequent. More total collisions per unit time means more successful collisions (those with sufficient energy and the correct orientation), increasing the rate of reaction.
+> **[mark-scheme]**
+> i) Gold was used in powdered form because:
+> 
+> - (Powder form) increases the surface area (available for the reaction to occur on) **[1 mark]**
+
+> **[mark-scheme]**
+> ii) The difference between a homogeneous and heterogeneous catalyst is:
+> 
+> - A homogeneous catalyst is in the same physical state / phase as the reactants
+> **AND**
+> A heterogeneous catalyst is in a different physical state / phase from the reactants **[1 mark]**
+
+> **[mark-scheme]**
+> iii) When a catalyst is introduced, the area under the Boltzmann distribution curve:
+> 
+> - Stays the same / is unchanged **[1 mark]**
+
+> **[exam-tip]**
+> Heterogeneous catalysts often work in powdered form or as a honeycomb structure to maximise the available surface area. Reactant molecules are adsorbed onto the catalyst surface, react, and then the products are desorbed. Increasing the surface area allows more reactant molecules to interact with the catalyst at the same time.
+> 
+> The area under the Boltzmann distribution represents the total number of molecules. Since no molecules are added or removed when a catalyst is used, the area is unchanged. A catalyst lowers the activation energy but does not change the distribution of molecular energies.
+> **[mark-scheme]**
+> i) The balanced equation for the Contact process is:
+> 
+> - 2SO<sub>2</sub> (g) + O<sub>2</sub> (g) ⇌ 2SO<sub>3</sub> (g) **[1 mark]**
+
+> **[mark-scheme]**
+> ii) The mode of action of the vanadium(V) oxide catalyst is:
+> 
+> - Reactant molecules (SO<sub>2</sub> and/or O<sub>2</sub>) are adsorbed onto the surface of the catalyst **[1 mark]**
+> - Product molecules (SO<sub>3</sub>) are desorbed from the surface of the catalyst **[1 mark]**
+
+> **[exam-tip]**
+> For part (i), all the information needed to construct the equation is in the question:
+> 
+> - Sulfur dioxide + oxygen → sulfur trioxide: SO<sub>2</sub> + O<sub>2</sub> → SO<sub>3</sub>
+> - Balance by inspection: 2SO<sub>2</sub> + O<sub>2</sub> → 2SO<sub>3</sub>
+> - The reaction is reversible: use ⇌
+> - All species are gases (g)
+> 
+> For part (ii), heterogeneous catalysts work by adsorption and desorption. Reactant molecules (SO<sub>2</sub> and O<sub>2</sub>) bind to the solid surface of the catalyst (adsorption). After the reaction takes place on the surface, the product molecules (SO<sub>3</sub>) leave the surface (desorption), freeing up the catalyst surface for further reactions.
+
+### Q4
+The equation for this reaction is:
+
+4NH<sub>3</sub> (g) + 5O<sub>2</sub> (g) ⇌ 4NO (g) + 6H<sub>2</sub>O (g)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct species and correct balancing
+> 
+> 1 mark for all correct state symbols: (g), (g), (g), (g)
+
+> **[exam-tip]**
+> All the information required to construct the equation is in the question:
+> 
+> - Gaseous ammonia: NH<sub>3</sub> (g)
+> - Reacts in air: + O<sub>2</sub> (g)
+> - Reversible reaction: ⇌
+> - Forms nitrogen(II) oxide gas: NO (g)
+> - Forms water vapour: H<sub>2</sub>O (g)
+> 
+> NH<sub>3</sub> + O<sub>2</sub> ⇌ NO + H<sub>2</sub>O
+> 
+> Then balance the equation.
+> **[mark-scheme]**
+> The type of catalysis is heterogeneous:
+> 
+> - Heterogeneous **[1 mark]**
+> - The catalyst is in a different state / phase to the reactants
+> **OR**
+> The catalyst is solid **AND **the reactants are gaseous **[1 mark]**
+
+> **[exam-tip]**
+> From Part (a), the reactants (NH<sub>3</sub> and O<sub>2</sub>) are gaseous. The platinum and rhodium catalysts are powder-coated onto a solid mesh, which means that they are solid. A heterogeneous catalyst is in a different phase to the reactants.
+> **[mark-scheme]**
+> The catalyst does not affect the yield because:
+> 
+> - It increases the rate of the forward and reverse reactions equally (so the equilibrium position is unchanged) **[1 mark]**
+
+> **[exam-tip]**
+> A catalyst speeds up the reaction so equilibrium is reached more quickly. However, because both the forward and reverse reaction rates are increased equally, the equilibrium position is unchanged — the same equilibrium yield of products is obtained.

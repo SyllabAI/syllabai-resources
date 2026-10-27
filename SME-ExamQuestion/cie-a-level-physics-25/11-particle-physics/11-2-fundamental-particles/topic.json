@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:18:41Z",
+ "generated_utc": "2026-10-26T14:39:01Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -63,14 +63,28 @@
    "question_count": 22,
    "questions_embedded": 22,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/11-particle-physics/11-2-fundamental-particles/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_dcFCWgvkvJNBKKnq",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/11-particle-physics/11-2-fundamental-particles/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 22,
+  "questions_embedded": 29,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images624png.png": "001-cie-ial-images624png.png",
@@ -136,6 +150,13 @@
      ],
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "n rightwards arrow p plus e to the power of minus plus top enclose v subscript e",
+       "render": "$n \\rightarrow p + e^{-} + \\vec{v}_{e}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "=udd",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mo>=</mo><mi>u</mi><mi>d</mi><mi>d</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "begin mathsize 20px style equals u d d end style"
@@ -146,14 +167,49 @@
        "alt": "equals u u d"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses u d d space rightwards arrow space u u d close parentheses",
+       "render": "$( u d d \\rightarrow u u d )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses u u d space rightwards arrow space u d d close parentheses",
+       "render": "$( u u d \\rightarrow u d d )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "p\\rightarrown+e^{+}+v_{e}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo> </mo><mo>→</mo><mo> </mo><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><msup><mi>e</mi><mo>+</mo></msup><mo> </mo><mo>+</mo><mo> </mo><msub><mi>v</mi><mi>e</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "p space rightwards arrow space n space plus space e to the power of plus space plus space v subscript e"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose n space rightwards arrow space top enclose p space plus space e to the power of plus space end exponent plus space v subscript e",
+       "render": "$\\vec{n} \\rightarrow \\vec{p} + e^{+ } + v_{e}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "p\\rightarrown+e^{+}+v_{e}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo> </mo><mo>→</mo><mo> </mo><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><msup><mi>e</mi><mo>+</mo></msup><mo>+</mo><mo> </mo><msub><mi>v</mi><mi>e</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "p space rightwards arrow space n space plus space e to the power of plus plus space v subscript e"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n space plus space e to the power of plus space rightwards arrow space p space plus space top enclose v subscript e",
+       "render": "$n + e^{+} \\rightarrow p + \\vec{v}_{e}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "p space rightwards arrow space n space plus space e to the power of plus space plus space top enclose v subscript e",
+       "render": "$p \\rightarrow n + e^{+} + \\vec{v}_{e}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -930,6 +986,55 @@
        "latex": "\\frac{2}{3}e+\\frac{1}{3}e=+1e",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>e</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mi>e</mi><mo>=</mo><mo>+</mo><mn>1</mn><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "2 over 3 e space plus space 1 third space e equals plus 1 e"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "u space top enclose u",
+       "render": "$u \\vec{u}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "size 22px d size 22px space top enclose size 22px u size 22px space",
+       "render": "$\\text{size} 22px d \\text{size} 22px \\vec{s} \\text{ize} 22px u \\text{size} 22px$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space top enclose d space",
+       "render": "$d \\vec{d}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "u space top enclose u",
+       "render": "$u \\vec{u}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "u space top enclose d",
+       "render": "$u \\vec{d}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space top enclose u",
+       "render": "$d \\vec{u}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space top enclose d",
+       "render": "$d \\vec{d}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1039,6 +1144,27 @@
        "latex": "uud",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathsize=\"20px\">u</mi><mi mathsize=\"20px\">u</mi><mi mathsize=\"20px\">d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "size 20px u size 20px u size 20px d"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose u",
+       "render": "$\\vec{u}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose u",
+       "render": "$\\vec{u}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose d",
+       "render": "$\\vec{d}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1094,6 +1220,13 @@
      ],
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose u d",
+       "render": "$\\vec{u} d$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "udd",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi>u</mi><mi>d</mi><mi>d</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "u d d"
@@ -1104,9 +1237,23 @@
        "alt": "begin mathsize 20px style u u d end style"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose u d",
+       "render": "$\\vec{u} d$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "u",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi>u</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "u"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 20px style top enclose d end style",
+       "render": "$\\vec{d}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1161,6 +1308,20 @@
       }
      ],
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P presubscript 84 presuperscript 214 space rightwards arrow space Q presubscript 82 presuperscript 210 space plus space alpha presubscript 2 presuperscript 4",
+       "render": "$P_{84}^{214} \\rightarrow Q_{82}^{210} + \\\\alpha pre_{2} pre^{4}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q presubscript 82 presuperscript 210 space rightwards arrow space R presubscript 83 presuperscript 210 space plus space beta presubscript negative 1 end presubscript presuperscript 0",
+       "render": "`Q _ 82 ^ 210 -> R _ 83 ^ 210 + beta _ - 1 ^ 0`",
+       "via": "alt-transpile"
+      },
       {
        "latex": "=udd",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mi>u</mi><mi>d</mi><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
@@ -1374,6 +1535,832 @@
        "label": "D",
        "is_correct": false,
        "text_md": "bosons"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3FWKmGZqzjMCKW5Z",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_fNNZBPBdxfQJVBg4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hqmJY4MT3zxKmGNj",
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "State the quark composition of:\n\n(i) a proton\n\n[1]\n\n(ii) a neutron\n\n[1]\n\n(iii) an alpha-particle.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The quark composition of a proton is:\n> \n> - up up down **OR** $\\mathrm{uud}$ **[1 mark]**\n> \n> (ii) The quark composition of a neutron is:\n> \n> - up down down **OR** $\\mathrm{udd}$ **[1 mark]**\n> \n> (iii) The quark composition of an alpha-particle is:\n> \n> - 6 up, 6 down **[1 mark]**\n\n> **[exam-tip]**\n> Remember, an alpha particle consists of 2 protons and 2 neutrons, so\n> \n> - $2\\times\\mathrm{uud}$ gives 4 up quarks and 2 down quarks\n> - $2\\times\\mathrm{udd}$ gives 2 up quarks and 4 down quarks",
+     "equations": [
+      {
+       "latex": "\\mathrm{uud}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>uud</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "uud"
+      },
+      {
+       "latex": "\\mathrm{udd}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>udd</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "udd"
+      },
+      {
+       "latex": "2\\times\\mathrm{uud}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>&#215;</mo><mi>uud</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 cross times uud"
+      },
+      {
+       "latex": "2\\times\\mathrm{udd}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>&#215;</mo><mi>udd</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 cross times udd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wWPqBntw7x3KSyRP",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_qpRMQ6QGvbdwCMnY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2C6m4RkrKJ5kky72"
+     ],
+     "part_tier": null,
+     "problem_md": "State the particles that form a meson.",
+     "solution_md": "A meson is made from:\n\n- A quark; **[1 mark]**\n- And an antiquark; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_FJJfjQjqxXMwPHjD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2C6m4RkrKJ5kky72"
+     ],
+     "part_tier": null,
+     "problem_md": "A student proposes an undiscovered baryon with the following structure:\n\n$\\text{tt} \\vec{b}$\n\nState whether it is possible for this baryon to exist.\n\nExplain your answer.",
+     "solution_md": "State whether this baryon can exist:\n\n- This baryon could not exist; **[1 mark]**\n\nExplain why:\n\n- This contains quarks and antiquarks; **[1 mark]**\n- Baryons contain only quarks **OR **antibaryons only contain antiquarks; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Recall that a line above the symbol tells you that it is an antiquark.*\n\n> *Baryons are made of three quarks, antibaryons are made of three antiquarks and mesons are made of a single quark and single antiquark. Hadrons do not exist in any other combination of quarks.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "tt top enclose straight b",
+       "render": "$\\text{tt} \\vec{b}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_N47Ddv8fg8QGNC2w",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wDvbGbb8SyMrMqjY"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the changes to a proton's quark composition when it undergoes beta plus decay.",
+     "solution_md": "During beta plus decay:\n\nDescribe the proton's initial quark composition:\n\n- Initially, a proton's composition is two up quarks and a down quark / uud; **[1 mark]**\n\nDescribe the change during beta plus decay:\n\n- During beta plus decay, an up quark turns into a down quark; **[1 mark]**\n- The new composition is two down quarks and an up quark / udd; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_86mDcCdKPgQVwvZY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW",
+      "spcpt_6fVMdVc2kKCpMRbW"
+     ],
+     "part_tier": null,
+     "problem_md": "Show that an anti-proton has a relative charge of −*e*, where *e*  is the elementary charge, using its quark composition.",
+     "solution_md": "To show that an anti-proton has a charge of −*e* :\n\nRecall the quark composition of an anti-proton:\n\n- An anti-proton has the composition of two anti-up quarks and one anti-down quark / $\\vec{u} \\vec{u} \\vec{d}$ ; **[1 mark]**\n\nRecall the charges of these antiquarks:\n\n- Anti-up quarks have a charge of $-\\frac{2}{3}e$ ; **[1 mark]**\n- Anti-down quarks have a charge of $\\frac{1}{3}e$ ; **[1 mark]**\n\nDetermine the total charge *Q * of an anti-proton:\n\n- $Q = ( - \\frac{2}{3} e ) + ( - \\frac{2}{3} e ) + ( 1 \\frac{1}{3} e )$  **[1 mark]**\n- $Q=-e$\n\n**[Total: 4 marks]**\n\n> *'Show that' questions require you to clearly outline every step of your reasoning. Scribbled out sections can confuse your examiner, so coming up with a plan on some scrap paper can help you avoid any errors when it comes to writing out the answer in full.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose straight u space top enclose straight u space top enclose straight d",
+       "render": "$\\vec{u} \\vec{u} \\vec{d}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "-\\frac{2}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 2 over 3 e"
+      },
+      {
+       "latex": "\\frac{1}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 third e"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q space equals space open parentheses negative 2 over 3 e close parentheses space plus space open parentheses negative 2 over 3 e close parentheses space plus space open parentheses 1 third e close parentheses",
+       "render": "$Q = ( - \\frac{2}{3} e ) + ( - \\frac{2}{3} e ) + ( 1 \\frac{1}{3} e )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "Q=-e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals space minus e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sywWqYwpxPBh8TCZ",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_j7GmRn54HVKhMdkb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6fVMdVc2kKCpMRbW"
+     ],
+     "part_tier": null,
+     "problem_md": "State the number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27`.",
+     "solution_md": "The number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27` is:\n\nDetermine the number of protons and neutrons:\n\n- There are 13 protons\n- There are 27 – 13 = 14 neutrons\n\nCalculate the number of up quarks:\n\n- A proton (uud) has 2 up quarks and a neutron (udd) has 1 up quark\n- Number of up quarks = (13 × 2) + (14 × 1) = 40 **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_WTvjVjVKmwrWpXzx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW",
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "The $D$ particle has a quark structure $u\\overline{c}$ .\n\nDetermine\n\n(i) the classification of the $D$ particle,\n\n[1]\n\n(ii) the charge on the $D$ particle.\n\n[1]",
+     "solution_md": "(i) The classification of the $D$ particle is:\n\n- A meson; **[1 mark]** ** **\n\n(ii) The charge on the $D$ particle is:\n\n- $u \\bar{c} = \\frac{2}{3} + ( - \\frac{2}{3} ) = 0$ **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Just 'hadron' will not be enough to get the mark for part (i), you should be as specific as possible.*",
+     "equations": [
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mi mathvariant=\"normal\">D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight D"
+      },
+      {
+       "latex": "u\\overline{c}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mover><mi>c</mi><mo>&#175;</mo></mover></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u c with bar on top"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mi mathvariant=\"normal\">D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mi mathvariant=\"normal\">D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight D"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mi mathvariant=\"normal\">D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight D"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mi mathvariant=\"normal\">D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight D"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "u c with bar on top space equals 2 over 3 space plus space open parentheses negative 2 over 3 close parentheses space equals space 0",
+       "render": "$u \\bar{c} = \\frac{2}{3} + ( - \\frac{2}{3} ) = 0$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WCy4nGkh397pXhSp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW"
+     ],
+     "part_tier": null,
+     "problem_md": "Using the quark model, show that the magnitude of the charge of a proton is equal to the charge of an electron.",
+     "solution_md": "Using the quark model, show that the magnitude of the charge of a proton is equal to the charge of an electron\n\n- uud (2 up quarks and 1 down quark)\n- $+ \\frac{2}{3} e + \\frac{2}{3} e + ( - 1 \\frac{1}{3} e ) = 1 e$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "plus 2 over 3 e space plus 2 over 3 e space plus space open parentheses negative 1 third e close parentheses space equals space 1 e",
+       "render": "$+ \\frac{2}{3} e + \\frac{2}{3} e + ( - 1 \\frac{1}{3} e ) = 1 e$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_HCdcysjdqqtNT9Vw",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wDvbGbb8SyMrMqjY"
+     ],
+     "part_tier": null,
+     "problem_md": "Using the quark model for β<sup>+</sup> decay, show that charge is conserved in this decay.",
+     "solution_md": "Using the quark model for β<sup>+</sup> decay, prove that charge is conserved\n\n- β<sup>+</sup> decay is: $p\\rightarrown+e^{+}+ν_{e}$\n- Therefore, the quark changes are: $u\\rightarrowd+e^{+}+ν_{e}$ **[1 mark]**\n\nCompare charges on both sides:\n\n- $+ \\frac{2}{3} = - 1 \\frac{1}{3} + ( + 1 ) + 0 = + \\frac{2}{3}$ **[1 mark]**\n- (LHS = RHS), therefore, the charge is conserved; **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "p\\rightarrown+e^{+}+ν_{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mi>n</mi><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><msup><mi>e</mi><mo>+</mo></msup><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><msub><mi>&#957;</mi><mi>e</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p space rightwards arrow space n space plus thin space e to the power of plus space plus thin space nu subscript e"
+      },
+      {
+       "latex": "u\\rightarrowd+e^{+}+ν_{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mi>d</mi><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><msup><mi>e</mi><mo>+</mo></msup><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><msub><mi>&#957;</mi><mi>e</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u space rightwards arrow space d space plus thin space e to the power of plus space plus thin space nu subscript e"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "plus 2 over 3 space equals space – 1 third space plus space open parentheses plus 1 close parentheses space plus thin space 0 space equals space plus 2 over 3",
+       "render": "$+ \\frac{2}{3} = - 1 \\frac{1}{3} + ( + 1 ) + 0 = + \\frac{2}{3}$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HbnvTYPBNrmd424B",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_sgCdCHXVqdn8m6yB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is listing the flavours of quarks they can recall from memory. Their list is below:\n\n- Bottom\n- Strange\n- Down\n\nName the flavours of quarks missing from their list.",
+     "solution_md": "The missing flavours of quarks are:\n\n- Top; **[1 mark]**\n- Up; **[1 mark]**\n- Charm; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_XRMK5FnQ26qGFQ9f",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1 below. The right hand column is in units of the elementary charge, *e*.\n\n**Table 1.1**\n\n| **Quark Flavour** | **Charge / *****e*** |\n|---|---|\n| Strange |   |\n| Charm |   |\n| Down |   |\n| Top |   |",
+     "solution_md": "A completed Table 1.1 looks like:\n\n| **Quark Flavour** | **Charge / *****e*** |\n|---|---|\n| Strange | $-\\frac{1}{3}$ **[1 mark]** |\n| Charm | $\\frac{2}{3}$ **[1 mark]** |\n| Down | $-\\frac{1}{3}$ **[1 mark]** |\n| Top | $\\frac{2}{3}$ **[1 mark]** |\n\n**[Total: 4 marks]**\n\n> *Don't forge that the left column is already in units of **e**, so you won't get the marks for writing a charge of *$\\frac{2}{3}e$* in the right hand boxes. This would actually  be saying the quark has a charge of *$\\frac{2}{3}e^{2}$*, which is of course incorrect.*",
+     "equations": [
+      {
+       "latex": "-\\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 third"
+      },
+      {
+       "latex": "\\frac{2}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>2</mn><mn>3</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 3"
+      },
+      {
+       "latex": "-\\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 third"
+      },
+      {
+       "latex": "\\frac{2}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>2</mn><mn>3</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 3"
+      },
+      {
+       "latex": "\\frac{2}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 3 e"
+      },
+      {
+       "latex": "\\frac{2}{3}e^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>e</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 3 e squared"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qM3WK5hZdfjfCh33",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6fVMdVc2kKCpMRbW"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a proton is not a fundamental particle.",
+     "solution_md": "To explain why a proton is not a fundamental particle:\n\n- Fundamental particles are not made of any other particles; **[1 mark]**\n- But protons are made of three / multiple quarks; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_9Wf2pnQy43yV3GxZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the difference between quarks and antiquarks.",
+     "solution_md": "The difference between quarks and antiquarks is:\n\n- Quarks and antiquarks have opposite charges; **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DZWjhqDyMPTpQYwZ",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_6MbtnWxtxZ8FZ9fd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wDvbGbb8SyMrMqjY"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon–10 `( C _ 6 ^ 10 )` is an isotope that decays to an isotope of boron (symbol $B$) by the emission of a β<sup>+</sup> particle.\n\n(i) Complete the nuclear equation for this decay, including the proton and nucleon numbers of all the particles involved.\n\n`C _ 6 ^ 10 ->`\n\n[3]\n\n(ii) During the decay, a quark in the carbon-10 nucleus changes into a different type.\n\nState the change of quark that occurs.\n\n[1]",
+     "solution_md": "(i)  The nuclear equation for the decay is:\n\n`C _ 6 ^ 10 -> B _ 5 ^ 10 + beta _ 1 ^ 0 ^ ( + ) end ^ + nu _ 0 ^ 0`\n\n- `B _ 5 ^ 10` **[1 mark]**\n- `beta _ 1 ^ 0 ^ ( + ) end ^ / e _ 1 ^ 0 ^ +` **[1 mark]**\n- `nu presubscript 0 presuperscript 0` **[1 mark]** ** **\n\n(ii) The change of quark is:\n\n- <u>Up</u> quark to <u>down</u> quark; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Although you have not been given the proton and nucleon numbers of the boron nucleus, you can figure these out as the top row of numbers and the bottom row of numbers must **balance** on both sides of the equation.*\n\n> *For example, on the left-hand side, the proton number is 6. On the right-hand side, the proton number is 1 + 0 = 1. Therefore, the proton number of boron must be 5 so both sides have a total of 6.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses straight C presubscript 6 presuperscript 10 close parentheses",
+       "render": "`( C _ 6 ^ 10 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mi mathvariant=\"normal\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight B"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight C presubscript 6 presuperscript 10 space space space rightwards arrow space",
+       "render": "`C _ 6 ^ 10 ->`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "C presubscript 6 presuperscript 10 space rightwards arrow space B presubscript 5 presuperscript 10 space plus thin space beta presubscript 1 presuperscript 0 superscript open parentheses plus close parentheses end superscript space plus space nu presubscript 0 presuperscript 0",
+       "render": "`C _ 6 ^ 10 -> B _ 5 ^ 10 + beta _ 1 ^ 0 ^ ( + ) end ^ + nu _ 0 ^ 0`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight B presubscript 5 presuperscript 10",
+       "render": "`B _ 5 ^ 10`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "beta presubscript 1 presuperscript 0 superscript open parentheses plus close parentheses end superscript space divided by space e presubscript 1 presuperscript 0 superscript plus",
+       "render": "`beta _ 1 ^ 0 ^ ( + ) end ^ / e _ 1 ^ 0 ^ +`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_39NVzDxBYYfccz7H",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JVXyyR7549WKjmyV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCarbon–10 (_{6}^{10}C) is an isotope that decays to an isotope of boron (symbol B) by the emission of a β^+ particle.\n\nState the two leptons in this decay.",
+     "solution_md": "The two leptons in the decay are:\n\n- Beta-plus particle / β<sup>+</sup> / positron; **[1 mark]**\n- (Electron) neutrino; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Make sure to say it is a **positron** and not an electron in this decay!*"
+    },
+    {
+     "id": "qstnprt_Zg855y6w3VRkdStx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW",
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "State and explain why a hadron with charge –3*e *cannot exist.\n\n*e* is the elementary charge.",
+     "solution_md": "A hadron with a charge of –3*e* cannot exist because:\n\n**Final answer:** **Any ****three**** from:**\n\n- Quarks can either have a charge of $\\pm\\frac{1}{3}e$ or $\\pm\\frac{2}{3}e$; **[1 mark]**\n- A meson contains a quark and an anti-quark; **[1 mark]**\n- (Hence) mesons can only have a charge of 0 or $\\pm1e$ (therefore it cannot be a meson); **[1 mark]**\n- A baryon contains three (anti)quarks; **[1 mark]**\n- (Hence) baryons can only have a charge of 0 or $\\pm2e$ (therefore, it cannot be a baryon); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Remember, a hadron is any particle made up of quarks, so make sure you refer to both mesons and baryons*",
+     "equations": [
+      {
+       "latex": "\\pm\\frac{1}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#177;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus-or-minus 1 third e"
+      },
+      {
+       "latex": "\\pm\\frac{2}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#177;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus-or-minus 2 over 3 e"
+      },
+      {
+       "latex": "\\pm1e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#177;</mo><mn>1</mn><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus-or-minus 1 e"
+      },
+      {
+       "latex": "\\pm2e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#177;</mo><mn>2</mn><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus-or-minus 2 e"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VMsQvn9xjRsCYq9d",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW",
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "State the possible quark combination for a hadron of charge +2*e*.",
+     "solution_md": "A possible quark combination for a hadron of charge +2*e *is:\n\n**Final answer:** **Any ****one**** from:**\n\n- uuu / three up quarks  **[1 mark]**\n- ttt / three top quarks **[1 mark]**\n- ccc / three charm quarks **[1 mark]**\n- utc / up quark, top quark, charm quark **[1 mark]**\n- $\\overset{-}{d}\\overset{-}{s}\\overset{-}{b}$ / anti-down quark, anti-strange quark, anti-bottom quark **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Although a meson is a type of hadron, a meson cannot have a charge of +2**e **as there is no combination of a quark and anti-quark pair that gives a charge of +2**e**.*\n\n> *It is important you memorise the **charges** of each of the quarks, and remember that the equivalent anti-quark has the **opposite** charge. *",
+     "equations": [
+      {
+       "latex": "\\overset{-}{d}\\overset{-}{s}\\overset{-}{b}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>d</mi><mo>-</mo></mover><mover><mi>s</mi><mo>-</mo></mover><mover><mi>b</mi><mo>-</mo></mover></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d with minus on top s with minus on top b with minus on top"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8gS3tjQ8msk23Hm9",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Rkzk4B6zMSJQQcgj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6fVMdVc2kKCpMRbW"
+     ],
+     "part_tier": null,
+     "problem_md": "State the quark composition of an alpha particle.",
+     "solution_md": "The quark composition of an alpha particle is:\n\n- (An alpha particle has) 2 protons $( u u d )$ and 2 neutrons $( u d d )$; **[1 mark]**\n- (So its quark composition is) 6 up (u) **AND** 6 down (d) quarks;** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *A proton would have a quark composition of uud. A neutron has udd. Therefore, uud + uud + udd + udd = 6 up and 6 down quarks.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses u u d close parentheses",
+       "render": "$( u u d )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses u d d close parentheses",
+       "render": "$( u d d )$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_HXDPMJNghx9DG7V6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW",
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the quark model to show that the charge on the anti-neutron is 0.",
+     "solution_md": "Use the quark model to show that the charge on the anti-neutron is 0\n\n- (The quark structure) is anti-up anti-down anti-down / $\\overline{u}\\overline{d}\\overline{d}$; **[1 mark]**\n- $- \\frac{2}{3} ( e ) + 1 \\frac{1}{3} ( e ) + 1 \\frac{1}{3} ( e ) = 0$ **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *It is important you remember all the charges of each quark. An anti-quark is going to have the same magnitude but **opposite charge**.*",
+     "equations": [
+      {
+       "latex": "\\overline{u}\\overline{d}\\overline{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>u</mi><mo>&#175;</mo></mover><mover><mi>d</mi><mo>&#175;</mo></mover><mover><mi>d</mi><mo>&#175;</mo></mover></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u with bar on top d with bar on top d with bar on top"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "negative 2 over 3 open parentheses e close parentheses plus 1 third open parentheses e close parentheses plus 1 third open parentheses e close parentheses space equals space 0",
+       "render": "$- \\frac{2}{3} ( e ) + 1 \\frac{1}{3} ( e ) + 1 \\frac{1}{3} ( e ) = 0$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BRJZXWDKXwrqyS96",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dThCMkMgKjqg2bvF"
+     ],
+     "part_tier": null,
+     "problem_md": "A sigma baryon Σ is a hadron that consists of an up (u) quark, a down (d) quark and a strange (s) quark.\n\nState the quark composition of Σ<sup>+</sup> , Σ<sup>0</sup> and Σ<sup>–</sup> .",
+     "solution_md": "State the quark composition of Σ<sup>+</sup> , Σ<sup>0</sup> and Σ<sup>–</sup> :\n\n- Σ<sup>+ </sup>= uus; **[1 mark]**\n- Σ<sup>0</sup> = uds; **[1 mark]**\n- Σ<sup>–</sup> = dds; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The subscript for each of the Σ particles indicates its charge. Since it is a **baryon**, this means it is made up of **three** **quarks **(anti-baryons are made up of three antiquarks). It is important to remember the charge of each of these quarks to combine them in a way to get the total charge required:*\n\n- *uus = *$+\\frac{2}{3}+\\frac{2}{3}-\\frac{1}{3}=1$\n- *uds = *$+\\frac{2}{3}-\\frac{1}{3}-\\frac{1}{3}=0$\n- *dds = *$-\\frac{1}{3}-\\frac{1}{3}-\\frac{1}{3}=-1$",
+     "equations": [
+      {
+       "latex": "+\\frac{2}{3}+\\frac{2}{3}-\\frac{1}{3}=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus 2 over 3 plus 2 over 3 minus 1 third space equals space 1"
+      },
+      {
+       "latex": "+\\frac{2}{3}-\\frac{1}{3}-\\frac{1}{3}=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus 2 over 3 minus 1 third minus 1 third space equals space 0"
+      },
+      {
+       "latex": "-\\frac{1}{3}-\\frac{1}{3}-\\frac{1}{3}=-1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 third minus 1 third minus 1 third space equals space minus 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_wPnJmvHPFGPPKn6S",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2C6m4RkrKJ5kky72"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a baryon with the quark composition $u\\overline{d}s$ cannot exist.",
+     "solution_md": "A baryon with the quark composition $u\\overline{d}s$ cannot exist because:\n\n- A baryon can only be made up of three quarks or three anti-quarks **OR **a baryon cannot consist of a mix of quarks and anti-quarks; **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "u\\overline{d}s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mover><mi>d</mi><mo>¯</mo></mover><mi>s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u d with bar on top s"
+      },
+      {
+       "latex": "u\\overline{d}s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mover><mi>d</mi><mo>&#175;</mo></mover><mi>s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u d with bar on top s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vk3z7g4SGtmmBRnh",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_27GQXXZr6kVfGsQS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 2",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_2C6m4RkrKJ5kky72"
+     ],
+     "part_tier": null,
+     "problem_md": "State the quark composition of a meson.",
+     "solution_md": "A meson is made up of:\n\n- A quark and an anti-quark; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_dV2BzsWxV6Jszdf3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 2",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_YmydrVnY8qSq7dcW"
+     ],
+     "part_tier": null,
+     "problem_md": "A hadron consists of two down quarks and a charm quark.\n\nDetermine the charge of the hadron. Show your working.\n\ncharge = ..................................... C",
+     "solution_md": "Determine the charge of the hadron with composition $ddc$:\n\nState the charge on each quark:\n\n- Down quark = $-\\frac{1}{3}e$ **AND**\n- Charm quark = $+\\frac{2}{3}e$ **[1 mark]**\n\nCalculate the charge on the hadron:\n\n- Charge on $ddc=-\\frac{1}{3}e-\\frac{1}{3}e+\\frac{2}{3}e=0$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "ddc",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mi>d</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d d c"
+      },
+      {
+       "latex": "-\\frac{1}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 1 third e"
+      },
+      {
+       "latex": "+\\frac{2}{3}e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "plus 2 over 3 e"
+      },
+      {
+       "latex": "ddc=-\\frac{1}{3}e-\\frac{1}{3}e+\\frac{2}{3}e=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mi>d</mi><mi>c</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>e</mi><mo>&#160;</mo><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>e</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>e</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d d c space equals space minus 1 third e space minus 1 third e space plus space 2 over 3 e space equals space 0"
       }
      ]
     }

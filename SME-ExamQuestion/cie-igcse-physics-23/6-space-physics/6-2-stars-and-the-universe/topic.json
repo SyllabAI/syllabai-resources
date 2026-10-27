@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T03:38:02Z",
+ "generated_utc": "2026-10-26T14:30:11Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/",
@@ -78,16 +78,43 @@
    "question_count": 25,
    "questions_embedded": 25,
    "page_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/6-space-physics/6-2-stars-and-the-universe/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_3xYRh2by44T2b82n",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 18,
+   "questions_embedded": 18,
+   "page_url": "https://www.savemyexams.com/igcse/physics/cie/23/topic-questions/6-space-physics/6-2-stars-and-the-universe/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 25,
+  "questions_embedded": 43,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "theory-questions"
   ],
-  "asset_map": {}
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000---2022-11-03t132255-070.png": "001-file-000-2022-11-03t132255-070.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-2-4a-m-redshift-galaxy-a-and-b.png": "002-6-2-4a-m-redshift-galaxy-a-and-b.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000---2022-11-02t151539-089.png": "003-file-000-2022-11-02t151539-089.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/file-000---2022-11-02t151541-167.png": "004-file-000-2022-11-02t151541-167.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-2-4a-h-size-of-universe-time-graph.png": "005-6-2-4a-h-size-of-universe-time-graph.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/img-e027c022f47c-1.jpeg": "006-img-e027c022f47c-1.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-2-5b-e-main-sequence-star-forces.png": "007-6-2-5b-e-main-sequence-star-forces.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-2-5b-h-hubbles-law-graph-p-and-q.png": "008-6-2-5b-h-hubbles-law-graph-p-and-q.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/img-fa04355a8907-1.jpeg": "009-img-fa04355a8907-1.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/6-2-3c-h-hubbles-law-graph.png": "010-6-2-3c-h-hubbles-law-graph.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/img-d801ef065e19-1.jpeg": "011-img-d801ef065e19-1.jpeg"
+  }
  },
  "questions": [
   {
@@ -981,6 +1008,20 @@
        "latex": "v=H_{0}d",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >v</mi><mo > </mo><mo >=</mo><mo > </mo><msub><mi >H</mi><mn >0</mn></msub><mi >d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "v space equals space H subscript 0 d"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 2.5 space cross times space 10 to the power of 6 close parentheses space cross times space open parentheses 9.5 space cross times space 10 to the power of 15 close parentheses space equals space 2.375 space cross times space 10 to the power of 22 space straight m",
+       "render": "$( 2.5 \\times 10^{6} ) \\times ( 9.5 \\times 10^{15} ) = 2.375 \\times 10^{22} \\mathrm{m}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space open parentheses 2.2 space cross times space 10 to the power of negative 18 end exponent close parentheses space cross times space open parentheses 2.375 space cross times space 10 to the power of 22 close parentheses space equals space 52.25 space cross times space 10 cubed space straight m divided by straight s space equals space 52 space km divided by straight s",
+       "render": "$v = ( 2.2 \\times 10^{- 18} ) \\times ( 2.375 \\times 10^{22} ) = 52.25 \\times 10^{3} \\mathrm{m} \\div \\mathrm{s} = 52 \\text{km} \\div \\mathrm{s}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1506,6 +1547,1698 @@
        "latex": "\\frac{1}{H_{0}}=\\frac{d}{v}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><msub><mi>H</mi><mn>0</mn></msub></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>d</mi><mi>v</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "1 over H subscript 0 space equals space d over v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_W5WVbYnGMJrd3WGk",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_y84XCnMw5knM8DpW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dTmYMGsCzVtmyD7B"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 10.1 shows the orbital radius and orbital period for three planets in the Solar System.\n\n**Table 10.1**\n\n| Planet | Average orbital radius / × 10<sup>6</sup> km | Orbital period / Earth years |\n|---|---|---|\n| Mercury | 57.9 | 0.24 |\n| Earth | 150 | 1.00 |\n| Jupiter | 778 | 11.86 |\n\nThe orbit of Earth is approximately circular.\n\nCalculate the average orbital speed of the Earth.",
+     "solution_md": "To calculate the average orbital speed of the Earth:\n\n- List the known quantities:\n\n  - Orbital radius of Earth, $r=150\\times10^{6}\\text{km}$\n  - Orbital period of Earth, $T=1.00\\mathrm{year}$\n- Convert the orbital radius to metres:\n\n$r=150\\times10^{6}\\times10^{3}=150\\times10^{9}\\text{m}$\n\n- Convert the orbital period to seconds:\n\n$T=365\\times24\\times3600=3.15\\times10^{7}\\text{s}$ **[1 mark]**\n\n- Calculate the orbital speed:\n\n$v=\\frac{2πr}{T}$ **[1 mark]**\n\n$v = \\frac{2 \\mathrm{\\pi } \\times ( 150 \\times 10^{9} )}{3.15 \\times 10^{7} }$\n\n$v = 3 . 0 \\times 10^{4}  \\text{m/s}$ **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct conversion of time to seconds\n> \n> - Accept $365\\times24\\times3600$ **OR** $3.15\\times10^{7}\\text{s}$\n> \n> 1 mark for the correct equation **OR** correct substitution\n> \n> - Accept $v=2πr/T$ **OR** $( 2 \\mathrm{\\pi } \\times 150 \\times 10^{6} ) \\div ( 365 \\times 24 \\times 3600 )$ **OR** $9.42\\times10^{11}/3.15\\times10^{7}$\n> \n> 1 mark for a correct final answer of $3.0\\times10^{4}\\text{m/s}$\n> \n> - Accept: use of $T = 3 . 2 \\times 10^{7}  \\text{s}$ giving $v = 2 . 9 \\times 10^{4}  \\text{m/s}$\n\n> **[exam-tip]**\n> A very common mistake is to use the radius instead of the circumference — remember, the planet travels the full circumference in one orbital period, not just one radius.",
+     "equations": [
+      {
+       "latex": "r=150\\times10^{6}\\text{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>150</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mtext>km</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r space equals space 150 cross times 10 to the power of 6 space text km end text"
+      },
+      {
+       "latex": "T=1.00\\mathrm{year}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>00</mn><mo>&#160;</mo><mi>year</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space equals space 1.00 space year"
+      },
+      {
+       "latex": "r=150\\times10^{6}\\times10^{3}=150\\times10^{9}\\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>150</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>150</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>&#160;</mo><mtext>m</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r space equals space 150 cross times 10 to the power of 6 cross times 10 cubed space equals space 150 cross times 10 to the power of 9 space text m end text"
+      },
+      {
+       "latex": "T=365\\times24\\times3600=3.15\\times10^{7}\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>365</mn><mo>&#215;</mo><mn>24</mn><mo>&#215;</mo><mn>3600</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>15</mn><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup><mo>&#8202;</mo><mtext>s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space equals space 365 cross times 24 cross times 3600 space equals space 3.15 cross times 10 to the power of 7   text s end text"
+      },
+      {
+       "latex": "v=\\frac{2πr}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mi>r</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator 2 straight pi r over denominator T end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space fraction numerator 2 straight pi cross times open parentheses 150 cross times 10 to the power of 9 close parentheses over denominator 3.15 cross times 10 to the power of 7 end fraction",
+       "render": "$v = \\frac{2 \\mathrm{\\pi } \\times ( 150 \\times 10^{9} )}{3.15 \\times 10^{7} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "v = 3 . 0 \\times 10^{4}  \\text{m/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>0</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>4</mn></msup><mo>&#x200A;</mo><mtext>m/s</mtext></math>",
+       "alt": "v = 3.0 \\times 10^{4}\\,\\text{m/s}"
+      },
+      {
+       "latex": "365\\times24\\times3600",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>365</mn><mo>&#215;</mo><mn>24</mn><mo>&#215;</mo><mn>3600</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "365 cross times 24 cross times 3600"
+      },
+      {
+       "latex": "3.15\\times10^{7}\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>15</mn><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup><mo>&#8202;</mo><mtext>s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3.15 cross times 10 to the power of 7   text s end text"
+      },
+      {
+       "latex": "v=2πr/T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><mi>r</mi><mo>/</mo><mi>T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals 2 straight pi r divided by T"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 2 straight pi cross times 150 cross times 10 to the power of 6 close parentheses divided by open parentheses 365 cross times 24 cross times 3600 close parentheses",
+       "render": "$( 2 \\mathrm{\\pi } \\times 150 \\times 10^{6} ) \\div ( 365 \\times 24 \\times 3600 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "9.42\\times10^{11}/3.15\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>42</mn><mo>&#215;</mo><msup><mn>10</mn><mn>11</mn></msup><mo>/</mo><mn>3</mn><mo>.</mo><mn>15</mn><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "9.42 cross times 10 to the power of 11 divided by 3.15 cross times 10 to the power of 7"
+      },
+      {
+       "latex": "3.0\\times10^{4}\\text{m/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup><mo>&#8202;</mo><mtext>m/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3.0 cross times 10 to the power of 4   text m/s end text"
+      },
+      {
+       "latex": "T = 3 . 2 \\times 10^{7}  \\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>2</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>7</mn></msup><mo>&#x200A;</mo><mtext>s</mtext></math>",
+       "alt": "T = 3.2 \\times 10^{7}\\,\\text{s}"
+      },
+      {
+       "latex": "v = 2 . 9 \\times 10^{4}  \\text{m/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>9</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>4</mn></msup><mo>&#x200A;</mo><mtext>m/s</mtext></math>",
+       "alt": "v = 2.9 \\times 10^{4}\\,\\text{m/s}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rBKHFx4NvzfYZr4F",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhprhgKF2K9Nh2Rf"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 10.1 shows the orbital radius and orbital period for three planets in the Solar System.\n\n**Table 10.1**\n\nPlanet\n\nAverage orbital radius / × 10^6^ km\n\nOrbital period / Earth years\n\nMercury\n\n57.9\n\n0.24\n\nEarth\n\n150\n\n1.00\n\nJupiter\n\n778\n\n11.86\n\nUsing data from Table 10.1, state the relationship between a planet's average orbital speed and its distance from the Sun.\n\nExplain this relationship in terms of gravitational field strength.",
+     "solution_md": "> **[mark-scheme]**\n> - Orbital speed decreases as distance from the Sun increases **OR** planets further from the Sun have a lower orbital speed **[1 mark]**\n> - Gravitational field strength/gravitational force decreases with distance from the Sun, so the planet needs a lower speed to stay in orbit **[1 mark]**\n\n> **[exam-tip]**\n> You can verify the relationship from the data: Mercury is closest to the Sun and orbits fastest (largest circumference-to-period ratio), while Jupiter is furthest and orbits slowest. The explanation links to gravitational field strength — further from the Sun, the gravitational field is weaker, so the gravitational pull on the planet is smaller. A weaker pull means the planet needs a lower speed to remain in a stable orbit; if it moved too fast, it would spiral outwards.\n> \n> Make sure you link the weaker gravitational field to the effect on orbital speed — simply saying \"less gravity\" without explaining why this leads to a lower speed will not earn the second mark."
+    },
+    {
+     "id": "qstnprt_yy7BXCxmbptkpK7W",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "A galaxy is at a distance of $9 . 0 \\times 10^{7}$ light-years from the Earth. The current value of the Hubble constant is $2.2\\times10^{-18}$ per second.\n\nCalculate the speed at which this galaxy is moving away from the Earth.",
+     "solution_md": "To calculate the speed at which this galaxy is moving away from the Earth:\n\n- List the known quantities:\n\n  - Distance of galaxy from Earth, $d=9.0\\times10^{7}$ light-years\n  - Hubble constant, $H_{0}=2.2\\times10^{-18}$ per second\n- Recall the value of a light-year and convert the distance to metres:\n\n1 light-year = $9.5\\times10^{15}m$ **[1 mark]**\n\n$d = ( 9.0 \\times 10^{7} ) \\times ( 9.5 \\times 10^{15} )$\n\n$d=8.55\\times10^{23}\\text{m}$\n\n- Apply Hubble's law to calculate speed:\n\n$v=H_{0}d$ **[1 mark]**\n\n$v = ( 2.2 \\times 10^{- 18} ) \\times ( 8.55 \\times 10^{23} )$\n\n$v=1881000$\n\n$v=$ $1.9\\times10^{6}\\text{m/s}$ **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for stating 1 light-year = $9.5\\times10^{15}m$ **OR** correct conversion to metres\n> \n> - Accept $9 . 0 \\times 10^{7} \\times 9 . 5 \\times 10^{15}$ **OR** $8 . 55 \\times 10^{23}  \\text{m}$\n> \n> 1 mark for correct equation **OR** correct substitution\n> \n> - Accept $v=H_{0}d$ **OR** $2 . 2 \\times 10^{-18} \\times 8 . 55 \\times 10^{23}$\n> \n> 1 mark for a correct final answer of $1.9\\times10^{6}\\text{m/s}$\n> \n> - Accept: $1880\\text{km/s}$ or $1.88\\times10^{6}\\text{m/s}$ or $1900\\text{km/s}$ or $1.9\\times10^{3}\\text{km/s}$\n\n> **[exam-tip]**\n> Sometimes you may be given the values of a light year ($9.5\\times10^{15}m$) and the Hubble constant ($2.2\\times10^{-18}$ per second) in a question, but not always. If you are taking the extended paper, you must learn them as you could be expected to recall either value.",
+     "equations": [
+      {
+       "latex": "9 . 0 \\times 10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>.</mo><mn>0</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>7</mn></msup></math>",
+       "alt": "9.0 \\times 10^7"
+      },
+      {
+       "latex": "2.2\\times10^{-18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.2 cross times 10 to the power of negative 18 end exponent"
+      },
+      {
+       "latex": "d=9.0\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space 9.0 cross times 10 to the power of 7"
+      },
+      {
+       "latex": "H_{0}=2.2\\times10^{-18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space 2.2 cross times 10 to the power of negative 18 end exponent"
+      },
+      {
+       "latex": "9.5\\times10^{15}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "9.5 cross times 10 to the power of 15 space straight m"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d space equals space open parentheses 9.0 cross times 10 to the power of 7 close parentheses cross times open parentheses 9.5 cross times 10 to the power of 15 close parentheses",
+       "render": "$d = ( 9.0 \\times 10^{7} ) \\times ( 9.5 \\times 10^{15} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "d=8.55\\times10^{23}\\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>8</mn><mo>.</mo><mn>55</mn><mo>&#215;</mo><msup><mn>10</mn><mn>23</mn></msup><mo>&#8202;</mo><mtext>m</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d space equals space 8.55 cross times 10 to the power of 23   text m end text"
+      },
+      {
+       "latex": "v=H_{0}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>H</mi><mn>0</mn></msub><mo>&#8202;</mo><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space H subscript 0   d"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space open parentheses 2.2 cross times 10 to the power of negative 18 end exponent close parentheses cross times open parentheses 8.55 cross times 10 to the power of 23 close parentheses",
+       "render": "$v = ( 2.2 \\times 10^{- 18} ) \\times ( 8.55 \\times 10^{23} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "v=1881000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mn>881</mn><mo>&#160;</mo><mn>000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space 1 space 881 space 000"
+      },
+      {
+       "latex": "v=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals"
+      },
+      {
+       "latex": "1.9\\times10^{6}\\text{m/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mtext>m/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.9 cross times 10 to the power of 6 space text m/s end text"
+      },
+      {
+       "latex": "9.5\\times10^{15}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "9.5 cross times 10 to the power of 15 space straight m"
+      },
+      {
+       "latex": "9 . 0 \\times 10^{7} \\times 9 . 5 \\times 10^{15}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>.</mo><mn>0</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>7</mn></msup><mo>&#xD7;</mo><mn>9</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>15</mn></msup></math>",
+       "alt": "9.0 \\times 10^{7} \\times 9.5 \\times 10^{15}"
+      },
+      {
+       "latex": "8 . 55 \\times 10^{23}  \\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>.</mo><mn>55</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>23</mn></msup><mo>&#x200A;</mo><mtext>m</mtext></math>",
+       "alt": "8.55 \\times 10^{23}\\,\\text{m}"
+      },
+      {
+       "latex": "v=H_{0}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><msub><mi>H</mi><mn>0</mn></msub><mo>&#8202;</mo><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals H subscript 0   d"
+      },
+      {
+       "latex": "2 . 2 \\times 10^{-18} \\times 8 . 55 \\times 10^{23}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup><mo>&#xD7;</mo><mn>8</mn><mo>.</mo><mn>55</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>23</mn></msup></math>",
+       "alt": "2.2 \\times 10^{-18} \\times 8.55 \\times 10^{23}"
+      },
+      {
+       "latex": "1.9\\times10^{6}\\text{m/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#8202;</mo><mtext>m/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.9 cross times 10 to the power of 6   text m/s end text"
+      },
+      {
+       "latex": "1880\\text{km/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1880</mn><mo>&#160;</mo><mtext>km/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1880 space text km/s end text"
+      },
+      {
+       "latex": "1.88\\times10^{6}\\text{m/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>88</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mtext>m/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.88 cross times 10 to the power of 6 space text m/s end text"
+      },
+      {
+       "latex": "1900\\text{km/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1900</mn><mo>&#160;</mo><mtext>km/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1900 space text km/s end text"
+      },
+      {
+       "latex": "1.9\\times10^{3}\\text{km/s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#160;</mo><mtext>km/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.9 cross times 10 cubed space text km/s end text"
+      },
+      {
+       "latex": "9.5\\times10^{15}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "9.5 cross times 10 to the power of 15 space straight m"
+      },
+      {
+       "latex": "2.2\\times10^{-18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.2 cross times 10 to the power of negative 18 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5KNyYgNrSFrFptJ2",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wTb5MTCNYCsd6spP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0972/31",
+      "question_number": 12,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YrxsZCB6DQTJCF7M"
+     ],
+     "part_tier": null,
+     "problem_md": "** **The Sun mostly consists of two elements.\n\nState the **two **elements.",
+     "solution_md": "The two main elements in the Sun are:\n\n- Hydrogen; **[1 mark]**\n- Helium; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> **[exam-tip]**\n> This is a **state** question, so you just need to remember what you know about stars and write it down. Stars, including the Sun, are mostly composed of the two light elements hydrogen and helium, which typically account for over 90% of a star’s total mass."
+    },
+    {
+     "id": "qstnprt_FgKgNhRrxryXvRhc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0972/31",
+      "question_number": 12,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_Zzp5hP8WvybXB3yT"
+     ],
+     "part_tier": null,
+     "problem_md": "The Sun is a star in a galaxy.\n\nState the name of the galaxy.",
+     "solution_md": "The Sun is a star in:\n\n- The Milky Way;** [1 mark]**\n\n**[Total: 1 mark]**\n\n> **[exam-tip]**\n> The Milky Way is the only galaxy you need to know the name of. Any other galaxies will be named for you if needed by the question."
+    }
+   ]
+  },
+  {
+   "id": "qstn_sRby8cZf5JKS4vXP",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_xx437pG8c9MFtB9f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023 specimen",
+      "number": "paper 4",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_TkVXWQTgtmHxPS27"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extended Tier Only**\n\nDescribe and explain how a stable star is formed.",
+     "solution_md": "To explain how a stable star is formed:\n\n- Hydrogen gas in a nebular / stellar cloud is pulled together by gravity; **[1 mark]**\n- Hydrogen temperature increases **AND** a protostar forms; **[1 mark]**\n- Nuclear fusion forms **AND** the outward force from this balances the inward force of gravity; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_ZSssmkKK3nX6DNGq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 4",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wC7p4ys4c9kw2gjn"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extended Tier Only**\n\nDescribe and explain what can be deduced from cosmic microwave background radiation (CMBR).",
+     "solution_md": "To explain deductions from the CMBR:\n\nAny **three** from:\n\n- Microwave radiation is detected from all points in space; **[1 mark]**\n\n- This radiation was produced when the Universe was formed; **[1 mark]**\n- The radiation has expanded into the microwave region of the EM spectrum; **[1 mark]**\n- This is evidence for the Universe’s expansion; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BpcvkXjzMXDkgBQs",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_WYycp8stkzHKpd9y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 3",
+      "question_number": 12,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YrxsZCB6DQTJCF7M"
+     ],
+     "part_tier": null,
+     "problem_md": "** **The Sun is our nearest star.\n\n(i) State the **three** main forms of electromagnetic radiation emitted by the Sun.\n\n[2]\n\n(ii) State the **two** main elements that are found in the Sun.\n\n[1]",
+     "solution_md": "(i) The three main forms of radiation from the Sun are:\n\n- Ultraviolet radiation\n- Visible light\n- Infrared radiation\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for any one correct answer\n> \n> 1 mark for all three correct\n\n> **[exam-tip]**\n> The easiest way to remember the main forms of EM radiation emitted by the sun is to remember that we see sunlight, hence it is visible light. Plus the two closest EM waves either side of visible light.\n> \n> ![file-000---2022-11-03t132255-070](assets/001-file-000-2022-11-03t132255-070.png)\n\n(ii) The two main elements in the Sun are:\n\n- Hydrogen\n- Helium\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> Must give both to earn the mark."
+    },
+    {
+     "id": "qstnprt_NTPgQk49PKfTrSDY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 3",
+      "question_number": 12,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_NkKXGkHPhsxQWpmV"
+     ],
+     "part_tier": null,
+     "problem_md": "State and explain what can be deduced from the ‘redshift’ observed by astronomers in the light from all distant galaxies.",
+     "solution_md": "> **[mark-scheme]**\n> Any **three** from:\n> \n> - The wavelengths of light from distant galaxies are compared to the wavelengths (of spectral lines) on Earth\n> - The wavelengths of galaxies are found to be longer / shifted towards the red end of the spectrum\n> - This means that the galaxy is receding / moving away from Earth\n> - This is evidence that the universe is expanding\n> \n> **[3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XqRtYmZ2xgJJscVk",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_jfjKjc9V9RtkSW2X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZBVqB5rYZT34SKCH",
+      "spcpt_wC7p4ys4c9kw2gjn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState and explain the two pieces of evidence which support the Big Bang Theory of the origin of the Universe.",
+     "solution_md": "Two pieces of evidence which support the Big Bang Theory of the origin of the Universe are:\n\n- (Galactic) red-shift; **[1 mark]**\n- Since the light observed from <u>distant</u> galaxies has red-shifted, this shows that the universe is expanding; **[1 mark]**\n- Cosmic Microwave Background (CMB) radiation; **[1 mark]**\n- Since this (electromagnetic) radiation was produced shortly after the big bang and has now been red-shifted / expanded into the microwave region; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_NqJg7ZjBybpRNV99",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_P5YzFgM688vDqSmH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nCalculate the distance of 50 light-years in metres.\n\n*Speed of light* = 3.0 × 10<sup>8</sup> m/s.",
+     "solution_md": "Calculate the distance of 50 light-years\n\nList the known quantities:\n\n- Distance = 50 light-years\n- Speed of light, *c* = 3.0 × 10<sup>8</sup> m/s\n\nState the equation linking speed, distance and time:\n\n- $speed=\\frac{distance}{time}\\Rightarrowdistance=speed\\timestime$ **[1 mark]**\n\nConvert 1 year into seconds:\n\n- $1year=365\\times24\\times60\\times60=31536000s$ **[1 mark]**\n- The time is the number of seconds in 1 year\n\nSubstitute values into the distance equation:\n\n- $d i s t a n c e = 1 l i g h t y e a r = ( 3.0 \\times 10^{8} ) \\times 31 536 000$\n- $1lightyear=9.46\\times10^{15}m$ **[1 mark]**\n\nCalculate 50 light years:\n\n- $50 l i g h t y e a r s = 50 \\times ( 9.46 \\times 10^{15} ) = 4.7 \\times 10^{17} \\mathrm{s}$ **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *To calculate the number of seconds in a year, remember:*\n\n- *1 year = 365 days*\n- *1 day = 24 hours*\n- *1 hour = 60 minutes*\n- *1 minute = 60 seconds*",
+     "equations": [
+      {
+       "latex": "speed=\\frac{distance}{time}\\Rightarrowdistance=speed\\timestime",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mi>p</mi><mi>e</mi><mi>e</mi><mi>d</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac><mo> </mo><mo> </mo><mo> </mo><mo>⇒</mo><mo> </mo><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mi>s</mi><mi>p</mi><mi>e</mi><mi>e</mi><mi>d</mi><mo> </mo><mo>×</mo><mo> </mo><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s p e e d space equals fraction numerator space d i s t a n c e over denominator t i m e end fraction space space space rightwards double arrow space d i s t a n c e space equals space s p e e d space cross times space t i m e"
+      },
+      {
+       "latex": "1year=365\\times24\\times60\\times60=31536000s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo> </mo><mi>y</mi><mi>e</mi><mi>a</mi><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>365</mn><mo> </mo><mo>×</mo><mo> </mo><mn>24</mn><mo> </mo><mo>×</mo><mo> </mo><mn>60</mn><mo> </mo><mo>×</mo><mo> </mo><mn>60</mn><mo> </mo><mo>=</mo><mo> </mo><mn>31</mn><mo> </mo><mn>536</mn><mo> </mo><mn>000</mn><mo> </mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 space y e a r space equals space 365 space cross times space 24 space cross times space 60 space cross times space 60 space equals space 31 space 536 space 000 space straight s"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "d i s t a n c e space equals 1 space l i g h t space y e a r space equals space open parentheses 3.0 space cross times 10 to the power of 8 close parentheses space cross times space 31 space 536 space 000",
+       "render": "$d i s t a n c e = 1 l i g h t y e a r = ( 3.0 \\times 10^{8} ) \\times 31 536 000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "1lightyear=9.46\\times10^{15}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo> </mo><mi>l</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi><mo> </mo><mi>y</mi><mi>e</mi><mi>a</mi><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn><mo>.</mo><mn>46</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>15</mn></msup><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 space l i g h t space y e a r space equals space 9.46 space cross times space 10 to the power of 15 space straight m"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "50 space l i g h t space y e a r s space equals space 50 space cross times space open parentheses 9.46 space cross times space 10 to the power of 15 close parentheses space equals space 4.7 space cross times space 10 to the power of 17 space straight s",
+       "render": "$50 l i g h t y e a r s = 50 \\times ( 9.46 \\times 10^{15} ) = 4.7 \\times 10^{17} \\mathrm{s}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gxCf3hXHgmrHw2ph",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n1 light year = 9.46 × 10^15 m\n\n**Extended tier only**\n\nRedshift measurements show that a galaxy is receding from Earth at a speed of 32 000 km/s.\n\nUse Hubble's Law to calculate how many light-years the galaxy is distant from the Solar System.\n\nTake the Hubble constant to be 2.2 × 10<sup>-18</sup> per second.",
+     "solution_md": "Use Hubble's Law to calculate how many light-years the galaxy is distant from the Solar System\n\nList the known quantities:\n\n- 1 light year = 9.46 × 10<sup>15</sup> m (from part b)\n- The Hubble constant, *H*<sub>0</sub> =  2.2 × 10<sup>-18</sup> per second\n- Speed of the galaxy, *v* = 32 000 km/s\n\nState the equation for the Hubble constant:\n\n- $H_{0}=\\frac{v}{d}$ **[1 mark]**\n\nRearrange the Hubble constant equation for the distance, *d:*\n\n- $d=\\frac{v}{H_{0}}$ **[1 mark]**\n\nConvert the speed from km/s into m/s:\n\n- 1 km = 1000 m = 1 × 10<sup>3</sup> m\n- 32 000 km/s = 32 000 × 10<sup>3</sup> m/s **[1 mark]**\n\nSubstitute the values into the distance equation, *d*:\n\n- $d=\\frac{32000\\times10^{3}}{2.2\\times10^{-18}}=1.45\\times10^{25}m$ **[1 mark]**\n\nConvert the distance into light years:\n\n- 1 light year = 9.46 × 10<sup>15</sup> m\n- $d=\\frac{1.45\\times10^{25}}{9.46\\times10^{15}}=1.5\\times10^{9}\\mathrm{light} \\mathrm{years}$ **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Units are **really** important in this topic!*\n\n> *You could also convert 1 light year into km, and keep the speed of the galaxy **v** in km - this will also get you the same final answer. *\n\n> *Make sure to look at previous sub-parts if you are missing any values. Make sure to use the unrounded value where possible. Only round your final answers (preferably to 2 s.f).*",
+     "equations": [
+      {
+       "latex": "H_{0}=\\frac{v}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo> </mo><mi>v</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space fraction numerator space v over denominator d end fraction"
+      },
+      {
+       "latex": "d=\\frac{v}{H_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo> </mo><mi>v</mi></mrow><msub><mi>H</mi><mn>0</mn></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator space v over denominator H subscript 0 end fraction"
+      },
+      {
+       "latex": "d=\\frac{32000\\times10^{3}}{2.2\\times10^{-18}}=1.45\\times10^{25}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>32</mn><mo> </mo><mn>000</mn><mo> </mo><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup><mo> </mo></mrow><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow></mfrac><mo> </mo><mo>=</mo><mn>1</mn><mo>.</mo><mn>45</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>25</mn></msup><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 32 space 000 space cross times 10 cubed space over denominator 2.2 space cross times space 10 to the power of negative 18 end exponent end fraction space equals 1.45 space cross times space 10 to the power of 25 space straight m"
+      },
+      {
+       "latex": "d=\\frac{1.45\\times10^{25}}{9.46\\times10^{15}}=1.5\\times10^{9}\\mathrm{light} \\mathrm{years}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>1</mn><mo>.</mo><mn>45</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>25</mn></msup><mo> </mo></mrow><mrow><mn>9</mn><mo>.</mo><mn>46</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>15</mn></msup></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>9</mn></msup><mo> </mo><mi>light</mi><mo> </mo><mi>years</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d space equals space fraction numerator 1.45 space cross times space 10 to the power of 25 space over denominator 9.46 space cross times space 10 to the power of 15 end fraction space equals space 1.5 space cross times space 10 to the power of 9 space light space years"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xnK6db86WXWmjHwF",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_mTsQTpm9FmqdNRbr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NkKXGkHPhsxQWpmV"
+     ],
+     "part_tier": null,
+     "problem_md": "The visible part of the electromagnetic spectrum from a star includes a dark line. This line is at a specific wavelength.\n\nFig 1.1 shows the position of the dark line in the spectrum from the Sun and in the spectrum from two different galaxies, galaxy A and galaxy B.\n\n![6-2-4a-m-redshift-galaxy-a-and-b](assets/002-6-2-4a-m-redshift-galaxy-a-and-b.png)\n\nExplain what the spectrum ‘shifts’ of the dark lines tells us about the direction of the galaxies.",
+     "solution_md": "The spectrum 'shifts' of the dark lines tells us that the galaxies are;\n\n- Moving <u>away</u> from us / from Earth; **[1 mark]**\n- Because the lines are shifted towards the <u>red</u> end of the spectrum / they have red-shifted; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_62vsrzWzhsxb2zQ7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NkKXGkHPhsxQWpmV",
+      "spcpt_dgBtNyMy3Qn7fvjJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig 1.1 shows the position of the dark line in the spectrum from the Sun and in the spectrum from two different galaxies, galaxy A and galaxy B.\n\n**Extended tier only**\n\nState which galaxy is:\n\n(i) is moving faster.\n\n[1]\n\n(ii) is further away.\n\n[1]",
+     "solution_md": "(i) The galaxy moving faster is:\n\n- Galaxy B; **[1 mark]**\n\n(ii) The galaxy that is further away is:\n\n- Galaxy B; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The greater the redshift, the faster a galaxy is moving away from us. Hubble's law states that the further away a galaxy is, the faster it is moving away from us.*"
+    },
+    {
+     "id": "qstnprt_Sn74KBqv229cwWHV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nGalaxy A is 150 000 × 10<sup>9 </sup>m away.\n\nCalculate its recession velocity.\n\nHubble constant = 2.2 × 10<sup>–18</sup> per second.",
+     "solution_md": "Calculate the recession velocity of Galaxy A\n\nList the known quantities:\n\n- Distance, *d* = 150 000 × 10<sup>9 </sup>m\n- Hubble constant = 2.2 × 10<sup>–18</sup> per second\n\nState the equation linking distance and recession velocity:\n\n- $H_{0}=\\frac{v}{d}$ **[1 mark]**\n\nRearrange for recession velocity, *v*:\n\n- $v=H_{0}d$ **[1 mark]**\n\nSubstitute in the values:\n\n- $v = ( 2.2 \\times 10^{- 18} ) \\times ( 150 000 \\times 10^{9} )$ **[1 mark]**\n- $v=3.3\\times10^{-4}m/s$ **[1 mark]**\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "H_{0}=\\frac{v}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo> </mo><mi>v</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space fraction numerator space v over denominator d end fraction"
+      },
+      {
+       "latex": "v=H_{0}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>H</mi><mn>0</mn></msub><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space H subscript 0 d"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space space equals space open parentheses 2.2 space cross times space 10 to the power of negative 18 end exponent close parentheses space cross times space open parentheses 150 space 000 space cross times space 10 to the power of 9 close parentheses",
+       "render": "$v = ( 2.2 \\times 10^{- 18} ) \\times ( 150 000 \\times 10^{9} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "v=3.3\\times10^{-4}m/s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><mn>3</mn><mo>.</mo><mn>3</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mo> </mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space 3.3 space cross times space 10 to the power of negative 4 end exponent space straight m divided by straight s"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FMk7ZkntjP5sBzqs",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDistance, d = 150 000 × 10^9 m\nHubble constant = 2.2 × 10^–18 per second\nRecession velocity of Galaxy A = 3.3 × 10^–4 m/s\n\n**Extended tier only**\n\nA galaxy C is twice as far as galaxy A.\n\nDetermine the recession velocity of galaxy C.",
+     "solution_md": "Determine the recession velocity of galaxy C\n\nList the known quantities:\n\n- Recession velocity of Galaxy A = 3.3 × 10<sup>–4</sup> m/s (from part c)\n\nCalculate the recession velocity of galaxy C:\n\n- Galaxy C velocity = 2 × (3.3 × 10<sup>–4</sup>) **[1 mark]**\n- Galaxy C velocity = 6.6 × 10<sup>–4</sup> m/s **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Since the Hubble constant is the same, if a galaxy is twice as far, it must be travelling at twice the speed. Speed and distance are directly proportional to each other according to Hubble's law.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tqw4pjx8pkqM73Wx",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_Hq7DJW3Kwm8NNvn2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nDefine the Hubble Constant.",
+     "solution_md": "The Hubble constant is:\n\n- The ratio of the speed at which the galaxy is moving away from the Earth to its distance from the Earth; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_cN8YhFrzMgH3xjR2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState the equation for the Hubble constant and define all the variables.",
+     "solution_md": "State the equation for the Hubble constant and define all the variables\n\nThe Hubble constant equation is:\n\n- $H_{0}=\\frac{v}{d}$ **[1 mark]**\n\nThe variables are defined as:\n\n- *v* is r<u>ecession</u> velocity; **[1 mark]**\n- *d *is distance; **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "H_{0}=\\frac{v}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>v</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals fraction numerator space v over denominator d end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3JG7Tkh4mj38Qp67",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mcWZMNhfX6YnmBZp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState the equation to calculate the age of the Universe.",
+     "solution_md": "The equation to calculate the age of the universe is:\n\n- $\\frac{1}{H_{0}}$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "\\frac{1}{H_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><msub><mi>H</mi><mn>0</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 over H subscript 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Xbk82S5yv7SmBNSR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mcWZMNhfX6YnmBZp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe equation to calculate the age of the universe is:\n\n- 1 / H_0\n\n**Extended tier only**\n\nThe Hubble constant is estimated to be 2.2 × 10<sup>–18</sup> per second.\n\nCalculate the age of the Universe in years.\n\n1 year = 3.15 × 10<sup>7</sup> s",
+     "solution_md": "Calculate the age of the universe in years.\n\nList the known quantities:\n\n- The Hubble constant, *H*<sub>0</sub> = 2.2 × 10<sup>–18</sup> per second\n- 1 year = 3.15 × 10<sup>7</sup> s\n- Age of the universe = $\\frac{1}{H_{0}}$ (from part b)\n\nSubstitute the values into the age of the universe equation:\n\n- $AgeoftheUniverse=\\frac{1}{2.2\\times10^{-18}}$**[1 mark]**\n- $AgeoftheUniverse=4.54\\times10^{17}s$ **[1 mark]**\n\nConvert the age from seconds into years:\n\n- $AgeoftheUniverse=\\frac{4.54\\times10^{17}}{3.15\\times10^{7}}$ **[1 mark]**\n- $AgeoftheUniverse=1.4\\times10^{10}\\mathrm{years}$ **[1 mark]**\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{1}{H_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><msub><mi>H</mi><mn>0</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 over H subscript 0"
+      },
+      {
+       "latex": "AgeoftheUniverse=\\frac{1}{2.2\\times10^{-18}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>g</mi><mi>e</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>t</mi><mi>h</mi><mi>e</mi><mo> </mo><mi>U</mi><mi>n</mi><mi>i</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>s</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A g e space o f space t h e space U n i v e r s e space equals space fraction numerator 1 over denominator 2.2 space cross times space 10 to the power of negative 18 end exponent end fraction space"
+      },
+      {
+       "latex": "AgeoftheUniverse=4.54\\times10^{17}s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>g</mi><mi>e</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>t</mi><mi>h</mi><mi>e</mi><mo> </mo><mi>U</mi><mi>n</mi><mi>i</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>s</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mn>4</mn><mo>.</mo><mn>54</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>17</mn></msup><mo> </mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A g e space o f space t h e space U n i v e r s e space equals space 4.54 space cross times space 10 to the power of 17 space straight s"
+      },
+      {
+       "latex": "AgeoftheUniverse=\\frac{4.54\\times10^{17}}{3.15\\times10^{7}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>g</mi><mi>e</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>t</mi><mi>h</mi><mi>e</mi><mo> </mo><mi>U</mi><mi>n</mi><mi>i</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>s</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>54</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>17</mn></msup><mo> </mo></mrow><mrow><mn>3</mn><mo>.</mo><mn>15</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>7</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A g e space o f space t h e space U n i v e r s e space equals space fraction numerator 4.54 space cross times space 10 to the power of 17 space over denominator 3.15 space cross times space 10 to the power of 7 end fraction"
+      },
+      {
+       "latex": "AgeoftheUniverse=1.4\\times10^{10}\\mathrm{years}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>g</mi><mi>e</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>t</mi><mi>h</mi><mi>e</mi><mo> </mo><mi>U</mi><mi>n</mi><mi>i</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>s</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>4</mn><mo> </mo><mo>×</mo><msup><mn>10</mn><mn>10</mn></msup><mo> </mo><mi>years</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A g e space o f space t h e space U n i v e r s e space equals space 1.4 space cross times 10 to the power of 10 space years"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TDXDMGMb3FP5K5ny",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_BVZc8QqfcTyZbw57",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "list",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zzp5hP8WvybXB3yT"
+     ],
+     "part_tier": null,
+     "problem_md": "Starting with the largest, list the following in order of decreasing size\n\n| **Galaxy         Sun        Universe        Jupiter** |\n|---|",
+     "solution_md": "Starting with the largest, the list in increasing size is:\n\n- Universe, Galaxy, Sun, Jupiter; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_P4thKYRmkHM2KVWw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CpDsgG4bQ4DMpRsM"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState the stages in the life cycle of a star the size of the Sun after it is no longer a stable star in the gaps below.\n\nStable star → ................................... → ...................................",
+     "solution_md": "The stages in the life cycle of a star the size of the Sun after the stable stage are:\n\n- Stable star → **red giant**** ****[1 mark]**** **→ **white dwarf**** **[1 mark]\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_qn75MtW6nXfWgvxd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hkrDXrtNvcQ3zcCX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState the stages in the life cycle of a star much more massive than the Sun after it is no longer a stable star in the gaps below.\n\nStable star → ................................... → ................................... → ................................... or ...................................",
+     "solution_md": "The stages in the life cycle of a star much more massive than the Sun after the stable stage are:\n\n- Stable star → **red supergiant** **[1 mark] → ****supernova ****[1 mark] **→ **neutron star ****[1 mark]**** **or **black hole**** ****[1 mark]**\n\n**[Total: 4 marks]**\n\n> *'black hole' and 'neutron star' can be placed either way around in the gap fill to get full marks.*\n\n> *Remember to state that this star will become a red **super**giant, which is what explodes into a supernova. A red giant forms from a low mass star.*"
+    },
+    {
+     "id": "qstnprt_rnT9Hm8w27Vnxhtx",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hkrDXrtNvcQ3zcCX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nExplain what may form in nebulae created by a supernova.",
+     "solution_md": "In the nebulae created by a supernova, there may be the formation of:\n\n- New stars; **[1 mark]**\n- With orbiting planets; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sGMDSC2Kct4mrFD2",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_t4kkm23Qsqg7pyQn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nEdwin Hubble was an American scientist who studied galactic recession.\n\nDefine the Hubble constant, *H*<sub>*0*</sub>.",
+     "solution_md": "Define the Hubble constant, *H*<sub>*0*</sub>:\n\nThe Hubble constant is:\n\n- The ratio of the speed at which a galaxy is moving away from from Earth to its distance from the Earth; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *The Hubble constant can also be written as *$H_{0}=\\frac{v}{d}$*. It is fine to use this equation in your answer, but you must also define what it means!*",
+     "equations": [
+      {
+       "latex": "H_{0}=\\frac{v}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi >H</mi><mn >0</mn></msub><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mi>v</mi><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space v over d"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3rdkSvMP9h2Pdh4G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState the current value of the Hubble constant.",
+     "solution_md": "State the current value of the Hubble constant and give the unit:\n\n- $H_{0}=2.2\\times10^{-18}$**[1 mark]**\n- per second **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *You could also have stated the units as /s or s*<sup>*−1*</sup>* and you would still be awarded the mark.*",
+     "equations": [
+      {
+       "latex": "H_{0}=2.2\\times10^{-18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space 2.2 cross times 10 to the power of negative 18 end exponent space"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_54Nrxw5Vp3DGpZ6f",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mcWZMNhfX6YnmBZp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe Triangulum galaxy is approximately 2.7 million light years from Earth.\nHubble constant, H_0 = 2.2 × 10^−18 /s\n1 light year = 9.5 × 10^12 km\n\n**Extended tier only**\n\nThe Triangulum galaxy is the Milky Way's second closest galactic neighbour. The Triangulum galaxy is approximately 2.7 million light years from Earth.\n\nCalculate the speed with which the Triangulum galaxy is receding from Earth. You should give your answer in km/s.\n\n............................................................... km/s",
+     "solution_md": "Calculate the speed with which the Triangulum galaxy is receding from Earth:\n\nList the known quantities:\n\n- Distance from Earth, *d* = 2.7 million ly\n- Hubble constant, *H*<sub>0</sub> = 2.2 × 10<sup>−18</sup>/s\n\nRecall the equation for Hubble's law:\n\n- $v=H_{0}d$\n\nConvert* d* into scientific notation:\n\n- 2.7 million ly = 2.7 × 10<sup>6</sup> ly\n\nSubstitute in the known values to calculate the recession speed:\n\n- $v = ( 2.2 \\times 10^{- 18} ) \\times ( 2.7 \\times 10^{6} )$ **[1 mark]**\n- $v=5.94\\times10^{-12}\\mathrm{ly}/s$ **[1 mark]**\n\nConvert the units into km/s:\n\n- $1\\mathrm{ly}=9.5\\times10^{12}\\mathrm{km}$ **[1 mark]**\n- $v = ( 5.94 \\times 10^{- 12} ) \\times ( 9.5 \\times 10^{12} )$\n- *v* = 56.4 km/s **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *You may have recalled Hubble's Law in a different form such as *$H_{0}=\\frac{v}{d}$* or *$\\frac{d}{v}=\\frac{1}{H_{0}}$*. This is fine, but you would need to rearrange the equation to make **v **the subject. *\n\n> *The two rules you need to remember when rearranging equations are:*\n\n1. * To undo an operation, do the opposite operation (to cancel a multiplication relationship, you need to divide, to cancel a minus you need to add etc)*\n2. *Whatever you do to an equation, you need to do it to both sides*\n\n> *To rearrange *$H_{0}=\\frac{v}{d}$* to make **v** the subject:*\n\n![file-000---2022-11-02t151539-089](assets/003-file-000-2022-11-02t151539-089.png)\n\n> *To rearrange *$\\frac{d}{v}=\\frac{1}{H_{0}}$* to make **v** the subject:*\n\n![file-000---2022-11-02t151541-167](assets/004-file-000-2022-11-02t151541-167.png)",
+     "equations": [
+      {
+       "latex": "v=H_{0}d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>H</mi><mn>0</mn></msub><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space H subscript 0 d"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space open parentheses 2.2 cross times 10 to the power of negative 18 end exponent close parentheses space cross times space open parentheses 2.7 cross times 10 to the power of 6 close parentheses",
+       "render": "$v = ( 2.2 \\times 10^{- 18} ) \\times ( 2.7 \\times 10^{6} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "v=5.94\\times10^{-12}\\mathrm{ly}/s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>94</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup><mo>&#160;</mo><mi>ly</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space 5.94 cross times 10 to the power of negative 12 end exponent space ly divided by straight s"
+      },
+      {
+       "latex": "1\\mathrm{ly}=9.5\\times10^{12}\\mathrm{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo> </mo><mi>ly</mi><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn><mo>.</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mn>12</mn></msup><mo> </mo><mi>km</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 space ly space equals space 9.5 cross times 10 to the power of 12 space km"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space open parentheses 5.94 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space open parentheses 9.5 cross times 10 to the power of 12 close parentheses space",
+       "render": "$v = ( 5.94 \\times 10^{- 12} ) \\times ( 9.5 \\times 10^{12} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "H_{0}=\\frac{v}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi >H</mi><mn >0</mn></msub><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mi>v</mi><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space v over d"
+      },
+      {
+       "latex": "\\frac{d}{v}=\\frac{1}{H_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac ><mi>d</mi><mi>v</mi></mfrac><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mn>1</mn><msub><mi>H</mi><mn>0</mn></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d over v space equals space 1 over H subscript 0"
+      },
+      {
+       "latex": "H_{0}=\\frac{v}{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi >H</mi><mn >0</mn></msub><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mi>v</mi><mi>d</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space v over d"
+      },
+      {
+       "latex": "\\frac{d}{v}=\\frac{1}{H_{0}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac ><mi>d</mi><mi>v</mi></mfrac><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mn>1</mn><msub><mi>H</mi><mn>0</mn></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d over v space equals space 1 over H subscript 0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mfJKpcqyMgWjk2DS",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tgWBQQR7GrwpQcCF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NkKXGkHPhsxQWpmV"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the term *galactic redshift*.",
+     "solution_md": "Explain the term *galactic redshift*:\n\n- An<u> increase</u> in the observed <u>wavelength</u> of <u>light</u> emitted from <u>distant galaxies</u>; **[1 mark]**\n- When <u>compared</u> to the wavelength of similar light <u>on Earth</u>;** [1 mark]**\n- Galactic redshift is evidence that the Universe is <u>expanding</u>; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_nGqpw9gJ89WRWRBR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZBVqB5rYZT34SKCH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn increase in the observed wavelength of light emitted from distant galaxies; When compared to the wavelength of similar light on Earth; Galactic redshift is evidence that the Universe is expanding;\n\nExplain why galactic redshift is considered as evidence supporting the Big Bang theory.",
+     "solution_md": "Explain why galactic redshift is considered as evidence supporting the Big Bang theory:\n\n- If the Universe is expanding, then it must have been closer together in the past; **[1 mark]**\n- The expansion of the Universe can be extrapolated back to its point of origin (known as the Big Bang); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *If the Universe is expanding at a measurable rate, then it makes sense that if we were able to rewind this expansion we would find a point in time where the Universe existed at a single point in time and space (called a singularity). This is the point at which the Big Bang is thought to have occurred. By doing this, scientists have been able to estimate the age of the Universe to be about 13.7 billion years old.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kgZkB23xjHYMWjn5",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_5MBTM5nHK8VhSChQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZBVqB5rYZT34SKCH"
+     ],
+     "part_tier": null,
+     "problem_md": "The ‘big bang’ theory is one theory explaining the origin of the Universe.\n\n![6-2-4a-h-size-of-universe-time-graph](assets/005-6-2-4a-h-size-of-universe-time-graph.png)\n\n**Fig 1.1**\n\n(i) Sketch the graph of the size of the Universe with time on Fig 1.1.\n\n[2]\n\n(ii) Explain how your graph in part (i) supports the Big Bang Theory.\n\n[2]",
+     "solution_md": "(i) Sketch the graph of the size of the Universe with time on Fig 1.1\n\nA graph that would score 2 marks should look like:\n\n![img-e027c022f47c-1](assets/006-img-e027c022f47c-1.jpeg)\n\n- A diagonal straight line with positive gradient; **[1 mark]**\n- Through the origin (start of time); **[1 mark]**\n\n(ii) The graph supports the Big Bang Theory because:\n\n- The universe is expanding / the size of the universe increases constantly with time; **[1 mark]**\n- From a very small (dense) point; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_5pV5nzYyZZCHKXqg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wC7p4ys4c9kw2gjn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\n(i) Describe and explain the main properties of CMBR.\n\n[2]\n\n(ii) Explain how CMBR provides evidence for the evolution of the Universe.\n\n[3]",
+     "solution_md": "(i) The main properties of the CMBR are:\n\n**Any two from:**\n\n- The CMBR has the same <u>intensity</u> / frequency in all directions / everywhere; **[1 mark]**\n- Temperature corresponds to 2.7K / 3K **[1 mark]**\n- There is a structure in background intensity / ripples; **[1 mark]**\n\n(ii) CMBR provides evidence for the evolution of the Universe as:\n\n- (CMBR) was originally gamma radiation / the radiation was at the gamma end of the (electromagnetic) spectrum; **[1 mark]**\n- (Gamma) red-shifted to the microwave (end of the spectrum); **[1 mark]**\n- This is evidence that the universe began with the Big Bang; **[1 mark]**\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_h4XdY73yxJgmvVCh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mcWZMNhfX6YnmBZp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nSuggest why our understanding of the very earliest moments of the Universe is unreliable.",
+     "solution_md": "Our understanding of the very earliest moments of the Universe is unreliable because:\n\n**Any two from:**\n\n- No experimental evidence / no physical evidence; **[1 mark]**\n- State of matter / laws of physics unknown; **[1 mark]**\n- The temperatures / energies are too high to reproduce (and experiment); **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jttzJyVRzkj9xg5y",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_h4kBPdmcJWDDMksz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "rearrange",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CpDsgG4bQ4DMpRsM"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nRearrange the stages of the life cycle of a star into the correct order.\n\n| **1** | white dwarf |\n|---|---|\n| **2** | planetary nebula |\n| **3** | protostar |\n| **4** | stable star |\n| **5** | interstellar clouds of gas and dust (stellar nebula) |\n| **6** | red giant |",
+     "solution_md": "The correct order for the life cycle of a star is:\n\n| **1** | interstellar clouds of gas and dust (stellar nebula) | **[1 mark]** |\n|---|---|---|\n| **2** | protostar | **[1 mark]** |\n| **3** | stable star | **[1 mark]** |\n| **4** | red giant | **[1 mark]** |\n| **5** | planetary nebula | **[1 mark]** |\n| **6** | white dwarf | **[1 mark]** |\n\n**[Total: 6 marks]**"
+    },
+    {
+     "id": "qstnprt_9Bv4Pmb9HSQdwbPM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TkVXWQTgtmHxPS27"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nA star can be in its stable phase for billions of years.\n\nFig. 1.1 shows the forces acting on the Sun during this stable stage of its life cycle.\n\n![6-2-5b-e-main-sequence-star-forces](assets/007-6-2-5b-e-main-sequence-star-forces.png)\n\n(i) State the name of the force pulling inwards.\n\n[1]\n\n(ii) Explain what causes the force pushing outwards.\n\n[1]",
+     "solution_md": "(i) The name of the force pulling inwards is:\n\n- Gravity / gravitational attraction; **[1 mark]**\n- \n\n(ii) The force pushing outwards is caused by:\n\n- Nuclear <u>fusion</u> (reactions) in the <u>core</u>; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_Vq3QbZCkQbQD6kGm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hkrDXrtNvcQ3zcCX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nTwo stars, Alpha Centauri B and Betelgeuse are 0.9 and 16.5 solar masses respectively.\n\nState which star could eventually become a neutron star. Explain your reasoning.\n\n1 solar mass = mass of the Sun",
+     "solution_md": "The star that will go through the supernova stage is:\n\n- Betelgeuse; **[1 mark]**\n- Because it is much larger / bigger / more massive than the Sun **OR **it has a bigger solar mass;** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *Neutron stars are the final stage of a high-mass star, i.e. stars that are around 1.44 times the mass of our Sun. Remember, this is also after the red supergiant and supernova stage.*\n\n> *Remember that 'Sun' refers to the Sun in **our** solar system. There are many billions of stars in our galaxy and other galaxies.*\n\n> *Alpha Centauri B is roughly 1 solar mass, which means it will go through the same life cycle as our Sun after being in its stable star phase (red giant, then white dwarf).*"
+    },
+    {
+     "id": "qstnprt_bnMHxCCskp8dd5rP",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hkrDXrtNvcQ3zcCX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState what is meant by a *supernova*.",
+     "solution_md": "A *supernova* is:\n\n- The <u>explosion</u> of a <u>large</u> / massive star; **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_H9rFm9fjgWYXSj56",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_rbG66SmCbMxtTb3n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_24Dc4XFXqrNdNt9t"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nDescribe *nuclear fusion *in stars.",
+     "solution_md": "Nuclear fusion is:\n\n- The joining / fusing of <u>hydrogen</u> nuclei to form a <u>helium</u> nucleus (in the core of a star);** [1 mark]**\n- Releasing <u>energy</u> (in the process); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *An atom includes both the nucleus **and** the electrons around it.*\n\n> *Therefore, you must be careful not to write 'atoms' or 'molecules' instead of **nuclei**, as electrons are **not** a part of the fusion process. *"
+    },
+    {
+     "id": "qstnprt_TPqn9tzj66zG3vBD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Q7bWTdn9ycPfzzpk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nThe speed of electromagnetic radiation in a vacuum is 3.0 × 10<sup>8</sup> m/s\n\nShow that one light-year is equal to 9.5 × 10<sup>15</sup> m.",
+     "solution_md": "List the known quantities:\n\n- Speed of light, *c* = 3.0 × 10<sup>8</sup> m/s\n- Time,* t* = 1 year\n\nCalculate the time for 1 year in seconds:\n\n- *t* = 1 year = 365 × 24 × 60 × 60 = 3.1536 × 10<sup>7</sup> s\n- *t* = 3.1536 × 10<sup>7</sup> s **[1 mark] **\n\nState the equation linking speed, distance, and time:\n\n- $v=\\frac{s}{t}$ **[1 mark]**\n\nRearrange the equation for distance and calculate:\n\n- $s=vt$\n- $s = 1 \\text{light} \\text{year} = ( 3.0 \\times 10^{8} ) \\times ( 3.1536 \\times 10^{7} )$ **[1 mark]**\n- $s=9.46\\times10^{15}=9.5\\times10^{15}m$\n\n**[Total: 3 marks]**\n\n> *1 light year is defined as the distance travelled in space by light in one year.*\n\n> *If the speed of light is given in m/s, this means to get the distance in m, we need the time to be in s. The time we are given in 1 year, but this needs to be converted.*",
+     "equations": [
+      {
+       "latex": "v=\\frac{s}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>s</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals fraction numerator space s over denominator t end fraction"
+      },
+      {
+       "latex": "s=vt",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>v</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s space equals space v t"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "s space equals space 1 space light space year space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses space cross times space open parentheses 3.1536 cross times 10 to the power of 7 close parentheses",
+       "render": "$s = 1 \\text{light} \\text{year} = ( 3.0 \\times 10^{8} ) \\times ( 3.1536 \\times 10^{7} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "s=9.46\\times10^{15}=9.5\\times10^{15}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>46</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>15</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "s space equals space 9.46 cross times 10 to the power of 15 space equals space 9.5 cross times 10 to the power of 15 space straight m"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BBkg2pPX5HfpF5Xk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Q7bWTdn9ycPfzzpk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDiameter of the Milky Way, d = 100 000 light years\n1 year = 3.1536 × 10^7 s (from part b)\n\n**Extended tier only**\n\nThe Milky Way is approximately 100 000 light years in diameter.\n\nCalculate the time it would take a spacecraft travelling at the speed of light to travel from one side of the Milky Way to the other.\n\ntime = ......................................... s",
+     "solution_md": "Calculate the time it would take a spacecraft travelling at the speed of light to travel from one side of the Milky Way to the other\n\nList the known quantities:\n\n- Diameter of the Milky Way, *d* = 100 000 light years\n- 1 year = 3.1536 × 10<sup>7</sup> s (from part b)\n\nDetermine the number of years it would take the spacecraft to travel:\n\n- 100 000 light years means it would take light 100 000 years to travel from one end of the other\n\nConvert 100 000 years into seconds:\n\n- 1 year = 3.1536 × 10<sup>7</sup> s\n- 100 000 years = 100 000 × (3.1536 × 10<sup>7</sup>) = 3.1536 × 10<sup>12</sup> s **[1 mark]**\n\nState your answer to an appropriate number of significant figures:\n\n- time = 3.2 × 10<sup>12</sup> s **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This question looks a lot more complicated than it is. It really tests the meaning of 'light years'.*\n\n> *Although we are used to the unit 'years' being a unit of time, in cosmology, light years is as a unit of **distance**.*"
+    },
+    {
+     "id": "qstnprt_KBcqVkB48wCd3b6V",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zzp5hP8WvybXB3yT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe Milky Way is approximately 100 000 light years in diameter.\n\nBelow are some statements related to Cosmology.\n\n1. Galaxies are made of up millions of stars\n2. The Sun is a planet because it has a core\n3. Other stars that make up the Milky Way are much further away from the Earth than the Sun is from the Earth\n4. There may be other galaxies in the Milky Way\n\nState all of the statements that are false and explain why.",
+     "solution_md": "The statements that are false are:\n\n- 1, 2 and 4 **[1 mark]**\n\nBecause:\n\n- Galaxies are made up of <u>billions</u> of stars; **[1 mark]**\n- The Sun is a star (not a planet); **[1 mark]**\n- There are no other galaxies in the Milky Way; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *These are some common misconceptions in Cosmology. *\n\n> *Our Sun is part of our Solar System, which only contains the Sun, the 8 planets, dwarf planets and many meteoroids and asteroids. This is inside the Milky Way galaxy, which is made up of billions of stars, each with its own solar system. *\n\n> *Just because the Sun has a core doesn't mean it is a planet. Planets also have cores, but they both have very different environments (with the Sun's being much hotter).*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fT2SByy8TyrtZwxd",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_FMb3vthBQK8q5BZK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023",
+      "number": "0972/04",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_TkVXWQTgtmHxPS27"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nDescribe and explain how a stable star is formed.",
+     "solution_md": "Describe and explain how a stable star is formed:\n\n- Hydrogen gas in a stellar cloud / nebula is pulled together by gravitational forces;** [1 mark]**\n- The temperature of the hydrogen increases **AND** a protostar is formed; **[1 mark]**\n- Nuclear fusion begins creating outward forces which balance the inward force of gravity; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_5t3zjCJxSQ4x3ccd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023",
+      "number": "0972/04",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wC7p4ys4c9kw2gjn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nDescribe and explain what can be deduced from cosmic microwave background radiation (CMBR).",
+     "solution_md": "Describe and explain what can be deduced from cosmic microwave background radiation (CMBR):\n\n**Any three from:**\n\n- Microwave radiation is observed at all points in space around the whole Earth; **[1 mark]**\n- This radiation was produced when the Universe was formed; **[1 mark]**\n- The wavelength of the radiation has expanded into the microwave region of the electromagnetic spectrum; **[1 mark]**\n- This is evidence that the Universe has expanded; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Initially, the CMBR would have been high energy radiation, towards the gamma end of the spectrum. As the Universe expanded, the wavelength of the radiation increased.*\n\n> *Over time, it has increased so much that it is now in the microwave region of the spectrum.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cgGHmrDw6xBYw4nW",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_qs5YvHWymPYntRTn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hkrDXrtNvcQ3zcCX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nSome stable stars become black holes.\n\nDescribe the evolution of a stable star to the point at which it becomes a black hole.",
+     "solution_md": "Describe the evolution of a stable star to the point at which it becomes a black hole:\n\nAny **four** from:\n\n- The stable star runs out of hydrogen as fuel for nuclear fusion / reactions (to continue); **[1 mark]**\n- High mass stars expand to become red supergiants; **[1 mark]**\n- The red supergiant will explode as a supernova; **[1 mark]**\n- Forming a nebula containing hydrogen and heavier elements; **[1 mark]**\n- Leaving behind a black hole at its centre; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Questions like this are fairly common, and very similar in structure. It is worth learning the points given here by heart, so that you can reproduce a very similar answer in the exam.*"
+    },
+    {
+     "id": "qstnprt_ZqNFMB3MBFgXYRst",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CpDsgG4bQ4DMpRsM"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nState and explain whether the Sun will eventually become a black hole.",
+     "solution_md": "State and explain whether the Sun will eventually become a black hole:\n\n- No, the Sun will not become a black hole; **[1 mark]**\n- Because the Sun is not massive enough; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The Sun is a medium-sized star. Low mass stars, like the Sun, will become a red giant, and eventually go on to become a planetary nebula with a white dwarf in the centre.*\n\n> *Only high mass stars become red supergiants, explode as a supernova and then go on to become either a neutron star or a black hole.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8PdcXvSXwgrMHdnt",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_B7zmQtTmvWHdJ6n5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "State the approximate diameter of the Milky Way in light years.",
+     "solution_md": "The approximate diameter of the Milky Way in light years is:\n\n- 100 000 **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_mCCZCtzhRnMSXs9G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_24Dc4XFXqrNdNt9t"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nNuclear fusion occurs in the core of a stable star.\n\nComplete the sentence explaining nuclear fusion.\n\nNuclear reactions in the core of a star involve the fusion of ........................... into ...........................",
+     "solution_md": "The complete sentence is:\n\n- Nuclear reactions in the core of a star involve the fusion of **hydrogen**** ****[1 mark]**** **into **helium**** ****[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_BqJXyc7tN8dZr7tz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NkKXGkHPhsxQWpmV"
+     ],
+     "part_tier": null,
+     "problem_md": "The Virgo A galaxy and Messier 90 galaxy are 6.2 × 10<sup>20 </sup>km and 5.5 × 10<sup>20</sup> km from Earth respectively. They are both moving away from Earth.\n\nState and explain which galaxy is moving faster away from Earth.",
+     "solution_md": "The galaxy which moving faster away from Earth is:\n\n- Virgo A; **[1 mark]**\n- Because the further away a galaxy is, the faster its recession velocity **OR **the bigger the doppler shift; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_2bxSgFZyvVwkdk2y",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dgBtNyMy3Qn7fvjJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nExplain how the distance of a far galaxy can be determined.",
+     "solution_md": "The distance of a far galaxy can be determined by:\n\n- The (peak) <u>brightness</u> of a <u>supernova</u> / <u>supernovae</u>; **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_86SQrrYspq7kt2m3",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_zYnNbkvnqYyG4wMT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hkrDXrtNvcQ3zcCX",
+      "spcpt_24Dc4XFXqrNdNt9t"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nNuclear fusion reactions in the Sun fuse hydrogen to make helium.\n\nIn the Solar System, the inner planets, such as the Earth, contain elements which are heavier than the elements hydrogen and helium.\n\nExplain how this can be the case.",
+     "solution_md": "The inner planets contain elements which are heavier than the elements hydrogen and helium because:\n\n- The heavier elements were formed by (nuclear) <u>fusion</u>; **[1 mark]**\n- At very <u>high temperatures</u> in a supernova / (super)red giant / when stars explode; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This evidence means that our Solar System must have been produced after a previous star had exploded.*"
+    },
+    {
+     "id": "qstnprt_bhT7YGvycDp3P2KT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj",
+      "spcpt_NkKXGkHPhsxQWpmV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nNuclear fusion reactions in the Sun fuse hydrogen to make helium.\n\nIn the Solar System, the inner planets, such as the Earth, contain elements which are heavier than the elements hydrogen and helium.\n\n**Extended tier only**\n\nFrom the data collected, a graph can be drawn that links the speed of a galaxy with the distance of the galaxy from the Earth. This graph is shown in Fig. 1.1.\n\n![6-2-5b-h-hubbles-law-graph-p-and-q](assets/008-6-2-5b-h-hubbles-law-graph-p-and-q.png)\n\n**Fig 1.1**\n\nDescribe how the visible light spectrum from galaxy Q looks different from the visible light spectrum from galaxy P.",
+     "solution_md": "The visible light spectrum from galaxy Q looks different from the visible light spectrum from galaxy P by:\n\n- The line shifts (more) towards the red end of the spectrum; **[1 mark]**\n- Because its <u>wavelength</u> increases; **[1 mark]**\n- Since galaxy Q is moving away faster (from Earth) than galaxy P; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Make sure not to just state 'redshift' as a standard response. It is better to **describe** redshift. In this case, the lines from the spectrum are shifted towards the **red** end.*\n\n> *Avoid saying 'because the Universe is expanding' - you must be specific about the movement of the **galaxies** in this question.*"
+    },
+    {
+     "id": "qstnprt_V5hZTQmtswN7VYfT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFrom the data collected, a graph can be drawn that links the speed of a galaxy with the distance of the galaxy from the Earth. This graph is shown in Fig. 1.1.\n\n**Fig 1.1**\n\n[Graph: Speed in km/s vs Distance in millions of light years (1 light year = 10 million, million km)]\n\nA third galaxy, R, seems to be travelling away from the Earth at about 110 000 km/s.\n\n**Extended tier only**\n\nA third galaxy, R, seems to be travelling away from the Earth at about 110 000 km/s.\n\nEstimate how far galaxy R might be from the Earth, showing how you use the graph in Fig. 1.1 to do this.",
+     "solution_md": "Estimate how far galaxy R might be from the Earth, showing how you use the graph to do this\n\nExtrapolate the line:\n\n![img-fa04355a8907-1](assets/009-img-fa04355a8907-1.jpeg)\n\n- Line linking P and Q extrapolated to the end of the graph; **[1 mark]**\n\nRead the distance from the graph:\n\n- 3300 **[1 mark]**\n\nState the distance with the appropriate units:\n\n- 3300 <u>million light years</u> **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *When you have to read values from a graph, make sure to use a ruler and a pencil where possible to annotate it. This will help read the numbers more accurately from the scale.*\n\n> *Always check the units on the axes and always write your answer **with** units.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_65ybgKHtMnjpCFvn",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_M5WRNpTdySSyhvww",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wC7p4ys4c9kw2gjn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended tier only**\n\nExplain what type of radiation the CMBR will eventually change into over the next billion years.",
+     "solution_md": "The wavelength of the CMBR is likely to:\n\n- (Become) radio waves; **[1 mark]**\n- Since the Universe continues to accelerate outwards / expands; **[1 mark]**\n- So there is a greater red-shift / the wavelength increases; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You must think back to the electromagnetic spectrum for this question. The only radiation with a wavelength greater than microwaves (which the CMBR is currently at) is **radio** waves). We know the wavelength of the radiation will expand as the Universe itself is always expanding.*"
+    },
+    {
+     "id": "qstnprt_YhcMYWyCxMwP9yY9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wC7p4ys4c9kw2gjn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nScientists measure the wavelength of the radio waves from galaxy A travelling at 260 km/hr away from Earth to be 63.2 m. Sometime later, the wavelength is measured to be 63.4 m. The wavelength of the radio waves from galaxy B is initially measured to be 63.4 m and at the same time later, measured to be 63.8 m. Recession velocity of galaxy A = 260 km/hr.\n\n**Extended tier only**\n\nScientists measure the wavelength of the radio waves from galaxy A travelling at 260 km/hr away from Earth to be 63.2 m. Sometime later, the wavelength is measured to be 63.4 m.\n\nThe wavelength of the radio waves from galaxy B is initially measured to be 63.4 m and at the same time later, measured to be 63.8 m.\n\nCalculate the velocity of galaxy B.\n\nvelocity of galaxy B  = ...................................... m/s",
+     "solution_md": "Calculate the distance of galaxy B in light years\n\n- Initial wavelength of galaxy A = 63.2 m\n- Final wavelength of galaxy A = 63.4 m\n- Initial wavelength of galaxy B = 63.4 m\n- Final wavelength of galaxy B = 63.8 m\n- Recession velocity of galaxy A = 260 km/hr\n\nCalculate the change in wavelength (red-shift) of both galaxies A and B:\n\n- $\\Deltaλ_{A}=63.4-63.2=0.2m$\n\n**AND**\n\n- $\\Deltaλ_{B}=63.8-63.4=0.4m$ **[1 mark]**\n\nCalculate the velocity of galaxy B:\n\n- The change in wavelength of galaxy B is double that of galaxy A, therefore the velocity is also doubled\n- velocity of galaxy B = $260\\times2=520\\mathrm{km}/\\mathrm{hr}$ **[1 mark]**\n\nConvert the velocity into m/s:\n\n- 1 km = 1000 m = 1 × 10<sup>3</sup> m\n- 1 hour = 60 × 60 = 3600 s\n- $520\\mathrm{km}/\\mathrm{hr}=\\frac{520\\times10^{3}}{3600}$**[1 mark]**\n- velocity of galaxy B = 144 m/s **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The answer line for the question states that the velocity must be in m/s, so this **must** be converted from km/hr.*\n\n> *The change in wavelength is equal to the amount of **redshift**. From Hubble's law, the velocity and the amount of redshift are **directly proportional**. This is because the greater the redshift, the further away an object is. *",
+     "equations": [
+      {
+       "latex": "\\Deltaλ_{A}=63.4-63.2=0.2m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><msub><mi>λ</mi><mi mathvariant=\"normal\">A</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>4</mn><mo> </mo><mo>-</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>2</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment lambda subscript straight A space equals space 63.4 space minus space 63.2 space equals space 0.2 space straight m"
+      },
+      {
+       "latex": "\\Deltaλ_{B}=63.8-63.4=0.4m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><msub><mi>λ</mi><mi mathvariant=\"normal\">B</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>8</mn><mo> </mo><mo>-</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>4</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>4</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment lambda subscript straight B space equals space 63.8 space minus space 63.4 space equals space 0.4 space straight m"
+      },
+      {
+       "latex": "260\\times2=520\\mathrm{km}/\\mathrm{hr}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>260</mn><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>520</mn><mo> </mo><mi>km</mi><mo>/</mo><mi>hr</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "260 space cross times space 2 space equals space 520 space km divided by hr"
+      },
+      {
+       "latex": "520\\mathrm{km}/\\mathrm{hr}=\\frac{520\\times10^{3}}{3600}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>520</mn><mo> </mo><mi>km</mi><mo>/</mo><mi>hr</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>520</mn><mo> </mo><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup><mo> </mo></mrow><mn>3600</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "520 space km divided by hr space equals space fraction numerator 520 space cross times 10 cubed space over denominator 3600 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_djWhZxDZVkHm69hp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe graph in Fig 1.1 was used to calculate the most up-to-date value of the Hubble constant, H_0. Megaparsecs are a unit for large distances commonly used in Astronomy and Cosmology. 1 megaparsec = 3.1 × 10^22 m. Calculate H_0 in km/s megaparsec.\n\nState how to calculate H_0 from the graph:\n- H_0 / the Hubble constant is the gradient of the graph; [1 mark]\n\nCalculate H_0:\n- H_0 = gradient = Δv / Δdistance from Earth = 64,000 / 960 [1 mark]\n- H_0 = 66.67 ≈ 67 km/s megaparsec [1 mark]\n\nOn the y axis, there are 10 small squares that equal 20,000. This means each small square is worth 2,000 km/s. The scale for the x axis is slightly different, 10 small squares equals 400 megaparsecs.\n\n**Extended tier only**\n\nBy measuring the redshift of galaxies, Hubble was able to calculate the speed at which they move away from the Earth. Hubble was also able to calculate the distance of these galaxies from the Earth.\n\nThe graph in Fig 1.1 shows some of the data calculated by Hubble.\n\n![6-2-3c-h-hubbles-law-graph](assets/010-6-2-3c-h-hubbles-law-graph.png)\n\n**Fig 1.1**\n\nThe graph in Fig 1.1 was used to calculate the most up-to-date value of the Hubble constant, *H*<sub>0</sub>.\n\nMegaparsecs are a unit for large distances commonly used in Astronomy and Cosmology. 1 megaparsec = 3.1 × 10<sup>22</sup> m.\n\nCalculate *H*<sub>0</sub> in km/s megaparsec.",
+     "solution_md": "Calculate *H*<sub>0</sub> in km / s megaparsec.\n\nState how to calculate *H*<sub>0</sub> from the graph:\n\n- *H*<sub>0</sub> / the Hubble constant is the **gradient** of the graph; **[1 mark]**\n\nCalculate *H*<sub>0</sub>:\n\n![img-d801ef065e19-1](assets/011-img-d801ef065e19-1.jpeg)\n\n- $H_{0}=gradient=\\frac{\\Deltav}{\\DeltadistancefromEarth}=\\frac{64000}{960}$**[1 mark]**\n- $H_{0}=66.67=67\\mathrm{km}/s\\mathrm{megaparsec}$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You should be confident in calculating the gradient from any graph - making sure you use points on the line of best fit where possible and reading the values from the axes scales properly.*\n\n> *On the **y** axis, there are 10 small squares that equal 20 000. This means each small square is worth *$\\frac{20000}{10}=2000$* km/s. The scale for the **x** axis is slightly different, 10 small squares equals 400 megaparsecs.*",
+     "equations": [
+      {
+       "latex": "H_{0}=gradient=\\frac{\\Deltav}{\\DeltadistancefromEarth}=\\frac{64000}{960}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mi>g</mi><mi>r</mi><mi>a</mi><mi>d</mi><mi>i</mi><mi>e</mi><mi>n</mi><mi>t</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>v</mi><mo> </mo></mrow><mrow><mo>∆</mo><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi><mo> </mo><mi>f</mi><mi>r</mi><mi>o</mi><mi>m</mi><mo> </mo><mi>E</mi><mi>a</mi><mi>r</mi><mi>t</mi><mi>h</mi></mrow></mfrac><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mn>64</mn><mo> </mo><mn>000</mn></mrow><mn>960</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space g r a d i e n t space equals space fraction numerator increment v space over denominator increment d i s t a n c e space f r o m space E a r t h end fraction space equals fraction numerator space 64 space 000 over denominator 960 end fraction"
+      },
+      {
+       "latex": "H_{0}=66.67=67\\mathrm{km}/s\\mathrm{megaparsec}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>66</mn><mo>.</mo><mn>67</mn><mo> </mo><mo>=</mo><mo> </mo><mn>67</mn><mo> </mo><mi>km</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi><mo> </mo><mi>megaparsec</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space 66.67 space equals space 67 space km divided by straight s space megaparsec"
+      },
+      {
+       "latex": "\\frac{20000}{10}=2000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac ><mrow><mn>20</mn><mo> </mo><mn>000</mn></mrow><mn>10</mn></mfrac><mo >=</mo><mo > </mo><mn >2000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 20 space 000 over denominator 10 end fraction equals space 2000"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pMJ4dPhrXY3Tf7wp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XMnXBktB2pHkpdNj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe graph in Fig 1.1 was used to calculate the most up-to-date value of the Hubble constant, *H*~0~.  Megaparsecs are a unit for large distances commonly used in Astronomy and Cosmology. 1 megaparsec = 3.1 × 10^22^ m.\n\nCalculate *H*~0~ in km/s megaparsec.\n\n*H*~0~ / the Hubble constant is the **gradient** of the graph; \n*H*~0~ = gradient = (Δv)/(Δdistance from Earth) = 64000/960 = 66.67 = 67 km/s megaparsec\n\n**Extended tier only**\n\nShow that *H*<sub>0</sub> is roughly equal to 2.0 × 10<sup>–18</sup> per second.",
+     "solution_md": "Show that *H*<sub>0</sub> is roughly equal to 2.0 × 10<sup>–18</sup> per second\n\nList the known quantities:\n\n- 1 megaparsec = 3.1 × 10<sup>22</sup> m\n- *H*<sub>0</sub> = 66.67 km/s megaparsec (from part c)\n\nConvert *H*<sub>0</sub> from 66.67 km to m:\n\n- 1 km = 1000 m = 1 × 10<sup>3</sup> m\n- 66.67 km = 66.67 × 10<sup>3</sup> m **[1 mark]**\n\nConvert *H*<sub>0</sub> from per megaparsec to per m:\n\n- *H*<sub>0 </sub>= 66.67 × 10<sup>3</sup> m/s megaparsec\n- $H_{0}=\\frac{66.67\\times10^{3}}{3.1\\times10^{22}}$ **[1 mark]**\n- $H_{0}=2.15\\times10^{-18}s^{-1}=2.0\\times10^{-18}$ per second** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *Although you will not be expected to use megaparsecs in an exam, you should be comfortable with converting between units when a new one has been given.*\n\n> *km/s megaparsec means 'km per second per megaparsec'.*",
+     "equations": [
+      {
+       "latex": "H_{0}=\\frac{66.67\\times10^{3}}{3.1\\times10^{22}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>66</mn><mo>.</mo><mn>67</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>3</mn></msup></mrow><mrow><mn>3</mn><mo>.</mo><mn>1</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>22</mn></msup></mrow></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space fraction numerator 66.67 space cross times space 10 cubed over denominator 3.1 space cross times space 10 to the power of 22 end fraction space"
+      },
+      {
+       "latex": "H_{0}=2.15\\times10^{-18}s^{-1}=2.0\\times10^{-18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>15</mn><mo> </mo><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "H subscript 0 space equals space 2.15 space cross times 10 to the power of negative 18 end exponent space straight s to the power of negative 1 end exponent space equals space 2.0 space cross times 10 to the power of negative 18 end exponent"
       }
      ]
     }

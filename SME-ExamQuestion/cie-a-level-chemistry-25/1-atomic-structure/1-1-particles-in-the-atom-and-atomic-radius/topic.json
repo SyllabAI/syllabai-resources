@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:45:38Z",
+ "generated_utc": "2026-10-26T14:54:40Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -58,17 +58,38 @@
    "question_count": 16,
    "questions_embedded": 16,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/1-atomic-structure/1-1-particles-in-the-atom-and-atomic-radius/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_Tbk3ZXWDQc9C5cKY",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/1-atomic-structure/1-1-particles-in-the-atom-and-atomic-radius/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 16,
+  "questions_embedded": 22,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2023/05/1-1-q22-subatomic-particles-in-electric-field-2.png": "001-diagram-of-a-particle-beam-passing-between-charg.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/1-1-q22-subatomic-particles-in-electric-field-2.png": "001-diagram-of-a-particle-beam-passing-between-charg.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/proton-beam.png": "002-diagram-showing-an-electric-field-with-a-beam-of.png",
+   "https://cdn.savemyexams.com/uploads/2024/02/img-2767-720.jpg": "003-completed-diagram-of-an-electric-field-showing-t.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/01/1-1-atomic-structure-2c-a.png": "004-blank-box-notation-diagram-for-boron-showing-emp.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/a5d6c4e6-22c0-4c52-9b99-f18e02e204f7.jpeg": "005-box-notation-diagram-showing-the-ground-state-el.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/129c5fc8-2d7a-4e7d-be1d-139c459aad6d.jpeg": "006-diagram-of-a-mixed-particle-beam-in-electric-and.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/50b3c7c3-f0bc-4f8d-823d-1931da60b3b5.jpeg": "007-diagram-of-charged-plates-deflecting-a-particle-.jpeg"
   }
  },
  "questions": [
@@ -396,6 +417,15 @@
        "label": "D",
        "is_correct": false,
        "text_md": ""
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 16px style P presubscript 15 presuperscript 32 superscript 3 minus sign end superscript end style",
+       "render": "$P pre_{15} pre^{32^{3} - sign}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -907,7 +937,498 @@
        "is_correct": false,
        "text_md": ""
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight P presubscript 15 presuperscript 31 superscript 3 minus end superscript",
+       "render": "$\\mathrm{P} pre_{15} pre^{31^{3} -}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight P presubscript 15 presuperscript 31 superscript 3 minus end superscript",
+       "render": "$\\mathrm{P} pre_{15} pre^{31^{3} -}$",
+       "via": "alt-transpile"
+      }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YsstpkBnpsVK6KH6",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_rPv49XSMh4Hx3mJK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6Szf8cjj4s8vS64"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 3.1 to show the composition of the given species.\n\n**Table 3.1**\n\n| **atomic number** | **nucleon number** | **number of electrons** | **number of protons** | **number of neutrons** | **species** |\n|---|---|---|---|---|---|\n| 15 | 31 | 18 |   |   |   |\n|   |   | 18 | 17 | 19 |   |",
+     "solution_md": "The completed table is:\n\n| **atomic number** | **nucleon number** | **number of electrons** | **number of protons** | **number of neutrons** | **species** |\n|---|---|---|---|---|---|\n| 15 | 31 | 18 | **Final answer:** **15** | **Final answer:** **16** | <sup>31</sup>P<sup>3-</sup> |\n| **Final answer:** **17** | **Final answer:** **36** | 18 | 17 | 19 | <sup>36</sup>Cl<sup>-</sup> |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for row 1 all correct: 15 protons, 16 neutrons, species = <sup>31</sup>P<sup>3-</sup>\n> \n> 1 mark for row 2 all correct: atomic number = 17, nucleon number = 36, species = <sup>36</sup>Cl<sup>-</sup>\n\n> **[exam-tip]**\n> The number of protons equals the atomic number. The number of neutrons equals the nucleon number minus the atomic number.\n> \n> To identify the element from its atomic number, use the Periodic Table. Write the nucleon number as a superscript before the symbol and the ionic charge as a superscript after the symbol.\n> \n> For ions, adjust the electron count for the charge. P<sup>3-</sup> has gained three electrons: 15 protons but 18 electrons. Cl<sup>-</sup> has gained one electron: 17 protons but 18 electrons, giving nucleon number 17 + 19 = 36."
+    },
+    {
+     "id": "qstnprt_q95p4KppP435Z6BZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vzpcy8Qmb5b3YQQR"
+     ],
+     "part_tier": null,
+     "problem_md": "Beams of protons, neutrons and electrons behave differently in an electric field.\n\nFig. 3.1 shows the path of a beam of electrons in an electric field.\n\nOn Fig. 3.1, draw and label the paths of a beam of protons and a beam of neutrons.\n\n![Diagram showing an electric field with a beam of electrons deflecting towards the positive plate](assets/002-diagram-showing-an-electric-field-with-a-beam-of.png)\n\n**Fig. 3.1**",
+     "solution_md": "The completed diagram is:\n\n![Completed diagram of an electric field showing the paths of electrons, protons and neutrons: electrons and protons deflect towards opposite plates, with protons deflecting less than electrons, and neutrons travelling straight through](assets/003-completed-diagram-of-an-electric-field-showing-t.jpg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for neutron path drawn as a straight line, labelled \"neutrons\" / \"neutron beam\"\n> \n> 1 mark for electron path deflected towards the positive plate, labelled \"electrons\" / \"electron beam\"\n> \n> 1 mark for electron path showing more deflection / a sharper curve than the proton path\n\n> **[exam-tip]**\n> Neutrons carry no charge and are not deflected by the electric field — draw a straight horizontal line in the same direction as the original beam.\n> \n> Electrons are negatively charged and deflect towards the positive plate. The key third mark is that electrons deflect more than protons. Although they carry the same magnitude of charge, electrons are approximately 1836 times lighter, giving them a much larger charge-to-mass ratio and therefore a sharper, steeper curve."
+    },
+    {
+     "id": "qstnprt_VmT9Y5cBNCDycrq5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zb9mdZDfSD9sPHYQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine and sulfur are elements in Period 3.\n\nExplain why the atomic radius of a chlorine atom is smaller than that of a sulfur atom.",
+     "solution_md": "> **[mark-scheme]**\n> The atomic radius of a chlorine atom is smaller than that of a sulfur atom because:\n> \n> - Chlorine has a greater nuclear charge / more protons than sulfur **[1 mark]**\n> - The outer electrons in both atoms occupy the same shell / shielding is similar\n> **AND**\n> The greater nuclear charge in chlorine draws the outer electrons closer to the nucleus **[1 mark]**\n\n> **[exam-tip]**\n> Both sulfur and chlorine are in Period 3 and have the same number of electron shells. Chlorine has one more proton than sulfur, giving it a greater nuclear charge. Since the outer electrons in both atoms are in the same (third) shell, shielding is similar. The higher nuclear charge in chlorine therefore pulls the outer electrons closer to the nucleus, reducing the atomic radius."
+    }
+   ]
+  },
+  {
+   "id": "qstn_NsdKYnMGqVQkVZn7",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_2QnBCZyK7PNpnW6z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B98Wqnz3gtpYbMMX"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1 to show the relative charge and relative mass of the subatomic particles.\n\n**Table 1.1**\n\n| **Particle** | **Relative charge** | **Relative mass** |\n|---|---|---|\n| Proton |   |   |\n| Neutron |   |   |\n| Electron |   |   |",
+     "solution_md": "The completed table is:\n\n| **Particle** | **Relative charge** | **Relative mass** |\n|---|---|---|\n| Proton | **Final answer:** **+1** | **Final answer:** **1** |\n| Neutron | **Final answer:** **0** | **Final answer:** **1** |\n| Electron | **Final answer:** **−1** | **Final answer:** **0** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for proton: relative charge = +1 **AND **relative mass = 1\n> \n> 1 mark for neutron: relative charge = 0 / no charge / neutral **AND **relative mass = 1\n> \n> 1 mark for electron: relative charge = −1 **AND **relative mass = 0 / negligible / 1/1836\n> \n> Electron relative mass values of 1/1800, 1/1840, or a value in the range 5.4 x 10<sup>-4</sup> to 5.6 x 10<sup>-4</sup> are accepted\n\n> **[exam-tip]**\n> The relative mass of an electron is roughly 1/1836 of a proton, which is so small it is treated as negligible, so 0 is the expected answer. Values close to the true mass, such as 1/1836 or 1/1840, are also accepted.\n> \n> For the relative charge of a neutron, \"no charge\", \"neutral\", and \"zero\" all mean the same thing and are all accepted."
+    },
+    {
+     "id": "qstnprt_JS76YQ6SqhBGgHrt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_y2WBtQ8CHYb4CPW3",
+      "spcpt_B98Wqnz3gtpYbMMX"
+     ],
+     "part_tier": null,
+     "problem_md": "State the block in the Periodic Table in which silicon is placed. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> Silicon is placed in the:\n> \n> - p block **[1 mark]**\n> - Silicon's highest energy / outermost / valence electron is in a (3)p orbital **[1 mark]**\n> \n> The number 3 is not required. Any other number is not accepted.\n\n> **[exam-tip]**\n> The blocks of the Periodic Table are named after the type of orbital the outermost electron occupies. Silicon's electron configuration ends in 3p<sup>2</sup>, so its outermost electron is in a p orbital, making it a p block element.\n> \n> You do not need to include the number 3 in your answer. Including any other number will cost you the mark."
+    },
+    {
+     "id": "qstnprt_HnrBQrnxgGm8ZXkC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "A mass spectrometer can be used to determine the isotopic abundances of an element. The mass spectrum of a sample of silicon shows that it contains three isotopes, <sup>28</sup>Si, <sup>29</sup>Si and <sup>30</sup>Si.\n\ni) Define the term *isotope*.\n\n[1]\n\nii) The isotopic abundances of the sample are shown in Table 1.2.\n\n**Table 1.2**\n\n| **Isotope** | **Percentage abundance / %** |\n|---|---|\n| <sup>28</sup>Si | 92.23 |\n| <sup>29</sup>Si | 4.68 |\n| <sup>30</sup>Si | 3.09 |\n\nCalculate the relative atomic mass, *A*<sub>r</sub>, of this sample of silicon. Give your answer to two decimal places.\n\n*A*<sub>r</sub> = ......\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) Isotopes are:\n> \n> - Atoms of the same element with the same number of protons / same atomic number but different numbers of neutrons / different mass numbers **[1 mark]**\n\n> **[exam-tip]**\n> Always include both parts of the definition — same number of protons and different numbers of neutrons. Stating only one part will not score the mark.\n> \n> Do not confuse isotopes with ions: isotopes differ in neutron number, not in electron number or charge.\n\nii) To calculate the relative atomic mass, *A*<sub>r</sub>, of silicon:\n\n*A*<sub>r</sub> = $\\frac{(92.23\\times28)+(4.68\\times29)+(3.09\\times30)}{100}$\n\n*A*<sub>r</sub> = $\\frac{2582.44+135.72+92.70}{100}$\n\n*A*<sub>r</sub> = **28.11** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *A*<sub>r</sub> = 28.11\n\n> **[exam-tip]**\n> To calculate relative atomic mass, multiply each isotope's mass number by its percentage abundance, add the results together, then divide by 100.\n> \n> The question asks for two decimal places, so round 28.1086... to 28.11.",
+     "equations": [
+      {
+       "latex": "\\frac{(92.23\\times28)+(4.68\\times29)+(3.09\\times30)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>92</mn><mo>.</mo><mn>23</mn><mo>&#xD7;</mo><mn>28</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mo>.</mo><mn>68</mn><mo>&#xD7;</mo><mn>29</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mo>.</mo><mn>09</mn><mo>&#xD7;</mo><mn>30</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(92.23 \\times 28) + (4.68 \\times 29) + (3.09 \\times 30)}{100}"
+      },
+      {
+       "latex": "\\frac{2582.44+135.72+92.70}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2582</mn><mo>.</mo><mn>44</mn><mo>+</mo><mn>135</mn><mo>.</mo><mn>72</mn><mo>+</mo><mn>92</mn><mo>.</mo><mn>70</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2582.44 + 135.72 + 92.70}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jfKVmtvtBbnGWtDr",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_yncvcYzVYkrRv2t8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zb9mdZDfSD9sPHYQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 4.1 below shows the atomic radii for the elements of Period 2, Li to F.\n\n**Table 4.1**\n\n| **Element** | **Li** | **Be** | **B** | **C** | **N** | **O** | **F** |\n|---|---|---|---|---|---|---|---|\n| **Atomic radius / pm** | 152 | 112 | 88 | 77 | 70 | 66 | 64 |\n\ni) State and explain the trend in atomic radius across Period 2.\n\n[3]\n\nii) Suggest why the atomic radius of neon cannot be determined in the same way as the other Period 2 elements.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The trend in atomic radius across Period 2 is:\n> \n> - Atomic radius decreases (from Li to F) **[1 mark]**\n> - Nuclear charge increases across Period 2\n> **AND**\n> Shielding is similar / constant across the period / electrons are added to the same shell **[1 mark]**\n> - There is a stronger attraction between the nucleus and outer electrons **[1 mark]**\n\n> **[exam-tip]**\n> This is a three-point answer:\n> \n> - State the trend\n> - Give the cause\n> - Explain why\n> \n> Make sure you state that atomic radius decreases before giving the explanation, or you risk missing the first marking point.\n> \n> The key phrase for the second marking point is that shielding remains roughly constant across the period because all new electrons enter the same shell (the 2nd shell).\n> \n> This means the increasing nuclear charge acts more effectively on the outer electrons, pulling them closer.\n\n> **[mark-scheme]**\n> ii) The atomic radius of neon cannot be determined in the same way because:\n> \n> - Neon does not form covalent bonds / exists as single atoms / is monoatomic **[1 mark]**\n> - Atomic radius is defined as half the distance between the nuclei of two covalently bonded atoms of the same element **[1 mark]**\n\n> **[exam-tip]**\n> The atomic radius values in the table are covalent radii, measured as half the bond length between two atoms of the same element. Since neon is a noble gas and does not form bonds, no bond length can be measured and this method cannot be applied."
+    },
+    {
+     "id": "qstnprt_T8Z5RKHpx9QP5M3Y",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2ppDy4sP8RmGYX97"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Fig. 4.1 to show the full electronic configuration of a boron atom in the ground state.\n\n![Blank box notation diagram for boron showing empty boxes for 1s, 2s, and 2p subshells](assets/004-blank-box-notation-diagram-for-boron-showing-emp.png)\n\n**Fig. 4.1**",
+     "solution_md": "The box notation for boron in the ground state is:\n\n![Box notation diagram showing the ground state electronic configuration of boron: 1s fully paired, 2s fully paired, one electron in 2p](assets/005-box-notation-diagram-showing-the-ground-state-el.jpeg)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct ground state box notation for boron: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup> with paired electrons drawn with opposite spins and the 2p electron in any of the three 2p boxes\n\n> **[exam-tip]**\n> The ground state electronic configuration of boron is 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup>.\n> \n> In box notation, paired electrons must be drawn with opposite spins (one arrow up, one arrow down). The single 2p electron can be placed in any of the three 2p boxes with any spin direction.\n> \n> In the excited state, one 2s electron is promoted to the 2p subshell, giving 1s<sup>2</sup> 2s<sup>1</sup> 2p<sup>2</sup>. This question asks for the ground state, so the excited state configuration would not be accepted."
+    },
+    {
+     "id": "qstnprt_cFRXQDR5xJbYbB94",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gXGMxJcrhrnxtZD6"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the first ionisation energy of boron is lower than the first ionisation energy of beryllium.",
+     "solution_md": "> **[mark-scheme]**\n> The first ionisation energy of boron is lower than that of beryllium because:\n> \n> - The outer electron of B is in the 2p subshell\n> **AND**\n> The outer electron of Be is in the 2s subshell **[1 mark]**\n> - The 2p subshell is at higher energy / further from the nucleus / more shielded by the 2s electrons than the 2s subshell\n> **AND**\n> Less energy is required to remove the outer electron of B **[1 mark]**\n\n> **[exam-tip]**\n> The key is subshell type, not electron count. Although B has more protons than Be, the extra electron is in the higher-energy 2p subshell, which is further from the nucleus and partially shielded by the 2s electrons. This makes the 2p electron easier to remove than Be's 2s electron.\n> \n> The electronic configurations are:\n> \n> - Be: 1s<sup>2</sup> 2s<sup>2</sup>\n> - B: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup>"
+    },
+    {
+     "id": "qstnprt_BjSWZ4F9gy56HmGQ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yXBkCC4sjD5KyPrZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The successive ionisation energies for another element, **J**, are shown in Table 4.2.\n\n**Table 4.2**\n\n| **Energy number** | 1st | 2nd | 3rd | 4th | 5th |\n|---|---|---|---|---|---|\n| **Ionisation energy / kJ mol**<sup>**-1**</sup> | 738 | 1450 | 7733 | 10543 | 13630 |\n\nDeduce the formula of the compound formed when element **J** reacts with chlorine.",
+     "solution_md": "> **[mark-scheme]**\n> The formula of the compound formed when element J reacts with chlorine is:\n> \n> - JCl<sub>2</sub> **[1 mark]**\n\n> **[exam-tip]**\n> To identify the group of element J, look for the largest jump between consecutive ionisation energies. The largest jump is between the 2nd (1450 kJ mol<sup>-1</sup>) and 3rd (7733 kJ mol<sup>-1</sup>) ionisation energies.\n> \n> This large jump occurs because the 3rd electron is being removed from a new, inner shell that is much closer to the nucleus and experiences less shielding. This tells us J has 2 outer shell electrons and is in Group 2.\n> \n> Group 2 elements form 2+ ions, so two chloride ions (Cl<sup>-</sup>) are needed to balance the charge, giving JCl<sub>2</sub>."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9DnMFZDStDfJVKZq",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_vvJz2mFPj8WyVHrs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G6Szf8cjj4s8vS64"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1 to show the number of protons, neutrons and electrons in each of the given species.\n\n**Table 1.1**\n\n| **Species** | **number of protons** | **number of neutrons** | **number of electrons** |\n|---|---|---|---|\n| <sup>23</sup>Na |   |   |   |\n| <sup>32</sup>S<sup>2-</sup> |   |   |   |\n| <sup>86</sup>Sr<sup>2+</sup> |   |   |   |",
+     "solution_md": "The completed table is:\n\n| **Species** | **number of protons** | **number of neutrons** | **number of electrons** |\n|---|---|---|---|\n| <sup>23</sup>Na | **Final answer:** **11** | **Final answer:** **12** | **Final answer:** **11** |\n| <sup>32</sup>S<sup>2-</sup> | **Final answer:** **16** | **Final answer:** **16** | **Final answer:** **18** |\n| <sup>86</sup>Sr<sup>2+</sup> | **Final answer:** **38** | **Final answer:** **48** | **Final answer:** **36** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all three values for <sup>23</sup>Na correct: 11 protons, 12 neutrons, 11 electrons\n> \n> 1 mark for all three values for <sup>32</sup>S<sup>2-</sup> correct: 16 protons, 16 neutrons, 18 electrons\n> \n> 1 mark for all three values for <sup>86</sup>Sr<sup>2+</sup> correct: 38 protons, 48 neutrons, 36 electrons\n\n> **[exam-tip]**\n> The number of protons equals the atomic number, which you can find on the Periodic Table. The number of neutrons is the mass number minus the atomic number.\n> \n> For neutral atoms, electrons equal protons.\n> \n> For ions, adjust for the charge: add electrons for negative ions and subtract for positive ions. For S<sup>2-</sup>, add 2 (16 + 2 = 18). For Sr<sup>2+</sup>, subtract 2 (38 - 2 = 36)."
+    },
+    {
+     "id": "qstnprt_xsMVvk75kQqdpBtX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zb9mdZDfSD9sPHYQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Sodium is an element in Period 3. State and explain the trend in atomic radius across Period 3.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in atomic radius across Period 3, and the reason, are:\n> \n> - Decreases **[1 mark]**\n> \n> Explanation:\n> \n> - The atomic / proton number / nuclear charge increases **[1 mark]**\n> - Shielding remains the same / similar across the period\n> **OR**\n> Electrons are added to the same principal quantum shell **[1 mark]**\n\n> **[exam-tip]**\n> Across Period 3, each element has one more proton than the last, increasing the nuclear charge. The extra electrons are added to the same outer shell, so shielding stays roughly constant. The stronger nuclear pull on the same outer electrons contracts the atom, so atomic radius decreases."
+    },
+    {
+     "id": "qstnprt_4RBf6QmQj7yjgqMB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zb9mdZDfSD9sPHYQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine is an element in Period 3 which has an atomic radius of 0.099 nm. The chloride ion has an ionic radius of 0.181 nm.\n\nExplain the difference between the two radii.",
+     "solution_md": "> **[mark-scheme]**\n> The chloride ion has a larger radius than chlorine because:\n> \n> - The Cl<sup>-</sup> ion has the same nuclear charge / same number of protons (17) but one more electron / more electrons (18) **[1 mark]**\n> - Greater electron-electron repulsion / the outer electrons experience a reduced effective nuclear charge, causing the electron cloud to expand **[1 mark]**\n\n> **[exam-tip]**\n> Chlorine gains one electron to form Cl<sup>-</sup>, giving it 17 protons but 18 electrons. The nuclear charge stays the same, but there is now more electron-electron repulsion in the outer shell. This repulsion pushes the electrons further from the nucleus, increasing the ionic radius compared to the atomic radius."
+    }
+   ]
+  },
+  {
+   "id": "qstn_4V6tR7RVk27gw9DJ",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_ZXsKZYNMfNJXqV4d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "label",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vzpcy8Qmb5b3YQQR"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 5.1 shows how protons, neutrons and electrons behave differently when they move at the same velocity in an electric field.\n\nLabel the positive and negative plates in Fig. 5.1.\n\n![Diagram of a mixed particle beam in electric and magnetic fields, showing protons deflected up, electrons down and neutrons continuing straight ahead](assets/006-diagram-of-a-mixed-particle-beam-in-electric-and.jpeg)\n\n**Fig. 5.1**",
+     "solution_md": "The correct labelling is shown in Fig. 5.1:\n\n![Diagram of charged plates deflecting a particle beam: protons curve towards the negative plate, electrons towards the positive, while neutrons continue straight](assets/007-diagram-of-charged-plates-deflecting-a-particle-.jpeg)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for both plates correctly labelled\n\n> **[exam-tip]**\n> Electrons are negatively charged and are deflected towards the positive plate.\n> \n> Neutrons carry no charge and pass straight through unaffected.\n> \n> Protons are positively charged and are deflected towards the negative plate.\n> \n> Protons are deflected by a much smaller angle than electrons. Although they carry the same magnitude of charge, protons have a mass approximately 1836 times greater than electrons, giving them a much smaller charge-to-mass ratio and therefore less deflection."
+    },
+    {
+     "id": "qstnprt_6pDbfBC3XFx4W6WV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7Pt6yVqwxxXJNJzz"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 5.1 to show the number of protons, neutrons and electrons in each of the given species.\n\n**Table 5.1**\n\n| **Species** | **number of protons** | **number of neutrons** | **number of electrons** |\n|---|---|---|---|\n| <sup>23</sup>Na |   |   |   |\n| <sup>32</sup>S<sup>2–</sup> |   |   |   |\n| <sup>86</sup>Sr<sup>2+</sup> |   |   |   |",
+     "solution_md": "The completed table is:\n\n| **Species** | **number of protons** | **number of neutrons** | **number of electrons** |\n|---|---|---|---|\n| <sup>23</sup>Na | **Final answer:** **11** | **Final answer:** **12** | **Final answer:** **11** |\n| <sup>32</sup>S<sup>2–</sup> | **Final answer:** **16** | **Final answer:** **16** | **Final answer:** **18** |\n| <sup>86</sup>Sr<sup>2+</sup> | **Final answer:** **38** | **Final answer:** **48** | **Final answer:** **36** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all three values correct for <sup>23</sup>Na\n> \n> 1 mark for all three values correct for <sup>32</sup>S<sup>2–</sup>\n> \n> 1 mark for all three values correct for <sup>86</sup>Sr<sup>2+</sup>\n\n> **[exam-tip]**\n> The number of protons equals the atomic number, found on the Periodic Table.\n> \n> The number of neutrons = mass number (the superscript before the symbol) minus the atomic number.\n> \n> For ions, adjust the electron count by the charge: subtract electrons for positive charges (Sr<sup>2+</sup> has 38 − 2 = 36 electrons), and add electrons for negative charges (S<sup>2–</sup> has 16 + 2 = 18 electrons)."
+    },
+    {
+     "id": "qstnprt_c5KVGkhZJPN4scD5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PCXmSVmcYjz89QXw"
+     ],
+     "part_tier": null,
+     "problem_md": "State the full electronic configuration of the <sup>32</sup>S<sup>2–</sup> ion.",
+     "solution_md": "> **[mark-scheme]**\n> The full electronic configuration of the <sup>32</sup>S<sup>2–</sup> ion is:\n> \n> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> **[1 mark]**\n\n> **[exam-tip]**\n> A sulfur atom has 16 electrons with configuration 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup>. The S<sup>2–</sup> ion gains 2 electrons, giving 18 electrons in total.\n> \n> The resulting configuration, 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>, is the same as that of argon. Ions that are isoelectronic with a noble gas are particularly stable.\n> \n> Because the question asks for the full electronic configuration, noble gas shorthand such as [Ne] 3s<sup>2</sup> 3p<sup>6</sup> is not accepted."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2hZNJNy5wvmHBsRV",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_8M6vQ3Z9qnB8x3kH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_55MQgFXdfMQTbHBn"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1 to show the relative charge and relative mass of the subatomic particles.\n\n**Table 1.1**\n\n| **Subatomic particle** | **Relative charge** | **Relative mass** |\n|---|---|---|\n| Proton |   | 1 |\n| Neutron |   |   |\n| Electron |   | $\\frac{1}{1836}$ |",
+     "solution_md": "The completed table is:\n\n| **Subatomic particle** | **Relative charge** | **Relative mass** |\n|---|---|---|\n| Proton | **Final answer:** **+1** | 1 |\n| Neutron | **Final answer:** **0** | **Final answer:** **1** |\n| Electron | **Final answer:** **-1** | $\\frac{1}{1836}$ |\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for proton relative charge: +1\n> \n> 1 mark for neutron relative charge: 0\n> \n> 1 mark for neutron relative mass: 1\n> \n> 1 mark for electron relative charge: -1\n> \n> The relative mass of an electron can be expressed as $\\frac{1}{1836}$, $\\frac{1}{2000}$, or 5 × 10<sup>-4</sup>. In many contexts it is acceptable to describe the electron mass as negligible or approximately zero.\n\n> **[exam-tip]**\n> These values are fundamental to atomic structure and should be memorised.",
+     "equations": [
+      {
+       "latex": "\\frac{1}{1836}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>1836</mn></mfrac></math>",
+       "alt": "\\frac{1}{1836}"
+      },
+      {
+       "latex": "\\frac{1}{1836}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>1836</mn></mfrac></math>",
+       "alt": "\\frac{1}{1836}"
+      },
+      {
+       "latex": "\\frac{1}{1836}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>1836</mn></mfrac></math>",
+       "alt": "\\frac{1}{1836}"
+      },
+      {
+       "latex": "\\frac{1}{2000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2000</mn></mfrac></math>",
+       "alt": "\\frac{1}{2000}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_cMhm54N8mHKf6jst",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7Pt6yVqwxxXJNJzz"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.2 to show the number of protons, neutrons and electrons in each of the given species.\n\n**Table 1.2**\n\n| **Species** | **Number of protons** | **Number of neutrons** | **Number of electrons** |\n|---|---|---|---|\n| <sup>31</sup>P |   |   |   |\n| <sup>24</sup>Na<sup>+</sup> |   |   |   |\n| <sup>37</sup>Cl<sup>–</sup> |   |   |   |",
+     "solution_md": "The completed table is:\n\n| **Species** | **Number of protons** | **Number of neutrons** | **Number of electrons** |\n|---|---|---|---|\n| <sup>31</sup>P | **Final answer:** **15** | **Final answer:** **16** | **Final answer:** **15** |\n| <sup>24</sup>Na<sup>+</sup> | **Final answer:** **11** | **Final answer:** **13** | **Final answer:** **10** |\n| <sup>37</sup>Cl<sup>–</sup> | **Final answer:** **17** | **Final answer:** **20** | **Final answer:** **18** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all three values correct for <sup>31</sup>P\n> \n> 1 mark for all three values correct for <sup>24</sup>Na<sup>+</sup>\n> \n> 1 mark for all three values correct for <sup>37</sup>Cl<sup>–</sup>\n\n> **[exam-tip]**\n> The number of protons equals the atomic number, found on the Periodic Table.\n> \n> The number of neutrons = mass number (the superscript before the symbol) minus the atomic number.\n> \n> For ions, adjust the electron count: subtract electrons for positive charges (Na<sup>+</sup> has 11 − 1 = 10 electrons), and add electrons for negative charges (Cl<sup>−</sup> has 17 + 1 = 18 electrons)."
+    },
+    {
+     "id": "qstnprt_bWCrbr7vqs8qPqr4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why isotopes of the same element have different physical properties.",
+     "solution_md": "> **[mark-scheme]**\n> Isotopes of the same element have different physical properties because:\n> \n> - Isotopes have different numbers of neutrons / different mass numbers **[1 mark]**\n\n> **[exam-tip]**\n> Physical properties such as density, melting point, and boiling point depend on the mass of the atom. Since isotopes differ in their number of neutrons, they have different masses and therefore different physical properties."
+    },
+    {
+     "id": "qstnprt_sC3kNGkXKxBwrHYq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMmgX5bpCKqKvXws"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the chemical properties of <sup>35</sup>Cl and <sup>37</sup>Cl are identical.",
+     "solution_md": "> **[mark-scheme]**\n> The chemical properties of <sup>35</sup>Cl and <sup>37</sup>Cl are identical because:\n> \n> - They have the same electronic configuration / same number of electrons / same number of outer shell electrons **[1 mark]**\n\n> **[exam-tip]**\n> Chemical properties are determined by the arrangement of electrons, particularly the outer shell electrons that take part in bonding and reactions. Since isotopes of the same element have the same atomic number, they have the same number of electrons and the same electronic configuration, giving identical chemical properties."
     }
    ]
   }

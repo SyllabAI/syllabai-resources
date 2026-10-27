@@ -373,3 +373,1064 @@ $\frac{speed}{distance}$instead of $\frac{distance}{time}$ and the distance has 
 **D** is incorrect as the time has been calculated as $\frac{speed}{distance}$instead of $\frac{distance}{time}$
 
 For the time to be in s, the distance must be in m and the speed in m/s. Make sure to look out for unit conversions, as units on both sides of the equations must be equal
+
+## Theory Questions (20 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> A light-year is:
+> 
+> - The distance travelled by light in one year **[1 mark]**
+
+> **[exam-tip]**
+> A very common mistake is to describe a light-year as a unit of time. Remember, a light-year is a unit of distance. Make sure your answer includes the word 'distance' (or 'how far'), refers to 'light', and specifies 'one year'. Avoid phrases like 'the time it takes light to travel' or 'the speed of light in one year', as these will not earn the mark.
+To calculate the distance of one light-year:
+
+- List the known quantities:
+
+  - Speed of light, $v=3.0\times10^{8}m/s$
+  - Time, $t=1\mathrm{year}$
+- Calculate the number of seconds in one year
+
+$1 \text{year} = 365 \times 24 \times 3600 = 3 . 15 \times 10^{7} \text{s}$ **[1 mark]**
+
+- Substitute the known quantities into $d = v \times t$:
+
+$d = ( 3.0 \times 10^{8} ) \times ( 3.15 \times 10^{7} )$ **[1 mark]**
+
+$d=$ $9.5\times10^{15}\text{m}$ **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correctly converting 1 year to seconds
+> 
+> - Accept 3.15 × 10<sup>7</sup> s or 3.16 × 10<sup>7</sup> s (using 365.25 days)
+> - Do not accept if days, hours or minutes are not all converted
+> 
+> 1 mark for correct substitution into $d=vt$
+> 
+> 1 mark for a correct final answer of 9.5 × 10<sup>15</sup> m
+> 
+> - Must be given to 2 s.f. as stated in the question
+
+> **[exam-tip]**
+> When calculating large distances in astronomy, always convert time into seconds first before multiplying by the speed of light. A common error is to forget one of the conversion steps (days → hours → minutes → seconds), giving an answer that is many orders of magnitude too small.
+To calculate the time for the signal to reach Proxima Centauri:
+
+- List the known quantities:
+
+  - Speed of light, $v=3.0\times10^{8}m/s$
+  - Distance from Earth, $d=4.0\times10^{16}m$
+  - Seconds in $1\text{year}=3.15\times10^{7}\text{s}$ (from (b))
+- Rearrange $d = v \times t$ to calculate the time in seconds:
+
+$t=\frac{d}{v}$
+
+$t=\frac{4.0\times10^{16}}{3.0\times10^{8}}$
+
+$t=1.33\times10^{8}\text{s}$ **[1 mark]**
+
+- Convert to years:
+
+$t=\frac{1.33\times10^{8}}{3.15\times10^{7}}$ **[1 mark]**
+
+$t=$ $4.2\text{years}$ **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct substitution into $t = d / v$ **OR** correct time in seconds
+> 
+> - Accept 1.3 × 10<sup>8</sup> s or 1.33 × 10<sup>8</sup> s
+> 
+> 1 mark for correct conversion to years
+> 
+> 1 mark for a correct final answer of 4.2 years
+
+> **[exam-tip]**
+> This question tests your ability to work with very large numbers in standard form. Remember to convert your final answer into the units asked for — here the question asks for the time 'in years', so you must convert from seconds back to years using the same conversion factor from part (b).
+
+### Q2
+To calculate the average orbital speed of the Earth:
+
+- List the known quantities:
+
+  - Orbital radius of Earth, $r=150\times10^{6}\text{km}$
+  - Orbital period of Earth, $T=1.00\mathrm{year}$
+- Convert the orbital radius to metres:
+
+$r=150\times10^{6}\times10^{3}=150\times10^{9}\text{m}$
+
+- Convert the orbital period to seconds:
+
+$T=365\times24\times3600=3.15\times10^{7}\text{s}$ **[1 mark]**
+
+- Calculate the orbital speed:
+
+$v=\frac{2πr}{T}$ **[1 mark]**
+
+$v = \frac{2 \mathrm{\pi } \times ( 150 \times 10^{9} )}{3.15 \times 10^{7} }$
+
+$v = 3 . 0 \times 10^{4}  \text{m/s}$ **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct conversion of time to seconds
+> 
+> - Accept $365\times24\times3600$ **OR** $3.15\times10^{7}\text{s}$
+> 
+> 1 mark for the correct equation **OR** correct substitution
+> 
+> - Accept $v=2πr/T$ **OR** $( 2 \mathrm{\pi } \times 150 \times 10^{6} ) \div ( 365 \times 24 \times 3600 )$ **OR** $9.42\times10^{11}/3.15\times10^{7}$
+> 
+> 1 mark for a correct final answer of $3.0\times10^{4}\text{m/s}$
+> 
+> - Accept: use of $T = 3 . 2 \times 10^{7}  \text{s}$ giving $v = 2 . 9 \times 10^{4}  \text{m/s}$
+
+> **[exam-tip]**
+> A very common mistake is to use the radius instead of the circumference — remember, the planet travels the full circumference in one orbital period, not just one radius.
+> **[mark-scheme]**
+> - Orbital speed decreases as distance from the Sun increases **OR** planets further from the Sun have a lower orbital speed **[1 mark]**
+> - Gravitational field strength/gravitational force decreases with distance from the Sun, so the planet needs a lower speed to stay in orbit **[1 mark]**
+
+> **[exam-tip]**
+> You can verify the relationship from the data: Mercury is closest to the Sun and orbits fastest (largest circumference-to-period ratio), while Jupiter is furthest and orbits slowest. The explanation links to gravitational field strength — further from the Sun, the gravitational field is weaker, so the gravitational pull on the planet is smaller. A weaker pull means the planet needs a lower speed to remain in a stable orbit; if it moved too fast, it would spiral outwards.
+> 
+> Make sure you link the weaker gravitational field to the effect on orbital speed — simply saying "less gravity" without explaining why this leads to a lower speed will not earn the second mark.
+To calculate the speed at which this galaxy is moving away from the Earth:
+
+- List the known quantities:
+
+  - Distance of galaxy from Earth, $d=9.0\times10^{7}$ light-years
+  - Hubble constant, $H_{0}=2.2\times10^{-18}$ per second
+- Recall the value of a light-year and convert the distance to metres:
+
+1 light-year = $9.5\times10^{15}m$ **[1 mark]**
+
+$d = ( 9.0 \times 10^{7} ) \times ( 9.5 \times 10^{15} )$
+
+$d=8.55\times10^{23}\text{m}$
+
+- Apply Hubble's law to calculate speed:
+
+$v=H_{0}d$ **[1 mark]**
+
+$v = ( 2.2 \times 10^{- 18} ) \times ( 8.55 \times 10^{23} )$
+
+$v=1881000$
+
+$v=$ $1.9\times10^{6}\text{m/s}$ **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for stating 1 light-year = $9.5\times10^{15}m$ **OR** correct conversion to metres
+> 
+> - Accept $9 . 0 \times 10^{7} \times 9 . 5 \times 10^{15}$ **OR** $8 . 55 \times 10^{23}  \text{m}$
+> 
+> 1 mark for correct equation **OR** correct substitution
+> 
+> - Accept $v=H_{0}d$ **OR** $2 . 2 \times 10^{-18} \times 8 . 55 \times 10^{23}$
+> 
+> 1 mark for a correct final answer of $1.9\times10^{6}\text{m/s}$
+> 
+> - Accept: $1880\text{km/s}$ or $1.88\times10^{6}\text{m/s}$ or $1900\text{km/s}$ or $1.9\times10^{3}\text{km/s}$
+
+> **[exam-tip]**
+> Sometimes you may be given the values of a light year ($9.5\times10^{15}m$) and the Hubble constant ($2.2\times10^{-18}$ per second) in a question, but not always. If you are taking the extended paper, you must learn them as you could be expected to recall either value.
+
+### Q3
+> **[mark-scheme]**
+> - A galaxy is a collection of billions of stars **[1 mark]**
+> **[mark-scheme]**
+> - The distance travelled by light in one (Earth) year **[1 mark]**
+> **[mark-scheme]**
+> - Planets orbit stars **[1 mark]**
+> - The Moon orbits a planet **[1 mark]**
+> **[mark-scheme]**
+> Any **four **from (one mark for each point):
+> 
+> - Dust and gas clouds orbit the Sun
+> - Contained many different elements
+> - The material rotates around the Sun / forms an accretion disk
+> - Further from the Sun, the temperature is lower/cooler
+> - Lighter elements / hydrogen / helium / water / methane trapped there (due to lower temperature)
+> - Larger, gaseous / low density planets formed
+> - Due to gravitational attraction
+> 
+> **[4 marks]**
+
+### Q4
+The four inner planets are:
+
+1. Mercury
+2. Venus
+3. Earth
+4. Mars
+
+- Three correct names for the planets (in any order);** [1 mark]**
+- Names are in the correct order (as shown); **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+The apparent motion of the Sun across the sky is observed because:
+
+- The Earth rotates on its axis; **[1 mark]**
+- Every 24 hours or every day; **[1 mark]**
+
+An example answer could be:
+
+*The Sun appears to move across the sky because of the Earth’s rotation on its axis once every day.*
+
+**[Total: 2 marks]**
+
+> **[exam-tip]**
+> The key concept for this explanation is that the Sun is *apparently* moving. If it is not moving across the sky and so something else must be happening to cause this apparent movement. You should know that the Earth is rotating and that makes the Sun appear to move.
+
+### Q6
+The statement is wrong because:
+
+- The <u>Sun is a star</u> (so it is the closest);** [1 mark]**
+
+**[Total: 1 mark]**
+To calculate the distance to Proxima Centauri:
+
+List the known quantities:
+
+- Speed of light, *v * = 3.0 × 10<sup>8</sup> m/s; **[1 mark]**
+- Time from Proxima Centauri, *t*<sub>p</sub> = 2 200 000 minutes = 1.32 × 10<sup>8</sup> s
+- Time from the Sun, *t*<sub>s</sub> = 8.3 minutes = 498 s
+
+(i) Calculate the distance, *s*, in metres:
+
+Rearrange the equation for speed and substitute the quantities:
+
+- $s = v \times t = ( 3.0 \times 10^{8} ) \times ( 1.32 \times 10^{8} ) = 3.96 \times 10^{16}$ **[1 mark]**
+
+Write the answer to two sig figs including units:
+
+- $s=4.0\times10^{16}m$ **[1 mark]**
+
+** **
+
+(ii) Use the ratio method to determine the distance in terms of astronomical units:
+
+Determine a quantity which will be valid in a ratio calculation:
+
+- Since distance is directly proportional to time, the distances can be compared <u>using time</u>
+- Ratio of times, $\frac{toP.Centauri}{totheSun}=\frac{2200000\mathrm{mins}}{8.3\mathrm{mins}}=265060$ **[1 mark]**
+- Distance = 265 000 Au **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *You may have spent much more time on your calculation than our solution suggests. Always look for simpler routes to the answer before starting a lengthy calculation. Especially if the mark scheme suggests a short method will work, as it does here.*
+
+> *The examiner won't expect you to write your explanation of why you chose time to calculate with, but you would get a mark when they saw you working with it. *
+Suggest a reason to give the distance from stars in terms of light years:
+
+- Stars are so distant / far away; **[1 mark]**
+- That a large unit of distance is needed **OR **the numbers (of m or km) would be too big **OR **light years are easier to work with; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q7
+(i) The name of the body indicated is:
+
+- Neptune; **[1 mark]**
+
+(ii) The name of the body indicated is:
+
+- Saturn; **[1 mark]**
+
+(iii) The name of the body indicated is:
+
+- Earth; **[1 mark]**
+
+**[Total: 3 marks]**
+The differences between the inner and outer planets include:
+
+**Any three from:**
+
+- Inner planets are rocky **AND **outer planets are gas / gaseous; **[1 mark]**
+- Inner planets are smaller than outer planets (or reverse argument); **[1 mark]**
+- Inner planets have shorter time period / orbital time / year (or reverse argument); **[1 mark]**
+- Inner planets have greater orbital speed (or reverse argument); **[1 mark]**
+- Inner planets experience a stronger gravitational pull from the Sun (or reverse argument); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Your answer in a 'compare' question must take into account features of both sides. So it isn't enough to say 'inner planets are small', but instead the answer has to say 'inner planets are small**er** **than** outer planets'.*
+
+> *Reverse argument simply means stating the same fact in the opposite way. So for example, 'the outer planets have longer years than the inner planets'.*
+(i) The position on the graph where Uranus should be plotted:
+
+The position of the X scores **three marks**:
+
+![screenshot-2023-02-06-at-11-15-03](assets/008-screenshot-2023-02-06-at-11-15-03.png)
+
+- To the right of the plot for Saturn **AND **on the line; **[1 mark]**
+- In the range 16 - 24 AU (as shown by the highlighted area); **[1 mark]**
+- Within the range 19.5 - 20.5 AU (as shown by the green **X**); **[1 mark]**
+
+ii) To estimate the orbital speed of Uranus:
+
+Use the graph to read the corresponding value from the y-axis:
+
+- Answer in the range 4.0 - 7.0 km/s **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q8
+To determine the orbital speed from the graph:
+
+![file-000-33](assets/010-file-000-33.png)
+
+- Clearly mark the graph to show the method;** [1 mark]**
+- Orbital speed in the range 6.8 - 6.9 km/s;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *When you are asked to 'use the graph' to find an answer, there will be a mark simply for showing on the graph that you know what the method is. This is quite separate from the mark for the correct answer.*
+(i) To calculate the distance travelled in one orbit:
+
+List the known quantities:
+
+- Radius of orbit, *r*  = 800 million km (from the graph) **[1 mark]**
+
+![file-000-34](assets/011-file-000-34.png)
+
+Recall the equation for the circumference of a circle:
+
+- $c=2πr$ **[1 mark]**
+
+Substitute the radius and calculate:
+
+- $c=2\timesπ\times800\mathrm{million}$
+- $c=5027\mathrm{million}$
+
+Round the answer to two significant figure and write the units
+
+- Distance travelled by Jupiter in one full orbit = 5 000 million km **[1 mark]**
+
+(ii) To calculate the time taken to complete one orbit:
+
+List the known quantities:
+
+- Distance travelled in one orbit, d = 5 000 million km (from part (i))
+- Orbital speed, *s* = 13 km/s (from the graph) ![file-000-35](assets/012-file-000-35.png)
+
+Use the equation linking speed, distance and time:
+
+- $speed=\frac{distance}{time}$ **OR**** **$s=\frac{d}{t}$ **[1 mark]**
+
+Rearrange to make time the subject:
+
+- ** **$t=\frac{d}{s}$
+
+Substitute the values and calculate to get a time in seconds:
+
+- Leave the distance in km as the orbital speed is given in km/s
+- $t=\frac{5000000000}{13}$
+- $t=384.6\mathrm{million} \mathrm{seconds}$ **[1 mark]**
+
+To convert seconds to days divide by (seconds × minutes × hours):
+
+- $t = \frac{384 600 000}{( 60 \times 60 \times 24 )} = 4451$
+
+Round the answer to two significant figures:
+
+- Orbital period of Jupiter = 4500 days **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *For part (ii) if you didn't spot that you could use the equation for speed, you may have used the equation for orbital speed, in which case your calculation should look like this:*
+
+> *Recall the equation relating orbital speed, radius and orbital period, **T **:*
+
+> $v=\frac{2πr}{T}$* [1 mark]*
+
+> *Rearrange to make T the subject:*
+
+- $T=\frac{2πr}{v}$* *
+
+> *Substitute the values and calculate:*
+
+- $T=\frac{2\timesπ\times800000000}{13}=387000000seconds$*[1 mark]*
+
+> *Convert seconds to days:*
+
+- $T = \frac{387 000 000}{( 60 \times 60 \times 24 )} = 4478 = 4500 d a y s$*[1 mark]*
+
+> *Hopefully you are getting confident with standard form. In that case you should be writing 5000 million = 5000 × 10*<sup>*6*</sup>*, for example, which will make your calculations neater and easier to follow. *
+
+> *If you aren't confident with standard form yet you can get away without using it at GCSE, but we do recommend you try as you will really need it if you continue on to A-level sciences or maths.*
+A diagram showing the typical orbit of a comet looks like:
+
+![file-000](assets/014-file-000.png)
+
+- Orbit is elliptical (<u>not</u> circular) **AND **Sun shown off-centre at a focal point (by eye) **AND **orbit extends beyond the planet's orbit; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *In an exam situation don't waste time making your comet diagrams perfectly geometrical, but do pay attention to the rules in the list above. Use a pencil in case your diagram goes wrong and be prepared to make a quick sketch of the orbit. The diagrams below show three versions which would get the mark, and two which would not.*
+
+> *Enough for [1] mark*
+
+![file-000-2](assets/015-file-000-2.png)
+
+![file-000-3](assets/016-file-000-3.png)
+
+![file-000-1](assets/017-file-000-1.png)
+
+*Not enough for [1] mark***  **
+
+![file-000-5](assets/018-file-000-5.png)
+
+![file-000-4](assets/019-file-000-4.png)
+The point where the comet is travelling at greatest speed is:
+
+![file-000-6](assets/020-file-000-6.png)
+
+- **X** marked where the orbit comes closest to the Sun;** [1 mark]**
+
+**[Total: 1 mark]**
+
+> *At this point, the gravitational force between the Sun and the comet is strongest as they are at their closest. Gravity is a force that becomes much stronger when the objects move closer to one another. *
+
+### Q9
+State similarities between orbits:
+
+**Any two from:**
+
+- The orbits are:
+
+  - Elliptical **OR**** **approximately/nearly circular; **[1 mark]**
+  - In the same plane; **[1 mark]**
+  - In the same direction (around the Sun); **[1 mark]**
+
+State differences between orbits:
+
+**Any one from:**
+
+- The orbits:
+
+  - Are at different <u>distances</u> from the Sun **OR**** **have different <u>radii / diameter</u>; **[1 mark]**
+  - Have different <u>speeds</u>; **[1 mark]**
+  - Have different <u>durations / orbital periods</u>; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *A good way to learn facts like these is to draw annotated diagrams as part of your revision notes, using the correct keywords to label your sketches. The sketch below is just an example - try to construct your own notes and diagrams as this form of **synthesis of knowledge** really helps with recall.*
+
+![file-000-31](assets/022-file-000-31.png)
+(i) The source of the heavier elements is:
+
+- A supernova (explosion); **[1 mark]**
+
+**    **
+
+(ii) The process which formed the inner planets:
+
+- Is called the <u>accretion model</u> of the solar system; **[1 mark]**
+
+**Any four from:**
+
+- Dust / a disc cloud of matter (left from the formation of the Sun); **[1 mark]**
+- Contained elements created in a <u>supernova</u>; **[1 mark]**
+- <u>Gravity caused the disc to spin / rotate</u> around the Sun; **[1 mark]**
+- <u>Gravitational attraction / gravity</u> caused the dust / (small) particles to <u>join / clump together</u>; **[1 mark]**
+- Forming an <u>accretion disc</u>; **[1 mark]**
+- Near the Sun the <u>temperature was high</u>; **[1 mark]**
+- Therefore the inner planets are made of materials with <u>high melting points</u> (such as metals); **[1 mark]**
+
+**An example of an answer which would score five marks is:**
+
+- The accretion model **[1 mark] **of the solar system.
+- This says that the dust left over after the Sun formed **[1 mark] **contained many heavy elements formed in a supernova explosion **[1 mark].**
+- First the dust made a disc which rotated around the Sun due to gravity **[1 mark]. **
+- Slowly the dust started to clump together due to gravitational attraction between the particles **[1 mark]. **
+- The inner planets are rocky because the temperature near the sun meant that only elements with high melting points existed as solids **[1 mark].**
+
+**[Total: 6 marks]**
+
+> *Long explanations like the one above can seem difficult to learn. However if you practice saying it out loud or writing it down you will see that there is a series of logical steps which must follow one after the other. You will never be expected to recall all the possible answers, so even getting most of it right should be enough to earn you all, or most of, the marks.*
+State the difference between the inner and outer planets:
+
+- The outer planets are gaseous **OR**** **much larger (than the inner planets);** [1 mark]**
+
+Explain the difference by referring to the accretion model:
+
+- Temperatures are lower (further from the Sun); **[1 mark]**
+- Lighter molecules / gaseous elements have lower melting points / could exist in a solid state; **[1 mark]**
+- (Outer planets) could grow to larger size since gravitational effect is less (on lighter molecules); **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The outer planets have a much lower **density** than the inner planets. A spoonful of Neptune will have a much smaller mass than a spoonful of Venus.*
+
+### Q10
+(i) The fourth planet from the Sun is:
+
+- Mars; **[1 mark]**
+
+(ii) A dwarf planet beyond the orbit of Neptune is:
+
+- Pluto; **[1 mark]   **
+
+(iii) A natural satellite orbiting a planet is:
+
+- A moon; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *For part (iii) make sure not to write 'the Moon'. This is just the moon around Earth, but many of the other planets also have moons, which are all natural satellites.*
+The asteroid belt is located:
+
+- Between the <u>orbits</u> of Mars and Jupiter; **[1 mark]**
+
+**[Total: 1 mark]**
+The two words most commonly used to describe the outer four planets: are
+
+**EITHER**
+
+- Gaseous; **[1 mark]**
+- Large;** [1 mark]**
+
+**OR**
+
+- Gas giants;** [2 marks]**
+
+**[Total: 2 marks]**
+The three factors which led to the formation of the planets are
+
+- Gravity / gravitational force (from the Sun); **[1 mark]**
+- Many elements in clouds of gas / dust; **[1 mark]**
+- (Rotating cloud of dust) forming a disc;** [1 mark]**
+
+**[Total: 3 marks]**
+
+### Q11
+(i) The names of the body indicated is:
+
+- Mercury; **[1 mark]**
+
+(ii) The names of the body indicated is:
+
+- Asteroid belt; **[1 mark]**
+
+(iii) The names of the body indicated is:
+
+- Jupiter; **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Explain what makes a body in the solar system a moon:
+
+- A <u>natural satellite</u> that <u>orbits a planet</u>; **[1 mark]**
+
+(ii) The body from part (a) which has moons:
+
+- Jupiter; **[1 mark]**
+
+(iii) One other planet apart from Earth and Jupiter which has a moon.
+
+- Mars / Saturn / Uranus / Neptune; **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Calculate the closest distance between the Moon and the Hubble telescope:
+
+Subtract the smaller number from the larger:
+
+- 385 000 − 550 = <u>384 450 km</u> **[1 mark]**
+
+(ii) The distance between the Moon and the Hubble telescope changes because:
+
+**Any two from:**
+
+- Their relative positions in their orbits changes; **[1 mark]**
+- The orbits have different radii; **[1 mark]**
+- The orbits have different speeds / time / periods; **[1 mark]**
+
+**[Total: 3 marks]**
+To calculate the orbital speed of the satellite:
+
+List the known quantities:
+
+- Orbital radius,* h* = 550 km = 550 000 m
+- Radius of the Earth,* R* = 6400 km = 6400 000 m
+- Orbital period, *T* = 96 minutes ⇒ (96 × 60) = 5760 s **[1 mark]**
+
+Calculate the value for orbital radius:
+
+- *r* = *R* + *h* = 6400 000 + 550 000 = 6 950 000 m **[1 mark]**
+
+Use the equation for orbital speed:
+
+- $v=\frac{2πr}{T}$ **[1 mark]**
+
+Substitute the quantities and calculate:
+
+- $v=\frac{2πr}{T}=\frac{2\timesπ\times6950000}{5760}$** [1 mark]**
+
+Write the answer to two sig figs with the unit:
+
+- $v=7581=7600m/s$ ** [1 mark]**
+
+**[Total: 5 marks]**
+
+### Q12
+The Moon rises and sets because:
+
+- The Earth rotates on its axis; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *You might think that the orbit of the Moon causes it to rise and set. But the motion of the Moon across the sky is far too fast to be explained by its orbital speed around the Earth. *
+
+> *You can see the effect of the orbit by noticing how the Moon appears against different stars each night. This is due to the orbital motion.*
+(i) The time for a complete lunar cycle:
+
+Any **one **from:
+
+- Approximately one month; **[1 mark]**
+- 28 days; **[1 mark]**
+- 29.5 days; **[1 mark]**
+
+(ii) The Moon has phases because:
+
+- The Moon orbits the Earth (approximately every month); **[1 mark]**
+- The Moon is illuminated by the Sun **OR**
+- Light from the Sun hits the Moon; **[1 mark]**
+- As the Moon orbits, different proportions/amounts/sections) of the Moon's illuminated/lit surface are visible from Earth; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The explanation of phases is not necessarily easy to do using words, unless you have practiced and learned it. If it suits your style better, you can also answer a question like this with a labelled diagram and you will be awarded the marks. For example the one below.*
+
+![file-000-9](assets/024-file-000-9.png)
+We never see the other side of the Moon because:
+
+- The Moon is rotating on its axis; **[1 mark]**
+- The speed of rotation matches / is the same as the orbital speed <u>**OR**</u>** **<u>tidal locking</u> takes place; **[1 mark]**
+
+**[Total: 2 marks]**
+
+Avoid calling the far side of the Moon the 'dark side'. Although this is a popular phrase, you know that we **do **see the dark side of the Moon, for about 25 nights out of 28, as it is the dark side which creates the shapes seen in the phases of the Moon.
+
+### Q13
+For each orbit state the position of the body which is being orbited:
+
+(i) Approximately circular:
+
+- At the centre; **[1 mark]**
+
+(ii) Elliptical:
+
+- Focus of ellipse / away from the centre; **[1 mark]**
+
+**[Total: 2 marks]**
+The force which keeps satellites in orbit is:
+
+- Gravitational attraction / gravity; **[1 mark]**
+
+**[Total: 1 mark]**
+As the distance from the Sun increases:
+
+(i) As the distance from the Sun increases, the gravitational field strength:
+
+- Decreases;** [1 mark]**
+
+(ii) As the distance from the Sun increases, the orbital speed:
+
+- Decreases;** [1 mark]**
+
+**[Total: 2 marks]**
+(i) Identify the planet which is closest to the star:
+
+- Hecate;** [1 mark]**
+
+(ii) State the reason for your choice:
+
+- It has the fastest orbital speed; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q14
+Complete the description of the Earth by filling in the blanks:
+
+- The Earth is a rocky planet following an **elliptical**** **orbit around the Sun; **[1 mark]**
+- It rotates on its **axis****; ****[1 mark]**
+- Which is tilted at an angle of approximately 23.4° from the **vertical****; ****[1 mark]**
+- The Earth takes approximately 24 **hours**** **to complete one full rotation; **[1 mark]**
+- Causing the **apparent**** **daily motion of the Sun rising and setting; **[1 mark]**
+- Rotation of the Earth on its axis is therefore responsible for the **periodic**** **cycle of day and night; **[1 mark]**
+
+**[Total: 6 marks]**
+It is summer in the northern hemisphere at position A because:
+
+- The northern hemisphere is <u>tilted towards</u> the Sun; **[1 mark]**
+
+**[Total: 1 mark]**
+Complete the description of the Moon
+
+- The Moon is a natural **satellite**** **of the Earth; **[1 mark]**
+- Which travels in a roughly **circular**** **orbit; **[1 mark]**
+- The **period**** **of the Moon's orbit**;**** [1 mark] **
+- Is approximately **28 days;**** ****[1 mark]**
+- The Moon revolves around its own axis with the same **period **as its orbit; **[1 mark]**
+- The Moon shines with** reflected**** **light; **[1 mark]**
+- From the **Sun**, it does not produce its own light; **[1 mark]**
+
+**[Total: 7 marks]**
+
+> *Unlike Earth which rotates every 24 hours, and takes 365 days to orbit the Sun, the Moon only has one full orbit on its axis as it travels one full orbit around the Earth (roughly 28 days). This is why we always see the same side of the Moon.*
+Identify the following phases:
+
+(i) Full moon:
+
+- G **[1 mark]**
+
+(ii) New moon:
+
+- C **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q15
+Orbital speeds of the gas giants are slower than those of the rocky planets because:
+
+Note that the gas giants are further from the Sun:
+
+- The strength of the Sun’s <u>gravitational field decreases</u> with distance;** [1 mark]**
+- <u>Centripetal</u> force decreases with distance;** [1 mark]**
+- Therefore acceleration is reduced / F = ma; **[1 mark]**
+
+**[Total: 3 marks]**
+To estimate the missing masses by referring to the data:
+
+**Method 1 - Using mass and surface gravity:**
+
+(i) Mercury:
+
+- The <u>diameter is approximately one third</u> that of Earth;** [1 mark]**
+- If the <u>mass was the same</u> the gravitational field strength would be <u>much larger</u> / approximately nine times as large; **[1 mark]**
+- However gravitational field strength is <u>approximately one third</u> that of Earth, suggesting mass is much <u>smaller</u>; **[1 mark]**
+
+(ii) Venus:
+
+- The <u>diameter is similar / almost the same</u> as Earth;** [1 mark]**
+- Gravitational field strength is <u>very similar / a little smaller than</u> on Earth;** [1 mark]**
+- Suggesting mass is <u>very similar / a little smaller</u>; **[1 mark]**
+
+(iii) Mars:
+
+- The <u>diameter is approximately half</u> that of Earth; **[1 mark]**
+- If the <u>mass was the same</u> the gravitational field strength would be <u>much more</u> / approximately four times as large; **[1 mark]**
+- However gravitational field strength is <u>less than one third</u> that of Earth, suggesting mass is <u>much smaller</u>;** [1 mark]**
+
+**Method 2 - Using density and diameter:**
+
+(i) Mercury:
+
+- The <u>density is very similar </u>to Earth’s;** [1 mark]**
+- The <u>diameter is approximately one third</u> that of Earth, so the volume is much smaller;** [1 mark]**
+- Therefore, the mass is much <u>smaller</u> than Earth’s; **[1 mark]**
+
+(ii) Venus:
+
+- The density is similar / slightly smaller than Earth’s;** [1 mark]**
+- The <u>diameter is similar / slightly smaller</u> as Earth, so the volume is similar / slightly smaller;** [1 mark]**
+- Therefore, the mass is <u>very similar / slightly smaller</u> than Earth’s;; **[1 mark]**
+
+(iii) Mars:
+
+- The density is much <u>smaller</u> than Earth’s;** [1 mark]**
+- The <u>diameter is approximately half</u> that of Earth, so the volume is much smaller; **[1 mark]**
+- Therefore, the mass is <u>much smaller </u>than Earth’s;** [1 mark]**
+
+**[Total: 9 marks]**
+
+> *A question like this, where you must refer to the data, don’t be tempted to guess, or write down information you can remember. You need to work through it step by step and make it clear how the data supports your conclusion.*
+
+> *There are two different ways that you can think about this. The first uses surface gravity and diameter. The second uses density and diameter. Density is defined as density = mass / volume, so mass = density × volume. And because planets are (roughly) spherical, volume depends on diameter*<sup>*3*</sup>*. Therefore, mass depends on density × diameter*<sup>*3*</sup>*  (which means even a small change in diameter can make a big difference to mass).*
+
+> *For Mercury and Venus, the densities are quite similar to Earth’s, so diameter (and therefore volume) is the main factor affecting mass. For Mars, both a smaller diameter and a lower density support the conclusion that its mass is much smaller than Earth’s.*
+To describe and explain why orbital speeds of comets are not constant;
+
+*Data*
+
+- As orbital radius increases, orbital period increases; **[1 mark]**
+- Comparison of data: e.g.: doubling distance increases time by four / from Mercury to Mars the distance multiplies by about four but period by about 8; **[1 mark]**
+
+*Explanation*
+
+Any **five **points from:
+
+- Planets are travelling in <u>circular motion</u>; **[1 mark]**
+- Bodies move in a circle due to <u>centripetal force</u>;** [1 mark] **
+- The centripetal force is the <u>Sun's gravitational field</u>;** [1 mark] **
+- The Sun's gravitational field <u>decreases with distance</u> away;** [1 mark] **
+- (Newton's second law states that) F = ma;** [1 mark] **
+- Therefore the law predicts that with the increased distance, we expect to see a reduced speed;** [1 mark] **
+- Data on distance and orbital speed agrees with this prediction;** [1 mark] **
+
+**[Total: 7 marks]**
+
+> *As long as you have made a comparison between the actual numbers you could choose any pair to compare.*
+
+> *For example: **108 ÷ 58 ≅ 2 but 225 ÷  8 ≅ 4 ** would be enough for the second mark*
+
+### Q16
+(i) The fifth planet from the Sun:
+
+- Jupiter; **[1 mark]**
+
+(ii) A rocky object located between Mars and Jupiter:
+
+- Asteroid; **[1 mark]**
+
+(iii) A ball of ice and dust whose orbit takes it beyond the Solar System:
+
+- A comet **OR**** **named comet (for example Halley's comet, Hale-Bopp, Swift-Tuttle); **[1 mark]**
+
+(iv) A small, rocky object orbiting Jupiter:
+
+- A <u>moon</u> / moons (**NOT**** **<u>The</u> <u>M</u>oon); **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Be careful of mixing up our moon, which we call the Moon, with other moons which orbit other planets. A moon is simply a natural satellite of any planet, and there are over 200 just in our own solar system!*
+(i) The correct statements are:
+
+**✓** The Earth orbits the Sun once every 365 days; **[1 mark]**
+
+The Moon takes five weeks to orbit the Earth
+
+**✓** The Moon passes through phases as it orbits the Earth; **[1 mark]**
+
+Day and night on Earth are caused by the Moon's orbit
+
+(ii) To sketch and explain appearance of the Moon two weeks after a New Moon:
+
+A correct sketch looks like:
+
+![file-000-7](assets/027-file-000-7.png)
+
+- Moon shown with no shading; **[1 mark]**
+
+To explain the appearance:
+
+**Any three from:**
+
+- The light we see from the Moon is reflected from the Sun; **[1 mark]**
+- The side facing the Sun is always fully illuminated; **[1 mark]**
+- As the Moon orbits the Earth we see different amounts of the lit surface;** [1 mark]**
+- Two weeks after the Moon is between Earth and the Sun it is on the other side of the Earth; **[1 mark]**
+- So we see the whole of the illuminated side; **[1 mark]**
+
+A diagram which would score three marks looks like:
+
+![file-000-8](assets/028-file-000-8.png)
+
+**[Total: 6 marks]**
+
+> *Many students wonder why we do not observe a solar eclipse (where the Moon blocks the light from the Sun) every time there is a new moon. This is because the Moon orbits the Earth at a different angle to the plane of the solar system. The side of the moon facing us receives no direct light from the Sun still, but it does not block the Sun. It is rare that the three align in this way. *
+
+![screenshot-2022-11-03-at-15-59-37](assets/029-screenshot-2022-11-03-at-15-59-37.png)
+
+### Q17
+(i) The location of the asteroid belt is:
+
+![screenshot-2023-02-07-at-09-46-04](assets/031-screenshot-2023-02-07-at-09-46-04.png)
+
+- Between fourth and fifth orbits; **[1 mark]**
+- A complete circle; **[1 mark]**
+
+(ii) A possible orbit of a comet entering and leaving the solar system:
+
+![screenshot-2023-02-07-at-09-47-06](assets/032-screenshot-2023-02-07-at-09-47-06.png)
+
+- Squashed / elongated ellipse **AND **<u>one</u> end outside the orbit of Neptune:** [1 mark]**
+- Sun is clearly at one end / focus of the ellipse **NOT **in the centre;** [1 mark]**
+
+**[Total: 4 marks]**
+Compare the orbits of comets and planets:
+
+**Any five from:**
+
+- Both orbit the Sun; **[1 mark]**
+- Both are elliptical; **[1 mark]**
+
+*Planets*
+
+- Planets' orbits are <u>approximately</u> circular; **[1 mark]**
+- Sun is at the centre; **[1 mark]**
+- Remain inside the (main/ inner) solar system;** [1 mark]**
+
+*Comets*
+
+- <u>Highly</u> elliptical orbits; **[1 mark]**
+- Sun is at one focus (of the ellipse); **[1 mark]**
+- Can leave the (main / inner) solar system / travel to outer solar system / Oort Cloud / Kuiper Belt;** [1 mark]**
+
+**[Total: 5 marks]**
+
+### Q18
+To describe and explain why orbital speeds of comets are not constant;
+
+Any **five **points from:
+
+- Comets' orbits are <u>highly elliptical</u>; **[1 mark]**
+- Speed <u>increases closer</u> to the Sun / <u>decreases</u> moving <u>away</u> from the Sun;** [1 mark]**
+- Potential energy due to the Sun's gravitational field increases with distance;** [1 mark] **
+- Due to conservation of energy; **[1 mark]**
+- Energy is transferred from the gravitational potential store to the kinetic store when distance is less / comet nears the Sun; **[1 mark]**
+- Increase in KE leads to increased speed **OR **v<sup>2</sup> ∝ KE **OR **KE = ½mv<sup>2</sup>; **[1 mark]**
+
+**[Total: 5 marks]**
+To determine the time for Ganymede to complete one orbit of Jupiter:
+
+Choose one position and calculate the number of days between returns:
+
+- e.g: 4 June to 20 June = 16 days; **[1 mark]**
+
+**[Total: 1 mark]**
+To calculate the distance from Europa to Ganymede on 8 June:
+
+Consider the problem as a right-angled triangle and use Pythagoras:
+
+![jupiter ganymede orbits MA](assets/034-jupiter-ganymede-orbits-ma.png)
+
+- $a^{2}+b^{2}=c^{2}$ **[1 mark]**
+
+List the known quantities from part (b)
+
+- Radius of Europa's orbit = *a* = 671 000 km
+- Radius of Ganymede’s orbit = *b* = 1 070 000 km
+
+Substitute and calculate:
+
+- distance between the moons = *c*
+- $c=\sqrt{671000^{2}+1070000^{2}}$ **[1 mark]**
+
+Write the answer to three sig figs and include the unit:
+
+- Distance between the moons, $c = 1 260 000 \text{km} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+Describe how the distance between Europa and Ganymede changes during three orbits of Europa:
+
+*Data from the diagram:*
+
+**Any two from:**
+
+- Smallest separation on 4 / 20th June **AND** distance = 399 000 km;** [1 mark]**
+- Largest separation on 12 / 28th June **AND **distance = 1 741 000 km; **[1 mark]**
+- Separation increases after 4th June; **[1 mark]**
+
+*Description:*
+
+**Any one from:**
+
+- Distance between moons increases and then decreases as they orbit; **[1 mark]**
+- Distance increases from a minimum on 4th June to a maximum on 12th June, back to a minimum on 20th June and maximum on 28th June; **[1 mark]**
+- Distance change is not linear; **[1 mark]**
+
+*Explanation:*
+
+**Any two from:**
+
+- Europa is closer (to Jupiter) / Ganymede is further (from Jupiter); **[1 mark]**
+- Europa moves faster / Ganymede moves more slowly; **[1 mark]**
+- Europa has a shorter orbital period **/ **Ganymede has a longer orbital speed; **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *There are more marks available for using data (quantitative description) than 'wordy' observation (qualitative description) because, as scientists, we must learn to rely on data to form our conclusions.*
+
+### Q19
+Orbital period is:
+
+- The <u>time</u> taken; **[1 mark]**
+- For an object to <u>complete one orbit</u>; **[1 mark]**
+
+**[Total: 2 marks]**
+State the equation needed to calculate average orbital speed:
+
+- $v=\frac{2πr}{T}$** [1 mark]**
+- Where* r* = radius **AND ***T *= orbital / time period;** [1 mark]**
+
+**[Total: 2 marks]**
+(i) Determine the radius of a circular orbit:
+
+Recall that the orbital radius is measured from the centre of the Earth:
+
+- Orbital radius = radius of Earth + height of orbit **OR ***R* + *h* **OR **6400 km + 600 km; **[1 mark]**
+- r = 7000 km
+- r = 7 000 000 m **OR** 7 × 10<sup>6</sup> m **[1 mark]**
+
+(ii) Convert the orbital period to S.I. units for a circular orbit:
+
+- 1 minute = 60 seconds
+- $106\times60=6360s$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The question has asked for your final answer to be in specific **units** - make sure to check your final answer is in these for full marks!*
+To calculate the orbital speed of the satellite:
+
+List the known quantities:
+
+- Orbital radius,* r* = 7 000 000 m (from part c)
+- Orbital period, *T* = 6360 s (from part c)
+
+Use the equation for orbital speed:
+
+- $v=\frac{2πr}{T}$
+
+Substitute the quantities and calculate:
+
+- $v=\frac{2πr}{T}=\frac{2\timesπ\times7000000}{6360}$** [1 mark]**
+
+Write the answer to two sig figs with the unit:
+
+- $v=6915=6900m/s=6.9\times10^{3}m/s$ ** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *For the speed, **v** to be in m/s, the radius of the orbit **r** must be in **metres** and the time period **T** must be in **seconds**.*
+
+### Q20
+(i) The comet travels:
+
+- Towards the Sun;** [1 mark]**
+
+(ii) Gravitational field strength:
+
+- <u>Increases</u> as the distance to the Sun decreases; **[1 mark]**
+
+(iii) The speed of the comet:
+
+- <u>Increases</u> at it enters the Solar System; **[1 mark]**
+
+**[Total: 3 marks]**
+(i) To compare and explain the orbital speeds of Mercury and Saturn:
+
+State the relative speed by comparing:
+
+- Mercury's orbital speed is higher than Saturn's **OR **Saturn's orbital speed is lower than Mercury's;** [1 mark]**
+
+Give the reason:
+
+- Mercury is closer to the Sun;** [1 mark]**
+- So the gravitational attraction is higher;** [1 mark]**
+
+**OR**
+
+- Saturn is further from the Sun;** [1 mark]**
+- So the gravitational attraction is lower;** [1 mark]**
+
+**   **
+
+(ii) To compare the length of the year on different planets:
+
+- One year is the time it takes to complete one full orbit;** [1 mark]**
+- Saturn has a longer year than on Mercury **OR**** **Mercury has a shorter year than Saturn; **[1 mark]**
+- Because Saturn has a larger orbit **OR**** **Mercury has a smaller orbit; **[1 mark]**
+
+**[Total: 6 marks]**

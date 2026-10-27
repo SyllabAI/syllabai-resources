@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:31:54Z",
+ "generated_utc": "2026-10-26T14:30:30Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -83,17 +83,31 @@
    "question_count": 17,
    "questions_embedded": 15,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/double-entry-book-keeping-with-ledger-accounts/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_HqbGNHbj4WHVDZdj",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/double-entry-book-keeping-with-ledger-accounts/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 15,
+  "questions_embedded": 20,
   "questions_missing": [
    "qstn_9bnW5HttCWyCSwBJ",
    "qstn_fhcYwdcpwfxFzNNJ"
   ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -863,6 +877,195 @@
        "text_md": "purchases ledger control account"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RMYtw8D85JXQDRW5",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_MG2V7YNbkpscZPpq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YnttsdW5bSC4h5JP"
+     ],
+     "part_tier": null,
+     "problem_md": "Seok buys and sells goods on credit. He allows a credit customer, Naomi, trade discount of 10%. All customers pay Seok by bank transfer.\n\nThe following balance was extracted from Seok’s sales ledger at 1 August 2023.\n\n|   | \\$ |\n|---|---|\n| Naomi | 450 |\n\nThe following transactions took place in August 2023.\n\n| Aug  3 | Sold goods on credit, to Naomi, list price \\$410 |\n|---|---|\n| 10 | Naomi returned goods, list price \\$20 |\n| 11 | Naomi paid \\$423 in full settlement of the amount she owed at 1 August |\n| 22 | Sold goods on credit, to Naomi, list price \\$230 |\n\n**REQUIRED**\n\nPrepare the account for Naomi for August 2023 as it would appear in the books of Seok. Balance the account and bring down the balance at 1 September 2023.\n\nSeok \nNaomi account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Calculate the amounts owed by Naomi after deducting the trade discount\n\n- Aug 3: List price \\$410\n\n$\\begin{gathered} 10 \\% \\times 410 & = 41 \\\\ 410 - 41 & = 369 \\end{gathered}$\n\n- Aug 22: List price \\$230\n\n$\\begin{gathered} 10 \\% \\times 230 & = 23 \\\\ 230 - 23 & = 207 \\end{gathered}$\n\nCalculate the amounts returned by Naomi after deducting the trade discount\n\n- Aug 10: List price \\$20\n\n$\\begin{gathered} 10 \\% \\times 20 & = 2 \\\\ 20 - 2 & = 18 \\end{gathered}$\n\nCalculate the discount allowed\n\n- Aug 11: \\$423 paid to settle \\$450\n\n$450-423=27$\n\nSeok \nNaomi account\n\n| Date | Details | \\$ |   | Date | Details | \\$ |   |\n|---|---|---|---|---|---|---|---|\n| 2023 |   |   |   | 2023 |   |   |   |\n| Aug 1 | Balance b/d | 450 | **[1]** | Aug 10 | Sales returns | 18 | **[1]** |\n| 3 | Sales | 369 | **[1]** | 11 | Bank | 423 | **[1]** |\n| 22 | Sales | 207 |   | Discount allowed | 27 | **[1]** |   |\n|   |   |   |   | 31 | Balance c/d | 558 |   |\n|   |   | <u>1 026</u> |   |   |   | <u>1 026</u> |   |\n| Sep 1 | Balance b/d | 558 | **[1]** |   |   |   |   |\n\n> **[mark-scheme]**\n> 6 marks in total. 1 mark for each of the following with the correct dates and details.\n> \n> **Explanation**\n> \n> - Balance b/d for 1 Aug on the debit side with the correct figure\n> \n>   - This is because Naomi owes money to Seok\n> - **Both **of the sales entries on the debit side with your **own figures**\n> \n>   - This is because the amount Naomi owes to Seok is increasing\n> - Sales returns on the credit side with your **own figure**\n> \n>   - This is because the amount Naomi owes to Seok is decreasing\n> - Bank on the credit side with the correct figure\n> \n>   - This is because the amount Naomi owes to Seok is decreasing\n> - Discount allowed on the credit side with the correct figure\n> \n>   - This is because the amount Naomi owes to Seok is decreasing\n> - Balance b/d for 1 Sep on the debit side with your** own figure **used for balance c/d\n> \n>   - This is because Naomi owes money to Seok",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 10 percent sign cross times 410 end cell equals 41 row cell 410 minus 41 end cell equals 369 end table",
+       "render": "$\\begin{gathered} 10 \\% \\times 410 & = 41 \\\\ 410 - 41 & = 369 \\end{gathered}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 10 percent sign cross times 230 end cell equals 23 row cell 230 minus 23 end cell equals 207 end table",
+       "render": "$\\begin{gathered} 10 \\% \\times 230 & = 23 \\\\ 230 - 23 & = 207 \\end{gathered}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 10 percent sign cross times 20 end cell equals 2 row cell 20 minus 2 end cell equals 18 end table",
+       "render": "$\\begin{gathered} 10 \\% \\times 20 & = 2 \\\\ 20 - 2 & = 18 \\end{gathered}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "450-423=27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>450</mn><mo>-</mo><mn>423</mn><mo>=</mo><mn>27</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "450 minus 423 equals 27"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_R6bwtqzVvHhPHvJ9",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_tBVmGb5xwr739342",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_xRJFbdKTQ8WNpv4n"
+     ],
+     "part_tier": null,
+     "problem_md": "Omer is a trader.\n\nThe following transactions took place in April 2023\n\n| April 7 | Paid \\$360 to a supplier, Alexander, by telephone transfer |\n|---|---|\n| 12 | Purchased goods, \\$340, on credit from Alexander |\n| 27 | Paid \\$323 by cheque to Alexander, having deducted \\$17 cash discount |\n| 28 | Purchased goods, \\$235, on credit from Alexander |\n\n**REQUIRED **\n\nPrepare the account for Alexander for April 2023. Balance the account and bring down the balance at 1 May 2023.\n\nOmer \nAlexander account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   | 2023 |   |   |\n|   |   |   | Apr 1 | Balance b/d | 360 |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Omer \nAlexander account\n\n| Date | Details |   | \\$ | Date | Details | \\$ |   |\n|---|---|---|---|---|---|---|---|\n| 2023 |   |   |   | 2023 |   |   |   |\n| Apr 7 | Bank | **[1]** | 360 | Apr 1 | Balance b/d | 360 |   |\n| 27 | Bank | **[1]** | 323 | 12 | Purchases | 340 | **[1]** |\n|   | Discount received | 17 | 28 | Purchases | 235 |   |   |\n| 30 | Balance c/d |   | 235 |   |   |   |   |\n|   |   |   | <u>935</u> |   |   | <u>935</u> |   |\n|   |   |   |   | May 1 | Balance b/d | 235 | **[1]** |\n\n> **[mark-scheme]**\n> 4 marks in total.\n> \n> - 1 mark for bank on the debit side on Apr 7 with the correct amount\n> - 1 mark for purchases on the credit side on Apr 12 **and **28 with the correct amounts\n> - 1 mark for bank **and **discount received on the debit side on Apr 27 with the correct amounts\n> - 1 mark for balance b/d on the credit side on May 1 with your **own figure** from balance c/d\n\n> **[exam-tip]**\n> Alexander is a supplier so this is a trade payable account. Credit entries increase the amount Omer owes to Alexander and debit entries decrease the amount owed."
+    }
+   ]
+  },
+  {
+   "id": "qstn_XHK5snCH5qpdFkXd",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_xzQgRfgFhSjhXXPV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_3WcCPKcMm2gkz2tD"
+     ],
+     "part_tier": null,
+     "problem_md": "Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.\n\n|   | \\$ |\n|---|---|\n| At 1 October 2022 |   |\n| Inventory | 8 400 |\n| At 30 September 2023 |   |\n| Inventory | 8 675 |\n\nThe provision for doubtful debts is to be maintained at 4% of trade receivables.\n\n**REQUIRED**\n\nPrepare the inventory account for the year ended 30 September 2023.\n\nLogan \nInventory account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Logan \nInventory account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2022 |   |   | 2023 |   |   |\n| Oct 1 | Balance b/d **[1]** | 8 400 | Sep 30 | Income statement **[1]** | 8 400 |\n|   |   | <u>8 400</u> |   |   | <u>8 400</u> |\n| 2023 |   |   |   |   |   |\n| Sep 30 | Income statement **[1]** | 8 675 |   |   |   |\n\n> **[mark-scheme]**\n> 3 marks in total. 1 mark for each of the following with the correct date, details and amount:\n> \n> - Balance b/d\n> - Income statement for the opening inventory\n> - Income statement for the closing inventory\n\n> **[exam-tip]**\n> You might have balanced this account and brought the balance down at 1 October 2023. If you did, then you still get full marks."
+    }
+   ]
+  },
+  {
+   "id": "qstn_bjncwvFskn8wbyp5",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_2vm5wYDbJSZ4KPDH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_xRJFbdKTQ8WNpv4n"
+     ],
+     "part_tier": null,
+     "problem_md": "Shvan makes payments to Giles from his bank account as well as by cash. All payments of less than \\$75 are made from petty cash.  He provided the following information.\n\n| March 1 | Owed Giles, \\$165, from February |\n|---|---|\n| 2 | Paid \\$55 to Giles, a trade payable |\n| 13 | Paid Giles the amount outstanding on his account, by cheque |\n| 22 | Purchased goods on credit from Giles, list price \\$150, subject to a trade discount of 4% |\n\nPrepare the account for Giles as it would appear in the books of Shvan. Balance the account at 31 March 2023 and bring down the balance at 1 April 2023.\n\nShvan \nGiles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Find the amount owed for the purchase on 22 March\n\n- Find the percentage of the list price\n\n$100 \\% - 4 \\% = 96 \\%$\n\n- Multiply the list price by the percentage\n\n$96 \\% \\times 150 = 144$\n\nShvan \nGiles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2023 |   |   | 2023 |   |   |\n| Mar 2 | Petty cash **[1]** | 55 | Mar 1 | Balance b/d | 165 |\n| 13 | Bank **[1]** | 110 | 22 | Purchases **[1]** | 144 |\n| 31 | Balance c/d | 144 |   |   |   |\n|   |   | 309 |   |   | 309 |\n|   |   |   | Apr 1 | Balance b/d **[1]** | 144 |\n\n> **[mark-scheme]**\n> 4 marks in total. 1 mark for the correct details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> Work through each date individually.\n> \n> - Mar 2: Debit \\$55 with entry for petty cash\n> - Mar 13: Debit \\$110 with entry for Bank\n> - Mar 22: Credit \\$144 with entry for purchases\n> - Apr 1: Credit with entry for balance b/d\n> \n>   - This mark is for using your **own figure** from the balance c/d entry\n\n> **[exam-tip]**\n> Giles is a trade payable so it is a liability account. Credit entries increase the amount Shvan owes to Giles and debit entries decrease the amount owed. Therefore, the balance b/d is on the credit side.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "100 percent sign minus 4 percent sign equals 96 percent sign",
+       "render": "$100 \\% - 4 \\% = 96 \\%$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "96 percent sign cross times 150 equals 144",
+       "render": "$96 \\% \\times 150 = 144$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_R4R3X7Y2hmXJttv5",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_n3VW4c5935HGCZXk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xRJFbdKTQ8WNpv4n"
+     ],
+     "part_tier": null,
+     "problem_md": "Mariam is a credit customer of Shahid.\n\nThe following incomplete statement of account was available on 31 August 2017.\n\n| STATEMENT OF ACCOUNT <br>Shahid <br>44 Narrow Lane, Anytown |   |   |   |   |\n|---|---|---|---|---|\n| Mariam <br>The Avenue<br>Weston |   | 31 August 2017 |   |   |\n| Date | Reference | Debit <br>\\$ | Credit<br>\\$ | Balance<br>\\$ |\n| 2017 Aug 1 | Balance due |   |   | 520 |\n| 9 | Goods | 340 |   | 860 |\n| 13 | Returns |   | 24 | ? |\n| 24 | Payment |   | 507 | ? |\n|   | Discount |   | 13 | ? |\n\n**REQUIRED **\n\nPrepare the account of Shahid as it would appear in the ledger of Mariam.\n\nBalance the account and bring down the balance on 1 September 2017.\n\nMariam \nShahid account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Mariam \nShahid account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2017 |   |   | 2017 |   |   |\n| Aug 13 | Purchases returns **[1]** | 24 | Aug 1 | Balance b/d | 520 |\n| 24 | Bank **[1]** | 507 | 9 | Purchases **[1]** | 340 |\n| 24 | Discount received **[1]** | 13 |   |   |   |\n| 31 | Balance c/d | 316 |   |   |   |\n|   |   | <u>860</u> |   |   | <u>860</u> |\n|   |   |   | Sep 1 | Balance b/d **[1]** | 316 |\n\n> **[mark-scheme]**\n> 5 marks in total, 1 mark for each of the following.\n> \n> **Explanation**\n> \n> - Aug 9: Enter purchases on the credit side\n> \n>   - This is because Mariam buys goods from Shahid\n>   - This increases the amount that she owes him\n> - Aug 13: Enter purchases returns on the debit side\n> \n>   - This is because Mariam returns goods to Shahid\n>   - This decreases the amount that she owes him\n> - Aug  24: Enter bank on the debit side\n> \n>   - This is because Mariam pays Shahid by cheque\n>   - This decreases the amount that she owes him\n> - Aug  24: Enter discount received on the debit side\n> \n>   - This is because Mariam receives a discount from Shahid\n>   - This decreases the amount that she owes him\n>   - You get this mark just for the word \"discount\"\n> - Sep 1: Enter the balance b/d on the credit side\n> \n>   - This is because Mariam owes money to Shahid\n>   - This mark is for using your **own figures** from the balance c/d entries\n\n> **[exam-tip]**\n> Read the question carefully to see whose point of view the account is from. This account is in the books of Mariam, so it is from Mariam's point of view. This is different to the statement of account, so debits and credit s are flipped. Shahid is a supplier to Mariam. Therefore, credit entries increase the amount Shahid owes and debits reduce the amount."
     }
    ]
   }

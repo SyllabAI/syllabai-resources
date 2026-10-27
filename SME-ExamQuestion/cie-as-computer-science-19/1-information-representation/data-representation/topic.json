@@ -1,0 +1,506 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:37:33Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "1-information-representation",
+  "name": "1. Information representation"
+ },
+ "topic": {
+  "id": "top_bCFy3b95PWP8gts7",
+  "slug": "data-representation",
+  "name": "Data Representation",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "uses-of-number-systems-",
+   "name": "Uses of number systems",
+   "revision_note_id": "rn_s2xj3WR3R9W69tTw"
+  },
+  {
+   "slug": "binary-prefixes",
+   "name": "Binary prefixes",
+   "revision_note_id": "rn_YyDhCsxv2Tk7fjQQ"
+  },
+  {
+   "slug": "number-systems-",
+   "name": "Number systems",
+   "revision_note_id": "rn_9mHkCTVy3ZPPwJnn"
+  },
+  {
+   "slug": "binary-arithmetic-",
+   "name": "Binary arithmetic",
+   "revision_note_id": "rn_cbDBfqqqKsYVrcpV"
+  },
+  {
+   "slug": "character-encoding",
+   "name": "Character encoding",
+   "revision_note_id": "rn_Pz73xDKQdbhqCPsH"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_h2GQ9fgpgjXF9Gsz",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/1-information-representation/data-representation/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_tBn7YPGRqR5MyvRb",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Yn4jK7F6RRXKHXMq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Bknjp9TZScRHGQKg"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **difference between a kibibyte and a megabyte.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> Either\n> \n> - kibibyte = 1,024 bytes // 210 bytes **and **\n> megabyte = 1000 kilobytes //1 000 000 bytes // 103 kilobytes // 106 bytes\n> \n> Or\n> \n> - kibi is binary prefix **and **mega is denary prefix"
+    },
+    {
+     "id": "qstnprt_zSsdjZX5YYbhFnny",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZSfwmXYvdV7kmcfb",
+      "spcpt_sb47nFHwV4pHGHHy",
+      "spcpt_CzpJmK3GTyQDRnpk"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Convert the denary value into a 12-bit two’s complement binary integer.\n\n−196\n\n(1)\n\n(ii) Convert the Binary Coded Decimal (BCD) into denary.\n\n100001100101\n\n(1)\n\n(iii) Convert the unsigned binary integer into denary.\n\n000111010110\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i) 1111 0011 1100\n> \n> (ii) 865\n> \n> (iii) 470"
+    },
+    {
+     "id": "qstnprt_v6wZ6Df4w5NWyXSc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_8khG62swj8NKqrXS"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **one **practical application of BCD **and **justify why BCD is used in this application.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for a correct application\n> \n> **1 mark** for a corresponding justification\n> \n> - An application that performs financial / banking calculations\n> - ... because it is difficult to represent decimal values exactly in normal binary and financial transactions use only two decimal places and must be accurate, no accumulating errors\n> \n> Or\n> \n> - Electronic displays, e.g. calculators, digital clocks\n> - ... because visual displays only need to show individual digits\n> - ... because conversion between denary and BCD is easier\n> \n> Or\n> \n> - The storage of the date and time in the BIOS of a PC\n> - ... because conversion with denary is easier"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WYVrdbGstmYsCdsB",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_Rgsf9mwyjmW48d9m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Bknjp9TZScRHGQKg"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following description.\n\nA kibibyte has a ................................................ prefix. Three kibibytes is the same as ................................................ bytes.\n\nA megabyte has a ................................................ prefix. Two terabytes is the same as ................................................ gigabytes.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for each correct answer:\n> \n> - binary\n> - 3072\n> - denary/decimal\n> - 2000\n> \n> A kibibyte has a **binary **prefix. Three kibibytes is the same as **3072** bytes. A megabyte has a **decimal/denary** prefix. Two terabytes is the same as **2000** gigabytes."
+    },
+    {
+     "id": "qstnprt_9tmjgcy4FCqHRjsT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZSfwmXYvdV7kmcfb"
+     ],
+     "part_tier": null,
+     "problem_md": "Convert the denary number 241 to hexadecimal",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for correct answer:\n> \n> **F1**"
+    },
+    {
+     "id": "qstnprt_yg448FVWx8Qx3HRt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Xx75Cy99C8czCVfW",
+      "spcpt_mCYbQ4tNrZf2sRYp"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by an** overflow in binary addition.**",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for a correct answer:\n> \n> The answer is too long to be represented in **the same number of bits **as the binary numbers being added"
+    },
+    {
+     "id": "qstnprt_qtzJbp9xT4V3tVhD",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_ZChTwM4bV6bXWSph",
+      "spcpt_NnMxGWyGN55Xt4t5",
+      "spcpt_3cMhSypHmPYmSpGB"
+     ],
+     "part_tier": null,
+     "problem_md": "Computers use character sets when representing characters in binary.\n\n(i) Complete the table by identifying the number of bits each of the character sets allocates to each character.\n\n(1)\n\n| Character set | Number of bits |\n|---|---|\n| ASCII |   |\n| extended ASCII |   |\n| Unicode |   |\n\n(ii) Explain how the word ‘Clock’ is represented by a character set.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for all 3 answers correct:\n> \n> | Character set | Number of bits |\n> |---|---|\n> | ASCII | **7** |\n> | extended ASCII | **8** |\n> | Unicode | **16/32** |\n> \n> **1 mark **each:\n> \n> - Each character has a **unique** binary code\n> - The binary code for each character is stored in sequence"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BQBcZ9YHwQ9qPD5v",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_QW2vyJGNMG6PWg2K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Bknjp9TZScRHGQKg"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer stores binary data.\n\nTick (✓) **one **box only to identify the **largest **file size.\n\n☐    3300 kibibytes\n\n☐    0.3 megabytes\n\n☐    3 mebibytes\n\n☐    3300 kilobytes",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> 3300 kibibytes"
+    },
+    {
+     "id": "qstnprt_ngYvJxprKsJXgqT7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_CzpJmK3GTyQDRnpk",
+      "spcpt_9R8nsRMhTH6vBgbw"
+     ],
+     "part_tier": null,
+     "problem_md": "Subtract the denary number 10 from the denary number 100 using binary subtraction.\n\nShow your working.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each:\n> \n> - Converting 100 to binary** 0110 0100 **and 10 to binary **0000 1010 **\n> - Subtraction method - converting 10 to – 10 and adding // direct subtraction …\n> - … correct answer **0101   1010**\n> \n> Method 1: Converting to -10 and adding:\n> \n> Binary for +10 is 0000 1010\n> \n> Binary for –10 is 1111 0110\n> \n> Binary for 100 is 0110 0100\n> \n> 100 + (-10):\n> \n> 0 1 10 0 1 0 0 \n> <u>+  1  1 1 1 0 1  1 0</u>\n> (1) 0 1 0 1 1 0 1 0\n> Carries: 1 1 0 0 1 0 0 0\n> \n> Method 2: Direct Subtraction\n> \n> Borrows:\n> \n> 0 0 0 1 1 0 1 0 \n>     0 1 1 0 0 1 0 0 \n> <u>– 0 0 0 0 1 0 1 0</u>\n> 0 1 0 1 1 0 1 0"
+    },
+    {
+     "id": "qstnprt_jC8tYFdWX78kptKm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ZSfwmXYvdV7kmcfb"
+     ],
+     "part_tier": null,
+     "problem_md": "Convert the hexadecimal number C0F into denary.\n\nShow your working",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for working:\n> \n> 1100 0000 1111 // 2048 + 1024 + 8 + 4 + 2 + 1\n> \n> // (12** 16*<sup>*2*</sup>*) + 15 // (12 * 16 * 16) + 15 // 3072 + 15\n> \n> **1 mark** for correct answer:\n> \n> 3087"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6SN4Mx2nhRfD9mfP",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_NswntYktjktQ7Qqd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Xx75Cy99C8czCVfW",
+      "spcpt_mCYbQ4tNrZf2sRYp"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the binary addition. Show your working.\n\n1 0 0 1  1   1   1 0\n    0 1 1 0 0 0 0 1\n<u>+ 0 0 0 1 1 0 0 1</u>",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark each:\n> \n> - Working – carried values clearly indicted\n> - Correct answer 0001 1000\n> - Overflow clearly indicated as overflow\n> \n> Example:\n> \n> 1 0 0 1  1   1   1 0\n>     0 1 1 0 0 0 0 1\n> <u>+ 0 0 0 1 1 0 0 1</u>\n> <u>(1) 0 0 0 1 1000</u>\n>        1   1   1   1   1   1   1 ........................(carries)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rTRBVpG2RWQ9NYhH",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_JbVBwX8Wsb47RGqG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ZSfwmXYvdV7kmcfb"
+     ],
+     "part_tier": null,
+     "problem_md": "Convert the hexadecimal number 1FAB into denary.\n\nWorking ............................\n\nDenary value .....................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> Denary value: 8107"
+    },
+    {
+     "id": "qstnprt_DHqqb5DrsgzMc52r",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_CzpJmK3GTyQDRnpk"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how to convert the two’s complement integer 10011111 into denary.\n\nGive the denary value after conversion.\n\nExplanation  ......................\n\nDenary value .....................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point for the method **(max 2)**\n> \n> e.g.\n> \n> - Flip each bit then add 1 …\n> - … method of converting the new binary number into denary\n> - Most significant 1 bit is treated as the corresponding negative denary value …\n> - … add the other positive corresponding denary values\n> \n> **1 mark** for correct conversion\n> \n> Denary value: −97"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yh9XWzN2ysnzWxZ7",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_cJmyXrSGQN7rJqXc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November",
+      "number": "9618/13",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_ZChTwM4bV6bXWSph",
+      "spcpt_NnMxGWyGN55Xt4t5"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores text, images and sound.\n\nA character set is used to represent characters in a computer.\n\nIdentify **and** describe **one **character set.\n\nCharacter set ....................\n\nDescription .......................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for identification **1 mark** for matching description\n> \n> e.g.\n> \n> - ASCII\n> - 7/8 bits per character // represents 128/256 characters // represents all characters from Latin alphabet\n> - UNICODE\n> - 8/16/32 bits per character // represents 256/65536+ characters // represents all characters in all languages"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zMfh4Q4JXbBKNCRF",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_WzSQJBZnxBTKKPqJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Bknjp9TZScRHGQKg"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **difference between a tebibyte and a gigabyte.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for:\n> \n> - A tebibyte = 1024 gibibytes / 1 048 576 kibibytes / 240 bytes whereas a gigabyte = 1000 megabytes / 1 000 000 kilobytes / 109 bytes\n> - Tebi is binary prefix giga is denary prefix"
+    },
+    {
+     "id": "qstnprt_fm7FW9twFdGKqMZq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZSfwmXYvdV7kmcfb",
+      "spcpt_sb47nFHwV4pHGHHy",
+      "spcpt_CzpJmK3GTyQDRnpk"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Convert the unsigned binary integer into hexadecimal.\n\n110001100111\n\n(1)\n\n(ii) Convert the two’s complement binary number into denary.\n\n100110010111\n\n(1)\n\n(iii) Convert the Binary Coded Decimal (BCD) into denary.\n\n010101110011\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for:\n> \n> C67\n> \n> (ii)** 1 mark** for:\n> \n> −1641\n> \n> (iii) **1 mark** for:\n> \n> 573"
+    },
+    {
+     "id": "qstnprt_whwfVdmBhzXbr2FC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mCYbQ4tNrZf2sRYp",
+      "spcpt_CzpJmK3GTyQDRnpk",
+      "spcpt_9R8nsRMhTH6vBgbw"
+     ],
+     "part_tier": null,
+     "problem_md": "Subtract the denary number 23 from the two’s complement binary number 01001010\n\nPerform this calculation using binary subtraction.\n\nShow your working.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for working **1 mark **for answer.\n> \n> Working \n> Using the two’s complement and adding:\n> \n> 23 in binary = 00010111 so minus 23 is 11101001\n> \n> 0100 1010\n> <u>+  1110 1001</u>\n> (1)0011 0011\n> \n> Direct subtraction:\n> \n> 0100 1010\n> <u>- 0001 0111</u>\n>     0011 0011\n> \n> Answer: 0011 0011"
+    },
+    {
+     "id": "qstnprt_gtfW3RYDqmY79djZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_Xx75Cy99C8czCVfW"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **reason why binary addition and subtraction can result in overflow.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** from:\n> \n> - The answer cannot be represented in the number of bits available\n> - The answer is larger than the maximum positive number that can be stored in the register\n> - The answer is smaller than the most negative number that can be stored in the register"
+    }
+   ]
+  }
+ ]
+}

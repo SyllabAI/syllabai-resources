@@ -134,3 +134,48 @@
 **B** is incorrect; the two amounts are classified the wrong way round
 
 **D** is incorrect; the vehicle sale has been included with the revenue receipts
+
+## Structured Questions (2 questions)
+
+
+### Q1
+|   | Capital expenditure | Revenue expenditure |   |
+|---|---|---|---|
+| Legal fees for obtaining permission to build the extension | ✓ |   | **[1]** |
+| Building costs for the extension | ✓ |   |   |
+| Insurance for the office |   | ✓ | **[1]** |
+| Painting the office extension | ✓ |   |   |
+| Office calendar for 2023 |   | ✓ | **[1]** |
+| Purchase of office equipment | ✓ |   |   |
+| Installation of office equipment | ✓ |   | **[1]** |
+| Stationery for office |   | ✓ |   |
+
+> **[mark-scheme]**
+> 4 marks in total. 1 mark for each correct pair.
+> 
+> **Explanation**
+> 
+> Capital expenditure includes:
+> 
+> - Cost of a non-current asset
+> - Cost of an extension
+> - Installation costs
+> - Delivery costs
+> - Legal fees
+> - Decoration of new non-current assets
+> 
+> Revenue expenses are items which are expected  to last less than a year.
+
+### Q2
+|   | Capital expenditure | Revenue expenditure |
+|---|---|---|
+| Purchase of the equipment | ✓ |   |
+| Installation costs of the equipment | ✓ **[1]** |   |
+| Carriage costs for the equipment | ✓ **[1]** |   |
+| Insurance costs for the equipment |   | ✓ **[1]** |
+
+> **[exam-tip]**
+> Students commonly mistake carriage costs of a non-current asset as revenue expenditure.
+> 
+> - Carriage of inventory is a revenue expense because it relates to sales and trading
+> - But carriage of a non-current asset relates to making that asset ready for long-term use, so it’s capitalised

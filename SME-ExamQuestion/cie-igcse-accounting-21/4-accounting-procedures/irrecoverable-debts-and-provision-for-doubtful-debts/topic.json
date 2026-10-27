@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:08Z",
+ "generated_utc": "2026-10-26T14:30:59Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -53,14 +53,28 @@
    "question_count": 7,
    "questions_embedded": 7,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/irrecoverable-debts-and-provision-for-doubtful-debts/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_YPKmTQMWwPYQx2Qm",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/irrecoverable-debts-and-provision-for-doubtful-debts/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 7,
+  "questions_embedded": 10,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -421,6 +435,142 @@
        "label": "D",
        "is_correct": false,
        "text_md": "Louhi has been unable to pay her supplier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JxCbBYK9qntKj4Jg",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_part",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_S97ssKvF3tj8YhfQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Rd2msrC7pY9jyrqb"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two** reasons why a business might maintain a provision for doubtful debts.\n\n1 ................................................................................................................................\n\n2................................................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> Maximum 2 marks for reasons such as:\n> \n> - It is likely that some trade receivables will not pay the amount they owe\n> - To apply the accounting principle of prudence by ensuring profit is not overstated\n> - To apply the accounting principle of prudence by ensuring trade receivables is not overstated\n> - To apply the accounting principle of matching by ensuring that sales which are unlikely to be received are taken into account for the year that the sales took place"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2R7z8RzSH9Tjz6DM",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_j9pXb5zbfmrxwKKb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Rd2msrC7pY9jyrqb",
+      "spcpt_7bsxTZQQSHvWHtNy"
+     ],
+     "part_tier": null,
+     "problem_md": "Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.\n\n|   | \\$ |\n|---|---|\n| At 1 October 2022 |   |\n| Trade receivables | 7 500 |\n| 1 June 2023 | 2 490 |\n| At 30 September 2023 |   |\n| Trade receivables | 8 700 |\n| Irrecoverable debts to be written off | 325 |\n\nThe provision for doubtful debts is to be maintained at 4% of trade receivables.\n\n**REQUIRED**\n\nPrepare the provision for doubtful debts account for the year ended 30 September 2023. Balance the account at 30 September 2023 and bring down the balance at 1 October 2023.\n\nLogan \nProvision for doubtful debts account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Calculate the provision at the start of the year\n\n$4 \\% \\times 7500 = 300$\n\nCalculate the provision at the end of the year\n\n- Subtract the irrecoverable debts\n\n$8700-325=8375$\n\n- Find the provision\n\n$4 \\% \\times 8375 = 335$\n\nCalculate the increase\n\n$335-300=35$\n\nLogan \nProvision for doubtful debts account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2023 |   |   | 2022 |   |   |\n| Sep 30 | Balance c/d **[1]** | 335 | Oct 1 | Balance b/d **[1]** | 300 |\n|   |   |   | 2023 |   |   |\n|   |   |   | Sep 30 | Income statement **[1]** | 35 |\n|   |   | <u>335</u> |   |   | <u>335</u> |\n|   |   |   | Oct 1 | Balance b/d **[1]** | 335 |\n\n> **[mark-scheme]**\n> 4 marks in total:\n> \n> - 1 mark for the correct balance b/d\n> - 1 mark for the correct balance c/d\n> - 1 mark for using your **own figure** to find the amount for the income statement\n> - 1 mark for using your **own figure** for balance c/d to create the balance b/d\n\n> **[exam-tip]**\n> Don't forget to subtract the irrecoverable debts before calculating the provision for doubtful debts.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "4 percent sign cross times 7500 equals 300",
+       "render": "$4 \\% \\times 7500 = 300$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "8700-325=8375",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8700</mn><mo>-</mo><mn>325</mn><mo>=</mo><mn>8375</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8700 minus 325 equals 8375"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "4 percent sign cross times 8375 equals 335",
+       "render": "$4 \\% \\times 8375 = 335$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "335-300=35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>335</mn><mo>-</mo><mn>300</mn><mo>=</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "335 minus 300 equals 35"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sKh7ypgy88Wj5g9k",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_RXw3hMt9b9QVCkSs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Rd2msrC7pY9jyrqb",
+      "spcpt_6ntSqP6M6Gh97H9m"
+     ],
+     "part_tier": null,
+     "problem_md": "Stalla is a sole trader who sells on credit. She maintains a provision for doubtful debts at 4% of trade receivables.\n\nStalla’s trade receivables were:\n\n|   | \\$ |\n|---|---|\n| At 31 December 2021 | 75 000 |\n| At 31 December 2022 | 77 000 |\n\n**REQUIRED **\n\nPrepare Stalla’s provision for doubtful debts account for the year ended 31 December 2022. Balance the account at 31 December 2022 and bring down the balance at 1 January 2023.\n\nStalla \nProvision for doubtful debts account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Find the provision for doubtful debts at the start of the year\n\n$4 \\% \\times 75000 = 3000$\n\nFind the provision for doubtful debts at the end of the year\n\n$4 \\% \\times 77000 = 3080$\n\nFind the increase in the provision for doubtful debts\n\n$3080-3000=80$\n\nStalla \nProvision for doubtful debts account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2022 |   |   | 2022 |   |   |\n| Dec 31 | Balance c/d | 3 080 | Jan 1 | Balance b/d **[1]** | 3 000 |\n|   |   |   | Dec 31 | Income statement **[1]** | 80 |\n|   |   | <u>3 080</u> |   |   | <u>3 080</u> |\n|   |   |   | 2023 |   |   |\n|   |   |   | Jan 1 | Balance b/d **[1]** | 3 080 |\n\n> **[mark-scheme]**\n> 3 marks in total. 1 mark for the correct date, details and amount(s) for each of the items below.\n> \n> **Explanation**\n> \n> - 1 Jan 2022: \\$3000 as the balance b/d on the credit side\n> \n>   - It is a credit because it is a provision for the reduction in an asset balance\n> - 31 Dec 2022: Make an entry on the credit side for the income statement\n> \n>   - This mark is for subtracting your **own figures **for the starting and ending balances\n> - 1 Jan 2023: \\$3080 as the balance b/d on the credit side",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "4 percent sign cross times 75000 equals 3000",
+       "render": "$4 \\% \\times 75000 = 3000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "4 percent sign cross times 77000 equals 3080",
+       "render": "$4 \\% \\times 77000 = 3080$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "3080-3000=80",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3080</mn><mo>-</mo><mn>3000</mn><mo>=</mo><mn>80</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3080 minus 3000 equals 80"
       }
      ]
     }

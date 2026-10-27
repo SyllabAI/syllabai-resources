@@ -183,7 +183,7 @@ Describe **two** phenomena associated with the photoelectric effect that cannot 
 
 The maximum energy *E*<sub>max</sub> of electrons emitted from a metal surface when illuminated by light of wavelength λ is given by the expression
 
-`E subscript m a x end subscript equals h c open parentheses 1 over lambda minus 1 over lambda subscript 0 close parentheses`
+`E _ m a x end _ = h c ( 1 / lambda - 1 / lambda _ 0 )`
 
 where *h* is the Planck constant and *c* is the speed of light.
 

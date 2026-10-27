@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:38:50Z",
+ "generated_utc": "2026-10-26T13:58:05Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/",
@@ -63,10 +63,24 @@
    "question_count": 24,
    "questions_embedded": 18,
    "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/3-stoichiometry/3-1-formulae-and-relative-masses/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_STF6Gfhg75nQX3pJ",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 17,
+   "questions_embedded": 17,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/3-stoichiometry/3-1-formulae-and-relative-masses/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 18,
+  "questions_embedded": 35,
   "questions_missing": [
    "qstn_XSFNvWVV4yKM5dGy",
    "qstn_dD6SkTbCsg6hd5rC",
@@ -77,12 +91,19 @@
   ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2026/02/11664-paper-1-q10-image-1.png": "001-structural-formula-of-ethanoic-acid-showing-two-.png",
    "https://cdn.savemyexams.com/uploads/2023/03/q2-2-4-mcq-easy-cie-igcse-che.png": "002-q2-2-4-mcq-easy-cie-igcse-che.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/BuC2vATv_q4-2-4-mcq-easy-cie-igcse-che.png": "003-buc2vatv-q4-2-4-mcq-easy-cie-igcse-che.png"
+   "https://cdn.savemyexams.com/uploads/2023/03/BuC2vATv_q4-2-4-mcq-easy-cie-igcse-che.png": "003-buc2vatv-q4-2-4-mcq-easy-cie-igcse-che.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q2a-0620-s20-qp-42.png": "004-q2a-0620-s20-qp-42.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q1a-0620-s20-qp-43.png": "005-q1a-0620-s20-qp-43.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q2f-0620_s19_qp_31.png": "006-q2f-0620-s19-qp-31.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q2d-0620_s19_qp_33.png": "007-q2d-0620-s19-qp-33.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q4bii_0620-s20-qp-32_cie-igcse-chemistry.png": "008-q4bii-0620-s20-qp-32-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/co2-dot-and-cross.png": "009-co2-dot-and-cross.png"
   }
  },
  "questions": [
@@ -1018,6 +1039,1463 @@
        "label": "D",
        "is_correct": false,
        "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZBV7xvndjnZXDmTM",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_NPHyTgs9tkpDF5cG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThis question is about lead nitrate.\n\nLead nitrate is an ionic compound.\n\nIt consists of Pb<sup>2+</sup> and NO<sub>3</sub><sup>-</sup> ions.\n\nWhat is the chemical formula of lead nitrate?",
+     "solution_md": "a) The chemical formula for lead nitrate is:\n\n- Pb(NO<sub>3</sub>)<sub>2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The overall charge on the ionic compound should be 0 *\n- *Therefore two nitrate ions are needed for every one lead ion *\n- *To show that there are two lead ions, brackets need to be around the nitrate ion as the nitrate ion contains more than one element*"
+    },
+    {
+     "id": "qstnprt_QZRD6TYtQz8RMzkX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NDmjnvxzkMPwq35k"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe chemical formula for lead nitrate is: Pb(NO3)2.\n\n#### Separate: Chemistry and Extended Only\n\nCalculate the percentage by mass of oxygen in lead nitrate, Pb(NO<sub>3</sub>)<sub>2</sub>.",
+     "solution_md": "b) The percentage by mass of oxygen in lead nitrate, Pb(NO<sub>3</sub>)<sub>2</sub> is:\n\n- Relative formula mass of lead nitrate = 207 + (14 x 2) + (16 x 6) = <u>331</u>; **[1 mark]**\n- Percentage by mass of oxygen = $\\frac{16\\times6}{331}\\times100$= 29.0%;** [1 mark] **\n\n**[Total: 2 marks]**\n\n- *Remember:**  *`% mass of an element = (A _ r x number of atoms of the element)/(M _ r of the compound) x 100`\n- *In this question, you are being asked about the six oxygen atoms so make sure you include them all in your calculation*\n- *In the actual exam, you might be given the atomic masses that you need to use but there is also the possibility that you will be expected to look them up on the Periodic Table*",
+     "equations": [
+      {
+       "latex": "\\frac{16\\times6}{331}\\times100",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>16</mn><mo>×</mo><mn>6</mn></mrow><mn>331</mn></mfrac><mo>×</mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 16 cross times 6 over denominator 331 end fraction cross times 100"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign space mass space of space an space element equals fraction numerator A subscript straight r cross times number space of space atoms space of space the space element over denominator M subscript straight r space of space the space compound end fraction cross times 100",
+       "render": "`% mass of an element = (A _ r x number of atoms of the element)/(M _ r of the compound) x 100`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_z6TjzDKkqyZQSjwX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThis question is about lead nitrate. Lead nitrate is an ionic compound. It consists of Pb^2+^ and NO~3~^-^ ions. The chemical formula for lead nitrate is Pb(NO~3~)~2~.\n\n#### Extended Only\n\nA displacement reaction occurs between solutions of lead nitrate and potassium iodide, KI, to form solid lead(II) iodide and aqueous potassium nitrate.\n\nWrite the balanced symbol equation, including state symbols, for this reaction.",
+     "solution_md": "c) The balanced symbol equation, including state symbols, for this reaction is:\n\nPb(NO<sub>3</sub>)<sub>2</sub> (aq) + 2KI (aq) → PbI<sub>2</sub> (s) + 2KNO<sub>3</sub> (aq)\n\n- Correct formula of lead(II) iodide = PbI<sub>2</sub> \n**AND **\nCorrect formula of potassium nitrate = KNO<sub>3</sub>; **[1 mark]**\n- All reactant chemical formulae correct \n**AND **\nEquation correctly balanced; **[1 mark]**\n- All state symbols correct; **[1 mark]**\n\n**[Total: 3 marks]**** **\n\n- *You are told (in this and previous questions) the chemical formula and physical state of both lead nitrate and potassium iodide*\n\n  - *Pb(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* (aq) + KI (aq)** →*\n- *The iodide ion and nitrate ion both have a 1– charge which means that they are interchangeable in this displacement reaction*\n\n  - *Pb(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* (aq) + KI (aq) → **PbI*<sub>*2*</sub>* + KNO*<sub>*3*</sub>* *\n- *You are told that lead iodide is solid and potassium nitrate is aqueous*\n\n  - *Pb(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* (aq) + KI (aq) → PbI*<sub>*2*</sub>* **(s)** + KNO*<sub>*3*</sub>* **(aq)*\n- *You then have to balance the equation*\n\n  - *Pb(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* (aq) + **2**KI (aq) → PbI*<sub>*2*</sub>* (s) + **2**KNO*<sub>*3*</sub>* (aq)*"
+    },
+    {
+     "id": "qstnprt_JvwWRZBytN735mSp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FVDcRkyHwrQq5GpH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPb(NO3)2 (aq) + 2KI (aq) → PbI2 (s) + 2KNO3 (aq)\n\nTable 1\n| Soluble | Insoluble |\n| All nitrates |   |\n| Most common chlorides | Silver chloride, lead chloride |\n| Most common sulfates | Lead sulfate, barium sulfate, calcium sulfate |\n| Sodium carbonate, potassium carbonate, ammonium carbonate | Most common carbonates |\nThe displacement reaction between lead nitrate and potassium iodide forms a yellow precipitate.\n\n#### Separate: Chemistry Only\n\n**Table 1 **summarises the solubility of a selection of ionic compounds in water.\n\n**Table 1**\n\n| **Soluble** | **Insoluble** |\n|---|---|\n| All nitrates |   |\n| Most common chlorides | Silver chloride, lead chloride |\n| Most common sulfates | Lead sulfate, barium sulfate, calcium sulfate |\n| Sodium carbonate, potassium carbonate, ammonium carbonate | Most common carbonates |\n\nThe displacement reaction between lead nitrate and potassium iodide forms a yellow precipitate.\n\nJustify which chemical is responsible for the yellow colour.",
+     "solution_md": "d) The chemical that is responsible for the yellow colour is:\n\n- Lead iodide;** [1 mark]**\n- (Because) the lead iodide is solid; **[1 mark] **\n\n**[Total: 2 marks]**\n\n- *The line before the main question tells you that a yellow precipitate is formed*\n\n  - *A precipitate is an insoluble solid that is formed during a chemical reaction*\n- *The two products of this reaction are potassium nitrate and lead iodide*\n\n  - *Table 1 **tells you that all nitrates are soluble*\n  \n    - *Therefore, the precipitate cannot be potassium nitrate*\n  - *Table 1 **also tells you that lead chloride is insoluble, so it would be a fair assumption that lead iodide would be insoluble*\n  \n    - *This may not always be true as groups often show trends in reactions as you move up or down the group*\n    - *Theoretically, this assumption should be a safe assumption because the silver halide salts become less soluble as you move down the group - think testing for the halide ions*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Z3y2bWxFStCgxMch",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_w8cfxHWBVmbV96Kg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/42/04",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFluorine forms both ionic and covalent compounds. Magnesium reacts with fluorine to form the ionic compound magnesium fluoride. The electronic structures of an atom of magnesium and an atom of fluorine are shown.\n\n![q2a-0620-s20-qp-42](assets/004-q2a-0620-s20-qp-42.png)\n\nWhat is the formula of magnesium fluoride?",
+     "solution_md": "a) The formula for magnesium fluoride is:\n\n- MgF<sub>2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Magnesium has two outer shell electrons *\n- *Fluorine has seven outer shell electrons *\n\n  - *It can only gain one electron to achieve a full outer shell *\n  - *Two fluorine atoms are therefore needed for every one magnesium atom when an ionic bond forms*"
+    },
+    {
+     "id": "qstnprt_CpzsfXJDBTVFTRTk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "620/42/04",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "When copper is reacted with hot concentrated sulfuric acid, sulfur dioxide gas is formed.\n\nBalance the chemical equation for this reaction.\n\nCu + .......H<sub>2</sub>SO<sub>4</sub> → CuSO<sub>4</sub> + SO<sub>2</sub> + .......H<sub>2</sub>O",
+     "solution_md": "b) The balanced equation for this reaction  is:\n\nCu + **2**H<sub>2</sub>SO<sub>4 </sub>→ CuSO<sub>4</sub> + SO<sub>2</sub> + **2**H<sub>2</sub>O\n\n- Left hand side; **[1 mark]**\n- Right hand side; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *There are two sulfur atoms on the right hand side and one on the left hand side*\n- *Add a 2 in front of H*<sub>*2*</sub>*SO*<sub>*4*</sub>* *\n\n  - *Cu + **2**H*<sub>*2*</sub>*SO*<sub>*4 *</sub>*→ CuSO*<sub>*4*</sub>* + SO*<sub>*2*</sub>* + H*<sub>*2*</sub>*O*\n- *There are now four hydrogen atoms on the left hand side*\n- *Add 2 in front of H*<sub>*2*</sub>*O *\n\n  - *Cu + **2**H*<sub>*2*</sub>*SO*<sub>*4 *</sub>*→ CuSO*<sub>*4*</sub>* + SO*<sub>*2*</sub>* + **2**H*<sub>*2*</sub>*O*\n  - *This also balances the oxygen atoms*"
+    },
+    {
+     "id": "qstnprt_6Nqk49YsRYnDHH8b",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "620/42/04",
+      "question_number": 3,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen copper is reacted with hot concentrated sulfuric acid, sulfur dioxide gas is formed. Balance the chemical equation for this reaction. Cu + .......H~2~SO~4~ → CuSO~4~ + SO~2~ + .......H~2~O\n\n#### Extended Only\n\nWhen sulfuric acid reacts with ammonia the salt produced is ammonium sulfate.\n\nWrite the chemical equation for this reaction.",
+     "solution_md": "c) The balanced equation for this reaction  is:\n\n2NH<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>\n\n- Correct formulae; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The formula for sulfuric acid has been given in part b) - H*<sub>*2*</sub>*SO*<sub>*4*</sub>\n- *You are expected to know the formula of ammonia is NH*<sub>*3 *</sub>\n- *To deduce the formula of ammonium sulfate:*\n\n  - *The ammonium ion is NH*<sub>*4*</sub><sup>*+*</sup>\n  - *The sulfate ion is SO*<sub>*4*</sub><sup>*2-*</sup>\n  - *The overall charge of the compound is 0 so these charges should cancel each other out *\n  - *You therefore need two ammonium ions for every one sulfate ion, (NH*<sub>*4*</sub>*)*<sub>*2*</sub>*SO*<sub>*4*</sub>\n- *The balancing should be straightforward once the equation has been written*"
+    },
+    {
+     "id": "qstnprt_dgDGZrzgc3Zxvs5z",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "620/42/04",
+      "question_number": 3,
+      "question_part": "g"
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nBarium sulfate is an insoluble salt. Barium sulfate can be made from aqueous ammonium sulfate using a precipitation reaction.\n\nWrite an ionic equation for this precipitation reaction. Include state symbols.",
+     "solution_md": "d) An ionic equation for this reaction is:\n\nBa<sup>2+ </sup>(aq) + SO<sub>4</sub><sup>2- </sup>(aq) → BaSO<sub>4 </sub>(s)\n\n- Correct formulae; **[1 mark]**\n- Correct state symbols;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Barium ions have the formula Ba*<sup>*2+*</sup>\n- *Sulfate ions have the formula SO*<sub>*4*</sub><sup>*2-*</sup>\n- *One of each ion is needed for the charges to cancel each other out and give an overall charge of 0*\n- *You are told in the question that ammonium sulfate is aqueous so the sulfate ions should have the state symbol, aq *\n- *Precipitates are represented using the state symbol, s*"
+    },
+    {
+     "id": "qstnprt_dDR5H8KgHhtXZFFY",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "620/42/04",
+      "question_number": 4,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nOxygen is produced by the decomposition of hydrogen peroxide. Manganese(IV) oxide is the catalyst for this reaction.\n\nOxygen can also be produced by the decomposition of potassium chlorate(V), KClO<sub>3</sub>.\n\nThe only products of this decomposition are potassium chloride and oxygen.\n\nWrite a chemical equation for this decomposition.",
+     "solution_md": "e) The balanced equation for this reaction  is:\n\n2KClO<sub>3</sub> → 2KCl + 3O<sub>2</sub>\n\n- Correct formulae; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You are given the formula of the reactant: *\n- *You are told the only products are potassium chloride and oxygen*\n\n  - *You are expected to know the formula of both of these, KCl and O*<sub>*2*</sub>\n- *The unbalanced equation is:*\n\n  - *KClO*<sub>*3*</sub>* → KCl + O*<sub>*2*</sub>\n  - *There are an uneven number of oxygen atoms on the left hand side *\n  - *To make this an even number put a 2 in front of **KClO*<sub>*3*</sub>\n  \n    - *2**KClO*<sub>*3*</sub>* → KCl + O*<sub>*2*</sub>\n  - *Balance the oxygen atoms*\n  \n    - *2**KClO*<sub>*3*</sub>* → KCl + **3**O*<sub>*2*</sub>\n  - *Balance the chlorine and potassium atoms*\n  \n    - *2**KClO*<sub>*3*</sub>* → **2**KCl + **3**O*<sub>*2*</sub>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xt7x3CypbvvrwXKd",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HgD9Hv8CR38RQ7VY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nMagnesium displaces copper from copper sulfate solution.\n\nWrite the balanced symbol equation for the reaction.\n\nYou should include state symbols.",
+     "solution_md": "a) The word equation for magnesium displacing copper from copper sulfate solution is:\n\nMg (s) +  CuSO<sub>4</sub> (aq) →  Cu (s) + MgSO<sub>4</sub> (aq)\n\n- Correct reactants and products; **[1 mark] **\n- Correct state symbols; **[1 mark] **\n\n**[Total: 2 marks]**\n\n- *Remember:** Displacement reactions are where a more reactive metal displaces / swaps places with the less reactive metal that is in a compound*\n- *This means that magnesium sulfate must be the other product formed*"
+    },
+    {
+     "id": "qstnprt_wC2RX3XDHRwtqVqn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KTcy6y55k5r9dsyn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMagnesium displaces copper from copper sulfate solution.\nMg (s) + CuSO4 (aq) → Cu (s) + MgSO4 (aq)\n\n#### Extended Only\n\nState **two **changes that would be observed during the displacement reaction.",
+     "solution_md": "b) **Two **changes that will be observed are:\n\nAny **two** from:\n\n- Solution changes from <u>blue</u> to colourless \n**OR **\nBlue colour (in solution) fades / disappears; **[1 mark]**\n- Magnesium dissolves / displaces into solution; **[1 mark]**\n- Solid copper appears; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *It is likely that you would be told that copper sulfate solution is blue*\n- *You should be able to talk about copper appearing and magnesium \"disappearing\" from the displacement reaction information given in the previous question parts*"
+    },
+    {
+     "id": "qstnprt_dXJ6ZsM2fg3cMF73",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMg (s) + CuSO4 (aq) → Cu (s) + MgSO4 (aq)\n\n#### Extended Only\n\nWrite the ionic equation for the displacement of copper from copper sulfate by magnesium. You should include state symbols.",
+     "solution_md": "c) The ionic equation for the displacement of copper from copper sulfate by magnesium is:\n\nMg (s) + Cu<sup>2+</sup> (aq) → Mg<sup>2+</sup> (aq) + Cu (s)\n\n- All chemical formulae correct; **[1 mark]**\n- All state symbols correct;** [1 mark]**\n\n**[2 marks]**\n\n- *The balance symbol equation is *\n\n  - *Mg (s) + CuSO*<sub>*4*</sub>* (aq) → MgSO*<sub>*4*</sub>* (aq) + Cu (s)*\n- *Identify the ionic substances and write the ions out separately*\n\n  - *Mg (s) + Cu*<sup>*2+*</sup>* (aq) +  SO*<sub>*4*</sub><sup>*2-*</sup>* (aq) → Mg*<sup>*2+*</sup>* (aq)  + SO*<sub>*4*</sub><sup>*2-*</sup>* (aq) + Cu (s)*\n- *Eliminate the ions which appear on both sides of the equation*\n- *These are known as spectator ions and in this case are the sulfate ions*\n\n  - *Mg (s) + Cu*<sup>*2+*</sup>* (aq) +  **SO*<sub>*4*</sub><sup>*2-*</sup>* **(aq) → Mg*<sup>*2+*</sup>* (aq)  + **SO*<sub>*4*</sub><sup>*2-*</sup>* **(aq) + Cu (s)*\n  - *Mg (s) + Cu*<sup>*2+*</sup>* (aq) → Mg*<sup>*2+*</sup>* (aq) + Cu (s)*\n  - *Don't forget state symbols!*"
+    },
+    {
+     "id": "qstnprt_tpz99G8w422WKztt",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMg (s) + Cu^2+ (aq) → Mg^2+ (aq) + Cu (s)\n\n#### Extended Only\n\nDisplacement reactions are examples of redox reactions.\n\nExplain why the displacement reaction between magnesium and copper sulfate is both reduction and oxidation.",
+     "solution_md": "d) The displacement reaction between magnesium and copper sulfate is both reduction and oxidation because:\n\n- The magnesium / Mg atom is oxidised **AND **it loses electrons **OR **\nMg → Mg<sup>2+</sup> + 2e<sup>–</sup> **AND** which is oxidation; **[1 mark]**\n- The copper ion / Cu<sup>2+</sup> is reduced **AND i**t gains electrons \n**OR **\nCu<sup>2+</sup> + 2e<sup>–</sup> → Cu **AND** which is reduction; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Remember:** OIL-RIG, oxidation is loss of electrons and reduction is gain of electrons*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VrTGzF6kq94wFSXV",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_gfrsGjPr6NJwbsyw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/43/04",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_TM7nqQNY64FxC6QT"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe structures of five organic compounds, A, B, C, D and E, are shown. Answer the questions that follow. Each letter may be used once, more than once or not at all.\n\n![q1a-0620-s20-qp-43](assets/005-q1a-0620-s20-qp-43.png)\n\nGive the letter of the compound that has the empirical formula CH<sub>2.</sub>",
+     "solution_md": "a) The letter of the compound that has the empirical formula CH<sub>2 </sub>is:\n\n- C;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The molecular formula is the actual number of atoms of each element in a compound*\n- *The empirical formula is the simplest ratio of atoms of each element in a compound *\n- *C has the molecular formula C*<sub>*3*</sub>*H*<sub>*6 *</sub>\n- *This can be simplified to CH*<sub>*2*</sub>* *"
+    },
+    {
+     "id": "qstnprt_qC53vzTRC5yQ5s5y",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/43/04",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "An endothermic reaction occurs when calcium nitrate is heated.\n\nBalance the equation for this reaction.\n\n.....Ca(NO<sub>3</sub>)<sub>2</sub> → .....CaO + .....NO<sub>2</sub> + .....O<sub>2</sub>",
+     "solution_md": "b) The balanced equation for this reaction  is:\n\n- **2**Ca(NO<sub>3</sub>)<sub>2</sub> → **2**CaO + **4**NO<sub>2</sub> + O<sub>2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *There are six oxygen atoms on the left hand side, and five on the right hand side*\n- *Placing a 2 in front of CaO gives six oxygen atoms on the right hand side *\n\n  - *Ca(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* → **2**CaO + NO*<sub>*2*</sub>* + O*<sub>*2*</sub>*;*\n  - *If you placed a two in front of the other molecules, this would result in 7 oxygen atoms on the right hand side and you would not be able to balance the reactants correctly *\n- *Balance the calcium atoms next:*\n\n  - *2**Ca(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* → **2**CaO + NO*<sub>*2*</sub>* + O*<sub>*2*</sub>\n- *There are now four nitrogen atoms on the right hand side, and 12 oxygen atoms*\n- *To balance these, add 4 in front of NO*<sub>*2*</sub>* *\n\n  - *2**Ca(NO*<sub>*3*</sub>*)*<sub>*2*</sub>* → **2**CaO + **4**NO*<sub>*2*</sub>* + O*<sub>*2*</sub>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SpSSNpSkTSgQcWpP",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_MYD9nPkm9sF45Gs8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MKvXKMnctwDqYdms",
+      "spcpt_h6PmqyPJN5mP6F2D"
+     ],
+     "part_tier": null,
+     "problem_md": "Copper oxide can be reduced to copper by heating in hydrogen.\n\ni) What colour change would you observe during the reduction?\n\n[1]\n\nii) Explain why the copper must be allowed to cool in hydrogen before it is exposed to air.\n\n[2]\n\niii) Name another gas which can reduce copper(II) oxide to copper.\n\n[1]\n\niv) Name a solid which can reduce copper(II) oxide to copper.\n\n[1]",
+     "solution_md": "i) The colour change you would observe is:\n\n- (Black to) pink / brown / orange; **[1 mark] ***Ignore red*\n\nii) The copper must be allowed to cool before it is exposed to air because:\n\n- (Hot) copper reacts / is oxidised; **[1 mark]**\n- With oxygen / air; **[1 mark]**\n\niii) Another gas that can reduce copper(II) oxide to copper is:\n\n- Carbon monoxide / ammonia / methane; **[1 mark]**\n\niv) A solid that can reduce copper(II) oxide to copper is:\n\n- Carbon / graphite or any metal more reactive than copper; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *Copper(II) oxide is a black compound. As it reduces, copper is formed which has a pink / brown / orange colour*\n- *Copper reacts with oxygen slowly in air, if copper is hot this reaction will occur much more readily and copper(II) oxide would be reformed*\n- *Carbon monoxide is used to reduce FeO during the extraction of iron from hematite and can act as a reducing agent when reacted with copper(II) oxide*\n- *Anything above copper in the reactivity series is able to reduce copper(II) oxide*"
+    },
+    {
+     "id": "qstnprt_kmn2HKHKrKckCj7t",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_h6PmqyPJN5mP6F2D"
+     ],
+     "part_tier": null,
+     "problem_md": "The table below shows the results obtained by reducing the copper(II) oxide produced by different methods to copper.\n\ni) Complete the table.\n\n| **source of** **copper(II) oxide** | **mass of** **copper(II) oxide / g** | mass of copper / g | percentage copper / % |\n|---|---|---|---|\n| CuCO<sub>3</sub> | 2.37 | 1.89 | 79.7 |\n| Cu(OH)<sub>2</sub> | 2.51 | 1.99 |   |\n| Cu(NO3)<sub>2</sub> | 2.11 | 1.68 |   |\n| Cu and O<sub>2</sub> | 2.29 | 1.94 |   |\n\n[2]\n\nii) One of the samples of copper(II) oxide is impure. Identify this sample and suggest an explanation why the percentage of copper in this sample is bigger than in the other three samples.\n\n[2]",
+     "solution_md": "i) The completed table is:\n\n| **source of** **copper(II) oxide** | **mass of** **copper(II) oxide / g** | mass of copper / g | percentage copper / % |\n|---|---|---|---|\n| CuCO<sub>3</sub> | 2.37 | 1.89 | 79.7 |\n| Cu(OH)<sub>2</sub> | 2.51 | 1.99 | **79.28** |\n| Cu(NO<sub>3</sub>)<sub>2</sub> | 2.11 | 1.68 | **79.6205853** |\n| Cu and O<sub>2</sub> | 2.29 | 1.94 | **84.7161572** |\n\n- All three correct; **[2 marks]**\n- Two correct; **[1 mark]**\n- 0 or one correct;** [0 marks]** *Answers must be to a minimum of 3 significant figures* *Allow rounding or truncating*\n\nii) The impure sample is:\n\n- The last one \n**OR **\nCu and O<sub>2</sub> \n**OR **\nThe one from copper; **[1 mark]** *Allow ecf from calculations in (i)*\n\nExplanation of why the percentage of copper in this sample is bigger than in the other three samples:\n\n- Not all the copper oxidised \n**OR **\nThe outside of the pieces of copper oxidised but the inside did not \n**OR** \n(Still) contains copper (metal); **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *The percentage of copper is calculated by *$\\frac{\\mathrm{mass} \\mathrm{of} \\mathrm{copper}}{\\mathrm{mass} \\mathrm{of} \\mathrm{copper}(\\mathrm{II})\\mathrm{oxide}}\\times100$\n- *If you are not sure how to calculate it, use the numbers in the first row and try different calculations using these until you get the answer 79.7, then repeat for the other rows*\n\n  - *There are only a few ways that you can do this, and as it is a percentage, you will have to multiply by 100 as well*",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass} \\mathrm{of} \\mathrm{copper}}{\\mathrm{mass} \\mathrm{of} \\mathrm{copper}(\\mathrm{II})\\mathrm{oxide}}\\times100",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mi>mass</mi><mo> </mo><mi>of</mi><mo> </mo><mi>copper</mi></mrow><mrow><mi>mass</mi><mo> </mo><mi>of</mi><mo> </mo><mi>copper</mi><mo>(</mo><mi>II</mi><mo>)</mo><mo> </mo><mi>oxide</mi></mrow></mfrac><mo > </mo><mo >×</mo><mo > </mo><mn >100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator mass space of space copper over denominator mass space of space copper left parenthesis II right parenthesis space oxide end fraction space cross times space 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rpFm94MmqzmwKxMV",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_3HxppXXmbht7qD8J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "The relative atomic mass, *A*<sub>r</sub>, for each element is shown in the Periodic Table.\n\nDefine the term relative atomic mass.",
+     "solution_md": "a) Define the term relative atomic mass:\n\n- The average mass of the isotopes of an element;** [1 mark] **\n- Compared to 1/12th of the mass of an atom of 12C; **[1 mark] **\n\n**[Total: 2 marks]**\n\n- *This is the specification definition that you are required to learn*\n- *Remember:** Scientists needed a way of comparing the masses of atoms so use carbon-12 as the standard which has a fixed mass of 12 units*"
+    },
+    {
+     "id": "qstnprt_rB7B3stczPvP4dhR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dyZdFNSxXxV7GSpt"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe element gallium has a relative atomic mass of 69.735 and only contains two isotopes. A sample of gallium contained the isotope <sup>69</sup>Ga, with a relative abundance of 63.25 %. Calculate the mass number of the other isotope. You **must** show all your working.",
+     "solution_md": "b) The mass number of the other isotope is:\n\n- Relative abundance of unknown isotope: 100 – 63.25 = 36.75; **[1 mark]**\n- Calculation of mass number of unknown isotope of gallium with suitable working: $\\frac{( 69 \\mathrm{x} 63.25 ) + ( \\mathrm{M} \\mathrm{x} 36.75 )}{100} = 69.735$ **OR** $43.64+\\frac{36.75M}{100}=69.735$ **AND** M = 71; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *This question is asking you to manipulate the equation used to calculate RAM to find the abundance of one of the isotopes:*\n\n  - *RAM = *$\\frac{ ( \\text{abundance} of \\text{isotope} 1 \\mathrm{x} \\text{mass} \\text{number} ) + ( \\text{abundance} of \\text{isotope} 2 \\mathrm{x} \\text{mass} \\text{number} ) }{100}$\n- *You only get one mark if you give an answer with no working out*\n- *To calculate M:*\n\n  - $\\frac{(69x63.25)+(Mx36.75)}{100}=69.735$\n  - *4364.25 + (M x 36.75) = 6973.5*\n  - *(M x 36.75) = 2609.25*\n  - *M = *$\\frac{2609.25}{36.75}$\n  - *M = 71*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses 69 space straight x space 63.25 close parentheses plus space open parentheses straight M space straight x space 36.75 close parentheses over denominator 100 end fraction equals space 69.735",
+       "render": "$\\frac{( 69 \\mathrm{x} 63.25 ) + ( \\mathrm{M} \\mathrm{x} 36.75 )}{100} = 69.735$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "43.64+\\frac{36.75M}{100}=69.735",
+       "mathml": "<math class=\"wrs_chemistry\" style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mn>43</mn><mo>.</mo><mn>64</mn><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><mn>36</mn><mo>.</mo><mn>75</mn><mo> </mo><mi mathvariant=\"normal\">M</mi></mrow><mn>100</mn></mfrac><mo>=</mo><mo> </mo><mn>69</mn><mo>.</mo><mn>735</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "43.64 space plus space fraction numerator 36.75 space straight M over denominator 100 end fraction equals space 69.735"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses abundance space of space isotope space 1 space straight x space mass space number close parentheses plus open parentheses abundance space of space isotope space 2 space straight x space mass space number close parentheses over denominator 100 end fraction",
+       "render": "$\\frac{ ( \\text{abundance} of \\text{isotope} 1 \\mathrm{x} \\text{mass} \\text{number} ) + ( \\text{abundance} of \\text{isotope} 2 \\mathrm{x} \\text{mass} \\text{number} ) }{100}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{(69x63.25)+(Mx36.75)}{100}=69.735",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mrow><mo stretchy=\"true\">(</mo><mn>69</mn><mo> </mo><mi mathvariant=\"normal\">x</mi><mo> </mo><mn>63</mn><mo>.</mo><mn>25</mn><mo stretchy=\"true\">)</mo></mrow><mo>+</mo><mo> </mo><mo stretchy=\"true\">(</mo><mi mathvariant=\"normal\">M</mi><mo> </mo><mi mathvariant=\"normal\">x</mi><mo> </mo><mn>36</mn><mo>.</mo><mn>75</mn><mo stretchy=\"true\">)</mo></mrow><mn>100</mn></mfrac><mo >=</mo><mo > </mo><mn >69</mn><mo >.</mo><mn >735</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator stretchy left parenthesis 69 space straight x space 63.25 stretchy right parenthesis plus space stretchy left parenthesis straight M space straight x space 36.75 stretchy right parenthesis over denominator 100 end fraction equals space 69.735"
+      },
+      {
+       "latex": "\\frac{2609.25}{36.75}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mn>2609</mn><mo>.</mo><mn>25</mn></mrow><mrow><mn>36</mn><mo>.</mo><mn>75</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 2609.25 over denominator 36.75 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sKr3tfBDjW37Qhyv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TM7nqQNY64FxC6QT"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDefine the term empirical formula.",
+     "solution_md": "c) The term empirical formula means:\n\n- The simplest whole number ratio of the different atoms or ions in a compound; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Remember: **The molecular formula is the actual number of atoms of each element in a compound*\n\n  - *E.g C*<sub>*3*</sub>*H*<sub>*6*</sub>\n  - *The empirical formula is the actual number of atoms of each element as a whole number ratio*\n  - *The empirical formula for C*<sub>*3*</sub>*H*<sub>*6*</sub>* is CH*<sub>*2*</sub>"
+    },
+    {
+     "id": "qstnprt_7zFjtV8yWMVBr96C",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rgYFJhx9jshyrjvG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nAn unknown compound contains carbon, hydrogen and oxygen.\n\nIt consists of 18% carbon,and 73 % oxygen.\n\nCalculate the empirical formula of the unknown compound",
+     "solution_md": "d) The empirical formula is:\n\n- Percentage of hydrogen is 9%; **[1 mark]**\n- Each percentage is divided by relevant *A*<sub>r</sub>  C = $\\frac{18}{12}$ = (1.5)                       H= $\\frac{9}{1}$ = ( 9 )                 O = $\\frac{73}{16}$=  ( 4.5625 ); **[1 mark]**\n- Empirical formula is CH<sub>6</sub>O<sub>3</sub>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Don't forget to find the percentage of hydrogen in the compound: 100 - 73 - 18 = 9 %*\n- *Once you have divided the percentage of each elements by its **A*<sub>*r*</sub>* you must find the simplest ratio by dividing all answers by the smallest value, in this case 1.5*\n- *Sometimes answers might come out as 3.0415 but it is fine to round in this case *\n- *If an answer comes out as 3.5 for example, you would need to multiply it by 2 to achieve a whole number, and do the same to the other values *",
+     "equations": [
+      {
+       "latex": "\\frac{18}{12}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>18</mn><mn>12</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style 18 over 12 end style"
+      },
+      {
+       "latex": "\\frac{9}{1}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>9</mn><mn>1</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style 9 over 1 end style"
+      },
+      {
+       "latex": "\\frac{73}{16}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>73</mn><mn>16</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "73 over 16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_R4tdD86wxhPytpk4",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_wTbmYxYDjMh2Yyby",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0620/03",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "When cobalt(II) oxide, CoO, is heated in air an oxide with the formula Co<sub>3</sub>O<sub>4</sub> is formed.\n\nBalance the equation for this reaction.\n\n…....... CoO + O<sub>2</sub> → 2Co<sub>3</sub>O<sub>4</sub>",
+     "solution_md": "a) The balanced equation is:\n\n6CoO + O<sub>2</sub> → 2Co<sub>3</sub>O<sub>4</sub>\n\n- 6; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *There are six cobalt atoms on the right-hand side so a 6 needs to be placed in front of CoO on the left*"
+    },
+    {
+     "id": "qstnprt_v4B9DqvJ8Jhh6yQH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0620/03",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "Sulfuric acid is a compound.\n\nThe formula of sulfuric acid is H<sub>2</sub>SO<sub>4.</sub>\n\nComplete **Table 1.1** to calculate the relative molecular mass of sulfuric acid.\n\n**Table 1.1**\n\n| atom | number of atoms | relative atomic mass |   |\n|---|---|---|---|\n| hydrogen | 2 | 1 | 2 × 1 = 2 |\n| sulfur |   |   |   |\n| oxygen |   |   |   |\n\nrelative molecular mass = .............................",
+     "solution_md": "b) The relative molecular mass is:\n\n- 98; **[2 marks]**\n\n**[Total: 2 marks]**\n\n- *The completed table is:*\n\n| > *atom* | > *number of atoms* | > *relative atomic mass* |   |\n|---|---|---|---|\n| > *hydrogen* | > *2* | > *1* | > *2 × 1 = 2* |\n| > *sulfur* | > *1* | > *32* | > *1 x 32 = 32* |\n| > *oxygen* | > *4* | > *16* | > *4 x 16 = 64* |\n\n- *If you haven't got an answer of 98 then you can score 1 mark for  S = (1 x 32) = 32 **OR **O = (4 x 16) = 64*"
+    },
+    {
+     "id": "qstnprt_ZgywcGWQH9n6HMwJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0620/03",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen is a fuel which can be obtained from water by electrolysis.\n\nRefinery gas and petrol are fuels obtained by the fractional distillation of petroleum.\n\nComplete the equation for the burning of hydrogen.\n\n.......... H<sub>2 </sub>(g) + O<sub>2 </sub>(g) → ..........H<sub>2</sub>O (l)",
+     "solution_md": "c) The balanced equation is:\n\n2H<sub>2 </sub>(g) + O<sub>2 </sub>(g) → 2H<sub>2</sub>O (l)\n\n- 2H<sub>2 </sub>\n**AND**\n2H<sub>2</sub>O (l); **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Balance the oxygen atoms first by placing a two in front of the H*<sub>*2*</sub>*O*\n\n  - *There are two on the left hand side and one on the right hand side *\n- *There are now four hydrogen atoms on the right hand side so a two is placed in front of the hydrogen*"
+    },
+    {
+     "id": "qstnprt_qB5JgvwjX7wNzXS9",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0620/03",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nComplete the equation for the burning of hydrogen.\n.......... H~2 ~(g) + O~2 ~(g) → ..........H~2~O (l)\n\nState the meaning of (g) and (l).\n\n(g):\n\n(l):",
+     "solution_md": "d) The meaning of (g) and (l) are:\n\n- (g) = gas; ** [1 mark]**\n- (l) = liquid;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *The four state symbols you should know are:*\n\n  - *(g) = gas*\n  - *(l) = liquid*\n  - *(s) = solid*\n  - *(aq) = aqueous*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qkk6g3hVpG8M2DXT",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_PXm4vDZxYg8hD7q3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0620/04",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nElement **X** can undergo the following physical changes.\n\nElement **X** is a Group III metal. It burns in air to form an oxide X<sub>2</sub>O<sub>3</sub>.\n\nWrite a symbol equation for this reaction.",
+     "solution_md": "a) A symbol equation for this reaction is:\n\n4X + 3O<sub>2</sub> → 2X<sub>2</sub>O<sub>3</sub>\n\n- Correct formulae; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You are given the formula for the product*\n- *You should know that the formula for a Group 3 metal is represented as single atom*\n- *You should know the formula for oxygen is O*<sub>*2*</sub>* *\n- *Write the unbalanced equation *\n\n  - * X + O*<sub>*2*</sub>* → X*<sub>*2*</sub>*O*<sub>*3*</sub>\n- *Get the oxygen atoms to equal an even number:*\n\n  - * X +  3O*<sub>*2*</sub>* →  2X*<sub>*2*</sub>*O*<sub>*3*</sub>\n- *Balance the number of X atoms *\n\n  - *4X +  3O*<sub>*2*</sub>* →  2X*<sub>*2*</sub>*O*<sub>*3*</sub>"
+    },
+    {
+     "id": "qstnprt_5KxpxZ5nqKRRCxkk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "0620/04",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_Xzc5gSbkWQjZqtjP",
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAqueous silver nitrate is added to aqueous magnesium chloride. A white precipitate forms. Write an ionic equation for this reaction. Include state symbols.",
+     "solution_md": "b) An ionic equation for this reaction with state symbols is:\n\nAg<sup>+ </sup>(aq) + Cl<sup>– </sup>(aq) → AgCl (s)\n\n- Correct formulae; **[1 mark]**\n- Correct state symbols; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The white precipitate formed is silver chloride *\n- *The question asks for the ionic equation for the reaction that forms silver chloride *\n- *You should know that charge for both ions, and be able to deduce the formula for silver chloride *\n- *The silver chloride should have no charge overall so one of each ion is required *\n- *Silver ions and chloride ions are in solution so are represented using (aq)*\n- *A precipitate is a solid so is represented using (s)*"
+    },
+    {
+     "id": "qstnprt_PGTNMypkGxPg2YDV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 202",
+      "number": "0620/32",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the chemical equation for the reaction of chlorine with phosphorus.\n\n......Cl<sub>2</sub> + 2P → ......PCl<sub>5</sub>",
+     "solution_md": "c) The balanced equation for this reaction  is:\n\n**5**Cl<sub>2</sub> + 2P → **2**PCl<sub>5</sub>\n\n- Left hand side; **[1 mark]**\n- Right hand side; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Balance the phosphorus atoms first and then balance the chlorine atoms*"
+    },
+    {
+     "id": "qstnprt_gQDgJ9dR5RnKH874",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/41/04",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Aqueous potassium iodide reacts with aqueous copper(II) sulfate to produce iodine.\n\nBalance the chemical equation for this reaction.\n\nKI + CuSO<sub>4</sub> → CuI + I<sub>2</sub> + K<sub>2</sub>SO<sub>4</sub>",
+     "solution_md": "d) The balanced equation for this reaction  is:\n\n**4**KI + **2**CuSO<sub>4</sub> → **2**CuI + I<sub>2</sub> + **2**K<sub>2</sub>SO<sub>4</sub>\n\n- Left hand side; **[1 mark]**\n- Right hand side; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *There is an odd number of iodine atoms on the right hand side *\n\n  - *To make it even, place a 2 in front of CuI*\n  \n    - *KI + CuSO*<sub>*4*</sub>* → **2**CuI + I*<sub>*2*</sub>* + K*<sub>*2*</sub>*SO*<sub>*4*</sub>\n  - *Balance the copper atoms *\n  \n    - *KI + **2**CuSO*<sub>*4*</sub>* → **2**CuI + I*<sub>*2*</sub>* + K*<sub>*2*</sub>*SO*<sub>*4*</sub>\n  - *Balance the sulfur and oxygen atoms*\n  \n    - *KI + **2**CuSO*<sub>*4*</sub>* → **2**CuI + I*<sub>*2*</sub>* + **2**K*<sub>*2*</sub>*SO*<sub>*4*</sub>\n  - *Finally, balance the potassium and iodine atoms*\n  \n    - *4**KI + **2**CuSO*<sub>*4*</sub>* → **2**CuI + I*<sub>*2*</sub>* + **2**K*<sub>*2*</sub>*SO*<sub>*4*</sub>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Q3vmJj2hg4y54sXR",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_fh826Z5QnhtyGQTs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/32/03",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Accept \"->\", \"-->\", \"=>\" or the word \"arrow\" in place of the reaction arrow symbol.\n\nThis question is about iron and compounds of iron.\n\nIron can be converted into steel in a basic oxygen converter.\n\nOxygen is blown into the impure molten iron to remove some of the impurities.\n\nOxygen reacts with the carbon in the impure iron to form carbon dioxide.\n\nWrite a chemical equation for this reaction.",
+     "solution_md": "a) The balanced equation for this reaction  is:\n\n- C  +  O<sub>2</sub>  →  CO<sub>2</sub> ; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *You are expected to know the formulae for carbon, oxygen and carbon dioxide*\n- *No balancing is required *"
+    },
+    {
+     "id": "qstnprt_3fgFWMBZyFQPtq4p",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/32/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about bromine and compounds of bromine.\n\nBromine reacts with hydrogen sulfide, H<sub>2</sub>S.\n\nComplete the chemical equation for this reaction.\n\n....... + H<sub>2</sub>S →  .....HBr + S",
+     "solution_md": "b) The balanced equation for this reaction  is:\n\n**Br**<sub>**2**</sub>** **+ H<sub>2</sub>S  → **2**HBr + S\n\n- Br<sub>2 </sub>on left; **[1 mark]**\n- 2 (HBr) on right; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You are told the other reactant is bromine*\n- *You are expected to know that bromine is diatomic with a formula Br*<sub>*2*</sub>\n- *There are two bromine and two hydrogen atoms on the left hand side which can be balanced with a 2 in front of HBr on the right hand side *"
+    },
+    {
+     "id": "qstnprt_rq4JNwCyMHRRqp6s",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/32/03",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about cobalt and compounds of cobalt.\n\nComplete the table to calculate the relative formula mass of anhydrous cobalt(II) sulfate, CoSO<sub>4</sub>. Use your Periodic Table to help you.\n\n| type of atom | number of atoms | relative atomic mass |   |\n|---|---|---|---|\n| cobalt |   |   |   |\n| sulfur | 1 | 32 | 1 × 32 = 32 |\n| oxygen |   |   |   |\n\nrelative formula mass =   ______________",
+     "solution_md": "c) The relative formula mass is:\n\n- 155; **[2 marks]**\n\n**[Total: 2 marks]**\n\n- *The completed table is:*\n\n| > *type of atom* | > *number of atoms* | > *relative atomic mass* |   |\n|---|---|---|---|\n| > *cobalt* | > *1* | > *59* | > *1 x 59 * |\n| > *sulfur* | > *1* | > *32* | > *1 × 32 = 32* |\n| > *oxygen* | > *4* | > *16* | > *4 x 16 = 64* |\n\n- *If you did not score 2 marks for your answer you will score 1 mark for Co= (1 x 59) = 59 **OR **O= (4 x 16) = 64*\n- *To calculate the relative formula mass: 59 + 32 + 64 = 155*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pWC6xTD2pW3J6sdX",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_QP3fjKN9Hf5Ft4z5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/31/03",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "In a blast furnace used for the extraction of iron, carbon reacts with oxygen from the air to form carbon monoxide.\n\nComplete the chemical equation for this reaction.\n\n....C + ..... →  2CO",
+     "solution_md": "The balanced equation for this reaction  is:\n\n2C + O<sub>2 </sub>→  2CO\n\n- 2 (C); **[1 mark]**\n- O<sub>2</sub>; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You are expected to know the formula of oxygen as O*<sub>*2*</sub>\n- *There are two atoms of each element on the right hand side so the carbon needs balancing by placing a 2 in front of the C*"
+    },
+    {
+     "id": "qstnprt_RpJbfKQCXGvBxpPt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/31/03",
+      "question_number": 2,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_4TV53pyBRWZWJM6H"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of a compound of iron is shown.\n\n![q2f-0620_s19_qp_31](assets/006-q2f-0620-s19-qp-31.png)\n\nDeduce the molecular formula of this compound to show the number of iron, carbon and oxygen atoms.",
+     "solution_md": "The molecular formula for this compound is:\n\n- Fe<sub>2</sub>C<sub>9</sub>O<sub>9</sub>\n**OR**\nFe<sub>2</sub>(CO)<sub>9</sub>;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Count each type of atom carefully from the diagram: 2 iron, 9 carbon, 9 oxygen*\n- *You can write the molecular formula as Fe*<sub>*2*</sub>*C*<sub>*9*</sub>*O*<sub>*9*</sub>* or Fe*<sub>*2*</sub>*(CO)*<sub>*9*</sub>* as both are accepted *\n- *Make sure you use correct capitalisation for element symbols (Fe not fe, C not c, O not o)*"
+    },
+    {
+     "id": "qstnprt_TdFwHBqtGZzY23MK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/31/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Iodine reacts with aqueous sodium thiosulfate, Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>.\n\nBalance the chemical equation for this reaction.\n\n.....Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + I<sub>2</sub> → Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> + .....NaI",
+     "solution_md": "The balanced equation for this reaction  is:\n\n**2**Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + I<sub>2</sub> → Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> +  **2**NaI\n\n- 2 (Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>); **[1 mark]**\n- 2 (NaI); **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The unbalanced equation is:*\n\n  - *.....Na*<sub>*2*</sub>*S*<sub>*2*</sub>*O*<sub>*3*</sub>* + I*<sub>*2*</sub>* → Na*<sub>*2*</sub>*S*<sub>*4*</sub>*O*<sub>*6*</sub>* + .....NaI*\n  - *Balance the iodine atoms first:*\n  \n    - *....Na*<sub>*2*</sub>*S*<sub>*2*</sub>*O*<sub>*3*</sub>* + I*<sub>*2*</sub>* → Na*<sub>*2*</sub>*S*<sub>*4*</sub>*O*<sub>*6*</sub>* + **2**NaI*\n  - *Then balance the sodium, sulfur and oxygen atoms *\n  \n    - *2**Na*<sub>*2*</sub>*S*<sub>*2*</sub>*O*<sub>*3*</sub>* + I*<sub>*2*</sub>* → Na*<sub>*2*</sub>*S*<sub>*4*</sub>*O*<sub>*6*</sub>* +  **2**NaI*"
+    },
+    {
+     "id": "qstnprt_Rsj9djr9d82X3D32",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/31/03",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table to calculate the relative formula mass of anhydrous copper(II) sulfate, CuSO<sub>4</sub>.\n\nUse your Periodic Table to help you.\n\n| type of atom | number of atoms | relative atomic mass |   |\n|---|---|---|---|\n| copper | 1 | 64 | 1 × 64 = 64 |\n| sulfur |   |   |   |\n| oxygen |   |   |   |\n\nrelative formula mass =_______________",
+     "solution_md": "The relative formula mass is:\n\n- 160; **[2 marks]**\n\n**[Total: 2 marks]**\n\n- *The completed table is:*\n\n| > *type of atom* | > *number of atoms* | > *relative atomic mass* |   |\n|---|---|---|---|\n| > *copper* | > *1* | > *64* | > *1 × 64 = 64* |\n| > *sulfur* | > *1* | > *32* | > *1 x 32 = 32* |\n| > *oxygen* | > *4* | > *16* | > * 4 x 16 = 64* |\n\n- *If you haven't got an answer of 98 then you can score 1 mark for (1 x 32) = 32 **OR** (4 x 16= 64)= 64 *\n- *The relative formula mass is found by: 64 + 32 + 64 = 160*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pGqC9BZdDYtZQyKn",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_4BKNdTGrftbP9ntZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/33/03",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about iron and iron compounds.\n\nIron reacts with chlorine to form iron(III) chloride, Fe<sub>2</sub>Cl<sub>6.</sub>\n\nBalance the chemical equation for this reaction.\n\n.....Fe + .....Cl<sub>2</sub> → Fe<sub>2</sub>Cl<sub>6</sub>",
+     "solution_md": "a) The balanced equation for this reaction  is:\n\n**2**Fe + **3**Cl<sub>2</sub> → Fe<sub>2</sub>Cl<sub>6</sub>\n\n- 2Fe; **[1 mark]**\n- 3Cl<sub>2</sub>; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_qhFyKGRVYQV2846G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/33/03",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_4TV53pyBRWZWJM6H"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of an ion is shown.\n\n![q2d-0620_s19_qp_33](assets/007-q2d-0620-s19-qp-33.png)\n\nDeduce the molecular formula of this ion to show the number of iron, carbon and nitrogen atoms.",
+     "solution_md": "b) The molecular formula is:\n\n- (FeC<sub>6</sub>N<sub>6</sub>)<sup>4–</sup> / (Fe(CN)<sub>6</sub>)<sup>4–</sup>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The molecular formula is the actual number of atoms of each element in a substance *\n- *Identify the elements present:*\n\n  - *Fe, C and N *\n- *Count the number of atoms for each one *\n\n  - *Fe= 1*\n  - *C= 6*\n  - *N= 6*\n- *You must show brackets and a charge, like the diagram does to score the mark *"
+    },
+    {
+     "id": "qstnprt_7Dycd59cJVtNJbD8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/33/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about chlorine and compounds of chlorine.\n\nChlorine reacts with warm turpentine, C<sub>10</sub>H<sub>16</sub>.\n\nBalance the chemical equation for this reaction.\n\nC<sub>10</sub>H<sub>16</sub> + 8Cl<sub>2   </sub>→ .....C + .....HCl",
+     "solution_md": "c) The balanced equation for this reaction  is:\n\nC<sub>10</sub>H<sub>16</sub> + 8Cl<sub>2   </sub>→  **10**C  +  **16**HCl\n\n- 10 (C); **[1 mark]**\n- 16 (HCl); **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_ChZr7Z58Qj44RrNj",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/33/03",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation shows the effect of heat on anhydrous zinc sulfate.\n\nZnSO<sub>4</sub> $\\overset{\\mathrm{heat}}{\\rightarrow}$ ZnO + SO<sub>3</sub>\n\nWhen 12.60 g of anhydrous zinc sulfate is heated, the mass of zinc oxide formed is 6.34 g.\n\nCalculate the mass of zinc oxide formed when 63.0 g of anhydrous zinc sulfate is heated.\n\nmass of zinc oxide = _______________",
+     "solution_md": "d) The mass of zinc oxide formed when 63.0 g of anhydrous zinc sulfate is heated is:\n\n- 31.7 (g); **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *63.0 g is five times more than 12.60 *\n- *The mass of zinc sulfate produced from 12.60 g is multiplied by 5*\n\n  - *6.34 x 5 = 31.7 g*",
+     "equations": [
+      {
+       "latex": "\\overset{\\mathrm{heat}}{\\rightarrow}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mstyle mathsize=\"16px\"><mover><mo>→</mo><mi>heat</mi></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rightwards arrow with heat on top"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_2BG4d8thbty27HmK",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2019",
+      "number": "0620/33/03",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table to calculate the relative formula mass of anhydrous zinc sulfate, ZnSO<sub>4</sub>. Use your Periodic Table to help you.\n\n| type of atom | number of atoms | relative atomic mass |   |\n|---|---|---|---|\n| zinc | 1 | 65 | 1 × 65 = 65 |\n| sulfur |   |   |   |\n| oxygen |   |   |   |\n\nrelative formula mass = _________________",
+     "solution_md": "e) The relative formula mass is:\n\n- 161; **[2 marks]**\n\n**[Total: 2 marks]**\n\n- *The completed table is:*\n\n| > *type of atom* | > *number of atoms* | > *relative atomic mass* |   |\n|---|---|---|---|\n| > *zinc* | > *1* | > *65* | > *1 × 65 = 65* |\n| > *sulfur* | > *1* | > *32* | > *1 x 32 = 32* |\n| > *oxygen* | > *4* | > *16* | > *4 x 16 = 64* |\n\n- *If you haven't got an answer of 161 then you can score 1 mark for S= (1 x 32) = 32 **OR **O= (4 x 16) = 64 *\n- *The relative formula mass is found by: 65 + 32 + 64 = 161*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ngyv52pp5CQ8dvtB",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_r4JVJYgyHRxD3RHk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/41",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_FVWXC4rNywfsjCN8"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about elements X, Y and Z. An atom of element X is represented as `X _ 16 ^ 34`\n\nWhat is the electronic structure of the ion X<sup>2–</sup>?",
+     "solution_md": "a) The  electronic structure of the ion X<sup>2– </sup>is:\n\n- 2: 8 : 8; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The atomic number for the atom is 16 so it has 16 protons *\n- *In an atom the number of protons and electrons are equal so there are 16 electrons*\n- *The 2- charge indicates that two electrons have been gained so there are 18 electrons in total *\n- *Two electrons will occupy the first shell, eight will occupy the second and eight will occupy the third *\n- *This is the electronic structure of a noble gas, which is what atoms achieve when they lose / gain electrons*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight X presubscript 16 presuperscript 34",
+       "render": "`X _ 16 ^ 34`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Fz97PgnVrWRZg2xm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/41",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about elements X, Y and Z.\n\nIdentify the atom against which the relative masses of all other atoms are compared.",
+     "solution_md": "b) The atom against which the relative masses of all other atoms are compared is:\n\n- <sup>12</sup>C / carbon-12; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Accept carbon-12 or carbon 12 written in words*\n- *You will not score the mark for just stating 'carbon'*\n\n> **[exam-tip]**\n> Always specify the isotope, not just the element 'carbon' alone will not score."
+    },
+    {
+     "id": "qstnprt_Mpgg3m9YxzQ8nv76",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nMagnesium oxide, MgO, is formed when magnesium burns in oxygen.\n\nWrite the chemical equation for the reaction that occurs when magnesium burns in oxygen.",
+     "solution_md": "c) The chemical equation for the reaction that occurs when magnesium burns in oxygen is:\n\n2Mg + O<sub>2</sub> → 2MgO\n\n- Correct species;** [1 mark]**\n- Correct balancing;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *You are given the formula of magnesium oxide*\n- *You are expected to know that magnesium, as a metal, has the formula Mg and that oxygen is diatomic, O*<sub>*2*</sub>*. *\n\n  - *The unbalanced equation is Mg + O*<sub>*2*</sub>* → MgO*\n  - *Balance the oxygen atoms first:  Mg + O*<sub>*2*</sub>* → **2**MgO*\n  - *The balance the magnesium atoms: **2**Mg + O*<sub>*2*</sub>* → **2**MgO*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kwCfXxdYb78x4S9G",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_FcbcBppwvKMwk5Km",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThis question is about titanium.\n\nTitanium is a transition metal that is extracted from titanium dioxide in a two-stage industrial process.\n\nIn the first stage, titanium dioxide reacts with carbon and chlorine to form titanium tetrachloride and carbon monoxide.\n\nWrite the balanced symbol equation for this reaction.",
+     "solution_md": "a) The balanced symbol equation for this reaction is:\n\nTiO<sub>2</sub> + 2C + 2Cl<sub>2</sub> ⟶ TiCl<sub>4</sub> + 2CO\n\n- TiO<sub>2</sub> + C + Cl<sub>2</sub> as reactants; **[1 mark]**\n- TiCl<sub>4</sub> + CO as products; **[1 mark]**\n- Correct balancing;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *You have all the information to be able to write a word equation:*\n\n  - *Titanium dioxide + carbon + chlorine → titanium tetrachloride + carbon monoxide*\n- *You would be expected to deduce the formula of titanium dioxide and titanium tetrachloride from their names*\n\n  - *Titanium = Ti*\n  - *Dioxide = two oxygens (O*<sub>*2*</sub>*)*\n  \n    - *Therefore, titanium dioxide is TiO*<sub>*2*</sub>\n  - *Tetrachloride = four chlorine (Cl*<sub>*4*</sub>*)*\n  \n    - *Therefore, titanium tetrachloride is TiCl*<sub>*4*</sub>* *\n- *You are expected to know the chemical symbol/formula of some substances, e.g. C, Cl*<sub>*2*</sub>*, CO*\n- *Balancing the equation:*\n\n  - *You must use 2Cl*<sub>*2*</sub>* to have enough chlorine to make the TiCl*<sub>*4*</sub>* *\n  - *You must form 2CO using the TiO*<sub>*2*</sub>\n  - *This means that you must have 2C to make the 2CO*"
+    },
+    {
+     "id": "qstnprt_dSYrMzBsmB57m344",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn the first stage, titanium dioxide reacts with carbon and chlorine to form titanium tetrachloride and carbon monoxide. Write the balanced symbol equation for this reaction.\nThe balanced symbol equation for this reaction is: TiO~2~ + 2C + 2Cl~2~ ⟶ TiCl~4~ + 2CO\n\nExplain how your chemical symbol equation in part (a) demonstrates the law of conservation of mass.",
+     "solution_md": "b) The chemical symbol equation in part (a) demonstrates the law of conservation of mass because:\n\n- There is the same amount / number of each atom on the reactants and products \n**OR **\nThere is the same amount / number of each atom on the left and right hand side of the equation; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Don't be put off by the question starting with the phrase \"explain how your answer to part (a)\"*\n- *The answer to this question is true for any balanced chemical symbol equation*\n\n  - *There should always be the same number of each atom in the reactants and products*\n  - *This is because any chemical reaction does not have any atoms being added or removed, they are simply rearranged to make other chemicals*"
+    },
+    {
+     "id": "qstnprt_jk7RSyHJCShnvDXq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZbbnBBCMqtS3vmSK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThis question is about titanium. Titanium is a transition metal that is extracted from titanium dioxide in a two-stage industrial process. In the first stage, titanium dioxide reacts with carbon and chlorine to form titanium tetrachloride and carbon monoxide.\n\nIdentify **two** hazards associated with Stage 1.",
+     "solution_md": "c) **Two** hazards associated with Stage 1 are:\n\nAny **two** from:\n\n- Chlorine is toxic / poisonous; **[1 mark]**\n- Carbon monoxide is toxic / poisonous; **[1 mark]** *Ignore harmful / deadly / dangerous*\n- Titanium chloride is corrosive; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You are expected to use the correct chemical term when talking about hazards*\n\n  - *Harmful is not a correct term as this suggests that it can make you ill*\n  - *Toxic and poisonous imply that it can kill*\n  - *Dangerous and deadly are not acceptable as they are not specific*\n- *Careful: **Stage 1 does not produce carbon dioxide so answers relating to carbon dioxide will be ignored*"
+    },
+    {
+     "id": "qstnprt_hXWNnNYzPFhr66hs",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NDmjnvxzkMPwq35k"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThis question is about titanium. Titanium is a transition metal that is extracted from titanium dioxide in a two-stage industrial process. In the first stage, titanium dioxide reacts with carbon and chlorine to form titanium tetrachloride and carbon monoxide.\nTiO~2~ + 2C + 2Cl~2~ ⟶ TiCl~4~ + 2CO\n\n#### Separate: Chemistry and Extended Only\n\nCalculate, to three significant figures, the percentage by mass of chlorine in titanium tetrachloride.\n\n(*A*<sub>r</sub>:  Ti = 48   Cl = 35.5)",
+     "solution_md": "d) The percentage, by mass, of chlorine in titanium tetrachloride is:\n\n- Relative molar mass of TiCl<sub>4</sub> = 48 + (4 x 35.5) = 190;** [1 mark]**\n- Percentage by mass = $\\frac{4\\times35.5}{190}\\times100$= 74.7%; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Careful: **There are four chlorine in titanium tetrachloride, so you have to calculate the percentage by mass for all four chlorines*\n- *You will not score the second mark if your answer is not to three significant figures *\n- *In the actual exam, you might be given the atomic masses that you need to use but there is also the possibility that you will be expected to look them up on the Periodic Table*\n- *If the formula of titanium tetrachloride is given as TiCl*<sub>*2*</sub>* in part (a), then error carried forward is allowed giving a final answer of 59.7% for 1 mark*\n- *If the formula of titanium tetrachloride is given as TiCl in part (a), then error carried forward is allowed giving a final answer of 42.5% for 1 mark*",
+     "equations": [
+      {
+       "latex": "\\frac{4\\times35.5}{190}\\times100",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>4</mn><mo>×</mo><mn>35</mn><mo>.</mo><mn>5</mn></mrow><mn>190</mn></mfrac><mo>×</mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 4 cross times 35.5 over denominator 190 end fraction cross times 100"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_H7NHff7bC3WxDbJB",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_tJwJH6VHDNg4FPqD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/32",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe names and formulae for some compounds are shown.\n\n**aluminium nitrate, Al(NO**<sub>**3**</sub>**)**<sub>**3**</sub> **magnesium nitrate, Mg(NO**<sub>**3**</sub>**)**<sub>**2**</sub> **sodium nitrate, NaNO**<sub>**3**</sub>\n\nDeduce the formula for calcium nitrate.",
+     "solution_md": "a) The formula for calcium nitrate is:\n\n- Ca(NO<sub>3</sub>)<sub>2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *You can work this formula out from the information in the question *\n- *Sodium is a Group 1 element and the salt has the formula NaNO*<sub>*3*</sub>\n\n  - *There is one nitrate group*\n- *Magnesium is a Group 2 element and the salt has the formula Mg(NO*<sub>*3*</sub>*)*<sub>*2*</sub>\n\n  - *There are two nitrate groups*\n- *Aluminium is in Group 3 and the salt has the formula** **Al(NO*<sub>*3*</sub>*)*<sub>*3*</sub>\n\n  - *There are three nitrate groups*\n- *Calcium is a Group 2 element so will have the formula Ca(NO*<sub>*3*</sub>*)*<sub>*2*</sub>"
+    },
+    {
+     "id": "qstnprt_jXvjJyHWYSbsB7Br",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/32",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Sodium reacts with molten sodium hydroxide.\n\nComplete the chemical equation for this reaction.\n\n2Na + ......NaOH → ......Na<sub>2</sub>O + H<sub>2</sub>",
+     "solution_md": "b) The balanced equation for this reaction  is:\n\n2Na +  **2**NaOH → **2**Na<sub>2</sub>O + H<sub>2</sub>\n\n- Left hand side; **[1 mark]**\n- Right hand side; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Balance the hydrogen atoms first: *\n\n  - *2Na +  **2**NaOH → Na*<sub>*2*</sub>*O + H*<sub>*2*</sub>\n- *Balance the oxygen and sodium atoms: *\n\n  - *2Na + ** **2NaOH → **2**Na*<sub>*2*</sub>*O + H*<sub>*2*</sub>"
+    },
+    {
+     "id": "qstnprt_5fDRy9qwd3mTPRn4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/32",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_4TV53pyBRWZWJM6H"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of a carboxylic acid is shown.\n\n![q4bii_0620-s20-qp-32_cie-igcse-chemistry](assets/008-q4bii-0620-s20-qp-32-cie-igcse-chemistry.png)\n\nDeduce the formula of this carboxylic acid to show the number of atoms of carbon, hydrogen and oxygen.",
+     "solution_md": "c) The formula of this carboxylic acid to show the number of atoms of carbon, hydrogen and oxygen is:\n\n- C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *You will score the mark for the elements being written in any order*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gKyKsMmNxTxxj529",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_jYhNWjrY2DZ48Psg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIron pyrite, FeS<sub>2</sub>, is known as Fool’s Gold because it is a shiny yellow solid which is similar in appearance to gold. Iron pyrite is an ionic compound. Gold is a metallic element.\n\nIron pyrite, FeS<sub>2</sub>, contains positive and negative ions. The positive ion is Fe<sup>2+</sup>. Deduce the formula of the negative ion.",
+     "solution_md": "a) The formula of the negative ion in FeS<sub>2</sub> is:\n\n- S<sup>-</sup>; **[1 mark]** \n*Allow S*<sub>*2*</sub><sup>*2-*</sup>\n\n**[Total: 1 mark]**\n\n- *Overall, the compound is neutral so the charges on the ions must cancel out*\n- *The negative charges must total 2- to cancel the 2+ charge on the Fe ion*\n- *As there are 2 sulfide ions, each one must have a 1- charge, giving the formula S*<sup>*-*</sup>"
+    },
+    {
+     "id": "qstnprt_XjphwgkKZTK35ngq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hg5gvdxnKJwg8DC8",
+      "spcpt_FPBxqHYzkMkpTdNd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIron pyrite, FeS~2~, is known as Fool's Gold because it is a shiny yellow solid which is similar in appearance to gold. Iron pyrite is an ionic compound. Gold is a metallic element.\n\nA student is provided with a sample of iron pyrite and a sample of gold.\n\nSuggest how the student could distinguish between the two substances.",
+     "solution_md": "b) The student could distinguish between iron pyrite and gold by:\n\n- Test their conductivity; **[1 mark] **Gold conducts / iron pyrite does not conduct; **[1 mark]** \n**OR** \nMalleability / hit with a hammer; **[1 mark]** Gold malleable / only gold produces ringing sound / or reverse argument; **[1 mark]** \n**OR** \nDensity; **[1 mark]** Gold is denser / iron pyrite is less dense; **[1 mark]** \n**OR** \nAdd acid / any named / formula of acid; **[1 mark]** Gold does not react (ignore products with pyrites) / or reverse argument; **[1 mark]** \n**OR** \nHeat (both strongly) in air/ oxygen; **[1 mark]** iron pyrite reacts (ignore products); **[1 mark]** \n**OR** \nMelting point; **[1 mark]** Gold is lower / iron pyrite is higher; **[1 mark]** \n**OR** \nHeat with a more reactive metal than iron; **[1 mark]** Gold does not react / or reverse argument; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The key to this question is to recognise that iron is a metal whilst iron sulfide is an ionic compound*\n- *Then you need to compare the properties and reactions of metals and ionic compounds to see how they differ*\n- *As can be seen from the mark scheme, there are many acceptable ways to tell the difference due to the many differences in their properties and reactions*"
+    },
+    {
+     "id": "qstnprt_NNjyNRYJmpDR7XzQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIron pyrite, FeS~2~, is known as Fool’s Gold because it is a shiny yellow solid which is similar in appearance to gold. Iron pyrite is an ionic compound.\n\nSulfur dioxide is produced on a large scale by heating iron pyrite strongly in air. The iron pyrite reacts with oxygen in the air producing iron(III) oxide, Fe<sub>2</sub>O<sub>3</sub>, and sulfur dioxide.\n\nConstruct a chemical equation for the reaction between iron pyrite and oxygen.",
+     "solution_md": "c) A chemical equation for the reaction between iron pyrite and oxygen is:\n\n4FeS<sub>2</sub> + 11O<sub>2</sub> → 2Fe<sub>2</sub>O<sub>3</sub> + 8SO<sub>2</sub>\n\n- All formulae correct; **[1 mark]**\n- Balancing correct; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Use the information in the question to construct an unbalanced equation:*\n\n  - *FeS*<sub>*2*</sub>* + O*<sub>*2*</sub>* → Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + SO*<sub>*2*</sub>\n- *To balance, it is a good idea to make the number of oxygen atoms on the product side an even number first so put a 2 in front of Fe*<sub>*2*</sub>*O*<sub>*3*</sub>\n\n  - *FeS*<sub>*2*</sub>* + O*<sub>*2*</sub>* → 2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + SO*<sub>*2*</sub>\n- *Now there are 4 Fe atoms on the products side, to balance, add a 4 in front of FeS*<sub>*2*</sub>*:*\n\n  - *4FeS*<sub>*2*</sub>* + O*<sub>*2*</sub>* → 2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + SO*<sub>*2*</sub>\n- *There are 8 S atoms on the reactant side, so add an 8 in front of SO*<sub>*2*</sub>\n\n  - *4FeS*<sub>*2*</sub>* + O*<sub>*2*</sub>* → 2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + 8SO*<sub>*2*</sub>\n- *There are 22 O atoms on the product side, so add an 11 in front of O*<sub>*2*</sub>*:*\n\n  - *4FeS*<sub>*2*</sub>* + 11O*<sub>*2*</sub>* → 2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + 8SO*<sub>*2*</sub>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_85QmzgTcnGj8XcpJ",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_SC6dGFdbyQz3C9HX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4",
+      "spcpt_BCZxs97nRJgfmqWb"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nUse your copy of the Periodic Table to help you answer these questions.\n\nPredict the formula of each of the following compounds.\n\ni) aluminium fluoride\n\n[1]\n\nii) arsenic oxide\n\n[1]\n\niii) silicon bromide\n\n[1]",
+     "solution_md": "a) The formula of each of the compounds is:\n\n1. Aluminium fluoride: AlF<sub>3</sub>; **[1 mark]**\n2. Arsenic oxide: As<sub>2</sub>O<sub>3</sub>;** [1 mark]**\n3. Silicon bromide: SiBr<sub>4</sub>;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *To deduce the formula of a compound using valencies:*\n\n  - *Valencies are determined by the Group the element is in:*\n  \n    - *Group I and VII elements have a valency of 1*\n    - *Group II and VI elements have a valency of 2*\n    - *Group III and V elements have a valency of 3*\n    - *Group VI elements have a valency of 4*\n    - *Group VIII elements have a valency of 0*\n  - *Write out the symbols of each element and write down their valencies underneath*\n  - *The formula is calculated by cross-multiplying each atom with the number opposite:*\n\n1. *Write the symbols of each element with their valency underneath*\n2. *The formula is calculated by cross-multiplying each atom with the opposite number*\n3. *This gives the formula of the compound*\n\n| *Al*<br><br>> *3* | *F*<br><br>> *1* |\n|---|---|\n| *Al*<br><br>> *1* | *F*<br><br>> *3* |\n| > *AlF*<sub>*3*</sub> |   |\n\n| *As*<br><br>> *3* | *O*<br><br>> *2* |\n|---|---|\n| *As*<br><br>> *2* | *O*<br><br>> *3* |\n| *As*<sub>*2*</sub>*O*<sub>*3*</sub> |   |\n\n| *Si*<br><br>> *4* | *Br*<br><br>> *1* |\n|---|---|\n| *Si*<br><br>> *1* | *Br*<br><br>> *4* |\n| > *SiBr*<sub>*4*</sub> |   |"
+    },
+    {
+     "id": "qstnprt_cvK2HbDSf5PQYH3V",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDeduce the formula of each of the following ions.\n\ni) phosphide\n\n[1]\n\nii) barium\n\n[1]\n\niii) francium\n\n[1]",
+     "solution_md": "b) The formula of the ions is:\n\n1. Phosphide: P<sup>3-</sup>;** [1 mark]**\n2. Barium: Ba<sup>2+</sup>;** [1 mark]**\n3. Francium: Fr<sup>+</sup>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The Periodic Table can help work out the charge on many elements:*\n\n  - *Group I elements form ions with a 1+ charge*\n  - *Group II elements form ions with a 2+ charge*\n  - *Group III elements form ions with a 3+ charge*\n  - *Group V elements form ions with a 3- charge*\n  - *Group VI elements form ions with a 2- charge*\n  - *Group VII elements form ions with a 1- charge*"
+    },
+    {
+     "id": "qstnprt_yx6nGjWyn2m8bbXt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7QFDs7HdjVHz3hh3"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDraw a diagram showing the arrangement of the valency electrons in one molecule of the covalent compound carbon dioxide.\n\nUse o to represent an electron from a carbon atom. Use x to represent an electron from an oxygen atom.",
+     "solution_md": "c) A diagram showing the arrangement of the valency electrons in one molecule of the covalent compound carbon dioxide is:\n\n![co2-dot-and-cross](assets/009-co2-dot-and-cross.png)\n\n- 2 double bonds, one between each O and the C atom; **[1 mark]**\n- Each O has 8 outer electrons; **[1 mark]**\n- Each C has 8 outer electrons;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *Carbon has 4 electrons in the outer shell so needs to share 4 more electrons*\n- *Oxygen has 6 electrons in the outer shell so needs to share 2 more electrons*\n- *A carbon atom shares 2 pairs of electrons with each oxygen atom in order for all atoms to achieve a full outer shell*\n- *This forms a double bond between each carbon and oxygen atom*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5PQfhgJwJCh3mgFS",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_5XJpJxwRf9TFJcft",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn",
+      "spcpt_3yVJG3nWj7bQ8Gys"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about reactions involving calcium compounds.\n\nHeating calcium carbonate, CaCO<sub>3</sub>, produces calcium oxide, CaO, and one other gaseous product.\n\nWrite the word equation for this reaction.",
+     "solution_md": "a) The word equation for the reaction is:\n\nCalcium carbonate → Calcium oxide + carbon dioxide\n\n- Correctly places calcium carbonate and calcium oxide in the equation; **[1 mark]**\n- Correctly identifies carbon dioxide as the second product; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The question tells you most of the information that you need*\n\n  - *Heating calcium carbonate suggests that you start with calcium carbonate*\n  \n    - *Calcium carbonate →*\n  - *Produces calcium oxide and one other gaseous product suggests that calcium oxide is one of the products*\n  \n    - *Calcium carbonate → calcium oxide + *\n  - *You have to deduce what the other gaseous product is*\n  \n    - *The carbon (from the carbonate) has not been used and there is oxygen available, so carbon dioxide is a safe assumption*\n    - *Calcium carbonate → calcium oxide + carbon dioxide*"
+    },
+    {
+     "id": "qstnprt_nmmK365TBvgWbnqs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThis question is about reactions involving calcium compounds. Heating calcium carbonate, CaCO~3~, produces calcium oxide, CaO, and one other gaseous product.\n\n#### Extended Only\n\nWrite a balanced chemical equation for heating calcium carbonate, CaCO<sub>3</sub>, to form calcium oxide, CaO, and one other gaseous product.",
+     "solution_md": "b) The balanced chemical equation for heating calcium carbonate, CaCO<sub>3</sub>, to form calcium oxide, CaO, and one other gaseous product is:\n\n- CaCO<sub>3</sub> → CaO + CO<sub>2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *You are given the chemical formulae for calcium carbonate and calcium oxide*\n- *In part (a), you should have deduced that the other gaseous product is carbon dioxide and you are expected to know that its formula is CO*<sub>*2*</sub>* *\n\n  - *CaCO*<sub>*3*</sub>* → CaO + CO*<sub>*2*</sub>* *\n- *There is no balancing required for this reaction as there is one calcium, one carbon and three oxygen atoms on both sides of the equation*\n- *Tip: **If you have to write the balanced symbol equation with no support **and** it is for one mark, then it is likely that there is no balancing required -** beware**, this may not always be true!*"
+    },
+    {
+     "id": "qstnprt_cFFVhgRby7JcJNhM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "Calcium hydroxide, Ca(OH)<sub>2</sub> can be made by the reaction of calcium oxide, CaO, with water.\n\nCaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>\n\n112 g of calcium oxide reacts with 36 g of water.\n\nCalculate the mass of calcium hydroxide that is produced.\n\n____________________ g",
+     "solution_md": "c) The mass of calcium hydroxide that is produced is:\n\n- 112 + 36 = <u>148</u> g; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The Law of Conservation of Mass states that no matter is lost or gained during a chemical reaction*\n- *The total mass of the reactants equals the total mass of the products *\n- *This means that if you have 112 g of calcium carbonate reacting with 36 g of water, then the amount of calcium hydroxide that is formed must be 112 + 36 = 148 g*"
+    },
+    {
+     "id": "qstnprt_vCRkfxnMXQYJS7F5",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "Calcium hydroxide can be used to test for the presence of carbon dioxide.\n\nIf carbon dioxide is present, the calcium hydroxide will form a milky white precipitate of calcium carbonate.\n\nThe formula of calcium carbonate is CaCO<sub>3</sub>\n\nCalculate the relative formula mass (*M*<sub>r</sub>) of calcium carbonate.\n\nRelative atomic masses (*A*<sub>r</sub>): C = 12   O = 16   Ca = 40",
+     "solution_md": "d) To calculate the relative formula mass (*M*<sub>r</sub>) of calcium carbonate:\n\n- 40 + 12 + (3 x 16); **[1 mark]**\n- 100;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Remember:** The chemical formula tells you how many of each atom there are in any given chemical*\n\n  - *Be aware that for ionic compounds, the formula that you see will be the simplest ratio of atoms (sometimes with some structural detail) rather than the true formula*\n- *CaCO*<sub>*3*</sub>* contains one calcium, one carbon and three oxygen atoms*\n\n  - *40 + 12 + (3 x 16) = 100*"
+    },
+    {
+     "id": "qstnprt_dGMDx72kmZvddHSn",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_NDmjnvxzkMPwq35k"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCalculate the relative formula mass (M~r~) of calcium carbonate. Relative atomic masses (A~r~): C = 12   O = 16   Ca = 40\nMark scheme: 40 + 12 + (3 x 16) = 100\n\nCalculate the percentage of oxygen in calcium carbonate, CaCO<sub>3</sub>, using the following equation.\n\nPercentage by mass = $\\frac{A_{r}\\times\\mathrm{number} \\mathrm{of} \\mathrm{atoms}}{M_{r}\\mathrm{of} \\mathrm{the} \\mathrm{compound}}\\times100$",
+     "solution_md": "e) To calculate the percentage of oxygen in calcium carbonate, CaCO<sub>3</sub>:\n\n- $\\frac{(16\\times3)}{100}\\times100$; **[1 mark]**\n- 48%; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Careful: **There are three oxygen atoms in calcium carbonate*",
+     "equations": [
+      {
+       "latex": "\\frac{A_{r}\\times\\mathrm{number} \\mathrm{of} \\mathrm{atoms}}{M_{r}\\mathrm{of} \\mathrm{the} \\mathrm{compound}}\\times100",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub><mo>×</mo><mo> </mo><mi>number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>atoms</mi></mrow><mrow><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub><mo> </mo><mi>of</mi><mo> </mo><mi>the</mi><mo> </mo><mi>compound</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator A subscript straight r cross times space number space of space atoms over denominator M subscript straight r space of space the space compound end fraction space cross times space 100"
+      },
+      {
+       "latex": "\\frac{(16\\times3)}{100}\\times100",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mo>(</mo><mn>16</mn><mo>×</mo><mn>3</mn><mo>)</mo></mrow><mn>100</mn></mfrac><mo>×</mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 16 cross times 3 right parenthesis over denominator 100 end fraction cross times 100"
       }
      ]
     }

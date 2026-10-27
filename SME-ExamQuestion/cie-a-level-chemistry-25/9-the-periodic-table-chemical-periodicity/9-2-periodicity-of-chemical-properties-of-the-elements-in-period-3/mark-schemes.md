@@ -395,3 +395,499 @@ SO<sub>3</sub> + H<sub>2</sub>O $\rightarrow$ H<sub>2</sub>SO<sub>4</sub>
 > Phosphorus reaches +5 (in P<sub>4</sub>O<sub>10</sub>) and sulfur reaches +6 (in SO<sub>3</sub>).
 > 
 > In the chlorides listed here, neither reaches its maximum oxidation state.
+
+## Structured Questions (8 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The equation for the reaction of aluminium with chlorine to form Al<sub>2</sub>Cl<sub>6</sub> is:
+> 
+> - 2Al + 3Cl<sub>2</sub> → Al<sub>2</sub>Cl<sub>6</sub> **[1 mark]**
+> 
+> State symbols are not required
+
+ii) The completed table to show the oxidation numbers of the Period 3 elements in their chlorides is:
+
+| **Period 3 element** | **Formula of chloride** | **Oxidation number of Period 3 element in the chloride** |
+|---|---|---|
+| Na | NaCl | **Final answer:** **+1** |
+| Mg | MgCl<sub>2</sub> | **Final answer:** **+2** |
+| Al | Al<sub>2</sub>Cl<sub>6</sub> | **Final answer:** **+3** |
+| Si | SiCl<sub>4</sub> | **Final answer:** **+4** |
+| P | PCl<sub>5</sub> | **Final answer:** **+5** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 3 marks for all 5 correct
+> 
+> 2 marks for any 4 correct
+> 
+> 1 mark for any 3 correct
+
+> **[exam-tip]**
+> - Chlorine is more electronegative than the other Period 3 elements, so it has an oxidation number of −1.
+> - The Period 3 element has a positive oxidation number to give an overall neutral compound.
+> - The elements from Na to P use all of their outer shell electrons in bonding with chlorine, which is why the oxidation numbers increase from +1 to +5 across the period.
+> **[mark-scheme]**
+> i) The observation when MgCl<sub>2</sub> is added to water:
+> 
+> - MgCl<sub>2</sub> dissolves to form a colourless solution **[1 mark]**
+> 
+> ii) The pH of the resulting solution:
+> 
+> - pH 6.5 / pH between 6 and 7 **[1 mark]**
+
+> **[exam-tip]**
+> - MgCl<sub>2</sub> is an ionic compound that dissolves readily in water.
+> - The resulting solution is slightly acidic (pH ~6.5) due to slight hydrolysis of the Mg<sup>2+</sup> ion.
+The equation for the reaction of phosphorus(V) chloride with water, including state symbols, is:
+
+PCl<sub>5</sub> (s) + 4H<sub>2</sub>O (l) → H<sub>3</sub>PO<sub>4</sub> (aq) + 5HCl (g)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct balanced equation: PCl<sub>5</sub> + 4H<sub>2</sub>O → H<sub>3</sub>PO<sub>4</sub> + 5HCl
+> 
+> 1 mark for all correct state symbols: (s), (l), (aq), (g)
+
+> **[exam-tip]**
+> - The hydrolysis of PCl<sub>5</sub> in water is vigorous, producing phosphoric acid (H<sub>3</sub>PO<sub>4</sub>) and hydrogen chloride gas (white steamy fumes).
+> - The resulting H<sub>3</sub>PO<sub>4</sub> solution is strongly acidic (pH 1–2).
+> - HCl (aq) is also accepted if hydrogen chloride is assumed to dissolve in excess water.
+
+### Q2
+> **[mark-scheme]**
+> The variation in acid-base character of the Period 3 oxides:
+> 
+> - The acid-base character is related to the difference in electronegativity between the Period 3 element and the oxide ion **[1 mark]**
+> - Low electronegativity of Period 3 element means that the element forms X<sup>+</sup> and OH<sup>–</sup>
+> **AND**
+> Therefore the oxide is basic **[1 mark]**
+> - High electronegativity of Period 3 element means that the element forms X–O<sup>–</sup> and H<sup>+</sup>
+> **AND**
+> Therefore the oxide is acidic **[1 mark]**
+
+> **[exam-tip]**
+> - Na has a much lower electronegativity than oxygen, so the large electronegativity difference leads to ionic bonding
+> 
+>   - Na<sub>2</sub>O and MgO are basic oxides.
+> - S and P have electronegativities closer to oxygen
+> 
+>   - → small electronegativity difference
+>   - → covalent bonding
+>   - → SO<sub>2</sub> and P<sub>4</sub>O<sub>10</sub> are acidic oxides.
+> - Al<sub>2</sub>O<sub>3</sub> sits at the borderline and is amphoteric.
+> **[mark-scheme]**
+> i) The equation for the reaction of phosphorus(V) oxide with water and the expected pH:
+> 
+> - P<sub>4</sub>O<sub>10</sub> (s) + 6H<sub>2</sub>O (l) → 4H<sub>3</sub>PO<sub>4</sub> (aq) **[1 mark]**
+> - pH in the range 1 to 2 **[1 mark]**
+> 
+> ii) Phosphorus(V) oxide has a low melting point because:
+> 
+> - P<sub>4</sub>O<sub>10</sub> has a simple molecular structure **[1 mark]**
+> - Only weak instantaneous dipole-induced dipole (id-id) forces act between molecules, which require little energy to overcome **[1 mark]**
+
+> **[exam-tip]**
+> - The equation P<sub>4</sub>O<sub>10</sub> + 6H<sub>2</sub>O → 4H<sub>3</sub>PO<sub>4</sub> is a key equation to learn. The product is phosphoric acid, which forms a strongly acidic solution (pH 1–2).
+> - For melting point questions, always address both the structure type (simple molecular) and the type of intermolecular force (id-id forces). Both points are needed for full marks.
+> **[mark-scheme]**
+> i) The equation for the reaction of phosphorus(V) oxide with aqueous sodium hydroxide:
+> 
+> - P<sub>4</sub>O<sub>10</sub> (s) + 12NaOH (aq) → 4Na<sub>3</sub>PO<sub>4</sub> (aq) + 6H<sub>2</sub>O (l)
+> **OR**
+> 3NaOH (aq) + H<sub>3</sub>PO<sub>4</sub> (aq) → Na<sub>3</sub>PO<sub>4</sub> (aq) + 3H<sub>2</sub>O (l) **[1 mark]**
+> 
+> ii) Using oxidation numbers to determine whether this is a redox reaction:
+> 
+> - Sodium remains +1 in NaOH and Na<sub>3</sub>PO<sub>4</sub>, and phosphorus remains +5 in both P<sub>4</sub>O<sub>10</sub> and Na<sub>3</sub>PO<sub>4</sub> **[1 mark]**
+> - There is no change in oxidation numbers, therefore this reaction is not a redox reaction **[1 mark]**
+
+> **[exam-tip]**
+> - When P<sub>4</sub>O<sub>10</sub> is in aqueous conditions it first reacts with water to form H<sub>3</sub>PO<sub>4</sub>, so the alternative equation via H<sub>3</sub>PO<sub>4</sub> is also valid.
+> - A redox reaction requires a change in oxidation number. Since neither P nor Na changes oxidation state, this is an acid-base reaction only.
+
+### Q3
+The completed graph showing variation in ionic radius across Period 3 is:
+
+![Graph showing ionic radius plotted against Period 3 elements: values decrease from Na+ to Si4+, sharp increase at P3-, then decrease from P3- to Cl-](assets/006-graph-showing-ionic-radius-plotted-against-perio.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a correct decreasing trend from Na<sup>+</sup> to Si<sup>4+</sup>
+> 
+> 1 mark for a sharp increase at P<sup>3-</sup>
+> 
+> 1 mark for a decreasing trend from P<sup>3-</sup> to Cl<sup>-</sup>
+
+> **[exam-tip]**
+> Ionic radius is the distance from the nucleus to the outermost electron of an ion.
+> 
+> For cations (Na<sup>+</sup> to Si<sup>4+</sup>): nuclear charge increases across the period but shielding remains roughly constant. The stronger nuclear attraction pulls the electron shells closer to the nucleus, so ionic radius decreases.
+> 
+> For anions (P<sup>3-</sup> to Cl<sup>-</sup>): these ions have gained electrons, making them considerably larger than the cations. The sharp increase at P<sup>3-</sup> reflects this. From P<sup>3-</sup> to Cl<sup>-</sup>, nuclear charge increases while the electron shell count remains the same, so ionic radius decreases.
+i) The completed graph showing variation in electrical conductivity across Period 3 is:
+
+![Graph showing electrical conductivity plotted against Period 3 elements: values increase from Na to Al, drop at Si, then remain low from P to Ar](assets/008-graph-showing-electrical-conductivity-plotted-ag.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for an increasing trend from Na to Al
+> 
+> 1 mark for Si below Al, with P to Ar at low conductivity (below Na)
+
+> **[mark-scheme]**
+> ii) Explaining the variation in electrical conductivity across Period 3:
+> 
+> - Na, Mg and Al have metallic bonding with increasing numbers of delocalised electrons from Na to Al **[1 mark]**
+> - Si is a metalloid / semi-conductor **[1 mark]**
+> - P, S, Cl and Ar have simple molecular / covalent structures with no delocalised electrons **[1 mark]**
+
+> **[exam-tip]**
+> For part i), no data is provided. This graph requires you to apply your knowledge of structure and bonding.
+> 
+> For Na, Mg and Al: these are metals with a metallic lattice and delocalised electrons. Conductivity increases from Na to Al because each successive metal contributes more electrons to the delocalised sea (Na: 1, Mg: 2, Al: 3).
+> 
+> Silicon is a metalloid (semi-conductor) with a giant covalent structure. It has some ability to conduct electricity, but far less than a metal.
+> 
+> Phosphorus, sulfur, chlorine and argon all have simple molecular or covalent structures with no freely delocalised electrons, so they do not conduct electricity.
+> 
+> Note: the term "metalloid" or "semi-conductor" does not appear on the specification but does appear in mark schemes. Learn it for this context.
+The completed table is:
+
+| sodium | magnesium | aluminium | phosphorus | sulfur |
+|---|---|---|---|---|
+| **Final answer:** **Na**<sub>**2**</sub>**O** | **Final answer:** **MgO** | **Final answer:** **Al**<sub>**2**</sub>**O**<sub>**3**</sub> | **Final answer:** **P**<sub>**2**</sub>**O**<sub>**5**</sub> | **Final answer:** **SO**<sub>**2**</sub> |
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 2 marks for all five formulae correct
+> 
+> 1 mark for three or four formulae correct
+> 
+> Alternative correct formulae:
+> 
+> - Phosphorus: P<sub>4</sub>O<sub>10</sub> or P<sub>2</sub>O<sub>3</sub> are also accepted
+> - Sulfur: SO<sub>3</sub> is also accepted
+
+> **[exam-tip]**
+> You need to know the common oxides of Period 3 elements from sodium to chlorine.
+> 
+> The most commonly tested formulae are Na<sub>2</sub>O, MgO, Al<sub>2</sub>O<sub>3</sub>, and SO<sub>2</sub>/SO<sub>3</sub>. For phosphorus, P<sub>2</sub>O<sub>5</sub> (also written as P<sub>4</sub>O<sub>10</sub>) is the most common, but P<sub>2</sub>O<sub>3</sub> is also accepted.
+> **[mark-scheme]**
+> The term amphoteric and equations for aluminium oxide:
+> 
+> - Amphoteric means the substance reacts with both acids and bases / can act as both an acid and a base **[1 mark]**
+> - Reaction with acid: Al<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>SO<sub>4</sub> → Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 3H<sub>2</sub>O
+> **OR**
+> Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O **[1 mark]**
+> - Reaction with base: Al<sub>2</sub>O<sub>3</sub> + 2NaOH + 3H<sub>2</sub>O → 2NaAl(OH)<sub>4</sub> **[1 mark]**
+> 
+> The sodium hydroxide equation is the only base reaction required by the specification.
+
+> **[exam-tip]**
+> Amphoteric means the substance can act as both an acid and a base. Aluminium oxide reacts with acids to produce a salt and water, and also reacts with bases.
+> 
+> The sodium hydroxide equation requires care. The product is NaAl(OH)<sub>4</sub> (sodium aluminate), which contains four hydroxide groups. Balance carefully: 2NaOH and 3H<sub>2</sub>O are required on the left-hand side.
+> 
+> For the acid reaction, either H<sub>2</sub>SO<sub>4</sub> or HCl is accepted.
+
+### Q4
+The equation, with state symbols, for the reaction of phosphorus with chlorine to form phosphorus(V) chloride, PCl<sub>5</sub>, is:
+
+P<sub>4</sub> (s) + 10Cl<sub>2</sub> (g) → 4PCl<sub>5</sub> (s)
+
+**OR**
+
+2P (s) + 5Cl<sub>2</sub> (g) → 2PCl<sub>5</sub> (s)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a correct balanced equation
+> 
+> 1 mark for all correct state symbols
+
+> **[exam-tip]**
+> Phosphorus exists as P<sub>4</sub> molecules at room temperature and is a solid, so the equation using P<sub>4</sub> (s) is the standard answer. The alternative using 2P (s) is also accepted.
+> 
+> To determine the state of PCl<sub>5</sub>: its melting point is 435 K (162 °C), which is above room temperature (298 K). It is therefore a solid, so the correct state symbol is (s).
+> 
+> If you are unsure of the state of any chloride in the table, use the melting point data. A melting point above 298 K means the compound is solid at room temperature.
+> **[mark-scheme]**
+> i) Sodium chloride has a high melting point because:
+> 
+> - It has a giant ionic lattice structure **[1 mark]**
+> - There are strong electrostatic forces of attraction / ionic bonds between oppositely charged ions **[1 mark]**
+> 
+> ii) Silicon tetrachloride has a low melting point because:
+> 
+> - It has a simple molecular structure **[1 mark]**
+> - There are only weak instantaneous dipole-induced dipole (id-id) forces / van der Waals forces between molecules **[1 mark]**
+
+> **[exam-tip]**
+> This topic builds on GCSE knowledge, but at A level you need to be more specific.
+> 
+> For sodium chloride: identify the giant ionic lattice and state that strong ionic bonds (or electrostatic forces between oppositely charged ions) must be broken on melting.
+> 
+> For silicon tetrachloride: identify the simple molecular structure and name the specific type of intermolecular force. At A level, "weak forces" alone is not enough. Name them as instantaneous dipole-induced dipole (id-id) forces or van der Waals forces.
+> 
+> A useful rule:
+> 
+> - Substances with HIGH melting points have GIANT structures
+> - Substances with LOW melting points have SIMPLE molecular structures
+> **[mark-scheme]**
+> An equation for the reaction of silicon tetrachloride with water:
+> 
+> - SiCl<sub>4</sub> + 2H<sub>2</sub>O → SiO<sub>2</sub> + 4HCl
+> **OR**
+> SiCl<sub>4</sub> + 4H<sub>2</sub>O → Si(OH)<sub>4</sub> + 4HCl
+> **OR**
+> SiCl<sub>4</sub> + 4H<sub>2</sub>O → SiO<sub>2</sub>.2H<sub>2</sub>O + 4HCl **[1 mark]**
+
+> **[exam-tip]**
+> The standard equation for this reaction is SiCl<sub>4</sub> + 2H<sub>2</sub>O → SiO<sub>2</sub> + 4HCl. Silicon tetrachloride is hydrolysed in water to form a white precipitate of SiO<sub>2</sub> and hydrogen chloride gas.
+> 
+> You need to be able to write equations for the reaction of all Period 3 chlorides with water. Make sure you can write equations for NaCl, MgCl<sub>2</sub>, AlCl<sub>3</sub>, SiCl<sub>4</sub>, and PCl<sub>5</sub>.
+> **[mark-scheme]**
+> Suggested pH values for solutions formed in water:
+> 
+> - NaCl = pH 7 / neutral **[1 mark]**
+> - PCl<sub>5</sub> = pH 1–4 **[1 mark]**
+> 
+> A pH value stated as simply "acidic" is not accepted for PCl<sub>5</sub>. A specific pH value between 1 and 4 is required.
+
+> **[exam-tip]**
+> For sodium chloride: NaCl dissolves to give Na<sup>+</sup> and Cl<sup>-</sup> ions, neither of which reacts with water. The solution is neutral with pH 7.
+> 
+> For PCl<sub>5</sub>: this reacts vigorously with water to produce HCl and phosphoric acid. The solution is strongly acidic, so a pH between 1 and 4 reflects this. Just stating "acidic" does not gain the mark. You must give a specific value.
+
+### Q5
+The completed table is:
+
+| Na<sub>2</sub>O | MgO | Al<sub>2</sub>O<sub>3</sub> | SiO<sub>2</sub> | P<sub>4</sub>O<sub>10</sub> | SO<sub>2</sub> |
+|---|---|---|---|---|---|
+| **Final answer:** **basic** | **Final answer:** **basic** | **Final answer:** **amphoteric** | **Final answer:** **acidic** | **Final answer:** **acidic** | **Final answer:** **acidic** |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for Na<sub>2</sub>O = basic
+> 
+> 1 mark for MgO = basic
+> 
+> 1 mark for Al<sub>2</sub>O<sub>3</sub> = amphoteric
+> 
+> 1 mark for all three of SiO<sub>2</sub>, P<sub>4</sub>O<sub>10</sub> and SO<sub>2</sub> = acidic
+> 
+> 'Alkaline' is not accepted as a classification term for an oxide
+
+> **[exam-tip]**
+> - The acid-base character of Period 3 oxides changes from basic (left) to acidic (right) across the period.
+> - Al<sub>2</sub>O<sub>3</sub> is the exception: it is amphoteric, reacting with both acids and bases.
+> - SiO<sub>2</sub> is classified as acidic, even though it does not dissolve in water. It reacts with hot concentrated alkali.
+> **[mark-scheme]**
+> i) An equation for the reaction of each oxide with water:
+> 
+> - Na<sub>2</sub>O + H<sub>2</sub>O → 2NaOH **[1 mark]**
+> - SO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>SO<sub>3</sub> **[1 mark]**
+> 
+> ii) The pH of the resulting solution in each case:
+> 
+> - Na<sub>2</sub>O: pH 12 to 14
+> **AND**
+> SO<sub>2</sub>: pH 1 to 4 **[1 mark]**
+
+> **[exam-tip]**
+> - Na<sub>2</sub>O is a basic oxide: it reacts with water to form sodium hydroxide, giving a strongly alkaline solution (pH 12–14).
+> - SO<sub>2</sub> is an acidic oxide: it reacts with water to form sulfurous acid, giving an acidic solution (pH 1–4).
+> - State symbols are not required for the equations.
+> **[mark-scheme]**
+> The oxidation numbers of the Period 3 elements in each oxide are:
+> 
+> - Na in Na<sub>2</sub>O: +1 **[1 mark]**
+> - S in SO<sub>2</sub>: +4 **[1 mark]**
+
+> **[exam-tip]**
+> - In any oxide, oxygen has an oxidation number of −2.
+> - In Na<sub>2</sub>O: 2(Na) + (−2) = 0, so Na = +1.
+> - In SO<sub>2</sub>: 2(−2) + S = 0, so S = +4.
+> **[mark-scheme]**
+> Compare the structure and bonding of Na<sub>2</sub>O and SO<sub>2</sub>:
+> 
+> - Na<sub>2</sub>O has a giant ionic lattice / structure **[1 mark]**
+> - Strong electrostatic attraction between oppositely charged ions in Na<sub>2</sub>O requires a large amount of energy to overcome
+> **OR**
+> A large amount of energy is needed to break the strong ionic bonds between Na<sup>+</sup> and O<sup>2–</sup> ions **[1 mark]**
+> - SO<sub>2</sub> has a simple molecular structure **[1 mark]**
+> - Only weak permanent dipole-permanent dipole (pd-pd) forces act between SO<sub>2</sub> molecules, which require little energy to overcome **[1 mark]**
+
+> **[exam-tip]**
+> - A high melting point indicates a giant structure (ionic or covalent); a low melting point indicates a simple molecular structure.
+> - Always identify the structure type, the type of bond or force involved, and whether it is strong or weak.
+> - The pd-pd forces in SO<sub>2</sub> are relatively weak because SO<sub>2</sub> is a small polar molecule.
+> 
+>   - Its bent shape means the bond dipoles do not cancel, giving a net molecular dipole.
+
+### Q6
+> **[mark-scheme]**
+> The reaction of Na<sub>2</sub>O with water:
+> 
+> - Na<sub>2</sub>O (s) + H<sub>2</sub>O (l) → 2NaOH (aq) **[1 mark]**
+> - Vigorous / exothermic reaction
+> **AND**
+> Colourless solution produced **[1 mark]**
+> - pH 13 to 14 **[1 mark]**
+> 
+> The reaction of SO<sub>2</sub> with water:
+> 
+> - SO<sub>2</sub> (g) + H<sub>2</sub>O (l) → H<sub>2</sub>SO<sub>3</sub> (aq) **[1 mark]**
+> - Colourless solution produced **[1 mark]**
+> - pH 1 to 4 **[1 mark]**
+> 
+> State symbols are not required for the equations
+
+> **[exam-tip]**
+> - Na<sub>2</sub>O is a basic oxide: it reacts vigorously with water to form a strongly alkaline solution of NaOH (pH 13–14).
+> - SO<sub>2</sub> is an acidic oxide: it dissolves in water to form sulfurous acid, H<sub>2</sub>SO<sub>3</sub>, giving an acidic solution (pH 1–4).
+> - The acid-base character of Period 3 oxides changes across the period:
+> 
+>   - Na<sub>2</sub>O and MgO are basic
+>   - Al<sub>2</sub>O<sub>3</sub> is amphoteric
+>   - SiO<sub>2</sub>, P<sub>4</sub>O<sub>10</sub>, SO<sub>2</sub> and SO<sub>3</sub> are acidic
+> **[mark-scheme]**
+> The ionic equation for this reaction is:
+> 
+> - SiO<sub>2</sub> + 2OH<sup>–</sup> → SiO<sub>3</sub><sup>2–</sup> + H<sub>2</sub>O **[1 mark]**
+
+> **[exam-tip]**
+> - The full equation is: SiO<sub>2</sub> + 2NaOH → Na<sub>2</sub>SiO<sub>3</sub> + H<sub>2</sub>O
+> - To write the ionic equation: split ionic compounds into their ions, then cancel the spectator ion (Na<sup>+</sup>).
+> - This reaction requires hot, concentrated NaOH. SiO<sub>2</sub> is an acidic oxide so it reacts with concentrated alkali.
+> **[mark-scheme]**
+> i) The term used to describe the behaviour of compound **A**:
+> 
+> - Amphoteric **[1 mark]**
+> 
+> ii) The equations for the reactions of compound **A** (Al<sub>2</sub>O<sub>3</sub>) are:
+> 
+> - Al<sub>2</sub>O<sub>3</sub> (s) + 2KOH (aq) + 3H<sub>2</sub>O (l) → 2KAl(OH)<sub>4</sub> (aq) **[1 mark]**
+> - Al<sub>2</sub>O<sub>3</sub> (s) + 6HNO<sub>3</sub> (aq) → 2Al(NO<sub>3</sub>)<sub>3</sub> (aq) + 3H<sub>2</sub>O (l) **[1 mark]**
+> 
+> NaOH is accepted in place of KOH for the alkali equation
+
+> **[exam-tip]**
+> - Compound A is aluminium oxide, Al<sub>2</sub>O<sub>3</sub>, which is the only Period 3 oxide that is amphoteric.
+> - It is insoluble in water but reacts with both concentrated acids and concentrated alkalis.
+> - The other insoluble Period 3 oxide is SiO<sub>2</sub>, but SiO<sub>2</sub> only reacts with alkalis (it is acidic, not amphoteric).
+
+### Q7
+> **[mark-scheme]**
+> The type of bond or force overcome when each of the following oxides melts:
+> 
+> - Na<sub>2</sub>O: ionic bonds **[1 mark]**
+> - SiO<sub>2</sub>: covalent bonds **[1 mark]**
+> - P<sub>4</sub>O<sub>10</sub>: van der Waals' forces / instantaneous dipole-induced dipole (id-id) forces **[1 mark]**
+> 
+> 'Ionic bonds' must be specified; 'electrostatic forces' alone is not accepted
+
+> **[exam-tip]**
+> - Na<sub>2</sub>O has a giant ionic structure. When it melts, the strong forces of attraction between oppositely charged ions (ionic bonds) are overcome.
+> - SiO<sub>2</sub> has a giant covalent structure. When it melts, the strong covalent bonds between Si and O atoms are overcome.
+> - P<sub>4</sub>O<sub>10</sub> has a simple molecular structure with strong covalent bonds within molecules but weak id-id forces between molecules. When it melts, only the weak id-id forces are overcome, while the covalent bonds within the molecule remain intact.
+> **[mark-scheme]**
+> i) A Period 3 oxide from Table 2.1 that reacts with water to produce a hydroxide:
+> 
+> - Na<sub>2</sub>O
+> **OR**
+> MgO **[1 mark]**
+> 
+> ii) A Period 3 oxide from Table 2.1 that reacts with water to produce an acid:
+> 
+> - P<sub>4</sub>O<sub>10</sub>
+> **OR**
+> SO<sub>2</sub> **[1 mark]**
+> 
+> iii) A Period 3 oxide from Table 2.1 that does not react with water:
+> 
+> - Al<sub>2</sub>O<sub>3</sub>
+> **OR**
+> SiO<sub>2</sub> **[1 mark]**
+
+> **[exam-tip]**
+> - Na<sub>2</sub>O and MgO are basic oxides that react with water to produce aqueous solutions of their metal hydroxides.
+> - P<sub>4</sub>O<sub>10</sub> and SO<sub>2</sub> are acidic oxides that react with water to produce phosphoric acid and sulfurous acid respectively.
+> - Al<sub>2</sub>O<sub>3</sub> and SiO<sub>2</sub> are both insoluble in water and do not react. Note that Al<sub>2</sub>O<sub>3</sub> is amphoteric (reacts with acids and bases) but is insoluble in water itself.
+The completed table is:
+
+| **Period 3 oxide** | **With HCl (aq)** | **With NaOH (aq)** |
+|---|---|---|
+| MgO (s) | **Final answer:** **✓** | **Final answer:** **✗** |
+| Al<sub>2</sub>O<sub>3</sub> (s) | **Final answer:** **✓** | **Final answer:** **✓** |
+| SO<sub>2</sub> (g) | **Final answer:** **✗** | **Final answer:** **✓** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct entries in the MgO row
+> 
+> 1 mark for correct entries in the Al<sub>2</sub>O<sub>3</sub> row
+> 
+> 1 mark for correct entries in the SO<sub>2</sub> row
+
+> **[exam-tip]**
+> - MgO is a basic oxide: it reacts with acids (HCl) but not with bases (NaOH).
+> - Al<sub>2</sub>O<sub>3</sub> is an amphoteric oxide: it reacts with both acids and bases. Heating may be required.
+> - SO<sub>2</sub> is an acidic oxide: it reacts with bases (NaOH) but not with acids (HCl).
+
+### Q8
+> **[mark-scheme]**
+> i) The equation for the reaction of silicon with chlorine to form silicon(IV) chloride:
+> 
+> - Si + 2Cl<sub>2</sub> → SiCl<sub>4</sub> **[1 mark]**
+> 
+> ii) The shape of a molecule of silicon(IV) chloride:
+> 
+> - Tetrahedral **[1 mark]**
+> 
+> iii) Silicon(IV) chloride is a liquid at room temperature because:
+> 
+> - It has a simple molecular structure **[1 mark]**
+> - Only weak instantaneous dipole-induced dipole (id-id) forces exist between molecules, which require little energy to overcome **[1 mark]**
+
+> **[exam-tip]**
+> - Silicon(IV) chloride is a simple molecular compound. Its four Si–Cl bonds are polar, but the symmetrical tetrahedral arrangement means the overall molecule is non-polar.
+> - As a non-polar simple molecule, the only intermolecular forces are id-id forces, which are weak and easily overcome at room temperature.
+> - All four bond pairs and no lone pairs around Si give a tetrahedral shape (bond angle 109.5°).
+> **[mark-scheme]**
+> The difference in reactivity is due to:
+> 
+> - Si has vacant 3d orbitals available for bonding
+> **OR**
+> C has no vacant 3d orbitals / d orbitals are not energetically accessible in carbon **[1 mark]**
+> - A lone pair from the oxygen of water can bond to Si before breaking Si–Cl bonds **[1 mark]**
+> - A large amount of energy is released in the Si–O bond formation, making the reaction thermodynamically feasible
+> **OR**
+> CCl<sub>4</sub> has a high activation energy for reaction with water because no intermediate can form **[1 mark]**
+
+> **[exam-tip]**
+> - The key is the presence of vacant 3d orbitals on Si. These allow an oxygen lone pair to coordinate to Si, lowering the activation energy for the reaction.
+> - Carbon is in the second period and has no available 3d orbitals. Without an accessible intermediate, the water molecule cannot react with CCl<sub>4</sub>.
+> **[mark-scheme]**
+> i) The equation for the reaction of silicon(IV) oxide with hot concentrated aqueous sodium hydroxide:
+> 
+> - SiO<sub>2</sub> + 2NaOH → Na<sub>2</sub>SiO<sub>3</sub> + H<sub>2</sub>O **[1 mark]**
+> 
+> ii) Why silicon(IV) oxide does not react with acids:
+> 
+> - SiO<sub>2</sub> does not contain oxide / O<sup>2–</sup> ions, so it cannot accept protons / H<sup>+</sup> from an acid **[1 mark]**
+
+> **[exam-tip]**
+> - SiO<sub>2</sub> is a giant covalent structure and an acidic oxide. It reacts with hot concentrated alkalis but not with acids.
+> - Basic oxides react with acids because they contain O<sup>2–</sup> ions that accept protons. In SiO<sub>2</sub>, all oxygen atoms are covalently bonded and there are no O<sup>2–</sup> ions , which means that it cannot act as a base.

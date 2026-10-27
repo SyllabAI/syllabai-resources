@@ -286,3 +286,376 @@ From the diagram, the particle at position 1 will be moving downwards and the pa
 
   - $I \\alpha ( 2 A )^{2} = 4 A^{2}$
 - The new power will therefore be $4\times3P=12P$
+
+## Structured Questions (6 questions)
+
+
+### Q1
+Deduce the position on the wave where it moves upwards with maximum speed:
+
+- C; **[1 mark] **
+
+Explain the motion of the progressive wave:
+
+- Since this is a <u>progressive</u> wave moving left to right, position C will move upward; **[1 mark]**
+
+![3-1-s-q--q1a-answer-hard-aqa-a-level-physics](assets/014-3-1-s-q-q1a-answer-hard-aqa-a-level-physics.png)
+
+- Point** **C is at the equilibrium / undisturbed position / mid-point on the wave **AND** (Therefore) it is moving at maximum speed;** [1 mark]**** **
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Wave speed, *v* = 330 m s<sup>–1</sup>
+
+Determine the time period of the oscilloscope trace using the time-base:
+
+- The time-base on the X-axis is set to a scale of 400 μs / div
+- Therefore, each division represents 400 × 10<sup>–6</sup> s
+- One time period is 4 divisions (shown below); **[1 mark]**
+
+![3-1-s-q--q1b-answer-hard-aqa-a-level-physics](assets/016-3-1-s-q-q1b-answer-hard-aqa-a-level-physics.png)
+
+- Therefore, time period (one full cycle), *T *= 4 × (400 × 10<sup>–6</sup>) = 1.6 × 10<sup>–3</sup> s **[1 mark] **
+
+Calculate the frequency of the wave:
+
+- *f* = $\frac{1}{T}$
+- *f* = $\frac{1}{1.6\times10^{-3}}$= 625 Hz **[1 mark] **
+
+Use the wave speed equation to calculate the wavelength of the sound wave:
+
+- *v = fλ*
+- 330 = 625 × *λ*
+- *λ* =$\frac{330}{625}$ = 0.53 m **[1 mark] **
+
+**[Total: 4 marks]**
+Determine the displacement between the two signals in terms of number of divisions:
+
+- The two signals are displaced by 1 division; **[1 mark]**
+
+![3-1-s-q--q1c-answer-hard-aqa-a-level-physics](assets/018-3-1-s-q-q1c-answer-hard-aqa-a-level-physics.png)
+
+Use the displacement to calculate a phase difference:
+
+- If the two signals were in phase, the displacement would either be 0 divisions or 4 divisions
+- Therefore, 1 division of displacement represents 25% of phase difference
+- Phase difference = $\frac{1}{4}$ × 2π = $\frac{1}{2}$ π **OR** Phase difference = $\frac{1}{4}$ × 360 = 90 **[1 mark] **
+
+State the unit for phase difference:
+
+- Phase difference = $\frac{1}{2}$π rad **OR** Phase difference = 90º **[1 mark] **
+
+**[Total: 3 marks]**
+Show that the wave speed *v *is given by $v=\frac{3N}{2M}$:
+
+Use Fig. 1.4 to write an expression for the time period, *T*:
+
+- The time period is the time taken for one complete wave cycle
+- This is determined using the time axis in the time-view of the wave, shown below:
+
+![3-1-s-q--q1d-answer-image1-hard-aqa-a-level-physics](assets/021-3-1-s-q-q1d-answer-image1-hard-aqa-a-level-physi.png)
+
+- Therefore, *T* =$\frac{M}{3}$ **[1 mark] **
+
+Write an expression for the frequency *f* of the wave:
+
+- *f* = $\frac{1}{T}$
+- Therefore *f = *$\frac{1}{\frac{M}{3}}$= $\frac{3}{M}$** [1 mark] **
+
+Use Fig. 1.5 to write an expression for the wavelength *λ* of the wave:
+
+- The wavelength of a wave is the distance between two corresponding points, e.g., peak to peak
+- This is determined using the position axis in the space-view of the wave, shown below:
+
+![3-1-s-q--q1d-answer-image2-hard-aqa-a-level-physics](assets/022-3-1-s-q-q1d-answer-image2-hard-aqa-a-level-physi.png)
+
+- Therefore,* λ* = $\frac{N}{2}$ **[1 mark]**
+
+Write an equation for the wave speed *v* using the wave speed equation:
+
+- *v* = *fλ *= $\frac{3}{M}$× $\frac{N}{2}$ = $\frac{3N}{2M}$ **[1 mark] **
+
+**[Total: 4 marks]**
+
+### Q2
+State which type of wave ultrasound is and explain your answer:
+
+- Ultrasound is a <u>sound wave</u> (with a frequency above the range of human hearing); **[1 mark]**
+- Therefore, ultrasound is a <u>longitudinal wave</u>; **[1 mark]**
+
+**[Total: 2 marks]**
+(i) For the ultrasound pulses, calculate the frequency, *f:*
+
+List the known quantities:
+
+- Speed of ultrasound wave in water, *v* = 1452 m s<sup>−1</sup>
+- Wavelength of ultrasound pulse, *λ *= 0.023 m
+
+Using the wave speed equation:
+
+- $v=fλ\rightarrowf=\frac{v}{λ}$
+- $f=\frac{1452}{0.023}$ = 63130 Hz **[1 mark]**
+
+(ii) For the ultrasound pulses, calculate the distance to the sea bed:
+
+From the graph determine the time taken for the pulse to reach the sea bed:
+
+- The tall pulses are those sent from the boat, the small pulses are those reflected from the sea floor
+- The time between the tall emitted pulse and the smaller echo is two divisions of the axis
+
+  - Each division of the axis is 0.10 s
+  - Therefore, the time between sending and receiving the pulses is 0.20 s
+- However, the pulse travels from the boat to the sea bed and back in this time
+
+  - Therefore, the time taken to reach the sea bed is 0.10 s
+  - *t* = 0.10 s **[1 mark]**
+- $v=\frac{d}{t}$
+
+  - Therefore, *d* = *vt*
+  - *d = *1452 × 0.10 = 145.2 m **[1 mark]**
+
+**[Total: 3 marks]**
+(i) State and explain two changes that would occur on the cathode-ray oscilloscope trace:
+
+**Change 1**
+
+State change 1:
+
+- The <u>horizontal separation</u> between the transmitted pulse and the reflected pulse will <u>increase;</u> **[1 mark]**
+
+Explain change 1:
+
+- The sea is deeper so the <u>distance</u> travelled by the pulses <u>increases</u>, and will therefore <u>take longer</u> to reach the sea bed, (and longer to return); **[1 mark]**
+
+**Change 2**
+
+State change 2:
+
+- The <u>amplitude</u> of the <u>reflected pulses</u> will be <u>smaller / decrease</u>; **[1 mark]**
+
+Explain change 2:
+
+- Some of the <u>energy is absorbed by</u> the surrounding <u>water</u>. Since they have to travel through a <u>greater depth</u> of water, <u>more energy will be lost;</u> **[1 mark]**
+
+(ii) When the sea is over 450 m deep, the pulses must be transmitted less frequently. Explain why this is the case
+
+Calculate the time taken between the transmission and detection of each pulse at 450 m:
+
+- $t=\frac{d}{v}=\frac{450\times2}{1452}$ = 0.6 s** [1 mark]**
+
+Explain why this means the pulses must be transmitted less frequently:
+
+- The cathode-ray oscilloscope trace shows that the pulses are transmitted <u>every 0.6 s</u>; **[1 mark]**
+- <u>At a depth of 450 m</u>, the reflected pulses would coincide with / arrive at the same time as the transmitted pulses;** [1 mark]**
+- <u>At greater depths</u>, the reflected pulses would be detected after subsequent / the next pulses have been transmitted; **[1 mark]**
+
+** ****[Total: 8 marks]**
+
+### Q3
+List the known quantities:
+
+- Wave speed, $v$ = 4.0 cm s<sup>–1</sup>
+- Time period, $T=\frac{1}{f}$ = 1.5 s
+- Distance PR = 44 cm
+- Distance QR = 29 cm
+
+i) Use the wave equation to determine wavelength, $λ$:
+
+- $v=fλ$
+- $λ=\frac{v}{f}$ **[1 mark]**
+- $λ$ = 4.0 × 1.5 = 6.0 cm **[1 mark]**
+
+ii) Calculate the path difference at point R of the waves from P and Q:
+
+- The difference between distances PR and QR = 44 − 29 = 15 cm
+- Number of wavelengths in 15 cm = $\frac{15}{6}=\frac{5}{2}$ = 2.5
+- Path difference = 2.5$λ$ or $\frac{5}{2}λ$ **[1 mark]** ** **
+
+iii) Describe the motion, if any, of the water particles at point R:
+
+- The path difference is an odd number of half wavelengths **OR **the waves have a phase difference of 180°; **[1 mark]**
+- (This results in destructive interference, hence) the particles are at rest / have no motion; **[1 mark]**
+
+**[Total: 5 marks]**
+
+- *Spotting that *$λ=\frac{v}{f}=v\times\frac{1}{f}=v\timesT$* can save you some time in part (i)*
+- *Remember to state **path difference** as a **multiple of wavelength** for part (ii)*
+
+### Q4
+The oscillations are perpendicular to the direction of energy transfer for...
+
+- Transverse waves;** [1 mark]**
+
+**[Total: 1 mark]**
+
+> *If you need a handy way to remember which is which*
+
+![transverse-longitudinal-com](assets/026-transverse-longitudinal-com.png)
+
+> *For transverse waves, the oscillations are at right angles (perpendicular) to the direction of energy transfer and wave motion. *
+
+> *Longitudinal waves have compressions and rarefactions and so need particles to propagate.*
+Two objects that can be used in the classroom to demonstrate wave motion are...
+
+**Final answer:** **Any ****two**** from:**
+
+- Rope; **[1 mark]**
+- Spring; **[1 mark]**
+- Ripple tank;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *You are expected to be familiar with all three.*
+A wavelength on a longitudinal wave is as follows:
+
+![longitudinal-ma](assets/028-longitudinal-ma.png)
+
+- A line spanning from the centre of one compression (**or** rarefaction) to the same point on the next compression (**or** rarefaction); **[1 mark]**
+
+**[Total: 1 mark]**
+Determine the number of complete wavelengths:
+
+- Over 5 compressions, there are 4 complete wavelengths
+
+![longitudinal-wave-form-ma](assets/029-longitudinal-wave-form-ma.png)
+
+Determine the frequency of the wave:
+
+- $\mathrm{Frequency}=\frac{\mathrm{number} \mathrm{of} \mathrm{complete} \mathrm{wavelengths}}{\mathrm{time} \mathrm{taken}}$
+- $f=\frac{4}{2}$ **[1 mark]**
+- $f=2\mathrm{Hz}$** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *Be careful with the wording of the question. 5 compression points pass a fixed point. The first compression point passing triggers the timing to start. When the second compression point passes, this means that one full wavelength has passed.*
+
+### Q5
+A correctly labelled diagram scoring two marks:
+
+![4-2-1a-ms-sl-sq-easy-phy](assets/031-4-2-1a-ms-sl-sq-easy-phy.png)
+
+(i) Label the wavelength:
+
+- Wavelength / *λ* correctly labelled from crest to crest; **[1 mark]**
+
+(ii) Label the amplitude:
+
+- Amplitude / *x*<sub>*0*</sub> correctly labelled from point of zero disturbance to maximum displacement; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Writing the words, or giving the correct symbols would get you full marks.*
+An answer scoring 5 marks:
+
+![MeWJNZOD_4-2-sl-sq-1b-ms](assets/033-mewjnzod-4-2-sl-sq-1b-ms.png)
+
+**[Total: 5 marks]**
+
+> *Key words and definitions are extremely important in every topic. In extended answer questions, you will need to use key words correctly to score the marks. *
+Determine the time period *T* from the graph:
+
+- Measure the time between the same point on two consecutive waves
+
+![file_000](assets/035-file-000.png)
+
+- Correctly determine the period <u>*T*</u><u> = 10 s</u>; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Remember that the time period on a displacement-time graph is the distance between one point on one wave and **the same point** on the next wave. You can measure the period from any point, such as crest to crest, or trough to trough.*
+
+![file_000-25](assets/036-file-000-25.png)
+
+> *Always chose the point that will give you the most accurate reading. In this example, the most accurate point to measure from was time **t** = 0.*
+List the known quantities:
+
+- Time period, *T* = 10 s (from part c)
+- Wavelength, *λ* = 5 m
+
+(i) Calculate the frequency *f*:
+
+- $f=\frac{1}{T}$ **[1 mark]**
+- $f=\frac{1}{10}$ = 0.1 Hz **[1 mark]**
+
+(ii) Calculate the wave speed *v*:
+
+- $v=fλ$* ***[1 mark]**
+- $v$ = 0.1 × 5 = 0.5 m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 4 marks]**** **
+
+### Q6
+To calculate the speed:
+
+Determine the wavelength:
+
+- **XY** = 70 cm = 1$\frac{1}{4}λ$  (or $\frac{5}{4}λ$ )
+- $λ$= 70 × $\frac{4}{5}$ = 56 cm = 0.56 m **[1 mark]**
+
+Wave speed calculation:
+
+- *v* =$fλ$
+- *v* = 30 × 0.56
+- *v* = 16.8 m s<sup>–1</sup> **[1 mark]**
+
+**[Total: 2 marks]**
+The phase difference is:
+
+- 90 / 450 **[1 mark]**
+- ° / degrees **[1 mark]**
+
+**OR**
+
+- $\frac{π}{2}$or $\frac{3π}{2}$ or $\frac{5π}{2}$**  [1 mark]**
+- Radians / rad / **r** **[1 mark]**
+
+*Do not accept R, Rad etc.*** **
+
+**[Total: 2 marks]**** **
+
+> *It is much better to represent the phase in terms of an angle instead of the number of wavelengths, unless you are asked to do so.*
+To describe how the vertical displacement of point **X** on the string varies in the next period:
+
+First  $\frac{1}{4}$  cycle:
+
+- Displacement of X will be **positive** (or ‘**up’**) to a maximum positive displacement; **[1 mark]**
+
+Next  $\frac{1}{2}$  cycle:
+
+- **Downwards** to equilibrium position ($\frac{1}{4}$ cycle) **and **maximum negative displacement ( $\frac{1}{4}$ cycle); **[1 mark]**
+
+Last  $\frac{1}{4}$  cycle:
+
+- **Upwards** to equilibrium position / zero displacement; **[1 mark]**
+
+*If the motion of X is 180 degrees out of phase with the one shown then a maximum of two marks can be gained (i.e. X initially moving downwards)*
+
+*Accept 0.008 s for  *$\frac{1}{4}$* cycle and 0.017 for *$\frac{1}{2}$* cycle*
+
+**[Total: 3 marks]**
+
+> *Visualising the subsequent motion of a point on the wave is tricky. The wave is travelling to the right hand side, so it's subsequent motion will be the wave motion drawn **behind** it. *
+List the known quantities:
+
+- Frequency, *f *= 30 Hz (From part (a))
+
+To determine the phase difference between the current position of **X** and the position of **X** 0.0825 s later:
+
+Calculate the time period of 1 wave cycle:
+
+- 1 period = $\frac{1}{f}$= $\frac{1}{30}$ = 0.033 s
+
+Determine the number of wave cycles in 0.0825 s:
+
+- 0.0825 s is $\frac{0.0825}{0.033}$= 2.5 complete cycles **[1 mark]**
+
+Determine the phase difference over 2.5 cycles:
+
+- The phase difference of 1 cycle = 360 °
+- So, the phase difference of ½ cycle = 180°
+- (Therefore, there is a) phase difference of 180° / $π$ radians / anti-phase (between the two positions of **X**) **[1 mark]**** **
+
+**[Total: 2 marks]**
+
+> *Remember that a phase difference of 360 degrees is a complete 1 wavelength cycle, so there is actually no phase difference. *

@@ -1,0 +1,123 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_YYwmCC6Jg5FW25tb",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/4-processor-fundamentals-/central-processing-unit-cpu-architecture/system-architecture",
+ "title": "System architecture",
+ "page_title": "System architecture | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "4-processor-fundamentals-",
+   "central-processing-unit-cpu-architecture",
+   "system-architecture"
+  ],
+  "section": "4-processor-fundamentals-",
+  "topic": "central-processing-unit-cpu-architecture",
+  "leaf": "system-architecture"
+ },
+ "titles": {
+  "section": "4. Processor Fundamentals",
+  "topic": "Central Processing Unit (CPU) Architecture",
+  "subtopic": "System architecture"
+ },
+ "updated_at": "2026-01-05T12:54:01.411Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_kCG4YJc7PcSHvtMf",
+  "spcpt_kmJ2B5YYGtGNhQRR"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 13,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_kCG4YJc7PcSHvtMf",
+   "name": "Von Neumann Model",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Von Neumann Model"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the Von Neumann model?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Von Neumann model is a** design of the CPU **which was proposed by Mathematician John Von Neumann in the 1940s, which most** general-purpose **computers are built upon\n- The Von Neumann model outlines **how the computer memory, input/output devices and processor** all work together"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/06/von-neumann-architecture.png",
+   "file": "assets/4636334e5658-von-neumann-architecture.png",
+   "alt": "Flowchart showing data paths between Secondary Storage, Input/Output Controllers, Processor, Main Memory, Input and Output Devices.",
+   "caption": "The Von-Neumann model"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Von Neumann model consists of:\n\n  - **Central processing unit (CPU)**\n  - **Able to access memory directly**\n  - **Memory that can store programs as well as data (registers)**\n  - **Stored programs that contain instructions that can be executed in order**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Registers"
+  },
+  {
+   "type": "bullets",
+   "md": "- Extremely **small**, extremely **fast memory **located **in the CPU**\n- Hold small amounts of data **needed as part of the fetch-execute cycle**\n- Includes both:\n\n  - **General purpose registers**\n  - **Special purpose registers**.\n- A **general purpose** register can store **any data the CPU is currently working on**\n\n  - It is **flexible **and can be used for various operations"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_kmJ2B5YYGtGNhQRR",
+   "name": "Special purpose registers",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Special purpose registers"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a special purpose register?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A special purpose register **has a dedicated role** within the operation of the CPU\n- There are a number of special purpose registers that **control or track data**\n- Examples of special purpose registers includes:\n\n  - **The Program Counter (PC)**\n  - **The Memory Address Register (MAR)**\n  - **The Memory Data Register (MDR)**\n  - **The Accumulator (ACC)**\n  - **Current Instruction Register (CIR)**\n  - **Index register (IX)**\n  - **Status register (SR)**\n- For each of the registers you must know\n\n  - **The name of the register**\n  - **Its acronym**\n  - **The purpose of the register**"
+  },
+  {
+   "type": "table",
+   "md": "| **Name** | **Acronym** | **Purpose** |\n|---|---|---|\n| **Program Counter** | **PC** | - **Holds the** **memory address** of the **next instructions** to be executed<br>- **Increments** **by 1 **as the fetch-decode-execute cycle runs |\n| **Memory Address  Register** | **MAR** | - **Holds the memory address** of where data or instructions are **to be fetched from** **memory** |\n| **Memory Data Register** | **MDR** | - **Stores the data or instruction** which has been fetched from memory |\n| **Current Instruction Register** | **CIR** | - **Stores the instruction** the CPU is currently decoding or executing |\n| **Accumulator** | **ACC** | - **Stores the** **results** of any calculations that have taken place in the Arithmetic Logic Unit (ALU) |\n| **Index Register** | **IX** | - **Stores a value** that can be **added to an address** to get the effective memory address<br>- Used for** indexed addressing** |\n| **Status Register** | **SR** | - **Stores flags** that reflect the **outcome of the CPU operations**<br>- Holds **individual bits (flags)** which are **set or cleared depending on the result of an instruction** (e.g. overflow) |"
+  }
+ ]
+}

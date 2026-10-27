@@ -1,6 +1,6 @@
 # Exam Questions — Elastic & Plastic Behaviour
 **6. Deformation of Solids** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 25 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 35 questions across 2 sets
 
 
 ## Multiple Choice Questions (25 questions)
@@ -288,3 +288,450 @@ A weight was attached to the lower end of a length of rubber. The rubber was hun
 The graph shows the force-extension curve for contraction (below) and the force-extension curve for stretching.
 
 What does the shaded area between the curves represent?
+
+## Structured Questions (10 questions)
+
+
+### Q1 — easy — 7 marks
+
+**Q1** [2 marks]
+
+Define
+
+(i) stress
+
+[1]
+
+(ii) strain.
+
+[1]
+
+**Q1** [2 marks]
+
+A student performs an experiment to determine the Young modulus of a metal wire.
+
+State **two **measurements, other than the applied load, that are required to determine the Young modulus of the metal.
+
+For each measurement, name a suitable measuring instrument.
+
+**Q1** [3 marks]
+
+A force $F$ is applied to a uniform wire. The variation with extension $x$ of $F$ is shown in Fig. 4.1.
+
+![Graph showing linear relationship between extension in millimetres on the y-axis and force in newtons on the x-axis, with a line starting from the origin to 60 N at 5.0 mm.](assets/033-graph-showing-linear-relationship-between-extens.png)
+
+**Fig. 4.1**
+
+The wire obeys Hooke's law up to a force of 60 N.
+
+(i) Calculate the elastic potential energy stored in the wire when $F$ = 60 N.
+
+[2]
+
+(ii) A force of greater than 60 N is now applied to the wire.
+
+Describe how it may be checked that the elastic limit of the wire has not been exceeded.
+
+[1]
+
+### Q2 — easy — 10 marks
+
+**Q2** [2 marks]
+
+Define the term plastic deformation.
+
+**Q2** [2 marks]
+
+A student applies a range of forces to a metal wire and records the extension. The force–extension graph of his results is shown** **Fig. 1.1.
+
+![4-7-s-q--q5a-easy-aqa-a-level-physics](assets/034-4-7-s-q-q5a-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+(i) Identify the elastic limit on Fig. 1.1. Label this E.
+
+[1]
+
+(ii) Annotate the y–axis of Fig. 1.1 to show the range of forces which cause the wire to exhibit elastic behaviour.
+
+[1]
+
+**Q2** [3 marks]
+
+**Extract:**
+
+A student applies a range of forces to a metal wire and records the extension. The force–extension graph of his results is shown Fig. 1.1.
+
+After the student has applied 15.0 N to the wire he reduces the force applied to it in small increments and records the extension.
+
+On Fig. 1.2, draw a line to show how the relationship between the force acting on the wire and the extension as all the force is reduced.
+
+![4-7-s-q--q5b-easy-aqa-a-level-physics](assets/036-4-7-s-q-q5b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+**Q2** [3 marks]
+
+Another identical spring is loaded with weights.
+
+It has an extension of 8.0 cm and stores 24 J of elastic potential energy.
+
+Calculate the spring constant of this spring.
+
+### Q3 — medium — 11 marks
+
+**Q3** [2 marks]
+
+Materials scientists are asked to produce a material which would be suitable to use in constructing the wing of an aeroplane.
+
+The team of scientists work with two materials, an aluminium alloy and a carbon fibre composite.
+
+Suggest a material property which the scientists are likely to investigate and report on, and give a reason.
+
+**Q3** [6 marks]
+
+**Extract:**
+
+Materials scientists are asked to produce a material which would be suitable to use in constructing the wing of an aeroplane. The team of scientists work with two materials, an aluminium alloy and a carbon fibre composite.
+
+Fig. 1.1 shows the stress-strain graph that the scientists obtain for the aluminium alloy.
+
+They have labelled a point **Q **on the graph.
+
+![Stress–strain graph (stress in MPa vs strain) showing steep linear rise then curve to a plateau near 400 MPa; point Q marks a point beyond the linear section](assets/038-stress-strain-graph-stress-in-mpa-vs-strain-show.png)
+
+(i) State the name of point **Q** and suggest why the scientists have drawn attention to it.
+
+[3]
+
+(ii) Use the graph to determine the Young modulus of the aluminium alloy. Show your working.
+
+[3]
+
+**Q3** [3 marks]
+
+The aluminium alloy wire has a diameter of 1.2 mm. Calculate the elastic potential energy stored in the wire when it shows an extension of 7.5 cm under a total stress of 190 MPa.
+
+### Q4 — medium — 7 marks
+
+**Q4** [2 marks]
+
+A steel bar is 40 mm long and has cross-sectional area 4.5 × 10<sup>−4</sup> m<sup>2</sup>.
+
+The bar is compressed using a vice so that the length is reduced by 0.20 mm.
+
+The Young Modulus of steel = 2.1 × 10<sup>11</sup> Pa.
+
+Calculate the compressive force exerted on the bar.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+A steel bar is 40 mm long and has cross-sectional area 4.5 × 10^−4 m^2. The bar is compressed using a vice so that the length is reduced by 0.20 mm. The Young Modulus of steel = 2.1 × 10^11 Pa. Calculate the compressive force exerted on the bar. F = 4.7 × 10^5 N; Compression of bar, Δx = 0.20 mm.
+
+Calculate the work done compressing the bar.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A steel bar is 40 mm long and has cross-sectional area 4.5 × 10^−4^ m^2^. The bar is compressed using a vice so that the length is reduced by 0.20 mm. The Young Modulus of steel = 2.1 × 10^11^ Pa. Calculate the compressive force exerted on the bar.
+
+For the compression described in part (a)
+
+(i) Sketch a graph to show the compression, assuming that the elastic limit has not been reached.
+
+[2]
+
+(ii) Suggest how the elastic potential energy could be ascertained from the graph.
+
+[1]
+
+### Q5 — hard — 16 marks
+
+**Q5** [4 marks]
+
+A light spring of length 2.2 cm is hung from a fixed point. An object of weight 4.0 N is hung from the other end of the spring. Fig. 1.1 shows the length of the spring when the object is in equilibrium.
+
+![4-7-s-q--q2a-fig-1-hard-aqa-a-level-physics](assets/041-4-7-s-q-q2a-fig-1-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The object is then pulled vertically downwards and is no longer in its equilibrium position. This is shown in Fig. 1.2.
+
+![4-7-s-q--q2a-fig-2-hard-aqa-a-level-physics](assets/042-4-7-s-q-q2a-fig-2-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+The change in elastic potential energy Δ*E*  between the spring in Fig. 1.1 and Fig. 1.2 is 0.30 J.
+
+Calculate the length of the spring in Fig. 1.2.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+A light spring of length 2.2 cm is hung from a fixed point. An object of weight 4.0 N is hung from the other end of the spring. The object is then pulled vertically downwards and is no longer in its equilibrium position (Fig. 1.2). The change in elastic potential energy ΔE between the spring in Fig. 1.1 and Fig. 1.2 is 0.30 J. Spring constant k = 48 N m^–1; Extension Δx_b = 0.139 m; Weight W = 4.0 N.
+
+The object is released from its position shown in Fig. 1.2.
+
+Calculate its initial acceleration.
+
+**Q5** [6 marks]
+
+**Extract:**
+
+A light spring of length 2.2 cm is hung from a fixed point. An object of weight 4.0 N is hung from the other end of the spring. Fig. 1.1 shows the length of the spring when the object is in equilibrium. The object is then pulled vertically downwards and is no longer in its equilibrium position. This is shown in Fig. 1.2. The change in elastic potential energy ΔE between the spring in Fig. 1.1 and Fig. 1.2 is 0.30 J.
+Extension of spring in Fig. 1.1, Δx_a = 0.083 m; Force = 4.0 N. Extension of spring in Fig. 1.2, Δx_b = 0.14 m.
+Force on spring in Fig. 1.2 = 6.72 N (from part b).
+
+Fig. 1.3** **shows a force–extension graph for the spring.
+
+![4-7-s-q--q2c-hard-aqa-a-level-physics](assets/043-4-7-s-q-q2c-hard-aqa-a-level-physics.png)
+
+**Fig. 1.3**
+
+Assuming that the spring is not extended beyond its limit of proportionality:
+
+(i) Sketch a graph on Fig. 1.3** **to show the key values from the spring in equilibrium (in Fig. 1.1) and when the spring is extended (in Fig. 1.2).
+
+[4]
+
+(ii) Show that the graph also demonstrates that the change in elastic potential energy stored, Δ*E *is 0.30 J.
+
+[2]
+
+**Q5** [3 marks]
+
+Fig. 3.1 now shows two different springs $S_{1}$ and $S_{2}$ . The top ends of the springs are attached to a rod.
+
+![6-2-q1d-h-sq-cie-ial-physics](assets/045-6-2-q1d-h-sq-cie-ial-physics.png)
+
+**Fig. 3.1**
+
+A mass is hung from the bottom end of $S_{1}$. The extension of $S_{1}$ is *x* and the elastic potential energy in the spring is 19 mJ. The same mass is hung from the bottom end of $S_{2}$. The extension of $S_{2}$ is $\frac{x}{5}$ and its spring constant is 5 times that of $S_{1}$.
+
+Calculate the elastic potential energy in $S_{2}$.
+
+### Q6 — easy — 9 marks
+
+**Q6** [2 marks]
+
+Fig. 1.1 shows an incomplete extension–load graph obtained by adding multiple 1.0 N weights to a spring and recording the extension.
+
+![4-7-s-q--q4a-easy-aqa-a-level-physics](assets/046-4-7-s-q-q4a-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The spring obeys Hooke’s law up to point A.
+
+Draw a suitable line on Fig. 1.1 to show the relationship between force and extension up to point A.
+
+**Q6** [1 mark]
+
+**Extract:**
+
+Fig. 1.1 shows an incomplete extension–load graph obtained by adding multiple 1.0 N weights to a spring and recording the extension. The spring obeys Hooke's law up to point A.
+
+State the relevance of point A.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows an incomplete extension–load graph obtained by adding multiple 1.0 N weights to a spring and recording the extension. Fig. 1.1. The spring obeys Hooke’s law up to point A.
+
+Use** **Fig. 1.1** **to calculate the energy stored in the spring when it is extended 8.0 cm. Show your working clearly.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows an incomplete extension–load graph obtained by adding multiple 1.0 N weights to a spring and recording the extension. The spring obeys Hooke's law up to point A.
+
+Fig. 1.1 shows the spring exhibits *elastic deformation* up to point B.
+
+(i) State the name given to point B.
+
+[1]
+
+(ii) Explain what is meant by elastic deformation.
+
+[2]
+
+### Q7 — medium — 12 marks
+
+**Q7** [8 marks]
+
+**Fig. 1.1** is a graph of stress against strain for two wires, **X** and **Y**. The wires are made from different materials but have the same dimensions.
+
+(i) Describe, giving reasons for your answer, three properties of material **X**.
+
+[6]
+
+(ii) State the meaning of points ***F***<sub>**x**</sub> and ***F***<sub>**y**</sub> and explain their significance.
+
+![6-1-3a-m-graph](assets/049-6-1-3a-m-graph.png)
+
+[2]
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 is a graph of stress against strain for two wires, X and Y. The wires are made from different materials but have the same dimensions.
+
+State and explain which wire would be more suitable for use as cables and structural beams.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+**Fig. 1.1** is a graph of stress against strain for two wires, **X** and **Y**. The wires are made from different materials but have the same dimensions.
+
+A group of physics students are told that they will be performing the investigation which leads to the graph in part (a).
+
+State two safety precautions which they must take and explain your answer.
+
+### Q8 — medium — 12 marks
+
+**Q8** [3 marks]
+
+A manufacturer produces springs for use in school laboratory investigations. As part of quality control the springs are spot-checked by measuring the extension produced for certain applied loads.
+
+The graph of the testing data is shown in Fig. 1.1
+
+![graph](assets/050-graph.png)
+
+**Fig. 1.1**
+
+Use a graphical method to calculate the spring constant of the spring.
+
+Show your working.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+A manufacturer produces springs for use in school laboratory investigations. As part of quality control the springs are spot-checked by measuring the extension produced for certain applied loads. The graph of the testing data is shown in Fig. 1.1
+
+Show that the work done in extending the spring up to point **A** is approximately 0.5 J.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+A manufacturer produces springs for use in school laboratory investigations. As part of quality control the springs are spot-checked by measuring the extension produced for certain applied loads. The graph of the testing data is shown in Fig. 1.1
+
+When the spring reaches an extension of 0.046 m, the load on it is gradually reduced to zero.
+
+On the graph in Figure 1.1, sketch how the extension of the spring will vary with load as the load is reduced to zero.
+
+Explain why the graph has this shape.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+When the spring reaches an extension of 0.046 m, the load on it is gradually reduced to zero. On the graph in Figure 1.1, sketch how the extension of the spring will vary with load as the load is reduced to zero. (The unloading graph is a straight line from point B to the x-axis, ending in range 0.013 m - 0.014 m, because the spring has been permanently deformed / has undergone plastic deformation.)
+
+Without further calculation, compare the total work done by the spring when the load is removed with the work that was done by the load in producing the extension of 0.046 m.
+
+Explain how this is represented on the graph drawn in part (c).
+
+### Q9 — hard — 11 marks
+
+**Q9** [3 marks]
+
+An adventure experience is shown in Fig. 1.1 below.
+
+![4-7-s-q--q4a-hard-aqa-a-level-physics](assets/054-4-7-s-q-q4a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The rider is strapped into a rigid harness attached to one end of an elastic rope AB. The rider and the rope behave in the same way as a mass–spring system.
+
+The rope has an unstretched length of 23 m. When stretched, the rope obeys Hooke’s law. The rider and harness have a total mass of 65 kg.
+
+The rider is initially held at rest at ground level. The lower end of rope B is attached to the rigid harness at a point which is 3.1 m above the ground, so the harness doesn’t injure the rider by being too close. The top end of the rope, A, is adjusted so the rope becomes unstretched when the rider is at the highest point of the ride. The rider is released and moves upwards, reaching a maximum height when the rope is at its unstretched (natural) length. The rider then oscillates vertically.
+
+The height of point A above the ground is 51 m.
+
+Calculate the spring constant of the rope neglecting air resistance and ignoring the mass of the rope in this question.
+
+**Q9** [4 marks]
+
+A different ride consists of a 15 m length of rope, stretched into a ‘V’ shape PQR on a frame, as shown in Fig 1.2. The frame is 16 m wide and the rider stands in the middle at position R. The ends of the elastic rope are fixed to the frame at the point P and Q.
+
+![6-2-q2b-h-sq-cie-ial-physics](assets/056-6-2-q2b-h-sq-cie-ial-physics.png)
+
+**Fig. 1.2**
+
+The rider is attached to the midpoint of the elastic rope at** **R. The Young Modulus of the rope is 1920 Pa, and the cross-sectional area of the rope is 1 m<sup>2</sup>.
+
+Calculate the elastic potential energy of the elastic rope in the initial position shown in the diagram.
+
+**Q9** [4 marks]
+
+The elastic bungee cord is replaced with an elastic which can also provide mechanical resistance when performing fitness exercises. The graph of load against extension for the chord is shown in Fig. 1.3** **below.
+
+![4-7-s-q--q4d-hard-aqa-a-level-physics](assets/057-4-7-s-q-q4d-hard-aqa-a-level-physics.png)
+
+**Fig. 1.3**
+
+Estimate the minimum energy required to stretch the elastic to an extension of 0.40 m.
+
+### Q10 — medium — 15 marks
+
+**Q10** [4 marks]
+
+Fitness equipment often uses springs as a method of creating resistance. One example is the Push Down Bar, which the manufacturer says can help a person who uses it to 'increase strength and burn calories'.
+
+To use a Push Down Bar a person applies force by pushing the handles towards each other as shown in Fig. 1.1.
+
+![6-1-4a-m-compression-forces-1-q](assets/060-6-1-4a-m-compression-forces-1-q.png)
+
+Fig. 1.2 shows the construction of the Push Down Bar.
+
+![6-1-4a-m-compression-forces-2-q](assets/061-6-1-4a-m-compression-forces-2-q.png)
+
+(i) State the type of force used when exercising with this equipment.
+
+[1]
+
+(ii) Explain why using this equipment would help the person burn calories.
+
+[3]
+
+**Q10** [5 marks]
+
+The relationship between applied force and change in length of the springs was measured for a range of values of force.
+
+The results are plotted on the graph in Fig. 1.3.
+
+![6-1-4b-m-compression-forces-3-q](assets/062-6-1-4b-m-compression-forces-3-q.png)
+
+(i) State, with a reason, whether the spring obeys Hooke’s law over the range of values tested.
+
+[2]
+
+(ii) Use the graph in Fig. 1.3 to calculate the spring constant, stating an appropriate unit.
+
+[3]
+
+**Q10** [4 marks]
+
+**Extract:**
+
+The relationship between applied force and change in length of the springs was measured for a range of values of force. The results are plotted on the graph in Fig. 1.3.
+
+Derive the formula for the elastic potential energy stored by the spring from the graph of force against extension.
+
+**Q10** [2 marks]
+
+**Extract:**
+
+Fitness equipment often uses springs as a method of creating resistance. One example is the Push Down Bar, which the manufacturer says can help a person who uses it to 'increase strength and burn calories'. To use a Push Down Bar a person applies force by pushing the handles towards each other as shown in Fig. 1.1.
+
+State and explain whether the material chosen for the spring for the equipment in Fig. 1.1 should exhibit elastic or plastic behaviour.

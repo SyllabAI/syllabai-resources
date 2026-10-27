@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:25:10Z",
+ "generated_utc": "2026-10-26T14:40:30Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -261,6 +261,13 @@
        "latex": "\\frac{h}{p}=\\frac{h}{mv}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>h</mi><mi>p</mi></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>h</mi></mrow><mrow><mi>m</mi><mi>v</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "h over p space equals fraction numerator space h over denominator m v end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 14px style fraction numerator 6.63 cross times 10 to the power of negative 34 end exponent over denominator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 2.5 cross times 10 to the power of 7 close parentheses end fraction end style",
+       "render": "$\\frac{6.63 \\times 10^{- 34} }{( 9.11 \\times 10^{- 31} ) \\times ( 2.5 \\times 10^{7} )}$",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -457,7 +464,37 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nAn experiment to investigate how the de Broglie wavelength λ of an electron varies with its velocity v is carried out. The results from this experiment are shown in Table 1.1.\n\nTable 1.1\nv / 10^4 km s^–1 | λ / 10^–11 m\n1.4 | 4.9\n2.5 | 2.8\n3.5 | 2.1\n\nThe de Broglie equation: λ = h/(mv)\n\nFrom the first row of Table 1.1, λv = (4.9 × 10^–11) × (1.4 × 10^4 × 10^3) = 6.9 × 10^–4\nFrom the second row of Table 1.1, λv = (2.8 × 10^–11) × (2.5 × 10^4 × 10^3) = 7.0 × 10^–4\nFrom the third row of Table 1.1, λv = (2.1 × 10^–11) × (3.5 × 10^4 × 10^3) = 7.4 × 10^–4\n\nUsing the data in Table 1.1 and the accepted value for Planck’s constant, comment on the accuracy of the results.",
-     "solution_md": "From the data page:\n\n- Planck’s constant *h* = 6.63 × 10<sup>–34</sup> J s\n- Electron rest mass, *m* = 9.11 × 10<sup>–31</sup> kg\n\n**Method 1: Calculate the mean constant of proportionality from part (a)**\n\n- From part (a), *λv = *constant\n- The mean constant from the data is $\\frac{( 6.9 + 7.0 + 7.4 ) \\times 10^{- 4} }{3}$= 7.1 × 10<sup>–4 </sup>**[1 mark]**\n\nUse the mean constant *λv  *to calculate a value for Planck’s constant:\n\n- Using de Broglie’s equation, *h = m × λv*\n- *h = *(9.11 × 10<sup>–31</sup>) × (7.1 × 10<sup>–4</sup>) = 6.47 × 10<sup>–34</sup>J s (3 s .f) **[1 mark]**\n\nCalculate the percentage difference to the accepted value for Planck’s constant:\n\n- The accepted value for Planck’s constant is 6.63 × 10<sup>–34</sup> J s\n- The percentage difference Δ% = $\\frac{( 6.63 - 6.47 ) \\times 10^{- 34} }{6.63 \\times 10^{- 34} }$× 100 = 2% **[1 mark]**\n\nComment on the accuracy of the experiment:\n\n- The percentage difference between the value of *h *suggested by the experiment and the accepted value is <u>small</u> **AND **so the experimental results are <u>accurate</u>; **[1 mark]**\n\n**OR**\n\n**Method 2: Calculate Planck’s constant for each pair of values of *****λ *****and *****v***\n\n- Using de Broglie’s equation, *h = m × λv*\n- The constant from the pair of values in the first row of Table 1.1, *λv *= 6.9 × 10<sup>–4</sup>\n\n  - *h = *(9.11 × 10<sup>–31</sup>) × (6.9 × 10<sup>–4</sup>) = 6.29 × 10<sup>–34</sup> (J s)\n- The constant from the pair of values in the second row of Table 1.1, *λv *= 7.0 × 10<sup>–4</sup>\n\n  - *h = *(9.11 × 10<sup>–31</sup>) × (7.0 × 10<sup>–4</sup>) = 6.38 × 10<sup>–34</sup> (J s)\n- The constant from the pair of values in the third row of Table 1.1, *λv *= 7.4 × 10<sup>–4</sup> so\n\n  - *h = *(9.11 × 10<sup>–31</sup>) × (7.4 × 10<sup>–4</sup>) = 6.74 × 10<sup>–34</sup> (J s)\n- All values correctly calculated; **[1 mark]**\n\nCalculate the mean value of Planck’s constant from the data:\n\n- The mean value of Planck’s constant is $\\frac{( 6.29 + 6.38 + 6.74 ) \\times 10^{- 34} }{3}$= 6.47 × 10<sup>–34</sup> (J s) **[1 mark]**\n\nCalculate the percentage difference to the accepted value for Planck’s constant:\n\n- The accepted value for Planck’s constant is 6.63 × 10<sup>–34</sup> J s\n- The percentage difference Δ% =$\\frac{( 6.63 - 6.47 ) \\times 10^{- 34} }{6.63 \\times 10^{- 34} }$ × 100 = 2% **[1 mark]**\n\nComment on the accuracy of the experiment:\n\n- The percentage difference between the value of *h *suggested by the experiment and the accepted value is <u>small</u> **AND **so the experimental results are <u>accurate</u>; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Experimental accuracy is a measure of how** close** measurements are to the ‘true’ or ‘accepted’ value of a quantity. Anything less than 5% percentage difference between an accepted value and one deduced from experimental results – for A Level at least! – can be considered as reasonably accurate.*"
+     "solution_md": "From the data page:\n\n- Planck’s constant *h* = 6.63 × 10<sup>–34</sup> J s\n- Electron rest mass, *m* = 9.11 × 10<sup>–31</sup> kg\n\n**Method 1: Calculate the mean constant of proportionality from part (a)**\n\n- From part (a), *λv = *constant\n- The mean constant from the data is $\\frac{( 6.9 + 7.0 + 7.4 ) \\times 10^{- 4} }{3}$= 7.1 × 10<sup>–4 </sup>**[1 mark]**\n\nUse the mean constant *λv  *to calculate a value for Planck’s constant:\n\n- Using de Broglie’s equation, *h = m × λv*\n- *h = *(9.11 × 10<sup>–31</sup>) × (7.1 × 10<sup>–4</sup>) = 6.47 × 10<sup>–34</sup>J s (3 s .f) **[1 mark]**\n\nCalculate the percentage difference to the accepted value for Planck’s constant:\n\n- The accepted value for Planck’s constant is 6.63 × 10<sup>–34</sup> J s\n- The percentage difference Δ% = $\\frac{( 6.63 - 6.47 ) \\times 10^{- 34} }{6.63 \\times 10^{- 34} }$× 100 = 2% **[1 mark]**\n\nComment on the accuracy of the experiment:\n\n- The percentage difference between the value of *h *suggested by the experiment and the accepted value is <u>small</u> **AND **so the experimental results are <u>accurate</u>; **[1 mark]**\n\n**OR**\n\n**Method 2: Calculate Planck’s constant for each pair of values of *****λ *****and *****v***\n\n- Using de Broglie’s equation, *h = m × λv*\n- The constant from the pair of values in the first row of Table 1.1, *λv *= 6.9 × 10<sup>–4</sup>\n\n  - *h = *(9.11 × 10<sup>–31</sup>) × (6.9 × 10<sup>–4</sup>) = 6.29 × 10<sup>–34</sup> (J s)\n- The constant from the pair of values in the second row of Table 1.1, *λv *= 7.0 × 10<sup>–4</sup>\n\n  - *h = *(9.11 × 10<sup>–31</sup>) × (7.0 × 10<sup>–4</sup>) = 6.38 × 10<sup>–34</sup> (J s)\n- The constant from the pair of values in the third row of Table 1.1, *λv *= 7.4 × 10<sup>–4</sup> so\n\n  - *h = *(9.11 × 10<sup>–31</sup>) × (7.4 × 10<sup>–4</sup>) = 6.74 × 10<sup>–34</sup> (J s)\n- All values correctly calculated; **[1 mark]**\n\nCalculate the mean value of Planck’s constant from the data:\n\n- The mean value of Planck’s constant is $\\frac{( 6.29 + 6.38 + 6.74 ) \\times 10^{- 34} }{3}$= 6.47 × 10<sup>–34</sup> (J s) **[1 mark]**\n\nCalculate the percentage difference to the accepted value for Planck’s constant:\n\n- The accepted value for Planck’s constant is 6.63 × 10<sup>–34</sup> J s\n- The percentage difference Δ% =$\\frac{( 6.63 - 6.47 ) \\times 10^{- 34} }{6.63 \\times 10^{- 34} }$ × 100 = 2% **[1 mark]**\n\nComment on the accuracy of the experiment:\n\n- The percentage difference between the value of *h *suggested by the experiment and the accepted value is <u>small</u> **AND **so the experimental results are <u>accurate</u>; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Experimental accuracy is a measure of how** close** measurements are to the ‘true’ or ‘accepted’ value of a quantity. Anything less than 5% percentage difference between an accepted value and one deduced from experimental results – for A Level at least! – can be considered as reasonably accurate.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses 6.9 plus 7.0 plus 7.4 close parentheses cross times 10 to the power of negative 4 end exponent over denominator 3 end fraction",
+       "render": "$\\frac{( 6.9 + 7.0 + 7.4 ) \\times 10^{- 4} }{3}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses 6.63 minus 6.47 close parentheses cross times 10 to the power of negative 34 end exponent over denominator 6.63 cross times 10 to the power of negative 34 end exponent end fraction",
+       "render": "$\\frac{( 6.63 - 6.47 ) \\times 10^{- 34} }{6.63 \\times 10^{- 34} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses 6.29 plus 6.38 plus 6.74 close parentheses cross times 10 to the power of negative 34 end exponent over denominator 3 end fraction",
+       "render": "$\\frac{( 6.29 + 6.38 + 6.74 ) \\times 10^{- 34} }{3}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses 6.63 minus 6.47 close parentheses cross times 10 to the power of negative 34 end exponent over denominator 6.63 cross times 10 to the power of negative 34 end exponent end fraction",
+       "render": "$\\frac{( 6.63 - 6.47 ) \\times 10^{- 34} }{6.63 \\times 10^{- 34} }$",
+       "via": "alt-transpile"
+      }
+     ]
     },
     {
      "id": "qstnprt_QP5YPN6vJ5Q3xD67",
@@ -510,9 +547,23 @@
        "alt": "1 half"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator h over denominator lambda m end fraction close parentheses squared",
+       "render": "$( \\frac{h}{\\\\lambda m} )^{2}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{1}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "1 half"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator h squared over denominator lambda squared m squared end fraction close parentheses",
+       "render": "$( \\frac{h^{2}}{\\\\lambda ^{2} m^{2}} )$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{h^{2}}{2mλ^{2}}",
@@ -613,7 +664,16 @@
      ],
      "part_tier": null,
      "problem_md": "In a similar experiment, electrons fired at a thin graphite sheet are found to produce a pattern of concentric circles when they strike a fluorescent screen, as shown in Fig 1.1.\n\n![2-5-s-q--q3b-medium-aqa-a-level-physics](assets/007-2-5-s-q-q3b-medium-aqa-a-level-physics.png)\n\n**Fig 1.1**\n\nOutline how the radius of the concentric rings would change if the speed of the electrons **decreases**.",
-     "solution_md": "If the speed of the electrons decreases, then the radius of the concentric rings:\n\n- Increases; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Remember, velocity is inversely proportional to the de Broglie wavelength *$( \\\\lambda = \\frac{h}{m v} )$\n\n> *Therefore, if the speed decreases, the de Broglie wavelength increases and becomes more comparable to the size of the gaps between atomic layers in the graphite*\n\n> *As a result, a greater degree of diffraction occurs, and the rings spread out further (i.e. the radius gets larger)*\n\n> *For extremely fast–moving electrons, the de Broglie wavelength is considerably smaller than the size of the gap between atomic layers in a crystal. This means they diffract much less, and the radius of the observed concentric rings decreases.*"
+     "solution_md": "If the speed of the electrons decreases, then the radius of the concentric rings:\n\n- Increases; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Remember, velocity is inversely proportional to the de Broglie wavelength *$( \\\\lambda = \\frac{h}{m v} )$\n\n> *Therefore, if the speed decreases, the de Broglie wavelength increases and becomes more comparable to the size of the gaps between atomic layers in the graphite*\n\n> *As a result, a greater degree of diffraction occurs, and the rings spread out further (i.e. the radius gets larger)*\n\n> *For extremely fast–moving electrons, the de Broglie wavelength is considerably smaller than the size of the gap between atomic layers in a crystal. This means they diffract much less, and the radius of the observed concentric rings decreases.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses lambda space equals space fraction numerator h over denominator m v end fraction close parentheses",
+       "render": "$( \\\\lambda = \\frac{h}{m v} )$",
+       "via": "alt-transpile"
+      }
+     ]
     },
     {
      "id": "qstnprt_9cfhJd5TJHhx595R",
@@ -638,6 +698,13 @@
        "latex": "λ=\\frac{h}{p}=\\frac{h}{m_{e}v}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#955;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>h</mi><mi>p</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>&#160;</mo><mfrac><mi>h</mi><mrow><msub><mi>m</mi><mi>e</mi></msub><mi>v</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda space equals space h over p space equals space space fraction numerator h over denominator m subscript e v end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda space equals space fraction numerator 6.63 cross times 10 to the power of negative 34 end exponent over denominator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses open parentheses 3.18 cross times 10 to the power of 7 close parentheses end fraction",
+       "render": "$\\\\lambda = \\frac{6.63 \\times 10^{- 34} }{( 9.11 \\times 10^{- 31} ) ( 3.18 \\times 10^{7} )}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "λ",
@@ -741,6 +808,13 @@
        "alt": "v squared space equals space fraction numerator 2 q V over denominator m end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda squared space equals space fraction numerator h squared over denominator m squared open parentheses fraction numerator 2 q V over denominator m end fraction close parentheses end fraction",
+       "render": "$\\\\lambda ^{2} = \\frac{h^{2}}{m^{2} ( \\frac{2 q V}{m} )}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "λ^{2}=\\frac{h^{2}}{2mqV}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>&#955;</mi><mn>2</mn></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msup><mi>h</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><mi>q</mi><mi>V</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda squared space equals space fraction numerator h squared over denominator 2 m q V end fraction"
@@ -782,9 +856,30 @@
        "alt": "lambda squared"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign thin space u n c e r t a i n t y space equals space fraction numerator u n c e r t a i n t y over denominator m e a s u r e d space v a l u e space open parentheses f r o m space t h e space g r a p h close parentheses end fraction space cross times space 100",
+       "render": "$\\% u n c e r t a i n t y = \\frac{u n c e r t a i n t y}{m e a s u r e d v a l u e ( f r o m t h e g r a p h )} \\times 100$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign thin space u n c e r t a i n t y space i n space lambda squared space equals space fraction numerator 0.1 over denominator 1 end fraction space cross times space 100 space equals space 10 space percent sign",
+       "render": "$\\% u n c e r t a i n t y i n \\\\lambda ^{2} = \\frac{0.1}{1} \\times 100 = 10 \\%$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "λ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#955;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda squared space equals space 10 space percent sign",
+       "render": "$\\\\lambda ^{2} = 10 \\%$",
+       "via": "alt-transpile"
       },
       {
        "latex": "λ^{2}=λ\\timesλ",
@@ -828,6 +923,20 @@
      "solution_md": "To use the best fit straight line to show that the mass *m* of the particle is about 10<sup>−26</sup> kg:\n\nList the known values:\n\n- Plank constant, *h* = 6.63 × 10<sup>−34</sup> J s (from the data page)\n- Elementary charge, *e* = 1.60 × 10<sup>−19</sup> C (from the data page)\n\nFind the gradient of the graph:\n\n![q19-b3-ms](assets/010-q19-b3-ms.png)\n\n- `g r a d i e n t = ( capital delta y)/( capital delta x) = (( 1.4 x 10 ^ - 25 ) - ( 0.1 x 10 ^ - 25 ))/(( 14 x 10 ^ - 4 ) - ( 1 x 10 ^ - 4 )) = 1.0 x 10 ^ - 22` **[1 mark]**\n\nFind an expression for the gradient:\n\n- A straight line follows the equation $y = m x ( + c )$ where *m* represents gradient\n- From the expression,  $λ^{2}=\\frac{h^{2}}{2mq}\\times\\frac{1}{V}$ the gradient is $\\frac{h^{2}}{2mq}$**[1 mark]**\n\nSubstitute in known values:\n\n- $gradient=\\frac{h^{2}}{2mq}$\n- Charge, *q* = 2 × 1.6 × 10<sup>−19</sup> = 3.2 × 10<sup>−19</sup> C\n- $1.0 \\times 10^{- 22} = \\frac{( 6.63 \\times 10^{- 34} )^{2}}{2 \\times m \\times ( 3.2 \\times 10^{- 19} )}$**[1 mark]**\n\nRearrange and calculate mass, $m$:\n\n- $m = \\frac{( 6.63 \\times 10^{- 34} )^{2}}{2 \\times ( 1.0 \\times 10^{- 22} ) \\times ( 3.2 \\times 10^{- 19} )} = 6.9 \\times 10^{- 27} \\text{kg}$ **[1 mark]**\n\n**[Total: 4 marks]**",
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "g r a d i e n t equals fraction numerator straight capital delta y over denominator straight capital delta x end fraction equals fraction numerator open parentheses 1.4 cross times 10 to the power of negative 25 end exponent close parentheses minus open parentheses 0.1 cross times 10 to the power of negative 25 end exponent close parentheses over denominator open parentheses 14 cross times 10 to the power of negative 4 end exponent close parentheses minus open parentheses 1 cross times 10 to the power of negative 4 end exponent close parentheses end fraction equals 1.0 cross times 10 to the power of negative 22 end exponent",
+       "render": "`g r a d i e n t = ( capital delta y)/( capital delta x) = (( 1.4 x 10 ^ - 25 ) - ( 0.1 x 10 ^ - 25 ))/(( 14 x 10 ^ - 4 ) - ( 1 x 10 ^ - 4 )) = 1.0 x 10 ^ - 22`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "y space equals space m x space open parentheses plus c close parentheses",
+       "render": "$y = m x ( + c )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "λ^{2}=\\frac{h^{2}}{2mq}\\times\\frac{1}{V}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>&#955;</mi><mrow><mn>2</mn><mo>&#160;</mo></mrow></msup><mo>=</mo><mfrac><msup><mi>h</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><mi>q</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mi>V</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda to the power of 2 space end exponent equals fraction numerator h squared over denominator 2 m q end fraction cross times 1 over V"
@@ -843,9 +952,23 @@
        "alt": "g r a d i e n t space equals space fraction numerator h squared over denominator 2 m q end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "1.0 cross times 10 to the power of negative 22 end exponent equals fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses squared over denominator 2 cross times m cross times open parentheses 3.2 cross times 10 to the power of negative 19 end exponent close parentheses end fraction",
+       "render": "$1.0 \\times 10^{- 22} = \\frac{( 6.63 \\times 10^{- 34} )^{2}}{2 \\times m \\times ( 3.2 \\times 10^{- 19} )}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "m",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "m"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "m equals fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses squared over denominator 2 cross times open parentheses 1.0 cross times 10 to the power of negative 22 end exponent close parentheses cross times open parentheses 3.2 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 6.9 cross times 10 to the power of negative 27 end exponent space kg",
+       "render": "$m = \\frac{( 6.63 \\times 10^{- 34} )^{2}}{2 \\times ( 1.0 \\times 10^{- 22} ) \\times ( 3.2 \\times 10^{- 19} )} = 6.9 \\times 10^{- 27} \\text{kg}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -904,6 +1027,13 @@
        "alt": "E space equals space fraction numerator h c over denominator lambda end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "E space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses over denominator open parentheses 590 space cross times space 10 to the power of negative 9 end exponent close parentheses end fraction",
+       "render": "$E = \\frac{( 6.63 \\times 10^{- 34} ) \\times ( 3.00 \\times 10^{8 )}{( 590 \\times 10^{-9} } )}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "E=3.37\\times10^{-19}J",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>37</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "E space equals space 3.37 space cross times space 10 to the power of negative 19 end exponent space straight J"
@@ -938,6 +1068,13 @@
        "latex": "v=\\sqrt{\\frac{2KE}{m_{e}}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msqrt><mfrac><mrow><mn>2</mn><mi>K</mi><mi>E</mi></mrow><msub><mi>m</mi><mi>e</mi></msub></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "v space equals space square root of fraction numerator 2 K E over denominator m subscript e end fraction end root"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space square root of fraction numerator 2 space cross times space open parentheses 2.26 space cross times space 10 to the power of negative 18 end exponent close parentheses over denominator open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses end fraction end root",
+       "render": "$v = \\sqrt{ \\frac{2 \\times ( 2.26 \\times 10^{- 18} )}{( 9.11 \\times 10^{- 31} )} }$",
+       "via": "alt-transpile"
       },
       {
        "latex": "v=2.23\\times10^{6}ms^{-1}",

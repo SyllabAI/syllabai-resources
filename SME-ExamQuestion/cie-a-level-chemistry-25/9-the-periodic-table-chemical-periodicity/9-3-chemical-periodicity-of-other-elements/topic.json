@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:55:50Z",
+ "generated_utc": "2026-10-26T14:56:36Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -48,16 +48,36 @@
    "question_count": 9,
    "questions_embedded": 9,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/9-the-periodic-table-chemical-periodicity/9-3-chemical-periodicity-of-other-elements/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_9CGThFPXx5FHPSd8",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/9-the-periodic-table-chemical-periodicity/9-3-chemical-periodicity-of-other-elements/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 9,
+  "questions_embedded": 12,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
-  "asset_map": {}
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/11/fig-1-1-9701-y22-sp-2-cie-ial-chem.png": "001-periodic-table-diagram-showing-the-positions-of-.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/fig-1-2-9701-y22-sp-2-cie-ial-chem.png": "002-bar-graph-showing-relative-first-ionisation-ener.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/fig-1-3-9701-y22-sp-2-cie-ial-chem.png": "003-blank-graph-with-period-3-elements-na-to-ar-on-t.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/atomic-radius-graph.png": "004-graph-showing-atomic-radius-decreasing-smoothly-.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/3-1-ib-chemistry-sq-q2c-medium.png": "005-graph-showing-first-ionisation-energy-against-at.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/q1_12-1_electrons-in-atoms-sq-medium_ib_hl.png": "006-graph-of-log-ionisation-energy-against-electron-.png"
+  }
  },
  "questions": [
   {
@@ -517,6 +537,210 @@
        "text_md": "Phosphorus and potassium"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yzSRbVgjgGGnQnb8",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_6Xd9BtDSDvZxY9fC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_D8QTDDTJ8mHD6MPr",
+      "spcpt_hXGsNB87dP7gcCSZ",
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "The positions of some elements are shown.\n\n![Periodic Table diagram showing the positions of selected elements including Group 1, 2, and 17 elements](assets/001-periodic-table-diagram-showing-the-positions-of-.png)\n\n**Fig. 1.1**\n\ni) Using Fig. 1.1 identify the element that forms a soluble hydroxide and an insoluble sulfate.\n\n[1]\n\nii) Using Fig. 1.1 identify the most volatile element in a group that contains elements in all three states of matter at room temperature and pressure.\n\n[1]\n\niii) Using Fig. 1.1 identify the element that forms the largest cation.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The element that forms a soluble hydroxide and an insoluble sulfate:\n> \n> - Ba **[1 mark]**\n> \n> ii) The most volatile element in a group that contains elements in all three states of matter at room temperature and pressure:\n> \n> - F **[1 mark]**\n> \n> iii) The element that forms the largest cation:\n> \n> - Cs **[1 mark]**\n\n> **[exam-tip]**\n> The trend in solubility for Group 2 hydroxides and sulfates:\n> \n> - Going down Group 2, the solubility of the hydroxides increases\n> - Going down Group 2, the solubility of the sulfates decreases\n> \n> Barium hydroxide is soluble and barium sulfate is insoluble. Barium is therefore the only Group 2 element that satisfies both conditions in part i).\n> \n> Group 17 is the only group that contains elements in all three states of matter at room temperature and pressure:\n> \n> - Fluorine = gas\n> - Chlorine = gas\n> - Bromine = liquid\n> - Iodine = solid\n> - Astatine = solid\n> \n> Volatility refers to how easily a substance can evaporate. The lower the boiling point, the more volatile a substance is. Fluorine has the lowest boiling point in Group 17 and is therefore the most volatile.\n> \n> Metals form cations (positively charged ions). For part iii), this eliminates the non-metal elements on the right-hand side of the Periodic Table. Caesium and barium are in the same period but caesium has a lower nuclear charge, so its outer electrons are held less strongly. Therefore, caesium forms the largest cation."
+    },
+    {
+     "id": "qstnprt_zGdMxWhw5pwn3QRc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_yXBkCC4sjD5KyPrZ",
+      "spcpt_sVwHYTgrhtF5b7R2"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.2 shows the relative first ionisation energies of six successive elements in the Periodic Table.\n\nThe letters are **not** the symbols of the elements.\n\n![Bar graph showing relative first ionisation energies of six successive elements labelled A to F, with element B having a notably lower value than element A](assets/002-bar-graph-showing-relative-first-ionisation-ener.png)\n\n**Fig. 1.2**\n\ni) Define first ionisation energy.\n\n[2]\n\nii) Suggest why the first ionisation energy of **B** is much less than that of **A** in Fig 1.2.\n\n[3]",
+     "solution_md": "i) The first ionisation energy is:\n\n- Energy required / energy change\n- when one electron is removed\n- from each atom in one mole of\n- gaseous atoms\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 2 marks for all four points\n> \n> 1 mark for any two or three points.\n\n> **[mark-scheme]**\n> ii) The first ionisation energy of **B** is much less than that of **A** because:\n> \n> - (For element **B**) the outer electron is removed from a higher energy level **[1 mark]**\n> - There is more shielding (by inner electrons) **[1 mark]**\n> - So there is less attraction to the nucleus **[1 mark]**\n\n> **[exam-tip]**\n> The four factors that affect the first ionisation energy are:\n> \n> - Nuclear charge\n> - Distance of outer electrons from nucleus\n> - Shielding by inner electrons\n> - Spin-pair repulsion\n> \n> The question states that the ionisation energies are for six successive elements. Generally, across a period, ionisation energy increases due to increasing nuclear charge and reasonably constant shielding. Element **B** is an exception as its outer electron is in a new, higher energy level with more inner shells providing additional shielding, making the electron easier to remove despite the higher nuclear charge."
+    },
+    {
+     "id": "qstnprt_z88DVcPkPJWfFQG7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_hXGsNB87dP7gcCSZ"
+     ],
+     "part_tier": null,
+     "problem_md": "i) On Fig. 1.3, sketch a graph to show the trend in the atomic radius of successive elements in Period 3.\n\n![Blank graph with Period 3 elements Na to Ar on the x-axis and atomic radius on the y-axis, for sketching the trend](assets/003-blank-graph-with-period-3-elements-na-to-ar-on-t.png)\n\n**Fig. 1.3**\n\n[1]\n\nii) Explain your answer to **(c)(i).**\n\n[3]",
+     "solution_md": "i) A graph showing the trend in atomic radius across Period 3 is:\n\n![Graph showing atomic radius decreasing smoothly from Na to Ar across Period 3, with a general downward trend from left to right](assets/004-graph-showing-atomic-radius-decreasing-smoothly-.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for a line that decreases from left to right across Period 3 (Na to Ar)\n\n> **[mark-scheme]**\n> ii) The trend occurs because:\n> \n> - Increasing nuclear charge (across Period 3) **[1 mark]**\n> - Electrons remain in the same electron shell / number of shells does not change **[1 mark]**\n> - Greater attraction between the nucleus and outer electrons / increased effective nuclear charge **[1 mark]**\n\n> **[exam-tip]**\n> Atomic radius is the distance between the nucleus and the outermost electron.\n> \n> Going across Period 3, each successive element has one more proton in the nucleus (greater nuclear charge), but all electrons are still added to the third shell. The shielding remains approximately constant, so the effective nuclear charge experienced by the outer electrons increases across the period. The nucleus pulls the outer electrons closer, reducing the atomic radius."
+    }
+   ]
+  },
+  {
+   "id": "qstn_PyJGnNHTb3N8bfH9",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HVdbVBvbwKwHKFZQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sVwHYTgrhtF5b7R2"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 2.1 shows successive ionisation energies of an element **A**, found in Period 3 of the Periodic Table.\n\n**Table 2.1**\n\n| **Number of electrons** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** |\n|---|---|---|---|---|---|---|---|---|\n| **Ionisation Energy (kJ mol**<sup>-1</sup>**)** | 1012 | 1907 | 2914 | 4964 | 6274 | 21268 | 25431 | 29872 |\n\nIdentify element **A**.\n\nExplain your answer using data from Table 2.1.",
+     "solution_md": "> **[mark-scheme]**\n> Element **A** is:\n> \n> - Phosphorus / P **[1 mark]**\n> - There is a (very) large jump between the 5th and 6th ionisation energies\n> **OR**\n> There is a (very) large jump in ionisation energy after the 5th ionisation energy **[1 mark]**\n\n> **[exam-tip]**\n> Successive ionisation energies increase because once an electron has been removed from an atom, you are left with a positive ion. Removing an electron from an increasingly positive ion requires progressively more energy.\n> \n> The key to identifying an element from its successive ionisation energies is to look for the large jump in ionisation energy. In this question, the jump from the 5th to the 6th ionisation energy is almost 15,000 kJ mol<sup>-1</sup>, far greater than any earlier increase.\n> \n> A common mistake is to correctly identify the large jump between the 5th and 6th ionisation energies, then incorrectly identify the element as being in Group 6. If the large jump occurs after the 5th ionisation energy, the element has 5 electrons in its outer shell and must be in Group 5."
+    },
+    {
+     "id": "qstnprt_tn4jn2cS7hrDHhJ2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mzpXwM7BhtqNryhr"
+     ],
+     "part_tier": null,
+     "problem_md": "The graph below in Fig. 2.1 shows some information on the elements of Period 3 of the Periodic Table.\n\n![Graph showing first ionisation energy against atomic number for Period 3 elements Na to Ar, with a general increasing trend and lower values at Al and S deviating from the trend](assets/005-graph-showing-first-ionisation-energy-against-at.png)\n\n**Fig. 2.1**\n\nState and explain the trend that this graph shows, including why there are values that deviate from the trend.",
+     "solution_md": "> **[mark-scheme]**\n> The trend shown in the graph:\n> \n> - A general increase in first ionisation energy across Period 3 **[1 mark]**\n> - (Across a period) nuclear charge increases / a proton is added to the nucleus **[1 mark]**\n> - Aluminium deviates from the general trend because its outermost / valence electron is in a 3p orbital **[1 mark]**\n> - The 3p orbital is further from the nucleus\n> **OR**\n> The 3p orbital has a slightly higher energy than the 3s orbital **[1 mark]**\n> - Sulfur deviates because its outermost / valence electron is paired / shares a 3p orbital with another electron\n> **AND**\n> There is repulsion between the paired electrons (in the 3p orbital) **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_N2R3vPvBmqCq274r",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sVwHYTgrhtF5b7R2"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the second ionisation energy of aluminium is a larger value than the first ionisation energy.",
+     "solution_md": "> **[mark-scheme]**\n> The second ionisation energy of aluminium is larger than the first because:\n> \n> - Electrons are now being removed from a positive ion\n> **OR**\n> The electrons being removed are closer to the nucleus\n> **OR**\n> Al<sup>+</sup> ions are smaller than Al atoms\n> **OR**\n> The electron is being removed from a 3s orbital rather than a 3p orbital **[1 mark]**\n\n> **[exam-tip]**\n> Successive ionisation energies increase because the more positive an ion becomes, the more energy is needed to remove the next electron. You are removing a negatively charged electron from an increasingly positive ion.\n> \n> In the case of aluminium, the 1st ionisation energy removes an electron from a 3p orbital, and the 2nd removes an electron from a 3s orbital. The 3s orbital is closer to the nucleus and at a lower energy than the 3p, so more energy is required to remove a 3s electron than a 3p electron."
+    }
+   ]
+  },
+  {
+   "id": "qstn_4mswZ9b95wfsTVkr",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_kCJkw9FRcXcRyp7q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mzpXwM7BhtqNryhr"
+     ],
+     "part_tier": null,
+     "problem_md": "The successive ionisation energies of an element, **X**, are shown in Fig. 3.1. The vertical axis plots log (ionisation energy) instead of ionisation energy to represent the data without an unreasonably long vertical axis.\n\n![Graph of log(ionisation energy) against electron number for element X, showing large increases between the 1st and 2nd, and between the 9th and 10th electrons, indicating three electron shells](assets/006-graph-of-log-ionisation-energy-against-electron-.png)\n\n**Fig. 3.1**\n\nIdentify element **X** and give its full electron configuration.\n\n**X**:\n\nElectronic configuration:",
+     "solution_md": "> **[mark-scheme]**\n> Element **X** is:\n> \n> - Sodium / Na **[1 mark]**\n> \n> Its full electron configuration is:\n> \n> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup> **[1 mark]**\n> \n> [Ne] 3s<sup>1</sup> is not accepted as a full electron configuration.\n\n> **[exam-tip]**\n> The graph shows that a total of 11 electrons are removed from element X. The number of electrons equals the number of protons, so element X has 11 protons and is sodium.\n> \n> The number of electron shells can be determined from the large jumps in ionisation energy. A large jump indicates the next electron is being removed from a shell closer to the nucleus:\n> \n> - Large jump between the 1st and 2nd ionisation energies: only 1 electron in the outermost shell (n = 3)\n> - Large jump between the 9th and 10th ionisation energies: the 10th electron is in the innermost shell (n = 1), so there are 2 electrons in that shell\n> - Electrons 2 to 9 (8 electrons) are in the second shell (n = 2)\n> \n> The question asks for the full electron configuration. The condensed noble gas configuration [Ne] 3s<sup>1</sup> is not accepted for the second mark."
+    },
+    {
+     "id": "qstnprt_Y66rNCr32xgxgbyy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mzpXwM7BhtqNryhr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe successive ionisation energies of an element, **X**, are shown in Fig. 3.1. The vertical axis plots log (ionisation energy) instead of ionisation energy to represent the data without an unreasonably long vertical axis.\n\n![Graph of log(ionisation energy) against electron number for element X, showing large increases between the 1st and 2nd, and between the 9th and 10th electrons, indicating three electron shells](https://cdn.savemyexams.com/uploads/2022/03/q1_12-1_electrons-in-atoms-sq-medium_ib_hl.png)\n\n{align=center} **Fig. 3.1**\n\nExplain how the successive ionisation energy data for element **X** are related to its electron configuration.",
+     "solution_md": "> **[mark-scheme]**\n> The successive ionisation energy data relates to the electron configuration of element **X** as follows:\n> \n> - The first electron is the easiest to remove\n> **OR**\n> There is 1 electron in the outermost energy level (n = 3) **[1 mark]**\n> - Large increase between the 1st and 2nd ionisation energies as the electron is now removed from n = 2\n> **AND**\n> The next 8 electrons show a relatively small increase as these electrons are all in the same energy level (n = 2) **[1 mark]**\n> - Large increase between the 9th and 10th ionisation energies as the electron is now removed from n = 1\n> **AND**\n> The final two electrons are the most difficult to remove / are in the innermost energy level (n = 1) **[1 mark]**\n\n> **[exam-tip]**\n> As successive electrons are removed, it becomes increasingly difficult to remove the next electron. This is because the effective nuclear charge experienced by the remaining electrons increases as the ion becomes more positive, strengthening the attraction to the nucleus."
+    },
+    {
+     "id": "qstnprt_NVKmMYz4cD857pgC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nY7v95g8fwJD7mwK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe successive ionisation energies of an element, **X**, are shown in Fig. 3.1.\n\nElement **X** is:\n\n- Sodium / Na\n\nIts full electron configuration is:\n\n- 1s^2^ 2s^2^ 2p^6^ 3s^1^\n\nElement **Y** is in the same period as element **X**.\n\nElement **Y** reacts with chlorine to form a chloride that has a pH of 2. When this chloride reacts with water, a rapid reaction occurs, producing white fumes and a white precipitate.\n\ni) Identify element **Y**\n\n[1]\n\nii) Construct an equation for the reaction of the chloride formed from element **Y** with water. Include state symbols in your answer.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) Element **Y** is:\n> \n> - Silicon / Si **[1 mark]**\n\nii) The equation for the reaction of silicon tetrachloride with water is:\n\nSiCl<sub>4</sub> (l) + 2H<sub>2</sub>O (l) → SiO<sub>2</sub> (s) + 4HCl (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulas and state symbols\n> \n> 1 mark for correctly balanced equation\n\n> **[exam-tip]**\n> Silicon tetrachloride (SiCl<sub>4</sub>) reacts rapidly with water to form a white precipitate of silicon dioxide (SiO<sub>2</sub>) and white steamy fumes of hydrogen chloride (HCl).\n> \n> Make sure you know the observations and equations for Period 3 chlorides and oxides reacting with water as these are common exam questions."
     }
    ]
   }

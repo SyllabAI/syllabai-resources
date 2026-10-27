@@ -1,6 +1,6 @@
 # Exam Questions — Business Documents
 **2. Sources & Recording of Data** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 11 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 14 questions across 2 sets
 
 
 ## Multiple Choice Questions (11 questions)
@@ -88,3 +88,55 @@ Why would it be useful for Leandu to complete the cheque counterfoil when she pa
 **Q11** [1 mark]
 
 Which items are **not** shown on a statement of account?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 5 marks
+
+**Q1** [5 marks]
+
+Omer buys all his supplies from Alexander who does not allow Omer any trade discount but offers a 5% cash discount. Omer is now considering also purchasing supplies from Tahir who would offer him 3% trade discount but no cash discount.
+
+**REQUIRED **
+
+Advise Omer whether he should choose:
+
+Option 1 – purchase supplies from Alexander only, or
+
+Option 2 – purchase supplies from both Alexander and Tahir
+
+Justify your answer by providing **three **advantages and **one **disadvantage of the option you have chosen.
+
+*Source: June 2023 0452/22 Q1C*
+
+
+### Q2 — medium — 6 marks
+
+**Q2** [6 marks]
+
+Shvan is considering whether to stop keeping cash at his business premises. He would require all customers to transfer payment directly into his bank account and he would make all business payments from his bank account.
+
+**REQUIRED**
+
+(i) State **one** way Shvan could pay his suppliers, from his bank account, other than by cheque
+
+(ii) Advise Shvan whether he should stop using cash. Justify your answer by providing **two** advantages and **two** disadvantages of stopping using cash.
+
+*Source: June 2023 0452/21 Q1C*
+
+
+### Q3 — medium — 3 marks
+
+**Q3** [3 marks]
+
+Amla is a trader. Her financial year ends on 31 December.
+
+Amla has been given the opportunity to pay her rates monthly by direct debit.
+
+**REQUIRED **
+
+Advise Amla whether or not she should start paying her rates in this way. Support your answer with **one **advantage and **one **disadvantage.
+
+*Source: Specimen 2020 0452/02 Q3E*
+

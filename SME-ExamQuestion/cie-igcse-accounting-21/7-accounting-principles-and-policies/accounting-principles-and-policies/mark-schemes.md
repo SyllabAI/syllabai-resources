@@ -172,3 +172,75 @@
 **B** is incorrect; the number of times that the calculator has been used is irrelevant to the financial statements
 
 **D** is incorrect; assets purchased using cash still appear on the statement of financial position
+
+## Structured Questions (5 questions)
+
+
+### Q1
+(i)
+
+The prudence principle states that a business should not overstate its profits and assets **[1 mark]**
+
+Irrecoverable debts should be written off to ensure the profit is not overstated **[1 mark]**
+
+> **[mark-scheme]**
+> 2 marks in total:
+> 
+> - 1 mark for explaining the principle.
+> - 1 mark for explaining how the item adheres to the principle.
+> 
+> Other acceptable answers for the first mark  include:
+> 
+> - The prudence principle states that a business should not understate its losses and liabilities
+> 
+> Other acceptable answers for the second mark  include:
+> 
+> - Irrecoverable debts should be written off to ensure the assets are not overstated
+> - Irrecoverable debts should be written off to not understate the loss
+
+(ii)
+
+The business entity principle states that a business should be regarded as separate to its owners **[1 mark]**
+
+Drawings are when money is taken from the business by the owner so it should be recorded as drawings not wages to ensure that the profits are not understated **[1 mark]**
+
+> **[mark-scheme]**
+> 2 marks in total:
+> 
+> - 1 mark for explaining the principle.
+> - 1 mark for explaining how the item adheres to the principle.
+> 
+> Other acceptable answers for the first mark  include:
+> 
+> - The business entity principle states that transactions should be recorded from the point of view of the business
+> 
+> Other acceptable answers for the second mark  include:
+> 
+> - Drawings should be recorded to ensure that the capital is not overstated
+
+### Q2
+Financial statements can still be reliable if the errors that are present are not significant **[1 mark]**
+
+### Q3
+Money measurement **[1 mark]**
+
+### Q4
+(i)
+
+Inventory is valued at the lower amount between the cost and the net realisable value **[1 mark]**
+
+(ii)
+
+> **[mark-scheme]**
+> 1 mark for any one of the following:
+> 
+> - Only the rent which is payable during the current year is transferred to the income statement
+> - The prepayments are deducted from the total rent paid before transferring the amount to the income statement
+
+### Q5
+The business is treated as being separate from the owner **[1 mark]**
+
+The phone for business use is recorded in a phone account but the phone for personal use is recorded in the drawings account **[1 mark]**
+
+> **[mark-scheme]**
+> These are the only two statements that get the marks.

@@ -1,0 +1,170 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:21Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "12-software-development",
+  "name": "12. Software Development"
+ },
+ "topic": {
+  "id": "top_GdcD6DJXqn6WtpNG",
+  "slug": "program-development-life-cycle",
+  "name": "Program Development Life cycle",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "development-models",
+   "name": "Development models",
+   "revision_note_id": "rn_gY9QWYCK9T3WWJX4"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_nqptztXwTZF6jm32",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/12-software-development/program-development-life-cycle/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 4,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_H3wDYH6mcWQJXycZ",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9cTwJpC67jcPc5cB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/23",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A coffee shop owner wants to introduce a computerised loyalty card system.\n\nA programmer discusses the details of the system with the shop owner.\n\nIdentify the stage of the program development life cycle that this discussion is part of and give a document that will be produced during this stage.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per answer:\n> \n> **MP1 **Analysis\n> \n> **MP2 Named **document, examples include:\n> \n> - A requirement specification\n> - Definition of System Objectives\n> - List of problems with existing system\n> - Survey results\n> - Feasibility study\n> - Interview notes\n> \n> **Max 2 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9MvkW7rF84RTsJsm",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_NSXdT7BZkg33cTyn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/23",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A software developer follows a program development life cycle. The life cycle divides the development process into various stages.\n\nThe following table lists some development activities.\n\nComplete the table by writing the name of the life cycle stage for each activity.\n\n| Activity | Name of life cycle stage |\n|---|---|\n| A compiler is used. |   |\n| A program that has been released for general use is modified. |   |\n| The dry run method is used. |   |\n| The program structure is specified. |   |",
+     "solution_md": "> **[mark-scheme]**\n> | Activity | Name of life cycle stage |\n> |---|---|\n> | A compiler is used. | **Coding** |\n> | A program that has been released for general use is modified. | **Maintenance** |\n> | The dry run method is used. | **Testing** |\n> | The program structure is specified. | **Design** |\n> \n> One mark per row"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dfFVpb7WJ6vSKj2R",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_28H3bCJGNqv83bKW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A program has been developed and released for general use. After a few months of use an error is detected where under certain circumstances it outputs an unexpected value.\n\nThe error in the program needs to be corrected.\n\nIdentify the stage of the program development life cycle that this correction is made in.",
+     "solution_md": "> **[mark-scheme]**\n> (Corrective) Maintenance"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VPgZG9TngxmSwv9y",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tPKrgjpWP3MZ58jn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/21",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A software developer follows a program development life cycle. The life cycle divides the development process into various stages.\n\nThe following table lists some development activities.\n\nComplete the table by writing the name of the life cycle stage for each activity.\n\n| Activity | Name of life cycle stage |\n|---|---|\n| The walkthrough method is used. |   |\n| An algorithm is implemented in a programming language. |   |\n| The client is interviewed about problems with the current system. |   |\n| The program is modified to run on new hardware. |   |\n| Records and file structures are defined. |   |",
+     "solution_md": "> **[mark-scheme]**\n> | Activity | Name of life cycle stage |\n> |---|---|\n> | The walkthrough method is used. | **Testing** |\n> | An algorithm is implemented in a programming language. | **Coding** |\n> | The client is interviewed about problems with the current system. | **Analysis** |\n> | The program is modified to run on new hardware. | **Maintenance** |\n> | Records and file structures are defined. | **Design** |\n> \n> One mark per row"
+    }
+   ]
+  }
+ ]
+}

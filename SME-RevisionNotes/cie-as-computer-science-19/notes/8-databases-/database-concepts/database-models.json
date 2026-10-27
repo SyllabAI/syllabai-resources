@@ -1,0 +1,141 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_4mJGGGP3Sh6VHVG7",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/8-databases-/database-concepts/database-models",
+ "title": "Database models",
+ "page_title": "Database models | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "8-databases-",
+   "database-concepts",
+   "database-models"
+  ],
+  "section": "8-databases-",
+  "topic": "database-concepts",
+  "leaf": "database-models"
+ },
+ "titles": {
+  "section": "8. Databases",
+  "topic": "Database Concepts",
+  "subtopic": "Database models"
+ },
+ "updated_at": "2026-10-01T11:12:32.566Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_P787CgxNkKFMC6Sx",
+  "spcpt_WN37ppXhzxdy2v2d",
+  "spcpt_nt6wCsbXQScDX5S8"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 16,
+  "figures": 2,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_P787CgxNkKFMC6Sx",
+   "name": "Limitations of file-based systems",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Limitations of file-based systems"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a file-based system?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A file-based system refers to any system where **data is stored in separate files** (e.g. text files, spreadsheets)\n- Each application or department may have its **own files**, often with **redundant or duplicated data**\n- There is **no central control** or shared structure, files are often standalone\n- Common in older systems or small-scale setups"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Limitations"
+  },
+  {
+   "type": "table",
+   "md": "| **Limitation** | **Explanation** |\n|---|---|\n| **Data redundancy** | The same data is stored in multiple files, leading to duplication |\n| **Data inconsistency** | If one file is updated but others aren’t, the data becomes unreliable |\n| **Lack of data integrity** | It's harder to ensure data is accurate and consistent across all files |\n| **Poor security** | Limited control over who can access or modify different files |\n| **Difficult to update** | Changes must be made in several places, increasing time and risk of error |\n| **Limited scalability** | Not suitable for large volumes of data or complex data relationships |\n| **No central control** | Each application manages its own data, leading to lack of coordination |\n| **Hard to manage relationships** | Cannot easily link related data across files (e.g. customers and their orders) |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_WN37ppXhzxdy2v2d",
+   "name": "Flat file vs Relational",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Flat file vs Relational"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **flat file database** is one that stores all data in a **single table**\n\n  - It is simple and easy to understand but causes data redundancy, inefficient storage and is harder to maintain\n- A **relational database** is one that organises data into **multiple tables**\n\n  - It uses keys to connect related data which reduces data ***redundancy***, makes efficient use of storage and is easier to maintain\n- Consider this example **flat file** table of students"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/flat-file-table.png",
+   "file": "assets/0713cd9811d6-flat-file-table.png",
+   "alt": "flat-file-table",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- This table has **redundant data** - the tutor and form room information repeats\n- This is **inefficient**\n- If a tutor changed their name we would need to find all instances of that name and change them all\n- Missing any would mean the table had** inconsistent data**\n- A **relational **database would solve this issue:\n\n  - A new **table **could be created to store the tutor information and the tutor information in the student table could be moved to the new **table**\n  - A **foreign key** in the student **table **(`TutorID`) could link a student to their tutor"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/08/relational-database.png",
+   "file": "assets/3eafec2533e6-relational-database.png",
+   "alt": "relational-database",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Now the name of each tutor and their form room is stored **only once**\n- This means if they change only one piece of data, the data is **updated in the entire database **and ***inconsistency*** is avoided"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_nt6wCsbXQScDX5S8",
+   "name": "Database terminology",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Database terminology"
+  },
+  {
+   "type": "table",
+   "md": "| **Term** | **Definition** |\n|---|---|\n| **Entity** | A real-world object or concept that data is stored about (e.g. `Student`, `Book`) |\n| **Table** | A collection of data about an entity, organised in rows and columns |\n| **Record (Tuple)** | A single row in a table representing one instance of an entity |\n| **Field (Attribute)** | A single column in a table, storing one piece of data about the entity |\n| **Primary key** | A unique identifier for each record in a table (e.g. `StudentID`) |\n| **Candidate key** | A field (or combination of fields) that could be used as a primary key |\n| **Secondary key** | A candidate key that has not been chosen as the primary key; an alternative key used as well as the primary key to locate specific data |\n| **Foreign key** | A field that links to the primary key in another table to create relationships |\n| **Relationship** | A logical connection between two tables/entities |\n| **One-to-One** | One record in a table relates to one record in another table |\n| **One-to-Many** | One record in a table relates to many records in another table |\n| **Many-to-Many** | Records in one table relate to many records in another, and vice versa |\n| **Referential integrity** | Ensures foreign keys match a primary key in the related table to prevent broken links |\n| **Indexing** | A technique to speed up searching in a table by creating an ordered list of key fields |"
+  }
+ ]
+}

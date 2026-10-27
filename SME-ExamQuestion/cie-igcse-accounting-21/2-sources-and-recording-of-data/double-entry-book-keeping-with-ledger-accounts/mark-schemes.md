@@ -284,3 +284,197 @@
 **C** is incorrect; the purchases account does not go into the purchases ledger, it goes in the nominal (general) ledger
 
 **D** is incorrect; a purchases ledger control account is based in part on what is in the purchases journal, and is used to check for errors in the purchases ledger accounts
+
+## Structured Questions (5 questions)
+
+
+### Q1
+Calculate the amounts owed by Naomi after deducting the trade discount
+
+- Aug 3: List price \$410
+
+$\begin{gathered} 10 \% \times 410 & = 41 \\ 410 - 41 & = 369 \end{gathered}$
+
+- Aug 22: List price \$230
+
+$\begin{gathered} 10 \% \times 230 & = 23 \\ 230 - 23 & = 207 \end{gathered}$
+
+Calculate the amounts returned by Naomi after deducting the trade discount
+
+- Aug 10: List price \$20
+
+$\begin{gathered} 10 \% \times 20 & = 2 \\ 20 - 2 & = 18 \end{gathered}$
+
+Calculate the discount allowed
+
+- Aug 11: \$423 paid to settle \$450
+
+$450-423=27$
+
+Seok 
+Naomi account
+
+| Date | Details | \$ |   | Date | Details | \$ |   |
+|---|---|---|---|---|---|---|---|
+| 2023 |   |   |   | 2023 |   |   |   |
+| Aug 1 | Balance b/d | 450 | **[1]** | Aug 10 | Sales returns | 18 | **[1]** |
+| 3 | Sales | 369 | **[1]** | 11 | Bank | 423 | **[1]** |
+| 22 | Sales | 207 |   | Discount allowed | 27 | **[1]** |   |
+|   |   |   |   | 31 | Balance c/d | 558 |   |
+|   |   | <u>1 026</u> |   |   |   | <u>1 026</u> |   |
+| Sep 1 | Balance b/d | 558 | **[1]** |   |   |   |   |
+
+> **[mark-scheme]**
+> 6 marks in total. 1 mark for each of the following with the correct dates and details.
+> 
+> **Explanation**
+> 
+> - Balance b/d for 1 Aug on the debit side with the correct figure
+> 
+>   - This is because Naomi owes money to Seok
+> - **Both **of the sales entries on the debit side with your **own figures**
+> 
+>   - This is because the amount Naomi owes to Seok is increasing
+> - Sales returns on the credit side with your **own figure**
+> 
+>   - This is because the amount Naomi owes to Seok is decreasing
+> - Bank on the credit side with the correct figure
+> 
+>   - This is because the amount Naomi owes to Seok is decreasing
+> - Discount allowed on the credit side with the correct figure
+> 
+>   - This is because the amount Naomi owes to Seok is decreasing
+> - Balance b/d for 1 Sep on the debit side with your** own figure **used for balance c/d
+> 
+>   - This is because Naomi owes money to Seok
+
+### Q2
+Omer 
+Alexander account
+
+| Date | Details |   | \$ | Date | Details | \$ |   |
+|---|---|---|---|---|---|---|---|
+| 2023 |   |   |   | 2023 |   |   |   |
+| Apr 7 | Bank | **[1]** | 360 | Apr 1 | Balance b/d | 360 |   |
+| 27 | Bank | **[1]** | 323 | 12 | Purchases | 340 | **[1]** |
+|   | Discount received | 17 | 28 | Purchases | 235 |   |   |
+| 30 | Balance c/d |   | 235 |   |   |   |   |
+|   |   |   | <u>935</u> |   |   | <u>935</u> |   |
+|   |   |   |   | May 1 | Balance b/d | 235 | **[1]** |
+
+> **[mark-scheme]**
+> 4 marks in total.
+> 
+> - 1 mark for bank on the debit side on Apr 7 with the correct amount
+> - 1 mark for purchases on the credit side on Apr 12 **and **28 with the correct amounts
+> - 1 mark for bank **and **discount received on the debit side on Apr 27 with the correct amounts
+> - 1 mark for balance b/d on the credit side on May 1 with your **own figure** from balance c/d
+
+> **[exam-tip]**
+> Alexander is a supplier so this is a trade payable account. Credit entries increase the amount Omer owes to Alexander and debit entries decrease the amount owed.
+
+### Q3
+Logan 
+Inventory account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2022 |   |   | 2023 |   |   |
+| Oct 1 | Balance b/d **[1]** | 8 400 | Sep 30 | Income statement **[1]** | 8 400 |
+|   |   | <u>8 400</u> |   |   | <u>8 400</u> |
+| 2023 |   |   |   |   |   |
+| Sep 30 | Income statement **[1]** | 8 675 |   |   |   |
+
+> **[mark-scheme]**
+> 3 marks in total. 1 mark for each of the following with the correct date, details and amount:
+> 
+> - Balance b/d
+> - Income statement for the opening inventory
+> - Income statement for the closing inventory
+
+> **[exam-tip]**
+> You might have balanced this account and brought the balance down at 1 October 2023. If you did, then you still get full marks.
+
+### Q4
+Find the amount owed for the purchase on 22 March
+
+- Find the percentage of the list price
+
+$100 \% - 4 \% = 96 \%$
+
+- Multiply the list price by the percentage
+
+$96 \% \times 150 = 144$
+
+Shvan 
+Giles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2023 |   |   | 2023 |   |   |
+| Mar 2 | Petty cash **[1]** | 55 | Mar 1 | Balance b/d | 165 |
+| 13 | Bank **[1]** | 110 | 22 | Purchases **[1]** | 144 |
+| 31 | Balance c/d | 144 |   |   |   |
+|   |   | 309 |   |   | 309 |
+|   |   |   | Apr 1 | Balance b/d **[1]** | 144 |
+
+> **[mark-scheme]**
+> 4 marks in total. 1 mark for the correct details and amount(s) for each of the items below.
+> 
+> **Explanation**
+> 
+> Work through each date individually.
+> 
+> - Mar 2: Debit \$55 with entry for petty cash
+> - Mar 13: Debit \$110 with entry for Bank
+> - Mar 22: Credit \$144 with entry for purchases
+> - Apr 1: Credit with entry for balance b/d
+> 
+>   - This mark is for using your **own figure** from the balance c/d entry
+
+> **[exam-tip]**
+> Giles is a trade payable so it is a liability account. Credit entries increase the amount Shvan owes to Giles and debit entries decrease the amount owed. Therefore, the balance b/d is on the credit side.
+
+### Q5
+Mariam 
+Shahid account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2017 |   |   | 2017 |   |   |
+| Aug 13 | Purchases returns **[1]** | 24 | Aug 1 | Balance b/d | 520 |
+| 24 | Bank **[1]** | 507 | 9 | Purchases **[1]** | 340 |
+| 24 | Discount received **[1]** | 13 |   |   |   |
+| 31 | Balance c/d | 316 |   |   |   |
+|   |   | <u>860</u> |   |   | <u>860</u> |
+|   |   |   | Sep 1 | Balance b/d **[1]** | 316 |
+
+> **[mark-scheme]**
+> 5 marks in total, 1 mark for each of the following.
+> 
+> **Explanation**
+> 
+> - Aug 9: Enter purchases on the credit side
+> 
+>   - This is because Mariam buys goods from Shahid
+>   - This increases the amount that she owes him
+> - Aug 13: Enter purchases returns on the debit side
+> 
+>   - This is because Mariam returns goods to Shahid
+>   - This decreases the amount that she owes him
+> - Aug  24: Enter bank on the debit side
+> 
+>   - This is because Mariam pays Shahid by cheque
+>   - This decreases the amount that she owes him
+> - Aug  24: Enter discount received on the debit side
+> 
+>   - This is because Mariam receives a discount from Shahid
+>   - This decreases the amount that she owes him
+>   - You get this mark just for the word "discount"
+> - Sep 1: Enter the balance b/d on the credit side
+> 
+>   - This is because Mariam owes money to Shahid
+>   - This mark is for using your **own figures** from the balance c/d entries
+
+> **[exam-tip]**
+> Read the question carefully to see whose point of view the account is from. This account is in the books of Mariam, so it is from Mariam's point of view. This is different to the statement of account, so debits and credit s are flipped. Shahid is a supplier to Mariam. Therefore, credit entries increase the amount Shahid owes and debits reduce the amount.

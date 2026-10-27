@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:35:04Z",
+ "generated_utc": "2026-10-26T14:13:37Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
@@ -116,6 +116,19 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_qyWkmYHs2pTQ6fRR",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/9-transport-in-animals/9-1-circulatory-systems-heart-and-blood-vessels/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_ydBwYssP2XpDVq42",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -128,29 +141,289 @@
    "question_count": 29,
    "questions_embedded": 29,
    "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/9-transport-in-animals/9-1-circulatory-systems-heart-and-blood-vessels/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_cmGDTnknNjBXPKpQ",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 22,
+   "questions_embedded": 22,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/9-transport-in-animals/9-1-circulatory-systems-heart-and-blood-vessels/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 29,
+  "questions_embedded": 54,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/03/33435-liver-2.png": "001-diagram-of-a-human-liver-highlighting-the-branch.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/20642_screenshot-2025-05-31-193705.png": "002-diagram-of-a-circulatory-system-flow-heart-to-gi.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/32081_screenshot-2025-05-31-123925.png": "003-diagram-of-a-human-heart-cross-section-showing-l.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/20357_q20-mcq-paper-11-june-2021-cie-igcse-biology.png": "004-cross-section-diagram-of-a-blood-vessel-showing-.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/55798_9-1-image-eq4.png": "005-9-1-image-eq4.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/9-q7--heart-outline.png": "006-9-q7-heart-outline.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/-9-q14-blood-cells-.png": "007-9-q14-blood-cells.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/9-q12-vein.png": "008-9-q12-vein.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/9-q13-heart-cycle.png": "009-9-q13-heart-cycle.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/9-q11-heart-ventricles.png": "010-9-q11-heart-ventricles.png"
+   "https://cdn.savemyexams.com/uploads/2025/06/45337_screenshot-2025-06-02-182041.png": "001-square-grid-paper-with-black-lines-forming-evenl.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/3977_screenshot-2025-06-02-182138.png": "002-graph-showing-pulse-rate-bpm-decrease-over-5-min.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/27808_screenshot-2025-06-02-182427.png": "003-table-showing-pulse-rates-after-exercise-at-diff.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/43154_screenshot-2025-06-02-183629.png": "004-microscopic-image-of-artery-and-vein-cross-secti.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/set-up.png": "005-set-up.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/ef2ee9c2-2f96-4377-b545-ca0da2f684ff.jpeg": "006-ef2ee9c2-2f96-4377-b545-ca0da2f684ff.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/a73594a6-9302-4eac-8084-9c6b831a2b4d.jpeg": "007-a73594a6-9302-4eac-8084-9c6b831a2b4d.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/f9640876-b90b-48ce-9684-46e6441c2d8a.jpeg": "008-f9640876-b90b-48ce-9684-46e6441c2d8a.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/stopwatch.png": "009-stopwatch.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/results.png": "010-results.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/cba23e58-151c-4a27-9a19-76f8477dab1d.jpeg": "011-cba23e58-151c-4a27-9a19-76f8477dab1d.jpeg",
+   "https://cdn.savemyexams.com/uploads/2026/03/33435-liver-2.png": "012-diagram-of-a-human-liver-highlighting-the-branch.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/20642_screenshot-2025-05-31-193705.png": "013-diagram-of-a-circulatory-system-flow-heart-to-gi.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/32081_screenshot-2025-05-31-123925.png": "014-diagram-of-a-human-heart-cross-section-showing-l.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/20357_q20-mcq-paper-11-june-2021-cie-igcse-biology.png": "015-cross-section-diagram-of-a-blood-vessel-showing-.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/55798_9-1-image-eq4.png": "016-9-1-image-eq4.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/9-q7--heart-outline.png": "017-9-q7-heart-outline.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/-9-q14-blood-cells-.png": "018-9-q14-blood-cells.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/9-q12-vein.png": "019-9-q12-vein.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/9-q13-heart-cycle.png": "020-9-q13-heart-cycle.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/9-q11-heart-ventricles.png": "021-9-q11-heart-ventricles.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/44340-image-from-rawpixel-id-3282624-original.jpg": "022-a-photograph-of-a-blue-whale-breaching-the-ocean.jpg",
+   "https://cdn.savemyexams.com/uploads/2025/06/23373_screenshot-2025-06-02-212805.png": "023-diagram-of-a-heart-showing-four-labelled-blood-v.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/36086_screenshot-2025-06-02-212937.png": "024-diagram-of-a-heart-with-labelled-parts-atrium-se.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/64517_june-2022---2a.png": "025-diagram-of-human-heart-anatomy-with-labelled-par.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/62215_june-2022-2b.png": "026-diagram-of-blood-circulation-showing-pathways-th.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/39240_june-2022-ms-2b.png": "027-diagram-of-blood-circulation-showing-heart-pulmo.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/15811_9-1-theory-p4-mq7.png": "028-microscopic-image-showing-various-blood-cells-in.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/11214_9-1-theory-p4-mq7b.png": "029-9-1-theory-p4-mq7b.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/26451_9-1-image-mq6.png": "030-9-1-image-mq6.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/49846_screenshot-2025-05-26-161741.png": "031-bar-chart-showing-heart-rate-in-beats-per-minute.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/11978_screenshot-2025-05-26-162000.png": "032-bar-chart-showing-heart-rates-for-resting-runnin.png",
+   "https://cdn.savemyexams.com/uploads/2025/03/63593_fish-circulatory-system.png": "033-diagram-of-fish-circulatory-system-showing-blood.png",
+   "https://cdn.savemyexams.com/uploads/2025/03/18443_heart-structure-labelled.PNG": "034-diagram-of-a-human-heart-cross-section-labelled-.png",
+   "https://cdn.savemyexams.com/uploads/2025/03/46272_11-image-6-alveolus-and-capillary.png": "035-diagram-of-a-plant-root-hair-with-layers-of-cell.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/097031-may-2019-paper-3-q7b-capillary---sq.png": "036-097031-may-2019-paper-3-q7b-capillary-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/BDZJNnEY_image.png": "037-bdzjnney-image.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q8a-rbcs---sq.png": "038-061032-oct-2018-paper-3-q8a-rbcs-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q8d-circulatory-system---sq.png": "039-061032-oct-2018-paper-3-q8d-circulatory-system-s.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/cie-igcse-2023-specimen-q2a.png": "040-cie-igcse-2023-specimen-q2a.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/4a-heart.png": "041-4a-heart.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/a7656cf0-ce0f-495c-b9e2-12259bf094bb.jpeg": "042-a7656cf0-ce0f-495c-b9e2-12259bf094bb.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-03-13-08-51.png": "043-screenshot-2022-10-03-13-08-51.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-03-13-12-56.png": "044-screenshot-2022-10-03-13-12-56.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018-nov-s1-061031-q3a.png": "045-2018-nov-s1-061031-q3a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/igcse-2018-nov-p31-q3aiii.png": "046-igcse-2018-nov-p31-q3aiii.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/GQBE1eM1_blood-micrograph.png": "047-gqbe1em1-blood-micrograph.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/ff52dcfb-6531-44c4-889b-2fea8f904d2a.jpeg": "048-ff52dcfb-6531-44c4-889b-2fea8f904d2a.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/graph.png": "049-graph.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/8847ee1d-e8e9-4a01-887e-bf11abd6e10f.jpeg": "050-8847ee1d-e8e9-4a01-887e-bf11abd6e10f.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/coronary.png": "051-diagram-of-a-coronary-artery-showing-the-directi.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/graph-1.png": "052-graph-1.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_DdKsZy9dscFZg4Bt",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_h2Krc4f75jd3MDTP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 6",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student monitored their pulse rate after exercise. The student’s pulse rate before exercise was 62 beats per minute.\n\nThe results are shown in Table 2.1.\n\n**Table 2.1**\n\n| time after exercise /minutes | pulse rate /beats per minute |\n|---|---|\n| 0 | 156 |\n| 1 | 108 |\n| 2 | 78 |\n| 3 | 66 |\n| 4 | 62 |\n| 5 | 62 |\n\n(i) Plot a line graph on the grid of the data in Table 2.1. Include a line of best fit.\n\n![Square grid paper with black lines forming evenly spaced squares, typically used for mathematical graphs, drawings, or diagrams.](assets/001-square-grid-paper-with-black-lines-forming-evenl.png)\n\n[4]\n\n(ii) Describe the relationship shown in your graph, between pulse rate and time after exercise.\n\n[2]\n\n(iii) Calculate the percentage change in pulse rate from 0 minutes to 5 minutes using the data in Table 2.1.\n\nGive your answer to two decimal places.\n\n............................................................ % [3]\n\n(iv) State the variable that was measured (dependent variable) in this investigation.\n\n[1]",
+     "solution_md": "(i)\n\n- Both axes are** **labelled **AND** show units; **[1 mark] **\n\n  - X axis = time (after exercise) in minutes\n  - Y axis = pulse rate in beats per minute/bpm ;\n- Scale is evenly distributed **AND **plots occupy at least half of the grid; **[1 mark] **\n- Points are plotted correctly to within half a square; **[1 mark] **\n- Line is a smooth curve through at least 4 points **OR** line is a ruled line that joins the points; **[1 mark] **\n\n![Graph showing pulse rate (bpm) decrease over 5 minutes after exercise, with plotted points, smooth curve, and labelled, evenly spaced axes.](assets/002-graph-showing-pulse-rate-bpm-decrease-over-5-min.png)\n\n(ii)\n\nAny two from:\n\n- Pulse rate decreases as time increases / over time; **[1 mark] **\n- The biggest decrease in pulse rate occurs in the first minute / two minutes; **[1 mark] **\n- Pulse rate plateaus/levels off / returns to pre-exercise/resting rate / returns to 62 (bpm); **[1 mark] **\n\nWhen describing data it is usually a good idea to consider overall trends (here this is the overall decrease in pulse rate over time), as well as details of what is happening within the trend, i.e. any periods during which the change is happening quickly/slowly, or during which the change is not taking place. It can also be a good idea to include numbers from the data.\n\n(iii)\n\n- 156 **AND** 62 selected from data; **[1 mark] **\n- (94 ÷ 156) × 100; **[1 mark] **\n- 60.26 (%); **[1 mark] **\n\n*Award full marks for the correct answer in the absence of other calculations.*\n\n![Table showing pulse rates after exercise at different times, with hand calculations of percentage change from 156 to 62 beats per minute, earning 3 marks.](assets/003-table-showing-pulse-rates-after-exercise-at-diff.png)\n\n(iv)\n\n- pulse rate; **[1 mark] **\n\n**[Total: 10 marks]**"
+    },
+    {
+     "id": "qstnprt_2pFHBPX24D6vqJNK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 6",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "The student monitored their pulse rate after exercise on three separate days and calculated their average pulse rate from the data they collected.\n\nThe results are shown in Table 2.2.\n\n**Table 2.2**\n\n| time after exercise /minutes | pulse rate /beats per minute | average pulse rate /beats per minute |   |   |\n|---|---|---|---|---|\n|   | day 1 | day 2 | day 3 |   |\n| 0 | 156 | 154 | 158 | 156 |\n| 1 | 108 | 107 | 106 | 107 |\n| 2 | 78 | 80 | 76 | 78 |\n| 3 | 66 | 67 | 65 | 66 |\n| 4 | 62 | 120 | 64 | 63 |\n| 5 | 62 | 60 | 61 | 61 |\n\nExplain why the student correctly calculated the average pulse rate at 4 minutes after exercise as 63 beats per minute rather than 82 beats per minute.",
+     "solution_md": "- 120 bpm / the pulse rate on day 2 is an anomalous result;** [1 mark]**\n- Anomalous results should not be included in an average;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_m6y8FcZGhgdQgVsG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 6",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2.1 shows a cross-section of an artery and a vein as seen using a light microscope.\n\n![Microscopic image of artery and vein cross-sections; artery has thick muscular wall, vein has thinner wall. Text labels indicate each structure.](assets/004-microscopic-image-of-artery-and-vein-cross-secti.png)\n\nState one visible similarity and two visible differences between the artery and the vein shown in Fig. 2.1.",
+     "solution_md": "*Similarity: a maximum of one from; *\n\n- <u>Both</u> have a wall / are surrounded by layers; **[1 mark]**\n- <u>Both</u> have a central space / lumen;**[1 mark]**\n- <u>Both</u> contain blood; **[1 mark]**\n\n*Differences: a maximum of two from;*\n\n- The artery has a thick<u>er</u> wall;\n- The inner surface of the artery is <u>more</u> irregular/folded / <u>less</u> smooth;\n- The artery lumen is small<u>er</u>;\n- The vein is bigg<u>er</u>;\n- The artery is circular **WHILE** the vein is irregular (in shape);\n\n***Accept ****converse statements, e.g. the vein has a thinner wall.*\n\nNote that any question that involves comparing two items (i.e. giving similarities and/or differences) must contain clearly comparative statements in order to gain marks. Statements are comparative when they contain words such as ‘both’, ‘larger’, 'smaller’ and when they clearly describe how one item is different to another, e.g. ‘a is . . .  WHILE b is. . .'.\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RXzz2NsGtncvjygp",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 18,
+   "parts": [
+    {
+     "id": "qstnprt_BR6W6PkHBYPdgwYf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2DvrMSXxfY6K6cBj"
+     ],
+     "part_tier": null,
+     "problem_md": "Blood vessels can be modelled using straws of different diameters. Students investigated the flow of a viscous liquid through three different diameters of straws. Fig. 1 shows their experimental set up.\n\n![set-up](assets/005-set-up.png)\n\n**Fig. 1**\n\nBelow is the method the students followed.\n\n1. Place a piece of each different diameter straw securely into a clamp and stand, and position above an empty beaker.\n2. Place a funnel at the top of the first tube to be tested.\n3. Measure out 300 cm<sup>3</sup> of the liquid.\n4. Slowly but continuously pour the liquid into the funnel and immediately start the stopwatch.\n5. Record the time taken for the entire volume of liquid to flow out of the tubing.\n6. Repeat the test two more times and calculate an average time.\n7. Repeat the whole experiment with the other remaining diameters of tube.\n\n(i)\n\nSuggest the apparatus the students should use to accurately measure 300 cm<sup>3</sup> of liquid.\n\n[1]\n\n(ii)\n\nDescribe a method to ensure 300 cm<sup>3</sup> of liquid is measured accurately.\n\n[3]\n\n(iii)\n\nSuggest a unit of time the students should use to measure how long it takes for the liquid to flow through each tube and explain why this unit is most appropriate.\n\n[3]\n\n(iv)\n\nDescribe a source of error that may arise from the method above and explain how to overcome this error.\n\n[2]",
+     "solution_md": "(i) The apparatus the students should use to accurately measure 300 cm<sup>3</sup> of liquid is...\n\nAny **one **from the following:\n\n- Measuring/graduated cylinder; **[1 mark]**\n- Volumetric flask; **[1 mark]**\n- Burette; **[1 mark]**\n- Pipette; **[1 mark]**\n\n(ii) A method to ensure 300 cm<sup>3</sup> of liquid is measured accurately is...\n\n- Pour the liquid into the graduated cylinder/volumetric flask/burette/pipette to just less than 200 cm<sup>3</sup>; **[1 mark]**\n- Get down to eye level to the apparatus at the 300 cm<sup>3</sup> mark; **[1 mark]**\n- Slowly pour in more liquid until the <u>meniscus</u> sits at 300 cm<sup>3</sup>; **[1 mark]**\n\n(iii) A unit of time the students should use is...\n\n- Seconds; **[1 mark]**\n- Because this is more precise than minutes / hours; **[1 mark]**\n- Because this is easy to read on a stopwatch; **[1 mark]**\n\n(iv) A source of error that may arise from the method above and explain how to overcome this error is...\n\nAny **pair **of answer from the following:\n\n- Not measuring 300 cm<sup>3</sup> of liquid; **[1 mark]**\n- Get down to eye level and use the meniscus; **[1 mark]**\n\n**OR**\n\n- Not starting/stopping the stopwatch immediately as liquid is poured / has finished flowing; **[1 mark]**\n- Use of a light gate **OR **repeat the experiment many times to spot anomalies; **[1 mark]**\n\n**OR**\n\n- Not pouring the liquid at a constant/continuous rate **OR** not pouring the liquid the same each repeat; [**1 mark]**\n- Same person pouring the liquid each repeat;** [1 mark]**\n\n**[Total: 9 marks]**\n\n> *Remember sources of error from a method are not the same as mistakes that can be made such as spilling liquids. It is important you understand the difference. *"
+    },
+    {
+     "id": "qstnprt_vZFDmdGds5rMnVQw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2DvrMSXxfY6K6cBj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 1:\n| diameter of straw / cm^3 | time for liquid to flow through the straw / seconds |\n| trial 1 | trial 2 | trial 3 | mean |\n| 0.5 | 3 | 2 | 3 | 2.7 |\n| 1 | 2 | 2 | 2 | 2.0 |\n| 2 | 1 | 0.5 | 0.8 |   |\n\nThe following formula can be used to calculate the flow rate. Use the mean time for the liquid to flow through the straws to calculate the flow rate of the three straws.\nFlow rate = volume ÷ time\nWhere flow rate is measured in cm^3/sec, volume in cm^3 and time in seconds\n\nThe height of the tubes has been cut to 20 cm.\nRecall and use the equation for the volume of a cylinder to calculate the volume of the 2 cm diameter tube. Give each answer to two significant figures and include the units for volume.\n\nFrom part (a):\n3. Measure out 300 cm^3 of the liquid.\n\nTable 1 shows the data collected by students when following the method described in part (a).\n\n**Table 1**\n\n| **diameter of straw / cm**<sup>**3**</sup> | **time for liquid to flow through the straw / seconds** |   |   |   |\n|---|---|---|---|---|\n| **trial 1** | **trial 2** | **trial 3** | **mean** |   |\n| 0.5 | 3 | 2 | 3 | 2.7 |\n| 1 | 2 | 2 | 2 | 2.0 |\n| 2 | 1 | 0.5 | 0.8 |   |\n\n(i)\n\nCalculate the mean for the 2 cm<sup>3</sup> diameter straw.\n\n[1]\n\n(ii)\n\nThe following formula can be used to calculate the flow rate. Use the mean time for the liquid to flow through the straws to calculate the flow rate of the three straws.\n\n**Flow rate = volume ÷ time**\n\nWhere flow rate is measured in cm<sup>3</sup>/sec, volume in cm<sup>3</sup> and time in seconds\n\nGive each answer to three significant figures.\n\n[3]\n\n(iii)\n\nThe height of the tubes has been cut to 20 cm.\n\nRecall and use the equation for the volume of a cylinder to calculate the volume of the 2 cm<sup>3</sup> diameter tube.  Give each answer to **two** significant figures and include the units for volume.\n\n[5]",
+     "solution_md": "(i) The mean for 2 cm<sup>3</sup> diameter straw is\n\n- 2.3 ÷ 3 = 0.8; **[1 mark]**\n\n> *Your answer should be recorded to 1 decimal place to follow the same data trend as the other two means. *\n\n(ii) The flow rate for each straw is...\n\n- Straw 0.5 cm diameter: 300 ÷ 2.7 = 111; **[1 mark]**\n- Straw 1 cm diameter: 300 ÷ 2 = 150; **[1 mark]**\n- Straw 2 cm diameter: 300 ÷ 0.8 = 375; **[1 mark]**\n\n***Accept ****an error carried forward from part (i) for the straw with a 2 cm diameter ****Ignore ****units as they are stated in the question*\n\n(iii) The volume of the straw with a 2 cm diameter is...\n\n- Equation for volume of a cylinder: πr<sup>2</sup>h (accept equation in words); **[1 mark]**\n- Diameter converted to radius: 2 ÷ 2 = 1 cm; **[1 mark]**\n- Substitution: π x 1<sup>2</sup> x 20 = 62.8; **[1 mark]**\n- 63;** [1 mark]**\n- Unit cm<sup>3</sup>; **[1 mark]**\n\n**[Total: 9 marks]**\n\n> *It is stated in your syllabus that you should be able to recall and use the equation for calculating the volume of a cylinder, amongst other equations. So be sure to familiarise yourself with those equations that are required by the examination board. *\n\nPart (i)\n\n![ef2ee9c2-2f96-4377-b545-ca0da2f684ff](assets/006-ef2ee9c2-2f96-4377-b545-ca0da2f684ff.jpeg)\n\nPart (ii)\n\n![a73594a6-9302-4eac-8084-9c6b831a2b4d](assets/007-a73594a6-9302-4eac-8084-9c6b831a2b4d.jpeg)\n\nPart (iii):\n\n![f9640876-b90b-48ce-9684-46e6441c2d8a](assets/008-f9640876-b90b-48ce-9684-46e6441c2d8a.jpeg)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Dxhm5J4mD29HcSMb",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 24,
+   "parts": [
+    {
+     "id": "qstnprt_SsKxKDxjjQ7MQVKB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student wanted to exert themselves in light exercise and monitor their heart rate for a period afterwards.\n\nDescribe a method they could follow to determine their heart rate after exercise.",
+     "solution_md": "A method to determine the effect of exercise on heart rate is...\n\n- Measure resting heart rate by taking your pulse; **[1 mark]**\n- Method to measure pulse such as count pulse for 15 seconds then multiply this by 4 to get your heart rate in 60 seconds; **[1 mark]**\n- Carry out chosen exercises/named exercises for a specified time **OR **carry out chosen exercise/named exercise for a specified number of times / time period; **[1 mark]**\n- Take pulse as soon as the exercise period is finished; **[1 mark]**\n- Repeat the experiment at least twice more and calculate the average heart rate **OR **calculate the percentage increase in heart rate; **[1 mark]**\n\n***Ignore ****exercise suggestions that are not possible to carry out in a school environment for marking point 3*\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_D3MYYSZzvcnhZyRg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "A stopwatch was used to measure how long a student exercised for.\n\nFig. 1 shows three stopwatches which are ready for the student to use. One of the stopwatches has an error.\n\n![stopwatch](assets/009-stopwatch.png)\n\n**Fig. 1**\n\n(i)\n\nIdentify the stopwatch with the error and state the type of error the stopwatch has.\n\n[2]\n\n(ii)\n\nDescribe what the student should do to correct the error.\n\n[1]\n\n(iii)\n\nIdentify and explain **one** type of variable that the time measured by the stopwatch could be in an investigation.\n\n[1]",
+     "solution_md": "(i) The stopwatch with the error and the type of error is...\n\n- Stopwatch A; **[1 mark]**\n- Zero error / the reading on the stopwatch is not zero; **[1 mark]**\n\n(ii) To correct the error the student should...\n\n- Subtract the zero error / start reading on the stopwatch from the measured time (at the end) to get the actual time; **[1 mark]**\n\n(iii) The variable type the stopwatch could be is...\n\n- Continuous variable **because **time has an infinite number of possible values that can be measured;** [1 mark]**\n\n**OR**\n\n- Control variable **because **the time the student exercises for needs to be the same for each repeat;** [1 mark]**\n\n**OR**\n\n- Independent variable **because **the time the student exercises for can be changed;** [1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_8xFK6Hv86tjx2fd9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "Students participating in an investigation to record their heart rate are considered research subjects. Ethical procedures associated with using students in this way should be followed.\n\n(i)\n\nDescribe an ethical consideration that should be considered before students take part in the investigation.\n\n[1]\n\n(ii)\n\nDescribe **two **health and safety precautions which should be adhered to as part of the investigation.\n\n[2]",
+     "solution_md": "(i) An ethical consideration that should be considered before students take part in the investigation is...\n\nAny **one **from the following:\n\n- Attaining student consent (to record their heart rate); **[1 mark]**\n- Being sensitive to any student who finds the results upsetting; **[1 mark]**\n- Offering the students a chance to opt out before beginning, or at any stage of the procedure; **[1 mark]**\n- Avoid the use of the word ‘normal’ or ‘expected’ when discussing heart rate; **[1 mark]**\n\n(ii) Two health and safety precautions that should be carried out are...\n\nAny **two **from the following:\n\n- Appropriate footwear and clothing worn by students / wear trainers and sports kit; **[1 mark]**\n- Students with identified physical/ health conditions should not be involved; **[1 mark]**\n- Carry out the activity in a large open space; **[1 mark]**\n- Warm up and cool down before and after exercise; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_yCfTxTTHzdVSFgQY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 12,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student had a resting heart rate of 75 bpm. The same student's results after completing five different exercises and recording their heart rate each time are: \n1. Exercise type: running, Heart rate: 180 bpm, Time of exercise: 120 seconds\n2. Exercise type: walking, Heart rate: 80 bpm, Time of exercise: 120 seconds\n3. Exercise type: star jumps, Heart rate: 160 bpm, Time of exercise: 120 seconds\n4. Exercise type: skipping rope, Heart rate: 175 bpm, Time of exercise: 120 seconds\n5. Exercise type: press ups, Heart rate: 95 bpm, Time of exercise: 120 seconds\n\nA student had a resting heart rate of 75 bpm.\n\nFig 2. shows the same student's results after completing five different exercises and recording their heart rate each time. Each exercise was carried out for two minutes.\n\n![results](assets/010-results.png)\n\n**Fig. 2**\n\n(i)\n\nPrepare a table to record the results shown in Fig. 2. Your table should include clear headings and units where applicable.\n\n[4]\n\n(ii)\n\nIdentify the independent variable **and **the dependent variable from the information given and Fig. 2.\n\n[2]\n\n(iii)\n\nUse the information above and Fig. 2 to identify the variable that was kept constant during the investigation (control variable).\n\n[1]\n\n(iv)\n\nDescribe how the student could make their results more reliable and explain why this increases the accuracy of the data.\n\n[2]\n\n(v)\n\nCalculate the percentage change in heart rate when the student carried out running.\n\n[3]",
+     "solution_md": "(i) A results table should include...\n\n- Separate columns for the exercise type and the heart rate **AND** there is enough space for five different exercises to be recorded; **[1 mark]**\n- Appropriate headings **and **units used for heart rate; **[1 mark]**\n- Units in the heading only and not in the body of the table; **[1 mark]**\n- Five different heart rates recorded; **[1 mark]**\n\n(ii) The independent and dependent variables are...\n\n- Independent variable: exercise type; **[1 mark]**\n- Dependent variable: heart rate (in bpm); **[1 mark]**\n\n(ii) The control variable is...\n\n- The time to do the exercise (in seconds); **[1 mark]**\n\n(iv) The student could make the results more reliable by...\n\n- Repeating the experiment at least two more times; **[1 mark]**\n- Therefore you can spot/identify anomalous data/anomalies/outliers; **[1 mark]**\n\n(v) The percentage change for running is...\n\n- Initial heart rate - end heart rate: 180 - 75 = 105; **[1 mark]**\n- Divide by the initial heart rate: 105 ÷ 75 =  1.4; **[1 mark]**\n- Convert to percentage: 1.4 x 100 = 140%; **[1 mark]**\n\n**[Total: 11 marks]**\n\n> *A results table for (d) (i) could look like...*\n\n| **exercise type** | **heart rate / bpm** |\n|---|---|\n| running | 180 |\n| walking | 80 |\n| star jumps | 160 |\n| skipping rope | 175 |\n| press ups | 95 |\n\n> *To calculate the percentage change:*\n\n![cba23e58-151c-4a27-9a19-76f8477dab1d](assets/011-cba23e58-151c-4a27-9a19-76f8477dab1d.jpeg)"
+    }
+   ]
+  },
   {
    "id": "qstn_RMvz5p7NDrppzHT7",
    "set_slug": "multiple-choice-questions",
@@ -430,7 +703,7 @@
       "spcpt_TYFvQtKGcj5Grmt6"
      ],
      "part_tier": "extended_only",
-     "problem_md": "The diagram shows the blood vessels associated with the liver.\n\n![Diagram of a human liver highlighting the branching structure of blood vessels, labelled X, with an arrow indicating blood flow direction.](assets/001-diagram-of-a-human-liver-highlighting-the-branch.png)\n\nWhat is the blood vessel labelled X?",
+     "problem_md": "The diagram shows the blood vessels associated with the liver.\n\n![Diagram of a human liver highlighting the branching structure of blood vessels, labelled X, with an arrow indicating blood flow direction.](assets/012-diagram-of-a-human-liver-highlighting-the-branch.png)\n\nWhat is the blood vessel labelled X?",
      "solution_md": "**Final answer:** **The correct answer is ****C.**\n\n- The **hepatic vein** carries blood **away from the liver** and returns it to the **vena cava**, which transports the blood back to the heart\n- In the diagram, **X leads out of the organ**, which matches the position of the hepatic vein\n\n**A** is incorrect because the hepatic artery carries oxygenated blood from the aorta into the liver, so the blood flow direction would be towards the liver.\n\n**B** is incorrect because the hepatic portal vein also enters the liver at the bottom. It brings nutrient-rich blood from the intestines to the liver and is typically shown entering the liver alongside the hepatic artery.\n\n**C** is incorrect because the bile duct is not a blood vessel. It carries bile away from the liver to the gall bladder or small intestine and is also located at the bottom of the liver near the vessels that enter the organ.",
      "choices": [
       {
@@ -532,7 +805,7 @@
       "spcpt_c547mS6Z3h3Y22dK"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows the circulatory system of a fish.\n\n![Diagram of a circulatory system flow: heart to gills (X), gills to body (Y), body back to heart (Z), with arrows indicating movement direction.](assets/002-diagram-of-a-circulatory-system-flow-heart-to-gi.png)\n\nWhere in the circulatory system is the oxygen concentration lowest?",
+     "problem_md": "The diagram shows the circulatory system of a fish.\n\n![Diagram of a circulatory system flow: heart to gills (X), gills to body (Y), body back to heart (Z), with arrows indicating movement direction.](assets/013-diagram-of-a-circulatory-system-flow-heart-to-gi.png)\n\nWhere in the circulatory system is the oxygen concentration lowest?",
      "solution_md": "**Final answer:** **The correct answer is ****A****.**\n\n- This is because this vessel is just before the gills, where the blood will refill with oxygen during gas exchange\n- When the blood is in vessel X it has passed through the body of the fish since it was last in the gills and full of oxygen\n\n**B**, **C **and** D** are incorrect because vessel Y is after the gills and so the blood will have filled with oxygen in the gills during gas exchange.",
      "choices": [
       {
@@ -635,7 +908,7 @@
       "spcpt_gNdqFJBTPFqTFpRZ"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a cross-section through the heart of a mammal.\n\n![Diagram of a human heart cross-section showing labelled parts: P for aortic arch, Q for left atrium, R for left ventricle. Arrows point to each.](assets/003-diagram-of-a-human-heart-cross-section-showing-l.png)\n\nWhich row correctly identifies P, Q and R?\n\n|   | P | Q | R |\n|---|---|---|---|\n| **A** | valve | right atrium | right ventricle |\n| **B** | left atrium | valve | left ventricle |\n| **C** | right ventricle | right atrium | valve |\n| **D** | right atrium | valve | right ventricle |",
+     "problem_md": "The diagram shows a cross-section through the heart of a mammal.\n\n![Diagram of a human heart cross-section showing labelled parts: P for aortic arch, Q for left atrium, R for left ventricle. Arrows point to each.](assets/014-diagram-of-a-human-heart-cross-section-showing-l.png)\n\nWhich row correctly identifies P, Q and R?\n\n|   | P | Q | R |\n|---|---|---|---|\n| **A** | valve | right atrium | right ventricle |\n| **B** | left atrium | valve | left ventricle |\n| **C** | right ventricle | right atrium | valve |\n| **D** | right atrium | valve | right ventricle |",
      "solution_md": "**Final answer:** **The correct answer is ****B****.**\n\n- This is because the labels are pointing to the left side of the heart and so P is the left atrium, Q is the valve between the heart chambers, and R is the left ventricle\n\n**A** and **D** are incorrect because the labels are pointing to the left side of the heart and the atria are at the top of the heart and the ventricles at the bottom, with the valve in the middle separating the two chambers.\n\n**C** is incorrect because the atria are at the top of the heart and the ventricles at the bottom, with the valve in the middle separating the two chambers.",
      "choices": [
       {
@@ -737,7 +1010,7 @@
       "spcpt_4m3bJ8z37SqQFmwG"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a cross-section through a human blood vessel.\n\n![Cross-section diagram of a blood vessel showing labelled layers: inner muscle layer and outer elastic and fibrous connective tissue.](assets/004-cross-section-diagram-of-a-blood-vessel-showing-.png)\n\nWhich type of blood vessel does the diagram show?",
+     "problem_md": "The diagram shows a cross-section through a human blood vessel.\n\n![Cross-section diagram of a blood vessel showing labelled layers: inner muscle layer and outer elastic and fibrous connective tissue.](assets/015-cross-section-diagram-of-a-blood-vessel-showing-.png)\n\nWhich type of blood vessel does the diagram show?",
      "solution_md": "**Final answer:** **The correct answer is A.**\n\n- The image shows a thick-walled vessel with a small lumen and elastic tissue, as arteries carry oxygenated blood away from the heart under high pressure.\n\n**B** is incorrect because capillaries are very thin-walled vessels with a narrow lumen adapted for the exchange of gases, nutrients, and waste between blood and tissues.\n\n**C **is incorrect because veins are vessels with thinner walls and a larger lumen than arteries, often with valves, as veins carry deoxygenated blood back to the heart under lower pressure.\n\n**D** is incorrect because a ventricle refers to a chamber of the heart, not a blood vessel, and would have a muscular structure rather than a vessel-like appearance.",
      "choices": [
       {
@@ -941,7 +1214,7 @@
       "spcpt_gNdqFJBTPFqTFpRZ"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a section through a human heart.\n\n![9-1-image-eq4](assets/005-9-1-image-eq4.png)\n\nWhich blood vessel is the pulmonary vein?",
+     "problem_md": "The diagram shows a section through a human heart.\n\n![9-1-image-eq4](assets/016-9-1-image-eq4.png)\n\nWhich blood vessel is the pulmonary vein?",
      "solution_md": "**Final answer:** **The correct answer is D because:**\n\nVessel D is the pulmonary vein\n\n**A** is incorrect because vessel A is the vena cava.\n\n**B** is incorrect because vessel B is the pulmonary artery.\n\n**C** is incorrect because vessel C is the aorta.",
      "choices": [
       {
@@ -1094,7 +1367,7 @@
       "spcpt_rvFkTdPTzPqgGn7y"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended\n\nThe diagram below shows a vertical section through a human heart.\n\n![9-q7--heart-outline](assets/006-9-q7-heart-outline.png)\n\nWhich row of the following table has the correct names for the structures labelled in the diagram?\n\n| ** ** | X | Y | Z |\n|---|---|---|---|\n| **A** | atrioventricular valve | semilunar valve | septum |\n| **B** | semilunar valve | atrioventricular valve | septum |\n| **C** | semilunar valve | semilunar valve | atrioventricular valve |\n| **D** | atrioventricular valve | atrioventricular valve | septum |",
+     "problem_md": "#### Extended\n\nThe diagram below shows a vertical section through a human heart.\n\n![9-q7--heart-outline](assets/017-9-q7-heart-outline.png)\n\nWhich row of the following table has the correct names for the structures labelled in the diagram?\n\n| ** ** | X | Y | Z |\n|---|---|---|---|\n| **A** | atrioventricular valve | semilunar valve | septum |\n| **B** | semilunar valve | atrioventricular valve | septum |\n| **C** | semilunar valve | semilunar valve | atrioventricular valve |\n| **D** | atrioventricular valve | atrioventricular valve | septum |",
      "solution_md": "**Final answer:** **The correct answer is ****B ****because:**\n\n- **Semilunar** valves are found in the two arteries connected to the heart (the only arteries in the body to contain valves); they prevent the backflow of blood into the heart when it relaxes after contracting\n- The **atrioventricular** (AV) valves are located between the atria and the ventricles; they prevent the backflow of blood from the ventricles to the atria when the ventricles contract. The AV valve shown by **Y** in the question image is called the **bicuspid** or **mitral** valve\n- The **septum** separates the two sides of the heart; preventing the mixing of oxygenated and deoxygenated blood",
      "choices": [
       {
@@ -1197,7 +1470,7 @@
       "spcpt_ZbTzHJZT5V3vyvqX"
      ],
      "part_tier": null,
-     "problem_md": "Some components of the blood of a mammal are shown in the image below.\n\n![-9-q14-blood-cells-](assets/007-9-q14-blood-cells.png)\n\nWhich row of the table has the correct cells from the image above assigned to their names?\n\n| ** ** | lymphocyte | phagocyte | platelets |\n|---|---|---|---|\n| **A** | 4 | 2 | 3 |\n| **B** | 2 | 4 | 3 |\n| **C** | 1 | 2 | 1 |\n| **D** | 2 | 4 | 1 |",
+     "problem_md": "Some components of the blood of a mammal are shown in the image below.\n\n![-9-q14-blood-cells-](assets/018-9-q14-blood-cells.png)\n\nWhich row of the table has the correct cells from the image above assigned to their names?\n\n| ** ** | lymphocyte | phagocyte | platelets |\n|---|---|---|---|\n| **A** | 4 | 2 | 3 |\n| **B** | 2 | 4 | 3 |\n| **C** | 1 | 2 | 1 |\n| **D** | 2 | 4 | 1 |",
      "solution_md": "**Final answer:** **The correct answer is ****A ****because:**\n\n- Cell 1 is a **red blood cell** (not named in the table)\n- Cell 2 is a **phagocyte**. Phagocytes have a lobed nucleus, their job is to engulf and destroy foreign material (including pathogens)\n- 3 are the **platelets**, fragments of cells that help form clots when blood vessels are damaged\n- Cell 4 is a **lymphocyte**. Lymphocytes have a very large nucleus (this is because they produce antibodies which requires a number of genes to be involved in large-scale protein synthesis)",
      "choices": [
       {
@@ -1299,7 +1572,7 @@
       "spcpt_4m3bJ8z37SqQFmwG"
      ],
      "part_tier": null,
-     "problem_md": "The image below shows a cross-section of a blood vessel taken from an arm.\n\n![9-q12-vein](assets/008-9-q12-vein.png)\n\nWhich type of blood vessel is shown in the image, and in which direction will blood flow?\n\n| ** ** | type of vessel | direction of flow | oxygenation of blood |\n|---|---|---|---|\n| **A** | capillary | S to T | low |\n| **B** | vein | T to S | high |\n| **C** | artery | S to T | high |\n| **D** | vein | T to S | low |",
+     "problem_md": "The image below shows a cross-section of a blood vessel taken from an arm.\n\n![9-q12-vein](assets/019-9-q12-vein.png)\n\nWhich type of blood vessel is shown in the image, and in which direction will blood flow?\n\n| ** ** | type of vessel | direction of flow | oxygenation of blood |\n|---|---|---|---|\n| **A** | capillary | S to T | low |\n| **B** | vein | T to S | high |\n| **C** | artery | S to T | high |\n| **D** | vein | T to S | low |",
      "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\n- The vessel can be identified as a vein as it has **valves**, a **large** **lumen** and **thin**  walls\n- The direction of blood flow can be determined by looking at the valves –  these are pocket valves which the blood can push through from **T to S** but if the blood flows backwards it will get trapped in the pockets of the valve, which is then forced shut",
      "choices": [
       {
@@ -1350,7 +1623,7 @@
       "spcpt_cpfD34dXn3rcgdzC"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended\n\nFour different stages in one heartbeat are shown in the diagram below.\n\n![9-q13-heart-cycle](assets/009-9-q13-heart-cycle.png)\n\nWhich of the following depicts a correct order of stages?",
+     "problem_md": "#### Extended\n\nFour different stages in one heartbeat are shown in the diagram below.\n\n![9-q13-heart-cycle](assets/020-9-q13-heart-cycle.png)\n\nWhich of the following depicts a correct order of stages?",
      "solution_md": "**Final answer:** **The correct answer is ****B.**** (X → Z → W → Y) because:**\n\n- Stage **X** – blood enters the atria\n- Stage **Z** – the walls of the atria contract and blood moves into the ventricles\n- Stage **W** – the walls of the ventricles contract and blood is pushed up through the valves into the arteries\n- Stage **Y** – the arteries carry blood away from the heart and more blood is carried towards the heart in the veins",
      "choices": [
       {
@@ -1505,7 +1778,7 @@
       "spcpt_c547mS6Z3h3Y22dK"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended\n\nThe diagram below shows the human heart and some of the blood vessels associated with it.\n\n![9-q11-heart-ventricles](assets/010-9-q11-heart-ventricles.png)\n\nBefore blood in P reaches Q, what must it do?",
+     "problem_md": "#### Extended\n\nThe diagram below shows the human heart and some of the blood vessels associated with it.\n\n![9-q11-heart-ventricles](assets/021-9-q11-heart-ventricles.png)\n\nBefore blood in P reaches Q, what must it do?",
      "solution_md": "**Final answer:** **The correct answer is ****A.**** (pass through capillaries) because:**\n\n- The blood in **P** (the left ventricle) is **deoxygenated** and from here will be pumped out of the right side of the heart to the **lungs**\n- As it passes through the lungs it must move through the complex **capillary** networks surrounding the alveoli; as this happens **gas** **exchange** via diffusion takes place and the blood becomes **oxygenated**\n- It is then returned to the **left** side of the **heart** and collects in **Q** (the left ventricle) before being pumped around the body when the **ventricles** contract\n\n**B** is incorrect because blood travelling from the heart to the lungs and back to the heart will not go via the digestive system to absorb glucose.\n\n**C** is incorrect because blood travelling from the heart to the lungs and back to the heart will not pass through the skin.\n\n**D** is incorrect because blood travelling from the heart to the lungs and back to the heart will not go via the head. The blood supply to the head needs to be oxygenated!",
      "choices": [
       {
@@ -1632,6 +1905,1400 @@
        "text_md": "aorta, pulmonary artery, renal artery"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HG4GrmmkZ8K5MBqk",
+   "set_slug": "theory-questions",
+   "order": 21,
+   "difficulty": "very_hard",
+   "style": "exam_part",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_3CbdWtC3vpGXfTnD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gNdqFJBTPFqTFpRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 4.1 shows a blue whale, a marine mammal that has a heart weighing up to 600 kg.\n\n![A photograph of a blue whale breaching the ocean surface.](assets/022-a-photograph-of-a-blue-whale-breaching-the-ocean.jpg)\n\nPublic domain, via [rawpixel](https://www.rawpixel.com/image/3282624/free-photo-image-public-domain-fish-whale-cc0-ocean)\n\n**Fig. 4.1**\n\nIn mammals, the wall of the left ventricle is approximately three times thicker than the wall of the right ventricle.\n\nExplain why the muscle wall of the left ventricle is significantly thicker than the muscle wall of the right ventricle.",
+     "solution_md": "> **[mark-scheme]**\n> - The left ventricle pumps blood to the whole body while the right ventricle only pumps blood to the lungs **OR** the left ventricle pumps blood further than the right ventricle **[1 mark]**\n> - The left ventricle needs to generate higher pressure / must contract with more force **[1 mark]**\n\n> **[exam-tip]**\n> Make sure you connect the destination of the blood (whole body vs. lungs) to the requirement for a thicker wall. Avoid vague statements such as \"it needs more muscle\" without explaining why."
+    },
+    {
+     "id": "qstnprt_2MT8TGM2zCfFqpHr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c547mS6Z3h3Y22dK"
+     ],
+     "part_tier": null,
+     "problem_md": "Blue whales have a double circulatory system.\n\nExplain the advantages of a double circulatory system over a single circulatory system.",
+     "solution_md": "> **[mark-scheme]**\n> Any **four** from:\n> \n> - Oxygenated and deoxygenated blood are kept separate\n> - Higher blood pressure to body tissues is maintained\n> - More efficient supply of oxygen/nutrients to body tissues\n> - A higher metabolic rate / rate of respiration can be maintained\n> - Lower pressure in the lungs prevents damage to capillaries\n> \n> **[4 marks]**\n\n> **[exam-tip]**\n> Make sure you explain every advantage. Do not stop at \"maintains a lower pressure to the lungs\" — explain the effect of this, i.e. that it \"prevents damage to the delicate capillaries in the lungs\"."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DhRmCTzJNkfs2zbJ",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_x6JyvFcVX9TgbXFZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZbTzHJZT5V3vyvqX"
+     ],
+     "part_tier": null,
+     "problem_md": "During exercise, the heart rate also increases.\n\n(i) Identify the component in the blood that carries oxygen to the muscles.\n\n[1]\n\n(ii) Identify the gas that is released by cells as a waste product.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The name of the component in the blood that carries oxygen to the muscles is:\n> \n> - Red blood cells **OR** haemoglobin **[1 mark]**\n> \n> (ii) The gas that is released by cells as a waste product is:\n> \n> - Carbon dioxide **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cBRGQzT3N4KQt3Kp",
+   "set_slug": "theory-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_jsxXft5PvTKT2Xyd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of 16-year-old students conducted a classroom experiment to study the effect of physical activity on heart rate.\n\nThe students selected four volunteers and measured each student's resting heart rate using a digital pulse monitor. Then, each student ran on a treadmill at a constant speed for 5 minutes. Immediately after the exercise, heart rates were measured again. The process was repeated after 10 minutes of rest to observe recovery.\n\nIdentify the independent and dependent variables in this investigation.",
+     "solution_md": "> **[mark-scheme]**\n> The independent variable is:\n> \n> - Whether or not the student has taken part in exercise / running; **[1 mark]**\n> \n> The dependent variable is:\n> \n> - Heart rate; **[1 mark]**\n> \n> **[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_8bkhH9HWrcBhs27w",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of 16-year-old students conducted a classroom experiment to study the effect of physical activity on heart rate.\n\nThe students selected four volunteers and measured each student's resting heart rate using a digital pulse monitor. Then, each student ran on a treadmill at a constant speed for 5 minutes. Immediately after the exercise, heart rates were measured again. The process was repeated after 10 minutes of rest to observe recovery.\n\nThe results from the investigation in part (a) are shown in **Table 1** below:\n\n**Table 1**\n\n| **Student** | **Heart rate (bpm)** |   |   |\n|---|---|---|---|\n| **Resting** | **After 5 min run** | **10 min after exercise** |   |\n| A | 72 | 145 | 80 |\n| B | 68 | 150 | 92 |\n| C | 74 | 162 | 110 |\n| D | 70 | 138 | 76 |\n\nDescribe the changes in heart rate experienced by students immediately after exercise and after 10 minutes of rest.",
+     "solution_md": "> **[mark-scheme]**\n> The changes in heart rate can be described as follows:\n> \n> Any **three** of the following:\n> \n> - Heart rate increases immediately after exercise; **[1 mark]**\n> - After exercise heart rate approximately doubles / increases by a factor of 2; **[1 mark]**\n> - Heart rate decreases after 10 minutes of rest; **[1 mark]**\n> - Heart rate does not return fully to resting levels after 10 minutes; **[1 mark]**\n> \n> **[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_JcwshGgRWQD3TzJB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fzdBHBKPS3523PdY"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nA group of 16-year-old students conducted a classroom experiment to study the effect of physical activity on heart rate.\n\nThe students selected four volunteers and measured each student's resting heart rate using a digital pulse monitor. Then, each student ran on a treadmill at a constant speed for 5 minutes. Immediately after the exercise, heart rates were measured again. The process was repeated after 10 minutes of rest to observe recovery.\n\nThe results from the investigation in part (a) are shown in **Table 1** below:\n\n**Table 1**\n\n| **Student** | **Heart rate (bpm)** |   |   |\n|---|---|---|---|\n| **Resting** | **After 5 min run** | **10 min after exercise** |   |\n| A | 72 | 145 | 80 |\n| B | 68 | 150 | 92 |\n| C | 74 | 162 | 110 |\n| D | 70 | 138 | 76 |\n\n**Extended Tier Only**\n\nExplain why the heart rate changes during physical activity.",
+     "solution_md": "> **[mark-scheme]**\n> Heart rate increases during physical activity because:\n> \n> Any **three** of the following:\n> \n> - Muscle contraction requires energy; **[1 mark]**\n> - Increased rate of aerobic respiration; **[1 mark]**\n> - An increased supply of oxygen / glucose is needed (for respiration); **[1 mark]**\n> - More waste carbon dioxide is produced (by respiration); **[1 mark]**\n> \n> **[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_Z7TKq432MnKwP3zB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of 16-year-old students conducted a classroom experiment to study the effect of physical activity on heart rate. \n\nThe students selected four volunteers and measured each student's resting heart rate using a digital pulse monitor. Then, each student ran on a treadmill at a constant speed for 5 minutes. Immediately after the exercise, heart rates were measured again. The process was repeated after 10 minutes of rest to observe recovery.\n\nSuggest two ways to improve the validity of the results from the investigation described in part (a).",
+     "solution_md": "> **[mark-scheme]**\n> The validity could be improved as follows:\n> \n> Any **two** of the following:\n> \n> - Increase the number of students taking part in the study; **[1 mark]**\n> - Ensure that the participants had similar fitness levels; **[1 mark]**\n> - Standardise the intensity of exercise / asking all students to run at the same speed; **[1 mark]**\n> - Repeat the investigation at least three times for each student; **[1 mark]**\n> - Ensure that the environmental conditions (e.g. temperature) are the same for all students / repeats; **[1 mark]**\n> - Ensure that all students consumed the same food beforehand / the same time period has passed since their last meal; **[1 mark]**\n> - Ensure that all students are equally well rested prior the the experiment; **[1 mark]**\n> \n> **[Total: 2 marks]**\n\n> **[exam-tip]**\n> When a question asks about *validity*, it's asking whether the experiment really measures what it’s supposed to measure.\n> \n> In this case, the aim is to measure how **exercise affects heart rate**. So, to make the results valid, you need to **control other variables** that might affect heart rate—like food intake, temperature, or how much rest the student had before running.\n> \n> If those factors aren’t kept the same, then any changes in heart rate might not be due to exercise alone—and that makes the results *less valid*."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2278N8m9FhjhXKnS",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_S8wgMKt2YxvCXpyg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 3",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_c98x9G7n5xjSCbZr"
+     ],
+     "part_tier": null,
+     "problem_md": "The activity of the heart can be monitored by measuring the pulse rate.\n\nState **two** other ways of monitoring the activity of the heart.",
+     "solution_md": "Any two from:\n\n- ECG; **[1 mark]**\n- Listening to the closing of the valves;  **[1 mark]**\n\n*Accept any other valid suggestion e.g. blood pressure monitoring / wearing fitness trackers; * **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WmtcdMwmtQqrJMSr",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_NhvQtG8kVv3K3RZn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 3",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_gNdqFJBTPFqTFpRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 5.1 is a diagram of a human heart.\n\n![Diagram of a heart showing four labelled blood vessels: A from the body, B to the lungs, C to the body, D from the lungs, with directional arrows.](assets/023-diagram-of-a-heart-showing-four-labelled-blood-v.png)\n\n**Fig 5.1**\n\n(i) Use label lines and labels to identify these structures on Fig. 5.1:\n\n- atrium\n- septum\n- ventricle\n- valve\n\n[4]\n\n(ii) Identify the letter or letters of all the blood vessels from Fig. 5.1, that:\n\nare arteries .......................\n\nis the pulmonary vein ....................... .\n\n[2]",
+     "solution_md": "(i)\n\nCorrect labelling of:\n\n- Atrium;  **[1 mark]**\n- Septum;  **[1 mark]**\n- Ventricle; **[1 mark]**\n- Valve;  **[1 mark]**\n\n*Note that only one of each structure needs to be labelled to obtain * **[1 mark]**\n\n![Diagram of a heart with labelled parts: atrium, septum, valve, ventricle. Blood vessels A-D indicate blood flow directions to and from lungs/body.](assets/024-diagram-of-a-heart-with-labelled-parts-atrium-se.png)\n\n(ii)\n\n- **B** and **C** are arteries;  **[1 mark]**\n- **D** is the pulmonary vein; **[1 mark]**\n\n**[Total: 6 marks]**"
+    },
+    {
+     "id": "qstnprt_brhSfxpfGmpDWWqB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 3",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999",
+      "spcpt_mBbxTX77c23XqD2b"
+     ],
+     "part_tier": null,
+     "problem_md": "Coronary heart disease (CHD) is caused by a blockage of blood vessels in the heart.\n\n(i) State the name of the blood vessels that become blocked.\n\n[1]\n\n(ii) State **three** risk factors for developing CHD.\n\n[3]",
+     "solution_md": "(i)\n\n- The coronary arteries; **[1 mark]**\n\n(ii)\n\nAny three from:\n\n- Diet **OR** high fat/cholesterol diet; **[1 mark]**\n- Obesity; **[1 mark]**\n- Stress; **[1 mark]**\n- Smoking;**[1 mark]**\n- Genetic predisposition / family history;**[1 mark]**\n- Age; **[1 mark]**\n- Sex; **[1 mark]**\n\n*Accept any other valid suggestion e.g. physical inactivity ****OR**** excessive alcohol consumption ****OR**** diabetes; ***[1 mark]**\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_v6ChdPNrBHsBRf95",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_z6VZn5YkzXqvKBYG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "June 2022",
+      "number": " 0610/41",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rvFkTdPTzPqgGn7y",
+      "spcpt_f7QfgwHdxPnCMZsh"
+     ],
+     "part_tier": null,
+     "problem_md": "Mammals have a double circulation.\n\nFig. 2.1 is a diagram of a section through the heart of a mammal. The arrows show the direction of blood flow through the heart and blood vessels.\n\n![Diagram of human heart anatomy with labelled parts including septum, featuring arrows indicating blood flow. Labels: A, B, C, D, and point X.](assets/025-diagram-of-human-heart-anatomy-with-labelled-par.png)\n\n(i)\n\nState the name of the chamber of the heart with the thickest wall.\n\n[1]\n\n(ii)\n\nD is a vein. State the name of this vein and describe its structure.\n\nname .................................................................................................\n\ndescription of structure ..................................................\n\n[3]\n\n(iii)\n\nIdentify the structure labelled X in Fig. 2.1 and state its role in the heart.\n\n[2]",
+     "solution_md": "(i)\n\n- Left ventricle; **[1 mark]**\n\n(ii)\n\n- Vena cava; **[1 mark]**\n\nA maximum of two from:\n\n- Valves are present; **[1 mark] **\n- It has a wide lumen / the lumen has a large diameter; **[1 mark]**\n- It has a thin wall;** [1 mark]**\n- The wall is lined by a single layer of cells; **[1 mark]**\n- The wall contains muscle; **[1 mark]**\n- The wall contains elastic (fibres); **[1 mark]**\n\n(iii)\n\n- X = semilunar valve; **[1 mark]**\n- It prevents backflow of blood / ensures that blood flows in one direction; **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_bdGVSW5bCyBx4Zp8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "June 2022",
+      "number": " 0610/41",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_JvMQ6ZRfPRzRY7x2",
+      "spcpt_c547mS6Z3h3Y22dK"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2.2 is a diagram that shows the double circulation of a mammal. The arrows indicate the movement of oxygen and carbon dioxide in and out of the blood.\n\n![Diagram of blood circulation showing pathways through heart, lungs, and tissues. Includes labelled capillaries in lungs and respiring tissues.](assets/026-diagram-of-blood-circulation-showing-pathways-th.png)\n\n(i) Shade the blood vessel in Fig. 2.2 that transports blood with the highest oxygen concentration.\n\n[1]\n\n(ii) Describe the evidence shown in Fig. 2.2 that the mammal has a double circulatory system.\n\n[2]\n\n(iii) Explain the advantages of a double circulation.\n\n[4]",
+     "solution_md": "(i)\n\n- Shading in any part of the pulmonary vein;** [1 mark]**\n\n![Diagram of blood circulation showing heart, pulmonary vein highlighted, capillaries in lungs and respiring tissues labelled. Arrow indicates blood flow direction.](assets/027-diagram-of-blood-circulation-showing-heart-pulmo.png)\n\n(ii)\n\nAny two from:\n\n- The heart has two sides / a left and a right side; **[1 mark]**\n- The blood must flow through the heart twice in one circuit of the body; **[1 mark]**\n- There is a pulmonary and a systemic circuit / a circuit from the heart to the lungs and from the heart to the rest of the body; **[1 mark]**\n\n(iii)\n\nAny four from:\n\n- Oxygenated and deoxygenated blood are kept separate / do not mix / are separated by the septum; **[1 mark]**\n- Efficient supply of oxygen (to the body;** [1 mark]**\n- Efficient supply of (named) nutrients (to the body;** [1 mark]**\n- Low(er) pressure in pulmonary artery / circuit; **[1 mark]**\n- Prevents damage to (capillaries in the) lungs;** [1 mark]**\n- Allows more time for gas exchange;** [1 ma**rk]\n- Allows high(er) pressure (in body); **[1 mark] **\n- Ensures efficient blood supply to body; **[1 mark]**\n- Allows a high metabolic rate / rate of respiration; **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RKFNtzwMYXhNGbFM",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_W6ZYdMkHcHj7ttDP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/04",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QY63z7YbjBcHcC3y",
+      "spcpt_KwtZ4pxtFPR5vRnr"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 3.1 shows a photomicrograph of human blood.\n\n![Microscopic image showing various blood cells, including a labelled phagocyte, lymphocyte, and red blood cell, against a light background.](assets/028-microscopic-image-showing-various-blood-cells-in.png)\n\nDescribe the differences in appearance and the functions of the three cells labelled in Fig. 3.1.",
+     "solution_md": "**Red blood cell: **\n\n- *Appearance: *biconcave (disc / shape) / no nucleus / red blood cells smaller than white blood cell(s);** [1 mark]**\n- *Function: *transports oxygen / carbon dioxide; **[1 mark]**\n\n**Lymphocyte:**\n\n- *Appearance:* little cytoplasm / large(r) nucleus / nucleus fills most of the cell; **[1 mark]**\n- *Function: *active immunity / responds to antigen(s) or vaccine(s)  / produces antibodies / memory cells;** [1 mark]**\n\n**Phagocyte: **\n\n- *Appearance: *lobed / irregular-shaped / C-shaped nucleus; **[1 mark]**\n- *Function: *engulf pathogens / phagocytosis; **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *You cannot get more than one mark for naming more than one appearance or function of each of the types of blood cells. For example if you said that red blood cells have no nucleus and a biconcave shape you can only get a maximum of one mark for that.*"
+    },
+    {
+     "id": "qstnprt_4M7By5NC6Vhpk9JP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/04",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_xKDYw8rmbFP2xCG4",
+      "spcpt_p8gCygMcHqdNT53X"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 3.2 shows some of the stages of blood clotting.\n\n![9-1-theory-p4-mq7b](assets/029-9-1-theory-p4-mq7b.png)\n\n(i)\n\nComplete Fig. 3.2 by filling in the two empty boxes.\n\n[1]\n\n(ii)\n\nState two roles of blood clotting.\n\n[2]",
+     "solution_md": "(i) Fibrinogen → Fibrin; **[1 mark]**\n\n(ii) Prevent blood loss; **[1 mark]**\n\n- Prevent entry of pathogens / microbes / a named example of a pathogen; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vm8Bh6cdyN34cxXn",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dNTKshY8TDXjWkQx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_c98x9G7n5xjSCbZr"
+     ],
+     "part_tier": null,
+     "problem_md": "Measuring the pulse rate is one way of monitoring the activity of the heart.\n\nState **one other **way of monitoring the activity of the heart.",
+     "solution_md": "- ECG / listening to valves (closing); **[1 mark]**\n\n*A mark can be awarded here for any other correct method (not measuring pulse rate)*\n\nListening to valves closing is what doctors do if they listen using a stethoscope.\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_R4g8XykFJX8sjcP4",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_rkx8Kmf5nwVNkNR4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student performed different types of activity.\n\nShe measured her heart rate during each type of activity in beats per minute (bpm).\n\nThe results are shown in Fig. 2.1.\n\n![9-1-image-mq6](assets/030-9-1-image-mq6.png)\n\n(i)\n\nState the type of activity that results in the highest heart rate in Fig. 2.1\n\n[1]\n\n(ii)\n\nState the heart rate of the student when she was cycling.\n\n................................................... bpm [1]\n\n(iii)\n\nCalculate the percentage increase in her heart rate between resting and walking.\n\n.............................................................% [2]",
+     "solution_md": "(i)\n\n- Running; **[1 mark]**\n\n(ii)\n\n- 125 (bpm); **[1 mark]**\n\n![Bar chart showing heart rate in beats per minute for activities: resting, running, walking, cycling, and swimming. Cycling is highlighted.](assets/031-bar-chart-showing-heart-rate-in-beats-per-minute.png)\n\n(iii)\n\n- Identifying 64 bpm as the resting heart rate and 96 bpm as the walking heart rate; **[1 mark]**\n- ((96 - 64) ÷ 64 =) 50(%);** [2 marks]**\n\n*Full marks awarded for the correct answer with no working shown*\n\n![Bar chart showing heart rates for resting, running, walking, cycling, swimming, with calculations on percentage increase from resting to walking.](assets/032-bar-chart-showing-heart-rates-for-resting-runnin.png)\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MZS3jM9RhkBy5nk3",
+   "set_slug": "theory-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_VyVYBRhgB2YrXZKm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c547mS6Z3h3Y22dK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended Only**\n\nFig. 1 below shows the circulatory system of a fish.\n\n![Diagram of fish circulatory system showing blood flow through heart, gills, and organs. Labels: heart, artery, vein, ventricle, atrium, capillaries.](assets/033-diagram-of-fish-circulatory-system-showing-blood.png)\n\n*Fig. 1*\n\nUse Fig. 1 and your own knowledge to compare the structure of the fish circulatory system to that of mammals.",
+     "solution_md": "> **[mark-scheme]**\n> The structure of the fish circulatory system can be compared to that of mammals as follows:\n> \n> Any **three** of the following:\n> \n> - Both fish and mammals have their blood contained in vessels / have a closed circulatory system; **[1 mark]**\n> - Fish have a single circulatory system **WHILE** mammals have a double circulatory system **OR **blood passes through the heart once per circuit in fish **WHILE** it passes through twice per circuit in mammals; **[1 mark]**\n> - Fish have a two-chambered heart **WHILE **mammals have a four-chambered heart **OR** fish have 1 atrium/ventricle **WHILE** mammals have 2 atria/ventricles; **[1 mark]**\n> - Fish blood receives oxygen from gills **WHILE** mammal blood receives oxygen in lungs; **[1 mark]**\n> \n> **[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_wRSYRdh8GdqYcMZf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MmhY4jtzc2r3Tmtp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 below shows the circulatory system of a fish.\n\n![Diagram of fish circulatory system showing blood flow through heart, gills, and organs. Labels: heart, artery, vein, ventricle, atrium, capillaries.](assets/033-diagram-of-fish-circulatory-system-showing-blood.png)\n\n*Fig. 1*\n\nUse Fig. 1 and your own knowledge to compare the structure of the fish circulatory system to that of mammals.\n\nGas exchange in fish occurs in structures known as gills.\n\nSuggest how fish gills support efficient gas exchange.",
+     "solution_md": "> **[mark-scheme]**\n> The structure of fish gills supports efficient gas exchange as follows:\n> \n> Any **three** of the following:\n> \n> - They have a large surface area **SO** increasing diffusion rate; **[1 mark]**\n> - They have thin surfaces **SO** reducing diffusion distance; **[1 mark]**\n> - They have a good blood supply **SO** maintaining a steep concentration gradient; **[1 mark]**\n> - Water is constantly flowing over the gills **SO** maintaining a steep concentration gradient; **[1 mark]**\n> \n> **[Total: 3 marks]**\n\n> **[exam-tip]**\n> While you are not expected to know about fish gills in any detail, your knowledge of gas exchange in the lungs should allow you to answer this question."
+    },
+    {
+     "id": "qstnprt_d6dCq8wmDHDS32H5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fzdBHBKPS3523PdY",
+      "spcpt_c547mS6Z3h3Y22dK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended Only**\n\nResearchers investigated the effect of stress on heart rate in fish. They decreased water levels in a fish tank until the fish dorsal fins were exposed to air, for a period of 5 minutes, while measuring heart rates. They found that fish heart rates increased during the stress period, and remained elevated for a period of time after water levels returned to normal.\n\nExplain the benefit of an increased heart rate in fish in response to stress.",
+     "solution_md": "> **[mark-scheme]**\n> The benefit of an increased heart rate in fish in response to stress can be explained as follows:\n> \n> Any **three** of the following:\n> \n> - Stressed fish swim around more (e.g. to escape predators); **[1 mark]**\n> - More energy is needed for muscle contraction/movement; **[1 mark]**\n> - Muscles require more oxygen for increased respiration **OR **higher carbon dioxide levels in blood due to increased respiration; **[1 mark]**\n> - Heart rate increases to increase rate of blood circulation; **[1 mark]**\n> \n> **[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gSxZQ6fJkXrn9CQV",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_cNp32jKZ28KXfSyX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rvFkTdPTzPqgGn7y"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a diagram of the heart with letters to identify some of the structures.\n\n![Diagram of a human heart cross-section, labelled A to H, showing chambers, vessels, and walls in a simplified anatomical representation.](assets/034-diagram-of-a-human-heart-cross-section-labelled-.png)\n\n*Fig. 1*\n\nIdentify the letter(s) of the structure(s) that:\n\n(i) contain deoxygenated blood.\n\n[1]\n\n(ii) receive blood from the lungs.\n\n[1]\n\n(iii) are veins.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The letter(s) of the structure(s) that contain deoxygenated blood are:\n> \n> **All** of the following:\n> \n> - A, E, G, B; **[1 mark] **\n> \n> (ii) The letter(s) of the structure(s) that receive blood from the lungs are:\n> \n> - F (and D); **[1 mark] **\n> \n> (iii) The letter(s) of the structure(s) that are veins are:\n> \n> **All** of the following:\n> \n> - A, D; **[1 mark]**\n> \n> **[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_FK3vmBPJWfm93Ty2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rvFkTdPTzPqgGn7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows a diagram of the heart with letters to identify some of the structures.\n\n(i) contain deoxygenated blood.\n(ii) receive blood from the lungs.\n(iii) are veins.\n\nMark scheme:\n(i) The letter(s) of the structure(s) that contain deoxygenated blood are: A, E, G, B.\n(ii) The letter(s) of the structure(s) that receive blood from the lungs are: F (and D).\n(iii) The letter(s) of the structure(s) that are veins are: A, D.\n\n**Extended Only**\n\nState the name of the valve located between chambers F and H in Fig. 1.",
+     "solution_md": "> **[mark-scheme]**\n> The name of the valve located between chambers F and H in Fig. 1 is:\n> \n> - Atrioventricular valve; **[1 mark]**\n> \n> *Accept bicuspid valve.*\n> \n> **[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_PQ797W5TwJdD3TG4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rvFkTdPTzPqgGn7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows a diagram of the heart with letters to identify some of the structures.\n\n[Diagram of a human heart cross-section, labelled A to H, showing chambers, vessels, and walls in a simplified anatomical representation.]\n\n**Extended Only**\n\n(i) Describe the location of the septum in the mammalian heart.\n\n[1]\n\n(ii) Explain the importance of the septum.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The location of the septum in the mammalian heart can be described as follows:\n> \n> - The septum is located between the left and right sides of the heart / between G and H (in Fig. 1); **[1 mark]**\n> \n> (ii) The importance of the septum can be explained as follows:\n> \n> - It separates oxygenated and deoxygenated blood / prevents oxygenated and deoxygenated blood from mixing; **[1 mark]**\n> \n> **[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_Vskh9WTqWwWQVVpw",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cpfD34dXn3rcgdzC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended Only**\n\nDescribe how the heart muscle and valves function to pump blood through the heart.",
+     "solution_md": "> **[mark-scheme]**\n> The heart muscle and valves function to pump blood through the heart as follows:\n> \n> - Atria <u>contract</u> to push blood into the ventricles; **[1 mark]**\n> - The valves prevent blood flowing from the ventricles back into the atria; **[1 mark]**\n> \n> **[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_scw4pr9wQWB8w64C",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_YNKm83pvgGh56Snn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCompare the structure of arteries and veins\n\nCompare the structural features of arteries and veins.",
+     "solution_md": "> **[mark-scheme]**\n> A comparison of the structural features of arteries and veins should include:\n> \n> Any **two** from the following:\n> \n> - Arteries have thick<u>er</u> walls / veins have thinn<u>er</u> walls; **[1 mark]**\n> - Veins have valves** WHILE** arteries do not; **[1 mark]**\n> - Arteries have a narrow<u>er</u> lumen / veins have a wid<u>er</u> lumen; **[1 mark]**\n> \n> *Accept the statement that *<u>*both*</u>* have muscle / elastic (fibres) in their walls.*\n> \n> **[Total: 2 marks]**\n\n> **[exam-tip]**\n> Remember that 'compare' questions require you to identify similarities and/or differences; when describing differences, each statement must include a direct comparison, e.g. 'X has ... while Y has ...'.\n> \n> Note that this question asks about structural features specifically, so statements about the role of arteries and veins will not be credited."
+    },
+    {
+     "id": "qstnprt_yxS77QpF6gFYc4TT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 below shows a structure in the mammalian lungs. The feature labelled P is an alveolus.\n\n![Diagram of a plant root hair with layers of cells; labels P and Q indicate specific sections, featuring epidermal and cortical cells with dotted regions.](assets/035-diagram-of-a-plant-root-hair-with-layers-of-cell.png)\n\n*Fig. 1*\n\nIdentify the structure labelled Q.",
+     "solution_md": "> **[mark-scheme]**\n> The structure labelled Q is a:\n> \n> - Capillary; **[1 mark]**\n> \n> **[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_Chv6VVtyvqhG2ZXk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structure labelled Q is a:\n\n- Capillary;\n\nState the function of the structure labelled Q in Fig. 1.",
+     "solution_md": "> **[mark-scheme]**\n> The function of the structure labelled Q is to:\n> \n> - Allow exchange of substances between blood and tissues / carry blood to the cells / supply the cells with oxygen/glucose / remove waste products from the cells; **[1 mark]**\n> \n> **[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_Sqp8ks694GmpghNC",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MmhY4jtzc2r3Tmtp",
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Suggest how the structure of capillaries enables efficient exchange of substances.",
+     "solution_md": "> **[mark-scheme]**\n> The structure of capillaries enables efficient exchange because:\n> \n> Any **one** of the following:\n> \n> - They have thin walls / walls that are one cell thick **SO** reducing diffusion distance; **[1 mark]**\n> - There are gaps between the cells that line capillaries **SO **allowing substances to leak out / leave; **[1 mark]**\n> - They are narrow **SO **flow of blood is slowed and there is enough time for gas exchange to occur; **[1 mark]**\n> \n> **[Total: 1 mark]**\n\n> **[exam-tip]**\n> Note that core students are not expected to *know* about how the structure of capillaries is related to their function, but this is a 'suggest' question, indicating that application of knowledge is required. Core students should be aware of the principles of an efficient exchange surface from the gas exchange topic, so this question expects students to apply this knowledge to the context of capillaries."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mVDMbbKzzCqjQgXc",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "quiz",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_vgjTNVyGQBtcpwP6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe how coronary heart disease affects the heart.",
+     "solution_md": "> **[mark-scheme]**\n> Coronary heart disease affects the heart as follows:\n> \n> - Blockage of coronary arteries; **[1 mark]**\n> - Reduced blood flow / oxygen supply to heart cells; **[1 mark]**\n> \n> **[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_hvhDPVK8mS3VcVXd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999"
+     ],
+     "part_tier": null,
+     "problem_md": "State **three** risk factors associated with coronary heart disease.",
+     "solution_md": "> **[mark-scheme]**\n> Risk factors for coronary heart disease include:\n> \n> Any **three** of the following:\n> \n> - Diet; **[1 mark]**\n> - Lack of exercise; **[1 mark]**\n> - Stress; **[1 mark]**\n> - Smoking; **[1 mark]**\n> - Genetics; **[1 mark]**\n> - Age; **[1 mark]**\n> - (Biological) sex; **[1 mark]**\n> \n> **[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_FCcxQt8j2ZhSstQz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mBbxTX77c23XqD2b"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **two** lifestyle changes that can reduce the risk of coronary heart disease.",
+     "solution_md": "> **[mark-scheme]**\n> Lifestyle changes that can reduce the risk of coronary heart disease include:\n> \n> - Balanced diet / low cholesterol diet / diet that is lower in saturated fats; **[1 mark]**\n> - Regular exercise; **[1 mark]**\n> \n> *Accept other correct changes, e.g. stop smoking, reduce salt intake, reduce caffeine intake.*\n> \n> **[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_3PNWR3jY96RDrR8k",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999",
+      "spcpt_c98x9G7n5xjSCbZr"
+     ],
+     "part_tier": null,
+     "problem_md": "Outline how an ECG can help detect signs of coronary heart disease.",
+     "solution_md": "> **[mark-scheme]**\n> An ECG can help detect signs of coronary heart disease as follows:\n> \n> - An ECG can detect abnormal heart rhythms/beats; **[1 mark]**\n> \n> **[Total: 1 mark]**\n\n> **[exam-tip]**\n> You should be aware of the role of an ECG in monitoring the activity of the heart. An ECG would show changes to the normal heart beat, which could be a sign of coronary heart disease.\n> \n> Note that an ECG alone is unlikely to be able to diagnose coronary heart disease, but an unusual ECG would lead to further tests."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RdMQ54d9KhTD79d2",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Td4Vkc5y9kBsCzBw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Blood circulates around the body in arteries, veins and capillaries.\n\nPlace ticks (✓) in the correct boxes in Table 1 to show the features of arteries.\n\n**Table 1**\n\n| **structure and function** | **arteries** |\n|---|---|\n| carries blood at high pressure |   |\n| carries blood towards the heart |   |\n| has a thick wall |   |\n| has a narrow lumen |   |\n| has valves present throughout the vessel |   |",
+     "solution_md": "The correct use of ticks (✓) in Table 1 is as follows:\n\n| **structure and function** | **arteries** |\n|---|---|\n| carries blood at high pressure | **Final answer:** **✓** |\n| carries blood towards the heart |   |\n| has a thick wall | **Final answer:** **✓** |\n| has a narrow lumen | **Final answer:** **✓** |\n| has valves present throughout the vessel |   |\n\n**[1 mark]** *for each correct tick.*\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_zfv7Ff6G9Mr3SMWB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zH7rWnkTtRFrSz46",
+      "spcpt_ZbTzHJZT5V3vyvqX"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a photomicrograph of a capillary with red blood cells passing through it.\n\n![097031-may-2019-paper-3-q7b-capillary---sq](assets/036-097031-may-2019-paper-3-q7b-capillary-sq.png)\n\n**Fig. 1**\n\n(i)\n\nState the function of the red blood cells shown in Fig. 1.\n\n[1]\n\n(ii)\n\nRed blood cells are one component of blood.\n\nState the names of **two **other components of blood.\n\n[2]",
+     "solution_md": "(i) The function of the red blood cells shown in Fig.1 is:\n\n- Carries / supplies oxygen (to cells/tissues); **[1 mark]**\n\n(ii) Other components of blood are:\n\nAny **two **of the following:\n\n- White blood cells / phagocytes / lymphocytes; **[1 mark]**\n- Platelets; **[1 mark]**\n- Plasma; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_r4V5kSxgJ7fJZXGm",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_MJhsff4PVRPfGGbh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a section through a blood vessel.\n\n![BDZJNnEY_image](assets/037-bdzjnney-image.png)\n\n**Fig. 1**\n\nIdentify the type of blood vessel shown in Fig. 1.",
+     "solution_md": "The blood vessel shown is:\n\n- Capillary / capillaries; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *You can tell this is a capillary because the walls are only one cell thick and the red and white blood cell fill the lumen of the vessel. *"
+    },
+    {
+     "id": "qstnprt_JcYzbnJzgbSVpyYQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZbTzHJZT5V3vyvqX"
+     ],
+     "part_tier": null,
+     "problem_md": "Red blood cells are different to white blood cells.\n\nState **three** ways in which a red blood cell is different to a white blood cell.",
+     "solution_md": "**Three** ways a red blood cell is different from white blood are:\n\nAny** three **from the following:\n\n**Red blood cells:**\n\n- Have no nucleus; **[1 mark]**\n- Are smaller (than white blood cells); **[1 mark]**\n- Contain haemoglobin / Hb; **[1 mark]**\n- Have a (bi)concave disc shape / *(accept a description here)*; **[1 mark]**\n- Carry oxygen; **[1 mark]**\n- Do not produce antibodies / are not involved in immunity; **[1 mark]**\n- Do not carry out phagocytosis; **[1 mark]**\n\n*Accept any other valid points such as transports carbon dioxide / there are more RBC’s than WBC's, for a maximum of ***[2 marks] ***Accept the converse for each point in relation to white blood cells*\n\n**[Total: 3 marks]**\n\n> *A common misconception is to think that red blood cells do not contain cytoplasm. They do in fact have cytoplasm, this is where haemoglobin can be found. *"
+    },
+    {
+     "id": "qstnprt_B8Z2TY6k7NwSQgyb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ZbTzHJZT5V3vyvqX"
+     ],
+     "part_tier": null,
+     "problem_md": "Blood has many components.\n\n(i)\n\nState the name of the liquid component of blood.\n\n[1]\n\n(ii)\n\nState **three** substances that are transported in the liquid component of blood.\n\n[3]",
+     "solution_md": "(i) The liquid component of blood is:\n\n- Plasma; **[1 mark]**\n\n***Ignore ****mention of water.*\n\n(ii) **Three** substances that are transported in the liquid component of blood are:\n\nAny **three **from the following:\n\n- Glucose;** [1 mark]**\n- Amino acids; **[1 mark]**\n- (Plasma) proteins;** [1 mark]**\n- Fats / glycerol / fatty acids; **[1 mark]**\n- Vitamins / one named vitamin;** [1 mark]**\n- Mineral (ions) / one named mineral ion; **[1 mark]**\n- Hormones; **[1 mark]**\n- Urea; **[1 mark]**\n- Carbon dioxide;** [1 mark]**\n- Water; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *It is common to think you would get separate marks for \"mineral\" and \"ion\" but minerals are in fact elements (such as phosphorus or calcium or sodium) found in their ionic state within the body. You may also misread the question here and want to give three types of blood cells rather than three substances. so be sure to read the question carefully. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mkfBRFZBf942Q6wK",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_CP4bQHc9bsBHWqzS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_zH7rWnkTtRFrSz46",
+      "spcpt_ZbTzHJZT5V3vyvqX"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a photomicrograph of some red blood cells.\n\n![061032-oct-2018-paper-3-q8a-rbcs---sq](assets/038-061032-oct-2018-paper-3-q8a-rbcs-sq.png)\n\n**Fig. 1**\n\n(i) State the function of a red blood cell.\n\n[1]\n\n(ii) State **two** ways in which a red blood cell is adapted to its function.\n\n[2]",
+     "solution_md": "(i) The function of a red blood cell is:\n\n- (To) transport oxygen; **[1 mark]**\n\n(ii) Ways in which a red blood cell is adapted to its function are:\n\nAny **two **from the following:\n\n- Contains haemoglobin; **[1 mark]**\n- Biconcave (disc shape) / large surface area to volume ratio; **[1 mark]**\n- No nucleus / (named) organelle; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_jnfv7Jd9hQBSnXbY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zH7rWnkTtRFrSz46",
+      "spcpt_ZbTzHJZT5V3vyvqX"
+     ],
+     "part_tier": null,
+     "problem_md": "State the name of a component of blood that is responsible for clotting.",
+     "solution_md": "The name of a component of blood that is responsible for clotting is:\n\n- Platelet(s); **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_s2WHWNMX6NYWM5Kh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999",
+      "spcpt_mBbxTX77c23XqD2b"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) State the name of the disease caused by a blockage in the arteries supplying the heart muscle.\n\n[1]\n\n(ii) List **three** risk factors that increase the risk of a blockage in the arteries supplying the heart muscle.\n\n[3]",
+     "solution_md": "(i) The name of the disease caused by a blockage in the arteries supplying the heart muscle is:\n\n- Coronary heart (disease) / CHD;** [1 mark]**\n\n(ii) Risk factors that increase the risk of a blockage in the arteries supplying the heart muscle are:\n\nAny **three **from the following:\n\n- High (blood) cholesterol; **[1 mark]**\n- High fat diet;** [1 mark]**\n- Obesity; **[1 mark]**\n- High salt intake;** [1 mark]**\n- (Too much) stress; **[1 mark]**\n- High blood pressure; **[1 mark]**\n- (Excess) alcohol consumption; **[1 mark]**\n- Smoking tobacco; **[1 mark]**\n- (Older) age; **[1 mark]**\n- Gender; **[1 mark]**\n- Genetic predisposition; **[1 mark]**\n- Lack of exercise; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Be careful to avoid vague phrases such as 'poor diet' and 'exercise'. It may be clear to you what you're trying to say, but your meaning has to be crystal-clear to the examiner who reads your script. Put yourself in the examiner's position and ask yourself, 'Has this candidate communicated this clearly enough?'*"
+    },
+    {
+     "id": "qstnprt_3ffbMZsqqQrV2rmd",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 8,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2 is a diagram of the circulatory system. The blood vessels are labelled with letters.\n\n![061032-oct-2018-paper-3-q8d-circulatory-system---sq](assets/039-061032-oct-2018-paper-3-q8d-circulatory-system-s.png)\n\n**Fig. 2**\n\nComplete Table 1 by identifying the letter of the named blood vessel in Fig. 2.\n\n**Table 1**\n\n| **name of blood vessel** | **letter** |\n|---|---|\n| aorta |   |\n| pulmonary artery |   |\n| renal vein |   |\n| vena cava |   |",
+     "solution_md": "Table 1 is correctly filled in as follows:\n\n| **name of blood vessel** | **letter** |\n|---|---|\n| aorta | **Final answer:** **B** |\n| pulmonary artery | **Final answer:** **G** |\n| renal vein | **Final answer:** **E** |\n| vena cava | **Final answer:** **F / D** |\n\n*Award* **[1 mark]** *for each correct row*\n\n**[Total: 4 marks]**\n\n> *The vena cava has two possible answers (F and D) because it is the main vein transporting deoxygenated blood back to the heart. As deoxygenated blood leaves organs such as the kidneys, it joins other deoxygenated blood from lower-down organs such as the legs, in the vena cava. *"
+    },
+    {
+     "id": "qstnprt_MZfTjQF9QPt3DQH9",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 8,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_4m3bJ8z37SqQFmwG"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe how the structures of the circulatory system maintain a one-way flow of blood.",
+     "solution_md": "The structures of the circulatory system that maintain a one-way flow of blood are:\n\nAny **four **from the following:\n\n- Heart / ventricles / atrium, pump / contract / AW; **[1 mark]**\n- Valves in the heart; **[1 mark]**\n- Valves in veins;** [1 mark]**\n- Valves prevent backflow (of blood); **[1 mark]**\n- Valves ensure blood does not go from ventricle to atrium; **[1 mark]**\n- Valves prevent blood flowing from, pulmonary artery / aorta, to ventricle; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *A key phrase in the question is 'one-way'. This means that your answer should focus on how a one-way flow is maintained. You may well know all the details of a double circulatory system and may wish to share your knowledge, but a detailed account of the circulatory is not required in this question. Re-read the question, stop and think for a moment to avoid launching into a futile and time-wasting long answer. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jMwNnqfkzQMWgbdw",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_SSBv6VBS3qBRmjvB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV",
+      "spcpt_c98x9G7n5xjSCbZr"
+     ],
+     "part_tier": null,
+     "problem_md": "A scientist investigated the effect of different types of activity on heart rate of participants aged 21 after they had completed the activity for 10 minutes.\n\nThe results are shown in Fig. 1.\n\n![cie-igcse-2023-specimen-q2a](assets/040-cie-igcse-2023-specimen-q2a.png)\n\n**Fig. 1**\n\n(i) State **two **control variables the scientist should have ensured throughout the investigation.\n\n[2]\n\n(ii) Describe the results of the investigation.\n\n[3]",
+     "solution_md": "(i) Control variables the scientist should have ensured throughout the investigation are...\n\nAny **two **of the following:\n\n- Sex/(biological) gender; **[1 mark]**\n- Height; **[1 mark]**\n- Weight/BMI; **[1 mark]**\n- Health / medical conditions / medications taken; **[1 mark]**\n\n> *Age has also been controlled but this information is given to you in the question stem, so you will not receive a mark for mentioning this again in your answer.*\n\n(ii) The results of the investigation are...\n\n- Heart rate varies with different physical activity; **[1 mark]**\n- Running gave the highest heart rate/pulse rate/bpm; **[1 mark]**\n- Resting gave the lowest heart rate/pulse rate/bmp; **[1 mark]**\n\n***Accept ****data/values from the graph given as part of the answer*\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_F4kPxptMJRhh2WKH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV",
+      "spcpt_c98x9G7n5xjSCbZr"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe how the scientist could have measured and recorded heart rate.",
+     "solution_md": "The scientist could measure and record heart rate by...:\n\n- Producing an ECG; **[1 mark]**\n- Listening to the sound of the valves (opening and) closing; **[1 mark]**\n- Taking a pulse; **[1 mark]**\n\n***Accept ****other correct methods of monitoring the activity of the heart ****Accept ****a description of taking a pulse*\n\n**[Total: 3 mark]**"
+    },
+    {
+     "id": "qstnprt_5H39CQfRGsM7vnT5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fzdBHBKPS3523PdY"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended\n\nExplain the effect swimming has on heart rate.",
+     "solution_md": "The effects of swimming on heart rate is explained by...\n\n- (An increase in heart rate would ensure that) oxygen/glucose is delivered faster (to the muscle cells); **[1 mark]**\n- For (aerobic) respiration; **[1 mark]**\n- Waste products/carbon dioxide can be removed faster (from the muscle cells); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Read the question carefully here. You are asked to explain, not describe, the effect swimming has on heart rate. This means that you have to think of reasons why swimming would increase the heart rate of a person.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_hmrrYNZ92j9VDsdD",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_pnYscCk33kC5yhBm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gNdqFJBTPFqTFpRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The heart is part of the circulation system.\n\nFig. 1 shows a mammalian heart.\n\n![4a-heart](assets/041-4a-heart.png)\n\n**Fig. 1**\n\nIdentify structures labelled **A** to **D** on Fig. 1.",
+     "solution_md": "Structures **A** to **D** are...\n\n- **A** = Left atrium; **[1 mark]**\n- **B** = Left ventricle; **[1 mark]**\n- **C **= Right ventricle\n- **D** = Right atrium; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Remember that when looking at a diagram of the heart it is as if you are looking in a mirror. This means that the right side of the heart in Fig. 1 represents the left side of that heart when it is located in the body and vice versa.*"
+    },
+    {
+     "id": "qstnprt_dbSdZd47RDffHXsp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gNdqFJBTPFqTFpRZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe heart is part of the circulation system.\n\nFig. 1 shows a mammalian heart.\n\n**Fig. 1**\n\nIdentify structures labelled **A** to **D** on Fig. 1.\n\nIdentify the septum on Fig. 1 from part (a).",
+     "solution_md": "The septum on Fig. 1 is identified as shown...\n\n- Correctly identified septum; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *The septum is the structure of the heart that separates the left and right chambers from each other. It keeps oxygenated and deoxygenated blood separate.*\n\n![a7656cf0-ce0f-495c-b9e2-12259bf094bb](assets/042-a7656cf0-ce0f-495c-b9e2-12259bf094bb.jpeg)"
+    },
+    {
+     "id": "qstnprt_rqxH54Bt3RqM67Kt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c547mS6Z3h3Y22dK"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nExplain why the human circulation system is described as a double circulation system.",
+     "solution_md": "The human circulation system is described as a double circulation system because...\n\n- (The idea that) for every one circuit of the body, the blood passes through the heart twice; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_cNxRBywhYSWD3fyB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c547mS6Z3h3Y22dK"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nDescribe the function of the right side of the heart.",
+     "solution_md": "The function of the right side of the heart is...\n\n- To receive deoxygenated heart (from the body); **[1 mark]**\n- To pump (deoxygenated) blood to the lungs; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GVPsm8M7R3YQPqzq",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_2Px9MQyhRkB4ww4r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xP4THDBPRTnYtscs",
+      "spcpt_QY63z7YbjBcHcC3y"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 1 shows a photomicrograph of human blood.\n\n![screenshot-2022-10-03-13-08-51](assets/043-screenshot-2022-10-03-13-08-51.png)\n\n**Fig. 1**\n\nDescribe the differences in appearance and the functions of the three cells labelled in Fig. 1.",
+     "solution_md": "The differences in appearance and the functions of the three cells labelled in Fig. 1 are as follows...\n\n- (In appearance red blood cells are) biconcave (discs) **OR** have no nucleus **OR** are smaller than white blood cells; **[1 mark]**\n- (The function of red blood cells is to) transport oxygen; **[1 mark]**\n- (In appearance lymphocytes have) little cytoplasm **OR** a large nucleus / a nucleus that fills most of the cell;** [1 mark]**\n- (The function of lymphocytes is to enable) active immunity / a response to (non-self) antigens / a response to vaccines **OR** to produce antibodies / form memory cells (during an immune response); **[1 mark]**\n- (In appearance phagocytes have a) lobed/irregular-shaped/C-shaped nucleus; **[1 mark]**\n- (The function of phagocytes is to) engulf pathogens / carry out phagocytosis; **[1 mark]**\n\n***Accept**** transport of carbon dioxide for red blood cell function.*\n\n**[Total: 6 marks]**\n\n> *Make sure that you cover both appearance and function for each of the three cell types.*"
+    },
+    {
+     "id": "qstnprt_KCQWszndJwHd8dNV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_p8gCygMcHqdNT53X"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 2 shows some of the stages of blood clotting.\n\n![screenshot-2022-10-03-13-12-56](assets/044-screenshot-2022-10-03-13-12-56.png)\n\n**Fig. 2**\n\n(i) Complete Fig. 2 by filling in the two empty boxes.\n\n[1]\n\n(ii) State **two** roles of blood clotting.\n\n[2]",
+     "solution_md": "(i) The empty boxes should be filled in as follows...\n\n- Fibrinogen → fibrin; **[1 mark]**\n\n(ii) Roles of blood clotting include...\n\n- Prevent/reduce blood loss; **[1 mark]**\n- Prevent entry of / infection by (named) pathogen/microorganism/microbe; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cYv62Q3jqVfY9CdP",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_3PfmbVG3nHN54btR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Mw9M3xvFgvntjBVV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student completed different types of activity.\n\nShe measured her pulse rate during each type of activity in beats per minute (bpm).\n\nThe results are shown in Fig. 1.\n\n![2018-nov-s1-061031-q3a](assets/045-2018-nov-s1-061031-q3a.png)\n\n**Fig. 1**\n\nUse Fig. 1 to answer these questions.\n\n(i)\n\nState the type of activity that results in the highest pulse rate.\n\n[1]\n\n(ii)\n\nState the pulse rate of the student when she was cycling. Give your answer in bpm.\n\n[1]\n\n(iii)\n\nCalculate the percentage increase in her pulse rate between resting and walking.\n\nShow your working and give your answer to the nearest whole number.\n\n[2]",
+     "solution_md": "(i) The type of activity that resulted in the highest pulse rate was:\n\n- Running; **[1 mark]**\n\n(ii) The pulse rate of the student when she was cycling:\n\n- 125 (bpm); **[1 mark]**\n\n(iii) The percentage increase in pulse rate between resting and walking can be calculated as follows:\n\n- [(98 - 64) ÷ 64] x 100; **[1 mark]**\n- = 53(%); **[1 mark]**\n\n*Full marks awarded for the correct answer only.*\n\n**[Total: 4 marks]**\n\n> *The calculation for (a) (iii) can be done as follows:*\n\n![igcse-2018-nov-p31-q3aiii](assets/046-igcse-2018-nov-p31-q3aiii.png)"
+    },
+    {
+     "id": "qstnprt_jvRMwZpxJBgZrYyy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_c98x9G7n5xjSCbZr"
+     ],
+     "part_tier": null,
+     "problem_md": "Measuring the pulse is one way of monitoring the activity of the heart.\n\nState **one other** way of monitoring the activity of the heart.",
+     "solution_md": "One other way of monitoring heart activity includes:\n\nAny **one **from the following:\n\n- ECG;** [1 mark]**\n- Listening to the (sounds of the) valves (closing);** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_ZDPPD9Vmzjz6X2MH",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Rnx2B9frYkQWmTPY"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the changes to a person’s breathing during exercise.",
+     "solution_md": "Changes to a person's breathing during exercise includes:\n\n- The breathing rate/frequency will increase / more breaths per minute (will be taken); **[1 mark]**\n- The breathing depth increases / the volume of air inhaled / lung volume (during each breath) will increase; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *These changes are necessary during exercise in order to increase the oxygen supply to respiring muscle cells, while removing the increased amount of carbon dioxide produced by these cells.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_C7yJFSv5Mb66GP7C",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_gYRZbwQgCr9Fxg9T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xP4THDBPRTnYtscs"
+     ],
+     "part_tier": null,
+     "problem_md": "The blood has many components.\n\nFig. 1 shows a micrograph of a blood smear.\n\n![GQBE1eM1_blood-micrograph](assets/047-gqbe1em1-blood-micrograph.png)\n\n**Fig. 1**\n\nOn the diagram, identify a red blood cell **and **a white blood cell.",
+     "solution_md": "The red and white blood cells are...\n\n- A red blood cell correctly identified; **[1 mark]**\n- A white blood cell correctly identified; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *A white blood cell is identified by the clearly visible, often, lobed, nucleus. A red blood cell is smaller and has no nucleus. Platelets are the smallest structure in this image, although you are not asked to label them. *\n\n![ff52dcfb-6531-44c4-889b-2fea8f904d2a](assets/048-ff52dcfb-6531-44c4-889b-2fea8f904d2a.jpeg)"
+    },
+    {
+     "id": "qstnprt_9ssp3V6rdyTG3fSy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_p8gCygMcHqdNT53X"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended Tier Only**\n\nPlatelets are a component of blood that have an important role in blood clotting.\n\nDescribe the process of blood clotting by platelets. Include an explanation of the role played by the clot in protecting the body.",
+     "solution_md": "The process of blood clotting by platelets is...\n\n- Platelets release chemicals; **[1 mark]**\n- <u>Soluble fibrinogen</u> is converted into <u>insoluble fibrin</u>; **[1 mark]**\n- An insoluble mesh forms **AND** traps (red) blood cells; **[1 mark]**\n- (The clot develops into a scab **SO**) prevents infection / entry of pathogens / blood loss; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> **[exam-tip]**\n> Platelets trigger clotting by releasing chemicals, not by physically patching the wound.\n> \n> Fibrinogen is dissolved in the plasma, not stored inside platelets.\n\n> *It is important not to get soluble fibrinogen confused with insoluble fibrin so take some time to learn these terms and their correct order of occurrence in the process of blood clotting. *"
+    },
+    {
+     "id": "qstnprt_q323BfqKHHCyKx7q",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xKDYw8rmbFP2xCG4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDifference in death rates = 72 - 57 = 15 ; Divide by original value 15 ÷ 72 = 0.208; 0.208 x 100 =21 (%) ; Accept values in the range of 71 to 73 for year 2001 reading, and 56 to 58 for year 2017 reading\n\nBlood clots can sometimes form in veins around the body. This is called a venous thromboembolism (VTE) and can be associated with postoperative complications following surgery.\n\n![graph](assets/049-graph.png)\n\nCalculate the percentage decrease in VTE death rates between 2001 and 2017.",
+     "solution_md": "The percentage decrease is...\n\n- Difference in death rates = 72 - 57 = 15 ; **[1 mark]**\n- Divide by original value 15 ÷ 72 = 0.208; **[1 mark]**\n- 0.208 x 100 =21 (%) ; **[1 mark]**\n\n***Accept ****values in the range of 71 to 73 for year 2001 reading, and 56 to 58 for year 2017 reading*\n\n**[Total: 3 marks]**\n\n![8847ee1d-e8e9-4a01-887e-bf11abd6e10f](assets/050-8847ee1d-e8e9-4a01-887e-bf11abd6e10f.jpeg)"
+    },
+    {
+     "id": "qstnprt_9jYsksTH698BwYnS",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_f7QfgwHdxPnCMZsh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extended Tier Only**\n\nVeins are a type of blood vessel found in mammals.\n\nCompare the structure **and** function of veins with that of arteries.",
+     "solution_md": "A comparison of the structure and function of veins and arteries includes:\n\nAny **four **of the following:\n\n- <u>Both</u> carry/circulate blood around the body; **[1 mark]**\n- <u>Both</u> contain muscle and** **elastic fibres in their walls; **[1 mark]**\n- Arteries have thick muscle walls **WHILE** veins have thin muscle walls; **[1 mark]**\n- Arteries (mainly) carry oxygenated blood **WHILE** veins (mainly) carry deoxygenated blood; **[1 mark]**\n- Arteries carry blood away from the heart **WHILE** veins carry blood toward the heart; **[1 mark]**\n- Arteries carry blood at high pressure **WHILE** veins carry blood at lower pressure; **[1 mark]**\n- Arteries do not have valves **WHILE** veins do; **[1 mark]**\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_83Wmcq5fkMmQYqRD",
+   "set_slug": "theory-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_9rwGSMdz6GwJXrK8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999"
+     ],
+     "part_tier": null,
+     "problem_md": "The coronary arteries supply the heart muscle tissue with blood.\n\nFig. 1 shows a coronary artery with a blockage.\n\n![Diagram of a coronary artery showing the direction of blood flow with a blockage labelled, narrowing the artery and obstructing flow.](assets/051-diagram-of-a-coronary-artery-showing-the-directi.png)\n\n**Fig. 1**\n\nExplain the effect this blockage could have on heart muscle cells.",
+     "solution_md": "The effect of the blockage on heart muscle cells is:\n\nAny **two** from the following:\n\n- Less blood flows to the heart muscle / cells / tissue; **[1 mark]**\n- Less oxygen reaches the heart muscle / cells / tissue; **[1 mark]**\n- Therefore less (aerobic) respiration occurs **OR **less energy is <u>released</u>; **[1 mark]**\n- Heart cells will die; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *It is important when talking about energy from respiration that you use the term **released** and not produced, made or created as these terms are incorrect and will not award you marks. *"
+    },
+    {
+     "id": "qstnprt_gcwWp7fbsHvhsRTS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999"
+     ],
+     "part_tier": null,
+     "problem_md": "A blocked coronary artery can lead to coronary heart disease.\n\nTable 1 shows information about blood flow through coronary arteries in two people.\n\nPerson **X** was diagnosed with coronary heart disease while person **Y** does not have coronary heart disease.\n\n**Table 1**\n\n| **person** | **blood flow through coronary arteries /**<br><br>**cm**<sup>**3**</sup>** min **<sup>**-1**</sup> |\n|---|---|\n| **X** | 167 |\n| **Y** | 295 |\n\n(i) Explain the difference in blood flow through the coronary arteries for persons **X** and **Y**.\n\n[1]\n\n(ii) Calculate the volume of blood flowing through the coronary arteries of person **X** in 1 hour.\n\nGive your answer in dm<sup>3</sup>.\n\n[2]",
+     "solution_md": "(i) The difference in blood flow in person **X** and **Y** is because...\n\n- Person **X** arteries are narrower/blocked; **[1 mark]**\n\n(ii) The volume of blood flowing through the coronary arteries of person **X** in 1 hour is...\n\n- 167 x 60 (minutes) = 10 020 cm<sup>3</sup>; **[1 mark]**\n- 10020 ÷ 1000 = 10.02 dm<sup>3</sup>; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_V4GMxvckDn5Cw3FV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999"
+     ],
+     "part_tier": null,
+     "problem_md": "A blockage of the coronary artery can be caused by fatty deposits called ‘plaques’. Drugs called statins can be taken to help prevent a blockage.\n\nFig. 2 shows the effects of the treatment of one person with four different statins (**A**, **B**, **C** and **D**) over a period of 10 years. The arrows show when each new treatment was started.\n\n![graph-1](assets/052-graph-1.png)\n\n**Fig. 2**\n\nDetermine a conclusion on the effectiveness of the statin treatments in reducing the risk of coronary heart disease for this person.",
+     "solution_md": "A conclusion of the treatments is...\n\nAny **four **of the following:\n\n- <u>**A**</u><u> + </u><u>**B**</u> is effective (treatment) / lowers risk of coronary heart disease (after treatment started); **[1 mark]**\n- **D** (alone) is most effective (treatment) / lowest risk of coronary heart disease (after treatment started); **[1 mark]**\n- **A** alone is more effective than **B** (alone) **OR A** alone and **B** alone increase risk of coronary heart disease; **[1 mark]**\n- <u>**A**</u><u> + </u><u>**C**</u> / **B** (alone) is the least effective treatment / has the greatest risk of coronary heart disease; **[1 mark]**\n- Cannot tell if **C** (alone) is effective **OR **treatment **C** alone has not been tested; **[1 mark]**\n\n***Accept ****correct use of data for each marking point*\n\n**[Total: 4 marks]**\n\n> *This is a tricky graph to interpret so you need to take your time to ensure you understand the data before writing your answer. You do not need to know about the effect of statins as a treatment for CHD nor specific details about plaques to answer this question.  *"
+    },
+    {
+     "id": "qstnprt_6b3GJvvTMvHXNxFk",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xZ27pNRDM9RQR999"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA blockage of the coronary artery can be caused by fatty deposits called 'plaques'. Drugs called statins can be taken to help prevent a blockage.  Fig. 2 shows the effects of the treatment of one person with four different statins (A, B, C and D) over a period of 10 years. The arrows show when each new treatment was started.  Determine a conclusion on the effectiveness of the statin treatments in reducing the risk of coronary heart disease for this person.  A conclusion of the treatments is... Any four of the following: - A + B is effective (treatment) / lowers risk of coronary heart disease (after treatment started); - D (alone) is most effective (treatment) / lowest risk of coronary heart disease (after treatment started); - A alone is more effective than B (alone) OR A alone and B alone increase risk of coronary heart disease; - A + C / B (alone) is the least effective treatment / has the greatest risk of coronary heart disease; - Cannot tell if C (alone) is effective OR treatment C alone has not been tested;\n\nThe data was used to generate a report with the claim: \"Coronary heart disease can be cured by statins\".\n\nEvaluate the claim made.",
+     "solution_md": "An evaluation of the claim is...\n\nAny **three **from the following:\n\n- The data was carried out over a long period / ten year study; **[1 mark]**\n- Data is only available for one person **OR **treatments tested on only one person; **[1 mark]**\n- No statistical tests have been carried out; **[1 mark]**\n- Treatment **C** alone has not been tested; **[1 mark]**\n- All possible combinations of statins have not been tested; **[1 mark]**\n- Risk of coronary heart disease has not reached zero (so has not been cured) **OR **no treatments led to the risk of coronary heart disease being zero (so has not been cured); **[1 mark]**\n\n***Accept ****named combinations of statin treatments for marking point 5*\n\n**[Total: 3 marks]**\n\n> *For questions asking you to evaluate a statement, you should pay attention to how the data support the statement as well as the ways in which it does not support the statement.*"
     }
    ]
   }

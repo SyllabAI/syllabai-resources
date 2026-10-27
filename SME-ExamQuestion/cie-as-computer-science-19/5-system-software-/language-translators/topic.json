@@ -1,0 +1,365 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:53Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "5-system-software-",
+  "name": "5. System Software"
+ },
+ "topic": {
+  "id": "top_pDk9BCQxKp8bjT8r",
+  "slug": "language-translators",
+  "name": "Language Translators",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "translator-types",
+   "name": "Translator types",
+   "revision_note_id": "rn_JJh9fSb6YyhgPg95"
+  },
+  {
+   "slug": "development-tools",
+   "name": "Development tools",
+   "revision_note_id": "rn_VC5WR2zs35hdf8tJ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_RDWjnTYxYCZjC4CQ",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/5-system-software-/language-translators/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_DXCYJy37kM5x8pY9",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_ndGBwyZGPsXR6Yzv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses an Integrated Development Environment (IDE) to develop a program that monitors air quality.\n\nDescribe the following features of a typical IDE.\n\nContext‑sensitive prompts ....................................\n\nSingle stepping .......................................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2** for each feature).\n> \n> Context-sensitive prompts:\n> \n> - As the code is being written\n> - …the options to complete the statement are shown\n> \n> Single stepping:\n> \n> - allows the programmer to execute the program one line at a time\n> - …so that the effects of each statement can be seen"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FN97TpFNqhVRrvkv",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_hXCjzYShRNkYYjSJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses both a compiler and an interpreter to translate a program written in a high-level language.\n\nDescribe the advantages of using the interpreter compared to the compiler to translate the program.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point (**max 4**)\n> \n> - easier to debug the program\n> - … because it translates line-by-line and stops when an error is found whereas the compiler translates all the program at the same time\n> - … only reporting one error at a time\n> - … which allows the error to be corrected in real time whereas the program would need to be corrected and recompiled\n> - ... and the program can restart at same point when error occurred with a compiler the program needs to be re-run\n> - The effect of any changes made by the programmer can be seen immediately with a compiler the effects can only be seen after re-running\n> - A partially completed program can be translated / tested on its own a compiler cannot translate a partial program"
+    },
+    {
+     "id": "qstnprt_mzhtZNBx9kSQDXCx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_c32hVzKhMjckFJNB"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **reason why some high-level languages are partially compiled and partially interpreted.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Partially compiled programs can be used on different platforms as they are interpreted when run\n> - Code is optimised for the CPU as machine code is generated at run time\n> - Source code does not need recompiling so more efficient to run"
+    },
+    {
+     "id": "qstnprt_KM3kP4B2SzRW92yp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Identify **two **features that support the visual presentation of the code in a typical Integrated Development Environment (IDE).\n\n(2)\n\n(ii) Identify **two **features that support the debugging of the code in a typical IDE.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Prettyprint\n> - Expand/collapse code blocks\n> - Auto indentation / formatting\n> \n> **1 mark** for each bullet point (**max 2**)\n> \n> - Single stepping\n> - Breakpoints\n> - Report window\n> - Variable expressions"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Ry3HXRNqwsDZ7Cpj",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_4C7V5BbHwmxXdhWN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A program has been developed and released for general use. After a few months of use an error is detected where under certain circumstances it outputs an unexpected value.\n\nThe program contains a function `Lookup()`. After investigation, it is found that this is the function that sometimes returns an incorrect value.\n\nAn Integrated Development Environment (IDE) is used to help locate the error.\n\nThe IDE features of watch window, single stepping and breakpoint will be used.\n\nExplain these features including the order that they will be used in to locate the error in `Lookup()`.",
+     "solution_md": "> **[mark-scheme]**\n> For example:\n> \n> - Set a breakpoint at the start of / within Lookup, to stop execution at a given statement\n> - then use single stepping to execute one statement / instruction at a time\n> - to display the value of variables using a watch window\n> \n> One mark for each:\n> \n> **MP1 **Order starting with a breakpoint **and **an explanation – ‘stop execution <u>at this statement / line’</u>\n> \n> **MP2 **Explanation of single stepping – execute ‘line by line’ / statements\n> \n> **MP3 **Explanation of watch window – displaying the value of <u>variable(s)</u>"
+    },
+    {
+     "id": "qstnprt_qnVBc3686qPcxnGz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "To solve the error a programmer decides to create a new module.\n\nThe design of the new module has been completed and the module is being coded.\n\nIdentify **two** features of an IDE that will help during the coding of this new module.",
+     "solution_md": "> **[mark-scheme]**\n> Features include:\n> \n> **MP1 **Editor\n> \n> **MP2 **<u>Auto</u>- (syntax) complete / <u>auto </u>correction // identify undeclared variables(s)\n> \n> **MP3 **Prettyprint / <u>auto</u>-indentation / <u>auto</u> (structure) highlighter\n> \n> **MP4 **<u>Dynamic</u> syntax checking\n> \n> **MP5 **Expand / collapse code blocks\n> \n> **MP6 **Context sensitive prompts\n> \n> **Max 2 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BMt7cGTT7P2vTWBk",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_fxcZqfBkT5dkBKz9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A programmer uses an Integrated Development Environment (IDE) to write a computer program. The IDE has both a compiler and an interpreter as built-in translators.\n\nThe programmer decides to use the compiler when testing the final program.\n\nDescribe the benefits of using the compiler during testing.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - Creates an executable file\n> - … so the code can be tested multiple times without having to recompile\n> - … so** repeated testing** takes less time"
+    },
+    {
+     "id": "qstnprt_fr3vfVzmVdQMf6gR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "IDEs have many features other than built-in translators.\n\nComplete the table by identifying **one other **common IDE feature that can be used for each purpose. Describe how each feature helps the user during program development.\n\nEach feature must be different. Do **not **give translator as one of your features.\n\n| **Purpose** | IDE feature | Description |\n|---|---|---|\n| **for coding** |   |   |\n| **for presentation** |   |   |\n| **for debugging** |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for identification of each feature and **1 mark** for matching description:\n> \n> e.g.\n> \n> *For coding:*\n> \n> | IDE feature | Description |\n> |---|---|\n> | Context-sensitive prompts | **Gives suggestions** for code as the user types instead of having to write/remember the code |\n> | **Auto**-correct | Corrects spelling mistakes so that user has fewer errors to correct |\n> \n> *For presentation:*\n> \n> | IDE feature | Description |\n> |---|---|\n> | Pretty-printing | Colour code keywords so the user can identify any errors |\n> | Expand/collapse (code) blocks | The user can hide code that they are not currently working on |\n> \n> *For debugging:*\n> \n> | IDE feature | Description |\n> |---|---|\n> | Single stepping | Run the code **one line at a time** // shows the effect of each line of code |\n> | Breakpoints | Stop the code running at a set point to check the flow/variable contents |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vzK2gFgnZQhrykPQ",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_wQd3DdjPqKHW3BN5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "A software developer is writing a computer program.\n\nThe developer uses an interpreter while writing the program code because it is easier for debugging.\n\nExplain **one **reason why it is easier to debug the program code using an interpreter instead of a compiler.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - The interpreter will stop when an error is found\n> - ... so the error can be corrected in real-time, and the result of changes seen immediately\n> - Only one error is displayed at a time\n> - … so fewer errors to correct simultaneously and no dependent errors"
+    },
+    {
+     "id": "qstnprt_NbqbZCcRr3ntV3s5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_85byqGdccCjpsRNT"
+     ],
+     "part_tier": null,
+     "problem_md": "The program is ready to be sold to customers.\n\nThe developer uses a compiler because it creates an executable file.\n\nExplain the reasons why the need to create an executable file makes the complier the appropriate choice when the program is complete.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 3**:\n> \n> - Program can be distributed without source code\n> - ... so it cannot be edited/stolen/plagiarised\n> - Users do not require the translator to run the program\n> - … so time is not spent retranslating by user"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Gz4tNJzpH7JfH57W",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_ydRZfhBctQpw3pM7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is written in a high-level language by a team of three programmers using an Integrated Development Environment (IDE).\n\nDescribe how the programmers can use the debugging features of a typical IDE during the development of the program.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> e.g.\n> \n> - Single stepping\n> - Run the program one line at a time\n> - … and check the variable contents / program flow // show the effect of each line of code\n> - Set breakpoints\n> - … run the code up to a set line\n> - ... and then check the status\n> - Variable/report watch window\n> - … view how the data changes as the program is running"
+    }
+   ]
+  },
+  {
+   "id": "qstn_N2nvzCk5g6knd7nR",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_7dG2SzRhHYw36Wwm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_67PDQnXVdWtKXMxv"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop to write a program that is saved as a text file.\n\nThe program code is written using an Integrated Development Environment (IDE).\n\n(i) One presentation feature found in a typical IDE is prettyprint.\n\nIdentify **and **describe **one other** presentation feature found in a typical IDE.\n\n(2)\n\n(ii) One debugging feature found in a typical IDE is single stepping.\n\nIdentify **and **describe **one other **debugging feature found in a typical IDE.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for correct name, **1 mark **for matching description\n> \n> - Expand/collapse code blocks…\n> - … sections of source code that are part of the same block can be expanded to see the content or collapsed so that the overall code is seen\n> - Auto-indentation // auto-formatting...\n> - ... automatically indents/formats code as the user types so that the structure is clear // aids readability\n> \n> (ii) **1 mark** for correct name, **1 mark **for matching description\n> \n> - Breakpoints …\n> - … stops the code running on a set line to view the current status/variable contents/program flow\n> - Report window // variable watch window …\n> - … shows the values in variables/data structures and how they change when each line is run"
+    }
+   ]
+  }
+ ]
+}

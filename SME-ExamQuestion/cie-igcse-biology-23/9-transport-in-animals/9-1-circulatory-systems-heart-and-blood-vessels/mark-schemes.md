@@ -2,6 +2,247 @@
 **9. Transport in Animals** · Cambridge (CIE) IGCSE biology (0610 & 0970)
 
 
+## Alternative To Practical Questions (3 questions)
+
+
+### Q1
+(i)
+
+- Both axes are** **labelled **AND** show units; **[1 mark] **
+
+  - X axis = time (after exercise) in minutes
+  - Y axis = pulse rate in beats per minute/bpm ;
+- Scale is evenly distributed **AND **plots occupy at least half of the grid; **[1 mark] **
+- Points are plotted correctly to within half a square; **[1 mark] **
+- Line is a smooth curve through at least 4 points **OR** line is a ruled line that joins the points; **[1 mark] **
+
+![Graph showing pulse rate (bpm) decrease over 5 minutes after exercise, with plotted points, smooth curve, and labelled, evenly spaced axes.](assets/002-graph-showing-pulse-rate-bpm-decrease-over-5-min.png)
+
+(ii)
+
+Any two from:
+
+- Pulse rate decreases as time increases / over time; **[1 mark] **
+- The biggest decrease in pulse rate occurs in the first minute / two minutes; **[1 mark] **
+- Pulse rate plateaus/levels off / returns to pre-exercise/resting rate / returns to 62 (bpm); **[1 mark] **
+
+When describing data it is usually a good idea to consider overall trends (here this is the overall decrease in pulse rate over time), as well as details of what is happening within the trend, i.e. any periods during which the change is happening quickly/slowly, or during which the change is not taking place. It can also be a good idea to include numbers from the data.
+
+(iii)
+
+- 156 **AND** 62 selected from data; **[1 mark] **
+- (94 ÷ 156) × 100; **[1 mark] **
+- 60.26 (%); **[1 mark] **
+
+*Award full marks for the correct answer in the absence of other calculations.*
+
+![Table showing pulse rates after exercise at different times, with hand calculations of percentage change from 156 to 62 beats per minute, earning 3 marks.](assets/003-table-showing-pulse-rates-after-exercise-at-diff.png)
+
+(iv)
+
+- pulse rate; **[1 mark] **
+
+**[Total: 10 marks]**
+- 120 bpm / the pulse rate on day 2 is an anomalous result;** [1 mark]**
+- Anomalous results should not be included in an average;** [1 mark]**
+
+**[Total: 2 marks]**
+*Similarity: a maximum of one from; *
+
+- <u>Both</u> have a wall / are surrounded by layers; **[1 mark]**
+- <u>Both</u> have a central space / lumen;**[1 mark]**
+- <u>Both</u> contain blood; **[1 mark]**
+
+*Differences: a maximum of two from;*
+
+- The artery has a thick<u>er</u> wall;
+- The inner surface of the artery is <u>more</u> irregular/folded / <u>less</u> smooth;
+- The artery lumen is small<u>er</u>;
+- The vein is bigg<u>er</u>;
+- The artery is circular **WHILE** the vein is irregular (in shape);
+
+***Accept ****converse statements, e.g. the vein has a thinner wall.*
+
+Note that any question that involves comparing two items (i.e. giving similarities and/or differences) must contain clearly comparative statements in order to gain marks. Statements are comparative when they contain words such as ‘both’, ‘larger’, 'smaller’ and when they clearly describe how one item is different to another, e.g. ‘a is . . .  WHILE b is. . .'.
+
+**[Total: 3 marks]**
+
+### Q2
+(i) The apparatus the students should use to accurately measure 300 cm<sup>3</sup> of liquid is...
+
+Any **one **from the following:
+
+- Measuring/graduated cylinder; **[1 mark]**
+- Volumetric flask; **[1 mark]**
+- Burette; **[1 mark]**
+- Pipette; **[1 mark]**
+
+(ii) A method to ensure 300 cm<sup>3</sup> of liquid is measured accurately is...
+
+- Pour the liquid into the graduated cylinder/volumetric flask/burette/pipette to just less than 200 cm<sup>3</sup>; **[1 mark]**
+- Get down to eye level to the apparatus at the 300 cm<sup>3</sup> mark; **[1 mark]**
+- Slowly pour in more liquid until the <u>meniscus</u> sits at 300 cm<sup>3</sup>; **[1 mark]**
+
+(iii) A unit of time the students should use is...
+
+- Seconds; **[1 mark]**
+- Because this is more precise than minutes / hours; **[1 mark]**
+- Because this is easy to read on a stopwatch; **[1 mark]**
+
+(iv) A source of error that may arise from the method above and explain how to overcome this error is...
+
+Any **pair **of answer from the following:
+
+- Not measuring 300 cm<sup>3</sup> of liquid; **[1 mark]**
+- Get down to eye level and use the meniscus; **[1 mark]**
+
+**OR**
+
+- Not starting/stopping the stopwatch immediately as liquid is poured / has finished flowing; **[1 mark]**
+- Use of a light gate **OR **repeat the experiment many times to spot anomalies; **[1 mark]**
+
+**OR**
+
+- Not pouring the liquid at a constant/continuous rate **OR** not pouring the liquid the same each repeat; [**1 mark]**
+- Same person pouring the liquid each repeat;** [1 mark]**
+
+**[Total: 9 marks]**
+
+> *Remember sources of error from a method are not the same as mistakes that can be made such as spilling liquids. It is important you understand the difference. *
+(i) The mean for 2 cm<sup>3</sup> diameter straw is
+
+- 2.3 ÷ 3 = 0.8; **[1 mark]**
+
+> *Your answer should be recorded to 1 decimal place to follow the same data trend as the other two means. *
+
+(ii) The flow rate for each straw is...
+
+- Straw 0.5 cm diameter: 300 ÷ 2.7 = 111; **[1 mark]**
+- Straw 1 cm diameter: 300 ÷ 2 = 150; **[1 mark]**
+- Straw 2 cm diameter: 300 ÷ 0.8 = 375; **[1 mark]**
+
+***Accept ****an error carried forward from part (i) for the straw with a 2 cm diameter ****Ignore ****units as they are stated in the question*
+
+(iii) The volume of the straw with a 2 cm diameter is...
+
+- Equation for volume of a cylinder: πr<sup>2</sup>h (accept equation in words); **[1 mark]**
+- Diameter converted to radius: 2 ÷ 2 = 1 cm; **[1 mark]**
+- Substitution: π x 1<sup>2</sup> x 20 = 62.8; **[1 mark]**
+- 63;** [1 mark]**
+- Unit cm<sup>3</sup>; **[1 mark]**
+
+**[Total: 9 marks]**
+
+> *It is stated in your syllabus that you should be able to recall and use the equation for calculating the volume of a cylinder, amongst other equations. So be sure to familiarise yourself with those equations that are required by the examination board. *
+
+Part (i)
+
+![ef2ee9c2-2f96-4377-b545-ca0da2f684ff](assets/006-ef2ee9c2-2f96-4377-b545-ca0da2f684ff.jpeg)
+
+Part (ii)
+
+![a73594a6-9302-4eac-8084-9c6b831a2b4d](assets/007-a73594a6-9302-4eac-8084-9c6b831a2b4d.jpeg)
+
+Part (iii):
+
+![f9640876-b90b-48ce-9684-46e6441c2d8a](assets/008-f9640876-b90b-48ce-9684-46e6441c2d8a.jpeg)
+
+### Q3
+A method to determine the effect of exercise on heart rate is...
+
+- Measure resting heart rate by taking your pulse; **[1 mark]**
+- Method to measure pulse such as count pulse for 15 seconds then multiply this by 4 to get your heart rate in 60 seconds; **[1 mark]**
+- Carry out chosen exercises/named exercises for a specified time **OR **carry out chosen exercise/named exercise for a specified number of times / time period; **[1 mark]**
+- Take pulse as soon as the exercise period is finished; **[1 mark]**
+- Repeat the experiment at least twice more and calculate the average heart rate **OR **calculate the percentage increase in heart rate; **[1 mark]**
+
+***Ignore ****exercise suggestions that are not possible to carry out in a school environment for marking point 3*
+
+**[Total: 5 marks]**
+(i) The stopwatch with the error and the type of error is...
+
+- Stopwatch A; **[1 mark]**
+- Zero error / the reading on the stopwatch is not zero; **[1 mark]**
+
+(ii) To correct the error the student should...
+
+- Subtract the zero error / start reading on the stopwatch from the measured time (at the end) to get the actual time; **[1 mark]**
+
+(iii) The variable type the stopwatch could be is...
+
+- Continuous variable **because **time has an infinite number of possible values that can be measured;** [1 mark]**
+
+**OR**
+
+- Control variable **because **the time the student exercises for needs to be the same for each repeat;** [1 mark]**
+
+**OR**
+
+- Independent variable **because **the time the student exercises for can be changed;** [1 mark]**
+
+**[Total: 4 marks]**
+(i) An ethical consideration that should be considered before students take part in the investigation is...
+
+Any **one **from the following:
+
+- Attaining student consent (to record their heart rate); **[1 mark]**
+- Being sensitive to any student who finds the results upsetting; **[1 mark]**
+- Offering the students a chance to opt out before beginning, or at any stage of the procedure; **[1 mark]**
+- Avoid the use of the word ‘normal’ or ‘expected’ when discussing heart rate; **[1 mark]**
+
+(ii) Two health and safety precautions that should be carried out are...
+
+Any **two **from the following:
+
+- Appropriate footwear and clothing worn by students / wear trainers and sports kit; **[1 mark]**
+- Students with identified physical/ health conditions should not be involved; **[1 mark]**
+- Carry out the activity in a large open space; **[1 mark]**
+- Warm up and cool down before and after exercise; **[1 mark]**
+
+**[Total: 3 marks]**
+(i) A results table should include...
+
+- Separate columns for the exercise type and the heart rate **AND** there is enough space for five different exercises to be recorded; **[1 mark]**
+- Appropriate headings **and **units used for heart rate; **[1 mark]**
+- Units in the heading only and not in the body of the table; **[1 mark]**
+- Five different heart rates recorded; **[1 mark]**
+
+(ii) The independent and dependent variables are...
+
+- Independent variable: exercise type; **[1 mark]**
+- Dependent variable: heart rate (in bpm); **[1 mark]**
+
+(ii) The control variable is...
+
+- The time to do the exercise (in seconds); **[1 mark]**
+
+(iv) The student could make the results more reliable by...
+
+- Repeating the experiment at least two more times; **[1 mark]**
+- Therefore you can spot/identify anomalous data/anomalies/outliers; **[1 mark]**
+
+(v) The percentage change for running is...
+
+- Initial heart rate - end heart rate: 180 - 75 = 105; **[1 mark]**
+- Divide by the initial heart rate: 105 ÷ 75 =  1.4; **[1 mark]**
+- Convert to percentage: 1.4 x 100 = 140%; **[1 mark]**
+
+**[Total: 11 marks]**
+
+> *A results table for (d) (i) could look like...*
+
+| **exercise type** | **heart rate / bpm** |
+|---|---|
+| running | 180 |
+| walking | 80 |
+| star jumps | 160 |
+| skipping rope | 175 |
+| press ups | 95 |
+
+> *To calculate the percentage change:*
+
+![cba23e58-151c-4a27-9a19-76f8477dab1d](assets/011-cba23e58-151c-4a27-9a19-76f8477dab1d.jpeg)
+
 ## Multiple Choice Questions (29 questions)
 
 
@@ -295,3 +536,814 @@ Veins do not have a pulse. A person’s pulse is a measurement of heart rate bas
 **B** is incorrect because the pulmonary vein carries oxygenated blood from the lungs back to the left side of the heart (the only vein in the body which carries oxygenated blood).
 
 **D** is incorrect because the aorta and renal artery carry oxygenated blood.
+
+## Theory Questions (22 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> - The left ventricle pumps blood to the whole body while the right ventricle only pumps blood to the lungs **OR** the left ventricle pumps blood further than the right ventricle **[1 mark]**
+> - The left ventricle needs to generate higher pressure / must contract with more force **[1 mark]**
+
+> **[exam-tip]**
+> Make sure you connect the destination of the blood (whole body vs. lungs) to the requirement for a thicker wall. Avoid vague statements such as "it needs more muscle" without explaining why.
+> **[mark-scheme]**
+> Any **four** from:
+> 
+> - Oxygenated and deoxygenated blood are kept separate
+> - Higher blood pressure to body tissues is maintained
+> - More efficient supply of oxygen/nutrients to body tissues
+> - A higher metabolic rate / rate of respiration can be maintained
+> - Lower pressure in the lungs prevents damage to capillaries
+> 
+> **[4 marks]**
+
+> **[exam-tip]**
+> Make sure you explain every advantage. Do not stop at "maintains a lower pressure to the lungs" — explain the effect of this, i.e. that it "prevents damage to the delicate capillaries in the lungs".
+
+### Q2
+> **[mark-scheme]**
+> (i) The name of the component in the blood that carries oxygen to the muscles is:
+> 
+> - Red blood cells **OR** haemoglobin **[1 mark]**
+> 
+> (ii) The gas that is released by cells as a waste product is:
+> 
+> - Carbon dioxide **[1 mark]**
+
+### Q3
+> **[mark-scheme]**
+> The independent variable is:
+> 
+> - Whether or not the student has taken part in exercise / running; **[1 mark]**
+> 
+> The dependent variable is:
+> 
+> - Heart rate; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+> **[mark-scheme]**
+> The changes in heart rate can be described as follows:
+> 
+> Any **three** of the following:
+> 
+> - Heart rate increases immediately after exercise; **[1 mark]**
+> - After exercise heart rate approximately doubles / increases by a factor of 2; **[1 mark]**
+> - Heart rate decreases after 10 minutes of rest; **[1 mark]**
+> - Heart rate does not return fully to resting levels after 10 minutes; **[1 mark]**
+> 
+> **[Total: 3 marks]**
+> **[mark-scheme]**
+> Heart rate increases during physical activity because:
+> 
+> Any **three** of the following:
+> 
+> - Muscle contraction requires energy; **[1 mark]**
+> - Increased rate of aerobic respiration; **[1 mark]**
+> - An increased supply of oxygen / glucose is needed (for respiration); **[1 mark]**
+> - More waste carbon dioxide is produced (by respiration); **[1 mark]**
+> 
+> **[Total: 3 marks]**
+> **[mark-scheme]**
+> The validity could be improved as follows:
+> 
+> Any **two** of the following:
+> 
+> - Increase the number of students taking part in the study; **[1 mark]**
+> - Ensure that the participants had similar fitness levels; **[1 mark]**
+> - Standardise the intensity of exercise / asking all students to run at the same speed; **[1 mark]**
+> - Repeat the investigation at least three times for each student; **[1 mark]**
+> - Ensure that the environmental conditions (e.g. temperature) are the same for all students / repeats; **[1 mark]**
+> - Ensure that all students consumed the same food beforehand / the same time period has passed since their last meal; **[1 mark]**
+> - Ensure that all students are equally well rested prior the the experiment; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+
+> **[exam-tip]**
+> When a question asks about *validity*, it's asking whether the experiment really measures what it’s supposed to measure.
+> 
+> In this case, the aim is to measure how **exercise affects heart rate**. So, to make the results valid, you need to **control other variables** that might affect heart rate—like food intake, temperature, or how much rest the student had before running.
+> 
+> If those factors aren’t kept the same, then any changes in heart rate might not be due to exercise alone—and that makes the results *less valid*.
+
+### Q4
+Any two from:
+
+- ECG; **[1 mark]**
+- Listening to the closing of the valves;  **[1 mark]**
+
+*Accept any other valid suggestion e.g. blood pressure monitoring / wearing fitness trackers; * **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+(i)
+
+Correct labelling of:
+
+- Atrium;  **[1 mark]**
+- Septum;  **[1 mark]**
+- Ventricle; **[1 mark]**
+- Valve;  **[1 mark]**
+
+*Note that only one of each structure needs to be labelled to obtain * **[1 mark]**
+
+![Diagram of a heart with labelled parts: atrium, septum, valve, ventricle. Blood vessels A-D indicate blood flow directions to and from lungs/body.](assets/024-diagram-of-a-heart-with-labelled-parts-atrium-se.png)
+
+(ii)
+
+- **B** and **C** are arteries;  **[1 mark]**
+- **D** is the pulmonary vein; **[1 mark]**
+
+**[Total: 6 marks]**
+(i)
+
+- The coronary arteries; **[1 mark]**
+
+(ii)
+
+Any three from:
+
+- Diet **OR** high fat/cholesterol diet; **[1 mark]**
+- Obesity; **[1 mark]**
+- Stress; **[1 mark]**
+- Smoking;**[1 mark]**
+- Genetic predisposition / family history;**[1 mark]**
+- Age; **[1 mark]**
+- Sex; **[1 mark]**
+
+*Accept any other valid suggestion e.g. physical inactivity ****OR**** excessive alcohol consumption ****OR**** diabetes; ***[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q6
+(i)
+
+- Left ventricle; **[1 mark]**
+
+(ii)
+
+- Vena cava; **[1 mark]**
+
+A maximum of two from:
+
+- Valves are present; **[1 mark] **
+- It has a wide lumen / the lumen has a large diameter; **[1 mark]**
+- It has a thin wall;** [1 mark]**
+- The wall is lined by a single layer of cells; **[1 mark]**
+- The wall contains muscle; **[1 mark]**
+- The wall contains elastic (fibres); **[1 mark]**
+
+(iii)
+
+- X = semilunar valve; **[1 mark]**
+- It prevents backflow of blood / ensures that blood flows in one direction; **[1 mark]**
+(i)
+
+- Shading in any part of the pulmonary vein;** [1 mark]**
+
+![Diagram of blood circulation showing heart, pulmonary vein highlighted, capillaries in lungs and respiring tissues labelled. Arrow indicates blood flow direction.](assets/027-diagram-of-blood-circulation-showing-heart-pulmo.png)
+
+(ii)
+
+Any two from:
+
+- The heart has two sides / a left and a right side; **[1 mark]**
+- The blood must flow through the heart twice in one circuit of the body; **[1 mark]**
+- There is a pulmonary and a systemic circuit / a circuit from the heart to the lungs and from the heart to the rest of the body; **[1 mark]**
+
+(iii)
+
+Any four from:
+
+- Oxygenated and deoxygenated blood are kept separate / do not mix / are separated by the septum; **[1 mark]**
+- Efficient supply of oxygen (to the body;** [1 mark]**
+- Efficient supply of (named) nutrients (to the body;** [1 mark]**
+- Low(er) pressure in pulmonary artery / circuit; **[1 mark]**
+- Prevents damage to (capillaries in the) lungs;** [1 mark]**
+- Allows more time for gas exchange;** [1 ma**rk]
+- Allows high(er) pressure (in body); **[1 mark] **
+- Ensures efficient blood supply to body; **[1 mark]**
+- Allows a high metabolic rate / rate of respiration; **[1 mark]**
+
+### Q7
+**Red blood cell: **
+
+- *Appearance: *biconcave (disc / shape) / no nucleus / red blood cells smaller than white blood cell(s);** [1 mark]**
+- *Function: *transports oxygen / carbon dioxide; **[1 mark]**
+
+**Lymphocyte:**
+
+- *Appearance:* little cytoplasm / large(r) nucleus / nucleus fills most of the cell; **[1 mark]**
+- *Function: *active immunity / responds to antigen(s) or vaccine(s)  / produces antibodies / memory cells;** [1 mark]**
+
+**Phagocyte: **
+
+- *Appearance: *lobed / irregular-shaped / C-shaped nucleus; **[1 mark]**
+- *Function: *engulf pathogens / phagocytosis; **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *You cannot get more than one mark for naming more than one appearance or function of each of the types of blood cells. For example if you said that red blood cells have no nucleus and a biconcave shape you can only get a maximum of one mark for that.*
+(i) Fibrinogen → Fibrin; **[1 mark]**
+
+(ii) Prevent blood loss; **[1 mark]**
+
+- Prevent entry of pathogens / microbes / a named example of a pathogen; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q8
+- ECG / listening to valves (closing); **[1 mark]**
+
+*A mark can be awarded here for any other correct method (not measuring pulse rate)*
+
+Listening to valves closing is what doctors do if they listen using a stethoscope.
+
+**[Total: 1 mark]**
+
+### Q9
+(i)
+
+- Running; **[1 mark]**
+
+(ii)
+
+- 125 (bpm); **[1 mark]**
+
+![Bar chart showing heart rate in beats per minute for activities: resting, running, walking, cycling, and swimming. Cycling is highlighted.](assets/031-bar-chart-showing-heart-rate-in-beats-per-minute.png)
+
+(iii)
+
+- Identifying 64 bpm as the resting heart rate and 96 bpm as the walking heart rate; **[1 mark]**
+- ((96 - 64) ÷ 64 =) 50(%);** [2 marks]**
+
+*Full marks awarded for the correct answer with no working shown*
+
+![Bar chart showing heart rates for resting, running, walking, cycling, swimming, with calculations on percentage increase from resting to walking.](assets/032-bar-chart-showing-heart-rates-for-resting-runnin.png)
+
+**[Total: 4 marks]**
+
+### Q10
+> **[mark-scheme]**
+> The structure of the fish circulatory system can be compared to that of mammals as follows:
+> 
+> Any **three** of the following:
+> 
+> - Both fish and mammals have their blood contained in vessels / have a closed circulatory system; **[1 mark]**
+> - Fish have a single circulatory system **WHILE** mammals have a double circulatory system **OR **blood passes through the heart once per circuit in fish **WHILE** it passes through twice per circuit in mammals; **[1 mark]**
+> - Fish have a two-chambered heart **WHILE **mammals have a four-chambered heart **OR** fish have 1 atrium/ventricle **WHILE** mammals have 2 atria/ventricles; **[1 mark]**
+> - Fish blood receives oxygen from gills **WHILE** mammal blood receives oxygen in lungs; **[1 mark]**
+> 
+> **[Total: 3 marks]**
+> **[mark-scheme]**
+> The structure of fish gills supports efficient gas exchange as follows:
+> 
+> Any **three** of the following:
+> 
+> - They have a large surface area **SO** increasing diffusion rate; **[1 mark]**
+> - They have thin surfaces **SO** reducing diffusion distance; **[1 mark]**
+> - They have a good blood supply **SO** maintaining a steep concentration gradient; **[1 mark]**
+> - Water is constantly flowing over the gills **SO** maintaining a steep concentration gradient; **[1 mark]**
+> 
+> **[Total: 3 marks]**
+
+> **[exam-tip]**
+> While you are not expected to know about fish gills in any detail, your knowledge of gas exchange in the lungs should allow you to answer this question.
+> **[mark-scheme]**
+> The benefit of an increased heart rate in fish in response to stress can be explained as follows:
+> 
+> Any **three** of the following:
+> 
+> - Stressed fish swim around more (e.g. to escape predators); **[1 mark]**
+> - More energy is needed for muscle contraction/movement; **[1 mark]**
+> - Muscles require more oxygen for increased respiration **OR **higher carbon dioxide levels in blood due to increased respiration; **[1 mark]**
+> - Heart rate increases to increase rate of blood circulation; **[1 mark]**
+> 
+> **[Total: 3 marks]**
+
+### Q11
+> **[mark-scheme]**
+> (i) The letter(s) of the structure(s) that contain deoxygenated blood are:
+> 
+> **All** of the following:
+> 
+> - A, E, G, B; **[1 mark] **
+> 
+> (ii) The letter(s) of the structure(s) that receive blood from the lungs are:
+> 
+> - F (and D); **[1 mark] **
+> 
+> (iii) The letter(s) of the structure(s) that are veins are:
+> 
+> **All** of the following:
+> 
+> - A, D; **[1 mark]**
+> 
+> **[Total: 3 marks]**
+> **[mark-scheme]**
+> The name of the valve located between chambers F and H in Fig. 1 is:
+> 
+> - Atrioventricular valve; **[1 mark]**
+> 
+> *Accept bicuspid valve.*
+> 
+> **[Total: 1 mark]**
+> **[mark-scheme]**
+> (i) The location of the septum in the mammalian heart can be described as follows:
+> 
+> - The septum is located between the left and right sides of the heart / between G and H (in Fig. 1); **[1 mark]**
+> 
+> (ii) The importance of the septum can be explained as follows:
+> 
+> - It separates oxygenated and deoxygenated blood / prevents oxygenated and deoxygenated blood from mixing; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+> **[mark-scheme]**
+> The heart muscle and valves function to pump blood through the heart as follows:
+> 
+> - Atria <u>contract</u> to push blood into the ventricles; **[1 mark]**
+> - The valves prevent blood flowing from the ventricles back into the atria; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+
+### Q12
+> **[mark-scheme]**
+> A comparison of the structural features of arteries and veins should include:
+> 
+> Any **two** from the following:
+> 
+> - Arteries have thick<u>er</u> walls / veins have thinn<u>er</u> walls; **[1 mark]**
+> - Veins have valves** WHILE** arteries do not; **[1 mark]**
+> - Arteries have a narrow<u>er</u> lumen / veins have a wid<u>er</u> lumen; **[1 mark]**
+> 
+> *Accept the statement that *<u>*both*</u>* have muscle / elastic (fibres) in their walls.*
+> 
+> **[Total: 2 marks]**
+
+> **[exam-tip]**
+> Remember that 'compare' questions require you to identify similarities and/or differences; when describing differences, each statement must include a direct comparison, e.g. 'X has ... while Y has ...'.
+> 
+> Note that this question asks about structural features specifically, so statements about the role of arteries and veins will not be credited.
+> **[mark-scheme]**
+> The structure labelled Q is a:
+> 
+> - Capillary; **[1 mark]**
+> 
+> **[Total: 1 mark]**
+> **[mark-scheme]**
+> The function of the structure labelled Q is to:
+> 
+> - Allow exchange of substances between blood and tissues / carry blood to the cells / supply the cells with oxygen/glucose / remove waste products from the cells; **[1 mark]**
+> 
+> **[Total: 1 mark]**
+> **[mark-scheme]**
+> The structure of capillaries enables efficient exchange because:
+> 
+> Any **one** of the following:
+> 
+> - They have thin walls / walls that are one cell thick **SO** reducing diffusion distance; **[1 mark]**
+> - There are gaps between the cells that line capillaries **SO **allowing substances to leak out / leave; **[1 mark]**
+> - They are narrow **SO **flow of blood is slowed and there is enough time for gas exchange to occur; **[1 mark]**
+> 
+> **[Total: 1 mark]**
+
+> **[exam-tip]**
+> Note that core students are not expected to *know* about how the structure of capillaries is related to their function, but this is a 'suggest' question, indicating that application of knowledge is required. Core students should be aware of the principles of an efficient exchange surface from the gas exchange topic, so this question expects students to apply this knowledge to the context of capillaries.
+
+### Q13
+> **[mark-scheme]**
+> Coronary heart disease affects the heart as follows:
+> 
+> - Blockage of coronary arteries; **[1 mark]**
+> - Reduced blood flow / oxygen supply to heart cells; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+> **[mark-scheme]**
+> Risk factors for coronary heart disease include:
+> 
+> Any **three** of the following:
+> 
+> - Diet; **[1 mark]**
+> - Lack of exercise; **[1 mark]**
+> - Stress; **[1 mark]**
+> - Smoking; **[1 mark]**
+> - Genetics; **[1 mark]**
+> - Age; **[1 mark]**
+> - (Biological) sex; **[1 mark]**
+> 
+> **[Total: 3 marks]**
+> **[mark-scheme]**
+> Lifestyle changes that can reduce the risk of coronary heart disease include:
+> 
+> - Balanced diet / low cholesterol diet / diet that is lower in saturated fats; **[1 mark]**
+> - Regular exercise; **[1 mark]**
+> 
+> *Accept other correct changes, e.g. stop smoking, reduce salt intake, reduce caffeine intake.*
+> 
+> **[Total: 2 marks]**
+> **[mark-scheme]**
+> An ECG can help detect signs of coronary heart disease as follows:
+> 
+> - An ECG can detect abnormal heart rhythms/beats; **[1 mark]**
+> 
+> **[Total: 1 mark]**
+
+> **[exam-tip]**
+> You should be aware of the role of an ECG in monitoring the activity of the heart. An ECG would show changes to the normal heart beat, which could be a sign of coronary heart disease.
+> 
+> Note that an ECG alone is unlikely to be able to diagnose coronary heart disease, but an unusual ECG would lead to further tests.
+
+### Q14
+The correct use of ticks (✓) in Table 1 is as follows:
+
+| **structure and function** | **arteries** |
+|---|---|
+| carries blood at high pressure | **Final answer:** **✓** |
+| carries blood towards the heart |   |
+| has a thick wall | **Final answer:** **✓** |
+| has a narrow lumen | **Final answer:** **✓** |
+| has valves present throughout the vessel |   |
+
+**[1 mark]** *for each correct tick.*
+
+**[Total: 3 marks]**
+(i) The function of the red blood cells shown in Fig.1 is:
+
+- Carries / supplies oxygen (to cells/tissues); **[1 mark]**
+
+(ii) Other components of blood are:
+
+Any **two **of the following:
+
+- White blood cells / phagocytes / lymphocytes; **[1 mark]**
+- Platelets; **[1 mark]**
+- Plasma; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q15
+The blood vessel shown is:
+
+- Capillary / capillaries; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *You can tell this is a capillary because the walls are only one cell thick and the red and white blood cell fill the lumen of the vessel. *
+**Three** ways a red blood cell is different from white blood are:
+
+Any** three **from the following:
+
+**Red blood cells:**
+
+- Have no nucleus; **[1 mark]**
+- Are smaller (than white blood cells); **[1 mark]**
+- Contain haemoglobin / Hb; **[1 mark]**
+- Have a (bi)concave disc shape / *(accept a description here)*; **[1 mark]**
+- Carry oxygen; **[1 mark]**
+- Do not produce antibodies / are not involved in immunity; **[1 mark]**
+- Do not carry out phagocytosis; **[1 mark]**
+
+*Accept any other valid points such as transports carbon dioxide / there are more RBC’s than WBC's, for a maximum of ***[2 marks] ***Accept the converse for each point in relation to white blood cells*
+
+**[Total: 3 marks]**
+
+> *A common misconception is to think that red blood cells do not contain cytoplasm. They do in fact have cytoplasm, this is where haemoglobin can be found. *
+(i) The liquid component of blood is:
+
+- Plasma; **[1 mark]**
+
+***Ignore ****mention of water.*
+
+(ii) **Three** substances that are transported in the liquid component of blood are:
+
+Any **three **from the following:
+
+- Glucose;** [1 mark]**
+- Amino acids; **[1 mark]**
+- (Plasma) proteins;** [1 mark]**
+- Fats / glycerol / fatty acids; **[1 mark]**
+- Vitamins / one named vitamin;** [1 mark]**
+- Mineral (ions) / one named mineral ion; **[1 mark]**
+- Hormones; **[1 mark]**
+- Urea; **[1 mark]**
+- Carbon dioxide;** [1 mark]**
+- Water; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *It is common to think you would get separate marks for "mineral" and "ion" but minerals are in fact elements (such as phosphorus or calcium or sodium) found in their ionic state within the body. You may also misread the question here and want to give three types of blood cells rather than three substances. so be sure to read the question carefully. *
+
+### Q16
+(i) The function of a red blood cell is:
+
+- (To) transport oxygen; **[1 mark]**
+
+(ii) Ways in which a red blood cell is adapted to its function are:
+
+Any **two **from the following:
+
+- Contains haemoglobin; **[1 mark]**
+- Biconcave (disc shape) / large surface area to volume ratio; **[1 mark]**
+- No nucleus / (named) organelle; **[1 mark]**
+
+**[Total: 3 marks]**
+The name of a component of blood that is responsible for clotting is:
+
+- Platelet(s); **[1 mark]**
+
+**[Total: 1 mark]**
+(i) The name of the disease caused by a blockage in the arteries supplying the heart muscle is:
+
+- Coronary heart (disease) / CHD;** [1 mark]**
+
+(ii) Risk factors that increase the risk of a blockage in the arteries supplying the heart muscle are:
+
+Any **three **from the following:
+
+- High (blood) cholesterol; **[1 mark]**
+- High fat diet;** [1 mark]**
+- Obesity; **[1 mark]**
+- High salt intake;** [1 mark]**
+- (Too much) stress; **[1 mark]**
+- High blood pressure; **[1 mark]**
+- (Excess) alcohol consumption; **[1 mark]**
+- Smoking tobacco; **[1 mark]**
+- (Older) age; **[1 mark]**
+- Gender; **[1 mark]**
+- Genetic predisposition; **[1 mark]**
+- Lack of exercise; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Be careful to avoid vague phrases such as 'poor diet' and 'exercise'. It may be clear to you what you're trying to say, but your meaning has to be crystal-clear to the examiner who reads your script. Put yourself in the examiner's position and ask yourself, 'Has this candidate communicated this clearly enough?'*
+Table 1 is correctly filled in as follows:
+
+| **name of blood vessel** | **letter** |
+|---|---|
+| aorta | **Final answer:** **B** |
+| pulmonary artery | **Final answer:** **G** |
+| renal vein | **Final answer:** **E** |
+| vena cava | **Final answer:** **F / D** |
+
+*Award* **[1 mark]** *for each correct row*
+
+**[Total: 4 marks]**
+
+> *The vena cava has two possible answers (F and D) because it is the main vein transporting deoxygenated blood back to the heart. As deoxygenated blood leaves organs such as the kidneys, it joins other deoxygenated blood from lower-down organs such as the legs, in the vena cava. *
+The structures of the circulatory system that maintain a one-way flow of blood are:
+
+Any **four **from the following:
+
+- Heart / ventricles / atrium, pump / contract / AW; **[1 mark]**
+- Valves in the heart; **[1 mark]**
+- Valves in veins;** [1 mark]**
+- Valves prevent backflow (of blood); **[1 mark]**
+- Valves ensure blood does not go from ventricle to atrium; **[1 mark]**
+- Valves prevent blood flowing from, pulmonary artery / aorta, to ventricle; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *A key phrase in the question is 'one-way'. This means that your answer should focus on how a one-way flow is maintained. You may well know all the details of a double circulatory system and may wish to share your knowledge, but a detailed account of the circulatory is not required in this question. Re-read the question, stop and think for a moment to avoid launching into a futile and time-wasting long answer. *
+
+### Q17
+(i) Control variables the scientist should have ensured throughout the investigation are...
+
+Any **two **of the following:
+
+- Sex/(biological) gender; **[1 mark]**
+- Height; **[1 mark]**
+- Weight/BMI; **[1 mark]**
+- Health / medical conditions / medications taken; **[1 mark]**
+
+> *Age has also been controlled but this information is given to you in the question stem, so you will not receive a mark for mentioning this again in your answer.*
+
+(ii) The results of the investigation are...
+
+- Heart rate varies with different physical activity; **[1 mark]**
+- Running gave the highest heart rate/pulse rate/bpm; **[1 mark]**
+- Resting gave the lowest heart rate/pulse rate/bmp; **[1 mark]**
+
+***Accept ****data/values from the graph given as part of the answer*
+
+**[Total: 5 marks]**
+The scientist could measure and record heart rate by...:
+
+- Producing an ECG; **[1 mark]**
+- Listening to the sound of the valves (opening and) closing; **[1 mark]**
+- Taking a pulse; **[1 mark]**
+
+***Accept ****other correct methods of monitoring the activity of the heart ****Accept ****a description of taking a pulse*
+
+**[Total: 3 mark]**
+The effects of swimming on heart rate is explained by...
+
+- (An increase in heart rate would ensure that) oxygen/glucose is delivered faster (to the muscle cells); **[1 mark]**
+- For (aerobic) respiration; **[1 mark]**
+- Waste products/carbon dioxide can be removed faster (from the muscle cells); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Read the question carefully here. You are asked to explain, not describe, the effect swimming has on heart rate. This means that you have to think of reasons why swimming would increase the heart rate of a person.*
+
+### Q18
+Structures **A** to **D** are...
+
+- **A** = Left atrium; **[1 mark]**
+- **B** = Left ventricle; **[1 mark]**
+- **C **= Right ventricle
+- **D** = Right atrium; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Remember that when looking at a diagram of the heart it is as if you are looking in a mirror. This means that the right side of the heart in Fig. 1 represents the left side of that heart when it is located in the body and vice versa.*
+The septum on Fig. 1 is identified as shown...
+
+- Correctly identified septum; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *The septum is the structure of the heart that separates the left and right chambers from each other. It keeps oxygenated and deoxygenated blood separate.*
+
+![a7656cf0-ce0f-495c-b9e2-12259bf094bb](assets/042-a7656cf0-ce0f-495c-b9e2-12259bf094bb.jpeg)
+The human circulation system is described as a double circulation system because...
+
+- (The idea that) for every one circuit of the body, the blood passes through the heart twice; **[1 mark]**
+
+**[Total: 1 mark]**
+The function of the right side of the heart is...
+
+- To receive deoxygenated heart (from the body); **[1 mark]**
+- To pump (deoxygenated) blood to the lungs; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q19
+The differences in appearance and the functions of the three cells labelled in Fig. 1 are as follows...
+
+- (In appearance red blood cells are) biconcave (discs) **OR** have no nucleus **OR** are smaller than white blood cells; **[1 mark]**
+- (The function of red blood cells is to) transport oxygen; **[1 mark]**
+- (In appearance lymphocytes have) little cytoplasm **OR** a large nucleus / a nucleus that fills most of the cell;** [1 mark]**
+- (The function of lymphocytes is to enable) active immunity / a response to (non-self) antigens / a response to vaccines **OR** to produce antibodies / form memory cells (during an immune response); **[1 mark]**
+- (In appearance phagocytes have a) lobed/irregular-shaped/C-shaped nucleus; **[1 mark]**
+- (The function of phagocytes is to) engulf pathogens / carry out phagocytosis; **[1 mark]**
+
+***Accept**** transport of carbon dioxide for red blood cell function.*
+
+**[Total: 6 marks]**
+
+> *Make sure that you cover both appearance and function for each of the three cell types.*
+(i) The empty boxes should be filled in as follows...
+
+- Fibrinogen → fibrin; **[1 mark]**
+
+(ii) Roles of blood clotting include...
+
+- Prevent/reduce blood loss; **[1 mark]**
+- Prevent entry of / infection by (named) pathogen/microorganism/microbe; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q20
+(i) The type of activity that resulted in the highest pulse rate was:
+
+- Running; **[1 mark]**
+
+(ii) The pulse rate of the student when she was cycling:
+
+- 125 (bpm); **[1 mark]**
+
+(iii) The percentage increase in pulse rate between resting and walking can be calculated as follows:
+
+- [(98 - 64) ÷ 64] x 100; **[1 mark]**
+- = 53(%); **[1 mark]**
+
+*Full marks awarded for the correct answer only.*
+
+**[Total: 4 marks]**
+
+> *The calculation for (a) (iii) can be done as follows:*
+
+![igcse-2018-nov-p31-q3aiii](assets/046-igcse-2018-nov-p31-q3aiii.png)
+One other way of monitoring heart activity includes:
+
+Any **one **from the following:
+
+- ECG;** [1 mark]**
+- Listening to the (sounds of the) valves (closing);** [1 mark]**
+
+**[Total: 1 mark]**
+Changes to a person's breathing during exercise includes:
+
+- The breathing rate/frequency will increase / more breaths per minute (will be taken); **[1 mark]**
+- The breathing depth increases / the volume of air inhaled / lung volume (during each breath) will increase; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *These changes are necessary during exercise in order to increase the oxygen supply to respiring muscle cells, while removing the increased amount of carbon dioxide produced by these cells.*
+
+### Q21
+The red and white blood cells are...
+
+- A red blood cell correctly identified; **[1 mark]**
+- A white blood cell correctly identified; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *A white blood cell is identified by the clearly visible, often, lobed, nucleus. A red blood cell is smaller and has no nucleus. Platelets are the smallest structure in this image, although you are not asked to label them. *
+
+![ff52dcfb-6531-44c4-889b-2fea8f904d2a](assets/048-ff52dcfb-6531-44c4-889b-2fea8f904d2a.jpeg)
+The process of blood clotting by platelets is...
+
+- Platelets release chemicals; **[1 mark]**
+- <u>Soluble fibrinogen</u> is converted into <u>insoluble fibrin</u>; **[1 mark]**
+- An insoluble mesh forms **AND** traps (red) blood cells; **[1 mark]**
+- (The clot develops into a scab **SO**) prevents infection / entry of pathogens / blood loss; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> **[exam-tip]**
+> Platelets trigger clotting by releasing chemicals, not by physically patching the wound.
+> 
+> Fibrinogen is dissolved in the plasma, not stored inside platelets.
+
+> *It is important not to get soluble fibrinogen confused with insoluble fibrin so take some time to learn these terms and their correct order of occurrence in the process of blood clotting. *
+The percentage decrease is...
+
+- Difference in death rates = 72 - 57 = 15 ; **[1 mark]**
+- Divide by original value 15 ÷ 72 = 0.208; **[1 mark]**
+- 0.208 x 100 =21 (%) ; **[1 mark]**
+
+***Accept ****values in the range of 71 to 73 for year 2001 reading, and 56 to 58 for year 2017 reading*
+
+**[Total: 3 marks]**
+
+![8847ee1d-e8e9-4a01-887e-bf11abd6e10f](assets/050-8847ee1d-e8e9-4a01-887e-bf11abd6e10f.jpeg)
+A comparison of the structure and function of veins and arteries includes:
+
+Any **four **of the following:
+
+- <u>Both</u> carry/circulate blood around the body; **[1 mark]**
+- <u>Both</u> contain muscle and** **elastic fibres in their walls; **[1 mark]**
+- Arteries have thick muscle walls **WHILE** veins have thin muscle walls; **[1 mark]**
+- Arteries (mainly) carry oxygenated blood **WHILE** veins (mainly) carry deoxygenated blood; **[1 mark]**
+- Arteries carry blood away from the heart **WHILE** veins carry blood toward the heart; **[1 mark]**
+- Arteries carry blood at high pressure **WHILE** veins carry blood at lower pressure; **[1 mark]**
+- Arteries do not have valves **WHILE** veins do; **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q22
+The effect of the blockage on heart muscle cells is:
+
+Any **two** from the following:
+
+- Less blood flows to the heart muscle / cells / tissue; **[1 mark]**
+- Less oxygen reaches the heart muscle / cells / tissue; **[1 mark]**
+- Therefore less (aerobic) respiration occurs **OR **less energy is <u>released</u>; **[1 mark]**
+- Heart cells will die; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is important when talking about energy from respiration that you use the term **released** and not produced, made or created as these terms are incorrect and will not award you marks. *
+(i) The difference in blood flow in person **X** and **Y** is because...
+
+- Person **X** arteries are narrower/blocked; **[1 mark]**
+
+(ii) The volume of blood flowing through the coronary arteries of person **X** in 1 hour is...
+
+- 167 x 60 (minutes) = 10 020 cm<sup>3</sup>; **[1 mark]**
+- 10020 ÷ 1000 = 10.02 dm<sup>3</sup>; **[1 mark]**
+
+**[Total: 3 marks]**
+A conclusion of the treatments is...
+
+Any **four **of the following:
+
+- <u>**A**</u><u> + </u><u>**B**</u> is effective (treatment) / lowers risk of coronary heart disease (after treatment started); **[1 mark]**
+- **D** (alone) is most effective (treatment) / lowest risk of coronary heart disease (after treatment started); **[1 mark]**
+- **A** alone is more effective than **B** (alone) **OR A** alone and **B** alone increase risk of coronary heart disease; **[1 mark]**
+- <u>**A**</u><u> + </u><u>**C**</u> / **B** (alone) is the least effective treatment / has the greatest risk of coronary heart disease; **[1 mark]**
+- Cannot tell if **C** (alone) is effective **OR **treatment **C** alone has not been tested; **[1 mark]**
+
+***Accept ****correct use of data for each marking point*
+
+**[Total: 4 marks]**
+
+> *This is a tricky graph to interpret so you need to take your time to ensure you understand the data before writing your answer. You do not need to know about the effect of statins as a treatment for CHD nor specific details about plaques to answer this question.  *
+An evaluation of the claim is...
+
+Any **three **from the following:
+
+- The data was carried out over a long period / ten year study; **[1 mark]**
+- Data is only available for one person **OR **treatments tested on only one person; **[1 mark]**
+- No statistical tests have been carried out; **[1 mark]**
+- Treatment **C** alone has not been tested; **[1 mark]**
+- All possible combinations of statins have not been tested; **[1 mark]**
+- Risk of coronary heart disease has not reached zero (so has not been cured) **OR **no treatments led to the risk of coronary heart disease being zero (so has not been cured); **[1 mark]**
+
+***Accept ****named combinations of statin treatments for marking point 5*
+
+**[Total: 3 marks]**
+
+> *For questions asking you to evaluate a statement, you should pay attention to how the data support the statement as well as the ways in which it does not support the statement.*

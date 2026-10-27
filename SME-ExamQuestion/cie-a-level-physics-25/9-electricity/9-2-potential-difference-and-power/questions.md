@@ -1,6 +1,6 @@
 # Exam Questions — Potential Difference & Power
 **9. Electricity** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 17 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 22 questions across 2 sets
 
 
 ## Multiple Choice Questions (17 questions)
@@ -179,3 +179,263 @@ The amount of energy transferred when 10 C of charge passes through a p. d. of 2
 Taking gravitational field strength to be 10 N kg<sup>–1</sup>.
 
 What is the value of *x*?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — easy — 12 marks
+
+**Q1** [4 marks]
+
+The table shows a range of household appliances, supplied with 230 V, and their power ratings.
+
+| Appliance | Power rating | Current drawn |
+|---|---|---|
+| Desk lamp | 14 W |   |
+| 55 inch OLED TV | 125 W |   |
+| Toaster | 480 W |   |
+| Microwave | 900 W |   |
+
+Complete the table by adding the values for the current required for each appliance.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+The table shows a range of household appliances, supplied with 230 V, and their power ratings. Toaster power rating: 480 W.
+
+Calculate the electrical work done by using the toaster on full power for 3 minutes.
+
+**Q1** [2 marks]
+
+**Extract:**
+
+The table shows a range of household appliances, supplied with 230 V, and their power ratings. The Toaster has a power rating of 480 W.
+Calculate the electrical work done by using the toaster on full power for 3 minutes: Toaster power, P = 480 W; Time, t = 3 minutes = 180 s; W = P t = 480 × 180 = 86 400 J
+
+Calculate the amount of charge that flowed through the toaster circuit during the 3 minutes of use. Give your answer to 2 significant figures.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+The table shows a range of household appliances, supplied with 230 V, and their power ratings.
+Toaster power rating = 480 W
+
+Calculate the resistance of the toaster.
+
+### Q2 — easy — 8 marks
+
+**Q2** [1 mark]
+
+State the correct arrangement for the equation linking power, current and resistance.
+
+**Q2** [3 marks]
+
+**Extract:**
+
+The correct arrangement for the equation linking power, current and resistance is: P = I²R
+
+A current of 3.6 A passes through a 20 Ω resistor.
+
+Calculate the power transferred to the resistor. Give your answer to 2 significant figures.
+
+**Q2** [3 marks]
+
+Complete the sentences.
+
+Choose answers from the box.
+
+Each answer can be used once, more than once or not at all.
+
+| **current** | **kinetic** | **potential difference** |
+|---|---|---|
+| **thermal** | **gravitational** | **resistance** |
+
+When the .............................. is increased, more energy is transferred to each coulomb of charge passing through the cell.
+
+For a given potential difference, if .............................. is increased, then the power transferred to a component is increased.
+
+A high current means that more power is wasted to the .............................. store of the surroundings.
+
+**Q2** [1 mark]
+
+Draw a voltmeter, connected correctly, to the circuit diagram in Fig 1.1 to measure the **combined **potential difference across the bulb and the variable resistor.
+
+![2-2-e-3a-circuit-variable-resistor](assets/004-2-2-e-3a-circuit-variable-resistor.png)
+
+**Fig 1.1**
+
+### Q3 — medium — 17 marks
+
+**Q3** [3 marks]
+
+The power *P* dissipated in a resistor of resistance *R* is measured for a range of values of the potential difference *V* across it.
+
+The results are shown in the table in Fig. 1.1.
+
+| ***V***** / ** | ***V ***<sup>**2**</sup>** / ** | ***P***** / ** |
+|---|---|---|
+| 1.00 | 1.0 | 0.214 |
+| 1.71 | 2.9 | 0.58 |
+| 2.25 |   | 1.011 |
+| 2.67 |   | 1.43 |
+| 3.00 | 9.0 | 1.80 |
+| 3.27 | 10.7 | 2.176 |
+| 3.50 | 12.3 | 2.43 |
+
+**Fig. 1.1.**
+
+For the table in Fig. 1.1
+
+i) Add the correct units.
+
+[1]
+
+ii) Complete the missing data.
+
+[1]
+
+iii) Identify errors in the recorded the data and correct them.
+
+[1]
+
+**Q3** [7 marks]
+
+**Extract:**
+
+The power P dissipated in a resistor of resistance R is measured for a range of values of the potential difference V across it. The results are shown in the table in Fig. 1.1.
+V / V | V^2 / V^2 | P / W
+1.00 | 1.0 | 0.21
+1.71 | 2.9 | 0.58
+2.25 | 5.1 | 1.01
+2.67 | 7.1 | 1.43
+3.00 | 9.0 | 1.80
+3.27 | 10.7 | 2.18
+3.50 | 12.3 | 2.43
+
+Complete the graph of the data on Fig. 1.2. below.
+
+![~oWogJyv_9-1-1b-m-graph-for-current-questions](assets/007-owogjyv-9-1-1b-m-graph-for-current-questions.png)
+
+** Fig. 1.2.**
+
+i) Plot the two missing points **and **complete the graph.
+
+[3]
+
+ii) Determine the gradient of the graph.
+
+[3]
+
+iii) Use the gradient of the graph to obtain a value for *R*.
+
+[1]
+
+**Q3** [7 marks]
+
+**Extract:**
+
+The power P dissipated in a resistor of resistance R is measured for a range of values of the potential difference V across it. The results are shown in the table in Fig. 1.1.
+V / V, V^2 / V^2, P / W:
+1.00, 1.0, 0.214
+1.71, 2.9, 0.58
+2.25, 5.1, 1.011
+2.67, 7.1, 1.43
+3.00, 9.0, 1.80
+3.27, 10.7, 2.176
+3.50, 12.3, 2.43
+
+From part (b): R from graph (gradient) = 5.05 Ω (R is the reciprocal of the gradient, R = V^2/P).
+
+The rest of this question is based on the data in the table Fig. 1.1 in part (a).
+
+i) Determine the value of *R* when *V* = 3.50 V.
+
+[1]
+
+ii) The uncertainty in *V* is ± 0.01 V.
+
+The uncertainty in P is ± 0.05 W.
+
+Calculate the percentage uncertainty in the value of R calculated in part (i).
+
+[3]
+
+iii) Hence calculate the uncertainty in the value of *R*.
+
+[1]
+
+iv) State and explain whether the value of *R* you calculated in part (i) is consistent with the value of *R* you determined from the gradient in part (b).
+
+[2]
+
+### Q4 — medium — 10 marks
+
+**Q4** [3 marks]
+
+The table in Fig. 1.1 shows the power output of three heaters. All the manufacturers claim that the heaters are rated to 1500 W.
+
+![9-2-m-q2a-sq-heaters-cie-ial-physics](assets/009-9-2-m-q2a-sq-heaters-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+Determine the most efficient heater.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+The table in Fig. 1.1 shows the power output of three heaters. All the manufacturers claim that the heaters are rated to 1500 W.
+
+Explain how these heaters can be made more efficient.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+The table in Fig. 1.1 shows the power output of three heaters. All the manufacturers claim that the heaters are rated to 1500 W.
+Heater A: Current, I = 17 A, Potential difference, V = 90 V
+
+Calculate the work done by heater A when operating for 20 minutes.
+
+**Q4** [2 marks]
+
+Two different heaters X and Y with the same internal resistance, 5*R* use currents of *I* and 2*I *respectively.
+
+State the magnitude of the power of Y in terms of *I *and *R*.
+
+### Q5 — easy — 9 marks
+
+**Q5** [2 marks]
+
+State the **symbol** and the **SI unit **for potential difference.
+
+**Q5** [3 marks]
+
+Electric charge and potential difference are related.
+
+(i) State an equation that relates electric charge and potential difference
+
+[1]
+
+(ii) Write one **joule** in terms of units of **potential difference** and **electric charge**
+
+[2]
+
+**Q5** [2 marks]
+
+A lamp is powered by a 3.0 V cell.
+
+Calculate the work done on the lamp by a single electron in this circuit.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+A lamp is powered by a 3.0 V cell. Calculate the work done on the lamp by a single electron in this circuit.
+Work done by an electron with one cell, W = 4.8 × 10^−19 J
+
+Three more identical 3.0 V cells are added in series to the circuit.
+
+Calculate the new work done per electron.

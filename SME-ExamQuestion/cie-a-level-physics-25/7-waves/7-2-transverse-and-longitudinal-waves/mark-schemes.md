@@ -268,3 +268,250 @@ Option **D** is incorrect because
 **B **is incorrect because both transverse and longitudinal waves can be refracted as they pass from hot to cold air
 
 **D **is incorrect because both transverse and longitudinal waves can be reflected from a solid surface
+
+## Structured Questions (5 questions)
+
+
+### Q1
+The similarities between waves X and Y are:
+
+- Both waves have the <u>same period</u> (10 squares); **[1 mark]**
+- Both waves have the <u>same frequency</u> (3 complete waves in the time shown); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Wavelength would not be an acceptable answer here, because the graph shows time on the x-axis not distance. When time is on the x-axis, the distance between each trough or crest is the period.*
+The difference between waves X and Y is:
+
+- The waves have different amplitudes **OR** wave X has a greater amplitude than wave Y;** [1 mark]**
+
+**[Total: 1 mark]**
+Transverse waves are:
+
+- Vibrations / oscillations that are perpendicular / normal to the direction of energy transfer; **[1 mark]**
+
+Longitudinal waves are:
+
+- Vibrations / oscillations that are parallel to the direction of energy transfer; **[1 mark]**
+
+**[Total: 2 marks]**
+The wave type can be determined by:
+
+**EITHER**
+
+- Determining the motion of the particles relative to the direction of propagation / energy transfer; **[1 mark]**
+
+**OR**
+
+- Polarisation only works for transverse waves / longitudinal waves cannot be polarised; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q2
+Determine the amplitudes from the graphs:
+
+- In each case reading maximum displacement from the *y*-axis of the graph:
+
+![ma1a_wave-characteristics_ib-sl-physics-sq-medium](assets/013-ma1a-wave-characteristics-ib-sl-physics-sq-mediu.png)
+
+- Wave A = 4 cm **AND **Wave B = 6 cm; **[1 mark]**
+
+Calculate how much B is larger than A:
+
+- $\frac{B}{A}$= $\frac{6}{4}$ = $\frac{3}{2}$
+- B is $\frac{3}{2}$ **OR** 1.5 times larger than A; **[1 mark]**
+
+**[Total: 2 marks]**
+(i) The velocity of wave A:
+
+List the known quantities:
+
+- Frequency A, *f*<sub>*A*</sub> = 8.0 Hz
+
+Determine wavelength of A from the graph:
+
+- Wavelength A, *λ*<sub>*A*</sub> = 4.0 cm **OR**** **= 0.04 m **[1 mark]**
+
+  - You can read wavelength it from the x-axis, at the point where one wave completes ![ma1b-1_wave-characteristics_ib-sl-physics-sq-medium](assets/014-ma1b-1-wave-characteristics-ib-sl-physics-sq-med.png)
+
+Calculate the speed of the wave:
+
+- velocity of wave A:
+
+  - *v = fλ*
+  - *v*<sub>*A*</sub>* = f*<sub>*A*</sub>*λ*<sub>*A*</sub>= 4.0 × 8.0
+  - *v  *= 32 cm s<sup>–1</sup> **OR**** **= 0.32 m s<sup>–1</sup> **[1 mark]**
+
+(ii) Determine the frequency of wave B:
+
+List the known quantities:
+
+- Velocity of wave A, *v*<sub>A</sub>= 32 cm s<sup>–1</sup>
+
+Determine wavelength of B from the graph:
+
+![ma1b-2_wave-characteristics_ib-sl-physics-sq-medium](assets/015-ma1b-2-wave-characteristics-ib-sl-physics-sq-med.png)
+
+- Wavelength B, *λ*<sub>*B*</sub> = 1.8 cm **OR**** **= 0.018 m **[1 mark]**
+
+Determine velocity of wave B:
+
+- Velocity of wave B = velocity wave A, *v*<sub>*B*</sub>* *= 32 cm s<sup>–1</sup> (because they are travelling at the same speed)
+
+Calculate the frequency of the wave:
+
+- *f*<sub>*B*</sub>* = *$\frac{v_{B}}{λ_{B}}$*= *$\frac{32}{1.8}$
+- *f*<sub>*B*</sub>* =* 18 Hz **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *In a question like this, where measurements are given in non-SI units, you must state your units in your final answer. It is reasonable to calculate for these waves in either centimetres or metres, so be careful to show which you worked in and clearly show in your answer which is applicable. Notice that in the final calculation for frequency, as long as you do not mix up your units, i.e.: use all centimetres or all metres, then the value for frequency will be correct as the unit of length has cancelled out as this is a ratio.*
+The stationary wave is generated in the tank by:
+
+- Two (water) waves (in the tank) move in opposite directions; **[1 mark]**
+- As they are reflected from the fixed ends of the tank; **[1 mark]**
+- The two waves interfere / superpose to produce a standing / stationary wave; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The key words here are the ‘interfere’ or ‘superpose’ for how the waves ‘meet’ to create the stationary wave. It is better to use these terms instead of just ‘meet’ or ‘overlap’ as they are more relevant to this scenario and not as vague. This makes it much easier for the examiner to award you the mark!*
+
+### Q3
+A wave is transverse if...
+
+- The oscillations are perpendicular / at right angles to the direction of wave motion / energy transfer; **[1 mark]**
+
+**[Total: 1 mark]**
+The properties of a longitudinal wave are:
+
+**Final answer:** **Any ****two**** from:**
+
+- The oscillations are parallel to the direction of wave motion / energy transfer;** [1 mark]**
+- Comprises of areas of compressions and rarefactions; **[1 mark]**
+- Requires a medium to propagate; **[1 mark]**
+- Cannot be polarised; **[1 mark]**
+
+**[Total: 2 marks]**
+Examples of transverse waves are:
+
+**Final answer:** **Any ****two**** from:**
+
+- Water waves; **[1 mark]**
+- Secondary waves / S-waves; **[1 mark]**
+- Vibrations on a (guitar) string; **[1 mark]**
+- Electromagnetic waves / any named EM wave (gamma, X-ray, ultraviolet, visible light, infrared, microwave, radio); **[1 mark] **
+
+**[Total: 2 marks]**
+Examples of longitudinal waves are:
+
+**Final answer:** **Any ****two**** from:**
+
+- Sound waves;** [1 mark]**
+- Ultrasound; **[1 mark]**
+- Primary waves / P-waves; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q4
+Explain what is meant by a progressive wave:
+
+- A transfer of energy; **[1 mark]**
+- With no transfer of matter; **[1 mark]**
+
+**[Total: 2 marks]**
+A correctly completed graph of the oscillation looks like:
+
+![screenshot-2023-02-27-at-12-24-48](assets/018-screenshot-2023-02-27-at-12-24-48.png)
+
+- Shape is sinusoidal with exactly two cycles shown; **[1 mark]**
+- Amplitude at ± 0.03; **[1 mark]**
+- Period = 0.2 s **AND **x-axis labelled 0.1, 0.2, 0.3 and 0.4; **[1 mark]**
+- Curve starts at (0, 0.03); **[1 mark]**
+
+**[Total: 4 marks]**
+For time *t* = 0, state which of the points W, X, Y and Z:
+
+i) Is instantaneously at rest:
+
+- X;** [1 mark]**
+
+ii) Has the greatest speed:
+
+- W; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the new speed of point W at *t* = 0. Explain your reasoning:
+
+- The speed of the oscillation is proportional to frequency when amplitude is constant, so doubling *f* doubles the maximum speed; **[1 mark]**
+- Therefore speed doubles **OR** new speed = 1.9 m s<sup>–1 </sup>**[1 mark]**
+
+**[Total: 2 marks]**
+
+Frequency has doubled, so point W has got to move double the distance in the same time / move the same distance in half the time.
+
+### Q5
+Explain:
+
+- The disturbances/oscillations/vibrations are parallel for longitudinal and perpendicular for transverse **[1 mark]**
+- To the direction of transmission of energy/wave/propagation/direction **[1 mark]**
+
+*Do not accept ‘movement’ of the wave*
+
+Example:
+
+**Final answer:** **Any ****one**** from:**
+
+- Electromagnetic waves e.g. microwaves, radio waves, UV **[1 mark]**
+- Waves on a string **[1 mark]**
+- Seismic S-waves **[1 mark]**
+- Ripples on the surface of water **[1 mark]**** **
+
+**[Total: 3 marks]**
+![3-1-s-q--q3b-answer-medium-aqa-a-level-physics](assets/019-3-1-s-q-q3b-answer-medium-aqa-a-level-physics.png)
+
+- Clear diagram of particle oscillations / pressure variations (compressions and rarefactions)
+
+**AND**
+
+- Includes label indicating direction of propagation;* ***[1 mark]**
+
+Explain:
+
+**Final answer:** **Any ****two**** from:**
+
+- The sound source is a vibrating source (e.g. speaker); **[1 mark]**
+- Energy is transferred to (air) molecules; **[1 mark]**
+- Energy is transferred by collisions between molecules; **[1 mark]**
+- Oscillations of (air) molecule neighbours are slightly out of phase; **[1 mark]**
+- Oscillations / waves are longitudinal / energy transfer is parallel to vibrations; **[1 mark]**** **
+
+**[Total: 3 marks]**
+The total distance is equal to the distance to and from the wall
+
+- Distance travelled = 2 × 30 = 60 m **[1 mark]**
+
+Calculating the speed of sound:
+
+- Speed = $\frac{\mathrm{distance}}{\mathrm{time}}$
+- Speed =$\frac{60}{0.18}$ **[1 mark]**
+- Speed = 333.3 = 330 m s<sup>–1</sup> (2 s .f.) **[1 mark]**** **
+
+**[Total: 3 marks]**
+To calculate the frequency of the sound wave:
+
+List the known quantities:
+
+- Speed of sound, *v* = 333** **m s<sup>–1</sup> (from part (c))
+
+Determine the wavelength:
+
+- From Fig. 1.1: 140 cm = 2$λ$
+- $λ$= 70 cm **[1 mark]**
+
+Calculate the frequency:
+
+- *f* = $\frac{v}{λ}$
+- *f* = $\frac{333}{0.70}$**[1 mark]**
+- *f *= 476 =** **480 Hz (2 s. f.) **[1 mark]**** **
+
+**[Total: 3 marks]**

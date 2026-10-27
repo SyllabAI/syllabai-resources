@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:30:02Z",
+ "generated_utc": "2026-10-26T14:44:51Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -53,14 +53,28 @@
    "question_count": 19,
    "questions_embedded": 19,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/9-electricity/9-1-electric-current/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_bd6VFTSSWBPyZX9P",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/9-electricity/9-1-electric-current/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 19,
+  "questions_embedded": 26,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images423png.png": "001-cie-ial-images423png.png",
@@ -69,7 +83,15 @@
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images436png.png": "004-cie-ial-images436png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images433png.png": "005-cie-ial-images433png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images431png.png": "006-cie-ial-images431png.png",
-   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images434png.png": "007-cie-ial-images434png.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images434png.png": "007-cie-ial-images434png.png",
+   "https://cdn.savemyexams.com/uploads/2025/12/1258-cie-paper-2-q6-drift-speed-wire.png": "008-a-cylindrical-conductor-with-current-i-flowing-f.png",
+   "https://cdn.savemyexams.com/uploads/2025/12/37152-cie-paper-2-q6-drift-speed-vs-position-graph.png": "009-grid-graph-with-x-axis-labelled-position-along-w.png",
+   "https://cdn.savemyexams.com/uploads/2025/12/34232-cie-paper-2-q6-drift-speed-vs-position-graph-ma.png": "010-graph-of-average-drift-speed-versus-position-alo.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/9-1-2a-m-conducting-chip.png": "011-9-1-2a-m-conducting-chip.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/screenshot-2023-03-01-at-09-26-57.png": "012-screenshot-2023-03-01-at-09-26-57.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/5-1-s-q--q1b-easy-aqa-a-level-physics.png": "013-5-1-s-q-q1b-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/5-1-s-q--q1b-ma-easy-aqa-a-level-physics.png": "014-5-1-s-q-q1b-ma-easy-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/file-000-5.png": "015-file-000-5.png"
   }
  },
  "questions": [
@@ -343,6 +365,13 @@
        "latex": "Q=It",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>=</mo><mi>I</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "Q equals I t"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q equals open parentheses 10 cross times 10 to the power of negative 3 end exponent close parentheses cross times 1800 equals 18 space straight C",
+       "render": "$Q = ( 10 \\times 10^{- 3} ) \\times 1800 = 18 \\mathrm{C}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -455,6 +484,13 @@
        "alt": "Q equals n e"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q equals open parentheses 7.5 cross times 10 to the power of 18 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses",
+       "render": "$Q = ( 7.5 \\times 10^{18 ) \\times ( 1.6 \\times 10^{-19} } )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "Q=1.2",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>=</mo><mn>1</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "Q equals 1.2"
@@ -543,9 +579,44 @@
        "alt": "Q equals N q"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "I to the power of plus equals open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of plus",
+       "render": "$I^{+} = ( \\frac{N q}{t} )^{+}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I to the power of minus space equals space open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of minus",
+       "render": "$I^{-} = ( \\frac{N q}{t} )^{-}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{N}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>N</mi><mi>t</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "N over t"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I equals space open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of plus space plus space open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of minus",
+       "render": "$I = ( \\frac{N q}{t} )^{+} + ( \\frac{N q}{t} )^{-}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "8.16 cross times 10 to the power of negative 3 end exponent equals open parentheses N over t close parentheses open parentheses 3.2 cross times 10 to the power of negative 19 end exponent close parentheses plus open parentheses 2.58 cross times 10 to the power of 16 close parentheses open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses",
+       "render": "$8.16 \\times 10^{- 3} = ( \\frac{N}{t} ) ( 3.2 \\times 10^{- 19} ) + ( 2.58 \\times 10^{16 ) ( 1.6 \\times 10^{-19} } )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N over t equals fraction numerator open parentheses 8.16 cross times 10 to the power of negative 3 end exponent close parentheses minus open parentheses 4.13 cross times 10 to the power of negative 3 end exponent close parentheses over denominator 3.2 cross times 10 to the power of negative 19 end exponent end fraction equals 1.26 cross times 10 to the power of 16 space straight s to the power of negative 1 end exponent",
+       "render": "$\\frac{N}{t} = \\frac{( 8.16 \\times 10^{- 3} ) - ( 4.13 \\times 10^{- 3} )}{3.2 \\times 10^{- 19} } = 1.26 \\times 10^{16 \\mathrm{s}^{-1} }$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -605,6 +676,13 @@
        "latex": "Q=It",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>=</mo><mi>I</mi><mo> </mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "Q equals I space t"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q equals open parentheses 5 cross times 10 to the power of negative 3 end exponent close parentheses cross times 200 equals 1 space straight C",
+       "render": "$Q = ( 5 \\times 10^{- 3} ) \\times 200 = 1 \\mathrm{C}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "Q=10\\times10=100C",
@@ -778,6 +856,20 @@
        "alt": "Q equals I space t"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals open parentheses 7 cross times 7 close parentheses plus 1 half open parentheses 11 minus 7 close parentheses open parentheses 7 close parentheses equals 63 space straight C",
+       "render": "$= ( 7 \\times 7 ) + 1 \\frac{1}{2} ( 11 - 7 ) ( 7 ) = 63 \\mathrm{C}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals open parentheses 7 cross times 7 close parentheses minus 1 half open parentheses 7 minus 5 close parentheses open parentheses 7 close parentheses equals 42 space straight C",
+       "render": "$= ( 7 \\times 7 ) - 1 \\frac{1}{2} ( 7 - 5 ) ( 7 ) = 42 \\mathrm{C}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "=63-42=21C",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>63</mn><mo>-</mo><mn>42</mn><mo>=</mo><mn>21</mn><mo> </mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "equals 63 minus 42 equals 21 space straight C"
@@ -849,6 +941,13 @@
        "latex": "t=10s",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>10</mn><mo> </mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "t equals 10 space straight s"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q equals open parentheses 20 cross times 10 to the power of negative 3 end exponent close parentheses cross times 10 equals 0.2 space straight C",
+       "render": "$Q = ( 20 \\times 10^{- 3} ) \\times 10 = 0.2 \\mathrm{C}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "Q=ne",
@@ -934,6 +1033,13 @@
        "alt": "E equals V I t"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals 220 cross times 15 cross times open parentheses 2.0 cross times 10 to the power of negative 3 end exponent close parentheses equals 6.6 space straight J",
+       "render": "$= 220 \\times 15 \\times ( 2.0 \\times 10^{- 3} ) = 6.6 \\mathrm{J}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "=\\frac{totalenergy}{time}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mrow><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo> </mo><mi>e</mi><mi>n</mi><mi>e</mi><mi>r</mi><mi>g</mi><mi>y</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "equals fraction numerator t o t a l space e n e r g y over denominator t i m e end fraction"
@@ -944,9 +1050,23 @@
        "alt": "equals n o. o f space p u l s e s cross times fraction numerator e n e r g y space o f space 1 space p u l s e over denominator t i m e end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals open parentheses fraction numerator n o. o f space p u l s e s over denominator t i m e end fraction close parentheses cross times e n e r g y space o f space 1 space p u l s e",
+       "render": "$= ( \\frac{n o. o f p u l s e s}{t i m e} ) \\times e n e r g y o f 1 p u l s e$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{no.ofpulses}{time}=200s^{-1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>n</mi><mi>o</mi><mo>.</mo><mi>o</mi><mi>f</mi><mo> </mo><mi>p</mi><mi>u</mi><mi>l</mi><mi>s</mi><mi>e</mi><mi>s</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac><mo>=</mo><mn>200</mn><mo> </mo><msup><mi>s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "fraction numerator n o. o f space p u l s e s over denominator t i m e end fraction equals 200 space s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals open parentheses fraction numerator n o. o f space p u l s e s over denominator t i m e end fraction close parentheses cross times e n e r g y space o f space 1 space p u l s e",
+       "render": "$= ( \\frac{n o. o f p u l s e s}{t i m e} ) \\times e n e r g y o f 1 p u l s e$",
+       "via": "alt-transpile"
       },
       {
        "latex": "=200\\times6.6=1320W",
@@ -1030,6 +1150,13 @@
        "latex": "A=\\frac{I}{nvq}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mfrac><mi>I</mi><mrow><mi>n</mi><mi>v</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "A equals fraction numerator I over denominator n v q end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A equals fraction numerator 6.0 over denominator open parentheses 8.2 cross times 10 to the power of 28 close parentheses cross times open parentheses 0.09 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 5.1 space cross times 10 to the power of negative 6 end exponent",
+       "render": "$A = \\frac{6.0}{( 8.2 \\times 10^{28 ) \\times ( 0.09 \\times 10^{-3} } ) \\times ( 1.6 \\times 10^{- 19} )} = 5.1 \\times 10^{- 6}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1280,6 +1407,13 @@
        "latex": "e=1.6\\times10^{-19}C",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>e</mi><mo>=</mo><mn>1</mn><mo>.</mo><mn>6</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup><mo> </mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "e equals 1.6 cross times 10 to the power of negative 19 end exponent space straight C"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n equals fraction numerator I t over denominator e end fraction equals fraction numerator open parentheses 50 cross times 10 to the power of negative 6 end exponent close parentheses open parentheses 1.0 cross times 10 to the power of negative 4 end exponent close parentheses over denominator open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 3.125 cross times 10 to the power of 10",
+       "render": "$n = \\frac{I t}{e} = \\frac{( 50 \\times 10^{- 6} ) ( 1.0 \\times 10^{- 4} )}{( 1.6 \\times 10^{- 19} )} = 3.125 \\times 10^{10}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1414,9 +1548,23 @@
        "alt": "space v equals fraction numerator I over denominator n q A end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "A equals 1.0 space cm squared equals 1.0 cross times open parentheses 10 to the power of negative 2 end exponent close parentheses squared space straight m squared equals 1.0 cross times 10 to the power of negative 4 end exponent space straight m squared",
+       "render": "$A = 1.0 cm^{2} = 1.0 \\times ( 10^{- 2} )^{2} \\mathrm{m}^{2} = 1.0 \\times 10^{- 4} \\mathrm{m}^{2}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "n=2.0\\times10^{13}\\mathrm{cm}^{-3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>0</mn><mo>×</mo><msup><mn>10</mn><mn>13</mn></msup><msup><mi>cm</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "n equals 2.0 cross times 10 to the power of 13 cm to the power of negative 3 end exponent"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "1 space c m cubed equals 1 cross times open parentheses 10 to the power of negative 2 end exponent close parentheses cubed space straight m cubed equals 1 cross times 10 to the power of negative 6 end exponent space straight m cubed",
+       "render": "$1 c m^{3} = 1 \\times ( 10^{- 2} )^{3} \\mathrm{m}^{3} = 1 \\times 10^{- 6} \\mathrm{m}^{3}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{2.0\\times10^{13}}{1\\times10^{-6}}=2.0\\times10^{19}m^{-3}",
@@ -1437,6 +1585,13 @@
        "latex": "v=\\frac{I}{nqA}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mi>I</mi><mrow><mi>n</mi><mi>q</mi><mi>A</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "v equals fraction numerator I over denominator n q A end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v equals fraction numerator 56 cross times 10 to the power of negative 6 end exponent over denominator open parentheses 2.0 cross times 10 to the power of 19 close parentheses open parentheses 1.0 cross times 10 to the power of negative 4 end exponent close parentheses open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 0.175 space straight m space straight s to the power of negative 1 end exponent",
+       "render": "$v = \\frac{56 \\times 10^{- 6} }{( 2.0 \\times 10^{19 ) ( 1.0 \\times 10^{-4} } ) ( 1.6 \\times 10^{- 19} )} = 0.175 \\mathrm{m} \\mathrm{s}^{- 1}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1503,6 +1658,41 @@
        "alt": "Q equals I space t"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P Q equals open square brackets W close square brackets open square brackets C close square brackets equals open square brackets straight J space straight s to the power of negative 1 end exponent close square brackets open square brackets straight A space straight s close square brackets equals straight J space straight A",
+       "render": "$P Q = [ W ] [ C ] = [ \\mathrm{J} \\mathrm{s}^{- 1} ] [ \\mathrm{A} \\mathrm{s} ] = \\mathrm{J} \\mathrm{A}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "E I equals open square brackets J close square brackets open square brackets A close square brackets equals straight J space straight A",
+       "render": "$E I = [ J ] [ A ] = \\mathrm{J} \\mathrm{A}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals open square brackets W close square brackets equals straight J space straight s to the power of negative 1 end exponent",
+       "render": "$P = [ W ] = \\mathrm{J} \\mathrm{s}^{- 1}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator Q squared R over denominator t end fraction equals open parentheses I t close parentheses squared over t V over I equals V I t equals E equals straight J",
+       "render": "$\\frac{Q^{2} R}{t} = \\frac{( I t )^{2}}{t} \\frac{V}{I} = V I t = E = \\mathrm{J}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "E R squared equals V I t open parentheses V over I close parentheses squared equals fraction numerator V cubed t over denominator I end fraction",
+       "render": "$E R^{2} = V I t ( \\frac{V}{I} )^{2} = \\frac{V^{3} t}{I}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "V^{2}t",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>V</mi><mn>2</mn></msup><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "V squared t"
@@ -1538,6 +1728,849 @@
        "alt": "P Q equals E I"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WKPVQH26B696BYhj",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Nm7ZZxxMJrqwq6KD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the *coulomb*.",
+     "solution_md": "> **[mark-scheme]**\n> A coulomb is defined as:\n> \n> - An ampere second **OR** The charge moved by a current of 1 ampere in 1 second **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_KF726BDvtG4qZqYG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "mark",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XXYrjzbhDGc9qbbW"
+     ],
+     "part_tier": null,
+     "problem_md": "An electric current is a flow of charge carriers.\n\nIn the following list, underline the possible charges for a charge carrier.\n\n1.6 × 10<sup>–20</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 1.6 × 10<sup>–19</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 4.0 × 10<sup>–19</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 8.0 × 10<sup>–19</sup> C",
+     "solution_md": "Underline the possible charges for a charge carrier:\n\n1.6 × 10<sup>–20</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <u>1.6 × 10</u><sup><u>–19</u></sup><u> C</u> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 4.0 × 10<sup>–19</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <u>8.0 × 10</u><sup><u>–19</u></sup><u> C</u>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark is awarded if only 1.6 × 10<sup>–19</sup> C **AND **8.0 × 10<sup>–19</sup> C are underlined **AND **no others are underlined\n\n> **[exam-tip]**\n> The charge carried by charged particles is quantised. This means charge always occurs in multiples of the elementary charge $e$, which is equal to 1.6 × 10<sup>–19</sup> C.",
+     "equations": [
+      {
+       "latex": "e",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>e</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "e"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_x44NqTcjTbqC6tqT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dgVDp57yWTbBpq22"
+     ],
+     "part_tier": null,
+     "problem_md": "The diameter of a wire XY varies linearly with distance along the wire as shown in Fig. 6.1.\n\n![A cylindrical conductor with current I flowing from left to right. Diameter at point X is 2d, narrowing to d at point Y. Drift speed at X is indicated as Vx.](assets/008-a-cylindrical-conductor-with-current-i-flowing-f.png)\n\n**Fig. 6.1**\n\nThere is a current $I$ in the wire. At end X of the wire, the diameter is $2d$ and the average drift speed of the free electrons is $v_{X}$. At end Y of the wire, the diameter is $d$.\n\nOn Fig. 6.2, sketch a graph to show the variation of the average drift speed with position along the wire between X and Y.\n\n![Grid graph with x-axis labelled \"position along wire\" from X to Y, and y-axis labelled \"average drift speed\" with increments vx to 4vx.](assets/009-grid-graph-with-x-axis-labelled-position-along-w.png)\n\n**Fig. 6.2**",
+     "solution_md": "Sketch a graph to show the variation of the average drift speed with position along the wire:\n\n- Determine the relationship between drift speed and wire diameter\n\nCross-sectional area of wire: $A = \\mathrm{\\pi } r^{2} = \\mathrm{\\pi } ( \\frac{d}{2} )^{2}$\n\nAt X: $A = \\mathrm{\\pi } ( \\frac{2 d}{2} )^{2} = \\mathrm{\\pi } d^{2}$\n\nAt Y: $A = \\mathrm{\\pi } ( \\frac{d}{2} )^{2} = \\frac{ \\mathrm{\\pi } d^{2}}{4}$\n\nDrift speed: $I=Anvq$\n\n$v=\\frac{I}{Anq}$\n\nSince $I$, $n$, and $q$ are constant $v\\propto\\frac{1}{A}$\n\n$\\frac{v_{Y}}{v_{X}}=\\frac{d^{2}}{\\frac{d^{2}}{4}}=4$\n\nTherefore $v_{Y}=4v_{X}$\n\n- Sketch a line on the graph:\n\n![Graph of average drift speed versus position along a wire, showing a curve with increasing positive gradient from vx at X to 4vx at Y.](assets/010-graph-of-average-drift-speed-versus-position-alo.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a line drawn between (X, $v_{X}$) and (Y, $4v_{X}$)\n> \n> 1 mark for a line drawn with an increasing magnitude of gradient\n\n> **[exam-tip]**\n> Since diameter $d$ varies linearly, area $A$ varies as $d^{2}$, so $v\\propto\\frac{1}{d^{2}}$. This means the variation of $v$ with $d$ is a non-linear increase. Hence, the gradient increases towards Y.",
+     "equations": [
+      {
+       "latex": "I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I"
+      },
+      {
+       "latex": "2d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>d</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 d"
+      },
+      {
+       "latex": "v_{X}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>v</mi><mi mathvariant=\"normal\">X</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v subscript straight X"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A space equals space straight pi r squared space equals space straight pi open parentheses d over 2 close parentheses squared",
+       "render": "$A = \\mathrm{\\pi } r^{2} = \\mathrm{\\pi } ( \\frac{d}{2} )^{2}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A space equals space straight pi open parentheses fraction numerator 2 d over denominator 2 end fraction close parentheses squared space equals space straight pi d squared",
+       "render": "$A = \\mathrm{\\pi } ( \\frac{2 d}{2} )^{2} = \\mathrm{\\pi } d^{2}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A space equals space straight pi open parentheses d over 2 close parentheses squared space equals space fraction numerator straight pi d squared over denominator 4 end fraction",
+       "render": "$A = \\mathrm{\\pi } ( \\frac{d}{2} )^{2} = \\frac{ \\mathrm{\\pi } d^{2}}{4}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "I=Anvq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>A</mi><mi>n</mi><mi>v</mi><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space A n v q"
+      },
+      {
+       "latex": "v=\\frac{I}{Anq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>I</mi><mrow><mi>A</mi><mi>n</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator I over denominator A n q end fraction"
+      },
+      {
+       "latex": "I",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "q"
+      },
+      {
+       "latex": "v\\propto\\frac{1}{A}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>A</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space proportional to space 1 over A"
+      },
+      {
+       "latex": "\\frac{v_{Y}}{v_{X}}=\\frac{d^{2}}{\\frac{d^{2}}{4}}=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>v</mi><mi mathvariant=\"normal\">Y</mi></msub><msub><mi>v</mi><mi mathvariant=\"normal\">X</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msup><mi>d</mi><mn>2</mn></msup><mstyle displaystyle=\"true\"><mfrac bevelled=\"true\"><msup><mi>d</mi><mn>2</mn></msup><mn>4</mn></mfrac></mstyle></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v subscript straight Y over v subscript straight X space equals space fraction numerator d squared over denominator bevelled d squared over 4 end fraction space equals space 4"
+      },
+      {
+       "latex": "v_{Y}=4v_{X}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">Y</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><msub><mi>v</mi><mi mathvariant=\"normal\">X</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v subscript straight Y space equals space 4 v subscript straight X"
+      },
+      {
+       "latex": "v_{X}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>v</mi><mi mathvariant=\"normal\">X</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v subscript straight X"
+      },
+      {
+       "latex": "4v_{X}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><msub><mi>v</mi><mi mathvariant=\"normal\">X</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 v subscript straight X"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "d^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>d</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d squared"
+      },
+      {
+       "latex": "v\\propto\\frac{1}{d^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mfrac><mn>1</mn><msup><mi>d</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space proportional to space 1 over d squared"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZcFzf38y8Xrq2wqW",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_ZKs5m3wztfkHJ8pr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk"
+     ],
+     "part_tier": null,
+     "problem_md": "A power source is connected across a component. The current in the component is 40.0 mA.\n\nCalculate the total charge that flows past a point in the component in 3 minutes.",
+     "solution_md": "Calculate the total charge that flows past a point in the component in 3 minutes:\n\nList the known quantities:\n\n- Current, *I *= 40.0 mA = 40.0 × 10<sup>−3</sup> A\n- Time, *t* = 3 minutes = 180 s\n\nUse the equation for charge and calculate:\n\n- $Q = I t = ( 40.0 \\times 10^{- 3} ) \\times 180 = 7.2 \\mathrm{C}$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q space equals space I t space equals space open parentheses 40.0 cross times 10 to the power of negative 3 end exponent close parentheses cross times 180 equals 7.2 space straight C",
+       "render": "$Q = I t = ( 40.0 \\times 10^{- 3} ) \\times 180 = 7.2 \\mathrm{C}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WCBJZXRSx8dZZQyR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XXYrjzbhDGc9qbbW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA power source is connected across a component. The current in the component is 40.0 mA. Calculate the total charge that flows past a point in the component in 3 minutes.\nCurrent, I = 40.0 mA = 40.0 × 10^−3 A; Time, t = 3 minutes = 180 s; Q = It = (40.0 × 10^−3) × 180 = 7.2 C\n\nCalculate the number of electron charge carriers passing the same point in the conductor in this time.",
+     "solution_md": "Calculate the number of electron charge carriers passing the same point in the conductor in this time:\n\nList the known quantities:\n\n- Total charge, *Q* = 7.2 C (from part a)\n- Magnitude of charge per electron, *q* = 1.6 × 10<sup>−19</sup> (from the data booklet)\n\nCalculate the total number of electrons:\n\n- $N = \\frac{Q}{q} = \\frac{7.2}{( 1.6 \\times 10^{- 19} )} = 4.5 \\times 10^{19}$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N space equals space Q over q equals fraction numerator 7.2 over denominator open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 4.5 cross times 10 to the power of 19",
+       "render": "$N = \\frac{Q}{q} = \\frac{7.2}{( 1.6 \\times 10^{- 19} )} = 4.5 \\times 10^{19}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5Nx3HMXN6sgKfYS2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YZ4GHX4FGJNjDzgg",
+      "spcpt_HF9Sn3fSM6bjDpMh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA power source is connected across a component. The current in the component is 40.0 mA. Calculate the total charge that flows past a point in the component in 3 minutes. [Answer: Q = It = (40.0 × 10^−3) × 180 = 7.2 C]\n\n8.6 J of energy are transferred to the conductor in this time.\n\n(i) Calculate the potential difference across the component.\n\n[2]\n\n(ii) Calculate the resistance of the conductor.\n\n[2]",
+     "solution_md": "(i) Calculate the potential difference across the component:\n\nList the known quantities:\n\n- Energy, *W *= 8.6 J\n- Charge, *Q* = 7.2 C\n\nUse the equation defining potential difference:\n\n- $V=\\frac{W}{Q}=\\frac{8.6}{7.2}$ **[1 mark]**\n- $V = 1.2 \\mathrm{V} ( 2 \\mathrm{s} . \\mathrm{f} . )$ **[1 mark]**\n\n(ii) Calculate the resistance of the conductor:\n\nList the known quantities:\n\n- Potential difference, *V* = 1.2 V\n- Current, *I* = 40 × 10<sup>−3</sup> A (from part a)\n\nUse the equation for resistance:\n\n- $R = \\frac{V}{I} = \\frac{1.2}{( 40 \\times 10^{- 3} )}$ **[1 mark]**\n- $R=30Ω$ **[1 mark].**\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": "V=\\frac{W}{Q}=\\frac{8.6}{7.2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>W</mi><mi>Q</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>8</mn><mo>.</mo><mn>6</mn></mrow><mrow><mn>7</mn><mo>.</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V space equals space W over Q space equals space fraction numerator 8.6 over denominator 7.2 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V space equals space 1.2 space straight V space open parentheses 2 space straight s. straight f. close parentheses",
+       "render": "$V = 1.2 \\mathrm{V} ( 2 \\mathrm{s} . \\mathrm{f} . )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "R equals V over I equals fraction numerator 1.2 over denominator open parentheses 40 cross times 10 to the power of negative 3 end exponent close parentheses end fraction",
+       "render": "$R = \\frac{V}{I} = \\frac{1.2}{( 40 \\times 10^{- 3} )}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "R=30Ω",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>=</mo><mn>30</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R equals 30 space straight capital omega"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_w9vxv2Kkj6Prkmxn",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_mthM4DNtGQyzV3GZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "The Standard International System of Units (SI) is a system of measurement based on seven base units.\n\nState the **symbol **and the **SI unit **for electric charge.",
+     "solution_md": "The symbol for electric charge is:\n\n- *Q *; **[1 mark] **\n\nThe SI unit for electric charge is:\n\n- Coulomb **OR** C;** [****1 mark]**** **\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_Ny2Zyb2BrGTjftz8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk"
+     ],
+     "part_tier": null,
+     "problem_md": "In a circuit, a current of 2.0 A flows through a resistor for 90 minutes.\n\nCalculate the total charge passing through the resistor in this time.",
+     "solution_md": "List the known quantities:\n\n- Current *I* = 2.0 A\n- Time *t* = 90 minutes = 90 × 60 s = 5400 s\n\nRecall the equation for current:\n\n- $I=\\frac{Q}{t}$\n\nSubstitute known quantities into the equation for current:\n\n- $2.0=\\frac{Q}{5400}$ **[1 mark]**\n- *Q* = 2.0 × 5400 = 10 800 C **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "I=\\frac{Q}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>Q</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space Q over t"
+      },
+      {
+       "latex": "2.0=\\frac{Q}{5400}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>Q</mi><mn>5400</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2.0 space equals space Q over 5400"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Bh5kxHcg3hB5tCv4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XXYrjzbhDGc9qbbW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn a circuit, a current of 2.0 A flows through a resistor for 90 minutes. Calculate the total charge passing through the resistor in this time. Q = 2.0 × 5400 = 10 800 C\n\nDetermine the number of electrons that pass a point in the resistor in part (b).",
+     "solution_md": "Determine the number of electrons in 10 800 C of charge:\n\nList the known quantities:\n\n- Total charge, *Q*  = 10 800 C (from part (b))\n- Elementary charge, *e*  = 1.6 × 10<sup>–19</sup> C\n\nCalculate the number of electrons:\n\n- The total amount of charge *Q* = *Ne*\n\n  - where *N* is the number of charge carriers and *e* is the elementary charge carried by each\n- Therefore, 10 800 = *N* × (1.6 × 10<sup>–19</sup>)\n- *N* = $\\frac{10800}{1.6\\times10^{-19}}$ **[1 mark]**\n- *N* = 6.8 × 10<sup>22</sup> **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{10800}{1.6\\times10^{-19}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>10</mn><mo>&#160;</mo><mn>800</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 10 space 800 over denominator 1.6 cross times 10 to the power of negative 19 end exponent end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_H5PB9F4CDwxCMJhD",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "When a copper wire is exposed to a potential difference, a current is detected in it.\n\nExplain, with reference to charge carriers and electric fields, why there is a current detected in the wire.",
+     "solution_md": "Explain why a current is present in the wire:\n\nRefer to the existence of free electrons in copper:\n\n- Copper wire has (many) <u>free</u>/<u>conducting/valence/delocalised</u> electrons; **[1 mark]**\n\nDescribe the effect of the potential difference:\n\n- The potential difference produces an <u>electric field</u> (in the wire); **[1 mark]**\n\nExplain the effect of an electric field:\n\n- The electric field causes electrons to experience a force and gain a resultant drift velocity, producing a current; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Copper is a good conductor of electricity, which means it has many **free electrons**. When placed in an electric field, or a region where there is a difference in electric potential, a force is applied to these free electrons, causing them to **flow toward the positive terminal**.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FnSDygWDj89ptM6y",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_PNjCFGc9n3rZft6z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the amp.",
+     "solution_md": "The amp is defined as:\n\n- The current when one coulomb of charge passes a point; **[1 mark]**\n- In one second; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_ykshHHqKHRnrpzNf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk"
+     ],
+     "part_tier": null,
+     "problem_md": "A charge of 60 × 10<sup>–6</sup> C flows through a given section of a conductor in 140 × 10<sup>–3</sup> s. Calculate the electric current, stating the final answer in mA.",
+     "solution_md": "To calculate current from charge and time:\n\nList the known quantities:\n\n- Charge, *Q*  =  60.0 × 10<sup>–6</sup> C\n- Time, *t*  = 140 × 10<sup>–3</sup> s\n\nRecall the equation for current, *I *:\n\n- $I=\\frac{Q}{t}$\n\nSubstitute the numbers into the equation:\n\n- $I=\\frac{60.0\\times10^{--6}}{140\\times10^{--3}}$ = 4.286 × 10<sup>−4</sup> A **[1 mark]**\n\nCalculate the final answer in mA:\n\n- *I* = 4.3 × 10<sup>-4</sup> = 0.43 mA (2 s.f.) **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The charges in these questions are usually small fractions of a coulomb, so convert to standard form before substituting. In this question it was done for you, but in the exams, always do this right at the start, as it's very easy to forget later on.*\n\n> *Also remember to round all answers to the same significant figures as those used in the question.*",
+     "equations": [
+      {
+       "latex": "I=\\frac{Q}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>Q</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space Q over t"
+      },
+      {
+       "latex": "I=\\frac{60.0\\times10^{--6}}{140\\times10^{--3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>60</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>&#8211;</mo><mn>6</mn></mrow></msup><mo>&#160;</mo></mrow><mrow><mn>140</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>&#8211;</mo><mn>3</mn></mrow></msup><mo>&#160;</mo></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "I space equals space fraction numerator 60.0 space cross times space 10 to the power of – 6 end exponent space over denominator 140 space cross times space 10 to the power of – 3 end exponent space end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_g786hPgBYZ5Nmjx2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "Use words from the list below to complete the description of the movement of charge carriers in a conductor.\n\n| **current** | **delocalised** | **electric force** |\n|---|---|---|\n| **electric field** | **randomly** | **drift** |\n\nThe charge carriers in a metal conductor are ...................... electrons.\n\nNormally the electrons move ..................... in all directions, but if a potential difference is applied between two points on the conductor, then an ..................... is created.\n\nThis causes an ..................... to act on the charge carriers, causing them to ..................... along the conductor in a resultant direction.\n\nTherefore we can say that a steady ..................... flows through the conductor.",
+     "solution_md": "The correct sentences state that:\n\n- The charge carriers in a metal conductor are **delocalised **electrons; **[1 mark]**\n- Normally the electrons move **randomly **in all directions, but if a potential difference is applied between two points on the conductor, then an **electric field** is created; **[1 mark]**\n- This causes an **electric force** to act on the charge carriers, causing them to **drift **along the conductor in a resultant direction; **[1 mark]**\n- Therefore we can say that  a steady **current** flows through the conductor; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_hym9rH6bmvpNZsHV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dgVDp57yWTbBpq22"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA charge of 60 × 10^–6^ C flows through a given section of a conductor in 140 × 10^–3^ s. Calculate the electric current, stating the final answer in mA.\nI = 4.3 × 10^-4 A = 0.43 mA (2 s.f.)\n\nThe conductor described in part (d) has a cross-sectional area of 1.1 × 10<sup>−7</sup> m<sup>2</sup> and the electrons have an average drift speed of 18 mm s<sup>−1</sup>.\n\nUsing the current calculated in part (b), calculate the number density of electrons in this conductor.",
+     "solution_md": "To find the number density of electrons:\n\nList the known quantities:\n\n- Cross-sectional area, *A*  = 1.1 × 10<sup>−7</sup> m<sup>2</sup>\n- Drift speed, *v*  = 18 mm s<sup>−1</sup> = 18 × 10<sup>−3</sup> m s<sup>−1</sup> **[1 mark]**\n- Current, *I*  = 4.3 × 10<sup>−4</sup> A\n- Charge on each electron (current carrier), *q*  = 1.60 × 10<sup>−19</sup> C (from the data page)\n\nFrom the formulae page:\n\n- $I=Anvq$\n\nRearrange for number density:\n\n- $n=\\frac{I}{Avq}$\n\nSubstitute the known quantities:\n\n- $n = \\frac{4.3 \\times 10^{- 4} }{( 1.1 \\times 10^{- 7} ) \\times ( 18 \\times 10^{- 3} ) \\times ( 1.60 \\times 10^{- 19} )}$ **[1 mark]**\n- $n=1.4\\times10^{24}m^{-3}$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Converting units of known quantities should be your very first step in any calculation question. It's so easy to forget this once you begin the main calculation.*",
+     "equations": [
+      {
+       "latex": "I=Anvq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>A</mi><mi>n</mi><mi>v</mi><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space A n v q"
+      },
+      {
+       "latex": "n=\\frac{I}{Avq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>I</mi><mrow><mi>A</mi><mi>v</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space equals space fraction numerator I over denominator A v q end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n space equals space fraction numerator 4.3 space cross times space 10 to the power of negative 4 end exponent over denominator open parentheses 1.1 space cross times space 10 to the power of negative 7 end exponent close parentheses space cross times space open parentheses 18 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses end fraction",
+       "render": "$n = \\frac{4.3 \\times 10^{- 4} }{( 1.1 \\times 10^{- 7} ) \\times ( 18 \\times 10^{- 3} ) \\times ( 1.60 \\times 10^{- 19} )}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "n=1.4\\times10^{24}m^{-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>4</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>24</mn></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n space equals space 1.4 space cross times space 10 to the power of 24 space straight m to the power of negative 3 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fk4WwGsMWVfTxfY6",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_m4DxQjqNhjy9kf8B",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XXYrjzbhDGc9qbbW",
+      "spcpt_dgVDp57yWTbBpq22"
+     ],
+     "part_tier": null,
+     "problem_md": "The smallest conductor within a computer processing chip can be represented as a rectangular block that is one atom high, four atoms wide and twenty atoms long. One such block is shown in Fig. 1.1.\n\n![9-1-2a-m-conducting-chip](assets/011-9-1-2a-m-conducting-chip.png)\n\n**Fig. 1.1.**\n\nThe block is made from phosphorus atoms of diameter *d* = 3.8 × 10<sup>–10</sup> m. The atoms are deposited on an insulating surface. This ensures that the atoms touch each other.\n\nThe processing chip has a resistance, measured from **P** to **Q**, of 220 Ω.\n\n(i) Define current.\n\n[1]\n\n(ii) Describe for this processing chip the properties which will affect the current.\n\n[3]",
+     "solution_md": "(i) Define current:\n\n- The rate of flow of charge **OR**\n- Charge passing a point per unit time; **[1 mark]**\n\n(ii) Describe for this processing chip the properties which will affect the current:\n\n**Final answer:** **Any ****three ****from:**\n\n- Current depends on number density, charge per carrier, drift velocity, and area  **OR**  *I* = *Anvq* (any arrangement); **[1 mark]**\n- Charge per carrier / electron = 1.6 × 10<sup>−19</sup> C; **[1 mark]**\n- Number density depends on the material and is fixed for a given conductor; **[1 mark]**\n- Current depends on potential difference / voltage across the component;** [1 mark]**\n- Current depends on cross-sectional area;** [1 mark]**\n- Current depends on resistivity of the conducting material / phosphorus; **[1 mark]**\n- Current depends on the length of the conducting wire (because it affects resistance); **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_V6PYJqrGxqFGx7GK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XXYrjzbhDGc9qbbW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe block is made from phosphorus atoms of diameter d = 3.8 × 10^–10 m. The atoms are deposited on an insulating surface. This ensures that the atoms touch each other.\n\nCalculate the number density of free electrons within the block.\n\nAssume that each phosphorus atom contributes one free electron.",
+     "solution_md": "Calculate the number density of free electrons within the block:\n\nSince each atom contributes one electron, calculate the number of atoms per unit volume:\n\n- $n = \\frac{1}{d^{3}} = \\frac{1}{( 3.8 \\times 10^{- 10} )^{3}} = 1.8 \\times 10^{28 \\mathrm{m}^{-3} }$ ( 2 s.f.) **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n equals 1 over d cubed equals 1 over open parentheses 3.8 space cross times space 10 to the power of – 10 end exponent close parentheses cubed equals 1.8 cross times 10 to the power of 28 space straight m to the power of negative 3 end exponent",
+       "render": "$n = \\frac{1}{d^{3}} = \\frac{1}{( 3.8 \\times 10^{- 10} )^{3}} = 1.8 \\times 10^{28 \\mathrm{m}^{-3} }$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_X7R4Ptb8trZjsdGG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dgVDp57yWTbBpq22"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe smallest conductor within a computer processing chip can be represented as a rectangular block that is one atom high, four atoms wide and twenty atoms long. The block is made from phosphorus atoms of diameter d = 3.8 × 10^–10 m. The atoms are deposited on an insulating surface. This ensures that the atoms touch each other. The processing chip has a resistance, measured from P to Q, of 220 Ω.\nCalculate the number density of free electrons within the block. Assume that each phosphorus atom contributes one free electron. n = 1/d^3 = 1/(3.8 × 10^–10)^3 = 1.8 × 10^28 m^-3\n\nCalculate the current between P and Q when the mean drift velocity of free electrons in the block is 1.9 × 10<sup>–5</sup> m s<sup>–1</sup>.",
+     "solution_md": "Calculate the current between P and Q when the mean drift velocity of free electrons in the block is 1.9 × 10<sup>–5</sup> m s<sup>–1</sup>\n\nList the known quantities:\n\n- Drift velocity of free electrons, *v* = 1.9 × 10<sup>–5</sup> m s<sup>–1</sup>\n- Charge on an electron, *q* = −1.6 × 10<sup>−19</sup> C (from the data sheet)\n- Number density of electrons, *n* = 1.8 × 10<sup>28</sup> m<sup>-3</sup> (from part b)\n- Diameter of atom, *d *= 3.8 × 10<sup>−10</sup> m (from part a)\n\nDetermine the cross-sectional area of the conductor:\n\n- The current flowing from P to Q moves through a surface area 4 atoms wide by 1 atom high\n- $A = 4 \\times ( 3.8 \\times 10^{- 10} )^{2} = 5.776 \\times 10^{- 19 } \\mathrm{m}^{2}$ **[1 mark]**\n\nUse the equation relating current and drift velocity:\n\n- $I=Anvq$\n- $I = ( 5.776 \\times 10^{- 19 } ) \\times ( 1.8 \\times 10^{28 ) \\times ( 1.9 \\times 10^{-5} } ) \\times ( 1.6 \\times 10^{- 19} )$ **[1 mark]**\n- $I=3.2\\times10^{-14}A$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Using the diameter of a sphere to calculate the surface area of a cuboid may seem odd. It is an approximation - what we call a 'best estimate' - but using this kind of informed shortcut is an important aspect to calculations in physics.*\n\n> *The sketch below shows how the idea works. You can see that although there are gaps, they are small, so the estimation is a valid one.*\n\n![screenshot-2023-03-01-at-09-26-57](assets/012-screenshot-2023-03-01-at-09-26-57.png)\n\n> *Current flows along the 20-atom length, so the cross-section is 4 atoms wide × 1 atom high.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A space equals space 4 space cross times open parentheses 3.8 cross times 10 to the power of negative 10 end exponent close parentheses squared space equals space 5.776 cross times 10 to the power of negative 19 space end exponent straight m squared",
+       "render": "$A = 4 \\times ( 3.8 \\times 10^{- 10} )^{2} = 5.776 \\times 10^{- 19 } \\mathrm{m}^{2}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "I=Anvq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>A</mi><mi>n</mi><mi>v</mi><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space I space equals space A n v q"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I space equals space open parentheses 5.776 cross times 10 to the power of negative 19 space end exponent close parentheses cross times open parentheses 1.8 cross times 10 to the power of 28 close parentheses cross times open parentheses 1.9 cross times 10 to the power of negative 5 end exponent close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses",
+       "render": "$I = ( 5.776 \\times 10^{- 19 } ) \\times ( 1.8 \\times 10^{28 ) \\times ( 1.9 \\times 10^{-5} } ) \\times ( 1.6 \\times 10^{- 19} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "I=3.2\\times10^{-14}A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>14</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space 3.2 cross times 10 to the power of negative 14 end exponent space straight A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4VswZzKTCXhVVfvS",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_f5v6h7r4fwSrVyg2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XXYrjzbhDGc9qbbW",
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "Electric current is defined as the rate of flow of electric charge.\n\n(i) State the particle responsible for carrying electric charge around a circuit\n\n[1]\n\n(ii) Calculate the total electric charge carried by ten million of these particles\n\n[2]",
+     "solution_md": "(i) The particle responsible for carrying electric charge around a circuit is:\n\n- The electron; **[1 mark] ** **  **\n\n(ii) Calculate the total charge carried by ten million electrons:\n\nList the known quantities:\n\n- Number of particles, *N*  = ten million = 10 × 10<sup>6</sup>\n\nFrom the data page:\n\n- Elementary charge, *e * = 1.6 × 10<sup>–19</sup> C\n\nCalculate the total charge:\n\n- The total charge *Q* is given by the number of electrons *N* × the charge carried by each electron *e*\n- Therefore *Q* = (10 × 10<sup>6</sup>) × (1.6 × 10<sup>–19</sup>) **[1 mark]**\n- *Q* = 1.6 × 10<sup>–12</sup> C **[1 mark]**** **\n\n**[Total: 3 marks]*** *"
+    },
+    {
+     "id": "qstnprt_4kc6XHyKnkwCBMqB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk"
+     ],
+     "part_tier": null,
+     "problem_md": "A lamp forms part of a circuit. A current of 0.30 mA passes through the lamp for a period of 5 minutes.\n\nCalculate the amount of charge which passes a point in the lamp over those 5 minutes.",
+     "solution_md": "List the known quantities:\n\n- Current, *I* = 0.30 mA\n- Time, *t * = 5 minutes\n\nRecall the equation for current:\n\n- $I=\\frac{Q}{t}$\n\nConvert current into amps and time into seconds:\n\n- *I* = 0.30 mA = 0.30 × 10<sup>–3</sup> A **AND**\n- *t*  = 5 minutes = 5 × 60 = 300 s **[1 mark]**\n\nCalculate the charge which passes through the lamp:\n\n- The charge, *Q* = *I* × *t*\n- *Q* = (0.30 × 10<sup>–3</sup>) × 300 **[1 mark]**\n- *Q* = 0.090 C **[1 mark] **\n\n**[Total: 3 marks]**** **\n\n> *Remember to convert all quantities into their standard units! Prefixes, like the ‘milliamps (mA)’ used in this question, are common tricks used by examiners to check if students are on their toes: in this question, we have to remember to convert 0.30 mA to A, as well as minutes to seconds, before substituting into the equation for current. This is because the one coulomb (C) is equal to one amp second (A s).*",
+     "equations": [
+      {
+       "latex": "I=\\frac{Q}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>Q</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space Q over t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ktW2KWwtwhkDk9h7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dgVDp57yWTbBpq22"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA lamp forms part of a circuit. A current of 0.30 mA passes through the lamp for a period of 5 minutes.\n- Current, I = 0.30 mA = 0.30 × 10^–3 A\n\nA section of wire in the lamp in part (b) has a cross-sectional area of 4.5 × 10<sup>−5</sup> m<sup>2</sup>.\n\nUsing the current calculated in part (b), calculate the average drift velocity of the electrons when the number density of electrons in this section of wire is 3.6 × 10<sup>22</sup> m<sup>−3</sup>.",
+     "solution_md": "To find the average drift velocity of electrons:\n\nList the known quantities:\n\n- Cross-sectional area, *A*  = 4.5 × 10<sup>−5</sup> m<sup>2</sup>\n- Number density of electrons, *n*  =  3.6 × 10<sup>22</sup> m<sup>−3</sup>\n- Current, *I*  = 3.0 × 10<sup>−4</sup> A (from part (b))\n- Charge on each electron (current carrier), *q*  = 1.60 × 10<sup>−19</sup> C (from the data page)\n\nFrom the formulae page:\n\n- $I=Anvq$\n\nRearrange for average drift speed, *v *:\n\n- $v=\\frac{I}{Anq}$\n\nSubstitute the known quantities:\n\n- $v = \\frac{3.0 \\times 10^{- 4} }{( 4.5 \\times 10^{- 5} ) \\times ( 3.6 \\times 10^{22 ) \\times ( 1.60 \\times 10^{-19} } )}$ **[1 mark]**\n- $v=1.2\\times10^{-3}ms^{-1}$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "I=Anvq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>A</mi><mi>n</mi><mi>v</mi><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space A n v q"
+      },
+      {
+       "latex": "v=\\frac{I}{Anq}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>I</mi><mrow><mi>A</mi><mi>n</mi><mi>q</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator I over denominator A n q end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v space equals space fraction numerator 3.0 space cross times space 10 to the power of negative 4 end exponent over denominator open parentheses 4.5 space cross times space 10 to the power of negative 5 end exponent close parentheses space cross times space open parentheses 3.6 space cross times space 10 to the power of 22 close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses end fraction",
+       "render": "$v = \\frac{3.0 \\times 10^{- 4} }{( 4.5 \\times 10^{- 5} ) \\times ( 3.6 \\times 10^{22 ) \\times ( 1.60 \\times 10^{-19} } )}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "v=1.2\\times10^{-3}ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>2</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space 1.2 space cross times space 10 to the power of negative 3 end exponent space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_24Dsr99hHN2j8TjN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 shows a typical electric circuit involving a battery, lamp and two resistors.** **\n\nThere is a gap in the circuit between points **X** and **Y**.\n\n![5-1-s-q--q1b-easy-aqa-a-level-physics](assets/013-5-1-s-q-q1b-easy-aqa-a-level-physics.png)\n\n**Fig. 1.1**\n\nSketch on** **Fig. 1.1:\n\n(i) An **ammeter** between **X** and **Y** that would measure the current in the circuit\n\n[2]\n\n(ii) The direction of **conventional current** in the circuit\n\n[1]",
+     "solution_md": "A diagram which would score 3 marks is shown below:\n\n![5-1-s-q--q1b-ma-easy-aqa-a-level-physics](assets/014-5-1-s-q-q1b-ma-easy-aqa-a-level-physics.png)\n\n(i) An **ammeter** between **X** and **Y** that would measure the current in the circuit:** **\n\n- Correct symbol for an ammeter used;** [1 mark]**\n- Ammeter connected <u>in series</u> between **X** and **Y**; **[1 mark]**** **\n\n(ii) The direction of **conventional current** in the circuit:\n\n- Conventional current labelled in a <u>clockwise direction</u>;** ****[1 mark]**** **\n\n**[Total: 3 marks] **\n\n> *You should know that conventional current flows from the **positive** terminal of a battery to the **negative** terminal – i.e., it is the flow of positive charge (even though, in reality, **electrons** flow around the circuit!) *\n\n> *Electron flow, therefore, is in the opposite direction to conventional current: flowing from the negative terminal to the positive terminal.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3xpr2W5J6HqBJjdc",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_7kNYtqxx5BYJFtQf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "Nancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb.\n\nSketch a possible circuit diagram to show this experimental setup.",
+     "solution_md": "A possible circuit diagram that should score 2 marks would look like this:\n\n![file-000-5](assets/015-file-000-5.png)\n\n- Cell / battery / power supply, light bulb and ammeter drawn; **[1 mark]**\n- Components connected with straight lines in a series circuit; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_3pk3xS4jXsXxtchj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nNancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb. Sketch a possible circuit diagram to show this experimental setup.\n\nExplain why the ammeter needs to be connected in series.",
+     "solution_md": "The ammeter needs to be connected in series because:\n\n- An ammeter measures the amount of current in a circuit; **[1 mark]**\n- It needs to be in series with the components of the circuit; **[1 mark]**\n- So the ammeter measures the current flowing through the component (since current is the same everywhere in a series circuit); **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_67F8YRCvkmW2hBJd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nNancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb.\n\nExplain the results Nancy should expect to obtain, assuming the resistance of the bulb, ammeter and circuit remain constant.",
+     "solution_md": "Nancy should expect to obtain results as follows:\n\n- As the current through the light bulb increases the brightness of the light bulb also increases; **[1 mark]**\n- This is because *P *= *I*<sup>2</sup>*R*; **[1 mark]**\n- So, for a constant resistance, *R*, when *I  *increases the power *P *also increases, meaning the light bulb is brighter; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_SNZcShMfdvk4bbqH",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KcfypwC9VzMPbTfz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nNancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb. Sketch a possible circuit diagram to show this experimental setup.\n\nNancy sets up her circuit and begins to conduct her experiment. Her first readings are negative values of current.\n\nIdentify the problem and suggest a solution.",
+     "solution_md": "The problem Nancy has with her circuit is:\n\n- The ammeter is connected the wrong way around (in the circuit); **OR**\n- The negative terminal of the ammeter is connected to the positive terminal of the power supply; **[1 mark]**\n\nA solution to this problem is:\n\n- Change the orientation / direction of the ammeter's connection in the circuit; **OR**\n- Connect the positive terminal of the ammeter to the positive terminal of the power supply; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *It can be tricky to remember the nuances of current and electron direction but learn them so you don't get confused easily in your exam. Negative values of current are not physically negative current but a polarity convention.*"
     }
    ]
   }

@@ -1,6 +1,6 @@
 # Exam Questions — Polarisation
 **7. Waves** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 14 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 21 questions across 2 sets
 
 
 ## Multiple Choice Questions (14 questions)
@@ -135,3 +135,278 @@ It is suggested that X could be
 |---|---|
 | **2** | a polariser with a horizontal transmission axis |
 | **3** | non-polarising glass |
+
+## Structured Questions (7 questions)
+
+
+### Q1 — medium — 5 marks
+
+**Q1** [1 mark]
+
+A beam of vertically polarised monochromatic light is incident on a polarising filter, as shown in Fig. 5.1.
+
+![q5-paper-2-specimen-2022-cie-ial-physics](assets/006-q5-paper-2-specimen-2022-cie-ial-physics.png)
+
+**Fig. 5.1**
+
+The transmission axis of the filter is initially vertical and the transmitted light beam has the same intensity as the incident light beam.
+
+The filter may be rotated about the direction of the light beam to change the angle of the transmission axis against the vertical.
+
+State one angle of the transmission axis to the vertical that results in no transmitted light beam.
+
+angle = ................................... °
+
+*Source: Specimen 2022 Paper 2 Q5A*
+
+
+**Q1** [4 marks]
+
+**Extract:**
+
+A beam of vertically polarised monochromatic light is incident on a polarising filter, as shown in Fig. 5.1. The transmission axis of the filter is initially vertical and the transmitted light beam has the same intensity as the incident light beam. The filter may be rotated about the direction of the light beam to change the angle of the transmission axis against the vertical.
+
+The filter is now positioned with its transmission axis at angle *θ* to the vertical, as shown in Fig. 5.2.
+
+![q5b-paper-2-specimen-2022-cie-ial-physics](assets/007-q5b-paper-2-specimen-2022-cie-ial-physics.png)
+
+**Fig. 5.2**
+
+The ratio  $\frac{\mathrm{intensity} \mathrm{of} \mathrm{transmitted} \mathrm{light}}{\mathrm{intensity} \mathrm{of} \mathrm{incident} \mathrm{light}}$  is equal to 0.75.
+
+(i) Calculate angle *θ*.
+
+*θ* = ...................................... °** **[2]
+
+(ii) Calculate the ratio
+
+$\frac{\mathrm{amplitude} \mathrm{of} \mathrm{transmitted} \mathrm{light}}{\mathrm{amplitude} \mathrm{of} \mathrm{incident} \mathrm{light}}$
+
+ratio = ..................................... [2]
+
+*Source: Specimen 2022 Paper 2 Q5B*
+
+
+### Q2 — easy — 9 marks
+
+**Q2** [2 marks]
+
+State** two** ways that light can be polarised other than by a polarising filter.
+
+**Q2** [2 marks]
+
+Fig. 1.1 shows unpolarised light of intensity 64 W m<sup>−2</sup> incident on polariser A.
+
+![7-5-e-q2b-sq-cie-ial-physics](assets/008-7-5-e-q2b-sq-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+Determine the intensity of the light leaving the analyser B.
+
+**Q2** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows unpolarised light of intensity 64 W m^−2 incident on polariser A.
+
+Determine the intensity of the light leaving the analyser B.
+
+(Mark scheme: When unpolarised light passes through a polariser, the intensity of the light falls by half. Therefore, I_1 = I_0/2 = 64/2 = 32 W m^−2.)
+
+Fig. 1.2 shows that analyser B has been rotated by 35° with respect to the polariser A.
+
+![7-5-e-q2c-sq-cie-ial-physics](assets/009-7-5-e-q2c-sq-cie-ial-physics.png)
+
+**Fig. 1.2**
+
+Determine the intensity of the light leaving analyser B.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 shows unpolarised light of intensity 64 W m^−2^ incident on polariser A.
+Intensity of incident light, I₀ = 64 W m⁻²
+When unpolarised light passes through a polariser, the intensity of the light falls by half
+Therefore, I₁ = I₀/2 = 64/2 = 32 W m⁻²
+
+Fig. 1.3 shows that analyser B has been rotated to 90° with respect to polariser A.
+
+![7-5-e-q2d-sq-cie-ial-physics](assets/010-7-5-e-q2d-sq-cie-ial-physics.png)
+
+**Fig. 1.3**
+
+Show that there is no light passing through analyser B.
+
+### Q3 — medium — 6 marks
+
+**Q3** [3 marks]
+
+Unpolarised light is passed through a pair of polarising sunglasses as shown in Fig. 1.1.
+
+![7-2-2a-m-polarising-sunglasses](assets/011-7-2-2a-m-polarising-sunglasses.png)
+
+The light becomes plane polarised.
+
+Explain the difference between unpolarised and plane polarised light.
+
+**Q3** [3 marks]
+
+Polarisation can be used to identify when some materials are under stress. Placing the material under stress causes the plane of polarisation of the light passing through the material to be rotated. The greater the stress, the greater the rotation of the plane of polarisation of the light.
+
+A piece of transparent material under stress is positioned between two polarising filters. There is an angle of 90<sup>o</sup> between the planes of polarisation of the two polarising filters.
+
+![q16c-wph12-02-june-2021-edexcel-int-as-a-level-phy](assets/012-q16c-wph12-02-june-2021-edexcel-int-as-a-level-p.png)
+
+Explain how this photograph can be used to identify areas of the material with different amounts of stress.
+
+### Q4 — medium — 7 marks
+
+**Q4** [2 marks]
+
+Fig. 1.1. shows two ways in which a wave can be made to travel along a slinky spring.
+
+![7-2-3a-m-oscillating-slinkies-q](assets/013-7-2-3a-m-oscillating-slinkies-q.png)
+
+Use arrows to show how points Q and R will move next as the two waves move to the right.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+Fig. 1.1. shows two ways in which a wave can be made to travel along a slinky spring.
+
+Use the diagram in Fig. 1.1.
+
+(i) State which wave in Fig. 1.1 can be used to model an electromagnetic wave.
+
+[1]
+
+(ii) Hence explain why it is important to correctly align a radio antenna in order to receive the strongest signal.
+
+[2]
+
+**Q4** [2 marks]
+
+Light from a filament lamp is viewed through two polarising filters **A** and **B** as shown in Fig. 1.2.
+
+![7-2-3c-m-polarising-filters](assets/015-7-2-3c-m-polarising-filters.png)
+
+The direction of plane polarisation is indicated on each filter using a double-headed arrow.
+
+Explain why the observer cannot see light from the filament lamp.
+
+### Q5 — hard — 12 marks
+
+**Q5** [4 marks]
+
+A transverse wave passes straight through a polariser. A and B are two points on the wave a distance of $\frac{3}{2}λ$ apart. The displacement of the wave at the point when A passes through the polariser is at its maximum.
+
+Sketch a possible graph to show the displacement of the wave against phase angle $θ$ as it passes through the polariser, and label points A and B.
+
+**Q5** [3 marks]
+
+Electromagnetic waves are transverse waves that carry energy through the vacuum of space as progressive transverse waves.
+
+Discuss the motion of an electromagnetic wave with reference to the appropriate fields.
+
+**Q5** [3 marks]
+
+Plane-polarised electromagnetic waves are incident on an aerial positioned to give a maximum response.
+
+High winds cause the aerial to rotate anti-clockwise about the plane of the incident wave until it makes an angle of 40° to the plane of wave oscillation.
+
+Calculate the percentage reduction in the amplitude of the signal received by the aerial following the high winds.
+
+**Q5** [2 marks]
+
+The high winds cause permanent damage to the aerial. After the aerial is repaired, it remains at an angle of 15° to the plane of wave oscillation and is found to oscillate with an amplitude of 54.0 μm. The intensity of the electromagnetic waves received at this angle is measured to be 0.056 mW m<sup>-2</sup>.
+
+When the aerial is positioned to give a maximum response, it is found to oscillate with an amplitude of 55.9 μm.
+
+Determine the intensity of the incident electromagnetic waves.
+
+### Q6 — easy — 8 marks
+
+**Q6** [2 marks]
+
+Transverse waves such as light can be polarised.
+
+Define the term *polarised*.
+
+**Q6** [3 marks]
+
+Explain why longitudinal waves cannot be polarised by a polarising filter.
+
+**Q6** [2 marks]
+
+Fig. 1.1 shows unpolarised light directed towards a polarising filter A.
+
+![3-1-s-q--q2c-easy-aqa-a-level-physics](assets/018-3-1-s-q-q2c-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Polarising filter B is placed directly after A and is identical except rotated by 90º.
+
+State and explain what happens to the light after it has passed through polarising filter B.
+
+**Q6** [1 mark]
+
+**Extract:**
+
+Fig. 1.1 shows unpolarised light directed towards a polarising filter A.
+
+{align=center} **Fig. 1.1**
+
+In Fig. 1.1 the incident light has an intensity of $I_{0}$.
+
+State the intensity of the polarised light exiting polarising filter A.
+
+### Q7 — hard — 11 marks
+
+**Q7** [2 marks]
+
+When electromagnetic waves are reflected from a shiny surface, such as a road sign, they often become polarised.
+
+Suggest how to determine experimentally if visible light reflected from a road sign is polarised.
+
+**Q7** [3 marks]
+
+Three polaroid filters P<sub>1</sub>, P<sub>2</sub> and P<sub>3 </sub>are aligned as shown in Fig. 1.1.
+
+Unpolarised light is incident on P<sub>1</sub> and subsequently passes through each of the three polaroid filters. P<sub>1</sub> and P<sub>2</sub> are fixed, with P<sub>2</sub> at 20° to P<sub>1</sub>, but P<sub>3</sub> can be rotated to any angle *θ  *to that of P<sub>1</sub>.
+
+![7-5-q2b-h-sq-cie-ial-physics](assets/019-7-5-q2b-h-sq-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+Determine the angles of *θ* at which minima and maxima of emergent light intensity occur.
+
+**Q7** [2 marks]
+
+Table 1.1 lists different waves, whether they are polarised or unpolarised and a reason.
+
+State, by completing the spaces in the table whether the waves listed are polarised or unpolarised, and give a reason for your answer.
+
+**Table 1.1**
+
+| **Wave** | **Polarised or Unpolarised** | **Reason** |
+|---|---|---|
+| Light from the sun | ** ** | ** ** |
+| Compression waves caused by an earthquake | Unpolarised | Longitudinal waves cannot be polarised |
+| Electromagnetic waves from the sun passing through a sunglass lens | ** ** | ** ** |
+| Ultra-sonic waves from an echo sounder | ** ** | ** ** |
+
+**Q7** [4 marks]
+
+Electromagnetic waves, being transverse, can also be polarised.
+
+A light source is viewed through two pieces of polarisers, P and Q, with their axes initially at $\frac{π}{2}$ radians from each other, as shown in Fig. 1.1.
+
+![7-5-q2d-h-sq-cie-ial-physics](assets/020-7-5-q2d-h-sq-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+Using the axes below, sketch the variation of the intensity of light reaching the eye with angular displacement of Q with respect to P when polariser Q is rotated.
+
+![3-1-s-q--q2d-image1-hard-aqa-a-level-physics](assets/021-3-1-s-q-q2d-image1-hard-aqa-a-level-physics.png)

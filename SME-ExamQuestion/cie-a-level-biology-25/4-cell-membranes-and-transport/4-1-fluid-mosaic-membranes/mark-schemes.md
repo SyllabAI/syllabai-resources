@@ -422,3 +422,448 @@
 > *C **is incorrect as **channel proteins** carry out **active transport** up a solutes concentration gradient*
 
 > *D **is incorrect as **channel proteins** carry out **facilitated diffusion** down a solutes concentration gradient*
+
+## Structured Questions (9 questions)
+
+
+### Q1
+The increase in the proportion of phospholipids with unsaturated fatty acids helps plants, such as chickpea, survive decreases in temperature because...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- ('Kinks' in the chain that result from the presence of double bonds) prevent close packing of phospholipids/membrane components (at low temperatures); **[1 mark]**
+- (This) maintains membrane fluidity / prevents the membrane from becoming too rigid; **[1 mark]**
+- The membrane does not become damaged **AS** freezing is prevented; **[1 mark]**
+- (This) maintains movement of (named) substances *across* membranes; **[1 mark]**
+- (This) maintains the movement of proteins/membrane components *within* the membrane; **[1 mark]**
+
+***Reject*** *any references to increasing the movement of substances across / within membranes for marking points 4 and 5.*
+
+**[Total: 2 marks]**
+(i) Triglycerides and phospholipids cannot** **be described as polymers because...
+
+- (They) are not composed of monomers/repeating units; **[1 mark]**
+
+(ii) Differences in the structure** **of triglycerides and phospholipids include...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- Phospholipids have two fatty acids (tails/residues)/hydrocarbon chains **WHILE** triglycerides have three **OR** phospholipids have one few<u>er</u> fatty acid (tail/residue than triglycerides); **[1 mark]**
+- Phospholipids have two ester bonds **WHILE** triglycerides have three; **[1 mark]**
+- Phospholipids have a phosphate (group/head) **WHILE** triglycerides do not; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *When describing differences it is always a good idea to make statements that are clearly **comparative**, e.g. "X has ... while Y has ..." or "X has more of ... than Y" rather than just stating a feature, e.g. X has ... (which does not describe a difference).*
+
+> *Make sure that you are familiar with the structure of these molecules, and be specific with your language; for example, you must say "**fatty** **acid **tails" and not just "tails".*
+
+> *The question asks for **structural** differences so any statements relating to chemical properties or the roles of these molecules will not be credited.*
+The constriction of arteries following blood loss is an example of cell signalling because…
+
+**Final answer:** **Any ****four ****of the following:**
+
+- Thromboxane is a (cell) signalling molecule / acts as a signal; **[1 mark]**
+- (It is) released into / circulates in the blood/plasma; **[1 mark]**
+- (Smooth) muscle cells/tissue are/is the <u>target</u>;** ****[1 mark]**
+- Thromboxane binds to <u>receptors</u>; **[1 mark]**
+- (It is) complementary to receptors; **[1 mark]**
+- The response is smooth muscle (cell) contraction; **[1 mark]**
+- Thromboxane activates G proteins / secondary messengers / an enzyme cascade / a chain of reactions; **[1 mark]**
+
+***Ignore**** descriptions of thromboxane that refer to it as a messenger / hormone in marking point 1.*
+
+***Reject**** references to smooth muscle constricting in marking point 6.*
+
+**[Total: 4 marks]**
+
+> *You are not expected to know anything about the action of thromboxane but you should be able to apply your knowledge of cell signalling to this unfamiliar situation.*
+
+### Q2
+Glucagon is an example of a ligand because...
+
+**Final answer:** **Any**** two ****of the following:**
+
+- It is secreted by a cell in response to a stimulus / drop in blood sugar;** [1 mark]**
+- It is transported (by the bloodstream) to a target cell (in the liver); **[1 mark]**
+- It binds to a (specific) surface receptor on a target cell; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Ligands are signalling molecules that will trigger a response within a target cell once it binds to the relevant receptor. Hormones, such as glucagon, often act as ligands when they cause a reaction within the target cell, in this case, increasing blood glucose levels.*
+(i) A contrasting feature between the action of glucagon and oestrogen could be...
+
+**Final answer:** **Any ****one ****of the following:**
+
+- Oestrogen can diffuse/pass/travel (directly) across the cell membrane / between the phospholipids **WHILE** glucagon cannot; **[1 mark]**
+- Oestrogen can bind to receptors inside the cell / in the cytoplasm/nucleus **WHILE** glucagon binds to receptors on the outside surface of the cell / receptors located in the cell surface membrane; **[1 mark]**
+
+(ii) The reason for this difference is that...
+
+**Final answer:** **Any ****one ****of the following:**
+
+- Glucagon is hydrophilic so cannot pass between the hydrophobic (fatty acid) tails of the phospholipids / through the hydrophobic core (of the membrane) **WHILE** oestrogen is hydrophobic so it can; **[1 mark]**
+- Oestrogen is a steroid hormone so can pass between the phospholipids in the same way as cholesterol **WHILE** glucagon is a peptide hormone so cannot; **[1 mark]**
+
+*Accept reverse answers.*
+
+**[Total: 2 marks]**
+
+> *Since oestrogen is hydrophobic it is able to interact with the hydrophobic fatty acid tails and cross the hydrophobic core of the cell surface membrane, something that glucagon cannot do. Oestrogen can therefore cross the cell surface membrane and bind to receptors on the inside of the cell while glucagon must relay the message across the cell surface membrane by binding to a receptor molecule on the outside surface of the cell.*
+
+> *Steroid hormones resemble cholesterol in their structure so can interact with the phospholipids of the membrane in a similar way to cholesterol; not that this mark point is not something that most students would be expected to know.*
+The role of glycoproteins in initiating a response inside a cell includes...
+
+**Final answer:** **Any ****four**** of the following:**
+
+- Glycoproteins act as cell surface receptors; **[1 mark]**
+- The carbohydrate chain has a specific/complementary shape to a signalling molecule/hormone/ligand; **[1 mark]**
+- The signalling molecule/hormone/ligand binds to the glycoprotein/receptor; **[1 mark]**
+- (The glycoprotein/receptor) changes shape/structure; **[1 mark]**
+- (The glycoprotein/receptor) spans the membrane **SO** (the shape change) passes the signal to the inside of the cell; **[1 mark]**
+- (Glycoproteins) allow for signal transduction / allow a stimulus to be converted into a signal (that can be transmitted to the cell); **[1 mark]**
+- (The glycoprotein shape change) activates a G-protein / leads to the release of a second messenger molecule (inside the cell); **[1 mark]**
+- (The glycoprotein shape change) leads to a series of chemical reactions / activates a series of enzymes / initiates a signalling cascade (that brings about a response inside the cell); **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Remember that in order for two molecules to bind together they must have a complementary shape to each other. Glycoprotein receptors are specific to one type of signalling molecule, ensuring that the cell only responds to signals that are specific to it. Binding of the signalling molecule to the receptor molecule is the first step in the cell signalling pathway which includes a change in shape of the receptor molecule, the activation of a G-protein, and the release of another chemical signal known as a second messenger which sets off a cascade of reactions leading to a cellular response. In the case of the ligand glucagon this cellular response would be the breakdown of glycogen into glucose.*
+
+### Q3
+Fig. 1 represents:
+
+- <u>Cholesterol;</u>** [1 mark]**
+
+**[Total: 1 mark]**
+
+> *You are not expected to be familiar with the molecular structure of cholesterol, but you should be familiar with the different components that are found in the membrane. Since no amino groups (-NH*<sub>*2*</sub>*) or carboxylic acid groups (-COOH) are present it cannot be a glycoprotein. There are no phosphate groups (PO*<sub>*4*</sub><sup>*3-*</sup>*) present either which eliminates the possibility of this molecule being a phospholipid. This leaves us with cholesterol or glycolipids as a possible answer. Since the question stem mentions that the molecule plays a role in mechanical stability, it eliminates glycolipids and therefore leads us to cholesterol as the correct answer.*
+The presence of unsaturated phospholipids would be advantageous because:
+
+**Final answer:** **Any ****three ****of the following:**
+
+- (Unsaturated phospholipids) tails have more kinks / bends; **[1 mark]**
+- (They) prevent close packing; **[1 mark]**
+- (This) allows for transport of materials / substances / molecules across membrane; **[1 mark]**
+- To allow year-round growth / winter growth; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *This is a synoptic question which links to Topic 2.2.8 Phospholipids.*
+The cell types of samples **X** and **Y** are:
+
+- Sample **X** is the exocrine pancreatic cell **AND** Sample **Y** is the skin cell; **[1 mark]**
+
+**Final answer:** **Any ****one ****of the following**
+
+- (Because) there is a lower density of phospholipids in **X** meaning **X** contains more membrane proteins; **[1 mark]**
+- (Due to) more transport of digestive enzymes required (in Sample **X**); **[1 mark]**
+
+*Accept converse argument / skin cells (are relatively) metabolically inactive so fewer membrane proteins are required.*
+
+**[Total: 2 marks] **
+
+> *This is a tricky question as it expects you to make the connection between the density of phospholipids and the potential number of membrane proteins present. The transport of digestive enzymes out of pancreatic cells will require membrane proteins, therefore leaving less membrane space to be filled with phospholipids.*
+This difference in molecular behaviour exists because:
+
+- (The) exchange within a monolayer is easy / swapping polar heads with other polar heads / nonpolar tails with other nonpolar tails** / **ease of mixing; **[1 mark]**
+- (The) ‘flip-flop’ requires polar heads to cross the nonpolar centre of the membrane / molecular repulsion makes this difficult/less likely/less frequent; **[1 mark] **
+
+**[Total: 2 marks]**
+
+### Q4
+It is possible to deduce that Fig 1 is a transmission electron micrograph and not a scanning electron micrograph because...
+
+**Final answer:** **Any ****one ****of the following:**
+
+- It is possible to see the internal structures / named cell structure, e.g. mitochondria / Golgi; **[1 mark]**
+- Cannot see surface contours / 3-D appearance; **[1 mark]**
+- Small(er) depth of field; **[1 mark]**
+
+**[Total: 1 mark]**
+Structural features shown in Fig. 1 that identify **G** as the Golgi body and **not **the rough endoplasmic reticulum are...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- (Flattened) sacs have layered appearance / no connection between membranes;** [1 mark]**
+- Not connected to / continuous with (the outer membrane of) nuclear envelope; **[1 mark]**
+- Swellings at end of sacs (for vesicle formation) / vesicles at ends of sacs; **[1 mark]**
+- No ribosomes; **[1 mark]**
+
+**[Total: 2 marks]**
+The actual diameter of the mitochondrion is...
+
+- (Correctly stated formula) actual diameter = image length ÷ magnification;** [1 mark]**
+- (Correct actual diameter of X–Y calculated from measurement of actual X-Y length =) 234 nm; **[1 mark]**
+
+***Accept ****223 nm (for an actual measurement of 10.5 mm) OR 245 nm (for an actual measurement of 11.5 mm).*
+
+**[Total: 2 marks]**
+
+> *Don't forget that you need to convert between millimetres and **nanometres** to get the mark here. There are 1 000 000 nanometres in a millimetre. *
+
+> *Note that in the actual exam, you would be expected to measure the distance between X-Y yourself using a ruler. The image of the ruler has been added here to make it easier for people with different screen sizes to view online. *
+
+![ma-for-22-spec-p2-q1c](assets/015-ma-for-22-spec-p2-q1c.png)
+(i) The fluid mosaic model of membrane structure is as follows...
+
+**Final answer:** **Any ****three**** of the following:**
+
+- Phospholipid <u>bilayer</u>; **[1 mark]**
+- Fatty acid core/tails are orientated inwards; **[1 mark]**
+- Protein; **[1 mark]**
+- Integral and peripheral proteins (are present) / proteins are scattered (in phospholipid bilayer) / proteins/phospholipids can move around (in phospholipid bilayer); **[1 mark]**
+- Hydrophobic/hydrophilic regions on phospholipid/protein; **[1 mark]**
+
+***Ignore**** references to cholesterol / glycocalyx / glyco/carbohydrate chains / glycolipids / glycoproteins / ref to width of bilayer.*
+
+(ii) One way in which the structure of the inner membrane of the mitochondrion may differ from that of the outer membrane to produce a less permeable inner membrane is...
+
+**Final answer:** **Any ****one**** of the following:**
+
+- There are reduced gaps between membrane molecules; **[1 mark]**
+- There is a higher proportion of phospholipids with saturated fatty acids (which means closer packing of phospholipids); **[1 mark]**
+- There are fewer unsaturated fatty acids **SO** fewer ‘kinks’ in tails / there is closer packing (of phospholipids); **[1 mark]**
+- Difference in channel / carrier / transport proteins, e.g. lower number of transport proteins / smaller diameter of channels in non-specific channel proteins; **[1 mark]**
+- There are fewer types of (specific) transport/carrier proteins; **[1 mark]**
+- There is a higher proportion of cholesterol molecules; **[1 mark]**
+- There are fewer aquaporins / channels for water; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Remember that whenever you see the word **suggest **as a command word it means that you need to apply your own knowledge to a potentially new context. It is important not to be put off by strange new examples and focus on how the new situation fits in with what you've been taught. *
+
+### Q5
+Marks can be awarded for the following structures in the diagram of the cell surface membrane...
+
+**Final answer:** **Any ****five**** of the following:**
+
+- Bilayer of phospholipids is shown and phospholipids have a head and two tails; **[1 mark]**
+- Phospholipid labelled with phosphate/hydrophilic head and fatty acid/hydrocarbon/hydrophobic tail; **[1 mark]**
+- Glycoprotein correctly drawn and labelled and the carbohydrate chain extends above the outer surface of the cell; **[1 mark]**
+- Glycolipid correctly drawn and labelled and the carbohydrate chain extends above the outer surface of the cell;** [1 mark]**
+- At least one other type of protein drawn and correctly labelled, e.g. channel protein, carrier protein, extrinsic protein; **[1 mark]**
+- Cholesterol correctly drawn and labelled; **[1 mark]**
+- Hydrophobic core labelled (label must include both fatty acid layers);** [1 mark]**
+
+***Reject**** cholesterol that is not clearly distinguishable from phospholipids and that does not extend into the core of the membrane.*
+
+**[Total: 5 marks]**
+
+> *Make sure that you know how to draw a section of the cell surface membrane. Take note of the arrangement of each type of molecule within the membrane and the relative size and structure of each part.*
+
+![4-1-q2a](assets/016-4-1-q2a.png)
+The structure of a phospholipid prevents some substances from diffusing directly between the phospholipids because...
+
+- The (fatty acid) tails of the phospholipid are non-polar/hydrophobic and form the <u>hydrophobic</u> core/central region (of the membrane); **[1 mark]**
+- (This means that) only non-polar/hydrophobic/non-charged substances can pass through OR (this) prevents polar/hydrophilic/charged substances from passing through; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The hydrophobic core of the cell surface membrane that is formed by the fatty acid tails of the phospholipids will prevent any substance that is hydrophilic or charged from directly crossing this core, only allowing hydrophobic, or non-polar, substances to pass between the phospholipids. Note that it is possible for small, polar molecules such as water to pass through due to their small size.*
+Denatured membrane proteins would have the following effect on a cell surface membrane...
+
+**Final answer:** **Any ****three**** from the following:**
+
+- The (membrane) proteins would lose their function;** [1 mark]**
+- Detail of function given, e.g. proteins can no longer transport polar substances or ions / cell-to-cell adhesion will not be possible / unable to receive cell signals / (membrane-bound) enzymes cannot bind to the substrate; **[1 mark]**
+- The membrane cannot control the entry and exit (of substances) / lose its partial permeability / become leaky;** [1 mark]**
+- The membrane would break apart / break down;** [1 mark]**
+- The membrane would no longer assist in maintaining cell structure/shape (due to the denaturing of proteins that attach the membrane to the cell cytoskeleton); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *When a protein denatures it loses its structure and function. In the cell surface membrane, this means that the proteins that serve as transport channels or carriers for polar substances or ions cannot perform their function anymore, while glycoproteins will not be able to act as receptor molecules any longer due to the change in their shape. The proteins may not be able to stay in position within the phospholipid bilayer and the membrane would begin to break apart. All of this will compromise the structure of the membrane and prevent it from being a partially permeable barrier for the cell.*
+One role of phospholipid bilayers within the cell is...
+
+**Final answer:** **Any ****one ****of the following:**
+
+- Form membrane-bound compartments / organelles;** [1 mark]**
+- Allow for organelle specialisation / compartmentalisation of processes / the separation of different environments / keeps reactants/molecules/enzymes required for particular processes close to each other / the creation of concentration gradients (within the cell);** [1 mark]**
+- Provide a large surface area across which certain reactions/processes can take place (within the cell); **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Compartmentalisation within a cell is what sets eukaryotic cells apart from prokaryotic cells. The presence of organelles allows the cell to perform various different functions without these functions interfering with each other. Within these compartments the environment may differ from that of the rest of the cell; reactants and enzymes can be held in close proximity, concentration gradients can be created, and important proteins can be held in place within the membrane itself, creating a large surface across which reactions can occur. The reactions of respiration and photosynthesis, covered in year 2, are good examples of the important roles of membranes within cells.*
+
+### Q6
+The term 'fluid mosaic' refers to...
+
+- (Fluid =) the molecules in the membrane move around / diffuse within (a single layer of) the membrane; **[1 mark]**
+- (Mosaic =) the proteins are scattered / arranged randomly throughout** OR **many different proteins are present (in the membrane); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The phospholipids and protein molecules of the cell surface membrane are not static structures, but move around within their layers by diffusion. The scattered pattern of protein molecules throughout the membrane creates a 'mosaic' appearance when viewed from above.*
+Comparisons between the Davson-Danielli model and fluid mosaic model include...
+
+Similarities
+
+- Both contain phospholipids in a bilayer OR phospholipids arranged with their hydrophilic/phosphate heads pointing towards the outside (of the membrane) and their hydrophobic/fatty acid tails pointing inwards;** [1 mark]**
+- Both contain proteins; **[1 mark]**
+
+Differences
+
+**Final answer:** **A maximum of ****three**** of the following:**
+
+- The Davson-Danielli model has layers of protein surrounding the bilayer **WHILE** the fluid mosaic model has proteins within/extending through the phospholipid bilayer; **[1 mark]**
+- The Davson-Danielli model gives a membrane that is identical on the inward and outward-facing surfaces **WHILE** the fluid mosaic model will have different proteins on the inner and outer surfaces; **[1 mark]**
+- The Davson-Danielli model always has an identical ratio of lipids to proteins **WHILE** the amount of protein in relation to lipid can vary in the fluid mosaic model; **[1 mark]**
+- The Davson and Danielli model does not include cholesterol **WHILE** the fluid mosaic model describes the presence of cholesterol;** [1 mark]**
+- The Davson-Danielli model would be impermeable to large/polar molecules **WHILE** the fluid mosaic model is permeable to large/polar molecules;** [1 mark]**
+
+**[Total: 4 marks]**
+
+> *When making comparisons between two different structures, take note of both similarities and differences between them and include these in your answer. Statements of difference should be comparative rather than just making a statement about one membrane model or the other.*
+The features of a phospholipid contribute to cell membrane structure because...
+
+- (A phospholipid) contains a polar/hydrophilic head and (two) non-polar/hydrophobic fatty acid/hydrocarbon tails;** [1 mark]**
+- The heads are attracted to water / an aqueous environment / are water-loving** SO** (the phospholipids) arrange themselves with the heads facing outwards;** [1 mark]**
+- The tails are repelled by / move away from water / an aqueous environment **SO** (the phospholipids) arrange themselves with the tails facing inwards; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The hydrophilic head and hydrophobic tails of a phospholipid contributes to its arrangement within the watery environment of the cell. The hydrophilic heads will be attracted to the watery outside, while the hydrophobic tails will arrange themselves towards each other to form the hydrophobic core of the membrane.*
+The fluid mosaic model also helps to explain...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Movement of substances between cells and their surroundings; **[1 mark]**
+- Cell-to-cell recognition / cell signalling/communication/messaging; **[1 mark]**
+- The fluidity of cell membranes can be regulated / varies (between cell types);** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *The fluid mosaic model does not just provide an explanation for the structure of cell membranes, but also explains their ability to function, e.g.*
+
+> *Substances can be transported across membranes via tranpsort proteins or endo- and exocytosis.*
+
+> *Glycoproteins within the membrane form receptor molecules that can relay a message into the cell during cell signalling or form antigens that serve as 'nametags' by which cells can recognise each other.*
+
+> *Cholesterol regulates membrane fluidity, e.g. red blood cell membranes are relatively fluid, enabling them to flex as they pass through capillaries.*
+
+### Q7
+(i) The two types of molecules that most often act as receptors on the surfaces of cell membranes are:
+
+- <u>Glyco</u>proteins; **[1 mark]**
+- <u>Glyco</u>lipids; **[1 mark]**
+
+(ii) The generic name of the signalling molecules that are secreted from certain cells is:
+
+- Ligand(s); **[1 mark]**
+
+**[Total: 3 marks]**
+The signalling compound stated in part (a)(ii):
+
+- Travels through the extracellular space / between cells / from one cell to another / from source cell to target cell; **[1 mark]**
+- (And) binds to the receptor on the target cell; **[1 mark]**
+
+**[Total: 2 marks]**
+The correctly-linked boxes are as follows:
+
+![b3eNJnlS_cie-ial-4-1-q3ce---ma](assets/019-b3enjnls-cie-ial-4-1-q3ce-ma.png)
+
+**[1 mark]** for each correct line.
+
+**[Total: 4 marks]**
+
+> *This question forms a synoptic link to A-Level Topics 14.1 (Homeostasis in mammals) and 15.1 (Control and coordination in mammals).*
+
+> *You may also remember the blood glucose control mechanism from IGCSE Topic 14.1 (Coordination & Response).*
+The group of chemical messengers that play a role in the transmission of nervous impulses is called:
+
+- Neurotransmitters; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *This question forms a synoptic link to A-Level Topic 15.1.9 Cholinergic Synapses, which is where neurotransmitters transmit nervous impulses across synapses (nerve junctions).*
+
+> *You may also remember this from IGCSE Topic 14.1.4 where you studied the structure of a synapse and how nerve impulses are transmitted across them.*
+
+### Q8
+Molecules **A** and **B** are...
+
+- **A** = phospholipid; **[1 mark]**
+- **B** = (extrinsic/peripheral) protein; **[1 mark]**
+
+**[Total: 2 marks]**
+The role of molecule **C** in Fig. 1 is...
+
+**Final answer:** **Any**** two ****of the following:**
+
+- (Molecule** C**) is a transport/channel protein; **[1 mark]**
+- Allows ions / polar molecules / large molecules to pass through/across the membrane; **[1 mark]**
+- Is specific/complementary to a particular ion/molecule;** [1 mark]**
+
+***Reject**** references to carrier proteins.*
+
+**[Total: 2 marks]**
+
+> *Transport proteins provide a way for ions, polar molecules, and large molecules to enter or leave the cell, as they are not able to cross the cell surface membrane. These proteins are embedded in the membrane due to having amino acids with hydrophobic R-groups on their outside surface, which allow them to stay within the hydrophobic core of the membrane.*
+The functions of molecule **D** include...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Receptor molecules / provide a binding site for molecules (e.g. hormones and neurotransmitters) / cell signalling; **[1 mark]**
+- Cell recognition / antigens; **[1 mark]**
+- Cell adhesion;** [1 mark]**
+- Form hydrogen bonds with water to stabilise the membrane;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *Glycoproteins and glycolipids contain carbohydrate chains which perform a variety of functions in the cell surface membrane. These carbohydrate chains allow glycolipids and glycoproteins to bind with certain substances and act as receptor molecules. The chains may also act as cell markers or antigens in order for cells to recognise each other.*
+The importance of molecule **E** when the cell is exposed to high temperatures is...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- (Cholesterol/molecule E) binds to the hydrophobic tails (of phospholipids) / fits in between the phospholipid (tails); **[1 mark]**
+- (This) allows phospholipids to pack more closely/tightly together / holds the phospholipid (tails) together; **[1 mark]**
+- It stabilises the membrane / prevents the membrane from becoming too fluid (at high temperatures); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Cholesterol can be a bit confusing as it maintains cell membrane stability at both high and low temperatures; it can be said to **regulate** membrane fluidity.*
+
+> *At high temperatures the presence of cholesterol between the phospholipid tails holds the tails together, allowing the phospholipids to pack together more tightly and reducing fluidity.*
+
+> *At low temperatures the cholesterol limits how tightly the phospholipids can pack together, maintaining some fluidity and preventing the membrane from freezing solid.*
+
+### Q9
+Substance **X** will...
+
+- Move from the outside of the cell to the inside; **[1 mark]**
+- Directly through the cell (surface) membrane / in between the phospholipids / by simple diffusion; **[1 mark]**
+
+Because...
+
+- There is a higher concentration of substance **X** outside the cell than inside / diffusion takes place down a concentration gradient; **[1 mark]**
+- The molecules are small and nonpolar so can move between the (tails of the) phospholipids; **[1 mark]**
+
+**[Total: 4 marks]**
+Substance **X** could be…
+
+**Final answer:** **Any ****one**** of the following:**
+
+- Oxygen; **[1 mark]**
+- Carbon dioxide: **[1 mark]**
+- (Other named small, nonpolar substance);** [1 mark]**
+
+*Allow symbol formulae e.g. O*<sub>*2*</sub>
+
+**[Total: 1 mark]**
+Substance **Y **would move across a cell membrane from high to low concentration by...
+
+- <u>Facilitated</u> diffusion; **[1 mark]**
+- Via a specific channel protein / carrier protein; **[1 mark]**
+
+**[Total: 2 marks]**
+An increase in temperature would have the following effect on the rate of movement of substance **Y**...
+
+- Increased rate of movement/diffusion; **[1 mark]**
+
+Because...
+
+- Increasing temperature increases the <u>kinetic energy </u>of molecules **SO** causing them to move at a faster rate; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Any underlined words must be contained within your answer to gain full marks.*

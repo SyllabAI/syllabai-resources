@@ -1,6 +1,6 @@
 # Exam Questions — Control Accounts
 **3. Verification of Accounting Records** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 10 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 11 questions across 2 sets
 
 
 ## Multiple Choice Questions (10 questions)
@@ -109,3 +109,59 @@ Why is a purchases ledger control account prepared?
 **Q10** [1 mark]
 
 Which of the following is **not** a reason for preparing a monthly sales ledger control account?
+
+## Structured Questions (1 questions)
+
+
+### Q1 — medium — 7 marks
+
+**Q1** [7 marks]
+
+Seok buys and sells goods on credit. He has three credit customers. All customers pay Seok by bank transfer.
+
+The following balances were extracted from Seok’s sales ledger at 1 August 2023.
+
+|   | \$ |
+|---|---|
+| Naomi | 450 |
+| Siena | 155 |
+| Bwana | <u>386</u> |
+|   | <u>991</u> |
+
+The following transactions took place in August 2023.
+
+| Aug 11 | Naomi paid \$423 in full settlement of the amount she owed at 1 August |
+|---|---|
+| 29 | Bwana paid \$400 |
+
+The following totals are available for August 2023.
+
+|   | \$ |
+|---|---|
+| Sales journal | 845 |
+| Sales returns journal | 37 |
+
+**REQUIRED**
+
+On 31 August Seok decided to write off the amount owing by Siena as an irrecoverable debt.
+
+**REQUIRED**
+
+Prepare Seok’s sales ledger control account for August 2023. Balance the account and bring down the balance at 1 September 2023.
+
+Seok 
+Sales ledger control account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/22 Q1D*
+

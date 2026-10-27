@@ -194,3 +194,161 @@ Group 17 (A) → Group 18 (B) → Group 1 (C) → Group 2 (D).
 **A** and **B** are incorrect as van der Waals' forces increase, not decrease, down Group 17 from chlorine to iodine.
 
 **D** is incorrect as the covalent bond strength decreases, not increases, down the group.
+
+## Structured Questions (3 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The trend in boiling points of the halogens from fluorine to iodine is:
+> 
+> Trend:
+> 
+> - Boiling point increases (down the group) **[1 mark]**
+> 
+> Explanation:
+> 
+> - (Due to) id-id forces between molecules **[1 mark]**
+> - More electrons in the molecules (as Mr increases) / larger electron cloud **[1 mark]**
+
+> **[exam-tip]**
+> - Id-id (induced dipole–induced dipole) forces are a type of intermolecular force that increases in strength as the number of electrons in the molecule increases
+> - The greater the number of electrons, the more polarisable the electron cloud, resulting in stronger id-id forces and higher boiling points
+> **[mark-scheme]**
+> The deviation in this trend is:
+> 
+> - The F–F bond enthalpy is lower than expected / the F–F bond is weaker than the Cl–Cl bond **[1 mark]**
+> 
+> Explanation:
+> 
+> - Fluorine atoms are small, so the lone pairs on adjacent F atoms are in close proximity, causing repulsion (which weakens the F–F bond) **[1 mark]**
+
+> **[exam-tip]**
+> The diagram below shows the lone pair repulsion in F<sub>2</sub>:
+> 
+> ![Diagram of an F–F molecule showing a central sigma bond and four labelled lone electron pair regions around each fluorine atom.](assets/002-diagram-of-an-f-f-molecule-showing-a-central-sig.jpg)
+> 
+> - A sigma bond is formed between two fluorine atoms, and there are three lone pairs on each F atom
+> - The lone pairs get so close to each other in F<sub>2</sub> that they cause repulsion, which decreases the bond enthalpy
+> **[mark-scheme]**
+> The simplest ionic equation and observation are:
+> 
+> - Cl<sub>2</sub> + 2I<sup>−</sup> → 2Cl<sup>−</sup> + I<sub>2</sub> **[1 mark]**
+> - The solution turns brown / yellow-brown / orange-brown **[1 mark]**
+
+> **[exam-tip]**
+> - The question asks for the simplest ionic equation, which means that including spectator ions (Na<sup>+</sup>) will lose the mark
+> - Make sure you know the observations for iodine in different solvents:
+> 
+>   - Aqueous iodine: brown solution
+>   - Iodine in organic solvent: purple solution
+
+### Q2
+i) The completed Table 2.1 is:
+
+| **Halogen** | **Boiling point / °C** | **Colour** |
+|---|---|---|
+| Chlorine | −36 | **Final answer:** **green / yellow-green** |
+| Bromine | 59 | **Final answer:** **brown / red-brown** |
+| Iodine | 184 | **Final answer:** **(dark) grey / black** |
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> i) 1 mark for all three colours correct.
+> 
+> Purple is not accepted for any halogen as it is the colour of iodine vapour or iodine dissolved in non-polar solvents, not the colour of solid iodine at room temperature.
+> 
+> ii) The boiling points increase from chlorine to iodine because:
+> 
+> - There are more electrons in the molecules going down the group **[1 mark]**
+> - The instantaneous dipole-induced dipole (id-id) forces of attraction between the molecules are stronger **[1 mark]**
+
+> **[exam-tip]**
+> The colours of the halogens get darker going down the group. Learn these:
+> 
+> - Chlorine is a green/yellow-green gas
+> - Bromine is a brown liquid
+> - Iodine is a dark grey solid.
+> 
+> When explaining why boiling points increase down Group 17, you must name the specific type of intermolecular force. Writing "van der Waals' forces" alone is not sufficient. You must state "instantaneous dipole-induced dipole (id-id) forces" to secure the mark.
+> **[mark-scheme]**
+> The full electronic configuration of bromine is:
+> 
+> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>
+> **OR**
+> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>5</sup> **[1 mark]**
+
+> **[exam-tip]**
+> You have been asked for the full electronic configuration, so you must write it out using 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>... notation. Using [Ar] as a shortcut is not accepted.
+> 
+> Bromine is in Period 4 and is the fifth element in the p block, so its configuration ends in 4p<sup>5</sup>.
+> 
+> Remember: the 3d subshell in Period 4 elements is written as 3d, not 4d. Either ordering of 4s<sup>2</sup> and 3d<sup>10</sup> is accepted.
+> **[mark-scheme]**
+> Bromine is a liquid at room temperature while fluorine and chlorine are gases because:
+> 
+> - Bromine has a higher boiling point than fluorine and chlorine **[1 mark]**
+> - Bromine molecules have more electrons than fluorine or chlorine molecules **[1 mark]**
+> - The instantaneous dipole-induced dipole (id-id) forces between Br<sub>2</sub> molecules are stronger, so more energy is required to separate the molecules **[1 mark]**
+> 
+> The reverse argument (fluorine and chlorine have fewer electrons, weaker id-id forces, lower boiling points, so exist as gases) is also accepted.
+
+> **[exam-tip]**
+> You must be able to state and explain the trend in boiling points down Group 17.
+> 
+> The key reasoning chain:
+> 
+> - More electrons per molecule
+> - → stronger instantaneous dipole-induced dipole (id-id) forces
+> - → more energy needed to overcome these forces
+> - → higher boiling point
+> - → liquid or solid state at room temperature.
+> 
+> Going down Group 17, fluorine and chlorine are gases, bromine is a liquid, and iodine is a solid. This reflects the increasing strength of id-id forces as the molecules get larger.
+> **[mark-scheme]**
+> The bond enthalpy of F<sub>2</sub> is lower than that of Cl<sub>2</sub> because:
+> 
+> - The fluorine atom is very small / the F–F bond is very short, so the lone pairs on adjacent fluorine atoms are very close together **[1 mark]**
+> - This causes strong repulsion between the lone pairs, which weakens the bond **[1 mark]**
+
+> **[exam-tip]**
+> Bond enthalpy is the energy needed to break one mole of a given covalent bond. The higher the bond enthalpy, the stronger the bond.
+> 
+> The general trend down Group 17 is for bond enthalpy to decrease as the atoms get larger and bonds get longer. However, fluorine is an exception because its bond enthalpy is lower than chlorine's despite being at the top of the group.
+> 
+> This is because fluorine atoms are so small that the lone pairs on the two F atoms in F<sub>2</sub> are unusually close together. The lone pair repulsion partially counteracts the bonding attraction and makes the F–F bond weaker than expected.
+
+### Q3
+> **[mark-scheme]**
+> The trend in volatility of the halogens is:
+> 
+> - Volatility decreases (down the group / from Cl<sub>2</sub> to I<sub>2</sub>) **[1 mark]**
+> - (The number of) electrons in the molecules increases **[1 mark]**
+> - Resulting in stronger id-id forces between molecules **[1 mark]**
+
+> **[exam-tip]**
+> - Volatility refers to how easily a substance is converted into a gas
+> - Cl<sub>2</sub> has the fewest electrons, the weakest id-id forces, and the highest volatility. So, it is a gas at room temperature
+> - Br<sub>2</sub> has more electrons, stronger id-id forces, and lower volatility. So, it is a liquid at room temperature
+> - I<sub>2</sub> has the most electrons, the strongest id-id forces, and the lowest volatility. So, it is a solid at room temperature
+> **[mark-scheme]**
+> Cl<sub>2</sub> reacts more vigorously with I<sup>−</sup> than Br<sub>2</sub> does because:
+> 
+> - Cl<sub>2</sub> is a stronger oxidising agent than Br<sub>2</sub> / Cl<sub>2</sub> has a greater ability to attract electrons than Br<sub>2</sub> **[1 mark]**
+> - Chlorine atoms are smaller / the outer electrons of Cl are closer to the nucleus, so the nuclear attraction for electrons is greater in Cl than in Br **[1 mark]**
+
+> **[exam-tip]**
+> - Both Cl<sub>2</sub> and Br<sub>2</sub> can displace iodide ions from solution, but Cl<sub>2</sub> does so more vigorously
+> - Going down Group 17, oxidising ability decreases
+> 
+>   - Cl<sub>2</sub> is a stronger oxidising agent than Br<sub>2</sub> because its outer electrons are in a shell closer to the nucleus
+> **[mark-scheme]**
+> The predicted properties of astatine at room temperature are:
+> 
+> - Physical state: solid **[1 mark]**
+> - Colour: black / very dark (purple) **[1 mark]**
+
+> **[exam-tip]**
+> - Following the trend down Group 17: Cl<sub>2</sub> is a gas, Br<sub>2</sub> is a liquid, I<sub>2</sub> is a solid. So, astatine should be a solid at room temperature
+> - The colour trend (Cl<sub>2</sub> pale yellow-green, Br<sub>2</sub> orange-red, I<sub>2</sub> dark grey/purple) suggests astatine should be very dark in colour, likely black

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:30:04Z",
+ "generated_utc": "2026-10-26T14:44:58Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -53,19 +53,39 @@
    "question_count": 17,
    "questions_embedded": 17,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/9-electricity/9-2-potential-difference-and-power/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_YGHzm3tq4nFMT9J8",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/9-electricity/9-2-potential-difference-and-power/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 17,
+  "questions_embedded": 22,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-physics-images-9-1-e-q8-.png": "001-cie-ial-physics-images-9-1-e-q8.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images428png.png": "002-cie-ial-images428png.png",
-   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images430png.png": "003-cie-ial-images430png.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images430png.png": "003-cie-ial-images430png.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/2-2-e-3a-circuit-variable-resistor.png": "004-2-2-e-3a-circuit-variable-resistor.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/2de-soln.png": "005-2de-soln.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/2de-soln-2.png": "006-2de-soln-2.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/~oWogJyv_9-1-1b-m-graph-for-current-questions.png": "007-owogjyv-9-1-1b-m-graph-for-current-questions.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/screenshot-2023-03-13-at-10-27-52.png": "008-screenshot-2023-03-13-at-10-27-52.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/9-2-m-q2a-sq-heaters-cie-ial-physics.png": "009-9-2-m-q2a-sq-heaters-cie-ial-physics.png"
   }
  },
  "questions": [
@@ -165,6 +185,13 @@
        "alt": "V subscript H space equals space E space minus space I subscript H r"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "V subscript H space equals space 240 space minus space open parentheses 8.7 space cross times space 2.0 close parentheses",
+       "render": "$V_{H} = 240 - ( 8.7 \\times 2.0 )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "V_{H}=222.6V",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mi>H</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>222</mn><mo>.</mo><mn>6</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "V subscript H space equals space 222.6 space straight V"
@@ -188,6 +215,13 @@
        "latex": "I=\\sqrt{\\frac{P}{R}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msqrt><mfrac><mi>P</mi><mi>R</mi></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "I space equals space square root of P over R end root"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I space equals space square root of 1937 over 12 end root space equals space 12.7 space straight A space equals space 13 space straight A space open parentheses 2 space straight s. straight f. close parentheses",
+       "render": "$I = \\sqrt{\\frac{1937}{12}} = 12.7 \\mathrm{A} = 13 \\mathrm{A} ( 2 \\mathrm{s} . \\mathrm{f} . )$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -303,6 +337,20 @@
        "latex": "V=IR",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>=</mo><mi>I</mi><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "V equals I R"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals open parentheses I space R close parentheses I equals I space squared R",
+       "render": "$P = ( I R ) I = I^{2} R$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P space equals space open parentheses 550 cross times 10 to the power of negative 3 end exponent close parentheses squared space cross times space 180 space equals space 54 space equals space 50 space straight W space open parentheses 1 space straight s. straight f. close parentheses",
+       "render": "$P = ( 550 \\times 10^{- 3} )^{2} \\times 180 = 54 = 50 \\mathrm{W} ( 1 \\mathrm{s} . \\mathrm{f} . )$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -366,6 +414,13 @@
        "latex": "V=IR",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>=</mo><mi>I</mi><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "V equals I R"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals open parentheses I R close parentheses I equals I to the power of space 2 space end exponent R",
+       "render": "$P = ( I R ) I = I^{ 2 } R$",
+       "via": "alt-transpile"
       },
       {
        "latex": "P=6^{2}\\times4=144W",
@@ -465,6 +520,20 @@
        "latex": "2V\\propto2I",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>\t</mo><mn>2</mn><mi>V</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mn>2</mn><mi>I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "2 V space proportional to space 2 I"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 2 V close parentheses squared space equals space 4 V squared",
+       "render": "$( 2 V )^{2} = 4 V^{2}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "4 P space proportional to space open parentheses 2 V close parentheses squared",
+       "render": "$4 P \\propto ( 2 V )^{2}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -623,9 +692,23 @@
        "alt": "V equals I R"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals open parentheses I R close parentheses I equals I squared R",
+       "render": "$P = ( I R ) I = I^{2} R$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "=I^{2}R",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><msup><mi>I</mi><mn>2</mn></msup><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "equals I squared R"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals open parentheses 1 half close parentheses squared open parentheses 2 R close parentheses equals fraction numerator 2 I squared R over denominator 4 end fraction equals fraction numerator I squared R over denominator 2 end fraction",
+       "render": "$= ( 1 \\frac{1}{2} )^{2} ( 2 R ) = \\frac{2 I^{2} R}{4} = \\frac{I^{2} R}{2}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{powerdissipatedinY}{powerdissipatedinX}=\\frac{I^{2}R}{2}\\times\\frac{1}{I^{2}R}=\\frac{1}{2}",
@@ -877,6 +960,13 @@
        "alt": "I equals V over R"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals V open parentheses V over R close parentheses equals V squared over R",
+       "render": "$P = V ( \\frac{V}{R} ) = \\frac{V^{2}}{R}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "P_{1}=\\frac{V^{2}}{R}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><msup><mi>V</mi><mn>2</mn></msup><mi>R</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "P subscript 1 equals V squared over R"
@@ -885,6 +975,13 @@
        "latex": "P_{2}=\\frac{V^{2}}{2R}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><msup><mi>V</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>R</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "P subscript 2 space equals fraction numerator space V squared over denominator 2 R end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator V squared over denominator 2 R end fraction equals 1 half open parentheses V squared over R close parentheses equals P over 2",
+       "render": "$\\frac{V^{2}}{2 R} = 1 \\frac{1}{2} ( \\frac{V^{2}}{R} ) = \\frac{P}{2}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{P}{2}",
@@ -966,6 +1063,13 @@
        "alt": "V equals I R"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals open parentheses I R close parentheses I equals I squared R",
+       "render": "$P = ( I R ) I = I^{2} R$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "I=2.50A",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>50</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "I equals 2.50 space straight A"
@@ -976,9 +1080,30 @@
        "alt": "increment I equals 0.05 space straight A"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals fraction numerator increment I over denominator I end fraction cross times 100 space percent sign equals fraction numerator 0.05 over denominator 2.5 end fraction cross times 100 equals 2 space percent sign",
+       "render": "$= \\frac{\\Delta I}{I} \\times 100 \\% = \\frac{0.05}{2.5} \\times 100 = 2 \\%$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "P=I^{2}R",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><msup><mi>I</mi><mrow><mn>2</mn><mo> </mo></mrow></msup><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "P equals I to the power of 2 space end exponent R"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "equals open parentheses 2 cross times percent sign space u n c e r t a i n t y space i n space I close parentheses plus open parentheses percent sign space u n c e r t a i n t y space i n space R close parentheses",
+       "render": "$= ( 2 \\times \\% u n c e r t a i n t y i n I ) + ( \\% u n c e r t a i n t y i n R )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign space u n c e r t a i n t y space i n space P equals open parentheses 2 cross times 2 space percent sign close parentheses plus 2 percent sign equals 4 plus 2 equals 6 space percent sign",
+       "render": "$\\% u n c e r t a i n t y i n P = ( 2 \\times 2 \\% ) + 2 \\% = 4 + 2 = 6 \\%$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1095,6 +1220,13 @@
        "alt": "P equals V squared over R"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals open parentheses 2 over 3 V close parentheses squared over R",
+       "render": "$P = \\frac{( \\frac{2}{3} V )^{2}}{R}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "P=\\frac{4V^{2}}{9R}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>V</mi><mn>2</mn></msup></mrow><mrow><mn>9</mn><mi>R</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "P equals fraction numerator 4 V squared over denominator 9 R end fraction"
@@ -1161,6 +1293,13 @@
        "latex": "I=\\frac{V}{R}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mfrac><mi>V</mi><mi>R</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "I equals V over R"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals V open parentheses V over R close parentheses equals V to the power of space 2 end exponent over R",
+       "render": "$P = V ( \\frac{V}{R} ) = V^{ } \\frac{2}{R}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "P\\proptoI",
@@ -1418,6 +1557,13 @@
      ],
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P equals V I equals open parentheses I R close parentheses I equals I to the power of space 2 end exponent R",
+       "render": "$P = V I = ( I R ) I = I^{ 2} R$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "E=Pt=I^{2}Rt",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>=</mo><mi>P</mi><mi>t</mi><mo>=</mo><msup><mi>I</mi><mrow><mo> </mo><mn>2</mn><mo> </mo></mrow></msup><mi>R</mi><mo> </mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "E equals P t equals I to the power of space 2 space end exponent R space t"
@@ -1438,9 +1584,23 @@
        "alt": "t space equals space 60.0 space straight s"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "E space equals space open parentheses 40.0 cross times 10 to the power of negative 3 end exponent close parentheses squared space cross times space 250 space cross times space 60.0 space equals space 24.0 space straight J",
+       "render": "$E = ( 40.0 \\times 10^{- 3} )^{2} \\times 250 \\times 60.0 = 24.0 \\mathrm{J}$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "E=QV",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>=</mo><mi>Q</mi><mi>V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "E equals Q V"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q space equals space I t space equals space open parentheses 40.0 cross times 10 to the power of negative 3 end exponent close parentheses space cross times space 60.0 space equals space 2.4 space straight C",
+       "render": "$Q = I t = ( 40.0 \\times 10^{- 3} ) \\times 60.0 = 2.4 \\mathrm{C}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "V=\\frac{E}{Q}=\\frac{30.0}{2.4}=12.5V",
@@ -1534,6 +1694,673 @@
        "latex": "x=\\frac{200}{2\\times10}=10m",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>200</mn><mrow><mn>2</mn><mo>×</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mn>10</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "x equals fraction numerator 200 over denominator 2 cross times 10 end fraction equals 10 space straight m"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WJcdPfKFH6k7xvB7",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_dTN8kxzg8znXfgmX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows a range of household appliances, supplied with 230 V, and their power ratings.\n\n| Appliance | Power rating | Current drawn |\n|---|---|---|\n| Desk lamp | 14 W |   |\n| 55 inch OLED TV | 125 W |   |\n| Toaster | 480 W |   |\n| Microwave | 900 W |   |\n\nComplete the table by adding the values for the current required for each appliance.",
+     "solution_md": "Complete the table by adding the values for the current drawn for each appliance:\n\n**One**** mark for each correct answer:**\n\n| Appliance | Power rating | Current drawn |\n|---|---|---|\n| Desk lamp | 14 W | **Final answer:** **0.061 A** |\n| 55 inch OLED TV | 125 W | **Final answer:** **0.54 A** |\n| Toaster | 480 W | **Final answer:** **2.1 A** |\n| Microwave | 900 W | **Final answer:** **3.9 A** |\n\n**[Total: 4 marks]**\n\n> *The equation used to calculate the answers is *$P=IV\\RightarrowI=\\frac{P}{V}$* *\n\n> *The voltage for all appliances is 230 V. By substituting the powers given in the table, their corresponding currents can be easily calculated.*",
+     "equations": [
+      {
+       "latex": "P=IV\\RightarrowI=\\frac{P}{V}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>I</mi><mi>V</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>P</mi></mrow><mi>V</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space I V space space space rightwards double arrow space space space I space equals fraction numerator space P over denominator V end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vRzhFwmmkn2Cmdrw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_x93SGM3Gw4Rsq8Nt"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table shows a range of household appliances, supplied with 230 V, and their power ratings. Toaster power rating: 480 W.\n\nCalculate the electrical work done by using the toaster on full power for 3 minutes.",
+     "solution_md": "Calculate the electrical work done by using the toaster on full power for 3 minutes:\n\nList the known quantities:\n\n- Toaster power, *P*  = 480 W\n- Time, *t  = *3 minutes = 180 s **[1 mark]**\n\nRecall the power equation:\n\n- $P=\\frac{W}{t}$\n\nRearrange for work and substitute the known quantities:\n\n- $W=Pt$** **\n- $W=480\\times180$** [1 mark]**\n- $W=86400J$** [1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "P=\\frac{W}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>W</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals fraction numerator space W over denominator t end fraction"
+      },
+      {
+       "latex": "W=Pt",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>P</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space equals space P t"
+      },
+      {
+       "latex": "W=480\\times180",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>480</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>180</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space equals space 480 space cross times space 180"
+      },
+      {
+       "latex": "W=86400J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>86</mn><mo>&#160;</mo><mn>400</mn><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space equals space 86 space 400 space straight J"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XnGM7SbSzBsx2bZK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HF9Sn3fSM6bjDpMh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table shows a range of household appliances, supplied with 230 V, and their power ratings. The Toaster has a power rating of 480 W.\nCalculate the electrical work done by using the toaster on full power for 3 minutes: Toaster power, P = 480 W; Time, t = 3 minutes = 180 s; W = P t = 480 × 180 = 86 400 J\n\nCalculate the amount of charge that flowed through the toaster circuit during the 3 minutes of use. Give your answer to 2 significant figures.",
+     "solution_md": "Calculate the amount of charge that flowed through the toaster circuit during the 3 minutes of use:\n\nList the known quantities:\n\n- Work done, *W*  = 86 400 J (from part (b))\n- Potential difference across toaster, *V*  = 230 V (from part (a))\n\nRearrange the equation for potential difference and charge:\n\n- $V=\\frac{W}{Q}$\n- $Q=\\frac{W}{V}$\n- $Q=\\frac{86400}{230}$ **[1 mark]**\n- $Q=375.652$\n- $Q=380C$ (2 s.f.) **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "V=\\frac{W}{Q}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>W</mi><mi>Q</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V space equals space W over Q"
+      },
+      {
+       "latex": "Q=\\frac{W}{V}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>W</mi></mrow><mi>V</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals fraction numerator space W over denominator V end fraction"
+      },
+      {
+       "latex": "Q=\\frac{86400}{230}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>86</mn><mo>&#160;</mo><mn>400</mn></mrow><mn>230</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals space fraction numerator 86 space 400 over denominator 230 end fraction"
+      },
+      {
+       "latex": "Q=375.652",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>375</mn><mo>.</mo><mn>652</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals space 375.652"
+      },
+      {
+       "latex": "Q=380C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>380</mn><mo>&#160;</mo><mi mathvariant=\"normal\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals space 380 space straight C"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8xffXjd2yTzDQx9v",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table shows a range of household appliances, supplied with 230 V, and their power ratings.\nToaster power rating = 480 W\n\nCalculate the resistance of the toaster.",
+     "solution_md": "List the known quantities:\n\n- Potential difference across the toaster, *V* = 230 V (from part (a))\n- Power transferred to the toaster, *P*  = 480 W from part (a))\n\nRecall the equation relating power, current and resistance:\n\n- $P=\\frac{V^{2}}{R}$ **[1 mark]**\n\nCalculate the resistance:\n\n- $R=\\frac{V^{2}}{P}=\\frac{230^{2}}{480}$ **[1 mark]**\n- $R=110Ω$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *This answer can also be found using **P = I*<sup>*2*</sup>*R , **with any differences being due to rounding. *\n\n> *Ohm's law can also be used, but this is covered properly in the next topic.*",
+     "equations": [
+      {
+       "latex": "P=\\frac{V^{2}}{R}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msup><mi>V</mi><mn>2</mn></msup><mi>R</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space V squared over R"
+      },
+      {
+       "latex": "R=\\frac{V^{2}}{P}=\\frac{230^{2}}{480}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msup><mi>V</mi><mn>2</mn></msup><mi>P</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msup><mn>230</mn><mn>2</mn></msup><mn>480</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space V squared over P space equals space 230 squared over 480"
+      },
+      {
+       "latex": "R=110Ω",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>110</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space 110 space straight capital omega"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rrnWpM4JRpkCjkyZ",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_rvTs4TP3s3CRkJxW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "State the correct arrangement for the equation linking power, current and resistance.",
+     "solution_md": "The correct arrangement for the equation linking power, current and resistance is:\n\n- $P=I^{2}R$ **[1 mark]**\n\n**[Total: 1 mark]**",
+     "equations": [
+      {
+       "latex": "P=I^{2}R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msup><mi>I</mi><mn>2</mn></msup><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space I squared R"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VGdnmRBNZ2cbgRVr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe correct arrangement for the equation linking power, current and resistance is: P = I²R\n\nA current of 3.6 A passes through a 20 Ω resistor.\n\nCalculate the power transferred to the resistor. Give your answer to 2 significant figures.",
+     "solution_md": "Calculate the power transferred to the resistor:\n\nList the known quantities:\n\n- Current, *I*  = 3.6 A\n- Resistance, *R*  = 20 Ω\n\nSubstitute the known quantities into the equation from part (a):\n\n- $P=I^{2}R$\n- $P = ( 3.6 )^{2} \\times 20$** [1 mark]**\n- $P=259.2$** [1 mark]**\n- $P = 260 \\mathrm{W} ( 2 \\mathrm{s} . \\mathrm{f} . )$** [1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "P=I^{2}R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msup><mi>I</mi><mn>2</mn></msup><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space I squared R"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P space equals space open parentheses 3.6 close parentheses squared space cross times space 20",
+       "render": "$P = ( 3.6 )^{2} \\times 20$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "P=259.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>259</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space 259.2"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P space equals space 260 space straight W space open parentheses 2 space straight s. straight f. close parentheses",
+       "render": "$P = 260 \\mathrm{W} ( 2 \\mathrm{s} . \\mathrm{f} . )$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3TCk3qWbs8r5qjTQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the sentences.\n\nChoose answers from the box.\n\nEach answer can be used once, more than once or not at all.\n\n| **current** | **kinetic** | **potential difference** |\n|---|---|---|\n| **thermal** | **gravitational** | **resistance** |\n\nWhen the .............................. is increased, more energy is transferred to each coulomb of charge passing through the cell.\n\nFor a given potential difference, if .............................. is increased, then the power transferred to a component is increased.\n\nA high current means that more power is wasted to the .............................. store of the surroundings.",
+     "solution_md": "The correctly completed sentences are:\n\n- When the **potential difference** is increased, more energy is transferred to each coulomb of charge passing through the cell; **[1 mark]**\n- For a given potential difference, if **current**** **is increased, then the power transferred to a component is increased; **[1 mark]**\n- A high current means that more power is wasted to the **thermal **store of the surroundings; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *When current is high, there are more collisions between charge-carrying electrons and the metal ions in the wire. This causes the ions to vibrate and in turn transfer energy to the thermal store of surroundings. This is why it is better to send electrical power over long distances with high voltages instead of high currents.*"
+    },
+    {
+     "id": "qstnprt_NYVxF6ZrvzskKttS",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fPkN43MmdtfFGv8r"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw a voltmeter, connected correctly, to the circuit diagram in Fig 1.1 to measure the **combined **potential difference across the bulb and the variable resistor.\n\n![2-2-e-3a-circuit-variable-resistor](assets/004-2-2-e-3a-circuit-variable-resistor.png)\n\n**Fig 1.1**",
+     "solution_md": "A correct voltmeter looks like:\n\n**One ****mark for correct placement of a voltmeter**\n\n![2de-soln](assets/005-2de-soln.png)\n\n**OR**\n\n![2de-soln-2](assets/006-2de-soln-2.png)\n\n**[Total: 1 mark]**\n\n> *Your wires do not have to be perpendicular, or even straight, to gain this mark. This is just done for neatness. Provided the lines connecting the voltmeter to the circuit to the left of the bulb and above the variable resistor, your diagram will be correct.*\n\n> *Just don't leave any gaps, however small, otherwise your voltmeter will not be connected. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kJSvQq7t3RrqdJv5",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_Bb3GkpBVSWHTJgw8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YRDjHbg3wJmVBtP4"
+     ],
+     "part_tier": null,
+     "problem_md": "The power *P* dissipated in a resistor of resistance *R* is measured for a range of values of the potential difference *V* across it.\n\nThe results are shown in the table in Fig. 1.1.\n\n| ***V***** / ** | ***V ***<sup>**2**</sup>** / ** | ***P***** / ** |\n|---|---|---|\n| 1.00 | 1.0 | 0.214 |\n| 1.71 | 2.9 | 0.58 |\n| 2.25 |   | 1.011 |\n| 2.67 |   | 1.43 |\n| 3.00 | 9.0 | 1.80 |\n| 3.27 | 10.7 | 2.176 |\n| 3.50 | 12.3 | 2.43 |\n\n**Fig. 1.1.**\n\nFor the table in Fig. 1.1\n\ni) Add the correct units.\n\n[1]\n\nii) Complete the missing data.\n\n[1]\n\niii) Identify errors in the recorded the data and correct them.\n\n[1]",
+     "solution_md": "A correctly completed table looks like:\n\n| ***V***** / ****V** | ***V ***<sup>**2**</sup>** / ****V **<sup>**2**</sup> | ***P***** / ****W** |\n|---|---|---|\n| 1.00 | 1.0 | **Final answer:** **0.21** |\n| 1.71 | 2.9 | 0.58 |\n| 2.25 | **Final answer:** **5.1** | **Final answer:** **1.01** |\n| 2.67 | **Final answer:** **7.1** | 1.43 |\n| 3.00 | 9.0 | 1.80 |\n| 3.27 | 10.7 | **Final answer:** **2.18** |\n| 3.50 | 12.3 | 2.43 |\n\ni) Add correct units.\n\n- All three units correct;** [1 mark]**\n\nii) Complete the missing data.\n\nSquare the corresponding value of *V*:\n\n- Two missing data correct; **[1 mark]**\n\niii) Identify errors in the recorded the data and correct them:\n\n- Power values are recorded to inconsistent precision; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_KYpC5zdnJCj5Tv9J",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe power P dissipated in a resistor of resistance R is measured for a range of values of the potential difference V across it. The results are shown in the table in Fig. 1.1.\nV / V | V^2 / V^2 | P / W\n1.00 | 1.0 | 0.21\n1.71 | 2.9 | 0.58\n2.25 | 5.1 | 1.01\n2.67 | 7.1 | 1.43\n3.00 | 9.0 | 1.80\n3.27 | 10.7 | 2.18\n3.50 | 12.3 | 2.43\n\nComplete the graph of the data on Fig. 1.2. below.\n\n![~oWogJyv_9-1-1b-m-graph-for-current-questions](assets/007-owogjyv-9-1-1b-m-graph-for-current-questions.png)\n\n** Fig. 1.2.**\n\ni) Plot the two missing points **and **complete the graph.\n\n[3]\n\nii) Determine the gradient of the graph.\n\n[3]\n\niii) Use the gradient of the graph to obtain a value for *R*.\n\n[1]",
+     "solution_md": "Complete the graph of the data on Fig. 1.2.\n\ni) Plot the two missing points and complete the graph\n\nA correct graph looks like:\n\n![screenshot-2023-03-13-at-10-27-52](assets/008-screenshot-2023-03-13-at-10-27-52.png)\n\n- Plot at (5.1 , 1.01) correct to within half a small square; **[1 mark]**\n- Plot at (7.1 , 1.43) correct to within half a small square; **[1 mark]**\n- *Line of best fit: *thin, straight line (drawn with ruler) with approximately same number of plots on each side of the line; **[1 mark]**\n\nii) Determine the gradient of the graph\n\n- Clear indication marked on the graph that the large triangle method has been used (occupying <u>at least two thirds</u> of the line); **[1 mark]**\n\n*Gradient calculation*\n\n- $gradient,m=\\frac{Δy}{Δx}$\n- $m=\\frac{2.2-0.18}{11-0.8}$ **[1 mark]**\n- $m=0.1980...$\n- $m = 0.20 ( \\mathrm{W} \\mathrm{V}^{- 2} ) ( 2 \\mathrm{s} . \\mathrm{f} . )$ *(answer in the range 0.180 - 0.220, to 2 or 3 sig figs)* **[1 mark]**\n\niii) Use the gradient of the graph to obtain a value for R\n\n- Since gradient represents *P*/*V*<sup>2</sup> and *R* = *V*<sup>2</sup>/*P*, then *R* is the reciprocal of the gradient\n- $R=\\frac{1}{0.1980}=5.05=5.1Ω$ **[1 mark]**\n\n**[Total: 7 marks]**\n\n> *We have left the 'working out' annotations on our graph to demonstrate how important these are. Once you are finished with a graph question it should look like ours. By marking the scale we have made sure to get our plots correct. It's also worth trying the line of best fit a second time if you aren't sure about the first one.*\n\n> *Your teacher wants you to work in pencil so that you can erase mistakes. This is very, very good advice, which you should follow. However, if you go over your final line in pen, and then rub out working or mistakes, your **examiner **will not mind. They are looking for accuracy.*",
+     "equations": [
+      {
+       "latex": "gradient,m=\\frac{Δy}{Δx}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mi>r</mi><mi>a</mi><mi>d</mi><mi>i</mi><mi>e</mi><mi>n</mi><mi>t</mi><mo>,</mo><mo>&#160;</mo><mi>m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>&#916;</mi><mi>y</mi></mrow><mrow><mi>&#916;</mi><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g r a d i e n t comma space m space equals space fraction numerator capital delta y over denominator capital delta x end fraction"
+      },
+      {
+       "latex": "m=\\frac{2.2-0.18}{11-0.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>18</mn></mrow><mrow><mn>11</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m space equals space fraction numerator 2.2 minus 0.18 over denominator 11 minus 0.8 end fraction"
+      },
+      {
+       "latex": "m=0.1980...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>1980</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m space equals space 0.1980... space"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "m space equals space 0.20 space open parentheses straight W space straight V to the power of negative 2 end exponent close parentheses space open parentheses 2 space straight s. straight f. close parentheses",
+       "render": "$m = 0.20 ( \\mathrm{W} \\mathrm{V}^{- 2} ) ( 2 \\mathrm{s} . \\mathrm{f} . )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "R=\\frac{1}{0.1980}=5.05=5.1Ω",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>0</mn><mo>.</mo><mn>1980</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>05</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R space equals space fraction numerator 1 over denominator 0.1980 end fraction space equals space 5.05 space equals space 5.1 space straight capital omega"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tK23FRG6tnrBc9Mh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kHV3G2J8QHxHDrwD",
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe power P dissipated in a resistor of resistance R is measured for a range of values of the potential difference V across it. The results are shown in the table in Fig. 1.1.\nV / V, V^2 / V^2, P / W:\n1.00, 1.0, 0.214\n1.71, 2.9, 0.58\n2.25, 5.1, 1.011\n2.67, 7.1, 1.43\n3.00, 9.0, 1.80\n3.27, 10.7, 2.176\n3.50, 12.3, 2.43\n\nFrom part (b): R from graph (gradient) = 5.05 Ω (R is the reciprocal of the gradient, R = V^2/P).\n\nThe rest of this question is based on the data in the table Fig. 1.1 in part (a).\n\ni) Determine the value of *R* when *V* = 3.50 V.\n\n[1]\n\nii) The uncertainty in *V* is ± 0.01 V.\n\nThe uncertainty in P is ± 0.05 W.\n\nCalculate the percentage uncertainty in the value of R calculated in part (i).\n\n[3]\n\niii) Hence calculate the uncertainty in the value of *R*.\n\n[1]\n\niv) State and explain whether the value of *R* you calculated in part (i) is consistent with the value of *R* you determined from the gradient in part (b).\n\n[2]",
+     "solution_md": "The rest of this question is based on the data in the table Fig. 1.1 in part (a)\n\ni) Determine the value of *R* when *V* = 3.50 V\n\nUse the data table to determine *P* when *V* = 3.50 V\n\n- *P* = 2.43 W\n\nUse the correct equation and substitute:\n\n- $R=\\frac{V^{2}}{P}=\\frac{3.5^{2}}{2.43}=5.04$\n- $R=5.0\\mathrm{or}5.04Ω\\mathrm{or}5.06Ω$ **[1 mark]**\n\nii) Calculate the percentage uncertainty in the value of *R* calculated in part (i):\n\nList the known quantities:\n\n- Uncertainty in *V* = ± 0.01 V\n- Value of* V* = 3.5 V\n- Uncertainty in *P* = ± 0.05 W\n- Value of* P* = 2.43 W\n\nDetermine the percentage uncertainties in *V* and *P*:\n\n**All marks are for answers to 2 or 3 sig figs ****only**\n\n- Percentage uncertainty in *V*, $\\%_{V} = ( \\frac{0.01}{3.5} ) \\times 100 = 0.29 \\%$ **[1 mark]**\n- Percentage uncertainty in *P*, $\\%_{P} = ( \\frac{0.05}{2.43} ) \\times 100 = 2.1 \\%$ **[1 mark]**\n\nWrite an expression to combine the percentage uncertainties in *V* and *P* and substitute:\n\n- Percentage uncertainty in *R*, $\\%_{R} = ( 2 \\times \\%_{V} ) + \\%_{P}$\n- $\\%_{R} = ( 2 \\times 0.29 ) + 2.1 = 2.7 \\%$ **[1 mark]**\n\niii) Hence calculate the uncertainty in the value of *R*:\n\n- Absolute uncertainty = percentage uncertainty × measured (or calculated) value\n- Uncertainty of *R*, $U_{R}=0.027\\times5.04=0.136=\\pm0.1\\mathrm{or}\\pm0.14Ω$ **[1 mark]**\n\niv) State and explain whether the value of *R* you calculated in part (i) is consistent with the value of R you determined from the gradient in part (b):\n\nUse the calculated value and uncertainty to establish a range of values:\n\n- *R* from calculation = 5.04 ± 0.14 Ω **or **5.06 ± 0.14 Ω\n- Therefore, 4.90 Ω ≤ *R* ≤ 5.18 Ω; **[1 mark]**\n\nCompare to the value derived from the graph:\n\n- *R* from graph = 5.05 Ω\n\n- Therefore the value from the graph falls within the calculated range so they <u>are consistent</u>; **[1 mark]**\n\n**[Total: 7 marks]**",
+     "equations": [
+      {
+       "latex": "R=\\frac{V^{2}}{P}=\\frac{3.5^{2}}{2.43}=5.04",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>=</mo><mfrac><msup><mi>V</mi><mn>2</mn></msup><mi>P</mi></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>.</mo><msup><mn>5</mn><mn>2</mn></msup></mrow><mrow><mn>2</mn><mo>.</mo><mn>43</mn></mrow></mfrac><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>04</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R equals V squared over P equals fraction numerator 3.5 squared over denominator 2.43 end fraction equals space 5.04"
+      },
+      {
+       "latex": "R=5.0\\mathrm{or}5.04Ω\\mathrm{or}5.06Ω",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mi mathvariant=\"bold\">or</mi><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>04</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi><mo>&#160;</mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold\">&#160;</mo><mn>5</mn><mo>.</mo><mn>06</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "R space equals space 5.0 space bold or space 5.04 space straight capital omega space bold or bold space 5.06 space straight capital omega"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign subscript V equals open parentheses fraction numerator 0.01 over denominator 3.5 end fraction close parentheses cross times 100 equals space 0.29 space percent sign",
+       "render": "$\\%_{V} = ( \\frac{0.01}{3.5} ) \\times 100 = 0.29 \\%$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign subscript P equals open parentheses fraction numerator 0.05 over denominator 2.43 end fraction close parentheses cross times 100 equals space 2.1 space percent sign",
+       "render": "$\\%_{P} = ( \\frac{0.05}{2.43} ) \\times 100 = 2.1 \\%$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign subscript R equals open parentheses 2 cross times percent sign subscript V close parentheses plus percent sign subscript P",
+       "render": "$\\%_{R} = ( 2 \\times \\%_{V} ) + \\%_{P}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "percent sign subscript R equals open parentheses 2 cross times 0.29 close parentheses plus 2.1 equals 2.7 space percent sign",
+       "render": "$\\%_{R} = ( 2 \\times 0.29 ) + 2.1 = 2.7 \\%$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "U_{R}=0.027\\times5.04=0.136=\\pm0.1\\mathrm{or}\\pm0.14Ω",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>U</mi><mi>R</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>027</mn><mo>&#215;</mo><mn>5</mn><mo>.</mo><mn>04</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>136</mn><mo>=</mo><mo>&#177;</mo><mn>0</mn><mo>.</mo><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"bold\">or</mi><mo>&#160;</mo><mo>&#177;</mo><mn>0</mn><mo>.</mo><mn>14</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U subscript R space equals space 0.027 cross times 5.04 equals 0.136 equals plus-or-minus 0.1 space bold or space plus-or-minus 0.14 space straight capital omega"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KDwjFzr2J6x58J2W",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_ZVj6pz8YBZqcjRZB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y",
+      "spcpt_7m7YgBNmGDQNxqNp"
+     ],
+     "part_tier": null,
+     "problem_md": "The table in Fig. 1.1 shows the power output of three heaters. All the manufacturers claim that the heaters are rated to 1500 W.\n\n![9-2-m-q2a-sq-heaters-cie-ial-physics](assets/009-9-2-m-q2a-sq-heaters-cie-ial-physics.png)\n\n**Fig. 1.1**\n\nDetermine the most efficient heater.",
+     "solution_md": "Calculate the power of each heater:\n\n- From the data booklet: *P *= *IV*\n- Heater A: *P*<sub>*A*</sub> = 17 × 90 = 1530 W **AND**\n- Heater B: *P*<sub>*B*</sub> = 8.0 × 220 = 1760 W **AND**\n- Heater C: *P*<sub>*C*</sub> = 6.5 × 240 = 1560 W **[1 mark]**\n\nDetermine the efficiency of each heater:\n\n- Recall the equation for efficiency, *E *= $\\frac{\\mathrm{useful} \\mathrm{power} \\mathrm{out}}{\\mathrm{total} \\mathrm{power} \\mathrm{in}}$\n- *E*<sub>*A*</sub> = $\\frac{1500}{1530}=0.98$ **AND**\n- *E*<sub>*B*</sub> = $\\frac{1500}{1760}=0.85$ **AND**\n- *E*<sub>*C*</sub>* = *$\\frac{1500}{1560}=0.96$* ***[1 mark]**\n\nClarify the most efficient heater:\n\n- Heater A is the most efficient heater; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Don't let the efficiency confuse you. The power output is 1500 W because the heaters are all rated to provide an output power of 1500 W. The input power is the power obtained from the input current and potential difference. *\n\n> *The marks can be awarded for efficiencies given as decimals or percentages.*",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{useful} \\mathrm{power} \\mathrm{out}}{\\mathrm{total} \\mathrm{power} \\mathrm{in}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>useful</mi><mo>&#160;</mo><mi>power</mi><mo>&#160;</mo><mi>out</mi></mrow><mrow><mi>total</mi><mo>&#160;</mo><mi>power</mi><mo>&#160;</mo><mi>in</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator useful space power space out over denominator total space power space in end fraction"
+      },
+      {
+       "latex": "\\frac{1500}{1530}=0.98",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1500</mn><mn>1530</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>98</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1500 over 1530 space equals space 0.98"
+      },
+      {
+       "latex": "\\frac{1500}{1760}=0.85",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1500</mn><mn>1760</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>85</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1500 over 1760 space equals space 0.85"
+      },
+      {
+       "latex": "\\frac{1500}{1560}=0.96",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1500</mn><mn>1560</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>96</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1500 over 1560 space equals space 0.96"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_C6vcmJgSmj7tJFVv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KfNf6FPcttw8kF8q",
+      "spcpt_7m7YgBNmGDQNxqNp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table in Fig. 1.1 shows the power output of three heaters. All the manufacturers claim that the heaters are rated to 1500 W.\n\nExplain how these heaters can be made more efficient.",
+     "solution_md": "These heaters can be made more efficient by:\n\n**Final answer:** **Any ****two ****from:**\n\n- Reducing the internal resistance of the wiring / heating element; **[1 mark]**\n- Reducing the length of the wiring in the heater; **[1 mark]**\n- Increasing the cross-sectional area of the wires; **[1 mark]**\n- Lubricating any moving parts within the heater; **[1 mark]**\n- Using a heating element that produces less light; **[1 mark]**\n- Using an LED requiring less potential difference in the heater; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_PQhXqbGg4xv9pYD8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk",
+      "spcpt_HF9Sn3fSM6bjDpMh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table in Fig. 1.1 shows the power output of three heaters. All the manufacturers claim that the heaters are rated to 1500 W.\nHeater A: Current, I = 17 A, Potential difference, V = 90 V\n\nCalculate the work done by heater A when operating for 20 minutes.",
+     "solution_md": "List the known quantities:\n\n- Current, *I *= 17 A (From part (a))\n- Potential difference, *V *= 90 V (From part (a))\n- Time, *t  *= 20 minutes = 20 × 60 = 1200 s\n\nCalculate the charge transferred, *Q*:\n\n- From the data booklet: *Q *= *It*\n- *Q *= 17 × 1200\n- *Q* = 20 400 C **[1 mark]**\n\nCalculate the work done by the heater, *W*:\n\n- From the data booklet: $V=\\frac{W}{Q}$$\\rightarrow$*W *= *VQ* **[1 mark]**\n- *W *= 90 × 20 400\n- *W *= 1.8 × 10<sup>6</sup> J **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "V=\\frac{W}{Q}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>W</mi><mi>Q</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V space equals space W over Q"
+      },
+      {
+       "latex": "\\rightarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mo>&#8594;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rightwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tWgjYSS9ncsKYktn",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n84StRzstN92gw7y"
+     ],
+     "part_tier": null,
+     "problem_md": "Two different heaters X and Y with the same internal resistance, 5*R* use currents of *I* and 2*I *respectively.\n\nState the magnitude of the power of Y in terms of *I *and *R*.",
+     "solution_md": "Use the equation for power with current to obtain the power of Y:\n\n- From the data booklet: *P *= *I*<sup>*2*</sup>*R *\n- Substitute the given quantities: *P *= (2*I*)<sup>2 </sup>× (5*R*)\n- Simplify the equation: *P *= 4*I*<sup>2</sup> × 5*R* **[1 mark]**\n- So, *P *= 20*I*<sup>2</sup>*R* **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3G8cj3MyPp26VKhy",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_pqZQ3ZfXWQVmYHM9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fPkN43MmdtfFGv8r"
+     ],
+     "part_tier": null,
+     "problem_md": "State the **symbol** and the **SI unit **for potential difference.",
+     "solution_md": "The symbol for potential difference is:\n\n- *V*; **[1 mark] **\n\nThe SI unit for potential difference is:\n\n- Volt **OR** V; **[1 mark]**** **\n\n**[Total: 2 marks] **\n\n> *Confusingly, the letter used for the symbol of potential difference **V** is the same as its SI unit, V. You can tell the difference because symbols are always italicised and units never are.*"
+    },
+    {
+     "id": "qstnprt_WZF9RNsdFXrKkZC3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HF9Sn3fSM6bjDpMh"
+     ],
+     "part_tier": null,
+     "problem_md": "Electric charge and potential difference are related.\n\n(i) State an equation that relates electric charge and potential difference\n\n[1]\n\n(ii) Write one **joule** in terms of units of **potential difference** and **electric charge**\n\n[2]",
+     "solution_md": "(i) The equation which relates electric charge and potential difference is:\n\n- $\\mathrm{potential} \\mathrm{difference}=\\frac{\\mathrm{work} \\mathrm{done}}{\\mathrm{charge}}$ **[1 mark] **\n\n(ii) Write one joule in equivalent units:\n\n- *W* = *VQ, *where *W* is the energy transferred (or work done)\n- Therefore, [*W*] = [*V*][*Q*]** [1 mark]**\n- So, one joule J = volt × coulomb **OR** V C **[1 mark] **\n\n**[Total: 3 marks]**\n\n> *The first mark can also be gained with a symbol equation, but each symbol must be correctly defined.*",
+     "equations": [
+      {
+       "latex": "\\mathrm{potential} \\mathrm{difference}=\\frac{\\mathrm{work} \\mathrm{done}}{\\mathrm{charge}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>potential</mi><mo>&#160;</mo><mi>difference</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>work</mi><mo>&#160;</mo><mi>done</mi></mrow><mi>charge</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "potential space difference space equals space fraction numerator work space done over denominator charge end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JsYGk8J5Nmdssb4F",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HF9Sn3fSM6bjDpMh"
+     ],
+     "part_tier": null,
+     "problem_md": "A lamp is powered by a 3.0 V cell.\n\nCalculate the work done on the lamp by a single electron in this circuit.",
+     "solution_md": "To find work done by a single electron:\n\nList the known quantities:\n\n- Potential difference, *V*  = 3.0 V\n\nFrom the data page:\n\n- Elementary charge, *e*  = 1.60 × 10<sup>−19</sup> C\n\nRecall the equation for potential difference:\n\n- $V=\\frac{W}{Q}$\n\nRearrange for work done and substitute the known quantities:\n\n- Here, *Q*  is the charge on an electron\n- $W = Q V = ( 1.60 \\times 10^{- 19} ) \\times 3.0$ **[1 mark]**\n- $W=4.8\\times10^{-19}J$ **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": "V=\\frac{W}{Q}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>W</mi><mi>Q</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V space equals space W over Q"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "W space equals space Q V space equals space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space cross times space 3.0",
+       "render": "$W = Q V = ( 1.60 \\times 10^{- 19} ) \\times 3.0$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "W=4.8\\times10^{-19}J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>8</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>19</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space equals space 4.8 space cross times space 10 to the power of negative 19 end exponent space straight J"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xSWGWSxHtgCth6XZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HF9Sn3fSM6bjDpMh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA lamp is powered by a 3.0 V cell. Calculate the work done on the lamp by a single electron in this circuit.\nWork done by an electron with one cell, W = 4.8 × 10^−19 J\n\nThree more identical 3.0 V cells are added in series to the circuit.\n\nCalculate the new work done per electron.",
+     "solution_md": "To find the new work done:\n\nList the known quantities:\n\n- Number of 3.0 V cell in total = 4\n- Work done by an electron with one cell, *W*  = 4.8 × 10<sup>−19</sup> J (from part (c))\n\nFind the factor by which potential difference has increased:\n\n- Potential difference was 3.0 V\n- New potential difference is 3.0 × 4 = 12 V **[1 mark]**\n- Potential difference has increased by a factor of 4\n\nFind the new work done per electron:\n\n- Potential difference is directly proportional to work\n\n  - $W=QV$\n  - Therefore, $W\\proptoV$\n- If p.d. has increased by a factor of 4, so has work done per electron\n- New work done = 4 × 4.8 × 10<sup>−19</sup> = 1.920...× 10<sup>−18</sup>\n- New work done = 1.9 × 10<sup>−18</sup> J (2 s.f.) **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This method uses proportionality, but you could have equally just found the new potential difference of 12 V and put it back into the potential difference equation. Notice how the answer is still given to two significant figures, as per the given quantities.*",
+     "equations": [
+      {
+       "latex": "W=QV",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>Q</mi><mi>V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space equals space Q V"
+      },
+      {
+       "latex": "W\\proptoV",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>W</mi><mo>&#160;</mo><mo>&#8733;</mo><mo>&#160;</mo><mi>V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W space proportional to space V"
       }
      ]
     }

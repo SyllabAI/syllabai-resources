@@ -1,19 +1,21 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-09-17T00:26:22Z",
+ "generated_utc": "2026-10-26T15:03:00Z",
  "source": {
   "provider": "Save My Exams",
-  "page_url": "https://www.savemyexams.com/international-a-level/physics/edexcel/19/topic-questions/5-thermodynamics-radiation-oscillations-and-cosmology/resonance/multiple-choice-questions/",
+  "landing_url": "https://www.savemyexams.com/international-a-level/physics/edexcel/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
   "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
  },
  "curriculum": {
   "board": "Edexcel",
   "level": "international-a-level",
-  "subject": "Physics",
+  "subject": "physics",
   "exam_code": "YPH11",
   "sme_course_id": "crs_yxgKrc5fkpcYWYvj",
   "syllabus_version": "2018",
-  "sme_alias_path": "19"
+  "sme_alias_path": "19",
+  "course_name": "Edexcel International A Level (IAL) Physics"
  },
  "section": {
   "slug": "5-thermodynamics-radiation-oscillations-and-cosmology",
@@ -61,19 +63,36 @@
   {
    "id": "tqst_WSGJFtbBZpVZX6Nm",
    "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
    "order": 0,
    "difficulties": [
     "easy"
    ],
-   "question_count": 1
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/international-a-level/physics/edexcel/19/topic-questions/5-thermodynamics-radiation-oscillations-and-cosmology/resonance/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_CbtTzYgrMk9KT6Mt",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/international-a-level/physics/edexcel/19/topic-questions/5-thermodynamics-radiation-oscillations-and-cosmology/resonance/structured-questions/"
   }
  ],
  "scrape": {
-  "sets_completed": [
-   "multiple-choice-questions"
-  ],
+  "questions_embedded": 2,
   "questions_missing": [],
   "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
   "asset_map": {}
  },
  "questions": [
@@ -125,11 +144,212 @@
        "is_correct": true,
        "text_md": "The amplitude of oscillation is unusually large."
       }
-     ],
-     "spec_point_codes": [
-      "148",
-      "150"
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_S7VJf32sYmGBYCVh",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_BczkHX8gdnbXWBt9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GRbqSB6rB8stWmDS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen marking this question:\n\n- Accept \"forcing frequency\" or \"frequency of the applied force\" for \"driving frequency\"\n- Accept \"the frequency at which the system oscillates freely\" as a description of natural frequency\n- Do not accept \"large amplitude\" without reference to a maximum\n\nA washing machine rests on spring mounts. During the spin cycle, the wet clothes in the rotating drum are not evenly distributed, so the drum exerts a periodic force on the machine. The frequency of this force is equal to the rotation frequency of the drum.\n\nThe machine and its contents can be modelled as a mass–spring system oscillating vertically. The mounts obey Hooke's law.\n\nExplain what is meant by resonance.",
+     "solution_md": "> **[mark-scheme]**\n> Any **two** from:\n> \n> - The system is subjected to a periodic driving force with a frequency equal to the natural frequency of the system\n> - There is a maximum transfer of energy from the driver to the oscillating system\n> - The amplitude of the oscillation becomes a maximum\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> Resonance is three linked ideas — the frequency condition (driving frequency equal to natural frequency), maximum energy transfer and maximum amplitude — and any two of them earn the marks here. Lead with the frequency condition: it is the defining feature, and answers built on \"large amplitude\" alone, with no reference to the natural frequency, score zero."
+    },
+    {
+     "id": "qstnprt_tBdpcwGjvSB2NXRK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_x2y95mhPWDFVYMQJ",
+      "spcpt_GRbqSB6rB8stWmDS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA washing machine rests on spring mounts. During the spin cycle, the wet clothes in the rotating drum are not evenly distributed, so the drum exerts a periodic force on the machine. The frequency of this force is equal to the rotation frequency of the drum.\n\nThe machine and its contents can be modelled as a mass–spring system oscillating vertically. The mounts obey Hooke's law.\n\nThe mass of the empty washing machine is 72 kg. When wet clothes of mass 8.0 kg are placed in the drum, the machine sinks a further 2.0 mm on its mounts.\n\nCalculate the rotation rate of the drum, in revolutions per minute, at which resonance occurs.",
+     "solution_md": "To calculate the rotation rate at which resonance occurs:\n\n- List the known quantities:\n\n  - Mass of wet clothes, $\\Delta m = 8 . 0 \\text{kg}$\n  - Additional compression of the mounts, $\\Delta x = 2 . 0 \\text{mm} = 2 . 0 \\times 10^{-3} \\text{m}$\n  - Total oscillating mass, $m = 72 + 8 . 0 = 80 \\text{kg}$\n- Use Hooke's law to determine the stiffness of the spring mounts:\n\n  - The additional weight is supported by the additional compression of the mounts\n\n$\\DeltaF=k\\Deltax=\\Deltamg$\n\n$k=\\frac{\\Deltamg}{\\Deltax}$\n\n$k=\\frac{8.0\\times9.81}{2.0\\times10^{-3}}$\n\n$k = 3 . 9 \\times 10^{4} \\text{N m}^{-1}$ **[1 mark]**\n\n- The machine and its contents oscillate as a mass–spring system, so combine $T = 2 π \\sqrt{\\frac{m}{k}}$ with $f = \\frac{1}{T}$, using the total mass:\n\n$T=\\frac{1}{f}=2π\\sqrt{\\frac{m}{k}}$\n\n$f_{0}=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}$\n\n$f_{0}=\\frac{1}{2π}\\sqrt{\\frac{3.9\\times10^{4}}{80}}$ **[1 mark]**\n\n$f_{0} = 3 . 5 \\text{Hz}$ **[1 mark]**\n\n- At resonance, the rotation frequency of the drum is equal to the natural frequency, so convert to revolutions per minute:\n\n$\\text{rotation rate} = 3 . 5 \\times 60$ **[1 mark]**\n\n$\\text{rotation rate} =$$210 \\text{rev min}^{-1}$ **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for use of $\\Delta F = k \\Delta x$ with the additional weight and the compression converted to metres, giving $k = 3 . 9 \\times 10^{4} \\text{N m}^{-1}$\n> \n> - Accept the substitution shown as `k = \\left(8.0 \\times 9.81\\right) \\div 0.0020`\n> - Do not accept the total weight of the machine and clothes in this step\n> \n> 1 mark for use of $T=2π\\sqrt{m/k}$ with $f = 1 / T$ and the total mass of $80 \\text{kg}$\n> \n> 1 mark for $f_{0} = 3 . 5 \\text{Hz}$\n> \n> - Accept 3.52–3.53 Hz\n> \n> 1 mark for equating the drum rotation frequency to the natural frequency and multiplying by 60\n> \n> 1 mark for a correct answer of $210 \\text{rev min}^{-1}$\n> \n> - Accept answers in the range 210–212 rev min<sup>-1</sup>\n> - Must include a correct unit for this mark\n\n> **[exam-tip]**\n> Two traps sit in this calculation.\n> \n> First, the stiffness comes only from the additional load — the machine sinks a *further* 2.0 mm under the 8.0 kg of clothes, so 8.0 kg belongs in the Hooke's law step.\n> \n> Second, the oscillating system is the whole machine plus its contents, so 80 kg belongs in the frequency step.\n> \n> Using the same mass in both steps is wrong physics, and if you use 8.0 kg throughout you should notice the answer of about 670 rev min⁻¹ fails a sense check against part (c)'s spin cycle.\n> \n> Convert 2.0 mm to metres before substituting — leaving it in mm makes the stiffness a factor of 1000 too small.",
+     "equations": [
+      {
+       "latex": "\\Delta m = 8 . 0 \\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x2206;</mo><mi>m</mi><mo>=</mo><mn>8</mn><mo>.</mo><mn>0</mn><mtext>&#xA0;kg</mtext></math>",
+       "alt": "∆ m = 8.0 \\text{ kg}"
+      },
+      {
+       "latex": "\\Delta x = 2 . 0 \\text{mm} = 2 . 0 \\times 10^{-3} \\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x2206;</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>0</mn><mtext>&#xA0;mm</mtext><mo>=</mo><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mtext>&#xA0;m</mtext></math>",
+       "alt": "∆ x = 2.0 \\text{ mm} = 2.0 \\times 10^{-3} \\text{ m}"
+      },
+      {
+       "latex": "m = 72 + 8 . 0 = 80 \\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>72</mn><mo>+</mo><mn>8</mn><mo>.</mo><mn>0</mn><mo>=</mo><mn>80</mn><mtext>&#xA0;kg</mtext></math>",
+       "alt": "m = 72 + 8.0 = 80 \\text{ kg}"
+      },
+      {
+       "latex": "\\DeltaF=k\\Deltax=\\Deltamg",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>F</mi><mo>=</mo><mi>k</mi><mo>&#8710;</mo><mi>x</mi><mo>=</mo><mo>&#8710;</mo><mi>m</mi><mi>g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment F equals k increment x equals increment m g"
+      },
+      {
+       "latex": "k=\\frac{\\Deltamg}{\\Deltax}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mfrac><mrow><mo>&#8710;</mo><mi>m</mi><mi>g</mi></mrow><mrow><mo>&#8710;</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals fraction numerator increment m g over denominator increment x end fraction"
+      },
+      {
+       "latex": "k=\\frac{8.0\\times9.81}{2.0\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mfrac><mrow><mn>8</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><mn>9</mn><mo>.</mo><mn>81</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k equals fraction numerator 8.0 cross times 9.81 over denominator 2.0 cross times 10 to the power of negative 3 end exponent end fraction"
+      },
+      {
+       "latex": "k = 3 . 9 \\times 10^{4} \\text{N m}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>9</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>4</mn></msup><msup><mtext>&#xA0;N m</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "k = 3.9 \\times 10^{4} \\text{ N m}^{-1}"
+      },
+      {
+       "latex": "T = 2 π \\sqrt{\\frac{m}{k}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mn>2</mn><mi>&#x3C0;</mi><msqrt><mfrac><mi>m</mi><mi>k</mi></mfrac></msqrt></math>",
+       "alt": "T = 2\\pi\\sqrt{\\frac{m}{k}}"
+      },
+      {
+       "latex": "f = \\frac{1}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac></math>",
+       "alt": "f = \\frac{1}{T}"
+      },
+      {
+       "latex": "T=\\frac{1}{f}=2π\\sqrt{\\frac{m}{k}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mi>f</mi></mfrac><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><msqrt><mfrac><mi>m</mi><mi>k</mi></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T equals 1 over f equals 2 straight pi square root of m over k end root"
+      },
+      {
+       "latex": "f_{0}=\\frac{1}{2π}\\sqrt{\\frac{k}{m}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow></mfrac><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f subscript 0 equals fraction numerator 1 over denominator 2 straight pi end fraction square root of k over m end root"
+      },
+      {
+       "latex": "f_{0}=\\frac{1}{2π}\\sqrt{\\frac{3.9\\times10^{4}}{80}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow></mfrac><msqrt><mfrac><mrow><mn>3</mn><mo>.</mo><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup></mrow><mn>80</mn></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f subscript 0 equals fraction numerator 1 over denominator 2 straight pi end fraction square root of fraction numerator 3.9 cross times 10 to the power of 4 over denominator 80 end fraction end root"
+      },
+      {
+       "latex": "f_{0} = 3 . 5 \\text{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn><mtext>&#xA0;Hz</mtext></math>",
+       "alt": "f_{0} = 3.5 \\text{ Hz}"
+      },
+      {
+       "latex": "\\text{rotation rate} = 3 . 5 \\times 60",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>rotation rate</mtext><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><mn>60</mn></math>",
+       "alt": "\\text{rotation rate} = 3.5 \\times 60"
+      },
+      {
+       "latex": "\\text{rotation rate} =",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>rotation rate</mtext><mo>=</mo></math>",
+       "alt": "\\text{rotation rate} ="
+      },
+      {
+       "latex": "210 \\text{rev min}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>210</mn><msup><mtext>&#xA0;rev min</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "210 \\text{ rev min}^{-1}"
+      },
+      {
+       "latex": "\\Delta F = k \\Delta x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#x2206;</mo><mi>F</mi><mo>=</mo><mi>k</mi><mo>&#x2206;</mo><mi>x</mi></math>",
+       "alt": "∆ F = k ∆ x"
+      },
+      {
+       "latex": "k = 3 . 9 \\times 10^{4} \\text{N m}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>9</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>4</mn></msup><msup><mtext>&#xA0;N m</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "k = 3.9 \\times 10^{4} \\text{ N m}^{-1}"
+      },
+      {
+       "latex": "T=2π\\sqrt{m/k}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><msqrt><mi>m</mi><mo>/</mo><mi>k</mi></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T equals 2 straight pi square root of m divided by k end root"
+      },
+      {
+       "latex": "f = 1 / T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mn>1</mn><mo>/</mo><mi>T</mi></math>",
+       "alt": "f = 1/T"
+      },
+      {
+       "latex": "80 \\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mtext>&#xA0;kg</mtext></math>",
+       "alt": "80 \\text{ kg}"
+      },
+      {
+       "latex": "f_{0} = 3 . 5 \\text{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn><mtext>&#xA0;Hz</mtext></math>",
+       "alt": "f_{0} = 3.5 \\text{ Hz}"
+      },
+      {
+       "latex": "210 \\text{rev min}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>210</mn><msup><mtext>&#xA0;rev min</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "210 \\text{ rev min}^{-1}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DYGNggDkqdHVn4T9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ptW7XSDVfVyBzCpH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCalculate the rotation rate of the drum, in revolutions per minute, at which resonance occurs.\n\nMark scheme result from (b): rotation rate = 210 rev min<sup>-1</sup> (the natural frequency of the machine as a mass-spring system, f₀ = 3.5 Hz).\n\nWhen marking this question:\n\n- For the first mark, accept: the rotation rate is (briefly) equal to about 210 rev min<sup>-1</sup> (allow ecf of the value from (b))\n- For the second mark, accept: answers argued from the shape of an amplitude–driving frequency graph, i.e. the amplitude falls away either side of the peak\n\nDuring the spin cycle, the drum accelerates from rest to a maximum rotation rate of 1200 revolutions per minute.\n\nThe machine vibrates violently, but only for a short time while the drum is speeding up.\n\nSuggest why the machine vibrates violently only for a short time.",
+     "solution_md": "> **[mark-scheme]**\n> - As the drum speeds up, its rotation frequency passes through the natural frequency of the machine, so resonance occurs only momentarily **[1 mark]**\n> - At higher rotation rates, the driving frequency is much greater than the natural frequency, so the amplitude of the oscillation is small **[1 mark]**\n\n> **[exam-tip]**\n> Picture the amplitude–driving frequency curve: as the drum accelerates from rest to 1200 rev min⁻¹, the driving frequency sweeps along the frequency axis, passing through the resonance peak at about 210 rev min⁻¹. The violent vibration occurs when the sweep crosses the peak; at full speed, the machine is far beyond it, where the curve is low. Answers that only say \"resonance occurs\" without explaining why it stops score one mark, not two."
+    },
+    {
+     "id": "qstnprt_fDxz2B7MfQ5BrT2p",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vdcXFJQm43S7csBn",
+      "spcpt_P7PprtGBgHpVVzRd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA washing machine rests on spring mounts. During the spin cycle, the wet clothes in the rotating drum are not evenly distributed, so the drum exerts a periodic force on the machine. The frequency of this force is equal to the rotation frequency of the drum. The machine and its contents can be modelled as a mass–spring system oscillating vertically. The mounts obey Hooke's law.\n\nWhen marking this question:\n\n- For the first mark, accept: energy is dissipated by (work is done against) the damping force\n- For the second mark, accept: the peak of the amplitude–frequency graph becomes lower (and broader)\n- Do not accept a bare statement that the amplitude decreases over time — the answer must address the amplitude at resonance\n\nThe spring mounts are replaced with mounts containing oil. This increases the damping of the oscillations.\n\nExplain the effect of this change on the amplitude of the oscillations at resonance.",
+     "solution_md": "> **[mark-scheme]**\n> - The damping force opposes the motion of the machine, so energy is transferred from the oscillating system (to the surroundings) **[1 mark]**\n> - The maximum amplitude at resonance is reduced **[1 mark]**\n\n> **[exam-tip]**\n> \"Explain\" needs a mechanism, not just an outcome. Say where the energy goes — the damping force opposes the motion, so energy is transferred out of the oscillating system — and then state the effect on the resonance amplitude. A common weak answer names the effect (\"smaller amplitude\") with no energy argument, which earns only one of the two marks."
     }
    ]
   }

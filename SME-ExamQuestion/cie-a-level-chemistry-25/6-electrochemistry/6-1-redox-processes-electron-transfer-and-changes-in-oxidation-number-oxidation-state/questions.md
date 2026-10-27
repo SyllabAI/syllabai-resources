@@ -1,6 +1,6 @@
 # Exam Questions — Redox Processes: Electron Transfer & Changes in Oxidation Number (Oxidation State)
 **6. Electrochemistry** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 31 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 41 questions across 2 sets
 
 
 ## Multiple Choice Questions (31 questions)
@@ -353,3 +353,496 @@ NH<sub>4</sub>NO<sub>3</sub> (s) → N<sub>2</sub>O (g) + 2H<sub>2</sub>O (g)
 The nitrogen atoms in NH<sub>4</sub>NO<sub>3</sub> have different oxidation numbers.
 
 What are the changes in the oxidation numbers as the reaction proceeds?
+
+## Structured Questions (10 questions)
+
+
+### Q1 — medium — 12 marks
+
+**Q1** [3 marks]
+
+Household bleach contains NaClO as its active ingredient.
+
+NaClO can be produced from the reaction between chlorine and aqueous sodium hydroxide.
+
+i) State the conditions required for NaClO to be produced from this reaction.
+
+[1]
+
+ii) State the systematic name of NaClO.
+
+[1]
+
+iii) When chlorine and sodium hydroxide react under different conditions, sodium chlorate(V) is produced. Deduce the formula of sodium chlorate(V).
+
+[1]
+
+**Q1** [3 marks]
+
+The balanced symbol equation showing the reaction of chlorine and sodium hydroxide to form NaClO is shown below.
+
+Cl<sub>2</sub> (aq) + 2NaOH (aq) → NaClO (aq) + NaCl (aq) + H<sub>2</sub>O (l)
+
+i) Construct an ionic equation for this reaction.
+
+[1]
+
+ii) Explain, in terms of changes in oxidation numbers, why this is an example of a disproportionation reaction.
+
+[2]
+
+**Q1** [1 mark]
+
+The concentration of NaClO in bleach can be found by reacting it with hydrogen peroxide, H<sub>2</sub>O<sub>2</sub>.
+
+NaClO (aq) + H<sub>2</sub>O<sub>2</sub> (aq) → NaCl (aq) + O<sub>2</sub> (g) + H<sub>2</sub>O (l)
+
+Explain, using oxidation numbers, why chlorine has been reduced in this reaction.
+
+**Q1** [5 marks]
+
+**Extract:**
+
+The concentration of NaClO in bleach can be found by reacting it with hydrogen peroxide, H~2~O~2~.
+
+NaClO (aq) + H~2~O~2~ (aq) → NaCl (aq) + O~2~ (g) + H~2~O (l)
+
+A student reacted an excess of aqueous hydrogen peroxide with 10.0 cm<sup>3</sup> of a sample of bleach. They collected 108 cm<sup>3</sup> of oxygen gas. Assume that under the conditions used, the molar gas volume is 24.0 dm<sup>3</sup> mol<sup>-1</sup>.
+
+Calculate the concentration of NaClO in the bleach, in g per 100 cm<sup>3</sup>. Show your working.
+
+concentration of NaClO = ................................. g per 100 cm<sup>3</sup>
+
+### Q2 — medium — 10 marks
+
+**Q2** [1 mark]
+
+Under suitable conditions, SCl<sub>2</sub> reacts with water to produce a yellow precipitate of sulfur and a solution **A**. Solution **A** contains a mixture of SO<sub>2</sub> (aq) and compound **B**.
+
+State the oxidation number of sulfur in SCl<sub>2</sub>.
+
+**Q2** [4 marks]
+
+**Extract:**
+
+Under suitable conditions, SCl~2~ reacts with water to produce a yellow precipitate of sulfur and a solution **A**. Solution **A** contains a mixture of SO~2~ (aq) and compound **B**.
+
+i) Deduce how the oxidation number of sulfur changes during the reaction of SCl<sub>2</sub> with water. Show your working.
+
+[2]
+
+ii) Identify the type of reaction that occurs when SCl<sub>2</sub> reacts with water. Explain your answer in terms of changes in oxidation numbers.
+
+[2]
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Under suitable conditions, SCl~2~ reacts with water to produce a yellow precipitate of sulfur and a solution **A**. Solution **A** contains a mixture of SO~2~ (aq) and compound **B**.
+
+i) Suggest the identity of compound **B**.
+
+[1]
+
+ii) Construct an equation for the reaction between SCl<sub>2</sub> and water.
+
+[1]
+
+**Q2** [3 marks]
+
+**Extract:**
+
+Under suitable conditions, SCl2 reacts with water to produce a yellow precipitate of sulfur and a solution A. Solution A contains a mixture of SO2 (aq) and compound B.
+
+i) Separate samples of solution **A** are tested with different reagents. Complete the table to describe what is observed when each reagent is added to solution **A**.
+
+| Reagent | Observation |
+|---|---|
+| AgNO<sub>3</sub> (aq) |   |
+| acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> (aq) |   |
+
+[2]
+
+ii) State the systematic name of KMnO<sub>4</sub>.
+
+[1]
+
+### Q3 — medium — 11 marks
+
+**Q3** [4 marks]
+
+For each of the equations below, complete the table to show the initial and final oxidation numbers of the elements printed in **bold**, and balance the equation.
+
+i) ...... **Mn**O<sub>4</sub><sup>-</sup> + ...... **S**O<sub>2</sub> + ...... H<sub>2</sub>O → ...... **Mn**<sup>2+</sup> + ...... **S**O<sub>4</sub><sup>2-</sup> + ...... H<sup>+</sup>
+
+| Element | Initial oxidation number | Final oxidation number |
+|---|---|---|
+| **Mn** |   |   |
+| **S** |   |   |
+
+[2]
+
+ii) ...... **Cr**<sub>2</sub>O<sub>7</sub><sup>2-</sup> + ...... **N**O<sub>2</sub> + ...... H<sup>+</sup> → ...... **Cr**<sup>3+</sup> + ...... **N**O<sub>3</sub><sup>-</sup> + ...... H<sub>2</sub>O
+
+| Element | Initial oxidation number | Final oxidation number |
+|---|---|---|
+| **Cr** |   |   |
+| **N** |   |   |
+
+[2]
+
+**Q3** [2 marks]
+
+**Extract:**
+
+ii) ...... **Cr**~2~O~7~^2-^ + ...... **N**O~2~ + ...... H^+^ → ...... **Cr**^3+^ + ...... **N**O~3~^-^ + ...... H~2~O
+
+State what is observed during the reaction in **(a)(ii)**.
+
+**Q3** [3 marks]
+
+Zinc will displace copper from copper(II) sulfate solution.
+
+i) Construct an equation for this reaction. Include state symbols.
+
+[1]
+
+ii) Explain, using oxidation numbers, why this is a redox reaction.
+
+[2]
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Zinc will displace copper from copper(II) sulfate solution.
+
+i) Construct an equation for this reaction. Include state symbols.
+
+The equation for the reaction between zinc and copper(II) sulfate:
+
+- Zn (s) + CuSO~4~ (aq) → ZnSO~4~ (aq) + Cu (s)
+
+Identify the oxidising agent in the reaction in **(c)(i)**. Construct a half-equation to support your answer.
+
+### Q4 — hard — 9 marks
+
+**Q4** [2 marks]
+
+Photochromic glass contains an evenly distributed mixture of copper(I) chloride and silver(I) chloride. When ultraviolet light passes through the glass, the silver(I) chloride is separated into its ions. The chloride ions are then converted into chlorine atoms and the silver(I) ions into silver atoms. The silver atoms cluster together causing the lenses of photochromic glasses to darken.
+
+Construct two ionic half-equations for the processes involved in the darkening of photochromic glasses. State whether each process is oxidation or reduction. Explain your answer in terms of electron transfer.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Photochromic glass contains an evenly distributed mixture of copper(I) chloride and silver(I) chloride. When ultraviolet light passes through the glass, the silver(I) chloride is separated into its ions. The chloride ions are then converted into chlorine atoms and the silver(I) ions into silver atoms. The silver atoms cluster together causing the lenses of photochromic glasses to darken.
+
+Identify the oxidising agent in the darkening process described in part (a). Explain your answer in terms of changes in oxidation number.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Photochromic glass contains an evenly distributed mixture of copper(I) chloride and silver(I) chloride. When ultraviolet light passes through the glass, the silver(I) chloride is separated into its ions. The chloride ions are then converted into chlorine atoms and the silver(I) ions into silver atoms. The silver atoms cluster together causing the lenses of photochromic glasses to darken.
+
+The two ionic half-equations for the processes involved in the darkening are:
+Cl⁻ (aq) → Cl (aq) + e⁻
+Ag⁺ (aq) + e⁻ → Ag (s)
+
+The darkening process caused by the formation of silver atoms is reversible. Copper(I) chloride first reacts with the chlorine atoms from part (a) to form copper(II) chloride. Copper(II) chloride then reacts with the silver atoms from part (a) to reform silver(I) chloride.
+
+Construct two equations to represent these reactions.
+
+**Q4** [3 marks]
+
+Copper(I) chloride, similar to that used in photochromic glass, can be made in the laboratory by the following method:
+
+- Warm 0.5 g copper(II) oxide with 5 cm<sup>3</sup> concentrated hydrochloric acid for 1 minute.
+- Add 1.0 g of copper turnings.
+- Gently boil for 5 minutes.
+- Filter the solution into 250 cm<sup>3</sup> of deionised water.
+- Allow the copper(I) chloride precipitate to settle.
+- Decant the liquid.
+- Allow the copper(I) chloride to dry.
+
+i) Construct an equation for the reaction described. Include state symbols.
+
+[1]
+
+ii) A student states that the reaction in (i) is a disproportionation reaction. State whether the student is correct. Explain your answer in terms of changes in oxidation numbers.
+
+[2]
+
+### Q5 — easy — 7 marks
+
+**Q5** [2 marks]
+
+Explain what is meant by the term *reduction* in terms of electrons and oxidation number.
+
+**Q5** [2 marks]
+
+Complete Table 2.1 to show the oxidation number of the specified element in each species.
+
+**Table 2.1**
+
+| **Species** | **Oxidation number** |
+|---|---|
+| vanadium in VO<sub>2</sub><sup>+</sup> |   |
+| sulfur in H<sub>2</sub>SO<sub>3</sub> |   |
+| lead in PbO<sub>2</sub> |   |
+| antimony in SbCl<sub>3</sub> |   |
+
+**Q5** [3 marks]
+
+Complete Table 2.2 to show the formula of each compound.
+
+**Table 2.2**
+
+| **Compound** | **Formula** |
+|---|---|
+| copper(I) oxide |   |
+| iron(III) chloride |   |
+| tin(IV) chloride |   |
+| vanadium(II) oxide |   |
+
+### Q6 — hard — 8 marks
+
+**Q6** [3 marks]
+
+The reaction of sodium iodide with concentrated sulfuric acid forms a variety of products as shown in Table 3.1.
+
+**Table 3.1**
+
+| **Chemical** | **Formed by** |
+|---|---|
+| NaHSO<sub>4</sub> |   |
+| SO<sub>2</sub> |   |
+| Na<sub>2</sub>SO<sub>4</sub> |   |
+| I<sub>2</sub> |   |
+| HI |   |
+| S |   |
+| H<sub>2</sub>O |   |
+| H<sub>2</sub>S |   |
+
+Complete Table 3.1 by identifying, for each product, whether it is formed by oxidation, reduction, or neither oxidation nor reduction.
+
+**Q6** [2 marks]
+
+Sulfur dioxide reacts with a solution of copper(II) chloride.
+
+SO<sub>2</sub> (g) + 2H<sub>2</sub>O (l) + 2CuCl<sub>2</sub> (aq) → H<sub>2</sub>SO<sub>4</sub> (aq) + 2HCl (aq) + 2CuCl (s)
+
+Identify the reducing agent and oxidising agent in this reaction. Explain your answer in terms of changes in oxidation number.
+
+**Q6** [3 marks]
+
+Sodium iodate is one of the main sources of iodine in the world. To extract the iodine, sodium iodate is reacted with aqueous sodium hydrogensulfite, NaHSO<sub>3</sub>, according to the following ionic equation.
+
+2IO<sub>3</sub><sup>–</sup> (aq) + 5HSO<sub>3</sub><sup>–</sup> (aq) → 3HSO<sub>4</sub><sup>–</sup> (aq) + 2SO<sub>4</sub><sup>2–</sup> (aq) + I<sub>2</sub> (aq) + H<sub>2</sub>O (l)
+
+i) State the change in oxidation number of iodine in this reaction.
+
+[1]
+
+ii) Identify the role of the hydrogensulfite ion in this reaction. Explain your answer in terms of changes in oxidation numbers.
+
+[2]
+
+### Q7 — easy — 7 marks
+
+**Q7** [1 mark]
+
+Describe what is meant by a *disproportionation reaction*.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Describe what is meant by a *disproportionation reaction*.
+
+A disproportionation reaction is one in which a single species is simultaneously oxidised AND reduced.
+
+State whether the displacement reaction between copper(II) ions and magnesium is an example of a disproportionation reaction. Explain your answer in terms of changes in oxidation numbers.
+
+Cu<sup>2+</sup> (aq) + Mg (s) → Mg<sup>2+</sup> (aq) + Cu (s)
+
+**Q7** [2 marks]
+
+**Extract:**
+
+A disproportionation reaction is one in which a single species is simultaneously oxidised AND reduced.
+
+i) Construct an equation for the disproportionation reaction of sulfuric acid with copper(I) oxide to form copper, copper(II) sulfate and water.
+
+[1]
+
+ii) Identify which element, in this reaction, undergoes disproportionation.
+
+[1]
+
+**Q7** [2 marks]
+
+i) Construct an equation for the reaction of nitrogen dioxide with water to form nitric acid and nitrous acid, HNO<sub>2</sub>.
+
+[1]
+
+ii) Identify which element undergoes disproportionation.
+
+[1]
+
+### Q8 — hard — 8 marks
+
+**Q8** [2 marks]
+
+The tetrathionate ion, S<sub>4</sub>O<sub>6</sub><sup>2–</sup>, is shown in Fig 1.1.
+
+![Structural diagram of the tetrathionate ion showing four sulfur atoms bonded in a chain with six bridging oxygen atoms](assets/003-structural-diagram-of-the-tetrathionate-ion-show.png)
+
+**Fig 1.1**
+
+Deduce the oxidation number of sulfur in the tetrathionate ion. Explain your answer.
+
+**Q8** [4 marks]
+
+**Extract:**
+
+The tetrathionate ion, S~4~O~6~^2–^, is shown in Fig 1.1.
+
+Sodium tetrathionate can be formed by reacting sodium thiosulfate, Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, with iodine.
+
+i) Construct an equation for the reaction between sodium thiosulfate and iodine. Include state symbols.
+
+[2]
+
+ii) Identify the oxidising agent in this reaction.
+
+[1]
+
+iii) State the colour change that would be observed during this reaction.
+
+[1]
+
+**Q8** [2 marks]
+
+**Extract:**
+
+The tetrathionate ion, S~4~O~6~^2–^, is shown in Fig 1.1.
+
+Deduce the oxidation number of sulfur in the tetrathionate ion. Explain your answer.
+
+The oxidation number of sulfur in S~4~O~6~^2–^: +2.5. This is an average value; the tetrathionate ion contains sulfur atoms with two different oxidation numbers.
+
+Sodium tetrathionate can also be made by reacting sodium hydrogensulfite, NaHSO<sub>3</sub>, with disulfur dichloride, S<sub>2</sub>Cl<sub>2</sub>.
+
+2NaHSO<sub>3</sub> + S<sub>2</sub>Cl<sub>2</sub> → Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> + 2HCl
+
+State whether this reaction is an example of a disproportionation reaction. Explain your answer in terms of changes in oxidation numbers.
+
+### Q9 — easy — 9 marks
+
+**Q9** [2 marks]
+
+This question is about oxidation numbers.
+
+Complete Table 1.1 to show the oxidation number of sulfur in each compound.
+
+**Table 1.1**
+
+| **Compound** | **Oxidation number** |
+|---|---|
+| SO<sub>2</sub> |   |
+| SO<sub>3</sub> |   |
+| H<sub>2</sub>SO<sub>4</sub> |   |
+| SF<sub>4</sub> |   |
+
+**Q9** [1 mark]
+
+State the oxidation number of sulfur in S<sub>8</sub>.
+
+**Q9** [3 marks]
+
+The reaction between tin(IV) chloride and magnesium is classed as a redox reaction.
+
+SnCl<sub>4</sub> (l) + 2Mg (s) → 2MgCl<sub>2</sub> (s) + Sn (s)
+
+i) State the change in oxidation number of magnesium.
+
+[1]
+
+ii) State the change in oxidation number of tin.
+
+[1]
+
+iii) Deduce which species is acting as the reducing agent.
+
+[1]
+
+**Q9** [3 marks]
+
+Antimony reacts with nitric acid to form antimony(III) oxide, nitrogen monoxide and water as shown in the following equation.
+
+2Sb (s) + 2HNO<sub>3</sub> (aq) → Sb<sub>2</sub>O<sub>3</sub> (s) + 2NO (g) + H<sub>2</sub>O (l)
+
+i) State the change in oxidation number of antimony.
+
+[1]
+
+ii) State the change in oxidation number of nitrogen.
+
+[1]
+
+iii) Identify the oxidising agent in this reaction.
+
+[1]
+
+### Q10 — medium — 12 marks
+
+**Q10** [4 marks]
+
+This question is about redox reactions.
+
+When calcium reacts with Fe(NO<sub>3</sub>)<sub>2</sub>, a redox reaction occurs.
+
+Ca (s) + Fe(NO<sub>3</sub>)<sub>2</sub> (aq) → Ca(NO<sub>3</sub>)<sub>2</sub> (aq) + Fe (s)
+
+Explain, in terms of electron transfer and oxidation numbers, which species has been oxidised and which has been reduced. Hence identify the reducing agent.
+
+**Q10** [1 mark]
+
+State the systematic name of Fe(NO<sub>3</sub>)<sub>2</sub>.
+
+**Q10** [4 marks]
+
+Another redox reaction occurs between cobalt(III) oxide, Co<sub>2</sub>O<sub>3</sub>, and hydrochloric acid, HCl.
+
+Co<sub>2</sub>O<sub>3</sub> (s) + 6HCl (aq) → 2CoCl<sub>2</sub> (aq) + 3H<sub>2</sub>O (l) + Cl<sub>2</sub> (g)
+
+i) Explain, in terms of oxidation numbers, what has been reduced.
+
+[2]
+
+ii) A student describes this reaction as a disproportionation reaction. State whether the student is correct. Explain your answer using oxidation numbers.
+
+[2]
+
+**Q10** [3 marks]
+
+Magnesium oxide, MgO, reacts with nitric acid, HNO<sub>3</sub>, when heated.
+
+MgO (s) + 2HNO<sub>3</sub> (aq) → Mg(NO<sub>3</sub>)<sub>2</sub> (aq) + H<sub>2</sub>O (l)
+
+i) State the oxidation numbers of magnesium and nitrogen in the reactants and products by completing the table.
+
+|   | MgO | HNO<sub>3</sub> | Mg(NO<sub>3</sub>)<sub>2</sub> |
+|---|---|---|---|
+| Mg |   | – |   |
+| N | – |   |   |
+
+[2]
+
+ii) Explain whether the reaction between magnesium oxide and nitric acid is a redox reaction.
+
+[1]

@@ -1,0 +1,151 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_9Yy8KmC9kR7RTpb8",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/2-communication-/networks-and-the-internet/ip-addressing",
+ "title": "IP addressing",
+ "page_title": "IP addressing | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "2-communication-",
+   "networks-and-the-internet",
+   "ip-addressing"
+  ],
+  "section": "2-communication-",
+  "topic": "networks-and-the-internet",
+  "leaf": "ip-addressing"
+ },
+ "titles": {
+  "section": "2. Communication",
+  "topic": "Networks & the Internet",
+  "subtopic": "IP addressing"
+ },
+ "updated_at": "2025-04-07T14:03:31.123Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_3yrKz32TTxvBMPW6"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 19,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_3yrKz32TTxvBMPW6",
+   "name": "IP addressing",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "IP addressing"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an IP address?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An IP (Internet Protocol) address is a **unique identifier** given to devices which communicate over the Internet (**WAN**)\n- IP addresses are **dynamic**, they can change\n- IP addresses make it possible to **deliver data to the right device**\n- A device connecting to a network **will be given an IP address**, if it moves to a different network then **the IP address will change**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "IPv4"
+  },
+  {
+   "type": "bullets",
+   "md": "- Internet Protocol version 4 is represented as **4 blocks of denary numbers** between **0 **and **255**, separated by **full stops**\n- Each block is **one byte **(8 bits), each address is** 4 bytes** (32 bits)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/ipv4.png",
+   "file": "assets/c81a55b31bc4-ipv4.png",
+   "alt": "ipv4",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- IPv4 provides over** 4 billion unique addresses **(2<sup>32</sup>), however, with over **7 billion** people and **countless devices per person**, a solution was needed"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "IPv6"
+  },
+  {
+   "type": "bullets",
+   "md": "- Internet Protocol version 6 is represented as **8 blocks of 4 hexadecimal digits**, separated by **colons**\n- Each block is **2 bytes** (16 bits), each address is **16 bytes** (128 bits)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/-ipv6.png",
+   "file": "assets/4b6b55d41177-ipv6.png",
+   "alt": "-ipv6",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- IPv6 could provide over **one** **billion unique addresses** for **every person** on the planet (2<sup>128</sup>)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Subnetting"
+  },
+  {
+   "type": "bullets",
+   "md": "- Subnetting is the process of **dividing a larger network into smaller, more manageable parts**, called **subnets** (short for sub-networks)\n- Each subnet works like a **mini-network** within the main network, allowing devices to communicate more efficiently\n- Benefits of subnetting include:\n\n  - **Reduces network traffic** – less data is broadcast across the whole network\n  - **Improves speed and performance** – data stays within its **local subnet**\n  - **Increases security** – limits access so **not all devices can reach all parts** of the network\n  - **Easier to manage and maintain** – changes can be made to **one subnet** without affecting the rest\n  - **Improves organisation** – helps group devices by **department or function**\n- It's commonly used in **larger networks**, like schools or businesses, to reduce traffic, keep data local, and make management easier"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Public vs private IP addresses"
+  },
+  {
+   "type": "bullets",
+   "md": "- Public IP addresses are assigned to devices that need a **constant connection to the internet**\n- Examples:\n\n  - **Web servers**\n  - **Email servers**\n- **Globally unique** – no two devices can have the same public IP\n- Allows devices to be **directly accessed** from anywhere on the internet\n- Private IP addresses are assigned to devices on a **Local Area Network (LAN)** by a **router**\n- **Not routable on the internet** – improves **network security**\n- Used for items in a home or office, such as:\n\n  - **Laptops**\n  - **Phones**\n  - **Printers**\n- Allows **internal communication **without **exposing devices to the public** internet"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Static vs dynamic IP addresses"
+  },
+  {
+   "type": "bullets",
+   "md": "- Static IP addresses are** fixed IP addresses** that **do not change**\n- Assigned to devices that need a **consistent address** Commonly used for:\n\n  - **Websites**\n  - **Remote access services**\n  - **Email or file servers**\n- **No management required** once set\n- Allows **reliable access** from anywhere on the network or internet\n- Dynamic IP addresses are** temporarily assigned** when a device connects to the network\n- Comes from a **pool of available IP addresses**\n- Managed automatically by a **DHCP server (Dynamic Host Configuration Protocol)**\n- Ideal for devices where a **fixed address isn't needed**\n\n  - e.g. laptops, smartphones, or guest devices"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Computers on the Internet have IP addresses.\n\nDescribe the format of an IP address. **[3]**\n\n**Final answer:** **Answer**\n\n**IPv4 **\n\n- Four groups of denary or hexadecimal digits ** [1 mark]**\n- Numbers between 0 and 255 / 0 and FF ** [1 mark]**\n- Each is stored in 1 byte / 8 bits ** [1 mark]**\n- The whole number is stored in 32 bits / 4 bytes ** [1 mark]**\n- Separated by full stops ** [1 mark]**\n- Correct example ** [1 mark]**\n\nOR\n\n**IPv6 **\n\n- Eight groups of (Hexadecimal) digits ** [1 mark]**\n- Numbers between 0 and FFFF ** [1 mark]**\n- Each is stored in 2 bytes/16 bits ** [1 mark]**\n- The whole number is stored in 128 bits / 16 bytes ** [1 mark]**\n- Separated by colons ** [1 mark]**\n- The first instance of multiple groups of zero can be replaced by a double colon ** [1 mark]**\n- Correct example ** [1 mark]**"
+  }
+ ]
+}

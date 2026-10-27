@@ -1,0 +1,157 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_cbDBfqqqKsYVrcpV",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/1-information-representation/data-representation/binary-arithmetic-",
+ "title": "Binary arithmetic",
+ "page_title": "Binary arithmetic | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "1-information-representation",
+   "data-representation",
+   "binary-arithmetic-"
+  ],
+  "section": "1-information-representation",
+  "topic": "data-representation",
+  "leaf": "binary-arithmetic-"
+ },
+ "titles": {
+  "section": "1. Information representation",
+  "topic": "Data Representation",
+  "subtopic": "Binary arithmetic"
+ },
+ "updated_at": "2025-04-23T14:03:57.101Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_mCYbQ4tNrZf2sRYp",
+  "spcpt_Xx75Cy99C8czCVfW",
+  "spcpt_9R8nsRMhTH6vBgbw"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 19,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_mCYbQ4tNrZf2sRYp",
+   "name": "Binary addition",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binary addition"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is binary addition?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Binary addition involves** summing numbers in base-2**, which uses only the digits 0 and 1\n- Like denary addition, start from the** rightmost digit** and move towards the left\n- **Carrying over** occurs when the sum of a column is greater than 1, passing the excess to the next left column"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Example addition"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/binary-addition.png",
+   "file": "assets/ae5073795b3c-binary-addition.png",
+   "alt": "binary-addition",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Add the following two binary integers using binary addition. Show your working. **[2]**\n\n1 0 0 1 1 0 1 0  + 0 0 1 0 1 1 1 1\n\n**Final answer:** **Answer**\n\n| carry |   | 1 | 1 | 1 | 1 | 1 |   |   |\n|---|---|---|---|---|---|---|---|---|\n|   | 1 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |\n| **+** | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 1 |\n|   | **Final answer:** **1** | **Final answer:** **1** | **Final answer:** **0** | **Final answer:** **0** | **Final answer:** **1** | **Final answer:** **0** | **Final answer:** **0** | **Final answer:** **1** |\n\n- 1 mark for working ** [1 mark]**\n- 1 mark for answer ** [1 mark]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Xx75Cy99C8czCVfW",
+   "name": "Overflow",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Overflow"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an overflow?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Overflow occurs when the sum of two binary numbers** exceeds the given number of bits**\n- In** signed number** representations, the leftmost bit often serves as the sign bit; overflow can flip this, incorrectly changing the sign of the result\n- Overflow generally leads to **incorrect or unpredictable results** as the extra bits are truncated or wrapped around"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/12/overflow.png",
+   "file": "assets/756e2c943998-overflow.png",
+   "alt": "overflow",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_9R8nsRMhTH6vBgbw",
+   "name": "Binary subtraction",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binary subtraction"
+  },
+  {
+   "type": "bullets",
+   "md": "- To carry out subtraction, the number being subtracted is **converted into its negative equivalent** using two's complement\n- The two numbers are then** added together**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "bullets",
+   "md": "- 48 - 12"
+  },
+  {
+   "type": "table",
+   "md": "|   | **-128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |   |\n|---|---|---|---|---|---|---|---|---|---|\n|   | *0* | *0* | *1* | *1* | *0* | *0* | *0* | *0* | **= 48** |\n|   | *0* | *0* | *0* | *0* | *1* | *1* | *0* | *0* | **= 12** |\n|   | **find two's complement of -12** |   |   |   |   |   |   |   |   |\n|   | *0* | *0* | *0* | *0* | *1* | *1* | *0* | *0* | **= 12** |\n|   | **invert** |   |   |   |   |   |   |   |   |\n|   | *1* | *1* | *1* | *1* | *0* | *0* | *1* | *1* |   |\n|   | **add 1** |   |   |   |   |   |   |   |   |\n|   |   |   |   |   |   |   |   | *1* |   |\n|   | **result** |   |   |   |   |   |   |   |   |\n|   | *1* | *1* | *1* | *1* | *0* | *1* | *0* | *0* | **= -12** |\n|   | **Add 48 and -12** |   |   |   |   |   |   |   |   |\n|   | **-128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |   |\n|   | *0* | *0* | *1* | *1* | *0* | *0* | *0* | *0* | **= 48** |\n|   | *1* | *1* | *1* | *1* | *0* | *1* | *0* | *0* | **= -12** |\n|   | **carries** |   |   |   |   |   |   |   |   |\n| *1* | *1* | *1* | *1* |   |   |   |   |   |   |\n|   | **result** |   |   |   |   |   |   |   |   |\n|   | *0* | *0* | *1* | *0* | *0* | *1* | *0* | *0* | **= 36** |"
+  },
+  {
+   "type": "bullets",
+   "md": "- 48 - 12 = **36**\n- The **additional overflow bit is ignored** leaving a result of *0010 0100*, denary equivalent of **36**, which is the **correct answer**\n- In **two's complement** arithmetic, the **overflow bit** does not contribute to the actual value of the operation but is more of a **by-product** of the method"
+  }
+ ]
+}

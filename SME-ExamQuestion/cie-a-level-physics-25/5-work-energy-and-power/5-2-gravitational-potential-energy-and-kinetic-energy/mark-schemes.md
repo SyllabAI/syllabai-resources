@@ -559,3 +559,534 @@ $E_{k m a x} = 1 \frac{1}{2} m_{t} v^{2} = 1 \frac{1}{2} ( 1.5 ) ( 2.02 )^{2} = 
 **A & C **are incorrect because the speed, and hence the change in distance, of the steel ball is constant, meaning the relationship between these quantities and *E*<sub>*k*</sub> and Δ*E*<sub>*p*</sub> will be linear which would not result in curved lines on the graph
 
 **D **is incorrect because this graph would be accurate for an object accelerating towards the ground, however the ball is travelling at a constant speed so the KE must be constant
+
+## Structured Questions (8 questions)
+
+
+### Q1
+A graph that would score 3 marks should look like:
+
+![4-6-s-q--q4a-ma-hard-aqa-a-level-physics](assets/022-4-6-s-q-q4a-ma-hard-aqa-a-level-physics.png)
+
+- Graph P drawn from top of energy axis to point B; **[1 mark]**
+- Graph K drawn from 0 to point B and same height as P and above F; **[1 mark]**
+- Graph F draw from 0 to point below K; **[1 mark]**
+
+Explanation of the important features:
+
+- P + K = constant; **[1 mark]**
+- The loss in gravitational potential energy = gain in kinetic energy <u>for P and K</u> **OR** potential energy at A = kinetic energy at Q for <u>P and K</u>;** [1 mark]**
+- F is <u>below</u> K because friction causes energy to be transferred from the system (as heat); **[1 mark]**** **
+
+**[Total: 6 marks]**** **
+
+> *Don’t be put off by the number of marks for this question! There are multiple parts to it, so make sure to check whether you have gained all the marks accordingly before moving on. *
+
+> *Since there are 3 graphs to draw, this would be 3 marks. Therefore, your explanation should be another 3 marks worth, explaining as much as you can about the important features of each graph to complete the full 6 marks.*
+To calculate height $x$.
+
+List the known quantities:
+
+- Mass of passenger, *m* = 70 kg
+- Height dropped by passenger = $x$
+- Radius of circular motion, *r* = 25 m
+- Force required for circular motion, *F* = 5.4 kN = 5.4 × 10<sup>3</sup> N
+
+Calculate the velocity at **C**, *v*:
+
+- Recall the equation for centripetal force, $F=\frac{mv^{2}}{r}$
+- *v* =$\sqrt{\frac{Fr}{m}}$
+- *v* = $\sqrt{ \frac{( 5.4 \times 10^{3} ) \times 25}{70} }$= 43.92 m s<sup>–1 </sup>**[1 mark]**
+
+Consider energy changes between point **A** and **C**:
+
+- The gravitational potential energy at **A** is converted to kinetic energy at point **C**
+
+  - Vertical distance from **A **to **C **is *h*
+- $\frac{1}{2}$*mv*<sup>*2*</sup> = *mgh ***[1 mark]**
+
+Rearrange for *h* and substitute in values:
+
+- Mass cancels out, leaving $\frac{1}{2}v^{2}=gh$
+- Rearranging for h gives $h=\frac{v^{2}}{2g}$
+- $h=x+25m$  therefore  $x+25=\frac{v^{2}}{2g}$
+- $x$ = $\frac{v^{2}}{2g}$– 25
+- $x$ = $\frac{( 43.92 )^{2}}{2 \times 9.81}$– 25 = 73 m **[1 mark]**** **
+
+**[Total: 3 marks]**** *** *
+To calculate the value of *θ:*
+
+List the known quantities:
+
+- Mass of cage and passengers, *m* = 720 kg
+- Resistive force by brakes, *F* = 4.8 kN = 4.8 × 10<sup>3</sup> N
+- Horizontal distance between **C** and **D**, *s* = 70 m
+- Height from **A** to **C **= *h*
+- Height from **A** to **B**, $x$ = 73 m (from part b)
+
+Calculate height *h*:
+
+- *h* = $x$ + 25 = 73 + 25 = 98 m
+
+Consider energy changes between **A** and **D**:
+
+- Gravitational potential energy lost from **A** to **C** = Work done against resistive force from **C** to **D** + gravitational potential energy gained from **C** to **D**
+- $\Delta E_{p ( A t o C )}$= *Fs* + $\Delta E_{p ( C t o D )}$ **[1 mark]**
+
+Rearrange equation for sin *θ*:
+
+- $\DeltaE_{p(CtoD)}$= $\DeltaE_{p(AtoC)}$– *Fs*
+- $\DeltaE_{p(CtoD)}$*= mgs* sin*θ*
+- *mgs* sin*θ *= *mgh* – *Fs*
+- sin*θ = *$\frac{mgh-Fs}{mgs}$**[1 mark]**
+
+Substitute in values and calculate *θ:*
+
+- *θ *= $\sin ^{- 1} ( \frac{( 720 \times 9.81 \times 98 ) - ( 4.8 \times 10^{3} ) \times 70}{720 \times 9.81 \times 70} )$**[1 mark]**
+- *θ *= 46º **[1 mark]**
+
+**[Total: 4 marks]**** **
+
+> *This question can be done by substituting values and calculating *$\Delta E_{p ( A t o C )}$*, **Fs **and separately *$\Delta E_{p ( C t o D )}$*and then rearranging for **θ, **both methods will still achieve full marks. *
+
+> *Remember that **h** in the gravitational potential energy **mgh** is always the **vertical **height that the object falls from / gains. In this case, it is **s** sin**θ**. This is seen using trigonometry: *
+
+![4-6-s-q--q4c-ma-hard-aqa-a-level-physics](assets/024-4-6-s-q-q4c-ma-hard-aqa-a-level-physics.png)
+
+> *Note that although this question could be done using SUVAT equations and Newton’s second law, the question specifically asks to consider **energy **changes, so this method will not achieve full marks.*
+
+### Q2
+Calculate the jumper's change in gravitational potential energy:
+
+List the known quantities:
+
+- Mass, *m* = 70 kg
+- Height, *h* = 150 m
+- Gravitational field strength, *g* = 9.81 ms<sup>−2</sup>
+
+Use the equation for gravitational potential energy:
+
+- Gravitational potential energy:  $\DeltaE_{p}=mg\Deltah$
+- $\DeltaE_{p}$ = 70 × 9.81 × 150 **[1 mark]**
+- $\DeltaE_{p}$ = 103 005 = 103 kJ (3 s.f.) **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the jumper's gain in kinetic energy:
+
+List the known quantities:
+
+- Mass, *m* = 70 kg
+- Initial velocity, *u* = 0 m s<sup>−1</sup>
+- Final velocity, *v* = 45 m s<sup>−1</sup>
+
+Use the equation for kinetic energy:
+
+- Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}$
+- $E_{k}=\frac{1}{2}\times70\times45^{2}$ **[1 mark]**
+- $E_{k}$ = 70 875 = 70.9 kJ (3 s.f) **[1 mark]**
+
+**[Total: 2 marks]**
+Explain why the values in part (a) and part (b) are not equal:
+
+- More gravitational potential energy is lost than kinetic energy gained;** [1 mark]**
+- (This is because) work is done against air resistance;** [1 mark]**
+
+**[Total: 2 marks]**
+Calculate the average resistive force:
+
+List the known quantities:
+
+- GPE lost = 103 kJ
+- KE gained = 70.9 kJ
+- Distance fallen, *s* = 150 m
+
+Determine the work done against air resistance:
+
+- Work done = total GPE lost − max KE gained
+- Work done = 103 kJ − 70.9 kJ = 32.1 kJ **[1 mark]**
+
+Use the equation relating work done, force and speed:
+
+- Work done:  $W=F\timess$ **[1 mark]**
+- $F=\frac{W}{s}=\frac{32100}{150}$ **[1 mark]**
+- $F$ = 214 = 210 N (2 s.f.) **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q3
+State the reason for the energy stored in moving objects:
+
+- <u>Kinetic energy</u> is stored when; **[1 mark]**
+- A <u>force</u> is applied (and makes an object accelerate); **[1 mark]**
+- Work is done by the force (and energy is transferred to the object); **[1 mark]**
+
+**[Total: 3 marks]**
+State the equation for kinetic energy, defining all the units mentioned:
+
+- $E_{k}=\frac{1}{2}mv^{2}$ **[1 mark]**
+- Where *E*<sub>k</sub> = kinetic energy, *m* = mass, *v* = velocity; **[1 mark]**
+
+**[Total: 2 marks]**
+Referring to your answer to part (a), derive the expression for kinetic energy stated in part (b):
+
+- Energy transferred = work done **OR** $W_{d}=F\timess$ (by definition) **[1 mark]**
+- Newton's Second Law:  $F=ma$ **[1 mark]**
+- Using the SUVAT equation:  $v^{2}=u^{2}+2as$, if *u* = 0 then $a=\frac{v^{2}}{2s}$** [1 mark]**
+- Substitute into $F=ma\RightarrowF=m\times\frac{v^{2}}{2s}=\frac{1}{2}\frac{mv^{2}}{s}$** [1 mark]**
+- Substitute into $W_{d}=F\timess\RightarrowW_{d}=\frac{1}{2}\frac{mv^{2}}{s}\timess=\frac{1}{2}mv^{2}$ ** [1 mark]**
+
+**[Total: 5 marks]**
+
+> *This derivation is longer than the one for gravitational potential energy and must be learned more carefully. Since these are the Easy questions we have been quite generous with our marks. In the exam this would be worth two or three marks.*
+Calculate the change in kinetic energy between the two positions shown:
+
+Use the equation and calculate:
+
+- $E_{k}=\frac{1}{2}mv^{2}=0.5\times2.8\times3.5^{2}$ **[1 mark] **
+- $E_{k} = 17 \mathrm{J} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark] **
+
+**[Total: 2 marks]**
+
+### Q4
+To calculate the height that the pebble reaches:
+
+List the known quantities:
+
+- Initial speed, *v*<sub>*i*</sub> = 28 m s<sup>−1</sup>
+- Gravitational field strength, *g* = 9.81 N kg<sup>−1</sup>
+
+Combine the equations for kinetic energy and gravitational potential energy:
+
+- Recall the equations
+
+  - $E_{k}=\frac{1}{2}mv^{2}$ and $\DeltaE_{p}=mg\Deltah$
+- The energy in the system is conserved, therefore:
+
+  - $E_{ki}+E_{pi}=E_{kf}+E_{pf}$
+  - $\frac{1}{2}mv_{i}^{2}+mgh_{i}=\frac{1}{2}mv_{f}^{2}+mgh_{f}$
+
+- Define initial height of pebble, *h*<sub>*i*</sub> = 0 and final velocity of pebble, *v*<sub>*f*</sub> = 0 at the top of its trajectory
+- Therefore, $\frac{1}{2}mv_{i}^{2}=mgh_{f}$  and mass cancels out leaving $\frac{1}{2}v_{i}^{2}=gh_{f}$
+- Hence, $h_{f}=\frac{v_{i}^{2}}{2g}$ **[1 mark]**
+
+Substitute the known values to calculate the final height:
+
+- $h_{f} = \frac{ 28^{2}}{2 \times 9.81} = 40 \mathrm{m} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *An approach equating loss of energy from the kinetic store with gain in energy in the gravitational potential store produces the exact same result as the method above. It is just a rearrangement of the second line of maths.*
+
+> *We can define the initial height of the pebble as 0 m, as we only care about the **change** in height. Realising that a projectile has a vertical speed of zero (at the turning point) is crucial for questions like this.*
+To complete the energy bar chart:
+
+List the known quantities:
+
+- Mass, *m* = 300 g = 0.30 kg
+- Initial speed, *v*<sub>*i*</sub> = 28 m s<sup>−1</sup>
+- Final height, *h*<sub>*f*</sub> = 40 m (from part (a))
+- Gravitational field strength, *g* = 9.81 N kg<sup>−1</sup>
+
+Calculate the total energy in the system:
+
+**EITHER**
+
+- $E_{k}=\frac{1}{2}mv^{2}$
+- $E_{k}=\frac{1}{2}\times0.30\times28^{2}=118J$
+
+**OR**
+
+- $\DeltaE_{p}=mg\Deltah$
+- $\DeltaE_{p}=0.30\times9.81\times40=118J$ **[1 mark]**
+
+Plot the values on the graph:
+
+![energy-bar-chart-ma](assets/027-energy-bar-chart-ma.png)
+
+- As the pebble leaves the sling shot:
+
+  - $E_{k}=118J$  **AND**  $E_{p}=0J$
+
+**AND**
+
+- As the pebble reaches its maximum height:
+
+  - $E_{k}=0J$  **AND**  $E_{p}=118J$ **[1 mark]**
+
+**[Total: 2 marks]**
+To calculate the speed of the pebble:
+
+List the known quantities:
+
+- Mass of basket, *m*<sub>b</sub> = 280 g = 0.28 kg
+- Mass of pebble, *m*<sub>p</sub> = 300 g = 0.30 kg
+- Length of string, $l$ = 85 cm = 0.85 m
+- Angle of swing, *θ* =  45°
+
+Determine an expression for the initial velocity of the pebble:
+
+- The collision is inelastic, therefore momentum is conserved
+
+  - $p_{before}=p_{after}$
+  - $m_{p}v_{pi}+m_{b}v_{bi}=m_{p}v_{pf}+m_{b}v_{bf}$
+- Since there is no breeze we can assume that the initial velocity of the basket is zero
+
+  - $m_{p}v_{pi}=m_{p}v_{pf}+m_{b}v_{bf}$
+- Rearranging for the initial velocity of the pebble
+
+  - $v_{p i} = v_{b + p} ( \frac{m_{b} + m_{p} }{m_{p} } )$ **[1 mark]**
+  - Where $v_{b+p}$ is the velocity of the pebble in the basket as it begins to swing
+
+Determine $v_{b+p}$, labelled as $v_{b+pi}$ below, from an analysis starting when the pebble enters the basket:
+
+- During the swing, the energy of the pebble-basket system is constant
+
+  - $E_{ki}+E_{pi}=E_{kf}+E_{pf}$
+  - $1 \frac{1}{2} ( m_{p + m_{b} ) v_{b} + p i}^{2} + ( m_{p + m_{b} ) g h_{i} = 1 \frac{1}{2} ( m_{p} + m_{b} ) v_{b} + p f}^{2} + ( m_{p} + m_{b} ) g h_{f}$
+  - Rearrange,  rewriting *h*<sub>*f*</sub>* * − *h*<sub>*i*</sub>  as Δ*h*  and $v_{b+pf}$ is zero at the top of the swing
+  - Hence, $1 \frac{1}{2} ( m_{p + m_{b} ) v_{p} + b i}^{2} = ( m_{p} + m_{b} ) g \Delta h$
+- The total masses cancel out
+
+  - $\frac{1}{2}v_{p+bi}^{2}=gΔh$
+  - $v_{p+bi}=\sqrt{2gΔh}$ **[1 mark]**
+- The height of the swing is
+
+  - `capital delta h = l - l cos theta = l ( 1 - cos theta )`
+  - `capital delta h = 0.85 ( 1 - cos ( 45 ) ) = 0.249 m` **[1 mark]**
+- Therefore, $v_{p+bi}=\sqrt{2\times9.81\times0.249}=2.21ms^{-1}$ **[1 mark]**
+
+Calculate the initial speed of the pebble:
+
+- $v_{p i} = v_{b + p i} ( \frac{m_{b} + m_{p} }{m_{p} } ) = 2.21 ( \frac{0.28 + 0.30}{0.30} ) = 4.3 \mathrm{m} \mathrm{s}^{- 1} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *This is complex multi-step problem that takes some thinking about. It can be helpful to sketch out a diagram so that you can see visually what is going on in the scenario, and which variables you can infer from the situation. This will help you to navigate your way to the answer.*
+
+![pebble-basket-ma](assets/028-pebble-basket-ma.png)
+
+> *To calculate the answer is it crucial to recognise that we can set the gravitational potential energy to zero when the basket is hanging vertically so that the change in height is equal to the height of the swing.*
+
+### Q5
+Calculate the gravitational potential energy stored by the ball before it is pushed Use the equation and calculate:
+
+- $\DeltaE_{p}=mg\Deltah=4.2\times9.81\times2.1$ **[1 mark]**
+- $\Delta E_{p} = 87 \mathrm{J} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 2 marks]**
+Hence the total kinetic energy of the ball just before it hits the floor is:
+
+- From the principle of conservation of energy:  $E_{p}=E_{k}$
+- Kinetic energy = 87 J** [1 mark]**
+
+**[Total: 1 mark]**
+Calculate the velocity of the ball just before it hits the ground:
+
+Rearrange the equation for kinetic energy to make velocity the subject:
+
+- $E_{k}=\frac{1}{2}mv^{2}$
+- $v=\sqrt{\frac{2\timesE_{k}}{m}}=\sqrt{\frac{2\times87}{4.2}}$ **[1 mark]**
+- $v=6.4\mathrm{ms}^{-1}$ **[1 mark]**
+
+**[Total: 2 marks]**
+Show that the mass of the ball does not affect the speed it reaches before hitting the ground;
+
+Apply conservation of energy to the equations:
+
+- Initial gravitational potential energy = final kinetic energy
+- $mg\Deltah=\frac{1}{2}mv^{2}$ **[1 mark]**
+
+Cancel out mass and draw a conclusion:
+
+- $\cancel{m} g \Delta h = 1 \frac{1}{2} \cancel{m} v^{2}$ **[1 mark]**
+- Therefore *v*<sup>2</sup> (is proportional to *g* and *h*, but) is <u>not proportional to mass</u>; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q6
+Determine the energy transferred by the water falling through the turbines:
+
+List the known quantities:
+
+- Useful output power = 0.62 GW
+- Efficiency = 76% = 0.76
+
+Determine the power input, or energy transferred every second:
+
+- Efficiency = $\frac{usefulpoweroutput}{totalpowerinput}$
+- Total power input = $\frac{0.62}{0.76}=0.82\mathrm{GW}$ **[1 mark]**
+- Energy transferred each second = 0.82 GJ or 8.2 × 10<sup>8</sup> J **[1 mark]**
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Volume of water flowing per second, $\frac{\DeltaV}{\Deltat}$ = 200 m<sup>3</sup> s<sup>−1</sup>
+- Density of water, *ρ* = 1.0 × 10<sup>3</sup> kg m<sup>−3</sup>
+- Vertical height fallen, Δ*h* = 396 m
+- Power input = 0.82 GW
+
+(i) Calculate the energy transferred by the mass flow rate of water:
+
+- Density:  $ρ=\frac{m}{V}\Rightarrowm=ρ\timesV$
+- Mass flow rate:  $m=ρ\timesV\Rightarrow\frac{\Deltam}{\Deltat}=ρ\times\frac{\DeltaV}{\Deltat}$* *
+- $\frac{\Deltam}{\Deltat}$ = (1.0 × 10<sup>3</sup>) × 200 **[1 mark]**
+- $\frac{\Deltam}{\Deltat}$ = 2.0 × 10<sup>5 </sup>kg s<sup>−1</sup> **[1 mark]**
+
+Calculate the rate of transfer of gravitational potential energy:
+
+- $\DeltaE_{p}=mg\Deltah\Rightarrow\frac{E}{t}=\frac{\Deltam}{\Deltat}\timesg\Deltah$ **[1 mark]**
+- $\frac{E}{t}$ = (2.0 × 10<sup>5</sup>) × 9.81 × 396 = 7.8 × 10<sup>8</sup> J s<sup>−1</sup> **[1 mark]**
+
+(ii) This is not consistent with the power input of 0.82 GW because:
+
+- The depth of the water in the dam is not included in the height; **[1 mark]**
+
+** ****[Total: 5 marks]**
+Estimate the depth of the water held in the upper reservoir:
+
+List the known quantities:
+
+- Total rate of energy transfer = 8.2 × 10<sup>8</sup> J s<sup>−1</sup>
+- Vertical height fallen from base of the reservoir = 396 m
+- Mass flow rate, $\frac{\Deltam}{\Deltat}$ = 2.0 × 10<sup>5</sup> kg s<sup>−1</sup>
+
+Use the GPE equation to find the total vertical height fallen:
+
+- $\DeltaE_{p}=mg\Deltah\Rightarrow\Deltah=\frac{\DeltaE_{p}}{mg}$
+- $\Delta h = \frac{8.2 \times 10^{8} }{( 2.0 \times 10^{5} ) \times 9.81} = 418 \mathrm{m}$ **[1 mark]**
+- Therefore the water falls from (418 − 396) = 22 m above the base of the reservoir
+
+Make an assumption to determine the depth:
+
+- The height identified is the centre of mass / average depth; **[1 mark]**
+- Therefore, the depth of the upper reservoir = (22 × 2) = 44 m **[1 mark]**
+
+**[Total: 3 marks]**** **
+
+> *To complete this calculation you have to be able to make the assumption that you have found the centre of mass, or average depth, rather than the actual depth. *
+
+> *One part of the answer then leads to the next one:*
+
+![screenshot-2023-02-27-at-11-24-26](assets/031-screenshot-2023-02-27-at-11-24-26.png)
+
+> *As the water drains out of the upper reservoir through the turbine its depth is constantly changing. This means that the power generated must change too. The power information given is therefore the best estimate, or average, of the changing value.*
+
+### Q7
+State the reason that work is done by lifting objects:
+
+- <u>Force</u> is used to move the object (against the downward force of gravity); **[1 mark]**
+- The object is displaced; **[1 mark]**
+- Therefore work is done on the object **OR ***W* = *F* × *s; ***[1 mark]**
+
+**[Total: 3 marks]**
+State the equation for gravitational potential energy, defining all the units mentioned:
+
+- $\DeltaE_{P}=mg\Deltah$ **[1 mark]**
+- Where Δ*E*<sub>p</sub>  = change in gravitational potential energy, *m* = mass, *g* = gravity / gravitational field strength, Δ*h* = change in height; **[1 mark]**
+
+**[Total: 2 marks]**
+Referring to your answer to part (a), derive the expression for gravitational potential energy stated in part (b):
+
+- Energy transferred = work done, $W_{d}=Fs$  **[1 mark]**
+- When lifting an object, the force is weight, therefore $F=W=mg$ **[1 mark]**
+- Combining these equations shows that $W_{d}=mgs$ **[1 mark]**
+- The displacement *s* is the height, Δ*h*, hence $\DeltaE_{p}=mg\Deltah$
+
+**[Total: 3 marks]**
+Calculate the change in gravitational potential energy of the ball:
+
+List the known quantities:
+
+- Mass of the ball, *m* = 1.2 kg
+- Acceleration due to gravity, *g* = 9.81 m s<sup>−2</sup>
+- Change in height, Δ*h* = 2.0 m
+
+Use the equation and calculate:
+
+- $\DeltaE_{p}=mg\Deltah=1.2\times9.81\times2.0$ **[1 mark] **
+- $\Delta E_{p} = 24 \mathrm{J} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark] **
+
+**[Total: 2 marks]**
+
+### Q8
+List the known quantities:
+
+- Mass of the car = 4200 kg
+- Mass of a passenger = 65 kg
+- Change in height, Δ*h* = 50 m
+- Velocity, *v* = 2.0 m s<sup>−1</sup>
+- Gravitational field strength, *g* = 9.81 m s<sup>−2</sup>
+
+(i) Calculate the loss of potential energy:
+
+- Total mass of the car and passengers = 4200 + (10 × 65) = 4850 kg
+
+Determine the change in GPE:
+
+- Gravitational potential energy:  $\DeltaE_{p}=mg\Deltah$
+- $\DeltaE_{p}$ = 4850 × 9.81 × 50 **[1 mark]**
+- $\DeltaE_{p}$ = 2.379 × 10<sup>6</sup> J = 2.4 MJ (2 s.f.)** [1 mark]**
+
+(ii) Calculate the initial kinetic energy:
+
+- Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}$
+- $E_{k}=\frac{1}{2}\times4850\times2^{2}$ **[1 mark]**
+- $E_{k}$ = 9700 J (2 s.f.) **[1 mark]**
+
+**[Total: 4 marks]**
+Calculate the kinetic energy after the descent:
+
+List the known quantities:
+
+- Total mass of the car and passengers, *m* = 4850 kg
+- Final velocity, *v* = 24.0 m s<sup>−1</sup>
+
+Use the equation for kinetic energy and calculate:
+
+- $E_{k}=\frac{1}{2}mv^{2}=\frac{1}{2}\times4850\times24^{2}$ **[1 mark]**
+- $E_{k}$ = 1.397 × 10<sup>6</sup> J = 1.4 MJ (2 s.f.) **[1 mark]**
+
+**[Total: 2 marks]**
+(i) State the main resistive forces to the motion:
+
+**Final answer:** **Any ****two ****from:**
+
+- Air resistance; **[1 mark]**** **
+- Friction in the <u>moving parts</u> (or examples of moving parts, e.g. axles and wheels) of the car;** [1 mark]**
+- Friction between the <u>car / wheels </u>and the <u>rollercoaster / track</u>; **[1 mark]**
+
+(ii) Calculate the work done against these forces during the descent:
+
+List the known quantities:
+
+- Change in GPE = 2.4 MJ
+- Initial KE = 9700 J
+- Final KE = 1.4 MJ
+
+Determine the total initial energy and subtract the total final energy:
+
+- Work done = change in GPE − change in KE **[1 mark]**
+- Work done = (2.4 × 10<sup>6</sup>) − (1.4 × 10<sup>6</sup> − 9700) **[1 mark]**
+- Work done = 1 009 700 J = 1.0 MJ (2 s.f.) **[1 mark]**
+
+**[Total: 5 marks]**
+Calculate the average resistive force during the descent:
+
+List the known quantities:
+
+- Work done, *W* = 1.0 MJ = 1.0 × 10<sup>6</sup> J (from **(c)**)
+- Distance travelled, *s* = 75 m
+
+Use the equation relating work done to force and displacement:
+
+- Average resistive force:  $W=F\timess\RightarrowF=\frac{W}{s}$
+- $F=\frac{1.0\times10^{6}}{75}$ **[1 mark]**
+- $F$ = 13 333 N = 13 kN (2 s.f.) **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Recurring numbers learned in maths often fascinate students, who carry their use over into physics solutions. *
+
+> *Remember that physics depends on experiments, which means measurement.*
+
+> *You couldn't measure a piece of string to be *$13. \dot{3} \text{cm}$* long, or weigh *$13. \dot{3} \mathrm{g}$* of a substance. For this reason, you can't use recurring numbers in your answer so you must always round up.*

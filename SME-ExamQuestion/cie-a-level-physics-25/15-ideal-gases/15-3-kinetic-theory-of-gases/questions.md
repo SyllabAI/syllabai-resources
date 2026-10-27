@@ -93,7 +93,7 @@ For the final step of the derivation of the kinetic theory of gases equation, st
 
 The kinetic theory of gases equation can be written as
 
-`p V space equals space 1 third N m open angle brackets c squared close angle brackets`
+$p V = 1 \frac{1}{3} N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 
 State the meaning of each of the symbols in this equation.
 
@@ -261,7 +261,7 @@ Place ticks (✓) next to the correct assumptions in Table 1.1.
 
 Draw a circle around the correct symbol for the mean square speed of molecules in an ideal gas.
 
-| $\sqrt{c}$ | `square root of open angle brackets c close angle brackets end root` | `square root of open angle brackets c squared close angle brackets end root` | $c$ | `open angle brackets c squared close angle brackets` |
+| $\sqrt{c}$ | $\sqrt{( \text{angle} \text{brackets} c ) \text{angle} brackets}$ | $\sqrt{( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets}$ | $c$ | `< c ^2 >` |
 |---|---|---|---|---|
 
 **Q5** [1 mark]

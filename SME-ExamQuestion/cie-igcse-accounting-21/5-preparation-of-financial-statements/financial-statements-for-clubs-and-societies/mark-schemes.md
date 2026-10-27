@@ -214,3 +214,157 @@
 **C** is incorrect; the accumulated fund appears on the statement of financial position
 
 **D** is incorrect; the club's bank balance appears on the statement of financial position
+
+## Structured Questions (3 questions)
+
+
+### Q1
+(i)
+
+The receipts and payments account is usually prepared annually and is a summary of the cash book of a club or society **[1 mark]**
+
+(ii)
+
+> **[mark-scheme]**
+> 1 mark for one of the following:
+> 
+> - Accumulated fund is the accumulation of surpluses minus the accumulation of the deficits of a club or society over the years
+> - Accumulated fund is the total assets minus total liabilities of a club or society
+
+### Q2
+Calculate the amount owed for the year by the 120 members
+
+$120\times52=6240$
+
+Calculate the amount written off for the 4 members
+
+$4\times52=208$
+
+Favourite Book Club 
+Subscriptions account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2022 |   |   | 2022 |   |   |
+| Jan 1 | Balance b/d | 468 | Jan 1 | Balance b/d **[1]** | 260 |
+| Dec 31 | Income and expenditure **[1]** | 6 240 | Dec 31 | Bank **[1]** | 5 356 |
+| Dec 31 | Balance c/d | 156 | Dec 31 | Income and expenditure (subscriptions written off) **[1]** | 208 |
+|   |   |   |   | Balance c/d | 1 040 |
+|   |   | <u>6 864</u> |   |   | <u>6 864</u> |
+| 2023 |   |   | 2023 |   |   |
+| Jan 1 | Balance b/d **[1]** | 1 040 | Jan 1 | Balance b/d **[1]** | 156 |
+
+All dates correct **[1 mark]**
+
+> **[mark-scheme]**
+> 7 marks in total:
+> 
+> - 1 mark for entering all the dates correctly.
+> - 1 mark for the correct details and amount(s) for each of the items below.
+> 
+> **Explanation**
+> 
+> - 2022 Jan 1: Enter the balance b/d
+> 
+>   - Subscriptions arrears go on the debit side as they are owed to the club
+>   - Subscriptions in advance go on the credit side as they reduce how much is owed to the club
+>   - You need **both **balances to get this mark
+> - 2022 Dec 31: Enter the amount received on the credit side labelled bank
+> 
+>   - Receiving payment reduces how much is owed to the club
+> - 2022 Dec 31: Enter the amount due for the year on the debit side labelled income and expenditure
+> 
+>   - You get this mark for using your **own figure** from your calculation
+> - 2022 Dec 31: Enter the amount written off on the credit side labelled Income and expenditure (subscriptions written off)
+> 
+>   - Writing off debt reduces how much is owed to the club
+> - 2023 Jan 1: Enter the balance b/d
+> 
+>   - Subscriptions arrears go on the debit side as they are owed to the club
+>   - Subscriptions in advance go on the credit side as they reduce how much is owed to the club
+>   - You get a mark for **each **balance
+
+> **[exam-tip]**
+> You can still get the mark for labelling the written off subscriptions as "irrecoverable debts". However, this account is normally used when there are trade receivables involved. For other income, written off amounts are dealt with directly in the account.
+Calculate the insurance due for the year
+
+- Start with the amount paid during the year
+- Add the amount that has been paid in advance at the start of the year
+
+  - as it counts for the current year
+- Subtract the amount that has been paid in advance at the end of the year
+
+  - as it counts for the following year
+
+$732+348-366=714$
+
+Favourite Book Club 
+Income and Expenditure Account for the year ended 31 December 2022
+
+|   | \$ |   | \$ |   |
+|---|---|---|---|---|
+| Income |   |   |   |   |
+| Subscriptions |   |   | 6 240 | **[1]** |
+| Less expenses |   |   |   |   |
+| General expenses | 2 498 | **[1]** |   |   |
+| Rent | 2 080 |   |   |   |
+| Insurance | 714 | **[2]** |   |   |
+| Subscriptions written off | <u>208</u> | **[1]** | <u>5 500</u> |   |
+| Surplus for the year |   |   | <u>740</u> | **[1]** |
+
+> **[mark-scheme]**
+> 6 marks in total.
+> 
+> **Explanation**
+> 
+> - 1 mark for using your **own figure** for subscriptions
+> - 1 mark for including **both **rent **and **general expenses
+> - 2 marks for the correct amount for insurance
+> 
+>   - 1 mark for adding 348 to 732
+>   - 1 mark for subtracting 366 from 732
+> - 1 mark for including subscriptions written off as an expense
+> - 1 mark for **own figure** for surplus by subtracting your total expenses from your subscriptions
+
+> **[exam-tip]**
+> Be careful when dealing with payments in arrears or advance. You can draw the account for insurance if that helps. The opening balances for 2022 and 2023 are on the debit side, as they reduce how much you owe for insurance.
+> 
+> | Date | Details | \$ | Date | Details | \$ |
+> |---|---|---|---|---|---|
+> | 2022 |   |   | 2022 |   |   |
+> | Jan 1 | Balance b/d | 348 | Dec 31 | Income and expenditure | 714 |
+> | Dec 31 | Bank | 732 | Dec 31 | Balance c/d | 366 |
+> |   |   | <u>1 080</u> |   |   | <u>1 080</u> |
+> | 2023 |   |   | 2023 |   |   |
+> | Jan 1 | Balance b/d | 366 |   |   |   |
+> 
+> Or it might be easier to think logically for each of the amounts. Ask yourself whether the amount is due in the current year. If it is, then add it to what was paid. Otherwise, subtract it.
+
+### Q3
+The treasure should not increase the subscription amount **[1]**. Members decreased from 128 in 2021 to 120 in 2022 **[1] **and increasing the price might cause further decline. More subscriptions might end up being written off **[1] **if prices increase. The treasurer should look for alternative ways to raise the money **[1]**, such as a fund-raiser event. One reason to consider raising the subscription amount is that only a small increase would be needed **[1] **to reach the target of \$400.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - Maximum 4 marks for **points for **and **points against** increasing subscriptions.
+> 
+>   - Up to 3 marks for **advantages**.
+>   - Up to 3 marks for **disadvantages**.
+> 
+> **Points for **may include:
+> 
+> - The cost of a subscription has not changed since the club started so an increase is to be expected
+> - Only a small increase would be needed to raise \$400
+> - This would avoid external liabilities and finance costs
+> - Other valid advantages are accepted
+> 
+> **Points against **may include:
+> 
+> - The cost of a subscription has not changed since the club started so this might upset loyal members
+> - Members might leave and join another club
+> - Members have decreased from 128 in 2021 to 120 in 2022 so this might have a negative effect
+> - This might cause more subscriptions to be written off
+> - Arrears have more than doubled within a year from 2021 to 2022
+> - They could raise the money using alternative methods
+> - Other valid disadvantages are accepted

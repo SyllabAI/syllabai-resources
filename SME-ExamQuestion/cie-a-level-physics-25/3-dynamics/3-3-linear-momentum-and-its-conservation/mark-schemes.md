@@ -668,3 +668,1149 @@ Even though there is no collision, the principle of conservation of momentum sti
 **B & C **are incorrect because the speed is constant, so the momentum is constant and this should be represented by straight, horizontal lines on the graph
 
 **D **is incorrect because momentum is a vector, so if the original direction is taken as positive, the direction after the rebound is negative and should be below the x-axis
+
+## Structured Questions (12 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The principle of conservation of momentum states:
+> 
+> - Total momentum before = total momentum after **OR** the total momentum (of a system) is constant **[1 mark]**
+> - Provided no (resultant) external forces act on the system **OR** for a closed system **[1 mark]**
+(i) To calculate the velocity $v$ of sphere B after the collision:
+
+- List the known quantities:
+
+  - Mass of A, $m_{A}$ = 0.30 kg
+  - Mass of B, $m_{B}$ = 0.20 kg
+  - Initial velocity of A, $u_{A}$ = 5.0 m s<sup>−1</sup>
+  - Initial velocity of B, $u_{B}$ = 2.0 m s<sup>−1</sup>
+  - Final velocity of A, $v_{A}$ = 2.6 m s<sup>−1</sup>
+  - Final velocity of B, $v_{B}$ = $v$
+- Determine the momentum of the spheres before and after the collision
+
+$p=mv$
+
+Total momentum before = $m_{A}u_{A}+m_{B}u_{B}$
+
+Total momentum before = $( 0.30 \times 5.0 ) + ( 0.20 \times 2.0 )$
+
+Total momentum after = $m_{A}v_{A}+m_{B}v_{B}$
+
+Total momentum after = $( 0.30 \times 2.6 ) + ( 0.20 \times v )$ **[1 mark]**
+
+- Apply conservation of momentum and calculate $v$:
+
+Total momentum before = total momentum after
+
+$( 0.30 \times 5.0 ) + ( 0.20 \times 2.0 ) = ( 0.30 \times 2.6 ) + ( 0.20 \times v )$
+
+$v = \frac{( 0.30 \times 5.0 ) + ( 0.20 \times 2.0 ) - ( 0.30 \times 2.6 )}{0.20}$
+
+$v=$ $5.6ms^{-1}$ **[1 mark]**
+
+(ii) To determine whether the collision of the spheres is inelastic or perfectly elastic:
+
+- Calculate the initial kinetic energy of the spheres
+
+$E_{K}=\frac{1}{2}mv^{2}$
+
+initial $E_{K} = ( 1 \frac{1}{2} \times 0.30 \times 5.0^{2} ) + ( 1 \frac{1}{2} \times 0.20 \times 2.0^{2} )$
+
+initial $E_{K}=4.15J$
+
+- Calculate the final kinetic energy of the spheres
+
+final $E_{K} = ( 1 \frac{1}{2} \times 0.30 \times 2.6^{2} ) + ( 1 \frac{1}{2} \times 0.20 \times 5.6^{2} )$
+
+final $E_{K}=4.15J$ **[1 mark]**
+
+- Write a concluding statement
+
+**Since initial **$E_{K}$** = final **$E_{K}$**, the collision is ****elastic** **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for either value of initial $E_{K}$**OR** final $E_{K}$ correct
+> 
+> 1 mark for the values of initial $E_{K}$ and final $E_{K}$ both correct **AND** evidence that the collision is inelastic
+
+### Q2
+The difference between an elastic and an inelastic collision is:
+
+- In an elastic collision, the total kinetic energy is conserved **OR** relative speed of approach = relative speed of separation; **[1 mark]**
+- In an inelastic collision, kinetic energy is not conserved / is lost **OR** relative speed of approach > relative speed of separation; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the momentum of the ball at the start, before it hits the wall:
+
+List the known quantities:
+
+- Mass, *m* = 0.025 kg
+- Velocity, *v* = 35 m s<sup>−1</sup>
+
+State the equation for momentum and calculate:
+
+- Momentum: $p=mv$ **[1 mark]**
+- Momentum:  *p* = 0.025 × 35
+- Momentum:  *p* = 0.875 = 0.88 kg m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Mass, *m* = 0.025 kg
+- Initial momentum = 0.875 kg m s<sup>−1</sup>
+- Initial velocity = 35 m s<sup>−1</sup>
+
+(i) Determine the rebound velocity of the ball:
+
+- For a perfectly elastic collision:  relative speed of approach = relative speed of separation
+- Hence, rebound (final) velocity:  *v* = –35 m s<sup>−1</sup> **[1 mark]**
+
+(ii) Determine the change in momentum of the ball:
+
+- Change in momentum:  Momentum after − momentum before
+- Change in momentum:  Δ*p* = -mv - mv = -2mv
+- Change in momentum:  Δ*p* = (0.025 × –35) − (0.025 × 35) **OR** 2 × 0.875 **[1 mark]**
+- Magnitude of the change in momentum:  Δ*p* = 1.75 = 1.8 kg m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The question demonstrates the importance of direction. Since momentum is a vector quantity, the direction influences the sign on the value.*
+
+> *The **magnitude **of the change in momentum means don't worry about the signs, the final answer should just be the **size**. However, the negative or positive signs are important to get to this stage!*
+
+> *If momentum was a scalar, you would say the 'change in momentum' was zero, as the magnitude of the momentum before and after didn't change. However, the fact that the momentum acts in the opposite direction afterwards means the magnitude of the total momentum is **twice** that of the momenta before and after the collision.*
+
+> *This very fact has crucial implications in the real world, such as in gas laws, where it can be used to explain why gas pressure exists*
+Calculate the force exerted on the ball by the wall
+
+List the known quantities:
+
+- Change in momentum, Δ*p* = 1.75 kg m s<sup>−1</sup>
+- Change in time, Δ*t *= 0.1 s
+
+Use the equation for force and momentum:
+
+- $F=\frac{\Deltap}{\Deltat}$  **[1 mark]**
+- $F=\frac{1.75}{0.1}$
+- Force:  *F *= 17.5 = 18 N **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q3
+Determine the speed of fragment B:
+
+Resolve the momenta horizontally:
+
+**Final answer:** **Any ****one**** from:**
+
+- Horizontal momentum of A:  $p_{A}=\frac{3}{2}M\times1.2v\mathrm{sin}θ$ **[1 mark]**
+- Horizontal momentum of B:  $p_{B}=\frac{1}{2}M\timesv_{B}\mathrm{sin}θ$ **[1 mark]**
+- Horizontal momentum of C:  $p_{C}=0$ **[1 mark]**
+
+Apply conservation of momentum in the horizontal direction:
+
+- Total momentum before = total momentum after
+
+  - Total momentum before = 0
+  - Total momentum after = $p_{A}-p_{B}$
+
+- $p_{A}-p_{B}=0$
+- $p_{A}=p_{B}$
+- $\frac{3}{2}M\times1.2v\mathrm{sin}θ=\frac{1}{2}M\timesv_{B}\mathrm{sin}θ$ **[1 mark]**
+
+Simplify and calculate $v_{B}$:
+
+- $v_{B}=2\times\frac{3}{2}\times1.2v$
+- $v_{B}=3.6v$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember that the momenta are vectors and as such have a specific sign for their direction. *
+
+> $+p_{A}$* and *$-p_{B}$
+Determine the angle *θ*:
+
+Resolve the momenta vertically:
+
+**Final answer:** **Any ****one ****from:**
+
+- Vertical momentum of A:  $p_{A}=\frac{3}{2}M\times1.2v\mathrm{cos}θ$ **[1 mark]**
+- Vertical momentum of B:  $p_{B}=\frac{1}{2}M\times3.6v\mathrm{cos}θ$ **[1 mark]**
+- Vertical momentum of C:  $p_{C}=\frac{5}{2}M\times0.6v$ **[1 mark]**
+
+Apply conservation of momentum in the vertical direction:
+
+- Conservation of momentum:  total momentum before = total momentum after
+
+  - Total momentum before = 0
+  - Total momentum after = $p_{A}+p_{B}-p_{C}$
+
+- $p_{A}+p_{B}-p_{C}=0$
+- $p_{A}+p_{B}=p_{C}$
+- $\frac{3}{2}M\times1.2v\mathrm{cos}θ+\frac{1}{2}M\times3.6v\mathrm{cos}θ=\frac{5}{2}M\times0.6v$ **[1 mark]**
+
+Simplify and calculate $θ$:
+
+- $( \frac{3}{2} \times 1.2 + 1 \frac{1}{2} \times 3.6 ) \cos \\theta = \frac{5}{2} \times 0.6$
+- $\mathrm{cos}θ=\frac{1.5}{3.6}$
+- $θ$ = 65.38 = 65° **[1 mark]**
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Fragment (1): mass $m_{1}$ = 20 g, velocity $v_{1}$ = 260 m s<sup>−1</sup>
+- Fragment (2): mass $m_{2}$ = 12 g, velocity = $v_{2}$
+- Fragment (3): mass = $m_{3}$, velocity $v_{3}$ = 200 m s<sup>−1</sup>
+- Fragment (4): mass $m_{4}$ = 32 g, velocity $v_{4}$ = 300 m s<sup>−1</sup>
+
+(i) Determine the velocity of fragment (2):
+
+- Momentum of (4):  $p_{4}=m_{4}v_{4}=32\times300$
+- Momentum of (2):  $p_{2}=m_{2}v_{2}=12\timesv_{2}$
+
+Apply conservation of momentum:
+
+- Conservation of momentum (taking $p_{2}$ as the positive direction):  $0=p_{2}-p_{4}\Rightarrowp_{2}=p_{4}$
+- $12\timesv_{2}=32\times300$ **[1 mark]**
+- $v_{2}=\frac{32\times300}{12}=800ms^{-1}$ **[1 mark]**
+
+(ii) Determine the mass of fragment (3):
+
+- Momentum of (1):  $p_{1}=m_{1}v_{1}=20\times260$
+- Momentum of (3):  $p_{3}=m_{3}v_{3}=m_{3}\times200$
+
+Apply conservation of momentum:
+
+- Conservation of momentum (taking $p_{1}$ as the positive direction):  $0=p_{1}-p_{3}\Rightarrowp_{1}=p_{3}$
+
+- $20\times260=m_{3}\times200$ **[1 mark]**
+- $m_{3}=\frac{20\times260}{200}=26g$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *This kind of explosion question can look daunting at first, but taking some time to understand what is going on reveals the problem can be simplified by isolating the fragments and focusing on each line of action one at a time*
+
+> *Since the fragments all move at 90° to one another, you can consider the directions independently, similar to taking 'horizontal' and 'vertical' components in other vector problems. Once you realise this, then you can see that the fragments on the same line have **equal momenta*
+
+> *If you fancy a real mathsy challenge, have a go at part (e) of this question to see if you can truly get your head around how the momentum conservation laws can be applied to this sort of problem*
+List the known quantities:
+
+- Fragment (A):  mass = $\frac{3}{2}M$, velocity = $1.2v$
+- Fragment (B):  mass = $\frac{1}{2}M$, velocity = $3.6v$
+- Fragment (C):  mass = $\frac{5}{2}M$, velocity = $0.6v$
+- Fragment (1):  mass = 20 g, velocity = 260 m s<sup>−1</sup>
+- Fragment (2):  mass = 12 g, velocity = 800 m s<sup>−1</sup>
+- Fragment (3):  mass = 26 g, velocity = 200 m s<sup>−1</sup>
+- Fragment (4):  mass = 32 g, velocity = 300 m s<sup>−1</sup>
+
+(i) Calculate the value of *M*:
+
+- Sum of the masses (from **(b)**) = $\frac{3}{2}M+\frac{1}{2}M+\frac{5}{2}M=\frac{9}{2}M$
+- Sum of the masses (from **(c)**) = 20 + 12 + 26 + 32 = 90 g
+- Therefore, $\frac{9}{2}M=90g\RightarrowM=\frac{90}{4.5}=20g$ **[1 mark]**
+
+(ii) Calculate the magnitude of *v*:
+
+Total kinetic energy of fragments A, B and C:
+
+- $E_{k} = 1 \frac{1}{2} M v^{2} [ ( \frac{3}{2} \times 1.2^{2} ) + ( 1 \frac{1}{2} \times 3.6^{2} ) + ( \frac{5}{2} \times 0.6^{2} ) ]$
+- $E_{k}=4.77Mv^{2}$ **[1 mark]**
+
+Total kinetic energy of fragments 1, 2, 3 and 4:
+
+- $E_{k} = 1 \frac{1}{2} [ ( 0.020 \times 260^{2} ) + ( 0.012 \times 800^{2} ) + ( 0.026 \times 200^{2} ) + ( 0.032 \times 300^{2} ) ]$
+- $E_{k}=6476J$ **[1 mark]**
+
+Determine the value of v:
+
+- Total KE:  $4.77Mv^{2}=6476$
+- $v=\sqrt{\frac{6476}{4.77\times0.020}}$
+- $v=261=260ms^{-1}$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The key is in the question:*
+
+- *both fireworks have the **same initial mass*
+
+> *This means the total mass of fragments A, B and C is equal to the total mass of fragments 1, 2, 3 and 4*
+
+- *both fireworks release the **same amount of kinetic energy*
+
+> *This means the total KE of fragments A, B and C is equal to the total KE of fragments 1, 2, 3 and 4*
+
+> *To get the total KE of fragments A, B and C, start by writing the kinetic energy of each in terms of M and v and then simplify:*
+
+$E_{k} = 1 \frac{1}{2} ( \frac{3}{2} M \times ( 1.2 v )^{2} ) + 1 \frac{1}{2} ( 1 \frac{1}{2} M \times ( 3.6 v )^{2} ) + 1 \frac{1}{2} ( \frac{5}{2} M \times ( 0.6 v )^{2} )$
+
+$E_{k} = 1 \frac{1}{2} M v^{2} [ ( \frac{3}{2} \times ( 1.2 )^{2} ) + ( 1 \frac{1}{2} \times ( 3.6 )^{2} ) + ( \frac{5}{2} \times ( 0.6 )^{2} ) ]$
+
+$E_{k} = 1 \frac{1}{2} M v^{2} \times ( 9.54 ) = 4.77 M v^{2}$
+(i) Apply conservation of momentum to Fig. 1.3:
+
+- Momentum of fragment 1:  $p_{1}=m_{1}v_{1}=0.015\times400=6\mathrm{kg}ms^{-1}$
+- Momentum of fragment 4:  $p_{4}=m_{4}v_{4}=0.03\times500=15\mathrm{kg}ms^{-1}$
+
+From conservation of momentum:
+
+- Fragments on the same line have equal momenta, therefore: $p_{1}=p_{3}=6\mathrm{kg}ms^{-1}$ **[1 mark]** $p_{2}=p_{4}=15\mathrm{kg}ms^{-1}$ **[1 mark]**
+- Sum of ↑ momenta = sum of ↓ momenta:  $p_{1}+p_{4}=p_{2}+p_{3}$
+- Sum of → momenta = sum of ← momenta:  $p_{1}+p_{2}=p_{3}+p_{4}$
+- So, $p_{1}+p_{4}=p_{2}+p_{3}=p_{1}+p_{2}=p_{3}+p_{4}$ = constant
+- Therefore, $\frac{p_{1}}{p_{4}}=\frac{p_{2}}{p_{3}}=\frac{p_{1}}{p_{2}}=\frac{p_{3}}{p_{4}}$ = constant
+- Hence,   $\frac{m_{1}v_{1}}{m_{4}v_{4}}=\frac{m_{3}v_{3}}{m_{2}v_{2}}$ **[Eq. 1]**  **[1 mark]**
+- Hence,  $\frac{m_{1}v_{1}}{m_{2}v_{2}}=\frac{m_{3}v_{3}}{m_{4}v_{4}}$ **[Eq. 2]**  **[1 mark]**
+
+![momentum-firework-explosion-ma1](assets/038-momentum-firework-explosion-ma1.png)
+
+List the known ratios so far:
+
+- From Fig. 1.2:  $\frac{m_{1}}{m_{4}}=\frac{15}{30}=\frac{1}{2}$
+- From Fig. 1.2:  $\frac{v_{1}}{v_{4}}=\frac{400}{500}=\frac{4}{5}$
+
+- Since $p_{1}=p_{3}$, then $\frac{m_{1}}{m_{3}}=\frac{v_{3}}{v_{1}}$
+- Since $p_{2}=p_{4}$, then $\frac{m_{2}}{m_{4}}=\frac{v_{4}}{v_{2}}$
+
+- From **[Eq. 1] ** $\frac{m_{1}}{m_{4}}\times\frac{v_{1}}{v_{4}}=\frac{m_{3}}{m_{2}}\times\frac{v_{3}}{v_{2}}=\frac{6}{15}=\frac{2}{5}$
+- From** [Eq. 2] ** $\frac{m_{1}}{m_{2}}\times\frac{v_{1}}{v_{2}}=\frac{m_{3}}{m_{4}}\times\frac{v_{3}}{v_{4}}=\frac{6}{15}=\frac{2}{5}$
+
+List the known proportional relationships so far:
+
+- $m_{1}\proptov_{3}\propto1.5$ (simplified from 15 g)
+- $v_{1}\proptom_{3}\propto4$
+- $m_{4}\proptov_{2}\propto3$
+- $v_{4}\proptom_{2}\propto5$ (simplified from 500 m s<sup>−1</sup>)
+
+Use the proportional relationships to find the ratios in **[Eq. 1]**:
+
+- $m_{1}\proptov_{3}$ and $m_{4}\proptov_{2}$ therefore  $\frac{m_{1}}{m_{4}}=\frac{v_{3}}{v_{2}}=\frac{1.5}{3}=\frac{1}{2}$
+- $v_{1}\proptom_{3}$ and $m_{2}\proptov_{4}$ therefore  $\frac{m_{3}}{m_{2}}=\frac{v_{1}}{v_{4}}=\frac{4}{5}$
+
+![d4OG4GWO_momentum-firework-explosion-ma2](assets/039-d4og4gwo-momentum-firework-explosion-ma2.png)
+
+Use the proportional relationships to find the ratios in **[Eq. 2]**:
+
+- $m_{1}\proptov_{3}$ and $m_{2}\proptov_{4}$ and from the question $\frac{m_{1}}{m_{2}}=\frac{v_{3}}{v_{4}}=\frac{3}{5}$: therefore   $\frac{m_{1}}{m_{2}}=\frac{v_{3}}{v_{4}}=\frac{1.5}{5}\times2=\frac{3}{5}$ **[1 mark]**
+
+- $m_{3}\proptov_{1}$ and $m_{4}\proptov_{2}$ and from the question $\frac{m_{3}}{m_{4}}=\frac{v_{1}}{v_{2}}=\frac{2}{3}$ therefore  $\frac{m_{3}}{m_{4}}=\frac{v_{1}}{v_{2}}=\frac{4}{3}\div2=\frac{2}{3}$ **[1 mark]**
+
+![momentum-firework-explosion-ma3](assets/040-momentum-firework-explosion-ma3.png)
+
+(ii) Hence, the missing values are:
+
+- `m _ 1 / m _ 2 = 3 / 5 <-> m _ 2 = 5 / 3 x 0.015 = 0.025 ( 25 g )` **AND**
+- $\frac{v_{3}}{v_{4}}=\frac{3}{5}\Rightarrowv_{3}=\frac{3}{5}\times500=300ms^{-1}$ **[1 mark]**
+- `m _ 3 / m _ 4 = 2 / 3 <-> m _ 3 = 2 / 3 x 0.030 = 0.020 ( 20 g )` **AND**
+- $\frac{v_{1}}{v_{2}}=\frac{2}{3}\Rightarrowv_{2}=\frac{3}{2}\times400=600ms^{-1}$ **[1 mark]**
+
+**[Total: 8 marks]**
+
+### Q4
+Show that $v_{1}=v_{3}$ by considering momentum in the vertical plane:
+
+- Vertical plane:  total momentum before = 0
+- Vertical plane:  total momentum after = $( \frac{M}{3} ) v_{1} \sin 60^{\circ} - ( \frac{M}{3} ) v_{3} \sin 60^{\circ}$ **[1 mark]**
+
+Apply conservation of momentum:
+
+- Conservation of momentum:  total momentum before = total momentum after
+- $0 = ( \frac{M}{3} ) v_{1} \sin 60^{\circ} - ( \frac{M}{3} ) v_{3} \sin 60^{\circ}$
+- Simplify:  $( \frac{M}{3} ) v_{1} \sin 60^{\circ} = ( \frac{M}{3} ) v_{3} \sin 60^{\circ} \Leftrightarrow v_{1} = v_{3}$ **[1 mark]**
+
+**[Total: 2 marks]**
+Show that $3 V = ( v_{1} + v_{2} )$ by considering momentum in the horizontal plane:
+
+- Horizontal plane:  total momentum before = $MV$
+- Horizontal plane:  total momentum after = $( \frac{M}{3} ) v_{1} \cos 60^{\circ} + ( \frac{M}{3} ) v_{2} + ( \frac{M}{3} ) v_{3} \cos 60^{\circ}$ **[1 mark]**
+
+Apply conservation of momentum:
+
+- Conservation of momentum:  total momentum before = total momentum after
+- $M V = ( \frac{M}{3} ) v_{1} \cos 60^{\circ} + ( \frac{M}{3} ) v_{2} + ( \frac{M}{3} ) v_{3} \cos 60^{\circ}$
+- Substitute $v_{1}=v_{3}$ in:  $M V = 2 \times ( \frac{M}{3} ) v_{1} \cos 60^{\circ} + ( \frac{M}{3} ) v_{2}$ **[1 mark]**
+- Simplify:  $V = 2 \times ( 1 \frac{1}{3} ) v_{1} \cos 60^{\circ} + ( 1 \frac{1}{3} ) v_{2} \Leftrightarrow 3 V = ( v_{1} + v_{2} )$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The full worked solution is shown below:*
+
+$M V = ( \frac{M}{3} ) v_{1} \cos 60^{\circ} + ( \frac{M}{3} ) v_{2} + ( \frac{M}{3} ) v_{3} \cos 60^{\circ}$
+
+$V = 2 \times ( 1 \frac{1}{3} ) v_{1} \cos 60^{\circ} + ( 1 \frac{1}{3} ) v_{2}$
+
+$3V=2v_{1}\mathrm{cos}60^{\circ}+v_{2}$
+
+$\mathrm{cos}60^{\circ}=\frac{1}{2}$
+
+$3V=2\times\frac{1}{2}v_{1}+v_{2}$
+
+$3 V = ( v_{1} + v_{2} )$
+Express velocities $v_{1}$ and $v_{2}$ in terms of $V$:
+
+- Kinetic energy of mass *M*:  $KE_{i}=\frac{1}{2}MV^{2}$
+- Kinetic energy of fragment 1:  $K E_{1} = 1 \frac{1}{2} ( \frac{M}{3} ) v_{1}^{2}$ **[1 mark]**
+
+Substitute the expressions into the ratio:
+
+- $\frac{KE_{1}}{KE_{i}}=\frac{4}{3}\RightarrowKE_{1}=\frac{4}{3}KE_{i}$
+- $1 \frac{1}{2} ( \frac{M}{3} ) v_{1}^{2} = \frac{4}{3} ( 1 \frac{1}{2} M V^{2} )$ **[1 mark]**
+
+Simplify to determine the velocity of fragment 1:
+
+- $\frac{1}{3}v_{1}^{2}=\frac{4}{3}V^{2}\Rightarrowv_{1}^{2}=4V^{2}$
+- Velocity of fragment 1:  $v_{1}=2V$ **[1 mark]**
+
+Determine the velocity of fragment 2:
+
+- $3V=v_{1}+v_{2}\Rightarrowv_{2}=3V-2V$
+- Velocity of fragment 2:  $v_{2}=V$ **[1 mark]**
+
+**[Total: 4 marks]**
+(i) Determine the total kinetic energy transferred to the fragments:
+
+- Kinetic energy of fragment 1:  $KE_{1}=\frac{4}{3}KE_{i}$
+- Kinetic energy of fragment 3:  $KE_{3}=\frac{4}{3}KE_{i}$ (since $v_{1}=v_{3}$)
+- Where Kinetic energy of mass *M*: $KE_{i}=\frac{1}{2}MV^{2}$ (from part (c))
+
+Determine the proportion of KE transferred to fragment 2:
+
+- $αKE_{i}=KE_{2}$ where $α$ is the proportion of KE transferred to the fragment
+- $\\alpha ( 1 \frac{1}{2} M V^{2} ) = 1 \frac{1}{2} ( \frac{M}{3} ) V^{2}$ (since $v_{2}=V$)
+- $\\alpha ( 1 \frac{1}{2} M V^{2} ) = 1 \frac{1}{3} ( 1 \frac{1}{2} M V^{2} ) \Leftrightarrow \\alpha = 1 \frac{1}{3}$
+- Therefore, $KE_{2}=\frac{1}{3}KE_{i}$ **[1 mark]**
+
+Determine the total kinetic energy:
+
+- Total initial KE = $KE_{1}+KE_{2}+KE_{3}$
+- Total initial KE = $\frac{4}{3}KE_{i}+\frac{1}{3}KE_{i}+\frac{4}{3}KE_{i}$ **[1 mark]**
+- Total initial KE = $3KE_{i}$ **[1 mark]** ** **
+
+(ii) The kinetic energy of the fragments is greater than the initial kinetic energy because:
+
+- The total energy before the explosion is equal to the kinetic energy of mass *M* plus...
+
+**Final answer:** **Any ****one**** from:**
+
+- Chemical energy (stored in mass *M*); **[1 mark]**
+- Thermal energy (from the explosion); **[1 mark]**
+- Internal energy (stored in mass *M*); **[1 mark]**
+- Work done (from the explosion); **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q5
+(i) The total momentum of the blocks before the collision is:
+
+- Total momentum = *mu* + *mu* = (400 × 0.36) + (400 × −0.36)
+- Total momentum = 0 **[1 mark]**
+
+(ii) The collision is:
+
+- Inelastic; **[1 mark]**
+
+Because:
+
+- 33% of the kinetic energy is lost as heat **OR **in elastic collisions, 100% of kinetic energy is conserved; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Most scenarios where two objects collide and then move in opposite directions are commonly elastic. However, there is information given in the question that suggests that this isn’t the case for this scenario.*
+
+> *Always read the full question carefully, and don’t just assume one or the other!*
+Calculate the final speed of the blocks:
+
+List the known quantities:
+
+- Energy lost = 33% = 0.33  $\Leftrightarrow E_{k ( 2 )} = 0.67 \times E_{k ( 1 )}$
+- Initial speed of each block, *u* = 0.36 m s<sup>–1</sup>
+- Final speed of each block = *v*
+
+Write an expression for the ratio of the initial and final kinetic energies:
+
+- Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}\RightarrowE_{k}\proptov^{2}$
+- Initial kinetic energy:  $E_{k ( 1 )} \propto u^{2}$
+- Final kinetic energy:  $E_{k ( 2 )} \propto v^{2}$
+- `E _ k ( 1 ) end _ / E _ k ( 2 ) end _ = u ^2 / v ^2` **[1 mark]**
+
+Determine the final speed of the blocks, *v*:
+
+- $\frac{E_{k ( 1 )} }{0.67 \times E_{k ( 1 )} } = \frac{0.36^{2}}{v^{2}} \Leftrightarrow v^{2} = 0.36^{2} \times 0.67$
+- $v=0.36\times\sqrt{0.67}$ **[1 mark]**
+- $v$ = 0.2947 = 0.29 m s<sup>–1 </sup>**[1 mark]**
+
+**[Total: 3 marks]**
+Determine the average force exerted by one block on the other:
+
+List the known quantities:
+
+- Initial speed of both blocks, *u *= 0.36 m s<sup>–1</sup>
+- Final speed of both blocks, *v* = 0.29 m s<sup>–1</sup> (from **(b)**)
+- Mass of each block, *m* = 400 g = 0.4 kg
+- Time during the collision, Δ*t* = 750 ms = 750 × 10<sup>–3</sup> s
+
+Calculate the change in velocity, Δ*v*
+
+- Δ*v* = *v* –* u* = 0.36 – (–0.29) = 0.65 m s<sup>–1</sup> **[1 mark]**
+
+Calculate the average force, *F*:
+
+- Momentum: $p=mv$* *
+- Force:  $F=\frac{\Deltap}{\Deltat}=\frac{m\Deltav}{\Deltat}$
+- $F=\frac{0.4\times0.65}{750\times10^{-3}}$ **[1 mark]**
+- *F* = 0.35 N **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *A common mistake in this question is calculating the change in velocity Δ**v** as 0.36 – 0.29 = 0.07 m s*<sup>*–1*</sup>
+
+> *This is incorrect as it is not treating velocity as a **vector** which has both magnitude and direction*
+
+> *Make sure to consider just one of the blocks, and be clear on which direction you are taking as the positive direction:*
+
+![3-2-momentum-blocks-same-speed-ma](assets/043-3-2-momentum-blocks-same-speed-ma.png)
+
+> *The Δ**v** equation is always final velocity **v** – initial velocity** u**. Whether you take the right or left as positive, the magnitude of the force as the final answer will still be the same.*
+Determine the speed and direction of the combined blocks after the collision:
+
+List the known quantities:
+
+- Initial velocity of block A, *v*<sub>*A*</sub> = 0.6 m s<sup>–1</sup>
+- Initial velocity of block B, *v*<sub>*B*</sub> = −0.4 m s<sup>–1</sup>
+- Mass of block A, *m*<sub>*A*</sub> = 400 g = 0.4 kg
+- Mass of block B, *m*<sub>*B*</sub> = 400 g = 0.4 kg
+
+Use conservation of linear momentum:
+
+- Conservation of momentum:  Total momentum before the collision = Total momentum after the collision
+- Conservation of momentum:*  *$m_{A} v_{A} + m_{B} v_{B} = ( m_{A} + m_{B} ) v$* ***[1 mark]**
+- Rearrange:*  *$v = \frac{m_{A} v_{A} + m_{B} v_{B} }{m_{A} + m_{B} } \Leftrightarrow v = \frac{m ( v_{A} + v_{B} )}{2 m}$
+- $v=\frac{0.4(0.6-0.4)}{2\times0.4}$ **[1 mark]**
+- $v$ = 0.1 m s<sup>–1</sup> **[1 mark]**
+
+State the final speed and direction:
+
+- Speed after the collision = 0.1 m s<sup>–1</sup>
+- Direction = same as initial direction of A;** [1 mark]**
+
+**[Total: 4 marks]**
+
+### Q6
+Determine the velocity *v *of ball X before the collision:
+
+List the known quantities:
+
+- Mass of X = 140 g
+- Mass of Y = 620 g
+- Velocity of X before the collision = *v*
+- Velocity of X after the collision = 0
+- Velocity of Y before the collision = 0
+- Velocity of Y after the collision = 0.8 m s<sup>−1</sup>
+
+Use conservation of momentum to write an expression for *v*:
+
+- Momentum before collision:  $m_{X}v_{X}+m_{Y}v_{Y}=140v+0$
+- Momentum after collision:  $m_{X} v_{X} + m_{Y} v_{Y} = 0 + ( 620 \times 0.8 )$
+- Conservation of momentum:  Momentum before collision = Momentum after collision
+- Conservation of momentum:  $140v=620\times0.8$ **[1 mark]**
+- Rearrange:  $v=\frac{620\times0.8}{140}$ **[1 mark]**
+- $v$ = 3.543 = 3.5 m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Show that the collision in **(a)** is inelastic:
+
+List the known quantities:
+
+- Mass of X = 140 g = 0.14 kg
+- Mass of Y = 620 g = 0.62 kg
+- Velocity of X before the collision = 3.5 m s<sup>−1</sup>
+- Velocity of X after the collision = 0
+- Velocity of Y before the collision = 0
+- Velocity of Y after the collision = 0.8 m s<sup>−1</sup>
+
+Determine the kinetic energy before and after the collision:
+
+- KE before = $1 \frac{1}{2} m_{X} v_{X}^{2} + 1 \frac{1}{2} m_{Y} v_{Y}^{2} = ( 1 \frac{1}{2} \times 0.14 \times 3.5^{2} ) + 0$
+- KE before = 0.8575 = 0.86 J **[1 mark]**
+- KE after = $1 \frac{1}{2} m_{X} v_{X}^{2} + 1 \frac{1}{2} m_{Y} v_{Y}^{2} = 0 + ( 1 \frac{1}{2} \times 0.62 \times 0.8^{2} )$
+- KE after = 0.1984 = 0.20 J **[1 mark]**
+
+Write a concluding sentence:
+
+- The kinetic energy after the collision is <u>less</u> than the kinetic energy before the collision, hence it is an inelastic collision; **[1 mark]**
+
+(ii) The collision is inelastic because:
+
+- Some of X's (kinetic) energy has been transferred to other forms of energy (such as heat and sound); **[1 mark]**
+
+**[Total: 4 marks]**
+Calculate the velocity of the aluminium sphere immediately after the collision:
+
+List the known quantities:
+
+- Mass of aluminium sphere, $m_{Al}$ = 2.7 kg
+- Mass of steel sphere, $m_{S}$ = 7.9 kg
+- Initial velocity of aluminium sphere, $u_{Al}$ = 10.0 m s<sup>–1 </sup>
+- Initial velocity of steel sphere, $u_{S}$ = 0
+- Final velocity of aluminium sphere = $v$
+- Final velocity of steel sphere, $v_{S}$ = 5.1 m s<sup>–1 </sup>
+
+Use conservation of momentum to write an expression for *v*:
+
+- Momentum before collision:  $m_{A l} u_{A l} + m_{S} u_{S} = ( 2.7 \times 10 ) + 0$ **AND**
+- Momentum after collision:  $m_{A l} v_{A l} + m_{S} v_{S} = ( 2.7 \times v ) + ( 7.9 \times 5.1 )$**[1 mark]**
+- Conservation of momentum:  Momentum before collision = Momentum after collision
+- $( 2.7 \times 10 ) = 2.7 v + ( 7.9 \times 5.1 ) \Leftrightarrow v = \frac{27 - ( 7.9 \times 5.1 )}{2.7}$ **[1 mark]**
+- $v$ = −4.922 = −4.9 m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 3 marks]**
+
+- *The negative sign is necessary for the final answer*
+
+  - *This tells us that the aluminium sphere **changes** direction*
+- *Remember to show your working - the first mark is for **substitution**, not just stating the equation!*
+Verify that the collision in **(c) **is elastic:
+
+List the known quantities:
+
+- Mass of aluminium sphere, $m_{Al}$ = 2.7 kg
+- Mass of steel sphere, $m_{S}$ = 7.9 kg
+- Initial velocity of aluminium sphere, $u_{Al}$ = 10.0 m s<sup>–1 </sup>
+- Initial velocity of steel sphere, $u_{S}$ = 0
+- Final velocity of aluminium sphere, $v_{Al}$ = 4.9 m s<sup>–1</sup>
+- Final velocity of steel sphere, $v_{S}$ = 5.1 m s<sup>–1 </sup>
+
+Determine the kinetic energy before and after the collision:
+
+- KE before = $1 \frac{1}{2} m_{A l} u_{A l}^{2} + 1 \frac{1}{2} m_{S} u_{S}^{2} = ( 1 \frac{1}{2} \times 2.7 \times 10^{2} ) + 0$
+- KE before = 135 J **[1 mark]**
+- KE after = $1 \frac{1}{2} m_{A l} v_{A l}^{2} + 1 \frac{1}{2} m_{S} v_{S}^{2} = ( 1 \frac{1}{2} \times 2.7 \times 4.9^{2} ) + ( 1 \frac{1}{2} \times 7.9 \times 5.1^{2} )$
+- KE after = 135.15 = 135 J **[1 mark]**
+
+Write a concluding sentence:
+
+- The kinetic energy after the collision is <u>the same as</u> the kinetic energy before the collision, hence it is an elastic collision; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q7
+> **[mark-scheme]**
+> The principle of conservation of linear momentum states that:
+> 
+> - The sum / total momentum (of a system) is constant **OR** the sum / total momentum before equals the sum / total momentum after **[1 mark]**
+> - If no (resultant) external force acts **OR** for an isolated system **[1 mark]**
+
+> **[exam-tip]**
+> Many students write "in a closed system" as the condition. It sounds similar, but it does not say that no external force acts, so it will not earn the second mark. Finish your statement with "provided no resultant external force acts" and you have the condition the mark needs.
+To calculate the velocity of the pellet just after the rifle is fired:
+
+- List the known quantities:
+
+  - Mass of the pellet, $m = 20 \text{g} = 0 . 020 \text{kg}$
+  - Momentum of the pellet, $p = 1 . 2 \text{kg m s}^{-1}$
+- Write down the equation for momentum and rearrange it for *v*:
+
+$p = m v$
+
+$v = \frac{p}{m}$
+
+- Substitute the known values:
+
+$v = \frac{1.2}{0.020}$ **[1 mark]**
+
+- Calculate the answer:
+
+$v =$$60 \text{m s}^{-1}$ **[1 mark]**
+
+> **[exam-tip]**
+> Convert the mass to kilograms before you divide. Leaving it in grams gives 0.06 m s<sup>-1</sup>, which is far too slow for a pellet leaving a rifle, so a quick sense-check of your answer will catch this slip.
+> **[mark-scheme]**
+> (i) The total momentum of the air rifle and the pellet is:
+> 
+> - Zero **[1 mark]**
+> 
+> (ii) The recoil momentum of the air rifle is:
+> 
+> - $1 . 2 \text{kg m s}^{-1}$ (in the opposite direction to the pellet) **[1 mark]**
+> 
+> $- 1 . 2 \text{kg m s}^{-1}$ is also accepted. The direction does not have to be stated, because the word "recoil" already gives it
+
+> **[exam-tip]**
+> Momentum is a vector, so its direction matters as well as its size. The rifle and the pellet start at rest, so their momenta after firing must cancel out, and that is why the rifle moves backwards. Here the word "recoil" already tells you the direction, but in other questions make the direction clear with a minus sign or by saying which way the object moves.
+> **[mark-scheme]**
+> (i) The relation between force and momentum is:
+> 
+> - (Resultant) force equals the rate of change of momentum **OR** $F = \frac{\Deltap}{\Deltat}$ **[1 mark]**
+> 
+> "Force is proportional to the rate of change of momentum" is also accepted
+
+(ii) To calculate the average force needed to stop the pellet:
+
+- List the known quantities:
+
+  - Momentum of the pellet before hitting the target, $p = 1 . 2 \text{kg m s}^{-1}$
+  - Momentum of the pellet when it comes to rest = 0
+  - Time taken, $\Delta t = 0 . 0025 \text{s}$
+- Calculate the change in momentum:
+
+$\Delta p = 1 . 2 - 0 = 1 . 2 \text{kg m s}^{-1}$ **[1 mark]**
+
+- Write down the equation and substitute the known values:
+
+$F = \frac{\Deltap}{\Deltat} = \frac{1.2}{0.0025}$ **[1 mark]**
+
+- Calculate the answer:
+
+$F =$$480 \text{N}$ **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the correct final answer of $480 \text{N}$; $- 480 \text{N}$ is also accepted, where the minus sign shows that the force acts against the pellet's motion
+
+### Q8
+Determine the total change in momentum of the ball:
+
+In an elastic collision:
+
+- KE before = KE after
+- Therefore, initial velocity = final velocity (= 4.5 m s<sup>−1</sup>) **[1 mark]**
+
+The change in momentum is:
+
+- Momentum before = $mv$
+- Momentum after = $-mv$
+- Change in momentum:  $\Delta p = ( - m v ) - m v = - 2 m v$
+- Change in momentum:  $\Deltap$ = -2 × (50 × 10<sup>−3</sup>) × 4.5 = -0.45 kg m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 2 marks]**
+Use the conservation of linear momentum to determine the rebound velocity of Y.
+
+List the known quantities:
+
+- Mass of X, $m_{X}$ = 50 g
+- Mass of Y, $m_{Y}$ = 125 g
+- Initial velocity of X, $u_{X}$ = 4.5 m s<sup>−1</sup>
+- Final velocity of X, $v_{X}$ = −2.8 m s<sup>−1</sup>
+- Initial velocity of Y, $u_{Y}$ = −2.2 m s<sup>−1</sup>
+- Final velocity of Y, $v_{Y}=v$
+
+The momenta before and after the collision:
+
+- Momentum before = $m_{X}u_{X}+m_{Y}u_{Y}$
+- Momentum before = (50 × 4.5) + (125 × −2.2) **[1 mark]**
+- Momentum after = $m_{X}v_{X}+m_{Y}v_{Y}$
+- Momentum after = (50 × −2.8) + (125 × $v$) **[1 mark]**
+
+Conservation of linear momentum:
+
+- Momentum before = momentum after:  $m_{X}u_{X}+m_{Y}u_{Y}=m_{X}v_{X}+m_{Y}v_{Y}$
+- (50 × 4.5) + (125 × −2.2) = (50 × −2.8) + (125 × $v$)
+- 225 − 275 = −140 + 125$v$$\Rightarrow125v=90$
+- Rebound velocity of Y:  $v=\frac{90}{125}=0.72=0.7ms^{-1}$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *In this question, you do not need to convert the mass of the balls to kg. Both balls have their mass in grams and when divided in g or kg the ratio will be the same. *
+Deduce whether the collision is elastic or inelastic
+
+List the known quantities:
+
+- Initial velocity of X, $u_{X}$ = 4.5 m s<sup>−1</sup>
+- Final velocity of X, $v_{X}$ = −2.8 m s<sup>−1</sup>
+- Initial velocity of Y, $u_{Y}$ = −2.2 m s<sup>−1</sup>
+- Final velocity of Y, $v_{Y}$ = 0.7 m s<sup>−1</sup> (from (b))
+
+An elastic collision is...
+
+- A collision in which kinetic energy is conserved **or** relative speed of approach = relative speed of separation
+
+Write a conclusion:
+
+- Calculation showing that total initial KE ≠ the total final KE **or** relative speed of approach ≠ relative speed of separation; **[1 mark]** e.g. the relative speeds of approach and separation are:
+
+  - Relative speed of approach: $u_{X}-u_{Y}$ = 4.5 − (−2.2) = 6.7 m s<sup>−1</sup>
+  - Relative speed of separation:  $v_{Y}-v_{X}$ = 0.7 − (−2.8) =  3.5 m s<sup>−1</sup>
+  - The relative speed of approach (6.7 m s<sup>−1</sup>) ≠ relative speed of separation (3.5 m s<sup>−1</sup>)
+
+- Therefore, the collision is <u>not elastic</u> **or** the collision is <u>inelastic</u>; **[1 mark]**
+
+**[Total: 2 marks]**
+Use Newton’s laws to explain why the magnitude of the change in momentum of each ball is the same
+
+Newton's third law states...
+
+- When two objects interact, they exert equal and opposite forces on each other
+- Therefore, the force on X is equal (in magnitude) and opposite (in direction) to the force on Y; **[1 mark]**
+
+Newton's second law states...
+
+- The resultant force on an object is equal to the rate of change of momentum (i.e. Δp/Δt) of the object, and it acts in the same direction, or F = Δp/Δt
+- Therefore, the force (on X & Y) is equal to / proportional to the rate of change of momentum; **[1 mark]**
+
+The change in momentum of X & Y is the same because...
+
+- The time of collision is the same for both balls (hence change in momentum is the same); **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q9
+Determine the velocity of the pellet and the block immediately after the pellet is embedded:
+
+List the known quantities:
+
+- Mass of pellet = 2.7 g
+- Mass of block<sub> </sub>= 540 g
+- Combined mass, $M$ = 540 + 2.7 = 542.7 g
+- Angle between string and vertical, *θ *= 35°
+- Length of string, *L *= 1.5 m
+
+Calculate the change in height, *h*:
+
+![qu-5b-mark-scheme](assets/049-qu-5b-mark-scheme.png)
+
+- From the diagram: $L=L\mathrm{cos}θ+h\Rightarrowh=L-L\mathrm{cos}θ$
+- $h=1.5-1.5\mathrm{cos}35^{\circ}=0.271m$ **[1 mark]**
+
+Calculate the initial speed of the block and the pellet:
+
+- From conservation of energy:  Initial KE = final GPE
+- Initial KE = $\frac{1}{2}Mu^{2}$ **AND** final GPE = $Mgh$ **[1 mark]**
+- Equate and rearrange:  $\frac{1}{2}Mu^{2}=Mgh\Rightarrowu=\sqrt{2gh}$
+- Substitute:  $u=\sqrt{2\times9.81\times0.271}$ **[1 mark]**
+- Initial speed of pellet and block:  $u$ = 2.306 = 2.3 m s<sup>−1 </sup>**[1 mark]**
+
+**[Total: 4 marks]**
+
+> *This type of question is known as a ‘ballistic pendulum’ and the marks are given for the method, as well as the final answer, so make sure you set out your working clearly!*
+
+> *The ‘initial kinetic energy’ is treated as when the pellet first strikes and completely embeds itself in the block. Therefore, the mass is always the **sum** of the mass of the pellet and block. *
+
+> *You can see that when you equate KE and GPE algebraically, the mass term cancels, so if you're confident doing this, it will definitely save you some time when doing the calculation step!*
+Calculate the velocity of the pellet just before it strikes the block:
+
+List the known quantities:
+
+- Mass of the pellet, $m_{p}$ = 2.7 g = 0.0027 kg
+- Mass of the block, $m_{b}$ = 540 g = 0.540 kg
+- Combined mass, $M$ = 542.7 g = 0.5427 kg
+- Initial velocity of pellet and block, $u$ = 2.306 m s<sup>−1</sup> (from **(a)**)
+
+Apply the principle of conservation of momentum:
+
+- Total momentum lost by pellet = total momentum gained by pellet and block
+- Total momentum lost by pellet = $m_{p}v_{p}$
+- Total momentum gained by pellet and block = $( m_{p} + m_{b} ) u = M u$
+- $m_{p} v_{p} = ( m_{p} + m_{b} ) u \Leftrightarrow m_{p} v_{p} = M u$ **[1 mark]**
+- $v_{p}=\frac{Mu}{m_{p}}=\frac{0.5427\times2.306}{0.0027}$ **[1 mark]**
+- $v_{p}$ = 463.506 = 464 m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 3 marks]**
+For the assumption:
+
+*The angle that the metal block makes with the vertical will be greater than 35° because the block doesn’t have the additional mass of the pellet embedded within it*
+
+State whether the student’s reasoning is correct or incorrect:
+
+- The student is <u>correct</u> that the angle will increase; **[1 mark]**
+- (However) the student’s explanation / reasoning is <u>incorrect</u>; **[1 mark]**
+
+Some valid comments about the student's assumption are:
+
+**Final answer:** **Any ****two**** pairs from:**
+
+- The <u>change in momentum</u> of the metal block will be <u>greater</u>; **[1 mark]**
+- (Because) a rebounding pellet causes a greater <u>change in momentum</u>; **[1 mark]**
+- The speed / kinetic energy of the metal block will be greater (after the pellet has rebounded); **[1 mark]**
+- (Because) the momentum / mass / speed of the pellet is still the same; **[1 mark]**
+- (From conservation of energy) all the initial KE is transferred to the GPE of the block; **[1 mark]**
+- (Hence) the height reached by the metal block will be <u>greater</u> (than the height reached by the original block); **[1 mark]**
+
+**[Total: 6 marks]**
+Swinging one ball from the left will not release two balls on the right because:
+
+- This would violate the conservation of energy / energy will not be conserved; **OR**
+- It is an inelastic collision but should be elastic (in a vacuum); **[1 mark]**
+
+Apply conservation of momentum:
+
+- Conservation of momentum:  total momentum before = total momentum after
+- Total momentum before = *mu*
+- Total momentum after = 2*mv*
+- Conservation of momentum:  $mu=2mv\Rightarrowv=\frac{u}{2}$* ***[1 mark]**
+- Therefore, conservation of momentum is not violated if the final speed of the two balls is <u>halved</u>; **[1 mark]**
+
+Apply conservation of energy:
+
+- In a vacuum, there is no energy lost to the surroundings
+- Hence, elastic collision:  total kinetic energy before = total kinetic energy after
+- Total kinetic energy before = $\frac{1}{2}mu^{2}$
+- Total kinetic energy after = $1 \frac{1}{2} ( 2 m ) ( \frac{u}{2} )^{2} = 1 \frac{1}{4} m u^{2}$ **[1 mark]**
+- Therefore, conservation of energy is violated as half the kinetic energy is lost; **[1 mark]**
+
+**[Total: 5 marks]**
+
+### Q10
+(i) The principle of conservation of linear momentum states that:
+
+- The momentum <u>of a system</u> remains constant **OR** total momentum before (a collision) = total momentum after (a collision); **[1 mark]**
+- Provided that there are no external / resultant forces acting; **[1 mark]** ** **
+
+(ii) Show that the mass of asteroid A was about 5.5 × 10<sup>13</sup> kg:
+
+List the known quantities:
+
+- Velocity of A, *m*<sub>*A*</sub> = 3.61 km s<sup>−1</sup> = 3.61 × 10<sup>3</sup> m s<sup>−1</sup>
+- Momentum of A, *p*<sub>*A*</sub> = 2.00 × 10<sup>17</sup> kg m s<sup>−1</sup>
+
+Determine the mass of A:
+
+- $p=mv$ **[1 mark]**
+- $m=\frac{p}{v}$
+- $m_{A}=\frac{2.00\times10^{17}}{3.61\times10^{3}}$ = 5.54 × 10<sup>13</sup> kg **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *It's very common for students to miss the second marking point from their definitions of conservation of momentum - make sure you learn both parts!*
+
+> *Remember to use the unrounded calculated value for the mass of asteroid A*
+
+> *You should always work with more sig figs than you need during your calculation and then round at the end to avoid a cumulative rounding error*
+Calculate the combined velocity of the asteroids after the collision:
+
+- Initial velocity of asteroid A, $u_{A}$ = 3.61 × 10<sup>3</sup> m s<sup>−1 </sup>
+- Momentum of asteroid A,$p_{A}$ = 2.00 × 10<sup>17</sup> kg m s<sup>−1</sup>
+- Mass of asteroid B, $m_{B}$ = 6.40 × 10<sup>12</sup> kg
+- Initial velocity of asteroid B, $u_{B}$ = 14.0 km s<sup>−1</sup> = 14.0 × 10<sup>3</sup> m s<sup>−1 </sup>
+
+Apply conservation of momentum:
+
+- After the collision, asteroid B is absorbed by asteroid A, so the asteroids have a combined mass of $m_{A}+m_{B}$
+- $p_{before}=p_{after}$
+- $p_{A + m_{B} u_{B} = ( m_{A} + m_{B} } ) v$ **[1 mark]**
+
+Rearrange and calculate the combined velocity $v$:
+
+- $v=\frac{p_{A}+m_{B}u_{B}}{m_{AB}}$
+
+- $v = \frac{( 2.00 \times 10^{17} ) + [ ( 6.40 \times 10^{12} ) \times ( 14.0 \times 10^{3} ) ] }{( 5.54 \times 10^{13} ) + ( 6.40 \times 10^{12} )}$ **[1 mark]**
+- $v$ = 4686 = 4.69 km s<sup>−1</sup> (3 s.f.) **[1 mark]**
+
+**[Total: 3 marks]**
+Show that the mass of asteroid C is about 2.0 × 10<sup>13</sup> kg:
+
+List the known quantities:
+
+- Mass of asteroid AB, *m*<sub>AB</sub> = (6.4 × 10<sup>12</sup>) + (5.54 × 10<sup>13</sup>) = 6.18 × 10<sup>13</sup> kg
+- Mass of asteroid C = *m*<sub>C</sub>
+- Initial velocity of asteroid AB, *u*<sub>AB</sub> = 4.69 km s<sup>–1</sup> (from (b))
+- Final velocity of asteroid AB, *v*<sub>AB</sub> = 2.6 km s<sup>–1</sup>
+- Final velocity of asteroid C, *v*<sub>C</sub> = 6.5 km s<sup>–1</sup>
+- Angle between AB and the horizontal, *θ*<sub>AB</sub> = 8°
+- Angle between C and the horizontal, *θ*<sub>C</sub> = 10°
+
+Calculate the initial momentum of the system:
+
+- $p_{i}=m_{AB}v_{AB}$
+- $p_{i} = ( 6.18 \times 10^{13} ) \times ( 4.69 \times 10^{3} )$
+- $p_{i}$ = 2.896 × 10<sup>17</sup> kg m s<sup>–1</sup> **[1 mark]**
+
+Calculate the final momentum of the system:
+
+- $p_{f}=m_{AB}v_{AB}\mathrm{cos}θ_{AB}+m_{C}v_{C}\mathrm{cos}θ_{C}$
+- $p_{f} = [ ( 6.18 \times 10^{13} ) \times ( 2.6 \times 10^{3} ) \times \cos 8^{\circ} ] + [ m_{C} \times ( 6.5 \times 10^{3} ) \times \cos 10^{\circ} ]$
+- $p_{f} = ( 1.607 \times 10^{17} ) \cos 8^{\circ} + m_{C} ( 6.5 \times 10^{3} ) \cos 10^{\circ}$ **[1 mark]**
+
+Use the conservation of momentum to calculate the mass of asteroid C:
+
+- Total initial momentum = total final momentum, or $p_{i}=p_{f}$
+- $2.896 \times 10^{17} = ( 1.607 \times 10^{17} ) \cos 8^{\circ} + m_{C} ( 6.5 \times 10^{3} ) \cos 10^{\circ}$
+- $m_{C} = \frac{( 2.896 \times 10^{17} ) - ( 1.607 \times 10^{17} ) \cos 8^{\circ}}{( 6.5 \times 10^{3} ) \cos 10^{\circ}}$ = 2.04 × 10<sup>13</sup> kg **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Make sure you get lots of practice with momentum conservation in 2D scenarios; the extra step of resolving vector components can trip up many students!*
+
+> *We only need to consider the **horizontal components** of the velocities of the asteroids:*
+
+![Asteroid AB has a horizontal velocity of2.6 times 10 to the power of 3 times cos 8, and asteroid C has a horizontal velocity of 6.5 times 10 to the power of 3 times cos 10. ](assets/053-asteroid-ab-has-a-horizontal-velocity-of2-6-time.png)
+Determine if the collision in **(c)** is elastic or inelastic:
+
+List the known quantities:
+
+- Mass of asteroid AB, *m*<sub>AB</sub> = (6.4 × 10<sup>12</sup>) + (5.54 × 10<sup>13</sup>) = 6.18 × 10<sup>13</sup> kg
+- Mass of asteroid C, *m*<sub>C</sub> = 2.04 × 10<sup>13</sup> kg (from (c))
+- Initial velocity of asteroid AB, *u*<sub>AB</sub> = 4.69 km s<sup>–1</sup> (from (b))
+- Final velocity of asteroid AB, *v*<sub>AB</sub> = 2.6 km s<sup>–1</sup>
+- Final velocity of asteroid C, *v*<sub>C</sub> = 6.5 km s<sup>–1</sup>
+
+Calculate the initial kinetic energy of the system:
+
+- $\mathrm{KE}_{i}=\frac{1}{2}m_{AB}u_{AB}^{2}$
+- $KE_{i} = 1 \frac{1}{2} \times ( 6.18 \times 10^{13} ) \times ( 4.69 \times 10^{3} )^{2}$
+- $\mathrm{KE}_{i}$ = 6.8 × 10<sup>20</sup> J **[1 mark]**
+
+Calculate the final kinetic energy of the system:
+
+- $\mathrm{KE}_{f}=\frac{1}{2}m_{AB}v_{AB}^{2}+\frac{1}{2}m_{C}v_{C}^{2}$
+- $KE_{f} = [ 1 \frac{1}{2} \times ( 6.18 \times 10^{13} ) \times ( 2.6 \times 10^{3} )^{2} ] + [ 1 \frac{1}{2} \times ( 2.04 \times 10^{13} ) \times ( 6.5 \times 10^{3} )^{2} ]$
+- $\mathrm{KE}_{f}$ = 6.4 × 10<sup>20</sup> J **[1 mark]**
+
+Conclusion:
+
+- An inelastic collision is one where kinetic energy is not conserved
+- Since $\mathrm{KE}_{i}>\mathrm{KE}_{f}$, energy has dissipated, so the collision is inelastic; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q11
+A table that would score 3 marks looks like this:
+
+| **Quantity** | **Elastic Collision** | **Inelastic Collision** |
+|---|---|---|
+| Momentum | **Final answer:** **✓** | **Final answer:** **✓** |
+| Total Energy | **Final answer:** **✓** | **Final answer:** **✓** |
+| Kinetic Energy | **Final answer:** **✓** |   |
+
+- Momentum conserved in **both **elastic and inelastic collisions; **[1 mark]**
+- Total energy conserved in **both **elastic and inelastic collisions; **[1 mark]**
+- Kinetic energy conserved in elastic collisions **only**; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *In a closed system (i.e., no matter or mass moves in or out), momentum is **always** conserved during a collision, provided **no external force acts** on the system.  The law of conservation of energy can never be violated, therefore the **total** energy before and after the collision must be conserved.  Kinetic energy is only conserved in elastic collisions. During inelastic collisions some of the kinetic energy gets converted into other forms such as thermal energy. *
+List the known quantities:
+
+- Mass of **X** = 400 g = 0.4 kg
+- Velocity of **X** = 1.2 m s<sup>−1</sup>
+
+(i) Calculate the initial momentum of trolley **X**:
+
+- Momentum: $p=mv$ **[1 mark]**
+- Momentum before:*  p* = 0.4 × 1.2
+- Momentum before:*  p* = 0.48 kg m s<sup>−1</sup> **[1 mark]**
+
+(ii) The combined momentum after the collision is:
+
+- Momentum before the collision = momentum after the collision
+- Momentum after:  *p* = 0.48 kg m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Calculate the velocity of the two trucks after the collision:
+
+List the known quantities:
+
+- Mass of X = 0.4 kg
+- Mass of Y = 0.8 kg
+- Momentum of the combined trucks, *p* = 0.48 kg m s<sup>−1</sup>
+
+Determine the new mass when the trucks are stuck together:
+
+- Total mass after collision = (0.4 + 0.8) = 1.2 kg **[1 mark]**
+
+Rearrange the momentum equation and substitute in the values:
+
+- $p=mv\Rightarrowv=\frac{p}{m}$
+- Velocity after:  $v=\frac{0.48}{1.2}$ **[1 mark]**
+- Velocity after:  $v$ = 0.4 m s<sup>−1</sup> **[1 mark]**
+
+(ii) The direction of the final velocity will be:
+
+- The same direction / to the right; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Since velocity is a vector, and so is momentum, the positive or negative sign tells you its direction. In this scenario, the initial direction of trolley **X** has been taken as positive. Since the final momentum is positive, this implies the trolleys are moving in the same direction as trolley **X** at the beginning. *
+The collision is not elastic because:
+
+- The final velocity / kinetic energy is <u>less</u> after the collision **OR**
+- The relative speed of separation is <u>less than</u> the relative speed of approach; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *If you're not sure how to calculate the relative speeds, it is simply:*
+
+- *The relative speed of approach:  *$( u_{X} - u_{Y} ) = ( 1.2 - 0 ) = 1.2 \mathrm{m} \mathrm{s}^{- 1}$
+- *The relative speed of separation:  *$v_{XY}=0.4ms^{-1}$
+
+> *It's useful to note that when two objects stick together after a collision, they can **never** be elastic*
+
+> *In fact when two objects stick together, it is said to be “perfectly” inelastic, because, in this scenario, the maximum amount of kinetic energy is dissipated.*
+
+> *You can think of this as the remaining energy wasted as heat or sound. If there was a collision of two cars where one drives into a stationary one, you would hear the sound of the collision.*
+
+### Q12
+The total momentum of the rifle and the bullet before being fired is:
+
+- Zero / 0 kg m s<sup>−1</sup> **[1 mark]**
+
+Because:
+
+- (Before the rifle is fired both) <u>rifle and bullet</u> are stationary / velocity = 0; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the velocity of the bullet just after the rifle is fired
+
+List the known quantities:
+
+- Mass of bullet, *m*<sub>b</sub> = 30 g = 0.03 kg
+- Momentum of bullet after being fired, *p* = 36 kg m s<sup>−1</sup>
+
+Calculate the velocity of the bullet using the momentum equation:
+
+- Momentum:  $p=mv$
+- $v=\frac{p}{m}=\frac{36}{0.03}$ **[1 mark]**
+- $v=1200ms^{-1}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *For the velocity to be in m s*<sup>*−1*</sup>*, the momentum must be in kg m s*<sup>*−1*</sup>* and the mass in **kg **- unit conversions are very common, don't let these catch you out!*
+(i) The total momentum of the rifle and the bullet after the rifle is fired is:
+
+- Total momentum before the rifle is fired = total momentum after the rifle is fired **OR  **$p_{initial}+p_{final}=0$
+- Total momentum = 0 kg m s<sup>−1</sup> **[1 mark]**
+
+(ii) Calculate the recoil momentum of the rifle:
+
+List the known quantities:
+
+- Total final momentum of the rifle andbullet, *p*<sub>f</sub> = 0
+- Momentum of the bullet after being fired, *p*<sub>s</sub>* *= 36 kg ms<sup>−1</sup> (from **(b)**)
+
+Decide on the positive direction:
+
+- Since *p*<sub>s</sub>* *= 36 kg m s<sup>−1</sup> then the motion of the bullet gives the positive direction
+- Therefore the recoil will have a negative value** OR **$p_{s}=-p_{r}$
+
+Calculate:
+
+- Therefore $p_{s}=-p_{r}=36$ **[1 mark]**
+- *p*<sub>r</sub>* *= −36 kg m s<sup>−1</sup> **[1 mark]**
+
+**[Total: 3 marks]**** **
+
+> *You may have chosen the recoil of the rifle to represent the **positive** direction. In this case, your values should be the same as ours, but the negative and positive signs will be reversed.*
+Calculate the average force needed to stop the bullet
+
+List the known quantities:
+
+- Momentum of bullet before hitting target, *p*<sub>*s*</sub> = 9.8 kg m s<sup>−1</sup>
+- Time taken for bullet to stop, Δ*t* = 4.5 ms = 4.5 × 10<sup>−3</sup> s
+
+Determine the change in momentum Δp as the bullet is stopped by target:
+
+- The bullet comes to rest, therefore final momentum = 0
+- Change in momentum:  Δ*p* = 9.8 kg m s<sup>−1</sup> **[1 mark]**
+
+Calculate the average force *F* needed to stop the bullet:
+
+- Force & momentum:  $F=\frac{\Deltap}{\Deltat}$
+- Average force:  $F=\frac{9.8}{4.5\times10^{-3}}$  **[1 mark]**
+- Average force:  $F = 2177.8 = 2200 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**** **
+
+> *Calculations like this one are usually given what examiners call 'error carried forward' (you will see it written 'ecf' in mark schemes).*
+
+> *This means that, for example, if you forgot to convert ms to s (using 4.5 s rather than 0.0045) then you could still get the other three marks, as long as your final answer was 2200 N.*
+
+> *However, if you did get this then your 'sanity check' at the end should have seen you looking at this number and realising it must be wrong, since it suggests that being shot by a rifle feels similar to having someone pat you lightly on the back!*

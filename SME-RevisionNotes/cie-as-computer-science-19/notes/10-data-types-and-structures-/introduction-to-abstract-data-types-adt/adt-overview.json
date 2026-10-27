@@ -1,0 +1,399 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_WpSYjvPcWngpTnJK",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/10-data-types-and-structures-/introduction-to-abstract-data-types-adt/adt-overview",
+ "title": "ADT overview",
+ "page_title": "ADT overview | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "10-data-types-and-structures-",
+   "introduction-to-abstract-data-types-adt",
+   "adt-overview"
+  ],
+  "section": "10-data-types-and-structures-",
+  "topic": "introduction-to-abstract-data-types-adt",
+  "leaf": "adt-overview"
+ },
+ "titles": {
+  "section": "10. Data Types & Structures",
+  "topic": "Introduction to Abstract Data Types (ADT)",
+  "subtopic": "ADT overview"
+ },
+ "updated_at": "2025-05-05T11:42:14.724Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ywfgTSkKDNwWtyth",
+  "spcpt_RgSwb9JrytxxJ6Cv",
+  "spcpt_Y338wwMbry4QFs9p"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 69,
+  "figures": 13,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is an abstract data type (ADT)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An abstract data type (ADT) is a **collection of data** and **a set of operations** on that data\n- Three common ADT's are:\n\n  - **Stacks**\n  - **Queues**\n  - **Linked lists**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ywfgTSkKDNwWtyth",
+   "name": "Stack operations",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Stack operations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a stack?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A stack is an abstract data type that stores data using the **Last In, First Out (LIFO)** principle\n- A stack is like **a pile of plates**, the last item you put on is the first one you take off\n\n  - **PUSH**: Add an item to the top of the stack\n  - **POP**: Remove the item from the top\n- The** first item pushed** onto the stack will be the** last one popped** off\n- A stack uses two pointers:\n\n  - **A base pointer **- points to the first item in the stack\n  - **A top pointer** - points to the last item in the stack"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Main operations"
+  },
+  {
+   "type": "table",
+   "md": "| **Operation** | **Description** |\n|---|---|\n| **isEmpty()** | This checks is the stack is empty by checking the value of the top pointer |\n| **push(value)** | This adds a new value to the end of the list, it will need to check the stack is not full before pushing to the stack. |\n| **peek()** | This returns the top value of the stack. First check the stack is not empty by looking at the value of the top pointer. |\n| **pop()** | This removes and returns the top value of the stack. This first checks if the stack is not empty by looking at the value of the top pointer. |\n| **size()** | Returns the size of the stack |\n| **isFull()** | Checks if the stack is full and returns the Boolean value, this compares the stack size to the top pointer. |"
+  },
+  {
+   "type": "bullets",
+   "md": "- Stacks use a **pointer** which points to the top of the stack, where the next piece of data will be added (pushed) or the current piece of data can be removed (popped)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/push---visual-example.png",
+   "file": "assets/0777562df153-push-visual-example.png",
+   "alt": "push---visual-example",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Pushing data to a stack"
+  },
+  {
+   "type": "bullets",
+   "md": "- When pushing (**adding**) data to a stack, the data is pushed to the position of the pointer\n- Once pushed, the **pointer will increment by 1**, signifying the top of the stack\n- Since the stack is a ***static data structure***, an attempt to push an item on to a full stack is called a **stack overflow**\n- This would push 'Bunny' onto the empty stack ![push---bunny](assets/a7a479ca3604-push-bunny.png)"
+  },
+  {
+   "type": "bullets",
+   "md": "- This would push 'Dog' to the top of the stack ![push---dog](assets/b07588342941-push-dog.png)\n- This would push 'Ant' to the top of the stack ![push---ant](assets/a9b1be964870-push-ant.png)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Popping data from a stack"
+  },
+  {
+   "type": "bullets",
+   "md": "- When popping (**removing**) data from a stack, the data is popped from the position of the pointer\n- Once popped, the **pointer will decrement by 1**, to point at the new top of the stack\n- Since the stack is a static data structure, an attempt to pop an item from an empty stack is called a **stack underflow**\n- This would pop 'Ant' from the top of the stack\n- The new top of the stack would become 'Dog'"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/pop---visual-example.png",
+   "file": "assets/8e1623d1cac3-pop-visual-example.png",
+   "alt": "pop---visual-example",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Note that the data that is ‘popped’ isn’t necessarily erased\n- The pointer 'top' moves to show that 'Ant' is no longer in the stack and depending on the implementation, 'Ant' can be deleted or replaced with a null value, or left to be overwritten"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_RgSwb9JrytxxJ6Cv",
+   "name": "Queue operations",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Queue operations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a queue?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A queue is an abstract data type that **stores data in** **the order it arrives**, using the **First In, First Out (FIFO)** principle\n- A queue works like **a line of people waiting at a shop**, the first one in is the first one served\n\n  - **ENQUEUE**: Add an item to the back of the queue\n  - **DEQUEUE**: Remove the item from the front\n- The **first item added** to the queue is the **first one removed**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Main operations"
+  },
+  {
+   "type": "table",
+   "md": "| **Operation** | **Description** |\n|---|---|\n| **enQueue(value)** | Adding an element to the back of the queue |\n| **deQueue()** | Returning an element from the front of the queue |\n| **peek()** | Return the value of the item from the front of the queue without removing it from the queue |\n| **isEmpty()** | Check whether the queue is empty |\n| **isFull()** | Check whether the queue is full (if the size has a constraint) |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Linear queues"
+  },
+  {
+   "type": "bullets",
+   "md": "- A linear queue is a data structure that **consists of an array**\n- Items are added to the **next available space** in the queue starting from the front\n- Items are then **removed from the front** of the queue"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/linear-queue.png",
+   "file": "assets/3cc8484778a7-linear-queue.png",
+   "alt": "linear-queue",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Before **adding an item to the queue** you need to **check that the queue is not full**\n- If the end of the array has not been reached, the rear **index pointer is incremented** and the new item is added to the queue\n- In the example below, you can see the queue as the data Adam, Brian and Linda are enqueued."
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/initialise-queue-example-.png",
+   "file": "assets/1464926310ad-initialise-queue-example.png",
+   "alt": "initialise-queue-example-",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/enqueue-adam.png",
+   "file": "assets/64f93057d251-enqueue-adam.png",
+   "alt": "enqueue-adam",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/enqueue-brian.png",
+   "file": "assets/51a41d274653-enqueue-brian.png",
+   "alt": "enqueue-brian",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/enqueue-linda-.png",
+   "file": "assets/b3f2be008d53-enqueue-linda.png",
+   "alt": "enqueue-linda-",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Before **removing** an item from the queue, you need to make sure that the queue is not empty\n- If the queue is not empty the item at the front of the queue is returned and **the front is incremented by 1**\n- In the example below, you can see the queue as the data Adam is dequeued"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/dequeue-adam.png",
+   "file": "assets/3dbb89227396-dequeue-adam.png",
+   "alt": "dequeue-adam",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Circular queues"
+  },
+  {
+   "type": "bullets",
+   "md": "- A circular queue is **a static array** that has a **fixed capacity**\n- It means that as you add items to the queue you will **eventually reach the end** of the array\n- When items are dequeued, **space is freed up at the start of the array**\n- It would** take time** to move items up to the start of the array to free up space at the end, so a Circular queue (or circular buffer) is implemented\n- It **reuses empty slots **at the front of the array that are caused when items are dequeued\n- As items are enqueued and the rear index pointer reaches the last position of the array, it wraps around to point to the start of the array as long as it isn’t full\n- When items are dequeued the front index pointer will wrap around until it passes the rear index points which would show the queue is empty"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/circular-queue.png",
+   "file": "assets/329d62130eef-circular-queue.png",
+   "alt": "circular-queue",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Before **adding **an item to the circular queue you need to check that the **array is not full**\n- It will be full if the next position to be used **is already occupied** by the item at the front of the queue\n- If the queue is not full then the **rear index pointer must be adjusted** to reference the next free position so that the new item can be added\n- In the example below, you can see the circular queue as the data Lauren is enqueued."
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/enqueue-circular-example-1.png",
+   "file": "assets/0a67ab5f40ad-enqueue-circular-example-1.png",
+   "alt": "enqueue-circular-example-1",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/enqueue-circular-example-2.png",
+   "file": "assets/0a95178688c2-enqueue-circular-example-2.png",
+   "alt": "enqueue-circular-example-2",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Before **removing **an item from the queue, you need to make sure that the queue is not empty\n- If the queue is not empty the **item at the front of the queue is returned**\n- If this is the only item that was in the queue the **rear and front pointers are reset**, otherwise the pointer moves to reference the next item in the queue\n- In the example below, you can see the queue as the data Adam is dequeued"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/dequeue-circular-example-1.png",
+   "file": "assets/fc731465cba9-dequeue-circular-example-1.png",
+   "alt": "dequeue-circular-example-1",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/01/dequeue-circular-example-2.png",
+   "file": "assets/5968da088af7-dequeue-circular-example-2.png",
+   "alt": "dequeue-circular-example-2",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Y338wwMbry4QFs9p",
+   "name": "Linked list operations",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Linked list operations"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a linked list?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A linked list is an abstract data type where each item, or **node**, contains a **data field** and a **pointer to the next node** in the sequence\n- A linked list is **a chain of items**, where each item stores **two things**:\n\n  - The **actual data**\n  - **A pointer** to the next item in the list\n- New items are usually added to the **start** of the list, and each one **links** to the next\n- Like a **scavenger hunt** where each clue tells you where to go next\n- Each item is called a **node **and contains a data field alongside another address which is called a pointer\n- For example:"
+  },
+  {
+   "type": "table",
+   "md": "| **Index** | **Data** | **Pointer** |\n|---|---|---|\n| 0 | 'Apple' | 2 |\n| 1 | 'Pineapple' | 0 |\n| 2 | 'Melon' | - |\n| 3 |   |   |"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Start = 1        NextFree = 3**"
+  },
+  {
+   "type": "bullets",
+   "md": "- The data field contains the **value of the actual data **which is part of the list\n- The pointer field contains the** address of the next item** in the list"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Linked lists can only be traversed by following each item’s next pointer until the end of the list is located"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Traverse a linked list"
+  },
+  {
+   "type": "bullets",
+   "md": "- Check if the linked list is empty\n- Start at the node the pointer is pointing to (Start = 1)\n- Output the item at the current node ('Pineapple')\n- Follow the pointer to the next node repeating through each node until the end of the linked list.\n- When the pointer field is empty/null it signals that the end of the linked list has been reached\n- Traversing the example above would produce: ‘Pineapple’, ‘Apple’, ‘Melon’"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Adding a node"
+  },
+  {
+   "type": "bullets",
+   "md": "- An advantage of using linked lists is that values can easily be added or removed by editing the points\n- The following example will add the word ‘Orange’ after the word ‘Pineapple’"
+  },
+  {
+   "type": "paragraph",
+   "md": "1. Check there is free memory to insert data into the node"
+  },
+  {
+   "type": "paragraph",
+   "md": "2. Add the new value to the end of the linked list and update the ‘NextFree’ pointer"
+  },
+  {
+   "type": "table",
+   "md": "| 3 | 'Orange' |   |\n|---|---|---|"
+  },
+  {
+   "type": "paragraph",
+   "md": "Start = 1     NextFree = 4"
+  },
+  {
+   "type": "paragraph",
+   "md": "3. The pointer field of the word ‘Pineapple’ is updated to point to ‘Orange’, at position 3"
+  },
+  {
+   "type": "table",
+   "md": "| 1 | 'Pineapple' | 3 |\n|---|---|---|"
+  },
+  {
+   "type": "paragraph",
+   "md": "4. The pointer field of the word ‘Orange’ is updated to point to ‘Apple’ at position 0"
+  },
+  {
+   "type": "table",
+   "md": "| 3 | 'Orange' | 0 |\n|---|---|---|"
+  },
+  {
+   "type": "paragraph",
+   "md": "4. When traversed this linked list will now output: ‘Pineapple’, ‘Orange’, ‘Apple’, ‘Melon’"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Removing a node"
+  },
+  {
+   "type": "bullets",
+   "md": "- Removing a node also involves updating nodes, this time to bypass the deleted node\n- The following example will remove the word ‘Apple’ from the original linked list"
+  },
+  {
+   "type": "paragraph",
+   "md": "1. Update the pointer field of ‘Pineapple’ to point to ‘Melon’ at index 2"
+  },
+  {
+   "type": "table",
+   "md": "| **Index** | **Data** | **Pointer** |\n|---|---|---|\n| 0 | 'Apple' | 2 |\n| 1 | 'Pineapple' | 2 |\n| 2 | 'Melon' | - |"
+  },
+  {
+   "type": "paragraph",
+   "md": "2. When traversed this linked list will now output: ‘Pineapple’, ‘Melon’"
+  },
+  {
+   "type": "bullets",
+   "md": "- The node is not truly removed from the list; it is only ignored\n- Although this is easier it does waste memory\n- Storing pointers themselves also means that more memory is required compared to an array\n- Items in a linked list are also stored in a sequence, they can only be traversed within that order so an item cannot be directly accessed as is possible in an array"
+  }
+ ]
+}

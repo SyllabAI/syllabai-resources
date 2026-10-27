@@ -1,6 +1,6 @@
 # Exam Questions — Double Entry Book-keeping with Ledger Accounts
 **2. Sources & Recording of Data** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 15 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 20 questions across 2 sets
 
 
 ## Multiple Choice Questions (17 questions)
@@ -192,3 +192,182 @@ How would Arkady record this?
 **Q15** [1 mark]
 
 What does the purchases ledger of a business contain?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — medium — 6 marks
+
+**Q1** [6 marks]
+
+Seok buys and sells goods on credit. He allows a credit customer, Naomi, trade discount of 10%. All customers pay Seok by bank transfer.
+
+The following balance was extracted from Seok’s sales ledger at 1 August 2023.
+
+|   | \$ |
+|---|---|
+| Naomi | 450 |
+
+The following transactions took place in August 2023.
+
+| Aug  3 | Sold goods on credit, to Naomi, list price \$410 |
+|---|---|
+| 10 | Naomi returned goods, list price \$20 |
+| 11 | Naomi paid \$423 in full settlement of the amount she owed at 1 August |
+| 22 | Sold goods on credit, to Naomi, list price \$230 |
+
+**REQUIRED**
+
+Prepare the account for Naomi for August 2023 as it would appear in the books of Seok. Balance the account and bring down the balance at 1 September 2023.
+
+Seok 
+Naomi account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/22 Q1C*
+
+
+### Q2 — medium — 4 marks
+
+**Q2** [4 marks]
+
+Omer is a trader.
+
+The following transactions took place in April 2023
+
+| April 7 | Paid \$360 to a supplier, Alexander, by telephone transfer |
+|---|---|
+| 12 | Purchased goods, \$340, on credit from Alexander |
+| 27 | Paid \$323 by cheque to Alexander, having deducted \$17 cash discount |
+| 28 | Purchased goods, \$235, on credit from Alexander |
+
+**REQUIRED **
+
+Prepare the account for Alexander for April 2023. Balance the account and bring down the balance at 1 May 2023.
+
+Omer 
+Alexander account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   | 2023 |   |   |
+|   |   |   | Apr 1 | Balance b/d | 360 |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/22 Q1B*
+
+
+### Q3 — medium — 3 marks
+
+**Q3** [3 marks]
+
+Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.
+
+|   | \$ |
+|---|---|
+| At 1 October 2022 |   |
+| Inventory | 8 400 |
+| At 30 September 2023 |   |
+| Inventory | 8 675 |
+
+The provision for doubtful debts is to be maintained at 4% of trade receivables.
+
+**REQUIRED**
+
+Prepare the inventory account for the year ended 30 September 2023.
+
+Logan 
+Inventory account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/21 Q3B*
+
+
+### Q4 — medium — 4 marks
+
+**Q4** [4 marks]
+
+Shvan makes payments to Giles from his bank account as well as by cash. All payments of less than \$75 are made from petty cash.  He provided the following information.
+
+| March 1 | Owed Giles, \$165, from February |
+|---|---|
+| 2 | Paid \$55 to Giles, a trade payable |
+| 13 | Paid Giles the amount outstanding on his account, by cheque |
+| 22 | Purchased goods on credit from Giles, list price \$150, subject to a trade discount of 4% |
+
+Prepare the account for Giles as it would appear in the books of Shvan. Balance the account at 31 March 2023 and bring down the balance at 1 April 2023.
+
+Shvan 
+Giles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/21 Q1B*
+
+
+### Q5 — hard — 5 marks
+
+**Q5** [5 marks]
+
+Mariam is a credit customer of Shahid.
+
+The following incomplete statement of account was available on 31 August 2017.
+
+| STATEMENT OF ACCOUNT <br>Shahid <br>44 Narrow Lane, Anytown |   |   |   |   |
+|---|---|---|---|---|
+| Mariam <br>The Avenue<br>Weston |   | 31 August 2017 |   |   |
+| Date | Reference | Debit <br>\$ | Credit<br>\$ | Balance<br>\$ |
+| 2017 Aug 1 | Balance due |   |   | 520 |
+| 9 | Goods | 340 |   | 860 |
+| 13 | Returns |   | 24 | ? |
+| 24 | Payment |   | 507 | ? |
+|   | Discount |   | 13 | ? |
+
+**REQUIRED **
+
+Prepare the account of Shahid as it would appear in the ledger of Mariam.
+
+Balance the account and bring down the balance on 1 September 2017.
+
+Mariam 
+Shahid account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Specimen 2020 0452/02 Q1C*
+

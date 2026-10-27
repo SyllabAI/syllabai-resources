@@ -168,7 +168,7 @@ Sound waves are easily diffracted around open doors (the human voice has a wavel
   - 8.5 cm is close to 5 cm significant diffraction will occur
 - For light, the wavelength of the visible spectrum at 700 nm to 400 nm
 
-  - `700 space nm space much less-than space 5 space cm` therefore no diffraction will occur
+  - $700 \text{nm} \text{much} less-than 5 \text{cm}$ therefore no diffraction will occur
 
 ### Q13
 **Final answer:** **The correct answer is ****A**** because:**
@@ -217,3 +217,197 @@ Sound waves are easily diffracted around open doors (the human voice has a wavel
 **C **is incorrect as no diffraction is occurring in the diagram. This would only happen if the wavelength was very much smaller than the aperture
 
 **D **is incorrect as the wave is not diffracting very much. This is the pattern we would expect to see if the wavelength was smaller than the aperture, but the wavelength is actually larger than the aperture
+
+## Structured Questions (5 questions)
+
+
+### Q1
+Describe the pattern observed on the screen:
+
+- (A single slit diffraction pattern with) a white central maximum; **[1 mark]**
+
+**Final answer:** **Any ****one**** from:**
+
+- Surrounded by coloured fringes; **[1 mark]**
+- With red light diffracted more / further away from the centre; **[1 mark]**
+- With blue / violet light diffracted less / closer to the centre; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Instead of 'red light being further away from the centre' and 'blue light closer to the centre' make sure **not **to just say 'at a higher order' or 'at a lower order'. You must relate the colours to their relation to the centre of the pattern.*
+
+> *The reason it wouldn’t be accurate to say that red is at a higher order/blue is a lower order of diffraction on the pattern is because each spectrum has its own order when white light is diffracted through a single slit. The zero order will be the white fringe.*
+
+![3-4-s-q--q3a-answer-medium-aqa-a-level-physics](assets/015-3-4-s-q-q3a-answer-medium-aqa-a-level-physics.png)
+The effect on the diffraction pattern if the width of the narrow slit is decreased will be:
+
+**Final answer:** **Any ****two**** from:**
+
+- The bright and dark fringes become further apart; **[1 mark]**
+- The maxima / the pattern becomes broader; **[1 mark]**
+- The pattern is dimmer; **[1 mark]**** **
+
+**[Total: 2 marks]**
+The effect on the width of the fringes on the diffraction pattern if the blue light is replaced with a red light of the same intensity will be:
+
+State:
+
+- The maxima / fringes become further apart / wider; **[1 mark]**** **
+
+Explain:
+
+- Because red light has a longer wavelength; **[1 mark]**
+
+**[Total: 2 marks]**** **
+A diagram scoring 3 marks:
+
+![3-4-s-q--q3d-answer-medium-aqa-a-level-physics](assets/018-3-4-s-q-q3d-answer-medium-aqa-a-level-physics.png)
+
+- Centre of all maxima (apart from the first/central) peaks further away from the centre; **[1 mark]**
+- Central maximum twice the width of the other maxima **AND** symmetrical; **[1 mark]**
+- The intensities of all maxima should remain the same; **[1 mark]**** **
+
+**[Total: 3 marks]**
+
+> *Part (c) helps you to know how the graph would change. Question parts often build like this, so get into the habit of thinking of terms of a whole question, rather than individual question parts, to be sure you don't miss any clues that are there to help you!*
+
+### Q2
+The correct diagram is as follows:
+
+![3-4-s-q--q5a-answer-easy-aqa-a-level-physics](assets/020-3-4-s-q-q5a-answer-easy-aqa-a-level-physics.png)
+
+- At least four curved wavefronts drawn; **[1 mark]**
+- Distance between each wavefront roughly the same as before they entered the gap; **[1 mark]**** **
+
+**[Total: 2 marks]**** **
+
+> *The distance between each wavefront should be the same after it passes through the gap since this represents the **wavelength** of the wave. The wavelength does **not** change when the wave is diffracted, so make sure to draw your sketch accurately!*
+The changes which would decrease the amount of diffraction are:
+
+- Increasing the size of the gap; **[1 mark]**
+- Reducing the wavelength (relative to the gap size) **OR** increasing the frequency of the wave;** [1 mark]**
+
+**[Total: 2 marks]**
+Complete the diagram to show the wavefronts after they have passed the edge:
+
+![screenshot-2023-02-06-at-10-51-13](assets/022-screenshot-2023-02-06-at-10-51-13.png)
+
+- Same wavelength (equal gap between wavefronts) drawn; **[1 mark]**
+- Wavefronts curve at the end near the barrier; **[1 mark]**
+
+**[Total: 2 marks]**
+The correct diagram is as follows:
+
+![file-000-56](assets/024-file-000-56.png)
+
+- Same wavelength (equal gap between wavefronts) drawn; **[1 mark]**
+- Wavefronts curve near point A; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *When sketching the continuation of a wave pattern as in part (i) of this question **there will always be a mark for getting the wavelength** (the distance between the lines you draw) correct.*
+
+- *If the wave speed stays the same, wavelength stays the same.*
+- *If the wave gets slower then wavelength shrinks (as the waves catch up with each other).*
+- *If the wave gets faster then wavelength extends (as the leading wavefronts get away from those following).*
+
+### Q3
+Describe fringes formed by superposition causing interference:
+
+- Superposition of light from each of the double slits will interfere both constructively and destructively; **[1 mark]**
+
+Specific explanation of how a bright fringe is formed:
+
+- A path difference of integer multiple of wavelengths will give bright fringes; **[1 mark]**
+
+**[Total: 2 marks]**
+The separation of the fringes will:
+
+- Decrease, due to wavelength decreasing by a factor of two **AND**
+- Decrease further due to the doubled distance between the slits; **[1 mark]**
+
+Describe the overall effect on fringe separation:
+
+- Therefore, the total decrease in the separation of fringes in this interference pattern will be 4 times smaller; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This answer could be directly related to the equation: **s **= *$\frac{λD}{d}$*, however it does not need to reference the equation to get full marks.*
+Describe how the pattern changes:
+
+- The width of the central maximum (fringe) will be increased **AND**
+- With larger widths for each subsequent maxima (on each side); **[1 mark]**
+
+Describe how the intensities will change:
+
+- The intensity of the maxima next to the central maximum will decrease; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q4
+Diffraction is defined as:
+
+- When a wave passes through a slit / gap / barrier / an obstruction / an edge; **[1 mark]**
+- The wave spreads out / changes direction; **[1 mark]**
+
+**[Total: 2 marks]**
+A property of a wave that changes when diffracted is:
+
+- Amplitude;** [1 mark]**** **
+
+A property of a wave that remains the same when diffracted is:
+
+**Final answer:** **Any ****one**** from:**
+
+- Speed / velocity;** [1 mark]**
+- Wavelength;** [1 mark]**
+- Frequency;** [1 mark]**
+- Phase (difference);** [1 mark]**** **
+
+**[Total: 2 marks]**
+The correct sentence is as follows:
+
+**Final answer:** **Any ****one pair**** from:**
+
+- **X–rays**** [1 mark] **passing through **atoms**** [1 mark] **will produce a large diffraction effect.
+- **Radio**** ****waves** **[1 mark]** passing through **mountains ****[1 mark] **will produce a large diffraction effect.
+- **Red light**** [1 mark]** passing through **a diffraction**** ****grating**** ****[1 mark]** will produce a large diffraction effect.** **
+
+**[Total: 2 marks]**** **
+
+> *The largest diffraction effect when a wave passes through a gap is when the wavelength of the wave is roughly the **same** size as the gap itself. Therefore, it is important to revisit the order of magnitude of the wavelengths of electromagnetic waves.*
+The correct sentences are as follows:
+
+- Sound waves emitted by the toy **diffract** around the corner; **[1 mark]**
+- Because the** ****wavelength** is similar in size to the width of the hallway; **[1 mark]**
+- The **wavelength** of light is much** ****smaller** than that of the sound waves; **[1 mark]**
+- So light is not **diffracted**** **around the corner; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Diffraction is greatest when the obstacle size is similar to the wavelength **λ** of the wave. The wavelength of sound (in the range of human hearing) is roughly the same size as the hallway, so the sound waves emitted by the toy diffract greatly around the corner. Light waves have a much shorter wavelength so light does not diffract around the corner. *
+
+![8-2-e-ma1d-sound-sq-cie-ial-physics](assets/028-8-2-e-ma1d-sound-sq-cie-ial-physics.png)
+
+![8-2-e-ma1d-light-sq-cie-ial-physics](assets/029-8-2-e-ma1d-light-sq-cie-ial-physics.png)
+
+### Q5
+The definition of diffraction is:
+
+- The spreading out of waves around an obstacle or aperture; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Make sure you learn the definitions of key words so that you can define them and use them correctly in extended answer questions. *
+The student can hear the sound of the television, but cannot see the picture coming from it because:
+
+- Sound waves emitted from the television** **diffract around the opening of the door; **[1 mark]**
+- The** **wavelengths of the sound waves are a similar size to the door opening; **[1 mark]**
+- The wavelength of light is much** **smaller than that of the sound waves / door opening; **[1 mark]**
+- So light is not diffracted** **around the opening of the door; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Diffraction is greatest when the aperture size is similar to the the wavelength **λ** of the wave. The wavelength of a speaking voice is roughly the same size as a door opening, so the soundwaves of people talking diffract greatly around door sized apertures. Light waves have a much much shorter wavelength so light does not diffract around a door sized aperture. *
+
+![4-4-3b-commentary-1-sl-sq-easy-phy](assets/031-4-4-3b-commentary-1-sl-sq-easy-phy.png)

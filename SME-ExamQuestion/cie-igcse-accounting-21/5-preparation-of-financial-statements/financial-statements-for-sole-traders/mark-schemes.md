@@ -277,3 +277,30 @@
   - It buys and sells goods
 
 **A**, **B** and** C** are incorrect; they are all service businesses
+
+## Structured Questions (3 questions)
+
+
+### Q1
+Amadi 
+Income Statement (trading section) for the year ended 31 March 2023
+
+|   | \$ |   | \$ |   |
+|---|---|---|---|---|
+| Revenue |   |   | 73 250 |   |
+| Less Sales returns |   |   | <u>(3 390)</u> |   |
+| Less cost of sales |   |   | 69 860 | **[1]** |
+| Opening inventory | 3 752 |   |   |   |
+| Purchases | 41 785 |   |   |   |
+| Carriage inwards | <u>1 223</u> |   |   |   |
+|   | 46 760 | **[1]** |   |   |
+| Less Closing inventory | <u>(3 965)</u> |   | <u>42 795</u> | **[1]** |
+| Gross profit |   |   | <u>27 065</u> | **[1]** |
+
+> **[mark-scheme]**
+> 4 marks in total.
+> 
+> - 1 mark for the correct figure for net revenue
+> - 1 mark for the correct figure for the total of net purchases and opening inventory
+> - 1 mark for your **own figure** for cost of sales using the correct formula
+> - 1 mark for your **own figure** for gross profit by subtracting cost of sales from net revenue

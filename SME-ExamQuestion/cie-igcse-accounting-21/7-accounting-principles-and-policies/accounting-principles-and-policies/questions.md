@@ -1,6 +1,6 @@
 # Exam Questions — Accounting Principles & Policies
 **7. Accounting Principles & Policies** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 12 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 17 questions across 2 sets
 
 
 ## Multiple Choice Questions (13 questions)
@@ -105,3 +105,105 @@ Which accounting principle is he applying?
 An ice cream business purchases a cheap calculator during the financial year.
 
 Why would the ice cream business **not **include the value of the calculator in the statement of financial position?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — medium — 4 marks
+
+**Q1** [4 marks]
+
+Ramla has calculated her draft profit figure for the year ended 28 February 2023. Adjustments in Ramla’s ledger accounts have still to be made for the following items
+
+1. An amount of \$99 owed to Ramla by Mai is to be written off as irrecoverable.
+2. Drawings, \$120, had been debited to the wages account
+
+Ramla prepares journal entries to correct the errors.
+
+**REQUIRED **
+
+Explain
+
+(i) how the journal for item 1 complies with the prudence principle.
+
+(ii) how the journal for item 2 complies with the business entity principle.
+
+*Source: June 2023 0452/22 Q2C*
+
+
+### Q2 — medium — 1 marks
+
+**Q2** [1 mark]
+
+State why financial statements may still be reliable even if errors are present.
+
+*Source: Nov 2023 0452/22 Q4D*
+
+
+### Q3 — medium — 1 marks
+
+**Q3** [1 mark]
+
+Sara owns a clothing factory. She sells the clothing to a small number of local shops. She allows 30 days credit.
+
+Sara’s factory supervisor is very efficient at running the factory.
+
+**REQUIRED**
+
+State which accounting principle Sara is complying with by **not **recording any value for this efficiency in her financial statements.
+
+*Source: Nov 2023 0452/22 Q2C*
+
+
+### Q4 — medium — 2 marks
+
+**Q4** [2 marks]
+
+Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.
+
+|   | \$ |
+|---|---|
+| At 1 October 2022 |   |
+| Inventory | 8 400 |
+| Trade receivables | 7 500 |
+| Other receivables (rent prepaid) | 820 |
+| For the year ended 30 September 2023 |   |
+| Rent charge for the year | 4 940 |
+| Bank payments for rent 1 December 2022 | 2 460 |
+| 1 June 2023 | 2 490 |
+| At 30 September 2023 |   |
+| Inventory | 8 675 |
+| Trade receivables | 8 700 |
+| Other receivables | ? |
+| Irrecoverable debts to be written off | 325 |
+
+The provision for doubtful debts is to be maintained at 4% of trade receivables.
+
+**REQUIRED**
+
+State how:
+
+(i)    the prudence principle is applied to the valuation of Logan’s inventory
+
+(ii)   the matching principle is applied when the rent payable account is prepared
+
+*Source: Nov 2023 0452/21 Q3D(I)(II)*
+
+
+### Q5 — medium — 2 marks
+
+**Q5** [2 marks]
+
+On 2 October 2025, Hashim uses the business bank account to purchase two phones. Hashim uses one for business use and one for personal use.
+
+Hashim makes the following journal entries.
+
+| Details | Debit<br><br>\$ | Credit<br><br>\$ |
+|---|---|---|
+| Phone | 300 |   |
+| Drawings | 300 |   |
+| Bank |   | 600 |
+
+**REQUIRED**
+
+Explain how the business entity principle has been applied in the journal entries.

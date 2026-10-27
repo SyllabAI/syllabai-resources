@@ -372,3 +372,796 @@
 **B **&** D **are incorrect because the total current in diagram 1 and 2 is 2.0 A so when the current splits at the junction, the reading on both ammeters is  $\frac{2.0}{2}=1.0A$
 
 **C **is incorrect because to detect a potential difference, the voltmeter would need to be connected across one component at a time
+
+## Structured Questions (7 questions)
+
+
+### Q1
+Draw a diagram to determine the direction of the potential difference in loop 1:
+
+A diagram that would score 1 mark should look like this:
+
+![img-1158](assets/026-img-1158.jpeg)
+
+- 3 V potential difference pointing to the right **AND**
+- 5 V potential difference pointing to the left; **[1 mark]**
+
+Calculate the missing potential difference of the resistor, *x*:
+
+- + 3 + *x *+ − 5 = 0
+- *x *= 2 V **[1 mark]**
+
+Draw a diagram to determine the direction of the potential difference in loop 2:
+
+A diagram that would score 1 mark should look like this:
+
+![img-1159](assets/027-img-1159.jpeg)
+
+- A 6 V potential difference pointing to the left **AND**
+- A 2 V potential difference pointing from Q to S; **[1 mark]**
+
+Calculate the missing potential difference of the resistor, *y*:
+
+- − 6 + 2 + *y *= 0
+- *y *= 6 − 2 = 4 V **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Remember if there is just one power supply in a circuit then the resistors can be reduced to a single equivalent resistor but if there is more than one power supply then part of one branch can be combined to one resistor. Kirchhoff's Laws are then applied to each loop. *
+
+> *Kirchhoff's second law states that the sum of all potential differences around a complete loop is equal to 0. *
+List the known quantities:
+
+- Current through QS, *I*<sub>1</sub>* *= 3.0 A
+- p.d. across QS, *V*<sub>QS</sub>* *= 2.0 V (from part a)
+- p.d. across the LHS branch, *V*<sub>LHS</sub>* *= 3 V + 5 V = 8 V
+- p.d. across the RHS branch, *V*<sub>RHS</sub>* *= 6 V + 4 V = 10 V (from part a)
+
+Calculate the resistance of the branch QS:
+
+- Recall: *V *= *IR*
+- $R_{QS} = \frac{V_{QS}}{I_{1}}$
+- $R_{QS} = \frac{2}{3}$ Ω **[1 mark]**
+
+Determine the ratio of resistance on each side of the outer loop:
+
+- *V*<sub>LHS</sub>* *: *V*<sub>RHS</sub>* *= *R*<sub>LHS</sub>* *: *R*<sub>RHS</sub>
+- 8 : 10 = 4 : 5 **[1 mark]**
+
+Calculate the LHS and RHS resistances as fractions of *r*:
+
+- $R_{LHS} = \frac{4}{9} r$
+**AND**
+$R_{RHS} = \frac{5}{9} r$ **[1 mark]**
+
+Calculate the total resistance of all the resistors in the circuit:
+
+- The QS branch is the single shared resistor between the two loops, so it is counted once
+- $R=R_{LHS}+R_{RHS}+R_{QS}$
+- $R = \frac{4}{9} r + \frac{5}{9} r + \frac{2}{3}$
+- $R = r + \frac{2}{3}$ Ω **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The two power supplies mean the resistors on each side of the outer loop carry different currents, but the ratio given in the question lets you partition **r** without solving for the individual resistor values. *
+
+> *The QS branch is a single resistor in the network. When summing the resistances of the circuit, count it once — it does not appear in both loops separately. *
+
+> *This question is probably harder than anything you will encounter in your exam, but that makes it great practice! *
+List the known quantities:
+
+- *V*<sub>*1*</sub> = 0.5 V
+- *V*<sub>*2*</sub> = 1 V
+- *V*<sub>*3*</sub>  = 2 V
+- Resistance of each resistor, *R *= 0.25 Ω
+
+Label the diagram to show the loops, polarity of the batteries and directions of each current:
+
+A diagram that would score 1 mark should look like this:
+
+![img-1167](assets/029-img-1167.jpeg)
+
+- Currents *I*<sub>*1*</sub>, *I*<sub>*2*</sub>  and *I*<sub>*3  *</sub>are<sub>* *</sub>labelled as shown with arrows in the correct direction **AND**
+- Positive and negative battery and resistor terminals should be indicated correctly with the positive side of the resistor the side where the current enters; **[1 mark]**
+
+Use Kirchhoff's first law to obtain an equation for the currents at junction A:
+
+- *I*<sub>*1*</sub>* + I*<sub>*3*</sub> = *I*<sub>*2*</sub>* ***[1 mark]**
+
+Use Kirchhoff's second law to obtain an equation for the sum of the potential differences in loops 1 and 2:
+
+- Recall Ohm's Law: *V *= *IR*
+- Loop 1: **AND**
+
+  - *V*<sub>*1*</sub>* *− *I*<sub>*1*</sub>*R*<sub>*1*</sub>* *− *I*<sub>*2*</sub>*R*<sub>*2*</sub> − *V*<sub>*2*</sub> − *I*<sub>*1*</sub>*R*<sub>*4*</sub> = 0
+  - 0.5 − (0.25*I*<sub>*1*</sub>) − (0.25*I*<sub>*2*</sub>) − 1 − (0.25*I*<sub>*1*</sub>) = 0
+  - −0.5 − 0.5*I*<sub>*1 *</sub>− 0.25*I*<sub>*2*</sub> = 0
+  - 0.5*I*<sub>*1*</sub> + 0.25*I*<sub>*2*</sub> = −0.5
+- Loop 2:
+
+  - *V*<sub>*3*</sub> − *I*<sub>*3*</sub>*R*<sub>*3*</sub> − *I*<sub>*2*</sub>*R*<sub>*2*</sub> − *V*<sub>*2*</sub> = 0
+  - 2 − (0.25*I*<sub>*3*</sub>) − (0.25*I*<sub>*2*</sub>) − 1 = 0
+  - 1 − (0.25*I*<sub>*3*</sub>) − (0.25*I*<sub>*2*</sub>) = 0
+  - 1 = 0.25*I*<sub>*3 *</sub>+ 0.25*I*<sub>*2*</sub>
+  - *I*<sub>*3 *</sub>+ *I*<sub>*2*</sub> = 4 **[1 mark]**
+
+Substitute for *I*<sub>*3*</sub> into the equation for current:
+
+- From loop 2: *I*<sub>*3*</sub><sub> </sub>=<sub> </sub>4 − *I*<sub>*2*</sub>
+- Equation for current: *I*<sub>*1*</sub>* + I*<sub>*3*</sub> = *I*<sub>*2*</sub>
+- So, *I*<sub>*1*</sub> + (4 − *I*<sub>*2*</sub>) = *I*<sub>*2*</sub>
+- *I*<sub>*1*</sub> = 2*I*<sub>*2*</sub> − 4 **[1 mark]**
+
+Now substitute for *I*<sub>*1*</sub>* *from above into the equation for loop 1:
+
+- From loop 1: 0.5*I*<sub>*1*</sub> + 0.25*I*<sub>*2*</sub> = −0.5
+- 0.5(2*I*<sub>*2*</sub> − 4) + 0.25*I*<sub>*2*</sub> = −0.5
+- *I*<sub>*2*</sub>* *− 2 + 0.25*I*<sub>*2*</sub> = −0.5
+- 1.25*I*<sub>*2*</sub> = −0.5 + 2
+- *I*<sub>*2*</sub> = 1.2 A **[1 mark]**
+
+Now substitute for *I*<sub>*2*</sub> to obtain *I*<sub>*1*</sub>:
+
+- *I*<sub>*1*</sub> = (2 × 1.2) − 4
+- *I*<sub>*1*</sub> = −1.6 A **[1 mark]**
+
+Substitute for *I*<sub>*2*</sub> into the equation for loop 2:
+
+- From loop 2:* I*<sub>*3 *</sub>+ *I*<sub>*2*</sub> = 4
+- *I*<sub>*3*</sub> = 4 − 1.2
+- *I*<sub>*3*</sub>* *= 2.8 A **[1 mark]**
+
+**[Total: 7 marks]**
+
+> *You can label your circuit in any way but make sure the direction of the current is consistent all the way around.*
+
+> *When obtaining an equation for the sum of the potential differences if you cross from:*
+
+- *− terminal of one resistor to the + terminal of another resistor *$\rightarrow$* the change in potential difference is + *
+- *+ terminal of one resistor to the − terminal of another resistor *$\rightarrow$* the change in potential difference is −*
+
+> *It is always a good idea to check your answer at the end. Here you can do this by using the equation for current:*
+
+- *I*<sub>*1*</sub>* + I*<sub>*3*</sub>* = **I*<sub>*2*</sub>
+- *So, −1.6 + 2.8 = 1.2 which is correct*
+
+### Q2
+Determine expressions for the gradient and the y-intercept:
+
+- $V = ( \frac{P}{P + Q} ) E = \frac{P E}{P + Q} \Leftrightarrow \frac{1}{V} = \frac{P + Q}{P E} = \frac{1}{E} + \frac{Q}{P E}$
+- $\frac{1}{V}=\frac{1}{E}+\frac{Q}{PE}\Rightarrow\frac{1}{V}=(\frac{Q}{E})\frac{1}{P}+\frac{1}{E}\,y=mx+c$
+
+Determine the gradient and y-intercept:
+
+- Hence, the gradient = $\frac{Q}{E}$  **AND  **y-intercept = $\frac{1}{E}$ **[1 mark]**
+
+**[Total: 1 mark]**
+Calculate and record values of $\frac{1}{P}$ / 10<sup>–3</sup> Ω<sup>–1</sup> in Table 2.1.
+
+![file-000-61](assets/031-file-000-61.png)
+
+- All values and uncertainties correct; **[1 mark]**
+- All values and uncertainties quoted to 2 significant figures; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Don't be fooled by the equation. Calculating *$\frac{1}{P}$* **is simple, just find the reciprocal of values of **P** from **column 1**.*
+
+> *P** is given to **2 s.f**. so *$\frac{1}{P}$*should also be given as the same*
+
+> *The **absolute uncertainty** of *$\frac{1}{P}$* is calculated by finding **10%** of each value of *$\frac{1}{P}$
+(i) Plot a graph of 1/V against 1/P:
+
+A graph that would score 2 marks should look like this:
+
+![file-000-68](assets/033-file-000-68.png)
+
+Plotted points:
+
+**All ****three ****for 1 mark:**
+
+- All six points from **(b) **plotted correctly
+- Each point must be accurate to within half a small square
+- The diameter of the point must be less than half a small square; **[1 mark]**
+
+Error bars:
+
+**All ****three ****for 1 mark:**
+
+- All uncertainties for $\frac{1}{P}$ are plotted correctly as error bars
+- All error bars are plotted
+- The length of the bar must be accurate to less than half a small square and symmetrical;** [1 mark]**
+
+(ii) Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines:
+
+A graph that would score 1 mark should look like this:
+
+![file-000-64](assets/034-file-000-64.png)
+
+Straight line of best fit drawn:
+
+- Lower end of line must pass between (1.50, 0.70) and (1.65, 0.70) and upper end of line must pass between (3.60, 1.40) and (3.80, 1.40); **[1 mark]**
+
+A graph that would score 1 mark should look like this:
+
+![file-000-65](assets/035-file-000-65.png)
+
+Worst acceptable line drawn:
+
+- Steepest possible line that passes through all the error bars **AND** all error bars must be plotted;** [1 mark]**
+
+(iii) Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.
+
+Draw lines on the graph to obtain a gradient triangle for the line of best fit:
+
+![file-000-66](assets/036-file-000-66.png)
+
+Calculate the gradient of the best fit line:
+
+- Point 1: (1.5, 0.671)
+- Point 2: (3.0, 1.16)
+- $gradient=m=\frac{\Deltay}{\Deltax}=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\frac{1.16-0.671}{3-1.5}$ = 0.326 **[1 mark]**
+
+Draw lines on the graph to obtain a gradient triangle for the line of worst fit:
+
+![file-000-67](assets/037-file-000-67.png)
+
+Calculate the gradient of the worst fit line:
+
+- Point 1: (1.3, 0.61)
+- Point 2: (4.4, 1.54)
+- $gradient=m=\frac{\Deltay}{\Deltax}=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\frac{1.54-0.61}{4.4-1.3}$ = 0.3
+
+Calculate the uncertainty in the gradient of the best fit line:
+
+- Uncertainty = gradient of best fit line − gradient of worst fit line
+- Uncertainty = 0.326 − 0.3
+- Uncertainty = ±0.026 **[1 mark]**
+
+(iv) Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer:
+
+List the known quantities:
+
+Line of best fit:
+
+- Point 1: (1.5, 0.671)
+- Gradient, $m$ = 0.326
+
+Line of worst fit:
+
+- Point 1: (1.3, 0.61)
+- Gradient, $m$ = 0.3
+
+Substitute quantities from point 1 on the line of best fit into the standard equation of a straight line:
+
+- $y=mx+c$
+- $y-mx=c$
+- $0.671 - ( 0.326 \times 1.5 ) = c$
+- y-intercept for the line of best fit, $c=0.182V^{-1}$ **[1 mark]**
+
+Substitute quantities from point 1 on the line of worst fit into the standard equation of a straight line:
+
+- $y-mx+c$
+- $0.61 - ( 0.3 \times 1.3 ) = c$
+- y-intercept for line of worst fit, $c=0.22V^{-1}$
+
+Calculate the uncertainty in the y-intercept:
+
+- Uncertainty = y-intercept of best-fit line − y-intercept of worst-fit line
+- Uncertainty = 0.182 − 0.22
+- Uncertainty = ±0.038 **[1 mark]**
+
+**[Total: 8 marks]**
+
+- *It is **difficult** to draw the line of best fit with an **equal **number of **points above and below**. *
+- *An **attempt** to do this and have the line between the coordinates indicated will award you the **mark*
+
+![file-000-63](assets/038-file-000-63.png)
+
+- *When drawing a gradient triangle it is best to use **plotted points** that lie **exactly** on the line of best fit*
+
+- *There is a range within which a** line of best fit is accepted**, so your **gradient and y-intercept values** will be **different** to those calculated.*
+- *Not many students will draw exactly the same line of best fit. *
+- *If you have followed the **same steps as above, **even though your **values are different**, you will be awarded the marks*
+(i) Using your answers to **(a), (c)(iii)** and **(c)(iv)**, determine the values of E and Q. Include appropriate units:
+
+List the known quantities:
+
+- y-intercept = $\frac{1}{E}$ (from part (a))
+- y-intercept, $c$ = 0.182 V<sup>−1</sup> (from part b, iv)
+- Gradient = $\frac{Q}{E}$ (from part (a))
+- Gradient, $m$ = 0.326 (from part b, iii)
+
+Use the expression for y-intercept and the known quantity to calculate $E$:
+
+- $E=\frac{1}{c}$
+- $E=\frac{1}{0.182}$
+- $E=5.49V$ **[1 mark]**
+
+Use the expression for gradient and the known quantities to calculate, $Q$:
+
+- $Q=m\timesE$
+- $Q=0.326\times5.49$
+- $Q=1.79Ω$ **[1 mark]**
+
+(ii) Determine the percentage uncertainty in *E*:
+
+List the known quantities:
+
+- y-intercept, $c$ = 0.182
+- Uncertainty in y-intercept, $\Deltac$ = 0.038
+
+Calculate the percentage uncertainty in y:
+
+- % uncertainty in *E *= % uncertainty in y-intercept
+- % uncertainty in y-intercept = $\frac{\Deltac}{c}\times100$
+- % uncertainty = $\frac{0.038}{0.182}\times100$
+- % uncertainty = 20.8 % = 21 % (2s.f.) **[1 mark]**
+
+(iii) Determine the absolute uncertainty in *Q:*
+
+List the known quantities:
+
+- Absolute uncertainty in gradient, $\Deltam$ = ±0.026
+- Gradient of best-fit line, $m$ = 0.326
+- % uncertainty in *E *= % uncertainty in y-intercept = 21 %
+
+Calculate the % uncertainty in the gradient of the best flt line:
+
+- % uncertainty = $\frac{\Deltam}{m}\times100$
+- % uncertainty = $\frac{0.026}{0.326}\times100$
+- % uncertainty = 7.98 % = 8.0 % (2s.f.)
+
+Calculate the % uncertainty in *Q*:
+
+- % uncertainty in *Q *= % uncertainty in *E *+ % uncertainty in gradient
+- % uncertainty in *Q *= 21 + 8 = 29%
+
+Calculate the absolute uncertainty in *Q*:
+
+- Absolute uncertainty = $\frac{percentageuncertaintyinQ}{100}\timesQ$
+- Absolute uncertainty = $\frac{29}{100}\times1.79$
+- Absolute uncertainty = ±0.5191 Ω = ±0.52 Ω (2s.f.) **[1 mark]**
+
+**[Total: 4 marks]**
+
+- *You may obtain **slightly different values** than those above as a result of:*
+
+  - *A different** line of best fit*
+  - *A different **line of worst fit*
+  - *Giving a **different gradient*
+  - *And a** different y-intercept*
+- *If you have followed the **same steps **you will be awarded the marks* * *
+- *Remember when **multiplying / dividing quantities** you must **add the uncertainties** to combine them*
+- *Converting from % to absolute uncertainty requires the inverse % to be found:*
+
+$\% u n c e r t a i n t y = \frac{a b s o l u t e}{q u a n t i t y} \times 100$
+
+$\frac{\% u n c e r t a i n t y \times q u a n t i t y}{100} = a b s o l u t e$
+
+### Q3
+(i) Kirchhoff's first law states that:
+
+- The sum of currents into a junctions equals the sum of the currents out of a junction;** [1 mark]** ** **
+
+(ii) The quantity conserved by this law is:
+
+- Charge; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is common to mistakenly say that 'current' is conserved in this law. Although that's true, current is just the flow of **charge**, which is the fundamental conservation linked with Kirchhoff's first law. Therefore, for part (ii), 'current' will **not** get the mark.*
+(i) Kirchhoff's second law states that:
+
+- The sum of e.m.f's equals the sum of the p.d's around a loop / circuit;** [1 mark]** ** **
+
+(ii) The quantity conserved by this law is:
+
+- Energy; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is common to mistakenly say that 'p.d' is conserved in this law. However, p.d. is the measure of energy per unit charge transferred between two points in a circuit. Therefore, it is technically **energy **that is conserved.*
+The correct circuit symbols are:
+
+![img-0648a030ef41-1](assets/040-img-0648a030ef41-1.jpeg)
+
+- **One mark for each correct circuit**** ****symbol**
+
+**[Total: 6 marks]**
+
+> *There are some niche circuit symbols required in this question, however, they are all required according to the CIE IAL syllabus. The end of the syllabus has a list of all the circuit symbols that you should recognise in your exam questions, make sure to familiarise yourself with **all** of them.*
+The relation between:
+
+(i) *I*<sub>1</sub>, *I*<sub>2</sub> and *I*<sub>3</sub> is:
+
+- $I_{1}+I_{2}=I_{3}$ **[1 mark]**
+
+(ii) *E*<sub>2</sub>, *R*, *I*<sub>2</sub> and *I*<sub>3</sub> in loop YZABY is:
+
+- $E_{2}=I_{2}R+I_{3}R$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Remember from Ohm's law that **V** = **IR**.*
+
+> *Part (i) is using Kirchhoff's first law, whilst part (ii) is using Kirchhoff's second law.*
+
+### Q4
+List the known quantities:
+
+- Current in *R*<sub>*2*</sub>  and *R*<sub>*3*</sub> = 0.40 A
+- P.d. across *R*<sub>*1*</sub>  and *R*<sub>*4*</sub> = 3.2 V
+
+Determine the unlabelled values of current and potential difference:
+
+- Current in *R*<sub>*1*</sub>  and *R*<sub>*4*</sub> = 2 × 0.40 = 0.80 A **[1 mark]**
+
+- P.d. across *R*<sub>*2*</sub>*  *and *R*<sub>*3*</sub>  = $\frac{3.2}{2}$ = 1.6 V** [1 mark]**
+
+Calculate the resistance *R*<sub>*1*</sub>*  *and *R*<sub>*4*</sub>:
+
+- Recall: *V *= *IR *$\rightarrow$* *$R=\frac{V}{I}$
+- $R=\frac{3.2}{0.80}=4$* *Ω **[1 mark]**
+
+Calculate the resistance *R*<sub>*2*</sub>*  *and *R*<sub>*3*</sub>:
+
+- Hence, $R=\frac{1.6}{0.40}=4$Ω **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The question tells you that **R **should be the same for all the resistors, so calculate **R** for all of them just to check. *
+List the known quantities:
+
+- P.d. across *R*<sub>*1*</sub>  and *R*<sub>*4*</sub>* *= 3.2 V (From part (a))
+- P.d. across *R*<sub>*2*</sub>  and *R*<sub>*3*</sub> = 1.6 V (From part (a))
+
+Calculate the total p.d. in the circuit:
+
+- Total p.d. = e.m.f.
+- e.m.f. = p.d. across *R*<sub>*1*</sub>  + p.d. across *R*<sub>*2*</sub>  + p.d. across *R*<sub>*3*</sub>  + p.d. across *R*<sub>*4*</sub>
+- e.m.f. = 3.2 + 1.6 + 3.2 + 1.6 **[1 mark]**
+- e.m.f. = 9.6 V **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question can also be solved by finding the total resistance of the combination and using the equation:*
+
+> *V **= **IR*
+List the known quantities:
+
+- Current through *R*<sub>*3*</sub>  = 0.40 A
+
+Total current through *R*<sub>*1*</sub>  and *R*<sub>*4*</sub>:
+
+- Total current = 0.40 + 0.40 + 0.40 = 1.2 A **[1 mark]**
+
+This is because:
+
+- According to <u>Kirchhoff's first law</u>: The sum of the currents entering a junction is always equal to the sum of the currents out of the junction; **[1 mark]**
+- In this circuit the current through each branch of the parallel components of the circuit is the <u>same</u> because each resistor has a resistance <u>*R*</u>; **[1 mark]**
+
+**[Total: 3 marks]**
+This will change the total power produced by the battery because:
+
+- The total resistance in the circuit has increased; **[1 mark]**
+- So the current in the battery decreases; **[1 mark]**
+- Hence, the total power decreases; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Consider the equations:*
+
+> *V **= **IR*
+
+> *When **R **increases then **I **decreases for the battery to provide a constant p.d.*
+
+> *P **= **IV*
+
+> *So an increase in **I **results in a decrease in **P**. *
+
+### Q5
+Derive the expression for total resistance *R* in parallel:
+
+- The total current in the circuit $I$ is equal to the sum of the currents through each resistor:
+
+  - $I=I_{1}+I_{2}+I_{3}$ **[1 mark]**
+
+Consider Ohm's Law and substitute into the expression for current, $I$:
+
+- $\frac{V}{R}=\frac{V}{R_{1}}+\frac{V}{R_{2}}+\frac{V}{R_{3}}$ **AND**
+- $\frac{1}{R}=\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+- *The potential difference across the parallel combination is *$V$*, so:*
+
+  - $V_{1}=V_{2}=V_{3}=V$
+List the known quantities:
+
+- e.m.f., $V$ = 6.0 V
+- Charge, $Q$ = 2.5 kC = 2.5 × 10<sup>3</sup> C
+- Elementary charge, $e$ = 1.6 × 10<sup>−19</sup> C
+- Combined resistance, $R$ = 4.8 Ω
+- Resistance of resistor, $R_{1}$ = 12 Ω
+
+(i) Explain why the potential difference across the terminals of the battery is less than the e.m.f:
+
+- The energy (inside the battery) is dissipated in the internal resistance; **[1 mark]**
+
+(ii) Calculate:
+
+- the total energy transferred by the battery:
+
+  - $V=\frac{W}{Q}$
+  - $W=VQ$ **[1 mark]**
+  - $W = 6 \times ( 2.5 \times 10^{3} )$
+  - $W=1.5\times10^{4}J$ **[1 mark]**
+- the number of electrons that pass through the battery:
+
+  - $numberofelectrons=\frac{Q}{e}$
+  - $numberofelectrons=\frac{2.5\times10^{3}}{1.6\times10^{-19}}$
+  - $n u m b e r o f e l e c t r o n s = 1.56 \times 10^{22} = 1.6 \times 10^{22} ( 2 s. f. )$ **[1 mark]**
+
+(iii) Calculate the resistance of X:
+
+- $\frac{1}{R}=\frac{1}{R_{1}}+\frac{1}{R_{2}}$
+- $\frac{1}{4.8}=\frac{1}{12}+\frac{1}{R_{X}}$
+- $\frac{1}{R_{X}}=\frac{1}{8}$
+- $R_{X}=8Ω$ **[1 mark]**
+
+(iv) Determine the ratio $\frac{\mathrm{power} \mathrm{dissipated} \mathrm{in} \mathrm{thermistor}X}{\mathrm{power} \mathrm{dissipated} \mathrm{in}12Ω\mathrm{resistor}}$:
+
+- $P=\frac{V^{2}}{R}$ **[1 mark]**
+- $P_{X}=\frac{6^{2}}{8}=4.5W$
+- $P_{1}=\frac{6^{2}}{12}=3W$
+- $\frac{P_{X}}{P_{1}}=\frac{4.5}{3}=1.5$ **[1 mark]**
+
+(v) As the temperature of the thermistor decreases:
+
+- The resistance increases; **[1 mark]**
+- This means the total resistance (in the circuit) increases **OR** the total current (in the battery) decreases; **[1 mark]**
+- (Hence) the power decreases; **[1 mark]**
+
+**[Total: 10 marks]**
+
+- *In part (v) *$P=\frac{V^{2}}{R}$* so when *$R$* increases *$P$* decreases*
+
+### Q6
+The total resistance *R* is given by the equation $R=R_{1}+R_{2}+R_{3}$ because:
+
+- The total potential difference in the circuit, *V* is equal to the sum of the potential differences across each resistor:
+
+  - $V=V_{1}+V_{2}+V_{3}$** [1 mark]**
+
+Consider Ohm's Law and substitute into the expression for current, *V*:
+
+- $IR=IR_{1}+IR_{2}+IR_{3}$ **[1 mark**
+- $R=R_{1}+R_{2}+R_{3}$ **[1 mark]**
+
+**[Total: 3 marks]**
+A complete Table 1.1 should look like:
+
+| Position of switches |   |   |
+|---|---|---|
+| S<sub>1</sub> | S<sub>2</sub> | Total resistance / kΩ |
+| open | closed | **Final answer:** **4.0** |
+| closed | open | **Final answer:** **5.0** |
+| closed | closed | **Final answer:** **2.2** |
+
+**One mark for each correct row**
+
+**[Total: 3 marks]**
+
+> *If you're struggling with the total resistances when both switches are closed, split the circuit into parallel and series sections.*
+
+1. *First, combine the series resistors. This is 3.0 + 2.0 = 5.0 kΩ. This acts like 1 resistor with a resistance of 5.0 kΩ.*
+2. *This is now in parallel with the 4.0 kΩ resistor which is calculated in parallel. i.e. *$\frac{1}{R_{T}}=\frac{1}{5.0}+\frac{1}{4.0}=0.45$*. *$R_{T}=\frac{1}{0.45}=2.2\mathrm{kΩ}$
+The current when
+
+(i) switch S<sub>1</sub> is closed is:
+
+List the known quantities:
+
+- Total resistance, *R* = 5.0 kΩ = 5.0 × 10<sup>3</sup> Ω (from part b)
+
+Calculate the current:
+
+- $V=IR\RightarrowI=\frac{V}{R}$
+- $I = \frac{10 }{5.0 \times 10^{3}} = 2 \times 10^{- 3} \mathrm{A} ( 2 \text{mA} )$** [1 mark]**
+
+(ii) switch S<sub>1</sub> and S<sub>2</sub> are closed is:
+
+List the known quantities:
+
+- Total resistance, *R* = 2.2 kΩ = 2.2 × 10<sup>3</sup> Ω (from part b)
+
+Calculate the current:
+
+- $I = \frac{10}{2.2 \times 10^{3}} = 4.545 \times 10^{- 3} = 4.5 \times 10^{- 3} \mathrm{A} ( 4.5 \text{mA} )$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Due to Kirchhoff's second law, the total potential difference across the branch with S*<sub>*1*</sub>* and S*<sub>*2*</sub>* is the same. Therefore, **V** in the equation for both is 10 V.*
+The current from the cell if switch S<sub>2</sub> is closed is:
+
+List the known quantities:
+
+- The current when S<sub>1</sub> is closed, *I*<sub>1 </sub>= 2.0 × 10<sup>–3</sup> A (from part c)
+- The current when S<sub>1</sub> and S<sub>2</sub> is closed, *I* = 4.5 × 10<sup>–3</sup> A (from part c)
+
+Calculate the current when S<sub>2</sub> is closed, *I*<sub>2</sub>:
+
+- Kirchhoff's first law: $I=I_{1}+I_{2}$ **[1 mark]**
+- $I_{2} = I - I_{1} = ( 4.5 \times 10^{- 3} ) - ( 2.0 \times 10^{- 3} )$ **[1 mark]**
+- $I_{2} = 2.5 \times 10^{- 3} \mathrm{A} ( 2.5 \text{mA} )$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Although you can get this same answer by doing *$V=\frac{I}{R}=\frac{10}{4.0\times10^{3}}=2.5\times10^{-3}V$*, the question specifically states by using your answers to part (c) – this implies Kirchhoff's first law. You can, of course, check your answer with Ohm's law, but you cannot gain any marks for reaching an answer this way.*
+
+### Q7
+List the known quantities:
+
+- e.m.f-1 = 6.0 V
+- e.m.f-2 = 2.0 V
+- Resistance-1 = 10 Ω
+- Resistance-2 = 30 Ω
+
+Consider the circuit diagram and identify currents *I*<sub>*1*</sub>, *I*<sub>*2*</sub> and *I*<sub>*3*</sub>:
+
+A diagram that would score 3 marks should look like this:
+
+- To determine the direction of the current first identify the positive and negative terminals of each power supply
+
+![img-1156](assets/048-img-1156.jpeg)
+
+- Current *I*<sub>*1  *</sub>is identified as both going into P from the positive side of the 6.0 V power supply and in the same branch as the 10 Ω resistor; **[1 mark]**
+- Current *I*<sub>*2  *</sub>is identified as both going into P from the positive side of the 2.0 V power supply and going into the negative side of the 2.0 V power supply; **[1 mark]**
+- Current *I*<sub>3  </sub>is identified as going out of P in the 30 Ω resistor branch; **[1 mark]**
+
+Apply Kirchoff's first law for the current to obtain an expression for the current at P:
+
+- Current at P = *I*<sub>*3*</sub> = *I*<sub>*1*</sub> + *I*<sub>*2*</sub> (Equation 1) **OR**
+- If currents have been labelled the opposite way around to the diagram above: Current at P = *I*<sub>*1*</sub> = *I*<sub>*2*</sub> + *I*<sub>*3*</sub>  **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Remember that current comes from the positive side of the battery. It can be helpful to mark the currents for each power supply and each branch. The sign convention shown in the solution makes the most sense but it is also possible to note the currents in the opposite directions and obtain the second equation. As long as you are consistent it does not matter. *
+List the known quantities:
+
+- e.m.f-1 = 6.0 V
+- e.m.f-2 = 2.0 V
+- Resistance-1 = 10 Ω
+- Resistance-2 = 30 Ω
+- Current at P = *I*<sub>*3*</sub> = *I*<sub>*1*</sub> + *I*<sub>*2*</sub>  (Equation 1) (from part a)
+
+Apply Kirchoff's second law for the potential difference in the top loop of the circuit:
+
+- Recall Ohm's Law: *V *= *IR*
+- e.m.f-1 = *I*<sub>*1*</sub>*R*<sub>*1*</sub> + *I*<sub>*3*</sub>*R*<sub>*3*</sub>
+- 6.0 = *(I*<sub>*1*</sub> × 10) + (*I*<sub>*3 *</sub>× 30)
+- 6.0 = 10*I*<sub>*1*</sub> + 30*I*<sub>*3*</sub>  (Equation 2) **[1 mark]**
+
+Apply Kirchoff's second law for the potential difference in the bottom loop of the circuit:
+
+- e.m.f-2 = *I*<sub>*2*</sub>*R*<sub>*2*</sub> + *I*<sub>*3*</sub>*R*<sub>*3*</sub>
+- 2.0 = (*I*<sub>*2*</sub><sub> </sub>× 0) + *(I*<sub>*3*</sub> × 30)
+- 2.0 = 30*I*<sub>*3*</sub>
+- *I*<sub>*3*</sub> = 0.07 A **[1 mark]**
+
+Substitute for *I*<sub>*3*</sub> into Equation 2:
+
+- 6.0 = 10*I*<sub>*1*</sub> + (30 × 0.07)
+- 6.0 = 10*I*<sub>*1*</sub> + 2.1
+- 4 = 10*I*<sub>*1 *</sub>
+- *I*<sub>*1 *</sub>= 0.39 A **[1 mark]**
+
+Substitute for *I*<sub>*1*</sub> and *I*<sub>*3*</sub> into equation 1:
+
+- 0.07 = 0.39 + *I*<sub>*2*</sub>
+- *I*<sub>*2*</sub> = −0.32 A** [1 mark]**
+
+**[Total: 4 marks]**
+
+> *Remember that you need to have as many equations as unknown currents. Then solve these equations simultaneously. All the energy given out by the battery is used up by the components of the circuit. *
+Recall the pattern of resistance when identical resistors are placed in parallel:
+
+- Single resistor, *R*<sub>*tot*</sub> = *R*
+- Two resistors,  *R*<sub>*tot*</sub> = ½ *R*
+- Three resistors, *R*<sub>*tot*</sub> =  ⅓ *R*
+- Four resistors, *R*<sub>*tot*</sub> =  ¼ *R*
+
+Under the diagram, write the values of the combinations as fractions:
+
+![sl-sq-5-2-hard-q1a-ma-series-resistors](assets/050-sl-sq-5-2-hard-q1a-ma-series-resistors.png)
+
+Write the full equation for resistance in series:
+
+- $totalresistance=250=R+\frac{1}{2}R+\frac{1}{3}R+\frac{1}{4}R$ **[1 mark]**
+
+Write all fractions in terms of a common denominator:
+
+- $250=\frac{12}{12}R+\frac{6}{12}R+\frac{4}{12}R+\frac{3}{12}R$
+
+Gather the terms:
+
+- $250=\frac{25}{12}R$
+
+Rearrange and cancel:
+
+- $\frac{250\times12}{25}=R$
+- $R=10\times12=120$ Ω **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *If you went straight to the correct answer by identifying the combinations in terms of fractions of **R**, and then calculating for a **set of resistors in series**, as shown above, well done!*
+
+> *But you may have laboriously worked out the value of resistance of each combination in parallel, using *$\frac{1}{R_{total}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}+...$*, this must have taken a long time, and created the opportunity for mistakes to be made. *
+
+> *It is important to recognise that the sum of three resistors in parallel is given by *$3R$* because:*
+
+$\frac{1}{R_{T}}=\frac{1}{R}+\frac{1}{R}+\frac{1}{R}$
+
+$\frac{1}{R_{T}}=\frac{1}{3R}$
+
+$R_{T}=3R$
+
+> *The fact that this answer is only awarded two marks is a clue that there is a quicker way.*
+
+> *Always pause and think before starting. A moment's thought should be enough to see the pattern of the combinations, and recall the fact that since the resistors are **identical**, a pattern of resistance follows, as described in the solution above.*
+
+> *Always be ready to apply every part of your knowledge in any situation. This-open minded approach will make you a much better scientist.*
+List the known quantities:
+
+- Voltage supplied by power source in Circuit 1, $V_{S1}$= 8.0 V
+- Voltage on voltmeter in Circuit 1, $V_{1}$= 5.0 V
+- Current flowing through power supply in Circuit 1, $I_{1}$= 0.50 A
+- Voltage supplied by power source in Circuit 2, $V_{S2}$= 10 V
+- Voltage on voltmeter in Circuit 2, $V_{2}$= 4.0 V
+
+Consider Circuit 1:
+
+- If the voltmeter has an infinitely high resistance, then current will flow through both $R_{1}$and $R_{2}$:
+
+![5-1-s-q--q2a-ma-fig-1-hard-aqa-a-level-physics](assets/052-5-1-s-q-q2a-ma-fig-1-hard-aqa-a-level-physics.png)
+
+Calculate the resistance of $R_{2}$:
+
+- Recall: *V *= *IR*
+- $R_{2}$= $\frac{V_{1}}{I_{1}}$ = $\frac{5.0}{0.5}$ = 10 Ω **[1 mark]**
+
+Calculate the resistance of $R_{1}$:
+
+- Voltage across $R_{1}$, $V_{R1}$=$V_{S1}$ – $V_{1}$= 8.0 – 5.0 = 3.0 V
+- $R_{1}$= $\frac{V_{R1}}{I_{1}}$ = $\frac{3.0}{0.5}$ = 6 Ω **[1 mark]**
+
+Consider Circuit 2:
+
+- If the voltmeter has an infinitely high resistance, then current will flow through both $R_{2}$ and $R_{3}$:
+
+![5-1-s-q--q2a-ma-fig-2-hard-aqa-a-level-physics](assets/053-5-1-s-q-q2a-ma-fig-2-hard-aqa-a-level-physics.png)
+
+Calculate the current, *I*, flowing through $R_{2}$:
+
+- *I* = $\frac{V_{2}}{R_{2}}$= $\frac{4}{10}$ = 0.4 A **[1 mark]**
+
+Calculate the resistance of $R_{3}$:
+
+**EITHER**
+
+- Voltage across $R_{3}$, $V_{R3}$= $V_{S2}$ – $V_{2}$ = 10 – 4.0 = 6.0 V
+- $R_{3}$= $\frac{V_{R3}}{I}$ = $\frac{6.0}{0.4}$ = 15 Ω **[1 mark]**
+
+**   ****OR**
+
+- Total resistance of  $R_{2}+R_{3}$, $R_{2+3}$= $\frac{V_{S2}}{I}$ = $\frac{10}{0.4}$ = 25 Ω
+- Resistance, $R_{3}$= $R_{2+3}$ – $R_{2}$ = 25 – 10 = 15 Ω **[1 mark]**
+
+Conclusion:
+
+- $R_{1}$= 6 Ω
+- $R_{2}$= 10 Ω
+- $R_{3}$= 15 Ω
+
+**[Total: 4 marks]**

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:07Z",
+ "generated_utc": "2026-10-26T14:30:55Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -58,14 +58,28 @@
    "question_count": 13,
    "questions_embedded": 13,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/depreciation-and-disposal-of-non-current-assets/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_RNFZ8R5r6ffgrXZd",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 2,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/depreciation-and-disposal-of-non-current-assets/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 13,
+  "questions_embedded": 15,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -737,6 +751,248 @@
        "text_md": "increase \\$4 500"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5d8G433v7wvYYpQy",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_684m774SnSwPR8tw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hvQ8cMB843R9WhXc",
+      "spcpt_65bQm37r74kp6MTx"
+     ],
+     "part_tier": null,
+     "problem_md": "Stalla charges depreciation at 25% per annum, using the reducing balance method. She charges a full year’s depreciation in the year a vehicle is purchased and none in the year it is sold.\n\nOn 31 December 2022, Stalla sold a vehicle for \\$9 500. The vehicle had cost \\$16 000 on 1 September 2020.\n\n**REQUIRED **\n\nCalculate the gain or loss on disposal of the vehicle",
+     "solution_md": "**Final answer:** **Profit \\$500**\n\nFind the depreciation for the year 2020\n\n$16000 \\times 25 \\% = 4000$\n\nFind the net book value at the start of 2021\n\n$16000-4000=12000$\n\nFind the depreciation for the year 2020\n\n$12000 \\times 25 \\% = 3000$\n\nFind the total depreciation\n\n$4000+3000=7000$\n\nFind the profit or loss by subtracting the net book value from the sale proceeds\n\n|   | \\$ | \\$ |\n|---|---|---|\n| Sale proceeds |   | 9 500 |\n| Less net book value |   |   |\n| Cost **[1]** | 16 000 |   |\n| Less provision for depreciation **[1]** | <u>7 000</u> | <u>9 000</u> |\n| Profit on disposal **[2]** |   | <u>500</u> |\n\n> **[mark-scheme]**\n> 4 marks in total.\n> \n> - 1 mark for using the original cost\n> - 1 mark for subtracting the total depreciation to date\n> - 1 mark for identifying that it is a profit\n> - 1 mark for subtracting your **own figure** for the net book value from the sale proceeds\n\n> **[exam-tip]**\n> You do not need to set this out in a table format. However, it does clearly show your method.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "16000 cross times 25 percent sign equals 4000",
+       "render": "$16000 \\times 25 \\% = 4000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "16000-4000=12000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16000</mn><mo>-</mo><mn>4000</mn><mo>=</mo><mn>12000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "16000 minus 4000 equals 12000"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "12000 cross times 25 percent sign equals 3000",
+       "render": "$12000 \\times 25 \\% = 3000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "4000+3000=7000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4000</mn><mo>+</mo><mn>3000</mn><mo>=</mo><mn>7000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4000 plus 3000 equals 7000"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8mz6Mcjh3wTZbfjr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YnttsdW5bSC4h5JP",
+      "spcpt_G56WDcNqvzcxzX9Q"
+     ],
+     "part_tier": null,
+     "problem_md": "The balances on Stalla’s ledger accounts at 1 January 2022 included the following\n\n|   | \\$ |\n|---|---|\n| Motor vehicles | 48 000 |\n| Provision for depreciation on motor vehicles | 21 000 |\n\nPrepare Stalla’s motor vehicles account for the year ended 31 December 2022. Balance the account at 31 December 2022 and bring down the balance at 1 January 2023.\n\nStalla \nMotor vehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Stalla \nMotor vehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2022 |   |   | 2022 |   |   |\n| Jan 1 | Balance b/d | 48 000 | Dec 31 | Disposal **[1]** | 16 000 |\n|   |   |   |   | Balance c/d | 32 000 |\n|   |   | <u>48 000</u> |   |   | <u>48 000</u> |\n| 2023 |   |   |   |   |   |\n| Jan 1 | Balance b/d **[1]** | 32 000 |   |   |   |\n\n> **[mark-scheme]**\n> 2 marks in total.\n> \n> - 1 mark for a credit entry labelled disposal with the correct date and amount\n> - 1 mark for the correct balance on 1 Jan 2023\n\n> **[exam-tip]**\n> Remember that the original cost is transferred to the disposal account. A common mistake is **incorrectly **transferring \\$7 000 to the provision for depreciation and then transferring the remaining \\$9 000 to the disposal."
+    },
+    {
+     "id": "qstnprt_NXfWswxCp8nDsdFw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G56WDcNqvzcxzX9Q",
+      "spcpt_dQWRXcNvJjh8cVVP"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare Stalla’s provision for depreciation on motor vehicles account for the\n\nyear ended 31 December 2022. Balance the account at 31 December 2022 and bring down the balance at 1 January 2023.\n\nStalla \nProvision for depreciation on motor vehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Find the net book value of the remaining vehicles at the end of the year\n\n- Find the provision for depreciation for those vehicles\n\n$21000-7000=14000$\n\n- Subtract this from the cost of these vehicles\n\n$32000-14000=18000$\n\nFind the depreciation for the year ended 2022 for the remaining vehicles\n\n$18000 \\times 25 \\% = 4500$\n\nStalla \nProvision for depreciation on motor vehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2022 |   |   | 2022 |   |   |\n| Dec 31 | Disposal **[1]** | 7 000 | Jan 1 | Balance b/d **[1]** | 21 000 |\n|   | Balance c/d | 18 500 | Dec 31 | Income statement **[2]** | 4 500 |\n|   |   | <u>25 500</u> |   |   | <u>25 500</u> |\n|   |   |   | 2023 |   |   |\n|   |   |   | Jan 1 | Balance b/d **[1]** | 18 500 |\n\n> **[mark-scheme]**\n> 5 marks in total.\n> \n> - 1 mark for entering the correct balance for 1 Jan 2022 on the correct side\n> - 1 mark of entering your **own figure** for the total depreciation of the sold vehicle on the debit side with the correct date\n> - 2 marks for the correct figure for the amount to transfer to the income statement on the credit side\n> \n>   - Or you get 1 mark if the amount is found using your **own figure** for the depreciation of the sold vehicle\n> - 1 mark for balancing the account using your **own figures**\n\n> **[exam-tip]**\n> A common mistake is forgetting to subtract the total depreciation for the sold vehicle from the provision for **all **vehicles before calculating the depreciation charge for the year.\n> \n> Remember, the balance is on the credit side, as it represents a reduction in a non-current asset.",
+     "equations": [
+      {
+       "latex": "21000-7000=14000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>21000</mn><mo>-</mo><mn>7000</mn><mo>=</mo><mn>14000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "21000 minus 7000 equals 14000"
+      },
+      {
+       "latex": "32000-14000=18000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>32000</mn><mo>-</mo><mn>14000</mn><mo>=</mo><mn>18000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "32000 minus 14000 equals 18000"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "18000 cross times 25 percent sign equals 4500",
+       "render": "$18000 \\times 25 \\% = 4500$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5SfSZ9PMV5krKrzC",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_JqmwsY9p7v9kfQ9Z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CGVQCfr4VHtRQkJR"
+     ],
+     "part_tier": null,
+     "problem_md": "Roger is trader. He provides window cleaning services to customers.\n\nAn extract from Roger's statement of financial position at 30 June 2024 showed the following:\n\n|   | Cost | Accumulated depreciation | Net book value |\n|---|---|---|---|\n|   | \\$ | \\$ | \\$ |\n| Vehicles | 85 000 | 52 500 | 32 500 |\n\nThe following transactions took place during the year ended 30 June 2025.\n\nOn 1 July 2024 Roger purchases a vehicle on credit from EZ Motors for \\$20 000.\n\nOn 31 December 2024 Roger sold a vehicle by bank transfer for \\$5 500. The vehicle had originally been purchases on 1 July 2022 for \\$12 000.\n\nRoger depreciates vehicles by 20% per annum using the straight-line method. Depreciation is calculated monthly.\n\n**REQUIRED**\n\nPrepare the vehicles account for the year ended 30 June 2025. Balance the account and bring down the balance on 1 July 2025.\n\nRoger\nVehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2024 |   |   |   |   |   |\n| Jun 30 | Balance b/d | 85 000 |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2024 |   |   | 2024 |   |   |\n| Jun 30 | Balance b/d | 85 000 | Dec 31 | Disposal **[1]** | 12 000 |\n| Jul 1 | EZ Motors **[1]** | 20 000 | 2025 |   |   |\n|   |   |   | Jun 30 | Balance c/d | 93 000 |\n|   |   | <u>105 000</u> |   |   | <u>105 000</u> |\n| 2025 |   |   |   |   |   |\n| Jul 1 | Balance b/d **[1]** | 93 000 |   |   |   |\n\n> **[mark-scheme]**\n> 1 mark for the correct details and amount for each of the following:\n> \n> - disposal with the **cost **amount\n> - EZ Motors with the **cost **amount\n> - balance b/d"
+    },
+    {
+     "id": "qstnprt_2rD52mcMBsTTCvP6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G56WDcNqvzcxzX9Q",
+      "spcpt_dQWRXcNvJjh8cVVP"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the provision for depreciation of vehicles account for the year ended 30 June 2025. Balance the account and bring down the balance on 1 July 2025.\n\nRoger\nProvision for depreciation of vehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2024 |   |   | 2024 |   |   |\n|   |   |   | Jul 1 | Balance b/d | 52 500 |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Find the total depreciation for the vehicle that was sold on 31 December 2024\n\n- Find the yearly depreciation charge\n\n$20 \\% \\times 12000 = 2400$\n\n- Find the number of years that Roger owned the vehicle\n\n*1 July 2022 to 31 December 2024 = 2.5 years*\n\n- Multiply the yearly depreciation charge by the number of years\n\n$2.5\\times2400=6000$\n\nFind the depreciation charge for the year ended 30 June 2025\n\n- The charge for the vehicle sold halfway through the year is\n\n$1 \\frac{1}{2} \\times 20 \\% \\times 12000 = 1200$\n\n- The charge for the other vehicles Roger owned at the start of the year is\n\n$20 \\% \\times ( 85000 - 12000 ) = 14600$\n\n- The charge for the new vehicle purchases at the start of the year is\n\n$20 \\% \\times 20000 = 4000$\n\n- Add the charges together\n\n$1200+14600+4000=19800$\n\nRoger\nProvision for depreciation of vehicles account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2024 |   |   | 2024 |   |   |\n| Dec 31 | Disposal **[1]** | 6 000 | Jul 1 | Balance b/d | 52 500 |\n| 2025 |   |   | 2025 |   |   |\n| Jun 30 | Balance c/d | 66 300 | Jun 30 | Income statement **[3]** | 19 800 |\n|   |   | <u>72 300</u> |   |   | <u>72 300</u> |\n|   |   |   | Jul 1 | Balance b/d **[1]** | 66 300 |\n\n> **[mark-scheme]**\n> 5 marks in total:\n> \n> - 1 mark for the disposal entry with the correct amount.\n> - 1 mark for adding each of the following to form the income statement amount:\n> \n>   - 1200\n>   - 14600\n>   - 4000\n> - 1 mark for the balance b/d entry. This amount is for using your **own figures **and balancing the account.\n\n> **[exam-tip]**\n> Instead of working out the depreciation charge per month, here it was easier to spot that July to December is half a year.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "20 percent sign cross times 12000 equals 2400",
+       "render": "$20 \\% \\times 12000 = 2400$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "2.5\\times2400=6000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><mn>2400</mn><mo>=</mo><mn>6000</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.5 cross times 2400 equals 6000"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "1 half cross times 20 percent sign cross times 12000 equals 1200",
+       "render": "$1 \\frac{1}{2} \\times 20 \\% \\times 12000 = 1200$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "20 percent sign cross times open parentheses 85000 minus 12000 close parentheses equals 14600",
+       "render": "$20 \\% \\times ( 85000 - 12000 ) = 14600$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "20 percent sign cross times 20000 equals 4000",
+       "render": "$20 \\% \\times 20000 = 4000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "1200+14600+4000=19800",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1200</mn><mo>+</mo><mn>14600</mn><mo>+</mo><mn>4000</mn><mo>=</mo><mn>19800</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1200 plus 14600 plus 4000 equals 19800"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_jbW2rP2shzGNPsrz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G56WDcNqvzcxzX9Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the disposal account for the year ended 30 June 2025.\n\nRoger\nDisposal account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Roger\nDisposal account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2024 |   |   | 2024 |   |   |\n| Dec 31 | Vehicles | 12 000 | Dec 31 | Provision for depreciation **[1]** | 6 000 |\n|   |   |   |   | Bank **[1]** | 5 500 |\n|   |   |   | 2025 |   |   |\n|   |   |   | Jun 30 | Income statement **[1]** | 500 |\n|   |   | <u>12 000</u> |   |   | <u>12 000</u> |\n\n> **[mark-scheme]**\n> 1 mark for each of the following:\n> \n> - provision for depreciation using your **own figure**\n> - bank **and **vehicles using the amounts in the question\n> - income statement with an amount that balances with your **own figures**"
+    },
+    {
+     "id": "qstnprt_xtDCGjXmxYYmZCmr",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G56WDcNqvzcxzX9Q"
+     ],
+     "part_tier": null,
+     "problem_md": "State whether Roger made a profit or loss on the sale of the vehicle.",
+     "solution_md": "**Loss** **[1 mark]**\n\n> **[mark-scheme]**\n> The sale price (\\$5 500) is less than the net book value (\\$6 000) which means it is a loss. Also, this was a credit entry in the disposal account, which means it is a debit entry in the income statement. And debit entries in the income statement reduce the profit."
     }
    ]
   }

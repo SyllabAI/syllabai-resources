@@ -1,6 +1,6 @@
 # Exam Questions — Intermolecular Forces, Electronegativity & Bond Properties
 **3. Chemical Bonding** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 9 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 14 questions across 2 sets
 
 
 ## Multiple Choice Questions (9 questions)
@@ -85,3 +85,180 @@ Which solid contains more than one type of bonding?
 Hydrogen bonding occurs between molecules of liquid methanal, HCHO, and molecules of liquid **Y**.
 
 Which compound is liquid **Y**?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — medium — 12 marks
+
+**Q1** [2 marks]
+
+The structural formulae of water, methanol and methoxymethane, CH<sub>3</sub>OCH<sub>3</sub>, are given below.
+
+![Three structural formulas: water (O bonded to two H), methanol (O bonded to CH₃ and H), and dimethyl ether (O bonded to two CH₃ groups), left to right](assets/003-three-structural-formulas-water-o-bonded-to-two-.png)
+
+i) State the number of lone pairs of electrons around the oxygen atom in a molecule of methoxymethane.
+
+[1]
+
+ii) Suggest a value for the C-O-C bond angle in methoxymethane.
+
+[1]
+
+**Q1** [4 marks]
+
+The physical properties of covalent compounds depend on the intermolecular forces between their molecules.
+
+|   | Type of intermolecular force |
+|---|---|
+| **A** | Permanent dipole-permanent dipole (pd-pd) forces |
+| **B** | Instantaneous dipole-induced dipole (id-id) forces |
+| **C** | Hydrogen bonding |
+
+Using the letters A, B, or C, state the strongest intermolecular force present in each of the following compounds.
+
+| Compound | Formula | Strongest intermolecular force |
+|---|---|---|
+| ethanal | CH<sub>3</sub>CHO |   |
+| ethanol | CH<sub>3</sub>CH<sub>2</sub>OH |   |
+| methoxymethane | CH<sub>3</sub>OCH<sub>3</sub> |   |
+| 2-methylpropane | (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>3</sub> |   |
+
+**Q1** [4 marks]
+
+Methanol and water are completely soluble in each other.
+
+i) Name the strongest type of intermolecular force between a molecule of methanol and a molecule of water.
+
+[1]
+
+ii) Draw a diagram to show this intermolecular force between one molecule of methanol and one molecule of water. Include all relevant dipoles and lone pairs of electrons.
+
+[3]
+
+**Q1** [2 marks]
+
+Ethoxyethane, C<sub>2</sub>H<sub>5</sub>OC<sub>2</sub>H<sub>5</sub>, and water are immiscible.
+
+Explain why ethoxyethane does not dissolve in water.
+
+### Q2 — medium — 7 marks
+
+**Q2** [2 marks]
+
+Explain why butan-1-ol has a higher boiling point than butanal.
+
+**Q2** [2 marks]
+
+Ethane, C<sub>2</sub>H<sub>6</sub>, and disilane, Si<sub>2</sub>H<sub>6</sub>, are hydrides of Group 14 elements.
+
+Explain why disilane has a higher boiling point than ethane.
+
+**Q2** [3 marks]
+
+Ethanol is soluble in water, whereas ethane is insoluble.
+
+Explain this difference.
+
+### Q3 — medium — 11 marks
+
+**Q3** [4 marks]
+
+Ammonia, NH<sub>3</sub>, and methane, CH<sub>4</sub>, are simple molecules.
+
+Complete Table 1.1 to show the dot-and-cross diagram and the shape of a molecule of each compound. Show outer shell electrons only.
+
+|   | NH<sub>3</sub> | CH<sub>4</sub> |
+|---|---|---|
+| dot-and-cross diagram |   |   |
+| shape of molecule |   |   |
+
+**Q3** [3 marks]
+
+Ammonia is a polar molecule whereas methane is non-polar.
+
+i) Explain what is meant by the term *bond polarity*, using the N-H bond as an example.
+
+[2]
+
+ii) Explain why the ammonia molecule is polar.
+
+[1]
+
+**Q3** [1 mark]
+
+State the strongest type of intermolecular force present in liquid ammonia.
+
+**Q3** [3 marks]
+
+Ammonia gas reacts with hydrogen chloride gas to form solid ammonium chloride, NH<sub>4</sub>Cl.
+
+State the three types of bonding present in solid ammonium chloride.
+
+### Q4 — hard — 11 marks
+
+**Q4** [2 marks]
+
+Water has a relatively high surface tension compared to most liquids.
+
+Explain this anomalous property of water.
+
+**Q4** [4 marks]
+
+Ammonia, NH<sub>3</sub>, is highly soluble in water.
+
+Draw diagrams to show the **two** different ways a hydrogen bond can form between one molecule of water and one molecule of ammonia. Your diagrams should include all relevant dipoles and lone pairs of electrons.
+
+**Q4** [5 marks]
+
+Ammonia, NH<sub>3</sub>, hydrogen chloride, HCl, and fluorine, F<sub>2</sub>, all exist as gases at room temperature and pressure. The boiling point of NH<sub>3</sub> is −33 °C.
+
+Predict which gas, HCl or F<sub>2</sub>, has the lowest boiling point. Explain the relative boiling points of all three gases in terms of the intermolecular forces present.
+
+### Q5 — easy — 13 marks
+
+**Q5** [2 marks]
+
+State the three main types of intermolecular force and place them in ascending order of strength.
+
+**Q5** [2 marks]
+
+Draw a diagram to show hydrogen bonding between two molecules of methanol, CH<sub>3</sub>OH.
+
+Your diagram should include all relevant lone pairs of electrons and dipoles.
+
+**Q5** [4 marks]
+
+Methanol, CH<sub>3</sub>OH, can be oxidised to methanal, CH<sub>2</sub>O, and then to methanoic acid, HCOOH.
+
+State the strongest type of intermolecular force present between:
+
+i) Methanal molecules
+
+[1]
+
+ii) Methanoic acid molecules
+
+[1]
+
+iii) A molecule of water and a molecule of methanal
+
+[1]
+
+iv) A molecule of water and a molecule of methanoic acid
+
+[1]
+
+**Q5** [3 marks]
+
+Methanoic acid reacts with sodium hydroxide to form sodium methanoate:
+
+HCOOH + NaOH → HCOONa + H<sub>2</sub>O
+
+Explain why sodium methanoate is a solid at room temperature and methanoic acid is a liquid.
+
+**Q5** [2 marks]
+
+Complete the dot-and-cross diagram of methanol, CH<sub>3</sub>OH. Show outer shell electrons only.
+
+![Incomplete electron shell diagram of methanol, showing a central carbon bonded to three hydrogens and to an oxygen, which is bonded to a fourth hydrogen](assets/014-incomplete-electron-shell-diagram-of-methanol-sh.png)

@@ -1,0 +1,456 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:02Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "11-programming-",
+  "name": "11. Programming"
+ },
+ "topic": {
+  "id": "top_y2SN6RGk9cnNtVtb",
+  "slug": "programming-basics",
+  "name": "Programming Basics",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "pseudocode-basics",
+   "name": "Pseudocode basics",
+   "revision_note_id": "rn_wkH9KTSjMky8k97k"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_XcNXyzvwpqCqCJsg",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/11-programming-/programming-basics/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_NNRtCTzTbX2VBPb2",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_gDkgQgw7q6XpSxzD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/23",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "Other variables in the program have example values as shown:\n\n| **Variable** | **Value** |\n|---|---|\n| `Active` | `TRUE` |\n| `Fraction` | `0.2` |\n| `Code` | `\"Ab12345\"` |\n\nComplete the table by evaluating each expression using the example values.\n\n| **Expression** | **Evaluates to** |\n|---|---|\n| `Fraction >= 0.2 AND NOT Active` |   |\n| `INT((Fraction * 100) + 13.3)` |   |\n| `STR_TO_NUM(MID(Code, 4, 2)) + 5` |   |\n| `LENGTH(\"TRUE\" & Code)` |   |",
+     "solution_md": "> **[mark-scheme]**\n> | **Expression** | **Evaluates to** |\n> |---|---|\n> | `Fraction >= 0.2 AND NOT Active` | **FALSE** |\n> | `INT((Fraction * 100) + 13.3)` | **33** |\n> | `STR_TO_NUM(MID(Code, 4, 2)) + 5` | **28** |\n> | `LENGTH(\"TRUE\" & Code)` | **11** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6kgCtQrjpJkFGtkd",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_W9PtVhhGVjvJnvtJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "Other variables in the program have example values as shown:\n\n| **Variable** | **Example value** |\n|---|---|\n| `Total` | `124.00` |\n| `DepRate` | `2.00` |\n| `Description` | `\"AB12345:Cleaning Brush (small)\"` |\n\nComplete the table by evaluating each expression using the example values.\n\n| **Expression** | **Evaluates to** |\n|---|---|\n| `(Total * DepRate) + 1.5` |   |\n| `RIGHT(Description, 7)` |   |\n| `(LENGTH(Description) - 8) > 16` |   |\n| `NUM_TO_STR(INT(DepRate * 10)) & '%'` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per row\n> \n> | **Expression** | **Evaluates to** |\n> |---|---|\n> | `(Total * DepRate) + 1.5` | **249.50** |\n> | `RIGHT(Description, 7)` | **\"(small)\"** |\n> | `(LENGTH(Description) - 8) > 16` | **TRUE** |\n> | `NUM_TO_STR(INT(DepRate * 10)) & '%'` | **\"20%\"** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RmKSj3BpPDPVYnrr",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_BTXv92xSdgz9xn53",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/23",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "Refer to the [insert](https://cdn.savemyexams.com/uploads/2025/11/28487-9618_s24_in_23.pdf) for the list of pseudocode functions and operators.\n\nFour of the expressions used in the program are represented by pseudocode in the table.\n\nComplete each pseudocode expression with a function or operator so that it evaluates to the value shown.\n\nAny functions and operators used must be defined in the **insert.**\n\n| **Pseudocode expression** | **Evaluates to** |\n|---|---|\n| `........................................ (\"Random\", 2, 3)` | `\"and\"` |\n| `5 + ........................................ (10/11/2023)` | `15` |\n| `........................................ (\"45000\")` | `TRUE` |\n| `(20 ........................................ 3) + 1` | `3` |",
+     "solution_md": "> **[mark-scheme]**\n> | **Pseudocode expression** | **Evaluates to** |\n> |---|---|\n> | **MID**` (\"Random\", 2, 3)` | `\"and\"` |\n> | `5 + `**DAY**` (10/11/2023)` | `15` |\n> | **IS_NUM**` (\"45000\")` | `TRUE` |\n> | `(20 `**MOD**` 3) + 1` | `3` |\n> \n> One mark per row"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BcfGkQtqw4SpGv9H",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_GsTvPhFhXTZr6pvX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wPhvFYpKRJJwwdPN",
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "Program variables have data types as follows:\n\n| **Variable** | **Data type** |\n|---|---|\n| MyChar | CHAR |\n| MyString | STRING |\n| MyInt | INTEGER |\n\nComplete the table by filling in each gap with a function (from the insert) so that each expression is valid.\n\n| **Expression** |\n|---|\n| `MyInt `$\\leftarrow$`.......................................... (3.1415926)` |\n| `MyChar `$\\leftarrow$`.......................................... (\"Elwood\", 3, 1)` |\n| `MyString `$\\leftarrow$`....................................... ( ....................................... (27.509))` |\n| `MyInt `$\\leftarrow$`....................................... ( ........................................ (\"ABC123\", 3))` |",
+     "solution_md": "> **[mark-scheme]**\n> | **Expression** |\n> |---|\n> | `MyInt` $\\leftarrow$ **INT** `(3.1415926)` |\n> | `MyChar` $\\leftarrow$ **MID** `(\"Elwood\", 3, 1)` |\n> | `Any of: `<br><br>- `MyString` $\\leftarrow$ **NUM_TO_STR **`(`**INT** `(27.509))  `<br>- `MyString` $\\leftarrow$ **CHR** `(`**INT** `(27.509))`<br>- `MyString` $\\leftarrow$ **TO_UPPER**`(` **NUM_TO_STR**`( 27.509)) `<br>- `MyString` $\\leftarrow$ **TO_LOWER**`(` **NUM_TO_STR**`( 27.509))` |\n> | `Any of: `<br><br>- `MyInt` $\\leftarrow$ **STR_TO_NUM** `(` **RIGHT** `(\"ABC123\", 3)) `<br>- `MyInt` $\\leftarrow$ **LENGTH** `(` **RIGHT** `(\"ABC123\", 3)) `<br>- `MyInt` $\\leftarrow$ **LENGTH** `(` **LEFT** `(\"ABC123\", 3))` |\n> \n> One mark per row",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pcVdPkXBFtscTqQN",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_scTXmzNyKSw2mD6j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_wPhvFYpKRJJwwdPN",
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm has three steps. It will:\n\n1. repeatedly input a pair of numeric values `A` and `B`\n2. count the number of pairs that are input until `A` has been greater than `B` 10 times\n3. output the number of pairs that were input.\n\nStep 1 of the algorithm is changed.\n\nA variable `ThisSequence` is used to enter a sequence of 10 pairs of numeric values, using a single input statement.\n\nFollowing the input of `ThisSequence` the revised algorithm will extract the pairs of numbers.\n\nDescribe the variable `ThisSequence` and how the numbers are extracted.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per point:\n> \n> 1. A (variable of type) string will be input // by example e.g. “67,72”\n> 2. A special / identified character would need to be used to separate each numeric value // all numbers are fixed length"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sFwpwR5cmGj6JcqG",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_8hPF9Z6CJycSyyvN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_wPhvFYpKRJJwwdPN"
+     ],
+     "part_tier": null,
+     "problem_md": "Refer to the [insert ](https://cdn.savemyexams.com/uploads/2025/11/40523-9618_s24_in_21.pdf)for the list of pseudocode functions and operators.\n\nAn algorithm is developed in pseudocode before being coded in a programming language.\n\nThe following table shows four valid pseudocode assignment statements. Complete the table by giving an appropriate data type to declare each of the variables `A, B, C` and `D.`\n\n| **Assignment statement** | **Data type** |\n|---|---|\n| `A `$\\leftarrow$`LEFT(MyName, 1)` |   |\n| `B `$\\leftarrow$` Total * 2` |   |\n| `C `$\\leftarrow$`INT(ItemCost) / 3` |   |\n| `D `$\\leftarrow$`\"Odd OR Even\"` |   |",
+     "solution_md": "> **[mark-scheme]**\n> | **Assignment statement** | **Data type** |\n> |---|---|\n> | `A `$\\leftarrow$`LEFT(MyName, 1)` | CHAR / STRING |\n> | `B `$\\leftarrow$` Total * 2` | INTEGER / REAL |\n> | `C `$\\leftarrow$`INT(ItemCost) / 3` | REAL |\n> | `D `$\\leftarrow$`\"Odd OR Even\"` | STRING |\n> \n> One mark per row",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4qkZwwSK7K8KHRqg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "Other variables in the program have example values as shown:\n\n| **Variable** | **Value** |\n|---|---|\n| `Sorted` | `False` |\n| `Tries` | `9` |\n| `ID` | `\"ZGAC001\"` |\n\nComplete the table by evaluating each expression, using the example values.\n\n| **Expression** | **Evaluates to** |\n|---|---|\n| `Tries < 10 AND NOT Sorted` |   |\n| `Tries MOD 4` |   |\n| `TO_LOWER(MID(ID, 3, 1))` |   |\n| `LENGTH(ID & \"xx\") >= Tries` |   |",
+     "solution_md": "> **[mark-scheme]**\n> | **Expression** | **Evaluates to** |\n> |---|---|\n> | `Tries < 10 AND NOT Sorted` | TRUE |\n> | `Tries MOD 4` | 1 |\n> | `TO_LOWER(MID(ID, 3, 1))` | 'a' // \"a\" |\n> | `LENGTH(ID & \"xx\") >= Tries` | TRUE |\n> \n> One mark per row"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GZdWNFVxN4GWmVNh",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_X3rgp33fT6WzMyFM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "Evaluate each expression in the table by using the data values shown in part **(b)**.\n\nWrite ‘ERROR’ if the expression contains an error.\n\n| **Expression** | **Evaluates to** |\n|---|---|\n| `Available AND NOT(Index > 100)` |   |\n| `Index MOD 30` |   |\n| `NUM_TO_STR(Index + \"33\")` |   |",
+     "solution_md": "> **[mark-scheme]**\n> | **Expression** | **Evaluates to** |\n> |---|---|\n> | `Available AND NOT(Index > 100)` | TRUE |\n> | `Index MOD 30` | 10 |\n> | `NUM_TO_STR(Index + \"33\")` | ERROR |\n> \n> One mark per row"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3M3mdzqYGdXcFhjv",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9CYRRTwJkSbvmjMv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/21",
+      "question_number": 1,
+      "question_part": "bi,bii"
+     },
+     "spec_point_ids": [
+      "spcpt_wPhvFYpKRJJwwdPN"
+     ],
+     "part_tier": null,
+     "problem_md": "Refer to the [insert](https://cdn.savemyexams.com/uploads/2025/11/33139-9618_w24_in_21.pdf) for the list of pseudocode functions and operators.\n\nA program will calculate the tax payable based on the cost of an item.\n\nCalculations will occur at many places in the program and these involve the use of one of three tax rates.\n\nTax rate values represent a percentage. For example, a tax rate value of 5.23 represents 5.23%. In this case, the tax payable on an item costing \\$100 would be \\$5.23.\n\nTax rate values are used at several places within the program. One example is given in pseudocode as follows:\n\n`HighRate `$\\leftarrow$` FALSE `\n`CASE OF ItemCost `\n`   <= 50  : TaxRate `$\\leftarrow$` 3.75   // tax rate of 3.75% `\n`   <= 200 : TaxRate `$\\leftarrow$` 5.23   // tax rate of 5.23% `\n`   > 200  : TaxRate `$\\leftarrow$` 6.25   // tax rate of 6.25% `\n`            HighRate `$\\leftarrow$` TRUE `\n`ENDCASE `\n`TaxPayable `$\\leftarrow$` ItemCost * TaxRate // tax payable`\n\nDuring the design of the program, tax rate values have been used wherever they are needed as shown in the pseudocode example above. Tax rates do not change while the program runs.\n\n(i) Identify a more appropriate way of representing the tax rate values in the final program.\n\n[1]\n\n(ii) Describe the benefits of your answer to part **(i)** with reference to this program.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> Use constants (to represent the tax rate values)\n> \n> (ii)\n> \n> One mark per bullet point (or equivalent to max 3):\n> \n> 1. **Tax rates** are entered once only\n> 2. Avoids / Minimise (input) error(s) / changing the Tax rates accidentally // avoids different values for tax rates at different points in the program\n> 3. When required, the constant value (representing a tax rate) is changed (once) // Easier to maintain / update the program (when the tax rates change)\n> 4. Makes the program / code easier to understand",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

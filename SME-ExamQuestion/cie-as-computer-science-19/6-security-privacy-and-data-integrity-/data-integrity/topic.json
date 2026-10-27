@@ -1,0 +1,240 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:58Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "6-security-privacy-and-data-integrity-",
+  "name": "6. Security, Privacy & Data Integrity"
+ },
+ "topic": {
+  "id": "top_gT5vNSwj6HwKhkqP",
+  "slug": "data-integrity",
+  "name": "Data Integrity",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "integrity-methods",
+   "name": "Integrity methods",
+   "revision_note_id": "rn_3vrThwDqzgDmMBx2"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_6QG8GGGwTBWqSh24",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/6-security-privacy-and-data-integrity-/data-integrity/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 6,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/8313_june-2024-9618-13-7e.png": "001-a-humanoid-robot-with-shelves-stands-in-a-modern.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_58gyxmTyt9S8bGVG",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_dbWGZg3q4GNNKs4d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/21",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Qwcvb7R46yWB7bgy"
+     ],
+     "part_tier": null,
+     "problem_md": "A class of students are developing a program to send data between computers. Many computers are connected together to form a wired network. Serial ports are used to connect one computer to another.\n\nEach computer:\n\n- is assigned a unique three-digit ID\n- has three ports, each identified by an integer value\n- is connected to between one and three other computers.\n\nMessages are sent between computers as a string of characters organised into fields as shown:\n\n`<STX><DestinationID><SourceID><Data><ETX>`\n\n| **Field number** | Field name | Description |\n|---|---|---|\n| **n/a** | `STX` | a single character marking the start of the message (ASCII value 02) |\n| **1** | `DestinationID` | three numeric characters that identify the destination computer |\n| **2** | `SourceID` | three numeric characters that identify the source computer |\n| **3** | `Data` | a variable length string containing the data being sent (Minimum length is 1 character) |\n| **n/a** | `ETX` | a single character marking the end of the message (ASCII value 03) |\n\nFor example, the following message contains the data \"Hello Kevin\" being sent from computer \"101\" to computer \"232\":\n\n`<STX>\"232101Hello Kevin\"<ETX>`\n\nEach computer will run a copy of the same program. Each program will contain a global variable, `MyID` of type string, that contains the unique ID of the computer in which the program is running.\n\nThe programmer has defined the first two program modules as follows:\n\n| **Module** | Description |\n|---|---|\n| `Transmit()` <br>(already written) | - takes two parameters:<br><br>  - a string containing a message<br>  - an integer containing a port number<br>- transmits the message using the given port |\n| `SendFile()` | - takes three parameters:<br><br>  - a string containing a text file name<br>  - a string containing a Destination ID<br>  - an integer containing a Port number<br>- transmits the file one line at a time<br>- transmits a final message with data string \"****\" |\n\nOne of the text files to be sent contains several blank lines (lines that do not contain any text).\n\n(i) Explain why this is a problem.\n\n(2)\n\n(ii) Explain how the message format could be changed to allow a blank line to be sent.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **MP1** A message cannot contain a zero-length data field\n> \n> **MP2** … so a blank line cannot be sent // there is no way to send a blank line\n> \n> (ii) **MP1 **Append a (special) character to the start of the message text\n> \n> **MP2 **interpret the new field data as a blank line\n> \n> ALTERNATIVE\n> \n> **MP1 **Change the message protocol and use an additional field to act as an indicator\n> \n> **MP2 **Interpret the new field data"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3g5SJ2XSSBt7pfwX",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_2pjRkMSVNzNrsK2f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Qwcvb7R46yWB7bgy",
+      "spcpt_32jYtVRJtPznbZjb"
+     ],
+     "part_tier": null,
+     "problem_md": "Data verification is one method of protecting the integrity of data.\n\nDescribe **one **other method of protecting the integrity of data.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Validation // a validation method named or described\n> - …protects the data by ensuring that the data is reasonable / sensible and within specified bounds."
+    }
+   ]
+  },
+  {
+   "id": "qstn_S9hXn9kNFn2JptVs",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_d6gybJy87md6Bc36",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Qwcvb7R46yWB7bgy",
+      "spcpt_Q4M6BsPSYkPpsctR"
+     ],
+     "part_tier": null,
+     "problem_md": "An example of a tutor ID is NK16C6.\n\nAn administrative officer enters the tutor ID into the `TUTOR `table.\n\nExplain how data verification can be used when the tutor ID is entered.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for each bullet point.\n> \n> - The administrator completes a visual check / checks by eye\n> - …that the tutor identifier input matches the tutor identifier on the **original** document\n> - Double entry check // the administrator (or a second person) enters the number a second time\n> - …and the **system **compares it with the first entry"
+    }
+   ]
+  },
+  {
+   "id": "qstn_n86g73fcZYspbZSP",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_CvMVr5Bk3Pv7cfQ4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "f(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_Q4M6BsPSYkPpsctR"
+     ],
+     "part_tier": null,
+     "problem_md": "Robots are used to serve food and drink to customers at a restaurant.\n\n![A humanoid robot with shelves stands in a modern café, surrounded by tables and chairs, indicating a futuristic dining setting.](assets/001-a-humanoid-robot-with-shelves-stands-in-a-modern.png)\n\nThe data from the robots is transmitted to a central computer using a wireless connection.\n\nComplete the table by identifying **and **describing **two **methods of data verification that can be used during data transfer.\n\n|   | Method | Description |\n|---|---|---|\n| 1 |   |   |\n| 2 |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct method and\n> \n> **1 mark** for corresponding description to **max 4**:\n> \n> | Method | Description |\n> |---|---|\n> | Parity byte | An additional bit is added to make the number of 1s in the byte odd or even to match the parity. If a byte with an odd number of 1 bits is received when even parity is used, there is an error. |\n> | Parity block | Parity is calculated horizontally and vertically. A parity byte is created from the bits produced by the vertical parity check. This is sent with the data. The parity is re-checked when received and the position of an incorrect bit can be determined. |\n> | Checksum | A calculation is made from the data and the result transmitted with the data. The receiver repeats the calculation and compares the result with the value received. If the two are different, there is an error. |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NxsDFZCqQ2W7z7C3",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_SDbHYmX92YKDp2vK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Q4M6BsPSYkPpsctR"
+     ],
+     "part_tier": null,
+     "problem_md": "A bank allows customers to access their accounts using an application that they can download onto a device such as a smartphone.\n\nThe bank wants to protect the integrity of its data while transferring the data to other banks. Parity check is one example of data verification.\n\nComplete the description of parity check when Computer A is transmitting data to Computer B.\n\nComputer A and Computer B agree on whether to use ............................... parity. Computer A divides the data into groups of ............................ . The number of 1s in each group is counted. If the agreed parity is ....................... and the group has an even number of 1s, a parity bit of 1 is appended, otherwise a parity bit of 0 is appended.\n\nIn a parity ............................ check the bytes are grouped together, for example in a grid. The number of 1s in each column (bit position) is counted. A bit is assigned to each column to make the column match the parity. These parity bits are transmitted with the data as a parity ................................. .",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correctly completed term:\n> \n> - odd or even\n> - 7-bits\n> - odd\n> - block\n> - byte\n> \n> Computer A and Computer B agree on whether to use **odd or even** parity. Computer A divides the data into groups of **7-bits**. The number of 1s in each group is counted. If the agreed parity is **odd** and the group has an even number of 1s a parity bit of 1 is appended, otherwise a parity bit of 0 is appended.\n> \n> In a parity **block **check the bytes are grouped together, for example in a grid. The number of 1s in each column (bit position) is counted. A bit is assigned to each column to make the column match the parity. These parity bits are transmitted with the data as a parity **byte**."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fDpvftWNHw4HZmws",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Jm7KDpVhdWCt9pcn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_bxsBsBSGhJ5VdwYJ"
+     ],
+     "part_tier": null,
+     "problem_md": "A company makes ice cream and sells it to shops.\n\nThe ice cream is made in batches: a large quantity of one type and flavour of ice cream that is then split into smaller quantities for sale.\n\nThe company’s owner has designed a relational database, ICECREAM, to store data about their ice cream and customers.\n\nSome of the tables in the database are given. The database is not normalised.\n\n`BATCH(BatchID, Type, Flavour, Size, SellingPrice, EndDate) CUSTOMER(CustomerID, CompanyName, EmailAddress, TelephoneNumber) SALE(SaleID, BatchID, CustomerID, Quantity, Date)`\n\nA Database Management System (DBMS) supports data integrity.\n\nExplain how a DBMS supports data integrity.",
+     "solution_md": "**1 mark** for each bullet point each (**max 3**)\n\n- Referential integrity is enforced\n- … such as cascade update/delete // if the data is changed in one place it is updated in every other place\n- ... and ensures each foreign key has a corresponding primary key"
+    }
+   ]
+  }
+ ]
+}

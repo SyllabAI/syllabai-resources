@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:34:20Z",
+ "generated_utc": "2026-10-26T14:12:36Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
@@ -71,6 +71,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_27N5T3MDwxVYzV7g",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/3-movement-into-and-out-of-cells/3-1-diffusion-osmosis-and-active-transport/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_fRdfGDNjSKdYHBN5",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -83,28 +95,462 @@
    "question_count": 29,
    "questions_embedded": 29,
    "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/3-movement-into-and-out-of-cells/3-1-diffusion-osmosis-and-active-transport/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_y97ysYZt2wbKTxwG",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 16,
+   "questions_embedded": 16,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/3-movement-into-and-out-of-cells/3-1-diffusion-osmosis-and-active-transport/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 29,
+  "questions_embedded": 49,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/03/31796-diagram-of-a-root-hair-cell-.png": "001-diagram-of-a-root-hair-cell.png",
-   "https://cdn.savemyexams.com/uploads/2026/03/1438-active-transport.png": "002-diagram-of-a-cell-membrane-with-a-carrier-molecu.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/5809_screenshot-2025-05-31-111847.png": "003-diagram-of-a-plant-cell-with-labels-a-b-c-d-poin.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/64396_3-1-image-hq6.png": "004-3-1-image-hq6.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/picture10.png": "005-picture10.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/picture7.png": "006-picture7.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/turgor.png": "007-turgor.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/picture9.png": "008-picture9.png",
-   "https://cdn.savemyexams.com/uploads/2023/01/A_J~Ah-X_plant-cell.png": "009-a-j-ah-x-plant-cell.png"
+   "https://cdn.savemyexams.com/uploads/2025/06/22459_screenshot-2025-06-02-165822.png": "001-four-rectangles-labelled-a-to-d-each-next-to-a-r.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/6877_screenshot-2025-06-02-165337.png": "002-table-showing-test-tube-volumes-of-sugar-solutio.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/29401_screenshot-2025-06-02-170000.png": "003-table-with-two-columns-test-tube-and-length-mm-r.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/360_screenshot-2025-06-02-170957.png": "004-microscopic-view-of-cell-x-with-labelled-starch-.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/6178_screenshot-2025-06-02-171236.png": "005-equation-for-magnification-showing-length-of-lin.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/37375_screenshot-2025-06-02-171105.png": "006-large-hand-drawn-plant-cell-with-labelled-starch.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/21242_screenshot-2025-06-02-171343.png": "007-microscopic-view-of-a-starch-grain-with-calculat.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-2019-p6-q1a.png": "008-cie-2019-p6-q1a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-2019-p6-q1a-petri.png": "009-cie-2019-p6-q1a-petri.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/_RIHQH5c_cie-2019-p6-q1a-petri-results.png": "010-rihqh5c-cie-2019-p6-q1a-petri-results.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-2019-p6-q1a-diffusion-coefficient.png": "011-cie-2019-p6-q1a-diffusion-coefficient.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q1-table-ma.png": "012-q1-table-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/Y-bj9BLF_q1-diffusion-coefficient-ma.png": "013-y-bj9blf-q1-diffusion-coefficient-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/atpq-ma-plotted.png": "014-atpq-ma-plotted.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/d83f3b43-d408-42ec-9fae-464d096a91df.jpeg": "015-d83f3b43-d408-42ec-9fae-464d096a91df.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/0a2c0ab8-5fbf-4f4a-be90-0fae4065014e.jpeg": "016-range-ma.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63fig1-1.png": "017-p63fig1-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63fig1-2.png": "018-p63fig1-2.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63fig1-3.png": "019-p63fig1-3.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63fig1-4.png": "020-p63fig1-4.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/osmosis-prac-ma.png": "021-osmosis-prac-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63q1ma.png": "022-p63q1ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63fig1-5.png": "023-p63fig1-5.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/p63q1fma.png": "024-p63q1fma.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/31796-diagram-of-a-root-hair-cell-.png": "025-diagram-of-a-root-hair-cell.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/1438-active-transport.png": "026-diagram-of-a-cell-membrane-with-a-carrier-molecu.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/5809_screenshot-2025-05-31-111847.png": "027-diagram-of-a-plant-cell-with-labels-a-b-c-d-poin.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/64396_3-1-image-hq6.png": "028-3-1-image-hq6.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/picture10.png": "029-picture10.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/picture7.png": "030-picture7.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/turgor.png": "031-turgor.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/picture9.png": "032-picture9.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/A_J~Ah-X_plant-cell.png": "033-a-j-ah-x-plant-cell.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/62185_screenshot-2025-06-01-162813.png": "034-diagram-of-a-plant-cell-featuring-labelled-parts.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/50443_screenshot-2025-06-01-162957.png": "035-letters-a-to-e-are-matched-with-cell-functions-a.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/46642_screenshot-2025-06-01-163052.png": "036-diagram-matching-cell-functions-with-labels-a-e-.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/6177_screenshot-2025-06-01-163954.png": "037-table-1-1-showing-the-effect-of-sugar-solution-c.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/44091_screenshot-2025-06-01-164357.png": "038-table-showing-the-effect-of-sugar-solution-conce.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/plant-cells_hypertonic.png": "039-plant-cells-hypertonic.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/red-blood-cell.png": "040-red-blood-cell.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/red-blood-cell_spherocytosis.png": "041-red-blood-cell-spherocytosis.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/1-3.png": "042-active-transport.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/emvts0eg-picture2.png": "043-emvts0eg-picture2.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/tWO5ZkyH_picture2.png": "044-two5zkyh-picture2.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/TbhePR-e_plant-tissue.png": "045-tbhepr-e-plant-tissue.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/7vNW9Erc_h-3a.png": "046-7vnw9erc-h-3a.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/monoglycerides-1.png": "047-monoglycerides-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/osmosis-from-cell-to-cell-1.png": "048-osmosis-from-cell-to-cell-1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/tVhetXoo_picture3.png": "049-tvhetxoo-picture3.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/food-molecules.png": "050-food-molecules.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/villi-microvilli.png": "051-villi-microvilli.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/diffusion-1.png": "052-diffusion-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/diffusion-ma-sq.png": "053-diffusion-ma-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/osmosis-and-potatos-1.png": "054-osmosis-and-potatos-1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/LY-_Gc~U_picture2.png": "055-ly-gc-u-picture2.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/HkfPM33Z_picture3.png": "056-hkfpm33z-picture3.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/root-hair-cell-1.png": "057-root-hair-cell-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/osmosis-in-plant-cells-1.png": "058-osmosis-in-plant-cells-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/plant-cell-osmosis-ma-sq.png": "059-plant-cell-osmosis-ma-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/potatos-and-sucrose-1.png": "060-potatos-and-sucrose-1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/percentage-difference.png": "061-percentage-difference.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/companion-cell.png": "062-companion-cell.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/097031-may-2019-paper-3-q4a-palisade-mesophyll---sq.png": "063-097031-may-2019-paper-3-q4a-palisade-mesophyll-s.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/097031-may-2019-paper-3-q4a-palisade-mesophyll---sq-ma.png": "064-097031-may-2019-paper-3-q4a-palisade-mesophyll-s.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/097031-may-2019-paper-3-q4b-plasmolysed-palisade-mesophyll---sq.png": "065-097031-may-2019-paper-3-q4b-plasmolysed-palisade.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/4d3DvDB~_097031-may-2019-paper-3-q4c-dicot-sections---sq.png": "066-4d3dvdb-097031-may-2019-paper-3-q4c-dicot-sectio.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/097031-may-2019-paper-3-q4c-dicot-sections---ma.png": "067-097031-may-2019-paper-3-q4c-dicot-sections-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/structure-of-an-alveolus.png": "068-structure-of-an-alveolus.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/particlate-matter-1.png": "069-particlate-matter-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/particlate-matter-and-cell-death-ma-sq.png": "070-particlate-matter-and-cell-death-ma-sq.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/rtXEV8i4_change-in-mass-of-egg.png": "071-rtxev8i4-change-in-mass-of-egg.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/change-in-mass.png": "072-change-in-mass.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_7xMg4WmKSWG7q2cV",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 25,
+   "parts": [
+    {
+     "id": "qstnprt_NpSJhjSfj2zktRFd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "paper 6",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the effect of the concentration of sugar solutions on osmosis in potato cells.\n\nStep 1 \tThe student labelled four test-tubes A, B, C and D.\n\nStep 2 \tThe volumes of 1 mol per dm<sup>3</sup> sugar solution and distilled water shown                             in Table 1.1 were used to make solutions containing different                                                       concentrations of sugar in each test-tube.\n\n(i) Complete Table 1.1 by writing in the concentration of the sugar solution in test-tube C.\n\n**Table 1.1**\n\n| test-tube | volume of 1mol per dm<sup>3</sup> sugar solution/cm<sup>3</sup> | volume of distilled water / cm<sup>3</sup> | concentration of sugar solution/mol per dm<sup>3</sup> |\n|---|---|---|---|\n| **A** | 20 | 0 | 1.0 |\n| **B** | 12 | 8 | 0.6 |\n| **C** | 8 | 12 |   |\n| **D** | 0 | 20 | 0.0 |\n\nStep 3 \tThe student was given four potato cylinders which had all been cut                                      from one potato. The diameters of the potato cylinders were all the                                   same but the lengths of the potato cylinders varied.\n\nStep 4 \tThe student cut all four potato cylinders to exactly 40mm in length.\n\nStep 5 \tOne potato cylinder was put into each labelled test-tube. The potato\n                         cylinders were left in the sugar solutions for 20 minutes.\n\nStep 6 \tAfter 20 minutes the potato cylinders were removed from the test                                     tubes.\n\nFig. 1.1 is a diagram showing the actual size of the potato cylinders from test-tubes A, B, C and D at the end of step 6.\n\n![Four rectangles labelled A to D, each next to a ruler marked in centimetres. Each rectangle has a different position relative to the ruler's scale.](assets/001-four-rectangles-labelled-a-to-d-each-next-to-a-r.png)\n\n(ii) Prepare a table to record the results in the space provided.\n\nMeasure the length of each of the potato cylinders in Fig. 1.1 and record these measurements in your table.\n\n[3]\n\n(iii) Explain why it was important that the potato cylinders were all cut to the same length in step 4.\n\n[1]\n\n(iv) Identify the variable that the student changed in this investigation (independent variable).\n\n[1]\n\n(v) Suggest two improvements that you could make to the method used in this investigation.\n\n[2]\n\n(vi) Describe one safety precaution that should be taken while preparing the potato cylinders in step 4.\n\n[1]",
+     "solution_md": "(i)\n\n- 0.4; **[1 mark]**\n\n![Table showing test-tube volumes of sugar solution and distilled water. Calculation beneath shows test-tube C concentration as 0.4 mol per dm³.](assets/002-table-showing-test-tube-volumes-of-sugar-solutio.png)\n\n(ii)\n\n- Table has a minimum of two columns / rows **AND** a header row; **[1 mark]**\n- Headings = sugar concentration in mol per dm<sup>3</sup> / test tube **AND** length of potato (after 20 minutes) in mm; **[1 mark]**\n- Lengths of potato cylinders correctly measured; **[1 mark]**\n\n  - A = 34/35/36\n  - B = 36/37/38\n  - C = 38/39/40\n  - D = 41/42/43\n\n![Table with two columns: \"Test tube\" and \"Length/mm\". Rows list A-D with lengths 35, 37, 39, 42. Annotations highlight marks for headings.](assets/003-table-with-two-columns-test-tube-and-length-mm-r.png)\n\n(iii)\n\nSo that the results are comparable / so that sugar concentration is the only variable that is changed **OR** to ensure that the surface area of the cylinders is the same / so that surface area does not affect the rate of osmosis; **[1 mark]**\n\n(iv)\n\n- Concentration of the sugar solution; **[1 mark]**\n\n(v)\n\nAny two from:\n\n- Measure the mass of the cylinders (instead of length); **[1 mark]**\n- Test more intermediate concentrations of sugar solution; **[1 mark]**\n- Extend the range of concentrations used;**[1 mark]**\n- Repeat at each concentration;**[1 mark]**\n- Soak for longer than 20 minutes; **[1 mark]**\n- Use warm sugar solutions (to speed up diffusion); **[1 mark]**\n- Keep all test tubes at the same temperature; **[1 mark]**\n- Dry the cylinders before measuring; **[1 mark]**\n\n(vi)\n\n- Cut away from body / cut on a wooden board/tile/flat surface / keep blade away from body / dry potato before cutting; **[1 mark]**\n\nNote that it is not enough here to just make a general statement such as ‘take care when cutting’; you need to give a specific instruction as to how care should be taken.\n\n**[Total: 9 marks]**"
+    },
+    {
+     "id": "qstnprt_v483vrk9ym8C8P5Y",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "plan",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 6 ",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "Plan an investigation to find out the effect of temperature on osmosis in plant tissue.",
+     "solution_md": "- Independent variable = carry out investigation at a minimum of 2 different temperatures; **[1 mark]**\n\n*Variables to be kept constant; a maximum of two from:*\n\n- Same concentration / volume of solution / water;  **[1 mark]**\n- Same (initial) length / volume / mass / surface area of plant tissue;  **[1 mark]**\n- Same type / age / variety of plant tissue **OR** same piece of plant tissue / same plant;  **[1 mark]**\n- Same pH / use a buffer;  **[1 mark]**\n- Same immersion time;  **[1 mark]**\n\n*Method*\n\n- Method of maintaining temperature described, e.g. a temperature-controlled water bath;  **[1 mark]**\n- Use of plant tissue (e.g. potato / leaves / root / stem) immersed in water / sugar / salt solution; **[1 mark]**\n- Method for measuring the dependent variable is described, e.g. measuring the length / mass / volume / surface area of plant tissue before and after immersion;  **[1 mark]**\n- Allow time for tissue/solution to reach the correct temperature / to equilibrate to temperature;  **[1 mark]**\n- Drying plant tissue before reweighing (if mass is being measured); [1 mark]\n- Carry out at least two repeats at each temperature / a total of at least three trials; **[1 mark]**\n\nWhen writing a plan for an investigation you should always consider the variable that will be changed on purpose (the independent variable), the variable that will be measured (the dependent variable) and any variables that you will need to keep constant. Describe how you will change/measure/control each of these variables. You can then gain additional marks for describing extra details of the method. Don’t forget to consider general points that will be relevant to all investigations, such as a suitable number of repeats.\n\n**[Total: 6 marks]**"
+    },
+    {
+     "id": "qstnprt_3rk5bygYTbgsVKW6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2021",
+      "number": "paper 6 ",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_zWw6jqdvgXTt2kdq",
+      "spcpt_VTzh9khD4dMpywHJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Potato cells contain starch grains.\n\n(i) State the solution that would be used to test for the presence of starch and give the result of a positive test.\n\n[2]\n\nFig. 1.2 is a photomicrograph of some plant cells that contain starch grains.\n\n![Microscopic view of cell X with labelled starch grains at 800x magnification. Points A and B are marked within the cell structure.](assets/004-microscopic-view-of-cell-x-with-labelled-starch-.png)\n\n(ii) Draw a large diagram of cell X in Fig. 1.2.\n\nLabel one starch grain on your drawing.\n\n[5]\n\n(iii) Line AB represents the diameter of the starch grain. Measure the length of line AB on Fig. 1.2.\n\nlength of line AB ................................................ mm\n\nCalculate the actual diameter of the starch grain using your measurement for line AB, the information in Fig. 1.2 and the formula:\n\n![Equation for magnification showing length of line AB on Fig. 1.2 divided by actual diameter of starch grain, with both terms underlined.](assets/005-equation-for-magnification-showing-length-of-lin.png)\n\nGive your answer to two significant figures.\n\n[3]",
+     "solution_md": "(i)\n\n- Iodine solution;** [1 mark]**\n- Positive result = blue-black; **[1 mark]**\n\n(ii)\n\n- Clear, single, unbroken lines **AND** no shading; **[1 mark]**\n- Central cell has a minimum diameter of 56 mm; **[1 mark]**\n- A double line represents the entire cell wall; **[1 mark]**\n- A minimum of five starch grains are shown around the perimeter of the cell; **[1 mark]**\n- One starch grain is labelled; **[1 mark]**\n\n![Large hand-drawn plant cell with labelled starch grains, clear lines, no shading, double cell wall, and annotations noting drawing criteria and marks.](assets/006-large-hand-drawn-plant-cell-with-labelled-starch.png)\n\n(iii)\n\n- Length of line AB = 9/10/11 mm; **[1 mark]**\n\n*Calculating actual diameter: *\n\n- 10800; **[1 mark]**\n- 0.013 (0.011–0.014) mm; **[1 mark]**\n\n*Award two marks for the correct actual diameter in the absence of other calculations. *\n\n*Note that the measurements will be different on the screen to those on a printed copy of the exam paper.*\n\n![Microscopic view of a starch grain with calculations for diameter, featuring a ruler for scale, and handwritten notes explaining the measurement process.](assets/007-microscopic-view-of-a-starch-grain-with-calculat.png)\n\n**[Total: 10 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zw6zXjtWCnWV237G",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_GmNQNQRdnVfsgwt2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/61",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "A student measured the distance moved by different concentrations of citric acid solution through agar jelly. The agar contained Universal Indicator which changed colour in the presence of acid. The agar mixed with Universal Indicator was green at the beginning of the investigation.\n\n| Step 1 | Three test-tubes were labelled **A, B **and **C. **Three different concentrations of citric acid solution were made. |\n|---|---|\n\nTable 1 shows the volumes of 5% citric acid solution and distilled water that were used to make each solution.\n\n**Table 1**\n\n![cie-2019-p6-q1a](assets/008-cie-2019-p6-q1a.png)\n\n| Step 2 | The base of a Petri dish containing agar and Universal Indicator was labelled **A, B** and **C**. |\n|---|---|\n\nThree holes were cut into the agar. This is shown in Fig.1\n\n![cie-2019-p6-q1a-petri](assets/009-cie-2019-p6-q1a-petri.png)\n\n**Fig. 1**\n\n| Step 3 | The student was provided with one dropping pipette. Three drops of solution **A** were placed into the hole in section **A** of the Petri dish. |\n|---|---|\n| Step 4 | Three drops of solution **B **were placed into the hole in section **B** of the Petri dish. |\n| Step 5 | Three drops of solution **C** were placed into the hole in section **C** of the Petri dish. |\n| Step 6 | A stop-clock was started. |\n| Step 7 | After 30 minutes the student observed the colour change in the agar around the hole in each section of the Petri dish. The colour change was caused by the diffusion of the citric acid solution through the agar. |\n| Step 8 | A ruler was used to measure the distance travelled by each concentration of citric acid solution through the agar. |\n\nFig. 2 shows the appearance of the Petri dish after 30 minutes.\n\n![_RIHQH5c_cie-2019-p6-q1a-petri-results](assets/010-rihqh5c-cie-2019-p6-q1a-petri-results.png)\n\n**Fig. 2**\n\n(i)\n\nMeasure the distance travelled by each concentration of citric acid solution after 30 minutes in Fig. 2 Rulers have been added to the image to assist you in taking these measurements.\n\nPrepare a table and record these results.\n\nYou should include:\n\n- The concentration of the citric acid solutions\n- The distance travelled by the citric acid solutions.\n\n[3]\n\n(ii)\n\nDescribe how you decided where to measure the distance travelled by the citric acid solutions.\n\n[1]\n\n(iii)\n\nState a conclusion for these results.\n\n[1]\n\n(iv)\n\nThe citric acid moves through the agar by diffusion. The diffusion coefficient is used to show the effect of concentration on diffusion.\n\nThe formula to calculate the diffusion coefficient is:\n\n![cie-2019-p6-q1a-diffusion-coefficient](assets/011-cie-2019-p6-q1a-diffusion-coefficient.png)\n\nCalculate the diffusion coefficient, in mm<sup>2</sup> per minute, for a 10 % solution of citric acid that travelled 14 mm in 30 minutes.\n\nGive your answer to two significant figures.\n\n[2]\n\n(v)\n\nUniversal Indicator is used to estimate the pH value of substances.\n\nEstimate the pH value for the green agar and the red agar.\n\n[2]",
+     "solution_md": "(i) Marks are awarded for completion of the table as follows...\n\n- The table should have a minimum of two columns **AND** a line separating the headings from the data;** [1 mark]**\n- Headings are 'Percentage/% concentration of citric acid' **AND **'Distance (travelled) / cm/mm'; **[1 mark]**\n- Three correct distances recorded (see model answer); **[1 mark]**\n\n![q1-table-ma](assets/012-q1-table-ma.png)\n\n*For A accept 2 mm, for B accept 4 mm, and for C accept 5.5-6 mm (these are the distances to the edge of the red circle).*\n\n(ii) The method for measuring the distance travelled is as follows...\n\n- Measure from the (edge of the) hole to the edge of the (red/yellow) circle **OR **measure the diameter/radius of the (red/yellow) circle; **[1 mark]**\n\n(iii) From these results we can conclude...\n\n- The higher the concentration (of the solution) the further the acid/solution moves/diffuses; **[1 mark]**\n\n(iv) The diffusion coefficient can be calculated as follows:\n\n- 196 ÷ 30; **[1 mark]**\n- 6.5 (mm<sup>2</sup> per minute); **[1 mark]**\n\n*Full marks can be awarded for the correct answer in the absence of other calculations.*\n\n(v) The pH of the red and green agar can be predicted as follows...\n\n- (Red agar pH =) 1 or 2 / value lower than 7 / acidic; **[1 mark]**\n- (Green agar pH =) 7 / in the range of 7-8 / neutral; **[1 mark]**\n\n**[Total: 9 marks]**\n\n> *ii) The best way of determining the distance travelled by the citric acid is to measure from its starting point to its end point, so from the edge of the hole to the edge of the circle (either red or yellow depending on your criteria). Measuring the radius or diameter is given as a creditworthy answer here, but this really just provides a representation of the distance moved across the agar rather than the actual distance.*\n\n> *iv) The diffusion coefficient can be calculated as follows:*\n\n![Y-bj9BLF_q1-diffusion-coefficient-ma](assets/013-y-bj9blf-q1-diffusion-coefficient-ma.png)"
+    },
+    {
+     "id": "qstnprt_SNXwV3m8PwwMMYdk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/61",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student measured the distance moved by different concentrations of citric acid solution through agar jelly. The agar contained Universal Indicator which changed colour in the presence of acid. The agar mixed with Universal Indicator was green at the beginning of the investigation.\n\nStep 1: Three test-tubes were labelled A, B and C. Three different concentrations of citric acid solution were made. Table 1 shows the volumes of 5% citric acid solution and distilled water that were used to make each solution.\n\nStep 2: The base of a Petri dish containing agar and Universal Indicator was labelled A, B and C.\nThree holes were cut into the agar.\n\nStep 3: The student was provided with one dropping pipette. Three drops of solution A were placed into the hole in section A of the Petri dish.\nStep 4: Three drops of solution B were placed into the hole in section B of the Petri dish.\nStep 5: Three drops of solution C were placed into the hole in section C of the Petri dish.\nStep 6: A stop-clock was started.\nStep 7: After 30 minutes the student observed the colour change in the agar around the hole in each section of the Petri dish. The colour change was caused by the diffusion of the citric acid solution through the agar.\nStep 8: A ruler was used to measure the distance travelled by each concentration of citric acid solution through the agar.\n\n(i)\n\nState **two** variables that have been kept constant in this investigation.\n\n[2]\n\n(ii)\n\nIdentify **one** potential source of error in this investigation and suggest how the error could affect the results.\n\n[2]",
+     "solution_md": "(i) Two variables that have been kept constant might include...\n\nAny **two** of the following:\n\n- Number of drops / three drops (of citric acid/solution in the holes);** [1 mark]**\n- Agar concentration/depth/volume; **[1 mark]**\n- Size of holes/wells;** [1 mark]**\n- Type of indicator **OR** concentration/volume of indicator;** [1 mark]**\n- Time (the investigation was left for) / investigation left for 30 minutes; **[1 mark]**\n- Temperature (of the room/equipment/surroundings); **[1 mark]**\n- The type of acid / using the same stock solution of citric acid; **[1 mark]**\n\n(ii) In this investigation a source of error and the effect of this could be...\n\nAny **pair** of points from the following:\n\n- (Source of error =) drop sizes (of citric acid) vary; **[1 mark]**\n- (Effect on results =) a larger volume produces greater diffusion distance **OR** a smaller volume produces shorter diffusion distance; **[1 mark]**\n\n**OR**\n\n- (Source of error =) no repeats were carried out; **[1 mark]**\n- (Effect on results =) this would mean it is not possible to identify anomalous results/anomalies; **[1 mark]**\n\n**OR**\n\n- (Source of error =) contamination (of the pipette) / one dropping pipette used for all three solutions;** [1 mark]**\n- (Effect on results =) a weaker solution would produce a smaller diffusion distance **OR** a stronger solution would produce a longer diffusion distance; **[1 mark]**\n\n**OR**\n\n- (Source of error =) longer diffusion time given to some tests / citric acid added at different times / circles measured at different times;** [1 mark]**\n- (Effect on results =) greater distance travelled if more time was allowed **OR** less distance travelled if less time was allowed; **[1 mark]**\n\n**OR**\n\n- (Source of error =) difficulties in judging the position of the edge of the circle; **[1 mark]**\n- (Effect on results =) over/under estimation of the diffusion distance; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *It is essential to remember that questions that ask about 'sources of error' in scientific investigations are not asking about mistakes that you might make, e.g. using a measuring cylinder incorrectly or reading measurements from a ruler incorrectly. Sources of error in an experiment are unavoidable limitations that result from the design of the experiment and the equipment used, such as the lack of precision of dropping pipettes, the inability of one person to measure three circles at the same time, or a lack of repeats leading to an inability to spot anomalous results.*"
+    },
+    {
+     "id": "qstnprt_3CPGbyMkTdN8vHQV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/61",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student measured the distance moved by different concentrations of citric acid solution through agar jelly. The agar contained Universal Indicator which changed colour in the presence of acid. The agar mixed with Universal Indicator was green at the beginning of the investigation.\n\nStep 1: Three test-tubes were labelled A, B and C. Three different concentrations of citric acid solution were made. Table 1 shows the volumes of 5% citric acid solution and distilled water that were used to make each solution.\n\nStep 2: The base of a Petri dish containing agar and Universal Indicator was labelled A, B and C. Three holes were cut into the agar.\n\nStep 3: The student was provided with one dropping pipette. Three drops of solution A were placed into the hole in section A of the Petri dish.\nStep 4: Three drops of solution B were placed into the hole in section B of the Petri dish.\nStep 5: Three drops of solution C were placed into the hole in section C of the Petri dish.\nStep 6: A stop-clock was started.\nStep 7: After 30 minutes the student observed the colour change in the agar around the hole in each section of the Petri dish. The colour change was caused by the diffusion of the citric acid solution through the agar.\nStep 8: A ruler was used to measure the distance travelled by each concentration of citric acid solution through the agar.\n\nDescribe how you could adapt this method to find the effect of temperature on the rate of diffusion. Agar melts at 70 °C.",
+     "solution_md": "We could adapt the method to find the effect of temperature in the following ways...\n\nDescription of relevant method steps from part a)\n\nAny **two** of the following:\n\n- Use of agar plates; **[1 mark]**\n- Use of indicator (in the agar); **[1 mark]**\n- Holes made in the agar; **[1 mark]**\n- Citric acid added (to holes); **[1 mark]**\n- Left for a fixed amount of time / specific time given; **[1 mark]**\n- Same measurement of diameter/radius/distance moved; **[1 mark]**\n\nAdditions to method to allow investigation of the effect of temperature on diffusion\n\nAny **three** of the following:\n\n- Using a range of at least 2 temperatures; **[1 mark]**\n- Temperatures specified **AND **all temperatures are less than 70 °C; **[1 mark]**\n- Idea of keeping the temperature constant throughout the diffusion time; **[1 mark]**\n- Giving time for agar to acclimatise to/reach the temperature / equilibration time given before adding citric acid; **[1 mark]**\n- Measure the time taken to reach a specified diameter / the diameter (of diffusion circle) that is reached in a specified time; **[1 mark]**\n\nAdditional points\n\nAny **one** of the following:\n\n- Same concentration of citric acid;** [1 mark]**\n- Wear gloves / goggles; **[1 mark]**\n- Repeating the investigation at least twice / three holes in each plate / use three dishes at each temperature;** [1 mark]**\n\n**[Total: 6 marks]**\n\n> *When a question asks for a description of an experimental method there are several things that you must be sure to do:*\n\n- Name the independent variable; the factor that you would change (in this case temperature).\n- Name the dependent variable; the factor that you would measure (in this case the circle diameter).\n- >Identify some control variables; the factors that you would need to keep the same.\n- Give details of the method, e.g. number of repeats, when to take measurements, safety precautions etc."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qgzHVsXBn4tnzmpF",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_TDyTNC9VX2BvsKQc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "Scientists grew two groups of carrot seedlings in a solution containing magnesium ions, required for the seedlings to grow. The magnesium ions in the solution were radioactively labelled.\n\nThe scientists bubbled oxygen through the solution of one group and pure nitrogen gas through the solution of the other group. Nitrogen gas will remove all dissolved oxygen from the solution.\n\nThe level of radioactive magnesium ions was measured at the start of the experiment and again, every 30 minutes for five hours. The scientists subtracted the level of magnesium ions in the solution from the starting level as a way of determining the uptake of magnesium ions by the plant. Table 1 shows the scientists' results.\n\n**Table 1**\n\n| time / minutes | total level of magnesium ions absorbed / arbitrary units |   |\n|---|---|---|\n| with oxygen | without oxygen |   |\n| 0 | 0 | 0 |\n| 30 | 190 | 132 |\n| 60 | 224 | 148 |\n| 90 | 237 | 163 |\n| 120 | 263 | 174 |\n| 150 | 289 | 189 |\n| 180 | 320 | 206 |\n| 210 | 342 | 225 |\n| 240 | 368 | 238 |\n| 270 | 385 | 246 |\n| 300 | 412 | 257 |\n\n(i)\n\nPlot a <u>line graph</u> of the results shown in Table 1.\n\n[4]\n\n(ii)\n\nState the solution the carrot seedlings absorbed more magnesium ions from.\n\n[1]",
+     "solution_md": "(i) A line graph of the results is...\n\n- Axes labelled correctly; **[1 mark]**\n- Points plotted correctly +/- 1mm error; **[1 mark]**\n- Key used to distinguish two lines OR two lines are distinguishable; **[1 mark]**\n- Scale is at least half of the grid;** [1 mark]**\n\n*Allow: line of best fit from 30 minutes upwards, dot-to-dot, smooth curve*\n\n(ii) The solution the seedlings absorbed more magnesium ions in is...\n\n- with oxygen; **[1 mark]**\n\n**[Total 5 marks]**\n\n> *You are only asked for a statement of conclusion so there is no need to explain why the seedlings take up more magnesium ions in the presence of oxygen. However, the reason for this is that when the plant cells have plenty of oxygen they can respire and release energy in the form of ATP. This can be used to actively pump ions, such as magnesium, from the solution into the plant cells.*\n\n![atpq-ma-plotted](assets/014-atpq-ma-plotted.png)"
+    },
+    {
+     "id": "qstnprt_HRbrpTkW9B45Dw47",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nScientists grew two groups of carrot seedlings in a solution containing magnesium ions, required for the seedlings to grow. The magnesium ions in the solution were radioactively labelled.\n\nThe scientists bubbled oxygen through the solution of one group and pure nitrogen gas through the solution of the other group. Nitrogen gas will remove all dissolved oxygen from the solution. \n\nThe level of radioactive magnesium ions was measured at the start of the experiment and again, every 30 minutes for five hours. The scientists subtracted the level of magnesium ions in the solution from the starting level as a way of determining the uptake of magnesium ions by the plant. Table 1 shows the scientists' results.\n\nTable 1\n| time / minutes | total level of magnesium ions absorbed / arbitrary units |\n| with oxygen | without oxygen |\n| 0 | 0 | 0 |\n| 30 | 190 | 132 |\n| 60 | 224 | 148 |\n| 90 | 237 | 163 |\n| 120 | 263 | 174 |\n| 150 | 289 | 189 |\n| 180 | 320 | 206 |\n| 210 | 342 | 225 |\n| 240 | 368 | 238 |\n| 270 | 385 | 246 |\n| 300 | 412 | 257 |\n\n(i)\n\nIdentify the independent **and **dependent variables in the investigation.\n\n[2]\n\n(ii)\n\nIdentify a variable that needs to be kept constant (control variable) throughout the investigation.\n\n[1]\n\n(iii)\n\nCalculate the percentage increase of magnesium ions absorbed with oxygen between 120 minutes and 300 minutes.\n\n[3]\n\n(iv)\n\nCalculate the range for the level of magnesium ions absorbed without oxygen from the beginning to the end of the experiment.\n\n[1]",
+     "solution_md": "(i) The independent and dependent variables are...\n\n- Independent: with and without oxygen / presence of oxygen; **[1 mark]**\n- Dependent: amount of magnesium ions absorbed; **[1 mark]**\n\n(ii) A variable that needs to be kept constant is...\n\nAny **one **of the following:\n\n- Temperature of solution; **[1 mark]**\n- pH of solution; **[1 mark]**\n- Volume of solution; **[1 mark]**\n- Volume of gases/oxygen/nitrogen bubbled through; **[1 mark]**\n- How long/time gases/oxygen/nitrogen bubbled through; **[1 mark]**\n\n> *You do need to be **specific **here with control variables; just mentioning 'time' or 'volume' for example without the context of the question will not earn you marks.*\n\n(iii) The percentage increase of magnesium ions absorbed with oxygen between 120 minutes and 300 minutes is..\n\n- Difference in final and initial results = 149; **[1 mark]**\n- Difference ÷ by original = 0.57; **[1 mark]**\n- x100 = 57%; **[1 mark]**\n\n(iv) The range for the level of magnesium ions absorbed without oxygen from the beginning to the end of the experiment is...\n\n- Highest - lowest value;\n- 257 - 0 = 257; **[1 mark]**\n\n**[Total: 7 marks]**\n\n> *Model answer for part (iii) *\n\n![d83f3b43-d408-42ec-9fae-464d096a91df](assets/015-d83f3b43-d408-42ec-9fae-464d096a91df.jpeg)\n\n> *Model answer for part (iv):*\n\n![Range MA](assets/016-range-ma.jpeg)"
+    },
+    {
+     "id": "qstnprt_jZKzc6SPhCNcRb4n",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe how the scientists could make the results reliable.",
+     "solution_md": "To make the results reliable...\n\n- Repeat the results; **[1 mark]**\n- At least three times; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *By repeating results we can spot anomalous data and errors and address these, which can then make our data more accurate overall. Anomalies can be eliminated so that the mean (average value) is more reliable. *"
+    },
+    {
+     "id": "qstnprt_RSF3wkMqfHv4dWgs",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nScientists grew two groups of carrot seedlings in a solution containing magnesium ions, required for the seedlings to grow. The magnesium ions in the solution were radioactively labelled.\n\nThe scientists bubbled oxygen through the solution of one group and pure nitrogen gas through the solution of the other group. Nitrogen gas will remove all dissolved oxygen from the solution. \n\nThe level of radioactive magnesium ions was measured at the start of the experiment and again, every 30 minutes for five hours. The scientists subtracted the level of magnesium ions in the solution from the starting level as a way of determining the uptake of magnesium ions by the plant. Table 1 shows the scientists' results.\n\nExplain why the scientists took data over a five hour period.",
+     "solution_md": "The scientists took data over a five hour period...\n\nAny **two** from the following:\n\n- To see a trend/relationship in the data; **[1 mark]**\n- To see how the absorption of magnesium ions changed over time; **[1 mark]**\n- To see a difference with and without oxygen on the absorption of magnesium ions; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FtKnM6wspd2JY6kz",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_WFySVzDZSqbC9z2P",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/63",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the effect of different concentrations of salt solution on a hollow plant stem.\n\nThey were provided with a 2% salt solution and distilled water. The student used these to make up different concentrations of salt solution.\n\n| Step 1 | Four test-tubes were labelled **1**, **2**, **3** and **4**. |\n|---|---|\n| Step 2 | The information in Table 1 was used to make up the four different salt solutions in the test-tubes. |\n\n**Table 1**\n\n| Test-tube | Volume of 2% salt solution / cm<sup>3</sup> | Volume of distilled water / cm<sup>3</sup> | Final percentage concentration of salt solution |\n|---|---|---|---|\n| **1** | 0 | 20 | 0.0 |\n| **2** | 5 | 15 |   |\n| **3** | 10 | 10 | 1.0 |\n| **4** | 20 | 0 | 2.0 |\n\n(i)\n\nComplete Table 1 by calculating the final percentage concentration of the salt solution in test-tube **2**.\n\n[1]\n\n| Step 3 | The contents of each test-tube were poured into four Petri dishes labelled **1**, **2**, **3** and **4**. |\n|---|---|\n| Step 4 | A hollow stem was cut into 12 rings using a sharp scalpel. Each stem ring was approximately 2mm long, as shown in Fig.1 |\n\n![p63fig1-1](assets/017-p63fig1-1.png)\n\n**Fig. 1**\n\n| Step 5 | Each stem ring was then cut open as shown in Fig. 2. |\n|---|---|\n\n![p63fig1-2](assets/018-p63fig1-2.png)\n\n**Fig. 2**\n\n| Step 6 | Three cut stem rings were put into each of the different salt solutions in the labelled Petri dishes and left for 10 minutes. |\n|---|---|\n\nFig. 3 shows the appearance of the cut stem rings **after** 10 minutes.\n\n![p63fig1-3](assets/019-p63fig1-3.png)\n\n**Fig. 3**\n\n| Step 7 | The distance between the two cut ends of each stem ring can be measured, as shown in Fig. 4 |\n|---|---|\n\nIn the example shown in Fig. 4 the distance is 12 mm.\n\n![p63fig1-4](assets/020-p63fig1-4.png)\n\n**Fig. 4**\n\nThe measurements of each stem ring were as follows:\n\n- Petri dish **1**: 18 mm, 20 mm, 17 mm\n- Petri dish **2**: 10 mm, 12 mm, 12 mm\n- Petri dish **3**: 7 mm, 10 mm, 12 mm\n- Petri dish **4**: 1 mm, 1 mm, 1 mm\n\n(ii)\n\nPrepare a table and record your measurements in your table.\n\nYour table should show:\n\n- all of your results\n- a calculated average for each solution.\n\n[4]\n\n(iii)\n\nUse Table 1 and your measurements to describe the results shown in Fig. 3\n\n[1]",
+     "solution_md": "(i) The final percentage concentration of the salt solution in test-tube **2** is...\n\n- 0.5; **[1 mark]**\n\n(ii) The mark allocation for the results table is as follows...\n\n- Table drawn with 3 columns and header line; **[1 mark]**\n- Headings and units; **[1 mark]**\n- Twelve measurements within the acceptable range; **[1 mark]**\n- Correct averages calculated; **[1 mark]**\n\n![osmosis-prac-ma](assets/021-osmosis-prac-ma.png)\n\n(iii) The results can be described as follows...\n\n- The higher the salt concentration the smaller the gap **OR** the lower the salt concentration the larger/bigger the gap; **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *Note that this question was adapted from the original by including the measurements for the gaps between the cut ends of the stem rings. This was done due to the challenge of accurately measuring from a screen. In the exam you would not have received these measurements and would have been expected to make them yourself, so don't forget to bring your ruler!*\n\n> *The calculation for a) i):*\n\n![p63q1ma](assets/022-p63q1ma.png)"
+    },
+    {
+     "id": "qstnprt_N3kGwQGb5HkKDqXq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/63",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| Step 4 | A hollow stem was cut into 12 rings using a sharp scalpel. Each stem ring was approximately 2mm long, as shown in Fig.1 |\n\nIdentify one hazard in step 4 and describe a suitable safety precaution.",
+     "solution_md": "One hazard and safety precaution for step 4 would be...\n\n*Hazard: *\n\n- Use of a knife / cutting; **[1 mark]**\n\n*Safety precaution: *\n\n- Cut on a solid surface / cut away from body / avoid fingers;** [1 mark]**\n\n*Ignore mention of cutting carefully or wearing gloves as a safety precaution. *\n\n**[Total: 2 marks]**\n\n> *It is expected that the investigator would handle a blade carefully when cutting, so that will not be credited as a safety precaution here. Wearing gloves would not prevent a potential cutting injury and is therefore also not considered a safety precaution in this case.*"
+    },
+    {
+     "id": "qstnprt_fT3VQhCHYdnYv35B",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/63",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThree cut stem rings were put into each of the different salt solutions in the labelled Petri dishes and left for 10 minutes.\n\nExplain why more than one ring of the hollow stem was placed into each Petri dish.",
+     "solution_md": "More than one stem ring was placed in each Petri dish because...\n\nAny **two** from the following:\n\n- (It would enable the investigator) to find an average; **[1 mark]**\n- To see if measurements are comparable;** [1 mark]**\n- To find outlier/anomalous results / measurements that show variation; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Each of the stem rings in the Petri dishes would serve as a repeat of the investigation, which would increase the reliability of the results.*"
+    },
+    {
+     "id": "qstnprt_CSTfq7Z96z6ctk32",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/63",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the effect of different concentrations of salt solution on a hollow plant stem.\n\nThey were provided with a 2% salt solution and distilled water. The student used these to make up different concentrations of salt solution.\n\n| Step 1 | Four test-tubes were labelled 1, 2, 3 and 4. |\n| Step 2 | The information in Table 1 was used to make up the four different salt solutions in the test-tubes. |\n| Step 3 | The contents of each test-tube were poured into four Petri dishes labelled 1, 2, 3 and 4. |\n| Step 4 | A hollow stem was cut into 12 rings using a sharp scalpel. Each stem ring was approximately 2mm long, as shown in Fig.1 |\n| Step 5 | Each stem ring was then cut open as shown in Fig. 2. |\n| Step 6 | Three cut stem rings were put into each of the different salt solutions in the labelled Petri dishes and left for 10 minutes. |\n| Step 7 | The distance between the two cut ends of each stem ring can be measured, as shown in Fig. 4 |\n\nThe measurements of each stem ring were as follows:\n\n- Petri dish 1: 18 mm, 20 mm, 17 mm\n- Petri dish 2: 10 mm, 12 mm, 12 mm\n- Petri dish 3: 7 mm, 10 mm, 12 mm\n- Petri dish 4: 1 mm, 1 mm, 1 mm\n\n(i)\n\nState the variable that was changed (independent variable) in this investigation.\n\n[1]\n\n(ii)\n\nIdentify **two **variables that were kept constant in this investigation.\n\n[2]",
+     "solution_md": "(i) The independent variable in this investigation would be...\n\n- Salt <u>concentration</u>;** [1 mark]**\n\n(ii) Variables that were kept constant in this investigation include...\n\nAny** two** from the following:\n\n- Number of rings (in each Petri dish); **[1 mark]**\n- Volume of solution (in each test-tube / Petri dish); **[1 mark]**\n- Species of plant (from which the rings were cut); **[1 mark]**\n- Length of the stem rings (that were placed in salt solutions); **[1 mark]**\n- Soaking time (of stem rings in the salt solutions); **[1 mark]**\n\n*Reject mention of salt concentration as a constant variable. Ignore reference to cutting or Petri dishes as constant variables. *\n\n**[Total: 3 marks]**\n\n> *Being able to identify the variables (independent, dependent and constant) of a scientific investigation is very important for an alternative to practical paper, so invest some time into understanding the concept of each.*"
+    },
+    {
+     "id": "qstnprt_tX4mXWfq7FjpR9wD",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/63",
+      "question_number": 1,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| Step 4 | A hollow stem was cut into 12 rings using a sharp scalpel. Each stem ring was approximately 2mm long, as shown in Fig.1 |\n| Step 7 | The distance between the two cut ends of each stem ring can be measured, as shown in Fig. 4 |\nIn the example shown in Fig. 4 the distance is 12 mm.\n\nThere are potential errors in steps 4 and 7.\n\nIdentify **two** of these errors and suggest an improvement for each.",
+     "solution_md": "The following errors and suggested improvements can be identified for steps 4 and 7...\n\nAny **two** errors and **matching** improvements from the following:\n\n| *Error* | *Improvement* |\n|---|---|\n| Cutting the stem rings to the same length; **[1 mark]** | Use of a ruler (to measure before cutting);** [1 mark]** |\n| Stems were measured at different times; **[1 mark]** | Stagger the start of the investigation; **[1 mark]** |\n| Difficult to measure the distance between ends; **[1 mark]** | Use a magnifier (to see more clearly); **[1 mark]** |\n| The starting distance is not known / the stem diameter varies; **[1 mark]** | Measure the gap/diameter, before timing; **[1 mark]** |\n| Evaporation of salt solutions (can affect the concentration); **[1 mark]** | Cover the Petri dishes; **[1 mark]** |\n| The stem rings change during measurement; **[1 mark]** | Keep the rings in the solution; **[1 mark]** |\n| Stems may get mixed up;** [1 mark]** | Label the stems; **[1 mark]** |\n\n*The improvement must match the stated error in order to receive full marks.*\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_D3sQ2WzQCJVxkw5J",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/63",
+      "question_number": 1,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_VTzh9khD4dMpywHJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe measured length of AB on Fig. 5 is 28 mm.\n\nCalculate the actual length of AB using the following equation:\n\nmagnification = measured length of AB / actual length of AB\n\nFig. 5 shows a section through a hollow plant stem observed through a light microscope.\n\n![p63fig1-5](assets/023-p63fig1-5.png)\n\n**Fig. 5**\n\nThe measured length of **AB** on Fig. 5 is 28 mm.\n\nCalculate the actual length of **AB** using the following equation:\n\n$\\mathrm{magnification}=\\frac{\\mathrm{measured} \\mathrm{length} \\mathrm{of} \\mathrm{AB}}{\\mathrm{actual} \\mathrm{length} \\mathrm{of} \\mathrm{AB}}$\n\nShow your working.",
+     "solution_md": "The actual length of **AB** can be calculated as follows...\n\n- 28 ÷ 50; **[1 mark]**\n- 0.56; **[1 mark]**\n\n*Accept correct values in cm or µm.* *Full marks awarded for the correct answer in the absence of calculations.*\n\n**[Total: 2 marks]**\n\n> *Note that this question was adapted from the original to include the measured length of **AB**. This is due to the challenge of accurately measuring from a screen. In the exam you would have been expected to make the measurement yourself, so don't forget that ruler!*\n\n![p63q1fma](assets/024-p63q1fma.png)",
+     "equations": [
+      {
+       "latex": "\\mathrm{magnification}=\\frac{\\mathrm{measured} \\mathrm{length} \\mathrm{of} \\mathrm{AB}}{\\mathrm{actual} \\mathrm{length} \\mathrm{of} \\mathrm{AB}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>magnification</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>measured</mi><mo> </mo><mi>length</mi><mo> </mo><mi>of</mi><mo> </mo><mi mathvariant=\"bold\">AB</mi></mrow><mrow><mi>actual</mi><mo> </mo><mi>length</mi><mo> </mo><mi>of</mi><mo> </mo><mi mathvariant=\"bold\">AB</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "magnification space equals space fraction numerator measured space length space of space bold AB over denominator actual space length space of space bold AB end fraction"
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "qstn_KvHFC7JxbsNXGW8D",
    "set_slug": "multiple-choice-questions",
@@ -129,7 +575,7 @@
       "spcpt_Pw3NYqTnYDxkPQn9"
      ],
      "part_tier": "extended_only",
-     "problem_md": "The diagram shows a root hair cell.\n\n![Diagram of a root hair cell.](assets/001-diagram-of-a-root-hair-cell.png)\n\nWhich row correctly matches each labelled part to its role in active transport?\n\n|   | Structure needed for moving ions | Structure supplying energy |\n|---|---|---|\n| **A** | P | R |\n| **B** | S | Q |\n| **C** | R | P |\n| **D** | P | Q |",
+     "problem_md": "The diagram shows a root hair cell.\n\n![Diagram of a root hair cell.](assets/025-diagram-of-a-root-hair-cell.png)\n\nWhich row correctly matches each labelled part to its role in active transport?\n\n|   | Structure needed for moving ions | Structure supplying energy |\n|---|---|---|\n| **A** | P | R |\n| **B** | S | Q |\n| **C** | R | P |\n| **D** | P | Q |",
      "solution_md": "**Final answer:** **The correct answer is ****A.**\n\n- **P = carrier protein: **this is the structure needed to move ions by active transport\n- **R = mitochondrion:*** *this is the structure that releases energy through respiration\n\nThe other answers are incorrect because** Q = ions: **these are the substances the cell takes up, and **S = cell wall: **this is the freely permeable outer layer of the plant cell.",
      "choices": [
       {
@@ -280,7 +726,7 @@
       "spcpt_5hV5kjJHpS3SK7Q2"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows glucose molecules moving from the lumen of the intestines into surrounding epithelial cells.\n\n![Diagram of a cell membrane with a carrier molecule transporting particles from outside to inside. Pathway shown by yellow arrow through a pink channel.](assets/002-diagram-of-a-cell-membrane-with-a-carrier-molecu.png)\n\nWhich row correctly describes the movement of glucose shown?\n\n|   | **type of transport** | **Against concentration gradient?** | **ATP required** |\n|---|---|---|---|\n| **A** | osmosis | yes | no |\n| **B** | active transport | no | yes |\n| **C** | active transport | yes | yes |\n| **D** | diffusion | no | no |",
+     "problem_md": "The diagram below shows glucose molecules moving from the lumen of the intestines into surrounding epithelial cells.\n\n![Diagram of a cell membrane with a carrier molecule transporting particles from outside to inside. Pathway shown by yellow arrow through a pink channel.](assets/026-diagram-of-a-cell-membrane-with-a-carrier-molecu.png)\n\nWhich row correctly describes the movement of glucose shown?\n\n|   | **type of transport** | **Against concentration gradient?** | **ATP required** |\n|---|---|---|---|\n| **A** | osmosis | yes | no |\n| **B** | active transport | no | yes |\n| **C** | active transport | yes | yes |\n| **D** | diffusion | no | no |",
      "solution_md": "**Final answer:** **The correct answer is C.**\n\n- The diagram shows glucose molecules moving from a lower concentration outside the cell to a higher concentration inside the cell, i.e. against a concentration gradient\n- This requires energy from respiration in the form of ATP, and uses carrier molecules in the membrane — this is active transport\n\n**A** is incorrect as osmosis is the movement of water molecules only, not glucose. Osmosis occurs down a water potential gradient, not against the gradient.\n\n**B** is incorrect as active transport moves particles against a concentration gradient, not with it.\n\n**D** is incorrect as diffusion does not occur against a concentration gradient. The movement shown in the diagram is from a region of lower concentration to a region of higher concentration, so rules out diffusion.",
      "choices": [
       {
@@ -433,7 +879,7 @@
       "spcpt_PmhYqrW5gdnXdnmp"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a section through a mesophyll cell of a leaf.\n\nWhich part is partially permeable?\n\n![Diagram of a plant cell with labels A, B, C, D pointing to various parts including a large central vacuole and smaller circular structures representing organelles.](assets/003-diagram-of-a-plant-cell-with-labels-a-b-c-d-poin.png)",
+     "problem_md": "The diagram shows a section through a mesophyll cell of a leaf.\n\nWhich part is partially permeable?\n\n![Diagram of a plant cell with labels A, B, C, D pointing to various parts including a large central vacuole and smaller circular structures representing organelles.](assets/027-diagram-of-a-plant-cell-with-labels-a-b-c-d-poin.png)",
      "solution_md": "**Final answer:** **The correct answer is ****B****.**\n\n- This is because this is indicating the cell membrane, which is a partially permeable membrane\n\n**A** is incorrect because this is the cell wall, which is not partially permeable.\n\n**C** is incorrect because this is the chloroplast, which is not partially permeable.\n\n**D** is incorrect because this is the vacuole, which is not partially permeable.",
      "choices": [
       {
@@ -638,7 +1084,7 @@
       "spcpt_m26wn5DRF5xHfB5p"
      ],
      "part_tier": null,
-     "problem_md": "Four freshly cut potato cylinders were soaked for one hour in different salt solutions The potato cylinders were then pinned to cork blocks. Two of the potato cylinders are shown.\n\n![3-1-image-hq6](assets/004-3-1-image-hq6.png)\n\nWhich solution would cause the potato cylinder to be the most flaccid?",
+     "problem_md": "Four freshly cut potato cylinders were soaked for one hour in different salt solutions The potato cylinders were then pinned to cork blocks. Two of the potato cylinders are shown.\n\n![3-1-image-hq6](assets/028-3-1-image-hq6.png)\n\nWhich solution would cause the potato cylinder to be the most flaccid?",
      "solution_md": "**Final answer:** **The correct answer is D.**\n\n- This is because in the high concentration salt solution the water will move out of the potato cells by osmosis down the water potential gradient\n- When water leaves the potato cells it causes them to become flaccid\n\n**A**, **B** and **C** are incorrect because the lower the concentration of salt solution the less water will leave the potato cells by osmosis so the cells will be less flaccid",
      "choices": [
       {
@@ -943,7 +1389,7 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe image below shows molecules in two solutions separated by a membrane.\n\n![picture10](assets/005-picture10.png)\n\nIn which direction would there be movement?\n\n|   | water molecules | solute molecules |\n|---|---|---|\n| **A** | right to left | no net movement |\n| **B** | left to right | right to left |\n| **C** | left to right | no net movement |\n| **D** | right to left | left to right |",
+     "problem_md": "#### Extended only\n\nThe image below shows molecules in two solutions separated by a membrane.\n\n![picture10](assets/029-picture10.png)\n\nIn which direction would there be movement?\n\n|   | water molecules | solute molecules |\n|---|---|---|\n| **A** | right to left | no net movement |\n| **B** | left to right | right to left |\n| **C** | left to right | no net movement |\n| **D** | right to left | left to right |",
      "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\nThe membrane is fully **permeable**, so the water and solute molecules can move according to their concentration gradients. For the water molecules, this would mean movement happening from the right (high concentration) to the left (low concentration). For the solute molecules, this would mean movement happening from the left (high concentration) to the right (low concentration).\n\n**A **and** C** are incorrect because the solute molecules will be able to cross a fully permeable membrane so there will be net movement from left to right.\n\n**B** is incorrect because the movement for both water and solute molecules will be in the opposite direction to what is indicated in the table.",
      "choices": [
       {
@@ -994,7 +1440,7 @@
       "spcpt_PmhYqrW5gdnXdnmp"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe image below shows two solutions separated by a partially permeable membrane.\n\n![picture7](assets/006-picture7.png)\n\nWhich of the statements below would be true in relation to the image?",
+     "problem_md": "#### Extended only\n\nThe image below shows two solutions separated by a partially permeable membrane.\n\n![picture7](assets/030-picture7.png)\n\nWhich of the statements below would be true in relation to the image?",
      "solution_md": "**Final answer:** **The correct answer is ****B**** (There would be movement of water molecules from W to X) because:**\n\n- Osmosis is the **net** movement of water molecules from a region of higher water potential (dilute solution) to a region of lower water potential (concentrated solution), through a partially permeable membrane\n- Net movement’ means ‘overall movement’ - **more **water molecules will move from solution W to solution X, but water molecules are able to move in either direction (they don’t choose to move from one solution to another, because they can’t tell if the solution they’re in is dilute or concentrated)\n\n**A** is incorrect because the net movement of water would be from W (dilute solution) to X (concentrated solution).\n\n**C** is incorrect because osmosis only refers to the movement of water molecules, not sugar molecules.\n\n**D** is incorrect because solution X is more concentrated than W since there are more sugar molecules and less free water molecules in X.",
      "choices": [
       {
@@ -1044,7 +1490,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "Which of the statements below correctly describes the importance of osmosis in plant tissues?",
-     "solution_md": "**Final answer:** **The correct answer is ****B**** (Plants are supported by the pressure of water inside the cells pressing outwards on the cell wall) because:**\n\nWhen plant cells become turgid, the cell membrane pushes against the cell wall, this increases the turgor pressure providing strength and support.\n\n![turgor](assets/007-turgor.png)",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** (Plants are supported by the pressure of water inside the cells pressing outwards on the cell wall) because:**\n\nWhen plant cells become turgid, the cell membrane pushes against the cell wall, this increases the turgor pressure providing strength and support.\n\n![turgor](assets/031-turgor.png)",
      "choices": [
       {
        "label": "A",
@@ -1196,7 +1642,7 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "The image below shows part of a cross-section through a leaf.\n\n![picture9](assets/008-picture9.png)\n\nWhich row of the table below correctly shows the movement of various substances?\n\n|   | evaporation of water | movement of water by osmosis | diffusion of water vapour |\n|---|---|---|---|\n| **A** | 3 | 1 | 2 |\n| **B** | 2 | 3 | 1 |\n| **C** | 3 | 2 | 1 |\n| **D** | 2 | 1 | 3 |",
+     "problem_md": "The image below shows part of a cross-section through a leaf.\n\n![picture9](assets/032-picture9.png)\n\nWhich row of the table below correctly shows the movement of various substances?\n\n|   | evaporation of water | movement of water by osmosis | diffusion of water vapour |\n|---|---|---|---|\n| **A** | 3 | 1 | 2 |\n| **B** | 2 | 3 | 1 |\n| **C** | 3 | 2 | 1 |\n| **D** | 2 | 1 | 3 |",
      "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\n- 1 shows the movement of water from cell to cell. Osmosis is the special diffusion of water molecules from a region of high water potential to a region of lower water potential, through a partially permeable membrane. This means that osmosis occurs when water is moving into or out of a cell\n- 2 shows the evaporation of water from the surface of a spongy mesophyll into an air space inside the leaf\n- 3 shows the diffusion of water vapour (a gas) out of the leaf through the stomata",
      "choices": [
       {
@@ -1349,7 +1795,7 @@
       "spcpt_mpCWHqP24s9pMgwG"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe image below shows a leaf palisade cell:\n\n![A_J~Ah-X_plant-cell](assets/009-a-j-ah-x-plant-cell.png)\n\nWhat would the correct appearance of the leaf palisade cell be after it has been placed in a highly concentrated solution of sugar after an hour?",
+     "problem_md": "#### Extended only\n\nThe image below shows a leaf palisade cell:\n\n![A_J~Ah-X_plant-cell](assets/033-a-j-ah-x-plant-cell.png)\n\nWhat would the correct appearance of the leaf palisade cell be after it has been placed in a highly concentrated solution of sugar after an hour?",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\nThis is because the solution surrounding the leaf cell is more concentrated than the solution inside the leaf cell (which is more dilute). Therefore water moves out of the cell through the partially permeable membrane. The solution surrounding the leaf cell is more concentrated than the solution inside the leaf cell (which is more dilute), so water moves out of the cell through the partially permeable membrane. The cell membrane shrinks and pulls away from the cell wall due to a process called plasmolysis.",
      "choices": [
       {
@@ -1578,6 +2024,1370 @@
        "text_md": "The movement of water through a partially permeable membrane from a more dilute to a more concentrated solution."
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pN2wpJChbJk82qVH",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_6vH4GMhRCD5j5D4D",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 3 ",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Smzm56zRCYyG6zfQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1.1 is a diagram of a plant cell.\n\n![Diagram of a plant cell featuring labelled parts: thick cell wall (A), large central vacuole (B), chloroplast (C), round nucleus (D), and cell membrane (E).](assets/034-diagram-of-a-plant-cell-featuring-labelled-parts.png)\n\nThe boxes on the left contain the letters that identify some parts of the plant cell in Fig. 1.1.\n\nThe boxes on the right show the functions of some parts of a cell.\n\nDraw five lines to link each letter to its correct function.\n\n![Letters A to E are matched with cell functions: A contains genetic material, B controls transport, C supports with sap, D strengthens, E photosynthesis occurs.](assets/035-letters-a-to-e-are-matched-with-cell-functions-a.png)",
+     "solution_md": "![Diagram matching cell functions with labels A-E: A contains genetic material, B controls entry/exit of substances, C supports cell, D strengthens, E photosynthesis.](assets/036-diagram-matching-cell-functions-with-labels-a-e-.png)\n\n- **[1 mark]** for each correct line\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_Db2KWjHdh3TCsGNm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_KwtZ4pxtFPR5vRnr"
+     ],
+     "part_tier": null,
+     "problem_md": "State the names of** two** different types of plant cell.",
+     "solution_md": "Any two from:\n\n- Root hair;** [1 mark]**\n- Palisade (mesophyll); **[1 mark]**\n- Spongy (mesophyll); **[1 mark]**\n- Xylem; **[1 mark]**\n- Phloem; **[1 mark]**\n- Guard; **[1 mark]**\n- (Root) cortex / cortical; **[1 mark]**\n- Epidermal / epidermis; **[1 mark]**\n- Other correctly named examples of plant cells; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_7ZQMrYstmtrXGhZJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student used a potato as a source of plant tissue. The student cut six cylinder-shaped pieces from the potato. \n\nEach potato cylinder had the same diameter. Each potato cylinder was immersed in either water or one of five different concentrations of sugar solution. \n\nThe student measured the length of the potato cylinders before immersion and after being immersed for 30 minutes. \n\nTable 1.1 shows the results.\n\nTable 1.1\n\n| concentration of sugar solution /mol per dm^3^ | length of potato cylinder before immersion /mm | length of potato cylinder after immersion /mm | change in length of potato cylinder /mm |\n| --- | --- | --- | --- |\n| 0.0 | 49.5 | 52.0 | + 2.5 |\n| 0.2 | 50.0 | 52.0 | + 2.0 |\n| 0.4 | 50.5 | 51.5 | + 1.0 |\n| 0.6 | 50.5 | 51.0 | + 0.5 |\n| 0.8 | 50.0 | 49.0 |   |\n| 1.0 | 50.0 | 48.5 | – 1.5 |\n\nA student used a potato as a source of plant tissue. The student cut six cylinder-shaped pieces from the potato.\n\nEach potato cylinder had the same diameter. Each potato cylinder was immersed in either water or one of five different concentrations of sugar solution.\n\nThe student measured the length of the potato cylinders before immersion and after being immersed for 30 minutes.\n\nTable 1.1 shows the results.\n\n**Table 1.1**\n\n| concentration of sugar solution /mol per dm<sup>3</sup> | length of potato cylinder before immersion /mm | length of potato cylinder after immersion /mm | change in length of potato cylinder /mm |\n|---|---|---|---|\n| 0.0 | 49.5 | 52.0 | + 2.5 |\n| 0.2 | 50.0 | 52.0 | + 2.0 |\n| 0.4 | 50.5 | 51.5 | + 1.0 |\n| 0.6 | 50.5 | 51.0 | + 0.5 |\n| 0.8 | 50.0 | 49.0 |   |\n| 1.0 | 50.0 | 48.5 | – 1.5 |\n\n(i) Use the information in Table 1.1 to calculate the change in length of the potato cylinder immersed in the 0.8mol per dm<sup>3</sup> sugar solution.\n\n................................................... mm [1]\n\n(ii) Use the information in Table 1.1 to calculate the percentage increase in length of the potato cylinder immersed in the 0.2mol per dm<sup>3</sup> sugar solution\n\n. ............................................................ % [2]",
+     "solution_md": "(i)\n\n- –1.0 / –1 (mm); **[1 mark]**\n\n![Table 1.1 showing the effect of sugar solution concentration on potato cylinder length before and after immersion, with calculated changes in length.](assets/037-table-1-1-showing-the-effect-of-sugar-solution-c.png)\n\n(ii)\n\n- $\\frac{2}{50}\\times100$; **[1 mark]**\n- 4 (%); **[1 mark]**\n\n*Award full marks for correct answer in the absence of other calculations.*\n\n![Table showing the effect of sugar solution concentrations on potato cylinder length with handwritten percentage change calculation and noted marks.](assets/038-table-showing-the-effect-of-sugar-solution-conce.png)\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "\\frac{2}{50}\\times100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>2</mn><mn>50</mn></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 over 50 cross times 100"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zg8VpyYpFNHYv7hX",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2022",
+      "number": "paper 6 ",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student used a potato as a source of plant tissue. The student cut six cylinder-shaped pieces from the potato.  Each potato cylinder had the same diameter. Each potato cylinder was immersed in either water or one of five different concentrations of sugar solution.  The student measured the length of the potato cylinders before immersion and after being immersed for 30 minutes.  Table 1.1 shows the results.\n\nState the name of the process that causes water to enter or leave the potato cells.",
+     "solution_md": "- Osmosis; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_KRnS4gB5Nw997zMc",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 1,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEach potato cylinder was immersed in either water or one of five different concentrations of sugar solution. The student measured the length of the potato cylinders before immersion and after being immersed for 30 minutes. Table 1.1 shows the results.\n\n| concentration of sugar solution /mol per dm^3^ | length of potato cylinder before immersion /mm | length of potato cylinder after immersion /mm | change in length of potato cylinder /mm |\n| --- | --- | --- | --- |\n| ... |\n| 1.0 | 50.0 | 48.5 | – 1.5 |\n\nDescribe the expected change in appearance of a potato cell that was immersed in a 1.0mol per dm<sup>3</sup> sugar solution.",
+     "solution_md": "- The cell / cytoplasm / vacuole will shrink;** [1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZY857KBtWCjmCvsC",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_r9fSTfmpWd2yb95r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD",
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of scientists investigated the rates of absorption of different sugars using two pieces of the intestine.\n\nOne of these pieces were treated with cyanide, which is a toxin that prevents cellular respiration from occurring.\n\nThe results of the investigation are shown in Table 1.\n\n**Table 1**\n\n| sugar | absorption rate / arbitrary units |   |\n|---|---|---|\n| healthy intestine | intestine treated with cyanide |   |\n| A | 121 | 62 |\n| B | 47 | 45 |\n| C | 68 | 67 |\n| D | 89 | 35 |\n\nSuggest the method by which sugar **A**, **B** and **C** are absorbed by the intestine.",
+     "solution_md": "The method by which sugar **A**, **B** and **C** are absorbed is...\n\n- **A** = active transport; **[1 mark]**\n- **B** = diffusion; **[1 mark]**\n- **C** = diffusion; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *With sugar solution A you can see that in the healthy intestine, the rate of absorption was much higher than in the cyanide treated intestine. This is an indication that this absorption must have been carried out by active transport which requires ATP from respiration. If the cells cannot respire because they have been treated with cyanide, then they cannot carry out active transport, hence the lower absorption with this sugar. *"
+    },
+    {
+     "id": "qstnprt_xTQNthbsS6CHz5km",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of scientists investigated the rates of absorption of different sugars using two pieces of the intestine. One of these pieces were treated with cyanide, which is a toxin that prevents cellular respiration from occurring. The results of the investigation are shown in Table 1.\n\nTable 1\n| sugar | absorption rate / arbitrary units |\n| healthy intestine | intestine treated with cyanide |\n| A | 121 | 62 |\n| B | 47 | 45 |\n| C | 68 | 67 |\n| D | 89 | 35 |\n\nThe scientists concluded that sugar **D** is absorbed by active transport.\n\nExplain how they came to this conclusion by using evidence from Table 1.",
+     "solution_md": "The conclusion of the scientists can be explained as follows...\n\nAny **three** of the following:\n\n- The absorption rate of sugar **D** decreased in the intestine treated with cyanide; **[1 mark]**\n- There would be less/no energy available (as cyanide prevents cellular respiration); **[1 mark]**\n- Active transport / carrier protein requires energy; **[1 mark]**\n- To move substances/sugar **D** against its concentration gradient; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The fact that the absorption rate of sugar **D** decreased dramatically in the intestine treated with cyanide indicates that it moves across the intestinal wall by active transport. The carrier proteins will not function if no energy in the form of ATP is available leading to fewer or no molecules of sugar **D** being absorbed.*"
+    },
+    {
+     "id": "qstnprt_nTC4rY58twYMR3wN",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of scientists investigated the rates of absorption of different sugars using two pieces of the intestine.\n\nOne of these pieces were treated with cyanide, which is a toxin that prevents cellular respiration from occurring.\n\nThe results of the investigation are shown in Table 1.\n\nTable 1\n\n| sugar | absorption rate / arbitrary units |\n| healthy intestine | intestine treated with cyanide |\n| A | 121 | 62 |\n| B | 47 | 45 |\n| C | 68 | 67 |\n| D | 89 | 35 |\n\nOne of the scientists states that 'All four of the sugars investigated could be absorbed by diffusion'.\n\nDetermine whether this statement is correct by using the information in Table 1 and your knowledge of diffusion.",
+     "solution_md": "This statement...\n\n- Is correct because all four sugars were absorbed in the intestine treated with cyanide; **[1 mark]**\n- (This is because) diffusion is a passive process that does not require energy from respiration; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Initially sugars **A** and **D** most likely could be absorbed via diffusion as the sugar concentration outside the intestine (lumen) was higher (this is shown by the higher absorbency rates in the table). Once the concentration of sugar was lower outside the intestine it would have to be taken up via active transport (as it is against the concentration gradient) which was prevented in the intestine treated with cyanide.*"
+    },
+    {
+     "id": "qstnprt_R2F4kXvts7PdVGGZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nThe wall of the intestine contains smooth muscle cells which convert glucose into glycogen. Glycogen is insoluble in water which makes it very suitable as an energy storage molecule.\n\nUsing your knowledge of osmosis, suggest an explanation as to why it is important for glucose to be stored as glycogen in muscle cells.",
+     "solution_md": "It is important to convert glucose into glycogen for storage because...\n\nAny **four** of the following:\n\n- Glucose will lower the water potential of cells; **[1 mark]**\n- This would cause water to move into cells containing high concentrations of glucose; **[1 mark]**\n- Animal/muscle cells do not have a cell wall; **[1 mark]**\n- The cell will lyse/burst if too much water moves in by osmosis; **[1 mark]**\n- Glycogen will not affect the water potential of a cell (as it is insoluble); **[1 mark]**\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wjr2ZDmbbwGJ6nhD",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_sF9qWvCTDSYNGWZg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nFig. 1 shows two plant cells, each placed in a solution with a different concentration.\n\n![plant-cells_hypertonic](assets/039-plant-cells-hypertonic.png)\n\n**Fig. 1**\n\nWhich of the plant cells above (**A** or **B**) was placed in a solution that was more dilute than the cell contents?",
+     "solution_md": "The cell that was placed in a solution that was more dilute than the cell contents was...\n\n- (cell) B; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *When cells are placed in a solution that is more dilute than their cytoplasm, also known as a hypotonic solution, there is a net movement of water into the cell causing it to swell. The opposite happens when cells are placed in a solution that is more concentrated than the cell contents.*"
+    },
+    {
+     "id": "qstnprt_c4RYc3bGThtNptP2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe cell that was placed in a solution that was more dilute than the cell contents was...\n- (cell) B; [1 mark]\n\nWhen cells are placed in a solution that is more dilute than their cytoplasm, also known as a hypotonic solution, there is a net movement of water into the cell causing it to swell.\n\n#### Extended only\n\nExplain what has happened to the plant cell you identified in part (a).",
+     "solution_md": "The plant cell placed in the dilute solution has...\n\nAny **four **of the following:\n\n- Become turgid/swollen; **[1 mark]**\n- Because water has entered the cell by <u>osmosis</u>; **[1 mark]**\n- From a more dilute to a concentrated solution / from a solution with a higher water potential to a solution with a lower water potential; **[1 mark]**\n- Via a partially permeable membrane; **[1 mark]**\n- The cell membrane is exerting pressure on the cell wall; **[1 mark]**\n\n*Accept reference to 'turgor pressure' at marking point 5*\n\n**Final answer:** **[Total: 4 marks]**\n\n> *The solution surrounding the cell has a higher water potential (is more dilute) than the intracellular environment of the plant cell. Water will always move from an area of a more dilute solution to an area of a more concentrated solution, therefore, there is a net movement of water into the cell which swells up becoming turgid. This only happens in plant cells; an animal cell would swell then burst/lyse because it does not have a cell wall. *\n\n> *The opposite happens when the cell is placed in a concentrated solution that has a lower water potential than inside the cell. Consequently, water moves out of the cell which becomes plasmolysed (shrinks).*"
+    },
+    {
+     "id": "qstnprt_7zM6DJJt9xBVq9g8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe plant cell placed in the dilute solution has...\n\nAny four of the following:\n\n- Become turgid/swollen; [1 mark]\n- Because water has entered the cell by osmosis; [1 mark]\n- From a more dilute to a concentrated solution / from a solution with a higher water potential to a solution with a lower water potential; [1 mark]\n- Via a partially permeable membrane; [1 mark]\n- The cell membrane is exerting pressure on the cell wall; [1 mark]\n\nThe solution surrounding the cell has a higher water potential (is more dilute) than the intracellular environment of the plant cell. Water will always move from an area of a more dilute solution to an area of a more concentrated solution, therefore, there is a net movement of water into the cell which swells up becoming turgid. This only happens in plant cells; an animal cell would swell then burst/lyse because it does not have a cell wall.\n\n#### Extended only\n\nWhen placed in different solutions, animal cells will also change.\n\nFig. 2** **below** **shows a red blood cell.\n\n![red-blood-cell](assets/040-red-blood-cell.png)\n\n**Fig. 2**\n\n(i)\n\nDescribe what would happen if a red blood cell was placed in a solution that was more dilute than the cell contents.\n\n[2]\n\n(ii)\n\nExplain why the description at part (i) would be different from what would happen to a plant cell.\n\n[2]",
+     "solution_md": "(i) When a red blood cell is placed in a dilute solution...\n\n- The red blood cell would lyse/burst;** [1 mark]**\n- Due to an influx of water by osmosis;** [1 mark]**\n\n(ii) This is different to the events occurring in a plant cell because...\n\n- Animal cells do not have a cell wall **OR** plant cells have a cell wall; **[1 mark]**\n- Which allows plant cells to become turgid without bursting / the pressure created (by the cell wall) prevents water entering (and prevents cell bursting/lysis); **[1 mark] **\n\n**[Total: 4 marks]**\n\n> *Take care to note the command words used here, you only need to describe (and not explain) what happens to the red blood cell, but you must explain how the reaction of a plant cell in the same situation would be different.*"
+    },
+    {
+     "id": "qstnprt_7CCJ4ckdC8VzwtVc",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_KwtZ4pxtFPR5vRnr"
+     ],
+     "part_tier": null,
+     "problem_md": "Hereditary spherocytosis is a rare inherited condition that produces red blood cells with an abnormal spherical shape, as shown in Fig. 3.\n\n![red-blood-cell_spherocytosis](assets/041-red-blood-cell-spherocytosis.png)\n\n**Fig. 3**\n\nSuggest the possible impact of this condition on a sufferer.",
+     "solution_md": "The impact of hereditary spherocytosis would be:\n\nAny **three** of the following:\n\n- Spherical red blood cells have reduced/decreased surface area, which reduces (the efficiency of) diffusion of oxygen from the lungs; **[1 mark] **\n- Spherical red blood cells transport less oxygen around the body; **[1 mark] **\n- Less oxygen is available for respiration; **[1 mark] **\n- Reducing the availability of energy in the cells of the sufferer; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Here you are presented with an unfamiliar context, and you are expected to apply what you know about red blood cells to consider the effect that a change in the shape would have. You should know that the biconcave shape of red blood cells is vitally important in increasing surface area to volume ratio of each cell so that diffusion of oxygen (and carbon dioxide) is maximised.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_s4krJjnfvz8Q4Qzx",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_cm8kss8XfQ25DdCW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows the process of active transport.\n\n![active transport](assets/042-active-transport.png)\n\n**Fig. 1**\n\nState **two** differences between active transport and diffusion.",
+     "solution_md": "Differences between active transport and diffusion would include...\n\n- (In active transport) movement of particles occur from a region of lower concentration to a region of higher concentration **WHILE** in diffusion it occurs from a region of higher concentration to a region of lower concentration; **[1 mark]**\n- (Active transport) requires energy/ATP (from respiration) **WHILE** diffusion does not / is a passive process; **[1 mark]**\n\n*Accept reference to movement of particles occurring against the concentration gradient in active transport while movement occurs down the concentration gradient in diffusion for marking point 1*\n\n*Award ***[1 mark]*** for reference to active transport requiring protein carriers while diffusion does not*\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_8zDtyThcXwxBNnTF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Pw3NYqTnYDxkPQn9",
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nMolecule **X** in Fig. 1 enters the cell by active transport.\n\nGive **one** example of molecule **X**.",
+     "solution_md": "An example of molecule **X** would include...\n\nAny **one** of the following:\n\n- Glucose; **[1 mark]**\n- Mineral ions / named example e.g. calcium / magnesium ions; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_Qx77nS4tgbCyFFNP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNTrwszyVryZCrxD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows the process of active transport.\n\n(In active transport) movement of particles occur from a region of lower concentration to a region of higher concentration WHILE in diffusion it occurs from a region of higher concentration to a region of lower concentration; (Active transport) requires energy/ATP (from respiration) WHILE diffusion does not / is a passive process; Award [1 mark] for reference to active transport requiring protein carriers while diffusion does not\n\nMolecule **X** from Fig. 1 requires a carrier protein to enter the cell.\n\nDescribe the role of a carrier protein in active transport.",
+     "solution_md": "The role of a carrier protein in active transport includes...\n\nAny **three **of the following:\n\n- Substance/molecule **X** combines with the carrier protein (in the cell membrane); **[1 mark]**\n- (The carrier protein) uses energy from respiration to give it more kinetic energy; **[1 mark]**\n- (This results in) the carrier protein changing shape; **[1 mark]**\n- To transport substance/molecule **X** across the cell membrane / against its concentration gradient; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PyC9W7sHkXzBj6Jd",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_JMZFXVrCxYBTwgYd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nDiabetes insipidus is a disease that results in a large amount of dilute urine being excreted by the kidneys. This leads to blood which is more concentrated than normal.\n\nExplain the effect that diabetes insipidus may have on red blood cells.",
+     "solution_md": "The effect of diabetes insipidus on red blood cells includes...\n\n- Red blood cells will have a higher water potential than the blood (plasma) **OR** the blood (plasma) will have a lower water potential than the red blood cells; **[1 mark]**\n- There will be a net movement of water out of the red blood cells by osmosis; **[1 mark]**\n- The red blood cells will become shrivelled/crenated; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *This is another application type question which requires you to use your knowledge of osmosis in an unfamiliar scenario.*"
+    },
+    {
+     "id": "qstnprt_32TvP7jmYHwbMvYS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_KwtZ4pxtFPR5vRnr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDiabetes insipidus is a disease that results in a large amount of dilute urine being excreted by the kidneys. This leads to blood which is more concentrated than normal.\n\nThe effect of diabetes insipidus on red blood cells includes...\n\n- Red blood cells will have a higher water potential than the blood (plasma) OR the blood (plasma) will have a lower water potential than the red blood cells; \n- There will be a net movement of water out of the red blood cells by osmosis; \n- The red blood cells will become shrivelled/crenated;\n\nOne of the symptoms of diabetes insipidus is blue fingernails, which indicates a lack of oxygen.\n\nSuggest an explanation for this.",
+     "solution_md": "Diabetes insipidus may lead to blue fingernails because...\n\nAny **two** of the following:\n\n- Shrivelled/crenated red blood cells will have a smaller surface area (than normal red blood cells); **[1 mark]**\n- This will decrease the amount of oxygen able to diffuse into the red blood cell; **[1 mark]**\n- Less oxygen reaches / blood carries less oxygen to the cells of the fingers (leading to a blue colour); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *A large surface area makes red blood cells very efficient at transporting oxygen to cells. If their shape changes in any way that leads to a reduced surface area, it will negatively affect the amount of oxygen that it can bring to cells.*"
+    },
+    {
+     "id": "qstnprt_gNfpshfhC3ZNK72Z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe study was done at a hospital and included men and women between the ages of 45 and 65 that were admitted with bone fractures.\n- Men and women were divided up into two groups each; those with diabetes insipidus and those without.\n- Each of the four groups consisted of 250 individuals.\n- The data gathered was used to calculate the percentage prevalence of fractures in each group.\n\nFig. 1 shows the results of this study.\n\n[From Fig. 1:]\n- Percentage prevalence of fractures in men with diabetes insipidus: 39%\n- Percentage prevalence of fractures in men without diabetes insipidus: 27%\n\nCentral diabetes insipidus is a form of the disease that is believed to have a negative effect on the bone density of a sufferer which may leave them with an increased risk of sustaining fractures.\n\nA study was conducted on the effect of central diabetes insipidus on the risk of sustaining fractures.\n\nThe study was done at a hospital and included men and women between the ages of 45 and 65 that were admitted with bone fractures.\n\n- Men and women were divided up into two groups each; those with diabetes insipidus and those without.\n- Each of the four groups consisted of 250 individuals.\n- The data gathered was used to calculate the percentage prevalence of fractures in each group.\n\nFig. 1 shows the results of this study.\n\n![emvts0eg-picture2](assets/043-emvts0eg-picture2.png)\n\n**Fig. 1**\n\nCalculate the difference in the number of men suffering from fractures between those with diabetes insipidus and those without. Show your calculations.",
+     "solution_md": "The number of men suffering from fractures can be calculated as follows...\n\n- (250 x 0.39) - (250 x 0.27); **[1 mark]**\n- 97.5 - 67.5; **[1 mark]**\n- 30; **[1 mark]**\n\n**OR**\n\n- (0.39 - 0.27) = 0.12; **[1 mark]**\n- 0.12 x 250; **[1 mark]**\n- 30; **[1 mark]**\n\n**[Total: 3 marks]**\n\n![tWO5ZkyH_picture2](assets/044-two5zkyh-picture2.png)"
+    },
+    {
+     "id": "qstnprt_QmjhZmv8pSW85T8r",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "evaluate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA study was conducted on the effect of central diabetes insipidus on the risk of sustaining fractures.\n\nThe study was done at a hospital and included men and women between the ages of 45 and 65 that were admitted with bone fractures.\n\n- Men and women were divided up into two groups each; those with diabetes insipidus and those without.\n- Each of the four groups consisted of 250 individuals.\n- The data gathered was used to calculate the percentage prevalence of fractures in each group.\n\nFig. 1 shows the results of this study.\n\n[Figure shows percentage prevalence of fractures in men and women with and without diabetes insipidus: Men with DI: 39%, Men without DI: 27%, Women with DI: 35%, Women without DI: 35%]\n\nThe scientists concluded that diabetes insipidus does increase the risk of sustaining fractures.\n\nEvaluate this conclusion.",
+     "solution_md": "The conclusion can be evaluated as follows...\n\nAny **four** of the following:\n\n- Men with diabetes insipidus did sustain more fractures than men without; **[1 mark]**\n- There were no difference in the percentage fractures sustained by women with and without diabetes insipidus; **[1 mark]**\n- No statistical analysis were done so there is no way of knowing whether the difference (in the male groups) were significant; **[1 mark]**\n- Only one hospital/area was studied **OR** the study should have been done at more than one hospital/area; **[1 mark]**\n- A small sample size were studied **OR** the study should be repeated with a larger sample size; **[1 mark]**\n- Only individuals between the ages of 45 and 65 were included **OR** a wider range of ages should have been included in the study; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Remember that for an evaluate question you need to look at the results and state points that support the conclusion, as well as anything that would not support the conclusion that was drawn.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pMhcBJjVBpk7bgkC",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_S2Mpzz8k3CyQKjTD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Molecules may move by the process of diffusion.\n\nDefine the term 'diffusion'.",
+     "solution_md": "Diffusion is...\n\n- (The movement of molecules) from a region of its higher concentration to a region of its lower concentration / down a concentration gradient; **[1 mark]**\n- (This is) as a result of their random movement / Brownian motion; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_HnB26tbyGwxFvqYW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Give **two** reasons why diffusion is important to living organisms.",
+     "solution_md": "Reasons why diffusion is important to living organisms include...\n\nAny **two** of the following:\n\n- (It helps them) obtain the substances they require (to live / function); **[1 mark]**\n- (It helps them) get rid of their waste products; **[1 mark]**\n- It allows gas exchange (to occur) for respiration; **[1 mark]**\n\n*Allow named examples of substances required or waste products produced by living organisms at marking points 1 and 2*\n\n**[Total: 2 marks]**\n\n> *In multicellular organisms, diffusion is the process by which required substances (such as glucose and oxygen) and waste products (such as carbon dioxide and urea) move between the cells and the transport system (such as the capillaries of the blood system in mammals). This ensures that the cells receive the substances they need to function while the waste products they produce will be transported away to the organs that will excrete it from the body.*"
+    },
+    {
+     "id": "qstnprt_mKRyvyYdzGjt3VtY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSubstances A, B and C represents...\n\n- A = Carbon dioxide; [1 mark]\n- B = Oxygen OR water vapour; [1 mark]\n- C = Water vapour OR oxygen; [1 mark]\n\n*Do not accept 'water' as an answer for B or C*\n\nFig. 1 is a cross section through a leaf showing the movement of several substances (**A**, **B** and **C**) through the stomata during the day.\n\n![TbhePR-e_plant-tissue](assets/045-tbhepr-e-plant-tissue.png)\n\n**Fig. 1**\n\nIdentify substances **A**, **B** and **C**.",
+     "solution_md": "Substances **A**, **B** and **C** represents...\n\n- **A** = Carbon dioxide; **[1 mark]**\n- **B** = Oxygen **OR** water <u>vapour</u>; **[1 mark]**\n- **C** = Water <u>vapour</u> **OR** oxygen; **[1 mark]**\n\n*Do not accept 'water' as an answer for B or C*\n\n**[Total: 3 marks]**\n\n> *Mind your terminology here, remember that water moves by **osmosis**, not simple diffusion. Water (that came from the xylem vessels) evaporates from the mesophyll cell walls and then it diffuses out of the leaf via the stomata as water vapour.*"
+    },
+    {
+     "id": "qstnprt_tyrGZq3tRSMcw7Nr",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 is a cross section through a leaf showing the movement of several substances (A, B and C) through the stomata during the day.\nA = Carbon dioxide\n\nDescribe the movement of substance **A** in Fig. 1.",
+     "solution_md": "The movement of substance **A** can be described as follows...\n\nAny **two** of the following:\n\n- There is a higher concentration of **A**/carbon dioxide in the atmosphere compared to the air spaces between mesophyll cells; **[1 mark]**\n- **A**/carbon dioxide diffuses down its concentration gradient / moves from the atmosphere into the air spaces between mesophyll cells; **[1 mark]**\n- From there it diffuses into the mesophyll cells to reach the chloroplasts (for photosynthesis); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *During the day, the stomata remains open to allow carbon dioxide to diffuse into the leaf through the stomata, since it is needed for photosynthesis to occur. Once it is in the air spaces between the mesophyll cells it can easily diffuse across the cell membrane to reach the chloroplasts.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_P57swyvmrmXpzCnV",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_xVzvdyFZc2drWDnh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Monoglycerides are molecules made up of glycerol and one fatty acid tail. They are absorbed into the epithelial cells of the small intestine by diffusion across the cell membrane.\n\nSome people suffer from coeliac disease that affects the lining of their small intestine.\n\nFig. 1 compares the lining of the small intestine of a healthy person and a person suffering from coeliac disease.\n\n![7vNW9Erc_h-3a](assets/046-7vnw9erc-h-3a.png)\n\n**Fig. 1**\n\nBased on the information provided, explain the effect that coeliac disease would have on the absorption of monoglycerides.",
+     "solution_md": "The absorption of monoglycerides in a person suffering from coeliac disease would be affected as follows...\n\n- Less monoglycerides would be absorbed by the small intestine / there will be a decrease in the absorption of monoglycerides; **[1 mark]**\n- (This is because) there is a decreased/smaller surface area (caused by shortened villi); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *One of the reasons that the small intestine is very efficient at absorbing nutrients is because the villi creates a large surface area for diffusion to occur. It is clear that people suffering from coeliac disease would not have the same surface area available due to the fact that their villi is much shorter than in a healthy person.*"
+    },
+    {
+     "id": "qstnprt_Y4nd5m9QDdNy5pgs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2 shows the rate of uptake of monoglycerides in the small intestine.\n\n![monoglycerides-1](assets/047-monoglycerides-1.png)\n\n**Fig. 2**\n\nDescribe and explain what the graph shows.",
+     "solution_md": "The graph shows...\n\n- As the concentration of monoglycerides increases, the rate of uptake of epithelial cells increases; **[1 mark]**\n- The relationship is proportional / linear; **[1 mark]**\n- (This is because) the steeper the concentration gradient, the faster the rate of diffusion; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_Dy7k3mBcwJQbDFpR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "Human body temperature is approximately 37 °C, which provides the optimum temperature for activity of protein molecules such as enzymes.\n\nSuggest why a temperature of 37 °C helps to maximise the rate of transport of substances across the cell membrane.",
+     "solution_md": "A body temperature of 37 °C maximises transport because...\n\nAny **three **from the following:\n\n- Temperatures lower than 37 °C would result in less kinetic energy of particles (to be transported); **[1 mark]**\n- Less kinetic energy would mean slower rate of diffusion / osmosis / active transport; **[1 mark]**\n- Higher temperatures may result in damage to carrier proteins / cell membranes; **[1 mark]**\n- This could reduce the rate of transport across the membrane **OR** prevent transport across the membrane; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_6XjTfcgY86NCqv2c",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCell X: 3% sugar solution\nCell Y: 4% sugar solution\nCell Z: 5% sugar solution\n\n#### Extended only\n\nFig. 3 shows the concentration of sugars in three different cells.** X, Y** and** Z.**\n\n![osmosis-from-cell-to-cell-1](assets/048-osmosis-from-cell-to-cell-1.png)\n\n**Fig. 3**\n\nDescribe and explain the movement of water between the cells in Fig. 3.",
+     "solution_md": "The movement of water between the cells would be as follows...\n\n- Water would move from cell X and Y to cell Z **OR** water would move from cell X to cell Y and Z while water would also move from cell Y to cell Z; **[1 mark]**\n- (This movement is) by <u>osmosis</u>; **[1 mark]**\n- (This is because) cell Z has a lower water potential than cell X and Y **OR** cell Y has a lower water potential than cell X, while cell Z has a lower water potential than X and Y; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The net movement of water by osmosis will be from the cell with the most water (least sugar) to the cell with the least water (most sugar). The cell with the most water is cell **X **and the one with the least is cell **Z**. A cell with more water can be described as having a high water potential, whereas as cell with less water, and therefore more concentrated, can be described as having a lower water potential. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NpKhPzZ5RPPCFRZf",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_4cTb6hG5GcZ5fm7m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tzVtFk4vscng3q7T"
+     ],
+     "part_tier": null,
+     "problem_md": "Water is important for living organisms as many substances are able to dissolve in it.\n\nGive **two** examples of the importance of water as a solvent in living organisms.",
+     "solution_md": "The importance of water as a solvent in living organisms includes...\n\nAny **two** of the following:\n\n- Dissolved substances can be easily transported around organisms **OR** a named example e.g. xylem transporting water and mineral ions / phloem transporting sucrose and amino acids / blood transporting dissolved food molecules; **[1 mark]**\n- Digested food molecules in the alimentary canal dissolve in water to be absorbed into the blood (for transport to cells); **[1 mark]**\n- Toxic substances/urea / substances in excess can dissolve in water to be (easily) excreted in urine; **[1 mark]**\n- Ensures that metabolic reactions can occur (in solution) within cells; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Make sure to familiarise yourself with the importance of water as a solvent in living organisms as this is a question you may come across in an exam paper.*"
+    },
+    {
+     "id": "qstnprt_McZnYJv7S4SYG7bC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows water and a sugar solution separated by a partially permeable membrane.\n\n![tVhetXoo_picture3](assets/049-tvhetxoo-picture3.png)\n\n**Fig. 1**\n\nState the overall direction in which water molecules will move.",
+     "solution_md": "The overall direction of movement of water molecules will be...\n\n- From left to right / to the right / towards sugar solution; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_D3gRjtccKVgzgY2x",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "Osmosis occurred in Fig. 1.\n\nDefine the term 'osmosis'.",
+     "solution_md": "Osmosis is...\n\n- The diffusion/movement of water molecules from  from a high concentration <u>of water</u> to a low concentration <u>of water</u> / from a low <u>solute</u> concentration to a high <u>solute</u> concentration / from a dilute solution to a more concentrated solution / from high to low water potential; **[1 mark]**\n- Across a partially permeable membrane; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Remember that osmosis refers to the movement of water molecules across a partially permeable membrane. *\n\n> *When describing the direction of movement during osmosis it is essential that you specify the type of concentration that you mean, e.g. saying 'high to low concentration' is correct in terms of water, but is incorrect in terms of solutes, so you would need to specify that it is high to low **water concentration**.*"
+    },
+    {
+     "id": "qstnprt_d9dcVRnKJKxNrRMZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows water and a sugar solution separated by a partially permeable membrane.\n\nOsmosis is...\n- The diffusion/movement of water molecules from from a high concentration of water to a low concentration of water / from a low solute concentration to a high solute concentration / from a dilute solution to a more concentrated solution / from high to low water potential; [1 mark]\n- Across a partially permeable membrane; [1 mark]\n\nA second beaker, similar to the one from Fig. 1, was set up and placed in a water bath that was 10°C lower than the beaker from Fig. 1.\n\nExplain how the movement of the water molecules would be affected by this decrease in temperature.",
+     "solution_md": "The movement of the water molecules would be affected by the decrease in temperature in the following way...\n\n- (The movement / osmosis) would slow down / (water) molecules would move slower (than at higher temperature); **[1 mark]**\n- (This is because) water molecules lose (kinetic) energy (at lower temperatures) **OR** there would be less collisions against the cell membrane (and therefore a slower rate of movement across them); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Molecules move randomly due to the kinetic energy that they have. Higher temperatures will result in more energy gained by the molecules resulting in faster movement while lower temperatures would have the opposite effect.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mz3gYFy999XZ2QSX",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_wcW2yMJY27TM8zcv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows an epithelial cell found in the ileum of the digestive system.\n\n![food-molecules](assets/050-food-molecules.png)\n\n**Fig. 1**\n\nGive one visible adaptation of this cell **and **state how this would facilitate diffusion of digested food molecules.",
+     "solution_md": "One visible adaptation of the cell and how this would facilitate diffusion includes...\n\n- (The) cell membrane is highly folded **OR** contains <u>micro</u>villi; **[1 mark]**\n- To increase the surface area (for absorption/diffusion of digested food molecules); **[1 mark]**\n\n*Do not accept 'villi' as an answer at marking point 1*\n\n**[Total: 2 marks]**\n\n> *The folds in the cell membrane of these epithelial cells will allow more digested food molecules to diffuse from the lumen of the ileum into the blood capillaries of the villi than what would have been possible without them. Do not get confused between the folds / microvilli on the epithelial cells and the villi found in the small intestine. Remember that a villus is a structure found in the small intestine and its outer surface contains many epithelial cells with folded cell membranes that forms microvilli.*\n\n![villi-microvilli](assets/051-villi-microvilli.png)"
+    },
+    {
+     "id": "qstnprt_DN2mpcrGkxn27nrx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "There is a steep increase in the number of digested food molecules in the ileum.\n\nExplain the effect this would have on the rate of diffusion of these molecules.",
+     "solution_md": "The effect of a steep increase in the number of digested food molecules on the diffusion rate would be...\n\n- (The rate of diffusion would) increase; **[1 mark]**\n- (Because) there is a greater concentration gradient (of digested food molecules) across the epithelial cells **OR** there is a greater difference in concentration (of digested food molecules) on either side of the membrane; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *There will be more random collisions against the cell membrane on the side with the higher concentration of digested food molecules which will result in faster diffusion across the membrane.*"
+    },
+    {
+     "id": "qstnprt_M6KMB7ZrzKtQp9jq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Organisms must transport substances to and from the external environment.\n\nIdentify** one** substance which cells must transport across the cell membrane to support cell functions.",
+     "solution_md": "A substance that cells must transport across the cell membrane might include...\n\n**Final answer:** **Any ****one ****from the following:**\n\n- Carbon dioxide / oxygen;  **[1 mark]**\n- Glucose / amino acids / fatty acids + glycerol;  **[1 mark]**\n- Mineral ions / water; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *There are many substances that cells need which exceed the list given in this mark scheme. The substances named in this question are key to the most fundamental processes that take place in cells, including photosynthesis and respiration.*"
+    },
+    {
+     "id": "qstnprt_XmJXkByt8N5B6ytB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2 shows particles of two gases.\n\n![diffusion-1](assets/052-diffusion-1.png)\n\n**Fig. 2**\n\nSketch the arrangement of the gas particles after 1 hour.",
+     "solution_md": "The gas particles should appear as follows...\n\n- The particles should be evenly distributed in the space; **[1 mark]**\n\n**[Total: 1 mark]**\n\n![diffusion-ma-sq](assets/053-diffusion-ma-sq.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GZmzJXb4s4Cw683R",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_Qn8gtRqHR2XYbTMQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp",
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "A student carried out an investigation into the effect of osmosis on plant tissue.\n\nThey cut a potato into cubes and recorded the change in mass over a 30 minute period.\n\nFig. 1 shows the results the student obtained from one cube of potato.\n\n![osmosis-and-potatos-1](assets/054-osmosis-and-potatos-1.png)\n\n**Fig. 1**\n\nDescribe **and** explain the trend shown on the graph.",
+     "solution_md": "The graph can be described as follows:\n\n- The mass of the potato cubes increases over time **[1 mark]**\n- The increase levels off after 20 / 25 minutes **[1 mark]**\n\nThis is because...\n\nA maximum of **three** from:\n\n- The water concentration outside of the potato is higher than inside the potato **OR **the solution outside the potato is more dilute than the solution inside **OR** the potato cells contain a solution/cytoplasm with higher solute concentration than the surroundings **[1 mark]**\n- Water moves into the potato cells by osmosis **[1 mark]**\n- Mass increases more quickly when the concentration gradient is steepest (between 0 and 20 minutes) **[1 mark]**\n- The rate of increase slows / graph levels off because there is no longer a concentration gradient / the concentration inside the potato cells is the same as the concentration outside **[1 mark]**\n- The rate of increase slows / graph levels off when the cell is turgid / can no longer expand to take on more water **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *This is a 'describe and explain' question so you are required to do both parts in order to achieve full marks.*"
+    },
+    {
+     "id": "qstnprt_s2wtBZrY2McbZXxw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp",
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe potato cube from Fig. 1 had an initial mass of 2.5 g. After 15 minutes, the increase in mass was 0.25 g.\n\nThe potato cube from Fig. 1 had an initial mass of 2.5 g.\n\nCalculate the percentage increase that the potato cube had shown after 15 minutes.",
+     "solution_md": "The percentage increase at 15 minutes can be calculated as follows:\n\n- (0.25 ÷ 2.5) x 100; **[1 mark]**\n- 10 % (increase); **[1 mark]**\n\n**[2 marks]**\n\n![LY-_Gc~U_picture2](assets/055-ly-gc-u-picture2.png)"
+    },
+    {
+     "id": "qstnprt_CfmVKFdqW3F7tsCh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student carried out an investigation into the effect of osmosis on plant tissue. They cut a potato into cubes and recorded the change in mass over a 30 minute period. Fig. 1 shows the results the student obtained from one cube of potato. The graph can be described as follows: As time increases, the mass of the potato cube increases; The increase is not proportional OR the increase in mass occurs more quickly in the first 15/20 minutes and then more slowly after 20 minutes / the graph levels off; This is because... The water concentration outside of the potato is higher than inside the potato; (So) water moves into the potato cells by osmosis; The rate occurs more quickly when the concentration gradient is steepest (between 0 and 15/20 minutes); The rate of increase slows / graph levels off because there is no longer a concentration gradient / the concentration of water inside the potato is the same as / similar to the concentration outside of the potato; The rate of increase slows / graph levels off when the cell is turgid/full / cannot absorb any more water.\n\nThe student repeated the investigation but with the beaker placed in a water bath at 30°C.\n\nDraw a second line on the graph to show the trend expected from these results.",
+     "solution_md": "The line on the graph should look as follows:\n\n- The mass of the potato would increase faster; **[1 mark]**\n- The graph would level off at the same value of mass increase; **[1 mark]**\n\n**[Total: 2 marks]**\n\n![HkfPM33Z_picture3](assets/056-hkfpm33z-picture3.png)"
+    },
+    {
+     "id": "qstnprt_XYY3r3RVbC2GTmy3",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe student repeated the investigation but with the beaker placed in a water bath at 30°C.\n\nThe mass of the potato would increase faster; The graph would level off at the same value of mass increase.\n\n#### Extended only\n\nExplain your line drawn for part (c).",
+     "solution_md": "The trend drawn can be explained as follows:\n\n- (The increase in mass occurs faster / rate of mass increase is faster because) a higher temperature means increased kinetic energy of particles / particles move more; **[1 mark]**\n- Therefore the rate of osmosis is faster (into the potato); **[1 mark]**\n- (The final mass levels off after the same mass increase) because the water potential gradient is the same in both investigations; **[1 mark]**\n- So osmosis will continue to happen until the water potential inside the potato is the same on the inside and the outside **OR** the same mass of water will move by osmosis into the potato until the water potential inside the potato is the same on the inside and the outside; **[1 mark]**\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FmBVKfSVkXZxN8D4",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_z7tTTgr4cYyR7Y46",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_fNTrwszyVryZCrxD"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nFig. 1 shows a root hair cell.\n\n![root-hair-cell-1](assets/057-root-hair-cell-1.png)\n\n**Fig. 1**\n\nDescribe how this cell is adapted for absorption of water by osmosis.",
+     "solution_md": "The root hair cell has the following adaptations to maximise osmosis:\n\nAny **two** of the following:\n\n- A large surface area (to volume ratio); **[1 mark]**\n- (Many) mitochondria / carrier proteins for active transport of mineral ions; **[1 mark]**\n- A large vacuole for water storage (to give a steep concentration gradient); **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_579w9NhcnZKVj4Gd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp",
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nFig. 2 shows two cells after the effects of osmosis.\n\n![osmosis-in-plant-cells-1](assets/058-osmosis-in-plant-cells-1.png)\n\n**Fig. 2**\n\nIdentify the correct description for each cell by drawing a line between the cell and the box that contains the most accurate description.",
+     "solution_md": "The lines should be drawn as follows:\n\n![plant-cell-osmosis-ma-sq](assets/059-plant-cell-osmosis-ma-sq.png)\n\nAward **[1 mark]** for each correct line.\n\n**[Total: 2 marks]**\n\n> *The presence of a cell wall and a large vacuole identifies these cells as plant cells. The top cell gained water by osmosis which would only occur if it had been placed in distilled water which would be more dilute than the cell contents. The bottom cell lost water which would occur if it had been placed in a concentrated sugar solution.*"
+    },
+    {
+     "id": "qstnprt_GK6TbK9T6jJP3QKc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp",
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEach beaker contained potato discs in a solution of sugar or distilled water. The student found that the potato discs in Beaker 5 decreased in mass.\n\nThe presence of a cell wall and a large vacuole identifies these cells as plant cells. The top cell gained water by osmosis which would only occur if it had been placed in distilled water which would be more dilute than the cell contents. The bottom cell lost water which would occur if it had been placed in a concentrated sugar solution.\n\nA student carried out an experiment on osmosis in plant tissue. They set up their investigation as shown in Fig. 3.\n\n![potatos-and-sucrose-1](assets/060-potatos-and-sucrose-1.png)\n\n**Fig. 3**\n\nEach beaker contained potato discs in a solution of sugar or distilled water. The student found that the potato discs in Beaker 5 decreased in mass.\n\nExplain the reason for this.",
+     "solution_md": "The potato discs in Beaker 5 decreased in mass because...\n\n- <u>Water</u> moved out of the potato by <u>osmosis</u>; **[1 mark]**\n- From a high water concentration (in the potato cells) to a low water concentration (in the sucrose solution); **[1 mark]**\n\nAccept from a more to a less dilute solution / from a lower to a higher solute concentration / from a higher to lower water potential for marking point 2\n\n**[Total: 2 marks]**\n\n> *Keep in mind that there will always be a net movement of water towards a more concentrated solution, so the fact that the potato discs in Beaker 5 decreased in mass means that the sucrose solution was more concentrated than the contents of the potato cells.*"
+    },
+    {
+     "id": "qstnprt_bhRmG5fSMHZjCjHs",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student carried out an experiment on osmosis in plant tissue. They set up their investigation as shown in Fig. 3.\n\nEach beaker contained potato discs in a solution of sugar or distilled water.\n\nGive **one** example of a variable that would need to be controlled during the experiment from part (c).",
+     "solution_md": "A suitable control variable would include...\n\nAny **one** of the following:\n\n- Same size/thickness of potato discs; **[1 mark]**\n- Cut discs from the same type of potato; **[1 mark]**\n- Same <u>volume</u> of liquid in the beakers; **[1 mark]**\n- Same amount of time (that discs are) left in solution; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Control variables are important to ensure that any change measured in the dependent variable (mass of potato discs) is due to a change in the independent variable (concentration of solution).*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ckCMKyQYVSd25NXS",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_zMwJVxnwmCZwNRbF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG",
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nMore than 40 years ago, botanists studied the leaves of broad bean plants and discovered that guard cells control the opening and closing of stomata. They found that stomata were open when the guard cells were turgid.\n\nTable 1 shows some of their measurements.\n\n**Table 1**\n\n|   | closed stomata | open stomata |\n|---|---|---|\n| ion concentration in guard cells /pmol | 0.3 | 2.5 |\n| guard cell volume/μm<sup>3</sup> | 4000.0 | 6500.0 |\n| turgor pressure in the guard cells /MPa | 2.0 | 4.8 |\n| width of stomatal opening/μm | 0.0 | 8.0 |\n\n(i)\n\nIons move into guard cells by active transport.\n\nDescribe how the ions move into the guard cells.\n\n[2]\n\n(ii)\n\nDescribe **and** explain how the change in ion concentration causes the guard cell volume to change.\n\nUse the information in Table 1 in your answer.\n\n[6]\n\n(iii)\n\nThe botanists left the broad bean plants unattended for three days. During this time the broad bean plants wilted.\n\nSuggest **two** environmental factors that can cause plants to wilt.\n\n[2]",
+     "solution_md": "(i) Ions move into guard cells as follows:\n\nAny **two **from the following:\n\n- (Ions) move against the concentration gradient; **[1 mark]**\n- (Through) proteins (in the cell membrane) ; **[1 mark]**\n- (Which) uses/requires energy; **[1 mark]**\n- From respiration; **[1 mark]**\n\n(ii) A description **and** explanation of how a change in the ion concentration causes the guard cells to change volume includes:\n\nAny **six **from the following:\n\n- **Description**\n- A high(er) ion concentration results in large(r) (guard cell) volume *(or reverse argument of this)*; **[1 mark]**\n- A high(er) ion concentration causes low(er) <u>water potential</u> (*or reverse argument of this)*; **[1 mark]**\n- Accept a comparative data quote (from the table) with units to support any description; **[1 mark]**\n- **Explanation**\n- (A high ion concentration causes) water to move into (guard) cells; **[1 mark]**\n- (This happens) across a partially permeable membrane; **[1 mark]**\n- By <u>osmosis</u>; **[1 mark]**\n- A large cell volume correlates with high turgor pressure (*or reverse argument of this)*; **[1 mark]**\n- This is because cell water / membrane / cytoplasm / vacuole, pushes more on the cell wall; **[1 mark]**\n\n(iii) **Two** environmental factors that cause plants to wilt are:\n\nAny **two **from the following:\n\n- Lack of water; **[1 mark]**\n- High temperature; **[1 mark]**\n- Low humidity / dry air; **[1 mark]**\n- Wind; **[1 mark]**\n- *Accept any other valid point referring to water loss from the stomata*; **[1 mark]**\n\n**[Total: 10 marks]**\n\n> *For part (iii), make sure you qualify responses with high/low rather than just writing about the process.  For example, \"**high** temperature\" will get you a mark, but just \"temperature\" alone will not. *"
+    },
+    {
+     "id": "qstnprt_YRh42kP9hyVm8vD7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD",
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 2 shows the concentrations of four mineral ions in the roots of a plant and in the surrounding soil.\n\nThese minerals are all essential to the health of the plant.\n\n**Table 2**\n\n| mineral ion | concentration in millimoles per gram |   |\n|---|---|---|\n| plant root | soil |   |\n| calcium | 0.15 | 0.03 |\n| magnesium | 0.06 | 0.02 |\n| nitrate | 0.68 | 0.53 |\n| potassium | 0.26 | 0.01 |\n\nBased on the information in Table 2, explain why the plant roots cannot absorb these mineral ions by diffusion.",
+     "solution_md": "Plant roots cannot absorb these mineral ions by diffusion because...\n\n- Diffusion is the movement of a substance down a concentration gradient / from a high to low concentration; **[1 mark]**\n- To be taken up by the root the ions must be moved against the concentration gradient **OR** if diffusion were occurring the ions would move out of the roots; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_nwfxyV5GYMFY5mW7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 2\n\n| mineral ion | concentration in millimoles per gram |\n|            | plant root | soil |\n| calcium    | 0.15       | 0.03 |\n\nCalcium ions play a structural role in cell walls and membranes of the plant cell.\n\nCalculate the percentage difference between the concentration of calcium ions inside and outside the plant root, using the data from Table 1.",
+     "solution_md": "The percentage difference in calcium ions can be calculated as follows...\n\n- (0.12 ÷ 0.15) x 100; **[1 mark]**\n- 80(%); **[1 mark]**\n\n*Full marks awarded for the correct answer in the absence of other calculations*\n\n**[Total: 2 marks]**\n\n![percentage-difference](assets/061-percentage-difference.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bPhSr5xYH6QnKQT9",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_b3cFXkQkBqDDdNFd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "Plants transport sugars in the form of sucrose in phloem sieve tubes. Companion cells are located next to phloem sieve tubes and are responsible for moving sucrose into the tubes for transport.\n\nFig. 1 shows part of a companion cell and the mechanism by which it moves sucrose into the cytoplasm so that it can be transported into the sieve tubes.\n\n![companion-cell](assets/062-companion-cell.png)\n\n**Fig. 1**\n\nSucrose enters the companion cells via a cotransporter protein which will only transport sucrose in the presence of hydrogen ions (H<sup>+</sup>). This is represented by process **B** in Fig. 1.\n\nThe companion cells will transport H<sup>+</sup> out of the cytoplasm by process **A** so that it can re-enter the cell via the cotransporter protein, allowing sucrose to enter the cell at the same time.\n\nUse the information in Fig. 1 to describe how H<sup>+</sup> is transported out of the companion cell by process **A**.",
+     "solution_md": "H<sup>+</sup> is transported out of the companion cell by process **A** in the following ways...\n\n- It is transported by <u>active transport</u>; **[1 mark]**\n- Movement of H<sup>+</sup> occurs against the concentration gradient / from low concentration to high concentration; **[1 mark]**\n- Movement of H<sup>+</sup> occurs via a carrier protein; **[1 mark]**\n- Energy / ATP is required (for transport/movement to occur); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Do not panic when you see a question like this one. You may not be familiar with the sucrose loading mechanism, but the question asks you to describe active transport, which is something you should be familiar with. Questions like these require you to apply your knowledge to unfamiliar scenarios.*"
+    },
+    {
+     "id": "qstnprt_zBh7C6Pz8vk34xPG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Process **B** in Fig. 1 is a passive process.\n\nExplain what is meant by the term 'passive process' with reference to process **B**.",
+     "solution_md": "Process **B** is a passive process because...\n\n- No energy / ATP is required to move sucrose into the companion cell; **[1 mark]**\n- (This is because) movement occurs down a concentration gradient **OR** movement (of sucrose) occurs from a high concentration (outside the cell) to a low concentration (inside the cell); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The only passive transport process that you have learnt about so far is diffusion. This tells you that sucrose is moving down a concentration gradient for which no energy is required.*"
+    },
+    {
+     "id": "qstnprt_f6Cqp2BG94YFdWNp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fNTrwszyVryZCrxD",
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSucrose enters the companion cells via a cotransporter protein which will only transport sucrose in the presence of hydrogen ions (H^+^). This is represented by process **B** in Fig. 1. The companion cells will transport H^+^ out of the cytoplasm by process **A** so that it can re-enter the cell via the cotransporter protein, allowing sucrose to enter the cell at the same time.\n\n#### Extended only\n\nHigh temperatures will change the shape of the proton pump involved in process **A**.\n\nExplain why sucrose won't be able to enter the companion cell in this scenario.",
+     "solution_md": "Sucrose won't be able to enter the companion cell when temperatures are high because...\n\n- H<sup>+</sup> will not be able to combine with proton pump / carrier protein to be transported out of the cell; **[1 mark]**\n- The H<sup>+</sup> concentration gradient (between the inside and outside of the cell) cannot be maintained; **[1 mark]**\n- Without the movement/presence of H<sup>+</sup> (outside the cell) the cotransporter cannot transport sucrose (into the cell); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *It was stated in part (a) that sucrose can only enter the companion cell through the cotransporter protein if H*<sup>*+*</sup>* is present and also moving into the cell. Without a functional proton pump to ensure that there is a higher H*<sup>*+*</sup>* concentration outside the cell than inside, no H*<sup>*+*</sup>* will move through the cotransporter protein and therefore no sucrose will be able to enter the companion cell.*"
+    },
+    {
+     "id": "qstnprt_89mhC5v7z6JGDSct",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPlants transport sugars in the form of sucrose in phloem sieve tubes. Companion cells are located next to phloem sieve tubes and are responsible for moving sucrose into the tubes for transport.\n\nOnce sucrose enters the companion cell cytoplasm, it is quickly transported into the phloem sieve tubes to be taken to other parts of the plant.\n\nBased on your knowledge of diffusion, suggest a possible explanation for this quick transport out of the companion cells.",
+     "solution_md": "An explanation for the quick transport of sucrose into the phloem sieve tubes would include...\n\n- It ensures that there is always a low concentration of sucrose (molecules) inside the companion cells; **[1 mark]**\n- This maintains the concentration gradient for sucrose across the cell membrane (of the companion cell); **[1 mark]**\n- Which allows the movement/diffusion of sucrose into the companion cell; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *If the concentration of sucrose in the cytoplasm of the companion cell increased until it was similar (or higher) than the concentration outside the cell, then sucrose would be unable to diffuse into the companion cell.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7BxQSfXwBtQMS4J3",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_Sjzwn9phFmQQS2mQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Smzm56zRCYyG6zfQ",
+      "spcpt_rrbnjSkPB3h5YGQP"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 is a diagram of a palisade mesophyll cell.\n\n![097031-may-2019-paper-3-q4a-palisade-mesophyll---sq](assets/063-097031-may-2019-paper-3-q4a-palisade-mesophyll-s.png)\n\n**Fig. 1**\n\nIdentify and label the nucleus and a chloroplast on Fig. 1.",
+     "solution_md": "A correctly labelled Fig. 1 showing the nucleus and one of the chloroplasts would include:\n\n- Line ending on and labelled nucleus; **[1 mark]**\n- Line ending on one of the chloroplasts and labelled; **[1 mark]**\n\n*Allow any of the chloroplasts.*\n\n**[Total: 2 marks]**\n\n![097031-may-2019-paper-3-q4a-palisade-mesophyll---sq-ma](assets/064-097031-may-2019-paper-3-q4a-palisade-mesophyll-s.png)\n\n> *Just because the vacuole is the largest organelle in the diagram, does not mean it's the nucleus!*"
+    },
+    {
+     "id": "qstnprt_gySDWg5pxQwFTCSZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 is a diagram of a palisade mesophyll cell.\n\nFig. 2 shows the same palisade mesophyll cell after it has been placed in a concentrated sugar solution for twenty minutes.\n\nFig. 2 shows the same palisade mesophyll cell after it has been placed in a concentrated sugar solution for twenty minutes.\n\n![097031-may-2019-paper-3-q4b-plasmolysed-palisade-mesophyll---sq](assets/065-097031-may-2019-paper-3-q4b-plasmolysed-palisade.png)\n\n**Fig. 2**\n\n(i)\n\nDescribe the changes that have taken place in the cell between Fig. 1 and Fig. 2.\n\n[2]\n\n(ii)\n\nExplain why the cell in Fig. 2 has changed.\n\n[3]\n\n(iii)\n\nSuggest how the cell in Fig. 2 could be treated so that it returned to its original appearance in Fig. 1.\n\n[1]",
+     "solution_md": "(i) The changes that have taken place in the cell between Fig. 1 and Fig. 2 are:\n\nAny **two **of the following from:\n\n- The cell contents / cytoplasm / (cell) membrane, shrunk;** [1 mark]**\n- The vacuole is smaller / decreased in volume; **[1 mark]**\n- The cell membrane separates from the cell wall; **[1 mark]**\n- The external solution fills the space between the cell wall and cell membrane; **[1 mark]**\n\n> *Take note that the cell contents have not entered the vacuole.*\n\n(ii) The cell in Fig. 2 has changed because:\n\nAny **three **of the following from:\n\n- Water moves out of the cell; **[1 mark]**\n- (Water moves by) osmosis; **[1 mark]**\n- Through a partially permeable membrane / AW;** [1 mark]**\n- (This is because the) sugar solution is more concentrated than the cell contents / AW; **[1 mark]**\n\n> *Remember that osmosis refers to the movement of **water molecules**, not the sugar molecules. The cell contents is more dilute than the sugar solution so the water molecules will move out of the cell to the more concentrated sugar solution.*\n\n(iii) The cell in Fig. 2 could be treated so that it returned to its original appearance in Fig. 1 by:\n\n- Add / place (the cell) in water **OR** (place the cell in a) dilute / less concentrated sugar solution; **[1 mark]**\n\n> *Once the cell is placed in a solution that is more dilute than the cell contents, water molecules will move back into the cell through osmosis.*\n\n**[Total: 6 marks]**"
+    },
+    {
+     "id": "qstnprt_fG4tDSbHqF7fkJGm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_bH8PcsMVGRmpSKPw"
+     ],
+     "part_tier": null,
+     "problem_md": "(i)\n\nState the name of the tissue that transports water up the stem and into a leaf in a plant.\n\n[1]\n\n(ii)\n\nFig. 3 shows drawings of sections through a root, a stem and part of a leaf in a dicotyledonous plant.\n\n![4d3DvDB~_097031-may-2019-paper-3-q4c-dicot-sections---sq](assets/066-4d3dvdb-097031-may-2019-paper-3-q4c-dicot-sectio.png)\n\n**Fig. 3**\n\nIdentify and label with the letter **W**, the position of the water transport tissue in each of the root, the stem and the leaf, on Fig. 3.\n\n[3]",
+     "solution_md": "(i) The name of the tissue that transports water up the stem and into a leaf in a plant is:\n\n- Xylem; **[1 mark]**\n\n(ii) The labels **W** that show the position of the water transport tissue in each of the root, stem and leaf are as follows:\n\n![097031-may-2019-paper-3-q4c-dicot-sections---ma](assets/067-097031-may-2019-paper-3-q4c-dicot-sections-ma.png)\n\n**[Total: 4 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_4s9cfH2mP3KBg9zZ",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_jQWdBGTDNNgGcwzq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "Particulate matter (PM) refers to the small particles in air pollution which can irritate the airways and caused damage to the alveoli. Alveoli are tiny air sacs in the lungs across which gas exchange by diffusion occurs.\n\nFig. 1 shows the structure of an alveolus with a capillary running next to it.\n\n![structure-of-an-alveolus](assets/068-structure-of-an-alveolus.png)\n\n**Fig. 1**\n\nIf concentrations of PM are high, the epithelium cells of the alveoli may be killed and replaced with unspecialised cells resulting in:\n\n- Fewer functioning alveoli\n- Thickening of alveolar walls\n\nExplain how particulate matter would affect the process of gas exchange in human lungs.",
+     "solution_md": "Particulate matter would affect gas exchange in the following ways...\n\n- The rate of gas exchange / diffusion would decrease; **[1 mark]**\n- (Due to) a reduced surface area (as a result of fewer alveoli); **[1 mark]**\n- And an increased diffusion distance (due to thickened cells / alveolar walls); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *This is an application based question which means you should identify your relevant knowledge from the IGCSE Biology specification to answer the question about an unfamiliar scenario.*"
+    },
+    {
+     "id": "qstnprt_BxxXGbGFcvnPhYvY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zK6sdF2666m3wDry"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nScientists studied 31 080 alveolar epithelium cells in this study.\n\nPercentage of dead cells after 48 hours of exposure to:\n- 1 000 µg cm^-3 of particulate matter: 56%\n- 50 µg cm^-3 of particulate matter: 20%\n\nFig. 2 shows the results of an investigation into the concentration of particulate matter and the percentage of dead alveolar epithelium cells after 48 of exposure.\n\n![particlate-matter-1](assets/069-particlate-matter-1.png)\n\n**Fig. 2**\n\nScientists studied 31 080 alveolar epithelium cells in this study.\n\nCalculate how many more cells died after 48 hours of exposure to 1 000 µg cm<sup>-3 </sup>of particulate matter than after 48 hours of exposure to 50 µg cm<sup>-3</sup> of particulate matter.",
+     "solution_md": "The calculation can be completed as follows...\n\n- 0.56 x  31 080 = 17 405; **[1 mark]**\n- 0.2 x  31 080 = 6 216; **[1 mark]**\n- 17 405 - 6 216 = 11 189; **[1 mark]**\n\n**OR**\n\n- 56% = 0.56 **AND** 20% = 0.20; **[1 mark]**\n- 0.56 - 0.20 = 0.36; **[1 mark]**\n- 0.36 × 31 080 = 11 189; **[1 mark]**\n\n**[3 marks]**\n\n![particlate-matter-and-cell-death-ma-sq](assets/070-particlate-matter-and-cell-death-ma-sq.png)"
+    },
+    {
+     "id": "qstnprt_W3J66Jts2spFkn3k",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QSrnzfzcBpPttwm7",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nParticulate matter (PM) refers to the small particles in air pollution which can irritate the airways and caused damage to the alveoli. Alveoli are tiny air sacs in the lungs across which gas exchange by diffusion occurs.\n\nIf concentrations of PM are high, the epithelium cells of the alveoli may be killed and replaced with unspecialised cells resulting in:\n- Fewer functioning alveoli\n- Thickening of alveolar walls\n\nParticulate matter would affect gas exchange in the following ways...\n- The rate of gas exchange / diffusion would decrease;\n- (Due to) a reduced surface area (as a result of fewer alveoli);\n- And an increased diffusion distance (due to thickened cells / alveolar walls);\n\nOxygen is required for the process of cellular respiration in cells. People living in urban areas with high levels of air pollution will often suffer from fatigue (feeling tired).\n\nUse the information provided in part (a) and (c) to suggest an explanation for this.",
+     "solution_md": "People living in urban areas with high levels of air pollution may suffer from fatigue because...\n\n- Less oxygen reaches the cells (due to reduced gas exchange in the lungs); **[1 mark]**\n- Less energy is released due to a lower rate of cellular respiration; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Without sufficient oxygen, the process of cellular respiration cannot occur at its maximum rate. This will have a negative effect on the amount of energy released by the chemical reaction.*"
+    },
+    {
+     "id": "qstnprt_j25xPKnJxzmtBhBR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp",
+      "spcpt_5hV5kjJHpS3SK7Q2"
+     ],
+     "part_tier": null,
+     "problem_md": "Other than diffusion, movement of molecules in the body could also occur by osmosis and active transport.\n\nCompare osmosis and active transport with each other.",
+     "solution_md": "A comparison of osmosis and active transport would include...\n\nAny **four** of the following:\n\n**Similarities:**\n\n- Both osmosis and active transport occurs across a cell membrane; **[1 mark]**\n- Both involve the movement of molecules; **[1 mark]**\n\n**Differences:**\n\n- Osmosis is a passive process / does not require energy **WHILE** active transport requires energy/ATP; **[1 mark]**\n- Osmosis only applies to the movement of water molecules **WHILE** active transport applies to other molecules / not water molecules; **[1 mark]**\n- In osmosis the movement of molecules occurs down a concentration gradient / from higher to lower concentration **WHILE** active transport occurs against the concentration gradient / from lower to higher concentration; **[1 mark]**\n- Osmosis does not require carrier proteins to occur **WHILE** active transport does; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Remember that for comparison questions you must mention both processes that are given in order to obtain full marks.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2hzYBf46HFJmnYdW",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_HgTVgHmgkFXXW4NZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpCWHqP24s9pMgwG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nA student decided to investigate the effect of different sugar solutions on the mass of chicken eggs.\n\nThey used the following method:\n\n1. Five eggs were placed in hydrochloric acid for 24 hours to dissolve the eggshell.\n2. The mass of each egg was measured and recorded.\n3. Five beakers were set up; four with 200 cm<sup>3</sup> of sugar solution of different concentrations (0.2, 0.4, 0.6 and 0.8 mol dm<sup>-3</sup>) and one with distilled water (0 mol dm<sup>-3</sup>).\n4. An egg was place in each of the beakers for 1 hour.\n5. The eggs were removed and dried with a paper towel whereafter the mass of each egg was measured and recorded.\n6. The percentage change in the mass of each egg was calculated and a graph was drawn from these results.\n\nFig. 1 represents the graph that was drawn of the percentage change in mass.\n\n![rtXEV8i4_change-in-mass-of-egg](assets/071-rtxev8i4-change-in-mass-of-egg.png)\n\n**Fig. 1**\n\nUse the information in Fig. 1 to describe the results obtained in each beaker.",
+     "solution_md": "The results can be described as follows...\n\n- The eggs in the (distilled) water / 0 mol dm<sup>-3</sup> beaker **and** 0.2 mol dm<sup>-3</sup> sugar solution gained mass/water / became heavier / showed a positive change in mass; **[1 mark]**\n- The eggs in the sugar solutions with a concentration of 0.4 mol dm<sup>-3</sup> and higher lost mass/water / became lighter / showed a negative change in mass; **[1 mark]**\n- Any data point correctly quoted to support previous marking points e.g. mass of the egg in distilled water increased by 22% and the egg in the 0.2 mol dm<sup>-3</sup> increased by 5% / mass of the egg in 0.4 mol dm<sup>-3</sup> decreased by 7%; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *It is important to be able to describe data from a graph as it is a popular type of question to ask, so spend some time practising a few questions like this one in order to develop that skill.*"
+    },
+    {
+     "id": "qstnprt_SNrQgSbp8ncN3kfj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m26wn5DRF5xHfB5p"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student decided to investigate the effect of different sugar solutions on the mass of chicken eggs.\n\nThey used the following method:\n\n1. Five eggs were placed in hydrochloric acid for 24 hours to dissolve the eggshell.\n2. The mass of each egg was measured and recorded.\n3. Five beakers were set up; four with 200 cm^3^ of sugar solution of different concentrations (0.2, 0.4, 0.6 and 0.8 mol dm^-3^) and one with distilled water (0 mol dm^-3^).\n4. An egg was place in each of the beakers for 1 hour.\n5. The eggs were removed and dried with a paper towel whereafter the mass of each egg was measured and recorded.\n6. The percentage change in the mass of each egg was calculated and a graph was drawn from these results.\n\nFig. 1 represents the graph that was drawn of the percentage change in mass.\n\n#### Extended only\n\n(i)\n\nUse the graph in Fig. 1 to identify the concentration of the sugar solution where the mass of the egg would not change.\n\n[1]\n\n(ii)\n\nExplain why the mass of the egg would not change at the concentration identified at part (i).\n\n[2]",
+     "solution_md": "(i) The concentration at which the mass of the egg would not change is...\n\n- 0.28 mol dm<sup>-3</sup>; **[1 mark]**\n\n![change-in-mass](assets/072-change-in-mass.png)\n\n(ii) The mass of the egg would not change at this concentration because...\n\n- The water potential inside and outside the egg would be the same; **[1 mark]**\n- (Therefore) no <u>net</u> movement of water by osmosis; **[1 mark]**\n\n*Reject reference to no movement of water at marking point 2*\n\n**[Total: 3 marks]**\n\n> *It is important to note that you would not receive any marks for saying that there is no movement of water taking place. Even though there is no **overall** or **net** movement of water molecules in a direction, they are still moving due to the kinetic energy that they have.*"
+    },
+    {
+     "id": "qstnprt_ZjTXcNxcJBfPh6FF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student decided to investigate the effect of different sugar solutions on the mass of chicken eggs.\n\nThey used the following method:\n\n1. Five eggs were placed in hydrochloric acid for 24 hours to dissolve the eggshell.\n2. The mass of each egg was measured and recorded.\n3. Five beakers were set up; four with 200 cm^3^ of sugar solution of different concentrations (0.2, 0.4, 0.6 and 0.8 mol dm^-3^) and one with distilled water (0 mol dm^-3^).\n4. An egg was place in each of the beakers for 1 hour.\n5. The eggs were removed and dried with a paper towel whereafter the mass of each egg was measured and recorded.\n6. The percentage change in the mass of each egg was calculated and a graph was drawn from these results.\n\nThe eggs in the sugar solutions with a concentration of 0.4 mol dm^-3^ and higher lost mass/water / became lighter / showed a negative change in mass.\n\n#### Extended only\n\nExplain the results that were obtained in the beaker with a concentration of 0.8 mol dm<sup>-3</sup>.",
+     "solution_md": "The results in the 0.8 mol dm<sup>-3</sup> beaker can be explained as follows...\n\n- Water moved out of the egg by osmosis; **[1 mark]**\n- Through a partially permeable membrane (of the egg); **[1 mark]**\n- (This is because) the solution was more concentrated / had a lower water potential than the egg **OR** the egg was more dilute / had a higher water potential than the solution; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_DKwq8ZmZrNFrrb39",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PmhYqrW5gdnXdnmp",
+      "spcpt_7CHvGTP5rN8kFZZD"
+     ],
+     "part_tier": null,
+     "problem_md": "Diffusion and osmosis are two ways in which molecules can move.\n\nCompare diffusion and osmosis with each other.",
+     "solution_md": "A comparison of diffusion and osmosis would include...\n\n**Similarities:**\n\n- <u>Both</u> involve movement down a concentration gradient / from a region of higher concentration to a region of lower concentration; **[1 mark]**\n- <u>Both</u> are passive / no energy is required ; **[1 mark]**\n\n**Differences:**\n\n- Osmosis refers to the movement of water only **WHILE** diffusion refers to the movement of any molecule type; **[1 mark]**\n- Osmosis always occurs across a (partially permeable) membrane **WHILE** diffusion does not always involve a membrane; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Even though osmosis is a type of diffusion, there are some differences between the two processes so make sure to familiarise yourself with them.*"
     }
    ]
   }

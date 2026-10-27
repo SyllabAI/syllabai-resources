@@ -1,0 +1,433 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:51Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "4-processor-fundamentals-",
+  "name": "4. Processor Fundamentals"
+ },
+ "topic": {
+  "id": "top_h34KScjVF7KXN38x",
+  "slug": "central-processing-unit-cpu-architecture",
+  "name": "Central Processing Unit (CPU) Architecture",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "fetch-execute-cycle-",
+   "name": "Fetch-Execute Cycle",
+   "revision_note_id": "rn_ZvDtKMq8yVNt9Df5"
+  },
+  {
+   "slug": "system-performance-",
+   "name": "System performance",
+   "revision_note_id": "rn_J9BzzXY92YNY5gx6"
+  },
+  {
+   "slug": "ports-and-interfaces-",
+   "name": "Ports & interfaces",
+   "revision_note_id": "rn_RSNyF5hpWCtPz7SJ"
+  },
+  {
+   "slug": "components-of-the-cpu-",
+   "name": "Components of the CPU",
+   "revision_note_id": "rn_sMGkXYmdFdmQGBdJ"
+  },
+  {
+   "slug": "system-architecture",
+   "name": "System architecture",
+   "revision_note_id": "rn_YYwmCC6Jg5FW25tb"
+  },
+  {
+   "slug": "interrupts",
+   "name": "Interrupts",
+   "revision_note_id": "rn_NJ5hWZMmH2p7vDSc"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_4c54vywNtQXr5s8W",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/4-processor-fundamentals-/central-processing-unit-cpu-architecture/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_4sDFVj5NqJTxtHN7",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_K74dZYhDW6DQ8PB6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VWvqb7ST5nKbXx5F",
+      "spcpt_kmJ2B5YYGtGNhQRR",
+      "spcpt_kCG4YJc7PcSHvtMf"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system is designed using the basic Von Neumann model.\n\nRegisters and buses are components in the Von Neumann model.\n\n(i) Identify **three other** components in the Von Neumann model of a computer system.\n\nDo not include registers or buses in your answers.\n\n(3)\n\n(ii) Identify **two **differences between special purpose registers and general purpose registers.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark **for each bullet point (**max 3**).\n> \n> - Control unit (CU)\n> - Arithmetic and Logic Unit (ALU)\n> - Immediate Access Store (IAS)\n> - (System clock)\n> \n> (ii) **1 mark** for each bullet point (**max 2**)\n> \n> - Special purpose registers hold the status of a program whereas general purpose registers hold the temporary data while performing operations.\n> - Special purpose registers are specialised for a specific use, whereas general purpose registers are used for any purpose.\n> - General purpose registers can be used by most instructions, whereas special purpose can only be used by certain i"
+    },
+    {
+     "id": "qstnprt_zX4M3ScFbKVzgkK7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rmcnBZJ4KpBrs933"
+     ],
+     "part_tier": null,
+     "problem_md": "The following incomplete table contains steps of the Fetch‑Execute (F‑E) cycle and their descriptions.\n\nComplete the table by writing the missing steps using register transfer notation **and** the missing descriptions.\n\n| Step | Description |\n|---|---|\n|   | The address in PC is incremented. |\n| `MDR ← [[MAR]]` |   |\n| `MAR ← [PC]` |   |\n|   | The contents of MDR are copied into CIR. |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct answer (shaded cells)\n> \n> | Step | Description |\n> |---|---|\n> | `PC ← [PC] + 1` | The address in PC is incremented. |\n> | `MDR ← [[MAR]]` | **The **<u>**data **</u>**in the **<u>**location **</u>**pointed to by the MAR is copied to the MDR.** |\n> | `MAR ← [PC]` | **The **<u>**contents**</u>** of PC are copied to the MAR.** |\n> | `CIR ← [MDR]` | The contents of MDR are copied into CIR. |"
+    },
+    {
+     "id": "qstnprt_cxvQFTGyndhRrypz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mkQtdg2xB6dgPMsJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Interrupts can be caused by software programs or hardware devices.\n\nState **one **cause of a software interrupt.",
+     "solution_md": "**1 mark **for an appropriate example.\n\nExamples:\n\n- Division by zero\n- Runtime error\n- Out of memory bounds\n- Program requesting an external device / input\n- Buffer overflow"
+    },
+    {
+     "id": "qstnprt_3SMcmHJ3b7VQ2BNQ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_mkQtdg2xB6dgPMsJ"
+     ],
+     "part_tier": null,
+     "problem_md": "The following statements describe the stages that the CPU performs when an interrupt is detected.\n\nThere are **three **missing statements.\n\nWrite the letter of the missing statements from the table in the correct place to complete the description.\n\n1. At the end of each Fetch-Execute (F-E) cycle, the processor checks if an interrupt flag is set.\n2. ...............................\n3. If the interrupt priority is high enough, the processor saves the current contents of the registers.\n4. .................................\n5. When servicing of the interrupt is complete, the processor restores the registers.\n6. ...................................\n\n| **Letter** | **Stage** |\n|---|---|\n| A | The address of the Interrupt Service (ISR) handling routine is loaded into the Program Counter (PC). |\n| B | Lower priority interrupts are re-enabled. |\n| C | The device causing the interrupt transfers data to the CPU. |\n| D | The processor identifies the source of the interrupt and checks the priority of the interrupt. |\n| E | The ISR is incremented. |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each letter in the correct position (2, 4 and 6)\n> \n> **D**\n> **A**\n> **B**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_74Q6VNWYJPny3snN",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_MqxkcxMZtbjRth8Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_tNJPwB3kcrYK7ghk",
+      "spcpt_3jfBCFWwyPC7VNtG"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **one **port that could be used to connect the virtual reality headset to the laptop.\n\nJustify your choice.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for naming a correct port** 2 marks** for matching justification\n> \n> - USB\n> - …has fast data transfer speeds for data (to the headset)\n> - …is a universal/popular cable // universal standard\n> - HDMI\n> - …allows video and audio to be transferred (on the same cable)\n> - …convenience of HDMI as no need for two cables"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wVSkShdwzpnQqTpX",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dXkH3w3YV3chssQh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "c(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_tNJPwB3kcrYK7ghk",
+      "spcpt_3jfBCFWwyPC7VNtG"
+     ],
+     "part_tier": null,
+     "problem_md": "An optical disc reader/writer is connected to the computer.\n\nGive the name of **one **port that can provide a connection for the optical disc reader/writer.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (max 1)\n> \n> - USB / Universal Serial Bus\n> - HDMI"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WKQnP3JB4HkJBQfk",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_SGYpJWKC8rfNF9dQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kmJ2B5YYGtGNhQRR"
+     ],
+     "part_tier": null,
+     "problem_md": "The Central Processing Unit (CPU) of the basic Von Neumann model for a computer system contains several special purpose registers.\n\nThe Memory Data Register (MDR), Index Register (IX) and the Accumulator (ACC) are examples of special purpose registers.\n\nIdentify **two other** special purpose registers **and **state their role in the CPU.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for identification of the register and **1 mark** for role (**max 2** for each register)\n> \n> - Program Counter (PC)\n> stores the <u>address</u> where the <u>next </u>instruction is to be read from\n> - Memory Address Register (MAR)\n> stores the address of the memory location (or an I/O component) \n> **currently being read from **or **written to**\n> - Current Instruction Register (CIR)\n> holds the instruction currently being decoded and/or executed\n> - Status Register\n> Contains bits which can be referenced individually and set or cleared depending on the operation e.g. overflow, underflow"
+    },
+    {
+     "id": "qstnprt_4VbSCpnffwNSJXck",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_hcX5gFV85CjPxKGc",
+      "spcpt_gtz89tmjhC4zK57C"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has a single 2.1GHz CPU.\n\n(i) Describe how increasing the clock speed to 4GHz can increase the performance of the computer.\n\n(1)\n\n(ii) A second computer has a CPU with two 2.1GHz cores.\n\nExplain why the second computer does not always run twice as fast as the computer with one 2.1GHz CPU.\n\n(5)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark** for each bullet point (**max 1)**\n> \n> - The CPU can now perform nearly twice as many F-E cycles per second\n> - Instead of 2.1 billion F-E cycles per second, the CPU can now perform 4 billion FE cycles per second\n> \n> (ii) **1 mark** for each bullet point (**max 5**)\n> \n> - Multiple cores introduce additional overheads\n> - …because of the need for communication between cores\n> - Software may not be designed for multiple cores…\n> - …so one of the cores will be left idle\n> - Memory access speed may not match speed of cores…\n> - …so causing delay\n> - The two computers may have more differences than just the cores\n> - …one may have more RAM which allows faster multitasking\n> - ...one may have a GPU\n> - ...etc."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gDxkQyRbyGztY3N2",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_3CpjQPvvwW4hHnC4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kmJ2B5YYGtGNhQRR",
+      "spcpt_kCG4YJc7PcSHvtMf"
+     ],
+     "part_tier": null,
+     "problem_md": "A student has a computer.\n\nThe computer is designed using the Von Neumann model for a computer system.\n\nComplete the table by describing the purpose of each of the given registers.\n\n| Register | Purpose |\n|---|---|\n| Program Counter (PC) |   |\n| Memory Address Register (MAR) |   |\n| Memory Data Register (MDR) |   |\n| Index Register (IX) |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each correct purpose\n> \n> | Register | Purpose |\n> |---|---|\n> | Program Counter (PC) | Stores the address of the next instruction to be fetched/executed |\n> | Memory Address Register (MAR) | Stores the address of the memory location where data will be read from/written to |\n> | Memory Data Register (MDR) | Stores the data read from the address in the MAR // stores the data to be written to the address in the MAR |\n> | Index Register (IX) | Stores a number that will be added to the operand, to form the address of the data |"
+    },
+    {
+     "id": "qstnprt_wy3YrJrqQdn6cCc3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_tNJPwB3kcrYK7ghk",
+      "spcpt_35XGDBgFXDK2HZTH"
+     ],
+     "part_tier": null,
+     "problem_md": "The student needs to connect the computer to a monitor that has a screen resolution of 2560 × 1600 pixels. The monitor also has built-in speakers.\n\nThe computer has a Video Graphics Array (VGA) port and a High Definition Multimedia Interface (HDMI) port.\n\nExplain the benefits of connecting the monitor to the computer using the HDMI port instead of the VGA port.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> e.g.\n> \n> - HDMI has faster transfer rates than VGA\n> - … needed due to high resolution / large number of pixels of monitor // HDMI supports the high resolution of the monitor\n> - HDMI supports video and audio transfer between computer and monitor speakers\n> - … so no separate sound cable is needed unlike VGA\n> - HDMI is digital interface therefore no data is lost in transfer to analogue and back\n> - HDMI is less prone to error/crosstalk/external interference"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MjSm3RpZVpg5Mygy",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_MC3KRxBQFWP9tBB5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_kmJ2B5YYGtGNhQRR"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer designed using the Von Neumann model for a computer system contains general purpose registers and special purpose registers.\n\nDescribe the purpose of the Status Register (SR).",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - To store the value of flags/bits\n> - … that can be changed/set/cleared after arithmetic / logical operations\n> - To allow flags to be checked\n> - … to change instruction sequence"
+    },
+    {
+     "id": "qstnprt_VqZSY8CsfxS8pj7f",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kmJ2B5YYGtGNhQRR"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **two** differences between general purpose registers and special purpose registers.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Special purpose registers have a specified role in the machine whereas general purpose registers can be used for all purposes defined by the programmer\n> - Special purpose registers hold the state of the program’s execution while general purpose registers hold the program’s data during operations"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pYcG3QfKtszM5CxJ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_bQBPs3dTqqTxKsHY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VWvqb7ST5nKbXx5F"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system has a dual-core Central Processing Unit (CPU).\n\nState the purpose of the system clock and the Control Unit (CU) in a CPU.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for system clock and **1 mark** for Control Unit\n> \n> System clock\n> \n> - To synchronise operations\n> - ... by creating and transmitting timing signals on the control bus\n> \n> Control Unit\n> \n> - Sends/receives control signals along control bus\n> - Reads an instruction from the contents of the memory location whose address is stored in PC\n> - Coordinates/synchronises the activity of other components in the CPU\n> - Manages the execution of instructions\n> - Controls communication between the components in the CPU"
+    },
+    {
+     "id": "qstnprt_7D5vSCYj2RSWb6cX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hcX5gFV85CjPxKGc",
+      "spcpt_gtz89tmjhC4zK57C",
+      "spcpt_ddMfxchnq2rSTShF",
+      "spcpt_3jfBCFWwyPC7VNtG"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) The number of cores in the processor affects the performance of the computer system.\n\nIdentify **one **other feature of a processor that can affect the performance of a computer system **and **state why it affects the performance.\n\n(2)\n\n(ii) A solid state (flash) memory drive is automatically recognised by the computer when it is plugged into a port in the computer.\n\nIdentify an appropriate type of port to connect the solid state memory drive to the computer.\n\nExplain how this port provides an automatic connection.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for the feature, **1 mark **max for the matching reason\n> \n> e.g.\n> \n> Feature: clock speed\n> \n> - Higher clock speed means that more F-E cycles are executed per second // Higher clock speed results in more throughput\n> \n> Feature: bus width\n> \n> - Larger bus width means that more data transferred at the same time\n> \n> (ii) 1 mark for correct port. 2 marks for explanation\n> \n> Port: USB / Universal Serial Bus\n> \n> Explanation:\n> \n> - A voltage change occurs when the drive is plugged in\n> - The computer detects this voltage change\n> - The code of the device is transferred to computer\n> - … the OS finds the code of the device in the list of devices\n> - … and loads the appropriate device driver"
+    }
+   ]
+  }
+ ]
+}

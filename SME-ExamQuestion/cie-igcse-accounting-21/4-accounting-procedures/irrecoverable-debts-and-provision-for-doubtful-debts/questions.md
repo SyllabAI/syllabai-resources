@@ -1,6 +1,6 @@
 # Exam Questions — Irrecoverable Debts & Provision for Doubtful Debts
 **4. Accounting Procedures** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 7 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 10 questions across 2 sets
 
 
 ## Multiple Choice Questions (7 questions)
@@ -105,3 +105,84 @@ Louhi made the following entries in her ledger.
 | irrecoverable debts | Jaden |
 
 What was she recording?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — easy — 2 marks
+
+**Q1** [2 marks]
+
+State **two** reasons why a business might maintain a provision for doubtful debts.
+
+1 ................................................................................................................................
+
+2................................................................................................................................
+
+### Q2 — medium — 4 marks
+
+**Q2** [4 marks]
+
+Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.
+
+|   | \$ |
+|---|---|
+| At 1 October 2022 |   |
+| Trade receivables | 7 500 |
+| 1 June 2023 | 2 490 |
+| At 30 September 2023 |   |
+| Trade receivables | 8 700 |
+| Irrecoverable debts to be written off | 325 |
+
+The provision for doubtful debts is to be maintained at 4% of trade receivables.
+
+**REQUIRED**
+
+Prepare the provision for doubtful debts account for the year ended 30 September 2023. Balance the account at 30 September 2023 and bring down the balance at 1 October 2023.
+
+Logan 
+Provision for doubtful debts account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/21 Q3B*
+
+
+### Q3 — medium — 5 marks
+
+**Q3** [5 marks]
+
+Stalla is a sole trader who sells on credit. She maintains a provision for doubtful debts at 4% of trade receivables.
+
+Stalla’s trade receivables were:
+
+|   | \$ |
+|---|---|
+| At 31 December 2021 | 75 000 |
+| At 31 December 2022 | 77 000 |
+
+**REQUIRED **
+
+Prepare Stalla’s provision for doubtful debts account for the year ended 31 December 2022. Balance the account at 31 December 2022 and bring down the balance at 1 January 2023.
+
+Stalla 
+Provision for doubtful debts account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/21 Q2A*
+

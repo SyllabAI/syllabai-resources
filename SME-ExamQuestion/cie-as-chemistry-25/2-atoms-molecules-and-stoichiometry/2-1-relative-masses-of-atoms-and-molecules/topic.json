@@ -1,0 +1,1140 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:24:37Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "2-atoms-molecules-and-stoichiometry",
+  "name": "2. Atoms, Molecules & Stoichiometry"
+ },
+ "topic": {
+  "id": "top_5Nrg8sXkkYVXfhQf",
+  "slug": "2-1-relative-masses-of-atoms-and-molecules",
+  "name": "Relative Masses of Atoms & Molecules",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "relative-masses",
+   "name": "Relative Masses",
+   "revision_note_id": "rn_BJPBnHps6rrPftXS"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_HKSMY6vrpdDwFqN3",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-1-relative-masses-of-atoms-and-molecules/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_xpNmRj4zGVYkGC2P",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-1-relative-masses-of-atoms-and-molecules/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 15,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/13.JPG": "001-skeletal-formula-of-aspirin-showing-a-benzene-ri.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_pJ6dgrM8Xd3WMSbg",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Q45VYQ4p777TGf4k",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "An element, **X**, has a relative atomic mass of *A*<sub>r</sub> and exists as a diatomic molecule, **X**<sub>2</sub>.\n\nWhich expression represents the total number of atoms present in *m* grams of the gas?\n\n(Where *L* represents the Avogadro constant.)",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The relative molecular mass of **X**<sub>2</sub> is **2***A*<sub>r</sub>.\n\n- The number of moles of **X**<sub>2</sub> in *m* grams is:\n\n$\\frac{m}{2A_{r}}$\n\n- Each molecule of **X**<sub>2</sub> contains 2 atoms, so the number of moles of atoms is:\n\n$2 \\times \\frac{m}{2A_{r}} = \\frac{m}{A_{r}}$\n\n- Multiplying by the Avogadro constant *L* gives the total number of atoms:\n\n$\\frac{mL}{A_{r}}$\n\n**B** is incorrect as $\\frac{mL}{2A_{r}}$ gives the number of **molecules**, not atoms and it misses the step of multiplying by 2 for the diatomic molecule.\n\n**C** is incorrect as $\\frac{2mL}{A_{r}}$ results from using *A*<sub>r</sub> (not 2*A*<sub>r</sub>) as the molar mass of **X**<sub>2</sub>, then multiplying by 2 again for the diatomic molecule.\n\n**D** is incorrect as $\\frac{mA_{r}}{L}$ results from multiplying mass by molar mass rather than dividing, and dividing by *L* rather than multiplying.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "$\\frac{mL}{A_{r}}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$\\frac{mL}{2A_{r}}$"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "$\\frac{2mL}{A_{r}}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$\\frac{mA_{r}}{L}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{m}{2A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>m</mi><mrow><mn>2</mn><msub><mi>A</mi><mi>r</mi></msub></mrow></mfrac></math>",
+       "alt": "\\frac{m}{2A_{r}}"
+      },
+      {
+       "latex": "2 \\times \\frac{m}{2A_{r}} = \\frac{m}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#xD7;</mo><mfrac><mi>m</mi><mrow><mn>2</mn><msub><mi>A</mi><mi>r</mi></msub></mrow></mfrac><mo>=</mo><mfrac><mi>m</mi><msub><mi>A</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "2 \\times \\frac{m}{2A_{r}} = \\frac{m}{A_{r}}"
+      },
+      {
+       "latex": "\\frac{mL}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>L</mi></mrow><msub><mi>A</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{mL}{A_{r}}"
+      },
+      {
+       "latex": "\\frac{mL}{2A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>L</mi></mrow><mrow><mn>2</mn><msub><mi>A</mi><mi>r</mi></msub></mrow></mfrac></math>",
+       "alt": "\\frac{mL}{2A_{r}}"
+      },
+      {
+       "latex": "\\frac{2mL}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>m</mi><mi>L</mi></mrow><msub><mi>A</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{2mL}{A_{r}}"
+      },
+      {
+       "latex": "\\frac{mA_{r}}{L}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><msub><mi>A</mi><mi>r</mi></msub></mrow><mi>L</mi></mfrac></math>",
+       "alt": "\\frac{mA_{r}}{L}"
+      },
+      {
+       "latex": "\\frac{mL}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>m</mi><mi>L</mi></mrow><msub><mi>A</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator m L over denominator A subscript r end fraction"
+      },
+      {
+       "latex": "\\frac{mL}{2A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>m</mi><mi>L</mi></mrow><mrow><mn>2</mn><msub><mi>A</mi><mi>r</mi></msub></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator m L over denominator 2 A subscript r end fraction"
+      },
+      {
+       "latex": "\\frac{2mL}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mi>m</mi><mi>L</mi></mrow><msub><mi>A</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2 m L over denominator A subscript r end fraction"
+      },
+      {
+       "latex": "\\frac{mA_{r}}{L}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>m</mi><msub><mi>A</mi><mi>r</mi></msub></mrow><mi>L</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator m A subscript r over denominator L end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yxFBXbvN2fJPMvKG",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_zVvnCGB7F7vBY7gw",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of metal **Z** was analysed by mass spectrometry. The relative abundance of each isotope in a mass spectrum of the sample is shown.\n\n| ***m*** **/** ***z*** **value** | 70 | 72 | 74 |\n|---|---|---|---|\n| **Relative abundance (%)** | 24.4 | 32.4 | 43.2 |\n\nWhat is the relative atomic mass of metal **Z** to 3 significant figures?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- To calculate the relative atomic mass:\n\n*A*<sub>r</sub> = $\\frac{(70\\times24.4)+(72\\times32.4)+(74\\times43.2)}{100}$\n\n*A*<sub>r</sub> = $\\frac{1708+2332.8+3196.8}{100}$\n\n*A*<sub>r</sub> = 72.376\n\n*A*<sub>r</sub> = **72.4** (to 3 significant figures)\n\n**A** is incorrect as 72.0 is the simple unweighted mean of the three *m*/*z* values: (70 + 72 + 74) / 3 = 72.0, ignoring the percentage abundances.\n\n**B** is incorrect as 72.2 is the result when the abundances for *m*/*z* 72 and *m*/*z* 74 are swapped in the calculation.\n\n**C** is incorrect as 72.38 is the correct calculated value (72.376) rounded to 4 significant figures rather than the 3 significant figures requested.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "72.0"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "72.2"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "72.38"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "72.4"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(70\\times24.4)+(72\\times32.4)+(74\\times43.2)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>70</mn><mo>&#xD7;</mo><mn>24</mn><mo>.</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>72</mn><mo>&#xD7;</mo><mn>32</mn><mo>.</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>74</mn><mo>&#xD7;</mo><mn>43</mn><mo>.</mo><mn>2</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(70 \\times 24.4) + (72 \\times 32.4) + (74 \\times 43.2)}{100}"
+      },
+      {
+       "latex": "\\frac{1708+2332.8+3196.8}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1708</mn><mo>+</mo><mn>2332</mn><mo>.</mo><mn>8</mn><mo>+</mo><mn>3196</mn><mo>.</mo><mn>8</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{1708 + 2332.8 + 3196.8}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_X8WGWCsKcWQgvnwR",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_XgpznxPWsqGg4tmc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the relative formula mass of ammonium sulfate, (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The **relative formula mass** of ionic and giant covalent compounds is calculated from all the atoms in the empirical formula.\n\n- *M*<sub>r</sub> = 2*A*<sub>r</sub>(N) + 8*A*<sub>r</sub>(H) + *A*<sub>r</sub>(S) + 4*A*<sub>r</sub>(O)\n\n*M*<sub>r</sub> = 2(14.0) + 8(1.0) + 32.1 + 4(16.0)\n\n*M*<sub>r</sub> = 28.0 + 8.0 + 32.1 + 64.0\n\n*M*<sub>r</sub> = **132.1**\n\n**A** is incorrect as this has used the IGCSE atomic mass for sulfur (32.0 instead of 32.1) **AND **forgot to multiply the ammonium ion by 2, giving NH<sub>4</sub>SO<sub>4</sub> = 114.0.\n\n**B** is incorrect as this has used the correct A Level atomic mass for sulfur (32.1) but forgot to multiply the ammonium ion by 2, giving NH<sub>4</sub>SO<sub>4</sub> = 114.1.\n\n**C** is incorrect as this has correctly multiplied the ammonium ion by 2 but used the IGCSE atomic mass for sulfur (32.0 instead of 32.1), giving 132.0.\n\n> **[exam-tip]**\n> The most common error on this question type is forgetting to multiply all the atoms inside a bracket by the number outside. For (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, the subscript 2 outside the bracket applies to both N and H, giving 2N and 8H in total.\n> \n> At A Level, always use the atomic masses from the CIE Data Booklet rather than the integer values you may have used at GCSE. For sulfur, the Data Booklet value is 32.1, not 32 and this is the key discriminator between options C and D.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "114.0"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "114.1"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "132.0"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "132.1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WfcgR7tSRdYn82vX",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_rVzkWt5jCCYSbgVz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Iron has many different naturally occurring isotopes.\n\n| **Isotope** | **% Abundance** | **Isotopic mass** |\n|---|---|---|\n| <sup>54</sup>Fe | 5.845 | 53.9396 |\n| <sup>56</sup>Fe | 91.754 | 55.9349 |\n| <sup>57</sup>Fe | 2.119 | 56.9354 |\n| <sup>58</sup>Fe | 0.282 | 57.9333 |\n\nWhat is the relative atomic mass of iron?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- To calculate the **relative atomic mass**, multiply each isotopic mass by its percentage abundance, sum the results, and divide by 100.\n\n*A*<sub>r</sub> = `\\frac{\\Sigma (\\% \\text{ abundance} \\times \\text{isotopic mass})}{100}`\n\n*A*<sub>r</sub>(Fe) = $\\frac{(5.845\\times53.9396)+(91.754\\times55.9349)+(2.119\\times56.9354)+(0.282\\times57.9333)}{100}$\n\n*A*<sub>r</sub>(Fe) = **55.845**\n\n**A** is incorrect as 55.800 is the value given in the CIE Data Booklet for iron. This traps people who read the answer from the periodic table instead of performing the calculation on the data provided.\n\n**C** is incorrect as 56.186 is the simple unweighted average of the four isotopic masses, ignoring the percentage abundances.\n\n**D** is incorrect as 56.250 is the simple unweighted average of the four mass numbers (54, 56, 57, 58), ignoring both the isotopic masses and the percentage abundances.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "55.800"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "55.845"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "56.186"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "56.250"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(5.845\\times53.9396)+(91.754\\times55.9349)+(2.119\\times56.9354)+(0.282\\times57.9333)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>5</mn><mo>.</mo><mn>845</mn><mo>&#xD7;</mo><mn>53</mn><mo>.</mo><mn>9396</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>91</mn><mo>.</mo><mn>754</mn><mo>&#xD7;</mo><mn>55</mn><mo>.</mo><mn>9349</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>.</mo><mn>119</mn><mo>&#xD7;</mo><mn>56</mn><mo>.</mo><mn>9354</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>0</mn><mo>.</mo><mn>282</mn><mo>&#xD7;</mo><mn>57</mn><mo>.</mo><mn>9333</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(5.845 \\times 53.9396) + (91.754 \\times 55.9349) + (2.119 \\times 56.9354) + (0.282 \\times 57.9333)}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PzBsmMN239n453cZ",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3GPM69j53SsdGWT7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Aspirin is a common analgesic used for the relief of aches and pains.\n\n![Skeletal formula of aspirin showing a benzene ring with an ester group (OCOCH3) and a carboxylic acid group (COOH)](assets/001-skeletal-formula-of-aspirin-showing-a-benzene-ri.jpg)\n\nWhich row correctly describes aspirin?\n\n|   | **Empirical formula** | **Molecular formula** | ***M***<sub>**r**</sub> |\n|---|---|---|---|\n| **A** | C<sub>2</sub>H<sub>2</sub>O | C<sub>9</sub>H<sub>8</sub>O<sub>4</sub> | 180.0 |\n| **B** | C<sub>3</sub>H<sub>3</sub>O | C<sub>9</sub>H<sub>12</sub>O<sub>4</sub> | 184.0 |\n| **C** | C<sub>9</sub>H<sub>12</sub>O<sub>4</sub> | C<sub>9</sub>H<sub>12</sub>O<sub>4</sub> | 184.0 |\n| **D** | C<sub>9</sub>H<sub>8</sub>O<sub>4</sub> | C<sub>9</sub>H<sub>8</sub>O<sub>4</sub> | 180.0 |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Count the atoms from the skeletal formula:\n\n  - 9 carbon atoms\n  - 8 hydrogen atoms\n  - 4 oxygen atoms\n\n- Molecular formula = C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>\n\n- C<sub>9</sub>H<sub>8</sub>O<sub>4</sub> is already the simplest whole number ratio of atoms, so the empirical formula is also C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>.\n\n- Calculate *M*<sub>r</sub>:\n\n*M*<sub>r</sub> = (9 x 12.0) + (8 x 1.0) + (4 x 16.0)\n\n*M*<sub>r</sub> = 180.0\n\n**A** is incorrect as the empirical formula C<sub>2</sub>H<sub>2</sub>O does not reduce from C<sub>9</sub>H<sub>8</sub>O<sub>4</sub> (the ratio 9:8:4 shares no common factor greater than 1).\n\n**B** is incorrect as the molecular formula C<sub>9</sub>H<sub>12</sub>O<sub>4</sub> gives the wrong hydrogen count. The four substituted carbons on the benzene ring are each bonded to a substituent and carry no hydrogen atoms.\n\n**C** is incorrect as the hydrogen count is wrong for the same reason as B, and C<sub>9</sub>H<sub>12</sub>O<sub>4</sub> is not the simplest ratio so it cannot be the empirical formula.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kqpK7Mncst3CxZGK",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_TkqmPrh7NZkTFktV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of strontium was analysed by mass spectrometry. The relative abundances of some of the isotopes are shown.\n\n| ***m*** **/** ***z*** **value** | 84 | 86 | 87 | 88 |\n|---|---|---|---|---|\n| **% abundance** | 0.56 |   |   | 82.58 |\n\nThe relative atomic mass of this sample of strontium is 87.71.\n\nWhich row gives the percentage abundances of <sup>86</sup>Sr and <sup>87</sup>Sr?\n\n|   | <sup>**86**</sup>**Sr** | <sup>**87**</sup>**Sr** |\n|---|---|---|\n| **A** | 6.96 | 9.90 |\n| **B** | 8.43 | 8.43 |\n| **C** | 9.90 | 6.96 |\n| **D** | 11.58 | 5.84 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Find the total percentage of the two unknown isotopes:\n\n100 - (82.58 + 0.56) = 16.86%\n\n- Let <sup>86</sup>Sr abundance = *y*, so <sup>87</sup>Sr abundance = (16.86 - *y*).\n\n- Set up the relative atomic mass equation:\n\n$\\frac{(84\\times0.56)+(86y)+(87(16.86-y))+(88\\times82.58)}{100} = 87 . 71$\n\n- Expand and simplify:\n\n$47 . 04 + 86 y + 1466 . 82 - 87 y + 7267 . 04 = 8771$\n\n$8780 . 90 - y = 8771$\n\n*y* = **9.90%** (<sup>86</sup>Sr)\n\n<sup>87</sup>Sr = 16.86 - 9.90 = **6.96%**\n\n**A** is incorrect as these are the correct values but assigned to the wrong isotopes.\n\n**B** is incorrect as 8.43% is obtained by dividing 16.86% equally between the two isotopes without performing the algebraic calculation.\n\n**D** is incorrect as 11.58% and 5.84% are obtained when the <sup>84</sup>Sr abundance (0.56%) is ignored, incorrectly treating the unknown total as 17.42% rather than 16.86%.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(84\\times0.56)+(86y)+(87(16.86-y))+(88\\times82.58)}{100} = 87 . 71",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>84</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>56</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>86</mn><mi>y</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>87</mn><mo>(</mo><mn>16</mn><mo>.</mo><mn>86</mn><mo>-</mo><mi>y</mi><mo>)</mo><mo>)</mo><mo>+</mo><mo>(</mo><mn>88</mn><mo>&#xD7;</mo><mn>82</mn><mo>.</mo><mn>58</mn><mo>)</mo></mrow><mn>100</mn></mfrac><mo>=</mo><mn>87</mn><mo>.</mo><mn>71</mn></math>",
+       "alt": "\\frac{(84 \\times 0.56) + (86y) + (87(16.86 - y)) + (88 \\times 82.58)}{100} = 87.71"
+      },
+      {
+       "latex": "47 . 04 + 86 y + 1466 . 82 - 87 y + 7267 . 04 = 8771",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>47</mn><mo>.</mo><mn>04</mn><mo>+</mo><mn>86</mn><mi>y</mi><mo>+</mo><mn>1466</mn><mo>.</mo><mn>82</mn><mo>-</mo><mn>87</mn><mi>y</mi><mo>+</mo><mn>7267</mn><mo>.</mo><mn>04</mn><mo>=</mo><mn>8771</mn></math>",
+       "alt": "47.04 + 86y + 1466.82 - 87y + 7267.04 = 8771"
+      },
+      {
+       "latex": "8780 . 90 - y = 8771",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8780</mn><mo>.</mo><mn>90</mn><mo>-</mo><mi>y</mi><mo>=</mo><mn>8771</mn></math>",
+       "alt": "8780.90 - y = 8771"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_J45nYzQBc3KcQbWw",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CWVr6y8SP3qM98yG",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrated copper(II) sulfate has the formula CuSO<sub>4</sub>·*x*H<sub>2</sub>O and a relative formula mass of 231.6.\n\nWhat is the value of *x*?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Calculate the relative formula mass of anhydrous CuSO<sub>4</sub>:\n\n*M*<sub>r</sub>(CuSO<sub>4</sub>) = 63.5 + 32.1 + 4(16.0) = 159.6\n\n- Find the mass contributed by the water of crystallisation:\n\n231.6 - 159.6 = 72.0\n\n- Divide by the relative formula mass of water (18.0) to find *x*:\n\n*x* = $\\frac{72.0}{18.0}$\n\n*x* = 4\n\n**A** is incorrect as CuSO<sub>4</sub>·2H<sub>2</sub>O has *M*<sub>r</sub> = 159.6 + 36.0 = 195.6\n\n**B** is incorrect as CuSO<sub>4</sub>·3H<sub>2</sub>O has *M*<sub>r</sub> = 159.6 + 54.0 = 213.6\n\n**D** is incorrect as CuSO<sub>4</sub>·5H<sub>2</sub>O has *M*<sub>r</sub> = 159.6 + 90.0 = 249.6",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "5"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{72.0}{18.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>72</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>18</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{72.0}{18.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_d24MQRWfSn2Mt8NF",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_w3KqPfjsgqDyC6BX",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "An element, **X**, consists of only two isotopes, <sup>69</sup>**X** and <sup>71</sup>**X**, with percentage abundances of 60% and 40% respectively.\n\nWhat is the relative atomic mass of element X?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- To calculate the relative atomic mass:\n\n*A*<sub>r</sub>(**X**) = $\\frac{(69\\times60)+(71\\times40)}{100}$\n\n*A*<sub>r</sub>(**X**) = $\\frac{4140+2840}{100}$\n\n*A*<sub>r</sub>(**X**) = **69.8**\n\n**A** is incorrect as 69.2 is not produced by any standard calculation error on these values.\n\n**C** is incorrect as 70.0 is the simple unweighted mean of 69 and 71, ignoring the percentage abundances.\n\n**D** is incorrect as 70.2 is the result when the abundances for <sup>69</sup>**X** and <sup>71</sup>**X** are swapped in the calculation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "69.2"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "69.8"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "70.0"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "70.2"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(69\\times60)+(71\\times40)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>69</mn><mo>&#xD7;</mo><mn>60</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>71</mn><mo>&#xD7;</mo><mn>40</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(69 \\times 60) + (71 \\times 40)}{100}"
+      },
+      {
+       "latex": "\\frac{4140+2840}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4140</mn><mo>+</mo><mn>2840</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{4140 + 2840}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cWN4snDBkQyhcDhc",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hYxMNvczSGgJ9kHt",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of neon contains only the isotopes <sup>20</sup>Ne and <sup>21</sup>Ne.\n\nThe relative atomic mass of this sample is 20.2.\n\nWhat is the percentage of <sup>21</sup>Ne atoms in this sample?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Since the sample contains **only** these two isotopes, their percentage abundances must sum to 100%.\n\n- Let the percentage of <sup>21</sup>Ne = *x*, so the percentage of <sup>20</sup>Ne = (100 - *x*).\n\n- Substituting into the relative atomic mass expression:\n\n$\\frac{21x+20(100-x)}{100} = 20 . 2$\n\n$21 x + 2000 - 20 x = 2020$\n\n*x* = **20%**\n\n**A** and **D** are incorrect as these values do not satisfy the equation above.\n\n**C** is incorrect as 80% is the percentage of <sup>20</sup>Ne when the algebra is set up correctly but *x* is assigned to the wrong isotope.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "8%"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "20%"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "80%"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "92%"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{21x+20(100-x)}{100} = 20 . 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>21</mn><mi>x</mi><mo>+</mo><mn>20</mn><mo>(</mo><mn>100</mn><mo>-</mo><mi>x</mi><mo>)</mo></mrow><mn>100</mn></mfrac><mo>=</mo><mn>20</mn><mo>.</mo><mn>2</mn></math>",
+       "alt": "\\frac{21x + 20(100 - x)}{100} = 20.2"
+      },
+      {
+       "latex": "21 x + 2000 - 20 x = 2020",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mi>x</mi><mo>+</mo><mn>2000</mn><mo>-</mo><mn>20</mn><mi>x</mi><mo>=</mo><mn>2020</mn></math>",
+       "alt": "21x + 2000 - 20x = 2020"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2sZm7XrWdTR6WrsJ",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BYnThcVcSykWwcPp",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Which expression defines the unified atomic mass unit?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The **unified atomic mass unit (u)** is defined as exactly $\\frac{1}{12}$ of the mass of an atom of carbon-12.\n\n- This is distinct from **relative atomic mass (*****A***<sub>**r**</sub>**)**, which is the weighted average mass of naturally occurring atoms of an element on a scale where an atom of carbon-12 has a mass of exactly 12 units.\n\n**A** is incorrect as the mass of an electron is approximately $\\frac{1}{1836}$ u, which is negligible compared to 1 u.\n\n**C** is incorrect as an atom of hydrogen-1 has a mass of approximately 1.0078 u, not exactly 1 u. Hydrogen was the original standard before being replaced by carbon-12 in 1961.\n\n**D** is incorrect as the mass of a proton is approximately 1.0073 u. The formal definition uses the entire carbon-12 atom, which accounts for protons, neutrons, electrons, and nuclear binding energy.\n\n> **[exam-tip]**\n> Do not confuse the unified atomic mass unit with relative atomic mass.\n> \n> - The atomic mass unit is a fixed quantity, defined as exactly 1/12 the mass of one carbon-12 atom.\n> - Relative atomic mass is a dimensionless ratio that uses this unit as its reference scale and takes into account the natural isotopic abundances of an element.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "the mass of an electron"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "$\\frac{1}{12}$ of the mass of an atom of carbon-12"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "the mass of an atom of hydrogen-1"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "the mass of a proton"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{1}{12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math>",
+       "alt": "\\frac{1}{12}"
+      },
+      {
+       "latex": "\\frac{1}{1836}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>1836</mn></mfrac></math>",
+       "alt": "\\frac{1}{1836}"
+      },
+      {
+       "latex": "\\frac{1}{12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math>",
+       "alt": "\\frac{1}{12}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_t5hvVCt324N9pP7k",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_nJ4Mn2jqpWckJtNR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanoic acid has a relative molecular mass of 60.0.\n\nDefine the term relative molecular mass.",
+     "solution_md": "> **[mark-scheme]**\n> The definition of relative molecular mass:\n> \n> - The mass of a molecule / the (weighted) average / mean mass of the molecule(s) / the mass of one mole of molecules **[1 mark]**\n> - Relative to / compared to 1/12 (of the mass) of (an atom of) carbon-12\n> **OR**\n> On a scale where carbon-12 has a mass of (exactly) 12 (units) **[1 mark]**\n\n> **[exam-tip]**\n> The definition of Mr has two required components: what is being measured (the mass of a molecule or average mass of molecules) and the reference standard (carbon-12). Both components are needed for full marks.\n> \n> The reference to carbon-12 can be phrased in two equivalent ways: \"relative to 1/12 the mass of a carbon-12 atom\" or \"on a scale where carbon-12 = 12 units.\""
+    },
+    {
+     "id": "qstnprt_KNp8VQ4QcRPrW5m3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "State the empirical formula of ethanoic acid.",
+     "solution_md": "> **[mark-scheme]**\n> The empirical formula of ethanoic acid:\n> \n> - CH<sub>2</sub>O **[1 mark]**\n\n> **[exam-tip]**\n> The molecular formula of ethanoic acid is C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>. The empirical formula is the simplest whole-number ratio of atoms. All three subscripts share a common factor of 2, so dividing each by 2 gives CH<sub>2</sub>O.\n> \n> Do not confuse the empirical formula with the structural formula (CH<sub>3</sub>COOH) or the molecular formula (C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>)."
+    },
+    {
+     "id": "qstnprt_Fm8JQnRPfBj4JHdd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hhsQcFzVK8SK2Fpk",
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanoic acid reacts with aqueous sodium carbonate to form a neutral salt solution and a gas.\n\ni) Name the salt produced in this reaction.\n\n[1]\n\nii) Calculate its relative formula mass.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The name of the salt produced in this reaction:\n> \n> - Sodium ethanoate **[1 mark]**\n\nii) To calculate the relative formula mass of sodium ethanoate (CH<sub>3</sub>COONa):\n\n*M*<sub>r</sub> = 12.0 + (3 × 1.0) + 12.0 + (2 × 16.0) + 23.0\n\n*M*<sub>r</sub> = **82.0** **[1 mark]**\n\n> **[exam-tip]**\n> Ethanoic acid (CH<sub>3</sub>COOH) reacts with sodium carbonate (Na<sub>2</sub>CO<sub>3</sub>) to form sodium ethanoate (CH<sub>3</sub>COONa), water and carbon dioxide. The gas produced is CO<sub>2</sub>.\n> \n> For the relative formula mass, count the atoms in CH<sub>3</sub>COONa carefully: 2 C, 3 H, 2 O and 1 Na. Working: 12.0 + 3.0 + 12.0 + 32.0 + 23.0 = 82.0."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qBHb3fwWdmz39brc",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_rKCrw5QgJFW9bR3Y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 3.1 shows the number of protons, neutrons and electrons of some isotopes and ions of copper.\n\n**Table 3.1**\n\n| **Species** | **Protons** | **Neutrons** | **Electrons** |\n|---|---|---|---|\n|   |   | 34 | 27 |\n| <sup>65</sup>Cu<sup>+</sup> | 29 |   |   |\n\ni) Complete Table 3.1.\n\n[2]\n\nii) State the full electronic configuration of the Cu<sup>+</sup> ion.\n\n[1]",
+     "solution_md": "i) The completed Table 3.1:\n\n| **Species** | **Protons** | **Neutrons** | **Electrons** |\n|---|---|---|---|\n| **Final answer:** <sup>**63**</sup>**Cu**<sup>**2+**</sup> | **Final answer:** **29** | 34 | 27 |\n| <sup>65</sup>Cu<sup>+</sup> | 29 | **Final answer:** **36** | **Final answer:** **28** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all values in the <sup>63</sup>Cu<sup>2+</sup> row correct: species = <sup>63</sup>Cu<sup>2+</sup>, protons = 29\n> \n> 1 mark for all values in the <sup>65</sup>Cu<sup>+</sup> row correct: neutrons = 36, electrons = 28\n\n> **[mark-scheme]**\n> ii) The full electronic configuration of the Cu<sup>+</sup> ion:\n> \n> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> **[1 mark]**\n\n> **[exam-tip]**\n> For completing Table 3.1: the number of protons in copper is always 29 (atomic number = 29). For Row 1, electrons (27) < protons (29) by 2, indicating Cu<sup>2+</sup>. Mass number = 29 + 34 = 63, giving <sup>63</sup>Cu<sup>2+</sup>. For Row 2, <sup>65</sup>Cu<sup>+</sup> has mass number 65, so neutrons = 65 - 29 = 36. Cu<sup>+</sup> has lost 1 electron: 29 - 1 = 28 electrons.\n> \n> For the Cu<sup>+</sup> electronic configuration: copper has an anomalous ground state of [Ar] 3d<sup>10</sup> 4s<sup>1</sup> (not the expected [Ar] 3d<sup>9</sup> 4s<sup>2</sup>) because a fully filled 3d subshell provides extra stability. Forming Cu<sup>+</sup> removes the single 4s<sup>1</sup> electron, leaving a complete 3d<sup>10</sup> configuration: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup>. Write configurations in principal quantum number order: 3d is written before 4s."
+    },
+    {
+     "id": "qstnprt_nhxJW9nr4nJjyrQk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "<sup>63</sup>Cu has a relative isotopic mass of 62.9296 and <sup>65</sup>Cu has a relative isotopic mass of 64.9278. The relative atomic mass of copper is 63.546.\n\nCalculate the percentage abundance of each isotope of copper. Show your working.\n\nExpress your answer to an appropriate number of significant figures.",
+     "solution_md": "To calculate the percentage abundances of <sup>63</sup>Cu and <sup>65</sup>Cu:\n\n- Let the fractional abundance of <sup>63</sup>Cu = *x*, so the fractional abundance of <sup>65</sup>Cu = (1 - *x*)\n\n- Set up the weighted average equation using Ar(Cu) = 63.546:\n\n63.546 = (62.9296 × *x*) + (64.9278 × (1 - *x*))\n\n**[1 mark]**\n\n- Expand and rearrange:\n\n63.546 = 62.9296*x* + 64.9278 - 64.9278*x*\n\n-1.3818 = -1.9982*x*\n\n**[1 mark]**\n\n- Solve for *x*:\n\n*x* = $\\frac{1.3818}{1.9982}$ = 0.69152\n\n<sup>63</sup>Cu = **69.152%** **AND** <sup>65</sup>Cu = **30.848% ****[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correctly setting up the weighted average equation\n> \n> 1 mark for obtaining -1.9982x = -1.3818 (or equivalent rearrangement)\n> \n> 1 mark for both final answers correct to 5 significant figures: <sup>63</sup>Cu = 69.152%, <sup>65</sup>Cu = 30.848%\n> \n> Both percentages must be given for the final mark.\n\n> **[exam-tip]**\n> Since the total abundance of all isotopes must equal 100%, the fractional abundance of <sup>65</sup>Cu = 1 - *x* where *x* is the fractional abundance of <sup>63</sup>Cu. This allows you to solve for *x* using a single equation.\n> \n> Always express your final answer to the same number of significant figures as the least precise data value. The relative isotopic masses are given to 6 sig figs and the relative atomic mass to 5 sig figs, so give both percentages to 5 significant figures.\n> \n> Check your answer: most naturally occurring copper is <sup>63</sup>Cu (about 69%), so an answer near 69% for <sup>63</sup>Cu is expected.",
+     "equations": [
+      {
+       "latex": "\\frac{1.3818}{1.9982}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>3818</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>9982</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.3818}{1.9982}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bNrfgk4J9zWRtKQx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMmgX5bpCKqKvXws"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why isotopes of copper have the same chemical properties but different densities.",
+     "solution_md": "> **[mark-scheme]**\n> The explanation for same chemical reactions but different densities in copper isotopes:\n> \n> - Isotopes of copper have the same number of electrons / the same electronic configuration **[1 mark]**\n> - Isotopes of copper have different mass numbers / different numbers of neutrons **[1 mark]**\n\n> **[exam-tip]**\n> Chemical properties are determined by the number and arrangement of electrons. Density depends on mass: more neutrons means greater nuclear mass and therefore greater density.\n> \n> Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. The number of electrons (and therefore the electronic configuration) is unchanged between isotopes of the same element, so chemical reactivity is identical.\n> \n> Physical properties such as density, melting point and boiling point are affected by mass. Heavier isotopes have greater mass per atom, leading to slightly higher density. This is why <sup>65</sup>Cu is denser than <sup>63</sup>Cu."
+    },
+    {
+     "id": "qstnprt_KFTDZ4sqDThM45Ry",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Copper(II) chloride reacts with sodium phosphate to form two salts only.\n\nWrite a balanced equation for this reaction.",
+     "solution_md": "The balanced equation for the reaction between copper(II) chloride and sodium phosphate:\n\n3CuCl<sub>2</sub> + 2Na<sub>3</sub>PO<sub>4</sub> → Cu<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + 6NaCl\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formulae for all reactants and products: CuCl<sub>2</sub>, Na<sub>3</sub>PO<sub>4</sub>, Cu<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>, NaCl\n> \n> 1 mark for correct balancing: coefficients 3, 2, 1, 6\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> The trickiest formula is copper(II) phosphate. The copper ion is Cu<sup>2+</sup> and the phosphate ion is PO<sub>4</sub><sup>3-</sup>.\n> \n> To form a neutral compound: 3 Cu<sup>2+</sup> (charge +6) and 2 PO<sub>4</sub><sup>3-</sup> (charge -6). The formula is Cu<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>, so brackets around PO<sub>4</sub> are essential.\n> \n> To balance:\n> \n> - Start with sodium (2Na<sub>3</sub>PO<sub>4</sub> gives 6 Na, so 6NaCl)\n> - Balance copper (3CuCl<sub>2</sub> gives 3 Cu, consistent with Cu<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>).\n> - Check chlorine: 3 x 2 = 6 Cl, giving 6 NaCl."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Kx7psJJNdhy3grdJ",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_nJfXQ7fF7WhnTcwp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "The element chromium has several naturally occurring isotopes whose abundances are shown in Table 1.1\n\n**Table 1.1**\n\n| **Mass number** | **% abundance** |\n|---|---|\n| 50 | 4.345 |\n| 52 | 83.789 |\n| 53 | 9.501 |\n| 54 | 2.365 |\n\nCalculate the relative atomic mass of chromium to two decimal places.",
+     "solution_md": "To calculate the relative atomic mass of chromium:\n\n- Calculate *A*<sub>r</sub> using the weighted average:\n\n*A*<sub>r</sub> = $\\frac{(4.345\\times50)+(83.789\\times52)+(9.501\\times53)+(2.365\\times54)}{100}$\n\n*A*<sub>r</sub> = $\\frac{5205.5}{100}$ **[1 mark]**\n\n*A*<sub>r</sub> = **52.06** **[1 mark]**\n\n> **[exam-tip]**\n> Always check that your calculated Ar makes sense against the data: the most abundant isotope of chromium is <sup>52</sup>Cr (83.8%), so the average mass must be very close to 52. An answer of 52.06 is consistent with this.\n> \n> The question asks for two decimal places specifically. Even if your answer rounds to a whole number, write the required decimal places, for example 52.00 rather than 52.",
+     "equations": [
+      {
+       "latex": "\\frac{(4.345\\times50)+(83.789\\times52)+(9.501\\times53)+(2.365\\times54)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>4</mn><mo>.</mo><mn>345</mn><mo>&#xD7;</mo><mn>50</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>83</mn><mo>.</mo><mn>789</mn><mo>&#xD7;</mo><mn>52</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>9</mn><mo>.</mo><mn>501</mn><mo>&#xD7;</mo><mn>53</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>.</mo><mn>365</mn><mo>&#xD7;</mo><mn>54</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(4.345 \\times 50) + (83.789 \\times 52) + (9.501 \\times 53) + (2.365 \\times 54)}{100}"
+      },
+      {
+       "latex": "\\frac{5205.5}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5205</mn><mo>.</mo><mn>5</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{5205.5}{100}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vHc5tGfMH2n8tSbT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PCXmSVmcYjz89QXw"
+     ],
+     "part_tier": null,
+     "problem_md": "Chromium can form a variety of compounds. Chromium(III) chloride hydrate is the dark green complex [CrCl<sub>2</sub>(H<sub>2</sub>O)<sub>4</sub>]Cl.\n\nWrite the full electronic configuration for the chromium ion in this compound.",
+     "solution_md": "> **[mark-scheme]**\n> The full electronic configuration of the Cr<sup>3+</sup> ion is:\n> \n> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>3</sup> **[1 mark]**\n\n> **[exam-tip]**\n> The Roman numeral (III) in the compound name tells you the chromium ion has a 3+ charge. Starting from the ground state chromium atom (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>5</sup> 4s<sup>1</sup>), remove three electrons. Electrons are removed from the 4s subshell before the 3d subshell when forming transition metal ions, so removing 1 from 4s and 2 from 3d gives the 3d<sup>3</sup> configuration.\n> \n> Write configurations in principal quantum number order: n = 1, then n = 2, then n = 3. This means 3d is always written before 4s in the final configuration."
+    },
+    {
+     "id": "qstnprt_cYjKMqmmcWQY3N4Y",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the relative molecular mass of [CrCl<sub>2</sub>(H<sub>2</sub>O)<sub>4</sub>]Cl.",
+     "solution_md": "To calculate the relative molecular mass of [CrCl<sub>2</sub>(H<sub>2</sub>O)<sub>4</sub>]Cl:\n\n- Identify the atoms: 1 Cr, 3 Cl (2 inside the brackets + 1 outside), 4 H<sub>2</sub>O\n\n- Calculate *M*<sub>r</sub>:\n\n*M*<sub>r</sub> = 52.0 + (3 × 35.5) + (4 × 18.0)\n\n*M*<sub>r</sub> = 52.0 + 106.5 + 72.0\n\n*M*<sub>r</sub> = **230.5** **[1 mark]**\n\n> **[exam-tip]**\n> Take care when reading the formula [CrCl<sub>2</sub>(H<sub>2</sub>O)<sub>4</sub>]Cl: there are two Cl atoms inside the coordination sphere plus one Cl outside the brackets, giving 3 Cl atoms in total.\n> \n> For the water molecules inside the complex, treat each H<sub>2</sub>O as having Mr = 18.0, then multiply by the number of water molecules: 4 × 18.0 = 72.0."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DsYdBDsJdnjWTZ2q",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_QPH2XbZcdF6zHNz3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the following terms.\n\nRelative atomic mass\n\n[2]\n\nRelative isotopic mass\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> The definition of relative atomic mass:\n> \n> - The weighted average / mean mass of an atom of the element / one mole of atoms of the element **[1 mark]**\n> - Relative to / compared to 1/12 (of the mass) of (an atom of) carbon-12\n> **OR**\n> On a scale where carbon-12 has a mass of (exactly) 12 (units)\n> **OR**\n> Where one mole of carbon-12 has a mass of exactly 12 g **[1 mark]**\n> \n> The definition of relative isotopic mass:\n> \n> - The mass of an atom / isotope / one mole of (atoms of) a specific isotope **[1 mark]**\n> - Relative to / compared to 1/12 (of the mass) of (an atom of) carbon-12\n> **OR**\n> On a scale where carbon-12 has a mass of (exactly) 12 (units) **[1 mark]**\n> \n> The formula $\\frac{\\text{average mass of one atom}}{1/12\\text{the mass of one carbon-12 atom}}$ is accepted for both marks for relative atomic mass.\n\n> **[exam-tip]**\n> These definitions are frequently tested in CIE examinations. Learn both the single-atom and mole-scale versions so you can adapt to how the question phrases the requirement.\n> \n> For relative atomic mass, the key points are: (1) it is a weighted average (accounting for isotope abundances), and (2) it is measured relative to carbon-12. Both marks require both components to be present.\n> \n> The key distinction between relative atomic mass and relative isotopic mass is that relative atomic mass is the weighted average across all naturally occurring isotopes, while relative isotopic mass refers to one specific isotope only.\n> \n> These two definitions are unlikely to appear together in the same examination paper.",
+     "equations": [
+      {
+       "latex": "\\frac{\\text{average mass of one atom}}{1/12\\text{the mass of one carbon-12 atom}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>average mass of one atom</mtext><mrow><mn>1</mn><mo>/</mo><mn>12</mn><mtext>&#xA0;the mass of one carbon-12 atom</mtext></mrow></mfrac></math>",
+       "alt": "\\frac{\\text{average mass of one atom}}{1/12 \\text{ the mass of one carbon-12 atom}}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_J7JWYCDjnzyrhfsb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "i) State the symbols used for relative atomic mass and relative molecular mass.\n\n[1]\n\nii) Describe how to calculate the relative molecular mass of a compound.\n\n[1]\n\niii) State the difference between relative molecular mass and relative formula mass.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The symbols for relative atomic mass and relative molecular mass:\n> \n> - *A*<sub>r</sub> \n> **AND**\n> *M*<sub>r</sub> **[1 mark]**\n> \n> ii) To calculate the relative molecular mass of a compound:\n> \n> - Add the relative atomic masses / *A*<sub>r</sub> values of all atoms in the molecule **[1 mark]**\n> \n> iii) The difference between relative molecular mass and relative formula mass:\n> \n> - Relative molecular mass is used for molecular compounds\n> **AND**\n> Relative formula mass is used for ionic compounds / compounds that contain ions **[1 mark]**\n\n> **[exam-tip]**\n> The symbols *A*<sub>r</sub> and *M*<sub>r</sub> are equivalent to the full terms relative atomic mass and relative molecular mass respectively. Both forms appear in examination questions and mark schemes.\n> \n> Relative formula mass is used for ionic compounds such as NaCl and MgO, which do not exist as discrete molecules. Relative molecular mass applies to compounds with distinct covalent molecules such as H<sub>2</sub>O and CO<sub>2</sub>."
+    },
+    {
+     "id": "qstnprt_98kNY8Z9q7qdyThC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "Ionic compounds such as sodium chloride are arranged in a giant three-dimensional lattice structure, with a regular and repeating pattern of positive and negative ions.\n\nState the formula unit of sodium chloride.",
+     "solution_md": "> **[mark-scheme]**\n> The formula unit of sodium chloride:\n> \n> - NaCl **[1 mark]**\n> \n> The formula unit is the simplest formula for an ionic compound. Ionic compounds form giant lattice structures rather than discrete molecules.\n\n> **[exam-tip]**\n> Ionic compounds such as NaCl do not exist as individual molecules. The formula unit represents the simplest ratio of ions in the compound. Other examples: SiO<sub>2</sub> for silicon dioxide, C for diamond."
+    },
+    {
+     "id": "qstnprt_zvYD7Ytc7ggb3tKd",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty",
+      "spcpt_ByB9PnP9PCQZWYyn"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1.1\n\n**Table 1.1**\n\n| **Chemical** | **Formula** | **Relative molecular / formula mass** |\n|---|---|---|\n| Magnesium oxide | MgO |   |\n| Sulfuric acid | H<sub>2</sub>SO<sub>4</sub> |   |\n| Ammonium phosphate | (NH<sub>4</sub>)<sub>3</sub>PO<sub>4</sub> |   |\n| Copper(II) sulfate pentahydrate | CuSO<sub>4</sub>•5H<sub>2</sub>O |   |",
+     "solution_md": "The completed table is:\n\n| **Chemical** | **Formula** | **Relative molecular / formula mass** |\n|---|---|---|\n| Magnesium oxide | MgO | **Final answer:** **40.3** |\n| Sulfuric acid | H<sub>2</sub>SO<sub>4</sub> | **Final answer:** **98.1** |\n| Ammonium phosphate | (NH<sub>4</sub>)<sub>3</sub>PO<sub>4</sub> | **Final answer:** **149.0** |\n| Copper(II) sulfate pentahydrate | CuSO<sub>4</sub>•5H<sub>2</sub>O | **Final answer:** **249.6** |\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for MgO = 40.3\n> \n> 1 mark for H<sub>2</sub>SO<sub>4</sub> = 98.1\n> \n> 1 mark for (NH<sub>4</sub>)<sub>3</sub>PO<sub>4</sub> = 149.0\n> \n> 1 mark for CuSO<sub>4</sub>•5H<sub>2</sub>O = 249.6\n\n> **[exam-tip]**\n> Use the relative atomic mass values from your data booklet rather than memorised values, as the precision may differ.\n> \n> For compounds with brackets, such as (NH<sub>4</sub>)<sub>3</sub>PO<sub>4</sub>, work out the mass of each bracket group first, then multiply by the subscript.\n> \n> - The NH<sub>4</sub> group: 14.0 + (4 × 1.0) = 18.0\n> - Three groups: 3 × 18.0 = 54.0\n> - The PO<sub>4</sub> group: 31.0 + (4 × 16.0) = 95.0\n> - Total: 54.0 + 95.0 = 149.0\n> \n> For hydrated salts such as CuSO<sub>4</sub>•5H<sub>2</sub>O, treat the water of crystallisation separately.\n> \n> - CuSO<sub>4</sub>: 63.5 + 32.1 + (4 × 16.0) = 159.6\n> - Five water molecules: 5 × 18.0 = 90.0\n> - Total: 159.6 + 90.0 = 249.6"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2fDyK3PR6jPrjKSP",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_R74MBgB7JWjR9Tsz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitrous oxide is used as a sedative in dentistry and has the formula N<sub>2</sub>O. Different sources of N<sub>2</sub>O contain different ratios of <sup>14</sup>N and <sup>15</sup>N.\n\nState the name of the instrument used to distinguish between <sup>14</sup>N and <sup>15</sup>N and outline two characteristic differences seen in the analysis of <sup>14</sup>N and <sup>15</sup>N.",
+     "solution_md": "> **[mark-scheme]**\n> The instrument used to distinguish between <sup>14</sup>N and <sup>15</sup>N:\n> \n> - Mass spectrometer **[1 mark]**\n> \n> Two characteristic differences in the mass spectrum of <sup>14</sup>N and <sup>15</sup>N:\n> \n> - <sup>14</sup>N and <sup>15</sup>N have different mass/charge (m/z) ratios\n> **AND**\n> Different relative abundances (peak heights) **[1 mark]**\n\n> **[exam-tip]**\n> In a mass spectrum of nitrogen with two isotopes, each isotope produces a separate peak: <sup>14</sup>N at m/z = 14 and <sup>15</sup>N at m/z = 15. The height of each peak reflects the relative abundance of that isotope.\n> \n> Mass spectrometry has two main applications at A Level:\n> \n> - Determining relative atomic mass from isotope data\n> - Identifying organic molecules from fragmentation patterns, which is covered in later topics."
+    },
+    {
+     "id": "qstnprt_zpCcr5NFxyp2qG2M",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nNitrous oxide is used as a sedative in dentistry and has the formula N~2~O. Different sources of N~2~O contain different ratios of ^14^N and ^15^N.\n\nA sample of nitrous oxide was enriched so that it contained 4% by mass of <sup>15</sup>N. Calculate the relative molecular mass of the resulting nitrous oxide.",
+     "solution_md": "To calculate the relative molecular mass of the enriched nitrous oxide:\n\n- Calculate the relative atomic mass of N in the enriched sample:\n\n*A*<sub>r</sub>(N) = $\\frac{(4\\times15.00)+(96\\times14.00)}{100}$\n\n*A*<sub>r</sub>(N) = $\\frac{1404}{100}$ = 14.04 **[1 mark]**\n\n- Calculate *M*<sub>r</sub> of N<sub>2</sub>O using this value of *A*<sub>r</sub>(N):\n\n*M*<sub>r</sub> = (2 × 14.04) + 16.00\n\n*M*<sub>r</sub> = **44.08** **[1 mark]**\n\n> **[exam-tip]**\n> The enrichment percentage (4% <sup>15</sup>N by mass) can be treated directly as the percentage abundance of <sup>15</sup>N. The remaining 96% is <sup>14</sup>N.\n> \n> Apply the weighted average formula to find Ar(N) first, then use this value in the Mr calculation for N<sub>2</sub>O. Do not use the standard Ar(N) = 14.01 from the data booklet, as this sample has been deliberately enriched in <sup>15</sup>N.",
+     "equations": [
+      {
+       "latex": "\\frac{(4\\times15.00)+(96\\times14.00)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>4</mn><mo>&#xD7;</mo><mn>15</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>96</mn><mo>&#xD7;</mo><mn>14</mn><mo>.</mo><mn>00</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(4 \\times 15.00) + (96 \\times 14.00)}{100}"
+      },
+      {
+       "latex": "\\frac{1404}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1404</mn><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{1404}{100}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_F9Q6WDb27MchJ2Qm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7Pt6yVqwxxXJNJzz"
+     ],
+     "part_tier": null,
+     "problem_md": "An atom has twice as many protons, and twice as many neutrons, as an atom of <sup>15</sup>N.\n\nDetermine the chemical symbol for this atom, including the mass number, and deduce the number of electrons.",
+     "solution_md": "> **[mark-scheme]**\n> The atom with twice the protons and neutrons of <sup>15</sup>N:\n> \n> - Chemical symbol including mass number: <sup>30</sup>Si **[1 mark]**\n> - Number of electrons in the neutral atom: 14 **[1 mark]**\n> \n> <sup>15</sup>N has 7 protons and 8 neutrons; doubling gives 14 protons and 16 neutrons; atomic number 14 is silicon; mass number = 14 + 16 = 30.\n\n> **[exam-tip]**\n> From the periodic table, nitrogen has atomic number 7, so <sup>15</sup>N has 7 protons and 15 - 7 = 8 neutrons.\n> \n> Doubling both gives 14 protons and 16 neutrons. Atomic number 14 is silicon (Si), and mass number = 14 + 16 = 30, giving the symbol <sup>30</sup>Si.\n> \n> In a neutral atom, the number of electrons equals the number of protons: 14 electrons. Do not confuse mass number with electron count."
+    }
+   ]
+  }
+ ]
+}

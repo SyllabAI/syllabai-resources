@@ -123,15 +123,15 @@ When dealing with systems in equilibrium (e.g. moments, conservation of momentum
 - In order for the rod to be in equilibrium :
 - Clockwise moments = Anticlockwise moments
 
-  - Clockwise moment = `2 cross times open parentheses 14 minus 9 close parentheses m g equals 10 space m g`
+  - Clockwise moment = $2 \times ( 14 - 9 ) m g = 10 m g$
 - Let *x* be the position of the hook where the fourth ring will be hung
 
-  - Anticlockwise moment = `open parentheses 9 minus 2 close parentheses m g plus open parentheses 9 minus x close parentheses m g`
+  - Anticlockwise moment = $( 9 - 2 ) m g + ( 9 - x ) m g$
 - For equilibrium:
 
-  - `7 space m g plus open parentheses 9 minus x close parentheses m g equals 10 space m g`
-  - `open parentheses 9 minus x close parentheses m g equals 3 m g`
-  - `open parentheses 9 minus x close parentheses equals 3`
+  - $7 m g + ( 9 - x ) m g = 10 m g$
+  - $( 9 - x ) m g = 3 m g$
+  - $( 9 - x ) = 3$
   - $x=9-3=6$
 
 ### Q9
@@ -140,13 +140,13 @@ When dealing with systems in equilibrium (e.g. moments, conservation of momentum
 - Distance of force *F* from the centre of the spindle $=\frac{1.60}{2}=0.80m$
 - Both forces produce clockwise moments about the spindle
 
-  - Clockwise moment `equals open parentheses F cross times 0.80 close parentheses plus open parentheses F cross times 0.80 close parentheses equals 1.60 space F`
+  - Clockwise moment $= ( F \times 0.80 ) + ( F \times 0.80 ) = 1.60 F$
 - The 800 N weight acts at a distance 0.25 m from the spindle which causes an anticlockwise moment
 
   - Anticlockwise moment $=800\times0.25$
 - The minimum force that can be applied when the clockwise moments are equal to the anticlockwise moments
 
-  - `open parentheses F cross times 0.80 close parentheses plus open parentheses F cross times 0.80 close parentheses equals 800 cross times 0.25`
+  - $( F \times 0.80 ) + ( F \times 0.80 ) = 800 \times 0.25$
   - $1.60F=200$
   - $F=\frac{200}{1.6}=125N$
 
@@ -194,7 +194,7 @@ When dealing with systems in equilibrium (e.g. moments, conservation of momentum
 - Perpendicular distance of 15 N force : 3 m
 - Perpendicular distance of 20 N force : 4 m
 - Magnitude of resultant moment = Clockwise moment – Anticlockwise moment
-- Magnitude of resultant moment `equals open parentheses 20 cross times 4 close parentheses minus open parentheses 10 cross times 3 close parentheses minus open parentheses 15 cross times 3 close parentheses equals 5 space straight N space straight m`
+- Magnitude of resultant moment $= ( 20 \times 4 ) - ( 10 \times 3 ) - ( 15 \times 3 ) = 5 \mathrm{N} \mathrm{m}$
 
 ### Q13
 **Final answer:** **The correct answer is ****D**** because:**
@@ -216,7 +216,7 @@ When dealing with systems in equilibrium (e.g. moments, conservation of momentum
 - Since the beam is uniform, its weight acts at the centre which is a distance *x* to the left of the pivot
 - For equilibrium : Sum of clockwise moments = Sum of anticlockwise moments
 - Clockwise moments $=2W\times4x=8Wx$
-- Anticlockwise moments `equals open parentheses W cross times 6 x close parentheses plus open parentheses 10 W cross times x close parentheses equals 6 W x plus 10 W x equals 16 W x`
+- Anticlockwise moments $= ( W \times 6 x ) + ( 10 W \times x ) = 6 W x + 10 W x = 16 W x$
 - Since the anticlockwise moment is greater, the 2*W* weight should contribute to the sum of the clockwise moments, i.e. to the right of the pivot
 - The 2 *W* weight acts at a distance *d* from the pivot
 - Sum of clockwise moments = Sum of anticlockwise moments
@@ -293,15 +293,15 @@ When dealing with systems in equilibrium (e.g. moments, conservation of momentum
 - Let the torque be equal to *T*, and assume it acts in a clockwise direction unless it is calculated to have a negative sign (which would tell us it acts in an anticlockwise direction)
 - Clockwise moments:
 
-  - `open parentheses 0.35 cross times 5.0 cross times g close parentheses plus T`
+  - $( 0.35 \times 5.0 \times g ) + T$
 - The beam is uniform, meaning its weight acts at the centre
 - The length of the beam is 1.10 m, so the centre mark is at 0.55 m, which is 0.15 m from the pivot
 - Anticlockwise moments:
 
-  - `open parentheses 0.15 cross times 1.2 cross times g close parentheses plus open parentheses 0.65 cross times 5.0 cross times g close parentheses`
+  - $( 0.15 \times 1.2 \times g ) + ( 0.65 \times 5.0 \times g )$
 - For the system to be in equilibrium, clockwise moment = anticlockwise moment
 
-  - `open parentheses 0.15 cross times 1.2 cross times g close parentheses plus open parentheses 0.65 cross times 5.0 cross times g close parentheses equals open parentheses 0.35 cross times 7.0 cross times g close parentheses plus T`
+  - $( 0.15 \times 1.2 \times g ) + ( 0.65 \times 5.0 \times g ) = ( 0.35 \times 7.0 \times g ) + T$
   - $0.18g+3.25g=2.45g+T$
   - $T=0.98g=9.6Nm$
 - Therefore, the torque required to keep the beam in equilibrium is 9.6 N m clockwise
@@ -398,8 +398,811 @@ When dealing with systems in equilibrium (e.g. moments, conservation of momentum
 - For a system in equilibrium :
 
   - Sum of clockwise moments = Sum of anticlockwise moments
-- Clockwise moments = `open parentheses 25 cross times 12 close parentheses plus open parentheses 200 cross times 35 close parentheses equals 7300 space straight N space cm`
+- Clockwise moments = $( 25 \times 12 ) + ( 200 \times 35 ) = 7300 \mathrm{N} \text{cm}$
 - Anticlockwise moments = $5F$
 
   - $5F=7300$
   - $F=\frac{7300}{5}=1460N$
+
+## Structured Questions (10 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The centre of gravity of an object is:
+> 
+> - The point where the (entire) <u>weight</u> (of an object) is considered to act **[1 mark]**
+> **[mark-scheme]**
+> The two conditions required for an object to be in equilibrium are:
+> 
+> - Resultant force is zero **[1 mark]**
+> - Resultant moment / torque (about any point) is zero **[1 mark]**
+(i) To show that the weight of the cube is about 12 N:
+
+- List the known quantities
+
+  - Side length of the cube, $l$ = 0.075 m
+  - Density of the cube, $ρ$ = 2800 kg m<sup>−3</sup>
+  - Acceleration of free fall, $g$ = 9.81 m s<sup>−2</sup>
+- Calculate the volume of the cube:
+
+$V=l^{3}$
+
+$V=0.075^{3}$ **[1 mark]**
+
+- Use the density equation to calculate the weight of the cube:
+
+$ρ=\frac{m}{V}$
+
+$W=mg=ρVg$
+
+$W=2800\times0.075^{3}\times9.81$
+
+$W=11.58...$
+
+$W=$$12N$** **(2 s.f.) **[1 mark]**
+
+(ii) To calculate the tension $T$ in the wire:
+
+- Identify the moments acting about A
+
+Anticlockwise moment = $T\times2.40$
+
+Clockwise moments = $( 50 \times 1.20 ) + ( 11.58 \times 0.80 )$ **[1 mark]**
+
+- Apply the principle of moments and calculate $T$:
+
+Since the beam is in equilibrium, anticlockwise moments = clockwise moments
+
+$T \times 2.40 = ( 50 \times 1.20 ) + ( 11.58 \times 0.80 )$
+
+$T = \frac{( 50 \times 1.20 ) + ( 11.58 \times 0.80 )}{2.40}$
+
+$T=28.86...$
+
+$T=$ $29N$ **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for $( T \times 2.40 )$ **OR**  $( 50 \times 1.20 )$ **OR**  $( 11.58 \times 0.80 )$
+> 
+> 1 mark for the correct application of the principle of moments to calculate $T$
+> **[mark-scheme]**
+> State the effect of this change on the magnitude and direction of the resultant moment of the forces on the beam about A:
+> 
+> - Resultant/net moment is anticlockwise (no longer zero) **[1 mark]**
+> 
+> Explanation:
+> 
+> - The clockwise moment decreases as the apparent weight of the cube decreases **[1 mark]**
+
+> **[exam-tip]**
+> It would be incorrect to say that the anticlockwise moment increases due to upthrust acting on the cube. This is because the upthrust does not act directly on the beam; therefore, it does not introduce a new clockwise moment about A on the beam; it simply reduces the tension in the cube's support. Hence, it is the clockwise moment on the beam that decreases.
+
+### Q2
+Describe what the student could do to ensure that the ruler is horizontal:
+
+**Final answer:** **Any one ****pair ****from:**
+
+- Measure height from bench to ruler in several places; **[1 mark]**
+- Check the measurements are all the same; **[1 mark]**
+- Place spirit level on the ruler; **[1 mark]**
+- Bubble should be central; **[1 mark]**
+- Measure angle between the ruler and the stand; **[1 mark]**
+- Check it is a right angle; **[1 mark]**
+- Place set square (triangle) at the join of the ruler and stand; **[1 mark]**
+- Make sure the angle is a right angle; **[1 mark]**
+- Set a marker level with the pivot; **[1 mark]**
+- Ensure it is the same height as the end of the ruler; **[1 mark]**
+
+**[Total: 2 marks]**
+The student intends to investigate moments around the pivot:
+
+(i) State the equation linking moment, force and distance from the pivot:
+
+- $M=F\timesd$ **OR **moment = force × distance; **[1 mark]**
+- Where *F* = force / applied load and *d* = <u>perpendicular</u> distance from the pivot; **[1 mark]**
+
+(ii) Calculate the moment of the 3.0 N weight:
+
+List the known quantities:
+
+- *F* = 3.0 N
+- *d* = 70 cm = 0.7 m
+
+Calculate the moment and write final answer with units:
+
+- $M=3.0\times0.7$ **[1 mark]**
+- $M=2.1\mathrm{Nm}$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *When calculating moments it is acceptable to calculate distance using centimetres rather than metres (unless stated otherwise), but you **must **state the unit, which would be N cm in that case.*
+(i) Infer, showing your calculation, why the student made this assumption:
+
+Apply the principle of moments:
+
+- clockwise moment = anti-clockwise moment **OR **$2.1\mathrm{Nm}=F_{m}\times0.15m$ **[1 mark]**
+- Force read from forcemeter, $F_{m}=\frac{2.1}{0.15}=14N$ **[1 mark]**
+
+(ii) Explain why the correct reading should be **larger **than 14 N:
+
+- The mass / weight of the ruler; **[1 mark]**
+- Acts in the clockwise direction / has been ignored;** [1 mark]**
+
+(iii) Explain why the actual reading is only 10 N:
+
+- The scale on the forcemeter only goes up to 10 N; **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *If you found yourself stuck for the final part of this question, then you had forgotten that in part (a) the question told you the forcemeter **only went up to 10 N**.*
+
+> *When you find yourself at a loss to answer any question it is **always **worth going back to the start and reading the previous subparts again. Often you will have forgotten small details which didn't seem important but are relevant now.*
+Student **A** feels more force on their hands than student **B **because:
+
+- The desk is in <u>equilibrium</u> so the clockwise moment = anti-clockwise moment; **[1 mark]**
+- The books are closer to **A** / further from **B** **OR ***d*<sub>A</sub> < *d*<sub>B</sub>; **[1 mark]**
+- Therefore force at A is larger / force at B is smaller /** ***F*<sub>A</sub> > *F*<sub>B  </sub>/ force and distance are inversely proportional to create the same moment; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *If you are writing your mark scheme with reference to **d*<sub>*A*</sub>* < **d*<sub>*B*</sub>* and **F*<sub>*A*</sub>* > **F*<sub>*B*</sub>*, make sure these are correctly labelled on Fig 1.2 so the examiner can see exactly what you're referring to. You should avoid stating variables that you have no stated the meaning of or annotated on a diagram.*
+
+### Q3
+Calculate the value of *W*
+
+Write an expression for *T*<sub>P</sub> in terms of *T*<sub>Q</sub> :
+
+- $T_{Q}=6T_{P}$ **[1 mark]**
+
+Determine the value of *W* by setting up simultaneous equations:
+
+Apply the principle of moments around **P**:
+
+![screenshot-2023-03-13-at-12-36-07](assets/039-screenshot-2023-03-13-at-12-36-07.png)
+
+- sum of the clockwise moments = sum of the anti-clockwise moments
+- $3 W + ( 10 \times 6 ) = ( 4.1 \times 6 T_{P} )$
+- $3W+60=24.6T_{P}$
+- $T_{P}=\frac{3W+60}{24.6}$ *(equation 1)*** [1 mark] **
+
+Apply the principle of moments around **Q**:
+
+Sketch a diagram showing measurements and forces:
+
+![screenshot-2023-03-13-at-12-29-02](assets/040-screenshot-2023-03-13-at-12-29-02.png)
+
+- sum of the clockwise moments = sum of the anti-clockwise moments
+- $( 10 \times 1.9 ) + 4.1 T_{P} = 1.1 W$
+- $4.1T_{P}=1.1W-19$
+- $T_{P}=\frac{1.1W-19}{4.1}$ *(equation 2)*** [1 mark]**
+
+Combine *equations 1* and* 2* to find *W*:
+
+- $\frac{3W+60}{24.6}=T_{P}=\frac{1.1W-19}{4.1}$ **[1 mark]**
+- $4.1 \times ( 3 W + 60 ) = 24.6 \times ( 1.1 W - 19 )$
+- $12.3W+246=27.06W-467.4$
+- $( 27.06 - 12.3 ) W = 246 + 467.4 \rightarrow 14.76 W = 713.4$
+- $W = 48 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark] **
+
+**[Total: 5 marks]**
+
+> *Without a clear sketch showing all the distances and forces, you have a **much** smaller chance of setting up the correct simultaneous equations, especially with the different distances. It also helps clearly see which forces are clockwise or anticlockwise depending on where you take moments from. *
+
+> *Although the sketch doesn't earn marks directly, it is good practice for getting the calculation right.*
+Find the range of possible positions on the beam where the load can be attached without the rope at Q.
+
+List the known quantities:
+
+- Weight of load, *F* = 10 N
+- Distance **PR** = 6.0 m
+- Distance **QR** = 0.8 m
+- Weight of the pole, *W* = 48 N (from part a)
+- Maximum tension in rope at **Q**, *T*<sub>Qmax</sub> = 32 N
+
+Make a sketch showing the forces and distances:
+
+![screenshot-2023-03-13-at-12-52-39](assets/042-screenshot-2023-03-13-at-12-52-39.png)
+
+Apply principle of moments by taking moments about **P**:
+
+- sum of clockwise moments = sum of anti-clockwise moments
+- $( 10 x ) + ( 3 \times 48 ) = ( 5.2 \times T_{Q m a x} )$
+- $10x+144=166.4$ **[1 mark]**
+- $10x=166.4-144=22.4m$
+- $x=\frac{22.4}{10}=2.24m$ **[1 mark]**
+
+Deduce the range:
+
+- $0m\leqx\leq2.24m$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Notice that the question asks for a **range**, meaning just an answer of 2.24 m will not get you full marks. **x = **2.24 m is just the maximum distance before exceeding the tension limit of the rope at **Q**. The load could be placed at a smaller **x** (i.e. closer to **P**).*
+
+> *If you used the unrounded answer for weight from part a),  the calculated range would be *$0m\leqx\leq2.14m$* which would be awarded a mark.*
+
+### Q4
+Centre of gravity is defined as...
+
+- The point on an object at which a (resultant) force acts such that it will not create a moment / will not cause rotation
+**OR**
+The point at which all the (object’s) mass / weight acts; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Careful with your wording, do **not** use definitions such as:*
+
+- *Where mass is most concentrated*
+- *It has the same mass on both sides*
+- *All forces act through this point*
+Calculate the vertical supporting force from the rock:
+
+- The weight of 40 × *g* occurs at the centre of the (uniform) plank so *d* = ½ × 5.0
+- Moment of plank from the bank = *mg* × *d*
+- Moment of plank from the bank = (40 × *g*) × (½ × 5.0)
+- Moment of plank from the bank = 40 × 9.81 × 2.5 = 981 N m **[1 mark]**
+
+This moment is balanced by the reaction force from the rock
+
+- Moment of plank from the rock = *F* × (5.0 – 1.1)
+- Moment of plank from the rock = *F* × 3.9 **[1 mark]**
+
+- Vertical force from rock:  $F=\frac{981}{3.9}$ = 251.5 = 250 N **[1 mark]**
+
+**[Total: 3 marks]**
+The forces acting on the plank when the boy has crossed some of the plank are:
+
+![4-2-s-q--q3c-ma-medium-aqa-a-level-physics](assets/045-4-2-s-q-q3c-ma-medium-aqa-a-level-physics.png)
+
+- Correctly drawn arrows; **[1 mark]**
+- Correctly labelled arrows; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *When labelling the weight of an object, make sure to draw from the centre of mass of the object.*
+Determine whether the boy can walk to the far end of the plank without it tipping:
+
+- (At the point of tipping) there is no (reaction) force from the bank; **[1 mark]** *This point must be in words, not implied from a calculation*
+- So, moments on the RHS of the rock must be lower than moments on the LHS
+
+**Supporting calculation 1:**
+
+- Taking moments about the rock to show RHS < LHS; **[1 mark]**
+- 540 N m < 550 N m, therefore, plank will not tilt; **[1 mark]** *Example of calculation:*
+
+  - LHS = (2.5 – 1.1) × 40 × *g *= 56 × 9.81 = 549.36 = 550 N m
+  - RHS = 1.1 × 50 × *g *= 55 × 9.81 = 539.6 = 540 N m
+
+**OR   Supporting calculation 2:**
+
+- Showing a moment calculation that gives the maximum boy’s weight / mass that can be supported on the far edge of the plank (500 N / 51 kg) **[1 mark]**
+- 50 kg < 51 kg, therefore, plank will not tilt; **[1 mark]** *Example of calculation:*
+
+  - Maximum weight = $\frac{40\times9.81\times1.4}{1.1}$ = 499 = 500 N (or 51 kg)
+
+**OR   Supporting calculation 3:**
+
+- Showing a moment calculation that gives the maximum distance the boy can be from the rock without tipping (1.12 m) **[1 mark]**
+- 1.1 m < 1.12 m, therefore, plank will not tilt; **[1 mark]** *Example of calculation:*
+
+  - Maximum distance = $\frac{40\times1.4}{50}$ = 1.12 m
+
+**[Total: 3 marks]**
+
+### Q5
+List the known quantities:
+
+- Mass of Ruby, *M*<sub>R </sub>= 72 kg
+- Mass of Luke, *M*<sub>L</sub> = 85 kg
+- Mass of the plank, *M*<sub>P</sub> = 15 kg
+- Length of plank, AD = 2.7 m
+- Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
+
+Sketch a simplified diagram showing measurements and point masses:
+
+![screenshot-2023-03-09-at-09-21-34](assets/047-screenshot-2023-03-09-at-09-21-34.png)
+
+(i) Calculate the magnitude of the normal reaction force at **B**
+
+Apply the principle of moments to take moments about point **C**:
+
+- sum of clockwise moments = sum of anticlockwise moments
+- $( R_{B} \times 1.9 ) = ( W_{R} \times ( 2.7 - 0.4 ) ) + ( W_{P} + W_{L} ) \times 0.95$ **[1 mark]**
+- $R_{B} = \frac{( 72 g \times 2.3 ) + ( 100 g \times 0.95 )}{1.9}$ **[1 mark]**
+- $R_{B} = 1346 = 1300 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+(ii) Calculate the magnitude of the normal reaction force at **C**
+
+Equate vertical forces:
+
+- Since the plank is in equilibrium, the sum of upwards forces upwards = sum of forces downwards /** **$ΣF_{up}=ΣF_{down}$/** **$R_{B}+R_{C}=W_{R}+W_{L}+W_{P}$ **[1 mark]**
+
+Calculate normal reaction force at **C**:
+
+- $R_{C} = ( W_{R} + W_{L} + W_{P} ) - R_{B}$
+- $R_{C} = ( 72 g + 85 g + 15 g ) - 1346$ **[1 mark]**
+- $R_{C} = 341 = 340 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *It's very common for students to think that creating their own diagrams is a waste of time since 'it doesn't get any marks'. *
+
+> *It's true that the diagram isn't marked by the examiner directly, **but **it allows you to get the correct answer quickly, meaning you not only get these marks, but have **time** to answer the rest of the paper too!*
+
+> *For part (ii) you may have decided to take moments again. Any correct method that gets a correct answer will score full marks in the exam. *
+
+> *If you chose this method, your calculation should look like:*
+
+- *Apply the principle of moments to take moments about point **B**:*
+
+  - *sum of clockwise moments = sum of anticlockwise moments*
+  - $( W_{P} + W_{L} ) \times 0.95 = ( R_{C} \times 1.9 ) + ( W_{R} \times 0.4 )$* [1 mark]*
+  - $R_{C} = \frac{( 100 g \times 0.95 ) - ( 72 g \times 0.4 ) }{1.9}$* [1 mark]*
+  - $R_{C} = 342 = 340 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$* [1 mark]*
+List the known quantities:
+
+- Mass of Ruby, *M*<sub>R </sub>= 72 kg
+- Mass of Luke, *M*<sub>L</sub> = 85 kg
+- Mass of the plank, *M*<sub>P</sub> = 15 kg
+- Length of plank, **AD** = 2.7 m
+- Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
+
+Sketch a simplified diagram showing the new position of Luke:
+
+![screenshot-2023-03-09-at-10-04-54](assets/048-screenshot-2023-03-09-at-10-04-54.png)
+
+Equate vertical forces:
+
+- Since the plank is in equilibrium, the sum of upwards forces upwards = sum of forces downwards /** **$ΣF_{up}=ΣF_{down}$/** **$R_{B}+R_{C}=W_{R}+W_{L}+W_{P}$
+
+Write an expression, in terms of *R*<sub>C</sub>, the reaction force at **C**:
+
+- $( 2 \times R_{C} ) + R_{C} = ( W_{R} + W_{L} + W_{P} )$
+- $3 \times R_{C} = ( W_{R} + W_{L} + W_{P} )$**[1 mark]**
+- $R_{C} = \frac{( 72 g + 85 g + 15 g )}{3} = 562.44$
+- $R_{C} = 560 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+Determine distance **BX** by taking moments about **B**:
+
+- $( W_{P} \times 0.95 ) + ( W_{L} \times x ) = ( R_{C} \times 1.9 ) + ( W_{R} \times 0.4 )$
+- $x = \frac{( R_{C} \times 1.9 ) + ( W_{R} \times 0.4 ) - ( W_{P} \times 0.95 )}{W_{L} }$
+- $x = \frac{( 560 \times 1.9 ) + ( 72 \times 9.81 \times 0.4 ) - ( 15 \times 9.81 \times 0.95 )}{( 85 \times 9.81 )}$ **[1 mark]**
+- $x = 1.45 = 1.5 \mathrm{m} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 4 marks]**** **
+
+### Q6
+(i) A moment of a force is defined as:
+
+- The turning effect of a force; **[1 mark]**
+- Moment = Force × perpendicular distance from the pivot **OR **$M=Fd$;** [1 mark]**
+
+(ii) Centre of gravity is defined as:
+
+- The single point where the weight (of a body) can be taken as acting from; **[1 mark]**
+
+**[Total: 3 marks]**
+For the arrangement in Fig. 1.1.
+
+(i) State why the broom is hanging horizontally:
+
+- The broom is in equilibrium; **[1 mark]**
+- The string is fixed at the centre of mass;** [1 mark]**
+
+(ii) State what measurement the students should make to start their investigation to find the weight of the broom:
+
+- Distance from either end to the string;** [1 mark]**
+
+**[Total: 3 marks]**
+
+> *The students will need to know the position of the centre of mass, so they definitely need the distance from one end to the string, which must be at the centre of mass for equilibrium.*
+(i) Determine the distance between the centre of mass of the broom and the point where the string is attached:
+
+- Total distance from end of handle to centre of mass = 0.75 m
+
+![screenshot-2023-03-22-at-11-56-11](assets/052-screenshot-2023-03-22-at-11-56-11.png)
+
+- Distance to centre of mass, $d = 0.75 - ( 0.45 + 0.12 ) = 0.18 \mathrm{m}$; **[1 mark]**
+
+(ii) Determine the force exerted by the 0.5 kg mass:
+
+- force exerted = weight acting downwards
+- $W=mg=0.5\times9.81=4.9N$ **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the weight of the broom:
+
+Sketch a diagram to show the forces and distances:
+
+![moments broom MA](assets/053-moments-broom-ma.png)
+
+Apply the principle of moments to the point where the string is attached to the broom:
+
+- Sum of anti-clockwise moments = sum of clockwise moments
+- $W\times0.18=4.9\times0.45$ **[1 mark]**
+- $W=\frac{4.9\times0.45}{0.18}=12.25$
+- $W = 12 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Many students are reluctant to 'waste time' sketching diagrams which don't get marks. This is not a waste of time!*
+
+> *The diagram ensures you write the correct values in your calculation.*
+
+> *Although not marked directly, it is an essential part of the process to find the solution.*
+
+### Q7
+List the known quantities:
+
+- Mass of rabbit, $m_{R}$= 2.5 kg
+- Mass of quail, $m_{Q}$= 4.3 kg
+- Mass of the plank, $m_{P}$= 20 kg
+- Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
+
+![4-2-s-q--q3a-ma-hard-aqa-a-level-physics](assets/055-4-2-s-q-q3a-ma-hard-aqa-a-level-physics.png)
+
+(i) The magnitude of the normal reaction force at B
+
+Take moments about point C:
+
+- Principle of moments: Sum of anti–clockwise moments = sum of clockwise moments about a pivot
+- Anti­–clockwise moments about C = ($( W_{Q} \times d_{Q} )$+ ( $W_{R}+W_{P}$ ) × $d_{P}$) where $d_{C}$ and $d_{P}$ are perpendicular distances from the pivot to the weight of the quail and the plank, respectively
+- Clockwise moment about C = $R_{B}$× $d_{B}$
+
+Calculate the normal reaction force at B, $R_{B}$:
+
+- (4.3*g* × (2.7 – 0.5)) + ((2.5*g + *20*g*) × (0.85) = $R_{B}$× (0.85 + 0.85) **[1 mark]**
+- 9.46*g* + 19.125*g* = $R_{B}$× 1.7
+- $R_{B}$= $\frac{9.46g+19.125g}{1.7}$= 16.81*g* = 16.81 × 9.81 = 164.9 = 165 N **[1 mark]**
+
+(ii) The magnitude of the normal reaction force at C
+
+Equate vertical forces:
+
+- Since the plank is in equilibrium, all the forces upwards = all forces downwards
+- Forces upwards =$R_{B}$+ $R_{c}$
+- Forces downwards = $W_{Q}$+ $W_{R}$ +$W_{P}$
+
+Calculate normal reaction force at C, $R_{c}$:
+
+- 16.81*g *+$R_{c}$ = 4.3*g* + 2.5*g *+ 20*g *= 26.8*g ***[1 mark]**
+- $R_{c}$= 26.8*g* – 16.81*g* = 9.99*g* = 9.99 × 9.81 = 98.00 = 98 N (2 s. f.) **[1 mark] **
+
+**[Total: 4 marks]**** **
+
+> *This question gives the masses of the animals instead of their weight. Whether you multiply by **g** to get the weight during the calculation or at the end is up to you. In some instances where there are a lot of calculations, it is easier to only multiply by **g **(to calculate their weight) at the very end to avoid numerical errors. *
+
+> *Students often forget about the fact that the vertically upwards forces must also equal the vertically downwards forces for a system to be in equilibrium too. Therefore, you do not need to take moments again for part (ii).*
+List the known quantities:
+
+- Mass of rabbit, $m_{R}$= 2.5 kg
+- Mass of quail, $m_{Q}$= 4.3 kg
+- Mass of the plank, $m_{P}$= 20 kg
+- Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
+
+![4-2-s-q--q3b-ma-hard-aqa-a-level-physics](assets/056-4-2-s-q-q3b-ma-hard-aqa-a-level-physics.png)
+
+Equate vertical forces:
+
+- Since the plank is in equilibrium, all the forces upwards = all forces downwards
+- Forces upwards = $R_{B}$+ $R_{c}$= 2$R_{c}$+ $R_{c}$= 3$R_{c}$
+- Forces downwards = $W_{Q}$+ $W_{R}$+ $W_{P}$
+
+Calculate normal reaction force at C, $R_{c}$:
+
+- 3$R_{c}$= 4.3*g* + 2.5*g *+ 20*g *= 26.8*g ***[1 mark]**
+- $R_{c}$= $\frac{26.8g}{3}$= 8.933*g* (= 87.636 N) **[1 mark]**
+
+Take moments about** **B:
+
+- Anti–clockwise moments about B = ( $W_{Q}\timesd_{Q}$) + ( $R_{c}\timesd_{c}$ )
+- Clockwise moments about B = ($W_{P}\timesd_{P}$ ) + ($W_{R}\timesd_{R}$)
+
+Calculate distance BX, $d_{R}$:
+
+- (4.3*g* × 0.5) + (8.933*g *× (0.85 + 0.85) = (20*g *× 0.85) + (2.5*g *× $d_{R}$) **[1 mark]**
+- 2.15*g* + 15.1861*g* = 17*g* + (2.5*g *×$d_{R}$)
+- $d_{R}$= BX** **= $\frac{2.15g+15.1861g-17g}{2.5g}$ = 0.13 m **[1 mark]**** **
+
+**[Total: 4 marks]**** **
+
+> *Labelling all the forces and distances on the diagram in your exam is essential for moments questions. This helps calculate any missing distances. *
+
+> *Whenever any point moves in a moments question, the reaction forces upwards will also change. Therefore, *$R_{c}$* and *$R_{B}$* are not the same as in part (a) for this part (b). *
+
+> *The point where the pivot is taken from doesn’t actually matter (because the Principle of Moments will always be true, about any pivot), so you will still get the same final answer. However, since we do not know in this question (it is different to part (a)), then if we take moments about B then we do not need to worry about this force. The key is to take moments about a point where you don’t know the value of the force: this way, the unknown force will not appear in your moments equations (since **d** will be 0).*
+List the known quantities:
+
+- Weight of load, *F* = 17 N
+- Distance PR = 4 m
+- Distance QR = 4 − 2.4 = 1.6 m
+- $T_{Q}=7T_{P}$
+
+![r5MDu_r3_4-2-s-q--q3c-ma-hard-aqa-a-level-physics](assets/058-r5mdu-r3-4-2-s-q-q3c-ma-hard-aqa-a-level-physics.png)
+
+Equate vertical forces:
+
+- Since the plank is in equilibrium, all the forces upwards = all forces downwards
+- Forces upwards: $T_{P}$+ $T_{Q}$ = $T_{P}$ + 7$T_{P}$= 8$T_{P}$
+- Forces downwards: *W* + *F*
+- 8$T_{P}$= *W* + *F* = *W* + 17 **[1 mark]**
+
+Determine the equation for the tension in the rope at P, $T_{P}$:
+
+- Taking moments about point Q
+- Anti­–clockwise moment about Q = (*W* × $d_{W}$ ) where $d_{W}$ is the distance of the weight *W* from Q
+- Clockwise moments about Q = ($T_{P}$× $d_{P}$) + (*F *× $d_{F}$) where $d_{P}$ and $d_{F}$ are the distance of P and the force from the load *F* from Q respectively
+- (*W* × (2.4 – 2)) = ($T_{P}$× 2.4) + (17 × 1.6)
+- 0.4*W* = 2.4$T_{P}$+ 27.2 **[1 mark]**
+
+Calculate the weight of the pole, *W*:
+
+- 8$T_{P}$ = *W* + 17 and 0.4*W* = 2.4$T_{P}$+ 27.2
+- $T_{P}$ = $\frac{W}{8}$+ 2.125
+- 0.4*W* = 2.4($\frac{W}{8}$+ 2.125) + 27.2 = 0.3*W* + 5.1 + 27.2 ** [1 mark]**
+- 0.1*W* = 32.3
+- *W* = 323 N **[1 mark]**** **
+
+**[Total: 4 marks]**** **
+
+> *Look out for simultaneous equations! This is where you can set up the same number of unique equations as there are unknown variables. In this question, there are two equations with two unknowns (**W** and *$T_{P}$*). *
+
+> *If you’d like to refresh your maths skills on this topic, then check out the Save My Exams GCSE Maths revision notes on ‘Linear Simultaneous Equations’.*
+List the known quantities:
+
+- Weight of load, *F* = 17 N
+- Distance PR = 4 m
+- Distance QR = 0.8 m
+- Distance PQ = 3.2 m
+- Weight of the pole, *W* = 323 N (from part c)
+- Max $T_{Q}$ = 212 N
+
+![4-2-s-q--q3d-ma-hard-aqa-a-level-physics](assets/060-4-2-s-q-q3d-ma-hard-aqa-a-level-physics.png)
+
+Determine equation for tension at Q, $T_{P}$:
+
+- Take moments about P
+- Anti­–clockwise moment about P =$T_{Q}$ × $d_{Q}$  where $d_{Q}$ is the distance of Q from P
+- Clockwise moments about P = (*F* × $d_{F}$) + (*W *× $d_{W}$) where $d_{F}$ and $d_{W}$ are the distance of the force *F* and the weight *W* from P respectively
+- $T_{Q}$ × 3.2 = 17*x *+ (323 × 2) **[1 mark]**
+- 3.2 $T_{Q}$= 17*x *+ 646
+- $T_{Q}$= 5.31*x* + 202 **[1 mark]**
+
+Calculate the range of values for *x*:
+
+- $T_{Q}$< 212 therefore, 5.31*x* + 202 < 212
+- *x *< 1.88
+- 0 < *x *< 1.88 m **[1 mark]**** **
+
+**[Total: 3 marks]**** **
+
+> *When you are asked for a ‘range’ of values, there is likely to be inequality. These are equations with the ‘less than’ (<) or ‘more than’ (>) symbols, and they can be rearranged exactly like regular equations. Just remember if you multiply or divide both sides of an inequality by a negative number, the direction of the inequality sign switches! *
+
+> *The details of the rearranging for the inequality are shown below:*
+
+> *5.31**x** + 202 < 212*
+
+> *Subtract 202 from both sides:*
+
+> *5.31**x** < 10*
+
+> *Divide both sides by 5.31:*
+
+> *x** < 1.88 *
+
+### Q8
+To calculate the moment:
+
+List the known quantities:
+
+- Force, *F* = 10 N
+- Distance of force from the end of the ruler = 8.0 cm
+- Therefore distance of force from pivot, $d=50-8=42\mathrm{cm} \mathrm{or}0.42m$ **[1 mark]**
+
+Recall the equation for a moment and calculate:
+
+- $M=Fd$
+- $M=10\times0.42$**[1 mark]**
+- $M=4.2Nm$** [1 mark]**
+
+**[Total: 3 marks]**
+
+> *In a question like this one the first mark is for identifying the correct distance, so at that stage you could answer in cm or m and still get the mark.*
+
+> *However the question specifies N**m** as the final unit, so to get the next two marks you have to convert to **metres**.*
+
+> *Keep an eye on units in moments questions as they can be tricky.*
+On Fig. 1.1, draw an arrow to show the position of the mass and the direction of the force it exerts.
+
+A correctly annotated diagram looks like:
+
+![4-1-2b-e-moments-metre-rule-2](assets/062-4-1-2b-e-moments-metre-rule-2.png)
+
+- Downwards arrow marked on the right of the pivot (so it causes a clockwise moment); **[1 mark]**
+- Mass / force arrow 35 cm from pivot (distance labelled or by eye); **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the **mass **which has been placed to balance the ruler in part (a):
+
+Use the diagram and distances from parts (a) and (b):
+
+![screenshot-2023-03-22-at-12-01-29](assets/063-screenshot-2023-03-22-at-12-01-29.png)
+
+Apply the principle of moments since the ruler is in equilibrium:
+
+- sum of clockwise moments = sum of anti-clockwise moments
+- $W\times35=10\times42$ **[1 mark]**
+- $W=\frac{420}{35}=12N$ **[1 mark]**
+
+Convert weight to mass:
+
+- $m=\frac{W}{g}=\frac{12}{9.81}$** [1 mark]**
+- $m=1.2\mathrm{kg}$** [1 mark]**
+
+**[Total: 4 marks]**
+
+### Q9
+Calculate the mass of the ship
+
+- Weight:  $W=mg\Rightarrowm=\frac{W}{g}$
+- Mass:  $m=\frac{4.6\times10^{4}}{9.81}$ = 4689 kg **[1 mark]**** **
+- Mass:  $m$ = 4700 kg (2 s.f.) **[1 mark]**** **
+
+**[Total: 2 marks]**
+Calculate the moment of the ship’s weight about point **P**:
+
+- Moment about point **P** = Weight × Distance
+- Moment = 46 000 × 6.0 = 2.8 × 10<sup>5</sup> **[1 mark]** N m **[1 mark]**** **
+
+**[Total: 2 marks]**
+
+> *When quoting a unit for moments, it is crucial to get the capitalisation correct i.e. do not write NM / nM / nm*
+Calculate the minimum vertical force *T*:
+
+- Total clockwise moments (tension in rope) about P = *T *× 15
+- Total anticlockwise moments (weight of the ship) about P = *W* × 6.0
+
+![4-1-s-q--q5b-medium-cie-a-level-ma](assets/065-4-1-s-q-q5b-medium-cie-a-level-ma.png)
+
+Use the principle of moments to find tension *T*:
+
+- Total clockwise moments = Total anticlockwise moments
+- *T *× 15 = (4.6 × 10<sup>4</sup>) × 6.0 **[1 mark]**
+- $T = \frac{( 4.6 \times 10^{4} ) \times 6.0}{15}$ = 1.8 × 10<sup>4</sup> N **[1 mark]**** **
+
+*Allow T = 1.9 × 10*<sup>*4*</sup>* N if 2.8 × 10*<sup>*5*</sup>* used*** **
+
+**[Total: 2 marks]**
+Calculate the minimum force *F*:
+
+- Perpendicular component of *T *= *T* cos (21°) **[1 mark]**
+
+The front of the ship will raise when...
+
+- Total clockwise moments (pulling force *F*) > Total anticlockwise moments (perpendicular component of *T*)
+- *F* × 7.5 > *T* cos (21°) × 3.0
+
+![2BJMfWDd_4-1-s-q--q5c-medium-cie-a-level-ma](assets/066-2bjmfwdd-4-1-s-q-q5c-medium-cie-a-level-ma.png)
+
+The minimum force required to raise the ship is...
+
+- Total clockwise moments = Total anticlockwise moments
+- *F* × 7.5 = *T* cos (21°) × 3.0 **[1 mark]**
+- $F = \frac{( 1.8 \times 10^{4} ) \cos 21^{\circ} \times 3.0}{7.5}$* *= 6722 = 6700 N (2 s.f.) **[1 mark]**** **
+
+*Allow F = 7100 N if 1.9 × 10*<sup>*4*</sup>* used*** **
+
+**[Total: 3 marks]**
+
+### Q10
+(i) State the reason that the bus would topple to the left:
+
+The bus begins to topple because:
+
+- The line of action of the centre of gravity falls outside the base of the bus **OR** the anticlockwise moment (of the bus) is greater than the clockwise moment; **[1 mark]**
+
+(ii) Explain what effect adding weights to the underside of the bus would be:
+
+- Lower the centre of gravity; **[1 mark]**
+- It could tilt more before toppling (to the left); **[1 mark]**
+- Increases stability;** [1 mark]**
+
+**[Total: 4 marks]**
+Determine the height above the ground of the centre of mass of the bus when it is empty and normally parked:
+
+Redraw the diagram as a triangle:
+
+![screenshot-2023-03-22-at-12-22-14](assets/068-screenshot-2023-03-22-at-12-22-14.png)
+
+Either on the diagram or seen in later calculation
+
+- Angle to be used in calculation = 50° **OR **short side of triangle = 1.22 m **[1 mark]**
+
+Calculate the height of the centre of mass:
+
+- $h = 1.22 \times \tan ( 50 ) = 1.5 \mathrm{m}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Since A-level questions are more complex there are often 'intermediary' or 'working' marks for numbers seen within a calculation. In this case you are being awarded one mark for correctly deriving at least one of the values you will need to calculate.*
+
+> *Your working is being rewarded so it's well worth showing it.*
+
+> *The bus is not of uniform density, so it's centre of mass will not be in the centre of the object.*
+(i) Calculate the new height of the centre of mass of the bus:
+
+Determine the total mass of the 'passengers' and the empty bus:
+
+- Mass of 'passengers', $m_{p}=65\mathrm{kg}\times60\mathrm{passengers}=3900\mathrm{kg}$
+- Mass of empty bus, $m_{b}=7.47\mathrm{tons}\times1000\mathrm{kg}=7470\mathrm{kg}$
+
+Model the bus as a horizontal rod and take moments:
+
+**Method 1: take moments around the new centre of mass and calculate:**
+
+![screenshot-2023-03-27-at-08-43-34](assets/069-screenshot-2023-03-27-at-08-43-34.png)
+
+Set up simultaneous equations for *x* and *y*:
+
+- In equilibrium, $7470g\timesx=3900g\timesy\rightarrow7470x=3900y$ (*equation 1*)
+- Taking distance measurements, $1.5+x+y=3.28\rightarrowy=1.78-x$ (*equation 2*)
+
+Substitute *equation 2* into *equation 1* and calculate:
+
+- $7470x=3900y$
+- $7470 x = 3900 \times ( 1.78 - x )$
+- $7470x+3900x=6942$
+- $x=0.61m$ **[1 mark]**
+
+Add distances together to find the height of C above the road:
+
+- new height, $h=1.5+0.61=2.11m$ **[1 mark]**
+
+**Method 2: take moments about the road, assuming a combined mass, and calculate:**
+
+![screenshot-2023-03-27-at-08-47-54](assets/070-screenshot-2023-03-27-at-08-47-54.png)
+
+Apply the principle of moments around **R**::
+
+- In equilibrium, $( 7470 g \times 1.5 ) + ( 3900 g \times 3.28 ) = ( 7470 g + 3900 g ) \times X$ **[1 mark]**
+
+Calculate:
+
+- $( 11 205 \cancel{g} ) + ( 12 792 \cancel{g} ) = ( 11 370 \cancel{g} ) \times X$
+- $X=2.11m$ **[1 mark]**
+
+(ii) Suggest why the test is done with the top deck weighted to capacity and the bottom deck left empty:
+
+- This moves the centre of mass to the highest position / makes the bus the least stable it could be; **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Deduce whether the bus has passed the safety test:
+
+Set up a triangle to calculate the angle using trigonometry:
+
+![screenshot-2023-03-27-at-08-54-48](assets/071-screenshot-2023-03-27-at-08-54-48.png)
+
+- Angle inside triangle, $\\theta = \tan ^{- 1} ( \frac{2.11}{1.22} ) = 60^{\circ}$
+- Angle between bus and road, $θ_{R}=90-60=30^{\circ}$ **[1 mark]**
+
+Draw a conclusion:
+
+- The bus <u>tilted to more than 28°</u> without tipping so <u>yes</u> it does pass the safety test; **[1 mark]**
+
+(ii) Explain whether all the passengers upstairs standing will make the bus fail its safety test.:
+
+Calculate new angle between bus and road by moving the centre of mass 40 cm higher:
+
+- $\\theta = \tan ^{- 1} ( \frac{2.11 + 0.4}{1.22} ) = 64^{\circ}$
+- New angle between bus and road, $θ_{R}=90-64=26^{\circ}$
+
+Draw a conclusion:
+
+- The bus <u>tilts to less than 28°</u> without tipping so <u>yes</u> it will fail the safety test; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *For the final part of the question you could have recalculated the new centre of mass due to the passengers standing up. However, for only one mark, there is probably a quicker way.*
+
+> *By simply moving the centre of mass up by the full 40 cm (which is the maximum it could possibly shift) we still find that the bus fails the safety test, so the question has been answered without the need for further calculation.*

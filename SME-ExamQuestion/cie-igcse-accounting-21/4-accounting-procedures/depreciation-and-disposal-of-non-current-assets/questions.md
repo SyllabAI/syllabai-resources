@@ -1,6 +1,6 @@
 # Exam Questions — Depreciation & Disposal of Non-Current Assets
 **4. Accounting Procedures** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 13 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 15 questions across 2 sets
 
 
 ## Multiple Choice Questions (13 questions)
@@ -160,3 +160,138 @@ The delivery vehicle cost \$18 000.
 The depreciation for the current financial year was incorrectly calculated at 25% per annum.
 
 How will correcting the error affect the profit for the year?
+
+## Structured Questions (2 questions)
+
+
+### Q1 — medium — 11 marks
+
+**Q1** [4 marks]
+
+Stalla charges depreciation at 25% per annum, using the reducing balance method. She charges a full year’s depreciation in the year a vehicle is purchased and none in the year it is sold.
+
+On 31 December 2022, Stalla sold a vehicle for \$9 500. The vehicle had cost \$16 000 on 1 September 2020.
+
+**REQUIRED **
+
+Calculate the gain or loss on disposal of the vehicle
+
+*Source: June 2023 0452/21 Q2B*
+
+
+**Q1** [2 marks]
+
+The balances on Stalla’s ledger accounts at 1 January 2022 included the following
+
+|   | \$ |
+|---|---|
+| Motor vehicles | 48 000 |
+| Provision for depreciation on motor vehicles | 21 000 |
+
+Prepare Stalla’s motor vehicles account for the year ended 31 December 2022. Balance the account at 31 December 2022 and bring down the balance at 1 January 2023.
+
+Stalla 
+Motor vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/21 Q2C*
+
+
+**Q1** [5 marks]
+
+Prepare Stalla’s provision for depreciation on motor vehicles account for the
+
+year ended 31 December 2022. Balance the account at 31 December 2022 and bring down the balance at 1 January 2023.
+
+Stalla 
+Provision for depreciation on motor vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+### Q2 — hard — 12 marks
+
+**Q2** [3 marks]
+
+Roger is trader. He provides window cleaning services to customers.
+
+An extract from Roger's statement of financial position at 30 June 2024 showed the following:
+
+|   | Cost | Accumulated depreciation | Net book value |
+|---|---|---|---|
+|   | \$ | \$ | \$ |
+| Vehicles | 85 000 | 52 500 | 32 500 |
+
+The following transactions took place during the year ended 30 June 2025.
+
+On 1 July 2024 Roger purchases a vehicle on credit from EZ Motors for \$20 000.
+
+On 31 December 2024 Roger sold a vehicle by bank transfer for \$5 500. The vehicle had originally been purchases on 1 July 2022 for \$12 000.
+
+Roger depreciates vehicles by 20% per annum using the straight-line method. Depreciation is calculated monthly.
+
+**REQUIRED**
+
+Prepare the vehicles account for the year ended 30 June 2025. Balance the account and bring down the balance on 1 July 2025.
+
+Roger
+Vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2024 |   |   |   |   |   |
+| Jun 30 | Balance b/d | 85 000 |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+**Q2** [5 marks]
+
+Prepare the provision for depreciation of vehicles account for the year ended 30 June 2025. Balance the account and bring down the balance on 1 July 2025.
+
+Roger
+Provision for depreciation of vehicles account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2024 |   |   | 2024 |   |   |
+|   |   |   | Jul 1 | Balance b/d | 52 500 |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+**Q2** [3 marks]
+
+Prepare the disposal account for the year ended 30 June 2025.
+
+Roger
+Disposal account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+**Q2** [1 mark]
+
+State whether Roger made a profit or loss on the sale of the vehicle.

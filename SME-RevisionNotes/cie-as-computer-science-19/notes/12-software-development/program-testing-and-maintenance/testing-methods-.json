@@ -1,0 +1,161 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_BJfsGr6D4Gw5bcKJ",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/12-software-development/program-testing-and-maintenance/testing-methods-",
+ "title": "Testing methods",
+ "page_title": "Testing methods | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "12-software-development",
+   "program-testing-and-maintenance",
+   "testing-methods-"
+  ],
+  "section": "12-software-development",
+  "topic": "program-testing-and-maintenance",
+  "leaf": "testing-methods-"
+ },
+ "titles": {
+  "section": "12. Software Development",
+  "topic": "Program Testing & Maintenance",
+  "subtopic": "Testing methods"
+ },
+ "updated_at": "2026-10-01T12:32:45.883Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fRKsxFstsrW5XrCd",
+  "spcpt_2PC6sXWn2btbfPK7"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 22,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_fRKsxFstsrW5XrCd",
+   "name": "Testing methods",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Testing methods"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the different methods of testing?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Testing takes place during the **testing stage** of the **program development life cycle**, once the program has been written and compiled\n\n  - **Syntax errors** are usually detected during compilation\n  - Testing focuses on checking for **logic errors**, **unexpected behaviour**, and **operational integrity**\n  - A detailed **test plan**, outlining test cases and expected results, should be created during the **design stage**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Sample test plan"
+  },
+  {
+   "type": "bullets",
+   "md": "- Scenario: A program accepts a user's age between 0 and 120 inclusive"
+  },
+  {
+   "type": "table",
+   "md": "| **Test No.** | **Description** | **Input** | **Expected output** | **Type of test data** | **Actual outcome** |\n|---|---|---|---|---|---|\n| 1 | Valid age within accepted range | 25 | \"Age accepted\" | Normal |   |\n| 2 | Input is not a number | \"twenty\" | \"Invalid input: enter a number\" | Abnormal |   |\n| 3 | Age above the maximum allowed | 130 | \"Age out of range\" | Abnormal |   |\n| 4 | Age exactly at the upper boundary | 120 | \"Age accepted\" | Boundary/Extreme |   |\n| 5 | Age exactly at the lower boundary | 0 | \"Age accepted\" | Boundary/Extreme |   |\n| 6 | Age just below lower boundary | -1 | \"Age out of range\" | Boundary/Extreme |   |\n| 7 | Blank input | (blank) | \"Please enter your age\" | Abnormal |   |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Common methods of testing"
+  },
+  {
+   "type": "table",
+   "md": "| **Testing method** | **Description** |\n|---|---|\n| **Dry run** | **Manually trace through** the code (e.g. on paper) to predict output and track variables |\n| **Walkthrough** | Step-by-step review of the code **with others** to identify issues early |\n| **White-box testing** | Tests the **internal logic** and code structure; the tester knows how the program works |\n| **Black-box testing** | Tests the **inputs and expected outputs** without knowing the internal workings |\n| **Integration testing** | Checks that different modules or components **work correctly together** |\n| **Alpha testing** | Performed **in-house** by the developers during early testing |\n| **Beta testing** | Carried out by **external users** in real-world environments |\n| **Acceptance testing** | Final check to ensure the program meets the original **client requirements** |\n| **Stub testing** | Uses temporary modules (stubs) to **simulate missing components** during early testing |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_2PC6sXWn2btbfPK7",
+   "name": "Choosing test data",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Choosing suitable test data"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is suitable test data?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Suitable test data is** specially chosen to test the functionality** of a program or design\n- Developers or test-users would pick** a selection of test data** from the following categories\n\n  - **Normal**\n  - **Abnormal**\n  - **Extreme/Boundary**\n- The results would be **compared to the expected results **to check if the algorithm/program works as intended\n- The results would be **stored in the test plan**\n- Each category is explained within the context of a simple pseudocode program below"
+  },
+  {
+   "type": "table",
+   "md": "| **Pseudocode** |\n|---|\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Normal data"
+  },
+  {
+   "type": "bullets",
+   "md": "- Normal test data is data that **should be accepted **in the program\n- An example would be a user entering their age as 16 into the age field of the program"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Abnormal data"
+  },
+  {
+   "type": "bullets",
+   "md": "- Abnormal test data is data that **should be rejected** by the program, such as data of the **wrong data type** or a value **outside the acceptable range**\n- Examples would be a user entering their age as \"F\", or as 45, into the age field of the program"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Extreme data/Boundary data"
+  },
+  {
+   "type": "bullets",
+   "md": "- Boundary data (also called extreme data) tests values **at the edges of what the system accepts**\n- This includes:\n\n  - The **maximum **and **minimum acceptable **values\n  - The **values just outside** those limits (the smallest and largest unacceptable values)\n- Using the example of an age field that accepts 12–18:\n\n  - **Boundary/extreme values:** 12 and 18 (the limits themselves)\n  - **Just outside the boundary:** 11 and 19 (unacceptable values either side)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Selecting suitable test data"
+  },
+  {
+   "type": "table",
+   "md": "| **Type of Test** | **Input** | **Expected Output** |\n|---|---|---|\n| **Normal** | 14 | Accepted |\n| **Normal** | 16 | Accepted |\n| **Abnormal** | H | Rejected |\n| **Abnormal** | @ | Rejected |\n| **Boundary/Extreme** | 12 | Accepted |\n| **Boundary/Extreme** | 18 | Accepted |\n| **Boundary/Extreme** | 11 | Rejected |\n| **Boundary/Extreme** | 19 | Rejected |"
+  }
+ ]
+}

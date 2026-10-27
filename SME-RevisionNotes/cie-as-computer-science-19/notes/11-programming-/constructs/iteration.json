@@ -1,0 +1,187 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_hF2VSWbJDZtND5MS",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/11-programming-/constructs/iteration",
+ "title": "Iteration",
+ "page_title": "Iteration | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "11-programming-",
+   "constructs",
+   "iteration"
+  ],
+  "section": "11-programming-",
+  "topic": "constructs",
+  "leaf": "iteration"
+ },
+ "titles": {
+  "section": "11. Programming",
+  "topic": "Constructs",
+  "subtopic": "Iteration"
+ },
+ "updated_at": "2025-05-06T12:17:16.854Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_YFT6RKY5hvgMzdtv",
+  "spcpt_p6gdsGKbBwW2jTbr"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 28,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is iteration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Iteration is **repeating a line or a block of code **using a loop\n- Iteration can be:\n\n  - **Count-controlled**\n  - **Condition-controlled**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_YFT6RKY5hvgMzdtv",
+   "name": "Count-controlled loops",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Count-controlled loops"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a count-controlled loop?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A count-controlled loop is when the code is repeated **a fixed number of times** (e.g. using a FOR loop)\n- A count-controlled loop can be written as:"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |   |\n|---|---|\n|   |   |"
+  },
+  {
+   "type": "bullets",
+   "md": "- In a **FOR loop**, the **increment** must be an **expression that evaluates to an integer**\n\n  - The loop **starts** at `value1`\n  - The identifier is updated by the **increment** value on each iteration\n  - The loop continues until the identifier **passes value2**\n- The increment can be **positive** or **negative**, depending on the direction you want the loop to count"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Nested count-controlled loops"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **outer loop** runs `i` from 1 to 3\n- For **each value of **`i`, the **inner loop** runs `j` from 1 to 3\n- It outputs all combinations of `i × j`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Count-controlled loops in different languages"
+  },
+  {
+   "type": "table",
+   "md": "| Python | VB.net | Java |\n|---|---|---|\n| Print the numbers 1 to 5 |   |   |\n|   |   |   |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_p6gdsGKbBwW2jTbr",
+   "name": "Condition-controlled loops",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Condition-controlled loops"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a condition controlled loop?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A condition controlled loop is when the code is repeated **until a condition is met**\n- There are two types of condition controlled loops:\n\n  - **Post-condition (REPEAT)**\n  - **Pre-condition (WHILE)**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Post-condition loops (REPEAT)"
+  },
+  {
+   "type": "bullets",
+   "md": "- A post-condition loop** is executed at least once**\n- The condition must be an **expression **that evaluates to a **Boolean **(True/False)\n- The condition is tested** after the statements are executed** and only stops once the condition is evaluated to True\n- It can be written as:"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |\n|---|\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Pre-condition loops (WHILE)"
+  },
+  {
+   "type": "bullets",
+   "md": "- The condition must be an **expression **that evaluates to a **Boolean **(True/False)\n- The condition is tested and statements are **only executed if the condition evaluates to True**\n- After statements have been executed the condition is **tested again**\n- The loop ends when the condition **evaluates to False**\n- It can be written as:"
+  },
+  {
+   "type": "table",
+   "md": "| Pseudocode |\n|---|\n|   |"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Nested condition-controlled loops"
+  },
+  {
+   "type": "bullets",
+   "md": "- Ask the user to **enter up to 3 usernames**\n- For each one, keep asking **until a non-empty name** is entered\n- **Outer WHILE** runs 3 times (for 3 usernames)\n- **Inner WHILE** ensures that each username is **not blank**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Condition-controlled loops in different languages"
+  },
+  {
+   "type": "table",
+   "md": "| Python | VB.net | Java |\n|---|---|---|\n| Keep asking the user to enter a password until they type `\"admin\"` |   |   |\n|   |   |   |"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "When to use each type of loop"
+  },
+  {
+   "type": "table",
+   "md": "| **Loop type** | **When to use** | **Example scenario** |\n|---|---|---|\n| **Count-controlled loop** (`FOR`) | When you know **in advance** how many times you want the loop to run | Repeating an action 5 times, generating a multiplication table |\n| **Pre-condition loop** (`WHILE`) | When you want to **check a condition before** running the loop. It may run **0 or more** times | Keep asking for a valid password before granting access |\n| **Post-condition loop** (`REPEAT ... UNTIL`) | When you want the loop to run **at least once**, and then stop when a condition becomes true | Ask the user for input and validate it after first run |"
+  }
+ ]
+}

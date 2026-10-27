@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:24:44Z",
+ "generated_utc": "2026-10-26T14:40:24Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -367,6 +367,13 @@
        "latex": "V_{r.m.s}=\\frac{8}{\\sqrt{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mrow><mi>r</mi><mo>.</mo><mi>m</mi><mo>.</mo><mi>s</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>8</mn><msqrt><mn>2</mn></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "V subscript r. m. s end subscript space equals space fraction numerator 8 over denominator square root of 2 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V subscript r. m. s end subscript space equals space 5.66 space straight V space equals space 5.7 space straight V space open parentheses 2 s. f. close parentheses",
+       "render": "$V_{r. m. s} = 5.66 \\mathrm{V} = 5.7 \\mathrm{V} ( 2 s. f. )$",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -424,6 +431,34 @@
        "latex": "\\frac{V}{V_{0}}=e^{-\\frac{t}{RC}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>V</mi><msub><mi>V</mi><mn>0</mn></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mi>t</mi><mrow><mi>R</mi><mi>C</mi></mrow></mfrac></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "V over V subscript 0 space equals space e to the power of negative fraction numerator t over denominator R C end fraction end exponent"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "ln open parentheses V over V subscript 0 close parentheses space equals space minus fraction numerator t over denominator R C end fraction",
+       "render": "$\\ln ( \\frac{V}{V} _{0} ) = - \\frac{t}{R C}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "R space equals space fraction numerator negative t over denominator C space ln open parentheses V over V subscript 0 close parentheses end fraction",
+       "render": "`R = (- t)/(C ln ( V / V _ 0 ))`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "R space equals space fraction numerator negative open parentheses 3.5 space cross times space 10 to the power of negative 3 end exponent close parentheses over denominator open parentheses 85 space cross times space 10 to the power of negative 6 end exponent close parentheses space ln open parentheses 6 over 8 close parentheses end fraction",
+       "render": "$R = \\frac{- ( 3.5 \\times 10^{- 3} )}{( 85 \\times 10^{- 6} ) \\ln ( \\frac{6}{8} )}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "R space equals space 143 space straight capital omega space equals space 140 space straight capital omega space open parentheses 2 space straight s. straight f. close parentheses",
+       "render": "`R = 143 capital omega = 140 capital omega ( 2 s. f. )`",
+       "via": "alt-transpile"
       },
       {
        "latex": "V_{out}",
@@ -665,6 +700,13 @@
      "problem_md": "**Extract:**\n\nFig. 1.1 shows four diodes and a load resistor of resistance, 2.4 kΩ, connected in a circuit that is used to produce rectification of an alternating voltage. Fig. 1.1\n\nA sinusoidal alternating voltage *V*<sub>*IN*</sub> is applied across the input terminals X and Y. The variation of time *t *of *V*<sub>*IN*</sub> is given by the equation\n\n$V_{I N} = 3.0 \\sin ( 20 \\pi t )$\n\nwhere *V*<sub>IN</sub> is in volts and *t *is in seconds.\n\n(i) Label the output terminals A and B, on Fig. 1.1, with the appropriate symbols to indicate the polarity of the output voltage *V*<sub>OUT</sub>.\n\n[1]\n\n(ii) The magnitude of the output voltage *V*<sub>OUT</sub> varies with *t *as shown in Fig. 1.2\n\n![FTgiaqfx_21-1-2b-m-vout-t-to-label-sq-cie-a-level](assets/038-ftgiaqfx-21-1-2b-m-vout-t-to-label-sq-cie-a-leve.png)\n\n**Fig. 1.2**\n\nLabel both the axis with the correct scales on Fig. 1.2. Use the space below for any working that you need.\n\n[3]",
      "solution_md": "(i) A correctly labelled diagram showing the polarity of the output terminals A and B that should earn 1 mark would look like this:\n\n![090c105e-a3d1-4f9c-85bb-2eae1f0a9292](assets/039-090c105e-a3d1-4f9c-85bb-2eae1f0a9292.jpeg)\n\n- A labelled − **and **B labelled +; **[1 mark]**\n\n(ii) A correctly labelled axis on Fig. 1.2 that would score 3 marks should look like this:\n\nList the known quantities from the equation:\n\n- Max *V*<sub>OUT</sub> = 3.0 V\n- Angular frequency,* ω* = 20π\n\nUse the angular frequency equation to calculate the time period of the a.c.:\n\n- $T=\\frac{2π}{ω}$\n- $T=\\frac{2π}{20π}=\\frac{1}{10}$\n- $T=0.1s$ **[1 mark]**\n\n![6c312f44-35a5-41b1-831a-d4aa76da4661](assets/040-6c312f44-35a5-41b1-831a-d4aa76da4661.jpeg)\n\n- *V*<sub>OUT</sub> scale labelled 2 and 4 on the tick marks; **[1 mark]**\n- *t* scale labelled 0.025, 0.05, 0.075. 0.1, 0.125 and 0.15 on the tick marks; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The graph shows the **rectified wavelength**. To work out one wavelength** trace** it with your **hand** as if it hasn't been rectified, *\n\n> *the wave will go up, down and then back to where it came from*\n\n![d6dc6cee-7624-4110-a5b6-767a0d4bcb86](assets/041-d6dc6cee-7624-4110-a5b6-767a0d4bcb86.jpeg)",
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V subscript I N end subscript space equals space 3.0 space sin space open parentheses 20 pi space t close parentheses",
+       "render": "$V_{I N} = 3.0 \\sin ( 20 \\pi t )$",
+       "via": "alt-transpile"
+      },
       {
        "latex": "T=\\frac{2π}{ω}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi>&#960;</mi></mrow><mi>&#969;</mi></mfrac><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",

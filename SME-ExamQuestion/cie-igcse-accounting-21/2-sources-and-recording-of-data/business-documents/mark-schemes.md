@@ -171,3 +171,126 @@
   - Bank charges are a transaction between a customer and a bank, and will appear on a bank statement
 
 **B**, **C** and **D** are incorrect; these are all items that *do* appear on a statement of account
+
+## Structured Questions (3 questions)
+
+
+### Q1
+Omer should choose option 1 **[1]**. Alexander will have developed a working relationship with Alexander and is familiar with his quality **[1]**. Alexander currently offers 5% cash discount **[1]**, which is higher than Tahir's 3% trade discount **[1]**. However, Tahir needs to pay promptly to benefit from the cash discount **[1]**, which might not always be possible.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - 3 marks for **advantages **of your choice.
+> - 1 marks for **disadvantages **of your choice.
+> 
+> **Option 1**
+> 
+> **Advantages** may include:
+> 
+> - Alexander offers a 5% cash discount
+> - Alexander's cash discount is higher than Tahir's trade discount
+> - Alexander offers cash discount but Tahir does not
+> - Omer is familiar with the quality of Alexander's goods
+> - Omer would keep a good relationship with Alexander
+> - Other valid advantages are accepted
+> 
+> **Disadvantages** may include:
+> 
+> - Alexander does not offer trade discount but Tahir does
+> - Omer needs to pay promptly to benefit from the cash discount
+> - Omer would be relying on one supplier only which could be an issue if Alexander is closed for a period of time
+> - Other valid disadvantages are accepted
+> 
+> **Option 2**
+> 
+> **Advantages** may include:
+> 
+> - Tahir offers trade discount but Alexander does not
+> - Prompt payment is not needed to benefit from trade discount
+> - Omer would not be relying on only one supplier
+> - Alexander might offer trade discount or a higher cash discount to get Omer to buy more from him
+> - Omer's cost of sales will decrease which means his gross profit will increase
+> - Other valid advantages are accepted
+> 
+> **Disadvantages** may include:
+> 
+> - Omer might upset his relationship with Alexander
+> - Tahir's trade discount is lower than Alexander's cash discount
+> - Omer is not familiar with the quality of Tahir's goods
+> - Alexander offers cash discount but Tahir does not
+> - Other valid disadvantages are accepted
+
+### Q2
+(i)
+
+> **[mark-scheme]**
+> 1 mark for stating any **one **of the following:
+> 
+> - Direct debit
+> - Internet transfer
+> - Telephone transfer
+> - Credit transfer
+> - Debit/credit card
+
+(ii)
+
+If Shvan stopped using cash then a petty cash book would no longer be required **[1]**. It is also safer as there would be no cash on the premises **[1]**.
+
+However, some customers or suppliers might prefer cash **[1]**. Shvan might incur additional bank charges **[1]**.
+
+Shvan should stop using cash **[1]** as the advantages outweigh the disadvantages.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - Maximum 4 marks for **advantages **and **disadvantages **of stopping using cash.
+> 
+>   - Up to 2 marks for **advantages **of stopping using cash.
+>   - Up to 2 marks for **disadvantages **of stopping using cash.
+> 
+> **Advantages** may include:
+> 
+> - It is safe as no cash is kept on the premises or transported to or from the bank
+> - A petty cash book is no longer required
+> - It may reduce fraud
+> - It saves time as Shvan would not need to go to the bank to deposit or withdraw cash
+> - Bank transactions can be quicker
+> - Other valid advantages are accepted
+> 
+> **Disadvantages** may include:
+> 
+> - Some customers or suppliers might prefer cash
+> - It might take longer to receive money using BACS
+> - It might be useful to have some cash for small expenses such as taxi fares
+> - Shvan might incur additional bank charges
+> - Bank reconciliation can take longer if there are more bank transactions
+> - Other valid disadvantages are accepted
+
+### Q3
+If Alma paid by direct debit then the payments would be automatic which means Alma would not miss a payment **[1]**. However, this means that Alma cannot choose to miss payments when she wants to reduce her cash outgoings **[1]**.
+
+Alma should pay her rates by direct debit **[1]**.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - 1 mark for an **advantage **of paying by direct debit.
+> - 1 mark for a **disadvantage **of paying by direct debit.
+> 
+> **Advantages **may include:
+> 
+> - Alma cannot forget to make a payment
+> - The payments would be smaller and have less impact on cash flow
+> - Payments would be taken automatically so that Alma does not need to make any manual payments herself
+> - Other valid advantages are accepted
+> 
+> **Disadvantages **may include:
+> 
+> - Alma cannot choose to miss a payment when funds are low
+> - Alma would not have control over her payment schedule
+> - The bank charges might increase
+> - Other valid disadvantages are accepted

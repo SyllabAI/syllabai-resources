@@ -1,6 +1,6 @@
 # Exam Questions — Transverse & Longitudinal Waves
 **7. Waves** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 14 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 19 questions across 2 sets
 
 
 ## Multiple Choice Questions (14 questions)
@@ -163,3 +163,174 @@ Which pair contains one transverse and one longitudinal wave?
 **Q14** [1 mark]
 
 Which of the following statements shows that sound waves are longitudinal?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — easy — 6 marks
+
+**Q1** [2 marks]
+
+Fig. 1.1 shows graphs of waves X and Y. The scales of the graphs are identical.
+
+![4-3-q2d-question-stem-sl-sq-easy-phy](assets/011-4-3-q2d-question-stem-sl-sq-easy-phy.png)
+
+**Fig. 1.1**
+
+Describe **two **similarities between the properties of waves X and Y.
+
+**Q1** [1 mark]
+
+**Extract:**
+
+Fig. 1.1 shows graphs of waves X and Y. The scales of the graphs are identical.
+
+State **one **difference between waves X and Y.
+
+**Q1** [2 marks]
+
+Describe the difference between transverse and longitudinal waves.
+
+**Q1** [1 mark]
+
+**Extract:**
+
+Fig. 1.1 shows graphs of waves X and Y. The scales of the graphs are identical.
+
+Explain how it could be determined whether waves X and Y are transverse or longitudinal.
+
+### Q2 — medium — 9 marks
+
+**Q2** [2 marks]
+
+A large water tank is set up so that a wave can be generated at each end of the tank. The two waves, A and B, travel towards each other at the same speed.
+
+Fig. 1.1 shows the variation of displacement of the water surface with distance travelled at a particular instant.
+
+![q1a_wave-characteristics_ib-sl-physics-sq-medium](assets/012-q1a-wave-characteristics-ib-sl-physics-sq-medium.png)
+
+**Fig. 1.1**
+
+Deduce how many times greater the amplitude of B is to the amplitude of A.
+
+**Q2** [4 marks]
+
+**Extract:**
+
+A large water tank is set up so that a wave can be generated at each end of the tank. The two waves, A and B, travel towards each other at the same speed. Fig. 1.1 shows the variation of displacement of the water surface with distance travelled at a particular instant.
+
+Wave A has a frequency of 8.0 Hz.
+
+![q1a_wave-characteristics_ib-sl-physics-sq-medium](assets/012-q1a-wave-characteristics-ib-sl-physics-sq-medium.png)
+
+**Fig. 1.1 **
+
+(i) Calculate the velocity of wave A.
+
+[2]
+
+(ii) Determine the frequency of wave B.
+
+[2]
+
+**Q2** [3 marks]
+
+**Extract:**
+
+A large water tank is set up so that a wave can be generated at each end of the tank. The two waves, A and B, travel towards each other at the same speed.
+
+Explain how the stationary wave is generated in the tank.
+
+### Q3 — easy — 7 marks
+
+**Q3** [1 mark]
+
+Define a transverse wave.
+
+**Q3** [2 marks]
+
+State **two** properties of a longitudinal wave.
+
+**Q3** [2 marks]
+
+State **two **examples of transverse waves.
+
+**Q3** [2 marks]
+
+State **two** examples of longitudinal waves.
+
+### Q4 — medium — 10 marks
+
+**Q4** [2 marks]
+
+Explain what is meant by a progressive wave.
+
+**Q4** [4 marks]
+
+An elastic cord is fixed at one end and attached to a mechanical oscillator at the other end. Fig. 1.1 shows, at time *t* = 0, the shape of a section of the cord as the wave travels from left to right. W, X, Y and Z are four marked points on the cord.
+
+![7-1-3b-m-waves-graph-1](assets/016-7-1-3b-m-waves-graph-1.png)
+
+The mechanical oscillator has a steady frequency of 5.0 Hz. The wave has a wavelength of 0.60 m and an amplitude of 0.030 m.
+
+On the axes of Fig. 1.2 sketch the graph of the displacement of point X over the period *t* = 0 to 0.40 s. Add suitable scales to the axes.
+
+![7-1-3b-m-waves-graph-2](assets/017-7-1-3b-m-waves-graph-2.png)
+
+**Q4** [2 marks]
+
+**Extract:**
+
+An elastic cord is fixed at one end and attached to a mechanical oscillator at the other end. Fig. 1.1 shows, at time *t* = 0, the shape of a section of the cord as the wave travels from left to right. W, X, Y and Z are four marked points on the cord.
+
+The mechanical oscillator has a steady frequency of 5.0 Hz. The wave has a wavelength of 0.60 m and an amplitude of 0.030 m.
+
+For time *t* = 0, state which of the points W, X, Y and Z
+
+i) is instantaneously at rest
+
+[1]
+
+ii) has the greatest speed
+
+[1]
+
+**Q4** [2 marks]
+
+**Extract:**
+
+An elastic cord is fixed at one end and attached to a mechanical oscillator at the other end. Fig. 1.1 shows, at time t = 0, the shape of a section of the cord as the wave travels from left to right. W, X, Y and Z are four marked points on the cord. The mechanical oscillator has a steady frequency of 5.0 Hz. The wave has a wavelength of 0.60 m and an amplitude of 0.030 m.
+
+The speed of point W on the cord at *t* = 0 is 0.94 m s<sup>–1</sup>. With the cord at its original tension, the frequency of oscillation is now doubled to 10 Hz.
+
+The amplitude is kept at 0.030 m. Calculate the new speed of point W at *t* = 0. Explain your reasoning.
+
+### Q5 — medium — 12 marks
+
+**Q5** [3 marks]
+
+Explain briefly how transmission of energy by a longitudinal wave differs from transmission of energy by a transverse wave. Give **one** example of a transverse wave.
+
+**Q5** [3 marks]
+
+Sketch a diagram showing the direction of the propagation of a sound wave, and explain how a sound wave in air transmits energy away from its source.
+
+**Q5** [3 marks]
+
+Short pulses of sound are reflected from a wall 30 m from the sound source. The reflected pulses return to the source after 0.18 s.
+
+Calculate the speed of sound.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Short pulses of sound are reflected from a wall 30 m from the sound source. The reflected pulses return to the source after 0.18 s. Calculate the speed of sound. Speed = 60/0.18 = 333.3 = 330 m s^–1
+
+Fig.1.1 represents the sound wave from part (c).
+
+![3-1-s-q--q3d-answer-medium-aqa-a-level-physics](assets/020-3-1-s-q-q3d-answer-medium-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Calculate the frequency of the sound wave.

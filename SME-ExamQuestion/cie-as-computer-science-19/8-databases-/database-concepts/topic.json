@@ -1,0 +1,520 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:39:14Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "8-databases-",
+  "name": "8. Databases"
+ },
+ "topic": {
+  "id": "top_N93PCVr7szYKcYct",
+  "slug": "database-concepts",
+  "name": "Database Concepts",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "database-normalisation",
+   "name": "Database normalisation",
+   "revision_note_id": "rn_TrX5TVS4KWkvKTFR"
+  },
+  {
+   "slug": "database-design-",
+   "name": "Database design",
+   "revision_note_id": "rn_NwgV5c5fgzrvJXjw"
+  },
+  {
+   "slug": "database-models",
+   "name": "Database models",
+   "revision_note_id": "rn_4mJGGGP3Sh6VHVG7"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_2W3nsjCs7Yc5Gqn4",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/8-databases-/database-concepts/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/7928_screenshot-2025-11-12-103952.png": "001-diagram-with-three-boxes-course-schedule-tutor-a.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/40226_screenshot-2025-11-12-104209.png": "002-diagram-showing-course-schedule-linked-to-tutor-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/37298_screenshot-2025-11-11-223523.png": "003-flowchart-with-five-boxes-labelled-shop-order-cu.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/47724_screenshot-2025-11-11-223523.png": "004-diagram-showing-relationships-shop-order-to-cust.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/9697_screenshot-2025-11-11-161607.png": "005-four-labelled-rectangles-in-a-grid-top-left-read.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/21984_screenshot-2025-11-11-161607.png": "006-diagram-showing-entities-repair-part-part-repair.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_Ssf4qfzH2rBhCrpt",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qN6FGFndyyPyS7Cc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "bi"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "The company uses a database, `COURSES`, to store data about the courses and their tutors.\n\nEach course starts at different times of the year and may have a different tutor. The database has the following structure:\n\n`COURSE_INFORMATION(CourseID, Description, Cost) `\n\n`TUTOR(TutorID, TelephoneNumber, EmailAddress, TutorName) `\n\n`COURSE_SCHEDULE(CourseID, DateStarted, TutorID) `\n\nComplete the entity‑relationship (E‑R) diagram for the database `COURSES`.\n\n![Diagram with three boxes: \"COURSE_SCHEDULE\", \"TUTOR\", and \"COURSE_INFORMATION\", positioned in a triangular layout.](assets/001-diagram-with-three-boxes-course-schedule-tutor-a.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for both 1:M relationships as follows:\n> \n> ![Diagram showing \"COURSE_SCHEDULE\" linked to \"TUTOR\" and \"COURSE_INFORMATION\" with arrows indicating relationships between the boxes.](assets/002-diagram-showing-course-schedule-linked-to-tutor-.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dJGZjV2mq73SV4dG",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_fDjXvPQGDskc6gpR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by the following terms in a relational database model.\n\nEntity .......................................................................................................................\n\nPrimary key ..............................................................................................................\n\nReferential integrity .............................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each term (**max 3**)\n> \n> Entity:\n> \n> - An object about which data can be stored\n> \n> Primary key:\n> \n> - The **unique** attribute / combination of attributes used to identify the **record / tuple **\n> \n> Referential integrity:\n> \n> - Makes sure that if data is changed in one place the change is reflected in all related records - cascading update/delete\n> - Makes sure that data that does not exist cannot be referenced\n> - Ensures that every foreign key has a **corresponding** primary key // A logical dependency of a foreign key on a primary key\n> - Ensures that the data in the database is consistent / up to date\n> - Prevents records from being added/deleted/modified incorrectly\n> - Makes sure any queries return accurate and complete results"
+    },
+    {
+     "id": "qstnprt_H2WGbKGHHhNbmxsK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "The following database table is not normalised.\n\n| **StudentName** | **DateOfBirth** | **TutorGroup** | **Subject** | **SubjectCode** |\n|---|---|---|---|---|\n| Yuwei Chen | 01/09/2004 | SMH | English, Maths, Computer Science | EN, MA, CS |\n| Claudia Raj | 23/02/2005 | JMB | Maths, Physics, Art | MA, PY, AR |\n| Aamil Akram | 24/01/2005 | KMB | Art, Design, English language | AR, DE, EN |\n| Areeba Faraz | 21/12/2004 | SMH | English language, Chemistry, Design | EN, CH, DE |\n\nExplain how to modify the table to put it into First Normal Form (1NF).",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> - Identify repeating groups of attributes ...\n> - ... Subject and SubjectCode\n> - Ensure each field is atomic\n> - ... StudentName should be split into e.g. FirstName and LastName\n> - Identify the primary key for the table"
+    }
+   ]
+  },
+  {
+   "id": "qstn_W8zpNjxpKKs8q6QH",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_6pfSp7hsbxrC6Yxw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop manager has designed a relational database to store customer orders.\n\nThe database will have the following tables:\n\n`CUSTOMER(CustomerID, FirstName, LastName, Town) `\n\n`SHOP_ORDER(OrderNo, CustomerID, OrderDate) `\n\n`SUPPLIER(SupplierID, EmailAddress, TelephoneNumber) `\n\n`ITEM(ItemNumber, SupplierID, Description, Price) `\n\n`ORDER_ITEM(ItemNumber, OrderNo, Quantity)`\n\nComplete the entity-relationship (E-R) diagram for the relational database.\n\n![Flowchart with five boxes labelled: SHOP_ORDER, CUSTOMER, ORDER_ITEM, SUPPLIER, ITEM, arranged in a circular layout.](assets/003-flowchart-with-five-boxes-labelled-shop-order-cu.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct relationship or relationships\n> \n> - 1:M between CUSTOMER and SHOP_ORDER\n> - 1:M between SUPPLIER and ITEM\n> - 1:M between SHOP_ORDER and ORDER_ITEM **and** M:1 between ORDER_ITEM and ITEM\n> \n> ![Diagram showing relationships: SHOP_ORDER to CUSTOMER, ORDER_ITEM to SHOP_ORDER and ITEM, ITEM to SUPPLIER, forming an interconnected system.](assets/004-diagram-showing-relationships-shop-order-to-cust.png)"
+    },
+    {
+     "id": "qstnprt_5ZtNHFcsYHWMpQGB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d",
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify three advantages of a relational database compared to a file-based approach.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point **(max 3) **\n> \n> - Reduced data **redundancy **\n> - Improved data integrity / consistency / referential integrity\n> - Allows for views / improved privacy\n> - Allows for program-data independence\n> - Complex queries can be executed"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TwWNkwGY8Ybktyqk",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_pkGNGRx9tZbV8Kqy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "A theatre wants to use a database to store data about the shows that are scheduled, their customers and the seats that the customers have booked.\n\nIn the theatre:\n\n- Each show can take place on multiple dates.\n- Some dates can have more than one performance.\n- There are multiple rows of seats.\n- Each seat can be individually booked by its row letter and seat number, for example row E seat 2.\n\nPart of the database design includes these tables:\n\n`SHOW(ShowID, Title, Duration) `\n\n`SEAT(SeatID, RowLetter, SeatNumber) `\n\n`PERFORMANCE(PerformanceID, ShowID, ShowDate, StartTime) `\n\nIdentify the relationship between the tables `PERFORMANCE` and `SHOW`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> many to 1 // there are many performances of each show"
+    },
+    {
+     "id": "qstnprt_7NcVMQkfcDSMPXxD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "Customers give their first name, last name and email address when they are making a booking. One booking can include multiple seats.\n\nDescribe the additional tables that will need to be included in the database **and** explain how these tables will be linked within the database.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 5**:\n> \n> e.g.\n> \n> - CUSTOMER table identified with suitable Primary Key and appropriate name\n> - … and other suitable fields including name and email\n> - BOOKING TABLE identified with suitable Primary Key and appropriate name\n> - … that stores the Primary Key of the CUSTOMER table as a Foreign Key to join with CUSTOMER table\n> - … and stores the Primary Key of the PERFORMANCE table as a Foreign Key to join with PERFORMANCE table\n> - A linking table between Table 2 and SEAT with suitable Primary Key and appropriate name\n> - … that includes the Primary Key of Table 2 as a Foreign Key to join with Table 2\n> - … that stores the SeatID."
+    }
+   ]
+  },
+  {
+   "id": "qstn_tXJm9HyZW3tZJV3s",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_yYV29fDpx997jKfj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "An assessment board wants to store the marks students achieved in exams in a database named `RECORDS`.\n\nPart of the database design includes these two tables:\n\n`EXAM(ExamID, Subject, Level, TotalMarks) `\n\n`EXAM_QUESTION(ExamQuestionID, ExamID, QuestionNumber, Question, MaxMark)`\n\nIdentify the relationship between `EXAM` and `EXAM_QUESTION`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> 1-to-many"
+    },
+    {
+     "id": "qstnprt_z9DXcgrDWJkF3T3b",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "The database also needs to store data about the students, the exams the students have taken and the marks the students achieved in each question of each exam.\n\nDescribe the additional tables that will need to be included in the database **and** explain how all the tables in the database will be linked.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 5**:\n> \n> - STUDENT table identified with suitable Primary Key\n> - A linking table between STUDENT and EXAM with suitable Primary Key and appropriate name\n> - … that includes the Primary Key of the STUDENT table as a Foreign Key to join with STUDENT\n> - ... and includes the Primary Key of the EXAM table as a Foreign Key to join with EXAM\n> - A linking table between STUDENT and EXAM_QUESTION with suitable Primary Key and appropriate name\n> - … that includes the Primary Key of Table 2 as a Foreign Key to join with Table 2\n> - … that stores the ExamQuestionID and the mark for that question"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Sn47syJq4KbFsCYz",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_wqy72J8Fx34XZ6JZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN",
+      "spcpt_nt6wCsbXQScDX5S8",
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "A company is developing a website that will allow users to create an account and then play a quiz every day. The data about the users and the quizzes are stored in a database.\n\nA user must select a unique username and enter a valid email address to create an account. All users must be over the age of 16. A new quiz is given to the users every day. Each quiz is stored in its own text file.\n\nThe database stores the filename of each quiz and the date it can be played. The user gets a score for each quiz they complete, which is stored in the database. The scores are used to give each user a rating, for example Gold.\n\nCreate a 3-table design for this database normalised to Third Normal Form (3NF).\n\nGive your table design in the format:\n\n`TableName(PrimaryKey, Field1, Field2, …)`",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each:\n> \n> - User table with the username as the Primary Key\n> - … containing at least email address, date of birth / age and rating\n> - Quiz table with Quiz ID or date or file name as the Primary Key.\n> - … containing at least the other field(s) not used as the PK\n> - A joining table with an appropriate name including at least fields for user identification, quiz identification and score\n> - … with an appropriate Primary Key\n> - ... and Foreign Keys matching the Primary Keys of the other two tables\n> \n> `USER(Username, Email, DateOfBirth, Rating) `\n> `QUIZ(QuizID, Date, Filename)  `\n> `USER_QUIZ(Username, QuizID, Score)`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SV8QpZspDfySFwHk",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_8rKCG8Fs8cR3vTyy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "A company makes ice cream and sells it to shops.\n\nThe ice cream is made in batches: a large quantity of one type and flavour of ice cream that is then split into smaller quantities for sale.\n\nThe company’s owner has designed a relational database, `ICECREAM`, to store data about their ice cream and customers.\n\nSome of the tables in the database are given. The database is not normalised.\n\n`BATCH(BatchID, Type, Flavour, Size, SellingPrice, EndDate) `\n\n`CUSTOMER(CustomerID, CompanyName, EmailAddress, TelephoneNumber) `\n\n`SALE(SaleID, BatchID, CustomerID, Quantity, Date)`\n\nIdentify **two** foreign keys in the table `SALE` **and** the table that each foreign key references.\n\nForeign key 1 ........................................................................................\n\nTable name 1 .........................................................................................\n\nForeign key 2 ........................................................................................\n\nTable name 2........................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each:\n> \n> - Foreign key: `BatchID`, table `BATCH `\n> - Foreign key: `CustomerID`, table `CUSTOMER`"
+    },
+    {
+     "id": "qstnprt_pyFDMncvsBF82b6d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "cii"
+     },
+     "spec_point_ids": [
+      "spcpt_YvWkT6ZkT2qFRBpN",
+      "spcpt_v3by4SFDxGTZgfwP",
+      "spcpt_jw3J5d9XNpWJcJDM",
+      "spcpt_7t9KdWBjJVFtTGQ3"
+     ],
+     "part_tier": null,
+     "problem_md": "The table `BATCH` is not normalised.\n\nNormalise the database table `BATCH`.\n\nWrite the table definitions for your new tables.\n\nIdentify any primary and foreign keys in your tables.\n\nDo **not** change or include the tables `CUSTOMER` and `SALE`.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point each (max 4)\n> \n> e.g.\n> \n> - Ice cream table with an appropriate name\n> - … containing type, flavour, size, selling price\n> - … with suitable primary key\n> - … foreign key identified in BATCH that links to the primary key in `ICECREAM `\n> \n> Example table definitions – not example answer:\n> \n> `BATCH(BatchID, IceCreamID, EndDate) `\n> `ICE_CREAM(IceCreamID, Type, Flavour, Size, SellingPrice)`"
+    },
+    {
+     "id": "qstnprt_8s5Z9YVcdGgC3bZ7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/13",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following table by defining each database term.\n\n| **Database term** | **Definition** |\n|---|---|\n| Entity | ....................................................... |\n| Attribute | ....................................................... |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each definition\n> \n> Entity:\n> \n> - A real-life object that is represented as a table\n> \n> Attribute:\n> \n> - An item of data about an entity"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XTV89zRGHzYZ2fmt",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_qZpVHy2YNhhRXp8n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WN37ppXhzxdy2v2d",
+      "spcpt_P787CgxNkKFMC6Sx",
+      "spcpt_bxsBsBSGhJ5VdwYJ"
+     ],
+     "part_tier": null,
+     "problem_md": "A company uses a relational database to store data about its customers, employees and the individual repair jobs that customers have booked.\n\nExplain the benefits of using a relational database instead of a file-based approach.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 3 **\n> \n> e.g.\n> \n> - There is reduced data redundancy // less repeated data\n> - … because each item of data is only stored once\n> - Data consistency is maintained // Data integrity is improved\n> - … changes in one table will automatically update in another\n> - ... linked data cannot be entered differently in two tables\n> - Program-data independence is ensured\n> - … changes to the data do not require programs to be re-written // queries are not dependent on the structure of the data\n> - Complex queries are easier to run\n> - Different views can be provided\n> - …. so users can only see specific aspects of the database\n> - Multiple concurrent access is possible\n> - ... through record locking"
+    },
+    {
+     "id": "qstnprt_98drVhhSZ3zZ58z7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd",
+      "spcpt_jw3J5d9XNpWJcJDM"
+     ],
+     "part_tier": null,
+     "problem_md": "The company decides which employees will work on each repair job. An employee can log into the database to access information about their repair jobs.\n\nThe database is normalised and includes these tables:\n\n- ` CUSTOMER` stores personal data about each customer\n- `EMPLOYEE `stores personal data about each employee\n- `LOGIN_DATA` stores the username and password for each employee\n- `JOB` stores the data about each repair job\n- `JOB_EMPLOYEE `stores the employees that are working on each repair job.\n\nIdentify each relationship between the database tables **and** explain how each relationship can be implemented in the normalised database.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 6**\n> \n> - `CUSTOMER `to `JOB `is 1 to many\n> - … implemented by Primary Key in `CUSTOMER` is Foreign Key in `JOB  `\n> - `EMPLOYEE` to `LOGIN_DATA` is 1 to 1\n> - … implemented by Primary Key in `EMPLOYEE `is Foreign Key in `LOGIN_DATA `\n> - `JOB` to `JOB_EMPLOYEE` is 1 to many\n> - … implemented by Primary Key in `JOB `is Foreign Key in `JOB_EMPLOYEE `\n> - `EMPLOYEE` to `JOB_EMPLOYEE` is 1 to many\n> - … implemented by Primary Key in `EMPLOYEE` is Foreign Key in `JOB_EMPLOYEE`"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jGmP7BKd8tVZrNkQ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_gsD6frPx8StJCJPj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_P787CgxNkKFMC6Sx"
+     ],
+     "part_tier": null,
+     "problem_md": "A shop repairs electronic devices, for example mobile phones and tablet computers. The shop owner stores the data about the repairs using a file-based approach.\n\nGive **one** limitation of using a file-based approach to store the data **and** explain how a relational database addresses this limitation.\n\nLimitation.......................................................................................................\n\nExplanation.....................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for limitation and 2 marks for corresponding explanation\n> \n> e.g.\n> \n> Data redundancy // data duplication\n> \n> - Separate linked tables are used\n> - Data items are stored once so reduces data duplication / data redundancy\n> \n> Data inconsistency / Poor data integrity\n> \n> - Data changed once in one place will automatically update elsewhere\n> - Linked data cannot be entered differently in two tables\n> - Referential integrity can be enforced\n> \n> The data structure used depends on the application\n> \n> - Changes to the data structure are managed by the DBMS\n> - … and queries are not dependent on the structure of the data\n> - … and changes to the data do not require programs to be re-written"
+    },
+    {
+     "id": "qstnprt_gt9VVhx66D2hqkWq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "bi"
+     },
+     "spec_point_ids": [
+      "spcpt_XdgV5kCRhdjch4fd"
+     ],
+     "part_tier": null,
+     "problem_md": "The shop owner creates a relational database called `FIXIT`.\n\nThe database stores data about the customers and the devices for repair.\n\nSome devices need new parts that are ordered from suppliers.\n\nThe database `FIXIT `is designed to include the following tables:\n\n`PART(PartID, Description, Price, SupplierID) `\n\n`CUSTOMER(CustomerID, FirstName, LastName, ContactNumber) `\n\n`REPAIR(RepairNumber, StartDate, EndDate, CustomerID, Device) `\n\n`REPAIR_PART(PartID, RepairNumber, Quantity)`\n\nComplete the entity-relationship (E-R) diagram for the given tables.\n\n![Four labelled rectangles in a grid: top left reads \"REPAIR_PART\", top right \"PART\", bottom left \"REPAIR\", and bottom right \"CUSTOMER\".](assets/005-four-labelled-rectangles-in-a-grid-top-left-read.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct relation\n> \n> ![Diagram showing entities: REPAIR_PART, PART, REPAIR, and CUSTOMER, interconnected with lines indicating relationships between them.](assets/006-diagram-showing-entities-repair-part-part-repair.png)"
+    },
+    {
+     "id": "qstnprt_CWWKNNs4ZHDHz254",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nt6wCsbXQScDX5S8"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table by writing a definition for each of the database terms.\n\n| **Term** | **Definition** |\n|---|---|\n| Referential integrity | ..................................................... |\n| Candidate key | ...................................................... |\n| Tuple | ........................................................ |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct definition\n> \n> | **Database** **Term** | **Definition** |\n> |---|---|\n> | Referential integrity | All duplicate entries of data between tables are consistent // all foreign keys are matched to an appropriate primary key |\n> | Candidate key | A field that could be a primary key but is not // an attribute or smallest set of attributes in a table where no tuple has the same value |\n> | Tuple | A row / record in a table // one instance of an entity in a table |"
+    }
+   ]
+  }
+ ]
+}

@@ -234,3 +234,270 @@ C<sub>6</sub>H<sub>13</sub>OH → C<sub>5</sub>H<sub>11</sub>COOH
 > ![Blue skeletal formula of a benzene-like carbon ring with attached CH₃ and CH₂ groups, showing single and double bonds on a white background](assets/022-blue-skeletal-formula-of-a-benzene-like-carbon-r.png)
 > 
 > That way you are less likely to miss any atoms, especially hydrogens
+
+## Structured Questions (4 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The molecular formula of nerol is:
+> 
+> - C<sub>10</sub>H<sub>18</sub>O **[1 mark]**
+
+ii) To calculate the relative molecular mass of nerol:
+
+*M*<sub>r</sub> = (10 x 12.0) + (18 x 1.0) + 16.0
+
+*M*<sub>r</sub> = 154.0 **[1 mark]**
+
+> **[mark-scheme]**
+> iii) The empirical formula of nerol is:
+> 
+> - C<sub>10</sub>H<sub>18</sub>O **[1 mark]**
+> 
+> The empirical formula is the same as the molecular formula for nerol.
+
+> **[exam-tip]**
+> When counting atoms in a skeletal formula, trace each line end and vertex systematically to avoid missing any carbon or hydrogen atoms.
+> 
+> To find the empirical formula, find the highest common factor (HCF) of all subscripts in the molecular formula. For C<sub>10</sub>H<sub>18</sub>O, the HCF of 10, 18, and 1 is 1, so the empirical formula is the same as the molecular formula: C<sub>10</sub>H<sub>18</sub>O.
+> **[mark-scheme]**
+> Geometrical (cis-trans) isomerism:
+> 
+> - Nerol does show geometrical (cis-trans) isomerism
+> **AND**
+> there are two different groups attached to each carbon of one of the C=C bonds **[1 mark]**
+> - The C=C adjacent to the CH<sub>2</sub>OH group shows geometrical isomerism; the terminal C=C does not (one carbon of the terminal C=C has two identical methyl groups attached) **[1 mark]**
+> 
+> Optical isomerism:
+> 
+> - Nerol does not show optical isomerism
+> **AND**
+> there are no chiral centres / no carbon atom with four different groups attached **[1 mark]**
+
+> **[exam-tip]**
+> Geometrical (cis-trans) isomerism requires restricted rotation around a C=C bond AND two different groups on each of the two carbons forming that bond.
+> 
+> Nerol has two C=C bonds. The terminal C=C has two methyl groups on one carbon; having identical groups on one carbon means this bond cannot show geometrical isomerism. The other C=C, adjacent to the CH<sub>2</sub>OH group, has two different groups on each carbon and does show geometrical isomerism. Nerol and geraniol are geometrical isomers of each other.
+> 
+> Optical isomerism requires a chiral centre: a carbon atom bonded to four different groups. There is no such carbon in nerol, so it does not show optical isomerism.
+The completed skeletal formulae are:
+
+Linalool (3,7-dimethylocta-1,6-dien-3-ol):
+
+![Skeletal formula of linalool showing an 8-carbon chain with methyl groups at C3 and C7, double bonds at C1 and C6, and a hydroxyl group at C3](assets/024-skeletal-formula-of-linalool-showing-an-8-carbon.png)
+
+**[1 mark]**
+
+Geraniol (3,7-dimethylocta-2,6-dien-1-ol):
+
+![Skeletal formula of geraniol showing an 8-carbon chain with methyl groups at C3 and C7, double bonds at C2 and C6, and a hydroxyl group at C1](assets/025-skeletal-formula-of-geraniol-showing-an-8-carbon.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct skeletal formula of linalool: hydroxyl at C3, double bonds at C1 and C6, methyl groups at C3 and C7
+> 
+> 1 mark for correct skeletal formula of geraniol: hydroxyl at C1, double bonds at C2 and C6, methyl groups at C3 and C7
+
+> **[exam-tip]**
+> To draw skeletal formulae from IUPAC names, work through the name systematically:
+> 
+> 1. Identify the parent chain:
+> 
+>   - "octa" = 8 carbons.
+> 2. Identify the principal functional group:
+> 
+>   - "-ol" = alcohol (OH).
+>   - This determines the numbering direction as the OH carbon gets the lowest possible locant.
+> 3. Locate the double bonds:
+> 
+>   - "1,6-dien" (linalool) means double bonds between C1 and C2, and between C6 and C7.
+>   - "2,6-dien" (geraniol) means double bonds between C2 and C3, and between C6 and C7.
+> 4. Add the substituents:
+> 
+>   - "3,7-dimethyl" means methyl groups at C3 and C7 for both isomers.
+
+### Q2
+> **[mark-scheme]**
+> The name and functional groups of **X** are:
+> 
+> - Name: propenal **[1 mark]**
+> - Functional groups: alkene
+> **AND**
+> aldehyde / carbonyl **[1 mark]**
+
+> **[exam-tip]**
+> To name **X** (CH<sub>2</sub>=CHCHO), identify the longest carbon chain and the principal functional group:
+> 
+> - Three carbons = prop-
+> - The aldehyde group (-CHO) has the highest priority and gives the suffix -al
+> - The double bond gives the infix -en-
+> - Combining these: prop + en + al = propenal
+> 
+> The compound contains two functional groups: an aldehyde (the -CHO group) and an alkene (the C=C bond).
+> **[mark-scheme]**
+> The empirical and molecular formulae of **Y** are:
+> 
+> - Empirical formula = C<sub>2</sub>H<sub>4</sub>O **[1 mark]**
+> - Molecular formula = C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> **[1 mark]**
+
+> **[exam-tip]**
+> To find the formulae of **Y**, it helps to draw the fully displayed formula first so that all carbon and hydrogen atoms are shown explicitly and none are missed when counting.
+> 
+> ![Structural formula of 2-methyl propanoic acid](assets/027-structural-formula-of-2-methyl-propanoic-acid.png)
+> 
+> **Y** has the molecular formula C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>.
+> 
+> To find the empirical formula, divide all subscripts by their highest common factor: HCF of 4, 8, and 2 is 2, giving C<sub>2</sub>H<sub>4</sub>O.
+The skeletal formula of **Z** is:
+
+![Skeletal formula of cyclopentane showing a regular five-membered ring](assets/028-skeletal-formula-of-cyclopentane-showing-a-regul.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct skeletal formula of cyclopentane (a five-membered ring with no substituents or double bonds)
+
+> **[exam-tip]**
+> Pentene has the molecular formula C<sub>5</sub>H<sub>10</sub>. A saturated hydrocarbon with this molecular formula cannot be a straight-chain alkane (alkanes have the general formula C<sub>n</sub>H<sub>2n+2</sub>, which would give C<sub>5</sub>H<sub>12</sub> for five carbons). The formula C<sub>5</sub>H<sub>10</sub> fits the general formula C<sub>n</sub>H<sub>2n</sub>, which cycloalkanes also satisfy. The only saturated cyclic hydrocarbon with five carbons is cyclopentane, drawn as a regular pentagon in skeletal form.
+
+### Q3
+The completed table is:
+
+| **Compound** | **Displayed formula** | **Functional group(s) present** |
+|---|---|---|
+| **1** | ![Structure of 3-bromo-2-methylpropan-1-ol](assets/029-structure-of-3-bromo-2-methylpropan-1-ol.png) | (Primary) alcohol<br>**AND**<br>Bromo / bromine |
+| **2** | ![Structure of 2-chloropropanal](assets/030-structure-of-2-chloropropanal.png) | Aldehyde<br>**AND**<br>Chloro / chlorine |
+| **3** | ![Structure of 2-chloro-but-2-en-1-ol](assets/031-structure-of-2-chloro-but-2-en-1-ol.png) | Alkene<br>**AND**<br>(Primary) alcohol<br>**AND**<br>Chloro / chlorine |
+| **4** | ![Structure of but-2-enoic-acid](assets/032-structure-of-but-2-enoic-acid.png) | Alkene<br>**AND**<br>Carboxylic acid |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for identifying (primary) alcohol **AND **bromo / bromine in compound 1
+> 
+> 1 mark for identifying aldehyde **AND **chloro / chlorine  in compound 2
+> 
+> 1 mark for identifying alkene **AND **(primary) alcohol **AND **chloro / chlorine  in compound 3
+> 
+> 1 mark for identifying alkene **AND **carboxylic acid in compound 4
+
+> **[exam-tip]**
+> The functional groups you are expected to know for this topic include:
+> 
+> - Alkenes
+> - Halogenoalkanes
+> - Alcohols (primary, secondary and tertiary)
+> - Aldehydes
+> - Ketones
+> - Carboxylic acids
+> - Esters
+> - Primary amines
+> - Nitriles
+> **[mark-scheme]**
+> The systematic names of the compounds are:
+> 
+> - Compound 1 = 3-bromo-2-methylpropan-1-ol **[1 mark]**
+> - Compound 2 = 2-chloropropanal **[1 mark]**
+> - Compound 3 = 2-chlorobut-2-en-1-ol **[1 mark]**
+> - Compound 4 = but-2-enoic acid **[1 mark]**
+
+> **[exam-tip]**
+> To name compound 1:
+> 
+> - The longest chain has 3 carbons (propan-).
+> - The -OH group is at C1 (suffix -1-ol).
+> - Br on C3 and CH<sub>3</sub> on C2 are added as prefixes in alphabetical order: 3-bromo-2-methyl-.
+> 
+> To name compound 2:
+> 
+> - The longest chain has 3 carbons with the -CHO at C1 (suffix -al).
+> - The Cl on C2 gives the prefix 2-chloro-.
+> 
+> To name compound 3:
+> 
+> - The longest chain has 4 carbons with a C=C starting at C2 (but-2-en-) and -OH at C1 (suffix -1-ol).
+> - The Cl on C2 gives the prefix 2-chloro-.
+> 
+> To name compound 4:
+> 
+> - The longest chain has 4 carbons with a C=C starting at C2 (but-2-en-) and -COOH at C1 (suffix -oic acid).
+> **[mark-scheme]**
+> The compounds with empirical formula equal to their molecular formula are:
+> 
+> - Compounds 1, 2 and 3 **[1 mark]**
+> 
+> Explanation:
+> 
+> - The subscripts in the molecular formula of each of compounds 1, 2 and 3 share no common factor greater than 1 / the molecular formula cannot be simplified further **[1 mark]**
+
+> **[exam-tip]**
+> Compound 1 (3-bromo-2-methylpropan-1-ol) has molecular formula C<sub>4</sub>H<sub>9</sub>BrO. The subscripts 4, 9, 1 and 1 share no common factor greater than 1.
+> 
+> Compound 2 (2-chloropropanal) has molecular formula C<sub>3</sub>H<sub>5</sub>ClO. The subscripts 3, 5, 1 and 1 share no common factor greater than 1.
+> 
+> Compound 3 (2-chlorobut-2-en-1-ol) has molecular formula C<sub>4</sub>H<sub>7</sub>ClO. The subscripts 4, 7, 1 and 1 share no common factor greater than 1.
+> 
+> Compound 4 (but-2-enoic acid) has molecular formula C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>. The subscripts 4, 6 and 2 share a common factor of 2, so the empirical formula is C<sub>2</sub>H<sub>3</sub>O, which differs from the molecular formula.
+
+### Q4
+> **[mark-scheme]**
+> The empirical formula of crotonic acid is:
+> 
+> - C<sub>2</sub>H<sub>3</sub>O **[1 mark]**
+
+> **[exam-tip]**
+> To find the empirical formula, divide all the subscripts in the molecular formula by their highest common factor (HCF). For C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>, the HCF of 4, 6 and 2 is 2, giving C<sub>2</sub>H<sub>3</sub>O.
+Any **two** of the following displayed formulae are:
+
+But-3-enoic acid:
+
+![Displayed formula of but-3-enoic acid, a structural isomer of but-2-enoic acid with the C=C double bond between C3 and C4](assets/033-displayed-formula-of-but-3-enoic-acid-a-structur.png)
+
+**OR**
+
+2-methylprop-2-enoic acid:
+
+![Displayed formula of 2-methylprop-2-enoic acid, a branched structural isomer with a methyl group on C2 and the C=C double bond between C2 and C3](assets/034-displayed-formula-of-2-methylprop-2-enoic-acid-a.png)
+
+**OR**
+
+Cyclopropanecarboxylic acid
+
+![Displayed formula of cyclopropanecarboxylic acid, a cyclic structural isomer with a cyclopropane ring and a carboxylic acid group](assets/035-displayed-formula-of-cyclopropanecarboxylic-acid.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for each correct displayed formula of a structural isomer of but-2-enoic acid that retains the carboxylic acid functional group, up to a maximum of 2 marks
+> 
+> Correct structural isomers include but-3-enoic acid, 2-methylprop-2-enoic acid, and cyclopropanecarboxylic acid
+
+> **[exam-tip]**
+> But-3-enoic acid is a position isomer of but-2-enoic acid. The C=C double bond moves from between C2 and C3 to between C3 and C4.
+> 
+> 2-methylprop-2-enoic acid is a branched chain isomer. A methyl group is added to C2, shortening the main chain to three carbons.
+> 
+> Cyclopropanecarboxylic acid is formed by incorporating the double bond into a cyclic structure. The carboxylic acid group remains outside the ring.
+> **[mark-scheme]**
+> i) The type of formula shown in Fig. 2.1 is:
+> 
+> - A skeletal formula **[1 mark]**
+> 
+> ii) The molecular formula of oleic acid is:
+> 
+> - C<sub>18</sub>H<sub>34</sub>O<sub>2</sub> **[1 mark]**
+> 
+> iii) Whether oleic acid belongs to the same homologous series as crotonic acid:
+> 
+> - Both compounds have the same functional groups / an alkene and carboxylic acid functional group **[1 mark]**
+> - Differ from each other in carbon chain length / by the number of CH<sub>2</sub> groups **[1 mark]**
+> - Both compounds are chemically similar / react in a similar way / same chemical properties **[1 mark]**
+
+> **[exam-tip]**
+> In a skeletal formula, hydrogen atoms bonded to carbon atoms are omitted. Line ends and vertices represent carbon atoms, and functional groups and non-C/H atoms are still shown.
+> 
+> To find the molecular formula from a skeletal formula, count each type of atom, including hydrogen atoms on functional groups.
+> 
+> You are expected to know the defining features of a homologous series for this topic.

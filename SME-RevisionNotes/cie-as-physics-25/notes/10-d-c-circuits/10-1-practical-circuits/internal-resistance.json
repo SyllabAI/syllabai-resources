@@ -1,0 +1,145 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jjJDKShKCTpKZbMS",
+ "course_slug": "cie-as-physics-25",
+ "url": "https://www.savemyexams.com/as/physics/cie/25/revision-notes/10-d-c-circuits/10-1-practical-circuits/internal-resistance",
+ "title": "Internal Resistance",
+ "page_title": "Internal Resistance | Cambridge (CIE) AS Physics Revision Notes 2023",
+ "path": {
+  "segs": [
+   "10-d-c-circuits",
+   "10-1-practical-circuits",
+   "internal-resistance"
+  ],
+  "section": "10-d-c-circuits",
+  "topic": "10-1-practical-circuits",
+  "leaf": "internal-resistance"
+ },
+ "titles": {
+  "section": "10. D.C. Circuits",
+  "topic": "Practical Circuits",
+  "subtopic": "Internal Resistance"
+ },
+ "updated_at": "2026-10-07T18:50:18.495Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_QJZkcR3ytmbpGFPq",
+   "name": "Ashika",
+   "role": "Physics Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_PXpScD7ncs34zBm9",
+   "name": "Caroline Carroll",
+   "role": "Head of Content Delivery"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_cpqNRxgR3vBMXhHy",
+   "rnl_4BRt8FYx8GyBGWJN"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_KfNf6FPcttw8kF8q"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "thin space E equals space I R space plus thin space I r space equals space I open parentheses R space plus thin space r close parentheses",
+   "render": "$E = I R + I r = I ( R + r )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "E thin space equals space I open parentheses R space plus thin space r close parentheses",
+   "render": "$E = I ( R + r )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "I=\\frac{E}{R+r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#160;</mo><mi>E</mi></mrow><mrow><mi>R</mi><mo>&#8201;</mo><mo>+</mo><mo>&#8201;</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "I space equals space fraction numerator space E over denominator R thin space plus thin space r end fraction"
+  },
+  {
+   "latex": "I=\\frac{7.3}{9.5+0.3}=0.7449A\\approx0.74A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mfrac><mrow><mn>7</mn><mo>.</mo><mn>3</mn></mrow><mrow><mn>9</mn><mo>.</mo><mn>5</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>7449</mn><mo>&#xA0;</mo><mi mathvariant=\"normal\">A</mi><mo>&#x2248;</mo><mn>0</mn><mo>.</mo><mn>74</mn><mo>&#xA0;</mo><mi mathvariant=\"normal\">A</mi></mrow><annotation encoding=\"LaTeX\">I = \\frac{7.3}{9.5 + 0.3} = 0.7449\\ \\mathrm{A} \\approx 0.74\\ \\mathrm{A}</annotation></semantics></math>",
+   "alt": "I equals fraction numerator 7.3 over denominator 9.5 plus 0.3 end fraction equals 0.7449 space straight A almost equal to 0.74 space straight A"
+  },
+  {
+   "latex": "\\text{lost volts}=Ir",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>lost volts</mtext><mo>=</mo><mi>I</mi><mi>r</mi></mrow><annotation encoding=\"LaTeX\">\\text{lost volts} = Ir</annotation></semantics></math>",
+   "alt": "text lost volts end text equals I r"
+  },
+  {
+   "latex": "0.7449\\times0.3=0.22V",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>7449</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>22</mn><mo>&#xA0;</mo><mi mathvariant=\"normal\">V</mi></mrow><annotation encoding=\"LaTeX\">0.7449 \\times 0.3 = 0.22\\ \\mathrm{V}</annotation></semantics></math>",
+   "alt": "0.7449 cross times 0.3 equals 0.22 space straight V"
+  }
+ ],
+ "stats": {
+  "blocks": 10,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 6
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_KfNf6FPcttw8kF8q",
+   "name": "Internal Resistance",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Internal resistance"
+  },
+  {
+   "type": "bullets",
+   "md": "- All power supplies have some resistance between their terminals\n\n  - This is called **internal resistance** (*r*)\n- This internal resistance causes the charge circulating to dissipate some energy from the power supply itself\n\n  - This is why the cell becomes warm after a period of time\n- The internal resistance therefore causes a** loss of voltage** or energy loss in a power supply\n- A cell can be thought of as a source of e.m.f with an internal resistance connected in series. This is shown in the circuit diagram below:"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Circuit with e.m.f"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/10.1.1.5-Internal-resistance-circuit.png",
+   "file": "assets/e0569befe1bd-10-1-1-5-internal-resistance-circuit.png",
+   "alt": "Circuit diagram: a power supply, drawn as a cell of e.m.f. E in series with its internal resistance r inside a box, is connected to a load resistor R; current I flows around the circuit, the p.d. across r is V subscript r and the p.d. across R is V subscript R",
+   "caption": null
+  },
+  {
+   "type": "paragraph",
+   "md": "***Circuit showing the e.m.f and internal resistance of a power supply***"
+  },
+  {
+   "type": "bullets",
+   "md": "- *V*<sub>*R*</sub> is the **terminal potential difference**\n\n  - This is the voltage available in the circuit itself\n  - **Terminal p.d = *****I***** × *****R***** **(Ohm’s law)\n- When a load resistor is connected, current flows through the cell and a potential difference develops across the internal resistance. This voltage is not available to the rest of the circuit so is called the ‘lost volts’\n- *V*<sub>*r*</sub> is the **lost volts**\n\n  - This is the voltage lost in the cell due to internal resistance, so, from conservation of energy:\n  - Lost volts = e.m.f − terminal p.d\n  - **Lost volts = *****I***** × *****r***** **(Ohm’s law)\n- The e.m.f is the sum of these potential differences, giving the equation below:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$E = I R + I r = I ( R + r )$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Where:\n\n  - *E* = e.m.f (V)\n  - *I* = current (A)\n  - *R* = load resistance (Ω)\n  - *r* = internal resistance (Ω)\n- *IR* is collectively known as the 'terminal potential difference'\n- *Ir *is collectively known as the 'lost volts'"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A battery of e.m.f 7.3 V and internal resistance *r* of 0.3 Ω is connected in series with a resistor of resistance 9.5 Ω.\n\n![Circuit diagram: a battery of e.m.f. 7.3 V with internal resistance r, shown inside a dashed box, connected in series with a 9.5 Ω resistor, with current I](assets/7d045a8bebd3-we-internal-resistance-question-image.png)\n\nDetermine:\n\na) The current in the circuit\n\nb) Lost volts from the battery\n\n**Answer:**\n\n**a)**\n\n**Step 1: List the known quantities:**\n\n- E.m.f, *E* = 7.3 V\n- Load resistance, *R* = 9.5 Ω\n- Internal resistance, *r* = 0.3 Ω\n\n**Step 2: Use the e.m.f equation to determine the current *****I***\n\n$E = I ( R + r )$\n\n$I=\\frac{E}{R+r}$\n\n**Step 3: Substitute the values**\n\n$I=\\frac{7.3}{9.5+0.3}=0.7449A\\approx0.74A$\n\n**b)**\n\n**Step 1: State the equation for lost volts**\n\n- The lost volts are the voltage lost due to internal resistance\n\n$\\text{lost volts}=Ir$\n\n**Step 2: Substitute the values**\n\n$0.7449\\times0.3=0.22V$"
+  }
+ ]
+}

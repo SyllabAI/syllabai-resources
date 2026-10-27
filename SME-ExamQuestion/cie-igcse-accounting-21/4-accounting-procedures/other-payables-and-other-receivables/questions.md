@@ -1,6 +1,6 @@
 # Exam Questions — Other Payables & Other Receivables
 **4. Accounting Procedures** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 12 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 15 questions across 2 sets
 
 
 ## Multiple Choice Questions (12 questions)
@@ -176,3 +176,130 @@ What does the balance of \$200 on 31 March represent?
 On 31 March Lucian was owed commission.
 
 How would this commission be shown in Lucian's statement of financial position on 31 March?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 6 marks
+
+**Q1** [6 marks]
+
+Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.
+
+|   | \$ |
+|---|---|
+| At 1 October 2022 |   |
+| Other receivables (rent prepaid) | 820 |
+| For the year ended 30 September 2023 |   |
+| Rent charge for the year | 4 940 |
+| Bank payments for rent 1 December 2022 | 2 460 |
+| 1 June 2023 | 2 490 |
+| At 30 September 2023 |   |
+| Other receivables | ? |
+
+**REQUIRED**
+
+Prepare the rent payable account for the year ended 30 September 2023. Balance the account at 30 September 2023 and bring down the balance at 1 October 2023.
+
+Logan 
+Rent payable account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/21 Q3C*
+
+
+### Q2 — medium — 11 marks
+
+**Q2** [9 marks]
+
+Amla is a trader. Her financial year ends on 31 December.
+
+Amla maintains one combined account for rates and insurance.
+
+On 1 January 2016 three months’ rates, \$480, was outstanding and four months’ insurance, totalling \$700, was prepaid.
+
+During the year ended 31 December 2016 the following payments were made by cheque.
+
+|   | \$ |
+|---|---|
+| Rates 16 months to 31 January 2017 | 2560 |
+| Insurance 12 months to 30 April 2017 | 2400 |
+
+**REQUIRED **
+
+Prepare the rates and insurance account in the ledger of Amla for the year ended 31 December 2016. Balance the account and bring down the balances on 1 January 2017.
+
+Amla 
+Rates and insurance account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Specimen 2020 0452/02 Q3A*
+
+
+**Q2** [2 marks]
+
+Identify the section of the statement of financial position at 31 December 2016 in which the balance on the rates and insurance account would appear.
+
+Give a reason for your answer.
+
+Section of statement of financial position:
+
+Reason:
+
+*Source: Specimen 2020 0452/02 Q3B*
+
+
+### Q3 — medium — 6 marks
+
+**Q3** [4 marks]
+
+Amla is a trader. Her financial year ends on 31 December.
+
+On 1 October 2016 Amla decided to sublet part of her premises at an annual rent of \$4800. On that date she received a cheque for two months’ rent.
+
+**REQUIRED**
+
+Prepare the rent receivable account in the ledger of Amla for the year ended 31 December 2016. Balance the account and bring down the balance on 1 January 2017.
+
+Amla 
+Rent receivable account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Specimen 2020 0452/02 Q3C*
+
+
+**Q3** [2 marks]
+
+Identify the section of the statement of financial position at 31 December 2016 in which the balance on the rent receivable account would appear.
+
+Give a reason for your answer.
+
+Section of statement of financial position:
+
+Reason:
+
+*Source: Specimen 2020 0452/02 Q3D*
+

@@ -334,3 +334,412 @@ $n = \frac{I}{Ave}$
 |---|---|---|
 | **B **is incorrect because | LHS: $E R^{2} = V I t ( \frac{V}{I} )^{2} = \frac{V^{3} t}{I}$<br><br>RHS:  $V^{2}t$ | LHS ≠ RHS |
 | **C **is incorrect because | LHS:  $\frac{VI}{P}=\frac{P}{P}=1$<br><br>RHS:  $t$ | LHS ≠ RHS |
+
+## Structured Questions (7 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> A coulomb is defined as:
+> 
+> - An ampere second **OR** The charge moved by a current of 1 ampere in 1 second **[1 mark]**
+Underline the possible charges for a charge carrier:
+
+1.6 × 10<sup>–20</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <u>1.6 × 10</u><sup><u>–19</u></sup><u> C</u> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 4.0 × 10<sup>–19</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <u>8.0 × 10</u><sup><u>–19</u></sup><u> C</u>
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark is awarded if only 1.6 × 10<sup>–19</sup> C **AND **8.0 × 10<sup>–19</sup> C are underlined **AND **no others are underlined
+
+> **[exam-tip]**
+> The charge carried by charged particles is quantised. This means charge always occurs in multiples of the elementary charge $e$, which is equal to 1.6 × 10<sup>–19</sup> C.
+Sketch a graph to show the variation of the average drift speed with position along the wire:
+
+- Determine the relationship between drift speed and wire diameter
+
+Cross-sectional area of wire: $A = \mathrm{\pi } r^{2} = \mathrm{\pi } ( \frac{d}{2} )^{2}$
+
+At X: $A = \mathrm{\pi } ( \frac{2 d}{2} )^{2} = \mathrm{\pi } d^{2}$
+
+At Y: $A = \mathrm{\pi } ( \frac{d}{2} )^{2} = \frac{ \mathrm{\pi } d^{2}}{4}$
+
+Drift speed: $I=Anvq$
+
+$v=\frac{I}{Anq}$
+
+Since $I$, $n$, and $q$ are constant $v\propto\frac{1}{A}$
+
+$\frac{v_{Y}}{v_{X}}=\frac{d^{2}}{\frac{d^{2}}{4}}=4$
+
+Therefore $v_{Y}=4v_{X}$
+
+- Sketch a line on the graph:
+
+![Graph of average drift speed versus position along a wire, showing a curve with increasing positive gradient from vx at X to 4vx at Y.](assets/010-graph-of-average-drift-speed-versus-position-alo.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a line drawn between (X, $v_{X}$) and (Y, $4v_{X}$)
+> 
+> 1 mark for a line drawn with an increasing magnitude of gradient
+
+> **[exam-tip]**
+> Since diameter $d$ varies linearly, area $A$ varies as $d^{2}$, so $v\propto\frac{1}{d^{2}}$. This means the variation of $v$ with $d$ is a non-linear increase. Hence, the gradient increases towards Y.
+
+### Q2
+Calculate the total charge that flows past a point in the component in 3 minutes:
+
+List the known quantities:
+
+- Current, *I *= 40.0 mA = 40.0 × 10<sup>−3</sup> A
+- Time, *t* = 3 minutes = 180 s
+
+Use the equation for charge and calculate:
+
+- $Q = I t = ( 40.0 \times 10^{- 3} ) \times 180 = 7.2 \mathrm{C}$ **[1 mark]**
+
+**[Total: 1 mark]**
+Calculate the number of electron charge carriers passing the same point in the conductor in this time:
+
+List the known quantities:
+
+- Total charge, *Q* = 7.2 C (from part a)
+- Magnitude of charge per electron, *q* = 1.6 × 10<sup>−19</sup> (from the data booklet)
+
+Calculate the total number of electrons:
+
+- $N = \frac{Q}{q} = \frac{7.2}{( 1.6 \times 10^{- 19} )} = 4.5 \times 10^{19}$ **[1 mark]**
+
+**[Total: 1 mark]**
+(i) Calculate the potential difference across the component:
+
+List the known quantities:
+
+- Energy, *W *= 8.6 J
+- Charge, *Q* = 7.2 C
+
+Use the equation defining potential difference:
+
+- $V=\frac{W}{Q}=\frac{8.6}{7.2}$ **[1 mark]**
+- $V = 1.2 \mathrm{V} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+(ii) Calculate the resistance of the conductor:
+
+List the known quantities:
+
+- Potential difference, *V* = 1.2 V
+- Current, *I* = 40 × 10<sup>−3</sup> A (from part a)
+
+Use the equation for resistance:
+
+- $R = \frac{V}{I} = \frac{1.2}{( 40 \times 10^{- 3} )}$ **[1 mark]**
+- $R=30Ω$ **[1 mark].**
+
+**[Total: 4 marks]**
+
+### Q3
+The symbol for electric charge is:
+
+- *Q *; **[1 mark] **
+
+The SI unit for electric charge is:
+
+- Coulomb **OR** C;** [****1 mark]**** **
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Current *I* = 2.0 A
+- Time *t* = 90 minutes = 90 × 60 s = 5400 s
+
+Recall the equation for current:
+
+- $I=\frac{Q}{t}$
+
+Substitute known quantities into the equation for current:
+
+- $2.0=\frac{Q}{5400}$ **[1 mark]**
+- *Q* = 2.0 × 5400 = 10 800 C **[1 mark]**
+
+**[Total: 2 marks]**
+Determine the number of electrons in 10 800 C of charge:
+
+List the known quantities:
+
+- Total charge, *Q*  = 10 800 C (from part (b))
+- Elementary charge, *e*  = 1.6 × 10<sup>–19</sup> C
+
+Calculate the number of electrons:
+
+- The total amount of charge *Q* = *Ne*
+
+  - where *N* is the number of charge carriers and *e* is the elementary charge carried by each
+- Therefore, 10 800 = *N* × (1.6 × 10<sup>–19</sup>)
+- *N* = $\frac{10800}{1.6\times10^{-19}}$ **[1 mark]**
+- *N* = 6.8 × 10<sup>22</sup> **[1 mark]**
+
+**[Total: 2 marks]**
+Explain why a current is present in the wire:
+
+Refer to the existence of free electrons in copper:
+
+- Copper wire has (many) <u>free</u>/<u>conducting/valence/delocalised</u> electrons; **[1 mark]**
+
+Describe the effect of the potential difference:
+
+- The potential difference produces an <u>electric field</u> (in the wire); **[1 mark]**
+
+Explain the effect of an electric field:
+
+- The electric field causes electrons to experience a force and gain a resultant drift velocity, producing a current; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Copper is a good conductor of electricity, which means it has many **free electrons**. When placed in an electric field, or a region where there is a difference in electric potential, a force is applied to these free electrons, causing them to **flow toward the positive terminal**.*
+
+### Q4
+The amp is defined as:
+
+- The current when one coulomb of charge passes a point; **[1 mark]**
+- In one second; **[1 mark]**
+
+**[Total: 2 marks]**
+To calculate current from charge and time:
+
+List the known quantities:
+
+- Charge, *Q*  =  60.0 × 10<sup>–6</sup> C
+- Time, *t*  = 140 × 10<sup>–3</sup> s
+
+Recall the equation for current, *I *:
+
+- $I=\frac{Q}{t}$
+
+Substitute the numbers into the equation:
+
+- $I=\frac{60.0\times10^{--6}}{140\times10^{--3}}$ = 4.286 × 10<sup>−4</sup> A **[1 mark]**
+
+Calculate the final answer in mA:
+
+- *I* = 4.3 × 10<sup>-4</sup> = 0.43 mA (2 s.f.) **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The charges in these questions are usually small fractions of a coulomb, so convert to standard form before substituting. In this question it was done for you, but in the exams, always do this right at the start, as it's very easy to forget later on.*
+
+> *Also remember to round all answers to the same significant figures as those used in the question.*
+The correct sentences state that:
+
+- The charge carriers in a metal conductor are **delocalised **electrons; **[1 mark]**
+- Normally the electrons move **randomly **in all directions, but if a potential difference is applied between two points on the conductor, then an **electric field** is created; **[1 mark]**
+- This causes an **electric force** to act on the charge carriers, causing them to **drift **along the conductor in a resultant direction; **[1 mark]**
+- Therefore we can say that  a steady **current** flows through the conductor; **[1 mark]**
+
+**[Total: 4 marks]**
+To find the number density of electrons:
+
+List the known quantities:
+
+- Cross-sectional area, *A*  = 1.1 × 10<sup>−7</sup> m<sup>2</sup>
+- Drift speed, *v*  = 18 mm s<sup>−1</sup> = 18 × 10<sup>−3</sup> m s<sup>−1</sup> **[1 mark]**
+- Current, *I*  = 4.3 × 10<sup>−4</sup> A
+- Charge on each electron (current carrier), *q*  = 1.60 × 10<sup>−19</sup> C (from the data page)
+
+From the formulae page:
+
+- $I=Anvq$
+
+Rearrange for number density:
+
+- $n=\frac{I}{Avq}$
+
+Substitute the known quantities:
+
+- $n = \frac{4.3 \times 10^{- 4} }{( 1.1 \times 10^{- 7} ) \times ( 18 \times 10^{- 3} ) \times ( 1.60 \times 10^{- 19} )}$ **[1 mark]**
+- $n=1.4\times10^{24}m^{-3}$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Converting units of known quantities should be your very first step in any calculation question. It's so easy to forget this once you begin the main calculation.*
+
+### Q5
+(i) Define current:
+
+- The rate of flow of charge **OR**
+- Charge passing a point per unit time; **[1 mark]**
+
+(ii) Describe for this processing chip the properties which will affect the current:
+
+**Final answer:** **Any ****three ****from:**
+
+- Current depends on number density, charge per carrier, drift velocity, and area  **OR**  *I* = *Anvq* (any arrangement); **[1 mark]**
+- Charge per carrier / electron = 1.6 × 10<sup>−19</sup> C; **[1 mark]**
+- Number density depends on the material and is fixed for a given conductor; **[1 mark]**
+- Current depends on potential difference / voltage across the component;** [1 mark]**
+- Current depends on cross-sectional area;** [1 mark]**
+- Current depends on resistivity of the conducting material / phosphorus; **[1 mark]**
+- Current depends on the length of the conducting wire (because it affects resistance); **[1 mark]**
+
+**[Total: 4 marks]**
+Calculate the number density of free electrons within the block:
+
+Since each atom contributes one electron, calculate the number of atoms per unit volume:
+
+- $n = \frac{1}{d^{3}} = \frac{1}{( 3.8 \times 10^{- 10} )^{3}} = 1.8 \times 10^{28 \mathrm{m}^{-3} }$ ( 2 s.f.) **[1 mark]**
+
+**[Total: 1 mark]**
+Calculate the current between P and Q when the mean drift velocity of free electrons in the block is 1.9 × 10<sup>–5</sup> m s<sup>–1</sup>
+
+List the known quantities:
+
+- Drift velocity of free electrons, *v* = 1.9 × 10<sup>–5</sup> m s<sup>–1</sup>
+- Charge on an electron, *q* = −1.6 × 10<sup>−19</sup> C (from the data sheet)
+- Number density of electrons, *n* = 1.8 × 10<sup>28</sup> m<sup>-3</sup> (from part b)
+- Diameter of atom, *d *= 3.8 × 10<sup>−10</sup> m (from part a)
+
+Determine the cross-sectional area of the conductor:
+
+- The current flowing from P to Q moves through a surface area 4 atoms wide by 1 atom high
+- $A = 4 \times ( 3.8 \times 10^{- 10} )^{2} = 5.776 \times 10^{- 19 } \mathrm{m}^{2}$ **[1 mark]**
+
+Use the equation relating current and drift velocity:
+
+- $I=Anvq$
+- $I = ( 5.776 \times 10^{- 19 } ) \times ( 1.8 \times 10^{28 ) \times ( 1.9 \times 10^{-5} } ) \times ( 1.6 \times 10^{- 19} )$ **[1 mark]**
+- $I=3.2\times10^{-14}A$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Using the diameter of a sphere to calculate the surface area of a cuboid may seem odd. It is an approximation - what we call a 'best estimate' - but using this kind of informed shortcut is an important aspect to calculations in physics.*
+
+> *The sketch below shows how the idea works. You can see that although there are gaps, they are small, so the estimation is a valid one.*
+
+![screenshot-2023-03-01-at-09-26-57](assets/012-screenshot-2023-03-01-at-09-26-57.png)
+
+> *Current flows along the 20-atom length, so the cross-section is 4 atoms wide × 1 atom high.*
+
+### Q6
+(i) The particle responsible for carrying electric charge around a circuit is:
+
+- The electron; **[1 mark] ** **  **
+
+(ii) Calculate the total charge carried by ten million electrons:
+
+List the known quantities:
+
+- Number of particles, *N*  = ten million = 10 × 10<sup>6</sup>
+
+From the data page:
+
+- Elementary charge, *e * = 1.6 × 10<sup>–19</sup> C
+
+Calculate the total charge:
+
+- The total charge *Q* is given by the number of electrons *N* × the charge carried by each electron *e*
+- Therefore *Q* = (10 × 10<sup>6</sup>) × (1.6 × 10<sup>–19</sup>) **[1 mark]**
+- *Q* = 1.6 × 10<sup>–12</sup> C **[1 mark]**** **
+
+**[Total: 3 marks]*** *
+List the known quantities:
+
+- Current, *I* = 0.30 mA
+- Time, *t * = 5 minutes
+
+Recall the equation for current:
+
+- $I=\frac{Q}{t}$
+
+Convert current into amps and time into seconds:
+
+- *I* = 0.30 mA = 0.30 × 10<sup>–3</sup> A **AND**
+- *t*  = 5 minutes = 5 × 60 = 300 s **[1 mark]**
+
+Calculate the charge which passes through the lamp:
+
+- The charge, *Q* = *I* × *t*
+- *Q* = (0.30 × 10<sup>–3</sup>) × 300 **[1 mark]**
+- *Q* = 0.090 C **[1 mark] **
+
+**[Total: 3 marks]**** **
+
+> *Remember to convert all quantities into their standard units! Prefixes, like the ‘milliamps (mA)’ used in this question, are common tricks used by examiners to check if students are on their toes: in this question, we have to remember to convert 0.30 mA to A, as well as minutes to seconds, before substituting into the equation for current. This is because the one coulomb (C) is equal to one amp second (A s).*
+To find the average drift velocity of electrons:
+
+List the known quantities:
+
+- Cross-sectional area, *A*  = 4.5 × 10<sup>−5</sup> m<sup>2</sup>
+- Number density of electrons, *n*  =  3.6 × 10<sup>22</sup> m<sup>−3</sup>
+- Current, *I*  = 3.0 × 10<sup>−4</sup> A (from part (b))
+- Charge on each electron (current carrier), *q*  = 1.60 × 10<sup>−19</sup> C (from the data page)
+
+From the formulae page:
+
+- $I=Anvq$
+
+Rearrange for average drift speed, *v *:
+
+- $v=\frac{I}{Anq}$
+
+Substitute the known quantities:
+
+- $v = \frac{3.0 \times 10^{- 4} }{( 4.5 \times 10^{- 5} ) \times ( 3.6 \times 10^{22 ) \times ( 1.60 \times 10^{-19} } )}$ **[1 mark]**
+- $v=1.2\times10^{-3}ms^{-1}$ **[1 mark]**
+
+**[Total: 2 marks]**
+A diagram which would score 3 marks is shown below:
+
+![5-1-s-q--q1b-ma-easy-aqa-a-level-physics](assets/014-5-1-s-q-q1b-ma-easy-aqa-a-level-physics.png)
+
+(i) An **ammeter** between **X** and **Y** that would measure the current in the circuit:** **
+
+- Correct symbol for an ammeter used;** [1 mark]**
+- Ammeter connected <u>in series</u> between **X** and **Y**; **[1 mark]**** **
+
+(ii) The direction of **conventional current** in the circuit:
+
+- Conventional current labelled in a <u>clockwise direction</u>;** ****[1 mark]**** **
+
+**[Total: 3 marks] **
+
+> *You should know that conventional current flows from the **positive** terminal of a battery to the **negative** terminal – i.e., it is the flow of positive charge (even though, in reality, **electrons** flow around the circuit!) *
+
+> *Electron flow, therefore, is in the opposite direction to conventional current: flowing from the negative terminal to the positive terminal.*
+
+### Q7
+A possible circuit diagram that should score 2 marks would look like this:
+
+![file-000-5](assets/015-file-000-5.png)
+
+- Cell / battery / power supply, light bulb and ammeter drawn; **[1 mark]**
+- Components connected with straight lines in a series circuit; **[1 mark]**
+
+**[Total: 2 marks]**
+The ammeter needs to be connected in series because:
+
+- An ammeter measures the amount of current in a circuit; **[1 mark]**
+- It needs to be in series with the components of the circuit; **[1 mark]**
+- So the ammeter measures the current flowing through the component (since current is the same everywhere in a series circuit); **[1 mark]**
+
+**[Total: 3 marks]**
+Nancy should expect to obtain results as follows:
+
+- As the current through the light bulb increases the brightness of the light bulb also increases; **[1 mark]**
+- This is because *P *= *I*<sup>2</sup>*R*; **[1 mark]**
+- So, for a constant resistance, *R*, when *I  *increases the power *P *also increases, meaning the light bulb is brighter; **[1 mark]**
+
+**[Total: 3 marks]**
+The problem Nancy has with her circuit is:
+
+- The ammeter is connected the wrong way around (in the circuit); **OR**
+- The negative terminal of the ammeter is connected to the positive terminal of the power supply; **[1 mark]**
+
+A solution to this problem is:
+
+- Change the orientation / direction of the ammeter's connection in the circuit; **OR**
+- Connect the positive terminal of the ammeter to the positive terminal of the power supply; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It can be tricky to remember the nuances of current and electron direction but learn them so you don't get confused easily in your exam. Negative values of current are not physically negative current but a polarity convention.*

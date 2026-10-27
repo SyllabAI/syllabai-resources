@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:39:12Z",
+ "generated_utc": "2026-10-26T13:58:12Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/",
@@ -46,6 +46,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_QGpk2Z5t6Ksfg6tj",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/5-chemical-energetics/5-1-exothermic-and-endothermic-reactions/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_99VmQxp6BMx478nZ",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -58,10 +70,24 @@
    "question_count": 23,
    "questions_embedded": 17,
    "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/5-chemical-energetics/5-1-exothermic-and-endothermic-reactions/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_TFH3C9MJhGjsy6Qw",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 18,
+   "questions_embedded": 18,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/5-chemical-energetics/5-1-exothermic-and-endothermic-reactions/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 17,
+  "questions_embedded": 40,
   "questions_missing": [
    "qstn_mbJHnsC2FwXd3btm",
    "qstn_ZjnY3ryMV84bsj9x",
@@ -72,21 +98,608 @@
   ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/03/1129-paper-2-q15-image-1.png": "001-energy-vs-progress-diagram-reactants-at-higher-l.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q5-5-1-easy-cie-igcse-chemistry.png": "002-q5-5-1-easy-cie-igcse-chemistry.png",
-   "https://cdn.savemyexams.com/uploads/2022/04/~Bui1Oy6_1.png": "003-bui1oy6-1.png",
-   "https://cdn.savemyexams.com/uploads/2022/03/3-5-mcq-a1.PNG": "004-3-5-mcq-a1.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q4-5-1-easy-cie-igcse-chemistry.png": "005-q4-5-1-easy-cie-igcse-chemistry.png",
-   "https://cdn.savemyexams.com/uploads/2022/03/xzX_Xaic_5-1-mcq-q6.PNG": "006-xzx-xaic-5-1-mcq-q6.png",
-   "https://cdn.savemyexams.com/uploads/2022/03/5-1-mcq-a6.PNG": "007-5-1-mcq-a6.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q5-5-1-hard-cie-igcse-chemistry.png": "008-q5-5-1-hard-cie-igcse-chemistry.png",
-   "https://cdn.savemyexams.com/uploads/2022/04/u~9ImaV8_2.png": "009-u-9imav8-2.png"
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q4a.png": "001-5-1-q4a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q4a-answer.png": "002-5-1-q4a-answer.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q4b.png": "003-5-1-q4b.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q4b-answer.png": "004-5-1-q4b-answer.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q5c.png": "005-5-1-q5c.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q4c-1.png": "006-5-1-q4c-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q4d.png": "007-5-1-q4d.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/5-1-q2a.png": "008-5-1-q2a.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/5-1-q2a-answer.png": "009-5-1-q2a-answer.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/S9nCDrJt_5-1-q2b.png": "010-s9ncdrjt-5-1-q2b.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/5-1-q2b-answer.png": "011-5-1-q2b-answer.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/5-1-q2c-answer.png": "012-5-1-q2c-answer.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/heating-limestone.png": "013-heating-limestone.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/heating-limestone-labelled.png": "014-heating-limestone-labelled.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/screen-shot-2022-09-28-at-11-56-31.png": "015-screen-shot-2022-09-28-at-11-56-31.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/screen-shot-2022-09-28-at-11-56-47.png": "016-screen-shot-2022-09-28-at-11-56-47.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/screen-shot-2022-09-28-at-11-56-52.png": "017-screen-shot-2022-09-28-at-11-56-52.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/screen-shot-2022-09-28-at-11-56-58.png": "018-screen-shot-2022-09-28-at-11-56-58.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/screen-shot-2022-09-28-at-11-57-05.png": "019-screen-shot-2022-09-28-at-11-57-05.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/644177ef-510a-4add-b753-b7cf3977f3ed.jpeg": "020-644177ef-510a-4add-b753-b7cf3977f3ed.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/ZWnEhnaQ_5-1-q6c.png": "021-zwnehnaq-5-1-q6c.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5-1-q6c-answer.png": "022-5-1-q6c-answer.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/1129-paper-2-q15-image-1.png": "023-energy-vs-progress-diagram-reactants-at-higher-l.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q5-5-1-easy-cie-igcse-chemistry.png": "024-q5-5-1-easy-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/~Bui1Oy6_1.png": "025-bui1oy6-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/3-5-mcq-a1.PNG": "026-3-5-mcq-a1.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q4-5-1-easy-cie-igcse-chemistry.png": "027-q4-5-1-easy-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/xzX_Xaic_5-1-mcq-q6.PNG": "028-xzx-xaic-5-1-mcq-q6.png",
+   "https://cdn.savemyexams.com/uploads/2022/03/5-1-mcq-a6.PNG": "029-5-1-mcq-a6.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q5-5-1-hard-cie-igcse-chemistry.png": "030-q5-5-1-hard-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/u~9ImaV8_2.png": "031-u-9imav8-2.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/barium-chloride-dotcross.png": "032-barium-chloride-dotcross.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/lattice-answer-ocr-a2-sq-e-2-4-q2c.png": "033-lattice-answer-ocr-a2-sq-e-2-4-q2c.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/cf3ac98a-83c8-4a9f-90c9-1d50d1659095.jpeg": "034-cf3ac98a-83c8-4a9f-90c9-1d50d1659095.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/09/mgso4-cuso4-electrochemical-cell.png": "035-mgso4-cuso4-electrochemical-cell.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/7-2-m10b.png": "036-7-2-m10b.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/5-1-5a-h-hydrazine-reaction-figure-5-1.png": "037-5-1-5a-h-hydrazine-reaction-figure-5-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/hydrazine-dot-and-cross.png": "038-hydrazine-dot-and-cross.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/5-1-5ch-energy-diagram-q5c-a.png": "039-5-1-5ch-energy-diagram-q5c-a.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/36d8906d-46ce-48c6-b28c-f2a0649880c4.jpeg": "040-energy-diagram-ms.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/09/7-2-fuel-cell-m8a-.png": "041-7-2-fuel-cell-m8a.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q6bii-0620-s20-qp-42.png": "042-q6bii-0620-s20-qp-42.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/1a2dd778-e385-46be-ae31-f7a763ace983.jpeg": "043-1a2dd778-e385-46be-ae31-f7a763ace983.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/4408c8cf-15a4-44cc-8a9b-a20ae8be3d12.jpeg": "044-4408c8cf-15a4-44cc-8a9b-a20ae8be3d12.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/b268f403-7ffc-4b26-ba3e-fe9002ce6c8e.jpeg": "045-b268f403-7ffc-4b26-ba3e-fe9002ce6c8e.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/02/076e1308-5483-4760-b837-bfa8ccbac2db.jpeg": "046-076e1308-5483-4760-b837-bfa8ccbac2db.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/5-1-4b-h-energy-level-diagram.png": "047-5-1-4b-h-energy-level-diagram.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/1affb684-39c3-45f8-8eca-2bb88e3d3b1c.jpeg": "048-1affb684-39c3-45f8-8eca-2bb88e3d3b1c.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/09/49ce79dc-eb94-498d-9cb9-ab5d3d4b0cd5.jpeg": "049-49ce79dc-eb94-498d-9cb9-ab5d3d4b0cd5.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/08/7-1-chemical-energetics-m1f-energy-profile.png": "050-7-1-chemical-energetics-m1f-energy-profile.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/7-1-chemical-energetics-m1f-bonds.png": "051-7-1-chemical-energetics-m1f-bonds.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/sf4-energy-profile.png": "052-sf4-energy-profile.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q5b-0620_s19_qp_43.png": "053-q5b-0620-s19-qp-43.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/217e689a-8c86-4ba6-a445-a6405aadcafa.jpeg": "054-217e689a-8c86-4ba6-a445-a6405aadcafa.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/07/q4dii-0620_s19_qp_32.png": "055-q4dii-0620-s19-qp-32.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/d8ebce75-adc1-49d9-949c-afc91a1746ff.jpeg": "056-energy-profile-for-exothermic-reaction.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/07/q4dii-0620_s19_qp_31.png": "057-q4dii-0620-s19-qp-31.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/7-1-displayed-chlorination-of-methane-m5c-.png": "058-7-1-displayed-chlorination-of-methane-m5c.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/1-chloropropane.png": "059-1-chloropropane.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/2-chloropropane-displayed.png": "060-2-chloropropane-displayed.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/7-1-displayed-reaction-of-chlorpropane-m2b-.png": "061-7-1-displayed-reaction-of-chlorpropane-m2b.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_xSpCNbX5By9gkbYX",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 18,
+   "parts": [
+    {
+     "id": "qstnprt_JzGmNMtxhZxgntBx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "record",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A student investigated the reaction of aqueous sodium hydroxide with two different acids, acid **C** and acid **D**. Two experiments were carried out.\n\n*Experiment 1*\n\nBy using a measuring cylinder, 20 cm<sup>3</sup> of aqueous sodium hydroxide was poured into a conical flask and the initial temperature of the solution was measured.\n\nA burette was filled with acid **C** up to the 0.0 cm<sup>3</sup> mark.\n\n5 cm<sup>3</sup> of acid **C** was added to the sodium hydroxide in the flask. The temperature of the mixture was measured.\n\nFurther 5 cm<sup>3</sup> portions of acid **C** were added to the mixture in the flask, stirring with the thermometer until a total volume of 30 cm<sup>3</sup> of acid **C** had been added. The temperatures after each 5 cm<sup>3</sup> portion had been added were measured.\n\nUse the thermometer diagrams to record the temperatures in the table of results.\n\n**Table of results**\n\n![5-1-q4a](assets/001-5-1-q4a.png)",
+     "solution_md": "a) The correct temperatures are:\n\n![5-1-q4a-answer](assets/002-5-1-q4a-answer.png)\n\n- Temperature boxes completed correctly; **[2 marks]** \n*–1 for each incorrect reading*\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_qNPKTqvb99vhx26X",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "record",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the reaction of aqueous sodium hydroxide with two different acids, acid C and acid D. Two experiments were carried out. Experiment 1: By using a measuring cylinder, 20 cm^3 of aqueous sodium hydroxide was poured into a conical flask and the initial temperature of the solution was measured. A burette was filled with acid C up to the 0.0 cm^3 mark. 5 cm^3 of acid C was added to the sodium hydroxide in the flask. The temperature of the mixture was measured. Further 5 cm^3 portions of acid C were added to the mixture in the flask, stirring with the thermometer until a total volume of 30 cm^3 of acid C had been added. The temperatures after each 5 cm^3 portion had been added were measured.\n\n*Experiment 2 *The burette was emptied and rinsed with water. Experiment 1 was repeated using acid **D**.\n\nUse the thermometer diagrams to record the temperatures in the table of results.\n\n**Table of results**\n\n![5-1-q4b](assets/003-5-1-q4b.png)",
+     "solution_md": "b) The correct readings are:\n\n![5-1-q4b-answer](assets/004-5-1-q4b-answer.png)\n\n- Temperature boxes completed correctly; **[2 marks]** \n*–1 for each incorrect reading*\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_JVfRqMxd9BctmbpN",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "plot",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the reaction of aqueous sodium hydroxide with two different acids, acid C and acid D. Two experiments were carried out.\n\nExperiment 1: By using a measuring cylinder, 20 cm^3 of aqueous sodium hydroxide was poured into a conical flask and the initial temperature of the solution was measured. A burette was filled with acid C up to the 0.0 cm^3 mark. 5 cm^3 of acid C was added to the sodium hydroxide in the flask. The temperature of the mixture was measured. Further 5 cm^3 portions of acid C were added to the mixture in the flask, stirring with the thermometer until a total volume of 30 cm^3 of acid C had been added. The temperatures after each 5 cm^3 portion had been added were measured.\n\nExperiment 2: The burette was emptied and rinsed with water. Experiment 1 was repeated using acid D. Temperatures were recorded in the table of results.\n\nPlot the results for Experiments 1 and 2 on the grid and draw two smooth line graphs. Clearly label your graphs.\n\n![5-1-q5c](assets/005-5-1-q5c.png)",
+     "solution_md": "c) The plotted graph:\n\n![5-1-q4c-1](assets/006-5-1-q4c-1.png)\n\n- All points correctly plotted; **[3 marks]** \n*–1 for any incorrect points*\n- Smooth line graphs; **[2 marks]** \n*Allow 1 mark for each correct line* \n*Allow two intersecting straight lines*\n- Labels; **[1 mark]**\n\n**[Total: 6 marks]**\n\n- *The most common mistake when drawing graphs is to use the scale incorrectly*\n- *Make sure that you find what the intervals on both axes are*\n\n  - *In this case, on the x-axis, each square represents 0.5 cm*<sup>*3*</sup>\n  - *On the y-axis, each square represents 0.5 °C*\n- *When drawing a line of best fit:*\n\n  - *Ignore any anomalous points, if any*\n  - *Try to get as many points on the line as possible, and, for those that don't fit on the line, an equal number of points above and below the line*\n  - *Use a ruler for a straight line*\n  - *For curves, try to make the line as smooth as possible*"
+    },
+    {
+     "id": "qstnprt_zbKHjhQGvcVJGHq3",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the reaction of aqueous sodium hydroxide with two different acids, acid C and acid D. Two experiments were carried out. Experiment 1: By using a measuring cylinder, 20 cm^3 of aqueous sodium hydroxide was poured into a conical flask and the initial temperature of the solution was measured. A burette was filled with acid C up to the 0.0 cm^3 mark. 5 cm^3 of acid C was added to the sodium hydroxide in the flask. The temperature of the mixture was measured. Further 5 cm^3 portions of acid C were added to the mixture in the flask, stirring with the thermometer until a total volume of 30 cm^3 of acid C had been added. The temperatures after each 5 cm^3 portion had been added were measured.\nPlot the results for Experiments 1 and 2 on the grid and draw two smooth line graphs. Clearly label your graphs.\n\nFrom your graph, deduce the temperature of the mixture when 3 cm<sup>3</sup> of acid **C** reacted with sodium hydroxide in Experiment 1.\n\nShow clearly **on the graph** how you worked out your answer.",
+     "solution_md": "d) The temperature of the mixture when 3 cm<sup>3</sup> of acid **C** reacted with sodium hydroxide in Experiment 1 is:\n\n- 30 ±0.5 °C; [1 mark]\n- Shown clearly;\n\n![5-1-q4d](assets/007-5-1-q4d.png)\n\n**[Total: 2 marks]**\n\n- *You should use the graph to draw a line from 3 cm*<sup>*3*</sup>* of acid on the x-axis to where it intersects your line of best fit for Experiment 1*\n- *Then, draw a line from this intersection to meet the y-axis and read off the temperature this corresponds to*\n- *Remember to use a ruler *"
+    },
+    {
+     "id": "qstnprt_zkkRS3Pc7MpKTQdx",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the reaction of aqueous sodium hydroxide with two different acids, acid **C** and acid **D**. Two experiments were carried out.\n\n*Experiment 1*\nBy using a measuring cylinder, 20 cm^3^ of aqueous sodium hydroxide was poured into a conical flask and the initial temperature of the solution was measured. A burette was filled with acid **C** up to the 0.0 cm^3^ mark. 5 cm^3^ of acid **C** was added to the sodium hydroxide in the flask. The temperature of the mixture was measured. Further 5 cm^3^ portions of acid **C** were added to the mixture in the flask, stirring with the thermometer until a total volume of 30 cm^3^ of acid **C** had been added. The temperatures after each 5 cm^3^ portion had been added were measured.\n\n*Experiment 2* The burette was emptied and rinsed with water. Experiment 1 was repeated using acid **D**.\n\ni) Which experiment produced the larger temperature change?\n\n[1]\n\nii) Suggest why the temperature change is greater in this experiment.\n\n[2]",
+     "solution_md": "e)\n\ni) The experiment that produced the larger temperature change was:\n\n- Experiment 1;** [1 mark]**\n\nii) A possible reason why the temperature change is greater in this experiment is:\n\nAny **two** from:\n\n- Acid **C** is more concentrated; **[1 mark]**\n- Acid **C** is stronger; **[1 mark]**\n- There are more frequent collisions; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The reaction is exothermic so gives out energy*\n- *If acid **C** is more concentrated, more energy will be released*"
+    },
+    {
+     "id": "qstnprt_stsjYxtb4nRSFh8s",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "why",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FbZRhXNkBQ4dz8Cx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the reaction of aqueous sodium hydroxide with two different acids, acid C and acid D. Two experiments were carried out. Experiment 1: A burette was filled with acid C up to the 0.0 cm^3 mark. 5 cm^3 of acid C was added to the sodium hydroxide in the flask... until a total volume of 30 cm^3 of acid C had been added.\nExperiment 2: The burette was emptied and rinsed with water. Experiment 1 was repeated using acid D.\n\nWhy was the burette rinsed with water in Experiment 2?",
+     "solution_md": "f) The burette was rinsed with water in Experiment 2 to:\n\n- Clean it / remove acid **C** owtte;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *If it is not cleaned, then subsequent readings will not be accurate*"
+    },
+    {
+     "id": "qstnprt_Xt5bH42bS8d8VRDT",
+     "order": 6,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2010",
+      "number": "61",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the reaction of aqueous sodium hydroxide with two different acids, acid C and acid D. Two experiments were carried out. Experiment 1: By using a measuring cylinder, 20 cm^3 of aqueous sodium hydroxide was poured into a conical flask and the initial temperature of the solution was measured. A burette was filled with acid C up to the 0.0 cm^3 mark. 5 cm^3 of acid C was added to the sodium hydroxide in the flask. The temperature of the mixture was measured. Further 5 cm^3 portions of acid C were added to the mixture in the flask, stirring with the thermometer until a total volume of 30 cm^3 of acid C had been added. The temperatures after each 5 cm^3 portion had been added were measured.\nExperiment 2: The burette was emptied and rinsed with water. Experiment 1 was repeated using acid D.\n\nPredict the temperature of the reaction mixture in Experiment 2 after 1 hour. Explain your answer.",
+     "solution_md": "g) The temperature of the reaction mixture in Experiment 2 after 1 hour would be:\n\n- Room temperature \n**OR **\n23 °C; **[1 mark]** \n*Allow their initial temperature from table in (a) or (b)*\n- Because the reaction has finished owtte; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Once the reaction has completed, the reaction mixture will cool down until it reaches the same temperature as its surroundings*\n- *You can assume the acid was at room temperature at the start of the reaction, i.e. 23 °C*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RkzQ5wXFWYKnQhZc",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 21,
+   "parts": [
+    {
+     "id": "qstnprt_mfdQkxKy494KJ8y6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "record",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SrMHCN99VxdD63Yh"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated what happened when sodium thiosulphate dissolved in water.\n\n*Experiment 1 *\n\nBy using a measuring cylinder, 20 cm<sup>3 </sup>of distilled water was poured into a polystyrene cup. Use the thermometer diagram to record the temperature of the water in the table.\n\n1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer. Use the thermometer diagram to record the temperature of the solution.\n\n*Experiment 2 *\n\n*Experiment 1* was repeated using 2 g of powdered sodium thiosulphate. Record the temperature in the table.\n\n*Experiments 3, 4 and 5 *\n\n*Experiment* *1* was repeated using 3 g, 4 g and 5 g of powdered sodium thiosulphate respectively. Record the temperatures in the table.\n\n![5-1-q2a](assets/008-5-1-q2a.png)",
+     "solution_md": "a) The correct readings from the thermometer are:\n\n![5-1-q2a-answer](assets/009-5-1-q2a-answer.png)\n\n- All 11 temperatures recorded correctly; **[5 marks]** \n*-1 for each incorrect reading*\n\n**[Total: 5 marks]**\n\n- *Each interval on the thermometer represents 1 °C so when the reading is level with an interval, the temperature will be a whole number*\n- *When the reading is between 2 intervals, it will end in .5*"
+    },
+    {
+     "id": "qstnprt_5mgBkH2TjNhSBWHW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "plot",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated what happened when sodium thiosulphate dissolved in water. Experiment 1: By using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup. Record the temperature of the water. 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer. Record the temperature of the solution. Experiment 2: Experiment 1 was repeated using 2 g of powdered sodium thiosulphate. Experiments 3, 4 and 5: Experiment 1 was repeated using 3 g, 4 g and 5 g of powdered sodium thiosulphate respectively.\n\nPlot the results of the experiments on the grid below. Draw a straight line graph.\n\n![S9nCDrJt_5-1-q2b](assets/010-s9ncdrjt-5-1-q2b.png)",
+     "solution_md": "b) The plotted graph and straight line line of best fit will be as follows:\n\n![5-1-q2b-answer](assets/011-5-1-q2b-answer.png)\n\n- Points plotted correctly; **[3 marks]** -1 for each incorrect point\n- Straight line of best fit; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *The most common mistake when drawing graphs is to use the scale incorrectly*\n- *Make sure that you find what the intervals on both axes are*\n\n  - *In this case, on the x-axis, each square represents 0.1 g*\n  - *On the y-axis, each square represents 0.5 °C*\n- *When drawing a line of best fit, try to get as many points on the line as possible, and, for those that don't fit on the line, an equal number of points above and below the line*"
+    },
+    {
+     "id": "qstnprt_FxrjhWYG6YhNHXhq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "indicate",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated what happened when sodium thiosulphate dissolved in water. By using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup... 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer... Experiment 1 was repeated using 2 g, 3 g, 4 g and 5 g of powdered sodium thiosulphate respectively.\nPlot the results of the experiments on the grid below. Draw a straight line graph.\n\ni) **Use your graph** to estimate the temperature of the reaction mixture if 3.5 g of powdered sodium thiosulphate were added to 20 cm<sup>3</sup> of water.\n\nIndicate **clearly **on the graph how you obtained your answer.\n\n[2]\n\nii) From your graph work out the temperature of the reaction mixture if 6 g of powdered sodium thiosulphate were added to 20 cm<sup>3</sup> of water.\n\nIndicate **clearly **how you used your graph.\n\n[2]",
+     "solution_md": "c)\n\ni) An estimate of  the temperature of the reaction mixture if 3.5 g of powdered sodium thiosulphate were added to 20 cm<sup>3</sup> of water is:\n\n- 12.5 °C ± 0.5; **[1 mark]**\n- Indication of workings on graph; **[1 mark]**\n\nii) The temperature of the reaction mixture if 6 g of powdered sodium thiosulphate were added to 20 cm<sup>3</sup> of water is:\n\n- 4 °C ± 0.5; **[1 mark]**\n- Extrapolation of line to 6 g; **[1 mark]**\n\n![5-1-q2c-answer](assets/012-5-1-q2c-answer.png)\n\n**[Total: 4 marks]**\n\n- *For part i), use the graph to draw a line from 3.5 g on the x-axis to where it intersects your line of best fit*\n- *Then, draw a line from this intersection to meet the y-axis and read off the final temperature this corresponds to*\n- *Remember to use a ruler *\n- *For part ii), repeat but starting from 6 g*\n- *If your line of best fit from part b) does not extend to 6 g you will need to extrapolate it so that it reaches 6 g*"
+    },
+    {
+     "id": "qstnprt_wCjsvY6PXWNJ8H8j",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated what happened when sodium thiosulphate dissolved in water. Experiment 1: By using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup. The temperature of the water was recorded. 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer. The temperature of the solution was recorded. Experiments were repeated using 2 g, 3 g, 4 g and 5 g of powdered sodium thiosulphate.\n\nWhat type of chemical reaction occurs when sodium thiosulphate dissolves in water?",
+     "solution_md": "d) The type of chemical reaction that occurs when sodium thiosulphate dissolves in water is:\n\n- Endothermic;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *As more mass is added, the final temperature decreases*\n- *In endothermic reactions, thermal energy is taken in from the surroundings so the temperature of the surroundings decreases*"
+    },
+    {
+     "id": "qstnprt_hD8DnWR99xsFkVQS",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2006",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated what happened when sodium thiosulphate dissolved in water. Experiment 1: By using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup. Record the temperature of the water. 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer. Record the temperature of the solution. Experiment 2: Experiment 1 was repeated using 2 g of powdered sodium thiosulphate. Experiments 3, 4 and 5: Experiment 1 was repeated using 3 g, 4 g and 5 g of powdered sodium thiosulphate respectively.\n\nExplain how the temperature changes would differ in the experiments if 40 cm<sup>3</sup> of water were used.",
+     "solution_md": "e) The temperature changes would differ in the experiments if 40 cm<sup>3</sup> of water were used:\n\n- The temperature changes would be smaller;** [1 mark]**\n- (Because there is) more water; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The energy taken in to dissolve a given mass of solid, whether it is dissolved in 20 cm*<sup>*3*</sup>* or 40 cm*<sup>*3*</sup>*, remains the same*\n- *As the energy is taken from the water, the temperature decrease will be greater if 20 cm*<sup>*3*</sup>* is used as the energy is being taken from a smaller volume than if 40 cm*<sup>*3*</sup>* of water is used*"
+    },
+    {
+     "id": "qstnprt_gcg26Zc7cjghBG4r",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t2Fg75X3JTxhX6xB"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated what happened when sodium thiosulphate dissolved in water. Experiment 1: By using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup. 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer.\n\nExplain why the sodium thiosulphate was powdered before being used.",
+     "solution_md": "f) The sodium thiosulphate was powdered before being used because:\n\n- It has a larger surface area; **[1 mark]**\n- So reacts / dissolves faster / easier; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The greater the surface area, the quicker the rate of reaction*"
+    },
+    {
+     "id": "qstnprt_MqWRKRPQZSSSNgXS",
+     "order": 6,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nExperiment 1: By using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup. Record the temperature of the water. 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer. Record the temperature of the solution.\nExperiments 3, 4 and 5: Experiment 1 was repeated using 3 g, 4 g and 5 g of powdered sodium thiosulphate respectively. Record the temperatures.\n\nPredict what the temperature of the reaction mixture in Experiment 5 would be after 1 hour. Explain your answer.",
+     "solution_md": "g) The temperature of the reaction mixture in Experiment 5 after 1 hour would be:\n\n- 22 to 24 °C / room temerature; **[1 mark]**\n- (Because) the reaction has finished; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *When the reaction has finished, no more energy is taken in from the water*\n- *The resulting solution will then begin to gain energy from the surroundings until it reaches the same temperature*\n- *From the initial readings of the temperature recorded in part a), the starting temperature was found to be between 22.5 and 24 °C so the solution will increase in temperature until it returns to a temperature within this range*"
+    },
+    {
+     "id": "qstnprt_ttN3rRKd4VpfFNdG",
+     "order": 7,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2004",
+      "number": "O6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SrMHCN99VxdD63Yh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nBy using a measuring cylinder, 20 cm^3 of distilled water was poured into a polystyrene cup. Use the thermometer diagram to record the temperature of the water in the table. 1 g of powdered sodium thiosulphate was added to the cup and the mixture stirred with a thermometer.\n\nSuggest **one **change you could make to the apparatus used in the experiments to obtain more **accurate **results.",
+     "solution_md": "h) One** **change that could be made to the apparatus used in the experiments to obtain more accurate results is:\n\n- Use a burette / pipette instead of measuring cylinder \n**OR** \nUse insulation / a lid; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Measuring cylinders are appropriate for measuring approximate volumes and readings from them will have a larger uncertainty than using a pipette or burette*\n- *Using a lid or insulating the reaction vessel will reduce heat losses, so that the temperature change will be closer to the true value, making it more accurate*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kvVjjpzMY5xgMpXt",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_FPPrYFxwTmkvbrBz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SrMHCN99VxdD63Yh"
+     ],
+     "part_tier": null,
+     "problem_md": "A small piece of limestone was heated strongly and left to cool. A few drops of cold water were added. The solid expanded and gave off steam.\n\n![heating-limestone](assets/013-heating-limestone.png)\n\nComplete the empty boxes to identify the pieces of apparatus labelled.",
+     "solution_md": "a) The apparatus are:\n\n![heating-limestone-labelled](assets/014-heating-limestone-labelled.png)\n\n**[Total: 3 marks]**\n\n- *These are all pieces of equipment you should be familiar with *"
+    },
+    {
+     "id": "qstnprt_SBxm58bkhmByGDZy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2005",
+      "number": "6",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA small piece of limestone was heated strongly and left to cool. A few drops of cold water were added. The solid expanded and gave off steam.\n\nWhat type of chemical reaction takes place when water is added?",
+     "solution_md": "b) This type of reaction is:\n\n- Exothermic / hydration; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The question tells you that when cold water is added to the solid it gives off steam indicating heat energy has been released*\n- *Exothermic reactions release energy *\n- *You could also have said hydration as this refers to any reaction where water is added*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GNXykkrycP8V5D3f",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_HynT8wYz5Rky7cFC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2008",
+      "number": "6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "A student investigated the addition of four different solids, A, B, C and D, to water. Five experiments were carried out.\n\n*Experiment 1*\n\nBy using a measuring cylinder, 30 cm<sup>3 </sup>of distilled water was poured into a polystyrene cup and the initial temperature of the water was measured. 4 g of solid **A** was added to the cup and the mixture stirred with a thermometer. The temperature of the solution was measured after 2 minutes.\n\n![screen-shot-2022-09-28-at-11-56-31](assets/015-screen-shot-2022-09-28-at-11-56-31.png)\n\n*Experiment 2 *\n\nExperiment 1 was repeated using 4 g of solid **B**.\n\n![screen-shot-2022-09-28-at-11-56-47](assets/016-screen-shot-2022-09-28-at-11-56-47.png)\n\n*Experiment 3*\n\nExperiment 1 was repeated using 4 g of solid **C**.\n\n![screen-shot-2022-09-28-at-11-56-52](assets/017-screen-shot-2022-09-28-at-11-56-52.png)\n\n*Experiment 4*\n\nExperiment 1 was repeated using 4 g of solid **D**.\n\n![screen-shot-2022-09-28-at-11-56-58](assets/018-screen-shot-2022-09-28-at-11-56-58.png)\n\n*Experiment 5*\n\nA little of the solution from Experiment 4 was added to a little of the solution from Experiment 2 in a test-tube. The observations were recorded.\n\n**Observations:** *A fast reaction. Vigorous effervescence and bubbles produced.*\n\nUse the thermometer diagrams for Experiments 1-4 to record the initial and final temperatures in Table 4.1. Calculate and record the temperature difference in Table 4.1.\n\n**Table 4.1 **\n\n| **experiment** | **temperature / °C** | **final temperature / °C** | **difference / °C** |\n|---|---|---|---|\n| 1 |   |   |   |\n| 2 |   |   |   |\n| 3 |   |   |   |\n| 4 |   |   |   |",
+     "solution_md": "a) The completed table is:\n\n| **experiment** | **temperature / °C** | **final temperature / °C** | **difference / °C** |\n|---|---|---|---|\n| 1 | 24 | 27 | +3 |\n| 2 | 26 | 22 | -4 |\n| 3 | 21 | 11 | -10 |\n| 4 | 29 | 23 | -6 |\n\n- Initial boxes correctly completed; **[1 mark] **\n- Final boxes correctly completed; **[1 mark] **\n- Differences correctly completed;** [1 mark] **\n- Signs correct; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *You have been asked for the temperature difference so make sure to include the + and - signs*"
+    },
+    {
+     "id": "qstnprt_NDb3GCfZswXpTS2f",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2008",
+      "number": "6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe completed table is:\n\n| experiment | temperature / °C | final temperature / °C | difference / °C |\n| 1 | 24 | 27 | +3 |\n| 2 | 26 | 22 | -4 |\n| 3 | 21 | 11 | -10 |\n| 4 | 29 | 23 | -6 |\n\nDraw a labelled bar chart of the results to Experiments 1, 2, 3 and 4 on the grid below.\n\n![screen-shot-2022-09-28-at-11-57-05](assets/019-screen-shot-2022-09-28-at-11-57-05.png)",
+     "solution_md": "b) The correct bar chart is:\n\n![644177ef-510a-4add-b753-b7cf3977f3ed](assets/020-644177ef-510a-4add-b753-b7cf3977f3ed.jpeg)\n\n- All 4 bars correctly drawn; **[3 marks]** \n*–1 for each incorrect*\n- Labelled; **[1 mark] **\n\n**[Total: 4 marks] **\n\n> *Make sure you label the bars on the x-axis, it is an easy step to miss*"
+    },
+    {
+     "id": "qstnprt_jcp7g8s7hgWGpsMb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2008",
+      "number": "6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the addition of four different solids, A, B, C and D, to water. Five experiments were carried out.\n\nExperiment 1: 30 cm^3 of distilled water was poured into a polystyrene cup and the initial temperature measured. 4 g of solid A was added and the mixture stirred. The temperature was measured after 2 minutes.\nExperiment 2: repeated using 4 g of solid B.\nExperiment 3: repeated using 4 g of solid C.\nExperiment 4: repeated using 4 g of solid D.\nExperiment 5: solution from Experiment 4 added to solution from Experiment 2. Observations: A fast reaction. Vigorous effervescence and bubbles produced.\n\nCompleted Table 4.1:\n| experiment | temperature / °C | final temperature / °C | difference / °C |\n| 1 | 24 | 27 | +3 |\n| 2 | 26 | 22 | -4 |\n| 3 | 21 | 11 | -10 |\n| 4 | 29 | 23 | -6 |\n\nUse the results and observations from Experiments 1-5 to answer the following questions.\n\ni) Which solid dissolves in water to produce an exothermic reaction?\n\n[1]\n\nii) Give a reason why you chose this solid.\n\n[1]",
+     "solution_md": "c)\n\ni) The solid that dissolves to give an exothermic reaction is:\n\n- Solid **A** / Experiment 1; **[1 mark] **\n\nii) The reason for the choice is:\n\n- Temperature increased / heat given out; **[1 mark] **\n\n**[Total: 2 marks]**** **\n\n- *Exothermic reactions are shown by an increase in temperature as they release heat to the surroundings*\n- *The only experiment in which the temperature increases is experiment 1 which contains salt **A*"
+    },
+    {
+     "id": "qstnprt_Cq5hrCwdNCkgm2x8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": "2008",
+      "number": "6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n| **experiment** | **temperature / °C** | **final temperature / °C** | **difference / °C** |\n| :---: | :---: | :---: | :---: |\n| 1 | 24 | 27 | +3 |\n| 2 | 26 | 22 | -4 |\n| 3 | 21 | 11 | -10 |\n| 4 | 29 | 23 | -6 |\n\nWhich Experiment produced the largest temperature change?",
+     "solution_md": "d) The experiment with the largest temperature change is:\n\n- Experiment 3; **[1 mark] **\n\n**[Total: 1 mark]**** **\n\n- *Experiment 3 has a temperature change of -10, the question asks for the temperature change not the largest temperature increase*"
+    },
+    {
+     "id": "qstnprt_sFFprfnHgCfMRxfk",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2008",
+      "number": "6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the addition of four different solids, A, B, C and D, to water.\n\nExperiment 1: By using a measuring cylinder, 30 cm^3 of distilled water was poured into a polystyrene cup and the initial temperature of the water was measured. 4 g of solid A was added to the cup and the mixture stirred with a thermometer. The temperature of the solution was measured after 2 minutes.\nExperiment 2: Experiment 1 was repeated using 4 g of solid B.\nExperiment 4: Experiment 1 was repeated using 4 g of solid D.\n\nTable 4.1 results:\nExperiment 1: initial 24, final 27, difference +3\nExperiment 2: initial 26, final 22, difference -4\nExperiment 3: initial 21, final 11, difference -10\nExperiment 4: initial 29, final 23, difference -6\n\nPredict the temperature change that would happen if\n\ni) 8 g of solid B were used in Experiment 2\n\n[1]\n\nii) 60 cm<sup>3</sup> of water was used in Experiment 4\n\n[1]\n\niii) Explain your answer to (e)(ii)\n\n[2]",
+     "solution_md": "e)\n\ni) If 8 g of solid B were used in Experiment 2,\n\n- Double the value or (–)8°C e.c.f. ; **[1 mark] **\n\nii) If 60 cm<sup>3 </sup>of water was used in Experiment 4.\n\n- Half the value or (–)3°C e.c.f. **[1 mark] **\n\niii) The explanation is:\n\n- More / larger volume of water; **[1 mark] **\n- Twice as much for solid to dissolve in; **[1 mark] **\n\n**[Total: 4 marks]**** **\n\n- *If twice as much solid is used in the same volume the temperature change will also increase *\n- *60 cm*<sup>*3*</sup>* is double the amount of water used in the experiments therefore the concentration has halved*"
+    },
+    {
+     "id": "qstnprt_ZSSjqRrpkW37XYtP",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2008",
+      "number": "6",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qfwhmmkgrtk422RQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nExperiment 5: A little of the solution from Experiment 4 was added to a little of the solution from Experiment 2 in a test-tube. The observations were recorded. Observations: A fast reaction. Vigorous effervescence and bubbles produced.\n\nSuggest an explanation for the observations in Experiment 5.",
+     "solution_md": "f) The explanation for the observations in Experiment 5 are:\n\nAny **two** of the following:\n\n- Acid present; **[1 mark] **\n- Carbonate present; **[1 mark]**\n- Carbon dioxide; **[1 mark]**\n\n**[Total: 2 marks]**** **\n\n- *Experiment 5 is the mixing of two solutions*\n- *Two solutions that will cause fizzing are potentially an acid and a carbonate *\n- *Acid + carbonate → salt + water + carbon dioxide *\n- *Carbonates can be in solution e.g. sodium carbonate *\n- *The reaction between an acid and a metal will also release hydrogen gas and we would see fizzing, but the metal would be a solid so this is not possible in experiment 5*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fgy64vJP8rSrS5t6",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_9KkNjyKW3gP5jkv4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "why",
+     "source_paper": {
+      "date": "2009",
+      "number": "61",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "An experiment was carried out to measure the temperature changes during the neutralisation of sodium hydroxide solution with dilute hydrochloric acid. Both solutions were allowed to stand in the laboratory for about 30 minutes.\n\n25 cm<sup>3</sup> of sodium hydroxide solution was added to a polystyrene beaker and the temperature was measured. 10 cm<sup>3</sup> of hydrochloric acid was added to the beaker and the highest temperature reached measured.\n\nThe experiment was repeated using different volumes of acid.\n\nWhy were the solutions left to stand for about 30 minutes before the experiments?",
+     "solution_md": "a) The solutions were left to stand for about 30 minutes before the experiments to:\n\n- Reach room temperature / be at the same temperature owtte;** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_mKTZhCSnVy2xGMzb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "why",
+     "source_paper": {
+      "date": "2009",
+      "number": "61",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn experiment was carried out to measure the temperature changes during the neutralisation of sodium hydroxide solution with dilute hydrochloric acid. Both solutions were allowed to stand in the laboratory for about 30 minutes. 25 cm^3^ of sodium hydroxide solution was added to a polystyrene beaker and the temperature was measured. 10 cm^3^ of hydrochloric acid was added to the beaker and the highest temperature reached measured. The experiment was repeated using different volumes of acid.\n\nWhy was a polystyrene beaker used instead of a glass beaker?",
+     "solution_md": "b) A polystyrene beaker is used instead of a glass beaker because:\n\n- (Polystyrene is a better) insulator / to minimise heat loss; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The biggest source of error in experiments monitoring temperature changes is heat loss*\n- *Polystyrene cups are better insulators than glass beakers which will help to reduce the heat loss leading to more accurate results*\n- *A lid is another common method of reducing heat loss*"
+    },
+    {
+     "id": "qstnprt_v7vvvpk69gVrf5cz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2009",
+      "number": "61",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn experiment was carried out to measure the temperature changes during the neutralisation of sodium hydroxide solution with dilute hydrochloric acid. Both solutions were allowed to stand in the laboratory for about 30 minutes.\n\n25 cm^3 of sodium hydroxide solution was added to a polystyrene beaker and the temperature was measured. 10 cm^3 of hydrochloric acid was added to the beaker and the highest temperature reached measured.\n\nThe experiment was repeated using different volumes of acid.\n\nThe results of the experiments are shown plotted on the grid below.\n\n![ZWnEhnaQ_5-1-q6c](assets/021-zwnehnaq-5-1-q6c.png)\n\nWhat type of chemical reaction occurs when sodium hydroxide is neutralised by hydrochloric acid?",
+     "solution_md": "c) The type of chemical reaction that occurs when sodium hydroxide is neutralised by hydrochloric acid is:\n\n- Exothermic; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *From the graph, the temperature of the reaction mixture initially increases*\n- *This shows that the reaction releases energy into its surrounding so is therefore exothermic*"
+    },
+    {
+     "id": "qstnprt_DncXRzWXVDMNjpmb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2009",
+      "number": "61",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn experiment was carried out to measure the temperature changes during the neutralisation of sodium hydroxide solution with dilute hydrochloric acid. 25 cm^3^ of sodium hydroxide solution was added to a polystyrene beaker and the temperature was measured. 10 cm^3^ of hydrochloric acid was added to the beaker and the highest temperature reached measured. The experiment was repeated using different volumes of acid.\nThe results of the experiments are shown plotted on the grid below.\n\ni) Which point appears to be inaccurate?\n\n[1]\n\nii) Draw two straight lines through the points and extend them until they cross.\n\n[2]\n\niii) What volume of hydrochloric acid was needed to neutralise 25 cm<sup>3</sup> of the sodium hydroxide solution?\n\n[2]",
+     "solution_md": "d)\n\ni) The point that appears to be inaccurate is:\n\n- 40 cm<sup>3</sup> volume of acid; **[1 mark]**\n\nii) Drawing the straight lines until they cross:\n\n- Two straight lines, missing error point; **[1 mark]**\n- Extended to intersect; **[1 mark]**\n\niii) The volume of hydrochloric acid that was needed to neutralise 25 cm<sup>3</sup> of the sodium hydroxide solution is:\n\n- 22.5 +/- 0.5 **OR **read from graph; **[1 mark]**\n- cm<sup>3</sup>; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *The graph can be used to find the volume of hydrochloric acid needed to neutralise 25 cm*<sup>*3*</sup>* of the sodium hydroxide as this will occur when the temperature change reaches its maximum *\n- *The 2 straight lines drawn in part (ii) will show the maximum temperature reached by extrapolation of the experimental data*\n- *The volume of hydrochloric acid that this occurred at can be read from the graph:*\n\n![5-1-q6c-answer](assets/022-5-1-q6c-answer.png)"
+    }
+   ]
+  },
   {
    "id": "qstn_qcH3qr4GjphZtZRb",
    "set_slug": "multiple-choice-questions",
@@ -111,7 +724,7 @@
       "spcpt_63Sm3Nx7FY4VbpV7"
      ],
      "part_tier": null,
-     "problem_md": "The reaction pathway diagram for a reaction, with and without a catalyst, is shown.\n\n![Energy vs progress diagram. Reactants at higher level than products. Two peaks: lower and higher. A = x axis to reactants. B = reactants to lower peak. C = x axis to products. D = reactants to higher peak.](assets/001-energy-vs-progress-diagram-reactants-at-higher-l.png)\n\nWhich letter represents the activation energy of the catalysed reaction?",
+     "problem_md": "The reaction pathway diagram for a reaction, with and without a catalyst, is shown.\n\n![Energy vs progress diagram. Reactants at higher level than products. Two peaks: lower and higher. A = x axis to reactants. B = reactants to lower peak. C = x axis to products. D = reactants to higher peak.](assets/023-energy-vs-progress-diagram-reactants-at-higher-l.png)\n\nWhich letter represents the activation energy of the catalysed reaction?",
      "solution_md": "**Final answer:** **The correct answer is B**\n\n- A catalyst provides an alternative reaction pathway with a lower activation energy\n- Arrow B correctly shows the minimum energy required to start the reaction\n- This is shown by an arrow from **the reactants to the lower peak** when a catalyst is present\n\n**A **is incorrect asit represents the initial energy of the reactants\n\n**C **is incorrect as it represents the final energy of the products\n\n**D **is incorrect** **as it represents the activation energy for the **uncatalysed** reaction (from the reactants to the higher peak).",
      "choices": [
       {
@@ -163,7 +776,7 @@
      ],
      "part_tier": null,
      "problem_md": "The table shows the change in temperature of four different reactions W, X, Y and Z.\n\n|   | initial  temperature / ** **°C | final  temperature / ** **°C |\n|---|---|---|\n| **W** | 10 | 20 |\n| **X** | 23 | 25 |\n| **Y** | 15 | 13 |\n| **Z** | 22 | 12 |\n\nWhich row  is correct?",
-     "solution_md": "**Final answer:** **The correct answer is A**\n\nThere is an **increase in temperature **in **exothermic **reactions, while there is a **decrease in temperature **in **endothermic **reactions\n\n- Work out the change in temperature for each reaction `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals space f i n a l space t e m p e r a t u r e space minus space i n i t i a l space t e m p e r a t u r e`\n- Temperature change for W `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 20 space minus space 10 space equals space 10 space degree C`\n- Temperature change for X `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 25 space minus space 23 space equals space 2 space degree C`\n- Temperature change for Y `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 13 space minus space 15 space equals space minus 2 space degree C`\n- Temperature change for Z `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 12 space minus 22 space equals space minus 10 space degree C`\n- W has the **largest positive temperature increase** (**+10 °C**), so it releases the most amount of energy to the surroundings\n- Therefore, **W is the most exothermic reaction**\n\n**B** is incorrect because both W and X increase in temperature, so they are exothermic, not endothermic\n\n**C **is incorrect because Z has a temperature decrease (−10°C), so it is endothermic\n\n**D **is incorrect because both Y and Z decrease in temperature, so they are endothermic, not exothermic",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\nThere is an **increase in temperature **in **exothermic **reactions, while there is a **decrease in temperature **in **endothermic **reactions\n\n- Work out the change in temperature for each reaction $c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = f i n a l t e m p e r a t u r e - i n i t i a l t e m p e r a t u r e$\n- Temperature change for W $c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 20 - 10 = 10^{\\circ} C$\n- Temperature change for X $c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 25 - 23 = 2^{\\circ} C$\n- Temperature change for Y $c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 13 - 15 = - 2^{\\circ} C$\n- Temperature change for Z $c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 12 - 22 = - 10^{\\circ} C$\n- W has the **largest positive temperature increase** (**+10 °C**), so it releases the most amount of energy to the surroundings\n- Therefore, **W is the most exothermic reaction**\n\n**B** is incorrect because both W and X increase in temperature, so they are exothermic, not endothermic\n\n**C **is incorrect because Z has a temperature decrease (−10°C), so it is endothermic\n\n**D **is incorrect because both Y and Z decrease in temperature, so they are endothermic, not exothermic",
      "choices": [
       {
        "label": "A",
@@ -184,6 +797,43 @@
        "label": "D",
        "is_correct": false,
        "text_md": "Y and Z are exothermic reactions."
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals space f i n a l space t e m p e r a t u r e space minus space i n i t i a l space t e m p e r a t u r e",
+       "render": "$c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = f i n a l t e m p e r a t u r e - i n i t i a l t e m p e r a t u r e$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 20 space minus space 10 space equals space 10 space degree C",
+       "render": "$c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 20 - 10 = 10^{\\circ} C$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 25 space minus space 23 space equals space 2 space degree C",
+       "render": "$c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 25 - 23 = 2^{\\circ} C$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 13 space minus space 15 space equals space minus 2 space degree C",
+       "render": "$c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 13 - 15 = - 2^{\\circ} C$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 12 space minus 22 space equals space minus 10 space degree C",
+       "render": "$c h a n g e i n t e m p e r a t u r e ( \\Delta T ) = 12 - 22 = - 10^{\\circ} C$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -213,7 +863,7 @@
       "spcpt_rdv25J6n73Gsk9DG"
      ],
      "part_tier": null,
-     "problem_md": "Calcium and hydrochloric acid react to produce calcium chloride and hydrogen gas. The energy level diagram for the reaction is shown below.\n\n![q5-5-1-easy-cie-igcse-chemistry](assets/002-q5-5-1-easy-cie-igcse-chemistry.png)\n\nWhich statement about this reaction is **not **correct?",
+     "problem_md": "Calcium and hydrochloric acid react to produce calcium chloride and hydrogen gas. The energy level diagram for the reaction is shown below.\n\n![q5-5-1-easy-cie-igcse-chemistry](assets/024-q5-5-1-easy-cie-igcse-chemistry.png)\n\nWhich statement about this reaction is **not **correct?",
      "solution_md": "**Final answer:** **The correct answer is**** B**** because:**\n\n- In **exothermic** reactions the energy of the products is less than that of the reactants as **energy** has been **lost** to the surroundings.\n- On an energy level diagram this is shown by having the line representing the energy level of the products **below** that of the reactants, as is the case in the diagram.\n\n**A**,** C** and **D** are incorrect as these options describe exothermic reactions, matching the energy level diagram in the question.",
      "choices": [
       {
@@ -315,8 +965,8 @@
       "spcpt_63Sm3Nx7FY4VbpV7"
      ],
      "part_tier": null,
-     "problem_md": "The graph below shows a reaction profile for the reaction between methane and oxygen.\n\n![~Bui1Oy6_1](assets/003-bui1oy6-1.png)\n\nWhat does the label X represent?",
-     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Activation energy is the energy hill that must be overcome for a reaction to take place\n- It is the difference between the starting level (reactants) and the top of the 'hill'\n- The location of the other answer options is shown below\n\n![3-5-mcq-a1](assets/004-3-5-mcq-a1.png)",
+     "problem_md": "The graph below shows a reaction profile for the reaction between methane and oxygen.\n\n![~Bui1Oy6_1](assets/025-bui1oy6-1.png)\n\nWhat does the label X represent?",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because:**\n\n- Activation energy is the energy hill that must be overcome for a reaction to take place\n- It is the difference between the starting level (reactants) and the top of the 'hill'\n- The location of the other answer options is shown below\n\n![3-5-mcq-a1](assets/026-3-5-mcq-a1.png)",
      "choices": [
       {
        "label": "A",
@@ -366,7 +1016,7 @@
       "spcpt_rdv25J6n73Gsk9DG"
      ],
      "part_tier": null,
-     "problem_md": "The energy level diagram below shows the relative energies of the reactants and products in a reaction.\n\n![q4-5-1-easy-cie-igcse-chemistry](assets/005-q4-5-1-easy-cie-igcse-chemistry.png)\n\nWhich row correctly describes the type of reaction and corresponding energy change?\n\n|   | **type of reaction** | **energy change** |\n|---|---|---|\n| **A** | endothermic | heat is released |\n| **B** | endothermic | heat is absorbed |\n| **C** | exothermic | heat is released |\n| **D** | exothermic | heat is absorbed |",
+     "problem_md": "The energy level diagram below shows the relative energies of the reactants and products in a reaction.\n\n![q4-5-1-easy-cie-igcse-chemistry](assets/027-q4-5-1-easy-cie-igcse-chemistry.png)\n\nWhich row correctly describes the type of reaction and corresponding energy change?\n\n|   | **type of reaction** | **energy change** |\n|---|---|---|\n| **A** | endothermic | heat is released |\n| **B** | endothermic | heat is absorbed |\n| **C** | exothermic | heat is released |\n| **D** | exothermic | heat is absorbed |",
      "solution_md": "**Final answer:** **The correct answer is**** C**** because:**\n\n- In **exothermic** reactions the energy level of the reactants is **higher** than the products.\n- In an energy profile diagram, this is seen as a **drop** in energy from the reactants to the products.\n- This occurs because some of the reactant´s enthalpy is released into the surroundings, usually in the form of heat.\n\n**A** and** B** are incorrect as the energy level diagram represents an exothermic reaction.\n\n**D **is incorrect as heat energy is released in exothermic processes, not absorbed.",
      "choices": [
       {
@@ -415,8 +1065,8 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "What is the reading on the following thermometer?\n\n![xzX_Xaic_5-1-mcq-q6](assets/006-xzx-xaic-5-1-mcq-q6.png)",
-     "solution_md": "**Final answer:** **The correct answer is**** B**** because:**\n\n- Each small division is 0.2 so the level reads to 0.6, making the reading 28.6\n\n![5-1-mcq-a6](assets/007-5-1-mcq-a6.png)",
+     "problem_md": "What is the reading on the following thermometer?\n\n![xzX_Xaic_5-1-mcq-q6](assets/028-xzx-xaic-5-1-mcq-q6.png)",
+     "solution_md": "**Final answer:** **The correct answer is**** B**** because:**\n\n- Each small division is 0.2 so the level reads to 0.6, making the reading 28.6\n\n![5-1-mcq-a6](assets/029-5-1-mcq-a6.png)",
      "choices": [
       {
        "label": "A",
@@ -619,7 +1269,7 @@
       "spcpt_63Sm3Nx7FY4VbpV7"
      ],
      "part_tier": null,
-     "problem_md": "An energy level diagram is shown below.\n\n![q5-5-1-hard-cie-igcse-chemistry](assets/008-q5-5-1-hard-cie-igcse-chemistry.png)\n\nWhich row is correct for the points labelled 1, 2 and 3?\n\n|   | **1** | **2** | **3** |\n|---|---|---|---|\n| **A** | activation energy | energy change | reactants |\n| **B** | energy change | activation energy | products |\n| **C** | energy change | activation energy | reactants |\n| **D** | activation energy | energy change | products |",
+     "problem_md": "An energy level diagram is shown below.\n\n![q5-5-1-hard-cie-igcse-chemistry](assets/030-q5-5-1-hard-cie-igcse-chemistry.png)\n\nWhich row is correct for the points labelled 1, 2 and 3?\n\n|   | **1** | **2** | **3** |\n|---|---|---|---|\n| **A** | activation energy | energy change | reactants |\n| **B** | energy change | activation energy | products |\n| **C** | energy change | activation energy | reactants |\n| **D** | activation energy | energy change | products |",
      "solution_md": "**Final answer:** **The correct answer is**** D**** because:**\n\n- Point 1 represents the **activation energy **which is the minimum energy that the reactant particles must have** **to be able to react.\n- Point 2 represents the **overall energy change** between the reactants and the products.\n- Point 3 represents the energy of the products. The energy level diagram represents an **endothermic reaction** as the products have **more energy** than the reactants.\n\n**A**,** B** and **C **are incorrect as these options do not correctly label the diagram.",
      "choices": [
       {
@@ -874,7 +1524,7 @@
       "spcpt_63Sm3Nx7FY4VbpV7"
      ],
      "part_tier": null,
-     "problem_md": "The reaction profile for making nitrogen monoxide, NO, is shown below:\n\n![u~9ImaV8_2](assets/009-u-9imav8-2.png)\n\nWhat is the activation energy for this reaction?",
+     "problem_md": "The reaction profile for making nitrogen monoxide, NO, is shown below:\n\n![u~9ImaV8_2](assets/031-u-9imav8-2.png)\n\nWhat is the activation energy for this reaction?",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- The activation energy is the distance from the reactants, N<sub>2</sub> + O<sub>2</sub>, to the top of the energy 'hill'\n- This distance is 180 + 140  = 320 kJ\n- The energy arrows point upwards so energy is increasing which corresponds to a positive sign",
      "choices": [
       {
@@ -947,6 +1597,1477 @@
        "label": "D",
        "is_correct": false,
        "text_md": "Burning fossil fuels."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_v3gdXJYVWhF9QhhQ",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_dgkrYbTBBcnGp4CN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium reacts with dilute hydrochloric acid in a school laboratory experiment. Bubbles of gas are produced during the reaction.\n\nDescribe one other observation that could be made during this reaction.",
+     "solution_md": "During this reaction, you would observe that:\n\n- The temperature of the solution increases\n**OR**\nThe magnesium (ribbon) gets smaller / dissolves / disappears **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *A common mistake for this answer is to talk about gases being released*\n\n> *This will not gain a mark because that idea is already given in the question*\n\n> *The hydrogen gas / squeaky pop test is not an accepted answer as this is a test, not an observation*"
+    },
+    {
+     "id": "qstnprt_TMJwkWcyK7S2fkmt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zdMKGjbstPbb4Zd8"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nMagnesium reacts with dilute hydrochloric acid in a school laboratory experiment. Bubbles of gas are produced during the reaction.\n\n#### Extended Only\n\nThe reaction has a negative enthalpy change.\n\n(i) What is meant by the term enthalpy change.\n\n[1]\n\n(ii) Explain how this value helps to classify the type of energy change in the reaction.\n\n[1]",
+     "solution_md": "(i) Enthalpy change (∆*H*) is:\n\n- The amount of thermal energy transferred during a chemical reaction; **[1 mark]**\n\n(ii) A negative ∆*H* value means:\n\n- That energy is released to the surroundings\n**AND**\nThe reaction is exothermic; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *A negative ∆**H** means energy is leaving the system*\n\n> * You will get the mark, if you remember that **ex**othermic = energy out (**ex**it)*"
+    },
+    {
+     "id": "qstnprt_BJZFcJhB4sHV34wS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zdMKGjbstPbb4Zd8"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "#### Extended Only\n\nWhen magnesium ribbon is added to dilute hydrochloric acid, bubbles form slowly at first but then more quickly. The rate of reaction increases.\n\nExplain why the rate of reaction increases, in terms of activation energy.",
+     "solution_md": "The rate of reaction increases because:\n\n- The reaction is slow at the start because only a few particles have enough energy to overcome the activation energy barrier; **[1 mark]**\n- As the reaction continues, more energy is released, helping more particles to react, so the rate increases; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Think about how particle energy affects reaction rate*\n\n> *Activation energy is like a barrier:*\n\n- *At first, only a few particles have sufficient energy to clear this barrier and react *\n- *As the reaction proceeds, the temperature increases*\n\n  - *This means that energy is released*\n- *The released energy is passed to other particles *\n\n  - *This means that more particles have sufficient energy to react*\n- *Therefore, the rate of reaction increases*"
+    },
+    {
+     "id": "qstnprt_gNCppyy4Y4VkV69q",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gXdvKnRWcfpGTVpK"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "#### Extended Only\n\nDuring a chemical reaction, bonds in the reactants are broken and new bonds are formed in the products.\n\nUse this idea to explain how a reaction can be endothermic overall.",
+     "solution_md": "A reaction can be endothermic because:\n\n- Breaking chemical bonds is endothermic because it requires energy; **[1 mark]**\n- Forming new bonds is exothermic because it releases energy; **[1 mark]**\n- Less energy is released by forming bonds than is absorbed to break them; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Make sure to describe each process in terms of energy:*\n\n- *Bond breaking = absorbing / endothermic*\n- *Bond making = releasing / exothermic*\n\n> *Then, think of the overall process as a balance:*\n\n- *If bond making gives out **more **energy than bond breaking takes in, the result is an exothermic reaction*\n- *If bond making gives out **less **energy than bond breaking takes in, the result is an endothermic reaction*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XxHSgxNnBwDJ2dNQ",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_3J3rmtz6j8n8y85N",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "A student observes that the temperature of a reaction mixture increases when magnesium reacts with dilute hydrochloric acid. Explain why this temperature increase occurs.",
+     "solution_md": "The temperature increases because:\n\n- The reaction is exothermic **[1 mark]**\n- Thermal energy transferred to surroundings **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Exothermic reactions release energy to the surroundings. This causes the temperature to increase*\n\n> *Endothermic reactions take energy in from the surroundings. This causes the temperature to decrease*"
+    },
+    {
+     "id": "qstnprt_rZKqGkWh5RT9Hytm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zdMKGjbstPbb4Zd8"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nThis question explores the energy changes involved in a simple metal–acid reaction, using magnesium and dilute hydrochloric acid as a familiar laboratory example. The focus is on helping students understand exothermic processes through temperature observations, enthalpy change (∆H), . The question then builds toward a qualitative explanation of overall energy change by applying the principles of bond breaking and bond forming. All parts are thematically linked to the reaction context, encouraging students to reason about energy flow at both the macroscopic (temperature rise) and microscopic (particle interactions) levels.\n\n#### Extended Only\n\nDefine enthalpy change, ∆*H*.",
+     "solution_md": "Enthalpy change, ∆*H*, is:\n\n- The amount of thermal energy transferred during a chemical reaction; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_6SW6gq97HgQhdgY3",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zdMKGjbstPbb4Zd8"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nThis question explores the energy changes involved in a simple metal–acid reaction, using magnesium and dilute hydrochloric acid as a familiar laboratory example. The focus is on helping students understand exothermic processes through temperature observations, enthalpy change (∆H), and activation energy (Ea). The question then builds toward a qualitative explanation of overall energy change by applying the principles of bond breaking and bond forming. All parts are thematically linked to the reaction context, encouraging students to reason about energy flow at both the macroscopic (temperature rise) and microscopic (particle interactions) levels.\n\n#### Extended Only\n\nDefine activation energy, *E*<sub>a</sub>.",
+     "solution_md": "Activation energy is:\n\n- The minimum energy that colliding particles must have to react; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_TDkG9Rk9SHJkr8GT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gXdvKnRWcfpGTVpK"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nA student observes that the temperature of a reaction mixture increases when magnesium reacts with dilute hydrochloric acid.\n\n#### Extended Only\n\nMagnesium reacts with dilute hydrochloric acid, resulting in a temperature increase. Explain this temperature change in terms of bond breaking and bond making.",
+     "solution_md": "This temperature change occurs because:\n\n- Bond breaking absorbs energy (endothermic) **[1 mark]**\n- Bond making releases energy (exothermic) **[1 mark]**\n- Overall more energy is released than absorbed **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Make sure to describe each process in terms of energy:*\n\n- *Bond breaking = absorbing / endothermic*\n- *Bond making = releasing / exothermic*\n\n> *Then, think of the overall process as a balance:*\n\n- *If bond making gives out **more **energy than bond breaking takes in, the result is an exothermic reaction*\n- *If bond making gives out **less **energy than bond breaking takes in, the result is an endothermic reaction*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xHK9BPnyGZMB3VyJ",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_9jp5bqXQR8nCwq9F",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "how",
+     "source_paper": {
+      "date": "2003",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DZ257wGkK96Fkm3t"
+     ],
+     "part_tier": null,
+     "problem_md": "The first three elements in Period 6 of the Periodic Table of the Elements are caesium, barium and lanthanum.\n\nHow many more protons, electrons and neutrons are there in one atom of lanthanum than in one atom of caesium. Use your copy of the Periodic Table of the Elements to help you.\n\nnumber of protons ................................................\n\nnumber of electrons ................................................\n\nnumber of neutrons ................................................",
+     "solution_md": "a) How many more protons, electrons and neutrons are there in one atom of lanthanum than in one atom of caesium?\n\n- Protons = 2; **[1 mark]**\n- Electrons = 2; **[1 mark]**\n- Neutrons = 4; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Caesium / *`Cs presubscript 55 presuperscript 133`* has 55 protons, 55 electrons and 133 - 55 = 78 neutrons*\n- *Lanthanum / *`La presubscript 57 presuperscript 139`* has 57 protons, 57 electrons and 139 - 57 = 82 neutrons*\n- *Therefore, lanthanum has 2 more protons, 2 more electrons and 4 more neutrons*"
+    },
+    {
+     "id": "qstnprt_bTXtBQtMkT6nps2N",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2003",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_RsgF5qqcxZCyjZrN",
+      "spcpt_DvDPhGBPSVn82Y57"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe first three elements in Period 6 of the Periodic Table of the Elements are caesium, barium and lanthanum.\n\n#### Extended Only\n\nAll three metals can be obtained by the electrolysis of a molten halide. The electrolysis of the aqueous halides does not produce the metal.\n\ni) Complete the equation for the reduction of lanthanum ions at the negative electrode (cathode).\n\nLa<sup>3+</sup> + ................ → ................\n\nii) Name the three products formed by the electrolysis of aqueous caesium bromide.",
+     "solution_md": "b)\n\ni) The completed equation for the reduction of lanthanum ions at the negative electrode (cathode) is:\n\n- La<sup>3+</sup> + 3e<sup>–</sup> → La;** [1 mark]**\n\nii) The three products formed by the electrolysis of aqueous caesium bromide are:\n\n- Hydrogen;** [1 mark]**\n- Bromine;** [1 mark]** *Bromide is not accepted*\n- Caesium hydroxide;** [1 mark]**\n\n**[Total: 4 marks] **\n\n- *In part (i), reduction is the gain of electrons so the lanthanum ion will gain 3 electrons to form lanthanum metal*\n- *In part (ii), the caesium bromide solution will contain caesium ions and bromide ions along with hydrogen ions and hydroxide ions from the water of the solution*\n\n  - *Caesium is more reactive than hydrogen*\n  \n    - *This means that the caesium ion will remain in the solution and hydrogen will be discharged*\n  - *The halide ion is present and will result in the discharge of the halogen*\n  - *This leaves the caesium ion and hydroxide ion in solution to form the caesium hydroxide product*"
+    },
+    {
+     "id": "qstnprt_6tb4yRCmQsmG7vJH",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2003",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XqqqGxvBTBG4hjpH",
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe first three elements in Period 6 of the Periodic Table of the Elements are caesium, barium and lanthanum.\n\n#### Extended Only\n\nAll three metals react with cold water. Complete the word equation for these reactions.\n\nmetal + water → ................................. + .............................",
+     "solution_md": "c) The completed general word equation for the reactions of caesium, barium and lanthanum will be:\n\nMetal + water → metal hydroxide + hydrogen\n\n- Metal hydroxide;** [1 mark]** \n*Hydroxide ions is an acceptable answer *\n- Hydrogen;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Caesium is in group I and will behave like the other elements in the group*\n\n  - *Metal + water → metal hydroxide + hydrogen*\n- *You can then assume that the same reaction will occur for the other period 6 metals given in the overall question*"
+    },
+    {
+     "id": "qstnprt_NZdFX6NcVxsVN3zZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2003",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9bbdv8dXW7zg9Wn8"
+     ],
+     "part_tier": null,
+     "problem_md": "Barium chloride is an ionic compound. Draw a diagram that shows the formula of the compound, the charges on the ions and gives the arrangement of the valency electrons around the negative ion.\n\nThe electron distribution of a barium atom is 2.8.18.18.8.2\n\nUse x to represent an electron from a barium atom. Use o to represent an electron from a chlorine atom.",
+     "solution_md": "d) The bonding diagram to show the formula of the compound, the charges on the ions and gives the arrangement of the valency electrons around the negative ion is:\n\n![barium-chloride-dotcross](assets/032-barium-chloride-dotcross.png)\n\nMarking point: Correct formula of 1 barium ion to two chloride ions\n\nMarking point: Charges correct\n\nMarking point: 8 electrons around the chloride anion\n\n- All three marking points; **[2 marks]**\n- Two marking points;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Barium is a group 2 metal *\n\n  - *This means that it will lose 2 electrons to form the 2+ ion*\n- *Chlorine is a group 7 non-metal*\n\n  - *This means that it will gain one electron to form the  1- ion*\n  - *Therefore, there will be two chloride ions as each one will gain one of the two electrons from barium*"
+    },
+    {
+     "id": "qstnprt_sDKmfPXQCW37SWJm",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2003",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XfJMyKV6CYwKKW85"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDescribe, by means of a simple diagram, the lattice structure of an ionic compound, such as caesium chloride.",
+     "solution_md": "e) The lattice structure of an ionic compound, such as caesium chloride, is:\n\n![lattice-answer-ocr-a2-sq-e-2-4-q2c](assets/033-lattice-answer-ocr-a2-sq-e-2-4-q2c.png)\n\n- Alternating (positive and negative) ions; **[1 mark]**\n- (Regular) pattern; **[1 mark] **\n*Ignore the size of the ions*\n\n**[Total: 2 marks]**\n\n- *Ionic compounds, such as caesium chloride / CsCl with a 1 : 1 ratio of ions, form lattices with alternating positive and negative ions*"
+    },
+    {
+     "id": "qstnprt_HG7P7Fbxgq8hNkH3",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2003",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gXdvKnRWcfpGTVpK"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe reactions of these metals with oxygen are exothermic.\n\n2Ba (s) + O<sub>2</sub> (g) → 2BaO (s)\n\ni) Give an example of bond forming in this reaction.\n\n[1]\n\nii) Explain using the idea of bond breaking and forming why this reaction is exothermic.\n\n[3]",
+     "solution_md": "f)\n\ni) An example of bond forming in this reaction is:\n\n- (The formation of the) barium-oxygen / Ba-O / ionic bond; **[1 mark] **\n\nii) This reaction is exothermic because:\n\n- Bond forming releases energy / is exothermic; **[1 mark] **\n- Bond breaking takes in energy / absorbs energy / is endothermic; **[1 mark]**\n- More energy is released (than taken in);** [1 mark]**\n\n**[Total: 4 marks]**** **\n\n- *Although this question appears to be specific to the oxidation of barium, it can be correctly answered with a general statement about why a reaction is exothermic in terms of bond making and breaking*\n\n  - *Bond forming releases energy / is exothermic*\n  - *Bond breaking takes in energy / is endothermic*\n  - *Since you are told that the reaction is exothermic, this means that more energy must be released than absorbed / taken in*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VGRFny7y58rgxtHm",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_prwdTqnGf48gdjH6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju0620/31",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qfwhmmkgrtk422RQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Acids have characteristic properties.\n\nHydrochloric acid reacts with magnesium.\n\nName the products of this reaction and give the observations.",
+     "solution_md": "a) The products and observations are:\n\n- Forms magnesium chloride; **[1 mark] **\n- Forms hydrogen; **[1 mark] **\n\nAny **two **of the following:\n\n- Reaction is exothermic / (reaction mixture) gets warm; **[1 mark] **\n- Bubbles / effervesces / fizzes;** [1 mark] **\n- Magnesium disappears (or gets smaller); **[1 mark] **\n\n**[Total: 4 marks]**\n\n- *Acids react with metals to form a salt and hydrogen gas*\n- *You can remember this by thinking of **MASH*\n\n  - *M**etal + **A**cid → **S**alt + **H**ydrogen*\n- *As hydrochloric acid is used in the reaction, the salt produced will be a chloride salt*\n- *You have been asked for **observations*\n\n  - *So if you said hydrogen is produced as an observation you would not gain the mark*\n  - *You should say bubbles / fizzing / effervesces instead *"
+    },
+    {
+     "id": "qstnprt_K3KnZVBmrYCXCkSf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju0620/43/04",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nHydrogen and chlorine react to form hydrogen chloride gas, as shown in the equation.\n\nH<sub>2</sub> + Cl<sub>2</sub> → 2HCl\n\nThis equation can be represented as shown.\n\n$H-H+\\mathrm{Cl}-\\mathrm{Cl}\\rightarrow2H-\\mathrm{Cl}$\n\nSome bond energies are shown in the table.\n\n| bond | bond energy in kJ/mol |\n|---|---|\n| H–H | 436 |\n| Cl–Cl | 243 |\n| H–Cl | 432 |\n\nCalculate the energy change for the reaction between hydrogen and chlorine, using the following steps.\n\n- Calculate the energy needed to break the bonds.\n- Calculate the energy released when bonds are formed.\n- Calculate the energy change for the reaction.",
+     "solution_md": "b) To calculate the energy change:\n\n- Energy needed to break bonds = 436 + 243 = 679; **[1 mark] **\n- Energy released when bonds formed = 2 × 432 = 864; **[1 mark] **\n- Energy change = 679 – 864 = – **AND **185; **[1 mark] **\n\n**[Total: 3 marks]**\n\n- *It can help to write the values underneath the molecules*\n- *Careful: **You need to take account of the 2 H-Cl as there are 2 molecules of HCl formed*\n\n![cf3ac98a-83c8-4a9f-90c9-1d50d1659095](assets/034-cf3ac98a-83c8-4a9f-90c9-1d50d1659095.jpeg)",
+     "equations": [
+      {
+       "latex": "H-H+\\mathrm{Cl}-\\mathrm{Cl}\\rightarrow2H-\\mathrm{Cl}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi mathvariant=\"normal\">H</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Cl</mi><mo>-</mo><mi>Cl</mi><mo> </mo><mo>→</mo><mn>2</mn><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi>Cl</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H minus straight H space plus space Cl minus Cl space rightwards arrow 2 straight H minus Cl"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TPzwzxWMKjwv8nxr",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_xc7WyQJ44r5w6zJy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG",
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nChemical reactions are always accompanied by an energy change.\n\nAluminium is extracted by the electrolysis of a molten mixture which contains aluminium oxide, Al<sub>2</sub>O<sub>3</sub>. This decomposes to form aluminium at the negative electrode and oxygen at the positive electrode.\n\ni) Write an ionic equation for the reaction at the negative electrode.\n\n[2]\n\nii) Complete the ionic equation for the reaction at the positive electrode.\n\n2O<sup>2–</sup> → ....... + .......\n\n[2]\n\niii) Is the reaction exothermic or endothermic? Explain your answer.\n\n[1]",
+     "solution_md": "a)\n\ni) The ionic equation for the reaction at the negative electrode is:\n\nAl<sup>3+</sup> + 3e<sup>–</sup> → Al\n\n- Al<sup>3+</sup>; **[1 mark]**\n- Remainder of the ionic equation;** [1 mark]**\n\nii) The ionic equation for the reaction at the positive electrode is:\n\n2O<sup>2–</sup> → O<sub>2</sub> + 4e<sup>–</sup>  **   **\n**OR **   \n2O<sup>2–</sup> - 4e<sup>–</sup> → O<sub>2</sub>\n\n- Correct products, i.e. O<sub>2</sub> with / without e<sup>–</sup> dependent on the equation given; **[1 mark]**\n- Correct balancing, i.e 4e<sup>–</sup>; **[1 mark]**\n\niii) The reaction is:\n\n- Endothermic \n**AND **\nBecause (electrical) energy is supplied / given / taken in; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *The reaction at the negative electrode will involve the positive ion because opposites attract *\n\n  - *The aluminium ion is 3+ since aluminium is in group 3*\n  - *This means that it will gain 3 electrons to form aluminium*\n- * At the positive electrode, the oxide ions will lose electrons to form oxygen gas, O*<sub>*2*</sub>* *\n\n  - *Since there are two oxide ions with a 2- charge, there will be four electrons lost*\n- *Although the terms exothermic and endothermic commonly talk about heat energy, the principle can be applied to electrical energy as well*\n\n  - *Since electrical energy is being supplied, the reaction must be endothermic*"
+    },
+    {
+     "id": "qstnprt_XBPn8JZghz4gPMjG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG",
+      "spcpt_DvDPhGBPSVn82Y57"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe cell shown below can be used to determine the order of reactivity of metals.\n\n![mgso4-cuso4-electrochemical-cell](assets/035-mgso4-cuso4-electrochemical-cell.png)\n\ni) Is the reaction in the cell exothermic or endothermic? Explain your answer.\n\n[1]\n\nii) Explain why the mass of the magnesium electrode decreases and the mass of the copper electrode increases.\n\n[2]\n\niii) How could you use this cell to determine which is the more reactive metal, magnesium or manganese?\n\n[2]",
+     "solution_md": "b)\n\ni) The reaction in the cell is\n\n- Exothermic \n**AND **\nBecause (electrical) energy is released; **[1 mark]**\n\nii) The mass of the magnesium electrode decreases and the mass of the copper electrode increases because:\n\n- Magnesium forms ions (in solution) \n**OR **\nMagnesium loses electrons  \n**OR **\nMagnesium is oxidised \n**OR **\nMagnesium dissolves / goes into solution / Mg → Mg<sup>2+</sup> + 2e<sup>–</sup>; **[1 mark]**\n- Copper is deposited (on the electrode) \n**OR **\nCopper ions become copper atoms \n**OR **\nCopper ions gain electrons / are reduced / Cu<sup>2+</sup> + 2e<sup>–</sup> → Cu; **[1 mark]**\n\niii) You could use this cell to determine whether magnesium or manganese is the more reactive metal by:\n\nAlternative 1:\n\n- Set up a magnesium / manganese cell; **[1 mark]**\n- The negative electrode / the electrode that loses mass (is more reactive);** [1 mark]**\n\nAlternative 2:\n\n- Replace the magnesium with manganese in the current cell;** [1 mark]**\n- If  the voltage is less (positive) then manganese is less reactive \n**OR **\nIf the voltage is more (positive) then manganese is more reactive; **[1 mark]**\n\n**[Total: 5 marks] **"
+    },
+    {
+     "id": "qstnprt_g2J8YbmT62pJqQPb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe combustion of propane, C<sub>3</sub>H<sub>8</sub>, is exothermic.\n\nGive an equation for the complete combustion of propane.",
+     "solution_md": "c) The equation for the complete combustion of propane is:\n\nC<sub>3</sub>H<sub>8</sub> + 5O<sub>2</sub> → 3CO<sub>2</sub> + 4H<sub>2</sub>O\n\n- Correct species in the equation; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Combustion equations are quite common questions in most GCSE exams so make sure you know that:*\n\n  - *Complete combustion forms carbon dioxide and water*\n  - *Incomplete combustion forms water with either carbon monoxide or carbon*\n- *This question shows the more recent style of mark scheme where one mark is for the equation and one mark is for balancing the equation*\n- *Tip: **When balancing these questions, leave balancing the oxygen to last*\n\n  - *Unbalanced starting equation C*<sub>*3*</sub>*H*<sub>*8*</sub>* + O*<sub>*2*</sub>* → CO*<sub>*2*</sub>* + H*<sub>*2*</sub>*O*\n  - *3 carbons will make 3CO*<sub>*2*</sub>* and 8 hydrogens will make 4H*<sub>*2*</sub>*O C*<sub>*3*</sub>*H*<sub>*8*</sub>* + O*<sub>*2*</sub>* → 3CO*<sub>*2*</sub>* + 4H*<sub>*2*</sub>*O*\n  - *This gives a total of 10 oxygen atoms on the products side, which will require 5O*<sub>*2*</sub>*  C*<sub>*3*</sub>*H*<sub>*8*</sub>* + 5O*<sub>*2*</sub>* → 3CO*<sub>*2*</sub>* + 4H*<sub>*2*</sub>*O*"
+    },
+    {
+     "id": "qstnprt_yZNHw29hR9NvW66v",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "Ju33",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tYWjkWkWSpM2vWZH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nPhotosynthesis is an unusual endothermic reaction.\n\ni) Where does the energy for photosynthesis come from?\n\n[1]\n\nii) Give the word equation for photosynthesis.\n\n[1]",
+     "solution_md": "d)\n\ni) The energy for photosynthesis comes from:\n\n- The sun / sunlight;** [1 mark]**\n\nii) The word equation for photosynthesis is:\n\n- Carbon dioxide + water → glucose + oxygen;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *This question is a good example of the crossover between Biology and Chemistry*\n- *You are expected to know the photosynthesis equation as well as the energy source for the reaction*\n- *The reaction is endothermic because it takes the energy in from the Sun*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rhnqcjgypgrQZc2B",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_kT352twZsxsBfzPV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2008",
+      "number": "Ju31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t2Fg75X3JTxhX6xB",
+      "spcpt_DY57jxyqYD9xwM7K"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThree of the factors that can influence the rate of a chemical reaction are:\n\n- physical state of the reactants\n- light\n- the presence of a catalyst\n\nThe first recorded dust explosion was in a flour mill in Italy in 1785. Flour contains carbohydrates. Explosions are very fast exothermic reactions.\n\ni) Use the collision theory to explain why the reaction between the particles of flour and the oxygen in the air is very fast.\n\n[2]\n\nii) Write a word equation for this exothermic reaction.\n\n[1]",
+     "solution_md": "a)\n\ni) The reaction between the particles of flour and oxygen is very fast because:\n\n- The flour has a large surface area; **[1 mark]**\n- This leads to a high / faster collision rate \n**OR **\nThis leads to more / faster collisions; **[1 mark]**\n\nii) The word equation for this reaction is:\n\n- Carbohydrate + oxygen → carbon dioxide + water \n**OR **\nFlour + oxygen → carbon dioxide + water; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *As soon as a chemical is talked about in terms of powder / dust, your mind should be automatically be thinking increased surface area*\n- *More recent questions would be expecting an answer talking about the increased surface area causing more frequent successful collisions or more collisions per unit time*\n- *Although part (ii) is only asking for a word equation, there will be some students that don't know what the products are because they will:*\n\n  - *Miss the information that flour is a carbohydrate*\n  - *Not associate this reaction as a combustion reaction producing carbon dioxide and water*"
+    },
+    {
+     "id": "qstnprt_tf96xP4XSYKMyMJY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2008",
+      "number": "Ju31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The decomposition of silver(I) bromide is the basis of film photography. The equation for this decomposition is:\n\n| 2AgBr → | 2Ag + Br<sub>2</sub> |\n|---|---|\n| white | black |\n\nThis reaction is photochemical.\n\nA piece of white paper was coated with silver(I) bromide and the following experiment was carried out.\n\n![7-2-m10b](assets/036-7-2-m10b.png)\n\nExplain the results.",
+     "solution_md": "b) Explanation of the results:\n\n- The rate (of reaction) depends on light; **[1 mark]**\n- More light gives a darker / black / silver colour \n**OR **\nLess light gives a lighter / white / grey colour;** [1 mark]**\n- Thick card allows less light through; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *This question is a combination of the theory of photochemical reactions and investigating rates of reaction, which produces a data handling question with an unfamiliar context*\n- *This unfamiliar context will put several students off but all you have to do is make simple statements using the information given*\n\n  - *\"This reaction is photochemical\" - you need to talk about light and the results should suggest relating light to the rate of reaction*\n  - *Not covered / thin paper / thick paper giving black / grey / white results respectively - talk about them and link them with an explanation*"
+    },
+    {
+     "id": "qstnprt_k6qGrmzKWGh8QGkC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2008",
+      "number": "Ju31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VcPXRNFPNFRYJtMh",
+      "spcpt_Rw9VbTprTW99wk2m",
+      "spcpt_2W7Rs53x7dgpKxKy"
+     ],
+     "part_tier": null,
+     "problem_md": "The fermentation of glucose is catalysed by enzymes from yeast. Yeast is added to aqueous glucose, the solution starts to bubble and becomes cloudy as more yeast cells are formed.\n\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (aq) → 2C<sub>2</sub>H<sub>5</sub>OH (aq) + 2CO<sub>2</sub> (g)\n\nThe reaction is exothermic.\n\nEventually the fermentation stops when the concentration of ethanol is about 12%.\n\ni) What is an enzyme?\n\n[1]\n\nii) Pasteur said that fermentation was respiration in the absence of air. Suggest a definition of respiration.\n\n[2]\n\niii) On a large scale, the reaction mixture is cooled. Suggest a reason why this is necessary.\n\n[1]\n\niv) Why does the fermentation stop? Suggest **two **reasons.\n\n[2]\n\nv) When the fermentation stops, there is a mixture of dilute aqueous ethanol and yeast. Suggest a technique which could be used to remove the cloudiness due to the yeast.\n\n[1]\n\nvi) Name a technique which will separate the ethanol from the ethanol/water mixture.\n\n[1]",
+     "solution_md": "c)\n\ni) An enzyme is:\n\n- A <u>biological / protein catalyst</u>;** [1 mark]**\n\nii) A definition of respiration is:\n\n- Production of energy (from food);** [1 mark]**\n- By living things / cells / organisms; **[1 mark]**\n\niii) The reaction mixture is cooled to:\n\n- Stop the yeast being killed \n**OR **\nStop the enzyme being denatured; **[1 mark]**\n\niv) The fermentation stops because:\n\n- All of the <u>glucose</u> is used up;** [1 mark]**\n- The yeast is killed / the enzyme is denatured by the <u>ethanol / alcohol</u>;** [1 mark]**\n\nv) A technique which could be used to remove the cloudiness due to the yeast is:\n\n- Filtration / use of a centrifuge; **[1 mark]**\n\nvi) A technique which will separate the ethanol from the ethanol/water mixture is:\n\n- <u>Fractional</u> distillation; **[1 mark]**\n\n**[Total: 8 marks]**\n\n- *This question is not truly aligned to the 2023 Chemistry specification as there are several questions that are more appropriate to Biology*\n- *However, it serves to highlight the links between the Sciences*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qMyzkckgvkR8cYdt",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_ww25W5XxfYksTBZW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe table below has some enthalpy data for a different chemical reaction. Hydrazine, N<sub>2</sub>H<sub>4 </sub>can react with hydrogen peroxide in an exothermic reaction, as shown below.\n\nN<sub>2</sub>H<sub>4</sub> + 2H<sub>2</sub>O<sub>2</sub> → N<sub>2</sub> + 4H<sub>2</sub>O   Δ*H* = -789 kJ / mol\n\n| **Bond** | **Bond Energy kJ / mol** |\n|---|---|\n| N-N | +158 |\n| N$\\equiv$N | +945 |\n| O-H | +463 |\n| O-O | +144 |\n\nThe structures of the reactants and products are shown.\n\n![5-1-5a-h-hydrazine-reaction-figure-5-1](assets/037-5-1-5a-h-hydrazine-reaction-figure-5-1.png)\n\nUsing the reaction equation and the data in the table above, calculate the value of the N-H bond in hydrazine.\n\nBond energy of N-H bond = .......... kJ / mol",
+     "solution_md": "d) To calculate the bond enthalpy of the N-H bond:\n\n- Energy change = sum of bonds broken - sum of bonds made; **[1 mark]**\n- -789 = [(4 x N-H) + (1 x 158) + (4 x 463) + (2 x 144)] - [(1 x 945) + (8 x 463)]** **\n**OR** \n4 x N-H = -789 - [(1 x 158) + (4 x 463) + (2 x 144)] + [(1 x 945) + (8 x 463)]; **[1 mark]**\n- 4 x N-H = -789 - 2298 + 4649; **[1 mark]**\n- N-H bond enthalpy = 1562 ÷ 4 = (+)391 (kJ / mol); **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *This bond energy calculation is very challenging however if you set out the question step by step you can gain 3 out of 4 marks just by showing logical working*\n- *Careful:** A lot of students lose the last mark in this question because they forget that there are 4 N-H bonds in hydrazine, so the final answer needs to be divided by 4 to get the individual bond enthalpy for each N-H bond *\n- *Remember: **Always write out the equation - often you can gain a mark for this *",
+     "equations": [
+      {
+       "latex": "\\equiv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mo>≡</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "identical to"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Z4C6sFR4S9mtB4kd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FwqczjZVdzMr626B"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nHydrazine, N~2~H~4 ~can react with hydrogen peroxide in an exothermic reaction, as shown below. N~2~H~4~ + 2H~2~O~2~ → N~2~ + 4H~2~O\n\nDraw a dot cross diagram for hydrazine.\n\nUse x to represent electrons from nitrogen atoms\n\nUse o to represent electrons from hydrogen atoms",
+     "solution_md": "b) The dot cross diagram is:\n\n![hydrazine-dot-and-cross](assets/038-hydrazine-dot-and-cross.png)\n\n- Correct N-H bonding electrons; **[1 mark] **\n- Correct N-N bonding electrons; **[1 mark] **\n- Correct lone pairs; **[1 mark] **\n\n**[Total: 3 marks] **\n\n- *Each nitrogen atom has five electrons in its outermost shell, therefore they require three more electrons to have a full outer shell*\n- *Each hydrogen atom has one electron in its shell, therefore they require one more electron to have a full outer shell*\n- *The nitrogen atoms overlap and share one electron each to create a single bond*\n- *The nitrogen and hydrogen atoms overlap to share one electron each to create a single bond*\n- *Finally, there will be one lone pair on each nitrogen atom*\n\n  - *Students often miss adding in lone pairs so remember to check the whole of the molecule*"
+    },
+    {
+     "id": "qstnprt_RhtQMXv2Chwc6tpy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nWhen nitrogen and oxygen are heated to very high temperatures, they combine to form nitrogen monoxide and a lot of heat is absorbed in this reaction.\n\nComplete the reaction pathway diagram to show the formation of nitrogen monoxide from nitrogen and oxygen.\n\n![5-1-5ch-energy-diagram-q5c-a](assets/039-5-1-5ch-energy-diagram-q5c-a.png)",
+     "solution_md": "c) The completed reaction pathway diagram is:\n\n![Energy diagram MS](assets/040-energy-diagram-ms.jpeg)\n\n- (Horizontal) energy level line for products <u>above</u> the level of the reactants; **[1 mark]**\n- N<sub>2</sub> (g) + O<sub>2</sub> (g) labelled on the energy level line for the reactants; **[1 mark]**\n- 2NO (g) labelled on the energy level line for the products; **[1 mark] **\n- Correct arrow pointing downwards from the reactants to the products; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *You are told in the question that a lot of energy is absorbed in this reaction*\n- *You also are given the structure of nitrogen in part (a) so you can see the triple bond which would take a lot of energy to break *\n- *The formation of nitrogen monoxide from nitrogen and oxygen is therefore endothermic*\n\n  - *The product line should therefore be above the reactant line*\n- *You need to give reactants and products in a balanced equation for each line *\n\n  - *N*<sub>*2*</sub>* (g) + O*<sub>*2*</sub>* (g) → 2NO (g)*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pGqQ8mvTtTXCKcfj",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_phfy7Ct5WZ3WrQs2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gXdvKnRWcfpGTVpK"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFuel cells are used in spacecraft to produce electrical energy.\n\n![7-2-fuel-cell-m8a-](assets/041-7-2-fuel-cell-m8a.png)\n\nHydrogen and oxygen react to form water.\n\n2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O\n\ni) Give an example of bond breaking in the above reaction.\n\n[1]\n\nii) Give an example of bond forming in the above reaction.\n\n[1]\n\niii) Is the change given in (i) exothermic or endothermic?\n\n[1]",
+     "solution_md": "a)\n\ni) An example of bond breaking in the given reaction is:\n\n- Oxygen bond / oxygen-oxygen / O=O \n**OR **\nHydrogen bond / hydrogen-hydrogen/ H-H; **[1 mark]**\n\nii) An example of bond forming in the given reaction is:\n\n- The bond between oxygen and hydrogen / oxygen-hydrogen / O-H; **[1 mark]** *Do not accept water or H-O-H*\n\niii) The given reaction is:\n\n- Endothermic; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The bonds within the reactants must be broken in order to have the materials to form the new water product*\n\n  - *This is an endothermic process because energy is required to break the bonds*\n- *The bonds within the water must be formed*"
+    },
+    {
+     "id": "qstnprt_6yNGdX2chMydDCWj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5",
+      "spcpt_k47XxSxbPCMsBF6d"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\ni) Give **two **reasons why hydrogen may be considered to be the ideal fuel for the future.\n\n[2]\n\nii) Suggest a reason why hydrogen is not widely used at the moment.\n\n[1]",
+     "solution_md": "b)\n\ni) **Two **reasons why hydrogen may be considered to be the ideal fuel for the future are:\n\n- **One **from the following:\n\n  - No pollution;** [1 mark]**\n  - No CO; **[1 mark]**\n  - No CO<sub>2</sub>;** [1 mark]**\n  - No oxides of nitrogen;** [1 mark]**\n  - Only produces steam or water; **[1 mark]**\n  - No greenhouse gases; **[1 mark]**\n  - No global warming; **[1 mark]**\n- **One **from the following:\n\n  - Does not use up fossil fuels;** [1 mark] **\n  - Water is not a finite resource / is renewable;** [1 mark]**\n  - Hydrogen is renewable / available from the electrolysis of water; **[1 mark]**\n\nii) A reason why hydrogen is not widely used is:\n\nAny **one** of the following:\n\n- Getting hydrogen from water requires / uses fossil fuels;** [1 mark] **\n- Storage / transport problems;** [1 mark] **\n- Limited range of vehicles available;** [1 mark] **\n- As hydrogen is a gas it only produces small amount of energy per unit volume;** [1 mark] **\n- Methane as a source of steam reforming is finite;** [1 mark] **\n- Lack of distribution network;** [1 mark] **\n\n**[Total: 3 marks]**\n\n- *This is an example of an older question about the use of hydrogen as a fuel*\n- *The same positives and negatives still apply to more up-to-date questions*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_p8swt5zfg9BNmKfR",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_NWmn6WSVjDGqnqmx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": "Specimen0620/03",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "Thermal energy is released to the surroundings when hydrogen is burnt.\n\nState the name of the type of reaction which transfers heat to the surroundings.",
+     "solution_md": "a) The name of the reaction that transfers heat to the surroundings is:\n\n- Exothermic; **[1 mark] **\n\n**[Total: 1 mark]**** **\n\n- *Exothermic reactions will increase the temperature of the surroundings *"
+    },
+    {
+     "id": "qstnprt_hyxTKskx3xxd4ccw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju0620/42/04",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe structures of the reactants and products of this reaction are shown.\n\n![q6bii-0620-s20-qp-42](assets/042-q6bii-0620-s20-qp-42.png)\n\nSome bond energies are shown in the table.\n\n| bond | bond energy in kJ/mol |\n|---|---|\n| C–C | 347 |\n| C=C | 612 |\n| C–H | 413 |\n| C–Cl | 339 |\n| Cl–Cl | 242 |\n\nCalculate the energy change for the reaction between propene and chlorine using the following steps.\n\n- Calculate the energy needed to break the bonds.\n- Calculate the energy released when bonds are formed.\n- Calculate the energy change for the reaction between propene and chlorine.",
+     "solution_md": "b) To calculate the energy change:\n\n- (Energy required to break bonds =) 854; **[1 mark] **\n- (Energy given out when bonds form =) 1025;** [1 mark] **\n- Overall energy change 854 – 1025 = –171; **[1 mark] **\n\n**[Total: 3 marks]**\n\n- *There are lots of different types of bonds in this calculation so it is helpful to list these underneath the reactants and products*\n- *There are 6 C–H bonds and 1 C–C bond each side of the reaction, so these can be taken out of the calculation *\n- *The energy change can be calculated as either*\n\n  - *Including all the bonds: 3679 - 3850 = -171 *\n  *OR** *\n  *Excluding 1 x C-C bond and 6 x C-H bonds: 854 - 1025 = -171*\n\n![1a2dd778-e385-46be-ae31-f7a763ace983](assets/043-1a2dd778-e385-46be-ae31-f7a763ace983.jpeg)"
+    },
+    {
+     "id": "qstnprt_7fCWsd9RwWSZnkRQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju0620/43/04",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAmmonia, NH<sub>3</sub>, is used to produce nitric acid, HNO<sub>3</sub>. This happens in a three-stage process.\n\nThe reaction in stage 3 is exothermic.\n\n4NO<sub>2</sub> + 2H<sub>2</sub>O + O<sub>2</sub> → 4HNO<sub>3</sub>\n\nComplete the energy level diagram for this reaction. Include an arrow that clearly shows the energy change during the reaction.\n\n![4408c8cf-15a4-44cc-8a9b-a20ae8be3d12](assets/044-4408c8cf-15a4-44cc-8a9b-a20ae8be3d12.jpeg)",
+     "solution_md": "c) The energy diagram is:\n\n![b268f403-7ffc-4b26-ba3e-fe9002ce6c8e](assets/045-b268f403-7ffc-4b26-ba3e-fe9002ce6c8e.jpeg)\n\n- Horizontal product energy line at lower energy level than reactant; **[1 mark] **\n- Label of product; **[1 mark] **\n- Correct direction of vertical arrow – arrow must start level with reactant energy and finish level with product level and one arrow head; **[1 mark] **\n\n**[Total: 3 marks] **\n\n- *The change in energy is negative since the products have less energy than the reactants*\n\n  - *Therefore the product line must be lower than the reactants*\n  - *You must include the products as well which can be taken from the question *\n- *An exothermic reaction has a negative Δ**H** value so the vertical arrow must point downwards*\n\n  - *This is why the arrow must only have one arrow head*\n- *Careful**: you have been asked for the energy change, not the activation energy which is the minimum amount of energy required for the reaction to start*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mg6NTFcbvbqbrPM2",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_5VSqyb2bNSbTgSjT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe balanced equation for the combustion of ethene is\n\nC<sub>2</sub>H<sub>4</sub> (g) + 3O<sub>2</sub> (g) → 2CO<sub>2</sub> (g) + 2H<sub>2</sub>O (l)\n\n| **Bond** | **Bond energy (kJ / mol) ** |\n|---|---|\n| C=C | 614 |\n| C-H | 414 |\n| O-H | 463 |\n| C=O | 804 |\n| O=O | 498 |\n\nUse the information in the table to calculate the following:\n\ni) Energy required to break the bonds\n\n[1]\n\nii) Energy released when bonds are made\n\n[1]\n\niii) Energy change for the reaction\n\n[1]",
+     "solution_md": "a)\n\ni) Energy required to break the bonds\n\n4 x E (C-H) = 4 x 414 = 1656\n\n1 x E (C=C) = 1 x 614 = 614\n\n3 x E (O=O) = 3 x 498  = 1494\n\n- Total = 3764 (kJ / mol); **[1 mark]**\n\nii) Energy released when bonds are made\n\n4 x E (C=O) = 4 x 804  = 3216\n\n4 x E (O-H) = 4 x 463  = 1852\n\n- Total = 5068 (kJ / mol); **[1 mark]**\n\niii) Energy change:\n\n- Energy change =  3764 - 5068 = -1304 (kJ / mol); **[1 mark]**\n\n**[Total: 3 marks] **\n\n- *To work out the energy change you can use*\n- *Energy change = sum of bonds broken - sum of bonds made*\n- *You may find it easier to draw out the structures of the reactants and products so you can identify all the bonds broken and formed* ![076e1308-5483-4760-b837-bfa8ccbac2db](assets/046-076e1308-5483-4760-b837-bfa8ccbac2db.jpeg)"
+    },
+    {
+     "id": "qstnprt_yS3BZZZvSG9SsBbM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe balanced equation for the combustion of ethene is C2H4 (g) + 3O2 (g) → 2CO2 (g) + 2H2O (l)\niii) Energy change = 3764 - 5068 = -1304 (kJ / mol)\n\n#### Extended Only\n\nComplete the reaction pathway diagram for the reaction in part (a). Include an arrow which clearly shows the energy change during the reaction.\n\n![5-1-4b-h-energy-level-diagram](assets/047-5-1-4b-h-energy-level-diagram.png)",
+     "solution_md": "b) The completed reaction pathway diagram is:\n\n![1affb684-39c3-45f8-8eca-2bb88e3d3b1c](assets/048-1affb684-39c3-45f8-8eca-2bb88e3d3b1c.jpeg)\n\n- (Horizontal) energy level line for products <u>below</u> the level of the reactants; **[1 mark]**\n- 2CO<sub>2</sub> (g) + 2H<sub>2</sub>O (l) labelled on the energy level line for the products; **[1 mark]**\n- Correct arrow pointing downwards from the reactants to the products; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The question tells you that the reaction is exothermic*\n\n  - *This means that heat energy is given out *\n  - *Therefore, the products should be at a lower energy level than the reactants*\n- *The question also gives you the formulae and states of the reactants in the chemical equation as well as the reactants including state symbols in the energy level diagram*\n\n  - *Therefore, you should write the products with their state symbol on the products line*"
+    },
+    {
+     "id": "qstnprt_SQY3M842VbwQNKYg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BZ7nxycDrmC7G4mj"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe forward reaction for the production of ethanol from ethene is shown below.\n\n** C**<sub>**2**</sub>**H**<sub>**4**</sub>** (g) + H**<sub>**2**</sub>**O (g) **$\\rightleftharpoons$** CH**<sub>**3**</sub>**CH**<sub>**2**</sub>**OH (g)   **$\\Delta$*H* = -45 kJ / mol\n\nIn terms of temperature and pressure, explain which conditions would give an economically viable yield.",
+     "solution_md": "c) The conditions that would give an economically viable yield are:\n\n- The forward reaction is exothermic so it is favoured by low temperatures; **[1 mark] **\n- There are more molecules of gas on left-hand side so the forward reaction is favoured by high pressure; **[1 mark] **\n- The rate is slowed by low temperature \n**AND **\nSo, the temperature is increased (to 300 °C); **[1 mark] **\n- High pressure is unsafe / expensive / could result in polymerisation of ethene \n**AND **\nSo, the pressure is reduced; **[1 mark] **\n- Addition of a catalyst;** [1 mark] **\n\n**[Total: 5 marks]**\n\n- *This question asks for the conditions to give an 'economically viable' yield which does not necessarily mean as high a yield as possible*\n- *A high yield will be favoured by a low temperature and high pressure *\n- *The issue with a low temperature is that the rate of reaction would be very slow, so even though there would be a high percentage yield formed it would take too long*\n- *A manufacturer is trying to produce as much ethanol as possible per day*\n\n  - *It makes no sense to try to achieve an equilibrium mixture which contains a very high proportion of ethanol if it takes several years for the reaction to reach that equilibrium*\n- *The issue with high pressure is that it is expensive to maintain and also potentially unsafe*\n\n  - *In this reaction, high pressure could also form poly(ethene) as well*\n- *A catalyst will speed up the reaction in both directions*\n\n  - *They are economic to use as they can be used again*",
+     "equations": [
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mo>⇌</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rightwards harpoon over leftwards harpoon"
+      },
+      {
+       "latex": "\\Delta",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>∆</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jvhRybGdf72c4xHC",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 26,
+   "parts": [
+    {
+     "id": "qstnprt_nwGyksPTmmFXnJ6d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rQw9qc9pNRFRyPKB"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nPeriod 3 contains the elements sodium to argon. This question asks about the chemistry of each of the Period 3 elements or their compounds.\n\nSodium nitrate is a white crystalline solid. When heated it melts and the following reaction occurs.\n\n2NaNO<sub>3</sub> (l) → 2NaNO<sub>2</sub> (l) + O<sub>2</sub> (g)\n\nA 3.40 g sample of sodium nitrate is heated.\n\nCalculate the\n\n• number of moles of NaNO<sub>3</sub> used,\n\n.................................. mol\n\n• number of moles of O<sub>2</sub> formed,\n\n.................................. mol\n\n• volume of O<sub>2</sub> formed, in dm<sup>3</sup> (measured at r.t.p.).\n\n.................................. dm<sup>3</sup>",
+     "solution_md": "a) The completed calculations are:\n\n- Number of moles of NaNO<sub>3</sub> used:\n\n  - $\\frac{3.40}{85}$ = 0.04 moles; **[1 mark]**\n- Number of moles of O<sub>2</sub> formed:\n\n  - $\\frac{0.04}{2}$ = 0.02 moles; **[1 mark]**\n- Volume of O<sub>2</sub> formed, in dm<sup>3</sup>:\n\n  - 0.02 x 24 = 0.48 dm<sup>3</sup>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *To calculate the number of moles of NaNO*<sub>*3*</sub>*, you first have to calculate the **M*<sub>*r*</sub>* of NaNO*<sub>*3*</sub>\n\n  - *23 + 14 + (16 x 3) = 85*\n- *Using the equation moles =*$\\frac{\\mathrm{mass}}{M_{r}}$* , you calculate that there are 0.04 moles of NaNO*<sub>*3*</sub>\n- *From the overall chemical equation, there is a ratio of 2 NaNO*<sub>*3*</sub>* to 1 O*<sub>*2*</sub>\n- *Therefore, there are half the number of moles of oxygen, i.e.  *$\\frac{0.04}{2}$*= 0.02 moles*\n- *You then use the number of moles of oxygen to calculate the volume of oxygen, using the relationship that 1 mole of any gas occupies 24 dm*<sup>*3*</sup>* at room temperature and pressure*\n\n  - *0.02 x 24 = 0.48 dm*<sup>*3*</sup>* *",
+     "equations": [
+      {
+       "latex": "\\frac{3.40}{85}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>40</mn></mrow><mn>85</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3.40 over denominator 85 end fraction"
+      },
+      {
+       "latex": "\\frac{0.04}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>04</mn></mrow><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.04 over denominator 2 end fraction"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{0.04}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mn>0</mn><mo>.</mo><mn>04</mn></mrow><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style fraction numerator 0.04 over denominator 2 end fraction end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5qTv9WbnYs5d9sZQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MKvXKMnctwDqYdms"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium reacts slowly with warm water to form a base, magnesium hydroxide.\n\ni) Explain what is meant by the term *base*.\n\n[1]\n\nii) Write a chemical equation for the reaction between magnesium and warm water.\n\n[2]",
+     "solution_md": "b)\n\ni) A base is:\n\n- A substance that accepts a proton / H<sup>+</sup> / hydrogen ion;** [1 mark]**\n\nii) The chemical equation for the reaction between magnesium and warm water is:\n\nMg (s) + 2H<sub>2</sub>O (l) → Mg(OH)<sub>2</sub> (aq) + H<sub>2</sub> (g) *   Accept 2H*<sub>*2*</sub>*O (g)*\n\n- Correct formula of magnesium hydroxide product / Mg(OH)<sub>2</sub>; **[1 mark]**\n- Other chemicals correct \n**AND **\nCorrect balancing \n**AND **\nCorrect state symbols;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *Definitions are common 1 and 2 mark questions, so it is useful to learn them*\n- *Writing and balancing chemical equations is considered an expected skill *\n- *Magnesium will react with water although it does usually require the reaction to be heated*\n\n  - *It reacts in a similar way to the alkali metals sodium, lithium and potassium forming the metal hydroxide and hydrogen*\n  - *Magnesium + water → magnesium hydroxide + hydrogen*\n  \n    - *Careful: **Magnesium is a group 2 metal which forms the 2+ ion, which means that it will require 2 hydroxide / OH*<sup>*–*</sup>* ions to form the magnesium hydroxide ion*\n  - *Adding the chemical symbols / formulae, you get:*\n  \n    - *Mg + H*<sub>*2*</sub>*O → Mg(OH)*<sub>*2*</sub>* + H*<sub>*2 *</sub>*This equation requires balancing:*\n    - *Mg + **2**H*<sub>*2*</sub>*O → Mg(OH)*<sub>*2*</sub>* + H*<sub>*2*</sub>*  The equation now requires the state symbols - the \"warm water\" in the question should suggest that state symbols are important for this answer*\n    - *Mg **(s) **+ 2H*<sub>*2*</sub>*O **(l or g) **→ Mg(OH)*<sub>*2*</sub>* **(aq) **+ H*<sub>*2*</sub>* **(g)*"
+    },
+    {
+     "id": "qstnprt_2242db5v6xYCZdM8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KYmr52qfQRGnKCKP"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAluminium oxide is amphoteric. It is insoluble in water.\n\nDescribe experiments to show that aluminium oxide is amphoteric.",
+     "solution_md": "c) Experiments to show that aluminium oxide is amphoteric are:\n\n- Add a named acid, e.g. hydrochloric acid / HCl \n**AND **\nAdd a named alkali, e.g. sodium hydroxide / NaOH;** [1 mark]**\n- (The aluminium oxide / Al<sub>2</sub>O<sub>3</sub>) will react with / neutralise the acid and the alkali; **[1 mark]**\n- (The aluminium oxide / Al<sub>2</sub>O<sub>3</sub>) will dissolve into the acid / alkali \n**OR **\n(The aluminium oxide / Al<sub>2</sub>O<sub>3</sub>) will form a solution with the acid / alkali; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Remember:** Amphoteric means that a chemical can behave as an acid or an alkali*\n- *This means that it can react with an acid or an alkali to form a (salt) solution*\n\n  - *Aluminium oxide + hydrochloric acid → aluminium chloride + water*\n  - *Aluminium oxide + sodium hydroxide → sodium aluminate + water*"
+    },
+    {
+     "id": "qstnprt_T3PWsSbRDwwX2Qvb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wp9t2xd6DYCpQBw3",
+      "spcpt_FwqczjZVdzMr626B"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nSilicon(IV) oxide has a giant structure.\n\ni) Name the type of bonding in silicon(IV) oxide.\n\n[1]\n\nii) Give two physical properties of silicon(IV) oxide.\n\n[2]",
+     "solution_md": "d)\n\ni) The type of bonding in silicon(IV) oxide is:\n\n- Covalent;** [1 mark]**\n\nii) **Two** physical properties of silicon(IV) oxide are:\n\nAny **two** from the following:\n\n- high melting / boiling point;** [1 mark]**\n- poor conductor (of electricity); **[1 mark]**\n- hard;** [1 mark]**\n- insoluble; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *You are expected to know the types of bonding and physical properties for a range of chemicals, including:*\n\n  - *Silicon(IV) oxide / silicon dioxide / silica*\n  - *Diamond*\n  - *Graphite and other graphite related chemicals such as graphene*\n  - *Metals*\n  - *Ionic salts, e.g. sodium chloride*"
+    },
+    {
+     "id": "qstnprt_g5crph3GcW552d2Y",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4",
+      "spcpt_Cv54SzSKvnxKKyBQ"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nCalcium phosphate is used in fertilisers. The bonding in calcium phosphate is ionic. Calcium phosphate contains the phosphate ion, PO<sub>4</sub><sup>3–</sup>.\n\ni) What is ionic bonding?\n\n[2]\n\nii) Deduce the formula of calcium phosphate.\n\n[1]",
+     "solution_md": "e)\n\ni) Ionic bonding is:\n\n- the (electrostatic force of) attraction; **[1 mark]**\n- between <u>oppositely charged particles</u>;** [1 mark]**\n\nii) The formula of calcium phosphate is:\n\n- Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The definition of ionic bonding is:*\n\n  - *The electrostatic force of attraction between oppositely charged particles*\n  - *Careful: **Although we talk about ionic bonding, you should be aware that it actually a **force of attraction** between oppositely charged particles unlike covalent bonding*\n- *Calcium is a 2+ ion while the phosphate ion is a 3– ion*\n\n  - *They both have the number 6 as a common multiple*\n  - *This means that you would require 3 calcium ions and 2 phosphate ions, which gives the chemical formula Ca*<sub>*3*</sub>*(PO*<sub>*4*</sub>*)*<sub>*2*</sub>* *\n  - *You can also use the charges of the ions to determine the chemical formula, e.g.:*\n\n![49ce79dc-eb94-498d-9cb9-ab5d3d4b0cd5](assets/049-49ce79dc-eb94-498d-9cb9-ab5d3d4b0cd5.jpeg)"
+    },
+    {
+     "id": "qstnprt_GF6D2XTpySbzwFJQ",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG",
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nSulfur tetrafluoride, SF<sub>4</sub>, can be made by combining gaseous sulfur with fluorine.\n\nS (g) + 2F<sub>2</sub> (g) → SF<sub>4</sub> (g)\n\nThe reaction is exothermic.\n\ni) Complete the energy level diagram for this reaction. Include an arrow which clearly shows the energy change during the reaction.\n\n![7-1-chemical-energetics-m1f-energy-profile](assets/050-7-1-chemical-energetics-m1f-energy-profile.png)\n\n[3]\n\nii) During the reaction the amount of energy given out is 780 kJ / mol.\n\nThe F–F bond energy is 160 kJ / mol.\n\nUse this information to determine the bond energy, in kJ / mol, of one S–F bond in SF<sub>4</sub>\n\n![7-1-chemical-energetics-m1f-bonds](assets/051-7-1-chemical-energetics-m1f-bonds.png)\n\n.................................. kJ / mol [3]",
+     "solution_md": "f)\n\ni) The completed energy level diagram is:\n\n![sf4-energy-profile](assets/052-sf4-energy-profile.png)\n\n- (Horizontal) energy level line for products <u>below</u> the level of the reactants; **[1 mark]**\n- SF<sub>4</sub> (g) labelled on the energy level line for the products; **[1 mark]**\n- Correct arrow pointing downwards from the reactants to the products; **[1 mark]**\n\nii) The bond energy of one S-F bond is:\n\n- Bond energy of 2F<sub>2</sub> = 2 x 160 = 320 (kJ / mol); **[1 mark]**\n- Bond energy of all bonds in SF<sub>4</sub> = 780 + 320 = 1100 (kJ / mol); **[1 mark]**\n- Bond energy of one bond in SF<sub>4</sub> = $\\frac{1100}{4}$ = 275; (kJ / mol); **[1 mark]**\n\n**[Total: 6 marks]**\n\n- *The question tells you that the reaction is exothermic*\n\n  - *This means that heat energy is given out *\n  - *Therefore, the products should be at a lower energy level than the reactants*\n- *The question also gives you the formulae and states of the reactants in the chemical equation as well as the reactants including state symbols in the energy level diagram*\n\n  - *Therefore, you should write the products with its state symbol on the products line*\n- *The energy change that you are being asked to draw is from the reactants to the products*\n\n  - *Many incorrect answers will include an activation energy \"hump\" going up from the reactants, reaching a peak and then dropping to the products - this is **not** what the question asks for *\n- *The calculation is a little more complex than usual as the sulfur reactant does not have a bond energy associated with it because it is elemental with no bonds *\n\n  - *You can work out the total bond energy for the 2 fluorine molecules*\n  - *You then add this to the overall energy given out to calculate the total energy of the reactants*\n  - *This is the value for all 4 S-F bonds, which means that you have to divide that answer by 4 to get the individual bond energy for an S-F bond*",
+     "equations": [
+      {
+       "latex": "\\frac{1100}{4}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>1100</mn><mn>4</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style 1100 over 4 end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3rMvkVVsFK6THg8c",
+     "order": 6,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xpst8cvWjRVN4p6X",
+      "spcpt_b8kXGMmB5sMPg7Tw"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine and compounds of chlorine are important in water treatment and in laboratory testing for water.\n\ni) Chlorine is added to water to make the water safe to drink.\n\nExplain why adding chlorine makes water safe to drink.\n\n[1]\n\nii) A compound of chlorine is used in the laboratory to test for the presence of water.\n\nName the compound of chlorine used in this test and describe the colour change seen in a positive result of this test.\n\nname of compound ..................................................\n\ncolour change from .............................. to ..............................\n\n[3]",
+     "solution_md": "g)\n\ni) Chlorine is added to water to:\n\n- Kill bacteria / microbes; **[1 mark]**\n\nii) The compound of chlorine used to test for the presence of water is:\n\n- Name of compound = cobalt chloride / cobalt(II) chloride;** [1 mark]**\n- Colour change from <u>blue</u>; **[1 mark]**\n- To <u>pink</u>; **[1 mark]**\n\n**[Total: 4 marks]**** **\n\n- *The test for water is the addition of cobalt(II) chloride which changes from blue to pink*\n\n  - *This is sometimes done by soaking cobalt chloride solution on to filter paper, which is then dried to remove the water*"
+    },
+    {
+     "id": "qstnprt_5MCQ43fp23mnHJNW",
+     "order": 7,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SV5GMQXv6Z2vTHsF"
+     ],
+     "part_tier": null,
+     "problem_md": "Argon is an unreactive noble gas. Explain why argon is unreactive.",
+     "solution_md": "h) Argon is unreactive because:\n\n- It has a complete / full outer shell \n**OR **\nIt has 8 electrons in its outer shell;** [1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Jm9YzKH5f2tXpbjJ",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_ZD2f8njVQJ2Ss9Hz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/31",
+      "question_number": 6,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction of iron(II) carbonate with hydrochloric acid is exothermic. What is meant by the term exothermic?",
+     "solution_md": "a) An exothermic reaction:\n\n- Gives out heat / reaction mixture gets warmer; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Remember:** In an **EX**othermic reaction, heat **EX**its the reaction mixture so is released into the surroundings causing them to get warmer*"
+    },
+    {
+     "id": "qstnprt_HQzRjXNMZYbqctkV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "June 2020",
+      "number": "0620/31",
+      "question_number": 6,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_c8fGrQXGgnbZw9tv"
+     ],
+     "part_tier": null,
+     "problem_md": "Rust contains compounds of iron. State two conditions needed for iron to rust.",
+     "solution_md": "b) Two conditions needed for iron to rust are:\n\n- Water; **[1 mark]**\n- Oxygen / air; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Sometimes this question is only worth one mark so you must state both conditions *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jfH5rvnHj6vMsgh4",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_nx5mpXtdrZhmMWkX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju0620/43/04",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction of iron(II) carbonate with hydrochloric acid is exothermic.\n\nWhat is meant by the term exothermic?",
+     "solution_md": "a) An exothermic reaction is:\n\n- (Reaction) gives out heat / reaction mixture gets warmer; **[1 mark] **\n\n**[Total: 1 mark] **\n\n- *Exothermic reactions will increase the temperature of the surroundings *"
+    },
+    {
+     "id": "qstnprt_88rMfVrdSDRFwKNS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe reaction between ethanoic acid and ethanol is exothermic. Draw an energy level diagram for this reaction. On your diagram label:\n\n- the reactants and products\n- the energy change of the reaction, ∆H.\n\n![q5b-0620_s19_qp_43](assets/053-q5b-0620-s19-qp-43.png)",
+     "solution_md": "b) The completed diagram is:\n\n![217e689a-8c86-4ba6-a445-a6405aadcafa](assets/054-217e689a-8c86-4ba6-a445-a6405aadcafa.jpeg)\n\n- Right hand energy level lower than left hand side energy level; **[1 mark]**\n- Reactants and product positions identified;** [1 mark]**\n- Energy change shown as approximately vertical line indicating gap between reactants and products with arrow head pointing from reactant to products. Arrow needs to be labelled; **[1 mark] **\n\n**[Total: 3 marks]**** **\n\n- *The change in energy is negative since the products have less energy than the reactants*\n\n  - *Therefore the product line must be lower than the reactants*\n  - *Don't forget to label the reactants and products*\n  - *If you are given the balanced equation, you should include the correct reactants and products*\n- *An exothermic reaction has a negative Δ**H** value so the vertical arrow must point downwards*\n\n  - *This is why the arrow must only have one arrow head*\n- *Careful**: You have been asked for the energy change, not the activation energy which is the minimum amount of energy required for the reaction to start*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_d32bKvsspjBQFydp",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_5f4yrVGZSzKT6dWF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju0620/32/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Bromine reacts with hydrogen sulfide, H<sub>2</sub>S.\n\nComplete the chemical equation for this reaction.\n\n....... + H<sub>2</sub>S →  ......HBr  +  S",
+     "solution_md": "a) The completed equation is:\n\n**Br**<sub>**2**</sub> + H<sub>2</sub>S →  **2**HBr  +  S\n\n- Br<sub>2</sub> on the left hand side; **[1 mark]**\n- 2HBr on the right hand side; **[1 mark] **\n\n**[Total: 2 marks] **\n\n- *To complete the equation:*\n- *You know that bromine is a reactant which has the formula Br*<sub>*2*</sub>* (halogens are diatomic molecules)  *\n\n  - *Br*<sub>*2*</sub>* + H*<sub>*2*</sub>*S →  ......HBr  +  S*\n- *Finally there are now two atoms of bromine and hydrogen on the left hand side and only one of each on the right hand side, therefore you now need 2HBr*\n\n  - *Br*<sub>*2*</sub>* + H*<sub>*2*</sub>*S → ** 2**HBr  +  S*"
+    },
+    {
+     "id": "qstnprt_PbwhtXTRbVP4qD8B",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju0620/32/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nBromine reacts with hydrogen sulfide, H~2~S.\n\nComplete the chemical equation for this reaction.\n\nBr~2~ + H~2~S → 2HBr + S\n\n#### Extended Only\n\nThe energy level diagram for this reaction is shown.\n\n![q4dii-0620_s19_qp_32](assets/055-q4dii-0620-s19-qp-32.png)\n\nExplain how this diagram shows that the reaction is exothermic.",
+     "solution_md": "b) The reaction is exothermic because:\n\n- The energy of the reactants is more than the energy of the products \n**OR** \nEnergy of the products is less than the energy of the reactants \n**OR** \nThe reactants lose energy when they form products; **[1 mark] **\n\n**[Total: 1 mark] **\n\n- *If more energy is released than is absorbed, then the reaction is exothermic*\n- *Therefore the products will have less energy than the reactants*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9DSdnVRJhSP9WGxS",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_R8shXNBKytTcgZfd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Mc7z9JPxXkKSNbgf"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nIodine reacts with chlorine to form dark brown iodine monochloride.\n\nI<sub>2</sub> + Cl<sub>2</sub> → 2ICl\n\nThis reacts with more chlorine to give yellow iodine trichloride.\n\nAn equilibrium forms between these iodine chlorides.\n\n| ICl (l) + | Cl<sub>2</sub> (g) ⇌ | ICl<sub>3</sub> (s) |\n|---|---|---|\n| dark brown |   | yellow |\n\nWhat do you understand by the term *equilibrium*?",
+     "solution_md": "a) For an equilibrium reaction, the term equilibrium means that:\n\n- The rate of the forwards reaction equals the rate of the backwards reaction; **[1 mark]**\n- The concentrations of all the chemicals remain constant \n**OR **\nThe macroscopic properties remain constant; **[1 mark]** \n*The concentrations of the chemicals are equal is not accepted*\n\n**[Total: 2 marks]**\n\n- *The definition of an equilibrium is a relatively common question, so you need to know this and add it to your list of definitions to learn*\n- *The main mistake for this question is saying that the rates and concentrations are equal*\n\n  - *The rates of the forwards and backwards reactions are equal at equilibrium*\n  - *The concentrations are **not **necessarily equal but they are constant *"
+    },
+    {
+     "id": "qstnprt_kbhNzh67k2XDNqTG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BZ7nxycDrmC7G4mj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIodine reacts with chlorine to form dark brown iodine monochloride. I~2~ + Cl~2~ → 2ICl. This reacts with more chlorine to give yellow iodine trichloride. An equilibrium forms between these iodine chlorides. ICl (l) + Cl~2~ (g) ⇌ ICl~3~ (s); dark brown ⇌ yellow.\n\n#### Separate: Chemistry and Extended Only\n\nWhen the equilibrium mixture is heated, it becomes a darker brown colour.\n\nSuggest if the reverse reaction is endothermic or exothermic. Give a reason for your choice.",
+     "solution_md": "b) The reverse reaction is:\n\n- Endothermic \n**AND **\nThis is the direction that is favoured by high temperatures **OR **high temperature favours the endothermic reaction / direction; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Careful: **This question asks about the **reverse **reaction*\n- *Increasing the temperature favours the endothermic reaction*\n- *In this question, increasing the temperature produces a darker brown colour*\n\n  - *This suggests that reaction is going backwards, i.e. making more reactant*\n  - *Therefore, the backwards reaction is endothermic*"
+    },
+    {
+     "id": "qstnprt_F6bdnYgky73CHVtg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BZ7nxycDrmC7G4mj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIodine reacts with chlorine to form dark brown iodine monochloride. I~2~ + Cl~2~ → 2ICl. This reacts with more chlorine to give yellow iodine trichloride. An equilibrium forms between these iodine chlorides. ICl (l) + Cl~2~ (g) ⇌ ICl~3~ (s); ICl (l) is dark brown, ICl~3~ (s) is yellow.\n\n#### Separate: Chemistry and Extended Only\n\nThe pressure on the equilibrium mixture is decreased.\n\ni) How would this affect the position of equilibrium? Give a reason for your choice.\n\nIt would move to the ................................................\n\nreason ................................................\n\n[1]\n\nii) Describe what you would observe.\n\n[1]",
+     "solution_md": "c)\n\ni) Decreasing the pressure will:\n\n- Move / shift the equilibrium to the left-hand side / reactants  \n**AND **\nThere are more moles / is a bigger volume on the left-hand side; **[1 mark]**\n\nii) Possible observations with decreasing pressure:\n\nAny **one** of the following:\n\n- Less (yellow) solid; **[1 mark]**\n- More (dark brown) liquid; **[1 mark]**\n- (Pale) green gas visible; **[1 mark]**\n- Reaction mixture turns darker brown; **[1 mark]**\n- Smell of chlorine; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Le Chatelier’s principle suggests that increasing / high pressure favours the side with the fewest moles while decreasing / low pressure favours the side with the most moles*\n- *There are 2 moles of reactant and one mole of product*\n\n  - *Therefore, a decrease in pressure favours the reactants side *\n- *The reactants are iodine chloride which is a dark brown liquid and chlorine which is a pale green gas*\n- *The product is iodine trichloride which is a bright yellow solid*\n\n  - *Since decreasing the pressure shifts the equilibrium to the left / reactants, you will see the associated observations as listed in the answer*"
+    },
+    {
+     "id": "qstnprt_vcZqcRgNGHR7FF9H",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nCalculate the overall energy change for the reaction between iodine and chlorine using the bond energy values shown.\n\nI<sub>2</sub> + Cl<sub>2</sub> → 2ICl\n\n| Bond | Energy / kJ per mol |\n|---|---|\n| I–I | 151 |\n| Cl–Cl | 242 |\n| I–Cl | 208 |\n\nShow your working.",
+     "solution_md": "d) The overall energy change is:\n\n- Bonds broken: \n151 + 242 = 393 (kJ / mol); **[1 mark]**\n- Bonds formed: \n2 x 208 = –416 (kJ / mol); **[1 mark]** \n*Answer for bonds formed must be negative*\n- Overall energy change: 393 - 416 = –23 (kJ / mol); **[1 mark]** \n*Answer must be negative*\n\n**[Total: 3 marks]**\n\n- *Remember: **Overall energy change = energy in - energy out*\n- *Careful: **The equation uses the value for energy out without the sign*"
+    },
+    {
+     "id": "qstnprt_WXJfz3KGvs3dxkgp",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCalculate the overall energy change for the reaction between iodine and chlorine using the bond energy values shown. I~2~ + Cl~2~ → 2ICl. Bond energies: I–I = 151, Cl–Cl = 242, I–Cl = 208 kJ per mol. Bonds broken: 151 + 242 = 393 (kJ/mol); Bonds formed: 2 x 208 = –416 (kJ/mol); Overall energy change: 393 - 416 = –23 (kJ/mol) (exothermic).\n\nDraw a labelled energy level diagram for the reaction between iodine and chlorine using the information in (d).",
+     "solution_md": "e) The labelled energy level diagram for the reaction between iodine and chlorine is:\n\n![Energy profile for exothermic reaction](assets/056-energy-profile-for-exothermic-reaction.jpeg)\n\nAny **two **of the following:\n\n- <u>Exothermic</u> energy level diagram; **[1 mark]**\n- Activation energy shown; **[1 mark]**\n- Reactants and products labelled \n**AND **\nAxes labelled; **[1 mark] **\n*Allow error carried forward from part (d) if the reaction is identified as endothermic*\n\n**[Total: 2 marks]**\n\n- *Careful: **The most common error on energy level diagrams is to jumble the activation energy and energy change *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8KMBv7hp8CSDgh4q",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_CXsT5m6QhBqgSVrZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju0620/31/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Iodine reacts with aqueous sodium thiosulfate, Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>.\n\nBalance the chemical equation for this reaction.\n\n$.....\\mathrm{Na}_{2}S_{2}O_{3}+I_{2}\\rightarrow\\mathrm{Na}_{2}S_{4}O_{6}+.....\\mathrm{NaI}$",
+     "solution_md": "a) The balanced equation is:\n\n**2**Na<sub>2</sub>S<sub>2</sub>O<sub>3 </sub>+ I<sub>2</sub> → Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> + **2**NaI\n\n- 2Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>; **[1 mark] **\n- 2NaI;** [1 mark] **\n\n**[Total: 2 marks]**** **\n\n- *These compounds may seem unfamiliar, though the process of balancing an equation is the same*\n- *There are two atoms of iodine on the left hand side and only one on the right so a 2 must be placed in front of NaI*\n\n  - *Na*<sub>*2*</sub>*S*<sub>*2*</sub>*O*<sub>*3 *</sub>*+ I*<sub>*2*</sub>* →Na*<sub>*2*</sub>*S*<sub>*4*</sub>*O*<sub>*6*</sub>* + **2**NaI*\n- *There are now four sodium atoms on the right hand side and only two on the left so a 2 must be placed in front of Na*<sub>*2*</sub>*S*<sub>*2*</sub>*O*<sub>*3*</sub>\n\n  - *2**Na*<sub>*2*</sub>*S*<sub>*2*</sub>*O*<sub>*3 *</sub>*+ I*<sub>*2*</sub>* →Na*<sub>*2*</sub>*S*<sub>*4*</sub>*O*<sub>*6*</sub>* + 2NaI*",
+     "equations": [
+      {
+       "latex": ".....\\mathrm{Na}_{2}S_{2}O_{3}+I_{2}\\rightarrow\\mathrm{Na}_{2}S_{4}O_{6}+.....\\mathrm{NaI}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><msub><mi>Na</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">S</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">O</mi><mn>3</mn></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mi mathvariant=\"normal\">I</mi><mn>2</mn></msub><mo>→</mo><mo> </mo><msub><mi>Na</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">S</mi><mn>4</mn></msub><msub><mi mathvariant=\"normal\">O</mi><mn>6</mn></msub><mo> </mo><mo>+</mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>NaI</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "..... Na subscript 2 straight S subscript 2 straight O subscript 3 space plus space straight I subscript 2 rightwards arrow space Na subscript 2 straight S subscript 4 straight O subscript 6 space plus space..... NaI"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nPTkNmDYNzyjpDVt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju0620/31/03",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe energy level diagram for this reaction is shown.\n\n![q4dii-0620_s19_qp_31](assets/057-q4dii-0620-s19-qp-31.png)\n\nExplain how this diagram shows that the reaction is exothermic.",
+     "solution_md": "b) This diagram shows the reaction is exothermic because:\n\n- The energy of the reactants is more than the energy of the products \n**OR** \nThe energy of the products is less than the energy of the reactants \n**OR** \nThe reactants lose energy when they form products; **[1 mark] **\n\n**[Total: 1 mark]**** **\n\n- *If more energy is released than is absorbed, then the reaction is exothermic*\n- *Therefore the products will have less energy than the reactants*"
+    },
+    {
+     "id": "qstnprt_2T6X7swX4rkqp7M6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju0620/32",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG"
+     ],
+     "part_tier": null,
+     "problem_md": "Heat is given out when iron reacts with sulfuric acid.\n\nWhat term describes a reaction which gives out heat?",
+     "solution_md": "c) The term describes a reaction which gives out heat is:\n\n- Exothermic;** [1 mark] **\n\n**[Total: 1 mark]**** **\n\n- *Exothermic reactions will increase the temperature of the surroundings*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_68NPzXCHHDqHwwyF",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HjJs54CNMtg7ZVPx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2013",
+      "number": "O31",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jFxmxcjbSWVF3CCs"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe following are two examples of substitution reactions. Only the reaction involving chlorine is a photochemical reaction.\n\nCH<sub>4</sub> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + HCl\n\nCH<sub>4</sub> + Br<sub>2</sub> → CH<sub>3</sub>Br + HBr\n\ni) Explain the phrase substitution reaction.\n\n[1]\n\nii) How do photochemical reactions differ from other reactions?\n\n[1]",
+     "solution_md": "a)\n\ni) A substitution reaction is a reaction where:\n\n- Hydrogen (atoms) are replaced by (atoms) of a different element e.g. chlorine; **[1 mark]** \n*Do not accept the word substitute in answers*\n\nii) Photochemical reactions differ from other reactions because:\n\n- They require light; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The definition of a  substitution reaction is not a common exam question but like all definitions it is worth knowing because it can help you score easy marks*\n- *Questions about photochemical reactions are more common *\n\n  - *You can use the language of the word to help you answer as the prefix \"photo\" relates to light in greek *"
+    },
+    {
+     "id": "qstnprt_7s4N9WnyJFMBcCgr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2013",
+      "number": "O31",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG",
+      "spcpt_gXdvKnRWcfpGTVpK"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nBond forming is exothermic, bond breaking is endothermic.\n\nExplain the difference between an exothermic reaction and an endothermic reaction.",
+     "solution_md": "b) The difference between an exothermic reaction and an endothermic reaction is:\n\n- Exothermic reactions give out / release (heat) energy; **[1 mark]**\n- Endothermic reactions take in / absorb (heat) energy; **[1 mark]**\n\n**[Total: 2 marks]**** **\n\n- *The wording of this question makes it appear harder than it is*\n- *You are actually being asked what exothermic and endothermic mean*"
+    },
+    {
+     "id": "qstnprt_j9J5H4bWFB9TGzpF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2013",
+      "number": "O31",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCH4 + Cl2 → CH3Cl + HCl\n\nBond energy is the amount of energy (kJ / mol) which must be supplied to break one mole of the bond.\n\n|   | Bond energies in kJ /mol |\n| Cl–Cl | +242 |\n| C–Cl | +338 |\n| C–H | +412 |\n| H–Cl | +431 |\n\nbonds broken   energy in kJ /mol \n\n......................       ............................. \n\n......................       ............................. \n\ntotal energy = ............................. \n\nbonds formed    energy in kJ /mol \n\n......................       ............................. \n\n......................       ............................. \n\ntotal energy = .............................\n\n#### Separate: Chemistry and Extended Only\n\nUse the bond energies to show that the following reaction is exothermic.\n\nBond energy is the amount of energy (kJ / mol) which must be supplied to break one mole of the bond.\n\n![7-1-displayed-chlorination-of-methane-m5c-](assets/058-7-1-displayed-chlorination-of-methane-m5c.png)\n\n|   | Bond energies in kJ /mol |\n|---|---|\n| Cl–Cl | +242 |\n| C–Cl | +338 |\n| C–H | +412 |\n| H–Cl | +431 |\n\nbonds broken   energy in kJ /mol\n\n......................        .............................\n\n......................        .............................\n\ntotal energy = .............................\n\nbonds formed    energy in kJ /mol\n\n......................        .............................\n\n......................        .............................\n\ntotal energy = .............................",
+     "solution_md": "c) To show that the reaction is exothermic:\n\n- Bonds broken: 4 x C-H = 4 x 412 = 1648 kJ / mol \n**AND **\n1 x Cl-Cl = 242 kJ / mol \n**AND **Total energy = 1648 + 242 = <u>1890</u> kJ / mol; **[1 mark]**\n- Bonds formed: 3 x C-H = 3 x 412 = 1236kJ / mol \n**AND **\n1 x C-Cl = 338 kJ / mol \n**AND** \n1 x H-Cl = 431 \n**AND **\nTotal energy = 1236 + 338 + 431 = <u>2005</u> kJ / mol; **[1 mark]**\n- Energy change = 1890 - 2005 = <u>–115</u> kJ / mol; **[1 mark]**\n- The negative sign shows that the reaction is exothermic; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *This question is a straightforward application of the energy change = energy in - energy out equation*\n\n  - *This can also be shown as energy change = bonds broken - bonds formed*\n- *The little twist of this question is that you are told that the reaction is exothermic and have to prove this is the case*\n\n  - *This means that you should be getting a negative value for your final answer*\n  - *The final mark for saying about the negative value showing that the reaction is exothermic is missed by many students, presumably because they assume it is known / obvious*\n- *Careful: **Make sure that you include all of the bonds in your calculation*\n\n  - *If it helps, you can tick them off as you add them up*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3J28vtCp96WD24yR",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_DCRYfSQsbvHSySyk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "O32",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jFxmxcjbSWVF3CCs",
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nPropane reacts with chlorine to form a mixture of chloropropanes. This is a photochemical reaction.\n\ni) What is meant by the phrase *photochemical reaction*?\n\n[1]\n\nii) The products of this reaction include two isomers, one of which has the following structural formula.\n\n![1-chloropropane](assets/059-1-chloropropane.png)\n\nDraw the structural formula of the other isomer.\n\n[1]\n\niii) Explain why these two different compounds are isomers.\n\n[2]",
+     "solution_md": "a)\n\ni) A photochemical reaction is:\n\n- A reaction whose rate is influenced by light \n**OR **\nA reaction that occurs in presence of light; **[1 mark]**\n\nii) The structural formula of the other isomer is:\n\n![2-chloropropane-displayed](assets/060-2-chloropropane-displayed.png)\n\n- ; **[1 mark]**\n\niii) These two different compounds are isomers because:\n\n- They have the same molecular formula;** [1 mark]**\n- (But,) a different structural formula / structure;** [1 mark]**\n\n**[Total: 4 marks]**\n\n- *The prefix \"photo\" in the word photochemical derives from the Greek for light*\n\n  - *Therefore, a photochemical reaction is one that is influenced by light / requires light*\n- *Using the structural formula given, the chlorine atom appears to be on carbon 3 (counting from left to right)*\n\n  - *If the chlorine was on carbon 1, then you would have the reflection of the structural formula given*\n  - *Therefore, the only place that the chlorine atom can go to produce a different chemical is carbon 2 / the middle carbon*\n- *Both chemicals have the same molecular formula because they contain the same atoms in the same ratios*\n\n  - *3 carbons, 7 hydrogens and 1 chlorine giving a molecular formula of C*<sub>*3*</sub>*H*<sub>*7*</sub>*Cl*\n  - *The position of the chlorine atom on different carbon atoms means that the compounds are isomers as they have a different structural formula*\n  - *The structure given in the question has the structural formula CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*Cl*\n  - *The structure in the answer for part (ii) has the structural formula CH*<sub>*3*</sub>*CHClCH*<sub>*3*</sub>\n  - *At A-level, these are called position isomers *"
+    },
+    {
+     "id": "qstnprt_h9NyZ3VVR6MRQ8Rv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2015",
+      "number": "O32",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rdv25J6n73Gsk9DG",
+      "spcpt_MgHpBSztQCqmxvgH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nBond breaking is an endothermic change and bond forming is an exothermic change.\n\nBond energy is the amount of energy in kJ / mol needed to break one mole of the specified bond.\n\n![7-1-displayed-reaction-of-chlorpropane-m2b-](assets/061-7-1-displayed-reaction-of-chlorpropane-m2b.png)\n\nUse the following bond energies to determine whether this reaction is exothermic or endothermic. You must show your reasoning.\n\n| bond | bond energies in kJ / mol |\n|---|---|\n| C-Cl | 338 |\n| C-H | 412 |\n| Cl-Cl | 242 |\n| H-Cl | 431 |\n| C-C | 348 |",
+     "solution_md": "b) To determine if the reaction is exothermic or endothermic:\n\n- Bonds broken: (8 x C-H) + (2 x C-C) + (Cl-Cl) = (8 x 412) + (2 x 348) + 242 = 4234 (kJ / mol); **[1 mark]**\n- Bonds formed: (7 x C-H) + (2 x C-C) + (C-Cl) + (H-Cl) = (7 x 412) + (2 x 348) + 338 + 431 = 4349 (kJ / mol); **[1 mark]**\n- 4234 - 4349 = -115 (kJ / mol) \n**AND **\nThe reaction is exothermic; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Remember: **The overall energy / enthalpy change for the reaction is based on the calculation of energy in - energy out*\n\n  - *This can sometimes be shown as bonds broken - bonds formed*\n- *Careful: **The most common mistake in this type of calculation is to miss one of the bonds so it is worth ticking the bonds off on the equation to ensure you don't miss any*\n- *When these questions are for 3 marks, you will find:*\n\n  - *1 mark for the bonds broken / energy in*\n  - *1 mark for the bonds formed / energy out*\n  - *1 mark for the final answer and conclusion of exothermic or endothermic*\n  - *Remember: **Exothermic reactions will have a negative value and endothermic reactions will have a positive value*"
+    },
+    {
+     "id": "qstnprt_K5shnxVfBf8VvW9j",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "O32",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC",
+      "spcpt_cDfTFF6Wy2cyyhKn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\ni) Chloropropane can be hydrolysed to propanol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, by sodium hydroxide.\n\nWrite the equation for this reaction.\n\n[2]\n\nii) Propanol can be dehydrated. It loses a water molecule to form a hydrocarbon.\n\nGive the name and structural formula of this hydrocarbon.\n\nname .................................................\n\nstructural formula\n\n[2]\n\niii) Propanol is oxidised to a carboxylic acid by acidified potassium manganate(VII).\n\nDeduce the name of this acid.\n\n[1]",
+     "solution_md": "c)\n\ni) The equation for the hydrolysis of chloropropane to propanol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, by sodium hydroxide is:\n\nCH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl + NaOH → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH + NaCl\n\n- Correct identification of NaCl as product; **[1 mark]**\n- Remainder of chemical equation correct; **[1 mark]**\n\nii) The name and structural formula of this hydrocarbon are:\n\n- Name: Propene; **[1 mark]**\n- Structural formula: CH<sub>2</sub>=CHCH<sub>3</sub> **OR** CH<sub>3</sub>CH=CH<sub>2</sub>; **[1 mark]**\n\niii) The name of the acid formed when propanol is oxidised by acidified potassium manganate(VII) is:\n\n- Propanoic acid; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *The question for part (i) gives you most of the information that you require to write the chemical equation*\n\n  - *\"chloropropane **(reactant)** to propanol, CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*OH **(product)**, by sodium hydroxide **(reactant)**\"*\n  - *Chloropropane + sodium hydroxide → propanol + ?*\n  - *CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*Cl + NaOH → CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*OH + ?*\n  - *By looking at the atoms on either side, you should be able to see that Na and Cl have not been used*\n  - *This would make common salt*\n  - *CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*Cl + NaOH → CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*OH + NaCl*\n- *In part (ii) you are told that propanol is dehydrated / loses a water molecule*\n\n  - *Propanol: CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*OH *\n  - *Water: H*<sub>*2*</sub>*O or H-OH*\n  - *Careful: **Do not remove the H and OH from the same carbon of propanol, they are removed from neighbouring carbons*\n  - *Incomplete product: CH*<sub>*3*</sub>*CHCH*<sub>*2*</sub>* *\n  - *The bonding is then adjusted to make the molecule complete with all hydrogens having one bond and all carbons having 4 bonds*\n  - *Complete product: CH*<sub>*3*</sub>*-CH=CH*<sub>*2*</sub>* *\n- *In part (iii), you are told that propanol is being oxidised to form a carboxylic acid*\n\n  - *This means that the acid must be propane-based, just like propanol*\n  - *Therefore, the carboxylic acid is propanoic acid*"
+    },
+    {
+     "id": "qstnprt_8GCwqTPq6tfqn2Wp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "O32",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6",
+      "spcpt_JD9ZKfWpJRHRDSr2"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nPropanol reacts with methanoic acid to form the ester propyl methanoate.\n\nCH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH + HCOOH → HCOOCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + H<sub>2</sub>O\n\n4.0 g of methanoic acid was reacted with 6.0 g of propanol.\n\ni) Calculate the *M*<sub>r</sub> of methanoic acid = ........................................\n\n[1]\n\nii) Calculate the *M*<sub>r</sub> of propanol = ........................................\n\n[1]\n\niii) Determine which one is the limiting reagent. Show your reasoning.\n\n[2]\n\niv) Calculate the maximum yield in grams of propyl methanoate, *M*<sub>r</sub> = 88.\n\n[1]",
+     "solution_md": "d) CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH + HCOOH → HCOOCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + H<sub>2</sub>O\n\ni) The *M*<sub>r</sub> of methanoic acid is:\n\n- H + C + O + O + H = 1 + 12 + 16 + 16 + 1 = <u>46</u>; **[1 mark]**\n\nii) The *M*<sub>r</sub> of propanol is\n\n- C + (3 x H) + C + (2 x H) + C + (2 x H) + O + H = 12 + 3 + 12 + 2 + 12 + 2 + 16 + 1 = <u>60</u>; **[1 mark]**\n\niii) To determine the limiting reagent:\n\n- Moles of propanol = $=\\frac{6.0}{60}=$0.1; **[1 mark]**\n- Moles of methanoic acid $=\\frac{4.0}{46}=$0.087 \n**AND **\nThe limiting reagent is methanoic acid; **[1 mark]**\n\niv) The maximum yield in grams of propyl methanoate is:\n\n- 88 x 0.087 = <u>7.65</u> (g); **[1 mark]** \n*Allow error carried forward from part (iii) using the lowest number of moles, i.e. 88 x lowest number of moles*\n\n**[Total: 5 marks]**\n\n- *To calculate the **M*<sub>*r*</sub>* of a chemical, add up all of the atomic masses for **ALL** of the atoms in the chemical*\n\n  - *Careful: **Make sure that you don't miss any atoms as this will lead to an incorrect answer*\n- *Remember: **In this reaction, the limiting reagent is the reactant with the fewest number of moles involved in the reaction as the reactants react in a 1:1 ratio*\n\n  - *For this question, you calculate the number of moles using the equation moles = *$\\frac{\\mathrm{mass}}{M_{r}}$\n- *The limiting reagent will determine the maximum amount of a product that can be formed*\n\n  - *This is because once the limiting reagent is used up, you cannot form any more product*\n- *The **M*<sub>*r*</sub>* of propyl methanoate, HCOOCH*<sub>*2*</sub>*CH*<sub>*2*</sub>*CH*<sub>*3*</sub>*, is 88 g / mol*\n\n  - *The chemical equation shows that there is a 1 : 1 ratio between the either reactant and the propyl methanoate product*\n  - *Therefore, the maximum yield will be the **M*<sub>*r*</sub>* of propyl methanoate multiplied by the number of moles of limiting reagent, e.g. 88 x 0.087 = 7.65 g*",
+     "equations": [
+      {
+       "latex": "=\\frac{6.0}{60}=",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mo>=</mo><mfrac><mrow><mn>6</mn><mo>.</mo><mn>0</mn></mrow><mn>60</mn></mfrac><mo>=</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style equals fraction numerator 6.0 over denominator 60 end fraction equals end style"
+      },
+      {
+       "latex": "=\\frac{4.0}{46}=",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mo>=</mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>0</mn></mrow><mn>46</mn></mfrac><mo>=</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "equals fraction numerator 4.0 over denominator 46 end fraction equals"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mi>mass</mi><msub><mi mathvariant=\"normal\">M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mass over straight M subscript straight r"
       }
      ]
     }

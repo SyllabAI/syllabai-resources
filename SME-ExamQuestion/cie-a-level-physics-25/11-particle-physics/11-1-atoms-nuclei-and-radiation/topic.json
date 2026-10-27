@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:18:33Z",
+ "generated_utc": "2026-10-26T14:38:57Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -68,14 +68,29 @@
    "question_count": 35,
    "questions_embedded": 35,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/11-particle-physics/11-1-atoms-nuclei-and-radiation/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_hSQsb2xFHmYJy3d6",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/11-particle-physics/11-1-atoms-nuclei-and-radiation/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 35,
+  "questions_embedded": 43,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images618png.png": "001-cie-ial-images618png.png",
@@ -90,7 +105,10 @@
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images610png.png": "010-cie-ial-images610png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images615png.png": "011-cie-ial-images615png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images617png.png": "012-cie-ial-images617png.png",
-   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images616png.png": "013-cie-ial-images616png.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images616png.png": "013-cie-ial-images616png.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/energy-distribution-of-beta-particles.png": "014-energy-distribution-of-beta-particles.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/11-1-2a-m-rutherford-scattering-apparatus.png": "015-11-1-2a-m-rutherford-scattering-apparatus.png",
+   "https://cdn.savemyexams.com/uploads/2024/01/ms-q1b.png": "016-ms-q1b.png"
   }
  },
  "questions": [
@@ -140,6 +158,36 @@
        "label": "D",
        "is_correct": false,
        "text_md": "2"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose v subscript e",
+       "render": "$\\vec{v}_{e}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -191,6 +239,29 @@
        "label": "D",
        "is_correct": false,
        "text_md": ""
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -294,6 +365,36 @@
        "is_correct": false,
        "text_md": ""
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -345,6 +446,50 @@
        "is_correct": false,
        "text_md": ""
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "top enclose v subscript e",
+       "render": "$\\vec{v}_{e}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A presubscript 85 presuperscript 218 t space rightwards arrow space X presubscript 86 presuperscript 218 space plus space beta presubscript negative 1 end presubscript presuperscript 0",
+       "render": "`A _ 85 ^ 218 t -> X _ 86 ^ 218 + beta _ - 1 ^ 0`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript 86 presuperscript 218 space rightwards arrow space P presubscript 84 presuperscript 214 o space plus space alpha presubscript 2 presuperscript 4",
+       "render": "$X_{86}^{218} \\rightarrow P_{84}^{214} o + \\\\alpha pre_{2} pre^{4}$",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -395,6 +540,43 @@
        "label": "D",
        "is_correct": false,
        "text_md": "the total mass of the products is equal to the mass of the initial nucleus Q"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space space alpha presubscript 2 presuperscript 4 space",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses v with bar on top subscript e close parentheses",
+       "render": "$( \\bar{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space v with bar on top subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q space rightwards arrow space R space plus space space space alpha presubscript 2 presuperscript 4 space plus space 2 beta presubscript negative 1 end presubscript presuperscript 0 space",
+       "render": "`Q -> R + alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -497,6 +679,29 @@
        "label": "D",
        "is_correct": true,
        "text_md": "`X presubscript 92 presuperscript 235`"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses P presubscript 94 presuperscript 239 u close parentheses",
+       "render": "$( P_{94}^{239} u )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space space alpha presubscript 2 presuperscript 4 space",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P presubscript 94 presuperscript 239 u space rightwards arrow space X presubscript 92 presuperscript 235 space plus space alpha presubscript 2 presuperscript 4",
+       "render": "$P_{94}^{239} u \\rightarrow X_{92}^{235} + \\\\alpha pre_{2} pre^{4}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -601,6 +806,15 @@
        "is_correct": false,
        "text_md": "an α-particle"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "A presubscript 13 presuperscript 27 l space plus space alpha presubscript 2 presuperscript 4 space rightwards arrow space P presubscript 15 presuperscript 30 space plus space X presubscript A presuperscript Z space",
+       "render": "$A_{13}^{27} l + \\\\alpha pre_{2} pre^{4} \\rightarrow P_{15}^{30} + X pre_{A} pre^{Z}$",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -703,6 +917,36 @@
        "is_correct": false,
        "text_md": "it is identical to the original nuclide"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -754,6 +998,22 @@
        "is_correct": false,
        "text_md": ""
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript space A minus 4 end presuperscript space plus space space alpha presubscript 2 presuperscript 4 space",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "U presubscript 92 presuperscript 258 rightwards arrow space X presubscript 90 presuperscript 254 space plus space space alpha presubscript 2 presuperscript 4 space",
+       "render": "$U_{92}^{258} \\rightarrow X_{90}^{254} + \\\\alpha pre_{2} pre^{4}$",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -804,6 +1064,36 @@
        "label": "D",
        "is_correct": false,
        "text_md": "$N_{7}^{14} + space_{1}^{1} p \\rightarrow C_{6}^{11} + H_{2}^{4} e$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N presubscript 7 presuperscript 14 space plus space H presubscript 2 presuperscript 4 e space rightwards arrow O presubscript 8 presuperscript 17 space plus space n presubscript 1 presuperscript 1",
+       "render": "$N_{7}^{14} + H_{2}^{4} e \\rightarrow O_{8}^{17} + n_{1}^{1}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "O presubscript 8 presuperscript 17 space plus space H presubscript 2 presuperscript 4 e space rightwards arrow space F presubscript 9 presuperscript 20 space plus space P presubscript 1 presuperscript 1",
+       "render": "$O_{8}^{17} + H_{2}^{4} e \\rightarrow F_{9}^{20} + P_{1}^{1}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "O presubscript 8 presuperscript 17 space plus space e presubscript negative 1 end presubscript presuperscript 0 space rightwards arrow space B presubscript 5 presuperscript 13 space plus space H presubscript 2 presuperscript 4 e",
+       "render": "`O _ 8 ^ 17 + e _ - 1 ^ 0 -> B _ 5 ^ 13 + H _ 2 ^ 4 e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N presubscript 7 presuperscript 14 space plus space space presubscript 1 presuperscript 1 p space rightwards arrow space C presubscript 6 presuperscript 11 space plus H presubscript 2 presuperscript 4 e",
+       "render": "$N_{7}^{14} + space_{1}^{1} p \\rightarrow C_{6}^{11} + H_{2}^{4} e$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -913,6 +1203,13 @@
        "latex": "αββγα",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo> </mo><mo> </mo><mi>β</mi><mo> </mo><mo> </mo><mi>β</mi><mo> </mo><mo> </mo><mi>γ</mi><mo> </mo><mo> </mo><mi>α</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "alpha space space beta space space beta space space gamma space space alpha"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "T presubscript 90 presuperscript 232 h space space rightwards arrow with alpha on top space space R presubscript 88 space end presubscript presuperscript 228 a space rightwards arrow with beta on top space A presubscript 89 presuperscript 228 c space rightwards arrow with beta on top T presubscript 90 presuperscript 228 h rightwards arrow with gamma on top T presubscript 90 presuperscript 228 h rightwards arrow with alpha on top R presubscript 88 presuperscript 224 a",
+       "render": "`T _ 90 ^ 232 h -> with alpha on top R _ 88 ^ 228 a -> with beta on top A _ 89 ^ 228 c -> with beta on top T _ 90 ^ 228 h -> with gamma on top T _ 90 ^ 228 h -> with alpha on top R _ 88 ^ 224 a`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -965,6 +1262,29 @@
        "is_correct": true,
        "text_md": ""
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1015,6 +1335,36 @@
        "label": "D",
        "is_correct": false,
        "text_md": ""
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses v with bar on top subscript e close parentheses",
+       "render": "$( \\bar{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A rightwards arrow Y presubscript Z plus 1 end presubscript presuperscript A plus beta presubscript negative 1 end presubscript presuperscript 0 plus top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript plus alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1220,6 +1570,36 @@
        "is_correct": false,
        "text_md": "an α-particle followed by a γ-ray"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A rightwards arrow Y presubscript Z plus 1 end presubscript presuperscript A plus beta presubscript negative 1 end presubscript presuperscript 0 plus top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript plus alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1274,6 +1654,48 @@
       }
      ],
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "bold italic R presubscript bold 86 presuperscript bold 222 bold italic n",
+       "render": "`R _ 86 ^ 222 n`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "bold italic P presubscript bold 82 presuperscript bold 206 bold italic b",
+       "render": "`P _ 82 ^ 206 b`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript space space A end presuperscript space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
       {
        "latex": "=\\frac{16}{4}=4",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mn>16</mn><mn>4</mn></mfrac><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
@@ -1330,6 +1752,29 @@
        "is_correct": false,
        "text_md": "nucleus M could transform into Q by emitting a beta particle"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Q presubscript 13 presuperscript 24 space space space space space E presubscript 14 presuperscript 28 space space space space space G presubscript 15 presuperscript 25 space space space space space M presubscript 12 presuperscript 25",
+       "render": "$Q_{13}^{24} E_{14}^{28} G_{15}^{25} M_{12}^{25}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space space alpha presubscript 2 presuperscript 4 space",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses M presubscript 12 presuperscript 25 close parentheses",
+       "render": "$( M_{12}^{25} )$",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1380,6 +1825,15 @@
        "label": "D",
        "is_correct": false,
        "text_md": "the charge of an α-particle is +1.60 × 10<sup>–19</sup> C"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z minus 2 end presubscript presuperscript space A minus 4 end presuperscript space plus space space alpha presubscript 2 presuperscript 4 space",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1585,6 +2039,29 @@
        "is_correct": false,
        "text_md": "different isotopic nuclei have different proton numbers"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses v with bar on top subscript e close parentheses",
+       "render": "$( \\bar{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space v with bar on top subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ e`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1693,6 +2170,13 @@
        "latex": "γβ^{-}ααγ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#947;</mi><mo>&#160;</mo><msup><mi>&#946;</mi><mo>-</mo></msup><mo>&#160;</mo><mi>&#945;</mi><mo>&#160;</mo><mi>&#945;</mi><mo>&#160;</mo><mi>&#947;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "gamma space beta to the power of minus space alpha space alpha space gamma"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "N presubscript 93 presuperscript 236 p rightwards arrow with gamma on top N presubscript 93 presuperscript 236 p rightwards arrow with beta to the power of blank to the power of minus end exponent on top P presubscript 94 presuperscript 236 u rightwards arrow with alpha on top U presubscript 92 presuperscript 232 rightwards arrow with alpha on top T presubscript 90 presuperscript 228 h rightwards arrow with gamma on top T presubscript 90 presuperscript 228 h",
+       "render": "$N_{93}^{236} p \\xrightarrow{ \\\\gamma } N_{93}^{236} p \\xrightarrow{ \\\\beta ^{^{-} } } P_{94}^{236} u \\xrightarrow{ \\\\alpha } U_{92}^{232} \\xrightarrow{ \\\\alpha } T_{90}^{228} h \\xrightarrow{ \\\\gamma } T_{90}^{228} h$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1745,6 +2229,36 @@
        "is_correct": true,
        "text_md": "one α-particle followed by two β-particles"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e\n",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1796,6 +2310,36 @@
        "is_correct": false,
        "text_md": "W and Z are identical in all respects"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z minus 2 end presubscript presuperscript A minus 4 end presuperscript space plus space alpha presubscript 2 presuperscript 4",
+       "render": "`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses top enclose v subscript e close parentheses",
+       "render": "$( \\vec{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow space Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose v subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1846,6 +2390,29 @@
        "label": "D",
        "is_correct": false,
        "text_md": "energy of the β-particles"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses beta presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "render": "`( beta _ - 1 ^ 0 )`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses v with bar on top subscript e close parentheses",
+       "render": "$( \\bar{v}_{e} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "X presubscript Z presuperscript A space rightwards arrow Y presubscript Z plus 1 end presubscript presuperscript A space plus space beta presubscript negative 1 end presubscript presuperscript 0 space plus space v with bar on top subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ e`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1901,6 +2468,13 @@
      ],
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "P presubscript 84 presuperscript 210 o space rightwards arrow space P presubscript 82 presuperscript 206 b space plus space alpha",
+       "render": "$P_{84}^{210} o \\rightarrow P_{82}^{206} b + \\\\alpha$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "=MV-mv",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mi>M</mi><mi>V</mi><mo>-</mo><mi>m</mi><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "equals M V minus m v"
@@ -1921,9 +2495,58 @@
        "alt": "M to the power of space 2 end exponent V space squared equals m squared v squared"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "M open parentheses 1 half M space V to the power of space 2 end exponent close parentheses equals m open parentheses 1 half m v squared close parentheses",
+       "render": "$M ( 1 \\frac{1}{2} M V^{ 2} ) = m ( 1 \\frac{1}{2} m v^{2} )$",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{KEofPb-206}{KEofα}=\\frac{massofα}{massofPb-206}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>K</mi><mi>E</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>P</mi><mi>b</mi><mo>-</mo><mn>206</mn></mrow><mrow><mi>K</mi><mi>E</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>α</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>α</mi></mrow><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>P</mi><mi>b</mi><mo>-</mo><mn>206</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "fraction numerator K E space o f space P b minus 206 over denominator K E space o f space alpha end fraction equals fraction numerator m a s s space o f space alpha over denominator m a s s space o f space P b minus 206 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator K E open parentheses P b close parentheses over denominator K E open parentheses alpha close parentheses end fraction equals 4 over 206 equals 0.0194",
+       "render": "$\\frac{K E ( P b )}{K E ( \\\\alpha )} = \\frac{4}{206} = 0.0194$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "K E open parentheses P b close parentheses plus K E open parentheses alpha close parentheses equals E subscript k",
+       "render": "$K E ( P b ) + K E ( \\\\alpha ) = E_{k}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "K E open parentheses alpha close parentheses equals fraction numerator K E open parentheses P b close parentheses over denominator 0.0194 end fraction",
+       "render": "$K E ( \\\\alpha ) = \\frac{K E ( P b )}{0.0194}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "K E open parentheses P b close parentheses plus fraction numerator K E open parentheses P b close parentheses over denominator 0.0194 end fraction equals E subscript k",
+       "render": "$K E ( P b ) + \\frac{K E ( P b )}{0.0194} = E_{k}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "K E open parentheses P b close parentheses open square brackets 1 plus fraction numerator 1 over denominator 0.0194 end fraction close square brackets equals E subscript k\n",
+       "render": "$K E ( P b ) [ 1 + \\frac{1}{0.0194} ] = E_{k}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "K E open parentheses P b close parentheses equals fraction numerator E subscript k over denominator open parentheses 1 plus fraction numerator 1 over denominator 0.0194 end fraction close parentheses end fraction equals 0.0190 space E subscript k",
+       "render": "$K E ( P b ) = \\frac{E_{k} }{( 1 + \\frac{1}{0.0194} )} = 0.0190 E_{k}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{E_{k}}{2}",
@@ -1951,6 +2574,854 @@
        "alt": "E subscript k"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_69yKrYb4pdV27bQw",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_hn6v7NX6w7qGbHrx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YyH4BMjdZ3FmSSDm"
+     ],
+     "part_tier": null,
+     "problem_md": "In the alpha-particle scattering experiment, a beam of alpha particles was directed at a thin gold foil.\n\nState the conclusion that can be drawn about the structure of the atom from\n\n(i) the observation that most alpha-particles pass through the foil\n\n[1]\n\n(ii) the observation that very few alpha-particles were deflected through angles greater than 90°.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The observation that most alpha-particles pass through the foil implies:\n> \n> - Most of an atom is empty space **OR** The nucleus (volume) is (very) small compared with the atom **[1 mark]**\n> \n> (ii) The observation that very few alpha-particles were deflected through angles greater than 90° implies:\n> \n> - The nucleus is charged **[1 mark]**\n> - The majority of the mass of an atom is in the nucleus **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VSVvQv8S59S6jXCG",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_RpWcRXwRVRJ8MYbg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation below represents the decay of tungsten-184.\n\nComplete the equation by writing the correct number in each of the **two** boxes.\n\n`W _ 74 ^ 184 -> Po _ square ^ square + alpha particle`",
+     "solution_md": "To correctly fill in the boxes for Po:\n\n- Top number (mass number) = 180** ****[1 mark]**\n- Bottom number (atomic number) = 72 **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight W presubscript 74 presuperscript 184 space rightwards arrow space Po presubscript square presuperscript square space plus space alpha space particle",
+       "render": "`W _ 74 ^ 184 -> Po _ square ^ square + alpha particle`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QKcqSb3cTrXvGW85",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZzSDSvvX8P9K4vPX",
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "Beta decay does **not** cause the mass number of an atom to change.\n\nExplain why not.",
+     "solution_md": "Explain why mass number does not change:\n\n- Number of neutrons decreases by one; **[1 mark]**\n- Number of protons increases by one; **[1 mark]**\n- Both (protons and neutrons) have a (relative) mass of 1 **OR** both have the same (relative) mass; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_hBmpZqq7WF6mVH6V",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation representing the decay of iodine-128 to xenon is shown below.\n\nComplete the equation by writing the correct number in each of the **two** boxes.\n\n`I _ 53 ^ 128 -> Xe _ square ^ square + beta particle`",
+     "solution_md": "To correctly fill in Xe:\n\n- Top number (mass number) = 128** [1 mark]**\n- Bottom number (atomic number) = 54 **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight I presubscript 53 presuperscript 128 space rightwards arrow space Xe presubscript square presuperscript square space plus space beta space particle",
+       "render": "`I _ 53 ^ 128 -> Xe _ square ^ square + beta particle`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YN5bQRwGPBrXFDSt",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_fJbXNPMKqF3x4sk5"
+     ],
+     "part_tier": null,
+     "problem_md": "State another particle emitted in beta minus decay.",
+     "solution_md": "Another particle emitted in beta minus decay is:\n\n- An anti electron neutrino;** ****[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tVrCqKF9G6py33WN",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_h4DvD4pDYbzN9PfS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZzSDSvvX8P9K4vPX"
+     ],
+     "part_tier": null,
+     "problem_md": "When a nucleus of plutonium-239 absorbs a neutron, the following reaction may take place.\n\n$Pu_{94}^{239} + \\mathrm{n} pre_{b} pre^{a} \\rightarrow \\text{Xe} pre_{54} pre^{x} + \\text{Zr} pre_{y} pre^{103} + 3 \\mathrm{n} pre_{b} pre^{a}$\n\nState the values of *a*, *b*, *x* and *y*.",
+     "solution_md": "The values of *a*, *b*, *x* and *y* are:\n\n`Pu _ 94 ^ 239 + n _ 0 ^ 1 -> Xe _ 54 ^ 134 + Zr _ 40 ^ 103 + 3 n _ 0 ^ 1`\n\n- *a *= 1 **AND** *b* = 0 **[1 mark]**\n\nCalculate *x*:\n\n- 239 + 1 = *x* + 103 + (3 × 1)\n- *x* = 240 – 106\n- *x* = 134 **[1 mark]**\n\nCalculate *y*:\n\n- 94 + 0 = 54 + *y* + (3 × 0)\n- *y* = 94 – 54\n- *y* = 40 **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *On the right-hand side, *`3 n presubscript 0 presuperscript 1 space`*means that there are **3** neutrons, so **both** the mass number (1) and the atomic number (0) must be **multiplied** by 3.*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Pu presubscript 94 presuperscript 239 space plus space straight n presubscript b presuperscript a space rightwards arrow space Xe presubscript 54 presuperscript x space plus space space Zr presubscript y presuperscript 103 space plus space 3 straight n presubscript b presuperscript a space",
+       "render": "$Pu_{94}^{239} + \\mathrm{n} pre_{b} pre^{a} \\rightarrow \\text{Xe} pre_{54} pre^{x} + \\text{Zr} pre_{y} pre^{103} + 3 \\mathrm{n} pre_{b} pre^{a}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Pu presubscript 94 presuperscript 239 space plus space straight n presubscript bold 0 presuperscript bold 1 space rightwards arrow space Xe presubscript 54 presuperscript bold 134 space plus space space Zr presubscript bold 40 presuperscript 103 space plus space 3 straight n presubscript bold 0 presuperscript bold 1 space",
+       "render": "`Pu _ 94 ^ 239 + n _ 0 ^ 1 -> Xe _ 54 ^ 134 + Zr _ 40 ^ 103 + 3 n _ 0 ^ 1`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_wzycnx6RCKK4jXpH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZzSDSvvX8P9K4vPX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen a nucleus of plutonium-239 absorbs a neutron, the following reaction may take place. \\$\\$\\_{94}^{239}Pu + \\_{b}^{a}n \\rightarrow \\_{54}^{x}Xe + \\_{y}^{103}Zr + 3 \\_{b}^{a}n\\$\\$\n\nState two quantities, other than the proton and neutron number, that are conserved in the fission reaction in part (a).",
+     "solution_md": "Three quantities that are conserved in the fission reaction in part (a) are:\n\n- mass and energy / mass–energy; **[1 mark]**\n- momentum; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Be specific in your wording. Just 'mass' or 'energy' conservation would not be accepted here, since energy and mass are interchangeable and are often referred to as the same thing in particle physics (e.g. rest-mass energy).*"
+    },
+    {
+     "id": "qstnprt_PKYDn6wsD7b2r8F6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kCXjsDSBkhz9D5fM"
+     ],
+     "part_tier": null,
+     "problem_md": "A Plutonium-239 nucleus has a mean density of 1.3 × 10<sup>17</sup> kg m<sup>–3</sup>.\n\nShow that the radius of a Plutonium-239 nucleus is 9.0 × 10<sup>–15</sup> m.",
+     "solution_md": "Calculate the radius of a Plutonium-239 nucleus\n\nList the known quantities:\n\n- Mean density of the Plutonium-239 nucleus,* ρ* = 1.3 × 10<sup>17</sup> kg m<sup>–3</sup>\n\nCalculate the mass of the Plutonium nucleus, *m*:\n\n- *m* = mass number × atomic mass unit = 239 × 1 u\n- *m* = 239 × (1.66 × 10<sup>–27</sup>) = 3.9674 × 10<sup>–25</sup> kg **[1 mark]**\n\nCalculate the radius of the Plutonium nucleus, *r*:\n\n- $ρ=\\frac{m}{V}=\\frac{m}{\\frac{4}{3}πr^{3}}=\\frac{3m}{4πr^{3}}$ **[1 mark]**\n- $r = \\sqrt[3]{ \\frac{3 m}{4 \\mathrm{\\pi } \\\\rho } } = \\sqrt[3]{ \\frac{3 \\times ( 3.9674 \\times 10^{- 25} )}{4 \\mathrm{\\pi } \\times ( 1.3 \\times 10^{17} )} }$ = 8.996 × 10<sup>–15</sup> = 9.0 × 10<sup>–15</sup> m **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You can approximate a nucleus as a sphere, but you must remember the equation for the volume of a sphere, as this will not be given on your data sheet! However, the value of the atomic mass unit (u) will be given.*",
+     "equations": [
+      {
+       "latex": "ρ=\\frac{m}{V}=\\frac{m}{\\frac{4}{3}πr^{3}}=\\frac{3m}{4πr^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#961;</mi><mo>=</mo><mfrac><mi>m</mi><mi>V</mi></mfrac><mo>=</mo><mfrac><mi>m</mi><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>m</mi></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "rho equals m over V equals fraction numerator m over denominator 4 over 3 straight pi r cubed end fraction equals fraction numerator 3 m over denominator 4 straight pi r cubed end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "r equals cube root of fraction numerator 3 m over denominator 4 straight pi rho end fraction end root equals cube root of fraction numerator 3 cross times open parentheses 3.9674 cross times 10 to the power of negative 25 end exponent close parentheses over denominator 4 straight pi cross times open parentheses 1.3 cross times 10 to the power of 17 close parentheses end fraction end root",
+       "render": "$r = \\sqrt[3]{ \\frac{3 m}{4 \\mathrm{\\pi } \\\\rho } } = \\sqrt[3]{ \\frac{3 \\times ( 3.9674 \\times 10^{- 25} )}{4 \\mathrm{\\pi } \\times ( 1.3 \\times 10^{17} )} }$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zGsrqP8RHvCRPHWK",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "distinguish",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hrbzWr899PZXT5mW"
+     ],
+     "part_tier": null,
+     "problem_md": "Plutonium-239 is an α-emitter whilst Uranium-237 is a β-emitter.\n\nAside from their structure, distinguish between an α-particle and a β-particle.",
+     "solution_md": "Aside from their structure, distinguish between an α-particle and a β-particle.\n\n**Final answer:** **Any ****three**** from:**\n\n- The speed of an α-particle is less than the speed of a β-particle; **[1 mark]**\n- An α-particle has discrete values of energy / speed whilst β-particles have a continuous spectrum / range of energies; **[1 mark]**\n- α-particles have greater ionising power than β-particles **OR **α-particles have a shorter range than β-particles; **[1 mark]**\n- α-particles are positive whilst β-particles are negative; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Reverse arguments would be accepted for all of these answers e.g. the speed of a β-particle is greater than the speed of an α-particle. The main thing is to remember that a comparison must mention both.*\n\n> *Read the question carefully, as it says 'aside from their structure'. This means answers such as 'an α-particle is two protons and two neutrons and a β-particle is an electron' will not be accepted.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TNrY7DrCjWxf5C8g",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_6BjyPfPygQfQPMpW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "indicate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hrbzWr899PZXT5mW"
+     ],
+     "part_tier": null,
+     "problem_md": "The study of beta decay provided early hints to the existence of a yet undiscovered particle.\n\nScientists were interested in the energy distribution of the beta particles emitted when a radioactive source decayed. The source has an activity of 120 Bq.\n\nThe energy released by each decaying nucleus was labelled as X and the total energy released each second by the source was measured to be 7.5 × 10<sup>–11</sup> J.\n\nSketch a graph to show the energy distribution of the beta particles and indicate X on the diagram.",
+     "solution_md": "A graph that would score 3 marks should look like this:\n\n![energy-distribution-of-beta-particles](assets/014-energy-distribution-of-beta-particles.png)\n\n- The y-axis is labelled with the relative number of beta particles with energy *E* **AND** the x-axis is labelled with kinetic energy *E* / 10<sup>−13</sup> J; **[1 mark]**\n- The graph arcs upwards from a positive intercept on the y-axis to a maximum close to the top **AND **then curves back down to the x-axis; **[1 mark]**\n- The graph ends at X marked on the x-axis close to the end of the space allocated; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Read this question carefully. The energy released by each decaying nucleus is not the same as the total energy released per second. After reading the question you should know what type of graph you need to draw for the **energy distribution of the beta particles**.*\n\n> *Make sure the graph you sketch covers most of the space you have allocated on the axis. *"
+    },
+    {
+     "id": "qstnprt_RhhdkKJY2XQ23szh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_RHQ3WWvCTMzyrdBd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe source has an activity of 120 Bq. The energy released by each decaying nucleus was labelled as X and the total energy released each second by the source was measured to be 7.5 × 10^–11^ J.\n\nDetermine the value of X to an appropriate degree of accuracy.",
+     "solution_md": "List the known quantities:\n\n- Activity* *= 120 Bq\n- Total source energy released per second = 7.5 × 10<sup>–11</sup> J\n\nCalculation of X:\n\n- Activity × energy released from one nucleus per decay = total source energy released per second\n- 120 × X = 7.5 × 10<sup>–11</sup>\n- X = 6.25 × 10<sup>–13</sup> J **[1 mark]**\n\nState the value of X to 2 significant figures, as used in the question:\n\n- X = 6.3 × 10<sup>–13 </sup>J **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Clearly, the mathematics required for this question is quite straightforward, but the underlying physics requires advanced understanding. *\n\n> *Reflect on the fact that the total energy released per second is the activity × the energy released per decay. This requires a comfortable knowledge of the definition of activity (the number of decays per second) and a careful appreciation of units.*"
+    },
+    {
+     "id": "qstnprt_q2VNGRhr3DJWpYDY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hrbzWr899PZXT5mW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe study of beta decay provided early hints to the existence of a yet undiscovered particle. Scientists were interested in the energy distribution of the beta particles emitted when a radioactive source decayed. The source has an activity of 120 Bq. The energy released by each decaying nucleus was labelled as X and the total energy released each second by the source was measured to be 7.5 × 10^–11^ J.\n\nExplain why no beta particles had an energy equal to X.",
+     "solution_md": "No beta particles have an energy equal to X because:\n\n**Final answer:** **Any**** one**** from:**\n\n- Another particle is emitted during beta decay; **[1 mark]**\n- A neutrino / an anti-neutrino is emitted; **[1 mark]**\n- The nucleus recoils; **[1 mark]**\n\nNone of the beta particles have an energy equal to X because:\n\n- The other particle / anti-neutrino/nucleus takes some of the rest mass energy available; **[1 mark]**\n\n**[Total: 2 marks]**** **\n\n> *It is important to note that there will always be some minimum energy required to form a neutrino so that the maximum energy of a beta particle is*\n\n> *X − **E*<sub>*(mass of neutrino)*</sub>\n\n> *However, this mass is so small that the difference between X and the maximum energy of a beta particle is not visible on the scale of the X-axis. *\n\n> *While the recoil of the nucleus during radioactive decay is true, the main cause for the upper limit on the energy of beta particles was due to the presence of another particle – the neutrino / anti-neutrino (depending on whether it was β+ or β− decay). Remember to link this important discovery to questions asking about the distribution of energy of beta particles.*"
+    },
+    {
+     "id": "qstnprt_Jm8QvsZthBqgc7wq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe study of beta decay provided early hints to the existence of a yet undiscovered particle. Scientists were interested in the energy distribution of the beta particles emitted when a radioactive source decayed.\n\nSuggest the standard form of the two possible equations that represent this decay and define all the terms used.",
+     "solution_md": "The first equation represents β− decay:\n\n- `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ 0 ^ 0 _ e`** [1 mark]**\n\nThe second equation represents β+ decay:\n\n- `X _ Z ^ A -> Y _ Z - 1 ^ A + beta _ + 1 ^ 0 + v _ 0 ^ 0 _ e` **[1 mark]**\n\nWhere:\n\n- X is the <u>parent</u> nuclei with nucleon number A and proton number Z **AND**\n- Y is the <u>daughter</u> nuclei with the nucleon number A and proton number Z ±1 **AND**\n- `beta _ +/- 1 ^ 0` is the beta particle **AND**\n- `v -bar _ 0 ^ 0 _ e` is the (electron) anti-neutrino **AND **$v_{0}^{0}_{e}$** **the (electron) neutrino; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The question does not say whether the decay is β+ or β−, so you must include both equations. You should think of these equations automatically when considering β decay. *\n\n> *You are asked to define all the terms in your equations so make sure you do so carefully. This is time-consuming but easy marks! Make sure you use the correct language of **parent **and **daughter **nuclei. *",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z plus 1 end presubscript presuperscript straight A space plus space straight beta presubscript negative 1 end presubscript presuperscript 0 space plus space scriptbase v with bar on top end scriptbase presubscript 0 presuperscript 0 subscript e",
+       "render": "`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ 0 ^ 0 _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z minus 1 end presubscript presuperscript straight A space plus space straight beta presubscript plus 1 end presubscript presuperscript 0 space plus space straight v presubscript 0 presuperscript 0 subscript straight e",
+       "render": "`X _ Z ^ A -> Y _ Z - 1 ^ A + beta _ + 1 ^ 0 + v _ 0 ^ 0 _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "beta presubscript plus-or-minus 1 end presubscript presuperscript 0",
+       "render": "`beta _ +/- 1 ^ 0`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "scriptbase v with bar on top end scriptbase presubscript 0 presuperscript 0 subscript e",
+       "render": "`v -bar _ 0 ^ 0 _ e`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "v presubscript 0 presuperscript 0 subscript straight e",
+       "render": "$v_{0}^{0}_{e}$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jvmtpZdRyNhMvf7V",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_cV8VNY3MBXr79NzM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YyH4BMjdZ3FmSSDm"
+     ],
+     "part_tier": null,
+     "problem_md": "The deflection of α-particles by a thin metal foil is investigated with the arrangement shown in Fig 1.1.\n\n![11-1-2a-m-rutherford-scattering-apparatus](assets/015-11-1-2a-m-rutherford-scattering-apparatus.png)\n\n**Fig 1.1**\n\nThe detector of α-particles, D, is moved around the path labelled WXY.\n\nState the environment the apparatus must be enclosed in and explain why this is required for the experiment.",
+     "solution_md": "State the environment the apparatus must be enclosed in and explain why this is required for the experiment.\n\nThe apparatus must be enclosed in:\n\n- A vacuum; **[1 mark]**\n\nBecause:\n\n- α-particles travel / are absorbed by a short distance in air; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_spnFs5G7h8Z6mctD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YyH4BMjdZ3FmSSDm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe deflection of α-particles by a thin metal foil is investigated with the arrangement shown in Fig 1.1. Fig 1.1 The detector of α-particles, D, is moved around the path labelled WXY.\n\nExplain the readings detected by D and the conclusions that were made about the nature of atoms at points\n\n(i) W,\n\n[2]\n\n(ii) X.\n\n[2]",
+     "solution_md": "Explain the readings detected by D and the conclusions that were made about the nature of atoms at points\n\n(i) W:\n\n- A <u>very</u> small proportion deviated in the backwards direction / at large angles; **[1 mark]**\n- This shows that the mass <u>and</u> charge are concentrated in a (very small) nucleus; **[1 mark]**\n\n(ii) X:\n\n- The majority went straight through; **[1 mark]**\n- This shows that most of the atom is <u>empty</u> space / the nucleus is very small compared with the atom; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_p6n7rgwb98dM9z5N",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YyH4BMjdZ3FmSSDm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe deflection of α-particles by a thin metal foil is investigated with the arrangement shown in Fig 1.1. Fig 1.1 The detector of α-particles, D, is moved around the path labelled WXY.\n\nState what the readings detected by D at position Y conclude about the charge of the nucleus. Explain why.",
+     "solution_md": "State what the readings detected by D at position Y conclude about the charge of the nucleus. Explain why.\n\n- The charge of the nucleus is positive; **[1 mark]**\n- Because the alpha particle is positive **AND** it is repelled / deflected (at an angle);** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *Remember the alpha particle is just a helium **nucleus** with two protons and two neutrons. Only protons have a charge in the nucleus (which is positive) so all nuclei are always positive. *"
+    },
+    {
+     "id": "qstnprt_VZFG4Ncb4tF65Zy3",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w7pBqYM2Hd6FdHgk"
+     ],
+     "part_tier": null,
+     "problem_md": "A beam of α-particles produces a current of 3.5 pA. Calculate the number of α-particles per second passing a point in the beam.",
+     "solution_md": "Calculate the number of α-particles per second passing a point in the beam\n\nList the known quantities:\n\n- Current, *I* = 3.5 pA = 3.5 × 10<sup>–12</sup> A\n\nState the equation for current, *I*:\n\n- $Q=It\\RightarrowI=\\frac{Q}{t}$ **[1 mark]**\n\nDetermine an equation for the number of α-particles, *n*:\n\n- $I=n\\times\\frac{Q}{t}\\Rightarrow\\frac{n}{t}=\\frac{I}{Q}$\n- $\\frac{n}{t} = \\frac{3.5 \\times 10^{- 12} }{2 \\times ( 1.60 \\times 10^{- 19} )}$ **[1 mark]**\n- $\\frac{n}{t}=1.094\\times10^{6}=1.1\\times10^{6}s^{-1}$ **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *An alpha particle is a helium nucleus of **2** protons and **2** neutrons. Therefore, its charge is the 2 × charge of a proton (**e** = 1.60 × 10*<sup>*–19*</sup>* C). You will be expected to remember the composition of an alpha particle, and the charge **e** is given on your data sheet.*\n\n> *The wording 'per second' means 'every 1 second'. Therefore, the 'number of particles, **n**, per second' is represented as an equation *$\\frac{n}{t}$*.*",
+     "equations": [
+      {
+       "latex": "Q=It\\RightarrowI=\\frac{Q}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>I</mi><mi>t</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>Q</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Q space equals space I t space space space rightwards double arrow space space space space I space equals space Q over t"
+      },
+      {
+       "latex": "I=n\\times\\frac{Q}{t}\\Rightarrow\\frac{n}{t}=\\frac{I}{Q}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>n</mi><mo>&#160;</mo><mo>&#215;</mo><mfrac><mrow><mo>&#160;</mo><mi>Q</mi></mrow><mi>t</mi></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mfrac><mrow><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>n</mi><mo>&#160;</mo></mrow><mi>t</mi></mfrac><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>I</mi><mo>&#160;</mo></mrow><mi>Q</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "I space equals space n space cross times fraction numerator space Q over denominator t end fraction space space space rightwards double arrow fraction numerator space space space n space over denominator t end fraction equals space fraction numerator I space over denominator Q end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "n over t space equals space fraction numerator 3.5 space cross times space 10 to the power of negative 12 end exponent space over denominator 2 space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses end fraction",
+       "render": "$\\frac{n}{t} = \\frac{3.5 \\times 10^{- 12} }{2 \\times ( 1.60 \\times 10^{- 19} )}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{n}{t}=1.094\\times10^{6}=1.1\\times10^{6}s^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>n</mi><mi>t</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>094</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>1</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n over t space equals space 1.094 space cross times space 10 to the power of 6 space equals space 1.1 space cross times space 10 to the power of 6 space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\frac{n}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>n</mi><mi>t</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n over t"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_hkb5V5VCZ6Q6Y885",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_FQP72bGdzpGMHYTJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "A radioactive nucleus `X _ 85 ^ 229` undergoes a beta−minus decay followed by an alpha decay to form a daughter nucleus $\\mathrm{Y} pre_{Z} pre^{A}$.\n\nWrite a decay equation for this interaction and hence determine the values of A and Z.",
+     "solution_md": "List the known quantities:\n\n- Alpha particle = `alpha presubscript 2 presuperscript 4`\n- Beta–minus particle = `beta presubscript negative 1 end presubscript presuperscript 0`\n\nCombine the equations for alpha and beta–minus into one decay equation:\n\n- `X _ 85 ^ 229 -> Y _ Z ^ A + alpha _ 2 ^ 4 + beta _ - 1 ^ 0 + v _ e -bar` **[1 mark]**\n\nState the values of A and Z:\n\n- A = 225, Z = 84 **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Don't forget to include the anti-neutrino! *\n\n> *Read the question carefully. It tells you what the daughter nucleus is, so don't get confused with using the daughter nucleus from either the alpha or beta decay. *",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight X presubscript 85 presuperscript 229",
+       "render": "`X _ 85 ^ 229`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight Y presubscript straight Z presuperscript straight A",
+       "render": "$\\mathrm{Y} pre_{Z} pre^{A}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight X presubscript 85 presuperscript 229 rightwards arrow straight Y presubscript straight Z presuperscript straight A plus straight alpha presubscript 2 presuperscript 4 plus straight beta presubscript negative 1 end presubscript presuperscript 0 space plus stack straight v subscript straight e with bar on top",
+       "render": "`X _ 85 ^ 229 -> Y _ Z ^ A + alpha _ 2 ^ 4 + beta _ - 1 ^ 0 + v _ e -bar`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_CxG5r2VrHWPz8FNf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "Thorium, `Th presubscript 90 presuperscript 232` decays to an isotope of Radium (Ra) through a series of transformations. The particles emitted in successive transformations are:\n\n$αββγα$\n\nDetermine the resulting nuclide after these successive transformations.",
+     "solution_md": "Determine the resulting nuclide after these successive transformations:\n\n- During $α$ emission, an alpha particle `alpha presubscript 2 presuperscript 4` is released from each starting atom\n\n  - The mass number decreases by 4 and the proton number decreases by 2\n- During $β$ emission, an electron (or positron) is released\n\n  - The proton number increases by 1, but there is no change in the mass number\n- During $γ$ emission, electromagnetic gamma rays are emitted\n\n  - There is no reduction in mass or proton number\n\nA flow diagram of the processes involved is obtained using the periodic table:\n\n- $Th_{90}^{232} \\rightarrow Ra_{88}^{228} \\rightarrow Ac_{89}^{228} \\rightarrow Th_{90}^{228} \\rightarrow Th_{90}^{228} \\rightarrow Ra_{88}^{224}$\n\n  - All $α$ decays correct; **[1 mark]**\n  - All  $β$decays correct; **[1 mark]**\n\nState the final decay product:\n\n- `Ra presubscript 88 presuperscript 224`** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *Remember that the proton number of each element in the periodic table is unique. Look up each proton number to obtain the correct element. *",
+     "equations": [
+      {
+       "latex": "αββγα",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#945;</mi><mo>&#160;</mo><mo>&#160;</mo><mi>&#946;</mi><mo>&#160;</mo><mo>&#160;</mo><mi>&#946;</mi><mo>&#160;</mo><mo>&#160;</mo><mi>&#947;</mi><mo>&#160;</mo><mo>&#160;</mo><mi>&#945;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "alpha space space beta space space beta space space gamma space space alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "γ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#947;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "gamma"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Th presubscript 90 presuperscript 232 rightwards arrow Ra presubscript 88 presuperscript 228 rightwards arrow Ac presubscript 89 presuperscript 228 rightwards arrow Th presubscript 90 presuperscript 228 rightwards arrow Th presubscript 90 presuperscript 228 rightwards arrow Ra presubscript 88 presuperscript 224",
+       "render": "$Th_{90}^{232} \\rightarrow Ra_{88}^{228} \\rightarrow Ac_{89}^{228} \\rightarrow Th_{90}^{228} \\rightarrow Th_{90}^{228} \\rightarrow Ra_{88}^{224}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "beta"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bt4RGknKNvFD98Mz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "Through a combination of successive alpha and beta decays, the isotope of any original nucleus can be formed.\n\nExplain the simplest sequence of alpha and beta decays required to do this.",
+     "solution_md": "Determine the condition required for the formation of the isotope:\n\n- For the decay sequence to result in the formation of an isotope of the original nucleus, the proton number must remain the same; **[1 mark]**\n\nDetermine the simplest sequence that can achieve this:\n\n- (The simplest sequence is) 1 alpha (decay) **and** 2 beta (decays); **[1 mark]** **OR** In equation form: `Z _ X ^ A -> alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0 + Y _ X ^ A - 4` **[1 mark]**\n\nAn explanation is:\n\n- Change in proton number: 2 + 2 × (–1) = 0 **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *When explaining your reasoning, make it clear why your answer is correct by backing it up with any calculations for full marks (like is done in this explanation). It is not enough just to say ‘the proton number remains the same’.*\n\n- *Alpha decay decreases the proton number by 2*\n- *Beta decay increases the proton number by 1*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight Z presubscript straight X presuperscript straight A rightwards arrow straight alpha presubscript 2 presuperscript 4 space plus space 2 straight beta presubscript negative 1 end presubscript presuperscript 0 space plus space straight Y presubscript straight X presuperscript straight A minus 4 end presuperscript",
+       "render": "`Z _ X ^ A -> alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0 + Y _ X ^ A - 4`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4ngNfMGHcy68xSTm",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Prtmyd7yKn2Vg43f"
+     ],
+     "part_tier": null,
+     "problem_md": "A nucleus of Bohrium $\\text{Bh} pre_{Y} pre^{X}$ decays to Mendelevium `Md presubscript 101 presuperscript 255` by a sequence of three alpha particle emissions.\n\nDetermine the number of neutrons in a nucleus of $\\text{Bh} pre_{Y} pre^{X}$.",
+     "solution_md": "Write a decay equation for this reaction:\n\n- $\\text{Bh} pre_{Y} pre^{X} \\rightarrow Md_{101}^{255} + 3 \\ \\\\alpha pre_{2} pre^{4}$ **[1 mark]**\n\nCalculate the number of neutrons:\n\n- X = 255 + (3 × 4) = 267\n- Y = 101 + (3 × 2) = 107\n- Therefore, Bohrium = `Bh presubscript 107 presuperscript 267`\n\n  - Hence, the number of neutrons = 267 – 107 = 160** ****[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Bh presubscript straight Y presuperscript straight X",
+       "render": "$\\text{Bh} pre_{Y} pre^{X}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Bh presubscript straight Y presuperscript straight X",
+       "render": "$\\text{Bh} pre_{Y} pre^{X}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Bh presubscript straight Y presuperscript straight X rightwards arrow Md presubscript 101 presuperscript 255 space plus space 3 space straight alpha presubscript 2 presuperscript 4",
+       "render": "$\\text{Bh} pre_{Y} pre^{X} \\rightarrow Md_{101}^{255} + 3 \\ \\\\alpha pre_{2} pre^{4}$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_96dy9ChQ8Qp8FYF5",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_BVbjYTDfvjrWr93w",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hqmJY4MT3zxKmGNj"
+     ],
+     "part_tier": null,
+     "problem_md": "Ionising radiation often comes in three forms: alpha, beta and gamma.\n\nTable 1.1 below shows information about the properties of each type of radiation.\n\n| **Type** | **Nuclear notation** | **Relative charge** |\n|---|---|---|\n| **Alpha** |   | +2 |\n| **Beta** | `beta _ - 1 ^ 0` |   |\n| **Gamma** |   |   |\n\n**Table 1.1   **\n\nComplete the missing information in Table 1.1.",
+     "solution_md": "A completed Table 1.1 that would score full credit is shown below:\n\n| **Type** | **Nuclear notation** | **Relative charge** |\n|---|---|---|\n| **Alpha** | $\\ \\\\alpha pre_{2} pre^{4}$** ****OR**** **`He presubscript 2 presuperscript 4` | +2 |\n| **Beta** | `beta _ - 1 ^ 0` | **Final answer:** **–1** |\n| **Gamma** | $\\ \\\\gamma pre_{0} pre^{0}$ | **Final answer:** **0** |\n\n- **[1 mark]** for each correct entry\n\n**[Total: 4 marks]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight beta presubscript negative 1 end presubscript presuperscript 0",
+       "render": "`beta _ - 1 ^ 0`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight alpha presubscript 2 presuperscript 4",
+       "render": "$\\ \\\\alpha pre_{2} pre^{4}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight beta presubscript negative 1 end presubscript presuperscript 0",
+       "render": "`beta _ - 1 ^ 0`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight gamma presubscript 0 presuperscript 0",
+       "render": "$\\ \\\\gamma pre_{0} pre^{0}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Sc7CQZkDQRz5FP7k",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hqmJY4MT3zxKmGNj"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **one** similarity and **one** difference between alpha particles and beta particles**.**",
+     "solution_md": "A similarity between alpha particles and beta particles:\n\n**Final answer:** **Any ****one**** from:**\n\n- Both particles are charged;** [1 mark]**\n- Both particles can cause ionisation / are ionising;** [1 mark] **\n- Both particles are emitted from the nucleus during radioactive decay; **[1 mark]**\n\nA difference between alpha particles and beta particles:\n\n**Final answer:** **Any ****one**** from:**\n\n- Alpha particles have double the magnitude of charge of beta particles; **[1 mark]**\n- Alpha particles have more mass than beta particles / beta particles have less mass than alpha particles; **[1 mark]**\n- Beta particles are fundamental particles whereas alpha particles are not; **[1 mark]**\n- Alpha particles are positively charged** **<u>whereas</u> beta particles are negatively charged; **[1 mark]**\n\n**[Total: 2 marks] **\n\n> *Avoid saying that both particles are ‘radioactive’, as this is technically incorrect. The alpha or beta particles are themselves not radioactive: the nuclei that decayed and emitted these particles are radioactive.*"
+    },
+    {
+     "id": "qstnprt_79wyFBb95h7FSg5q",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YyH4BMjdZ3FmSSDm"
+     ],
+     "part_tier": null,
+     "problem_md": "The properties of ionising radiation that make it so useful is related to the study of the structure of atoms.\n\nEvidence that atoms had an internal structure was confirmed by Ernest Rutherford. He was able to show that a thin sheet of gold foil scattered ionising radiation in ways that could not be explained by accepted models of atomic structure at the time.\n\nState the type of ionising radiation that was scattered by gold foil in Rutherford’s experiment.",
+     "solution_md": "The type of ionising radiation scattered by gold foil in Rutherford’s experiment was:\n\n- Alpha particles / radiation; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_krYtk56zQMkHQt4G",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "match",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YyH4BMjdZ3FmSSDm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEvidence that atoms had an internal structure was confirmed by Ernest Rutherford. He was able to show that a thin sheet of gold foil scattered ionising radiation in ways that could not be explained by accepted models of atomic structure at the time.\n\nEach of the observations from Rutherford’s experiment had profound implications about how atoms were structured.\n\nIn the space provided below, match each observation from Rutherford’s experiment to its corresponding conclusion about atomic structure.\n\n| **Observation** |   | **Conclusion** |\n|---|---|---|\n| A small proportion of radiation is slightly deflected by the gold foil | The atom is mostly empty space |   |\n| The majority of radiation is undeflected by the gold foil | The mass of a nucleus is concentrated in a very small volume |   |\n| A very small proportion of radiation is deflected back on itself | The nucleus carries a positive charge |   |",
+     "solution_md": "Observations and conclusions have been matched as shown below:\n\n![ms-q1b](assets/016-ms-q1b.png)\n\n- **[1 mark]** for each correct match\n\n**[Total: 3 marks]**** **\n\n> *When revising Rutherford’s experiment, remember to memorise **both **the observations **and** the conclusions that can be drawn about atomic structure.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5Z7d9gTpw4Kd8Z4m",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_PdYpSdbxtm3JPn9f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 2",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_hqmJY4MT3zxKmGNj"
+     ],
+     "part_tier": null,
+     "problem_md": "A nucleus X decays by emitting a β+ particle to form a new nucleus, $Na_{11}^{23}$.\n\nState the number of protons and the number of neutrons in nucleus X.\n\nnumber of protons = .......................................................\n\nnumber of neutrons = .......................................................",
+     "solution_md": "For the decay:\n\n`X -> Na _ 11 ^ 23 + beta ^ + _ + 1 ^ 0 + nu -bar`\n\nNucleus X has:\n\n- Mass number = 23 + 0 = 23 protons + neutrons\n- Number of protons = 11 + 1 = 12 protons; **[1 mark]**\n- Number of neutrons = 23 − 12 = 11 neutrons; **[1 mark]**\n\n**[Total: 2 marks]**",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 16px style Na presubscript 11 presuperscript 23 end style",
+       "render": "$Na_{11}^{23}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight X space rightwards arrow space Na presubscript 11 presuperscript 23 space plus scriptbase space straight beta to the power of plus end scriptbase presubscript plus 1 end presubscript presuperscript 0 space plus space straight nu with bar on top",
+       "render": "`X -> Na _ 11 ^ 23 + beta ^ + _ + 1 ^ 0 + nu -bar`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_G2DdDJyVfQkM5hHq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2022",
+      "number": "Paper 2",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_hqmJY4MT3zxKmGNj"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one** similarity between a β<sup>+</sup> particle and a β<sup>–</sup> particle.",
+     "solution_md": "β<sup>+</sup> and β<sup>–</sup> particles have the same:\n\n**Final answer:** **Either ****one ****from:**\n\n- (Rest) mass; **[1 mark]**\n- (Magnitude of) charge; **[1 mark]**\n\n**[Total: 1 mark]**"
     }
    ]
   }

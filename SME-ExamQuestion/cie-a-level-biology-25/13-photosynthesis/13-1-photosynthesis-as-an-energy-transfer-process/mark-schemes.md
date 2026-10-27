@@ -467,7 +467,7 @@ The role of the accessory pigments in photosynthesis is to...
 > *Preventing photoactivation would mean that no electrons enter the electron transport chain on the thylakoid membrane. This would prevent the production of ATP and reduced NADP, meaning that these products are not available to enter the Calvin cycle. The Calvin cycle will be unable to progress from GP to TP (ATP and NADPH are needed for this step), so no TP and therefore no hexose sugars will be produced.*
 The process taking place at **B** Fig.1 involves...
 
-**Final answer:** **Any ****four ****of the following:**
+**Final answer:** **Any ****five ****of the following:**
 
 - Energy is released as electrons pass down the electron transport chain; **[1 mark]**
 - The energy released is used to power a proton pump/membrane protein that pumps/actively transports hydrogen ions/protons/H<sup>+ </sup>(from the stroma) into the thylakoid lumen/space; **[1 mark]**
@@ -478,6 +478,11 @@ The process taking place at **B** Fig.1 involves...
 - ATP is synthesised/produced from ADP and phosphate/P<sub>i</sub>; **[1 mark]**
 
 **[Total: 5 marks]**
+
+> **[exam-tip]**
+> Do not stop at electrons passing along the carriers, since most marks are for how ATP is then made.
+> 
+> Avoid vague phrases such as electrons pass along the chain to make ATP.
 
 ### Q10
 Stage A of the Calvin cycle can be described as follows...

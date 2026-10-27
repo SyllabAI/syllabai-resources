@@ -1,0 +1,861 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:21:52Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "11-group-17",
+  "name": "11. Group 17"
+ },
+ "topic": {
+  "id": "top_z5PSqkPwYrjdb3Mc",
+  "slug": "11-1-physical-properties-of-the-group-17-elements",
+  "name": "Physical Properties of the Group 17 Elements",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "physical-properties-of-the-group-17-elements",
+   "name": "Physical Properties of the Group 17 Elements",
+   "revision_note_id": "rn_wPCGtWtVn4hV7NFh"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_DcjVp9pynJjHFpvY",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 11,
+   "questions_embedded": 11,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/11-group-17/11-1-physical-properties-of-the-group-17-elements/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_Q7P533ZhTzzNRMtc",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/11-group-17/11-1-physical-properties-of-the-group-17-elements/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 14,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2022/03/q7_3-1_periodic-table--periodic-trends_ib_-sl_hard.png": "001-line-graph-of-first-ionisation-energy-against-pr.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/img-2781-720.jpg": "002-diagram-of-an-f-f-molecule-showing-a-central-sig.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_9J6tDHwty7JBqsMR",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cK3px4k34ZH6xzh7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows some properties of three halogens at room temperature and pressure (r.t.p.).\n\n| halogen | colour at r.t.p. | physical state at r.t.p. | boiling point / K |\n|---|---|---|---|\n| chlorine | pale green | gas | 239 |\n| bromine | **X** | **Y** | 332 |\n| iodine | **Z** | solid | 457 |\n\nWhich row identifies **X**, **Y** and **Z**?\n\n|   | **X** | **Y** | **Z** |\n|---|---|---|---|\n| **A** | orange-brown | gas | purple |\n| **B** | pale yellow | liquid | purple |\n| **C** | red-brown | liquid | grey-black |\n| **D** | red-brown | solid | grey-black |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Room temperature and pressure (r.t.p.) is approximately 293 K.\n- The boiling point of bromine (332 K) is above r.t.p., so bromine has not yet boiled.\n\n  - Therefore **Y** = liquid\n- The boiling point of iodine (457 K) is well above r.t.p., so iodine is a solid, consistent with the given data.\n- Halogen colours at r.t.p.:\n\n  - Chlorine is pale green\n  - Bromine is red-brown\n  - Iodine is grey-black as a solid\n- Therefore **X** = red-brown and **Z** = grey-black.\n\n**A** is incorrect as bromine is a liquid at r.t.p. (boiling point 332 K > 293 K), not a gas. Iodine is not purple as a solid.\n\n**B** is incorrect as pale yellow describes fluorine, not bromine. Iodine is not purple as a solid.\n\n**D** is incorrect as bromine is a liquid at r.t.p., not a solid.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VWsbZfHHjZpc9jtR",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pB7vxccmzkjjKgJQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement about the elements in Group 17 and their compounds is **not **correct?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The bond dissociation energy of the hydrogen halides decreases from HCl to HI.\n\n  - So, the statement that it increases is incorrect.\n- Down Group 17, the atomic radius of the halogen increases.\n\n  - This makes the H–X bond longer and reduces the effective orbital overlap between the hydrogen 1s orbital and the halogen p orbital.\n  - A longer bond with less effective orbital overlap has a lower bond dissociation energy, so HI has a lower bond dissociation energy than HCl.\n\n**A** is incorrect as the statement is true. Down Group 17, atomic radius increases and there is greater electron shielding, so the outermost electrons are less strongly attracted to the nucleus. Less energy is needed to remove an electron from astatine than from iodine, giving astatine a lower first ionisation energy.\n\n**B** is incorrect as the statement is true. When haloalkanes are warmed with aqueous silver nitrate in ethanol, the rate of hydrolysis depends on the C–X bond enthalpy. The C–I bond is longer and weaker than C–Cl or C–Br, so CH<sub>3</sub>I undergoes hydrolysis and produces a precipitate the fastest.\n\n**C** is incorrect as the statement is true. Fluorine has the smallest atomic radius and least electron shielding in Group 17, giving it the greatest nuclear attraction for incoming electrons. This makes it the strongest oxidising agent and therefore the weakest reducing agent.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Astatine has a lower first ionisation energy than iodine."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>I produces a silver halide precipitate with aqueous silver nitrate in ethanol faster than CH<sub>3</sub>Cl or CH<sub>3</sub>Br."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Fluorine is the weakest reducing agent of the Group 17 elements."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The bond dissociation energy of the hydrogen halides increases from HCl to HI."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VMdbq3Pcd5BXFM9s",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3cWF4xXNKRYFcVQh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which property is greater for iodine than for chlorine?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- X<sub>2</sub> diatomic halogen molecules are non-polar, so only instantaneous dipole-induced dipole forces act between them.\n- Down Group 17, the number of electrons per molecule increases, making the electron cloud more polarisable.\n- This increases the strength of the van der Waals' forces, so iodine has stronger forces between its molecules than chlorine.\n\n**A** is incorrect as the oxidising ability of the halogens decreases down Group 17. Iodine has a larger atomic radius and more electron shielding, so its nucleus exerts a weaker attraction for incoming electrons.\n\n**B** is incorrect as the solubility of silver halides in aqueous ammonia decreases down the group. Silver chloride dissolves in dilute aqueous ammonia; silver iodide is insoluble even in concentrated aqueous ammonia.\n\n**D** is incorrect as the thermal stability of hydrogen halides decreases down Group 17. The H–I bond is longer and weaker than H–Cl, so HI decomposes more readily.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "oxidising ability of the element"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "solubility of the silver halide in NH<sub>3</sub> (aq)"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "strength of van der Waals' forces between the molecules of the element"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "thermal stability of the hydrogen halide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kNq6WhQ9SGpNcnm6",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DNdVTb9gx6cDTGg8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row correctly describes the trends in the properties of the hydrogen halides from HCl to HI?\n\n|   | **bond length** | **ease of oxidation** | **thermal stability** |\n|---|---|---|---|\n| **A** | decreases | decreases | increases |\n| **B** | decreases | increases | decreases |\n| **C** | increases | decreases | increases |\n| **D** | increases | increases | decreases |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Down Group 17, the atomic radius of the halogen increases as more principal quantum shells are added.\n\n- Bond length:\n\n  - The larger atomic radius of the halogen means the H–X bond is longer from HCl to HI, so bond length increases.\n\n- Ease of oxidation:\n\n  - The larger the halide ion, the further the outer electrons are from the nucleus and the more shielded they are.\n  - It is therefore easier for the halide ion to lose an electron, so ease of oxidation increases from HCl to HI.\n\n- Thermal stability:\n\n  - The longer H–X bond has a lower bond enthalpy.\n  - Less energy is needed to break the bond, so the hydrogen halide decomposes more easily.\n  - Thermal stability decreases from HCl to HI.\n\n**A**, **B**, and **C** are incorrect as the bond length increases (not decreases) down Group 17 from HCl to HI.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_J9SSmJHBvSHTMgcQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_VpQjQJ3mgsRGv44V",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "Shown on the graph are the relative values of the first ionisation energies of four elements that have consecutive atomic numbers. One of the elements reacts with hydrogen to form a covalent compound with formula HX.\n\nWhich element could be X?\n\n![Line graph of first ionisation energy against proton number for four consecutive elements A, B, C and D, showing values rising from A to a peak at B, then a sharp drop to C, followed by a slight rise to D](assets/001-line-graph-of-first-ionisation-energy-against-pr.png)",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- First ionisation energy generally increases across a period as nuclear charge increases.\n- A sharp drop occurs at the start of a new period because the outermost electron enters a new principal quantum shell that is further from the nucleus and more shielded by inner electrons.\n- The peak before the drop (B) is therefore a Group 18 noble gas, and the trough (C) is a Group 1 alkali metal.\n- The sequence for the four consecutive elements is:\n\nGroup 17 (A) → Group 18 (B) → Group 1 (C) → Group 2 (D).\n\n- An element that forms a covalent compound with hydrogen with formula HX must have 7 electrons in its outermost principal quantum shell, so that it can share one electron with hydrogen to complete its outer shell.\n- This describes a Group 17 halogen.\n\n  - Therefore element X is **A**.\n\n**B** is incorrect as this is a Group 18 noble gas with a full outer shell. Noble gases are chemically inert and do not form covalent compounds with hydrogen.\n\n**C** is incorrect as this is a Group 1 alkali metal. It forms ionic hydrides (e.g. NaH), not covalent compounds with formula HX.\n\n**D** is incorrect as this is a Group 2 alkaline earth metal. It forms ionic hydrides with formula XH<sub>2</sub> (e.g. CaH<sub>2</sub>), not HX.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_H2MVx2wKbHmJQnhC",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HyR8krrr824gWvxB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which graph correctly shows a property of the elements in Group 17 from fluorine to iodine plotted against proton number?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Halogen molecules (X<sub>2</sub>) are non-polar and interact via weak instantaneous dipole-induced dipole forces.\n- Down Group 17, the number of electrons per molecule increases, making the electron cloud more polarisable.\n- This leads to stronger instantaneous dipole-induced dipole forces and a steadily increasing boiling point from fluorine to iodine.\n\n**B** is incorrect as bond length increases down Group 17. The atomic radius increases with each additional principal quantum shell, making the X–X bond longer from F<sub>2</sub> to I<sub>2</sub>.\n\n**C** is incorrect as bond energy does not increase steadily down Group 17. The F–F bond is anomalously weak due to lone-pair repulsion between the very small fluorine atoms. Bond energy peaks at Cl<sub>2</sub> and then decreases to Br<sub>2</sub> and I<sub>2</sub>.\n\n**D** is incorrect as boiling point increases, not decreases, down Group 17.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_F8kfZrq8v422PHsQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_jXQGvDgJqy3J8srS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement explains why HBr (aq) is a stronger acid than HF (aq)?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- For an acid to be strong, it must fully dissociate in aqueous solution to release H<sup>+</sup> ions.\n- The degree of dissociation depends on how easily the H–X bond breaks.\n- Fluorine has a smaller atomic radius than bromine, so the H–F bond is shorter and has a higher bond dissociation energy than H–Br.\n- Since the H–F bond is stronger, it does not break as easily. HF (aq) only partially dissociates, making it a weak acid.\n- HBr (aq) fully dissociates and releases more H<sup>+</sup> ions, so it is a stronger acid.\n\n**A** is incorrect as the stronger acid, HBr (aq), dissociates more readily than HF (aq), not the other way around.\n\n**B** is incorrect as HBr (aq) releases more H<sup>+</sup> ions than HF (aq), since HBr is the stronger acid that fully dissociates.\n\n**C** is incorrect as the H–F bond has a higher bond dissociation energy than H–Br. Fluorine’s smaller atomic radius makes the H–F bond shorter and stronger.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "HF (aq) dissociates more readily than HBr (aq) when dissolved in solution."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "HF (aq) releases more H<sup>+</sup> ions than HBr (aq)."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The H–Br bond has a higher bond dissociation energy than the H–F bond."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The H–F bond is stronger than the H–Br bond and does not break as easily."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8NWJvmRvZKvDjhgM",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Y4d2dSHSQgdRPBTx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "The following report appeared in a newspaper.\n\n| *Barrels of bromine broke open after a vehicle collision on the motorway. Traffic was diverted as purple gaseous bromine drifted over the surface of the road (as bromine is more dense than air), causing irritation to drivers' eyes. Firefighters sprayed water over the scene of the accident, dissolving the bromine and washing it away.* |\n|---|\n\nWhich property described in the report is chemically incorrect?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The report states that gaseous bromine was purple.\n\n  - This is chemically incorrect.\n  - Bromine vapour is orange/red-brown in colour.\n  - Purple is the colour of iodine vapour, not bromine.\n- The colours of Group 17 elements:\n\n  - Fluorine is pale yellow\n  - Chlorine is yellow-green\n  - Bromine is orange/red-brown\n  - Iodine is a grey-black solid that produces purple vapour.\n\n**A** is incorrect as the statement is chemically true. Bromine gas (*M*<sub>r</sub> ≈ 160) is significantly denser than air (average *M*<sub>r</sub> ≈ 29) and sinks to drift along the ground.\n\n**B** is incorrect as the statement is chemically true. Bromine is moderately soluble in water, dissolving to form bromine water.\n\n**D** is incorrect as the statement is chemically true. Bromine is a volatile liquid at r.t.p. due to weak instantaneous dipole-induced dipole forces between its molecules and vaporises readily.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Bromine is denser than air."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Bromine does not vaporise readily"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Bromine is purple in the gaseous state."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Bromine vaporises readily."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7jzbBQmQs5dx2RXV",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_TBftkVmYfwyTkdkw",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw"
+     ],
+     "part_tier": null,
+     "problem_md": "The halogens exist as diatomic molecules, X<sub>2</sub>.\n\nDescending through Group 17 from chlorine to iodine the boiling points of the elements increase.\n\nWhich statement explains this trend?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- X<sub>2</sub> diatomic halogen molecules are non-polar, so only weak instantaneous dipole-induced dipole forces act between them.\n- The strength of these forces increases down Group 17 as the number of electrons per molecule increases.\n- A greater number of electrons gives a larger, more polarisable electron cloud, increasing the likelihood of instantaneous dipoles forming.\n- Stronger intermolecular forces require more energy to overcome, so boiling point increases.\n\n**A** is incorrect as X<sub>2</sub> molecules are non-polar and have no permanent dipole.\n\n**B** is incorrect as the X–X covalent bond strength decreases down Group 17.\n\n**C** is incorrect as electronegativity decreases down Group 17, but this property does not explain the trend in boiling points.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The permanent dipole in the X<sub>2</sub> molecule increases down the group."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The X–X bond strength increases down the group."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The electronegativity of X decreases down the group."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The number of electrons in each X<sub>2</sub> molecule increases down the group."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_38dgg6qXjwSHjX2T",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_vR77ZQxjCk28bTyk",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row describes the trends in the strengths of the forces between molecules and the bonds within molecules, going down Group 17 from chlorine to iodine?\n\n|   | **strength of van der Waals' forces** | **strength of covalent bonds** |\n|---|---|---|\n| **A** | decrease | decrease |\n| **B** | decrease | increase |\n| **C** | increase | decrease |\n| **D** | increase | increase |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Halogen molecules (X<sub>2</sub>) interact only via instantaneous dipole-induced dipole forces.\n- Down Group 17 from chlorine to iodine, the number of electrons per molecule increases, making the electron cloud more polarisable.\n- This leads to stronger instantaneous dipole-induced dipole forces, so the strength of van der Waals' forces increases.\n- The X–X covalent bond strength decreases down the group because the atomic radius of the halogen increases, making the bond longer and reducing the effective orbital overlap between the bonding pairs and the nuclei.\n\n**A** and **B** are incorrect as van der Waals' forces increase, not decrease, down Group 17 from chlorine to iodine.\n\n**D** is incorrect as the covalent bond strength decreases, not increases, down the group.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_26tKCNPd73d7VP5R",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Hdg2Stw3rNdnV6fK",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "A molecule of chlorine has a relative molecular mass of 72.\n\nWhich property is the same for both atoms in this molecule?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Chlorine has two stable isotopes: <sup>35</sup>Cl and <sup>37</sup>Cl.\n- A Cl<sub>2</sub> molecule with a relative molecular mass of 72 must contain one atom of each isotope:\n\n<sup>35</sup>Cl + <sup>37</sup>Cl = 72\n\n<sup>35</sup>Cl + <sup>35</sup>Cl = 70\n\n<sup>37</sup>Cl + <sup>37</sup>Cl = 74\n\n- Isotopes of the same element have the same number of protons and the same electron configuration.\n- Because both atoms have the same nuclear charge and the same number of electrons, they have the same atomic radius.\n\n**B** is incorrect as the nucleon number (protons + neutrons) differs. <sup>35</sup>Cl has nucleon number 35 and <sup>37</sup>Cl has nucleon number 37.\n\n**C** is incorrect as the number of neutrons differs. <sup>35</sup>Cl has 18 neutrons and <sup>37</sup>Cl has 20 neutrons.\n\n**D** is incorrect as the relative isotopic mass differs. <sup>35</sup>Cl has relative isotopic mass 35 and <sup>37</sup>Cl has relative isotopic mass 37.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "atomic radius"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "nucleon number"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "number of neutrons"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "relative isotopic mass"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KTTWKjMKqrjk9w7P",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_hFJ3kdPVSCx5bmXF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "The elements of Group 17 of the Periodic Table show trends in their properties.\n\ni) Complete Table 2.1, stating the colour of each element in its state at room temperature.\n\n[1]\n\n**Table 2.1**\n\n| **Halogen** | **Boiling point / °C** | **Colour** |\n|---|---|---|\n| Chlorine | −36 |   |\n| Bromine | 59 |   |\n| Iodine | 184 |   |\n\nii) Explain why the boiling points of the halogens increase from chlorine to iodine.\n\n[2]",
+     "solution_md": "i) The completed Table 2.1 is:\n\n| **Halogen** | **Boiling point / °C** | **Colour** |\n|---|---|---|\n| Chlorine | −36 | **Final answer:** **green / yellow-green** |\n| Bromine | 59 | **Final answer:** **brown / red-brown** |\n| Iodine | 184 | **Final answer:** **(dark) grey / black** |\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> i) 1 mark for all three colours correct.\n> \n> Purple is not accepted for any halogen as it is the colour of iodine vapour or iodine dissolved in non-polar solvents, not the colour of solid iodine at room temperature.\n> \n> ii) The boiling points increase from chlorine to iodine because:\n> \n> - There are more electrons in the molecules going down the group; **[1 mark]**\n> - The instantaneous dipole-induced dipole (id-id) forces of attraction between the molecules are stronger; **[1 mark]**\n\n> **[exam-tip]**\n> The colours of the halogens get darker going down the group. Learn these:\n> \n> - Chlorine is a green/yellow-green gas\n> - Bromine is a brown liquid\n> - Iodine is a dark grey solid.\n> \n> When explaining why boiling points increase down Group 17, you must name the specific type of intermolecular force. Writing \"van der Waals' forces\" alone is not sufficient. You must state \"instantaneous dipole-induced dipole (id-id) forces\" to secure the mark."
+    },
+    {
+     "id": "qstnprt_3DT4x4nfMrDKSq9w",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PCXmSVmcYjz89QXw"
+     ],
+     "part_tier": null,
+     "problem_md": "State the full electronic configuration for bromine.",
+     "solution_md": "> **[mark-scheme]**\n> The full electronic configuration of bromine is:\n> \n> - 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>\n> **OR**\n> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>5</sup> **[1 mark]**\n\n> **[exam-tip]**\n> You have been asked for the full electronic configuration, so you must write it out using 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>... notation. Using [Ar] as a shortcut is not accepted.\n> \n> Bromine is in Period 4 and is the fifth element in the p block, so its configuration ends in 4p<sup>5</sup>.\n> \n> Remember: the 3d subshell in Period 4 elements is written as 3d, not 4d. Either ordering of 4s<sup>2</sup> and 3d<sup>10</sup> is accepted."
+    },
+    {
+     "id": "qstnprt_dCYpZx8cG95K3tN2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_5vBTSkW5VhKcbxN7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe elements of Group 17 of the Periodic Table show trends in their properties.\n\nTable 2.1\n\n| **Halogen** | **Boiling point / °C** | **Colour** |\n| --- | :---: | :---: |\n| Chlorine | −36 |   |\n| Bromine | 59 |   |\n| Iodine | 184 |   |\n\nExplain why bromine is a liquid at room temperature, but fluorine and chlorine are gases.",
+     "solution_md": "> **[mark-scheme]**\n> Bromine is a liquid at room temperature while fluorine and chlorine are gases because:\n> \n> - Bromine has a higher boiling point than fluorine and chlorine **[1 mark]**\n> - Bromine molecules have more electrons than fluorine or chlorine molecules **[1 mark]**\n> - The instantaneous dipole-induced dipole (id-id) forces between Br<sub>2</sub> molecules are stronger, so more energy is required to separate the molecules **[1 mark]**\n> \n> The reverse argument (fluorine and chlorine have fewer electrons, weaker id-id forces, lower boiling points, so exist as gases) is also accepted.\n\n> **[exam-tip]**\n> You must be able to state and explain the trend in boiling points down Group 17.\n> \n> The key reasoning chain:\n> \n> - More electrons per molecule\n> - → stronger instantaneous dipole-induced dipole (id-id) forces\n> - → more energy needed to overcome these forces\n> - → higher boiling point\n> - → liquid or solid state at room temperature.\n> \n> Going down Group 17, fluorine and chlorine are gases, bromine is a liquid, and iodine is a solid. This reflects the increasing strength of id-id forces as the molecules get larger."
+    },
+    {
+     "id": "qstnprt_MVvBqKY97r8KDp7G",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw"
+     ],
+     "part_tier": null,
+     "problem_md": "The bond enthalpy of the halogen molecules generally decreases down Group 17. Explain why the bond enthalpy of F<sub>2</sub> is lower than that of Cl<sub>2</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The bond enthalpy of F<sub>2</sub> is lower than that of Cl<sub>2</sub> because:\n> \n> - The fluorine atom is very small / the F–F bond is very short, so the lone pairs on adjacent fluorine atoms are very close together **[1 mark]**\n> - This causes strong repulsion between the lone pairs, which weakens the bond **[1 mark]**\n\n> **[exam-tip]**\n> Bond enthalpy is the energy needed to break one mole of a given covalent bond. The higher the bond enthalpy, the stronger the bond.\n> \n> The general trend down Group 17 is for bond enthalpy to decrease as the atoms get larger and bonds get longer. However, fluorine is an exception because its bond enthalpy is lower than chlorine's despite being at the top of the group.\n> \n> This is because fluorine atoms are so small that the lone pairs on the two F atoms in F<sub>2</sub> are unusually close together. The lone pair repulsion partially counteracts the bonding attraction and makes the F–F bond weaker than expected."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FSQ58ZmjzgnwD2Cr",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_M7JrXZy3qBhH8RpM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "State the trend in volatility of chlorine, bromine and iodine. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in volatility of the halogens is:\n> \n> - Volatility decreases (down the group / from Cl<sub>2</sub> to I<sub>2</sub>) **[1 mark]**\n> - (The number of) electrons in the molecules increases **[1 mark]**\n> - Resulting in stronger id-id forces between molecules **[1 mark]**\n\n> **[exam-tip]**\n> - Volatility refers to how easily a substance is converted into a gas\n> - Cl<sub>2</sub> has the fewest electrons, the weakest id-id forces, and the highest volatility. So, it is a gas at room temperature\n> - Br<sub>2</sub> has more electrons, stronger id-id forces, and lower volatility. So, it is a liquid at room temperature\n> - I<sub>2</sub> has the most electrons, the strongest id-id forces, and the lowest volatility. So, it is a solid at room temperature"
+    },
+    {
+     "id": "qstnprt_QHZpSB9hVNrpvxj5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why Cl<sub>2</sub> rather than Br<sub>2</sub> would react more vigorously with a solution of I<sup>-</sup>.",
+     "solution_md": "> **[mark-scheme]**\n> Cl<sub>2</sub> reacts more vigorously with I<sup>−</sup> than Br<sub>2</sub> does because:\n> \n> - Cl<sub>2</sub> is a stronger oxidising agent than Br<sub>2</sub> / Cl<sub>2</sub> has a greater ability to attract electrons than Br<sub>2</sub> **[1 mark]**\n> - Chlorine atoms are smaller / the outer electrons of Cl are closer to the nucleus, so the nuclear attraction for electrons is greater in Cl than in Br **[1 mark]**\n\n> **[exam-tip]**\n> - Both Cl<sub>2</sub> and Br<sub>2</sub> can displace iodide ions from solution, but Cl<sub>2</sub> does so more vigorously\n> - Going down Group 17, oxidising ability decreases\n> \n>   - Cl<sub>2</sub> is a stronger oxidising agent than Br<sub>2</sub> because its outer electrons are in a shell closer to the nucleus"
+    },
+    {
+     "id": "qstnprt_7nwjVX8psKWCqChX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "Astatine, At, is a member of Group 17.\n\nPredict the physical state and colour of astatine at room temperature.\n\nphysical state:\n\ncolour:",
+     "solution_md": "> **[mark-scheme]**\n> The predicted properties of astatine at room temperature are:\n> \n> - Physical state: solid **[1 mark]**\n> - Colour: black / very dark (purple) **[1 mark]**\n\n> **[exam-tip]**\n> - Following the trend down Group 17: Cl<sub>2</sub> is a gas, Br<sub>2</sub> is a liquid, I<sub>2</sub> is a solid. So, astatine should be a solid at room temperature\n> - The colour trend (Cl<sub>2</sub> pale yellow-green, Br<sub>2</sub> orange-red, I<sub>2</sub> dark grey/purple) suggests astatine should be very dark in colour, likely black"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bMrVJ5M9v7gnSPBQ",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_Cm5VPG7cqyFvTcFX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8bVPpTcNgrh9KmWr"
+     ],
+     "part_tier": null,
+     "problem_md": "State and explain the trend in the boiling points of the halogens from fluorine to iodine.\n\ntrend:\n\nexplanation:",
+     "solution_md": "> **[mark-scheme]**\n> The trend in boiling points of the halogens from fluorine to iodine is:\n> \n> Trend:\n> \n> - Boiling point increases (down the group) **[1 mark]**\n> \n> Explanation:\n> \n> - (Due to) id-id forces between molecules **[1 mark]**\n> - More electrons in the molecules (as Mr increases) / larger electron cloud **[1 mark]**\n\n> **[exam-tip]**\n> - Id-id (induced dipole–induced dipole) forces are a type of intermolecular force that increases in strength as the number of electrons in the molecule increases\n> - The greater the number of electrons, the more polarisable the electron cloud, resulting in stronger id-id forces and higher boiling points"
+    },
+    {
+     "id": "qstnprt_3yzZw3KWY5FqSjPs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRKPgfwMmHynwqkw"
+     ],
+     "part_tier": null,
+     "problem_md": "The bond enthalpies of the halogens generally decrease down the group as shown in Table 3.1.\n\n**Table 3.1**\n\n| **Halogen** | **Bond enthalpy / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| F–F | 159 |\n| Cl–Cl | 242 |\n| Br–Br | 193 |\n| I–I | 151 |\n\nState and explain the deviation in this trend.\n\ndeviation:\n\nexplanation:",
+     "solution_md": "> **[mark-scheme]**\n> The deviation in this trend is:\n> \n> - The F–F bond enthalpy is lower than expected / the F–F bond is weaker than the Cl–Cl bond **[1 mark]**\n> \n> Explanation:\n> \n> - Fluorine atoms are small, so the lone pairs on adjacent F atoms are in close proximity, causing repulsion (which weakens the F–F bond) **[1 mark]**\n\n> **[exam-tip]**\n> The diagram below shows the lone pair repulsion in F<sub>2</sub>:\n> \n> ![Diagram of an F–F molecule showing a central sigma bond and four labelled lone electron pair regions around each fluorine atom.](assets/002-diagram-of-an-f-f-molecule-showing-a-central-sig.jpg)\n> \n> - A sigma bond is formed between two fluorine atoms, and there are three lone pairs on each F atom\n> - The lone pairs get so close to each other in F<sub>2</sub> that they cause repulsion, which decreases the bond enthalpy"
+    },
+    {
+     "id": "qstnprt_SN8JxHBq8dVt6dtB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gfsbYJqyKjjnKfcj"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine is a strong oxidising agent.\n\nConstruct the simplest ionic equation for the reaction between chlorine and aqueous sodium iodide. State what is observed when this reaction occurs.\n\nequation:\n\nobservation:",
+     "solution_md": "> **[mark-scheme]**\n> The simplest ionic equation and observation are:\n> \n> - Cl<sub>2</sub> + 2I<sup>−</sup> → 2Cl<sup>−</sup> + I<sub>2</sub> **[1 mark]**\n> - The solution turns brown / yellow-brown / orange-brown **[1 mark]**\n\n> **[exam-tip]**\n> - The question asks for the simplest ionic equation, which means that including spectator ions (Na<sup>+</sup>) will lose the mark\n> - Make sure you know the observations for iodine in different solvents:\n> \n>   - Aqueous iodine: brown solution\n>   - Iodine in organic solvent: purple solution"
+    }
+   ]
+  }
+ ]
+}

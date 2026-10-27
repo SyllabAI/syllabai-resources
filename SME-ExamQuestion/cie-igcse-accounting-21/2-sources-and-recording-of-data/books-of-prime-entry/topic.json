@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:31:49Z",
+ "generated_utc": "2026-10-26T14:30:22Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -52,14 +52,28 @@
    "question_count": 6,
    "questions_embedded": 6,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/books-of-prime-entry/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_VhsxwMxjZKHhxnfw",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/2-sources-and-recording-of-data/books-of-prime-entry/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 6,
+  "questions_embedded": 11,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -370,6 +384,205 @@
        "text_md": "trial balance, ledgers, business documents, journals"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SXBVTp936BNGchqX",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_csJ348ZRnKcrMBWv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_SpRZW3wdPqKW3kFP"
+     ],
+     "part_tier": null,
+     "problem_md": "Seok buys and sells goods on credit. He has three credit customers and allows one of them, Naomi, trade discount of 10%. All customers pay Seok by bank transfer.\n\nThe following balances were extracted from Seok’s sales ledger at 1 August 2023.\n\n|   | \\$ |\n|---|---|\n| Naomi | 450 |\n| Siena | 155 |\n| Bwana | <u>386</u> |\n|   | <u>991</u> |\n\nThe following transactions took place in August 2023.\n\n| Aug  3 | Sold goods on credit, to Naomi, list price \\$410 |\n|---|---|\n| 5 | Sold goods on credit, \\$89, to Bwana |\n| 10 | Naomi returned goods, list price \\$20 |\n| 11 | Naomi paid \\$423 in full settlement of the amount she owed at 1 August |\n| 19 | Sold goods on credit, \\$180, to Bwana |\n| 22 | Sold goods on credit, to Naomi, list price \\$230 |\n| 27 | Bwana returned goods, \\$19 |\n| 29 | Bwana paid \\$400 |\n\n**REQUIRED**\n\nPrepare the sales journal for August 2023.\nTotal the journal and indicate the ledger account where the total would be posted.\n\nSeok \nSales journal\n\n| Date | Details | \\$ | \\$ |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "Calculate the amounts owed by Naomi after deducting the trade discount\n\n- Aug 3: List price \\$410\n\n$\\begin{gathered} 10 \\% \\times 410 & = 41 \\\\ 410 - 41 & = 369 \\end{gathered}$\n\n- Aug 22: List price \\$230\n\n$\\begin{gathered} 10 \\% \\times 230 & = 23 \\\\ 230 - 23 & = 207 \\end{gathered}$\n\nSeok \nSales journal\n\n| Date | Details | \\$ | \\$ |   |\n|---|---|---|---|---|\n| 2023 |   |   |   |   |\n| Aug 3 | Naomi |   | 369 | **[1]** |\n| 5 | Bwana |   | 89 | **[1]** |\n| 19 | Bwana |   | 180 |   |\n| 22 | Naomi |   | <u>207</u> | **[1]** |\n| 31 | Transfer to sales account |   | <u>845</u> | **[1]** |\n\n> **[mark-scheme]**\n> 4 marks in total:\n> \n> - 1 mark for **each **correct entry for Naomi\n> - 1 mark for **both **correct entries for Bwana\n> - 1 mark for transferring your **own figure** to the sales account\n\n> **[exam-tip]**\n> Instead of finding 10% and deducting it from Naomi's amounts, you could find 90% of the amounts.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 10 percent sign cross times 410 end cell equals 41 row cell 410 minus 41 end cell equals 369 end table",
+       "render": "$\\begin{gathered} 10 \\% \\times 410 & = 41 \\\\ 410 - 41 & = 369 \\end{gathered}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 10 percent sign cross times 230 end cell equals 23 row cell 230 minus 23 end cell equals 207 end table",
+       "render": "$\\begin{gathered} 10 \\% \\times 230 & = 23 \\\\ 230 - 23 & = 207 \\end{gathered}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3xG7NVTwsfNTnZ4N",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_QmJGQTJJf9mYXhzg"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the sales returns journal for August 2023. \nTotal the journal and indicate the ledger account where the total would be posted.\n\nSeok \nSales returns journal\n\n| Date | Details | \\$ | \\$ |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "Calculate the amounts returned by Naomi after deducting the trade discount\n\n- Aug 10: List price \\$20\n\n$\\begin{gathered} 10 \\% \\times 20 & = 2 \\\\ 20 - 2 & = 18 \\end{gathered}$\n\nSeok \nSales returns journal\n\n| Date | Details | \\$ | \\$ |   |\n|---|---|---|---|---|\n| 2023 |   |   |   |   |\n| Aug 10 | Naomi |   | 18 | **[1]** |\n| 27 | Bwana |   | <u>19</u> | **[1]** |\n| 31 | Transfer to sales returns account |   | <u>37</u> | **[1]** |\n\n> **[mark-scheme]**\n> 3 marks in total:\n> \n> - 1 mark for the correct entry for Naomi\n> - 1 mark for the correct entry for Bwana\n> - 1 mark for transferring your **own figure** to the sales returns account",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "table row cell 10 percent sign cross times 20 end cell equals 2 row cell 20 minus 2 end cell equals 18 end table",
+       "render": "$\\begin{gathered} 10 \\% \\times 20 & = 2 \\\\ 20 - 2 & = 18 \\end{gathered}$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vCpY6grKy3ThrpKk",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Dn57sgcqrxwWk7vg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 1,
+      "question_part": "a(i)(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_xGpzcNHqZBkPtR74",
+      "spcpt_GFCZzW9fjGR377Vy"
+     ],
+     "part_tier": null,
+     "problem_md": "Shakir started trading in the year ended 31 August 2023 but did not keep proper books of account. His assets and liabilities at 1 September 2023 are as follows.\n\n|   | \\$ |\n|---|---|\n| Motor vehicle | 9 500 |\n| Inventory | 1 240 |\n| Cash at bank | 1 682 |\n| Trade payables: |   |\n| Latif | 200 |\n| Harrison | 237 |\n\n**REQUIRED**\n\nPrepare the journal for Shakir’s opening entries at 1  September 2023. A narrative is **not **required.\n\nShakir\nJournal\n\n| Date | Details | Debit <br>\\$ | Credit <br>\\$ |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "Shakir\nJournal\n\n| Date | Details | Debit <br>\\$ | Credit <br>\\$ |   |\n|---|---|---|---|---|\n| 2023 |   |   |   |   |\n| Sep 1 | Motor vehicle | 9 500 |   | **[1]** |\n|   | Inventory | 1 240 |   |   |\n|   | Bank | 1 682 |   |   |\n|   | Latif |   | 200 | **[1]** |\n|   | Harrison |   | 237 |   |\n|   | Capital |   | 11 985 | **[1]** |\n|   |   | <u>12 422</u> | <u>12 422</u> |   |\n\n> **[mark-scheme]**\n> 3 marks in total.\n> \n> - 1 mark for including all three assets as debits.\n> - 1 mark for including both trade payables as credits.\n> - 1 mark for the correct capital value in the credit column."
+    }
+   ]
+  },
+  {
+   "id": "qstn_m46cwJYjYd9dX2BC",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_cGfzG4Q7kFZFRnkr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_SpRZW3wdPqKW3kFP",
+      "spcpt_qvjxcsyFpHChKr2V",
+      "spcpt_QmJGQTJJf9mYXhzg",
+      "spcpt_Bz2JsgqDzH586KB8",
+      "spcpt_bf8TynHzPZVrrTqt"
+     ],
+     "part_tier": null,
+     "problem_md": "Shahid is a trader and Mariam is a credit customer.\n\nThe following incomplete statement of account was available on 31 August 2017.\n\n| STATEMENT OF ACCOUNT <br>Shahid <br>44 Narrow Lane, Anytown |   |   |   |   |\n|---|---|---|---|---|\n| Mariam <br>The Avenue<br>Weston |   | 31 August 2017 |   |   |\n| Date | Reference | Debit <br>\\$ | Credit<br>\\$ | Balance<br>\\$ |\n| 2017 Aug 1 | Balance due |   |   | 520 |\n| 9 | Goods | 340 |   | 860 |\n| 13 | Returns |   | 24 | ? |\n| 24 | Payment |   | 507 | ? |\n|   | Discount |   | 13 | ? |\n\n**REQUIRED **\n\nState the business document and the book of prime entry Shahid would use to record the following transactions which appear on the statement of account.\n\n| Transaction | Document | Book of prime entry |\n|---|---|---|\n| August 9 Goods |   |   |\n| 13 Returns |   |   |",
+     "solution_md": "| Transaction | Document | Book of prime entry |\n|---|---|---|\n| August 9 Goods | Sales invoice **[1]** | Sales journal **[1]** |\n| 13 Returns | Credit note issued **[1]** | Sales returns journal **[1]** |\n\n> **[mark-scheme]**\n> 4 marks in total, 1 mark for each correct answer.\n> \n> **Explanation**\n> \n> - Aug 9: Shahid sold goods to Mariam on credit\n> \n>   - Shahid would issue an invoice to Mariam and keep a copy of the sales invoice\n>   - Shahid would record this in the sales journal as it is on credit\n> - Aug 13: Mariam returns goods to Shahid\n> \n>   - Shahid would issue a credit note to Mariam and keep a copy\n>   - Shahid would record this in the sales returns journal as it was sold on credit\n\n> **[exam-tip]**\n> Remember that a statement of account is from the point of view of the business (Shahid in this case). Therefore, transactions are debits if **more **money is owed to Shahid."
+    }
+   ]
+  },
+  {
+   "id": "qstn_h86BT9qB3JQ4Kcbs",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_9mBMkH2GYvpZPS9C",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xGpzcNHqZBkPtR74",
+      "spcpt_qvjxcsyFpHChKr2V",
+      "spcpt_bf8TynHzPZVrrTqt"
+     ],
+     "part_tier": null,
+     "problem_md": "Fozia opened a factory manufacturing wheelchairs on 1 May 2022. Fozia purchases  an additional piece of equipment for the factory on credit.\n\nFor the above transaction, identify\n\n(i) the business document,\n\n(ii) the book of prime entry.",
+     "solution_md": "(i)\n\n**(Purchase) invoice** **[1 mark]**\n\n(ii)\n\n**(General) journal** **[1 mark]**\n\n> **[mark-scheme]**\n> You do not need to use the words in brackets.\n\n> **[exam-tip]**\n> Remember, only purchases of goods are recorded in the purchases journal. Purchases of non-current assets are recorded in the general journal."
+    }
+   ]
+  },
+  {
+   "id": "qstn_gHtPvvwpvmn8KmWR",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_5hn88pxVGq5Rw2mp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YVYTXGdjSfcMgNxF",
+      "spcpt_xGpzcNHqZBkPtR74",
+      "spcpt_kVTbzsX7VFFJwHbX",
+      "spcpt_dBxxZ83gsPKXv6Nw"
+     ],
+     "part_tier": null,
+     "problem_md": "Below is Hashim's cash book for September 2025\n\nHashim\nCash Book\n\n| Date | Details | Discount Allowed | Cash | Bank | Date | Details | Discount Received | Cash | Bank |\n|---|---|---|---|---|---|---|---|---|---|\n| 2025 |   | \\$ | \\$ | \\$ | 2025 |   | \\$ | \\$ | \\$ |\n| Sep 1 | Balance b/d |   | 523 | 1 250 | Sep 3 | Rent |   |   | 630 |\n| 15 | Sales |   | 973 |   | 5 | TJ Ltd | 10 |   | 240 |\n| 24 | Jai | 14 |   | 196 | 12 | Wages |   | 284 |   |\n| 29 | Cash |   |   | 1 000 | 17 | Drawings |   |   | 200 |\n|   |   |   |   |   | 22 | Kyra |   |   | 315 |\n|   |   |   |   |   | 29 | Bank |   | 1 000 |   |\n|   |   |   |   |   | 30 | Balance c/d |   | 212 | 1 061 |\n|   |   | <u>14</u> | <u>1 496</u> | <u>2 446</u> |   |   | <u>10</u> | <u>1 496</u> | <u>2 446</u> |\n| Oct 1 | Balance b/d |   | 212 | 1 061 |   |   |   |   |   |\n\n**REQUIRED**\n\nPrepare journal entries to record the discounts for September 2025. Narratives are not required.\n\nHashim\nJournal\n\n| Details | Debit<br><br>\\$ | Credit<br><br>\\$ |\n|---|---|---|\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |",
+     "solution_md": "Hashim\nJournal\n\n| Details | Debit<br><br>\\$ | Credit<br><br>\\$ |\n|---|---|---|\n| Discount allowed **[1]** | 14 |   |\n| Jai |   | 14 |\n| TJ Ltd **[1]** | 10 |   |\n| Discount received **[1]** |   | 10 |\n\n> **[mark-scheme]**\n> 1 mark for the correct details and amount(s) for each of the following:\n> \n> - Debiting the discount allowed account with 14\n> - Crediting the discount received account with 10\n> - Identifying Jai as the credit entry of the discount allowed transaction and TJ Ltd as debit entry of the discount received transaction\n\n> **[exam-tip]**\n> Remember, the discount columns in the cash book are not part of the double entry system. They are recorded there as it is the book of prime entry."
     }
    ]
   }

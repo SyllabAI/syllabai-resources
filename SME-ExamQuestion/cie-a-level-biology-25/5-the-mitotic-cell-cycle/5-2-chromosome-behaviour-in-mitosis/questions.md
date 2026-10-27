@@ -1,6 +1,6 @@
 # Exam Questions — Chromosome Behaviour in Mitosis
 **5. The Mitotic Cell Cycle** · Cambridge (CIE) A-LEVEL biology (9700)
-> Source: [https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/](https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/) · 30 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/](https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/) · 42 questions across 2 sets
 
 
 ## Multiple Choice Questions (30 questions)
@@ -350,3 +350,580 @@ At which stages of the cell cycle would the nucleus be visible?
 | **2** | Prophase |
 | **3** | Telophase |
 | **4** | Anaphase |
+
+## Structured Questions (12 questions)
+
+
+### Q1 — hard — 11 marks
+
+**Q1** [3 marks]
+
+Fig. 1 shows a cell undergoing the prophase stage of mitosis.
+
+![59rOPy_I_2-1](assets/015-59ropy-i-2-1.png)
+
+**Fig. 1**
+
+Identify structures **A** to **C** and describe how they behave during prophase. Use Table 1 to construct your answer.
+
+**Table 1**
+
+| **Label** | **Name of structure** | **Behaviour during prophase** |
+|---|---|---|
+| **A** |   |   |
+| **B** |   |   |
+| **C** |   |   |
+
+**Q1** [4 marks]
+
+Some cell biologists believe that use of the term 'cell division' should be discontinued and replaced with 'cell multiplication'.
+
+Discuss the reasons in favour of this claim by using your knowledge of the cell cycle.
+
+**Q1** [2 marks]
+
+A team of researchers estimated the numbers of cells in different stages of the cell cycle in healthy, growing onion plants. They took two tissue samples, **A** and **B**, from different parts of a plant.
+
+One tissue sample came from a root tip, the other from a large leaf near the bottom of the plant's stem.
+
+Their results are shown in Table 2.
+
+**Table 2**
+
+| **Stage of the cell cycle** | **Tissue A / number of cells counted** | **Tissue B / number of cells counted** |
+|---|---|---|
+| Interphase | 779 | 559 |
+| Metaphase | 36 | 165 |
+| Prophase | 57 | 178 |
+| Anaphase | 44 | 115 |
+| Telophase | 42 | 88 |
+| ** Total** | **958** | **1 105** |
+
+In tissue sample **B**, a full cell cycle took 20 hours and 45 minutes.
+
+Calculate the time, in minutes, that these cells were in telophase during one cell cycle.
+
+Show your working.
+
+**Q1** [2 marks]
+
+**Extract:**
+
+A team of researchers estimated the numbers of cells in different stages of the cell cycle in healthy, growing onion plants. They took two tissue samples, A and B, from different parts of a plant.
+
+One tissue sample came from a root tip, the other from a large leaf near the bottom of the plant's stem.
+
+Their results are shown in Table 2.
+
+Table 2
+
+| Stage of the cell cycle | Tissue A / number of cells counted | Tissue B / number of cells counted |
+| Interphase | 779 | 559 |
+| Metaphase | 36 | 165 |
+| Prophase | 57 | 178 |
+| Anaphase | 44 | 115 |
+| Telophase | 42 | 88 |
+| Total | 958 | 1 105 |
+
+Identify which tissue sample, **A** or **B**, was taken from the root tip.
+
+Explain your answer using the information in Table 2.
+
+### Q2 — hard — 12 marks
+
+**Q2** [2 marks]
+
+Hepatic stem cells divide by mitosis to form new liver cells. Each time a stem cell divides it forms a replacement stem cell and a cell that will specialise to become a liver cell.
+
+Fig. 1 shows changes in the mass of DNA in a human hepatic stem cell during four cell cycles..
+
+![5-2-fig-4-1](assets/017-5-2-fig-4-1.png)
+
+**                                                               Fig. 1**
+
+Identify the processes taking place at the points marked **A** and **B** in Fig. 1 that bring about changes in the mass of DNA per cell.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Hepatic stem cells divide by mitosis to form new liver cells. Each time a stem cell divides it forms a replacement stem cell and a cell that will specialise to become a liver cell.
+
+Fig. 1 shows changes in the mass of DNA in a human hepatic stem cell during four cell cycles.
+
+Describe what happens to the number of chromosomes in the hepatic stem cells of Fig. 1.
+
+**Q2** [3 marks]
+
+Colchicine is an alkaloid drug extracted from the corm of the autumn crocus (*Colchicum autumnale*). It is often used as a treatment for gout and other inflammatory diseases. Colchicine binds to a protein called tubilin and prevents the elongation of microtubules in a cell.
+
+Explain why anaphase would **not** be able to occur in the presence of colchicine.
+
+**Q2** [5 marks]
+
+Outline what happens to **a chromosome** between the beginning of telophase and the start of the next round of mitosis.
+
+### Q3 — hard — 7 marks
+
+**Q3** [1 mark]
+
+Fig. 1 below shows a drawing of an electron micrograph of a cell undergoing mitosis.
+
+![wlYY9zpU_h-4a](assets/018-wlyy9zpu-h-4a.png)
+
+**Fig. 1**
+
+Deduce which phase of mitosis this cell is in.
+
+**Q3** [2 marks]
+
+Fig. 2 below shows a sample of root tissue collected by a researcher.
+
+![yiK-E2bF_picture1](assets/019-yik-e2bf-picture1.png)
+
+**Fig. 2**
+
+The mitotic index is the proportion of cells in a tissue sample that are undergoing mitosis and can be calculated as follows:
+
+$\mathrm{Mitotic} \mathrm{index}=\frac{\mathrm{Number} \mathrm{of} \mathrm{cells} \mathrm{undergoing} \mathrm{mitosis}}{\mathrm{Total} \mathrm{number} \mathrm{of} \mathrm{cells}}$
+
+Calculate the mitotic index of the tissue sample in Fig. 2.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Fig. 2 below shows a sample of root tissue collected by a researcher.
+
+The mitotic index is the proportion of cells in a tissue sample that are undergoing mitosis and can be calculated as follows:
+
+Mitotic space index space equals space fraction numerator Number space of space cells space undergoing space mitosis over denominator Total space number space of space cells end fraction
+
+Calculate the mitotic index of the tissue sample in Fig. 2.
+
+From the mark scheme: 19 cells undergoing mitosis AND 74 cells in total
+
+A student’s research determined that the cell cycle of the growing tissue in a similar root as part (b) was 1,560 minutes in length, and that on average, cells spent 5 hours in the visible stages of mitosis.
+
+Calculate the percentage difference between the data gathered by the student and the mean length of the mitotic stages found by the researcher in part (b).
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Fig. 2 below shows a sample of root tissue collected by a researcher.
+
+The mitotic index is the proportion of cells in a tissue sample that are undergoing mitosis and can be calculated as follows:
+
+Mitotic space index space equals space fraction numerator Number space of space cells space undergoing space mitosis over denominator Total space number space of space cells end fraction
+
+Calculate the mitotic index of the tissue sample in Fig. 2.
+
+The mitotic index can be calculated as follows...
+
+- 19 cells undergoing mitosis AND 74 cells in total; [1 mark]
+- 0.26 / 26%; [1 mark]
+
+A student's research determined that the cell cycle of the growing tissue in a similar root as part (b) was 1,560 minutes in length, and that on average, cells spent 5 hours in the visible stages of mitosis.
+
+The percentage difference can be calculated as follows...
+
+Time spent in mitotic stages according to the data collected by the researcher:
+
+(19 ÷ 74) x 1,560 = 401 minutes;
+
+Time spent in mitotic stages according to the student's research:
+
+5 x 60 = 300 minutes
+
+Suggest **two **possible reasons why there may have been differences in the mitotic index the researcher determined and the student’s value.
+
+### Q4 — medium — 10 marks
+
+**Q4** [5 marks]
+
+Cells divide by mitosis to form new cells.
+
+Describe the changes that occur within the cell between the beginning of prophase and the end of metaphase.
+
+**Q4** [2 marks]
+
+Fig. 1 shows a diagram of a chromosome in a cell undergoing mitosis.
+
+![5-2-fig-1-1](assets/023-5-2-fig-1-1.png)
+
+**                                                                Fig. 1**
+
+(i) Identify structure **P**.
+
+[1]
+
+(ii) Describe the role of structure **P** during mitosis.
+
+[1]
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Fig. 1 shows a diagram of a chromosome in a cell undergoing mitosis.
+
+From the image in Fig. 1
+
+(i) Identify the stage of mitosis that the chromosome could be in.
+
+[1]
+
+(ii) State a reason for your answer to part i).
+
+[1]
+
+**Q4** [1 mark]
+
+Explain why it is important for DNA replication to take place before mitosis can occur.
+
+### Q5 — medium — 15 marks
+
+**Q5** [4 marks]
+
+**Figure 1** shows a micrograph of cells in actively dividing tissue from the tip of a plant root.
+
+**Figure 1**
+
+![screenshot-2023-05-24-201617](assets/024-screenshot-2023-05-24-201617.png)
+
+(i) Name the process by which many of the cells in **Figure 1** are dividing.
+
+[1]
+
+(ii)Using **Figure 1**, complete **Table 1**.
+
+[3]
+
+**Table 1**
+
+| **Cell** | **Name of the stage of cell division** |
+|---|---|
+| W |   |
+| V |   |
+| Z |   |
+
+**Q5** [3 marks]
+
+**Extract:**
+
+**Figure 1** shows a micrograph of cells in actively dividing tissue from the tip of a plant root.
+
+**Figure 1**
+
+![screenshot-2023-05-24-201617](https://cdn.savemyexams.com/uploads/2023/05/screenshot-2023-05-24-201617.png)
+
+Regarding **Figure 1**:
+
+(i)In which of the cells (**U**, **V**, **W**, **X**, **Y** or **Z**) can vesicles now fuse to form new cell membranes across the cytoplasm in order to separate the cell into two daughter cells.
+
+[2]
+
+(ii)What stage of cell division are these cells in?
+
+[1]
+
+**Q5** [1 mark]
+
+**Extract:**
+
+Figure 1 shows a micrograph of cells in actively dividing tissue from the tip of a plant root.
+
+The process by which many of the cells are dividing is mitosis.
+
+During prophase, the chromosomes condense and the nuclear envelope containing them breaks down. During anaphase, the spindle fibres pull the pairs of 'sister' chromatids apart. During metaphase, chromosomes line up in the middle of the spindle (along the equator of the cell) and spindle fibres attach to the centromeres.
+
+When the student prepared the root tip squash, the root tip was placed on a microscope slide with a stain.
+
+Explain why a stain was used.
+
+**Q5** [7 marks]
+
+Describe the events that take place during mitosis, including the name of the stage of mitosis during which each event occurs.
+
+### Q6 — medium — 8 marks
+
+**Q6** [3 marks]
+
+Fig. 1 is a light microscope image of a section of onion (*Allium cepa*) root tip showing cells in various stages of mitosis.
+
+![onion-root-tip](assets/025-onion-root-tip.png)
+
+Image courtesy of Doc. RNDr. Josef Reischig CSc. Licenced under **Creative Commons Attribution-Share Alike 3.0** Unported License. Reused and distributed under conditions found at: **https://creativecommons.org/licenses/by-sa/3.0/**
+
+**Fig. 1**
+
+Identify the stages of mitosis taking place in cells **Q**, **R** and **S**.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+Fig. 1 is a light microscope image of a section of onion (Allium cepa) root tip showing cells in various stages of mitosis.
+
+Image courtesy of Doc. RNDr. Josef Reischig CSc. Licenced under Creative Commons Attribution-Share Alike 3.0 Unported License. Reused and distributed under conditions found at: https://creativecommons.org/licenses/by-sa/3.0/
+
+Fig. 1
+
+Identify the stages of mitosis taking place in cells Q, R and S.
+
+Assuming that the cells in Fig. 1 have a chromosome number of 6, sketch and label **one** of the nuclei from cell **S** to show the appearance of the chromosomes.
+
+**Q6** [2 marks]
+
+The daughter cells that are produced during mitosis are genetically identical to each other and to the parent cell.
+
+Explain the importance of this.
+
+### Q7 — medium — 12 marks
+
+**Q7** [6 marks]
+
+In a dividing cell, DNA replication occurs before mitosis.
+
+Steps in DNA replication are outlined in Fig.1
+
+Complete Fig.1 by filling in the gaps using the most appropriate terms.
+
+**  1    **Helicase enzyme allows the DNA double helix to unwind and the hydrogen bonds between the two strands to break, exposing the four bases, A, T, C and G.        The names of these bases are:        
+A = ..............................................................        
+T = ...............................................................        
+C = ...............................................................        
+G = ............................................................... **  **
+** 2   **An enzyme molecule attaches to each of the two separated parental strands. The two enzyme molecules move in opposite directions, each catalysing the formation of a new strand of DNA. This enzyme is known as ............................... **   **
+**3**   DNA ................................................., the monomers of DNA, are free in the nucleus for the synthesis of the new strands. **   **
+**4**   The bases of the DNA monomers form hydrogen bonds with the bases on each separated parental strand of DNA, according to the rules of  ........................................ . **   **
+**5   **One DNA strand is synthesised continuously and the other is synthesised in sections known as Okazaki fragments. The fragments are joined by an enzyme called ......................................... , which catalyses the formation of phosphodiester bonds. **  **
+**6**   The result of replication is two DNA molecules, each one containing an original parental strand and a newly synthesised strand. This type of replication is described as ......................................... .
+
+**Fig. 1**
+
+*Source: Specimen 2022 9700/02 Q6A*
+
+
+**Q7** [6 marks]
+
+Fig. 2 is a photomicrograph of root tip cells at different stages in the cell cycle.
+
+A cell in interphase is labelled.
+
+![fig6-2-qp-specimen-2022-9700-02](assets/027-fig6-2-qp-specimen-2022-9700-02.png)
+
+**Fig. 2**
+
+(i) Complete Fig. 2 by naming the stage of mitosis shown in each of cells **J**, **K **and **L** in Fig. 2.
+
+[3]
+
+(ii) State one feature of the cell in interphase, **visible** in Fig. 2, that shows this cell is **not** in early interphase.
+
+[1]
+
+(iii) Describe the stage of mitosis shown in cell** J**.
+
+[2]
+
+*Source: Specimen 2022 9700/02 Q6B(I,II,III)*
+
+
+### Q8 — easy — 10 marks
+
+**Q8** [2 marks]
+
+Mitosis plays an important role in living organisms.
+
+Define the term *mitosis*.
+
+**Q8** [3 marks]
+
+The nucleus of a cell contains 27 chromosomes as it enters prophase. Each chromatid contains one DNA molecule.
+
+State the number of **DNA molecules** found in the cell at the end of each of the following:
+
+(i) Metaphase.
+
+[1]
+
+(ii) Anaphase.
+
+[1]
+
+(iii) Cytokinesis.
+
+[1]
+
+**Q8** [4 marks]
+
+Identify the missing words from the following paragraph describing anaphase by choosing from the words below:
+
+**centromere             centrosome                 shorten                chromosomes**
+
+**opposite                 microtubules                     extend**
+
+Each word may be used only once or not at all.
+
+The sister chromatids separate at the ........................................ Spindle fibres
+
+begin to ............................ and the ......................................... are pulled to
+
+................................ poles.
+
+**Q8** [1 mark]
+
+State the stage of mitosis where the chromosomes decondense into chromatin.
+
+### Q9 — easy — 7 marks
+
+**Q9** [1 mark]
+
+Fig. 1 below shows the stages of mitosis in the incorrect order.
+
+![PDxg6IV7_2](assets/029-pdxg6iv7-2.png)
+
+**Fig. 1**
+
+Place the letters (**A** to **D**) in the correct order in which they would occur during mitosis.
+
+**Q9** [3 marks]
+
+**Extract:**
+
+Fig. 1 below shows the stages of mitosis in the incorrect order.
+
+**Fig. 1**
+
+(i) Identify stage **C** shown in Fig. 1 .
+
+[1]
+
+(ii) State **two** events that occur during stage **C**.
+
+[2]
+
+**Q9** [2 marks]
+
+A student wanted to observe cells during mitosis and decided to follow the method described below:
+
+1. Cut 1 cm from the tip of a growing root.
+2. Place the cut root tip in a test tube containing 1 M hydrochloric acid and place in a water bath at 60°C for 5 minutes.
+3. Remove the root tip from the test tube and rinse with distilled water. Dry carefully with a paper towel.
+4. Remove 2 mm from the very tip of the root sample and place on a microscope slide.
+5. Break the 2 mm root tip apart and spread the cells out using a mounted needle.
+6. Add a few drops of toluidine blue stain.
+7. Lower a cover slip over the root tip sample. Place a paper towel over the cover slip and press down gently, being careful not to break the cover slip or move it sideways.
+8. Observe the slide using an optical microscope.
+
+Explain the reason for steps **1** and **6**.
+
+**Q9** [1 mark]
+
+One of the root tip samples observed by the student is shown in Fig. 2 below.
+
+![wLyLFjlJ_3](assets/030-wlylfjlj-3.png)
+
+**Fig. 2**
+
+State the number of cells in the sample shown in Fig. 2 that are undergoing metaphase.
+
+### Q10 — easy — 9 marks
+
+**Q10** [3 marks]
+
+Figure 1 below shows two different stages of mitosis.
+
+**Image A                                                     Image B**
+
+![1-4-e-3a-paper-2](assets/032-1-4-e-3a-paper-2.png)
+
+**Fig 1**
+
+Identify structures **M**, **N **and **O**.
+
+**Q10** [2 marks]
+
+**Extract:**
+
+Figure 1 below shows two different stages of mitosis.
+
+Image A                                                     Image B
+
+State the names of the two stages of mitosis shown in image **A** and image **B** of Figure 1.
+
+**Q10** [3 marks]
+
+List three reasons why cells will undergo mitosis.
+
+**Q10** [1 mark]
+
+State the process that occurs during prophase that enables chromosomes to condense.
+
+### Q11 — easy — 7 marks
+
+**Q11** [2 marks]
+
+The diagram below shows some grasshopper cells.
+
+![d2YSTw69_e-4a](assets/033-d2ystw69-e-4a.png)
+
+State the stages of the cell cycle shown by **X **and **Y**.
+
+**Q11** [3 marks]
+
+**Extract:**
+
+The diagram below shows some grasshopper cells.
+
+State the stages of the cell cycle shown by **X **and **Y**.
+
+Outline the events occurring during the stage shown as **Z **in part (a).
+
+**Q11** [1 mark]
+
+Cell Z has not yet undergone DNA replication and contains 24 chromosomes. It divides by mitosis.
+
+State how many chromosomes the daughter cells will contain.
+
+**Q11** [1 mark]
+
+State the stage of the cell cycle that nuclear envelope formation takes place in.
+
+### Q12 — easy — 7 marks
+
+**Q12** [3 marks]
+
+Identify the different stages of mitosis by completing Table 1.
+
+**Table 1**
+
+| **Description of stage** | **Name of stage** |
+|---|---|
+| Two nuclear envelopes form within the cell |   |
+| After this stage is complete the chromatids are referred to as chromosomes |   |
+| The nuclear envelope disappears |   |
+
+**Q12** [1 mark]
+
+Fig. 1 shows a cell undergoing mitosis.
+
+![4pikB79F_5-2q2b](assets/034-4pikb79f-5-2q2b.png)
+
+Image courtesy of Doc. RNDr. Josef Reischig, CSc. Licensed under** Creative Commons Attribution-Share Alike 3.0** Unported License. Reused and distributed under conditions found at: **https://creativecommons.org/licenses/by-sa/3.0/**
+
+**Fig. 1**
+
+Identify the stage of mitosis that is visible in Fig. 1.
+
+**Q12** [3 marks]
+
+**Extract:**
+
+Fig. 1 shows a cell undergoing mitosis.
+
+The stage of mitosis that is visible in Fig. 1 is metaphase. The chromosomes are lined up at the equator of the spindle, which is the main indicator that this cell is in metaphase.
+
+Describe the main events that occur during the stage of mitosis shown in Fig. 1.

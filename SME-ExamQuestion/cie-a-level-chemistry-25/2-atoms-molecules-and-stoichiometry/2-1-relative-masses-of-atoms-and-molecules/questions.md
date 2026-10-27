@@ -1,6 +1,6 @@
 # Exam Questions — Relative Masses of Atoms & Molecules
 **2. Atoms, Molecules & Stoichiometry** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 10 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 15 questions across 2 sets
 
 
 ## Multiple Choice Questions (10 questions)
@@ -118,3 +118,165 @@ What is the percentage of <sup>21</sup>Ne atoms in this sample?
 An element, **X**, consists of only two isotopes, <sup>69</sup>**X** and <sup>71</sup>**X**, with percentage abundances of 60% and 40% respectively.
 
 What is the relative atomic mass of element X?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — medium — 5 marks
+
+**Q1** [2 marks]
+
+Ethanoic acid has a relative molecular mass of 60.0.
+
+Define the term relative molecular mass.
+
+**Q1** [1 mark]
+
+State the empirical formula of ethanoic acid.
+
+**Q1** [2 marks]
+
+Ethanoic acid reacts with aqueous sodium carbonate to form a neutral salt solution and a gas.
+
+i) Name the salt produced in this reaction.
+
+[1]
+
+ii) Calculate its relative formula mass.
+
+[1]
+
+### Q2 — medium — 4 marks
+
+**Q2** [2 marks]
+
+The element chromium has several naturally occurring isotopes whose abundances are shown in Table 1.1
+
+**Table 1.1**
+
+| **Mass number** | **% abundance** |
+|---|---|
+| 50 | 4.345 |
+| 52 | 83.789 |
+| 53 | 9.501 |
+| 54 | 2.365 |
+
+Calculate the relative atomic mass of chromium to two decimal places.
+
+**Q2** [1 mark]
+
+Chromium can form a variety of compounds. Chromium(III) chloride hydrate is the dark green complex [CrCl<sub>2</sub>(H<sub>2</sub>O)<sub>4</sub>]Cl.
+
+Write the full electronic configuration for the chromium ion in this compound.
+
+**Q2** [1 mark]
+
+Calculate the relative molecular mass of [CrCl<sub>2</sub>(H<sub>2</sub>O)<sub>4</sub>]Cl.
+
+### Q3 — medium — 6 marks
+
+**Q3** [2 marks]
+
+Nitrous oxide is used as a sedative in dentistry and has the formula N<sub>2</sub>O. Different sources of N<sub>2</sub>O contain different ratios of <sup>14</sup>N and <sup>15</sup>N.
+
+State the name of the instrument used to distinguish between <sup>14</sup>N and <sup>15</sup>N and outline two characteristic differences seen in the analysis of <sup>14</sup>N and <sup>15</sup>N.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Nitrous oxide is used as a sedative in dentistry and has the formula N~2~O. Different sources of N~2~O contain different ratios of ^14^N and ^15^N.
+
+A sample of nitrous oxide was enriched so that it contained 4% by mass of <sup>15</sup>N. Calculate the relative molecular mass of the resulting nitrous oxide.
+
+**Q3** [2 marks]
+
+An atom has twice as many protons, and twice as many neutrons, as an atom of <sup>15</sup>N.
+
+Determine the chemical symbol for this atom, including the mass number, and deduce the number of electrons.
+
+### Q4 — easy — 12 marks
+
+**Q4** [4 marks]
+
+Define the following terms.
+
+Relative atomic mass
+
+[2]
+
+Relative isotopic mass
+
+[2]
+
+**Q4** [3 marks]
+
+i) State the symbols used for relative atomic mass and relative molecular mass.
+
+[1]
+
+ii) Describe how to calculate the relative molecular mass of a compound.
+
+[1]
+
+iii) State the difference between relative molecular mass and relative formula mass.
+
+[1]
+
+**Q4** [1 mark]
+
+Ionic compounds such as sodium chloride are arranged in a giant three-dimensional lattice structure, with a regular and repeating pattern of positive and negative ions.
+
+State the formula unit of sodium chloride.
+
+**Q4** [4 marks]
+
+Complete Table 1.1
+
+**Table 1.1**
+
+| **Chemical** | **Formula** | **Relative molecular / formula mass** |
+|---|---|---|
+| Magnesium oxide | MgO |   |
+| Sulfuric acid | H<sub>2</sub>SO<sub>4</sub> |   |
+| Ammonium phosphate | (NH<sub>4</sub>)<sub>3</sub>PO<sub>4</sub> |   |
+| Copper(II) sulfate pentahydrate | CuSO<sub>4</sub>•5H<sub>2</sub>O |   |
+
+### Q5 — hard — 10 marks
+
+**Q5** [3 marks]
+
+Table 3.1 shows the number of protons, neutrons and electrons of some isotopes and ions of copper.
+
+**Table 3.1**
+
+| **Species** | **Protons** | **Neutrons** | **Electrons** |
+|---|---|---|---|
+|   |   | 34 | 27 |
+| <sup>65</sup>Cu<sup>+</sup> | 29 |   |   |
+
+i) Complete Table 3.1.
+
+[2]
+
+ii) State the full electronic configuration of the Cu<sup>+</sup> ion.
+
+[1]
+
+**Q5** [3 marks]
+
+<sup>63</sup>Cu has a relative isotopic mass of 62.9296 and <sup>65</sup>Cu has a relative isotopic mass of 64.9278. The relative atomic mass of copper is 63.546.
+
+Calculate the percentage abundance of each isotope of copper. Show your working.
+
+Express your answer to an appropriate number of significant figures.
+
+**Q5** [2 marks]
+
+Explain why isotopes of copper have the same chemical properties but different densities.
+
+**Q5** [2 marks]
+
+Copper(II) chloride reacts with sodium phosphate to form two salts only.
+
+Write a balanced equation for this reaction.
