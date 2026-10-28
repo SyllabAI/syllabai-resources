@@ -131,3 +131,8 @@ The full authored corpus is promoted for hub import via adapter `guided-lesson-0
 ## Figures layer (0.2) — 2026-10-28
 
 The guided-lesson corpus now carries a strictly additive figures generation: `integration/source-0.2/` (112 × `guided-lesson/0.2`, operator trace 1a1820011919e8b9) re-derived from the wave artifacts with the parent revision notes' own diagrams mapped deterministically to lessons (200 figures / 90 notes; 122 module-mapped, 78 note-level page-fallback-only). Schema `integration/schema/guided-lesson.0.2.schema.json`; adapter 1.1 + manifest v3 in `integration/`; authored stream byte-conserved vs the v2 generation (per-note anchors == INT-3 fullcorpus record). See `ADAPTER-SPEC-guided-lesson-0.2-to-hub-1.1.md`.
+
+
+## Worked examples layer (1.0) — 2026-10-29
+
+The guided-lesson corpus now carries the worked-example recovery wave (operator trace 1a183e5ea252e9b5): `integration/source-0.2/` revised on exactly the 86 notes whose `noteAssets.workedExample` was declared null (26 populated notes byte-identical; wave artifacts untouched). Every worked example is grounded in its own note with declared provenance (body-ported / body-derived / authored — counts in the INT record) and the arithmetic gate C7 is replayed across all 112. Adapter 1.1 outputs re-pinned in `integration/hub-import-1.1/`; manifest v4 supersedes v3 with the declared stream delta. See `tooling/worked-examples-pipeline.js`.
