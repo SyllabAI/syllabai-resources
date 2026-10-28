@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # PRO-06 — Worked-Reasoning Patterns
@@ -148,6 +148,25 @@ scheme's credited reasoning reads in those terms — helium inert against air or
 oxygen, hydrogen flammable or explosive (SRC-QPMS-4CH1,
 2019-06/4CH1-1C/questions.md lines 358-380). Temporal scope: CURRENT —
 AUTHORITATIVE.
+### PRO-060 — The withheld mark and its printed reason
+
+**Claim:** the commentary withholds a mark with its reason printed in full: the candidate's answer contained the accepted ion-language claim but not the successful-collision statement, so the second mark could not be awarded. The apparatus therefore publishes not only verdicts that award but the exact missing element behind a non-award — the negative space of the mark scheme made explicit.
+**Evidence:** the printed verdict reads "3/5 Examiner Comments" and states "In dilute solution HCl exists as ions, not molecules. It is also necessary to state that there are more particles/ions in the same volume." with the withhold "The second mark could not be awarded since the candidate did not state that there are more successful collisions per unit time." (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/international-gcse-chemistry-exemplars-commentary.pdf p8).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-061 — The improvement-guidance strand in the exemplar apparatus
+
+**Claim:** the exemplar booklets publish an improvement strand alongside the grading decision: each example carries the marker's decision with commentary that explains the decision and guides how the answer can be improved to earn more marks, and the responses are selected to span achievement levels. The apparatus is therefore forward-looking — it grades the response as given and simultaneously models the better answer.
+**Evidence:** the booklet structure prints "Example of the marker grading decision based on the mark scheme, accompanied by examiner commentary including the explanation for the decision and guidance on how the answer can be improved to earn more marks" and "The examples highlight the achievement of the assessment objectives at lower to higher levels of candidate responses." (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/ig-chemistry-science-double-award-paper-1c-exemplar-responses.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-062 — The non-creditworthy ruling bounding creditable content
+
+**Claim:** the commentary can rule a whole paragraph non-creditworthy and, in the same sentence, bound the creditable answer set: the obvious diagram mistakes are named as the only two answers the marking recognised. The worked apparatus thus publishes a boundary on acceptable content for the item — a ruling that tells the reader what the space of creditable responses contains, not only which responses earned what.
+**Evidence:** the verdict prints "This response was given 2 marks." with the ruling "The first paragraph in this response is not creditworthy, as the obvious mistakes in the diagram are the baseline being drawn in ink and the water level being above the inks" (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/ig-chemistry-science-double-award-paper-1c-exemplar-responses.pdf p6).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (the two exemplars booklets: apparatus pages,
@@ -170,5 +189,5 @@ were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
+every citation to a pack excerpt. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (PRO-060..062), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not
 canonical educational truth.

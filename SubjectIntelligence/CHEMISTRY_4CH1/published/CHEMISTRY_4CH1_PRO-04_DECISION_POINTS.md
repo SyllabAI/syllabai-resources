@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # PRO-04 — Decision Points
@@ -139,6 +139,25 @@ temperatures below its melting point", liquid between melting and boiling, gas
 above boiling (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line
 33). Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PRO-054 — Equation-level route forks with reverse arguments authorised
+
+**Claim:** the extraction method-choice item authorises its decision in both directions and then forks the equation itself: the stoichiometric route is printed with two lower-oxide alternates, each an ALLOW on the same point, so the equation is a decision with published branches rather than a single target. The reverse-argument acceptance plus the equation alternates make the item's decision space explicit at both the reasoning and the symbolic level.
+**Evidence:** the scheme prints "M1 Method 1/ heating the metal oxide/lead(II)" "oxide with carbon" with "M2 (because) lead is less reactive than iron (and" and "ACCEPT reverse" "arguments", then "M3 2PbO + C → 2Pb + CO2 ALLOW PbO + CO → Pb + CO2" and "ALLOW PbO + C → Pb +CO" (SRC-QPMS-4CH1, 2020-11/4CH1-2C/questions.md lines 186-200).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-055 — Conditional error-carried-forward on a computed quantity
+
+**Claim:** error-carrying can be conditional on the computed quantity passing a physical test: the chromatography decision item allows carried-forward errors from the two measurements into the Rf evaluation, but only while the ratio stays below one, and the measurement points themselves sit inside printed numeric tolerance windows with their own significant-figure band. The decision structure therefore couples tolerance at the inputs to a feasibility gate at the output.
+**Evidence:** the scheme prints "M1 correct measurement of distance moved by ALLOW 5.7-6.1" "spot Y" and "M2 correct measurement of distance moved by ALLOW 8.7-9.1" "solvent", then "M3 use and evaluation of Rf = distance moved by spot Y ALLOW 1-4 sig fig" with "ALLOW ECF from M1 M2" "only if Rf < 1" (SRC-QPMS-4CH1, 2020-11/4CH1-2C/questions.md lines 116-130).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-056 — Open-set use allowances on property decisions
+
+**Claim:** the ester property-to-use decision pairs a closed property point with an open-set use point: the property is printed with a named alternate, while the use point allows any correct use with printed examples — the allowance set is open-ended by design. The decision method therefore tolerates genuine novelty on the application side while pinning the identifying property.
+**Evidence:** the scheme prints "M1 (Property:) distinctive/sweet/fruity smell ALLOW volatile" and "M2 used in perfumes/flavourings ALLOW any correct use" with the examples "eg in making soaps/ in solvents (for paints/varnishes)" (SRC-QPMS-4CH1, 2020-11/4CH1-2C/questions.md lines 360-374).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 (2019-06 Paper 1C mark-scheme forks with paper
@@ -161,5 +180,5 @@ were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
+every citation to a pack excerpt. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (PRO-054..056), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not
 canonical educational truth.

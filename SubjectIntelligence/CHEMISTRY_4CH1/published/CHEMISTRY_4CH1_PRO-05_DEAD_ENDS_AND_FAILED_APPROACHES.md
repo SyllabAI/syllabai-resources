@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # PRO-05 — Dead Ends and Failed Approaches
@@ -144,6 +144,25 @@ route works the rules on stated cases such as the methanol-manufacture
 equilibrium (SRC-TL-4CH1, Chemical-equilibrium---FINAL.pdf p 3). Temporal
 scope: CURRENT — AUTHORITATIVE.
 
+### PRO-057 — The octet-stability misconception named and quantified
+
+**Claim:** the publisher's bonding guide names the octet-stability belief as a misconception and quantifies its reach: a large majority of tested students held that an ion is more stable than the parent atom, and the guide states flatly that this is not so — energy must be supplied to form either ion, so both sit at higher energy. The dead end is therefore documented with its own evidence base, not merely asserted.
+**Evidence:** the guide states the belief "species with full outer shells or outer shell octet" configurations are "more energetically stable than species with other electronic configurations" and answers "This is very far from the truth"; it reports "One study showed that over 97% of the 15-16 year olds tested believed that a Na+ ion was more stable than a sodium atom" (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/Chemical-bonding---FINAL.pdf p2).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-058 — The octet-teleology fence and its Period-2 scope
+
+**Claim:** the guide fences a second, subtler dead end — purpose language: students must not leave with the impression that atoms bond in order to acquire an octet, because that is not why bonding happens. The same guide bounds the octet rule's own scope to four Period-2 elements and names the Group 2 exceptions, so both the teleology and the over-generalisation are fenced in one place.
+**Evidence:** the guide prints that students should not gain the impression that atoms bond "in order to acquire an octet of electrons in the outer shell of their atoms" because "This is not the reason for bonding taking place", and that the octet rule "applies only to these four elements in Period 2" (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/Chemical-bonding---FINAL.pdf p8).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-059 — The ignored-observation stack on one mark point
+
+**Claim:** a single observation point can carry a stack of named irrelevances: the magnesium and silver-nitrate observation scheme prints the credited observation with its colour alternates, then ignores clear, incorrect initial colour, references to the metal disappearing, and references to heat — four distinct wrong observations, each named and dismissed on the same point. The stack shows the dead ends are inventoried at the granularity of the individual point.
+**Evidence:** the scheme prints "M1 brown/pink/pink-brown solid forms ALLOW red-brown /orange-brown" with "IGNORE red or orange alone" and "ALLOW precipitate for solid", and "M2 solution turns colourless ALLOW solution becomes paler" with "IGNORE clear", "IGNORE incorrect initial colour of solution" and "IGNORE references to magnesium disappearing" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 457-471).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 (2019-06 Paper 1C key rationales, fences, and
@@ -166,5 +185,5 @@ written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
+every citation to a pack excerpt. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (PRO-057..059), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not
 canonical educational truth.

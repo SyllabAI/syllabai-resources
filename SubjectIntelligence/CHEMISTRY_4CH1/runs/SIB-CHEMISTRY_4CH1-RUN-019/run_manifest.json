@@ -1,0 +1,344 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-019",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+    "syllabai_pastpapers": "e4c1960be234beb0406b9218f4fbb2a95b1e3f28",
+    "syllabai_resources": "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "PRO-01",
+      "filename": "CHEMISTRY_4CH1_PRO-01_PROBLEM_SOLVING_FRAMEWORKS.md",
+      "evidence_pack": "evidence/PRO-01/evidence_pack.json",
+      "evidence_pack_sha256": "3d610a8fe09a9c3bb537160c89ce2422eb002ff2ad42141d93564291be133df1",
+      "artifact_sha256": "cffa6d20bedc29947668bc51621dda2f4c0ef1f1490eaac49275e49edc696f87",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-045..047, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:17 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-01.qa.json"
+    },
+    {
+      "artifact_id": "PRO-02",
+      "filename": "CHEMISTRY_4CH1_PRO-02_PROBLEM_TYPE_TO_METHOD_MAPPING.md",
+      "evidence_pack": "evidence/PRO-02/evidence_pack.json",
+      "evidence_pack_sha256": "30c96660d0898f2bb4b7347d951f96c12bc3189e27a3c25baaa46e94cf18cbe5",
+      "artifact_sha256": "6b9664b00ee84096fb4dec2938e6664ba98f419d38f88ae9a6aa84705299483e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-048..050, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:17 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-02.qa.json"
+    },
+    {
+      "artifact_id": "PRO-03",
+      "filename": "CHEMISTRY_4CH1_PRO-03_MULTI_STEP_REASONING_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-03/evidence_pack.json",
+      "evidence_pack_sha256": "5e2418d162c01fc84e077dc794fd42263862f5afd19e73aba96d15ff9184ea96",
+      "artifact_sha256": "d8c1f43b52bc0fcd865af10cbd6fd2846561231d883422fa6f48cc39da93b8ec",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-051..053, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:13 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-03.qa.json"
+    },
+    {
+      "artifact_id": "PRO-04",
+      "filename": "CHEMISTRY_4CH1_PRO-04_DECISION_POINTS.md",
+      "evidence_pack": "evidence/PRO-04/evidence_pack.json",
+      "evidence_pack_sha256": "41e8bb78ad7efc21017e2284195018349fc7714f957cfd9d0fb0e29397b7f92f",
+      "artifact_sha256": "51d9edb35447f1346b8794f46fbaa91b07e620257f3d780a649ba262bc90fda1",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-054..056, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:15 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-04.qa.json"
+    },
+    {
+      "artifact_id": "PRO-05",
+      "filename": "CHEMISTRY_4CH1_PRO-05_DEAD_ENDS_AND_FAILED_APPROACHES.md",
+      "evidence_pack": "evidence/PRO-05/evidence_pack.json",
+      "evidence_pack_sha256": "1c0c7b6b7aa81d1f70fe1b9ffd785aef2281e8501a545514268293b6ad47789f",
+      "artifact_sha256": "adc0698162139c89bceeae679d8f17adb51c6c11c50b093eb235bc79f590bde1",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-057..059, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:14 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-05.qa.json"
+    },
+    {
+      "artifact_id": "PRO-06",
+      "filename": "CHEMISTRY_4CH1_PRO-06_WORKED_REASONING_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-06/evidence_pack.json",
+      "evidence_pack_sha256": "78793648c68b3fc013605091d5016c0c9b637c9da478b955d5edd48b961914f8",
+      "artifact_sha256": "3774c4ce06e80f5909746dd02e2e246479d6a3b964d32659b4e3d3e5933c53b7",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-060..062, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:14 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-06.qa.json"
+    },
+    {
+      "artifact_id": "PRO-07",
+      "filename": "CHEMISTRY_4CH1_PRO-07_TRANSFER_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-07/evidence_pack.json",
+      "evidence_pack_sha256": "f9f422012a3469054e744380ea2bbeb9f15dfb5886b49d00a5fba44583c90770",
+      "artifact_sha256": "2857098d1fc143b33fb74454621aa4638e379d123cb5149511cabd19a4607fba",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (PRO-063..065, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:16 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/PRO-07.qa.json"
+    },
+    {
+      "artifact_id": "ASM-01",
+      "filename": "CHEMISTRY_4CH1_ASM-01_ASSESSMENT_OVERVIEW.md",
+      "evidence_pack": "evidence/ASM-01/evidence_pack.json",
+      "evidence_pack_sha256": "ed18478a935079a479db016a86f85b9bc54ca28e6e75c7621e823d79ff95d32d",
+      "artifact_sha256": "92e0d44cef58565a8f762a24831a2b515544dfbd7bd3651c661d9a9642a2d1b3",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-061..063, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:26 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-01.qa.json"
+    },
+    {
+      "artifact_id": "ASM-02",
+      "filename": "CHEMISTRY_4CH1_ASM-02_QUESTION_TAXONOMY.md",
+      "evidence_pack": "evidence/ASM-02/evidence_pack.json",
+      "evidence_pack_sha256": "5683aba271083ab3c03508c8dd12b33fa1daf52697c3c578e376215b957598fe",
+      "artifact_sha256": "7bcb39515025cb6ded6cfc349d14f3fc62f7b015bb0c8aed6340e25e6b858f65",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-064..066, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:19 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-02.qa.json"
+    },
+    {
+      "artifact_id": "ASM-03",
+      "filename": "CHEMISTRY_4CH1_ASM-03_QUESTION_ARCHETYPES.md",
+      "evidence_pack": "evidence/ASM-03/evidence_pack.json",
+      "evidence_pack_sha256": "c017d20aae8adf2cce8b560c4a619bf4e2118aaec0da89c86221d8f77510cdf5",
+      "artifact_sha256": "84fce86a09fffb8b6f5c6230c563facb991e8f6c21cda82a51925932f09e1587",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-067..069, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:19 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-03.qa.json"
+    },
+    {
+      "artifact_id": "ASM-04",
+      "filename": "CHEMISTRY_4CH1_ASM-04_COMMAND_WORD_ANALYSIS.md",
+      "evidence_pack": "evidence/ASM-04/evidence_pack.json",
+      "evidence_pack_sha256": "64c98f93eaab2373e41c5ab5eee58b8a356349af8ef0fcb0b231271095647bbf",
+      "artifact_sha256": "5800be5bc24e3c1f0cdd9ff25b2820e23dd216bb5533faa66f91aa87f072b4aa",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-070..072, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:15 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-04.qa.json"
+    },
+    {
+      "artifact_id": "ASM-05",
+      "filename": "CHEMISTRY_4CH1_ASM-05_MARK_ALLOCATION_PATTERNS.md",
+      "evidence_pack": "evidence/ASM-05/evidence_pack.json",
+      "evidence_pack_sha256": "7e0147b491c743a00ce4db9efee9ac8b12f3197b39eec8a7277e5c347b7d5c2a",
+      "artifact_sha256": "0885716bece8186fd4601aa3c9857cff7bb6120945ad1f473683549b188b9f0d",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-073..075, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:18 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-05.qa.json"
+    },
+    {
+      "artifact_id": "ASM-06",
+      "filename": "CHEMISTRY_4CH1_ASM-06_QUESTION_DIFFICULTY_PATTERNS.md",
+      "evidence_pack": "evidence/ASM-06/evidence_pack.json",
+      "evidence_pack_sha256": "05844fcad474ae8320ae84199f8e450b0c0cb44770a36814658493b1d0a97c5e",
+      "artifact_sha256": "adc84233c40c13d039f4dcb37c19e134eef03471a06fab827a8be5cb292d8a2a",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-076..078, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:17 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-06.qa.json"
+    },
+    {
+      "artifact_id": "ASM-07",
+      "filename": "CHEMISTRY_4CH1_ASM-07_MULTI_CONCEPT_QUESTION_PATTERNS.md",
+      "evidence_pack": "evidence/ASM-07/evidence_pack.json",
+      "evidence_pack_sha256": "29a3ae2b5ce9be0c25977e4206a19cb54c08a10bbb39d093b7529cc955485ab3",
+      "artifact_sha256": "3d295ab60048767d20a4a88918500705613a307e12481af9d009f8a267d74e9c",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-079..081, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:12 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-07.qa.json"
+    },
+    {
+      "artifact_id": "ASM-08",
+      "filename": "CHEMISTRY_4CH1_ASM-08_CONTEXT_PATTERNS.md",
+      "evidence_pack": "evidence/ASM-08/evidence_pack.json",
+      "evidence_pack_sha256": "9e5fe555299ece5623145d2b3404b208dd0dbd627d46cf1cb79dcdc054768399",
+      "artifact_sha256": "ed7da105e3812bdaafc82d202e540c02c5afb11b3a9103ee1a48501a2dd41d47",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-082..084, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:12 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-08.qa.json"
+    },
+    {
+      "artifact_id": "ASM-09",
+      "filename": "CHEMISTRY_4CH1_ASM-09_QUESTION_PROGRESSION_PATTERNS.md",
+      "evidence_pack": "evidence/ASM-09/evidence_pack.json",
+      "evidence_pack_sha256": "92ffac8ce59bba79eaf39c4d71c78365761698cd249b5746b4ff771b43b3565e",
+      "artifact_sha256": "bc2cb6342c46d3bdc18ca04dbb17e2e2aa682a120f1bda26635959308b75a014",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-085..087, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:22 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-09.qa.json"
+    },
+    {
+      "artifact_id": "ASM-10",
+      "filename": "CHEMISTRY_4CH1_ASM-10_ASSESSMENT_COVERAGE_ANALYSIS.md",
+      "evidence_pack": "evidence/ASM-10/evidence_pack.json",
+      "evidence_pack_sha256": "62238476063d08c5fac94218a9d8a3d6925016928b398b3a54dbdb793f200917",
+      "artifact_sha256": "b8de555968b1c2b22df87a9c20cb9d89a530e1457da4be95f1e12020f036a05b",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip), syllabai_resources e3d648a1, syllabai_pastpapers e4c1960b with ZERO tranche exposure (no PRO/ASM pack path points at pastpapers)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins + live-corpus advance disclosed in advance_disclosure.json — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (ASM-088..090, family-unique block PRO-045..065 / ASM-061..090) authored only from read excerpts; 208 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate; 1 locator auto-heal)",
+        "r3_evidence_claim_qa": "PASS:13 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance cf5c0764->e3d648a1 isolated (1 commit, YCH12 SB2 v2 lane, zero SubjectIntelligence/ paths); pastpapers advance 2cb92fe5->e4c1960b (128 commits) with zero tranche exposure; NEW source-pin-state disclosure (133 pack pins vs live tip: 51 identical, the rest the standing pre-RUN-018 build-era state — 0 new drift cf5c0764..e3d648a1 blob-proven on 45/45 pinned paths); stamp-phase staging incident disclosed and regenerated in-place"
+      },
+      "qa_report": "qa-reports/ASM-10.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

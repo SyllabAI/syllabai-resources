@@ -805,3 +805,74 @@ pass), go trace 1a183f5436432ed9; tranche 2 of the RUN-017 plan of record.
 - Git phase: branch sib/bl-018-pass18-r0 off 251b46ba; true diff = manifest.yaml + 8 published +
   8 qa-reports + 8 chunks + the RUN-018 run record + library WORKLOG, every path reconciled
   against lane scope.
+
+## RUN-019 — D3 REQUIRED-core depth pass, tranche 3: PRO+ASM families (2026-10-29)
+
+Task ID: SIB-RUN019-r0; operator order trace 1a1838d0413b6fbd (the D3 REQUIRED-core depth
+pass), tranche-3 order continued by the operator's RUN-019 order trace 1a1843f90f797b59;
+tranche 3 of the RUN-017 plan of record.
+
+- PREFLIGHT: fresh-sandbox recovery — live tree rebuilt at /home/z/my-project/resources
+  (blob:none sparse clone at origin/main tip); advance cf5c0764 -> e3d648a1 isolated (1
+  commit, YCH12 SB2 v2 polish lane, ZERO SubjectIntelligence/ paths); validator pin
+  357ace0a verified (tools/sib 0-path diff at the syllabai tip 18a7e98); pastpapers pin
+  2cb92fe5 -> e4c1960b disclosed with ZERO tranche exposure (no PRO/ASM pack path points
+  at pastpapers). NEW SOURCE-PIN-STATE DISCLOSURE (not previously filed by RUN-017/018):
+  the PRO/ASM packs of record pin BUILD-ERA source content — 133 pack file pins checked
+  at this session: 51 byte-identical at the live tip; the 75 pin-vs-tip mismatches + 7
+  books/ paths are the standing pre-RUN-018 state (git blob shas IDENTICAL
+  cf5c0764..e3d648a1 on 45/45 distinct pinned paths — 0 new drift since the RUN-018
+  merge; last QPMS corpus re-process = PR #197 converter v0.29.0, 2026-10-28, pre-dating
+  that merge; books/ SB1 chunks jsonl pin verified byte-identical at the tip). The packs
+  remain the immutable evidence plane; all quote binding operates on pack excerpts (the
+  r3 gate's own standard). This is why the tranche is ZERO-APPEND.
+- CENSUS of record (pre-run): PRO = 7 artifacts / median 920w / 44 records (PRO-001..044,
+  with pre-existing PRO-030..032 cross-artifact collisions — registered debt, T1 law);
+  ASM = 10 artifacts / median 950w / 60 records (ASM-001..060, collision-free). The two
+  thinnest REQUIRED families after T1/T2. Packs of record carried byte-identical from
+  their origin runs (PRO-01 <- RUN-012, PRO-02..06 <- RUN-006, PRO-07 <- RUN-016,
+  ASM-01..09 <- RUN-005, ASM-10 <- RUN-010; pack_carry.json, per-file sha256 asserted);
+  zero windows appended, caps untouched.
+- T3 (RUN-019): +21 records PRO-045..065 (7 artifacts x3) + +30 records ASM-061..090
+  (10 artifacts x3), family-unique blocks. 208 quotes pre-bound to raw excerpt text
+  before the official gate via the markup-transparent self-check (per-quote binding to
+  the citation that follows; locator auto-heal verified every cited window against the
+  artifact's OWN pack — 1 heal, ASM-10's dual-window distractor rationale). Record
+  themes: taxonomy meta-rows/weighting ranges/per-item precision envelopes (PRO-01);
+  priced wrong-substitution routes/stoichiometric multiplier steps/catalyst null-effect
+  pairs (PRO-02); show-that scaffolds/fail-closed reagent gates/cross-point crediting
+  (PRO-03); equation-level route forks/conditional ECF/open-set allowances (PRO-04);
+  octet-stability and octet-teleology misconceptions/ignored-observation stacks (PRO-05);
+  withheld-mark verdicts/improvement guidance/non-creditworthy rulings (PRO-06);
+  framework-selection evidence/skill-verb mappings/maths bridge (PRO-07); style-mix
+  commitments/aims layers/Question-1 tariff bands (ASM-01); plot tolerances/expected-curve
+  anchors/any-one-from pools (ASM-02); priced means/sentence completions/three-link
+  ceilings (ASM-03); bounded Suggest ranges/describe pools/diagram conditionals (ASM-04);
+  the UNMINED SAMS pool (zero prior SAMS citations library-wide): positivity law,
+  boundaries-blind duty, senior-examiner escalation, bracket notation law (ASM-05);
+  identification-run ignores/five-mark tables/priced no-working routes (ASM-06); CSQ
+  flags/tick tables/contamination reasoning (ASM-07); dated scenarios/catalyst allow
+  clusters/formula-count MCQs (ASM-08); nine-mark mid-paper pairs/validity tolls/MCQ
+  reprises (ASM-09); numbered statement frames/weighting envelopes/distractor rationales
+  (ASM-10).
+- STAMP-PHASE INCIDENT (disclosed): two mis-flagged staging passes (a frontmatter
+  nested-block parse bug set every source_scope flag false; the validator's own
+  SIB-SRC-001 gate caught it before any QA transition), regenerated with flags
+  reproduced from the published frontmatter; bodies byte-identical across passes.
+- Gates: r3 evidence-claim QA on deployed bodies BEFORE receipts = 279 citations /
+  0 violations across 17 artifacts; validator qa 0 errors / 0 warnings x17
+  content-bound; stage x17 (SIB-ING-002) -> publish x17 (QA re-verified) -> chunks x17;
+  run_manifest add-artifact x17 (7 gates each) + validate OK; post-lifecycle
+  validate-manifest = the F4a-disclosed state (88x SIB-MANI-007 + designed
+  gap/backlog WARN/INFOs; landing empty by design).
+- Honest depth outcome: PRO median 920 -> ~1,330; ASM median 950 -> ~1,300 (final
+  numbers of record in runs/SIB-CHEMISTRY_4CH1-RUN-019/ receipts + the post-merge
+  census). D3 stays REGISTERED (T4 PRA+PED, T5 TUT, T6 GAP pending; MIS/CUR/EXP at
+  depth; EXP/TUT gated on the operator SB1 eBook). Register beyond D3 unchanged: D6
+  (single-pipeline self-attestation structural limit), F4 (upstream validator fix,
+  master repo tools/sib lane), and the independent silver-tier ER review before
+  production reliance.
+- Library-side dual record: SubjectIntelligence/WORKLOG.md RUN-019 entry (this);
+  repo run record runs/SIB-CHEMISTRY_4CH1-RUN-019/ complete (plan_of_record,
+  advance_disclosure, pack_carry, census, evidence_claim_qa_report, lifecycle_receipt,
+  post_lifecycle_scoreboard, run_manifest, staged/, bodies/, evidence/).

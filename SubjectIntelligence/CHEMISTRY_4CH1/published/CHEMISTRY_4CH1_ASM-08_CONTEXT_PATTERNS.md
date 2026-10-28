@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-08
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-08 — Context Patterns
@@ -138,6 +138,25 @@ ethanol frame asks the standard conditions; the polymer frame asks for the polym
 name from the monomer .
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-082 — The dated historical scenario as context carrier
+
+**Claim:** the hydrogen item dates its scenario — a 1937 airship flight from Germany to America — and then asks a property question whose answer (low density) is independent of the history. The context is narrative dressing around a core property judgment, and the date stamps the framing rather than the chemistry.
+**Evidence:** the stem prints "In 1937 an airship full of hydrogen gas flew from Germany to America." and the item asks "Which property of hydrogen makes it a suitable gas to use in an airship?" with the marked answer "low density" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 328-342).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-083 — The catalyst-purpose allow cluster
+
+**Claim:** the catalyst question's one-mark answer carries a four-way allow cluster: the printed rate-increase forms are joined by lowering the activation energy and by making bond-breaking easier — the same mechanism at three depths of formulation. Context questions about industrial chemistry therefore tolerate depth variation inside a single mark.
+**Evidence:** the scheme prints "to increase the rate of reaction / to speed up the" with "ALLOW to lower the" "activation energy / to" "make it easier to" "break the (covalent)" "bonds (in the" "molecules)" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 386-400).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-084 — The formula-to-count MCQ as everyday-reasoning context
+
+**Claim:** the potassium permanganate item converts formula literacy into a counting task inside the diffusion scenario: the number of different elements in KMnO4 is examined as a four-option item. The context is the opening dissolution practical, and the chemistry is symbolic decoding.
+**Evidence:** the item prints "The formula of potassium permanganate is KMnO4 How many different elements are there in potassium permanganate?" with the four options printed and the tick marking the three-element option (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 65-79).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the 2019-06 1C/2C, 2020-01 1C and 2021-01 2C
@@ -157,5 +176,5 @@ canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-082..084), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.

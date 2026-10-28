@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-09
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-09 — Question Progression Patterns
@@ -135,6 +135,25 @@ questions sit beside 14-15 mark ones late in papers.
 11-mark titration (SRC-QPMS-4CH1, 2020-11/4CH1-2C/questions.md lines 527-541).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-085 — The nine-mark mid-paper pair
+
+**Claim:** the 2C paper's middle carries back-to-back nine-mark questions — the halogens table-and-trend question followed by the alcohols evaporation investigation — so the heaviest tariffs arrive before the paper's halfway point. The progression is therefore front-weighted into the mid-band rather than saved for the close.
+**Evidence:** the paper prints "## Question 2 (9 marks)" over the halogens table (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 47-61) and "## Question 3 (9 marks)" over the alcohols evaporation investigation (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 122-136).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-086 — The validity demand at the investigation's opening
+
+**Claim:** the evaporation investigation opens with a control-variables demand: two variables the student should control so the results are valid, printed before any data is shown. Validity reasoning is thus the entry toll to the investigation band, not its conclusion.
+**Evidence:** the item prints "State two variables the student should control to make sure her results are valid." under Question 3's method description (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 122-136).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-087 — The bonding MCQ reprise as a mid-paper anchor
+
+**Claim:** the metallic-bonding multiple-choice item reappears as the opening part of a later metals question — the same four options the earlier papers use — anchoring the mid-paper with a definition check before the alloy analysis continues. Progression here is a spiral: the early-paper definition returns as the cheap on-ramp to a heavier chain.
+**Evidence:** Question 4 opens "### 4(a) [1]" with "Which statement describes metallic bonding?" and the same four options printed (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 215-229).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — question-header grids excerpted from the 2019-06
@@ -154,5 +173,5 @@ enumerated. No canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-085..087), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.
