@@ -150,9 +150,13 @@ questions), C83–C85, C89–C93, C99–C101.
    0 asset review flags, spec tagging terminal corpus-wide, and the served state
    re-read post-merge (55 sets / 4,970 marks / pinned ref) — the course is DONE under
    ADR-037/039 with the chemistry precedent complete.
-2. **Chemistry re-staging wave** (F86, unchanged): regenerate the chemistry staging txt
-   layers with the method of record so fresh re-emissions reproduce the served corpus
-   (C56 pin misses + C61). The physics analog closed WITH Task 21.
+2. **Chemistry re-staging wave** (F86): EXECUTED as the F111 corpus-wide re-receipt
+   (2026-10-28, converter v0.29.2) — the current staging of record reproduces the served
+   corpus modulo the seven named data-only curation classes (AUDIT-2026-10-28-f86-corpus-
+   re-receipt.md); the C56 pin misses + C61 exception are CLOSED (the trio reproduces under
+   the v0.29.1 lexeme fix). The txt-layer regeneration variant stays closed unless a future
+   pdftotext/poppler change moves the line shapes (the receipt pins the current state). The
+   physics analog closed WITH Task 21.
 3. **run_all.sh / report aggregator generalization** (unchanged): both remain
    chemistry-scoped; the physics lane runs via the converter's `--spec 4ph1` interface
    with its own report generator for now.

@@ -1,5 +1,32 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.29.2 — 2026-10-28 · the F86 corpus-wide re-receipt wave: the MS-LINK-OVERRIDES all-marks-fragments precondition fix (the F108 leg-0 interaction) + the re-receipt of record
+
+- **The defect the re-receipt caught**: the F108 leg-0 geometry-aware bare-numeral keep
+  resurrected the marks-column digits / Total-footer fragments as the ONLY linkage content
+  of the two printed-image answer cells — 2023-06 2CR 7(c)(i) served the fabricated '1' and
+  2025-06 2CR 7(c)(ii) served '1'+'15' on every fresh emission. The all-fragments block
+  defeated the `not lines` MS-LINK-OVERRIDES precondition, so the F47/F107 eyeballed
+  transcriptions never fired and `answer_key_source` was lost. Neither C97 nor C109 could
+  see it (both assert the linkage state, which stayed `linked` either way) — the corpus-wide
+  census caught it. Neither C110/C111/C112 (the F109 red-on-arrival trio) nor any other gate
+  covered the class: a fresh full-corpus re-emission was the only instrument that could.
+- **Fix**: an all-marks-fragments linkage block (every line a bare 1–2 digit fragment,
+  optionally behind an abbreviated `Total … =` prefix) no longer defeats the override
+  precondition (`_MS_MARKS_FRAGMENT_RE` + `_all_marks_fragments`). The MS-LINK-OVERRIDES
+  ledger is the human adjudication of record for its 7 parts and outranks an all-fragments
+  machine block. Blast radius: the 7 ledger entries only — legitimate F90 bare-numeral
+  restorations are not ledger parts and never enter the path.
+- **Verified on the full corpus (54/54 exit 0, twice)**: 2025-06 2CR 7(c)(ii) reproduces the
+  of-record learner surface byte-exactly; 2023-06 2CR 7(c)(i) fires the ledger again
+  (linked, ledger attribution, no fabricated digit; C97/C109 green on the fresh tree);
+  assets 407/407 byte-identical corpus-wide; every gate PASS on both sides in all 54
+  slices; the F86 staging-boundary trio (C61/C56) reproduces and retires the 1-of-91
+  battery exception. Receipt of record: `AUDIT-2026-10-28-f86-corpus-re-receipt.{md,json}`
+  (22/54 slices byte-clean after the stated normalization law; the 32 remaining carry only
+  the seven named data-only classes — zero unexplained deltas; the fresh tree fails exactly
+  one canary, C95, the designed exponent-restore guard).
+
 ## 0.29.1 — 2026-10-28 · the F108 follow-through wave (F110): the leg-2 reconstructions applied + the F86-queued row-rebuttal lexeme fix + the C110 no-digit carve-out + the 5(c)(i)/10(c)(i) strip registrations
 
 - **Leg 2 applied to the corpus of record (C111/C112 green)**: the two match-description

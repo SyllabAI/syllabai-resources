@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.29.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.29.2"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -1592,6 +1592,25 @@ _MS_ROW_REBUTTAL_RE = re.compile(
 _MS_V_REBUTTAL_RE = re.compile(
     r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b|\bdoes\s+not\b|\bdo\s+not\b"
     r"|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b")
+
+# F86 re-receipt (v0.29.2): a linkage block whose every line is a bare 1-2
+# digit marks fragment (optionally behind an abbreviated 'Total ... =' footer
+# prefix) is marks furniture, not machine-linkable answer text. The F90
+# geometry-aware bare-numeral keep (F108 leg 0) resurrects exactly these
+# blocks for the printed-image answer cells (2023-06 2CR 7(c)(i): the '1';
+# 2025-06 2CR 7(c)(ii): '1' + the Total footer's orphan '15'), which defeated
+# the `not lines` override precondition and let fresh emissions serve the
+# fabricated digits the F47/F107 eyeballed transcriptions had removed.
+# The MS-LINK-OVERRIDES ledger is the human adjudication of record for its
+# seven parts and outranks an all-fragments machine block. Blast radius: the
+# 7 ledger entries only — legitimate F90 restorations never enter this path
+# (they are not ledger parts).
+_MS_MARKS_FRAGMENT_RE = re.compile(r"^(?:Total\b[^=]*=\s*)?\d{1,2}$")
+
+
+def _all_marks_fragments(lines):
+    ls = [l.strip() for l in lines if l and l.strip()]
+    return bool(ls) and all(_MS_MARKS_FRAGMENT_RE.match(l) for l in ls)
 
 
 def parse_ms_vertical(ms_lines):
@@ -3157,7 +3176,12 @@ def main():
                 # carry the legacy series-only form; the C31 checker accepts both)
                 mcq_keys_applied.append(f"{series}:{paper}/{p['part_number']}")
             mlo = ms_link_overrides.get((series, paper, p["part_number"]))
-            if mlo and p["question_type"] != "multiple_choice" and not lines:
+            if mlo and p["question_type"] != "multiple_choice" and (
+                    not lines or _all_marks_fragments(lines)):
+                # v0.29.2 (F86 re-receipt): an all-marks-fragments block (the
+                # F90 bare-numeral keep resurrecting the marks digits / Total
+                # footer fragments for image-answer cells) no longer defeats
+                # the ledger precondition — see _MS_MARKS_FRAGMENT_RE above.
                 lines = list(mlo["ms_lines"])
                 p["answer_key_source"] = "ms-link-overrides-ledger"
                 ms_link_applied.append(f"{series}:{paper}/{p['part_number']}")
