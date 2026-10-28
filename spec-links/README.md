@@ -165,3 +165,38 @@ progress".
 - Applied by `scripts/cie_complete_fill.py` (deterministic, fixed stamp,
   idempotent — re-run applies 0, byte-identical), battery C1-C5 in
   `graph/reports/T_SPECS_CIE_COMPLETE_1_CHECK.json`.
+
+## CIE wave-2 AS lanes (T-SPECS-CIE-JOIN-2) — SUGGESTED (gate pending)
+
+The 8 wave-2 AS banks of the SME-WAVE2 r1 fill (the "8-bank anchor gap": the
+filled banks whose served content carries ZERO spec anchors because their SME
+pages, unlike as-biology-25's, carry no official statement text) received
+their learner spec-links sidecars via the SAME deterministic join class as
+the 44 — `scripts/cie_spec_join.py` machinery, one new law:
+
+- **AS scope law** (from the parsed registries' own printed markers, the same
+  basis as the SME-WAVE2 spine build `scope_eq` rules): chemistry-25 /
+  physics-25 / business-23 candidates restricted to `AS Level`-scoped points
+  (204/356, 145/303, 62/116); computer-science-19 excludes the 66
+  `A Level`-marked points (topics 13-20) and retains the 161 shared
+  scope-less rows (topics 1-12); the four 9709 maths lanes run unscoped
+  (JOIN-1 semantics for that registry — the component law is a spine-build
+  law, not a sidecar-join law). Every served code is battery-checked against
+  the law (J11).
+- **Honest baseline, the JOIN-1 class**: the SME substrate is name-only for
+  these lanes (definitions null corpus-wide), so the raw deterministic join
+  yields what it yielded for the 44 pre-rejoin — 8,087 anchored items
+  (notes 545 / question parts 7,542), universe 924 spcpt ids, 49 code
+  entries (chem-25 only: the AS subsection-head identities 2.2.1 + 3.7.1,
+  T2_near path-restricted), 10,867 pending anchor refs carried verbatim.
+  Nothing manufactured (AGENT.md rule 3).
+- **Follow-on chain of record** (each its own gated lane, as the 44 evolved):
+  index re-join (J1-J4 identity classes over the per-course
+  `spec_point_index.json`) -> operator-verdict fills -> review/promotion
+  gate -> v2 `cie_consume_spec_links.py` consume + bundle re-emit + census
+  re-pin (operator-gated prod posture per the phase-4 plane law).
+
+Built by `scripts/cie_spec_join_wave2as.py` (deterministic; `--stamp` pins
+`generated_utc`; idempotent, class-block stable under `--lanes` subset
+re-runs), validated by `scripts/cie_join_check_wave2as.py` (battery J1-J11,
+`graph/reports/T_SPECS_CIE_JOIN_2_CHECK.json`).
