@@ -4,7 +4,7 @@
 # applicability is subject-specific. Row statuses are intentionally left empty: the
 # validator rejects landing artifacts that self-declare past GENERATED, so the
 # authoritative per-artifact state lives in the artifact front matter + qa-reports/
-# validator receipts. Coverage of record: 95/95 artifacts PUBLISHED (RUN-001..016; the
+# validator receipts. Coverage of record: 95/95 artifacts PUBLISHED (RUN-001..018; the
 # landing zone is EMPTY by design — every artifact advanced through the
 # governed validator transitions; see coverage_status.lifecycle and the
 # RUN-016 structural disclosure).
@@ -19,8 +19,8 @@ curriculum_version: "2017"
 notebook: 4CH1-SIB-NOTEBOOK-001
 source_manifest: source_manifest.yaml
 coverage_status:
-  generated: "95/95 artifacts generated across RUN-001..015 of record; RUN-016 repaired the SIB-ASSESS-r2 D8/D9 debt (5 artifacts) and executed the operator-ordered staging/publication pass; RUN-017 (D3 REQUIRED-core depth pass, tranche 1) deepened the EXM family +18 records (EXM-034..051) across all 6 artifacts, re-stamped v1.1/v1.2 and re-published through the governed transitions; per-artifact receipts in runs/ + qa-reports/"
-  lifecycle: "95/95 PUBLISHED (RUN-016 base, 2026-10-28; RUN-017 tranche-1 re-publication of the 6 deepened EXM artifacts, 2026-10-29 — stage x95 -> publish x95 -> chunks x95; 1,404 retrieval chunks in chunks/; the artifacts/ landing zone is EMPTY by design; structural disclosures F4a/F4b filed in the RUN-016 record: the manifest scoreboard cannot model the advanced lifecycle — OBSERVED + DISCLOSED, never worked around)"
+  generated: "95/95 artifacts generated across RUN-001..015 of record; RUN-016 repaired the SIB-ASSESS-r2 D8/D9 debt (5 artifacts) and executed the operator-ordered staging/publication pass; RUN-017 (D3 REQUIRED-core depth pass, tranche 1) deepened the EXM family +18 records (EXM-034..051) across all 6 artifacts, re-stamped v1.1/v1.2 and re-published through the governed transitions; RUN-018 (D3 tranche 2) deepened the MS family +24 records (MS-049..072) across all 8 artifacts, re-stamped v1.1 and re-published through the governed transitions (zero-append tranche); per-artifact receipts in runs/ + qa-reports/"
+  lifecycle: "95/95 PUBLISHED (RUN-016 base, 2026-10-28; RUN-017 tranche-1 re-publication of the 6 deepened EXM artifacts, 2026-10-29; RUN-018 tranche-2 re-publication of the 8 deepened MS artifacts, 2026-10-29 — stage x95 -> publish x95 -> chunks x95; 1,404 retrieval chunks in chunks/; the artifacts/ landing zone is EMPTY by design; structural disclosures F4a/F4b filed in the RUN-016 record: the manifest scoreboard cannot model the advanced lifecycle — OBSERVED + DISCLOSED, never worked around)"
   families: "CUR 8, EXP 8, MIS 9, ASM 10, MS 8, EXM 6, PED 9, PRA 5, PRO 7, HIS 7, TUT 10, GAP 8"
   grounding_consumed: "SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-ER-4CH1, SRC-TL-4CH1,
     SRC-SAMS-4CH1, SRC-ROOT-BOOK-COPIES-4CH1, SRC-BOOK-4CH1-SB1 (validated v3

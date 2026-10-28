@@ -1,0 +1,27 @@
+{
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-018",
+ "command": "tools.sib.cli validate-manifest <library-dir> (post-lifecycle), validator pin 357ace0a",
+ "qa_passed": false,
+ "counts": {
+  "GENERATED": 0,
+  "NOT_APPLICABLE": 0,
+  "OPTIONAL": 7,
+  "PUBLISHED": 0,
+  "QA_FAILED": 0,
+  "QA_PASSED": 0,
+  "REQUIRED": 88,
+  "STAGED": 0,
+  "UNMANIFESTED": 0,
+  "artifacts_defined": 95,
+  "backlog": 7,
+  "rows": 95,
+  "source_gaps": 4
+ },
+ "codes_observed": {
+  "SIB-MANI-007": 88,
+  "SIB-MANI-011": 4,
+  "SIB-MANI-012": 7
+ },
+ "expected_F4a_state": "88x SIB-MANI-007 + 4 WARN (SIB-MANI-011) + 7 INFO (SIB-MANI-012) \u2014 BYTE-EXACT the RUN-016/RUN-017 disclosed state",
+ "note": "the manifest scoreboard models the landing lifecycle only; the published set's evidence chain is the governed transition receipts (lifecycle_receipt.json) \u2014 OBSERVED + DISCLOSED, never worked around"
+}
