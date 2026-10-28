@@ -456,13 +456,19 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
         parts = []
         for p in q["parts"]:
             marks = int(p["marks"]) if p.get("marks") is not None else 0
-            assets_out, figures_md = [], []
+            assets_out, figures_md, solution_figs_md = [], [], []
             for a in p.get("assets") or []:
                 # F-W20-1: stem figures on the FIRST part render in the stem
                 # block (stem_figs_md above) — their crop record still rides
                 # assets[] for the metadata, but the end-of-part figure slot
                 # must not duplicate the inline stem image.
+                # F113: an asset whose source is the mark scheme ("ms.pdf")
+                # is the PRINTED MS ANSWER (the F95 MS-answer-is-a-drawing
+                # class served by the converter's MS-answer-figure crops).
+                # It renders in the SOLUTION surface — solutionMd — never in
+                # problemMd, and its caption names the ms.pdf page.
                 is_stem_fig = a.get("stem_figure") and len(parts) == 0
+                is_ms_answer = a.get("source") == "ms.pdf"
                 rel = resolve_asset_path(a, by_id)
                 entry = {
                     "kind": a.get("kind"),
@@ -473,23 +479,35 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                 }
                 if a.get("ref_part"):
                     entry["refPart"] = a["ref_part"]
+                if is_ms_answer:
+                    entry["source"] = "ms"
                 if a.get("kind") == "crop" and rel:
                     entry["path"] = rel
                     entry["rawUrl"] = raw_url(series, paper, rel)
-                    cap = f"{a.get('mention', 'figure')} — official paper figure (qp.pdf p.{a.get('page')})"
-                    if a.get("shared"):
-                        cap += f" (same figure as {a.get('ref_part')})"
-                    if not is_stem_fig:
-                        figures_md.append(f"![{cap}]({entry['rawUrl']})")
+                    if is_ms_answer:
+                        cap = (f"{a.get('mention', 'figure')} — official mark scheme "
+                               f"answer figure (ms.pdf p.{a.get('page')})")
+                        solution_figs_md.append(f"![{cap}]({entry['rawUrl']})")
+                    else:
+                        cap = f"{a.get('mention', 'figure')} — official paper figure (qp.pdf p.{a.get('page')})"
+                        if a.get("shared"):
+                            cap += f" (same figure as {a.get('ref_part')})"
+                        if not is_stem_fig:
+                            figures_md.append(f"![{cap}]({entry['rawUrl']})")
                 elif a.get("kind") == "crop-required":
-                    # F-W15-4: learner-facing copy — the wave-13 CROP-REVIEW
-                    # verdicts settled these as honest blank-scaffold stubs;
-                    # the old 'pending scan / queued for verification' line
-                    # described a queue that no longer exists.
-                    figures_md.append(
-                        "> *No printed figure accompanies this part — in the paper "
-                        "you would draw the diagram (or label the apparatus) in the "
-                        "answer space provided.*")
+                    if is_ms_answer:
+                        solution_figs_md.append(
+                            "> *The printed mark scheme answers this part with a figure; "
+                            "the eyeballed crop is pending review.*")
+                    else:
+                        # F-W15-4: learner-facing copy — the wave-13 CROP-REVIEW
+                        # verdicts settled these as honest blank-scaffold stubs;
+                        # the old 'pending scan / queued for verification' line
+                        # described a queue that no longer exists.
+                        figures_md.append(
+                            "> *No printed figure accompanies this part — in the paper "
+                            "you would draw the diagram (or label the apparatus) in the "
+                            "answer space provided.*")
                 assets_out.append(entry)
             problem_md = (p.get("problem_md") or "").strip()
             if len(parts) == 0 and stem_md:
@@ -510,6 +528,11 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
             e_entry = (enrich or {}).get(f"{series}-{paper}:{part_slug(p['part_number'])}")
             if e_entry and e_entry.get("review") == "authored-r0" and e_entry.get("solutionMd"):
                 sol = e_entry["solutionMd"]
+            # F113: the printed MS answer figure rides AFTER the authored text
+            # (the image is the printed answer of record; the text is the
+            # authored walkthrough — both learner-facing, image last).
+            if solution_figs_md:
+                sol = ((sol + "\n\n") if sol else "") + "\n\n".join(solution_figs_md)
             mp = [{"id": x["id"], "marks": x["marks"],
                    "textMd": _strip_continues(strip_furniture(x["text_md"]))}
                   for x in (p.get("mark_points") or [])]
@@ -1040,30 +1063,26 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = _manifest_note_text() or (
-            "ADR-037 converter v0.23.0 corpus (Task 19 r2 deep-audit shape-hygiene wave, "
-            "F92-F98): the user-served june-2026-4ch1-2c report drove the corpus-wide deep "
-            "audit (battery v3, 54 slices / 2,607 parts, corpus+hub+live). Task 18's "
-            "CONTINUES class confirmed closed end-to-end; the NEW head class closed here is "
-            "drawing-linearization - printed structures/equations whose text layers serve as "
-            "atom-run garbage with no figure asset (18 parts / 14 slices; the mention-driven "
-            "blind spot G4 and the G8 figure queue shared). The user-reported 2026-06 2C "
-            "tranche is fixed with 4 eyeballed + render-verified crops (1(b) poly(propene) "
-            "option structures, 1(c) displayed formula, 1(c)(ii) equation, 1(c)(iii) "
-            "polyester) + 18 sha1-guarded text-repair lines blanking the linearized remains "
-            "(F98, file-scoped table); the remaining 15 open parts are PINNED by C98 and "
-            "queued with page anchors. Also: F92 tick-glyph mojibake sub + mirror law (3 "
-            "instruction instances, ticks (check-mark) served canonically), F93 third footer "
-            "word order, F94 G3 drawing-option MCQ census (the vacuous 0-MCQ pass), F95 G7 "
-            "mp_answer_gap census (MS-answer-is-a-drawing class, 4+2 parts, fail-visible; "
-            "MS-side crop support filed), F97 bare-answer fallback completing 2 of F90's 4 "
-            "(2021-06 1C 2(b)(ii) 25, 2021-11 2C 1(d) 73; the marks-digit-leak refusal "
-            "class documented). Canaries C96/C97/C98 (93->96). G-E gates green; census "
-            "constants unchanged (54 sets / 477 questions / 2,607 parts / 4,161 markPoints; "
-            "figure crops 442->446, honest stubs 7). Serving delta: 9 changed parts "
-            "(7 this wave + 2 carried wave-26 exponent normalizations), G-E1-matched against "
-            "scripts/exporter-disclosures/2026-10-27-task19-deep-audit.json. Wave-15 UX "
-            "doctrine governs under ADR-039 fix-and-disclose: best learner experience, "
-            f"values never invented. {official_n} official sets (16x1C + "
+            "ADR-037 converter v0.30.0 corpus (the F113 MS-answer-figure wave — the "
+            "F95/F97 filed MS-side crop capability): the converter\'s first MS-side crop "
+            "path — MS-ANSWER-FIGURES.json (eyeball ledger, flat per-part verdicts) emits "
+            "crop-required stubs (source ms.pdf) and the F45/F99 verdict branches render "
+            "accepted manual_crop boxes FROM the MS PDF (fail-closed: malformed entries, "
+            "id collisions, slice-scoped unconsumed ledger keys). The exporter serves the "
+            "printed MS answer in solutionMd (official mark scheme answer figure, ms.pdf "
+            "p.N caption, after the authored walkthrough; assets[] carry source:\'ms\'). "
+            "Serving delta: 7 parts across 6 slices — 2026-06 2C 5(a) (ethanol + ethyl "
+            "ethanoate displayed formulae), 2019-06 2C 2(a) (printed halogen answer table) "
+            "+ 6(d)(ii) (ethanoic acid + 1-mark partial), 2022-01 2C 7(a)(i) (circled ester "
+            "group), 2023-01 2C 6(a)(i) (circled carbonyl), 2024-11 2C 7(a)(ii) (hand-drawn "
+            "propan-1-ol photo), 2023-06 2CR 7(c)(ii) (hand-drawn 2-methylpropanoic acid "
+            "photo — corroborates F107). Proof: 6/6 slices 8/8 gates, fresh == surgical on "
+            "every target part with PNG byte-identity, residual deltas = F111 classes, "
+            "canaries 117/117 (C113-C119 pin the parts). Canaries C113-C119 (110->117). "
+            "G-E gates green; census constants unchanged (54 sets / 477 questions / 2,607 "
+            "parts / 4,161 markPoints); figure crops 471->478. Wave-15 UX doctrine governs "
+            "under ADR-039 fix-and-disclose: best learner experience, values never "
+            f"invented. {official_n} official sets (16x1C + "
             f"16x2C + R-variants), {n_q} questions, {n_p} parts, all spec-tagged.")
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:

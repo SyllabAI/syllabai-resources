@@ -505,6 +505,19 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 24 (2026-10-28, F113) CLOSED the F95/F97 MS-side crop capability wave end-to-end:
+  the converter renders crops FROM the MS PDF (MS-ANSWER-FIGURES.json eyeball ledger ->
+  crop-required stubs -> CROP-REVIEW manual_crop verdicts rendered from the MS doc, all
+  fail-closed), and the exporter serves the printed MS answer in solutionMd (official
+  mark scheme answer figure, ms.pdf p.N caption, after the authored walkthrough). The
+  F95 census's true printed-answer subclass (7 parts: 2026-06 2C 5(a), 2019-06 2C 2(a),
+  2019-06 2C 6(d)(ii), 2022-01 2C 7(a)(i), 2023-01 2C 6(a)(i), 2024-11 2C 7(a)(ii),
+  2023-06 2CR 7(c)(ii)) now serves the printed answer — C113-C119 pin them. F97's
+  leftover (2021-01 2CR 6(c)(i) /1000) had closed via the F108 leg-0 denominator keep.
+  The census's other 12 hits are the MP-copy-with-trailing-guidance shape (solutions
+  already serve) — disclosed, predicate unchanged. Proof: 6/6 slices 8/8 gates, fresh ==
+  surgical on every target part with PNG byte-identity, residual deltas = F111 classes,
+  canaries 117/117.
 - Task 23 (2026-10-28, F108) CLOSED the MS-grid parser tranche end-to-end: the
   Finding-5 answer-grid parser (2021-06 1C 1(a), 2023-06 1CR 4(a) serve
   reconstructed two-column tables), the F88-queued converter-side grid strip
@@ -558,10 +571,10 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 - Residual PUA mapping (post F48/F52): converter-level table + parity run; lands as
   disclosed `notation` edits under ADR-039 — no ledger ceremony required.
 - 2019-06 archive damage: DONE (v0.10.0) — the six rasterized content pages were
-  re-captured through the F41 OCR source layer and G1 is PASS 110/110. The one
-  residual honest item is 2019-06 3(d)(ii): its MS answer cell is a printed image
-  (no extractable text), so the part stays unmatched (C52); serving that answer
-  would need an MS-figure crop capability. Stem-level figures on the recovered
+  re-captured through the F41 OCR source layer and G1 is PASS 110/110. The historical
+  residual item 2019-06 3(d)(ii) CLOSED via the F47 manual-linkage ledger (the eyeballed
+  verbatim transcription of the printed Property-table answer cell, C52's assertion of
+  record) — and the MS-figure crop capability it asked for now exists (F113 below). Stem-level figures on the recovered
   pages (Q1 beakers, Q7 structures, Q11/Q13 apparatus, Q12/Q13/Q15 results tables)
   are not asset-backed — no part-level mention triggers the crop machinery on
   text-anchor-less pages; a stem-scan stub pass is future work. UPDATE wave 19:

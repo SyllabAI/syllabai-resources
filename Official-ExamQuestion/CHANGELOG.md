@@ -1,5 +1,58 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.30.0 — 2026-10-28 · the F113 MS-answer-figure wave: the converter's first MS-side crop path (the F95/F97 filed MS-side crop capability) + the F95 printed-answer subclass served
+
+- **The filed wave**: F95 (the G7 mp_answer_gap census) closed with "fix needs MS-side crop
+  support (converter renders QP-side only today), filed as open wave"; F97's leftover
+  (2021-01 2CR 6(c)(i) `/1000`) named "the same MS-crop wave". The F97 leftover had already
+  closed en route (the F108 leg-0 geometry-aware bare-numeral keep restores the stacked
+  `/1000` denominators; verified served in the corpus of record). This wave lands the
+  CAPABILITY and serves the census's MS-answer-is-a-drawing subclass (7 parts) end-to-end.
+- **Converter capability (v0.30.0)**: `MS-ANSWER-FIGURES.json` (sibling of STEM-RESTORE.json;
+  one flat verdict per part keyed `<series>/4CH1-<paper>:<part_number>`) emits honest
+  crop-required stubs with `source: "ms.pdf"` and `ms_answer_figure: true`; the F45/F99
+  verdict branches render an accepted `manual_crop` box FROM THE MS PDF — the first MS-side
+  render path (page numbers are MS pages, validated against the MS doc; the raster/vector
+  classification reads the MS page's image index). Fail-closed everywhere: malformed
+  entries, id collisions, and UNCONSUMED LEDGER KEYS owned by the running slice abort the
+  run (the guard is slice-scoped — the ledger is corpus-wide and another slice's entries
+  are that slice's run's business).
+- **The 7 parts** (each eyeballed twice — full-page 150 dpi render, then the proof clip —
+  with rects derived from document geometry; the two rotated 2019-06 landscape pages map
+  image/word bboxes through `page.rotation_matrix` into the rendered page space):
+  2026-06 2C 5(a) (M1 ethanol + M2 ethyl ethanoate displayed formulae, embedded rasters),
+  2019-06 2C 2(a) (the printed halogen state/colour answer table — a raster the text
+  layer never carried), 2019-06 2C 6(d)(ii) (ethanoic acid displayed formula + the
+  1-mark guidance partial, both score-bearing, one band), 2022-01 2C 7(a)(i) (ethyl
+  ethanoate displayed formula with the circled ester group — the REJECT note's "ring" is
+  this circle), 2023-01 2C 6(a)(i) (partial displayed structure, carbonyl circled; the
+  (ii) full-ester image excluded), 2024-11 2C 7(a)(ii) (hand-drawn propan-1-ol embedded
+  photograph — the F107 hand-annotated-photo class, crop route), 2023-06 2CR 7(c)(ii)
+  (hand-drawn 2-methylpropanoic acid photograph — independent visual corroboration of the
+  F107 enrichment correction; the (c)(i) F107-transcribed sibling untouched, C109).
+- **Exporter**: an asset whose `source` is the mark scheme renders in the SOLUTION
+  surface — `![… official mark scheme answer figure (ms.pdf p.N)]` appended AFTER the
+  authored worked answer in `solutionMd`, never in `problemMd`; `assets[]` entries carry
+  `source: "ms"`. Un-verdicted ms stubs serve an honest pending-review line.
+- **Verified**: 6/6 slices exit 0 with all 8 gates PASS; the fresh emissions equal the
+  surgical corpus edits on every target part (parsed-level) with PNG byte-identity; the
+  slices' residual fresh-vs-of-record deltas are exactly the F111 disclosed classes
+  (2022-01 7(e) drawing-strip remains; 2024-11 1(c) exponent-restore, C95's guard class;
+  2023-06 7(c)(i) the F107 curated transcription state); round-trip fidelity holds on all
+  6 of-record topic.json files (converter serialization + trailing newline); the canary
+  suite holds 117/117 on the edited tree (110 existing + C113-C119, which pin the 7
+  parts' asset state). The corpus commit is surgical (of-record bytes + the 7 assets
+  only — the F110 standing decision holds; validation-reports not regenerated).
+- **Census subclassification (disclosed, predicate unchanged)**: the F95 corpus census at
+  v0.30.0 reports 19 fragment-shape hits: 7 are the true printed-answer subclass (served
+  here) and 12 are the MP-copy-with-trailing-guidance shape (the part's whole solution
+  text rides a single mark_point copy whose trailing `… scores 0/both` guidance matches
+  the fragment branch — the solutions already serve; receipt class 4, no action).
+- Canaries C113-C119 (110 -> 117). G-E gates green; census constants unchanged (54 sets /
+  477 questions / 2,607 parts / 4,161 markPoints); figure crops 471 -> 478, honest stubs
+  unchanged. Serving delta: 7 changed parts, G-E1-matched against
+  scripts/exporter-disclosures/2026-10-28-f113-ms-answer-figures.json.
+
 ## 0.29.2 — 2026-10-28 · the F86 corpus-wide re-receipt wave: the MS-LINK-OVERRIDES all-marks-fragments precondition fix (the F108 leg-0 interaction) + the re-receipt of record
 
 - **The defect the re-receipt caught**: the F108 leg-0 geometry-aware bare-numeral keep
