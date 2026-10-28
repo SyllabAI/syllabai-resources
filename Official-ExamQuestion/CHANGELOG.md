@@ -1,5 +1,20 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.29.1 — 2026-10-28 · the F107 v2-hub-sync verification + the C57 clobber repair (converter unchanged, still v0.29.0)
+
+- The F107 corrected 7-c-ii solutionMd + 7-c-i markPoints are VERIFIED as the served state of
+  record: v2 PR #415 rode both part ids in the F108 tranche's 14-part disclosed census; the fresh
+  exporter-of-record run at resources main 0c0f0e08 vs v2 main 10011f1e is a byte-level no-op
+  (G-E1 0 deltas, G-E1b 54/54, G-E4 byte-identical passthrough), verifier green, self-test 4/4,
+  and direct served-state assertions on v2 main pass for both corrections. The r2-consumed census
+  of record is filed (2026-10-28-f108-ms-grid-parser-tranche.r2-consumed.json).
+- C57 repaired: #197's validation-report regeneration had clobbered the two
+  ms_link_overrides_applied listings #195 materialized (2023-06:2CR/7(c)(i), 2025-06:2CR/7(c)(ii));
+  both restored verbatim to the #195 committed values — local battery 107/110.
+- Attributed and flagged (not repaired here): C110/C111/C112 shipped red-on-arrival at #197
+  (the leg-2 reconstructions never applied to the corpus; the C110 matcher over-matches the
+  F88-kept wrap-ambiguous class) — the F108 follow-through decision. LEDGER F109.
+
 ## 0.29.0 — 2026-10-28 · the MS-grid parser tranche (F108): the Finding-5 box parser + the F88-queued converter-side grid strip + the F90 MS-side-aware bare-number rule
 
 Three legs on the MS answer grid, one version (the tranche the deep-audit filed as
