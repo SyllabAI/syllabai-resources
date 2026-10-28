@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXM-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-017"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "6162cc770e8391e4a76d68919b88fd9f23081ce9"
 ---
 
 # EXM-05 — Question-Specific Examiner Insights
@@ -128,6 +128,28 @@ in the same group, which was just a repeat of the stem of the question and is,
 therefore, not creditworthy." (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p4).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### EXM-046 — 2019-06 2CR Q2(b): the RAM-rounding purpose ruling
+
+**Claim:** the 2019-06 2CR relative-atomic-mass calculation carried an explicit purpose ruling — rounding to the abundant isotope's value voids the point of the calculation. The ruling teaches what the calculation is FOR: the isotope-abundance working exists to escape the averaged value, so rounding back to the abundant isotope's mass undoes the exercise. The report pairs it with the mechanical slips (not dividing by 100) that wasted the same working.
+**Evidence:** "The whole point of this calculation is to determine a more accurate value for the relative atomic mass, so just rounding the answer to the value of the most abundant isotope defeats the purpose of doing the calculation." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+; "A few lost a mark by not dividing by 100 or rounding the answer to 11." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-047 — 2019-06 2CR Q3: the fractionation inversion that cost four marks
+
+**Claim:** in the 2019-06 2CR fractional-distillation question, inverting the column logic cost the whole part. The error is positional, not chemical: candidates held the right fraction properties but mapped them to the wrong end of the column, and four marks fell to one reversed mental model. Its sibling confusion — viscosity against volatility — cost single marks in the same question.
+**Evidence:** "A small number of candidates seemed to think the heavier fractions were collected near the top of the column and so the answers were completely back to front, unfortunately losing these candidates all four marks." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+; "A few candidates lost a mark in (iii) as they did not understand what was meant by viscosity, probably confusing it with volatility." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-048 — 2019-06 2CR Q2(a): configuration written as electron count
+
+**Claim:** the 2019-06 2CR opening configuration part was lost twice over — period confusion and electron-count-instead-of-configuration answers. Both errors are notation-level rather than conceptual: the configuration is a filling pattern, not a population count, and period membership is read from the shell that is filling. The part was otherwise banked broadly, so the losses are concentrated in exactly these two slips.
+**Evidence:** "A minority thought boron was in period 1 and a few wrote the total number of electrons (5) instead of the electron configuration (2,3)." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+; "Part (a) was well answered, with many candidates scoring all five marks and very few scoring less than three." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-ER-4CH1 — the 2019-06 1C/1CR/2C/2CR examiner-report PDFs
@@ -139,7 +161,7 @@ consumed for insight claims.
 
 ## Limitations / Coverage Gaps
 
-The question-specific insights cover the pack's 2019-06 reports; the corpus's later
+The question-specific insights cover the pack's 2019-06 reports, now including the 2CR question-commentary records EXM-046..048; the corpus's later
 held sessions (2022-2025) are analysed only where sibling packs carry them. Sessions
 without public ERs remain source gaps of record. No canonical planes were written.
 
@@ -147,5 +169,4 @@ without public ERs remain source gaps of record. No canonical planes were writte
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-017 (D3 tranche 1): +3 records (EXM-046..048), zero-append (cited spans already held in the pack of record); claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

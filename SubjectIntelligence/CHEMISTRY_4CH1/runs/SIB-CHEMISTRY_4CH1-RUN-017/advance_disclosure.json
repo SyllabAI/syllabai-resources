@@ -1,0 +1,19 @@
+{
+ "advances": [
+  {
+   "at": "session start",
+   "from": "b2057042",
+   "isolation": "git diff --name-only b2057042..4c04603f -- SubjectIntelligence/ => empty; lanes: YCH12 SB2 v2 polish, T-SPECS-9696/4HI1 spec parsing, run-017 tranche 1 (ADR-039, a different lane counter)",
+   "to": "4c04603f"
+  },
+  {
+   "at": "session mid-flight (post-brief)",
+   "from": "4c04603f",
+   "isolation": "git diff --name-only 4c04603f..6162cc77 -- SubjectIntelligence/ => empty; lane: T-SPECS-MATHSB-2B-OVERLAY-1 (spec-links/maths-B)",
+   "to": "6162cc77"
+  }
+ ],
+ "disposition": "fetch-first gate held twice; local main FF'd to 6162cc77 both times; branch of record cut at 6162cc77; fail-closed rule was armed (zero lane contact found, so no abort needed)",
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-017",
+ "schema": "sib-advance-disclosure/1.0"
+}
