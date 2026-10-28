@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXM-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-017"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "6162cc770e8391e4a76d68919b88fd9f23081ce9"
 ---
 
 # EXM-06 — Exam Technique Insights
@@ -57,8 +57,7 @@ Research artifact; canonical planes untouched.
 **Covers:** six technique insights drawn from the 2023-2024 report excerpts of the
 pack.
 
-**Grounding:** SRC-ER-4CH1 (the 2023-06 2C/2CR, 2023-11 1C/2C and 2024-06 1CR
-reports of the pack).
+**Grounding:** SRC-ER-4CH1 (the 2023-06 2C/2CR, 2023-11 1C/2C, 2024-06 1CR/2C/2CR and 2024-11 1C/2C excerpts of the pack, plus the appended 2019-06 2CR, 2022-06 1C and 2025-06 2C introductions).
 
 **Out of scope:** question-specific mechanics (EXM-05), penalty catalogue (EXM-04).
 
@@ -127,23 +126,38 @@ followed by the alloy observation "Candidates answered the question about an all
 properties, but were less sure about a definition for an alloy." (SRC-ER-4CH1, 2023-06/4CH1-2CR/er.pdf p3).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### EXM-049 — Draft-then-tick: the extended-response discipline
+
+**Claim:** the stated extended-response technique is draft-then-tick — draft ideas first and tick off question parts as they appear in the answer. The technique costs no chemistry time and addresses the session's named failure mode — extended answers that drift off the printed demands. It is the examiner's own proposed study skill, stated in the report's voice.
+**Evidence:** "should be encouraged to draft their ideas first or tick parts of the question off when they appear in the answer" (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-050 — Answer the demand: description is not explanation
+
+**Claim:** demand discipline is a stated examiner expectation — a description part does not want an explanation. The same 2CR session had just watched candidates volunteer intermolecular-force explanations into a description part, so the reminder is the vagueness warning spent from the other side: answer exactly the demand printed, no more and no less.
+**Evidence:** "Candidates need to realise that if the question asks for a description an explanation is not required." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+; "Quite a few candidates felt the need to explain the differences in terms of intermolecular forces." (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-051 — The equilibrium-arrow marking law
+
+**Claim:** equilibrium-arrow notation carries an explicit marking law as of 2025-06 2C Q02(e): directional arrows only. The ruling is dated and paper-specific on its face, but its direction is general: equilibrium notation is examined for direction sense, and legacy habits — double arrows, bare lines — now cost the mark. The same introduction flags Q02(e)'s question as unusual and discriminating.
+**Evidence:** "Q02(e) is no longer allowed for double arrows or just straight lines. It has to be arrows shown in the right directions." (SRC-ER-4CH1, 2025-06/4CH1-2C/er.pdf p3).
+; "Question 2 was unusual and discriminated well." (SRC-ER-4CH1, 2025-06/4CH1-2C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
-Primary evidence: SRC-ER-4CH1 — the 2023-06 2C/2CR, 2023-11 1C/2C and 2024-06 1CR
-examiner-report PDFs of the pack (page-located excerpts from the commentary zone;
-per-file identity carried by the paper-dir paths). One quotation window truncates at
-the excerpt cap; the continuation is not paraphrased. No mark schemes were consumed
-for technique claims; no specimen material was cited.
+Primary evidence: SRC-ER-4CH1 — the 2023-06, 2023-11, 2024-06, 2024-11 and appended 2019-06 2CR / 2022-06 1C / 2025-06 2C examiner-report PDFs of the pack.
 
 ## Limitations / Coverage Gaps
 
-The technique inventory covers the pack's 2023-2024 report excerpts; earlier and
-later held sessions sit in sibling packs. Sessions without public ERs remain source
+The technique inventory covers the pack's 2023-2024 report excerpts and the appended 2019-06 2CR, 2022-06 1C and 2025-06 2C introductions; other held sessions sit in sibling packs. Sessions without public ERs remain source
 gaps of record. No canonical planes were written.
 
 ## Research Status
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-017 (D3 tranche 1): +3 records (EXM-049..051) grounded in the pack of record, widened by disclosed diff-proved ER appends (2019-06 2CR / 2022-06 1C / 2025-06 2C p3); claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

@@ -1,0 +1,60 @@
+{
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-017",
+ "law": "GENERATED -> QA_PASSED -> STAGED -> PUBLISHED (lifecycle.py); stage/publish are explicit operator-ordered validator actions; chunks are deterministic retrieval JSONL",
+ "artifacts": [
+  {
+   "artifact_id": "EXM-01",
+   "filename": "CHEMISTRY_4CH1_EXM-01_EXAMINER_REPORT_SYNTHESIS.md",
+   "stage": "STAGED",
+   "publish": "PUBLISHED",
+   "chunks_file": "/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1/chunks/EXM-01.chunks.jsonl",
+   "artifact_sha256": "cf87f94f72835b08f5107bb1d3cf8cc12856db59bee8035b9a4dc51af00225dd"
+  },
+  {
+   "artifact_id": "EXM-02",
+   "filename": "CHEMISTRY_4CH1_EXM-02_RECURRING_EXAMINER_WARNINGS.md",
+   "stage": "STAGED",
+   "publish": "PUBLISHED",
+   "chunks_file": "/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1/chunks/EXM-02.chunks.jsonl",
+   "artifact_sha256": "7b0601bc99d3a2d84b8a8ea15d523bc76cf92596e2cbaa8e8971a8bbda3ffcec"
+  },
+  {
+   "artifact_id": "EXM-03",
+   "filename": "CHEMISTRY_4CH1_EXM-03_WHAT_EXAMINERS_REWARD.md",
+   "stage": "STAGED",
+   "publish": "PUBLISHED",
+   "chunks_file": "/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1/chunks/EXM-03.chunks.jsonl",
+   "artifact_sha256": "28caf5e2aae1216734ed05d19de9a465ee36a5746608e2844e3b54e6b9286fcf"
+  },
+  {
+   "artifact_id": "EXM-04",
+   "filename": "CHEMISTRY_4CH1_EXM-04_WHAT_EXAMINERS_PENALIZE.md",
+   "stage": "STAGED",
+   "publish": "PUBLISHED",
+   "chunks_file": "/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1/chunks/EXM-04.chunks.jsonl",
+   "artifact_sha256": "48a7b2eda691852f51bd228ca61d9119274b61fac5e0e540cbe12e1af778be01"
+  },
+  {
+   "artifact_id": "EXM-05",
+   "filename": "CHEMISTRY_4CH1_EXM-05_QUESTION_SPECIFIC_EXAMINER_INSIGHTS.md",
+   "stage": "STAGED",
+   "publish": "PUBLISHED",
+   "chunks_file": "/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1/chunks/EXM-05.chunks.jsonl",
+   "artifact_sha256": "d2a506e0d8ec11f98e2ca9eff87f3aaa3079b0acaf6bbde7627216aa00ce44fd"
+  },
+  {
+   "artifact_id": "EXM-06",
+   "filename": "CHEMISTRY_4CH1_EXM-06_EXAM_TECHNIQUE_INSIGHTS.md",
+   "stage": "STAGED",
+   "publish": "PUBLISHED",
+   "chunks_file": "/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1/chunks/EXM-06.chunks.jsonl",
+   "artifact_sha256": "780e66948dcce4712eaa7b929eff94431174b45599b620a4c348cf7cddfb2bc4"
+  }
+ ],
+ "summary": {
+  "stage_x": 6,
+  "publish_x": 6,
+  "chunks_x": 6,
+  "post_lifecycle_note": "post-lifecycle validate-manifest stays in the F4a-disclosed red state (88x SIB-MANI-007); the evidence chain of record for the re-published set is this receipt's governed transitions"
+ }
+}
