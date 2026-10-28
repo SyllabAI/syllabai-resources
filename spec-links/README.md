@@ -34,6 +34,11 @@ renders for "spec links" — canonical truth only (no learner state).
 - `T1_verbatim` / `T2_near` / `T3_section_anchored` / `T4_fuzzy` (T4 always
   carries a review flag upstream) — from `spec_point_map.json`
 - `S1_name_match` / `S2_name_ambiguous` (S2 flagged) — name-only regimes
+- `C1_content_join` / `C2_content_join` / `C3_topic_anchored` (C2/C3 always
+  flagged) — content-evidence regimes (statement wording vs anchored item
+  text, topic-gated); current use: igcse-maths-b-16
+  (`scripts/sme_maths_b_content_join.py`, override ledger +
+  full candidate profile recorded in that course's `spec_point_map.json`)
 - flashcard codes additionally via `sme_spec_link_inherited` (SME's own
   card→spcpt anchor through our verified map) or `card_text_join`
   (alignment-checked fill-in-the-blanks / definition text)

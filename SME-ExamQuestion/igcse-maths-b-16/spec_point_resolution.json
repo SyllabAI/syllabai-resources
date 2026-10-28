@@ -1,11 +1,9 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T19:15:38Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SME-11 initial tiered auto-join from the harvested SME index against the canonical parsed registry; ambiguous and weak joins left unresolved by design)",
+ "generated_utc": "2026-10-28T09:28:36Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SME-11 initial tiered auto-join; r0 content-join pass 2026-10-28 by scripts/sme_maths_b_content_join.py — tiers C1/C2/C3, override ledger in spec_point_map.json; C3 rows and all flags are an open review queue, no-guess discipline preserved)",
  "counts": {
-  "ids": 215,
-  "resolved": 32,
-  "unresolved": 183
+  "ids": 215
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -14,48 +12,66 @@
    "sme_name": "Finding Equations of Straight Lines",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.34)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4075,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_2KkPGzKqGcx5jPkt",
    "sme_name": "Classifying Stationary Points",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "4M",
+   "official_id": "IGCSE_MATHS_B:4M",
+   "tier": "C3_topic_anchored",
+   "score": 0.4225,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_2NQRqtzTGgzNksfC",
    "sme_name": "Adding & Subtracting Areas",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.30)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C3_topic_anchored",
+   "score": 0.4877,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_2SfTVFKHJRBby3QK",
    "sme_name": "Angles in Parallel Lines",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.56)"
+   "resolved_code": "6C",
+   "official_id": "IGCSE_MATHS_B:6C",
+   "tier": "C3_topic_anchored",
+   "score": 0.4111,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_2btTTD747RgNBmbB",
    "sme_name": "Solving Cubic Equations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.37)"
+   "resolved_code": "3E",
+   "official_id": "IGCSE_MATHS_B:3E",
+   "tier": "C1_content_join",
+   "score": 0.6268,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_2nCMJhvvGsW7vMcV",
    "sme_name": "Speed-Time Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.41)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3717,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_2w6yB8pYShK9mGRb",
@@ -64,27 +80,31 @@
    "referenced_by_parts": 0,
    "resolved_code": "4D",
    "official_id": "IGCSE_MATHS_B:4D",
-   "official_wording": "Domain and range of a function",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8286,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_2w9hbV5pTbvc5Smj",
    "sme_name": "Surface Area",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C3_topic_anchored",
+   "score": 0.4225,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_339DNssRW9x2NPKk",
    "sme_name": "Basic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.2299,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_38XcCSfT6hW33fDn",
@@ -93,107 +113,141 @@
    "referenced_by_parts": 0,
    "resolved_code": "9D",
    "official_id": "IGCSE_MATHS_B:9D",
-   "official_wording": "Bearings",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 1.0,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_3fMGfNtg3hXMg6gC",
    "sme_name": "Problem Solving with Areas",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.26)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C2_content_join",
+   "score": 0.5208,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_3n2jHMX7vMBh95jq",
    "sme_name": "Negative Numbers",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "1K",
+   "official_id": "IGCSE_MATHS_B:1K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3383,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_3sptc2fDMgGnNYqg",
    "sme_name": "Multiplying Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.4048,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_3w7YqY2dN68HMc4k",
    "sme_name": "Combination of Transformations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "flagged: runner-up within 0.03 (1.00) — review"
+   "resolved_code": "8K",
+   "official_id": "IGCSE_MATHS_B:8K",
+   "tier": "C1_content_join",
+   "score": 1.0,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_425cHYzg3cyxG5f3",
    "sme_name": "Arithmetic Sequences",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.25)"
+   "resolved_code": "3L",
+   "official_id": "IGCSE_MATHS_B:3L",
+   "tier": "C2_content_join",
+   "score": 0.5357,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_4QRwffMSmK66nXtp",
    "sme_name": "Surds & Exact Values",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.30)"
+   "resolved_code": "1D",
+   "official_id": "IGCSE_MATHS_B:1D",
+   "tier": "C2_content_join",
+   "score": 0.5233,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_4ZdHtGPdDjYdR6rK",
    "sme_name": "Compound Measures",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "1G",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "tier": "C3_topic_anchored",
+   "score": 0.3589,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_5CHMgxBWhBwxh5Y6",
    "sme_name": "Reverse Percentages",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C3_topic_anchored",
+   "score": 0.3517,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_5FMXZMjqSZ3GK53q",
    "sme_name": "Basic Angle Properties",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.61)"
+   "resolved_code": "6L",
+   "official_id": "IGCSE_MATHS_B:6L",
+   "tier": "C3_topic_anchored",
+   "score": 0.4868,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_5SJ9rhJbhSwKtDbv",
    "sme_name": "Determinant of a transformation matrix",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.41)"
+   "resolved_code": "5G",
+   "official_id": "IGCSE_MATHS_B:5G",
+   "tier": "C2_content_join",
+   "score": 0.5529,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_5Wj647RsttH6ZNfd",
    "sme_name": "Scale",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.13)"
+   "resolved_code": "6B",
+   "official_id": "IGCSE_MATHS_B:6B",
+   "tier": "C3_topic_anchored",
+   "score": 0.2173,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_5snY7JPdgrqvFRhY",
    "sme_name": "Combining Transformation Matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "5G",
+   "official_id": "IGCSE_MATHS_B:5G",
+   "tier": "C1_content_join",
+   "score": 0.8794,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_6Tdy5SV9gzyC8BSw",
@@ -201,55 +255,77 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.37)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T1 best 1H 0.27, cov 0.20, tcov 0.20)"
   },
   {
    "id": "spcpt_6XysCMWvYY936jw8",
    "sme_name": "Mixed Numbers & Improper Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.37)"
+   "resolved_code": "1K",
+   "official_id": "IGCSE_MATHS_B:1K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3726,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_6tmCTQJYPsTdKKZ6",
    "sme_name": "Substitution",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.21)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2492,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_7YTSNFdbGCTSMHJX",
    "sme_name": "Quadratic Equation Methods",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "3K",
+   "official_id": "IGCSE_MATHS_B:3K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3878,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_7gdmq8MbcShywrkB",
    "sme_name": "Rotational Symmetry",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "6I",
+   "official_id": "IGCSE_MATHS_B:6I",
+   "tier": "C3_topic_anchored",
+   "score": 0.3107,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_7pTpRYh7tsCnGspT",
    "sme_name": "Factorising Simple Quadratics",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.45)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C2_content_join",
+   "score": 0.5596,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_7sDcDrMgvvb7JNyy",
    "sme_name": "The identity and null matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "5B",
+   "official_id": "IGCSE_MATHS_B:5B",
+   "tier": "C3_topic_anchored",
+   "score": 0.4072,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_84hZy4pDd8nBGN3r",
@@ -257,15 +333,22 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T4 best 4M 0.16, cov 0.20, tcov 0.00)"
   },
   {
    "id": "spcpt_89mzCM5TTjHvXmvd",
    "sme_name": "Basic operations with matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.37)"
+   "resolved_code": "5C",
+   "official_id": "IGCSE_MATHS_B:5C",
+   "tier": "C1_content_join",
+   "score": 0.7053,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_8GsFXwdQTJymxXw8",
@@ -273,15 +356,22 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12)"
   },
   {
    "id": "spcpt_8MpvS5pnYkf9QswF",
    "sme_name": "FDP Conversions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.23)"
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C1_content_join",
+   "score": 0.6112,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_8Wtthy9gt8B5xsVW",
@@ -289,23 +379,33 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T1 best 1F 0.17, cov 0.00, tcov 0.33)"
   },
   {
    "id": "spcpt_8rpDpT2HVPgyCKS8",
    "sme_name": "Uses of Prime Factor Decomposition",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.41)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C1_content_join",
+   "score": 0.6102,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_93QKhBw6PtVSvVdB",
    "sme_name": "Ratios & FDP",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.16)"
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C3_topic_anchored",
+   "score": 0.4,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_9JzR7VMzsQqT4KHq",
@@ -314,27 +414,31 @@
    "referenced_by_parts": 0,
    "resolved_code": "9C",
    "official_id": "IGCSE_MATHS_B:9C",
-   "official_wording": "Angles of elevation and depression",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8963,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_9Stcxtj75Q3wpqJF",
    "sme_name": "Completing the Square",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.3193,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_9T2dpGhRRNvzf2n3",
    "sme_name": "Converting To & From Standard Form",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.57)"
+   "resolved_code": "1K",
+   "official_id": "IGCSE_MATHS_B:1K",
+   "tier": "C1_content_join",
+   "score": 0.8275,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_9Y69tw58MFQvdBvT",
@@ -343,19 +447,20 @@
    "referenced_by_parts": 0,
    "resolved_code": "8D",
    "official_id": "IGCSE_MATHS_B:8D",
-   "official_wording": "Parallel vectors, unit vectors and position vectors",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7939,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_9bNwP86Td5fk5FS6",
    "sme_name": "Sets & Venn Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.54)"
+   "resolved_code": "2G",
+   "official_id": "IGCSE_MATHS_B:2G",
+   "tier": "C2_content_join",
+   "score": 0.65,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_9cJGVGKRhP9JYgjF",
@@ -364,27 +469,31 @@
    "referenced_by_parts": 0,
    "resolved_code": "10I",
    "official_id": "IGCSE_MATHS_B:10I",
-   "official_wording": "Using simple conditional probability for combined events",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6578,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_B37MzscGX3VQwSK2",
    "sme_name": "Position & Displacement Vectors",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.56)"
+   "resolved_code": "8D",
+   "official_id": "IGCSE_MATHS_B:8D",
+   "tier": "C2_content_join",
+   "score": 0.5882,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_BVf2GTX8FCvzJjJN",
    "sme_name": "Recurring Decimals",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.45)"
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C3_topic_anchored",
+   "score": 0.4447,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_BktcXhHcVFw8R9Q2",
@@ -393,75 +502,97 @@
    "referenced_by_parts": 0,
    "resolved_code": "4G",
    "official_id": "IGCSE_MATHS_B:4G",
-   "official_wording": "Variation, direct and indirect proportion",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8386,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_CGChbywtxFSDK5vT",
    "sme_name": "Algebraic Proof",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C2_content_join",
+   "score": 0.5219,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Ck5vpzYGNJy5qdNM",
    "sme_name": "Quadratics Factorising Methods",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.34)"
+   "resolved_code": "3D",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "tier": "C3_topic_anchored",
+   "score": 0.4293,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_D6T5FMtYgmDGKKXB",
    "sme_name": "Scale Drawings",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.16)"
+   "resolved_code": "6B",
+   "official_id": "IGCSE_MATHS_B:6B",
+   "tier": "C3_topic_anchored",
+   "score": 0.2621,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_DQrkJGG4Mngch9xc",
    "sme_name": "Reflections",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.26)"
+   "resolved_code": "8J",
+   "official_id": "IGCSE_MATHS_B:8J",
+   "tier": "C3_topic_anchored",
+   "score": 0.4577,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_DcSkGdrNWCZYX4V8",
    "sme_name": "Equations & Problem Solving",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.32)"
+   "resolved_code": "3H",
+   "official_id": "IGCSE_MATHS_B:3H",
+   "tier": "C3_topic_anchored",
+   "score": 0.3908,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_DrvNQjR2z6ZmYQxv",
    "sme_name": "Rates of Change of Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.54)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4167,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_F8nMMNHkgCNBjb5G",
    "sme_name": "Expanding Squared Brackets",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.16)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2167,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_FHRjdMc6tvRR553q",
    "sme_name": "Basic Percentages",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.52)"
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C3_topic_anchored",
+   "score": 0.4454,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_FMpch7WRH8py5vBJ",
@@ -470,11 +601,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "6J",
    "official_id": "IGCSE_MATHS_B:6J",
-   "official_wording": "Understand and use SSS, SAS, ASA and RHS conditions to prove the congruence of triangles",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6833,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_FVX7YRftjhnwYHQF",
@@ -483,19 +612,20 @@
    "referenced_by_parts": 0,
    "resolved_code": "10E",
    "official_id": "IGCSE_MATHS_B:10E",
-   "official_wording": "Understand the language and basic concepts of probability",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7838,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_Fbm5V3ByzktDQbh5",
    "sme_name": "Dividing Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.41)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.4227,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_FmVMxSY4pdr2ghgq",
@@ -504,59 +634,75 @@
    "referenced_by_parts": 0,
    "resolved_code": "10J",
    "official_id": "IGCSE_MATHS_B:10J",
-   "official_wording": "Finding very simple conditional probability",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8788,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_GD9CRysqknb6VPhr",
    "sme_name": "Adding & Subtracting Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.32)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.3829,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_GG7jc43bG3xTkft4",
    "sme_name": "Reflection matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.48)"
+   "resolved_code": "5G",
+   "official_id": "IGCSE_MATHS_B:5G",
+   "tier": "C3_topic_anchored",
+   "score": 0.4847,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_GVgyB5BVfNDYGf8M",
    "sme_name": "Expanding Three Brackets",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.31)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2904,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_GXB9cjhDVVQ5sRgz",
    "sme_name": "Finding Regions using Inequalities",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.34)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C2_content_join",
+   "score": 0.5365,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_H5Sb2tfDwbqy6x2t",
    "sme_name": "Enlargement matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.48)"
+   "resolved_code": "5G",
+   "official_id": "IGCSE_MATHS_B:5G",
+   "tier": "C3_topic_anchored",
+   "score": 0.458,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_H8sZcbsSTbtsTTr5",
    "sme_name": "Bounds & Error Intervals",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.30)"
+   "resolved_code": "1J",
+   "official_id": "IGCSE_MATHS_B:1J",
+   "tier": "C2_content_join",
+   "score": 0.5333,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_HBwF9SP8dhSGhZZk",
@@ -565,179 +711,240 @@
    "referenced_by_parts": 0,
    "resolved_code": "3D",
    "official_id": "IGCSE_MATHS_B:3D",
-   "official_wording": "Use of the factor theorem",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8872,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_HJZCbjy4VhjyHVWM",
    "sme_name": "Problem Solving with Differentiation",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.31)"
+   "resolved_code": "4L",
+   "official_id": "IGCSE_MATHS_B:4L",
+   "tier": "C3_topic_anchored",
+   "score": 0.2983,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_HcBpSfpzpdZqCFXk",
    "sme_name": "Similarity",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "flagged: runner-up within 0.03 (0.74) — review"
+   "resolved_code": "6H",
+   "official_id": "IGCSE_MATHS_B:6H",
+   "tier": "S2_name_ambiguous",
+   "score": 0.7702,
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_HnxHKwwfTxKcvCN7",
    "sme_name": "Cosine Rule",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "9A",
+   "official_id": "IGCSE_MATHS_B:9A",
+   "tier": "C3_topic_anchored",
+   "score": 0.3815,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_HsN4snCbVHthWb35",
    "sme_name": "Congruent Triangles",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.60)"
+   "resolved_code": "6I",
+   "official_id": "IGCSE_MATHS_B:6I",
+   "tier": "C1_content_join",
+   "score": 0.7979,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_J3KSMj7PjnxtPzCD",
    "sme_name": "Introduction to Sequences",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.22)"
+   "resolved_code": "3L",
+   "official_id": "IGCSE_MATHS_B:3L",
+   "tier": "C2_content_join",
+   "score": 0.5032,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_J55PhZ2cbPsYvpt8",
    "sme_name": "Types of Number",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.50)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C1_content_join",
+   "score": 0.7549,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_JGrDCdnmTzs2Z9Cb",
    "sme_name": "Solving matrix equations with inverses",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.36)"
+   "resolved_code": "5C",
+   "official_id": "IGCSE_MATHS_B:5C",
+   "tier": "C3_topic_anchored",
+   "score": 0.4995,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_JRX7QS29KrY2hCCW",
    "sme_name": "Quadratic Formula",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.40)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2977,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Jw35TTKhvXxmGGfP",
    "sme_name": "2D Coordinates",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "resolved_code": "4H",
+   "official_id": "IGCSE_MATHS_B:4H",
+   "tier": "C3_topic_anchored",
+   "score": 0.3,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_K6S4SN5GRRrC4hTj",
    "sme_name": "Basic Vectors",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.49)"
+   "resolved_code": "8G",
+   "official_id": "IGCSE_MATHS_B:8G",
+   "tier": "C2_content_join",
+   "score": 0.6083,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_KNXbNby67zKvX8SX",
    "sme_name": "Ordering FDP",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.15)"
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C1_content_join",
+   "score": 0.6155,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_KSnrgNbPQV7FtyF5",
    "sme_name": "Introduction to Functions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.55)"
+   "resolved_code": "4F",
+   "official_id": "IGCSE_MATHS_B:4F",
+   "tier": "C2_content_join",
+   "score": 0.5357,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_M5rhN2mwnR2yddc6",
    "sme_name": "Calculations using Bounds",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.51)"
+   "resolved_code": "1J",
+   "official_id": "IGCSE_MATHS_B:1J",
+   "tier": "C2_content_join",
+   "score": 0.5333,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_MTZDMgNSvV3FdVVR",
    "sme_name": "Distance-Time Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.43)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3875,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_MVTZsGHnDRvkyxqK",
    "sme_name": "Forming Equations from Shapes",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.36)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.412,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Mg5kHQs2xhx8M5vm",
    "sme_name": "Bar Charts",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.15)"
+   "resolved_code": "10B",
+   "official_id": "IGCSE_MATHS_B:10B",
+   "tier": "C3_topic_anchored",
+   "score": 0.3774,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Mq2w9qKSCyF5mvvs",
    "sme_name": "Area & Circumference",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "7D",
+   "official_id": "IGCSE_MATHS_B:7D",
+   "tier": "C1_content_join",
+   "score": 0.6478,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_MwN8gwy9J9DD39z6",
    "sme_name": "Introduction to Matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.52)"
+   "resolved_code": "5A",
+   "official_id": "IGCSE_MATHS_B:5A",
+   "tier": "C3_topic_anchored",
+   "score": 0.4115,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_N5xf2wmr4yCNxHBj",
    "sme_name": "Rotations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "resolved_code": "8J",
+   "official_id": "IGCSE_MATHS_B:8J",
+   "tier": "C3_topic_anchored",
+   "score": 0.4797,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_NyC8VYj2kktfwnZP",
    "sme_name": "Lines of Symmetry",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "6E",
+   "official_id": "IGCSE_MATHS_B:6E",
+   "tier": "C3_topic_anchored",
+   "score": 0.3706,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_P88yS9wysymQ2brq",
    "sme_name": "Highest Common Factor (HCF)",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.32)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C1_content_join",
+   "score": 0.6888,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_PzyS22R9jMg3y3sZ",
@@ -745,39 +952,55 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.31)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12)"
   },
   {
    "id": "spcpt_QJNVgG7qqP279jnN",
    "sme_name": "Sine Rule",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.39)"
+   "resolved_code": "9A",
+   "official_id": "IGCSE_MATHS_B:9A",
+   "tier": "C3_topic_anchored",
+   "score": 0.4557,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_QWXhzVp2S3VYZdZc",
    "sme_name": "Discrete & Continuous Data",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.52)"
+   "resolved_code": "10A",
+   "official_id": "IGCSE_MATHS_B:10A",
+   "tier": "C3_topic_anchored",
+   "score": 0.3023,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_QkZ2S7CKb8GrYdYx",
    "sme_name": "Averages from Tables & Charts",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.15)"
+   "resolved_code": "10B",
+   "official_id": "IGCSE_MATHS_B:10B",
+   "tier": "C3_topic_anchored",
+   "score": 0.3354,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_QxxYWb5YckkR8Wds",
    "sme_name": "Vector Proof",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "8D",
+   "official_id": "IGCSE_MATHS_B:8D",
+   "tier": "C2_content_join",
+   "score": 0.5121,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_RJbgRvXq2VrGpP5g",
@@ -786,11 +1009,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "8E",
    "official_id": "IGCSE_MATHS_B:8E",
-   "official_wording": "Sum and difference of two vectors",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6621,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_RJtRSrxJtXZPyDHz",
@@ -799,27 +1020,31 @@
    "referenced_by_parts": 0,
    "resolved_code": "10I",
    "official_id": "IGCSE_MATHS_B:10I",
-   "official_wording": "Using simple conditional probability for combined events",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7684,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_Rv3DcsGBkxSkb8Ms",
    "sme_name": "Probability & Venn Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "10H",
+   "official_id": "IGCSE_MATHS_B:10H",
+   "tier": "C3_topic_anchored",
+   "score": 0.2972,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_S2dfVTzRhCh7pRzW",
    "sme_name": "Expanding Two Brackets",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.37)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.211,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_SQqKCGwRcv6gj5h3",
@@ -827,63 +1052,88 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.17)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T10 best 10I 0.15, cov 0.00, tcov 0.20)"
   },
   {
    "id": "spcpt_SSJkWfTg9GyZBXt4",
    "sme_name": "Simple Rearranging",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.49)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.275,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_SVXT7VrWxFMXkD7D",
    "sme_name": "Properties of 2D Shapes",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "6D",
+   "official_id": "IGCSE_MATHS_B:6D",
+   "tier": "C1_content_join",
+   "score": 0.626,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_SYHWnwMWKxDNg9s8",
    "sme_name": "Solving Linear Equations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.62)"
+   "resolved_code": "3H",
+   "official_id": "IGCSE_MATHS_B:3H",
+   "tier": "C3_topic_anchored",
+   "score": 0.4713,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_SgzMz9GCcsdMwJcx",
    "sme_name": "Prime Factor Decomposition",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C1_content_join",
+   "score": 0.6872,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Sq9YjYQDkzwdnKT3",
    "sme_name": "Frequency Density",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.16)"
+   "resolved_code": "10D",
+   "official_id": "IGCSE_MATHS_B:10D",
+   "tier": "C3_topic_anchored",
+   "score": 0.2048,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_SwbJdpQTQxGXry8M",
    "sme_name": "Drawing Graphs Using a Table",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.48)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4864,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_TXCfYj93S7vCV9nq",
    "sme_name": "Alternate Segment Theorem",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.39)"
+   "resolved_code": "6F",
+   "official_id": "IGCSE_MATHS_B:6F",
+   "tier": "C3_topic_anchored",
+   "score": 0.4735,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_TZkZ5ZK4bRYdjnGY",
@@ -892,51 +1142,64 @@
    "referenced_by_parts": 0,
    "resolved_code": "4F",
    "official_id": "IGCSE_MATHS_B:4F",
-   "official_wording": "Inverse functions",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 1.0,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_TvHwnSVsSstxssKh",
    "sme_name": "Reciprocal Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3928,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_VgH3YPmpp6Yqy9KC",
    "sme_name": "Forming & Solving Equations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.35)"
+   "resolved_code": "3H",
+   "official_id": "IGCSE_MATHS_B:3H",
+   "tier": "C3_topic_anchored",
+   "score": 0.3187,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Vr9z3J63Pcc4xWmH",
    "sme_name": "Inverse of a 2x2 matrix",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "resolved_code": "5E",
+   "official_id": "IGCSE_MATHS_B:5E",
+   "tier": "C1_content_join",
+   "score": 0.6296,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_W2v94nxskTtpWxWd",
    "sme_name": "Solving by Completing the Square",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "3I",
+   "official_id": "IGCSE_MATHS_B:3I",
+   "tier": "C3_topic_anchored",
+   "score": 0.3409,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_W2yYk784rNVZBxPh",
    "sme_name": "Perimeter",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.18)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C3_topic_anchored",
+   "score": 0.3108,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_W5bHgsHCyJ4jpkYz",
@@ -944,55 +1207,77 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.14)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12)"
   },
   {
    "id": "spcpt_W6x4XqqqZWnY5SZc",
    "sme_name": "Laws of Indices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "resolved_code": "1C",
+   "official_id": "IGCSE_MATHS_B:1C",
+   "tier": "C1_content_join",
+   "score": 0.8077,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_WDjD46wdhy2YdYdv",
    "sme_name": "Planes of Symmetry",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "6E",
+   "official_id": "IGCSE_MATHS_B:6E",
+   "tier": "C1_content_join",
+   "score": 0.6389,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_WWjHg7QVhBnYQHKs",
    "sme_name": "Compound interest",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.22)"
+   "resolved_code": "1C",
+   "official_id": "IGCSE_MATHS_B:1C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2671,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_WrrWCGjpRHYJhNQ6",
    "sme_name": "Determinant of a 2x2 Matrix",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "5E",
+   "official_id": "IGCSE_MATHS_B:5E",
+   "tier": "C1_content_join",
+   "score": 0.6505,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_X8CSxK2dhn5rX34f",
    "sme_name": "Solving Linear Inequalities",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.54)"
+   "resolved_code": "3J",
+   "official_id": "IGCSE_MATHS_B:3J",
+   "tier": "C3_topic_anchored",
+   "score": 0.3877,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_XC6PSG6CcXnNDb3Q",
    "sme_name": "Exchange Rates",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.38)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.2621,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_XWbj3PG2n8tdWF2w",
@@ -1001,51 +1286,64 @@
    "referenced_by_parts": 0,
    "resolved_code": "4E",
    "official_id": "IGCSE_MATHS_B:4E",
-   "official_wording": "Composite functions",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 1.0,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_XWwgtKhQDRhyY5m4",
    "sme_name": "Pythagoras Theorem",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.55)"
+   "resolved_code": "6F",
+   "official_id": "IGCSE_MATHS_B:6F",
+   "tier": "C2_content_join",
+   "score": 0.827,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_XhXhg6sRyMQ88chp",
    "sme_name": "Gradient of a Line",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3405,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Xqkq2qz7NzMcVZHQ",
    "sme_name": "Properties of 3D Shapes",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C3_topic_anchored",
+   "score": 0.2467,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_YQTm89bBFQBWdt2g",
    "sme_name": "3D Pythagoras & Trigonometry",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.17)"
+   "resolved_code": "6F",
+   "official_id": "IGCSE_MATHS_B:6F",
+   "tier": "C2_content_join",
+   "score": 0.6602,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_YQX35KWR6v8thX5T",
    "sme_name": "Translations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.19)"
+   "resolved_code": "8J",
+   "official_id": "IGCSE_MATHS_B:8J",
+   "tier": "C2_content_join",
+   "score": 0.515,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_Yhn8BQfZNrRp26cf",
@@ -1054,35 +1352,42 @@
    "referenced_by_parts": 0,
    "resolved_code": "6M",
    "official_id": "IGCSE_MATHS_B:6M",
-   "official_wording": "Loci in two dimensions",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7231,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_b7HzYMMwjGWQSz77",
    "sme_name": "Inverse Proportion",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.57)"
+   "resolved_code": "4F",
+   "official_id": "IGCSE_MATHS_B:4F",
+   "tier": "C2_content_join",
+   "score": 0.5557,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_bGtx4SMcX6BRS6KP",
    "sme_name": "Reading & Interpreting Statistical Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.25)"
+   "resolved_code": "10A",
+   "official_id": "IGCSE_MATHS_B:10A",
+   "tier": "C3_topic_anchored",
+   "score": 0.2989,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_bMYrxtVc2SZgt8mX",
    "sme_name": "Money Calculations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.39)"
+   "resolved_code": "1G",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "tier": "C3_topic_anchored",
+   "score": 0.3015,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_bPTTmJSGkKv2PDc5",
@@ -1090,39 +1395,55 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12)"
   },
   {
    "id": "spcpt_bmqbWbZM8HXPwsFF",
    "sme_name": "Lowest Common Multiple (LCM)",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.15)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C1_content_join",
+   "score": 0.7494,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_c25SPBnps9dhX2Dk",
    "sme_name": "Order of Operations (BIDMAS/BODMAS)",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.17)"
+   "resolved_code": "1C",
+   "official_id": "IGCSE_MATHS_B:1C",
+   "tier": "C3_topic_anchored",
+   "score": 0.3712,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_c2F7sdrY5sQQCXQ5",
    "sme_name": "Quadratic Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.3946,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_c3ZTz62W4HKyb4zk",
    "sme_name": "Enlargements",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.19)"
+   "resolved_code": "8K",
+   "official_id": "IGCSE_MATHS_B:8K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4357,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_cDnTk2242hfSCjVh",
@@ -1131,11 +1452,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "1C",
    "official_id": "IGCSE_MATHS_B:1C",
-   "official_wording": "Indices, powers and roots",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8667,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_cSMqGjbV8QXt5mzv",
@@ -1144,43 +1463,53 @@
    "referenced_by_parts": 0,
    "resolved_code": "8F",
    "official_id": "IGCSE_MATHS_B:8F",
-   "official_wording": "Modulus (magnitude) of a vector",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 1.0,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_cfsNsZkBNfQ2hWbY",
    "sme_name": "Transforming a Point",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "5G",
+   "official_id": "IGCSE_MATHS_B:5G",
+   "tier": "C3_topic_anchored",
+   "score": 0.482,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_crKbmb6wVjM4yPJh",
    "sme_name": "Related Calculations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "resolved_code": "1F",
+   "official_id": "IGCSE_MATHS_B:1F",
+   "tier": "C3_topic_anchored",
+   "score": 0.3908,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_d6jcrzdmQw9SvSPr",
    "sme_name": "Percentage Increases & Decreases",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.30)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.2573,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_d96BnpMKqDSDxSkx",
    "sme_name": "Sample Space Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.31)"
+   "resolved_code": "10J",
+   "official_id": "IGCSE_MATHS_B:10J",
+   "tier": "C3_topic_anchored",
+   "score": 0.2975,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_dBwfqg3wJvDp9PNs",
@@ -1189,43 +1518,53 @@
    "referenced_by_parts": 0,
    "resolved_code": "6G",
    "official_id": "IGCSE_MATHS_B:6G",
-   "official_wording": "Similarity: areas and volumes of similar figures",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7294,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_djG6mt4Gk3T4wJwC",
    "sme_name": "Area of a Triangle",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.49)"
+   "resolved_code": "9A",
+   "official_id": "IGCSE_MATHS_B:9A",
+   "tier": "C3_topic_anchored",
+   "score": 0.2871,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_dnkHMPkqhhdDxPkZ",
    "sme_name": "Solving Quadratic Inequalities",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.58)"
+   "resolved_code": "3K",
+   "official_id": "IGCSE_MATHS_B:3K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4539,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_dvX7WnB2FSdky4jW",
    "sme_name": "Arc Lengths & Sector Areas",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.50)"
+   "resolved_code": "7D",
+   "official_id": "IGCSE_MATHS_B:7D",
+   "tier": "C1_content_join",
+   "score": 0.8478,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_dxtWxKmTWPrYkWt3",
    "sme_name": "Solving Quadratics by Factorising",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.18)"
+   "resolved_code": "3D",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "tier": "C3_topic_anchored",
+   "score": 0.4013,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_fGGbSYFZH9DW4sgm",
@@ -1234,91 +1573,119 @@
    "referenced_by_parts": 0,
    "resolved_code": "4L",
    "official_id": "IGCSE_MATHS_B:4L",
-   "official_wording": "Differentiation of integer powers ofx",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8308,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_fMWRd3TnmcQ3c92k",
    "sme_name": "Circles & Segments",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.39)"
+   "resolved_code": "6K",
+   "official_id": "IGCSE_MATHS_B:6K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4883,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_fRhvV5mCwKfJWrXH",
    "sme_name": "Circles & Chords",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.39)"
+   "resolved_code": "6K",
+   "official_id": "IGCSE_MATHS_B:6K",
+   "tier": "C1_content_join",
+   "score": 0.6235,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_fbB2ZB3wyBjV9yDV",
    "sme_name": "Compound interest and loan repayments",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.32)"
+   "resolved_code": "1C",
+   "official_id": "IGCSE_MATHS_B:1C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2877,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_gWpj9n8N6CP4TnDv",
    "sme_name": "Multiplying matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.54)"
+   "resolved_code": "5B",
+   "official_id": "IGCSE_MATHS_B:5B",
+   "tier": "C1_content_join",
+   "score": 0.6081,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_gkqmXrkrWnQC27tP",
    "sme_name": "Rotation matrices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "5G",
+   "official_id": "IGCSE_MATHS_B:5G",
+   "tier": "C2_content_join",
+   "score": 0.5032,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_gqGskPX2FDtwyRh2",
    "sme_name": "Working with Proportion",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.3368,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_gzQvnKpxPvTqzzBp",
    "sme_name": "Algebraic Notation",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.54)"
+   "resolved_code": "3A",
+   "official_id": "IGCSE_MATHS_B:3A",
+   "tier": "C3_topic_anchored",
+   "score": 0.3208,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_gzykj64JBx2RtBJ7",
    "sme_name": "Angles in Polygons",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.50)"
+   "resolved_code": "6C",
+   "official_id": "IGCSE_MATHS_B:6C",
+   "tier": "C3_topic_anchored",
+   "score": 0.4889,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_h2SHkwgcS67NJYVP",
    "sme_name": "SOHCAHTOA",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.14)"
+   "resolved_code": "9C",
+   "official_id": "IGCSE_MATHS_B:9C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2337,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_h2p7nv6zkR4xFJ3P",
    "sme_name": "Time",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.11)"
+   "resolved_code": "1I",
+   "official_id": "IGCSE_MATHS_B:1I",
+   "tier": "C3_topic_anchored",
+   "score": 0.3046,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_h5yjgd2WdgmJqHJM",
@@ -1327,83 +1694,108 @@
    "referenced_by_parts": 0,
    "resolved_code": "3H",
    "official_id": "IGCSE_MATHS_B:3H",
-   "official_wording": "Solution of linear simultaneous equations in two unknowns",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8698,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_h8QyRmzX5mCJb3X9",
    "sme_name": "Drawing Linear Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.49)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4189,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_hK2H8q4Y8NYv833v",
    "sme_name": "Geometrical Proof",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.59)"
+   "resolved_code": "6B",
+   "official_id": "IGCSE_MATHS_B:6B",
+   "tier": "C1_content_join",
+   "score": 0.6836,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_hMqjBRzQQfvsc9f8",
    "sme_name": "Length of a Line",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.55)"
+   "resolved_code": "4B",
+   "official_id": "IGCSE_MATHS_B:4B",
+   "tier": "C3_topic_anchored",
+   "score": 0.1931,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_hTsm2dz7xmwM4jwW",
    "sme_name": "Tree Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "10I",
+   "official_id": "IGCSE_MATHS_B:10I",
+   "tier": "C3_topic_anchored",
+   "score": 0.3337,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_j2YgCQ3HvtrTXdG4",
    "sme_name": "Multiplying & Dividing Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C2_content_join",
+   "score": 0.5348,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_jTrpYhtMdhpPhwxb",
    "sme_name": "Algebraic Vocabulary",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.50)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.4394,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_m8WdtZKSWCKNFKrY",
    "sme_name": "Subject Appears Twice",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.17)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.2605,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_mQzsHp4wNfnn9sNH",
    "sme_name": "Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.22)"
+   "resolved_code": "1C",
+   "official_id": "IGCSE_MATHS_B:1C",
+   "tier": "C3_topic_anchored",
+   "score": 0.25,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_mVXT4jbXQPrzhHvz",
    "sme_name": "Problem Solving with Volumes",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.27)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C1_content_join",
+   "score": 0.7727,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_myNYhxstM7xnZd9P",
@@ -1412,43 +1804,53 @@
    "referenced_by_parts": 0,
    "resolved_code": "10B",
    "official_id": "IGCSE_MATHS_B:10B",
-   "official_wording": "Determination of the mean, median and mode for a discrete data set",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.758,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_n9ZtYfjh8sFCp5Kz",
    "sme_name": "Calculations with the Mean",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.44)"
+   "resolved_code": "10C",
+   "official_id": "IGCSE_MATHS_B:10C",
+   "tier": "C3_topic_anchored",
+   "score": 0.3103,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_nJCDx3cDGTVz3MBk",
    "sme_name": "Drawing Histograms",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.40)"
+   "resolved_code": "10D",
+   "official_id": "IGCSE_MATHS_B:10D",
+   "tier": "C3_topic_anchored",
+   "score": 0.1897,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_nXY9n4Vt3cVTmKcR",
    "sme_name": "Comparing Statistical Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.30)"
+   "resolved_code": "10A",
+   "official_id": "IGCSE_MATHS_B:10A",
+   "tier": "C3_topic_anchored",
+   "score": 0.3583,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_p8zkdCF8QVvDZyVX",
    "sme_name": "Rounding & Estimation",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.18)"
+   "resolved_code": "1I",
+   "official_id": "IGCSE_MATHS_B:1I",
+   "tier": "C3_topic_anchored",
+   "score": 0.4496,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_pFVDbZgQGCHHRDtc",
@@ -1456,7 +1858,11 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.19)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T1 best 1K 0.20, cov 0.00, tcov 0.33)"
   },
   {
    "id": "spcpt_pGsqq7xcztBg59Yh",
@@ -1465,11 +1871,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "3I",
    "official_id": "IGCSE_MATHS_B:3I",
-   "official_wording": "Solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7394,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_pKCFj25GzzqW6sr3",
@@ -1478,11 +1882,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "7A",
    "official_id": "IGCSE_MATHS_B:7A",
-   "official_wording": "Length, area, and volume",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7714,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_pKJ7Y3jd7PDzZQpP",
@@ -1491,35 +1893,42 @@
    "referenced_by_parts": 0,
    "resolved_code": "4M",
    "official_id": "IGCSE_MATHS_B:4M",
-   "official_wording": "Determination of gradients, rates of change, maxima and minima, stationary points and turning points",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6777,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_pNBVGz3x9h4NS45m",
    "sme_name": "Circles & Tangents",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "6K",
+   "official_id": "IGCSE_MATHS_B:6K",
+   "tier": "C1_content_join",
+   "score": 0.6379,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_pSX9GyS8bW7N5CH7",
    "sme_name": "Area Formulas",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "7A",
+   "official_id": "IGCSE_MATHS_B:7A",
+   "tier": "C2_content_join",
+   "score": 0.5033,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_pqWsmktWyMCRfTk6",
    "sme_name": "Simplifying Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.55)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C2_content_join",
+   "score": 0.5887,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_qPRh2fycSMYwytcV",
@@ -1528,11 +1937,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "6C",
    "official_id": "IGCSE_MATHS_B:6C",
-   "official_wording": "Angle properties of parallel lines, triangles and polygons, including regular polygons",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7143,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_qRytkYVHXTQBJdSq",
@@ -1540,55 +1947,77 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.15)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T1 best 1I 0.16, cov 0.20, tcov 0.00)"
   },
   {
    "id": "spcpt_qX5rMkysQfN7SK2M",
    "sme_name": "Basic Factorising",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.45)"
+   "resolved_code": "3D",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "tier": "C3_topic_anchored",
+   "score": 0.431,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_qbHvYk4bsCyRfQSv",
    "sme_name": "Finding Vector Paths",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "8D",
+   "official_id": "IGCSE_MATHS_B:8D",
+   "tier": "C3_topic_anchored",
+   "score": 0.4818,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_qgWTSJ5pQ2dx6rDf",
    "sme_name": "Multiple Ratios",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.19)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.4049,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_qpSmD6yNY5t5GrW6",
    "sme_name": "Ratios",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.17)"
+   "resolved_code": "1B",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "tier": "C3_topic_anchored",
+   "score": 0.3945,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_rV2Crq8sHcCywRhW",
    "sme_name": "Operations with Standard Form",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.59)"
+   "resolved_code": "1K",
+   "official_id": "IGCSE_MATHS_B:1K",
+   "tier": "C1_content_join",
+   "score": 0.8318,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_rq6jFXGjg6FVSnKc",
    "sme_name": "Cyclic Quadrilaterals",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.58)"
+   "resolved_code": "6L",
+   "official_id": "IGCSE_MATHS_B:6L",
+   "tier": "C1_content_join",
+   "score": 0.6816,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_rsCdKqXKjhfmkyqT",
@@ -1596,15 +2025,22 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.18)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T3 best 3H 0.17, cov 0.17, tcov 0.00)"
   },
   {
    "id": "spcpt_rt6wRVmbK5ZVkF3d",
    "sme_name": "Factorising Harder Quadratics",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.19)"
+   "resolved_code": "3D",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "tier": "C3_topic_anchored",
+   "score": 0.3986,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_rxmWrBrc2s2q45wF",
@@ -1612,63 +2048,88 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.19)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T10 best 10J 0.17, cov 0.20, tcov 0.00)"
   },
   {
    "id": "spcpt_s2x4ZG4rWQhHJrTh",
    "sme_name": "Algebraic Roots & Indices",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.52)"
+   "resolved_code": "1C",
+   "official_id": "IGCSE_MATHS_B:1C",
+   "tier": "C2_content_join",
+   "score": 0.706,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_s4k79Tf4cNdNGqvT",
    "sme_name": "Interpreting Graphical Inequalities",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.37)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4728,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_sHCB9WZbDMyTFqCP",
    "sme_name": "Solving Equations Using Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.41)"
+   "resolved_code": "4D",
+   "official_id": "IGCSE_MATHS_B:4D",
+   "tier": "C3_topic_anchored",
+   "score": 0.485,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_stqdXPTn5YvgKtvm",
    "sme_name": "Simplifying Surds",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.53)"
+   "resolved_code": "1D",
+   "official_id": "IGCSE_MATHS_B:1D",
+   "tier": "C2_content_join",
+   "score": 0.5233,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_sy75G6mYWc9vzWvg",
    "sme_name": "Averages from Grouped Data",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.45)"
+   "resolved_code": "10D",
+   "official_id": "IGCSE_MATHS_B:10D",
+   "tier": "C2_content_join",
+   "score": 0.5663,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_syhVK6wH6NDDfgdB",
    "sme_name": "Intersecting Chord Theorem (External)",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.33)"
+   "resolved_code": "6K",
+   "official_id": "IGCSE_MATHS_B:6K",
+   "tier": "C2_content_join",
+   "score": 0.553,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_t6XtWBrsT7FH93JY",
    "sme_name": "Working with Ratios",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.29)"
+   "resolved_code": "1F",
+   "official_id": "IGCSE_MATHS_B:1F",
+   "tier": "C3_topic_anchored",
+   "score": 0.3006,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_tmMTSdKYc9s9V92Z",
@@ -1677,11 +2138,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "4D",
    "official_id": "IGCSE_MATHS_B:4D",
-   "official_wording": "Domain and range of a function",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7143,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_tmkXtCpJ4srbmNZM",
@@ -1690,11 +2149,9 @@
    "referenced_by_parts": 0,
    "resolved_code": "8D",
    "official_id": "IGCSE_MATHS_B:8D",
-   "official_wording": "Parallel vectors, unit vectors and position vectors",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.7548,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_trxtpbq9c342p3qw",
@@ -1702,39 +2159,55 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "weak name similarity (0.33)"
+   "official_id": null,
+   "tier": null,
+   "score": null,
+   "method": null,
+   "reason": "content evidence below corroboration floor (T1 best 1K 0.15, cov 0.00, tcov 0.33)"
   },
   {
    "id": "spcpt_tyrnCXQW2hfdwnyq",
    "sme_name": "Cubic Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "4E",
+   "official_id": "IGCSE_MATHS_B:4E",
+   "tier": "C3_topic_anchored",
+   "score": 0.4274,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_vGfjmcJJ9yzSFbzs",
    "sme_name": "Angle in a Semicircle",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.48)"
+   "resolved_code": "6F",
+   "official_id": "IGCSE_MATHS_B:6F",
+   "tier": "C3_topic_anchored",
+   "score": 0.44,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_vMSNnYkKPf62MRH9",
    "sme_name": "Factorising by Grouping",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.20)"
+   "resolved_code": "3D",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "tier": "C3_topic_anchored",
+   "score": 0.3875,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_vMcrBY5bkBpMVHMF",
    "sme_name": "Applications of Trigonometry",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.46)"
+   "resolved_code": "9A",
+   "official_id": "IGCSE_MATHS_B:9A",
+   "tier": "C3_topic_anchored",
+   "score": 0.4469,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_vYsrWKqpQDpSwnPj",
@@ -1743,19 +2216,20 @@
    "referenced_by_parts": 0,
    "resolved_code": "4N",
    "official_id": "IGCSE_MATHS_B:4N",
-   "official_wording": "Applications to linear kinematics and to other simple practical problems",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6976,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_wF3J5MKvx273VH3h",
    "sme_name": "Adding & Subtracting Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.45)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.4955,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_wMN58K4jZ54z8bXC",
@@ -1764,35 +2238,42 @@
    "referenced_by_parts": 0,
    "resolved_code": "1E",
    "official_id": "IGCSE_MATHS_B:1E",
-   "official_wording": "Rationalising the denominator",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6636,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_wPBshqzwKBKyYHBV",
    "sme_name": "Angles at Centre & Circumference",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.39)"
+   "resolved_code": "6K",
+   "official_id": "IGCSE_MATHS_B:6K",
+   "tier": "C3_topic_anchored",
+   "score": 0.432,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_wRw6rKqPdVmS986W",
    "sme_name": "Speed, Density & Pressure",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.18)"
+   "resolved_code": "1G",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "tier": "C3_topic_anchored",
+   "score": 0.375,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_wnkGx4MqYbQSFdnb",
    "sme_name": "Maps",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.11)"
+   "resolved_code": "6B",
+   "official_id": "IGCSE_MATHS_B:6B",
+   "tier": "C3_topic_anchored",
+   "score": 0.2173,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_xBxjpCXMWrkf6mww",
@@ -1801,19 +2282,20 @@
    "referenced_by_parts": 0,
    "resolved_code": "3E",
    "official_id": "IGCSE_MATHS_B:3E",
-   "official_wording": "Algebraic division of a cubic by a linear factor",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8182,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_xDpKVBxDTCk2x6vS",
    "sme_name": "Similar Lengths",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.43)"
+   "resolved_code": "6H",
+   "official_id": "IGCSE_MATHS_B:6H",
+   "tier": "C3_topic_anchored",
+   "score": 0.4707,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_xRqrDc3z3GSkBgbm",
@@ -1822,27 +2304,31 @@
    "referenced_by_parts": 0,
    "resolved_code": "2B",
    "official_id": "IGCSE_MATHS_B:2B",
-   "official_wording": "Set language and notation",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.8595,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_xf7Y5cxcQG3T6g65",
    "sme_name": "Using a Calculator",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.45)"
+   "resolved_code": "1K",
+   "official_id": "IGCSE_MATHS_B:1K",
+   "tier": "C3_topic_anchored",
+   "score": 0.4286,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_xwx7PVk7fQ5QpdMk",
    "sme_name": "Solving Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.54)"
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
+   "score": 0.4457,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_yDbZQ6WS99WPCvvR",
@@ -1851,43 +2337,53 @@
    "referenced_by_parts": 0,
    "resolved_code": "6N",
    "official_id": "IGCSE_MATHS_B:6N",
-   "official_wording": "Constructions of bisector of an angle and of perpendicular bisector (mediator) of a straight line",
    "tier": "S1_name_match",
-   "unit": null,
    "score": 0.6945,
-   "method": "tiered auto-join initial pass (T-SME-11; map_spec_points.py T1-T4/S1-S2; SME-authorized corpus; PMT excluded as source); operator verdict rounds pending"
+   "method": "name_to_statement_join"
   },
   {
    "id": "spcpt_zJxJnm5kJPsMM2vF",
    "sme_name": "Vector Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.47)"
+   "resolved_code": "8E",
+   "official_id": "IGCSE_MATHS_B:8E",
+   "tier": "C2_content_join",
+   "score": 0.6233,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_zNgS9BtJ7493zsyx",
    "sme_name": "Interpreting Histograms",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.18)"
+   "resolved_code": "10D",
+   "official_id": "IGCSE_MATHS_B:10D",
+   "tier": "C3_topic_anchored",
+   "score": 0.2537,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_znWXTZjqCR7PspTc",
    "sme_name": "Intersecting Chord Theorem",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.42)"
+   "resolved_code": "6K",
+   "official_id": "IGCSE_MATHS_B:6K",
+   "tier": "C2_content_join",
+   "score": 0.553,
+   "method": "maths_b_content_join"
   },
   {
    "id": "spcpt_zrrC3yxSp579jY7k",
    "sme_name": "Finding Gradients of Tangents",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "weak name similarity (0.40)"
+   "resolved_code": "4K",
+   "official_id": "IGCSE_MATHS_B:4K",
+   "tier": "C2_content_join",
+   "score": 0.5478,
+   "method": "maths_b_content_join"
   }
  ]
 }
