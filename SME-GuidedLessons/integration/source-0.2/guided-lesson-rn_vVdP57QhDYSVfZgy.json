@@ -1,0 +1,508 @@
+{
+ "format": "guided-lesson/0.2",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/ab92bee4b88a-identifying-metal-cations.png",
+   "alt": "Identifying Metal Cations, IGCSE & GCSE Chemistry revision notes",
+   "sourceHeading": "Flame tests",
+   "moduleIds": [
+    "L1",
+    "L2"
+   ]
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/7a1f64dfaa45-colours-of-metal-cations.png",
+   "alt": "Colours of metal cations, IGCSE & GCSE Chemistry revision notes",
+   "sourceHeading": "Flame tests",
+   "moduleIds": [
+    "L1",
+    "L2"
+   ]
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_vVdP57QhDYSVfZgy",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "2. Inorganic Chemistry",
+  "subtopicTitle": "Chemical Tests",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-2-flame-tests"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-2.45",
+   "text": "describe how to carry out a flame test"
+  },
+  {
+   "code": "4CH1-2.46",
+   "text": "know the colours formed in flame tests for these cations: Li+ is red; Na+ is yellow; K+ is lilac; Ca2+ is orange-red; Cu2+ is blue-green"
+  }
+ ],
+ "primer": {
+  "text": "From Tests for Gases you already know that gases betray themselves with splints and litmus paper. This note moves from gases to solids, where the metal ion paints the Bunsen flame itself in a colour that names it.",
+  "prerequisiteSubtopic": "Tests for Gases"
+ },
+ "lessons": [
+  {
+   "title": "How to carry out a flame test",
+   "sourceHeadings": [
+    "Flame tests"
+   ],
+   "specRefs": [
+    "4CH1-2.45"
+   ],
+   "figureIds": [
+    "fig-01",
+    "fig-02"
+   ],
+   "opening": "A flame test identifies which metal cation is present by the colour the sample paints onto a Bunsen flame. The wire loop is cleaned in dilute acid and burned clean in the blue flame first, because any leftover ions would add their own colours and mask the one you need to see. Only then is the loop dipped into the sample and held at the flame's edge.",
+   "keyPoints": [
+    "The flame test identifies positive metal ions by flame colour.",
+    "The loop is made of unreactive wire, commonly nichrome or platinum.",
+    "The wire is dipped in dilute acid and held in the blue flame until no colour shows.",
+    "The sample is picked up on the loop and placed at the edge of the blue flame.",
+    "Cleaning in acid first prevents contamination from ions already on the wire."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Clean a wire loop in dilute acid, heat it in the blue flame until it glows with no colour, dip it in the sample, then hold it at the edge of the blue flame and read the colour.",
+     "analogy": "Cleaning the loop first is like wiping a paintbrush clean before dipping it: any old colour left on the bristles would muddy the new one.",
+     "examPointer": "Method marks sit in the order clean, heat clean, dip, test, so write the sequence as separate steps."
+    },
+    "medium": {
+     "restatement": "The acid wash dissolves ionic leftovers off the wire, and the flame check proves the loop is clean before anything is sampled. Two or more ions on the wire together would each add their colour, and one colour could mask another, so the test would fail at the very step it is meant to succeed.",
+     "analogy": "It is the same reason a chef tastes from a clean spoon every time: a spoon that has met one dish already carries its flavour into the next judgement.",
+     "examPointer": "If asked why the acid cleaning matters, answer in terms of mixed or masked colours, not in terms of hygiene or safety."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why is the wire loop cleaned in dilute acid before use?",
+     "misconceptionClass": "cleaning purpose",
+     "options": [
+      {
+       "key": "A",
+       "text": "To remove ions that would contaminate the flame colour",
+       "correct": true,
+       "explanation": "Leftover ions would burn with their own colours and spoil the reading.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To make the wire conduct electricity",
+       "correct": false,
+       "explanation": "No electricity flows in a flame test; conduction is irrelevant.",
+       "misconception": "purpose invented"
+      },
+      {
+       "key": "C",
+       "text": "To cool the wire down",
+       "correct": false,
+       "explanation": "The acid wash is about cleanliness, not temperature.",
+       "misconception": "physical confusion"
+      },
+      {
+       "key": "D",
+       "text": "To add sodium colour to the flame",
+       "correct": false,
+       "explanation": "Adding colour is the opposite of the cleaning step's purpose.",
+       "misconception": "opposite effect claimed"
+      }
+     ]
+    },
+    {
+     "stem": "What is seen when the clean loop is first held in the blue flame?",
+     "misconceptionClass": "clean-loop check",
+     "options": [
+      {
+       "key": "A",
+       "text": "No colour change",
+       "correct": true,
+       "explanation": "A clean loop burns without adding any colour of its own.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A lilac flash",
+       "correct": false,
+       "explanation": "A lilac flash would mean potassium ions are still on the wire.",
+       "misconception": "leftover-ions reading"
+      },
+      {
+       "key": "C",
+       "text": "A yellow glow",
+       "correct": false,
+       "explanation": "A yellow glow would mean sodium contamination, so the loop is not clean.",
+       "misconception": "sodium contamination imagined"
+      },
+      {
+       "key": "D",
+       "text": "The flame goes out",
+       "correct": false,
+       "explanation": "A clean wire does not extinguish the flame.",
+       "misconception": "behaviour invented"
+      }
+     ]
+    },
+    {
+     "stem": "Which wires suit the loop?",
+     "misconceptionClass": "wire selection",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nichrome or platinum",
+       "correct": true,
+       "explanation": "Both are unreactive and add no colour of their own.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Copper or iron",
+       "correct": false,
+       "explanation": "Copper would colour the flame blue-green itself and ruin the reading.",
+       "misconception": "reactive wires chosen"
+      },
+      {
+       "key": "C",
+       "text": "Sodium-coated wire",
+       "correct": false,
+       "explanation": "A sodium coating guarantees a yellow flame regardless of the sample.",
+       "misconception": "contaminant chosen"
+      },
+      {
+       "key": "D",
+       "text": "Any wire from the lab",
+       "correct": false,
+       "explanation": "Only unreactive wires qualify; random wire risks its own colour.",
+       "misconception": "indifference to contamination"
+      }
+     ]
+    },
+    {
+     "stem": "Where in the flame is the sample held?",
+     "misconceptionClass": "flame zone placement",
+     "options": [
+      {
+       "key": "A",
+       "text": "At the edge of the blue flame",
+       "correct": true,
+       "explanation": "The method places the loaded loop at the edge of the hot blue flame.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "In the yellow safety flame",
+       "correct": false,
+       "explanation": "The yellow flame is cooler and adds its own glow; the test needs blue.",
+       "misconception": "wrong flame zone"
+      },
+      {
+       "key": "C",
+       "text": "Above the flame entirely",
+       "correct": false,
+       "explanation": "The sample must meet the hot gases to give its colour.",
+       "misconception": "no contact"
+      },
+      {
+       "key": "D",
+       "text": "Under the barrel of the burner",
+       "correct": false,
+       "explanation": "That is where the air hole is, not a testing position.",
+       "misconception": "absurd location"
+      }
+     ]
+    },
+    {
+     "stem": "What happens if two different ions sit on the wire together?",
+     "misconceptionClass": "mixed ion outcome",
+     "options": [
+      {
+       "key": "A",
+       "text": "Their colours mix and can mask each other",
+       "correct": true,
+       "explanation": "One colour can hide another, which is exactly why cleaning matters.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The stronger ion destroys the other",
+       "correct": false,
+       "explanation": "Ions do not destroy each other on the wire; they both colour the flame.",
+       "misconception": "chemical destruction imagined"
+      },
+      {
+       "key": "C",
+       "text": "Both colours appear separately in bands",
+       "correct": false,
+       "explanation": "Flames show blended colour, not separated bands.",
+       "misconception": "spectrum reading"
+      },
+      {
+       "key": "D",
+       "text": "Nothing, only one ion can colour a flame",
+       "correct": false,
+       "explanation": "Every ion present contributes, which is the problem being avoided.",
+       "misconception": "false exclusivity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The five cation colours",
+   "sourceHeadings": [
+    "Flame tests"
+   ],
+   "specRefs": [
+    "4CH1-2.46"
+   ],
+   "figureIds": [
+    "fig-01",
+    "fig-02"
+   ],
+   "opening": "Five cations and their flame colours make up the table to learn: lithium burns red, sodium yellow, potassium lilac, calcium orange-red and copper(II) blue-green. The colours only show properly on a hot blue flame, so the Bunsen air hole is opened before testing. Mixing up yellow and orange-red, or lilac and blue-green, costs the mark.",
+   "keyPoints": [
+    "Lithium ions colour the flame red.",
+    "Sodium ions colour the flame yellow.",
+    "Potassium ions colour the flame lilac.",
+    "Calcium ions colour the flame orange-red.",
+    "Copper(II) ions colour the flame blue-green."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The colour table is short and fixed: Li+ red, Na+ yellow, K+ lilac, Ca2+ orange-red, Cu2+ blue-green. Heat the sample strongly on a blue flame, then match the colour you see to the table without second-guessing.",
+     "analogy": "The five colours are like five uniforms on a sports field: once the shirts are learned, a single glance tells you which team, which ion, is playing.",
+     "examPointer": "Spell lilac correctly and write orange-red and blue-green as the two-word colours, because vague answers such as reddish lose marks."
+    },
+    "medium": {
+     "restatement": "Each cation has a fixed colour because its electrons release a characteristic set of wavelengths when the flame heats them. The pairs most often confused are the two reds, lithium versus calcium's orange-red, and the two cools, potassium's lilac versus copper(II)'s blue-green, so anchoring one member of each pair first makes the table stick.",
+     "analogy": "Think of the colours as signatures on cheques: lithium signs in plain red while calcium adds orange to its red, and potassium signs in soft lilac while copper(II) adds green to its blue.",
+     "examPointer": "If a description says brick-red or orange, decide between Li+ and Ca2+ by the orange component; blue-green always points to Cu2+."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which cation gives a lilac flame?",
+     "misconceptionClass": "colour table recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "K+",
+       "correct": true,
+       "explanation": "Potassium ions colour the flame lilac.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Na+",
+       "correct": false,
+       "explanation": "Sodium gives yellow, not lilac.",
+       "misconception": "yellow-lilac swap"
+      },
+      {
+       "key": "C",
+       "text": "Li+",
+       "correct": false,
+       "explanation": "Lithium gives red, not lilac.",
+       "misconception": "red-lilac swap"
+      },
+      {
+       "key": "D",
+       "text": "Ca2+",
+       "correct": false,
+       "explanation": "Calcium gives orange-red, not lilac.",
+       "misconception": "orange-red-lilac swap"
+      }
+     ]
+    },
+    {
+     "stem": "Which cation gives an orange-red flame?",
+     "misconceptionClass": "colour table recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Ca2+",
+       "correct": true,
+       "explanation": "Calcium ions colour the flame orange-red.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Cu2+",
+       "correct": false,
+       "explanation": "Copper(II) gives blue-green, not orange-red.",
+       "misconception": "blue-green swap"
+      },
+      {
+       "key": "C",
+       "text": "Li+",
+       "correct": false,
+       "explanation": "Lithium gives plain red without the orange component.",
+       "misconception": "red-orange proximity error"
+      },
+      {
+       "key": "D",
+       "text": "K+",
+       "correct": false,
+       "explanation": "Potassium gives lilac.",
+       "misconception": "lilac swap"
+      }
+     ]
+    },
+    {
+     "stem": "Which cation gives a blue-green flame?",
+     "misconceptionClass": "colour table recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Cu2+",
+       "correct": true,
+       "explanation": "Copper(II) ions colour the flame blue-green.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Na+",
+       "correct": false,
+       "explanation": "Sodium gives yellow.",
+       "misconception": "yellow swap"
+      },
+      {
+       "key": "C",
+       "text": "Li+",
+       "correct": false,
+       "explanation": "Lithium gives red.",
+       "misconception": "red swap"
+      },
+      {
+       "key": "D",
+       "text": "Ca2+",
+       "correct": false,
+       "explanation": "Calcium gives orange-red.",
+       "misconception": "orange-red swap"
+      }
+     ]
+    },
+    {
+     "stem": "A sample burns with a red-orange colour. Which ion is present?",
+     "misconceptionClass": "colour discrimination",
+     "options": [
+      {
+       "key": "A",
+       "text": "Calcium ions",
+       "correct": true,
+       "explanation": "Orange-red is calcium's signature colour.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Lithium ions",
+       "correct": false,
+       "explanation": "Lithium's red carries no orange component.",
+       "misconception": "red-orange proximity error"
+      },
+      {
+       "key": "C",
+       "text": "Sodium ions",
+       "correct": false,
+       "explanation": "Sodium's yellow is clearly distinct from orange-red.",
+       "misconception": "yellow confusion"
+      },
+      {
+       "key": "D",
+       "text": "Potassium ions",
+       "correct": false,
+       "explanation": "Potassium's lilac is nowhere near orange.",
+       "misconception": "lilac confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why must the flame be blue and hot?",
+     "misconceptionClass": "flame condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The sample needs strong heating for the colour to show",
+       "correct": true,
+       "explanation": "The hot blue flame excites the ions enough to emit their colours.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Blue flames burn cooler, protecting the sample",
+       "correct": false,
+       "explanation": "The blue flame is the hotter one; the statement inverts the physics.",
+       "misconception": "temperature inverted"
+      },
+      {
+       "key": "C",
+       "text": "The yellow flame adds its own colour",
+       "correct": false,
+       "explanation": "The cooler luminous flame is avoided, but the reason given for the blue flame is the strong heating it supplies.",
+       "misconception": "contamination concern misplaced"
+      },
+      {
+       "key": "D",
+       "text": "Colours only exist in blue light",
+       "correct": false,
+       "explanation": "The colours come from the ions, not from the flame's own hue.",
+       "misconception": "physics fiction"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "flame test",
+    "definition": "A test that identifies a metal cation from the colour its sample gives a Bunsen flame.",
+    "firstLesson": 1
+   },
+   {
+    "term": "cation",
+    "definition": "A positive ion, here the metal ion whose colour identifies it.",
+    "firstLesson": 1
+   },
+   {
+    "term": "nichrome",
+    "definition": "An unreactive nickel-chromium alloy used for the flame-test wire loop.",
+    "firstLesson": 1
+   },
+   {
+    "term": "platinum",
+    "definition": "An unreactive metal that can also be used for the flame-test loop.",
+    "firstLesson": 1
+   },
+   {
+    "term": "contamination",
+    "definition": "Leftover ions on the wire that add or mask colours during the test.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ }
+}

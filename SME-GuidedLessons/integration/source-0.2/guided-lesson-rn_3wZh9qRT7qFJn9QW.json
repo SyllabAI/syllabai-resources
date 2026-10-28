@@ -1,0 +1,489 @@
+{
+ "format": "guided-lesson/0.2",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/f6b39eeb434c-investigating-effect-of-catalyst-on-rate-reactio.png",
+   "alt": "Apparatus for Investigating effect of catalyst on rate reaction",
+   "sourceHeading": "Diagram:",
+   "moduleIds": []
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_3wZh9qRT7qFJn9QW",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "3. Physical Chemistry",
+  "subtopicTitle": "Rates of Reaction",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-6-practical-effect-of-catalysts-on-rate-of-reaction"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-3.16",
+   "text": "practical: investigate the effect of different solids on the catalytic decomposition of hydrogen peroxide solution"
+  },
+  {
+   "code": "4CH1-3.9",
+   "text": "describe experiments to investigate the effects of changes in surface area of a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction"
+  }
+ ],
+ "primer": {
+  "text": "From Catalysts you already know that helpers speed reactions without being consumed. This practical races several solid candidates against hydrogen peroxide, collecting the oxygen each one liberates. The graph at the end ranks the catalysts by how fast they worked.",
+  "prerequisiteSubtopic": "Rates of Reaction"
+ },
+ "lessons": [
+  {
+   "title": "Testing solids on hydrogen peroxide",
+   "sourceHeadings": [
+    "Aim:",
+    "Method:"
+   ],
+   "specRefs": [
+    "4CH1-3.16",
+    "4CH1-3.9"
+   ],
+   "opening": "Hydrogen peroxide decomposes quietly on its own, but the right solid makes it fizz. This lesson sets out the aim, the collection apparatus and the six-step method that tests one candidate at a time.",
+   "keyPoints": [
+    "The practical tests how several solid candidates change the speed of peroxide breaking down.",
+    "Hydrogen peroxide is added to a conical flask connected by a delivery tube to an inverted measuring cylinder.",
+    "The chosen catalyst is added, the bung is closed, and the gas volume in a fixed time is measured.",
+    "The experiment is repeated with different catalysts so their results can be compared.",
+    "Candidate solids include the oxides of manganese(IV), lead(II), iron(III) and copper(II)."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Pour peroxide into a flask, tip in one candidate powder and catch the gas in an upside-down cylinder for a set time. Swap powders and repeat, then see which powder made the gas appear fastest.",
+     "analogy": "It is like timing several starters in the same race: same track, same distance, only the runner changes.",
+     "examPointer": "Name the fixed time, the collected gas and the one thing changed between runs, the solid."
+    },
+    "medium": {
+     "restatement": "Hydrogen peroxide sits in a sealed flask linked to an inverted measuring cylinder, a chosen solid catalyst is added, and the gas collected in a fixed time is recorded. Repeating with manganese(IV) oxide, lead(II) oxide, iron(III) oxide and copper(II) oxide lets the relative speeds be compared.",
+     "analogy": "Each powder gets the same stopwatch and the same cylinder, so the only difference at the whistle is which helper joined the flask.",
+     "examPointer": "Describe the collection set-up, the fixed-time reading and the list of candidate solids."
+    }
+   },
+   "check": [
+    {
+     "stem": "What is being investigated in this practical?",
+     "misconceptionClass": "aim recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "The effect of different solids on the catalytic decomposition of hydrogen peroxide",
+       "correct": true,
+       "explanation": "The aim names both the varied factor, the solids, and the reaction, peroxide breakdown.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The effect of temperature on dissolving",
+       "correct": false,
+       "explanation": "No dissolving or heating belongs to this aim.",
+       "misconception": "aim confused"
+      },
+      {
+       "key": "C",
+       "text": "The effect of acid concentration on marble chips",
+       "correct": false,
+       "explanation": "That is the surface area practical.",
+       "misconception": "practicals merged"
+      },
+      {
+       "key": "D",
+       "text": "The amount of oxygen in air",
+       "correct": false,
+       "explanation": "That is the rusting practical from an earlier topic.",
+       "misconception": "topic intrusion"
+      }
+     ]
+    },
+    {
+     "stem": "Which gas is collected in the measuring cylinder?",
+     "misconceptionClass": "product identification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Oxygen, released as the hydrogen peroxide decomposes",
+       "correct": true,
+       "explanation": "Peroxide breaks down into water and oxygen, and the oxygen is collected.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen, from the breakdown of water",
+       "correct": false,
+       "explanation": "Water is the other product and stays liquid.",
+       "misconception": "product swapped"
+      },
+      {
+       "key": "C",
+       "text": "Carbon dioxide from the air",
+       "correct": false,
+       "explanation": "Air is not part of the reaction.",
+       "misconception": "invented source"
+      },
+      {
+       "key": "D",
+       "text": "Steam from the catalyst",
+       "correct": false,
+       "explanation": "The catalyst stays solid and cool.",
+       "misconception": "invented product"
+      }
+     ]
+    },
+    {
+     "stem": "Why is the gas volume read after a fixed time for every catalyst?",
+     "misconceptionClass": "fair comparison",
+     "options": [
+      {
+       "key": "A",
+       "text": "A shared time window makes the volume readings comparable between solids",
+       "correct": true,
+       "explanation": "Equal windows turn gas volume into a fair ranking of speeds.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because the cylinder empties itself after that time",
+       "correct": false,
+       "explanation": "Nothing empties automatically.",
+       "misconception": "invented behaviour"
+      },
+      {
+       "key": "C",
+       "text": "Because the peroxide runs out exactly then",
+       "correct": false,
+       "explanation": "Peroxide supply is not the reason for the shared window.",
+       "misconception": "supply myth"
+      },
+      {
+       "key": "D",
+       "text": "Because catalysts stop working after that time",
+       "correct": false,
+       "explanation": "Catalysts keep working; the window is for comparison.",
+       "misconception": "catalyst myth"
+      }
+     ]
+    },
+    {
+     "stem": "Manganese(IV) oxide gives the largest gas reading of the four solids. What does that show?",
+     "misconceptionClass": "ranking logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is the most effective catalyst of those tested for this decomposition",
+       "correct": true,
+       "explanation": "Most gas in the shared window means the fastest catalysis.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It must have been the heaviest powder",
+       "correct": false,
+       "explanation": "Mass is not the comparison; catalytic effect is.",
+       "misconception": "mass myth"
+      },
+      {
+       "key": "C",
+       "text": "It made the peroxide more concentrated",
+       "correct": false,
+       "explanation": "Concentration of peroxide is fixed across runs.",
+       "misconception": "concentration myth"
+      },
+      {
+       "key": "D",
+       "text": "It proved the other solids were not catalysts at all",
+       "correct": false,
+       "explanation": "The others may still catalyse, just more slowly.",
+       "misconception": "overstatement"
+      }
+     ]
+    },
+    {
+     "stem": "Which feature of the method shows that the solids act as catalysts rather than reactants?",
+     "misconceptionClass": "catalyst evidence",
+     "options": [
+      {
+       "key": "A",
+       "text": "Each solid can be recovered unchanged after speeding up the same reaction",
+       "correct": true,
+       "explanation": "Unchanged recovery is the signature of catalysis rather than consumption.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The solids dissolve completely in the peroxide",
+       "correct": false,
+       "explanation": "Dissolving would suggest reaction, not catalysis.",
+       "misconception": "opposite evidence"
+      },
+      {
+       "key": "C",
+       "text": "The solids change colour permanently",
+       "correct": false,
+       "explanation": "Permanent change would point to reaction.",
+       "misconception": "opposite evidence"
+      },
+      {
+       "key": "D",
+       "text": "Each solid appears in the product formula",
+       "correct": false,
+       "explanation": "Catalysts never enter the product side.",
+       "misconception": "notation confusion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Comparing the catalysts on one graph",
+   "sourceHeadings": [
+    "Result:"
+   ],
+   "specRefs": [
+    "4CH1-3.16"
+   ],
+   "opening": "One graph can hold every candidate's performance side by side. This lesson plots the fixed-time gas volumes and reads the relative catalytic speeds straight off the bars.",
+   "keyPoints": [
+    "All the catalyst results share one graph so their speeds can be ranked.",
+    "Plotting the results together allows the relative rates to be compared.",
+    "The tallest reading marks the fastest catalytic decomposition tested.",
+    "Every reading shares the same time window, so the comparison is fair.",
+    "A solid that gives a negligible reading is acting as a poor catalyst for this reaction."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Draw one chart with a bar for each powder, showing the gas each collected in the same window. The tallest bar belongs to the quickest catalyst and the shortest to the weakest.",
+     "analogy": "It is a medals table for powders: same event, same timing, and the standings sort themselves out visually.",
+     "examPointer": "Sketch the shared-axis bar chart and read the ranking from the bar heights."
+    },
+    "medium": {
+     "restatement": "Plotting every catalyst's fixed-time gas volume on one shared graph turns the raw readings into a ranking of relative rates. Because each bar shares the same window and the same peroxide, differences in height measure differences in catalytic effect alone.",
+     "analogy": "A shared podium photo says more than four separate ones: identical conditions make the height differences meaningful.",
+     "examPointer": "State why shared conditions make the graph fair, then name the fastest solid from the data."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why plot all catalysts on the same graph rather than four separate ones?",
+     "misconceptionClass": "graph design",
+     "options": [
+      {
+       "key": "A",
+       "text": "A shared graph makes the relative rates immediately comparable",
+       "correct": true,
+       "explanation": "One shared axis turns separate readings into a ranking.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because separate graphs are not allowed in chemistry",
+       "correct": false,
+       "explanation": "No such rule exists; the reason is comparability.",
+       "misconception": "rule myth"
+      },
+      {
+       "key": "C",
+       "text": "To save paper",
+       "correct": false,
+       "explanation": "Convenience is not the analytical reason.",
+       "misconception": "trivial reason"
+      },
+      {
+       "key": "D",
+       "text": "Because each catalyst changes the time window",
+       "correct": false,
+       "explanation": "The window is fixed for all, which is why one graph works.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "stem": "A catalyst reading equals the with-no-catalyst run. What is the fairest conclusion?",
+     "misconceptionClass": "baseline reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "That solid is not acting as an effective catalyst for this decomposition",
+       "correct": true,
+       "explanation": "Matching the baseline means no catalytic effect was observed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The solid must be a reactant",
+       "correct": false,
+       "explanation": "No effect is not evidence of reaction.",
+       "misconception": "over-reading"
+      },
+      {
+       "key": "C",
+       "text": "The gas was collected wrongly",
+       "correct": false,
+       "explanation": "Apparatus worked for every other run.",
+       "misconception": "apparatus blame"
+      },
+      {
+       "key": "D",
+       "text": "The peroxide had already decomposed completely",
+       "correct": false,
+       "explanation": "Other readings show peroxide was still active.",
+       "misconception": "supply blame"
+      }
+     ]
+    },
+    {
+     "stem": "Which condition makes the plotted comparison fair?",
+     "misconceptionClass": "fairness identification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every bar shares the same fixed time window and the same peroxide supply",
+       "correct": true,
+       "explanation": "Identical conditions mean only the catalyst differs.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Each catalyst received a different amount of time",
+       "correct": false,
+       "explanation": "Different windows would bias the heights.",
+       "misconception": "bias introduced"
+      },
+      {
+       "key": "C",
+       "text": "The graph uses different units per bar",
+       "correct": false,
+       "explanation": "Mixed units would destroy comparability.",
+       "misconception": "units myth"
+      },
+      {
+       "key": "D",
+       "text": "Only the best catalyst was plotted",
+       "correct": false,
+       "explanation": "The ranking needs all candidates.",
+       "misconception": "selection bias"
+      }
+     ]
+    },
+    {
+     "stem": "What does the spread of bar heights across the four oxides demonstrate?",
+     "misconceptionClass": "data interpretation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Different solids catalyse the same reaction at different rates",
+       "correct": true,
+       "explanation": "Height spread maps directly onto catalytic effectiveness.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The peroxide concentration varied between runs",
+       "correct": false,
+       "explanation": "Concentration was controlled, not varied.",
+       "misconception": "control confusion"
+      },
+      {
+       "key": "C",
+       "text": "Catalysts work only at high temperatures",
+       "correct": false,
+       "explanation": "Nothing in this practical involves heating.",
+       "misconception": "invented condition"
+      },
+      {
+       "key": "D",
+       "text": "The oxides are consumed at different speeds",
+       "correct": false,
+       "explanation": "Catalysts are not consumed at all.",
+       "misconception": "consumption myth"
+      }
+     ]
+    },
+    {
+     "stem": "How could the investigation be extended after the graph is drawn?",
+     "misconceptionClass": "extension design",
+     "options": [
+      {
+       "key": "A",
+       "text": "Test additional solids with the same fixed-time method and add them to the graph",
+       "correct": true,
+       "explanation": "The method extends naturally to more candidates under identical conditions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Change the time window for each new solid",
+       "correct": false,
+       "explanation": "Changing windows would break comparability.",
+       "misconception": "design regression"
+      },
+      {
+       "key": "C",
+       "text": "Replace the peroxide with a different solution and keep the bars",
+       "correct": false,
+       "explanation": "Swapping the reaction invalidates the shared graph.",
+       "misconception": "scope confusion"
+      },
+      {
+       "key": "D",
+       "text": "Abandon measurement and rank by powder colour",
+       "correct": false,
+       "explanation": "Colour carries no rate information.",
+       "misconception": "absurd extension"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "catalytic decomposition",
+    "definition": "The breakdown of a substance, helped by a catalyst, into simpler products.",
+    "firstLesson": 1
+   },
+   {
+    "term": "hydrogen peroxide",
+    "definition": "A solution that decomposes into water and oxygen, used as the reaction in this practical.",
+    "firstLesson": 1
+   },
+   {
+    "term": "relative rate",
+    "definition": "How fast one reaction runs compared with another, read from the shared graph.",
+    "firstLesson": 2
+   },
+   {
+    "term": "manganese(IV) oxide",
+    "definition": "A black solid commonly used as the catalyst for peroxide decomposition.",
+    "firstLesson": 1
+   },
+   {
+    "term": "delivery tube",
+    "definition": "The tube carrying gas from the reaction flask to the collecting cylinder.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ }
+}
