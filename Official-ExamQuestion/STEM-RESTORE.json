@@ -541,7 +541,7 @@
   },
   "2020-11/4CH1-2CR:Q1": {
    "verdict": "keep",
-   "why": "four apparatus pieces A-D not cropped (1(a) crop is the answer table)",
+   "why": "four apparatus pieces A-D not cropped (1(a) crop is the answer table) F94/F116: the sibling parts that answer from this figure carry shared refs to it (the curation of record, reproduced verbatim by the wave-20 pass).",
    "stemFigures": [
     {
      "id": "asset_1_stem_apparatus",
@@ -553,7 +553,25 @@
       259.5
      ],
      "mention": "four pieces of apparatus A-D",
-     "target": null
+     "target": null,
+     "share_with": [
+      {
+       "part": "1(b)",
+       "asset": {
+        "id": "asset_1_b_apparatus",
+        "kind": "crop",
+        "mention": "four pieces of apparatus A-D",
+        "source": "qp.pdf",
+        "page": 3,
+        "review": false,
+        "path": "assets/asset_1_stem_apparatus.png",
+        "render": "vector",
+        "text_coverage": 0.069,
+        "shared": true,
+        "ref_part": "asset_1_stem_apparatus"
+       }
+      }
+     ]
     }
    ],
    "dropTail": "A B C D"
@@ -1775,7 +1793,7 @@
   },
   "2021-11/4CH1-1C:Q1": {
    "verdict": "keep",
-   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path. F94/F116: the sibling parts that answer from this figure carry shared refs to it (the curation of record, reproduced verbatim by the wave-20 pass).",
    "stemFigures": [
     {
      "id": "asset_1_a_i_particles",
@@ -1787,7 +1805,41 @@
       212
      ],
      "mention": "F94 option-drawing follow-up: the four particle boxes A-D the (i)-(iii) trio answers from; siblings carry shared refs",
-     "target": "1(a)(i)"
+     "target": "1(a)(i)",
+     "share_with": [
+      {
+       "part": "1(a)(ii)",
+       "asset": {
+        "id": "asset_1_a_ii_particles",
+        "kind": "crop",
+        "mention": "particle diagrams of substances A-D",
+        "source": "qp.pdf",
+        "page": 4,
+        "review": false,
+        "path": "assets/asset_1_a_i_particles.png",
+        "render": "vector",
+        "text_coverage": 0.098,
+        "shared": true,
+        "ref_part": "1(a)(i)"
+       }
+      },
+      {
+       "part": "1(a)(iii)",
+       "asset": {
+        "id": "asset_1_a_iii_particles",
+        "kind": "crop",
+        "mention": "particle diagrams of substances A-D",
+        "source": "qp.pdf",
+        "page": 4,
+        "review": false,
+        "path": "assets/asset_1_a_i_particles.png",
+        "render": "vector",
+        "text_coverage": 0.098,
+        "shared": true,
+        "ref_part": "1(a)(i)"
+       }
+      }
+     ]
     }
    ]
   },
