@@ -1,5 +1,33 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.31.0 — 2026-10-29 · the remaining F111 census classes: the F47 verbatim transcription law + the F94 share_with replay + the 70 guard pins
+
+- **F47 verbatim transcription law (F111 class 5)**: `MS-LINK-OVERRIDES.json` entries may
+  carry `transcription_of_record` — the exact rendering of record (ledger == corpus ==
+  fresh). The application path emits it VERBATIM (whitespace-immune: the 2D letter
+  arrangement IS the drawing; the prose whitespace law destroyed it — 389 B -> 135 B on
+  2023-06 2CR 7(c)(i)), fail-closed on a mark_points count != 1, and stamps
+  `edit_status=corrected` + a native `edits[]` replay entry + `value_trace.solution`
+  provenance citing the F47 ledger entry as the adjudication of record.
+- **F94 shared-asset curation replay (F111 class 7)**: STEM-RESTORE stemFigure entries may
+  carry `share_with` [{part, asset}] — the sibling parts that answer from the same printed
+  figure carry the of-record shared-ref asset entries verbatim, applied after the
+  crop-review verdict pass, fail-closed (owner resolved, ref_part resolution, target
+  existence, id collisions, slice-scoped consumption) and idempotent. Fixes the fresh-loss
+  of the sibling refs on 2021-11 1C 1(a)(ii)/(iii) and 2020-11 2CR 1(b) (the figure had
+  dropped from the siblings' learner surface).
+- **The F111 class-6 metadata re-point**: the stale F97/F92/F112 surgical `edits[]` +
+  `edit_status=corrected` records on 2021-11 2C 1(d), 2025-06 2C 5(c)(i) and 2022-06 2C
+  6(a) retired — the pipeline serves all three natively (row parse / the F92 mirror law /
+  the F108 leg-0 keep law); corpus := converter of record per the F114 doctrine.
+- **70 guard pins (C147–C216)**: the drawing-strip remains (19 problem_md parts) and the
+  exponent-restore class (23 parts / 51 fields) are pinned fail-closed — any re-extraction
+  or re-baseline that loses the curation of record trips.
+- Zero-network unit battery `scripts/official_examq_f116_tests.py` (CI step added).
+- Receipt of record: `AUDIT-2026-10-29-f116-f111-remaining-classes.{md,json}`; exporter
+  disclosure `2026-10-29-f116-f111-remaining-classes.json` (1 served delta: the 2021-11 1C
+  1(a)(i) caption leaf; v2 companion per the F110 convention).
+
 ## 0.30.1 — 2026-10-29 · the F88 reconciliation's remaining half: the abbreviated footer's ` marks` tail closes at source (the F111 furniture-residue class)
 
 Converter-law-only wave: ZERO corpus bytes change, ZERO served bytes change. What changes is

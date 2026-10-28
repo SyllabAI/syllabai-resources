@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.30.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.31.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -3199,6 +3199,17 @@ def main():
                 lines = list(mlo["ms_lines"])
                 p["answer_key_source"] = "ms-link-overrides-ledger"
                 ms_link_applied.append(f"{series}:{paper}/{p['part_number']}")
+                # v0.31.0 (F116, F111 class 5): the entry may carry
+                # transcription_of_record — the exact rendering of record
+                # (ledger == corpus == fresh). Carried on the part for the
+                # post-build_solution verbatim application below.
+                _tor = mlo.get("transcription_of_record")
+                if _tor is not None:
+                    if not isinstance(_tor, str) or not _tor.strip():
+                        raise SystemExit(
+                            f"F47 transcription_of_record must be a non-empty string "
+                            f"({series}/{paper}/{p['part_number']})")
+                    p["_f47_transcription"] = _tor
             raw = re.sub(r"\s{2,}", " ", " ".join(lines)).strip()
             p["answer_status"] = "linked" if raw else "unmatched"
             p["answer_raw"] = raw
@@ -3331,6 +3342,37 @@ def main():
                     "evidence_ref": "Task 19 deep-audit da-sweep (empty-solution census); verbatim re-emission of the part's own mark_points text",
                 })
                 p["edit_status"] = "corrected"
+            # v0.31.0 (F116, F111 class 5): the F47 ledger's
+            # transcription_of_record is the rendering of record for
+            # MS-image-answer parts (ledger == corpus == fresh). Emitted
+            # VERBATIM — whitespace-immune: the 2D letter arrangement IS the
+            # drawing; the standard prose whitespace law destroys it (the
+            # v0.30.1-and-before fresh emissions collapsed it — the F111
+            # class-5 delta). Exactly one mark_point is lawful (the drawing
+            # scores a single mark); the solution's provenance is the ledger.
+            _tor = p.pop("_f47_transcription", None)
+            if _tor is not None:
+                if len(p["mark_points"]) != 1:
+                    raise SystemExit(
+                        f"F47 transcription_of_record requires exactly 1 mark_point "
+                        f"({series}/{paper} {p['part_number']}: got {len(p['mark_points'])})")
+                p["solution_md"] = _tor
+                p["mark_points"][0]["text_md"] = _tor
+                p["edit_status"] = "corrected"
+                p.setdefault("edits", []).append({
+                    "field": "solution_md+mark_points[0].text_md",
+                    "kind": "structural-repair",
+                    "tool": (f"official_examq_extract.py v{CONVERTER_VERSION} "
+                             f"(F47 ledger application — replay of the F107 "
+                             f"adjudication of record)"),
+                    "evidence_ref": (f"MS-LINK-OVERRIDES.json {series}/{paper}/"
+                                     f"{p['part_number']}: the F47 ledger entry is the "
+                                     f"adjudication of record — the printed MS answer cell "
+                                     f"is a hand-annotated photograph; the eyeball evidence "
+                                     f"chain and transcription_of_record live in the entry."),
+                })
+                p["_f47_value_trace"] = (f"ms-image-eyeball-transcription "
+                                         f"(F47 ledger {series}/{paper}/{p['part_number']})")
             if cfg.get("ms_layout") == "vertical":
                 # v0.17.0: the vertical layout carries the marks digit on its own
                 # line — build_solution's tail-scan cannot see it; the vertical
@@ -4468,6 +4510,80 @@ def main():
                     a["review"] = False
                     a["review_verdict"] = "stub-accepted"
 
+    # ---- v0.31.0 (F116, F111 class 7): F94 shared-asset curation replay -----
+    # STEM-RESTORE stemFigure entries may carry share_with [{part, asset}]:
+    # the sibling parts that answer from the same printed figure carry the
+    # of-record shared-ref asset entries VERBATIM (the F94 curation of
+    # record; the F111 census class-7 delta — the v0.30.1-and-before fresh
+    # emissions lost the sibling refs entirely, dropping the figure from the
+    # siblings' learner surface and the questions.md shared-with captions).
+    # Applied AFTER the verdict pass so the owner crop is fully resolved
+    # (path/render/text_coverage final). Fail-closed:
+    #   - the owner asset must exist resolved (kind=="crop" with a path),
+    #   - ref_part must resolve to the owner (asset id, or a part number
+    #     carrying the owner's path),
+    #   - the target part must exist in the same question,
+    #   - an existing different asset with the same id aborts (id collision);
+    #     an identical entry is an idempotent no-op,
+    #   - slice-scoped consumption: every share_with item owned by this
+    #     series/paper must be consumed (the F113 unconsumed-key law).
+    _share_consumed = 0
+    for q in doc_questions:
+        _skey = f"{series}/4CH1-{paper}:Q{q['question_number']}"
+        _sentry = _stem_entries.get(_skey) or {}
+        for _sf in _sentry.get("stemFigures") or []:
+            _sw = _sf.get("share_with") or []
+            if not _sw:
+                continue
+            _owner = next((a for pp in q["parts"] for a in (pp.get("assets") or [])
+                           if a.get("id") == _sf.get("id")), None)
+            if _owner is None or _owner.get("kind") != "crop" or not _owner.get("path"):
+                raise SystemExit(
+                    f"F94 share_with owner not resolved for {_skey} {_sf.get('id')}: "
+                    f"kind={(_owner or {}).get('kind')!r} path={(_owner or {}).get('path')!r}")
+            for _item in _sw:
+                _tgt_pn = _item.get("part")
+                _asset = _item.get("asset")
+                if (not isinstance(_tgt_pn, str) or not isinstance(_asset, dict)
+                        or not isinstance(_asset.get("id"), str)):
+                    raise SystemExit(f"F94 share_with malformed for {_skey}: {_item!r}")
+                _tp = next((pp for pp in q["parts"] if pp["part_number"] == _tgt_pn), None)
+                if _tp is None:
+                    raise SystemExit(f"F94 share_with target part missing: {_skey} -> {_tgt_pn}")
+                _ref = _asset.get("ref_part")
+                _ref_ok = (_ref == _sf.get("id")
+                           or any(pp["part_number"] == _ref
+                                  for pp in q["parts"]
+                                  for a in (pp.get("assets") or [])
+                                  if a.get("path") == _owner.get("path")))
+                if not _ref_ok:
+                    raise SystemExit(
+                        f"F94 share_with ref_part {_ref!r} does not resolve to the owner "
+                        f"{_sf.get('id')} for {_skey} -> {_tgt_pn}")
+                _cur = next((a for a in (_tp.get("assets") or [])
+                             if a.get("id") == _asset["id"]), None)
+                if _cur is not None:
+                    if _cur == _asset:
+                        _share_consumed += 1
+                        continue
+                    raise SystemExit(
+                        f"F94 share_with id collision: {_asset['id']} already on {_tgt_pn} "
+                        f"with different content ({_skey})")
+                _tp.setdefault("assets", []).append(_asset)
+                _share_consumed += 1
+    _share_owned = 0
+    for _k, _v in _stem_entries.items():
+        if not _k.startswith(f"{series}/4CH1-{paper}:"):
+            continue
+        for _sf in (_v or {}).get("stemFigures") or []:
+            _share_owned += len(_sf.get("share_with") or [])
+    if _share_owned and _share_consumed < _share_owned:
+        raise SystemExit(
+            f"F94 share_with items not consumed: {_share_consumed}/{_share_owned} "
+            f"for {series}/4CH1-{paper}")
+    if _share_consumed:
+        report.setdefault("f94", {})["shared_asset_refs"] = _share_consumed
+
     # ---- spec tags: v0.5 demo seeds + v0.7 llm spec-tagging waves -----------
     # Labels only (AGENTS.md review taxonomy: 'pending-llm' -> seed via LLM as
     # labels, re-validated by G6). Wave files live in spec-labels/<series>.json
@@ -4548,6 +4664,12 @@ def main():
                                            if _p.get("_marks_fill")
                                            else (_p.pop("marks_inferred", None) or "ms-printed")),
                                  "numbers": "source-printed"}
+            # v0.31.0 (F116, F111 class 5): the F47 ledger-applied transcription
+            # records its provenance — the value comes from the ledger entry of
+            # record (accurate for the surgical application AND the replay).
+            _f47vt = _p.pop("_f47_value_trace", None)
+            if _f47vt:
+                _p["value_trace"]["solution"] = _f47vt
             # v0.21.0 (F85): pop the repeat-label print-defect markers into the
             # part's value_trace — disclosed on the record, never serialized on
             # the choice rows.

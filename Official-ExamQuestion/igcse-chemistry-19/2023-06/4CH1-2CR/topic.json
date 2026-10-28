@@ -1406,8 +1406,8 @@
       {
        "field": "solution_md+mark_points[0].text_md",
        "kind": "structural-repair",
-       "tool": "g9_f107_repair.py (F107, canary C13/C71 red-state repair)",
-       "evidence_ref": "Printed MS of record 2023-06 4CH1-2CR p13: the 7(c)(i) Answer cell is an embedded hand-annotated photograph - the QP displayed formula redrawn with a pen circle around the ester functional group (carbonyl C + double-bond O + bridging O); the text layer has NO extractable answer (pdftotext empty cell; archive parsed/ms.md prints 'P3 (1 mark)' with no answer text). Marks column reads 1. The pre-hygiene corpus carried the marks-column digit '1' as the answer (the marks-digit leak, C99's documented class); Task 19 hygiene-v2 r0 (4c11a041) emptied it per the F97 honest-empty decision whose promised fail-visible carry (G7 census + review queue) was never materialized, leaving canaries C13/C71 red on main. Repaired per the F47 image-answer doctrine (the 2021-01 2CR 7(d) precedent): the eyeballed verbatim transcription of the printed drawing is materialized into the corpus (solution_md + mark_points), the F47 ledger entry carries the evidence chain, canary C109 pins the part. Nothing is added beyond the drawing's own 2D letter arrangement + the circle's scope. Evidence: 300-dpi render of MS p13 (answer-cell bbox), QP p23 printed displayed formula (methyl 2-methylpropanoate, branched)."
+       "tool": "official_examq_extract.py v0.31.0 (F47 ledger application — replay of the F107 adjudication of record)",
+       "evidence_ref": "MS-LINK-OVERRIDES.json 2023-06/2CR/7(c)(i): the F47 ledger entry is the adjudication of record — the printed MS answer cell is a hand-annotated photograph; the eyeball evidence chain and transcription_of_record live in the entry."
       }
      ]
     },

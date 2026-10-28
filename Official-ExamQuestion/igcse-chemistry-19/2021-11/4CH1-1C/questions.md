@@ -9,7 +9,7 @@
 
 Which substance contains single atoms of one element? A B C D
 
-![particle diagrams of substances A-D — official paper figure (qp.pdf p.4)](assets/asset_1_a_i_particles.png)
+![F94 option-drawing follow-up: the four particle boxes A-D the (i)-(iii) trio answers from; siblings carry shared refs — official paper figure (qp.pdf p.4)](assets/asset_1_a_i_particles.png)
 
 
 **Mark scheme answer**
