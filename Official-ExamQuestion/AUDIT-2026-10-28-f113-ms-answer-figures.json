@@ -1,0 +1,152 @@
+{
+ "schema": "syllabai.official-examq.wave-receipt/0.1",
+ "wave": "F113 MS-answer-figure wave (LEDGER F113) — the F95/F97 MS-side crop capability",
+ "generated_utc": "2026-10-28T04:30:00Z",
+ "converter_of_record": "official_examq_extract.py v0.30.0 (the MS-side crop path landed IN this wave)",
+ "operator_order": "the F95/F97 MS-side crop capability wave",
+ "reconcile": {
+  "agants_open_work": "resources AGENTS.md 'Known open work' read before executing (the standing operator instruction): F95's filed open wave ('fix needs MS-side crop support (converter renders QP-side only today)'), AGENTS.md's 2019-06 3(d)(ii) MS-figure-crop bullet, and F97's leftover ('the same MS-crop wave') are the three anchors; no other queue claims the MS-crop capability; no conflicts",
+  "stale_entries_found": [
+   "AGENTS.md 2019-06 3(d)(ii) 'stays unmatched (C52)' — STALE: C52's assertion of record pins the F47 manual-linkage transcription fix (the part serves); the bullet is corrected in this wave",
+   "F97's leftover 2021-01 2CR 6(c)(i) /1000 — CLOSED en route by the F108 leg-0 geometry-aware bare-numeral keep (verified served); recorded in the F113 ledger row"
+  ]
+ },
+ "capability": {
+  "converter": [
+   "MS-ANSWER-FIGURES.json (new ledger, sibling of STEM-RESTORE.json): one flat verdict per part keyed '<series>/4CH1-<paper>:<part_number>' (id, MS page 1-based, mention, note)",
+   "stub emission: crop-required stubs with source 'ms.pdf' + ms_answer_figure true, consumed by the existing CROP-REVIEW verdict pass (applied LAST order preserved)",
+   "F45 manual_crop + F99 recrop branches render ms.pdf-sourced assets from the MS fitz doc (lazy open; MS-page validation; raster/vector classification reads the MS page image index)",
+   "fail-closed guards: malformed entries, id collisions, and slice-owned unconsumed ledger keys abort the run (slice-scoped: the ledger is corpus-wide)"
+  ],
+  "exporter": [
+   "ms.pdf-sourced crops render in solutionMd (official mark scheme answer figure, ms.pdf p.N caption) AFTER the authored worked answer; never in problemMd",
+   "assets[] entries carry source: 'ms'; un-verdicted ms stubs serve an honest pending-review line",
+   "manifest note of record bumped to the F113 text (the per-wave hardcode law)"
+  ]
+ },
+ "parts_of_record": [
+  {
+   "key": "2026-06/4CH1-2C:5(a)",
+   "asset": "asset_5_a_ms_answer",
+   "ms_page": 9,
+   "rect": [
+    120.0,
+    90.0,
+    272.0,
+    222.0
+   ],
+   "content": "M1 ethanol + M2 ethyl ethanoate displayed formulae (embedded rasters), Notes-column guidance already served verbatim"
+  },
+  {
+   "key": "2019-06/4CH1-2C:2(a)",
+   "asset": "asset_2_a_ms_answer",
+   "ms_page": 5,
+   "rect": [
+    150.0,
+    98.0,
+    441.0,
+    196.0
+   ],
+   "content": "the printed halogen state/colour answer table (embedded raster — the text layer never carried its words; rotation_matrix mapping applied)"
+  },
+  {
+   "key": "2019-06/4CH1-2C:6(d)(ii)",
+   "asset": "asset_6_d_ii_ms_answer",
+   "ms_page": 16,
+   "rect": [
+    150.0,
+    310.0,
+    556.0,
+    392.0
+   ],
+   "content": "ethanoic acid displayed formula (Answer cell) + the 1-mark partial displayed formula (guidance cell) with IGNORE/scores text — both score-bearing, one band"
+  },
+  {
+   "key": "2022-01/4CH1-2C:7(a)(i)",
+   "asset": "asset_7_a_i_ms_answer",
+   "ms_page": 10,
+   "rect": [
+    144.7,
+    108.4,
+    306.1,
+    196.1
+   ],
+   "content": "ethyl ethanoate displayed formula with the ester functional group circled (the REJECT note's 'ring' is this circle)"
+  },
+  {
+   "key": "2023-01/4CH1-2C:6(a)(i)",
+   "asset": "asset_6_a_i_ms_answer",
+   "ms_page": 10,
+   "rect": [
+    130.0,
+    88.0,
+    258.0,
+    158.0
+   ],
+   "content": "partial displayed structure with the carbonyl circled (arc tail to ~156pt; the (ii) full-ester image at y>=151.7 excluded)"
+  },
+  {
+   "key": "2024-11/4CH1-2C:7(a)(ii)",
+   "asset": "asset_7_a_ii_ms_answer",
+   "ms_page": 10,
+   "rect": [
+    118.1,
+    137.7,
+    323.8,
+    244.8
+   ],
+   "content": "hand-drawn propan-1-ol displayed formula embedded as a photograph (the F107 hand-annotated-photo class, crop route)"
+  },
+  {
+   "key": "2023-06/4CH1-2CR:7(c)(ii)",
+   "asset": "asset_7_c_ii_ms_answer",
+   "ms_page": 13,
+   "rect": [
+    113.7,
+    574.3,
+    293.1,
+    686.9
+   ],
+   "content": "hand-drawn 2-methylpropanoic acid displayed formula photograph — independent visual corroboration of the F107 enrichment correction; the (c)(i) F107-transcribed sibling untouched (C109)"
+  }
+ ],
+ "eyeball_of_record": {
+  "method": "every part eyeballed TWICE: the full MS page rendered at 150 dpi and read, then the proof clip at 150 dpi read against it; rects derived from fitz document geometry (embedded-image bboxes, word positions, drawing rules), the two rotated 2019-06 landscape pages mapped through page.rotation_matrix into the rendered page space",
+  "sha_verification": "all 6 MS PDFs sha256-verified against the corpus source pins before eyeball (7/7 targets, G0 discipline)",
+  "dpi": 150
+ },
+ "proof": {
+  "slice_runs": "6/6 slices (2026-06 2C, 2019-06 2C, 2022-01 2C, 2023-01 2C, 2024-11 2C, 2023-06 2CR) exit 0 with all 8 gates PASS (G0-identity .. G7-solution-emission) at v0.30.0",
+  "target_part_equality": "the fresh emission's ms.pdf assets == the surgical corpus edits on all 7 target parts (parsed-level deep-equality) and the converter-rendered PNGs are byte-identical to the committed PNGs (7/7 sha256)",
+  "residual_deltas": "fresh-vs-of-record part-field deltas are ONLY the F111 disclosed classes: 2022-01 7(e) problem_md (drawing-strip remains), 2024-11 1(c) solution_md+mark_points (exponent-restore, C95's guard class), 2023-06 7(c)(i) 5 fields (the F107 curated transcription state); every other touched part delta is the wave's own assets field",
+  "round_trip_fidelity": "all 6 of-record topic.json files re-serialize byte-identically (converter serialization + trailing newline) — the surgical-edit convention (F112) holds",
+  "canaries": "check_canaries.py on the edited tree: 117/117 PASS (110 existing + C113-C119 new, part asset_state pins; the checker arm existed — no F104 vacuous-red class)",
+  "corpus_commit_shape": "surgical: of-record bytes + the 7 asset additions only (the F110 standing decision; validation-reports NOT regenerated — the C57/F66 clobber lesson)"
+ },
+ "census_subclassification": {
+  "predicate": "UNCHANGED (_mp_only_fragments verbatim, incl. the F108 answer-grid exemption)",
+  "census_at_v030": "19 fragment-shape hits corpus-wide",
+  "true_printed_answer_subclass": "7 (served by this wave)",
+  "mp_copy_with_trailing_guidance": "12 (the part's whole solution text rides a single mark_point copy whose trailing '… scores 0/both' guidance matches the fragment branch; solutions already serve — no action; receipt class 4)"
+ },
+ "serving_delta": {
+  "disclosure": "scripts/exporter-disclosures/2026-10-28-f113-ms-answer-figures.json",
+  "changed_parts": 7,
+  "fields": "solutionMd (authored text + appended ms answer figure) + assets (+1 ms entry each)",
+  "census_constants": "unchanged (54 sets / 477 questions / 2,607 parts / 4,161 markPoints); figure crops 471 -> 478"
+ },
+ "canary_additions": [
+  "C113-ms-answer-figure-2026-06-2c-5a",
+  "C114-ms-answer-figure-2019-06-2c-2a",
+  "C115-ms-answer-figure-2019-06-2c-6dii",
+  "C116-ms-answer-figure-2022-01-2c-7ai",
+  "C117-ms-answer-figure-2023-01-2c-6ai",
+  "C118-ms-answer-figure-2024-11-2c-7aii",
+  "C119-ms-answer-figure-2023-06-2cr-7cii"
+ ],
+ "residual_open": [
+  "the F95 predicate's MP-copy-with-trailing-guidance shape (12 hits) — disclosed, no action; a predicate refinement (if ever filed) must not change any served byte",
+  "the F111 reconciliation classes stand (MCQ positional keys 8a, exponent restore 8b, Task-20 drawing-strip patches) — untouched by this wave",
+  "2023-01 2C 6(a)(ii) serves its M1/M2 text but its printed full-ester drawing is not an asset (real MPs -> not an F95 part; noted as a possible future MS-figure candidate, NOT landed here)"
+ ]
+}

@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.29.2"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.30.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -4224,6 +4224,80 @@ def main():
     if n_stemfig_stubs:
         report.setdefault("wave20", {})["stem_figure_stubs"] = n_stemfig_stubs
 
+    # ---- v0.30.0 (F113): MS answer-figure ledger ---------------------------
+    # The F95 census's MS-answer-is-a-drawing class: parts whose printed MS
+    # answer cell is a figure/table/hand-drawn photo the text layer cannot
+    # carry (the F95 ledger filed this as the open MS-side crop wave; until
+    # this converter version every crop rendered QP-side only). The eyeballed
+    # boxes live in MS-ANSWER-FIGURES.json — one flat verdict per part keyed
+    # '<series>/4CH1-<paper>:<part_number>' with the MS page (1-based); the
+    # F45 manual_crop verdict pass below renders the stub FROM THE MS PDF.
+    # The ledger is the eyeball record of provenance (same rhythm as
+    # STEM-RESTORE stemFigures -> CROP-REVIEW verdicts). Fail-closed: a
+    # malformed entry, an unconsumed ledger key (typo'd part number), or an
+    # id collision aborts the run instead of silently shipping a stub.
+    _ms_fig_path = RES_DIR / "Official-ExamQuestion" / "MS-ANSWER-FIGURES.json"
+    _ms_fig_entries = {}
+    if _ms_fig_path.exists():
+        _ms_fig_entries = json.loads(_ms_fig_path.read_text()).get("verdicts", {})
+    _ms_pdf_doc = [None]
+    _ms_page_rasters = {}
+
+    def _ms_doc():
+        if _ms_pdf_doc[0] is None:
+            if not MS_PDF.exists():
+                raise SystemExit(
+                    "F113: MS-ANSWER-FIGURES entries present but the MS PDF is missing")
+            _ms_pdf_doc[0] = fitz.open(MS_PDF)
+        return _ms_pdf_doc[0]
+
+    def _ms_rasters(pg):
+        if pg not in _ms_page_rasters:
+            mp = _ms_doc()[pg - 1]
+            _ms_page_rasters[pg] = [fitz.Rect(i["bbox"]) for i in mp.get_image_info()
+                                    if i["bbox"][2] - i["bbox"][0] >= 5
+                                    and i["bbox"][3] - i["bbox"][1] >= 5]
+        return _ms_page_rasters[pg]
+
+    _ms_fig_consumed = set()
+    n_msfig_stubs = 0
+    if _ms_fig_entries:
+        for q in doc_questions:
+            for p in q["parts"]:
+                _e = _ms_fig_entries.get(f"{series}/4CH1-{paper}:{p['part_number']}")
+                if not isinstance(_e, dict):
+                    continue
+                _aid, _pg = _e.get("id"), _e.get("page")
+                if (not isinstance(_aid, str) or not _aid
+                        or not isinstance(_pg, int) or not (1 <= _pg <= len(_ms_doc()))
+                        or not isinstance(_e.get("mention") if _e.get("mention") is not None else "", str)):
+                    raise SystemExit(
+                        f"F113 ms-answer-figure malformed for "
+                        f"{series}/4CH1-{paper}:{p['part_number']}: {_e!r}")
+                if any(a["id"] == _aid for pp in doc_questions for a in (pp.get("assets") or [])):
+                    raise SystemExit(f"F113 ms-answer-figure id collision: {_aid}")
+                p.setdefault("assets", []).append({
+                    "id": _aid, "kind": "crop-required",
+                    "mention": _e.get("mention") or "ms answer figure",
+                    "source": "ms.pdf", "page": _pg, "review": True,
+                    "ms_answer_figure": True, "_src_text": [],
+                })
+                _ms_fig_consumed.add(f"{series}/4CH1-{paper}:{p['part_number']}")
+                crop_stats["pending"] += 1
+                n_msfig_stubs += 1
+        # unconsumed-key guard is SLICE-SCOPED: the ledger is corpus-wide
+        # (every slice's run reads the same file), so only keys owned by THIS
+        # series/paper may be left unconsumed — another slice's entries are
+        # that slice's run's business.
+        _owned_prefix = f"{series}/4CH1-{paper}:"
+        _unconsumed = sorted(k for k in set(_ms_fig_entries) - _ms_fig_consumed
+                             if k.startswith(_owned_prefix))
+        if _unconsumed:
+            raise SystemExit(
+                f"F113 ms-answer-figure ledger keys not consumed by any part: {_unconsumed}")
+    if n_msfig_stubs:
+        report.setdefault("f113", {})["ms_answer_figure_stubs"] = n_msfig_stubs
+
     # ---- v0.7 (F29) / v0.7.1 (F32): crop-review verdicts, applied LAST -----
     # The eyeball ledger overrides every confidence flag — resolution paths
     # set review=True after render_crop runs, so the verdict must land after
@@ -4296,17 +4370,28 @@ def main():
                         raise SystemExit(
                             f"F99 recrop page {mc_pg} != asset page {a.get('page')} for "
                             f"{a['id']} without page_move disclosure")
-                    _rc_page = pdf[mc_pg - 1]
+                    # F113: an ms.pdf-sourced asset re-renders from the MS PDF
+                    # (page numbers are MS pages; the raster index is the MS
+                    # page's) — the QP path is unchanged for QP assets.
+                    if a.get("source") == "ms.pdf":
+                        _rc_doc, _rc_rasters = _ms_doc(), _ms_rasters(mc_pg)
+                    else:
+                        _rc_doc, _rc_rasters = pdf, (
+                            (clusters_for(mc_pg), page_rasters[mc_pg])[1])
+                    if not (1 <= mc_pg <= len(_rc_doc)):
+                        raise SystemExit(
+                            f"F99 recrop page {mc_pg} out of range for {a['id']} "
+                            f"(source={a.get('source') or 'qp.pdf'})")
+                    _rc_page = _rc_doc[mc_pg - 1]
                     _rc_clip = fitz.Rect(*[float(x) for x in mc_rect]) & _rc_page.rect
                     if _rc_clip.is_empty or _rc_clip.width < 20 or _rc_clip.height < 20:
                         raise SystemExit(f"F99 recrop degenerate rect for {a['id']}: {mc_rect}")
-                    clusters_for(mc_pg)
                     _rc_rel = f"assets/{a['id']}.png"
                     _rc_pix = _rc_page.get_pixmap(clip=_rc_clip, dpi=CROP_DPI)
                     _rc_pix.save(str(OUT / _rc_rel))
                     a["path"] = _rc_rel
                     a["page"] = mc_pg
-                    a["render"] = ("raster" if any(rb.contains(_rc_clip) for rb in page_rasters[mc_pg])
+                    a["render"] = ("raster" if any(rb.contains(_rc_clip) for rb in _rc_rasters)
                                    else "vector")
                     a["text_coverage"] = text_coverage(_rc_page, _rc_clip)
                     a["manual_crop"] = True
@@ -4331,18 +4416,30 @@ def main():
                         raise SystemExit(
                             f"F45 manual_crop page {mc_pg} != stub page {a.get('page')} for "
                             f"{a['id']} without page_move disclosure")
-                    mc_page = pdf[mc_pg - 1]
+                    # F113: an ms.pdf-sourced stub renders from the MS PDF
+                    # (the stub's page is an MS page; validation above already
+                    # pinned it against the QP — re-validate against the MS
+                    # doc so the two page spaces can never be confused).
+                    if a.get("source") == "ms.pdf":
+                        mc_doc, mc_rasters = _ms_doc(), _ms_rasters(mc_pg)
+                    else:
+                        mc_doc, mc_rasters = pdf, (
+                            (clusters_for(mc_pg), page_rasters[mc_pg])[1])
+                    if not (1 <= mc_pg <= len(mc_doc)):
+                        raise SystemExit(
+                            f"F45 manual_crop page {mc_pg} out of range for {a['id']} "
+                            f"(source={a.get('source') or 'qp.pdf'})")
+                    mc_page = mc_doc[mc_pg - 1]
                     mc_clip = fitz.Rect(*[float(x) for x in mc_rect]) & mc_page.rect
                     if mc_clip.is_empty or mc_clip.width < 20 or mc_clip.height < 20:
                         raise SystemExit(f"F45 manual_crop degenerate rect for {a['id']}: {mc_rect}")
-                    clusters_for(mc_pg)          # populate the page raster index
                     mc_rel = f"assets/{a['id']}.png"
                     mc_pix = mc_page.get_pixmap(clip=mc_clip, dpi=CROP_DPI)
                     mc_pix.save(str(OUT / mc_rel))
                     a["kind"] = "crop"
                     a["path"] = mc_rel
                     a["page"] = mc_pg
-                    a["render"] = ("raster" if any(rb.contains(mc_clip) for rb in page_rasters[mc_pg])
+                    a["render"] = ("raster" if any(rb.contains(mc_clip) for rb in mc_rasters)
                                    else "vector")
                     a["text_coverage"] = text_coverage(mc_page, mc_clip)
                     a["manual_crop"] = True
@@ -4718,7 +4815,7 @@ def main():
          f"solution_md on {len(sol_parts) - len(no_sol)}/{len(sol_parts)} linked parts; "
          f"mark_points sum == part marks everywhere: {not sum_bad}; "
          f"MS marks-column digit read for {ms_seen} parts, agrees with QP marks on {ms_agree}; "
-         f"{len(mp_gap)} mark-point answer gaps (census, F95)",
+         f"{len(mp_gap)} mark-point answer gaps (census, F95; the printed-drawing subclass serves via the F113 MS-answer-figure crops)",
          {"missing_solution": no_sol, "sum_mismatches": sum_bad,
           "ms_marks_seen": ms_seen, "ms_marks_agree": ms_agree,
           "ms_marks_disagree": ms_disagree, "mp_answer_gap": mp_gap})
