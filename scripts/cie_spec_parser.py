@@ -956,13 +956,22 @@ def parse_pdf(pdf_path, qual_slug):
     if qual_slug in SENTENCE_SPLIT:
         # 9696: the PDF text layer embeds control glyphs (\x07) where the print
         # layout used indent markers -> strip them (fleet parses carry none)
-        # and disclose via the 'control-glyph-stripped' flag
+        # and disclose via the 'control-glyph-stripped' flag. A glyph followed
+        # by a space strands the space at the text edge once the glyph is gone
+        # (1.4.1 emitted ' Modifications...' — T-SPEC-CORPUS-WS-1) -> also
+        # strip that stranded edge whitespace, disclosed via
+        # 'edge-whitespace-stripped'.
         for s in statements:
-            cleaned = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', s['text'])
-            if cleaned != s['text']:
-                s['text'] = cleaned
+            raw = s['text']
+            cleaned = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', raw)
+            trimmed = cleaned.strip()
+            if trimmed != cleaned:
+                s['flags'] = sorted(set(s['flags'] + ['edge-whitespace-stripped']))
+            if trimmed != raw:
+                s['text'] = trimmed
                 s['flags'] = sorted(set(s['flags'] + ['control-glyph-stripped']))
-            s['sub_items'] = [re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', x) for x in s.get('sub_items', [])]
+            s['sub_items'] = [re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', x).strip()
+                              for x in s.get('sub_items', [])]
     # finalize: subsection dicts -> printed-shape rows; ids; flags
     for sub in subsecs:
         if 'code' in sub:
