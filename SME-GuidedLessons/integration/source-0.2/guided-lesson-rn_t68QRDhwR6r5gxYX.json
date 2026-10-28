@@ -1,0 +1,493 @@
+{
+ "format": "guided-lesson/0.2",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/6a98f5a0c76f-6-2-2-energy-changes-reversible-reactions.png",
+   "alt": "Energy Changes & Reversible Reactions, downloadable IGCSE & GCSE Chemistry revision notes",
+   "sourceHeading": "The dehydration of hydrated copper(II) sulfate",
+   "moduleIds": [
+    "L2"
+   ]
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_t68QRDhwR6r5gxYX",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "3. Physical Chemistry",
+  "subtopicTitle": "Reversible Reactions & Equilibria",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-3-reversible-reactions-and-equilibria/3-3-1-reversible-reactions"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-3.17",
+   "text": "know that some reactions are reversible and this is indicated by the symbol ⇌ in equations"
+  },
+  {
+   "code": "4CH1-3.18",
+   "text": "describe reversible reactions such as the dehydration of hydrated copper(II) sulfate and the effect of heat on ammonium chloride"
+  }
+ ],
+ "primer": {
+  "text": "From Rates of Reaction you already know that changing conditions changes how fast reactions run. This note shows that conditions can even change the direction a reaction takes, using the two-arrow symbol that marks a reversible change. Two classic examples, heated ammonium chloride and blue copper sulfate, carry the whole idea.",
+  "prerequisiteSubtopic": "Rates of Reaction"
+ },
+ "lessons": [
+  {
+   "title": "Reactions that run both ways",
+   "sourceHeadings": [
+    "Reversible reactions"
+   ],
+   "specRefs": [
+    "4CH1-3.17"
+   ],
+   "opening": "Most equations you have met end when the reactants run out, but some reactions can be undone by their own products. This lesson introduces the double arrow that marks chemistry able to travel in both directions.",
+   "keyPoints": [
+    "In reversible reactions the product molecules can react again or decompose to reform the reactants.",
+    "A reversible reaction can occur in both directions at the same time.",
+    "The forward reaction forms the products while the reverse reaction forms the reactants.",
+    "The symbol with two half arrowheads, one pointing each way, indicates a reversible reaction.",
+    "Changing the reaction conditions can change the direction a reversible reaction takes."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Some reactions can be undone: the products can turn back into the reactants, so the change runs both ways. Chemists show this with two arrows, one for each direction of travel.",
+     "analogy": "It is like a two-way street: the same road carries traffic into town and back out, and a diversion can send more cars either way.",
+     "examPointer": "Use the two-way arrow in equations for reversible changes and name the forward and reverse reactions."
+    },
+    "medium": {
+     "restatement": "In a reversible reaction the products can react with each other or decompose, reforming the original reactants, so the change proceeds in both directions. The forward reaction builds products, the reverse reaction rebuilds reactants, and the double half-arrow symbol records the two-way traffic.",
+     "analogy": "A revolving door lets people pass both ways through the same opening; the crowd on each side is the forward and reverse traffic.",
+     "examPointer": "Draw the two half arrowheads correctly, top to the right and bottom to the left, and label both directions."
+    }
+   },
+   "check": [
+    {
+     "stem": "What distinguishes a reversible reaction from one that goes to completion?",
+     "misconceptionClass": "concept separation",
+     "options": [
+      {
+       "key": "A",
+       "text": "The products can react or decompose to reform the reactants",
+       "correct": true,
+       "explanation": "Running in both directions is the defining feature of reversibility.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It happens faster than a completing reaction",
+       "correct": false,
+       "explanation": "Speed is unrelated to reversibility.",
+       "misconception": "rate conflated"
+      },
+      {
+       "key": "C",
+       "text": "It produces no products at all",
+       "correct": false,
+       "explanation": "Products form; they just can turn back.",
+       "misconception": "absurd claim"
+      },
+      {
+       "key": "D",
+       "text": "It cannot be written as an equation",
+       "correct": false,
+       "explanation": "Reversible changes have equations with the double arrow.",
+       "misconception": "notation myth"
+      }
+     ]
+    },
+    {
+     "stem": "What does each half of the two-arrow symbol represent?",
+     "misconceptionClass": "symbol reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "One half shows the forward reaction and the other the reverse reaction",
+       "correct": true,
+       "explanation": "The two arrowheads record both directions happening at once.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One shows a fast reaction and one a slow reaction",
+       "correct": false,
+       "explanation": "The arrows carry direction, not speed.",
+       "misconception": "speed misread"
+      },
+      {
+       "key": "C",
+       "text": "One shows the reaction is exothermic",
+       "correct": false,
+       "explanation": "Energy direction is not what the symbol encodes.",
+       "misconception": "energy misread"
+      },
+      {
+       "key": "D",
+       "text": "Both show the forward reaction twice",
+       "correct": false,
+       "explanation": "The two halves point opposite ways.",
+       "misconception": "misreading"
+      }
+     ]
+    },
+    {
+     "stem": "In the reverse reaction, what is formed?",
+     "misconceptionClass": "direction reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The reactants, rebuilt from the products",
+       "correct": true,
+       "explanation": "The reverse direction runs products back to the starting chemicals.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "New products never seen before",
+       "correct": false,
+       "explanation": "The reverse route leads back to the original reactants.",
+       "misconception": "invented products"
+      },
+      {
+       "key": "C",
+       "text": "Only energy",
+       "correct": false,
+       "explanation": "Chemicals, not just energy, are reformed.",
+       "misconception": "energy only"
+      },
+      {
+       "key": "D",
+       "text": "A catalyst",
+       "correct": false,
+       "explanation": "Catalysts are not formed by reactions at all.",
+       "misconception": "role confusion"
+      }
+     ]
+    },
+    {
+     "stem": "How can the direction a reversible reaction takes be changed?",
+     "misconceptionClass": "condition effects",
+     "options": [
+      {
+       "key": "A",
+       "text": "By changing the reaction conditions, such as the temperature",
+       "correct": true,
+       "explanation": "Conditions steer the balance between the two directions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "By rewriting the equation",
+       "correct": false,
+       "explanation": "Paper changes nothing in the flask.",
+       "misconception": "notation myth"
+      },
+      {
+       "key": "C",
+       "text": "The direction is fixed forever",
+       "correct": false,
+       "explanation": "Reversibility means the direction responds to conditions.",
+       "misconception": "fixed myth"
+      },
+      {
+       "key": "D",
+       "text": "By adding a catalyst to the products only",
+       "correct": false,
+       "explanation": "Catalysts change pace, not direction.",
+       "misconception": "catalyst myth"
+      }
+     ]
+    },
+    {
+     "stem": "Which arrow orientation is correct for the reversibility symbol?",
+     "misconceptionClass": "notation detail",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two half arrowheads, the top pointing right and the bottom pointing left",
+       "correct": true,
+       "explanation": "That is exactly how the double arrow is drawn.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two full arrowheads both pointing right",
+       "correct": false,
+       "explanation": "That is the single forward arrow, not the reversibility symbol.",
+       "misconception": "symbol confusion"
+      },
+      {
+       "key": "C",
+       "text": "One long arrow crossing one short arrow",
+       "correct": false,
+       "explanation": "The symbol is two stacked half arrows.",
+       "misconception": "shape confusion"
+      },
+      {
+       "key": "D",
+       "text": "Two dots above and below the equation",
+       "correct": false,
+       "explanation": "Dots are not part of the notation.",
+       "misconception": "invented notation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Two flagship reversible reactions",
+   "sourceHeadings": [
+    "Thermal decomposition of ammonium chloride",
+    "Dehydration of hydrated copper(II) sulfate"
+   ],
+   "specRefs": [
+    "4CH1-3.18"
+   ],
+   "figureIds": [
+    "fig-01"
+   ],
+   "opening": "Two reactions carry the reversibility flag in exams: a white solid that fizzes apart when heated and re-forms on cooling, and a blue crystal that loses its water and regains it. This lesson writes both equations and their colour stories.",
+   "keyPoints": [
+    "Warm ammonium chloride splits into ammonia and hydrogen chloride gases, which rejoin on cooling.",
+    "The reversible equation shows solid ammonium chloride between the two gases with a double arrow.",
+    "Hydrated copper(II) sulfate is blue and holds water inside its crystal structure.",
+    "Heating drives off the water to leave white anhydrous copper(II) sulfate in an endothermic change.",
+    "Adding water to the white powder turns it blue again and gives out a large amount of heat."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Heating ammonium chloride splits it into two gases, and cooling lets the gases rejoin into the white solid. Blue copper sulfate loses its stored water when warmed and turns white, then drinks water back in and turns blue once more.",
+     "analogy": "It is like a sponge: squeeze the water out with effort, and it drinks it back up the moment water is offered.",
+     "examPointer": "Quote the colour changes, blue to white and back, and the direction of each energy change."
+    },
+    "medium": {
+     "restatement": "Ammonium chloride decomposes on heating into ammonia and hydrogen chloride, which recombine to the solid as the hot gases cool. Hydrated copper(II) sulfate gives up its stored water on heating to form white anhydrous copper(II) sulfate, and adding water reforms the blue hydrated salt while releasing heat.",
+     "analogy": "The copper salt is a colour-coded water meter: blue says water is stored, white says the store is empty, and each refill or emptying runs by heat moving one way or the other.",
+     "examPointer": "Give both equations with the double arrow and attach endothermic to the heating and exothermic to the rehydration."
+    }
+   },
+   "check": [
+    {
+     "stem": "What happens when the hot gases from heated ammonium chloride cool down?",
+     "misconceptionClass": "reverse direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "They recombine to form solid ammonium chloride again",
+       "correct": true,
+       "explanation": "Cooling runs the reverse reaction, rebuilding the white solid.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They escape as permanent gases",
+       "correct": false,
+       "explanation": "The reverse reaction returns them to the solid.",
+       "misconception": "completion misread"
+      },
+      {
+       "key": "C",
+       "text": "They turn into water and nitrogen",
+       "correct": false,
+       "explanation": "No such products appear in this reaction.",
+       "misconception": "invented products"
+      },
+      {
+       "key": "D",
+       "text": "They condense into a liquid",
+       "correct": false,
+       "explanation": "They reform a solid, not a liquid.",
+       "misconception": "state confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why is hydrated copper(II) sulfate blue?",
+     "misconceptionClass": "colour reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because water of crystallisation is held in its structure",
+       "correct": true,
+       "explanation": "The stored water gives the crystals their blue colour.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because copper is always blue",
+       "correct": false,
+       "explanation": "The anhydrous form of the same salt is white.",
+       "misconception": "element myth"
+      },
+      {
+       "key": "C",
+       "text": "Because it contains dissolved oxygen",
+       "correct": false,
+       "explanation": "Oxygen is not the colour source here.",
+       "misconception": "invented cause"
+      },
+      {
+       "key": "D",
+       "text": "Because it was heated",
+       "correct": false,
+       "explanation": "Heating drives the colour away, not in.",
+       "misconception": "direction inverted"
+      }
+     ]
+    },
+    {
+     "stem": "What energy change accompanies the dehydration of hydrated copper(II) sulfate?",
+     "misconceptionClass": "energy direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Endothermic, because energy is taken in to remove the water",
+       "correct": true,
+       "explanation": "Driving the water out consumes heat.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Exothermic, because heat is given off while drying",
+       "correct": false,
+       "explanation": "That is the rehydration step.",
+       "misconception": "direction swapped"
+      },
+      {
+       "key": "C",
+       "text": "No energy change occurs",
+       "correct": false,
+       "explanation": "Removing bound water requires energy.",
+       "misconception": "no-change myth"
+      },
+      {
+       "key": "D",
+       "text": "The change depends on the colour",
+       "correct": false,
+       "explanation": "Colour records the state, not the energy flow.",
+       "misconception": "colour conflated"
+      }
+     ]
+    },
+    {
+     "stem": "A few drops of water are added to white anhydrous copper(II) sulfate. What is observed?",
+     "misconceptionClass": "observation recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "The powder turns blue and the mixture becomes hot",
+       "correct": true,
+       "explanation": "Rehydration reverses the colour and releases heat strongly.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The powder turns blue and the mixture becomes cold",
+       "correct": false,
+       "explanation": "The reverse reaction is strongly exothermic, not cooling.",
+       "misconception": "energy misread"
+      },
+      {
+       "key": "C",
+       "text": "The powder stays white",
+       "correct": false,
+       "explanation": "The colour change is the classic observation.",
+       "misconception": "no-change myth"
+      },
+      {
+       "key": "D",
+       "text": "The powder fizzes and dissolves",
+       "correct": false,
+       "explanation": "No fizzing occurs in this change.",
+       "misconception": "invented observation"
+      }
+     ]
+    },
+    {
+     "stem": "Which equation correctly represents the thermal decomposition of ammonium chloride as reversible?",
+     "misconceptionClass": "equation construction",
+     "options": [
+      {
+       "key": "A",
+       "text": "NH4Cl (s) between NH3 (g) and HCl (g) with a double arrow",
+       "correct": true,
+       "explanation": "The solid and the two gases face each other across the two-way arrow.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "NH4Cl (s) forming NH3 (g) only, with a single arrow",
+       "correct": false,
+       "explanation": "HCl is missing and the arrow is one-way.",
+       "misconception": "incomplete equation"
+      },
+      {
+       "key": "C",
+       "text": "NH3 (g) plus HCl (g) forming water, with a single arrow",
+       "correct": false,
+       "explanation": "No water forms in this reaction.",
+       "misconception": "wrong products"
+      },
+      {
+       "key": "D",
+       "text": "NH4Cl (s) forming N2 (g) and H2 (g), with a double arrow",
+       "correct": false,
+       "explanation": "Those are not the products of this decomposition.",
+       "misconception": "wrong products"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "reversible reaction",
+    "definition": "A reaction whose products can react or decompose to reform the reactants, shown with a double arrow.",
+    "firstLesson": 1
+   },
+   {
+    "term": "forward reaction",
+    "definition": "The direction of a reversible change that forms the products.",
+    "firstLesson": 1
+   },
+   {
+    "term": "reverse reaction",
+    "definition": "The direction of a reversible change that reforms the reactants.",
+    "firstLesson": 1
+   },
+   {
+    "term": "dehydration",
+    "definition": "The removal of water from a substance, as when hydrated copper sulfate is heated.",
+    "firstLesson": 2
+   },
+   {
+    "term": "water of crystallisation",
+    "definition": "Water included in the structure of some salts during crystallisation, affecting their shape and colour.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ }
+}
