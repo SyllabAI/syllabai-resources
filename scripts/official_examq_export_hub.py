@@ -515,6 +515,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                 problem_md = stem_md + "\n\n" + (("\n\n".join(stem_figs_md) + "\n\n") if stem_figs_md else "") + problem_md
             if figures_md:
                 problem_md += "\n\n" + "\n\n".join(figures_md)
+            sol = p.get("solution_md") or None
             if sol:
                 # F-W15-2: trailing MS-grid furniture lines off (visible junk).
                 # F-W15-3 retired: no reflow — single newlines render as soft
