@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-07
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-28
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-016"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "1cd1b417d41e6a0dad3bc7a1e0cbe9e2dd519027"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # PRO-07 — Transfer Patterns
@@ -150,6 +150,25 @@ empowering" (SRC-SPEC-4CH1,
 international-gcse-chemistry-2017-specification.pdf p 45). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### PRO-063 — The framework-selection evidence base behind the skills layer
+
+**Claim:** the transferable-skills layer publishes its own selection method: the awarding organisation's research team evaluated a set of global skills frameworks and named the one adopted as the most evidence-based and robust. The transfer layer is therefore itself a documented decision with a stated evidence base, not an unlabelled import.
+**Evidence:** the guide states "the Pearson Research Team selected and evaluated seven global 21st-century skills frameworks" and "we identified the National Research Council's (NRC) framework as the most evidence-based and robust skills" (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/Transferable-skills-Chemistry.pdf p1).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-064 — Chemistry-verb mappings inside the skills table
+
+**Claim:** the skills table maps each generic skill to a chemistry-specific verb phrase: adaptive learning becomes using unifying patterns in new and changing situations, creativity becomes applying knowledge of chemical processes to unfamiliar contexts, and productivity becomes a fluency in technical language for extended chemistry answers. The mapping is the transfer mechanism itself — each skill is given its operational chemistry form.
+**Evidence:** the table prints "Learn about unifying patterns and themes in chemistry and use them in new and changing situations" and "Apply existing knowledge of chemical processes to situations set in an unfamiliar context" alongside "Develop a fluency in technical language so sophisticated answers of depth are produced" (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/Transferable-skills-Chemistry.pdf p2).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-065 — The maths-methods bridge and its quantification purpose
+
+**Claim:** the maths guide states its transfer purpose explicitly: it outlines content students have covered in mathematics lessons so science teaching can build on the methods students are already familiar with, with worked examples drawn from the maths textbooks; the percentages guide frames the same bridge as a data tool — percentages let scientists quantify, compare and interpret. The bridge is thus published as method continuity plus a stated epistemic role.
+**Evidence:** the guide prints "This guide to maths for scientists outlines the content that students will have covered in their maths lessons throughout KS3 and KS4" with "examples taken from Pearson maths textbooks to show you the methods students should be familiar with when solving mathematical problems" (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/maths-for-scientists.pdf p4); the percentages guide opens "Percentages are an important tool in science that allow scientists to quantify, compare and interpret data." (SRC-TL-4CH1, igcse-chemistry/teaching-and-learning-materials/international-gcse-maths-in-science-percentages.pdf p1).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (transferable-skills interpretation and subject
@@ -171,5 +190,5 @@ parsed or paraphrased, never repaired. No canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
+every citation to a pack excerpt. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (PRO-063..065), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not
 canonical educational truth.

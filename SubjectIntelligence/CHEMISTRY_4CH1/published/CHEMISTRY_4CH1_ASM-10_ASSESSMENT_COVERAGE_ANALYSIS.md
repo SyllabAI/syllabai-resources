@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-10
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-010"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "295fb5b698b37026417e4100551b025579c5f90f"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-10 — Assessment Coverage Analysis
@@ -50,7 +50,7 @@ coverage view: which areas of the specification the held papers demonstrably pro
 and where the excerpt evidence stops. It closes the ASM family by tying its
 structural findings (ASM-01..ASM-09) back to the specification of record. Every claim
 is carried on a bounded, locator-addressed excerpt from the run's evidence pack.
-Research artifact; canonical planes untouched.
+Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-088..090), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact; canonical planes untouched.
 
 ## Scope
 
@@ -141,6 +141,25 @@ structural regularities (ASM-01..ASM-09) hold across the observed sessions.
 **Evidence:** the combination of the spec's topic frame (SRC-SPEC-4CH1, Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf p17), the AO bands (p35) and the recurring topic-marker excerpts across 2019-2023
 sessions (SRC-QPMS-4CH1, 2020-01/4CH1-2C/questions.md lines 69-83).
 Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-088 — The topic-frame statement numbering as the coverage grid
+
+**Claim:** the specification's topic frame numbers every assessable statement — 1.1 through 1.7C in the opening topic — so coverage claims can be keyed to numbered rows rather than paraphrases. The C-suffixed rows sit inside the same numbered frame, making the Paper-2 boundary a property of the numbering itself.
+**Evidence:** Topic 1 opens "The following sub-topics are covered in this section." with statement "1.1" "understand the three states of matter in terms of the arrangement, movement and" "energy of the particles" and the C-rows "1.5C know what is meant by the term solubility in the units g per 100 g of solvent", "1.6C understand how to plot and interpret solubility curves" (SRC-SPEC-4CH1, Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf p17).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-089 — The weighting frame as the coverage envelope
+
+**Claim:** the coverage analysis operates inside the printed weighting envelope: the assessment-objective table bands each objective as a range and decomposes the bands per paper, so any coverage claim inherits the same printed tolerance. The frame closes with the availability date that starts the observed corpus.
+**Evidence:** the table prints "AO1" "Knowledge and understanding of chemistry" at "38–42%" and the unit rows "Chemistry Paper 1" at "23.2–25.7%", closing with "All components will be available for assessment from June 2019." (SRC-SPEC-4CH1, Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf p35).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-090 — The distractor rationale as negative coverage evidence
+
+**Claim:** the metallic-bonding item's printed rationale rules out every distractor by naming the bonding type each describes — ionic, covalent, interatomic-or-intermolecular forces — so the scheme documents the concept boundaries the assessment draws. Coverage analysis can cite these rejections as evidence of what the item deliberately distinguishes.
+**Evidence:** the rationale prints "A is incorrect since it describes ionic bonding not metallic" "bonding", "B is incorrect since it describes covalent bonding not metallic" "bonding" and "D is incorrect since it describes interatomic or" "intermolecular forces not metallic bonding" (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 223-237 and lines 230-244).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 
 ## Evidence / Source Basis
 

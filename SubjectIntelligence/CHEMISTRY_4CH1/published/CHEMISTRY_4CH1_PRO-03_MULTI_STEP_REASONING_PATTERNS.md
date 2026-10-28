@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # PRO-03 — Multi-Step Reasoning Patterns
@@ -150,6 +150,25 @@ student responses A and B so the reasoning difference is visible
 (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p 9).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PRO-051 — The three-stage computation scaffold inside show-that items
+
+**Claim:** the show-that item publishes its own internal scaffold as bullet steps — the temperature change, the substitution into the printed equation, and the evaluation — before any arithmetic appears, and the worked example then shows the sign-reversed substitution being carried through the chain. The scaffold makes the reasoning order inspectable: each stage is nameable before it is performed.
+**Evidence:** the scheme lists "calculation of temperature change", "substitution into Q = mcΔT" and "evaluation" before the worked lines "M1 14.2 – 20.0 = (-)5.8" and "M2 Q = 100 × 4.18 × (‒)5.8" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 935-949).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-052 — The fail-closed reagent gate in test-method chains
+
+**Claim:** the two-step ion-test method carries a fail-closed gate on its first step: the reagent must be the named one (with its own alternates), and any incorrect reagent voids the method mark outright — the observation point cannot rescue a wrong reagent. The chain's epistemics are therefore ordered: reagent identity gates the method, and the observation earns only inside a valid method.
+**Evidence:** the scheme prints "M1 add sodium hydroxide (to the copper(II) sulfate ALLOW potassium" "solution) hydroxide or aqueous ammonia" with the gate "No M1 if any incorrect" "reagent added", and "M2 blue precipitate (forms)" with "IGNORE qualifiers e.g." (SRC-QPMS-4CH1, 2023-06/4CH1-2C/questions.md lines 491-505).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-053 — Cross-point crediting inside one linked chain
+
+**Claim:** a linked chain can carry a spanning formulation that earns two points at once: the collision-rate explanation prints a consolidated clause whose wording covers both the frequency point and the next point, and the scheme says so explicitly. The chain is therefore not strictly additive at the sentence level — one well-formed statement can discharge two chain points, and the scheme names the overlap.
+**Evidence:** the scheme opens "An explanation that links the following points:" and prints "M2 therefore there are fewer (successful) collisions" with the spanning note "collision rate scores" "M2 and M3" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1116-1130).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 (2019-06 Paper 1C chained items and skeletons
@@ -174,5 +193,5 @@ written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
+every citation to a pack excerpt. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (PRO-051..053), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not
 canonical educational truth.

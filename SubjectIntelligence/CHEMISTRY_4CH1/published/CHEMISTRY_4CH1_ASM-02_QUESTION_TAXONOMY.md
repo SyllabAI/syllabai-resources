@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-02 — Question Taxonomy
@@ -156,6 +156,25 @@ equation" on the ammonia equation (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md l
 their mark-scheme semantics are the MS family's ground and are not analysed here.
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-064 — The plotted-point tolerance band
+
+**Claim:** graph-plotting marks carry a printed spatial tolerance: every point must be plotted correctly to within half a square, the same envelope later reused for reading levelling-off values off the expected curves. The assessment thus fixes its graphical precision at the square-grid level and applies the envelope to both plotting and reading.
+**Evidence:** the plot instruction is marked "all points plotted" "correctly to + or – half a square" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1003-1017), and the curve-reading point reuses it as "M2 levelling off at 42 cm3 to + or – half a square" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1031-1045).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-065 — The expected-curve drawing method with printed anchors
+
+**Claim:** predicting a curve is marked against printed anchors: the scheme names the start point, the curve's position relative to the original, and the level-off volume each with its own mark — so the sketch method is specified as three checkable features rather than judged holistically. A second expected curve repeats the structure with its own anchor volume.
+**Evidence:** the scheme prints "M1 curve Y starting at origin and below original" "curve" and "M2 levelling off at 42 cm3 to + or – half a square" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1031-1045); the higher-temperature curve prints "M1 curve Z starting at origin and above original" "curve" with "M2 levelling off at 84 cm3 to + or – half a square" and "ACCEPT curves" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1047-1061).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-066 — The any-one-from pool with per-branch ignore riders
+
+**Claim:** the volume-deficit suggestion is marked as a pool — any one from two printed explanations — and each branch carries its own ignore rider policing unqualified wording: gas escaping unqualified is ignored, and the impurity branch ignores a bare mention of magnesium. The pool structure plus per-branch riders means the markable space is two named mechanisms, each with its own wording fence.
+**Evidence:** the scheme prints "Any one from:" with "M1 some gas escapes before the bung is" "replaced/ before the syringe is connected" carrying the rider fragments "IGNORE gas" and "escapes unqualified", and "M2 the magnesium is impure/ the magnesium" "ribbon has an oxide coating" with its own ignore rider on a bare mention (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1068-1082).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 (the official 4CH1 paper extractions of record — the
@@ -178,5 +197,5 @@ schemes). No canonical assessment-identity plane was read or written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-064..066), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.

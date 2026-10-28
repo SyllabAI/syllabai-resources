@@ -1,0 +1,26 @@
+{
+ "advances": [
+  {
+   "at": "session start",
+   "from": "cf5c0764",
+   "isolation": "git rev-list --count cf5c0764..HEAD = 1 (YCH12 SB2 v2 polish CONT-V2-3 lane); git diff --name-only cf5c0764..HEAD -- SubjectIntelligence/ => empty (0 paths); advance isolation proven; local main cloned at tip",
+   "to": "e3d648a1"
+  },
+  {
+   "at": "session start",
+   "from": "2cb92fe5",
+   "isolation": "the lane's pastpapers pin advanced (image re-render lane, trim-stage v2). ZERO EXPOSURE for this tranche: every pack file pinned by the 17 PRO/ASM packs of record points at syllabai-resources paths (36 distinct), none at syllabai-pastpapers (pack_recon.json, pp_files=0 across all 17). Pastpapers content is not consulted by any RUN-019 citation.",
+   "to": "e4c1960b (pastpapers, 128 commits)"
+  },
+  {
+   "at": "pre-branch-cut (git phase)",
+   "from": "e3d648a1",
+   "isolation": "fetch-first gate FIRED fail-closed (main e3d648a1 != origin a0b10aac); git rev-list --count e3d648a1..a0b10aac = 1 (T-SPEC-CORPUS-WS-1, geography-21 spec lane); git diff --name-only e3d648a1..a0b10aac -- SubjectIntelligence/ => empty (0 paths); advance isolation proven; local main FF reconciled; branch re-cut from a0b10aac",
+   "to": "a0b10aac"
+  }
+ ],
+ "disposition": "fetch-first gate held; local main at e3d648a1 (contains RUN-018's merge cf5c0764); branch of record cut at e3d648a1",
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-019",
+ "schema": "sib-advance-disclosure/1.0",
+ "source_pin_state_disclosure": "NEW preflight disclosure (not previously filed by RUN-017/018): the PRO/ASM packs of record pin BUILD-ERA source content (pack file sha256 pins computed at build). Verified at this session: 133 pack file pins checked \u2014 51 byte-identical at the live tip, 75 pin-vs-tip mismatches + 7 books/ paths outside the sparse surface, ALL explained by the standing pre-RUN-018 state: git blob shas for all 45 distinct pinned paths are IDENTICAL cf5c0764..e3d648a1 (0 new drift since the RUN-018 merge; last QPMS corpus re-process = PR #197 converter v0.29.0, 2026-10-28, pre-dating that merge), and the 7 books/ jsonl pins verify byte-identical at the tip (sha256 cat-file check). The packs remain the immutable evidence plane of record: all quote binding operates on pack excerpts (the r3 gate's own standard); this is why the tranche is ZERO-APPEND (no windows built against drifted live content)."
+}

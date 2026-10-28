@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-04 — Command Word Analysis
@@ -155,6 +155,25 @@ trained only for closed recall lose confidence here, so targeted practice on
 mechanism-first speculation pays.
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-070 — Suggest examined as a bounded numeric range
+
+**Claim:** the Suggest command operates over a printed acceptance interval: a suggested pH earns the mark for any value or range inside eleven-to-fourteen, so the command's speculative demand is bounded by a numeric window rather than a single answer. The scheme prints the boundary as the whole mark scheme.
+**Evidence:** the scheme answers "Suggest a value for the pH of the solution." with "any value or range between 11 and 14" (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 102-116).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-071 — Describe examined as a pool of points with packed alternates
+
+**Claim:** the Describe command over particle arrangements is marked as a pool — any three of the printed points — and each point carries its own allowances: close together tolerates tightly packed or touching, regularly arranged tolerates a lattice. The command's narrative demand is therefore operationalised as selectable points with per-point synonym sets.
+**Evidence:** the scheme prints "A description that refers to three of" "the following points" with "M1 (particles) close together ALLOW tightly" "packed/ touching" and "M2 (particles) regularly arranged ALLOW" "arranged in a" "lattice" (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 44-58).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-072 — The describe-or-draw hybrid with a conditional scoring rule
+
+**Claim:** the method-description item permits a diagram and then conditions the scoring on the diagram's content: if the drawn solvent level sits above the pencil line, two of the points can still be scored. The hybrid command therefore has a printed failure branch that preserves partial credit inside a flawed diagram.
+**Evidence:** the item prints "Describe how the student should set up and carry out her experiment. You may draw a diagram to help with your answer." and the scheme carries the conditional "If diagram shows" "solvent above pencil" "line only M1 and M2" "can be scored" (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 146-160).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the run's pack carries the 2019-06 2C and 1CR
@@ -177,5 +196,5 @@ No canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-070..072), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.

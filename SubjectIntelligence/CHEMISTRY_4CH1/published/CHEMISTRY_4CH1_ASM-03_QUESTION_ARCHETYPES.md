@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-03 — Question Archetypes
@@ -163,6 +163,25 @@ correct sign, correct axis labels), which is a different drilling target from th
 linked-writing archetypes.
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-067 — The mean-calculation archetype with a priced wrong mean
+
+**Claim:** the mean-of-triples calculation prices its failure modes: the correct evaluation scores both marks with or without working, an accepted rounding is printed, and the mean computed including the anomalous value is priced at one mark. The archetype therefore teaches the anomaly rule by pricing its violation rather than by prose.
+**Evidence:** the scheme prints "M1 (64 + 63 + 60) ÷3" and "M2 = 62" with "ALLOW 62.3" and "62/62.3 with no working scores 2", then prices the anomaly error "ALLOW 69/69.25/69.3 for 1 mark" (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 163-177).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-068 — The sentence-completion archetype with a per-blank ignore
+
+**Claim:** the isotope definition is examined as a two-blank sentence completion, and the first blank carries its own ignore: electrons named in the proton blank do not cost the mark. The archetype splits the definition across two independently markable slots, each with its own tolerance.
+**Evidence:** the scheme prints "M1 protons IGNORE electrons" and "M2 neutrons" under the completion item "Isotopes are atoms that have the same number of but have a different number of" (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 34-48).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-069 — The three-link chain as the archetype ceiling
+
+**Claim:** the alloy-hardness explanation is published as a full three-point linked chain — disrupted regular arrangement, the size difference cause, and the consequence — each with printed paraphrase allowances. Three links is the longest chain form in the observed set, and the scheme's allowances show even the ceiling archetype tolerates multiple formulations per link.
+**Evidence:** the scheme opens "An explanation that links together the following three" "points:" with "M1 the regular arrangement of atoms is ALLOW lattice/layers/rows of distorted/disrupted OWTTE atoms are disrupted/distorted" and "M2 because magnesium atoms are larger than ALLOW magnesium and aluminium aluminium atoms atoms are of different sizes" (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 275-289).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the run's pack carries the 2019-06 1C and 2C papers
@@ -184,5 +203,5 @@ planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-067..069), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.

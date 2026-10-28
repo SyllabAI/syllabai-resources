@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-06 — Question Difficulty Patterns
@@ -142,6 +142,25 @@ therefore makes no facility claim, and the examiner-sentiment substitution is
 forbidden by the family law.
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-076 — The one-mark identification run with its ignore fence
+
+**Claim:** the opening identification items are one-mark each and carry their own tolerance texture: the nitrogen answer accepts the formula alongside the name but ignores a bare symbol, and the compound identification requires name and formula to be correct together if both are given. Difficulty at the opener is thus low-stakes but not tolerance-free.
+**Evidence:** the scheme prints "nitrogen ALLOW N2" with "IGNORE N" (SRC-QPMS-4CH1, 2019-06/4CH1-2CR/questions.md lines 39-53), and "carbon dioxide ALLOW CO2" with "If both name and" "formula given both" "must be correct" (SRC-QPMS-4CH1, 2019-06/4CH1-2CR/questions.md lines 25-39).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-077 — The five-mark property table with six printed asks
+
+**Claim:** the boron item tables five marks against a printed list of six properties — atomic number, mass number, neutron count, group, period, and electronic configuration — so the item's demand exceeds its tariff by one line and the sixth line is the acceptance of an alternative notation. The difficulty step from one-mark identification to a five-property table is structural, and printed.
+**Evidence:** the scheme lists "atomic number", "mass number", "number of neutrons", "group in the Periodic table that contains boron", "period in the Periodic table that contains boron" and "electronic configuration of an atom of boron 2," with the notation alternate "ACCEPT" "1s2 2s2" "2p1" (SRC-QPMS-4CH1, 2019-06/4CH1-2CR/questions.md lines 85-99).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-078 — The priced no-working route at two marks
+
+**Claim:** the relative-atomic-mass calculation prices its shortcut: the correct final answer without working scores the full two marks, and the printed worked route names the weighted-sum step and the division step separately. Difficulty in the calculation band is therefore negotiable — the working can be skipped entirely at the price of showing nothing.
+**Evidence:** the scheme prints "M1 (18.7 x 10) + (81.3 x 11) OR 1081.3" with "M2 10.8 OR answer from M1 divided by 100" and the pricing "Correct answer without working scores 2" (SRC-QPMS-4CH1, 2019-06/4CH1-2CR/questions.md lines 103-117).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the 2019-06 2C, 2019-06 2CR and 2020-01 2C official
@@ -161,5 +180,5 @@ written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-076..078), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.

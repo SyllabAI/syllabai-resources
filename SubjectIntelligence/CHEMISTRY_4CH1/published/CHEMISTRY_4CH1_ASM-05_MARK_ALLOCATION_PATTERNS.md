@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # ASM-05 — Mark Allocation Patterns
@@ -140,6 +140,25 @@ with answer lines and Mr data in the stem.
 runs a four-mark bullet-step scheme .
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### ASM-073 — The positivity principle as printed marking law
+
+**Claim:** the general marking guidance states the positivity principle as law: candidates are rewarded for what they have shown they can do rather than penalised for omissions, and every mark on the scheme is designed to be awarded. The allocation system therefore runs on credit-seeking, with zero reserved for responses not worthy of credit under the scheme.
+**Evidence:** the guidance prints "Mark schemes should be applied positively. Candidates must be rewarded for what" "they have shown they can do rather than be penalised for omissions." and "All the marks on the mark scheme are designed to be awarded." (SRC-SAMS-4CH1, Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf p9).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-074 — The boundaries-blind duty and the senior-examiner escalation
+
+**Claim:** the guidance binds the marker away from grade-boundary reasoning and routes doubt to escalation: examiners mark according to the mark scheme, not their perception of where boundaries may lie, and a senior examiner must be consulted before a mark is given when the scheme's application to a response is in doubt. Allocation consistency is thus structurally enforced, not left to judgement.
+**Evidence:** the guidance prints "Examiners should mark according to the mark scheme – not according to their" "perception of where the grade boundaries may lie." and "When examiners are in doubt regarding the application of the mark scheme to a" candidate's response, "a senior examiner must be consulted before a mark is given." (SRC-SAMS-4CH1, Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf p9).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### ASM-075 — The notation law for brackets in mark schemes
+
+**Claim:** the guidance defines the scheme's own punctuation as marking law: round brackets mark aid-to-understanding words that are not required for the award, and curly brackets open and close a printed list of alternatives. Reading any mark point therefore starts with its bracket grammar.
+**Evidence:** the guidance prints "Round brackets ( ): words inside round brackets are to aid understanding of" "the marking point but are not required to award the point" and "Curly brackets { }: indicate the beginning and end of a list of alternatives (separated by" (SRC-SAMS-4CH1, Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf p9).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the 2019-06 4CH1/1C official extraction (60 bounded
@@ -161,5 +180,5 @@ specification's totals live in ASM-003's citations. No canonical planes were wri
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (ASM-073..075), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational
 truth.

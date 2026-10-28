@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
+    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
 ---
 
 # PRO-02 — Problem Type to Method Mapping
@@ -159,6 +159,25 @@ exemplars booklet trains the same mappings against real responses
 (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p 3).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PRO-048 — The priced wrong-substitution route
+
+**Claim:** a published method can carry its own failure branch with an explicit price: the air-percentage calculation prints the full four-mark route, then prices the most likely wrong input — substituting the flask volume for the total air volume — at three of four marks. The wrong route is not merely anticipated, it is scored, so the method map distinguishes a structural error (still earns the arithmetic) from a terminal error (earns nothing further).
+**Evidence:** the scheme prints "correct answer with or without working scores 4" for the percentage-of-oxygen item, then "M3 73 ÷ 380 × 100 OR 19.2 (%)" with the rider "Use of 280 gives an answer of 26 scores 3" (SRC-QPMS-4CH1, 2023-06/4CH1-2C/questions.md lines 165-179).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-049 — The stoichiometric multiplier step and its precision envelope
+
+**Claim:** the titration-concentration method publishes the mole-ratio multiplication as a named step with symbolic shorthand — the scheme states the multiplier both numerically and as an instruction referencing the previous answer — and caps its precision envelope with an except-clause: any number of significant figures is allowed except one. The method therefore prices the ratio step, tolerates symbolic carrying between steps, and draws its precision boundary by exclusion.
+**Evidence:** the scheme prints "M2 n(KOH) = 0.0027(0) × 2 or 0.0054(0) (mol) answer to M1 × 2" and "M3 concn = (0.0054(0) ÷ 0.0250) = 0.216 (mol/dm3) answer to M2 ÷ 0.0250" with "ALLOW any number of sig figs except 1" (SRC-QPMS-4CH1, 2023-06/4CH1-2C/questions.md lines 447-461).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### PRO-050 — The catalyst null-effect explanation pair
+
+**Claim:** the catalyst-effect question type maps to a two-point linked method whose first point is the null result — no effect on yield — and whose second point is the equal-rates mechanism, with the second point explicitly dependent on the first or missing without it. The method's shape makes the conclusion prior to the mechanism: the null claim is markable on its own, but the mechanism earns nothing unless the null claim is already on the table.
+**Evidence:** the scheme prints "An explanation that links the following two points" with "M1 no effect" and "M2 as increases rate of forward reaction and rate" "of backward reaction equally", closed by "M2 dep on M1 or missing" (SRC-QPMS-4CH1, 2023-06/4CH1-2C/questions.md lines 687-701).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 (2019-06 Paper 1C mark-scheme skeletons with
@@ -181,5 +200,5 @@ as parsed or paraphrased, never repaired. No canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
+every citation to a pack excerpt. Deepened under SIB-CHEMISTRY_4CH1-RUN-019 (D3 tranche 3): +3 records (PRO-048..050), zero-append mining of the carried pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not
 canonical educational truth.
