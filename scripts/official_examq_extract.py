@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.30.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.30.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -714,7 +714,16 @@ FURNITURE_SUBS = [
     (re.compile(r"\bQUESTION\s*\d{0,2}\s*CONTINUES\s+ON\s+(?:THE\s+)?(?:NEXT|BACK)(?:\s*/\s*(?:NEXT|BACK))?\s+PAGE\.?", re.I), " "),
     # F87 (v0.21.1): the abbreviated question-total footer ("Total for Q1 = 5") —
     # the v0.18.0 battery only matched the spelled-out "Question" word order.
-    (re.compile(r"\bTotal\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\b"), " "),
+    # v0.30.1 (F88 reconciliation's remaining half, the F111 furniture-residue
+    # class): the printed footer line ends '... = 8 marks' — the incomplete
+    # match consumed 'Total for Q3 = 8' and left the ' marks' tail, which the
+    # raw layer carried into the assembled solution text as a lone 'marks'
+    # line (2020-11 1C 3(c)(ii): the F111 census's ONE fresh-vs-record
+    # disagreement). The tail belongs to the footer verbatim; the sibling F93
+    # sub already consumes its own marks suffix. The F88 wrap-ambiguous keep
+    # class (bare answer/mark/marks/Number lines) is NOT touched by this —
+    # those lines are wrapped guidance fragments, never footer tails.
+    (re.compile(r"\bTotal\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}(?:\s+marks)?\b"), " "),
     # F93 (v0.23.0): the third word order of the same footer — "Total for question
     # = 15 marks" (number AFTER the equals, "question" spelled out). Found by the
     # Task 19 deep-audit re-run reconciliation (2022-01 1C Q9 leak into
@@ -1914,7 +1923,12 @@ def _ms_furniture_line(line):
 MS_TOTAL_LINE_RE = re.compile(
     r"^Total(?:\s+\d+)?$"
     r"|^Total\s+for\s+Question\s+\d+\s*=\s*\d+\s*marks$"
-    r"|^Total\s+for\s+Q\.?\s?\d+\s*=\s*\d+$",
+    # v0.30.1 (F88 reconciliation): the abbreviated form recognizes the marks
+    # suffix too, matching the printed footer verbatim ('Total for Q3 = 8
+    # marks') — consistency with the spelled-form alternative above; with the
+    # v0.30.1 FURNITURE_SUBS completion such lines are consumed at the raw
+    # layer and never reach this strip (A/B-proven zero live firing).
+    r"|^Total\s+for\s+Q\.?\s?\d+\s*=\s*\d+(?:\s+marks)?$",
     re.I)
 MS_HEADER_ROW_MIN_TOKENS = 2
 

@@ -1,5 +1,50 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.30.1 — 2026-10-29 · the F88 reconciliation's remaining half: the abbreviated footer's ` marks` tail closes at source (the F111 furniture-residue class)
+
+Converter-law-only wave: ZERO corpus bytes change, ZERO served bytes change. What changes is
+REPRODUCIBILITY — the converter of record now re-emits the corpus of record instead of
+re-introducing one piece of grid furniture for the serve-time strip to remove again (the
+Finding-8c reproducibility-debt class, instance closed).
+
+- **The residue (F111 delta-class 4, the census's ONE fresh-vs-record furniture
+  disagreement)**: 2020-11 1C 3(c)(ii) — the of-record solution_md is serve-clean, but every
+  fresh emission re-inserted a lone `marks` line mid-text (between `electrons` and `- -`).
+- **Root cause**: the printed page footer at the staging layer is `Total for Q3 = 8 marks`
+  (official-2020-11-1C-ms.txt L229). The F87 abbreviated-footer sub (v0.21.1) matched only
+  `Total for Q3 = 8` — its ` marks` tail survived the raw layer, rode into the assembled
+  entry text, and landed MID-TEXT (the Q1/Q2/Q10 siblings' tails landed at text end, where
+  the trailing pop already ate them). There the F88 mid-text law kept it fail-closed
+  (<2 furniture tokens — the wrap-ambiguous keep class), while the exporter's serve-time
+  F-W15-2 strip had removed the whole footer at the original authoring — hence of-record
+  clean, fresh dirty: the two strip laws disagreed on exactly one line corpus-wide.
+- **Fix (two lines, one law)**: (1) the F87 sub completes its footer match with the printed
+  ` marks` tail — `(?:\s+marks)?` — mirroring the sibling F93 sub (which already consumes
+  its ` marks` suffix) and the exporter's spelled-form trailing law; (2) the strip law's
+  `MS_TOTAL_LINE_RE` abbreviated alternative recognizes the marks suffix too (consistency;
+  with (1) such lines never reach it — A/B-proven zero live firing). The F88 wrap-ambiguous
+  keep class is NOT touched: the 12 standing lone-`marks` keeps (2019-06 1C 9(a)/12(a),
+  2019-06 1CR 9(c), 2021-11 2C 2(c)(ii), 2023-11 2C 7(d)(i), 2024-11 1C 11(a)(iv),
+  2025-06 2C 5(d)(i), 2026-06 1CR 6(a)(iii)) are wrapped guidance fragments — content
+  continues after every one of them — and remain kept by law (C110's carve-out unchanged).
+- **Proof (AUDIT-2026-10-29-f88-furniture-reconciliation)**: full-corpus A/B — all 54
+  slices emitted at v0.30.0 and at v0.30.1 from the staging of record, diffed under the
+  F111 normalization law (generated_utc + generator/edits[].tool exempt): 578 files
+  compared, 576 identical, and the ONLY content delta is the reconciliation target in its
+  two of-record renderings (topic.json 3(c)(ii) solution_md minus the lone `marks` line;
+  the questions.md blockquote mirror minus `> marks`). Post-fix, the F111 class-4 census
+  entry VANISHES: fresh 3(c)(ii) == of-record bytes; the slice carries zero non-spec-tag
+  deltas vs HEAD. Canaries: 117/117 on the of-record tree; fresh tree 114/117 (C95's
+  designed Finding-8b refusal + C32/C33's spec-tag terminal asserts — the llm-spec
+  curation replay absent from the A/B workbench, converter-version-independent per the
+  A/B: spec fields byte-equal across both emissions). Exporter plane: G-E1 byte-level
+  no-op vs the v2 bundle of record, G-E1b 54/54, G-E4 passthrough byte-identical
+  (2,605,409 B), verifier census-exact (0 parts), self-test 4/4 seeds refused.
+- **Zero-network unit battery of record**: `scripts/official_examq_strip_law_tests.py`
+  (29 checks; CI step in scripts-tests.yml) — pins the leak closed at source, the 12
+  standing keeps, the MS_TOTAL_LINE_RE consistency leg, the trailing pop, and the
+  fail-closed refusal.
+
 ## 0.30.0 — 2026-10-28 · the F113 MS-answer-figure wave: the converter's first MS-side crop path (the F95/F97 filed MS-side crop capability) + the F95 printed-answer subclass served
 
 - **The filed wave**: F95 (the G7 mp_answer_gap census) closed with "fix needs MS-side crop
