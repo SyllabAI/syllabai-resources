@@ -25,33 +25,54 @@
    "question_number": 1,
    "total_marks": 2,
    "total_marks_source": "printed-footer",
-   "stem_md": "Solve the inequality 6 x 20 2 x",
+   "stem_md": "Solve the inequality 6x < 20 − 2x",
    "parts": [
     {
      "part_number": "1",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Solve the inequality 6 x 20 2 x",
+     "problem_md": "Solve the inequality 6x < 20 − 2x",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
-     "solution_md": "8 x < 20 2 M1 for isolating the terms in x correctly\nor for x = 2.5 or x > 2.5 or 2.5\nAccept 6 x + 2 x < 20 Allow any inequality/equals symbol\nx < 2.5\nA1 oe eg 2.5 > x or x <\nOnly isw incorrect simplification of a correct inequality\nDo not allow xx ≤ 2.5?or x = 2.5 or x > 2.5 or 2.5 on answer line\ncas Total 2 marks\nQuestion Working Answer Mark Notes",
+     "solution_md": "8x < 20\nM1 for isolating the terms in x correctly\nor for x = 2.5 or x > 2.5 or 2.5\nAccept 6x + 2x < 20 Allow any inequality/equals symbol\nx < 2.5\nA1 oe eg 2.5 > x or x < 20/8\nOnly isw incorrect simplification of a correct inequality\nDo not allow x ≤ 2.5 or x = 2.5 or x > 2.5 or 2.5 on answer line",
      "mark_points": [
       {
        "id": "2026-06-1-MP1",
        "marks": 2,
-       "text_md": "8 x < 20 2 M1 for isolating the terms in x correctly\nor for x = 2.5 or x > 2.5 or 2.5\nAccept 6 x + 2 x < 20 Allow any inequality/equals symbol\nx < 2.5\nA1 oe eg 2.5 > x or x <\nOnly isw incorrect simplification of a correct inequality\nDo not allow xx ≤ 2.5?or x = 2.5 or x > 2.5 or 2.5 on answer line\ncas Total 2 marks\nQuestion Working Answer Mark Notes"
+       "text_md": "8x < 20\nM1 for isolating the terms in x correctly\nor for x = 2.5 or x > 2.5 or 2.5\nAccept 6x + 2x < 20 Allow any inequality/equals symbol\nx < 2.5\nA1 oe eg 2.5 > x or x < 20/8\nOnly isw incorrect simplification of a correct inequality\nDo not allow x ≤ 2.5 or x = 2.5 or x > 2.5 or 2.5 on answer line"
       }
      ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -538,34 +559,55 @@
    "question_number": 13,
    "total_marks": 4,
    "total_marks_source": "printed-footer",
-   "stem_md": "x is directly proportional to w y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x",
+   "stem_md": "x is directly proportional to $\\sqrt{w}$ y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x",
    "parts": [
     {
      "part_number": "13",
      "marks": 4,
      "question_type": "structured",
-     "problem_md": "x is directly proportional to w y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x",
+     "problem_md": "x is directly proportional to $\\sqrt{w}$ y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
-     "solution_md": "x = k w oe 4 M1 For a correct relationship for x in terms of w.\nAllow any letter for k but not x. w or y\nc c M1 For a correct relationship for y in terms of w.\ny= or w =\nw y Allow any letter for c (may be the same letter used for M1 but not x. w\nor y)\nm m M1 dep on both the previous M marks being awarded. For eliminating w\n⎡⎣ x 2 = k 2 w ⇒⎤⎦ y = 2 and 16 = 2\nx 2 to gain a relationship between x and y and substituting x = 2 and y = 16\n64 A1 oe\ny= NB y must be the subject of the equation\nx2\ncas Total 4 marks\nQuestion Working Answer Mark Notes",
+     "solution_md": "$x = k\\sqrt{w}$ oe 4 M1 For a correct relationship for x in terms of w.\nAllow any letter for k but not x. w or y\n$y = \\frac{c}{w}$ or $w = \\frac{c}{y}$ M1 For a correct relationship for y in terms of w.\nAllow any letter for c (may be the same letter used for M1 but not x. w\nor y)\n$[x^2 = k^2 w \\Rightarrow]$ $y = \\frac{m}{x^2}$ and $16 = \\frac{m}{2^2}$ M1 dep on both the previous M marks being awarded. For eliminating w\nto gain a relationship between x and y and substituting x = 2 and y = 16\n$y = \\frac{64}{x^2}$ A1 oe\nNB y must be the subject of the equation\ncas\nTotal 4 marks",
      "mark_points": [
       {
        "id": "2026-06-13-MP1",
        "marks": 4,
-       "text_md": "x = k w oe 4 M1 For a correct relationship for x in terms of w.\nAllow any letter for k but not x. w or y\nc c M1 For a correct relationship for y in terms of w.\ny= or w =\nw y Allow any letter for c (may be the same letter used for M1 but not x. w\nor y)\nm m M1 dep on both the previous M marks being awarded. For eliminating w\n⎡⎣ x 2 = k 2 w ⇒⎤⎦ y = 2 and 16 = 2\nx 2 to gain a relationship between x and y and substituting x = 2 and y = 16\n64 A1 oe\ny= NB y must be the subject of the equation\nx2\ncas Total 4 marks\nQuestion Working Answer Mark Notes"
+       "text_md": "$x = k\\sqrt{w}$ oe 4 M1 For a correct relationship for x in terms of w.\nAllow any letter for k but not x. w or y\n$y = \\frac{c}{w}$ or $w = \\frac{c}{y}$ M1 For a correct relationship for y in terms of w.\nAllow any letter for c (may be the same letter used for M1 but not x. w\nor y)\n$[x^2 = k^2 w \\Rightarrow]$ $y = \\frac{m}{x^2}$ and $16 = \\frac{m}{2^2}$ M1 dep on both the previous M marks being awarded. For eliminating w\nto gain a relationship between x and y and substituting x = 2 and y = 16\n$y = \\frac{64}{x^2}$ A1 oe\nNB y must be the subject of the equation\ncas\nTotal 4 marks"
       }
      ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1006,34 +1048,55 @@
    "question_number": 21,
    "total_marks": 5,
    "total_marks_source": "printed-footer",
-   "stem_md": "A and B are two mathematically similar solids. The volume of A is 324 000 cm 3 The volume of B is 12 000 cm 3 The total surface area of A is 3 x+ 6 cm 2 The total surface area of B is 9 x cm 2 Given that the height of B is 5 x cm find, in cm, the height of A Show all your working. ........................................................... cm",
+   "stem_md": "A and B are two mathematically similar solids. The volume of A is 324 000 cm³ The volume of B is 12 000 cm³ The total surface area of A is $3^{x+6}$ cm² The total surface area of B is $9^x$ cm² Given that the height of B is $5^x$ cm find, in cm, the height of A Show all your working cm",
    "parts": [
     {
      "part_number": "21",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "A and B are two mathematically similar solids. The volume of A is 324 000 cm 3 The volume of B is 12 000 cm 3 The total surface area of A is 3 x+ 6 cm 2 The total surface area of B is 9 x cm 2 Given that the height of B is 5 x cm find, in cm, the height of A Show all your working cm",
+     "problem_md": "A and B are two mathematically similar solids. The volume of A is 324 000 cm³ The volume of B is 12 000 cm³ The total surface area of A is $3^{x+6}$ cm² The total surface area of B is $9^x$ cm² Given that the height of B is $5^x$ cm find, in cm, the height of A Show all your working cm",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
-     "solution_md": "324000 5 M1 for a correct SF for height/length or a correct equation.\n3 or 3 27 or 3 or\n12000\nThe scale factor may be implicit within an area scale factor or an\n12000 1 1 2 2\nor 3 or or ⎛ 324000 ⎞ ⎛ 3 ⎞\nx+6\n3 ⎛ 324000 ⎞\n324000 27 3 equation for example ⎜ 3 or =\n⎜ 12000 ⎟⎟ ⎜ ⎟ ⎜ x ⎟\n⎝ 12000 ⎠ ⎝ 9 ⎠\nx x +6\n9 × k = 3 and 12000 × k 3 = 3240000\n⎝ ⎠\n9x × (\"3\") = 3x+6 oe or M1 apply the area scale factor to form an equation linking the areas\nallow 9x × ( m ) = 3x +6 where m > 1 or 9x = 3x+6 × ( n ) where\n2\n⎛ 1 ⎞\n9 x = 3x+ 6 × ⎜ \" \" ⎟ oe or 0 < n <1\n⎝ 3 ⎠\n2\n⎛ 324000 ⎞ ⎛ 3 ⎞\nx+6\nMay be implied by award of the 3rd M1\n⎜ ⎟ = ⎜ x ⎟ oe\n⎝ 12000 ⎠ ⎝ 9 ⎠\n33 x +18 M1 dep on at least one of the previous M marks being awarded.\n32 x × ( 3) = 3x+6 or ( 3) =\n2\nor Changing all terms to base of 3 or 9 to gain a correct equation or\n36 x\nx value for x\n+3\n9 x × 9 = 9 2 ( ) or 9 x = 9 2 ×\n1 x+6\nor x = 4 or 2 x + 2 = x + 6 oe eg\nx\n6 = −3 x + 18 or x + 1 = + 3\n1 M1 dep on the previous M mark being awarded. If working shown\n5\"4\" × 3 or 5\"4\" ÷\n3 ft their value of x if labelled or comes from correct working.\n1875 A1\ncas Total 5 marks\nQuestion Working Answer Mark Notes",
+     "solution_md": "$\\sqrt[3]{\\frac{324000}{12000}}$ or $\\sqrt[3]{27}$ or 3, or\n$\\sqrt[3]{\\frac{12000}{324000}}$ or $\\sqrt[3]{\\frac{1}{27}}$ or $\\frac{1}{3}$, or\n$9^x \\times k^2 = 3^{x+6}$ and $12000 \\times k^3 = 3240000$\nM1 for a correct SF for height/length or a correct equation.\nThe scale factor may be implicit within an area scale factor or an\nequation for example $\\left(\\sqrt[3]{\\frac{324000}{12000}}\\right)^{2}$ or $\\left(\\frac{324000}{12000}\\right)^{2} = \\left(\\frac{3^{x+6}}{9^{x}}\\right)^{3}$\n$9^x \\times (\"3\")^{2} = 3^{x+6}$ oe or\n$9^x = 3^{x+6} \\times \\left(\"\\frac{1}{3}\"\\right)$ oe or\n$\\left(\\frac{324000}{12000}\\right)^{2} = \\left(\\frac{3^{x+6}}{9^{x}}\\right)^{3}$ oe\nM1 apply the area scale factor to form an equation linking the areas\nallow $9^x \\times (m)^{2} = 3^{x+6}$ where $m > 1$ or $9^x = 3^{x+6} \\times (n)^{2}$ where\n$0 < n < 1$\nMay be implied by award of the 3rd M1\n$3^{2x} \\times (3)^{2} = 3^{x+6}$ or $(3)^{6} = \\frac{3^{3x+18}}{3^{6x}}$ or\n$9^x \\times 9 = 9^{\\frac{1}{2}(x+6)}$ or $9^x = 9^{\\frac{x}{2}+3} \\times \\frac{1}{9}$\nor $x = 4$ or $2x + 2 = x + 6$ oe eg\n$6 = -3x + 18$ or $x + 1 = \\frac{x}{2} + 3$\nM1 dep on at least one of the previous M marks being awarded.\nChanging all terms to base of 3 or 9 to gain a correct equation or\nvalue for x\n$5^{\"4\"} \\times 3$ or $5^{\"4\"} \\div \\frac{1}{3}$\nM1 dep on the previous M mark being awarded. If working shown\nft their value of x if labelled or comes from correct working.\n1875\nA1\ncas\nTotal 5 marks",
      "mark_points": [
       {
        "id": "2026-06-21-MP1",
        "marks": 5,
-       "text_md": "324000 5 M1 for a correct SF for height/length or a correct equation.\n3 or 3 27 or 3 or\n12000\nThe scale factor may be implicit within an area scale factor or an\n12000 1 1 2 2\nor 3 or or ⎛ 324000 ⎞ ⎛ 3 ⎞\nx+6\n3 ⎛ 324000 ⎞\n324000 27 3 equation for example ⎜ 3 or =\n⎜ 12000 ⎟⎟ ⎜ ⎟ ⎜ x ⎟\n⎝ 12000 ⎠ ⎝ 9 ⎠\nx x +6\n9 × k = 3 and 12000 × k 3 = 3240000\n⎝ ⎠\n9x × (\"3\") = 3x+6 oe or M1 apply the area scale factor to form an equation linking the areas\nallow 9x × ( m ) = 3x +6 where m > 1 or 9x = 3x+6 × ( n ) where\n2\n⎛ 1 ⎞\n9 x = 3x+ 6 × ⎜ \" \" ⎟ oe or 0 < n <1\n⎝ 3 ⎠\n2\n⎛ 324000 ⎞ ⎛ 3 ⎞\nx+6\nMay be implied by award of the 3rd M1\n⎜ ⎟ = ⎜ x ⎟ oe\n⎝ 12000 ⎠ ⎝ 9 ⎠\n33 x +18 M1 dep on at least one of the previous M marks being awarded.\n32 x × ( 3) = 3x+6 or ( 3) =\n2\nor Changing all terms to base of 3 or 9 to gain a correct equation or\n36 x\nx value for x\n+3\n9 x × 9 = 9 2 ( ) or 9 x = 9 2 ×\n1 x+6\nor x = 4 or 2 x + 2 = x + 6 oe eg\nx\n6 = −3 x + 18 or x + 1 = + 3\n1 M1 dep on the previous M mark being awarded. If working shown\n5\"4\" × 3 or 5\"4\" ÷\n3 ft their value of x if labelled or comes from correct working.\n1875 A1\ncas Total 5 marks\nQuestion Working Answer Mark Notes"
+       "text_md": "$\\sqrt[3]{\\frac{324000}{12000}}$ or $\\sqrt[3]{27}$ or 3, or\n$\\sqrt[3]{\\frac{12000}{324000}}$ or $\\sqrt[3]{\\frac{1}{27}}$ or $\\frac{1}{3}$, or\n$9^x \\times k^2 = 3^{x+6}$ and $12000 \\times k^3 = 3240000$\nM1 for a correct SF for height/length or a correct equation.\nThe scale factor may be implicit within an area scale factor or an\nequation for example $\\left(\\sqrt[3]{\\frac{324000}{12000}}\\right)^{2}$ or $\\left(\\frac{324000}{12000}\\right)^{2} = \\left(\\frac{3^{x+6}}{9^{x}}\\right)^{3}$\n$9^x \\times (\"3\")^{2} = 3^{x+6}$ oe or\n$9^x = 3^{x+6} \\times \\left(\"\\frac{1}{3}\"\\right)$ oe or\n$\\left(\\frac{324000}{12000}\\right)^{2} = \\left(\\frac{3^{x+6}}{9^{x}}\\right)^{3}$ oe\nM1 apply the area scale factor to form an equation linking the areas\nallow $9^x \\times (m)^{2} = 3^{x+6}$ where $m > 1$ or $9^x = 3^{x+6} \\times (n)^{2}$ where\n$0 < n < 1$\nMay be implied by award of the 3rd M1\n$3^{2x} \\times (3)^{2} = 3^{x+6}$ or $(3)^{6} = \\frac{3^{3x+18}}{3^{6x}}$ or\n$9^x \\times 9 = 9^{\\frac{1}{2}(x+6)}$ or $9^x = 9^{\\frac{x}{2}+3} \\times \\frac{1}{9}$\nor $x = 4$ or $2x + 2 = x + 6$ oe eg\n$6 = -3x + 18$ or $x + 1 = \\frac{x}{2} + 3$\nM1 dep on at least one of the previous M marks being awarded.\nChanging all terms to base of 3 or 9 to gain a correct equation or\nvalue for x\n$5^{\"4\"} \\times 3$ or $5^{\"4\"} \\div \\frac{1}{3}$\nM1 dep on the previous M mark being awarded. If working shown\nft their value of x if labelled or comes from correct working.\n1875\nA1\ncas\nTotal 5 marks"
       }
      ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1094,32 +1157,53 @@
      "part_number": "23(a)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Simplify w3 w",
+     "problem_md": "Simplify $w^3 \\times w^{-5}$",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "w −2\n1\nB1 accept\nw2",
+     "solution_md": "w⁻²\n1\nB1 accept\n1/w²",
      "mark_points": [
       {
        "id": "2026-06-23-a-MP1",
        "marks": 1,
-       "text_md": "w −2\n1\nB1 accept\nw2"
+       "text_md": "w⁻²\n1\nB1 accept\n1/w²"
       }
      ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     },
     {
      "part_number": "23(b)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Simplify 5 x 0",
+     "problem_md": "Simplify 5x⁰",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "5 1 B1",
@@ -1133,62 +1217,119 @@
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      }
+     ]
     },
     {
      "part_number": "23(c)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Simplify fully 8a b 3 9 3 1",
+     "problem_md": "Simplify fully $(8a^3b^9)^{\\frac{1}{3}}$",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "mab or 2a b or 2ab\n3 p 3 q\n2 M1 For an expression in the correct form ma pbq with 2 of m, p and\nq correct\n2ab3 A1 fully correct",
+     "solution_md": "$mab^3$ or $2a^p b^3$ or $2ab^q$\n2 M1 For an expression in the correct form $ma^p b^q$ with 2 of m, p and q correct\n$2ab^3$ A1 fully correct",
      "mark_points": [
       {
        "id": "2026-06-23-c-MP1",
        "marks": 2,
-       "text_md": "mab or 2a b or 2ab\n3 p 3 q\n2 M1 For an expression in the correct form ma pbq with 2 of m, p and\nq correct\n2ab3 A1 fully correct"
+       "text_md": "$mab^3$ or $2a^p b^3$ or $2ab^q$\n2 M1 For an expression in the correct form $ma^p b^q$ with 2 of m, p and q correct\n$2ab^3$ A1 fully correct"
       }
      ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     },
     {
      "part_number": "23(d)",
      "marks": 3,
      "question_type": "structured",
-     "problem_md": "Simplify fully 36c d 4 2 2 3c 5d 3",
+     "problem_md": "Simplify fully $\\frac{(36c^4d^2)^{\\frac{1}{2}}}{3c^{-5}d^3}$",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "6c 2 d or 3 M1 for correctly simplifying the numerator or for a final expression\n2c y d z or xc y d −2 or xc 7 d z in the form xc y d z with 1 of x, y and z correct\n2c 7 d z or 2c y d −2 or xc 7 d −2 M1 For a final expression in the form xc y d z with 2 of x, y and z\ncorrect\n2c 7 d − 2 2c 7\nA1 oe eg 2\nd\ncas Total 7 marks\nQuestion Working Answer Mark Notes",
+     "solution_md": "$6c^2d$ or $2c^y d^z$ or $xc^y d^{-2}$ or $xc^7 d^z$\n$2c^y d^z$ or $2c^y d^{-2}$ or $xc^7 d^{-2}$\n3 M1 for correctly simplifying the numerator or for a final expression\nin the form $xc^y d^z$ with 1 of x, y and z correct\nM1 For a final expression in the form $xc^y d^z$ with 2 of x, y and z correct\n$2c^7 d^{-2}$ A1 oe eg $\\frac{2c^7}{d^2}$",
      "mark_points": [
       {
        "id": "2026-06-23-d-MP1",
        "marks": 3,
-       "text_md": "6c 2 d or 3 M1 for correctly simplifying the numerator or for a final expression\n2c y d z or xc y d −2 or xc 7 d z in the form xc y d z with 1 of x, y and z correct\n2c 7 d z or 2c y d −2 or xc 7 d −2 M1 For a final expression in the form xc y d z with 2 of x, y and z\ncorrect\n2c 7 d − 2 2c 7\nA1 oe eg 2\nd\ncas Total 7 marks\nQuestion Working Answer Mark Notes"
+       "text_md": "$6c^2d$ or $2c^y d^z$ or $xc^y d^{-2}$ or $xc^7 d^z$\n$2c^y d^z$ or $2c^y d^{-2}$ or $xc^7 d^{-2}$\n3 M1 for correctly simplifying the numerator or for a final expression\nin the form $xc^y d^z$ with 1 of x, y and z correct\nM1 For a final expression in the form $xc^y d^z$ with 2 of x, y and z correct\n$2c^7 d^{-2}$ A1 oe eg $\\frac{2c^7}{d^2}$"
       }
      ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     }
    ],
    "groups": {}
@@ -1306,33 +1447,54 @@
    "question_number": 26,
    "total_marks": 6,
    "total_marks_source": "printed-footer",
-   "stem_md": "Solve the simultaneous equations x2 2 y2 3y x Show clear algebraic working.",
+   "stem_md": "Solve the simultaneous equations\n$x^2 = 2 - y^2$\n$3y - x = 4$\nShow clear algebraic working.",
    "parts": [
     {
      "part_number": "26",
      "marks": 6,
      "question_type": "structured",
-     "problem_md": "Solve the simultaneous equations x2 2 y2 3y x Show clear algebraic working.",
+     "problem_md": "Solve the simultaneous equations\n$x^2 = 2 - y^2$\n$3y - x = 4$\nShow clear algebraic working.",
      "choices": [],
      "implicit_single_part": true,
      "answer_status": "linked",
-     "solution_md": "(3 y − 4) = 2 − y 6 M1 for substituting a correct expression for x or y into the\n2 2\n⎛ 4+ x ⎞\nx = 2−⎜\n⎟ quadratic equation\n⎝ 3 ⎠\n16 + 8 x + x 2 9 y 2 − 24 y + 16 ⎡⎣= 2 − y 2 ⎤⎦ M1 for a correct method to multiply out the squared\n⎡⎣ x = 2 − ⎤⎦\nbrackets\n10 x 2 + 8 x − 2 = 0 10 y 2 − 24 y + 14 = 0 M1 for a correct 3-term quadratic equation equal to zero.\nAllow unsimplified equations involving x2/y2 and x/y and\nconstant. May be implied by the 4th M1\n( 5x − 1)( x + 1) ( 5 y − 7 )( y − 1) M1 for using a correct method to solve the/their simplified\n3-term quadratic.\nIf the quadratic is correct then the method is implied by\nx = 0.2 and x = −1 or y = 1.4 and y = 1 (condone incorrect\nlabelling)\nWorking must be shown if their quadratic is incorrect to\ngain this method mark. If factorising must multiply out to\ngive 2 correct terms. Allow use of formula with one sign\nerror . Allow completing the square with one sign error only\nx = 0.2 and x = −1 oe y = 1.4 and y = 1 oe A1 for both x values correct or both y values correct or\nallow for 1 correct pair\nx = 0.2, A1oe dependent on 3rd M1 being awarded\ny = 1.4 Must be correctly paired\nand isw if correct values are paired correctly in the working\nx = –1,\ny=1\nwr Total 6 marks",
+     "solution_md": "$x^2 = 2 - \\left(\\frac{4+x}{3}\\right)^2$  $(3y-4)^2 = 2 - y^2$  6 M1 for substituting a correct expression for x or y into the\nquadratic equation\n$[x^2 = 2 - \\frac{16+8x+x^2}{9}]$  $9y^2 - 24y + 16\\ [ = 2 - y^2 ]$ M1 for a correct method to multiply out the squared brackets\n$10x^2 + 8x - 2 = 0$  $10y^2 - 24y + 14 = 0$ M1 for a correct 3-term quadratic equation equal to zero.\nAllow unsimplified equations involving x²/y² and x/y and\nconstant. May be implied by the 4th M1\n$(5x-1)(x+1)$  $(5y-7)(y-1)$ M1 for using a correct method to solve the/their simplified\n3-term quadratic.\nIf the quadratic is correct then the method is implied by\n$x = 0.2$ and $x = -1$ or $y = 1.4$ and $y = 1$ (condone incorrect\nlabelling)\nWorking must be shown if their quadratic is incorrect to\ngain this method mark. If factorising must multiply out to\ngive 2 correct terms. Allow use of formula with one sign\nerror . Allow completing the square with one sign error only\n$x = 0.2$ and $x = -1$ oe $y = 1.4$ and $y = 1$ oe A1 for both x values correct or both y values correct or\nallow for 1 correct pair\n$x = 0.2$, $y = 1.4$ A1oe dependent on 3rd M1 being awarded\nand $x = -1$, $y = 1$ Must be correctly paired\nisw if correct values are paired correctly in the working\nwr Total 6 marks",
      "mark_points": [
       {
        "id": "2026-06-26-MP1",
        "marks": 6,
-       "text_md": "(3 y − 4) = 2 − y 6 M1 for substituting a correct expression for x or y into the\n2 2\n⎛ 4+ x ⎞\nx = 2−⎜\n⎟ quadratic equation\n⎝ 3 ⎠\n16 + 8 x + x 2 9 y 2 − 24 y + 16 ⎡⎣= 2 − y 2 ⎤⎦ M1 for a correct method to multiply out the squared\n⎡⎣ x = 2 − ⎤⎦\nbrackets\n10 x 2 + 8 x − 2 = 0 10 y 2 − 24 y + 14 = 0 M1 for a correct 3-term quadratic equation equal to zero.\nAllow unsimplified equations involving x2/y2 and x/y and\nconstant. May be implied by the 4th M1\n( 5x − 1)( x + 1) ( 5 y − 7 )( y − 1) M1 for using a correct method to solve the/their simplified\n3-term quadratic.\nIf the quadratic is correct then the method is implied by\nx = 0.2 and x = −1 or y = 1.4 and y = 1 (condone incorrect\nlabelling)\nWorking must be shown if their quadratic is incorrect to\ngain this method mark. If factorising must multiply out to\ngive 2 correct terms. Allow use of formula with one sign\nerror . Allow completing the square with one sign error only\nx = 0.2 and x = −1 oe y = 1.4 and y = 1 oe A1 for both x values correct or both y values correct or\nallow for 1 correct pair\nx = 0.2, A1oe dependent on 3rd M1 being awarded\ny = 1.4 Must be correctly paired\nand isw if correct values are paired correctly in the working\nx = –1,\ny=1\nwr Total 6 marks"
+       "text_md": "$x^2 = 2 - \\left(\\frac{4+x}{3}\\right)^2$  $(3y-4)^2 = 2 - y^2$  6 M1 for substituting a correct expression for x or y into the\nquadratic equation\n$[x^2 = 2 - \\frac{16+8x+x^2}{9}]$  $9y^2 - 24y + 16\\ [ = 2 - y^2 ]$ M1 for a correct method to multiply out the squared brackets\n$10x^2 + 8x - 2 = 0$  $10y^2 - 24y + 14 = 0$ M1 for a correct 3-term quadratic equation equal to zero.\nAllow unsimplified equations involving x²/y² and x/y and\nconstant. May be implied by the 4th M1\n$(5x-1)(x+1)$  $(5y-7)(y-1)$ M1 for using a correct method to solve the/their simplified\n3-term quadratic.\nIf the quadratic is correct then the method is implied by\n$x = 0.2$ and $x = -1$ or $y = 1.4$ and $y = 1$ (condone incorrect\nlabelling)\nWorking must be shown if their quadratic is incorrect to\ngain this method mark. If factorising must multiply out to\ngive 2 correct terms. Allow use of formula with one sign\nerror . Allow completing the square with one sign error only\n$x = 0.2$ and $x = -1$ oe $y = 1.4$ and $y = 1$ oe A1 for both x values correct or both y values correct or\nallow for 1 correct pair\n$x = 0.2$, $y = 1.4$ A1oe dependent on 3rd M1 being awarded\nand $x = -1$, $y = 1$ Must be correctly paired\nisw if correct values are paired correctly in the working\nwr Total 6 marks"
       }
      ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:run-017-symbol-restoration (superscripts/operators/radicals lost in text-layer extraction; rebuilt from printed QP/MS of record)"
+     },
+     "edits": [
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [mark_points[0].text_md]"
+      },
+      {
+       "field": "problem_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [problem_md]"
+      },
+      {
+       "field": "solution_md",
+       "kind": "symbol-restoration",
+       "tool": "run-017 eyes-on (r0) vs printed page of record",
+       "evidence_ref": "QP p2/p9/p17/p19/p24 + MS p6/p12/p21/p23/p27 of record, 2026-06 4MB1-01, rendered 150dpi and READ (run-017) [solution_md]"
+      }
+     ]
     }
    ],
    "groups": {}
