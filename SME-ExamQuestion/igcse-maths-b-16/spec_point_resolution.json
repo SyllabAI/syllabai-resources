@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-10-28T15:51:29Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SME-11 initial tiered auto-join; r0 content-join 2026-10-28; r1 review adjudication 2026-10-28 by scripts/maths_b_review_adjudicate.py — T-SPECS-MATHSB-REVIEW-1 gate order; decisive verdicts landed with adjudication provenance, non-decisive rows stay flagged adjudicated-stay, no-guess discipline preserved)",
+ "generated_utc": "2026-10-28T18:01:41Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SME-11 initial tiered auto-join; r0 content-join 2026-10-28; r1 review adjudication 2026-10-28 by scripts/maths_b_review_adjudicate.py — T-SPECS-MATHSB-REVIEW-1 gate order; decisive verdicts landed with adjudication provenance, non-decisive rows stay flagged adjudicated-stay, no-guess discipline preserved); r2 T-SPEC-2b operator-verdict overlay 2026-10-28 by scripts/maths_b_tspec2b_overlay.py — T-SPECS-MATHSB-2B-OVERLAY-1: the 13 unmapped adjudicated 11 attaches + 2 honest stays, evidence-quoted, PMT excluded as source, map lane byte-untouched (side-car lane law)",
  "counts": {
   "ids": 215
  },
@@ -254,12 +254,12 @@
    "sme_name": "Repeated percentage change",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "1H",
+   "official_id": "IGCSE_MATHS_B:1H",
+   "tier": "C1_content_join",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T1 best 1H 0.27, cov 0.20, tcov 0.20) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (term_identity): statement READ 1H 'Fractions, decimals, ratio, proportion and percentage'; evidence: note title/name prints 'percentage' verbatim; text: 'The multiplier for a 5% decrease is 0.95 ... So multiply 8000 by 0.95^3' (percentage multipliers applied repeatedly); grouping: 1H already of-record for the sibling percentage lessons (Basic Percentages spcpt_FHRjdMc6tvRR553q, Reverse Percentages spcpt_5CHMgxBWhBwxh5Y6); rejected: r1 refined in-topic best is 1H itself (0.299, margin 0.101 — the top scorer of the 13); below the r1 mechanical bar (score < 0.50), which is exactly the bar the operator-verdict lane exists to adjudicate past — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_6XysCMWvYY936jw8",
@@ -332,12 +332,12 @@
    "sme_name": "Midpoint of a Line",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "4H",
+   "official_id": "IGCSE_MATHS_B:4H",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T4 best 4M 0.16, cov 0.20, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 4H 'Rectangular Cartesian co-ordinates'; evidence: text: 'The coordinates of A are (-4, 3) and the coordinates of B are (8, -12). Find the coordinates of the midpoint of AB' — worked with ((x1+x2)/2, (y1+y2)/2); grouping: 4H already of-record for the sibling '2D Coordinates' (spcpt_Jw35TTKhvXxmGGfP, same Coordinate Geometry subtopic); run-001 receipt names 'Midpoint of a Line->4H' as a candidate of note; rejected: 4M 'Determination of gradients, rates of change, maxima and minima, stationary points and turning points' — differentiation content the note does not teach — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_89mzCM5TTjHvXmvd",
@@ -355,12 +355,12 @@
    "sme_name": "Expected Frequency",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "10K",
+   "official_id": "IGCSE_MATHS_B:10K",
+   "tier": "C1_content_join",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (term_identity): statement READ 10K 'Understand and use the term 'expected frequency''; evidence: TERM IDENTITY — the statement exists precisely for this term; text: 'Expected frequency refers to the number of times you would expect a particular outcome to occur — It is found by multiplying the probability by the number of trials'; grouping: 10K carries 0 of-record mappings — this lesson is the term's home in the corpus; rejected: r1 tie 10C/10K (both 0.252, margin 0.000) broken by the eyes-on read: 10C = 'Calculation of an estimate of the mean of a larger number of quantities given in grouped frequencies' — grouped-mean statistics, not probability-frequency — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_8MpvS5pnYkf9QswF",
@@ -383,7 +383,7 @@
    "tier": null,
    "score": null,
    "method": null,
-   "reason": "content evidence below corroboration floor (T1 best 1F 0.17, cov 0.00, tcov 0.33) — adjudicated-stay r1 (refined re-check, sheet)"
+   "reason": "T_SPEC_2B_STAY (no_statement_plane_home): statement READ T1 pool READ in full (1A 'The ordinary processes of number manipulation', 1B 'Prime numbers, factors, multiples', 1C-1K); evidence: note: 'Mathematical symbols What mathematical symbols do I need to know?' — a symbols/notation glossary; grouping: no T1 statement is a notation/symbols statement; cov_w = 0.0 against every T1 candidate; rejected: attaching any T1 statement would be a guess (the sda-bio 2.54 no-guess class: re-anchoring without a statement-plane home is forbidden) — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_8rpDpT2HVPgyCKS8",
@@ -951,12 +951,12 @@
    "sme_name": "Expanding One Bracket",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (family_grouping_consistent): statement READ 3C 'The factorisation of simple algebraic expressions'; evidence: text: 'Multiply the 4x term outside the brackets by both terms inside the brackets ... 8x^2 - 12x'; grouping: FAMILY GROUPING DECISIVE: the of-record rows for the same SME 'Expanding Brackets' subtopic — Expanding Two Brackets (spcpt_S2dfVTzRhCh7pRzW), Expanding Three Brackets (spcpt_GVgyB5BVfNDYGf8M), Expanding Squared Brackets (spcpt_F8nMMNHkgCNBjb5G) — all sit on 3C (r0 C1 content joins); single-bracket expansion joins its own family; rejected: 3A 'The basic processes of algebra' holds only 'Algebraic Notation' of record — not the expanding-brackets family plane — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_QJNVgG7qqP279jnN",
@@ -1056,7 +1056,7 @@
    "tier": null,
    "score": null,
    "method": null,
-   "reason": "content evidence below corroboration floor (T10 best 10I 0.15, cov 0.00, tcov 0.20) — adjudicated-stay r1 (refined re-check, sheet)"
+   "reason": "T_SPEC_2B_STAY (no_statement_plane_home): statement READ T10 pool READ in full (10E-10K probability statements; no listing/outcomes statement exists); evidence: note 'Listing Outcomes', section: 'Write out all the ways to arrange the letters A, B and C ... The six arrangements are ABC, ACB, BAC, BCA, CAB and CBA' — a systematic-listing method lesson; grouping: no T10 statement covers outcome listing; 10I already of-record for the conditional-probability lessons (Combined Conditional Probabilities, Combined Probability, Tree Diagrams); rejected: 10I rejected = 'Using simple conditional probability for combined events' — a conditional technique the note does not teach; 10E rejected = concept language, not a listing method — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_SSJkWfTg9GyZBXt4",
@@ -1206,12 +1206,12 @@
    "sme_name": "Expand & Simplify",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "3C",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (family_grouping_consistent): statement READ 3C 'The factorisation of simple algebraic expressions'; evidence: same note as Expanding One Bracket (single-brackets lesson, second section): expand then simplify the result; grouping: same family grouping as Expanding One Bracket (Two/Three/Squared Brackets all of-record on 3C); rejected: 3A rejected for family consistency (as above) — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_W6x4XqqqZWnY5SZc",
@@ -1394,12 +1394,12 @@
    "sme_name": "Relative Frequency",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "10E",
+   "official_id": "IGCSE_MATHS_B:10E",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 10E 'Understand the language and basic concepts of probability'; evidence: text: 'What is relative frequency? Number of successful outcomes / Total number of trials ... Use Johan's results to estimate the probability' — relative frequency IS the experimental-probability estimate, a basic concept of probability; grouping: 10E already of-record for 'Basic Probability' (spcpt_FVX7YRftjhnwYHQF); rejected: 10K belongs to the sibling spcpt of the same note (Expected Frequency, term identity); 10C rejected = grouped mean — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_bmqbWbZM8HXPwsFF",
@@ -1857,12 +1857,12 @@
    "sme_name": "Converting Units",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "1G",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T1 best 1K 0.20, cov 0.00, tcov 0.33) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 1G 'Weights, measures and money'; evidence: text: 'How do I convert units of lengths? ... 1 cm = 10 mm ... 485 g to kg' — unit conversion of lengths/mass/volumes, the measures plane; grouping: 1G already of-record for 'Compound Measures' (spcpt_4ZdHtGPdDjYdR6rK) and 'Speed, Density & Pressure' (spcpt_wRw6rKqPdVmS986W) — the measures family; rejected: 1K (r1 in-topic best 0.125) READ 'Numbers in standard form' — a different number-plane topic — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_pGsqq7xcztBg59Yh",
@@ -1946,12 +1946,12 @@
    "sme_name": "Best Buys",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "1G",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T1 best 1I 0.16, cov 0.20, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 1G 'Weights, measures and money'; evidence: text: 'Two deals for buying caps are given below: 3 caps for GBP22.50 ... 5 caps for GBP36 ... At which shop are the caps better value?' — value-for-money comparison, the spine's money plane; grouping: 1G already of-record for the sibling money lesson 'Money Calculations' (spcpt_bMYrxtVc2SZgt8mX); run-001 receipt names 'Best Buys->1G' as a candidate of note; rejected: 1I/1J (r1 in-topic bests 0.150/0.149) READ as accuracy/bounds statements — not the content plane of this lesson — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_qX5rMkysQfN7SK2M",
@@ -2024,12 +2024,12 @@
    "sme_name": "Collecting Like Terms",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "3A",
+   "official_id": "IGCSE_MATHS_B:3A",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T3 best 3H 0.17, cov 0.17, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 3A 'The basic processes of algebra'; evidence: text: 'Collect the a terms first 8a - 6a = 2a ... Then collect the b terms ... 2a - b' — collecting like terms is the canonical basic algebraic process; grouping: 3A already of-record for 'Algebraic Notation' (spcpt_gzQvnKpxPvTqzzBp) — the sibling Algebra Toolkit lesson; rejected: 3C rejected — factorisation is a different technique the note does not teach (the run-001 3D-rejection evidence class) — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_rt6wRVmbK5ZVkF3d",
@@ -2047,12 +2047,12 @@
    "sme_name": "Pie Charts",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "10A",
+   "official_id": "IGCSE_MATHS_B:10A",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T10 best 10J 0.17, cov 0.20, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 10A 'Graphical representation of numerical data'; evidence: text: 'What is a pie chart? How do I draw a pie chart?' with the students -> fractions -> angles worked table (132, 48, ...) — a pie chart is a graphical representation of numerical data; grouping: 10A already of-record for the statistical-diagrams family: 'Reading & Interpreting Statistical Diagrams' (spcpt_bGtx4SMcX6BRS6KP), 'Comparing Statistical Diagrams' (spcpt_nXY9n4Vt3cVTmKcR), 'Discrete & Continuous Data' (spcpt_QWXhzVp2S3VYZdZc); rejected: 10J (r1 in-topic best 0.198) READ 'Finding very simple conditional probability' — not the content plane of this lesson — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_s2x4ZG4rWQhHJrTh",
@@ -2158,12 +2158,12 @@
    "sme_name": "Squared & Cubic Units",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "official_id": null,
-   "tier": null,
+   "resolved_code": "1G",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "tier": "C3_topic_anchored",
    "score": null,
-   "method": null,
-   "reason": "content evidence below corroboration floor (T1 best 1K 0.15, cov 0.00, tcov 0.33) — adjudicated-stay r1 (refined re-check, sheet)"
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "reason": "T_SPEC_2B_ATTACH (semantic_home_grouping_consistent): statement READ 1G 'Weights, measures and money'; evidence: text: 'How do I convert between squared units (areas)? ... 1 cm^2 = 10^2 mm^2 = 100 mm^2' — area/volume unit conversions, the measures plane; grouping: same 1G measures family (Compound Measures, Speed Density & Pressure of record); sibling subtopic 'Standard & Compound Units' rows land here; rejected: 1K (r1 in-topic best 0.086) rejected as for Converting Units — operator order: apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)"
   },
   {
    "id": "spcpt_tyrnCXQW2hfdwnyq",

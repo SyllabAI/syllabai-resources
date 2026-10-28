@@ -44,7 +44,12 @@
    "rn_yfbCFbTBcSxy8w9P",
    "rn_ymYS8yZHRtWXM6cX"
   ],
-  "held_for_eyes_on": []
+  "held_for_eyes_on": [],
+  "r2_overlay": {
+   "T_SPEC_2B_ATTACH": 11,
+   "T_SPEC_2B_STAY": 2
+  },
+  "notes_coded_after_r2": "197/199"
  },
  "rows": [
   {
@@ -4519,5 +4524,195 @@
    },
    "topic_gate": "4"
   }
- ]
+ ],
+ "r2_overlay": {
+  "tool": "scripts/maths_b_tspec2b_overlay.py",
+  "pass": "r2 (2026-10-28; T-SPECS-MATHSB-2B-OVERLAY-1; operator order apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd))",
+  "lane_law": "T-SPEC-2b side-car overlay: verdicts recorded on the resolution sidecar rows (method 'operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)') and filled into learner spec-links ONLY for ids the map itself left unmapped (build_learner_spec_links.verdict_overlay); the spec_point_map.json lane remains byte-untouched",
+  "verdict_law": "T_SPEC_2B_ATTACH = term-identity or grouping-consistent topic-plane semantic home with statements READ quoted; T_SPEC_2B_STAY = no statement-plane home in the 98-statement spine, attaching would be a guess; no-guess discipline preserved, 13/13 accounted",
+  "operator_order": "apply the T-SPEC-2b precedent ... for the 13 unmapped generic lessons (trace 1a183901ab68b9fd)",
+  "verdicts": {
+   "T_SPEC_2B_ATTACH": 11,
+   "T_SPEC_2B_STAY": 2
+  },
+  "rows": [
+   {
+    "spcpt_id": "spcpt_6Tdy5SV9gzyC8BSw",
+    "name": "Repeated percentage change",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "1H",
+    "tier": "C1_content_join",
+    "class": "term_identity",
+    "stmt_read": "1H 'Fractions, decimals, ratio, proportion and percentage'",
+    "quote": "note title/name prints 'percentage' verbatim; text: 'The multiplier for a 5% decrease is 0.95 ... So multiply 8000 by 0.95^3' (percentage multipliers applied repeatedly)",
+    "grouping": "1H already of-record for the sibling percentage lessons (Basic Percentages spcpt_FHRjdMc6tvRR553q, Reverse Percentages spcpt_5CHMgxBWhBwxh5Y6)",
+    "rejected": "r1 refined in-topic best is 1H itself (0.299, margin 0.101 — the top scorer of the 13); below the r1 mechanical bar (score < 0.50), which is exactly the bar the operator-verdict lane exists to adjudicate past"
+   },
+   {
+    "spcpt_id": "spcpt_84hZy4pDd8nBGN3r",
+    "name": "Midpoint of a Line",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "4H",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "4H 'Rectangular Cartesian co-ordinates'",
+    "quote": "text: 'The coordinates of A are (-4, 3) and the coordinates of B are (8, -12). Find the coordinates of the midpoint of AB' — worked with ((x1+x2)/2, (y1+y2)/2)",
+    "grouping": "4H already of-record for the sibling '2D Coordinates' (spcpt_Jw35TTKhvXxmGGfP, same Coordinate Geometry subtopic); run-001 receipt names 'Midpoint of a Line->4H' as a candidate of note",
+    "rejected": "4M 'Determination of gradients, rates of change, maxima and minima, stationary points and turning points' — differentiation content the note does not teach"
+   },
+   {
+    "spcpt_id": "spcpt_8GsFXwdQTJymxXw8",
+    "name": "Expected Frequency",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "10K",
+    "tier": "C1_content_join",
+    "class": "term_identity",
+    "stmt_read": "10K 'Understand and use the term 'expected frequency''",
+    "quote": "TERM IDENTITY — the statement exists precisely for this term; text: 'Expected frequency refers to the number of times you would expect a particular outcome to occur — It is found by multiplying the probability by the number of trials'",
+    "grouping": "10K carries 0 of-record mappings — this lesson is the term's home in the corpus",
+    "rejected": "r1 tie 10C/10K (both 0.252, margin 0.000) broken by the eyes-on read: 10C = 'Calculation of an estimate of the mean of a larger number of quantities given in grouped frequencies' — grouped-mean statistics, not probability-frequency"
+   },
+   {
+    "spcpt_id": "spcpt_bPTTmJSGkKv2PDc5",
+    "name": "Relative Frequency",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "10E",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "10E 'Understand the language and basic concepts of probability'",
+    "quote": "text: 'What is relative frequency? Number of successful outcomes / Total number of trials ... Use Johan's results to estimate the probability' — relative frequency IS the experimental-probability estimate, a basic concept of probability",
+    "grouping": "10E already of-record for 'Basic Probability' (spcpt_FVX7YRftjhnwYHQF)",
+    "rejected": "10K belongs to the sibling spcpt of the same note (Expected Frequency, term identity); 10C rejected = grouped mean"
+   },
+   {
+    "spcpt_id": "spcpt_qRytkYVHXTQBJdSq",
+    "name": "Best Buys",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "1G",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "1G 'Weights, measures and money'",
+    "quote": "text: 'Two deals for buying caps are given below: 3 caps for GBP22.50 ... 5 caps for GBP36 ... At which shop are the caps better value?' — value-for-money comparison, the spine's money plane",
+    "grouping": "1G already of-record for the sibling money lesson 'Money Calculations' (spcpt_bMYrxtVc2SZgt8mX); run-001 receipt names 'Best Buys->1G' as a candidate of note",
+    "rejected": "1I/1J (r1 in-topic bests 0.150/0.149) READ as accuracy/bounds statements — not the content plane of this lesson"
+   },
+   {
+    "spcpt_id": "spcpt_pFVDbZgQGCHHRDtc",
+    "name": "Converting Units",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "1G",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "1G 'Weights, measures and money'",
+    "quote": "text: 'How do I convert units of lengths? ... 1 cm = 10 mm ... 485 g to kg' — unit conversion of lengths/mass/volumes, the measures plane",
+    "grouping": "1G already of-record for 'Compound Measures' (spcpt_4ZdHtGPdDjYdR6rK) and 'Speed, Density & Pressure' (spcpt_wRw6rKqPdVmS986W) — the measures family",
+    "rejected": "1K (r1 in-topic best 0.125) READ 'Numbers in standard form' — a different number-plane topic"
+   },
+   {
+    "spcpt_id": "spcpt_trxtpbq9c342p3qw",
+    "name": "Squared & Cubic Units",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "1G",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "1G 'Weights, measures and money'",
+    "quote": "text: 'How do I convert between squared units (areas)? ... 1 cm^2 = 10^2 mm^2 = 100 mm^2' — area/volume unit conversions, the measures plane",
+    "grouping": "same 1G measures family (Compound Measures, Speed Density & Pressure of record); sibling subtopic 'Standard & Compound Units' rows land here",
+    "rejected": "1K (r1 in-topic best 0.086) rejected as for Converting Units"
+   },
+   {
+    "spcpt_id": "spcpt_PzyS22R9jMg3y3sZ",
+    "name": "Expanding One Bracket",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "3C",
+    "tier": "C3_topic_anchored",
+    "class": "family_grouping_consistent",
+    "stmt_read": "3C 'The factorisation of simple algebraic expressions'",
+    "quote": "text: 'Multiply the 4x term outside the brackets by both terms inside the brackets ... 8x^2 - 12x'",
+    "grouping": "FAMILY GROUPING DECISIVE: the of-record rows for the same SME 'Expanding Brackets' subtopic — Expanding Two Brackets (spcpt_S2dfVTzRhCh7pRzW), Expanding Three Brackets (spcpt_GVgyB5BVfNDYGf8M), Expanding Squared Brackets (spcpt_F8nMMNHkgCNBjb5G) — all sit on 3C (r0 C1 content joins); single-bracket expansion joins its own family",
+    "rejected": "3A 'The basic processes of algebra' holds only 'Algebraic Notation' of record — not the expanding-brackets family plane"
+   },
+   {
+    "spcpt_id": "spcpt_W5bHgsHCyJ4jpkYz",
+    "name": "Expand & Simplify",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "3C",
+    "tier": "C3_topic_anchored",
+    "class": "family_grouping_consistent",
+    "stmt_read": "3C 'The factorisation of simple algebraic expressions'",
+    "quote": "same note as Expanding One Bracket (single-brackets lesson, second section): expand then simplify the result",
+    "grouping": "same family grouping as Expanding One Bracket (Two/Three/Squared Brackets all of-record on 3C)",
+    "rejected": "3A rejected for family consistency (as above)"
+   },
+   {
+    "spcpt_id": "spcpt_rsCdKqXKjhfmkyqT",
+    "name": "Collecting Like Terms",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "3A",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "3A 'The basic processes of algebra'",
+    "quote": "text: 'Collect the a terms first 8a - 6a = 2a ... Then collect the b terms ... 2a - b' — collecting like terms is the canonical basic algebraic process",
+    "grouping": "3A already of-record for 'Algebraic Notation' (spcpt_gzQvnKpxPvTqzzBp) — the sibling Algebra Toolkit lesson",
+    "rejected": "3C rejected — factorisation is a different technique the note does not teach (the run-001 3D-rejection evidence class)"
+   },
+   {
+    "spcpt_id": "spcpt_rxmWrBrc2s2q45wF",
+    "name": "Pie Charts",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_ATTACH",
+    "code": "10A",
+    "tier": "C3_topic_anchored",
+    "class": "semantic_home_grouping_consistent",
+    "stmt_read": "10A 'Graphical representation of numerical data'",
+    "quote": "text: 'What is a pie chart? How do I draw a pie chart?' with the students -> fractions -> angles worked table (132, 48, ...) — a pie chart is a graphical representation of numerical data",
+    "grouping": "10A already of-record for the statistical-diagrams family: 'Reading & Interpreting Statistical Diagrams' (spcpt_bGtx4SMcX6BRS6KP), 'Comparing Statistical Diagrams' (spcpt_nXY9n4Vt3cVTmKcR), 'Discrete & Continuous Data' (spcpt_QWXhzVp2S3VYZdZc)",
+    "rejected": "10J (r1 in-topic best 0.198) READ 'Finding very simple conditional probability' — not the content plane of this lesson"
+   },
+   {
+    "spcpt_id": "spcpt_8Wtthy9gt8B5xsVW",
+    "name": "Mathematical Symbols",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_STAY",
+    "code": null,
+    "tier": null,
+    "class": "no_statement_plane_home",
+    "stmt_read": "T1 pool READ in full (1A 'The ordinary processes of number manipulation', 1B 'Prime numbers, factors, multiples', 1C-1K)",
+    "quote": "note: 'Mathematical symbols What mathematical symbols do I need to know?' — a symbols/notation glossary",
+    "grouping": "no T1 statement is a notation/symbols statement; cov_w = 0.0 against every T1 candidate",
+    "rejected": "attaching any T1 statement would be a guess (the sda-bio 2.54 no-guess class: re-anchoring without a statement-plane home is forbidden)"
+   },
+   {
+    "spcpt_id": "spcpt_SQqKCGwRcv6gj5h3",
+    "name": "Systematic Lists",
+    "r1_verdict": "UNMAPPED_STAY",
+    "verdict": "T_SPEC_2B_STAY",
+    "code": null,
+    "tier": null,
+    "class": "no_statement_plane_home",
+    "stmt_read": "T10 pool READ in full (10E-10K probability statements; no listing/outcomes statement exists)",
+    "quote": "note 'Listing Outcomes', section: 'Write out all the ways to arrange the letters A, B and C ... The six arrangements are ABC, ACB, BAC, BCA, CAB and CBA' — a systematic-listing method lesson",
+    "grouping": "no T10 statement covers outcome listing; 10I already of-record for the conditional-probability lessons (Combined Conditional Probabilities, Combined Probability, Tree Diagrams)",
+    "rejected": "10I rejected = 'Using simple conditional probability for combined events' — a conditional technique the note does not teach; 10E rejected = concept language, not a listing method"
+   }
+  ],
+  "hub_effect": {
+   "notes_coded_after_overlay": "197/199",
+   "notes_still_loose": [
+    "Mathematical Symbols",
+    "Listing Outcomes"
+   ],
+   "flashcard_effect": "none expected (zero cards link the 13 spcpts)"
+  }
+ }
 }

@@ -47,6 +47,36 @@ PARSED = BASE / "Official-Specifications" / "parsed"
 SCHEMA = "syllabai.sme-flashcard-spec-map/1.0"
 
 TEXT_JOIN_TYPES = {"keyword_definition", "question_and_answer"}
+
+# T-SPEC-2b side-car overlay (T-SPECS-MATHSB-2B-OVERLAY-1): operator-verdict
+# resolutions recorded on the resolution sidecar fill ONLY ids the course map
+# itself left unmapped (map lane wins) — the same law build_learner_spec_links
+# .verdict_overlay applies to the learner notes/items plane.
+OVERLAY_METHOD_PREFIX = "operator-verdict"
+
+
+def verdict_overlay(eq_dir: Path, mappings: dict) -> dict:
+    """T-SPEC-2b: operator-verdict lane resolutions from the resolution sidecar.
+    Fills ONLY ids the stage-1 map itself left unmapped (map lane wins)."""
+    res_file = eq_dir / "spec_point_resolution.json"
+    if not res_file.exists():
+        return {}
+    res = json.loads(res_file.read_text(encoding="utf-8"))
+    overlay = {}
+    for rec in res.get("resolved") or []:
+        method = rec.get("method") or ""
+        if not method.startswith(OVERLAY_METHOD_PREFIX):
+            continue
+        sid = rec["id"]
+        if sid in mappings or not rec.get("resolved_code"):
+            continue
+        overlay[sid] = {
+            "official_id": rec.get("official_id"),
+            "official_code": rec["resolved_code"],
+            "tier": rec.get("tier"),
+            "method": method,
+        }
+    return overlay
 AUTO_RATIO = 0.93      # T2
 SECTION_RATIO = 0.80   # T3 (requires deck-slug/section agreement)
 FUZZY_RATIO = 0.85     # T4 -> flagged
@@ -165,6 +195,8 @@ def map_course(course: str) -> dict:
     if idx_file.exists():
         ij = json.loads(idx_file.read_text(encoding="utf-8"))
         idx_points = ij.get("spec_points") or {}
+    mappings = dict(mappings)
+    mappings.update(verdict_overlay(eq_dir, mappings))
     if qual is None:
         # course without a map (shouldn't happen; all 39 have maps)
         reg = json.loads((BASE / "Official-Specifications" / "manifest.json")
@@ -183,6 +215,7 @@ def map_course(course: str) -> dict:
     cards_out: dict = {}
     totals = Counter()
     totals.setdefault("containment_joined", 0)  # reported even when 0
+    totals.setdefault("spec_link_overlay_2b", 0)  # T-SPEC-2b overlay inheritances
     unresolved_spcpt: Counter = Counter()
 
     deck_files = sorted(FC.glob(f"{course}/*/*/deck.json"))
@@ -197,10 +230,17 @@ def map_course(course: str) -> dict:
             for spcpt in card.get("spec_links", []):
                 if spcpt in mappings:
                     m = dict(mappings[spcpt])
-                    m["method"] = "sme_spec_link_inherited"
-                    m["via_spcpt"] = spcpt
-                    codes.append(m)
-                    totals["spec_link_inherited"] += 1
+                    if (m.get("method") or "").startswith(OVERLAY_METHOD_PREFIX):
+                        # T-SPEC-2b overlay resolution: tier/method carried from the
+                        # sidecar (operator-verdict provenance preserved end-to-end)
+                        m["via_spcpt"] = spcpt
+                        codes.append(m)
+                        totals["spec_link_overlay_2b"] += 1
+                    else:
+                        m["method"] = "sme_spec_link_inherited"
+                        m["via_spcpt"] = spcpt
+                        codes.append(m)
+                        totals["spec_link_inherited"] += 1
                 else:
                     unresolved.append(spcpt)
                     unresolved_spcpt["spcpt_not_in_harvest" if spcpt not in idx_points
@@ -260,6 +300,7 @@ def map_course(course: str) -> dict:
             "cards": totals["cards"],
             "cards_with_codes": totals["cards_with_codes"],
             "spec_link_inherited": totals["spec_link_inherited"],
+            "spec_link_overlay_2b": totals["spec_link_overlay_2b"],
             "content_joined": totals["content_joined"],
             "containment_joined": totals["containment_joined"],
             "cards_unmapped": totals["cards_unmapped"],
@@ -271,7 +312,8 @@ def map_course(course: str) -> dict:
     (FC / course / "flashcard_spec_map.json").write_text(
         json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"[{course}] cards={totals['cards']} coded={totals['cards_with_codes']} "
-          f"(link {totals['spec_link_inherited']} + text {totals['content_joined']} "
+          f"(link {totals['spec_link_inherited']} + overlay2b {totals['spec_link_overlay_2b']}"
+          f" + text {totals['content_joined']} "
           f"[containment {totals['containment_joined']}]) "
           f"unmapped={totals['cards_unmapped']} unresolved={dict(unresolved_spcpt)}",
           flush=True)

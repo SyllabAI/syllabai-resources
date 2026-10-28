@@ -885,3 +885,34 @@ served bundle PR carries a full disclosure census.
   Battery: 215/215 accounted, flags==flagged-mappings, repointed codes valid in pool, ledger 5/5,
   resolution-mirrors-map, no dup flag rows, idempotence (re-run byte-no-op under the r1 pass
   marker law). Base 8a9e2241; no v2 contact in this commit; no force.
+- **T-SPECS-MATHSB-2B-OVERLAY-1 run-001 — the 13 unmapped generic lessons resolved via the T-SPEC-2b
+  operator-verdict overlay (r2 of the maths-b content-join lane)**: operator order "apply the
+  T-SPEC-2b precedent ... for the 13 unmapped generic lessons" (trace 1a183901ab68b9fd), activating
+  the lane run-001's receipt sanctioned ("the T-SPEC-2b operator-verdict overlay lane is the
+  sanctioned path ... NOT landed here"). Engine `scripts/maths_b_tspec2b_overlay.py` — SIDE-CAR LANE
+  LAW (the build_learner_spec_links.verdict_overlay convention): verdicts live on
+  spec_point_resolution.json resolved[] rows (method "operator-verdict lane (T-SPEC-2b; PMT excluded
+  as source per operator instruction 2026-09-18)"); spec_point_map.json byte-untouched (asserted
+  sha256 before/after); map lane wins; overlay fills ONLY ids the map itself left unmapped.
+  VERDICTS 13/13 accounted, every basis quotes the statement READ + note text + of-record grouping:
+  11 T_SPEC_2B_ATTACH — Best Buys→1G, Converting Units→1G, Squared & Cubic Units→1G (the measures/
+  money plane; 1G of-record for Money Calculations + Compound Measures + Speed Density & Pressure),
+  Repeated Percentage Change→1H (term identity 'percentage'; C1), Collecting Like Terms→3A (3A
+  of-record for Algebraic Notation), Expanding One Bracket→3C + Expand & Simplify→3C (FAMILY
+  GROUPING DECISIVE: of-record Expanding Two/Three/Squared Brackets rows all sit on 3C), Midpoint of
+  a Line→4H (4H of-record for 2D Coordinates; run-001 candidate of note), Pie Charts→10A (10A
+  of-record for the statistical-diagrams family), Relative Frequency→10E (10E of-record for Basic
+  Probability), Expected Frequency→10K (TERM IDENTITY — 10K READ "Understand and use the term
+  'expected frequency'", 0 prior mappings; the r1 10C/10K 0.252 tie broken by the eyes-on read: 10C
+  = grouped-mean statistics); tiers C1_content_join x2 (term identities) / C3_topic_anchored x9
+  (grouping-consistent semantic homes). 2 T_SPEC_2B_STAY — Mathematical Symbols (no notation/
+  symbols statement exists in the 98-statement T1 pool READ in full) + Systematic Lists (no
+  listing/outcomes statement in T10; 10I rejected = conditional technique the note does not teach) —
+  the sda-bio 2.54 no-guess class. map_flashcards.py extended with the same verdict_overlay fill
+  (additive; total row + spec_link_overlay_2b counter). Downstream re-derived for the course:
+  flashcard_spec_map 1082 cards / 268 coded (coded 262→268; 6 Repeated-Percentage-Change cards via
+  overlay2b; all other cards byte-identical), spec-links 467 items / 465 coded (notes 188→197/199,
+  cards 262→268/268) — exactly 9 note items + 6 card items changed, nothing else. Hub effect: loose
+  maths-b revision notes 11 → 2 (Mathematical Symbols, Listing Outcomes — the honest stays). Sheet
+  review_adjudication.json gains the r2_overlay block (13 rows, full quoted bases; r1 rows
+  preserved); idempotence = r2 pass marker no-op. No v2 contact in this commit; no force; fetch-first.
