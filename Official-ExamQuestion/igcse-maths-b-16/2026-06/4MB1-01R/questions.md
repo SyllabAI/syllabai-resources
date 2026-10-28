@@ -679,116 +679,90 @@ Diagram NOT C accurately drawn (x + 1) cm x cm 20° A B The diagram shows triang
 
 ### 18 [4]
 
-Diagram NOT C accurately drawn (x + 1) cm x cm 20° A B The diagram shows triangle ABC AC x cm BC = x cm ABC BAC 20° Calculate the length, in cm to 2 significant figures, of BC cm
+The diagram shows triangle ABC
+
+AC = (x + 1) cm  BC = x cm  ∠ABC = 90°  ∠BAC = 20°
+
+Calculate the length, in cm to 2 significant figures, of BC
+
+cm
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, A, B · Figure values: 20° · Other figure text: 1).
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
 
 **Mark scheme answer**
 
-> x 4 M1 Form correct equation in x using sin 20
-> = sin 20 [ = 0.342] Allow also BC or a mix of BC and x
-> x +1
-> oe eg x = ( x + 1) sin 20 Allow sin 20 to be awrt 0.34 throughout.
-> x x +1 Allow a processing error for sin 20 if clearly seen written first
-> eg =
-> sin 20 sin 90 (general marking principle, if not precluded by the MS)
+> $\frac{x}{x+1} = \sin 20 [= 0.342]$ 4 M1 Form correct equation in x using sin 20
+> oe eg $x = (x+1)\sin 20$ Allow also BC or a mix of BC and x
+> Allow sin 20 to be awrt 0.34 throughout.
+> eg $\frac{x}{\sin 20} = \frac{x+1}{\sin 90}$
+> Allow a processing error for sin 20 if clearly seen written first
+> (general marking principle, if not precluded by the MS)
 > A common error seen will be where a candidate’s calculator is in
 > radians and they evaluate sin20 as 0.912945…..
 > Must be using a number with minimum 2dp.
 > Allow a misevaluation of sin20, if sin20 is seen, throughout, with
 > continued correct working.
-> x = x sin 20 + sin 20 Dep on 1st M1
-> oe eg x − sin 20 = x sin 20 Correctly removes fraction from equation and expands bracket
-> eg 0.34(2…)x + 0.34(2…) = x Can imply the previous method mark.
-> x(1 − sin 20) = sin 20 Dep on 2nd M1
-> oe eg x(1 − sin 20) − sin 20 = 0 Correctly separates terms in x (or collects if using awrt 0.34)
-> sin 20 0.34(2...) Can imply previous 2 method marks.
-> eg [ x =] =
-> 1 − sin 20 1 − 0.34(2...)
+> $x = x\sin 20 + \sin 20$ Dep on 1st M1
+> oe eg $x - \sin 20 = x\sin 20$ Correctly removes fraction from equation and expands bracket
+> eg $0.34(2…)x + 0.34(2…) = x$ Can imply the previous method mark.
+> $x(1 - \sin 20) = \sin 20$ Dep on 2nd M1
+> oe eg $x(1 - \sin 20) - \sin 20 = 0$ Correctly separates terms in x (or collects if using awrt 0.34)
+> eg $[x =] \frac{\sin 20}{1 - \sin 20} = \frac{0.34(2…)}{1 - 0.34(2…)}$ Can imply previous 2 method marks.
 > cas 0.52 A1 awrt 0.52
-> ALT1 ⎡( AB ) = 4 M1 For a correct equation in x and
-> ( x + 1) − x 2 = 2 x + 1⎤⎥
-> ⎢⎣ ⎦ sin20 or cos20 or tan20
-> 2x +1 ⎛ 2x +1 ⎞ sin20 = 0.34202…..
-> oe eg ( cos 20 ) = ⎜⎜
-> cos 20 = ⎟⎟ oe
-> x +1 ⎝ x + 1 ⎠ cos20 = 0.93969….
+> ALT1 $\left[(AB) = \sqrt{(x+1)^2 - x^2} = \sqrt{2x+1}\right]$ 4 M1 For a correct equation in x and
+> sin20 or cos20 or tan20
+> $\cos 20 = \frac{\sqrt{2x+1}}{x+1}$ oe eg $(\cos 20)^2 = \left(\frac{\sqrt{2x+1}}{x+1}\right)^2$ oe sin20 = 0.34202…..
+> or cos20 = 0.93969….
 > tan20 = 0.36397….
-> or
-> 2x +1 x 2x +1 x2 2x +1 x +1 (sin20)2 = 0.11697…..
-> = oe eg = eg =
-> sin 70 sin 20 ( sin 70 ) ( sin 20 )
-> 2
-> sin 70 [sin 90] (cos20)2 = 0.88302….
-> (tan20)2 = 0.13247….
-> or
-> x ⎛ x ⎞
+> $\frac{\sqrt{2x+1}}{\sin 70} = \frac{x}{\sin 20}$ oe eg $\frac{2x+1}{(\sin 70)^2} = \frac{x^2}{(\sin 20)^2}$ eg $\frac{\sqrt{2x+1}}{\sin 70} = \frac{x+1}{[\sin 90]}$
+> or (sin20)² = 0.11697…..
+> (cos20)² = 0.88302….
+> $\tan 20 = \frac{x}{\sqrt{2x+1}}$ oe eg $(\tan 20)^2 = \left(\frac{x}{\sqrt{2x+1}}\right)^2$ oe (tan20)² = 0.13247….
 > Allow awrt 2dp
-> oe eg ( tan 20 ) = ⎜
-> tan 20 = ⎟ oe
-> 2x +1 ⎝ 2x +1 ⎠
-> ( cos 20 ) x 2 + ( 2 ( cos 20 ) − 2 ) x + ( cos 20 ) − 1[ = 0] oe M1 dep on 1st M1
-> 2 2
-> For correct 3 term quadratic in cos20 or tan 20
-> or
-> Award if 2 out of 3 terms are correct
-> ( sin 70 ) x 2 − 2 ( sin 20 ) x − ( sin 20 ) [ = 0] oe
-> 2 2
+> $(\cos 20)^2 x^2 + (2(\cos 20)^2 - 2)x + (\cos 20)^2 - 1[= 0]$ oe M1 dep on 1st M1
+> or For correct 3 term quadratic in cos20 or tan 20
+> $(\sin 70)^2 x^2 - 2(\sin 20)^2 x - (\sin 20)^2 [= 0]$ oe
+> or Award if 2 out of 3 terms are correct
+> $(0.88302...)x^2 - (0.23395...)x - 0.11697...[= 0]$ oe
 > or Don’t need to see = 0
-> ( 0.88302...) x 2 − ( 0.23395...) x − 0.11697...[ = 0] oe May imply previous M mark with 2
-> or coefficients correct
-> x 2 − 2 ( tan 20 ) − ( tan 20 ) [ = 0] oe
-> 2
+> $x^2 - 2(\tan 20)^2 - (\tan 20)^2 [= 0]$ oe
+> or May imply previous M mark with 2
+> $x^2 - (0.26494...)x - 0.13247...[= 0]$ oe coefficients correct
 > Allow evaluated coefficients awrt
-> or 0.88, 0.23. 0.12, 0.26, 0.13
-> x 2 − ( 0.26494...) x − 0.13247...[ = 0] oe
-> M1 dep on 2nd M1 (ie using a 3TQ with 2 out
-> ( ) (( )) ( )
-> − 2 ( cos 20 ) − 2 ± 2 ( cos 20 ) − 2 − 4 ( cos 20 ) ( cos 20 ) − 1
-> 2 2 2
-> eg [ x =] of 3 terms correct)
-> 2 ( cos 20 )
+> 0.88, 0.23. 0.12, 0.26, 0.13
+> eg $[x =] \frac{-\left(2(\cos 20)^2 - 2\right) \pm \sqrt{\left(\left(2(\cos 20)^2 - 2\right)\right)^2 - 4(\cos 20)^2\left((\cos 20)^2 - 1\right)}}{2(\cos 20)^2}$ M1 dep on 2nd M1 (ie using a 3TQ with 2 out
+> of 3 terms correct)
 > Correct substitution into the quadratic formula
 > cas 0.52 A1 awrt 0.52
-> ALT2 ⎡( AB ) = 4 M1 correct equation in x using cosine rule
-> ( x + 1) − x 2 = 2 x + 1⎤⎥
-> ⎢⎣ ⎦
-> cos70 = 0.34202…..
-> ( 2x + 1) − 2 ( x + 1) ( 2x + 1) cos 20 oe
-> x 2 = ( x + 1) +
+> ALT2 $\left[(AB) = \sqrt{(x+1)^2 - x^2} = \sqrt{2x+1}\right]$ 4 M1 correct equation in x using cosine rule
+> $x^2 = (x+1)^2 + \left(\sqrt{2x+1}\right)^2 - 2(x+1)\left(\sqrt{2x+1}\right)\cos 20$ oe cos70 = 0.34202…..
 > cos20 = 0.93969….
-> ( x + 1) + 2 x + 1 − x 2
-> oe eg cos 20 = Allow awrt 2dp
-> 2 ( x + 1) 2 x + 1
+> oe eg $\cos 20 = \frac{(x+1)^2 + 2x + 1 - x^2}{2(x+1)\sqrt{2x+1}}$ Allow awrt 2dp
 > or
-> ( 2 x + 1) = ( x + 1) + x − 2 x ( x + 1) cos 70
-> 2 2
-> ( ) ( )
-> 2 ( cos 20 ) x3 + 5 ( cos 20 ) − 4 x 2 + 4 ( cos 20 ) − 4 x + ( cos 20 ) − 1[ = 0 ]
-> 2 2 2 M1 dep on 1st M1
-> For correct 4 term cubic in cos20 or quadratic in
-> or cos70
-> (1.76604...) x3 + ( 0.41511...) x 2 − ( 0.46791...) x − 0.11697...[ = 0] oe
-> Award if 2 out of 4 terms are correct for the cubic
-> or or 2 out of 3 terms correct for the quadratic.
-> ( 2 − 2cos70 ) x2 − ( 2cos70 ) x [ = 0] Don’t need to see = 0
-> or May imply previous M mark with 2 coefficients
-> (1.31595....) x2 − ( 0.68404....) x [ = 0] correct
+> $\left(\sqrt{2x+1}\right)^2 = (x+1)^2 + x^2 - 2x(x+1)\cos 70$
+> $2(\cos 20)^2 x^3 + (5(\cos 20)^2 - 4)x^2 + 4\left((\cos 20)^2 - 4\right)x + (\cos 20)^2 - 1[= 0]$ M1 dep on 1st M1
+> or For correct 4 term cubic in cos20 or quadratic in cos70
+> $(1.76604...)x^3 + (0.41511...)x^2 - (0.46791...)x - 0.11697...[= 0]$ oe
+> or Award if 2 out of 4 terms are correct for the cubic
+> or 2 out of 3 terms correct for the quadratic.
+> $(2 - 2\cos 70)x^2 - (2\cos 70)x[= 0]$
+> or Don’t need to see = 0
+> $(1.31595....)x^2 - (0.68404....)x[= 0]$ May imply previous M mark with 2 coefficients
+> correct
 > Allow evaluated coefficients awrt
 > 1.77, 0.42, - 0.47, - 0.12, 1.32, 0.68 in the relevant
 > cubic or quadratic
-> eg x ( ( 2 − 2cos 70 ) x − 2cos 70 ) [ = 0] oe M1 for correct factorisation or use of correct
-> 2cos 70
-> substitution into the quadratic formula to solve the
-> oe eg [ x = ] oe 2TQ (with at least one term correct)
-> 2 − 2cos 70
+> eg $x\left((2 - 2\cos 70)x - 2\cos 70\right)[= 0]$ oe M1 for correct factorisation or use of correct
+> oe eg $[x =] \frac{2\cos 70}{2 - 2\cos 70}$ oe substitution into the quadratic formula to solve the
+> 2TQ (with at least one term correct)
 > May be implied by awrt 0.52
 > cas 0.52 A1 awrt 0.52
-> Mark
-> Question Working Answer Notes
 
-- **(4)** x 4 M1 Form correct equation in x using sin 20
+- **(4)** $\frac{x}{x+1} = \sin 20 [= 0.342]$ 4 M1 Form correct equation in x using sin 20
 
 
 ## Question 19 (4 marks)
@@ -797,58 +771,33 @@ Express as a single fraction in its simplest terms x 2 3x 2 9 x
 
 ### 19 [4]
 
-Express as a single fraction in its simplest terms x 2 3x 2 9 x
+Express as a single fraction in its simplest terms $\frac{x-5}{x-2}$ + $\frac{2x^2+9x+9}{3x^2+9x}$
 
 
 **Mark scheme answer**
 
-> 3 x 2 + 9 x = 3 x ( x + 3) 4 M1 Correctly factorises 3x 2 + 9 x
+> $3x^2 + 9x = 3x(x+3)$ 4 M1 Correctly factorises $3x^2 + 9x$
 > or or
-> 2 x2 + 9 x + 9 = (2 x + 3)( x + 3) factorises 2 x 2 + 9 x + 9 correctly
+> $2x^2 + 9x + 9 = (2x+3)(x+3)$ factorises $2x^2 + 9x + 9$ correctly
 > May be awarded for factorising after the fractions are added,
-> in which case expect to see 3x( x + 3)( x − 2) in the denom
-> 2 x2 + 9 x + 9 2 x + 3 M1
-> =
-> 3x 2 + 9 x 3x
+> in which case expect to see $3x(x+3)(x-2)$ in the denom
+> $\frac{2x^2 + 9x + 9}{3x^2 + 9x} = \frac{2x+3}{3x}$ M1
 > or Correct simplification of the second fraction.
-> ( 2 x2 + 9 x + 9) ( x − 2) =
-> 2x + 3
-> May be awarded for simplification after the fractions are
+> $\frac{(2x^2+9x+9)(x-2)}{(3x^2+9x)(x-2)} = \frac{2x+3}{3x}$ May be awarded for simplification after the fractions are
 > added
-> ( 3x + 9 x ) ( x − 2 )
-> 3x
-> 3 x( x − 5) + ( x − 2)(2 x + 3) 3x 2 − 15 x 2 x 2 − x − 6 M1 For the correct addition of the 2 correct fractions.
-> oe eg +
-> 3 x( x − 2) 3x 2 − 6 x 3x 2 − 6 x
+> $\frac{3x(x-5) + (x-2)(2x+3)}{3x(x-2)}$ oe eg $\frac{3x^2 - 15x}{3x^2 - 6x} + \frac{2x^2 - x - 6}{3x^2 - 6x}$ M1 For the correct addition of the 2 correct fractions.
 > or Must reach a common denominator.
-> This may be as separate fractions.
-> eg
-> ( ) (
-> 3x 2 + 9 x ( x − 5) ( x − 2) 2 x 2 + 9 x + 9
-> +
-> )
-> ( )
-> 3x 2 + 9 x ( x − 2) ( )
-> 3x 2 + 9 x ( x − 2) Missing brackets must be recovered.
-> or May be implied by A1
-> 3x( x + 3)( x − 5) + ( x − 2)(2 x + 3)( x + 3)
-> eg
-> 3x( x + 3)( x − 2)
-> 5 x − x − 54 x − 18
-> 3
-> or eg
-> 3x3 + 3x 2 − 18 x
-> 3x3 − 15 x 2 + 9 x 2 − 45 x 2 x3 + 9 x 2 + 9 x − 4 x 2 − 18x − 18
-> or eg +
-> 3x3 + 9 x 2 − 6 x 2 − 18x 3x3 + 9 x 2 − 6 x 2 − 18x
-> cas 5 x 2 − 16 x − 6 A1 oe must be simplified
-> 3 x( x − 2) 5 x 2 − 16 x − 6
-> eg
-> 3x 2 − 6 x
+> eg $\frac{(3x^2 + 9x)(x-5)}{(3x^2 + 9x)(x-2)} + \frac{(x-2)(2x^2 + 9x + 9)}{(3x^2 + 9x)(x-2)}$ This may be as separate fractions.
+> or
+> Missing brackets must be recovered.
+> eg $\frac{3x(x+3)(x-5) + (x-2)(2x+3)(x+3)}{3x(x+3)(x-2)}$ May be implied by A1
+> or eg $\frac{5x^3 - x^2 - 54x - 18}{3x^3 + 3x^2 - 18x}$
+> or eg $\frac{3x^3 - 15x^2 + 9x^2 - 45x}{3x^3 + 9x^2 - 6x^2 - 18x} + \frac{2x^3 + 9x^2 + 9x - 4x^2 - 18x - 18}{3x^3 + 9x^2 - 6x^2 - 18x}$
+> cas $\frac{5x^2 - 16x - 6}{3x(x-2)}$ A1 oe must be simplified
+> eg $\frac{5x^2 - 16x - 6}{3x^2 - 6x}$
 > Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(4)** 3 x 2 + 9 x = 3 x ( x + 3) 4 M1 Correctly factorises 3x 2 + 9 x
+- **(4)** $3x^2 + 9x = 3x(x+3)$ 4 M1 Correctly factorises $3x^2 + 9x$
 
 
 ## Question 20 (4 marks)
@@ -1193,152 +1142,94 @@ The points O, A, B and C are such that OB = 13 AB is parallel to OC Given that t
 
 ### 25 [5]
 
-The points O, A, B and C are such that OB = 13 AB is parallel to OC Given that the x coordinate of B is negative, find the exact coordinates of the point B ( , )
+The points O, A, B and C are such that OB = 13 AB is parallel to OC Given that the x coordinate of B is negative, find the exact coordinates of the point B ( …………… , …………… )
 
 
 **Mark scheme answer**
 
-> → ⎛ −8 − 5λ ⎞ ⎛ −8 ⎞ ⎛ −5λ ⎞ ⎛ −8 ⎞ ⎛ 5λ ⎞ 5 M1 Find OB by adding OA and a multiple of AB
-> ⎡OB = ⎤ ⎜
-> ⎣ ⎦ 7+3λ ⎟ oe eg ⎜ 7 ⎟ + ⎜ 3λ ⎟ eg ⎜ 7 ⎟ + ⎜ − 3λ ⎟ or
-> ⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎝ ⎠ →
-> ⎛ x + 8 ⎞ ⎛ −5λ ⎞ ⎛ x + 8 ⎞ ⎛ 5λ ⎞ place OB written with 2 variables equal to a multiple
-> →
-> oe eg ⎜ ⎟=⎜ ⎟ eg ⎜ ⎟=⎜ ⎟ of AB
-> ⎝ y − 7 ⎠ ⎝ 3λ ⎠ ⎝ y − 7 ⎠ ⎝ − 3λ ⎠ Condone missing brackets from column vectors.
-> ⎛ 8 ⎞ ⎛ 169 − y 2 ⎞ ⎛ −5λ ⎞ ⎛ 5λ ⎞
-> eg ⎜ ⎟ + ⎜ ⎟=⎜ or
-> ⎝ −7 ⎠ ⎜⎝ y ⎟ ⎝ 3λ ⎟⎠ ⎜⎝ − 3λ ⎟⎠
-> ⎠
-> ⎛ 8⎞ ⎛ x ⎞ ⎛ −5λ ⎞ ⎛ 5λ ⎞
-> eg ⎜ ⎟ + ⎜ ⎟=⎜ ⎟ or ⎜ ⎟
-> ⎝ −7 ⎠ ⎜⎝ 169 − x ⎟⎠ ⎝ 3λ ⎠ ⎝ − 3λ ⎠
-> →
-> " ( −8 − 5λ ) "2 + " ( 7 + 3λ ) "2 = 13 oe eg M1 Use their OB = 13 to correctly form an equation
-> →
-> " ( −8 − 5λ ) "2 + " ( 7 + 3λ ) "2 = 132 in their parameter using x 2 + y 2 = 169 and their OB
-> eg if using 5𝜆 and −3𝜆 " ( −8 + 5λ ) "2 + " ( 7 − 3λ ) "2 = 169
-> eg −7 + 169 − "( −5λ − 8)"2 = 3λ oe including for 5𝜆/−3𝜆
-> eg 169 − "( 3λ + 7 )"2 + 8 = −5λ oe including for 5𝜆/−3𝜆
-> ⎡ 7⎤ A1 oe Correct three term quadratic gained.
-> 34λ 2 + 122λ − 56 [ = 0] ⎢⇒ λ = ⎥ oe Do not need to see = 0
-> ⎣ 17 ⎦
-> Implied by correct λ
-> or if using 5𝜆 and −3𝜆
-> ⎡ 7⎤
-> 34λ 2 − 122λ − 56 [ = 0] ⎢⇒ λ = − ⎥
-> ⎣ 17 ⎦
-> 7 7 8 M1 dep on previous 2 M marks or dep on correct 𝜆
-> −8 − 5 × " " and 7 + 3 × " " must use λ > − →
-> 17 17 5 seen for substituting their λ into a correct OB to find
-> or if using 5𝜆 and −3𝜆 both coordinates (working must be seen for an
-> 7 7 8 incorrect λ , allow λ to be any other letter
-> −8 + 5 × "− " and 7 − 3 × "− " must use λ < throughout)
-> 17 17
+> $\left[\overrightarrow{OB}\right] = \begin{pmatrix} -8-5\lambda \\ 7+3\lambda \end{pmatrix}$ oe eg $\begin{pmatrix} -8 \\ 7 \end{pmatrix} + \begin{pmatrix} -5\lambda \\ 3\lambda \end{pmatrix}$ eg $\begin{pmatrix} -8 \\ 7 \end{pmatrix} + \begin{pmatrix} 5\lambda \\ -3\lambda \end{pmatrix}$ 5 M1 Find $\overrightarrow{OB}$ by adding $\overrightarrow{OA}$ and a multiple of $\overrightarrow{AB}$
+> or
+> place $\overrightarrow{OB}$ written with 2 variables equal to a multiple
+> oe eg $\begin{pmatrix} x+8 \\ y-7 \end{pmatrix} = \begin{pmatrix} -5\lambda \\ 3\lambda \end{pmatrix}$ eg $\begin{pmatrix} x+8 \\ y-7 \end{pmatrix} = \begin{pmatrix} 5\lambda \\ -3\lambda \end{pmatrix}$ of $\overrightarrow{AB}$
+> Condone missing brackets from column vectors.
+> eg $\begin{pmatrix} 8 \\ -7 \end{pmatrix} + \begin{pmatrix} \sqrt{169-y^2} \\ y \end{pmatrix} = \begin{pmatrix} -5\lambda \\ 3\lambda \end{pmatrix}$ or $\begin{pmatrix} 5\lambda \\ -3\lambda \end{pmatrix}$
+> eg $\begin{pmatrix} 8 \\ -7 \end{pmatrix} + \begin{pmatrix} x \\ \sqrt{169-x^2} \end{pmatrix} = \begin{pmatrix} -5\lambda \\ 3\lambda \end{pmatrix}$ or $\begin{pmatrix} 5\lambda \\ -3\lambda \end{pmatrix}$
+> $\sqrt{"(-8-5\lambda)"^2 + "(7+3\lambda)"^2} = 13$ oe eg M1 Use their $|\overrightarrow{OB}| = 13$ to correctly form an equation
+> $"(-8-5\lambda)"^2 + "(7+3\lambda)"^2 = 13^2$ in their parameter using $x^2 + y^2 = 169$ and their $\overrightarrow{OB}$
+> eg if using 5λ and −3λ $"(-8+5\lambda)"^2 + "(7-3\lambda)"^2 = 169$
+> eg $-7 + \sqrt{169 - "(-5\lambda-8)"^2} = 3\lambda$ oe including for 5λ/−3λ
+> eg $\sqrt{169 - "(3\lambda+7)"^2} + 8 = -5\lambda$ oe including for 5λ/−3λ
+> $34\lambda^2 + 122\lambda - 56[= 0]\left[\Rightarrow \lambda = \frac{7}{17}\right]$ oe A1 oe Correct three term quadratic gained.
+> or if using 5λ and −3λ Do not need to see = 0
+> $34\lambda^2 - 122\lambda - 56[= 0]\left[\Rightarrow \lambda = -\frac{7}{17}\right]$ Implied by correct λ
+> $-8 - 5\times"\frac{7}{17}"$ and $7 + 3\times"\frac{7}{17}"$ must use $\lambda > -\frac{8}{5}$ M1 dep on previous 2 M marks or dep on correct λ
+> or if using 5λ and −3λ seen for substituting their λ into a correct $\overrightarrow{OB}$ to find
+> both coordinates (working must be seen for an
+> $-8 + 5\times-"\frac{7}{17}"$ and $7 - 3\times-"\frac{7}{17}"$ must use $\lambda < \frac{8}{5}$ incorrect λ, allow λ to be any other letter
+> throughout)
 > Both correct coordinates can imply this mark.
-> cas ⎛ 171 140 ⎞ A1
-> ⎜− , ⎟ oe fractions
-> ⎝ 17 17 ⎠
-> →→ → → →
-> ALT1 ⎡OB = OA + AB ⎤ 5 M1 Find OB by adding OA and a multiple of AB
-> ⎢ →→ ⎥ or
-> ⎢⎣OB = OA + kOC ⎥⎦ →
-> place OB written with 2 variables equal to a
-> ⎡⎛ x ⎞ ⎤ ⎛ −8 − 5k ⎞ ⎛ x + 8 ⎞ ⎛ −5k ⎞ →
-> ⎢⎜ ⎟ = ⎥ ⎜ ⎟ oe eg ⎜ ⎟=⎜ ⎟
-> multiple of AB
-> ⎣⎝ y ⎠ ⎦ ⎝ 7 + 3k ⎠ ⎝ y − 7 ⎠ ⎝ 3k ⎠ Condone missing brackets from column vectors.
-> →
-> "x + 8" "y - 7" M1 using their OB allow any letters for x and y
-> =k= ⇒ x = or y = and x 2 + y 2 = 132
-> −5 3 Correctly rearrange each component for k and write
-> or x in terms of y or y in terms of x
-> → 3 " y − 7" or
-> ⎡"slope" of OC = ⎤ − = ⎡"slope" of AB = ⎤ oe →
-> ⎣ ⎦ 5 "8 + x" ⎣ ⎦ correctly use "slope" of OC = = "slope" of AB
-> 3 11 and write x in terms of y or y in terms of x (this
-> eg − 3( x + 8) = 5( y − 7) eg y = − x + ⇒ x = or y = approach can imply first M mark)
-> 5
-> and
-> ⎡ −5 y + 11 3x − 11⎤
-> ⎢⎣ x =
-> y=
-> −5 ⎥⎦
-> state x 2 + y 2 = 132
-> The rearrangement for k or use→of gradient must be
-> correct and checked for their OB
+> cas $\left(-\frac{171}{17}, \frac{140}{17}\right)$ A1
+> oe fractions
+> ALT1 $\left[\overrightarrow{OB} = \overrightarrow{OA} + \overrightarrow{AB}\right]$ 5 M1 Find $\overrightarrow{OB}$ by adding $\overrightarrow{OA}$ and a multiple of $\overrightarrow{AB}$
+> $\left[\overrightarrow{OB} = \overrightarrow{OA} + k\overrightarrow{OC}\right]$ or
+> place $\overrightarrow{OB}$ written with 2 variables equal to a
+> $\left[\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -8-5k \\ 7+3k \end{pmatrix}\right]$ oe eg $\begin{pmatrix} x+8 \\ y-7 \end{pmatrix} = \begin{pmatrix} -5k \\ 3k \end{pmatrix}$ multiple of $\overrightarrow{AB}$
+> Condone missing brackets from column vectors.
+> $\frac{"x+8"}{-5} = k = \frac{"y-7"}{3} \Rightarrow x =$ or $y =$ and $x^2 + y^2 = 13^2$ M1 using their $\overrightarrow{OB}$ allow any letters for x and y
+> or Correctly rearrange each component for k and write
+> x in terms of y or y in terms of x
+> $\left[\text{"slope" of } \overrightarrow{OC}\right] = -\frac{3}{5} = \frac{"y-7"}{"8+x"}\left[\text{"slope" of } \overrightarrow{AB}\right]$ oe or
+> correctly use "slope" of $\overrightarrow{OC}$ = "slope" of $\overrightarrow{AB}$
+> eg $-3(x+8) = 5(y-7)$ eg $y = -\frac{3}{5}x + \frac{11}{5} \Rightarrow x =$ or $y =$ and write x in terms of y or y in terms of x (this
+> approach can imply first M mark)
+> $\left[x = \frac{-5y+11}{3} \quad y = \frac{3x-11}{-5}\right]$ and
+> state $x^2 + y^2 = 13^2$
+> The rearrangement for k or use of gradient must be
+> correct and checked for their $\overrightarrow{OB}$
 > the expression for x in terms of y or y in terms of x
 > needs to be present, but doesn’t need to be checked.
-> 34 y 2 − 110 y − 1400[ = 0 ] or 34 x2 − 66 x − 4104 [= 0] oe A1 oe Correct three term quadratic gained.
-> ⎡ 140 ⎤
-> Do not need to see = 0
-> ⎢⇒ y = 17 = 8.2(35294.......) ⎥ Look for equivalent coefficients eg
-> ⎢ ⎥ 17 x 2 − 33x − 2052 [ = 0] oe
-> ⎢ x = −171 = −10.0(58823....) ⎥
-> ⎢⎣ 17 ⎥⎦ Implied by correct x or y allow awrt 1dp
-> ⎛ 140 ⎞ ⎛ 171 ⎞ M1 dep on both previous method marks or dep on
-> −5 ⎜ ⎟ + 11 3⎜ − ⎟ − 11
-> 17 ⎠ 17 ⎠ correct x or y
-> x= ⎝ or y = ⎝ oe for substituting their x into a correct expression for
-> 3 −5
-> or y or their y into a correct expression for x
-> 2 2 (working must be seen for an incorrect x or y, allow
-> ⎛ 140 ⎞ ⎛ 171 ⎞ to be any other letters throughout)
-> x = 169 − ⎜ ⎟ or y = 169 − ⎜ − ⎟
-> ⎝ 17 ⎠ ⎝ 17 ⎠ Both correct coordinates can imply this mark.
-> cas ⎛ 171 140 ⎞ A1
-> ⎜− , ⎟ oe fractions
-> ⎝ 17 17 ⎠
-> Total 5 marks
-> →→ → → →
-> ALT2 ⎡OB = OA + AB ⎤ 5 M1 Find OB by adding OA and a multiple of AB
-> ⎢ →→ ⎥ or
-> ⎢⎣OB = OA + kOC ⎥⎦ →
-> place OB written with 2 variables equal to a
-> →
-> ⎡⎛ x ⎞ ⎤ ⎛ −8 − 5k ⎞ ⎛ x + 8 ⎞ ⎛ −5k ⎞ multiple of AB
-> ⎢⎜ ⎟ = ⎥ ⎜ ⎟ oe eg ⎜ ⎟=⎜ ⎟ Condone missing brackets from column vectors.
-> ⎣ ⎝ y ⎠ ⎦ ⎝ 7 + 3k ⎠ ⎝ y − 7 ⎠ ⎝ 3k ⎠
-> →
-> [8 + x = −5k y − 7 = 3k ] M1 using their OB allow any letters for x and y
-> Correctly rearranges one component for k and
-> ⎛ −7 + y ⎞ correctly substitutes into the other component using
-> 8 + 169 − y = −5 ⎜
-> ⎟ oe
-> ⎝ 3 ⎠ x 2 + y 2 = 132 – this may be implied by a correct
-> ⎛8+ x ⎞ quadratic in x or y, usually with a square root sign.
-> ⎟ = −7 + 169 − x oe
-> or 3 ⎜
-> ⎝ −5 ⎠
-> Allow any letters for x and y
-> 34 y − 110 y − 1400 [ = 0 ] or 34 x − 66 x − 4104 [ = 0] oe
-> 2
-> A1 oe Correct three term quadratic gained.
-> Do not need to see = 0
-> ⎡ 140 ⎤ Look for equivalent coefficients eg
-> ⎢⇒ y = 17 = 8.2(35294.......) ⎥
-> ⎢ ⎥ 17 x 2 − 33x − 2052 [ = 0] oe
-> ⎢ x = −171 = −10.0(58823....) ⎥ Implied by correct x or y allow awrt 1dp
-> ⎢⎣ 17 ⎥⎦
-> ⎛ 140 ⎞ ⎛ 171 ⎞ M1 dep on both previous method marks or dep on
-> −5 ⎜ ⎟ + 11 3⎜ − ⎟ − 11 correct x or y
-> ⎝ 17 ⎠ ⎝ 17 ⎠
-> x= or y = for substituting their x into a correct expression for
-> 3 −5
-> Or
+> $34y^2 - 110y - 1400[= 0]$ or $34x^2 - 66x - 4104[= 0]$ oe A1 oe Correct three term quadratic gained.
+> $\left[\Rightarrow y = \frac{140}{17} = 8.2(35294.......) \atop x = \frac{-171}{17} = -10.0(58823....)\right]$ Do not need to see = 0
+> Look for equivalent coefficients eg
+> $17x^2 - 33x - 2052[= 0]$ oe
+> Implied by correct x or y allow awrt 1dp
+> $x = \frac{-5\left(\frac{140}{17}\right)+11}{3}$ or $y = \frac{3\left(-\frac{171}{17}\right)-11}{-5}$ oe M1 dep on both previous method marks or dep on
+> or correct x or y
+> $x = \sqrt{169 - \left(\frac{140}{17}\right)^2}$ or $y = \sqrt{169 - \left(-\frac{171}{17}\right)^2}$ for substituting their x into a correct expression for
 > y or their y into a correct expression for x
-> 2
 > (working must be seen for an incorrect x or y, allow
-> ⎛ 140 ⎞ ⎛ 171 ⎞ to be any other letters throughout)
-> x = 169 − ⎜ ⎟ or y = 169 − ⎜ − ⎟
-> ⎝ 17 ⎠ ⎝ 17 ⎠ Both correct coordinates can imply this mark.
-> cas ⎛ 171 140 ⎞ A1
-> ⎜− , ⎟ oe fractions
-> ⎝ 17 17 ⎠
+> to be any other letters throughout)
+> Both correct coordinates can imply this mark.
+> cas $\left(-\frac{171}{17}, \frac{140}{17}\right)$ A1
+> oe fractions
+> ALT2 $\left[\overrightarrow{OB} = \overrightarrow{OA} + \overrightarrow{AB}\right]$ 5 M1 Find $\overrightarrow{OB}$ by adding $\overrightarrow{OA}$ and a multiple of $\overrightarrow{AB}$
+> $\left[\overrightarrow{OB} = \overrightarrow{OA} + k\overrightarrow{OC}\right]$ or
+> place $\overrightarrow{OB}$ written with 2 variables equal to a
+> $\left[\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -8-5k \\ 7+3k \end{pmatrix}\right]$ oe eg $\begin{pmatrix} x+8 \\ y-7 \end{pmatrix} = \begin{pmatrix} -5k \\ 3k \end{pmatrix}$ multiple of $\overrightarrow{AB}$
+> Condone missing brackets from column vectors.
+> $[8 + x = -5k \quad y - 7 = 3k]$ M1 using their $\overrightarrow{OB}$ allow any letters for x and y
+> Correctly rearranges one component for k and
+> $8 + \sqrt{169-y^2} = -5\left(\frac{-7+y}{3}\right)$ oe correctly substitutes into the other component using
+> $x^2 + y^2 = 13^2$ – this may be implied by a correct
+> or $3\left(\frac{8+x}{-5}\right) = -7 + \sqrt{169-x^2}$ oe quadratic in x or y, usually with a square root sign.
+> Allow any letters for x and y
+> $34y^2 - 110y - 1400[= 0]$ or $34x^2 - 66x - 4104[= 0]$ oe A1 oe Correct three term quadratic gained.
+> $\left[\Rightarrow y = \frac{140}{17} = 8.2(35294.......) \atop x = \frac{-171}{17} = -10.0(58823....)\right]$ Do not need to see = 0
+> Look for equivalent coefficients eg
+> $17x^2 - 33x - 2052[= 0]$ oe
+> Implied by correct x or y allow awrt 1dp
+> $x = \frac{-5\left(\frac{140}{17}\right)+11}{3}$ or $y = \frac{3\left(-\frac{171}{17}\right)-11}{-5}$ M1 dep on both previous method marks or dep on
+> Or correct x or y
+> $x = \sqrt{169 - \left(\frac{140}{17}\right)^2}$ or $y = \sqrt{169 - \left(-\frac{171}{17}\right)^2}$ for substituting their x into a correct expression for
+> y or their y into a correct expression for x
+> (working must be seen for an incorrect x or y, allow
+> to be any other letters throughout)
+> Both correct coordinates can imply this mark.
+> cas $\left(-\frac{171}{17}, \frac{140}{17}\right)$ A1
+> oe fractions
 > Total 5 marks
-> Question Working Answer Mark Notes
 
-- **(5)** → ⎛ −8 − 5λ ⎞ ⎛ −8 ⎞ ⎛ −5λ ⎞ ⎛ −8 ⎞ ⎛ 5λ ⎞ 5 M1 Find OB by adding OA and a multiple of AB
+- **(5)** $\left[\overrightarrow{OB}\right] = \begin{pmatrix} -8-5\lambda \\ 7+3\lambda \end{pmatrix}$ oe eg $\begin{pmatrix} -8 \\ 7 \end{pmatrix} + \begin{pmatrix} -5\lambda \\ 3\lambda \end{pmatrix}$ eg $\begin{pmatrix} -8 \\ 7 \end{pmatrix} + \begin{pmatrix} 5\lambda \\ -3\lambda \end{pmatrix}$ 5 M1 Find $\overrightarrow{OB}$ by adding $\overrightarrow{OA}$ and a multiple of $\overrightarrow{AB}$
 
 
 ## Question 26 (6 marks)
@@ -1405,63 +1296,46 @@ A regular polygon P has x 2 sides.
 
 ### 27(a) [1]
 
-Write down, in terms of x, an expression for the size, in degrees, of each exterior angle of P ° A regular polygon Q has x sides. The size of each exterior angle of polygon Q is 9° greater than the size of each exterior angle of polygon P
+A regular polygon P has (x + 2) sides.
+
+(a) Write down, in terms of x, an expression for the size, in degrees, of each exterior angle of P
+
+A regular polygon Q has x sides.
+
+The size of each exterior angle of polygon Q is 9° greater than the size of each exterior angle of polygon P
 
 
 **Mark scheme answer**
 
-> 360 1 180 x
-> oe B1 oe eg 180 −
-> x+2 x+2
+> $\frac{360}{x+2}$ oe 1 B1 oe eg $180 - \frac{180x}{x+2}$
 
-- **(1)** 360 1 180 x
+- **(1)** $\frac{360}{x+2}$ oe 1 B1 oe eg $180 - \frac{180x}{x+2}$
 
 ### 27(b) [3]
 
-Show that x 2 2 x
+Show that x^2 + 2x − 80 = 0
 
 
 **Mark scheme answer**
 
-> 360 360 3 M1 Form correct equation but ft their answer for part (a)
-> −9 =" "
-> x x+2
-> 180 x 180( x − 2) Note from a correct expression in part (a) an equivalent
-> oe eg "180 − "+ 9 = 180 − equation is
-> x+2 x
-> 180 x 180( x − 2)
-> oe eg "189 −
-> 180 x
-> " = 180 −
-> 180( x − 2) [ −] + 9 = [ −]
-> x+2 x
-> x+2 x
-> Eg 360(x + 2) – 9x(x + 2) = 360x oe M1 for correct method to remove the denominators from
-> eg 360x + 720 = 9x2 + 18x + 360x the correct equation but
-> [9x2 + 18x – 720 = 0] Condone correct method to remove denominators from
-> 360 360
-> +9 =" "
-> x x+2
-> 360 360
-> =" "− 9
-> x x+2
-> 360 360
-> =" "
-> x x+2
+> $\frac{360}{x} - 9 = "\frac{360}{x+2}"$ 3 M1 Form correct equation but ft their answer for part (a)
+> oe eg $"180 - \frac{180x}{x+2}" + 9 = 180 - \frac{180(x-2)}{x}$ Note from a correct expression in part (a) an equivalent
+> oe eg $"189 - \frac{180x}{x+2}" = 180 - \frac{180(x-2)}{x}$ equation is
+> $\left[-\right]\frac{180x}{x+2} + 9 = \left[-\right]\frac{180(x-2)}{x}$
+> Eg $360(x+2) - 9x(x+2) = 360x$ oe M1 for correct method to remove the denominators from
+> eg $360x + 720 = 9x^2 + 18x + 360x$ the correct equation but
+> $[9x^2 + 18x - 720 = 0]$ Condone correct method to remove denominators from
+> $\frac{360}{x} + 9 = "\frac{360}{x+2}"$
+> $\frac{360}{x} = "\frac{360}{x+2}" - 9$
+> $\frac{360}{x} = "\frac{360}{x+2}"$
 > oe
-> 180 x 180( x − 2)
-> 180 − " "− 9 = 180 −
-> x+2 x
-> 180 x 180( x − 2)
-> [ −] = [ −] +9
-> x+2 x
-> 180 x 180( x − 2)
-> 171 − " " = 180 −
-> x+2 x
-> wr Correctly A1 for fully correct working
-> shown Allow = 0 to be missing on the final answer only
+> $180 - "\frac{180x}{x+2}" - 9 = 180 - \frac{180(x-2)}{x}$
+> $\left[-\right]\frac{180x}{x+2} = \left[-\right]\frac{180(x-2)}{x} + 9$
+> $171 - "\frac{180x}{x+2}" = 180 - \frac{180(x-2)}{x}$
+> wr Correctly shown A1 for fully correct working
+> Allow = 0 to be missing on the final answer only
 
-- **(3)** 360 360 3 M1 Form correct equation but ft their answer for part (a)
+- **(3)** $\frac{360}{x} - 9 = "\frac{360}{x+2}"$ 3 M1 Form correct equation but ft their answer for part (a)
 
 ### 27(c) [2]
 

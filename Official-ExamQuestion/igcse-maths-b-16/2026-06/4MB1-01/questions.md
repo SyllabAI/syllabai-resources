@@ -4,26 +4,25 @@
 
 ## Question 1 (2 marks)
 
-Solve the inequality 6 x 20 2 x
+Solve the inequality 6x < 20 − 2x
 
 ### 1 [2]
 
-Solve the inequality 6 x 20 2 x
+Solve the inequality 6x < 20 − 2x
 
 
 **Mark scheme answer**
 
-> 8 x < 20 2 M1 for isolating the terms in x correctly
+> 8x < 20
+> M1 for isolating the terms in x correctly
 > or for x = 2.5 or x > 2.5 or 2.5
-> Accept 6 x + 2 x < 20 Allow any inequality/equals symbol
+> Accept 6x + 2x < 20 Allow any inequality/equals symbol
 > x < 2.5
-> A1 oe eg 2.5 > x or x <
+> A1 oe eg 2.5 > x or x < 20/8
 > Only isw incorrect simplification of a correct inequality
-> Do not allow xx ≤ 2.5?or x = 2.5 or x > 2.5 or 2.5 on answer line
-> cas Total 2 marks
-> Question Working Answer Mark Notes
+> Do not allow x ≤ 2.5 or x = 2.5 or x > 2.5 or 2.5 on answer line
 
-- **(2)** 8 x < 20 2 M1 for isolating the terms in x correctly
+- **(2)** 8x < 20
 
 
 ## Question 2 (2 marks)
@@ -345,31 +344,28 @@ Calculate x Give your answer in standard form.
 
 ## Question 13 (4 marks)
 
-x is directly proportional to w y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x
+x is directly proportional to $\sqrt{w}$ y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x
 
 ### 13 [4]
 
-x is directly proportional to w y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x
+x is directly proportional to $\sqrt{w}$ y is inversely proportional to w x = 2 when y = 16 Find a formula for y in terms of x
 
 
 **Mark scheme answer**
 
-> x = k w oe 4 M1 For a correct relationship for x in terms of w.
+> $x = k\sqrt{w}$ oe 4 M1 For a correct relationship for x in terms of w.
 > Allow any letter for k but not x. w or y
-> c c M1 For a correct relationship for y in terms of w.
-> y= or w =
-> w y Allow any letter for c (may be the same letter used for M1 but not x. w
+> $y = \frac{c}{w}$ or $w = \frac{c}{y}$ M1 For a correct relationship for y in terms of w.
+> Allow any letter for c (may be the same letter used for M1 but not x. w
 > or y)
-> m m M1 dep on both the previous M marks being awarded. For eliminating w
-> ⎡⎣ x 2 = k 2 w ⇒⎤⎦ y = 2 and 16 = 2
-> x 2 to gain a relationship between x and y and substituting x = 2 and y = 16
-> 64 A1 oe
-> y= NB y must be the subject of the equation
-> x2
-> cas Total 4 marks
-> Question Working Answer Mark Notes
+> $[x^2 = k^2 w \Rightarrow]$ $y = \frac{m}{x^2}$ and $16 = \frac{m}{2^2}$ M1 dep on both the previous M marks being awarded. For eliminating w
+> to gain a relationship between x and y and substituting x = 2 and y = 16
+> $y = \frac{64}{x^2}$ A1 oe
+> NB y must be the subject of the equation
+> cas
+> Total 4 marks
 
-- **(4)** x = k w oe 4 M1 For a correct relationship for x in terms of w.
+- **(4)** $x = k\sqrt{w}$ oe 4 M1 For a correct relationship for x in terms of w.
 
 
 ## Question 14 (4 marks)
@@ -706,61 +702,44 @@ Without using a calculator and showing your working clearly, express 3 5 in the 
 
 ## Question 21 (5 marks)
 
-A and B are two mathematically similar solids. The volume of A is 324 000 cm 3 The volume of B is 12 000 cm 3 The total surface area of A is 3 x+ 6 cm 2 The total surface area of B is 9 x cm 2 Given that the height of B is 5 x cm find, in cm, the height of A Show all your working. ........................................................... cm
+A and B are two mathematically similar solids. The volume of A is 324 000 cm³ The volume of B is 12 000 cm³ The total surface area of A is $3^{x+6}$ cm² The total surface area of B is $9^x$ cm² Given that the height of B is $5^x$ cm find, in cm, the height of A Show all your working cm
 
 ### 21 [5]
 
-A and B are two mathematically similar solids. The volume of A is 324 000 cm 3 The volume of B is 12 000 cm 3 The total surface area of A is 3 x+ 6 cm 2 The total surface area of B is 9 x cm 2 Given that the height of B is 5 x cm find, in cm, the height of A Show all your working cm
+A and B are two mathematically similar solids. The volume of A is 324 000 cm³ The volume of B is 12 000 cm³ The total surface area of A is $3^{x+6}$ cm² The total surface area of B is $9^x$ cm² Given that the height of B is $5^x$ cm find, in cm, the height of A Show all your working cm
 
 
 **Mark scheme answer**
 
-> 324000 5 M1 for a correct SF for height/length or a correct equation.
-> 3 or 3 27 or 3 or
-> 12000
+> $\sqrt[3]{\frac{324000}{12000}}$ or $\sqrt[3]{27}$ or 3, or
+> $\sqrt[3]{\frac{12000}{324000}}$ or $\sqrt[3]{\frac{1}{27}}$ or $\frac{1}{3}$, or
+> $9^x \times k^2 = 3^{x+6}$ and $12000 \times k^3 = 3240000$
+> M1 for a correct SF for height/length or a correct equation.
 > The scale factor may be implicit within an area scale factor or an
-> 12000 1 1 2 2
-> or 3 or or ⎛ 324000 ⎞ ⎛ 3 ⎞
-> x+6
-> 3 ⎛ 324000 ⎞
-> 324000 27 3 equation for example ⎜ 3 or =
-> ⎜ 12000 ⎟⎟ ⎜ ⎟ ⎜ x ⎟
-> ⎝ 12000 ⎠ ⎝ 9 ⎠
-> x x +6
-> 9 × k = 3 and 12000 × k 3 = 3240000
-> ⎝ ⎠
-> 9x × ("3") = 3x+6 oe or M1 apply the area scale factor to form an equation linking the areas
-> allow 9x × ( m ) = 3x +6 where m > 1 or 9x = 3x+6 × ( n ) where
-> 2
-> ⎛ 1 ⎞
-> 9 x = 3x+ 6 × ⎜ " " ⎟ oe or 0 < n <1
-> ⎝ 3 ⎠
-> 2
-> ⎛ 324000 ⎞ ⎛ 3 ⎞
-> x+6
+> equation for example $\left(\sqrt[3]{\frac{324000}{12000}}\right)^{2}$ or $\left(\frac{324000}{12000}\right)^{2} = \left(\frac{3^{x+6}}{9^{x}}\right)^{3}$
+> $9^x \times ("3")^{2} = 3^{x+6}$ oe or
+> $9^x = 3^{x+6} \times \left("\frac{1}{3}"\right)$ oe or
+> $\left(\frac{324000}{12000}\right)^{2} = \left(\frac{3^{x+6}}{9^{x}}\right)^{3}$ oe
+> M1 apply the area scale factor to form an equation linking the areas
+> allow $9^x \times (m)^{2} = 3^{x+6}$ where $m > 1$ or $9^x = 3^{x+6} \times (n)^{2}$ where
+> $0 < n < 1$
 > May be implied by award of the 3rd M1
-> ⎜ ⎟ = ⎜ x ⎟ oe
-> ⎝ 12000 ⎠ ⎝ 9 ⎠
-> 33 x +18 M1 dep on at least one of the previous M marks being awarded.
-> 32 x × ( 3) = 3x+6 or ( 3) =
-> 2
-> or Changing all terms to base of 3 or 9 to gain a correct equation or
-> 36 x
-> x value for x
-> +3
-> 9 x × 9 = 9 2 ( ) or 9 x = 9 2 ×
-> 1 x+6
-> or x = 4 or 2 x + 2 = x + 6 oe eg
-> x
-> 6 = −3 x + 18 or x + 1 = + 3
-> 1 M1 dep on the previous M mark being awarded. If working shown
-> 5"4" × 3 or 5"4" ÷
-> 3 ft their value of x if labelled or comes from correct working.
-> 1875 A1
-> cas Total 5 marks
-> Question Working Answer Mark Notes
+> $3^{2x} \times (3)^{2} = 3^{x+6}$ or $(3)^{6} = \frac{3^{3x+18}}{3^{6x}}$ or
+> $9^x \times 9 = 9^{\frac{1}{2}(x+6)}$ or $9^x = 9^{\frac{x}{2}+3} \times \frac{1}{9}$
+> or $x = 4$ or $2x + 2 = x + 6$ oe eg
+> $6 = -3x + 18$ or $x + 1 = \frac{x}{2} + 3$
+> M1 dep on at least one of the previous M marks being awarded.
+> Changing all terms to base of 3 or 9 to gain a correct equation or
+> value for x
+> $5^{"4"} \times 3$ or $5^{"4"} \div \frac{1}{3}$
+> M1 dep on the previous M mark being awarded. If working shown
+> ft their value of x if labelled or comes from correct working.
+> 1875
+> A1
+> cas
+> Total 5 marks
 
-- **(5)** 324000 5 M1 for a correct SF for height/length or a correct equation.
+- **(5)** $\sqrt[3]{\frac{324000}{12000}}$ or $\sqrt[3]{27}$ or 3, or
 
 
 ## Question 22 (5 marks)
@@ -805,21 +784,21 @@ Diagram NOT accurately drawn O B 8 cm 30° D C In the diagram B and C are points
 ## Question 23 (7 marks)
 ### 23(a) [1]
 
-Simplify w3 w
+Simplify $w^3 \times w^{-5}$
 
 
 **Mark scheme answer**
 
-> w −2
+> w⁻²
 > 1
 > B1 accept
-> w2
+> 1/w²
 
-- **(1)** w −2
+- **(1)** w⁻²
 
 ### 23(b) [1]
 
-Simplify 5 x 0
+Simplify 5x⁰
 
 
 **Mark scheme answer**
@@ -830,37 +809,32 @@ Simplify 5 x 0
 
 ### 23(c) [2]
 
-Simplify fully 8a b 3 9 3 1
+Simplify fully $(8a^3b^9)^{\frac{1}{3}}$
 
 
 **Mark scheme answer**
 
-> mab or 2a b or 2ab
-> 3 p 3 q
-> 2 M1 For an expression in the correct form ma pbq with 2 of m, p and
-> q correct
-> 2ab3 A1 fully correct
+> $mab^3$ or $2a^p b^3$ or $2ab^q$
+> 2 M1 For an expression in the correct form $ma^p b^q$ with 2 of m, p and q correct
+> $2ab^3$ A1 fully correct
 
-- **(2)** mab or 2a b or 2ab
+- **(2)** $mab^3$ or $2a^p b^3$ or $2ab^q$
 
 ### 23(d) [3]
 
-Simplify fully 36c d 4 2 2 3c 5d 3
+Simplify fully $\frac{(36c^4d^2)^{\frac{1}{2}}}{3c^{-5}d^3}$
 
 
 **Mark scheme answer**
 
-> 6c 2 d or 3 M1 for correctly simplifying the numerator or for a final expression
-> 2c y d z or xc y d −2 or xc 7 d z in the form xc y d z with 1 of x, y and z correct
-> 2c 7 d z or 2c y d −2 or xc 7 d −2 M1 For a final expression in the form xc y d z with 2 of x, y and z
-> correct
-> 2c 7 d − 2 2c 7
-> A1 oe eg 2
-> d
-> cas Total 7 marks
-> Question Working Answer Mark Notes
+> $6c^2d$ or $2c^y d^z$ or $xc^y d^{-2}$ or $xc^7 d^z$
+> $2c^y d^z$ or $2c^y d^{-2}$ or $xc^7 d^{-2}$
+> 3 M1 for correctly simplifying the numerator or for a final expression
+> in the form $xc^y d^z$ with 1 of x, y and z correct
+> M1 For a final expression in the form $xc^y d^z$ with 2 of x, y and z correct
+> $2c^7 d^{-2}$ A1 oe eg $\frac{2c^7}{d^2}$
 
-- **(3)** 6c 2 d or 3 M1 for correctly simplifying the numerator or for a final expression
+- **(3)** $6c^2d$ or $2c^y d^z$ or $xc^y d^{-2}$ or $xc^7 d^z$
 
 
 ## Question 24 (6 marks)
@@ -983,44 +957,42 @@ A, X and Y are three points on horizontal ground. AB is a vertical mast with hei
 
 ## Question 26 (6 marks)
 
-Solve the simultaneous equations x2 2 y2 3y x Show clear algebraic working.
+Solve the simultaneous equations
+$x^2 = 2 - y^2$
+$3y - x = 4$
+Show clear algebraic working.
 
 ### 26 [6]
 
-Solve the simultaneous equations x2 2 y2 3y x Show clear algebraic working.
+Solve the simultaneous equations
+$x^2 = 2 - y^2$
+$3y - x = 4$
+Show clear algebraic working.
 
 
 **Mark scheme answer**
 
-> (3 y − 4) = 2 − y 6 M1 for substituting a correct expression for x or y into the
-> 2 2
-> ⎛ 4+ x ⎞
-> x = 2−⎜
-> ⎟ quadratic equation
-> ⎝ 3 ⎠
-> 16 + 8 x + x 2 9 y 2 − 24 y + 16 ⎡⎣= 2 − y 2 ⎤⎦ M1 for a correct method to multiply out the squared
-> ⎡⎣ x = 2 − ⎤⎦
-> brackets
-> 10 x 2 + 8 x − 2 = 0 10 y 2 − 24 y + 14 = 0 M1 for a correct 3-term quadratic equation equal to zero.
-> Allow unsimplified equations involving x2/y2 and x/y and
+> $x^2 = 2 - \left(\frac{4+x}{3}\right)^2$  $(3y-4)^2 = 2 - y^2$  6 M1 for substituting a correct expression for x or y into the
+> quadratic equation
+> $[x^2 = 2 - \frac{16+8x+x^2}{9}]$  $9y^2 - 24y + 16\ [ = 2 - y^2 ]$ M1 for a correct method to multiply out the squared brackets
+> $10x^2 + 8x - 2 = 0$  $10y^2 - 24y + 14 = 0$ M1 for a correct 3-term quadratic equation equal to zero.
+> Allow unsimplified equations involving x²/y² and x/y and
 > constant. May be implied by the 4th M1
-> ( 5x − 1)( x + 1) ( 5 y − 7 )( y − 1) M1 for using a correct method to solve the/their simplified
+> $(5x-1)(x+1)$  $(5y-7)(y-1)$ M1 for using a correct method to solve the/their simplified
 > 3-term quadratic.
 > If the quadratic is correct then the method is implied by
-> x = 0.2 and x = −1 or y = 1.4 and y = 1 (condone incorrect
+> $x = 0.2$ and $x = -1$ or $y = 1.4$ and $y = 1$ (condone incorrect
 > labelling)
 > Working must be shown if their quadratic is incorrect to
 > gain this method mark. If factorising must multiply out to
 > give 2 correct terms. Allow use of formula with one sign
 > error . Allow completing the square with one sign error only
-> x = 0.2 and x = −1 oe y = 1.4 and y = 1 oe A1 for both x values correct or both y values correct or
+> $x = 0.2$ and $x = -1$ oe $y = 1.4$ and $y = 1$ oe A1 for both x values correct or both y values correct or
 > allow for 1 correct pair
-> x = 0.2, A1oe dependent on 3rd M1 being awarded
-> y = 1.4 Must be correctly paired
-> and isw if correct values are paired correctly in the working
-> x = –1,
-> y=1
+> $x = 0.2$, $y = 1.4$ A1oe dependent on 3rd M1 being awarded
+> and $x = -1$, $y = 1$ Must be correctly paired
+> isw if correct values are paired correctly in the working
 > wr Total 6 marks
 
-- **(6)** (3 y − 4) = 2 − y 6 M1 for substituting a correct expression for x or y into the
+- **(6)** $x^2 = 2 - \left(\frac{4+x}{3}\right)^2$  $(3y-4)^2 = 2 - y^2$  6 M1 for substituting a correct expression for x or y into the
 

@@ -195,29 +195,18 @@ Make d the subject of g 5d 4e 2
 
 **Mark scheme answer**
 
-> 4e 2
-> g + 4e
-> 2 M1 for a correct first step eg by adding 4e 2 or dividing
-> g + 4e2 = 5d or =d− or or
-> 5 5 5 throughout by 5 or correct expression for d without d =
-> g 4e 2 …
-> − g − 4e2 = −5d or − = − d + or
-> 5
-> − g − 4e 2
-> −5
-> g + 4e 2 g 4e 2
-> d= A1 oe eg d = + Allow the other way round eg
-> 5 5
-> or g + 4e 2
-> = d Must see d = … or … = d at least once but
-> − g − 4e 2
-> d= allow if correct answer is in final answer in working but
-> −5
+> $g + 4e^2 = 5d$ or $\frac{g}{5} = d - \frac{4e^2}{5}$ or $\frac{g+4e^2}{5}$ or
+> $-g - 4e^2 = -5d$ or $-\frac{g}{5} = -d + \frac{4e^2}{5}$ or
+> $\frac{-g-4e^2}{-5}$
+> $d = \frac{g+4e^2}{5}$ 2 M1 for a correct first step eg by adding $4e^2$ or dividing
+> or throughout by 5 or correct expression for $d$ without $d =$ …
+> $d = \frac{-g-4e^2}{-5}$ A1 oe eg $d = \frac{g}{5} + \frac{4e^2}{5}$ Allow the other way round eg
+> $\frac{g+4e^2}{5} = d$ Must see $d =$ … or … $= d$ at least once but
+> allow if correct answer is in final answer in working but
 > omitted on the answer line. Do not ISW
 > cas Total 2 marks
-> Question Working Answer Mark Notes
 
-- **(2)** 4e 2
+- **(2)** $g + 4e^2 = 5d$ or $\frac{g}{5} = d - \frac{4e^2}{5}$ or $\frac{g+4e^2}{5}$ or
 
 
 ## Question 7 (2 marks)
@@ -264,16 +253,14 @@ Simplify fully 32q r 20 5 5
 
 **Mark scheme answer**
 
-> 8q12 r 3 2 B2
-> 12 3
-> Allow in any order eg q r 8
-> 8 must be not be 23
+> $8q^{12}r^3$ 2 B2
+> Allow in any order eg $q^{12}r^3 8$
+> 8 must be not be $2^3$
 > (B1 for a product with 2 parts correct and 3 parts in total)
 > Condone inclusion of multiplication signs for B1.
 > cas Total 3 marks
-> Question Working Answer Mark Notes
 
-- **(2)** 8q12 r 3 2 B2
+- **(2)** $8q^{12}r^3$ 2 B2
 
 
 ## Question 9 (3 marks)
@@ -371,32 +358,30 @@ Without using a calculator and showing all your working, find the value of the i
 
 **Mark scheme answer**
 
-> 225 × 3 – 36 × 3 3 M1 Must see 675 and 108 decomposed. The square
-> roots don’t need to be present if there is a correct
-> or
-> decomposition
-> 25 × 27 – 4 × 27 Allow further decomposition for this mark
-> or (eg 225 = 5 × 52 × 3 eg 108 = 4 × 33 ), so long as 675
-> 15 3 – 6 3 and 108 are decomposed into at least the equivalent
-> or of
-> 5 27 – 2 27 225 x 3 and 36 x 3
+> $\sqrt{225\times3} - \sqrt{36\times3}$ 3 M1 Must see 675 and 108 decomposed. The square
+> or roots don’t need to be present if there is a correct
+> $\sqrt{25\times27} - \sqrt{4\times27}$ decomposition
+> or Allow further decomposition for this mark
+> $15\sqrt{3} - 6\sqrt{3}$ (eg $225 = 5\times5^2\times3$ eg $108 = 4\times3^3$), so long as 675
+> or and 108 are decomposed into at least the equivalent
+> $5\sqrt{27} - 2\sqrt{27}$ of
+> 225 x 3 and 36 x 3
 > or
 > 25 x 27 and 4 x 27
-> do not allow 9 3 alone for M1
-> do not allow, for example 225 × 3 – 4 × 27 only
+> do not allow $9\sqrt{3}$ alone for M1
+> do not allow, for example $\sqrt{225\times3} - \sqrt{4\times27}$ only
 > unless recovered later in the question.
 > Not necessary to see subtraction sign for this mark.
-> 9 3 or 3 27 M1 (dep on first M1)
+> $9\sqrt{3}$ or $3\sqrt{27}$ M1 (dep on first M1)
 > Not necessary to see subtraction sign for this mark,
 > but must be a square root.
-> Please send any alternative methods seen to 243 A1 (dep on both M marks) condone 243
+> Please send any alternative methods seen to 243 A1 (dep on both M marks) condone $\sqrt{243}$
 > review.
 > Subtraction sign seen at least once.
 > No incorrect working for the A mark.
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
-- **(3)** 225 × 3 – 36 × 3 3 M1 Must see 675 and 108 decomposed. The square
+- **(3)** $\sqrt{225\times3} - \sqrt{36\times3}$ 3 M1 Must see 675 and 108 decomposed. The square
 
 
 ## Question 12 (3 marks)
@@ -405,44 +390,32 @@ Solve 4 3 Show clear algebraic working. x = ......................... . . . . . 
 
 ### 12 [3]
 
-Solve 4 3 Show clear algebraic working. x =
+Solve 4 3 Show clear algebraic working. x = ……………Solve 4 3 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
 
-> 2x + 3 x −1 3 M1 for clear intention to multiply all terms by 12 (or
-> 4 3 4 × 3) or a multiple of 12
-> 2x + 3 x −1
-> ⎛ 2x + 3 x −1 ⎞ Do not allow eg 12 × + = 12 × 7 unless
-> ⎝ 4 3 ⎠
-> recovered
-> or
-> or
-> oe express LHS as two fractions over 12 (or 4 × 3) or
-> 3(2 x + 3) + 4( x − 1) = 12 × 7 or
-> a multiple of 12 or
-> 3(2 x + 3) 4( x − 1)
-> + [ = 7] or oe express as a single fraction with a denominator of
-> 3(2 x + 3) + 4( x − 1) If numerator expanded allow 1 sign or numerical
-> [ = 7] error
-> or or
-> 2x 3 x 1 separate out terms on the left
-> + + − = 7 oe
-> 4 4 3 3
-> 6 x + 4 x = 12 × 7 − 9 + 4 oe or M1 for a correct equation with no brackets and x terms
-> gathered on one side, constants on the other – examples
-> 10 x = 79 oe or given, look for equivalences.
-> 10 x 79
-> = oe
-> 6x 4x 3 1 already awarded.
-> + = 7 − + oe
-> 6 x + 4 x 79
-> = oe
+> $12\times\frac{2x+3}{4} + 12\times\frac{x-1}{3} = 12\times7$ or 3 M1 for clear intention to multiply all terms by 12 (or
+> $12\times\left(\frac{2x+3}{4} + \frac{x-1}{3}\right) = 12\times7$ oe $4\times3$) or a multiple of 12
+> or Do not allow eg $12\times\frac{2x+3}{4} + \frac{x-1}{3} = 12\times7$ unless
+> $3(2x+3) + 4(x-1) = 12\times7$ or recovered
+> $\frac{3(2x+3)}{12} + \frac{4(x-1)}{12} [= 7]$ or
+> $\frac{3(2x+3)+4(x-1)}{12} [= 7]$ oe express LHS as two fractions over 12 (or $4\times3$) or
+> or a multiple of 12 or
+> $\frac{2x}{4} + \frac{3}{4} + \frac{x}{3} - \frac{1}{3} = 7$ oe oe express as a single fraction with a denominator of
+> 12 (or $4\times3$) or a multiple of 12
+> If numerator expanded allow 1 sign or numerical
+> error
+> or separate out terms on the left
+> $6x + 4x = 12\times7 - 9 + 4$ oe or M1 for a correct equation with no brackets and x terms
+> $10x = 79$ oe or gathered on one side, constants on the other – examples
+> $\frac{10x}{12} = \frac{79}{12}$ oe given, look for equivalences.
+> $\frac{6x}{12} + \frac{4x}{12} = 7 - \frac{3}{4} + \frac{1}{3}$ oe This mark implies the previous M mark if not
+> $\frac{6x+4x}{12} = \frac{79}{12}$ oe already awarded.
 > 7.9 A1oe must have gained the previous M mark.
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
-- **(3)** 2x + 3 x −1 3 M1 for clear intention to multiply all terms by 12 (or
+- **(3)** $12\times\frac{2x+3}{4} + 12\times\frac{x-1}{3} = 12\times7$ or 3 M1 for clear intention to multiply all terms by 12 (or
 
 
 ## Question 13 (3 marks)
@@ -946,17 +919,29 @@ The table shows information about the monthly wages of 100 employees at a compan
 
 ### 23(a) [4]
 
+The table shows information about the monthly wages of 100 employees at a company. 
+| Wage (£w) | Frequency |
+| --- | --- |
+| $0 < w \le 600$ | 7 |
+| $600 < w \le 1200$ | 13 |
+| $1200 < w \le 1800$ | 28 |
+| $1800 < w \le 2400$ | 42 |
+| $2400 < w \le 3000$ | 10 |
+
 Calculate an estimate for the mean wage of the 100 employees. £ The mean number of hours worked by the 100 employees last week is 33 hours. The total number of hours worked by 91 of these employees last week is 2976 hours.
 
 
 **Mark scheme answer**
 
 > 4 M2 for at least 3 correct products using the midpoints (need not be
-> (300 × 7) + (900 × 13) + (1500 × 28) + evaluated but must be added)
-> (2100 × 42) + (2700 × 10) or
+> $[300 \times 7] + [900 \times 13] + [1500 \times 28] +$
+> $[2100 \times 42] + [2700 \times 10]$ evaluated but must be added)
+> or
+> $2100 + 11700 + 42000 + 88200 +$
+> $27000 [= 171000]$ or
 > If not M2: M1 for at least 3 products using frequency and a value
-> or 2100 + 11700 + 42000 + 88200 + within the interval with intention to add (eg an (incorrect) total at
-> 27000 [= 171000] the bottom of the table or on the page or an addition sign
+> within the interval with intention to add (eg an (incorrect) total at
+> the bottom of the table or on the page or an addition sign
 > somewhere next to their products or totals).
 > Condone use of the lower or upper bounds.
 > The numbers used can be a mix of, for example, upper, lower and
@@ -970,11 +955,9 @@ Calculate an estimate for the mean wage of the 100 employees. £ The mean number
 > If candidates are using upper or lower bounds or midpoints the
 > evaluated products or the total will imply their working. If not,
 > they must show what they are using to calculate their products.
-> "171000" M1 dep on at least M1 awarded
-> eg or Allow division by their Σf provided addition seen or total under
-> 100
-> "171000" column seen
-> 7 + 13 + 28 + 42 + 10
+> eg $\frac{"171000"}{100}$ or $\frac{"171000"}{7 + 13 + 28 + 42 + 10}$ M1 dep on at least M1 awarded
+> Allow division by their Σf provided addition seen or total under
+> column seen
 > 1710 A1
 
 - **(4)** 4 M2 for at least 3 correct products using the midpoints (need not be

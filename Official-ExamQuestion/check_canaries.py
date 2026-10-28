@@ -1089,6 +1089,23 @@ for c in cans:
             if not ok:
                 print(f"  ! G9 mutated-fact control not DETECTED rc={r.returncode}: {(r.stdout + r.stderr)[-300:]}")
 
+        elif chk == "part_field_sha":
+            # F114 (run-017 tranche-3 corpus reconcile): byte pins for fields synced
+            # from the plane of record — any re-extraction symbol-loss regression trips.
+            import hashlib as _hl
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
+            got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == c["part"]]
+            if not got:
+                ok = False
+                print(f"  ! {series} {c['part']}: part missing for field pin")
+            else:
+                v = got[0].get(c["field"])
+                raw = (json.dumps(v, ensure_ascii=False, separators=(",", ":")) if c["field"] == "mark_points"
+                       else (v or "")).encode("utf-8")
+                h = _hl.sha256(raw).hexdigest()
+                ok = h == c["sha256"]
+                if not ok:
+                    print(f"  ! {series} {c.get('paper')} {c['part']}.{c['field']}: sha pin drift (regression or re-baseline)")
         else:
             ok = False
             print(f"  ! unknown check type {chk}")
