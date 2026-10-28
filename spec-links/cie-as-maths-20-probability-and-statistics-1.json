@@ -8,7 +8,23 @@
   "state": "SUGGESTED",
   "lane": "T-SPECS-CIE-JOIN-2",
   "gate": "pending",
-  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)"
+  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-2",
+   "directive": "fire the re-join lane",
+   "gateway_trace": "1a181f6adcfa4c55",
+   "applied_utc": "2026-10-28T12:30:00Z",
+   "base_commit": "8460a5f3a03fd7d43ed31e39c27d846f8a747208",
+   "method": "cie_index_rejoin_wave2as",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the wave-2 AS lanes' pending anchors (JOIN-2 follow-on #1); SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the AS scope law bounds every pool; nothing manufactured (rule 3)"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -17,15 +33,15 @@
  },
  "totals": {
   "items": 633,
-  "items_with_codes": 0,
+  "items_with_codes": 101,
   "by_kind": {
    "notes": 31,
    "question_parts": 602,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 5,
+   "question_parts": 96,
    "flashcards": 0
   }
  },
@@ -34,12 +50,32 @@
   "parts": 901,
   "universe_ids": 46,
   "universe_resolved": 0,
-  "pending_refs": 947,
+  "pending_refs": 841,
   "flashcards_discovered_uncoded": 230,
   "scope_law": {
    "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
    "registry_points": 146,
    "lane_points": 146
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-2",
+   "applied_utc": "2026-10-28T12:30:00Z",
+   "resolved_pairs": 5,
+   "resolved_refs": 106,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 5
+   },
+   "ambiguous_pairs": 2,
+   "pending_refs": 841,
+   "scope_law": {
+    "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
+    "registry_points": 146,
+    "lane_points": 146
+   },
+   "note": "index re-join cures applied additively to the wave-2 AS lanes' pending anchors; pairs with no identity evidence stay pending honestly (AGENT.md rule 3)"
   }
  },
  "items": {
@@ -69,20 +105,30 @@
    "label": "Histograms | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_f5nQYTm7BFpB9KJD": {
    "kind": "note",
    "label": "Stem & Leaf Diagrams | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_7T9ryhpxywvH3PVX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_VMTN7k25Ys8g6NF9": {
    "kind": "note",
@@ -110,10 +156,16 @@
    "label": "Frequency Tables | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_DwR2YXTQtqGz6ZNP",
-    "spcpt_vwSXjzQnpHNyGzdC"
+    "spcpt_DwR2YXTQtqGz6ZNP"
    ]
   },
   "rn_TMVS8yryQvpQGbq2": {
@@ -224,9 +276,15 @@
    "label": "Arrangements & Factorials | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_v9GnPyX4sbCvf8Ff"
    ]
   },
@@ -245,10 +303,15 @@
    "label": "Permutations | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_JgZhprbWpgpfH976": {
    "kind": "note",
@@ -469,20 +532,31 @@
    "label": "qstn_B7rMkfZghRzvqYny / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HqhRxf4xdGpZKCmm": {
    "kind": "question_part",
    "label": "qstn_B7rMkfZghRzvqYny / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_K2KtXZcxHnnFr7tv",
-    "spcpt_ySR5HyXYK2QKH5cF"
+    "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
   "qstnprt_czvgfYghQgwDd5Y9": {
@@ -490,10 +564,16 @@
    "label": "qstn_6q4BysBc29nbWHf7 / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_rfT6297pM5X638c6": {
@@ -512,10 +592,16 @@
    "label": "qstn_2yMMFJ9yNgZfkNgr / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_K2KtXZcxHnnFr7tv",
-    "spcpt_ySR5HyXYK2QKH5cF"
+    "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
   "qstnprt_2V8N4qzkWgT4RknK": {
@@ -576,19 +662,30 @@
    "label": "qstn_KSJcKZSm4W2nNMkr / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z7H6yfwtsCpGrRbt": {
    "kind": "question_part",
    "label": "qstn_KSJcKZSm4W2nNMkr / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
@@ -597,20 +694,31 @@
    "label": "qstn_GsCVpwgQjqnNYmw9 / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zWcn4gk6zg2QYkcx": {
    "kind": "question_part",
    "label": "qstn_bW3X966dY27wRYvb / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pdFBjsBz9TnQ7GwH",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_pdFBjsBz9TnQ7GwH"
    ]
   },
   "qstnprt_Kn8qxX5DCHtxv93z": {
@@ -618,10 +726,16 @@
    "label": "qstn_bW3X966dY27wRYvb / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_YbTY2FcPhVBtq2j5": {
@@ -789,10 +903,16 @@
    "label": "qstn_kkxKsSjv6jmsdZB3 / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_ySR5HyXYK2QKH5cF"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_hCvddYqg8pjxf7ZS": {
@@ -800,19 +920,30 @@
    "label": "qstn_kkxKsSjv6jmsdZB3 / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kzBFXMbvfRgVfTQD": {
    "kind": "question_part",
    "label": "qstn_kkxKsSjv6jmsdZB3 / part 2",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
@@ -821,10 +952,16 @@
    "label": "qstn_7fvYYvvcrfG62XnS / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_djpr2x8mXFvYrFyX": {
@@ -832,10 +969,16 @@
    "label": "qstn_7fvYYvvcrfG62XnS / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_K2KtXZcxHnnFr7tv",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
   "qstnprt_WzW7krhDFNfhdnzS": {
@@ -864,10 +1007,15 @@
    "label": "qstn_G974Bz38rdct99SS / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_7T9ryhpxywvH3PVX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4gznDVXQT923HfhB": {
    "kind": "question_part",
@@ -885,10 +1033,16 @@
    "label": "qstn_G974Bz38rdct99SS / part 2",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_NWxCxjzmBnS4Dys2": {
@@ -896,10 +1050,16 @@
    "label": "qstn_FhmhDqp6XpdPcKDJ / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_ySR5HyXYK2QKH5cF"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_GVzMWvkbf5ByVzBK": {
@@ -907,9 +1067,15 @@
    "label": "qstn_FhmhDqp6XpdPcKDJ / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
@@ -918,10 +1084,15 @@
    "label": "qstn_FdJ9KVYBsgNndwyX / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "representation-of-data-",
-   "codes": [],
-   "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KSW2wf9J2WQGN4zR": {
    "kind": "question_part",
@@ -1014,9 +1185,15 @@
    "label": "qstn_shwSCPxtzf66QJPc / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_pdFBjsBz9TnQ7GwH",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
@@ -1091,9 +1268,15 @@
    "label": "qstn_NhTVzDsHj9rCRnRg / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ",
     "spcpt_qjZJ2vYM9CxGVG6V"
    ]
@@ -1103,9 +1286,15 @@
    "label": "qstn_NhTVzDsHj9rCRnRg / part 2",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1158,9 +1347,15 @@
    "label": "qstn_BVX64phY45cvN8Yq / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ",
     "spcpt_qjZJ2vYM9CxGVG6V"
    ]
@@ -1245,9 +1440,15 @@
    "label": "qstn_PXMDCWnSms9S3GGW / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1256,9 +1457,15 @@
    "label": "qstn_PXMDCWnSms9S3GGW / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
@@ -1268,9 +1475,15 @@
    "label": "qstn_MC4ms76hkKVXCQSg / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1279,9 +1492,15 @@
    "label": "qstn_MC4ms76hkKVXCQSg / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1290,9 +1509,15 @@
    "label": "qstn_MC4ms76hkKVXCQSg / part 2",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
@@ -1323,9 +1548,15 @@
    "label": "qstn_3yNkVpDrkMzGDWQV / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1431,9 +1662,15 @@
    "label": "qstn_FgmXWVrVqBmd3ms3 / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1442,9 +1679,15 @@
    "label": "qstn_FgmXWVrVqBmd3ms3 / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_qjZJ2vYM9CxGVG6V"
    ]
   },
@@ -1530,9 +1773,15 @@
    "label": "qstn_WzVNRxJxNw5dFcrY / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1541,9 +1790,15 @@
    "label": "qstn_WzVNRxJxNw5dFcrY / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_qjZJ2vYM9CxGVG6V"
    ]
   },
@@ -1607,9 +1862,15 @@
    "label": "qstn_GqhC6bSWsyCWhHyX / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
@@ -1682,9 +1943,15 @@
    "label": "qstn_7QzZKPqmFwpNzYYn / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "statistical-measures",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_qjZJ2vYM9CxGVG6V"
    ]
   },
@@ -1693,9 +1960,15 @@
    "label": "qstn_VzxfY5K9z9gPfDMz / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_qjZJ2vYM9CxGVG6V"
    ]
   },
@@ -1714,9 +1987,15 @@
    "label": "qstn_VzxfY5K9z9gPfDMz / part 2",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
@@ -1812,9 +2091,15 @@
    "label": "qstn_F7rQ2vjNpfsXFVT4 / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vwSXjzQnpHNyGzdC",
     "spcpt_3xYZCn7v29hmt6Fj",
     "spcpt_pdFBjsBz9TnQ7GwH"
    ]
@@ -1835,20 +2120,31 @@
    "label": "qstn_4MwPB4ZK2dVTsmnN / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
-   "pending": [
-    "spcpt_7T9ryhpxywvH3PVX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y2kcxRhb5gCjnGrj": {
    "kind": "question_part",
    "label": "qstn_4MwPB4ZK2dVTsmnN / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_rjG6xK63YtGfwFYZ",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
   "qstnprt_kRby7Pnvz8v4RwSk": {
@@ -1963,10 +2259,16 @@
    "label": "qstn_79GwGyD2zYVmHmDk / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_rjG6xK63YtGfwFYZ",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_rjG6xK63YtGfwFYZ"
    ]
   },
   "qstnprt_ph5tgCnBGRvrPtzc": {
@@ -2028,10 +2330,16 @@
    "label": "qstn_P7D5Z9PwF5tNhNXy / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pdFBjsBz9TnQ7GwH",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_pdFBjsBz9TnQ7GwH"
    ]
   },
   "qstnprt_bwRs7JWGbn4sthcq": {
@@ -2050,11 +2358,17 @@
    "label": "qstn_8q43PCHH9RJsV6YY / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
     "spcpt_rjG6xK63YtGfwFYZ",
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_ySR5HyXYK2QKH5cF"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_mkfY77sNCbJPHMTJ": {
@@ -2062,9 +2376,15 @@
    "label": "qstn_8q43PCHH9RJsV6YY / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_K2KtXZcxHnnFr7tv"
    ]
   },
@@ -2192,10 +2512,16 @@
    "label": "qstn_NkrfR9ZqBC9XR6sd / part 0",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fmTnTmHBb5Jfd88N",
-    "spcpt_7T9ryhpxywvH3PVX"
+    "spcpt_fmTnTmHBb5Jfd88N"
    ]
   },
   "qstnprt_vxZzwnKn4DSSWrZk": {
@@ -2203,9 +2529,15 @@
    "label": "qstn_NkrfR9ZqBC9XR6sd / part 1",
    "section": "data-presentation-and-interpretation",
    "topic": "working-with-data",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7T9ryhpxywvH3PVX",
     "spcpt_pdFBjsBz9TnQ7GwH"
    ]
   },
@@ -2309,9 +2641,15 @@
    "label": "qstn_pKNrSXhQjTMYKwgk / part 0",
    "section": "probability",
    "topic": "basic-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -2320,9 +2658,15 @@
    "label": "qstn_pKNrSXhQjTMYKwgk / part 1",
    "section": "probability",
    "topic": "basic-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -2371,9 +2715,15 @@
    "label": "qstn_Zm4kgnPthcdyRxqy / part 0",
    "section": "probability",
    "topic": "basic-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -2382,9 +2732,15 @@
    "label": "qstn_Zm4kgnPthcdyRxqy / part 1",
    "section": "probability",
    "topic": "basic-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.1.2",
+     "official_code": "5.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_ySR5HyXYK2QKH5cF",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -2825,10 +3181,16 @@
    "label": "qstn_Q7bn7V5gNnKG3t95 / part 0",
    "section": "probability",
    "topic": "further-probability",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_FzzVfjwhkyjcBrzK",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_FzzVfjwhkyjcBrzK"
    ]
   },
   "qstnprt_hZ34pP5MMP63zfRN": {
@@ -2919,10 +3281,15 @@
    "label": "qstn_nQZypxYQfknZPYTr / part 0",
    "section": "probability",
    "topic": "further-probability",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QHD2rnfZXhgBzRfV": {
    "kind": "question_part",
@@ -3329,20 +3696,31 @@
    "label": "qstn_ySbnFwSmjnjXgjyY / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6fvGVWmzNc4QjNBJ": {
    "kind": "question_part",
    "label": "qstn_ySbnFwSmjnjXgjyY / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_B8jpsFGFMWZ2ywS5",
-    "spcpt_7gKmB69fTvMSjrvw"
+    "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
   "qstnprt_SFHBXkmW7drz4cf5": {
@@ -3350,19 +3728,30 @@
    "label": "qstn_x2fxjsCDw5DFwhDF / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wsGSv96SWhqw594Q": {
    "kind": "question_part",
    "label": "qstn_x2fxjsCDw5DFwhDF / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3371,40 +3760,66 @@
    "label": "qstn_tFpbsXxGs47PXKc4 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VpQgnFjgHJbTbVJK": {
    "kind": "question_part",
    "label": "qstn_tFpbsXxGs47PXKc4 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Gg4SGB4DtWx9ct8B": {
    "kind": "question_part",
    "label": "qstn_mhDZtZPjRDMhV3YJ / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YpRk4qhkvc7ntrkc": {
    "kind": "question_part",
    "label": "qstn_mhDZtZPjRDMhV3YJ / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_89ps9KCVtj4YGq2C",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3423,9 +3838,15 @@
    "label": "qstn_GG9C3DmgwHP2cYXN / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3434,29 +3855,45 @@
    "label": "qstn_DPqkQhK3cHdxfRG2 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G6r8XtwNPn3ThK8g": {
    "kind": "question_part",
    "label": "qstn_DPqkQhK3cHdxfRG2 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_92xJzf86CQkqY3n9": {
    "kind": "question_part",
    "label": "qstn_DPqkQhK3cHdxfRG2 / part 2",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3465,10 +3902,16 @@
    "label": "qstn_VM3PwrgzmtxQN7vX / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fVVc579xDmZm4X5t",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_fVVc579xDmZm4X5t"
    ]
   },
   "qstnprt_pdQHJNn8vdtrgtQk": {
@@ -3486,30 +3929,46 @@
    "label": "qstn_vf8KJw4McZ8hn2Mj / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xxjdJ9H74hYkydTq": {
    "kind": "question_part",
    "label": "qstn_vf8KJw4McZ8hn2Mj / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hjcmhGM3ZDc5nd82": {
    "kind": "question_part",
    "label": "qstn_vf8KJw4McZ8hn2Mj / part 2",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_B8jpsFGFMWZ2ywS5",
-    "spcpt_7gKmB69fTvMSjrvw"
+    "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
   "qstnprt_4gj2JQftZCP59f5m": {
@@ -3517,30 +3976,46 @@
    "label": "qstn_Vdz47jJqNjYcBTDX / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R7XrFhVpFBXhjTj8": {
    "kind": "question_part",
    "label": "qstn_Vdz47jJqNjYcBTDX / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mbDRbmv9M82Gm8rs": {
    "kind": "question_part",
    "label": "qstn_Vdz47jJqNjYcBTDX / part 2",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_B8jpsFGFMWZ2ywS5",
-    "spcpt_7gKmB69fTvMSjrvw"
+    "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
   "qstnprt_cwR8PZfgxQ8qP4Mv": {
@@ -3558,10 +4033,15 @@
    "label": "qstn_kgNrSK8mmGZM9GGt / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DGRNnFFKGt4rRCpH": {
    "kind": "question_part",
@@ -3578,10 +4058,16 @@
    "label": "qstn_5V6G32DyrCZ7bQn4 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_v9GnPyX4sbCvf8Ff",
-    "spcpt_7gKmB69fTvMSjrvw"
+    "spcpt_v9GnPyX4sbCvf8Ff"
    ]
   },
   "qstnprt_B9zjx32XRXWvfgRZ": {
@@ -3589,9 +4075,15 @@
    "label": "qstn_5V6G32DyrCZ7bQn4 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_v9GnPyX4sbCvf8Ff"
    ]
   },
@@ -3600,20 +4092,31 @@
    "label": "qstn_5V6G32DyrCZ7bQn4 / part 2",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2qqdkPVW2CWc2q6G": {
    "kind": "question_part",
    "label": "qstn_4vDymNfDJhB4WRTj / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_fVVc579xDmZm4X5t",
-    "spcpt_89ps9KCVtj4YGq2C"
+    "spcpt_fVVc579xDmZm4X5t"
    ]
   },
   "qstnprt_yvWPfBq7pkVg84Mh": {
@@ -3621,10 +4124,15 @@
    "label": "qstn_2CKqWC2dHJthbV6b / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7tqwMwPqR5wQS2dg": {
    "kind": "question_part",
@@ -3641,40 +4149,61 @@
    "label": "qstn_ZxGnWd72HQD8hhMw / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jmCq7KQcgXh5cZzx": {
    "kind": "question_part",
    "label": "qstn_z9Jvph5gsYzHfH75 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XkjZ7SSBKn6nGtQH": {
    "kind": "question_part",
    "label": "qstn_z9Jvph5gsYzHfH75 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HHhr9N2HRTgHwgrf": {
    "kind": "question_part",
    "label": "qstn_z9Jvph5gsYzHfH75 / part 2",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_B8jpsFGFMWZ2ywS5",
-    "spcpt_7gKmB69fTvMSjrvw"
+    "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
   "qstnprt_6fXvmN3s3bsfBKbD": {
@@ -3682,30 +4211,45 @@
    "label": "qstn_WmMdNq5YpPhfYKXC / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V8m22DS69K5k6vtW": {
    "kind": "question_part",
    "label": "qstn_WmMdNq5YpPhfYKXC / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Pm3RtYzVpMJrrJsj": {
    "kind": "question_part",
    "label": "qstn_WKjF8BXTMK745j9X / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t7Vqszdb8CyWyYkg": {
    "kind": "question_part",
@@ -3762,21 +4306,36 @@
    "label": "qstn_GbGZnH3DjdhmcjgK / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pZv7TBptbdvy48Rh": {
    "kind": "question_part",
    "label": "qstn_GbGZnH3DjdhmcjgK / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DMwqP7YByTzRHTNH": {
    "kind": "question_part",
@@ -3793,31 +4352,51 @@
    "label": "qstn_dgBXVVV8qn3QK85P / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kZ6xNZxxGqgp5XjH": {
    "kind": "question_part",
    "label": "qstn_XWN3jmqkFJ94Sdbq / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YYJJXyfcJVc9rKHV": {
    "kind": "question_part",
    "label": "qstn_XWN3jmqkFJ94Sdbq / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PThGpkRjpYYrPN7d": {
    "kind": "question_part",
@@ -3834,20 +4413,30 @@
    "label": "qstn_VxNp5XYbktGCjPZ7 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t9rJX2RbYzkgCmmy": {
    "kind": "question_part",
    "label": "qstn_tYqHMHRfsZgKsgst / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NyfR2fw8nsVCsRKP": {
    "kind": "question_part",
@@ -3884,20 +4473,36 @@
    "label": "qstn_rSVpG6bgVhVKFHR6 / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
-    "spcpt_89ps9KCVtj4YGq2C"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3KrDKKJqJNp85DFp": {
    "kind": "question_part",
    "label": "qstn_rSVpG6bgVhVKFHR6 / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3906,19 +4511,30 @@
    "label": "qstn_pRQBh9cFChrZy5Pd / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JhqT4ZPxgQzCDfnT": {
    "kind": "question_part",
    "label": "qstn_pRQBh9cFChrZy5Pd / part 1",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_7gKmB69fTvMSjrvw",
     "spcpt_B8jpsFGFMWZ2ywS5"
    ]
   },
@@ -3937,11 +4553,21 @@
    "label": "qstn_5wmrRszRCTmd46nX / part 0",
    "section": "probability",
    "topic": "permutations-and-combinations",
-   "codes": [],
-   "pending": [
-    "spcpt_89ps9KCVtj4YGq2C",
-    "spcpt_7gKmB69fTvMSjrvw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.3.1",
+     "official_code": "5.3.1",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YtDhGRWVzRmD65qW": {
    "kind": "question_part",

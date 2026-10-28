@@ -8,7 +8,23 @@
   "state": "SUGGESTED",
   "lane": "T-SPECS-CIE-JOIN-2",
   "gate": "pending",
-  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)"
+  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)",
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-2",
+   "directive": "fire the re-join lane",
+   "gateway_trace": "1a181f6adcfa4c55",
+   "applied_utc": "2026-10-28T12:30:00Z",
+   "base_commit": "8460a5f3a03fd7d43ed31e39c27d846f8a747208",
+   "method": "cie_index_rejoin_wave2as",
+   "tiers": {
+    "J1_definition_text_identity": "norm(definition) == norm(official point text), unique in the lane pool",
+    "J2_definition_phrase_identity": "token-bounded norm(definition) phrase in exactly one official point text",
+    "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool",
+    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text"
+   },
+   "state": "SUGGESTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the wave-2 AS lanes' pending anchors (JOIN-2 follow-on #1); SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the AS scope law bounds every pool; nothing manufactured (rule 3)"
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",
@@ -17,15 +33,15 @@
  },
  "totals": {
   "items": 1283,
-  "items_with_codes": 0,
+  "items_with_codes": 65,
   "by_kind": {
    "notes": 74,
    "question_parts": 1209,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 0,
-   "question_parts": 0,
+   "notes": 5,
+   "question_parts": 60,
    "flashcards": 0
   }
  },
@@ -34,12 +50,32 @@
   "parts": 1612,
   "universe_ids": 77,
   "universe_resolved": 0,
-  "pending_refs": 1689,
+  "pending_refs": 1624,
   "flashcards_discovered_uncoded": 448,
   "scope_law": {
    "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
    "registry_points": 146,
    "lane_points": 146
+  },
+  "rejoin": {
+   "lane": "T-SPECS-CIE-REJOIN-2",
+   "applied_utc": "2026-10-28T12:30:00Z",
+   "resolved_pairs": 5,
+   "resolved_refs": 65,
+   "by_rule": {
+    "J1_definition_text_identity": 0,
+    "J2_definition_phrase_identity": 0,
+    "J3_name_text_identity": 0,
+    "J4_name_phrase_identity": 5
+   },
+   "ambiguous_pairs": 3,
+   "pending_refs": 1624,
+   "scope_law": {
+    "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
+    "registry_points": 146,
+    "lane_points": 146
+   },
+   "note": "index re-join cures applied additively to the wave-2 AS lanes' pending anchors; pairs with no identity evidence stay pending honestly (AGENT.md rule 3)"
   }
  },
  "items": {
@@ -58,10 +94,15 @@
    "label": "Composite Functions | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_rcZXFRb9qgGfQtk2": {
    "kind": "note",
@@ -389,20 +430,30 @@
    "label": "Gradients, Tangents & Normals | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_4mty3cNgGDVYdjyD": {
    "kind": "note",
    "label": "Increasing & Decreasing Functions | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_q5dBFXzQDnNrjszX"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_xPfFT4DDk5FK4NcV": {
    "kind": "note",
@@ -449,10 +500,15 @@
    "label": "Chain Rule | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_pPPkKgggBhJzKnDq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_pXGkzz47DZXRHj94": {
    "kind": "note",
@@ -550,10 +606,15 @@
    "label": "Definite Integration | Cambridge (CIE) AS Maths Revision Notes 2022",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "rn_qf9zHysjdC2Vndyy": {
    "kind": "note",
@@ -1304,20 +1365,30 @@
    "label": "qstn_RcSgK4PSPHMGz9zv / part 0",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FBYbThDs5pyKHX42": {
    "kind": "question_part",
    "label": "qstn_RcSgK4PSPHMGz9zv / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fKnmRm2yWQ5sK3zQ": {
    "kind": "question_part",
@@ -1415,10 +1486,15 @@
    "label": "qstn_hT3JqK5KPQ9tgFhf / part 0",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XWhrnfbMdwx8NYHw": {
    "kind": "question_part",
@@ -1516,10 +1592,15 @@
    "label": "qstn_5zYNDhWmCVq4TBS5 / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GdZKMRRW6ZMcf8QN": {
    "kind": "question_part",
@@ -1596,10 +1677,15 @@
    "label": "qstn_DQJ5tBCkghk85z79 / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kRcrqfBcnxMqVPHF": {
    "kind": "question_part",
@@ -1716,10 +1802,15 @@
    "label": "qstn_bj74Bbrqb92DNp8m / part 0",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4g8vSgwW5c3pSTXG": {
    "kind": "question_part",
@@ -1746,10 +1837,15 @@
    "label": "qstn_5RWHWdNwBTYyPCJN / part 1",
    "section": "algebra-and-functions",
    "topic": "functions",
-   "codes": [],
-   "pending": [
-    "spcpt_M8pcsBkNN7dyg4b9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vrP4ypQQC4tqz5yp": {
    "kind": "question_part",
@@ -6361,10 +6457,15 @@
    "label": "qstn_SjznhkZfx8y5qbx2 / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yY56dKjX6M52y38V": {
    "kind": "question_part",
@@ -6402,9 +6503,15 @@
    "label": "qstn_mXdVYDb5jrP6D5jy / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6413,9 +6520,15 @@
    "label": "qstn_mM6RmvJhXggHZhWw / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6424,9 +6537,15 @@
    "label": "qstn_GmSs4XV4vFZS8d5F / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6435,10 +6554,16 @@
    "label": "qstn_GmSs4XV4vFZS8d5F / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_vWW6kzvGRnCvPPnr"
    ]
   },
   "qstnprt_GMB5bzfzrmn8DFsg": {
@@ -6446,9 +6571,15 @@
    "label": "qstn_cNB2m9sqrgBxk9wf / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6498,9 +6629,15 @@
    "label": "qstn_xjwYyJnpx5xh3c3h / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_4FyzMxCjDT3yDDFP"
    ]
   },
@@ -6591,9 +6728,15 @@
    "label": "qstn_mP8nSF8HbqD3RPwh / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6625,10 +6768,16 @@
    "label": "qstn_CzktyPJ3QRYXHg3G / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
     "spcpt_vWW6kzvGRnCvPPnr",
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6637,10 +6786,16 @@
    "label": "qstn_CzktyPJ3QRYXHg3G / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_vHVvC2TmqrTFqBq7",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_vHVvC2TmqrTFqBq7"
    ]
   },
   "qstnprt_QnZ6ZzyRn7nWPvDy": {
@@ -6648,10 +6803,15 @@
    "label": "qstn_CzktyPJ3QRYXHg3G / part 2",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DFdgTYZT464bB97v": {
    "kind": "question_part",
@@ -6680,9 +6840,15 @@
    "label": "qstn_bDtb2N26Ps5bn2wy / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6791,9 +6957,15 @@
    "label": "qstn_nWkj3DR52MhFqKWB / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6812,9 +6984,15 @@
    "label": "qstn_k4pwPcp2Wxbn4tRj / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6823,9 +7001,15 @@
    "label": "qstn_jc7TM6f2W7cqZH2F / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6885,9 +7069,15 @@
    "label": "qstn_6HRV9RRRc77wyhm3 / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -6948,9 +7138,15 @@
    "label": "qstn_sT93GF45x9X45dWz / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7002,19 +7198,30 @@
    "label": "qstn_QYmM7qwxZSyPCc9s / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mXCGm2xqDxgqyzCk": {
    "kind": "question_part",
    "label": "qstn_QYmM7qwxZSyPCc9s / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7023,10 +7230,15 @@
    "label": "qstn_QYmM7qwxZSyPCc9s / part 2",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XQ6KhXJCVJSPS2Tq": {
    "kind": "question_part",
@@ -7074,9 +7286,15 @@
    "label": "qstn_JQwBrhK7rFKCsgQY / part 0",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_q5dBFXzQDnNrjszX",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7105,9 +7323,15 @@
    "label": "qstn_FYsGqw6jjT4YhgMX / part 1",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7116,10 +7340,16 @@
    "label": "qstn_FYsGqw6jjT4YhgMX / part 2",
    "section": "differentiation",
    "topic": "applications-of-differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_VHJZWXfzfpzcxfZG",
-    "spcpt_PDtz9wfdB46zhbhz"
+    "spcpt_VHJZWXfzfpzcxfZG"
    ]
   },
   "qstnprt_77HHT5T4FVCzWWsG": {
@@ -7158,9 +7388,15 @@
    "label": "qstn_VrYywS6N6sZNKsnF / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7209,19 +7445,30 @@
    "label": "qstn_nGGg3F6Q77qj6H5J / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_pPPkKgggBhJzKnDq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DtSN6Gj9zZmqzryb": {
    "kind": "question_part",
    "label": "qstn_nGGg3F6Q77qj6H5J / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7354,9 +7601,15 @@
    "label": "qstn_PyMXdFY6djytfVMm / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7376,9 +7629,15 @@
    "label": "qstn_JqJHHsc5hRSzDKXd / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7387,9 +7646,15 @@
    "label": "qstn_JqJHHsc5hRSzDKXd / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7418,9 +7683,15 @@
    "label": "qstn_g6CbRbnMHKzYhkHY / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7481,9 +7752,15 @@
    "label": "qstn_jwDCZdxwfCh3GK7J / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7492,9 +7769,15 @@
    "label": "qstn_jwDCZdxwfCh3GK7J / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7514,9 +7797,15 @@
    "label": "qstn_gJ2sGRPWdqVDZN2w / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7566,10 +7855,15 @@
    "label": "qstn_8y76c24ZqxRCNzr4 / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dQ3pfrN8xk4rnC5p": {
    "kind": "question_part",
@@ -7657,19 +7951,30 @@
    "label": "qstn_v7vtgXwMb4FGg4Vs / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jqTj7cyWDP8KCpg4": {
    "kind": "question_part",
    "label": "qstn_tSJj5HX4QP8kWvgf / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7769,19 +8074,30 @@
    "label": "qstn_GM4Dds7CDJfc4BgM / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_pPPkKgggBhJzKnDq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_k2zDFZSmNq39zqb6": {
    "kind": "question_part",
    "label": "qstn_GM4Dds7CDJfc4BgM / part 1",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.2",
+     "official_code": "1.7.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_pPPkKgggBhJzKnDq",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7790,9 +8106,15 @@
    "label": "qstn_Bh3Pq9VSHT92zfVb / part 0",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_PDtz9wfdB46zhbhz",
     "spcpt_Jzb4MpfMDbXWqFCZ"
    ]
   },
@@ -7841,10 +8163,15 @@
    "label": "qstn_7GscxgRn8wPHJbMr / part 2",
    "section": "differentiation",
    "topic": "differentiation",
-   "codes": [],
-   "pending": [
-    "spcpt_PDtz9wfdB46zhbhz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.7.3",
+     "official_code": "1.7.3",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QNxxJHPHVzZCPnSH": {
    "kind": "question_part",
@@ -8221,10 +8548,15 @@
    "label": "qstn_XMCXnsxBX8rfdhnm / part 1",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8qfHjWPPYSc7Kk2r": {
    "kind": "question_part",
@@ -8271,10 +8603,15 @@
    "label": "qstn_nk6CchHhjnF3G3YV / part 2",
    "section": "integration",
    "topic": "further-integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2JFKzzDb7Xd9NnRZ": {
    "kind": "question_part",
@@ -8352,10 +8689,16 @@
    "label": "qstn_ykDkzzrWsbbSWRFQ / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_rd5TcbbZnVFFCh7N",
-    "spcpt_cm95VZDQGBnnfkPv"
+    "spcpt_rd5TcbbZnVFFCh7N"
    ]
   },
   "qstnprt_6Ynh5snQfhHxPj22": {
@@ -8363,10 +8706,15 @@
    "label": "qstn_ykDkzzrWsbbSWRFQ / part 1",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T5xwp4PRvKjmNxGp": {
    "kind": "question_part",
@@ -8423,20 +8771,30 @@
    "label": "qstn_p7RVSG8jxFjcgdvd / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_C33k69bYZMPMFVS5": {
    "kind": "question_part",
    "label": "qstn_czXqJkCSnJXfxRv7 / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_s6StZxNPZP9J66rN": {
    "kind": "question_part",
@@ -8496,10 +8854,15 @@
    "label": "qstn_dYrrbqhBVpQ33hkj / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PrDWwsBkR3y9q3Zx": {
    "kind": "question_part",
@@ -8526,10 +8889,15 @@
    "label": "qstn_C6Y5nhcSdVmtpkNd / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fBXZqn89nHFXRKg2": {
    "kind": "question_part",
@@ -8589,20 +8957,30 @@
    "label": "qstn_2xzW9FH8kMsvKmmd / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YG7zZvxH3B5RVZh6": {
    "kind": "question_part",
    "label": "qstn_2FMpJN8VMQWdQt3h / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M7RRcfwnjcHRjJBZ": {
    "kind": "question_part",
@@ -8629,10 +9007,16 @@
    "label": "qstn_WCQpcVpnXmP6KXj8 / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
    "pending": [
-    "spcpt_rd5TcbbZnVFFCh7N",
-    "spcpt_cm95VZDQGBnnfkPv"
+    "spcpt_rd5TcbbZnVFFCh7N"
    ]
   },
   "qstnprt_JhWmMhswsDbwsnB8": {
@@ -8650,10 +9034,15 @@
    "label": "qstn_VxnyydSycKsNmGV4 / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_djj2469GmnBWNv9S": {
    "kind": "question_part",
@@ -8692,10 +9081,15 @@
    "label": "qstn_jpcZSK9Qvw5tpxsH / part 0",
    "section": "integration",
    "topic": "integration",
-   "codes": [],
-   "pending": [
-    "spcpt_cm95VZDQGBnnfkPv"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_MATHS_2023_2025:1.8.4",
+     "official_code": "1.8.4",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave2as"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6QDkdNYQt3ZYS84F": {
    "kind": "question_part",

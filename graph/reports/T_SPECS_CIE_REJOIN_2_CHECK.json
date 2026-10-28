@@ -1,0 +1,56 @@
+{
+ "battery": "T-SPECS-CIE-REJOIN-2",
+ "all_pass": true,
+ "checks": [
+  {
+   "id": "1",
+   "pass": true,
+   "detail": "7 touched sidecars well-formed (additive rejoin blocks, SUGGESTED state, method/tier vocab)"
+  },
+  {
+   "id": "2",
+   "pass": true,
+   "detail": "mutation discipline: only codes-append / pending-shrink / additive rejoin blocks / recounted counters; every other field deep-equal to HEAD"
+  },
+  {
+   "id": "3",
+   "pass": true,
+   "detail": "INDEPENDENT re-derivation + sheet bijection: all 124 resolves + 34 quarantines equal (fresh pools, fresh norm, fresh rule chain)"
+  },
+  {
+   "id": "4",
+   "pass": true,
+   "detail": "cascade integrity (codes dedup-correct, pendings shrunk exactly, anchors recounts, stats coherent); 1541 code entries"
+  },
+  {
+   "id": "5",
+   "pass": true,
+   "detail": "manifest discipline: touched rows updated value-consistently, all pre-existing rows/keys preserved, cie_rejoin_wave2as block additive + appended last"
+  },
+  {
+   "id": "6",
+   "pass": true,
+   "detail": "footprint 13 paths subset-of declared; spec-links delta == 7 sidecars + manifest; guards intact; 49 Edexcel sidecars untouched"
+  },
+  {
+   "id": "7",
+   "pass": true,
+   "detail": "engine fixed-stamp re-run byte-identical (7 sidecars + manifest + sheet + stats)"
+  },
+  {
+   "id": "8",
+   "pass": true,
+   "detail": "honesty + scope pins: 4 record-less pairs still pending; 0 verdict-evaluated pairs (AS lane class); all 124 resolves inside their lane's AS-scoped pool (raw predicate re-checked)"
+  },
+  {
+   "id": "9",
+   "pass": true,
+   "detail": "2-lane full-document rebuild from HEAD + independent resolutions == staged bytes (cie-as-business-23, cie-as-chemistry-25)"
+  },
+  {
+   "id": "10",
+   "pass": true,
+   "detail": "cross-foots: manifest rows 27465 -> 35692 (+8227 gained-key recount, -1541 resolved); 8-lane sidecar anchors 10867 -> 9326; reconciliation 924 pairs exact"
+  }
+ ]
+}
