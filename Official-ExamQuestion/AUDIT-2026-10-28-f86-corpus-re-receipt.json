@@ -1,0 +1,1664 @@
+{
+ "schema": "syllabai.official-examq.reemission-rereceipt/0.1",
+ "wave": "F86 corpus-wide re-receipt (LEDGER F111)",
+ "generated_utc": "2026-10-28T05:13:20Z",
+ "converter_of_record": "official_examq_extract.py v0.29.2 (the v0.29.2 MS-LINK-OVERRIDES all-marks-fragments precondition fix landed IN this wave)",
+ "corpus_of_record_head": "2ed40226",
+ "method": {
+  "emission": "all 54 chemistry slices re-emitted fresh from the staging of record (EXAMQ_UPLOAD_DIR=/home/z/my-project/upload; pdftotext -layout txt layers; PDFs sha-verified against the manifest pins by G0 in every slice run)",
+  "fail_closed": "every slice exit 0 (54/54, both the v0.29.1 pass and the v0.29.2 pass)",
+  "normalization_law": "generated_utc + the converter version string (generator field and edits[].tool) are the only exempt bytes; questions.md byte compare; assets sha256 byte compare; validation-report semantic compare (per-gate statuses, negative controls, review queue, override listings)",
+  "of_record_bytes": "the corpus of record is NOT modified by this wave (the F110 standing decision); the census diffs worktree emissions against HEAD"
+ },
+ "headline": {
+  "slices_clean_after_normalization": 22,
+  "slices_with_deltas": 32,
+  "assets": "407/407 byte-identical corpus-wide, 0 added, 0 removed (git M flags on assets are exec-bit noise only)",
+  "questions_md": "0 topic-independent deltas — every questions.md delta is the rendering of its slice's topic.json deltas",
+  "gates": "every gate PASS on both sides in all 54 slices (no gate-state regression)",
+  "validation_report_semantic_deltas": 8
+ },
+ "f86_trio": {
+  "verdict": "CLOSED",
+  "detail": "the three staging-boundary items (C61 2019-06 1CR 5(a)(ii) keyed B; C56 pins 2019-06 2C 7(a) + 2021-01 2C 3(a)(i)) all REPRODUCE from the current staging under the F110 lexeme fix — C61/C56 PASS on the fresh tree (in F86's era C61 was the 1-of-91 exception, exonerated only by the A/B receipt)",
+  "battery_proof": "check_canaries.py on the fresh tree: C61 PASS, C56 PASS"
+ },
+ "fix_landed_this_wave": {
+  "version": "0.29.2",
+  "defect": "the F108 leg-0 geometry-aware bare-numeral keep resurrected the marks-column digits / Total-footer fragments as the only linkage content of the two printed-image answer cells (2023-06 2CR 7(c)(i): '1'; 2025-06 2CR 7(c)(ii): '1'+'15'), defeating the `not lines` MS-LINK-OVERRIDES precondition — fresh emissions served the fabricated digits the F47/F107 eyeballed transcriptions had removed, and lost answer_key_source",
+  "fix": "an all-marks-fragments linkage block (every line a bare 1-2 digit fragment, optionally behind an abbreviated Total prefix) no longer defeats the override precondition (_MS_MARKS_FRAGMENT_RE + _all_marks_fragments); blast radius: the 7 ledger entries only",
+  "result": "2025-06 2CR 7(c)(ii) reproduces the of-record learner surface byte-exactly; 2023-06 2CR 7(c)(i) fires the ledger again (answer_key_source restored, linked, no fabricated digit; C97/C109 PASS on the fresh tree); the longer curated transcription the corpus carries stays a disclosed data-only class"
+ },
+ "delta_classes": {
+  "drawing-strip-remains": {
+   "class": "the Task-20 drawing-strip surgical patches + the 0.23.0 propene-equation remains are data-only corpus strips; regeneration re-introduces the atom labels/bonds text-layer fragments",
+   "parts": [
+    "2019-06/4CH1-1CR 4(b)(iv)",
+    "2020-01/4CH1-1CR 9(b)(ii)",
+    "2020-01/4CH1-2C 6(d)(ii)",
+    "2021-01/4CH1-1CR 8(b)(iii)",
+    "2021-11/4CH1-1C 6(a)(iii)",
+    "2021-11/4CH1-1C 6(a)(iv)",
+    "2021-11/4CH1-2C 6(e)(ii)",
+    "2022-01/4CH1-1C 8(d)(i)",
+    "2022-01/4CH1-2C 7(e)",
+    "2022-06/4CH1-1CR 7(c)",
+    "2022-06/4CH1-1CR 7(d)(i)",
+    "2022-06/4CH1-2CR 5(c)(ii)",
+    "2023-01/4CH1-1C 6(a)",
+    "2023-01/4CH1-1C 6(b)",
+    "2024-06/4CH1-1C 8(a)(ii)",
+    "2024-06/4CH1-2CR 7(c)(i)",
+    "2024-11/4CH1-1C 10(c)",
+    "2025-06/4CH1-1CR 9(d)(ii)",
+    "2026-06/4CH1-1CR 8(c)"
+   ],
+   "n_parts": 19,
+   "guard": "none canary-pinned per-part (the F110 text_repairs registrations cover the two registered slices, which now reproduce — 2021-06 1C and 2023-06 1CR 10(c)(i) are ABSENT from this class, confirming the F98 mechanism)"
+  },
+  "exponent-restore": {
+   "class": "the corpus of record carries Unicode superscript exponents (data-only restorations, Finding 8b); fresh emissions emit the text-layer flattened digit forms",
+   "field_deltas": 51,
+   "n_parts": 23,
+   "parts": [
+    "2020-01/4CH1-1CR 11(c)(iii)",
+    "2021-01/4CH1-1C 11(c)",
+    "2021-01/4CH1-2C 7(c)(iii)",
+    "2021-11/4CH1-1C 10(b)(ii)",
+    "2022-01/4CH1-1C 5(b)(iv)",
+    "2022-06/4CH1-1CR 4(d)(iii)",
+    "2022-06/4CH1-1CR 11(b)",
+    "2022-06/4CH1-2C 6(a)",
+    "2023-01/4CH1-1C 12(c)(iii)",
+    "2023-01/4CH1-1CR 4(c)",
+    "2023-01/4CH1-2CR 3(a)",
+    "2023-01/4CH1-2CR 3(b)(ii)",
+    "2023-01/4CH1-2CR 7(d)(i)",
+    "2023-06/4CH1-2C 7(d)",
+    "2023-11/4CH1-1C 8(d)",
+    "2024-06/4CH1-1C 3(b)",
+    "2024-06/4CH1-1CR 4(c)(ii)",
+    "2024-06/4CH1-1CR 11(d)",
+    "2024-11/4CH1-1C 11(a)(iii)",
+    "2024-11/4CH1-2C 1(c)",
+    "2025-06/4CH1-2C 6(c)",
+    "2026-06/4CH1-1C 8(b)(ii)",
+    "2026-06/4CH1-1CR 11(d)"
+   ],
+   "guard": "C95-flat-exponent-free — the fresh tree fails exactly this canary (109/110), the designed guard blocking an uncurated regeneration from shipping"
+  },
+  "f90-restoration-not-landed": {
+   "class": "the fresh emission is MORE CORRECT than the of-record: 2022-06 2C 6(a) M1 prints a stacked fraction (20 x 10^6 over 80); pdftotext drops the denominator '80' to its own line and the F90 keep-law preserves it; the of-record predates the keep-law for this slice. Eyeballed at 150 dpi (MS p11 render)",
+   "parts": [
+    "2022-06/4CH1-2C 6(a)"
+   ]
+  },
+  "furniture-residue": {
+   "class": "2020-11 1C 3(c)(ii): the fresh emission keeps a lone 'marks' token (the tail of 'Total for Q3 = 8 marks'); the F88 mid-text law keeps <2-furniture-token lines fail-closed while the of-record carries the exporter's serve-time strip form — the F88 reconciliation's remaining half",
+   "parts": [
+    "2020-11/4CH1-1C 3(c)(ii)"
+   ]
+  },
+  "image-answer-curated-form": {
+   "class": "2023-06 2CR 7(c)(i): the of-record solution_md/mark_points carry the longer curated F107 transcription (value_trace.solution + edit_status 'corrected' + edits[]); the fresh emission serves the ledger ms_lines form (space-collapsed by the raw join — the same form the two structure-transcription ledger parts already serve). Data-only curation class; the fabricated '1' is gone either way",
+   "parts": [
+    "2023-06/4CH1-2CR 7(c)(i)"
+   ]
+  },
+  "surgical-repair-metadata": {
+   "class": "edit_status 'corrected' + edits[] disclosures for the data-only surgical repairs (F97 2021-11 2C 1(d) bare-answer '73'; F92 2025-06 2C 5(c)(i) tick-glyph; F107 7(c)(i)) — the repairs' learner-facing bytes reproduce (the F97/F92 converter machinery is in place); only the disclosure metadata differs",
+   "parts": [
+    "2021-11/4CH1-2C 1(d)",
+    "2025-06/4CH1-2C 5(c)(i)",
+    "2023-06/4CH1-2CR 7(c)(i)"
+   ]
+  },
+  "f94-shared-asset-curation": {
+   "class": "corpus-side shared-asset wiring the converter does not reproduce: 2020-11 2CR 1(b) drops its shared ref (fresh assets=[]; the asset FILE is byte-identical and the reference's home is the stem part), 2021-11 1C 1(a)(i)-(iii) carry the F94 follow-up mention strings, 2020-01 2C 6(d)(ii) text_coverage float recompute 0.3->0.305; wave20 stem_figure_stubs +1 on 2019-06 1CR",
+   "parts": [
+    "2020-11/4CH1-2CR 1(b)",
+    "2021-11/4CH1-1C 1(a)(i)",
+    "2021-11/4CH1-1C 1(a)(ii)",
+    "2021-11/4CH1-1C 1(a)(iii)",
+    "2020-01/4CH1-2C 6(d)(ii)"
+   ]
+  }
+ },
+ "battery": {
+  "of_record_tree": {
+   "canaries": "110/110 PASS",
+   "g9_static": "PASS (8/8)"
+  },
+  "fresh_tree": {
+   "canaries": "109/110 — the 1 exception is C95-flat-exponent-free, the designed guard against the exponent-restore class",
+   "g9_static": "PASS (8/8)",
+   "trio_and_image_answer_guards": "C61 PASS, C56 PASS, C97 PASS, C109 PASS"
+  },
+  "review_queue_drift": "fresh reports raise 3 new honest F95 mark-point-gap items (2019-06 2C 2(a), 2019-06 2C 6(d)(ii), 2025-11 1C 5(c) — printed-drawing answers) and the wave20 stub counter on 2019-06 1CR; fail-visible census drift, corpus bytes unaffected"
+ },
+ "verdict": "REPRODUCTION-GUARDED: every regeneration delta is (i) fixed in this wave (the F86 trio; the override precondition), (ii) a named data-only curation class with its guard canary named, or (iii) an F90-class improvement the corpus has not landed. ZERO unexplained deltas. The corpus of record bytes are untouched; landing the fresh bytes would be a separate exporter-disclosure + v2-sync wave.",
+ "classification_raw": {
+  "drawing-strip-remains(Task-20/propene)": [
+   "2019-06/4CH1-1CR 4(b)(iv) [problem_md] soup 0->17",
+   "2020-01/4CH1-1CR 9(b)(ii) [problem_md] soup 0->9",
+   "2020-01/4CH1-2C 6(d)(ii) [problem_md] soup 0->8",
+   "2021-01/4CH1-1CR 8(b)(iii) [problem_md] soup 0->5",
+   "2021-11/4CH1-1C 6(a)(iii) [problem_md] soup 0->13",
+   "2021-11/4CH1-1C 6(a)(iv) [problem_md] soup 0->4",
+   "2021-11/4CH1-2C 6(e)(ii) [problem_md] soup 0->12",
+   "2022-01/4CH1-1C 8(d)(i) [problem_md] soup 0->13",
+   "2022-01/4CH1-2C 7(e) [problem_md] soup 0->21",
+   "2022-06/4CH1-1CR 7(c) [problem_md] soup 0->14",
+   "2022-06/4CH1-1CR 7(d)(i) [problem_md] soup 0->7",
+   "2022-06/4CH1-2CR 5(c)(ii) [problem_md] soup 0->7",
+   "2023-01/4CH1-1C 6(a) [problem_md] soup 0->6",
+   "2023-01/4CH1-1C 6(b) [problem_md] soup 0->8",
+   "2024-06/4CH1-1C 8(a)(ii) [problem_md] soup 0->12",
+   "2024-06/4CH1-2CR 7(c)(i) [problem_md] soup 0->21",
+   "2024-11/4CH1-1C 10(c) [problem_md] soup 0->14",
+   "2025-06/4CH1-1CR 9(d)(ii) [problem_md] soup 0->17",
+   "2026-06/4CH1-1CR 8(c) [problem_md] soup 0->13"
+  ],
+  "exponent-restore(Finding-8b)": [
+   "2020-01/4CH1-1CR 11(c)(iii) [problem_md] sup 1->0",
+   "2021-01/4CH1-1C 11(c) [mark_points] sup 8->0",
+   "2021-01/4CH1-1C 11(c) [problem_md] sup 2->0",
+   "2021-01/4CH1-1C 11(c) [solution_md] sup 8->0",
+   "2021-01/4CH1-2C 7(c)(iii) [mark_points] sup 2->0",
+   "2021-01/4CH1-2C 7(c)(iii) [solution_md] sup 2->0",
+   "2021-11/4CH1-1C 10(b)(ii) [mark_points] sup 2->0",
+   "2021-11/4CH1-1C 10(b)(ii) [solution_md] sup 2->0",
+   "2022-01/4CH1-1C 5(b)(iv) [mark_points] sup 5->0",
+   "2022-01/4CH1-1C 5(b)(iv) [problem_md] sup 2->0",
+   "2022-01/4CH1-1C 5(b)(iv) [solution_md] sup 8->0",
+   "2022-06/4CH1-1CR 4(d)(iii) [mark_points] sup 6->0",
+   "2022-06/4CH1-1CR 4(d)(iii) [problem_md] sup 2->0",
+   "2022-06/4CH1-1CR 4(d)(iii) [solution_md] sup 8->0",
+   "2022-06/4CH1-1CR 11(b) [mark_points] sup 1->0",
+   "2022-06/4CH1-1CR 11(b) [problem_md] sup 1->0",
+   "2022-06/4CH1-1CR 11(b) [solution_md] sup 1->0",
+   "2022-06/4CH1-2C 6(a) [mark_points] sup 6->0",
+   "2022-06/4CH1-2C 6(a) [solution_md] sup 6->0",
+   "2023-01/4CH1-1C 12(c)(iii) [mark_points] sup 2->0",
+   "2023-01/4CH1-1C 12(c)(iii) [problem_md] sup 2->0",
+   "2023-01/4CH1-1C 12(c)(iii) [solution_md] sup 2->0",
+   "2023-01/4CH1-1CR 4(c) [mark_points] sup 2->0",
+   "2023-01/4CH1-1CR 4(c) [solution_md] sup 2->0",
+   "2023-01/4CH1-2CR 3(a) [mark_points] sup 4->0",
+   "2023-01/4CH1-2CR 3(a) [solution_md] sup 4->0",
+   "2023-01/4CH1-2CR 3(b)(ii) [mark_points] sup 1->0",
+   "2023-01/4CH1-2CR 3(b)(ii) [solution_md] sup 1->0",
+   "2023-01/4CH1-2CR 7(d)(i) [mark_points] sup 2->0",
+   "2023-01/4CH1-2CR 7(d)(i) [solution_md] sup 2->0",
+   "2023-06/4CH1-2C 7(d) [mark_points] sup 7->0",
+   "2023-06/4CH1-2C 7(d) [solution_md] sup 10->0",
+   "2023-11/4CH1-1C 8(d) [mark_points] sup 4->0",
+   "2023-11/4CH1-1C 8(d) [problem_md] sup 2->0",
+   "2023-11/4CH1-1C 8(d) [solution_md] sup 4->0",
+   "2024-06/4CH1-1C 3(b) [mark_points] sup 4->0",
+   "2024-06/4CH1-1C 3(b) [problem_md] sup 2->0",
+   "2024-06/4CH1-1C 3(b) [solution_md] sup 4->0",
+   "2024-06/4CH1-1CR 4(c)(ii) [problem_md] sup 9->0",
+   "2024-06/4CH1-1CR 11(d) [mark_points] sup 5->0",
+   "2024-06/4CH1-1CR 11(d) [problem_md] sup 5->0",
+   "2024-06/4CH1-1CR 11(d) [solution_md] sup 5->0",
+   "2024-11/4CH1-1C 11(a)(iii) [problem_md] sup 1->0",
+   "2024-11/4CH1-2C 1(c) [mark_points] sup 12->0",
+   "2024-11/4CH1-2C 1(c) [solution_md] sup 12->0",
+   "2025-06/4CH1-2C 6(c) [mark_points] sup 5->0",
+   "2025-06/4CH1-2C 6(c) [solution_md] sup 5->0",
+   "2026-06/4CH1-1C 8(b)(ii) [problem_md] sup 2->0",
+   "2026-06/4CH1-1CR 11(d) [mark_points] sup 2->0",
+   "2026-06/4CH1-1CR 11(d) [problem_md] sup 2->0",
+   "2026-06/4CH1-1CR 11(d) [solution_md] sup 2->0"
+  ],
+  "other": [
+   "2020-11/4CH1-1C 3(c)(ii) [solution_md] ",
+   "2023-06/4CH1-2CR 7(c)(i) [mark_points] ",
+   "2023-06/4CH1-2CR 7(c)(i) [solution_md] "
+  ]
+ },
+ "census": {
+  "schema": "syllabai.official-examq.reemission-census/0.1",
+  "converter_of_record": "official_examq_extract.py v0.29.2 (ADR-039) series=2019-06 paper=1C",
+  "slices": [
+   {
+    "series": "2019-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2019-06",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [
+     {
+      "q": 3,
+      "part": "4(b)(iv)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 128->162"
+     }
+    ],
+    "report": {
+     "wave20": {
+      "old": null,
+      "new": {
+       "stem_figure_stubs": 1
+      }
+     },
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2019-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [],
+    "report": {
+     "review_n_old": 0,
+     "review_n_new": 2,
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2019-06",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2020-01",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2020-01",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 8,
+      "part": "9(b)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 55->73"
+     },
+     {
+      "q": 10,
+      "part": "11(c)(iii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 179->179"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2020-01",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [
+     {
+      "q": 5,
+      "part": "6(d)(ii)",
+      "field": "assets",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 5,
+      "part": "6(d)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 66->104"
+     }
+    ],
+    "report": {
+     "wave20": {
+      "old": null,
+      "new": {
+       "stem_figure_stubs": 1
+      }
+     },
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2020-01",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2020-11",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~1)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 2,
+      "part": "3(c)(ii)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 262->268"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2020-11",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2020-11",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2020-11",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~2)",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [
+     {
+      "q": 0,
+      "part": "1(b)",
+      "field": "assets",
+      "kind": "changed",
+      "note": ""
+     }
+    ],
+    "report": {
+     "review_n_old": 0,
+     "review_n_new": 2,
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2021-01",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 10,
+      "part": "11(c)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 10,
+      "part": "11(c)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 234->234"
+     },
+     {
+      "q": 10,
+      "part": "11(c)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 348->348"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2021-01",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 7,
+      "part": "8(b)(iii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 54->75"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2021-01",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 6,
+      "part": "7(c)(iii)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 5->5"
+     },
+     {
+      "q": 6,
+      "part": "7(c)(iii)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 437->435"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2021-01",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2021-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2021-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2021-11",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~4)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 0,
+      "part": "1(a)(i)",
+      "field": "assets",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 0,
+      "part": "1(a)(ii)",
+      "field": "assets",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 0,
+      "part": "1(a)(iii)",
+      "field": "assets",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 5,
+      "part": "6(a)(iii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 121->150"
+     },
+     {
+      "q": 5,
+      "part": "6(a)(iv)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 85->101"
+     },
+     {
+      "q": 9,
+      "part": "10(b)(ii)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 9,
+      "part": "10(b)(ii)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 148->148"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2021-11",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 0,
+      "part": "1(d)",
+      "field": "edit_status",
+      "kind": "changed",
+      "note": "len 9->9"
+     },
+     {
+      "q": 0,
+      "part": "1(d)",
+      "field": "edits",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 5,
+      "part": "6(e)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 119->143"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2022-01",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 4,
+      "part": "5(b)(iv)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 2->2"
+     },
+     {
+      "q": 4,
+      "part": "5(b)(iv)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 194->194"
+     },
+     {
+      "q": 4,
+      "part": "5(b)(iv)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 179->178"
+     },
+     {
+      "q": 7,
+      "part": "8(d)(i)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 90->118"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2022-01",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2022-01",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 6,
+      "part": "7(e)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 144->186"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2022-01",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2022-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2022-06",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 3,
+      "part": "4(d)(iii)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 3->3"
+     },
+     {
+      "q": 3,
+      "part": "4(d)(iii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 285->285"
+     },
+     {
+      "q": 3,
+      "part": "4(d)(iii)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 272->268"
+     },
+     {
+      "q": 6,
+      "part": "7(c)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 121->157"
+     },
+     {
+      "q": 6,
+      "part": "7(d)(i)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 74->113"
+     },
+     {
+      "q": 10,
+      "part": "11(b)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 3->3"
+     },
+     {
+      "q": 10,
+      "part": "11(b)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 401->401"
+     },
+     {
+      "q": 10,
+      "part": "11(b)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 433->433"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2022-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~1)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 5,
+      "part": "6(a)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 4->4"
+     },
+     {
+      "q": 5,
+      "part": "6(a)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 379->382"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2022-06",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [
+     {
+      "q": 4,
+      "part": "5(c)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 101->124"
+     }
+    ],
+    "report": {
+     "wave20": {
+      "old": {
+       "stem_figure_stubs": 1
+      },
+      "new": {
+       "stem_figure_stubs": 2
+      }
+     },
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-01",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 5,
+      "part": "6(a)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 69->82"
+     },
+     {
+      "q": 5,
+      "part": "6(b)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 90->107"
+     },
+     {
+      "q": 11,
+      "part": "12(c)(iii)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 2->2"
+     },
+     {
+      "q": 11,
+      "part": "12(c)(iii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 214->214"
+     },
+     {
+      "q": 11,
+      "part": "12(c)(iii)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 146->146"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-01",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 3,
+      "part": "4(c)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 2->2"
+     },
+     {
+      "q": 3,
+      "part": "4(c)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 81->81"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-01",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2023-01",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 2,
+      "part": "3(a)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 2,
+      "part": "3(a)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 402->402"
+     },
+     {
+      "q": 2,
+      "part": "3(b)(ii)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 3->3"
+     },
+     {
+      "q": 2,
+      "part": "3(b)(ii)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 218->218"
+     },
+     {
+      "q": 6,
+      "part": "7(d)(i)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 6,
+      "part": "7(d)(i)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 67->67"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2023-06",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2023-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 6,
+      "part": "7(d)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 4->4"
+     },
+     {
+      "q": 6,
+      "part": "7(d)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 358->358"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-06",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~3)",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [
+     {
+      "q": 6,
+      "part": "7(c)(i)",
+      "field": "edit_status",
+      "kind": "changed",
+      "note": "len 9->9"
+     },
+     {
+      "q": 6,
+      "part": "7(c)(i)",
+      "field": "edits",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 6,
+      "part": "7(c)(i)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 6,
+      "part": "7(c)(i)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 389->135"
+     },
+     {
+      "q": 6,
+      "part": "7(c)(i)",
+      "field": "value_trace",
+      "kind": "changed",
+      "note": ""
+     }
+    ],
+    "report": {
+     "review_n_old": 4,
+     "review_n_new": 3,
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-11",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 7,
+      "part": "8(d)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 2->2"
+     },
+     {
+      "q": 7,
+      "part": "8(d)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 260->260"
+     },
+     {
+      "q": 7,
+      "part": "8(d)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 151->151"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2023-11",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2024-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [
+     {
+      "q": 2,
+      "part": "3(b)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 2->2"
+     },
+     {
+      "q": 2,
+      "part": "3(b)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 166->166"
+     },
+     {
+      "q": 2,
+      "part": "3(b)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 145->145"
+     },
+     {
+      "q": 7,
+      "part": "8(a)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 184->208"
+     }
+    ],
+    "report": {
+     "wave20": {
+      "old": {
+       "stem_figure_stubs": 1
+      },
+      "new": {
+       "stem_figure_stubs": 2
+      }
+     },
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2024-06",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~1)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 3,
+      "part": "4(c)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 261->261"
+     },
+     {
+      "q": 10,
+      "part": "11(d)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 10,
+      "part": "11(d)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 284->284"
+     },
+     {
+      "q": 10,
+      "part": "11(d)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 266->268"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2024-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2024-06",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 6,
+      "part": "7(c)(i)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 65->119"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2024-11",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 9,
+      "part": "10(c)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 234->266"
+     },
+     {
+      "q": 10,
+      "part": "11(a)(iii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 317->317"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2024-11",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 0,
+      "part": "1(c)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 2->2"
+     },
+     {
+      "q": 0,
+      "part": "1(c)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 313->309"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2025-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2025-06",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 8,
+      "part": "9(d)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 113->147"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2025-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 4,
+      "part": "5(c)(i)",
+      "field": "edit_status",
+      "kind": "changed",
+      "note": "len 9->9"
+     },
+     {
+      "q": 4,
+      "part": "5(c)(i)",
+      "field": "edits",
+      "kind": "changed",
+      "note": ""
+     },
+     {
+      "q": 5,
+      "part": "6(c)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 1->1"
+     },
+     {
+      "q": 5,
+      "part": "6(c)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 461->461"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2025-06",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2025-11",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "semantic-delta"
+    },
+    "part_diffs": [],
+    "report": {
+     "review_n_old": 0,
+     "review_n_new": 1,
+     "_note": "all gates PASS both sides (report prose drift only)"
+    },
+    "verdict": "deltas"
+   },
+   {
+    "series": "2025-11",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2026-06",
+    "paper": "4CH1-1C",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 7,
+      "part": "8(b)(ii)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 168->168"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2026-06",
+    "paper": "4CH1-1CR",
+    "files": {
+     "topic.json": "differ",
+     "questions.md": "differ (line-delta ~0)",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [
+     {
+      "q": 7,
+      "part": "8(c)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 59->85"
+     },
+     {
+      "q": 10,
+      "part": "11(d)",
+      "field": "mark_points",
+      "kind": "changed",
+      "note": "len 3->3"
+     },
+     {
+      "q": 10,
+      "part": "11(d)",
+      "field": "problem_md",
+      "kind": "changed",
+      "note": "len 161->161"
+     },
+     {
+      "q": 10,
+      "part": "11(d)",
+      "field": "solution_md",
+      "kind": "changed",
+      "note": "len 219->219"
+     }
+    ],
+    "report": {},
+    "verdict": "deltas"
+   },
+   {
+    "series": "2026-06",
+    "paper": "4CH1-2C",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   },
+   {
+    "series": "2026-06",
+    "paper": "4CH1-2CR",
+    "files": {
+     "topic.json": "same",
+     "questions.md": "same",
+     "validation-report.json": "same"
+    },
+    "part_diffs": [],
+    "report": {},
+    "verdict": "clean"
+   }
+  ],
+  "fields": {
+   "problem_md": [
+    "2019-06/4CH1-1CR q3 4(b)(iv) changed len 128->162",
+    "2020-01/4CH1-1CR q8 9(b)(ii) changed len 55->73",
+    "2020-01/4CH1-1CR q10 11(c)(iii) changed len 179->179",
+    "2020-01/4CH1-2C q5 6(d)(ii) changed len 66->104",
+    "2021-01/4CH1-1C q10 11(c) changed len 234->234",
+    "2021-01/4CH1-1CR q7 8(b)(iii) changed len 54->75",
+    "2021-11/4CH1-1C q5 6(a)(iii) changed len 121->150",
+    "2021-11/4CH1-1C q5 6(a)(iv) changed len 85->101",
+    "2021-11/4CH1-2C q5 6(e)(ii) changed len 119->143",
+    "2022-01/4CH1-1C q4 5(b)(iv) changed len 194->194",
+    "2022-01/4CH1-1C q7 8(d)(i) changed len 90->118",
+    "2022-01/4CH1-2C q6 7(e) changed len 144->186",
+    "2022-06/4CH1-1CR q3 4(d)(iii) changed len 285->285",
+    "2022-06/4CH1-1CR q6 7(c) changed len 121->157",
+    "2022-06/4CH1-1CR q6 7(d)(i) changed len 74->113",
+    "2022-06/4CH1-1CR q10 11(b) changed len 401->401",
+    "2022-06/4CH1-2CR q4 5(c)(ii) changed len 101->124",
+    "2023-01/4CH1-1C q5 6(a) changed len 69->82",
+    "2023-01/4CH1-1C q5 6(b) changed len 90->107",
+    "2023-01/4CH1-1C q11 12(c)(iii) changed len 214->214",
+    "2023-11/4CH1-1C q7 8(d) changed len 260->260",
+    "2024-06/4CH1-1C q2 3(b) changed len 166->166",
+    "2024-06/4CH1-1C q7 8(a)(ii) changed len 184->208",
+    "2024-06/4CH1-1CR q3 4(c)(ii) changed len 261->261",
+    "2024-06/4CH1-1CR q10 11(d) changed len 284->284",
+    "2024-06/4CH1-2CR q6 7(c)(i) changed len 65->119",
+    "2024-11/4CH1-1C q9 10(c) changed len 234->266",
+    "2024-11/4CH1-1C q10 11(a)(iii) changed len 317->317",
+    "2025-06/4CH1-1CR q8 9(d)(ii) changed len 113->147",
+    "2026-06/4CH1-1C q7 8(b)(ii) changed len 168->168",
+    "2026-06/4CH1-1CR q7 8(c) changed len 59->85",
+    "2026-06/4CH1-1CR q10 11(d) changed len 161->161"
+   ],
+   "assets": [
+    "2020-01/4CH1-2C q5 6(d)(ii) changed",
+    "2020-11/4CH1-2CR q0 1(b) changed",
+    "2021-11/4CH1-1C q0 1(a)(i) changed",
+    "2021-11/4CH1-1C q0 1(a)(ii) changed",
+    "2021-11/4CH1-1C q0 1(a)(iii) changed"
+   ],
+   "solution_md": [
+    "2020-11/4CH1-1C q2 3(c)(ii) changed len 262->268",
+    "2021-01/4CH1-1C q10 11(c) changed len 348->348",
+    "2021-01/4CH1-2C q6 7(c)(iii) changed len 437->435",
+    "2021-11/4CH1-1C q9 10(b)(ii) changed len 148->148",
+    "2022-01/4CH1-1C q4 5(b)(iv) changed len 179->178",
+    "2022-06/4CH1-1CR q3 4(d)(iii) changed len 272->268",
+    "2022-06/4CH1-1CR q10 11(b) changed len 433->433",
+    "2022-06/4CH1-2C q5 6(a) changed len 379->382",
+    "2023-01/4CH1-1C q11 12(c)(iii) changed len 146->146",
+    "2023-01/4CH1-1CR q3 4(c) changed len 81->81",
+    "2023-01/4CH1-2CR q2 3(a) changed len 402->402",
+    "2023-01/4CH1-2CR q2 3(b)(ii) changed len 218->218",
+    "2023-01/4CH1-2CR q6 7(d)(i) changed len 67->67",
+    "2023-06/4CH1-2C q6 7(d) changed len 358->358",
+    "2023-06/4CH1-2CR q6 7(c)(i) changed len 389->135",
+    "2023-11/4CH1-1C q7 8(d) changed len 151->151",
+    "2024-06/4CH1-1C q2 3(b) changed len 145->145",
+    "2024-06/4CH1-1CR q10 11(d) changed len 266->268",
+    "2024-11/4CH1-2C q0 1(c) changed len 313->309",
+    "2025-06/4CH1-2C q5 6(c) changed len 461->461",
+    "2026-06/4CH1-1CR q10 11(d) changed len 219->219"
+   ],
+   "mark_points": [
+    "2021-01/4CH1-1C q10 11(c) changed len 1->1",
+    "2021-01/4CH1-2C q6 7(c)(iii) changed len 5->5",
+    "2021-11/4CH1-1C q9 10(b)(ii) changed len 1->1",
+    "2022-01/4CH1-1C q4 5(b)(iv) changed len 2->2",
+    "2022-06/4CH1-1CR q3 4(d)(iii) changed len 3->3",
+    "2022-06/4CH1-1CR q10 11(b) changed len 3->3",
+    "2022-06/4CH1-2C q5 6(a) changed len 4->4",
+    "2023-01/4CH1-1C q11 12(c)(iii) changed len 2->2",
+    "2023-01/4CH1-1CR q3 4(c) changed len 2->2",
+    "2023-01/4CH1-2CR q2 3(a) changed len 1->1",
+    "2023-01/4CH1-2CR q2 3(b)(ii) changed len 3->3",
+    "2023-01/4CH1-2CR q6 7(d)(i) changed len 1->1",
+    "2023-06/4CH1-2C q6 7(d) changed len 4->4",
+    "2023-06/4CH1-2CR q6 7(c)(i) changed len 1->1",
+    "2023-11/4CH1-1C q7 8(d) changed len 2->2",
+    "2024-06/4CH1-1C q2 3(b) changed len 2->2",
+    "2024-06/4CH1-1CR q10 11(d) changed len 1->1",
+    "2024-11/4CH1-2C q0 1(c) changed len 2->2",
+    "2025-06/4CH1-2C q5 6(c) changed len 1->1",
+    "2026-06/4CH1-1CR q10 11(d) changed len 3->3"
+   ],
+   "edit_status": [
+    "2021-11/4CH1-2C q0 1(d) changed len 9->9",
+    "2023-06/4CH1-2CR q6 7(c)(i) changed len 9->9",
+    "2025-06/4CH1-2C q4 5(c)(i) changed len 9->9"
+   ],
+   "edits": [
+    "2021-11/4CH1-2C q0 1(d) changed",
+    "2023-06/4CH1-2CR q6 7(c)(i) changed",
+    "2025-06/4CH1-2C q4 5(c)(i) changed"
+   ],
+   "value_trace": [
+    "2023-06/4CH1-2CR q6 7(c)(i) changed"
+   ]
+  },
+  "assets": {
+   "same": 407,
+   "diff": 0,
+   "added": 0,
+   "removed": 0,
+   "mode_noise": 0,
+   "diff_list": []
+  },
+  "totals": {
+   "slices": 54
+  }
+ }
+}
