@@ -16,11 +16,11 @@ resumable). **v2 fresh-parse lane COMPLETE (T-PARSE-YCH12-2, 2026-10-27): the R2
 recycle with the FULL 315-record sidecar applied (re-verified 306+9=315/315) — consumed as the v2
 corpus of record (1406 chunks, `ych2_v2_`, validator ALL CHECKS PASSED; adjudication: error-class
 rates identical to r0, structure identical, 305/306 fills in chunk text — METHOD D-12).** v2 polish R1
-grind resumed (POLISH-CONT-V2, 2026-10-27; CONT-V2-2, 2026-10-28): runner/merge/audit parameterized
-via env (defaults = v1 byte-proven unchanged, L-026), **103/801 applied** across 7 quota windows
+grind resumed (POLISH-CONT-V2, 2026-10-27; CONT-V2-2, 2026-10-28; CONT-V2-3, 2026-10-28): runner/merge/audit parameterized
+via env (defaults = v1 byte-proven unchanged, L-026), **218/801 applied** across 11 quota windows
 (merge anchor 0 drift from the v2 pristine, three-way reconciliation ALL PASS, audit 0 Unicode-unit
-regressions, validator ALL CHECKS PASSED — resumable; 112 done incl. 9 rejected, 8 error records
-self-heal; todo 689). SB1 = parsed in the sibling `ych11` lane. Scaffold per
+regressions, validator ALL CHECKS PASSED — resumable; 241 done incl. 23 rejected, 12 error records
+self-heal; todo 560). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane
@@ -69,8 +69,8 @@ v2 hub course ial-chemistry-17 · specKey
    (v1's 103 repairs remain v1-history; repairs do not carry by id — L-026).
    Runner/merge/audit parameterized via env (`YCH12_CORPUS`/`YCH12_IDS`/
    `YCH12_REPAIRS`, defaults = v1 byte-proven unchanged). Grind:
-   quota-walled burst-harvest, foreground windows only (L-027 — the sandbox
-   reaps background processes at tool-call end); wall closures vary session
-   to session (~20 min cadence 2026-10-27, 51+ min 2026-10-28).
+   quota-walled burst-harvest, foreground windows only (L-027 —
+   background/nohup grind loops are reaped at tool-call end); wall closures
+   vary (~20 min cadence 2026-10-27, 51+ min then ~10–12 min 2026-10-28).
 3. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
 4. Update `books/CATALOG.md` tracker in the same commit as each state change.

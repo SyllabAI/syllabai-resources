@@ -368,3 +368,52 @@ Stage Summary:
   Grind remains resumable via the unchanged recipe (foreground windows, env-
   parameterized runner). Open follow-ups: pack-floor fold fix (own gate),
   serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-3
+Agent: Z.ai (main, zai-web)
+Task: "continue" (2026-10-28, zai-web, trace 1a183f5a24a10299) — continue the v2
+polish grind, land the delta, keep the §9 playbook current.
+
+Work Log:
+- SANDBOX RESET #7 recovery: fetch + ff-only (origin advanced 574 commits,
+  other lanes: T-SPECS-9696/4HI1, CIE-JOIN-2 wave-2, F110/F111, T-C42 R25/R26);
+  sparse-add ych12. ENOSPC hit the sparse-add (disk 100%) — freed ~4.3 GB by
+  deleting the STALE v1-era workspaces (data/ych12_sb2 1.8G — everything
+  landed in-repo; data/ych11_sb1 264M sibling lane), the rebuildable docling
+  models (data/models 1G) and browser caches (~/.cache 1.2G). All deleted
+  content is either the repo's durable state (evidence, corpora, page banks)
+  or rebuildable tooling. v1-default runner paths are stale by design (the
+  v2 lane always sources the env surface — L-026).
+- WORKSPACE: data/ych12_sb2_v2 rebuilt from the repo (corpus seeded from the
+  v2 .pristine per the clobber law L-024; evidence 120 records; 801 ids);
+  baseline validator ALL CHECKS PASSED; SDK reinstalled.
+- GRIND: 4 harvesting windows (+50, +27, +28, +28 records; bursts 26-40);
+  wall closures 19:34/19:46/19:56/20:05 UTC (~10-12 min cadence — healthier
+  than CONT-V2-2's 51+ min wall); foreground windows only per L-027.
+- EVIDENCE: 253 records (218 ok / 23 rejected / 12 error-cum-429 self-heal);
+  241/801 done, todo 560.
+- MERGE (clobber law observed): pristine-seeded corpus, FULL evidence applied
+  ONCE — 218 llm_repaired / 218 text changed, anchor PASS 0 drift. THREE-WAY
+  RECONCILIATION ALL PASS (ych12_v2_reconcile.py): vs pristine diff set ==
+  ok set (218) / vs landed net-new 115 (103 overlap re-applied, text_original
+  re-stamped from pristine) / untouched byte-identical / id set unchanged.
+- AUDIT: changed chunks camel_glue 106→0, space_run 1547→21, caps_glue
+  105→29; 0 Unicode-unit regressions; 14 residual 18+ runs ALL genuine
+  chemistry words (dinitrophenylhydrazine, disproportionation,
+  chloromethylpropane, methylethylpropanoate, tetrachlorocuprate, …) — the
+  known benign class.
+- VALIDATE: YCH12_VERSION=v2 ALL CHECKS PASSED post-merge (EP 10/10).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 103→218) + evidence/llm_repairs_ych12_v2.jsonl (253 records);
+  ledgers same commit: lane README, CATALOG row 12 + §3.6, playbook R-012 +
+  changelog v1.9 (no new lessons — this run CONFIRMS the playbook: quota
+  regime per L-007/L-017, foreground windows per L-027, clobber law per
+  L-024, env parameterization per L-026).
+
+Stage Summary:
+- v2 polish R1 at **218/801 applied (241 done incl. 23 rejected, 12 error
+  records self-heal)**, todo 560; quota-walled burst-harvest regime, windows
+  healthy this session (~10-12 min cadence, +27-50/window). Grind resumable
+  via the unchanged recipe. Open follow-ups: pack-floor fold fix (own gate),
+  serving lane.

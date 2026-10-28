@@ -883,6 +883,34 @@ E-ID they correct)*
   L-007/L-017/L-024/L-026; environment lesson L-027 filed). Lessons
   appended: L-027. Errata filed: none new.
 
+- **R-012** (2026-10-28, T-PARSE-YCH12-2 POLISH-CONT-V2-3, YCH12 SB2 v2 polish
+  continuation): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  (v2 grammar, EP 10/10); LLM polish R1-v2: 801 staged, cumulative **218
+  applied** (218 text changed), 23 rejected (guard; raws in evidence), 12
+  error-cum-429 (self-heal on resume; 241/801 done, todo 560); this session
+  4 harvesting windows (+50, +27, +28, +28 records; bursts 26–40) with wall
+  closures 19:34/19:46/19:56/20:05 UTC (~10–12 min cadence — healthier than
+  CONT-V2-2's 51+ min wall; the L-017 "walls vary" class, now with both
+  extremes observed back-to-back); environment: the reset sandbox hit ENOSPC
+  at sparse-add — freed ~4.3 GB by deleting stale v1-era workspaces
+  (everything landed in-repo), rebuildable docling models and browser
+  caches, after which the standard recovery ran clean (foreseeable at ~10
+  GB rootfs: keep ≤2 lane workspaces, bank page checkpoints in-repo per
+  L-025 so stale local copies can be dropped without hesitation); merge
+  from the v2 pristine (clobber law L-024 observed), anchor **0 drift**,
+  three-way reconciliation ALL PASS (vs pristine diff set == ok set 218 /
+  vs landed net-new **115**, the 103 overlap re-applied with text_original
+  re-stamped from pristine / untouched chunks byte-identical / id set
+  unchanged); audit 0 Unicode-unit regressions (changed chunks camel_glue
+  106→0, space_run 1547→21, caps_glue 105→29; 14 residual 18+ runs ALL
+  genuine chemistry words — the known benign class:
+  dinitrophenylhydrazine, disproportionation, methylethylpropanoate,
+  tetrachlorocuprate, …). Deviations from playbook: none (grind per
+  L-007/L-017/L-024/L-026/L-027). Lessons appended: none new (this run
+  CONFIRMS the playbook; the ENOSPC cleanup note is filed here in R-012 as
+  an operational remark — no ledger rule change). Errata filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -892,6 +920,16 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-28 — v1.9 (T-PARSE-YCH12-2 POLISH-CONT-V2-3):** YCH12 v2 polish
+  grind continued and landed (R-012: cumulative **218/801 applied**, net-new
+  115 this landing — the grind's largest so far, anchor 0 drift, three-way
+  reconciliation + audit + validator all green, resumable at todo 560).
+  Review record **R-012** (no new lessons — the run confirms the playbook:
+  quota regime L-007/L-017 with both wall extremes now observed, foreground
+  windows L-027, clobber law L-024, env parameterization L-026; ENOSPC
+  workspace-hygiene remark filed in R-012). Ledgers: CATALOG row 12 + §3.6
+  tracker updated; lane README + lane worklog same commit.
 
 - **2026-10-28 — v1.8 (T-PARSE-YCH12-2 POLISH-CONT-V2-2):** YCH12 v2 polish
   grind continued and landed (R-011: cumulative **103/801 applied**, net-new
