@@ -858,3 +858,30 @@ served bundle PR carries a full disclosure census.
   closed exactly, stationScope eighteen-station-plus-rejects, the corpus-boundary disclosure carried).
   Both README lane-17 sections. Audits fail-closed ALL GREEN (closure exact 43 = 0 + 1 + 42; MANIFEST
   additive; 0 collisions trivially; spine rows verbatim).
+- **T-SPECS-MATHSB-REVIEW-1 run-001 — maths-b content-join review-queue ADJUDICATION (r1)**:
+  operator gate order "begin adjudicating this queue" (trace 1a183185e0ef73dd) over the r0
+  content-join queue of record (8460a5f3: 162 flag rows / 159 unique — 3 r0 dup-flag rows disclosed
+  and collapsed — + 13 honestly-unmapped spcpts). Engine `scripts/maths_b_review_adjudicate.py`
+  (refined scorer: statement-frequency weighted cov w=1/sqrt(sf) — the run-001 followup's
+  long-statement dilution refinement — + title precision tp + engine ns + 0.10 raw cov;
+  corpus-derived only, command_words.json is EMPTY so no external stopword list). VERDICTS: 172 rows
+  adjudicated — 1 CARD_NAMED_REPOINT (Finding Equations of Straight Lines 4K→4I, refined evidence
+  reproduced the card anchor) + 3 EYES_ON_REPOINT (Speed-Time Graphs 4K→4N, Distance-Time Graphs
+  4K→4N, Difference Of Two Squares 8E→3C — card anchors the token scorer cannot reproduce, bases
+  quote the statements READ: 4K is the 4J-continuation fragment 'gradients of graphs above by
+  drawing', 4N 'Applications to linear kinematics', 3C 'The factorisation of simple algebraic
+  expressions', refined in-topic 3D rejected = 'Use of the factor theorem') + 1 REPOINT (Multiple
+  Ratios 1B→1H, the r0 tie-break artifact on a 0.0018 near-tie; 1H = 'Fractions, decimals, ratio,
+  proportion and percentage') + 64 UPGRADE (C3→C1 same-code decisive refined confirms) + 3
+  CROSS_TOPIC_CONFIRM (r0 CX joins decisively re-confirmed — Pythagoras Theorem 6F cov_w 1.0, 3D
+  Pythagoras & Trigonometry 6F, Algebraic Roots & Indices 1C; flags cleared, disclosure preserved)
+  + 55 CONFIRM_STAY + 32 STAY + 13 UNMAPPED_STAY (honest; the T-SPEC-2b operator-verdict overlay
+  lane is the future path for the 2-3 plausible semantic homes e.g. Best Buys→1G, Midpoint of a
+  Line→4H — NOT manufactured here). Queue 162 → 88 flags; 202/215 mapped (tiers C1 96 / C3 73 /
+  S1 20 / C2 12 / S2 1); ledger +5 repoints. Downstream re-derived for the course: flashcard_spec_map
+  1082 cards / 262 coded / 189 rows re-provisioned via sme_spec_link_inheritance; spec-links 467
+  items / 450 coded (notes 188/199, cards 262/268); manifest timestamp-only. Sheet artifact
+  `SME-ExamQuestion/igcse-maths-b-16/review_adjudication.json` (172 rows, full refined profiles).
+  Battery: 215/215 accounted, flags==flagged-mappings, repointed codes valid in pool, ledger 5/5,
+  resolution-mirrors-map, no dup flag rows, idempotence (re-run byte-no-op under the r1 pass
+  marker law). Base 8a9e2241; no v2 contact in this commit; no force.

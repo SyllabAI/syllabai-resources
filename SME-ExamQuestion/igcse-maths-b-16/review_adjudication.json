@@ -1,0 +1,4523 @@
+{
+ "schema": "syllabai.sme-spec-point-review-adjudication/1.0",
+ "course": "igcse-maths-b-16",
+ "generated_utc": "2026-10-28T15:51:29Z",
+ "gate_order": "begin adjudicating this queue (T-SPECS-MATHSB-REVIEW-1)",
+ "queue_of_record": {
+  "flags": 162,
+  "unmapped": 13
+ },
+ "verdict_law": "REPOINT/UPGRADE at refined margin >= 0.08 with cov_w >= 0.30 or tp >= 0.55, topic-gated; CARD_NAMED rows land the review-card anchors; everything else stays with the r0 flag annotated adjudicated-stay; no-guess discipline preserved",
+ "summary": {
+  "mappings": "202/215",
+  "tiers": {
+   "C1_content_join": 96,
+   "S1_name_match": 20,
+   "C3_topic_anchored": 73,
+   "C2_content_join": 12,
+   "S2_name_ambiguous": 1
+  },
+  "unmapped": 13,
+  "flags": 88,
+  "verdicts": {
+   "CARD_NAMED_REPOINT": 1,
+   "UPGRADE": 64,
+   "EYES_ON_REPOINT": 3,
+   "CONFIRM_STAY": 55,
+   "STAY": 32,
+   "UNMAPPED_STAY": 13,
+   "CROSS_TOPIC_CONFIRM": 3,
+   "REPOINT": 1
+  },
+  "override_ledger_entries_added": 5,
+  "notes_with_code": "188/199",
+  "loose_notes": [
+   "rn_75kF7pHkDPyxHjXV",
+   "rn_BcGbycJZ9jCyYm8s",
+   "rn_HvHf76msbbFdYBtS",
+   "rn_JdntnDHnGmF6HdVz",
+   "rn_SSvGSF9kjwYMBR6F",
+   "rn_Wdrpnks89Ffdd3xq",
+   "rn_cJS4DFPDKB6Yp8Rb",
+   "rn_dGtXYQXDqVKSRS9g",
+   "rn_qVHzkpsw9qRwcBmq",
+   "rn_yfbCFbTBcSxy8w9P",
+   "rn_ymYS8yZHRtWXM6cX"
+  ],
+  "held_for_eyes_on": []
+ },
+ "rows": [
+  {
+   "spcpt_id": "spcpt_2D9sp6d4f6jCmRMx",
+   "name": "Finding Equations of Straight Lines",
+   "of_record_code": "4K",
+   "verdict": "CARD_NAMED_REPOINT",
+   "new_code": "4I",
+   "basis": "review-card named priority (operator-endorsed of record); refined corroboration best=3H 0.433 in-topic best=4I 0.377",
+   "refined_full_best": {
+    "code": "3H",
+    "score_r": 0.4331,
+    "cov_w": 0.491,
+    "tp": 0.333,
+    "ns": 0.413
+   },
+   "refined_full_second": {
+    "code": "4I",
+    "score_r": 0.3769
+   },
+   "refined_topic_best": {
+    "code": "4I",
+    "score_r": 0.3769,
+    "cov_w": 0.337,
+    "tp": 0.444
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_2KkPGzKqGcx5jPkt",
+   "name": "Classifying Stationary Points",
+   "of_record_code": "4M",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4M 0.509 margin 0.309 (cov_w 0.57, tp 0.57)",
+   "refined_full_best": {
+    "code": "4M",
+    "score_r": 0.5093,
+    "cov_w": 0.57,
+    "tp": 0.571,
+    "ns": 0.333
+   },
+   "refined_full_second": {
+    "code": "6E",
+    "score_r": 0.2754
+   },
+   "refined_topic_best": {
+    "code": "4M",
+    "score_r": 0.5093,
+    "cov_w": 0.57,
+    "tp": 0.571
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_2NQRqtzTGgzNksfC",
+   "name": "Adding & Subtracting Areas",
+   "of_record_code": "7A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 7A 0.482 margin 0.131 (cov_w 0.59, tp 0.38)",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.4817,
+    "cov_w": 0.586,
+    "tp": 0.375,
+    "ns": 0.348
+   },
+   "refined_full_second": {
+    "code": "8H",
+    "score_r": 0.3579
+   },
+   "refined_topic_best": {
+    "code": "7A",
+    "score_r": 0.4817,
+    "cov_w": 0.586,
+    "tp": 0.375
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_2SfTVFKHJRBby3QK",
+   "name": "Angles in Parallel Lines",
+   "of_record_code": "6C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6C 0.510 margin 0.207 (cov_w 0.31, tp 1.00)",
+   "refined_full_best": {
+    "code": "6C",
+    "score_r": 0.5102,
+    "cov_w": 0.313,
+    "tp": 1.0,
+    "ns": 0.407
+   },
+   "refined_full_second": {
+    "code": "9C",
+    "score_r": 0.3335
+   },
+   "refined_topic_best": {
+    "code": "6C",
+    "score_r": 0.5102,
+    "cov_w": 0.313,
+    "tp": 1.0
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_2nCMJhvvGsW7vMcV",
+   "name": "Speed-Time Graphs",
+   "of_record_code": "4K",
+   "verdict": "EYES_ON_REPOINT",
+   "new_code": "4N",
+   "basis": "eyes-on r1: 4K read = 'The gradients of graphs above by drawing' — a continuation fragment of 4J's numerical-coefficient polynomial graphs, not a kinematics home; 4N read = 'Applications to linear kinematics and to other simple practical problems' = the spine's kinematics home; distance/speed-time graph interpretation is linear kinematics in substance (velocity/acceleration from gradients, distance from area) though the lesson never prints the spec's word; 4N already of-record for the Kinematics S1 row (grouping-consistent); review-card named anchor landed per the card of record",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.4169,
+    "cov_w": 0.429,
+    "tp": 0.5,
+    "ns": 0.281
+   },
+   "refined_full_second": {
+    "code": "4J",
+    "score_r": 0.2744
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.4169,
+    "cov_w": 0.429,
+    "tp": 0.5
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_2w9hbV5pTbvc5Smj",
+   "name": "Surface Area",
+   "of_record_code": "7A",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 7A (in-topic best 0.382, margin 0.036) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "6G",
+    "score_r": 0.4121,
+    "cov_w": 0.425,
+    "tp": 0.571,
+    "ns": 0.237
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.3816
+   },
+   "refined_topic_best": {
+    "code": "7A",
+    "score_r": 0.3816,
+    "cov_w": 0.293,
+    "tp": 0.571
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_339DNssRW9x2NPKk",
+   "name": "Basic Fractions",
+   "of_record_code": "1B",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1H 0.303 margin 0.110 below decisive bar vs of-record 1B",
+   "refined_full_best": {
+    "code": "3A",
+    "score_r": 0.3505,
+    "cov_w": 0.293,
+    "tp": 0.4,
+    "ns": 0.4
+   },
+   "refined_full_second": {
+    "code": "1H",
+    "score_r": 0.3033
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.3033,
+    "cov_w": 0.16,
+    "tp": 0.6
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_3fMGfNtg3hXMg6gC",
+   "name": "Problem Solving with Areas",
+   "of_record_code": "7A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 7A 0.509 margin 0.154 (cov_w 0.59, tp 0.38)",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.5093,
+    "cov_w": 0.586,
+    "tp": 0.375,
+    "ns": 0.458
+   },
+   "refined_full_second": {
+    "code": "7D",
+    "score_r": 0.3555
+   },
+   "refined_topic_best": {
+    "code": "7A",
+    "score_r": 0.5093,
+    "cov_w": 0.586,
+    "tp": 0.375
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_3n2jHMX7vMBh95jq",
+   "name": "Negative Numbers",
+   "of_record_code": "1K",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1K (in-topic best 0.342, margin 0.029) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2D",
+    "score_r": 0.3542,
+    "cov_w": 0.286,
+    "tp": 0.5,
+    "ns": 0.326
+   },
+   "refined_full_second": {
+    "code": "1K",
+    "score_r": 0.3421
+   },
+   "refined_topic_best": {
+    "code": "1K",
+    "score_r": 0.3421,
+    "cov_w": 0.241,
+    "tp": 0.5
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_3sptc2fDMgGnNYqg",
+   "name": "Multiplying Fractions",
+   "of_record_code": "1B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1B (in-topic best 0.410, margin 0.067) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1B",
+    "score_r": 0.4097,
+    "cov_w": 0.571,
+    "tp": 0.167,
+    "ns": 0.308
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.3754
+   },
+   "refined_topic_best": {
+    "code": "1B",
+    "score_r": 0.4097,
+    "cov_w": 0.571,
+    "tp": 0.167
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_425cHYzg3cyxG5f3",
+   "name": "Arithmetic Sequences",
+   "of_record_code": "3L",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3L 0.608 margin 0.288 (cov_w 0.63, tp 0.60)",
+   "refined_full_best": {
+    "code": "3L",
+    "score_r": 0.6084,
+    "cov_w": 0.634,
+    "tp": 0.6,
+    "ns": 0.619
+   },
+   "refined_full_second": {
+    "code": "3H",
+    "score_r": 0.3204
+   },
+   "refined_topic_best": {
+    "code": "3L",
+    "score_r": 0.6084,
+    "cov_w": 0.634,
+    "tp": 0.6
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_4QRwffMSmK66nXtp",
+   "name": "Surds & Exact Values",
+   "of_record_code": "1D",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1D 0.594 margin 0.235 (cov_w 0.64, tp 0.58)",
+   "refined_full_best": {
+    "code": "1D",
+    "score_r": 0.5942,
+    "cov_w": 0.635,
+    "tp": 0.583,
+    "ns": 0.578
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.3679
+   },
+   "refined_topic_best": {
+    "code": "1D",
+    "score_r": 0.5942,
+    "cov_w": 0.635,
+    "tp": 0.583
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_4ZdHtGPdDjYdR6rK",
+   "name": "Compound Measures",
+   "of_record_code": "1G",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1G 0.343 margin 0.200 (cov_w 0.33, tp 0.29)",
+   "refined_full_best": {
+    "code": "1G",
+    "score_r": 0.3427,
+    "cov_w": 0.333,
+    "tp": 0.286,
+    "ns": 0.419
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.3384
+   },
+   "refined_topic_best": {
+    "code": "1G",
+    "score_r": 0.3427,
+    "cov_w": 0.333,
+    "tp": 0.286
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_5CHMgxBWhBwxh5Y6",
+   "name": "Reverse Percentages",
+   "of_record_code": "1H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1H 0.473 margin 0.304 (cov_w 0.45, tp 0.60)",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.4727,
+    "cov_w": 0.453,
+    "tp": 0.6,
+    "ns": 0.406
+   },
+   "refined_full_second": {
+    "code": "4F",
+    "score_r": 0.4093
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.4727,
+    "cov_w": 0.453,
+    "tp": 0.6
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_5FMXZMjqSZ3GK53q",
+   "name": "Basic Angle Properties",
+   "of_record_code": "6L",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 6C 0.462 margin 0.023 below decisive bar vs of-record 6L",
+   "refined_full_best": {
+    "code": "6C",
+    "score_r": 0.4623,
+    "cov_w": 0.356,
+    "tp": 0.8,
+    "ns": 0.302
+   },
+   "refined_full_second": {
+    "code": "6L",
+    "score_r": 0.4394
+   },
+   "refined_topic_best": {
+    "code": "6C",
+    "score_r": 0.4623,
+    "cov_w": 0.356,
+    "tp": 0.8
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_5SJ9rhJbhSwKtDbv",
+   "name": "Determinant of a transformation matrix",
+   "of_record_code": "5G",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 5C 0.497 margin 0.018 below decisive bar vs of-record 5G",
+   "refined_full_best": {
+    "code": "8L",
+    "score_r": 0.7097,
+    "cov_w": 1.0,
+    "tp": 0.312,
+    "ns": 0.526
+   },
+   "refined_full_second": {
+    "code": "5C",
+    "score_r": 0.4971
+   },
+   "refined_topic_best": {
+    "code": "5C",
+    "score_r": 0.4971,
+    "cov_w": 0.634,
+    "tp": 0.312
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_5Wj647RsttH6ZNfd",
+   "name": "Scale",
+   "of_record_code": "6B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 6B (in-topic best 0.119, margin 0.026) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.3086,
+    "cov_w": 0.519,
+    "tp": 0.0,
+    "ns": 0.138
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.1875
+   },
+   "refined_topic_best": {
+    "code": "6B",
+    "score_r": 0.1186,
+    "cov_w": 0.0,
+    "tp": 0.167
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_6Tdy5SV9gzyC8BSw",
+   "name": "Repeated percentage change",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 1H 0.299, margin 0.101) — honest stay",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.2992,
+    "cov_w": 0.227,
+    "tp": 0.333,
+    "ns": 0.421
+   },
+   "refined_full_second": {
+    "code": "8H",
+    "score_r": 0.2673
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.2992,
+    "cov_w": 0.227,
+    "tp": 0.333
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_6XysCMWvYY936jw8",
+   "name": "Mixed Numbers & Improper Fractions",
+   "of_record_code": "1K",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1E 0.307 margin 0.006 below decisive bar vs of-record 1K",
+   "refined_full_best": {
+    "code": "1E",
+    "score_r": 0.3074,
+    "cov_w": 0.5,
+    "tp": 0.0,
+    "ns": 0.23
+   },
+   "refined_full_second": {
+    "code": "1K",
+    "score_r": 0.3012
+   },
+   "refined_topic_best": {
+    "code": "1E",
+    "score_r": 0.3074,
+    "cov_w": 0.5,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_6tmCTQJYPsTdKKZ6",
+   "name": "Substitution",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.270 margin 0.110 (cov_w 0.40, tp 0.12)",
+   "refined_full_best": {
+    "code": "1I",
+    "score_r": 0.296,
+    "cov_w": 0.469,
+    "tp": 0.0,
+    "ns": 0.233
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.2703
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.2703,
+    "cov_w": 0.402,
+    "tp": 0.125
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_7YTSNFdbGCTSMHJX",
+   "name": "Quadratic Equation Methods",
+   "of_record_code": "3K",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3K (in-topic best 0.419, margin 0.050) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3K",
+    "score_r": 0.4194,
+    "cov_w": 0.439,
+    "tp": 0.4,
+    "ns": 0.376
+   },
+   "refined_full_second": {
+    "code": "2D",
+    "score_r": 0.38
+   },
+   "refined_topic_best": {
+    "code": "3K",
+    "score_r": 0.4194,
+    "cov_w": 0.439,
+    "tp": 0.4
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_7gdmq8MbcShywrkB",
+   "name": "Rotational Symmetry",
+   "of_record_code": "6I",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 6E 0.342 margin 0.074 below decisive bar vs of-record 6I",
+   "refined_full_best": {
+    "code": "6E",
+    "score_r": 0.3421,
+    "cov_w": 0.248,
+    "tp": 0.6,
+    "ns": 0.291
+   },
+   "refined_full_second": {
+    "code": "6I",
+    "score_r": 0.2678
+   },
+   "refined_topic_best": {
+    "code": "6E",
+    "score_r": 0.3421,
+    "cov_w": 0.248,
+    "tp": 0.6
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_7pTpRYh7tsCnGspT",
+   "name": "Factorising Simple Quadratics",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.594 margin 0.217 (cov_w 0.63, tp 0.50)",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.5943,
+    "cov_w": 0.632,
+    "tp": 0.5,
+    "ns": 0.615
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.4363
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.5943,
+    "cov_w": 0.632,
+    "tp": 0.5
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_7sDcDrMgvvb7JNyy",
+   "name": "The identity and null matrices",
+   "of_record_code": "5B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 5B (in-topic best 0.415, margin 0.043) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2D",
+    "score_r": 0.4499,
+    "cov_w": 0.739,
+    "tp": 0.0,
+    "ns": 0.351
+   },
+   "refined_full_second": {
+    "code": "5B",
+    "score_r": 0.4148
+   },
+   "refined_topic_best": {
+    "code": "5B",
+    "score_r": 0.4148,
+    "cov_w": 0.324,
+    "tp": 0.429
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_84hZy4pDd8nBGN3r",
+   "name": "Midpoint of a Line",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 4M 0.163, margin 0.049) — honest stay",
+   "refined_full_best": {
+    "code": "6E",
+    "score_r": 0.369,
+    "cov_w": 0.36,
+    "tp": 0.333,
+    "ns": 0.407
+   },
+   "refined_full_second": {
+    "code": "8C",
+    "score_r": 0.2475
+   },
+   "refined_topic_best": {
+    "code": "4M",
+    "score_r": 0.1634,
+    "cov_w": 0.217,
+    "tp": 0.0
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_8GsFXwdQTJymxXw8",
+   "name": "Expected Frequency",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 10C 0.252, margin 0.000) — honest stay",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.2885,
+    "cov_w": 0.444,
+    "tp": 0.0,
+    "ns": 0.324
+   },
+   "refined_full_second": {
+    "code": "10C",
+    "score_r": 0.252
+   },
+   "refined_topic_best": {
+    "code": "10C",
+    "score_r": 0.252,
+    "cov_w": 0.284,
+    "tp": 0.143
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_8Wtthy9gt8B5xsVW",
+   "name": "Mathematical Symbols",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 1B 0.120, margin 0.003) — honest stay",
+   "refined_full_best": {
+    "code": "2I",
+    "score_r": 0.3844,
+    "cov_w": 0.453,
+    "tp": 0.333,
+    "ns": 0.346
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.1201
+   },
+   "refined_topic_best": {
+    "code": "1B",
+    "score_r": 0.1201,
+    "cov_w": 0.0,
+    "tp": 0.167
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_93QKhBw6PtVSvVdB",
+   "name": "Ratios & FDP",
+   "of_record_code": "1H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1H 0.479 margin 0.198 (cov_w 0.61, tp 0.43)",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.4791,
+    "cov_w": 0.613,
+    "tp": 0.429,
+    "ns": 0.267
+   },
+   "refined_full_second": {
+    "code": "1E",
+    "score_r": 0.2811
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.4791,
+    "cov_w": 0.613,
+    "tp": 0.429
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_9Stcxtj75Q3wpqJF",
+   "name": "Completing the Square",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.357 margin 0.135 (cov_w 0.57, tp 0.00)",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.363,
+    "cov_w": 0.519,
+    "tp": 0.0,
+    "ns": 0.356
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.3574
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.3574,
+    "cov_w": 0.572,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_9bNwP86Td5fk5FS6",
+   "name": "Sets & Venn Diagrams",
+   "of_record_code": "2G",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 2G (in-topic best 0.608, margin 0.028) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2G",
+    "score_r": 0.608,
+    "cov_w": 1.0,
+    "tp": 0.182,
+    "ns": 0.25
+   },
+   "refined_full_second": {
+    "code": "2F",
+    "score_r": 0.58
+   },
+   "refined_topic_best": {
+    "code": "2G",
+    "score_r": 0.608,
+    "cov_w": 1.0,
+    "tp": 0.182
+   },
+   "topic_gate": "2"
+  },
+  {
+   "spcpt_id": "spcpt_B37MzscGX3VQwSK2",
+   "name": "Position & Displacement Vectors",
+   "of_record_code": "8D",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 8D 0.610 margin 0.183 (cov_w 0.66, tp 0.71)",
+   "refined_full_best": {
+    "code": "8D",
+    "score_r": 0.6101,
+    "cov_w": 0.659,
+    "tp": 0.714,
+    "ns": 0.405
+   },
+   "refined_full_second": {
+    "code": "8H",
+    "score_r": 0.4267
+   },
+   "refined_topic_best": {
+    "code": "8D",
+    "score_r": 0.6101,
+    "cov_w": 0.659,
+    "tp": 0.714
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_BVf2GTX8FCvzJjJN",
+   "name": "Recurring Decimals",
+   "of_record_code": "1H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1H 0.469 margin 0.338 (cov_w 0.39, tp 0.71)",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.4689,
+    "cov_w": 0.387,
+    "tp": 0.714,
+    "ns": 0.382
+   },
+   "refined_full_second": {
+    "code": "6M",
+    "score_r": 0.1934
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.4689,
+    "cov_w": 0.387,
+    "tp": 0.714
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_BktcXhHcVFw8R9Q2",
+   "name": "Direct Proportion",
+   "of_record_code": "4G",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4G 0.664 margin 0.379 (cov_w 0.59, tp 0.86)",
+   "refined_full_best": {
+    "code": "4G",
+    "score_r": 0.6641,
+    "cov_w": 0.595,
+    "tp": 0.857,
+    "ns": 0.596
+   },
+   "refined_full_second": {
+    "code": "1C",
+    "score_r": 0.4287
+   },
+   "refined_topic_best": {
+    "code": "4G",
+    "score_r": 0.6641,
+    "cov_w": 0.595,
+    "tp": 0.857
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_CGChbywtxFSDK5vT",
+   "name": "Algebraic Proof",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.609 margin 0.201 (cov_w 0.77, tp 0.50)",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.6092,
+    "cov_w": 0.769,
+    "tp": 0.5,
+    "ns": 0.406
+   },
+   "refined_full_second": {
+    "code": "1K",
+    "score_r": 0.4383
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.6092,
+    "cov_w": 0.769,
+    "tp": 0.5
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_Ck5vpzYGNJy5qdNM",
+   "name": "Quadratics Factorising Methods",
+   "of_record_code": "3D",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 3C 0.500 margin 0.085 below decisive bar vs of-record 3D",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.4996,
+    "cov_w": 0.682,
+    "tp": 0.25,
+    "ns": 0.457
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.4609
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.4996,
+    "cov_w": 0.682,
+    "tp": 0.25
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_D6T5FMtYgmDGKKXB",
+   "name": "Scale Drawings",
+   "of_record_code": "6B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 6B (in-topic best 0.150, margin 0.041) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.3399,
+    "cov_w": 0.519,
+    "tp": 0.0,
+    "ns": 0.263
+   },
+   "refined_full_second": {
+    "code": "4K",
+    "score_r": 0.2571
+   },
+   "refined_topic_best": {
+    "code": "6B",
+    "score_r": 0.15,
+    "cov_w": 0.0,
+    "tp": 0.143
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_DQrkJGG4Mngch9xc",
+   "name": "Reflections",
+   "of_record_code": "8J",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8J (in-topic best 0.409, margin 0.024) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8J",
+    "score_r": 0.4087,
+    "cov_w": 0.464,
+    "tp": 0.333,
+    "ns": 0.359
+   },
+   "refined_full_second": {
+    "code": "5G",
+    "score_r": 0.3844
+   },
+   "refined_topic_best": {
+    "code": "8J",
+    "score_r": 0.4087,
+    "cov_w": 0.464,
+    "tp": 0.333
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_DcSkGdrNWCZYX4V8",
+   "name": "Equations & Problem Solving",
+   "of_record_code": "3H",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3H (in-topic best 0.433, margin 0.008) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.5865,
+    "cov_w": 1.0,
+    "tp": 0.0,
+    "ns": 0.346
+   },
+   "refined_full_second": {
+    "code": "3H",
+    "score_r": 0.4333
+   },
+   "refined_topic_best": {
+    "code": "3H",
+    "score_r": 0.4333,
+    "cov_w": 0.491,
+    "tp": 0.333
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_DrvNQjR2z6ZmYQxv",
+   "name": "Rates of Change of Graphs",
+   "of_record_code": "4K",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 4M 0.439 margin 0.002 below decisive bar vs of-record 4K",
+   "refined_full_best": {
+    "code": "4M",
+    "score_r": 0.4387,
+    "cov_w": 0.566,
+    "tp": 0.286,
+    "ns": 0.344
+   },
+   "refined_full_second": {
+    "code": "4K",
+    "score_r": 0.4366
+   },
+   "refined_topic_best": {
+    "code": "4M",
+    "score_r": 0.4387,
+    "cov_w": 0.566,
+    "tp": 0.286
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_F8nMMNHkgCNBjb5G",
+   "name": "Expanding Squared Brackets",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.238 margin 0.121 (cov_w 0.40, tp 0.00)",
+   "refined_full_best": {
+    "code": "4A",
+    "score_r": 0.3009,
+    "cov_w": 0.464,
+    "tp": 0.0,
+    "ns": 0.328
+   },
+   "refined_full_second": {
+    "code": "10I",
+    "score_r": 0.264
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.2381,
+    "cov_w": 0.402,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_FHRjdMc6tvRR553q",
+   "name": "Basic Percentages",
+   "of_record_code": "1H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1H 0.560 margin 0.335 (cov_w 0.61, tp 0.60)",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.5598,
+    "cov_w": 0.613,
+    "tp": 0.6,
+    "ns": 0.418
+   },
+   "refined_full_second": {
+    "code": "3A",
+    "score_r": 0.3888
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.5598,
+    "cov_w": 0.613,
+    "tp": 0.6
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_FVX7YRftjhnwYHQF",
+   "name": "Basic Probability",
+   "of_record_code": "10E",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 10E 0.505 margin 0.106 (cov_w 0.35, tp 0.83)",
+   "refined_full_best": {
+    "code": "10E",
+    "score_r": 0.5046,
+    "cov_w": 0.354,
+    "tp": 0.833,
+    "ns": 0.459
+   },
+   "refined_full_second": {
+    "code": "10I",
+    "score_r": 0.3984
+   },
+   "refined_topic_best": {
+    "code": "10E",
+    "score_r": 0.5046,
+    "cov_w": 0.354,
+    "tp": 0.833
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_Fbm5V3ByzktDQbh5",
+   "name": "Dividing Fractions",
+   "of_record_code": "1B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1B (in-topic best 0.404, margin 0.060) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1B",
+    "score_r": 0.4037,
+    "cov_w": 0.571,
+    "tp": 0.083,
+    "ns": 0.367
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.3702
+   },
+   "refined_topic_best": {
+    "code": "1B",
+    "score_r": 0.4037,
+    "cov_w": 0.571,
+    "tp": 0.083
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_FmVMxSY4pdr2ghgq",
+   "name": "Conditional Probability",
+   "of_record_code": "10J",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 10I 0.626 margin 0.032 below decisive bar vs of-record 10J",
+   "refined_full_best": {
+    "code": "10I",
+    "score_r": 0.6264,
+    "cov_w": 0.452,
+    "tp": 1.0,
+    "ns": 0.582
+   },
+   "refined_full_second": {
+    "code": "10J",
+    "score_r": 0.594
+   },
+   "refined_topic_best": {
+    "code": "10I",
+    "score_r": 0.6264,
+    "cov_w": 0.452,
+    "tp": 1.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_GD9CRysqknb6VPhr",
+   "name": "Adding & Subtracting Fractions",
+   "of_record_code": "1B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1B (in-topic best 0.376, margin 0.047) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1B",
+    "score_r": 0.3758,
+    "cov_w": 0.571,
+    "tp": 0.0,
+    "ns": 0.339
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.3573
+   },
+   "refined_topic_best": {
+    "code": "1B",
+    "score_r": 0.3758,
+    "cov_w": 0.571,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_GG7jc43bG3xTkft4",
+   "name": "Reflection matrices",
+   "of_record_code": "5G",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 5A 0.435 margin 0.009 below decisive bar vs of-record 5G",
+   "refined_full_best": {
+    "code": "5A",
+    "score_r": 0.4351,
+    "cov_w": 0.5,
+    "tp": 0.25,
+    "ns": 0.491
+   },
+   "refined_full_second": {
+    "code": "5D",
+    "score_r": 0.4261
+   },
+   "refined_topic_best": {
+    "code": "5A",
+    "score_r": 0.4351,
+    "cov_w": 0.5,
+    "tp": 0.25
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_GVgyB5BVfNDYGf8M",
+   "name": "Expanding Three Brackets",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.299 margin 0.182 (cov_w 0.40, tp 0.00)",
+   "refined_full_best": {
+    "code": "2A",
+    "score_r": 0.3011,
+    "cov_w": 0.414,
+    "tp": 0.0,
+    "ns": 0.341
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.2995
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.2995,
+    "cov_w": 0.402,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_GXB9cjhDVVQ5sRgz",
+   "name": "Finding Regions using Inequalities",
+   "of_record_code": "4K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4K 0.562 margin 0.266 (cov_w 1.00, tp 0.06)",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.5617,
+    "cov_w": 1.0,
+    "tp": 0.062,
+    "ns": 0.184
+   },
+   "refined_full_second": {
+    "code": "6E",
+    "score_r": 0.4501
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.5617,
+    "cov_w": 1.0,
+    "tp": 0.062
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_H5Sb2tfDwbqy6x2t",
+   "name": "Enlargement matrices",
+   "of_record_code": "5G",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 5B 0.471 margin 0.038 below decisive bar vs of-record 5G",
+   "refined_full_best": {
+    "code": "8L",
+    "score_r": 0.5422,
+    "cov_w": 0.819,
+    "tp": 0.25,
+    "ns": 0.276
+   },
+   "refined_full_second": {
+    "code": "8D",
+    "score_r": 0.4937
+   },
+   "refined_topic_best": {
+    "code": "5B",
+    "score_r": 0.4706,
+    "cov_w": 0.464,
+    "tp": 0.5
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_H8sZcbsSTbtsTTr5",
+   "name": "Bounds & Error Intervals",
+   "of_record_code": "1J",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1J 0.640 margin 0.204 (cov_w 0.85, tp 0.56)",
+   "refined_full_best": {
+    "code": "1J",
+    "score_r": 0.6405,
+    "cov_w": 0.851,
+    "tp": 0.556,
+    "ns": 0.333
+   },
+   "refined_full_second": {
+    "code": "1I",
+    "score_r": 0.4368
+   },
+   "refined_topic_best": {
+    "code": "1J",
+    "score_r": 0.6405,
+    "cov_w": 0.851,
+    "tp": 0.556
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_HJZCbjy4VhjyHVWM",
+   "name": "Problem Solving with Differentiation",
+   "of_record_code": "4L",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4L (in-topic best 0.343, margin 0.047) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "9B",
+    "score_r": 0.409,
+    "cov_w": 0.463,
+    "tp": 0.286,
+    "ns": 0.439
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.3958
+   },
+   "refined_topic_best": {
+    "code": "4L",
+    "score_r": 0.3428,
+    "cov_w": 0.27,
+    "tp": 0.429
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_HnxHKwwfTxKcvCN7",
+   "name": "Cosine Rule",
+   "of_record_code": "9A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 9A 0.390 margin 0.202 (cov_w 0.39, tp 0.44)",
+   "refined_full_best": {
+    "code": "9A",
+    "score_r": 0.3904,
+    "cov_w": 0.387,
+    "tp": 0.444,
+    "ns": 0.338
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.2593
+   },
+   "refined_topic_best": {
+    "code": "9A",
+    "score_r": 0.3904,
+    "cov_w": 0.387,
+    "tp": 0.444
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_J3KSMj7PjnxtPzCD",
+   "name": "Introduction to Sequences",
+   "of_record_code": "3L",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3L 0.581 margin 0.324 (cov_w 0.63, tp 0.60)",
+   "refined_full_best": {
+    "code": "3L",
+    "score_r": 0.5812,
+    "cov_w": 0.634,
+    "tp": 0.6,
+    "ns": 0.511
+   },
+   "refined_full_second": {
+    "code": "2D",
+    "score_r": 0.3433
+   },
+   "refined_topic_best": {
+    "code": "3L",
+    "score_r": 0.5812,
+    "cov_w": 0.634,
+    "tp": 0.6
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_JGrDCdnmTzs2Z9Cb",
+   "name": "Solving matrix equations with inverses",
+   "of_record_code": "5C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 5C (in-topic best 0.486, margin 0.028) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8L",
+    "score_r": 0.499,
+    "cov_w": 0.726,
+    "tp": 0.278,
+    "ns": 0.29
+   },
+   "refined_full_second": {
+    "code": "5C",
+    "score_r": 0.4865
+   },
+   "refined_topic_best": {
+    "code": "5C",
+    "score_r": 0.4865,
+    "cov_w": 0.634,
+    "tp": 0.278
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_JRX7QS29KrY2hCCW",
+   "name": "Quadratic Formula",
+   "of_record_code": "3C",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 3I 0.370 margin 0.012 below decisive bar vs of-record 3C",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.3839,
+    "cov_w": 0.519,
+    "tp": 0.0,
+    "ns": 0.439
+   },
+   "refined_full_second": {
+    "code": "1D",
+    "score_r": 0.3817
+   },
+   "refined_topic_best": {
+    "code": "3I",
+    "score_r": 0.37,
+    "cov_w": 0.378,
+    "tp": 0.571
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_Jw35TTKhvXxmGGfP",
+   "name": "2D Coordinates",
+   "of_record_code": "4H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4H 0.292 margin 0.149 (cov_w 0.33, tp 0.00)",
+   "refined_full_best": {
+    "code": "8J",
+    "score_r": 0.3239,
+    "cov_w": 0.536,
+    "tp": 0.0,
+    "ns": 0.238
+   },
+   "refined_full_second": {
+    "code": "2A",
+    "score_r": 0.2963
+   },
+   "refined_topic_best": {
+    "code": "4H",
+    "score_r": 0.2917,
+    "cov_w": 0.333,
+    "tp": 0.0
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_K6S4SN5GRRrC4hTj",
+   "name": "Basic Vectors",
+   "of_record_code": "8G",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8G (in-topic best 0.665, margin 0.011) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8G",
+    "score_r": 0.6646,
+    "cov_w": 0.828,
+    "tp": 0.5,
+    "ns": 0.5
+   },
+   "refined_full_second": {
+    "code": "8L",
+    "score_r": 0.6534
+   },
+   "refined_topic_best": {
+    "code": "8G",
+    "score_r": 0.6646,
+    "cov_w": 0.828,
+    "tp": 0.5
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_KSnrgNbPQV7FtyF5",
+   "name": "Introduction to Functions",
+   "of_record_code": "4F",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4F (in-topic best 0.520, margin 0.018) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4F",
+    "score_r": 0.5204,
+    "cov_w": 0.414,
+    "tp": 0.6,
+    "ns": 0.619
+   },
+   "refined_full_second": {
+    "code": "4E",
+    "score_r": 0.502
+   },
+   "refined_topic_best": {
+    "code": "4F",
+    "score_r": 0.5204,
+    "cov_w": 0.414,
+    "tp": 0.6
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_M5rhN2mwnR2yddc6",
+   "name": "Calculations using Bounds",
+   "of_record_code": "1J",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1J 0.658 margin 0.221 (cov_w 0.85, tp 0.62)",
+   "refined_full_best": {
+    "code": "1J",
+    "score_r": 0.6578,
+    "cov_w": 0.851,
+    "tp": 0.625,
+    "ns": 0.333
+   },
+   "refined_full_second": {
+    "code": "1I",
+    "score_r": 0.4368
+   },
+   "refined_topic_best": {
+    "code": "1J",
+    "score_r": 0.6578,
+    "cov_w": 0.851,
+    "tp": 0.625
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_MTZDMgNSvV3FdVVR",
+   "name": "Distance-Time Graphs",
+   "of_record_code": "4K",
+   "verdict": "EYES_ON_REPOINT",
+   "new_code": "4N",
+   "basis": "eyes-on r1: same evidence read as Speed-Time Graphs — 4K is the 4J-continuation fragment ('gradients of graphs above by drawing'), 4N is the spine's kinematics home; distance-time graph lessons teach gradient-as-speed on linear kinematics graphs; review-card named anchor landed per the card of record",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.4301,
+    "cov_w": 0.429,
+    "tp": 0.5,
+    "ns": 0.333
+   },
+   "refined_full_second": {
+    "code": "4I",
+    "score_r": 0.3147
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.4301,
+    "cov_w": 0.429,
+    "tp": 0.5
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_MVTZsGHnDRvkyxqK",
+   "name": "Forming Equations from Shapes",
+   "of_record_code": "3C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3C (in-topic best 0.411, margin 0.044) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.5686,
+    "cov_w": 1.0,
+    "tp": 0.0,
+    "ns": 0.275
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.4109
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.4109,
+    "cov_w": 0.598,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_Mg5kHQs2xhx8M5vm",
+   "name": "Bar Charts",
+   "of_record_code": "10B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10B (in-topic best 0.418, margin 0.067) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2E",
+    "score_r": 0.431,
+    "cov_w": 0.667,
+    "tp": 0.0,
+    "ns": 0.357
+   },
+   "refined_full_second": {
+    "code": "10B",
+    "score_r": 0.418
+   },
+   "refined_topic_best": {
+    "code": "10B",
+    "score_r": 0.418,
+    "cov_w": 0.75,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_MwN8gwy9J9DD39z6",
+   "name": "Introduction to Matrices",
+   "of_record_code": "5A",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 5A (in-topic best 0.433, margin 0.011) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "5A",
+    "score_r": 0.4332,
+    "cov_w": 0.5,
+    "tp": 0.25,
+    "ns": 0.483
+   },
+   "refined_full_second": {
+    "code": "5B",
+    "score_r": 0.4227
+   },
+   "refined_topic_best": {
+    "code": "5A",
+    "score_r": 0.4332,
+    "cov_w": 0.5,
+    "tp": 0.25
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_N5xf2wmr4yCNxHBj",
+   "name": "Rotations",
+   "of_record_code": "8J",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8J (in-topic best 0.427, margin 0.025) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8J",
+    "score_r": 0.4271,
+    "cov_w": 0.464,
+    "tp": 0.333,
+    "ns": 0.432
+   },
+   "refined_full_second": {
+    "code": "5G",
+    "score_r": 0.4016
+   },
+   "refined_topic_best": {
+    "code": "8J",
+    "score_r": 0.4271,
+    "cov_w": 0.464,
+    "tp": 0.333
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_NyC8VYj2kktfwnZP",
+   "name": "Lines of Symmetry",
+   "of_record_code": "6E",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6E 0.509 margin 0.267 (cov_w 0.36, tp 1.00)",
+   "refined_full_best": {
+    "code": "6E",
+    "score_r": 0.5093,
+    "cov_w": 0.36,
+    "tp": 1.0,
+    "ns": 0.302
+   },
+   "refined_full_second": {
+    "code": "3J",
+    "score_r": 0.354
+   },
+   "refined_topic_best": {
+    "code": "6E",
+    "score_r": 0.5093,
+    "cov_w": 0.36,
+    "tp": 1.0
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_PzyS22R9jMg3y3sZ",
+   "name": "Expanding One Bracket",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 3K 0.176, margin 0.024) — honest stay",
+   "refined_full_best": {
+    "code": "2A",
+    "score_r": 0.3209,
+    "cov_w": 0.414,
+    "tp": 0.0,
+    "ns": 0.421
+   },
+   "refined_full_second": {
+    "code": "2G",
+    "score_r": 0.2422
+   },
+   "refined_topic_best": {
+    "code": "3K",
+    "score_r": 0.1762,
+    "cov_w": 0.176,
+    "tp": 0.111
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_QJNVgG7qqP279jnN",
+   "name": "Sine Rule",
+   "of_record_code": "9A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 9A 0.488 margin 0.262 (cov_w 0.61, tp 0.44)",
+   "refined_full_best": {
+    "code": "9A",
+    "score_r": 0.4878,
+    "cov_w": 0.613,
+    "tp": 0.444,
+    "ns": 0.286
+   },
+   "refined_full_second": {
+    "code": "6H",
+    "score_r": 0.3211
+   },
+   "refined_topic_best": {
+    "code": "9A",
+    "score_r": 0.4878,
+    "cov_w": 0.613,
+    "tp": 0.444
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_QWXhzVp2S3VYZdZc",
+   "name": "Discrete & Continuous Data",
+   "of_record_code": "10A",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 10B 0.351 margin 0.073 below decisive bar vs of-record 10A",
+   "refined_full_best": {
+    "code": "1G",
+    "score_r": 0.4033,
+    "cov_w": 0.667,
+    "tp": 0.0,
+    "ns": 0.28
+   },
+   "refined_full_second": {
+    "code": "10B",
+    "score_r": 0.351
+   },
+   "refined_topic_best": {
+    "code": "10B",
+    "score_r": 0.351,
+    "cov_w": 0.311,
+    "tp": 0.5
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_QkZ2S7CKb8GrYdYx",
+   "name": "Averages from Tables & Charts",
+   "of_record_code": "10B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10B (in-topic best 0.364, margin 0.036) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "10B",
+    "score_r": 0.3641,
+    "cov_w": 0.604,
+    "tp": 0.0,
+    "ns": 0.261
+   },
+   "refined_full_second": {
+    "code": "10D",
+    "score_r": 0.3278
+   },
+   "refined_topic_best": {
+    "code": "10B",
+    "score_r": 0.3641,
+    "cov_w": 0.604,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_QxxYWb5YckkR8Wds",
+   "name": "Vector Proof",
+   "of_record_code": "8D",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8D (in-topic best 0.525, margin 0.036) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8D",
+    "score_r": 0.5246,
+    "cov_w": 0.588,
+    "tp": 0.6,
+    "ns": 0.29
+   },
+   "refined_full_second": {
+    "code": "8H",
+    "score_r": 0.489
+   },
+   "refined_topic_best": {
+    "code": "8D",
+    "score_r": 0.5246,
+    "cov_w": 0.588,
+    "tp": 0.6
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_RJbgRvXq2VrGpP5g",
+   "name": "Difference Of Two Squares",
+   "of_record_code": "8E",
+   "verdict": "EYES_ON_REPOINT",
+   "new_code": "3C",
+   "basis": "eyes-on r1: of-record 8E read = 'Sum and difference of two vectors' — a T8 vectors statement name-matched on 'difference of two', the topic-inconsistency the r0 keep-flag itself records; 3C read = 'The factorisation of simple algebraic expressions' — the canonical home of the difference-of-two-squares identity a^2-b^2=(a+b)(a-b); refined in-topic best 3D REJECTED (3D = 'Use of the factor theorem', a different technique the note does not teach); review-card named anchor landed per the card of record",
+   "refined_full_best": {
+    "code": "8E",
+    "score_r": 0.5375,
+    "cov_w": 0.452,
+    "tp": 0.571,
+    "ns": 0.655
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.3679
+   },
+   "refined_topic_best": {
+    "code": "3D",
+    "score_r": 0.3679,
+    "cov_w": 0.5,
+    "tp": 0.071
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_RJtRSrxJtXZPyDHz",
+   "name": "Combined Probability",
+   "of_record_code": "10I",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 10I 0.591 margin 0.141 (cov_w 0.49, tp 1.00)",
+   "refined_full_best": {
+    "code": "10I",
+    "score_r": 0.5913,
+    "cov_w": 0.49,
+    "tp": 1.0,
+    "ns": 0.421
+   },
+   "refined_full_second": {
+    "code": "10H",
+    "score_r": 0.4507
+   },
+   "refined_topic_best": {
+    "code": "10I",
+    "score_r": 0.5913,
+    "cov_w": 0.49,
+    "tp": 1.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_Rv3DcsGBkxSkb8Ms",
+   "name": "Probability & Venn Diagrams",
+   "of_record_code": "10H",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10H (in-topic best 0.285, margin 0.029) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2H",
+    "score_r": 0.4919,
+    "cov_w": 0.526,
+    "tp": 0.636,
+    "ns": 0.329
+   },
+   "refined_full_second": {
+    "code": "10H",
+    "score_r": 0.2846
+   },
+   "refined_topic_best": {
+    "code": "10H",
+    "score_r": 0.2846,
+    "cov_w": 0.266,
+    "tp": 0.227
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_S2dfVTzRhCh7pRzW",
+   "name": "Expanding Two Brackets",
+   "of_record_code": "3C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3C (in-topic best 0.233, margin 0.070) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4A",
+    "score_r": 0.3052,
+    "cov_w": 0.464,
+    "tp": 0.0,
+    "ns": 0.345
+   },
+   "refined_full_second": {
+    "code": "10I",
+    "score_r": 0.2671
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.2333,
+    "cov_w": 0.402,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_SQqKCGwRcv6gj5h3",
+   "name": "Systematic Lists",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 10I 0.125, margin 0.015) — honest stay",
+   "refined_full_best": {
+    "code": "4N",
+    "score_r": 0.14,
+    "cov_w": 0.144,
+    "tp": 0.0,
+    "ns": 0.273
+   },
+   "refined_full_second": {
+    "code": "3I",
+    "score_r": 0.1399
+   },
+   "refined_topic_best": {
+    "code": "10I",
+    "score_r": 0.125,
+    "cov_w": 0.0,
+    "tp": 0.167
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_SSJkWfTg9GyZBXt4",
+   "name": "Simple Rearranging",
+   "of_record_code": "3C",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 3F 0.295 margin 0.108 below decisive bar vs of-record 3C",
+   "refined_full_best": {
+    "code": "1E",
+    "score_r": 0.3138,
+    "cov_w": 0.5,
+    "tp": 0.0,
+    "ns": 0.255
+   },
+   "refined_full_second": {
+    "code": "4A",
+    "score_r": 0.3035
+   },
+   "refined_topic_best": {
+    "code": "3F",
+    "score_r": 0.2954,
+    "cov_w": 0.381,
+    "tp": 0.125
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_SYHWnwMWKxDNg9s8",
+   "name": "Solving Linear Equations",
+   "of_record_code": "3H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3H 0.563 margin 0.108 (cov_w 0.53, tp 0.67)",
+   "refined_full_best": {
+    "code": "3H",
+    "score_r": 0.5629,
+    "cov_w": 0.526,
+    "tp": 0.667,
+    "ns": 0.543
+   },
+   "refined_full_second": {
+    "code": "3I",
+    "score_r": 0.4545
+   },
+   "refined_topic_best": {
+    "code": "3H",
+    "score_r": 0.5629,
+    "cov_w": 0.526,
+    "tp": 0.667
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_Sq9YjYQDkzwdnKT3",
+   "name": "Frequency Density",
+   "of_record_code": "10D",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10D (in-topic best 0.231, margin 0.042) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "10D",
+    "score_r": 0.2309,
+    "cov_w": 0.408,
+    "tp": 0.0,
+    "ns": 0.12
+   },
+   "refined_full_second": {
+    "code": "5A",
+    "score_r": 0.2288
+   },
+   "refined_topic_best": {
+    "code": "10D",
+    "score_r": 0.2309,
+    "cov_w": 0.408,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_SwbJdpQTQxGXry8M",
+   "name": "Drawing Graphs Using a Table",
+   "of_record_code": "4K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4K 0.492 margin 0.152 (cov_w 0.43, tp 0.62)",
+   "refined_full_best": {
+    "code": "6E",
+    "score_r": 0.4929,
+    "cov_w": 0.857,
+    "tp": 0.0,
+    "ns": 0.281
+   },
+   "refined_full_second": {
+    "code": "4K",
+    "score_r": 0.4916
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.4916,
+    "cov_w": 0.429,
+    "tp": 0.625
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_TXCfYj93S7vCV9nq",
+   "name": "Alternate Segment Theorem",
+   "of_record_code": "6F",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 6K 0.444 margin 0.032 below decisive bar vs of-record 6F",
+   "refined_full_best": {
+    "code": "3D",
+    "score_r": 0.4826,
+    "cov_w": 0.5,
+    "tp": 0.375,
+    "ns": 0.556
+   },
+   "refined_full_second": {
+    "code": "6K",
+    "score_r": 0.4442
+   },
+   "refined_topic_best": {
+    "code": "6K",
+    "score_r": 0.4442,
+    "cov_w": 0.612,
+    "tp": 0.125
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_TvHwnSVsSstxssKh",
+   "name": "Reciprocal Graphs",
+   "of_record_code": "4K",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4K (in-topic best 0.474, margin 0.045) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.4736,
+    "cov_w": 0.527,
+    "tp": 0.5,
+    "ns": 0.351
+   },
+   "refined_full_second": {
+    "code": "4J",
+    "score_r": 0.4284
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.4736,
+    "cov_w": 0.527,
+    "tp": 0.5
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_VgH3YPmpp6Yqy9KC",
+   "name": "Forming & Solving Equations",
+   "of_record_code": "3H",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3H (in-topic best 0.341, margin 0.028) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2D",
+    "score_r": 0.3626,
+    "cov_w": 0.547,
+    "tp": 0.0,
+    "ns": 0.308
+   },
+   "refined_full_second": {
+    "code": "3H",
+    "score_r": 0.3408
+   },
+   "refined_topic_best": {
+    "code": "3H",
+    "score_r": 0.3408,
+    "cov_w": 0.296,
+    "tp": 0.333
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_W2v94nxskTtpWxWd",
+   "name": "Solving by Completing the Square",
+   "of_record_code": "3I",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3I (in-topic best 0.321, margin 0.019) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3I",
+    "score_r": 0.3213,
+    "cov_w": 0.371,
+    "tp": 0.222,
+    "ns": 0.303
+   },
+   "refined_full_second": {
+    "code": "3H",
+    "score_r": 0.3022
+   },
+   "refined_topic_best": {
+    "code": "3I",
+    "score_r": 0.3213,
+    "cov_w": 0.371,
+    "tp": 0.222
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_W2yYk784rNVZBxPh",
+   "name": "Perimeter",
+   "of_record_code": "7A",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 7A (in-topic best 0.278, margin 0.041) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8E",
+    "score_r": 0.3842,
+    "cov_w": 0.626,
+    "tp": 0.0,
+    "ns": 0.286
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.2775
+   },
+   "refined_topic_best": {
+    "code": "7A",
+    "score_r": 0.2775,
+    "cov_w": 0.293,
+    "tp": 0.25
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_W5bHgsHCyJ4jpkYz",
+   "name": "Expand & Simplify",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 3C 0.167, margin 0.029) — honest stay",
+   "refined_full_best": {
+    "code": "2A",
+    "score_r": 0.2782,
+    "cov_w": 0.414,
+    "tp": 0.0,
+    "ns": 0.25
+   },
+   "refined_full_second": {
+    "code": "2G",
+    "score_r": 0.2422
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.1667,
+    "cov_w": 0.06,
+    "tp": 0.125
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_WWjHg7QVhBnYQHKs",
+   "name": "Compound interest",
+   "of_record_code": "1C",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1G 0.248 margin 0.013 below decisive bar vs of-record 1C",
+   "refined_full_best": {
+    "code": "4E",
+    "score_r": 0.3168,
+    "cov_w": 0.293,
+    "tp": 0.143,
+    "ns": 0.556
+   },
+   "refined_full_second": {
+    "code": "4M",
+    "score_r": 0.2934
+   },
+   "refined_topic_best": {
+    "code": "1G",
+    "score_r": 0.2481,
+    "cov_w": 0.333,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_X8CSxK2dhn5rX34f",
+   "name": "Solving Linear Inequalities",
+   "of_record_code": "3J",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3J (in-topic best 0.467, margin 0.041) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3J",
+    "score_r": 0.4665,
+    "cov_w": 0.427,
+    "tp": 0.625,
+    "ns": 0.357
+   },
+   "refined_full_second": {
+    "code": "3K",
+    "score_r": 0.426
+   },
+   "refined_topic_best": {
+    "code": "3J",
+    "score_r": 0.4665,
+    "cov_w": 0.427,
+    "tp": 0.625
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_XC6PSG6CcXnNDb3Q",
+   "name": "Exchange Rates",
+   "of_record_code": "1B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1B (in-topic best 0.230, margin 0.000) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1B",
+    "score_r": 0.2296,
+    "cov_w": 0.286,
+    "tp": 0.0,
+    "ns": 0.311
+   },
+   "refined_full_second": {
+    "code": "1G",
+    "score_r": 0.2292
+   },
+   "refined_topic_best": {
+    "code": "1B",
+    "score_r": 0.2296,
+    "cov_w": 0.286,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_XWwgtKhQDRhyY5m4",
+   "name": "Pythagoras Theorem",
+   "of_record_code": "6F",
+   "verdict": "CROSS_TOPIC_CONFIRM",
+   "new_code": "6F",
+   "basis": "cross-topic decisive full-pool winner 6F 0.767 margin 0.304 (no topic-consistent candidate at the bar) — CX law",
+   "refined_full_best": {
+    "code": "6F",
+    "score_r": 0.7673,
+    "cov_w": 1.0,
+    "tp": 0.438,
+    "ns": 0.632
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.4637
+   },
+   "refined_topic_best": {
+    "code": "9C",
+    "score_r": 0.1458,
+    "cov_w": 0.131,
+    "tp": 0.0
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_XhXhg6sRyMQ88chp",
+   "name": "Gradient of a Line",
+   "of_record_code": "4K",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4K (in-topic best 0.341, margin 0.040) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "6E",
+    "score_r": 0.3598,
+    "cov_w": 0.36,
+    "tp": 0.333,
+    "ns": 0.37
+   },
+   "refined_full_second": {
+    "code": "4K",
+    "score_r": 0.3408
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.3408,
+    "cov_w": 0.236,
+    "tp": 0.333
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_Xqkq2qz7NzMcVZHQ",
+   "name": "Properties of 3D Shapes",
+   "of_record_code": "7A",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 7B 0.204 margin 0.040 below decisive bar vs of-record 7A",
+   "refined_full_best": {
+    "code": "6I",
+    "score_r": 0.4197,
+    "cov_w": 0.366,
+    "tp": 0.333,
+    "ns": 0.56
+   },
+   "refined_full_second": {
+    "code": "6L",
+    "score_r": 0.2922
+   },
+   "refined_topic_best": {
+    "code": "7B",
+    "score_r": 0.2037,
+    "cov_w": 0.099,
+    "tp": 0.333
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_YQTm89bBFQBWdt2g",
+   "name": "3D Pythagoras & Trigonometry",
+   "of_record_code": "6F",
+   "verdict": "CROSS_TOPIC_CONFIRM",
+   "new_code": "6F",
+   "basis": "cross-topic decisive full-pool winner 6F 0.686 margin 0.284 (no topic-consistent candidate at the bar) — CX law",
+   "refined_full_best": {
+    "code": "6F",
+    "score_r": 0.6856,
+    "cov_w": 1.0,
+    "tp": 0.25,
+    "ns": 0.492
+   },
+   "refined_full_second": {
+    "code": "8I",
+    "score_r": 0.4015
+   },
+   "refined_topic_best": {
+    "code": "9B",
+    "score_r": 0.3625,
+    "cov_w": 0.625,
+    "tp": 0.0
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_YQX35KWR6v8thX5T",
+   "name": "Translations",
+   "of_record_code": "8J",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8J (in-topic best 0.540, margin 0.026) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8J",
+    "score_r": 0.5398,
+    "cov_w": 0.464,
+    "tp": 0.667,
+    "ns": 0.55
+   },
+   "refined_full_second": {
+    "code": "5G",
+    "score_r": 0.5133
+   },
+   "refined_topic_best": {
+    "code": "8J",
+    "score_r": 0.5398,
+    "cov_w": 0.464,
+    "tp": 0.667
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_Yhn8BQfZNrRp26cf",
+   "name": "Loci",
+   "of_record_code": "6M",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6M 0.590 margin 0.112 (cov_w 0.65, tp 0.75)",
+   "refined_full_best": {
+    "code": "6M",
+    "score_r": 0.5903,
+    "cov_w": 0.648,
+    "tp": 0.75,
+    "ns": 0.308
+   },
+   "refined_full_second": {
+    "code": "6N",
+    "score_r": 0.4781
+   },
+   "refined_topic_best": {
+    "code": "6M",
+    "score_r": 0.5903,
+    "cov_w": 0.648,
+    "tp": 0.75
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_b7HzYMMwjGWQSz77",
+   "name": "Inverse Proportion",
+   "of_record_code": "4F",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4F 0.563 margin 0.132 (cov_w 0.59, tp 0.43)",
+   "refined_full_best": {
+    "code": "4F",
+    "score_r": 0.5629,
+    "cov_w": 0.586,
+    "tp": 0.429,
+    "ns": 0.686
+   },
+   "refined_full_second": {
+    "code": "1C",
+    "score_r": 0.438
+   },
+   "refined_topic_best": {
+    "code": "4F",
+    "score_r": 0.5629,
+    "cov_w": 0.586,
+    "tp": 0.429
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_bGtx4SMcX6BRS6KP",
+   "name": "Reading & Interpreting Statistical Diagrams",
+   "of_record_code": "10A",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10A (in-topic best 0.290, margin 0.017) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "10A",
+    "score_r": 0.2905,
+    "cov_w": 0.361,
+    "tp": 0.0,
+    "ns": 0.434
+   },
+   "refined_full_second": {
+    "code": "10B",
+    "score_r": 0.2731
+   },
+   "refined_topic_best": {
+    "code": "10A",
+    "score_r": 0.2905,
+    "cov_w": 0.361,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_bMYrxtVc2SZgt8mX",
+   "name": "Money Calculations",
+   "of_record_code": "1G",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1G 0.307 margin 0.108 (cov_w 0.33, tp 0.33)",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.3411,
+    "cov_w": 0.533,
+    "tp": 0.0,
+    "ns": 0.271
+   },
+   "refined_full_second": {
+    "code": "1G",
+    "score_r": 0.3068
+   },
+   "refined_topic_best": {
+    "code": "1G",
+    "score_r": 0.3068,
+    "cov_w": 0.333,
+    "tp": 0.333
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_bPTTmJSGkKv2PDc5",
+   "name": "Relative Frequency",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 10C 0.252, margin 0.000) — honest stay",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.2885,
+    "cov_w": 0.444,
+    "tp": 0.0,
+    "ns": 0.324
+   },
+   "refined_full_second": {
+    "code": "10C",
+    "score_r": 0.252
+   },
+   "refined_topic_best": {
+    "code": "10C",
+    "score_r": 0.252,
+    "cov_w": 0.284,
+    "tp": 0.143
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_c25SPBnps9dhX2Dk",
+   "name": "Order of Operations (BIDMAS/BODMAS)",
+   "of_record_code": "1C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1C 0.378 margin 0.200 (cov_w 0.63, tp 0.00)",
+   "refined_full_best": {
+    "code": "5B",
+    "score_r": 0.4251,
+    "cov_w": 0.676,
+    "tp": 0.0,
+    "ns": 0.351
+   },
+   "refined_full_second": {
+    "code": "1C",
+    "score_r": 0.3782
+   },
+   "refined_topic_best": {
+    "code": "1C",
+    "score_r": 0.3782,
+    "cov_w": 0.631,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_c2F7sdrY5sQQCXQ5",
+   "name": "Quadratic Graphs",
+   "of_record_code": "4K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4K 0.475 margin 0.087 (cov_w 0.53, tp 0.50)",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.4752,
+    "cov_w": 0.527,
+    "tp": 0.5,
+    "ns": 0.357
+   },
+   "refined_full_second": {
+    "code": "4I",
+    "score_r": 0.3878
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.4752,
+    "cov_w": 0.527,
+    "tp": 0.5
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_c3ZTz62W4HKyb4zk",
+   "name": "Enlargements",
+   "of_record_code": "8K",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8K (in-topic best 0.370, margin 0.001) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "5G",
+    "score_r": 0.3704,
+    "cov_w": 0.414,
+    "tp": 0.333,
+    "ns": 0.286
+   },
+   "refined_full_second": {
+    "code": "8K",
+    "score_r": 0.3704
+   },
+   "refined_topic_best": {
+    "code": "8K",
+    "score_r": 0.3704,
+    "cov_w": 0.414,
+    "tp": 0.333
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_cfsNsZkBNfQ2hWbY",
+   "name": "Transforming a Point",
+   "of_record_code": "5G",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 5G (in-topic best 0.409, margin 0.024) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8L",
+    "score_r": 0.5092,
+    "cov_w": 0.819,
+    "tp": 0.083,
+    "ns": 0.31
+   },
+   "refined_full_second": {
+    "code": "8B",
+    "score_r": 0.4943
+   },
+   "refined_topic_best": {
+    "code": "5G",
+    "score_r": 0.409,
+    "cov_w": 0.414,
+    "tp": 0.333
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_crKbmb6wVjM4yPJh",
+   "name": "Related Calculations",
+   "of_record_code": "1F",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1E 0.321 margin 0.001 below decisive bar vs of-record 1F",
+   "refined_full_best": {
+    "code": "4F",
+    "score_r": 0.4059,
+    "cov_w": 0.586,
+    "tp": 0.0,
+    "ns": 0.486
+   },
+   "refined_full_second": {
+    "code": "10C",
+    "score_r": 0.3789
+   },
+   "refined_topic_best": {
+    "code": "1E",
+    "score_r": 0.3214,
+    "cov_w": 0.5,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_d6jcrzdmQw9SvSPr",
+   "name": "Percentage Increases & Decreases",
+   "of_record_code": "1B",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1H 0.280 margin 0.055 below decisive bar vs of-record 1B",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.295,
+    "cov_w": 0.444,
+    "tp": 0.0,
+    "ns": 0.31
+   },
+   "refined_full_second": {
+    "code": "1H",
+    "score_r": 0.2803
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.2803,
+    "cov_w": 0.227,
+    "tp": 0.429
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_d96BnpMKqDSDxSkx",
+   "name": "Sample Space Diagrams",
+   "of_record_code": "10J",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 10I 0.241 margin 0.010 below decisive bar vs of-record 10J",
+   "refined_full_best": {
+    "code": "8E",
+    "score_r": 0.3049,
+    "cov_w": 0.452,
+    "tp": 0.0,
+    "ns": 0.296
+   },
+   "refined_full_second": {
+    "code": "2H",
+    "score_r": 0.283
+   },
+   "refined_topic_best": {
+    "code": "10I",
+    "score_r": 0.2406,
+    "cov_w": 0.221,
+    "tp": 0.125
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_dBwfqg3wJvDp9PNs",
+   "name": "Similar Areas & Volumes",
+   "of_record_code": "6G",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6G 0.661 margin 0.385 (cov_w 0.71, tp 0.90)",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.8012,
+    "cov_w": 1.0,
+    "tp": 0.6,
+    "ns": 0.605
+   },
+   "refined_full_second": {
+    "code": "6G",
+    "score_r": 0.6609
+   },
+   "refined_topic_best": {
+    "code": "6G",
+    "score_r": 0.6609,
+    "cov_w": 0.712,
+    "tp": 0.9
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_djG6mt4Gk3T4wJwC",
+   "name": "Area of a Triangle",
+   "of_record_code": "9A",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 9A (in-topic best 0.221, margin 0.035) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.3463,
+    "cov_w": 0.293,
+    "tp": 0.333,
+    "ns": 0.45
+   },
+   "refined_full_second": {
+    "code": "6H",
+    "score_r": 0.3454
+   },
+   "refined_topic_best": {
+    "code": "9A",
+    "score_r": 0.2205,
+    "cov_w": 0.16,
+    "tp": 0.222
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_dnkHMPkqhhdDxPkZ",
+   "name": "Solving Quadratic Inequalities",
+   "of_record_code": "3K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3K 0.563 margin 0.239 (cov_w 0.59, tp 0.62)",
+   "refined_full_best": {
+    "code": "3K",
+    "score_r": 0.563,
+    "cov_w": 0.588,
+    "tp": 0.625,
+    "ns": 0.446
+   },
+   "refined_full_second": {
+    "code": "8J",
+    "score_r": 0.3419
+   },
+   "refined_topic_best": {
+    "code": "3K",
+    "score_r": 0.563,
+    "cov_w": 0.588,
+    "tp": 0.625
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_dxtWxKmTWPrYkWt3",
+   "name": "Solving Quadratics by Factorising",
+   "of_record_code": "3D",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 3K 0.433 margin 0.003 below decisive bar vs of-record 3D",
+   "refined_full_best": {
+    "code": "3K",
+    "score_r": 0.4326,
+    "cov_w": 0.542,
+    "tp": 0.333,
+    "ns": 0.29
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.43
+   },
+   "refined_topic_best": {
+    "code": "3K",
+    "score_r": 0.4326,
+    "cov_w": 0.542,
+    "tp": 0.333
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_fGGbSYFZH9DW4sgm",
+   "name": "Differentiation",
+   "of_record_code": "4L",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4L 0.628 margin 0.167 (cov_w 0.46, tp 1.00)",
+   "refined_full_best": {
+    "code": "4L",
+    "score_r": 0.6284,
+    "cov_w": 0.46,
+    "tp": 1.0,
+    "ns": 0.577
+   },
+   "refined_full_second": {
+    "code": "8E",
+    "score_r": 0.4704
+   },
+   "refined_topic_best": {
+    "code": "4L",
+    "score_r": 0.6284,
+    "cov_w": 0.46,
+    "tp": 1.0
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_fMWRd3TnmcQ3c92k",
+   "name": "Circles & Segments",
+   "of_record_code": "6K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6K 0.542 margin 0.214 (cov_w 0.69, tp 0.43)",
+   "refined_full_best": {
+    "code": "6K",
+    "score_r": 0.542,
+    "cov_w": 0.691,
+    "tp": 0.429,
+    "ns": 0.394
+   },
+   "refined_full_second": {
+    "code": "8C",
+    "score_r": 0.383
+   },
+   "refined_topic_best": {
+    "code": "6K",
+    "score_r": 0.542,
+    "cov_w": 0.691,
+    "tp": 0.429
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_fbB2ZB3wyBjV9yDV",
+   "name": "Compound interest and loan repayments",
+   "of_record_code": "1C",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1G 0.278 margin 0.025 below decisive bar vs of-record 1C",
+   "refined_full_best": {
+    "code": "4E",
+    "score_r": 0.3088,
+    "cov_w": 0.293,
+    "tp": 0.111,
+    "ns": 0.556
+   },
+   "refined_full_second": {
+    "code": "4M",
+    "score_r": 0.3087
+   },
+   "refined_topic_best": {
+    "code": "1G",
+    "score_r": 0.2778,
+    "cov_w": 0.333,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_gkqmXrkrWnQC27tP",
+   "name": "Rotation matrices",
+   "of_record_code": "5G",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 5A 0.440 margin 0.009 below decisive bar vs of-record 5G",
+   "refined_full_best": {
+    "code": "5A",
+    "score_r": 0.44,
+    "cov_w": 0.5,
+    "tp": 0.25,
+    "ns": 0.51
+   },
+   "refined_full_second": {
+    "code": "5F",
+    "score_r": 0.4312
+   },
+   "refined_topic_best": {
+    "code": "5A",
+    "score_r": 0.44,
+    "cov_w": 0.5,
+    "tp": 0.25
+   },
+   "topic_gate": "5"
+  },
+  {
+   "spcpt_id": "spcpt_gqGskPX2FDtwyRh2",
+   "name": "Working with Proportion",
+   "of_record_code": "1B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1B (in-topic best 0.337, margin 0.032) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4G",
+    "score_r": 0.4525,
+    "cov_w": 0.46,
+    "tp": 0.333,
+    "ns": 0.54
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.3374
+   },
+   "refined_topic_best": {
+    "code": "1B",
+    "score_r": 0.3374,
+    "cov_w": 0.571,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_gzQvnKpxPvTqzzBp",
+   "name": "Algebraic Notation",
+   "of_record_code": "3A",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3A (in-topic best 0.355, margin 0.050) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "2B",
+    "score_r": 0.423,
+    "cov_w": 0.388,
+    "tp": 0.333,
+    "ns": 0.605
+   },
+   "refined_full_second": {
+    "code": "8B",
+    "score_r": 0.4105
+   },
+   "refined_topic_best": {
+    "code": "3A",
+    "score_r": 0.3553,
+    "cov_w": 0.414,
+    "tp": 0.333
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_gzykj64JBx2RtBJ7",
+   "name": "Angles in Polygons",
+   "of_record_code": "6C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6C 0.616 margin 0.361 (cov_w 0.57, tp 1.00)",
+   "refined_full_best": {
+    "code": "6C",
+    "score_r": 0.6163,
+    "cov_w": 0.568,
+    "tp": 1.0,
+    "ns": 0.333
+   },
+   "refined_full_second": {
+    "code": "9C",
+    "score_r": 0.3566
+   },
+   "refined_topic_best": {
+    "code": "6C",
+    "score_r": 0.6163,
+    "cov_w": 0.568,
+    "tp": 1.0
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_h2SHkwgcS67NJYVP",
+   "name": "SOHCAHTOA",
+   "of_record_code": "9C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 9C (in-topic best 0.208, margin 0.073) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4F",
+    "score_r": 0.3228,
+    "cov_w": 0.586,
+    "tp": 0.0,
+    "ns": 0.154
+   },
+   "refined_full_second": {
+    "code": "2A",
+    "score_r": 0.2541
+   },
+   "refined_topic_best": {
+    "code": "9C",
+    "score_r": 0.2076,
+    "cov_w": 0.261,
+    "tp": 0.0
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_h2p7nv6zkR4xFJ3P",
+   "name": "Time",
+   "of_record_code": "1I",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1I (in-topic best 0.286, margin 0.070) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1I",
+    "score_r": 0.2857,
+    "cov_w": 0.492,
+    "tp": 0.0,
+    "ns": 0.115
+   },
+   "refined_full_second": {
+    "code": "4E",
+    "score_r": 0.2842
+   },
+   "refined_topic_best": {
+    "code": "1I",
+    "score_r": 0.2857,
+    "cov_w": 0.492,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_h8QyRmzX5mCJb3X9",
+   "name": "Drawing Linear Graphs",
+   "of_record_code": "4K",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4K (in-topic best 0.418, margin 0.062) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.418,
+    "cov_w": 0.429,
+    "tp": 0.556,
+    "ns": 0.23
+   },
+   "refined_full_second": {
+    "code": "4I",
+    "score_r": 0.3563
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.418,
+    "cov_w": 0.429,
+    "tp": 0.556
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_hMqjBRzQQfvsc9f8",
+   "name": "Length of a Line",
+   "of_record_code": "4B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4B (in-topic best 0.185, margin 0.029) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.3917,
+    "cov_w": 0.293,
+    "tp": 0.333,
+    "ns": 0.632
+   },
+   "refined_full_second": {
+    "code": "8C",
+    "score_r": 0.3877
+   },
+   "refined_topic_best": {
+    "code": "4B",
+    "score_r": 0.1847,
+    "cov_w": 0.256,
+    "tp": 0.0
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_hTsm2dz7xmwM4jwW",
+   "name": "Tree Diagrams",
+   "of_record_code": "10I",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10I (in-topic best 0.334, margin 0.028) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1E",
+    "score_r": 0.3704,
+    "cov_w": 0.5,
+    "tp": 0.0,
+    "ns": 0.481
+   },
+   "refined_full_second": {
+    "code": "10I",
+    "score_r": 0.3342
+   },
+   "refined_topic_best": {
+    "code": "10I",
+    "score_r": 0.3342,
+    "cov_w": 0.394,
+    "tp": 0.2
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_j2YgCQ3HvtrTXdG4",
+   "name": "Multiplying & Dividing Algebraic Fractions",
+   "of_record_code": "3C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3C (in-topic best 0.570, margin 0.021) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.57,
+    "cov_w": 0.769,
+    "tp": 0.3,
+    "ns": 0.449
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.5488
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.57,
+    "cov_w": 0.769,
+    "tp": 0.3
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_jTrpYhtMdhpPhwxb",
+   "name": "Algebraic Vocabulary",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.530 margin 0.122 (cov_w 0.71, tp 0.42)",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.5299,
+    "cov_w": 0.709,
+    "tp": 0.417,
+    "ns": 0.319
+   },
+   "refined_full_second": {
+    "code": "3E",
+    "score_r": 0.4083
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.5299,
+    "cov_w": 0.709,
+    "tp": 0.417
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_m8WdtZKSWCKNFKrY",
+   "name": "Subject Appears Twice",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.319 margin 0.084 (cov_w 0.51, tp 0.00)",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.3187,
+    "cov_w": 0.512,
+    "tp": 0.0,
+    "ns": 0.306
+   },
+   "refined_full_second": {
+    "code": "1E",
+    "score_r": 0.29
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.3187,
+    "cov_w": 0.512,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_mQzsHp4wNfnn9sNH",
+   "name": "Depreciation",
+   "of_record_code": "1C",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1H 0.233 margin 0.012 below decisive bar vs of-record 1C",
+   "refined_full_best": {
+    "code": "8I",
+    "score_r": 0.3132,
+    "cov_w": 0.58,
+    "tp": 0.0,
+    "ns": 0.159
+   },
+   "refined_full_second": {
+    "code": "8E",
+    "score_r": 0.3086
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.2332,
+    "cov_w": 0.227,
+    "tp": 0.2
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_myNYhxstM7xnZd9P",
+   "name": "Mean, Median & Mode",
+   "of_record_code": "10B",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 10B 0.529 margin 0.289 (cov_w 0.50, tp 0.75)",
+   "refined_full_best": {
+    "code": "10B",
+    "score_r": 0.5294,
+    "cov_w": 0.501,
+    "tp": 0.75,
+    "ns": 0.395
+   },
+   "refined_full_second": {
+    "code": "1G",
+    "score_r": 0.2857
+   },
+   "refined_topic_best": {
+    "code": "10B",
+    "score_r": 0.5294,
+    "cov_w": 0.501,
+    "tp": 0.75
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_n9ZtYfjh8sFCp5Kz",
+   "name": "Calculations with the Mean",
+   "of_record_code": "10C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 10C 0.396 margin 0.157 (cov_w 0.27, tp 0.67)",
+   "refined_full_best": {
+    "code": "10C",
+    "score_r": 0.396,
+    "cov_w": 0.272,
+    "tp": 0.667,
+    "ns": 0.349
+   },
+   "refined_full_second": {
+    "code": "9B",
+    "score_r": 0.343
+   },
+   "refined_topic_best": {
+    "code": "10C",
+    "score_r": 0.396,
+    "cov_w": 0.272,
+    "tp": 0.667
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_nJCDx3cDGTVz3MBk",
+   "name": "Drawing Histograms",
+   "of_record_code": "10D",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10D (in-topic best 0.220, margin 0.053) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.331,
+    "cov_w": 0.333,
+    "tp": 0.4,
+    "ns": 0.241
+   },
+   "refined_full_second": {
+    "code": "9B",
+    "score_r": 0.2653
+   },
+   "refined_topic_best": {
+    "code": "10D",
+    "score_r": 0.22,
+    "cov_w": 0.327,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_nXY9n4Vt3cVTmKcR",
+   "name": "Comparing Statistical Diagrams",
+   "of_record_code": "10A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 10A 0.355 margin 0.147 (cov_w 0.48, tp 0.00)",
+   "refined_full_best": {
+    "code": "10A",
+    "score_r": 0.3546,
+    "cov_w": 0.484,
+    "tp": 0.0,
+    "ns": 0.444
+   },
+   "refined_full_second": {
+    "code": "5A",
+    "score_r": 0.3281
+   },
+   "refined_topic_best": {
+    "code": "10A",
+    "score_r": 0.3546,
+    "cov_w": 0.484,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_p8zkdCF8QVvDZyVX",
+   "name": "Rounding & Estimation",
+   "of_record_code": "1I",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1I 0.436 margin 0.123 (cov_w 0.70, tp 0.00)",
+   "refined_full_best": {
+    "code": "1I",
+    "score_r": 0.4356,
+    "cov_w": 0.703,
+    "tp": 0.0,
+    "ns": 0.299
+   },
+   "refined_full_second": {
+    "code": "10C",
+    "score_r": 0.3687
+   },
+   "refined_topic_best": {
+    "code": "1I",
+    "score_r": 0.4356,
+    "cov_w": 0.703,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_pFVDbZgQGCHHRDtc",
+   "name": "Converting Units",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 1K 0.125, margin 0.021) — honest stay",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.4153,
+    "cov_w": 0.707,
+    "tp": 0.0,
+    "ns": 0.263
+   },
+   "refined_full_second": {
+    "code": "8D",
+    "score_r": 0.2468
+   },
+   "refined_topic_best": {
+    "code": "1K",
+    "score_r": 0.125,
+    "cov_w": 0.0,
+    "tp": 0.125
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_pKCFj25GzzqW6sr3",
+   "name": "Volume",
+   "of_record_code": "7A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 7A 0.657 margin 0.367 (cov_w 0.71, tp 0.80)",
+   "refined_full_best": {
+    "code": "6G",
+    "score_r": 0.7166,
+    "cov_w": 0.925,
+    "tp": 0.8,
+    "ns": 0.226
+   },
+   "refined_full_second": {
+    "code": "7A",
+    "score_r": 0.6567
+   },
+   "refined_topic_best": {
+    "code": "7A",
+    "score_r": 0.6567,
+    "cov_w": 0.707,
+    "tp": 0.8
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_pKJ7Y3jd7PDzZQpP",
+   "name": "Finding Stationary Points & Turning Points",
+   "of_record_code": "4M",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4M 0.579 margin 0.293 (cov_w 0.51, tp 0.73)",
+   "refined_full_best": {
+    "code": "4M",
+    "score_r": 0.5787,
+    "cov_w": 0.511,
+    "tp": 0.727,
+    "ns": 0.569
+   },
+   "refined_full_second": {
+    "code": "6E",
+    "score_r": 0.3156
+   },
+   "refined_topic_best": {
+    "code": "4M",
+    "score_r": 0.5787,
+    "cov_w": 0.511,
+    "tp": 0.727
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_pSX9GyS8bW7N5CH7",
+   "name": "Area Formulas",
+   "of_record_code": "7A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 7A 0.551 margin 0.146 (cov_w 0.59, tp 0.60)",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.551,
+    "cov_w": 0.586,
+    "tp": 0.6,
+    "ns": 0.4
+   },
+   "refined_full_second": {
+    "code": "6F",
+    "score_r": 0.5481
+   },
+   "refined_topic_best": {
+    "code": "7A",
+    "score_r": 0.551,
+    "cov_w": 0.586,
+    "tp": 0.6
+   },
+   "topic_gate": "7"
+  },
+  {
+   "spcpt_id": "spcpt_pqWsmktWyMCRfTk6",
+   "name": "Simplifying Algebraic Fractions",
+   "of_record_code": "3C",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3C 0.639 margin 0.188 (cov_w 0.77, tp 0.50)",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.6389,
+    "cov_w": 0.769,
+    "tp": 0.5,
+    "ns": 0.525
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.4508
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.6389,
+    "cov_w": 0.769,
+    "tp": 0.5
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_qPRh2fycSMYwytcV",
+   "name": "Parallel Lines",
+   "of_record_code": "6C",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "topic-inconsistent kept row 6C: no decisive evidence either direction (in-topic 4I 0.243, full 6C 0.354)",
+   "refined_full_best": {
+    "code": "6C",
+    "score_r": 0.3537,
+    "cov_w": 0.234,
+    "tp": 0.667,
+    "ns": 0.286
+   },
+   "refined_full_second": {
+    "code": "6E",
+    "score_r": 0.3272
+   },
+   "refined_topic_best": {
+    "code": "4I",
+    "score_r": 0.243,
+    "cov_w": 0.337,
+    "tp": 0.167
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_qRytkYVHXTQBJdSq",
+   "name": "Best Buys",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 1I 0.150, margin 0.001) — honest stay",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.3233,
+    "cov_w": 0.533,
+    "tp": 0.0,
+    "ns": 0.2
+   },
+   "refined_full_second": {
+    "code": "6B",
+    "score_r": 0.1851
+   },
+   "refined_topic_best": {
+    "code": "1I",
+    "score_r": 0.1501,
+    "cov_w": 0.172,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_qX5rMkysQfN7SK2M",
+   "name": "Basic Factorising",
+   "of_record_code": "3D",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3D 0.432 margin 0.094 (cov_w 0.50, tp 0.25)",
+   "refined_full_best": {
+    "code": "3D",
+    "score_r": 0.4321,
+    "cov_w": 0.5,
+    "tp": 0.25,
+    "ns": 0.478
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.386
+   },
+   "refined_topic_best": {
+    "code": "3D",
+    "score_r": 0.4321,
+    "cov_w": 0.5,
+    "tp": 0.25
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_qbHvYk4bsCyRfQSv",
+   "name": "Finding Vector Paths",
+   "of_record_code": "8D",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 8H 0.496 margin 0.022 below decisive bar vs of-record 8D",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.4961,
+    "cov_w": 0.556,
+    "tp": 0.429,
+    "ns": 0.426
+   },
+   "refined_full_second": {
+    "code": "8E",
+    "score_r": 0.4744
+   },
+   "refined_topic_best": {
+    "code": "8H",
+    "score_r": 0.4961,
+    "cov_w": 0.556,
+    "tp": 0.429
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_qgWTSJ5pQ2dx6rDf",
+   "name": "Multiple Ratios",
+   "of_record_code": "1B",
+   "verdict": "REPOINT",
+   "new_code": "1H",
+   "basis": "decisive in-topic refined winner 1H 0.508 margin 0.117 beats of-record 1B (cov_w 0.68, tp 0.43)",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.5082,
+    "cov_w": 0.68,
+    "tp": 0.429,
+    "ns": 0.277
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.3907
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.5082,
+    "cov_w": 0.68,
+    "tp": 0.429
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_qpSmD6yNY5t5GrW6",
+   "name": "Ratios",
+   "of_record_code": "1B",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 1H 0.435 margin 0.050 below decisive bar vs of-record 1B",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.435,
+    "cov_w": 0.387,
+    "tp": 0.6,
+    "ns": 0.361
+   },
+   "refined_full_second": {
+    "code": "1B",
+    "score_r": 0.3854
+   },
+   "refined_topic_best": {
+    "code": "1H",
+    "score_r": 0.435,
+    "cov_w": 0.387,
+    "tp": 0.6
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_rsCdKqXKjhfmkyqT",
+   "name": "Collecting Like Terms",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 3H 0.133, margin 0.001) — honest stay",
+   "refined_full_best": {
+    "code": "10K",
+    "score_r": 0.2742,
+    "cov_w": 0.286,
+    "tp": 0.25,
+    "ns": 0.29
+   },
+   "refined_full_second": {
+    "code": "10G",
+    "score_r": 0.1863
+   },
+   "refined_topic_best": {
+    "code": "3H",
+    "score_r": 0.1329,
+    "cov_w": 0.098,
+    "tp": 0.0
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_rt6wRVmbK5ZVkF3d",
+   "name": "Factorising Harder Quadratics",
+   "of_record_code": "3D",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3D (in-topic best 0.396, margin 0.017) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1B",
+    "score_r": 0.4446,
+    "cov_w": 0.571,
+    "tp": 0.214,
+    "ns": 0.4
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.3962
+   },
+   "refined_topic_best": {
+    "code": "3D",
+    "score_r": 0.3962,
+    "cov_w": 0.5,
+    "tp": 0.214
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_rxmWrBrc2s2q45wF",
+   "name": "Pie Charts",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 10J 0.198, margin 0.070) — honest stay",
+   "refined_full_best": {
+    "code": "1H",
+    "score_r": 0.3038,
+    "cov_w": 0.547,
+    "tp": 0.0,
+    "ns": 0.1
+   },
+   "refined_full_second": {
+    "code": "8I",
+    "score_r": 0.253
+   },
+   "refined_topic_best": {
+    "code": "10J",
+    "score_r": 0.1984,
+    "cov_w": 0.281,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_s2x4ZG4rWQhHJrTh",
+   "name": "Algebraic Roots & Indices",
+   "of_record_code": "1C",
+   "verdict": "CROSS_TOPIC_CONFIRM",
+   "new_code": "1C",
+   "basis": "cross-topic decisive full-pool winner 1C 0.741 margin 0.332 (no topic-consistent candidate at the bar) — CX law",
+   "refined_full_best": {
+    "code": "1C",
+    "score_r": 0.7411,
+    "cov_w": 1.0,
+    "tp": 0.667,
+    "ns": 0.298
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.409
+   },
+   "refined_topic_best": {
+    "code": "3F",
+    "score_r": 0.409,
+    "cov_w": 0.508,
+    "tp": 0.333
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_s4k79Tf4cNdNGqvT",
+   "name": "Interpreting Graphical Inequalities",
+   "of_record_code": "4K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4K 0.498 margin 0.179 (cov_w 0.76, tp 0.12)",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.4984,
+    "cov_w": 0.764,
+    "tp": 0.125,
+    "ns": 0.347
+   },
+   "refined_full_second": {
+    "code": "2E",
+    "score_r": 0.3983
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.4984,
+    "cov_w": 0.764,
+    "tp": 0.125
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_sHCB9WZbDMyTFqCP",
+   "name": "Solving Equations Using Graphs",
+   "of_record_code": "4D",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 4D (in-topic best 0.427, margin 0.029) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3H",
+    "score_r": 0.4988,
+    "cov_w": 0.637,
+    "tp": 0.25,
+    "ns": 0.46
+   },
+   "refined_full_second": {
+    "code": "3I",
+    "score_r": 0.4681
+   },
+   "refined_topic_best": {
+    "code": "4D",
+    "score_r": 0.4275,
+    "cov_w": 0.612,
+    "tp": 0.125
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_stqdXPTn5YvgKtvm",
+   "name": "Simplifying Surds",
+   "of_record_code": "1D",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1D 0.648 margin 0.289 (cov_w 0.64, tp 0.80)",
+   "refined_full_best": {
+    "code": "1D",
+    "score_r": 0.6484,
+    "cov_w": 0.635,
+    "tp": 0.8,
+    "ns": 0.578
+   },
+   "refined_full_second": {
+    "code": "3C",
+    "score_r": 0.397
+   },
+   "refined_topic_best": {
+    "code": "1D",
+    "score_r": 0.6484,
+    "cov_w": 0.635,
+    "tp": 0.8
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_sy75G6mYWc9vzWvg",
+   "name": "Averages from Grouped Data",
+   "of_record_code": "10D",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 10D 0.672 margin 0.276 (cov_w 0.92, tp 0.50)",
+   "refined_full_best": {
+    "code": "10D",
+    "score_r": 0.6716,
+    "cov_w": 0.918,
+    "tp": 0.5,
+    "ns": 0.367
+   },
+   "refined_full_second": {
+    "code": "10C",
+    "score_r": 0.3959
+   },
+   "refined_topic_best": {
+    "code": "10D",
+    "score_r": 0.6716,
+    "cov_w": 0.918,
+    "tp": 0.5
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_syhVK6wH6NDDfgdB",
+   "name": "Intersecting Chord Theorem (External)",
+   "of_record_code": "6K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6K 0.579 margin 0.168 (cov_w 0.84, tp 0.33)",
+   "refined_full_best": {
+    "code": "3D",
+    "score_r": 0.5956,
+    "cov_w": 0.75,
+    "tp": 0.333,
+    "ns": 0.549
+   },
+   "refined_full_second": {
+    "code": "6K",
+    "score_r": 0.5789
+   },
+   "refined_topic_best": {
+    "code": "6K",
+    "score_r": 0.5789,
+    "cov_w": 0.845,
+    "tp": 0.333
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_t6XtWBrsT7FH93JY",
+   "name": "Working with Ratios",
+   "of_record_code": "1F",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1F (in-topic best 0.301, margin 0.007) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8H",
+    "score_r": 0.3411,
+    "cov_w": 0.533,
+    "tp": 0.0,
+    "ns": 0.271
+   },
+   "refined_full_second": {
+    "code": "1F",
+    "score_r": 0.3011
+   },
+   "refined_topic_best": {
+    "code": "1F",
+    "score_r": 0.3011,
+    "cov_w": 0.3,
+    "tp": 0.25
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_tmMTSdKYc9s9V92Z",
+   "name": "Range",
+   "of_record_code": "4D",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "topic-inconsistent kept row 4D: no decisive evidence either direction (in-topic 10A 0.152, full 2E 0.385)",
+   "refined_full_best": {
+    "code": "2E",
+    "score_r": 0.3851,
+    "cov_w": 0.667,
+    "tp": 0.0,
+    "ns": 0.174
+   },
+   "refined_full_second": {
+    "code": "4D",
+    "score_r": 0.385
+   },
+   "refined_topic_best": {
+    "code": "10A",
+    "score_r": 0.1522,
+    "cov_w": 0.212,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_trxtpbq9c342p3qw",
+   "name": "Squared & Cubic Units",
+   "of_record_code": null,
+   "verdict": "UNMAPPED_STAY",
+   "new_code": null,
+   "basis": "re-verified below decisive bar (in-topic best 1K 0.086, margin 0.008) — honest stay",
+   "refined_full_best": {
+    "code": "3E",
+    "score_r": 0.266,
+    "cov_w": 0.271,
+    "tp": 0.222,
+    "ns": 0.328
+   },
+   "refined_full_second": {
+    "code": "8D",
+    "score_r": 0.2479
+   },
+   "refined_topic_best": {
+    "code": "1K",
+    "score_r": 0.0859,
+    "cov_w": 0.0,
+    "tp": 0.111
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_tyrnCXQW2hfdwnyq",
+   "name": "Cubic Graphs",
+   "of_record_code": "4E",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 4I 0.341 margin 0.019 below decisive bar vs of-record 4E",
+   "refined_full_best": {
+    "code": "3D",
+    "score_r": 0.5405,
+    "cov_w": 1.0,
+    "tp": 0.0,
+    "ns": 0.162
+   },
+   "refined_full_second": {
+    "code": "3E",
+    "score_r": 0.5216
+   },
+   "refined_topic_best": {
+    "code": "4I",
+    "score_r": 0.3413,
+    "cov_w": 0.347,
+    "tp": 0.5
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_vGfjmcJJ9yzSFbzs",
+   "name": "Angle in a Semicircle",
+   "of_record_code": "6F",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 6K 0.448 margin 0.115 below decisive bar vs of-record 6F",
+   "refined_full_best": {
+    "code": "6K",
+    "score_r": 0.4477,
+    "cov_w": 0.423,
+    "tp": 0.5,
+    "ns": 0.455
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.3678
+   },
+   "refined_topic_best": {
+    "code": "6K",
+    "score_r": 0.4477,
+    "cov_w": 0.423,
+    "tp": 0.5
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_vMSNnYkKPf62MRH9",
+   "name": "Factorising by Grouping",
+   "of_record_code": "3D",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 3C 0.421 margin 0.013 below decisive bar vs of-record 3D",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.4214,
+    "cov_w": 0.512,
+    "tp": 0.3,
+    "ns": 0.417
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.4083
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.4214,
+    "cov_w": 0.512,
+    "tp": 0.3
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_vMcrBY5bkBpMVHMF",
+   "name": "Applications of Trigonometry",
+   "of_record_code": "9A",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 9A 0.419 margin 0.187 (cov_w 0.61, tp 0.20)",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.4396,
+    "cov_w": 0.586,
+    "tp": 0.1,
+    "ns": 0.455
+   },
+   "refined_full_second": {
+    "code": "9A",
+    "score_r": 0.4194
+   },
+   "refined_topic_best": {
+    "code": "9A",
+    "score_r": 0.4194,
+    "cov_w": 0.613,
+    "tp": 0.2
+   },
+   "topic_gate": "9"
+  },
+  {
+   "spcpt_id": "spcpt_vYsrWKqpQDpSwnPj",
+   "name": "Kinematics",
+   "of_record_code": "4N",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 4L 0.335 margin 0.009 below decisive bar vs of-record 4N",
+   "refined_full_best": {
+    "code": "4L",
+    "score_r": 0.3353,
+    "cov_w": 0.135,
+    "tp": 0.5,
+    "ns": 0.575
+   },
+   "refined_full_second": {
+    "code": "4F",
+    "score_r": 0.3268
+   },
+   "refined_topic_best": {
+    "code": "4L",
+    "score_r": 0.3353,
+    "cov_w": 0.135,
+    "tp": 0.5
+   },
+   "topic_gate": "4"
+  },
+  {
+   "spcpt_id": "spcpt_wF3J5MKvx273VH3h",
+   "name": "Adding & Subtracting Algebraic Fractions",
+   "of_record_code": "3C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3C (in-topic best 0.503, margin 0.011) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.5033,
+    "cov_w": 0.598,
+    "tp": 0.3,
+    "ns": 0.506
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.4927
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.5033,
+    "cov_w": 0.598,
+    "tp": 0.3
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_wPBshqzwKBKyYHBV",
+   "name": "Angles at Centre & Circumference",
+   "of_record_code": "6K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6K 0.429 margin 0.150 (cov_w 0.42, tp 0.38)",
+   "refined_full_best": {
+    "code": "6K",
+    "score_r": 0.4295,
+    "cov_w": 0.423,
+    "tp": 0.375,
+    "ns": 0.507
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.3267
+   },
+   "refined_topic_best": {
+    "code": "6K",
+    "score_r": 0.4295,
+    "cov_w": 0.423,
+    "tp": 0.375
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_wRw6rKqPdVmS986W",
+   "name": "Speed, Density & Pressure",
+   "of_record_code": "1G",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 1G (in-topic best 0.396, margin 0.058) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "7A",
+    "score_r": 0.5568,
+    "cov_w": 1.0,
+    "tp": 0.0,
+    "ns": 0.227
+   },
+   "refined_full_second": {
+    "code": "1G",
+    "score_r": 0.3958
+   },
+   "refined_topic_best": {
+    "code": "1G",
+    "score_r": 0.3958,
+    "cov_w": 0.667,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_wnkGx4MqYbQSFdnb",
+   "name": "Maps",
+   "of_record_code": "6B",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 6B (in-topic best 0.119, margin 0.023) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.3098,
+    "cov_w": 0.519,
+    "tp": 0.0,
+    "ns": 0.143
+   },
+   "refined_full_second": {
+    "code": "2D",
+    "score_r": 0.1962
+   },
+   "refined_topic_best": {
+    "code": "6B",
+    "score_r": 0.1186,
+    "cov_w": 0.0,
+    "tp": 0.167
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_xBxjpCXMWrkf6mww",
+   "name": "Algebraic Division",
+   "of_record_code": "3E",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 3E 0.855 margin 0.258 (cov_w 1.00, tp 0.88)",
+   "refined_full_best": {
+    "code": "3E",
+    "score_r": 0.8551,
+    "cov_w": 1.0,
+    "tp": 0.875,
+    "ns": 0.545
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.5974
+   },
+   "refined_topic_best": {
+    "code": "3E",
+    "score_r": 0.8551,
+    "cov_w": 1.0,
+    "tp": 0.875
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_xDpKVBxDTCk2x6vS",
+   "name": "Similar Lengths",
+   "of_record_code": "6H",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6H 0.446 margin 0.126 (cov_w 0.54, tp 0.25)",
+   "refined_full_best": {
+    "code": "6H",
+    "score_r": 0.4457,
+    "cov_w": 0.537,
+    "tp": 0.25,
+    "ns": 0.423
+   },
+   "refined_full_second": {
+    "code": "3D",
+    "score_r": 0.325
+   },
+   "refined_topic_best": {
+    "code": "6H",
+    "score_r": 0.4457,
+    "cov_w": 0.537,
+    "tp": 0.25
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_xRqrDc3z3GSkBgbm",
+   "name": "Set Notation",
+   "of_record_code": "2B",
+   "verdict": "STAY",
+   "new_code": null,
+   "basis": "in-topic refined best 2G 0.663 margin 0.040 below decisive bar vs of-record 2B",
+   "refined_full_best": {
+    "code": "2G",
+    "score_r": 0.6632,
+    "cov_w": 1.0,
+    "tp": 0.3,
+    "ns": 0.353
+   },
+   "refined_full_second": {
+    "code": "2B",
+    "score_r": 0.6236
+   },
+   "refined_topic_best": {
+    "code": "2G",
+    "score_r": 0.6632,
+    "cov_w": 1.0,
+    "tp": 0.3
+   },
+   "topic_gate": "2"
+  },
+  {
+   "spcpt_id": "spcpt_xf7Y5cxcQG3T6g65",
+   "name": "Using a Calculator",
+   "of_record_code": "1K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 1K 0.477 margin 0.121 (cov_w 0.76, tp 0.00)",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.4775,
+    "cov_w": 0.759,
+    "tp": 0.0,
+    "ns": 0.429
+   },
+   "refined_full_second": {
+    "code": "1E",
+    "score_r": 0.3564
+   },
+   "refined_topic_best": {
+    "code": "1K",
+    "score_r": 0.4775,
+    "cov_w": 0.759,
+    "tp": 0.0
+   },
+   "topic_gate": "1"
+  },
+  {
+   "spcpt_id": "spcpt_xwx7PVk7fQ5QpdMk",
+   "name": "Solving Algebraic Fractions",
+   "of_record_code": "3C",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 3C (in-topic best 0.480, margin 0.012) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "3C",
+    "score_r": 0.4805,
+    "cov_w": 0.538,
+    "tp": 0.333,
+    "ns": 0.527
+   },
+   "refined_full_second": {
+    "code": "3F",
+    "score_r": 0.4683
+   },
+   "refined_topic_best": {
+    "code": "3C",
+    "score_r": 0.4805,
+    "cov_w": 0.538,
+    "tp": 0.333
+   },
+   "topic_gate": "3"
+  },
+  {
+   "spcpt_id": "spcpt_yDbZQ6WS99WPCvvR",
+   "name": "Constructions",
+   "of_record_code": "6N",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6N 0.608 margin 0.342 (cov_w 0.71, tp 0.75)",
+   "refined_full_best": {
+    "code": "6N",
+    "score_r": 0.6077,
+    "cov_w": 0.715,
+    "tp": 0.75,
+    "ns": 0.236
+   },
+   "refined_full_second": {
+    "code": "3B",
+    "score_r": 0.4015
+   },
+   "refined_topic_best": {
+    "code": "6N",
+    "score_r": 0.6077,
+    "cov_w": 0.715,
+    "tp": 0.75
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_zJxJnm5kJPsMM2vF",
+   "name": "Vector Diagrams",
+   "of_record_code": "8E",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 8E (in-topic best 0.717, margin 0.070) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "8E",
+    "score_r": 0.7173,
+    "cov_w": 1.0,
+    "tp": 0.5,
+    "ns": 0.369
+   },
+   "refined_full_second": {
+    "code": "8G",
+    "score_r": 0.6468
+   },
+   "refined_topic_best": {
+    "code": "8E",
+    "score_r": 0.7173,
+    "cov_w": 1.0,
+    "tp": 0.5
+   },
+   "topic_gate": "8"
+  },
+  {
+   "spcpt_id": "spcpt_zNgS9BtJ7493zsyx",
+   "name": "Interpreting Histograms",
+   "of_record_code": "10D",
+   "verdict": "CONFIRM_STAY",
+   "new_code": null,
+   "basis": "refined re-verification agrees with of-record 10D (in-topic best 0.272, margin 0.070) — stays, statement not uniquely text-derivable",
+   "refined_full_best": {
+    "code": "1K",
+    "score_r": 0.3592,
+    "cov_w": 0.519,
+    "tp": 0.0,
+    "ns": 0.34
+   },
+   "refined_full_second": {
+    "code": "10D",
+    "score_r": 0.2716
+   },
+   "refined_topic_best": {
+    "code": "10D",
+    "score_r": 0.2716,
+    "cov_w": 0.408,
+    "tp": 0.0
+   },
+   "topic_gate": "10"
+  },
+  {
+   "spcpt_id": "spcpt_znWXTZjqCR7PspTc",
+   "name": "Intersecting Chord Theorem",
+   "of_record_code": "6K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 6K 0.589 margin 0.172 (cov_w 0.84, tp 0.38)",
+   "refined_full_best": {
+    "code": "3D",
+    "score_r": 0.606,
+    "cov_w": 0.75,
+    "tp": 0.375,
+    "ns": 0.549
+   },
+   "refined_full_second": {
+    "code": "6K",
+    "score_r": 0.5893
+   },
+   "refined_topic_best": {
+    "code": "6K",
+    "score_r": 0.5893,
+    "cov_w": 0.845,
+    "tp": 0.375
+   },
+   "topic_gate": "6"
+  },
+  {
+   "spcpt_id": "spcpt_zrrC3yxSp579jY7k",
+   "name": "Finding Gradients of Tangents",
+   "of_record_code": "4K",
+   "verdict": "UPGRADE",
+   "new_code": null,
+   "basis": "refined decisive confirm: in-topic winner 4K 0.558 margin 0.218 (cov_w 0.67, tp 0.38)",
+   "refined_full_best": {
+    "code": "4K",
+    "score_r": 0.5582,
+    "cov_w": 0.666,
+    "tp": 0.375,
+    "ns": 0.493
+   },
+   "refined_full_second": {
+    "code": "8E",
+    "score_r": 0.3518
+   },
+   "refined_topic_best": {
+    "code": "4K",
+    "score_r": 0.5582,
+    "cov_w": 0.666,
+    "tp": 0.375
+   },
+   "topic_gate": "4"
+  }
+ ]
+}

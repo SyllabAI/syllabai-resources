@@ -4,141 +4,165 @@
  "qual": "igcse-maths-b",
  "regime": "B",
  "unit_scope": null,
- "generated_utc": "2026-10-28T09:28:36Z",
+ "generated_utc": "2026-10-28T15:51:29Z",
  "sme_entries": 215,
  "official_pool": 98,
  "mappings": {
   "spcpt_2D9sp6d4f6jCmRMx": {
-   "official_id": "IGCSE_MATHS_B:4K",
-   "official_code": "4K",
-   "tier": "C3_topic_anchored",
-   "score": 0.4075,
+   "official_id": "IGCSE_MATHS_B:4I",
+   "official_code": "4I",
+   "tier": "C1_content_join",
+   "score": 0.3769,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
-    "cov": 0.5,
-    "ns": 0.4,
-    "tcov": 0.25,
+    "cov": 0.389,
+    "ns": 0.369,
+    "cov_w": 0.337,
+    "tp": 0.444,
     "runner_up": {
      "code": "4I",
-     "score": 0.3552
+     "score_r": 0.3769
     },
     "topic_gate": "4",
     "profile": [
      [
-      "4K",
-      0.4075
+      "3H",
+      0.4331
      ],
      [
       "4I",
-      0.3552
+      0.3769
      ],
      [
-      "4J",
-      0.2479
+      "3I",
+      0.3747
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "CARD_NAMED_REPOINT",
+    "basis": "review-card named priority (operator-endorsed of record); refined corroboration best=3H 0.433 in-topic best=4I 0.377",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_2KkPGzKqGcx5jPkt": {
    "official_id": "IGCSE_MATHS_B:4M",
    "official_code": "4M",
-   "tier": "C3_topic_anchored",
-   "score": 0.4225,
+   "tier": "C1_content_join",
+   "score": 0.5093,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.55,
     "ns": 0.333,
-    "tcov": 0.3,
+    "cov_w": 0.57,
+    "tp": 0.571,
     "runner_up": {
      "code": "4L",
-     "score": 0.2369
+     "score_r": 0.2006
     },
     "topic_gate": "4",
     "profile": [
      [
       "4M",
-      0.4225
+      0.5093
      ],
      [
       "4L",
-      0.2369
+      0.2006
      ],
      [
       "4I",
-      0.203
+      0.1994
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4M 0.509 margin 0.309 (cov_w 0.57, tp 0.57)",
+    "r0_code": "4M",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_2NQRqtzTGgzNksfC": {
    "official_id": "IGCSE_MATHS_B:7A",
    "official_code": "7A",
-   "tier": "C3_topic_anchored",
-   "score": 0.4877,
+   "tier": "C1_content_join",
+   "score": 0.4817,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.667,
     "ns": 0.348,
-    "tcov": 0.333,
+    "cov_w": 0.586,
+    "tp": 0.375,
     "runner_up": {
      "code": "7D",
-     "score": 0.3257
+     "score_r": 0.3507
     },
     "topic_gate": "7",
     "profile": [
      [
       "7A",
-      0.4877
+      0.4817
      ],
      [
       "7D",
-      0.3257
+      0.3507
      ],
      [
       "7B",
-      0.2552
+      0.2666
      ]
     ]
    },
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 7A 0.482 margin 0.131 (cov_w 0.59, tp 0.38)",
+    "r0_code": "7A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_2SfTVFKHJRBby3QK": {
    "official_id": "IGCSE_MATHS_B:6C",
    "official_code": "6C",
-   "tier": "C3_topic_anchored",
-   "score": 0.4111,
+   "tier": "C1_content_join",
+   "score": 0.5102,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.333,
     "ns": 0.407,
-    "tcov": 0.556,
+    "cov_w": 0.313,
+    "tp": 1.0,
     "runner_up": {
      "code": "6N",
-     "score": 0.2593
+     "score_r": 0.3036
     },
     "topic_gate": "6",
     "profile": [
      [
       "6C",
-      0.4111
+      0.5102
      ],
      [
       "6N",
-      0.2593
+      0.3036
      ],
      [
-      "6K",
-      0.2443
+      "6A",
+      0.2444
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6C 0.510 margin 0.207 (cov_w 0.31, tp 1.00)",
+    "r0_code": "6C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_2btTTD747RgNBmbB": {
    "official_id": "IGCSE_MATHS_B:3E",
@@ -173,37 +197,43 @@
    }
   },
   "spcpt_2nCMJhvvGsW7vMcV": {
-   "official_id": "IGCSE_MATHS_B:4K",
-   "official_code": "4K",
-   "tier": "C3_topic_anchored",
-   "score": 0.3717,
+   "official_id": "IGCSE_MATHS_B:4N",
+   "official_code": "4N",
+   "tier": "C1_content_join",
+   "score": 0.0562,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
-    "cov": 0.5,
-    "ns": 0.281,
-    "tcov": 0.25,
+    "cov": 0.0,
+    "ns": 0.225,
+    "cov_w": 0.0,
+    "tp": 0.0,
     "runner_up": {
-     "code": "4B",
-     "score": 0.2503
+     "code": "4J",
+     "score_r": 0.2744
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.3717
-     ],
-     [
-      "4B",
-      0.2503
+      0.4169
      ],
      [
       "4J",
-      0.1831
+      0.2744
+     ],
+     [
+      "2E",
+      0.269
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "EYES_ON_REPOINT",
+    "basis": "eyes-on r1: 4K read = 'The gradients of graphs above by drawing' — a continuation fragment of 4J's numerical-coefficient polynomial graphs, not a kinematics home; 4N read = 'Applications to linear kinematics and to other simple practical problems' = the spine's kinematics home; distance/speed-time graph interpretation is linear kinematics in substance (velocity/acceleration from gradients, distance from area) though the lesson never prints the spec's word; 4N already of-record for the Kinematics S1 row (grouping-consistent); review-card named anchor landed per the card of record",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_2w6yB8pYShK9mGRb": {
    "official_id": "IGCSE_MATHS_B:4D",
@@ -244,7 +274,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_339DNssRW9x2NPKk": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -277,7 +307,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_38XcCSfT6hW33fDn": {
    "official_id": "IGCSE_MATHS_B:9D",
@@ -290,35 +320,41 @@
   "spcpt_3fMGfNtg3hXMg6gC": {
    "official_id": "IGCSE_MATHS_B:7A",
    "official_code": "7A",
-   "tier": "C2_content_join",
-   "score": 0.5208,
+   "tier": "C1_content_join",
+   "score": 0.5093,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.667,
     "ns": 0.458,
-    "tcov": 0.333,
+    "cov_w": 0.586,
+    "tp": 0.375,
     "runner_up": {
      "code": "7D",
-     "score": 0.3314
+     "score_r": 0.3555
     },
     "topic_gate": "7",
     "profile": [
      [
       "7A",
-      0.5208
+      0.5093
      ],
      [
       "7D",
-      0.3314
+      0.3555
      ],
      [
       "7B",
-      0.1815
+      0.1708
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 7A 0.509 margin 0.154 (cov_w 0.59, tp 0.38)",
+    "r0_code": "7A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_3n2jHMX7vMBh95jq": {
    "official_id": "IGCSE_MATHS_B:1K",
@@ -351,7 +387,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_3sptc2fDMgGnNYqg": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -384,7 +420,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_3w7YqY2dN68HMc4k": {
    "official_id": "IGCSE_MATHS_B:8K",
@@ -421,134 +457,158 @@
   "spcpt_425cHYzg3cyxG5f3": {
    "official_id": "IGCSE_MATHS_B:3L",
    "official_code": "3L",
-   "tier": "C2_content_join",
-   "score": 0.5357,
+   "tier": "C1_content_join",
+   "score": 0.6084,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.619,
-    "tcov": 0.5,
+    "cov_w": 0.634,
+    "tp": 0.6,
     "runner_up": {
      "code": "3H",
-     "score": 0.3326
+     "score_r": 0.3204
     },
     "topic_gate": "3",
     "profile": [
      [
       "3L",
-      0.5357
+      0.6084
      ],
      [
       "3H",
-      0.3326
+      0.3204
      ],
      [
       "3I",
-      0.2838
+      0.2782
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3L 0.608 margin 0.288 (cov_w 0.63, tp 0.60)",
+    "r0_code": "3L",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_4QRwffMSmK66nXtp": {
    "official_id": "IGCSE_MATHS_B:1D",
    "official_code": "1D",
-   "tier": "C2_content_join",
-   "score": 0.5233,
+   "tier": "C1_content_join",
+   "score": 0.5942,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.578,
-    "tcov": 0.5,
+    "cov_w": 0.635,
+    "tp": 0.583,
     "runner_up": {
      "code": "1K",
-     "score": 0.4024
+     "score_r": 0.3595
     },
     "topic_gate": "1",
     "profile": [
      [
       "1D",
-      0.5233
+      0.5942
      ],
      [
       "1K",
-      0.4024
+      0.3595
      ],
      [
       "1B",
-      0.3597
+      0.3337
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1D 0.594 margin 0.235 (cov_w 0.64, tp 0.58)",
+    "r0_code": "1D",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_4ZdHtGPdDjYdR6rK": {
    "official_id": "IGCSE_MATHS_B:1G",
    "official_code": "1G",
-   "tier": "C3_topic_anchored",
-   "score": 0.3589,
+   "tier": "C1_content_join",
+   "score": 0.3427,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.333,
     "ns": 0.419,
-    "tcov": 0.333,
+    "cov_w": 0.333,
+    "tp": 0.286,
     "runner_up": {
-     "code": "1K",
-     "score": 0.1565
+     "code": "1B",
+     "score_r": 0.1426
     },
     "topic_gate": "1",
     "profile": [
      [
       "1G",
-      0.3589
-     ],
-     [
-      "1K",
-      0.1565
+      0.3427
      ],
      [
       "1B",
-      0.1438
+      0.1426
+     ],
+     [
+      "1J",
+      0.1299
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1G 0.343 margin 0.200 (cov_w 0.33, tp 0.29)",
+    "r0_code": "1G",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_5CHMgxBWhBwxh5Y6": {
    "official_id": "IGCSE_MATHS_B:1H",
    "official_code": "1H",
-   "tier": "C3_topic_anchored",
-   "score": 0.3517,
+   "tier": "C1_content_join",
+   "score": 0.4727,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.4,
     "ns": 0.406,
-    "tcov": 0.2,
+    "cov_w": 0.453,
+    "tp": 0.6,
     "runner_up": {
      "code": "1J",
-     "score": 0.1661
+     "score_r": 0.1689
     },
     "topic_gate": "1",
     "profile": [
      [
       "1H",
-      0.3517
+      0.4727
      ],
      [
       "1J",
-      0.1661
+      0.1689
      ],
      [
       "1B",
-      0.1643
+      0.1596
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1H 0.473 margin 0.304 (cov_w 0.45, tp 0.60)",
+    "r0_code": "1H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_5FMXZMjqSZ3GK53q": {
    "official_id": "IGCSE_MATHS_B:6L",
@@ -581,7 +641,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_5SJ9rhJbhSwKtDbv": {
    "official_id": "IGCSE_MATHS_B:5G",
@@ -614,7 +674,7 @@
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_5Wj647RsttH6ZNfd": {
    "official_id": "IGCSE_MATHS_B:6B",
@@ -647,7 +707,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_5snY7JPdgrqvFRhY": {
    "official_id": "IGCSE_MATHS_B:5G",
@@ -712,40 +772,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_6tmCTQJYPsTdKKZ6": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C3_topic_anchored",
-   "score": 0.2492,
+   "tier": "C1_content_join",
+   "score": 0.2703,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.375,
     "ns": 0.164,
-    "tcov": 0.125,
+    "cov_w": 0.402,
+    "tp": 0.125,
     "runner_up": {
      "code": "3I",
-     "score": 0.1554
+     "score_r": 0.1601
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.2492
+      0.2703
      ],
      [
       "3I",
-      0.1554
+      0.1601
      ],
      [
       "3K",
-      0.1483
+      0.1417
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.270 margin 0.110 (cov_w 0.40, tp 0.12)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_7YTSNFdbGCTSMHJX": {
    "official_id": "IGCSE_MATHS_B:3K",
@@ -778,7 +844,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_7gdmq8MbcShywrkB": {
    "official_id": "IGCSE_MATHS_B:6I",
@@ -811,40 +877,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_7pTpRYh7tsCnGspT": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C2_content_join",
-   "score": 0.5596,
+   "tier": "C1_content_join",
+   "score": 0.5943,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.625,
     "ns": 0.615,
-    "tcov": 0.375,
+    "cov_w": 0.632,
+    "tp": 0.5,
     "runner_up": {
      "code": "3D",
-     "score": 0.3764
+     "score_r": 0.3776
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.5596
+      0.5943
      ],
      [
       "3D",
-      0.3764
+      0.3776
      ],
      [
       "3F",
-      0.2399
+      0.3042
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.594 margin 0.217 (cov_w 0.63, tp 0.50)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_7sDcDrMgvvb7JNyy": {
    "official_id": "IGCSE_MATHS_B:5B",
@@ -877,7 +949,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_89mzCM5TTjHvXmvd": {
    "official_id": "IGCSE_MATHS_B:5C",
@@ -978,35 +1050,41 @@
   "spcpt_93QKhBw6PtVSvVdB": {
    "official_id": "IGCSE_MATHS_B:1H",
    "official_code": "1H",
-   "tier": "C3_topic_anchored",
-   "score": 0.4,
+   "tier": "C1_content_join",
+   "score": 0.4791,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.6,
     "ns": 0.267,
-    "tcov": 0.2,
+    "cov_w": 0.613,
+    "tp": 0.429,
     "runner_up": {
      "code": "1E",
-     "score": 0.2981
+     "score_r": 0.2811
     },
     "topic_gate": "1",
     "profile": [
      [
       "1H",
-      0.4
+      0.4791
      ],
      [
       "1E",
-      0.2981
+      0.2811
      ],
      [
       "1K",
-      0.2206
+      0.2033
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1H 0.479 margin 0.198 (cov_w 0.61, tp 0.43)",
+    "r0_code": "1H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_9JzR7VMzsQqT4KHq": {
    "official_id": "IGCSE_MATHS_B:9C",
@@ -1019,35 +1097,41 @@
   "spcpt_9Stcxtj75Q3wpqJF": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C3_topic_anchored",
-   "score": 0.3193,
+   "tier": "C1_content_join",
+   "score": 0.3574,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.314,
-    "tcov": 0.0,
+    "cov_w": 0.572,
+    "tp": 0.0,
     "runner_up": {
-     "code": "3H",
-     "score": 0.2423
+     "code": "3D",
+     "score_r": 0.2228
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.3193
+      0.3574
      ],
      [
-      "3H",
-      0.2423
+      "3D",
+      0.2228
      ],
      [
       "3I",
-      0.2343
+      0.2197
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.357 margin 0.135 (cov_w 0.57, tp 0.00)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_9T2dpGhRRNvzf2n3": {
    "official_id": "IGCSE_MATHS_B:1K",
@@ -1120,7 +1204,7 @@
      ]
     ]
    },
-   "flag": "runner-up within 0.05 (2B 0.61) — review"
+   "flag": "runner-up within 0.05 (2B 0.61) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_9cJGVGKRhP9JYgjF": {
    "official_id": "IGCSE_MATHS_B:10I",
@@ -1133,109 +1217,158 @@
   "spcpt_B37MzscGX3VQwSK2": {
    "official_id": "IGCSE_MATHS_B:8D",
    "official_code": "8D",
-   "tier": "C2_content_join",
-   "score": 0.5882,
+   "tier": "C1_content_join",
+   "score": 0.6101,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.667,
     "ns": 0.405,
-    "tcov": 0.667,
+    "cov_w": 0.659,
+    "tp": 0.714,
     "runner_up": {
-     "code": "8G",
-     "score": 0.3766
+     "code": "8H",
+     "score_r": 0.4267
     },
     "topic_gate": "8",
     "profile": [
      [
       "8D",
-      0.5882
+      0.6101
+     ],
+     [
+      "8H",
+      0.4267
      ],
      [
       "8G",
-      0.3766
-     ],
-     [
-      "8F",
-      0.3733
+      0.3638
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 8D 0.610 margin 0.183 (cov_w 0.66, tp 0.71)",
+    "r0_code": "8D",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_BVf2GTX8FCvzJjJN": {
    "official_id": "IGCSE_MATHS_B:1H",
    "official_code": "1H",
-   "tier": "C3_topic_anchored",
-   "score": 0.4447,
+   "tier": "C1_content_join",
+   "score": 0.4689,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.4,
     "ns": 0.382,
-    "tcov": 0.6,
+    "cov_w": 0.387,
+    "tp": 0.714,
     "runner_up": {
-     "code": "1D",
-     "score": 0.1402
+     "code": "1B",
+     "score_r": 0.1309
     },
     "topic_gate": "1",
     "profile": [
      [
       "1H",
-      0.4447
-     ],
-     [
-      "1D",
-      0.1402
+      0.4689
      ],
      [
       "1B",
-      0.1297
+      0.1309
+     ],
+     [
+      "1D",
+      0.1092
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1H 0.469 margin 0.338 (cov_w 0.39, tp 0.71)",
+    "r0_code": "1H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_BktcXhHcVFw8R9Q2": {
    "official_id": "IGCSE_MATHS_B:4G",
    "official_code": "4G",
-   "tier": "S1_name_match",
-   "score": 0.8386,
+   "tier": "C1_content_join",
+   "score": 0.6641,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.625,
+    "ns": 0.596,
+    "cov_w": 0.595,
+    "tp": 0.857,
+    "runner_up": {
+     "code": "4A",
+     "score_r": 0.285
+    },
+    "topic_gate": "4",
+    "profile": [
+     [
+      "4G",
+      0.6641
+     ],
+     [
+      "4A",
+      0.285
+     ],
+     [
+      "4L",
+      0.1846
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4G 0.664 margin 0.379 (cov_w 0.59, tp 0.86)",
+    "r0_code": "4G",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_CGChbywtxFSDK5vT": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C2_content_join",
-   "score": 0.5219,
+   "tier": "C1_content_join",
+   "score": 0.6092,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.75,
     "ns": 0.406,
-    "tcov": 0.25,
+    "cov_w": 0.769,
+    "tp": 0.5,
     "runner_up": {
-     "code": "3E",
-     "score": 0.3538
+     "code": "3F",
+     "score_r": 0.4082
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.5219
-     ],
-     [
-      "3E",
-      0.3538
+      0.6092
      ],
      [
       "3F",
-      0.2962
+      0.4082
+     ],
+     [
+      "3E",
+      0.4073
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.609 margin 0.201 (cov_w 0.77, tp 0.50)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_Ck5vpzYGNJy5qdNM": {
    "official_id": "IGCSE_MATHS_B:3D",
@@ -1268,7 +1401,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_D6T5FMtYgmDGKKXB": {
    "official_id": "IGCSE_MATHS_B:6B",
@@ -1301,7 +1434,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_DQrkJGG4Mngch9xc": {
    "official_id": "IGCSE_MATHS_B:8J",
@@ -1334,7 +1467,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_DcSkGdrNWCZYX4V8": {
    "official_id": "IGCSE_MATHS_B:3H",
@@ -1367,7 +1500,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_DrvNQjR2z6ZmYQxv": {
    "official_id": "IGCSE_MATHS_B:4K",
@@ -1400,73 +1533,85 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_F8nMMNHkgCNBjb5G": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C3_topic_anchored",
-   "score": 0.2167,
+   "tier": "C1_content_join",
+   "score": 0.2381,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.375,
     "ns": 0.16,
-    "tcov": 0.0,
+    "cov_w": 0.402,
+    "tp": 0.0,
     "runner_up": {
      "code": "3H",
-     "score": 0.1482
+     "score_r": 0.1169
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.2167
+      0.2381
      ],
      [
       "3H",
-      0.1482
+      0.1169
      ],
      [
       "3L",
-      0.1125
+      0.0938
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.238 margin 0.121 (cov_w 0.40, tp 0.00)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_FHRjdMc6tvRR553q": {
    "official_id": "IGCSE_MATHS_B:1H",
    "official_code": "1H",
-   "tier": "C3_topic_anchored",
-   "score": 0.4454,
+   "tier": "C1_content_join",
+   "score": 0.5598,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.6,
     "ns": 0.418,
-    "tcov": 0.2,
+    "cov_w": 0.613,
+    "tp": 0.6,
     "runner_up": {
      "code": "1B",
-     "score": 0.2563
+     "score_r": 0.2247
     },
     "topic_gate": "1",
     "profile": [
      [
       "1H",
-      0.4454
+      0.5598
      ],
      [
       "1B",
-      0.2563
+      0.2247
      ],
      [
-      "1K",
-      0.2378
+      "1I",
+      0.2105
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1H 0.560 margin 0.335 (cov_w 0.61, tp 0.60)",
+    "r0_code": "1H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_FMpch7WRH8py5vBJ": {
    "official_id": "IGCSE_MATHS_B:6J",
@@ -1479,10 +1624,41 @@
   "spcpt_FVX7YRftjhnwYHQF": {
    "official_id": "IGCSE_MATHS_B:10E",
    "official_code": "10E",
-   "tier": "S1_name_match",
-   "score": 0.7838,
+   "tier": "C1_content_join",
+   "score": 0.5046,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.4,
+    "ns": 0.459,
+    "cov_w": 0.354,
+    "tp": 0.833,
+    "runner_up": {
+     "code": "10I",
+     "score_r": 0.3984
+    },
+    "topic_gate": "10",
+    "profile": [
+     [
+      "10E",
+      0.5046
+     ],
+     [
+      "10I",
+      0.3984
+     ],
+     [
+      "10H",
+      0.3756
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 10E 0.505 margin 0.106 (cov_w 0.35, tp 0.83)",
+    "r0_code": "10E",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_Fbm5V3ByzktDQbh5": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -1515,7 +1691,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_FmVMxSY4pdr2ghgq": {
    "official_id": "IGCSE_MATHS_B:10J",
@@ -1523,7 +1699,8 @@
    "tier": "S1_name_match",
    "score": 0.8788,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "name_to_statement_join",
+   "flag": "; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_GD9CRysqknb6VPhr": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -1556,7 +1733,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_GG7jc43bG3xTkft4": {
    "official_id": "IGCSE_MATHS_B:5G",
@@ -1589,73 +1766,85 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_GVgyB5BVfNDYGf8M": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C3_topic_anchored",
-   "score": 0.2904,
+   "tier": "C1_content_join",
+   "score": 0.2995,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.375,
     "ns": 0.405,
-    "tcov": 0.0,
+    "cov_w": 0.402,
+    "tp": 0.0,
     "runner_up": {
      "code": "3H",
-     "score": 0.1491
+     "score_r": 0.1177
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.2904
+      0.2995
      ],
      [
       "3H",
-      0.1491
+      0.1177
      ],
      [
-      "3I",
-      0.1101
+      "3K",
+      0.0913
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.299 margin 0.182 (cov_w 0.40, tp 0.00)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_GXB9cjhDVVQ5sRgz": {
    "official_id": "IGCSE_MATHS_B:4K",
    "official_code": "4K",
-   "tier": "C2_content_join",
-   "score": 0.5365,
+   "tier": "C1_content_join",
+   "score": 0.5617,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 1.0,
     "ns": 0.184,
-    "tcov": 0.125,
+    "cov_w": 1.0,
+    "tp": 0.062,
     "runner_up": {
-     "code": "4I",
-     "score": 0.3121
+     "code": "4A",
+     "score_r": 0.2954
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.5365
+      0.5617
+     ],
+     [
+      "4A",
+      0.2954
      ],
      [
       "4I",
-      0.3121
-     ],
-     [
-      "4J",
-      0.2484
+      0.2915
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4K 0.562 margin 0.266 (cov_w 1.00, tp 0.06)",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_H5Sb2tfDwbqy6x2t": {
    "official_id": "IGCSE_MATHS_B:5G",
@@ -1688,40 +1877,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_H8sZcbsSTbtsTTr5": {
    "official_id": "IGCSE_MATHS_B:1J",
    "official_code": "1J",
-   "tier": "C2_content_join",
-   "score": 0.5333,
+   "tier": "C1_content_join",
+   "score": 0.6405,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.778,
     "ns": 0.333,
-    "tcov": 0.333,
+    "cov_w": 0.851,
+    "tp": 0.556,
     "runner_up": {
      "code": "1I",
-     "score": 0.4509
+     "score_r": 0.4368
     },
     "topic_gate": "1",
     "profile": [
      [
       "1J",
-      0.5333
+      0.6405
      ],
      [
       "1I",
-      0.4509
+      0.4368
      ],
      [
       "1F",
-      0.3128
+      0.2832
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1J 0.640 margin 0.204 (cov_w 0.85, tp 0.56)",
+    "r0_code": "1J",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_HBwF9SP8dhSGhZZk": {
    "official_id": "IGCSE_MATHS_B:3D",
@@ -1762,7 +1957,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_HcBpSfpzpdZqCFXk": {
    "official_id": "IGCSE_MATHS_B:6H",
@@ -1776,35 +1971,41 @@
   "spcpt_HnxHKwwfTxKcvCN7": {
    "official_id": "IGCSE_MATHS_B:9A",
    "official_code": "9A",
-   "tier": "C3_topic_anchored",
-   "score": 0.3815,
+   "tier": "C1_content_join",
+   "score": 0.3904,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.4,
     "ns": 0.338,
-    "tcov": 0.4,
+    "cov_w": 0.387,
+    "tp": 0.444,
     "runner_up": {
      "code": "9C",
-     "score": 0.2112
+     "score_r": 0.1888
     },
     "topic_gate": "9",
     "profile": [
      [
       "9A",
-      0.3815
+      0.3904
      ],
      [
       "9C",
-      0.2112
+      0.1888
      ],
      [
       "9B",
-      0.0967
+      0.096
      ]
     ]
    },
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 9A 0.390 margin 0.202 (cov_w 0.39, tp 0.44)",
+    "r0_code": "9A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_HsN4snCbVHthWb35": {
    "official_id": "IGCSE_MATHS_B:6I",
@@ -1841,35 +2042,41 @@
   "spcpt_J3KSMj7PjnxtPzCD": {
    "official_id": "IGCSE_MATHS_B:3L",
    "official_code": "3L",
-   "tier": "C2_content_join",
-   "score": 0.5032,
+   "tier": "C1_content_join",
+   "score": 0.5812,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.511,
-    "tcov": 0.5,
+    "cov_w": 0.634,
+    "tp": 0.6,
     "runner_up": {
      "code": "3K",
-     "score": 0.2679
+     "score_r": 0.2568
     },
     "topic_gate": "3",
     "profile": [
      [
       "3L",
-      0.5032
+      0.5812
      ],
      [
       "3K",
-      0.2679
+      0.2568
      ],
      [
       "3C",
-      0.226
+      0.2561
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3L 0.581 margin 0.324 (cov_w 0.63, tp 0.60)",
+    "r0_code": "3L",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_J55PhZ2cbPsYvpt8": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -1934,7 +2141,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_JRX7QS29KrY2hCCW": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -1967,40 +2174,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_Jw35TTKhvXxmGGfP": {
    "official_id": "IGCSE_MATHS_B:4H",
    "official_code": "4H",
-   "tier": "C3_topic_anchored",
-   "score": 0.3,
+   "tier": "C1_content_join",
+   "score": 0.2917,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.333,
     "ns": 0.5,
-    "tcov": 0.0,
+    "cov_w": 0.333,
+    "tp": 0.0,
     "runner_up": {
      "code": "4M",
-     "score": 0.1332
+     "score_r": 0.1429
     },
     "topic_gate": "4",
     "profile": [
      [
       "4H",
-      0.3
+      0.2917
      ],
      [
       "4M",
-      0.1332
+      0.1429
      ],
      [
       "4E",
-      0.1273
+      0.1061
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4H 0.292 margin 0.149 (cov_w 0.33, tp 0.00)",
+    "r0_code": "4H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_K6S4SN5GRRrC4hTj": {
    "official_id": "IGCSE_MATHS_B:8G",
@@ -2033,7 +2246,7 @@
      ]
     ]
    },
-   "flag": "runner-up within 0.05 (8L 0.60) — review"
+   "flag": "runner-up within 0.05 (8L 0.60) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_KNXbNby67zKvX8SX": {
    "official_id": "IGCSE_MATHS_B:1H",
@@ -2098,73 +2311,85 @@
      ]
     ]
    },
-   "flag": "runner-up within 0.05 (4E 0.51) — review"
+   "flag": "runner-up within 0.05 (4E 0.51) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_M5rhN2mwnR2yddc6": {
    "official_id": "IGCSE_MATHS_B:1J",
    "official_code": "1J",
-   "tier": "C2_content_join",
-   "score": 0.5333,
+   "tier": "C1_content_join",
+   "score": 0.6578,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.778,
     "ns": 0.333,
-    "tcov": 0.333,
+    "cov_w": 0.851,
+    "tp": 0.625,
     "runner_up": {
      "code": "1I",
-     "score": 0.4509
+     "score_r": 0.4368
     },
     "topic_gate": "1",
     "profile": [
      [
       "1J",
-      0.5333
+      0.6578
      ],
      [
       "1I",
-      0.4509
+      0.4368
      ],
      [
       "1F",
-      0.3097
+      0.2806
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1J 0.658 margin 0.221 (cov_w 0.85, tp 0.62)",
+    "r0_code": "1J",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_MTZDMgNSvV3FdVVR": {
-   "official_id": "IGCSE_MATHS_B:4K",
-   "official_code": "4K",
-   "tier": "C3_topic_anchored",
-   "score": 0.3875,
+   "official_id": "IGCSE_MATHS_B:4N",
+   "official_code": "4N",
+   "tier": "C1_content_join",
+   "score": 0.1262,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
-    "cov": 0.5,
-    "ns": 0.333,
-    "tcov": 0.25,
+    "cov": 0.143,
+    "ns": 0.217,
+    "cov_w": 0.144,
+    "tp": 0.0,
     "runner_up": {
      "code": "4I",
-     "score": 0.2168
+     "score_r": 0.3147
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.3875
+      0.4301
      ],
      [
       "4I",
-      0.2168
+      0.3147
      ],
      [
-      "4M",
-      0.1914
+      "6E",
+      0.2285
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "EYES_ON_REPOINT",
+    "basis": "eyes-on r1: same evidence read as Speed-Time Graphs — 4K is the 4J-continuation fragment ('gradients of graphs above by drawing'), 4N is the spine's kinematics home; distance-time graph lessons teach gradient-as-speed on linear kinematics graphs; review-card named anchor landed per the card of record",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_MVTZsGHnDRvkyxqK": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -2197,7 +2422,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_Mg5kHQs2xhx8M5vm": {
    "official_id": "IGCSE_MATHS_B:10B",
@@ -2230,7 +2455,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_Mq2w9qKSCyF5mvvs": {
    "official_id": "IGCSE_MATHS_B:7D",
@@ -2295,7 +2520,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_N5xf2wmr4yCNxHBj": {
    "official_id": "IGCSE_MATHS_B:8J",
@@ -2328,40 +2553,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_NyC8VYj2kktfwnZP": {
    "official_id": "IGCSE_MATHS_B:6E",
    "official_code": "6E",
-   "tier": "C3_topic_anchored",
-   "score": 0.3706,
+   "tier": "C1_content_join",
+   "score": 0.5093,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.4,
     "ns": 0.302,
-    "tcov": 0.4,
+    "cov_w": 0.36,
+    "tp": 1.0,
     "runner_up": {
      "code": "6I",
-     "score": 0.2795
+     "score_r": 0.2419
     },
     "topic_gate": "6",
     "profile": [
      [
       "6E",
-      0.3706
+      0.5093
      ],
      [
       "6I",
-      0.2795
+      0.2419
      ],
      [
-      "6B",
-      0.2072
+      "6C",
+      0.2104
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6E 0.509 margin 0.267 (cov_w 0.36, tp 1.00)",
+    "r0_code": "6E",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_P88yS9wysymQ2brq": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -2398,35 +2629,41 @@
   "spcpt_QJNVgG7qqP279jnN": {
    "official_id": "IGCSE_MATHS_B:9A",
    "official_code": "9A",
-   "tier": "C3_topic_anchored",
-   "score": 0.4557,
+   "tier": "C1_content_join",
+   "score": 0.4878,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.6,
     "ns": 0.286,
-    "tcov": 0.4,
+    "cov_w": 0.613,
+    "tp": 0.444,
     "runner_up": {
      "code": "9B",
-     "score": 0.2266
+     "score_r": 0.2261
     },
     "topic_gate": "9",
     "profile": [
      [
       "9A",
-      0.4557
+      0.4878
      ],
      [
       "9B",
-      0.2266
+      0.2261
      ],
      [
       "9C",
-      0.2138
+      0.191
      ]
     ]
    },
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 9A 0.488 margin 0.262 (cov_w 0.61, tp 0.44)",
+    "r0_code": "9A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_QWXhzVp2S3VYZdZc": {
    "official_id": "IGCSE_MATHS_B:10A",
@@ -2459,7 +2696,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_QkZ2S7CKb8GrYdYx": {
    "official_id": "IGCSE_MATHS_B:10B",
@@ -2492,7 +2729,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_QxxYWb5YckkR8Wds": {
    "official_id": "IGCSE_MATHS_B:8D",
@@ -2525,24 +2762,85 @@
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_RJbgRvXq2VrGpP5g": {
-   "official_id": "IGCSE_MATHS_B:8E",
-   "official_code": "8E",
-   "tier": "S1_name_match",
-   "score": 0.6621,
+   "official_id": "IGCSE_MATHS_B:3C",
+   "official_code": "3C",
+   "tier": "C1_content_join",
+   "score": 0.2767,
    "unit": null,
-   "method": "name_to_statement_join",
-   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.375,
+    "ns": 0.297,
+    "cov_w": 0.368,
+    "tp": 0.071,
+    "runner_up": {
+     "code": "3D",
+     "score_r": 0.3679
+    },
+    "topic_gate": "3",
+    "profile": [
+     [
+      "8E",
+      0.5375
+     ],
+     [
+      "3D",
+      0.3679
+     ],
+     [
+      "4L",
+      0.3244
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "EYES_ON_REPOINT",
+    "basis": "eyes-on r1: of-record 8E read = 'Sum and difference of two vectors' — a T8 vectors statement name-matched on 'difference of two', the topic-inconsistency the r0 keep-flag itself records; 3C read = 'The factorisation of simple algebraic expressions' — the canonical home of the difference-of-two-squares identity a^2-b^2=(a+b)(a-b); refined in-topic best 3D REJECTED (3D = 'Use of the factor theorem', a different technique the note does not teach); review-card named anchor landed per the card of record",
+    "r0_code": "8E",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_RJtRSrxJtXZPyDHz": {
    "official_id": "IGCSE_MATHS_B:10I",
    "official_code": "10I",
-   "tier": "S1_name_match",
-   "score": 0.7684,
+   "tier": "C1_content_join",
+   "score": 0.5913,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.4,
+    "ns": 0.421,
+    "cov_w": 0.49,
+    "tp": 1.0,
+    "runner_up": {
+     "code": "10H",
+     "score_r": 0.4507
+    },
+    "topic_gate": "10",
+    "profile": [
+     [
+      "10I",
+      0.5913
+     ],
+     [
+      "10H",
+      0.4507
+     ],
+     [
+      "10J",
+      0.346
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 10I 0.591 margin 0.141 (cov_w 0.49, tp 1.00)",
+    "r0_code": "10I",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_Rv3DcsGBkxSkb8Ms": {
    "official_id": "IGCSE_MATHS_B:10H",
@@ -2575,7 +2873,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_S2dfVTzRhCh7pRzW": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -2608,7 +2906,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_SSJkWfTg9GyZBXt4": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -2641,7 +2939,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_SVXT7VrWxFMXkD7D": {
    "official_id": "IGCSE_MATHS_B:6D",
@@ -2678,35 +2976,41 @@
   "spcpt_SYHWnwMWKxDNg9s8": {
    "official_id": "IGCSE_MATHS_B:3H",
    "official_code": "3H",
-   "tier": "C3_topic_anchored",
-   "score": 0.4713,
+   "tier": "C1_content_join",
+   "score": 0.5629,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.543,
-    "tcov": 0.333,
+    "cov_w": 0.526,
+    "tp": 0.667,
     "runner_up": {
      "code": "3I",
-     "score": 0.3516
+     "score_r": 0.4545
     },
     "topic_gate": "3",
     "profile": [
      [
       "3H",
-      0.4713
+      0.5629
      ],
      [
       "3I",
-      0.3516
+      0.4545
      ],
      [
       "3F",
-      0.2906
+      0.3649
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3H 0.563 margin 0.108 (cov_w 0.53, tp 0.67)",
+    "r0_code": "3H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_SgzMz9GCcsdMwJcx": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -2771,40 +3075,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_SwbJdpQTQxGXry8M": {
    "official_id": "IGCSE_MATHS_B:4K",
    "official_code": "4K",
-   "tier": "C3_topic_anchored",
-   "score": 0.4864,
+   "tier": "C1_content_join",
+   "score": 0.4916,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.455,
-    "tcov": 0.5,
+    "cov_w": 0.429,
+    "tp": 0.625,
     "runner_up": {
      "code": "4F",
-     "score": 0.4616
+     "score_r": 0.34
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.4864
+      0.4916
      ],
      [
       "4F",
-      0.4616
+      0.34
      ],
      [
       "4E",
-      0.4167
+      0.3025
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4K 0.492 margin 0.152 (cov_w 0.43, tp 0.62)",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_TXCfYj93S7vCV9nq": {
    "official_id": "IGCSE_MATHS_B:6F",
@@ -2837,7 +3147,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_TZkZ5ZK4bRYdjnGY": {
    "official_id": "IGCSE_MATHS_B:4F",
@@ -2878,7 +3188,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_VgH3YPmpp6Yqy9KC": {
    "official_id": "IGCSE_MATHS_B:3H",
@@ -2911,7 +3221,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_Vr9z3J63Pcc4xWmH": {
    "official_id": "IGCSE_MATHS_B:5E",
@@ -2976,7 +3286,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_W2yYk784rNVZBxPh": {
    "official_id": "IGCSE_MATHS_B:7A",
@@ -3009,7 +3319,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_W6x4XqqqZWnY5SZc": {
    "official_id": "IGCSE_MATHS_B:1C",
@@ -3106,7 +3416,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_WrrWCGjpRHYJhNQ6": {
    "official_id": "IGCSE_MATHS_B:5E",
@@ -3171,7 +3481,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_XC6PSG6CcXnNDb3Q": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -3204,7 +3514,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_XWbj3PG2n8tdWF2w": {
    "official_id": "IGCSE_MATHS_B:4E",
@@ -3220,7 +3530,7 @@
    "tier": "C2_content_join",
    "score": 0.827,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 1.0,
     "ns": 0.632,
@@ -3243,9 +3553,15 @@
       "9B",
       0.0884
      ]
-    ]
+    ],
+    "cross_topic_disclosure": true
    },
-   "flag": "cross-topic content join (SME IA T9, statement T6) — review"
+   "adjudication": {
+    "verdict": "CROSS_TOPIC_CONFIRM",
+    "basis": "cross-topic decisive full-pool winner 6F 0.767 margin 0.304 (no topic-consistent candidate at the bar) — CX law",
+    "r0_code": "6F",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_XhXhg6sRyMQ88chp": {
    "official_id": "IGCSE_MATHS_B:4K",
@@ -3278,7 +3594,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_Xqkq2qz7NzMcVZHQ": {
    "official_id": "IGCSE_MATHS_B:7A",
@@ -3311,7 +3627,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_YQTm89bBFQBWdt2g": {
    "official_id": "IGCSE_MATHS_B:6F",
@@ -3319,7 +3635,7 @@
    "tier": "C2_content_join",
    "score": 0.6602,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 1.0,
     "ns": 0.492,
@@ -3342,9 +3658,15 @@
       "9A",
       0.1768
      ]
-    ]
+    ],
+    "cross_topic_disclosure": true
    },
-   "flag": "cross-topic content join (SME IA T9, statement T6) — review"
+   "adjudication": {
+    "verdict": "CROSS_TOPIC_CONFIRM",
+    "basis": "cross-topic decisive full-pool winner 6F 0.686 margin 0.284 (no topic-consistent candidate at the bar) — CX law",
+    "r0_code": "6F",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_YQX35KWR6v8thX5T": {
    "official_id": "IGCSE_MATHS_B:8J",
@@ -3377,48 +3699,85 @@
      ]
     ]
    },
-   "flag": "runner-up within 0.05 (8K 0.51) — review"
+   "flag": "runner-up within 0.05 (8K 0.51) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_Yhn8BQfZNrRp26cf": {
    "official_id": "IGCSE_MATHS_B:6M",
    "official_code": "6M",
-   "tier": "S1_name_match",
-   "score": 0.7231,
+   "tier": "C1_content_join",
+   "score": 0.5903,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.667,
+    "ns": 0.308,
+    "cov_w": 0.648,
+    "tp": 0.75,
+    "runner_up": {
+     "code": "6N",
+     "score_r": 0.4781
+    },
+    "topic_gate": "6",
+    "profile": [
+     [
+      "6M",
+      0.5903
+     ],
+     [
+      "6N",
+      0.4781
+     ],
+     [
+      "6K",
+      0.2499
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6M 0.590 margin 0.112 (cov_w 0.65, tp 0.75)",
+    "r0_code": "6M",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_b7HzYMMwjGWQSz77": {
    "official_id": "IGCSE_MATHS_B:4F",
    "official_code": "4F",
-   "tier": "C2_content_join",
-   "score": 0.5557,
+   "tier": "C1_content_join",
+   "score": 0.5629,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.686,
-    "tcov": 0.5,
+    "cov_w": 0.586,
+    "tp": 0.429,
     "runner_up": {
      "code": "4G",
-     "score": 0.4386
+     "score_r": 0.4313
     },
     "topic_gate": "4",
     "profile": [
      [
       "4F",
-      0.5557
+      0.5629
      ],
      [
       "4G",
-      0.4386
+      0.4313
      ],
      [
       "4A",
-      0.2278
+      0.2838
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4F 0.563 margin 0.132 (cov_w 0.59, tp 0.43)",
+    "r0_code": "4F",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_bGtx4SMcX6BRS6KP": {
    "official_id": "IGCSE_MATHS_B:10A",
@@ -3451,40 +3810,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_bMYrxtVc2SZgt8mX": {
    "official_id": "IGCSE_MATHS_B:1G",
    "official_code": "1G",
-   "tier": "C3_topic_anchored",
-   "score": 0.3015,
+   "tier": "C1_content_join",
+   "score": 0.3068,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.333,
     "ns": 0.227,
-    "tcov": 0.333,
+    "cov_w": 0.333,
+    "tp": 0.333,
     "runner_up": {
      "code": "1I",
-     "score": 0.2218
+     "score_r": 0.1985
     },
     "topic_gate": "1",
     "profile": [
      [
       "1G",
-      0.3015
+      0.3068
      ],
      [
       "1I",
-      0.2218
+      0.1985
      ],
      [
-      "1A",
-      0.1863
+      "1J",
+      0.1601
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1G 0.307 margin 0.108 (cov_w 0.33, tp 0.33)",
+    "r0_code": "1G",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_bmqbWbZM8HXPwsFF": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -3521,68 +3886,80 @@
   "spcpt_c25SPBnps9dhX2Dk": {
    "official_id": "IGCSE_MATHS_B:1C",
    "official_code": "1C",
-   "tier": "C3_topic_anchored",
-   "score": 0.3712,
+   "tier": "C1_content_join",
+   "score": 0.3782,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.667,
     "ns": 0.237,
-    "tcov": 0.0,
+    "cov_w": 0.631,
+    "tp": 0.0,
     "runner_up": {
      "code": "1H",
-     "score": 0.2029
+     "score_r": 0.1782
     },
     "topic_gate": "1",
     "profile": [
      [
       "1C",
-      0.3712
+      0.3782
      ],
      [
       "1H",
-      0.2029
+      0.1782
      ],
      [
-      "1A",
-      0.175
+      "1B",
+      0.1401
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1C 0.378 margin 0.200 (cov_w 0.63, tp 0.00)",
+    "r0_code": "1C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_c2F7sdrY5sQQCXQ5": {
    "official_id": "IGCSE_MATHS_B:4K",
    "official_code": "4K",
-   "tier": "C3_topic_anchored",
-   "score": 0.3946,
+   "tier": "C1_content_join",
+   "score": 0.4752,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.357,
-    "tcov": 0.25,
+    "cov_w": 0.527,
+    "tp": 0.5,
     "runner_up": {
      "code": "4I",
-     "score": 0.3103
+     "score_r": 0.3878
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.3946
+      0.4752
      ],
      [
       "4I",
-      0.3103
+      0.3878
      ],
      [
       "4M",
-      0.2834
+      0.3159
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4K 0.475 margin 0.087 (cov_w 0.53, tp 0.50)",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_c3ZTz62W4HKyb4zk": {
    "official_id": "IGCSE_MATHS_B:8K",
@@ -3615,7 +3992,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_cDnTk2242hfSCjVh": {
    "official_id": "IGCSE_MATHS_B:1C",
@@ -3664,7 +4041,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_crKbmb6wVjM4yPJh": {
    "official_id": "IGCSE_MATHS_B:1F",
@@ -3697,7 +4074,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_d6jcrzdmQw9SvSPr": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -3730,7 +4107,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_d96BnpMKqDSDxSkx": {
    "official_id": "IGCSE_MATHS_B:10J",
@@ -3763,15 +4140,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_dBwfqg3wJvDp9PNs": {
    "official_id": "IGCSE_MATHS_B:6G",
    "official_code": "6G",
-   "tier": "S1_name_match",
-   "score": 0.7294,
+   "tier": "C1_content_join",
+   "score": 0.6609,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.7,
+    "ns": 0.324,
+    "cov_w": 0.712,
+    "tp": 0.9,
+    "runner_up": {
+     "code": "6I",
+     "score_r": 0.2755
+    },
+    "topic_gate": "6",
+    "profile": [
+     [
+      "6G",
+      0.6609
+     ],
+     [
+      "6I",
+      0.2755
+     ],
+     [
+      "6H",
+      0.2151
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6G 0.661 margin 0.385 (cov_w 0.71, tp 0.90)",
+    "r0_code": "6G",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_djG6mt4Gk3T4wJwC": {
    "official_id": "IGCSE_MATHS_B:9A",
@@ -3804,40 +4212,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_dnkHMPkqhhdDxPkZ": {
    "official_id": "IGCSE_MATHS_B:3K",
    "official_code": "3K",
-   "tier": "C3_topic_anchored",
-   "score": 0.4539,
+   "tier": "C1_content_join",
+   "score": 0.563,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.6,
     "ns": 0.446,
-    "tcov": 0.2,
+    "cov_w": 0.588,
+    "tp": 0.625,
     "runner_up": {
-     "code": "3D",
-     "score": 0.3123
+     "code": "3J",
+     "score_r": 0.3238
     },
     "topic_gate": "3",
     "profile": [
      [
       "3K",
-      0.4539
-     ],
-     [
-      "3D",
-      0.3123
+      0.563
      ],
      [
       "3J",
-      0.2617
+      0.3238
+     ],
+     [
+      "3D",
+      0.3227
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3K 0.563 margin 0.239 (cov_w 0.59, tp 0.62)",
+    "r0_code": "3K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_dvX7WnB2FSdky4jW": {
    "official_id": "IGCSE_MATHS_B:7D",
@@ -3902,48 +4316,85 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_fGGbSYFZH9DW4sgm": {
    "official_id": "IGCSE_MATHS_B:4L",
    "official_code": "4L",
-   "tier": "S1_name_match",
-   "score": 0.8308,
+   "tier": "C1_content_join",
+   "score": 0.6284,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.5,
+    "ns": 0.577,
+    "cov_w": 0.46,
+    "tp": 1.0,
+    "runner_up": {
+     "code": "4K",
+     "score_r": 0.4614
+    },
+    "topic_gate": "4",
+    "profile": [
+     [
+      "4L",
+      0.6284
+     ],
+     [
+      "4K",
+      0.4614
+     ],
+     [
+      "4F",
+      0.3563
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4L 0.628 margin 0.167 (cov_w 0.46, tp 1.00)",
+    "r0_code": "4L",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_fMWRd3TnmcQ3c92k": {
    "official_id": "IGCSE_MATHS_B:6K",
    "official_code": "6K",
-   "tier": "C3_topic_anchored",
-   "score": 0.4883,
+   "tier": "C1_content_join",
+   "score": 0.542,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.6,
     "ns": 0.394,
-    "tcov": 0.4,
+    "cov_w": 0.691,
+    "tp": 0.429,
     "runner_up": {
      "code": "6F",
-     "score": 0.4423
+     "score_r": 0.3283
     },
     "topic_gate": "6",
     "profile": [
      [
       "6K",
-      0.4883
+      0.542
      ],
      [
       "6F",
-      0.4423
+      0.3283
      ],
      [
       "6H",
-      0.2821
+      0.2509
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6K 0.542 margin 0.214 (cov_w 0.69, tp 0.43)",
+    "r0_code": "6K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_fRhvV5mCwKfJWrXH": {
    "official_id": "IGCSE_MATHS_B:6K",
@@ -4008,7 +4459,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_gWpj9n8N6CP4TnDv": {
    "official_id": "IGCSE_MATHS_B:5B",
@@ -4073,7 +4524,7 @@
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_gqGskPX2FDtwyRh2": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -4106,7 +4557,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_gzQvnKpxPvTqzzBp": {
    "official_id": "IGCSE_MATHS_B:3A",
@@ -4139,40 +4590,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_gzykj64JBx2RtBJ7": {
    "official_id": "IGCSE_MATHS_B:6C",
    "official_code": "6C",
-   "tier": "C3_topic_anchored",
-   "score": 0.4889,
+   "tier": "C1_content_join",
+   "score": 0.6163,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.556,
     "ns": 0.333,
-    "tcov": 0.556,
+    "cov_w": 0.568,
+    "tp": 1.0,
     "runner_up": {
      "code": "6I",
-     "score": 0.2956
+     "score_r": 0.2552
     },
     "topic_gate": "6",
     "profile": [
      [
       "6C",
-      0.4889
+      0.6163
      ],
      [
       "6I",
-      0.2956
+      0.2552
      ],
      [
       "6K",
-      0.2352
+      0.255
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6C 0.616 margin 0.361 (cov_w 0.57, tp 1.00)",
+    "r0_code": "6C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_h2SHkwgcS67NJYVP": {
    "official_id": "IGCSE_MATHS_B:9C",
@@ -4205,7 +4662,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_h2p7nv6zkR4xFJ3P": {
    "official_id": "IGCSE_MATHS_B:1I",
@@ -4238,7 +4695,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_h5yjgd2WdgmJqHJM": {
    "official_id": "IGCSE_MATHS_B:3H",
@@ -4279,7 +4736,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_hK2H8q4Y8NYv833v": {
    "official_id": "IGCSE_MATHS_B:6B",
@@ -4344,7 +4801,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_hTsm2dz7xmwM4jwW": {
    "official_id": "IGCSE_MATHS_B:10I",
@@ -4377,7 +4834,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_j2YgCQ3HvtrTXdG4": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -4410,73 +4867,85 @@
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_jTrpYhtMdhpPhwxb": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C3_topic_anchored",
-   "score": 0.4394,
+   "tier": "C1_content_join",
+   "score": 0.5299,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.625,
     "ns": 0.319,
-    "tcov": 0.25,
+    "cov_w": 0.709,
+    "tp": 0.417,
     "runner_up": {
      "code": "3E",
-     "score": 0.38
+     "score_r": 0.4083
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.4394
+      0.5299
      ],
      [
       "3E",
-      0.38
+      0.4083
      ],
      [
       "3D",
-      0.265
+      0.2833
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.530 margin 0.122 (cov_w 0.71, tp 0.42)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_m8WdtZKSWCKNFKrY": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C3_topic_anchored",
-   "score": 0.2605,
+   "tier": "C1_content_join",
+   "score": 0.3187,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.375,
     "ns": 0.306,
-    "tcov": 0.0,
+    "cov_w": 0.512,
+    "tp": 0.0,
     "runner_up": {
      "code": "3B",
-     "score": 0.2256
+     "score_r": 0.2352
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.2605
+      0.3187
      ],
      [
       "3B",
-      0.2256
+      0.2352
      ],
      [
-      "3D",
-      0.2168
+      "3F",
+      0.23
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.319 margin 0.084 (cov_w 0.51, tp 0.00)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_mQzsHp4wNfnn9sNH": {
    "official_id": "IGCSE_MATHS_B:1C",
@@ -4509,7 +4978,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_mVXT4jbXQPrzhHvz": {
    "official_id": "IGCSE_MATHS_B:7A",
@@ -4546,43 +5015,80 @@
   "spcpt_myNYhxstM7xnZd9P": {
    "official_id": "IGCSE_MATHS_B:10B",
    "official_code": "10B",
-   "tier": "S1_name_match",
-   "score": 0.758,
+   "tier": "C1_content_join",
+   "score": 0.5294,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.429,
+    "ns": 0.395,
+    "cov_w": 0.501,
+    "tp": 0.75,
+    "runner_up": {
+     "code": "10C",
+     "score_r": 0.24
+    },
+    "topic_gate": "10",
+    "profile": [
+     [
+      "10B",
+      0.5294
+     ],
+     [
+      "10C",
+      0.24
+     ],
+     [
+      "10D",
+      0.1869
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 10B 0.529 margin 0.289 (cov_w 0.50, tp 0.75)",
+    "r0_code": "10B",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_n9ZtYfjh8sFCp5Kz": {
    "official_id": "IGCSE_MATHS_B:10C",
    "official_code": "10C",
-   "tier": "C3_topic_anchored",
-   "score": 0.3103,
+   "tier": "C1_content_join",
+   "score": 0.396,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.333,
     "ns": 0.349,
-    "tcov": 0.222,
+    "cov_w": 0.272,
+    "tp": 0.667,
     "runner_up": {
-     "code": "10D",
-     "score": 0.2116
+     "code": "10B",
+     "score_r": 0.2387
     },
     "topic_gate": "10",
     "profile": [
      [
       "10C",
-      0.3103
-     ],
-     [
-      "10D",
-      0.2116
+      0.396
      ],
      [
       "10B",
-      0.1989
+      0.2387
+     ],
+     [
+      "10D",
+      0.2383
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 10C 0.396 margin 0.157 (cov_w 0.27, tp 0.67)",
+    "r0_code": "10C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_nJCDx3cDGTVz3MBk": {
    "official_id": "IGCSE_MATHS_B:10D",
@@ -4615,73 +5121,85 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_nXY9n4Vt3cVTmKcR": {
    "official_id": "IGCSE_MATHS_B:10A",
    "official_code": "10A",
-   "tier": "C3_topic_anchored",
-   "score": 0.3583,
+   "tier": "C1_content_join",
+   "score": 0.3546,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.444,
-    "tcov": 0.0,
+    "cov_w": 0.484,
+    "tp": 0.0,
     "runner_up": {
-     "code": "10B",
-     "score": 0.2233
+     "code": "10J",
+     "score_r": 0.2077
     },
     "topic_gate": "10",
     "profile": [
      [
       "10A",
-      0.3583
+      0.3546
+     ],
+     [
+      "10J",
+      0.2077
      ],
      [
       "10B",
-      0.2233
-     ],
-     [
-      "10C",
-      0.2192
+      0.2076
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 10A 0.355 margin 0.147 (cov_w 0.48, tp 0.00)",
+    "r0_code": "10A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_p8zkdCF8QVvDZyVX": {
    "official_id": "IGCSE_MATHS_B:1I",
    "official_code": "1I",
-   "tier": "C3_topic_anchored",
-   "score": 0.4496,
+   "tier": "C1_content_join",
+   "score": 0.4356,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.8,
     "ns": 0.299,
-    "tcov": 0.0,
+    "cov_w": 0.703,
+    "tp": 0.0,
     "runner_up": {
      "code": "1E",
-     "score": 0.3
+     "score_r": 0.3125
     },
     "topic_gate": "1",
     "profile": [
      [
       "1I",
-      0.4496
+      0.4356
      ],
      [
       "1E",
-      0.3
+      0.3125
      ],
      [
       "1J",
-      0.2883
+      0.2968
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1I 0.436 margin 0.123 (cov_w 0.70, tp 0.00)",
+    "r0_code": "1I",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_pGsqq7xcztBg59Yh": {
    "official_id": "IGCSE_MATHS_B:3I",
@@ -4694,18 +5212,80 @@
   "spcpt_pKCFj25GzzqW6sr3": {
    "official_id": "IGCSE_MATHS_B:7A",
    "official_code": "7A",
-   "tier": "S1_name_match",
-   "score": 0.7714,
+   "tier": "C1_content_join",
+   "score": 0.6567,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.667,
+    "ns": 0.429,
+    "cov_w": 0.707,
+    "tp": 0.8,
+    "runner_up": {
+     "code": "7C",
+     "score_r": 0.29
+    },
+    "topic_gate": "7",
+    "profile": [
+     [
+      "7A",
+      0.6567
+     ],
+     [
+      "7C",
+      0.29
+     ],
+     [
+      "7D",
+      0.2567
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 7A 0.657 margin 0.367 (cov_w 0.71, tp 0.80)",
+    "r0_code": "7A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_pKJ7Y3jd7PDzZQpP": {
    "official_id": "IGCSE_MATHS_B:4M",
    "official_code": "4M",
-   "tier": "S1_name_match",
-   "score": 0.6777,
+   "tier": "C1_content_join",
+   "score": 0.5787,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.5,
+    "ns": 0.569,
+    "cov_w": 0.511,
+    "tp": 0.727,
+    "runner_up": {
+     "code": "4F",
+     "score_r": 0.2859
+    },
+    "topic_gate": "4",
+    "profile": [
+     [
+      "4M",
+      0.5787
+     ],
+     [
+      "4F",
+      0.2859
+     ],
+     [
+      "4E",
+      0.275
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4M 0.579 margin 0.293 (cov_w 0.51, tp 0.73)",
+    "r0_code": "4M",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_pNBVGz3x9h4NS45m": {
    "official_id": "IGCSE_MATHS_B:6K",
@@ -4742,68 +5322,80 @@
   "spcpt_pSX9GyS8bW7N5CH7": {
    "official_id": "IGCSE_MATHS_B:7A",
    "official_code": "7A",
-   "tier": "C2_content_join",
-   "score": 0.5033,
+   "tier": "C1_content_join",
+   "score": 0.551,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.667,
     "ns": 0.4,
-    "tcov": 0.333,
+    "cov_w": 0.586,
+    "tp": 0.6,
     "runner_up": {
-     "code": "7B",
-     "score": 0.3292
+     "code": "7D",
+     "score_r": 0.4048
     },
     "topic_gate": "7",
     "profile": [
      [
       "7A",
-      0.5033
-     ],
-     [
-      "7B",
-      0.3292
+      0.551
      ],
      [
       "7D",
-      0.3231
+      0.4048
+     ],
+     [
+      "7B",
+      0.3567
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 7A 0.551 margin 0.146 (cov_w 0.59, tp 0.60)",
+    "r0_code": "7A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_pqWsmktWyMCRfTk6": {
    "official_id": "IGCSE_MATHS_B:3C",
    "official_code": "3C",
-   "tier": "C2_content_join",
-   "score": 0.5887,
+   "tier": "C1_content_join",
+   "score": 0.6389,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.75,
     "ns": 0.525,
-    "tcov": 0.375,
+    "cov_w": 0.769,
+    "tp": 0.5,
     "runner_up": {
-     "code": "3E",
-     "score": 0.3515
+     "code": "3F",
+     "score_r": 0.4508
     },
     "topic_gate": "3",
     "profile": [
      [
       "3C",
-      0.5887
+      0.6389
+     ],
+     [
+      "3F",
+      0.4508
      ],
      [
       "3E",
-      0.3515
-     ],
-     [
-      "3D",
-      0.3321
+      0.3742
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3C 0.639 margin 0.188 (cov_w 0.77, tp 0.50)",
+    "r0_code": "3C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_qPRh2fycSMYwytcV": {
    "official_id": "IGCSE_MATHS_B:6C",
@@ -4812,40 +5404,46 @@
    "score": 0.7143,
    "unit": null,
    "method": "name_to_statement_join",
-   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review"
+   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_qX5rMkysQfN7SK2M": {
    "official_id": "IGCSE_MATHS_B:3D",
    "official_code": "3D",
-   "tier": "C3_topic_anchored",
-   "score": 0.431,
+   "tier": "C1_content_join",
+   "score": 0.4321,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.478,
-    "tcov": 0.25,
+    "cov_w": 0.5,
+    "tp": 0.25,
     "runner_up": {
-     "code": "3A",
-     "score": 0.3482
+     "code": "3C",
+     "score_r": 0.3383
     },
     "topic_gate": "3",
     "profile": [
      [
       "3D",
-      0.431
-     ],
-     [
-      "3A",
-      0.3482
+      0.4321
      ],
      [
       "3C",
-      0.2809
+      0.3383
+     ],
+     [
+      "3A",
+      0.2879
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3D 0.432 margin 0.094 (cov_w 0.50, tp 0.25)",
+    "r0_code": "3D",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_qbHvYk4bsCyRfQSv": {
    "official_id": "IGCSE_MATHS_B:8D",
@@ -4878,40 +5476,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_qgWTSJ5pQ2dx6rDf": {
-   "official_id": "IGCSE_MATHS_B:1B",
-   "official_code": "1B",
-   "tier": "C3_topic_anchored",
-   "score": 0.4049,
+   "official_id": "IGCSE_MATHS_B:1H",
+   "official_code": "1H",
+   "tier": "C1_content_join",
+   "score": 0.5082,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
-    "cov": 0.5,
-    "ns": 0.391,
-    "tcov": 0.25,
+    "cov": 0.6,
+    "ns": 0.277,
+    "cov_w": 0.68,
+    "tp": 0.429,
     "runner_up": {
-     "code": "1H",
-     "score": 0.4031
+     "code": "1B",
+     "score_r": 0.3907
     },
     "topic_gate": "1",
     "profile": [
      [
-      "1B",
-      0.4049
+      "1H",
+      0.5082
      ],
      [
-      "1H",
-      0.4031
+      "1B",
+      0.3907
      ],
      [
       "1F",
-      0.2883
+      0.2819
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "adjudication": {
+    "verdict": "REPOINT",
+    "basis": "decisive in-topic refined winner 1H 0.508 margin 0.117 beats of-record 1B (cov_w 0.68, tp 0.43)",
+    "r0_code": "1B",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_qpSmD6yNY5t5GrW6": {
    "official_id": "IGCSE_MATHS_B:1B",
@@ -4944,7 +5548,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_rV2Crq8sHcCywRhW": {
    "official_id": "IGCSE_MATHS_B:1K",
@@ -5041,7 +5645,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_s2x4ZG4rWQhHJrTh": {
    "official_id": "IGCSE_MATHS_B:1C",
@@ -5049,7 +5653,7 @@
    "tier": "C2_content_join",
    "score": 0.706,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 1.0,
     "ns": 0.298,
@@ -5072,42 +5676,54 @@
       "3H",
       0.3075
      ]
-    ]
+    ],
+    "cross_topic_disclosure": true
    },
-   "flag": "cross-topic content join (SME IA T3, statement T1) — review"
+   "adjudication": {
+    "verdict": "CROSS_TOPIC_CONFIRM",
+    "basis": "cross-topic decisive full-pool winner 1C 0.741 margin 0.332 (no topic-consistent candidate at the bar) — CX law",
+    "r0_code": "1C",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_s4k79Tf4cNdNGqvT": {
    "official_id": "IGCSE_MATHS_B:4K",
    "official_code": "4K",
-   "tier": "C3_topic_anchored",
-   "score": 0.4728,
+   "tier": "C1_content_join",
+   "score": 0.4984,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.75,
     "ns": 0.347,
-    "tcov": 0.125,
+    "cov_w": 0.764,
+    "tp": 0.125,
     "runner_up": {
      "code": "4I",
-     "score": 0.3219
+     "score_r": 0.3193
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.4728
+      0.4984
      ],
      [
       "4I",
-      0.3219
+      0.3193
      ],
      [
       "4J",
-      0.3096
+      0.3102
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4K 0.498 margin 0.179 (cov_w 0.76, tp 0.12)",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_sHCB9WZbDMyTFqCP": {
    "official_id": "IGCSE_MATHS_B:4D",
@@ -5140,106 +5756,124 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_stqdXPTn5YvgKtvm": {
    "official_id": "IGCSE_MATHS_B:1D",
    "official_code": "1D",
-   "tier": "C2_content_join",
-   "score": 0.5233,
+   "tier": "C1_content_join",
+   "score": 0.6484,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.5,
     "ns": 0.578,
-    "tcov": 0.5,
+    "cov_w": 0.635,
+    "tp": 0.8,
     "runner_up": {
      "code": "1K",
-     "score": 0.4024
+     "score_r": 0.3595
     },
     "topic_gate": "1",
     "profile": [
      [
       "1D",
-      0.5233
+      0.6484
      ],
      [
       "1K",
-      0.4024
+      0.3595
      ],
      [
       "1I",
-      0.2988
+      0.3147
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1D 0.648 margin 0.289 (cov_w 0.64, tp 0.80)",
+    "r0_code": "1D",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_sy75G6mYWc9vzWvg": {
    "official_id": "IGCSE_MATHS_B:10D",
    "official_code": "10D",
-   "tier": "C2_content_join",
-   "score": 0.5663,
+   "tier": "C1_content_join",
+   "score": 0.6716,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.875,
     "ns": 0.367,
-    "tcov": 0.25,
+    "cov_w": 0.918,
+    "tp": 0.5,
     "runner_up": {
      "code": "10C",
-     "score": 0.329
+     "score_r": 0.3959
     },
     "topic_gate": "10",
     "profile": [
      [
       "10D",
-      0.5663
+      0.6716
      ],
      [
       "10C",
-      0.329
+      0.3959
      ],
      [
       "10B",
-      0.3275
+      0.3465
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 10D 0.672 margin 0.276 (cov_w 0.92, tp 0.50)",
+    "r0_code": "10D",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_syhVK6wH6NDDfgdB": {
    "official_id": "IGCSE_MATHS_B:6K",
    "official_code": "6K",
-   "tier": "C2_content_join",
-   "score": 0.553,
+   "tier": "C1_content_join",
+   "score": 0.5789,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.8,
     "ns": 0.31,
-    "tcov": 0.4,
+    "cov_w": 0.845,
+    "tp": 0.333,
     "runner_up": {
      "code": "6F",
-     "score": 0.4842
+     "score_r": 0.4109
     },
     "topic_gate": "6",
     "profile": [
      [
       "6K",
-      0.553
+      0.5789
      ],
      [
       "6F",
-      0.4842
+      0.4109
      ],
      [
       "6E",
-      0.2768
+      0.2645
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6K 0.579 margin 0.168 (cov_w 0.84, tp 0.33)",
+    "r0_code": "6K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_t6XtWBrsT7FH93JY": {
    "official_id": "IGCSE_MATHS_B:1F",
@@ -5272,7 +5906,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_tmMTSdKYc9s9V92Z": {
    "official_id": "IGCSE_MATHS_B:4D",
@@ -5281,7 +5915,7 @@
    "score": 0.7143,
    "unit": null,
    "method": "name_to_statement_join",
-   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review"
+   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_tmkXtCpJ4srbmNZM": {
    "official_id": "IGCSE_MATHS_B:8D",
@@ -5322,7 +5956,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_vGfjmcJJ9yzSFbzs": {
    "official_id": "IGCSE_MATHS_B:6F",
@@ -5355,7 +5989,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_vMSNnYkKPf62MRH9": {
    "official_id": "IGCSE_MATHS_B:3D",
@@ -5388,40 +6022,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_vMcrBY5bkBpMVHMF": {
    "official_id": "IGCSE_MATHS_B:9A",
    "official_code": "9A",
-   "tier": "C3_topic_anchored",
-   "score": 0.4469,
+   "tier": "C1_content_join",
+   "score": 0.4194,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.6,
     "ns": 0.256,
-    "tcov": 0.4,
+    "cov_w": 0.613,
+    "tp": 0.2,
     "runner_up": {
-     "code": "9C",
-     "score": 0.2565
+     "code": "9B",
+     "score_r": 0.2324
     },
     "topic_gate": "9",
     "profile": [
      [
       "9A",
-      0.4469
-     ],
-     [
-      "9C",
-      0.2565
+      0.4194
      ],
      [
       "9B",
-      0.2343
+      0.2324
+     ],
+     [
+      "9C",
+      0.2265
      ]
     ]
    },
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 9A 0.419 margin 0.187 (cov_w 0.61, tp 0.20)",
+    "r0_code": "9A",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_vYsrWKqpQDpSwnPj": {
    "official_id": "IGCSE_MATHS_B:4N",
@@ -5429,7 +6069,8 @@
    "tier": "S1_name_match",
    "score": 0.6976,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "name_to_statement_join",
+   "flag": "; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_wF3J5MKvx273VH3h": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -5462,7 +6103,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_wMN58K4jZ54z8bXC": {
    "official_id": "IGCSE_MATHS_B:1E",
@@ -5475,35 +6116,41 @@
   "spcpt_wPBshqzwKBKyYHBV": {
    "official_id": "IGCSE_MATHS_B:6K",
    "official_code": "6K",
-   "tier": "C3_topic_anchored",
-   "score": 0.432,
+   "tier": "C1_content_join",
+   "score": 0.4295,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.4,
     "ns": 0.507,
-    "tcov": 0.4,
+    "cov_w": 0.423,
+    "tp": 0.375,
     "runner_up": {
-     "code": "6F",
-     "score": 0.3761
+     "code": "6C",
+     "score_r": 0.2795
     },
     "topic_gate": "6",
     "profile": [
      [
       "6K",
-      0.432
+      0.4295
+     ],
+     [
+      "6C",
+      0.2795
      ],
      [
       "6F",
-      0.3761
-     ],
-     [
-      "6H",
-      0.2787
+      0.2687
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6K 0.429 margin 0.150 (cov_w 0.42, tp 0.38)",
+    "r0_code": "6K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_wRw6rKqPdVmS986W": {
    "official_id": "IGCSE_MATHS_B:1G",
@@ -5536,7 +6183,7 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_wnkGx4MqYbQSFdnb": {
    "official_id": "IGCSE_MATHS_B:6B",
@@ -5569,48 +6216,85 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_xBxjpCXMWrkf6mww": {
    "official_id": "IGCSE_MATHS_B:3E",
    "official_code": "3E",
-   "tier": "S1_name_match",
-   "score": 0.8182,
+   "tier": "C1_content_join",
+   "score": 0.8551,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 1.0,
+    "ns": 0.545,
+    "cov_w": 1.0,
+    "tp": 0.875,
+    "runner_up": {
+     "code": "3D",
+     "score_r": 0.5974
+    },
+    "topic_gate": "3",
+    "profile": [
+     [
+      "3E",
+      0.8551
+     ],
+     [
+      "3D",
+      0.5974
+     ],
+     [
+      "3C",
+      0.5965
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 3E 0.855 margin 0.258 (cov_w 1.00, tp 0.88)",
+    "r0_code": "3E",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_xDpKVBxDTCk2x6vS": {
    "official_id": "IGCSE_MATHS_B:6H",
    "official_code": "6H",
-   "tier": "C3_topic_anchored",
-   "score": 0.4707,
+   "tier": "C1_content_join",
+   "score": 0.4457,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.625,
     "ns": 0.423,
-    "tcov": 0.25,
+    "cov_w": 0.537,
+    "tp": 0.25,
     "runner_up": {
-     "code": "6I",
-     "score": 0.4036
+     "code": "6G",
+     "score_r": 0.3194
     },
     "topic_gate": "6",
     "profile": [
      [
       "6H",
-      0.4707
-     ],
-     [
-      "6I",
-      0.4036
+      0.4457
      ],
      [
       "6G",
-      0.3318
+      0.3194
+     ],
+     [
+      "6I",
+      0.3088
      ]
     ]
    },
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6H 0.446 margin 0.126 (cov_w 0.54, tp 0.25)",
+    "r0_code": "6H",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_xRqrDc3z3GSkBgbm": {
    "official_id": "IGCSE_MATHS_B:2B",
@@ -5618,40 +6302,47 @@
    "tier": "S1_name_match",
    "score": 0.8595,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "name_to_statement_join",
+   "flag": "; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_xf7Y5cxcQG3T6g65": {
    "official_id": "IGCSE_MATHS_B:1K",
    "official_code": "1K",
-   "tier": "C3_topic_anchored",
-   "score": 0.4286,
+   "tier": "C1_content_join",
+   "score": 0.4775,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.667,
     "ns": 0.429,
-    "tcov": 0.0,
+    "cov_w": 0.759,
+    "tp": 0.0,
     "runner_up": {
      "code": "1E",
-     "score": 0.3527
+     "score_r": 0.3564
     },
     "topic_gate": "1",
     "profile": [
      [
       "1K",
-      0.4286
+      0.4775
      ],
      [
       "1E",
-      0.3527
+      0.3564
      ],
      [
       "1H",
-      0.2506
+      0.2535
      ]
     ]
    },
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 1K 0.477 margin 0.121 (cov_w 0.76, tp 0.00)",
+    "r0_code": "1K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_xwx7PVk7fQ5QpdMk": {
    "official_id": "IGCSE_MATHS_B:3C",
@@ -5684,15 +6375,46 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_yDbZQ6WS99WPCvvR": {
    "official_id": "IGCSE_MATHS_B:6N",
    "official_code": "6N",
-   "tier": "S1_name_match",
-   "score": 0.6945,
+   "tier": "C1_content_join",
+   "score": 0.6077,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "maths_b_review_adjudication",
+   "evidence": {
+    "cov": 0.75,
+    "ns": 0.236,
+    "cov_w": 0.715,
+    "tp": 0.75,
+    "runner_up": {
+     "code": "6E",
+     "score_r": 0.2655
+    },
+    "topic_gate": "6",
+    "profile": [
+     [
+      "6N",
+      0.6077
+     ],
+     [
+      "6E",
+      0.2655
+     ],
+     [
+      "6M",
+      0.1768
+     ]
+    ]
+   },
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6N 0.608 margin 0.342 (cov_w 0.71, tp 0.75)",
+    "r0_code": "6N",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_zJxJnm5kJPsMM2vF": {
    "official_id": "IGCSE_MATHS_B:8E",
@@ -5725,7 +6447,7 @@
      ]
     ]
    },
-   "flag": "runner-up within 0.05 (8G 0.59) — review"
+   "flag": "runner-up within 0.05 (8G 0.59) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_zNgS9BtJ7493zsyx": {
    "official_id": "IGCSE_MATHS_B:10D",
@@ -5758,80 +6480,92 @@
      ]
     ]
    },
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   "spcpt_znWXTZjqCR7PspTc": {
    "official_id": "IGCSE_MATHS_B:6K",
    "official_code": "6K",
-   "tier": "C2_content_join",
-   "score": 0.553,
+   "tier": "C1_content_join",
+   "score": 0.5893,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.8,
     "ns": 0.31,
-    "tcov": 0.4,
+    "cov_w": 0.845,
+    "tp": 0.375,
     "runner_up": {
      "code": "6F",
-     "score": 0.4792
+     "score_r": 0.4171
     },
     "topic_gate": "6",
     "profile": [
      [
       "6K",
-      0.553
+      0.5893
      ],
      [
       "6F",
-      0.4792
+      0.4171
      ],
      [
       "6E",
-      0.2768
+      0.2645
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 6K 0.589 margin 0.172 (cov_w 0.84, tp 0.38)",
+    "r0_code": "6K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   },
   "spcpt_zrrC3yxSp579jY7k": {
    "official_id": "IGCSE_MATHS_B:4K",
    "official_code": "4K",
-   "tier": "C2_content_join",
-   "score": 0.5478,
+   "tier": "C1_content_join",
+   "score": 0.5582,
    "unit": null,
-   "method": "maths_b_content_join",
+   "method": "maths_b_review_adjudication",
    "evidence": {
     "cov": 0.75,
     "ns": 0.493,
-    "tcov": 0.25,
+    "cov_w": 0.666,
+    "tp": 0.375,
     "runner_up": {
      "code": "4M",
-     "score": 0.279
+     "score_r": 0.3406
     },
     "topic_gate": "4",
     "profile": [
      [
       "4K",
-      0.5478
+      0.5582
      ],
      [
       "4M",
-      0.279
+      0.3406
      ],
      [
       "4B",
-      0.2531
+      0.2347
      ]
     ]
    },
-   "flag": "moderate content evidence — review"
+   "adjudication": {
+    "verdict": "UPGRADE",
+    "basis": "refined decisive confirm: in-topic winner 4K 0.558 margin 0.218 (cov_w 0.67, tp 0.38)",
+    "r0_code": "4K",
+    "tool": "scripts/maths_b_review_adjudicate.py"
+   }
   }
  },
  "unmapped": [
   {
    "spcpt_id": "spcpt_6Tdy5SV9gzyC8BSw",
    "name": "Repeated percentage change",
-   "reason": "content evidence below corroboration floor (T1 best 1H 0.27, cov 0.20, tcov 0.20)",
+   "reason": "content evidence below corroboration floor (T1 best 1H 0.27, cov 0.20, tcov 0.20) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "1H",
@@ -5850,7 +6584,7 @@
   {
    "spcpt_id": "spcpt_84hZy4pDd8nBGN3r",
    "name": "Midpoint of a Line",
-   "reason": "content evidence below corroboration floor (T4 best 4M 0.16, cov 0.20, tcov 0.00)",
+   "reason": "content evidence below corroboration floor (T4 best 4M 0.16, cov 0.20, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "4M",
@@ -5869,7 +6603,7 @@
   {
    "spcpt_id": "spcpt_8GsFXwdQTJymxXw8",
    "name": "Expected Frequency",
-   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12)",
+   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "10K",
@@ -5888,7 +6622,7 @@
   {
    "spcpt_id": "spcpt_8Wtthy9gt8B5xsVW",
    "name": "Mathematical Symbols",
-   "reason": "content evidence below corroboration floor (T1 best 1F 0.17, cov 0.00, tcov 0.33)",
+   "reason": "content evidence below corroboration floor (T1 best 1F 0.17, cov 0.00, tcov 0.33) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "1F",
@@ -5907,7 +6641,7 @@
   {
    "spcpt_id": "spcpt_PzyS22R9jMg3y3sZ",
    "name": "Expanding One Bracket",
-   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12)",
+   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "3C",
@@ -5926,7 +6660,7 @@
   {
    "spcpt_id": "spcpt_SQqKCGwRcv6gj5h3",
    "name": "Systematic Lists",
-   "reason": "content evidence below corroboration floor (T10 best 10I 0.15, cov 0.00, tcov 0.20)",
+   "reason": "content evidence below corroboration floor (T10 best 10I 0.15, cov 0.00, tcov 0.20) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "10I",
@@ -5945,7 +6679,7 @@
   {
    "spcpt_id": "spcpt_W5bHgsHCyJ4jpkYz",
    "name": "Expand & Simplify",
-   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12)",
+   "reason": "content evidence below corroboration floor (T3 best 3C 0.21, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "3C",
@@ -5964,7 +6698,7 @@
   {
    "spcpt_id": "spcpt_bPTTmJSGkKv2PDc5",
    "name": "Relative Frequency",
-   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12)",
+   "reason": "content evidence below corroboration floor (T10 best 10K 0.26, cov 0.12, tcov 0.12) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "10K",
@@ -5983,7 +6717,7 @@
   {
    "spcpt_id": "spcpt_pFVDbZgQGCHHRDtc",
    "name": "Converting Units",
-   "reason": "content evidence below corroboration floor (T1 best 1K 0.20, cov 0.00, tcov 0.33)",
+   "reason": "content evidence below corroboration floor (T1 best 1K 0.20, cov 0.00, tcov 0.33) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "1K",
@@ -6002,7 +6736,7 @@
   {
    "spcpt_id": "spcpt_qRytkYVHXTQBJdSq",
    "name": "Best Buys",
-   "reason": "content evidence below corroboration floor (T1 best 1I 0.16, cov 0.20, tcov 0.00)",
+   "reason": "content evidence below corroboration floor (T1 best 1I 0.16, cov 0.20, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "1I",
@@ -6021,7 +6755,7 @@
   {
    "spcpt_id": "spcpt_rsCdKqXKjhfmkyqT",
    "name": "Collecting Like Terms",
-   "reason": "content evidence below corroboration floor (T3 best 3H 0.17, cov 0.17, tcov 0.00)",
+   "reason": "content evidence below corroboration floor (T3 best 3H 0.17, cov 0.17, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "3H",
@@ -6040,7 +6774,7 @@
   {
    "spcpt_id": "spcpt_rxmWrBrc2s2q45wF",
    "name": "Pie Charts",
-   "reason": "content evidence below corroboration floor (T10 best 10J 0.17, cov 0.20, tcov 0.00)",
+   "reason": "content evidence below corroboration floor (T10 best 10J 0.17, cov 0.20, tcov 0.00) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "10J",
@@ -6059,7 +6793,7 @@
   {
    "spcpt_id": "spcpt_trxtpbq9c342p3qw",
    "name": "Squared & Cubic Units",
-   "reason": "content evidence below corroboration floor (T1 best 1K 0.15, cov 0.00, tcov 0.33)",
+   "reason": "content evidence below corroboration floor (T1 best 1K 0.15, cov 0.00, tcov 0.33) — adjudicated-stay r1 (refined re-check, sheet)",
    "profile": [
     [
      "1K",
@@ -6078,814 +6812,444 @@
  ],
  "flags": [
   {
-   "spcpt_id": "spcpt_2D9sp6d4f6jCmRMx",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_2KkPGzKqGcx5jPkt",
-   "official_id": "IGCSE_MATHS_B:4M",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_2NQRqtzTGgzNksfC",
-   "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_2SfTVFKHJRBby3QK",
-   "official_id": "IGCSE_MATHS_B:6C",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_2nCMJhvvGsW7vMcV",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
-  },
-  {
    "spcpt_id": "spcpt_2w9hbV5pTbvc5Smj",
    "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_339DNssRW9x2NPKk",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_3fMGfNtg3hXMg6gC",
-   "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "moderate content evidence — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_3n2jHMX7vMBh95jq",
    "official_id": "IGCSE_MATHS_B:1K",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_3sptc2fDMgGnNYqg",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_425cHYzg3cyxG5f3",
-   "official_id": "IGCSE_MATHS_B:3L",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_4QRwffMSmK66nXtp",
-   "official_id": "IGCSE_MATHS_B:1D",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_4ZdHtGPdDjYdR6rK",
-   "official_id": "IGCSE_MATHS_B:1G",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_5CHMgxBWhBwxh5Y6",
-   "official_id": "IGCSE_MATHS_B:1H",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_5FMXZMjqSZ3GK53q",
    "official_id": "IGCSE_MATHS_B:6L",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_5SJ9rhJbhSwKtDbv",
    "official_id": "IGCSE_MATHS_B:5G",
-   "flag": "moderate content evidence — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_5Wj647RsttH6ZNfd",
    "official_id": "IGCSE_MATHS_B:6B",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_6XysCMWvYY936jw8",
    "official_id": "IGCSE_MATHS_B:1K",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_6tmCTQJYPsTdKKZ6",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_7YTSNFdbGCTSMHJX",
    "official_id": "IGCSE_MATHS_B:3K",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_7gdmq8MbcShywrkB",
    "official_id": "IGCSE_MATHS_B:6I",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_7pTpRYh7tsCnGspT",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "moderate content evidence — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_7sDcDrMgvvb7JNyy",
    "official_id": "IGCSE_MATHS_B:5B",
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_93QKhBw6PtVSvVdB",
-   "official_id": "IGCSE_MATHS_B:1H",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_9Stcxtj75Q3wpqJF",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_9bNwP86Td5fk5FS6",
    "official_id": "IGCSE_MATHS_B:2G",
-   "flag": "runner-up within 0.05 (2B 0.61) — review"
-  },
-  {
-   "spcpt_id": "spcpt_B37MzscGX3VQwSK2",
-   "official_id": "IGCSE_MATHS_B:8D",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_BVf2GTX8FCvzJjJN",
-   "official_id": "IGCSE_MATHS_B:1H",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_BktcXhHcVFw8R9Q2",
-   "official_id": "IGCSE_MATHS_B:4G",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_CGChbywtxFSDK5vT",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "moderate content evidence — review"
+   "flag": "runner-up within 0.05 (2B 0.61) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_Ck5vpzYGNJy5qdNM",
    "official_id": "IGCSE_MATHS_B:3D",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_D6T5FMtYgmDGKKXB",
    "official_id": "IGCSE_MATHS_B:6B",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_DQrkJGG4Mngch9xc",
    "official_id": "IGCSE_MATHS_B:8J",
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_DcSkGdrNWCZYX4V8",
    "official_id": "IGCSE_MATHS_B:3H",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_DrvNQjR2z6ZmYQxv",
    "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_F8nMMNHkgCNBjb5G",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_FHRjdMc6tvRR553q",
-   "official_id": "IGCSE_MATHS_B:1H",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_FVX7YRftjhnwYHQF",
-   "official_id": "IGCSE_MATHS_B:10E",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_Fbm5V3ByzktDQbh5",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_FmVMxSY4pdr2ghgq",
-   "official_id": "IGCSE_MATHS_B:10I",
-   "flag": "runner-up within 0.05 (10J 0.53) — review"
+   "official_id": "IGCSE_MATHS_B:10J",
+   "flag": "; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_GD9CRysqknb6VPhr",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_GG7jc43bG3xTkft4",
    "official_id": "IGCSE_MATHS_B:5G",
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_GVgyB5BVfNDYGf8M",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_GXB9cjhDVVQ5sRgz",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "moderate content evidence — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_H5Sb2tfDwbqy6x2t",
    "official_id": "IGCSE_MATHS_B:5G",
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_H8sZcbsSTbtsTTr5",
-   "official_id": "IGCSE_MATHS_B:1J",
-   "flag": "moderate content evidence — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_HJZCbjy4VhjyHVWM",
    "official_id": "IGCSE_MATHS_B:4L",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
-   "spcpt_id": "spcpt_HnxHKwwfTxKcvCN7",
-   "official_id": "IGCSE_MATHS_B:9A",
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_J3KSMj7PjnxtPzCD",
-   "official_id": "IGCSE_MATHS_B:3L",
-   "flag": "moderate content evidence — review"
+   "spcpt_id": "spcpt_HcBpSfpzpdZqCFXk",
+   "official_id": "IGCSE_MATHS_B:6H",
+   "flag": "runner-up within 0.03 (0.74) — review"
   },
   {
    "spcpt_id": "spcpt_JGrDCdnmTzs2Z9Cb",
    "official_id": "IGCSE_MATHS_B:5C",
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_JRX7QS29KrY2hCCW",
    "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_Jw35TTKhvXxmGGfP",
-   "official_id": "IGCSE_MATHS_B:4H",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_K6S4SN5GRRrC4hTj",
    "official_id": "IGCSE_MATHS_B:8G",
-   "flag": "runner-up within 0.05 (8L 0.60) — review"
+   "flag": "runner-up within 0.05 (8L 0.60) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_KSnrgNbPQV7FtyF5",
    "official_id": "IGCSE_MATHS_B:4F",
-   "flag": "runner-up within 0.05 (4E 0.51) — review"
-  },
-  {
-   "spcpt_id": "spcpt_M5rhN2mwnR2yddc6",
-   "official_id": "IGCSE_MATHS_B:1J",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_MTZDMgNSvV3FdVVR",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "runner-up within 0.05 (4E 0.51) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_MVTZsGHnDRvkyxqK",
    "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_Mg5kHQs2xhx8M5vm",
    "official_id": "IGCSE_MATHS_B:10B",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_MwN8gwy9J9DD39z6",
    "official_id": "IGCSE_MATHS_B:5A",
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_N5xf2wmr4yCNxHBj",
    "official_id": "IGCSE_MATHS_B:8J",
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_NyC8VYj2kktfwnZP",
-   "official_id": "IGCSE_MATHS_B:6E",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_QJNVgG7qqP279jnN",
-   "official_id": "IGCSE_MATHS_B:9A",
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_QWXhzVp2S3VYZdZc",
    "official_id": "IGCSE_MATHS_B:10A",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_QkZ2S7CKb8GrYdYx",
    "official_id": "IGCSE_MATHS_B:10B",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_QxxYWb5YckkR8Wds",
    "official_id": "IGCSE_MATHS_B:8D",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_RJbgRvXq2VrGpP5g",
-   "official_id": "IGCSE_MATHS_B:3D",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_RJtRSrxJtXZPyDHz",
-   "official_id": "IGCSE_MATHS_B:10I",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_Rv3DcsGBkxSkb8Ms",
    "official_id": "IGCSE_MATHS_B:10H",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_S2dfVTzRhCh7pRzW",
    "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_SSJkWfTg9GyZBXt4",
    "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_SYHWnwMWKxDNg9s8",
-   "official_id": "IGCSE_MATHS_B:3H",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_Sq9YjYQDkzwdnKT3",
    "official_id": "IGCSE_MATHS_B:10D",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_SwbJdpQTQxGXry8M",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_TXCfYj93S7vCV9nq",
    "official_id": "IGCSE_MATHS_B:6F",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_TvHwnSVsSstxssKh",
    "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_VgH3YPmpp6Yqy9KC",
    "official_id": "IGCSE_MATHS_B:3H",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_W2v94nxskTtpWxWd",
    "official_id": "IGCSE_MATHS_B:3I",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_W2yYk784rNVZBxPh",
    "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_WWjHg7QVhBnYQHKs",
    "official_id": "IGCSE_MATHS_B:1C",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_X8CSxK2dhn5rX34f",
    "official_id": "IGCSE_MATHS_B:3J",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_XC6PSG6CcXnNDb3Q",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_XWwgtKhQDRhyY5m4",
-   "official_id": "IGCSE_MATHS_B:6F",
-   "flag": "cross-topic content join (SME IA T9, statement T6) — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_XhXhg6sRyMQ88chp",
    "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_Xqkq2qz7NzMcVZHQ",
    "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_YQTm89bBFQBWdt2g",
-   "official_id": "IGCSE_MATHS_B:6F",
-   "flag": "cross-topic content join (SME IA T9, statement T6) — review"
+   "flag": "topic-anchored join within T7 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_YQX35KWR6v8thX5T",
    "official_id": "IGCSE_MATHS_B:8J",
-   "flag": "runner-up within 0.05 (8K 0.51) — review"
-  },
-  {
-   "spcpt_id": "spcpt_Yhn8BQfZNrRp26cf",
-   "official_id": "IGCSE_MATHS_B:6M",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_b7HzYMMwjGWQSz77",
-   "official_id": "IGCSE_MATHS_B:4F",
-   "flag": "moderate content evidence — review"
+   "flag": "runner-up within 0.05 (8K 0.51) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_bGtx4SMcX6BRS6KP",
    "official_id": "IGCSE_MATHS_B:10A",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_bMYrxtVc2SZgt8mX",
-   "official_id": "IGCSE_MATHS_B:1G",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_c25SPBnps9dhX2Dk",
-   "official_id": "IGCSE_MATHS_B:1C",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_c2F7sdrY5sQQCXQ5",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_c3ZTz62W4HKyb4zk",
    "official_id": "IGCSE_MATHS_B:8K",
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_cfsNsZkBNfQ2hWbY",
    "official_id": "IGCSE_MATHS_B:5G",
-   "flag": "topic-anchored join within T5 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T5 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_crKbmb6wVjM4yPJh",
    "official_id": "IGCSE_MATHS_B:1F",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_d6jcrzdmQw9SvSPr",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_d96BnpMKqDSDxSkx",
    "official_id": "IGCSE_MATHS_B:10J",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_dBwfqg3wJvDp9PNs",
-   "official_id": "IGCSE_MATHS_B:6G",
-   "flag": "moderate content evidence — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_djG6mt4Gk3T4wJwC",
    "official_id": "IGCSE_MATHS_B:9A",
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_dnkHMPkqhhdDxPkZ",
-   "official_id": "IGCSE_MATHS_B:3K",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_dxtWxKmTWPrYkWt3",
    "official_id": "IGCSE_MATHS_B:3D",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_fGGbSYFZH9DW4sgm",
-   "official_id": "IGCSE_MATHS_B:4L",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_fMWRd3TnmcQ3c92k",
-   "official_id": "IGCSE_MATHS_B:6K",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_fbB2ZB3wyBjV9yDV",
    "official_id": "IGCSE_MATHS_B:1C",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_gkqmXrkrWnQC27tP",
    "official_id": "IGCSE_MATHS_B:5G",
-   "flag": "moderate content evidence — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_gqGskPX2FDtwyRh2",
    "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_gzQvnKpxPvTqzzBp",
    "official_id": "IGCSE_MATHS_B:3A",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_gzykj64JBx2RtBJ7",
-   "official_id": "IGCSE_MATHS_B:6C",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_h2SHkwgcS67NJYVP",
    "official_id": "IGCSE_MATHS_B:9C",
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_h2p7nv6zkR4xFJ3P",
    "official_id": "IGCSE_MATHS_B:1I",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_h8QyRmzX5mCJb3X9",
    "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_hMqjBRzQQfvsc9f8",
    "official_id": "IGCSE_MATHS_B:4B",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_hTsm2dz7xmwM4jwW",
    "official_id": "IGCSE_MATHS_B:10I",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_j2YgCQ3HvtrTXdG4",
    "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_jTrpYhtMdhpPhwxb",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_m8WdtZKSWCKNFKrY",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable; tied candidates — review"
+   "flag": "moderate content evidence — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_mQzsHp4wNfnn9sNH",
    "official_id": "IGCSE_MATHS_B:1C",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_myNYhxstM7xnZd9P",
-   "official_id": "IGCSE_MATHS_B:10B",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_n9ZtYfjh8sFCp5Kz",
-   "official_id": "IGCSE_MATHS_B:10C",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_nJCDx3cDGTVz3MBk",
    "official_id": "IGCSE_MATHS_B:10D",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_nXY9n4Vt3cVTmKcR",
-   "official_id": "IGCSE_MATHS_B:10A",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_p8zkdCF8QVvDZyVX",
-   "official_id": "IGCSE_MATHS_B:1I",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_pKCFj25GzzqW6sr3",
-   "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_pKJ7Y3jd7PDzZQpP",
-   "official_id": "IGCSE_MATHS_B:4M",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_pSX9GyS8bW7N5CH7",
-   "official_id": "IGCSE_MATHS_B:7A",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_pqWsmktWyMCRfTk6",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_qPRh2fycSMYwytcV",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_qX5rMkysQfN7SK2M",
-   "official_id": "IGCSE_MATHS_B:3D",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_qbHvYk4bsCyRfQSv",
-   "official_id": "IGCSE_MATHS_B:8D",
-   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_qgWTSJ5pQ2dx6rDf",
-   "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_qpSmD6yNY5t5GrW6",
-   "official_id": "IGCSE_MATHS_B:1B",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_rt6wRVmbK5ZVkF3d",
-   "official_id": "IGCSE_MATHS_B:3D",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_s2x4ZG4rWQhHJrTh",
-   "official_id": "IGCSE_MATHS_B:1C",
-   "flag": "cross-topic content join (SME IA T3, statement T1) — review"
-  },
-  {
-   "spcpt_id": "spcpt_s4k79Tf4cNdNGqvT",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_sHCB9WZbDMyTFqCP",
-   "official_id": "IGCSE_MATHS_B:4D",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_stqdXPTn5YvgKtvm",
-   "official_id": "IGCSE_MATHS_B:1D",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_sy75G6mYWc9vzWvg",
-   "official_id": "IGCSE_MATHS_B:10D",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_syhVK6wH6NDDfgdB",
-   "official_id": "IGCSE_MATHS_B:6K",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_t6XtWBrsT7FH93JY",
-   "official_id": "IGCSE_MATHS_B:1F",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_tmMTSdKYc9s9V92Z",
-   "official_id": "IGCSE_MATHS_B:10A",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_tyrnCXQW2hfdwnyq",
-   "official_id": "IGCSE_MATHS_B:4E",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_vGfjmcJJ9yzSFbzs",
-   "official_id": "IGCSE_MATHS_B:6F",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_vMSNnYkKPf62MRH9",
-   "official_id": "IGCSE_MATHS_B:3D",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_vMcrBY5bkBpMVHMF",
-   "official_id": "IGCSE_MATHS_B:9A",
-   "flag": "topic-anchored join within T9 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_vYsrWKqpQDpSwnPj",
-   "official_id": "IGCSE_MATHS_B:4F",
-   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_wF3J5MKvx273VH3h",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_wPBshqzwKBKyYHBV",
-   "official_id": "IGCSE_MATHS_B:6K",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_wRw6rKqPdVmS986W",
-   "official_id": "IGCSE_MATHS_B:1G",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_wnkGx4MqYbQSFdnb",
-   "official_id": "IGCSE_MATHS_B:6B",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_xBxjpCXMWrkf6mww",
-   "official_id": "IGCSE_MATHS_B:3E",
-   "flag": "runner-up within 0.05 (3D 0.74) — review"
-  },
-  {
-   "spcpt_id": "spcpt_xDpKVBxDTCk2x6vS",
-   "official_id": "IGCSE_MATHS_B:6H",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_xRqrDc3z3GSkBgbm",
-   "official_id": "IGCSE_MATHS_B:2G",
-   "flag": "runner-up within 0.05 (2B 0.66) — review"
-  },
-  {
-   "spcpt_id": "spcpt_xf7Y5cxcQG3T6g65",
-   "official_id": "IGCSE_MATHS_B:1K",
-   "flag": "topic-anchored join within T1 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_xwx7PVk7fQ5QpdMk",
-   "official_id": "IGCSE_MATHS_B:3C",
-   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_yDbZQ6WS99WPCvvR",
-   "official_id": "IGCSE_MATHS_B:6N",
-   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review"
-  },
-  {
-   "spcpt_id": "spcpt_zJxJnm5kJPsMM2vF",
-   "official_id": "IGCSE_MATHS_B:8E",
-   "flag": "runner-up within 0.05 (8G 0.59) — review"
-  },
-  {
-   "spcpt_id": "spcpt_zNgS9BtJ7493zsyx",
-   "official_id": "IGCSE_MATHS_B:10D",
-   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review"
-  },
-  {
-   "spcpt_id": "spcpt_znWXTZjqCR7PspTc",
-   "official_id": "IGCSE_MATHS_B:6K",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_zrrC3yxSp579jY7k",
-   "official_id": "IGCSE_MATHS_B:4K",
-   "flag": "moderate content evidence — review"
-  },
-  {
-   "spcpt_id": "spcpt_RJbgRvXq2VrGpP5g",
-   "official_id": "IGCSE_MATHS_B:8E",
-   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review"
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_qPRh2fycSMYwytcV",
    "official_id": "IGCSE_MATHS_B:6C",
-   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review"
+   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_qbHvYk4bsCyRfQSv",
+   "official_id": "IGCSE_MATHS_B:8D",
+   "flag": "topic-anchored join within T8 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_qpSmD6yNY5t5GrW6",
+   "official_id": "IGCSE_MATHS_B:1B",
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_rt6wRVmbK5ZVkF3d",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_sHCB9WZbDMyTFqCP",
+   "official_id": "IGCSE_MATHS_B:4D",
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_t6XtWBrsT7FH93JY",
+   "official_id": "IGCSE_MATHS_B:1F",
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   },
   {
    "spcpt_id": "spcpt_tmMTSdKYc9s9V92Z",
    "official_id": "IGCSE_MATHS_B:4D",
-   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review"
+   "flag": "existing row topic-inconsistent with SME notes IA; content join below decisive bar — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_tyrnCXQW2hfdwnyq",
+   "official_id": "IGCSE_MATHS_B:4E",
+   "flag": "topic-anchored join within T4 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_vGfjmcJJ9yzSFbzs",
+   "official_id": "IGCSE_MATHS_B:6F",
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_vMSNnYkKPf62MRH9",
+   "official_id": "IGCSE_MATHS_B:3D",
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_vYsrWKqpQDpSwnPj",
+   "official_id": "IGCSE_MATHS_B:4N",
+   "flag": "; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_wF3J5MKvx273VH3h",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_wRw6rKqPdVmS986W",
+   "official_id": "IGCSE_MATHS_B:1G",
+   "flag": "topic-anchored join within T1 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_wnkGx4MqYbQSFdnb",
+   "official_id": "IGCSE_MATHS_B:6B",
+   "flag": "topic-anchored join within T6 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_xRqrDc3z3GSkBgbm",
+   "official_id": "IGCSE_MATHS_B:2B",
+   "flag": "; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_xwx7PVk7fQ5QpdMk",
+   "official_id": "IGCSE_MATHS_B:3C",
+   "flag": "topic-anchored join within T3 — statement not uniquely derivable — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_zJxJnm5kJPsMM2vF",
+   "official_id": "IGCSE_MATHS_B:8E",
+   "flag": "runner-up within 0.05 (8G 0.59) — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
+  },
+  {
+   "spcpt_id": "spcpt_zNgS9BtJ7493zsyx",
+   "official_id": "IGCSE_MATHS_B:10D",
+   "flag": "topic-anchored join within T10 — statement not uniquely derivable; tied candidates — review ; adjudicated-stay r1 — re-verified, refined profile in sheet"
   }
  ],
  "content_join": {
@@ -6899,6 +7263,13 @@
   },
   "topic_gate": "note SME notes-IA topic == official topic title (1:1 verified)",
   "tie_break": "(-score, code) — deterministic"
+ },
+ "review_adjudication": {
+  "tool": "scripts/maths_b_review_adjudicate.py",
+  "pass": "r1 (2026-10-28; T-SPECS-MATHSB-REVIEW-1 operator gate order)",
+  "verdict_law": "REPOINT/UPGRADE at refined margin >= 0.08 with cov_w >= 0.30 or tp >= 0.55, topic-gated; CARD_NAMED rows land the review-card anchors; everything else stays with the r0 flag annotated adjudicated-stay; no-guess discipline preserved",
+  "refined_scorer": "statement-frequency weighted cov (w=1/sqrt(sf)) + title precision + engine ns + 0.10 raw cov; corpus-derived only",
+  "sheet": "SME-ExamQuestion/igcse-maths-b-16/review_adjudication.json"
  },
  "override_ledger": [
   {
@@ -6915,6 +7286,86 @@
     "score": 1.0
    },
    "reason": "existing row topic-inconsistent with SME notes IA (T8); decisive topic-consistent C1 content join"
+  },
+  {
+   "spcpt_id": "spcpt_2D9sp6d4f6jCmRMx",
+   "name": "Finding Equations of Straight Lines",
+   "from": {
+    "code": "4K",
+    "tier": "C3_topic_anchored",
+    "score": 0.4075
+   },
+   "to": {
+    "code": "4I",
+    "tier": "C1_content_join",
+    "score": 0.3769
+   },
+   "reason": "review-card named priority (operator-endorsed of record); refined corroboration best=3H 0.433 in-topic best=4I 0.377",
+   "method": "maths_b_review_adjudication"
+  },
+  {
+   "spcpt_id": "spcpt_2nCMJhvvGsW7vMcV",
+   "name": "Speed-Time Graphs",
+   "from": {
+    "code": "4K",
+    "tier": "C3_topic_anchored",
+    "score": 0.3717
+   },
+   "to": {
+    "code": "4N",
+    "tier": "C1_content_join",
+    "score": 0.0562
+   },
+   "reason": "eyes-on r1: 4K read = 'The gradients of graphs above by drawing' — a continuation fragment of 4J's numerical-coefficient polynomial graphs, not a kinematics home; 4N read = 'Applications to linear kinematics and to other simple practical problems' = the spine's kinematics home; distance/speed-time graph interpretation is linear kinematics in substance (velocity/acceleration from gradients, distance from area) though the lesson never prints the spec's word; 4N already of-record for the Kinematics S1 row (grouping-consistent); review-card named anchor landed per the card of record",
+   "method": "maths_b_review_adjudication"
+  },
+  {
+   "spcpt_id": "spcpt_MTZDMgNSvV3FdVVR",
+   "name": "Distance-Time Graphs",
+   "from": {
+    "code": "4K",
+    "tier": "C3_topic_anchored",
+    "score": 0.3875
+   },
+   "to": {
+    "code": "4N",
+    "tier": "C1_content_join",
+    "score": 0.1262
+   },
+   "reason": "eyes-on r1: same evidence read as Speed-Time Graphs — 4K is the 4J-continuation fragment ('gradients of graphs above by drawing'), 4N is the spine's kinematics home; distance-time graph lessons teach gradient-as-speed on linear kinematics graphs; review-card named anchor landed per the card of record",
+   "method": "maths_b_review_adjudication"
+  },
+  {
+   "spcpt_id": "spcpt_RJbgRvXq2VrGpP5g",
+   "name": "Difference Of Two Squares",
+   "from": {
+    "code": "8E",
+    "tier": "S1_name_match",
+    "score": 0.6621
+   },
+   "to": {
+    "code": "3C",
+    "tier": "C1_content_join",
+    "score": 0.2767
+   },
+   "reason": "eyes-on r1: of-record 8E read = 'Sum and difference of two vectors' — a T8 vectors statement name-matched on 'difference of two', the topic-inconsistency the r0 keep-flag itself records; 3C read = 'The factorisation of simple algebraic expressions' — the canonical home of the difference-of-two-squares identity a^2-b^2=(a+b)(a-b); refined in-topic best 3D REJECTED (3D = 'Use of the factor theorem', a different technique the note does not teach); review-card named anchor landed per the card of record",
+   "method": "maths_b_review_adjudication"
+  },
+  {
+   "spcpt_id": "spcpt_qgWTSJ5pQ2dx6rDf",
+   "name": "Multiple Ratios",
+   "from": {
+    "code": "1B",
+    "tier": "C3_topic_anchored",
+    "score": 0.4049
+   },
+   "to": {
+    "code": "1H",
+    "tier": "C1_content_join",
+    "score": 0.5082
+   },
+   "reason": "decisive in-topic refined winner 1H 0.508 margin 0.117 beats of-record 1B (cov_w 0.68, tp 0.43)",
+   "method": "maths_b_review_adjudication"
   }
  ]
 }
