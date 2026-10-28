@@ -1,0 +1,138 @@
+{
+ "lane": "T-SPECS-CIE-VERDICT-2",
+ "generated_utc": "2026-10-29T12:00:00Z",
+ "directive": "verdict fills -> review gate -> v2 consume",
+ "gateway_trace": "1a183e66619bd6dd",
+ "fires": "T-SPECS-CIE-REJOIN-2 record NEXT #1 (the operator-verdict fill class)",
+ "base_commit": "251b46ba0bd9a08d66d57eca44fc8c80cd283289",
+ "lanes": 8,
+ "touched_lanes": 2,
+ "pending_refs_total": 9326,
+ "unique_pairs_total": 800,
+ "resolved_ids_total": 18,
+ "resolved_refs_total": 184,
+ "code_entries_added_total": 169,
+ "ambiguous_pairs_total": 575,
+ "ambiguous_by_reason": {
+  "finer_than_official_subsection": 541,
+  "name_phrase_multi_text": 34
+ },
+ "resolves_by_tier": {
+  "V3_subsection_head_identity": 18
+ },
+ "stays": {
+  "dangling_eq_reference": 2,
+  "no_unique_identity": 205
+ },
+ "note_universe_sizes": {
+  "cie-as-chemistry-25": 181,
+  "cie-as-physics-25": 145,
+  "cie-as-business-23": 242,
+  "cie-as-computer-science-19": 156,
+  "cie-as-maths-20-pure-1": 77,
+  "cie-as-maths-20-pure-2": 41,
+  "cie-as-maths-20-mechanics": 36,
+  "cie-as-maths-20-probability-and-statistics-1": 46
+ },
+ "scope_law": {
+  "cie-as-chemistry-25": {
+   "law": "candidates restricted to the parse's own 'AS Level'-scoped points (the SME-WAVE2 spine build scope_eq basis)",
+   "registry_points": 356,
+   "lane_points": 204
+  },
+  "cie-as-physics-25": {
+   "law": "candidates restricted to the parse's own 'AS Level'-scoped points (the SME-WAVE2 spine build scope_eq basis)",
+   "registry_points": 303,
+   "lane_points": 145
+  },
+  "cie-as-business-23": {
+   "law": "candidates restricted to the parse's own 'AS Level'-scoped points (the SME-WAVE2 spine build scope_eq basis)",
+   "registry_points": 116,
+   "lane_points": 62
+  },
+  "cie-as-computer-science-19": {
+   "law": "parse marks ONLY topics 13-20 'A Level'; topics 1-12 are the shared AS & A Level content — 'A Level'-marked points excluded, scope-less retained",
+   "registry_points": 227,
+   "lane_points": 161
+  },
+  "cie-as-maths-20-pure-1": {
+   "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
+   "registry_points": 146,
+   "lane_points": 146
+  },
+  "cie-as-maths-20-pure-2": {
+   "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
+   "registry_points": 146,
+   "lane_points": 146
+  },
+  "cie-as-maths-20-mechanics": {
+   "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
+   "registry_points": 146,
+   "lane_points": 146
+  },
+  "cie-as-maths-20-probability-and-statistics-1": {
+   "law": "registry carries no scope marks — no filter (JOIN-1 semantics for this qualification; the 9709 component law is a spine-build law)",
+   "registry_points": 146,
+   "lane_points": 146
+  }
+ },
+ "reconciliation": {
+  "pairs": 800,
+  "must_equal": 800
+ },
+ "lanes_detail": [
+  {
+   "lane": "cie-as-business-23",
+   "resolved_ids": 14,
+   "resolved_refs": 33,
+   "code_entries_added": 18,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 14,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "finer_than_official_subsection": 199,
+    "no_unique_identity": 17
+   },
+   "ambiguous_pairs": 199,
+   "pending_refs_before": 743,
+   "pending_refs_after": 710,
+   "items_with_codes": 72,
+   "scope_law": {
+    "law": "candidates restricted to the parse's own 'AS Level'-scoped points (the SME-WAVE2 spine build scope_eq basis)",
+    "registry_points": 116,
+    "lane_points": 62
+   }
+  },
+  {
+   "lane": "cie-as-chemistry-25",
+   "resolved_ids": 4,
+   "resolved_refs": 151,
+   "code_entries_added": 151,
+   "by_tier": {
+    "V1_name_text_identity": 0,
+    "V2_name_phrase_identity": 0,
+    "V3_subsection_head_identity": 4,
+    "V4_settext_title_identity": 0,
+    "V5_topic_scoped_phrase_identity": 0
+   },
+   "pending_reasons": {
+    "finer_than_official_subsection": 131,
+    "name_phrase_multi_text": 8,
+    "no_unique_identity": 11
+   },
+   "ambiguous_pairs": 139,
+   "pending_refs_before": 2157,
+   "pending_refs_after": 2006,
+   "items_with_codes": 528,
+   "scope_law": {
+    "law": "candidates restricted to the parse's own 'AS Level'-scoped points (the SME-WAVE2 spine build scope_eq basis)",
+    "registry_points": 356,
+    "lane_points": 204
+   }
+  }
+ ]
+}

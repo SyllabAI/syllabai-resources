@@ -1,0 +1,6403 @@
+lane: T-SPECS-CIE-VERDICT-2
+generated_utc: '2026-10-29T12:00:00Z'
+directive: verdict fills -> review gate -> v2 consume
+gateway_trace: 1a183e66619bd6dd
+base_commit: 251b46ba0bd9a08d66d57eca44fc8c80cd283289
+header: 'Operator-verdict fills on the 8 wave-2 AS lanes'' still-pending anchors (T-SPECS-CIE-REJOIN-2
+  NEXT #1). Identity-grade deterministic verdicts rendered by cie_verdict_fill_wave2as.py under the JOIN-2
+  AS scope law and re-validated fail-closed by cie_verdict_check_wave2as.py (VD3 re-derives every resolve
+  from HEAD blobs with an independent implementation). Entries are per (lane, id). Multi hits quarantine
+  (no fall-through); pairs with no identity evidence stay pending honestly (AGENT.md rule 3). Resolutions
+  are SUGGESTED until the stage-#2 review/promotion gate (rule 2).'
+verdicts:
+- id: spcpt_2BHWpstsF6GvCjGm
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: Autocratic Management
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_2Z63rXk8wM62P8P9
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1
+  official_code: 5.3.1
+  evidence:
+    sme_name: Interpreting cash flow forecasts
+    note_topic_title: Forecasting & Managing Cash Flows
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Cash flow forecasts
+    rule: head == artifact-stripped single-point subsection title
+    head: Forecasting & Managing Cash Flows
+    head_source: note_topic_title
+- id: spcpt_3djjqqRTyyTTqjrC
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: An Introduction to Management Styles
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_3ky4crMCr3qV8ygv
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: Traditional management functions
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_GPrvVcNFdh3sHjMc
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: McGregor's Theory X & Theory Y Managers
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_TvDK4d3Kg4zQKKxR
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: Laissez-faire management
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_V67PvPwfCcFqv6hy
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: 'The role of managers: Fayol'
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_VJjK6rKzSqr9b7wP
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1
+  official_code: 5.3.1
+  evidence:
+    sme_name: The meaning and purpose of cash flow forecasts
+    note_topic_title: Forecasting & Managing Cash Flows
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Cash flow forecasts
+    rule: head == artifact-stripped single-point subsection title
+    head: Forecasting & Managing Cash Flows
+    head_source: note_topic_title
+- id: spcpt_d6PfyQ79YyqfvYgd
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: Paternalistic Management
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_dzXCvvykbGG43ZKb
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: 'The role of managers: Mintzberg'
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_m3JpkNyTH9zk2cFy
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1
+  official_code: 5.3.1
+  evidence:
+    sme_name: Methods of improving cash flow
+    note_topic_title: Forecasting & Managing Cash Flows
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Cash flow forecasts
+    rule: head == artifact-stripped single-point subsection title
+    head: Forecasting & Managing Cash Flows
+    head_source: note_topic_title
+- id: spcpt_rVXPwzP8ZVXcfC34
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: Democratic management
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_tPQ3HX5zyZFNZ9dB
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:2.3.1
+  official_code: 2.3.1
+  evidence:
+    sme_name: The contribution of managers to business performance
+    note_topic_title: Management
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Management and managers
+    rule: head == artifact-stripped single-point subsection title
+    head: Management
+    head_source: note_topic_title
+- id: spcpt_yS3VScpS35RVQf9m
+  lane: cie-as-business-23
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_BUSINESS_2023_2025:5.3.1
+  official_code: 5.3.1
+  evidence:
+    sme_name: Calculating and amending cash flow forecasts
+    note_topic_title: Forecasting & Managing Cash Flows
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Cash flow forecasts
+    rule: head == artifact-stripped single-point subsection title
+    head: Forecasting & Managing Cash Flows
+    head_source: note_topic_title
+- id: spcpt_QtmgPDPQqjtNBMz8
+  lane: cie-as-chemistry-25
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:3.3.1
+  official_code: 3.3.1
+  evidence:
+    sme_name: Defining Metallic Bonding
+    note_topic_title: Metallic Bonding
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: define metallic bonding as the electrostatic attraction between positive metal ions
+      and delocalised electrons
+    rule: head == artifact-stripped single-point subsection title
+    head: Metallic Bonding
+    head_source: note_topic_title
+- id: spcpt_YSQfmtB7RFM428Q6
+  lane: cie-as-chemistry-25
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:8.3.1
+  official_code: 8.3.1
+  evidence:
+    sme_name: Explaining How Catalysts Work
+    note_topic_title: Homogeneous & Heterogeneous Catalysts
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'explain and use the terms catalyst and catalysis: activation energy effective catalyst'
+    rule: head == artifact-stripped single-point subsection title
+    head: Homogeneous & Heterogeneous Catalysts
+    head_source: note_topic_title
+- id: spcpt_rBJCH5cMmx33QRxp
+  lane: cie-as-chemistry-25
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:2.4.1
+  official_code: 2.4.1
+  evidence:
+    sme_name: Mole Calculations
+    note_topic_title: Reacting Masses & Volumes (of Solutions & Gases)
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'perform calculations including use of the mole concept, involving: (When performing
+      calculations, candidates’ answers should reflect the number of significant figures given or asked
+      for in the question. When rounding up or down, candidates should ensure that significant figures
+      are neither lost unnecessarily nor used beyond what is justified (see also Mathematical requirements
+      section).)'
+    rule: head == artifact-stripped single-point subsection title
+    head: Reacting Masses & Volumes (of Solutions & Gases)
+    head_source: note_topic_title
+- id: spcpt_tgKS2RtYzPtRMytJ
+  lane: cie-as-chemistry-25
+  verdict: resolve
+  tier: V3_subsection_head_identity
+  official_id: CIE_A_LEVEL_CHEMISTRY_2025_2027:22.1.1
+  official_code: 22.1.1
+  evidence:
+    sme_name: Interpreting Infrared Spectra
+    note_topic_title: Infrared Spectroscopy
+    note_section: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: analyse an infrared spectrum of a simple molecule to identify functional groups (see
+      the Data section for the functional groups required)
+    rule: head == artifact-stripped single-point subsection title
+    head: Infrared Spectroscopy
+    head_source: note_topic_title
+ambiguous:
+- id: spcpt_228VNPQcgCJTyVM8
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_2CyJmnYHMw6pfWbf
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_2QygWrcb9sdCfCz2
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_2TJFXQXtKyWDWQzF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_2svXq6nP6pv2kQ6q
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_2vnCnS82cTpmxjjy
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_3WZR6k7KhhZTDJpM
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_3j5krtgVZVmQjCX4
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_42k7hYtSPhfFdTFH
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_4CQtmWJVnTVXSpmP
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_4KTf56W48HvjGDPp
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_4PXfBg7Fp8PKcRHC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Capacity Utilisation & Outsourcing
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+- id: spcpt_4XZr56VyfFjMYkcN
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_56Gj239QnYgjFtRw
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_5SrgGSXsdbc6HDVT
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_5nn7HNQwJZ7XNpZ2
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_5swFS3RXNpkmkpn9
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_6RYXbppHWqPJ6mfS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_6WH4DDdNbdkqYK3G
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_6xS4qWQmR4BgNVYH
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_74z5jB2SFCFGJxGp
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_7XnJcvfhpZ7BCHHp
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_7bXkBjYkz9x6CHPH
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_7chcbSB3Bp66DSZY
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_875g57BKRC6wbmZv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_8KV9cQvm8ZRGqXj8
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_8WtMf8d5G62zhPZD
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_8szmMNWRMWT27mMD
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_9HBYQt72ZD8MxcRW
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_9tPNjVFVCs6hD85m
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_9vmsBxtkgwcxXFNK
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_B6sbzRMQjjHvhDc3
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_B89ddwQXScXQmssT
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_BBMyFQJc7HMNhvfC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_BD3qbvR8MdDFfRs3
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_BMy9BfB38jswwG7Y
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_CHs3b5pwWNzNYzFB
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_CK3zxSDzsQmD8pVX
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_CQKxGKcdhSF35rJQ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_Cd8qZCmmRckQGSRc
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_Cg6dt4mgzmdZt9Xg
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_DKk3WK2QnCfVrjY7
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_DR6v4gm2cRbKbNDd
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_Dj4TVcJTMd6Qbhgv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_F4vZ6hfmD4xqV7cj
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_FDz9NB7bM43qmNPj
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_FXwsZ8SHhD6Shzyn
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_FcMkPS8VgDGvdCY6
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_FghBsvtYckwVWmvm
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_FmwxHQzHB2v8ydZG
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_FnCzvfJtthPpx9Cz
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_FqXDSN5zGRyMrCRZ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_FxgBFWSXRF8C6nVB
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_FzM3CMzkmZpRQsQq
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_G3Fbn2sS6dhtkRrR
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_GRyk9VgNsXD2Dnpw
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_Gk9z3Tf2bfgq56dF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_HGBptsJpnMZbsw7k
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_HNWhbrWzNffV6Xcp
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_HPsmx5QHFVf9Nzsk
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_Hy2TS277YzS9vjjJ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_J2mtNTH3pyB2mxH5
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_JDthTv5DZDr7vXFn
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_Jb5bJMmPGsNtPJYQ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_JczSNbc4Xtj5YvRk
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_JjG2J79DxS3NVRfV
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_JzK2cXxK79pqW7xS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_K7CbDChdkWtD5GBS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_KKMwySbtmDJ7nGJg
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_KRCmbTPhdMpCsgMg
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_KXYs3vhZv69J9YkC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_KqZW6bhZpwnDNWCx
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_KrZw7w9VgZMyjCmz
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_M4JPDj4sPKWbCmJH
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_M8ByqhVGYsRdykNs
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_Md53DJVQJSvndsJ8
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_N3kz46fzvdmd8wdq
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Capacity Utilisation & Outsourcing
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+- id: spcpt_N5x9zzBBBdbB7FCj
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_NGJCXXNvzdkwC9hB
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_NJKfhbQJcxsPqJ7d
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_NMvRGyqvMp5Yw6yh
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_NNdx2CkCWbgjkdrC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_P25gcWQVpf5QN9kS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_Pff3w5ZZqNCq6tJ2
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_PhwzKXch6sY2gh8c
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Budgets
+  head_source: note_topic_title
+  matched_codes:
+  - 5.5.1
+  - 5.5.2
+- id: spcpt_Qh6N9xKzQNjm4n3d
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_QwvwPcj8hH64sbgy
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_RKKNsjbq5FhDNWYS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_RNNMwhGFwzdT7QhM
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_RVp874FtBwjx9v3v
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_RWbdmzpzh25JMpBF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_Rj79DGRnvmB3k8VB
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_SgvFC5d9h5wMNDK2
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_SwfQQHpXbZ5ZBvtn
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_TWbnNKRVc2zzxQx8
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_TcvK6PdX4BdgC2Fr
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_Tf5WHFN44fVQdpjp
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_VF7JQFzT2fSGhQsg
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_VNBxNSmCGc3rmvQK
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_VTsKX78Q53nbJdM8
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_VZZ6ZvPnng8pGTsq
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_W6fHP4mzQyDPwqqV
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_WCNVhfJskhBPPwYf
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_Wf99dCfK349CBXDk
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_XGvrtJ6jxMpVXGSC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_Xj6DTvRJ4nPRwRQn
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_YBQXCFMDDKFTBDHC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_YJnpDGHKGHnTJVfp
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_Yh4pS8Qnnb4NZY4P
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Budgets
+  head_source: note_topic_title
+  matched_codes:
+  - 5.5.1
+  - 5.5.2
+- id: spcpt_YyDpgB6K3hDb9sZf
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_YzVpMdMgZYM6GwDv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_ZPcdZxjWCYvzZpMX
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Budgets
+  head_source: note_topic_title
+  matched_codes:
+  - 5.5.1
+  - 5.5.2
+- id: spcpt_ZPq8YFDHpBYPPmDq
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_b8sqvxsfWYxp4fKP
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_bPhXgt939pxYpdPz
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_cPwbcV9ZXcNhBsRc
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_cTbD4tFvqzF2DYY8
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_cb84ZxzdScMRD6BF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_d3mzmMbWVBCKkbXy
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_dHNHbvSbF4qZd7Rc
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Capacity Utilisation & Outsourcing
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+- id: spcpt_dbJDdXbrsxvzh6tR
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_dmCKqynKwGpyzgpF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_dpZpF4TX2SgYzFJM
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_f9hBtm9djcVnz4RR
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_fZkFS2njzq5yBf6m
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_fr2XQ2FWTNRXJM5k
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_frGPB2CPDrcyf5ZK
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_fxHzB4RBbYtTHMK4
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_fxXMT57wB2hyT27r
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_g3PV7bHZ8fDgwn4V
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_gHgKHSHpfQKDW6XJ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_hdh98JYmjbtgJ9kW
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_hj2Cqxx8rk2jpfjS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_j6WtJrnCC2g5fvyf
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_jJ8xj93jK5SC2ZMF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_jWZr4V3TRpGVKKJv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_jpGMJGN3gnNvtXBk
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_kHmXTBMTxQvrjGtM
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_kfxfzx2TcZ2TpxCr
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_m6Vcj5BzYmq8jCfZ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_mWfvsZvNfM2z2bxy
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_mjKVdS3k7Bz9tmhy
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_mpWXTKq4R7rzypBm
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_mrqYXQwHmvQtqbw3
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_mtCZMrzdxNBfQThj
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_mvXpZbZ9wk3QbJ8t
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_n5ggqskjmfnmBGrM
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_nMjkDn56nrtGcy5k
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_nY5C5StPxDs8663W
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_ngFdrs4bRjFYFQFS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_nnKwZcng8zb43KTY
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_p5BzWgt53NJgdkHm
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_pXJDhHNcVQVRwYRk
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_pn9hzChmnDRMCMDY
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_qBMfQpNWRkSfp8gN
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_qGdVSzRBCMs8tdBQ
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Capacity Utilisation & Outsourcing
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+- id: spcpt_qJyf7pPSKcSQnDQy
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_qsGGFgRrYBpZtwxc
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_qtmT5zzCSPf27zm6
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_qvhwTzNvgzDnNkFF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_r36YGYYvc7XtgVQC
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_r7G952F6twFgRX4N
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_rSSs4h3QxqPkb7Fv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_rYchF4bmFBfSKzPK
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_rkj8ySdMtxRCPcDs
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Budgets
+  head_source: note_topic_title
+  matched_codes:
+  - 5.5.1
+  - 5.5.2
+- id: spcpt_rmKHb4sWjJrKNmnk
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_rpNhWtfRhY8bNyZv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_rvhxNZ5Nn4SnNbYh
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_rxvD8RBBgBSybTwT
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_sBGQbnrwWDfFWBzS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_sbgVqKmMs7Cfbq3M
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_scrpbmCbcWNPQP9V
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_swMK5kZbYwqzdG95
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_tHGX29nKMyPf2b4w
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Budgets
+  head_source: note_topic_title
+  matched_codes:
+  - 5.5.1
+  - 5.5.2
+- id: spcpt_tRDQJv8cbYkbTmR5
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_tXDBP5sfZs2wf2CF
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+- id: spcpt_v2ZK46zCFJtn9528
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Inventory Management
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+- id: spcpt_vRhgD3GDCNvGqTkr
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_vgkTp3x2Qqb536Cz
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+- id: spcpt_vyTsMVPvYsjMjRxS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_w6GWH53wBb25KqBB
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_wHK3rJygMhK9BKsz
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_wK9tTnr9dW7d4Djn
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_wfKx4PPdX5JNs62Z
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_wqQPMHhGMG3Fh6Hc
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Market Research
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_ww8dZ483jrpHwQwv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_xVt3vHfQ4JWp83Qx
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_xb35MYtvfsXx5Zjn
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Costs
+  head_source: note_topic_title
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+  - 5.4.4
+- id: spcpt_xt22tbZbJM9PGPsv
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Marketing
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+  - 3.1.7
+- id: spcpt_xyGwJqrMKH5Z3Z9s
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Sources of Finance
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+- id: spcpt_yRtFQnJhqq76gRXG
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Size of Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_yShFSXXSNX3McJbT
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_ySkcyjNv9mWftpz4
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Nature of Operations
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+- id: spcpt_yr953J85cRZGnD8n
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Motivation
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+- id: spcpt_zGvCdnxMHYQQmNSS
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Stakeholders in a Business
+  head_source: note_topic_title
+  matched_codes:
+  - 1.5.1
+  - 1.5.2
+- id: spcpt_zMrrmsksngXdCnFg
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_zgCSMZWGGnx5gQnz
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Enterprise
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_zgghvcvrG4HVQkcK
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: Business Objectives
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+- id: spcpt_zmxGZV83Db6jz6JN
+  lane: cie-as-business-23
+  reason: finer_than_official_subsection
+  head: The Marketing Mix
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+- id: spcpt_2S9yyntc9CGDBHYP
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.1.1
+  - 14.1.2
+  - 14.1.3
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+- id: spcpt_2ppDy4sP8RmGYX97
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_2yXmZQsZ8v4V8432
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Physical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.1.1
+  - 9.1.2
+- id: spcpt_3G5VshJ2mzwT8ssc
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.1
+  - 5.1.7
+- id: spcpt_3bDDxYkPb9GXRjpm
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Halogenoalkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 15.1.1
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  - 15.1.6
+  - 15.1.7
+- id: spcpt_43qjgSZhjrKzVV7x
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_55MQgFXdfMQTbHBn
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Particles in the Atom & Atomic Radius
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  - 1.1.6
+  - 1.1.7
+- id: spcpt_5mhSzRMKWCJhpkgz
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Primary Amines
+  head_source: note_topic_title
+  matched_codes:
+  - 19.1.1
+  - 19.1.2
+- id: spcpt_5vBTSkW5VhKcbxN7
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Physical Properties of the Group 17 Elements
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.2
+  - 11.1.3
+- id: spcpt_673NfkypZM8mGB2P
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Halogenoalkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 15.1.1
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  - 15.1.6
+  - 15.1.7
+- id: spcpt_6MsBdyQnRPtPSJW7
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Mass Spectrometry
+  head_source: note_topic_title
+  matched_codes:
+  - 22.2.1
+  - 22.2.2
+  - 22.2.3
+  - 22.2.4
+  - 22.2.5
+- id: spcpt_6YfvHjjFc2k2CbQy
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Carboxylic Acids
+  head_source: note_topic_title
+  matched_codes:
+  - 18.1.1
+  - 18.1.2
+- id: spcpt_6h3vpZ3k4fSvM7Bv
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Organic Synthesis
+  head_source: note_topic_title
+  matched_codes:
+  - 21.1.1
+  - 21.1.2
+  - 21.1.3
+  - 21.1.4
+- id: spcpt_74JsdwcVgGzqTFkb
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Ionic Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+- id: spcpt_7GFsrZwSKvKWbScF
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Ionisation Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+  - 1.4.4
+  - 1.4.5
+  - 1.4.6
+  - 1.4.7
+  - 1.4.8
+- id: spcpt_7Pt6yVqwxxXJNJzz
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Particles in the Atom & Atomic Radius
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  - 1.1.6
+  - 1.1.7
+- id: spcpt_7WXcDwskTqCS2cNn
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Brønsted–Lowry Theory of Acids & Bases
+  head_source: note_topic_title
+  matched_codes:
+  - 7.2.1
+  - 7.2.10
+  - 7.2.2
+  - 7.2.3
+  - 7.2.4
+  - 7.2.5
+  - 7.2.6
+  - 7.2.7
+  - 7.2.8
+  - 7.2.9
+- id: spcpt_7pQqq4p8gk94GxNW
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.1.1
+  - 14.1.2
+  - 14.1.3
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+- id: spcpt_8bVPpTcNgrh9KmWr
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Physical Properties of the Group 17 Elements
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.2
+  - 11.1.3
+- id: spcpt_9Jt8CxZZvRgp4DFm
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Aldehydes & Ketones
+  head_source: note_topic_title
+  matched_codes:
+  - 17.1.1
+  - 17.1.2
+  - 17.1.3
+  - 17.1.4
+  - 17.1.5
+  - 17.1.6
+- id: spcpt_B98Wqnz3gtpYbMMX
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Particles in the Atom & Atomic Radius
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  - 1.1.6
+  - 1.1.7
+- id: spcpt_BYxDMWGVpx8M2cnb
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Brønsted–Lowry Theory of Acids & Bases
+  head_source: note_topic_title
+  matched_codes:
+  - 7.2.1
+  - 7.2.10
+  - 7.2.2
+  - 7.2.3
+  - 7.2.4
+  - 7.2.5
+  - 7.2.6
+  - 7.2.7
+  - 7.2.8
+  - 7.2.9
+- id: spcpt_Bb7Zq92CG2N8Mfgn
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Shapes of Organic Molecules; σ & π Bonds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.3.1
+  - 13.3.2
+  - 13.3.3
+  - 13.3.4
+- id: spcpt_Bk6CctHBVZ7t2gBH
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 13.1.2
+  - 14.1.1
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+- id: spcpt_CSfwBM2MqSxzCtjr
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Isomerism: Structural Isomerism & Stereoisomerism'
+  head_source: note_topic_title
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.4.6
+- id: spcpt_D6kPPr4Nhg5W7SKd
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Halogenoalkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 15.1.1
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  - 15.1.6
+  - 15.1.7
+- id: spcpt_DPwmzhM5Sk4TDQht
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Addition Polymerisation
+  head_source: note_topic_title
+  matched_codes:
+  - 20.1.1
+  - 20.1.2
+  - 20.1.3
+  - 20.1.4
+- id: spcpt_DScNRQ6zgD52DhdD
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_DpGRDmhkgcmVqWnd
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Mass Spectrometry
+  head_source: note_topic_title
+  matched_codes:
+  - 22.2.1
+  - 22.2.2
+  - 22.2.3
+  - 22.2.4
+  - 22.2.5
+- id: spcpt_FCG6wCWXhVz8jMdM
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Covalent Bonding & Coordinate (Dative Covalent) Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_G6Szf8cjj4s8vS64
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Particles in the Atom & Atomic Radius
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  - 1.1.6
+  - 1.1.7
+- id: spcpt_Gnpf6FRNkztTrQVY
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_GqxmXbGXD9vnQ6wd
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electronegativity & Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+- id: spcpt_H9Jbcm5Cty6T835Q
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Aldehydes & Ketones
+  head_source: note_topic_title
+  matched_codes:
+  - 17.1.1
+  - 17.1.2
+  - 17.1.3
+  - 17.1.4
+  - 17.1.5
+  - 17.1.6
+- id: spcpt_HmMgqHYYJMyF6nVN
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.3.1
+  - 6.1.1
+  - 6.1.2
+- id: spcpt_J4vPkv26Fw4FswXk
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Addition Polymerisation
+  head_source: note_topic_title
+  matched_codes:
+  - 20.1.1
+  - 20.1.2
+  - 20.1.3
+  - 20.1.4
+- id: spcpt_JGgWc2RK3Vc99QBw
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Enthalpy Change, ΔH
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_Jb2WrHsjhdsHyqv6
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Brønsted–Lowry Theory of Acids & Bases
+  head_source: note_topic_title
+  matched_codes:
+  - 7.2.1
+  - 7.2.10
+  - 7.2.2
+  - 7.2.3
+  - 7.2.4
+  - 7.2.5
+  - 7.2.6
+  - 7.2.7
+  - 7.2.8
+  - 7.2.9
+- id: spcpt_JfRPXN7DCM7b7FdC
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Carboxylic Acids
+  head_source: note_topic_title
+  matched_codes:
+  - 18.1.1
+  - 18.1.2
+- id: spcpt_Js5fp3VP5t5SnnJY
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas
+  head_source: note_topic_title
+  matched_codes:
+  - 2.3.1
+  - 2.3.2
+  - 2.3.3
+  - 2.3.4
+  - 2.3.5
+- id: spcpt_K3fJxvFZ56vnRxB5
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_MMZw9fX88jdkvjNh
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Nitrogen & Sulfur
+  head_source: note_topic_title
+  matched_codes:
+  - 12.1.1
+  - 12.1.2
+  - 12.1.3
+  - 12.1.4
+  - 12.1.5
+- id: spcpt_MhBYBMKn8wCVYzfn
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alcohols
+  head_source: note_topic_title
+  matched_codes:
+  - 16.1.1
+  - 16.1.2
+  - 16.1.3
+  - 16.1.4
+  - 16.1.5
+- id: spcpt_MvkYWRftfSrXcvT3
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas
+  head_source: note_topic_title
+  matched_codes:
+  - 2.3.1
+  - 2.3.2
+  - 2.3.3
+  - 2.3.4
+  - 2.3.5
+- id: spcpt_NbtHdZ2KrTzhrkdg
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Covalent Bonding & Coordinate (Dative Covalent) Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_PCXmSVmcYjz89QXw
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_PfqCXXkxHSs3pGcc
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.1.1
+  - 14.1.2
+  - 14.1.3
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+- id: spcpt_QRDSMMPCw4SvVdFc
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Bonding & Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+  - 4.2.3
+- id: spcpt_QRKPgfwMmHynwqkw
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Physical Properties of the Group 17 Elements
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.2
+  - 11.1.3
+- id: spcpt_QytGnRrdQn5z8m9n
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Shapes of Organic Molecules; σ & π Bonds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.3.1
+  - 13.3.2
+  - 13.3.3
+  - 13.3.4
+- id: spcpt_RFYvv2MhPKJKmp8d
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alcohols
+  head_source: note_topic_title
+  matched_codes:
+  - 16.1.1
+  - 16.1.2
+  - 16.1.3
+  - 16.1.4
+  - 16.1.5
+- id: spcpt_RvMnd782dRsMs9yd
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_T8rWCG9RcM5Zwc4J
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_TGSKfd5J5wJTrCmx
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Rate of Reaction
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+- id: spcpt_Td9GY22ydztvn7RW
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas
+  head_source: note_topic_title
+  matched_codes:
+  - 2.3.1
+  - 2.3.2
+  - 2.3.3
+  - 2.3.4
+  - 2.3.5
+- id: spcpt_VkwQyZswQ9jSKtgx
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.1.1
+  - 14.1.2
+  - 14.1.3
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+- id: spcpt_W79MQwTT3nRz5Dzw
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electronegativity & Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+- id: spcpt_WSGChyvVnBFDWBhq
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Halogenoalkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 15.1.1
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  - 15.1.6
+  - 15.1.7
+- id: spcpt_WXp9yV6RjmGqJnn3
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 12.1.3
+  - 12.1.4
+  - 14.1.6
+- id: spcpt_WfbwJkmCX7gyZZqb
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Covalent Bonding & Coordinate (Dative Covalent) Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_WqHBvB6FP88QRGXb
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Intermolecular Forces, Electronegativity & Bond Properties
+  head_source: note_topic_title
+  matched_codes:
+  - 3.6.1
+  - 3.6.2
+  - 3.6.3
+  - 3.6.4
+- id: spcpt_WvCr2JB5DYnqQ3vt
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Rate of Reaction
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+- id: spcpt_WvjvBQkpGBW5qPQr
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Mass Spectrometry
+  head_source: note_topic_title
+  matched_codes:
+  - 22.2.1
+  - 22.2.2
+  - 22.2.3
+  - 22.2.4
+  - 22.2.5
+- id: spcpt_X7vDgdxQs3VpCRb6
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Isomerism: Structural Isomerism & Stereoisomerism'
+  head_source: note_topic_title
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.4.6
+- id: spcpt_XQ97pkXbbVSfgqZD
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Nitriles & Hydroxynitriles
+  head_source: note_topic_title
+  matched_codes:
+  - 19.2.1
+  - 19.2.2
+  - 19.2.3
+- id: spcpt_XrDVCr5BKxW9xv8b
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.1.1
+  - 14.1.2
+  - 14.1.3
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+- id: spcpt_XshHNTPKvbZCSWWD
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: The Chemical Properties of the Halogen Elements & the Hydrogen Halides
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+- id: spcpt_Y3yg6TK2DsBDYF9g
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Enthalpy Change, ΔH
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_Y9pDHpH88VpnFWft
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Aldehydes & Ketones
+  head_source: note_topic_title
+  matched_codes:
+  - 17.1.1
+  - 17.1.2
+  - 17.1.3
+  - 17.1.4
+  - 17.1.5
+  - 17.1.6
+- id: spcpt_YrYDsWrSzvMs3n9H
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Mass Spectrometry
+  head_source: note_topic_title
+  matched_codes:
+  - 22.2.1
+  - 22.2.2
+  - 22.2.3
+  - 22.2.4
+  - 22.2.5
+- id: spcpt_Ytmx9DyG2jXQB5D6
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Nitriles & Hydroxynitriles
+  head_source: note_topic_title
+  matched_codes:
+  - 19.2.1
+  - 19.2.2
+  - 19.2.3
+- id: spcpt_YvVs8rP9WBKRWmt8
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Bonding & Structure
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+  - 4.2.3
+- id: spcpt_Zc5TsBxs5ZtdtTPv
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkenes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.2.1
+  - 14.2.2
+  - 14.2.3
+  - 14.2.4
+  - 14.2.5
+- id: spcpt_Zt25mTwwxK5GP3RX
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_b4cNQNCfhNWb2vQw
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Isomerism: Structural Isomerism & Stereoisomerism'
+  head_source: note_topic_title
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.4.6
+- id: spcpt_c7vFrg8fTnmm4kcp
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.1.10
+  - 7.1.2
+  - 7.1.3
+- id: spcpt_cG2ndgB7GyZG8n2C
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Aldehydes & Ketones
+  head_source: note_topic_title
+  matched_codes:
+  - 17.1.1
+  - 17.1.2
+  - 17.1.3
+  - 17.1.4
+  - 17.1.5
+  - 17.1.6
+- id: spcpt_cHbPsjbjjBc9CgH7
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Shapes of Organic Molecules; σ & π Bonds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.3.1
+  - 13.3.2
+  - 13.3.3
+  - 13.3.4
+- id: spcpt_cfW8F5MnhRBc3BcZ
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Intermolecular Forces, Electronegativity & Bond Properties
+  head_source: note_topic_title
+  matched_codes:
+  - 3.6.1
+  - 3.6.2
+  - 3.6.3
+  - 3.6.4
+- id: spcpt_cxpcQnBq3ChhBRX9
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas, Functional Groups & the Naming of Organic Compounds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.1.1
+  - 13.1.2
+  - 13.1.3
+  - 13.1.4
+  - 13.1.5
+  - 13.1.6
+- id: spcpt_d2F29zJhG2yRcw8x
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Isomerism: Structural Isomerism & Stereoisomerism'
+  head_source: note_topic_title
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.4.6
+- id: spcpt_dYZdxgWdCksdx74b
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkenes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.2.1
+  - 14.2.2
+  - 14.2.3
+  - 14.2.4
+  - 14.2.5
+- id: spcpt_fZcV6nrG2QTrcXH7
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Ionic Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+- id: spcpt_fcDYWx3VbRymtyBX
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas, Functional Groups & the Naming of Organic Compounds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.1.1
+  - 13.1.2
+  - 13.1.3
+  - 13.1.4
+  - 13.1.5
+  - 13.1.6
+- id: spcpt_fpBXy2gVyzDKcP3V
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Aldehydes & Ketones
+  head_source: note_topic_title
+  matched_codes:
+  - 17.1.1
+  - 17.1.2
+  - 17.1.3
+  - 17.1.4
+  - 17.1.5
+  - 17.1.6
+- id: spcpt_gXGMxJcrhrnxtZD6
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Ionisation Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+  - 1.4.4
+  - 1.4.5
+  - 1.4.6
+  - 1.4.7
+  - 1.4.8
+- id: spcpt_gfsbYJqyKjjnKfcj
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: The Chemical Properties of the Halogen Elements & the Hydrogen Halides
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+- id: spcpt_gkJdM8KCSST8S2JX
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Covalent Bonding & Coordinate (Dative Covalent) Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_h3dWFWW4DjhmpkJ2
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Halogenoalkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 15.1.1
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  - 15.1.6
+  - 15.1.7
+- id: spcpt_hM52r8ppXrSnHVBk
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: The Chemical Properties of the Halogen Elements & the Hydrogen Halides
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+- id: spcpt_hXGsNB87dP7gcCSZ
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Physical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.1.1
+  - 9.1.2
+- id: spcpt_hZTPmmSRrdvvX3Qd
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.2
+  - 8.2.1
+  - 8.2.2
+  - 8.3.1
+- id: spcpt_hhsQcFzVK8SK2Fpk
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.2.7
+  - 7.2.8
+- id: spcpt_hwSNF3DCS6DXZjDz
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'The Gaseous State: Ideal & Real Gases & pV = nRT'
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+- id: spcpt_jHXFWjBrkFcCCgVD
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas
+  head_source: note_topic_title
+  matched_codes:
+  - 2.3.1
+  - 2.3.2
+  - 2.3.3
+  - 2.3.4
+  - 2.3.5
+- id: spcpt_jWB5gK4XNw8yxZ9R
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Characteristic Organic Reactions
+  head_source: note_topic_title
+  matched_codes:
+  - 13.2.1
+  - 13.2.2
+- id: spcpt_jptnPNnPshVwycwD
+  lane: cie-as-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 12.1.4
+  - 13.1.2
+  - 14.1.6
+- id: spcpt_k7Xhrz8Mdj3G3s46
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas, Functional Groups & the Naming of Organic Compounds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.1.1
+  - 13.1.2
+  - 13.1.3
+  - 13.1.4
+  - 13.1.5
+  - 13.1.6
+- id: spcpt_kCcDrFFyrnT3KYzX
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_kYX8rJ8Ff8TSC2TK
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Some Reactions of the Halide Ions
+  head_source: note_topic_title
+  matched_codes:
+  - 11.3.1
+  - 11.3.2
+  - 11.3.3
+- id: spcpt_kcCrGQ3ZDytBr2mg
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alcohols
+  head_source: note_topic_title
+  matched_codes:
+  - 16.1.1
+  - 16.1.2
+  - 16.1.3
+  - 16.1.4
+  - 16.1.5
+- id: spcpt_mRVQs6cxrKQQkDzh
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkenes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.2.1
+  - 14.2.2
+  - 14.2.3
+  - 14.2.4
+  - 14.2.5
+- id: spcpt_mqCCKGsGRn8qBZ3X
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Hess’s Law
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+- id: spcpt_mvpMD8Jbcbhfj4Qv
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Aldehydes & Ketones
+  head_source: note_topic_title
+  matched_codes:
+  - 17.1.1
+  - 17.1.2
+  - 17.1.3
+  - 17.1.4
+  - 17.1.5
+  - 17.1.6
+- id: spcpt_mzpXwM7BhtqNryhr
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Chemical Periodicity of Other Elements
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+- id: spcpt_nY7v95g8fwJD7mwK
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_nd5pJqStQ2PDbW7v
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Redox Processes: Electron Transfer & Changes in Oxidation Number (Oxidation State)'
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+- id: spcpt_nf3jtTMfZNRyHcQF
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Formulas, Functional Groups & the Naming of Organic Compounds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.1.1
+  - 13.1.2
+  - 13.1.3
+  - 13.1.4
+  - 13.1.5
+  - 13.1.6
+- id: spcpt_nx5frdwgZfGBzYhj
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Redox Processes: Electron Transfer & Changes in Oxidation Number (Oxidation State)'
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+- id: spcpt_pzjCCN5WFBRwTq6P
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Isomerism: Structural Isomerism & Stereoisomerism'
+  head_source: note_topic_title
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.4.6
+- id: spcpt_qCCdRZPVCkRJRmqG
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Periodicity of Chemical Properties of the Elements in Period 3
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+- id: spcpt_qD2VzcDXjsjC5k9j
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Enthalpy Change, ΔH
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_qDgtcCxSVxWwxNfy
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Characteristic Organic Reactions
+  head_source: note_topic_title
+  matched_codes:
+  - 13.2.1
+  - 13.2.2
+- id: spcpt_qd7Tc37DJzJjRrmk
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Esters
+  head_source: note_topic_title
+  matched_codes:
+  - 18.2.1
+  - 18.2.2
+- id: spcpt_qqWktwTJtr7snDF9
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alcohols
+  head_source: note_topic_title
+  matched_codes:
+  - 16.1.1
+  - 16.1.2
+  - 16.1.3
+  - 16.1.4
+  - 16.1.5
+- id: spcpt_qzx4VbjHZKNywYNz
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Shapes of Organic Molecules; σ & π Bonds
+  head_source: note_topic_title
+  matched_codes:
+  - 13.3.1
+  - 13.3.2
+  - 13.3.3
+  - 13.3.4
+- id: spcpt_sFJ6ZPXvkT79fC2f
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'The Gaseous State: Ideal & Real Gases & pV = nRT'
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+- id: spcpt_sqZ99NMZvSzmpf4v
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Isomerism: Structural Isomerism & Stereoisomerism'
+  head_source: note_topic_title
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.4.6
+- id: spcpt_swkZRwSVcdT2zFZB
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Alkenes
+  head_source: note_topic_title
+  matched_codes:
+  - 14.2.1
+  - 14.2.2
+  - 14.2.3
+  - 14.2.4
+  - 14.2.5
+- id: spcpt_sxWZPvSF3Y2Jk76v
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Enthalpy Change, ΔH
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_tCRzWvJsYwc8Wf2y
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Covalent Bonding & Coordinate (Dative Covalent) Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_txt4gPnzhw6M2BTz
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Intermolecular Forces, Electronegativity & Bond Properties
+  head_source: note_topic_title
+  matched_codes:
+  - 3.6.1
+  - 3.6.2
+  - 3.6.3
+  - 3.6.4
+- id: spcpt_v2jg9zFZQVxnN3S7
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Nitrogen & Sulfur
+  head_source: note_topic_title
+  matched_codes:
+  - 12.1.1
+  - 12.1.2
+  - 12.1.3
+  - 12.1.4
+  - 12.1.5
+- id: spcpt_vDvxQ62H6Hs4cSz4
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Mass Spectrometry
+  head_source: note_topic_title
+  matched_codes:
+  - 22.2.1
+  - 22.2.2
+  - 22.2.3
+  - 22.2.4
+  - 22.2.5
+- id: spcpt_vzpcy8Qmb5b3YQQR
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Particles in the Atom & Atomic Radius
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  - 1.1.6
+  - 1.1.7
+- id: spcpt_w4fyM4CPRXhQHM4b
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Effect of Temperature on Reaction Rates & the Concept of Activation Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 8.2.1
+  - 8.2.2
+  - 8.2.3
+- id: spcpt_wCq3cvHxBcjcPq9s
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Isotopes
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+- id: spcpt_wMmgX5bpCKqKvXws
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Isotopes
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+- id: spcpt_x9Dsh6x8GkYtQFYg
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Organic Synthesis
+  head_source: note_topic_title
+  matched_codes:
+  - 21.1.1
+  - 21.1.2
+  - 21.1.3
+  - 21.1.4
+- id: spcpt_xNhdSSTW5sNGvVHn
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: 'Redox Processes: Electron Transfer & Changes in Oxidation Number (Oxidation State)'
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+- id: spcpt_y2WBtQ8CHYb4CPW3
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_yVqXHvZMbCYqrTPB
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Nitrogen & Sulfur
+  head_source: note_topic_title
+  matched_codes:
+  - 12.1.1
+  - 12.1.2
+  - 12.1.3
+  - 12.1.4
+  - 12.1.5
+- id: spcpt_yXBkCC4sjD5KyPrZ
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Ionisation Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+  - 1.4.4
+  - 1.4.5
+  - 1.4.6
+  - 1.4.7
+  - 1.4.8
+- id: spcpt_yhKk4653BYD9KxN3
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electronegativity & Bonding
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+- id: spcpt_yvtTnSvdhCFZfhBr
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Mass Spectrometry
+  head_source: note_topic_title
+  matched_codes:
+  - 22.2.1
+  - 22.2.2
+  - 22.2.3
+  - 22.2.4
+  - 22.2.5
+- id: spcpt_z2rXCjQxxfBQW8d3
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Electrons, Energy Levels & Atomic Orbitals
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - 1.3.4
+  - 1.3.5
+  - 1.3.6
+  - 1.3.7
+  - 1.3.8
+  - 1.3.9
+- id: spcpt_zb9mdZDfSD9sPHYQ
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Particles in the Atom & Atomic Radius
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  - 1.1.6
+  - 1.1.7
+- id: spcpt_znnzS2DjDCp4GJWP
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Halogenoalkanes
+  head_source: note_topic_title
+  matched_codes:
+  - 15.1.1
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  - 15.1.6
+  - 15.1.7
+- id: spcpt_zxXBHct9dxm29PtD
+  lane: cie-as-chemistry-25
+  reason: finer_than_official_subsection
+  head: Ionisation Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+  - 1.4.4
+  - 1.4.5
+  - 1.4.6
+  - 1.4.7
+  - 1.4.8
+- id: spcpt_2PC6sXWn2btbfPK7
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Testing & Maintenance
+  head_source: note_topic_title
+  matched_codes:
+  - 12.3.1
+  - 12.3.2
+  - 12.3.3
+  - 12.3.4
+  - 12.3.5
+  - 12.3.6
+  - 12.3.7
+  - 12.3.8
+- id: spcpt_32jYtVRJtPznbZjb
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Integrity
+  head_source: note_topic_title
+  matched_codes:
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+- id: spcpt_35XGDBgFXDK2HZTH
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_3cMhSypHmPYmSpGB
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_3jfBCFWwyPC7VNtG
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_4Dn6vThMXRCq8x22
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Logic Gates & Logic Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+  - 3.2.5
+  - 3.2.6
+  - 3.2.7
+  - 3.2.8
+  - 3.2.9
+- id: spcpt_524dyCyXXWhkGfNr
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Bit Manipulation
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+  - 4.3.3
+  - 4.3.4
+- id: spcpt_5RdXPcmMFgBQyRjC
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Development Life cycle
+  head_source: note_topic_title
+  matched_codes:
+  - 12.1.1
+  - 12.1.2
+  - 12.1.3
+  - 12.1.4
+- id: spcpt_5XKWt64PcsV2w3K2
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Management Systems (DBMS)
+  head_source: note_topic_title
+  matched_codes:
+  - 8.2.1
+  - 8.2.2
+- id: spcpt_67PDQnXVdWtKXMxv
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Language Translators
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+  - 5.2.5
+  - 5.2.6
+  - 5.2.7
+- id: spcpt_6n4XbSGGc38X55SY
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Types & Records
+  head_source: note_topic_title
+  matched_codes:
+  - 10.1.1
+  - 10.1.2
+- id: spcpt_7jM928mhSzWFBWTz
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Security
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_7t9KdWBjJVFtTGQ3
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_85byqGdccCjpsRNT
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Language Translators
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+  - 5.2.5
+  - 5.2.6
+  - 5.2.7
+- id: spcpt_87TFdzgnwr8ybjNV
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Compression
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_8khG62swj8NKqrXS
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_9R8nsRMhTH6vBgbw
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_9s6ft5c2ryVvfNMH
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Assembly Language
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+  - 4.2.3
+  - 4.2.4
+  - 4.2.5
+- id: spcpt_BFJrYVrQVzB43M36
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Multimedia
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+  - 1.2.6
+  - 1.2.7
+  - 1.2.8
+- id: spcpt_Bmqnddvw6dPdVw3M
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Ethics & Ownership
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+- id: spcpt_CzpJmK3GTyQDRnpk
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_DTB8jjHzTdHVpnC2
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Arrays
+  head_source: note_topic_title
+  matched_codes:
+  - 10.2.1
+  - 10.2.2
+  - 10.2.3
+  - 10.2.4
+- id: spcpt_JSpsp5hvwsWwRzdX
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Language Translators
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+  - 5.2.5
+  - 5.2.6
+  - 5.2.7
+- id: spcpt_Jzc94wqW4BKp2pmd
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Ethics & Ownership
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+- id: spcpt_K5x493txHdkbQvJt
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_MWjXCg8hDQwNBCQn
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Multimedia
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+  - 1.2.6
+  - 1.2.7
+  - 1.2.8
+- id: spcpt_N8XKYrJwZSkNn4CF
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_NnMxGWyGN55Xt4t5
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_P787CgxNkKFMC6Sx
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_PfZ6VmBkxyXVhWZd
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Assembly Language
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+  - 4.2.3
+  - 4.2.4
+  - 4.2.5
+- id: spcpt_Q4M6BsPSYkPpsctR
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Integrity
+  head_source: note_topic_title
+  matched_codes:
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+- id: spcpt_Qvb42C5bb4FRt58W
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Operating Systems
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+- id: spcpt_Qwcvb7R46yWB7bgy
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Integrity
+  head_source: note_topic_title
+  matched_codes:
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+- id: spcpt_RgSwb9JrytxxJ6Cv
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Introduction to Abstract Data Types (ADT)
+  head_source: note_topic_title
+  matched_codes:
+  - 10.4.1
+  - 10.4.2
+  - 10.4.3
+  - 10.4.4
+- id: spcpt_SZCsB8JMfyN8zsRR
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Arrays
+  head_source: note_topic_title
+  matched_codes:
+  - 10.2.1
+  - 10.2.2
+  - 10.2.3
+  - 10.2.4
+- id: spcpt_Sw7xjscGJpcy44GB
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Assembly Language
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+  - 4.2.3
+  - 4.2.4
+  - 4.2.5
+- id: spcpt_TB8bWgz3Rzb9Fnxr
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Development Life cycle
+  head_source: note_topic_title
+  matched_codes:
+  - 12.1.1
+  - 12.1.2
+  - 12.1.3
+  - 12.1.4
+- id: spcpt_TWY32Pg5w73rKmNQ
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Development Life cycle
+  head_source: note_topic_title
+  matched_codes:
+  - 12.1.1
+  - 12.1.2
+  - 12.1.3
+  - 12.1.4
+- id: spcpt_VHypZnvZQn7CxhFg
+  lane: cie-as-computer-science-19
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.1.5
+  - 4.1.4
+- id: spcpt_VMP6ksfMD7mZPq5Y
+  lane: cie-as-computer-science-19
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 11.1.7
+  - 11.3.6
+  - 12.2.1
+  - 3.2.4
+- id: spcpt_VWvqb7ST5nKbXx5F
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_VcpvK83fpd9H7CyF
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Logic Gates & Logic Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+  - 3.2.5
+  - 3.2.6
+  - 3.2.7
+  - 3.2.8
+  - 3.2.9
+- id: spcpt_WHbBx8dF2xkkkZDB
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Multimedia
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+  - 1.2.6
+  - 1.2.7
+  - 1.2.8
+- id: spcpt_WN37ppXhzxdy2v2d
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_WNyy3hqQgGcqb3Nm
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_XDpr3szNcPW7PdyK
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Security
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_XdgV5kCRhdjch4fd
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_XjJ6QDc8QQjfDmS6
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Multimedia
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+  - 1.2.6
+  - 1.2.7
+  - 1.2.8
+- id: spcpt_Xx75Cy99C8czCVfW
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_Y338wwMbry4QFs9p
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Introduction to Abstract Data Types (ADT)
+  head_source: note_topic_title
+  matched_codes:
+  - 10.4.1
+  - 10.4.2
+  - 10.4.3
+  - 10.4.4
+- id: spcpt_YBstypxKj78qxn3V
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Logic Gates & Logic Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+  - 3.2.5
+  - 3.2.6
+  - 3.2.7
+  - 3.2.8
+  - 3.2.9
+- id: spcpt_YFT6RKY5hvgMzdtv
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Constructs
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+  - 11.2.7
+- id: spcpt_YcKmJk8jHkbXrXGg
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Logic Gates & Logic Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+  - 3.2.5
+  - 3.2.6
+  - 3.2.7
+  - 3.2.8
+  - 3.2.9
+- id: spcpt_YqckDNpBf2DVyRcM
+  lane: cie-as-computer-science-19
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 11.3.6
+  - 12.2.1
+- id: spcpt_Yr56xgwmtZfJRwFS
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Assembly Language
+  head_source: note_topic_title
+  matched_codes:
+  - 4.2.1
+  - 4.2.2
+  - 4.2.3
+  - 4.2.4
+  - 4.2.5
+- id: spcpt_YvWkT6ZkT2qFRBpN
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_YvhTymvGYBsBHZVH
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Definition Language (DDL) & Data Manipulation Language (DML)
+  head_source: note_topic_title
+  matched_codes:
+  - 8.3.1
+  - 8.3.2
+  - 8.3.3
+  - 8.3.4
+- id: spcpt_ZChTwM4bV6bXWSph
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_ZSfwmXYvdV7kmcfb
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_bFTK3SSwQbzFc56K
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_bWgGRw9zx4RPDwBg
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Ethics & Ownership
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+- id: spcpt_bqQt8GM3cSgzZKgq
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Testing & Maintenance
+  head_source: note_topic_title
+  matched_codes:
+  - 12.3.1
+  - 12.3.2
+  - 12.3.3
+  - 12.3.4
+  - 12.3.5
+  - 12.3.6
+  - 12.3.7
+  - 12.3.8
+- id: spcpt_bqzYdcsnyb2D44d8
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Types & Records
+  head_source: note_topic_title
+  matched_codes:
+  - 10.1.1
+  - 10.1.2
+- id: spcpt_bsXwjxYjByd2Drmb
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Definition Language (DDL) & Data Manipulation Language (DML)
+  head_source: note_topic_title
+  matched_codes:
+  - 8.3.1
+  - 8.3.2
+  - 8.3.3
+  - 8.3.4
+- id: spcpt_bxsBsBSGhJ5VdwYJ
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Management Systems (DBMS)
+  head_source: note_topic_title
+  matched_codes:
+  - 8.2.1
+  - 8.2.2
+- id: spcpt_c32hVzKhMjckFJNB
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Language Translators
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+  - 5.2.3
+  - 5.2.4
+  - 5.2.5
+  - 5.2.6
+  - 5.2.7
+- id: spcpt_dFZDFtbK5sqy4WNY
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Representation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_dQ4JhDcjqMDgBtCp
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_dTCKSSntqmpQVQ4j
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Security
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_ddMfxchnq2rSTShF
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_fRKsxFstsrW5XrCd
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Testing & Maintenance
+  head_source: note_topic_title
+  matched_codes:
+  - 12.3.1
+  - 12.3.2
+  - 12.3.3
+  - 12.3.4
+  - 12.3.5
+  - 12.3.6
+  - 12.3.7
+  - 12.3.8
+- id: spcpt_fmwRkQgR9K4kRNxC
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Compression
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_fy5rvn3N9g9J4KDK
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Ethics & Ownership
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+- id: spcpt_g479XG5RwhPpvbPn
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Multimedia
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+  - 1.2.6
+  - 1.2.7
+  - 1.2.8
+- id: spcpt_gr3kVz8hgYt7FzCt
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Logic Gates & Logic Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+  - 3.2.5
+  - 3.2.6
+  - 3.2.7
+  - 3.2.8
+  - 3.2.9
+- id: spcpt_gtz89tmjhC4zK57C
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_h2PT9qYZGR6gtQrJ
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Data Security
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_hX5K6kTVmtbwrwv8
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Structured Programming
+  head_source: note_topic_title
+  matched_codes:
+  - 11.3.1
+  - 11.3.2
+  - 11.3.3
+  - 11.3.4
+  - 11.3.5
+  - 11.3.6
+  - 11.3.7
+- id: spcpt_hcX5gFV85CjPxKGc
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_jV3jdn2q4Wv6vVmY
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Testing & Maintenance
+  head_source: note_topic_title
+  matched_codes:
+  - 12.3.1
+  - 12.3.2
+  - 12.3.3
+  - 12.3.4
+  - 12.3.5
+  - 12.3.6
+  - 12.3.7
+  - 12.3.8
+- id: spcpt_jkYK6w8Q6sPrtB2v
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Operating Systems
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+- id: spcpt_jvdKMHxvtM9crtGx
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Compression
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_jw3J5d9XNpWJcJDM
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_kPFqHZBnn5Wk2ztV
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Compression
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_ky6dXSQyCVpC8pHf
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_mkQtdg2xB6dgPMsJ
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_njs3DqJ4DBNZfMM5
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Multimedia
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+  - 1.2.6
+  - 1.2.7
+  - 1.2.8
+- id: spcpt_nt6wCsbXQScDX5S8
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_nxXYPdhQmhNPS4bX
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Programming Basics
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+- id: spcpt_p6gdsGKbBwW2jTbr
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Constructs
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+  - 11.2.7
+- id: spcpt_rkVZyJmwwKynTj9B
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_rmcnBZJ4KpBrs933
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_sWprJjYGW6NjMnHZ
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Program Design
+  head_source: note_topic_title
+  matched_codes:
+  - 12.2.1
+  - 12.2.2
+- id: spcpt_t5QxGmPqkFwzJk84
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Files
+  head_source: note_topic_title
+  matched_codes:
+  - 10.3.1
+  - 10.3.2
+- id: spcpt_tNJPwB3kcrYK7ghk
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Central Processing Unit (CPU) Architecture
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+  - 4.1.5
+  - 4.1.6
+  - 4.1.7
+  - 4.1.8
+- id: spcpt_tQ74wpHyRyJwcbWH
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Algorithms
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.10
+  - 9.2.11
+  - 9.2.2
+  - 9.2.3
+  - 9.2.4
+  - 9.2.5
+  - 9.2.6
+  - 9.2.7
+  - 9.2.8
+  - 9.2.9
+- id: spcpt_v3by4SFDxGTZgfwP
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Database Concepts
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+  - 8.1.5
+  - 8.1.6
+  - 8.1.7
+- id: spcpt_wPhvFYpKRJJwwdPN
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Programming Basics
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+- id: spcpt_wfnrVzQMrY4sr2pc
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Ethics & Ownership
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+- id: spcpt_yHBkxv6wzfq5Grqk
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Constructs
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+  - 11.2.7
+- id: spcpt_ywfgTSkKDNwWtyth
+  lane: cie-as-computer-science-19
+  reason: finer_than_official_subsection
+  head: Introduction to Abstract Data Types (ADT)
+  head_source: note_topic_title
+  matched_codes:
+  - 10.4.1
+  - 10.4.2
+  - 10.4.3
+  - 10.4.4
+- id: spcpt_z595zm7HJjPQnskj
+  lane: cie-as-computer-science-19
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.2.1
+  - 10.2.3
+  - 10.4.4
+- id: spcpt_T3w5XpX45nsNRxxB
+  lane: cie-as-maths-20-mechanics
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.5.1
+  - 4.5.3
+  - 4.5.4
+- id: spcpt_sbN2WmtqbjBPGhqj
+  lane: cie-as-maths-20-mechanics
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+- id: spcpt_3xYZCn7v29hmt6Fj
+  lane: cie-as-maths-20-probability-and-statistics-1
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.2
+  - 5.1.4
+- id: spcpt_ZngQR7349ZkzPMCf
+  lane: cie-as-maths-20-probability-and-statistics-1
+  reason: finer_than_official_subsection
+  head: Representation of Data
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+- id: spcpt_fVVc579xDmZm4X5t
+  lane: cie-as-maths-20-probability-and-statistics-1
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.2.5
+  - 5.3.1
+- id: spcpt_fmTnTmHBb5Jfd88N
+  lane: cie-as-maths-20-probability-and-statistics-1
+  reason: finer_than_official_subsection
+  head: Representation of Data
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+- id: spcpt_gNXFxJ55T59nCGk5
+  lane: cie-as-maths-20-probability-and-statistics-1
+  reason: finer_than_official_subsection
+  head: Discrete Random Variables
+  head_source: spcpt_name
+  matched_codes:
+  - 5.4.1
+  - 5.4.2
+  - 5.4.3
+- id: spcpt_v9GnPyX4sbCvf8Ff
+  lane: cie-as-maths-20-probability-and-statistics-1
+  reason: finer_than_official_subsection
+  head: Permutations & Combinations
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+- id: spcpt_9wHvtG7MnxXjQrxQ
+  lane: cie-as-maths-20-pure-1
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.1.1
+  - 1.1.3
+- id: spcpt_BDJMvyt2SwNGyFPd
+  lane: cie-as-maths-20-pure-1
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.5.3
+  - 2.2.2
+  - 3.2.2
+- id: spcpt_BPzK4hYjprckscTt
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Functions
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+  - 1.2.5
+- id: spcpt_H5Cx6bgK8Tw23S9k
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Quadratics
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_Jzb4MpfMDbXWqFCZ
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Differentiation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.7.1
+  - 1.7.2
+  - 1.7.3
+  - 1.7.4
+  - 2.4.1
+  - 2.4.2
+  - 2.4.3
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_K8vvF73Wwzx3844Q
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Integration
+  head_source: note_topic_title
+  matched_codes:
+  - 1.8.1
+  - 1.8.2
+  - 1.8.3
+  - 1.8.4
+  - 2.5.1
+  - 2.5.2
+  - 2.5.3
+  - 3.5.1
+  - 3.5.2
+  - 3.5.3
+  - 3.5.4
+  - 3.5.5
+  - 3.5.6
+- id: spcpt_NVNxKQc5Sxp3TjVc
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Quadratics
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_W3hwHXtqPNktSS4H
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Differentiation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.7.1
+  - 1.7.2
+  - 1.7.3
+  - 1.7.4
+  - 2.4.1
+  - 2.4.2
+  - 2.4.3
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_hBBQtQpzy6DFVZ5J
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Integration
+  head_source: note_topic_title
+  matched_codes:
+  - 1.8.1
+  - 1.8.2
+  - 1.8.3
+  - 1.8.4
+  - 2.5.1
+  - 2.5.2
+  - 2.5.3
+  - 3.5.1
+  - 3.5.2
+  - 3.5.3
+  - 3.5.4
+  - 3.5.5
+  - 3.5.6
+- id: spcpt_hdXTr8Z4VwKvhRrV
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Quadratics
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_nf42jP8ryNYhJYVk
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Quadratics
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_nmXTYZr7f4GYGMVq
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Quadratics
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_rd5TcbbZnVFFCh7N
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Integration
+  head_source: note_topic_title
+  matched_codes:
+  - 1.8.1
+  - 1.8.2
+  - 1.8.3
+  - 1.8.4
+  - 2.5.1
+  - 2.5.2
+  - 2.5.3
+  - 3.5.1
+  - 3.5.2
+  - 3.5.3
+  - 3.5.4
+  - 3.5.5
+  - 3.5.6
+- id: spcpt_tbPsJgvsZprv2s82
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Quadratics
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+- id: spcpt_vHVvC2TmqrTFqBq7
+  lane: cie-as-maths-20-pure-1
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.3.1
+  - 3.7.4
+- id: spcpt_vwFJKqrJdkHZzdFk
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Integration
+  head_source: note_topic_title
+  matched_codes:
+  - 1.8.1
+  - 1.8.2
+  - 1.8.3
+  - 1.8.4
+  - 2.5.1
+  - 2.5.2
+  - 2.5.3
+  - 3.5.1
+  - 3.5.2
+  - 3.5.3
+  - 3.5.4
+  - 3.5.5
+  - 3.5.6
+- id: spcpt_wJGf7zpK3Gh4tmH7
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Differentiation
+  head_source: note_topic_title
+  matched_codes:
+  - 1.7.1
+  - 1.7.2
+  - 1.7.3
+  - 1.7.4
+  - 2.4.1
+  - 2.4.2
+  - 2.4.3
+  - 3.4.1
+  - 3.4.2
+  - 3.4.3
+- id: spcpt_y96dW6qr3hvnDpFJ
+  lane: cie-as-maths-20-pure-1
+  reason: finer_than_official_subsection
+  head: Integration
+  head_source: note_topic_title
+  matched_codes:
+  - 1.8.1
+  - 1.8.2
+  - 1.8.3
+  - 1.8.4
+  - 2.5.1
+  - 2.5.2
+  - 2.5.3
+  - 3.5.1
+  - 3.5.2
+  - 3.5.3
+  - 3.5.4
+  - 3.5.5
+  - 3.5.6
+- id: spcpt_9hj7RrpSwthZMfPM
+  lane: cie-as-maths-20-pure-2
+  reason: finer_than_official_subsection
+  head: Logarithmic & Exponential Functions
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_PCpf3jBwZjZyVDhQ
+  lane: cie-as-maths-20-pure-2
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.2.1
+  - 3.2.1
+- id: spcpt_YBNtct7qsnsY754w
+  lane: cie-as-maths-20-pure-2
+  reason: finer_than_official_subsection
+  head: Logarithmic & Exponential Functions
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_ZNpcttH3C8QZc9WH
+  lane: cie-as-maths-20-pure-2
+  reason: finer_than_official_subsection
+  head: Logarithmic & Exponential Functions
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_bT9c3ZnCxT8fhbqM
+  lane: cie-as-maths-20-pure-2
+  reason: finer_than_official_subsection
+  head: Logarithmic & Exponential Functions
+  head_source: note_topic_title
+  matched_codes:
+  - 2.2.1
+  - 2.2.2
+  - 2.2.3
+  - 2.2.4
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+- id: spcpt_27WZkBh2yqyFxxm3
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Energy Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_2C6m4RkrKJ5kky72
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Fundamental Particles
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+- id: spcpt_337BCv49v82TDSXm
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.1.7
+  - 3.2.1
+  - 3.2.2
+- id: spcpt_3BNYcVFfvX5d2fVt
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Practical Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 10.1.1
+  - 10.1.2
+  - 10.1.3
+  - 10.1.4
+  - 10.1.5
+- id: spcpt_3FdkPXGJ3SjWhMDH
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.2.5
+  - 10.2.6
+- id: spcpt_3c3Gm5f29KyYm8F9
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_3cgkc28nr2qVsFrY
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Kirchhoff’s Laws
+  head_source: note_topic_title
+  matched_codes:
+  - 10.2.1
+  - 10.2.2
+  - 10.2.3
+  - 10.2.4
+  - 10.2.5
+  - 10.2.6
+  - 10.2.7
+- id: spcpt_4KhwwYmwPbgcrh5z
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+- id: spcpt_5hrMqSQDrV95Z89Q
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Potential Dividers
+  head_source: note_topic_title
+  matched_codes:
+  - 10.3.1
+  - 10.3.2
+  - 10.3.3
+  - 10.3.4
+- id: spcpt_5sBYpfWW8sKYCvyh
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Resistance & Resistivity
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.5
+  - 9.3.6
+  - 9.3.7
+  - 9.3.8
+- id: spcpt_64rfKPPJWQ3Y5v2f
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Errors & Uncertainties
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_6Fy7GcthB6MmXJfw
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Energy Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_6GDf9qQyHvqtdZMB
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Transverse & Longitudinal Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.2.1
+  - 7.2.2
+- id: spcpt_6NXVF3SjSN942YDg
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Kirchhoff’s Laws
+  head_source: note_topic_title
+  matched_codes:
+  - 10.2.1
+  - 10.2.2
+  - 10.2.3
+  - 10.2.4
+  - 10.2.5
+  - 10.2.6
+  - 10.2.7
+- id: spcpt_6cm5kKfgJrwNxXcv
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Equations of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 2.1.1
+  - 2.1.2
+  - 2.1.3
+  - 2.1.4
+  - 2.1.5
+  - 2.1.6
+  - 2.1.7
+  - 2.1.8
+  - 2.1.9
+- id: spcpt_7TppPh7zy5C2NV9h
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Elastic & Plastic Behaviour
+  head_source: note_topic_title
+  matched_codes:
+  - 6.2.1
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+- id: spcpt_7qt3D5SyqV9S6sgd
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Equations of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 2.1.1
+  - 2.1.2
+  - 2.1.3
+  - 2.1.4
+  - 2.1.5
+  - 2.1.6
+  - 2.1.7
+  - 2.1.8
+  - 2.1.9
+- id: spcpt_9jsfFCnBWCnx7QCp
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Kirchhoff’s Laws
+  head_source: note_topic_title
+  matched_codes:
+  - 10.2.1
+  - 10.2.2
+  - 10.2.3
+  - 10.2.4
+  - 10.2.5
+  - 10.2.6
+  - 10.2.7
+- id: spcpt_9nbCDjwsqMtCwxtJ
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Practical Circuits
+  head_source: note_topic_title
+  matched_codes:
+  - 10.1.1
+  - 10.1.2
+  - 10.1.3
+  - 10.1.4
+  - 10.1.5
+- id: spcpt_9nvVcWsfBYyXnrnD
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.2.2
+  - 4.2.3
+- id: spcpt_CgYnfnbfmYcTQx4h
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.1
+  - 5.1.5
+  - 6.2.2
+- id: spcpt_Gd4zWNXbrngcrJvh
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Stationary Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+- id: spcpt_GjGfJZqJDTfVPpnf
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Resistance & Resistivity
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.5
+  - 9.3.6
+  - 9.3.7
+  - 9.3.8
+- id: spcpt_HF9Sn3fSM6bjDpMh
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Potential Difference & Power
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+- id: spcpt_HKCxB84gdQWvBR4p
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Stress & Strain
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_JKyMNb7Tn4JVGkDb
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Physical Quantities
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_JVXyyR7549WKjmyV
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Fundamental Particles
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+- id: spcpt_JkmKvs9X3TBRdnRn
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electromagnetic Spectrum
+  head_source: note_topic_title
+  matched_codes:
+  - 7.4.1
+  - 7.4.2
+  - 7.4.3
+- id: spcpt_JwxWX7wQqcfzgxDB
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Resistance & Resistivity
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.5
+  - 9.3.6
+  - 9.3.7
+  - 9.3.8
+- id: spcpt_KcfypwC9VzMPbTfz
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electric Current
+  head_source: note_topic_title
+  matched_codes:
+  - 9.1.1
+  - 9.1.2
+  - 9.1.3
+  - 9.1.4
+- id: spcpt_KtKYQvpMnYvbVFpN
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Equations of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 2.1.1
+  - 2.1.2
+  - 2.1.3
+  - 2.1.4
+  - 2.1.5
+  - 2.1.6
+  - 2.1.7
+  - 2.1.8
+  - 2.1.9
+- id: spcpt_MB58W8fSnpXjxC7h
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.2.1
+  - 5.2.2
+- id: spcpt_MZ2VMVghHJ4prn34
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electromagnetic Spectrum
+  head_source: note_topic_title
+  matched_codes:
+  - 7.4.1
+  - 7.4.2
+  - 7.4.3
+- id: spcpt_NBcCzVYBtX7P2Gsx
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_Prtmyd7yKn2Vg43f
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_Q5pSpTZtccxnzV3J
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Doppler Effect for Sound Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.3.1
+  - 7.3.2
+- id: spcpt_QH3vrjn7YM2tvMYX
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Energy Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_RSSY9GnfpxwM3HZp
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.3.3
+  - 3.3.4
+  - 5.2.1
+- id: spcpt_RgWSd4ySqM6m5vqH
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.1.1
+  - 10.1.2
+- id: spcpt_Ryby57tW8GkT88Np
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Linear Momentum & its Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+  - 3.3.4
+- id: spcpt_SjsgPDdk3wZyc7ZZ
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Density & Pressure
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+  - 4.3.3
+  - 4.3.4
+  - 4.3.5
+  - 4.3.6
+- id: spcpt_VQbrcqSMndgSwnWZ
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Equations of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 2.1.1
+  - 2.1.2
+  - 2.1.3
+  - 2.1.4
+  - 2.1.5
+  - 2.1.6
+  - 2.1.7
+  - 2.1.8
+  - 2.1.9
+- id: spcpt_WNW77SZx5TnZVtYy
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Physical Quantities
+  head_source: note_topic_title
+  matched_codes:
+  - 1.1.1
+  - 1.1.2
+- id: spcpt_XHrPRQktRxshGd9J
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Progressive Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+  - 7.1.6
+  - 7.1.7
+- id: spcpt_XXYrjzbhDGc9qbbW
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electric Current
+  head_source: note_topic_title
+  matched_codes:
+  - 9.1.1
+  - 9.1.2
+  - 9.1.3
+  - 9.1.4
+- id: spcpt_YRDjHbg3wJmVBtP4
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: SI Units
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+- id: spcpt_YZ4GHX4FGJNjDzgg
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Resistance & Resistivity
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.5
+  - 9.3.6
+  - 9.3.7
+  - 9.3.8
+- id: spcpt_YcK6qGNKGmSfy7GD
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Doppler Effect for Sound Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.3.1
+  - 7.3.2
+- id: spcpt_YgstjQsHj29ZDHdD
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Progressive Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+  - 7.1.6
+  - 7.1.7
+- id: spcpt_YnJrmwQfzW9VS7cq
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Gravitational Potential Energy & Kinetic Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.1
+  - 5.2.1
+  - 5.2.2
+- id: spcpt_YyH4BMjdZ3FmSSDm
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_ZHGNdF5Z2WphFQt7
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Potential Dividers
+  head_source: note_topic_title
+  matched_codes:
+  - 10.3.1
+  - 10.3.2
+  - 10.3.3
+  - 10.3.4
+- id: spcpt_ZzSDSvvX8P9K4vPX
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_bMDSB3XgRFnNv9dv
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Equations of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 2.1.1
+  - 2.1.2
+  - 2.1.3
+  - 2.1.4
+  - 2.1.5
+  - 2.1.6
+  - 2.1.7
+  - 2.1.8
+  - 2.1.9
+- id: spcpt_bSgwKCG9dmvYKsqt
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.2.3
+  - 10.2.4
+- id: spcpt_cKrDnm4jfKmSdjPT
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Turning Effects of Forces
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+- id: spcpt_cSF2TgJrgW884gPT
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: The Diffraction Grating
+  head_source: note_topic_title
+  matched_codes:
+  - 8.4.1
+  - 8.4.2
+- id: spcpt_csp63TgCtqGHRZJq
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Momentum & Newton’s Laws of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+- id: spcpt_dRVGB6f6RGsF4xJd
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electromagnetic Spectrum
+  head_source: note_topic_title
+  matched_codes:
+  - 7.4.1
+  - 7.4.2
+  - 7.4.3
+- id: spcpt_dThCMkMgKjqg2bvF
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Fundamental Particles
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+- id: spcpt_dgVDp57yWTbBpq22
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electric Current
+  head_source: note_topic_title
+  matched_codes:
+  - 9.1.1
+  - 9.1.2
+  - 9.1.3
+  - 9.1.4
+- id: spcpt_fJbXNPMKqF3x4sk5
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_fPkN43MmdtfFGv8r
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Potential Difference & Power
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+- id: spcpt_gD2zVJW7jzFTBV22
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Linear Momentum & its Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+  - 3.3.4
+- id: spcpt_gTzrwyCSt8q6ShbB
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Equations of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 2.1.1
+  - 2.1.2
+  - 2.1.3
+  - 2.1.4
+  - 2.1.5
+  - 2.1.6
+  - 2.1.7
+  - 2.1.8
+  - 2.1.9
+- id: spcpt_gxMqFRS6hsJQQxYJ
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Stationary Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 8.1.1
+  - 8.1.2
+  - 8.1.3
+  - 8.1.4
+- id: spcpt_h6NbBGYsyXWxvvYf
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.1.4
+  - 4.2.2
+- id: spcpt_hSJBJS2BwzqkNWJH
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Momentum & Newton’s Laws of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+- id: spcpt_hbB5GHwNkXjXswMf
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.3.1
+  - 4.3.3
+  - 9.1.4
+- id: spcpt_hqmJY4MT3zxKmGNj
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_hrbzWr899PZXT5mW
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_jV2kHfbbq9DcCtyn
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.1.6
+  - 4.1.1
+- id: spcpt_jdZ8RV8Y8Jh7Zxf2
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Progressive Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+  - 7.1.6
+  - 7.1.7
+- id: spcpt_kHV3G2J8QHxHDrwD
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Errors & Uncertainties
+  head_source: note_topic_title
+  matched_codes:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+- id: spcpt_kzcXNKXm2xNWgV9t
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Scalars & Vectors
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+- id: spcpt_n84StRzstN92gw7y
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Potential Difference & Power
+  head_source: note_topic_title
+  matched_codes:
+  - 9.2.1
+  - 9.2.2
+  - 9.2.3
+- id: spcpt_nJYct34mC6K2dDD4
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Density & Pressure
+  head_source: note_topic_title
+  matched_codes:
+  - 4.3.1
+  - 4.3.2
+  - 4.3.3
+  - 4.3.4
+  - 4.3.5
+  - 4.3.6
+- id: spcpt_njp6ry2sNRDTmT7R
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: SI Units
+  head_source: note_topic_title
+  matched_codes:
+  - 1.2.1
+  - 1.2.2
+  - 1.2.3
+  - 1.2.4
+- id: spcpt_pBSg9mht2kW4tsK5
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Diffraction
+  head_source: note_topic_title
+  matched_codes:
+  - 8.2.1
+  - 8.2.2
+- id: spcpt_pNVrCngkstSVjMdC
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Resistance & Resistivity
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.5
+  - 9.3.6
+  - 9.3.7
+  - 9.3.8
+- id: spcpt_qkG3QFFQHX9jszFb
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Stress & Strain
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_r9yyrTRvxs8TWQ9s
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Interference
+  head_source: note_topic_title
+  matched_codes:
+  - 8.3.1
+  - 8.3.2
+  - 8.3.3
+  - 8.3.4
+- id: spcpt_rSZ9X5wyPynJwXyR
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Diffraction
+  head_source: note_topic_title
+  matched_codes:
+  - 8.2.1
+  - 8.2.2
+- id: spcpt_rh44rqfKpHb6wrFc
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.3.2
+  - 4.3.3
+  - 4.3.5
+- id: spcpt_rtFYFkd5yRQkG4wt
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Elastic & Plastic Behaviour
+  head_source: note_topic_title
+  matched_codes:
+  - 6.2.1
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+- id: spcpt_s675kDyqfM2Zmp9y
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Stress & Strain
+  head_source: note_topic_title
+  matched_codes:
+  - 6.1.1
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.5
+  - 6.1.6
+- id: spcpt_szhqtdyjj7BhTrBs
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Linear Momentum & its Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  - 3.3.3
+  - 3.3.4
+- id: spcpt_tdR4BFt9BGNykp8J
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Turning Effects of Forces
+  head_source: note_topic_title
+  matched_codes:
+  - 4.1.1
+  - 4.1.2
+  - 4.1.3
+  - 4.1.4
+- id: spcpt_vMWx4bmbKcrgsSKq
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Momentum & Newton’s Laws of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+- id: spcpt_vpGVPqRG3j7cRwgn
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Momentum & Newton’s Laws of Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  - 3.1.6
+- id: spcpt_w392W8FRPQqd4h9p
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Progressive Waves
+  head_source: note_topic_title
+  matched_codes:
+  - 7.1.1
+  - 7.1.2
+  - 7.1.3
+  - 7.1.4
+  - 7.1.5
+  - 7.1.6
+  - 7.1.7
+- id: spcpt_w7pBqYM2Hd6FdHgk
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Electric Current
+  head_source: note_topic_title
+  matched_codes:
+  - 9.1.1
+  - 9.1.2
+  - 9.1.3
+  - 9.1.4
+- id: spcpt_wDvbGbb8SyMrMqjY
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Fundamental Particles
+  head_source: note_topic_title
+  matched_codes:
+  - 11.2.1
+  - 11.2.2
+  - 11.2.3
+  - 11.2.4
+  - 11.2.5
+  - 11.2.6
+- id: spcpt_wFM62cQnHjHTB8NT
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Scalars & Vectors
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+- id: spcpt_wVYyrdMv96X93GY7
+  lane: cie-as-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.3.5
+  - 4.3.6
+- id: spcpt_x93SGM3Gw4Rsq8Nt
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Energy Conservation
+  head_source: note_topic_title
+  matched_codes:
+  - 5.1.1
+  - 5.1.2
+  - 5.1.3
+  - 5.1.4
+  - 5.1.5
+  - 5.1.6
+  - 5.1.7
+- id: spcpt_xXMznwSNsjv3zqJ9
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Non-Uniform Motion
+  head_source: note_topic_title
+  matched_codes:
+  - 3.2.1
+  - 3.2.2
+  - 3.2.3
+- id: spcpt_xqjsjjmJBXKGz6pt
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Elastic & Plastic Behaviour
+  head_source: note_topic_title
+  matched_codes:
+  - 6.2.1
+  - 6.2.1
+  - 6.2.2
+  - 6.2.3
+- id: spcpt_yQxMM5BQ4NjtH9mF
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Gravitational Potential Energy & Kinetic Energy
+  head_source: note_topic_title
+  matched_codes:
+  - 5.2.1
+  - 5.2.1
+  - 5.2.1
+  - 5.2.2
+- id: spcpt_yVXK2DVnqCS7ryvz
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Resistance & Resistivity
+  head_source: note_topic_title
+  matched_codes:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.5
+  - 9.3.6
+  - 9.3.7
+  - 9.3.8
+- id: spcpt_ydx9sYYRygKDv6dp
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Scalars & Vectors
+  head_source: note_topic_title
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+- id: spcpt_z5rp3M9cKRm7sTZm
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_zCTzXqTt6Q6hpT8N
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: Atoms, Nuclei & Radiation
+  head_source: note_topic_title
+  matched_codes:
+  - 11.1.1
+  - 11.1.10
+  - 11.1.11
+  - 11.1.12
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.5
+  - 11.1.6
+  - 11.1.7
+  - 11.1.8
+  - 11.1.9
+- id: spcpt_zbG2Xc9VnZdqTwNG
+  lane: cie-as-physics-25
+  reason: finer_than_official_subsection
+  head: The Diffraction Grating
+  head_source: note_topic_title
+  matched_codes:
+  - 8.4.1
+  - 8.4.2

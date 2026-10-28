@@ -2236,18 +2236,18 @@
   "cie-as-chemistry-25": {
    "qual": "cie-a-level-chemistry-2025-2027",
    "items": 2068,
-   "items_with_codes": 387,
+   "items_with_codes": 528,
    "by_kind": {
     "notes": 134,
     "question_parts": 1934,
     "flashcards": 0
    },
    "coded_by_kind": {
-    "notes": 25,
-    "question_parts": 362,
+    "notes": 29,
+    "question_parts": 499,
     "flashcards": 0
    },
-   "pending_refs": 2157,
+   "pending_refs": 2006,
    "rejoin": {
     "lane": "T-SPECS-CIE-REJOIN-2",
     "resolved_pairs": 25,
@@ -2257,6 +2257,23 @@
      "J2_definition_phrase_identity": 0,
      "J3_name_text_identity": 0,
      "J4_name_phrase_identity": 25
+    }
+   },
+   "verdict": {
+    "lane": "T-SPECS-CIE-VERDICT-2",
+    "resolved_ids": 4,
+    "resolved_refs": 151,
+    "by_tier": {
+     "V1_name_text_identity": 0,
+     "V2_name_phrase_identity": 0,
+     "V3_subsection_head_identity": 4,
+     "V4_settext_title_identity": 0,
+     "V5_topic_scoped_phrase_identity": 0
+    },
+    "pending_reasons": {
+     "finer_than_official_subsection": 131,
+     "name_phrase_multi_text": 8,
+     "no_unique_identity": 11
     }
    }
   },
@@ -2290,18 +2307,18 @@
   "cie-as-business-23": {
    "qual": "cie-a-level-business-2023-2025",
    "items": 451,
-   "items_with_codes": 54,
+   "items_with_codes": 72,
    "by_kind": {
     "notes": 67,
     "question_parts": 384,
     "flashcards": 0
    },
    "coded_by_kind": {
-    "notes": 9,
-    "question_parts": 45,
+    "notes": 12,
+    "question_parts": 60,
     "flashcards": 0
    },
-   "pending_refs": 743,
+   "pending_refs": 710,
    "rejoin": {
     "lane": "T-SPECS-CIE-REJOIN-2",
     "resolved_pairs": 12,
@@ -2311,6 +2328,22 @@
      "J2_definition_phrase_identity": 0,
      "J3_name_text_identity": 4,
      "J4_name_phrase_identity": 8
+    }
+   },
+   "verdict": {
+    "lane": "T-SPECS-CIE-VERDICT-2",
+    "resolved_ids": 14,
+    "resolved_refs": 33,
+    "by_tier": {
+     "V1_name_text_identity": 0,
+     "V2_name_phrase_identity": 0,
+     "V3_subsection_head_identity": 14,
+     "V4_settext_title_identity": 0,
+     "V5_topic_scoped_phrase_identity": 0
+    },
+    "pending_reasons": {
+     "finer_than_official_subsection": 199,
+     "no_unique_identity": 17
     }
    }
   },
@@ -2968,5 +3001,26 @@
   "scope_law": "JOIN-2 AS scope law bounds every pool: AS Level-only (chem-25/phys-25/business-23), A-Level-marked excluded (cs-19), unscoped (9709 maths x4)",
   "state": "SUGGESTED",
   "note": "index re-join on the pending anchors of the 8 wave-2 AS lanes (JOIN-2 follow-on #1); engine-derived identity-grade text joins under the AS scope law, SUGGESTED until the next review/promotion gate (rule 2); no-evidence pairs stay pending honestly (rule 3)"
+ },
+ "cie_verdict_wave2as": {
+  "lane": "T-SPECS-CIE-VERDICT-2",
+  "applied_utc": "2026-10-29T12:00:00Z",
+  "directive": "verdict fills -> review gate -> v2 consume",
+  "gateway_trace": "1a183e66619bd6dd",
+  "base_commit": "251b46ba0bd9a08d66d57eca44fc8c80cd283289",
+  "lanes": 2,
+  "resolved_ids_total": 18,
+  "resolved_refs_total": 184,
+  "code_entries_added_total": 169,
+  "tier_policy": {
+   "V1_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool",
+   "V2_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text",
+   "V3_subsection_head_identity": "head == artifact-stripped single-point subsection title",
+   "V4_settext_title_identity": "note-name segment == quoted set-text title, unique (literature lanes only; pinned 0 for the wave-2 AS class)",
+   "V5_topic_scoped_phrase_identity": "topic-scoped disambiguation of a phrase ambiguity"
+  },
+  "scope_law": "JOIN-2 AS scope law bounds every pool (REJOIN-2 precedent, imported): AS Level-only (chem-25/phys-25/business-23), A-Level-marked excluded (cs-19), unscoped (9709 maths x4)",
+  "state": "SUGGESTED",
+  "note": "operator-verdict fills on the still-pending anchors of the 8 wave-2 AS lanes (REJOIN-2 NEXT #1); authoritative by construction (AGENT.md rule 1); SUGGESTED until the stage-#2 review/promotion gate (rule 2); no-evidence pairs stay pending honestly (rule 3)"
  }
 }

@@ -1,0 +1,56 @@
+{
+ "battery": "T-SPECS-CIE-VERDICT-2",
+ "all_pass": true,
+ "checks": [
+  {
+   "id": "1",
+   "pass": true,
+   "detail": "2 touched sidecars well-formed (additive verdict blocks appended last, SUGGESTED state, rejoin blocks byte-preserved, method/tier vocab)"
+  },
+  {
+   "id": "2",
+   "pass": true,
+   "detail": "mutation discipline: only codes-append (deduped) / pending-shrink / additive verdict blocks / recounted counters (universe_resolved join semantics); every other field deep-equal to HEAD"
+  },
+  {
+   "id": "3",
+   "pass": true,
+   "detail": "INDEPENDENT re-derivation + sheet bijection: all 18 resolves + 575 quarantines equal (fresh pools, fresh norm, fresh note substrate, fresh rule chain)"
+  },
+  {
+   "id": "4",
+   "pass": true,
+   "detail": "cascade integrity (codes dedup-correct, pendings shrunk exactly, anchors recounts, stats coherent); 169 code entries"
+  },
+  {
+   "id": "5",
+   "pass": true,
+   "detail": "manifest discipline: touched rows updated value-consistently, all pre-existing rows/keys preserved, cie_verdict_wave2as block additive + appended last"
+  },
+  {
+   "id": "6",
+   "pass": true,
+   "detail": "footprint 8 paths subset-of declared; spec-links delta == 2 sidecars + manifest; guards intact; 93 out-of-lane sidecars untouched"
+  },
+  {
+   "id": "7",
+   "pass": true,
+   "detail": "engine fixed-stamp re-run byte-identical (2 sidecars + manifest + sheet + stats)"
+  },
+  {
+   "id": "8",
+   "pass": true,
+   "detail": "honesty + scope pins: 2 record-less pairs still pending; V4 == 0 (AS lane class); all 18 resolves inside their lane's AS-scoped pool (raw predicate re-checked)"
+  },
+  {
+   "id": "9",
+   "pass": true,
+   "detail": "2-lane full-document rebuild from HEAD + independent resolutions == staged bytes (cie-as-business-23, cie-as-chemistry-25)"
+  },
+  {
+   "id": "10",
+   "pass": true,
+   "detail": "cross-foots: manifest rows 35692 -> 35508 (touched delta -184); 8-lane sidecar anchors 9326 -> 9142; reconciliation 800 pairs exact; ambiguous {'finer_than_official_subsection': 541, 'name_phrase_multi_text': 34}"
+  }
+ ]
+}
