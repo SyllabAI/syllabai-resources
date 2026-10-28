@@ -296,19 +296,12 @@ The table gives information about some gases. Complete the table by choosing a g
 **Mark scheme answer**
 
 > 4
-> Information Gas
-> the most abundant gas in air nitrogen
-> a toxic gas that is a product of
-> carbon
-> incomplete combustion of
-> monoxide
-> hydrocarbons
-> an unreactive gas that exists as
-> helium
-> atoms
-> a gas produced by the
-> methane
-> fractional distillation of crude oil
+> | Information | Gas |
+> | --- | --- |
+> | the most abundant gas in air | nitrogen |
+> | a toxic gas that is a product of incomplete combustion of hydrocarbons | carbon monoxide |
+> | an unreactive gas that exists as atoms | helium |
+> | a gas produced by the fractional distillation of crude oil | methane |
 
 - **(4)** 4
 

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T21:35:07Z",
+ "generated_utc": "2026-10-28T02:01:40Z",
  "series": "2021-06",
  "paper": "1C",
  "gates": [
@@ -34,7 +34,7 @@
   {
    "gate": "G2-D-disclosure",
    "status": "PASS",
-   "summary": "provenance matches reality for all 54 parts (0 disclosed, 54 extracted at ≥0.95 5-gram): True",
+   "summary": "provenance matches reality for all 54 parts (1 disclosed, 53 extracted at ≥0.95 5-gram): True",
    "details": {
     "violations": [],
     "min_ratio": 1.0
@@ -43,23 +43,25 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True; 0 drawing-option MCQ candidates (census, F94)",
    "details": {
-    "issues": []
+    "issues": [],
+    "drawing_option_mcq_candidates": []
    }
   },
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "9 asset records cover every table/diagram/grid/apparatus mention: 7 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
+   "summary": "10 asset records cover every table/diagram/grid/apparatus mention: 8 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor; 0 drawing-linearization gaps (census, F96)",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
-     "crops": 7,
+     "crops": 8,
      "pending": 1,
      "shared": 2
-    }
+    },
+    "drawing_gaps": []
    }
   },
   {
@@ -84,13 +86,21 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 54/54 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 51 parts, agrees with QP marks on 51",
+   "summary": "solution_md on 54/54 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 51 parts, agrees with QP marks on 51; 1 mark-point answer gaps (census, F95)",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 51,
     "ms_marks_agree": 51,
-    "ms_marks_disagree": []
+    "ms_marks_disagree": [],
+    "mp_answer_gap": [
+     {
+      "part": "10(c)(i)",
+      "mp_texts": [
+       "ALLOW any\nPb(NO3)2 (aq) + 2HCl (aq) → Pb"
+      ]
+     }
+    ]
    }
   }
  ],
@@ -116,11 +126,42 @@
   {
    "part": "8(b)(iii)",
    "reason": "figure crop required (diagram, page 19)"
+  },
+  {
+   "part": "10(c)(i)",
+   "reason": "mark-point answer gap: MPs are margin-note fragments / marks digit (MS answer is a printed drawing)"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 3,
+   "fffc_stripped": 0,
+   "table_sha256": "1baccf61622dc0e292384b46fe0f9c274f9415b699695d46348cda7653966e93",
+   "rules": [
+    {
+     "line": 580,
+     "sha1_12": "9d4c836d2001"
+    },
+    {
+     "line": 581,
+     "sha1_12": "0f17eae9ae89"
+    },
+    {
+     "line": 583,
+     "sha1_12": "e7f19e83ee5e"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 0,
+   "fffc_stripped": 0,
+   "table_sha256": "1baccf61622dc0e292384b46fe0f9c274f9415b699695d46348cda7653966e93",
+   "rules": []
+  }
+ },
  "wave20": {
-  "stem_figure_stubs": 2
+  "stem_figure_stubs": 3
  },
  "source_defects": {
   "image_only_pages": [
