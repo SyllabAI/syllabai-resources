@@ -27,7 +27,9 @@ Output: Official-Specifications/parsed/<qual>/<pdf-stem>.parsed.json
 import glob, hashlib, json, os, re, sys, datetime
 import pymupdf
 
-BASE = '/home/z/my-project/download/syllabai-resources/Official-Specifications'
+# T-SPECS-9696-4HI1: BASE is environment-overridable so lane worktrees can
+# parse their own checkout without touching the of-record download path
+BASE = os.environ.get('SPECS_BASE', '/home/z/my-project/download/syllabai-resources/Official-Specifications')
 OUT_BASE = f'{BASE}/parsed'
 PARSER_VERSION = 'spec-parser-1.0'
 
@@ -62,7 +64,11 @@ FAMILY = {
     'igcse-science-double-award-modular': 'code_column',
     'igcse-maths-b': 'further_maths',
     'igcse-english-language-a': 'english_lang_a',
+    # T-SPECS-9696-4HI1 (2026-10-28): Edexcel International GCSE History —
+    # paper-partitioned option tables, one prose statement per numbered row
+    'igcse-history': 'option_rows',
 }
+BULLET_RE = re.compile(r'^[•\u2013\u2014-]\s+(.*)$')
 UNIT_HDR = re.compile(r'^([A-Z]{1,2}\d{1,2})\.\d+\s+Unit content')
 SCI_HDR = re.compile(r'^(Biology|Chemistry|Physics)\s+content$', re.I)
 
@@ -1127,6 +1133,164 @@ def parse_english_lit(doc, kill, author_x=EL_AUTHOR_X, title_max=EL_TITLE_MAX):
 
 # ------------------------------------------------------------------ main -----
 
+def parse_option_rows(doc, kill):
+    """4HI1 Edexcel International GCSE History (T-SPECS-9696-4HI1, 2026-10-28):
+    paper-partitioned option tables.
+
+    Layout (span-verified):
+      - option heads: bold >=14pt, 'N Title, years' (Paper 1 depth studies,
+        N = 1..8) / 'A1|B1 Title' (Paper 2 investigation/breadth); titles wrap
+        onto continuation lines of the same size
+      - marker: 'What students need to study:' arms the row table
+      - rows: two-column table; LEFT (x0 < 200) = row number + wrapped row
+        title (bold 11pt; the number line starts 'N '); RIGHT (x0 >= 200) =
+        the row's statement prose (verbatim cell text, one statement per row)
+      - 'Sample assessment materials' (bold >=14pt) terminates the content
+    One spec_point per row: official_code '<opt>.<n>', synthesized-ordinal
+    point slot; topic = option, subsection = the row.
+    """
+    LEFT_MAX = 200          # right prose column starts at x0 ~246.6
+    HEAD_SZ = 12.5          # option/paper/marker heads are 14pt
+    statements, topics, subsecs = [], [], []
+    paper = None
+    opt = None              # confirmed option (marker seen)
+    pending_opt = None      # 14pt head awaiting 'What students need to study'
+    rows_open = False
+    row = None              # {'n','title_parts','prose_parts','bullets','page','oy'}
+    ordering = 0
+    prose_buf = []          # gap-buffered right-col lines (see below)
+    last_prose_oy = None
+
+    def flush_buf_into_row():
+        # buffered lines belong to the row being closed (tail) by default
+        if row is not None and prose_buf:
+            row['prose_parts'].extend(prose_buf)
+        prose_buf.clear()
+
+    def close_row():
+        nonlocal row, ordering
+        flush_buf_into_row()
+        if row is None or opt is None:
+            row = None
+            return
+        title = ' '.join(row['title_parts']).strip()
+        prose = ' '.join(row['prose_parts']).strip()
+        if not title or not prose:
+            row = None      # never invent: an unreadable row is dropped and
+            return          # surfaces as a count anomaly in the report
+        ordering += 1
+        code = f"{opt['number']}.{row['n']}"
+        subsec = {'code': code, 'title': title,
+                  'page': row['page'], 'oy': round(row['oy'], 1)}
+        subsecs.append(subsec)
+        statements.append({
+            'official_code': code, 'scope': opt.get('scope'),
+            'text': prose,
+            'topic': {'number': opt['number'], 'title': opt['title'],
+                      'page': opt['page'], 'oy': round(opt['oy'], 1)},
+            'subsection': subsec,
+            'sub_items': list(row['bullets']),
+            'ordering': ordering,
+            'page': row['page'], 'oy': round(row['oy'], 1),
+            'flags': ['synthesized-ordinal', 'option-row-prose'],
+        })
+        row = None
+
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        lines = visual_lines(spans)
+        for L in lines:
+            # split the visual line into left/right column sublines
+            left = [s for s in L['spans'] if s['x0'] < LEFT_MAX]
+            right = [s for s in L['spans'] if s['x0'] >= LEFT_MAX]
+            lt = ' '.join(s['text'].strip() for s in left).strip()
+            rt = ' '.join(s['text'].strip() for s in right).strip()
+            sz = max(L.get('sizes') or [0])
+            bold = L.get('bold')
+            if sz >= HEAD_SZ and bold:
+                if re.match(r'Sample assessment', lt or rt, re.I):
+                    return statements, topics, subsecs
+                m_paper = re.match(r'^(Paper \d)\s*[:\-]', lt)
+                if m_paper:
+                    close_row(); rows_open = False; opt = None
+                    pending_opt = None
+                    paper = m_paper.group(1)
+                    continue
+                m_opt = re.match(r'^([AB]?\d{1,2})\s+(.+)$', lt or '')
+                if m_opt:
+                    close_row(); rows_open = False
+                    # front matter ('1 About this specification') and the
+                    # trailing assessment/administration sections print at the
+                    # same 14pt — an option head is CONFIRMED only when its
+                    # 'What students need to study:' marker follows; until
+                    # then it is a pending head (replaced by the next head)
+                    pending_opt = {'number': m_opt.group(1),
+                                   'title': m_opt.group(2).strip(),
+                                   'page': pno + 1, 'oy': L['oy'],
+                                   'scope': paper}
+                    continue
+                if re.match(r'What students need to study', lt or rt, re.I):
+                    rows_open = True
+                    if pending_opt is not None:
+                        opt = pending_opt
+                        topics.append({'number': opt['number'], 'title': opt['title'],
+                                       'page': opt['page'], 'oy': round(opt['oy'], 1),
+                                       'ordering': len(topics) + 1,
+                                       'scope': opt['scope']})
+                        pending_opt = None
+                    continue
+                if pending_opt is not None and lt:
+                    # 14pt title continuation of the pending option head
+                    pending_opt['title'] = (pending_opt['title'].rstrip() + ' ' + lt).strip()
+                    continue
+                continue
+            if rows_open and opt is not None:
+                if lt:
+                    m_row = re.match(r'^(\d{1,2})\s+(.+)$', lt)
+                    if m_row and L['x0'] < 90:
+                        # the buffered right-col lines sitting just above the
+                        # row number (gap < 16pt) are the head of THIS row's
+                        # prose; otherwise they tail the closing row
+                        head_buf = bool(prose_buf) and (last_prose_oy is None
+                            or (L['oy'] - last_prose_oy) < 16)
+                        if head_buf:
+                            buf = list(prose_buf); prose_buf.clear()
+                            close_row()
+                            row = {'n': int(m_row.group(1)),
+                                   'title_parts': [m_row.group(2).strip()],
+                                   'prose_parts': buf, 'bullets': [],
+                                   'page': pno + 1, 'oy': L['oy']}
+                        else:
+                            close_row()
+                            row = {'n': int(m_row.group(1)),
+                                   'title_parts': [m_row.group(2).strip()],
+                                   'prose_parts': [], 'bullets': [],
+                                   'page': pno + 1, 'oy': L['oy']}
+                    elif row is not None:
+                        # wrapped row-title fragment (indented left column)
+                        row['title_parts'].append(lt)
+                if rt:
+                    if row is None:
+                        # row-1 orphan head: the prose cell starts above the
+                        # row-number line while no row is open yet
+                        prose_buf.append(rt)
+                        last_prose_oy = L['oy']
+                        continue
+                    gap = last_prose_oy is not None and (L['oy'] - last_prose_oy) > 24
+                    if BULLET_RE.match(rt):
+                        row['bullets'].append(BULLET_RE.match(rt).group(1).strip())
+                    elif gap:
+                        prose_buf.append(rt)   # may head the NEXT row
+                    elif prose_buf:
+                        prose_buf.append(rt)   # continues the buffered block
+                    else:
+                        row['prose_parts'].append(rt)
+                    last_prose_oy = L['oy']
+    close_row()
+    return statements, topics, subsecs
+
+
+
 def sha1_of(path):
     h = hashlib.sha1()
     with open(path, 'rb') as f:
@@ -1163,6 +1327,8 @@ def parse_pdf(pdf_path, qual_slug):
     elif fam == 'english_lang_a':
         statements, topics, subsecs = parse_english_lit(
             doc, kill, author_x=ELA_AUTHOR_X, title_max=ELA_TITLE_MAX)
+    elif fam == 'option_rows':
+        statements, topics, subsecs = parse_option_rows(doc, kill)
     else:
         statements, topics, subsecs = parse_code_column_bands(doc, kill)
     # finalize

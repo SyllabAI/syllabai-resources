@@ -59,7 +59,30 @@ FAMILY = {
     'cie-igcse-english-literature-2023-2025': 'heading_bullets',
     'cie-igcse-history-2024-2026': 'heading_bullets',
     'cie-as-english-general-paper-2028-2030': 'heading_bullets',
+
+    # T-SPECS-9696-4HI1 (2026-10-28, operator order: import the official spec
+    # PDFs, parse them, save them): 9696 AS & A Level Geography 2025-2026 is
+    # the one CIE qual whose parse was pending (parsed/ dir existed empty).
+    # Layout: numbered topics '1. Title' (DOT after the number, unlike 9709),
+    # N.M subheads, unnumbered sentence statements directly under subheads (no
+    # 'Candidates...' marker line), Paper headers '3.1 Paper 1 ...' to exclude.
+    'cie-a-level-geography-2025-2026': 'int_statements',
 }
+
+# --- 9696 per-qual adapter (same pattern as OUTCOMES_RIGHT / LIST_CAPTURE) ---
+# topic heads print 'N. Title' (dot after the number)
+TOPIC_DOT = {'cie-a-level-geography-2025-2026'}
+# statements begin immediately under a subhead with no marker line -> arm on
+# the subhead event
+ARM_ON_SUBHEAD = {'cie-a-level-geography-2025-2026'}
+# unnumbered sentence statements at normal line spacing: split a new statement
+# when the previous statement text ends with terminal punctuation and this line
+# starts capitalised (deterministic, text-layer-faithful; replaces the gap
+# heuristic which assumed spaced phrase rows)
+SENTENCE_SPLIT = {'cie-a-level-geography-2025-2026'}
+# '3.1 Paper 1 Core Physical Geography' section heads: NOT content subtopics
+PAPER_HEAD = re.compile(r'^\d{1,2}\.\d{1,2}\s+Paper\s+\d', re.I)
+PAPER_HEAD_QUALS = {'cie-a-level-geography-2025-2026'}
 
 # 9700 AL biology: two-column table, subtopic titles LEFT, outcomes RIGHT.
 OUTCOMES_RIGHT = {'cie-a-level-biology-2025-2027'}
@@ -411,8 +434,13 @@ def parse_int_statements(doc, kill, qual_slug=None):
                 topics.append(tp)
                 events.append((oy, 'topic', tp))
                 continue
-            m_t = re.match(r'^(\d{1,2})\s+([A-Z].+)$', t)
-            if m_t and L['bold'] and not re.match(r'^\d+\.\d', t) and L['x0'] < 200:
+            m_t = re.match(r'^(\d{1,2})\.?\s+([A-Z].+)$', t) if qual_slug in TOPIC_DOT \
+                else re.match(r'^(\d{1,2})\s+([A-Z].+)$', t)
+            # 9696: bold flags are absent from the PDF font table; hierarchy is
+            # font-SIZE encoded (topic heads 14pt vs body 10pt)
+            head_evidence = L['bold'] or (qual_slug in TOPIC_DOT
+                                          and max(L['sizes'] or [0]) >= 12.5)
+            if m_t and head_evidence and not re.match(r'^\d+\.\d', t) and L['x0'] < 200:
                 title = _clean_title(m_t.group(2))
                 if title not in TOPIC_DENY and not (
                         topics and topics[-1]['number'] == m_t.group(1)
@@ -426,7 +454,8 @@ def parse_int_statements(doc, kill, qual_slug=None):
                 continue
             m_s = re.match(r'^(\d{1,2}\.\d{1,2})\s+(.+)$', t)
             if m_s and len(m_s.group(2).strip()) > 1 and not NMK.match(t) \
-                    and not INT_LED.match(t) and L['x0'] < 200:
+                    and not INT_LED.match(t) and L['x0'] < 200 \
+                    and not (qual_slug in PAPER_HEAD_QUALS and PAPER_HEAD.match(t)):
                 title_s = _clean_title(m_s.group(2))
                 dup = any(s['code'] == m_s.group(1) and s['title'] == title_s
                           for s in subsecs[-4:])
@@ -453,7 +482,9 @@ def parse_int_statements(doc, kill, qual_slug=None):
                 elif ev[1] == 'sub':
                     state['sub'] = ev[2]
                     state['expect'] = None
-                    state['armed'] = False
+                    # 9696: statements begin directly under the subhead (no
+                    # marker line) -> arm on the subhead event
+                    state['armed'] = qual_slug in ARM_ON_SUBHEAD
 
         if outcomes_right and split:
             bands = ((split, 10000),)
@@ -483,6 +514,14 @@ def parse_int_statements(doc, kill, qual_slug=None):
                         state['armed'] = True
                     continue
                 if any(abs(L['oy'] - h[0]) < 2.0 for h in events):
+                    continue
+                if qual_slug in TOPIC_DOT and max(L['sizes'] or [0]) >= 12.5 \
+                        and state['topic'] is not None and state['sub'] is None \
+                        and topics and state['topic'] is topics[-1]:
+                    # 9696: a >12pt line that is neither topic nor subhead while
+                    # the topic is open and no subhead has applied = title
+                    # continuation (deterministic)
+                    topics[-1]['title'] = (topics[-1]['title'].rstrip() + ' ' + t.strip()).strip()
                     continue
                 cur_sub, cur_topic = state['sub'], state['topic']
                 m_ord = INT_LED.match(t)
@@ -542,7 +581,9 @@ def parse_int_statements(doc, kill, qual_slug=None):
                         prev_oy, prev_size = L['oy'], max(L['sizes'] or [10])
                     else:
                         gap_ok = prev_oy is not None and (L['oy'] - prev_oy) > max(14.0, 1.5 * (prev_size or 10))
-                        starts_new = state['armed'] and t[:1].isupper() and gap_ok
+                        starts_new = state['armed'] and t[:1].isupper() and (
+                            gap_ok or (qual_slug in SENTENCE_SPLIT and last is not None
+                                       and last['text'].rstrip().endswith(('.', '?'))))
                         joins = t[:1].islower() or not starts_new
                         if joins:
                             last['text'] = (last['text'] + ' ' + t).strip()
@@ -912,6 +953,16 @@ def parse_pdf(pdf_path, qual_slug):
         statements, topics, subsecs = parse_lettered_items(doc, kill)
     else:
         statements, topics, subsecs = parse_heading_bullets(doc, kill, qual_slug)
+    if qual_slug in SENTENCE_SPLIT:
+        # 9696: the PDF text layer embeds control glyphs (\x07) where the print
+        # layout used indent markers -> strip them (fleet parses carry none)
+        # and disclose via the 'control-glyph-stripped' flag
+        for s in statements:
+            cleaned = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', s['text'])
+            if cleaned != s['text']:
+                s['text'] = cleaned
+                s['flags'] = sorted(set(s['flags'] + ['control-glyph-stripped']))
+            s['sub_items'] = [re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', x) for x in s.get('sub_items', [])]
     # finalize: subsection dicts -> printed-shape rows; ids; flags
     for sub in subsecs:
         if 'code' in sub:
