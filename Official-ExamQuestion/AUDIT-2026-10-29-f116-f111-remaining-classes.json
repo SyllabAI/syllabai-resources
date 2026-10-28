@@ -1,0 +1,161 @@
+{
+ "schema": "syllabai.official-examq.audit-receipt/0.1",
+ "wave": "F116 — the remaining F111 census classes (7(c)(i) curated form, F97/F92 metadata, F94 curation, drawing-strip/exponent guards)",
+ "operator_order": "the remaining F111 census classes (7(c)(i) curated form, F97/F92 metadata, F94 curation, drawing-strip/exponent guards)",
+ "converter": "official_examq_extract.py v0.31.0",
+ "branch": "f111/remaining-census-classes-r0",
+ "date": "2026-10-29",
+ "classes": {
+  "class5_7ci_curated_form": {
+   "status": "CLOSED at source",
+   "law": "MS-LINK-OVERRIDES.json 2023-06/2CR/7(c)(i) gains transcription_of_record (389B, == corpus solution_md == mark_points[0].text_md); the F47 application emits it verbatim (whitespace-immune, exactly-one-mark-point fail-closed) and stamps edit_status=corrected + a native edits[] replay entry + value_trace.solution",
+   "corpus_repoint": "7(c)(i) edits[] := the native entry; learner-facing bytes unchanged"
+  },
+  "class6_stale_surgical_metadata": {
+   "status": "CLOSED via disclosed re-point",
+   "parts": [
+    "2021-11 2C 1(d) (F97)",
+    "2025-06 2C 5(c)(i) (F92)",
+    "2022-06 2C 6(a) (F90/F112)"
+   ],
+   "law": "the v0.31.0 pipeline serves each natively; the stale edits[]/edit_status=corrected records dropped per the F114 doctrine (corpus := converter of record); history in the ledger rows"
+  },
+  "class7_f94_curation": {
+   "status": "CLOSED at source + 2-field sync",
+   "law": "STEM-RESTORE stemFigure entries gain share_with (exact of-record sibling asset dicts); the converter replays them fail-closed (owner resolved, ref_part resolution, collisions, slice-scoped consumption, idempotent)",
+   "sync": [
+    "2021-11 1C 1(a)(i) mention := curated text (topic.json + questions.md caption — the ONE served delta)",
+    "2020-01 2C 6(d)(ii) text_coverage 0.3 -> 0.305 (converter-of-record recomputation)"
+   ],
+   "wave20_2019-06_1CR": "report-prose only (of-record report predates the wave20 stamp law; gates PASS both sides) — classified; reports not regenerated (C57/F66)"
+  },
+  "class1_drawing_strip": {
+   "status": "GUARDED",
+   "parts": 19,
+   "pins": "19 problem_md part_field_sha canaries"
+  },
+  "class2_exponent_restore": {
+   "status": "GUARDED",
+   "parts": 23,
+   "fields": 51,
+   "pins": "51 part_field_sha canaries (solution_md/mark_points/problem_md as flagged)"
+  }
+ },
+ "proof": {
+  "census": {
+   "before_v0301": {
+    "problem_md": 32,
+    "assets": 5,
+    "mark_points": 20,
+    "solution_md": 20,
+    "edit_status": 4,
+    "edits": 4,
+    "value_trace": 2
+   },
+   "after_v0310": {
+    "problem_md": 32,
+    "mark_points": 19,
+    "solution_md": 19
+   },
+   "classes_5_6_7_fields": {
+    "before": 13,
+    "after": 0
+   },
+   "deltas_vs_pins": "70 <-> 70, set-equal both ways",
+   "slices_emitted": "54/54 exit 0 at v0.31.0 from the staging of record"
+  },
+  "battery_columns": {
+   "of_record": "214/214 PASS (144 prior + 70 new pins)",
+   "fresh_v0310": "143/214 — the 71 exceptions: C95 (the designed Finding-8b guard) + the 70 F111 class-1/class-2 guards (designed fail-visible refusals)"
+  },
+  "exporter_verifier": {
+   "G-E1": "1 delta matching the disclosure exactly (official-4ch1-1c-2021-11 / offp_2021-11_1c_1-a-i, the caption leaf)",
+   "G-E1b": "54/54 identity byte-equal",
+   "G-E4": "questions.json byte-identical passthrough (2605409 B, 28 SME sets)",
+   "verifier": "census matches the disclosure exactly (1 part, 1 field); self-test 4/4 seeds refused",
+   "disclosure": "scripts/exporter-disclosures/2026-10-29-f116-f111-remaining-classes.json",
+   "v2_companion": "ships the caption leaf per the F110 convention; r2-consumed twin per the F109 rhythm"
+  },
+  "unit_battery": "scripts/official_examq_f116_tests.py — F47 ledger==corpus law, F94 share_with data, 70 live pins, sync fields, converter law blocks, disclosure shape — all green; CI step added",
+  "corpus_sync": {
+   "files": 7,
+   "guard": "exactly-once key-universe asserted per file (the F112 pattern); PUA/FFFD 0; mark_points sums exact across 262 parts; validation-report.json NOT regenerated (C57/F66); assets 414/414 byte-identical"
+  }
+ },
+ "guard_pins": {
+  "count": 70,
+  "range": "C147-C216",
+  "ids": [
+   "C147-f111-strip-guard-2019-06-1CR-4biv",
+   "C148-f111-strip-guard-2020-01-1CR-9bii",
+   "C149-f111-strip-guard-2021-01-1CR-8biii",
+   "C150-f111-strip-guard-2021-11-1C-6aiii",
+   "C151-f111-strip-guard-2021-11-1C-6aiv",
+   "C152-f111-strip-guard-2021-11-2C-6eii",
+   "C153-f111-strip-guard-2022-01-1C-8di",
+   "C154-f111-strip-guard-2022-01-2C-7e",
+   "C155-f111-strip-guard-2022-06-1CR-7c",
+   "C156-f111-strip-guard-2022-06-1CR-7di",
+   "C157-f111-strip-guard-2022-06-2CR-5cii",
+   "C158-f111-strip-guard-2023-01-1C-6a",
+   "C159-f111-strip-guard-2023-01-1C-6b",
+   "C160-f111-strip-guard-2024-06-1C-8aii",
+   "C161-f111-strip-guard-2024-06-2CR-7ci",
+   "C162-f111-strip-guard-2024-11-1C-10c",
+   "C163-f111-strip-guard-2025-06-1CR-9dii",
+   "C164-f111-strip-guard-2026-06-1CR-8c",
+   "C165-f111-exponent-guard-2020-01-1CR-11ciii-problem_md",
+   "C166-f111-strip-guard-2020-01-2C-6dii",
+   "C167-f111-exponent-guard-2021-01-1C-11c-mark_points",
+   "C168-f111-exponent-guard-2021-01-1C-11c-problem_md",
+   "C169-f111-exponent-guard-2021-01-1C-11c-solution_md",
+   "C170-f111-exponent-guard-2021-01-2C-7ciii-mark_points",
+   "C171-f111-exponent-guard-2021-01-2C-7ciii-solution_md",
+   "C172-f111-exponent-guard-2021-11-1C-10bii-mark_points",
+   "C173-f111-exponent-guard-2021-11-1C-10bii-solution_md",
+   "C174-f111-exponent-guard-2022-01-1C-5biv-mark_points",
+   "C175-f111-exponent-guard-2022-01-1C-5biv-problem_md",
+   "C176-f111-exponent-guard-2022-01-1C-5biv-solution_md",
+   "C177-f111-exponent-guard-2022-06-1CR-4diii-mark_points",
+   "C178-f111-exponent-guard-2022-06-1CR-4diii-problem_md",
+   "C179-f111-exponent-guard-2022-06-1CR-4diii-solution_md",
+   "C180-f111-exponent-guard-2022-06-1CR-11b-mark_points",
+   "C181-f111-exponent-guard-2022-06-1CR-11b-problem_md",
+   "C182-f111-exponent-guard-2022-06-1CR-11b-solution_md",
+   "C183-f111-exponent-guard-2022-06-2C-6a-mark_points",
+   "C184-f111-exponent-guard-2022-06-2C-6a-solution_md",
+   "C185-f111-exponent-guard-2023-01-1C-12ciii-mark_points",
+   "C186-f111-exponent-guard-2023-01-1C-12ciii-problem_md",
+   "C187-f111-exponent-guard-2023-01-1C-12ciii-solution_md",
+   "C188-f111-exponent-guard-2023-01-1CR-4c-mark_points",
+   "C189-f111-exponent-guard-2023-01-1CR-4c-solution_md",
+   "C190-f111-exponent-guard-2023-01-2CR-3a-mark_points",
+   "C191-f111-exponent-guard-2023-01-2CR-3a-solution_md",
+   "C192-f111-exponent-guard-2023-01-2CR-3bii-mark_points",
+   "C193-f111-exponent-guard-2023-01-2CR-3bii-solution_md",
+   "C194-f111-exponent-guard-2023-01-2CR-7di-mark_points",
+   "C195-f111-exponent-guard-2023-01-2CR-7di-solution_md",
+   "C196-f111-exponent-guard-2023-06-2C-7d-mark_points",
+   "C197-f111-exponent-guard-2023-06-2C-7d-solution_md",
+   "C198-f111-exponent-guard-2023-11-1C-8d-mark_points",
+   "C199-f111-exponent-guard-2023-11-1C-8d-problem_md",
+   "C200-f111-exponent-guard-2023-11-1C-8d-solution_md",
+   "C201-f111-exponent-guard-2024-06-1C-3b-mark_points",
+   "C202-f111-exponent-guard-2024-06-1C-3b-problem_md",
+   "C203-f111-exponent-guard-2024-06-1C-3b-solution_md",
+   "C204-f111-exponent-guard-2024-06-1CR-4cii-problem_md",
+   "C205-f111-exponent-guard-2024-06-1CR-11d-mark_points",
+   "C206-f111-exponent-guard-2024-06-1CR-11d-problem_md",
+   "C207-f111-exponent-guard-2024-06-1CR-11d-solution_md",
+   "C208-f111-exponent-guard-2024-11-1C-11aiii-problem_md",
+   "C209-f111-exponent-guard-2024-11-2C-1c-mark_points",
+   "C210-f111-exponent-guard-2024-11-2C-1c-solution_md",
+   "C211-f111-exponent-guard-2025-06-2C-6c-mark_points",
+   "C212-f111-exponent-guard-2025-06-2C-6c-solution_md",
+   "C213-f111-exponent-guard-2026-06-1C-8bii-problem_md",
+   "C214-f111-exponent-guard-2026-06-1CR-11d-mark_points",
+   "C215-f111-exponent-guard-2026-06-1CR-11d-problem_md",
+   "C216-f111-exponent-guard-2026-06-1CR-11d-solution_md"
+  ]
+ }
+}
