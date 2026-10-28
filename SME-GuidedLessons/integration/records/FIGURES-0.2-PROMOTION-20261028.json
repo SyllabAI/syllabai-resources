@@ -1,0 +1,46 @@
+{
+  "round": "ROUND-FIGURES-0.2-PROMOTION-20261028",
+  "operator_trace": "1a1820011919e8b9",
+  "generated_at_utc": "2026-10-28T10:43:47Z",
+  "proposal_of_record": "SCHEMA-0.2-FIGURES-PROPOSAL-20261028.md",
+  "sourcing_decision": "trace 1a1800f3b8c138e5",
+  "placement_evidence": "SME-GUIDED-STUDY-figures-walk-20261028.json (SME renders figures inline in plain-words; key points on the gate)",
+  "pins": {
+    "base_main_head": "8460a5f3a03fd7d43ed31e39c27d846f8a747208",
+    "branch": "integration/figures-0.2-20261028",
+    "source_02_generation_commit": "cc8621ed27468d760112728e937b44ddf6116cda",
+    "namespace_complete_commit": "6563ba963734bbd0df330eb48e7929e40fc6f1ce",
+    "int0_lineage": "4d857c472fd725597ac21db189542c8f12c82dba",
+    "grounding_ref": "8460a5f3a03fd7d43ed31e39c27d846f8a747208"
+  },
+  "census": {
+    "notes": 112,
+    "figures": 200,
+    "module_mapped": 122,
+    "note_level": 78,
+    "notes_with_figures": 90,
+    "notes_without": 22,
+    "match_modes": {
+      "exact": 101,
+      "fuzzy": 21,
+      "none": 78
+    },
+    "assets_1_1": true
+  },
+  "conservation": {
+    "grand_chars": 1347771,
+    "equals_v2": true,
+    "per_note_matches_legacy_x112": true,
+    "packages_byte_identical_x112": true
+  },
+  "checks": {
+    "map_phase": "653/653",
+    "transform_phase": "902/902",
+    "tooling": "tooling/figures-0.2-pipeline.js (map|transform|verify)"
+  },
+  "next_operator_gated": [
+    "merge resources PR",
+    "hub PR: run_import FEED=figures-0.2-v3 + TS/renderers + re-imported artifacts + guided-import.json (atomic)",
+    "post-merge live smoke"
+  ]
+}
