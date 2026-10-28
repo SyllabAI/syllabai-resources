@@ -2979,9 +2979,32 @@
  },
  "cie_join_wave2as": {
   "lane": "T-SPECS-CIE-JOIN-2",
-  "review_state": "SUGGESTED",
+  "review_state": "ACCEPTED",
   "lanes": 8,
-  "scope_law": "parse-printed markers: AS Level-only (chem/phys/business), A-Level-marked excluded (cs-19), unscoped (9709 maths x4)"
+  "scope_law": "parse-printed markers: AS Level-only (chem/phys/business), A-Level-marked excluded (cs-19), unscoped (9709 maths x4)",
+  "gate": "T-SPECS-CIE-GATE-2",
+  "accepted_utc": "2026-10-29T14:00:00Z",
+  "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+  "verification": {
+   "pairs": 191,
+   "verified": 191,
+   "failed": 0,
+   "verified_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "totals_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "ambiguous_stay_quarantined": {
+    "J": 34,
+    "V": 575
+   },
+   "inherited_dup_items_pinned": 11
+  }
  },
  "cie_rejoin_wave2as": {
   "lane": "T-SPECS-CIE-REJOIN-2",
@@ -2999,8 +3022,31 @@
    "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text"
   },
   "scope_law": "JOIN-2 AS scope law bounds every pool: AS Level-only (chem-25/phys-25/business-23), A-Level-marked excluded (cs-19), unscoped (9709 maths x4)",
-  "state": "SUGGESTED",
-  "note": "index re-join on the pending anchors of the 8 wave-2 AS lanes (JOIN-2 follow-on #1); engine-derived identity-grade text joins under the AS scope law, SUGGESTED until the next review/promotion gate (rule 2); no-evidence pairs stay pending honestly (rule 3)"
+  "state": "ACCEPTED",
+  "note": "index re-join on the pending anchors of the 8 wave-2 AS lanes (JOIN-2 follow-on #1); engine-derived identity-grade text joins under the AS scope law, SUGGESTED until the next review/promotion gate (rule 2); no-evidence pairs stay pending honestly (rule 3)",
+  "gate": "T-SPECS-CIE-GATE-2",
+  "accepted_utc": "2026-10-29T14:00:00Z",
+  "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+  "verification": {
+   "pairs": 191,
+   "verified": 191,
+   "failed": 0,
+   "verified_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "totals_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "ambiguous_stay_quarantined": {
+    "J": 34,
+    "V": 575
+   },
+   "inherited_dup_items_pinned": 11
+  }
  },
  "cie_verdict_wave2as": {
   "lane": "T-SPECS-CIE-VERDICT-2",
@@ -3020,7 +3066,61 @@
    "V5_topic_scoped_phrase_identity": "topic-scoped disambiguation of a phrase ambiguity"
   },
   "scope_law": "JOIN-2 AS scope law bounds every pool (REJOIN-2 precedent, imported): AS Level-only (chem-25/phys-25/business-23), A-Level-marked excluded (cs-19), unscoped (9709 maths x4)",
-  "state": "SUGGESTED",
-  "note": "operator-verdict fills on the still-pending anchors of the 8 wave-2 AS lanes (REJOIN-2 NEXT #1); authoritative by construction (AGENT.md rule 1); SUGGESTED until the stage-#2 review/promotion gate (rule 2); no-evidence pairs stay pending honestly (rule 3)"
+  "state": "ACCEPTED",
+  "note": "operator-verdict fills on the still-pending anchors of the 8 wave-2 AS lanes (REJOIN-2 NEXT #1); authoritative by construction (AGENT.md rule 1); SUGGESTED until the stage-#2 review/promotion gate (rule 2); no-evidence pairs stay pending honestly (rule 3)",
+  "gate": "T-SPECS-CIE-GATE-2",
+  "accepted_utc": "2026-10-29T14:00:00Z",
+  "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+  "verification": {
+   "pairs": 191,
+   "verified": 191,
+   "failed": 0,
+   "verified_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "totals_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "ambiguous_stay_quarantined": {
+    "J": 34,
+    "V": 575
+   },
+   "inherited_dup_items_pinned": 11
+  }
+ },
+ "cie_gate_wave2as": {
+  "gate": "T-SPECS-CIE-GATE-2",
+  "state": "ACCEPTED",
+  "accepted_utc": "2026-10-29T14:00:00Z",
+  "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+  "fires": "T-SPECS-CIE-REJOIN-2 record NEXT #2 / T-SPECS-CIE-VERDICT-2 record NEXT #2 (the JOIN-2 chain of record, stage #2)",
+  "base_commit": "b97a80c72bcba64546b376746efac76fd7847737",
+  "gateway_trace": "1a183e66619bd6dd",
+  "lanes": 8,
+  "verification": {
+   "pairs": 191,
+   "verified": 191,
+   "failed": 0,
+   "verified_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "totals_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "ambiguous_stay_quarantined": {
+    "J": 34,
+    "V": 575
+   },
+   "inherited_dup_items_pinned": 11
+  },
+  "note": "the wave-2 AS chain's review/promotion gate (the JOIN-2 chain of record stage #2): all 191 resolutions of the three classes independently re-fired and verified 191/191 before promotion (V 18 + J 124 + T2 49); the 609 quarantines stay out; items/codes/pending/anchors byte-preserved; the 11 inherited REJOIN-2 in-item duplicates stay pinned as the disclosed known defect (consume dedups per official_id); record-less pairs stay pending honestly (AGENT.md rule 3)"
  }
 }

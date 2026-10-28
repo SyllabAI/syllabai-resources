@@ -1,0 +1,41 @@
+{
+ "battery": "T-SPECS-CIE-GATE-2",
+ "all_pass": true,
+ "checks": [
+  {
+   "id": "1",
+   "pass": true,
+   "detail": "verifier PASS precondition: 191/191 verified (V 18 + J 124 + T2 49), base b97a80c72bcb"
+  },
+  {
+   "id": "2",
+   "pass": true,
+   "detail": "mutation discipline: items/codes/pending/totals/anchors deep-equal to the base; only review_state (+ its rejoin/verdict blocks) promoted with additive acceptance keys"
+  },
+  {
+   "id": "3",
+   "pass": true,
+   "detail": "8/8 sidecars promoted (rejoin x7, verdict x2); acceptance payload consistent with the verifier"
+  },
+  {
+   "id": "4",
+   "pass": true,
+   "detail": "manifest discipline: three chain blocks -> ACCEPTED, all pre-existing blocks/rows deep-equal, cie_gate_wave2as appended last"
+  },
+  {
+   "id": "5",
+   "pass": true,
+   "detail": "footprint 14 paths subset-of declared; spec-links delta == 8 sidecars + manifest; guards intact"
+  },
+  {
+   "id": "6",
+   "pass": true,
+   "detail": "apply idempotence: re-run byte-identical (8 sidecars + manifest, sha256)"
+  },
+  {
+   "id": "7",
+   "pass": true,
+   "detail": "cross-foots: codes census unchanged through the gate (1759 entries; dup census still 11 — the disclosed REJOIN-2 known defect, consume dedups)"
+  }
+ ]
+}

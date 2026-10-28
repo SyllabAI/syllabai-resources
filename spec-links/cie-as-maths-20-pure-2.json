@@ -5,10 +5,32 @@
  "qual": "cie-a-level-maths-2023-2025",
  "board": "cambridge-cie",
  "review_state": {
-  "state": "SUGGESTED",
+  "state": "ACCEPTED",
   "lane": "T-SPECS-CIE-JOIN-2",
-  "gate": "pending",
-  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)"
+  "gate": "T-SPECS-CIE-GATE-2",
+  "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)",
+  "accepted_utc": "2026-10-29T14:00:00Z",
+  "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+  "verification": {
+   "pairs": 191,
+   "verified": 191,
+   "failed": 0,
+   "verified_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "totals_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "ambiguous_stay_quarantined": {
+    "J": 34,
+    "V": 575
+   },
+   "inherited_dup_items_pinned": 11
+  }
  },
  "registry": {
   "id": "cie-a-level-maths-2023-2025",

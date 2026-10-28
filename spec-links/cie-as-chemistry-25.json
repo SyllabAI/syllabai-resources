@@ -5,9 +5,9 @@
  "qual": "cie-a-level-chemistry-2025-2027",
  "board": "cambridge-cie",
  "review_state": {
-  "state": "SUGGESTED",
+  "state": "ACCEPTED",
   "lane": "T-SPECS-CIE-JOIN-2",
-  "gate": "pending",
+  "gate": "T-SPECS-CIE-GATE-2",
   "note": "agent-generated mapping (AGENT.md rule 2); not authoritative until the review/promotion gate accepts; unresolved anchors stay pending (rule 3); AS scope law per the parse's printed markers (SME-WAVE2 spine basis)",
   "rejoin": {
    "lane": "T-SPECS-CIE-REJOIN-2",
@@ -22,8 +22,31 @@
     "J3_name_text_identity": "norm(name) == norm(official point text), unique in the lane pool",
     "J4_name_phrase_identity": "token-bounded norm(name) phrase in exactly one official point text"
    },
-   "state": "SUGGESTED",
-   "note": "engine-derived identity-grade index re-join resolutions on the wave-2 AS lanes' pending anchors (JOIN-2 follow-on #1); SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the AS scope law bounds every pool; nothing manufactured (rule 3)"
+   "state": "ACCEPTED",
+   "note": "engine-derived identity-grade index re-join resolutions on the wave-2 AS lanes' pending anchors (JOIN-2 follow-on #1); SUGGESTED pending the next review/promotion gate per AGENT.md rule 2; the AS scope law bounds every pool; nothing manufactured (rule 3)",
+   "gate": "T-SPECS-CIE-GATE-2",
+   "accepted_utc": "2026-10-29T14:00:00Z",
+   "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+   "verification": {
+    "pairs": 191,
+    "verified": 191,
+    "failed": 0,
+    "verified_by_class": {
+     "V": 18,
+     "J": 124,
+     "T2": 49
+    },
+    "totals_by_class": {
+     "V": 18,
+     "J": 124,
+     "T2": 49
+    },
+    "ambiguous_stay_quarantined": {
+     "J": 34,
+     "V": 575
+    },
+    "inherited_dup_items_pinned": 11
+   }
   },
   "verdict": {
    "lane": "T-SPECS-CIE-VERDICT-2",
@@ -39,8 +62,53 @@
     "V4_settext_title_identity": "note-name segment == quoted set-text title, unique (literature lanes only; pinned 0 for the wave-2 AS class)",
     "V5_topic_scoped_phrase_identity": "topic-scoped disambiguation of a phrase ambiguity"
    },
-   "state": "SUGGESTED",
-   "note": "identity-grade operator-verdict fills on the wave-2 AS lanes' pending anchors (REJOIN-2 NEXT #1); authoritative by construction per AGENT.md rule 1; lane promotion happens at the stage-#2 review/promotion gate (rule 2); nothing manufactured (rule 3)"
+   "state": "ACCEPTED",
+   "note": "identity-grade operator-verdict fills on the wave-2 AS lanes' pending anchors (REJOIN-2 NEXT #1); authoritative by construction per AGENT.md rule 1; lane promotion happens at the stage-#2 review/promotion gate (rule 2); nothing manufactured (rule 3)",
+   "gate": "T-SPECS-CIE-GATE-2",
+   "accepted_utc": "2026-10-29T14:00:00Z",
+   "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+   "verification": {
+    "pairs": 191,
+    "verified": 191,
+    "failed": 0,
+    "verified_by_class": {
+     "V": 18,
+     "J": 124,
+     "T2": 49
+    },
+    "totals_by_class": {
+     "V": 18,
+     "J": 124,
+     "T2": 49
+    },
+    "ambiguous_stay_quarantined": {
+     "J": 34,
+     "V": 575
+    },
+    "inherited_dup_items_pinned": 11
+   }
+  },
+  "accepted_utc": "2026-10-29T14:00:00Z",
+  "accepted_by": "operator directive 'verdict fills -> review gate -> v2 consume' (gateway trace 1a183e66619bd6dd, 2026-10-29, zai-web)",
+  "verification": {
+   "pairs": 191,
+   "verified": 191,
+   "failed": 0,
+   "verified_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "totals_by_class": {
+    "V": 18,
+    "J": 124,
+    "T2": 49
+   },
+   "ambiguous_stay_quarantined": {
+    "J": 34,
+    "V": 575
+   },
+   "inherited_dup_items_pinned": 11
   }
  },
  "registry": {
