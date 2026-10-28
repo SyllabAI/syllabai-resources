@@ -604,6 +604,15 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   selection (801 ids on v2). Evidence: ych12 parse/validate/select env
   surface + worklog T-PARSE-YCH12-2. Action: parameterize in place,
   prove the default unchanged, re-stage polish per corpus version.
+- **L-027** (2026-10-28, T-PARSE-YCH12-2 POLISH-CONT-V2-2, zai-web): background
+  grind loops do not survive the sandbox — a nohup'd runner loop wrote its
+  start line and was reaped before node even launched (loop output file
+  empty, no process left); background processes are killed at tool-call end.
+  Evidence: ych12 lane worklog CONT-V2-2 (loop attempt dead on check; the
+  same session's foreground windows harvested +71 records). Action: run the
+  polish grind in FOREGROUND windows only (Bash-call-sized); the runner's
+  probe-wait (up to 8×90 s) + 2-consec-429 clean exit + JSONL done-set make
+  each foreground window self-managing — a killed window loses nothing.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -852,6 +861,28 @@ E-ID they correct)*
   regime per L-007/L-017, clobber law per L-024, replay-free clean merge).
   Errata filed: none new.
 
+- **R-011** (2026-10-28, T-PARSE-YCH12-2 POLISH-CONT-V2-2, YCH12 SB2 v2 polish
+  continuation): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  (v2 grammar, EP 10/10); LLM polish R1-v2: 801 staged, cumulative **103
+  applied** (103 text changed), 9 rejected (guard; raws in evidence), 8
+  error-cum-429 (self-heal on resume; 112/801 done, todo 689); this session
+  2 harvesting windows (+53, +18 records) then a 51+ min wall (cadence
+  varies vs 2026-10-27's ~20 min — L-017 class); a background nohup grind
+  loop was attempted and reaped at tool-call end (new lesson **L-027**:
+  foreground windows only); merge from the v2 pristine (clobber law L-024
+  observed), anchor **0 drift**, three-way reconciliation ALL PASS (vs
+  pristine diff set == ok set 103, anchor keys byte-identical / vs landed
+  net-new **63**, the 40 overlap re-applied with text_original re-stamped
+  from pristine / untouched chunks byte-identical / id set unchanged);
+  audit 0 Unicode-unit regressions (changed chunks camel_glue 71→0,
+  space_run 892→14, caps_glue 49→18; 10 residual 18+ runs ALL genuine
+  chemistry words — the known benign class: methylethylpropanoate,
+  dichlorodifluoromethane, dinitrophenylhydrazine,
+  ethylenediaminetetraacetic, …). Deviations from playbook: none (grind per
+  L-007/L-017/L-024/L-026; environment lesson L-027 filed). Lessons
+  appended: L-027. Errata filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -861,6 +892,16 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-28 — v1.8 (T-PARSE-YCH12-2 POLISH-CONT-V2-2):** YCH12 v2 polish
+  grind continued and landed (R-011: cumulative **103/801 applied**, net-new
+  63 this landing, anchor 0 drift, three-way reconciliation + audit +
+  validator all green, resumable at todo 689). Playbook report-back: lesson
+  **L-027** (background/nohup grind loops are reaped at sandbox tool-call
+  end — polish grind runs in foreground windows only; the runner's
+  probe-wait + clean-exit + done-set design makes each window self-managing,
+  a killed window loses nothing). Review record **R-011**. Ledgers: CATALOG
+  row 12 + §3.6 tracker updated; lane README + lane worklog same commit.
 
 - **2026-10-27 — v1.7 (T-PARSE-YCH12-2 + POLISH-CONT-V2):** YCH12 v2
   fresh-parse lane landed as the corpus of record (1406 chunks `ych2_v2_`,

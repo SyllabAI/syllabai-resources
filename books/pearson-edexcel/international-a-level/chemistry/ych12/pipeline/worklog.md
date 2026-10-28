@@ -315,3 +315,56 @@ Stage Summary:
   recipe unchanged (quota-walled burst-harvest, ~20 min window cadence this
   session); v1 corpus + evidence remain landed/history. Open follow-ups:
   pack-floor fold fix (own gate), serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-2
+Agent: Z.ai (main, zai-web)
+Task: "continue" (2026-10-28, zai-web, trace 1a180d9c9a9d9e55) — resume the v2
+polish grind, land the delta, keep the §9 playbook report-back current.
+
+Work Log:
+- SANDBOX RESET #6 recovery: fetch + ff-only (origin advanced 548 commits,
+  incl. other lanes: T-C42 R25/R26, F110); sparse-add ych12 (first sparse-add
+  timed out inside the big merge, second call clean); lane restored at
+  2ed40226.
+- STATE: v2 fresh-parse + POLISH-CONT-V2 (40/801) already landed by the
+  parallel session — this round continues the grind per the standing "v2
+  polish" directive. Self-improving docs CONFIRMED EXISTING =
+  books/README.md §9 playbook (L-001..L-026 / E-001..E-005 / R-001..R-010 /
+  changelog v1.7); report-back continues there.
+- WORKSPACE: data/ych12_sb2_v2 rebuilt (corpus seeded from the v2 .pristine
+  per the clobber law L-024; evidence 49 records copied; 801 ids staged);
+  baseline validator ALL CHECKS PASSED; SDK reinstalled (disk healthy, 7 GB
+  free — last round's ENOSPC cleared).
+- GRIND: window 1 +53 (49→102), window 2 +18 (→120: 103 ok / 9 rejected /
+  8 error-cum-429); then the wall closed 05:14→06:05 (51+ min — longer than
+  last round's ~20 min cadence; L-017 class). A background nohup grind loop
+  was attempted and DIED silently at tool-call end — the sandbox reaps
+  background processes between tool calls (echo line written, node never
+  started; grind_loop.out empty). Lesson filed as L-027: polish grind runs
+  in FOREGROUND windows only; the runner's probe-wait + clean-exit + done-set
+  design makes each foreground window self-managing.
+- MERGE (clobber law observed): pristine-seeded corpus, FULL evidence applied
+  ONCE — 103 llm_repaired / 103 text changed, anchor PASS 0 drift. THREE-WAY
+  RECONCILIATION ALL PASS (ych12_v2_reconcile.py): vs pristine diff set ==
+  ok set (103) with anchor keys byte-identical / vs landed net-new 63
+  (overlap 40 re-applied, text_original re-stamped from pristine, NOT from
+  the landed corpus) / untouched chunks byte-identical / id set unchanged.
+- AUDIT: changed chunks camel_glue 71→0, space_run 892→14, caps_glue 49→18;
+  0 Unicode-unit regressions; 10 residual 18+ runs ALL genuine chemistry
+  words (methylethylpropanoate, dichlorodifluoromethane,
+  dinitrophenylhydrazine, ethylenediaminetetraacetic, …) — the known benign
+  class (same as v1 audit).
+- VALIDATE: YCH12_VERSION=v2 ALL CHECKS PASSED post-merge (EP 10/10).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 40→103) + evidence/llm_repairs_ych12_v2.jsonl (120 records);
+  ledgers same commit: lane README, CATALOG row 12 + §3.6, playbook R-011 +
+  L-027 + changelog v1.8.
+
+Stage Summary:
+- v2 polish R1 at **103/801 applied (112 done incl. 9 rejected, 8 error
+  records self-heal)**, todo 689; quota-walled burst-harvest regime (windows
+  1-2 harvested, then a 51+ min wall; cadence varies session to session).
+  Grind remains resumable via the unchanged recipe (foreground windows, env-
+  parameterized runner). Open follow-ups: pack-floor fold fix (own gate),
+  serving lane.
