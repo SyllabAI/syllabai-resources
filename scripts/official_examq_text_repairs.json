@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-examq.text-repairs/0.1",
- "generated_utc": "2026-10-26T00:00:00Z",
+ "generated_utc": "2026-10-28T02:07:33Z",
  "law": "per-line render-adjudicated repairs for the broken-symbol-font text layers of the maths-B corpus. Key (file, 1-based line ordinal) guarded by sha1-12 of the exact raw line, fail-closed at apply time. repaired null = blank the line (structural absorption). Evidence: wave receipts evidence-r2/ page renders; SME twin UIUX-TIER-B-RUN-004 for the 2019-06/02 MS; trace 1a177a00bc816e05. G4 (U+FFFC strip) is a converter law, not a line rule. v0.23.0 adds the chemistry tranche (official-2026-06-2C-qp.txt, 19 lines): drawing-linearization remains blanked where the eyeballed crop asset serves the printed figure (F98, Task 19 deep audit; user-reported 2026-06 2C); same sha1 fail-closed law.",
  "rules_by_file": {
   "official-2018-06-01-qp.txt": {
@@ -1420,6 +1420,52 @@
     "repaired": null,
     "why": "1(c)(iii) polyester: O CH2 CH2 CH2 CH2 O C CH2 CH2 C",
     "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   }
+  },
+  "official-2021-06-1C-qp.txt": {
+   "580": {
+    "sha1_12": "9d4c836d2001",
+    "raw": "\t\t\t H CH3",
+    "repaired": null,
+    "why": "5(c)(i) propene structural-formula text layer: atom labels/bonds of the drawn equation (H CH3 / nC C / H H) - the printed drawing is served by the eyeballed crop asset_5_c_i_equation",
+    "evidence": "STEM-RESTORE 2021-06/4CH1-1C:Q5 (Task 20 crop wave, rect [86,474,188,556] page 11, F45 manual_crop render); F108-wave 150 dpi re-render of QP page 11 (f108-evidence/2021-06-1C-qp-p11-*.png); the 0.23.0 wave stripped this garbage data-only (21 problem_mds, single-line wave-19 style) without a converter-side rule - this registration closes that reproducibility debt for this slice"
+   },
+   "581": {
+    "sha1_12": "0f17eae9ae89",
+    "raw": "                                         nC                   C                           →",
+    "repaired": null,
+    "why": "5(c)(i) propene structural-formula text layer: atom labels/bonds of the drawn equation (H CH3 / nC C / H H) - the printed drawing is served by the eyeballed crop asset_5_c_i_equation",
+    "evidence": "STEM-RESTORE 2021-06/4CH1-1C:Q5 (Task 20 crop wave, rect [86,474,188,556] page 11, F45 manual_crop render); F108-wave 150 dpi re-render of QP page 11 (f108-evidence/2021-06-1C-qp-p11-*.png); the 0.23.0 wave stripped this garbage data-only (21 problem_mds, single-line wave-19 style) without a converter-side rule - this registration closes that reproducibility debt for this slice"
+   },
+   "583": {
+    "sha1_12": "e7f19e83ee5e",
+    "raw": "                                               H H",
+    "repaired": null,
+    "why": "5(c)(i) propene structural-formula text layer: atom labels/bonds of the drawn equation (H CH3 / nC C / H H) - the printed drawing is served by the eyeballed crop asset_5_c_i_equation",
+    "evidence": "STEM-RESTORE 2021-06/4CH1-1C:Q5 (Task 20 crop wave, rect [86,474,188,556] page 11, F45 manual_crop render); F108-wave 150 dpi re-render of QP page 11 (f108-evidence/2021-06-1C-qp-p11-*.png); the 0.23.0 wave stripped this garbage data-only (21 problem_mds, single-line wave-19 style) without a converter-side rule - this registration closes that reproducibility debt for this slice"
+   }
+  },
+  "official-2023-06-1CR-qp.txt": {
+   "1192": {
+    "sha1_12": "2603eda521af",
+    "raw": "                                                                                            H                                       CH3",
+    "repaired": null,
+    "why": "10(c)(i) propene structural-formula text layer: atom labels/bonds of the drawn equation (H CH3 / n C C / H H) - the printed drawing is served by the eyeballed crop asset_10_c_i_equation",
+    "evidence": "STEM-RESTORE 2023-06/4CH1-1CR:Q10 (Task 20 crop wave, rect [118,142,292,222] page 26, F45 manual_crop render); F108-wave 150 dpi re-render of QP page 26 (f108-evidence/2023-06-1CR-qp-p26-*.png); same 0.23.0 data-only-strip debt as the 1C tranche"
+   },
+   "1193": {
+    "sha1_12": "611eaf14e579",
+    "raw": "                                                                   n                                    C                C                                             →",
+    "repaired": null,
+    "why": "10(c)(i) propene structural-formula text layer: atom labels/bonds of the drawn equation (H CH3 / n C C / H H) - the printed drawing is served by the eyeballed crop asset_10_c_i_equation",
+    "evidence": "STEM-RESTORE 2023-06/4CH1-1CR:Q10 (Task 20 crop wave, rect [118,142,292,222] page 26, F45 manual_crop render); F108-wave 150 dpi re-render of QP page 26 (f108-evidence/2023-06-1CR-qp-p26-*.png); same 0.23.0 data-only-strip debt as the 1C tranche"
+   },
+   "1194": {
+    "sha1_12": "ea2c2b2e12a1",
+    "raw": "                                                                                            H                                       H",
+    "repaired": null,
+    "why": "10(c)(i) propene structural-formula text layer: atom labels/bonds of the drawn equation (H CH3 / n C C / H H) - the printed drawing is served by the eyeballed crop asset_10_c_i_equation",
+    "evidence": "STEM-RESTORE 2023-06/4CH1-1CR:Q10 (Task 20 crop wave, rect [118,142,292,222] page 26, F45 manual_crop render); F108-wave 150 dpi re-render of QP page 26 (f108-evidence/2023-06-1CR-qp-p26-*.png); same 0.23.0 data-only-strip debt as the 1C tranche"
    }
   }
  }

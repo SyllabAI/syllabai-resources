@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T21:35:08Z",
- "generator": "official_examq_extract.py v0.18.0 (ADR-039) series=2021-06 paper=1C",
+ "generated_utc": "2026-10-28T02:01:41Z",
+ "generator": "official_examq_extract.py v0.29.1 (ADR-039) series=2021-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C",
  "source": {
   "qp_sha256": "f23c24c14501fce4ee42a72a15deb96c84c9e205565683a4d1e8e6084d3fb4af",
@@ -34,12 +34,21 @@
      "problem_md": "Complete the table by choosing substances from the box that match the description. Each substance may be used once, more than once or not at all. Description Substance a good conductor of electricity an element that has a basic oxide a substance used as a fuel a major cause of acid rain a non‑metallic element that is a solid at room temperature",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ALLOW correct\nInformation Substance formulae\na good conductor of copper\nelectricity\nan element that has a copper\nbasic oxide\na substance used as a methane\nfuel\na major cause of acid sulfur dioxide\nrain\na non-metallic element iodine\nthat is a solid at room\ntemperature",
+     "edits": [
+      {
+       "field": "solution_md",
+       "kind": "structural-repair",
+       "tool": "official_examq_extract.py v0.29.1 (F108 MS answer-grid parser)",
+       "evidence_ref": "LEDGER F108 (AUDIT-2026-10-27 Finding 5); printed MS answer grid reconstructed from the layout x-geometry — 5 rows, right column 'Substance formulae'; verbatim tokens, rows reassembled"
+      }
+     ],
+     "edit_status": "corrected",
+     "solution_md": "ALLOW correct\n| Information | Substance formulae |\n| --- | --- |\n| a good conductor of electricity | copper |\n| an element that has a basic oxide | copper |\n| a substance used as a fuel | methane |\n| a major cause of acid rain | sulfur dioxide |\n| a non-metallic element that is a solid at room temperature | iodine |",
      "mark_points": [
       {
        "id": "2021-06-1-a-MP1",
        "marks": 5,
-       "text_md": "ALLOW correct\nInformation Substance formulae\na good conductor of copper\nelectricity\nan element that has a copper\nbasic oxide\na substance used as a methane\nfuel\na major cause of acid sulfur dioxide\nrain\na non-metallic element iodine\nthat is a solid at room\ntemperature"
+       "text_md": "ALLOW correct\n| Information | Substance formulae |\n| --- | --- |\n| a good conductor of electricity | copper |\n| an element that has a basic oxide | copper |\n| a substance used as a fuel | methane |\n| a major cause of acid rain | sulfur dioxide |\n| a non-metallic element that is a solid at room temperature | iodine |"
       }
      ],
      "source_page": 3,
@@ -61,7 +70,6 @@
       "4CH1-1.20"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
@@ -228,20 +236,12 @@
       "4CH1-1.16"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "corrected",
+     "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
       "numbers": "source-printed"
-     },
-     "edits": [
-      {
-       "field": "solution_md",
-       "kind": "structural-repair",
-       "tool": "official_examq_extract.py v0.23.0 (F97 bare-answer fallback, surgical application)",
-       "evidence_ref": "Task 19 deep audit: the MS row prints only the answer token 25; the converter routed it to the mark_point and left solution_md empty. Verbatim re-emission of the part's own mark_point text — no authoring."
-      }
-     ]
+     }
     },
     {
      "part_number": "2(b)(iii)",

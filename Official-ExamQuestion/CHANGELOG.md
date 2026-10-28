@@ -1,19 +1,50 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
-## 0.29.1 — 2026-10-28 · the F107 v2-hub-sync verification + the C57 clobber repair (converter unchanged, still v0.29.0)
+## 0.29.1 — 2026-10-28 · the F108 follow-through wave (F110): the leg-2 reconstructions applied + the F86-queued row-rebuttal lexeme fix + the C110 no-digit carve-out + the 5(c)(i)/10(c)(i) strip registrations
 
-- The F107 corrected 7-c-ii solutionMd + 7-c-i markPoints are VERIFIED as the served state of
-  record: v2 PR #415 rode both part ids in the F108 tranche's 14-part disclosed census; the fresh
-  exporter-of-record run at resources main 0c0f0e08 vs v2 main 10011f1e is a byte-level no-op
-  (G-E1 0 deltas, G-E1b 54/54, G-E4 byte-identical passthrough), verifier green, self-test 4/4,
-  and direct served-state assertions on v2 main pass for both corrections. The r2-consumed census
-  of record is filed (2026-10-28-f108-ms-grid-parser-tranche.r2-consumed.json).
-- C57 repaired: #197's validation-report regeneration had clobbered the two
-  ms_link_overrides_applied listings #195 materialized (2023-06:2CR/7(c)(i), 2025-06:2CR/7(c)(ii));
-  both restored verbatim to the #195 committed values — local battery 107/110.
-- Attributed and flagged (not repaired here): C110/C111/C112 shipped red-on-arrival at #197
-  (the leg-2 reconstructions never applied to the corpus; the C110 matcher over-matches the
-  F88-kept wrap-ambiguous class) — the F108 follow-through decision. LEDGER F109.
+- **Leg 2 applied to the corpus of record (C111/C112 green)**: the two match-description
+  answer grids #197 pinned but never landed — 2021-06 1C 1(a) and 2023-06 1CR 4(a) — are
+  regenerated with the v0.29.0 parser and now serve the reconstructed two-column tables
+  (verbatim tokens, rows reassembled; `edits[]` structural-repair disclosure per part,
+  G2-D 1 disclosed). Eyeball evidence of record: sha-verified MS PDFs from the archive
+  (bytes == corpus source pins), 200 dpi page renders confirming every row — 1(a) serves
+  5 rows with copper legitimately twice (a good conductor AND a basic oxide); 4(a)
+  reassembles the interleaved right-cell wraps (carbon/monoxide) exactly. Known
+  two-column-model limitation disclosed: 1(a)'s right header cell serves 'Substance
+  formulae' — the 'formulae' token is the Notes cell's wrapped second line ('ALLOW
+  correct / formulae') interleaved onto the header line by pdftotext -layout; the print
+  says 'Substance' and the C111 pin of record pins the parser's output.
+- **F86-queued row-rebuttal lexeme fix executes (F110, wave #5 partial)**: the dormant
+  `\b\b` concatenation quirk in `_MS_ROW_REBUTTAL_RE` (final '(is|are) ... incorrect'
+  branch unreachable) is repaired — the missing `|` restored. First regeneration bite
+  proven on 2021-06 1C: 5(b)(i)/6(b)(ii) de-keyed on every fresh re-emission (rebuttal
+  rows without an 'is not' lexeme counted as answer rows → 2-4 distinct candidates →
+  the single-candidate law refuses; G3 FAIL) while the served corpus keys 'A'/'D' from
+  the pre-quirk staging era. Post-fix: keys byte-equal to the of-record, G3 PASS. The
+  F86 queue's corpus-wide re-receipt stays open (the 52 untouched slices keep their
+  of-record bytes until their own re-runs; the battery guards them).
+- **C110 no-digit carve-out (F110)**: `strip_ms_grid_furniture`'s mid-text header-row
+  rule and the C110 census narrow in lockstep — a line carrying digits is never a
+  header row (the printed bands have none). The two survivors are the F88
+  wrap-ambiguous guidance class, eyeballed on the sha-verified 2023-11 1C and 2025-06
+  2C MS pages: '=44.55/44.6 for 2 marks' is the wrapped second line of 'ALLOW 297
+  X 9.75/65 =44.55/44.6 for 2 marks'; 'for 2 marks' the tail of 'ALLOW 0.472 /0.118
+  for 2 marks'. Both kept verbatim; the narrowing is regeneration-stable.
+- **F98 strip registrations close the 0.23.0 data-only debt for this slice pair**: the
+  0.23.0 wave stripped the propene equation's text-layer remains from 21 problem_mds
+  data-only; regenerating 2021-06 1C / 2023-06 1CR re-introduced them. The six
+  fragment lines are registered in `official_examq_text_repairs.json` (per-line,
+  sha1-12-guarded, repaired=null structural absorption; evidence: STEM-RESTORE
+  2021-06/4CH1-1C:Q5 + 2023-06/4CH1-1CR:Q10 Task-20 eyeball verdicts + fresh 150 dpi
+  page renders; ordinals are str.splitlines() — \f page separators count, grep/sed
+  line numbers do not). Post-registration regeneration reproduces the of-record stems
+  byte-exactly.
+- **Battery: 110/110 hold** (C110/C111/C112 green; C57 stays green). Gates G0-G7 +
+  NC 3/3 on both regenerated slices; assets byte-identical (mode-only 755→644 noise
+  restored); review queue +1 honest item on 2021-06 1C (10(c)(i) mark-point answer
+  gap, the F95 MS-answer-is-a-drawing census) and G4 crop-census counts move 9→10 /
+  7→8 (record counting only — no committed asset bytes change). Converter text-repairs
+  receipts appear in the two validation reports (applied: 3 per QP layer).
 
 ## 0.29.0 — 2026-10-28 · the MS-grid parser tranche (F108): the Finding-5 box parser + the F88-queued converter-side grid strip + the F90 MS-side-aware bare-number rule
 

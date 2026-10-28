@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.29.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.29.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -1574,16 +1574,21 @@ MS_V_QN_CONTENT_TAIL_MARKS_RE = re.compile(r"\s{2,}(\d{1,2})\s*$")
 MS_V_GLUED_LETTER_ROMAN_NOPAREN_RE = re.compile(
     r"^([a-h])\)\s*\((i{1,3}|iv|v|vi{1,3})\)\s*(.*)$", re.I)
 # v0.18.0: the MCQ row-rebuttal lexicon, hoisted from the keying site so the
-# lane split is explicit. _MS_ROW_REBUTTAL_RE carries the v0.17.4 inline text
-# BYTE-EXACT (including the concatenated-branch quirk '\b\b' that makes its
-# final '(is|are) ... incorrect' branch unreachable — chemistry behaviour is
-# frozen, quirks and all; do not 'fix' it). The vertical variant is the sane
+# lane split is explicit. _MS_ROW_REBUTTAL_RE carried the v0.17.4 inline text
+# BYTE-EXACT (including the concatenated-branch quirk '\b\b' that made its
+# final '(is|are) ... incorrect' branch unreachable) until the F86-queued
+# repair executed in v0.29.1 (F110): the missing alternation '|' is restored
+# so 'X is incorrect ...' rows rebut again in the row lane. The served
+# chemistry corpus keyed its MCQs from a pre-quirk staging era; every fresh
+# re-emission on current staging de-keyed exactly the parts whose rebuttals
+# lack an 'is not' lexeme (F86 forensics; 2021-06 1C 5(b)(i)/6(b)(ii) are the
+# first regeneration bites — F110). The vertical variant is the sane
 # alternation and adds the 'does not'/'do not' elimination family the physics
 # tables print (2025-11 2P 2(b): 'A does not affect gravitational field
 # strength').
 _MS_ROW_REBUTTAL_RE = re.compile(
     r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b"
-    r"\b(?:is|are)\s+(?:\w+\s+)?incorrect\b")
+    r"|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b")
 _MS_V_REBUTTAL_RE = re.compile(
     r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b|\bdoes\s+not\b|\bdo\s+not\b"
     r"|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b")
@@ -1914,7 +1919,14 @@ def strip_ms_grid_furniture(text):
         s = ln.strip()
         toks = [t for t in re.split(r"[^A-Za-z]+", s) if t]
         if s and (MS_TOTAL_LINE_RE.fullmatch(s)
-                  or (_ms_furniture_line(s) and len(toks) >= MS_HEADER_ROW_MIN_TOKENS)):
+                  or (_ms_furniture_line(s) and len(toks) >= MS_HEADER_ROW_MIN_TOKENS
+                      # v0.29.1 (F110): a line carrying digits is never a header
+                      # row — the printed header bands have none. Digit-bearing
+                      # all-furniture-token lines are the F88 wrap-ambiguous
+                      # guidance class ('ALLOW 297 X 9.75/65 =44.55/44.6 for 2
+                      # marks' / 'for 2 marks'), kept verbatim; eyeballed on the
+                      # sha-verified 2023-11 1C + 2025-06 2C MS pages of record.
+                      and not any(ch.isdigit() for ch in s))):
             continue
         mid.append(ln)
     n = 0

@@ -656,8 +656,16 @@ for c in cans:
             words = {"question", "number", "answer", "notes", "marks",
                      "additional", "guidance", "total", "for"}
             def _grid_furniture(line):
-                toks = [t for t in _re.split(r"[^A-Za-z]+", line) if t]
-                return len(toks) >= 2 and all(t.lower().lstrip("0123456789") in words for t in toks)
+                # v0.29.1 (F110): a line carrying digits is never a header row —
+                # the printed header bands have none. Digit-bearing all-furniture
+                # token lines are the F88 wrap-ambiguous guidance class kept
+                # verbatim ('ALLOW 297 X 9.75/65 =44.55/44.6 for 2 marks', 2023-11
+                # 1C 10(c)(i); 'for 2 marks' tail of 'ALLOW 0.472 /0.118 for 2
+                # marks', 2025-06 2C 5(d)(i) — both eyeballed on the sha-verified
+                # MS pages of record, wrapped second lines of real guidance).
+                toks = [t for t in _reg.split(r"[^A-Za-z]+", line) if t]
+                return len(toks) >= 2 and not any(ch.isdigit() for ch in line) \
+                    and all(t.lower().lstrip("0123456789") in words for t in toks)
             ok = True
             n = 0
             for d in sorted(BASE.iterdir()):

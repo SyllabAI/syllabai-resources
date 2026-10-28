@@ -1097,7 +1097,7 @@
   {
    "id": "C110-grid-furniture-free-at-source",
    "series": "*",
-   "assertion": "F108 leg 1 (closes the F88 caveat): no MS-GRID furniture survives in any served solution_md or mark_points corpus-wide — header rows (>=2 furniture-word tokens, e.g. 'Question Answer Notes Marks' / 'Answer Additional guidance Marks') and bare Total-family lines. The converter strips these classes at source (the exporter's serve-time strip is the redundant second line of defense). Single-token and bare 'N marks' lines stay by design (wrap-ambiguous, F88).",
+   "assertion": "F108 leg 1 (closes the F88 caveat): no MS-GRID furniture survives in any served solution_md or mark_points corpus-wide — header rows (>=2 furniture-word tokens, e.g. 'Question Answer Notes Marks' / 'Answer Additional guidance Marks') and bare Total-family lines. The converter strips these classes at source (the exporter's serve-time strip is the redundant second line of defense). Lines carrying digits are never header rows either (the printed bands have none) — digit-bearing all-furniture-token lines are the F88 wrap-ambiguous guidance class kept verbatim ('=44.55/44.6 for 2 marks' 2023-11 1C 10(c)(i); 'for 2 marks' 2025-06 2C 5(d)(i); eyeballed on the sha-verified MS pages of record, F110). Single-token and bare 'N marks' lines stay by design (wrap-ambiguous, F88).",
    "check": "no_grid_furniture_lines"
   },
   {

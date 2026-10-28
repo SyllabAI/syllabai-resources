@@ -16,18 +16,13 @@ Complete the table by choosing substances from the box that match the descriptio
 **Mark scheme answer**
 
 > ALLOW correct
-> Information Substance formulae
-> a good conductor of copper
-> electricity
-> an element that has a copper
-> basic oxide
-> a substance used as a methane
-> fuel
-> a major cause of acid sulfur dioxide
-> rain
-> a non-metallic element iodine
-> that is a solid at room
-> temperature
+> | Information | Substance formulae |
+> | --- | --- |
+> | a good conductor of electricity | copper |
+> | an element that has a basic oxide | copper |
+> | a substance used as a fuel | methane |
+> | a major cause of acid rain | sulfur dioxide |
+> | a non-metallic element that is a solid at room temperature | iodine |
 
 - **(5)** ALLOW correct
 
