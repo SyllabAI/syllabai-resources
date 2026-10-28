@@ -40,6 +40,8 @@ jobs:
         run: python3 scripts/sme_speech_transpile_test.py
       - name: G9 aggregation-law + asset-byte-guard tests (F105 — the seven required scenarios + F104 fixtures; zero network)
         run: python3 scripts/official_examq_g9_tests.py
+      - name: MS-grid strip-law tests (F114 — the F88 reconciliation: the abbreviated-footer marks tail + the 12 standing keeps; zero network)
+        run: python3 scripts/official_examq_strip_law_tests.py
       - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
         run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
 
