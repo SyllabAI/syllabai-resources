@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MS-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -20,24 +20,24 @@ source_scope:
   question_papers: true
   mark_schemes: true
   examiner_reports: false
-  supplementary: true
+  supplementary: false
 
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-018"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "251b46ba0bd9a08d66d57eca44fc8c80cd283289"
 ---
 
 # MS-02 — Mark Point Taxonomy
@@ -129,6 +129,25 @@ incorrect-answer guard ("incorrect M2" in the same excerpt window, SRC-QPMS-4CH1
 2019-06/4CH1-2C/questions.md lines 84-98).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### MS-052 — Cross-part ECF mandates and sign-conditionals ride on the point
+
+**Claim:** the enthalpy-change item shows the taxonomy's coupling classes on one window: a cross-part ECF mandate printed on the subtraction point (error carried forward from the two bond-energy parts must be applied), an order-free subtraction allowance, and a sign-conditional that splits the final award by the direction of the bonds arithmetic. The mandate is addressed to the marker as an obligation, not a permission — the carried-forward values are not optional leniency but the required input to part (iii).
+**Evidence:** the subtraction point carries the cross-part mandate verbatim from the flattened guidance run. The flattened text reads "subtraction of Σ(bonds made) made and In (iii) ECF from (i) and Σ(bonds broken) (ii) must be applied" — with "Subtraction can be in any order" in the same cell (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 333-347) — and caps the wrong-sign outcome at two of three marks, "(+) 788 scores 2", under the printed conditional "If Σ(bonds made) > Σ(bonds broken) final answer must" (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 355-369).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-053 — Either/or linked-pair routes inside one item
+
+**Claim:** one item can carry two complete alternative linkage routes, each its own linked pair, announced by a dedicated scaffold before either pair is read. The fermentation item pools its two marks across the either/or structure: the candidate picks one pair and the pair's two points are credited together. This is the taxonomy's answer to chemically equivalent objections — oxygen attacking the ethanol, or the ethanol being oxidised — printed as alternatives of equal standing rather than collapsing to one.
+**Evidence:** "An explanation using either of the following linked pairs:" opens the absence-of-air item, whose first pair runs "M1 oxygen in the air would react with" ethanol and onward to the oxidation product (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 449-463); the pooled award prints as a two-mark point carrying the same scaffold (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 470-484).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-054 — Pool-backed points: printed M-rows exceed the point value
+
+**Claim:** a point's value and its backing pool are independent quantities: the saucepan item prints a two-mark point over a three-row pool, so a candidate needs any two of three available rows. The pool rows carry their own annotations (an IGNORE cell, an ALLOW cell), meaning the surplus row is a full point-row in its own right, not a footnote. Parsers and revision users therefore must not assume row-count equals point-value; the bracketed award on the point line is the only allocation authority.
+**Evidence:** the point prints "Any two from the following:" over "M1 good conductor of heat/thermal energy", the food-inertness row "M2 does not react with food/affect flavour of food", and "M3 resistant to corrosion ALLOW does not corrode/rust" (SRC-QPMS-4CH1, 2019-06/4CH1-2C/questions.md lines 238-252).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the 2019-06 2C official extraction (60 bounded
@@ -147,5 +166,4 @@ parse preserves. No canonical mark_points plane was read or written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-018 (D3 tranche 2): +3 records (MS-052..054), zero-append mining of the carried RUN-005 pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

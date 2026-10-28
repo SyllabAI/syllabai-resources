@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MS-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -20,24 +20,24 @@ source_scope:
   question_papers: true
   mark_schemes: true
   examiner_reports: false
-  supplementary: true
+  supplementary: false
 
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-018"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "251b46ba0bd9a08d66d57eca44fc8c80cd283289"
 ---
 
 # MS-05 — Common Mark-Loss Patterns
@@ -126,6 +126,25 @@ crystallisation describes the process of a soluble solid forming from a solution
 (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 62-76).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### MS-061 — Distractor-rationale grammar persists across eras
+
+**Claim:** the MCQ rejection rationale — “X is not correct as <chemical reason>” — is a stable cross-era form: the 2019 first-cohort paper uses it on the dissolving-crystal item, and the 2022 paper uses the identical grammar on the bromine-water item. The rationale is always chemical (what the distractor's chemistry would imply), never procedural, which is what makes the rejected option a teaching text rather than a scoring note. The grammar's persistence across three years and two papers marks it as a house style of the mark-scheme corpus, not a session artifact.
+**Evidence:** "A is not correct as the crystal does not condense" opens the 2019 rejection run (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 22-36); the 2022 paper prints "B is not correct as bromine water is orange before it reacts with ethene" in the same shape (SRC-QPMS-4CH1, 2022-01/4CH1-2C/questions.md lines 57-71).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-062 — Quantitative-world rationales: trace amounts and abundance
+
+**Claim:** the rejection grammar extends into quantitative contexts with a characteristic abundance vocabulary: rejected options are dismissed for trace concentrations while the keyed option is justified by being the most abundant constituent. The atmosphere item runs the full set — three trace-amount rejections and one abundance justification — so the rationale teaches the composition figures themselves. Mark-loss text and curriculum content coincide in the same printed sentence.
+**Evidence:** "D is the only correct answer as nitrogen is the most abundant gas in unpolluted air." keys the item, while "A is not correct as there are only trace amounts of hydrogen in unpolluted air." dismisses the first distractor — the same window carries the methane and argon trace rejections (SRC-QPMS-4CH1, 2022-01/4CH1-2C/questions.md lines 132-146).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-063 — Graphical REJECT rulings void named renderings
+
+**Claim:** construction marks are policed by printed REJECT cells that void specific renderings: on the energy-level item, an activation-energy arrow is rejected if it points down and an enthalpy-change arrow if it points up. The rejection is directional and symbol-level — the chemistry may be entirely right and the mark still voids on the drawing. Direction-of-arrow discipline is thus printed marking law, auditable in the parsed text.
+**Evidence:** the activation-energy point allows a double-headed arrow but prints "REJECT arrow pointing down", and the enthalpy-change point symmetrically prints "REJECT arrow pointing up" (SRC-QPMS-4CH1, 2022-01/4CH1-2C/questions.md lines 488-502).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the run's pack of official extractions (bounded
@@ -147,5 +166,4 @@ planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-018 (D3 tranche 2): +3 records (MS-061..063), zero-append mining of the carried RUN-005 pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

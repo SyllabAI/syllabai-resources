@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MS-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -20,24 +20,24 @@ source_scope:
   question_papers: true
   mark_schemes: true
   examiner_reports: false
-  supplementary: true
+  supplementary: false
 
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-018"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "251b46ba0bd9a08d66d57eca44fc8c80cd283289"
 ---
 
 # MS-06 — Partial Credit Patterns
@@ -56,8 +56,7 @@ the run's evidence pack. Research artifact; canonical planes untouched.
 **Covers:** step-pair credit; no-working caps and fallback allowances; dependency
 partial credit; pooled pick-N awards; diagram-route equivalence; deduction rules.
 
-**Grounding:** SRC-QPMS-4CH1 (the 2019-06 2C/1CR, 2020-01 2C, 2022-01 1CR, 2022-06
-2C, 2023-11 2C and 2025-06 2C excerpt windows of the pack).
+**Grounding:** SRC-QPMS-4CH1 (the 2019-06 2C/1CR, 2020-01 2C, 2022-01 1CR, 2022-06 2C, 2023-11 2C, 2025-06 2C and 2026-06 2C excerpt windows of the pack).
 
 **Out of scope:** full mark-loss catalogue (MS-05), marking-language lexicon (MS-07).
 
@@ -130,6 +129,25 @@ the titration scheme's "REJECT incorrect ALTERNATIVE METHOD rounding for 1 mark"
 with the printed alternative route (SRC-QPMS-4CH1, 2025-06/4CH1-2C/questions.md lines 550-564).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### MS-064 — Subsumption rules let stronger answers absorb weaker points
+
+**Claim:** the schemes print subsumption rules that collapse point boundaries for strong answers: a more precise final result can absorb a less precise one, and the absorbed point still counts. The Rf scheme states M3 subsumes M2 while both remain awardable; the zinc-excess scheme states M2 subsumes M1 outright. The examiner report of the same era observes the resulting bimodal outcome — most candidates scored either zero or two on a neighbouring displayed-formula item — corroborating that subsumption compresses the middle of the distribution.
+**Evidence:** "M3 subsumes M2 can score M2 and M3" rides on the Rf precision rows (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 282-296); "M2 subsumes M1" rides on the zinc-excess calculation (SRC-QPMS-4CH1, 2022-01/4CH1-1CR/questions.md lines 1064-1078). The 2019 report corroborates the compressed outcome (SUPPLEMENTARY texture): "Most candidates either scored 0 or 2 here, with a very small minority scoring 1 mark" (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p25).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-065 — Fallback awards for near-miss and reduced-method answers
+
+**Claim:** the schemes print explicit fallback prices for answers that miss the full condition: an electron statement without the delocalisation scores one of two, a dilution misroute prices at two of three, and a bare correct answer to the wrong precision still banks the full three. The fallback is always priced — the printed scheme names both the reduced award and the condition that triggers it — so partial credit is a printed rule, not an examiner's discretion.
+**Evidence:** the electrolysis point prices the reduced statement as "electrons i.e. 'electrons move' scores 1 mark" (SRC-QPMS-4CH1, 2020-01/4CH1-2C/questions.md lines 220-234); the titration scheme prints "ALLOW 0.472 /0.118 for 2 marks" beside the full-credit route (SRC-QPMS-4CH1, 2025-06/4CH1-2C/questions.md lines 550-564); the Rf scheme banks the bare answer, "0.66 with no working scores 3" (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 282-296).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-066 — Consequential partial credit on data-selection tasks
+
+**Claim:** the newest session in the pack extends partial credit to data handling: titre selection, averaging and the final concentration each key off the candidate's own earlier choices, and the scheme prints the consequential chain explicitly — which selection earns which downstream award, and what a single-tick selection forfeits. The 2026 window shows the machinery is current house practice, not a legacy form; the printed dependency is the auditor's handle on the whole chain.
+**Evidence:** the titrine-selection window prints "only use of 2 or 3 concordant titres can scores both marks in (ii)" and chains the awards so that "M1 consequential on results ticked" feeding "M2 consequential on correct calculation from M1" (SRC-QPMS-4CH1, 2026-06/4CH1-2C/questions.md lines 192-206).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the run's pack of official extractions (bounded
@@ -148,5 +166,4 @@ corpus is not measured. No canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-018 (D3 tranche 2): +3 records (MS-064..066), zero-append mining of the carried RUN-005 pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

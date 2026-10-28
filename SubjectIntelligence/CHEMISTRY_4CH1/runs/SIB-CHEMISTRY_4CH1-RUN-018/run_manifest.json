@@ -1,0 +1,175 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-018",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai_resources": "251b46ba0bd9a08d66d57eca44fc8c80cd283289"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "MS-01",
+      "filename": "CHEMISTRY_4CH1_MS-01_MARK_SCHEME_STRUCTURE.md",
+      "evidence_pack": "evidence/MS-01/evidence_pack.json",
+      "evidence_pack_sha256": "db4d7190b4b4afb2b40363fe6346674142644f7242ed23a7e38d0d085abbc232",
+      "artifact_sha256": "29cdcf60e31db06de4cdf2c6133c6cc722adc19781c1a3312aa30a496ea59d27",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-049..051, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:17 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned"
+      },
+      "qa_report": "qa-reports/MS-01.qa.json"
+    },
+    {
+      "artifact_id": "MS-02",
+      "filename": "CHEMISTRY_4CH1_MS-02_MARK_POINT_TAXONOMY.md",
+      "evidence_pack": "evidence/MS-02/evidence_pack.json",
+      "evidence_pack_sha256": "14de925e5d65cd5d22dc15e3ea1a84fe2b586f75ec6b504ec9338c856804b985",
+      "artifact_sha256": "3a2a66e11e9af543de3fcd266329e61e7f9a8c937bd461a2a45bfabc638cb1c2",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-052..054, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:16 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned"
+      },
+      "qa_report": "qa-reports/MS-02.qa.json"
+    },
+    {
+      "artifact_id": "MS-03",
+      "filename": "CHEMISTRY_4CH1_MS-03_REQUIRED_ANSWER_ELEMENTS.md",
+      "evidence_pack": "evidence/MS-03/evidence_pack.json",
+      "evidence_pack_sha256": "b5fdb75639e1c85a8b417e36e1bbe074e963a73e2cc441ea1b43c5c15c58c89f",
+      "artifact_sha256": "602b8b4543d6933da7374c9a62ccfe844cf992d89649d2cee40dffb140ced87e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-055..057, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:14 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned"
+      },
+      "qa_report": "qa-reports/MS-03.qa.json"
+    },
+    {
+      "artifact_id": "MS-04",
+      "filename": "CHEMISTRY_4CH1_MS-04_ACCEPTABLE_ALTERNATIVES.md",
+      "evidence_pack": "evidence/MS-04/evidence_pack.json",
+      "evidence_pack_sha256": "187be8fd52d41929114a88f56c9d4ea600188778fc13df87d683a927ae7e5745",
+      "artifact_sha256": "42fb9f5a167dca9b68f2387c22aa68d28615dba531fd1de85ec26e21c1639996",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-058..060, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:11 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned",
+        "disclosure": "PASS:grounding/primary-evidence lines truthed (the RUN-005-era '2C and 2CR' pack description corrected to the pack of record's actual 2019-06 2C holding; disclosed in the run record)"
+      },
+      "qa_report": "qa-reports/MS-04.qa.json"
+    },
+    {
+      "artifact_id": "MS-05",
+      "filename": "CHEMISTRY_4CH1_MS-05_COMMON_MARK_LOSS_PATTERNS.md",
+      "evidence_pack": "evidence/MS-05/evidence_pack.json",
+      "evidence_pack_sha256": "60cb15145145e30d55ea132c2593017fcf81ae0e64fd7681c6e2e7772598e767",
+      "artifact_sha256": "9df154b3e218ff9792a93dc009c1226af6b7e1256da7c0388a21dab3a074a1e8",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-061..063, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:11 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned"
+      },
+      "qa_report": "qa-reports/MS-05.qa.json"
+    },
+    {
+      "artifact_id": "MS-06",
+      "filename": "CHEMISTRY_4CH1_MS-06_PARTIAL_CREDIT_PATTERNS.md",
+      "evidence_pack": "evidence/MS-06/evidence_pack.json",
+      "evidence_pack_sha256": "d9f341b9f3e56f7f54d0370625d56fc077e5f09785f4e828e63a24867acf9849",
+      "artifact_sha256": "9b714a2e0f33bdce6fe364db8429faf4c3353e4764615dfa315861ac5a3c4237",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-064..066, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:15 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned"
+      },
+      "qa_report": "qa-reports/MS-06.qa.json"
+    },
+    {
+      "artifact_id": "MS-07",
+      "filename": "CHEMISTRY_4CH1_MS-07_EXAMINER_MARKING_LANGUAGE.md",
+      "evidence_pack": "evidence/MS-07/evidence_pack.json",
+      "evidence_pack_sha256": "86d496217167fdfc4d2c4e7035088450456ecb95f817ed7af9a5a35b48353cc1",
+      "artifact_sha256": "08eabd528b73ca488f3874cb10446162f7a2f0768a4c0036be900b4fec6e8c10",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-067..069, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:14 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned"
+      },
+      "qa_report": "qa-reports/MS-07.qa.json"
+    },
+    {
+      "artifact_id": "MS-08",
+      "filename": "CHEMISTRY_4CH1_MS-08_ANSWER_QUALITY_PATTERNS.md",
+      "evidence_pack": "evidence/MS-08/evidence_pack.json",
+      "evidence_pack_sha256": "e86c1a0295aaae7e5f7b510658f5b7dab4ee6e7bac1a95d2c7b0511d4f023e9b",
+      "artifact_sha256": "8fb26c07482e44dd884553058037dd6d90a23044174e9b73346f20a3c64d163c",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from RUN-005 (pack_carry.json, per-file sha256 asserted); source pins unchanged (syllabai 357ace0a, syllabai_pastpapers 2cb92fe5)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the RUN-005 pack of record; no windows appended, caps untouched)",
+        "authoring": "PASS:+3 records (MS-070..072, family-unique block MS-049..072) authored only from read excerpts; 66 quotes pre-bound across the tranche (r1 law, markup-transparent self-check stricter than the gate)",
+        "r3_evidence_claim_qa": "PASS:14 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/<AID>.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:two origin advances isolated (b2057042->6162cc77->251b46ba, zero foreign SubjectIntelligence/ paths) + the environment-split incident (stale /tmp/my-project copy) disclosed and cleaned",
+        "disclosure": "PASS:grounding/primary-evidence/limitations lines truthed (RUN-005-era '15 excerpts across two files' corrected to the pack of record's actual 77 excerpts across the 2019-2023 session files; disclosed in the run record)"
+      },
+      "qa_report": "qa-reports/MS-08.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

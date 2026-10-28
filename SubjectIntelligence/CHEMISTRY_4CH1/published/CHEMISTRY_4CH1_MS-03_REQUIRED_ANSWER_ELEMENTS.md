@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MS-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -20,24 +20,24 @@ source_scope:
   question_papers: true
   mark_schemes: true
   examiner_reports: false
-  supplementary: true
+  supplementary: false
 
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-018"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "251b46ba0bd9a08d66d57eca44fc8c80cd283289"
 ---
 
 # MS-03 — Required Answer Elements
@@ -129,6 +129,25 @@ prints the CSQ note on the point itself.
 requirement is tied to the earlier parts' answers (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 200-214).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### MS-055 — Sign conventions and value floors as printed requirements
+
+**Claim:** the sign stance of a numeric answer is a printed, per-item requirement: the same paper's calorimetry evaluation says a negative sign is not required, while the dissolution item reserves a point for the positive sign being included — and both print the stance on the point rather than leaving it to marker habit. Value floors are printed the same way: an under-precise rounding is scored at zero outright, while a named constant substitution is admitted for all three marks. The requirement therefore includes its own boundary cases.
+**Evidence:** "Negative sign not required" rides on the Q-evaluation point (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 953-967); the dissolution scheme reserves "M4 positive sign included" with its own ECF rider and floors the under-precise answer, "2400 alone scores 0", while admitting "ALLOW use of 4.2 for all 3 marks (= 2436)" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 985-999 and lines 958-972).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-056 — Disjunctive requirements: OR-routes on observation points
+
+**Claim:** one required observation can be printed as a disjunction — several complete alternative statements joined by OR, each carrying its own riders — so the requirement is satisfied by any one route. The excess-solid observation offers three routes: the solid stops disappearing, the mixture turns cloudy, or the solid settles — and the colour-qualifying riders attach per route. A reader must treat the OR as the requirement's own operator, not as guidance spill-over.
+**Evidence:** "(the copper(II) oxide/it) stops disappearing" opens the first route with its "ALLOW stops dissolving" paraphrase, then "mixture turns cloudy (black)" and "(black) solid settles (at the bottom of the beaker)" complete the disjunction, each with a "REJECT any other colour" rider (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1174-1188).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-057 — Precision and unit envelopes on numeric requirements
+
+**Claim:** numeric requirements carry printed precision envelopes in two grain directions — a floor (any number of significant figures above two) and an exclusion (any number except one) — alongside unit conditions that bind the answer's form. The two envelopes read as opposite logics applied to the same class of quantity, and both attach to specific points. A candidate's precision and unit choices are therefore examinable content with printed boundaries, not presentation preferences.
+**Evidence:** "ACCEPT any number of sig figs greater than 2" opens the Q-evaluation guidance (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 951-965); the dissolution point states "M3 ΔH = (+) 24.2 (kJ/mol) ACCEPT any number of sig figs except 1" and the earlier window binds the unit, "If answer in kJ unit must be given." (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 985-999 and lines 953-967).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the 2019-06 1C official extraction (51 bounded
@@ -148,5 +167,4 @@ were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-018 (D3 tranche 2): +3 records (MS-055..057), zero-append mining of the carried RUN-005 pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

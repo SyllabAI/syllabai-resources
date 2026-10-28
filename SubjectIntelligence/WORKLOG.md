@@ -745,3 +745,63 @@ SIB-ASSESS-r2 D3 disposition executed as tranches.
 - Git phase: branch sib/bl-017-pass17-r0 off 6162cc77; true diff 20 paths (manifest.yaml +
   6 published + 6 qa-reports + 6 chunks + the RUN-017 run record), every path reconciled
   against lane scope.
+
+## RUN-018 — D3 REQUIRED-core depth pass, tranche 2: MS family (2026-10-29)
+
+Task ID: SIB-RUN018-r0; operator order trace 1a1838d0413b6fbd (the D3 REQUIRED-core depth
+pass), go trace 1a183f5436432ed9; tranche 2 of the RUN-017 plan of record.
+
+- PREFLIGHT: fetch-first held (b2057042->6162cc77->251b46ba; advances = this lane's own PR #211
+  merge + the T-OEQ-MATHSB-SERVE-1 corpusSyncQueued lane, zero foreign SubjectIntelligence/
+  paths; advance_disclosure.json filed); local main reconciled to 251b46ba (working tree proven
+  mode-flips only, zero content delta, zero untracked, zero stashes); validator pin 357ace0a and
+  pastpapers pin 2cb92fe5 verified. ENVIRONMENT-SPLIT INCIDENT (disclosed): the recycled sandbox
+  left a stale pre-recycle working copy at /tmp/my-project (resources HEAD 03b88f54 — where the
+  RUN-017 continuation executed); this session's first scaffold pass ran against that stale copy
+  and was removed per the stray-write law (RUN-005 packs byte-identical across copies, sha256
+  cross-checked x8; zero unique content); all RUN-018 work executed against the live tree at
+  /home/z/my-project/resources. Scripts persisted under session scripts/ (run018_scaffold,
+  run018_census, run018_dump_excerpts, run018_records, run018_records_b, run018_author_bodies,
+  run018_stamp, run018_lifecycle, run018_governance, run018_gitphase).
+- CENSUS of record (pre-run): MS = the thinnest REQUIRED family, median 758w, all 8 artifacts
+  v1.0 at 6 records each (MS-001..048, collision-free namespace). Tranche plan of record
+  predicted zero-append mining (RUN-005 packs' QPMS excerpt counts at/over the 60-per-source
+  cap) — CONFIRMED: packs of record carried byte-identical (pack_carry.json), zero windows
+  appended, caps untouched.
+- T2 EXECUTION (MS family, all 8 REQUIRED artifacts, +24 records MS-049..072, family-unique
+  block): 66 quotes pre-bound to raw excerpt text before the official gate (markup-transparent
+  self-check: blockquote markers treated as parse scaffolding; per-quote binding to the citation
+  that follows it; locator auto-heal pass verified every cited window against the artifact's own
+  pack — 0 residual heals after record-side fixes). Record themes: two-level mark accounting +
+  scaffolds + NOTE ceilings (MS-01); ECF mandates + either/or pairs + pool-backed points
+  (MS-02); sign/value-floor requirements + disjunctive OR-routes + precision/unit envelopes
+  (MS-03); synonym/scoped/numeric allowances (MS-04); cross-era rationale grammar + trace-amount
+  rationales + graphical REJECTs (MS-05); subsumption + fallback awards + consequential chains
+  incl. the 2026-06 window (MS-06); REJECT classes + DEP grammar + whole-item zero rulings
+  (MS-07); ECF amnesties + expected-answer windows + precision-as-point (MS-08). One SUPPLEMENTARY
+  ER texture citation (MS-064, 2019-06 1C er.pdf p25), labeled in-record. MS-04/MS-08
+  Grounding/Primary/Limitations lines truthed to the packs of record (RUN-005-era drift
+  disclosed in the run record).
+- GATES: r3 evidence-claim QA on deployed bodies BEFORE receipts = 112 citations / 0 violations
+  (per artifact: MS-01 14, MS-02 15, MS-03 14, MS-04 11, MS-05 11, MS-06 15, MS-07 14, MS-08
+  14; the gate's second run after the in-run fix — see run record for the 3-violation
+  fail-closed round and its repair); validator qa 0 errors / 0 warnings x8 (content-bound
+  receipts); stage x8 (SIB-ING-002) -> publish x8 (QA re-verified) -> chunks x8 refreshed;
+  run_manifest add-artifact x8 (7 gates each + MS-04/MS-08 disclosure gates) + validate OK.
+- POST-LIFECYCLE SCOREBOARD: validate-manifest stays in the byte-exact F4a-disclosed red state
+  (88x SIB-MANI-007 + 4 WARN + 7 INFO; landing zone empty BY DESIGN; evidence chain = governed
+  transition receipts); OBSERVED + DISCLOSED, never worked around. Receipt:
+  post_lifecycle_scoreboard.json in the run record.
+- DEPTH OUTCOME (honest numbers): MS median 758 -> ~1,210 words (+58%); MS-01 879->1,342,
+  MS-02 783->1,284, MS-03 807->1,280, MS-04 612->991, MS-05 766->1,196, MS-06 750->1,223,
+  MS-07 717->1,120, MS-08 735->1,201. REQUIRED-core words ~118,039 -> ~121,200. D3 stays
+  REGISTERED (tranches T3 PRO+ASM, T4 PRA+PED, T5 TUT, T6 GAP pending; MS/EXM now bracket the
+  at-depth families' lower edge).
+- STRUCTURAL NOTE (D6-adjacent, registered not repaired): the r3 gate's quote-capture whitelist
+  (: ; ( - dash) does not capture Evidence-line lead quotes (preceded by '**Evidence:**' —
+  trailing asterisk); those quotes are enforced by the authoring self-check law, not by the
+  gate. The tranche's 66 quotes were ALL self-bound under the stricter markup-transparent
+  standard; the gate's reach gap is upstream-validator material (tools/sib lane), filed with F4.
+- Git phase: branch sib/bl-018-pass18-r0 off 251b46ba; true diff = manifest.yaml + 8 published +
+  8 qa-reports + 8 chunks + the RUN-018 run record + library WORKLOG, every path reconciled
+  against lane scope.

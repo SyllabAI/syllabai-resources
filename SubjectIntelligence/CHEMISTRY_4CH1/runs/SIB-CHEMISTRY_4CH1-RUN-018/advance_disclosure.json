@@ -1,0 +1,26 @@
+{
+ "advances": [
+  {
+   "at": "session start",
+   "from": "b2057042",
+   "isolation": "git diff --name-only b2057042..6162cc77 -- SubjectIntelligence/ => empty; lanes: T-PARSE-YCH12-2 book-parse, maths-B spec overlay",
+   "to": "6162cc77"
+  },
+  {
+   "at": "session mid-flight",
+   "from": "6162cc77",
+   "isolation": "git diff 5e26dc9d 251b46ba -- SubjectIntelligence/ => empty; advances = PR #211 (this lane's own RUN-017 tranche-1 merge) + T-OEQ-MATHSB-SERVE-1 corpusSyncQueued lane (Official-ExamQuestion maths-B files + exporter disclosures; zero SubjectIntelligence/ paths); local main reconciled to 251b46ba (working tree proven mode-flips only, zero content delta vs 6162cc77, zero untracked, zero stashes)",
+   "to": "251b46ba"
+  },
+  {
+   "at": "pre-branch-cut (git phase, fetch-first gate)",
+   "from": "251b46ba",
+   "isolation": "git diff --name-only 251b46ba cdbfd730 -- SubjectIntelligence/ => empty; advances: T-SPECS-CIE-VERDICT-2 (b97a80c7), T-SPECS-CIE-GATE-2 (20a35ccc), F115 converter v0.30.1 (cdbfd730, PR #210) \u2014 spec-links/graph scripts lanes, zero SubjectIntelligence/ contact; local main FF'd to cdbfd730; branch of record re-cut at cdbfd730",
+   "to": "cdbfd730"
+  }
+ ],
+ "disposition": "fetch-first gate held THREE times (6162cc77, 251b46ba, cdbfd730); all advances proved zero SubjectIntelligence/ paths; fail-closed rule armed and exercised once (pre-branch-cut advance -> clean re-cut, no abort needed)",
+ "environment_split_incident": "the recycled sandbox split the environment: a stale pre-recycle working copy persists at /tmp/my-project (resources HEAD 03b88f54, where the RUN-017 continuation executed before the recycle; RUN-017's persisted scripts reference those /tmp paths). This session's first scaffold pass ran against that stale copy and was removed per the stray-write law (zero unique content: RUN-005 packs byte-identical across copies, sha256 cross-checked x8; no other writes). All RUN-018 work executes against the live tree at /home/z/my-project/resources (origin/main 251b46ba). Session-side digests (d3 census, excerpt dumps) were built from the stale copy's packs \u2014 validity PROVEN by the sha256 cross-check above",
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-018",
+ "schema": "sib-advance-disclosure/1.0"
+}

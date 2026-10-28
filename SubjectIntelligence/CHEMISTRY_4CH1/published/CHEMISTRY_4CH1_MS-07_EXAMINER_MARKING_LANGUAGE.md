@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MS-07
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -20,24 +20,24 @@ source_scope:
   question_papers: true
   mark_schemes: true
   examiner_reports: false
-  supplementary: true
+  supplementary: false
 
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-018"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "251b46ba0bd9a08d66d57eca44fc8c80cd283289"
 ---
 
 # MS-07 — Examiner/Marking Language
@@ -126,6 +126,25 @@ ride on the point lines.
 (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 171-185).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### MS-067 — REJECT voids named content on the point
+
+**Claim:** REJECT is the lexicon's strongest per-point voiding term: it names the exact content whose presence forfeits the mark, and it binds even when the surrounding chemistry is correct. The diamond point rejects any mention of intermolecular forces; the decolourisation point rejects the specific miswording discoloured while accepting the surrounding sentence. The term is therefore content-scoped, not answer-scoped — a single wrong noun can void an otherwise credit-bearing line.
+**Evidence:** the diamond hardness point prints "REJECT mention of intermolecular forces in diamond" beside its ALLOW cell (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 549-563); the bromine-water result point prints "REJECT discoloured" against the accepted "decolourised" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 611-625).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-068 — DEP dependency grammar binds later points to earlier ones
+
+**Claim:** DEP is the lexicon's dependency term: a point marked DEP on an earlier point cannot be earned unless the anchor is earned first, and the anchor can be a whole content phrase rather than a point code. The dot-and-cross scheme binds the outer-electron point to the bonding-pairs point; the hydrocarbon scheme binds the “only” point to the mention of hydrogen and carbon. DEP therefore encodes the marking order's premises, and it is machine-readable from the parsed cell.
+**Evidence:** "M2 DEP on M1" binds the outer-electron row (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 695-709); the compound-definition point binds "M2 DEP on mention of hydrogen and carbon in M1" (SRC-QPMS-4CH1, 2019-06/4CH1-1CR/questions.md lines 323-337).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### MS-069 — Whole-item zero rulings: REJECT with quantitative consequence
+
+**Claim:** the strongest rejection form carries its own arithmetic: contradicting statements do not merely lose a point, they void the whole item — the isomer scheme prices the contradiction at zero of two. The ruling is printed inside the guidance cell and names its trigger class (same displayed formula but different structures), so the zero is auditable rather than discretionary. This is the marking language's graded severity made explicit: IGNORE forgives, REJECT voids a point, REJECT with a score statement voids the item.
+**Evidence:** the isomer definition point prints "REJECT contradicting statements, e.g. same displayed formula but different structures scores 0 out of 2" (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 753-767).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-QPMS-4CH1 — the 2019-06 1C and 1CR official extractions (82
@@ -145,5 +164,4 @@ planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-018 (D3 tranche 2): +3 records (MS-067..069), zero-append mining of the carried RUN-005 pack of record; every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.
