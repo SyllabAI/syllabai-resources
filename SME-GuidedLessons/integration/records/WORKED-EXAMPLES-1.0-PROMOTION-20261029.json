@@ -1,0 +1,38 @@
+{
+  "format": "worked-examples-promotion/1.0",
+  "wave": "WE-1 worked-example recovery wave",
+  "operator_trace": "1a183e5ea252e9b5",
+  "generated_at_utc": "2026-10-28T19:46:44Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/worked-examples-1.0-20261029",
+  "commits": {
+    "A_source_revision": "8ea8c63a46d75fc54733900dfecf5d3c5c93bbde",
+    "B_outputs_manifest": "4f68b1a99246f4521da48a8f8c477935114ae11f"
+  },
+  "artifact_pin": "8ea8c63a46d75fc54733900dfecf5d3c5c93bbde",
+  "pkg_pin": "4d857c472fd725597ac21db189542c8f12c82dba",
+  "manifest": {
+    "file": "SME-GuidedLessons/integration/hub-import-manifest-v4.json",
+    "sha256": "b11c66524cf810d093f0578482e1436f7fafb984815c7faf82f8b838cd711b0d",
+    "manifest_version": 4,
+    "artifacts": 224
+  },
+  "counts": {
+    "notes": 112,
+    "lessons": 239,
+    "checks": 1195,
+    "keyPoints": 1212,
+    "distractors": 3565,
+    "glossaryTerms": 654,
+    "figures": 200,
+    "figures_module_mapped": 122,
+    "figures_note_level": 78,
+    "workedExamples_populated": 112,
+    "workedExamples_null": 0,
+    "authored_chars_conserved": 1426764,
+    "authored_chars_v3_baseline": 1347771,
+    "added_chars": 78993
+  },
+  "merge_order": "the hub PR (runner feed worked-examples-v4 + revised content pack + re-issued guided-import.json) merges ONLY after this resources PR",
+  "p0_note": "runner pending-promotion mode applies until this branch merges; post-merge re-run enforces ancestry (FIG-5 precedent)"
+}
