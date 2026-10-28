@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXM-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-017"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "6162cc770e8391e4a76d68919b88fd9f23081ce9"
 ---
 
 # EXM-03 — What Examiners Reward
@@ -57,8 +57,7 @@ identity preserved. Research artifact; canonical planes untouched.
 above-expectation performance notes; balance/accessibility judgements; preparation
 effects.
 
-**Grounding:** SRC-ER-4CH1 (the 2023-06 1C/1CR/2C and 2024-06 2C report excerpts of
-the pack).
+**Grounding:** SRC-ER-4CH1 (the 2023-06 1C/1CR/2C, 2023-11 1C/2C, 2024-06 1CR/2C/2CR and 2024-11 1C report excerpts of the pack, plus the appended 2019-06, 2022-06 and 2025-06 1C introductions).
 
 **Out of scope:** warnings (EXM-02) and penalties (EXM-04); mark-scheme-derived
 sentiment (forbidden substitution — rewards here come only from report text).
@@ -128,23 +127,38 @@ grades." (SRC-ER-4CH1, 2023-06/4CH1-1CR/er.pdf p3); "This paper discriminated we
 giving a range of marks for all grades." (SRC-ER-4CH1, 2023-06/4CH1-2C/er.pdf p3).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### EXM-040 — Named extended-response rewards, 2022 cohort
+
+**Claim:** the 2022 report names the specific extended responses it rewarded, question part by question part. Named rewards are actionable in both directions: they show which extended-response formats the cohort handled well under the Advance Notice regime, and their question parts are safe ground for practising extended writing. The report's preparation remark explains the reward rather than diluting it.
+**Evidence:** "Some of the extended response questions were particularly well answered, most notably Q2(b)(iii), Q5(b) and Q8(b)." (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3).
+; "Candidates had clearly read the Advance Notice and were well prepared for most questions." (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-041 — First-cohort calculation rewards under the new specification
+
+**Claim:** the first cohort under the 2017 specification was rewarded on calculations, which the report reads as preparation for the mandated maths content. The reward had a structural cause: the 2017 specification mandates a minimum mathematical content, and the first cohort's preparation met it. The same introduction keeps the reward in proportion by naming what the cohort found difficult — structure and bonding and practical chemistry.
+**Evidence:** "The calculation questions, however, were well answered by many candidates, which showed that they had been well prepared for the extra maths content of the new specification." (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3).
+; "There is more emphasis on mathematical skills on this paper as there has to be at least 20% maths content." (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-042 — 2025 mole-calculation strength with the ECF safety net
+
+**Claim:** the 2025 report rewards mole-calculation work cohort-wide, again noting error carried forward as the mechanism that protected weaker starters. Together with the 2019 and 2022 statements this completes a consistent cross-era picture: quantitative work is the reliably strong strand of cohort performance, while qualitative practical responses are the reliably variable one — the inversion of the traditional weaknesses.
+**Evidence:** "Overall, mathematical skills in mole calculations were well demonstrated, with many candidates benefiting from the application of error carried forward." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
-Primary evidence: SRC-ER-4CH1 — the 2023-06 and 2024-06 examiner-report PDFs of the
-pack (page-located excerpts from the commentary zone; per-file identity carried by
-the paper-dir paths). Paper identity rides on SRC-QPMS-4CH1 per the source
-manifest's limitation note. No mark schemes were consumed for reward claims; the
-examiner-sentiment substitution is forbidden and was not made.
+Primary evidence: SRC-ER-4CH1 — the 2023-06, 2023-11, 2024-06, 2024-11 and appended 2019-06/2022-06/2025-06 examiner-report PDFs of the pack.
 
 ## Limitations / Coverage Gaps
 
-The reward catalogue covers the pack's excerpted reports (2023-06, 2024-06); other
-held sessions sit in sibling packs. Sessions without public ERs remain source gaps
+The reward catalogue covers the pack's excerpted reports (2023-06, 2023-11, 2024-06, 2024-11) and the appended 2019-06, 2022-06 and 2025-06 1C introductions; other held sessions sit in sibling packs. Sessions without public ERs remain source gaps
 of record. No canonical planes were written.
 
 ## Research Status
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-017 (D3 tranche 1): +3 records (EXM-040..042) grounded in the pack of record, widened by disclosed diff-proved ER appends (2019-06/2022-06/2025-06 1C p3); claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXM-01
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,11 +25,11 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-27
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-012"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-017"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -37,7 +37,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "0261a2b908751ac5c0a4331c1f7463c4956ec664"
+    syllabai_resources: "6162cc770e8391e4a76d68919b88fd9f23081ce9"
 ---
 
 # EXM-01 — Examiner Report Synthesis
@@ -57,9 +57,7 @@ untouched.
 commentary; the not-creditworthy ruling class; general-reminder passages;
 legacy-transition notes.
 
-**Grounding:** SRC-ER-4CH1 (the 2019-06 1C/1CR/2C/2CR reports of the pack, pages
-3-4 of each — the commentary zone after cover and boilerplate) and SRC-QPMS-4CH1
-(paper identity headers).
+**Grounding:** SRC-ER-4CH1 (the 2019-06 and 2022-06 1C/1CR/2C/2CR reports and the 2023-06 1C/1CR excerpts of the pack — pages 3-4 of each, the commentary zone after cover and boilerplate — plus the appended 2025-06 1C/2C introductions) and SRC-QPMS-4CH1 (paper identity headers).
 
 **Out of scope:** warning/reward/penalty catalogues (EXM-02..EXM-04),
 question-specific insights (EXM-05).
@@ -134,20 +132,33 @@ paper. The style of this paper is very similar to that of the legacy specificati
 but has increased from 60 to 70 marks." (SRC-ER-4CH1, 2019-06/4CH1-2C/er.pdf p3).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### EXM-034 — The 2025 pattern: knowledge front-loaded, long responses discriminate terminology
+
+**Claim:** the newest reports describe cohort knowledge as strongest in the first half of the paper, with long-response outcomes tracking terminology grasp and written clarity. Read against the earlier sessions, the 2025 framing keeps the long-established reward structure — broad competence assumed, discrimination delivered by terminology demand inside extended answers — while making the first-half/second-half split explicit for the first time. For revision design the actionable half is the named terminology: forces vocabulary and the ene/ane naming pair are the printed discriminators.
+**Evidence:** "In general, candidates performed well on this paper and demonstrated good knowledge, particularly across the first half." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3); the same introduction binds the long-response challenge to named causes: "Long-response questions proved challenging for those candidates who lacked a firm grasp of key terminology (eg incorrect use of intermolecular forces) and clarity in their written responses (eg confusion between ene and ane in Q09(c))." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-035 — Error-carried-forward as a systemic examiner practice
+
+**Claim:** across eras the reports describe ECF as an operating feature of the mark schemes, not an anomaly — candidates bank later calculation marks despite an earlier slip. The mechanism matters twice over: for score interpretation, an early calculation slip need not cascade because the examiner carries the wrong value forward into later working; and for mock practice, cohorts should rehearse recovering after a wrong intermediate value rather than abandoning the part.
+**Evidence:** "Other candidates often picked up error carried forward marks on the three and four mark calculations." (SRC-ER-4CH1, 2022-06/4CH1-2C/er.pdf p3); the 2025 report states the same mechanism for mole calculations: "Overall, mathematical skills in mole calculations were well demonstrated, with many candidates benefiting from the application of error carried forward." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-036 — Practical chemistry: a three-era variability arc
+
+**Claim:** each era's introduction independently nominates practical-context chemistry as the persistent weak area — an arc no other topic matches across 2019, 2022 and 2025. The arc is structural, not session-specific: the 2019 report states the remedy explicitly, and the 2025 report's AO3 wording implies the same need six years later. No other topic family is nominated by all three era introductions.
+**Evidence:** "Areas which proved difficult for the candidates included the questions on structure and bonding and questions related to practical chemistry." (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3); "Many candidates found questions relating to a practical context most difficult." (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3); "Questions on practical chemistry showed the greatest variation in performance." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3).
+; "Candidates need plenty of experience in doing chemistry experiments in order to help them answer questions which are related to the practical aspects of chemistry." (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
-Primary evidence: SRC-ER-4CH1 — the 2019-06 1C/1CR/2C/2CR examiner-report PDFs
-(page-located excerpts from the commentary zone; per-file identity carried by the
-paper-dir paths, per-file sha256 recorded in the source manifest of record).
-SRC-QPMS-4CH1 provides paper-identity headers in the pack. Reports are commentary on
-the official papers — paper identity cites ride on SRC-QPMS-4CH1 per the source
-manifest's own limitation note. Session coverage limits (8/16 held sessions; the
-garbled 2024-06 1C ER excluded of record) are disclosed in the run receipts.
+Primary evidence: SRC-ER-4CH1 — the 2019-06 and 2022-06 1C/1CR/2C/2CR, 2023-06 1C/1CR and appended 2025-06 1C/2C examiner-report PDFs of the pack.
 
 ## Limitations / Coverage Gaps
 
-The synthesis anchors on the four 2019-06 reports of the pack; later held sessions
-(2022-2025) are analysed in the sibling EXM artifacts whose packs hold them. Sessions
+The synthesis anchors on the pack's 2019-06 and 2022-06 reports (all four papers each), the 2023-06 1C/1CR excerpts and the appended 2025-06 1C/2C introductions; the cross-era records (EXM-035/036) read the 2019, 2022 and 2025 introductions side by side. Sessions
 without public ERs (COVID-era, some January/November sittings) and the silver-tier
 Nov-2025/June-2026 PEFs are source gaps of record — disclosed, never filled. No
 canonical planes were written.
@@ -156,5 +167,4 @@ canonical planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-017 (D3 tranche 1): +3 records (EXM-034..036) grounded in the pack of record, widened by disclosed diff-proved ER appends (2025-06 1C/2C p3); claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXM-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-017"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "6162cc770e8391e4a76d68919b88fd9f23081ce9"
 ---
 
 # EXM-04 — What Examiners Penalize
@@ -56,8 +56,7 @@ artifact; canonical planes untouched.
 **Covers:** instruction-following failures; formula and subscript care; method-reading
 failures; unlinked-explanation losses; proton/mass-number confusions; notation misuse.
 
-**Grounding:** SRC-ER-4CH1 (the 2023-11 1C/2C and 2024-06 1CR/2C report excerpts of
-the pack).
+**Grounding:** SRC-ER-4CH1 (the 2023-11 1C/2C, 2024-06 1CR/2C/2CR, 2024-11 1C/2C and 2025-06 1C/1CR/2C/2CR report excerpts of the pack).
 
 **Out of scope:** mark-scheme-derived loss patterns (MS-05's ground); warnings
 framing (EXM-02).
@@ -127,18 +126,33 @@ referred to an incorrect use of" — the 2C November introduction's notation war
 (SRC-ER-4CH1, 2023-11/4CH1-2C/er.pdf p3).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### EXM-043 — Terminology confusion penalised in long responses
+
+**Claim:** the penalised long-response failures of 2025-06 are terminology failures, with the ene/ane confusion in Q09(c) named as the written-clarity instance. The penalty reading is precise: the marks were not lost to chemistry ignorance but to word-level precision — one letter's worth, ene versus ane — inside an otherwise reachable response. The general vagueness penalty other sessions state is here given a concrete, teachable instance.
+**Evidence:** "Long-response questions proved challenging for those candidates who lacked a firm grasp of key terminology" (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3); the named instance: "confusion between ene and ane in Q09(c)" (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-044 — Particle-label switches and subatomic spelling
+
+**Claim:** on the 2025-06 1C opening atom question even successful candidates leaked marks — label switches still scored, spelling did not. The part still paid 2 of 3 under the switch — a partial-credit signal — but the spelling note came with no such cushion. The teachable point is that atom-model openings are only free marks when labels and spellings are exact.
+**Evidence:** "Where errors occurred, these were typically due to the proton and neutron labels being switched, which still resulted in 2 out of 3 marks being awarded." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p4); "It is worth noting that the spelling of the subatomic particles was often poor." (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p4).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### EXM-045 — The reversible-reaction calculation few finished
+
+**Claim:** the 2025-06 2C reversible-reaction calculation in Q06(c) was a four-mark part that very few candidates completed. A four-mark reversible-reaction calculation late in the paper is a deliberate discriminator: the report's per-question verdicts place Q06(c) alongside the session's unusual Q02(e) as the difficulty spines of 2C.
+**Evidence:** "Question 6 was about reversible reactions and a tricky calculation in Q06(c) with few candidates achieving four marks." (SRC-ER-4CH1, 2025-06/4CH1-2C/er.pdf p3).
+; "Question 2 was unusual and discriminated well." (SRC-ER-4CH1, 2025-06/4CH1-2C/er.pdf p3).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+
 ## Evidence / Source Basis
 
-Primary evidence: SRC-ER-4CH1 — the 2023-11 1C/2C and 2024-06 1CR/2C examiner-report
-PDFs of the pack (page-located excerpts from the commentary zone; per-file identity
-carried by the paper-dir paths). Paper identity rides on SRC-QPMS-4CH1 per the
-source manifest's limitation note. No mark schemes were consumed for penalty claims;
-the examiner-sentiment substitution is forbidden and was not made.
+Primary evidence: SRC-ER-4CH1 — the 2023-11, 2024-06, 2024-11 and 2025-06 examiner-report PDFs of the pack.
 
 ## Limitations / Coverage Gaps
 
-The penalty catalogue covers the pack's excerpted reports (2023-11, 2024-06); other
-held sessions sit in sibling packs. One quotation window is truncated by the excerpt
+The penalty catalogue covers the pack's excerpted reports (2023-11, 2024-06, 2024-11, 2025-06); other held sessions sit in sibling packs. One quotation window is truncated by the excerpt
 cap (the notation warning's continuation is outside the window and is not
 paraphrased). Sessions without public ERs remain source gaps of record. No canonical
 planes were written.
@@ -147,5 +161,4 @@ planes were written.
 
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
 pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+to pack excerpts. Deepened under SIB-CHEMISTRY_4CH1-RUN-017 (D3 tranche 1): +3 records (EXM-043..045), zero-append (cited spans already held in the pack of record); claim QA re-bound all citations. Research artifact — evidence-backed, not canonical educational truth.

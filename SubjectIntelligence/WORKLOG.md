@@ -696,3 +696,52 @@ SubjectIntelligence-isolated). **D7 CLOSED — the library is servable.**
 Register: D3 (REQUIRED-core depth ceiling), D6 (single-pipeline self-attestation
 limit), the F4 upstream validator fix, and the independent silver-tier ER review
 before production reliance remain operator-ordered.
+
+## RUN-017 — D3 REQUIRED-core depth pass, tranche 1: EXM family (2026-10-29)
+
+Task ID: SIB-RUN017-r0; operator order trace 1a1838d0413b6fbd ("deepening the 88 REQUIRED-core
+artifacts from skeleton to substance"), go traces 1a18391c47e89ddd / 1a183c01b1199779; the
+SIB-ASSESS-r2 D3 disposition executed as tranches.
+
+- PREFLIGHT: fetch-first held twice (b2057042->4c04603f->6162cc77; both advances proved zero
+  SubjectIntelligence/ paths; advance_disclosure.json filed); local main FF'd to 6162cc77;
+  validator pin 357ace0a unchanged; creds restored via the RUN-011 recipe (PAT API-verified,
+  never printed). Scripts persisted under session scripts/ (d3_census, run017_scaffold,
+  run017_append_packs, run017_author_bodies, run017_enrich_records, run017_stamp,
+  run017_lifecycle, run017_governance, run017_gitphase).
+- CENSUS (d3_census.py, from published/): 88 REQUIRED artifacts = 115,745 words / 574 records;
+  depth-deficit order EXM 735w median < MS 758 < PRO 920 < ASM 950 < PRA 1031 < PED 1048 <
+  TUT 1152 < GAP 1464 (MIS 1670 / CUR 1931 / EXP 2135 at depth). Tranche plan of record:
+  T1 EXM (this run), T2 MS, T3 PRO+ASM, T4 PRA+PED, T5 TUT, T6 GAP; MIS/CUR/EXP confirm-clean
+  only; the EXP/TUT SB1 publisher-eBook gate (RUN-011 register line) honored by ordering.
+- T1 EXECUTION (EXM family, all 6 REQUIRED artifacts, +18 records EXM-034..051, family-unique
+  block): packs of record carried byte-identical (EXM-01 <- RUN-012 re-spec; EXM-02..06 <-
+  RUN-005); 10 ER windows appended to EXM-01/02/03/06 (2025-06 1C/2C p3, 2019-06 1C p3,
+  2022-06 1C p3, 2019-06 2CR p3) byte-built per pipeline/evidence_pack.py rules, per-file
+  sha256 asserted, diff_proofs.json adds-only proof; EXM-04/05 zero-append (cited spans already
+  held; EXM-05 within 2.9k chars of the 40k cap); caps re-asserted post-append. Records authored
+  ONLY from read excerpts: 36 quotes pre-bound to pack excerpts (r1 law) across two authoring
+  passes (18 records + grounded enrichment); existing 36 records byte-unchanged (identity
+  preservation); Limitations/Grounding/Primary-evidence/Research-Status lines updated truthfully.
+  New-session evidence now grounding the family: 2019-06, 2022-06, 2025-06 introductions +
+  2019-06 2CR question commentary.
+- GATES: r3 evidence-claim QA on deployed bodies BEFORE receipts: 79 citations / 0 violations
+  (EXM-01 16, EXM-02 14, EXM-03 14, EXM-04 12, EXM-05 12, EXM-06 11); validator qa 0 errors /
+  0 warnings x6 (content-bound receipts); stage x6 (SIB-ING-002) -> publish x6 (QA re-verified)
+  -> chunks x6 refreshed; run_manifest add-artifact x6 (7 gates each) + validate OK; census.json
+  annex with final shas.
+- POST-LIFECYCLE SCOREBOARD: validate-manifest qa_passed false, codes {SIB-MANI-007: 88,
+  SIB-MANI-011: 4, SIB-MANI-012: 7} — byte-exact the F4a-disclosed RUN-016 state (landing zone
+  empty BY DESIGN; evidence chain = governed transition receipts); OBSERVED + DISCLOSED, never
+  worked around. Receipt: post_lifecycle_scoreboard.json in the run record.
+- DEPTH OUTCOME (honest numbers): EXM median 735 -> ~1,092 words (+49%); EXM-01 798->1,257,
+  EXM-02 734->1,106, EXM-03 678->1,039, EXM-04 724->1,038, EXM-05 736->1,186, EXM-06 739->1,077;
+  REQUIRED-core words 115,745 -> ~117,663. The family remains below the r1 corpus median
+  (~1.3k words/doc): D3 stays REGISTERED until tranches T2..T6 land; this run retires nothing.
+- REGISTER NOTE (new debt observed, not repaired): EXM record ids are per-artifact sequences
+  with PRE-EXISTING cross-artifact collisions (EXM-021..026 appear in EXM-02, EXM-04 and
+  EXM-05); new records therefore took the family-unique block from EXM-034. An id-namespace
+  law / dedup pass is operator-ordered material for a future run.
+- Git phase: branch sib/bl-017-pass17-r0 off 6162cc77; true diff 20 paths (manifest.yaml +
+  6 published + 6 qa-reports + 6 chunks + the RUN-017 run record), every path reconciled
+  against lane scope.
