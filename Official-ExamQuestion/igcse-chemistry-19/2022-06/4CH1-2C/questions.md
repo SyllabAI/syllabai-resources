@@ -573,6 +573,7 @@ This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO
 > correct answer with or
 > without working scores 4
 > M1 (moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)
+> 80
 > M2 (moles of Cl2 =) 2.5 × 10⁵ x 2 OR 5.0 × 10⁵ (mol) ACCEPT 500 000 (mol)
 > M3 (vol of Cl2 =) 5.0 × 10⁵ × 24 OR 12 000 000 (dm3)
 > M4 1.2 × 10⁷ (dm3) ALLOW ecf on M2 and

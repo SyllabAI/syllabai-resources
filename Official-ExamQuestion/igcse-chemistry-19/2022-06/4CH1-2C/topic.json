@@ -1161,12 +1161,12 @@
      "problem_md": "This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO2 Calculate the volume, in dm3, of chlorine gas at rtp needed to react completely with 20 tonnes of titanium dioxide. Give your answer in standard form. [1 tonne = 106 g Mr of TiO2 = 80] [molar volume of chlorine gas at rtp = 24 dm3] volume of chlorine gas = dm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct answer with or\nwithout working scores 4\nM1 (moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)\nM2 (moles of Cl2 =) 2.5 × 10⁵ x 2 OR 5.0 × 10⁵ (mol) ACCEPT 500 000 (mol)\nM3 (vol of Cl2 =) 5.0 × 10⁵ × 24 OR 12 000 000 (dm3)\nM4 1.2 × 10⁷ (dm3) ALLOW ecf on M2 and\nM3\n6 x 106 scores 3\n3 x 106 scores 3\n6 000 000 scores 2\n3 000 000 scores 2\n2.083 x 104 scores 3",
+     "solution_md": "correct answer with or\nwithout working scores 4\nM1 (moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)\n80\nM2 (moles of Cl2 =) 2.5 × 10⁵ x 2 OR 5.0 × 10⁵ (mol) ACCEPT 500 000 (mol)\nM3 (vol of Cl2 =) 5.0 × 10⁵ × 24 OR 12 000 000 (dm3)\nM4 1.2 × 10⁷ (dm3) ALLOW ecf on M2 and\nM3\n6 x 106 scores 3\n3 x 106 scores 3\n6 000 000 scores 2\n3 000 000 scores 2\n2.083 x 104 scores 3",
      "mark_points": [
       {
        "id": "2022-06-6-a-MP1",
        "marks": 1,
-       "text_md": "(moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)"
+       "text_md": "(moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)\n80"
       },
       {
        "id": "2022-06-6-a-MP2",
@@ -1190,12 +1190,27 @@
       "4CH1-1.35C"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
-      "numbers": "source-printed"
-     }
+      "numbers": "source-printed",
+      "text": "corrected:f90-denominator-restoration (printed stacked-fraction denominator '80' lost to the pre-keep-law bare-number furniture strip; restored per the F90/F108 leg-0 keep-law fresh emission of official_examq_extract.py v0.29.2 + MS p11 render)"
+     },
+     "edits": [
+      {
+       "field": "solution_md",
+       "kind": "denominator-restoration",
+       "tool": "official_examq_extract.py v0.29.2 (F90/F108 leg-0 bare-numeral keep-law; surgical application)",
+       "evidence_ref": "MS p11 of record, 2022-06 4CH1-2C, rendered 150 dpi and READ — M1 prints the stacked fraction (20 x 10^6 over 80); LEDGER F90 + F111 delta-class item 3 (F86 re-receipt)"
+      },
+      {
+       "field": "mark_points[0].text_md",
+       "kind": "denominator-restoration",
+       "tool": "official_examq_extract.py v0.29.2 (F90/F108 leg-0 bare-numeral keep-law; surgical application)",
+       "evidence_ref": "MS p11 of record, 2022-06 4CH1-2C, rendered 150 dpi and READ — M1 prints the stacked fraction (20 x 10^6 over 80); LEDGER F90 + F111 delta-class item 3 (F86 re-receipt)"
+      }
+     ]
     },
     {
      "part_number": "6(b)",
