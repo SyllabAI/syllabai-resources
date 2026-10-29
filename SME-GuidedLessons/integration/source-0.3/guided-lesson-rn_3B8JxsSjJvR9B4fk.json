@@ -1,0 +1,723 @@
+{
+ "format": "guided-lesson/0.3",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/5cacfed8a0f9-conditions-for-rusting.png",
+   "alt": "Investigating the conditions for rusting",
+   "sourceHeading": "Investigating rusting",
+   "caption": "Diagram showing how the conditions for rusting can be investigated",
+   "moduleIds": [
+    "L1"
+   ]
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/a36784424a95-vlerzcau-9-2-4-sacrificial-protection.png",
+   "alt": "VleRzCAu_9-2-4-sacrificial-protection",
+   "sourceHeading": "Zinc bars on the side of steel ships",
+   "caption": "Diagram to show the use of zinc bars on the sides of steel ships as a method of sacrificial protection",
+   "moduleIds": []
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_3B8JxsSjJvR9B4fk",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "2. Inorganic Chemistry",
+  "subtopicTitle": "Reactivity Series",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-4-reactivity-series/2-4-4-rusting-of-iron"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-2.18",
+   "text": "know the conditions under which iron rusts"
+  },
+  {
+   "code": "4CH1-2.19",
+   "text": "understand how the rusting of iron may be prevented by: barrier methods; galvanising; sacrificial protection"
+  }
+ ],
+ "primer": {
+  "text": "From Metal Displacement Reactions you have seen that iron sits in the middle of the reactivity series, reactive enough to take part in displacement chemistry. This note follows that reactivity into everyday damage: the exact conditions iron needs to rust, how control test tubes prove them, and the three families of prevention set by the course.",
+  "prerequisiteSubtopic": "Reactivity Series"
+ },
+ "lessons": [
+  {
+   "title": "Investigating rusting",
+   "sourceHeadings": [
+    "Investigating rusting",
+    "Damage to Iron Structures"
+   ],
+   "specRefs": [
+    "4CH1-2.18"
+   ],
+   "figureIds": [
+    "fig-01"
+   ],
+   "opening": "Iron rusts only where oxygen and water meet it together, and the proof comes from a set of control test tubes. Heating water drives off any dissolved oxygen, and calcium chloride soaks up every trace of moisture, so each tube can deny the nail one ingredient. The nail given both air and water rusts; the nail sealed from air by oil and the nail kept dry by the drying agent both stay clean.",
+   "keyPoints": [
+    "Oxygen and water must both be present for rust to occur.",
+    "Boiled water removes any dissolved oxygen from the test tube.",
+    "Calcium chloride is a drying agent that absorbs water molecules.",
+    "The nail in contact with both air and water rusts; the other two nails do not.",
+    "Rust flakes off easily, exposing fresh iron so the whole structure weakens over time."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Set up three nails: one in plain air and water, one with oil blocking the air, and one kept dry. Only the first nail rusts, which proves iron needs both oxygen and water at the same time, since each control tube removed exactly one of the two requirements.",
+     "analogy": "Like testing a seed's needs with three pots: take away sunlight from one and water from another, and only the pot with both shows growth, which is the same two-key logic here.",
+     "examPointer": "Describe what each control tube removes, which nail rusts, and why the two dry results matter; the paired reasoning is where the marks are."
+    },
+    "medium": {
+     "restatement": "The control design isolates each ingredient: the oil layer stops oxygen reaching the boiled water, and the calcium chloride dries the air in its tube, so each tube withholds exactly one requirement. Rusting appears only where air and water meet the iron, and because rust flakes away, fresh iron keeps rusting until the structure is consumed.",
+     "analogy": "Think of a two-key lock: the door only opens when both keys turn, and in this experiment one key is hidden from each of the two control tubes.",
+     "examPointer": "Explain why boiled water and calcium chloride are used, not just that they are; the purpose of each is a standard follow-up question."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which conditions must be present together for iron to rust?",
+     "misconceptionClass": "condition recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Oxygen and water",
+       "correct": true,
+       "explanation": "Both ingredients are required at once, which is exactly what the three-tube control experiment demonstrates.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Water alone",
+       "correct": false,
+       "explanation": "The middle tube has water yet no rust, because the oil layer blocks the oxygen.",
+       "misconception": "single condition assumed"
+      },
+      {
+       "key": "C",
+       "text": "Oxygen alone",
+       "correct": false,
+       "explanation": "The right-hand tube has air yet stays clean, because the drying agent removes the water.",
+       "misconception": "single condition assumed"
+      },
+      {
+       "key": "D",
+       "text": "Carbon dioxide and heat",
+       "correct": false,
+       "explanation": "Neither is named as a rust requirement; the pair of record is oxygen and water.",
+       "misconception": "wrong pair recalled"
+      }
+     ]
+    },
+    {
+     "stem": "Why is boiled water used in one of the control test tubes?",
+     "misconceptionClass": "control purpose",
+     "options": [
+      {
+       "key": "A",
+       "text": "To remove any dissolved oxygen from the water",
+       "correct": true,
+       "explanation": "Boiling drives the dissolved air out, so that tube can withhold oxygen while still supplying water.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To kill any bacteria that might rust the nail",
+       "correct": false,
+       "explanation": "Rusting is a chemical process needing oxygen and water; bacteria play no part in the design.",
+       "misconception": "biological cause invented"
+      },
+      {
+       "key": "C",
+       "text": "To warm the nail so rusting speeds up",
+       "correct": false,
+       "explanation": "The point is removing a ingredient, not accelerating anything; the tube must show no rust.",
+       "misconception": "purpose inverted"
+      },
+      {
+       "key": "D",
+       "text": "To dissolve the calcium chloride faster",
+       "correct": false,
+       "explanation": "The calcium chloride sits in the dry tube; the boiled water belongs to the oil-sealed tube's design.",
+       "misconception": "apparatus roles mixed"
+      }
+     ]
+    },
+    {
+     "stem": "What is the role of the calcium chloride in the dry test tube?",
+     "misconceptionClass": "control purpose",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is a drying agent that absorbs water molecules present due to moisture",
+       "correct": true,
+       "explanation": "By soaking up every trace of moisture it withholds the water requirement from that nail.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It supplies oxygen to speed the rusting",
+       "correct": false,
+       "explanation": "The tube is meant to stay rust-free; the calcium chloride removes water rather than adding anything.",
+       "misconception": "role inverted"
+      },
+      {
+       "key": "C",
+       "text": "It sticks the nail to the tube's base",
+       "correct": false,
+       "explanation": "Fixing the nail is incidental; the design purpose is drying the air.",
+       "misconception": "incidental feature promoted"
+      },
+      {
+       "key": "D",
+       "text": "It colours the tube so the result is easier to see",
+       "correct": false,
+       "explanation": "No colour indicator is involved; the drying is what matters.",
+       "misconception": "indicator role invented"
+      }
+     ]
+    },
+    {
+     "stem": "The middle nail sits in boiled water with oil floated on top. Why does it not rust?",
+     "misconceptionClass": "control reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The oil forms a barrier that stops oxygen reaching the water and the nail",
+       "correct": true,
+       "explanation": "With oxygen shut out, one of the two requirements is missing, so no rust forms.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The oil feeds the nail and keeps it strong",
+       "correct": false,
+       "explanation": "Oil does not nourish iron; it simply blocks the air from the water beneath.",
+       "misconception": "protective fiction invented"
+      },
+      {
+       "key": "C",
+       "text": "Boiled water is too pure to react with iron",
+       "correct": false,
+       "explanation": "Purity is not the point; boiled water's job is lacking dissolved oxygen, and the oil keeps it that way.",
+       "misconception": "purity explanation substituted"
+      },
+      {
+       "key": "D",
+       "text": "The nail is a special rust-proof sample",
+       "correct": false,
+       "explanation": "All three nails are ordinary iron; the conditions, not the nails, differ.",
+       "misconception": "sample difference invented"
+      }
+     ]
+    },
+    {
+     "stem": "Why does rusting eventually destroy a whole iron structure rather than just its surface?",
+     "misconceptionClass": "rust progression reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because rust flakes off the surface, exposing fresh iron below to rust in turn",
+       "correct": true,
+       "explanation": "Each flaked layer reveals new metal, so the damage eats inward and the structure weakens progressively.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because rust strengthens the layer beneath it",
+       "correct": false,
+       "explanation": "Rust is soft and flaky; it protects nothing, which is why the damage continues.",
+       "misconception": "protective layer assumed"
+      },
+      {
+       "key": "C",
+       "text": "Because iron dissolves evenly like sugar in water",
+       "correct": false,
+       "explanation": "The process is surface rusting that renews itself, not uniform dissolution.",
+       "misconception": "dissolution model applied"
+      },
+      {
+       "key": "D",
+       "text": "Because the structure gets heavier and collapses",
+       "correct": false,
+       "explanation": "The failure is weakening from lost metal, not added weight; rust flakes away rather than accumulating.",
+       "misconception": "weight-based failure invented"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Barrier methods",
+   "sourceHeadings": [
+    "Rust prevention",
+    "Barrier Methods"
+   ],
+   "specRefs": [
+    "4CH1-2.19"
+   ],
+   "opening": "The simplest prevention is to stop water and oxygen ever reaching the iron, by coating it with barriers. Paint, oil, grease and electroplating are the common barrier methods named in the note. The weakness is damage: if the coating is washed away or scratched, the iron meets air and water again, and because rust is porous, the iron then corrodes internally beneath the broken barrier.",
+   "keyPoints": [
+    "Barriers prevent rust by keeping water and oxygen away from the iron.",
+    "Common barriers named in the note are paint, oil, grease and electroplating.",
+    "If the coating is washed away or scratched, the iron is exposed and rusts again.",
+    "Rust is porous, so once iron starts rusting it continues to corrode internally.",
+    "Unlike iron, some other metals form protective layers that do not flake away."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Coat the iron so air and water cannot touch it, using paint, oil, grease or electroplating. The coating works while it stays whole, and once it breaks the rust returns and eats inward, which is why damaged coatings need prompt repair.",
+     "analogy": "Like a raincoat for metal: it works perfectly until it tears, and after that the weather gets in just as before, so the tear matters more the longer it goes unnoticed.",
+     "examPointer": "Name the four common barrier methods and explain the scratched-coating weakness, linking the porosity of rust to the corrosion that continues underneath."
+    },
+    "medium": {
+     "restatement": "Barrier methods deny iron its two rust requirements with a physical coat of paint, oil, grease or electrodeposited metal. The failure mode is breach of the coat, and the consequence is worse than a fresh start: porous rust lets air and water reach fresh metal underneath, so corrosion continues internally below the broken barrier.",
+     "analogy": "Picture a dam holding back two floods at once, one of air and one of water: any crack lets both through, and the soggy core keeps rotting even after the surface is patched.",
+     "examPointer": "Link porosity of rust to internal corrosion when asked why a scratch is serious; that link is the depth mark in the answer."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which set names common barrier methods?",
+     "misconceptionClass": "method recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Paint, oil, grease and electroplating",
+       "correct": true,
+       "explanation": "These four are the common barriers named, each physically separating iron from air and water.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Zinc bars welded to the surface",
+       "correct": false,
+       "explanation": "Zinc bars are sacrificial protection, a different prevention family from coatings.",
+       "misconception": "prevention families mixed"
+      },
+      {
+       "key": "C",
+       "text": "Heating the iron until it glows",
+       "correct": false,
+       "explanation": "Heat is not a barrier; it changes nothing about air and water reaching the surface afterwards.",
+       "misconception": "treatment confused with barrier"
+      },
+      {
+       "key": "D",
+       "text": "Storing the iron in salt water",
+       "correct": false,
+       "explanation": "Salt water supplies both requirements and would promote rusting, not prevent it.",
+       "misconception": "condition reversed"
+      }
+     ]
+    },
+    {
+     "stem": "What weakness do all barrier methods share?",
+     "misconceptionClass": "limitation reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "If the coating is scratched or washed away, the iron is exposed and rusts again",
+       "correct": true,
+       "explanation": "A barrier only works while it is intact; any breach lets both requirements back in.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They only work in dry climates",
+       "correct": false,
+       "explanation": "Barriers work anywhere while whole; location is not the failure mode named.",
+       "misconception": "climate excuse invented"
+      },
+      {
+       "key": "C",
+       "text": "They make the iron too heavy to use",
+       "correct": false,
+       "explanation": "Coatings add negligible weight; the real weakness is damage to the coating.",
+       "misconception": "weight objection invented"
+      },
+      {
+       "key": "D",
+       "text": "They react chemically with the iron and weaken it",
+       "correct": false,
+       "explanation": "Barriers are physical separations, not chemical treatments of the iron itself.",
+       "misconception": "mechanism misstated"
+      }
+     ]
+    },
+    {
+     "stem": "Why is a scratched paint layer worse than it looks?",
+     "misconceptionClass": "porosity reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because porous rust lets air and water reach fresh metal underneath the break",
+       "correct": true,
+       "explanation": "The rust itself does not seal the wound; it conducts both requirements inward, so corrosion continues below.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because paint poisons the iron at the scratch",
+       "correct": false,
+       "explanation": "Paint is inert to the iron; the problem is exposure, not poisoning.",
+       "misconception": "chemical harm invented"
+      },
+      {
+       "key": "C",
+       "text": "Because the scratch makes the structure heavier",
+       "correct": false,
+       "explanation": "Weight is irrelevant; the issue is ongoing corrosion at and beneath the breach.",
+       "misconception": "irrelevant effect cited"
+      },
+      {
+       "key": "D",
+       "text": "Because iron repairs its own paint layer",
+       "correct": false,
+       "explanation": "Iron does no such thing; the exposed spot keeps rusting until treated.",
+       "misconception": "self-repair assumed"
+      }
+     ]
+    },
+    {
+     "stem": "How does electroplating serve as a barrier method?",
+     "misconceptionClass": "method understanding",
+     "options": [
+      {
+       "key": "A",
+       "text": "It deposits a thin protective metal layer over the iron, keeping air and water off",
+       "correct": true,
+       "explanation": "The plated layer is a physical coat like paint, but made of metal applied by electrolysis.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It removes oxygen from the iron's surface permanently",
+       "correct": false,
+       "explanation": "Nothing removes oxygen permanently; the plating simply stands between the iron and the air.",
+       "misconception": "permanent exemption claimed"
+      },
+      {
+       "key": "C",
+       "text": "It converts the iron into stainless steel",
+       "correct": false,
+       "explanation": "Alloying would change the metal itself; electroplating adds a layer on top instead.",
+       "misconception": "alloying confused with plating"
+      },
+      {
+       "key": "D",
+       "text": "It magnetises the surface so water slides off",
+       "correct": false,
+       "explanation": "Magnetism plays no part; the plating works as a physical cover.",
+       "misconception": "physics fiction invented"
+      }
+     ]
+    },
+    {
+     "stem": "Which statement compares iron with some other metals under a broken coating?",
+     "misconceptionClass": "comparison reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Unlike some other metals, iron keeps corroding internally because its rust is porous",
+       "correct": true,
+       "explanation": "Some metals form tight protective layers, but iron's flaky porous rust leaves the metal below exposed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "All metals rust identically once scratched",
+       "correct": false,
+       "explanation": "The note's contrast says otherwise: some metals' layers protect, while iron's rust does not.",
+       "misconception": "uniformity assumed"
+      },
+      {
+       "key": "C",
+       "text": "Other metals rust faster because they are heavier",
+       "correct": false,
+       "explanation": "Mass is not the driver; the difference lies in whether the corrosion product seals the surface.",
+       "misconception": "mass reasoning imported"
+      },
+      {
+       "key": "D",
+       "text": "Iron is the only metal that ever corrodes",
+       "correct": false,
+       "explanation": "Corrosion is general to metals; rusting is the specific case of iron, as the exam hint stresses.",
+       "misconception": "uniqueness overstated"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Sacrificial protection & galvanising",
+   "sourceHeadings": [
+    "Sacrificial Protection",
+    "Galvanising"
+   ],
+   "specRefs": [
+    "4CH1-2.19"
+   ],
+   "opening": "The reactivity series itself provides the second and third preventions. In sacrificial protection a more reactive metal is attached to the iron, and because it loses its electrons more easily it oxidises and corrodes first, sparing the iron; zinc bars on steel ships work this way and must be replaced before they fully corrode. Galvanising coats the iron with a layer of zinc, applied by electroplating or dipping in molten zinc, so the zinc guards twice: as a barrier, and sacrificially if the coat is scratched.",
+   "keyPoints": [
+    "Sacrificial protection attaches a more reactive metal to a less reactive one.",
+    "The more reactive metal oxidises and corrodes first, protecting the iron.",
+    "Zinc loses its electrons more easily than iron, so it is oxidised more easily.",
+    "Zinc bars on steel ships must be replaced before they completely corrode.",
+    "Galvanising coats iron with zinc, and ZnCO3 forms as a barrier when zinc meets air."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Fix a metal more eager than iron onto the iron, and the eager one corrodes in iron's place; that is sacrificial protection. Galvanising simply coats the iron with zinc, which shields it as a layer and still sacrifices itself if scratched.",
+     "analogy": "Like a bodyguard who takes every hit aimed at the client: as long as the bodyguard stands in front, the client stays unharmed.",
+     "examPointer": "Name zinc as the sacrificial metal and say why: it is more reactive, so it loses electrons and corrodes first."
+    },
+    "medium": {
+     "restatement": "Sacrificial protection exploits the series: the attached metal, being more reactive, is oxidised preferentially and so corrodes in the iron's place, which is why ship zinc bars need replacing before they are consumed. Galvanising adds the zinc as a coat, forming protective ZnCO3 in air, so the iron gains a barrier plus a standing sacrifice should the coat be damaged.",
+     "analogy": "Think of a guard dog tied at the gate: it defends the whole yard while it stands (the barrier), and even if someone slips past the gate, the dog still intercepts them first (the sacrifice).",
+     "examPointer": "Distinguish the two roles of zinc in galvanising, barrier and sacrifice; questions reward naming both in one answer."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why is zinc chosen as the sacrificial metal for iron?",
+     "misconceptionClass": "reactivity reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because zinc is more reactive than iron and loses its electrons more easily",
+       "correct": true,
+       "explanation": "Higher reactivity means preferential oxidation, so the zinc corrodes first and the iron survives.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because zinc is less reactive than iron and stays untouched",
+       "correct": false,
+       "explanation": "A less reactive partner would leave the iron to corrode first, defeating the design.",
+       "misconception": "reactivity order inverted"
+      },
+      {
+       "key": "C",
+       "text": "Because zinc is cheaper than any other metal",
+       "correct": false,
+       "explanation": "Cost is not the criterion named; the choice is grounded in the reactivity series.",
+       "misconception": "economic reason substituted"
+      },
+      {
+       "key": "D",
+       "text": "Because zinc never corrodes at all",
+       "correct": false,
+       "explanation": "Zinc corrodes deliberately and must be replaced; that is exactly the sacrifice.",
+       "misconception": "immortality assumed"
+      }
+     ]
+    },
+    {
+     "stem": "What happens to the zinc bars on a steel ship over time?",
+     "misconceptionClass": "process monitoring",
+     "options": [
+      {
+       "key": "A",
+       "text": "They corrode and must be replaced before they completely disappear",
+       "correct": true,
+       "explanation": "The zinc is consumed doing its job, so continued protection depends on timely replacement.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They last forever without maintenance",
+       "correct": false,
+       "explanation": "The zinc is being sacrificed continuously; without replacement the protection ends.",
+       "misconception": "maintenance-free claim"
+      },
+      {
+       "key": "C",
+       "text": "They transfer strength to the ship's hull",
+       "correct": false,
+       "explanation": "The protection is electrochemical, not mechanical; no strength is transferred.",
+       "misconception": "mechanical fiction invented"
+      },
+      {
+       "key": "D",
+       "text": "They sink to the seabed once rusted",
+       "correct": false,
+       "explanation": "The bars stay attached while corroding; their loss is by consumption, not by falling off.",
+       "misconception": "detachment assumed"
+      }
+     ]
+    },
+    {
+     "stem": "How is the zinc layer applied in galvanising?",
+     "misconceptionClass": "method recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "By electroplating or by dipping the iron into molten zinc",
+       "correct": true,
+       "explanation": "Both routes coat the iron with zinc, which then protects it in two ways.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "By painting liquid zinc onto the surface",
+       "correct": false,
+       "explanation": "Painting is a different barrier method; galvanising names the zinc coat applied by plating or dipping.",
+       "misconception": "methods blended"
+      },
+      {
+       "key": "C",
+       "text": "By hammering zinc sheets flat against the iron",
+       "correct": false,
+       "explanation": "Mechanical pressing is not the named process; plating or molten dipping is.",
+       "misconception": "process invented"
+      },
+      {
+       "key": "D",
+       "text": "By heating the iron until zinc vapour settles",
+       "correct": false,
+       "explanation": "No vapour deposition is named; the two routes are electroplating and molten dipping.",
+       "misconception": "process invented"
+      }
+     ]
+    },
+    {
+     "stem": "What is ZnCO3's role in galvanising?",
+     "misconceptionClass": "compound role",
+     "options": [
+      {
+       "key": "A",
+       "text": "It forms when zinc reacts with oxygen and carbon dioxide in air, protecting the iron by the barrier method",
+       "correct": true,
+       "explanation": "The zinc carbonate layer is the coat's hardened outer skin, keeping air and water away from the metal beneath.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It dissolves the iron underneath the coating",
+       "correct": false,
+       "explanation": "The compound protects rather than attacks; its role is barrier, not corrosion.",
+       "misconception": "role inverted"
+      },
+      {
+       "key": "C",
+       "text": "It is the molten zinc used for dipping",
+       "correct": false,
+       "explanation": "The dip bath is metallic zinc; ZnCO3 forms afterwards on the surface in air.",
+       "misconception": "materials confused"
+      },
+      {
+       "key": "D",
+       "text": "It has no role; it is an impurity",
+       "correct": false,
+       "explanation": "The compound is the protective product of zinc's reaction with air, a designed feature of the coating.",
+       "misconception": "impurity dismissal"
+      }
+     ]
+    },
+    {
+     "stem": "A galvanised bucket is scratched deeply. Why does the iron still not rust?",
+     "misconceptionClass": "dual protection reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because the exposed zinc around the scratch still protects the iron sacrificially",
+       "correct": true,
+       "explanation": "The zinc beside the breach is more reactive than iron, so it corrodes in the iron's place even where the barrier is gone.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because the scratch closes itself as the metal cools",
+       "correct": false,
+       "explanation": "Metals do not self-heal scratches; the protection comes from the zinc's chemistry.",
+       "misconception": "self-repair assumed"
+      },
+      {
+       "key": "C",
+       "text": "Because the bucket is also painted underneath",
+       "correct": false,
+       "explanation": "No second coating is needed in the explanation; zinc's sacrifice suffices.",
+       "misconception": "extra layer invented"
+      },
+      {
+       "key": "D",
+       "text": "It does rust, because galvanising stops working once scratched",
+       "correct": false,
+       "explanation": "That describes plain barrier coatings; galvanising keeps protecting through its sacrificial action.",
+       "misconception": "protection wrongly cancelled"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "rust",
+    "definition": "The flaky, porous corrosion product that forms on iron when oxygen and water are both present.",
+    "firstLesson": 1
+   },
+   {
+    "term": "drying agent",
+    "definition": "A substance that absorbs moisture, such as the calcium chloride used to keep one test tube dry.",
+    "firstLesson": 1
+   },
+   {
+    "term": "barrier method",
+    "definition": "Rust prevention by coating the iron so water and oxygen cannot reach it, using paint, oil, grease or electroplating.",
+    "firstLesson": 2
+   },
+   {
+    "term": "sacrificial protection",
+    "definition": "Rust prevention in which a more reactive metal attached to the iron corrodes in its place.",
+    "firstLesson": 3
+   },
+   {
+    "term": "galvanising",
+    "definition": "Coating iron with zinc, by electroplating or molten dipping, giving both a barrier and sacrificial protection.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": {
+   "prompt": "Three iron nails are set up: A in tap water open to the air; B in boiled water covered by a layer of oil; C in a stoppered tube containing dry calcium chloride. a) State which nail or nails rust and why. b) Explain the roles of the boiled water and the oil in tube B. c) A steel ship carries zinc bars fixed to its hull. Name this protection method and explain why the zinc works.",
+   "steps": [
+    "a) Only nail A rusts: iron needs both oxygen and water together, and tube B removes the dissolved oxygen while tube C keeps the air dry.",
+    "b) Boiling the water drives off the dissolved oxygen, and the oil layer stops air dissolving back in, so the nail in tube B meets neither oxygen nor water.",
+    "c) The zinc bars are sacrificial protection: zinc is more reactive than iron, so it loses its electrons more easily, oxidises and corrodes first, sparing the iron."
+   ],
+   "finalAnswer": "a) Nail A only — oxygen and water must both be present. b) Boiled water removes dissolved O2 and the oil keeps air out. c) Sacrificial protection — the more reactive zinc corrodes in the iron's place."
+  }
+ }
+}

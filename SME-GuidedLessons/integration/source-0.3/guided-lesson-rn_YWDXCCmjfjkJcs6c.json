@@ -1,0 +1,501 @@
+{
+ "format": "guided-lesson/0.3",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/33049bad4b31-copper-sulfate-crystals.png",
+   "alt": "copper sulfate crystals",
+   "sourceHeading": "Chemical test for water",
+   "caption": "Copper sulfate turns a light blue colour in the presence of water",
+   "moduleIds": [
+    "L1"
+   ]
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_YWDXCCmjfjkJcs6c",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "2. Inorganic Chemistry",
+  "subtopicTitle": "Chemical Tests",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-5-tests-for-water"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-2.49",
+   "text": "describe a test for the presence of water using anhydrous copper(II) sulfate"
+  },
+  {
+   "code": "4CH1-2.50",
+   "text": "describe a physical test to show whether a sample of water is pure"
+  }
+ ],
+ "primer": {
+  "text": "From Tests for Cations you already know how precipitate colours and a litmus-confirmable gas identify ions in solution. This note turns to the solvent itself, with a chemical test and a physical test that together establish both the presence and the purity of water.",
+  "prerequisiteSubtopic": "Tests for Cations"
+ },
+ "lessons": [
+  {
+   "title": "Chemical test for water",
+   "sourceHeadings": [
+    "Chemical test for water"
+   ],
+   "specRefs": [
+    "4CH1-2.49"
+   ],
+   "figureIds": [
+    "fig-01"
+   ],
+   "opening": "Anhydrous copper(II) sulfate is the chemical detective for water: the white powder turns blue the moment water is added, because it binds five water molecules into its crystal structure. The change from white to blue is the positive result, and the equation shows the water joining the salt rather than merely wetting it.",
+   "keyPoints": [
+    "White anhydrous copper(II) sulfate turns blue when water is added.",
+    "The equation is CuSO4 plus 5H2O giving CuSO4.5H2O.",
+    "The white colour belongs to the anhydrous form.",
+    "The blue colour belongs to the hydrated form with five waters.",
+    "Copper sulfate crystals turn light blue in the presence of water."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Add the liquid to white anhydrous copper(II) sulfate and watch the powder: if water is present, the white solid turns blue on the spot. The blue form is the same salt holding five water molecules inside its crystals.",
+     "analogy": "The powder is like a colour-changing humidity card: it stays white while dry and flips to blue the instant it meets water, with no heating and no chemicals added.",
+     "examPointer": "State both colours in order, white to blue, because the direction of the change is part of the mark."
+    },
+    "medium": {
+     "restatement": "The chemistry is genuine bonding, not a dissolving: five water molecules bond into the copper(II) sulfate lattice to give the hydrated form CuSO4.5H2O, whose blue colour comes from the new surroundings of the copper in the crystal.",
+     "analogy": "The water slots into the crystal the way guests take reserved seats: the structure keeps its shape, but the occupied seats change how it looks, from white to blue.",
+     "examPointer": "Quote the equation CuSO4 plus 5H2O giving CuSO4.5H2O when asked why the powder changes, since it shows water bonding rather than the salt dissolving."
+    }
+   },
+   "check": [
+    {
+     "stem": "What colour change shows water is present?",
+     "misconceptionClass": "colour direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "White anhydrous copper(II) sulfate turns blue",
+       "correct": true,
+       "explanation": "White to blue is the positive water result.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Blue copper(II) sulfate turns white",
+       "correct": false,
+       "explanation": "That is the reverse change, which would mean water leaving.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "White litmus turns red",
+       "correct": false,
+       "explanation": "Litmus belongs to acid-alkali and gas tests, not to this one.",
+       "misconception": "litmus test intrudes"
+      },
+      {
+       "key": "D",
+       "text": "The powder dissolves colourlessly",
+       "correct": false,
+       "explanation": "The observation is the blue colour, not a colourless solution.",
+       "misconception": "dissolving confused with testing"
+      }
+     ]
+    },
+    {
+     "stem": "How many water molecules join one copper(II) sulfate unit?",
+     "misconceptionClass": "stoichiometry recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "5",
+       "correct": true,
+       "explanation": "Five waters give the .5H2O in the hydrated formula.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "2",
+       "correct": false,
+       "explanation": "Two waters would not match the known hydrated formula.",
+       "misconception": "subscript confusion"
+      },
+      {
+       "key": "C",
+       "text": "1",
+       "correct": false,
+       "explanation": "One water undercounts the five held in the crystal.",
+       "misconception": "single water assumed"
+      },
+      {
+       "key": "D",
+       "text": "10",
+       "correct": false,
+       "explanation": "Ten doubles the correct count.",
+       "misconception": "doubling error"
+      }
+     ]
+    },
+    {
+     "stem": "What is the formula of the hydrated product?",
+     "misconceptionClass": "formula recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "CuSO4.5H2O",
+       "correct": true,
+       "explanation": "The dot formula shows five waters of crystallisation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "CuSO4.H2O",
+       "correct": false,
+       "explanation": "One water is not the true hydrated form.",
+       "misconception": "waters undercounted"
+      },
+      {
+       "key": "C",
+       "text": "CuSO4",
+       "correct": false,
+       "explanation": "That is the anhydrous starting salt, not the product.",
+       "misconception": "anhydrous form repeated"
+      },
+      {
+       "key": "D",
+       "text": "Cu(OH)2",
+       "correct": false,
+       "explanation": "That is copper(II) hydroxide, a different substance entirely.",
+       "misconception": "hydroxide confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Why does the powder turn blue?",
+     "misconceptionClass": "mechanism understanding",
+     "options": [
+      {
+       "key": "A",
+       "text": "Water bonds into the crystal structure of the salt",
+       "correct": true,
+       "explanation": "Bonded water changes the salt's environment and with it the colour.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The salt dissolves and shows its true colour",
+       "correct": false,
+       "explanation": "The test works on the solid; dissolving is not the mechanism.",
+       "misconception": "dissolution explanation"
+      },
+      {
+       "key": "C",
+       "text": "The salt burns in air",
+       "correct": false,
+       "explanation": "Nothing burns in this test.",
+       "misconception": "oxidation fiction"
+      },
+      {
+       "key": "D",
+       "text": "The water is boiled away",
+       "correct": false,
+       "explanation": "Boiling would take water out; the test adds it.",
+       "misconception": "opposite process"
+      }
+     ]
+    },
+    {
+     "stem": "What is the starting appearance of anhydrous copper(II) sulfate?",
+     "misconceptionClass": "starting state recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "A white powder",
+       "correct": true,
+       "explanation": "Anhydrous copper(II) sulfate is white before water arrives.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Blue crystals",
+       "correct": false,
+       "explanation": "Blue is the colour after hydration, not before.",
+       "misconception": "product colour as start"
+      },
+      {
+       "key": "C",
+       "text": "A clear liquid",
+       "correct": false,
+       "explanation": "The reagent is a solid powder.",
+       "misconception": "state confusion"
+      },
+      {
+       "key": "D",
+       "text": "A green solid",
+       "correct": false,
+       "explanation": "Green belongs to carbonates and iron(II) compounds, not to this salt.",
+       "misconception": "carbonate colour intrudes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Physical test for water",
+   "sourceHeadings": [
+    "Physical test for water"
+   ],
+   "specRefs": [
+    "4CH1-2.50"
+   ],
+   "opening": "The physical test asks whether a liquid sample is pure water by checking its boiling point. A little of the liquid is heated gently in a boiling tube with a thermometer, and pure water boils at exactly 100 degrees Celsius. Dissolved impurities push the boiling point higher, and they also depress the melting point, so a reading above 100 signals contamination.",
+   "keyPoints": [
+    "A physical test checks whether a water sample is pure.",
+    "The sample is heated gently in a boiling tube.",
+    "A thermometer shows whether the boiling point is exactly 100 degrees Celsius.",
+    "Impurities raise the boiling point of the sample.",
+    "The same impurities depress the melting point of a substance."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Heat a little of the liquid gently in a boiling tube with a thermometer in it. Pure water boils at exactly 100 degrees Celsius, so any steady reading above that number means the sample holds dissolved impurities.",
+     "analogy": "The boiling point works like a fixed price tag: the genuine article sells at exactly 100, and anything priced higher has something extra mixed into it.",
+     "examPointer": "Say exactly 100 degrees Celsius for pure water, and give raised boiling point as the sign of impurities."
+    },
+    "medium": {
+     "restatement": "The measurement is physical because nothing reacts: the thermometer simply reports the temperature at which the liquid boils. Impurities raise that temperature and lower the melting point, which is why the fixed pair of values, 100 boiling and 0 melting, is the signature of the pure substance.",
+     "analogy": "Impurities in ice are like salt scattered on a winter road: the ice refuses to melt until it is colder than it should be, and the same guests push the boiling point the other way.",
+     "examPointer": "If both changes are asked for, give boiling point raised and melting point lowered; quoting only one loses the second mark."
+    }
+   },
+   "check": [
+    {
+     "stem": "What property identifies pure water in the physical test?",
+     "misconceptionClass": "purity criterion",
+     "options": [
+      {
+       "key": "A",
+       "text": "A boiling point of exactly 100 degrees Celsius",
+       "correct": true,
+       "explanation": "Exactly 100 is the signature of the pure substance.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A boiling point above 100",
+       "correct": false,
+       "explanation": "Above 100 means impurities are present, not purity.",
+       "misconception": "impure reading accepted"
+      },
+      {
+       "key": "C",
+       "text": "A boiling point below 100",
+       "correct": false,
+       "explanation": "Below 100 is not the pure-water value either.",
+       "misconception": "direction misremembered"
+      },
+      {
+       "key": "D",
+       "text": "A fixed colour of exactly blue",
+       "correct": false,
+       "explanation": "Colour belongs to the chemical test; the physical test measures temperature.",
+       "misconception": "tests conflated"
+      }
+     ]
+    },
+    {
+     "stem": "What apparatus heats the sample gently?",
+     "misconceptionClass": "apparatus recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "A boiling tube",
+       "correct": true,
+       "explanation": "The sample sits in a boiling tube and is heated gently.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A burette",
+       "correct": false,
+       "explanation": "A burette delivers volumes in titrations; it does not heat anything.",
+       "misconception": "titration apparatus intrudes"
+      },
+      {
+       "key": "C",
+       "text": "A crucible over a fierce flame",
+       "correct": false,
+       "explanation": "Fierce heating is contrary to the gentle method described.",
+       "misconception": "heating strength wrong"
+      },
+      {
+       "key": "D",
+       "text": "A freezer",
+       "correct": false,
+       "explanation": "The physical test can be run from the melting side, but boiling needs heat, not cold.",
+       "misconception": "opposite treatment"
+      }
+     ]
+    },
+    {
+     "stem": "What does an impurity do to the boiling point of water?",
+     "misconceptionClass": "impurity effect on boiling",
+     "options": [
+      {
+       "key": "A",
+       "text": "Raises it",
+       "correct": true,
+       "explanation": "Dissolved impurities push the boiling point above 100.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Lowers it",
+       "correct": false,
+       "explanation": "Lowering is what happens to the melting point, not the boiling point.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "Leaves it unchanged",
+       "correct": false,
+       "explanation": "An unchanged reading is exactly the pure-water result.",
+       "misconception": "impurity dismissed"
+      },
+      {
+       "key": "D",
+       "text": "Makes it fluctuate wildly",
+       "correct": false,
+       "explanation": "Impurities shift the value steadily, not erratically.",
+       "misconception": "invented behaviour"
+      }
+     ]
+    },
+    {
+     "stem": "What does an impurity do to the melting point?",
+     "misconceptionClass": "impurity effect on melting",
+     "options": [
+      {
+       "key": "A",
+       "text": "Depresses it",
+       "correct": true,
+       "explanation": "Impurities lower the temperature at which the solid melts.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Raises it",
+       "correct": false,
+       "explanation": "Raising belongs to the boiling point; melting goes the other way.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "Has no effect",
+       "correct": false,
+       "explanation": "The source states the melting point is depressed by impurities.",
+       "misconception": "impurity dismissed"
+      },
+      {
+       "key": "D",
+       "text": "Freezes it instantly",
+       "correct": false,
+       "explanation": "Freezing is a process, not an effect on the melting point value.",
+       "misconception": "absurd effect"
+      }
+     ]
+    },
+    {
+     "stem": "Why is tasting a liquid never an acceptable water test?",
+     "misconceptionClass": "safety versus convenience",
+     "options": [
+      {
+       "key": "A",
+       "text": "Tasting in a laboratory is hazardous and many colourless liquids taste of nothing",
+       "correct": true,
+       "explanation": "Both the hazard and the uselessness of taste make it unacceptable.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Water is the only liquid with no taste",
+       "correct": false,
+       "explanation": "Several colourless liquids share that blandness, which is why taste cannot identify water.",
+       "misconception": "false exclusivity"
+      },
+      {
+       "key": "C",
+       "text": "Taste changes with the weather",
+       "correct": false,
+       "explanation": "Weather is irrelevant to the objection.",
+       "misconception": "invented variable"
+      },
+      {
+       "key": "D",
+       "text": "Taste only works on hot samples",
+       "correct": false,
+       "explanation": "Temperature is not the issue at all.",
+       "misconception": "invented condition"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "anhydrous",
+    "definition": "Containing no water of crystallisation, the white state of the copper(II) sulfate before water arrives.",
+    "firstLesson": 1
+   },
+   {
+    "term": "hydrated",
+    "definition": "Holding water of crystallisation within its crystal structure, the blue state of the salt.",
+    "firstLesson": 1
+   },
+   {
+    "term": "boiling point",
+    "definition": "The temperature at which a liquid boils steadily; exactly 100 degrees Celsius for pure water.",
+    "firstLesson": 2
+   },
+   {
+    "term": "impurity",
+    "definition": "A dissolved substance that raises the boiling point and depresses the melting point of a sample.",
+    "firstLesson": 2
+   },
+   {
+    "term": "contamination",
+    "definition": "The presence of impurities in a sample, signalled by a boiling point above 100 degrees Celsius.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "a) Describe the chemical test for water, including the equation. b) A colourless liquid boils steadily at 101 °C. Is it pure water? Explain. c) Why is tasting never an acceptable test for water?",
+   "steps": [
+    "a) Add a few drops of the sample to white anhydrous copper(II) sulfate: water turns it blue as five water molecules bond into the crystal — CuSO4 (s) + 5H2O (l) → CuSO4.5H2O (s).",
+    "b) No: pure water boils at exactly 100 °C, and dissolved impurities raise the boiling point (and depress the melting point), so a sample boiling at 101 °C is contaminated.",
+    "c) Tasting laboratory liquids is hazardous, and water is not the only colourless liquid with no taste or smell, so tasting identifies nothing."
+   ],
+   "finalAnswer": "a) White anhydrous CuSO4 turns blue; CuSO4 + 5H2O → CuSO4.5H2O. b) Not pure — impurities raise the boiling point above 100 °C. c) Hazardous and non-specific."
+  }
+ }
+}

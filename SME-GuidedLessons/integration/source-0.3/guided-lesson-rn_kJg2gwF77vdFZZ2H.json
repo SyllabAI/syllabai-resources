@@ -1,0 +1,725 @@
+{
+ "format": "guided-lesson/0.3",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/d65f6d5545fd-40058-test-for-carbon-dioxide.png",
+   "alt": "The diagram shows carbon dioxide being bubbled through limewater, and the limewater turning milky / cloudy to confirm the presence of carbon dioxide",
+   "sourceHeading": "Testing for carbonate ions",
+   "caption": "Limewater turns milky in the presence of carbon dixoide caused by the formation of insoluble calcium carbonate",
+   "moduleIds": []
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/6ff6156483ea-45106-the-silver-halide-precipitates.png",
+   "alt": "The diagram shows chloride ions forming a whilte precipitate, bromide ions forming a cream precipitate and iodide ions forming a yellow precipitate",
+   "sourceHeading": "Testing for halide ions",
+   "caption": "Each silver halide produces a precipitate of a different colour",
+   "moduleIds": []
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/bab89e9c2673-12032-sulfate-ion-test.png",
+   "alt": "The diagram shows barium chloride solution being added to a sample, which forms a white precipitate if sulfate ions are present",
+   "sourceHeading": "Testing for sulfate ions",
+   "caption": "A white precipitate of barium sulfate is a positive result for the presence of sulfate ions",
+   "moduleIds": []
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_kJg2gwF77vdFZZ2H",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "2. Inorganic Chemistry",
+  "subtopicTitle": "Chemical Tests",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-4-tests-for-anions"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-2.48",
+   "text": "describe tests for these anions: Cl–, Br– and I– using acidified silver nitrate solution; SO4 2– using acidified barium chloride solution; CO3 2– using hydrochloric acid and identifying the gas evolved"
+  }
+ ],
+ "primer": {
+  "text": "You already know from Ionic Bonding how atoms gain or lose electrons to form ions, and that negative ions are called anions. That vocabulary is exactly what this note needs, because every test here is designed to detect one specific anion in solution. You will meet three short, parallel procedures: one for carbonate ions, one for halide ions, and one for sulfate ions, each ending in a visible positive result.",
+  "prerequisiteSubtopic": "Ionic Bonding"
+ },
+ "lessons": [
+  {
+   "title": "Test for carbonate ions",
+   "sourceHeadings": [
+    "Tests for Anions",
+    "Test for carbonate ions"
+   ],
+   "specRefs": [
+    "4CH1-2.48"
+   ],
+   "opening": "Three quick tests between them identify every anion this note covers, and this lesson takes the first: the carbonate ion. A carbonate is a compound carrying CO3 2–, and acid plus limewater exposes it in seconds. The star of the test is carbon dioxide, the gas that turns limewater cloudy.",
+   "keyPoints": [
+    "A carbonate compound fizzes with dilute acid because carbon dioxide gas is produced.",
+    "The test adds dilute acid, then bubbles the gas released through limewater.",
+    "Limewater turning cloudy is the positive result for the carbonate ion.",
+    "The cloudiness is a white precipitate of calcium carbonate forming in the limewater.",
+    "Ionic form: CO3 2– (aq) + 2H+ (aq) → CO2 (g) + H2O (l)."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Add dilute acid to the sample, bubble the gas through limewater, and cloudiness confirms carbonate ions.",
+     "analogy": "Think of a breathalyser for carbonates: the acid makes the suspect gas, and limewater is the strip that changes colour only for carbon dioxide.",
+     "examPointer": "Describe the full sequence when asked: acid added, gas bubbled through limewater, limewater turns cloudy. Stating only that limewater turns cloudy names a result, not a test."
+    },
+    "medium": {
+     "restatement": "The acid donates hydrogen ions to the carbonate, releasing carbon dioxide gas; that gas reacts with dissolved calcium hydroxide to deposit insoluble calcium carbonate, the white cloudiness observed.",
+     "analogy": "It runs like a two-stage security check: the acid questions the sample until it gives up its gas, then limewater fingerprints that gas, and only carbon dioxide produces the white cloud.",
+     "examPointer": "For full marks include both equations where asked: the acid-carbonate step, whose ionic form pairs CO3 2– with 2H+ to give CO2 and H2O, and the limewater step forming CaCO3."
+    }
+   },
+   "check": [
+    {
+     "stem": "A gas from a carbonate sample turns limewater cloudy. Which anion was present?",
+     "misconceptionClass": "result-for-test substitution",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbonate, provided the full sequence was acid added first, then the gas bubbled through limewater",
+       "correct": true,
+       "explanation": "Acid on a carbonate releases carbon dioxide, and carbon dioxide is the gas that clouds limewater.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Sulfate, because sulfates also fizz with acid",
+       "correct": false,
+       "explanation": "Sulfates do not release a gas with acid; fizzing points to carbonate.",
+       "misconception": "gas test misattributed to sulfate"
+      },
+      {
+       "key": "C",
+       "text": "Chloride, since limewater reacts with chlorine",
+       "correct": false,
+       "explanation": "The halide test gives silver halide precipitates, not limewater cloudiness.",
+       "misconception": "reagent swapped across tests"
+      },
+      {
+       "key": "D",
+       "text": "Any anion, because limewater clouds for all gases",
+       "correct": false,
+       "explanation": "Limewater is specific to carbon dioxide among the gases these tests produce.",
+       "misconception": "reagent specificity denied"
+      }
+     ]
+    },
+    {
+     "stem": "A student writes 'limewater turns cloudy' as the complete test for carbonate ions. What is wrong with that answer?",
+     "misconceptionClass": "result stated instead of test",
+     "options": [
+      {
+       "key": "A",
+       "text": "It names only the result; the test itself, adding acid and bubbling the gas through limewater, must be described",
+       "correct": true,
+       "explanation": "The examiner wants the procedure; the cloudiness is the observation that confirms it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Nothing; cloudiness alone is the accepted full answer",
+       "correct": false,
+       "explanation": "The exam hint is explicit that this is stating a result, not describing a test.",
+       "misconception": "result accepted as test"
+      },
+      {
+       "key": "C",
+       "text": "It should say limewater turns clear instead of cloudy",
+       "correct": false,
+       "explanation": "Cloudy is the right observation; what is missing is the procedure that produces the gas.",
+       "misconception": "observation inverted"
+      },
+      {
+       "key": "D",
+       "text": "Limewater is the wrong reagent; universal indicator should be used",
+       "correct": false,
+       "explanation": "Limewater is the designed confirmatory reagent for carbon dioxide in this test.",
+       "misconception": "reagent replaced"
+      }
+     ]
+    },
+    {
+     "stem": "Which ionic equation represents the reaction that produces the gas in the carbonate test?",
+     "misconceptionClass": "equation construction",
+     "options": [
+      {
+       "key": "A",
+       "text": "CO3 2– (aq) + 2H+ (aq) → CO2 (g) + H2O (l)",
+       "correct": true,
+       "explanation": "The carbonate ion plus two hydrogen ions gives carbon dioxide and water, the note's ionic form.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "CO3 2– (aq) + H+ (aq) → CO2 (g) + H2O (l)",
+       "correct": false,
+       "explanation": "Unbalanced: one hydrogen ion cannot supply the water and balance the charge at the same time.",
+       "misconception": "equation left unbalanced"
+      },
+      {
+       "key": "C",
+       "text": "CO2 (g) + Ca(OH)2 (aq) → CaCO3 (s) + H2O (l)",
+       "correct": false,
+       "explanation": "That is the second step, limewater reacting with carbon dioxide, not the step that produces the gas.",
+       "misconception": "test steps conflated"
+      },
+      {
+       "key": "D",
+       "text": "CO3 2– (aq) + 2H+ (aq) → CaCO3 (s) + H2 (g)",
+       "correct": false,
+       "explanation": "No calcium is present in the acid step and hydrogen gas is not the product.",
+       "misconception": "wrong gas and product guessed"
+      }
+     ]
+    },
+    {
+     "stem": "Why does effervescence happen during the carbonate test?",
+     "misconceptionClass": "observation-cause mismatch",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbon dioxide gas is released as the acid reacts with the carbonate",
+       "correct": true,
+       "explanation": "Fizzing is the visible escape of the carbon dioxide the reaction produces.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The limewater boils as the gas passes through it",
+       "correct": false,
+       "explanation": "No heating is involved; the limewater stays at room temperature.",
+       "misconception": "boiling invoked"
+      },
+      {
+       "key": "C",
+       "text": "Calcium carbonate dissolves rapidly, releasing bubbles of oxygen",
+       "correct": false,
+       "explanation": "The gas is carbon dioxide, and calcium carbonate forms rather than dissolves in limewater.",
+       "misconception": "gas identity swapped"
+      },
+      {
+       "key": "D",
+       "text": "The acid evaporates on contact with the sample",
+       "correct": false,
+       "explanation": "Effervescence is a reaction product escaping, not evaporation.",
+       "misconception": "physical process substituted"
+      }
+     ]
+    },
+    {
+     "stem": "In the limewater step, what is the white substance that makes the limewater cloudy?",
+     "misconceptionClass": "product identity",
+     "options": [
+      {
+       "key": "A",
+       "text": "Insoluble calcium carbonate precipitating out of the solution",
+       "correct": true,
+       "explanation": "Carbon dioxide reacts with dissolved calcium hydroxide to form solid calcium carbonate, the white cloud.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Calcium chloride, dissolved from the acid used earlier",
+       "correct": false,
+       "explanation": "Calcium chloride is soluble and colourless; it cannot cloud the limewater.",
+       "misconception": "soluble salt blamed"
+      },
+      {
+       "key": "C",
+       "text": "Calcium hydroxide that was already suspended in the limewater",
+       "correct": false,
+       "explanation": "Clear limewater is a true solution; the cloud appears only after carbon dioxide is added.",
+       "misconception": "pre-existing solid assumed"
+      },
+      {
+       "key": "D",
+       "text": "Calcium oxide formed when the water is consumed",
+       "correct": false,
+       "explanation": "No oxide forms in this reaction; the precipitate is the carbonate.",
+       "misconception": "oxide product guessed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Test for halide ions",
+   "sourceHeadings": [
+    "Test for halide ions"
+   ],
+   "specRefs": [
+    "4CH1-2.48"
+   ],
+   "opening": "The second test identifies which halide ion — chloride, bromide or iodide — a solution contains. Silver nitrate makes all three precipitate, so which ion you have comes down to the colour of the solid that appears. Just as important is the acid added first, because the wrong acid invents its own precipitate.",
+   "keyPoints": [
+    "Halide ions are the negative ions formed by the Group 7 elements.",
+    "The sample is acidified with nitric acid before silver nitrate solution is added.",
+    "A precipitate of silver halide appears when a halide ion is present.",
+    "Colours identify the ion: silver chloride is white, silver bromide cream, silver iodide yellow.",
+    "Nitric acid must be used, because hydrochloric acid adds chloride ions that interfere."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Acidify with nitric acid, add silver nitrate solution, and read the precipitate colour: white for chloride, cream for bromide, yellow for iodide.",
+     "analogy": "It is like three passport colours at one border desk: every halide receives a silver stamp, and only the colour tells you which ion presented itself.",
+     "examPointer": "The acidification step must use nitric acid; hydrochloric acid would introduce chloride ions of its own and throw a white precipitate that ruins the reading."
+    },
+    "medium": {
+     "restatement": "Nitric acid clears the field of ions that would react badly, then silver ions meet any halide ions present and lock into insoluble silver halides; each silver halide has its own colour, so the precipitate names the ion.",
+     "analogy": "Picture a darkroom tray with one developer bath and three possible print tones; the paper always darkens, but the exact shade that appears tells you which negative went in.",
+     "examPointer": "Quote a worded equation if asked, such as potassium chloride plus silver nitrate giving potassium nitrate plus silver chloride, and mark the silver halide product with the state symbol (s)."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which reagent pair is used to test for halide ions?",
+     "misconceptionClass": "reagent-pair recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nitric acid to acidify, then silver nitrate solution",
+       "correct": true,
+       "explanation": "That is the note's specified sequence for the halide test.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrochloric acid to acidify, then silver nitrate solution",
+       "correct": false,
+       "explanation": "HCl carries chloride ions and would create its own white precipitate.",
+       "misconception": "acid choice unexamined"
+      },
+      {
+       "key": "C",
+       "text": "Dilute acid, then limewater",
+       "correct": false,
+       "explanation": "That is the carbonate test's sequence, not the halide test.",
+       "misconception": "test sequence swapped"
+      },
+      {
+       "key": "D",
+       "text": "Barium chloride solution alone",
+       "correct": false,
+       "explanation": "Barium chloride belongs to the sulfate test.",
+       "misconception": "reagent cross-assigned"
+      }
+     ]
+    },
+    {
+     "stem": "A halide test gives a cream precipitate. Which ion is present?",
+     "misconceptionClass": "colour-ion mapping",
+     "options": [
+      {
+       "key": "A",
+       "text": "Bromide",
+       "correct": true,
+       "explanation": "Silver bromide is the cream precipitate among the three silver halides.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Chloride",
+       "correct": false,
+       "explanation": "Silver chloride is white, not cream.",
+       "misconception": "white-cream boundary blurred"
+      },
+      {
+       "key": "C",
+       "text": "Iodide",
+       "correct": false,
+       "explanation": "Silver iodide is yellow; cream belongs to bromide.",
+       "misconception": "cream-yellow boundary blurred"
+      },
+      {
+       "key": "D",
+       "text": "Sulfate, because sulfates give pale colours",
+       "correct": false,
+       "explanation": "Sulfate testing relies on a white barium precipitate, not a cream one.",
+       "misconception": "test families merged"
+      }
+     ]
+    },
+    {
+     "stem": "Why must nitric acid, rather than hydrochloric acid, be used to acidify the sample?",
+     "misconceptionClass": "interference mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrochloric acid contains chloride ions, which would form a white silver chloride precipitate and spoil the result",
+       "correct": true,
+       "explanation": "The acid must not add the very ion the test is trying to detect.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Nitric acid is stronger, so the reaction finishes faster",
+       "correct": false,
+       "explanation": "Speed is irrelevant; the choice is about avoiding added chloride ions.",
+       "misconception": "acid strength invoked"
+      },
+      {
+       "key": "C",
+       "text": "Hydrochloric acid would dissolve the silver halide precipitates",
+       "correct": false,
+       "explanation": "The problem is extra precipitate from the acid itself, not dissolving the real one.",
+       "misconception": "wrong interference claimed"
+      },
+      {
+       "key": "D",
+       "text": "Nitric acid colours the precipitates more clearly",
+       "correct": false,
+       "explanation": "The colours come from the silver halides themselves; the acid adds no colour.",
+       "misconception": "colour aid imagined"
+      }
+     ]
+    },
+    {
+     "stem": "Potassium bromide solution is added to silver nitrate solution. What are the products?",
+     "misconceptionClass": "equation construction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Potassium nitrate solution and silver bromide precipitate",
+       "correct": true,
+       "explanation": "The ions swap partners: potassium pairs with nitrate, silver with bromide, and the silver bromide is the (s) product.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Potassium bromide and silver nitrate, unchanged",
+       "correct": false,
+       "explanation": "A precipitation reaction has occurred; the ions recombine into new substances.",
+       "misconception": "no-reaction assumption"
+      },
+      {
+       "key": "C",
+       "text": "Potassium silver and bromine nitrate",
+       "correct": false,
+       "explanation": "Compounds do not split into mixed-name fragments; the pairs follow the ion charges.",
+       "misconception": "nonsense product assembly"
+      },
+      {
+       "key": "D",
+       "text": "Silver nitrate and potassium bromide solid",
+       "correct": false,
+       "explanation": "Those are the reactants; the products are potassium nitrate and silver bromide.",
+       "misconception": "reactants restated"
+      }
+     ]
+    },
+    {
+     "stem": "A student acidifies with HCl and gets a white precipitate after adding silver nitrate. What can they conclude?",
+     "misconceptionClass": "false-positive reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Nothing reliable: the acid introduced chloride ions, so the white precipitate may come from the acid itself",
+       "correct": true,
+       "explanation": "The procedure was broken, so the observation cannot identify the sample's own halide.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Chloride ions were definitely in the original sample",
+       "correct": false,
+       "explanation": "The chloride may have arrived with the hydrochloric acid, not with the sample.",
+       "misconception": "contamination ignored"
+      },
+      {
+       "key": "C",
+       "text": "The sample contained bromide, since white is close to cream",
+       "correct": false,
+       "explanation": "Colour guessing does not rescue a broken procedure.",
+       "misconception": "colour approximation"
+      },
+      {
+       "key": "D",
+       "text": "The test worked; a white precipitate always means chloride",
+       "correct": false,
+       "explanation": "A white precipitate only means chloride when the acid used was nitric acid.",
+       "misconception": "protocol blind spot"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Test for sulfate ions",
+   "sourceHeadings": [
+    "Test for sulfate ions"
+   ],
+   "specRefs": [
+    "4CH1-2.48"
+   ],
+   "opening": "The final test detects the sulfate ion in solution. The pattern matches the halide test: acidify first, then add a reagent that forms an insoluble product with the target ion. Here the reagent is barium chloride, and a white precipitate of barium sulfate is the positive sign.",
+   "keyPoints": [
+    "Sulfate compounds contain the sulfate ion, SO4 2–.",
+    "The sample is acidified with dilute hydrochloric acid, then barium chloride solution is added.",
+    "A white precipitate of barium sulfate forms if the sulfate ion is present.",
+    "Barium nitrate solution can replace barium chloride in this test.",
+    "The hydrochloric acid removes carbonate impurities that would otherwise give a false precipitate."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Acidify the sample with dilute hydrochloric acid, add a few drops of barium chloride solution, and a white precipitate means sulfate ions.",
+     "analogy": "It works like a clarifying agent dropped into muddy water: only sulfate and barium lock together into an insoluble solid, and the white settling is the confirmation.",
+     "examPointer": "Explain why acid comes first: it removes carbonate impurities, which would otherwise form their own white precipitate and give a false positive."
+    },
+    "medium": {
+     "restatement": "The acid destroys any carbonate present before the reagent goes in, so the only thing barium ions can lock onto is sulfate, precipitating insoluble barium sulfate; barium nitrate works equally well as the barium source.",
+     "analogy": "Think of clearing the room before the real guest arrives: the acid ushers out any carbonate gatecrashers first, so the white barium sulfate that forms can only belong to sulfate.",
+     "examPointer": "If a question offers barium nitrate instead of barium chloride, accept it: the barium ion is the active reagent, and swapping the acid partner changes nothing observable."
+    }
+   },
+   "check": [
+    {
+     "stem": "What is the correct sequence for the sulfate ion test?",
+     "misconceptionClass": "sequence order",
+     "options": [
+      {
+       "key": "A",
+       "text": "Acidify with dilute hydrochloric acid, then add a few drops of barium chloride solution",
+       "correct": true,
+       "explanation": "That matches the note's stated procedure and its order.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Add barium chloride solution first, then acidify with hydrochloric acid",
+       "correct": false,
+       "explanation": "The acid must clear carbonates before the barium reagent reveals the precipitate.",
+       "misconception": "order reversed"
+      },
+      {
+       "key": "C",
+       "text": "Acidify with nitric acid, then add silver nitrate solution",
+       "correct": false,
+       "explanation": "That is the halide test; the sulfate test uses barium chloride.",
+       "misconception": "test family swapped"
+      },
+      {
+       "key": "D",
+       "text": "Bubble the gas through limewater after adding acid",
+       "correct": false,
+       "explanation": "No gas is collected in the sulfate test; the signal is a precipitate in the sample.",
+       "misconception": "gas-step imported"
+      }
+     ]
+    },
+    {
+     "stem": "A white precipitate forms after acidifying and adding barium chloride. Which ion is present?",
+     "misconceptionClass": "positive-result reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sulfate, as insoluble barium sulfate",
+       "correct": true,
+       "explanation": "Barium ions lock onto sulfate ions to give the white barium sulfate precipitate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Carbonate, because all carbonate salts are white",
+       "correct": false,
+       "explanation": "The acidification step destroyed any carbonates first; the surviving precipitate is the sulfate one.",
+       "misconception": "acid step forgotten"
+      },
+      {
+       "key": "C",
+       "text": "Chloride, from the barium chloride reagent",
+       "correct": false,
+       "explanation": "The reagent's own ions cannot precipitate each other; barium chloride is soluble.",
+       "misconception": "reagent self-reaction"
+      },
+      {
+       "key": "D",
+       "text": "Barium, since barium salts are insoluble",
+       "correct": false,
+       "explanation": "Many barium salts are soluble; the precipitate is specifically barium sulfate.",
+       "misconception": "blanket solubility claim"
+      }
+     ]
+    },
+    {
+     "stem": "Why is hydrochloric acid added before the barium chloride solution?",
+     "misconceptionClass": "carbonate-removal mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "To remove carbonate ions, which would otherwise form their own precipitate and interfere",
+       "correct": true,
+       "explanation": "The exam hint is explicit: carbonates left in place would produce a false precipitate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To speed up the reaction between barium and sulfate",
+       "correct": false,
+       "explanation": "Rate is not the purpose; removing interfering ions is.",
+       "misconception": "rate purpose invented"
+      },
+      {
+       "key": "C",
+       "text": "To dissolve the barium chloride more completely",
+       "correct": false,
+       "explanation": "Barium chloride already dissolves readily in water.",
+       "misconception": "dissolution purpose invented"
+      },
+      {
+       "key": "D",
+       "text": "To neutralise any sulfate ions present",
+       "correct": false,
+       "explanation": "Neutralising sulfate would defeat the test; the acid targets carbonates.",
+       "misconception": "purpose inverted"
+      }
+     ]
+    },
+    {
+     "stem": "Barium nitrate solution is offered instead of barium chloride. What follows?",
+     "misconceptionClass": "reagent-equivalence reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The test still works: the barium ion is the reagent that precipitates sulfate",
+       "correct": true,
+       "explanation": "The note states the test can be carried out with barium nitrate; the barium ion is the active part.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The test fails, because only barium chloride precipitates sulfate",
+       "correct": false,
+       "explanation": "It is the barium ion, not the chloride partner, that forms the precipitate.",
+       "misconception": "whole-compound reactivity"
+      },
+      {
+       "key": "C",
+       "text": "A yellow precipitate forms instead of white",
+       "correct": false,
+       "explanation": "Barium sulfate is white whichever barium salt supplies the barium ions.",
+       "misconception": "colour drift imagined"
+      },
+      {
+       "key": "D",
+       "text": "Extra acidification with nitric acid is now required",
+       "correct": false,
+       "explanation": "The acidification step stays as it is; only the barium source has changed.",
+       "misconception": "procedure cascade invented"
+      }
+     ]
+    },
+    {
+     "stem": "A sample is known to contain no carbonates, yet the acid step is still performed. Why is the result still trusted?",
+     "misconceptionClass": "redundant-step reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Adding the acid remains harmless: with no carbonates to remove, the white barium sulfate precipitate still identifies sulfate",
+       "correct": true,
+       "explanation": "The acid step is protective insurance; it changes nothing when no carbonate is present.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It would not be trusted: the acid destroys sulfate ions",
+       "correct": false,
+       "explanation": "Dilute hydrochloric acid does not remove sulfate ions; the precipitate still forms.",
+       "misconception": "acid assumed destructive"
+      },
+      {
+       "key": "C",
+       "text": "The precipitate would turn grey from the extra acid",
+       "correct": false,
+       "explanation": "Barium sulfate stays white; the acid causes no colour change.",
+       "misconception": "colour effect invented"
+      },
+      {
+       "key": "D",
+       "text": "The result doubles as a carbonate test, so two ions are confirmed",
+       "correct": false,
+       "explanation": "No gas-evolution observation is made here, so nothing about carbonate is confirmed.",
+       "misconception": "test scope over-claimed"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "anion",
+    "definition": "A negatively charged ion, formed when an atom gains electrons; the ion class all three tests here detect.",
+    "firstLesson": 1
+   },
+   {
+    "term": "limewater",
+    "definition": "A solution of calcium hydroxide that turns cloudy in carbon dioxide; the confirming reagent of the carbonate test.",
+    "firstLesson": 1
+   },
+   {
+    "term": "precipitate",
+    "definition": "An insoluble solid that forms when two solutions react; the visible positive signal in the halide and sulfate tests.",
+    "firstLesson": 1
+   },
+   {
+    "term": "effervescence",
+    "definition": "Fizzing seen when a gas escapes a liquid; observed in the carbonate test as carbon dioxide is released.",
+    "firstLesson": 1
+   },
+   {
+    "term": "halide ion",
+    "definition": "The negative ion formed by a Group 7 element, such as chloride, bromide or iodide.",
+    "firstLesson": 2
+   },
+   {
+    "term": "acidify",
+    "definition": "To add dilute acid to a sample before testing, removing interfering ions or releasing the gas needed.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "a) Describe the test for carbonate ions, including the ionic equation for the gas-forming step. b) Describe the test that distinguishes chloride, bromide and iodide ions, naming the three precipitate colours. c) Describe the sulfate ion test and explain why acid is added first.",
+   "steps": [
+    "a) Add dilute acid to the sample — fizzing shows carbon dioxide is released — and bubble the gas through limewater, which turns cloudy if carbonate is present: CO3 2- (aq) + 2H+ (aq) → CO2 (g) + H2O (l).",
+    "b) Acidify the sample with nitric acid, then add silver nitrate solution: a white precipitate shows chloride (AgCl), cream shows bromide (AgBr), and yellow shows iodide (AgI).",
+    "c) Acidify with dilute hydrochloric acid, then add barium chloride solution: a white precipitate of barium sulfate (Ba2+ (aq) + SO4 2- (aq) → BaSO4 (s)) shows sulfate ions. The acid first removes carbonate impurities, which would otherwise form their own white precipitate and give a false positive."
+   ],
+   "finalAnswer": "a) Acid, then limewater turns cloudy; CO3 2- + 2H+ → CO2 + H2O. b) AgNO3 after HNO3: white (Cl-), cream (Br-), yellow (I-). c) HCl then BaCl2 gives white BaSO4; the acid removes carbonate interference."
+  }
+ }
+}
