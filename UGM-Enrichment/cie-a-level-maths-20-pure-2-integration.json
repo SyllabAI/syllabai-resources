@@ -1,0 +1,574 @@
+{
+ "board": "Cambridge CIE",
+ "course": "cie-a-level-maths-20-pure-2",
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 22,
+  "substrateResources": 0,
+  "ugmResourcesConsidered": 22,
+  "aligned": 0,
+  "alignedSubstrate": 0,
+  "nonOverlap": 1,
+  "crossLaneAligned": 20,
+  "rejectedOfRecord": 1,
+  "alignedShare": 0.0,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 20,
+   "flips": 5,
+   "oneToMany": 15,
+   "note": "the pure-2 course-plane law: every aligned row rides an of-record body under the pure-1/pure-3 capture dirs via textOfRecordUnder (the circular-slice precedent, lane-14 r8404); no body text moves, no new capture; fresh-only psp counting (the lane-16 law)"
+  },
+  "stationBreakdown": {
+   "calculus-trig-log": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 7
+   },
+   "chain-rule": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 4
+   },
+   "product-rule": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 2
+   },
+   "introducing-calculus": {
+    "resources": 5,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 5
+   },
+   "?": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 2
+   }
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "inverse-integrals",
+   "station": "calculus-trig-log",
+   "title": "Inverse integrals",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals",
+   "resourceType": "Food for thought",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “INT_2^3 ln x dx via the inverse-function area argument (no antiderivative taken) - the definite integral of the 3.5.1-listed-adjacent ln is the outcome; the non-standard area method is disclosed of record (the by-parts route exists in the corpus under lane 8;…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": true,
+   "codes": [
+    "2.5.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/inverse-integrals-inverse-integrals.md"
+  },
+  {
+   "ugmSlug": "r7074",
+   "station": "calculus-trig-log",
+   "title": "Where do the curves $y=\\sin 2x$ and $y=\\sin x$ cross?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7074",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “shaded area between y = sin 2x and y = sin x: R = pi/4 - INT sin 2x - INT sin x with the standard antiderivatives [-cos x] evaluated (the horizontal-stretch reading of INT sin 2x as (1/2)INT sin x of record) - the 3.5.1 composite-standard evaluation is load-b…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/r7074-where-do-the-curves-ysin-2x-and-ysin-x-cross.md"
+  },
+  {
+   "ugmSlug": "r8679",
+   "station": "calculus-trig-log",
+   "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13); 3.6.2 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14); 3.6.2/3.6.3 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “area under y = cos x - sin x + 2: A(a) = [sin x + cos x + 2x]_0^a with the 3.5.1 standard antiderivatives load-bearing, verified A(1.5)=3.07, then the Newton second approximation - the exact CIE standard-function-integration task (flips the lane-12 non-overla…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.1",
+    "2.6.2",
+    "2.6.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13); 3.6.2 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14); 3.6.2/3.6.3 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/r8679-what-is-the-area-under-the-curve-y-cos-x-sin-x-2.md"
+  },
+  {
+   "ugmSlug": "r9184",
+   "station": "calculus-trig-log",
+   "title": "Can we find the area between $\\sin x$ and $\\sin 2x$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r9184",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “area between sin x and sin 2x: A = INT sin 2x - INT sin x = 1/2[-cos x] - [-cos x] = 1/4 with a second implicit-substitution method of record - the 3.5.1 standard antiderivatives are the engine (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integ…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/r9184-can-we-find-the-area-between-sin-x-and-sin-2x.md"
+  },
+  {
+   "ugmSlug": "stretching-an-integral",
+   "station": "calculus-trig-log",
+   "title": "Stretching an integral",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/stretching-an-integral",
+   "resourceType": "Scaffolded task",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “the stretch-symmetry derivation that INT dx/x scales by ln b and the area reading of INT 1/x^2 under f(bx)/b^2 leading to INT dx/x = ln|x| + C - the 3.5.1 reciprocal antiderivative derived rather than asserted”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/stretching-an-integral-stretching-an-integral.md"
+  },
+  {
+   "ugmSlug": "trigsy-integrals",
+   "station": "calculus-trig-log",
+   "title": "Trigsy integrals",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals",
+   "resourceType": "Many ways problem",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13); 3.5.2 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “INT cos 2x (3.5.1 composite) and INT sin^2 x by the double-angle identity (the canonical 3.5.2 trigonometrical-relationship integration), with the arcsin/arccos symmetric-area cards disclosed beyond the 3.5 list of record (flips the lane-11 non-overlap row of…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.1",
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13); 3.5.2 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/trigsy-integrals-trigsy-integrals.md"
+  },
+  {
+   "ugmSlug": "two-for-one",
+   "station": "calculus-trig-log",
+   "title": "Two for one",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/two-for-one",
+   "resourceType": "Food for thought",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin as far as sec^2(ax+b); the Paper 3 extension list adds 1/(x^2+a^2), which is Paper-3-only — the depth-guard register screens for it; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.1 is the twin of Paper 3 3.5.1. Prior alignment of record: 3.5.1 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “INT 1/x dx over positive and negative intervals - when and why ln x versus ln|x|: the modulus-sign convention IS the 3.5.1 1/(ax+b) list-item knowledge, with the odd-function area reasoning and ln(-x) gradient-function check (flips the lane-10 non-overlap row…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.1 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/two-for-one-two-for-one.md"
+  },
+  {
+   "ugmSlug": "circular-slice",
+   "station": "chain-rule",
+   "title": "Circular slice",
+   "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+   "resourceType": "rich-example",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.2 is the twin of Paper 3 3.5.2. Prior alignment of record: 3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13); 3.5.6/3.5.2 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “INT_a^b sqrt(1-x^2) dx by the given substitution x = cos theta, the sqrt(1-cos^2) = sin trig simplification, and the semicircle-area geometric check - the canonical substitution-plus-geometry resource; rides the whole-station body of record under pure-1-circu…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13); 3.5.6/3.5.2 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-circular-measure/circular-slice-circular-slice.md"
+  },
+  {
+   "ugmSlug": "constant-consistency",
+   "station": "product-rule",
+   "title": "Constant consistency",
+   "url": "https://undergroundmathematics.org/product-rule/constant-consistency",
+   "resourceType": "Many ways problem",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.2 is the twin of Paper 3 3.5.2. Prior alignment of record: 3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.5 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “INT cos x sin x dx three ways - the sin 2x identity route (3.5.2), the u = cos x substitution route (3.5.6), the parts route (3.5.5) - and the constant-discrepancy reconciliation; the canonical many-ways integration resource (flips the lane-11 non-overlap row…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Based on a presentation by David Bedford, used with permission.",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.5 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/constant-consistency-constant-consistency.md"
+  },
+  {
+   "ugmSlug": "r8134",
+   "station": "product-rule",
+   "title": "How could we integrate $e^{-x}\\sin^n x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8134",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.2 is the twin of Paper 3 3.5.2. Prior alignment of record: 3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.5 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “I_n = INT e^-x sin^n x dx: the product-rule derivative identity, the parts recurrence I_n = -e^(-pi/2) + n INT e^-x cos x sin^(n-1) x, and the reduction formula (n^2+1)I_n = -e^(-pi/2) + n(n-1)I_(n-2) with I_4 evaluated - the canonical by-parts reduction-form…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.5 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/r8134-how-could-we-integrate-e{-x}sinn-x.md"
+  },
+  {
+   "ugmSlug": "r8694",
+   "station": "chain-rule",
+   "title": "How could we integrate $\\tan^3 \\theta$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8694",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.2 is the twin of Paper 3 3.5.2. Prior alignment of record: 3.1.5 (pure-3-algebra; T-UGM-MODE1-9); 3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.3 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13); 3.5.6/3.5.2/3.5.3 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “∫√(x+1)/(x−3)dx via u²=x+1 reduces to polynomial division plus 8/((u−2)(u+2)) split by partial fractions”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics A 1, QP 840/1, 1973, Q11",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.1.5 (pure-3-algebra; T-UGM-MODE1-9); 3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.3 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13); 3.5.6/3.5.2/3.5.3 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-algebra/r8694-how-could-we-integrate-tan3-theta.md"
+  },
+  {
+   "ugmSlug": "r8778",
+   "station": "chain-rule",
+   "title": "Can we carry out these three tricky integrals?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8778",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.2 is the twin of Paper 3 3.5.2. Prior alignment of record: 3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “INT x sqrt(2x-1) dx by the substitution u = 2x-1 and INT_0^(pi/4) sec^4 x dx via tan^2 = sec^2 - 1 (the 3.5.2 relationship reducing it to tan + (tan - x)); the INT 1/sqrt(2x-x^2) card requires the arcsin form beyond the 3.5 list and is disclosed of record (fl…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.2 (pure-3-integration; T-UGM-MODE1-13); 3.5.6 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/r8778-can-we-carry-out-these-three-tricky-integrals.md"
+  },
+  {
+   "ugmSlug": "r9297",
+   "station": "chain-rule",
+   "title": "How could we integrate $\\tan^4x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9297",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.5.2 is the twin of Paper 3 3.5.2. Prior alignment of record: 3.5.2 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “tan^4 x = tan^2 x sec^2 x - sec^2 x + 1 shown from tan^2 = sec^2 - 1, then INT_0^(pi/4) tan^4 x dx = tan x - x evaluated at pi/4 = 1 - pi/4 - the exact CIE 3.5.2 use-trigonometrical-relationships showcase; the chain-rule tan^3 derivative intro is the recorded…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.5.2 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration/r9297-how-could-we-integrate-tan4x.md"
+  },
+  {
+   "ugmSlug": "approximating-areas",
+   "station": "introducing-calculus",
+   "title": "Approximating areas",
+   "url": "https://undergroundmathematics.org/introducing-calculus/approximating-areas",
+   "resourceType": "problem-requiring-decisions",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "FLIP (the circular-slice precedent, lane-14 r8404): the trapezium-rule cluster was routed “beyond spec” of record by the P1/P3 lanes because the 9709 P1+P3 spine has no trapezium bullet; the 2023-2025 Paper 2 §2.5.3 “understand and use the trapezium rule to obtain an estimate…” is P2-UNIQUE (PDF sha1 997e5a9f0d8b; Paper 3 3.5 carries six bullets, none trapezium) and realizes the cluster. Prior non-overlap rows of record: “Area approximation and over/under-estimation — the trapezium-rule cluster is not in the 2023-2025 P1 spec (1.8 is analytic integration; no numerical-…” (pure-1-differentiation) / “area estimates under lines and polynomials - the 'exact' trigger is incidental” (pure-3-trigonometry). Text of record under UGM-Resources/pure-1-differentiation/ (already-served body; the P2 hub-consume resolves textOfRecordUnder). Supersedes the stale beyond-spec routing for the P2 plane only.",
+   "examProvenance": null,
+   "hasTeacherSupport": null,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": "beyond-spec routing (P1/P3 lanes) — no home alignment",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/approximating-areas-approximating-areas.md"
+  },
+  {
+   "ugmSlug": "r5642",
+   "station": "introducing-calculus",
+   "title": "When does the trapezium rule give the exact answer here?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r5642",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "FLIP (the circular-slice precedent, lane-14 r8404): the trapezium-rule cluster was routed “beyond spec” of record by the P1/P3 lanes because the 9709 P1+P3 spine has no trapezium bullet; the 2023-2025 Paper 2 §2.5.3 “understand and use the trapezium rule to obtain an estimate…” is P2-UNIQUE (PDF sha1 997e5a9f0d8b; Paper 3 3.5 carries six bullets, none trapezium) and realizes the cluster. Prior non-overlap rows of record: “Trapezium-rule exactness MC — not in the 2023-2025 P1 spec.” (pure-1-differentiation) / “when the trapezium rule is exact - the trapezium rule is not in the spine” (pure-3-trigonometry). Text of record under UGM-Resources/pure-1-differentiation/ (already-served body; the P2 hub-consume resolves textOfRecordUnder). Supersedes the stale beyond-spec routing for the P2 plane only.",
+   "examProvenance": null,
+   "hasTeacherSupport": null,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": "beyond-spec routing (P1/P3 lanes) — no home alignment",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/r5642-when-does-the-trapezium-rule-give-the-exact-answer-here.md"
+  },
+  {
+   "ugmSlug": "r6592",
+   "station": null,
+   "title": "Can we use the trapezium rule to estimate this integral?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r6592",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record join to the P2-unique bullet (2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 §2.5.3 trapezium rule has no Paper 3 twin; the body teaches trapezium-rule estimation within its standing alignment of record 1.6.3 (1.6.3 (pure-1-series; T-UGM-MODE1-6)). Prior evidence: “”.",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.6.3 (pure-1-series; T-UGM-MODE1-6)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series/r6592-can-we-use-the-trapezium-rule-to-estimate-this-integral.md"
+  },
+  {
+   "ugmSlug": "r7903",
+   "station": "introducing-calculus",
+   "title": "Can the trapezium rule help us find the area under $y = x\\ln x$?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7903",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "FLIP (the circular-slice precedent, lane-14 r8404): the trapezium-rule cluster was routed “beyond spec” of record by the P1/P3 lanes because the 9709 P1+P3 spine has no trapezium bullet; the 2023-2025 Paper 2 §2.5.3 “understand and use the trapezium rule to obtain an estimate…” is P2-UNIQUE (PDF sha1 997e5a9f0d8b; Paper 3 3.5 carries six bullets, none trapezium) and realizes the cluster. Prior non-overlap rows of record: “Derivation of the trapezium rule — not in the 2023-2025 P1 spec.” (pure-1-differentiation) / “deriving and applying the trapezium rule for the approximate evaluation of INT y dx - the trapezium rule is not in the 9709 pure 1-3 spine (the lane-…” (pure-3-integration). Text of record under UGM-Resources/pure-1-differentiation/ (already-served body; the P2 hub-consume resolves textOfRecordUnder). Supersedes the stale beyond-spec routing for the P2 plane only.",
+   "examProvenance": null,
+   "hasTeacherSupport": null,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": "beyond-spec routing (P1/P3 lanes) — no home alignment",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/r7903-can-the-trapezium-rule-help-us-find-the-area-under-y-xln-x.md"
+  },
+  {
+   "ugmSlug": "r7912",
+   "station": null,
+   "title": "Can we approximate the area under this sine curve?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7912",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record join to the P2-unique bullet (2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 §2.5.3 trapezium rule has no Paper 3 twin; the body teaches trapezium-rule estimation within its standing alignment of record 1.5.1/1.5.2 (1.5.1 (pure-1-trigonometry; T-UGM-MODE1-5); 1.5.2 (pure-1-trigonometry; T-UGM-MODE1-5)). Prior evidence: “”.",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.5.1 (pure-1-trigonometry; T-UGM-MODE1-5); 1.5.2 (pure-1-trigonometry; T-UGM-MODE1-5)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry/r7912-can-we-approximate-the-area-under-this-sine-curve.md"
+  },
+  {
+   "ugmSlug": "r8140",
+   "station": "introducing-calculus",
+   "title": "Can we apply the trapezium rule to $f(x) = x/2 - \\lfloor x/2 \\rfloor$?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r8140",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "FLIP (the circular-slice precedent, lane-14 r8404): the trapezium-rule cluster was routed “beyond spec” of record by the P1/P3 lanes because the 9709 P1+P3 spine has no trapezium bullet; the 2023-2025 Paper 2 §2.5.3 “understand and use the trapezium rule to obtain an estimate…” is P2-UNIQUE (PDF sha1 997e5a9f0d8b; Paper 3 3.5 carries six bullets, none trapezium) and realizes the cluster. Prior non-overlap rows of record: “Trapezium rule on a floor-function integrand — not in the 2023-2025 P1 spec.” (pure-1-differentiation). Text of record under UGM-Resources/pure-1-differentiation/ (already-served body; the P2 hub-consume resolves textOfRecordUnder). Supersedes the stale beyond-spec routing for the P2 plane only.",
+   "examProvenance": null,
+   "hasTeacherSupport": null,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": "beyond-spec routing (P1/P3 lanes) — no home alignment",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/r8140-can-we-apply-the-trapezium-rule-to-fx-x2-lfloor-x2-rfloor.md"
+  },
+  {
+   "ugmSlug": "underneath-the-arches",
+   "station": "introducing-calculus",
+   "title": "Underneath the arches",
+   "url": "https://undergroundmathematics.org/introducing-calculus/underneath-the-arches",
+   "resourceType": "investigation",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "FLIP (the circular-slice precedent, lane-14 r8404): the trapezium-rule cluster was routed “beyond spec” of record by the P1/P3 lanes because the 9709 P1+P3 spine has no trapezium bullet; the 2023-2025 Paper 2 §2.5.3 “understand and use the trapezium rule to obtain an estimate…” is P2-UNIQUE (PDF sha1 997e5a9f0d8b; Paper 3 3.5 carries six bullets, none trapezium) and realizes the cluster. Prior non-overlap rows of record: “Trapezium-rule over/underestimates from concavity — not in the 2023-2025 P1 spec.” (pure-1-differentiation). Text of record under UGM-Resources/pure-1-differentiation/ (already-served body; the P2 hub-consume resolves textOfRecordUnder). Supersedes the stale beyond-spec routing for the P2 plane only.",
+   "examProvenance": null,
+   "hasTeacherSupport": null,
+   "codes": [
+    "2.5.3"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": "beyond-spec routing (P1/P3 lanes) — no home alignment",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/underneath-the-arches-underneath-the-arches.md"
+  }
+ ],
+ "generated_utc": "2026-10-29T00:00:00Z",
+ "licensing": {
+  "law": "facts-only enrichment (mode 1): spec codes, titles, URLs, resource types, confidence and evidence strings — no UGM body text in this file (text of record lives in UGM-Resources/ under the attestation)",
+  "rights": "© University of Cambridge (Underground Mathematics); see UGM-Resources/README.md and LICENSE-DATA.md"
+ },
+ "mode2Note": "modesRecorded reflects the cross-map's mode flags of record: [1] facts; no Mode-2 rendering.",
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "r5324",
+   "station": "calculus-meets-functions",
+   "title": "If the trapezium rule overestimates $\\int^1_0 f(x)\\, dx$, what can we deduce?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r5324",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "COMPANION DISCLOSURE (capture gap): the body teaches trapezium-rule overestimate propagation — squarely P2 2.5.3 — but no text of record exists under UGM-Resources/ (bodyImported=false of record; the file-resolver finds no body). Recorded as a companion fact with NO alignment row (never forced, AGENT.md rule 3); the future P2 consume lane may capture it under the operator attestation.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "perSpecPoint": {
+  "2.5.1": {
+   "officialCode": "2.5.1",
+   "officialText": "extend the idea of ‘reverse differentiation’ to ax + b 1 include the integration of e , , ax + b sin( ax + b ) , cos( ax + b ) and sec ( ax + b )",
+   "spineTitleVerbatim": "extend the idea of ‘reverse differentiation’ to ax + b 1 include the integration of e , , ax + b sin( ax + b ) , cos( ax + b ) and sec ( ax + b )",
+   "primaryPick": "inverse-integrals",
+   "resources": []
+  },
+  "2.5.2": {
+   "officialCode": "2.5.2",
+   "officialText": "use trigonometrical relationships in carrying out integration or",
+   "spineTitleVerbatim": "use trigonometrical relationships in carrying out integration or",
+   "primaryPick": "circular-slice",
+   "resources": []
+  },
+  "2.5.3": {
+   "officialCode": "2.5.3",
+   "officialText": "understand and use the trapezium rule to Including use of sketch graphs in simple cases to estimate the value of a definite integral. determine whether the trapezium rule gives an over- estimate or an under-estimate.",
+   "spineTitleVerbatim": "understand and use the trapezium rule to Including use of sketch graphs in simple cases to estimate the value of a definite integral. determine whether the trapezium rule gives an over- estimate or an under-estimate.",
+   "primaryPick": "r7903",
+   "resources": []
+  }
+ },
+ "qual": "cie-a-level-maths-2023-2025",
+ "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. The pure-2 course-plane lane (T-UGM-P2-1): 20 cross-lane rows join of-record bodies to the P2 twin spec points (PDF-of-record adjudication, sha1 997e5a9f…) — no coverage manufactured: every row cites its standing alignment of record or the P2-unique 2.5.3 realization; psp rows 0 = fresh-only counting (the lane-16 law); the depth guard of record held 1 join(s); 1 companion disclosure(s) carried, never collapsed."
+ },
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-p2-full-course.json",
+  "commit": "08404b3479870bf305673925b22f0af5eb326243 (cross-map lane 18, the P2 course plane)",
+  "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped (reverted to the link-module successor); Mode-4 doctrine via owning specs",
+  "capture_corpus": "undergroundmathematics/ P2 crawl + ugm-clean (855 resources, 25 stations)"
+ },
+ "stationScope": {
+  "note": "whole-course-plane lane: the stations are scattered by design — the P2 spec (2.1-2.6) is the AS-depth subset of the Paper 3 spine, so the of-record bodies ride their original capture dirs and join by reference; no P2 capture dirs exist or are needed",
+  "scope": "cross-course twin joins of record (P3/P1 bodies) + the P2-unique trapezium cluster",
+  "stations": [
+   "?",
+   "calculus-trig-log",
+   "chain-rule",
+   "introducing-calculus",
+   "product-rule"
+  ]
+ },
+ "sweepRouting": {
+  "integral-chasing-2": {
+   "outcome": "depth_guard_hold",
+   "p2Code": "2.5.1",
+   "trip": "by parts",
+   "reason": "prior evidence names Paper-3-only machinery (by parts); the 2.5.1 join is HELD of record — the body keeps its Paper 3 home alignment only"
+  },
+  "approximating-areas": {
+   "outcome": "flip_p2_unique",
+   "p2Code": "2.5.3",
+   "reason": "the beyond-spec routing of record (P1/P3 plane) is REALIZED by the P2-unique 2.5.3 trapezium-rule bullet (PDF sha1 997e5a9f0d8b)"
+  },
+  "r5642": {
+   "outcome": "flip_p2_unique",
+   "p2Code": "2.5.3",
+   "reason": "the beyond-spec routing of record (P1/P3 plane) is REALIZED by the P2-unique 2.5.3 trapezium-rule bullet (PDF sha1 997e5a9f0d8b)"
+  },
+  "r7903": {
+   "outcome": "flip_p2_unique",
+   "p2Code": "2.5.3",
+   "reason": "the beyond-spec routing of record (P1/P3 plane) is REALIZED by the P2-unique 2.5.3 trapezium-rule bullet (PDF sha1 997e5a9f0d8b)"
+  },
+  "r8140": {
+   "outcome": "flip_p2_unique",
+   "p2Code": "2.5.3",
+   "reason": "the beyond-spec routing of record (P1/P3 plane) is REALIZED by the P2-unique 2.5.3 trapezium-rule bullet (PDF sha1 997e5a9f0d8b)"
+  },
+  "underneath-the-arches": {
+   "outcome": "flip_p2_unique",
+   "p2Code": "2.5.3",
+   "reason": "the beyond-spec routing of record (P1/P3 plane) is REALIZED by the P2-unique 2.5.3 trapezium-rule bullet (PDF sha1 997e5a9f0d8b)"
+  },
+  "r5324": {
+   "outcome": "companion_disclosure",
+   "p2Code": "2.5.3",
+   "reason": "capture gap: no text of record under UGM-Resources/; companion fact only, never forced (AGENT.md rule 3)"
+  }
+ },
+ "task": "T-UGM-P2-1"
+}

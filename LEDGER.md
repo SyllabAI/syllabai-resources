@@ -916,3 +916,29 @@ served bundle PR carries a full disclosure census.
   maths-b revision notes 11 → 2 (Mathematical Symbols, Listing Outcomes — the honest stays). Sheet
   review_adjudication.json gains the r2_overlay block (13 rows, full quoted bases; r1 rows
   preserved); idempotence = r2 pass marker no-op. No v2 contact in this commit; no force; fetch-first.
+
+- **T-UGM-P2-1 — the Pure 2 COURSE PLANE lane (operator order trace `1a188fcae3769975` "open the T-UGM-P2-1
+  corpus lane", resolving the lane-17 pointer "further UGM lanes need a new course plane, operator's call")**:
+  the CIE 9709 Pure 2 full-course enrichment — spec 2.1.1-2.6.3 (17 points, hub spine parse of record) adjudicated
+  against the 2023-2025 syllabus PDF of record (sha1 `997e5a9f…`, bullet-by-bullet): 9/17 P2 spec points are
+  spine-verbatim twins of Paper 3 codes; 7 more are pdf-verbatim twins (spine-parse divergence disclosed);
+  `2.1.2` carries the spine's three-bullet merge (Paper 3 splits it across 3.1.2/3.1.3/3.1.4 — the join delivers
+  27 bodies); **`2.5.3` trapezium rule is P2-UNIQUE** (Paper 3 3.5 carries six bullets, none trapezium). Census:
+  **166 cross-lane rows = 161 one-to-many twin joins (of-record P3/P1 bodies join P2 twin codes by reference,
+  `textOfRecordUnder` into the pure-1/pure-3 capture dirs — the circular-slice precedent, lane-14 r8404; zero
+  body text moves, zero new captures) + 5 trapezium flips (approximating-areas, r5642, r7903, r8140,
+  underneath-the-arches — each routed "beyond spec" of record by the P1/P3 lanes because the P1+P3 spine has no
+  trapezium bullet; realized by the P2-unique 2.5.3) + 2 standing-home joins (r6592 @ 1.6.3, r7912 @
+  1.5.1/1.5.2)**; **ALL 17 spec points carry rows — zero honest gaps**; 1 depth-guard hold of record
+  (integral-chasing-2 @ 2.5.1 — prior evidence names by-parts machinery, Paper-3-only: the guard register
+  [by parts / partial fractions / f′f / 1/(x²+a²) / substitution] held the join) + 1 capture-gap companion
+  (r5324 — P2 2.5.3 bearing, no body of record, never forced, rule 3); fact divergences of record across the 17
+  source enrichments disclosed (60 rows: resourceType taxonomy variants, mode-flag unions, first-seen keeps).
+  Files: 6 enrichment files (pure-2-{algebra, logarithmic-and-exponential-functions, trigonometry,
+  differentiation, integration, numerical-solution-of-equations}.json), psp blocks 17 = honest-empty
+  (fresh-only counting, the lane-16 law), primaryPicks 17/17. Cross-map `cross-map-p2-full-course.json` +
+  the FIRST pure-2 spine export (17 rows) @ syllabai-experimental `08404b3479870bf305673925b22f0af5eb326243` (two commits: cross-map d9667bf0 +
+  INTEGRATION-PLAN/README bookkeeping 08404b34). MANIFEST untouched — zero corpus files added (the #55
+  sibling law); no v2 contact in this commit; fetch-first at the fire-time tip; NOT self-merged — the
+  T-UGM-HUB-CONSUME P2 lane (emit ugm-resources.json for cie-a-level-maths-20-pure-2, reserving
+  textOfRecordUnder resolution) awaits the merge + operator order.
