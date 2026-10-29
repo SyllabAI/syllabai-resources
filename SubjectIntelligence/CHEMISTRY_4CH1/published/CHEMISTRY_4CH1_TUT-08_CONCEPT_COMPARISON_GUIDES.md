@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-08
-artifact_version: 1.2
+artifact_version: 1.3
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-27
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-012"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "0261a2b908751ac5c0a4331c1f7463c4956ec664"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-08 — Concept Comparison Guides
@@ -167,6 +167,23 @@ simply show that the electrons have come from two different atoms."
 (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 270).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### TUT-082 — Coefficient versus subscript is taught as the book's own minimal pair: 2Cl against Cl2
+
+**Claim:** The book teaches the notation distinction with a genuine minimal pair rather than a rule recital: a big number in front of a formula is a coefficient and counts whole units, a small subscript number counts atoms inside one unit, and the pair 2Cl versus Cl2 makes the difference visible — two separate atoms against one joined molecule. The counting consequences are then worked in both directions, including the bracket rule where the subscript distributes over everything inside. The tutor inherits a ready-made concept comparison whose two terms differ by exactly one line of notation, which is why the confusion it prevents is so costly.
+**Evidence:** the distinction: "you must understand the difference between big numbers written in front of formulae (sometimes called coefficients), such as the 2 in 2HCl, and the smaller, subscript (slightly lower on the line) numbers, such as the 3 in CaCO3." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 137); the minimal pair: "Another chemical equation is 2Cl → Cl2. Here, 2CI represents 2 separate Cl atoms and Cl2 means that the atoms are joined together in a molecule." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 137); the bracket rule: "If you have brackets in a formula, the small number refers to everything inside the brackets." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 137).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-083 — The excess calculation is taught as a head-to-head answer comparison with a both-ways test
+
+**Claim:** The book stages the limiting-reagent concept as a comparison between two candidate answers: the tempting 0.4 g route from the magnesium moles is set out honestly, declared not the correct answer, and then explained through the equation's own arithmetic — 0.2 mol of magnesium would need 0.4 mol of acid, and there was only 0.2 mol. The correct route is re-run from the acid, and the closing instruction generalises the method: try both numbers of moles in the equation and compare. The comparison structure is the pedagogy — the student sees precisely why one line of reasoning collapses and the other stands, instead of being handed a procedure.
+**Evidence:** the honest staging: "We might be tempted to say that 0.2 mol Mg produces 0.2 mol H2(g) and the mass of H2 = 0.2 × 2 = 0.4 g. Unfortunately this is not the correct answer!" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 227); the resolution and the generalisation: "Because we know that all the HCl reacts we can use the number of moles of HCl to work out how much H2 is produced." and "To deduce which substance is in excess we try both numbers of moles in the chemical equation and compare the numbers." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 227).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-084 — Same-reaction-different-rate is the comparison frame for the alkali metals, with a phrase kit and a flame discriminator
+
+**Claim:** The Group 1 teaching is built as a controlled comparison: every group metal reacts with water in the same way to the same products, and the only moving part is how quickly — so the concept to compare across lithium, sodium and potassium is rate, not chemistry. The comparison is then equipped with the exact comparative phrases the exam rewards (fizzes more vigorously, moves around more quickly, disappears more quickly) and closed with a qualitative discriminator that no adverb grading reaches: potassium's hydrogen ignites, sodium's usually does not. The tutor therefore teaches the shared mechanism, the graded language, and the binary observation in one frame.
+**Evidence:** the common mechanism: "All these metals react in the same way with water to produce a metal hydroxide and hydrogen:" with the rate frame: "The main difference between the reactions is how quickly they happen." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 416); the phrase kit: "Again, if you are asked to compare potassium with sodium use phrases such as:" followed by "'fizzes more vigorously'", "'moves around more quickly'" and "'disappears more quickly'" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 420); the discriminator: "The key difference though is that with potassium the hydrogen bursts into flames but with sodium it usually does not." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 420).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus — the compounds page,
@@ -192,4 +209,4 @@ TUT-06's territory. No canonical planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-082..TUT-084), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

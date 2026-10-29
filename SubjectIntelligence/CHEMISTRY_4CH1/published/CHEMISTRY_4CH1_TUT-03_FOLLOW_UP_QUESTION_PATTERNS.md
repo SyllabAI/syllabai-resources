@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-03 — Follow-Up Question Patterns
@@ -166,6 +166,23 @@ why these reactions are classified as oxidation or reduction"
 (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 354).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### TUT-067 — Follow-up chains resolve into printed arithmetic, and boundary markers police the battery
+
+**Claim:** The book's follow-up answers do not stop at method hints — they resolve all the way to the arithmetic, so a student who missed the intermediate step can reconstruct the whole chain from the printed answer. The solubility follow-up tells the reader where to find the 10 °C value, states it, interprets what staying in solution means, and then subtracts on the page; the chemistry-only boundary is likewise printed inside the battery itself, so the tutor knows exactly where the extension content ends. This makes the batteries self-contained tutoring instruments rather than bare exercise lists.
+**Evidence:** the resolved chain: "You can use the data in the table to find the solubility at 10°C. This value is 31.2g per 100 g of water. That means that 31.2 g of potassium chloride will stay in solution at 10 °C. Since you started with 51.0g, the rest of it must have formed crystals:" and the printed arithmetic: "mass of crystals = 51.0 – 31.2 g = 19.8g" closing with "19.8g of potassium chloride will crystallise out." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 56); the in-battery boundary marker: "END OF CHEMISTRY ONLY" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 56).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-068 — Purity and separation follow-ups run from diagnosis to method selection to creative transfer
+
+**Claim:** The early-course follow-ups rehearse a complete diagnostic arc on one idea: purity is diagnosed from melting behaviour (two white powders, one melting at a fixed point, one across a range), separation is then selected per mixture from a menu of methods, and finally the same skill is transferred to a deliberately whimsical problem — recovering diamonds hidden in labelled sugar — which forces the student to re-derive the method rather than recall a page. The learning objectives anchor the arc: the fixed-point purity criterion is printed as an understanding objective, so the tutor can trace every follow-up back to its statement of record.
+**Evidence:** the diagnosis: "Substance X melts at 122 °C and substance Y melts between 87and93 °C. Explain which one is the pure substance." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 83); the anchored objective: "Understand that a pure substance has a fixed melting and boiling point, but that a mixture may melt or boil over a range of temperatures" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 62); the method menu: "State which separation method you would use to carry out the following separations:" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 83); the transfer problem: "Describe how you would separate all the diamonds from the sugar." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 83).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-069 — The batteries demand trend-based prediction and accept mechanistic plurality in the answers
+
+**Claim:** Two follow-up families extend the pattern drills beyond recall. Prediction items hand the student a trend and an unseen case: Group 1 knowledge must forecast properties of alkali metals beyond those taught, and the alkane general formula must forecast undecane's physical state at room temperature before any combustion equations are written. The cracking follow-up then discloses the answer's own plurality — the molecule might have split quite differently, and many other ways exist — so the tutor can honestly mark a family of acceptable equations rather than one canonical split. Prediction trains forward inference; plurality disclosure trains tolerance of alternative correct mechanisms.
+**Evidence:** the trend-transfer demand: "Use knowledge of trends in Group 1 to predict the properties of other alkali metals" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 407); the unseen-case prediction: "iiWhat physical state (solid, liquid or gas) would you expect undecane to be in at room temperature (25 °C)?" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 954); the plurality disclosure: "The molecule might have split quite differently. All sorts of reactions are happening in a catalytic cracker." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 935).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus — chapter 1, 3, 5, 6
@@ -191,4 +208,4 @@ written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-067..TUT-069), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

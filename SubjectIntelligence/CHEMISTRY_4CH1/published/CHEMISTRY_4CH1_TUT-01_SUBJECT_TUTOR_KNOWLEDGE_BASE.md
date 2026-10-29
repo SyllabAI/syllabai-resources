@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-01 — Subject Tutor Knowledge Base
@@ -179,6 +179,23 @@ structure (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl
 line 8).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### TUT-061 — The book polices formula notation and the implied-charge convention a tutor must enforce
+
+**Claim:** The book's KEY POINT apparatus does not just present formulas — it polices how they are written and read. Brackets are taught as a misreading-prevention device with a worked counter-example showing exactly how a bracketless formula miscounts atoms, and the implied-charge convention is stated as a rule with its exception valve: charges may be written when a point requires it, but they are present whether written or not. A tutor grading formula writing is therefore enforcing the book's own two-part convention, not a private preference.
+**Evidence:** the bracket rule is taught with its failure mode: "If you didn't write the brackets, the formula would look like this: BaNO32. That would read as 1 barium, 1 nitrogen and 32 oxygens!" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 285); the charge convention is stated with its exception valve: "It is sometimes written Na+Cl- if you are trying to make a particular point, but for most purposes the charges are left out. In an ionic compound, the charges are there, whether you write them or not." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 289).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-062 — Stability is taught as an energy ladder with the book's own everyday anchor
+
+**Claim:** The book gives the tutor a complete explanatory model for stability before energetics is ever formalised: lower energy means more stable, reactions happen so that substances become more stable, and bond formation releases energy because the product sits lower on that ladder. The model is anchored to a deliberately everyday image — a dropped book falling to the floor — so the tutor can re-ground any abstract stability argument in the book's own analogy. The energetics chapter then re-uses the same ladder at reaction grain: stability names the relative energies of reactants and products, and the more energy a chemical has the less stable it is.
+**Evidence:** the bonding chapter states the ladder: "Generally, the lower the energy something has, the more stable it is. Chemical reactions usually occur so that something becomes more stable." and anchors it: "Think about holding a book: if you let go of the book, it will fall to the floor, where it has less (potential) energy, therefore it becomes more stable. When bonds form energy is given out and so the substance formed has less energy, therefore it is more stable." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 309); the energetics chapter re-states it at reaction grain: "The term stability is usually used to describe the relative energies of the reactants and the products in a chemical reaction. The more energy a chemical has, the less stable it is." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 719).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-063 — The book grades its own graphs and calorimetry compromises: method-law a tutor can mark against
+
+**Claim:** Two pieces of method-law are printed in the book's own voice and give the tutor grading criteria that are not examiner-invented. First, a drawing rule: smooth curves are reserved for continuous independent variables, and discrete variables — carbon atoms come only in whole numbers — must be plotted as points, with the book ridiculing the 1.64-carbon alcohol to make the violation visible. Second, a compromise rule: the calorimetry heating-time choice has no ideal answer, because a larger temperature rise magnifies heat losses while a smaller one magnifies reading errors — so the tutor teaches a managed trade-off, not a correct answer. The quantitative chain underneath is likewise defined in-book, specific heat capacity per gram per degree with water's 4.18 J/g/°C as the standing value.
+**Evidence:** the drawing rule: "A smooth curve should only be used for a continuous independent variable, one which can take any value. There is no such thing as an alcohol with 0.5 or 1.64 carbon atoms! The number of carbon atoms is a non-continuous variable because it can only take whole number values." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 739); the compromise rule: "There's no ideal answer to this. The higher the temperature the water reaches, the greater the heat losses during the experiment. On the other hand, if you just increase the temperature of the water by a small amount, errors in reading the thermometer or in finding the mass change of the alcohol become too significant." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 731); the quantitative chain: "The specific heat capacity of a substance is defined as the amount of heat needed to raise the temperature of 1 gram of a substance by 1 °C." and "For water, the value is 4.18 J/g/°C (joules per gram per degree Celsius)." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 728).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus of the student book of
@@ -206,4 +223,4 @@ this pack. No canonical planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-061..TUT-063), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

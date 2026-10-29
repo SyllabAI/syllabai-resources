@@ -1,0 +1,30 @@
+{
+  "schema": "sib-gate-resolution/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-021",
+  "gate": "SB1 publisher-eBook upgrade gate (RUN-011 register line; honored by D3 tranche ordering T1-T4)",
+  "operator_ruling": {
+    "trace": "1a188a28859dc5c9",
+    "verbatim": "Option 1. And i dont have ebook",
+    "reading": "the operator selects the OCR-basis path for the TUT deep pass (T5) and rules the publisher-eBook acquisition path UNAVAILABLE (operator holds no eBook); the operator-side question of record ('Why do we need ebook? We already have the book parsed, cant we use that?') is answered by this resolution: YES \u2014 the parsed book is the text of record, the eBook was only ever an optional native-text upgrade (SubjectIntelligence/WORKLOG.md pass-3 blocker lift: 'The Pearson eBook purchase decision remains open ONLY for the TUT/pass-8 native-text upgrade lane')",
+    "disposition": "GATE RESOLVED BY OPERATOR RULING \u2014 T5 (TUT) proceeds on the OCR-basis text of record; the eBook upgrade lane is closed for D3 (operator holds no eBook) and remains available operator-side only for any future pass beyond D3 that wants publisher-native text"
+  },
+  "ocr_basis_of_record": {
+    "source_id": "SRC-BOOK-4CH1-SB1",
+    "file": "books/pearson-edexcel/international-gcse/chemistry/4ch1/parsed/edexcel_igcse_chemistry_chunks_v3.jsonl",
+    "sha256_of_record": "b2c67eaf (per WORKLOG pass-3 blocker lift + source_manifest v1.2.3)",
+    "corpus": "1,234 chunks, books-plane v3 OCR parse, audit GREEN 2026-10-18",
+    "pins_verified_at_tip": [
+      {
+        "path": "edexcel_igcse_chemistry_chunks_v3.jsonl",
+        "pin_sha256": "b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33",
+        "tip_identical": true
+      }
+    ]
+  },
+  "residual_risk_disclosure": "OCR-vs-print fidelity: the OCR parse may deviate from the printed book in chemical notation (subscripts/superscripts such as H2SO4/Fe3+, arrows and equilibrium glyphs, degree signs, table/figure structure). Confinement: every new-record quote binds VERBATIM to the OCR text of record under the r1 author law (pre-composition self-check) and the r3 official gate \u2014 the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself differing from the printed page, which the operator accepts by this ruling. Mitigation posture: quotes render exactly what the record's own cited source holds, so any future native-text upgrade can re-bind by a mechanical diff.",
+  "scope": {
+    "TUT (T5)": "PROCEEDS on the OCR basis (this run)",
+    "EXP": "confirm-clean at D3 depth \u2014 no deep pass required, gate never exercised",
+    "GAP (T6)": "no gate \u2014 unaffected, remains the last D3 tranche"
+  }
+}

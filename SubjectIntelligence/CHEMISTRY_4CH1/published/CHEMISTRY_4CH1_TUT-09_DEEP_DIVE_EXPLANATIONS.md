@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-09
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-09 — Deep-Dive Explanations
@@ -172,6 +172,23 @@ of ammonia." (SRC-TL-4CH1,
 teaching-and-learning-materials/Chemical-equilibrium---FINAL.pdf p7). Temporal
 scope: CURRENT — AUTHORITATIVE.
 
+### TUT-085 — The conduction deep-dive splits the circuit into two carriers and derives the electrode names from the split
+
+**Claim:** The electrolysis deep-dive rests on one structural sentence: electrons flow in the external circuit but ions flow in the electrolyte — two charge carriers exchanging charge at the electrode surfaces. From that split the chapter derives the naming system rather than asserting it: cations are the ions attracted to the cathode, anions those attracted to the anode, and the mnemonic kit (PANiC) exists only to stabilise the electrode polarities that make the derivation bite. The two invariants a tutor can then state without qualification are that reduction always occurs at the cathode and oxidation always occurs at the anode, and that a molten two-element ionic compound yields its metal at the cathode and its non-metal at the anode.
+**Evidence:** the carrier split: "Electrons flow in the external circuit but ions flow in the electrolyte." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 365); the polarity mnemonic: "Remember PANiC: positive anode, negative (is) cathode." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 356); the derived names and invariants: "You can probably see now that positive ions are known as cations because they are attracted to the cathode (negative electrode). Negative ions are known as anions because they are attracted to the anode (positive electrode)." and "Reduction always occurs at the cathode and oxidation always occurs at the anode." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 370).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-086 — The deep-dive explains why aqueous products differ from molten products — and names the compound that cannot even be melted
+
+**Claim:** The chapter prices the molten-versus-aqueous difference with a mechanism, not a rule: reactivity is ion-formation tendency, so the more reactive an element the harder its ion is to discharge — which is exactly why hydrogen, not sodium, comes off concentrated brine. The selective discharge then feeds back on the water equilibrium itself: once the hydrogen ions are removed as gas they cannot reform water, and the ionisation becomes a one-way process. The molten route has its own boundary case the tutor can quote verbatim: some compounds decompose before melting, and copper(II) carbonate — breaking to oxide and carbon dioxide on gentle heating — is impossible to melt, so molten electrolysis is simply unavailable for it.
+**Evidence:** the selectivity mechanism: "The more reactive something is, the greater tendency it has to form an ion. This means that the more reactive something is, the more difficult it is to turn it back into an atom." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 375); the one-way feedback: "Because the hydrogen ions are discharged (removed from the solution as hydrogen gas), they can no longer react with the hydroxide ions and reform water. The ionisation of the water becomes a one-way process." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 375); the boundary case: "When aqueous solutions are electrolysed the products are not always the same as when molten salts are electrolysed." and "Some break up into simpler substances before their melting point. For example, copper(Il) carbonate breaks into copper(Il) oxide and carbon dioxide, even on gentle heating. It is impossible to melt it." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 372).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-087 — The competition and volume-ratio deep-dives show theory meeting its own experimental corrections
+
+**Claim:** Two deep-dives model honest confrontation between the ideal account and the observed one. At the anode of brine, the hydroxide ion is marginally easier to oxidise than the chloride ion — yet chloride dominates because there are so many more of its ions present, a concentration-beats-incentive result the book states without embarrassment, and the chapter then balances the ledger by tracking which ions remain: sodium and hydroxide, so the solution ends as sodium hydroxide. The water electrolysis ratio shows the same honesty: the half-equations fix hydrogen at twice the oxygen's volume, the experiment returns more than double, and the discrepancy is assigned to oxygen's higher solubility — with the pre-saturation run that repairs the measurement. The tutor inherits explanation-plus-fix as one move.
+**Evidence:** the competition: "It is slightly easier to remove electrons from (oxidise) the hydroxide ion than from the chloride ion, but there isn't much difference. There are, however, many, many more chloride ions present in the solution, and so it is mainly these that are oxidised at the anode:" with the endgame: "Cl- and H⁺ ions were removed from the solution by being discharged at the electrodes, so we are left with Na+ and OH-, sodium hydroxide solution." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 380); the ratio and its fix: "Twice as much hydrogen is produced as oxygen." and "Actually, when we do this experiment the amount of hydrogen we obtain is more than twice as much as the oxygen. This is because oxygen is more soluble in water than hydrogen." with the repair: "What we sometimes do to stop this happening is to carry out the electrolysis experiment for a few minutes first in order to saturate the water with oxygen and then start to collect the gases; this gives much better results." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 384).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus — the electrolysis
@@ -198,4 +215,4 @@ planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-085..TUT-087), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

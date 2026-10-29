@@ -965,3 +965,63 @@ specification governs — this run is RUN-020, tranche 4 of the RUN-017 plan of 
   advance_commits, pack_carry, source_pin_state, census_pre, census, stamp_receipt,
   evidence_claim_qa_report, lifecycle_receipt, post_lifecycle_scoreboard, run_manifest,
   staged/, bodies/, evidence/).
+
+---
+
+## RUN-021 — D3 REQUIRED-core depth pass, tranche 5: TUT (2026-10-30; operator traces 1a1838d0413b6fbd D3, 1a188a28859dc5c9 gate resolution "Option 1. And i dont have ebook")
+
+- GATE RESOLUTION OF RECORD: the RUN-011 SB1 publisher-eBook upgrade gate (honored by tranche
+  ordering T1-T4) is RESOLVED BY OPERATOR RULING (trace 1a188a28859dc5c9): the operator holds no
+  eBook and rules the OCR-basis path (Option 1) — "Why do we need ebook? We already have the book
+  parsed, cant we use that?" answered YES of record: the books-plane v3 OCR parse IS the text of
+  record (SRC-BOOK-4CH1-SB1, chunks_v3.jsonl sha b2c67eaf, 1,234 chunks, audit GREEN 2026-10-18,
+  pin byte-identical at the run tip), the eBook was only ever the optional native-text upgrade
+  lane. T5 ran on that basis with the OCR-fidelity residual risk disclosed
+  (runs/SIB-CHEMISTRY_4CH1-RUN-021/gate_resolution_sb1_ebook.json: quotes bind VERBATIM to the
+  OCR text of record so the citation chain cannot fabricate notation; the residual risk is
+  confined to the OCR text itself differing from the printed page — accepted by the ruling; any
+  future native-text upgrade can re-bind by mechanical diff). EXP stays confirm-clean (the gate
+  is never exercised); the eBook acquisition lane remains open operator-side only beyond D3.
+- CENSUS of record (pre-run): TUT = 10 artifacts / 12,490 words / 60 records (TUT-001..060,
+  contiguous); the thinnest remaining REQUIRED family after T1-T4. Packs of record carried
+  byte-identical from their origin run RUN-008 (pack_carry.json, per-file sha256 asserted);
+  zero windows appended, caps untouched; 15/15 distinct pinned paths verified (8 resources
+  byte-identical at tip; 7 pastpapers ER paths byte-identical at the LIVE tip bc4740884 — the
+  repo advanced f39fc0fd -> bc4740884 mid-lane and the pins held at the new tip, verified via
+  the contents API; 0 blob-oid drift across the 7765e43f -> 7352d2ea resources advance).
+- T5 EXECUTION (all 10 REQUIRED TUT artifacts, +30 records TUT-061..090, family-unique block
+  above TUT-060): every record authored ONLY from read pack excerpts (unmined-window selection:
+  per-artifact cited-locator census first — 339/431 excerpts unmined pre-run; TUT-07's unmined
+  surface was exhausted and its +3 authored from held windows per the zero-append law with
+  fresh claims); quotes pre-bound under the markup-transparent self-check — 102 quotes, ALL
+  grounded pre-composition; existing records byte-identical (builder-verified). Themes:
+  notation law (brackets, implied charges, coefficient-vs-subscript minimal pair),
+  stability-energy ladder, method-law (smooth curves, calorimetry compromise, show-working
+  floor), accepted-variant equivalence classes, error-anticipation + sanity-envelope hints,
+  catalyst phrasing law, name-confusion repairs, the topic guide's public self-correction,
+  particulate marking chains, examiner misapprehension autopsies, same-reaction-different-rate
+  frames, two-carrier conduction deep-dives, discharge selectivity, theory-vs-observation
+  confrontations with experimental fixes, explain-grammar, anomaly discipline, graph-language
+  ladders.
+- GATES: r3 evidence-claim QA on deployed bodies BEFORE receipts = 169 citations / 0 violations
+  across 10 artifacts; validator qa 0 errors / 0 warnings x10 content-bound; stage x10
+  (SIB-ING-002) -> publish x10 (QA re-verified) -> chunks x10; library-wide receipt
+  verification 95/95 at 0 errors / 0 warnings via a temp GENERATED-status view (F4b-disclosed
+  seam: published files cannot re-enter the qa seat in place; content byte-identical, only the
+  status line flipped in the view); run_manifest add-artifact x10 (8 gates each incl.
+  gate_resolution) + validate OK; post-lifecycle validate-manifest = the byte-exact
+  F4a-disclosed red state ({SIB-MANI-007: 88, SIB-MANI-011: 4, SIB-MANI-012: 7}; landing
+  zones empty by design) — OBSERVED + DISCLOSED, never worked around.
+- HONEST DEPTH OUTCOME (census_post.json): TUT median ~1,224 -> ~1,965 words (+61%); tranche
+  totals 12,490 -> 20,145 words (+7,655); REQUIRED-core ~136,629 -> ~144,284 words; library
+  records 709 -> 739. Final numbers of record in runs/SIB-CHEMISTRY_4CH1-RUN-021/census_post.json
+  (published-file shas).
+- D3 STATUS: stays REGISTERED — tranche T6 (GAP, 8 artifacts, no gate) is the last tranche;
+  MIS/CUR/EXP confirm-clean re-gating only. Register beyond D3 unchanged: D6 (single-pipeline
+  self-attestation structural limit), F4 (upstream validator fix, master repo tools/sib lane),
+  and the independent silver-tier ER review before production reliance.
+- Library-side dual record: SubjectIntelligence/WORKLOG.md RUN-021 entry (this); repo run
+  record runs/SIB-CHEMISTRY_4CH1-RUN-021/ complete (plan_of_record, advance_disclosure,
+  advance_commits, gate_resolution_sb1_ebook, pack_carry, source_pin_state, unmined_census,
+  census (gate-time), census_post, quote_selfcheck_tut, evidence_claim_qa_report,
+  lifecycle_receipt, post_lifecycle_scoreboard, run_manifest, bodies/, evidence/, staged/).

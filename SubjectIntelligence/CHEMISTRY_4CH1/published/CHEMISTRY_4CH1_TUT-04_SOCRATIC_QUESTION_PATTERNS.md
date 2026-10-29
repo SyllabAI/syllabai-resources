@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-04 — Socratic Question Patterns
@@ -160,6 +160,23 @@ to obtain a precipitate." (SRC-BOOK-4CH1-SB1,
 parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 682). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### TUT-070 — The guide's acid-metal why-questions make the anomaly itself the opening move
+
+**Claim:** The core-practicals guide's acid-metal page questions the class on what should not have happened: aluminium starts slowly and then speeds up, and calcium stops reacting while both reactants remain. Each prompt is printed as a bare why-question attached to the surprising observation, so the socratic move is built into the document — the tutor need not invent the puzzle, only withhold the resolution until the class produces collision-based accounts (the oxide layer that must be breached, the sulfate crust that seals the surface). The page frames these as questions that focus students on the important aspects of the practical, which is exactly the socratic contract: fewer, sharper questions aimed at the procedure's hidden chemistry.
+**Evidence:** the framing: "Questions you could ask to enhance learning and focus your students on important aspects of the practical:" followed by the anomaly pair: "Why does the reaction between aluminium and dilute hydrochloric acid start off very slowly but then increase in rate after a while?" and "Why does the reaction between calcium and sulfuric acid stop after a while, even though neither the metal nor the acid has fully reacted?" (SRC-TL-4CH1, biology-chemistry-physics-core-practical-guide.pdf p99).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-071 — The electrolysis battery runs a socratic ladder from observation to principle, with the scaffold deliberately faded
+
+**Claim:** The electrolysis unit battery builds its hardest item as a graduated dialogue: first the phenomenon (a bulb lighting only at melting, purple fumes at the positive electrode, lilac flashes at the negative), then the why-question that targets the principle beneath the observation, then the identification and half-equation demands that formalise it. The preceding half-equation drill fades its own support — electrons are supplied for the first four items only — so the student must supply the scaffold unaided as the ladder climbs. This is socratic sequencing at question-battery grain: the book engineers the same withhold-then-formalise progression a tutor conducts orally.
+**Evidence:** the staged phenomenon: "As soon as the potassium iodide was molten, the bulb came on. Purple fumes were seen coming from the positive electrode, and lilac flashes were seen around the negative one." with the principle probe: "Explain why the bulb didn't come on until the potassium iodide melted." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 393); the scaffold fade: "state whether each involves oxidation or reduction. Electrons have been put in for the first four but not for the ones after that." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 393).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-072 — The teacher-facing topic guide turns socratic questioning on the teaching tool itself
+
+**Claim:** The equilibrium topic guide opens by questioning the profession's own canonical shortcut: it cites the published argument that Le Châtelier's principle is counterproductive to understanding, notes the principle survives in specifications worldwide regardless, and states plainly that it is not required for teaching this specification yet students invoke it in answers. The guide then prices the shortcut with evidence — a test of 109 chemistry teachers in which only one understood the counter-intuitive outcome — so the tutor is left holding a documented reason to question the principle they were themselves taught. Socratic doubt is thereby aimed at the teacher's own toolkit, not just the student's.
+**Evidence:** the opening citation: "In 1984 R.T. Allsop and N.H. George wrote an article, published in Education in Chemistry, entitled 'Le Châtelier – A Redundant Principle?' in which they argued that the use of the principle was counterproductive to the understanding of chemical equilibrium." and the status finding: "Although Le Châtelier's Principle is not required for teaching the International GCSE Chemistry specification, a number of students refer to it in answers." (SRC-TL-4CH1, Chemical-equilibrium---FINAL.pdf p2); the evidence of teacher vulnerability: "One problem with Le Châtelier's Principle is that it fails to predict the outcome of changes to conditions in a number of cases, particularly reactions involving gases where a change in temperature will lead to a change in pressure in a closed system." (SRC-TL-4CH1, Chemical-equilibrium---FINAL.pdf p2).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (the issuing body's core-practical guide —
@@ -186,4 +203,4 @@ catalogued in TUT-02. No canonical planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-070..TUT-072), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

@@ -1,0 +1,221 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-021",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+    "syllabai_resources": "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2",
+    "syllabai_pastpapers": "bc4740884"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "TUT-01",
+      "filename": "CHEMISTRY_4CH1_TUT-01_SUBJECT_TUTOR_KNOWLEDGE_BASE.md",
+      "evidence_pack": "evidence/TUT-01/evidence_pack.json",
+      "evidence_pack_sha256": "0bdc3dc77381e911e2d99f5d01801bf58f1a27f87f824aa366a1cadbe2d1d064",
+      "artifact_sha256": "6e0ad38548052798385f8639e9c2bcd0d5ede6dd0c0c14b8fe779ae06e6661af",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-061..TUT-063, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 9 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:20 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-01.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-01.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-01.qa.json"
+    },
+    {
+      "artifact_id": "TUT-02",
+      "filename": "CHEMISTRY_4CH1_TUT-02_COMMON_STUDENT_QUESTIONS.md",
+      "evidence_pack": "evidence/TUT-02/evidence_pack.json",
+      "evidence_pack_sha256": "64d5753b79dc66cdea517550e3690d79e59fa1eb3fe04d95b996020bbe9386b6",
+      "artifact_sha256": "60ef1f2a8fe32fdb4bcd15c34b5b4307eacb565f28bb8d6bb762539b7013aeaa",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-064..TUT-066, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 11 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:14 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-02.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-02.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-02.qa.json"
+    },
+    {
+      "artifact_id": "TUT-03",
+      "filename": "CHEMISTRY_4CH1_TUT-03_FOLLOW_UP_QUESTION_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-03/evidence_pack.json",
+      "evidence_pack_sha256": "b808e3603ae875b878dcb8c3ea2fa18baa033f3dee51f8f08c8e7c77fffa9146",
+      "artifact_sha256": "ae4c9f81f714824d134e0d29a9e0dfb34f444e4fc20e31288f923aa081e127bf",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-067..TUT-069, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 10 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:17 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-03.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-03.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-03.qa.json"
+    },
+    {
+      "artifact_id": "TUT-04",
+      "filename": "CHEMISTRY_4CH1_TUT-04_SOCRATIC_QUESTION_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-04/evidence_pack.json",
+      "evidence_pack_sha256": "8f33e5dbc960cf1cbe38ed8c2b29ede29b3f77c105e22ad880284a6f1c197ca5",
+      "artifact_sha256": "13fd1a6108c2338b6cea8d14f178e8d059af76b010bb53593f41263fd0059e35",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-070..TUT-072, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 9 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:12 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-04.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-04.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-04.qa.json"
+    },
+    {
+      "artifact_id": "TUT-05",
+      "filename": "CHEMISTRY_4CH1_TUT-05_HINT_STRATEGIES.md",
+      "evidence_pack": "evidence/TUT-05/evidence_pack.json",
+      "evidence_pack_sha256": "f5bb61f8996d10c1c40078577450a0f324c113791164b8f4c53bec3e31bc5505",
+      "artifact_sha256": "12f5a6f545a079144a2ef5a072d6e9f5b7abeb247f52e403f950a50b040f04db",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-073..TUT-075, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 10 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:18 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-05.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-05.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-05.qa.json"
+    },
+    {
+      "artifact_id": "TUT-06",
+      "filename": "CHEMISTRY_4CH1_TUT-06_MISCONCEPTION_RESPONSE_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-06/evidence_pack.json",
+      "evidence_pack_sha256": "bfb81de292f98b50711028793c89713a5834a9942c6d9d27da943e65be5353d6",
+      "artifact_sha256": "33fe9bb33002f39ee0396d0f9154e8dbcb9df49e51b5c721cfe4a68653477392",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-076..TUT-078, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 9 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:16 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-06.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-06.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-06.qa.json"
+    },
+    {
+      "artifact_id": "TUT-07",
+      "filename": "CHEMISTRY_4CH1_TUT-07_EXAM_FEEDBACK_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-07/evidence_pack.json",
+      "evidence_pack_sha256": "7ed9d87966a54d154487c4c9d8759ffb2a203807f7dc574745b6f50c6cbc026a",
+      "artifact_sha256": "09127e488e727bb766a7c6aee1449531d08f95c5d64a02ee75a1decb7dd8b891",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-079..TUT-081, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 9 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:18 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-07.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-07.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-07.qa.json"
+    },
+    {
+      "artifact_id": "TUT-08",
+      "filename": "CHEMISTRY_4CH1_TUT-08_CONCEPT_COMPARISON_GUIDES.md",
+      "evidence_pack": "evidence/TUT-08/evidence_pack.json",
+      "evidence_pack_sha256": "eb7354b27cc6a39badd7999a075e6c5eb76549534b2546585ab3a5ccaa4be626",
+      "artifact_sha256": "581c21c88d63bf98d0359a13d8e9c8a4a57577434c03901e440402d54eb00e41",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-082..TUT-084, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 12 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:16 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-08.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-08.chunks.jsonl); landing zone empty by design post-transition; version 1.2 -> 1.3": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-08.qa.json"
+    },
+    {
+      "artifact_id": "TUT-09",
+      "filename": "CHEMISTRY_4CH1_TUT-09_DEEP_DIVE_EXPLANATIONS.md",
+      "evidence_pack": "evidence/TUT-09/evidence_pack.json",
+      "evidence_pack_sha256": "ab528dddc02ba1cad920fce4a56265385208589c497c5463297675f75463b8e8",
+      "artifact_sha256": "982474bac7a60330a2a22e90ea9d1114dfaf03156e14a1938364f343fd5fc7d5",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-085..TUT-087, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 13 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:18 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-09.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-09.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-09.qa.json"
+    },
+    {
+      "artifact_id": "TUT-10",
+      "filename": "CHEMISTRY_4CH1_TUT-10_SUBJECT_SPECIFIC_TUTOR_GUIDANCE.md",
+      "evidence_pack": "evidence/TUT-10/evidence_pack.json",
+      "evidence_pack_sha256": "b6d44f71c0910ab14926aa517d2220bdddf5637b36e1589457c777b0e5282d94",
+      "artifact_sha256": "3b46c360f68f429eff4bd90b7595b453c291bebd7c12bc8f0f918107636ef0e8",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-008 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 7352d2ea (tip), syllabai_pastpapers bc4740884 (live tip; repo advanced f39fc0fd -> bc4740884 mid-lane and all 7 pinned ER paths verified byte-identical AT the new tip via the contents API; 15/15 distinct pinned paths verified, 0 drift across the advance)": "",
+        "gate_resolution -> PASS:SB1 publisher-eBook upgrade gate (RUN-011 register line) RESOLVED BY OPERATOR RULING trace 1a188a28859dc5c9 ('Option 1. And i dont have ebook'): the operator holds no eBook; T5 proceeds on the OCR-basis text of record SRC-BOOK-4CH1-SB1 (chunks_v3.jsonl, sha b2c67eaf, 1,234 chunks, audit GREEN, pin byte-identical at tip) with the OCR-fidelity residual risk disclosed in gate_resolution_sb1_ebook.json (quotes bind verbatim to the OCR text of record, so the citation chain cannot fabricate notation; the residual risk is confined to the OCR text itself, accepted by the ruling)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 339/431 excerpts unmined pre-run — and TUT-07 authored from its held surface per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (TUT-088..TUT-090, family-unique block TUT-061..090) authored only from read excerpts of the carried pack; every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_tut.json — markup-transparent check stricter than the r3 gate: 10 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:20 citations / 0 violations on the authored body (gate BEFORE receipts; 169 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/TUT-10.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (TUT-10.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 7765e43f (the RUN-020 merge, PR #217) -> tip 7352d2ea ": " 3 foreign commits (F117 converter + repair lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 7765e43f proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/TUT-10.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}
