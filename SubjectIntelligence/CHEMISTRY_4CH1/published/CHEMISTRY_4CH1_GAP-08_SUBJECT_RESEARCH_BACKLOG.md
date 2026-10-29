@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-08
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-08 — Subject Research Backlog
@@ -183,6 +183,23 @@ maths-demand and topic-guide surfaces of record (SRC-TL-4CH1,
 maths-for-scientists.pdf p55) stand as the model for what acquisition would
 add. Temporal scope: CURRENT — AUTHORITATIVE.
 
+### GAP-070 — Backlog: legacy-to-current nomenclature research seeded by the book's naming hooks
+
+**Claim:** The book's hook surface flags four naming facts that await systematic pairing with current nomenclature: quicklime and slaked lime chain, the commercial vol concentration scale for hydrogen peroxide, the acetic-to-ethanoic transition, and the lactic acid page's own preference for the systematic name 2-hydroxypropanoic acid; the research task is a legacy-to-current nomenclature ledger that binds every historical or commercial name the book prints to its IUPAC successor, so tutor-facing materials never resurrect a deprecated name unmarked.
+**Evidence:** the naming hooks of record: "Calcium oxide is known as quicklime. Adding water to it is described as slaking it." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 714); "'vol', meaning volume, is a measurement for concentration for hydrogen peroxide." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 813); "The old name for ethanoic acid was acetic acid." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 982); "Lactic acid, more properly known as 2-hydroxypropanoic acid (CH3CHOHCOOH), has both an alcohol and a carboxylic acid group in the same molecule so it can polymerise with itself (self-polymerise)." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1051).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-071 — Backlog: cross-discipline application hooks — toxicology, consumer products, commodity economics — await pairing with examiner feedback
+
+**Claim:** The hook surface reaches beyond the chemistry specification into application territory: carbon monoxide's haemoglobin binding is toxicology, the nail-polish solvent use of ethyl ethanoate is consumer-product chemistry, and the metal-price hook ties extraction difficulty to commodity economics; the research task is to pair each application hook with examiner feedback as sessions accumulate, to test whether cross-discipline context is ever assessed — a mapping that cannot be assumed and is not performable from the packs alone.
+**Evidence:** the application hooks of record: "Carbon monoxide combines with haemoglobin (the molecule that carries oxygen in the red blood cells), preventing it from carrying the oxygen." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 926); "It can be used as a solvent in nail polish and nail polish remover." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1012); "The price of a metal is affected by how common the ore is and how difficult it is to extract the metal from the ore." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 550).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-072 — Backlog: history-and-nature-of-science hooks await bounding against the assessable statement surface
+
+**Claim:** The hook surface documents how the science was organized and how it is known: the alkali metals were grouped by property before electrons were known, and a single experiment is offered as the way to show the formula of water is H2O, with a definitional gloss on intermolecular wording alongside; the research task is to bound how much epistemology and history the assessable statements actually price, by pairing each such hook with the specification's statement list and with examiner feedback — so tutor materials can distinguish assessable models from background narrative.
+**Evidence:** the history hook — "Historically alkali metals were put in the same group because of similarities in properties, before anyone knew anything about electrons!" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 412); the epistemology hook — "This experiment could be used to show that the formula of water is H2O." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 382); the language gloss — "Intermolecular literally means between molecules." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 323).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (the Issue 3 change summary, p3, and the
@@ -206,4 +223,4 @@ hook surface is sampled at two chunks of sixteen; the rest are unsampled.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-070..GAP-072), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-01 — Curriculum Coverage Gaps
@@ -205,6 +205,23 @@ that would pair with specification sub-topic (a) are visible of record
 while sub-topics (b)–(g) statement pages are absent from the pack and stay
 disclosed. Temporal scope: CURRENT — AUTHORITATIVE.
 
+### GAP-049 — The statement-level detail for Topic 1 sub-topics (h) and (i) enters the pack as a complete C-suffixed block, completing the correspondence where GAP-001 disclosed pages 18-20 as unverified
+
+**Claim:** The specification page of record for Topic 1 sub-topics (h) Metallic bonding and (i) Electrolysis carries the full C-suffixed statement block, from 1.52C through the 1.60C practical, and the book flags both corresponding chapters CHEMISTRY ONLY at course-structure level, so the chemistry-only correspondence for these two sub-topics is verifiable at statement level rather than disclosed as unverified; the statement pages for sub-topics (b)-(g) remain outside the pack and stay disclosed.
+**Evidence:** the specification block opens with metallic bonding — "1.52C know how to represent a metallic lattice by a 2-D diagram", "1.55C understand why covalent compounds do not conduct electricity" — and closes on the practical — "1.60C practical: investigate the electrolysis of aqueous solutions" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p21); the book flags both chapters of record — "9 | METALLIC BONDING | CHEMISTRY ONLY" and "10 ELECTROLYSIS | CHEMISTRY ONLY" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 9).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-050 — The chemistry-only signal rides at the objective grain inside the Chapter 1 learning-objectives block, not only on chapter rows and body chunks
+
+**Claim:** The Chapter 1 learning-objectives block interrupts its shared objectives with an inline CHEMISTRY ONLY banner placed immediately before the solubility objective, so the tier dimension is carried at the objective grain itself; a curriculum map built from the objectives nodes therefore inherits the chemistry-only split without external metadata, matching the specification's C-suffix grain where the pack permits comparison.
+**Evidence:** the objectives block reads "CHEMISTRY ONLY" directly before "Know what is meant by the term solubility in the units g per 100 g of solvent." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 21); the specification prices the same objective as a C-suffix statement — "1.5C know what is meant by the term solubility in the units g per 100 g of solvent" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p17).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-051 — The book side of the formula-of-a-metal-oxide practical is complete of record — both routes, full procedures — while the specification statement that prices it sits on pages outside the pack
+
+**Claim:** The Chapter 5 learning objectives carry the formula-determination practical with both routes named, combustion and reduction, and the pack exhibits both procedures as full practical pages with their error sources; the specification statement that prices this practical belongs to sub-topic (c) and is printed on pages 18-20, which are outside this pack, so the statement-to-practical correspondence is disclosed as inferred, not verified — a concrete book-side complete surface against the same boundary GAP-001 and GAP-006 disclose.
+**Evidence:** the objectives bullet names both routes — "Practical: Know how to determine the formula of a metal oxide by combustion (e.g. magnesium oxide) or by reduction (e.g. copper(Il) oxide)" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 135); the combustion procedure is exhibited with its lid discipline — "A lid is placed on the crucible to prevent the white powder (magnesium oxide) escaping but the lid must be lifted every few seconds to allow oxygen into the crucible to react with the magnesium." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 176); the reduction route opens "We can also find the formula of an oxide by removing the oxygen from it and looking at how the mass changes." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 185).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (the current specification's four topic pages —
@@ -231,4 +248,4 @@ quoted surface, and is not claimed here.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-049..GAP-051), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

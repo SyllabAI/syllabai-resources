@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-04 — Misconception Coverage Gaps
@@ -198,6 +198,23 @@ page (SRC-TL-4CH1, Chemical-bonding---FINAL.pdf p4;
 Chemical-equilibrium---FINAL.pdf p4). Temporal scope: CURRENT —
 AUTHORITATIVE.
 
+### GAP-058 — The book's own answer key is a misconception surface: it documents the coefficient-vs-whole-entity multiplication errors inline
+
+**Claim:** The end-of-book answer pages document two calculation misconceptions in the students' own expected terms — forgetting to multiply the whole water-of-crystallisation molecule by the leading coefficient, and multiplying by the mass of 2FeBr3 instead of FeBr3 — a coefficient-vs-whole-entity error class documented nowhere else in this artifact's windows; the answer key therefore acts as a misconception register, not just a score surface, and extends the book's warning apparatus beyond the hint-chunks cited at GAP-022.
+**Evidence:** the Chapter 5 answer warns "The common mistake would be not to multiply the whole water molecule by 10. So the mass of the 10H2O is 180. Students will commonly and wrongly come up with 36 for this by multiplying the H2 by 10 but not the O as well." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1143); the later answer repeats the class — "A common mistake here is to multiply the number of moles of FeBr3 by the mass of 2FeBr3." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1154).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-059 — The specification prints its own scope fences in-line on the organic page: a six-carbon naming ceiling and an explicit mechanisms-not-required rule
+
+**Claim:** The Topic 4 page carries two boundary notes inside the statement list itself — students will be expected to name compounds containing up to six carbon atoms, and knowledge of reaction mechanisms is not required — so the specification walls off mechanism-level explanations by print; over-reaching beyond the fence is effort outside the assessed surface rather than a misconception to unlearn, and the fences are documented at their own statement coordinates rather than in a separate guidance document.
+**Evidence:** the Topic 4 page prints the ceiling under statement 4.4 — "students will be expected to name compounds containing up to six carbon atoms" — and the fence under statement 4.6 — "knowledge of reaction mechanisms is not required" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p29).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-060 — Presentation-format demands — diagram conventions and answer layout — form a documented class adjacent to misconceptions: right content, wrong form
+
+**Claim:** The book's covalent-bonding page polices diagram form in exam terms — inner electrons may be omitted only when the question says so, and a bond-lines sketch is explicitly not a dot-and-cross diagram — while the examiner-report window of record coaches answer layout — bullet points or a numbered list to show a method clearly — so both surfaces document format demands that cost marks independently of chemical content; the class sits adjacent to the wording-precision class of GAP-023 but is distinct: the idea is right and the form is marked.
+**Evidence:** the book warns "In an exam, only leave out the inner electrons if the question tells you to." and "the diagram shown in Figure 8.6 is not a dot-and-cross diagram" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 311); the examiner-report window advises "Consider using bullet points or a numbered list to show a method clearly" (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p6).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-ER-4CH1 (six examiner-report feedback windows, 2019-2025)
@@ -222,4 +239,4 @@ sampled at five chunks; the remaining warning chunks are unsampled.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-058..GAP-060), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

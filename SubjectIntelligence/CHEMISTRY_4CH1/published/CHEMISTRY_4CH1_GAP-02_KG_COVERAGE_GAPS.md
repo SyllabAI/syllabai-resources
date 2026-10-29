@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-02 — KG Coverage Gaps
@@ -187,6 +187,23 @@ International GCSE in Chemistry (4CH1) and Science (4SD0 and 4SS0) First
 teaching 2017" (SRC-TL-4CH1, Chemical-bonding---FINAL.pdf p1). Temporal
 scope: CURRENT — AUTHORITATIVE.
 
+### GAP-052 — The learning-objectives node sequence extends continuously through the sampled chapters, from Chapter 2 classification through Chapter 28 esters
+
+**Claim:** The pack exhibits learning-objectives blocks for twenty-three further chapters beyond those already cited, running from the Chapter 2 element-compound-mixture classification through the Chapter 28 esters practical, spanning all four units without a sampled gap; a KG seeded from these nodes therefore inherits bullet-grain coverage across every unit, with the corpus's complete 29-block continuity remaining a sampling-bounded claim rather than an asserted census.
+**Evidence:** the Chapter 2 block opens "Understand how to classify a substance as an element, compound or mixture" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 62); the Unit 3 Chapter 21 block carries the reversibility node — "Know that some reactions are reversible and that this is indicated by the symbol ⇒ in equations" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 825); the Unit 4 Chapter 28 block closes the sampled sequence on "Practical: Prepare a sample of an ester such as ethyl ethanoate" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1011).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-053 — The objectives bullets carry parameter-level conditions inside the node text, not just topic labels
+
+**Claim:** The sampled objectives blocks embed quantitative conditions verbatim inside individual bullets — the Chapter 22 naming node fixes the six-carbon ceiling in its own wording, and the Chapter 26 ethanol nodes carry the hydration route's catalyst, temperature and pressure parameters — so statement-level KG seeding from these nodes would inherit parameter-level detail without reconstruction; the nodes are content-bearing at a finer grain than topic labels.
+**Evidence:** the Chapter 22 node reads "Understand how to name compounds (containing up to six carbon atoms) using the rules of International Union of Pure and Applied Chemistry (IUPAC) nomenclature" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 864); the Chapter 26 node embeds the conditions — "reacting ethene with steam in the presence of a phosphoric acid catalyst at a temperature of about 300 °C and a pressure of about 60–70 atm" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 976).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-054 — The of-record node surface is not uniformly clean: two sampled objectives blocks carry OCR-garbled spans at known coordinates
+
+**Claim:** Two of the sampled learning-objectives blocks carry OCR-garbled text — the Chapter 10 electrolysis block garbles the molten-compounds list and the Chapter 16 acids block garbles the hydroxide-ion objective — so a KG or retrieval index seeded from the of-record nodes inherits noise at these coordinates; the disclosure matters for node-extraction quality, and the garbling is disclosed at its locators rather than silently normalized, consistent with the OCR-basis text of record ruled for this library.
+**Evidence:** the Chapter 10 block reads "Describe experiments to investigate electrolysis, using inert electrodes, of molten compounds (including lead sns s a ( (ading" where the print names lead(II) bromide and the aqueous solutions (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 354); the Chapter 16 block reads "Know that acids in aqueous solution are a source of hy n sls sn an a sl n s ra source of hydroxide ions" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 570).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (the specification's content map, p15, and
@@ -210,4 +227,4 @@ on the quoted surfaces only, not on every page of record.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-052..GAP-054), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.
