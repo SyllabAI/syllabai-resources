@@ -1,0 +1,405 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "hub/lesson-import/1.2",
+  "title": "Hub lesson-import v1.1 (figures layer; strictly additive over 1.0)",
+  "description": "One file covers exactly one revision note. 1.1 is a copy of 1.0 (draft-07, additionalProperties false throughout) minted by ADAPTER-SPEC-guided-lesson-0.2-to-hub-1.1.md: format/adapter consts bumped, source.sourceFormat pinned to guided-lesson/0.2, plus two optional additive fields — lesson.figures[] (verbatim passthrough of the source figures layer; NO authored prose, excluded from the conservation stream by construction) and modules[].figureIds[] (verbatim from the source lesson figureIds). Absent figures is valid; every teaching string is unchanged from the 1.0 generation (stream anchors of INT-3 remain the acceptance invariant).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "adapter",
+    "source",
+    "lesson"
+  ],
+  "properties": {
+    "format": {
+      "const": "hub/lesson-import/1.2"
+    },
+    "adapter": {
+      "const": "guided-lesson-0.3--hub-lesson-import-1.2"
+    },
+    "source": {
+      "$ref": "#/definitions/sourceBlock"
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "topicTitle",
+        "subtopicTitle",
+        "sourceUrl",
+        "specAnchors",
+        "primer",
+        "modules",
+        "assets"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^igcse-chemistry::rn_[A-Za-z0-9]+$"
+        },
+        "topicTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtopicTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "specAnchors": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Verbatim from source specPoints (code+official text); module specRefs across the file must equal this set (conservation gate).",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "code",
+              "text"
+            ],
+            "properties": {
+              "code": {
+                "type": "string",
+                "pattern": "^4CH1-[0-9]+\\.[0-9]+C?$"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "primer": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "text",
+            "prerequisiteSubtopic"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "prerequisiteSubtopic": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "modules": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "$ref": "#/definitions/module"
+          }
+        },
+        "assets": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "glossary",
+            "workedExample"
+          ],
+          "properties": {
+            "glossary": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 8,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "term",
+                  "definition",
+                  "firstLesson"
+                ],
+                "properties": {
+                  "term": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "definition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "firstLesson": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            },
+            "workedExample": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "additionalProperties": false,
+              "required": [
+                "prompt",
+                "steps",
+                "finalAnswer"
+              ],
+              "properties": {
+                "prompt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "steps": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "finalAnswer": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "figures": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Optional figures layer, verbatim passthrough from the guided-lesson/0.2 source (figures-0.2-pipeline). moduleIds empty = note-level figure (page-fallback only, never inside the lesson flow).",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "url",
+              "alt",
+              "sourceHeading",
+              "moduleIds"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^fig-[0-9]{2}$"
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://raw\\.githubusercontent\\.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/[0-9a-f]{12}-[A-Za-z0-9._-]+\\.(png|jpg|jpeg|webp|avif)$"
+              },
+              "alt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceHeading": {
+                "type": "string",
+                "minLength": 1
+              },
+              "moduleIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^L[1-5]$"
+                }
+              },
+              "caption": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Verbatim passthrough of the source figure caption (figures-2.1 captions layer)."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "sourceBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceFormat",
+        "noteId",
+        "corpusVersion",
+        "sourceLayerSha256",
+        "pinnedRef"
+      ],
+      "properties": {
+        "sourceFormat": {
+          "const": "guided-lesson/0.3"
+        },
+        "noteId": {
+          "type": "string",
+          "pattern": "^rn_[A-Za-z0-9]+$"
+        },
+        "corpusVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceLayerSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "pinnedRef": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      }
+    },
+    "module": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "sourceHeadings",
+        "specRefs",
+        "opening",
+        "keyPoints",
+        "depthLayers",
+        "gatePolicy",
+        "checkRefs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^rn_[A-Za-z0-9]+::L[1-5]$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceHeadings": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "specRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^4CH1-[0-9]+\\.[0-9]+C?$"
+          }
+        },
+        "opening": {
+          "type": "string",
+          "minLength": 1
+        },
+        "keyPoints": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "depthLayers": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "low",
+            "medium"
+          ],
+          "properties": {
+            "low": {
+              "$ref": "#/definitions/depthLayer"
+            },
+            "medium": {
+              "$ref": "#/definitions/depthLayer"
+            }
+          }
+        },
+        "gatePolicy": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Confidence-gate contract, decided per adapter spec section 6: the authoring gate becomes binding hub runtime policy; the two const-true invariants are import-blocking.",
+          "required": [
+            "ratingsScale",
+            "continueDisabledUntilChoice",
+            "resumeWithoutReRate",
+            "postCheckRecalibration"
+          ],
+          "properties": {
+            "ratingsScale": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              }
+            },
+            "continueDisabledUntilChoice": {
+              "const": true
+            },
+            "resumeWithoutReRate": {
+              "const": true
+            },
+            "postCheckRecalibration": {
+              "type": "boolean"
+            }
+          }
+        },
+        "checkRefs": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "description": "Ordered ids of this module's questions in the paired sme-question-package file; 1:1 with source lesson.check items.",
+          "items": {
+            "type": "string",
+            "pattern": "^rn_[A-Za-z0-9]+::L[1-5]::Q[1-5]$"
+          }
+        },
+        "figureIds": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Optional: ordered ids of this module's claimed figures (verbatim from source lesson figureIds; every id must resolve in lesson.figures — closure lint-enforced).",
+          "items": {
+            "type": "string",
+            "pattern": "^fig-[0-9]{2}$"
+          }
+        }
+      }
+    },
+    "depthLayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "restatement",
+        "analogy",
+        "examPointer"
+      ],
+      "properties": {
+        "restatement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "analogy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "examPointer": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

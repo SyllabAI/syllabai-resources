@@ -1,0 +1,57 @@
+{
+  "format": "figures-2.1-promotion-receipt/1.0",
+  "wave": "FIGURES-2.1-EXPLAIN-DONT-LIST",
+  "operator_traces": ["1a188a15ac19ed05", "1a188c14685e2965"],
+  "generated_at_utc": "2026-10-30T00:00:00Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/figures-2-1-20261030",
+  "commits": {
+    "A": {
+      "sha": "1ed554ec60fb9c0a41303946312ba50bb0a8834f",
+      "parent": "9db02bb758b7487dd6a5b32131d5413f7bc2c56b",
+      "note": "source-0.3 captions generation — 112 guided-lesson/0.3 artifacts + schema/guided-lesson.0.3.schema.json"
+    },
+    "C": {
+      "sha": "THIS COMMIT (namespace-complete: hub-import-1.2 + schema 1.2 + manifest v5 + records + tooling + this receipt)",
+      "parent": "1ed554ec60fb9c0a41303946312ba50bb0a8834f"
+    }
+  },
+  "artifact_pin": "1ed554ec60fb9c0a41303946312ba50bb0a8834f",
+  "pkg_pin": "4d857c472fd725597ac21db189542c8f12c82dba",
+  "input_pins": {
+    "v4_commit_A_source_layer": "8ea8c63a46d75fc54733900dfecf5d3c5c93bbde",
+    "v4_commit_C_manifest_and_outputs": "6d0eb77d62404ddd5724cb35cee6d8c6a2a77e85",
+    "note": "source-0.2 @ v4 commit A; 1.1 outputs + packages + manifest v4 + SME sidecars @ v4 commit C"
+  },
+  "manifest": "hub-import-manifest-v5.json",
+  "int_record": "INT-3-transform-record-figures-2.1.json",
+  "adapter_spec": "ADAPTER-SPEC-guided-lesson-0.3-to-hub-1.2.md",
+  "counts_census": {
+    "figures": 200,
+    "captions_coalesced": 143,
+    "captions_row_context": 16,
+    "captions_inline": 3,
+    "captions_none": 38,
+    "notes_with_figures": 90,
+    "notes_total": 112
+  },
+  "derivation_rules": {
+    "coalesced": "bold-italic paragraph block immediately following the figure block in the sme-revision-note/1.0 sidecar",
+    "row_context": "table-embedded figure: '<column header> — <row label>' from verbatim table cells",
+    "inline": "bullets/paragraph-embedded figure: introducing line, image syntax and emphasis stripped",
+    "fail_closed": "no adjacent explanatory line → no caption key (38 figures); renderer falls back to the sourceHeading provenance line",
+    "authored_words": "zero — whitespace-only normalization; no word added, removed, or reordered"
+  },
+  "conservation": {
+    "grand_stream_sha256": "see manifest v5 conservation block (== manifest v4 of record)",
+    "matches_v4": "per-note ×112 (INT record matchesV4)",
+    "authored_chars": 1426764
+  },
+  "gates": {
+    "source_phase": "340/340",
+    "transform_phase": "789/789",
+    "verify_phase_cold": "675/675"
+  },
+  "merge_order": "resources PR (this branch) merges to main FIRST; the hub PR (runner FEED figures-2-1-v5 + render + landed content) merges only after",
+  "hub_side_note": "hub/lesson-import/1.2 render law: figures render after key points, caption-first, provenance line, block label removed (adapter spec 0.3→1.2 §6, superseding the 0.2 §6 after-opening placement)"
+}
