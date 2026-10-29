@@ -138,7 +138,10 @@ check("sync: 7(c)(i) edit_status corrected + value_trace.solution provenance",
 src = (RES / "scripts" / "official_examq_extract.py").read_text()
 check("converter: F47 verbatim law present", "transcription_of_record" in src and "_f47_transcription" in src)
 check("converter: F94 share_with replay present", "share_with" in src and "_share_consumed" in src)
-check("converter: version 0.31.0", 'CONVERTER_VERSION = "0.31.0"' in src)
+m = re.search(r'CONVERTER_VERSION = "(\d+)\.(\d+)\.(\d+)"', src)
+ver = tuple(int(x) for x in m.groups()) if m else (0, 0, 0)
+check("converter: version floor 0.31.0 (F116 laws ship at 0.31.0; F117 supersedes at 0.32.0)",
+      ver >= (0, 31, 0), f"v{ver[0]}.{ver[1]}.{ver[2]}")
 
 # disclosure of record present and census-shaped
 disc = json.loads((RES / "scripts" / "exporter-disclosures" /

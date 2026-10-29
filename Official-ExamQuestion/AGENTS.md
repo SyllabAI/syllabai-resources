@@ -505,6 +505,21 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 25 (2026-10-29, F117) CLOSED the Finding-8b exponent-restore class at source (the
+  F111 census's class 2: 23 parts / 51 fields) and recorded Finding 8a CLOSED BY EVIDENCE.
+  8b's mechanism was never a validity-rule refusal: the F89 restore law had been DEAD CODE
+  in every real conversion — clean_lines' gate tested lowercase `"4ch1"` while main() sets
+  `ACTIVE_SPEC_CODE = cfg["spec_code"]` == `"4CH1"`. One case-robust gate fix
+  (`(ACTIVE_SPEC_CODE or "").lower() == "4ch1"`), blast radius zero-mint (of-record: 414
+  sup chars, ZERO flat law-fireable instances), 19/19 affected slices re-emitted fresh with
+  all gates PASS; 2024-06 1CR 11(d) re-pointed to the converter-of-record emission (the
+  printed Notes tail "significant figures from 2" the of-record truncated — eyes-on MS
+  p13; C205/C207 re-baselined; disclosure 2026-10-29-f117-exponent-restore-gate.json, 1
+  part). 8a (MCQ positional keys, 33 parts at the v0.22.0 deep-audit era) needs NO fix: the
+  intervening keying laws dissolved the class — zero choices[] deltas corpus-wide in the
+  F86 census, re-confirmed at v0.31.0 and in this wave's fresh census. Unit battery
+  scripts/official_examq_f117_tests.py (CI). Remaining reproducibility debt = the F111
+  class-1 drawing-strip remains only (19 problem_md parts, C147–C165-guarded).
 - Task 24 (2026-10-28, F113) CLOSED the F95/F97 MS-side crop capability wave end-to-end:
   the converter renders crops FROM the MS PDF (MS-ANSWER-FIGURES.json eyeball ledger ->
   crop-required stubs -> CROP-REVIEW manual_crop verdicts rendered from the MS doc, all

@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.31.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.32.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -833,7 +833,21 @@ def clean_lines(raw: str, keep_bare_numerals: bool = False):
         ln = normalize_pua(ln0)   # F48: symbol-font PUA -> real Unicode before any parsing
         for rx, rep in FURNITURE_SUBS:
             ln = rx.sub(rep, ln)
-            if ACTIVE_SPEC_CODE == "4ch1":
+            # v0.32.0 (F117): case-robust lane gate. main() sets
+            # ACTIVE_SPEC_CODE = cfg["spec_code"] == "4CH1" (line ~2671), so the
+            # v0.21.1 lowercase check `== "4ch1"` NEVER fired in any real
+            # conversion — the F89 restore law was dead code in every run since
+            # the spec_code value became uppercase. Fresh emissions re-flattened
+            # every restored superscript (the F111 class-2 exponent universe:
+            # 23 parts / 51 fields; C95 red on every fresh tree, F86/F116).
+            # Diagnosed 2026-10-29: instrumented run showed ACTIVE_SPEC_CODE
+            # == '4CH1' inside main(); blast-radius census: the of-record
+            # carries 414 sup chars and ZERO flat law-fireable instances, so
+            # re-activation reproduces the of-record exactly and cannot mint
+            # new deltas. The lane gate stays (physics C74 pin of record
+            # carries flat forms — 4PH1 decides its own tranche; maths-B has
+            # its own conventions).
+            if (ACTIVE_SPEC_CODE or "").lower() == "4ch1":
                 ln = restore_flat_exponents(ln)  # F89 (v0.21.1) — chemistry-gated; other lanes pending their own census (physics C74 pin of record carries flat forms)
         # F108 leg 2: the MS stream keeps (collapsed) blank lines — the printed
         # grid's blank row separators are layout information the Finding-5 box

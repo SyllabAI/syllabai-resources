@@ -44,6 +44,8 @@ jobs:
         run: python3 scripts/official_examq_strip_law_tests.py
       - name: F116 F111-remaining-classes tests (the F47 ledger==corpus verbatim law + the F94 share_with replay + the 70 live guard pins; zero network)
         run: python3 scripts/official_examq_f116_tests.py
+      - name: F117 exponent-restore gate tests (the case-robust lane gate + the 51 live class-2 pins + the 11(d) re-point of record + the zero-mint census; zero network)
+        run: python3 scripts/official_examq_f117_tests.py
       - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
         run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
 

@@ -1,5 +1,37 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.32.0 — 2026-10-29 · the F117 exponent-restore gate fix: Finding 8b (F111 class 2) closed at source
+
+- **F117, the case-sensitivity regression**: `clean_lines`' F89 restore gate tested
+  `ACTIVE_SPEC_CODE == "4ch1"` (lowercase) while `main()` sets
+  `ACTIVE_SPEC_CODE = cfg["spec_code"]` == `"4CH1"` — the restore law was DEAD CODE in
+  every real conversion since the spec_code value became uppercase; every fresh
+  re-emission re-flattened the restored superscripts (the F111 class-2 universe:
+  23 parts / 51 fields; C95 red on every fresh tree per F86/F116 — the "designed
+  Finding-8b guard" was in fact guarding a dead law, not a validity-rule refusal).
+  Diagnosed 2026-10-29 by instrumented run (ACTIVE_SPEC_CODE == '4CH1' observed inside
+  main()) + staged-layer forensics (2021-01 1C MS L729 `8.46 × 10-3`: the law fires on
+  the raw line both in isolation and through clean_lines in a REPL, yet the real run
+  emitted flat — the only free variable was the gate). Fix: case-robust gate
+  `(ACTIVE_SPEC_CODE or "").lower() == "4ch1"`. Blast radius proven ZERO-MINT by a
+  corpus-wide census: the of-record carries 414 superscript chars and ZERO flat
+  law-fireable instances, so re-activation can only reproduce the of-record.
+- **The F112-pattern re-point**: 2024-06 1CR 11(d) `solution_md` + `mark_points` :=
+  the converter-of-record emission — the restored superscripts PLUS the F108-leg0 keep
+  of the printed Notes tail "ALLOW any number of significant figures from 2"
+  (eyes-on-verified on the 150 dpi MS p13 render; the of-record had truncated the
+  printed note). C205/C207 re-baselined to the new of-record; disclosure
+  `scripts/exporter-disclosures/2026-10-29-f117-exponent-restore-gate.json` (1 part).
+- **Proof**: 19/19 affected slices re-emitted fresh at v0.32.0 from the sha-verified
+  staging of record (all gates PASS, G6 PASS); field-level census — the 51 exponent
+  fields VANISH (49 reproduce at source, 2 via the re-point), residual = the F111
+  class-1 drawing-strip parts only (guarded C147–C165, out of scope) + one local
+  `source_page` artifact classified staging-drift (eyes-on: 2024-06 1C 3(b) prints on
+  p6 = the of-record anchor; the local pdftotext layer's line layout differs).
+  Canaries 214/214 on the wave tree; zero-network unit battery
+  `scripts/official_examq_f117_tests.py` (CI step added); Finding 8a (MCQ positional
+  keys) recorded CLOSED-BY-EVIDENCE (F86/F116 zero-choices-deltas censuses).
+
 ## 0.31.0 — 2026-10-29 · the remaining F111 census classes: the F47 verbatim transcription law + the F94 share_with replay + the 70 guard pins
 
 - **F47 verbatim transcription law (F111 class 5)**: `MS-LINK-OVERRIDES.json` entries may
