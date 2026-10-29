@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRA-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PRA-02 — Method/Technique Patterns
@@ -78,6 +78,7 @@ solubility — excess-solid-and-filter for soluble salts, precipitation for
 insoluble ones. The official terminology guide's apparatus and measurement bands
 give the technique vocabulary, and the spec demands the techniques themselves as
 statements.
+The deepened records extend the technique claim into its governance layer: the titration procedure's volumetric recording law (top-to-bottom burette scale, 0.05 cm3 resolution written to two decimal places, and the one-drop precision ceiling), the combustion-calorimetry procedure's own error budget and version-tolerance trade-off, and the board's terminology guidance, which governs practical vocabulary by contextual use rather than formal definition and states the exam's evaluative intent outright.
 
 ## Main Analysis
 
@@ -163,6 +164,22 @@ the same statement list heads the guide's chromatography page
 **Specification Points:** 1.10
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PRA-036 — Burette reading discipline is a stated recording law with a precision ceiling
+
+**Claim:** the titration procedure fixes the volumetric recording law — reading direction, resolution, and the two-decimal-place writing rule — and bounds the technique's inherent precision.
+**Evidence:** the reading rule is explicit — "the numbers increase from the top to the bottom: 0 is at the top and 50 is at the bottom" — and the writing rule follows it: "We normally record readings from the burette to the nearest 0.05 cm3", with "The second decimal place is given as '0' if the level of solution is on the line and '5' if it is between the lines." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 586); the recorded table shows the law applied — final 23.85, initial 2.10, volume of alkali added 21.75 cm3 (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 588); the same window bounds the technique itself, since the pH swings drop-to-drop near the endpoint so "the most precise we can be is to know the neutralisation point to within 1 drop" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 586).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-037 — The combustion-calorimetry procedure confesses its own error budget and licenses method variants
+
+**Claim:** the combustion variant of the calorimetry method enumerates its error sources inside the procedure, makes one of them diagnosable in-flight, and tolerates method versions under an explicit trade-off law.
+**Evidence:** the error budget is in-procedure — "There are many sources of error in this experiment, in particular large amounts of heat loss." with the routes named: "The warm water gives out heat to the air, heat is lost from the flame, which goes straight into the air rather than into the water" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 738); incomplete combustion is observable from the apparatus itself — "the flame of the wick is often yellow orange rather than blue, and soot (carbon) is produced at the bottom of the copper can" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 738); variant tolerance is licensed with its bound: "You may see other versions of this experiment recommending a different temperature rise or suggesting that you heat the water for a fixed number of minutes." while "The higher the temperature the water reaches, the greater the heat losses during the experiment." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 731).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-038 — The board governs practical terminology by context, not by definition
+
+**Claim:** technique vocabulary is governed at board level: the terminology guide declines to give formal definitions, illustrates terms inside practical scenarios across four named aspects, and states the exam's evaluative intent outright.
+**Evidence:** the guide opens by naming the problem — "The use of terminology within practical and experimental work in science is a complicated issue." and "Definitions of terms can vary between different sources" (SRC-TL-4CH1, practical-terminology-in-int-gcse-science.pdf p 3); it fixes the exam posture: "we are less interested in students learning strict definitions of terms, and more interested in students appreciating" data and methods critically (SRC-TL-4CH1, practical-terminology-in-int-gcse-science.pdf p 3); the planning section carries the variable framework with its payoff — "Controlling variables will improve the validity of the data in an investigation." — and the apparatus section makes selection itself a data-quality decision: "When selecting apparatus, it is important to consider how the choice made can affect the data collected." (SRC-TL-4CH1, practical-terminology-in-int-gcse-science.pdf p 4).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (apparatus, conversion, calorimetry and
@@ -174,16 +191,8 @@ preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Technique patterns are catalogued from this pack's excerpt windows; other
-apparatus conventions outside the windows are neither enumerated nor denied.
-OCR-era quirks of the book parse (split words, stray glyphs in a pH extension
-note) are quoted as parsed or paraphrased, never repaired. The QPMS item is
-cited for demand context only; no mark-point analysis is claimed here (the MS
-family owns that layer). No canonical planes were written.
+This artifact catalogues the technique patterns visible in its pack's excerpt windows; techniques outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so detail outside the captured surface is neither quoted nor denied. The terminology guidance is quoted as parsed (its source PDF uses contextual illustration rather than definitions, and line-break hyphenation is preserved in the parse). OCR-era quirks of the book parse are quoted as parsed or paraphrased, never repaired. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PRA-036..038) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

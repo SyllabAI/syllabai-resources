@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-02 — Prerequisite Learning Paths
@@ -73,6 +73,7 @@ prompt-sheet strategies for bonding built on classroom research, and a
 rule-application path for equilibrium built on a published critique of how the
 topic is usually taught. At finer grain, the validated notes corpus binds each
 note to its spec points, making the prerequisite chain checkable at note level.
+The deepened records extend the prerequisite-path claim into its literacy and derivation layers: the book's back-matter command-word table that fixes what Explain, Justify and Plot demand before any answer is attempted, the hydroxonium KEY POINT that hangs new content on a named earlier construction, and the notes' molar-mass derivation chain that walks mole, relative atomic mass and the water arithmetic as one connected path.
 
 ## Main Analysis
 
@@ -145,6 +146,22 @@ the changes are designed to "give them skills that will support progression to
 further study" (SRC-TL-4CH1, gstt-int-gcse-chemistry.pdf p 5). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### PED-066 — The back-matter command-word table is the exam-literacy prerequisite layer
+
+**Claim:** the book's apparatus for prerequisites extends to exam literacy: a command-word table defines, before any content is attempted, what the exam's verbs demand of an answer.
+**Evidence:** the table fixes the reasoning verbs — "An explanation requires a justification/ exemplification of a point." — and collapses the recall verbs: "All of these command words are really synonyms." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 1073); Justify is anchored to the answer's own chain — "Give evidence to support (either the statement given in the question or an earlier answer)." — and Plot is specified end-to-end: "Produce a graph by marking points accurately on a grid from data that is provided and then draw a line of best fit through these points." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 1073).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-067 — The prior-knowledge hook carries new content on its back
+
+**Claim:** the book's recall hooks are not mere signposts: the hydroxonium KEY POINT introduces new chemistry by explicit analogy to the already-met ammonium ion, then immediately lowers the memory burden.
+**Evidence:** the hook names the prior construction — "You have already met the ammonium (NH4⁺) ion, which is obtained when H⁺ is added to ammonia (NH₃)." — and rides the analogy straight into new content: "The hydroxonium ion is the equivalent ion for water." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 637); the same window then caps the demand: "You do not have to remember the name hydroxonium ion." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 637).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-068 — The notes derive molar mass from relative masses as one connected chain
+
+**Claim:** the notes teach molar mass not as a definition to memorise but as a derivation chain from relative atomic masses, with the arithmetic instantiated on named substances.
+**Evidence:** the definition lands mid-chain — "The mass of 1 mole of a substance is known as the **molar mass**" — and is immediately tied to the counting argument: "If you had 6.02 x 10<sup>23</sup> atoms of carbon in your hand, that number of carbon atoms would have a mass of 12 g" (SRC-SME-NOTES-4CH1, 1-5-3-moles-mass-and-rfm.md lines 33-47); the chain completes as a rule plus a worked instance — "To find the mass of one mole of a compound, we add up the relative atomic masses" so "So one mole of water would have a mass of (2 x 1) + 16 = 18 g" (SRC-SME-NOTES-4CH1, 1-5-3-moles-mass-and-rfm.md lines 39-53).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (recall-hook and section-reuse chunks at
@@ -157,18 +174,8 @@ locators preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-The book's prerequisite hooks are surfaced from two matched chunks in this pack's
-query window; other "already met" passages outside the window are neither
-catalogued nor denied. The scheme of work remains a DOCX identity entry — its
-internal prerequisite sequencing is not text-claimable here. Glyph-era OCR of the
-book parse is paraphrased, never repaired into quotes (the ammonium-ion
-superscript is paraphrased in the claim text). The legacy examiner-report entry
-is present for identity only; no legacy claim is made. No canonical planes were
-written.
+This artifact catalogues the prerequisite-learning paths visible in its pack's excerpt windows; paths outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so path detail outside the captured surface is neither quoted nor denied. Notes prose is quoted as parsed — the markdown hyperlink markup and OCR-truncated link text ('relative atomic mas') are preserved, never repaired. The legacy ER window (2016 4CH0/4SC0 report page) is present in the pack as an identity-presence entry and is not cited by any record. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-066..068) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

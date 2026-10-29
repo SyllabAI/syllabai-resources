@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-05 — Practice Strategies
@@ -76,6 +76,7 @@ rectangle monomers. The examiner report closes the loop by publishing model
 good answers at specific mark levels and warning against answers to a slightly
 different question. The notes corpus paces the same strategy with formula
 triangles and stepped worked examples.
+The deepened records extend the practice-strategy claim into design, data, and transfer: the front matter's own statement of the practice apparatus (explanations plus worked examples plus numerous exercises, all required-practical methods, EAL-graded language, and the back-matter command-word list), the practice items that hand over raw data tables for the learner's own processing, and the unit questions that deploy unseen reaction contexts with equation and atomic masses carried in-item.
 
 ## Main Analysis
 
@@ -159,6 +160,22 @@ investigation block likewise opens under an END OF CHEMISTRY ONLY header region
 (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 852). Temporal
 scope: CURRENT — AUTHORITATIVE.
 
+### PED-075 — The book states its own practice design in the front matter
+
+**Claim:** the practice load is designed, not incidental: the front matter states the per-unit pattern — explanations, worked examples, and numerous exercises — alongside the required-practicals coverage, the EAL language grading, and the examination-language support.
+**Evidence:** the design statement runs: "In each unit of this book, there are concise explanations and worked examples, plus numerous exercises that will help you build up confidence." and "The book also describes the methods for carrying out all of the required practicals." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 11); the language layer is part of the same design — "The language throughout this textbook is graded for speakers of English as an additional language (EAL)" — with the examination vocabulary served from the back matter: "A list of command words, also at the back of the book, will help you to learn the language you will need in your examinations." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 11).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-076 — Practice items hand over raw data for the learner's own processing
+
+**Claim:** the unit-question practice supplies raw data tables rather than processed conclusions — an eleven-student limestone series, a gas time-course, and a concentration series — so pattern-reading and plateau-spotting remain the learner's work.
+**Evidence:** the limestone item tabulates "Mass of limestone/g" against "Volume of gas produced/cm³" across eleven students, with the volume climbing to a repeated 91 cm3 plateau — the excess-limestone reading is left to the learner (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 402); the rate items tabulate volume against "Time/s" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 854) and "Mass of carbon dioxide given off/g" against "Concentration of acid /mol/dm³" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 859) with no interpretation given in the item.
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-077 — Practice deploys unseen reaction contexts with the data carried in-item
+
+**Claim:** the unit questions set calculations in reactions the book has not worked as examples — copper with concentrated nitric acid, pyrite roasting, hydrogen with bromine — carrying the equation, the atomic masses, and the assumptions in-item, so what is exercised is transfer rather than recall.
+**Evidence:** the copper item states its untaught reaction — "Copper reacts with concentrated nitric acid to produce copper(II) nitrate solution and nitrogen dioxide gas." — then prices a yield and a crystallisation method against it (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 398); the pyrite item opens "If pyrite (FeS2) is heated strongly in air it reacts according to the equation:" with the molar-volume assumption granted in the question (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 398); the bonding item re-sets the same demand on HBr — "Hydrogen, H2, and bromine, Br2, react vigorously to form hydrogen bromide, HBr, according to the following equation:" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 849).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (front-matter instrumentation statement,
@@ -171,17 +188,8 @@ caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Question banks are evidenced from the bank chunks this pack's window captured;
-other units' banks are neither enumerated nor denied. The Progression scale's
-internal levels are referenced by the book's own statement but their numeric
-bands are not claimed here. OCR-era quirks (stacked skills tags rendered without
-spaces; a stray glyph in one mark allocation) are quoted as parsed or
-paraphrased, never repaired. The legacy examiner-report entry is present for
-identity only; no legacy claim is made. No canonical planes were written.
+This artifact catalogues the practice strategies visible in its pack's excerpt windows; strategies outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so practice-design detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (the '(ε)' mark token, 'wit o the book' truncation in the front-matter window, garbled ö bullet) are quoted as parsed or paraphrased, never repaired. Examiner-report windows cited by pre-existing records remain the ER plane of record; no new ER claims were added. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-075..077) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

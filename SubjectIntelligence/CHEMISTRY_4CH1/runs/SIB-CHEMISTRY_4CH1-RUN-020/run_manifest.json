@@ -1,0 +1,287 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-020",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+    "syllabai_pastpapers": "f39fc0fde3ee12f97efa5c031e16c17c25243fd5",
+    "syllabai_resources": "923232c73d9ac7dca748b29ccca1c8067ba741aa"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "PRA-01",
+      "filename": "CHEMISTRY_4CH1_PRA-01_CORE_PROCEDURES.md",
+      "evidence_pack": "evidence/PRA-01/evidence_pack.json",
+      "evidence_pack_sha256": "5fee5c50a1d2a67e00165dba05803433c20b871ada031fc85446fa6b23fcc854",
+      "artifact_sha256": "5d1390b3aace44d5c8611e6bdb9ca6c1a6b8e29b4f92f4ff28ce372d6c54e6ba",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PRA-01.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PRA-01.qa.json"
+    },
+    {
+      "artifact_id": "PRA-02",
+      "filename": "CHEMISTRY_4CH1_PRA-02_METHOD_TECHNIQUE_PATTERNS.md",
+      "evidence_pack": "evidence/PRA-02/evidence_pack.json",
+      "evidence_pack_sha256": "95710fca0080fa5756bfe16bb640f02111826e9001d5066530aa85ec0e812b5e",
+      "artifact_sha256": "05bdddb125d78305ac66464133cc8237bb5b8dbdf64eafbef788cde2db10a33e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PRA-02.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PRA-02.qa.json"
+    },
+    {
+      "artifact_id": "PRA-03",
+      "filename": "CHEMISTRY_4CH1_PRA-03_PRACTICAL_EXPERIMENTAL_INTELLIGENCE.md",
+      "evidence_pack": "evidence/PRA-03/evidence_pack.json",
+      "evidence_pack_sha256": "d383034060d30a5a131670bbc9fa7954f88dc0645b8a5c10b3dcb3776d06c56f",
+      "artifact_sha256": "8730a2b742553e54c00227a0f7fb42a05a5eabbd44ce234b09e27d7f320eedee",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PRA-03.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PRA-03.qa.json"
+    },
+    {
+      "artifact_id": "PRA-04",
+      "filename": "CHEMISTRY_4CH1_PRA-04_PROCEDURE_ERRORS_AND_FAILURE_MODES.md",
+      "evidence_pack": "evidence/PRA-04/evidence_pack.json",
+      "evidence_pack_sha256": "4043ed052bde5ce83c4c653e96169bbb9b7da24de558f37f10aec4f3415085e3",
+      "artifact_sha256": "269863c04016a9b0c4b48673ec4e0f1ca20f271950a50f099557e788cb498178",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PRA-04.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PRA-04.qa.json"
+    },
+    {
+      "artifact_id": "PRA-05",
+      "filename": "CHEMISTRY_4CH1_PRA-05_METHOD_SELECTION_GUIDE.md",
+      "evidence_pack": "evidence/PRA-05/evidence_pack.json",
+      "evidence_pack_sha256": "7ece318339bd02359c17156ca4c37f34ed5deb09f85b303bcff0d5ea92cd006c",
+      "artifact_sha256": "de6857d5ad9ad657fb0e265e9db598d6a836e2fc16ea66becbd0d4d8ad2144cb",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PRA-05.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PRA-05.qa.json"
+    },
+    {
+      "artifact_id": "PED-01",
+      "filename": "CHEMISTRY_4CH1_PED-01_LEARNING_SEQUENCE_ANALYSIS.md",
+      "evidence_pack": "evidence/PED-01/evidence_pack.json",
+      "evidence_pack_sha256": "9031746872a155a461611ce9a9f3cdd7f403895c61820cfbe8dcf041768605ff",
+      "artifact_sha256": "40c48a0e74d6691e24d496497fd99668a36b5ce5ebb14778c68d6a30d7f1ea02",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-01.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-01.qa.json"
+    },
+    {
+      "artifact_id": "PED-02",
+      "filename": "CHEMISTRY_4CH1_PED-02_PREREQUISITE_LEARNING_PATHS.md",
+      "evidence_pack": "evidence/PED-02/evidence_pack.json",
+      "evidence_pack_sha256": "e3bc04c987bb88006e6bc908c7df58c53df0f84e2fab1833b3609df03a425453",
+      "artifact_sha256": "6e0e3f5db0fb0440015b025c116a93fd1bda45ebed8593aa5377181465e77f2f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-02.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-02.qa.json"
+    },
+    {
+      "artifact_id": "PED-03",
+      "filename": "CHEMISTRY_4CH1_PED-03_DIFFICULTY_PROGRESSION.md",
+      "evidence_pack": "evidence/PED-03/evidence_pack.json",
+      "evidence_pack_sha256": "a44cedf3cbaae4b803f8d231c242ff4e189b1821b1837cafcc3c3cc709d574b2",
+      "artifact_sha256": "aed34d5ddc1b3790f365d659f5bf925dad2aac4b013c49d9f6a7a662c5941271",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-03.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-03.qa.json"
+    },
+    {
+      "artifact_id": "PED-04",
+      "filename": "CHEMISTRY_4CH1_PED-04_EXPLANATION_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-04/evidence_pack.json",
+      "evidence_pack_sha256": "98c541605bf28b9c3a804159ec6cb218d763026404f8e82148af2c8ca88c5d04",
+      "artifact_sha256": "a8fa3e02f81bd7130780306679354878387b22b35ad781c6a4292aaff0b637bd",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-04.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-04.qa.json"
+    },
+    {
+      "artifact_id": "PED-05",
+      "filename": "CHEMISTRY_4CH1_PED-05_PRACTICE_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-05/evidence_pack.json",
+      "evidence_pack_sha256": "fa461307f37e9c9998c2c52881fa6a0a9804ef615b9297eafa76343a3ceb329a",
+      "artifact_sha256": "f6880b45c77e6d5fdbf517fece552750898960c7baf77dbfc0f321db3dd8fd44",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-05.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-05.qa.json"
+    },
+    {
+      "artifact_id": "PED-06",
+      "filename": "CHEMISTRY_4CH1_PED-06_RETRIEVAL_PRACTICE_OPPORTUNITIES.md",
+      "evidence_pack": "evidence/PED-06/evidence_pack.json",
+      "evidence_pack_sha256": "1d08e6e14d9d9539d4b393e97c67422625ff49aa4b366d2b434bf2c32b8a55cb",
+      "artifact_sha256": "fd5656a59b4577ae75fecdcbe8b3c61622e813956a828ae8ac9db440385a4d78",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-06.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-06.qa.json"
+    },
+    {
+      "artifact_id": "PED-07",
+      "filename": "CHEMISTRY_4CH1_PED-07_INTERLEAVING_OPPORTUNITIES.md",
+      "evidence_pack": "evidence/PED-07/evidence_pack.json",
+      "evidence_pack_sha256": "f73f4886e2095e2c61506e5da66037ad1716df49811028cc77fff01ea4cd513d",
+      "artifact_sha256": "764fd77a76548f4fcd754d38016f60d0f5afe269314633cc317998a7c0672270",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-07.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-07.qa.json"
+    },
+    {
+      "artifact_id": "PED-08",
+      "filename": "CHEMISTRY_4CH1_PED-08_SCAFFOLDING_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-08/evidence_pack.json",
+      "evidence_pack_sha256": "c1e2edd5d5af2ad9cb25997b2fe633c12f007059a371c7a0ee5e75001d263b30",
+      "artifact_sha256": "adb2b63c09ec366d743d2d5061747a844ab8ab3cb6d393fe0e334f37db10a7d0",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-08.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-08.qa.json"
+    },
+    {
+      "artifact_id": "PED-09",
+      "filename": "CHEMISTRY_4CH1_PED-09_DIAGNOSTIC_TEACHING_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-09/evidence_pack.json",
+      "evidence_pack_sha256": "9c287a45de32c92098c0ae99e605dd2bfdb7fdcbf44aafb8f31ae8e972aa05fc",
+      "artifact_sha256": "1aa1bfaa6950ecd972f7818e39ba6f8198a8c1953c96f000aa319befe91590dc",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS:pack of record carried byte-identical from its origin run SIB-CHEMISTRY_4CH1-RUN-006 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib 0-path diff at tip 18a7e98), syllabai_resources 923232c7, syllabai_pastpapers f39fc0fd with ZERO tranche exposure (the 3 distinct pastpapers-pinned ER files byte-identical at BOTH the RUN-019 pin rev e4c1960b and the live tip; source_pin_state.json)",
+        "pack_append": "PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; basis: build-era source pins — 3 standing resources pin mismatches are the pre-RUN-018 QPMS re-process state with 0 blob drift across 4c04603f..923232c7 — appending from live content would mix evidence planes)",
+        "authoring": "PASS:+3 records (family-unique block) authored only from read excerpts; quotes pre-bound under the markup-transparent self-check (blockquote scaffolding stripped; stricter than the r3 gate) with 0 unbound and 0 gate-capture risks at authoring time; existing records byte-identical (builder-verified)",
+        "r3_evidence_claim_qa": "PASS:1 citations / 0 violations on the deployed body (gate BEFORE receipts)",
+        "validator_qa": "PASS:0 errors / 0 warnings; qa-reports/PED-09.qa.json content-bound to the landing copy",
+        "lifecycle": "PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed; post-lifecycle validate-manifest state is the F4a-disclosed red state, evidence chain = transition receipts",
+        "advance_disclosure": "PASS:origin advance 4c04603f->923232c7 isolated (31 commits; only the lane's own RUN-017/018/019 tranche merges touch SubjectIntelligence/ — 28 foreign commits carry 0 SI paths); pastpapers advance e4c1960b->f39fc0fd (1 commit) with zero tranche exposure (3 ER pins byte-identical at both revs); validator pin 357ace0a verified 0-path diff at the syllabai tip"
+      },
+      "qa_report": "qa-reports/PED-09.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-08
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-08 — Scaffolding Strategies
@@ -77,6 +77,7 @@ scaffolded by extending a known group trend to an unseen element; answer
 construction gets ready-made starters and a glossary. The examiner report then
 calibrates the scaffolds that matter: terminology precision earns or loses
 marks, and diagram neatness is explicitly warned about.
+The deepened records extend the scaffolding claim into inference, decoding, and narrative: the observation-to-inference passages that carry the confirmatory test inside the observation itself, the name-decoding scaffold that reads a structure out of the nomenclature code-book, and the crude-oil origin narrative plus size-property ladder that prepare the fractionation schema before any fraction is named.
 
 ## Main Analysis
 
@@ -164,6 +165,22 @@ diagrams were "messy and difficult" to read despite being correct
 terminology" on the final question (SRC-ER-4CH1, er.pdf p 25). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### PED-084 — Observation-to-inference scaffolds carry the test inside the observation
+
+**Claim:** the book scaffolds practical inference by fusing the observation with its confirmatory test and conclusion in one sentence, so the reasoning chain is modelled, not just the fact.
+**Evidence:** the magnesium-acid passage runs observation to test to identity — "There is rapid fizzing and a colourless gas is evolved, which pops with a lighted splint (the test for hydrogen)." — and closes with the classification: "This is a displacement reaction. The more reactive magnesium has displaced the less reactive hydrogen." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 604); the bromine-water passage does the same for the double bond — "You know a reaction has happened because bromine water is orange but the product, called 1,2-dibromoethane, is a colourless liquid." — and generalises into the test: "If you shake an unknown organic compound with bromine water and the orange bromine water is decolourised (the colour changes from orange to colourless), the compound contains a carbon-carbon double bond." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 967).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-085 — Names are decoded by the same code-book that builds structures
+
+**Claim:** nomenclature is scaffolded in the decoding direction too: an organic name is read as a chain-length code plus position codes, then assembled into a structure by the drawing rules.
+**Evidence:** the decode starts at the stem — "Start by looking for the code for the longest chain length." where "'but' shows a four-carbon chain." — and reads each modifier — "There are two methyl groups ('dimethyl') attached to the second and third carbon atoms in the chain ('2,3-')." — before the assembly step: "All you have to do now is to fit all this together into a structure." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 893); the drawing rule finishes the scaffold: "Then add enough hydrogens so that each carbon atom forms four bonds." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 893).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-086 — The origin narrative grounds the fractionation schema
+
+**Claim:** the crude-oil chapter scaffolds its industrial schema with an origin narrative and a size-property ladder, so fractional distillation lands on a prepared mental model rather than a bare diagram.
+**Evidence:** the narrative opens the chapter — "Millions of years ago, plants and animals living in the sea died and fell to the bottom." — and fixes the resource framing: "Crude oil is a finite, non-renewable resource." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 917); the ladder is then stated as the schema's engine — "As the number of carbon atoms in hydrocarbon molecules increases, the physical properties of the compounds change." — instantiated property-first: "Boiling point increases: the larger the molecule, the higher the boiling point." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 917).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (practical-terminology guidance pages;
@@ -177,18 +194,8 @@ with locators preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Scaffolds are catalogued from this pack's query windows; the full inventory of
-stepwise boxes across all chapters is neither enumerated nor denied. The
-core-practicals guide is cited here for its index pattern via the pages its
-excerpted window shows (the guide's biology-section opening); the chemistry
-practical pages are consumed in the PRA family packs of this run. OCR-era
-quirks are quoted as parsed or paraphrased, never repaired. The legacy
-examiner-report entry is present for identity only; no legacy claim is made. No
-canonical planes were written.
+This artifact catalogues the scaffolding strategies visible in its pack's excerpt windows; strategies outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so scaffold detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (ionic superscripts as parsed) are quoted as parsed or paraphrased, never repaired. Examiner-report windows cited by pre-existing records remain the ER plane of record; no new ER claims were added. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-084..086) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

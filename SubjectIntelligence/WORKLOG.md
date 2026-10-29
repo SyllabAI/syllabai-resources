@@ -876,3 +876,92 @@ tranche 3 of the RUN-017 plan of record.
   repo run record runs/SIB-CHEMISTRY_4CH1-RUN-019/ complete (plan_of_record,
   advance_disclosure, pack_carry, census, evidence_claim_qa_report, lifecycle_receipt,
   post_lifecycle_scoreboard, run_manifest, staged/, bodies/, evidence/).
+
+## RUN-020 — D3 REQUIRED-core depth pass, tranche 4: PRA+PED families (2026-10-29)
+
+Task ID: SIB-RUN020-r0; operator order trace 1a1838d0413b6fbd ("deepening the 88 REQUIRED-core
+artifacts from skeleton to substance"), go traces 1a18391c47e89ddd / 1a183f5436432ed9, recovery
+brief trace 1a183c01b1199779; tranche-4 order continued by the operator's RUN-020 order trace
+1a1873d0d870cb21. COUNTER EVOLUTION of record: the recovery brief specified "chemistry run
+counter next = RUN-017"; the operator subsequently specified RUN-019 (trace 1a1843f90f797b59)
+and then RUN-020 (trace 1a1873d0d870cb21); RUN-017/018 were consumed by continuation sessions
+(worklog of record: RUN-017 = tranche 1 EXM, RUN-018 = tranche 2 MS); the operator's latest
+specification governs — this run is RUN-020, tranche 4 of the RUN-017 plan of record.
+
+- PREFLIGHT: fresh-sandbox recovery — the first full clone of syllabai-resources filled the
+  sandbox disk (repo ~6.4 GB); re-cloned blob:none + sparse at SubjectIntelligence/ only
+  (the RUN-019 recipe; .git 109 MB). Fetch-first held with DISCLOSED ADVANCE: the D3 brief
+  pinned origin/main 4c04603f; the live tip at session start is 923232c7 — advance
+  4c04603f..923232c7 = 31 commits, of which exactly 3 touch SubjectIntelligence/ and all 3
+  are this lane's own tranche merges of record (RUN-017 PR #211 5e26dc9d2, RUN-018 PR #213
+  faa2589da, RUN-019 PR #214 3c4d69699); the 28 foreign commits carry 0 SubjectIntelligence/
+  paths (per-commit diff-tree census filed in the run record). Validator pin 357ace0a verified
+  (tools/sib 0-path diff at the syllabai tip 18a7e98). NEW pastpapers advance disclosed:
+  e4c1960b -> f39fc0fd (1 commit) — ZERO tranche exposure proven by content: the 3 distinct
+  pastpapers-pinned ER files of the 9 PED packs are byte-identical (sha256) at BOTH the
+  RUN-019 pin rev and the live tip (source_pin_state.json). Resources pin state: 17 distinct
+  pack paths, 0 blob-oid drift across 4c04603f..923232c7, 14 byte-identical at the tip, 3
+  pin-vs-tip mismatches = the standing pre-RUN-018 QPMS re-process state (2019-06 1C,
+  2023-06 2C, 2022-06 2CR questions.md; last corpus re-process PR #197 pre-dating the RUN-018
+  merge). Creds restored via the RUN-011 recipe with the operator's newly supplied PAT (the
+  rotation response to the CRITICAL-OVERDUE standing order; API-probed HTTP 200, scope
+  verified, token never printed). Scripts persisted under session scripts/ (run020_preflight,
+  run020_dump_excerpts, run020_dump_uncited, run020_index_digest, run020_fetch_windows,
+  run020_build_bodies, run020_bindcheck, run020_stamp, run020_gates).
+- CENSUS of record (pre-run): PRA = 5 artifacts / median ~1,102 words / 32 records
+  (PRA-001..032, collision-free contiguous per-artifact blocks); PED = 9 artifacts / median
+  ~1,119 words / 62 records (PED-001..062, collision-free). The two thinnest REQUIRED
+  families after T1-T3 (T1 census: PRA 1031, PED 1048). Packs of record carried byte-identical
+  from their origin run (PRA-01..05 + PED-01..09 <- RUN-006; pack_carry.json, per-file sha256
+  asserted vs origin copy and pack sidecar); zero windows appended, caps untouched.
+- T4 EXECUTION (PRA+PED, all 14 REQUIRED artifacts, +42 records PRA-033..047 and PED-063..089,
+  family-unique blocks above the family maxima): every record authored ONLY from read pack
+  excerpts (unmined-window selection: per-artifact cited-locator census first, new claims
+  mined only from windows the published records had never cited); quotes pre-bound under the
+  markup-transparent self-check — blockquote scaffolding stripped, per-quote binding to the
+  citation that follows, ALL quotes bound including the Evidence-line lead quotes the r3
+  gate's whitelist cannot capture (the D6-adjacent reach gap, RUN-018 structural note) —
+  0 unbound across all 14 artifacts; one gate-risk caught and repaired at authoring time
+  (PRA-044's MS quote crossing a source hard-wrap with '> ' markers re-anchored to
+  single-line spans). Existing records byte-identical (builder-verified per artifact).
+  Record themes: result-processing law (chromatography Rf discipline, solubility processing
+  route, apparatus pragmatics) (PRA-01); burette recording law + precision ceiling,
+  calorimetry error budget with version tolerance, board terminology governance (PRA-02);
+  controlled comparison with mole-matching fairness, solubility-gated method choice,
+  quantitative electrolysis ladder (PRA-03); in-procedure data-processing law, approximation
+  disclosure + instrument upgrade, exam-priced method improvement (PRA-04); preparation-route
+  endpoint/purity disciplines, one calorimetry template across reaction classes, prerequisite
+  sequencing (PRA-05); unit-opener framing, publisher topic essays importing named pedagogy
+  scholarship, spec-point-anchored worked-example pedagogy (PED-01); command-word table as
+  exam-literacy prerequisite, prior-knowledge hooks carrying new content, molar-mass
+  derivation chain (PED-02); model-fidelity honesty (simplifications, quarantined depth,
+  figure caveats), exam-technique defaults in-content, memorisation demand markers (PED-03);
+  mechanism-first explanations, equilibrium ladder with visible demonstration,
+  inference-from-observation pattern (PED-04); practice-design front matter, raw-data practice
+  items, unseen-context transfer items (PED-05); summary checklists, drawing-notation hints,
+  worked examples re-supplying their own data (PED-06); family re-derivation openers,
+  classification by announced cross-chapter criteria, thread-gathering chapter openers
+  (PED-07); observation-to-inference scaffolds, name-decoding scaffolds, origin-narrative
+  scaffolds (PED-08); strictly-speaking approximation boundaries, diagnostic decision ladders,
+  vocabulary-boundary warnings (PED-09).
+- GATES: r3 evidence-claim QA on deployed bodies BEFORE receipts = 302 citations / 0
+  violations across 14 artifacts; validator qa 0 errors / 0 warnings x14 content-bound;
+  stage x14 (SIB-ING-002) -> publish x14 (QA re-verified) -> chunks x14; run_manifest
+  add-artifact x14 (7 gates each) + validate OK; post-lifecycle validate-manifest =
+  the byte-exact F4a-disclosed red state ({SIB-MANI-007: 88, SIB-MANI-011: 4,
+  SIB-MANI-012: 7}; landing zones empty by design) — OBSERVED + DISCLOSED, never worked
+  around.
+- HONEST DEPTH OUTCOME: PRA median ~1,102 -> 1,693 words (+54%); PED median ~1,119 -> 1,696
+  words (+52%); tranche totals 15,674 -> 24,094 words (+8,420); REQUIRED-core ~128,209 ->
+  ~136,629 words; records 667 -> 709. Final numbers of record in
+  runs/SIB-CHEMISTRY_4CH1-RUN-020/census.json (published-file shas).
+- D3 STATUS: stays REGISTERED — tranches T5 (TUT) and T6 (GAP) pending; TUT (and EXP)
+  gated on the operator-side SB1 publisher-eBook upgrade (RUN-011 register line), honored
+  by tranche ordering; MIS/CUR/EXP confirm-clean only. Register beyond D3 unchanged: D6
+  (single-pipeline self-attestation structural limit), F4 (upstream validator fix, master
+  repo tools/sib lane), and the independent silver-tier ER review before production reliance.
+- Library-side dual record: SubjectIntelligence/WORKLOG.md RUN-020 entry (this); repo run
+  record runs/SIB-CHEMISTRY_4CH1-RUN-020/ complete (plan_of_record, advance_disclosure,
+  advance_commits, pack_carry, source_pin_state, census_pre, census, stamp_receipt,
+  evidence_claim_qa_report, lifecycle_receipt, post_lifecycle_scoreboard, run_manifest,
+  staged/, bodies/, evidence/).

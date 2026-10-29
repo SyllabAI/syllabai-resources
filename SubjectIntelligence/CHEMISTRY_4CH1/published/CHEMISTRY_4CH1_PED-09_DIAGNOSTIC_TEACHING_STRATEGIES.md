@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-09
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-09 — Diagnostic Teaching Strategies
@@ -77,6 +77,7 @@ two water tests, the recurring branched-polymer drawing difficulty, wrong-term
 mark loss — and show partial-credit patterns. The topic guides model the full
 diagnostic loop for the hardest topic: name the difficulty, ground it in
 research, then route to the repair instrument.
+The deepened records extend the diagnostic claim into the book's own approximations and vocabulary: the strictly-speaking passages that fix where the classroom statement stops being exactly true (room temperature's range, sodium's molten state, the molar-volume unit), the decision ladder that locates an unknown metal on the reactivity series from water and acid observations, and the vocabulary-boundary warnings that police what the discipline's own words cover.
 
 ## Main Analysis
 
@@ -179,6 +180,22 @@ principle-first treatment is counterproductive (SRC-TL-4CH1,
 Chemical-equilibrium---FINAL.pdf p 2). Temporal scope: CURRENT —
 AUTHORITATIVE.
 
+### PED-087 — Strictly-speaking diagnostics fix the boundary of the taught approximation
+
+**Claim:** the book diagnoses its own teaching approximations: where the classroom statement is not exactly true, it says so and fixes the boundary — the room-temperature range, sodium's physical state, the molar-volume unit.
+**Evidence:** room temperature is disclosed as a convention — "in science it is usually taken to mean a temperature between 20 and 25 °C" — with the comparison discipline attached: "for changes of state that occur near room temperature we must be careful when making comparisons and make clear what value is being used as room temperature" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 31); the sodium-water equation carries its own state-symbol caveat — "Strictly speaking, most of the time the sodium is reacting it is present as molten sodium, not solid sodium." and "Writing (l) for the state symbol has the potential to confuse an examiner and is probably best avoided!" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 417); the molar-volume unit is fenced as extension: "To be absolutely 100% correct, the molar volume has units of dm³/mol or cm³/mol." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 241).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-088 — A diagnostic decision ladder locates an unknown metal
+
+**Claim:** the reactivity series is taught with an explicit diagnostic procedure: a branching observation ladder that places an unknown metal from water and acid tests alone.
+**Evidence:** the ladder runs in ordered branches — "Add a very small piece of metal to some cold water." and "If there is any rapid reaction, then the metal must be above magnesium in the reactivity series." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 531); each negative branches to the next probe (cold acid, then warmed acid), and the ladder terminates in a bounded placement: "If there is still no reaction, the metal is probably below hydrogen in the reactivity series." while "If there is a reaction, then it is somewhere between magnesium and hydrogen." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 531).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-089 — Vocabulary-boundary diagnostics police what the terms themselves cover
+
+**Claim:** the book teaches learners to read vocabulary diagnostically: term boundaries are marked (rusting versus corrosion), term correctness is demanded at the point of highest confusion (the electrodes), and name precision is flagged as load-bearing (ethane versus ethene).
+**Evidence:** the boundary warning is explicit — "Many metals corrode, but it is only the corrosion of iron that is referred to as rusting." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 533); the electrode terminology demand runs "It is really important to use the correct terms when talking about the reactions at the electrodes." down to the pair-level ban: "Do not confuse bromide and bromine." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 364); and the organic names carry the same precision flag — "even one different letter in the name can matter" because "ethane and ethene are completely different compounds" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 319).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (warning, hint, and appendix chunks at
@@ -190,18 +207,8 @@ Bounded excerpts with locators preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Diagnostics are catalogued from this pack's query windows; the full warning
-inventory across all chapters is neither enumerated nor denied. Examiner
-sentiment is cited only from the report pages in this pack, with session
-identity carried by the pack file paths; no examiner sentiment is synthesized
-from mark schemes. OCR-era quirks (a doubled KEY POINT stamp, garbled
-parentheticals) are quoted as parsed or paraphrased, never repaired. The legacy
-examiner-report entry is present for identity only; no legacy claim is made. No
-canonical planes were written.
+This artifact catalogues the diagnostic teaching strategies visible in its pack's excerpt windows; strategies outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so diagnostic detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (doubled KEY POINT stamps repeating whole sentences, ionic superscripts as parsed) are quoted as parsed or paraphrased, never repaired. Examiner-report and bonding-guide windows cited by pre-existing records remain their planes of record; no new ER or guide claims were added. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-087..089) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

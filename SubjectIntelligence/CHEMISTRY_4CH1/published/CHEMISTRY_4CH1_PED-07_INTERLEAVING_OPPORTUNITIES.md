@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-07
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-07 — Interleaving Opportunities
@@ -80,6 +80,7 @@ Cambridge 0620 against 4CH1 — making cross-specification interleaving a planne
 inspectable structure rather than an accident of authorship. The Getting Started
 Guide's experimental-skills statements (variables, analysis, communication,
 reliability) describe skills that recur across every practical thread.
+The deepened records extend the interleaving claim into family derivation, classification structure, and thread-gathering openers: the Group 1 launch that re-applies Unit 1's electronic-configuration machinery to generate the family, the metals/non-metals classification that runs on two announced criteria each of which is itself a cross-chapter construction, and the electrolysis chapter that opens by contrasting every conduction behaviour met so far into one chemical-change frame.
 
 ## Main Analysis
 
@@ -167,6 +168,22 @@ air and vessel — instantiating that reliability band inside a specific thread
 (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 738).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PED-081 — Unit 2 opens by re-deriving its families from Unit 1's machinery
+
+**Claim:** the Group 1 launch applies Unit 1's electronic-configuration machinery to generate the family: placement is justified jointly by the outer-shell count and by the property parallelism that the configuration predicts.
+**Evidence:** the dual justification is stated — "There are two reasons that we put these elements in Group 1:" — first "They all have one electron in their outer shell." and second "They have similar chemical properties, for example:" with the parallel reactions listed formula-wise — "they all react with water (this will be discussed below) in the same way to form a hydroxide with the formula MOH" across LiOH/NaOH, the M2O oxides and the MX halides (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 414).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-082 — Classification runs on two announced criteria, each a cross-chapter construction
+
+**Claim:** the metals/non-metals classification is built on two criteria announced up front — electrical conductivity and oxide acid-base character — and both criteria threads are themselves constructions the book assembles across chapters, with the exceptions carved out explicitly.
+**Evidence:** the criteria are named before any explanation — "Here, we will use two main ones to classify them: electrical conductivity and the acid-base character of their oxides." — and each is handed to its own later chapter: "The reason that metals conduct electricity will be explained in Chapter 9 (it is due to the presence of delocalised electrons that are free to move)." and "The reactions between bases and acids will be discussed in more detail in Chapter 17." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 130); the classification is fenced with its exceptions in the same breath — "there are a few exceptions, such as graphite (a form of carbon) and silicon." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 130).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-083 — The electrolysis chapter opens by gathering the conduction threads
+
+**Claim:** the electrolysis chapter's opener gathers every conduction behaviour met so far into one frame — what changes and what does not when electricity passes — so the chemical-change cases stand out against the merely-heating cases.
+**Evidence:** the frame is the chapter's first move — "In this chapter we will look at what happens when we pass electricity through various substances." — with the contrast drawn: copper only "gets hot", while "when you pass electricity through a solution of potassium iodide, a chemical change occurs, and hydrogen gas and iodine are formed." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 353); the molten-compound section then supplies the observation protocol — "Nothing at all happens until the lead(Il) bromide melts." before the bulb and the electrode products appear (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 361).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (the two mapping guides and the Getting Started
@@ -179,17 +196,8 @@ Bounded excerpts with locators preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Interleaving claims are bounded by this pack's query windows; the complete
-LOOKING AHEAD and PRACTICAL inventories are neither enumerated nor denied. The
-Cambridge mapping guide's row-level equivalences are cited at the
-qualification-at-a-glance level its excerpted pages show. OCR-era quirks of the
-book parse (doubled skill tags, stray glyphs) are quoted as parsed or
-paraphrased, never repaired. The legacy examiner-report entry is present for
-identity only; no legacy claim is made. No canonical planes were written.
+This artifact catalogues the interleaving opportunities visible in its pack's excerpt windows; opportunities outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so interleaving detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (the doubled figure caption in the electrolysis opener, 'lead(Il)' tokens) are quoted as parsed or paraphrased, never repaired. The mapping-guide and Cambridge-mapping windows cited by the pre-existing record remain the TL plane of record; the scheme-of-work document is present in the pack as an identity-presence entry without excerpt windows and is not cited. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-081..083) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

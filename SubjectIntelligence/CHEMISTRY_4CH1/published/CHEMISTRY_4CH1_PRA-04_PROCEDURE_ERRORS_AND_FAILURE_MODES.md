@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRA-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PRA-04 — Procedure Errors and Failure Modes
@@ -77,6 +77,7 @@ variant tolerance. The official mark schemes then encode the exam-side failure
 modes as classes — IGNORE clear (echoing the colourless-not-clear rule), REJECT
 for a named wrong observation, ALLOW ranges for acceptable colour variants — so
 the failure taxonomy of the lab and the mark scheme face the same way.
+The deepened records extend the failure-mode claim into the data plane: the book's own question procedures carry the processing law (best-fit lines, anomaly identification with corrected readings, and comparability of conditions across results), the approximation disclosures that name where a calculation stops being exact and offer the instrument upgrade (a pH meter over indicator, a solubility experiment over a volume-assuming calculation), and the exam's own pricing of method improvement as linked explanation pairs with error-attribution classes.
 
 ## Main Analysis
 
@@ -163,6 +164,22 @@ variable consideration the first step of an investigation (SRC-TL-4CH1,
 practical-terminology-in-int-gcse-science.pdf p 4). Temporal scope: CURRENT —
 AUTHORITATIVE.
 
+### PRA-042 — The book's question procedures carry an in-procedure data-processing law
+
+**Claim:** procedure intelligence extends past bench work into the data plane: the book's question procedures demand best-fit plotting, anomaly identification with corrected readings, and comparability of conditions across results.
+**Evidence:** the plotting demand is stated directly — "Plot these results on a piece of graph paper and draw a straight line of best fit." — and the anomaly demand couples detection with repair: "Identify the anomalous point and suggest the volume of gas that should have been obtained for that time." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 708); comparability is priced as a choice — "Calculate the volume of water the student should have used for the result to be comparable with the other four" — and the anomaly hunt recurs with named candidate causes on the rate graph (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 858).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-043 — The book discloses its own approximations and offers the instrument upgrade
+
+**Claim:** where a procedure's arithmetic is only approximate, the book says so in the procedure and routes the student to a more accurate experiment or instrument — approximation is disclosed, never hidden.
+**Evidence:** the solubility calculation is flagged in the question itself — "The calculation used in d gives only an approximate value for the solubility because the volume changes when a substance is dissolved in water." — and the upgrade is a full experimental redesign: "Describe an experiment that the student could carry out to determine a more accurate value for how much strontium hydroxide dissolves in 100g of water at this temperature." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 400); the instrument upgrade is stated as a hint: "You can measure pH much more accurately using a pH meter." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 572).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-044 — The exam prices method improvement as linked explanation pairs with error-attribution classes
+
+**Claim:** the official mark schemes examine method improvement as linked pairs — an apparatus or indicator change plus its precision consequence — and attribute lost accuracy to named procedural error classes.
+**Evidence:** the demand is explicit, "Explain two improvements to the student’s method so that more accurate results are obtained.", and the grammar is fixed: "An explanation that links two of the following pairs" (SRC-QPMS-4CH1, 2022-06/4CH1-2CR/questions.md lines 537-551); the priced pairs run pipette-precision against cylinder — "a pipette is more precise/a measuring cylinder is" — and a sharp end-point against indicator spread, methyl orange/phenolphthalein/litmus replacing universal indicator (SRC-QPMS-4CH1, 2022-06/4CH1-2CR/questions.md lines 548-562); the error-attribution class list admits any one of the procedural causes — "some gas escapes before the bung is" replaced or connected, "the magnesium is impure/ the magnesium" ribbon oxidised, and "ALLOW some gas dissolves in" the acid (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1076-1090).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (safety-note, error-source, evaluation and
@@ -174,17 +191,8 @@ the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Safety notes are catalogued from this pack's excerpt windows; the full
-safety-note inventory across all procedures is neither enumerated nor denied.
-Mark-scheme classes are cited only as they appear in this pack's excerpt windows
-for one paper; the MS family owns the systematic mark-point layer. No examiner
-sentiment is synthesized from mark schemes, and no mark_points plane data is
-consumed or written. OCR-era quirks are quoted as parsed or paraphrased, never
-repaired. No canonical planes were written.
+This artifact catalogues the failure modes and error classes visible in its pack's excerpt windows; classes outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so error-class detail outside the captured surface is neither quoted nor denied. Mark-scheme text is quoted as parsed — the source markdown hard-wraps scheme columns, so quoted fragments are read across the wrap and OCR quirks (the '(ε)' mark token) are preserved, never repaired. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PRA-042..044) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

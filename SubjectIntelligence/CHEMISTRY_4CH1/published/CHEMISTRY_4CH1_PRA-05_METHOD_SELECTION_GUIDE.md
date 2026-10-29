@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRA-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PRA-05 — Method Selection Guide
@@ -76,6 +76,7 @@ selection menu — every procedure indexed to its spec code — and the
 specification demands described methods as statements. On the exam face,
 selection competence is assessed by mistake-analysis: explaining what a student
 did wrong when setting up an investigation.
+The deepened records extend the selection claim into its inner structure: the two designated preparation routes taught as full procedures with their own purity disciplines (an endpoint read from excess solid and a glass-rod saturation test, against a washed-and-dried precipitate), the single cup-calorimetry template generalised across displacement, dissolving and neutralisation with the measured extremum flipping between maximum and minimum, and the sequencing law that puts acid-reaction chemistry — with its reactivity-series violence ceiling — before any salt-preparation method.
 
 ## Main Analysis
 
@@ -158,6 +159,22 @@ investigation with "PRACTICAL: QUANTITATIVE ELECTROLYSIS" opening
 obtained (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 390).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PRA-045 — The two preparation routes carry their own endpoint and purity disciplines
+
+**Claim:** the designated preparation procedures are taught with route-specific discipline: the excess-solid route reads its own endpoint and saturation state, while the precipitation route washes and dries the insoluble product clean of everything else.
+**Evidence:** the copper(II) sulfate route states its endpoint law — "At this stage, we have added excess copper(Ill) oxide - there is more than enough to react with all the acid present." so "When there is copper(II) oxide left, we know that all the acid has been neutralised." — and its saturation test: "If crystals form on the glass rod when we remove it we know that the solution is very close to saturated" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 617); the lead(II) sulfate route prices purity in washing terms — "Wash the residue with distilled water by pouring a 20 cm³ portion (the amount is not important) into the filter paper" — and gives the reason: "We must wash the lead(II) sulfate with distilled (pure) water because tap water contains dissolved substances." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 633).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-046 — One calorimetry template, many reaction classes
+
+**Claim:** the book generalises a single cup-calorimetry template across reaction classes — displacement, dissolving, neutralisation — reusing the same apparatus pattern while the measured extremum flips with the reaction's heat direction.
+**Evidence:** the generalisation is stated once and instantiated repeatedly — "You can use very similar methods for measuring molar enthalpy changes in displacement reactions" (with dissolving and neutralisation named alongside), and the water role is reframed: "These experiments also involve heating water, but this time the water is part of the solutions we are using." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 740); the displacement procedure closes on "Record the maximum temperature reached." while the dissolving procedure closes on "Record the minimum temperature." — the template identical, the extremum inverted (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 742, line 748).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-047 — Method selection is sequenced behind prerequisite chemistry
+
+**Claim:** the book orders its practical methods: acid-reaction chemistry — with the reactivity series as both the predictive frame and the violence ceiling — is taught before salt preparation, and the series itself is designated as built from reaction classes.
+**Evidence:** the sequencing is explicit — "Before we look at some practical methods to make salts, we need to study the reactions of acids." — and the acid rules are series-indexed: "Metals below hydrogen in the series don't react with dilute acids." while "The higher the metal is in the reactivity series, the more vigorous the reaction." with the safety ceiling "You would never mix metals such as sodium or potassium with acids because their reactions are too violent." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 603); the series is constructed from designated evidence classes — "Understand how metals can be arranged in a reactivity series based on their reactions with:" water, dilute acids and displacement pairs — down to the fixed order from potassium to gold (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 491).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (route-split, method-variant, and bank
@@ -169,17 +186,8 @@ caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-The selection rules catalogued are those visible in this pack's excerpt windows;
-further variant families outside the windows are neither enumerated nor denied.
-The core-practicals guide's chemistry-section roster is cited through its index
-pages and one chemistry entry; the full chemistry roster is indexed in the
-library's curriculum registry and consumed family-wide. OCR-era quirks are
-quoted as parsed or paraphrased, never repaired. No examiner sentiment is
-synthesized from mark schemes. No canonical planes were written.
+This artifact catalogues the method-selection patterns visible in its pack's excerpt windows; selection rules outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so selection detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (the '(Ill)' oxide token, doubled MASH reminder stamps) are quoted as parsed or paraphrased, never repaired. The soluble-salt titration route for sodium/potassium/ammonium salts lies outside this pack's captured windows and is not claimed here. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PRA-045..047) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

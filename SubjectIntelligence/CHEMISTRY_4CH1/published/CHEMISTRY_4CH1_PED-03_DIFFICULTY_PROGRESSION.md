@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-03 — Difficulty Progression
@@ -75,6 +75,7 @@ own demand (drawing smooth curves is named as harder, with the
 significant-figures rule supplied as the guardrail). At spec level, progression
 is a design commitment: the qualification states what prior learning it builds
 on and names the further study its skills support.
+The deepened records extend the difficulty-progression claim into the book's honesty and demand layers: the in-prose disclosures of where its own models are simplified (the sodium-chlorine simplification, the beyond-syllabus subshell model, the fractionating disagreement pinned to the specification's version), the exam-technique defaults taught inside the content (the displayed-formula rule with its marks rationale and its time-cost trade-off), and the memorisation demands marked at the point of use ('Two important facts', 'You will have to remember this').
 
 ## Main Analysis
 
@@ -165,6 +166,22 @@ in chemistry and a range of other subjects" (SRC-SPEC-4CH1,
 international-gcse-chemistry-2017-specification.pdf p 11). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### PED-069 — The book discloses where its own models are simplified
+
+**Claim:** difficulty honesty runs through the prose: the book marks its own simplifications, quarantines the fuller model behind extension material, and admits where even its figures disagree with other sources while pinning the version of record to the specification.
+**Evidence:** the ionic-model shortcut is flagged at the point of use — "This is a simplification! In reality, you don't react sodium with chlorine atoms, but with chlorine molecules, Cl2." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 267); the true shell model is quarantined as extension — "The third shell can actually hold up to 18 electrons." because filling order "requires a more advanced understanding of electronic configurations" — and the Periodic Table's own printed shape is disclosed as a readability simplification (the lanthanoids and actinoids pulled out of place because everything "has to be drawn slightly smaller to fit on the page") (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 113); the fractions figure carries its own caveat — "You will find a lot of disagreement, from various sources, about exactly what fractions are produced in fractional distillation." with "Figure 23.3 matches the requirements of the Edexcel International GCSE specification, but this is a major simplification of what really goes on." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 920).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-070 — Exam-technique defaults are taught inside the content
+
+**Claim:** the organic chapters carry their exam-technique defaults as content: the displayed-formula rule with its marks rationale, and the time-cost trade-off that licenses the simplified form in equations.
+**Evidence:** the default is stated as a KEY POINT — "If you are asked to draw the structure for a molecule in an International GCSE exam, always draw it as a displayed formula." — with the rationale attached: "You can't lose any marks by doing this, whereas you might if you use the simplified form." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 875); the trade-off is then priced — "drawing a fully displayed formula is very time-consuming" for anything but the smallest molecules, so the simplified form is licensed for structures inside equations (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 878).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-071 — Memorisation demand is marked at the point of use
+
+**Claim:** the book marks which facts must be memorised rather than derived, at the exact point where the dependent procedure needs them.
+**Evidence:** the Periodic Table's load-bearing rule is fenced as a stated pair — "Two important facts:" beginning "Elements in the same group in the Periodic Table have the same number of electrons in their outer shell." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 119); the formula-building procedure pins its ion inventory the same way — "Barium is in Group 2, so the ion is Ba²+." and "Nitrate ions are NO3-." are followed by the explicit demand "You will have to remember this." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 288).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (graded headers, extension boxes,
@@ -178,18 +195,8 @@ Bounded excerpts with locators preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-The difficulty devices catalogued are those visible in this pack's query windows;
-other graded headers outside the window are neither enumerated nor denied. The
-Getting Started Guide's planning pages remain context only — no intra-week
-difficulty claim is made from them. OCR-era quirks of the book parse (for
-example a doubled equation explained in a KEY POINT, and stacked skills tags
-rendered without spaces) are quoted as parsed or paraphrased, never repaired.
-The legacy examiner-report entry is present for identity only; no legacy claim
-is made. No canonical planes were written.
+This artifact catalogues the difficulty-progression structures visible in its pack's excerpt windows; structures outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so progression detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (the run-together heading/sentence in the structural-formula window, superscript ions as parsed) are quoted as parsed or paraphrased, never repaired. The 2016 legacy ER window is present as an identity-presence entry and is not cited. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-069..071) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.
