@@ -31,6 +31,13 @@ accepts it, and **no third-party content text ships** — see licensing below.
   `textOfRecordUnder` pointers) — 299 corpus-sweep candidates: 220 routed to recorded homes,
   never forced (AGENT.md rule 3).
 
+- `cie-a-level-maths-20-pure-2-algebra.json` — schema `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-P2-1`: the CIE 9709 Pure 2 spec points (2.1.1–2.1.2) enriched entirely by cross-course twin joins of record — 31 cross-lane rows riding of-record pure-1/pure-3 bodies via `textOfRecordUnder` (the circular-slice precedent), 0 fresh bodies, 0 fresh psp rows (the lane-16 law).
+- `cie-a-level-maths-20-pure-2-logarithmic-and-exponential-functions.json` — schema `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-P2-1`: the CIE 9709 Pure 2 spec points (2.2.1–2.2.4) enriched entirely by cross-course twin joins of record — 39 cross-lane rows riding of-record pure-1/pure-3 bodies via `textOfRecordUnder` (the circular-slice precedent), 0 fresh bodies, 0 fresh psp rows (the lane-16 law).
+- `cie-a-level-maths-20-pure-2-trigonometry.json` — schema `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-P2-1`: the CIE 9709 Pure 2 spec points (2.3.1–2.3.2) enriched entirely by cross-course twin joins of record — 28 cross-lane rows riding of-record pure-1/pure-3 bodies via `textOfRecordUnder` (the circular-slice precedent), 0 fresh bodies, 0 fresh psp rows (the lane-16 law).
+- `cie-a-level-maths-20-pure-2-differentiation.json` — schema `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-P2-1`: the CIE 9709 Pure 2 spec points (2.4.1–2.4.3) enriched entirely by cross-course twin joins of record — 41 cross-lane rows riding of-record pure-1/pure-3 bodies via `textOfRecordUnder` (the circular-slice precedent), 0 fresh bodies, 0 fresh psp rows (the lane-16 law).
+- `cie-a-level-maths-20-pure-2-integration.json` — schema `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-P2-1`: the CIE 9709 Pure 2 spec points (2.5.1–2.5.3) enriched entirely by cross-course twin joins of record — 20 cross-lane rows riding of-record pure-1/pure-3 bodies via `textOfRecordUnder` (the circular-slice precedent), 0 fresh bodies, 0 fresh psp rows (the lane-16 law).
+- `cie-a-level-maths-20-pure-2-numerical-solution-of-equations.json` — schema `syllabai.ugm-spec-enrichment/1.0`, task `T-UGM-P2-1`: the CIE 9709 Pure 2 spec points (2.6.1–2.6.3) enriched entirely by cross-course twin joins of record — 7 cross-lane rows riding of-record pure-1/pure-3 bodies via `textOfRecordUnder` (the circular-slice precedent), 0 fresh bodies, 0 fresh psp rows (the lane-16 law).
+
 ## What is and is not here
 
 **Is (mode-1 facts):** UGM slugs, titles, resource types, levels,
@@ -227,6 +234,9 @@ there. Nothing in this directory renders or embeds UGM content.
   control and the differential-equations 0 control; matrices id 17 likewise 0) — the 855/25 corpus of record is
   final. No coverage is manufactured (rule 3): the corpus poverty is the site's, disclosed not repaired.
 
+
+
+- **Lane 18 (P2) — the CIE 9709 Pure 2 COURSE PLANE (T-UGM-P2-1)** — the **NEW COURSE PLANE of record** (operator order trace `1a188fcae3769975`, resolving the lane-17 pointer “further UGM lanes need a new course plane, operator's call”): the 2023-2025 Paper 2 spine 2.1.1-2.6.3 adjudicated against the syllabus PDF of record (sha1 `997e5a9f`) — **16/17 spec points are verbatim twins of Paper 3 codes** (9 spine-verbatim, 7 pdf-verbatim with the spine-parse divergence disclosed; `2.1.2` carries the spine's three-bullet merge of 3.1.2+3.1.3+3.1.4), and **`2.5.3` trapezium rule is P2-UNIQUE** (no Paper 3 bullet). Census: **166 cross-lane rows = 161 one-to-many twin joins + 5 trapezium flips (approximating-areas, r5642, r7903, r8140, underneath-the-arches — each routed “beyond spec” of record by the P1/P3 lanes, realized by the P2-unique bullet) + 2 standing-home joins (r6592, r7912)**; ALL 17 spec points carry rows — zero honest gaps; 1 depth-guard hold (integral-chasing-2 @ 2.5.1 — by-parts is Paper-3-only, the lane-8-style beyond-spec law applied in the P2 direction) and 1 capture-gap companion (r5324 — never forced, rule 3). Facts only; zero body text moves; no MANIFEST touch (zero corpus files added, the #55 sibling law). Cross-map `cross-map-p2-full-course.json` + the FIRST pure-2 spine export @ syllabai-experimental `08404b34`.
 
 ## Rights
 

@@ -1,0 +1,278 @@
+{
+ "board": "Cambridge CIE",
+ "course": "cie-a-level-maths-20-pure-2",
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 7,
+  "substrateResources": 0,
+  "ugmResourcesConsidered": 7,
+  "aligned": 0,
+  "alignedSubstrate": 0,
+  "nonOverlap": 0,
+  "crossLaneAligned": 7,
+  "rejectedOfRecord": 0,
+  "alignedShare": 0.0,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 7,
+   "flips": 0,
+   "oneToMany": 7,
+   "note": "the pure-2 course-plane law: every aligned row rides an of-record body under the pure-1/pure-3 capture dirs via textOfRecordUnder (the circular-slice precedent, lane-14 r8404); no body text moves, no new capture; fresh-only psp counting (the lane-16 law)"
+  },
+  "stationBreakdown": {
+   "geometry-of-equations": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "circles": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "exp-and-log": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "calculus-of-powers": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "polynomials": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "sequences": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "thinking-about-numbers": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   }
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r5948",
+   "station": "geometry-of-equations",
+   "title": "Can we calculate an approximation to the root of this function?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5948",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.1 is the twin of Paper 3 3.6.1. Prior alignment of record: 1.3.1 (pure-1-coordinate-geometry; T-UGM-MODE1-3); 1.3.2 (pure-1-coordinate-geometry; T-UGM-MODE1-3); 3.6.1 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “The well derives the chord-intercept approximation (af(b) - bf(a))/(f(b) - f(a)) from the sign-bracketed interval f(a) < 0 < f(b) and applies it to x^2 + x^(1/2) - 37 = 0 ('find two consecutive integers between which a root lies... calculate an approximation…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.3.1 (pure-1-coordinate-geometry; T-UGM-MODE1-3); 1.3.2 (pure-1-coordinate-geometry; T-UGM-MODE1-3); 3.6.1 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry/r5948-can-we-calculate-an-approximation-to-the-root-of-this-function.md"
+  },
+  {
+   "ugmSlug": "r7549",
+   "station": "circles",
+   "title": "Can we show this quartic equation has exactly two real roots?",
+   "url": "https://undergroundmathematics.org/circles/r7549",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.1 is the twin of Paper 3 3.6.1. Prior alignment of record: 1.3.2 (pure-1-coordinate-geometry; T-UGM-MODE1-3); 3.6.1 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “'Find the positive root of the equation correct to one decimal place': the solution reads ~1.4 off the sketch (graphical consideration), tabulates f(1.3)/f(1.4)/f(1.5), and applies the continuity + sign-change law ('As there is a sign change and the function…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.3.2 (pure-1-coordinate-geometry; T-UGM-MODE1-3); 3.6.1 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry/r7549-can-we-show-this-quartic-equation-has-exactly-two-real-roots.md"
+  },
+  {
+   "ugmSlug": "r8013",
+   "station": "exp-and-log",
+   "title": "When does this exponential function equal this linear one?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r8013",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.1 is the twin of Paper 3 3.6.1. Prior alignment of record: 3.6.1 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “The well demands the graph then 'Use your graph to find the roots of the equation 3^x=3x+2'; the solution reads both intersections off the plot to two decimal places (x=-0.48 and x=1.83, checked against the exact -0.4673.../1.8344...) - locating roots by grap…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.6.1 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-iteration/r8013-when-does-this-exponential-function-equal-this-linear-one.md"
+  },
+  {
+   "ugmSlug": "r8231",
+   "station": "calculus-of-powers",
+   "title": "A cubic has one real root—can we find an approximation to it?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.1 is the twin of Paper 3 3.6.1. Prior alignment of record: 1.7.3 (pure-1-differentiation; T-UGM-MODE1-7); 3.6.1 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14); 3.6.1/3.6.3 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “Method 1 is trial-and-improvement interval refinement to three decimal places; Method 3 is the Newton-Raphson iteration in x_{n+1} notation ('x_{n+1} = x_n - f(x_n)/f'(x_n)', here x_{n+1} = x_n - (x^3+3x^2-3)/(3x^2+6x)); and the uniqueness argument ('since th…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.1",
+    "2.6.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.7.3 (pure-1-differentiation; T-UGM-MODE1-7); 3.6.1 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14); 3.6.1/3.6.3 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/r8231-a-cubic-has-one-real-rootcan-we-find-an-approximation-to-it.md"
+  },
+  {
+   "ugmSlug": "r8711",
+   "station": "polynomials",
+   "title": "How many real roots does this cubic polynomial have?",
+   "url": "https://undergroundmathematics.org/polynomials/r8711",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.1 is the twin of Paper 3 3.6.1. Prior alignment of record: 3.6.1 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “The purest sign-change search in the corpus: the solution tabulates f(x) across x=-2..6, reads three sign changes bracketing three real roots ('one between x=-2 and x=-1; one between 1 and 2; a third between 5 and 6'), then hones the negative root between -1.…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.6.1 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-iteration/r8711-how-many-real-roots-does-this-cubic-polynomial-have.md"
+  },
+  {
+   "ugmSlug": "r8404",
+   "station": "sequences",
+   "title": "If $x_1 = (x_0 + 2)/(x_0 + 1)$, can we show $\\sqrt{2}$ lies between $x_0$ and $x_1$?",
+   "url": "https://undergroundmathematics.org/sequences/r8404",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.2 is the twin of Paper 3 3.6.2. Prior alignment of record: 3.6.2 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14); 3.6.2/3.6.3 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “The solution names the machinery verbatim ('Thus we have in action here the x = g(x) iteration, or the rearrangement method, where we start with f(x) = 0, and move to x = g(x)'), proves the alternating bracketing of sqrt(2) by consecutive terms, establishes t…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.2",
+    "2.6.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.6.2 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14); 3.6.2/3.6.3 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series/r8404-if-x1-x0-2x0-1-can-we-show-sqrt2-lies-between-x0-and-x1.md"
+  },
+  {
+   "ugmSlug": "staircase-sequences",
+   "station": "thinking-about-numbers",
+   "title": "Staircase sequences",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences",
+   "resourceType": "Investigation",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.6.2 is the twin of Paper 3 3.6.2. Prior alignment of record: 3.6.2 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14) — prior evidence: “The solution sets up the self-similar fixed point ('If I call that x... x seems to reappear inside itself: x = 1 + 1/x'), rearranges to x^2 - x - 1 = 0 and identifies the limit as its positive root (1+sqrt(5))/2, with the term table (1, 2, 1.5, 1.666..., 1.6,…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.6.2",
+    "2.6.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.6.2 (pure-3-iteration; T-UGM-MODE1-14); 3.6.3 (pure-3-iteration; T-UGM-MODE1-14)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-iteration/staircase-sequences-staircase-sequences.md"
+  }
+ ],
+ "generated_utc": "2026-10-29T00:00:00Z",
+ "licensing": {
+  "law": "facts-only enrichment (mode 1): spec codes, titles, URLs, resource types, confidence and evidence strings — no UGM body text in this file (text of record lives in UGM-Resources/ under the attestation)",
+  "rights": "© University of Cambridge (Underground Mathematics); see UGM-Resources/README.md and LICENSE-DATA.md"
+ },
+ "mode2Note": "modesRecorded reflects the cross-map's mode flags of record: [1] facts; no Mode-2 rendering.",
+ "nonOverlapRows": [],
+ "perSpecPoint": {
+  "2.6.1": {
+   "officialCode": "2.6.1",
+   "officialText": "locate approximately a root of an equation, by means of graphical considerations and/or searching for a sign change",
+   "spineTitleVerbatim": "locate approximately a root of an equation, by means of graphical considerations and/or searching for a sign change",
+   "primaryPick": "r5948",
+   "resources": []
+  },
+  "2.6.2": {
+   "officialCode": "2.6.2",
+   "officialText": "understand the idea of, and use the notation for, a sequence of approximations which converges to a root of an equation",
+   "spineTitleVerbatim": "understand the idea of, and use the notation for, a sequence of approximations which converges to a root of an equation",
+   "primaryPick": "r8404",
+   "resources": []
+  },
+  "2.6.3": {
+   "officialCode": "2.6.3",
+   "officialText": "understand how a given simple iterative formula Knowledge of the condition for convergence is not of the form x = F( x ) relates to the equation included, but an understanding that an iteration may being solved, and use a given iteration, or an fail to converge is expected. iteration based on a given rearrangement of an equation, to determine a root to a prescribed degree of accuracy.",
+   "spineTitleVerbatim": "understand how a given simple iterative formula Knowledge of the condition for convergence is not of the form x = F( x ) relates to the equation included, but an understanding that an iteration may being solved, and use a given iteration, or an fail to converge is expected. iteration based on a given rearrangement of an equation, to determine a root to a prescribed degree of accuracy.",
+   "primaryPick": "r8231",
+   "resources": []
+  }
+ },
+ "qual": "cie-a-level-maths-2023-2025",
+ "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. The pure-2 course-plane lane (T-UGM-P2-1): 7 cross-lane rows join of-record bodies to the P2 twin spec points (PDF-of-record adjudication, sha1 997e5a9f…) — no coverage manufactured: every row cites its standing alignment of record or the P2-unique 2.5.3 realization; psp rows 0 = fresh-only counting (the lane-16 law); the depth guard of record held 0 join(s); 0 companion disclosure(s) carried, never collapsed."
+ },
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-p2-full-course.json",
+  "commit": "08404b3479870bf305673925b22f0af5eb326243 (cross-map lane 18, the P2 course plane)",
+  "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped (reverted to the link-module successor); Mode-4 doctrine via owning specs",
+  "capture_corpus": "undergroundmathematics/ P2 crawl + ugm-clean (855 resources, 25 stations)"
+ },
+ "stationScope": {
+  "note": "whole-course-plane lane: the stations are scattered by design — the P2 spec (2.1-2.6) is the AS-depth subset of the Paper 3 spine, so the of-record bodies ride their original capture dirs and join by reference; no P2 capture dirs exist or are needed",
+  "scope": "cross-course twin joins of record (P3/P1 bodies) + the P2-unique trapezium cluster",
+  "stations": [
+   "calculus-of-powers",
+   "circles",
+   "exp-and-log",
+   "geometry-of-equations",
+   "polynomials",
+   "sequences",
+   "thinking-about-numbers"
+  ]
+ },
+ "sweepRouting": {},
+ "task": "T-UGM-P2-1"
+}

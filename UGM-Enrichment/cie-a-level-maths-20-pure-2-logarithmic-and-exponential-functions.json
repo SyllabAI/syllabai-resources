@@ -1,0 +1,908 @@
+{
+ "board": "Cambridge CIE",
+ "course": "cie-a-level-maths-20-pure-2",
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 39,
+  "substrateResources": 0,
+  "ugmResourcesConsidered": 39,
+  "aligned": 0,
+  "alignedSubstrate": 0,
+  "nonOverlap": 0,
+  "crossLaneAligned": 39,
+  "rejectedOfRecord": 0,
+  "alignedShare": 0.0,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 39,
+   "flips": 0,
+   "oneToMany": 39,
+   "note": "the pure-2 course-plane law: every aligned row rides an of-record body under the pure-1/pure-3 capture dirs via textOfRecordUnder (the circular-slice precedent, lane-14 r8404); no body text moves, no new capture; fresh-only psp counting (the lane-16 law)"
+  },
+  "stationBreakdown": {
+   "exp-and-log": {
+    "resources": 33,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 33
+   },
+   "sequences": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "combining-functions": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 2
+   },
+   "calculus-trig-log": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   },
+   "thinking-about-algebra": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 2
+   }
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "calculators1950",
+   "station": "exp-and-log",
+   "title": "1950s calculators",
+   "url": "https://undergroundmathematics.org/exp-and-log/calculators1950",
+   "resourceType": "Building blocks",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log tables used to multiply: 'use logarithms to calculate, correct to three significant figures' the 1952 O-level expression - what logarithms are and how the laws do the work”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Exam question reproduced by permission of Cambridge Assessment Group Archives",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/calculators1950-1950s-calculators.md"
+  },
+  {
+   "ugmSlug": "changing-bases",
+   "station": "exp-and-log",
+   "title": "Changing bases",
+   "url": "https://undergroundmathematics.org/exp-and-log/changing-bases",
+   "resourceType": "Package of problems",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “2log_4 x = log_2 x and the y=log_5 x graph family - base relations derived from the definition of a logarithm as the index; the change-of-base FORMULA itself is not required, so the 3.2.1 exclusion is respected (prior routing of record: lane-5 '2.2')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/changing-bases-changing-bases.md"
+  },
+  {
+   "ugmSlug": "factorial-fragments",
+   "station": "exp-and-log",
+   "title": "Factorial fragments",
+   "url": "https://undergroundmathematics.org/exp-and-log/factorial-fragments",
+   "resourceType": "Fluency exercise",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log n! explored across values and bases - log(n!) = sum of log k generalisation and 'what happens if you change the base'; log-law fluency”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/factorial-fragments-factorial-fragments.md"
+  },
+  {
+   "ugmSlug": "log-lattice",
+   "station": "exp-and-log",
+   "title": "Logarithm lattice",
+   "url": "https://undergroundmathematics.org/exp-and-log/log-lattice",
+   "resourceType": "Fluency exercise",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “logarithms in different bases arranged into a grid 'without using a calculator' - bounds from indices plus monotonicity of log functions”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/log-lattice-logarithm-lattice.md"
+  },
+  {
+   "ugmSlug": "log-lineup",
+   "station": "exp-and-log",
+   "title": "Logarithm lineup",
+   "url": "https://undergroundmathematics.org/exp-and-log/log-lineup",
+   "resourceType": "Fluency exercise",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log_4 5, log_2 5, log_3 4, ... ordered without a calculator - exact values and index bounds (3^1<5<3^2); prior routing of record: lane-5 sweepRouting '2.2 Logarithmic and exponential functions'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/log-lineup-logarithm-lineup.md"
+  },
+  {
+   "ugmSlug": "proving-laws-of-logs",
+   "station": "exp-and-log",
+   "title": "Proving the laws of logarithms",
+   "url": "https://undergroundmathematics.org/exp-and-log/proving-laws-of-logs",
+   "resourceType": "Scaffolded task",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “card sort forming a proof that log_c a + log_c b = log_c ab 'for any a,b > 0 and c>0, but c != 1', generalised from numeric examples - the laws of logarithms proved from indices; the canonical 3.2.1 task”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/proving-laws-of-logs-proving-the-laws-of-logarithms.md"
+  },
+  {
+   "ugmSlug": "r5080",
+   "station": "exp-and-log",
+   "title": "Which is the smallest of these surd, log and trig expressions?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5080",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log_3(9^2)=2log_3 9=4 and log_2(log_2(8^5)) evaluated exactly against surd/trig competitors; prior routing of record: lane-5 sweepRouting '2.2 Logarithmic and exponential functions'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2012, Q1C",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r5080-which-is-the-smallest-of-these-surd-log-and-trig-expressions.md"
+  },
+  {
+   "ugmSlug": "r6137",
+   "station": "sequences",
+   "title": "How are the $p$th, $q$th and $r$th terms of an AP related?",
+   "url": "https://undergroundmathematics.org/sequences/r6137",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 1.6.3 (pure-1-series; T-UGM-MODE1-6); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “the geometrical limb proves (q-r)log P+(r-p)log Q+(p-q)log R=0 by taking logarithms of the GP relations - log of a product/power in use”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics 1, QP 186, 1951, Q1",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.6.3 (pure-1-series; T-UGM-MODE1-6); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series/r6137-how-are-the-pth-qth-and-rth-terms-of-an-ap-related.md"
+  },
+  {
+   "ugmSlug": "r6806",
+   "station": "exp-and-log",
+   "title": "If $yz=a^2$, can we prove that $1/(a+y) + 1/(a+z) = 1/a$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r6806",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “part (c) evaluates 2/(5(2+5log_b c)) + 1/(5+2log_c b) through the identity 1/(a+y)+1/(a+z)=1/a with log_b c · log_c b = 1 - the reciprocal relation read off the definition of the logarithm”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics 1 and Pure Mathematics 1, QP 417/1 and 447/1, 1963, Q1",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r6806-if-yza2-can-we-prove-that-1ay-1az-1a.md"
+  },
+  {
+   "ugmSlug": "r7184",
+   "station": "exp-and-log",
+   "title": "Which of these log and trig expressions is the largest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7184",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 1.5.1 (pure-1-trigonometry; T-UGM-MODE1-5); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log_2(5pi/4)>1 (5pi/4>2) while log_10(5pi/4)<1 (5pi/4<10) - the logarithm-as-index comparison inside the largest-value task”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1C",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.5.1 (pure-1-trigonometry; T-UGM-MODE1-5); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry/r7184-which-of-these-log-and-trig-expressions-is-the-largest.md"
+  },
+  {
+   "ugmSlug": "r7231",
+   "station": "exp-and-log",
+   "title": "Which is the largest of these four logarithms?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7231",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “largest of log_2 3, log_4 8, log_3 2, log_5 10 - 'if 0 < b < a then log_a b < 1' plus exact values (log_4 8 = 3/2)”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2010, Q1E",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7231-which-is-the-largest-of-these-four-logarithms.md"
+  },
+  {
+   "ugmSlug": "r7298",
+   "station": "exp-and-log",
+   "title": "Can we find these log expressions in terms of $\\log_9 x$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7298",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “u=log_9 x gives x=9^u 'by definition'; log_9(3x)=1/2+u by the product law; log_x 81 derived from the definition - 'answers may not contain the word log'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1966, Q5(i)",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7298-can-we-find-these-log-expressions-in-terms-of-log_9-x.md"
+  },
+  {
+   "ugmSlug": "r7471",
+   "station": "exp-and-log",
+   "title": "Can we use the laws of logs to find $x$ and $y$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7471",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log(4/9) - log(9/125) + 2log(9/5) simplified by the quotient and power laws 'where all logarithms are to base 10' to find x and y without tables”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1960, Q6 (ii)",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7471-can-we-use-the-laws-of-logs-to-find-x-and-y.md"
+  },
+  {
+   "ugmSlug": "r7607",
+   "station": "combining-functions",
+   "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r7607",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 1.2.1 (pure-1-functions; T-UGM-MODE1-2); 1.2.2 (pure-1-functions; T-UGM-MODE1-2); 1.2.3 (pure-1-functions; T-UGM-MODE1-2); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “h(x)+f(x)=log_a(1/x)+log_a x=0 - the logarithm law for 1/x inside the composite-function task of record”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics B 1, QP 9202/1, 1981, Q4",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.2.1 (pure-1-functions; T-UGM-MODE1-2); 1.2.2 (pure-1-functions; T-UGM-MODE1-2); 1.2.3 (pure-1-functions; T-UGM-MODE1-2); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions/r7607-can-we-find-the-ranges-of-f-and-g-and-the-function-f-circ-g.md"
+  },
+  {
+   "ugmSlug": "r9381",
+   "station": "exp-and-log",
+   "title": "Can we find bounds for $\\log_2 3$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9381",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “bounds for log_2 3 deduced from 2^3=8, 2^5=32, 3^2=9, 3^3=27 - the logarithm read as the index, with 'log_2 x is an increasing function'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1I",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r9381-can-we-find-bounds-for-log_2-3.md"
+  },
+  {
+   "ugmSlug": "r9680",
+   "station": "exp-and-log",
+   "title": "Which of these four log expressions is the smallest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9680",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “L=log_10 pi substitution rewrites all four candidates via the laws (log_10(pi^2)=2L, 1/log_10(sqrt(pi))=2/L) and index comparisons”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2008, Q1B",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r9680-which-of-these-four-log-expressions-is-the-smallest.md"
+  },
+  {
+   "ugmSlug": "r9976",
+   "station": "exp-and-log",
+   "title": "Can we evaluate  these log expressions without using a calculator?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9976",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “'Using the logarithm laws, we can rewrite the first two terms' - 2lg5 - (1/2)lg9 + lg0.12 evaluated without calculators from lg2=0.30103, lg3=0.47712 (lg x = log_10 x)”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES O level Mathematics Alternative A Algebra, QP 450/3, 1973, Q6(i,iii)",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r9976-can-we-evaluate-these-log-expressions-without-using-a-calculator.md"
+  },
+  {
+   "ugmSlug": "see-the-power",
+   "station": "exp-and-log",
+   "title": "See the power",
+   "url": "https://undergroundmathematics.org/exp-and-log/see-the-power",
+   "resourceType": "Building blocks",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.6.1 (pure-3-iteration; T-UGM-MODE1-14); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “The solution bounds x between 1.25 and 1.5 and narrows the bracket ('We could narrow this range by trial and improvement or by plotting a graph') before the exact digit-counting logarithms take over - interval-search root location beside the standing 3.2.1 al…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1",
+    "2.6.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.6.1 (pure-3-iteration; T-UGM-MODE1-14); 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/see-the-power-see-the-power.md"
+  },
+  {
+   "ugmSlug": "summing-to-one",
+   "station": "exp-and-log",
+   "title": "Summing to one",
+   "url": "https://undergroundmathematics.org/exp-and-log/summing-to-one",
+   "resourceType": "Building blocks",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.1 is the twin of Paper 3 3.2.1. Prior alignment of record: 3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “2 log_9 3 = 1, 'how many log_81 3 do you need to add together to make one' - sums of logarithms equated to 1 via the laws and the definition, integers x,y with log_6 x + log_6 y = 1”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.1 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/summing-to-one-summing-to-one.md"
+  },
+  {
+   "ugmSlug": "an-irrational-inequality",
+   "station": "exp-and-log",
+   "title": "An irrational inequality",
+   "url": "https://undergroundmathematics.org/exp-and-log/an-irrational-inequality",
+   "resourceType": "Go and think about it...",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.2 is the twin of Paper 3 3.2.2. Prior alignment of record: 3.2.2 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “proving e^pi > pi^e - 'what do the functions e^x and x^e look like? how could we approximate e and pi? do we know any functions that change a question about indices into a question about [logarithms]?' - the definition and properties of e in action”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Based on an",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.2 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/an-irrational-inequality-an-irrational-inequality.md"
+  },
+  {
+   "ugmSlug": "r9824",
+   "station": "combining-functions",
+   "title": "Can we sketch the inverse of this composite function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9824",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.2 is the twin of Paper 3 3.2.2. Prior alignment of record: 1.2.2 (pure-1-functions; T-UGM-MODE1-2); 1.2.3 (pure-1-functions; T-UGM-MODE1-2); 1.2.4 (pure-1-functions; T-UGM-MODE1-2); 3.2.2 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “f:x->ln x with f^{-1}(x)=e^x ('rearranging the formula y=ln x to make x the subject we find x=e^y') and fg(x)=-ln x with the graph reflections - the e^x/ln x inverse-pair law verbatim”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics C 1, QP 9205/1 and 9206/1, 1988, Q16",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.2.2 (pure-1-functions; T-UGM-MODE1-2); 1.2.3 (pure-1-functions; T-UGM-MODE1-2); 1.2.4 (pure-1-functions; T-UGM-MODE1-2); 3.2.2 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions/r9824-can-we-sketch-the-inverse-of-this-composite-function.md"
+  },
+  {
+   "ugmSlug": "to-the-limit",
+   "station": "calculus-trig-log",
+   "title": "To the limit",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/to-the-limit",
+   "resourceType": "Scaffolded task",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.2 is the twin of Paper 3 3.2.2. Prior alignment of record: 3.2.2 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “the first-principles chain for d/dx a^x closes with 'a special case': lim_{h->0}(a^h-1)/h = 1 exactly when a = e, the defining property of e (the differentiation vehicle is 1.7 of record)”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.2 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/to-the-limit-to-the-limit.md"
+  },
+  {
+   "ugmSlug": "powerful-fractions",
+   "station": "thinking-about-algebra",
+   "title": "Powerful fractions",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/powerful-fractions",
+   "resourceType": "Food for thought",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “(10^a+1)/(10^a+2) vs (10^b+1)/(10^b+2) - inequality comparison of fractions with the unknown in the index; monotonicity of 10^x drives the answer; prior routing of record: lane-5 '2.2'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/powerful-fractions-powerful-fractions.md"
+  },
+  {
+   "ugmSlug": "r5103",
+   "station": "exp-and-log",
+   "title": "How many roots are there to $x=8^{\\log_2x} -9^{\\log_3x}-4^{\\log_2x}+\\log_{0.5}{0.25}$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5103",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “8^{log_2 x}=(2^{log_2 x})^3=x^3 and log_{0.5}0.25=2 reduce the equation to a polynomial root count - the a^{log_b c} identity at work”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2011, Q1H",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r5103-how-many-roots-are-there-to-x8{log_2x}-9{log_3x}-4{log_2x}log_{0.5}{0.25}.md"
+  },
+  {
+   "ugmSlug": "r5462",
+   "station": "exp-and-log",
+   "title": "Can we solve these three simultaneous log equations?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5462",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log_b a=2, log_b(c-3)=3, log_a(c+5)=2 written in exponential form (a=b^2, c-3=b^3, c+5=a^2); b^4=b^3+8 discriminates the two values of a”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2013, Q1F",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r5462-can-we-solve-these-three-simultaneous-log-equations.md"
+  },
+  {
+   "ugmSlug": "r5940",
+   "station": "exp-and-log",
+   "title": "Can we solve these simultaneous exponential equations?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5940",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “3(4^p)=7(6^q) and 3(8^{p+1})=25(6^q) - divide and reduce to 2^p=25/56, then 'determine, to two significant figures, the value of p' by logarithms”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics A 1, QP 840/1, 1975, Q2b",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r5940-can-we-solve-these-simultaneous-exponential-equations.md"
+  },
+  {
+   "ugmSlug": "r6045",
+   "station": "exp-and-log",
+   "title": "How large is $2^{100}$, and what is its starting digit?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r6045",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log_10 2 = 0.3010 with 10^0.2 < 2 deduces that 2^100 is 31 digits long and finds its first digit - logarithms on indices”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1H",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r6045-how-large-is-2{100}-and-what-is-its-starting-digit.md"
+  },
+  {
+   "ugmSlug": "r6414",
+   "station": "exp-and-log",
+   "title": "When does this inequality have a finite number of integer solutions?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r6414",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “a^x > cb^y taken to logs: 'x log a > log c + y log b' (base > 1 so log is increasing) - finitely many positive integer solutions classified by a,b against 1”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2010, Q1J",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r6414-when-does-this-inequality-have-a-finite-number-of-integer-solutions.md"
+  },
+  {
+   "ugmSlug": "r7015",
+   "station": "exp-and-log",
+   "title": "Given this log equation, when can $a$ be largest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7015",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “4(log_10 a)^2 + (log_10 b)^2 = 1 - greatest a when (log_10 b)^2 is least, 'since log is an increasing function'; quadratic-in-log technique”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2007, Q1I",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7015-given-this-log-equation-when-can-a-be-largest.md"
+  },
+  {
+   "ugmSlug": "r7077",
+   "station": "thinking-about-algebra",
+   "title": "Can we prove these bounds for this fraction involving surds?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r7077",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “y=ax^n from data: (9/4)^n=2/3 solved exactly as powers of 2 and 3 (n=-1/2) - the indicial-equation limb of a composite question; prior routing of record: lane-5 '2.2 Logarithmic and exponential functions'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q3",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7077-can-we-prove-these-bounds-for-this-fraction-involving-surds.md"
+  },
+  {
+   "ugmSlug": "r7384",
+   "station": "exp-and-log",
+   "title": "When does $9^x - 3^{x+1} = k$ have one or more real solutions?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7384",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “9^x - 3^{x+1} = k has 'one or more real solutions precisely when' the y=3^x quadratic y^2-3y-k=0 has a positive root - k >= -9/4”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2008, Q1H",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7384-when-does-9x-3{x1}-k-have-one-or-more-real-solutions.md"
+  },
+  {
+   "ugmSlug": "r7606",
+   "station": "exp-and-log",
+   "title": "How many real roots does $8^x+4=4^x+2^{x+2}$ have?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7606",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “8^x+4=4^x+2^{x+2} - 'the unknown x is in the exponents. Could we make a substitution?' y=2^x gives a factorable cubic; three real solutions”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "Oxford University Mathematics Aptitude Test, 2007, Q1F",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7606-how-many-real-roots-does-8x44x2{x2}-have.md"
+  },
+  {
+   "ugmSlug": "r7845",
+   "station": "exp-and-log",
+   "title": "Can we solve $ \\log_3 x + 2 \\log_x 3 = -3$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7845",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “log_b a log_c b log_a c = 1 by rewriting as exponentials, then log_3 x + 2 log_x 3 = -3 solved via u = log_3 x”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Mathematics A 1, QP 840/1, 1978, Q1",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r7845-can-we-solve-log_3-x-2-log_x-3-3.md"
+  },
+  {
+   "ugmSlug": "r8260",
+   "station": "exp-and-log",
+   "title": "Can we solve the equation $\\log_2 x + \\log_3 x = 1 + \\log_4 x$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r8260",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 1.6.3 (pure-1-series; T-UGM-MODE1-6); 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “part (b) solves log_2 x + log_3 x = 1 + log_4 x - a genuine log-equation alongside the GP identity limb of record”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES A level Pure Mathematics 1, QP 842/1, 1973, Q1",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "1.6.3 (pure-1-series; T-UGM-MODE1-6); 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series/r8260-can-we-solve-the-equation-log2-x-log3-x-1-log4-x.md"
+  },
+  {
+   "ugmSlug": "r9366",
+   "station": "exp-and-log",
+   "title": "Can we find $a$ and $b$ as powers of $10$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9366",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “10a^2=b^3 with log_10 a = log_10 b + 1 - 'taking logs to base 10' solves the indicial system; a and b expressed as powers of 10”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "O&C O level Additional Mathematics 1, QP R826, 1975, Q2(ii)",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r9366-can-we-find-a-and-b-as-powers-of-10.md"
+  },
+  {
+   "ugmSlug": "r9747",
+   "station": "exp-and-log",
+   "title": "Can we use $\\log_{10}$ to find the first digit of $3^{100}$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9747",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “'by taking logs, or otherwise, show that 5x10^47 < 3^100 < 6x10^47' and read off the first digit of 3^100; prior routing of record: lane-5 '2.2 Logarithmic and exponential functions'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "UCLES STEP Mathematics I, 2000, Q1",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/r9747-can-we-use-log_{10}-to-find-the-first-digit-of-3{100}.md"
+  },
+  {
+   "ugmSlug": "to-log-or-not-to-log",
+   "station": "exp-and-log",
+   "title": "To log or not to log?",
+   "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+   "resourceType": "Problem requiring decisions",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (spine parse divergence disclosed); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.3 is the twin of Paper 3 3.2.3. Prior alignment of record: 3.6.1 (pure-3-iteration; T-UGM-MODE1-14); 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “The solution confronts 5^x = x^5 ('This is another example of an equation we don't know how to solve exactly. We could use a numerical method such as trial and improvement to find an approximate solution. Most numerical methods work best if you know roughly w…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": true,
+   "codes": [
+    "2.2.3",
+    "2.6.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.6.1 (pure-3-iteration; T-UGM-MODE1-14); 3.2.3 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/to-log-or-not-to-log-to-log-or-not-to-log.md"
+  },
+  {
+   "ugmSlug": "how-far-did-the-earth-move",
+   "station": "exp-and-log",
+   "title": "How far did the earth move?",
+   "url": "https://undergroundmathematics.org/exp-and-log/how-far-did-the-earth-move",
+   "resourceType": "Food for thought",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.4 is the twin of Paper 3 3.2.4. Prior alignment of record: 3.2.4 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “M_L=log_10(A/A_0) magnitude scale, then 'graph linearisation to establish a power law relationship from experimental data' - log-log plot with gradient/intercept constants”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.4"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.4 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/how-far-did-the-earth-move-how-far-did-the-earth-move.md"
+  },
+  {
+   "ugmSlug": "plotting-planets",
+   "station": "exp-and-log",
+   "title": "Plotting the planets",
+   "url": "https://undergroundmathematics.org/exp-and-log/plotting-planets",
+   "resourceType": "Rich example",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.2.4 is the twin of Paper 3 3.2.4. Prior alignment of record: 3.2.4 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10) — prior evidence: “planetary data linearised by logarithms: 'if we take the logarithms' of the orbital data the power law P=k r^m becomes a straight line; prior routing of record: lane-5 '2.2 Logarithmic and exponential functions'”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.2.4"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.2.4 (pure-3-logarithmic-and-exponential-functions; T-UGM-MODE1-10)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions/plotting-planets-plotting-the-planets.md"
+  }
+ ],
+ "generated_utc": "2026-10-29T00:00:00Z",
+ "licensing": {
+  "law": "facts-only enrichment (mode 1): spec codes, titles, URLs, resource types, confidence and evidence strings — no UGM body text in this file (text of record lives in UGM-Resources/ under the attestation)",
+  "rights": "© University of Cambridge (Underground Mathematics); see UGM-Resources/README.md and LICENSE-DATA.md"
+ },
+ "mode2Note": "modesRecorded reflects the cross-map's mode flags of record: [1] facts; no Mode-2 rendering.",
+ "nonOverlapRows": [],
+ "perSpecPoint": {
+  "2.2.1": {
+   "officialCode": "2.2.1",
+   "officialText": "understand the relationship between logarithms and indices, and use the laws of logarithms (excluding change of base)",
+   "spineTitleVerbatim": "understand the relationship between logarithms and indices, and use the laws of logarithms (excluding change of base)",
+   "primaryPick": "calculators1950",
+   "resources": []
+  },
+  "2.2.2": {
+   "officialCode": "2.2.2",
+   "officialText": "understand the definition and properties of e Including knowledge of the graph of and ln x , including their relationship as inverse functions and their graphs",
+   "spineTitleVerbatim": "understand the definition and properties of e Including knowledge of the graph of and ln x , including their relationship as inverse functions and their graphs",
+   "primaryPick": "an-irrational-inequality",
+   "resources": []
+  },
+  "2.2.3": {
+   "officialCode": "2.2.3",
+   "officialText": "use logarithms to solve equations and inequalities in which the unknown appears in indices",
+   "spineTitleVerbatim": "use logarithms to solve equations and inequalities in which the unknown appears in indices",
+   "primaryPick": "powerful-fractions",
+   "resources": []
+  },
+  "2.2.4": {
+   "officialCode": "2.2.4",
+   "officialText": "use logarithms to transform a given relationship e.g. to linear form, and hence determine unknown constants by considering the gradient and/or intercept.",
+   "spineTitleVerbatim": "use logarithms to transform a given relationship e.g. to linear form, and hence determine unknown constants by considering the gradient and/or intercept.",
+   "primaryPick": "how-far-did-the-earth-move",
+   "resources": []
+  }
+ },
+ "qual": "cie-a-level-maths-2023-2025",
+ "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. The pure-2 course-plane lane (T-UGM-P2-1): 39 cross-lane rows join of-record bodies to the P2 twin spec points (PDF-of-record adjudication, sha1 997e5a9f…) — no coverage manufactured: every row cites its standing alignment of record or the P2-unique 2.5.3 realization; psp rows 0 = fresh-only counting (the lane-16 law); the depth guard of record held 0 join(s); 0 companion disclosure(s) carried, never collapsed."
+ },
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-p2-full-course.json",
+  "commit": "08404b3479870bf305673925b22f0af5eb326243 (cross-map lane 18, the P2 course plane)",
+  "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped (reverted to the link-module successor); Mode-4 doctrine via owning specs",
+  "capture_corpus": "undergroundmathematics/ P2 crawl + ugm-clean (855 resources, 25 stations)"
+ },
+ "stationScope": {
+  "note": "whole-course-plane lane: the stations are scattered by design — the P2 spec (2.1-2.6) is the AS-depth subset of the Paper 3 spine, so the of-record bodies ride their original capture dirs and join by reference; no P2 capture dirs exist or are needed",
+  "scope": "cross-course twin joins of record (P3/P1 bodies) + the P2-unique trapezium cluster",
+  "stations": [
+   "calculus-trig-log",
+   "combining-functions",
+   "exp-and-log",
+   "sequences",
+   "thinking-about-algebra"
+  ]
+ },
+ "sweepRouting": {},
+ "task": "T-UGM-P2-1"
+}

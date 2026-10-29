@@ -1,0 +1,932 @@
+{
+ "board": "Cambridge CIE",
+ "course": "cie-a-level-maths-20-pure-2",
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 41,
+  "substrateResources": 0,
+  "ugmResourcesConsidered": 41,
+  "aligned": 0,
+  "alignedSubstrate": 0,
+  "nonOverlap": 0,
+  "crossLaneAligned": 41,
+  "rejectedOfRecord": 0,
+  "alignedShare": 0.0,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 41,
+   "flips": 0,
+   "oneToMany": 41,
+   "note": "the pure-2 course-plane law: every aligned row rides an of-record body under the pure-1/pure-3 capture dirs via textOfRecordUnder (the circular-slice precedent, lane-14 r8404); no body text moves, no new capture; fresh-only psp counting (the lane-16 law)"
+  },
+  "stationBreakdown": {
+   "chain-rule": {
+    "resources": 21,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 21
+   },
+   "calculus-trig-log": {
+    "resources": 6,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 6
+   },
+   "product-rule": {
+    "resources": 13,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 13
+   },
+   "calculus-of-powers": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 0,
+    "crossLaneAligned": 1
+   }
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "can-you-find-chain-rule-edition",
+   "station": "chain-rule",
+   "title": "Can you find... chain rule edition",
+   "url": "https://undergroundmathematics.org/chain-rule/can-you-find-chain-rule-edition",
+   "resourceType": "Many ways problem",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “working backwards from conditions on f(g(x)) (stationary points at prescribed x, a local minimum of ln g(x), no stationary points) - chain-rule composition reasoning with the 3.4.1 list as the toolset (flips the lane-10 non-overlap row of record routed 'P3 3.…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/can-you-find-chain-rule-edition-can-you-find...-chain-rule-edition.md"
+  },
+  {
+   "ugmSlug": "powerful-derivatives",
+   "station": "chain-rule",
+   "title": "Powerful derivatives",
+   "url": "https://undergroundmathematics.org/chain-rule/powerful-derivatives",
+   "resourceType": "Building blocks",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “prove d/dx x^a = a x^(a-1) for real a by writing x^a = e^(a ln x) and chaining the standard derivatives - the ln/exponential derivative law of 3.4.1 is the engine (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/powerful-derivatives-powerful-derivatives.md"
+  },
+  {
+   "ugmSlug": "r5251",
+   "station": "chain-rule",
+   "title": "Can we sketch $y=3 \\cos x - \\cos 3x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5251",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “d/dx (3 cos x - cos 3x) = 6 sin x cos 2x proved by the chain rule on cos 3x plus the product-to-sum identity, then the increasing ranges and the sketch (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5251-can-we-sketch-y3-cos-x-cos-3x.md"
+  },
+  {
+   "ugmSlug": "r5990",
+   "station": "chain-rule",
+   "title": "What happens when we differentiate $\\sin^4x + 2 \\cos^2x - \\cos^4x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5990",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “chain rule on sin^4 x, cos^2 x, cos^4 x gives d/dx = 0 identically - the expression is the constant 1; the deduction task on the 3.4.1 composite derivatives”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5990-what-happens-when-we-differentiate-sin4x-2-cos2x-cos4x.md"
+  },
+  {
+   "ugmSlug": "r6938",
+   "station": "calculus-trig-log",
+   "title": "Can we find the turning points on the curve $y = \\sin x + \\cos x$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r6938",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “turning points of y = sin x + cos x on (0, 2pi) via dy/dx = cos x - sin x = 0 - the canonical 3.4.1 use of the standard derivatives, with the R-form of 3.3.2 as the recorded alternative (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiati…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r6938-can-we-find-the-turning-points-on-the-curve-y-sin-x-cos-x.md"
+  },
+  {
+   "ugmSlug": "r7431",
+   "station": "chain-rule",
+   "title": "Can we show $x>\\ln(1+x^2)$ for all $x>0$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7431",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “d/dx (x - ln(1+x^2)) = 1 - 2x/(1+x^2) >= 0 by the 3.4.1 composite derivative of ln(1+x^2), deducing x > ln(1+x^2) for x > 0 - the increasing-function argument (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r7431-can-we-show-xln1x2-for-all-x0.md"
+  },
+  {
+   "ugmSlug": "r8071",
+   "station": "calculus-trig-log",
+   "title": "Can we find the velocity and acceleration of this particle?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r8071",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “v = ds/dt and a = dv/dt for s = 12 sin(3t/2) - the 3.4.1 composite derivative of sin(3t/2) by the chain rule is the load-bearing computation (mechanics clothing); the remaining parts are 1.5 trig equations”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r8071-can-we-find-the-velocity-and-acceleration-of-this-particle.md"
+  },
+  {
+   "ugmSlug": "r8671",
+   "station": "product-rule",
+   "title": "Which is the greater of $e^{\\pi}$ and $\\pi^e$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8671",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “stationary point of x^(1/x) via d/dx(ln y) = (1 - ln x)/x^2 - ln/composite 3.4.1 work deciding e^pi > pi^e without a calculator (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r8671-which-is-the-greater-of-e{pi}-and-pie.md"
+  },
+  {
+   "ugmSlug": "r9085",
+   "station": "chain-rule",
+   "title": "Can we find a tangent to $y=1/(1+x^2)$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9085",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “gradient of y = 1/(1+x^2) via the chain rule on (1+x^2)^-1 giving -2x/(1+x^2)^2, then the tangent-line condition from (0,1) - the derivative work is load-bearing; the pi>3 coda is an area argument (3.5 bearing)”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9085-can-we-find-a-tangent-to-y11x2.md"
+  },
+  {
+   "ugmSlug": "rotating-derivatives",
+   "station": "calculus-trig-log",
+   "title": "Rotating derivatives",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/rotating-derivatives",
+   "resourceType": "Scaffolded task",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “the unit-circle velocity vector (-sin t, cos t) assembled from the rotating diagrams - the geometric derivation of d/dt(sin t) = cos t and d/dt(cos t) = -sin t, the 3.4.1 standard facts (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiati…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/rotating-derivatives-rotating-derivatives.md"
+  },
+  {
+   "ugmSlug": "similar-derivatives",
+   "station": "calculus-trig-log",
+   "title": "Similar derivatives",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/similar-derivatives",
+   "resourceType": "Building blocks",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “d(tan theta)/dtheta via similar triangles with vertices (1, tan theta) and (cot theta, 1) - in-spec for the tan limb of 3.4.1; the sec/cot extensions are beyond the 3.4.1 list and are disclosed (flips the lane-11 non-overlap row of record routed 'P3 3.4 Diffe…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": "This resource was inspired by a discussion on the [Stack Exchange Network](http://math.stackexchange.com/questions/1299682/).",
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/similar-derivatives-similar-derivatives.md"
+  },
+  {
+   "ugmSlug": "sine-stretching",
+   "station": "calculus-trig-log",
+   "title": "Sine stretching",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/sine-stretching",
+   "resourceType": "Building blocks",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “gradient function of sin 3x selected from cos 3x / 3 cos x / 3 cos 3x by graphical reasoning - the chain-rule composite d/dx(sin 3x) = 3 cos 3x (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/sine-stretching-sine-stretching.md"
+  },
+  {
+   "ugmSlug": "trig-gradient-match",
+   "station": "calculus-trig-log",
+   "title": "Trig gradient match",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/trig-gradient-match",
+   "resourceType": "Building blocks",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (pdf-verbatim twin (standard-forms derivative bullet; chain rule via 'composites' in both papers); 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.1 is the twin of Paper 3 3.4.1. Prior alignment of record: 3.4.1 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “pairing trig functions with their gradient functions incl. the scaled composites - builds d/dx(sin x) = cos x and the chain-rule cases graphically; excerpt-capture disclosure: no solution well of record, matched on the provider task statement”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.1 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/trig-gradient-match-trig-gradient-match.md"
+  },
+  {
+   "ugmSlug": "how-does-your-rectangle-grow",
+   "station": "product-rule",
+   "title": "How does your rectangle grow?",
+   "url": "https://undergroundmathematics.org/product-rule/how-does-your-rectangle-grow",
+   "resourceType": "Scaffolded task",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “the fixed-height rectangle argument dA/dt = v du/dt extended to both sides varying - the visual derivation of the product rule d(uv)/dt = v du/dt + u dv/dt, the 3.4.2 law itself”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/how-does-your-rectangle-grow-how-does-your-rectangle-grow.md"
+  },
+  {
+   "ugmSlug": "r5501",
+   "station": "product-rule",
+   "title": "Can we sketch $y=x^2/(1+x^4)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r5501",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “turning points of y = x^2/(1+x^4) via the product rule on x^2 (1+x^4)^-1 giving dy/dx = 2x(1-x^4)/(1+x^4)^2 - stationary points at 0, +/-1 and the sketch”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5501-can-we-sketch-yx21x4.md"
+  },
+  {
+   "ugmSlug": "r6530",
+   "station": "product-rule",
+   "title": "Can we differentiate $e^{2x}( 2 \\cos (3x) + 3 \\sin (3x))$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6530",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “d/dx of e^(2x)(2 cos 3x + 3 sin 3x) by the product rule with the 3.4.1 composite derivatives inside - the exact CIE product-rule-plus-standard-derivatives showcase (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r6530-can-we-differentiate-e{2x}-2-cos-3x-3-sin-3x.md"
+  },
+  {
+   "ugmSlug": "r6549",
+   "station": "product-rule",
+   "title": "Where are the stationary points on $\\cot x-8\\cos x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6549",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “stationary points of y = cot x - 8 cos x: d(cot x)/dx derived by the quotient rule on cos x/sin x (the in-spec 3.4.2 route - resolves the lane-11 'beyond the 3.4.1 list' caveat of record), then -cosec^2 x + 8 sin x = 0 (flips the lane-11 non-overlap row of re…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r6549-where-are-the-stationary-points-on-cot-x-8cos-x.md"
+  },
+  {
+   "ugmSlug": "r6855",
+   "station": "product-rule",
+   "title": "Can we sketch the curve $y=1/((x-a)^2-1)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6855",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “stationary points of g(x) = 1/(((x-a)^2-1)((x-b)^2-1)) found by differentiating the product of reciprocal quadratics - the product/quotient-rule work is load-bearing for the three stationary abscissae”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r6855-can-we-sketch-the-curve-y1x-a2-1.md"
+  },
+  {
+   "ugmSlug": "r8387",
+   "station": "product-rule",
+   "title": "Can we sketch the graph of $y=x(x+1)(x-2)^4$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8387",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “gradient of y = x(x+1)(x-2)^4 shown as (x-2)^3(6x^2+x-2) by the product rule, all stationary points with nature, then the y^2 and even-power variant sketches”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r8387-can-we-sketch-the-graph-of-yxx1x-24.md"
+  },
+  {
+   "ugmSlug": "r8774",
+   "station": "product-rule",
+   "title": "Can we find this body's displacement from $O$ when its velocity is $0$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8774",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12); 3.5.1 (pure-3-integration; T-UGM-MODE1-13) — prior evidence: “acceleration as d/dt of v = (2t-1)/(4(2t+1)) by the quotient rule (a = 1/(2t+2)^2) - the quotient-rule computation is the tested skill in kinematics clothing; the displacement part is an integral (3.5 bearing)”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2",
+    "2.5.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12); 3.5.1 (pure-3-integration; T-UGM-MODE1-13)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r8774-can-we-find-this-bodys-displacement-from-o-when-its-velocity-is-0.md"
+  },
+  {
+   "ugmSlug": "r8931",
+   "station": "calculus-of-powers",
+   "title": "What happens if we expand, then differentiate?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8931",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “degree of d^2/dx^2[(2x-1)^4(1-x)^5] + d/dx[(2x+1)^4(3x^2-2)^2] read off the product-rule structure without expanding - the product-rule degree reasoning beside the recorded treatment; rides the whole-station body of record under pure-1-differentiation (flips…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation/r8931-what-happens-if-we-expand-then-differentiate.md"
+  },
+  {
+   "ugmSlug": "r9329",
+   "station": "product-rule",
+   "title": "Can we show the function $(2x+1)/(x^2-1)$ can take all real values?",
+   "url": "https://undergroundmathematics.org/product-rule/r9329",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “f'(x) = -2(x^2+x+1)/(x^2-1)^2 by the quotient rule, always negative, with the inflection argued from the behaviour of f' between the asymptotes - the range part is the recorded discriminant method”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9329-can-we-show-the-function-2x1-x2-1-can-take-all-real-values.md"
+  },
+  {
+   "ugmSlug": "r9391",
+   "station": "product-rule",
+   "title": "Which values can $x(x-3)/(x-4)$ take?",
+   "url": "https://undergroundmathematics.org/product-rule/r9391",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “the range of y = x(x-3)/(x-4) shown both by the discriminant and by the quotient rule (both approaches of record) - stationary points at the range endpoints; the 5/x comparison is algebraic”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9391-which-values-can-xx-3-x-4-take.md"
+  },
+  {
+   "ugmSlug": "r9484",
+   "station": "product-rule",
+   "title": "Can we sketch the curve $y=e^{-x}/(1+x^2)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9484",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “y = e^-x/(1+x^2): y always positive and dy/dx never positive by the quotient rule, the stationary point where dy/dx = 0, and the sketch (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9484-can-we-sketch-the-curve-ye{-x}-1x2.md"
+  },
+  {
+   "ugmSlug": "r9795",
+   "station": "product-rule",
+   "title": "Given that $y = (x+6)^7(x-9)^8$, can we find $dy/dx$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9795",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “dy/dx of y = (x+6)^7 (x-9)^8 by the product rule and the zeros of dy/dx - the canonical 3.4.2 product-rule exercise”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9795-given-that-y-x67x-98-can-we-find-dydx.md"
+  },
+  {
+   "ugmSlug": "r9898",
+   "station": "product-rule",
+   "title": "Can we sketch the curve $y=(x-a)e^x/(x-b)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9898",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.2 is the twin of Paper 3 3.4.2. Prior alignment of record: 3.4.2 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “stationary points of y = ((x-a)/(x-b)) e^x by the product and quotient rules giving the (a-b) < 0 or (a-b) > 4 condition, then the two case sketches (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.2 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9898-can-we-sketch-the-curve-yx-aexx-b.md"
+  },
+  {
+   "ugmSlug": "implicit-circles",
+   "station": "chain-rule",
+   "title": "Implicit circles",
+   "url": "https://undergroundmathematics.org/chain-rule/implicit-circles",
+   "resourceType": "Many ways problem",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “gradient of x^2 + y^2 = 4 at three points and at a general point - implicit differentiation dy/dx = -x/y with the radius-gradient alternative, the canonical 3.4.3 implicit introduction”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/implicit-circles-implicit-circles.md"
+  },
+  {
+   "ugmSlug": "parametric-points",
+   "station": "chain-rule",
+   "title": "Parametric points",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-points",
+   "resourceType": "Fluency exercise",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “dy/dx = -(3 cos t)/(2 sin t) for the parametric ellipse, matched to stationary-point locations and graphs - the 3.4.3 parametric chain-rule law as the matching tool (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/parametric-points-parametric-points.md"
+  },
+  {
+   "ugmSlug": "r5053",
+   "station": "chain-rule",
+   "title": "How many normals to a parabola pass through $P$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5053",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “normal to the parabola y^2 = 4ax at (at^2, 2at) and the two-normals-through-P proof - implicit/parametric differentiation of the standard parabola with the fixed-point geometry”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5053-how-many-normals-to-a-parabola-pass-through-p.md"
+  },
+  {
+   "ugmSlug": "r5237",
+   "station": "chain-rule",
+   "title": "What can we say if a normal to an ellipse passes through this point?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5237",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “normal to the ellipse x^2/a^2 + y^2/b^2 = 1 at (a cos theta, b sin theta) proved as ax/cos theta - by/sin theta = a^2 - b^2 - parametric differentiation with the eccentricity consequence”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5237-what-can-we-say-if-a-normal-to-an-ellipse-passes-through-this-point.md"
+  },
+  {
+   "ugmSlug": "r5376",
+   "station": "chain-rule",
+   "title": "What can we say if this hyperbola and parabola meet at right angles?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5376",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “y^2 = 4ax and xy = c^2 intersecting at right angles via their derivatives, giving c^4 = 32a^4 and TG = 6a - implicit/parametric derivative work on both curves”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5376-what-can-we-say-if-this-hyperbola-and-parabola-meet-at-right-angles.md"
+  },
+  {
+   "ugmSlug": "r5678",
+   "station": "chain-rule",
+   "title": "Can we find the angle between these two tangents?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5678",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “tangent to the hyperbola xy = c^2 through the parabola focus, the a^4 = 2c^4 condition and the acute angle between the tangents - parametric/implicit derivative work on both conics”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5678-can-we-find-the-angle-between-these-two-tangents.md"
+  },
+  {
+   "ugmSlug": "r5696",
+   "station": "chain-rule",
+   "title": "Can we show that these normals meet on the $x$-axis?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5696",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “normals to the parametric curve x = 4 - t^2, y = 4t at the y-axis intersections meeting on the x-axis - dy/dx = (dy/dt)/(dx/dt) with the normal equations”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r5696-can-we-show-that-these-normals-meet-on-the-x-axis.md"
+  },
+  {
+   "ugmSlug": "r6710",
+   "station": "chain-rule",
+   "title": "What can we say if a point $P$ on an ellipse is directly above the focus?",
+   "url": "https://undergroundmathematics.org/chain-rule/r6710",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “tangent and normal at the point P above the focus of an ellipse meeting the y-axis, with QR = HP - parametric differentiation on the standard parametrisation”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r6710-what-can-we-say-if-a-point-p-on-an-ellipse-is-directly-above-the-focus.md"
+  },
+  {
+   "ugmSlug": "r7042",
+   "station": "chain-rule",
+   "title": "Can we show this parabola and this ellipse meet at right angles?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7042",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “the parabola y^2 = 4ax and the ellipse 2x^2 + y^2 = c^2 cutting at right angles via the normal-midpoint proof - implicit/parametric derivatives of both curves”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r7042-can-we-show-this-parabola-and-this-ellipse-meet-at-right-angles.md"
+  },
+  {
+   "ugmSlug": "r7833",
+   "station": "chain-rule",
+   "title": "Can we show these tangents to this hyperbola form a square?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7833",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “tangents to xy = 1 and x^2 - y^2 = 2 at P and Q forming the square PMQN - gradients from implicit differentiation (dy/dx = x/y on the hyperbola), the perpendicularity and the equal sides”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r7833-can-we-show-these-tangents-to-this-hyperbola-form-a-square.md"
+  },
+  {
+   "ugmSlug": "r8620",
+   "station": "chain-rule",
+   "title": "Can we find the equation of the normal to the curve when $t = 2$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8620",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “x = (3-2t)^2, y = t^2 - 2t: dy/dx in terms of t, the stationary point, and the normal at t = 2 - the exact CIE 3.4.3 parametric exercise”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r8620-can-we-find-the-equation-of-the-normal-to-the-curve-when-t-2.md"
+  },
+  {
+   "ugmSlug": "r8939",
+   "station": "chain-rule",
+   "title": "Can we find where the normal is parallel to $y=x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8939",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “normal to x = 5a sec theta, y = 3a tan theta parallel to y = x - parametric differentiation of the sec/tan parametrisation with the gradient condition (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r8939-can-we-find-where-the-normal-is-parallel-to-yx.md"
+  },
+  {
+   "ugmSlug": "r9325",
+   "station": "chain-rule",
+   "title": "Where does this tangent to this ellipse meet $x=a$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9325",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “tangent to the ellipse at P meeting the y-axis at Q and the line x = a at T, with the chord A'P construction - parametric differentiation and the tangent equation”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9325-where-does-this-tangent-to-this-ellipse-meet-xa.md"
+  },
+  {
+   "ugmSlug": "r9413",
+   "station": "chain-rule",
+   "title": "Can we show that these normals intersect on this circle?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9413",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “normal to x = n cos t - cos nt, y = n sin t - sin nt proved as x cos((n+1)t/2) + y sin((n+1)t/2) = (n-1) cos((n-1)t/2) - the chain-rule composites cos nt, sin nt inside the parametric derivative (flips the lane-11 non-overlap row of record routed 'P3 3.4 Diff…”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9413-can-we-show-that-these-normals-intersect-on-this-circle.md"
+  },
+  {
+   "ugmSlug": "r9809",
+   "station": "chain-rule",
+   "title": "When do these normals to a parabola meet on the parabola?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9809",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "PDF-of-record twin join (spine-verbatim twin; 2023-2025 syllabus sha1 997e5a9f0d8b): Paper 2 2.4.3 is the twin of Paper 3 3.4.3. Prior alignment of record: 3.4.3 (pure-3-differentiation; T-UGM-MODE1-12) — prior evidence: “normals to the parabola y^2 = 4ax at parameters t1, t2 with t1 t2 = 2 meeting on the parabola - implicit/parametric normal work with the cyclic-quadrilateral coda”. P2 depth bar verified (no Paper-3-only machinery load-bearing; guard register clean).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "2.4.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "3.4.3 (pure-3-differentiation; T-UGM-MODE1-12)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation/r9809-when-do-these-normals-to-a-parabola-meet-on-the-parabola.md"
+  }
+ ],
+ "generated_utc": "2026-10-29T00:00:00Z",
+ "licensing": {
+  "law": "facts-only enrichment (mode 1): spec codes, titles, URLs, resource types, confidence and evidence strings — no UGM body text in this file (text of record lives in UGM-Resources/ under the attestation)",
+  "rights": "© University of Cambridge (Underground Mathematics); see UGM-Resources/README.md and LICENSE-DATA.md"
+ },
+ "mode2Note": "modesRecorded reflects the cross-map's mode flags of record: [1] facts; no Mode-2 rendering.",
+ "nonOverlapRows": [],
+ "perSpecPoint": {
+  "2.4.1": {
+   "officialCode": "2.4.1",
+   "officialText": "use the derivatives of e , ln x , sin x , cos x , tan x , together with constant multiples, sums, differences and composites",
+   "spineTitleVerbatim": "use the derivatives of e , ln x , sin x , cos x , tan x , together with constant multiples, sums, differences and composites",
+   "primaryPick": "can-you-find-chain-rule-edition",
+   "resources": []
+  },
+  "2.4.2": {
+   "officialCode": "2.4.2",
+   "officialText": "differentiate products and quotients e.g.",
+   "spineTitleVerbatim": "differentiate products and quotients e.g.",
+   "primaryPick": "how-does-your-rectangle-grow",
+   "resources": []
+  },
+  "2.4.3": {
+   "officialCode": "2.4.3",
+   "officialText": "find and use the first derivative of a function e.g. which is defined parametrically or implicitly.",
+   "spineTitleVerbatim": "find and use the first derivative of a function e.g. which is defined parametrically or implicitly.",
+   "primaryPick": "implicit-circles",
+   "resources": []
+  }
+ },
+ "qual": "cie-a-level-maths-2023-2025",
+ "qualRegistryId": "CIE_A_LEVEL_MATHS_2023_2025",
+ "review_state": {
+  "state": "SUGGESTED",
+  "note": "Agent-generated candidate enrichment per AGENT.md rule 2 — remains a suggestion until the review/promotion gate accepts it. The pure-2 course-plane lane (T-UGM-P2-1): 41 cross-lane rows join of-record bodies to the P2 twin spec points (PDF-of-record adjudication, sha1 997e5a9f…) — no coverage manufactured: every row cites its standing alignment of record or the P2-unique 2.5.3 realization; psp rows 0 = fresh-only counting (the lane-16 law); the depth guard of record held 0 join(s); 0 companion disclosure(s) carried, never collapsed."
+ },
+ "schema": "syllabai.ugm-spec-enrichment/1.0",
+ "source": {
+  "kind": "reverse-engineering corpus (metadata facts only)",
+  "repo": "SyllabAI/syllabai-experimental",
+  "path": "undergroundmathematics/resources/derived/cross-map-p2-full-course.json",
+  "commit": "08404b3479870bf305673925b22f0af5eb326243 (cross-map lane 18, the P2 course plane)",
+  "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped (reverted to the link-module successor); Mode-4 doctrine via owning specs",
+  "capture_corpus": "undergroundmathematics/ P2 crawl + ugm-clean (855 resources, 25 stations)"
+ },
+ "stationScope": {
+  "note": "whole-course-plane lane: the stations are scattered by design — the P2 spec (2.1-2.6) is the AS-depth subset of the Paper 3 spine, so the of-record bodies ride their original capture dirs and join by reference; no P2 capture dirs exist or are needed",
+  "scope": "cross-course twin joins of record (P3/P1 bodies) + the P2-unique trapezium cluster",
+  "stations": [
+   "calculus-of-powers",
+   "calculus-trig-log",
+   "chain-rule",
+   "product-rule"
+  ]
+ },
+ "sweepRouting": {},
+ "task": "T-UGM-P2-1"
+}
