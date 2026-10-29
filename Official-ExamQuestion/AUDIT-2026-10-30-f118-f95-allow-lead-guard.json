@@ -1,0 +1,113 @@
+{
+ "schema": "syllabai.official-examq.f118-audit/0.1",
+ "wave": "F118 — the F95 ALLOW-lead guard (2025-11 1C 5(c) adjudicated a false positive; the F111 row's last review-queue item closes)",
+ "generated_utc": "2026-10-29T18:34:18Z",
+ "converter_of_record": "0.33.0",
+ "corpus_of_record_head": "9db02bb758b7487dd6a5b32131d5413f7bc2c56b",
+ "operator_order": "merge #220, and continue processing the remaining waves of F88/F111",
+ "adjudication": {
+  "item": "the F111 row's review-queue drift item 3-of-3: 2025-11 1C 5(c) (the F113 wave closed items 1-2 by serving 2019-06 2C 2(a) + 6(d)(ii))",
+  "verdict": "FALSE POSITIVE of the F95 fragment law",
+  "root_cause": "the printed MS answer cell legitimately begins 'Allow any two from:' and the part's MP1 is the full six-M-row transcription (M1..M6) with the two-column Notes weave; the case-insensitive ^ALLOW\\b fragment arm (re.I|re.S, designed for margin-note fragments like 'ALLOW ORA') swallowed the whole answer text; the G7 mp_answer_gap census filed a junk review item on every fresh emission",
+  "eyeball": {
+   "method": "the full MS page rendered at 150 dpi and read, then the proof clip at 150 dpi read against it (the F113 method)",
+   "sha_verification": "MS PDF sha256 c8962567547f6f72b0d1edff2e0f56084b0e6ec44f5390497f58e22239c2e0da matches the manifest-2025-11-1C.yaml mark-scheme pin (386895 B)",
+   "dpi": 150,
+   "ms_page": 8,
+   "page_image_inventory": 0,
+   "clip_rect_pt": [
+    35.0,
+    175.87,
+    560.32,
+    357.65
+   ],
+   "content": "the 5(c) band is pure text: 'Allow any two from:' + M1 concentration of copper(II) sulfate / M2 volume of copper(II) sulfate / M3 rate of stirring / M4 surface area of metal (W) / M5 Same initial temperature / M6 Same (polystyrene) cup; Notes: 'IGNORE same mass/amount of metal W' + 'If no reference to concentration and volume allow amount of copper(II) sulfate for 1 mark'; marks 2",
+   "proof_files": "workbench/local only (full-2025-11-1C-ms-p8.png, proof-2025-1C-5c.png) — the F113 convention records the eyeball in this artifact, not as committed PNGs"
+  },
+  "serving_state": "the of-record solution_md == the MP copy (the serving is already complete); zero corpus bytes move — no exporter disclosure, no v2 companion (the F110 convention attaches to served-byte changes)",
+  "f86_audit_note": "the F86 audit's blanket 'printed-drawing answers' phrase was correct for the two F113 parts and wrong for this one (0 images on the page)"
+ },
+ "fix": {
+  "law": "the ALLOW arm is split out of the shared fragment regex; it refuses to fire when the text carries the printed M-marker ROW structure (\\nM<digit> — the answer cell's own content skeleton per the F90/F108 MS-grid laws; a margin note carries inline M-references at most: 'ALLOW M1×2.5', 'If M1 and M2 not fully', 'dep on M1')",
+  "version": "0.33.0"
+ },
+ "ab_census": {
+  "corpus": "54 chemistry slices (16 series), the canarytree of record (topic.json sha-fetched from main 9db02bb)",
+  "before": {
+   "count": 19,
+   "members": [
+    "2019-06/4CH1-2C:2(a)",
+    "2019-06/4CH1-2C:6(d)(ii)",
+    "2020-01/4CH1-1CR:8(a)",
+    "2021-01/4CH1-1C:3(d)",
+    "2021-01/4CH1-1CR:8(c)(ii)",
+    "2021-06/4CH1-1C:10(c)(i)",
+    "2022-01/4CH1-1C:6(a)",
+    "2022-01/4CH1-2C:7(a)(i)",
+    "2023-01/4CH1-2C:6(a)(i)",
+    "2023-06/4CH1-2CR:7(b)(ii)",
+    "2023-06/4CH1-2CR:7(c)(ii)",
+    "2024-06/4CH1-2CR:7(b)(i)",
+    "2024-06/4CH1-2CR:7(b)(ii)",
+    "2024-11/4CH1-2C:7(a)(ii)",
+    "2025-06/4CH1-2CR:7(b)(iii)",
+    "2025-11/4CH1-1C:5(c)",
+    "2026-06/4CH1-1C:8(b)(i)",
+    "2026-06/4CH1-2C:2(d)(i)",
+    "2026-06/4CH1-2CR:5(c)(i)"
+   ]
+  },
+  "after": {
+   "count": 18,
+   "members": [
+    "2019-06/4CH1-2C:2(a)",
+    "2019-06/4CH1-2C:6(d)(ii)",
+    "2020-01/4CH1-1CR:8(a)",
+    "2021-01/4CH1-1C:3(d)",
+    "2021-01/4CH1-1CR:8(c)(ii)",
+    "2021-06/4CH1-1C:10(c)(i)",
+    "2022-01/4CH1-1C:6(a)",
+    "2022-01/4CH1-2C:7(a)(i)",
+    "2023-01/4CH1-2C:6(a)(i)",
+    "2023-06/4CH1-2CR:7(b)(ii)",
+    "2023-06/4CH1-2CR:7(c)(ii)",
+    "2024-06/4CH1-2CR:7(b)(i)",
+    "2024-06/4CH1-2CR:7(b)(ii)",
+    "2024-11/4CH1-2C:7(a)(ii)",
+    "2025-06/4CH1-2CR:7(b)(iii)",
+    "2026-06/4CH1-1C:8(b)(i)",
+    "2026-06/4CH1-2C:2(d)(i)",
+    "2026-06/4CH1-2CR:5(c)(i)"
+   ]
+  },
+  "exits": [
+   "2025-11/4CH1-1C:5(c)"
+  ],
+  "enters": [],
+  "kept_classes": {
+   "f113_served_still_flagged": [
+    "2019-06/4CH1-2C:2(a)",
+    "2019-06/4CH1-2C:6(d)(ii)",
+    "2022-01/4CH1-2C:7(a)(i)",
+    "2023-01/4CH1-2C:6(a)(i)",
+    "2023-06/4CH1-2CR:7(c)(ii)",
+    "2024-11/4CH1-2C:7(a)(ii)"
+   ],
+   "note": "6 of the 7 served keys remain flagged (2026-06 2C 5(a) exited the census at its own F113 serving — its of-record MPs are no longer fragment-shaped)"
+  },
+  "f97_site": {
+   "empty_solution_parts_before": 0,
+   "empty_solution_parts_after": 0,
+   "verdict": "zero blast radius — no emission can change"
+  }
+ },
+ "batteries": {
+  "f118_unit": "scripts/official_examq_f118_tests.py — 30/30 PASS (the guard law in the source, the law alive on the of-record 5(c) bytes, the arm-scoping keeps, the 18-hit census, the F97 zero-flip); CI step added",
+  "canaries": "214/214 PASS on the workbench tree with v0.33.0 in the checkout (three lanes: 54 chemistry + 55 physics + 66 maths slices; 1,292 assets fetched; C107's G9 static corpus leg + C108's mutated-fact negative control included)",
+  "f116": "all checks PASS (version floor 0.31.0 holds at v0.33.0)",
+  "f117": "all checks PASS (version assert promoted to a floor, >= 0.32.0, per its own ledger note)",
+  "strip_law": "29/29 green",
+  "g9_gate_tests": "ALL G9 GATE TESTS GREEN"
+ },
+ "verdict": "REPRODUCTION-GUARDED, zero corpus delta. The F88/F111 families' last open item closes: the F95 census keeps every honest flag, drops the one false positive, and the fresh reports' review-queue drift on 2025-11 1C ends (review_n 1 -> 0)."
+}

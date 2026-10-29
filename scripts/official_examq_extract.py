@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.32.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.33.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -1876,11 +1876,33 @@ def _mp_only_fragments(mark_points, part_marks=None):
     mp_answer_gap census instead). A bare digit equal to the part's own marks is
     the marks-column digit leak (2023-06 2CR 7(c)(i): answer cell is a printed
     drawing, the parser captured the marks digit); any other bare token is a real
-    printed answer (2021-06 1C 2(b)(ii): '25') and must re-emit."""
+    printed answer (2021-06 1C 2(b)(ii): '25') and must re-emit.
+
+    F118 (v0.33.0): the ALLOW arm no longer fires when the text carries the
+    printed M-marker ROW structure (an `M<digit>` marker at a line start — the
+    answer cell's own content skeleton per the F90/F108 MS-grid laws). The
+    2025-11 1C 5(c) printed answer cell legitimately begins 'Allow any two
+    from:' and its MP1 is the full six-M-row transcription (sha-verified MS p8
+    eyeball, AUDIT-2026-10-30-f118-f95-allow-lead-guard); the case-insensitive
+    `^ALLOW\b` arm swallowed it whole and filed a junk F95 review item on
+    every fresh emission (the F111 row's third review-queue drift item — the
+    F113 wave closed the first two by serving 2019-06 2C 2(a) + 6(d)(ii)).
+    Margin-note fragments carry inline M-references at most ('ALLOW M1×2.5',
+    'If M1 and M2 not fully', 'dep on M1') — never an M-row — so the guard
+    releases exactly the answer-cell class and nothing else (corpus-wide A/B
+    with this code: 19 hits -> 18, the sole exit is 5(c); the disclosed
+    class-4 `scores`-arm members and the F113-served parts keep their flags;
+    the F97 site has zero empty-solution parts corpus-wide, so no emission
+    changes)."""
     frag = re.compile(
         r"^(?:If\s+M\d\b|max\s*\d+\s*mark\b|.*\bscores\s+(?:0|both)\b.*|dep\s+on\s+M\d.*"
-        r"|ALLOW\b.*|REJECT\b.*|IGNORE\b.*|ECF\b.*|OWTTE\b.*|_+)$",
+        r"|REJECT\b.*|IGNORE\b.*|ECF\b.*|OWTTE\b.*|_+)$",
         re.I | re.S)
+    allow_frag = re.compile(r"^ALLOW\b.*$", re.I | re.S)
+    # F118: an M-marker at a line start is the answer cell's own M-row skeleton
+    # (the F90 bare-number law and the F108 answer-grid parser both treat these
+    # rows as answer content); a margin note never carries one.
+    mrow = re.compile(r"\nM\d+\b")
     # F108: a reconstructed MS answer-grid table (the Finding-5 parser) is the
     # opposite of a margin-note fragment — the part's full printed answer grid.
     # Its text may BEGIN with 'ALLOW ' (the grid's printed note row), which the
@@ -1895,6 +1917,8 @@ def _mp_only_fragments(mark_points, part_marks=None):
         if t.isdigit() and part_marks is not None and int(t) == part_marks:
             return True
         if frag.match(t):
+            continue
+        if allow_frag.match(t) and not mrow.search(t):
             continue
         return False
     return True

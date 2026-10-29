@@ -53,7 +53,10 @@ check("F117 gate: case-robust comparison present",
       re.search(r'\(ACTIVE_SPEC_CODE or ""\)\.lower\(\) == "4ch1"', src) is not None)
 check("F117 gate: the dead lowercase equality is gone",
       re.search(r'if ACTIVE_SPEC_CODE == "4ch1":', src) is None)
-check("F117 version bump", 'CONVERTER_VERSION = "0.32.0"' in src)
+mver = re.search(r'CONVERTER_VERSION = "(\d+)\.(\d+)\.(\d+)"', src)
+ver = tuple(int(x) for x in mver.groups()) if mver else (0, 0, 0)
+check("F117 version floor 0.32.0 (the gate fix ships at 0.32.0; F118 supersedes at 0.33.0)",
+      ver >= (0, 32, 0), f"v{ver[0]}.{ver[1]}.{ver[2]}")
 
 # ---- 2. the law is alive in both casings ------------------------------------
 flat_line = "M1 8.46 × 10-3 mol of zinc"

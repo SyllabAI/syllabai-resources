@@ -1,5 +1,39 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.33.0 — 2026-10-30 · the F95 ALLOW-lead guard: the F111 row's last review-queue item closes (2025-11 1C 5(c) adjudicated a false positive)
+
+- **F118, the false positive**: the F111 row's review-queue drift ("3 new honest F95
+  items") — F113 served the two drawing answers (2019-06 2C 2(a) + 6(d)(ii)); the third,
+  2025-11 1C 5(c), was never adjudicated. Root cause: the printed MS answer cell
+  legitimately begins "Allow any two from:" and the part's single 2-mark MP1 is the full
+  six-M-row transcription with the two-column Notes weave; the case-insensitive
+  `^ALLOW\b` fragment arm (re.I|re.S, designed for margin-note fragments like
+  "ALLOW ORA") swallowed the whole answer text, so the G7 `mp_answer_gap` census filed a
+  junk review item on every fresh emission (the of-record report shows review_n 0 — the
+  drift is reporter-side only; the fresh topic.json bytes are identical to the
+  of-record). Eyeball of record: the sha-verified MS PDF (manifest pin c8962567…c2e0da)
+  rendered at 150 dpi, full page + the 5(c) proof clip — the band is pure text, the page
+  carries zero images. The of-record serving is already complete (`solution_md` == the
+  MP copy): zero corpus bytes move, no exporter disclosure, no v2 companion (the F110
+  convention attaches to served-byte changes).
+- **The guard**: `_mp_only_fragments`'s ALLOW arm is split out of the shared fragment
+  regex and refuses to fire when the text carries the printed M-marker ROW structure
+  (`\nM<digit>` at a line start — the answer cell's own content skeleton per the
+  F90/F108 MS-grid laws; a margin note carries inline M-references at most). Corpus-wide
+  A/B with the patched code: 19 hits → 18, the sole exit is 2025-11 1C 5(c), zero
+  enters; every standing classification keeps its flag (the F113-served drawing answers,
+  the disclosed class-4 `scores`-arm residual incl. its M-row members, the F97 founding
+  shapes, the bare-marks-digit leak, the `25` re-emission law, the F108 answer-grid
+  exemption); the F97 site has zero empty-solution parts corpus-wide — no emission can
+  change, and the fresh reports' drift closes (review_n 1 → 0 on 2025-11 1C).
+- **Proof**: zero-network unit battery `scripts/official_examq_f118_tests.py` (30
+  checks) — CI step added; canaries 214/214 on the workbench tree with v0.33.0 in the
+  checkout (three lanes: 54 chemistry + 55 physics + 66 maths slices; C107's G9 static
+  corpus leg + C108's mutated-fact negative control included); F116/F117/strip-law (29)
+  /G9 batteries all green on the same tree.
+- **The f117 version assert** becomes a floor (≥ 0.32.0) per its own ledger note; F118
+  supersedes at 0.33.0.
+
 ## 0.32.0 — 2026-10-29 · the F117 exponent-restore gate fix: Finding 8b (F111 class 2) closed at source
 
 - **F117, the case-sensitivity regression**: `clean_lines`' F89 restore gate tested
