@@ -1,0 +1,501 @@
+{
+ "format": "guided-lesson/0.4",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/4e00cbce6215-calorimeter-styrofoam-cup.png",
+   "alt": "Calorimetry equipment set up",
+   "sourceHeading": "Simple calorimeter",
+   "caption": "A lid is required to prevent heat loss",
+   "binding": "note-level",
+   "moduleIds": []
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_6478QfpYNQDjZSvt",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "3. Physical Chemistry",
+  "subtopicTitle": "Energetics",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-1-energetics/3-1-6-practical-investigating-temperature-changes"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-3.2",
+   "text": "describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation"
+  },
+  {
+   "code": "4CH1-3.8",
+   "text": "practical: investigate temperature changes accompanying some of the following types of change: salts dissolving in water; neutralisation reactions; displacement reactions; combustion reactions"
+  }
+ ],
+ "primer": {
+  "text": "From Calorimetry you already know how an insulated cup turns a reaction into a temperature reading. This practical applies that apparatus to a neutralisation between acid and alkali, adding acid in steps to map how the energy change grows. The graph you plot at the end identifies the mixture that releases the most heat.",
+  "prerequisiteSubtopic": "Energetics"
+ },
+ "lessons": [
+  {
+   "title": "Setting up and running the temperature-change practical",
+   "sourceHeadings": [
+    "Aim:",
+    "Method:"
+   ],
+   "specRefs": [
+    "4CH1-3.8"
+   ],
+   "opening": "The practical performs a calorimetry study of hydrochloric acid reacting with sodium hydroxide solution. This lesson lists the apparatus, then walks the five steps that build the results table.",
+   "keyPoints": [
+    "The aim is a calorimetry study of the reaction between hydrochloric acid and sodium hydroxide.",
+    "Apparatus includes dilute acid, dilute alkali, a polystyrene calorimeter with lid, a measuring cylinder, thermometer and stirrer.",
+    "A lid is required on the calorimeter to prevent heat loss during the experiment.",
+    "The method places sodium hydroxide solution in the calorimeter, records its temperature, then adds acid in 5 cm3 portions.",
+    "After each addition the highest temperature reached by the mixture is measured and recorded."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Put a measured portion of alkali in an insulated cup, read the starting temperature, then stir in acid a little at a time. After every addition, note the highest temperature the mixture reaches.",
+     "analogy": "It is like adding chilli to a soup spoonful by spoonful, rating the heat after each stir until you find the strongest mix.",
+     "examPointer": "Name the insulated cup with its lid and the fixed starting volume when describing the set-up."
+    },
+    "medium": {
+     "restatement": "A fixed volume of sodium hydroxide solution is placed in the calorimeter and its temperature taken, then dilute hydrochloric acid is added in 5 cm3 portions with stirring. The highest temperature reached after each addition is recorded, and the whole run is repeated with the acid volume increasing each time.",
+     "analogy": "Each acid portion is one rung on a ladder: climb one rung at a time and record how hot the run gets before stepping up again.",
+     "examPointer": "Quote the fixed alkali volume, the 5 cm3 acid step and the maximum-temperature reading as the core of the method."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why must the calorimeter have a lid during this practical?",
+     "misconceptionClass": "apparatus reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "To prevent heat loss so the temperature readings stay reliable",
+       "correct": true,
+       "explanation": "A lid keeps the released heat inside the cup where the thermometer can register it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To stop the acid and alkali from reacting",
+       "correct": false,
+       "explanation": "Reacting is the point of the practical; the lid only manages heat.",
+       "misconception": "purpose inverted"
+      },
+      {
+       "key": "C",
+       "text": "To keep the volume of alkali constant",
+       "correct": false,
+       "explanation": "The measuring cylinder controls volume, not the lid.",
+       "misconception": "apparatus role swap"
+      },
+      {
+       "key": "D",
+       "text": "To make the reaction finish faster",
+       "correct": false,
+       "explanation": "The lid changes heat flow, not reaction speed.",
+       "misconception": "rate conflated"
+      }
+     ]
+    },
+    {
+     "stem": "What happens to the volume of acid added at each repeat of the method?",
+     "misconceptionClass": "procedure recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "It increases by 5 cm3 each time, from 5 cm3 up to 25 cm3",
+       "correct": true,
+       "explanation": "The method repeats steps 1 to 4 with the acid portion growing by 5 cm3 per run.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It stays fixed while the alkali volume changes",
+       "correct": false,
+       "explanation": "The alkali volume is the fixed one; the acid varies.",
+       "misconception": "variables swapped"
+      },
+      {
+       "key": "C",
+       "text": "It halves with each repeat",
+       "correct": false,
+       "explanation": "The step is an increase of 5 cm3, not a halving.",
+       "misconception": "pattern invented"
+      },
+      {
+       "key": "D",
+       "text": "It is chosen at random for each run",
+       "correct": false,
+       "explanation": "The method is systematic, with a fixed step size.",
+       "misconception": "randomness myth"
+      }
+     ]
+    },
+    {
+     "stem": "Which temperature is recorded after each acid addition?",
+     "misconceptionClass": "measurement choice",
+     "options": [
+      {
+       "key": "A",
+       "text": "The highest temperature reached by the mixture",
+       "correct": true,
+       "explanation": "The maximum reading captures the full effect of that portion of acid.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The temperature after exactly one minute",
+       "correct": false,
+       "explanation": "Timing is not the criterion; the peak value is.",
+       "misconception": "timing substituted"
+      },
+      {
+       "key": "C",
+       "text": "The temperature of the acid before mixing",
+       "correct": false,
+       "explanation": "The starting temperatures matter once; the peak matters every run.",
+       "misconception": "wrong datum"
+      },
+      {
+       "key": "D",
+       "text": "The room temperature",
+       "correct": false,
+       "explanation": "Room temperature is not the measured quantity.",
+       "misconception": "irrelevant datum"
+      }
+     ]
+    },
+    {
+     "stem": "Which piece of apparatus measures out the sodium hydroxide solution?",
+     "misconceptionClass": "apparatus selection",
+     "options": [
+      {
+       "key": "A",
+       "text": "A 25 cm3 measuring cylinder",
+       "correct": true,
+       "explanation": "The method names the measuring cylinder for placing the alkali in the calorimeter.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A balance",
+       "correct": false,
+       "explanation": "This practical measures volumes, not masses of solution.",
+       "misconception": "quantity type confused"
+      },
+      {
+       "key": "C",
+       "text": "A thermometer",
+       "correct": false,
+       "explanation": "The thermometer reads temperature, not volume.",
+       "misconception": "apparatus role swap"
+      },
+      {
+       "key": "D",
+       "text": "A spirit burner",
+       "correct": false,
+       "explanation": "A burner belongs to combustion experiments, not this neutralisation.",
+       "misconception": "methods merged"
+      }
+     ]
+    },
+    {
+     "stem": "The reaction studied here belongs to which family of temperature-change types?",
+     "misconceptionClass": "classification link",
+     "options": [
+      {
+       "key": "A",
+       "text": "Neutralisation reactions, which always give energy out",
+       "correct": true,
+       "explanation": "Acid plus alkali is neutralisation, one of the four named change types.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Displacement reactions, which can run either way",
+       "correct": false,
+       "explanation": "No element displaces another here; acid meets alkali.",
+       "misconception": "family misassigned"
+      },
+      {
+       "key": "C",
+       "text": "Combustion reactions, which need a fuel and flame",
+       "correct": false,
+       "explanation": "Nothing burns in this practical.",
+       "misconception": "family misassigned"
+      },
+      {
+       "key": "D",
+       "text": "Salts dissolving in water, which involve no second solution",
+       "correct": false,
+       "explanation": "Two solutions are mixed, so dissolving is not the family.",
+       "misconception": "family misassigned"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Results, graph and conclusion",
+   "sourceHeadings": [
+    "Results:",
+    "Conclusion:"
+   ],
+   "specRefs": [
+    "4CH1-3.2",
+    "4CH1-3.8"
+   ],
+   "opening": "The numbers only become an answer once they are graphed. This lesson tables the results, draws the line of best fit and reads off the volume of acid that releases the most heat.",
+   "keyPoints": [
+    "Results are recorded in a table of acid volume against the temperature reached.",
+    "A graph of the results is plotted with a line of best fit drawn through the points.",
+    "The graph identifies the volume of acid that causes the biggest temperature change.",
+    "The larger the temperature difference, the more energy is absorbed or released by the reaction.",
+    "This practical is one example of the simple calorimetry experiments described for neutralisation."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Each run gives one pairing of acid volume and peak temperature, collected into a table with two columns. Plotting the pairs and drawing a best-fit line shows which acid volume warmed the mixture most.",
+     "analogy": "It is like marking your best javelin throws on a chart to spot the distance that worked best.",
+     "examPointer": "Sketch the table headings and the axes, then point to the peak of the line as the answer."
+    },
+    "medium": {
+     "restatement": "The results table pairs each acid volume with the maximum temperature reached, and the plotted line of best fit locates the volume causing the biggest temperature change. Since a larger temperature difference means more energy absorbed or released, that volume marks the mixture releasing the most heat.",
+     "analogy": "A tasting chart of soup samples: each row is a recipe strength, and the tallest bar on the graph names the winner.",
+     "examPointer": "Link the biggest temperature change to the greatest energy change, and name the practical as solution calorimetry."
+    }
+   },
+   "check": [
+    {
+     "stem": "What goes on the two axes of the graph plotted from this practical?",
+     "misconceptionClass": "graph construction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Volume of acid against the temperature of the mixture",
+       "correct": true,
+       "explanation": "Those are the two recorded quantities from the results table.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Time against temperature",
+       "correct": false,
+       "explanation": "Time is not recorded in this practical.",
+       "misconception": "variable invented"
+      },
+      {
+       "key": "C",
+       "text": "Volume of acid against volume of alkali",
+       "correct": false,
+       "explanation": "The alkali volume never varies.",
+       "misconception": "variable duplicated"
+      },
+      {
+       "key": "D",
+       "text": "Temperature against the number of stirs",
+       "correct": false,
+       "explanation": "Stirring is technique, not a recorded variable.",
+       "misconception": "procedure confused"
+      }
+     ]
+    },
+    {
+     "stem": "Why draw a line of best fit through the plotted points?",
+     "misconceptionClass": "graph reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "To smooth out reading scatter and reveal the trend in the temperature change",
+       "correct": true,
+       "explanation": "The best-fit line shows the overall pattern despite small errors in individual readings.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To connect every point exactly",
+       "correct": false,
+       "explanation": "Best-fit lines pass near points, not through all of them.",
+       "misconception": "join-the-dots myth"
+      },
+      {
+       "key": "C",
+       "text": "To make the graph look full",
+       "correct": false,
+       "explanation": "The line has an analytical purpose, not decoration.",
+       "misconception": "purpose myth"
+      },
+      {
+       "key": "D",
+       "text": "To convert temperatures to volumes",
+       "correct": false,
+       "explanation": "No conversion happens; the line locates the trend.",
+       "misconception": "function myth"
+      }
+     ]
+    },
+    {
+     "stem": "The graph shows the biggest temperature change at 20 cm3 of acid. What does that volume mark?",
+     "misconceptionClass": "graph interpretation",
+     "options": [
+      {
+       "key": "A",
+       "text": "The mixture that released the greatest amount of energy",
+       "correct": true,
+       "explanation": "The largest temperature difference corresponds to the largest energy change.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The weakest reaction tested",
+       "correct": false,
+       "explanation": "A big temperature change signals a strong energy release, not weakness.",
+       "misconception": "reading inverted"
+      },
+      {
+       "key": "C",
+       "text": "The point where the acid ran out",
+       "correct": false,
+       "explanation": "Acid supply is controlled by the experimenter, not by the chemistry.",
+       "misconception": "supply myth"
+      },
+      {
+       "key": "D",
+       "text": "The boiling point of the mixture",
+       "correct": false,
+       "explanation": "Boiling is not part of this practical.",
+       "misconception": "invented phenomenon"
+      }
+     ]
+    },
+    {
+     "stem": "How does the conclusion link temperature change to energy?",
+     "misconceptionClass": "conclusion logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "A larger temperature difference means more energy was absorbed or released",
+       "correct": true,
+       "explanation": "Temperature change is the proxy for the energy change in this calorimetry study.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Temperature and energy are unrelated in this experiment",
+       "correct": false,
+       "explanation": "The whole practical rests on that link.",
+       "misconception": "link denied"
+      },
+      {
+       "key": "C",
+       "text": "Energy only appears once the acid is in excess",
+       "correct": false,
+       "explanation": "Every portion releases some energy; the amount varies.",
+       "misconception": "threshold myth"
+      },
+      {
+       "key": "D",
+       "text": "The link holds only for endothermic reactions",
+       "correct": false,
+       "explanation": "Neutralisation here is exothermic; the link is general.",
+       "misconception": "scope narrowed"
+      }
+     ]
+    },
+    {
+     "stem": "Which description places this practical in the calorimetry family?",
+     "misconceptionClass": "method classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "A reaction in solution is mixed in an insulated container and its temperature change measured",
+       "correct": true,
+       "explanation": "That is exactly the solution calorimetry described for neutralisation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A fuel is burned under a copper can of water",
+       "correct": false,
+       "explanation": "That is the combustion variant, not this practical.",
+       "misconception": "variant swapped"
+      },
+      {
+       "key": "C",
+       "text": "A gas is collected over water to measure volume",
+       "correct": false,
+       "explanation": "Gas collection belongs to rate experiments.",
+       "misconception": "topic intrusion"
+      },
+      {
+       "key": "D",
+       "text": "A salt is heated to drive off its water",
+       "correct": false,
+       "explanation": "That is the dehydration of hydrated salts.",
+       "misconception": "topic intrusion"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "calorimetry",
+    "definition": "The measurement of heat changes in reactions, using an insulated container and a thermometer.",
+    "firstLesson": 1
+   },
+   {
+    "term": "neutralisation",
+    "definition": "The reaction between an acid and an alkali, which always gives energy out to the surroundings.",
+    "firstLesson": 1
+   },
+   {
+    "term": "line of best fit",
+    "definition": "A straight line drawn through scattered points to show the overall trend of a graph.",
+    "firstLesson": 2
+   },
+   {
+    "term": "maximum temperature",
+    "definition": "The highest reading reached by the mixture after each addition of acid.",
+    "firstLesson": 1
+   },
+   {
+    "term": "temperature change",
+    "definition": "The difference between the starting and finishing temperatures, used as the measure of energy transferred.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "Describe the calorimetry experiment that investigates the temperature change when dilute hydrochloric acid neutralises sodium hydroxide solution, and explain how the results identify the acid volume that releases the most heat.",
+   "steps": [
+    "Place 25 cm3 of sodium hydroxide solution in a polystyrene calorimeter with a lid (to prevent heat loss) and record the starting temperature.",
+    "Add 5 cm3 of dilute hydrochloric acid, stir, and record the highest temperature the mixture reaches.",
+    "Repeat, increasing the acid added by 5 cm3 each time, and tabulate the acid volume against the temperature reached.",
+    "Plot the results and draw a line of best fit: the volume of acid causing the biggest change in temperature marks the mixture releasing the most energy, since the larger the temperature difference the more energy is released."
+   ],
+   "finalAnswer": "25 cm3 alkali, acid added in 5 cm3 portions, peak temperature recorded each run; the biggest temperature change identifies the greatest energy release."
+  }
+ }
+}
