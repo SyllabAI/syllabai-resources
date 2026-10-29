@@ -1,0 +1,64 @@
+{
+  "format": "figures-2.2-promotion-receipt/1.0",
+  "wave": "FIGURES-2.2-CONCEPT-GRAIN-BINDING",
+  "operator_traces": ["1a18923d3913e2ed", "1a1892c0212a94fd"],
+  "generated_at_utc": "2026-10-30T00:00:00Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/figures-2-2-20261030",
+  "queue_of_record": "download/FIGURES-2-2-CONCEPT-GRAIN-QUEUED-20261030.json (hub-side lane receipt; 112-file census forecast scripts/figures-2-2-census-forecast.out)",
+  "commits": {
+    "A": {
+      "sha": "71922d1510ee9e00400667670b40f36e1ae5d456",
+      "parent": "5586acae1627d965049bac92de1ea9d1cc70c42c",
+      "note": "source-0.4 binding generation — 112 guided-lesson/0.4 artifacts + schema/guided-lesson.0.4.schema.json"
+    },
+    "C": {
+      "sha": "THIS COMMIT (namespace-complete: hub-import-1.3 + schema 1.3 + manifest v6 + records + tooling + this receipt)",
+      "parent": "71922d1510ee9e00400667670b40f36e1ae5d456"
+    }
+  },
+  "artifact_pin": "71922d1510ee9e00400667670b40f36e1ae5d456",
+  "pkg_pin": "4d857c472fd725597ac21db189542c8f12c82dba",
+  "input_pins": {
+    "resources_main_at_wave_open": "5586acae1627d965049bac92de1ea9d1cc70c42c",
+    "note": "source-0.3 + hub-import-1.2 + packages + manifest v5 + schemas verified byte-exact @ this ref (the figures-2.1 captions generation)"
+  },
+  "manifest": "hub-import-manifest-v6.json",
+  "int_record": "INT-3-transform-record-figures-2.2.json",
+  "adapter_spec": "ADAPTER-SPEC-guided-lesson-0.4-to-hub-1.3.md",
+  "counts_census": {
+    "figures": 200,
+    "module_mapped": 122,
+    "note_level": 78,
+    "binding_heading_unique": 90,
+    "binding_sole_lesson": 0,
+    "binding_content_overlap": 12,
+    "binding_unresolved": 20,
+    "claims_changed": 12,
+    "wholesale_claims_kept": 2,
+    "wholesale_claims_before": 14,
+    "notes_with_figures": 90,
+    "notes_total": 112
+  },
+  "binding_rules": {
+    "heading_unique": "figure.sourceHeading listed by exactly one lesson's sourceHeadings → bind there (90; verification-only — all already single-claimed)",
+    "sole_lesson": "single-lesson note → bind to the only lesson (0 fired: no single-lesson note carries module-mapped figures)",
+    "content_overlap": "shared heading + caption: caption token overlap vs lesson teaching text (title + keyPoints + opening + depthLayers), threshold of record top ≥ 2 AND margin ≥ 1 → bind to the single winner (12/12 captioned shared-heading figures elected; scores of record in INT record binding_census.rows)",
+    "note_level": "moduleIds [] stay note-level page-fallback, never rebound (78)",
+    "fail_closed": "unresolved keeps the existing claims + binding:'unresolved' (20 rows: 18 heading-not-listed in multi-lesson notes + 2 shared-heading-uncaptioned rn_4tzwS4GZjPybwtkS fig-02, rn_tvwj4VZ6yFscPJfD fig-01); of these 2 keep wholesale claims (14 → 2)",
+    "authored_words": "zero — the join touches only moduleIds/figureIds/binding; no teaching string moved"
+  },
+  "schema_delta": "additive bump 0.3→0.4 and 1.2→1.3: optional figures[].binding (enum of the five rules) + lessons[].figureIds / definitions.module figureIds minItems relaxed 1→0 (a guided lesson may teach no diagrams after narrowing — rn_HNXFQt7vM32g6PMv L2, rn_bGgYrQXP2tqrYwdV L1, rn_vVdP57QhDYSVfZgy L2)",
+  "conservation": {
+    "grand_stream_sha256": "see manifest v6 conservation block (== manifest v5 == manifest v4 of record)",
+    "matches_12": "per-note ×112 (INT record matches12)",
+    "authored_chars": 1426764
+  },
+  "gates": {
+    "source_phase": "452/452",
+    "transform_phase": "1015/1015",
+    "verify_phase_cold": "876/876"
+  },
+  "merge_order": "resources PR (this branch) merges to main FIRST; the hub PR (runner FEED figures-2-2-v6 + GuidedFigure.binding? type + landed content) merges only after",
+  "hub_side_note": "render law UNCHANGED (adapter spec 0.3→1.2 §6 stands: caption-first after key points); the narrowing only changes WHICH guided lesson renders each diagram — module.figureIds narrowed in lockstep with figure.moduleIds; hub/lesson-import/1.3 consumed via FEED figures-2-2-v6"
+}
