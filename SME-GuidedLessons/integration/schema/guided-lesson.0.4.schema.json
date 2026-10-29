@@ -1,0 +1,462 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "guided-lesson/0.4",
+  "title": "Guided-lesson layer format v0.2 (figures layer; strictly additive over 0.1)",
+  "description": "One file covers exactly one revision_note of record. 0.2 is a copy of 0.1 (draft-07, additionalProperties false throughout) with exactly three changes of record (SCHEMA-0.2-FIGURES-PROPOSAL-20261028, operator trace 1a1820011919e8b9): (1) format const bumped to guided-lesson/0.2; (2) new optional top-level figures[] — the parent revision note's own diagrams, deterministically mapped (figures-0.2-pipeline) to the lessons whose sourceHeadings anchor them; (3) new optional per-lesson figureIds[] referencing declared figure ids (closure lint-enforced both ways). Absent figures[]/figureIds[] is valid — every 0.1 artifact is a valid 0.2 artifact byte-for-byte in its authored strings. Figures carry NO new authored prose: they reuse the note's own image URLs (hotlinks already served in production) and alt text, so the canonical authored stream of the adapter spec section 7 is unchanged by construction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "noteRef",
+    "specPoints",
+    "primer",
+    "lessons",
+    "noteAssets"
+  ],
+  "properties": {
+    "format": {
+      "const": "guided-lesson/0.4"
+    },
+    "figures": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Optional figures layer (absent when the note carries no usable images — 22/112 notes). Order = note bodyMd image order; ids are note-scoped and zero-padded. moduleIds lists the lessons claiming the figure (empty = note-level figure, page-fallback only, never rendered inside the lesson flow).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "url",
+          "alt",
+          "sourceHeading",
+          "moduleIds"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^fig-[0-9]{2}$",
+            "description": "Note-scoped figure id, fig-01..fig-NN in bodyMd order (observed corpus max 11 figures/note)."
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://raw\\.githubusercontent\\.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/[0-9a-f]{12}-[A-Za-z0-9._-]+\\.(png|jpg|jpeg|webp|avif)$",
+            "description": "Machine-checkable sourcing decision of record (trace 1a1800f3b8c138e5): figures ARE the parent revision note's own asset-dir images. The pattern pins the upstream assets namespace; the mapping pipeline additionally verifies every basename resolves in the assets dir (194/194 1:1 at the grounding pin)."
+          },
+          "alt": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Verbatim markdown alt text from the note body; when the note's own alt is empty (1 ref corpus-wide) the pipeline falls back to the asset filename slug, recorded as matchMode 'slug-fallback' in the mapping receipt."
+          },
+          "sourceHeading": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Nearest preceding note heading (verbatim) — provenance of the figure's position in the parent note."
+          },
+          "moduleIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^L[1-5]$"
+            },
+            "description": "Ordinals of the lessons claiming this figure via their sourceHeadings (exact match, then normalized-substring fallback). May be empty (note-level figure: readable on the note page, never inside the lesson flow — knob (b) of record)."
+          },
+          "caption": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The parent note's own explanatory caption line — coalesced from the sidecar paragraph block immediately following the figure block (bold-italic house style), or row-context for table-embedded figures, or the introducing bullet text. Optional; absent = no explanatory line exists in the source (fail-closed)."
+          },
+          "binding": {
+            "type": "string",
+            "enum": [
+              "heading-unique",
+              "sole-lesson",
+              "content-overlap",
+              "note-level",
+              "unresolved"
+            ],
+            "description": "Which guided lesson teaches this diagram, and by which rule: heading-unique = sourceHeading listed by exactly one lesson; sole-lesson = single-lesson note; content-overlap = caption token overlap vs lesson teaching text (threshold of record: top ≥ 2 AND margin ≥ 1); note-level = moduleIds [] page-fallback; unresolved = fail-closed keep of the existing claims. Figures-2.2 binding layer; nothing authored."
+          }
+        }
+      }
+    },
+    "noteRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Corpus identity, verbatim from the revision_note row; missing values fail the lint.",
+      "required": [
+        "noteId",
+        "corpusVersion",
+        "topicTitle",
+        "subtopicTitle",
+        "sourceUrl"
+      ],
+      "properties": {
+        "noteId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "corpusVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topicTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtopicTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "specPoints": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Codes copied from spec_point_codes of record plus the official spec text; lesson coverage across the file must equal this set.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "text"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^4CH1-[0-9]+\\.[0-9]+C?$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "What-you-know-already paragraph: one paragraph, 40-80 words, citing the prerequisite by subtopic title.",
+      "required": [
+        "text",
+        "prerequisiteSubtopic"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prerequisiteSubtopic": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "description": "1-5 lessons; each maps to one or two note headings; titles reuse the note's own phrasing.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "sourceHeadings",
+          "specRefs",
+          "opening",
+          "keyPoints",
+          "confidenceGate",
+          "depthLayers",
+          "check"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceHeadings": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "specRefs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^4CH1-[0-9]+\\.[0-9]+C?$"
+            }
+          },
+          "figureIds": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Optional figures layer: ids of this lesson's claimed figures (must reference the file's declared figures[] ids; closure with figures[].moduleIds is lint-enforced both ways). Absent when the lesson claims no figures.",
+            "items": {
+              "type": "string",
+              "pattern": "^fig-[0-9]{2}$"
+            }
+          },
+          "opening": {
+            "type": "string",
+            "minLength": 1,
+            "description": "2-3 sentences, 40-90 words, plain language, no undefined term."
+          },
+          "keyPoints": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 6,
+            "description": "Each one sentence of at most 25 words, traceable to a note line or table row.",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "confidenceGate": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Metadata contract of the write-once gate, not learner data.",
+            "required": [
+              "ratings",
+              "continueDisabledUntilChoice",
+              "resumeWithoutReRate",
+              "postCheckRecalibration"
+            ],
+            "properties": {
+              "ratings": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high"
+                  ]
+                }
+              },
+              "continueDisabledUntilChoice": {
+                "const": true
+              },
+              "resumeWithoutReRate": {
+                "const": true
+              },
+              "postCheckRecalibration": {
+                "type": "boolean"
+              }
+            }
+          },
+          "depthLayers": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Exactly two layers, low and medium, same section order and template: restatement, analogy, exam pointer.",
+            "required": [
+              "low",
+              "medium"
+            ],
+            "properties": {
+              "low": {
+                "$ref": "#/definitions/depthLayer"
+              },
+              "medium": {
+                "$ref": "#/definitions/depthLayer"
+              }
+            }
+          },
+          "check": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 5,
+            "description": "Explained check items; exactly one keyed correct per item; every option explained; distractors name the misconception they catch.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "stem",
+                "misconceptionClass",
+                "options"
+              ],
+              "properties": {
+                "stem": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "misconceptionClass": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "options": {
+                  "type": "array",
+                  "minItems": 3,
+                  "maxItems": 5,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "key",
+                      "text",
+                      "correct",
+                      "explanation",
+                      "misconception"
+                    ],
+                    "properties": {
+                      "key": {
+                        "enum": [
+                          "A",
+                          "B",
+                          "C",
+                          "D",
+                          "E"
+                        ]
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "correct": {
+                        "type": "boolean"
+                      },
+                      "explanation": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "misconception": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "description": "Named misconception the distractor catches; null on the correct option; non-empty string required when correct is false (lint-enforced)."
+                      }
+                    },
+                    "if": {
+                      "properties": {
+                        "correct": {
+                          "const": false
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "misconception": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "noteAssets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "glossary",
+        "workedExample"
+      ],
+      "properties": {
+        "glossary": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "term",
+              "definition",
+              "firstLesson"
+            ],
+            "properties": {
+              "term": {
+                "type": "string",
+                "minLength": 1
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "firstLesson": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
+        "workedExample": {
+          "description": "Prompt, stepped solution, final answer; arithmetic lint-verified; must come from the note body where one exists; null when the note carries none (declared in the receipt).",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "prompt",
+            "steps",
+            "finalAnswer"
+          ],
+          "properties": {
+            "prompt": {
+              "type": "string",
+              "minLength": 1
+            },
+            "steps": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "finalAnswer": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "depthLayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "restatement",
+        "analogy",
+        "examPointer"
+      ],
+      "properties": {
+        "restatement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "analogy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "examPointer": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

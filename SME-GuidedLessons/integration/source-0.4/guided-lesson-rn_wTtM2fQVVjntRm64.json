@@ -1,0 +1,467 @@
+{
+ "format": "guided-lesson/0.4",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/3a09260ed3b6-the-periodic-table-2.png",
+   "alt": "The periodic table showing the location of metals and non metals",
+   "sourceHeading": "Metals and non-metals in the periodic table",
+   "caption": "Metals are on the left of the Periodic Table and non-metals on the right",
+   "binding": "heading-unique",
+   "moduleIds": [
+    "L2"
+   ]
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_wTtM2fQVVjntRm64",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "1. Principles of Chemistry",
+  "subtopicTitle": "The Periodic Table",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-4-the-periodic-table/1-4-3-classify-metals-and-non-metals"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-1.20",
+   "text": "understand how to use electrical conductivity and the acid-base character of oxides to classify elements as metals or non-metals"
+  },
+  {
+   "code": "4CH1-1.21",
+   "text": "identify an element as a metal or a non-metal according to its position in the Periodic Table"
+  }
+ ],
+ "primer": {
+  "text": "You already know from Atomic Structure how electrons fill the shells of an atom, and you can write arrangements such as 2,8,1. That picture is exactly what we need here, because the number of outer-shell electrons drives how an element conducts and how its oxide behaves. This note turns those two clues into a practical test for telling metals from non-metals.",
+  "prerequisiteSubtopic": "Atomic Structure"
+ },
+ "lessons": [
+  {
+   "title": "Properties of metals and non-metals",
+   "sourceHeadings": [
+    "Classify Metals & Non-Metals",
+    "Properties of metals and non-metals"
+   ],
+   "specRefs": [
+    "4CH1-1.20"
+   ],
+   "opening": "Sorting elements into metals and non-metals does not need a laboratory full of equipment: two quick tests settle most cases. Pass a current through the element and see whether it conducts, then check how its oxide treats acid and alkali. Good conductivity and a basic oxide point to a metal, while poor conductivity and an acidic oxide point to a non-metal.",
+   "keyPoints": [
+    "Electrical conductivity and the acid-base character of oxides are the working tests for this sorting.",
+    "Metals hold one to three electrons in their outer shell, non-metals four to seven.",
+    "Metallic bonding comes from metal atoms losing outer electrons; non-metals bond covalently by sharing them.",
+    "Metals conduct well; non-metals are poor conductors, which makes the current test decisive.",
+    "Metal oxides are basic; the oxides of non-metals are acidic, with a few neutral ones."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "An element that conducts well and forms a basic oxide is a metal; one that conducts badly and forms an acidic oxide is a non-metal.",
+     "analogy": "It works like sorting mail by two stamps on the envelope: check the conductivity stamp, then the oxide stamp, and the pile is decided.",
+     "examPointer": "Exam questions often hand you both clues and ask for the class; answer with the word metal or non-metal and one supporting property."
+    },
+    "medium": {
+     "restatement": "Conductivity probes the electrons available to move charge, while how the oxide treats acid probes how the element bonds; the two tests agree because both trace back to the outer-shell electron count.",
+     "analogy": "Think of a border checkpoint with two officers: one watches the charge carriers moving through the element, the other watches how its oxide treats acid; both must reach the same verdict.",
+     "examPointer": "If a question says an element's oxide neutralises acid and the element lights a bulb, state that it is a metal and quote both observations as your supporting evidence."
+    }
+   },
+   "check": [
+    {
+     "stem": "An unknown element conducts electricity well and its oxide neutralises dilute acid. How should it be classified?",
+     "misconceptionClass": "single-clue classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Metal, because both tests point that way",
+       "correct": true,
+       "explanation": "Good conductivity and a basic oxide are the two metal markers together.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Non-metal, because some non-metals conduct too",
+       "correct": false,
+       "explanation": "Graphite is the famous conducting exception, but the basic oxide here confirms the metal verdict.",
+       "misconception": "exception over-applied"
+      },
+      {
+       "key": "C",
+       "text": "Metalloid, since anything that conducts sits on the border line",
+       "correct": false,
+       "explanation": "Border position, not conductivity, is what names a semi-metal.",
+       "misconception": "conduction equated with metalloid status"
+      },
+      {
+       "key": "D",
+       "text": "Cannot be classified without its melting point",
+       "correct": false,
+       "explanation": "The two spec tests are sufficient; melting point is supporting evidence only.",
+       "misconception": "extra-property dependency"
+      }
+     ]
+    },
+    {
+     "stem": "An element is dull and brittle, and its oxide dissolves in water to give an acidic solution. Which class fits?",
+     "misconceptionClass": "property-class inversion",
+     "options": [
+      {
+       "key": "A",
+       "text": "Non-metal",
+       "correct": true,
+       "explanation": "Dull, brittle traits and an acidic oxide are the standard non-metal markers.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Metal, because all solid elements are metals",
+       "correct": false,
+       "explanation": "Several non-metals are solid, including sulfur and iodine; state alone never classifies.",
+       "misconception": "state equated with class"
+      },
+      {
+       "key": "C",
+       "text": "Metalloid, because acidity always signals a border element",
+       "correct": false,
+       "explanation": "Acidic oxides are the ordinary non-metal signature; only table position names a metalloid.",
+       "misconception": "oxide acidity misread as metalloid marker"
+      }
+     ]
+    },
+    {
+     "stem": "Which comparison row between metals and non-metals is correct?",
+     "misconceptionClass": "table-row swap",
+     "options": [
+      {
+       "key": "A",
+       "text": "Outer-shell electrons: metals hold one to three, non-metals four to seven",
+       "correct": true,
+       "explanation": "This matches the electron-arrangement comparison drawn in the note.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Outer-shell electrons: metals hold four to seven, non-metals one to three",
+       "correct": false,
+       "explanation": "The counts are reversed; metals hold the smaller number of outer electrons.",
+       "misconception": "row values swapped"
+      },
+      {
+       "key": "C",
+       "text": "Bonding: metals share electrons, non-metals lose them",
+       "correct": false,
+       "explanation": "It runs the other way: metal atoms lose electrons to bond, non-metals share.",
+       "misconception": "bonding direction reversed"
+      },
+      {
+       "key": "D",
+       "text": "Melting points: metals low, non-metals high",
+       "correct": false,
+       "explanation": "Metals generally melt at high temperatures and non-metals at low ones.",
+       "misconception": "melting-point row inverted"
+      }
+     ]
+    },
+    {
+     "stem": "A solid element is lustrous and can be bent into shape, but a classmate calls it a non-metal because it is solid. What is the soundest reply?",
+     "misconceptionClass": "state-over-property reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is a metal: malleability and a lustrous look outweigh state, which varies among non-metals too",
+       "correct": true,
+       "explanation": "The physical character is diagnostic here, and several non-metals are solid anyway.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Agree with the classmate: every solid is a non-metal",
+       "correct": false,
+       "explanation": "Most solid elements are metals, so state alone points the wrong way.",
+       "misconception": "solid equals non-metal"
+      },
+      {
+       "key": "C",
+       "text": "Agree, because metals can never be bent into shape",
+       "correct": false,
+       "explanation": "Malleability is one of the classic metal properties listed in the note.",
+       "misconception": "malleability denied for metals"
+      },
+      {
+       "key": "D",
+       "text": "Call it a metalloid because the class is disputed",
+       "correct": false,
+       "explanation": "A classmate's error does not create border status; the tests still say metal.",
+       "misconception": "dispute implies metalloid"
+      }
+     ]
+    },
+    {
+     "stem": "Why do conductivity and oxide character work together as a classification pair?",
+     "misconceptionClass": "test-redundancy belief",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both reflect the same underlying outer-shell electron count, so the two verdicts normally agree",
+       "correct": true,
+       "explanation": "One test probes charge flow and the other bonding behaviour, and both trace back to how many outer electrons the element holds.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They test unrelated properties, so using both wastes time",
+       "correct": false,
+       "explanation": "They are two windows on one cause, which is exactly why agreement is convincing.",
+       "misconception": "second test dismissed as redundant"
+      },
+      {
+       "key": "C",
+       "text": "Conductivity alone decides, and the oxide test merely checks practical skills",
+       "correct": false,
+       "explanation": "Each test can mislead on its own; graphite is the classic conductivity exception.",
+       "misconception": "secondary test dismissed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Metals and non-metals in the periodic table",
+   "sourceHeadings": [
+    "Metals & Non-Metals in the Periodic Table",
+    "Metals and non-metals in the periodic table"
+   ],
+   "specRefs": [
+    "4CH1-1.21"
+   ],
+   "figureIds": [
+    "fig-01"
+   ],
+   "opening": "Highlighted on the periodic table, the two families land in strikingly different territory: the vast majority of elements are metals, and they occupy the left of the table, with non-metals pushed to the right. A zig-zag line marks the boundary, and the few elements sitting on it behave like both camps at once, so they carry their own name.",
+   "keyPoints": [
+    "On the periodic table, metals sit on the left and non-metals on the right.",
+    "The vast majority of elements are metals, which is easy to miss until the classes are coloured in.",
+    "A zig-zag line separates the metals from the non-metals across the table.",
+    "Elements bordering that line show traits of both sides and are called semi-metals or metalloids.",
+    "Position on the table is itself the classifier: identify the side, and you have named the class."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Left of the zig-zag line you are naming metals; right of it, non-metals; on the line, expect a semi-metal.",
+     "analogy": "It is like a two-town border map: each side has its own mayor, and the villages straddling the line borrow from both councils.",
+     "examPointer": "Exam sketches often shade the two regions; name a shaded element's class from its position before reading any of its properties."
+    },
+    "medium": {
+     "restatement": "The table's layout mirrors the electron-arrangement story: metals on the left tend to lose their few outer electrons, while non-metals on the right gain or share to complete a shell.",
+     "analogy": "Picture a seating plan where the left rows share one snack habit and the right rows another; the aisle seats pick up both habits.",
+     "examPointer": "When asked to classify from position alone, quote the side of the zig-zag line first, then add one supporting property if the marks allow."
+    }
+   },
+   "check": [
+    {
+     "stem": "An element sits immediately to the left of the zig-zag line on the periodic table. Classify it.",
+     "misconceptionClass": "side confusion",
+     "options": [
+      {
+       "key": "A",
+       "text": "Metal, because the metals occupy the left of the table",
+       "correct": true,
+       "explanation": "Position to the left of the dividing line is the metal side of the table.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Non-metal, because everything near the line is a non-metal",
+       "correct": false,
+       "explanation": "Non-metals sit on the right; the immediate neighbourhood on the left is metallic.",
+       "misconception": "side of the line swapped"
+      },
+      {
+       "key": "C",
+       "text": "Semi-metal, because every element near the line is one",
+       "correct": false,
+       "explanation": "Only elements that touch the line take the semi-metal label.",
+       "misconception": "metalloid zone over-extended"
+      }
+     ]
+    },
+    {
+     "stem": "Which statement about how the two classes share the periodic table is true?",
+     "misconceptionClass": "proportion misjudgement",
+     "options": [
+      {
+       "key": "A",
+       "text": "Metals make up the vast majority of elements",
+       "correct": true,
+       "explanation": "Colouring the classes on a full table shows the metal region dominating the chart.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The two classes split the table roughly half and half",
+       "correct": false,
+       "explanation": "The metal region is far larger, so the split is nowhere near even.",
+       "misconception": "even-split assumption"
+      },
+      {
+       "key": "C",
+       "text": "Non-metals occupy most of the middle rows",
+       "correct": false,
+       "explanation": "The middle of the table is metallic; non-metals crowd the right-hand edge.",
+       "misconception": "region misremembered"
+      }
+     ]
+    },
+    {
+     "stem": "What does the zig-zag line on the periodic table mark?",
+     "misconceptionClass": "line misread",
+     "options": [
+      {
+       "key": "A",
+       "text": "The division between the metal region on the left and the non-metal region on the right",
+       "correct": true,
+       "explanation": "That dividing role is exactly why the line is drawn.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The boundary between periods and groups",
+       "correct": false,
+       "explanation": "Periods and groups are table scaffolding, not the class divide.",
+       "misconception": "structural boundary confusion"
+      },
+      {
+       "key": "C",
+       "text": "The edge of the transition-metals block only",
+       "correct": false,
+       "explanation": "The line runs the height of the table separating both classes, not one block.",
+       "misconception": "block boundary conflated"
+      }
+     ]
+    },
+    {
+     "stem": "An element borders the zig-zag line and shows a mix of metallic and non-metallic traits. Which term applies, and why is it used?",
+     "misconceptionClass": "border-term confusion",
+     "options": [
+      {
+       "key": "A",
+       "text": "Semi-metal or metalloid, because such elements resist clean classification",
+       "correct": true,
+       "explanation": "The special term exists precisely for elements with characteristics of both sides.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Transition metal, because border elements belong to the central block",
+       "correct": false,
+       "explanation": "Transition metals sit inside the metal region and show no such mixed character.",
+       "misconception": "label swapped with transition metal"
+      },
+      {
+       "key": "C",
+       "text": "Noble gas, because border elements are unreactive",
+       "correct": false,
+       "explanation": "Noble gases form the far-right group; nothing about the border implies low reactivity.",
+       "misconception": "family label misapplied"
+      },
+      {
+       "key": "D",
+       "text": "Alloy, because border elements mix both behaviours",
+       "correct": false,
+       "explanation": "An alloy is a mixture of metals, not a class assigned to a single element.",
+       "misconception": "class term confused with mixture term"
+      }
+     ]
+    },
+    {
+     "stem": "With no property data at all, how do you classify an element shown only as a symbol on the table?",
+     "misconceptionClass": "position-first method",
+     "options": [
+      {
+       "key": "A",
+       "text": "Read its position against the zig-zag line: left names it a metal, right a non-metal",
+       "correct": true,
+       "explanation": "Position is the designed classifier for this spec point.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Learn each element's class individually from a full list",
+       "correct": false,
+       "explanation": "The table's own geography does the work, so no list is needed.",
+       "misconception": "list learning over method"
+      },
+      {
+       "key": "C",
+       "text": "Assume every element with a one-letter symbol is a metal",
+       "correct": false,
+       "explanation": "Symbol length says nothing about class; hydrogen sits on the left yet is a non-metal.",
+       "misconception": "symbol-shape heuristic"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "malleable",
+    "definition": "Able to be bent and shaped without breaking; a typical property of solid metals.",
+    "firstLesson": 1
+   },
+   {
+    "term": "lustrous",
+    "definition": "Shiny and reflective in appearance; a characteristic physical mark of most metals.",
+    "firstLesson": 1
+   },
+   {
+    "term": "brittle",
+    "definition": "Breaks or flakes rather than bending; a typical property of solid non-metals.",
+    "firstLesson": 1
+   },
+   {
+    "term": "basic oxide",
+    "definition": "An oxide that reacts with acids; the oxide type typical of metals.",
+    "firstLesson": 1
+   },
+   {
+    "term": "acidic oxide",
+    "definition": "An oxide that reacts with alkalis; typical of non-metals, though a few non-metal oxides are neutral.",
+    "firstLesson": 1
+   },
+   {
+    "term": "metalloid",
+    "definition": "An element bordering the zig-zag line with traits of both metals and non-metals; also called a semi-metal.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "Element Z conducts electricity well and its oxide neutralises dilute acid. Element Y is a poor conductor and its oxide dissolves in water to give an acidic solution. a) Classify Z and Y, giving the evidence. b) State where each element sits relative to the zig-zag line on the periodic table.",
+   "steps": [
+    "a) Z conducts well and its oxide is basic (it neutralises acid), so Z is a metal.",
+    "Y conducts poorly and its oxide is acidic, so Y is a non-metal.",
+    "b) Metals occupy the left of the periodic table and non-metals the right, divided by the zig-zag line, so Z sits to the left of the line and Y to the right."
+   ],
+   "finalAnswer": "a) Z is a metal (good conductor, basic oxide); Y is a non-metal (poor conductor, acidic oxide). b) Z lies left of the zig-zag line, Y lies right of it."
+  }
+ }
+}
