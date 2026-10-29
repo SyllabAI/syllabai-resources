@@ -40,7 +40,7 @@ guided_study: true
 
 > **Exam Hint**
 > - Sketching the graphs is important as solving algebraically can lead to invalid solutions.
-> - For example, *x* = 1 is a solution to $x-4=2x-5$ but it is not a solution to `vertical line x minus 4 vertical line equals 2 x minus 5` (substitute *x* = 1 into both sides and see why it does not work).
+> - For example, *x* = 1 is a solution to $x-4=2x-5$ but it is not a solution to `vertical line x−4 vertical line=2x−5` (substitute *x* = 1 into both sides and see why it does not work).
 
 > **Worked Example**
 > ![Modulus functions - Solving Equations Example Diagram 1, A Level & AS Level Pure Maths Revision Notes](assets/1ea6069faae0-2-8-5-modulus-functions-solving-equations-exampl.png)

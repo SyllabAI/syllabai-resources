@@ -65,7 +65,7 @@ guided_study: true
 > 
 > *10 km = 10 000 m*
 > 
-> > *Write the time in minutes, you could calculate this as *$\frac{3}{4}\times60\mathrm{mins}$
+> > *Write the time in minutes, you could calculate this as* $\frac{3}{4}\times60\mathrm{mins}$
 > 
 > *Three quarters of an hour = 0.75 hrs = 45 mins*
 > 
@@ -73,7 +73,7 @@ guided_study: true
 > 
 > *45 × 60 = 2 700 seconds*
 > 
-> > *Use the formula *$\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}$
+> > *Use the formula* $\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}$
 > 
 > $\mathrm{Speed}=\frac{10000m}{2700s}=3.703703...m/s$
 > 
@@ -88,7 +88,7 @@ guided_study: true
 > 
 > > *The units are already in metres, and metres per second, so do not need converting to reach an answer in seconds*
 > 
-> > *Use the formula *$\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}$
+> > *Use the formula* $\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}$
 > 
 > $8.85m/s=\frac{100m}{\mathrm{Time}}$
 > 

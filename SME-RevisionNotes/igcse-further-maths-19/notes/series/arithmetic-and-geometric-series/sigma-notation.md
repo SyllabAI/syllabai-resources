@@ -57,9 +57,9 @@ guided_study: false
 > 
 > > `sum from k equals 1 to 6 of u subscript k space`
 > 
-> *Note that '*$n$*' is replaced by '*$k$*' to match the variable used for the sigma sum *
+> *Note that '*$n$*' is replaced by '*$k$*' to match the variable used for the sigma sum*
 > 
-> > *Now replace *$u_{k}$* with the actual formula, being sure to use *$k$* instead of *$n$* again*
+> > *Now replace* $u_{k}$ *with the actual formula, being sure to use* $k$ *instead of* $n$ *again*
 > 
 > $\sum_{ k = 1}^{ 6} ( 2 \times 3^{k - 1} )$
 > 
@@ -71,10 +71,10 @@ guided_study: false
 > 
 > (c) Write an expression for the sum of the first $n$ terms of the series using sigma notation.
 > 
-> > *This is very similar to the above, but the sum limits will start at 1 and go to *$n$
+> > *This is very similar to the above, but the sum limits will start at 1 and go to* $n$
 > 
 > `sum from k equals 1 to n of u subscript k`
 > 
-> > *Be careful here  –  *$k$* is the variable for the sigma sum, and *$n$* means we're going up to the *$n$<sup>*th*</sup>* term *
+> > *Be careful here  –* $k$ *is the variable for the sigma sum, and* $n$ *means we're going up to the* $n$<sup>*th*</sup> *term*
 > 
 > $\sum_{ k = 1}^{ n} \text{begin} \text{style} ( 2 \times 3^{k - 1} )$

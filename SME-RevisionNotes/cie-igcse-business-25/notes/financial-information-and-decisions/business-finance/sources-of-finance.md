@@ -60,7 +60,7 @@ advantages and disadvantages of internal sources of finance"
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Internal finance is **often free** (e.g. it does not involve the payment of  *interest *or charges)<br>- It does not involve third parties who may want to** influence business decisions**<br>- Internal finance can often be **organised quickly **and without significant paperwork<br>- Businesses that may **fail *****credit checks***** (necessary for a bank loan)** can access internal finance sources more easily | - There is a **significant *****opportunity cost***** **involved in the use of internal finance e.g. once retained profit has been used, it is not available for other purposes<br>- Internal finance **may not be sufficient** to meet the needs of the business<br>- Using an internal finance method is **rarely as***** tax-efficient**** *as many external methods e.g. loan repayments may be treated as a business cost and offset against tax |
+| - Internal finance is **often free** (e.g. it does not involve the payment of  *interest* or charges)<br>- It does not involve third parties who may want to** influence business decisions**<br>- Internal finance can often be **organised quickly **and without significant paperwork<br>- Businesses that may **fail *****credit checks***** (necessary for a bank loan)** can access internal finance sources more easily | - There is a **significant *****opportunity cost***** **involved in the use of internal finance e.g. once retained profit has been used, it is not available for other purposes<br>- Internal finance **may not be sufficient** to meet the needs of the business<br>- Using an internal finance method is **rarely as***** tax-efficient**** *as many external methods e.g. loan repayments may be treated as a business cost and offset against tax |
 
 ## External sources of finance
 
@@ -101,7 +101,7 @@ advantages and disadvantages of external sources of finance"
 
 - A bank overdraft is an agreement that allows a business to spend more money than it has in its *current account*
 - Overdrafts are flexible and useful for covering short-term cash flow problems
-- However, they often come with daily *interest *charges, so using an overdraft for a long time can be more expensive than other sources of finance
+- However, they often come with daily *interest* charges, so using an overdraft for a long time can be more expensive than other sources of finance
 
 #### Leasing
 
@@ -193,7 +193,7 @@ business, amount required, length of time, existing loans, cost, purpose"
 > 
 > **Recommendation**
 > 
-> - Retained profit would allow the business to buy the equipment immediately without taking on *debt *or paying interest
+> - Retained profit would allow the business to buy the equipment immediately without taking on *debt* or paying interest
 > 
 >   - This avoids future financial pressure and keeps overall costs low
 >   - It will reduce the company’s savings, but the business has enough profit available to cover the purchase

@@ -36,9 +36,9 @@ $g=\frac{F}{m}$
 
 - Where:
 
-  - *g *= gravitational field strength measured in newtons per kilogram (N/kg)
-  - *F *= gravitational force measured in newtons (N)
-  - *m *= mass of object in gravitational field measured in kilograms (kg)
+  - *g* = gravitational field strength measured in newtons per kilogram (N/kg)
+  - *F* = gravitational force measured in newtons (N)
+  - *m* = mass of object in gravitational field measured in kilograms (kg)
 
 ### Gravitational field strength due to a point mass
 
@@ -47,11 +47,11 @@ $g=\frac{F}{m}$
   - Newton’s law of gravitation
   - gravitational field strength at a point
 
-- [Newton’s law of gravitation](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/13-gravitational-fields/13-2-gravitational-force-between-point-masses/gravitational-force-between-point-masses/) states that the attractive force *F*<sub>*G*</sub> between two masses *M* and *m *with separation *r* is equal to:
+- [Newton’s law of gravitation](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/13-gravitational-fields/13-2-gravitational-force-between-point-masses/gravitational-force-between-point-masses/) states that the attractive force *F*<sub>*G*</sub> between two masses *M* and *m* with separation *r* is equal to:
 
 $F_{G}=\frac{GMm}{r^{2}}$
 
-- **Rearrange** the definition of gravitational field strength **at a point** to make force* F* the subject:
+- **Rearrange** the definition of gravitational field strength **at a point** to make force *F* the subject:
 
 $F=mg$
 
@@ -89,7 +89,7 @@ $g=\frac{GM}{r^{2}}$
 ## Calculating g
 
 - Gravitational field strength *g* is a **vector **quantity
-- The direction of *g *is always towards the centre of the body producing the field
+- The direction of *g* is always towards the centre of the body producing the field
 
   - This is the same direction as the gravitational field lines
 
@@ -147,6 +147,6 @@ $g\propto\frac{1}{r^{2}}$
 > 
 > **Step 6:** **Rearrange and calculate the ratio of the Moon’s radius r**<sub>**M**</sub>** and the Earth’s radius r**<sub>**E**</sub>
 > 
-> `r _ M / r _ E = (rho _ E g _ M)/(rho _ M g _ E) = (rho _ E ( 1 / 6 g _ E ))/(( 3 / 5 rho _ E ) g _ E)`
+> `r_ M / r_ E=(ρ _ E g_ M)/(ρ _ M g_ E)=(ρ _ E (1 / 6g_ E))/((3 / 5ρ _ E) g_ E)`
 > 
 > $\frac{r_{M}}{r_{E}}=\frac{1}{6}\div\frac{3}{5}=\frac{5}{18}=0.28$

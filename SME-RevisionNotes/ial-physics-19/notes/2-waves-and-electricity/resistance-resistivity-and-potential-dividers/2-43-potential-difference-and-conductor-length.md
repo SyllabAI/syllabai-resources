@@ -70,7 +70,7 @@ $V=IR$
 - Where
 
   - *V* = potential difference (V)
-  - *I *= current (A)
+  - *I* = current (A)
   - *R* = resistance (Ω)
 - Therefore, as *R* increases, so must potential difference across the wire
 

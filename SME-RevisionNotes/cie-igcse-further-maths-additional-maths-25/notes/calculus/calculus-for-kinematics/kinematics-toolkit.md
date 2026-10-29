@@ -66,7 +66,7 @@ guided_study: false
   - as the particle is **moving** in a **straight line, speed** is the **velocity ignoring** the **direction**
   
     - if`space v equals 4 comma space open vertical bar v close vertical bar equals 4`
-    - if`space v equals negative 6 comma space open vertical bar v close vertical bar equals 6`
+    - if`space v=−6 comma open vertical bar v close vertical bar=6`
 - **Acceleration **$a$ m s<sup>-2</sup>
 
   - The **acceleration** of a particle is the **rate** **of** **change** of its **velocity** at time$t$
@@ -122,18 +122,18 @@ guided_study: false
 > 
 > *i) **At maximum height, velocity is zero.  *
 > 
-> $v=0$* at *$t=4$*  *
+> $v=0$ *at* $t=4$*  *
 > 
 > **Final answer:** **The particle takes ****4 seconds**** to reach its maximum height. This is because its ****velocity is 0 ms**<sup>**-1**</sup>** at 4 seconds.**
 > 
 > **  **
 > 
-> *ii) *
+> *ii)*
 > 
-> *At *$t=3$*, velocity is positive  *
+> *At* $t=3$*, velocity is positive*
 > 
-> > *Acceleration is the gradient of velocity.  *
+> > *Acceleration is the gradient of velocity.*
 > 
-> *At *$t=3$*, acceleration is negative  *
+> *At* $t=3$*, acceleration is negative*
 > 
 > **Final answer:** **At 3 seconds the particle is ****decelerating ****as its ****velocity and acceleration have different signs****.**

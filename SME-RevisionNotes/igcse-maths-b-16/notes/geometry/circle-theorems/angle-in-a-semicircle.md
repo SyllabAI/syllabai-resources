@@ -50,7 +50,7 @@ guided_study: true
 > **Worked Example**
 > ![A circle with points P, Q and R on the circumference. The points are joined to form a triangle inside the circle. The angle PQR is 40º and the angle PRQ is yº.](assets/e80aa49ec9f2-20700-angle-in-a-semicircle-2.png)
 > 
-> *P*, *Q* and* R* are points on a circle.
+> *P*, *Q* and *R* are points on a circle.
 > *RQ* is a diameter.
 > 
 > Find the value of $y$.
@@ -63,11 +63,11 @@ guided_study: true
 > 
 > *The angle in a semicircle is 90°*
 > 
-> > *Write an equation for *$y$
+> > *Write an equation for* $y$
 > 
 > $y+90+40=180$
 > 
-> > *Solve for *$y$
+> > *Solve for* $y$
 > 
 > $y=180-90-40\,y=50$
 > 

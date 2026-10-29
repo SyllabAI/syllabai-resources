@@ -49,7 +49,7 @@ The binomial distribution is an example of a discrete probability distribution. 
 
   - The distribution is **symmetrical**
   - The distribution is **bell-shaped**
-- If *X* follows a normal distribution then it is denoted `X tilde N left parenthesis mu comma space sigma squared right parenthesis`
+- If *X* follows a normal distribution then it is denoted `X tilde N left parenthesis μ comma σ ² right parenthesis`
 
   - μ is the mean
   - σ<sup>2</sup> is the variance
@@ -73,7 +73,7 @@ The binomial distribution is an example of a discrete probability distribution. 
   - Mean = Median = Mode = *μ*
 - The normal distribution curve has two *points of inflection*
 
-  - x = *μ ±  σ *(one standard deviation away from the mean)
+  - x = *μ ±  σ* (one standard deviation away from the mean)
 - There are the results:
 
   - Approximately **two-thirds (68%)** of the data lies within **one standard deviation** of the mean (*μ ±  σ*)

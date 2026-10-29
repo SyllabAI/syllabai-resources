@@ -49,11 +49,11 @@ where $c$ is the **constant** of **integration**
 > 
 > Given the exact value of$f(1)$ is$\mathrm{ln}10-e^{3}$ find an expression for$f(x)$.
 > 
-> > *To find *$f ( x )$*, we need to integrate the expression for *$f ' ( x ).$*   *
+> > *To find* $f ( x )$*, we need to integrate the expression for* $f ' ( x ).$*   *
 > 
 > $f ( x ) = \int \frac{3}{3 x + 2} + e^{4 - x} d x$
 > 
-> > *Rewrite as two separate integrals which can be found individually, and factor out any constants.  *
+> > *Rewrite as two separate integrals which can be found individually, and factor out any constants.*
 > 
 > $f ( x ) = 3 \int \frac{1}{3 x + 2} d x + \int e^{4 - x} d x$
 > 
@@ -62,19 +62,19 @@ where $c$ is the **constant** of **integration**
 > $f ( x ) = 3 ( 1 \frac{1}{3} \ln \vert 3 x + 2 \vert ) + - 1 e^{4 - x} + c
 > f ( x ) = \ln \vert 3 x + 2 \vert - e^{4 - x} + c$
 > 
-> > *The question states that *$f ( 1 ) = \ln 10 - e^{3}$*, so substitute in *$x=1$* and equate to the given expression.  *
+> > *The question states that* $f ( 1 ) = \ln 10 - e^{3}$*, so substitute in* $x=1$ *and equate to the given expression.*
 > 
 > $\ln 10 - e^{3} = \ln \vert 3 ( 1 ) + 2 \vert - e^{4 - 1} + c$
 > 
-> > *Simplify and solve to find *$c.$*  *
+> > *Simplify and solve to find* $c.$*  *
 > 
 > $\mathrm{ln}10-e^{3}=\mathrm{ln}5-e^{3}+c\,\mathrm{ln}10-\mathrm{ln}5=c$
 > 
-> > *Recall from laws of logarithms that *$\mathrm{ln}a-\mathrm{ln}b=\mathrm{ln}\frac{a}{b}.$*  *
+> > *Recall from laws of logarithms that* $\mathrm{ln}a-\mathrm{ln}b=\mathrm{ln}\frac{a}{b}.$*  *
 > 
 > $c=\mathrm{ln}\frac{10}{5}=\mathrm{ln}2$
 > 
-> > *Rewrite the full expression for *$f ( x ).$*  *
+> > *Rewrite the full expression for* $f ( x ).$*  *
 > 
 > `equation`  
 > **or by combining logs, this could be written as **$f ( x ) = \ln ( 2 \vert 3 x + 2 \vert ) - e^{4 - x}$

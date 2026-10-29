@@ -27,7 +27,7 @@ guided_study: false
 
   - *v* = velocity of the wave (m s<sup>–1</sup>)
   - *f* = frequency of the wave (Hz)
-  - *λ *= wavelength (m)
+  - *λ* = wavelength (m)
 
 - The wave equation tells us that for a wave of constant speed:
 
@@ -57,11 +57,11 @@ guided_study: false
 > 
 > **Step 2: Write down the relationship between the frequency *****f***** and the period *****T***** **
 > 
-> *f *= $\frac{1}{T}$
+> *f* = $\frac{1}{T}$
 > 
 > **Step 3: Substitute the value of the period into the above equation to calculate the frequency **
 > 
-> *f *= $\frac{1}{1\times10^{-6}}$
+> *f* = $\frac{1}{1\times10^{-6}}$
 > 
 > *f* = 1.0 × 10<sup>6</sup> Hz
 > 
@@ -71,11 +71,11 @@ guided_study: false
 > 
 > **Step 5: Rearrange the wave equation to calculate the wavelength *****λ***
 > 
-> *λ *= $\frac{c}{f}$
+> *λ* = $\frac{c}{f}$
 > 
 > **Step 6: Substitute the numbers into the above equation **
 > 
-> *λ *= $\frac{1.0}{1\times10^{6}}$
+> *λ* = $\frac{1.0}{1\times10^{6}}$
 > 
 > *λ* = 1 × 10<sup>–6</sup> m
 

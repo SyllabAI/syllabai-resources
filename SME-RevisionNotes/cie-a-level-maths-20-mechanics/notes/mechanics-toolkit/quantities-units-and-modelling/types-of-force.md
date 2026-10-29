@@ -56,7 +56,7 @@ guided_study: true
 > **Worked Example**
 > The diagram below shows a car towing a trailer by a light inextensible string.
 > 
-> Forces *D, R, F *and *T N* act on the car and caravan as shown.
+> Forces *D, R, F* and *T N* act on the car and caravan as shown.
 > 
 > Write a brief description of which each force represents.
 > 

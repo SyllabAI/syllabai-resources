@@ -37,7 +37,7 @@ guided_study: true
   - **Angles in the same segment are equal**
 - Look out for a **bowtie shape**
 
-  - The theorem works **upside down**, in that the angles at* P* and *Q* are **also equal**
+  - The theorem works **upside down**, in that the angles at *P* and *Q* are **also equal**
 
 ![Angles in the same segment are equal (this works upside-down too)](../../../assets/b85ee983e514-44263-angles-in-the-same-segment-2.png)
 
@@ -68,7 +68,7 @@ guided_study: true
 > *Angle ***CDE*** = 90º*
 > *Angle in a semicircle = 90º*
 > 
-> > *Find the other angles in the triangles *
+> > *Find the other angles in the triangles*
 > 
 > *Angle ***ECA*** = 64º*
 > *Angle ***ECD*** = 17º*

@@ -59,8 +59,8 @@ guided_study: true
 > 
 > - Using Fleming’s left-hand rule:
 > 
->   - Magnetic field,* B* = into the page
->   - Force,* F* = vertically downwards
+>   - Magnetic field,*B* = into the page
+>   - Force,*F* = vertically downwards
 >   - Current, *I* = from right to left
 > 
 > ![Worked example - LH rule solution image, downloadable AS & A Level Physics revision notes](assets/e7cca4d244cc-20-1-worked-example-lh-rule-solution-image-1.png)

@@ -121,7 +121,7 @@ $\mathrm{LB}\geq\frac{\mathrm{Total} \mathrm{capacity} \mathrm{of} \mathrm{all} 
 > $\begin{array}{rcl} \text{LB} \text{greater} \text{or} \text{equal} \text{than} \frac{12 + 16 + 18 + 8 + 16 + 12 + 10 + 4 + 6 + 10 + 12 + 16 + 20 + 10 + 24}{40} \\ \text{LB} \text{greater} \text{or} \text{equal} \text{than} \frac{194}{40} \\ \text{LB} \text{greater} \text{or} \text{equal} \text{than} 4.85 \end{array}$
 > 
 > > *The number of shelves (bins) will need to be an integer (hence the inequality)*
-> *More than four shelves are needed so round up to five *
+> *More than four shelves are needed so round up to five*
 > 
 > **Final answer:** **Lower bound for the number of shelves is 5**
 > 

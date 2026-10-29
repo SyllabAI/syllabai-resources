@@ -97,7 +97,7 @@ guided_study: true
   - Horizontally (→) D - (F<sub>1</sub> + F<sub>2</sub>) = (m<sub>1</sub> + m<sub>2</sub>)a
   - There is no vertical motion so use “F = 0”
   - (↑) (R<sub>1</sub> + R<sub>2</sub>) - (m<sub>1</sub> + m<sub>2</sub>)g = 0
-  - (*F= ma* with *a =0 * will lead to the same equation)
+  - (*F= ma* with *a =0* will lead to the same equation)
 - **Treating each particle separately**
 
   - Particle 1:  Horizontally (→) T - F<sub>1</sub> = m<sub>1</sub>a

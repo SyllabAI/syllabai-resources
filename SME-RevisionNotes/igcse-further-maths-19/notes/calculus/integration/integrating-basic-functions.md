@@ -93,21 +93,21 @@ guided_study: false
 > **Worked Example**
 > Given that  $\frac{dy}{dx}=2x^{2}+3-\frac{1}{\sqrt{x}}$,  find an expression for$y$ in terms of$x$.
 > 
-> > *Start by rewriting *$\frac{dy}{dx}$*entirely in powers of *$x$
+> > *Start by rewriting* $\frac{dy}{dx}$*entirely in powers of* $x$
 > 
-> > *By laws of indices  *$\frac{1}{\sqrt{x}}=x^{-\frac{1}{2}}$
+> > *By laws of indices* $\frac{1}{\sqrt{x}}=x^{-\frac{1}{2}}$
 > 
 > $\frac{dy}{dx}=2x^{2}+3-x^{-\frac{1}{2}}$
 > 
-> > *Remember  *$\int \frac{ \mathrm{d} y}{ \mathrm{d} x} \mathrm{d} x = y + c$
+> > *Remember* $\int \frac{ \mathrm{d} y}{ \mathrm{d} x} \mathrm{d} x = y + c$
 > 
-> > *We can integrate term by term using  *$\int a x^{n \mathrm{d} x = \frac{a x^{n} + 1} }{n + 1} + c$
+> > *We can integrate term by term using* $\int a x^{n \mathrm{d} x = \frac{a x^{n} + 1} }{n + 1} + c$
 > 
 > $\begin{gathered} y = \int ( 2 x^{2} + 3 - x^{- 1 \frac{1}{2}} ) \mathrm{d} x \\ = 2 ( \frac{x^{2 + 1} }{2 + 1} ) + 3 x - \frac{x^{- 1 \frac{1}{2} + 1} }{- 1 \frac{1}{2} + 1} + c \\ = 2 ( \frac{x^{3}}{3} ) + 3 x - \frac{x^{1 \frac{1}{2}} }{1 \frac{1}{2}} + c \\ = \frac{2}{3} x^{3} + 3 x - 2 x^{1 \frac{1}{2}} + c \end{gathered}$
 > 
-> > *We can't find the value of *$c$* without further info, so that's the answer to the question*
+> > *We can't find the value of* $c$ *without further info, so that's the answer to the question*
 > 
-> > *It's 'nice' to turn *$x^{\frac{1}{2}}$* back into*$\sqrt{x}$* for the final answer, but you would also get the marks without doing that*
+> > *It's 'nice' to turn* $x^{\frac{1}{2}}$ *back into*$\sqrt{x}$ *for the final answer, but you would also get the marks without doing that*
 > 
 > $y=\frac{2}{3}x^{3}+3x-2\sqrt{x}+c$
 
@@ -145,13 +145,13 @@ guided_study: false
 > **Worked Example**
 > Given that  $\mathrm{f}^{'} ( x ) = 4 \cos 3 x - 1 \frac{1}{2} \sin 2 x$, find an expression for $\mathrm{f} ( x )$ in terms of $x$.
 > 
-> > *Remember that  *$\int \mathrm{f}^{'} ( x ) \mathrm{d} x = \mathrm{f} ( x ) + c$
+> > *Remember that* $\int \mathrm{f}^{'} ( x ) \mathrm{d} x = \mathrm{f} ( x ) + c$
 > 
-> > *We can integrate term by term using the integration formulae for *$\mathrm{sin}ax$* and *$\mathrm{cos}ax$
+> > *We can integrate term by term using the integration formulae for* $\mathrm{sin}ax$ *and* $\mathrm{cos}ax$
 > 
 > $\begin{array}{rcl} \mathrm{f} ( x ) & = \int ( 4 \cos 3 x - 1 \frac{1}{2} \sin 2 x ) \mathrm{d} x \\ = 4 ( 1 \frac{1}{3} \sin 3 x ) - 1 \frac{1}{2} ( - 1 \frac{1}{2} \cos 2 x ) + c \\ = \frac{4}{3} \sin 3 x + 1 \frac{1}{4} \cos 2 x + c \end{array}$
 > 
-> > *We can't find the value of *$c$* without further info, so that's the answer to the question*
+> > *We can't find the value of* $c$ *without further info, so that's the answer to the question*
 > 
 > $f(x)=\frac{4}{3}\mathrm{sin}3x+\frac{1}{4}\mathrm{cos}2x+c$
 
@@ -182,14 +182,14 @@ guided_study: false
 > **Worked Example**
 > Given that  $\mathrm{f}^{'} ( x ) = \frac{ \mathrm{e}^{2 x} - \mathrm{e}^{- 3 x} }{2}$, find an expression for $\mathrm{f} ( x )$ in terms of $x$.
 > 
-> > *Remember that  *$\int \mathrm{f}^{'} ( x ) \mathrm{d} x = \mathrm{f} ( x ) + c$
+> > *Remember that* $\int \mathrm{f}^{'} ( x ) \mathrm{d} x = \mathrm{f} ( x ) + c$
 > 
-> > *We can integrate term by term using the integration formula for *$e^{ax}$
+> > *We can integrate term by term using the integration formula for* $e^{ax}$
 > 
 > > *You might find it easier to split the fraction into two separate fractions first*
 > 
 > $\begin{gathered} \mathrm{f} ( x ) & = \int ( 1 \frac{1}{2} \mathrm{e}^{2 x} - 1 \frac{1}{2} \mathrm{e}^{- 3 x} ) \mathrm{d} x \\ = 1 \frac{1}{2} ( 1 \frac{1}{2} \mathrm{e}^{2 x} ) - 1 \frac{1}{2} ( \frac{1}{- 3} \mathrm{e}^{- 3 x} ) + c \\ = 1 \frac{1}{4} \mathrm{e}^{2 x} + \frac{1}{6} \mathrm{e}^{- 3 x} + c \end{gathered}$
 > 
-> > *We can't find the value of *$c$* without further info, so that's the answer to the question*
+> > *We can't find the value of* $c$ *without further info, so that's the answer to the question*
 > 
 > $f(x)=\frac{1}{4}e^{2x}+\frac{1}{6}e^{-3x}+c$

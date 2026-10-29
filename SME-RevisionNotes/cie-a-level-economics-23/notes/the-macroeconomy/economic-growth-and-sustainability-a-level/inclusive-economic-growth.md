@@ -64,7 +64,7 @@ guided_study: false
 > - Female labour force participation rose from 22% in 1990 to 36% by 2022 — one of the sharpest rises in South Asia
 > - GDP per capita rose from US\$220 (1980) to over US\$2,500 (2023)
 > - Poverty headcount fell from 44% (1991) to under 19% (2022)
-> - Rising female earnings linked to falling *fertility *and higher girls' school enrolment
+> - Rising female earnings linked to falling *fertility* and higher girls' school enrolment
 > 
 > **Limitations**
 > 

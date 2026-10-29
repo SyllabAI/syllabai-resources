@@ -65,7 +65,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > *Count the number of squares in both a horizontal and vertical direction to go from the CoE to one of the vertices on the original object, this is 2 to the right and 3 up in this example.*
 > *As the scale factor is 2, multiply these distances by 2, so they become 4 to the right and 6 up.*
 > *Count these new distances from the CoE to the corresponding point on the enlarged image and mark it on.*
-> *Draw a line through the CoE and the pair of corresponding points, they should line up in a straight line. *
+> *Draw a line through the CoE and the pair of corresponding points, they should line up in a straight line.*
 > 
 > ![Enlargement-Q1-working, IGCSE & GCSE Maths revision notes](assets/88b1ed18664d-23475-enlargements-2.png)
 > 
@@ -88,11 +88,11 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > 
 > ![Coordinate grid showing the original quadrilateral with the selected vertex at (−2, 4) and centre of enlargement marked at (4, 2). Red dashed guides show 6 squares left and 2 squares up.](assets/951db50574ac-39029-translation-left-up.png)
 > 
-> > *Multiply these distance by the scale factor, *$\frac{1}{2}$
+> > *Multiply these distance by the scale factor,* $\frac{1}{2}$
 > 
-> *6 left *$\times\frac{1}{2}=3$* left*
+> *6 left* $\times\frac{1}{2}=3$ *left*
 > 
-> *2 up*$\times\frac{1}{2}=1$* up*
+> *2 up*$\times\frac{1}{2}=1$ *up*
 > 
 > > *Count these new distances (which should be smaller than the originals) from the CoE to find the corresponding point on the new image and mark it on*
 > 
@@ -173,7 +173,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > > *We can see the image is smaller than the original so it is a **fractional enlargement*
 > *Compare two corresponding edges to find the scale factor - we've used the top edge*
 > 
-> *scale factor = *$\frac{\mathrm{new} \mathrm{edge}}{\mathrm{old} \mathrm{edge}}=\frac{2}{6}=\frac{1}{3}$
+> *scale factor =* $\frac{\mathrm{new} \mathrm{edge}}{\mathrm{old} \mathrm{edge}}=\frac{2}{6}=\frac{1}{3}$
 > 
 > > *Draw straight lines through corresponding vertices on the original shape*
 > *Repeat this 3-4 times and you should find the lines intersect at the same point*
@@ -223,7 +223,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > Watch out, exam questions are quite keen on combining both **negative **and **fractional **scale factors!
 
 > **Worked Example**
-> On the grid below enlarge shape F using scale factor  $-\frac{1}{3}$  and centre of enlargement  `open parentheses 6 comma space minus 1 close parentheses`.
+> On the grid below enlarge shape F using scale factor  $-\frac{1}{3}$  and centre of enlargement  `(6 comma−1)`.
 > 
 > Label this shape F'.
 > 
@@ -242,7 +242,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > 
 > *Distance to CoE from vertex on original object: 3 to the right and 3 up*
 > 
-> *Distances from CoE to corresponding vertex on enlarged image: *$3\times\frac{1}{3}=1$* to the right and *$3\times\frac{1}{3}=1$* up*
+> *Distances from CoE to corresponding vertex on enlarged image:* $3\times\frac{1}{3}=1$ *to the right and* $3\times\frac{1}{3}=1$ *up*
 > 
 > > *Count the new distances from the CoE, on the other side from the original object*
 > *Mark on the position of the corresponding point on the enlarged image*
@@ -259,11 +259,11 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > 
 > ![A 'T-shaped' object labelled F, with an enlarged image (SF= -1/3 and COE (6, -1)) marked F'.](assets/891484f2c04a-60360-enlargements-13.png)
 > 
-> > *The length scale factor is  *$\frac{1}{3}$*, meaning that each edge of the enlarged image is *$\frac{1}{3}$* the length of the corresponding edge on the original object*
+> > *The length scale factor is* $\frac{1}{3}$*, meaning that each edge of the enlarged image is* $\frac{1}{3}$ *the length of the corresponding edge on the original object*
 > 
 > > *Find the area scale factor by squaring the length scale factor*
 > 
-> `Area space scale space factor space equals open parentheses 1 third close parentheses squared equals 1 over 9`
+> `Area scale factor=(1 third)²=1 / 9`
 > 
 > > *Multiply the area of the original object by the area scale factor to find the area of the enlarged image*
 > 

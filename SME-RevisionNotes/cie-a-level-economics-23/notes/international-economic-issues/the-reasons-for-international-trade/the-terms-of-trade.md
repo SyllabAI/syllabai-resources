@@ -68,7 +68,7 @@ $\mathrm{Terms} \mathrm{of} \mathrm{trade}=\frac{\mathrm{Index} \mathrm{of} \mat
 
 ### Changes in exchange rates
 
-- *Exchange rates *constantly change the price of exports and imports
+- *Exchange rates* constantly change the price of exports and imports
 - If **prices change** then the **terms of trade** between the two countries change
 - Specific data would need to be provided in order to determine if the terms of trade have improved or deteriorated for each trading partner
 

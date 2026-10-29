@@ -34,7 +34,7 @@ The following guide to *Significant Cigarettes* (from The Road Home)* *by Rose T
 
 ## Significant Cigarettes overview
 
-*Significant Cigarettes *is the first chapter from English writer Rose Tremain’s 2008 novel The Road Home*, *and traces the journey of Lev from his home in Eastern Europe to England by bus. The extract is set entirely on the bus journey, and examines themes of cultural identity as well as the experiences of economic migrants leaving their home for the promise of a better life elsewhere.
+*Significant Cigarettes* is the first chapter from English writer Rose Tremain’s 2008 novel The Road Home*, *and traces the journey of Lev from his home in Eastern Europe to England by bus. The extract is set entirely on the bus journey, and examines themes of cultural identity as well as the experiences of economic migrants leaving their home for the promise of a better life elsewhere.
 
 ## Significant Cigarettes summary
 

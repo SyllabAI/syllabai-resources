@@ -33,7 +33,7 @@ guided_study: true
 ### Disease resistance in wheat and rice
 
 - **Wheat **plants have been selectively bred for hundreds of years as a crop
-- Wheat crops can be badly affected by fungal diseases: *Fusarium *is a fungus that causes “head blight” in wheat plants
+- Wheat crops can be badly affected by fungal diseases: *Fusarium* is a fungus that causes “head blight” in wheat plants
 - **Fungal diseases** are highly problematic for farmers as they destroy the wheat plant and **reduce crop yield**
 - By using selective breeding to introduce a fungus-resistant allele from another species of wheat, the hybrid wheat plants are **not susceptible to infection, and so yield increases**
 
@@ -41,7 +41,7 @@ guided_study: true
 - **Rice** is another crop that has been subject to large amounts of selective breeding
 - Rice plants are prone to different **bacterial and fungal diseases**
 
-  - Examples include “bacterial blight” and “rice blast” caused by the *Magnaporthe *fungus
+  - Examples include “bacterial blight” and “rice blast” caused by the *Magnaporthe* fungus
 - These diseases all **reduce the yield** of the crop as they damage infected plants
 - Scientists are currently working hard to create varieties of rice plants that are resistant to several bacterial and fungal diseases
 

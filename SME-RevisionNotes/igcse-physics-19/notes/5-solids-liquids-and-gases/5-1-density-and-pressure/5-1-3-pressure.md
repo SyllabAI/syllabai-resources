@@ -26,9 +26,9 @@ $P=\frac{F}{A}$
 
 - Where:
 
-  - *P *= pressure, measured in pascals (Pa)
-  - *F *= force, measured in newtons (N)
-  - *A *= **cross-sectional area**, measured in metres squared (m<sup>2</sup>)
+  - *P* = pressure, measured in pascals (Pa)
+  - *F* = force, measured in newtons (N)
+  - *A* = **cross-sectional area**, measured in metres squared (m<sup>2</sup>)
 
 - The cross-sectional area is the area that the force is applied at right angles to
 

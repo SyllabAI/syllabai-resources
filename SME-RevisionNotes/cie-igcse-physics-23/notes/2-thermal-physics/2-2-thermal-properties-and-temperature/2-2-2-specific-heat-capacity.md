@@ -96,9 +96,9 @@ $c=\frac{ΔE}{mΔθ}$
 - Where:
 
   - Δ*E* = change in thermal energy, in joules (J)
-  - *m *=* *mass, in kilograms (kg)
-  - *c *=* *specific heat capacity, in joules per kilogram per degree Celsius (J/kg °C)
-  - Δ*θ *=* *change in temperature, in degrees Celsius (°C)
+  - *m* =* *mass, in kilograms (kg)
+  - *c* =* *specific heat capacity, in joules per kilogram per degree Celsius (J/kg °C)
+  - Δ*θ* =* *change in temperature, in degrees Celsius (°C)
 
 > **Worked Example**
 > What unit is used to measure energy when calculating specific heat capacity?

@@ -44,7 +44,7 @@ The **variance **is another measure for the spread of the data, it measures the 
   
     - The **summary statistic **`S _ x x end _ = capital sigma ( x _ i - top x ) ^2 = capital sigma x _ i ^2 -`$\frac{(Σx_{i})^{2}}{n}$** ** can help derive different formulae as shown below:
 
-Variance =`sigma ^2 = ( capital sigma ( x - x -bar ) ^2)/(n) = S _ x x end _ / n = 1 / n ( capital sigma x ^2 - ( capital sigma x ) ^2 / n ) = ( capital sigma x ^2)/(n) - ( ( capital sigma x)/(n) ) ^2 = ( capital sigma x ^2)/(n) - x -bar ^2`
+Variance =`σ ^2=(capital σ (x - x -bar) ^2)/(n)=S_ x x end_ / n=1 / n (capital σ x ^2 - (capital σ x) ^2 / n)=(capital σ x ^2)/(n) - ((capital σ x)/(n)) ^2=(capital σ x ^2)/(n) - x -bar ^2`
 
 - An easy way to remember this is to think of it as ‘*the sum of x squared over n minus the sum of the mean squared’*
 - Most calculators can be used to find summary statistic such as the standard deviation and variance fairly quickly, practice finding it on yours
@@ -64,8 +64,8 @@ Variance =`sigma ^2 = ( capital sigma ( x - x -bar ) ^2)/(n) = S _ x x end _ / n
   - Multiply each $x$ value by its corresponding frequency and use these values within the formulae
   - The formulae will become
   
-    - Variance = `sigma ^2 = ( capital sigma f ( x - x -bar ) ^2)/( capital sigma f) = ( capital sigma f x ^2)/( capital sigma f) - ( ( capital sigma f x)/( capital sigma f) ) ^2`
-    - Standard deviation = `sigma = sqrt( ( capital sigma f ( x - x -bar ) ^2)/( capital sigma f) ) = sqrt( ( capital sigma f x ^2)/( capital sigma f) - ( ( capital sigma f x)/( capital sigma f) ) ) ^2`
+    - Variance = `σ ^2=(capital σ f (x - x -bar) ^2)/(capital σ f)=(capital σ f x ^2)/(capital σ f) - ((capital σ f x)/(capital σ f)) ^2`
+    - Standard deviation = `σ=sqrt((capital σ f (x - x -bar) ^2)/(capital σ f))=sqrt((capital σ f x ^2)/(capital σ f) - ((capital σ f x)/(capital σ f))) ^2`
 
 > **Worked Example**
 > Phoom recorded the length of time, $t$ , it took him, in minutes, to answer a selection of further calculus exam questions. The data is summarised in the table below.

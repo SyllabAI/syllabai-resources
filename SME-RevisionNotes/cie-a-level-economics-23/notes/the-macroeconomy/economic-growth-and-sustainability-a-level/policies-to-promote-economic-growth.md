@@ -75,8 +75,8 @@ guided_study: false
 - Key tools:
 
   - Cuts in income tax and corporation tax to incentivise work and investment
-  - *Deregulation *to reduce costs and encourage competition
-  - *Privatisation *to improve efficiency through profit incentive
+  - *Deregulation* to reduce costs and encourage competition
+  - *Privatisation* to improve efficiency through profit incentive
   - *Trade union* reform to improve labour market flexibility
   - Reducing unemployment benefits to incentivise job search
 
@@ -87,7 +87,7 @@ guided_study: false
 
   - Government spending on education and training to raise human capital
   - Infrastructure investment (transport, energy, digital) to raise productivity
-  - *Subsidies *for R&D to promote *innovation *and technological progress
+  - *Subsidies* for R&D to promote *innovation* and technological progress
   - Industrial policy to support strategic sectors
 
 ![Economic graph showing shifts in long-run and short-run aggregate supply curves (LRAS and SRAS) affecting real GDP from YFE1 to YFE2.](../../../assets/740b95bc0174-2115-interventionist-supply-side-policies.png)
@@ -151,7 +151,7 @@ guided_study: false
 > 
 > - Real GDP grew at an average rate of around 7% per year between 1960 and 1997 — one of the fastest sustained growth rates in history
 > - LRAS shifted dramatically rightward over decades as human and physical capital accumulated
-> - Employment rose as the economy *industrialised *and moved workers from agriculture into manufacturing and services
+> - Employment rose as the economy *industrialised* and moved workers from agriculture into manufacturing and services
 > 
 > **What this illustrates**
 > 

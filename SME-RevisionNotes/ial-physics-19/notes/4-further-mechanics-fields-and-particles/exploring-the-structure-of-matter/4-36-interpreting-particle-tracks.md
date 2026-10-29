@@ -35,8 +35,8 @@ $r=\frac{mv}{BQ}=\frac{p}{BQ}$
   - *p* = momentum of charged particle (kg m s<sup>–1</sup>)
   - *B* = magnetic field strength (T)
   - *Q* = charge of particle (C)
-  - *m *= mass of the particle (kg)
-  - *v *= velocity of the particle (m s<sup>-1</sup>)
+  - *m* = mass of the particle (kg)
+  - *v* = velocity of the particle (m s<sup>-1</sup>)
 
 - If the **radius** of a track is decreasing (i.e., it is spiralling closer inwards)
 

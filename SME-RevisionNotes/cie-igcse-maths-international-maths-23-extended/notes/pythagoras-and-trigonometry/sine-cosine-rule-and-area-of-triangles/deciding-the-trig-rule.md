@@ -60,27 +60,27 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The area of a triangle can be found using the formula *$A=\frac{1}{2}ab\mathrm{sin}C$
+> > *The area of a triangle can be found using the formula* $A=\frac{1}{2}ab\mathrm{sin}C$
 > 
 > > *The three side lengths are known , but we need to find an angle in order to calculate the area*
 > *Because we know all three sides, any of the angles could be found*
 > 
 > > *Find angle **ABC** using the cosine rule*
 > 
-> > *Cosine Rule:  *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, *
-> *where *$A$* is the angle opposite side *$a$*  *
+> > *Cosine Rule:* $a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*,*
+> *where* $A$ *is the angle opposite side* $a$*  *
 > 
 > $\begin{gathered} A C^{2} & = A B^{2} + B C^{2} - 2 ( A B ) ( B C ) \cos A B C \\ 4.4^{2} & = 7.4^{2} + 4.8^{2} - 2 ( 7.4 ) ( 4.8 ) \cos A B C \end{gathered}$
 > 
-> > *Rearrange to make*$\mathrm{cos}ABC$* the subject*
+> > *Rearrange to make*$\mathrm{cos}ABC$ *the subject*
 > 
 > $\begin{gathered} 4.4^{2} - ( 7.4^{2} + 4.8^{2} ) & = - 2 ( 7.4 ) ( 4.8 ) \cos A B C \\ \cos A B C & = \frac{4.4^{2} - 7.4^{2} - 4.8^{2 } }{- 2 ( 7.4 ) ( 4.8 )} \end{gathered}$
 > 
-> > *Use your calculator to find the value of *$\mathrm{cos}ABC$
+> > *Use your calculator to find the value of* $\mathrm{cos}ABC$
 > 
 > $\begin{gathered} \cos A B C & = \frac{487}{592} \end{gathered}$
 > 
-> > *Use the cos*<sup>*-1*</sup>* button on your calculator to find the value of *$ABC$
+> > *Use the cos*<sup>*-1*</sup> *button on your calculator to find the value of* $ABC$
 > 
 > $\begin{gathered} A B C & = \cos ^{- 1} ( \frac{487}{592} ) \\ = 34.65054... \end{gathered}$
 > 

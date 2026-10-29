@@ -143,7 +143,7 @@ guided_study: false
 
 ### Seed banks
 
-- Storing seeds in cold, dry conditions allows them to stay *viable *for many years
+- Storing seeds in cold, dry conditions allows them to stay *viable* for many years
 
   - This creates a long-term backup for rare plants
 - **Protecting wild plant genes** from threats like pests, diseases or climate change

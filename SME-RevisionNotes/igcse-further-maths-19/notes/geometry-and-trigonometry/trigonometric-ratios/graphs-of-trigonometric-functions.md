@@ -48,7 +48,7 @@ guided_study: false
   - **Range: **`{ y _ | - 1 _ <= y _ <= 1 }`
   
     - sin and cos can **never **take values greater than 1 or less than -1
-  - The **amplitude** of the graphs of sin *x * and cos *x * is 1
+  - The **amplitude** of the graphs of sin *x* and cos *x* is 1
 - The graphs of sin x and cos x are **translations **of one other
 
   - **sin *****x***  passes through the origin (0, 0)
@@ -60,13 +60,13 @@ guided_study: false
 
 ### What are the properties of the graph of tan x?
 
-- The graph of tan *x * is **periodic**
+- The graph of tan *x* is **periodic**
 
   - It **repeats every 180°** (***π***** radians**)
   - The angle measurement will always be on the ***x-*****axis**
   
     - Either in **degrees** or **radians**
-- The graph of tan *x * is **undefined** at ± 90°, ± 270° etc
+- The graph of tan *x* is **undefined** at ± 90°, ± 270° etc
 
   - There are vertical **asymptotes** at these points on the graph
   - In **radians** this is  $\pm\frac{π}{2}$ radians, $\pm\frac{3π}{2}$ radians, etc
@@ -179,7 +179,7 @@ Use the **symmetry** of the graph to find all the solutions in the interval
   - Also $\sin x = \sin ( 180^{\circ} - x )$
   
     - or $\sin x = \sin ( \pi - x )$ in radians
-- The graph of **cos *****x**** * has reflectional symmetry about the *y*-axis
+- The graph of **cos *****x**** *has reflectional symmetry about the* y*-axis
 
   - So $\cos ( - x ) = \cos x$
   - Also $\cos x = \cos ( 360^{\circ} - x )$

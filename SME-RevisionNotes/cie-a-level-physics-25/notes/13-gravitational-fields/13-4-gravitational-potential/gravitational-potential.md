@@ -48,7 +48,7 @@ guided_study: true
 
 ## Calculating gravitational potential
 
-- The gravitational potential $ϕ$ in a field due to a point mass, *M *is given by the equation:
+- The gravitational potential $ϕ$ in a field due to a point mass, *M* is given by the equation:
 
 $ϕ=-\frac{GM}{r}$
 
@@ -181,7 +181,7 @@ $\Delta E_{p} = G m_{1} m_{2} ( \frac{1}{r} _{1} - \frac{1}{r} _{2} )$
 
   - *m*<sub>1</sub> = mass that is producing the gravitational field (e.g. a planet) (kg)
   - *m*<sub>2</sub> = mass that is moving in the gravitational field (e.g. a satellite) (kg)
-  - *r*<sub>1</sub> *= *first distance of *m*<sub>*2*</sub> from the centre of *m*<sub>*1*</sub><sub> </sub>(m)
+  - *r*<sub>1</sub> *=* first distance of *m*<sub>*2*</sub> from the centre of *m*<sub>*1*</sub><sub> </sub>(m)
   - *r*<sub>2</sub> = second distance of *m*<sub>*2*</sub> from the centre of *m*<sub>*1*</sub>* *(m)
 
 > **Exam Hint**

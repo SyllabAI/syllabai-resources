@@ -46,21 +46,21 @@ guided_study: true
 > 
 > **Step 2: Calculate the area under the graph up to point X:**
 > 
-> - To point X, the area under the graph, *A*<sub>*X*</sub>* ,* is a triangle
+> - To point X, the area under the graph, *A*<sub>*X*</sub>*,* is a triangle
 > 
 > $A_{X}=\frac{1}{2}\times\mathrm{base}\times\mathrm{height}$
 > 
-> - Calculate *A*<sub>*X *</sub>, remembering to convert length to metres
+> - Calculate *A*<sub>*X* </sub>, remembering to convert length to metres
 > 
 > $A_{X} = 1 \frac{1}{2} \times ( 11.0 \times 10^{- 3} ) \times 450 = 2.475 \mathrm{J}$
 > 
 > **Step 3: Calculate the area between X and Y:**
 > 
 > - Assuming the line XY is a straight line, the area under this region of the graph forms a trapezium
-> - Recall the equation for a trapezium of width *h*  and side lengths *a * and *b* $A_{XY} = ( \frac{a + b}{2} ) h$
+> - Recall the equation for a trapezium of width *h*  and side lengths *a* and *b* $A_{XY} = ( \frac{a + b}{2} ) h$
 > 
 >   - Here, *h* is the change in extension from X to Y, 2.5 mm
->   - *a*  is the load at point X and *b * is the load at point Y
+>   - *a*  is the load at point X and *b* is the load at point Y
 > 
 > $A_{XY} = ( \frac{450 + 600}{2} ) \times ( 2.5 \times 10^{- 3} ) = 1.313 \mathrm{J}$
 > 

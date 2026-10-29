@@ -62,17 +62,17 @@ guided_study: false
 > **Worked Example**
 > a) Determine the number of intersections between the circles with equations $x^{2}+y^{2}=2$ and $( x - 4 )^{2} + y^{2} = 10$.
 > 
-> > $x^{2}+y^{2}=2$* has centre *$( 0 , 0 )$*and radius *$\sqrt{2}$*.*
+> > $x^{2}+y^{2}=2$ *has centre* $( 0 , 0 )$*and radius* $\sqrt{2}$*.*
 > 
-> > $( x - 4 )^{2} + y^{2} = 10$* has centre *$( 4 , 0 )$*and radius *$\sqrt{10}$*.*
+> > $( x - 4 )^{2} + y^{2} = 10$ *has centre* $( 4 , 0 )$*and radius* $\sqrt{10}$*.*
 > 
 > $\begin{array}{rcl} d^{2} & = ( 4 - 0 )^{2} + ( 0 - 0 )^{2} \\ d = 4 \end{array}$
 > 
-> > *Using a sketch may help you to 'see' that *$d=4$*.*
+> > *Using a sketch may help you to 'see' that* $d=4$*.*
 > 
 > $r_{1}=\sqrt{2},r_{2}=\sqrt{10}$
 > 
-> > *Compare *$d$* with the sum and difference of *$r_{1}$* and *$r_{2}$*.*
+> > *Compare* $d$ *with the sum and difference of* $r_{1}$ *and* $r_{2}$*.*
 > 
 > $\begin{gathered} r_{1} + r_{2} & = 4.576 ... \\ r_{2} - r_{1} & = 1.748 ... \end{gathered}$
 > 
@@ -148,7 +148,7 @@ guided_study: false
 > 
 > $m = \frac{y_{2} - y_{1} }{x_{2} - x_{1} } = \frac{4 - ( - 1 )}{8 - 3} = \frac{5}{5} = 1$
 > 
-> > *Apply *$y - y_{1} = m ( x - x_{1} )$* to get the equation of the common chord.*
+> > *Apply* $y - y_{1} = m ( x - x_{1} )$ *to get the equation of the common chord.*
 > 
 > $\begin{array}{rcl} y - ( - 1 ) & = 1 ( x - 3 ) \\ y + 1 & = x - 3 \end{array}$
 > 

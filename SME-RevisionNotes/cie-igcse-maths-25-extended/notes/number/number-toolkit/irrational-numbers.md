@@ -24,7 +24,7 @@ guided_study: true
   - It must be possible to write in the form $\frac{a}{b}$, where $a$ and $b$* *are both **integers**
   
     - $b$ cannot be zero
-  - This includes all *terminating *and *recurring *decimals
+  - This includes all *terminating* and *recurring* decimals
   
     - E.g. 0.15 (which is $\frac{15}{100}$) and 0.151515151515... (which is $\frac{15}{99}$)
   - This also includes all integers

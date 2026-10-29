@@ -53,7 +53,7 @@ Relative atomic mass of **X** = $\frac{\mathrm{average} \mathrm{mass} \mathrm{of
 
 $M_{r}=\frac{\mathrm{weighted} \mathrm{average} \mathrm{mass} \mathrm{of} \mathrm{molecules} \mathrm{in}a\mathrm{given} \mathrm{sample} \mathrm{of}a\mathrm{molecular} \mathrm{compound}}{\mathrm{unified} \mathrm{atomic} \mathrm{mass} \mathrm{unit}}$
 
-- The *M*<sub>*r *</sub>can be found by adding up the **relative atomic masses **of all atoms present in one molecule
+- The *M*<sub>*r* </sub>can be found by adding up the **relative atomic masses **of all atoms present in one molecule
 - When calculating the *M*<sub>*r*</sub> the **simplest formula **for the compound is used, also known as the **formula unit**
 
   - Eg. silicon dioxide has a giant covalent structure, however the simplest formula (the **formula unit**) is SiO<sub>2</sub>
@@ -72,4 +72,4 @@ $M_{r}=\frac{\mathrm{weighted} \mathrm{average} \mathrm{mass} \mathrm{of} \mathr
 
 - The **relative formula mass **(*M*<sub>*r*</sub>) is used for compounds containing **ions**
 - It has the same units and is calculated in the same way as the **relative** **molecular** **mass**
-- In the table above, the *M*<sub>*r *</sub>for potassium carbonate, calcium hydroxide and ammonium sulfates are relative formula masses
+- In the table above, the *M*<sub>*r* </sub>for potassium carbonate, calcium hydroxide and ammonium sulfates are relative formula masses

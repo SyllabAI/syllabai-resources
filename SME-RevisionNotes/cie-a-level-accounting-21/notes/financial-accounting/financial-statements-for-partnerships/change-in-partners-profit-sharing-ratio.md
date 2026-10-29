@@ -71,25 +71,25 @@ Calculate the share of the** eliminated goodwill **for each partner using the **
 > 
 > - These values will be credited to the capital accounts as it was a profit
 > 
-> *Aggie: *`1 half cross times $ 25 space 000 equals $ 12 space 500`
+> *Aggie:* `1 half×$ 25 000=$ 12 500`
 > 
-> *Chris: *`1 half cross times $ 25 space 000 equals $ 12 space 500`
+> *Chris:* `1 half×$ 25 000=$ 12 500`
 > 
 > Calculate the share of goodwill using the old ratio
 > 
 > - These will be credited to the capital accounts
 > 
-> *Aggie: *`1 half cross times $ 30 space 000 equals $ 15 space 000`
+> *Aggie:* `1 half×$ 30 000=$ 15 000`
 > 
-> *Chris: *`1 half cross times $ 30 space 000 equals $ 15 space 000`
+> *Chris:* `1 half×$ 30 000=$ 15 000`
 > 
 > Calculate the share of goodwill using the new ratio
 > 
 > - These will be debited to the capital accounts
 > 
-> *Aggie: *`3 over 5 cross times $ 30 space 000 equals $ 18 space 000`
+> *Aggie:* `3 / 5×$ 30 000=$ 18 000`
 > 
-> *Chris: *`2 over 5 cross times $ 30 space 000 equals $ 12 space 000`
+> *Chris:* `2 / 5×$ 30 000=$ 12 000`
 > 
 > Make the entries into the capital accounts and balance the account
 > 

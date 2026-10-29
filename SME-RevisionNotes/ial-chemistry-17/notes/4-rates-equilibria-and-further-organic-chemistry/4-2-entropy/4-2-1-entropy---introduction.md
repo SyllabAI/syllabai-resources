@@ -62,7 +62,7 @@ guided_study: false
 - So the number of possible arrangements is 2
 - If there are 5 molecules in one jar to begin with, the total number of ways, *W*, the five molecules can be arranged is
 
-  - *W* = *W*<sub>1 </sub>x *W*<sub>2 </sub>x *W*<sub>3 </sub>x *W*<sub>4 </sub>x* W*<sub>5</sub>
+  - *W* = *W*<sub>1 </sub>x *W*<sub>2 </sub>x *W*<sub>3 </sub>x *W*<sub>4 </sub>x *W*<sub>5</sub>
   - *W* = 2 x 2 x 2 x 2 x 2
   - *W* = 2<sup>5</sup>
   - *W* = 32
@@ -73,7 +73,7 @@ guided_study: false
 
 ***S***** = *****k *****In*****W***
 
-- *k *= Boltzmann distribution constant 1.38 x 10<sup>-23</sup> J K<sup>-1</sup> mol<sup>-1</sup>
+- *k* = Boltzmann distribution constant 1.38 x 10<sup>-23</sup> J K<sup>-1</sup> mol<sup>-1</sup>
 
   - The units for entropy (*S*) are J K<sup>-1</sup> mol<sup>-1</sup>
 

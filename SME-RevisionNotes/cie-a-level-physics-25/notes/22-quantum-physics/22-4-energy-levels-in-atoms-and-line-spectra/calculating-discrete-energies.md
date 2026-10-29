@@ -33,7 +33,7 @@ $\DeltaE=hf=E_{2}-E_{1}$
 
 $λ=\frac{hc}{E_{2}-E_{1}}$
 
-- This equation shows that the larger the difference in energy of two levels Δ*E*, the shorter the wavelength* λ *and vice versa
+- This equation shows that the larger the difference in energy of two levels Δ*E*, the shorter the wavelength *λ* and vice versa
 
 > **Worked Example**
 > Some electron energy levels in atomic hydrogen are shown below.

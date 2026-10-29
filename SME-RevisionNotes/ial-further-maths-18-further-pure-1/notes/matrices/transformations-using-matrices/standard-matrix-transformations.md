@@ -22,14 +22,14 @@ guided_study: false
 - Imagine the** unit** square *OABC*
 
   - It has a side-length **1 unit**
-  - *O * is the origin
+  - *O* is the origin
 
 ![The unit square](../../../assets/396bfef694c0-unit-square.png)
 
 - The **coordinates** of ***A ***** and *****C***  as **column vectors** are
 
   - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
-- Under a **reflection **about an** axis or **$y=\pmx$, *A * moves to *A*'  and *C*  moves to *C*'
+- Under a **reflection **about an** axis or **$y=\pmx$, *A* moves to *A*'  and *C*  moves to *C*'
 
   - The **matrix, **$M$ representing this reflection is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - ***A*****' ** **and** ***C*****'**  are column vectors of their **new positions**
@@ -39,13 +39,13 @@ guided_study: false
 
   - To find the matrix representing a **reflection about the **$x$**-axis**
   
-    - *A * stays where it is, so $A ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$
+    - *A* stays where it is, so $A ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$
     - *C*  goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative $y$-axis)
     - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} )$
   - To find the matrix representing a **reflection in the line **$y=x$
   
     - *A*  goes to $A ' = ( \begin{gathered} 0 \\ 1 \end{gathered} )$ (on the positive *y*-axis)
-    - *C * goes to $C ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ (on the positive *x*-axis)
+    - *C* goes to $C ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ (on the positive *x*-axis)
     - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 0 1 \\ 1 0 \end{gathered} )$
     - (This is not the same as the identity matrix, as the 1s are on the wrong diagonal)
 
@@ -60,9 +60,9 @@ guided_study: false
 > 
 > *The point ***A *** *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to ***A'***  *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$* *
 > 
-> *The point ***C *** *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* remains in the same place*
+> *The point ***C *** *$( \begin{gathered} 0 \\ 1 \end{gathered} )$ *remains in the same place*
 > 
-> > *The transformation matrix is given by *$M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
+> > *The transformation matrix is given by* $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
 > 
 > $M = ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} )$
 > 
@@ -120,11 +120,11 @@ guided_study: false
 > 
 > (a)  $p=0$
 > 
-> > *Substitute in *$p=0$
+> > *Substitute in* $p=0$
 > 
 > $M = ( \begin{gathered} 3 + 0 & 0 \\ 0 3 - 0 \end{gathered} ) = ( \begin{gathered} 3 0 \\ 0 3 \end{gathered} )$
 > 
-> > *This has the form *$M = ( \begin{gathered} k 0 \\ 0 k \end{gathered} )$* where *$k=3$
+> > *This has the form* $M = ( \begin{gathered} k 0 \\ 0 k \end{gathered} )$ *where* $k=3$
 > 
 > **Final answer:** $M$** represents an enlargement of scale factor 3 about the origin**
 > 
@@ -132,11 +132,11 @@ guided_study: false
 > 
 > (b)  $p=2$
 > 
-> > *Substitute in *$p=2$
+> > *Substitute in* $p=2$
 > 
 > $M = ( \begin{gathered} 3 + 2 & 0 \\ 0 3 - 2 \end{gathered} ) = ( \begin{gathered} 5 0 \\ 0 1 \end{gathered} )$
 > 
-> > *This has the form *$M = ( \begin{gathered} a 0 \\ 0 1 \end{gathered} )$* where *$a=5$
+> > *This has the form* $M = ( \begin{gathered} a 0 \\ 0 1 \end{gathered} )$ *where* $a=5$
 > 
 > **Final answer:** $M$** represents a stretch of scale factor 5 parallel to the **$x$**-axis**
 > 
@@ -160,12 +160,12 @@ guided_study: false
 - The **coordinates** of *A* and *C* as **column vectors** are
 
   - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
-- Under a **rotation about the origin**, *A * moves to *A*'  and *C*  moves to *C*'
+- Under a **rotation about the origin**, *A* moves to *A*'  and *C*  moves to *C*'
 
   - The **matrix, **$M$ representing this rotation is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - *A*'  and *C*'  are **column vectors** of their new positions
   
-    - The points *O * and *B*  are not needed, as we can draw the rotated square using just *A*'  and *C*'  (*O   *won't move)
+    - The points *O* and *B*  are not needed, as we can draw the rotated square using just *A*'  and *C*'  (*O* won't move)
 - For example:
 
   - To find the matrix representing a **rotation of 90° anticlockwise** about the origin
@@ -176,7 +176,7 @@ guided_study: false
   - To find the matrix representing a **rotation of 180° **about the origin
   
     - *A*  goes to $A ' = ( \begin{gathered} - 1 \\ 0 \end{gathered} )$ (on the negative $x$-axis)
-    - *C * goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative $y$-axis)
+    - *C* goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative $y$-axis)
     - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} )$
     - This is the same as $M=-I$ where* *$I$ is the identity matrix
 
@@ -224,13 +224,13 @@ guided_study: false
 > 
 > (b)  Find $Q$, the matrix that represents a clockwise rotation of 120°  about the origin, giving your answer in an exact form.
 > 
-> > *The matrix for an anticlockwise rotation by *$θ$* is*$( \begin{gathered} \cos \\theta & - \sin \\theta \\ \sin \\theta & \cos \\theta \end{gathered} )$
-> $θ$* is negative, as the rotation is clockwise*
+> > *The matrix for an anticlockwise rotation by* $θ$ *is*$( \begin{gathered} \cos \\theta & - \sin \\theta \\ \sin \\theta & \cos \\theta \end{gathered} )$
+> $θ$ *is negative, as the rotation is clockwise*
 > 
 > $θ=-120^{\circ}$
 > 
-> > *Substitute this value of *$θ$* into the matrix*
-> *Use that *$\cos ( - \\theta ) = \cos \\theta$* and that *$\sin ( - \\theta ) = - \sin \\theta$
+> > *Substitute this value of* $θ$ *into the matrix*
+> *Use that* $\cos ( - \\theta ) = \cos \\theta$ *and that* $\sin ( - \\theta ) = - \sin \\theta$
 > 
 > $( \begin{gathered} \cos ( - 120^{\circ} ) & - \sin ( - 120^{\circ} ) \\ \sin ( - 120^{\circ} ) & \cos ( - 120^{\circ} ) \end{gathered} ) = ( \begin{gathered} \cos ( 120^{\circ} ) & \sin ( 120^{\circ} ) \\ - \sin ( 120^{\circ} ) & \cos ( 120^{\circ} ) \end{gathered} )$
 > 

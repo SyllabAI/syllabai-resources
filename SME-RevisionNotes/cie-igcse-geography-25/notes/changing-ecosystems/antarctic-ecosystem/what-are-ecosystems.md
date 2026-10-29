@@ -37,7 +37,7 @@ guided_study: false
 - The abiotic factors of an area will determine the characteristics of an ecosystem
 - The climate will influence the types of flora (plants) that can grow
 
-  - This in turn will determine the type of food and *habitat *available for organisms to survive in the area
+  - This in turn will determine the type of food and *habitat* available for organisms to survive in the area
 - Ecosystems have **different levels of organisation**, from individual organisms to populations (groups of the same species), communities (groups of different species), and the whole ecosystem
 - Organisms **compete **for resources like light, space, water, food, breeding partners and territory
 - Ecosystems **recycle** materials such as carbon, nitrogen and water through processes like photosynthesis, respiration, and decomposition

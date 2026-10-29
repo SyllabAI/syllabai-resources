@@ -101,27 +101,27 @@ Calculate the share of the** eliminated goodwill **for each of the current partn
 > - The profits and losses are shared equally as per the Partnership Act
 > - These values will be debited to the capital accounts as it was a loss
 > 
-> *Xin : *`1 half cross times $ 10 space 000 equals $ 5 space 000`
+> *Xin :* `1 half×$ 10 000=$ 5 000`
 > 
-> *Yuqing: *`1 half cross times $ 10 space 000 equals $ 5 space 000`
+> *Yuqing:* `1 half×$ 10 000=$ 5 000`
 > 
 > Calculate the share of goodwill using the old ratio
 > 
 > - These will be credited to the capital accounts
 > 
-> *Xin: *`1 half cross times $ 80 space 000 equals $ 40 space 000`
+> *Xin:* `1 half×$ 80 000=$ 40 000`
 > 
-> *Yuqing: *`1 half cross times $ 80 space 000 equals $ 40 space 000`
+> *Yuqing:* `1 half×$ 80 000=$ 40 000`
 > 
 > Calculate the share of goodwill using the new ratio
 > 
 > - These will be debited to the capital accounts
 > 
-> *Xin: *`2 over 5 cross times $ 80 space 000 equals $ 32 space 000`
+> *Xin:* `2 / 5×$ 80 000=$ 32 000`
 > 
-> *Yuqing: *`2 over 5 cross times $ 80 space 000 equals $ 32 space 000`
+> *Yuqing:* `2 / 5×$ 80 000=$ 32 000`
 > 
-> *Zuhain: *`1 fifth cross times $ 80 space 000 equals $ 16 space 000`
+> *Zuhain:* `1 fifth×$ 80 000=$ 16 000`
 > 
 > Calculate the balance on Xin's capital account
 > 

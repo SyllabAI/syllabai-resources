@@ -25,14 +25,14 @@ guided_study: false
   
     - for example, 3*x* + 2*y* = 11 and 2*x* - *y* = 5
     - the solutions are *x* = 3 and *y* = 1
-- If they just have* x* and *y* in them (no *x*<sup>2</sup> or *y*<sup>2</sup> or *xy* etc) then they are **linear** simultaneous equations
+- If they just have *x* and *y* in them (no *x*<sup>2</sup> or *y*<sup>2</sup> or *xy* etc) then they are **linear** simultaneous equations
 - Solving a **pair of simultaneous equations** means finding **pairs of values** that make **both equations true** at the same time
 - A linear equation in two unknowns will produce a straight line if you graph it... linear = line
 - A pair of simultaneous equations will produce lines that will cross each other (if there is a solution!)
 
 ### How do I use elimination to solve simultaneous linear equations?
 
-- "Elimination" completely removes one of the variables, *x *or *y*
+- "Elimination" completely removes one of the variables, *x* or *y*
 - Begin by multiplying one (or both) of the equations by a constant (or constants)to get the numbers in front of **one** of the unknowns to match
 
   - For example to eliminate the *x*'s from 3*x* + 2*y* = 11 and 2*x* - *y* = 5
@@ -95,7 +95,7 @@ guided_study: false
   - Rearrange one of the equation into *y* = ... (or *x* = ...)
   
     - For example, the second equation becomes *y* = 2*x* - 5
-- Substitute the expression found for *x *or *y* into the equation not used to rearrange
+- Substitute the expression found for *x* or *y* into the equation not used to rearrange
 
   - Replace all *y*'s with 2*x* - 5 in brackets
   
@@ -105,11 +105,11 @@ guided_study: false
   - Solve this equation to find *x*
   
     - *x* = 3
-- Substitute the value found for *x *or *y* into the rearranged equation from to find the value of the other unknown
+- Substitute the value found for *x* or *y* into the rearranged equation from to find the value of the other unknown
 
   - Substitute *x* = 3 into *y* = 2*x* - 5 to find *y*
   
-    - *y *= 2(3) - 5
+    - *y* = 2(3) - 5
     - *y* = 1
 - **Check** your final solutions satisfy both equations
 
@@ -119,10 +119,10 @@ guided_study: false
 
 - **Plot** both equations on the same set of axes
 
-  - to do this, you can use a table of values or rearrange into *y* = *mx* + *c *if that helps
+  - to do this, you can use a table of values or rearrange into *y* = *mx* + *c* if that helps
 - Find where the lines **intersect** (cross over)
 
-  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and *y ***coordinates** of the point of **intersection**
+  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and* y ***coordinates** of the point of **intersection**
 - e.g. to solve 2*x *- *y* = 3 and 3*x* + *y* = 4 simultaneously, first plot them both (see graph)
 
   - find the point of intersection, (2, 1)

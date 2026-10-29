@@ -228,7 +228,7 @@ $\mathrm{gradient}=\frac{\Deltay}{\Deltax}$
 > 
 > $a=\frac{38}{9.0}$
 > 
-> `a space equals space 4.2 space straight m divided by straight s squared space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+> `a=4.2 straight m÷straight s² (2 straight s. straight f.)` **[1 mark]**
 
 > **Exam Hint**
 > The CIE IGCSE Physics specification includes knowing how to calculate the gradient of a tangent to the curve in the maths skills section. This means that you could be asked to demonstrate this skill in any topic. The skills in this revision note are applicable to any type of graph. For more information on interpreting graphs in Physics, see the article [Graph skills in GCSE Physics](https://www.savemyexams.com/learning-hub/exam-guides/graph-skills-in-gcse-physics/)

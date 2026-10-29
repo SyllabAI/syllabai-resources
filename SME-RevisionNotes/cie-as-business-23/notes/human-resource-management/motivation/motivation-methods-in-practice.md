@@ -23,13 +23,13 @@ guided_study: false
 
 | Financial incentive | **Explanation** | **Link to motivation theory** |
 |---|---|---|
-| **Piece rate** | - Employees are paid according to the number of units or pieces they produce<br>- Commonly used in manufacturing or *assembly line *settings to encourage workers to produce more | - **Taylor’s Scientific Management**<br>- Focused on output and financial reward as the main motivator |
+| **Piece rate** | - Employees are paid according to the number of units or pieces they produce<br>- Commonly used in manufacturing or *assembly line* settings to encourage workers to produce more | - **Taylor’s Scientific Management**<br>- Focused on output and financial reward as the main motivator |
 | **Time rate** | - Employees are paid based on the number of hours they work, often at an hourly wage<br>- This method values time over output | - A **hygiene Factor in Herzberg’s Theory**<br>- Provides financial security but doesn't directly motivate higher performance |
 | **Salary** | - A fixed monthly or annual payment not based on hours worked or output<br>- Offers stability and is often linked to professional or office-based roles | - A **hygiene Factor in Herzberg’s Theory**<br>- Removes dissatisfaction (e.g. worrying about pay), but does not itself motivate employees to achieve more |
 | **Commission** | - A percentage of sales revenue is paid to workers who sell products or services<br>- Commonly used in sales roles and motivates staff to sell more | - A **hygiene factor in Herzberg’s theory** because it provides financial reward but doesn’t always lead to long-term motivation on its own<br>- When combined with public recognition (like 'Salesperson of the Month'), it can meet **esteem needs in Maslow’s hierarchy**, making employees feel valued and respected for their achievements |
 | **Bonus** | - An additional payment is given to staff as a reward for achieving specific goals, completing projects on time, or exceeding expectations | - Connects to **Esteem Needs in Maslow’s Hierarchy** (achievement) but<br>**Herzberg** warned using bonuses as main pay can harm motivation and behaviour (e.g. banking crisis example) |
 | **Profit share** | - A portion of the company’s profits are shared with employees, encouraging them to work as a team and support the business’s success | - A **motivator in Herzberg’s Theory**<br>- Linked to increased responsibility and recognition (staff feel like part-owners) |
-| **Performance-related pay** | - Staff are paid based on how well they meet targets or performance goals<br>- Criticised for being open to *bias *and demotivation if unfair | - A** hygiene Factor in Herzberg’s Theory**<br>- May cause dissatisfaction and is often viewed as unfair, especially if targets are unclear or *subjective* |
+| **Performance-related pay** | - Staff are paid based on how well they meet targets or performance goals<br>- Criticised for being open to *bias* and demotivation if unfair | - A** hygiene Factor in Herzberg’s Theory**<br>- May cause dissatisfaction and is often viewed as unfair, especially if targets are unclear or *subjective* |
 | **Fringe benefits** | - Extra non-cash rewards such as company cars, health insurance, gym membership, or staff discounts<br>- Designed to improve employee satisfaction and retention | - A** hygiene Factor in Herzberg’s Theory**<br>- Makes the work environment more comfortable but does not directly motivate improved performance |
 
 ### Advantages of using financial motivators
@@ -65,7 +65,7 @@ guided_study: false
 - Many people want challenge, recognition and opportunities for  development from their work
 - According to **Herzberg**, motivators like *job enrichment*, *promotion*, and recognition increase job satisfaction by giving responsibility and purpose
 
-  - *Empowerment *and participation in decision-making help employees feel trusted, which boosts motivation
+  - *Empowerment* and participation in decision-making help employees feel trusted, which boosts motivation
 - According to **Maslow**, non-financial rewards meet higher-level needs like belonging, esteem and self-fulfilment
 
 ### Examples of non-financial motivators
@@ -116,7 +116,7 @@ guided_study: false
 ### Applying Herzberg's two-factor theory
 
 - Businesses make sure basic *hygiene factors*, such as fair pay and a clean and safe environment, are in place
-- Then they focus on* motivators* by giving employees responsibility, chances for promotion or by recognising achievements
+- Then they focus on *motivators* by giving employees responsibility, chances for promotion or by recognising achievements
 
 > **Case Study**
 > KrakSoft Technologies is a software company based in Kraków, Poland, specialising in developing mobile apps and digital solutions for clients across Europe. The business employs over 80 software developers, designers and project managers

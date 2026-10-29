@@ -57,7 +57,7 @@ guided_study: false
 > 
 > **Step 1: Write down the known quantities**
 > 
-> - Emitted frequency,* f* = 4.570 × 10<sup>14</sup> Hz
+> - Emitted frequency,*f* = 4.570 × 10<sup>14</sup> Hz
 > - Shift in frequency, *Δf* = (4.547 – 4.570) × 10<sup>14</sup> = –2.3 × 10<sup>12</sup> Hz
 > - Speed of light, *c* = 3.0 × 10<sup>8</sup> m s<sup>–1</sup>
 > 
@@ -127,8 +127,8 @@ guided_study: false
 > 
 > **Step 1: List the known quantities:**
 > 
-> - *d *= 20 light years
-> - *H*<sub>*o*</sub>* = *2.2 x 10<sup>-18 </sup>s<sup>-1</sup>
+> - *d* = 20 light years
+> - *H*<sub>*o*</sub>*=* 2.2 x 10<sup>-18 </sup>s<sup>-1</sup>
 > 
 > **Step 2: Convert 20 light-years to m:**
 > 

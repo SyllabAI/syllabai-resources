@@ -88,7 +88,7 @@ guided_study: false
 > 
 > *(3, 4), (3, 5), (4, 5), (4, 4)*
 > 
-> > *Check that these satisfy all the constraints and if so, evaluate *$P$
+> > *Check that these satisfy all the constraints and if so, evaluate* $P$
 > *Once a point fails to satisfy an inequality we do not need to make any further checks*
 > 
 > ![yGrijk_b_picture-1](assets/26d4d57297f7-ygrijk-b-picture-1.png)

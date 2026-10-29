@@ -89,16 +89,16 @@ guided_study: true
 > 
 > $78 \% = 0.78$
 > 
-> > *Convert *$\frac{7}{8}$* to a decimal by either using short division, or halving three times*
+> > *Convert* $\frac{7}{8}$ *to a decimal by either using short division, or halving three times*
 > 
 > $\begin{gathered} 7 \div 2 & = 3.5 \\ 3.5 \div 2 & = 1.75 \\ 1.75 \div 2 & = 0.875 \end{gathered}$
-> *so *$\frac{7}{8}=0.875$
+> *so* $\frac{7}{8}=0.875$
 > 
-> > *Convert *$\frac{5}{6}$* to a decimal by using short division*
+> > *Convert* $\frac{5}{6}$ *to a decimal by using short division*
 > 
 > `equation`
 > 
-> *so *$\frac{5}{6} = 0.8333... = 0.8 \dot{3}$
+> *so* $\frac{5}{6} = 0.8333... = 0.8 \dot{3}$
 > 
 > > *Write them all with 3 decimal places to determine the order*
 > 

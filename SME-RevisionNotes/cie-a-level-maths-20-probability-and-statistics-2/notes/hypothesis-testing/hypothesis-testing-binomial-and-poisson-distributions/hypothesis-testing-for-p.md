@@ -52,8 +52,8 @@ guided_study: true
 
   - Check that the next value would cause this probability to be greater than the significance level
   
-    - For **H**<sub>**1**</sub>** : ***p < ...**** ***if `straight P left parenthesis X less or equal than c right parenthesis less or equal than alpha percent sign`  and `straight P left parenthesis X less or equal than c plus 1 right parenthesis less or equal than alpha percent sign` then *c *is the critical value
-    - For **H**<sub>**1**</sub>** : ***p > ... * if `straight P left parenthesis X greater or equal than c right parenthesis less or equal than alpha percent sign`  and `straight P left parenthesis X greater or equal than c minus 1 right parenthesis greater than alpha percent sign` then *c *is the critical value
+    - For **H**<sub>**1**</sub>** : ***p < ...**** ***if `straight P left parenthesis X less or equal than c right parenthesis less or equal than alpha percent sign`  and `straight P left parenthesis X less or equal than c plus 1 right parenthesis less or equal than alpha percent sign` then *c* is the critical value
+    - For **H**<sub>**1**</sub>** : ***p > ... * if `straight P left parenthesis X greater or equal than c right parenthesis less or equal than alpha percent sign`  and `straight P left parenthesis X greater or equal than c minus 1 right parenthesis greater than alpha percent sign` then *c* is the critical value
 - For a **two-tailed test **you will need to find **both critical values, **one at each end of the distribution
 
   - Find the first value for which the probability of that **or a more extreme value** is less than **half** of the given significance level in both the upper and lower tails

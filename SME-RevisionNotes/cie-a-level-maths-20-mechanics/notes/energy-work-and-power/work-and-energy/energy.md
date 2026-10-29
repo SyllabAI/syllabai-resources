@@ -45,7 +45,7 @@ There are many different forms of energy including, but not limited to, heat ene
 - The **work done** by the resultant force is equal to the **change in kinetic energy**
 
   - This is the** final kinetic energy **minus the** initial kinetic energy**
-  - The formula for the **change in kinetic energy** is ** **$\frac{1}{2}mv^{2}-\frac{1}{2}mu^{2}$ where ***u***** **is the initial velocity and ** *****v*****  **is the final velocity
+  - The formula for the **change in kinetic energy** is ** **$\frac{1}{2}mv^{2}-\frac{1}{2}\mu^{2}$ where ***u***** **is the initial velocity and ** *****v*****  **is the final velocity
   - This is often written as $\frac{1}{2}m(v^{2}-u^{2})$
 
 - Newton’s Second Law ($F=ma$) and the '*suvat*'  equation $v^{2}=u^{2}+2as$** **can be used to** **derive the formula for the change in kinetic energy

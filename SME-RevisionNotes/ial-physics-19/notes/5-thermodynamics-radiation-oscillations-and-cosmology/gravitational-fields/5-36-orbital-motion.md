@@ -78,7 +78,7 @@ guided_study: false
 - Where:
 
   - *T* = *time period* of the orbit (s)
-  - *r *=* *orbital radius (m)
+  - *r* =* *orbital radius (m)
   - *G* = *Newton's Gravitational Constant* (N m<sup>2</sup> kg<sup>–2</sup>)
   - *M* = mass of the object being orbited (kg)
 
@@ -88,15 +88,15 @@ guided_study: false
 ![Circular Orbits in Gravitational Fields equation 7](../../../assets/52571356292d-5-circular-orbits-in-gravitational-fields-equati.png)
 
 > **Worked Example**
-> A binary star system constant of two stars orbiting about a fixed point **B**.The star of mass *M*<sub>*1*</sub> has a circular orbit of radius *R*<sub>*1*</sub> and mass *M*<sub>*2*</sub> has a radius of *R*<sub>*2*</sub>. Both have linear speed *v* and an angular speed ⍵ about **B**.
+> A binary star system constant of two stars orbiting about a fixed point **B**.The star of mass *M*<sub>*1*</sub> has a circular orbit of radius *R*<sub>*1*</sub> and mass *M*<sub>*2*</sub> has a radius of *R*<sub>*2*</sub>. Both have linear speed *v* and an angular speed ω about **B**.
 > 
 > ![Worked example - circular orbits in g fields, downloadable AS & A Level Physics revision notes](assets/a44562fc685d-13-1-2-5-worked-example-circular-orbits-in-g-fie.png)
 > 
 > State the following formula, in terms of *G*, *M*<sub>*2*</sub>, *R*<sub>*1*</sub> and *R*<sub>*2*</sub>
 > 
-> (i) The angular speed ⍵ of *M*<sub>*1*</sub>
+> (i) The angular speed ω of *M*<sub>*1*</sub>
 > 
-> (ii) The time period *T* for each star in terms of angular speed ⍵
+> (ii) The time period *T* for each star in terms of angular speed ω
 > 
 > **Answer:**
 > 
@@ -112,4 +112,4 @@ guided_study: false
 > This worked example helps you practise two crucial techniques that are often examined:
 > 
 > 1. The centripetal force is expressed as $\frac{mv^{2}}{r}$ or equivalently as $mω^{2}r$. In our case the angular speed is given in the question, so it is best to use the latter expression $mω^{2}r$ when equating the centripetal force to the gravitational force.
-> 2. The gravitational force is given as $\frac{GMm}{r^{2}}$but note that the distance *r* in this question is given as a sum, *R*<sub>1</sub> + *R*<sub>2</sub>*. *You should remember that *r* is defined as the distance between the **centre of masses **of *M* and *m*, therefore, *r* = *R*<sub>1</sub> + *R*<sub>2</sub> and so *r*<sup>2</sup> = (*R*<sub>1</sub> + *R*<sub>2</sub>)<sup>2</sup>.
+> 2. The gravitational force is given as $\frac{GMm}{r^{2}}$but note that the distance *r* in this question is given as a sum, *R*<sub>1</sub> + *R*<sub>2</sub>*.* You should remember that *r* is defined as the distance between the **centre of masses **of *M* and *m*, therefore, *r* = *R*<sub>1</sub> + *R*<sub>2</sub> and so *r*<sup>2</sup> = (*R*<sub>1</sub> + *R*<sub>2</sub>)<sup>2</sup>.

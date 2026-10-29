@@ -201,11 +201,11 @@ $ΔH=\frac{Q}{n}$
 > 
 > - Calculate the energy released per mole:
 > 
-> Δ*H = *$\frac{Q}{n}$
+> Δ*H =* $\frac{Q}{n}$
 > 
-> Δ*H = *$\frac{12.540\mathrm{kJ}}{0.01\mathrm{mol}}$
+> Δ*H =* $\frac{12.540\mathrm{kJ}}{0.01\mathrm{mol}}$
 > 
-> Δ*H = *– 1254 kJ/mol
+> Δ*H =* – 1254 kJ/mol
 
 > **Exam Hint**
 > When you determine Q your answer will be in joules, but enthalpy change is measured in kJ/mol. Make sure you convert Q to kilojoules by dividing by 1000.

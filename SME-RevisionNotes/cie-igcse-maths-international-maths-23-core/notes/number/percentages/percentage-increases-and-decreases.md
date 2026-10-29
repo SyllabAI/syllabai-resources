@@ -73,7 +73,7 @@ guided_study: true
 > 
 > *10% of 200 = 20*
 > *1% of 200 = 2*
-> *21% of 200 = 20 + 20 + 2 = 42 *
+> *21% of 200 = 20 + 20 + 2 = 42*
 > 
 > > *Add this to the original amount*
 > 
@@ -84,7 +84,7 @@ guided_study: true
 > **Method 2** (calculator)
 > 
 > > *An increase by 21% is equivalent to finding 121% of the original amount*
-> *So the multiplier is 1.21 *
+> *So the multiplier is 1.21*
 > 
 > *1.21 × 200*
 > 
@@ -100,11 +100,11 @@ guided_study: true
 > 
 > **Method 1** (non-calculator)
 > 
-> > *By first finding 10% and 5%, find 35% of 500 *
+> > *By first finding 10% and 5%, find 35% of 500*
 > 
 > *10% of 500 = 50*
 > *5% of 500 = 25*
-> *35% of 500 = 50 + 50 + 50 + 25 = 175 *
+> *35% of 500 = 50 + 50 + 50 + 25 = 175*
 > 
 > > *Subtract this from the original amount*
 > 
@@ -114,7 +114,7 @@ guided_study: true
 > 
 > **Method 2** (calculator)
 > 
-> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65) *
+> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65)*
 > *So the multiplier is 0.65*
 > 
 > *500 × 0.65*

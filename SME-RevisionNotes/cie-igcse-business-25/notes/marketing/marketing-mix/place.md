@@ -73,7 +73,7 @@ retailers, wholesalers, agents"
 
 ### Through agents
 
-- An agent acts as a specialist *middleman *who helps sell the product, often in another country or market, earning a commission
+- An agent acts as a specialist *middleman* who helps sell the product, often in another country or market, earning a commission
 - Agents can negotiate with retailers or individual customers
 
   - For example, a wine producer in South Africa using an export agent to sell wines in Europe
@@ -123,7 +123,7 @@ retailers, wholesalers, agents"
 
 #### 4. The durability of the product
 
-- *Perishable *product like fruit and vegetables are distributed through retailers, sometimes via wholesalers, to be sold quickly
+- *Perishable* product like fruit and vegetables are distributed through retailers, sometimes via wholesalers, to be sold quickly
 
 #### 5. Proximity of customers
 

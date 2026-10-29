@@ -25,7 +25,7 @@ $F=\frac{mv^{2}}{r}=mrω^{2}=mvω$
 
   - *F* = centripetal force (N)
   - *v* = linear velocity (m s<sup>-1</sup>)
-  - ⍵ = angular speed (rad s<sup>-1</sup>)
+  - ω = angular speed (rad s<sup>-1</sup>)
   - *r* = radius of the orbit (m)
 
 ![Centripetal force diagram, downloadable AS & A Level Physics revision notes](../../../assets/950910f8dce0-12-2-1-4-centripetal-force-diagram.png)

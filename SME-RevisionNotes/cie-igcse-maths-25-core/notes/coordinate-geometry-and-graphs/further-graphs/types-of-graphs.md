@@ -100,7 +100,7 @@ guided_study: true
   - It has two **two curved branches**
   
     - The branches are** L-shaped**
-    - The L is more **rectangular** when *a * is **smaller**
+    - The L is more **rectangular** when *a* is **smaller**
   - The branches **never connect**!
 - A **negative** value of *a*  **reflects** the shape in the ***y*****-axis**
 
@@ -125,7 +125,7 @@ guided_study: true
 > 
 > > *This is a quadratic graph, **y**  = **ax*<sup>*2*</sup>*  + **bx**  + **c ** (**a**  = -1, **b**  = 3, **c**  = 2)*
 > 
-> > *The number in front of **x*<sup>*2*</sup>* is negative so it has an n-shape *
+> > *The number in front of **x*<sup>*2*</sup> *is negative so it has an n-shape*
 > 
 > **Final answer:** **Graph C**
 > 
@@ -133,7 +133,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *This is a reciprocal graph, *$y=\frac{a}{x}$
+> > *This is a reciprocal graph,* $y=\frac{a}{x}$
 > *It has two L-shaped branches*
 > 
 > **Final answer:** **Graph B**

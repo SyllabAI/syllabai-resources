@@ -24,11 +24,11 @@ guided_study: false
   - If two quantities are **inversely proportional**, then we can say that one is **directly proportional **to the **reciprocal** of the other
 - The symbol, $\propto$, is used to show that one quantity is "directly proportional to the reciprocal of" (inversely proportional to) another quantity
 
-  - "*y * is inversely proportional to *x*" is written $y\propto\frac{1}{x}$
+  - "*y* is inversely proportional to *x*" is written $y\propto\frac{1}{x}$
 - If *x* and *y* are inversely proportional then
 
   - $\frac{1}{x}:y$ will always be the same
-  - there will be some value of *k *such that $y=\frac{k}{x}$
+  - there will be some value of *k* such that $y=\frac{k}{x}$
 - The** graph** of $y=\frac{k}{x}$ is shown below
 
 ![A graph showing an inversely proportional relationship between two quantities x and y.](../../../assets/8fce8e70d200-44639-inverse-proportion.png)
@@ -97,7 +97,7 @@ guided_study: false
 > 
 > $t = \frac{k}{ \sqrt{n} }$
 > 
-> > *Find **k** by substituting in *$n=25$* and *$t=50$* (from the words in the question)*
+> > *Find **k** by substituting in *$n=25$ *and* $t=50$ *(from the words in the question)*
 > 
 > $\begin{gathered} 50 = \frac{k}{ \sqrt{25} } \\ 50 = \frac{k}{5} \\ 50 \times 5 & = k \\ 250 = k \end{gathered}$
 > 
@@ -109,11 +109,11 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Use the formula to find *$n$* when *$t=40$
+> > *Use the formula to find* $n$ *when* $t=40$
 > 
 > $\begin{gathered} 40 = \frac{250}{ \sqrt{n} } \\ \sqrt{n} & = \frac{250}{40} = 6.25 \\ n = 6.25^{2} = 39.0625 \end{gathered}$
 > 
-> > *A sensible answer here is a whole number (as *$n$* is the number of people)*
+> > *A sensible answer here is a whole number (as* $n$ *is the number of people)*
 > *39 people would not complete it in time, but 40 would*
 > 
 > **Final answer:** **40 people**

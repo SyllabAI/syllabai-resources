@@ -18,7 +18,7 @@ guided_study: false
 ## What is absolute and comparative advantage?
 
 - International trade occurs when countries exchange goods and services across national borders
-- Countries trade because they differ in their ability to produce goods efficiently - these differences create the basis for *specialisation *and mutual gain
+- Countries trade because they differ in their ability to produce goods efficiently - these differences create the basis for *specialisation* and mutual gain
 
 ### Absolute advantage
 
@@ -207,4 +207,4 @@ The table shows the output per worker per week in two countries
   - Countries may benefit from producing goods in which they do not currently have comparative advantage if large-scale production would eventually reduce unit costs sufficiently
 - The theory assumes **free trade**
 
-  - In practice *tariffs*, *quotas *and subsidies distort relative prices and prevent countries from trading at their comparative advantage
+  - In practice *tariffs*, *quotas* and subsidies distort relative prices and prevent countries from trading at their comparative advantage

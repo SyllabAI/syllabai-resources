@@ -24,7 +24,7 @@ guided_study: true
   - On the other hand a permutation is when the order of arrangement does matter
 - A combination will be finding the number of ways to **choose** *r* out of *n* items
 
-  - The order in which the *r *items are chosen is not important
+  - The order in which the *r* items are chosen is not important
   - For example if we are choosing two letters from the word CAB, AB and BA would be considered the same combination but different permutations
 
 #### How do we find r combinations of n items?
@@ -51,10 +51,10 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
 - For each combination of 3 letters there are 6 (3 × 2 ×1) ways of arranging them (for example, ABC, ACB, BAC, BCA, CAB and CBA)
 - So divide the total number of permutations (60) by the number of ways of arranging each combination (6 which is 3!) to get 10 combinations
 
-- If we want to find the number of ways to **choose** *r *items out of *n *different objects, but we don’t mind the order in which they are chosen, then we could find the number of **permutations of *****r *****items from *****n ***and then divide by the number of ways of arranging each combination
+- If we want to find the number of ways to **choose** *r* items out of *n* different objects, but we don’t mind the order in which they are chosen, then we could find the number of **permutations of *****r *****items from *****n ***and then divide by the number of ways of arranging each combination
 
-  - Recall that the formula for *r *permutations of *n *items is $P pre^{n}_{r} = \frac{n factorial}{( n - r ) factorial}$
-  - This would include *r *! ways of repeating each combination
+  - Recall that the formula for *r* permutations of *n* items is $P pre^{n}_{r} = \frac{n factorial}{( n - r ) factorial}$
+  - This would include *r*! ways of repeating each combination
   - The formula for *r ***combinations** of *n *items is $\frac{P pre^{n}_{r} }{r factorial} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$
 - The function $\frac{n factorial}{( n - r ) \text{factorial} r factorial}$ can be written as $C pre^{n}_{r}$ or $( \begin{gathered} n \\ r \end{gathered} )$  and is often read as ‘*n choose r’*
 - Make sure you can find and use the `size 16px C presuperscript size 16px n subscript size 16px r`button on your calculator
@@ -65,9 +65,9 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
 #### What do I need to know about combinations?
 
 - The formula $C pre^{n}_{r} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$ is also known as a **binomial** coefficient
-- `size 16px C presuperscript size 16px n subscript size 16px n size 16px equals size 16px C presuperscript size 16px n subscript size 16px 0 size 16px equals size 16px 1`
+- `size 16px C presuperscript size 16px n_ size 16px n size 16px=size 16px C presuperscript size 16px n_ size 16px 0 size 16px=size 16px 1`
 
-  - It is easy to see that there is only one way of arranging *n *objects out of *n *and also there can only be one way of arranging 0 objects out of *n*
+  - It is easy to see that there is only one way of arranging *n* objects out of *n* and also there can only be one way of arranging 0 objects out of *n*
   - By considering the formula for this, it reinforces the fact that 0! Must equal 1
 - The binomial coefficients are symmetrical, so $\text{size} 16px C pre^{size} 16px n_{size 16px r \text{size} 16px = \text{size} 16px C pre^{size} 16px n_{size} 16px n \text{size} 16px - \text{size} 16px r}$
 
@@ -94,7 +94,7 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
 
 #### How do we handle combinations if some of the objects are identical?
 
-- Sometimes you will be asked to find the number of ways *r *items can be chosen from *n *items when some of the items are identical
+- Sometimes you will be asked to find the number of ways *r* items can be chosen from *n* items when some of the items are identical
 - You must consider the identical items separately
 - For example, if you wanted to choose 4 letters from the word CHOOSE you would have to consider all the options with zero Os, one O and two Os separately
 

@@ -31,7 +31,7 @@ guided_study: true
   - Forces *F*<sub>*1*</sub> and *F*<sub>*3*</sub> are supplying **anticlockwise **moments
   - The clockwise and anticlockwise moments are **equal **because the beam is in **equilibrium**
 
-`F subscript 2 d subscript 2 space equals space open parentheses F subscript 1 d subscript 1 close parentheses space plus space open parentheses F subscript 3 d subscript 3 close parentheses`
+`F_ 2d_ 2=(F_ 1d_ 1)+(F_ 3d_ 3)`
 
 > **Worked Example**
 > A uniform beam of weight 40 N is 5 m long and is supported by a pivot situated 2 m from one end.

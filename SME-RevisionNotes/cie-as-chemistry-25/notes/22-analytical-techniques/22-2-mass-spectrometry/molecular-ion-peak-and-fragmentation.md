@@ -89,7 +89,7 @@ guided_study: true
 ### Alcohols
 
 - Alcohols often tend to lose a **water molecule **giving rise to a peak at **18 below the molecular ion**
-- Another common peak is found at *m/e *value 31 which corresponds to the CH<sub>2</sub>OH<sup>+</sup>­­ fragment
+- Another common peak is found at *m/e* value 31 which corresponds to the CH<sub>2</sub>OH<sup>+</sup>­­ fragment
 - For example, the mass spectrum of propan-1-ol shows that the compound has fragmented in four different ways:
 
   - Loss of H<sup>•</sup> to form a C<sub>3</sub>H<sub>7</sub>O<sup>+</sup> fragment with *m/e* = 59

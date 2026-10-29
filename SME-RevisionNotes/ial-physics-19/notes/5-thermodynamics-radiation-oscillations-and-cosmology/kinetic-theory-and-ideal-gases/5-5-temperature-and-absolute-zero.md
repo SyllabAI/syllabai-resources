@@ -53,7 +53,7 @@ guided_study: false
 > 
 > **Step 1:** **Kelvin to Celsius equation**
 > 
-> *θ */ <sup>°</sup>C = T / K − 273.15
+> *θ* / <sup>°</sup>C = T / K − 273.15
 > 
 > **Step 2:** **Substitute in value of 300 K**
 > 

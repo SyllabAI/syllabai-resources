@@ -28,7 +28,7 @@ $F=ρgV$
 
 - Where:
 
-  - *F *= force in newtons (N)
+  - *F* = force in newtons (N)
   - *ρ* (Greek letter rho) = density in kilograms per metre cubed (kg m<sup>-3</sup>)
   - *g* = gravitational field strength in newtons per kg (N kg<sup>-1</sup>)
   - *V* = volume in metres cubed (m<sup>3</sup>)
@@ -98,7 +98,7 @@ $F=ρgV$
 > 
 > - Cancelling *g:*
 > 
-> `rho subscript i V subscript i up diagonal strike g space equals space rho subscript w V subscript w up diagonal strike g`
+> `ρ _ i V_ i up diagonal strike g=ρ _ w V_ w up diagonal strike g`
 > 
 > - Dividing by $p_{w}V_{i}$
 > 

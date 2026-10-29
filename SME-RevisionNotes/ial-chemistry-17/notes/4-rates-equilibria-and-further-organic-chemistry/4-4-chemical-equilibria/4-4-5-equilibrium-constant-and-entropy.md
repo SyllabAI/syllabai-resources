@@ -82,7 +82,7 @@ N<sub>2</sub>O<sub>4</sub> (g) ⇌ 2NO<sub>2</sub> (g)
 
 - The relationship between the total entropy of the reaction and the equilibrium constant (*K*<sub>c</sub> or *K*<sub>p</sub>) is
 
-Δ*S*<sub>*total*</sub> = *R *ln*K*
+Δ*S*<sub>*total*</sub> = *R* ln*K*
 
 **Using total entropy change to calculate an equilibrium constant**
 

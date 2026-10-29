@@ -83,7 +83,7 @@ guided_study: false
 - If a 5 N force acts to the right and a 5 N force acts to the left on an object, then we assign one of the values as positive and one as negative
 - So the resultant force acting on the object is
 
-`resultant space force space equals space 5 space plus space open parentheses negative 5 close parentheses`
+`resultant force=5+(−5)`
 
 $\mathrm{resulotant} \mathrm{force}=0N$
 
@@ -97,7 +97,7 @@ $\mathrm{resultant} \mathrm{force}=10N$
 
 - If two people push the box in opposite directions, one with a 7 N force to the left (negative) and one with a 3 N force to the right (positive), then the forces will add together and the box will move in the direction of the resultant force
 
-`resultant space force space equals space open parentheses negative 7 close parentheses space plus space 3`
+`resultant force=(−7)+3`
 
 $\mathrm{resultant} \mathrm{force}=-4N$
 
@@ -121,9 +121,9 @@ $\mathrm{resultant} \mathrm{force}=-4N$
 > 
 > **Step 2: Add together all the forces acting on the object**
 > 
-> `resultant space force space equals space open parentheses negative 14 close parentheses space plus space 4 space plus space 8`
+> `resultant force=(−14)+4+8`
 > 
-> `resultant space force space equals space open parentheses 14 close parentheses space plus space 12`
+> `resultant force=(14)+12`
 > 
 > $\mathrm{resultant} \mathrm{force}=-2N$
 > 

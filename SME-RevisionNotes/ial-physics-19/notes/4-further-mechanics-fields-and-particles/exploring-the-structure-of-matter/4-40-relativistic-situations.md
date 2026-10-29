@@ -56,7 +56,7 @@ guided_study: false
 > **Worked Example**
 > Muons, which normally have a lifetime of 2.2 × 10<sup>–6</sup> s, are created in the upper atmosphere at a height of about 10 km above sea level.
 > 
-> a) Calculate the distance a muon would travel towards the ground if it was moving at 0.99 *c. *
+> a) Calculate the distance a muon would travel towards the ground if it was moving at 0.99 *c.*
 > 
 > b) Comment on the relativistic effects necessary if muons are to be detected at sea level.
 > 
@@ -67,7 +67,7 @@ guided_study: false
 > **Step 1: Write the known quantities**
 > 
 > - Muon lifetime, *t* = 2.2 × 10<sup>–6</sup> s
-> - Speed of light, *c *= 3 × 10<sup>8</sup> m s<sup>–1</sup>
+> - Speed of light, *c* = 3 × 10<sup>8</sup> m s<sup>–1</sup>
 > - Speed of muons, *v* = 0.99 *c* = 0.99 × (3 × 10<sup>8</sup>) = 2.97 × 10<sup>8</sup> m s<sup>–1</sup>
 > 
 > **Step 2: Calculate distance travelled**

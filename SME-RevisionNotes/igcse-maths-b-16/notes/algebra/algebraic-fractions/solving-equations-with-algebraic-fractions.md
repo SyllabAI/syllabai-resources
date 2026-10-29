@@ -49,15 +49,15 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *To clear the fractions, we multiply both sides of the equation by each denominator *
+> > *To clear the fractions, we multiply both sides of the equation by each denominator*
 > 
-> > *Start by multiplying all terms in the equation by the denominator *$(p+3)$
-> *The *$(p+3)$* on top and bottom will cancel in the first term*
+> > *Start by multiplying all terms in the equation by the denominator* $(p+3)$
+> *The* $(p+3)$ *on top and bottom will cancel in the first term*
 > 
 > $2-\frac{5(p+3)}{p}=6p(p+3)$
 > 
-> > *Now multiply all terms on both sides by the next denominator, *$p$
-> *The *$p$* on top and bottom will cancel in the second term*
+> > *Now multiply all terms on both sides by the next denominator,* $p$
+> *The* $p$ *on top and bottom will cancel in the second term*
 > 
 > $2 ( p ) - 5 ( p + 3 ) = 6 p ( p + 3 ) ( p )$
 > 
@@ -70,7 +70,7 @@ guided_study: true
 > 
 > $-3p-15=6p^{3}+18p^{2}$
 > 
-> > *Add *$3p$* and 15 to both sides of the equation*
+> > *Add* $3p$ *and 15 to both sides of the equation*
 > 
 > $0=6p^{3}+18p^{2}+3p+15$
 > 

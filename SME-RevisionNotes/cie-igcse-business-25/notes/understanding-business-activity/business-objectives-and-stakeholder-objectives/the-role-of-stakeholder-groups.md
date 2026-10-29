@@ -109,11 +109,11 @@ employees"
   - **Customers **may prioritise low prices, while the **local community** may prioritise *environmental sustainability* which raises costs and prices
 - These conflicts can create challenges for businesses to **balance the competing demands of different stakeholder groups**
 
-  - For example, a company may need to invest in costly environmental technology to meet the demands of the local community, but this may reduce *profitability *and upset shareholders
+  - For example, a company may need to invest in costly environmental technology to meet the demands of the local community, but this may reduce *profitability* and upset shareholders
 - Conflicts can also arise when stakeholders have **different levels of power and influence**
 
   - For example, *pressure groups* with strong public support may be able to influence business activity more than individual shareholders
-- **Managing stakeholder conflicts** requires careful communication, *transparency *and **compromise**
+- **Managing stakeholder conflicts** requires careful communication, *transparency* and **compromise**
 
 #### Examples of stakeholder conflicts
 

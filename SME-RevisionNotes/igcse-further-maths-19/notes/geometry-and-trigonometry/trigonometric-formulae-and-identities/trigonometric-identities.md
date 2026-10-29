@@ -51,11 +51,11 @@ guided_study: false
 > **Worked Example**
 > Show that the equation $2\mathrm{sin}^{2}θ-\mathrm{cos}θ=0$ can be written in the form  $a\mathrm{cos}^{2}θ+b\mathrm{cos}θ+c=0$, where $a$, $b$ and $c$ are integers to be found with $a>0$.
 > 
-> > *Note that in the 'target' form there is no *$\mathrm{sin}θ$* or *$\mathrm{sin}^{2}θ$
+> > *Note that in the 'target' form there is no* $\mathrm{sin}θ$ *or* $\mathrm{sin}^{2}θ$
 > 
-> > *That means we want to use a substitution to get rid of the *$\mathrm{sin}^{2}θ$* in the original form*
+> > *That means we want to use a substitution to get rid of the* $\mathrm{sin}^{2}θ$ *in the original form*
 > 
-> > *We can do this using the identity *$\mathrm{sin}^{2}θ+\mathrm{cos}^{2}θ=1$*, rearranged as  *$\mathrm{sin}^{2}θ=1-\mathrm{cos}^{2}θ$
+> > *We can do this using the identity* $\mathrm{sin}^{2}θ+\mathrm{cos}^{2}θ=1$*, rearranged as* $\mathrm{sin}^{2}θ=1-\mathrm{cos}^{2}θ$
 > 
 > $\begin{array}{rcl} 2 \sin ^{2} \\theta - \cos \\theta & = 2 ( 1 - \cos ^{2} \\theta ) - \cos \\theta \\ = 2 - 2 \cos ^{2} \\theta - \cos \\theta \\ = - 2 \cos ^{2} \\theta - \cos \\theta + 2 \end{array}$
 > 
@@ -63,8 +63,8 @@ guided_study: false
 > 
 > $\begin{gathered} - 2 \cos ^{2} \\theta - \cos \\theta + 2 & = 0 \end{gathered}$
 > 
-> > *Multiply both sides of the equation by *$-1$* to make the *$\mathrm{cos}^{2}θ$* coefficient positive*
+> > *Multiply both sides of the equation by* $-1$ *to make the* $\mathrm{cos}^{2}θ$ *coefficient positive*
 > 
-> > *This gets the equation into the required form with  *$a=2$*, *$b=1$* and *$c=-2$
+> > *This gets the equation into the required form with* $a=2$*,* $b=1$ *and* $c=-2$
 > 
 > $2\mathrm{cos}^{2}θ+\mathrm{cos}θ-2=0$

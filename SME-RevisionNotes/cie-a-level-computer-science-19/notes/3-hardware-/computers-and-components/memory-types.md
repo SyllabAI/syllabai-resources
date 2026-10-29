@@ -105,9 +105,9 @@ guided_study: false
 > 
 > Complete the description of computer memory. **[5]**
 > 
-> *Random Access Memory (RAM) and Read Only Memory (ROM) are both examples of ......................................................................... memory. *
+> *Random Access Memory (RAM) and Read Only Memory (ROM) are both examples of ......................................................................... memory.*
 > 
-> *One item that is stored in RAM is ......................................................................... . One item that is stored in ROM is ......................................................................... . RAM can be either Static RAM (SRAM) or Dynamic RAM (DRAM). *
+> *One item that is stored in RAM is ......................................................................... . One item that is stored in ROM is ......................................................................... . RAM can be either Static RAM (SRAM) or Dynamic RAM (DRAM).*
 > 
 > *SRAM uses transistors arranged as ......................................................................... . DRAM uses transistors and .....................*
 > 
@@ -119,7 +119,7 @@ guided_study: false
 > 
 > * One item that is stored in ROM is the ***start-up/boot-up instructions/BIOS***. *
 > 
-> *RAM can be either Static RAM (SRAM) or Dynamic RAM (DRAM). *
+> *RAM can be either Static RAM (SRAM) or Dynamic RAM (DRAM).*
 > 
 > *SRAM uses transistors arranged as ***flip-flops***. *
 > 

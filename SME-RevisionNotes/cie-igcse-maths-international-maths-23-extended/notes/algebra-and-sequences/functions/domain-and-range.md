@@ -19,7 +19,7 @@ guided_study: true
 
 ### How are functions related to graphs?
 
-- Functions can be represented as graphs on *x* and* y* axes
+- Functions can be represented as graphs on *x* and *y* axes
 
   - The *x*-axis values are the **inputs**
   - The *y-*axis values are the **outputs**
@@ -80,7 +80,7 @@ guided_study: true
 
   - Ranges must refer to **f(*****x*****)***** ***
   
-    - not *x *or *y*
+    - not *x* or *y*
   - You can use "**not equal to**" ≠ if needed
   - You can use **inequality signs **if needed
 - Ranges **depend on domains**
@@ -134,7 +134,7 @@ guided_study: true
 > 
 > > *Think of f(**x**) = 10 - **x** as a graph*
 > 
-> *the graph of *$y=10-x$
+> *the graph of* $y=10-x$
 > 
 > > *This straight-line graph has a negative gradient*
 > *Between **x** = 2 and **x** = 4 the graph decreases from a height of 8 to a height of 6 *

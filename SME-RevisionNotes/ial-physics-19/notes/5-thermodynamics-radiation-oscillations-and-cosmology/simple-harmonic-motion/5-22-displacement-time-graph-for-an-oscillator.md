@@ -26,7 +26,7 @@ guided_study: false
 
 - **Key features of the displacement-time graph:**
 
-  - The *amplitude* of oscillations *A *can be found from the maximum value of *x*
+  - The *amplitude* of oscillations *A* can be found from the maximum value of *x*
   - The *time period* of oscillations *T* can be found from reading the time taken for one full cycle
   - The graph might not always start at 0
   - If the oscillations starts at the positive or negative amplitude, the displacement will be at its maximum

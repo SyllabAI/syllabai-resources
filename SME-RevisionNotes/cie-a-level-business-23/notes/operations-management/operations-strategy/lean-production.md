@@ -19,7 +19,7 @@ guided_study: false
 
 - Lean production is a management philosophy that aims to **maximise value **while** minimising waste**
 - It focuses on **maximising efficiency**, **improving quality **and **reducing costs**
-- Lean production is likely to lead to a* competitive advantage*
+- Lean production is likely to lead to a *competitive advantage*
 
   - Lower  ***unit costs*** ** **are achieved due to minimal wastage so **prices may be lower **than those offered by competitors
   - **Better quality of output** is likely as a result of supplier reliability and carefully managed production processes
@@ -114,7 +114,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - It can improve motivation through team responsibility<br>- It may also improve communication between workers<br>- It reduces movement of *part-finished goods *and waste | - The initial setup and employee training can be expensive<br>- It is not suitable for all types of production<br>- Team performance can be affected if members are absent |
+| - It can improve motivation through team responsibility<br>- It may also improve communication between workers<br>- It reduces movement of *part-finished goods* and waste | - The initial setup and employee training can be expensive<br>- It is not suitable for all types of production<br>- Team performance can be affected if members are absent |
 
 ### 5. Just-in-time manufacturing
 

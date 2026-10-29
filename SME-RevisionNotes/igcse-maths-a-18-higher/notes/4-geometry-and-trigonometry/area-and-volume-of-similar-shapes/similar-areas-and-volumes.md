@@ -79,27 +79,27 @@ Multiply or divide by relevant scale factor to find the **missing quantity**
 > Take extra care not to mix up** which shape is which** when you have started carrying out the calculations, It can help to **label the shapes** and write an equation.
 
 > **Worked Example**
-> Solid *A *and solid *B *are mathematically similar.
+> Solid *A* and solid *B* are mathematically similar.
 > 
-> The volume of solid *A *is 32 cm<sup>3</sup>.
-> The volume of solid *B *is 108 cm<sup>3</sup>.
-> The height of solid *A *is 10 cm.
+> The volume of solid *A* is 32 cm<sup>3</sup>.
+> The volume of solid *B* is 108 cm<sup>3</sup>.
+> The height of solid *A* is 10 cm.
 > 
 > Find the height of solid *B.*
 > 
 > **Answer:**
 > 
-> > *Calculate *$k^{3}$*, the scale factor of enlargement for the volumes, using: *$\text{volume} B = k ^{3} ( \text{volume} A )$
+> > *Calculate* $k^{3}$*, the scale factor of enlargement for the volumes, using:* $\text{volume} B = k ^{3} ( \text{volume} A )$
 > 
-> > *Or *$k^{3}=\frac{\mathrm{larger} \mathrm{volume}}{\mathrm{smaller} \mathrm{volume}}$
+> > *Or* $k^{3}=\frac{\mathrm{larger} \mathrm{volume}}{\mathrm{smaller} \mathrm{volume}}$
 > 
 > $\begin{gathered} 108 = 32 k^{3} \\ k^{3} & = \frac{108}{32} = \frac{27}{8} \end{gathered}$
 > 
-> > *Find the length scale factor *$k$* by taking the cube root of the volume scale factor *$k^{3}$
+> > *Find the length scale factor* $k$ *by taking the cube root of the volume scale factor* $k^{3}$
 > 
 > $k = \sqrt[3]{\frac{27}{8}} = \frac{3}{2}$
 > 
-> > *Substitute the value for *$k$* into formula for the heights of the similar shapes:*
+> > *Substitute the value for* $k$ *into formula for the heights of the similar shapes:*
 > 
 > $Height B = k ( \text{height} A )$
 > 

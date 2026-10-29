@@ -58,7 +58,7 @@ negative 8-bit binary integers"
 | *1* | *0* | *1* | *1* | *0* | 1 | 0 | 0 |
 
 - -128 + 32 + 16 + 4 = **-76**
-- The two's complement representation of *-76 *is *10110100*
+- The two's complement representation of *-76* is *10110100*
 
 > **Exam Hint**
 > *The “flip and add 1” trick isn’t shown here, but the method above is what examiners prefer: copy from the right, then invert. It’s reliable, repeatable, and rewarded in papers.*

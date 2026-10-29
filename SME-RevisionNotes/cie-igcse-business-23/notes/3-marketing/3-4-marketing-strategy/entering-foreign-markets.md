@@ -88,7 +88,7 @@ guided_study: false
 
   - Governments may impose** *****tariffs*** or ***quotas*** on imports from businesses in other countries
   
-    - E.g., Cricket bats imported into the UK from Australian manufacturers such as *Bradbury* and *Kraken* have a tariff applied to them, which may help to increase **demand** for UK-produced brands such as *Kippax *and* Fearnley*
+    - E.g., Cricket bats imported into the UK from Australian manufacturers such as *Bradbury* and *Kraken* have a tariff applied to them, which may help to increase **demand** for UK-produced brands such as *Kippax* and *Fearnley*
 
 ### 5. Exchange rate changes
 

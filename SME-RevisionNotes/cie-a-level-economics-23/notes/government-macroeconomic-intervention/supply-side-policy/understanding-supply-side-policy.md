@@ -58,7 +58,7 @@ guided_study: false
 
 - Investment in education and training raises the **human capital** of the workforce - the skills, knowledge and productivity of workers
 
-  - Examples include government spending on schools and universities, *apprenticeship *programmes and subsidised retraining for unemployed workers
+  - Examples include government spending on schools and universities, *apprenticeship* programmes and subsidised retraining for unemployed workers
 - Higher human capital raises labour productivity, reducing unit costs of production and shifting LRAS right
 
 ### Infrastructure development
@@ -72,19 +72,19 @@ guided_study: false
 
 ### Support for technological improvement
 
-- Government support for research and development (R&D) - through *subsidies*, *tax incentives* or direct public investment - encourages *innovation *and the adoption of new production technologies
+- Government support for research and development (R&D) - through *subsidies*, *tax incentives* or direct public investment - encourages *innovation* and the adoption of new production technologies
 
   - New technology raises total factor productivity - more output from the same inputs - shifting LRAS right
   - Examples include government R&D tax credits, university-industry research partnerships and public investment in emerging technologies such as renewable energy and *artificial intelligence*
 
 ### Deregulation and competition policy
 
-- Reducing unnecessary *regulation *lowers costs for firms and encourages new entrants to markets
+- Reducing unnecessary *regulation* lowers costs for firms and encourages new entrants to markets
 
   - Greater competition incentivises firms to innovate, cut costs and improve efficiency - raising economy-wide productivity
-  - Examples include *deregulating *labour markets to improve flexibility, and removing barriers to entry in key industries
+  - Examples include *deregulating* labour markets to improve flexibility, and removing barriers to entry in key industries
 
 ### Tax incentives
 
-- Cutting *corporation tax *raises post-tax profits, increasing the incentive for firms to invest in new capital - shifting LRAS right over time
-- Cutting *income tax *or reducing benefits may increase labour supply by making work more financially rewarding relative to inactivity
+- Cutting *corporation tax* raises post-tax profits, increasing the incentive for firms to invest in new capital - shifting LRAS right over time
+- Cutting *income tax* or reducing benefits may increase labour supply by making work more financially rewarding relative to inactivity

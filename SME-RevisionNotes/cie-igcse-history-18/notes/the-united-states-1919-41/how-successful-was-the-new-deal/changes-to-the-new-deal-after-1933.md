@@ -34,7 +34,7 @@ The Second New Deal strengthened workers’ rights, created a national *welfare 
 - The **Supreme Court **ruled that** FDR** had done things that he had no right to do as president
 - It ruled that:
 
-  - The **National Recovery Administration (NRA)** had tried to set prices and wages that only* Congress*, not the president, could do
+  - The **National Recovery Administration (NRA)** had tried to set prices and wages that only *Congress*, not the president, could do
   - The **Agricultural Adjustment Administration (AAA)** had paid farmers to not grow food, which the Supreme Court ruled was the role of the state governments — not the president
 
 ### Unemployment

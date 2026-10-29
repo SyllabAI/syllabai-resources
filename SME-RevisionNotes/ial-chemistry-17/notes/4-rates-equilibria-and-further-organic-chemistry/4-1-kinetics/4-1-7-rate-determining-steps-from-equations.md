@@ -23,7 +23,7 @@ guided_study: false
 
   - So, the **rate-determining step **is the slowest step in the reaction
 - If a reactant appears in the **rate-determining step**, then the concentration of that reactant will also appear in the **rate equation**
-- For example, the rate equation for the reaction below is rate = *k *[CH<sub>3</sub>Br] [OH<sup>-</sup>]
+- For example, the rate equation for the reaction below is rate = *k* [CH<sub>3</sub>Br] [OH<sup>-</sup>]
 
 **CH**<sub>**3**</sub>**Br + OH**<sup>**-**</sup>** → CH**<sub>**3**</sub>**OH + Br**<sup>**-**</sup>
 

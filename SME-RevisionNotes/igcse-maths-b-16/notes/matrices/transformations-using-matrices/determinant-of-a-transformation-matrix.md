@@ -41,7 +41,7 @@ guided_study: false
 > 
 > $( \begin{gathered} 1 7 3 \\ - 3 & - 3 & 1 \end{gathered} )$
 > 
-> > *To transform the triangle, multiply its matrix by the transformation matrix *$M$
+> > *To transform the triangle, multiply its matrix by the transformation matrix* $M$
 > 
 > $\begin{gathered} ( \begin{gathered} - \sqrt{3} & - 1 \\ 1 - \sqrt{3} \end{gathered} ) ( \begin{gathered} 1 7 3 \\ - 3 & - 3 & 1 \end{gathered} ) \\ = ( \begin{gathered} ( - \sqrt{3} ) \times 1 + ( - 1 ) \times ( - 3 ) & ( - \sqrt{3} ) \times 7 + ( - 1 ) \times ( - 3 ) & ( - \sqrt{3} ) \times 3 + ( - 1 ) \times 1 \\ 1 \times 1 + ( - \sqrt{3} ) \times ( - 3 ) & 1 \times 7 + ( - \sqrt{3} ) \times ( - 3 ) & 1 \times 3 + ( - \sqrt{3} ) \times 1 \end{gathered} ) \\ = ( \begin{gathered} 3 - \sqrt{3} & 3 - 7 \sqrt{3} & - 1 - 3 \sqrt{3} \\ 1 + 3 \sqrt{3} & 7 + 3 \sqrt{3} & 3 - \sqrt{3} \end{gathered} ) \end{gathered}$
 > 
@@ -63,13 +63,13 @@ guided_study: false
 > > *However the area of the original triangle is easy to calculate*
 > 
 > - *It has a base of 6, and a height of 4*
-> - *Use *$\mathrm{Area}=\frac{1}{2}\times\mathrm{base}\times\mathrm{height}$
+> - *Use* $\mathrm{Area}=\frac{1}{2}\times\mathrm{base}\times\mathrm{height}$
 > 
 > $\mathrm{area} \mathrm{of} \mathrm{original} \mathrm{triangle}=\frac{1}{2}\times6\times4=12$
 > 
-> > *Find the determinant of the transformation matrix *$M = ( \begin{gathered} - \sqrt{3} & - 1 \\ 1 - \sqrt{3} \end{gathered} )$
+> > *Find the determinant of the transformation matrix* $M = ( \begin{gathered} - \sqrt{3} & - 1 \\ 1 - \sqrt{3} \end{gathered} )$
 > 
-> - *The **determinant** of a 2×2 matrix *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$ad-bc$
+> - *The **determinant** of a 2×2 matrix *$( \begin{gathered} a b \\ c d \end{gathered} )$ *is* $ad-bc$
 > 
 > `| determinant of M | = ( - sqrt( 3 ) x ( - sqrt( 3 ) - ( - 1 ) x 1 | | _ = 3 - ( - 1 ) | | _ = 4 |`
 > 

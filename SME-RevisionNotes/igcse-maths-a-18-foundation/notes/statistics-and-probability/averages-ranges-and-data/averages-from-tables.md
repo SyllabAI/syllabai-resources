@@ -133,11 +133,11 @@ guided_study: true
 > | *10* | *11* | *10 × 11 = 110* |
 > | *11* | *2* | *11 × 2 = 22* |
 > | *12* | *1* | *12 × 1 = 12* |
-> | * * | *Total = 31 * | *Total = 278.5 * |
+> | * * | *Total = 31* | *Total = 278.5* |
 > 
 > *Use the formula that the mean is the total of the **xf**  column divided by the total frequency*
 > 
-> *Mean *$=\frac{278.5}{31}=8.983870...$
+> *Mean* $=\frac{278.5}{31}=8.983870...$
 > 
 > > *Give your final answer to 3 significant figures*
 > 
@@ -149,14 +149,14 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The median is the *$( \frac{n + 1}{2} )^{t h}$* value where *$n$* is the total frequency*
+> > *The median is the* $( \frac{n + 1}{2} )^{t h}$ *value where* $n$ *is the total frequency*
 > 
 > $\frac{n+1}{2}=\frac{31+1}{2}=\frac{32}{2}=16$
 > 
-> > *The median is the 16*<sup>*th*</sup>* value*
+> > *The median is the 16*<sup>*th*</sup> *value*
 > *There are 1 + 1 + 3 + 2 + 4 = 11 values in the first five rows of the table*
 > *There are 11 + 6 = 17 values in the first six rows of the table*
-> *Therefore the 16*<sup>*th*</sup>* value must be in the sixth row *
+> *Therefore the 16*<sup>*th*</sup> *value must be in the sixth row*
 > 
 > **The median shoe size is 9****  **
 > 

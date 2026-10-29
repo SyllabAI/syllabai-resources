@@ -35,7 +35,7 @@ guided_study: true
   *c* + *d* – *e*
 - However** no** symbol is used for **multiplication**
 
-  - *ab  *(means* a* × *b*) 
+  - *ab* (means *a* × *b*) 
   3*ab*  (means 3 × *a* × *b*)
 - **Fractions **are used for **division**
 
@@ -45,7 +45,7 @@ guided_study: true
   - $ab+\frac{c}{3}$ (means *a*×*b* + *c*÷3)
   - The **order of operations** for** **numbers still works
   
-    - work out *a*×*b*  and *c*÷*3 * before adding them together
+    - work out *a*×*b*  and *c*÷*3* before adding them together
 - **Powers** (**indices**) and **roots** are the same as with numbers
 
   - *a*<sup>2 </sup> means *a* × *a*

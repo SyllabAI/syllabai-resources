@@ -70,8 +70,8 @@ $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$
 - Given information about a triangle, there may be **two different ways** to draw it
 - In the diagram below, the lengths of two sides are given,  *a* and *b*
 
-  - A base angle is also given, $θ$, but no angle near *b *is given
-  - It turns out that there are **two possible ways** to arrange *b to *complete the triangle!
+  - A base angle is also given, $θ$, but no angle near *b* is given
+  - It turns out that there are **two possible ways** to arrange *b to* complete the triangle!
   
     - Both triangles have the correct values of *a*, *b* and $θ$
 - The other base angle could either be **obtuse or acute**

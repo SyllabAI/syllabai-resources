@@ -71,9 +71,9 @@ Quotas for arrests from July 1937 – Image of hands writing on a list, represen
 - The GULAG system was created in **1919**
 
   - GULAG is an *acronym* that translates to the **Chief Administration of Corrective Labour Camps**
-  - It was an **organisation of forced labour camps**, which were called *lagery  *in Russian
-  - The state placed many of the *lagery *in **Siberia**
-  - The secret police *administrated *the system
+  - It was an **organisation of forced labour camps**, which were called *lagery* in Russian
+  - The state placed many of the *lagery* in **Siberia**
+  - The secret police *administrated* the system
 - The GULAG aimed to:
 
   - **Severely punish criminals**
@@ -81,7 +81,7 @@ Quotas for arrests from July 1937 – Image of hands writing on a list, represen
   - Provide the state with **free labour**
 
 > **Exam Hint**
-> It is popular to call the labour camps 'gulags'. You may see this wording in an exam question.** As Cambridge uses the term 'gulags', you may use this in your exam answer.** However, *lagery * (or *lager  *for a singular camp) is the technically accurate term.
+> It is popular to call the labour camps 'gulags'. You may see this wording in an exam question.** As Cambridge uses the term 'gulags', you may use this in your exam answer.** However, *lagery* (or *lager* for a singular camp) is the technically accurate term.
 
 ### Prisoners in the GULAG System
 
@@ -113,7 +113,7 @@ The population gradually decreases by 1953, the year of Stalin’s death.](../..
 
 ### What were Conditions Like in the GULAG System?
 
-- The *lagery * had terrible living conditions
+- The *lagery* had terrible living conditions
 
   - Prisoners lived in **overcrowded wooden lodges**
   - There was little *sanitation*

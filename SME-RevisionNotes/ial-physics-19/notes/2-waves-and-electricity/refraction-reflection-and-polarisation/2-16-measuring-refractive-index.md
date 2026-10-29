@@ -63,7 +63,7 @@ guided_study: false
 
 #### Analysis of Results
 
-- *i* and *r *are always measured from the **normal**
+- *i* and *r* are always measured from the **normal**
 - For light rays **entering** perspex block, the light ray refracts **towards** the central line:
 
 **i > r**

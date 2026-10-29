@@ -74,7 +74,7 @@ guided_study: false
 > 
 > > *Consider if both answers are possible*
 > 
-> $x$* refers to a length, so cannot be zero*
+> $x$ *refers to a length, so cannot be zero*
 > 
 > $x=3$
 > 
@@ -84,7 +84,7 @@ guided_study: false
 > 
 > **Method 1**
 > 
-> > *Substitute the found value of *$x$* into the expressions on the diagram for **PT** and **RT*
+> > *Substitute the found value of* $x$* into the expressions on the diagram for **PT** and **RT*
 > 
 > $PT=x+2=5\,RT=3x+1=10$
 > 
@@ -140,15 +140,15 @@ guided_study: false
 - If any of the lengths are **algebraic **expressions, an **equation **will be formed which can then be solved
 
 > **Worked Example**
-> In the diagram below, *A, B, C *and *D* are points on a circle.
+> In the diagram below, *A, B, C* and *D* are points on a circle.
 > 
 > ![diagram for worked example for intersecting chord theorem ](assets/a77f43662868-30540-igcse-intersecting-chord-theorem-external-.png)
 > 
-> *ABE* *and CDE  *are straight lines.
+> *ABE* *and CDE* are straight lines.
 > *AB* = $x$ cm
-> *BE  *= 12 cm
-> *CD  *= 4 cm
-> *DE  *= 14 cm
+> *BE* = 12 cm
+> *CD* = 4 cm
+> *DE* = 14 cm
 > 
 > Work out the value of $x$*.*
 > 
@@ -166,7 +166,7 @@ guided_study: false
 > 
 > $12 \times ( 12 + x ) = 14 \times ( 4 + 14 )$
 > 
-> > *Solve for *$x$
+> > *Solve for* $x$
 > 
 > $\begin{gathered} 12 ( 12 + x ) & = 252 \\ 12 + x & = 21 \\ x = 9 \end{gathered}$
 > 
@@ -185,14 +185,14 @@ guided_study: false
 ![A diagram illustrating the intersecting chord theorem when one of the chords is a tangent. Equations: (a+b)b = d^2 and (AB+BP)BP = DP^2.](../../../assets/7cb8920f0753-61289-igcse-intersecting-chord-theorem-extrenal-.png)
 
 > **Worked Example**
-> In the diagram below, *A, B, *and *C* are points on a circle.
+> In the diagram below, *A, B,* and *C* are points on a circle.
 > 
 > ![diagram for worked example for special case of intersecting chord theorem where one chord is a tangent](assets/0bd65e8afcd5-20371-igcse-intersecting-chord-theorem-external-.png)
 > 
 > *ABX*  is a straight line.
-> *YCX  *is a tangent to the circle.
-> *AB  *= 12.5 cm
-> *BE  *= 10 cm
+> *YCX* is a tangent to the circle.
+> *AB* = 12.5 cm
+> *BE* = 10 cm
 > 
 > Work out the length of *CX.*
 > 
@@ -206,7 +206,7 @@ guided_study: false
 > 
 > $10 \times ( 12.5 + 10 ) = C X \times ( C X + 0 )$
 > 
-> > *Simplify and solve for *$CX$
+> > *Simplify and solve for* $CX$
 > 
 > $\begin{gathered} 10 ( 22.5 ) & = ( C X )^{2} \\ 225 & = ( C X )^{2} \\ \sqrt{225} & = C X \\ 15 = C X \end{gathered}$
 > 

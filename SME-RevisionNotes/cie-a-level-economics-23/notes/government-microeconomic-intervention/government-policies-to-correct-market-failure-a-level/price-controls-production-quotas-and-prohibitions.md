@@ -39,7 +39,7 @@ guided_study: false
 
 #### International examples of maximum prices
 
-- **Argentina**: the government has imposed maximum prices on basic foodstuffs such as flour, cooking oil and rice to protect low-income households from *inflation *- though both cases led to severe shortages
+- **Argentina**: the government has imposed maximum prices on basic foodstuffs such as flour, cooking oil and rice to protect low-income households from *inflation* - though both cases led to severe shortages
 - **Nigeria**: the government has at various points imposed maximum prices on petrol to keep fuel affordable, given the country's heavy dependence on petroleum products
 
 ![Graph showing supply and demand curves with labels: Price, Quantity, Pe, Pmax, Qs, Qe, Qd. Excess demand area is indicated below Pmax.](../../../assets/8f53db4e3653-1-4-1-government-intervention-maximum-price-edex.png)

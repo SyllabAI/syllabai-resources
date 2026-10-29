@@ -21,7 +21,7 @@ guided_study: false
 
   - Promote **economic growth**
   - Create** jobs**
-  - Encourage *innovation *and *enterprise*
+  - Encourage *innovation* and *enterprise*
   - Increase** international competitiveness**
 - By helping businesses, especially start-ups and small firms, governments aim to build a strong and stable economy
 
@@ -32,7 +32,7 @@ guided_study: false
 | **Finance** | - *Grants*, *subsidies*, tax relief and low-interest loans to reduce start-up and operating costs | - A government gives a grant to a new tech firm to develop medical software |
 | **Training and education** | - Courses, mentoring schemes, and partnerships with schools to develop entrepreneurial and business skills | - A local enterprise centre runs free workshops on writing business plans |
 | **Infrastructure investment** | - Improving transport, internet, and energy supply<br>- Creating *enterprise zones* and business parks | - A government builds a business park with high-speed internet to attract digital start-ups |
-| **Cutting red tape** | - Making it easier to register a business, apply for *licenses, *or comply with legal requirements | - A new online system allows start-ups to register and pay taxes in one place |
+| **Cutting red tape** | - Making it easier to register a business, apply for *licenses,* or comply with legal requirements | - A new online system allows start-ups to register and pay taxes in one place |
 | **Export and trade support** | - Helping firms enter global markets through advice, t*rade fairs,* and international *trade agreements* | - A small food exporter gets help from a trade agency to expand into Asian markets |
 
 ## How government might intervene to constrain business activity
@@ -54,7 +54,7 @@ guided_study: false
 | **Competition law enforcement** | - Prevention of  monopolies, price fixing and uncompetitive practices | - A proposed merger between two telecoms companies is blocked to maintain market choice |
 | **Taxation policy** | - Taxes on profits, imports or harmful products | - A government increases tobacco tax to reduce sales and health costs |
 | **Planning and zoning controls** | - Where businesses can operate and the activities allowed in different areas | - A fast food chain is refused permission to build near a school due to health concerns |
-| **Trade restrictions** | - Import *tariffs*, *quotas *or bans on certain goods to protect domestic industries | - A country imposes tariffs on foreign steel to support local producers |
+| **Trade restrictions** | - Import *tariffs*, *quotas* or bans on certain goods to protect domestic industries | - A country imposes tariffs on foreign steel to support local producers |
 
 ## How government might deal with market failure
 

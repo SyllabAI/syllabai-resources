@@ -58,7 +58,7 @@ current assets, e.g. inventory, trade receivables, cash"
 
 *Cash is the most liquid current asset, while inventory is the least liquid*
 
-- Cash is the most *liquid *form of current asset, as it can be used immediately as a method of payment
+- Cash is the most *liquid* form of current asset, as it can be used immediately as a method of payment
 - Inventory is the least liquid form of current asset, as, before it can be used for payment, it must be sold
 
 ## Liabilities

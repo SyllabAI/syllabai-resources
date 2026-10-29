@@ -77,7 +77,7 @@ guided_study: true
 
 - **STEP 2: **If rotating around the *x*-axis, square *y* for all functions
 
-  - If rotating around the y-axis, rearrange all the *y *functions into the form $x=g(y)$ and square
+  - If rotating around the y-axis, rearrange all the *y* functions into the form $x=g(y)$ and square
   - In either case do this first without worrying about π or the integration and limits
 
 - **STEP 3: **Identify the limits for each volume involved and form the integrals required

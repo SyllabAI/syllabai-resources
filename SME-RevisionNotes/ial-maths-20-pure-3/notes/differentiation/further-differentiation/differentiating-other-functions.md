@@ -49,7 +49,7 @@ guided_study: false
 > **Exam Hint**
 > - The formulae for some of these derivatives are not given in the formulae booklet – you need to know them.
 > - The formulae for ***e***<sup>***kx***</sup> and **ln *****x*** are the ones you absolutely do need to know .
-> - The other formulae can be derived from those two as shown above, and remember – the derivative of **ln *****kx*** is $\frac{1}{x}$*, *NOT $\frac{k}{x}$ !
+> - The other formulae can be derived from those two as shown above, and remember – the derivative of **ln *****kx*** is $\frac{1}{x}$*,* NOT $\frac{k}{x}$ !
 
 > **Worked Example**
 > ![Diff Other Funct Example, AS & A Level Maths revision notes](assets/9746dae59405-7-3-2-diff-other-funct-example.png)

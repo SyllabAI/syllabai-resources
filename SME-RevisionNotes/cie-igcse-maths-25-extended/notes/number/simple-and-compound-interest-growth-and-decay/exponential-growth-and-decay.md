@@ -62,7 +62,7 @@ guided_study: true
 - You may need to** rearrange** the equation $B=A\timesk^{n}$
 
   - To find $A$ giving $A=\frac{B}{k^{n}}$
-  - To find $k$ giving $k^{n}=\frac{B}{A}$ so `k equals n-th root of B over A end root`
+  - To find $k$ giving $k^{n}=\frac{B}{A}$ so `k=n-th root of B / A)`
   - To find $n$, using **trial and improvement **
   
     - Test different whole-number values for $n$ until both sides of the equation balance
@@ -92,13 +92,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The question says “increases exponentially” so use *$B=A\timesk^{n}$* where *$k>1$
+> > *The question says “increases exponentially” so use* $B=A\timesk^{n}$ *where* $k>1$
 > 
-> > $k$* comes from a percentage increase so add 0.04 to 1*
+> > $k$ *comes from a percentage increase so add 0.04 to 1*
 > 
 > $k=1+0.04$
 > 
-> > *Substitute *$A$* = 25 000, *$k$* = 1.04 and *$n$* = 13 into the formula*
+> > *Substitute* $A$ *= 25 000,* $k$ *= 1.04 and* $n$ *= 13 into the formula*
 > 
 > $25000\times1.04^{13}$* *
 > 
@@ -117,9 +117,9 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The question says “exponentially decays” so use  *$B=A\timesk^{n}$* where *$0<k<1$
-> *Note that *$k$* is the multiplier (it is not equal to *$r$* in the question, but is related)*
-> *Substitute *$A$* = 60 and *$n$* = 3 into the equation*
+> > *The question says “exponentially decays” so use* $B=A\timesk^{n}$ *where* $0<k<1$
+> *Note that* $k$ *is the multiplier (it is not equal to* $r$ *in the question, but is related)*
+> *Substitute* $A$ *= 60 and* $n$ *= 3 into the equation*
 > 
 > $60\timesk^{3}$
 > 
@@ -127,7 +127,7 @@ guided_study: true
 > 
 > $60\timesk^{3}=18$
 > 
-> > *Solve this equation for *$k$
+> > *Solve this equation for* $k$
 > *Start by dividing both sides by 60*
 > 
 > $k^{3}=0.3$
@@ -135,10 +135,10 @@ guided_study: true
 > > *The left hand side is to the power of 3 (cubed)*
 > *So cube-root both sides and write out lots of decimal places*
 > 
-> `k equals cube root of 0.3 end root equals 0.669432950...`
+> `k=∛(0.3)=0.669432950...`
 > 
 > > *Find the percentage decrease represented by this number*
-> *It may help to think of an example, e.g. *$k$* = 0.6 represents a decrease of 40%*
+> *It may help to think of an example, e.g.* $k$ *= 0.6 represents a decrease of 40%*
 > 
 > $1-0.669432950...=0.3305670499...$
 > 

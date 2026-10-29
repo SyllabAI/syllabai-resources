@@ -23,7 +23,7 @@ guided_study: false
 - **Labour mobility refers to the ease with which workers can move between jobs, occupations, or geographical areas**
 - Many firms rely heavily on labour and ensuring **labour mobility** helps to lower unemployment and reduce worker shortages in an economy
 
-  - For example, high labour mobility in the European Union allows workers from Spain to move to Germany for employment without *visa *restrictions
+  - For example, high labour mobility in the European Union allows workers from Spain to move to Germany for employment without *visa* restrictions
 
 ### Occupational mobility
 

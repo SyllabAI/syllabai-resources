@@ -96,6 +96,6 @@ Know that one light-year is equal to 9.5 × 10 ^15m (E)
 > 
 > **Step 2: Calculate the distance in km**
 > 
-> `distance space equals space 46 space 000 space cross times space open parentheses 9.5 space cross times space 10 to the power of 12 close parentheses` **[1 mark]**
+> `distance=46 000×(9.5×10^12)` **[1 mark]**
 > 
 > $\mathrm{distance}=4.37\times10^{17}\mathrm{km}$ **[1 mark]**

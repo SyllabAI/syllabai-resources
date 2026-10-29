@@ -21,10 +21,10 @@ guided_study: true
 
 - **Every term** in the** first** bracket must be multiplied by **every term** in the **second** bracket
 
-  - Expanding (*x * + 1)(*x*  + 3) requires 4 multiplications in total
+  - Expanding (*x* + 1)(*x*  + 3) requires 4 multiplications in total
   
-    - *x*(*x*  + 1) + 3(*x * + 1)
-    - *x*×*x *+ 1*x* + 3*x* + 3
+    - *x*(*x*  + 1) + 3(*x* + 1)
+    - *x*×*x* + 1*x* + 3*x* + 3
     - *x*<sup>2</sup>  + 4*x*  + 3
 
 #### Using a grid
@@ -51,7 +51,7 @@ guided_study: true
 
 - **Every term** in the** first** bracket must be multiplied by **every term** in the **second** bracket
 
-  - Expanding (*x * + 1)(*x*  + 3) requires 4 multiplications in total
+  - Expanding (*x* + 1)(*x*  + 3) requires 4 multiplications in total
 - A good way to remember all the multiplications is **FOIL**
 
   - **F = First**: multiply together the **first** terms in each bracket
@@ -68,7 +68,7 @@ guided_study: true
 ### How do I expand a bracket squared?
 
 - Remember that a **square** number is a number multiplied by itself
-- Write (*x* + 3)<sup>2</sup> as (*x *+ 3)(*x* + 3) and use one of the methods above
+- Write (*x* + 3)<sup>2</sup> as (*x* + 3)(*x* + 3) and use one of the methods above
 
   - With FOIL: (*x* + 3)(*x* + 3) = *x*<sup>2 </sup>+ 3*x* + 3*x* + 9
   - Then collect like terms: *x*<sup>2</sup> + 6*x* + 9
@@ -114,7 +114,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Remember that the answer is not (2**x**)*<sup>*2*</sup>* + 3*<sup>*2*</sup>
+> > *Remember that the answer is not (2**x**)*<sup>*2*</sup>*+ 3*<sup>*2*</sup>
 > *Rewrite the expression as two separate brackets multiplied together*
 > 
 > $( 2 x + 3 ) ( 2 x + 3 )$

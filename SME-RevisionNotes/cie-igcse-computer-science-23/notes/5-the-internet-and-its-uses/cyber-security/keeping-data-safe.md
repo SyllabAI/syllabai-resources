@@ -30,7 +30,7 @@ keep data safe from security threats"
 - Some examples of different levels of access to a school network could include:
 
   - **Administrators: ***Unrestricted* - Can access all areas of the network
-  - **Teaching Staff:** *Partially restricted - *Can access all student data but cannot access other staff members' data
+  - **Teaching Staff:** *Partially restricted -* Can access all student data but cannot access other staff members' data
   - **Students:** *Restricted* - Can only access their own data and files
 - Users and groups of users can be given **specific file permissions**
 

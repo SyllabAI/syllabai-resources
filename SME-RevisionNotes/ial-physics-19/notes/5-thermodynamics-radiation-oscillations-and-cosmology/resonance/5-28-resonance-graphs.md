@@ -17,7 +17,7 @@ guided_study: false
 
 ## Resonance Graphs
 
-- A graph of driving frequency *f* against amplitude* A *of oscillations is called a **resonance curve**. It has the following key features:
+- A graph of driving frequency *f* against amplitude *A* of oscillations is called a **resonance curve**. It has the following key features:
 
   - When *f* < *f*<sub>*0*</sub>, the amplitude of oscillations increases
   - At the peak where *f* = *f*<sub>*0*</sub>, the amplitude is at its maximum. This is **resonance**

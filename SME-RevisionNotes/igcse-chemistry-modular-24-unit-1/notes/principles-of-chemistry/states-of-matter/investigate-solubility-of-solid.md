@@ -58,7 +58,7 @@ guided_study: false
 
 - The results can be used to plot a solubility curve for ammonium chloride at different temperatures
 
-  - Solubility is on the *y*-axis and temperature is on the* x*-axis
+  - Solubility is on the *y*-axis and temperature is on the *x*-axis
 
 ### Conclusion
 

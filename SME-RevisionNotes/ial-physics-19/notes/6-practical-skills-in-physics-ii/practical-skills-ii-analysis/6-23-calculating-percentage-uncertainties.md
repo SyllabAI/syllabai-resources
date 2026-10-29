@@ -72,7 +72,7 @@ guided_study: false
 > 
 > **Step 1: Calculate the mean** **value **
 > 
-> mean *ω = *$\frac{0.154+0.153+0.159+0.147+0.152}{5}$*= *0.153 rad s<sup>–1</sup>
+> mean *ω =* $\frac{0.154+0.153+0.159+0.147+0.152}{5}$*=* 0.153 rad s<sup>–1</sup>
 > 
 > **Step 2: Calculate half the range (this is the uncertainty for multiple readings)**
 > 

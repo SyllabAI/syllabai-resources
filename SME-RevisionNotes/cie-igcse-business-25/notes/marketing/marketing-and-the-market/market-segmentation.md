@@ -23,7 +23,7 @@ guided_study: false
   - This allows businesses to** tailor products **to suit specific groups, making customers more likely to buy
   
     - For example, a skincare company can offer different products for teenagers and older adults, who have different skin concerns
-- Marketing messages can be designed to appeal directly to each segment, making *advertising *clearer and persuasive
+- Marketing messages can be designed to appeal directly to each segment, making *advertising* clearer and persuasive
 
   - For example, a fitness brand may use social media to target young adults, but email newsletters for older gym-goers
 - Focusing on specific segments helps businesses avoid wasting time and money advertising to people who are unlikely to be interested
@@ -85,7 +85,7 @@ guided_study: false
 > | **Segment** | **Description** | **Example brands** |
 > |---|---|---|
 > | **Health-conscious consumers** | - Targeted at people looking for low-fat, low-calorie, or baked alternatives as part of a healthier lifestyle | - Walkers Baked<br>- Popchips<br>- Eat Real<br>- Snack a Jacks |
-> | **Premium buyers** | - Targeted at higher-income or more brand-conscious consumers<br>- They want a premium product with unique flavours or *artisanal *packaging | - Kettle Chips<br>- Tyrrells<br>- Walkers Sensations<br>- Burts |
+> | **Premium buyers** | - Targeted at higher-income or more brand-conscious consumers<br>- They want a premium product with unique flavours or *artisanal* packaging | - Kettle Chips<br>- Tyrrells<br>- Walkers Sensations<br>- Burts |
 > | **Value-seeking families** | - Aimed at the mass market, especially families buying in bulk for packed lunches or general snacking at an affordable price | - Walkers multipacks<br>- Hula Hoops<br>- Space Raiders<br>- Pom Bear |
 > | **Youth and casual snackers** | - Designed to appeal to children, teens, and younger adults through bold flavours, fun shapes or *branding* | - Monster Munch<br>- Quavers<br>- Wotsits |
 > | **Event and sharing occasions** | - Larger packs or stackable tubs intended for social situations such as parties or movie nights | - Pringles<br>- Walkers Max Share Bags |

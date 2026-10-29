@@ -146,7 +146,7 @@ guided_study: false
   - **Via Dolorosa**, which is the **street** through which **Jesus carried his cross** on the way to his crucifixion
   
     - Christians follow this route and walk the very path that Jesus walked to his death in the hope that they will **follow him to heaven**
-  - **Church of the Ascension**, which marks the site of the *Ascension *
+  - **Church of the Ascension**, which marks the site of the *Ascension*
   
     - A stone inside the Church is believed to contain the imprint of Jesus’ footstep
 

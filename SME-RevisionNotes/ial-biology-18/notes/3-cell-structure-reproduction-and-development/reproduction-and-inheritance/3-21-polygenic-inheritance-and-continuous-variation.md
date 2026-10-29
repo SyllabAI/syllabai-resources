@@ -65,7 +65,7 @@ guided_study: false
 - The dominant alleles H and T contribute **2*****x*** **cm** to the height of the plant
 - The following genotypes will have the following phenotypes:
 
-  - **h h t t **:  *x *+ *x* + *x* + *x* = **4*****x***** cm**
+  - **h h t t **:  *x* + *x* + *x* + *x* = **4*****x***** cm**
   - **H H T T** : 2*x *+ 2*x* + 2*x* +** **2*x* = **8*****x***** cm**
   - **H h T t **: 2*x* + *x* + 2*x* + *x* = **6*****x***** cm**
   - **H H T t** : 2*x* + 2*x* + 2*x* + *x* =** 7*****x***** cm**

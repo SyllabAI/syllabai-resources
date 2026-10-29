@@ -43,7 +43,7 @@ For example:
 | *The long corridor was cold and windswept, making my candle flicker and the shadows quake and shudder.* | - The **explicit** information in this sentence is that the corridor is long, cold and windswept<br>- The *implicit* meaning in this sentence is that the corridor is creepy and frightening<br>- This is shown by the use of imagery, such as “candle flicker” and “shadows quake and shudder” |
 |---|---|
 
-Something that is *implicit*** **is **inferred**; this means you need to make a logical *inference* based on the evidence you are presented with. Essentially, it’s reading between the lines. In the above example, the fact that the corridor seems to be a frightening place is a logical *inference* to make, based on the fact that even the shadows “quake and shudder”.
+Something that is *implicit*** **is **inferred**; this means you need to make a logical *inference *based on the evidence you are presented with. Essentially, it’s reading between the lines. In the above example, the fact that the corridor seems to be a frightening place is a logical* inference* to make, based on the fact that even the shadows “quake and shudder”.
 
 ## Exam questions: identify and select
 

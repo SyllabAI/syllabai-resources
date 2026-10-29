@@ -38,7 +38,7 @@ guided_study: false
 
 #### 3. Relatively high inflation
 
-- Higher domestic *inflation *increases the prices of goods and services to foreigners
+- Higher domestic *inflation* increases the prices of goods and services to foreigners
 
   - Exported goods become more expensive than those from countries with lower inflation, causing demand to fall
   - At the same time, domestic consumers may switch to cheaper foreign goods, raising imports
@@ -132,7 +132,7 @@ guided_study: false
 > - Strong consumer demand for foreign goods
 > - A strong dollar making imports cheaper and exports more expensive
 > - Low national savings and high levels of government and consumer spending
-> - *Offshoring *of US production to lower-cost economies, particularly China and Mexico
+> - *Offshoring* of US production to lower-cost economies, particularly China and Mexico
 > 
 > **Trump's Actions**
 > 

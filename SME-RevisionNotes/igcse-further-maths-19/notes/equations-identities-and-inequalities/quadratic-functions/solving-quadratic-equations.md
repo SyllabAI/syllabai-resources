@@ -77,12 +77,12 @@ This is a quick revision guide about the different methods and when to use them.
 > (a) Solve $x^{2}-7x+2=0$, giving your answers correct to 2 decimal places
 > 
 > > *“Correct to 2 decimal places” suggests using the quadratic formula*
-> *Substitute *$a=1$*, *$b=-7$* and *$c=2$* into the formula, putting brackets around any negative numbers*
+> *Substitute* $a=1$*,* $b=-7$ *and* $c=2$ *into the formula, putting brackets around any negative numbers*
 > * *
 > 
 > $x = \frac{- ( - 7 ) \pm \sqrt{( - 7 )^{2} - 4 \times 1 \times 2} }{2 \times 1}$
 > 
-> > *Use a calculator to find each solution *
+> > *Use a calculator to find each solution*
 > 
 > $x=6.7015...\mathrm{or}x=0.2984...$* *
 > 
@@ -94,7 +94,7 @@ This is a quick revision guide about the different methods and when to use them.
 > 
 > > *Method 1*
 > *If you cannot spot the factorisation, use the quadratic formula*
-> *Substitute** *$a=16$*, *$b=-82$* and *$c=45$* into the formula, putting brackets around any negative numbers*
+> *Substitute** *$a=16$*,* $b=-82$ *and* $c=45$ *into the formula, putting brackets around any negative numbers*
 > 
 > $x = \frac{- ( - 82 ) \pm \sqrt{( - 82 )^{2} - 4 \times 16 \times 45} }{2 \times 16}$
 > 
@@ -103,23 +103,23 @@ This is a quick revision guide about the different methods and when to use them.
 > **Final answer:** $x=\frac{9}{2}$**  or **$x=\frac{5}{8}$
 > 
 > > *Method 2*
-> *If you do spot the factorisation, (2x – 9)(8x – 5), then use that method instead *
+> *If you do spot the factorisation, (2x – 9)(8x – 5), then use that method instead*
 > 
 > > $( 2 x - 9 ) ( 8 x - 5 ) = 0$* *
 > 
-> > *Set the first bracket equal to zero *
+> > *Set the first bracket equal to zero*
 > 
 > > $2x-9=0$* *
 > 
-> > *Add 9 to both sides then divide by 2 *
+> > *Add 9 to both sides then divide by 2*
 > 
 > $\begin{gathered} 2 x & = 9 \\ x = \frac{9}{2} \end{gathered}$
 > 
-> > *Set the second bracket equal to zero *
+> > *Set the second bracket equal to zero*
 > 
 > > $8x-5=0$* *
 > 
-> > *Add 5 to both sides then divide by 8 *
+> > *Add 5 to both sides then divide by 8*
 > 
 > $\begin{gathered} 8 x & = 5 \\ x = \frac{5}{8} \end{gathered}$
 > 
@@ -128,29 +128,29 @@ This is a quick revision guide about the different methods and when to use them.
 > ** **(c) By writing $x^{2}+6x+5$ in the form $( x + p )^{2} + q$, solve $x^{2}+6x+5=0$
 > 
 > > *This question wants you to complete the square first*
-> *Find *$p$* (by halving the middle number) *
+> *Find* $p$ *(by halving the middle number)*
 > 
 > > $p=\frac{6}{2}=3$* *
 > 
-> > *Write *$x^{2}+6x$* as *$( x + p )^{2} - p^{2}$
+> > *Write* $x^{2}+6x$ *as* $( x + p )^{2} - p^{2}$
 > <sup>* *</sup>
 > 
 > $\begin{gathered} x^{2} + 6 x & = ( x + 3 )^{2} - 3^{2} \\ = ( x + 3 )^{2} - 9 \end{gathered}$
 > 
-> > *Replace *$x^{2}+6x$* **with *$( x + 3 )^{2} - 9$* in the equation *
+> > *Replace* $x^{2}+6x$* **with *$( x + 3 )^{2} - 9$ *in the equation*
 > 
 > $\begin{gathered} ( x + 3 )^{2} - 9 + 5 & = 0 \\ ( x + 3 )^{2} - 4 & = 0 \end{gathered}$
 > 
-> > *Make *$x$* the subject of the equation*
-> *Start by adding 4 to both sides *
+> > *Make* $x$ *the subject of the equation*
+> *Start by adding 4 to both sides*
 > 
 > > $( x + 3 )^{2} = 4$* *
 > 
-> > *Take square roots of both sides (include a ± sign to get both solutions) *
+> > *Take square roots of both sides (include a ± sign to get both solutions)*
 > 
 > > $x+3=\pm\sqrt{4}=\pm2$* *
 > 
-> > *Subtract 3 from both sides *
+> > *Subtract 3 from both sides*
 > 
 > > $x=-3\pm2$* *
 > 

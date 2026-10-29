@@ -30,7 +30,7 @@ guided_study: false
 
 ![Diagram showing balanced forces on a tablet on a desk and a comet in space. Text explains how balanced forces result in no movement.](../../../assets/6c1e5e08f9dc-2-2-1-newtons-first-law-in-action.png)
 
-*Constant speed can only be achieved when the forces on an object are balanced - in other words, when the resultant force is zero *
+*Constant speed can only be achieved when the forces on an object are balanced - in other words, when the resultant force is zero*
 
 ### Examples of Newton's first law
 

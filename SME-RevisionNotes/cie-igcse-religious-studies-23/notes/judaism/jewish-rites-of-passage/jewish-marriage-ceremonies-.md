@@ -110,9 +110,9 @@ guided_study: false
 
 - Many Jews believe that each marriage ceremony is a** re-enactment of the marriage between G-d and the Jewish people** that took place at **Mount Sinai**
 
-  - The wedding day is a **personal Yom Kippur**, or the holiest and most *auspicious *day of someone's life
+  - The wedding day is a **personal Yom Kippur**, or the holiest and most *auspicious* day of someone's life
 - Marriage is also a** legal transaction** in which the bride and groom enter a mutually binding commitment
-- The wedding ceremony contains several *symbolic *acts that are of great significance to Jews
+- The wedding ceremony contains several *symbolic* acts that are of great significance to Jews
 
   - The** Chuppah** is a cloth canopy supported by **four poles** where the bride and groom** stand underneath **and get married
   

@@ -40,7 +40,7 @@ guided_study: true
 
 ![Sine curve labelled with the amplitude.](../../../assets/fca5bde1407d-28397-trig-graph-amplitude.png)
 
-- The **period** is the distance along the* x*-axis to complete a full oscillation
+- The **period** is the distance along the *x*-axis to complete a full oscillation
 
   - Maximum point to maximum point
   - Minimum point to minimum point
@@ -107,9 +107,9 @@ guided_study: true
 > 
 > (c) Write down the values of $a$ and $b$.
 > 
-> > $a$* is the amplitude*
+> > $a$ *is the amplitude*
 > 
-> > *The period is *$\frac{360^{\circ}}{b}$* *
+> > *The period is* $\frac{360^{\circ}}{b}$* *
 > 
 > $\begin{gathered} 90 = \frac{360}{b} \\ b = \frac{360}{90} \\ b = 4 \end{gathered}$
 > 

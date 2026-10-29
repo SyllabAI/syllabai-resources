@@ -50,7 +50,7 @@ guided_study: false
 
 ![PowerPoint presentation with the main slide titled "Base Metal Mining." The slide has a bullet point saying "Around the world." The sidebar shows four additional slides.](../../../assets/c2234e06b068-39520-editapresentation-presenternotes-ezgif-com.webp)
 
-*Adding presenter notes to a presentation *
+*Adding presenter notes to a presentation*
 
 #### Inserting hyperlinks
 
@@ -74,7 +74,7 @@ guided_study: false
 
 ![PowerPoint slide titled "Copper Mining" with bullet points about Escondida mine in Chile: largest mine, opened in 1988, 3.9 km long, 2.7 km wide, 645 m deep, 2013 output 1.1 Mt, 54-year reserve life.](../../../assets/cbeb1b244683-37529-editapresentation-actionbuttons-ezgif-com-.webp)
 
-*Using action buttons in a presentation *
+*Using action buttons in a presentation*
 
 #### Adding screen tips
 
@@ -112,4 +112,4 @@ guided_study: false
 
 ![A PowerPoint presentation titled "Base Metal Mining" is open in edit mode, showing the title slide. The slide selection pane lists other slides related to mining types.](../../../assets/f3c524405f95-40284-editapresentation-hideslides-ezgif-com-vid.webp)
 
-*Hiding slides in a presentation *
+*Hiding slides in a presentation*

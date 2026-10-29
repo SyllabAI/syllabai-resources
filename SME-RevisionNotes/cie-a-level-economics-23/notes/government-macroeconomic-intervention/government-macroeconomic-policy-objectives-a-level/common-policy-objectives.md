@@ -131,7 +131,7 @@ guided_study: false
 
 - **The Balance of Payments (BoP) for a country is a record of all the financial transactions that occur between it and the rest of the world**
 
-  - The current account focuses mainly on the financial transactions related to *exports *and *imports *of goods and services
+  - The current account focuses mainly on the financial transactions related to *exports* and *imports* of goods and services
 - Governments aim for Balance of Payments equilibrium on the **Current Account**
 
   - If exports > imports, it will create a current account **surplus**

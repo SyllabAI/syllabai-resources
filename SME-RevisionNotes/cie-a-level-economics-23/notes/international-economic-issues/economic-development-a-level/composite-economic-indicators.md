@@ -73,7 +73,7 @@ guided_study: false
 | Adjustment | Direction | Examples |
 |---|---|---|
 | Add welfare-enhancing activities excluded from GDP | - Upward | - Value of leisure time, unpaid domestic work, subsistence output |
-| Deduct welfare-reducing activities included in GDP | - Downward | - Costs of pollution, *urban *congestion, crime, military spending |
+| Deduct welfare-reducing activities included in GDP | - Downward | - Costs of pollution, *urban* congestion, crime, military spending |
 
 - The rationale is that GDP counts all output equally regardless of whether it improves welfare - MEW attempts to strip out the output that does not, and add back the welfare that GDP misses
 

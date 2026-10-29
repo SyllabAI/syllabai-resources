@@ -89,7 +89,7 @@ After the invasion, a plebiscite is held – 99.25% vote for Anschluss. Chamberl
 
 | *Crowds on that March 12 included the unconvinced and the skeptical, as well as the curious. People gathered as if drawn by a magnet; but their presence did not endorse the new political environment, nor did it contradict the findings of recent government polls [that between 65 and 70% of Austrians wanted to retain independence from Germany]* |
 |---|
-| An extract from *When Hitler Took Austria *(2008). The author of the book is Kurt von Schuschnigg, the son of the former Austrian Chancellor |
+| An extract from *When Hitler Took Austria* (2008). The author of the book is Kurt von Schuschnigg, the son of the former Austrian Chancellor |
 
 #### Was Anschluss a Success for Appeasement?
 
@@ -223,7 +223,7 @@ Right side (Failure for Appeasement – red box):
 > 
 > **Final answer:** **Partial answer:**
 > 
-> The Sudetenland was important to Hitler as he wanted to unite all German-speaking people **(1)**. In the Sudetenland, there were 3.5 million Germans living there. This land had been given to Czechoslovakia under the Treaty of St Germain, part of the Versailles Settlement **(1)**. This was important for Hitler’s aims as it helped to achieve *Grossdeutchland *and *Lebensraum* by uniting German speakers into one Reich and increasing Germany’s territory. This helped open Eastern Europe up to aggressive German expansion **(1)**.
+> The Sudetenland was important to Hitler as he wanted to unite all German-speaking people **(1)**. In the Sudetenland, there were 3.5 million Germans living there. This land had been given to Czechoslovakia under the Treaty of St Germain, part of the Versailles Settlement **(1)**. This was important for Hitler’s aims as it helped to achieve *Grossdeutchland* and *Lebensraum* by uniting German speakers into one Reich and increasing Germany’s territory. This helped open Eastern Europe up to aggressive German expansion **(1)**.
 
 > **Exam Hint**
 > A strong response for this Paper One question needs to **examine both sides of the argument**. The next paragraph would explain how Anschluss was important to Hitler, for example achieving one of his key foreign policy aims. Continue to use a clear** PEE structure **as shown above.

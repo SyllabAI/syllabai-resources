@@ -62,8 +62,8 @@ $\frac{1}{R}=\frac{1}{R_{1}}+\frac{1}{R_{2}}$
 
 - The method to calculate the resistance:
 
-  - First find the value of *1/R* (by adding *1/R*<sub>*1*</sub>* + 1/R*<sub>*2*</sub>)
-  - Next find the value of *R* by using the reciprocal button on your calculator (labelled either *x*<sup>*-1*</sup>* *or* 1/x*, depending on your calculator)
+  - First find the value of *1/R* (by adding *1/R*<sub>*1*</sub>*+ 1/R*<sub>*2*</sub>)
+  - Next find the value of *R* by using the reciprocal button on your calculator (labelled either *x*<sup>*-1*</sup>* *or *1/x*, depending on your calculator)
 
 ## Video of Resistance in Parallel
 

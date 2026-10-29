@@ -96,7 +96,7 @@ guided_study: false
 
 ![Population pyramid of Japan in 2018, showing age groups and population (in millions) for males (blue) and females (red), with males on the left and females on the right.](../../../assets/0af36654a473-9277-population-pyramid-japan-1.png)
 
-*Constrictive population pyramid *
+*Constrictive population pyramid*
 
 #### Migration population pyramids
 

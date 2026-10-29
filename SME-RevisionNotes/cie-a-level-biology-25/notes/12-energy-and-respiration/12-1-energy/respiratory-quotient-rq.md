@@ -89,7 +89,7 @@ $\mathrm{RQ}=\frac{\mathrm{CO}_{2}}{O_{2}}$
 > 
 > **Step 3:** Use the RQ formula
 > 
-> `CO subscript 2 over open parentheses straight O close parentheses subscript 2 equals RQ`
+> `CO_ 2 / (straight O)_ 2=RQ`
 > 
 > $\frac{18}{25}=0.72$
 
@@ -120,9 +120,9 @@ $\mathrm{RQ}=\frac{\mathrm{CO}_{2}}{O_{2}}$
 > 
 > **Step 3:** Use the RQ formula
 > 
-> `CO subscript 2 over open parentheses straight O close parentheses subscript 2 equals RQ`
+> `CO_ 2 / (straight O)_ 2=RQ`
 > 
-> `2 over 0 equals infinity space open parentheses infinity close parentheses`
+> `2 / 0=∞ (∞)`
 
 > **Exam Hint**
 > Make sure the respiration equation you are working with is **fully balanced** before you start doing any calculations to find out the RQ value.

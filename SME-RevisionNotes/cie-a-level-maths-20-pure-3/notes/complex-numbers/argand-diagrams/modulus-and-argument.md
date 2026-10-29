@@ -109,7 +109,7 @@ The complex number $z=x+iy$ is said to be in Cartesian form. There are, however,
 - The main benefit of writing complex numbers in modulus-argument (polar) form is that they multiply and divide very easily (often quicker than when in Cartesian form)
 - To **multiply** two complex numbers, $z_{1}$ and $z_{2}$, in modulus-argument (polar) form we use the rules from above to **multiply their moduli** and **add their arguments**
 
-  - `open vertical bar z subscript 1 z subscript 2 close vertical bar equals open vertical bar z subscript 1 close vertical bar open vertical bar z subscript 2 close vertical bar`
+  - `open vertical bar z_ 1z_ 2 close vertical bar=open vertical bar z_ 1 close vertical bar open vertical bar z_ 2 close vertical bar`
   - $\mathrm{arg}(z_{1}z_{2})=\mathrm{arg}z_{1}+\mathrm{arg}z_{2}$
 - So if $z_{1}=r_{1}(\mathrm{cos}θ_{1}+\mathrm{isin}θ_{1})$ and $z_{2}=r_{2}(\mathrm{cos}θ_{2}+\mathrm{isin}θ_{2})$ then the rules above give…
 
@@ -134,7 +134,7 @@ The complex number $z=x+iy$ is said to be in Cartesian form. There are, however,
   - $\text{arg} ( \frac{z_{1}}{z_{2}} ) = \text{arg} z_{1} - \text{arg} z_{2}$
 - So if $z_{1}=r_{1}(\mathrm{cos}θ_{1}+\mathrm{isin}θ_{1})$ and $z_{2}=r_{2}(\mathrm{cos}θ_{2}+\mathrm{isin}θ_{2})$ then the rules above give…
 
-  - `z _ 1 / z _ 2 = r _ 1 / r _ 2 ( cos ( theta _ 1 - theta _ 2 ) + isin ( theta _ 1 - theta _ 2 ) ) _`
+  - `z_ 1 / z_ 2=r_ 1 / r_ 2 (cos (θ _ 1 - θ _ 2)+isin (θ _ 1 - θ _ 2))_`
 - As with multiplication, sometimes the new argument, $θ_{1}-θ_{2}$, can lie out of the range $-π<θ\leqπ$ (or the range $0\leqθ<2π$ if this is being used)
 
   - You can **add or subtract **$2π$ to bring out-of-range arguments back in range

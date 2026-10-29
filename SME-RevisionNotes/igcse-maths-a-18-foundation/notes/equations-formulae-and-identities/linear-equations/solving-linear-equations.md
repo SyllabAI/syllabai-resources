@@ -26,7 +26,7 @@ guided_study: true
     - 2*x* + 3 = 5
     - 3*x* + 4 = 1
     - *x* - 5 = -3
-- The greatest power of *x *is 1
+- The greatest power of *x* is 1
 
   - There are no terms like *x*<sup>2</sup>
 
@@ -45,7 +45,7 @@ $\begin{gathered} ( - 1 ) \end{gathered} \begin{gathered} ( - 1 ) \end{gathered}
 $\begin{gathered} 2 x + 1 - 1 & = 9 - 1 \\ 2 x & = 8 \end{gathered}$
 
 - This equation is now **easier** to solve
-- 2*x* is 2 × *x  *so undo this by dividing **both** sides by 2 and **simplifying**
+- 2*x* is 2 × *x* so undo this by dividing **both** sides by 2 and **simplifying**
 
 $\begin{gathered} 2 x & = 8 \end{gathered}$
 

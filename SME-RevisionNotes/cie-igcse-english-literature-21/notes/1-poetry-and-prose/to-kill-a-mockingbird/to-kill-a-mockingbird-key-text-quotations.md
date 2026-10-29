@@ -106,7 +106,7 @@ The theme of the inside and the outside enables Lee to explore division and the 
 
 ### Analysis
 
-- In the first quote, the metaphor “a** ***malevolent* phantom” *dehumanises* Boo, *epitomising* how ignorance and hearsay can build unfounded fear and prejudice
+- In the first quote, the metaphor “a** ***malevolent *phantom”* dehumanises *Boo,* epitomising* how ignorance and hearsay can build unfounded fear and prejudice
 - By describing Boo as “malevolent”, it reveals that Scout has already decided that Boo is bad, even though she has “never seen him”:
 
   - Here, Lee seems to be suggesting that people make value judgements about others without knowing or understanding them

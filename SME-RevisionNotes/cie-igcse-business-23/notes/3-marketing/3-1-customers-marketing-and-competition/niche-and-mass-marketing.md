@@ -29,7 +29,7 @@ guided_study: false
   - **Niche marketing **occurs when businesses identify and satisfy the demands of a **small group of consumers** within the wider market
   - Production usually happens on a **small scale**
   - Products may be **made to order** or produced with **very specific customer needs** in mind
-  - *Bob’s Red Mill *is well known for producing a variety of high quality gluten-free foods, including a range of breakfast cereals
+  - *Bob’s Red Mill* is well known for producing a variety of high quality gluten-free foods, including a range of breakfast cereals
 
 - Some **niche markets become mass markets** as large businesses start to realise the potential for growth
 

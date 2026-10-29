@@ -26,9 +26,9 @@ guided_study: true
 
   - 3 apples and 2 bananas cost \$1.80, while 5 apples and 1 banana cost \$2.30
   
-    - 3*x* + 2*y* = 180 and 5*x *+ *y *= 230
-    *x *is the **price** of an apple, in **cents**
-    *y *is the **price** of a banana, in **cents**
+    - 3*x* + 2*y* = 180 and 5*x *+ *y* = 230
+    *x* is the **price** of an apple, in **cents**
+    *y* is the **price** of a banana, in **cents**
     - This question could also be done in dollars, \$
 - **Solve **the equations** simultaneously**
 - Give answers **in context** (relate them to the story, with units)
@@ -39,12 +39,12 @@ guided_study: true
 
   - Two numbers have a **sum** of 19 and a **difference **of 5, what is their **product**?
   
-    - *x* + *y *= 19 and *x *- *y *= 5
-    - Solve simultaneously to get *x* = 12, *y *= 7
+    - *x* + *y* = 19 and *x* - *y* = 5
+    - Solve simultaneously to get *x* = 12, *y* = 7
     - The product is *xy* = 12 × 7 = 84
 
 > **Exam Hint**
-> - Always check that you've answered the question! Sometimes finding *x *and *y* isn't the end
+> - Always check that you've answered the question! Sometimes finding *x* and *y* isn't the end
 > 
 >   - E.g. you may have to state a conclusion
 
@@ -57,7 +57,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The two variables are the price of bagels, *$b$*, and the price of sausage rolls, *$s$
+> > *The two variables are the price of bagels,* $b$*, and the price of sausage rolls,* $s$
 > 
 > > *Write an equation for the first customer's purchases, and label it equation 1*
 > 
@@ -67,21 +67,21 @@ guided_study: true
 > 
 > $\textcircled{2} 9 b + 10 s = 12.3$
 > 
-> *We will choose to eliminate the *$b$* **terms*
-> *Make the *$b$* terms equal by multiplying all parts of equation 1 by 3 and all parts of equation 2 by 2*
+> *We will choose to eliminate the* $b$* **terms*
+> *Make the* $b$ *terms equal by multiplying all parts of equation 1 by 3 and all parts of equation 2 by 2*
 > *Label these as equations 3 and 4*
 > 
 > $\begin{gathered} \textcircled{1} \times 3 18 b + 36 s & = 27 \textcircled{3} \\ \textcircled{2} \times 2 18 b + 20 s & = 24.6 \textcircled{4} \end{gathered}$
 > 
-> > *To eliminate *$b$*, subtract equation 4 from equation 3*
+> > *To eliminate* $b$*, subtract equation 4 from equation 3*
 > 
 > $\textcircled{3} - \textcircled{4} 16 s = 2.4$
 > 
-> > *Solve for *$s$
+> > *Solve for* $s$
 > 
 > $s=\frac{2.4}{16}=0.15$
 > 
-> > *Substitute this into either equation to find *$b$*, we will use equation 1*
+> > *Substitute this into either equation to find* $b$*, we will use equation 1*
 > 
 > $\begin{gathered} \textcircled{1} 6 b + 12 ( 0.15 ) & = 9 \\ 6 b + 1.8 & = 9 \\ 6 b & = 7.2 \\ b = 1.2 \end{gathered}$
 > 

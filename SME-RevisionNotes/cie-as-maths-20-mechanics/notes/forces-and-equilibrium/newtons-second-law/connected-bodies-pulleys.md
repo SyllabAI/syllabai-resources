@@ -42,7 +42,7 @@ guided_study: true
 
   - **Equations 1 **and** 2**: Treating each particle separately
 
-*(↑) *$T-m_{1}g=m_{1}a$
+*(↑)* $T-m_{1}g=m_{1}a$
 
 (↓) $m_{2}g-T=m_{2}a$
 

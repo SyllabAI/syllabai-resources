@@ -28,7 +28,7 @@ know that a catalyst works by providing an alternative pathway with lower activa
 N<sub>2</sub> (g) + 3H<sub>2</sub> (g) `rightwards harpoon over leftwards harpoon from 450 space degree straight C comma space 200 space atm to iron space catalyst of
 ` 2NH<sub>3</sub> (g)
 
-SO<sub>2</sub> (g) + O<sub>2</sub> (g) `rightwards arrow from straight V subscript 2 straight O subscript 5 space catalyst to 450 space degree straight C of` SO<sub>3</sub> (g)
+SO<sub>2</sub> (g) + O<sub>2</sub> (g) `→ from straight V_ 2 straight O_ 5 catalyst to 450 degree straight C of` SO<sub>3</sub> (g)
 
 - Different processes require different types of catalysts but they all work on the same principle:
 

@@ -58,8 +58,8 @@ Appearance:
 - The Nazis believed that a woman’s life revolved around the ‘**three Ks**’:
 
   - *Kinder* (children)
-  - *Kirche *(church)
-  - *Küche *(cooking)
+  - *Kirche* (church)
+  - *Küche* (cooking)
 
 ## Nazi Policies Towards Women
 

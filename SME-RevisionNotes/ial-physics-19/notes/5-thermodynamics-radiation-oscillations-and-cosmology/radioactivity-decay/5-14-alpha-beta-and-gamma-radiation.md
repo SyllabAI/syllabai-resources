@@ -67,9 +67,9 @@ guided_study: false
 
 ![Table properties of alpha, beta, gamma radiation, downloadable AS & A Level Physics revision notes](../../../assets/3fd56b31b3e4-11-1-7-table-properties-of-alpha-beta-gamma-radi.png)
 
-- *u *is the atomic mass unit (see “Atomic Mass Unit (u)”)
+- *u* is the atomic mass unit (see “Atomic Mass Unit (u)”)
 - *e* is the charge of the electron: 1.60 × 10<sup>-19</sup> C
-- *c *is the speed of light: 3 × 10<sup>8</sup> m s<sup>-1</sup>
+- *c* is the speed of light: 3 × 10<sup>8</sup> m s<sup>-1</sup>
 
 > **Worked Example**
 > ![](assets/ea74788b2a29-we-alpha-beta-gamma-particles-question-image-1.png)

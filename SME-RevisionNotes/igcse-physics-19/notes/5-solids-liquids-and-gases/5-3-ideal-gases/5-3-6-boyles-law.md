@@ -47,10 +47,10 @@ p1 V1 = p2 V2
 
 - Where:
 
-  - *p*<sub>*1 *</sub>= initial pressure in pascals (Pa)
-  - *V*<sub>*1 *</sub>= initial volume in metres cubed (m<sup>3</sup>)
-  - *p*<sub>*2 *</sub>= final pressure in pascals (Pa)
-  - *V*<sub>*2 *</sub>= final volume in metres cubed (m<sup>3</sup>)
+  - *p*<sub>*1* </sub>= initial pressure in pascals (Pa)
+  - *V*<sub>*1* </sub>= initial volume in metres cubed (m<sup>3</sup>)
+  - *p*<sub>*2* </sub>= final pressure in pascals (Pa)
+  - *V*<sub>*2* </sub>= final volume in metres cubed (m<sup>3</sup>)
 
 - This equation is sometimes referred to as **Boyle's Law**
 
@@ -65,7 +65,7 @@ p1 V1 = p2 V2
 > 
 > **Step 1: List the known quantities**
 > 
-> - Initial volume,* V*<sub>*1*</sub> = 0.70 m<sup>3</sup>
+> - Initial volume,*V*<sub>*1*</sub> = 0.70 m<sup>3</sup>
 > - Initial pressure, *p*<sub>*1*</sub> = 200 Pa
 > - Final volume, *V*<sub>*2*</sub> = 0.15 m<sup>3</sup>
 > 

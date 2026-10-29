@@ -49,13 +49,13 @@ guided_study: false
 
   - The sum of the data is represented by
 
-`sum from i equals 1 to n of x subscript i equals x subscript 1 plus x subscript 2 plus... plus x subscript n`
+`sum from i=1 to n of x_ i=x_ 1+x_ 2+...+x_ n`
 
-- This is usually written $\underset{}{\sum}$$x$ and reads as ‘sigma x’
+- This is usually written $\underset{}{\sum}x$ and reads as ‘sigma x’
 
 - The mean of the data is represented by
 
-$\overline{x}=\frac{x_{1}+x_{2}+...+x_{n}}{n}=$$\frac{Σx}{n}$
+$\overline{x}=\frac{x_{1}+x_{2}+...+x_{n}}{n}=\frac{Σx}{n}$
 
 - This reads as ‘x bar’
 - You will come across more summary statistics later in the course

@@ -58,7 +58,7 @@ guided_study: true
 > $\frac{2 ( 2 x + 3 )}{2 x^{2} - 7 x - 15}$
 > 
 > > *Factorise the bottom using your preferred method*
-> *Using the fact that the top factorised to *$( 2 x + 3 )$* may help!*
+> *Using the fact that the top factorised to* $( 2 x + 3 )$ *may help!*
 > 
 > $\frac{2 ( 2 x + 3 )}{( 2 x + 3 ) ( x - 5 )}$
 > 

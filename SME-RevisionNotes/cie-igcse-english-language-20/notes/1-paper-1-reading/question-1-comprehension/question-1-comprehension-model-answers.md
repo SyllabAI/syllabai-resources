@@ -65,7 +65,7 @@ Below you will find the questions based on the above text, along with suggested 
   - What you have to look for in the text (the focus of the question)
 - Pay attention to the number of marks awarded for each sub-question and write your answers accordingly
 - Make sure you are reading the correct section of text (according to the sub-question instructions)
-- If the question asks you to use your own words,* most* of your answer needs to be in your own words; you must not just copy and paste from the text
+- If the question asks you to use your own words,*most* of your answer needs to be in your own words; you must not just copy and paste from the text
 - These are short-answer questions so do not waste time writing paragraphs when short sentences will do:
 
   - Writing more will not get you more marks - the examiner can only award the amount of marks allocated to each sub-question

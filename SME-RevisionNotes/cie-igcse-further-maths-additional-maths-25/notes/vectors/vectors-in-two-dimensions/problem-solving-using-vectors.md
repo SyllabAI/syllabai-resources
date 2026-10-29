@@ -63,11 +63,11 @@ guided_study: false
 - Three points are collinear if they all** **lie on the** same straight line**
 - There are two ways to show this for three points, $A,B$ and $C$ say
 
-  - *Method 1 *Show that $\overset{\rightarrow}{AB}=k\overset{\rightarrow}{AC}$ where $k$ is a constant i.e.  show that $\overset{\rightarrow}{AB}$ and $\overset{\rightarrow}{AC}$ are **scalar multiples** of each other
+  - *Method 1* Show that $\overset{\rightarrow}{AB}=k\overset{\rightarrow}{AC}$ where $k$ is a constant i.e.  show that $\overset{\rightarrow}{AB}$ and $\overset{\rightarrow}{AC}$ are **scalar multiples** of each other
   
     - As the vectors are scalar multiples they will have the **same direction** (and so be **parallel)**
     - So as both vectors start at point $A$, they must be **collinear**
-  - *Method 2 *Show that $\overset{\rightarrow}{AB}=k\overset{\rightarrow}{BC}$  **AND**  that point $B$ lies on both the vectors $\overset{\rightarrow}{AB}$ and $\overset{\rightarrow}{BC}$
+  - *Method 2* Show that $\overset{\rightarrow}{AB}=k\overset{\rightarrow}{BC}$  **AND**  that point $B$ lies on both the vectors $\overset{\rightarrow}{AB}$ and $\overset{\rightarrow}{BC}$
 - Which method you should use will depend on the information given and how you happen to see the question
 
 ### How do I solve problems involving geometric shapes?
@@ -130,7 +130,7 @@ guided_study: false
 > 
 > b) $\overset{\rightarrow}{GT}$
 > 
-> > *There are many ways to get from** G** to **T. **One option is to go from **G **to **Q **(*$b$* **twice), and then from **Q **to **T **(*$a$* three times).*
+> > *There are many ways to get from** G** to **T. **One option is to go from **G **to **Q **(*$b$* **twice), and then from **Q **to **T **(*$a$ *three times).*
 > 
 > > * *
 > 
@@ -146,7 +146,7 @@ guided_study: false
 > Find the vector $\overset{\rightarrow}{PZ}$.
 > 
 > > *There are many ways to get from** P** to **Z**. *
-> *One option is to go from **P **to **R **(*$a$* **twice), and then from **R **to Z** **(*$-b$* one-and-a-half times).*
+> *One option is to go from **P **to **R **(*$a$* **twice), and then from **R **to Z** **(*$-b$ *one-and-a-half times).*
 > 
 > > * *
 > 

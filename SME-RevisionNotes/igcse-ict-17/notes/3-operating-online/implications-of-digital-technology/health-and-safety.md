@@ -87,7 +87,7 @@ guided_study: false
 > - Have electric devices checked regularly **[1]**
 > 
 > *RSI*
-> *Back/shoulder/wrist pain *
+> *Back/shoulder/wrist pain*
 > *Carpel Tunnel syndrome ***[1]**
 > 
 > - Position keyboard appropriately **[1]**

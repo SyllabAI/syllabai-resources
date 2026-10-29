@@ -21,13 +21,13 @@ guided_study: true
 
 - If a linear equation contains the unknown variable on **both **sides,** collect **the *x* terms together on **one side**
 
-  - To do this, **choose** a side you wish to** remove** the* x*  term from
+  - To do this, **choose** a side you wish to** remove** the *x*  term from
   
     - this should be the side with the **lowest value** *x*  term
   - Apply the **opposite **of that term to both sides
 - For example, solve  $4x-7=11+x$
 - Let's remove the *x*  term on the right-hand side
-- *x  *has been added, so subtract *x*  from both sides
+- *x* has been added, so subtract *x*  from both sides
 
 $\begin{gathered} 4 x - 7 & = 11 + x \end{gathered}$
 

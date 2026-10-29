@@ -77,11 +77,11 @@ guided_study: false
 > 
 > **Answer**
 > 
-> > *A description to include four from: *
+> > *A description to include four from:*
 > 
 > - Faster processors fetch/decode/execute more instructions/data / have more cycles **[1]** per second **[1]**
 > 
-> > *so: *
+> > *so:*
 > 
 > - graphics render more quickly / at greater resolution **[1]**
 > - making the visuals smoother  / graphics can be displayed at greater resolution **[1]**

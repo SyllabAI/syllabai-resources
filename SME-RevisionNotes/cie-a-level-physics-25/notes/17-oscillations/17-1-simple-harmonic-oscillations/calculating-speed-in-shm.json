@@ -100,16 +100,16 @@
   },
   {
    "type": "paragraph",
-   "md": "***v***** = *****v***<sub>**0 **</sub>**cos(*****⍵t*****)**"
+   "md": "***v***** = *****v***<sub>**0 **</sub>**cos(*****ωt*****)**"
   },
   {
    "type": "bullets",
-   "md": "- Where:\n\n  - *v* = speed (m s<sup>-1</sup>)\n  - *v*<sub>0</sub> = maximum speed (m s<sup>-1</sup>)\n  - *⍵* = angular frequency (rad s<sup>-1</sup>)\n  - *t* = time (s)"
+   "md": "- Where:\n\n  - *v* = speed (m s<sup>-1</sup>)\n  - *v*<sub>0</sub> = maximum speed (m s<sup>-1</sup>)\n  - *ω* = angular frequency (rad s<sup>-1</sup>)\n  - *t* = time (s)"
   },
   {
    "type": "heading",
    "level": 4,
-   "text": "Interpreting the graph v = v<sub>0 </sub>cos(⍵t)"
+   "text": "Interpreting the graph v = v<sub>0 </sub>cos(ωt)"
   },
   {
    "type": "figure",
@@ -124,7 +124,7 @@
   },
   {
    "type": "bullets",
-   "md": "- This is a **cosine function** because the object starts oscillating from the equilibrium position (*x* = 0 when *t* = 0)\n\n  - This is shown on the [SHM graphs revision note](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/17-oscillations/17-1-simple-harmonic-oscillations/shm-graphs/)\n- Although the symbol *v* is commonly used to represent velocity, not speed, exam questions focus more on the magnitude of the velocity than its direction in SHM\n- The **maximum speed** of an oscillator is the **amplitude**, *v*<sub>*0 *</sub>of the **velocity-time graph**"
+   "md": "- This is a **cosine function** because the object starts oscillating from the equilibrium position (*x* = 0 when *t* = 0)\n\n  - This is shown on the [SHM graphs revision note](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/17-oscillations/17-1-simple-harmonic-oscillations/shm-graphs/)\n- Although the symbol *v* is commonly used to represent velocity, not speed, exam questions focus more on the magnitude of the velocity than its direction in SHM\n- The **maximum speed** of an oscillator is the **amplitude**, *v*<sub>*0* </sub>of the **velocity-time graph**"
   },
   {
    "type": "heading",
@@ -141,7 +141,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Where:\n\n  - *v* = speed (m s<sup>-1</sup>)\n  - *x*<sub>0</sub> = *amplitude* (m)\n  - ± = ‘plus or minus’, this value can be positive or negative\n  - *⍵* = angular frequency (rad s<sup>-1</sup>)\n  - *x* = displacement (m)\n- This equation shows that when an oscillator has a greater amplitude *x*<sub>*0*</sub>, it has to travel a greater distance in the same amount of time and hence has greater speed *v*\n\n  - Both speed equations will be given on your data sheet in the exam"
+   "md": "- Where:\n\n  - *v* = speed (m s<sup>-1</sup>)\n  - *x*<sub>0</sub> = *amplitude* (m)\n  - ± = ‘plus or minus’, this value can be positive or negative\n  - *ω* = angular frequency (rad s<sup>-1</sup>)\n  - *x* = displacement (m)\n- This equation shows that when an oscillator has a greater amplitude *x*<sub>*0*</sub>, it has to travel a greater distance in the same amount of time and hence has greater speed *v*\n\n  - Both speed equations will be given on your data sheet in the exam"
   },
   {
    "type": "heading",
@@ -154,19 +154,19 @@
   },
   {
    "type": "paragraph",
-   "md": "***v***<sub>**0**</sub>** = *****⍵x***<sub>**0**</sub>"
+   "md": "***v***<sub>**0**</sub>** = *****ωx***<sub>**0**</sub>"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A simple pendulum oscillates with simple harmonic motion with an amplitude of 15 cm. The frequency of the oscillations is 6.7 Hz.\n\nCalculate the speed of the pendulum at a position of 12 cm from the equilibrium position.\n\n**Answer: **\n\n**Step 1: Write out the known quantities**\n\n- Amplitude of oscillations, *x*<sub>0</sub> = 15 cm = 0.15 m\n- Displacement at which the speed is to be found,** ***x* = 12 cm = 0.12 m\n- Frequency,** ***f* = 6.7 Hz\n\n**Step 2: Oscillator speed with displacement equation**\n\n*v = ±ω*$\\sqrt{(x_{0}^{2}-x^{2})}$\n\nSince the speed is being calculated, the ± sign can be removed as direction does not matter in this case\n\n**Step 3: Write an expression for the angular frequency**\n\nThe equation relating angular frequency and normal frequency:\n\n*⍵* = 2π*f* = 2π× 6.7 = 42.097…\n\n**Step 4: Substitute in values and calculate**\n\n$v=(2π\\times6.7)\\times\\sqrt{0.15^{2}-0.12^{2}}$\n\n*v* = 3.789 = 3.8 m s<sup>-1</sup> (2 s.f)"
+   "md": "A simple pendulum oscillates with simple harmonic motion with an amplitude of 15 cm. The frequency of the oscillations is 6.7 Hz.\n\nCalculate the speed of the pendulum at a position of 12 cm from the equilibrium position.\n\n**Answer: **\n\n**Step 1: Write out the known quantities**\n\n- Amplitude of oscillations, *x*<sub>0</sub> = 15 cm = 0.15 m\n- Displacement at which the speed is to be found,** ***x* = 12 cm = 0.12 m\n- Frequency,** ***f* = 6.7 Hz\n\n**Step 2: Oscillator speed with displacement equation**\n\n*v = ±ω*$\\sqrt{(x_{0}^{2}-x^{2})}$\n\nSince the speed is being calculated, the ± sign can be removed as direction does not matter in this case\n\n**Step 3: Write an expression for the angular frequency**\n\nThe equation relating angular frequency and normal frequency:\n\n*ω* = 2π*f* = 2π× 6.7 = 42.097…\n\n**Step 4: Substitute in values and calculate**\n\n$v=(2π\\times6.7)\\times\\sqrt{0.15^{2}-0.12^{2}}$\n\n*v* = 3.789 = 3.8 m s<sup>-1</sup> (2 s.f)"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "You often have to convert between time period *T*, frequency *f* and angular frequency *⍵* for many exam questions – so make sure you revise the equations relating to these."
+   "md": "You often have to convert between time period *T*, frequency *f* and angular frequency *ω* for many exam questions – so make sure you revise the equations relating to these."
   }
  ]
 }

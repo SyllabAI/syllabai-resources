@@ -35,7 +35,7 @@ guided_study: false
 - Digital camera able to record video
 
   - Support to allow it to be positioned directly above the collision
-- Computer with *Tracker *installed
+- Computer with *Tracker* installed
 - 30 cm ruler
 - Micrometer or calipers
 - Balance
@@ -61,17 +61,17 @@ guided_study: false
 
 - A slightly different angle of approach should be used for each collision
 
-7. Download the video file from the camera to the computer that runs *Tracker *
+7. Download the video file from the camera to the computer that runs *Tracker*
 
 - Load the clip into the program.
 
 #### Analysing the Results
 
-- Use *Tracker *to analyse the video clips.
+- Use *Tracker* to analyse the video clips.
 
   - Input the mass and diameter of each sphere when prompted
   - Use the ‘velocity overlay’ feature so that the software can analyse velocities
-- The *Tracker *software allows for frame-by-frame analysis of the movement of the spheres
+- The *Tracker* software allows for frame-by-frame analysis of the movement of the spheres
 
   - Orientate the axes to make the velocity of the moving ball along one of the axes
   - Record the momentum of each ball as indicated in *Tracker*
@@ -99,7 +99,7 @@ guided_study: false
 
   - Check there is no damage to the surface of each sphere before using
 
-- The *Tracker *axes may not be correctly aligned when analysing
+- The *Tracker* axes may not be correctly aligned when analysing
 
 ***Random errors:***
 

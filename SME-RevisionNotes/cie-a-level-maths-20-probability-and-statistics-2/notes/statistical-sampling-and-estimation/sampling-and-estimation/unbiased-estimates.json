@@ -166,7 +166,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Unfortunately square rooting an unbiased variance **does not** result in an unbiased standard deviation\n- There is **not a formula** for an unbiased estimate for the **standard deviation** that works for all populations\n\n  - Therefore it is better to just work with the variance and not the standard deviation\n- If you need an estimate for the standard deviation then you can use:\n\n  - You can use the square root of your unbiased estimate for the population variance\n  \n    - `s = sqrt( ( capital sigma ( x - x -bar ) ^2)/(n - 1) ) = sqrt( (1)/(n - 1) ( capital sigma x ^2 - ( capital sigma x ) ^2 / n ) )`\n  - This **won’t be unbiased** but it will be a good estimate"
+   "md": "- Unfortunately square rooting an unbiased variance **does not** result in an unbiased standard deviation\n- There is **not a formula** for an unbiased estimate for the **standard deviation** that works for all populations\n\n  - Therefore it is better to just work with the variance and not the standard deviation\n- If you need an estimate for the standard deviation then you can use:\n\n  - You can use the square root of your unbiased estimate for the population variance\n  \n    - `s=sqrt((capital σ (x - x -bar) ^2)/(n - 1))=sqrt((1)/(n - 1)(capital σ x ^2 - (capital σ x) ^2 / n))`\n  - This **won’t be unbiased** but it will be a good estimate"
   },
   {
    "type": "heading",

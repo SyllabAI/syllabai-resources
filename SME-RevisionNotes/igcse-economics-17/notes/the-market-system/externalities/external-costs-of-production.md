@@ -23,7 +23,7 @@ guided_study: false
 - The market is failing due to **over-provision** of these goods and services, as only the **private costs are considered** by the producers and not the **external costs**
 
   - If the **external costs** were considered, the quantity of goods and services provided **would decrease,** and the remaining units would be sold at a higher price
-  - Examples of external costs include pollution, congestion and environmental damage. These all have* spillover effects* on third parties
+  - Examples of external costs include pollution, congestion and environmental damage. These all have *spillover effects* on third parties
 
 #### Diagram: Air Pollution from Production
 

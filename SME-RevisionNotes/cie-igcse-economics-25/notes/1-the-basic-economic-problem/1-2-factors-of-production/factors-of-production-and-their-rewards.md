@@ -30,7 +30,7 @@ guided_study: false
 #### 1. Land
 
 - **Non man-made** **natural resources **available for production
-- Some countries have a vast amount of a particular natural resource and so are able to *specialise *in its production
+- Some countries have a vast amount of a particular natural resource and so are able to *specialise* in its production
 
   - E.g., oil, wood, fish, corn, iron ore
 
@@ -101,6 +101,6 @@ rent, wages, interest and profit"
 | **Changes in the costs of production** | - An increase in the costs of production will decrease the output e.g. when energy prices rise, capital becomes more expensive to run, which may decrease the supply of capital in an economy |
 | **Changes in relative *****productivity*** | - ***Process innovation*** often results in **productivity improvement, **e.g. moving from labour-intensive car production to automated car production |
 | **Changes in education and skills** | - Over time, this increases the **quality of labou**r in an economy |
-| **Changes in government regulations** | - These can improve the **quantity of the factors of production**, e.g. *deregulation *of fracking (extracting oil from shale deposits) in the USA increased useable oil reserves |
+| **Changes in government regulations** | - These can improve the **quantity of the factors of production**, e.g. *deregulation* of fracking (extracting oil from shale deposits) in the USA increased useable oil reserves |
 | **Demographic changes and migration** | - A positive ***net birth rate*** or positive ***net migration rate*** will increase the quantity of labour available |
 | **Competition policy** | - **Preventing *****monopoly *****power** results in more firms supplying goods and services in an economy and this **increases the potential output** of the economy |

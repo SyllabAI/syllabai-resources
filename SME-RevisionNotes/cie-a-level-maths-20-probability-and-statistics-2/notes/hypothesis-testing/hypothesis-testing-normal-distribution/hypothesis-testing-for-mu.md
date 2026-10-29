@@ -20,7 +20,7 @@ guided_study: true
 #### What steps should I follow when carrying out a hypothesis test for the mean of a normal distribution?
 
 - Following these steps will help when carrying out a hypothesis test for the mean of a normal distribution:
-- **Step 1.**  Define the distribution of the **population mean** usually `X tilde size 16px N size 16px left parenthesis size 16px mu size 16px comma size 16px sigma to the power of size 16px 2 size 16px right parenthesis`
+- **Step 1.**  Define the distribution of the **population mean** usually `X tilde size 16px N size 16px left parenthesis size 16px μ size 16px comma size 16px σ ^ size 16px 2 size 16px right parenthesis`
 - **Step 2.  **Write the null and alternative hypotheses clearly
 
 - **Step 3.   **Assuming the null hypothesis to be true, define the **statistic**
@@ -40,7 +40,7 @@ guided_study: true
 - A hypothesis test is used when the value of the assumed population mean is questioned
 - The **null hypothesis**, H<sub>0</sub> and **alternative hypothesis**, H<sub>1</sub> will always be given in terms of *µ*
 
-  - Make sure you clearly define *µ *before writing the hypotheses, if it has not been defined in the question
+  - Make sure you clearly define *µ* before writing the hypotheses, if it has not been defined in the question
   - The null hypothesis will always be **H**<sub>**0**</sub>** : *****µ = ...***
   - The alternative hypothesis will depend on if it is a **one-tailed** or **two-tailed** test
   - A one-tailed test would test to see if the **value of  *****µ ***has **either increased or decreased**
@@ -55,7 +55,7 @@ guided_study: true
 - The population mean is tested by looking at the mean of a sample taken from the population
 
   - The sample mean is denoted $\overline{x}$
-  - For a random variable `X tilde size 16px N size 16px left parenthesis size 16px mu size 16px comma size 16px sigma to the power of size 16px 2 size 16px right parenthesis` the distribution of the sample mean would be `X with bar on top tilde N left parenthesis mu comma sigma squared over n right parenthesis`
+  - For a random variable `X tilde size 16px N size 16px left parenthesis size 16px μ size 16px comma size 16px σ ^ size 16px 2 size 16px right parenthesis` the distribution of the sample mean would be `X with bar on top tilde N left parenthesis μ comma σ ² / n right parenthesis`
 - To carry out a hypothesis test with the normal distribution, the **statistic used to carry out the test **will be the **sample mean, **`top enclose X`
 
   - Remember that the **variance** of the sample mean distribution will be the variance of the population distribution **divided by *****n***
@@ -86,7 +86,7 @@ guided_study: true
   - The probability of the observed value being within the critical region, given a true null hypothesis will be the same as the** significance level**
 - For an* *$α$*%*  significance level:
 
-  - In a one-tailed test the critical region will consist of  $α$*% *in the tail that is being tested for
+  - In a one-tailed test the critical region will consist of  $α$*%* in the tail that is being tested for
   - In a two-tailed test the critical region will consist of `alpha over 2 percent sign` in each tail
 
 ![1-2-2-confidence-intervals-diagram-1-1](../../../assets/5a506f9c71af-1-2-2-confidence-intervals-diagram-1-1.png)

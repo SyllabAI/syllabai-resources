@@ -76,14 +76,14 @@ $( \begin{gathered} 3 \\ - 2 \end{gathered} )$
   - In the case where *k* > 0
 
 - If a particle is moving north then its velocity will have a vector of *k***j**
-- if a particle *A *is due south of another particle *B* then the displacement vector from *B* to *A* will have the form -*k***j**
+- if a particle *A* is due south of another particle *B* then the displacement vector from *B* to *A* will have the form -*k***j**
 - If a particle is moving east then its velocity will have a vector of *k***i**
-- if a particle *A* is due west of another particle *B *then the displacement vector from *B* to *A* will have the form -*k***i**
+- if a particle *A* is due west of another particle *B* then the displacement vector from *B* to *A* will have the form -*k***i**
 
 - If the position vectors of two particles have the same **j **component, then the particle with the greater **i** component will be positioned due east of the other
 - If the position vector of a particle has equal **i **and **j** components then it is positioned due north - east of the origin
 
-  - if a particle *A *is north – east of another particle *B *then the displacement vector from *B* to *A* will have equal **i **and **j** components
+  - if a particle *A* is north – east of another particle *B* then the displacement vector from *B* to *A* will have equal **i **and **j** components
 
 ![mechanics-vectos](../../../assets/338a7d4c4fcf-mechanics-vectos.png)
 

@@ -65,7 +65,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *It helps to use a tally chart initially *
+> > *It helps to use a tally chart initially*
 > 
 > | ***Type of pet*** | ***Tally*** |
 > |---|---|
@@ -73,7 +73,7 @@ guided_study: true
 > | *Cat* | * *$\cancel{\vert \vert \vert \vert} \vert$ |
 > | *Rabbit* | * *$\vert \vert \vert$ |
 > 
-> *Then write the tally chart as a frequency table *
+> *Then write the tally chart as a frequency table*
 > 
 > | **Final answer:** **Type of pet** | **Final answer:** **Frequency** |
 > |---|---|

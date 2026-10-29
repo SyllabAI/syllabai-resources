@@ -93,9 +93,9 @@ guided_study: false
 > 
 > > *The question says the graph 'intercepts the **x**-axis at two different points'*
 > 
-> > *This means that the discriminant *$b^{2}-4ac$* is greater than zero*
+> > *This means that the discriminant* $b^{2}-4ac$ *is greater than zero*
 > 
-> > *Here  *$a=2k$*,  *$b=k$*,  and  *$c=-k+2$
+> > *Here* $a=2k$*,* $b=k$*,  and* $c=-k+2$
 > 
 > $( k )^{2} - 4 ( 2 k ) ( - k + 2 ) > 0$
 > 
@@ -111,13 +111,13 @@ guided_study: false
 > 
 > $k ( 9 k - 16 ) > 0$
 > 
-> > *This tells us the graph of  *$y=9k^{2}-16k$*  intercepts the horizontal axis at *$k=0$* and *$k=\frac{16}{9}$
+> > *This tells us the graph of* $y=9k^{2}-16k$ *intercepts the horizontal axis at* $k=0$ *and* $k=\frac{16}{9}$
 > 
 > > *It can be helpful to sketch a graph here*
 > 
 > ![Graph for solving quadratic inequality](assets/e9e918282f3d-sy-mefmv-picture1.png)
 > 
-> > $9k^{2}-16k>0$* will be true to the left of 0 and to the right of *$\frac{16}{9}$
+> > $9k^{2}-16k>0$ *will be true to the left of 0 and to the right of* $\frac{16}{9}$
 > 
 > > *Write these down as inequalities*
 > 
@@ -240,13 +240,13 @@ Start with the **formulae** linking the roots and coefficients
 > 
 > (a)  show that  $α-β=\frac{9}{2}$
 > 
-> > *Use  *$α+β=-\frac{b}{a}$*  and *$αβ=\frac{c}{a}$*  to find the sum and product*
+> > *Use* $α+β=-\frac{b}{a}$ *and* $αβ=\frac{c}{a}$ *to find the sum and product*
 > 
 > $\\alpha + \\beta = - \frac{( - 11 )}{2} = \frac{11}{2}$
 > 
 > $αβ=\frac{5}{2}$
 > 
-> > *Express *$( \\alpha - \\beta )^{2}$* in terms of  *$α+β$*  and  *$αβ$
+> > *Express* $( \\alpha - \\beta )^{2}$ *in terms of* $α+β$ *and* $αβ$
 > 
 > $\begin{gathered} ( \\alpha - \\beta )^{2} & = \\alpha ^{2} - 2 \\alpha \\beta + \\beta ^{2} \\ = ( \\alpha ^{2} + 2 \\alpha \\beta + \\beta ^{2} ) - 4 \\alpha \\beta \\ = ( \\alpha + \\beta )^{2} - 4 \\alpha \\beta \end{gathered}$
 > 
@@ -254,13 +254,13 @@ Start with the **formulae** linking the roots and coefficients
 > 
 > $\begin{gathered} ( \\alpha - \\beta )^{2} & = ( \frac{11}{2} )^{2} - 4 ( \frac{5}{2} ) \\ = \frac{121}{4} - 10 \\ = \frac{81}{4} \end{gathered}$
 > 
-> > *Take the square root, remembering the *$\pm$
+> > *Take the square root, remembering the* $\pm$
 > 
 > $α-β=\pm\frac{9}{2}$
 > 
-> > *Finally, use the fact that *$α>β$
+> > *Finally, use the fact that* $α>β$
 > 
-> *But  *$α>β$*,  therefore  *$α-β>0$
+> *But* $α>β$*,  therefore* $α-β>0$
 > 
 > $α-β=\frac{9}{2}$
 > 
@@ -268,13 +268,13 @@ Start with the **formulae** linking the roots and coefficients
 > 
 > > *Start by finding the sum and product of the new roots*
 > 
-> `| Sum = (alpha + beta)/(a) + (alpha - beta)/(beta) | | _ = (beta ( alpha + beta ) + alpha ( alpha - beta ))/(alpha beta) | | _ = (alpha ^2 + beta ^2)/(alpha beta) | | _ = (( alpha ^2 + 2 alpha beta + beta ^2 ) - 2 alpha beta)/(alpha beta) | | _ = (( alpha + beta ) ^2 - 2 alpha beta)/(alpha beta) | | _ = (( 11 / 2 ) ^2 - 2 ( 5 / 2 ))/(5 / 2) | | _ = 101 / 10 | | _ _ _ | _ _ _ | Product = (alpha + beta)/(a) x (alpha - beta)/(beta) | | _ = (( alpha + beta ) ( alpha - beta ))/(alpha beta) | | _ = (( 11 / 2 ) ( 9 / 2 ))/(5 / 2) | | _ = 99 / 10 | |`
+> `| Sum=(α+β)/(a)+(α - β)/(β) | | _=(β (α+β)+α (α - β))/(α β) | | _=(α ^2+β ^2)/(α β) | | _=((α ^2+2α β+β ^2) - 2α β)/(α β) | | _=((α+β) ^2 - 2α β)/(α β) | | _=((11 / 2) ^2 - 2 (5 / 2))/(5 / 2) | | _=101 / 10 | | _ _ _ | _ _ _ | Product=(α+β)/(a) x (α - β)/(β) | | _=((α+β)(α - β))/(α β) | | _=((11 / 2)(9 / 2))/(5 / 2) | | _=99 / 10 | |`
 > 
-> > *Now use  *$\mathrm{Sum} \mathrm{of} \mathrm{roots}=-\frac{b}{a}$*  and  *$\mathrm{Product} \mathrm{of} \mathrm{roots}=\frac{c}{a}$
+> > *Now use* $\mathrm{Sum} \mathrm{of} \mathrm{roots}=-\frac{b}{a}$ *and* $\mathrm{Product} \mathrm{of} \mathrm{roots}=\frac{c}{a}$
 > 
 > $\frac{b}{a}=-\frac{101}{10}\mathrm{and}\frac{c}{a}=\frac{99}{10}$
 > 
-> > *Select  *$a=10$*  so *$b$* and *$c$* will have integer values*
+> > *Select* $a=10$ *so* $b$ *and* $c$ *will have integer values*
 > 
 > $a=10b=-101c=99$
 > 

@@ -22,7 +22,7 @@ guided_study: true
 - Plot** two graphs** on the** same **set of **axes**
 
   - The **points** **of intersection** are where the two lines **meet**
-- For example, plot* y* = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 on the same axes
+- For example, plot *y* = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 on the same axes
 
   - They meet twice, as shown
   - The **coordinates** of** intersection** are (-1, -1) and (0, 1)
@@ -31,8 +31,8 @@ guided_study: true
 
 ### How do I solve simultaneous equations graphically?
 
-- The *x * and *y  ***solutions** to **simultaneous equations** are the *x  *and *y  ***coordinates** of the **point of intersection**
-- For example, to solve 2*x *- *y *= 3 and 3*x *+ *y* = 7 simultaneously
+- The *x* and *y  ***solutions** to **simultaneous equations** are the *x  *and* y  ***coordinates** of the **point of intersection**
+- For example, to solve 2*x *- *y* = 3 and 3*x *+ *y* = 7 simultaneously
 
   - **Rearrange** them into the form ***y***** = *****mx***** + *****c***
   
@@ -86,7 +86,7 @@ guided_study: true
 > *Read off the values where the curve cuts the **x**-axis*
 > *Use a suitable level of accuracy (no more than 2 decimal places from the scale of this graph)*
 > 
-> *-1.12 and 1.12 *
+> *-1.12 and 1.12*
 > 
 > > *These are the two solutions to the equation*
 > 
@@ -99,7 +99,7 @@ guided_study: true
 > > *The function equals 8, so draw the horizontal line **y** = 8*
 > *Find the **x**-coordinates where this cuts the graph  *
 > 
-> *-0.5 and 0.5 *
+> *-0.5 and 0.5*
 > 
 > > *These are the two solutions to the original equation*
 > 

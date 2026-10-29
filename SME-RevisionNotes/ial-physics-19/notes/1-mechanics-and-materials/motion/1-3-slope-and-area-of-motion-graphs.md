@@ -117,7 +117,7 @@ area of a triangle = ½ base × height
 - Identify the point on the x-axis which corresponds with the question
 
   - Draw a line vertically to meet the curve
-- Take a *tangent *to the curve at this point
+- Take a *tangent* to the curve at this point
 
   - Do this carefully, trying out more than one attempt before choosing the correct tangent
 

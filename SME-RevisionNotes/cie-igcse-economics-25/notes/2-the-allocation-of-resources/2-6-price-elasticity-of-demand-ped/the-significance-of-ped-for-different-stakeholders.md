@@ -24,7 +24,7 @@ guided_study: false
 
 - Understanding PED helps consumers make better purchasing decisions, especially in price-sensitive situations
 
-  - When demand for a product is **elastic**, consumers can easily switch to *substitutes *when the price rises
+  - When demand for a product is **elastic**, consumers can easily switch to *substitutes* when the price rises
   - When demand is **inelastic**, there may be fewer alternatives (e.g. essential medicine or utilities),** so consumers must pay** even if the price increases
   - **Informed consumers** can adjust their spending by identifying products where price changes will affect their overall budget more significantly
   
@@ -90,7 +90,7 @@ guided_study: false
 
 ### Governments
 
-- Governments use PED to design effective taxation and *subsidy *policies
+- Governments use PED to design effective taxation and *subsidy* policies
 
   - **For taxation:**
   

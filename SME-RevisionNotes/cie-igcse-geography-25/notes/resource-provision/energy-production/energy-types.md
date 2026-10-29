@@ -39,7 +39,7 @@ This page covers section 10.4.1 of the [CIE IGCSE specification](https://www.cam
   - rivers suitable for dams
   - steady wind speeds
   - coastal access
-- Energy production also relies upon a country's investment in infrastructure and government *subsidies *
+- Energy production also relies upon a country's investment in infrastructure and government *subsidies*
 
 ## Renewable energy sources
 

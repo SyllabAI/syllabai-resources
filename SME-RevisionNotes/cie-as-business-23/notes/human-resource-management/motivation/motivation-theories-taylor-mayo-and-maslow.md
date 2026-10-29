@@ -57,7 +57,7 @@ guided_study: false
 
 | **How businesses use Taylor's approach** | **Advantages** | **Disadvantages** |
 |---|---|---|
-| - Workers are trained to perform only one task, which they become very skilled at<br>- Workers are usually paid for the completed work (piece rate pay), e.g. \$0.16 per T-shirt completed by garment workers in Bangladesh | - Increased *efficiency *lowers costs<br>- Standard procedures that everyone follows reduce errors<br>- Specialisation of labour leads to greater efficiency and productivity<br>- Clear lines of *authority *lead to more efficient decision-making and communication<br>- Good training and development improves employee performance and job satisfaction | - Overemphasis on efficiency reduces worker satisfaction and creativity<br>- Workers may disengage from work if they are reduced to working in a **machine-like system**<br>- This approach may not work for roles that need high levels of creativity, problem-solving or *interpersonal skills*<br>- Potential for *exploitation*, as this approach may be used to extract more work from workers without paying them fairly |
+| - Workers are trained to perform only one task, which they become very skilled at<br>- Workers are usually paid for the completed work (piece rate pay), e.g. \$0.16 per T-shirt completed by garment workers in Bangladesh | - Increased *efficiency* lowers costs<br>- Standard procedures that everyone follows reduce errors<br>- Specialisation of labour leads to greater efficiency and productivity<br>- Clear lines of *authority* lead to more efficient decision-making and communication<br>- Good training and development improves employee performance and job satisfaction | - Overemphasis on efficiency reduces worker satisfaction and creativity<br>- Workers may disengage from work if they are reduced to working in a **machine-like system**<br>- This approach may not work for roles that need high levels of creativity, problem-solving or *interpersonal skills*<br>- Potential for *exploitation*, as this approach may be used to extract more work from workers without paying them fairly |
 
 ## Mayo's Motivation Theory
 
@@ -74,7 +74,7 @@ guided_study: false
 
 | **How businesses use Mayo's approach** | **Advantages** | **Disadvantages** |
 |---|---|---|
-| - **Empowering employees** in decision-making, e.g, creating teams which decide their priorities<br>- **Team-building activities** are used to build relationships<br>- **Providing feedback** and recognition  to employees, e.g. Worker of the Week<br>- **Creating a positive work environment** by promoting open communication and providing support to employees, e.g. offering wellness programmes<br>- **Encouraging employee development** by offering training programmes, *mentorship *and career advancement | - **Improved job satisfaction** as workers feel valued and supported<br>- **Open and honest communication**, which reduces misunderstandings and conflicts<br>- **Employee *****empowerment ***increases workers' sense of ownership and responsibility<br>- **Stronger teams**, as there is a sense of community and team spirit | - **Time-consuming**, as building positive relationships requires time and effort<br>- **Lack of control** as workers take more decisions<br>- **Resistance to change**, as some workers and managers may be resistant to the changes required by Mayo's theory<br>- **Potential for conflict**,** **as attempts to build stronger relationships can also lead to disagreement<br>- It may not work for businesses which require a high degree of individual *autonomy *and independence |
+| - **Empowering employees** in decision-making, e.g, creating teams which decide their priorities<br>- **Team-building activities** are used to build relationships<br>- **Providing feedback** and recognition  to employees, e.g. Worker of the Week<br>- **Creating a positive work environment** by promoting open communication and providing support to employees, e.g. offering wellness programmes<br>- **Encouraging employee development** by offering training programmes, *mentorship* and career advancement | - **Improved job satisfaction** as workers feel valued and supported<br>- **Open and honest communication**, which reduces misunderstandings and conflicts<br>- **Employee *****empowerment ***increases workers' sense of ownership and responsibility<br>- **Stronger teams**, as there is a sense of community and team spirit | - **Time-consuming**, as building positive relationships requires time and effort<br>- **Lack of control** as workers take more decisions<br>- **Resistance to change**, as some workers and managers may be resistant to the changes required by Mayo's theory<br>- **Potential for conflict**,** **as attempts to build stronger relationships can also lead to disagreement<br>- It may not work for businesses which require a high degree of individual *autonomy* and independence |
 
 ## Maslow's Hierarchy of Needs
 
@@ -107,7 +107,7 @@ guided_study: false
 
 **4. Esteem needs**
 
-- Businesses can provide recognition for employees' accomplishments and provide a positive *work culture *that **values individual contributions**
+- Businesses can provide recognition for employees' accomplishments and provide a positive *work culture* that **values individual contributions**
 
 **5. Self-actualisation needs**
 

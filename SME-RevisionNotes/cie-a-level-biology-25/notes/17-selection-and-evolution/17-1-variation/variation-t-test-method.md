@@ -56,7 +56,7 @@ $\frac{s^{2}_{1}}{n_{1}}\mathrm{and}\frac{s^{2}_{2}}{n_{2}}$
 ![Diagram illustrating a t-test formula with elements: means, standard deviations squared, and sample sizes, with reminder of equation provision in exam.](../../../assets/03cc6cffc85e-23426-httpscdn-savemyexams-comuploads202011t-tes.png)
 
 - **Step 6:**  Calculate the **degrees of freedom **(*v*) for the whole data set (remember the formulae for this will **not** be given in the exam): $\mathrm{v} = ( \mathrm{n}_{1} - 1 ) + ( \mathrm{n}_{2} - 1 )$
-- **Step 7:**  Look at a table that relates *t* values to the probability that the differences between data sets is due to chance to find where the *t *value for the degrees of freedom (*v*) calculated lies
+- **Step 7:**  Look at a table that relates *t* values to the probability that the differences between data sets is due to chance to find where the *t* value for the degrees of freedom (*v*) calculated lies
 
 | **Degrees of freedom** | **Value of t** |   |   |   |
 |---|---|---|---|---|
@@ -75,7 +75,7 @@ $\frac{s^{2}_{1}}{n_{1}}\mathrm{and}\frac{s^{2}_{2}}{n_{2}}$
 
 - **Step 8**:  The greater the *t* value calculated (for any degree of freedom), the lower the probability of chance causing any significant difference between the two sample means
 
-  - Identify where the *t *value calculated lies with respect to the confidence levels provided
+  - Identify where the *t* value calculated lies with respect to the confidence levels provided
   - If the *t* value is **greater than the critical value **(obtained from the table at a probability level of 0.05) then any **difference** between the means of the two data sets is said to be **statistically significant**
   
     - There is a less than 5 % probability that any difference is due to chance
@@ -84,7 +84,7 @@ $\frac{s^{2}_{1}}{n_{1}}\mathrm{and}\frac{s^{2}_{2}}{n_{2}}$
   
     - The probability that any difference is due to chance is higher than 5 %
     - The** null hypothesis is accepted**
-- Using the table above, if a value of *t *was calculated to be 2.38 at 5 degrees of freedom, then it lies between the critical values of 2.02 and 2.57
+- Using the table above, if a value of *t* was calculated to be 2.38 at 5 degrees of freedom, then it lies between the critical values of 2.02 and 2.57
 - Therefore, the probability that chance produced any difference between the two means is between 5 and 10 %; this is a higher than 5 % probability that the difference is due to chance
 - The null hypothesis would be **accepted **and it would be said that there is no significant difference between the data sets
 

@@ -73,7 +73,7 @@ Question 2(c) will ask you to choose one example from the text to explain how th
 - Make sure you find and highlight the words and phrases in the text:
 
   - This will ensure that you are explaining them in the correct context
-- If the question asks you to use your own words,* most* of your answer needs to be in your own words; you must not just copy from the text
+- If the question asks you to use your own words,*most* of your answer needs to be in your own words; you must not just copy from the text
 - These are short-answer questions, so do not waste time writing paragraphs when short sentences will do:
 
   - Writing more will not get you more marks - the examiner can only award the amount of marks allocated to each sub-question

@@ -32,14 +32,14 @@ guided_study: true
 
 - The graph of $y=f(x)+a$ is a **vertical** translation of the graph $y=f(x)$ by the vector $( \begin{gathered} 0 \\ a \end{gathered} )$
 
-  - The graph moves** up for positive** values of *a *and **down for negative** values of *a*
+  - The graph moves** up for positive** values of *a* and **down for negative** values of *a*
   - The *x*-coordinates stay the same
 
 ![Translations statement_vert_Illustration, A Level & AS Level Pure Maths Revision Notes](../../../assets/b332e8d31318-2-9-1-translations-statement-vert-illustration.png)
 
 - The graph of $y=f(x+a)$ is a **horizontal** translation of the graph $y=f(x)$ by the vector $( \begin{gathered} - a \\ 0 \end{gathered} )$
 
-  - The graph moves** left for positive** values of *a *and **right for negative** values of *a*
+  - The graph moves** left for positive** values of *a* and **right for negative** values of *a*
   - The *y*-coordinates stay the same
 
 ![Translations statement_horiz_Illustration, A Level & AS Level Pure Maths Revision Notes](../../../assets/a833213b1a8d-2-9-1-translations-statement-horiz-illustration.png)

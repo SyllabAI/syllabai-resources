@@ -29,7 +29,7 @@ guided_study: false
 
 ![Economies & diseconomies of scale ](../../../assets/c6850953fada-edexcel-igcse-economies-of-scale.bin)
 
-*Economies and diseconomies of scale *
+*Economies and diseconomies of scale*
 
 ### Diagram analysis
 

@@ -63,7 +63,7 @@ guided_study: false
 > 
 > (ii) Find the magnitude of the resultant force and its direction as an angle measured anti-clockwise from the **i**-direction.
 > 
-> (iii) A third force is applied to the particle such that it is brought into equilibrium. Find the third force, giving your answer in the form $(xi+yj)N$
+> (iii) A third force is applied to the particle such that it is brought into equilibrium. Find the third force, giving your answer in the form $(\xi+yj)N$
 > 
 > **Answer:**
 > 

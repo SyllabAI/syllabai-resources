@@ -49,14 +49,14 @@ guided_study: false
     - This view is shared by **Orthodox, Reform** and **Liberal Jews**
 - However, there are some views about the nature of G-d that may vary between groups
 
-  - For example, Jews believe that G-d created the world *ex nihilo, *that the universe has purpose and order and that** Shabbat** celebrates G-d's rest after creation (Genesis 1–2)
+  - For example, Jews believe that G-d created the world *ex nihilo,* that the universe has purpose and order and that** Shabbat** celebrates G-d's rest after creation (Genesis 1–2)
   
     - Some Reform Jews may see creation more symbolically and not believe that G-d created everything literally in six days
   - Also, all Jews believe that G-d is the lawgiver because G-d gave the Torah (including the 613 mitzvot) to Moses on Mount Sinai
   
     - **Orthodox Jews** believe that all laws are divine and must be kept
     - **Reform/Liberal Jews **may believe that some laws are symbolic or outdated and can be reinterpreted for modern times
-  - All Jews believe that G-d is both *transcendent* and *immanent *
+  - All Jews believe that G-d is both *transcendent* and *immanent*
   
     - However, some Jews emphasise one aspect more than the other
 
@@ -80,15 +80,15 @@ guided_study: false
     - Belief in one personal G-d leads Jews to **pray daily**, often three times (**Shacharit, Minchah, Ma’ariv**)
   - Belief in G-d as lawgiver means that Jews obey the **613 mitzvot** in the Torah
   
-    - **Orthodox Jews** follow these strictly (for example,* kashrut* and Shabbat observance)
+    - **Orthodox Jews** follow these strictly (for example,*kashrut* and Shabbat observance)
     - **Reform Jews** may choose which laws to follow, focusing on ethical teachings
   - All Jews believe in a G-d that is just and compassionate
   
-    - To try and achieve this in the world, Jews follow the practices of *tzedakah*, *gemilut chasadim *and* teshuvah*
+    - To try and achieve this in the world, Jews follow the practices of *tzedakah*, *gemilut chasadim* and *teshuvah*
   - Remembering G-d as the creator, Jews rest on Shabbat from Friday sunset to Saturday night
   
     - This is a time for worship, family and reflection, imitating G-d’s rest after creation
-  - Belief in G-d’s *omniscience *and *benevolence *helps Jews face challenges with hope
+  - Belief in G-d’s *omniscience* and *benevolence* helps Jews face challenges with hope
   
     - Jews would believe that things happen for a reason and trust in G-d’s plan for them
 

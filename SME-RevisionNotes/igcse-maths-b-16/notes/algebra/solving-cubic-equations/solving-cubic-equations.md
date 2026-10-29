@@ -67,7 +67,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Substitute *$x=2$* into the equation*
+> > *Substitute* $x=2$ *into the equation*
 > 
 > **Final answer:** $\begin{gathered} 2 ( 2 )^{3} - ( 2 )^{2} - 8 ( 2 ) + 4 & = 16 - 4 - 16 + 4 = 0 \end{gathered}$
 > 
@@ -77,11 +77,11 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *By the factor theorem, you know that *$( x - 2 )$* is a factor of *$2x^{3}-x^{2}-8x+4$* *
+> > *By the factor theorem, you know that* $( x - 2 )$ *is a factor of* $2x^{3}-x^{2}-8x+4$* *
 > 
 > $\begin{gathered} 2 x^{3} - x^{2} - 8 x + 4 & = ( x - 2 ) ( p x^{2} + q x + r ) \end{gathered}$
 > 
-> > *You can find the values of *$p$*, *$q$* and *$r$* by comparing coefficients*
+> > *You can find the values of* $p$*,* $q$ *and* $r$ *by comparing coefficients*
 > 
 > - *You might also be able to do this by inspection*
 > 
@@ -90,11 +90,11 @@ guided_study: false
 > 
 > $\begin{gathered} 2 x^{3} - x^{2} - 8 x + 4 & = p x^{3} + ( q - 2 p ) x^{2} + ( r - 2 q ) x - 2 r \end{gathered}$
 > 
-> - *The *$x^{3}$* coefficient and constant term give you *$p$* and *$r$* right away*
+> - *The* $x^{3}$ *coefficient and constant term give you* $p$ *and* $r$ *right away*
 > 
 > $2x^{3}=px^{3}\Rightarrowp=2\,\,4=-2r\Rightarrowr=-2$
 > 
-> - *Use either the *$x^{2}$* or *$x$* coefficients to find the value of *$q$
+> - *Use either the* $x^{2}$ *or* $x$ *coefficients to find the value of* $q$
 > 
 > > $- x^{2} = ( q - 2 p ) x^{2}$
 > * *$\begin{array}{rcl} q - 2 p & = - 1 \\ q - 2 ( 2 ) & = - 1 \\ q - 4 & = - 1 \\ q = 3 \end{array}$
@@ -103,16 +103,16 @@ guided_study: false
 > 
 > $( x - 2 ) ( 2 x^{2} + 3 x - 2 ) = 0$
 > 
-> > *To find the other solutions you need to solve  *$2x^{2}+3x-2=0$
+> > *To find the other solutions you need to solve* $2x^{2}+3x-2=0$
 > 
 > - *Any quadratic solving method would work*
 > - *But it is easiest here if you can spot the factorisation*
 > 
 > $( x - 2 ) ( x + 2 ) ( 2 x - 1 ) = 0$
 > 
-> - *So the other solutions are *
+> - *So the other solutions are*
 > 
->   - $x=-2$*,  from the factor *$( x + 2 )$
->   - $x=\frac{1}{2}$*,  from the factor *$( 2 x - 1 ) = 2 ( x - 1 \frac{1}{2} )$
+>   - $x=-2$*,  from the factor* $( x + 2 )$
+>   - $x=\frac{1}{2}$*,  from the factor* $( 2 x - 1 ) = 2 ( x - 1 \frac{1}{2} )$
 > 
 > $x=-2\mathrm{and}x=\frac{1}{2}$

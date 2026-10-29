@@ -358,7 +358,7 @@ From the very beginning and throughout the play, Romeo and Juliet’s relationsh
 
 - Shakespeare employs [dramatic irony](https://www.savemyexams.com/glossary/gcse/english-literature/dramatic-irony-definition/) by telling audiences the [protagonist](https://www.savemyexams.com/glossary/gcse/english-literature/protagonist-definition/)’ *fate*
 - The adjectives “fearful” and “death-mark’d” connect the idea of destiny and fear
-- By telling *Elizabethan*** **audiences that the [tragedy](https://www.savemyexams.com/glossary/gcse/english-language/tragedy/) is already predetermined, Shakespeare links *fate* to tragedy, challenging prevalent superstitious beliefs about *fate*
+- By telling *Elizabethan*** **audiences that the [tragedy](https://www.savemyexams.com/glossary/gcse/english-language/tragedy/) is already predetermined, Shakespeare links *fate *to tragedy, challenging prevalent superstitious beliefs about* fate*
 
 ### Paired quotations
 

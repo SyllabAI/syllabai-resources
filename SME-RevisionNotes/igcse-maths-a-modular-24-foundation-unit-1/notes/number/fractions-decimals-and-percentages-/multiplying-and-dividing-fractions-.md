@@ -96,7 +96,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Rewrite *$3\frac{1}{4}$* as an improper fraction*
+> > *Rewrite* $3\frac{1}{4}$ *as an improper fraction*
 > 
 > $3\frac{1}{4}=\frac{3\times4+1}{4}=\frac{13}{4}$
 > 

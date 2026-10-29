@@ -106,6 +106,6 @@ guided_study: false
 
 | **Type of contract** | **Explanation** |
 |---|---|
-| **Permanent** | - Ongoing employment with no end date<br>- Used for long-term roles needing specific skills or experience<br>- Provides* job security* for employees and stability for employers |
+| **Permanent** | - Ongoing employment with no end date<br>- Used for long-term roles needing specific skills or experience<br>- Provides *job security* for employees and stability for employers |
 | **Fixed-term** | - Employment for a set period, with clear start and end dates<br>- Often used for temporary roles or to cover staff absences like parental leave |
 | **Casual** | - Irregular, on-demand work with no guaranteed hours<br>- Common in busy seasons, e.g. summer<br>- Suitable when specific skills are needed but long-term commitment is not |

@@ -28,7 +28,7 @@ guided_study: false
 
 ### How do I sketch the straight line modulus graph y = a|­x+p|+q?
 
-- The graph will look like a “ꓦ” if *a *> 0 or a “ꓥ” if *a *< 0
+- The graph will look like a “ꓦ” if *a* > 0 or a “ꓥ” if *a* < 0
 - There will be a vertex at the point (-*p*, *q*)
 - There could be 0, 1 or 2 roots
 

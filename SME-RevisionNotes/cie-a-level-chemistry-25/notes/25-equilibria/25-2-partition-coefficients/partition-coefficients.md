@@ -112,9 +112,9 @@ guided_study: true
 > 
 > - **Step 7: **Substitute the values into the *K*<sub>*pc*</sub> expression:
 > 
-> *K*<sub>*pc*</sub>* = *$\frac{0.1154}{0.06345}$
+> *K*<sub>*pc*</sub> *=* $\frac{0.1154}{0.06345}$
 > 
-> *K*<sub>*pc*</sub>* = *1.82
+> *K*<sub>*pc*</sub>*=* 1.82
 > 
 > - Since the value of *K*<sub>*pc*</sub> is **larger than 1**, methylamine is more soluble in the organic solvent than in water
 

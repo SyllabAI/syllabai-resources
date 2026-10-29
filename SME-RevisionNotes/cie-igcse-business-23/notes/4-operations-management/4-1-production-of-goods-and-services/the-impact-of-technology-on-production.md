@@ -52,7 +52,7 @@ guided_study: false
 #### Impact on production
 
 - Leads to **faster product development**
-- Makes *customisation *of products easier
+- Makes *customisation* of products easier
 - Improves **communication between design and manufacturing teams**, especially when paired with CAM (Computer-Aided Manufacturing)
 
 ### 2. Increased use of 3D printers for production

@@ -134,7 +134,7 @@ Calculate the **profit or loss for the year**
 *The layout of the income statement*
 
 > **Exam Hint**
-> The exam might give you the information in a trial balance along with additional information underneath. Identify items from the trial balance that would appear on the income statement.  You might find it helpful to annotate with *IS *to differentiate from those which would appear on the statement of financial position.
+> The exam might give you the information in a trial balance along with additional information underneath. Identify items from the trial balance that would appear on the income statement.  You might find it helpful to annotate with *IS* to differentiate from those which would appear on the statement of financial position.
 
 > **Worked Example**
 > The following trial balance has been extracted by the book-keeper of Ali Baba, a wholesaler of school supplies, at 31 December 2023.

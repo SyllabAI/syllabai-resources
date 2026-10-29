@@ -186,7 +186,7 @@ guided_study: false
   - They contain lessons of **guidance** for the people
 - The **Injil** **(Gospels)** contain the messages **Allah** revealed to **Isa (Jesus) **
 
-  - Muslims believe that the Injil* foretells *the coming of the **Prophet Muhammad (pbuh)**
+  - Muslims believe that the Injil *foretells* the coming of the **Prophet Muhammad (pbuh)**
 - Although all of these religious texts are considered as having been revealed by Allah — and are held as sacred by Judaism, Christianity or both — Muslims do not hold them in the same regard as the Qur’an
 
   - These holy books are believed to contain some **errors **and therefore are **not the direct word of Allah **

@@ -28,7 +28,7 @@ guided_study: false
 #### Contactless payments
 
 - Contactless payment systems allow customers to pay quickly by tapping a card, phone or smartwatch on a payment terminal
-- This speeds up the *transaction *process and reduces waiting times in shops, cafés and other service businesses
+- This speeds up the *transaction* process and reduces waiting times in shops, cafés and other service businesses
 
 #### Online booking and self-service
 
@@ -71,7 +71,7 @@ guided_study: false
 
 | Advantages | Disadvantages |
 |---|---|
-| - **Faster and easier ways to complete tasks**<br><br>  - Technology simplifies *routine *jobs and reduces physical effort<br>- **New opportunities for flexible working**<br><br>  - Employees can work from home  using remote tools<br>- **Improved communication**<br><br>  - Tools like email, video calls and instant messaging help teams stay connected | - **Job insecurity**<br><br>  - Automation and *AI* may reduce the number of available jobs, especially in low-skilled roles<br>- **Need for constant *****upskilling***<br><br>  - Workers must learn new systems regularly, which can be stressful or time-consuming<br>- **Less human interaction**<br><br>  - Working with machines or remotely may reduce *team bonding* and face-to-face support |
+| - **Faster and easier ways to complete tasks**<br><br>  - Technology simplifies *routine* jobs and reduces physical effort<br>- **New opportunities for flexible working**<br><br>  - Employees can work from home  using remote tools<br>- **Improved communication**<br><br>  - Tools like email, video calls and instant messaging help teams stay connected | - **Job insecurity**<br><br>  - Automation and *AI* may reduce the number of available jobs, especially in low-skilled roles<br>- **Need for constant *****upskilling***<br><br>  - Workers must learn new systems regularly, which can be stressful or time-consuming<br>- **Less human interaction**<br><br>  - Working with machines or remotely may reduce *team bonding* and face-to-face support |
 
 ## How changes in technology improves business performance
 

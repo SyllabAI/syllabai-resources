@@ -61,7 +61,7 @@ $E_{k}=\frac{1}{2}m<c^{2}>=\frac{3}{2}kT$
   - *m* = mass of one molecule (kg)
   - <c<sup>2</sup>> = mean square speed of a molecule (m<sup>2</sup> s<sup>-2</sup>)
   - *k* = *Boltzmann constant*
-  - *T *= temperature of the gas (K)
+  - *T* = temperature of the gas (K)
 - To calculate the average translational kinetic energy for all the molecules in a gas, multiply the kinetic energy by the number of molecules in the gas, *N*:
 
 $E_{k-total}=\frac{3}{2}NkT$
@@ -79,11 +79,11 @@ $E_{k-total}=\frac{3}{2}NkT$
 > 
 > **Step 2: Find the relation between *****c***<sub>**r.m.s**</sub>** and temperature *****T***
 > 
-> - Since *m* and* k* are constant, <*c*<sup>2</sup>> is directly proportional to *T*
+> - Since *m* and *k* are constant, <*c*<sup>2</sup>> is directly proportional to *T*
 > 
 > $<c^{2}>\proptoT$
 > 
-> - Therefore, the relation between *c*<sub>r.m.s</sub> and* T* is:
+> - Therefore, the relation between *c*<sub>r.m.s</sub> and *T* is:
 > 
 > $c_{r.m.s}=\sqrt{<c^{2}>}\propto\sqrt{T}$
 > 

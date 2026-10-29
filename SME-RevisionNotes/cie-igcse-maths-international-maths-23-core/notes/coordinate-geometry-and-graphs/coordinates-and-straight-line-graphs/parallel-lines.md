@@ -31,7 +31,7 @@ guided_study: true
 
 ### How do I find the equation of a parallel line?
 
-- For example, to find the** equation** of the line **parallel** to *y * = 2*x * + 1 which **passes through** the **point **(3, 14)
+- For example, to find the** equation** of the line **parallel** to *y* = 2*x * + 1 which **passes through** the **point **(3, 14)
 
   - write the parallel line as *y*  = 2*x*  + *d*
   
@@ -42,8 +42,8 @@ guided_study: true
     - 14 = 6 + *d*
   - **solve** to **find *****d***
   
-    - *d * = 8
-  - The equation is *y * = 2*x*  + 8
+    - *d* = 8
+  - The equation is *y* = 2*x*  + 8
 
 > **Worked Example**
 > Find the equation of the line that passes through the point (2, 1), which is parallel to the straight line $y=3x+7$.

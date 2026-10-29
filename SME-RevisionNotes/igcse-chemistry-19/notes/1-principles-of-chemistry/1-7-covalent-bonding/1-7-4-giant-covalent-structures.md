@@ -101,7 +101,7 @@ legacy_spec_map: true
 
 ![Diagram of graphite structure showing layers with carbon atoms forming three covalent bonds each, weak attraction forces, and delocalised electrons.](../../../assets/4d8e2b444cc1-13344-graphite-structure.jpg)
 
-*Structure of graphite showing weak forces between the planes *
+*Structure of graphite showing weak forces between the planes*
 
 > **Exam Hint**
 > **Remember: **Explaining the melting point for any giant covalent structure is always the same:

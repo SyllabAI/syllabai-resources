@@ -63,7 +63,7 @@ guided_study: false
 
 HA(colour 1)$\rightleftharpoons$ H<sup>+</sup> + A<sup>- </sup>(colour 2)
 
-- The equilibrium constant,* K*<sub>a</sub>, for indicators, is known as *K*<sub>In</sub> and is normally expressed in the logarithmic form, p*K*<sub>In</sub>
+- The equilibrium constant,*K*<sub>a</sub>, for indicators, is known as *K*<sub>In</sub> and is normally expressed in the logarithmic form, p*K*<sub>In</sub>
 - The working pH range of an indicator is a range of pH on either side of the p*K*<sub>In </sub>value
 - For example, the p*K*<sub>In</sub> of methyl orange is 3.7
 - Below pH 3.7 the dominant colour is colour 1 (red for methyl orange) and above it is colour 2 (yellow for methyl orange)

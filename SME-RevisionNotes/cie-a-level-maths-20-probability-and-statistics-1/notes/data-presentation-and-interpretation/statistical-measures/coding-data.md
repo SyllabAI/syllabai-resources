@@ -69,7 +69,7 @@ $y=ax+b$
 
 Then the standard deviation of the coded data, $σ_{y}$would be
 
-`sigma subscript y equals open vertical bar a close vertical bar sigma subscript x`
+`σ _ y=open vertical bar a close vertical bar σ _ x`
 
 The original standard deviation,* *$σ_{x}$, will be
 
@@ -77,13 +77,13 @@ $\sigma_{x} = \frac{\sigma_{y} }{\left| a \right|}$
 
 #### What will summary statistics and formulae look like with an assumed mean?
 
-- If an **assumed mean**, *a, *has been subtracted from all data values, *x, *then the summary statistics for the coded data will be
+- If an **assumed mean**, *a,* has been subtracted from all data values, *x,* then the summary statistics for the coded data will be
 
   - The sum of the coded data $Σ(x-a)$
   - The sum of the squares of the coded data $Σ(x-a)^{2}$
   
     - Be careful not to mix this up with the square of the sum of the coded data $(Σ(x-a))^{2}$
-  - If an **assumed mean,** *a, *has been subtracted from all data values, *x, *then the formulae for the mean and standard deviation for the coded data will be
+  - If an **assumed mean,** *a,* has been subtracted from all data values, *x,* then the formulae for the mean and standard deviation for the coded data will be
 
 ** **`top ( x - a ) = (capital sigma ( x - a ))/(n)`
 

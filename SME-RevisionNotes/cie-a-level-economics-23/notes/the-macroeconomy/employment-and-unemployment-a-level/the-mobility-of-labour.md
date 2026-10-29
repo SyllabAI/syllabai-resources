@@ -26,7 +26,7 @@ guided_study: false
 
 | Form | Definition | Example |
 |---|---|---|
-| **Geographical mobility** | - Ability of workers to move between *locations *to take up employment | - A worker moving from a high-unemployment rural region to a city where jobs are available |
+| **Geographical mobility** | - Ability of workers to move between *locations* to take up employment | - A worker moving from a high-unemployment rural region to a city where jobs are available |
 | **Occupational mobility** | - Ability of workers to move between *jobs or occupations*, often requiring retraining | - A manufacturing worker retraining as a software technician after factory closure |
 
 ## Factors affecting geopgraphic and labour mobility
@@ -42,9 +42,9 @@ guided_study: false
 | **Housing costs and availability** | - High house prices/rents in growing regions deter moves from cheaper areas |
 | **Family and social ties** | - Workers reluctant to leave friends, relatives, schools and community networks |
 | **Cultural and language differences** | - Significant barrier to international migration and even inter-regional moves |
-| **Transport infrastructure** | - Better roads, rail and *commuting *options widen accessible job market |
+| **Transport infrastructure** | - Better roads, rail and *commuting* options widen accessible job market |
 | **Information about jobs elsewhere** | - Limited awareness of opportunities reduces willingness to move |
-| **Immigration controls** | - *Visa *rules and qualification recognition restrict international mobility |
+| **Immigration controls** | - *Visa* rules and qualification recognition restrict international mobility |
 | **Differences in cost of living** | - High living costs in destination area may offset wage gains |
 
 ### 2. Occupational mobility

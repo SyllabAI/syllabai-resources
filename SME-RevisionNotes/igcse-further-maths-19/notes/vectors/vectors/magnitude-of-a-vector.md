@@ -28,7 +28,7 @@ guided_study: false
 - In** component** form, the magnitude is the **hypotenuse** of a right-angled triangle
 
   - Use **Pythagoras' theorem** to find it
-  - The magnitude of $a=xi+yj$ is
+  - The magnitude of $a=\xi+yj$ is
   
     - $\left| a \right| = \sqrt{x^{2 } + \mathrm{y}^{2}}$
     - where $a = ( \begin{gathered} x \\ y \end{gathered} )$
@@ -51,7 +51,7 @@ guided_study: false
 
 ### How do I find the magnitude of a displacement vector?
 
-- You can use **coordinate geometry** to find **magnitudes **of **displacement vectors** from *A * to *B*
+- You can use **coordinate geometry** to find **magnitudes **of **displacement vectors** from *A* to *B*
 
   - From the **position vectors** of *A*  and *B*  you know their coordinates
   
@@ -79,13 +79,13 @@ guided_study: false
 > 
 > Given that $\vert \vec{AB} \vert = 3 \sqrt{2}$ and $m>5$, find the value of $m$.
 > 
-> > *Use  *$\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}=-\overset{\rightarrow}{OA}+\overset{\rightarrow}{OB}$
-> *Simplify and collect components *
+> > *Use* $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}=-\overset{\rightarrow}{OA}+\overset{\rightarrow}{OB}$
+> *Simplify and collect components*
 > 
 > > $\begin{gathered} \vec{AB} & = - ( 2 i + m j ) + ( - i + 4 j ) \\ = - 2 i - m j - i + 4 j \\ = - 3 i + ( 4 - m ) j \end{gathered}$
 > * *
 > 
-> > *Use  *$\vert x i + y j \vert = \sqrt{x^{2} + y^{2}}$* *
+> > *Use* $\vert x i + y j \vert = \sqrt{x^{2} + y^{2}}$* *
 > 
 > > $\begin{gathered} \left| \vec{AB} \right| & = \sqrt{( - 3 )^{2} + ( 4 - m )^{2}} \end{gathered}$
 > * *
@@ -97,21 +97,21 @@ guided_study: false
 > > $\begin{gathered} \left| \vec{AB} \right| & = \sqrt{9 + 16 - 8 m + m^{2 } } \\ = \sqrt{25 - 8 m + m^{2 } } \end{gathered}$
 > * *
 > 
-> > *Substitute in *$\left| \vec{AB} \right| = 3 \sqrt{2}$* from the question*
-> *Square both sides and form a quadratic in *$m$
+> > *Substitute in* $\left| \vec{AB} \right| = 3 \sqrt{2}$ *from the question*
+> *Square both sides and form a quadratic in* $m$
 > * *
 > 
 > > $\begin{gathered} 3 \sqrt{2 & = \sqrt{25} - 8 m + m^{2}} \\ ( 3 \sqrt{2} )^{2} & = 25 - 8 m + m^{2} \\ 18 = 25 - 8 m + m^{2} \\ 0 = m^{2} - 8 m + 7 \end{gathered}$
 > * *
 > 
-> > *Factorise and solve *
+> > *Factorise and solve*
 > 
 > > $0 = ( m - 1 ) ( m - 7 )
 > m = 1 , m = 7$
 > * *
 > 
-> > *You are given that *$m>5$* in the question*
-> *This means *$m=7$* is the only valid answer*
+> > *You are given that* $m>5$ *in the question*
+> *This means* $m=7$ *is the only valid answer*
 > 
 > $m=7$
 
@@ -148,13 +148,13 @@ guided_study: false
 > Find a unit vector in the direction of $\overset{\rightarrow}{OA}$, giving your answer in exact form.
 > 
 > > *To find a unit vector, divide the vector by its magnitude*
-> *Find and simplify the magnitude, *$\vert \vec{OA} \vert$*, using *$\sqrt{x^{2}+y^{2}}$
+> *Find and simplify the magnitude,* $\vert \vec{OA} \vert$*, using* $\sqrt{x^{2}+y^{2}}$
 > * *
 > 
 > > $\begin{gathered} \vert \vec{OA} \vert & = \sqrt{( - 7 )^{2} + 1^{2}} \\ = \sqrt{49 + 1} \\ = \sqrt{50 \\ = \sqrt{25} \times 2} \\ = 5 \sqrt{2} \end{gathered}$
 > * *
 > 
-> *Divide each component in *$\overset{\rightarrow}{OA}$* by *$\begin{array}{rcl} 5 \sqrt{2} \end{array}$
+> *Divide each component in* $\overset{\rightarrow}{OA}$ *by* $\begin{array}{rcl} 5 \sqrt{2} \end{array}$
 > 
 > $\frac{\vec{OA}}{\vert \vec{OA} \vert} = - \frac{7}{5 \sqrt{2} } i + \frac{1}{5 \sqrt{2} } j$
 > 

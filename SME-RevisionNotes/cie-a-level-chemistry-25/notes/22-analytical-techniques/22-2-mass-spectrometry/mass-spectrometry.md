@@ -40,7 +40,7 @@ guided_study: true
 
   - For example, an ion with mass 16 and charge 2+ will have a *m/e* value of 8
 - The smaller and more positively charged fragment ions will be **detected** first as they will get **deflected** the most and are more attracted to the **negative** **pole** of the magnet
-- Each fragment corresponds to a specific **peak** with a particular *m/e *value in the mass spectrum
+- Each fragment corresponds to a specific **peak** with a particular *m/e* value in the mass spectrum
 - The **base peak **is the peak corresponding to the most **abundant** ion
 
 ### Isotopes
@@ -73,4 +73,4 @@ guided_study: true
 > - *m/e* (<sup>56</sup>Fe<sup>3+</sup>) =** **$\frac{56}{3}=18.7\,=19$
 
 > **Exam Hint**
-> A small *m/e *value corresponds to fragments that are either **small **or have a **high positive charge **or a combination of **both**
+> A small *m/e* value corresponds to fragments that are either **small **or have a **high positive charge **or a combination of **both**

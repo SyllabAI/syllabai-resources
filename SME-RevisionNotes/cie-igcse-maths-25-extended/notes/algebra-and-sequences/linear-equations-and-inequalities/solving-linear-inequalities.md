@@ -31,7 +31,7 @@ guided_study: true
   
     - *x* ⩽ 10 means *x* is less than or equal to 10
     
-      - *x *could be 10, 9, 8, 7, 6,....
+      - *x* could be 10, 9, 8, 7, 6,....
 - When they** cannot **be **equal**, they are called** strict **inequalities
 
   - > and < are **strict** inequalities
@@ -45,16 +45,16 @@ guided_study: true
 
   - Look at whether each end point is **included **or not
   
-    - 3 ⩽ *x *⩽ 6
+    - 3 ⩽ *x* ⩽ 6
     
       - *x* = 3, 4, 5, 6
-    - 3 ⩽ *x *< 6
+    - 3 ⩽ *x* < 6
     
       - *x* = 3, 4, 5
     - 3 < *x* ⩽ 6
     
       - *x* = 4, 5, 6
-    - 3 < *x *< 6
+    - 3 < *x* < 6
     
       - *x* = 4, 5
 - If only **one end point** is given, there are an infinite number of integers
@@ -90,7 +90,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Integer values are whole numbers *
+> > *Integer values are whole numbers*
 > *-4 ≤ **x** shows that **x** includes -4, so this is the first integer*
 > 
 > **x*** = -4*
@@ -195,7 +195,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Add *$2x$* to both sides*
+> > *Add* $2x$ *to both sides*
 > 
 > $10>6x-7$
 > 

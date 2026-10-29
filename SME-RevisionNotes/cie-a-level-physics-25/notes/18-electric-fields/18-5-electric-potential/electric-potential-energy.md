@@ -26,7 +26,7 @@ $\DeltaW=q\DeltaV$
 
   - Δ*W* = work done (J)
   - *q* = magnitude of charge moving in the field (C)
-  - Δ*V* *= *potential difference between two points (J C<sup>−1</sup>)
+  - Δ*V* *=* potential difference between two points (J C<sup>−1</sup>)
 
 - Work is done when
 
@@ -92,8 +92,8 @@ $\Delta E_{p} = q \Delta V = \frac{Q q}{4 \mathrm{\pi } \epsilon_{0} } ( \frac{1
 
   - *Q* = charge that is producing the electric field (C)
   - *q* = charge that is moving in the electric field (C)
-  - *r*<sub>*1*</sub>* = *initial distance of *q* from the centre of *Q* (m)
-  - *r*<sub>*2*</sub> = final distance of *q* from the centre of *Q *(m)
+  - *r*<sub>*1*</sub>*=* initial distance of *q* from the centre of *Q* (m)
+  - *r*<sub>*2*</sub> = final distance of *q* from the centre of *Q* (m)
 
 #### Electric potential energy for moving charges
 
@@ -122,7 +122,7 @@ $\Delta E_{p} = q \Delta V = \frac{Q q}{4 \mathrm{\pi } \epsilon_{0} } ( \frac{1
 > 
 > - Distance, *r* = 4.7 × 10<sup>−15</sup> m
 > - Elementary charge, *e* = 1.60 × 10<sup>−19</sup> C
-> - Coulomb constant, *k *= 8.99 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>
+> - Coulomb constant, *k* = 8.99 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>
 > 
 > **Step 2: Determine the magnitudes of the charges**
 > 

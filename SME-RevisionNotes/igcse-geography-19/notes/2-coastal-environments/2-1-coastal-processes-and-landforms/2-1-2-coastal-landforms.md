@@ -36,7 +36,7 @@ guided_study: false
   - There is usually a band of resistant rock facing the oncoming waves, with a band of softer rock behind
 - Wave processes of [abrasion](https://www.savemyexams.com/igcse/geography/edexcel/19/revision-notes/2-coastal-environments/2-1-coastal-processes-and-landforms/2-1-1-coastal-processes/), **corrosion** and **hydraulic action** will exploit **faults** in the resistant rock and erode through to the softer rock
 - Further wave action will erode the softer rock quickly, which will leave behind a circular cove with a narrow entrance to the sea
-- *Wave refraction *within the cove spreads out the erosion in all directions, creating the typical horseshoe shape
+- *Wave refraction* within the cove spreads out the erosion in all directions, creating the typical horseshoe shape
 
   - **Lulworth Cove** in Dorset, UK, is a good example of a cove
 

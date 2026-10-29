@@ -48,7 +48,7 @@ guided_study: false
 
   - Incomes and consumer demand fall, leading to reduced output
   - Consumer and business confidence tend to be low
-  - Business profits fall and *unemployment *rises
+  - Business profits fall and *unemployment* rises
 
 ### Slump
 
@@ -56,7 +56,7 @@ guided_study: false
 
   - Unemployment is likely to be high as a result of high levels of business failure
   - Significant declines in household incomes and business profits
-  - Increased government spending on ***welfare benefits*** and *infrastructure *projects to inject demand into the economy **may benefit some businesses**
+  - Increased government spending on ***welfare benefits*** and *infrastructure* projects to inject demand into the economy **may benefit some businesses**
 
 ## The impact of the business cycle on business
 
@@ -75,7 +75,7 @@ guided_study: false
 | **Growth** | - During the growth stage, businesses experience **higher sales and profits** as consumer demand increases<br>- They are likely to invest more in new products, staff, and equipment | - After the 2008 financial crisis, **Apple **saw strong global demand for iPhones and expanded its operations worldwide |
 | **Boom** | - In a boom, businesses often enjoy **very high sales and profits**.<br>- However, they may also face rising costs due to **increased wages**, competition for skilled workers and the impact of inflation on materials | - **Tesla **benefited from a booming economy in the late 2010s, with high consumer demand and strong *investor confidence* helping it grow rapidly |
 | **Recession** | - During a recession, businesses usually face **falling sales and profits** as consumer spending declines<br>- Many businesses reduce costs by **cutting jobs** or delaying investment | - In the 2020 COVID-19 recession, **Primark **lost significant income due to store closures and reduced customer spending |
-| **Slump** | - A slump is the most severe stage of the business cycle, where many businesses **face major losses** or closure due to very low demand<br>- Investment falls, and **unemployment rises sharply,** reducing consumer spending | - In early 2020, many airlines faced a severe slump due to global travel restrictions<br>- Passenger numbers dropped dramatically, leading to cancelled flights, *redundancies*, and government *bailout *requests |
+| **Slump** | - A slump is the most severe stage of the business cycle, where many businesses **face major losses** or closure due to very low demand<br>- Investment falls, and **unemployment rises sharply,** reducing consumer spending | - In early 2020, many airlines faced a severe slump due to global travel restrictions<br>- Passenger numbers dropped dramatically, leading to cancelled flights, *redundancies*, and government *bailout* requests |
 
 > **Exam Hint**
 > Don’t just memorise the four stages of the business cycle – show how each one affects businesses differently. For example, a boom might raise sales but also costs (like wages), while a recession lowers demand but may reduce interest rates.

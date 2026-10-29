@@ -92,5 +92,5 @@ guided_study: true
 > - If you are asked to find how long it takes before a particle returns to the ground, you can simply use suvat with
 > 
 >   - *s = 0*  if the particle started from the ground
->   - *s = -h*  if the particle started a height of* h* m above the ground
+>   - *s = -h*  if the particle started a height of *h* m above the ground
 > - A common mistake is thinking that the speed of the object when it hits the ground is zero. This is incorrect! The object will be travelling with a speed at the instant it hits the ground. It is the impact that causes the speed to go to zero. For an object travelling vertically under gravity, the only time the speed is zero is when it is at its maximum height.

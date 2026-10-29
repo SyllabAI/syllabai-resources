@@ -28,27 +28,27 @@ guided_study: false
 
 ### How do I solve exponential equations in the form a<sup>f(x)</sup> = b?
 
-- If the value of *b *can be written as a power of *a* (*b *= *a*<sup>*k *</sup>)
+- If the value of *b* can be written as a power of *a* (*b* = *a*<sup>*k* </sup>)
 
   - Write $a^{f(x)}=a^{k}$
   - Solve $f(x)=k$
-- If the value of *b *can not be written as a power of *a*
+- If the value of *b* can not be written as a power of *a*
 
-  - Apply logs of base *a *to both sides to get:
+  - Apply logs of base *a* to both sides to get:
   
     - $f(x)=\mathrm{log}_{a}b$
   - Solve for *x*
 
 ### How do I solve exponential equations in the form a<sup>f(x)</sup> = b<sup>g(x)</sup>?
 
-- If the value of *b *can be written as a power of *a* (*b *= *a*<sup>*k *</sup>)
+- If the value of *b* can be written as a power of *a* (*b* = *a*<sup>*k* </sup>)
 
   - Use the index law to rewrite $b^{g(x)}$
   
     - $b^{ \mathrm{g} ( x )} = ( a^{k )^{g} ( x )} = a^{k \mathrm{g} ( x ) }$
   - Write $a^{ \mathrm{f} ( x )} = a^{k \mathrm{g} ( x ) }$
   - Solve $f(x)=kg(x)$
-- If the value of *b *can not be written as a power of *a*
+- If the value of *b* can not be written as a power of *a*
 
   - Apply logs of the same base (any base will work) to both sides to get:
   
@@ -63,7 +63,7 @@ guided_study: false
   - Still take logs of both sides but you will need to use another law of logs
   
     - $\log ( p a^{ \mathrm{f} ( x )} ) = \log p + \log p a^{ \mathrm{f} ( x )}$
-  - log *p *is just a constant so can be solved in the same way as above
+  - log *p* is just a constant so can be solved in the same way as above
 
 ### How do I solve exponential equations with three terms?
 

@@ -47,7 +47,7 @@ guided_study: false
 |---|---|
 | **Wages and salary** | - An agreed hourly rate or fixed annual sum paid for labour<br><br>  - The primary financial incentive determining occupational choice |
 | **Performance-related pay** | - Payment linked to individual or firm performance<br><br>  - Motivates workers and attracts those confident in their productivity |
-| **Fringe benefits** | - Non-salary financial benefits, including childcare support, private healthcare, *pension contributions *and company vehicles<br><br>  - Can be significant in occupational choice, particularly in higher-income economies |
+| **Fringe benefits** | - Non-salary financial benefits, including childcare support, private healthcare, *pension contributions* and company vehicles<br><br>  - Can be significant in occupational choice, particularly in higher-income economies |
 
 ### Non-wage factors
 
@@ -56,12 +56,12 @@ guided_study: false
 | Non-wage factor | Explanation | Example |
 |---|---|---|
 | **Length of training required** | - Long training periods act as a *barrier to entry*, reducing the number of workers who supply labour to that occupation | - It typically takes seven years to qualify as a doctor, restricting labour supply to medicine globally |
-| **Job security** | - Occupations with stable, long-term *contracts *attract more workers than those with short notice periods or high redundancy risk | - *Public sector *employment in many economies offers greater security than private sector alternatives |
+| **Job security** | - Occupations with stable, long-term *contracts* attract more workers than those with short notice periods or high redundancy risk | - *Public sector* employment in many economies offers greater security than private sector alternatives |
 | **Job satisfaction** | - Finding fulfilment in a role is a significant motivator — workers will accept lower wages for work they find meaningful | - Teaching and nursing attract workers despite below-market wages in many countries |
 | **Career prospects** | - Occupations with clear promotion pathways and rising salaries attract more applicants | - Management consultancy and investment banking attract graduates partly through defined career progression |
 | **Status and recognition** | - Some occupations carry higher social recognition, increasing labour supply despite other disadvantages | - Medicine and law attract workers partly through social status in many cultures |
-| **Working conditions** | - Safe, comfortable or *flexible working *environments increase labour supply to an occupation | - Technology firms in **South Korea**, **India** and the **USA** attract workers through flexible hours and campus facilities |
-| **Work/life balance** | - Workers increasingly value time outside work — occupations offering flexibility attract more applicants | - The rise of *remote *and *hybrid *working post-2020 increased labour supply to roles offering location flexibility |
+| **Working conditions** | - Safe, comfortable or *flexible working* environments increase labour supply to an occupation | - Technology firms in **South Korea**, **India** and the **USA** attract workers through flexible hours and campus facilities |
+| **Work/life balance** | - Workers increasingly value time outside work — occupations offering flexibility attract more applicants | - The rise of *remote* and *hybrid* working post-2020 increased labour supply to roles offering location flexibility |
 
 ## Shifts vs movements in labour supply
 
@@ -103,7 +103,7 @@ guided_study: false
 
 - **Immigration policy**: in **Singapore**
 
-  - Approximately 36% of the labour force are *migrants *— immigration policy has been a major determinant of labour supply across industries, particularly construction and healthcare
+  - Approximately 36% of the labour force are *migrants* — immigration policy has been a major determinant of labour supply across industries, particularly construction and healthcare
 - **Welfare reform**
 
   - **Germany's** Hartz IV reforms in the mid-2000s reduced *welfare benefits* and tightened eligibility, shifting the labour supply curve right as the opportunity cost of not working rose — contributing to a significant fall in unemployment

@@ -46,8 +46,8 @@ guided_study: true
 
 - **Key features of the displacement-time graphs:**
 
-  - The *amplitude* of oscillations *A *is the maximum value of *x*
-  - The *time period* of oscillations *T *is the time taken for one full wavelength cycle
+  - The *amplitude* of oscillations *A* is the maximum value of *x*
+  - The *time period* of oscillations *T* is the time taken for one full wavelength cycle
 - **Key features of the velocity-time graphs:**
 
   - The velocity of an oscillator at any time can be determined from the **gradient of the displacement-time graph:** ![Velocity Equation](assets/244f8fb1aa99-6-2-2-velocity-equation.png)
@@ -57,7 +57,7 @@ guided_study: true
 - **Key features of the acceleration-time graph:**
 
   - The acceleration graph is a reflection of the displacement graph in the x-axis
-  - This means when a mass has positive displacement (to the right) the acceleration is in the opposite direction (to the left) and vice versa (from *a *= −*ω*<sup>*2*</sup>*x*)
+  - This means when a mass has positive displacement (to the right) the acceleration is in the opposite direction (to the left) and vice versa (from *a* = −*ω*<sup>*2*</sup>*x*)
   - The acceleration of an oscillator at any time can be determined from the **gradient of the velocity-time graph:** ![Acceleration Equation](assets/db2dedb0696d-6-2-2-acceleration-equation.png)
   - The maximum value of the acceleration is when the oscillator is at its **maximum displacement**
 

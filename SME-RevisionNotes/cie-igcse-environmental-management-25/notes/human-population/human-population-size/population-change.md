@@ -87,7 +87,7 @@ guided_study: false
 - Urbanisation is often **rapid in low- and middle-income countries**
 
   - Rates of urbanisation are lower in **HICs,** as a high percentage of the population already lives in towns and ***cities***
-  - In some HICs, rates of urbanisation may start to decrease as *counter-urbanisation *occurs
+  - In some HICs, rates of urbanisation may start to decrease as *counter-urbanisation* occurs
 - **Fast urban growth** can lead to **overcrowding, housing shortages **and **pressure **on **services**
 - **Planned urbanisation** can **improve living standards **and **economic development**
 - **Government policies – **Some governments actively encourage urban growth by investing in cities and infrastructure

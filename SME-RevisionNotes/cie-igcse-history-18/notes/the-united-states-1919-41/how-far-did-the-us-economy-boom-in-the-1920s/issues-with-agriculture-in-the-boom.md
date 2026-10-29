@@ -13,7 +13,7 @@ guided_study: false
 
 ## Summary
 
-America’s economic boom during the 1920s was concentrated in its major cities and *urban *areas. The* **rural *areas of the countryside did not benefit from the prosperity in the cities, and the gap in wealth between town and country increased during the 1920s.** *****Overproduction*** at the end of the First World War led to a collapse in prices for farmers. The introduction of machinery into* **agriculture *made things even worse for unskilled farm workers, as these machines often took their jobs.
+America’s economic boom during the 1920s was concentrated in its major cities and *urban* areas. The* **rural *areas of the countryside did not benefit from the prosperity in the cities, and the gap in wealth between town and country increased during the 1920s.** *****Overproduction*** at the end of the First World War led to a collapse in prices for farmers. The introduction of machinery into* **agriculture *made things even worse for unskilled farm workers, as these machines often took their jobs.
 
 ## Problems with the farming industry
 

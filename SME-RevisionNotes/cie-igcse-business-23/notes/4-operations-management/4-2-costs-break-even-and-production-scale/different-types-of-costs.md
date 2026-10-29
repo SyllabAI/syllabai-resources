@@ -96,7 +96,7 @@ $\mathrm{Total} \mathrm{variable} \mathrm{cost}(\mathrm{TVC})=\mathrm{Variable} 
 
 **Cost Calculations Using the Above Formulas Where FC is \$200 and VC is \$60 per unit**
 
-| **Output (Q)** | **FC** | **TVC = **`$ 60 space straight x space straight Q` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ |
+| **Output (Q)** | **FC** | **TVC = **`$ 60 straight x straight Q` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ |
 |---|---|---|---|
 | 0 | 200 | - | 200 |
 | 1 | 200 | 60 | 260 |

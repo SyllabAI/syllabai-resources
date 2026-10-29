@@ -62,7 +62,7 @@ Simplify and/or apply limits
   - **A** = Algebra (e.g. polynomials)
   - **T** = Trigonometric functions
   - **E** = Exponentials
-- For example when using integration by parts for `integral x space ln space x space d x`
+- For example when using integration by parts for `integral x ln x d x`
 
   - $x$ is "Algebra"
   - $\mathrm{ln}x$ is a Logarithmic function

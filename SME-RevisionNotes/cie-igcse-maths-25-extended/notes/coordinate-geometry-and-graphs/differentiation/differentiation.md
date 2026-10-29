@@ -19,7 +19,7 @@ guided_study: true
 
 ### What is a gradient function?
 
-- Recall that the **equation of a curve** gives the ***y*****-coordinate** of a point when you substitute in its* x*-coordinate
+- Recall that the **equation of a curve** gives the ***y*****-coordinate** of a point when you substitute in its *x*-coordinate
 
   - For example, $y=x^{2}+3x+5$
   
@@ -30,7 +30,7 @@ guided_study: true
   - A gradient function is written as $\frac{dy}{dx}=...$
   
     - pronounced "d*y* by d*x*"
-    - This refers to the change in *y *over change in *x*
+    - This refers to the change in *y* over change in *x*
   - For example, the gradient function $\frac{dy}{dx}=2x+3$
   
     - Substitute $x=2$ in to get $\frac{dy}{dx}=2\times2+3=7$
@@ -129,21 +129,21 @@ guided_study: true
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 3 x^{2} - 3 \times 2 x - 4 + 0 \\ \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 3 x^{2} - 6 x - 4 \end{gathered}$
 > 
-> > *Substitute *$x=1$* into the gradient function*
+> > *Substitute* $x=1$ *into the gradient function*
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 3 \times 1^{2} - 6 \times 1 - 4 \\ = - 7 \end{gathered}$
 > 
-> > *The gradient when *$x=1$* is -7*
+> > *The gradient when* $x=1$ *is -7*
 > *(The **y**-coordinate of the point is not needed)*
 > 
 > **Final answer:** **The gradient at **$(1,-5)$** is -7**
 > 
 > (b) Find the coordinates of the two points on the curve with a gradient of 5.
 > 
-> > *This is saying that *$\frac{dy}{dx}=5$
-> *(This is not the same as substituting in *$x=5$*)*
+> > *This is saying that* $\frac{dy}{dx}=5$
+> *(This is not the same as substituting in* $x=5$*)*
 > 
-> > *Form an equation using *$\frac{dy}{dx}$* from above*
+> > *Form an equation using* $\frac{dy}{dx}$ *from above*
 > 
 > $3x^{2}-6x-4=5$
 > 
@@ -152,12 +152,12 @@ guided_study: true
 > 
 > $\begin{gathered} 3 x^{2} - 6 x - 9 & = 0 \\ x^{2} - 2 x - 3 & = 0 \\ ( x - 3 ) ( x + 1 ) & = 0 \\ x = 3 \text{or} x = - 1 \end{gathered}$
 > 
-> > *These are the *$x$*-coordinates of the two points on the curve with gradient 5*
-> *Substitute *$x=3$* into *$y=x^{3}-3x^{2}-4x+1$* to find the *$y$*-coordinate of this point*
+> > *These are the* $x$*-coordinates of the two points on the curve with gradient 5*
+> *Substitute* $x=3$ *into* $y=x^{3}-3x^{2}-4x+1$ *to find the* $y$*-coordinate of this point*
 > 
 > $\begin{gathered} y = 3^{3} - 3 \times 3^{2} - 4 \times 3 + 1 \\ = - 11 \end{gathered}$
 > 
-> > *Similarly, substitute *$x=-1$* into the equation for *$y$
+> > *Similarly, substitute* $x=-1$ *into the equation for* $y$
 > 
 > $\begin{gathered} y = ( - 1 )^{3} - 3 \times ( - 1 )^{2} - 4 \times ( - 1 ) + 1 \\ = 1 \end{gathered}$
 > 

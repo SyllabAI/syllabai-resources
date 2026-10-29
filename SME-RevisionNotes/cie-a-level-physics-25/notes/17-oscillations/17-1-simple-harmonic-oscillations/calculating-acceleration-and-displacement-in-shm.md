@@ -26,18 +26,18 @@ $a=-ω^{2}x$
 - Where:
 
   - *a* = acceleration (m s<sup>-2</sup>)
-  - *⍵* = angular frequency (rad s<sup>-1</sup>)
+  - *ω* = angular frequency (rad s<sup>-1</sup>)
   - *x* = displacement (m)
 - The equation demonstrates:
 
   - Acceleration reaches its **maximum** value when the displacement is at a **maximum** i.e. *x* = *x*<sub>*0*</sub> at its *amplitude*
   - The **minus** sign shows that when the object is displaced to the **right**, the direction of the acceleration is to the **left** and vice versa (*a* and *x* are always in opposite directions to each other)
 
-#### The graph representing a = −⍵<sup>2</sup>x
+#### The graph representing a = −ω<sup>2</sup>x
 
 - The graph of acceleration against displacement is a straight line through the origin and a negative gradient (similar to the line y = − x)
 
-#### The graph of a = −⍵<sup>2</sup>x
+#### The graph of a = −ω<sup>2</sup>x
 
 ![Graph of acceleration and displacement, downloadable AS & A Level Physics revision notes](../../../assets/756a1efad421-17-1-graph-of-acceleration-and-displacement.png)
 
@@ -45,7 +45,7 @@ $a=-ω^{2}x$
 
 - Key features of the acceleration-displacement graph:
 
-  - The gradient is equal to − *⍵*<sup>2</sup>
+  - The gradient is equal to − *ω*<sup>2</sup>
   - The maximum and minimum displacement *x* values are the amplitudes −*x*<sub>0</sub> and +*x*<sub>0</sub>
 
 ### Calculating displacement
@@ -54,7 +54,7 @@ $a=-ω^{2}x$
 
   - For an object that begins **oscillating from** the **equilibrium position** (*x* = 0 at *t* = 0):
 
-***x***** = *****x***<sub>**0**</sub>**sin(*****⍵t*****)**
+***x***** = *****x***<sub>**0**</sub>**sin(*****ωt*****)**
 
 - Where:
 
@@ -63,9 +63,9 @@ $a=-ω^{2}x$
   - *t* = time (s)
 
 - This equation can be used to find the **position** of an object in SHM with a particular **angular frequency** and **amplitude** at a specific moment in time
-- The displacement will be at its **maximum** when sin(⍵t) equals 1 or −1, when *x *=* x*<sub>0</sub>
+- The displacement will be at its **maximum** when sin(ωt) equals 1 or −1, when *x* = *x*<sub>0</sub>
 
-#### The graph of x = x<sub>0</sub>sin(⍵t)
+#### The graph of x = x<sub>0</sub>sin(ωt)
 
 ![17-1-displacement-shm-graphs](../../../assets/c09a2b1b9417-17-1-displacement-shm-graphs.png)
 
@@ -84,7 +84,7 @@ $a=-ω^{2}x$
 > 
 > - Since the mass is released at *t* = 0 from its equilibrium position then the displacement is calculated using:
 > 
-> ***x***** = *****x***<sub>**0 **</sub>**sin(*****⍵t*****)**
+> ***x***** = *****x***<sub>**0 **</sub>**sin(*****ωt*****)**
 > 
 > **Step 2: Calculate angular frequency**
 > 
@@ -102,6 +102,6 @@ $a=-ω^{2}x$
 > **Exam Hint**
 > Since displacement is a vector quantity, remember to keep the minus sign in your solutions if they are negative, you could lose a mark if not!
 > 
-> Also, remember that your calculator must be in **radians** mode when using the cosine and sine functions. This is because the angular frequency ⍵ is calculated in rad s<sup>-1</sup>, **not** degrees.
+> Also, remember that your calculator must be in **radians** mode when using the cosine and sine functions. This is because the angular frequency ω is calculated in rad s<sup>-1</sup>, **not** degrees.
 > 
-> You often have to convert between time period *T*, frequency *f* and angular frequency ⍵ for many exam questions – so make sure you revise the equations relating to these.
+> You often have to convert between time period *T*, frequency *f* and angular frequency ω for many exam questions – so make sure you revise the equations relating to these.

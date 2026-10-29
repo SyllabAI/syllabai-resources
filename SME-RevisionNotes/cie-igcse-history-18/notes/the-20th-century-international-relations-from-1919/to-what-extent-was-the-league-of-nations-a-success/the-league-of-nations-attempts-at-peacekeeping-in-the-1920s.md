@@ -272,10 +272,10 @@ Outcome (grey boxes):
 > 
 > **8 marks**
 > 
-> | **Source A: **Adapted from Peter J. Yearwood’s Article *Consistently with honour *taken from the *Journal of Contemporary History, *1986, referring to the Corfu crisis<br><br>*The Italian occupation of Corfu on 31 August 1932 confronted the League of Nations with what was recognised as its first major test. Many people thought, both then and later, that the League failed this test and that this was also a failure for the policy of Great Britain, which had appeared as the strongest champion of the League during the crisis.* |
+> | **Source A: **Adapted from Peter J. Yearwood’s Article *Consistently with honour* taken from the *Journal of Contemporary History,* 1986, referring to the Corfu crisis<br><br>*The Italian occupation of Corfu on 31 August 1932 confronted the League of Nations with what was recognised as its first major test. Many people thought, both then and later, that the League failed this test and that this was also a failure for the policy of Great Britain, which had appeared as the strongest champion of the League during the crisis.* |
 > |---|
 > 
-> | **Source B: **Adapted from E. Wright’s *A Dictionary of World History *(2.ed.), 2006<br><br>*Following the bombardment by Italy in which 16 people were killed, Mussolini issued an ultimatum, demanding a heavy indemnity [compensation]. Greece appealed to the League of Nations, which referred the dispute to the Council of Ambassadors. The Council ordered Greece to pay 50 million lire. Under pressure from Britain and France, Italian troops withdrew. The outcome of the dispute raised serious doubts about the strength and efficiency of the League.* |
+> | **Source B: **Adapted from E. Wright’s *A Dictionary of World History* (2.ed.), 2006<br><br>*Following the bombardment by Italy in which 16 people were killed, Mussolini issued an ultimatum, demanding a heavy indemnity [compensation]. Greece appealed to the League of Nations, which referred the dispute to the Council of Ambassadors. The Council ordered Greece to pay 50 million lire. Under pressure from Britain and France, Italian troops withdrew. The outcome of the dispute raised serious doubts about the strength and efficiency of the League.* |
 > |---|
 > 
 > **Final answer:** **Partial answer:**

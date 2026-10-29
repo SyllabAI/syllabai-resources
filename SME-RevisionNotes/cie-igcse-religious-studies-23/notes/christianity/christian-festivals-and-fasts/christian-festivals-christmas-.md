@@ -113,7 +113,7 @@ guided_study: false
 - **Catholic churches** celebrate **additional feast days** over the Christmas season, including **St Stephen’s Day** on 26th December and the **Feast of the Holy Family**
 - In the **Orthodox Church,** which follows a different calendar, Christmas Day is celebrated later, on **7th January**
 - In Orthodox churches, fasting during ***Advent*** is completed with a **special meal **and **church service** on **Christmas Eve**
-- On Christmas Day in Orthodox churches, the *liturgy *celebrating Christ’s birth is followed by **priests visiting family homes** to bless them with holy water
+- On Christmas Day in Orthodox churches, the *liturgy* celebrating Christ’s birth is followed by **priests visiting family homes** to bless them with holy water
 
 > **Worked Example**
 > **Give two Christmas Day customs for Christians **

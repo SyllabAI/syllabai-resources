@@ -78,7 +78,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Rearrange **L** into the form *$y=mx+c$* so we can identify the gradient*
+> > *Rearrange **L** into the form *$y=mx+c$ *so we can identify the gradient*
 > 
 > $\begin{gathered} y - 2 x + 2 & = 0 \\ y = 2 x - 2 \end{gathered}$
 > 
@@ -88,8 +88,8 @@ guided_study: true
 > 
 > $m=-\frac{1}{2}$
 > 
-> > *Substitute the point *$( 2 , - 3 )$* into the equation *$y=-\frac{1}{2}x+c$* *
-> *Solve for *$c$
+> > *Substitute the point* $( 2 , - 3 )$ *into the equation* $y=-\frac{1}{2}x+c$* *
+> *Solve for* $c$
 > 
 > $\begin{gathered} y = - 1 \frac{1}{2} x + c \\ - 3 & = - 1 \frac{1}{2} ( 2 ) + c \\ - 3 & = - 1 + c \\ c = - 2 \end{gathered}$
 > 
@@ -97,7 +97,7 @@ guided_study: true
 > 
 > $\begin{gathered} y = - 1 \frac{1}{2} x - 2 \end{gathered}$
 > 
-> > *The question asks for the line to be written in the form *$ax+by+c=0$* where *$a$*, *$b$* and *$c$* are integers*
+> > *The question asks for the line to be written in the form* $ax+by+c=0$ *where* $a$*,* $b$ *and* $c$ *are integers*
 > 
 > > *Move all the terms to the left hand side*
 > 
@@ -141,15 +141,15 @@ guided_study: true
 > $\frac{-6-6}{4-8}=\frac{-12}{-4}=3$
 > 
 > > *Find the negative reciprocal of this*
-> *This will be the gradient of the perpendicular bisector, *$m$
+> *This will be the gradient of the perpendicular bisector,* $m$
 > 
 > $m=-\frac{1}{3}$
 > 
-> > *Write the equation of the perpendicular bisector in the form *$y=mx+c$
+> > *Write the equation of the perpendicular bisector in the form* $y=mx+c$
 > 
 > $y=-\frac{1}{3}x+c$
 > 
-> > *Substitute in the midpoint (6, 0) and solve to find *$c$
+> > *Substitute in the midpoint (6, 0) and solve to find* $c$
 > 
 > $\begin{gathered} 0 = - 1 \frac{1}{3} ( 6 ) + c \\ 0 = - 2 + c \\ c = 2 \end{gathered}$
 > 

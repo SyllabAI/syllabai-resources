@@ -28,7 +28,7 @@ guided_study: true
   - E.g. 1 tin costs 40p from shop *A* and 45p from shop *B*
   
     - 1 tin at shop *A* is cheaper than at shop *B*
-    - Shop *A *is therefore the better value for money
+    - Shop *A* is therefore the better value for money
 - For more complicated deals, write down **each line** of working clearly
 
 > **Worked Example**

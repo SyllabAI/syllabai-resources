@@ -19,7 +19,7 @@ guided_study: false
 
 - One of the features of alkenes is their stereoisomerism or geometric isomerism, which can be classed as ***E / Z*** or **cis / trans**
 
-  - *E / Z *isomerism is an example of stereoisomerism where different atoms or groups of atoms are attached to each carbon atom of the C=C bond
+  - *E / Z* isomerism is an example of stereoisomerism where different atoms or groups of atoms are attached to each carbon atom of the C=C bond
   - Cis / trans isomerism is a special case of *E / Z* isomerism where two of the atoms or groups of atoms attached to each carbon atom of the C=C bond are the same
 
 #### Cis / trans isomers

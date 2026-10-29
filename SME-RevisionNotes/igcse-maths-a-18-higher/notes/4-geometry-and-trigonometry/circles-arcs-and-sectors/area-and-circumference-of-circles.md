@@ -80,31 +80,31 @@ guided_study: true
 > 
 > $r=\frac{16}{2}=8\mathrm{cm}$
 > 
-> > *Substitute this into the formula for the area of a circle *$A=πr^{2}$*.*
-> *Leave your answer in terms of *$π$*, (this just means do not multiply by *$π$*  on your calculator) *
+> > *Substitute this into the formula for the area of a circle* $A=πr^{2}$*.*
+> *Leave your answer in terms of* $π$*, (this just means do not multiply by* $π$ *on your calculator)*
 > 
-> `A subscript full space circle end subscript space equals space pi open parentheses 8 close parentheses squared space equals space 64 pi`
+> `A_ full circle end_=π (8)²=64π`
 > 
 > > *Find the area of the semicircle by dividing the full area by 2*
 > 
-> `A subscript semicircle space equals space 1 half open parentheses 64 pi close parentheses space equals space 64 over 2 pi space equals space 32 pi`
+> `A_ semicircle=1 half (64π)=64 / 2π=32π`
 > 
 > **Final answer:** **Area = 32****π**** ****cm**<sup>**2**</sup>
 > 
 > > *The **perimeter **of the semicircle is made up of both the arc of the circle (half of the circumference) and the diameter of the semicircle*
 > 
-> > *Find the full length of the circumference of the circle using the formula  *
+> > *Find the full length of the circumference of the circle using the formula*
 > 
-> $C=2πr$*  (or *$C=πd$*)*
+> $C=2πr$ *(or* $C=πd$*)*
 > 
 > > *Substitute the radius = 8 cm into the formula*
-> *Again, leave your answer in terms of *$π$
+> *Again, leave your answer in terms of* $π$
 > 
-> `C space equals space 2 pi open parentheses 8 close parentheses space equals space 16 pi`
+> `C=2π (8)=16π`
 > 
 > > *Find the length of the arc (the curved part of the perimeter of the semicircle) by dividing the full area by 2*
 > 
-> `Curved space length space equals space 1 half open parentheses 16 pi close parentheses space equals space 16 over 2 pi space equals space 8 pi`
+> `Curved length=1 half (16π)=16 / 2π=8π`
 > 
 > > *Find the full perimeter by adding this to the length of the diameter of the circle*
 > 

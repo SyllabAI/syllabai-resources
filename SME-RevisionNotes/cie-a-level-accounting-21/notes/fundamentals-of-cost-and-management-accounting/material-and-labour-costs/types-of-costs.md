@@ -68,17 +68,17 @@ how to identify and calculate the elements of direct and indirect costs
 > 
 > Direct materials:
 > 
-> *2m × \$4 per m = \$8 per unit *
+> *2m × \$4 per m = \$8 per unit*
 > 
 > Direct labour
 > 
-> *6 hours × \$8 per hour = \$48 per unit *
+> *6 hours × \$8 per hour = \$48 per unit*
 > 
 > Other direct costs (royalties): \$3 per unit
 > 
 > Direct cost = Direct materials + Direct labour + Other direct costs
 > 
-> *8 + 48 + 3 = 59 *
+> *8 + 48 + 3 = 59*
 > 
 > **Final answer:** **\$59 per unit**
 
@@ -123,7 +123,7 @@ how to identify and calculate the elements of direct and indirect costs
 > 
 > **Answer: **
 > 
-> *125 000 × 60% = 75 000 *
+> *125 000 × 60% = 75 000*
 > 
 > Add **\$75 000** to direct costs and this will be the production cost.
 
@@ -171,13 +171,13 @@ how to identify and calculate the elements of direct and indirect costs
 > 
 > - Variable cost per unit is
 > 
-> *(8 000 - 6 400) ÷ (1 000 - 600) = \$4 per unit *
+> *(8 000 - 6 400) ÷ (1 000 - 600) = \$4 per unit*
 > 
 > **STEP 3**
 > 
 > - Fixed cost
 > 
-> *8 000 - (4 × 1 000) = \$4 000 *
+> *8 000 - (4 × 1 000) = \$4 000*
 > 
 > - Or fixed cost
 > 
@@ -240,11 +240,11 @@ Write it as a **formula**
 > 
 > Number of steps required:
 > 
-> *35*$\div$*20 = 1.75 *
+> *35*$\div$*20 = 1.75*
 > 
 > *Round up to 2 supervisors*
 > 
-> *2 × \$2 000 = \$4 000 *
+> *2 × \$2 000 = \$4 000*
 > 
 > **Final answer:** **Total supervisor cost is \$4 000**
 

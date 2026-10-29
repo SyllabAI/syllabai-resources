@@ -76,7 +76,7 @@ guided_study: false
 > **Answer:**
 > 
 > *The volume is the area of the cross section × length (10 cm)*
-> *Find the area by splitting into a 7 × 4 and a (9 - 4) × 2 rectangle (or a 9 × 2 and a (7 - 2) × 4 rectangle) *
+> *Find the area by splitting into a 7 × 4 and a (9 - 4) × 2 rectangle (or a 9 × 2 and a (7 - 2) × 4 rectangle)*
 > 
 > * 7 × 4 + (9 - 4) × 2 = 38 cm**<sup>2</sup>*
 > 
@@ -96,7 +96,7 @@ guided_study: false
 > 
 > > *To find the volume of the frustum, find the volume of the larger cone (30 cm tall, with a radius of 20 cm), and subtract the volume of the smaller cone (15 cm tall, with a radius of 10 cm)*
 > 
-> > *Formula for the volume of a cone: *$\frac{1}{3}πr^{2}h$
+> > *Formula for the volume of a cone:* $\frac{1}{3}πr^{2}h$
 > 
 > > *Calculate the volume of the larger cone*
 > 
@@ -110,6 +110,6 @@ guided_study: false
 > 
 > $V_{L}-V_{S}=4000π-500π=3500π=10995.57429...\mathrm{cm}^{3}$
 > 
-> > *Round to 3 significant figures *
+> > *Round to 3 significant figures*
 > 
 > **Final answer:** **11 000 cm**<sup>**3**</sup>** **

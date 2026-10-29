@@ -124,7 +124,7 @@ guided_study: false
 > 
 > (a)  Find $A+B$.
 > 
-> > *The matrices have the same order (dimensions) *
+> > *The matrices have the same order (dimensions)*
 > *Corresponding elements can be added*
 > 
 > $A + B = ( \begin{gathered} - 4 + 2 & 2 + 6 \\ 7 + 5 & 3 + ( - 9 ) \\ 1 + ( - 2 ) & - 5 + ( - 3 ) \end{gathered} )$

@@ -27,7 +27,7 @@ guided_study: false
   - ***Monopoly *****power**: by controlling the behaviour of dominant firms
 - Unlike taxes and *subsidies*, regulation does not work through the price mechanism
 
-  - It sets **legal standards** backed by *penalties *for non-compliance
+  - It sets **legal standards** backed by *penalties* for non-compliance
 
 ## Types of regulation
 
@@ -55,11 +55,11 @@ guided_study: false
 
 | **India's** Food Safety and Standards Authority | **South Korea's** stringent product safety |
 |---|---|
-| - Sets *mandatory *safety standards for food producers, correcting the information failure that would otherwise lead to consumption of unsafe food | - Regulations on electronics manufacturers have been credited with improving quality standards globally |
+| - Sets *mandatory* safety standards for food producers, correcting the information failure that would otherwise lead to consumption of unsafe food | - Regulations on electronics manufacturers have been credited with improving quality standards globally |
 
 ### Financial regulation
 
-- Controls the behaviour of banks and financial institutions to prevent *systemic risk *and protect consumers
+- Controls the behaviour of banks and financial institutions to prevent *systemic risk* and protect consumers
 
 #### Examples
 
@@ -74,7 +74,7 @@ guided_study: false
 #### Examples
 
 - **China's** State Administration for Market Regulation has imposed significant fines on technology firms including Alibaba for anti-competitive behaviour
-- The **South African Competition Commission** investigates *cartels *and regulates *mergers *to maintain competitive markets across the economy
+- The **South African Competition Commission** investigates *cartels* and regulates *mergers* to maintain competitive markets across the economy
 
 ## How regulation corrects market failure
 
@@ -95,7 +95,7 @@ guided_study: false
 | - **Reduces negative externalities**<br><br>  - moves output closer to the socially optimal level (Qopt) where MSB = MSC, reducing the *deadweight welfare loss* | - **Regulatory capture**<br><br>  - the regulating body may come to act in the interests of the industry it regulates rather than the public interest, turning regulation into a tool that protects incumbent firms from competition |
 | - **Corrects asymmetric information**<br><br>  - mandatory disclosure and minimum quality standards shift effective supply or demand towards the social optimum | - **Enforcement costs**<br><br>  - governments must fund *inspections*, monitoring and legal action; in lower-income economies such as parts of Sub-Saharan Africa, weak institutional capacity severely limits effectiveness |
 | - **Fines generate government revenue**<br><br>  - penalties for non-compliance provide an additional fiscal benefit | - **Compliance costs**<br><br>  - firms must invest in meeting regulatory standards, raising production costs and potentially reducing output and employment |
-| - **Internationally applicable**<br><br>  - can be coordinated across borders for global externalities such as *carbon emissions* (e.g. the **Paris Agreement**) | - **Fails at the margin if penalties are too low**<br><br>  - if *fines *are cheaper than compliance, firms rationally choose to break the rules, as seen with environmental regulations in several emerging economies |
+| - **Internationally applicable**<br><br>  - can be coordinated across borders for global externalities such as *carbon emissions* (e.g. the **Paris Agreement**) | - **Fails at the margin if penalties are too low**<br><br>  - if *fines* are cheaper than compliance, firms rationally choose to break the rules, as seen with environmental regulations in several emerging economies |
 | - **Protects consumers**<br><br>  - health, safety and financial regulations correct information failures that consumers cannot correct themselves | - **May reduce dynamic efficiency**<br><br>  - regulation provides no incentive to *innovate **beyond* the required standard, unlike market-based instruments such as carbon taxes or *pollution permits* |
 
 ## Deregulation

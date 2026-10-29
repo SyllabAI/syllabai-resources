@@ -130,7 +130,7 @@ $h=\frac{1}{2}gt^{2}$ (since initial velocity, u = 0)
 - Clamp the clear tube vertically using the plumb line as a guide
 - Attach the light gate about 20 cm above the bench
 - Clamp the metre ruler vertically next to the tube so that the vertical distance from the top of the tube to the light gate can be accurately measured
-- Record the distance between the light gate and the top of the tube as height,* h*
+- Record the distance between the light gate and the top of the tube as height, *h*
 - Cut a piece of card to approximately 10 cm, measure this length precisely and enter it into the data logger as the distance
 
   - Weight the card slightly at one end (a large paperclip or small pieces of blu-tack can be used)
@@ -149,7 +149,7 @@ $h=\frac{1}{2}gt^{2}$ (since initial velocity, u = 0)
 - The known quantities are
 
   - Displacement *s = h*
-  - Initial velocity = *u *
+  - Initial velocity = *u*
   - Final velocity *= v*
   - Acceleration *a = g*
 - The missing SUVAT value is time, *t*
@@ -345,7 +345,7 @@ This method is an example of the procedure for varying the height the ball-beari
 
   - Time taken, *t* = average *t*
   - Initial velocity, *u* = 0 (the trolley starts from rest)
-  - Final velocity *v* = *v *(recorded by the light-gate)
+  - Final velocity *v* = *v* (recorded by the light-gate)
   - Acceleration *a = g*
 - The missing SUVAT value is displacement, *s*
 
@@ -393,6 +393,6 @@ $v=u+at$
 > **Exam Hint**
 > This experiment can be modified by using the light gate to record time through the gate.
 > 
-> You can then use the time from the light gate to calculate the velocity, *v* of the trolley by calculating with* v* = *d*/*t* where d is the length of the card and the time is the time on the light gate.
+> You can then use the time from the light gate to calculate the velocity, *v* of the trolley by calculating with *v* = *d*/*t* where d is the length of the card and the time is the time on the light gate.
 > 
 > However, most light-gate software should allow you to eliminate this step.

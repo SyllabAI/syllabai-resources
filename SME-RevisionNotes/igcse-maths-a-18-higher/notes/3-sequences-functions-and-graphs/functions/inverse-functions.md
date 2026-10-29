@@ -29,7 +29,7 @@ guided_study: false
 
 ### What notation is used for inverse functions?
 
-- The inverse function of $\mathrm{f} ( x )$ is written as $f^{-1}(x)=\dots$ or  `f ^ - 1 colon x -> from bar horizontal ellipsis`
+- The inverse function of $\mathrm{f} ( x )$ is written as $f^{-1}(x)=\dots$ or  `f ^ - 1 colon x ->from bar …`
 
   - For example, if $f(x)=2x+1$
   - The inverse function is $f^{-1}(x)=\frac{x-1}{2}$  or $\mathrm{f}^{- 1} : x \rightarrow \text{from} \text{bar} \frac{x - 1}{2}$
@@ -54,7 +54,7 @@ guided_study: false
   - **Rearrange **the expression to **make **$y$** the subject **again
   
     - E.g. $x=2y+1$ becomes $x-1=2y$ so $y=\frac{x-1}{2}$
-  - **Replace** $y$** **with $f^{-1}(x)=\dots$(or `f ^ - 1 colon x -> from bar horizontal ellipsis`)
+  - **Replace** $y$** **with $f^{-1}(x)=\dots$(or `f ^ - 1 colon x ->from bar …`)
   
     - E.g. $\mathrm{f}^{- 1} ( x ) = \frac{x - 1}{2}$
     - This is the inverse function
@@ -100,11 +100,11 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Write the function in the form *$y=5-3x$* and then swap the *$x$* and *$y$
+> > *Write the function in the form* $y=5-3x$ *and then swap the* $x$ *and* $y$
 > 
 > $y=5-3x\,x=5-3y$
 > 
-> > *Rearrange **the expression to make *$y$* the subject again*
+> > *Rearrange **the expression to make *$y$ *the subject again*
 > 
 > $\begin{gathered} x = 5 - 3 y \\ x + 3 y & = 5 \\ 3 y & = 5 - x \\ y = \frac{5 - x}{3} \end{gathered}$
 > 
@@ -118,21 +118,21 @@ guided_study: false
 > 
 > > *The domain of the inverse function is the range of the original function*
 > 
-> > *Find the range of *$\mathrm{f} ( x )$* by first finding *$\mathrm{f} ( - 2 )$* and *$\mathrm{f} ( 7 )$
+> > *Find the range of* $\mathrm{f} ( x )$ *by first finding* $\mathrm{f} ( - 2 )$ *and* $\mathrm{f} ( 7 )$
 > 
 > $\begin{gathered} \mathrm{f} ( - 2 ) & = 5 - 3 ( - 2 ) = 5 + 6 = 11 \\ \mathrm{f} ( 7 ) & = 5 - 3 ( 7 ) = 5 - 21 = - 16 \end{gathered}$
 > 
-> > *The graph of *$y=5-3x$* is a straight line with a negative gradient*
+> > *The graph of* $y=5-3x$ *is a straight line with a negative gradient*
 > *Between **x** = -2 and **x** = 7 the graph decreases from a height of 11 to a height of -16*
 > 
-> *The range of *$\mathrm{f} ( x )$* is *$- 16 \le \mathrm{f} ( x ) < 11$
+> *The range of* $\mathrm{f} ( x )$ *is* $- 16 \le \mathrm{f} ( x ) < 11$
 > 
 > *Note that the inequality is "equal to" at x = 7, f(x) = -16*
 > (*this is the opposite order of "equal to" in the domain)*
 > 
-> > *The domain of *$\mathrm{f}^{- 1} ( x )$* takes the same values as range of *$\mathrm{f} ( x )$
-> *Write down the domain of *$\mathrm{f}^{- 1} ( x )$* *
-> *(Remember that domains are always written in terms of *$x$*)*
+> > *The domain of* $\mathrm{f}^{- 1} ( x )$ *takes the same values as range of* $\mathrm{f} ( x )$
+> *Write down the domain of* $\mathrm{f}^{- 1} ( x )$* *
+> *(Remember that domains are always written in terms of* $x$*)*
 > 
 > $-16\leqx<11$
 
@@ -171,18 +171,18 @@ guided_study: false
 > 2 ( x - 3 )^{2} - 18 + 1
 > 2 ( x - 3 )^{2} - 17$
 > 
-> > *Set the function equal to *$y$* and then swap *$x$* and *$y$
+> > *Set the function equal to* $y$ *and then swap* $x$ *and* $y$
 > 
 > $y = 2 ( x - 3 )^{2} - 17
 > x = 2 ( y - 3 )^{2} - 17$
 > 
-> > *Rearrange to make *$y$* the subject*
+> > *Rearrange to make* $y$ *the subject*
 > 
 > $\begin{gathered} ( y - 3 )^{2} & = \frac{x + 17}{2} \\ y - 3 & = \pm \sqrt{ \frac{x + 17}{2} } \\ y = 3 \pm \sqrt{ \frac{x + 17}{2} } \end{gathered}$
 > 
 > > *The domain of the quadratic function is the range of the inverse*
 > 
-> - *Therefore *$y\geq3$
+> - *Therefore* $y\geq3$
 > - *Take the positive root*
 > 
 > > *Write in the required format*
@@ -193,14 +193,14 @@ guided_study: false
 > 
 > **Answer**:
 > 
-> > *Find the range of *$f$
+> > *Find the range of* $f$
 > 
-> *When *$x\geq3$*, *$( x - 3 ) ^{2} \ge 0$* so *$2 ( x - 3 ) ^{2} - 17 \ge - 17$
+> *When* $x\geq3$*,* $( x - 3 ) ^{2} \ge 0$ *so* $2 ( x - 3 ) ^{2} - 17 \ge - 17$
 > 
 > $\mathrm{f} ( x ) \ge - 17$
 > 
 > > *The range of a function is the domain of its inverse*
 > 
-> - *Write the domain in terms of *$x$
+> - *Write the domain in terms of* $x$
 > 
 > $x\geq-17$

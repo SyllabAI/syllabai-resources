@@ -50,7 +50,7 @@ guided_study: false
   - The mosquito can now infect the next person it bites
 
 > **Exam Hint**
-> Students often think, 'mosquitoes cause malaria,' but examiners want the wording that mosquitoes are just the **vectors** that **carry **the *Plasmodium *parasite. This distinction is crucial.
+> Students often think, 'mosquitoes cause malaria,' but examiners want the wording that mosquitoes are just the **vectors** that **carry **the *Plasmodium* parasite. This distinction is crucial.
 
 ## Strategies to control malaria
 

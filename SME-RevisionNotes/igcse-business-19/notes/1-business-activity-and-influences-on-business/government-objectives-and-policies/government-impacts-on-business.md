@@ -88,7 +88,7 @@ guided_study: false
 
   - **Importing** involves bringing goods or services into a country from overseas
   - **Exporting** is where a business sells its products abroad
-- Governments can use *trade barriers *to restrict the level of trade between countries for several reasons
+- Governments can use *trade barriers* to restrict the level of trade between countries for several reasons
 
   1. **Protect new industries **from overseas competition
   

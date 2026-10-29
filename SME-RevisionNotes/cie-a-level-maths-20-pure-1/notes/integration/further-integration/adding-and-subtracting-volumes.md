@@ -34,7 +34,7 @@ guided_study: true
     - Where a, b, c & d are all positive and a < b and c < d
   - The volume of revolution of this rectangle would be
   
-    - `V equals pi integral subscript a superscript b d squared d x minus pi integral subscript a superscript b c squared d x`
+    - `V=π integral_ a superscript b d² d x−π integral_ a superscript b c² d x`
 
 #### How do I know whether to add or subtract volumes of revolution?
 
@@ -77,7 +77,7 @@ guided_study: true
 
 - **STEP 2: **If rotating around the *x*-axis, square *y* for all functions
 
-  - If rotating around the y-axis, rearrange all the *y *functions into the form $x=g(y)$ and square
+  - If rotating around the y-axis, rearrange all the *y* functions into the form $x=g(y)$ and square
   - In either case do this first without worrying about π or the integration and limits
 
 - **STEP 3: **Identify the limits for each volume involved and form the integrals required
@@ -99,7 +99,7 @@ guided_study: true
 > 
 >   - This is possible when the limits for each function are often the same in subtraction questions
 > 
-> `V equals pi integral subscript a superscript b y subscript 1 squared d x minus pi integral subscript a superscript b y subscript 2 squared d x equals pi integral subscript a superscript b stretchy left parenthesis y subscript 1 squared minus y subscript 2 squared stretchy right parenthesis d x`
+> `V=π integral_ a superscript b y_ 1² d x−π integral_ a superscript b y_ 2² d x=π integral_ a superscript b stretchy left parenthesis y_ 1²−y_ 2² stretchy right parenthesis d x`
 > 
 > - This doesn’t really apply to addition questions as if the limits are the same, you would be adding some of the same volume twice
 > - If in any doubt avoid this approach as **accuracy** is far more important

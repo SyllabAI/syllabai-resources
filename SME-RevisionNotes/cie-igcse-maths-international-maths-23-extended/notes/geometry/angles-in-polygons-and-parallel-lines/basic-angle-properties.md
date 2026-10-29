@@ -20,20 +20,20 @@ guided_study: true
 ### How do I label lines segments, angles and shapes?
 
 - The **line segment** *AB* goes from point *A* to point *B*
-- The **angle ***ABC* is formed by the line segments *AB* and *BC*
+- The **angle ***ABC *is formed by the line segments* AB *and* BC*
 
   - The angle is at point *B*
   - The angle is the acute or obtuse angle, not the reflex angle
-- The **triangle ***ABC *is formed by the line segments *AB*, *BC* and *CA*
+- The **triangle ***ABC *is formed by the line segments* AB*, *BC *and* CA*
 
 ![Diagram of triangle ABC with annotations. Angle ACB is highlighted in red, and line segment AB is marked. Labels indicate each part.](../../../assets/fe7d5d0f6286-1786-line-angle-triangle-labels.png)
 
 *Labels for line segments, angles and triangles*
 
-- The **quadrilateral ***ABCD *is formed by the line segments *AB*, *BC*, *CD* and *DA*
+- The **quadrilateral ***ABCD *is formed by the line segments* AB*, *BC*, *CD *and* DA*
 
   - The points are labelled starting at a point and following the sides
-  - *ABDC *is **not **the same shape because it is formed by the line segments *AB*, *BD*, *DC* and *CA*
+  - *ABDC* is **not **the same shape because it is formed by the line segments *AB*, *BD*, *DC* and *CA*
 - The same idea is used to label other **polygons**
 
 ![Irregular quadrilateral labelled clockwise as ABCD and anticlockwise as ADCB, both correct; AB-DC order incorrect.](../../../assets/e11e40ec0976-48329-shape-labels.png)
@@ -69,7 +69,7 @@ guided_study: true
 > 
 > $\begin{gathered} x + y + 98 & = 180 \\ 25 + y + 98 & = 180 \\ 123 + y & = 180 \end{gathered}$
 > 
-> > *Solve to find *$y$
+> > *Solve to find* $y$
 > 
 > $y=180-123\,y=57$
 > 

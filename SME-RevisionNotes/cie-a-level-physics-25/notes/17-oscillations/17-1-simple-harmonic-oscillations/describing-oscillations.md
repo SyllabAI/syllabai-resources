@@ -56,7 +56,7 @@ $T=\frac{2π}{ω}$
 
 - Where:
 
-  - *T *= Time period (s)
+  - *T* = Time period (s)
   - *f* = frequency (Hz)
   - *ω* = angular frequency (rad s<sup>−1</sup>)
 
@@ -81,8 +81,8 @@ $ω=2πf$
 
 - Where:
 
-  - *ω *= angular frequency (rad s<sup>−1</sup>)
-  - *T *= time period (s)
+  - *ω* = angular frequency (rad s<sup>−1</sup>)
+  - *T* = time period (s)
   - *f* = frequency (Hz)
 
 ### Phase difference

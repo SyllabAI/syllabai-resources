@@ -37,7 +37,7 @@ guided_study: false
 - **STEP 1 **
 **Rearrange** the inequality into quadratic form with a **positive squared term *****ax***<sup>**2**</sup>** + *****bx***** + *****c***** > 0** (>, <, ≤ or ≥)
 - **STEP 2 **
-Find the **roots** of the quadratic equation **Solve** *ax*<sup>2</sup> + *bx* + *c *= 0 to get ***x***<sub>**1**</sub>* *and* ****x***<sub>**2 **</sub>where** *****x***<sub>**1**</sub>** ≤ *****x***<sub>**2**</sub>
+Find the **roots** of the quadratic equation **Solve** *ax*<sup>2</sup> + *bx* + *c* = 0 to get ***x***<sub>**1**</sub>* *and* ****x***<sub>**2 **</sub>where** *****x***<sub>**1**</sub>** ≤ *****x***<sub>**2**</sub>
 - **STEP 3 **
 **Sketch** the graph of the quadratic and **label the roots **As Step 1 makes the $x$-squared term positive it will be $\cup$-shaped
 - **STEP 4 **
@@ -59,9 +59,9 @@ Find the **roots** of the quadratic equation **Solve** *ax*<sup>2</sup> + *bx* +
 - The firsts and last of these are **quadratic inequalities**
 - Some questions will require you to use the discriminant to set up and solve a quadratic inequality
 
-  - For example: Find the values of $k$ such that the equation `open parentheses k plus 1 close parentheses x squared minus 4 x plus open parentheses k minus 2 close parentheses equals 0` has no real roots
+  - For example: Find the values of $k$ such that the equation `(k+1) x²−4x+(k−2)=0` has no real roots
   
-    - Using the **discriminant,** and for **no real roots**, `open parentheses negative 4 close parentheses squared minus 4 open parentheses k plus 1 close parentheses open parentheses k minus 2 close parentheses less than 0`
+    - Using the **discriminant,** and for **no real roots**, `(−4)²−4 (k+1)(k−2) less than 0`
     - Using the approach above, this leads to the **quadratic inequality **in $k$**,** $k^{2}-k-6>0$
     - And using the method above, including **sketching a graph**, leads to the solutions $k<-2$ and $k>3$
 

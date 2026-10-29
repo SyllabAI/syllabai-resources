@@ -35,7 +35,7 @@ $λ=\frac{h}{mv}$**≈ nucleon diameter**
 - Where:
 
   - *λ* = de Broglie wavelength (m)
-  - *h *= Planck's constant (J s)
+  - *h* = Planck's constant (J s)
   - *m* = mass (kg)
   - *v* = velocity (m s<sup>–1</sup>)
 - Note that electrons do not experience the **strong nuclear force**

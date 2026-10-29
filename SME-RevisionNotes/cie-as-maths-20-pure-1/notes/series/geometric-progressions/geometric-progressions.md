@@ -25,8 +25,8 @@ guided_study: true
 
 - You need to know the ***n***<sup>**th**</sup>** term formula** for a geometric progression $u_{n}=ar^{n-1}$
 
-  - *a *is the first term
-  - *r *is the common ratio
+  - *a* is the first term
+  - *r* is the common ratio
 
 > **Exam Hint**
 > - The formula is given in the formula booklet

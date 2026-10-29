@@ -104,7 +104,7 @@ Find the **sum of the edges traversed** to find the total weight
 >  
 > *AC + BD = (ADC) + (BD) = 18 + 4 = 22*
 >  
-> *AD + BC = (AD) + (BC) = 8 + 9 = 17  *$\underset{}{\leftarrow}$*   shortest *
+> *AD + BC = (AD) + (BC) = 8 + 9 = 17* $\underset{}{\leftarrow}$ *shortest*
 > 
 > > *The shortest total of paths to be repeated is for AD and BC, so add the edges AD and BC to the graph*
 > * *

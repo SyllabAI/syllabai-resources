@@ -113,7 +113,7 @@ guided_study: false
 > 
 > > *Ignore the cash sales, as they do not affect the receivables ledger accounts.*
 > 
-> > *Enter the balances and totals on the correct sides of the account. *
+> > *Enter the balances and totals on the correct sides of the account.*
 > 
 > > *Transactions which increase the amount owed to the business appear on the debit side.*
 > 

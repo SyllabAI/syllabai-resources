@@ -121,6 +121,6 @@ $\mathrm{CPI}=\frac{\mathrm{Cost} \mathrm{of} \mathrm{basket} \mathrm{in} \mathr
   - The respondents have **no incentive** to fill in the survey carefully and **accurately**
 
 > **Exam Hint**
-> The strongest evaluative point on consequences is the **redistribution effect** - inflation transfers real wealth from *creditors *to *debtors *because the real value of debt falls as prices rise.
+> The strongest evaluative point on consequences is the **redistribution effect** - inflation transfers real wealth from *creditors* to *debtors* because the real value of debt falls as prices rise.
 > 
 > Always consider who gains and who loses rather than treating inflation as uniformly harmful.

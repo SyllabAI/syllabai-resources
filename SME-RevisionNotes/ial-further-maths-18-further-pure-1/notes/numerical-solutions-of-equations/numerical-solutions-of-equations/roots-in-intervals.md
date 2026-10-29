@@ -98,7 +98,7 @@ guided_study: false
 > 
 > (a)  Show that the intervals $[ 0 , 1 ]$ and $[ 1 , 2 ]$ both have a change of sign in $\mathrm{f} ( x )$.
 > 
-> > *Substitute *$x=0$*, *$x=1$* and *$x=2$* into *$\mathrm{f} ( x )$
+> > *Substitute* $x=0$*,* $x=1$ *and* $x=2$ *into* $\mathrm{f} ( x )$
 > 
 > $\begin{gathered} \mathrm{f} ( 0 ) & = 0 - 0^{4} + \frac{1}{2 \times 0 - 1} = - 1 \\ \mathrm{f} ( 1 ) & = 1 - 1^{4} + \frac{1}{2 \times 1 - 1} = 1 \\ \mathrm{f} ( 2 ) & = 2 - 2^{4} + \frac{1}{2 \times 2 - 1} = - \frac{41}{3} \end{gathered}$
 > 
@@ -109,13 +109,13 @@ guided_study: false
 > 
 > (b)  Determine, with a reason, which of the intervals contains the root.
 > 
-> > *An interval contains a root if *$\mathrm{f} ( x )$* has a sign change and is continuous in that interval*
-> *Check to see if *$\mathrm{f} ( x )$* is continuous in *$[ 0 , 1 ]$
+> > *An interval contains a root if* $\mathrm{f} ( x )$ *has a sign change and is continuous in that interval*
+> *Check to see if* $\mathrm{f} ( x )$ *is continuous in* $[ 0 , 1 ]$
 > *You need to look for any asymptotes*
 > 
-> $\frac{1}{2x-1}$* is undefined when *$x=\frac{1}{2}$
+> $\frac{1}{2x-1}$ *is undefined when* $x=\frac{1}{2}$
 > 
-> > *The asymptote  *$x=\frac{1}{2}$* lies in the interval  *$[ 0 , 1 ]$* *
+> > *The asymptote* $x=\frac{1}{2}$ *lies in the interval* $[ 0 , 1 ]$* *
 > *There are no other asymptotes and only one root*
 > 
 > **Final answer:** **The interval **$[ 1 , 2 ]$** contains the root as there is a sign change and **$\mathrm{f} ( x )$** is continuous**

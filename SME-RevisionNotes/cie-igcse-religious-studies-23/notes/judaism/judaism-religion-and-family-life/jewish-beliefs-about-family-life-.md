@@ -32,7 +32,7 @@ guided_study: false
   - This idea is central to the belief that men and women should be treated with **equal respect** and **dignity**
 - In some traditions, **women are permitted to have the same roles as men** and undertake important roles in the synagogue
 
-  - For example, **Liberal Judaism** permits the *ordination *of **female rabbis** and allows women to serve as** leaders in the synagogue**
+  - For example, **Liberal Judaism** permits the *ordination* of **female rabbis** and allows women to serve as** leaders in the synagogue**
   - In some Reform synagogues, **female rabbis lead services**, **deliver sermons** and **perform religious duties**,** **just as their male counterparts do
   
     - This reflects a shift away from traditional gender roles, where men were seen as the sole religious leaders
@@ -218,14 +218,14 @@ The **Nevi’im** says that** G-d hates divorce**
 
 - In Orthodox Judaism, divorce has a strict process
 
-  - A husband must give a *Get *to officially divorce his wife in Orthodox Judaism
+  - A husband must give a *Get* to officially divorce his wife in Orthodox Judaism
   
-    - Without a Get, a woman becomes an *agunah *and cannot remarry within Jewish law
+    - Without a Get, a woman becomes an *agunah* and cannot remarry within Jewish law
   - A **religious court (Beit Din)** is often involved
   - Divorce is discouraged but allowed
 - Remarriage is allowed in Orthodox Judaism after a valid Get
 
-  - However, *Cohanim *may not marry divorced women
+  - However, *Cohanim* may not marry divorced women
 
 #### Reform or Liberal Judaism and divorce
 

@@ -48,7 +48,7 @@ guided_study: false
   - India and Nigeria are both lower-middle income but have very different development profiles
 - Classification can **change over time**
 
-  - Institutional *inertia *means some countries retain a classification that no longer reflects their current situation
+  - Institutional *inertia* means some countries retain a classification that no longer reflects their current situation
 
 ## Classification of economies in terms of their level of national income
 
@@ -56,7 +56,7 @@ guided_study: false
 
 ## Classification of economies in terms of their level of national income
 
-- The **World Bank** classifies economies annually by GNI per capita using the **Atlas method**, which smooths* exchange rate* fluctuations using a three-year average exchange rate adjusted for inflation differentials
+- The **World Bank** classifies economies annually by GNI per capita using the **Atlas method**, which smooths *exchange rate* fluctuations using a three-year average exchange rate adjusted for inflation differentials
 
 ### Classification by income
 
@@ -97,7 +97,7 @@ guided_study: false
 
 - Income classification (World Bank) is based purely on GNI per capita - a single quantitative measure
 - Development classification is broader - it incorporates health, education, *political freedom*, sustainability and inequality
-- A country may be classified as upper-middle income but remain poorly developed if income gains are concentrated among a small *elite *- making the two classifications complementary rather than interchangeable
+- A country may be classified as upper-middle income but remain poorly developed if income gains are concentrated among a small *elite* - making the two classifications complementary rather than interchangeable
 
 > **Exam Hint**
 > In exam questions, do not assume that a country's income group tells you its level of development. It does not - a country can be upper-middle income while having deep inequality, poor health outcomes and weak institutions.

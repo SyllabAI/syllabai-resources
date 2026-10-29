@@ -85,12 +85,12 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Although this question doesn't specifically tell you you need to find the area, it is implied as the costs both use 'square metre' *
+> > *Although this question doesn't specifically tell you you need to find the area, it is implied as the costs both use 'square metre'*
 > 
 > > *The shape of the lounge is a compound shape consisting of two rectangles*
 > *Split the area into these two rectangles and find the missing distances by subtracting the smaller length (2.4 m) from the longer one (6 m)*
 > 
-> *6 - 2.4 = 3.6 *
+> *6 - 2.4 = 3.6*
 > 
 > ![Lounge-Floor-Area, downloadable IGCSE & GCSE Maths revision notes](assets/0852ea037668-28020-problem-solving-with-areas-2.png)
 > 

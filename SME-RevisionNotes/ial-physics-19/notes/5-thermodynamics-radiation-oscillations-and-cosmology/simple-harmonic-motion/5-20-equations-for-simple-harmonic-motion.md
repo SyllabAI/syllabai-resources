@@ -25,15 +25,15 @@ guided_study: false
 
 - The acceleration of an object oscillating in *simple harmonic motion* is:
 
-**a = −⍵**<sup>**2**</sup>**x**
+**a = −ω**<sup>**2**</sup>**x**
 
 - Where:
 
   - *a* = acceleration (m s<sup>-2</sup>)
-  - *⍵* = angular frequency (rad s<sup>-1</sup>)
+  - *ω* = angular frequency (rad s<sup>-1</sup>)
   - *x* = displacement (m)
 
-- This is used to find the acceleration of an object with a particular angular frequency* ⍵* at a specific displacement *x*
+- This is used to find the acceleration of an object with a particular angular frequency *ω* at a specific displacement *x*
 - The equation demonstrates:
 
   - The acceleration reaches its **maximum** value when the displacement is at a **maximum** i.e.. x = A (*amplitude*)
@@ -49,11 +49,11 @@ guided_study: false
 
 - The key features of the graph are:
 
-  - The gradient is equal to −⍵<sup>2</sup>
+  - The gradient is equal to −ω<sup>2</sup>
   - The maximum and minimum displacement *x* values are the amplitudes −A and +A
 - A solution to the SHM acceleration equation is the displacement equation:
 
-***x***** = *****A***** cos (⍵*****t*****)**
+***x***** = *****A***** cos (ω*****t*****)**
 
 - Where:
 
@@ -63,14 +63,14 @@ guided_study: false
 - This occurs when:
 
   - An object is oscillating from its amplitude position (*x* = *A* or *x* = −*A* at *t* = 0)
-  - The displacement will be at its maximum when cos(⍵t) equals 1 or −1, when *x *=* A*
+  - The displacement will be at its maximum when cos(ωt) equals 1 or −1, when *x* = *A*
 - This equation can be used to find the position of an object in SHM with a particular angular frequency and amplitude at a moment in time
 
 - If an object is oscillating from its equilibrium position (*x* = 0<sub> </sub>at *t* = 0) then the displacement equation will be:
 
-***x***** = *****A***** sin (⍵*****t*****)**
+***x***** = *****A***** sin (ω*****t*****)**
 
-- The displacement will be at its maximum when sin(⍵t) equals 1 or −1, when *x *=* A*
+- The displacement will be at its maximum when sin(ωt) equals 1 or −1, when *x* = *A*
 - This is because the sine graph starts at 0, whereas the cosine graph starts at a maximum
 
 ![](../../../assets/fe5f14216071-6-2-1-sine-cos-displacement-graphs.png)
@@ -92,7 +92,7 @@ guided_study: false
 > 
 > Since the mass is released at t = 0 at its maximum displacement, the displacement equation will be with the cosine function:
 > 
-> `x space equals space A cos left parenthesis ⍵ t right parenthesis`
+> `x=A cos left parenthesis ω t right parenthesis`
 > 
 > **Step 2: Calculate angular frequency**
 > 
@@ -116,14 +116,14 @@ guided_study: false
 - The greatest speed of an oscillator is at the equilibrium position ie. when its displacement *x* = 0
 - How the speed *v* changes with the oscillator’s displacement *x* in SHM is defined by:
 
-`v equals plus-or-minus omega square root of open parentheses A squared minus x squared close parentheses end root`
+`v=+-or-−ω √((A²−x²))`
 
 - Where:
 
   - *v* = speed (m s<sup>-1</sup>)
   - *A* = *amplitude* (m)
   - ± = ‘plus or minus’. The value can be negative or positive
-  - *⍵* = angular frequency (rad s<sup>-1</sup>)
+  - *ω* = angular frequency (rad s<sup>-1</sup>)
   - *x* = displacement (m)
 
 - This equation shows that when an oscillator has a greater amplitude *A*, it has to travel a greater distance in the same time and hence has greater speed *v*
@@ -146,7 +146,7 @@ guided_study: false
 > 
 > **Step 2: Oscillator speed with displacement equation**
 > 
-> `v equals plus-or-minus omega square root of open parentheses A squared minus x squared close parentheses end root`
+> `v=+-or-−ω √((A²−x²))`
 > 
 > - Since the speed is being calculated, the ± sign can be removed as direction does not matter in this case
 > 
@@ -154,13 +154,13 @@ guided_study: false
 > 
 > - Equation relating angular frequency and normal frequency:
 > 
-> `⍵ space equals space 2 pi f space equals space 2 pi space cross times space 6.7 space equals space 42.097 horizontal ellipsis`
+> `ω=2π f=2π×6.7=42.097 …`
 > 
 > **Step 4: Substitute in values and calculate**
 > 
-> `v equals open parentheses 2 pi cross times 6 times 7 close parentheses cross times square root of open parentheses 0 times 15 close parentheses squared minus open parentheses 0 times 12 close parentheses squared end root`
+> `v=(2π×6×7)×√((0×15)²−(0×12)²)`
 > 
 > *v* = 3.789 = 3.8 m s<sup>-1</sup> (2 s.f)
 
 > **Exam Hint**
-> Since displacement is a vector quantity, remember to keep the minus sign in your solutions if they are negative, you could lose a mark if not! Also, remember that your calculator must be in **radians** mode when using the cosine and sine functions. This is because the angular frequency ⍵ is calculated in rad s<sup>-1</sup>, **not** degrees. You often have to convert between time period *T*, frequency *f* and angular frequency ⍵ for many exam questions – so make sure you revise the equations relating to these.
+> Since displacement is a vector quantity, remember to keep the minus sign in your solutions if they are negative, you could lose a mark if not! Also, remember that your calculator must be in **radians** mode when using the cosine and sine functions. This is because the angular frequency ω is calculated in rad s<sup>-1</sup>, **not** degrees. You often have to convert between time period *T*, frequency *f* and angular frequency ω for many exam questions – so make sure you revise the equations relating to these.

@@ -70,7 +70,7 @@ guided_study: true
 **Δ*****G***<sup>**θ**</sup>** = Δ*****H***<sub>***reaction***</sub><sup>**θ**</sup>** - *****T*****Δ*****S***<sub>***system***</sub><sup>**θ**</sup>
 
 - The equation can also be rearranged to find values of Δ*H*<sub>*reaction*</sub><sup>ꝋ</sup>, Δ*S*<sub>*system*</sub><sup>ꝋ</sup> or the temperature, *T*
-- For example, if for a given reaction, the values of Δ*G*<sup>ꝋ</sup>*, *Δ*H*<sub>*reaction*</sub><sup>ꝋ</sup> and Δ*S*<sub>*system*</sub><sup>ꝋ</sup> are given, the temperature can be found by rearranging the Gibbs equation as follows:
+- For example, if for a given reaction, the values of Δ*G*<sup>ꝋ</sup>*,* Δ*H*<sub>*reaction*</sub><sup>ꝋ</sup> and Δ*S*<sub>*system*</sub><sup>ꝋ</sup> are given, the temperature can be found by rearranging the Gibbs equation as follows:
 
 ***T***** = **$\frac{\DeltaH_{reaction}^{θ}-\DeltaG^{θ}}{\DeltaS_{system}^{θ}}$
 

@@ -45,7 +45,7 @@ $F=BQv\mathrm{sin}θ$
 
 $F=BQv$
 
-- *F*,* B* and *v* are mutually perpendicular, therefore:
+- *F*,*B* and *v* are mutually perpendicular, therefore:
 
   - if the direction of the particle's motion changes, the magnitude of the force will also change
   - if the particle travels **parallel** to a magnetic field, it will experience **no **magnetic force

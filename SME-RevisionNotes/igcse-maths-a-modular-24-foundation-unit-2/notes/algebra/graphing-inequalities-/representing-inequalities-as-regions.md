@@ -43,7 +43,7 @@ guided_study: false
 - To decide which side of the line is the **wanted side*****:***
 
   - if "*y* ≤ ..." then the wanted region is **below** the line
-  - if "*y *≥ ..." then the wanted region is **above** the line
+  - if "*y* ≥ ..." then the wanted region is **above** the line
   - If you are unsure
   
     - substitute the coordinates from a point on one side of the line into the inequality
@@ -69,10 +69,10 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *First draw the three straight lines: *$3x+2y=12$*, *$y=2x$* and *$x=3$
+> > *First draw the three straight lines:* $3x+2y=12$*,* $y=2x$ *and* $x=3$
 > 
 > > *Use your knowledge of **Straight Line Graphs, *$y=mx+c$
-> *Y**ou may wish to rearrange *$3x+2y=12$* to the form *$y=mx+c$* first*
+> *Y**ou may wish to rearrange *$3x+2y=12$ *to the form* $y=mx+c$ *first*
 > 
 > $\begin{array}{rcl} 2 y & = - 3 x + 12 \\ y = - \frac{3}{2} x + 6 \end{array}$
 > 
@@ -80,17 +80,17 @@ guided_study: false
 > 
 > > *Now we need to shade the **unwanted **regions*
 > 
-> > *For *$3x+2y\geq12$* (or *$y\geq-\frac{3}{2}x+6$*), the unwanted region is below the line*
+> > *For* $3x+2y\geq12$ *(or* $y\geq-\frac{3}{2}x+6$*), the unwanted region is below the line*
 > *We can check this with the point (0, 0)*
 > 
-> $\begin{gathered} " 3 ( 0 ) + 2 ( 0 ) & \text{greater} \text{or} \text{equal} \text{than} 12 " \end{gathered}$* is false therefore (0, 0) does lie in the unwanted region for *$\begin{gathered} 3 x + 2 y & \text{greater} \text{or} \text{equal} \text{than} 12 \end{gathered}$
+> $\begin{gathered} " 3 ( 0 ) + 2 ( 0 ) & \text{greater} \text{or} \text{equal} \text{than} 12 " \end{gathered}$ *is false therefore (0, 0) does lie in the unwanted region for* $\begin{gathered} 3 x + 2 y & \text{greater} \text{or} \text{equal} \text{than} 12 \end{gathered}$
 > 
-> > *For *$y\leq2x$*, the unwanted region is above the line*
+> > *For* $y\leq2x$*, the unwanted region is above the line*
 > *Check with another point, for example (1, 0)*
 > 
-> $\begin{gathered} " 0 & < 2 ( 1 ) " \end{gathered}$* is true, so (1, 0) lies in the wanted (i.e. unshaded) region for *$\begin{gathered} y \text{less} \text{or} \text{equal} \text{than} 2 x \end{gathered}$
+> $\begin{gathered} " 0 & < 2 ( 1 ) " \end{gathered}$ *is true, so (1, 0) lies in the wanted (i.e. unshaded) region for* $\begin{gathered} y \text{less} \text{or} \text{equal} \text{than} 2 x \end{gathered}$
 > 
-> > *For *$x\leq3$*, shade the unwanted region to the right of *$x=3$
+> > *For* $x\leq3$*, shade the unwanted region to the right of* $x=3$
 > *If unsure, check with a point*
 > 
 > > *Finally, don't forget to label the region **R*

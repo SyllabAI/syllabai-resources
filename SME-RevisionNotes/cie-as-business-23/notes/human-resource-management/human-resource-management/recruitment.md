@@ -97,7 +97,7 @@ guided_study: false
 
 ## Recruitment methods
 
-- Recruiting the right employees is crucial for any business aiming to achieve its *objectives *effectively
+- Recruiting the right employees is crucial for any business aiming to achieve its *objectives* effectively
 - Recruitment methods include traditional newspaper advertisements to modern online platforms, as well as specialist recruitment agencies
 
 #### 1. Job advertisements

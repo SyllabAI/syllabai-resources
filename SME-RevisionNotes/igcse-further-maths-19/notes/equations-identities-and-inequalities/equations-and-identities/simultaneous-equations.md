@@ -25,11 +25,11 @@ guided_study: false
   
     - for example, 3*x* + 2*y* = 11 and 2*x* - *y* = 5
     - the solutions are *x* = 3 and *y* = 1
-- If they just have* x* and *y* in them (no *x*<sup>2</sup> or *y*<sup>2</sup> or *xy* etc) then they are **linear** simultaneous equations
+- If they just have *x* and *y* in them (no *x*<sup>2</sup> or *y*<sup>2</sup> or *xy* etc) then they are **linear** simultaneous equations
 
 ### How do I solve linear simultaneous equations by elimination?
 
-- "Elimination" completely removes one of the variables, *x *or *y*
+- "Elimination" completely removes one of the variables, *x* or *y*
 - To eliminate the *x*'s from 3*x* + 2*y* = 11 and 2*x* - *y* = 5
 
   - Multiply every term in the first equation by 2
@@ -70,10 +70,10 @@ guided_study: false
 
 - **Plot** both equations on the same set of axes
 
-  - to do this, you can use a table of values or rearrange into *y* = *mx* + *c *if that helps
+  - to do this, you can use a table of values or rearrange into *y* = *mx* + *c* if that helps
 - Find where the lines **intersect** (cross over)
 
-  - The *x* and *y  ***solutions** to the simultaneous equations are the *x- *and *y-***coordinates** of the point of **intersection**
+  - The *x* and *y  ***solutions** to the simultaneous equations are the *x- *and* y-***coordinates** of the point of **intersection**
 - e.g. to solve 2*x *- *y* = 3 and 3*x* + *y* = 7 simultaneously, first plot them both (see graph)
 
   - find the point of intersection, (2, 1)
@@ -99,12 +99,12 @@ guided_study: false
 > 
 > > *Number the equations.*
 > 
-> > $\begin{gathered} 5 x + 2 y & = 11 \\ 4 x - 3 y & = 18 \end{gathered}$$\begin{gathered} ( 1 ) \\ ( 2 ) \end{gathered}$* *
+> > $\begin{gathered} 5 x + 2 y & = 11 \\ 4 x - 3 y & = 18 \end{gathered}\begin{gathered} ( 1 ) \\ ( 2 ) \end{gathered}$* *
 > 
 > > *Make the **y**  terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 2.*
 > *This will give two 6**y  **terms with different signs. The question could also be done by making the **x  **terms equal by multiplying all parts of equation (1) by 4 and all parts of equation (2) by 5, and subtracting the equations.*
 > 
-> $\begin{gathered} 15 x + 6 y & = 33 \\ 8 x - 6 y & = 36 \end{gathered}$$\begin{gathered} ( 3 ) \\ ( 4 ) \end{gathered}$
+> $\begin{gathered} 15 x + 6 y & = 33 \\ 8 x - 6 y & = 36 \end{gathered}\begin{gathered} ( 3 ) \\ ( 4 ) \end{gathered}$
 > 
 > > *The 6**y**  terms have different signs, so they can be eliminated by adding equation (4) to equation (3). *
 > 
@@ -137,8 +137,8 @@ guided_study: false
 
 #### What are quadratic simultaneous equations?
 
-- When there are two unknowns (say *x* and *y *) in a problem, we need two equations to be able to find them both: these are called** simultaneous equations**
-- If there is an *x*<sup>2</sup> or *y*<sup>2</sup> or *xy  *in one of the equations then they are **quadratic** (or **non-linear**) simultaneous equations
+- When there are two unknowns (say *x* and *y*) in a problem, we need two equations to be able to find them both: these are called** simultaneous equations**
+- If there is an *x*<sup>2</sup> or *y*<sup>2</sup> or *xy* in one of the equations then they are **quadratic** (or **non-linear**) simultaneous equations
 
 #### How do I solve quadratic simultaneous equations?
 
@@ -149,13 +149,13 @@ guided_study: false
     - Do not try to substitute the quadratic equation into the linear equation
 - For example solve *x*<sup>2</sup> + *y*<sup>2</sup> = 25 and *y* - 2*x* = 5
 
-  - **Rearrange** the **linear** equation into *y *= 2*x* + 5
+  - **Rearrange** the **linear** equation into *y* = 2*x* + 5
   - **Substitute** this into the quadratic equation, replacing all *y*'s with (2*x* + 5) in **brackets**
   
     - *x*<sup>2</sup> + (2*x* + 5)<sup>2</sup> = 25
   - Expand and **solve** this **quadratic** equation (*x* = 0 and *x* = -4)
   - Substitute **each** value of *x* into the **linear** equation, *y* = 2*x* + 5, to get their value of *y*
-  - Present your solutions in a way that makes it obvious which* x * belongs to which *y*
+  - Present your solutions in a way that makes it obvious which *x* belongs to which *y*
   
     - *x* = 0, *y* = 5 or *x* = -4, *y* = -3
 - **Check** that your final solutions satisfy both equations
@@ -164,10 +164,10 @@ guided_study: false
 
 - **Plot** both equations on the same set of axes
 
-  - to do this, you can use a table of values (or, for straight lines, rearrange into *y* = *mx* + *c  *if it helps)
+  - to do this, you can use a table of values (or, for straight lines, rearrange into *y* = *mx* + *c* if it helps)
 - Find where the lines **intersect** (cross over)
 
-  - The *x * and *y  ***solutions** to the simultaneous equations are the *x- *and *y-***coordinates** of the point of **intersection**
+  - The *x* and *y  ***solutions** to the simultaneous equations are the *x- *and* y-***coordinates** of the point of **intersection**
 - e.g. to solve y = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 simultaneously, first plot them both (see graph)
 
   - find the points of intersection, (-1, -1) and (0, 1)
@@ -186,7 +186,7 @@ guided_study: false
 > - Don't make the common mistake of thinking each squared term in *x*<sup>2</sup> + *y*<sup>2</sup> = 25 can be square-rooted to give *x* + *y* = 5
 > 
 >   - They can't, the most you can do is $\sqrt{x^{2}+y^{2}}=\pm5$
->   - But you shouldn't be trying to make* x* or *y * the subject of this anyway!)
+>   - But you shouldn't be trying to make *x* or *y* the subject of this anyway!)
 
 > **Worked Example**
 > Solve the equations
@@ -202,8 +202,8 @@ guided_study: false
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 > 
-> > *Equation (2) is equal to *$x$* so this can be eliminated by substituting it into the *$x$* part for equation (1).*
-> *Substitute *$x=2y+6$* into equation (1).*
+> > *Equation (2) is equal to* $x$ *so this can be eliminated by substituting it into the* $x$ *part for equation (1).*
+> *Substitute* $x=2y+6$ *into equation (1).*
 > 
 > $( 2 y + 6 )^{2} + y^{2} = 36$
 > 
@@ -220,17 +220,17 @@ guided_study: false
 > 
 > $\begin{gathered} 5 y^{2 } + 24 y + 36 - 36 & = 0 \\ 5 y^{2} + 24 y & = 0 \end{gathered}$
 > 
-> > *Both terms contain a power of *$y$
-> *So this can be factorised by taking out a common factor of *$\begin{array}{rcl} y \end{array}$*.*
+> > *Both terms contain a power of* $y$
+> *So this can be factorised by taking out a common factor of* $\begin{array}{rcl} y \end{array}$*.*
 > 
 > $\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 > 
-> > *Solve to find the values of *$y$*.*
+> > *Solve to find the values of* $y$*.*
 > *Let each factor be equal to 0 and solve.*
 > 
 > $\begin{gathered} y_{1} & = 0 \\ 5 y_{2} + 24 & = 0 \Leftrightarrow y_{2} = - \frac{24}{5} = - 4.8 \end{gathered}$
 > 
-> *Substitute the values of *$y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
+> *Substitute the values of* $y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
 >               $x_{1} = 2 ( 0 ) + 6 = 6 x_{2} = 2 ( - \frac{24}{5} ) + 6 = - 9.6 + 6$
 > 
 > **                                                                                                             **$x_{1}=6,y_{1}=0$

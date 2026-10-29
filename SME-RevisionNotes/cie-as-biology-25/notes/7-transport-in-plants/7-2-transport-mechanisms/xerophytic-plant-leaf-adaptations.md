@@ -17,7 +17,7 @@ guided_study: true
 
 ## Xerophytic plant leaf adaptations
 
-- Xerophytes (from the Greek *xero *for ‘dry’) are plants that are **adapted to dry and arid conditions**
+- Xerophytes (from the Greek *xero* for ‘dry’) are plants that are **adapted to dry and arid conditions**
 - Xerophytes have physiological and structural (xeromorphic) adaptations to maximise **water conservation**
 
 | **Xerophytic Adaptations of Leaves** | **Effect of Adaptation** | **Example** |

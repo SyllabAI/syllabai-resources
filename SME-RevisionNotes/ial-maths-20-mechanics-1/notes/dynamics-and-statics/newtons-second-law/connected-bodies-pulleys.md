@@ -54,7 +54,7 @@ guided_study: true
 > 
 > ![Diagram showing two blocks, 25 kg on a table and 60 kg hanging, connected by a pulley. Arrows indicate acceleration and tension forces in the system.](assets/0e20bedf8a55-28381-screenshot-2025-01-31-163610.png)
 > 
-> Find the tension, *T *N , in the string and the acceleration, a m s<sup>-2</sup> ,of the system.
+> Find the tension, *T* N , in the string and the acceleration, a m s<sup>-2</sup> ,of the system.
 > 
 > **Answer:**
 > 

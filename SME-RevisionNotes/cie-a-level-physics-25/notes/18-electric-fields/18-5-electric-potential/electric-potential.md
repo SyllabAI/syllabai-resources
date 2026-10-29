@@ -150,7 +150,7 @@ $V=\frac{Q_{1}}{4πε_{0}r_{1}}+\frac{Q_{2}}{4πε_{0}r_{2}}$
 > **Step 1: Write down the known quantities**
 > 
 > - Charge stored in the dome, *Q* = 4.0 × 10<sup>−6</sup> C
-> - Distance,* r* = radius of the dome + distance from the dome = 15 + 30 = 45 cm = 0.45 m
+> - Distance,*r* = radius of the dome + distance from the dome = 15 + 30 = 45 cm = 0.45 m
 > 
 >   - **Note**: we are treating the Van de Graaff as a point charge, so we take the distance from the centre of the dome
 > 

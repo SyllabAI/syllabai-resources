@@ -53,8 +53,8 @@ $f=\frac{1}{T}$
 
 - Where:
 
-  - *f *= frequency, measured in **hertz** (Hz)
-  - *T *= time period, measured in **seconds** (s)
+  - *f* = frequency, measured in **hertz** (Hz)
+  - *T* = time period, measured in **seconds** (s)
 
 > **Worked Example**
 > Visible light has a frequency of about 6 × 10<sup>14</sup> Hz.
@@ -65,7 +65,7 @@ $f=\frac{1}{T}$
 > 
 > **Step 1: List the known values**
 > 
-> - Frequency, *f *= 6 × 10<sup>14</sup> Hz
+> - Frequency, *f* = 6 × 10<sup>14</sup> Hz
 > 
 > **Step 2: State the relationship between frequency and time period **
 > 

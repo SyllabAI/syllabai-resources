@@ -80,7 +80,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Substitute **N** = 2*<sup>*3 *</sup>*× 3*<sup>*2 *</sup>*× 5*<sup>*7*</sup>* into the formula **AN** = **B*
+> > *Substitute **N** = 2*<sup>*3* </sup>*× 3*<sup>*2* </sup>*× 5*<sup>*7*</sup>* into the formula **AN** = **B*
 > 
 > **A***(2**<sup>3 </sup>**× 3**<sup>2 </sup>**× 5**<sup>7</sup>** ) = ***B**
 > 

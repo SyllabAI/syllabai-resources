@@ -98,8 +98,8 @@ $R=R_{1}+R_{2}$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Current, *I = *2 A
-> - Resistance, *R = *4 Ω
+> - Current, *I =* 2 A
+> - Resistance, *R =* 4 Ω
 > 
 > **Step 2: State the equation linking potential difference, resistance and current**
 > 
@@ -109,6 +109,6 @@ $R=R_{1}+R_{2}$
 > 
 > **Step 3: Substitute the known values into the equation and calculate the potential difference**
 > 
-> *V = *2 × 4 = 8 V
+> *V =* 2 × 4 = 8 V
 > 
 > - Therefore, the voltmeter reads **8 V** across the fixed resistor

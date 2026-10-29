@@ -41,13 +41,13 @@ $R=\frac{V}{I}\RightarrowV=IR\RightarrowI=\frac{V}{R}$
   - * *$I$* *= current, measured in A
 - The expression for potential difference can be substituted into the power equation to give:
 
-`P space equals space I V space equals space I open parentheses I R close parentheses space`
+`P=I V=I (I R) space`
 
 $P=I^{2}R$
 
 - Or the expression for current can be substituted into the power equation to give:
 
-`P space equals space I V space equals space open parentheses V over R close parentheses V`
+`P=I V=(V / R) V`
 
 $P=\frac{V^{2}}{R}$
 

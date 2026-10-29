@@ -107,7 +107,7 @@ guided_study: false
 
 - Half equations and ionic equations are specific types of equations for showing some of the fine details going on in chemical reactions
 - **Half equations** are used to show what happens to the electrons in reactions where atoms, molecules or ions are gaining or losing electrons
-- They are called half equations, because they represent only *half *of what is happening in a reaction involving electron transfer
+- They are called half equations, because they represent only *half* of what is happening in a reaction involving electron transfer
 
   - One species gains electrons
   - Another species loses electrons

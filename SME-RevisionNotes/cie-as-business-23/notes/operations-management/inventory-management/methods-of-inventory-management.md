@@ -79,8 +79,8 @@ guided_study: false
 | **Make or buy (produce in-house or outsource)** | - Decide whether to produce in-house or buy from specialists |
 | **Choosing suppliers** | - Single, trusted supplier or multiple backup options<br>- Local or global sources |
 | **Purchasing approach** | - *Bulk buying* for discounts or frequent, small orders for flexibility |
-| **Information sharing and use of technology** | - Real-time data, bar codes, *RFID* and *cloud *systems keep production partners fully informed |
-| **Logistics structure** | - How many and where warehouses are needed<br>- Transport options — use an external *haulier *or keep control of deliveries |
+| **Information sharing and use of technology** | - Real-time data, bar codes, *RFID* and *cloud* systems keep production partners fully informed |
+| **Logistics structure** | - How many and where warehouses are needed<br>- Transport options — use an external *haulier* or keep control of deliveries |
 
 ### Why does an effective supply chain matter?
 

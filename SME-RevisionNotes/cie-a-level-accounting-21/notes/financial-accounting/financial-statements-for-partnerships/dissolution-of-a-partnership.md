@@ -97,9 +97,9 @@ Make any entries for **assets **taken by partners
 > 
 > - Split the amount using the profit-sharing ratio
 > 
-> *Iona: *`5 over 8 cross times $ 24 space 000 equals $ 15 space 000`
+> *Iona:* `5 / 8×$ 24 000=$ 15 000`
 > 
-> *Jayden: *`3 over 8 cross times $ 24 space 000 equals $ 9 space 000`
+> *Jayden:* `3 / 8×$ 24 000=$ 9 000`
 > 
 > |   | \$ |   | \$ |
 > |---|---|---|---|

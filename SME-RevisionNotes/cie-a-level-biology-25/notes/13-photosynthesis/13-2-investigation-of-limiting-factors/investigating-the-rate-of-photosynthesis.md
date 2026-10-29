@@ -59,7 +59,7 @@ guided_study: true
 
 ## Investigating the rate of photosynthesis: aquatic plants
 
-- Investigations to determine the effects of [light intensity, carbon dioxide concentration and temperature](https://www.savemyexams.com/a-level/biology/cie/25/revision-notes/13-photosynthesis/13-2-investigation-of-limiting-factors/limiting-factors-of-photosynthesis/?_ai=internal-linking) on the **rate of photosynthesis** can be carried out using **aquatic plants**, such as *Elodea* or *Cabomba *(types of **pondweed**)
+- Investigations to determine the effects of [light intensity, carbon dioxide concentration and temperature](https://www.savemyexams.com/a-level/biology/cie/25/revision-notes/13-photosynthesis/13-2-investigation-of-limiting-factors/limiting-factors-of-photosynthesis/?_ai=internal-linking) on the **rate of photosynthesis** can be carried out using **aquatic plants**, such as *Elodea* or *Cabomba* (types of **pondweed**)
 - The effect of these limiting factors on the rate of photosynthesis can be investigated in the following ways:
 
   - **Light intensity**—change the distance (*d*) of a light source from the plant (light intensity is proportional to 1/*d*<sup>2</sup>)
@@ -102,4 +102,4 @@ guided_study: true
 > - Temperature - changing the temperature of the water bath the test tube sits in
 > - Carbon dioxide - the concentration of NaHCO<sub>3</sub> dissolved in the water the pondweed is in
 > 
-> Also, remember that the variables *not *being tested (the control variables) must be kept constant.
+> Also, remember that the variables *not* being tested (the control variables) must be kept constant.

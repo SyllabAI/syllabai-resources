@@ -36,7 +36,7 @@ guided_study: false
 
 ![Formula for the gradient of a tangent](../../../assets/b385f5f84036-3-2-5-tangent-radius-illustr-3.png)
 
-- **STEP 3** The **equation** of the **tangent** is the equation of the line with that **gradient** that goes through point ***P (x***<sub>***2***</sub>***, y***<sub>***2***</sub>***) ***Write down the equation using `y minus y subscript 2 equals m subscript t open parentheses x minus x subscript 2 close parentheses`where $m_{t}$is the gradient
+- **STEP 3** The **equation** of the **tangent** is the equation of the line with that **gradient** that goes through point ***P (x***<sub>***2***</sub>***, y***<sub>***2***</sub>***) ***Write down the equation using `y−y_ 2=m_ t (x−x_ 2)`where $m_{t}$is the gradient
 
 > **Exam Hint**
 > - If you understand the formula in Step 2 above

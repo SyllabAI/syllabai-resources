@@ -21,7 +21,7 @@ guided_study: true
 
 - When there are **two unknowns** (***x***** and *****y***), we need **two equations** to find them both
 
-  - For example, 3*x *+ 2*y* = 11 and 2*x* - *y *= 5
+  - For example, 3*x *+ 2*y* = 11 and 2*x* - *y* = 5
   
     - The values that work are *x* = 3 and *y* = 1
 - These are called **linear** **simultaneous equations**
@@ -30,8 +30,8 @@ guided_study: true
 
 ### How do I solve linear simultaneous equations by elimination?
 
-- **Elimination** removes one of the variables, *x *or *y*
-- To eliminate the *x*'s from 3*x* + 2*y* = 11 and 2*x* - *y *= 5, make the number in front of the *x* (the **coefficient**) in both equations the same (the sign may be different)
+- **Elimination** removes one of the variables, *x* or *y*
+- To eliminate the *x*'s from 3*x* + 2*y* = 11 and 2*x* - *y* = 5, make the number in front of the *x* (the **coefficient**) in both equations the same (the sign may be different)
 
   - Multiply** every term** in the **first** equation **by 2**
   
@@ -48,13 +48,13 @@ guided_study: true
 - The *y* terms have become 4*y *- (-3*y*) = 7*y *(be careful with **negatives**)
 
   - **Solve** the resulting equation to find *y*
-  - *y *= 1
-- Then **substitute** *y * = 1 into one of the **original **equations to find* x*
+  - *y* = 1
+- Then **substitute** *y* = 1 into one of the **original **equations to find *x*
 
   - 3*x* + 2 = 11, so 3*x *= 9, giving *x* = 3
-- Write out **both** **solutions** together, *x *= 3 and *y *= 1
+- Write out **both** **solutions** together, *x* = 3 and *y* = 1
 - **Alternatively**, you could have eliminated the *y*'s from 3*x *+ 2*y *= 11 and 
-2*x *- *y *= 5 by making the **coefficient** of *y* in both equations the same
+2*x *- *y* = 5 by making the **coefficient** of *y* in both equations the same
 
   - Multiply every term in the second equation by 2
   - **Adding** this to the first equation **eliminates *****y ***(and so on)
@@ -72,7 +72,7 @@ guided_study: true
     - You can still use elimination if you prefer
 - To solve 3*x* + 2*y *= 11 and 2*x* - *y* = 5 by substitution
 
-  - **Rearrange** one of the equations into ***y***** =** ... (or *x *= ...)
+  - **Rearrange** one of the equations into ***y***** =** ... (or *x* = ...)
   
     - For example, the second equation becomes *y* = 2*x* - 5
   - **Substitute **this into the first equation
@@ -84,7 +84,7 @@ guided_study: true
     - *x* = 3
   - Then **substitute** *x* = 3 into *y* = 2*x* - 5 to find *y*
   
-    - *y *= 1
+    - *y* = 1
 
 ### How do I solve linear simultaneous equations graphically?
 
@@ -92,15 +92,15 @@ guided_study: true
 
   - To do this, you can use a **table of values**
   
-    - or rearrange into *y* = *mx* + *c  *if that helps
+    - or rearrange into *y* = *mx* + *c* if that helps
 - Find where the lines **intersect** (cross over)
 
-  - The *x *and *y ***solutions** to the simultaneous equations are the *x *and *y ***coordinates** of the point of **intersection**
+  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and* y ***coordinates** of the point of **intersection**
 - For example, to solve 2*x *- *y* = 3 and 3*x* + *y* = 7 simultaneously
 
   - First **plot** them both on the **same axes** (see graph)
   - Find the **point of intersection**, (2, 1)
-  - The solution is *x* = 2 and *y *= 1
+  - The solution is *x* = 2 and *y* = 1
 
 ![The intersection of 2x-y=3 and 3x+y=7 is (2,1)](../../../assets/c2ab261d0314-56819-solving-equations-graphically-notes-diagra.png)
 
@@ -163,9 +163,9 @@ guided_study: true
 
   - 3 apples and 2 bananas cost £1.80, while 5 apples and 1 banana cost £2.30
   
-    - 3*x* + 2*y* = 180 and 5*x* + *y *= 230
-    *x *is the **price** of an apple, in **pence**
-    *y *is the **price** of a banana, in **pence**
+    - 3*x* + 2*y* = 180 and 5*x* + *y* = 230
+    *x* is the **price** of an apple, in **pence**
+    *y* is the **price** of a banana, in **pence**
     - This question could also be done in pounds, £
 - **Solve **the equations** simultaneously**
 - Give answers **in context** (relate them to the story, with units)
@@ -176,12 +176,12 @@ guided_study: true
 
   - Two numbers have a **sum** of 19 and a **difference **of 5, what is their **product**?
   
-    - *x* + *y* = 19 and *x *- *y *= 5
-    - Solve simultaneously to get *x* = 12, *y *= 7
+    - *x* + *y* = 19 and *x* - *y* = 5
+    - Solve simultaneously to get *x* = 12, *y* = 7
     - The product is *xy* = 12 × 7 = 84
 
 > **Exam Hint**
-> Always check that you've answered the question! Sometimes finding *x *and *y* isn't the end.
+> Always check that you've answered the question! Sometimes finding *x* and *y* isn't the end.
 > 
 > E.g. you may have to state a conclusion related to the context of the problem.
 
@@ -194,7 +194,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The two variables are the price of bagels, *$b$*, and the price of sausage rolls, *$s$
+> > *The two variables are the price of bagels,* $b$*, and the price of sausage rolls,* $s$
 > 
 > > *Write an equation for the first customer's purchases, and label it equation 1*
 > 
@@ -204,21 +204,21 @@ guided_study: true
 > 
 > $\textcircled{2} 9 b + 10 s = 12.3$
 > 
-> > *We will choose to eliminate the *$b$* **terms*
-> *Make the *$b$* terms equal by multiplying all parts of equation 1 by 3 and all parts of equation 2 by 2*
+> > *We will choose to eliminate the* $b$* **terms*
+> *Make the* $b$ *terms equal by multiplying all parts of equation 1 by 3 and all parts of equation 2 by 2*
 > *Label these as equations 3 and 4*
 > 
 > $\begin{gathered} \textcircled{1} \times 3 18 b + 36 s & = 27 \textcircled{3} \\ \textcircled{2} \times 2 18 b + 20 s & = 24.6 \textcircled{4} \end{gathered}$
 > 
-> > *To eliminate *$b$*, subtract equation 4 from equation 3*
+> > *To eliminate* $b$*, subtract equation 4 from equation 3*
 > 
 > $\textcircled{3} - \textcircled{4} 16 s = 2.4$
 > 
-> > *Solve for *$s$
+> > *Solve for* $s$
 > 
 > $s=\frac{2.4}{16}=0.15$
 > 
-> > *Substitute this into either equation to find *$b$*, we will use equation 1*
+> > *Substitute this into either equation to find* $b$*, we will use equation 1*
 > 
 > $\begin{gathered} \textcircled{1} 6 b + 12 ( 0.15 ) & = 9 \\ 6 b + 1.8 & = 9 \\ 6 b & = 7.2 \\ b = 1.2 \end{gathered}$
 > 

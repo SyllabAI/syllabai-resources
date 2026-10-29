@@ -224,7 +224,7 @@ Indicates progressive male support for gender equality.](../../../assets/61df148
 > 
 > **Answers:**
 > 
-> Weimar government gave grants to artists, which allowed the arts to grow (1). New painting styles emerged like that of George Grosz (1). In architecture, the Bauhaus style used geometric shapes to create practical buildings (1). The Weimar government funded cinema projects such as the film* Metropolis* (1).
+> Weimar government gave grants to artists, which allowed the arts to grow (1). New painting styles emerged like that of George Grosz (1). In architecture, the Bauhaus style used geometric shapes to create practical buildings (1). The Weimar government funded cinema projects such as the film *Metropolis* (1).
 
 > **Exam Hint**
 > This style of question does not require you to explain your answer. The Cambridge IGCSE gives you a point for each relevant piece of information that you write in your answer. Therefore, do not spend any additional time trying to describe or explain each reason. You should aim to complete the question in four minutes, one minute per point. This will give you one minute to read through your answer.

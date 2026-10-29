@@ -25,7 +25,7 @@ August 1928: Bukharin tries to form an alliance with Trotsky.
 
 November 1929: Bukharin is removed from the Politburo. Stalin becomes the unopposed leader of the USSR.](../../../assets/790731912a1d-20472-httpscdn-savemyexams-comuploads2024031924-.png)
 
-Under Lenin's leadership, the *Bolshevik* government had **secured control over the Russian *****Empire***. **1922** was a significant year in the Bolshevik *consolidation *of power. After the Russian Civil War, Lenin established a ***communist***** *****dictatorship***. Lenin refused to share power and used ***repression***** to eliminate his enemies**. As a result, Lenin developed an *autocratic* and *centralised* government.
+Under Lenin's leadership, the *Bolshevik* government had **secured control over the Russian *****Empire***. **1922** was a significant year in the Bolshevik *consolidation* of power. After the Russian Civil War, Lenin established a ***communist***** *****dictatorship***. Lenin refused to share power and used ***repression***** to eliminate his enemies**. As a result, Lenin developed an *autocratic* and *centralised* government.
 
 In **December 1922**, Lenin led the creation of the Soviet Union, or the **Union of Soviet Socialist Republics (USSR)**. This was a formal union between Russia, Belarus, Ukraine, Georgia, Azerbaijan and Armenia under communist rule. The USSR created a ***constitution***** that promised *****human rights*** for its people. In reality, the Soviet people did not have these rights.
 
@@ -109,7 +109,7 @@ When **Lenin died in 1924 **after years of ill health, it left a **significant *
 
   - Stalin had little to no role in the October Revolution
   - Lenin gave Stalin the position of *Commissar* for *Nationalities* in November 1917
-  - Stalin **made his reputation during the Russian Civil War**. Lenin appointed  Stalin as a Political Commissar to several *generals *
+  - Stalin **made his reputation during the Russian Civil War**. Lenin appointed  Stalin as a Political Commissar to several *generals*
   - In** 1922**, Stalin became ***General Secretary***** of the Bolshevik Party**
 - **Lenin became suspicious of Stalin**
 
@@ -144,7 +144,7 @@ When **Lenin died in 1924 **after years of ill health, it left a **significant *
 
 ![An illustration showing key Bolshevik leaders in the power struggle after Lenin’s death. In the center is Stalin, positioned between left-wing and right-wing figures. On the left-wing are Trotsky, Zinoviev, and Kamenev. On the right-wing are Bukharin, Rykov, and Tomsky. A pink arrow runs from "Left-wing" to "Right-wing" at the bottom, showing the ideological spectrum.](../../../assets/e25d7bf09a46-39223-httpscdn-savemyexams-comuploads202403commu.png)
 
-*An illustration showing the political opinions of key members of the Communist Party *
+*An illustration showing the political opinions of key members of the Communist Party*
 
 - **Lenin did not name a *****successor***
 

@@ -38,7 +38,7 @@ guided_study: false
 - Partnerships share decision-making but may have disagreements
 - Companies are run by *directors*, decisions may be slower or involve more people and accounts need to be published
 
-  - For example, a *freelance *designer may prefer to be a sole trader for full independence
+  - For example, a *freelance* designer may prefer to be a sole trader for full independence
 
 #### Financial considerations
 

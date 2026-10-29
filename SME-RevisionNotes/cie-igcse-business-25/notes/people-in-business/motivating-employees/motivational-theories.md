@@ -20,7 +20,7 @@ guided_study: false
 - Taylor's theory, developed in the early 20th century, focuses on
 
   - Breaking down complex tasks into simpler ones
-  - *Standardising *work processes
+  - *Standardising* work processes
   - Providing workers with clear instructions and training to achieve maximum efficiency
 - Many **manufacturing businesses** use Taylor's principles to structure their staff benefits
 
@@ -36,7 +36,7 @@ guided_study: false
 **1. Study and analyse the work process**
 
 - Carefully analyse each step of the work process
-- Break down **complex tasks** into simpler ones and identify the most *efficient *and **effective way to perform each task**
+- Break down **complex tasks** into simpler ones and identify the most *efficient* and **effective way to perform each task**
 
 **2. Standardise the work process**
 
@@ -156,7 +156,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Helps businesses focus on job satisfaction by improving factors like achievement, responsibility and recognition<br>- Encourages long-term motivation by redesigning jobs to be more interesting and meaningful<br>- Improves employee loyalty and *retention *by reducing dissatisfaction (e.g. poor working conditions, bad management) | - Improving motivators (e.g. offering more responsibility) may require training and extra costs<br>- Some workers may prefer simple tasks and financial rewards over added responsibility<br>- It can be hard to apply in low-skilled or routine jobs where motivators are limited |
+| - Helps businesses focus on job satisfaction by improving factors like achievement, responsibility and recognition<br>- Encourages long-term motivation by redesigning jobs to be more interesting and meaningful<br>- Improves employee loyalty and *retention* by reducing dissatisfaction (e.g. poor working conditions, bad management) | - Improving motivators (e.g. offering more responsibility) may require training and extra costs<br>- Some workers may prefer simple tasks and financial rewards over added responsibility<br>- It can be hard to apply in low-skilled or routine jobs where motivators are limited |
 
 > **Exam Hint**
 > Avoid writing everything you know about Maslow, Taylor and Herzberg – in exams, marks come from **applying the right theory to the business situation** rather than repeating textbook definitions

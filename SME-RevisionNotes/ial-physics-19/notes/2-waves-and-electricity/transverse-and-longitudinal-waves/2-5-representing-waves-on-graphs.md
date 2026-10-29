@@ -118,7 +118,7 @@ guided_study: false
 *** ***
 
 - *L* is the length of the string
-- 1 wavelength *λ *is only a portion of the length of the string
+- 1 wavelength *λ* is only a portion of the length of the string
 
 > **Exam Hint**
 > Both transverse and longitudinal waves can look like transverse waves when plotted on a graph - make sure you read the question and look for whether the wave travels **parallel** (longitudinal) or **perpendicular **(transverse) to the direction of travel to confirm which type of wave it is.

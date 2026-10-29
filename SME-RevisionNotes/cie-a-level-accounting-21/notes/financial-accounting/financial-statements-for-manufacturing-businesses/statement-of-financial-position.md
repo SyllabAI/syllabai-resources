@@ -46,7 +46,7 @@ guided_study: false
 > 
 > - Calculate the balance of the provision for unrealised profit account
 > 
-> `20 over 120 cross times $ 14 space 640 equals $ 2 space 440`
+> `20 / 120×$ 14 640=$ 2 440`
 > 
 > Prepare an extract of the statement of financial position to show the inventories
 > 

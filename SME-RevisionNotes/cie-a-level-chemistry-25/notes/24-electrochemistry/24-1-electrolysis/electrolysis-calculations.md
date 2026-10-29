@@ -51,9 +51,9 @@ guided_study: true
 > 
 > So, the number of coulombs needed is:
 > 
-> *F *= 2 x 96 500
+> *F* = 2 x 96 500
 > 
-> *F *= 193 000 C mol<sup>-1</sup>
+> *F* = 193 000 C mol<sup>-1</sup>
 > 
 > - **Step 3: **Calculate the charge transferred during the electrolysis
 > 
@@ -97,9 +97,9 @@ guided_study: true
 > 
 > So, for **four moles** of electrons, the number of coulombs needed is:
 > 
-> *F *= 4 x 96 500
+> *F* = 4 x 96 500
 > 
-> *F *= 386 000 C mol<sup>-1</sup>
+> *F* = 386 000 C mol<sup>-1</sup>
 > 
 > - **Step 3: **Calculate the charge transferred during the electrolysis
 > 
@@ -135,15 +135,15 @@ guided_study: true
 > 
 > *F* = 96 500 C mol<sup>-1</sup>
 > 
-> *F *= 1 x 96 500
+> *F* = 1 x 96 500
 > 
-> *F *= 96 500 C
+> *F* = 96 500 C
 > 
 > - So, for **two moles** of electrons, the number of coulombs needed is:
 > 
-> *F *= 2 x 96 500
+> *F* = 2 x 96 500
 > 
-> *F *= 193 000 C
+> *F* = 193 000 C
 > 
 > - **Step 3: **Calculate the charge transferred during the electrolysis
 > 

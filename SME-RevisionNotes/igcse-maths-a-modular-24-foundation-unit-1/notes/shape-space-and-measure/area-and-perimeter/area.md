@@ -59,7 +59,7 @@ guided_study: true
 > 
 > ![E6YLVyoW_cie-igce-core-rn-area-we-diagram-3](assets/6df61a19aa22-48835-area-3.png)
 > 
-> > *There are 14 whole squares in total, and the shape was drawn on a 1 cm*<sup>*2*</sup>* grid*
+> > *There are 14 whole squares in total, and the shape was drawn on a 1 cm*<sup>*2*</sup> *grid*
 > 
 > **Final answer:** **Total area is 14 cm**<sup>**2**</sup>
 
@@ -97,7 +97,7 @@ guided_study: true
 
 - The area, *A*, of a **trapezium** with parallel lengths, *a* and *b*, and perpendicular height, *h*, can be found using the formula
 
-  - `A equals 1 half open parentheses a plus b close parentheses h`
+  - `A=1 half (a+b) h`
   
     - **Add **together the lengths of the **parallel sides**
     - **Multiply **the result by the distance between the parallel sides
@@ -129,10 +129,10 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Find the area of the trapezium using *`A equals 1 half open parentheses a plus b close parentheses h`
+> > *Find the area of the trapezium using* `A=1 half (a+b) h`
 > *Remember that **a**  and **b**  are the two parallel sides and **h**  is the perpendicular height*
 > 
-> `A equals 1 half open parentheses 30 plus 15 close parentheses cross times 20`
+> `A=1 half (30+15)×20`
 > 
 > **Final answer:** **450 cm**<sup>**2**</sup>
 > 
@@ -142,7 +142,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> *Find the area of the parallelogram using *$A=b\timesh$
+> *Find the area of the parallelogram using* $A=b\timesh$
 > *Remember that **b**  is the base and **h**  is the perpendicular height*
 > 
 > $A=15\times12$
@@ -155,7 +155,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Find the area of the right-angled triangle using *$A=\frac{1}{2}bh$
+> > *Find the area of the right-angled triangle using* $A=\frac{1}{2}bh$
 > *Remember that **b**  is the base and **h ** is the perpendicular height*
 > 
 > $A=\frac{1}{2}\times8\times7$

@@ -29,7 +29,7 @@ guided_study: true
 
 - The volume of oxygen consumed (cm<sup>3</sup> min<sup>-1</sup>) can be worked out using:
 
-  - The radius of the capillary tube* r* (cm)
+  - The radius of the capillary tube *r* (cm)
   - And the distance moved by the manometer fluid *h* (cm) in a minute
 - Using the formula:
 
@@ -39,7 +39,7 @@ guided_study: true
 
 #### Method
 
-- Measure oxygen consumption: set up the respirometer and run the experiment with soda-lime present in both tubes. Use the manometer reading to calculate the change in gas volume within a given time, *x *cm<sup>3 </sup>min<sup>-1</sup>
+- Measure oxygen consumption: set up the respirometer and run the experiment with soda-lime present in both tubes. Use the manometer reading to calculate the change in gas volume within a given time, *x* cm<sup>3 </sup>min<sup>-1</sup>
 
   - Always read from the side of the U-tube manometer **closest to the respiring organisms** (the left side as depicted in this diagram)
 - Reset the apparatus: allow air to re-enter the tubes via the screw cap and reset the manometer fluid using the syringe

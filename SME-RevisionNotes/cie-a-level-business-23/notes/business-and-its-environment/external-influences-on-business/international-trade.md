@@ -44,7 +44,7 @@ guided_study: false
 #### Emerging economies and trade blocs
 
 - China, India and Mexico now produce much of the world’s manufactured goods
-- *Trade blocs* like the EU and USMCA lower *tariffs *for members, but businesses must follow each bloc’s rules
+- *Trade blocs* like the EU and USMCA lower *tariffs* for members, but businesses must follow each bloc’s rules
 
 #### Improved transport and online platforms
 
@@ -129,4 +129,4 @@ guided_study: false
 | **Digital sales platforms** | - Online marketplaces that list products, translate pages, handle taxes and connect to *couriers*<br>- E.g. Amazon Global, Alibaba, Shopify | - Even the smallest firm gains a virtual shop window open 24/7 to millions of overseas buyers<br>- Built-in links to logistics automate shipping labels, customs forms and parcel tracking |
 | **Cloud collaboration & digital freight tools** | - Cloud software lets buyers, suppliers and carriers share designs, stock levels and shipment details live | - Teams in different time zones co-edit orders and book transport without long e-mail chains<br>- Real-time stock and route data cuts delays and lowers storage costs |
 | **Blockchain for trade finance and traceability** | - A tamper-proof digital record of each step of a shipment<br>- Smart contracts release payment once checkpoints are met | - Fewer paper documents and fast *customs* clearance reduce fraud and administration costs<br>- Buyers can verify product origin (e.g. fair-trade cocoa) and meet strict import rules |
-| **Artificial Intelligence (AI) applications** | - *Big data* is analysed to forecast demand and set dynamic prices | - Better forecasts mean leaner inventories and fewer *stockouts * |
+| **Artificial Intelligence (AI) applications** | - *Big data* is analysed to forecast demand and set dynamic prices | - Better forecasts mean leaner inventories and fewer *stockouts* |

@@ -57,13 +57,13 @@ guided_study: false
 
 | **Reason** | **Explanation** |
 |---|---|
-| **Improved reputation** | - By taking action to reduce environmental harm, businesses can build a positive image<br>- This improves their relationships with customers, the *media *and the wider community |
-| **Increased sales** | - Selling eco-friendly products or using *sustainable *methods can attract new customers and increase customer loyalty |
+| **Improved reputation** | - By taking action to reduce environmental harm, businesses can build a positive image<br>- This improves their relationships with customers, the *media* and the wider community |
+| **Increased sales** | - Selling eco-friendly products or using *sustainable* methods can attract new customers and increase customer loyalty |
 | **Legal requirements** | - Businesses must follow these laws or face fines, legal action or forced closures |
 | **Pressure from stakeholders** | - Customers, employees, investors, and pressure groups may demand that a business takes action on environmental issues<br>- Responding to these concerns helps **maintain support and trust** |
 | **Cost savings** | - Using less energy, reducing waste and recycling materials can lower *operating costs* in the long term |
 | **Competitive advantage** | - Being more environmentally friendly than competitors can help a business stand out in the market<br>- It may also allow them to **charge higher prices **for eco-friendly products |
-| **Access to new markets** | - Being environmentally responsible can help a business win *contracts *or attract investment |
+| **Access to new markets** | - Being environmentally responsible can help a business win *contracts* or attract investment |
 
 > **Exam Hint**
 > Many students think environmental responsibility only increases costs. Remember, it can also be an opportunity—such as attracting eco-conscious customers or gaining a competitive edge. Examiners reward answers that recognise both challenges and benefits
@@ -85,7 +85,7 @@ guided_study: false
 
 #### Reducing waste
 
-- Businesses can reduce, reuse and recycle materials to cut down on *landfill *waste and pollution
+- Businesses can reduce, reuse and recycle materials to cut down on *landfill* waste and pollution
 
 #### Improving energy efficiency
 
@@ -101,7 +101,7 @@ guided_study: false
 
 #### Eco-friendly packaging
 
-- Using *biodegradable *or recyclable packaging helps reduce plastic waste and limits environmental harm
+- Using *biodegradable* or recyclable packaging helps reduce plastic waste and limits environmental harm
 
 #### Encouraging green behaviour
 

@@ -52,7 +52,7 @@ guided_study: false
 | Factor | Explanation | Impact |
 |---|---|---|
 | Healthcare quality and access | - Better medical treatment reduces mortality from disease and injury | - Decreases |
-| Nutrition and food security | - Improved diet reduces deaths from *malnutrition *and related illness | - Decreases |
+| Nutrition and food security | - Improved diet reduces deaths from *malnutrition* and related illness | - Decreases |
 | Sanitation and clean water | - Reduces deaths from waterborne diseases | - Decreases |
 | Income growth | - Higher incomes allow spending on healthcare, nutrition and safe housing | - Decreases |
 | Ageing population | - As a population ages, the crude death rate can rise even as life expectancy increases | - Increases |

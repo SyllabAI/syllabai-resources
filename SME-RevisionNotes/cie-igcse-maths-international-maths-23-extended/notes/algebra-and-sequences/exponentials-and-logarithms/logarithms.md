@@ -23,7 +23,7 @@ guided_study: true
 
   - Making $x$ the subject of $a^{x}=b$ gives $x = log_{a} ( b )$
   
-    - This is pronounced "log base* a* of *b*"
+    - This is pronounced "log base *a* of *b*"
     - This is the **definition** of a logarithm
     - The number $a$ is called the **base** of the logarithm
 - If** no base** is given, it means the** base number is 10**
@@ -137,11 +137,11 @@ guided_study: true
 > 
 > > *Method 1*
 > 
-> > *To make *$x$* the subject, take log base 4 of both sides*
+> > *To make* $x$ *the subject, take log base 4 of both sides*
 > 
 > $x = log_{4} ( 20 )$
 > 
-> > *Use the *`log _... end _ (... )`* button on your calculator to find *$x$
+> > *Use the* `log _... end _ (... )` *button on your calculator to find* $x$
 > 
 > $x=2.1609640...$
 > 
@@ -151,11 +151,11 @@ guided_study: true
 > 
 > > *Method 2*
 > 
-> > *Using logs of base 10, solve *$a^{x}=b$* by using  *$x=\frac{\mathrm{log}b}{\mathrm{log}a}$* *
+> > *Using logs of base 10, solve* $a^{x}=b$ *by using* $x=\frac{\mathrm{log}b}{\mathrm{log}a}$* *
 > 
 > $x=\frac{\mathrm{log}20}{\mathrm{log}4}$
 > 
-> > *Use the log button on your calculator to find *$x$
+> > *Use the log button on your calculator to find* $x$
 > 
 > $x=2.1609640...$
 > 
@@ -170,11 +170,11 @@ guided_study: true
 > $log_{10} ( 8 x ) = 4$
 > 
 > > *Rewrite this statement as a exponential relationship*
-> *4 is the power that you raise 10 to, to get *$8x$
+> *4 is the power that you raise 10 to, to get* $8x$
 > 
 > $10^{4}=8x$
 > 
-> > *Simplify and make *$x$* the subject*
+> > *Simplify and make* $x$ *the subject*
 > 
 > $10000=8x\,\frac{10000}{8}=x$
 > 
@@ -186,8 +186,8 @@ guided_study: true
 > 
 > $p ( t - 1 ) = log_{7} ( 2 q )$
 > 
-> > *Rearrange to make *$t$* the subject*
-> *Start by dividing both sides by *$p$
+> > *Rearrange to make* $t$ *the subject*
+> *Start by dividing both sides by* $p$
 > 
 > $t - 1 = \frac{1}{p} log_{7} ( 2 q )$
 > 
@@ -195,4 +195,4 @@ guided_study: true
 > 
 > $t = 1 + \frac{1}{p} log_{7} ( 2 q )$
 > 
-> > $t = 1 + \frac{\log ( 2 q )}{p \log 7}$* in base 10 is also accepted*
+> > $t = 1 + \frac{\log ( 2 q )}{p \log 7}$ *in base 10 is also accepted*

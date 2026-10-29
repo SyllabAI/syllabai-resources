@@ -64,7 +64,7 @@ guided_study: false
 
   - The genus name is written first and is **capitalised**, while the species name comes second and is **not capitalise**d
   - **Both** parts of a binomial are **italicised**
-- For example, the binomial for humans is* Homo sapiens *and the binomial for dogs is *Canis familiaris*
+- For example, the binomial for humans is *Homo sapiens* and the binomial for dogs is *Canis familiaris*
 - Binomials are extremely useful for scientists as they allow for species to be **universally identified **- the binomial for a species is the same across the entire globe
 
 #### Five kingdoms
@@ -76,7 +76,7 @@ guided_study: false
 
 - These are organisms that have **prokaryotic cells** which contain no nucleus
 - They vary in size over a wide range, but are typically less than 5 μm
-- Example: *Staphylococcus pneumoniae *is a bacteria species that causes pneumonia
+- Example: *Staphylococcus pneumoniae* is a bacteria species that causes pneumonia
 
 #### Kingdom Protoctista
 
@@ -90,7 +90,7 @@ guided_study: false
 - Another group of Protoctista known as algae possess cells similar to plant cells
 
   - Their cells have **cellulose cell walls and chloroplasts**
-- *Stentor roseli *is a protoctist that has flagella all over its body which help it feed and move
+- *Stentor roseli* is a protoctist that has flagella all over its body which help it feed and move
 
 #### Kingdom Fungi
 

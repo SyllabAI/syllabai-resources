@@ -77,7 +77,7 @@ guided_study: true
 > 
 > *2     .      4      0     0     0*
 > 
-> > *Looking at the highest place value, there are three values starting with 0 (the smallest digit) *
+> > *Looking at the highest place value, there are three values starting with 0 (the smallest digit)*
 > *These are 0.7000, 0.2991 and 0.5800*
 > *Comparing their second digits gives*
 > 

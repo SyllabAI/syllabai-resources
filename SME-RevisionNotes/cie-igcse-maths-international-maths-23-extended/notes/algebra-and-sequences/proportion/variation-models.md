@@ -48,11 +48,11 @@ guided_study: true
 > 
 > Given that $y$ is inversely proportional to $x$, find the values of $p$ and $q$.
 > 
-> > *As *$y$* is inversely proportional to *$x$* we can write the equation*
+> > *As* $y$ *is inversely proportional to* $x$ *we can write the equation*
 > 
 > $y=\frac{k}{x}$
 > 
-> > *Substitute the pair of known values into the equation to find *$k$
+> > *Substitute the pair of known values into the equation to find* $k$
 > 
 > $\begin{gathered} 36 = \frac{k}{1} \\ k = 36 \end{gathered}$
 > 
@@ -60,13 +60,13 @@ guided_study: true
 > 
 > $y=\frac{36}{x}$
 > 
-> > *Substitute in *$x=3$* to find *$p$
+> > *Substitute in* $x=3$ *to find* $p$
 > 
 > $p=\frac{36}{3}=12$
 > 
 > $p=12$
 > 
-> > *Substitute in *$y=9$* to find *$q$
+> > *Substitute in* $y=9$ *to find* $q$
 > 
 > $\begin{gathered} 9 = \frac{36}{q} \\ 9 q & = 36 \\ q = \frac{36}{9} = 4 \end{gathered}$
 > 
@@ -94,9 +94,9 @@ guided_study: true
 > |---|---|---|---|
 > | $y$ | 20 | 80 | 180 |
 > 
-> > *Start by checking if the model is linear, *$y=kx$
+> > *Start by checking if the model is linear,* $y=kx$
 > 
-> > *Using the first data point to find *$k$
+> > *Using the first data point to find* $k$
 > 
 > $\begin{gathered} 20 = k \times 2 \\ k = 10 \end{gathered}$
 > 
@@ -107,9 +107,9 @@ guided_study: true
 > 
 > *Not close to 80, so not linear*
 > 
-> > *Consider if the model is quadratic, *$y=kx^{2}$
+> > *Consider if the model is quadratic,* $y=kx^{2}$
 > 
-> > *Use the first data point to find *$k$
+> > *Use the first data point to find* $k$
 > 
 > $\begin{gathered} 20 = k \times 2^{2} \\ 20 = 4 k \\ k = 5 \end{gathered}$
 > 
@@ -127,7 +127,7 @@ guided_study: true
 > 
 > **Final answer:** **Its full equation is  **$y=5x^{2}$
 > 
-> > *If a cubic model is tested, *$y=kx^{3}$*, the first point produces the equation *$y=\frac{5}{2}x^{3}$* but this does not model the other two data points accurately*
+> > *If a cubic model is tested,* $y=kx^{3}$*, the first point produces the equation* $y=\frac{5}{2}x^{3}$ *but this does not model the other two data points accurately*
 
 > **Worked Example**
 > Two variation models are suggested for the data in the table below.
@@ -144,19 +144,19 @@ guided_study: true
 > 
 > > *Add a row to the table for each of the suggested models*
 > 
-> > *Use the same given values of *$x$* (5, 6, 10, 15) to calculate the *$y$* values that each model predicts*
+> > *Use the same given values of* $x$ *(5, 6, 10, 15) to calculate the* $y$ *values that each model predicts*
 > 
-> > *E.g. To find the *$y$* value that model A predicts for *$x=5$
+> > *E.g. To find the* $y$ *value that model A predicts for* $x=5$
 > 
 > $y=\frac{400}{5^{2}}=16$
 > 
 > | $x$ | 5 | 6 | 10 | 15 |
 > |---|---|---|---|---|
 > | $y$ | 25 | 15 | 3 | 2 |
-> | `equation`*Model A: *$y=\frac{400}{x^{2}}$ | *16* | *11.111...* | *4* | *1.777...* |
-> | *Model B: *$y=\frac{800}{x^{3}}$ | *6.4* | *3.703...* | *0.8* | *0.237...* |
+> | `equation`*Model A:* $y=\frac{400}{x^{2}}$ | *16* | *11.111...* | *4* | *1.777...* |
+> | *Model B:* $y=\frac{800}{x^{3}}$ | *6.4* | *3.703...* | *0.8* | *0.237...* |
 > 
-> > *Compare the modelled *$y$* values to the actual *$y$* values*
+> > *Compare the modelled* $y$ *values to the actual* $y$ *values*
 > 
 > > *The values for Model A are much closer to the actual values than Model B*
 > 

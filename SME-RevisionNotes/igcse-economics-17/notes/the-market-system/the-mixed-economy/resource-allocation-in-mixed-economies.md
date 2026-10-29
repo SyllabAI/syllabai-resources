@@ -50,7 +50,7 @@ guided_study: false
 
 #### How to produce it?
 
-- Would it be better for the economy to have* labour-intensive* production so that more people are employed, or should goods/services be produced using *capital-intensive* production (machinery)?
+- Would it be better for the economy to have *labour-intensive* production so that more people are employed, or should goods/services be produced using *capital-intensive* production (machinery)?
 
 #### Who to produce it for?
 

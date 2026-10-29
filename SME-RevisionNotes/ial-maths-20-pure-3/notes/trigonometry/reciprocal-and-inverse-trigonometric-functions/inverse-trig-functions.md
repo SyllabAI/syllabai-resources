@@ -64,7 +64,7 @@ guided_study: true
 
 ![Inverse Trig Functs Illustr 6_arctan, A Level & AS Maths: Pure revision notes](../../../assets/20d0351c74dd-5-5-4-inverse-trig-functs-illustr-6-arctan.png)
 
-- the* ***domain **is ***x *****∈ ℝ**  (ie arctan *x* is defined for *all* real number values of *x*)
+- the* ***domain **is ***x *****∈ ℝ**  (ie arctan *x *is defined for* all *real number values of* x*)
 - the **range** is **-π/2 < arctan *****x *****< π/2  **(**-90° < arctan *****x***** < 90°**)
 - horizontal **asymptotes** at ***y*****= - π/2** and ***y***** = π/2**
 

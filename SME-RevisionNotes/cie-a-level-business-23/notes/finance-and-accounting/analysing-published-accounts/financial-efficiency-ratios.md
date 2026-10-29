@@ -62,7 +62,7 @@ $Inventory \text{turnover} ( \text{number} of \times ) = \frac{Cost of sales}{Av
 - Businesses aim for a **high** or **increasing ratio**
 
   - More stock sold means that it is generating profit more efficiently
-  - *Perishable *goods are less likely to be wasted
+  - *Perishable* goods are less likely to be wasted
 
 #### 2. The number of days
 
@@ -73,7 +73,7 @@ $Inventory \text{turnover} ( \text{number} of \text{days} ) = \frac{Average \tex
 - Businesses aim for a **low or falling ratio**
 
   - Selling stock quickly means profit is achieved swiftly
-  - Less likely to hold *obsolete *stock that may need to be sold at a loss
+  - Less likely to hold *obsolete* stock that may need to be sold at a loss
 
 > **Worked Example**
 > YakPur Fashions is a manufacturer and exporter of high-quality fashion outerwear

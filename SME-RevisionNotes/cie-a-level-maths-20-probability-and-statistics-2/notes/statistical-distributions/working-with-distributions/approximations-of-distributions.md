@@ -19,7 +19,7 @@ guided_study: true
 
 #### When can I use a normal distribution to approximate a Poisson distribution?
 
-- A Poisson distribution `X tilde P o left parenthesis lambda right parenthesis`  can be **approximated** by a normal distribution `X subscript N tilde N left parenthesis mu comma sigma squared right parenthesis`  provided
+- A Poisson distribution `X tilde P o left parenthesis lambda right parenthesis`  can be **approximated** by a normal distribution `X_ N tilde N left parenthesis μ comma σ ² right parenthesis`  provided
 
   - $λ$** is sufficiently large **( > 15)
 - Remember that the mean and variance of a Poisson distribution are approximately equal, therefore the parameters of the approximating distribution will be:
@@ -109,7 +109,7 @@ guided_study: true
 
 - When deciding what approximating distribution to use first make sure you know the reason why you cannot find the probability using the original distribution
 
-  - Is the value of *n *or *λ *too large?
+  - Is the value of *n* or *λ* too large?
   - Will it take too long to carry out the calculations?
 - Make sure you know what distribution you are approximating **from**
 

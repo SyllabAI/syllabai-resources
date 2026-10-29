@@ -207,7 +207,7 @@ advantages and disadvantages of secondary market research methods"
 - **Who conducts the research **including their **experience**, research **skills** and **source** (primary or secondary?)
 - Potential for ***bias*** when conducting research or analysing results
 
-  - The research and its analysis should be as *objective *as possible
+  - The research and its analysis should be as *objective* as possible
 
 ### 4. Time and place of research
 

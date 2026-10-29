@@ -53,11 +53,11 @@ guided_study: false
 > 
 > **Answer**
 > 
-> > *Two descriptions such as: *
+> > *Two descriptions such as:*
 > 
 > Products selected / purchase history / sites visited **[1]** could be used to suggest related products/services **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > Location data **[1]** could be used to set costs **[1]**
 > 

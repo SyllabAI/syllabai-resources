@@ -24,7 +24,7 @@ guided_study: false
 
 #### The Boltzmann Constant, k
 
-- The Boltzmann constant *k *is used in the ideal gas equation and is defined as:
+- The Boltzmann constant *k* is used in the ideal gas equation and is defined as:
 
 $k=\frac{R}{N_{A}}$
 

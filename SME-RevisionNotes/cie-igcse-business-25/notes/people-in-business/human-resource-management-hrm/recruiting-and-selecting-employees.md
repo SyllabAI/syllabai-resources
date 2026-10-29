@@ -67,7 +67,7 @@ guided_study: false
 | **Advantages** | **Disadvantages** |
 |---|---|
 | - Internal recruitment saves time and money because there is no need for advertising or basic training | - It can create jealousy or tension among employees who are not chosen for the role |
-| - It improves staff *morale *as employees see opportunities for promotion and career growth | - It limits the number of applicants, which may reduce the chance of finding new ideas or skills |
+| - It improves staff *morale* as employees see opportunities for promotion and career growth | - It limits the number of applicants, which may reduce the chance of finding new ideas or skills |
 | - The employee already understands how the business works, which means they can start the new role more quickly | - Promoting someone internally can leave a gap in their old position that still needs to be filled |
 
 - **External recruitment **involves bringing in new workers from outside of the business
@@ -80,7 +80,7 @@ guided_study: false
 |---|---|
 | - External recruitment brings in new ideas, skills and experience that may help improve the business | - It is often more expensive because of costs related to advertising, recruitment agencies, and training |
 | - The business has a wider choice of applicants, which increases the chances of finding the best person for the job | - It takes more time to recruit and train someone who is new to the business |
-| - It can help increase *diversity *by bringing in people from different backgrounds | - New employees may take time to adjust or may not fit well with the existing team or business *culture* |
+| - It can help increase *diversity* by bringing in people from different backgrounds | - New employees may take time to adjust or may not fit well with the existing team or business *culture* |
 
 #### Step 3: Advertise the role
 

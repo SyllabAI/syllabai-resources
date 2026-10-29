@@ -53,7 +53,7 @@ $E = I R + I r = I ( R + r )$
   - *R* = load resistance (Ω)
   - *r* = internal resistance (Ω)
 - *IR* is collectively known as the 'terminal potential difference'
-- *Ir *is collectively known as the 'lost volts'
+- *Ir* is collectively known as the 'lost volts'
 
 > **Worked Example**
 > A battery of e.m.f 7.3 V and internal resistance *r* of 0.3 Ω is connected in series with a resistor of resistance 9.5 Ω.

@@ -84,7 +84,7 @@ guided_study: false
 
 ![Screenshot of a Microsoft Access database showing a table named "Customer1" with fields for CustomerID, Title, FirstName, LastName, StreetAddress, City, County, and Postcode.](../../../assets/00fff123b2a2-49201-database-searchingsingle-ezgif-com-optiweb.webp)
 
-*Creating a search within a database using one criterion *
+*Creating a search within a database using one criterion*
 
 #### Using multiple criteria to select subsets of data
 

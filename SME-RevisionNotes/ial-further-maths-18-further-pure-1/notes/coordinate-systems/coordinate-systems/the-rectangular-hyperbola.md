@@ -58,10 +58,10 @@ guided_study: false
 > 
 > Show that its Cartesian equation is $xy=c^{2}$*.*
 > 
-> > *To find the Cartesian equation, eliminate** *$t$* from the parametric equations*
-> *A quick way here is to first make *$t$* the subject of both*
+> > *To find the Cartesian equation, eliminate** *$t$ *from the parametric equations*
+> *A quick way here is to first make* $t$ *the subject of both*
 > 
-> $t=\frac{x}{c}$*  and  *$t=\frac{c}{y}$* *
+> $t=\frac{x}{c}$ *and* $t=\frac{c}{y}$* *
 > 
 > > *Then set them equal to each other and cross-multiply*
 > 

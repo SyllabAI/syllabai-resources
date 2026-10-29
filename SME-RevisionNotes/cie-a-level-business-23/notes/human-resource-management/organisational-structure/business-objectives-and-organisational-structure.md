@@ -35,7 +35,7 @@ guided_study: false
   - This makes it easier to pass on information, give feedback and make sure everyone is informed
 - **Supports decision-making**
 
-  - By clearly showing who has *authority *at each level, the structure allows decisions to be made more quickly and by the right people
+  - By clearly showing who has *authority* at each level, the structure allows decisions to be made more quickly and by the right people
   - This helps avoid delays and overlapping responsibilities
 - **Helps coordinate activities**
 

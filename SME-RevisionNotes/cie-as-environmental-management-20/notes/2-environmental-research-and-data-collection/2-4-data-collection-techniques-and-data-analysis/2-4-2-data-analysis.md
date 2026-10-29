@@ -49,7 +49,7 @@ guided_study: false
 > 
 > Step One: Write out the equation and substitute in the known values
 > 
-> *N *= (*n*₁ × *n*₂) ÷ *m*₂
+> *N* = (*n*₁ × *n*₂) ÷ *m*₂
 > 
 > *N* = (236 × 244) ÷ 71
 > 

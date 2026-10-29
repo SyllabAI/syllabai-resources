@@ -23,7 +23,7 @@ guided_study: false
 
   - They can help with **solving** exponential and logarithmic **equations**
   - The laws of logarithms are closely related to the **laws of indices**
-- You **need to know** the following laws, which are valid for $a,x,y>0$*,  *$a\neq1$:
+- You **need to know** the following laws, which are valid for $a,x,y>0$*,* $a\neq1$:
 
   - $\mathrm{log}_{a}xy=\mathrm{log}_{a}x+\mathrm{log}_{a}y$
   
@@ -82,27 +82,27 @@ guided_study: false
 > **Worked Example**
 > (a) Write the expression  $2\mathrm{log}_{3}4-\mathrm{log}_{3}2$  in the form  $\mathrm{log}_{3}p$,  where $p$ is an integer.
 > 
-> > *First use  *$\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$*  to rewrite *$2\mathrm{log}_{3}4$
+> > *First use* $\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$ *to rewrite* $2\mathrm{log}_{3}4$
 > 
 > $\begin{gathered} 2 log_{3} 4 & = log_{3} 4^{2} \\ = log_{3} 16 \end{gathered}$
 > 
 > > *Substitute that into the original expression*
-> *Then use  *$\mathrm{log}_{a}\frac{x}{y}=\mathrm{log}_{a}x-\mathrm{log}_{a}y$*  to simplify*
+> *Then use* $\mathrm{log}_{a}\frac{x}{y}=\mathrm{log}_{a}x-\mathrm{log}_{a}y$ *to simplify*
 > 
 > > $\begin{gathered} 2 log_{3} 4 - log_{3} 2 & = log_{3} 16 - log_{3} 2 \\ = log_{3} \frac{16}{2} \\ = log_{3} 8 \end{gathered}$
-> *That's in the required form with *$p=8$
+> *That's in the required form with* $p=8$
 > 
 > $\mathrm{log}_{3}8$
 > 
 > (b) Hence solve  $2\mathrm{log}_{3}4-\mathrm{log}_{3}2=-\mathrm{log}_{3}\frac{1}{x}$.
 > 
-> > *First use  *$\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$*  to rewrite  *$-\mathrm{log}_{3}\frac{1}{x}$
+> > *First use* $\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$ *to rewrite* $-\mathrm{log}_{3}\frac{1}{x}$
 > 
-> > *Note that  *$( \frac{1}{x} ) ^{ - } 1 = \frac{1}{ ( \frac{1}{x} ) } = x$
+> > *Note that* $( \frac{1}{x} ) ^{ - } 1 = \frac{1}{ ( \frac{1}{x} ) } = x$
 > 
 > $\begin{array}{rcl} - log_{3} \frac{1}{x} & = log_{3} ( \frac{1}{x} )^{- 1} \\ = log_{3} x \end{array}$
 > 
-> > *Substitute that, and your answer from part (a), into the equation and solve for *$x$
+> > *Substitute that, and your answer from part (a), into the equation and solve for* $x$
 > 
 > $\begin{gathered} 2 log_{3 } 4 - log_{3} 2 & = - log_{3} \frac{1}{x} \\ \\ log_{3} 8 & = log_{3} x \end{gathered}$
 > 
@@ -160,11 +160,11 @@ $\mathrm{log}_{a}b=\frac{\mathrm{log}_{b}b}{\mathrm{log}_{b}a}=\frac{1}{\mathrm{
 > 
 > Show your working clearly.
 > 
-> > $4$* and *$32$* are both powers of 2*
+> > $4$ *and* $32$ *are both powers of 2*
 > 
-> > *So use  *$\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$*  with  *$b=2$
+> > *So use* $\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$ *with* $b=2$
 > 
-> > *This will make ALL the logarithms have a base of *$2$
+> > *This will make ALL the logarithms have a base of* $2$
 > 
 > $\mathrm{log}_{4}x=\frac{\mathrm{log}_{2}x}{\mathrm{log}_{2}4}$
 > 
@@ -174,19 +174,19 @@ $\mathrm{log}_{a}b=\frac{\mathrm{log}_{b}b}{\mathrm{log}_{b}a}=\frac{1}{\mathrm{
 > 
 > $\frac{\mathrm{log}_{2}x}{\mathrm{log}_{2}4}+\frac{\mathrm{log}_{2}x}{\mathrm{log}_{2}32}+\mathrm{log}_{2}x=\frac{34}{5}$
 > 
-> > $\mathrm{log}_{2}4=2$*  because  *$2^{2}=4$* (by the definition of a logarithm)*
+> > $\mathrm{log}_{2}4=2$ *because* $2^{2}=4$ *(by the definition of a logarithm)*
 > 
-> > $\mathrm{log}_{2}32=5$*  because  *$2^{5}=32$
+> > $\mathrm{log}_{2}32=5$ *because* $2^{5}=32$
 > 
 > > *Substitute into the equation and collect terms on the left-hand side*
 > 
 > $\begin{gathered} \frac{log_{2} x}{2} + \frac{log_{2} x}{5} + log_{2} x & = \frac{34}{5} \\ ( 1 \frac{1}{2} + 1 \frac{1}{5} + 1 ) log_{2} x & = \frac{34}{5} \\ \frac{17}{10} log_{2} x & = \frac{34}{5} \end{gathered}$
 > 
-> > *Multiply both sides by *$\frac{10}{17}$* to find the value of  *$\mathrm{log}_{2}x$
+> > *Multiply both sides by* $\frac{10}{17}$ *to find the value of* $\mathrm{log}_{2}x$
 > 
 > $\begin{gathered} log_{2} x & = \frac{10}{17} \times \frac{34}{5} = 4 \end{gathered}$
 > 
-> > *By the definition of a logarithm,  *$\mathrm{log}_{2}x=4$*  is equivalent to  *$x=2^{4}$*   *
+> > *By the definition of a logarithm,* $\mathrm{log}_{2}x=4$ *is equivalent to* $x=2^{4}$*   *
 > 
 > $x=2^{4}$
 > 

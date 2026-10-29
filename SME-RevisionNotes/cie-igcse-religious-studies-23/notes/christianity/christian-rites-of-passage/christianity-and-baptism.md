@@ -18,7 +18,7 @@ guided_study: false
 ## Types of baptism
 
 - Baptism is a very important ***sacrament***** **for many Christians
-- The Bible records that **Jesus** himself was** baptised** by *John the Baptist *
+- The Bible records that **Jesus** himself was** baptised** by *John the Baptist*
 - After Jesus was **crucified** and **resurrected** He told his **disciples** to go out and baptise people
 
 > **blockquote**

@@ -106,13 +106,13 @@ guided_study: true
 > 
 > **Final answer:** **Total value is £48 000**
 > 
-> > *You can also do this question by finding 1° first *
+> > *You can also do this question by finding 1° first*
 > 
 > (b) If the angle on the pie chart for tennis is 72°, find the value of tennis items that are stocked by the shop.
 > 
 > **Answer:**
 > 
-> > *It is quickest to find the fraction *$\frac{72}{360}$* of the total value, found in part (a)*
+> > *It is quickest to find the fraction* $\frac{72}{360}$ *of the total value, found in part (a)*
 > 
 > $\frac{72}{360}\times48000=9600$
 > 

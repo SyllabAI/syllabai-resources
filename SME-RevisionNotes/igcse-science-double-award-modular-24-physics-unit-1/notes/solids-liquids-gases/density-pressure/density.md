@@ -29,9 +29,9 @@ $ρ=\frac{m}{V}$
 
 - Where:
 
-  - *ρ *= density, measured in kilograms per metre cubed (kg m<sup>−3</sup>)
-  - *m *= mass, measured in kilograms (kg)
-  - *V *= volume, measured in metres cubed (m<sup>3</sup>)
+  - *ρ* = density, measured in kilograms per metre cubed (kg m<sup>−3</sup>)
+  - *m* = mass, measured in kilograms (kg)
+  - *V* = volume, measured in metres cubed (m<sup>3</sup>)
 
 #### Formula triangle for density, mass and volume
 

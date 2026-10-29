@@ -17,7 +17,7 @@ guided_study: false
 
 ## Why do businesses hold inventory?
 
-- Businesses hold *inventories *to support smooth operations and avoid disruptions
+- Businesses hold *inventories* to support smooth operations and avoid disruptions
 
 ### Main types of inventories
 
@@ -49,8 +49,8 @@ guided_study: false
 
 1. **Type of product**
 
-  - *Perishable *goods like fresh food must be kept in smaller amounts to avoid spoilage
-  - *Durable *goods such as electronics can be stored for longer
+  - *Perishable* goods like fresh food must be kept in smaller amounts to avoid spoilage
+  - *Durable* goods such as electronics can be stored for longer
 
 2. **Nature of demand**
 

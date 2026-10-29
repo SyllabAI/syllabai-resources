@@ -42,7 +42,7 @@ entitlement, sick pay"
 | **For the employer** | **For the employee** |
 |---|---|
 | - The contract clearly sets out the rules, such as working hours, duties, and pay, helping to reduce confusion or disputes | - The contract gives clear information about their job role, working hours, pay, and holidays, so they know exactly what to expect |
-| - It allows the employer to take legal action or dismiss the employee if they break the contract, such as refusing to work agreed hours | - The contract provides security, as the employer cannot easily change terms or *dismiss *the worker without good reason |
+| - It allows the employer to take legal action or dismiss the employee if they break the contract, such as refusing to work agreed hours | - The contract provides security, as the employer cannot easily change terms or *dismiss* the worker without good reason |
 | - It helps to create a professional relationship, where both sides understand their responsibilities and can work more effectively together | - If the employer breaks the contract (e.g. underpaying or reducing hours unfairly), the employee has the right to take legal action |
 
 > **Exam Hint**

@@ -53,31 +53,31 @@ guided_study: true
 > 
 > > *Find the equations of the three lines shown (ignoring inequality signs for now)*
 > 
-> > *You may be able to see the lines *$x=1$* and *$y=x$
-> *The other line has the form *$y=mx+c$* with y-intercept 7 and gradient -1*
+> > *You may be able to see the lines* $x=1$ *and* $y=x$
+> *The other line has the form* $y=mx+c$ *with y-intercept 7 and gradient -1*
 > 
 > ![A graph showing a shaded region with three inequalities and a highlighted point within the shaded region.](assets/14886abd46ea-46667-finding-inequalities-from-regions-2.png)
 > 
 > > *Now decide which inequality signs to use*
 > 
-> > *For *$y=x$*, the shaded region is above the line, and the line is dotted, so the inequality is*
+> > *For* $y=x$*, the shaded region is above the line, and the line is dotted, so the inequality is*
 > 
 > $y>x$
 > 
 > > *If unsure, check by substituting in coordinates from the shaded region*
 > *For example, using (2, 4) as marked on the graph above*
 > 
-> *"*$4>2$*" is true, so the inequality *$y>x$* is correct*
+> *"*$4>2$*" is true, so the inequality* $y>x$ *is correct*
 > 
-> > *For *$y=-x+7$*, the shaded region is below the line, and the line is solid, so the inequality is *
+> > *For* $y=-x+7$*, the shaded region is below the line, and the line is solid, so the inequality is*
 > 
 > $y\leq-x+7$
 > 
 > > *Again, check by substituting (2, 4) into the inequality*
 > 
-> *"*$4\leq-2+7$*" is true, so the inequality *$y\leq-x+7$* is correct*
+> *"*$4\leq-2+7$*" is true, so the inequality* $y\leq-x+7$ *is correct*
 > 
-> > *For *$x=1$*, the shaded region is to the right of the solid line so the inequality is*
+> > *For* $x=1$*, the shaded region is to the right of the solid line so the inequality is*
 > 
 > $x\geq1$
 > 

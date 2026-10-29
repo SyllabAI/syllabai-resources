@@ -42,7 +42,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Expand and simplify the first two brackets, for example using the FOIL method *
+> > *Expand and simplify the first two brackets, for example using the FOIL method*
 > 
 > $\begin{gathered} ( 2 x - 3 ) ( x + 4 ) \\ = 2 x \times x + 2 x \times 4 + ( - 3 ) \times x + ( - 3 ) \times 4 \\ = 2 x^{2} + 8 x - 3 x - 12 \\ = 2 x^{2} + 5 x - 12 \end{gathered}$
 > 
@@ -52,7 +52,7 @@ guided_study: true
 > 
 > > *Multiply all of the terms in the first set of brackets by all of the terms in the second set of brackets*
 > 
-> > *A grid can help when there are many terms to multiply together (e.g. write *$2x^{2}+5x-12$* in the vertical column and *$3x-1$* in the horizontal column, then multiply corresponding terms)*
+> > *A grid can help when there are many terms to multiply together (e.g. write* $2x^{2}+5x-12$ *in the vertical column and* $3x-1$ *in the horizontal column, then multiply corresponding terms)*
 > 
 > |   | $3x$ | $-1$ |
 > |---|---|---|

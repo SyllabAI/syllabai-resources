@@ -61,7 +61,7 @@ $t_{1/2}=\frac{\mathrm{ln}2}{λ}$
   - *N* = number of nuclei remaining in a sample
   - *N*<sub>0</sub> = the initial number of undecayed nuclei (when t = 0)
   - *λ* = decay constant (s<sup>-1</sup>)
-  - *t *= time interval (s)
+  - *t* = time interval (s)
 
 - When time *t* is equal to the half-life t<sub>½</sub>, the activity *N* of the sample will be half of its original value, so *N* = ½ *N*<sub>0</sub>
 

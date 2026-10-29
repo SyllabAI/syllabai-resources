@@ -65,7 +65,7 @@ guided_study: true
 > 
 > > *1 cm = 10 mm*
 > 
-> > *1 cm*<sup>*2*</sup>* = 10*<sup>*2*</sup>* mm*<sup>*2*</sup>* = 100 mm*<sup>*2*</sup>
+> > *1 cm*<sup>*2*</sup>*= 10*<sup>*2*</sup>*mm*<sup>*2*</sup>*= 100 mm*<sup>*2*</sup>
 > 
 > *8254 mm**<sup>2</sup>** = (8254 ÷ 100) cm**<sup>2</sup>** *
 > 
@@ -76,7 +76,7 @@ guided_study: true
 > **Answer:**
 > 
 > > *1 m = 100 cm*
-> *1 m*<sup>*3*</sup>* = 100*<sup>*3*</sup>* cm*<sup>*3*</sup>* = 1 000 000 cm*<sup>*3*</sup>
+> *1 m*<sup>*3*</sup>*= 100*<sup>*3*</sup>*cm*<sup>*3*</sup>*= 1 000 000 cm*<sup>*3*</sup>
 > 
 > *2.54 m**<sup>3</sup>** = (2.54 × 1 000 000) cm**<sup>3</sup>** *
 > 

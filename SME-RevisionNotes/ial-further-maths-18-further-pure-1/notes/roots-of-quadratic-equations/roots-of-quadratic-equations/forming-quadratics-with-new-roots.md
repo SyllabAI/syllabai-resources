@@ -76,39 +76,39 @@ guided_study: false
 > 
 > giving your answer in the form $Ax^{2}+Bx+C=0$ where $A$, $B$ and $C$ are integers to be determined.
 > 
-> > *Start with the equation *$3x^{2}+12x-1=0$
-> *Use *$α+β=-\frac{b}{a}$* and *$αβ=\frac{c}{a}$* to find the sum and product of the roots*
+> > *Start with the equation* $3x^{2}+12x-1=0$
+> *Use* $α+β=-\frac{b}{a}$ *and* $αβ=\frac{c}{a}$ *to find the sum and product of the roots*
 > 
 > $α+β=-\frac{12}{3}=-4$   *and*   $αβ=-\frac{1}{3}$
 > 
-> > *Form the new equation using *$x ^{2} - ( \text{sum} of \text{roots} ) x + ( \text{product} of \text{roots} ) = 0$
+> > *Form the new equation using* $x ^{2} - ( \text{sum} of \text{roots} ) x + ( \text{product} of \text{roots} ) = 0$
 > 
 > $x ^{2} - ( \frac{ \beta }{ \alpha } - \alpha + \frac{ \alpha }{ \beta } - \beta ) x + ( \frac{ \beta }{ \alpha } - \alpha ) ( \frac{ \alpha }{ \beta } - \beta ) = 0$
 > 
-> > *Simplify the coefficient of *$x$
+> > *Simplify the coefficient of* $x$
 > *Add the algebraic fractions*
 > 
-> `| beta / alpha - alpha + alpha / beta - beta | = beta / alpha + alpha / beta - ( alpha + beta ) | | _ = (beta ^2 + alpha ^2)/(alpha beta) - ( alpha + beta ) | |`
+> `| β / α - α+α / β - β |=β / α+α / β - (α+β) | | _=(β ^2+α ^2)/(α β) - (α+β) | |`
 > 
-> > *Use (or derive) the identity for the sum of the squares of the roots *$α^{2}+β^{2}\equiv(α+β)^{2}-2αβ$
+> > *Use (or derive) the identity for the sum of the squares of the roots* $α^{2}+β^{2}\equiv(α+β)^{2}-2αβ$
 > 
 > $\begin{gathered} = \frac{( \\alpha + \\beta )^{2} - 2 \\alpha \\beta }{\\alpha \\beta } - ( \\alpha + \\beta ) \end{gathered}$
 > 
-> > *Substitute in *$α+β=-4$* and *$αβ=-\frac{1}{3}$
+> > *Substitute in* $α+β=-4$ *and* $αβ=-\frac{1}{3}$
 > 
 > $\begin{gathered} = \frac{( - 4 )^{2} - 2 ( - 1 \frac{1}{3} )}{( - 1 \frac{1}{3} )} - ( - 4 ) \\ = - 46 \end{gathered}$
 > 
 > > *Now simplify the constant term*
 > *Expand the brackets and add the algebraic fractions*
 > 
-> `| ( beta / alpha - alpha ) ( alpha / beta - beta ) | = (beta alpha)/(alpha beta) - alpha ^2 / beta - beta ^2 / alpha + alpha beta | | _ = 1 - ( alpha ^2 / beta + beta ^2 / alpha ) + alpha beta | | _ = 1 - (( alpha ^3 + beta ^3 ))/(alpha beta) + alpha beta | |`
+> `| (β / α - α)(α / β - β) |=(β α)/(α β) - α ^2 / β - β ^2 / α+α β | | _=1 - (α ^2 / β+β ^2 / α)+α β | | _=1 - ((α ^3+β ^3))/(α β)+α β | |`
 > 
-> > *Use (or derive) the identity for the sum the cubes of the roots *
+> > *Use (or derive) the identity for the sum the cubes of the roots*
 > $α^{3}+β^{3}\equiv(α+β)^{3}-3αβ(α+β)$
 > 
 > $\begin{gathered} = 1 - \frac{[ ( \\alpha + \\beta )^{3} - 3 \\alpha \\beta ( \\alpha + \\beta ) ]}{\\alpha \\beta } + \\alpha \\beta \end{gathered}$
 > 
-> > *Substitute in *$α+β=-4$* and *$αβ=-\frac{1}{3}$
+> > *Substitute in* $α+β=-4$ *and* $αβ=-\frac{1}{3}$
 > 
 > $\begin{gathered} = 1 - \frac{[ ( - 4 )^{3} - 3 ( - 1 \frac{1}{3} ) ( - 4 ) ]}{( - 1 \frac{1}{3} )} + ( - 1 \frac{1}{3} ) \\ = 1 - 204 - 1 \frac{1}{3} \\ = - \frac{610}{3} \end{gathered}$
 > 

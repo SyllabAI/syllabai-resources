@@ -158,7 +158,7 @@ To gain a fuller picture of the text, and to produce stronger, more contextually
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

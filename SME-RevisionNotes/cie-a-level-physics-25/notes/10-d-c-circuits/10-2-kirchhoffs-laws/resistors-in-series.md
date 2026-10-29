@@ -67,8 +67,8 @@ $R=R_{1}+R_{2}+...$
 > 
 > **Step 2: Rearrange for resistance *****R***<sub>**2**</sub>
 > 
-> `R subscript 2 space equals space R space minus space open parentheses R subscript 1 space plus space R subscript 3 close parentheses`
+> `R_ 2=R−(R_ 1+R_ 3)`
 > 
 > **Step 3: Substitute the values**
 > 
-> `R subscript 2 space equals space 60 space minus space open parentheses 30 space plus thin space 10 close parentheses space equals space 20 space straight capital omega`
+> `R_ 2=60−(30+thin 10)=20 straight capital ω`

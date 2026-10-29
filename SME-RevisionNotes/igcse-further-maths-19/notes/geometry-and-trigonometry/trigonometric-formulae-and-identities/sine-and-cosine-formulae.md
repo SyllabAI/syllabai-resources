@@ -26,9 +26,9 @@ guided_study: false
 
   - $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$
 
-- *a *is the side **opposite** angle *A*
-- *b *is the side **opposite** angle *B*
-- *c *is the side **opposite** angle *C*
+- *a* is the side **opposite** angle *A*
+- *b* is the side **opposite** angle *B*
+- *c* is the side **opposite** angle *C*
 - This formula is **not** on the exam formula sheet, so you need to remember it
 - Remember that sin 90° = 1
 
@@ -86,8 +86,8 @@ guided_study: false
 
   - $a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$
 
-- *a *is the side **opposite** angle *A*
-- *b *and *c *are the **other two sides**
+- *a* is the side **opposite** angle *A*
+- *b* and *c* are the **other two sides**
 - angle *A* is the angle **in between** sides *b* and *c*
 - This formula is on the exam **formula sheet**
 
@@ -111,7 +111,7 @@ guided_study: false
 
   - $\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$
   
-    - Remember, *A *must be the angle **in between** sides *b *and c
+    - Remember, *A* must be the angle **in between** sides *b* and c
 - **Substitute** the values you have into the formula and solve
 
 > **Exam Hint**
@@ -138,7 +138,7 @@ guided_study: false
 
   - $\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$
   
-    - *C *is the angle **in between** sides *a *and *b*
+    - *C* is the angle **in between** sides *a* and *b*
   - This formula is **not** on the exam formula sheet, so you need to remember it
 - Remember sin 90° = 1
 

@@ -113,26 +113,26 @@ The methods for finding **all solutions** are:
 > **Worked Example**
 > Solve the equation  $2\mathrm{cos}x=-1$,  finding all solutions in the interval  $-2π\leqx\leq2π$.
 > 
-> *First isolate *$\mathrm{cos}x$
+> *First isolate* $\mathrm{cos}x$
 > 
 > $\mathrm{cos}x=-\frac{1}{2}$
 > 
-> > *Use calculator or knowledge of exact trig values to find *$x_{1}$
+> > *Use calculator or knowledge of exact trig values to find* $x_{1}$
 > *Note that the interval is given in radians, so we must work in radians!*
 > 
 > $x_{1} = \cos ^{- 1} ( - 1 \frac{1}{2} ) = \frac{2 \pi }{3}$
 > 
-> > *Use symmetry of the cos function to find *$x_{2}$
+> > *Use symmetry of the cos function to find* $x_{2}$
 > 
 > $x_{2}=-x_{1}=-\frac{2π}{3}$
 > 
-> > *Now add or subtract (multiples of) *$2π$* radians to find other solutions in the interval*
+> > *Now add or subtract (multiples of)* $2π$ *radians to find other solutions in the interval*
 > 
 > $x_{1}-2π=\frac{2π}{3}-2π=-\frac{4π}{3}$
 > 
 > $x_{2}+2π=-\frac{2π}{3}+2π=\frac{4π}{3}$
 > 
-> > *Any other additions or subtractions of *$2π$* would take us outside the interval*
+> > *Any other additions or subtractions of* $2π$ *would take us outside the interval*
 > 
 > $x=-\frac{4π}{3},-\frac{2π}{3},\frac{2π}{3},\frac{4π}{3}$
 
@@ -149,18 +149,18 @@ The methods for finding **all solutions** are:
   - Trigonometric equations in these forms can be solved in **more than one way**
 - The **easiest method** is to consider the transformation of the angle as a **substitution**
 
-  - Let *u *= *ax *+ *b*
+  - Let *u* = *ax* + *b*
 - **Transform the given interval** for the solutions in the same way as the angle
 
   - For example if the given interval is  0° ≤ x ≤ 360°  the new interval will be
   
-    - (*a *(0°) + *b*) ≤ *u ≤ *(*a *(360°) + *b*)
+    - (*a* (0°) + *b*) ≤ *u ≤* (*a* (360°) + *b*)
 - **Solve** the equation to find the **primary value** for *u*
 - Find all the **other solutions** in the **transformed range** for *u*
 - **Undo** the substitution
 
   - i.e.  $x=\frac{u-b}{a}$
-  - Convert all of the *u *solutions back into corresponding solutions for *x*
+  - Convert all of the *u* solutions back into corresponding solutions for *x*
 - **Another method** would be to **sketch the transformation** of the function
 
   - If you use this method then you will not need to use a substitution for the range of values
@@ -173,16 +173,16 @@ The methods for finding **all solutions** are:
 > **Worked Example**
 > Solve the equation  $2\mathrm{cos}(2x-30^{\circ})=-1$,  finding all solutions in the interval  $-360^{\circ}\leqx\leq360^{\circ}.$
 > 
-> > *We'll use the substitution  *$u=2x-30$
+> > *We'll use the substitution* $u=2x-30$
 > 
 > $\mathrm{Let}u=2x-30$
 > 
-> > *Rewrite the equation in terms of *$u$* and rearrange*
+> > *Rewrite the equation in terms of* $u$ *and rearrange*
 > 
 > $\begin{gathered} 2 \cos u & = - 1 \\ \cos u & = - 1 \frac{1}{2} \end{gathered}$
 > 
 > > *Now we need to transform the interval as well*
-> *Substitute the interval limits into  *$u=2x-30$
+> *Substitute the interval limits into* $u=2x-30$
 > 
 > $2 ( - 360 ) - 30 = - 750$
 > 
@@ -198,13 +198,13 @@ The methods for finding **all solutions** are:
 > 
 > $u_{2}=-u_{1}=-120$
 > 
-> > *Sketch the graph of *$\mathrm{cos}u$* over the transformed interval*
+> > *Sketch the graph of* $\mathrm{cos}u$ *over the transformed interval*
 > 
 > ![cxVOKRsE_igcse-fpure-trig-eqns-we](assets/b7cca12c61b9-cxvokrse-igcse-fpure-trig-eqns-we.png)
 > 
-> > *This shows that there are 8 places where *$\mathrm{cos}u=-\frac{1}{2}$
+> > *This shows that there are 8 places where* $\mathrm{cos}u=-\frac{1}{2}$
 > 
-> > *Find these by adding or subtracting (multiples of) *$360^{\circ}$* to *$u_{1}$* and *$u_{2}$
+> > *Find these by adding or subtracting (multiples of)* $360^{\circ}$ *to* $u_{1}$ *and* $u_{2}$
 > 
 > $u=-600,-480,-240,-120,120,240,480,600$
 > 
@@ -212,6 +212,6 @@ The methods for finding **all solutions** are:
 > 
 > $\begin{gathered} u = 2 x - 30 \\ 2 x & = u + 30 \\ x = \frac{u + 30}{2} \end{gathered}$
 > 
-> > *Substitute the *$u$* values into  *$x=\frac{u+30}{2}$* to find the corresponding *$x$* values*
+> > *Substitute the* $u$ *values into* $x=\frac{u+30}{2}$ *to find the corresponding* $x$ *values*
 > 
 > $x=-285^{\circ},-225^{\circ},-105^{\circ},-45^{\circ},75^{\circ},135^{\circ},255^{\circ},315^{\circ}$

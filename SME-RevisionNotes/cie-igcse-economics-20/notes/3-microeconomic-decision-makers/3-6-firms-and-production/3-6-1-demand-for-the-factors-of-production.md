@@ -36,7 +36,7 @@ guided_study: false
 
 - In the *tyre market*, the **increased demand **for tyres is represented by a **shift in the demand curve** from D<sub>1</sub> to D<sub>2 </sub>
 - Rubber is a **natural resource (land)** and there is now increased demand from the firm for rubber in order to meet higher levels of tyre production
-- The diagram on the right represents the* rubber market *where **demand for it increases from D**<sub>**1**</sub>** to D**<sub>**2**</sub>
+- The diagram on the right represents the *rubber market* where **demand for it increases from D**<sub>**1**</sub>** to D**<sub>**2**</sub>
 
 ### 2. The price for different factors of production
 

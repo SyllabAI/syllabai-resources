@@ -81,7 +81,7 @@ $\DeltaE_{p}=mg\Deltah$
 > 
 > - The input values are to 2 s.f. so the answer is also given to 2 s.f.
 > 
-> `increment E subscript p space equals space 2100 space straight J space open parentheses 2 space straight s. straight f. close parentheses`
+> `increment E_ p=2100 straight J (2 straight s. straight f.)`
 
 > **Exam Hint**
 > In your IGCSE exam, you will generally be expected to round your answers to an appropriate number of significant figures. In theory papers, any answer given to two or more significant figures is accepted unless the question says otherwise.

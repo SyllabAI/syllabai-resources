@@ -20,7 +20,7 @@ guided_study: false
 - Franchising is a business format in which an** individual (franchisee)** buys the rights to operate a business model
 
   - The franchisee can use its branding and software tools and receive support from a **larger company (franchisor)**
-  - The franchisee will pay both an initial lump sum plus ongoing *royalty *fees
+  - The franchisee will pay both an initial lump sum plus ongoing *royalty* fees
 - The franchisee is usually the owner of a private limited company
 
   - The business is operated under the **franchisor's established system** and training, marketing support and ongoing assistance are provided
@@ -40,7 +40,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - A **recognised brand name** which is promoted centrally by the franchisor<br><br>  - E.g., Dominos sponsored 'The Simpsons' for many years<br>- Product **training, **such as how to consistently make good pizzas, is provided to ensure the quality and consistency of the brand<br>- **Equipment and supplies** are provided by the franchisor so that the product will be the same regardless of where it was purchased<br>- Franchisees buy an **exclusive area** or market to sell to<br><br>  - The franchisor will not create any more franchises in that area, limiting competition<br>- **Advice**, training, use of **software** systems and problem solving are ongoing and the franchisor may also provide services such as loans and insurance | - A **fixed sum** must be paid at the start of the franchise for the right to use the business name and resources<br>- Regular ***royalties*** must also be paid, which vary according to the level of sales, often around 5 - 10 % of* sales revenue*<br>- The franchisor may sell materials or equipment to the franchisee at** inflated prices**<br>- If the franchisee does not make the product to the required standard set by the franchisor, the **right to run the franchise can be removed** from them<br>- Franchisees have little say about **how the business is run** and lack freedom to introduce new products or change selling prices |
+| - A **recognised brand name** which is promoted centrally by the franchisor<br><br>  - E.g., Dominos sponsored 'The Simpsons' for many years<br>- Product **training, **such as how to consistently make good pizzas, is provided to ensure the quality and consistency of the brand<br>- **Equipment and supplies** are provided by the franchisor so that the product will be the same regardless of where it was purchased<br>- Franchisees buy an **exclusive area** or market to sell to<br><br>  - The franchisor will not create any more franchises in that area, limiting competition<br>- **Advice**, training, use of **software** systems and problem solving are ongoing and the franchisor may also provide services such as loans and insurance | - A **fixed sum** must be paid at the start of the franchise for the right to use the business name and resources<br>- Regular ***royalties*** must also be paid, which vary according to the level of sales, often around 5 - 10 % of *sales revenue*<br>- The franchisor may sell materials or equipment to the franchisee at** inflated prices**<br>- If the franchisee does not make the product to the required standard set by the franchisor, the **right to run the franchise can be removed** from them<br>- Franchisees have little say about **how the business is run** and lack freedom to introduce new products or change selling prices |
 
 ## Joint ventures
 

@@ -45,7 +45,7 @@ guided_study: true
 ### Boltzmann distribution curve
 
 - **Catalysts** enable the reaction to proceed via an alternative pathway with lower activation energy
-- By lowering *E*<sub>*a*</sub>*, *a **greater proportion **of molecules in the reaction mixture have sufficient energy for an **effective collision**
+- By lowering *E*<sub>*a*</sub>*,* a **greater proportion **of molecules in the reaction mixture have sufficient energy for an **effective collision**
 - As a result of this, the rate of the catalysed reaction is increased compared to the uncatalysed reaction
 
 #### How catalysts affect the number of particles with sufficient energy to react (E<sub>a</sub>)

@@ -69,7 +69,7 @@ guided_study: false
 > **Answer:**
 > 
 > > *An increase by 21% is equivalent to finding 121% of the original amount*
-> *So the multiplier is 1.21 *
+> *So the multiplier is 1.21*
 > 
 > *1.21 × 200*
 > 
@@ -83,7 +83,7 @@ guided_study: false
 > 
 > > *A discount of 35% means the price decreases by 35%*
 > 
-> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65) *
+> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65)*
 > *So the multiplier is 0.65*
 > 
 > *500 × 0.65*
@@ -178,7 +178,7 @@ guided_study: false
 > **Answer:**
 > 
 > **Method 1**
-> *Use the formula *$m=\frac{\mathrm{Amount} \mathrm{after}}{\mathrm{Amount} \mathrm{before}}$
+> *Use the formula* $m=\frac{\mathrm{Amount} \mathrm{after}}{\mathrm{Amount} \mathrm{before}}$
 > 
 > $\frac{310}{250}=1.24$* *
 > 
@@ -187,7 +187,7 @@ guided_study: false
 > **Final answer:** **A percentage increase of 24%**
 > 
 > **Method 2**
-> *Use the formula Percentage Change = *$\frac{\mathrm{After}-\mathrm{Before}}{\mathrm{Before}}\times100$
+> *Use the formula Percentage Change =* $\frac{\mathrm{After}-\mathrm{Before}}{\mathrm{Before}}\times100$
 > 
 > $\frac{310-250}{250}\times100=24$
 > 
@@ -203,7 +203,7 @@ guided_study: false
 > **Answer:**
 > 
 > **Method 1**
-> *Use the formula *$m=\frac{\mathrm{Selling} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}$
+> *Use the formula* $m=\frac{\mathrm{Selling} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}$
 > 
 > $\frac{5600}{8000}=0.7$
 > 
@@ -214,7 +214,7 @@ guided_study: false
 > **Final answer:** **A loss of 30%**
 > 
 > **Method 2**
-> *Use the formula Percentage Profit = *$\frac{\mathrm{Selling} \mathrm{Price}-\mathrm{Cost} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}\times100$
+> *Use the formula Percentage Profit =* $\frac{\mathrm{Selling} \mathrm{Price}-\mathrm{Cost} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}\times100$
 > 
 > $\frac{5600-8000}{8000}\times100=-30$
 > 

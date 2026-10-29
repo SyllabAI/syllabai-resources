@@ -21,7 +21,7 @@ Students studying the Edexcel International GCSE English Language A qualificatio
 
 If you are sitting the paper two exam, you will be asked to analyse one of the poems or prose texts, which will be included in the question paper. You will have one question to answer about one of these texts in the exam, and you will be asked to analyse how writers use language and structure to achieve effects.
 
-The following guide to *Night *by Alice Munro contains:
+The following guide to *Night* by Alice Munro contains:
 
 - ***Night***** overview**
 - ***Night *****summary**
@@ -34,7 +34,7 @@ The following guide to *Night *by Alice Munro contains:
 
 ## Night overview
 
-Alice Munro is a Canadian writer primarily known for her short stories. *Night *is autobiographical in nature, describing a period of ***insomnia*** Munro experienced as a teenage girl after her appendix and a growth, or tumour, were removed.
+Alice Munro is a Canadian writer primarily known for her short stories. *Night* is autobiographical in nature, describing a period of ***insomnia*** Munro experienced as a teenage girl after her appendix and a growth, or tumour, were removed.
 
 In the story, she recalls how a terrible thought grew in her mind while she was awake in the night; she later confesses her thoughts to her father, who responds very calmly, helping her to overcome her feelings. The story is told from the perspective of Munro as an older woman, and considers themes of parenting, the psychological effects of illness and the silence and isolation experienced by those who cannot sleep.
 

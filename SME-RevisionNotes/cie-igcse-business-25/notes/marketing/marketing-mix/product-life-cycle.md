@@ -39,20 +39,20 @@ guided_study: false
 
 - This stage begins when the **product is launched**
 - Sales grow slowly as the product is still new and not widely known
-- Cash flow is usually negative due to high promotion, *advertising *and distribution costs
+- Cash flow is usually negative due to high promotion, *advertising* and distribution costs
 - Marketing focuses on building awareness and interest
 
 #### Growth
 
 - Sales rise quickly as the **product gains popularity**
 - The business works to increase *market share* and boost production to meet demand
-- Cash flow often turns positive as *revenue *grows and costs are spread over more units
+- Cash flow often turns positive as *revenue* grows and costs are spread over more units
 - Marketing aims to stand out from competitors and build *brand loyalty*
 
 #### Maturity
 
 - **Sales remain high** but **growth slows** due to *market saturation*
-- Cash flow is usually strong as sales continue and costs fall through *efficiency *and *economies of scale*
+- Cash flow is usually strong as sales continue and costs fall through *efficiency* and *economies of scale*
 - Marketing focuses on keeping market share and improving profits through cost-cutting or expanding into new markets
 
 #### Decline
@@ -137,7 +137,7 @@ advantages and disadvantages of different extension strategies"
   - Some products are easier to adapt than others
   
     - For example, a smartphone can be upgraded regularly, while bottled water has fewer options for change
-  - *Perishable *goods or fashion items may need quicker updates to stay relevant
+  - *Perishable* goods or fashion items may need quicker updates to stay relevant
 2. **Target market**
 
   - The business must consider who its customers are and what they want

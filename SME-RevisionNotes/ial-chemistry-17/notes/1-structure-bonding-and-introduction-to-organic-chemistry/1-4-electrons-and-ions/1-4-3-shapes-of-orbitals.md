@@ -79,7 +79,7 @@ guided_study: false
 
 - The principal quantum number indicates the energy level of a particular shell but also indicates the energy of the electrons in that shell
 
-  - A 2p electron is in the second shell and therefore has an energy corresponding to *n *= 2
+  - A 2p electron is in the second shell and therefore has an energy corresponding to *n* = 2
 - Even though there is repulsion between negatively charged electrons, they occupy the same region of space in orbitals
 - An orbital can only hold two electrons and they must have opposite spin - the is known as the **Pauli Exclusion Principle**
 - This is because the energy required to jump to a higher** **empty orbital is **greater **than the inter-electron repulsion

@@ -88,7 +88,7 @@ guided_study: true
 | ** ** | **Monosaccharide** | **Disaccharide** | **Polysaccharide** |
 |---|---|---|---|
 | Definition | A single sugar monomer, all of which are reducing sugars | A sugar formed from two monosaccharides joined by a glycosidic bond in a condensation reaction | A polymer formed by many monosaccharides joined by a glycosidic bond in a condensation reaction |
-| Examples | Glyceraldehyde (3C)<br><br>Ribose (5C)<br><br>Glucose (6C) | Maltose (*α* glucose + *α* glucose)<br><br>Sucrose (*α* glucose + fructose)<br><br>Lactose (*α* glucose + *β* galactose) | Cellulose (monomer is *β *glucose)<br><br>Starch (monomer is *α *glucose)<br><br>Glycogen (monomer is *α *glucose) |
+| Examples | Glyceraldehyde (3C)<br><br>Ribose (5C)<br><br>Glucose (6C) | Maltose (*α* glucose + *α* glucose)<br><br>Sucrose (*α* glucose + fructose)<br><br>Lactose (*α* glucose + *β* galactose) | Cellulose (monomer is *β* glucose)<br><br>Starch (monomer is *α* glucose)<br><br>Glycogen (monomer is *α* glucose) |
 | Function | Energy in respiration<br><br>Building blocks of polymers | Sugar in germinating seeds (maltose)<br><br>Mammal milk sugar (lactose)<br><br>Sugar stored in cane sugar (sucrose) | Energy storage (plants - starch; animals - glycogen)<br><br>Structural cell wall (cellulose) |
 
 > **Exam Hint**

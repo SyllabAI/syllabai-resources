@@ -31,10 +31,10 @@ guided_study: true
 
   - First apply the **horizontal** transformation **inside** the brackets if there is one
   
-    - *y *= *k*f(***a****x*)+ *c *or *y *= *k*f(*x *+* ****b***)+ *c*
+    - *y* = *k*f(***a****x*)+ *c *or* y *=* k*f(*x *+* ****b***)+ *c*
   - Then apply any **vertical** transformations **outside** the brackets (if you have more than one transformation outside the brackets, **stretches and reflections** must be applied **before translations**)
   
-    - *y *= ***k***f(*ax*)**+ *****c ***or** ***y *= ***k***f(*x *+ *b*)**+ *****c***
+    - *y* = ***k***f(*ax*)**+ *****c ***or** ***y *= ***k***f(*x *+* b*)**+ *****c***
 
 ** **
 

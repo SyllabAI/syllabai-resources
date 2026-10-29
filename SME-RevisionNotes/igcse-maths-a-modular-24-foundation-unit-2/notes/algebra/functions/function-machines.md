@@ -88,7 +88,7 @@ guided_study: true
 > 
 > ![An inverted function machine](assets/03c6d16f36ac-37212-introduction-to-functions-3.png)
 > 
-> > *Apply the opposite mathematical operation in the first box from the right hand side (÷3) to the output *
+> > *Apply the opposite mathematical operation in the first box from the right hand side (÷3) to the output*
 > 
 > $21\rightarrow21\div3\rightarrow7$
 > 

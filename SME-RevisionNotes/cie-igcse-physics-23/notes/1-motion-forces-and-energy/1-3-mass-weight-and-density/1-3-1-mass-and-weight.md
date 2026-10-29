@@ -163,7 +163,7 @@ $g=\frac{W}{m}$
 > 
 > $W_{E}=42\times9.8$
 > 
-> `W subscript E space equals space 411.6 space straight N space equals space 410 space straight N space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+> `W_ E=411.6 straight N=410 straight N (2 straight s. straight f.)` **[1 mark]**
 > 
 > **Step 5: Calculate the weight force exerted on Isabelle on the Moon**
 > 
@@ -171,7 +171,7 @@ $g=\frac{W}{m}$
 > 
 > $W_{M}=42\times1.6$
 > 
-> `W subscript M space equals space 67.2 space straight N space equals space 67 space straight N space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+> `W_ M=67.2 straight N=67 straight N (2 straight s. straight f.)` **[1 mark]**
 > 
 > **Step 6: Compare the two values of weight**
 > 

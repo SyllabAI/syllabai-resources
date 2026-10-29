@@ -385,7 +385,7 @@ Below you will find definitions and analysis of the best quotations arranged by 
 
   - This was once a place where freedom of expression was cherished
   - An attack on a gay man for just appearing gay is a real shift from the individualist Harlem Renaissance
-- The [rhetorical question](https://www.savemyexams.com/glossary/gcse/english-language/rhetorical-definition/) “*Spot *me?” challenges the idea of surveillance or social policing:
+- The [rhetorical question](https://www.savemyexams.com/glossary/gcse/english-language/rhetorical-definition/) “*Spot* me?” challenges the idea of surveillance or social policing:
 
   - Guy isn’t unaware of the danger, but refuses to be cowed
 - This could also [foreshadow](https://www.savemyexams.com/glossary/gcse/english-language/foreshadowing-definition/) the type of person Leland is:

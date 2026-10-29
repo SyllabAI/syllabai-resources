@@ -119,7 +119,7 @@ C<sub>10</sub>H<sub>22</sub> → C<sub>8</sub>H<sub>18</sub> + C<sub>2</sub>H<su
 
 ![Two test tubes filled with blue liquid. Left labelled "Alkane" with brown liquid below, right labelled "Alkene" with clear liquid below.](../../../assets/bb087d05a68d-32956-httpscdn-savemyexams-comuploads202001bromi.png)
 
-*Alkenes decolourise aqueous bromine *
+*Alkenes decolourise aqueous bromine*
 
 - This happens because bromine reacts with the C=C double bond and is no longer present in solution.
 

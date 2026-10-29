@@ -148,7 +148,7 @@ Number of moles = $\frac{\mathrm{Volume} \mathrm{of} \mathrm{gas}(\mathrm{dm}^{3
 >   - *R* = 8.31 J K<sup>-1</sup> mol<sup>-1</sup>
 >   - *T* = 21 <sup>o</sup>C = 294 K
 > 
-> *V *$=\frac{0.781\times8.31\times294}{220000}=0.00867m^{3}=8.67\mathrm{dm}^{3}$
+> *V* $=\frac{0.781\times8.31\times294}{220000}=0.00867m^{3}=8.67\mathrm{dm}^{3}$
 
 > **Worked Example**
 > **Calculating the molar mass of a gas**
@@ -175,7 +175,7 @@ Number of moles = $\frac{\mathrm{Volume} \mathrm{of} \mathrm{gas}(\mathrm{dm}^{3
 > 
 > **Step 3: **Calculate the molar mass using the number of moles of gas
 > 
-> *n = *$\frac{mass}{molarmass}$
+> *n =* $\frac{mass}{molarmass}$
 > 
 > molar mass$=\frac{6.39}{0.12}=53.25g\mathrm{mol}^{-1}$
 

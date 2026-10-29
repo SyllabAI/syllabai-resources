@@ -90,15 +90,15 @@ guided_study: false
 > 
 > > *Convert 78% to a decimal by dividing by 100*
 > 
-> `78 percent sign space equals space 0.78`
+> `78 percent sign=0.78`
 > 
-> > *Convert *$\frac{7}{8}$* to a decimal by entering into a calculator as a division*
+> > *Convert* $\frac{7}{8}$ *to a decimal by entering into a calculator as a division*
 > 
 > $\frac{7}{8}=7\div8=0.875$
 > 
-> > *Convert *$\frac{5}{6}$* to a decimal in the same way*
+> > *Convert* $\frac{5}{6}$ *to a decimal in the same way*
 > 
-> `5 over 6 equals 5 divided by 6 equals 0.8333... equals 0.8 3 with dot on top`
+> `5 / 6=5÷6=0.8333...=0.8 3 with dot on top`
 > 
 > > *Write them all with 3 decimal places to determine the order*
 > 
@@ -106,8 +106,8 @@ guided_study: false
 > 
 > > *Rewrite the decimals in order*
 > 
-> `0.78 comma space 0.8 comma space 0.8 3 with dot on top comma space 0.875`
+> `0.78 comma 0.8 comma 0.8 3 with dot on top comma 0.875`
 > 
 > > *Rewrite in their original form, and recall that < means "less than", so the smallest value will be first*
 > 
-> `bold 78 bold percent sign bold space bold less than bold space bold 0 bold. bold 8 bold space bold less than bold space bold 5 over bold 6 bold space bold less than bold space bold 7 over bold 8`
+> `bold 78 bold percent sign bold bold less than bold bold 0 bold. bold 8 bold bold less than bold bold 5 / bold 6 bold bold less than bold bold 7 / bold 8`

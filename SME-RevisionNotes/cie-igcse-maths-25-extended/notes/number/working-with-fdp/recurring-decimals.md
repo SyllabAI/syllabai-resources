@@ -69,7 +69,7 @@ Write the recurring decimal as $x=...$
 > 
 > **Answer:**
 > 
-> > *Write as *$x=...$* to show the pattern*
+> > *Write as* $x=...$ *to show the pattern*
 > 
 > $x=0.307307307307...$
 > 
@@ -77,7 +77,7 @@ Write the recurring decimal as $x=...$
 > 
 > $\begin{gathered} 10 x & = 3.07307307307... \\ 100 x & = 30.730730730... \\ 1000 x & = 307.307307307... \end{gathered}$
 > 
-> > *Notice that *$x$* and *$1000x$* have matching recurring decimal parts*
+> > *Notice that* $x$ *and* $1000x$ *have matching recurring decimal parts*
 > 
 > > *Subtract one from the other*
 > 

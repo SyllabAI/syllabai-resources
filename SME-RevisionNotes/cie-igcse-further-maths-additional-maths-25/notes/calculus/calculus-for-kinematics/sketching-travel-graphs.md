@@ -94,41 +94,41 @@ guided_study: false
 > 
 > Sketch its displacement-time, velocity-time, and acceleration-time graphs.
 > 
-> > *To sketch the displacement; *$s=-2t^{3}+12t^{2}$* it can be factorised*
+> > *To sketch the displacement;* $s=-2t^{3}+12t^{2}$ *it can be factorised*
 > 
-> `s equals negative 2 t cubed plus 12 t squared equals negative 2 t squared open parentheses t minus 6 close parentheses`
+> `s=−2t³+12t²=−2t² (t−6)`
 > 
 > > *The roots can then be found*
 > 
-> $s=0$* when:*
->  $t=0$* (repeated root)* 
-> *and *$t=6$
+> $s=0$ *when:*
+>  $t=0$ *(repeated root)* 
+> *and* $t=6$
 > 
-> > *The graph can then be sketched, noting that it is a negative cubic, and remembering the restriction on the domain; *$0\leqt\leq7$
+> > *The graph can then be sketched, noting that it is a negative cubic, and remembering the restriction on the domain;* $0\leqt\leq7$
 > 
 > ![displacement time graph for the worked example](assets/abec27c57229-kinematics-st-graph.png)
 > 
-> > *To find the velocity, differentiate the displacement with respect to *$t$* (time)*
+> > *To find the velocity, differentiate the displacement with respect to* $t$ *(time)*
 > 
 > $v=\frac{ds}{dt}=-6t^{2}+24t$
 > 
 > > *This can be factorised to*
 > 
-> `v equals negative 6 t open parentheses t minus 4 close parentheses`
+> `v=−6t (t−4)`
 > 
 > > *The roots can then be found*
 > 
-> $v=0$* when:* 
-> $t=0$* and *$t=4$
+> $v=0$ *when:* 
+> $t=0$ *and* $t=4$
 > 
-> > *The graph can then be sketched, noting that it is a negative quadratic, and remembering the restriction on the domain; *$0\leqt\leq7$
+> > *The graph can then be sketched, noting that it is a negative quadratic, and remembering the restriction on the domain;* $0\leqt\leq7$
 > 
 > ![velocity time graph for the worked example](assets/55171bffccff-kinematics-vt-graph.png)
 > 
-> > *To find the acceleration, differentiate the velocity with respect to *$t$* This is also the second derivative of the displacement*
+> > *To find the acceleration, differentiate the velocity with respect to* $t$ *This is also the second derivative of the displacement*
 > 
 > $a=\frac{d^{2}s}{dt^{2}}=\frac{dv}{dt}=-12t+24$
 > 
-> > *The graph can then be sketched This is a straight line with *$y$*-intercept 24, and gradient -12 Remember the restriction on the domain; *$0\leqt\leq7$
+> > *The graph can then be sketched This is a straight line with* $y$*-intercept 24, and gradient -12 Remember the restriction on the domain;* $0\leqt\leq7$
 > 
 > ![acceleration time graph for the worked example](assets/fac99e3dcff1-kinematics-at-graph.png)

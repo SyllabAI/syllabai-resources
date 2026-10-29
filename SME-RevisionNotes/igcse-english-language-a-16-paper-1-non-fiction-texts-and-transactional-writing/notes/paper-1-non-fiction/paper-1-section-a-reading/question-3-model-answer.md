@@ -51,7 +51,7 @@ For example:
 Based on the above question, the following model answer demonstrates how to write your answer in order to achieve the full 5 marks:
 
 > **Worked Example**
-> *The argument between the writer (Deborah) and her parents is about her going away to university. *Deborah's mother argues that Deborah's place "is at home with us" until she is married. Deborah does not understand this point of view as her mother has been telling her "how much you hate" Motherwell "all my life". Her mother's "pursed lips" suggest unhappiness, disapproval or even anger, and she tells Deborah that "your father and I forbid you" *from going away to university*. Deborah is defiant and argues back that they can't "forbid" her because she is "*almost eighteen*".
+> *The argument between the writer (Deborah) and her parents is about her going away to university.* Deborah's mother argues that Deborah's place "is at home with us" until she is married. Deborah does not understand this point of view as her mother has been telling her "how much you hate" Motherwell "all my life". Her mother's "pursed lips" suggest unhappiness, disapproval or even anger, and she tells Deborah that "your father and I forbid you" *from going away to university*. Deborah is defiant and argues back that they can't "forbid" her because she is "*almost eighteen*".
 
 ## Embedding quotations
 

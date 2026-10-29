@@ -57,11 +57,11 @@ guided_study: true
 > 
 > $\frac{800\mathrm{nm}}{1000}=0.8\mathrm{μm}$
 > 
-> *Surface area* *of cube *= 6(s<sup>2</sup>)
+> *Surface area* *of cube* = 6(s<sup>2</sup>)
 > 
 > = 6 × (0.8 × 0.8) = 3.84 µm<sup>2</sup>
 > 
-> *Volume *=  0.8  × 0.8 × 0.8
+> *Volume* =  0.8  × 0.8 × 0.8
 > 
 > = 0.512 µm<sup>3</sup>
 > 
@@ -87,7 +87,7 @@ guided_study: true
 > 
 > > *The cylindrical cell of **Bacillus subtilis** has a surface area-to-volume ratio of **4.4 : 1*
 > 
-> > *The smaller cell has the largest surface area-to-volume ratio of the two shapes. This allows efficient diffusion into / out of the cell. The larger the surface area to volume ratio, the more membrane there is per unit volume, so exchange by diffusion can keep up with the needs of the whole cell. So the larger the surface area to volume ratio, the better adapted to simple diffusion that organism is. *
+> > *The smaller cell has the largest surface area-to-volume ratio of the two shapes. This allows efficient diffusion into / out of the cell. The larger the surface area to volume ratio, the more membrane there is per unit volume, so exchange by diffusion can keep up with the needs of the whole cell. So the larger the surface area to volume ratio, the better adapted to simple diffusion that organism is.*
 
 > **Exam Hint**
 > This worked example assumes that *Staphylococcus aureus* is a cuboid shaped cell; in fact it is a **spherical **cell.

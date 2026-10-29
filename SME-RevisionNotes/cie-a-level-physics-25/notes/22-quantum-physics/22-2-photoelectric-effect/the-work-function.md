@@ -30,7 +30,7 @@ $E=hf=Φ+\frac{1}{2}mv^{2}_{max}$
 - Where:
 
   - *h* = *Planck's constant* (J s)
-  - *f *= the frequency of the incident radiation (Hz)
+  - *f* = the frequency of the incident radiation (Hz)
   - *hf* = energy of a single photon (J)
   - *Φ* = the work function of the material (J)
   - *½mv*<sup>*2*</sup><sub>*max*</sub>= the maximum kinetic energy of the photoelectrons (J)
@@ -42,7 +42,7 @@ $E=hf=Φ+\frac{1}{2}mv^{2}_{max}$
 - This equation demonstrates:
 
   - If the incident photons do **not** have a high enough frequency (*f*) and energy to overcome the work function (*Φ*), then no electrons will be emitted
-  - Above energy* hf*<sub>0</sub> = *Φ*, where *f*<sub>0</sub> = threshold frequency, photoelectric emission can occur
+  - Above energy *hf*<sub>0</sub> = *Φ*, where *f*<sub>0</sub> = threshold frequency, photoelectric emission can occur
   - *E*<sub>kmax</sub> depends only on the **frequency** of the incident photon, and not the **intensity** of the radiation
   - The majority of photoelectrons will have kinetic energies **less** than E<sub>kmax</sub>
 

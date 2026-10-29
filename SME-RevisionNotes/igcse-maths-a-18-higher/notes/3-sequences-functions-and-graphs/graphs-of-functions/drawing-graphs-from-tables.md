@@ -26,7 +26,7 @@ guided_study: true
     - This gives the ***y*****-values**
 - To plot the points
 
-  - use the *x * and *y-*values to mark** crosses** on the grid at the **coordinates (*****x *****, *****y *****)**
+  - use the *x* and *y-*values to mark** crosses** on the grid at the **coordinates (*****x *****, *****y *****)**
   
     - Each point is expected to be plotted to **an accuracy within half of the smallest square** on the grid
 - **Draw** a **single** **smooth freehand **curve
@@ -67,7 +67,7 @@ guided_study: true
   - E.g. $y=x^{2}-\frac{1}{x}+4$ has a quadratic term and a reciprocal term
   - This makes it** harder to know the shape **of the graph
   - But you can still **use a table of values** to plot them
-  - Just be aware of points like *x *= 0 as described above, where there will be no value
+  - Just be aware of points like *x* = 0 as described above, where there will be no value
 
 ### How do I use the table function on my calculator?
 
@@ -104,7 +104,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use the table function on your calculator for *$\mathrm{f} ( x ) = 10 - 8 x^{2}$
+> > *Use the table function on your calculator for* $\mathrm{f} ( x ) = 10 - 8 x^{2}$
 > *Start at -1.5, end at 1.5 and use steps of 0.5*
 > 
 > > *Alternatively, substitute the **x**-values into the equation, for example** x** = -1.5*

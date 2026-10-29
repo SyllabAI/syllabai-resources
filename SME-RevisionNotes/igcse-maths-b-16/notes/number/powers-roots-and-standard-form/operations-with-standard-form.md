@@ -115,11 +115,11 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > $\frac{45\times10^{-123}}{0.9\times10^{105}}=\frac{45}{0.9}\times\frac{10^{-123}}{10^{105}}$
 > 
-> > *Work out *$\frac{45}{0.9}$
+> > *Work out* $\frac{45}{0.9}$
 > 
 > $\frac{45}{0.9}=\frac{450}{9}=50$
 > 
-> > *Work out *$\frac{10^{-123}}{10^{105}}$* using laws of indices*
+> > *Work out* $\frac{10^{-123}}{10^{105}}$ *using laws of indices*
 > 
 > $\frac{10^{-123}}{10^{105}}=10^{-123-105}=10^{-228}$
 > 
@@ -127,7 +127,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > $( 45 \times 10^{- 123} ) \div ( 0.9 \times 10^{105 ) = 50 \times 10^{-228} }$
 > 
-> > *Rewrite in standard form, where *$a$* is between 1 and 10*
+> > *Rewrite in standard form, where* $a$ *is between 1 and 10*
 > 
 > $50\times10^{-8}=5\times10^{1}\times10^{-228}=5\times10^{-227}$
 > 
@@ -144,7 +144,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > **Answer:**
 > 
-> > *Substitute the values into the given equation, *$a\timesb=c$
+> > *Substitute the values into the given equation,* $a\timesb=c$
 > 
 > $5\times10^{20}\times6\times10^{n}=3\times10^{33}$
 > 
@@ -166,6 +166,6 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > $21+n=33$
 > 
-> > *Subtract 21 from both sides to find *$n$
+> > *Subtract 21 from both sides to find* $n$
 > 
 > $n=12$

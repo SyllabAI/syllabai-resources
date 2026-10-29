@@ -19,7 +19,7 @@ guided_study: false
 - Each character is given a **unique **binary code
 - Character sets are **ordered logically**, the code for ‘B’ is one more than the code for ‘A’
 - A character set provides a ***standard*** for computers to communicate and send/receive information
-- Without a character set, one system might interpret *01000001 *differently from another
+- Without a character set, one system might interpret *01000001* differently from another
 - The number of characters that can be represented is determined by the** number of bits used** by the character set
 - Two common character sets are:
 

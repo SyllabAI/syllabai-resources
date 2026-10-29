@@ -45,9 +45,9 @@ guided_study: false
 > 
 > Contribution per unit of producing internally:
 > 
-> *Contribution = Selling price - Direct materials - Direct labour *
+> *Contribution = Selling price - Direct materials - Direct labour*
 > 
-> *\$100 - \$30 - (5 × \$10) = \$20 per unit *
+> *\$100 - \$30 - (5 × \$10) = \$20 per unit*
 > 
 > This shows that purchasing from the external supplier would give a greater contribution; \$30 per unit compared to \$20 per unit.
 > 
@@ -93,7 +93,7 @@ guided_study: false
 > 
 > Original variable cost per unit:
 > 
-> *Selling price per unit - Contribution per unit *
+> *Selling price per unit - Contribution per unit*
 > 
 > *\$35 - \$20 = \$15 per unit*
 > 
@@ -240,13 +240,13 @@ guided_study: false
 > 
 > Product H
 > 
-> *2 500 units × 7kg = 17 500kg *
+> *2 500 units × 7kg = 17 500kg*
 > 
 > Product G
 > 
 > *40 000kg - 17 500kg = 22 500kg*
 > 
-> *5 000 units × 4kg = 20 000kg *
+> *5 000 units × 4kg = 20 000kg*
 > 
 > Product F
 > 
@@ -298,13 +298,13 @@ guided_study: false
 > 
 > Calculation the contribution
 > 
-> *Contribution = Sales revenue - Variable costs *
+> *Contribution = Sales revenue - Variable costs*
 > 
 > *\$500 000 - \$150 000  = \$350 000*
 > 
 > Calculate the contribution to sales revenue
 > 
-> *Contribution to sales ratio = Contribution ÷ Sales revenue *
+> *Contribution to sales ratio = Contribution ÷ Sales revenue*
 > 
 > *\$350 000 ÷ \$500 000 = 0.70*
 > 
@@ -312,6 +312,6 @@ guided_study: false
 > 
 > *Sales revenue required to achieve target profit = (Fixed costs + Target profit) ÷ Contribution to sales ratio*
 > 
-> *(\$50 000 + \$75 000) ÷ 0.70 = \$178 571.4286 *
+> *(\$50 000 + \$75 000) ÷ 0.70 = \$178 571.4286*
 > 
 > **Final answer:** **Sales revenue required is \$178 572 **

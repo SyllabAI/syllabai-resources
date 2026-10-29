@@ -23,8 +23,8 @@ $pV\proptoT$
 
 - Where:
 
-  - *p *= *pressure* of the gas (Pa)
-  - *V *= volume of the gas (m<sup>3</sup>)
+  - *p* = *pressure* of the gas (Pa)
+  - *V* = volume of the gas (m<sup>3</sup>)
   - *T* = *thermodynamic temperature* (K)
 - According to the relation:
 
@@ -68,7 +68,7 @@ $pV\proptoT$
 > 
 > **Step 1: State the known values**
 > 
-> - Volume, *V *= 4.5 × 10<sup>−3</sup> m<sup>3</sup>
+> - Volume, *V* = 4.5 × 10<sup>−3</sup> m<sup>3</sup>
 > - Initial pressure, *p*<sub>1</sub> = 6.2 × 10<sup>5</sup> Pa
 > - Initial temperature, *T*<sub>1</sub> = 30°C = 303 K
 > - Initial temperature, *T*<sub>2</sub> = 40°C = 313 K

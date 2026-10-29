@@ -18,10 +18,10 @@ guided_study: false
 ## What is monetary policy?
 
 - **Monetary policy is the use of interest rates, the money supply and credit regulations by a central bank to influence aggregate demand and achieve macroeconomic objectives**
-- In most economies monetary policy is operated by an independent *central bank *rather than the government directly
+- In most economies monetary policy is operated by an independent *central bank* rather than the government directly
 
   - In the UK this is the **Bank of England**; in the USA the **Federal Reserve**; in the Eurozone the **European Central Bank**
-- Central bank independence is considered important because it removes the temptation for governments to use monetary policy for short-term political purposes, such as cutting interest rates before an *election *regardless of inflationary conditions
+- Central bank independence is considered important because it removes the temptation for governments to use monetary policy for short-term political purposes, such as cutting interest rates before an *election* regardless of inflationary conditions
 
 ## Tools of monetary policy
 
@@ -37,7 +37,7 @@ guided_study: false
 
 | **Consumption** | **Investment** |
 |---|---|
-| - A rise in interest rates increases the cost of borrowing for households, reducing spending on *credit*; it also raises the return on saving, encouraging households to save rather than spend<br><br>  - Both effects reduce consumption (C) and shift AD left | - A rise in interest rates increases the cost of *borrowing *for firms, reducing the profitability of investment projects<br><br>  - Firms invest less, reducing I and shifting AD left |
+| - A rise in interest rates increases the cost of borrowing for households, reducing spending on *credit*; it also raises the return on saving, encouraging households to save rather than spend<br><br>  - Both effects reduce consumption (C) and shift AD left | - A rise in interest rates increases the cost of *borrowing* for firms, reducing the profitability of investment projects<br><br>  - Firms invest less, reducing I and shifting AD left |
 
 - A **fall** in interest rates has the reverse effect on both channels - borrowing becomes cheaper, saving less attractive, consumption and investment rise and AD shifts right
 

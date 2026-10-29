@@ -26,8 +26,8 @@ guided_study: true
 - That constant difference is known as the **common difference** of the sequence
 - You need to know the ***n***<sup>**th**</sup>** term formula** for an arithmetic sequence $u_{n}=a+(n-1)d$
 
-  - *a *is the first term
-  - *d *is the common difference
+  - *a* is the first term
+  - *d* is the common difference
 
 > **Exam Hint**
 > If you know two terms in an arithmetic sequence you can find ***a*** and ***d*** using simultaneous equations.

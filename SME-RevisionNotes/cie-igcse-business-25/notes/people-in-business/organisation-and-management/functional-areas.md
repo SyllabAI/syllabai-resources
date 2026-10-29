@@ -39,7 +39,7 @@ guided_study: false
 
 - The operations function is centred on creating the product or delivering the service that the business offers to customers, including
 
-  - Ensuring the *quality *of output
+  - Ensuring the *quality* of output
   - Sourcing and purchasing *raw materials* and *components*
   - Managing the design and testing of new products
   - *Inventory* management
@@ -66,8 +66,8 @@ guided_study: false
 - The finance department is tasked with managing the organisation’s money, including
 
   - Recording all incoming and outgoing financial transactions
-  - Collecting *debts *owed to the business
-  - Ensuring that bills and *salaries *are paid on time
+  - Collecting *debts* owed to the business
+  - Ensuring that bills and *salaries* are paid on time
   - Setting and maintaining *budgets*
   - Conducting financial forecasting
   - Managing banking operations
@@ -81,7 +81,7 @@ guided_study: false
 
 - The human resources (HR) function is responsible for managing the workforce within an organisation and ensuring employee welfare, including
 
-  - *Recruitment *and *selection*
+  - *Recruitment* and *selection*
   - Training and development
   - Maintaining healthy *industrial relations*
   - Ensuring compliance with health and safety regulations

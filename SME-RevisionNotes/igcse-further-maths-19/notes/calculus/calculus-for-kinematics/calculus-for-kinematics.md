@@ -49,7 +49,7 @@ guided_study: false
 > 
 > > *Differentiate the displacement to find the velocity*
 > 
-> > *Note that this 'powers of *$t$*' derivative works exactly the same way as a 'powers of *$x$*' derivative! *
+> > *Note that this 'powers of* $t$*' derivative works exactly the same way as a 'powers of* $x$*' derivative!*
 > 
 > $\begin{gathered} v = \frac{ \mathrm{d} s}{ \mathrm{d} t} \\ = 2 ( 3 t^{3 - 1} ) - 18 ( 2 t^{2 - 1} ) + 48 \end{gathered}$
 > 
@@ -65,7 +65,7 @@ guided_study: false
 > 
 > > *'Instantaneously at rest' means that the velocity is zero*
 > 
-> > *So solve *$v ( t ) = 0$* for *$t$
+> > *So solve* $v ( t ) = 0$ *for* $t$
 > 
 > $\begin{array}{rcl} 6 t^{2} - 36 t + 48 & = 0 \\ 6 ( t^{2} - 6 t + 8 ) & = 0 \\ t^{2} - 6 t + 8 & = 0 \\ ( t - 2 ) ( t - 4 ) & = 0 \end{array}$
 > $t=2\mathrm{or}t=4$
@@ -77,21 +77,21 @@ guided_study: false
 > > *First of all note that this is a different question from 'find the minimum **speed **of the particle'*
 > *The answer to that would be zero, at the times found in part (b)!*
 > 
-> > *The graph of  *$v ( t ) = 6 t^{2} - 36 t + 48$*  is a 'u-shaped' parabola*
+> > *The graph of* $v ( t ) = 6 t^{2} - 36 t + 48$ *is a 'u-shaped' parabola*
 > 
 > > *So we know there is going to be a single minimum point*
 > 
-> > *That minimum point will occur when *$\frac{dv}{dt}=0$
+> > *That minimum point will occur when* $\frac{dv}{dt}=0$
 > 
-> > *So start by solving  *$a=\frac{dv}{dt}=0$*  for *$t$
+> > *So start by solving* $a=\frac{dv}{dt}=0$ *for* $t$
 > 
 > $\begin{gathered} 12 t - 36 & = 0 \\ 12 t & = 36 \\ t = 3 \end{gathered}$
 > 
-> > *So the minimum velocity occurs when *$t=3$
+> > *So the minimum velocity occurs when* $t=3$
 > 
-> > *(Note that, by the symmetry of quadratic graphs, that's halfway between the *$t$* values found in part (b)!)*
+> > *(Note that, by the symmetry of quadratic graphs, that's halfway between the* $t$ *values found in part (b)!)*
 > 
-> > *Substitute *$t=3$* into *$v ( t )$* to find the velocity at that time*
+> > *Substitute* $t=3$ *into* $v ( t )$ *to find the velocity at that time*
 > 
 > > $\begin{gathered} v ( 3 ) & = 6 ( 3 )^{2} - 36 ( 3 ) + 48 \\ = 54 - 108 + 48 \\ = - 6 \end{gathered}$* *
 > 
@@ -150,23 +150,23 @@ guided_study: false
 > 
 > > *Start by integrating the velocity to find an expression for the displacement*
 > 
-> > *Note that this 'powers of *$t$*' integral works exactly the same as a 'powers of *$x$*' integral*
+> > *Note that this 'powers of* $t$*' integral works exactly the same as a 'powers of* $x$*' integral*
 > 
 > > *Don't forget the constant of integration!*
 > 
 > $\begin{gathered} s ( t ) & = \int ( 6 t^{2} - t + 3 ) \mathrm{d} t \\ = 6 ( \frac{t^{2 + 1} }{2 + 1} ) - ( \frac{t^{1 + 1} }{1 + 1} ) + 3 t + c \\ = 2 t^{3} - 1 \frac{1}{2} t^{2} + 3 t + c \end{gathered}$
 > 
-> > *We know that when *$t=0$*,  the displacement is  *$-5$
+> > *We know that when* $t=0$*,  the displacement is* $-5$
 > 
-> > *Substitute these values in and solve for *$c$
+> > *Substitute these values in and solve for* $c$
 > 
 > $\begin{gathered} s ( 0 ) & = - 5 \\ 2 ( 0 )^{3} - 1 \frac{1}{2} ( 0 )^{2} + 3 ( 0 ) + c & = - 5 \\ 0 + c & = - 5 \\ c = - 5 \end{gathered}$
 > 
-> > *Now we have a precise expression for *$s ( t )$
+> > *Now we have a precise expression for* $s ( t )$
 > 
 > $s ( t ) = 2 t^{3} - 1 \frac{1}{2} t^{2} + 3 t - 5$
 > 
-> > *Substitute in  *$t=4$*  to find the displacement at that time*
+> > *Substitute in* $t=4$ *to find the displacement at that time*
 > 
 > $\begin{array}{rcl} s ( 4 ) & = 2 ( 4 )^{3} - 1 \frac{1}{2} ( 4 )^{2} + 3 ( 4 ) - 5 \\ = 128 - 8 + 12 - 5 \\ = 127 \end{array}$
 > 

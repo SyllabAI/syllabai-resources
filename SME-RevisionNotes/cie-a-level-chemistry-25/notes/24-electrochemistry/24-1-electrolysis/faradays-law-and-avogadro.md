@@ -103,7 +103,7 @@ guided_study: true
 
 ![Diagram of an electrolytic cell with copper anode and cathode in copper(II) sulphate solution, connected to direct current through an ammeter and variable resistor.](../../../assets/37a796d05191-21455-httpscdn-savemyexams-comuploads2021015-3-p.png)
 
-*Electrolysis of copper(II) sulfate solution *
+*Electrolysis of copper(II) sulfate solution*
 
 - **Method**
 

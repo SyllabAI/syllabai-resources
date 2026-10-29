@@ -20,7 +20,7 @@ guided_study: true
 - **Stereoisomers **are molecules that have the same **structural formula **but have the atoms arranged differently in space
 - There are two types of stereoisomerism
 
-  - Geometrical (*cis */ *trans*)
+  - Geometrical (*cis* / *trans*)
   - Optical
 
 ### Optical isomerism

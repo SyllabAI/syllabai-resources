@@ -39,7 +39,7 @@ $d \sin ( \\theta ) = n \\lambda$
   - *d* = spacing between adjacent slits (m)
   - *θ* = angle between the zero-order and *n*th-order maxima (degrees)
   - *n* = order of maxima (*n* = 0, 1, 2, 3...)
-  - *λ *= wavelength of light source (m)
+  - *λ* = wavelength of light source (m)
 
 ### Slit spacing
 
@@ -49,8 +49,8 @@ $d \sin ( \\theta ) = n \\lambda$
   - This is represented by the symbol *N*
 - *d* can be calculated from *N* using the equation
 
-  - If *N *is given in terms of lines per mm then *d *will be in mm
-  - If *N *is given in terms of lines per m then *d *will be in m
+  - If *N* is given in terms of lines per mm then *d* will be in mm
+  - If *N* is given in terms of lines per m then *d* will be in m
 
 $d=\frac{1}{N}$
 
@@ -61,7 +61,7 @@ $d=\frac{1}{N}$
 ### Angular separation
 
 - The angular separation of each maxima is calculated by rearranging the grating equation to make θ the subject
-- The angle θ is taken from the centre meaning the higher orders of *n *are at greater angles
+- The angle θ is taken from the centre meaning the higher orders of *n* are at greater angles
 
 ![Light passes through a diffraction grating, producing maxima at n = 0 straight ahead and n = 1 and n = 2 on either side (points of constructive interference); the angles θ₁ and θ₂ are measured from the central maximum to the first- and second-order maxima](../../../assets/aa480e231828-8-2-3-1-angular-separation.png)
 
@@ -96,7 +96,7 @@ $n=\frac{d}{λ}$
 > 
 > - Order of maxima, *n* = 2
 > - Diffraction slit spacing, *d* = 1.7 µm = 1.7 × 10<sup>–6</sup> m
-> - Wavelength, *λ *= 550 nm = 550 × 10<sup>–9</sup> m
+> - Wavelength, *λ* = 550 nm = 550 × 10<sup>–9</sup> m
 > 
 > **Step 2: Rearrange for *****β***** and substitute in the values**
 > 
@@ -110,7 +110,7 @@ $n=\frac{d}{λ}$
 > 
 > **Step 3: Calculate α**
 > 
-> - *β *is the angle from the centre to the second-order line
+> - *β* is the angle from the centre to the second-order line
 > 
 > $\\alpha = 2 \\beta = 2 \times 40.32 = 81^{\circ} ( 2 \mathrm{s} . \mathrm{f} )$
 
@@ -125,12 +125,12 @@ $n=\frac{d}{λ}$
 
 ### Method
 
-- The **wavelength** of light can be determined by **rearranging** the grating equation to make the wavelength *λ *the subject
+- The **wavelength** of light can be determined by **rearranging** the grating equation to make the wavelength *λ* the subject
 
 $d \sin ( \\theta ) = n \\lambda \rightarrow \\lambda = \frac{d \sin ( \\theta )}{n}$
 
 - The value of *θ*, the angle to the specific order of maximum measured from the centre, can be calculated through **trigonometry**
-- Create a **right angled triangle **to determine the** angle **of diffraction,* θ*
+- Create a **right angled triangle **to determine the** angle **of diffraction, *θ*
 
   - The **distance** from the **grating to the screen** is marked as ***D***
   - The **distance** between the **centre and the order of maxima** (e.g. *n* = 2 in the diagram below) on the screen is labelled as ***h****, *the fringe spacing
@@ -151,6 +151,6 @@ $d \sin ( \\theta ) = n \\lambda \rightarrow \\lambda = \frac{d \sin ( \\theta )
 - The fringe spacing can be subjective depending on its intensity on the screen. Take multiple measurements of *h* (between 3-8) and find the average
 - Use a Vernier scale to record *h*, in order to reduce percentage uncertainty
 - Reduce the uncertainty in *h* by measuring between the two *n*th-order maxima and halving
-- Increase the grating to screen distance *D *to increase the fringe separation (although this may decrease the intensity of light reaching the screen)
+- Increase the grating to screen distance *D* to increase the fringe separation (although this may decrease the intensity of light reaching the screen)
 - Conduct the experiment in a darkened room, so the fringes are clearer
 - Use grating with more lines per mm, so values of *h* are greater to lower percentage uncertainty

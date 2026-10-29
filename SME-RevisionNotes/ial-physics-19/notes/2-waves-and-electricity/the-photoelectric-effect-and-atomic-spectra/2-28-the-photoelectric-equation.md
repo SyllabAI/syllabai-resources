@@ -32,7 +32,7 @@ guided_study: false
   - *h* = *Planck's constant* (J s)
   - *f* = the frequency of the incident radiation (Hz)
   - Φ = the work function of the material (J)
-  - ½* mv*<sup>*2*</sup><sub>*max*</sub>= *KE*<sub>max</sub> = the maximum kinetic energy of the photoelectrons (J)
+  - ½*mv*<sup>*2*</sup><sub>*max*</sub>= *KE*<sub>max</sub> = the maximum kinetic energy of the photoelectrons (J)
 
 - This equation demonstrates:
 
@@ -92,9 +92,9 @@ guided_study: false
 > 
 > **Step 1: Write out the photoelectric equation and rearrange to fit the equation of a straight line**
 > 
-> *E = hf = *Φ + ½ *mv*<sup>*2*</sup><sub>*max         *</sub>→    *KE*<sub>*max*</sub>* = hf *- Φ
+> *E = hf =* Φ + ½ *mv*<sup>*2*</sup><sub>*max* </sub>→    *KE*<sub>*max*</sub>*= hf* - Φ
 > 
-> *y *=* mx *+* c*
+> *y* = *mx* + *c*
 > 
 > ** Step 2: Identify the threshold frequency from the x-axis of the graph**
 > 

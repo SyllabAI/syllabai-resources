@@ -126,15 +126,15 @@ $τ=Fd$
 > 
 > ![4-1-3-we-non-perpendicular-distance-answer-cie-new](assets/7e5a3b1b982d-4-1-3-we-non-perpendicular-distance-answer-cie-n.png)
 > 
-> `F space equals space 4 space cross times space sin open parentheses 30 close parentheses`
+> `F=4×sin (30)`
 > 
 > or
 > 
-> `F space equals space 4 space cross times space cos open parentheses 60 close parentheses`
+> `F=4×cos (60)`
 > 
 > **Step 4: Substitute in the known values to calculate**
 > 
-> `tau space equals space 4 space sin open parentheses 30 close parentheses space cross times space 0.3`
+> `τ=4 sin (30)×0.3`
 > 
 > $τ=0.6Nm$
 

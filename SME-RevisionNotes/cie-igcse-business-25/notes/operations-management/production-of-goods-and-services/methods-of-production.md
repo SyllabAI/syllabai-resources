@@ -78,7 +78,7 @@ advantages and disadvantages of job, batch and flow production"
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Businesses can switch between batches to meet different customer demands<br>- It is more cost-effective than flow production for smaller quantities<br>- Some *purchasing economies* can be gained by buying materials in larger amounts than in job production<br>- *Defects *can be spotted and corrected within a batch before moving on | - Setting up equipment for each batch takes time and may cause delays<br>- Batches often create extra *inventory*, which needs storage and careful control<br>- It is less flexible than flow production when dealing with changes in demand<br>- Frequent stopping and starting can wear out machines and increase maintenance needs |
+| - Businesses can switch between batches to meet different customer demands<br>- It is more cost-effective than flow production for smaller quantities<br>- Some *purchasing economies* can be gained by buying materials in larger amounts than in job production<br>- *Defects* can be spotted and corrected within a batch before moving on | - Setting up equipment for each batch takes time and may cause delays<br>- Batches often create extra *inventory*, which needs storage and careful control<br>- It is less flexible than flow production when dealing with changes in demand<br>- Frequent stopping and starting can wear out machines and increase maintenance needs |
 
 ## Flow production
 
@@ -103,7 +103,7 @@ advantages and disadvantages of job, batch and flow production"
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Continuous production **avoids frequent machine start-ups**, saving energy and reducing waste<br>- **Unit costs are low **due to *automation *and the use of unskilled labour<br>- **Costs are also spread** across high output, making each unit cheaper to produce<br>- **Defects can often be detected** and fixed early in the process<br>- Fast production leads to **short lead times**, helping businesses meet customer demand quickly | - Setting up a flow production line requires a large *capital investment*<br>- The system **depends on reliable machines**, as any breakdown can stop the entire line<br>- If a fault is found, the whole line may need to stop, causing **delays**<br>- The process relies on a **constant supply of raw materials** or components<br>- Supply chain problems can seriously disrupt production |
+| - Continuous production **avoids frequent machine start-ups**, saving energy and reducing waste<br>- **Unit costs are low **due to *automation* and the use of unskilled labour<br>- **Costs are also spread** across high output, making each unit cheaper to produce<br>- **Defects can often be detected** and fixed early in the process<br>- Fast production leads to **short lead times**, helping businesses meet customer demand quickly | - Setting up a flow production line requires a large *capital investment*<br>- The system **depends on reliable machines**, as any breakdown can stop the entire line<br>- If a fault is found, the whole line may need to stop, causing **delays**<br>- The process relies on a **constant supply of raw materials** or components<br>- Supply chain problems can seriously disrupt production |
 
 > **Exam Hint**
 > Be careful not to mix up **batch** and **flow** production – batch makes groups of items before switching, while flow is a continuous process with no interruptions
@@ -115,7 +115,7 @@ advantages and disadvantages of job, batch and flow production"
 ## Recommending a suitable method of production
 
 - The choice of production method depends on a range of factors, including the type of product, customer demand, available resources and the skills of the workforce
-- Choosing the right production method helps a business produce *efficiently *and meet customer needs
+- Choosing the right production method helps a business produce *efficiently* and meet customer needs
 
 #### Factors affecting the choice of production method
 
@@ -123,7 +123,7 @@ advantages and disadvantages of job, batch and flow production"
 |---|---|
 | **Type of product** | - If the product is **highly customised** or made to customer specifications, **job production** is often the best choice<br>- **Standardised product**s made in large quantities are better suited to **flow production** |
 | **Level of demand** | - Businesses with **high and steady demand **are more likely to use **batch or flow production** to produce goods efficiently<br>- If **demand is low** or changes often, **job or batch production** may be more suitable |
-| **Availability of capital and equipment** | - Flow production requires expensive machinery and technology, so only businesses with enough *capital *can afford it<br>- Smaller firms may choose job or batch production due to lower setup costs |
+| **Availability of capital and equipment** | - Flow production requires expensive machinery and technology, so only businesses with enough *capital* can afford it<br>- Smaller firms may choose job or batch production due to lower setup costs |
 | **Skilled labour availability** | - **Job production often requires skilled workers** to produce high-quality, custom items<br>- If skilled labour is limited or too costly, a business may prefer batch or flow production, which relies more on machines or unskilled workers |
 
 > **Case Study**
@@ -149,4 +149,4 @@ advantages and disadvantages of job, batch and flow production"
 >   - It is **more cost-effective** than job production for medium-sized orders, helping reduce *unit costs*
 >   - SweetStyle can still offer some **product variety**, but without needing the high investment that flow production requires
 >   - The business can **train staff** to work in small teams, printing one batch at a time, which suits their current skill level
->   - Over time, if the business grows further, it can consider investing in more *automation *or switching to flow production for its most popular designs
+>   - Over time, if the business grows further, it can consider investing in more *automation* or switching to flow production for its most popular designs

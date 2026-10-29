@@ -65,7 +65,7 @@ guided_study: true
 > 
 > ![cie-igcse-core-rn-tangent-and-radius-diagram-worked-example-2-working](assets/3fa4541003ec-cie-igcse-core-rn-tangent-and-radius-diagram-wor.png)
 > 
-> *Using the fact that the internal angles in a triangle sum to 180, we can find angle *$x$
+> *Using the fact that the internal angles in a triangle sum to 180, we can find angle* $x$
 > 
 > $\begin{gathered} x + 37 + 37 & = 180 \\ x + 74 & = 180 \\ x = 180 - 74 \end{gathered}$
 > 

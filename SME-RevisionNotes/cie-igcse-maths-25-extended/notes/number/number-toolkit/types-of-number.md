@@ -209,7 +209,7 @@ Knowing what each of these terms mean is essential.
     - e.g.  The cube root of 64 would be written as `cube root of 64`
   - You should remember the values of the following cube roots:
   
-    - `cube root of 1 comma space cube root of 8 comma space cube root of 27 comma space cube root of 64 comma space cube root of 125 comma space cube root of 1000`
+    - `∛(1 comma ∛(8 comma ∛(27 comma ∛(64 comma ∛(125 comma ∛(1000`
 
 > **Worked Example**
 > Write down a number which is both a cube number and a square number, and hence express this number in two different ways using index notation.
@@ -224,7 +224,7 @@ Knowing what each of these terms mean is essential.
 > 
 > *1, 8, 27, ****64****, 125*
 > 
-> > *64 appears in both lists, it is the 8*<sup>*th*</sup>* square number and 4*<sup>*th*</sup>* cube number*
+> > *64 appears in both lists, it is the 8*<sup>*th*</sup>*square number and 4*<sup>*th*</sup> *cube number*
 > 
 > **Final answer:** **64 is both a square and cube number**
 > **64 = 8**<sup>**2**</sup>** and 64 =4**<sup>**3**</sup>

@@ -30,7 +30,7 @@ guided_study: false
 
 - **Assesses financial risk**
 
-  - High gearing means higher risk, as the business must make regular* loan repayments* and pay interest, even if profits fall
+  - High gearing means higher risk, as the business must make regular *loan repayments* and pay interest, even if profits fall
 - **Useful for lenders and investors**
 
   - Banks and investors use the gearing ratio to judge whether the business can afford to take on more debt or is too risky to support
@@ -55,7 +55,7 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Issued} \mathrm{shares}+\mathrm{Rese
 - The** higher the gearing** ratio, the more **dependent **a business is on **long-term borrowing**
 
 > **Worked Example**
-> The table shows an extract from the company accounts of* Walders Travel Ltd*
+> The table shows an extract from the company accounts of *Walders Travel Ltd*
 > 
 > | ** ** | **\$** |
 > |---|---|
@@ -109,12 +109,12 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Issued} \mathrm{shares}+\mathrm{Rese
 
   - Repay existing debt to lower financial risk
   - Prioritise paying off high-interest debt to minimise interest costs over time
-  - Negotiate with *creditors *to restructure existing debt, such as extending repayment periods or lowering interest rates
+  - Negotiate with *creditors* to restructure existing debt, such as extending repayment periods or lowering interest rates
 2. **Raise equity capital**
 
   - Raise share capital by issuing new shares to investors
   - Consider a *rights issue*, offering existing shareholders the opportunity to buy additional shares
-  - Retain profits within the business instead of distributing them as *dividends *to shareholders, using them to fund growth or reduce reliance on borrowing
+  - Retain profits within the business instead of distributing them as *dividends* to shareholders, using them to fund growth or reduce reliance on borrowing
 
 ### Situations where high gearing is less problematic
 

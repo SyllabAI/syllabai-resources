@@ -23,7 +23,7 @@ guided_study: true
 
   - The plates provide a uniform electric field with strength *E* between them
 
-- There is also a uniform *magnetic field* with flux density *B *applied perpendicular to the electric field
+- There is also a uniform *magnetic field* with flux density *B* applied perpendicular to the electric field
 
   - If a beam of charged particles enters between the plates, they may all have the same charge *Q* but travel at different speeds
 
@@ -47,7 +47,7 @@ $F_{E}=F_{B}$
 
 $EQ=BQv$
 
-- The charge *Q* will cancel out on both sides to give the selected velocity *v *equation:
+- The charge *Q* will cancel out on both sides to give the selected velocity *v* equation:
 
 $v=\frac{E}{B}$
 

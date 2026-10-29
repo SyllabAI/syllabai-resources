@@ -29,12 +29,12 @@ guided_study: false
   - **Substitute*** *$n=1$ into both sides **individually** $L H S = \sum_{r = 1}^{1} r^{2} = 1^{2} = 1
  R H S = \frac{1}{6} \times 1 \times ( 1 + 1 ) ( 2 \times 1 + 1 ) = \frac{1}{6} \times 2 \times 3 = 1$
 
-- **STEP 2** **The assumption step: **Assume the *LHS  *and *RHS*  are equal for some $n=k$* *where $k$* *is some integer
+- **STEP 2** **The assumption step: **Assume the *LHS* and *RHS*  are equal for some $n=k$* *where $k$* *is some integer
 
   - Replace $n$ with $k$ in the statement
   - Write: "Assume $\sum_{r = 1}^{k} r^{2} = \frac{1}{6} k ( k + 1 ) ( 2 k + 1 )$ is true"
 
-- **STEP 3** **The inductive step: **You need to **prove **that the* LHS  *and *RHS*  are equal for $n=k+1$
+- **STEP 3** **The inductive step: **You need to **prove **that the *LHS* and *RHS*  are equal for $n=k+1$
 
   - **Start** with the ***LHS**** * for $n=k+1$
   
@@ -55,7 +55,7 @@ guided_study: false
 > Prove by induction that $\sum_{r = 1}^{n} r ( r - 3 ) = 1 \frac{1}{3} n ( n - 4 ) ( n + 1 )$ for $n\inℤ^{+}$.
 > 
 > > *STE P 1: The basic step*
-> *Find the LHS when *$n=1$
+> *Find the LHS when* $n=1$
 > 
 > $\sum_{r = 1}^{1} r ( r - 3 ) = 1 ( 1 - 3 ) = - 2$* *
 > 
@@ -63,35 +63,35 @@ guided_study: false
 > 
 > $1 \frac{1}{3} \times 1 \times ( 1 - 4 ) ( 1 + 1 ) = 1 \frac{1}{3} \times ( - 6 ) = - 2$* *
 > 
-> > *The LHS and RHS are equal, which shows the statement is true for *$n=1$
+> > *The LHS and RHS are equal, which shows the statement is true for* $n=1$
 > *State this*
 > 
-> *LHS = RHS, so it is true for *$n=1$
+> *LHS = RHS, so it is true for* $n=1$
 > 
 > > *  *
 > 
 > > *STEP 2: The assumption step*
-> *Assume the statement is true for some *$n=k$* where *$k$* **is a positive integer*
+> *Assume the statement is true for some* $n=k$ *where* $k$* **is a positive integer*
 > 
-> *Assume that *$\sum_{r = 1}^{k} r ( r - 3 ) = 1 \frac{1}{3} k ( k - 4 ) ( k + 1 )$
+> *Assume that* $\sum_{r = 1}^{k} r ( r - 3 ) = 1 \frac{1}{3} k ( k - 4 ) ( k + 1 )$
 > 
 > > * *
 > 
 > > *STEP 3: The inductive step*
-> *Find the RHS when *$n=k+1$
+> *Find the RHS when* $n=k+1$
 > 
 > > $1 \frac{1}{3} ( k + 1 ) ( k + 1 - 4 ) ( k + 1 + 1 ) = 1 \frac{1}{3} ( k + 1 ) ( k - 3 ) ( k + 2 )$* *
 > 
-> > *Find the LHS when *$n=k+1$
+> > *Find the LHS when* $n=k+1$
 > 
 > $\sum_{r = 1}^{k + 1} r ( r - 3 )$
 > 
-> > *Prove that the LHS when *$n=k+1$* equals the RHS when *$n=k+1$
+> > *Prove that the LHS when* $n=k+1$ *equals the RHS when* $n=k+1$
 > *Start by pulling out the final term in the sum*
 > 
 > $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = \sum_{r = 1}^{k} r ( r - 3 ) + ( k + 1 ) ( k + 1 - 3 ) \\ = \sum_{r = 1}^{k} r ( r - 3 ) + ( k + 1 ) ( k - 2 ) \end{gathered}$
 > 
-> > *Now use the assumption in STEP 2 to replace the sum from 1 to *$k$* with its answer *
+> > *Now use the assumption in STEP 2 to replace the sum from 1 to* $k$ *with its answer*
 > 
 > $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = 1 \frac{1}{3} k ( k - 4 ) ( k + 1 ) + ( k + 1 ) ( k - 2 ) \end{gathered}$
 > 
@@ -103,18 +103,18 @@ guided_study: false
 > 
 > $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = 1 \frac{1}{3} ( k + 1 ) [ k^{2} - 4 k + 3 k - 6 ] \\ = 1 \frac{1}{3} ( k + 1 ) [ k^{2} - k - 6 ] \\ = 1 \frac{1}{3} ( k + 1 ) ( k - 3 ) ( k + 2 ) \end{gathered}$
 > 
-> > *This is the same as the RHS when *$n=k+1$
-> *The LHS and RHS are equal, which shows that the statement is true for *$n=k+1$
+> > *This is the same as the RHS when* $n=k+1$
+> *The LHS and RHS are equal, which shows that the statement is true for* $n=k+1$
 > *State this*
 > 
-> *LHS = RHS, so it is true for *$n=k+1$
+> *LHS = RHS, so it is true for* $n=k+1$
 > 
 > > * *
 > 
 > > *STEP 4: The conclusion*
-> *We have just proved that if the case when *$n=k$* is true, then the case when *$n=k+1$* is true*
-> *We have also shown that the case when *$n=1$* is true*
-> *Those two parts come together to mean that *$n=1$* is true, so** *$n=2$* is true, so *$n=3$* is true, ... and so on*
+> *We have just proved that if the case when* $n=k$ *is true, then the case when* $n=k+1$ *is true*
+> *We have also shown that the case when* $n=1$ *is true*
+> *Those two parts come together to mean that* $n=1$* is true, so** *$n=2$ *is true, so* $n=3$ *is true, ... and so on*
 > 
 > **Final answer:** **If it is true for **$n=k$**, then it is true for **$n=k+1$**.**
 > **As it is true for **$n=1$**, the statement is true for all **$n\inℤ^{+}$**.**
@@ -171,38 +171,38 @@ guided_study: false
 > Prove by induction that $f(n)=6^{n}+13^{n+1}$ is divisible by 7 for all integers satisfying $n\geq0$.
 > 
 > > *STE P 1: The basic step*
-> *Prove that it is true for *$n=0$
+> *Prove that it is true for* $n=0$
 > 
 > $\begin{gathered} \mathrm{f} ( 0 ) & = 6^{0 + 13^{0} + 1} \\ = 1 + 13 \\ = 14 \\ = 7 \times 2 \end{gathered}$
 > 
-> > *State that it is true for *$n=0$
+> > *State that it is true for* $n=0$
 > 
-> *14 is divisible by 7, so it is true for *$n=0$
+> *14 is divisible by 7, so it is true for* $n=0$
 > 
 > > * *
 > 
 > > *STEP 2: The assumption step*
-> *Assume the statement is true for some *$n=k$* where *$k$* is a positive integer*
+> *Assume the statement is true for some* $n=k$ *where* $k$ *is a positive integer*
 > 
-> *Assume that *$f(k)=6^{k}+13^{k+1}$* is divisible by 7*
+> *Assume that* $f(k)=6^{k}+13^{k+1}$ *is divisible by 7*
 > 
-> > *Replace "being divisible by 7" with being equal to *$7m$*, where *$m$* is a positive integer*
+> > *Replace "being divisible by 7" with being equal to* $7m$*, where* $m$ *is a positive integer*
 > 
 > $6^{k}+13^{k+1}=7m$
 > 
 > > * *
 > 
 > > *STEP 3: The inductive step*
-> *Substitute *$n=k+1$* into the function*
+> *Substitute* $n=k+1$ *into the function*
 > 
 > $\begin{gathered} \mathrm{f} ( k + 1 ) & = 6^{k + 1} + 13^{( k + 1 ) + 1} \\ = 6^{k + 1} + 13^{k + 2} \end{gathered}$
 > 
-> > *Now make either *$6^{k}$* or *$13^{k+1}$* the subject of STEP 2 and substitute it in*
+> > *Now make either* $6^{k}$ *or* $13^{k+1}$ *the subject of STEP 2 and substitute it in*
 > *It helps to use index laws first*
 > 
 > $\begin{gathered} \mathrm{f} ( k + 1 ) & = 6^{k \times 6 + 13^{k} + 2} \\ = ( 7 m - 13^{k + 1} ) \times 6 + 13^{k + 2} \end{gathered}$
 > 
-> > *Simplify the terms, using index laws to group the *$13^{k+1}$* terms*
+> > *Simplify the terms, using index laws to group the* $13^{k+1}$ *terms*
 > 
 > $\begin{gathered} \mathrm{f} ( k + 1 ) & = 42 m - 6 \times 13^{k + 1} + 13^{k + 2} \\ = 42 m - 6 \times 13^{k + 1} + 13 \times 13^{k + 1} \\ = 42 m + ( - 6 + 13 ) \times 13^{k + 1} \\ = 42 m + 7 \times 13^{k + 1} \end{gathered}$
 > 
@@ -211,16 +211,16 @@ guided_study: false
 > 
 > $\begin{gathered} \mathrm{f} ( k + 1 ) & = 7 \times ( 6 m + 13^{k + 1} ) \end{gathered}$
 > 
-> > *State that it is true for *$n=k+1$
+> > *State that it is true for* $n=k+1$
 > 
-> $\mathrm{f} ( k + 1 )$* is divisible by 7, so it is true for *$n=k+1$
+> $\mathrm{f} ( k + 1 )$ *is divisible by 7, so it is true for* $n=k+1$
 > 
 > > * *
 > 
 > > *STEP 4: The conclusion*
-> *We have just proved that if the case when *$n=k$* is true, then the case when *$n=k+1$* is true*
-> *We have also shown that the case when *$n=0$* is true*
-> *Those two parts come together to mean that *$n=0$* is true, so** *$n=1$* is true, so *$n=2$* is true, ... and so on*
+> *We have just proved that if the case when* $n=k$ *is true, then the case when* $n=k+1$ *is true*
+> *We have also shown that the case when* $n=0$ *is true*
+> *Those two parts come together to mean that* $n=0$* is true, so** *$n=1$ *is true, so* $n=2$ *is true, ... and so on*
 > 
 > **Final answer:** **If it is true for **$n=k$**, then it is true for **$n=k+1$**.**
 > **As it is true for **$n=0$**, the statement is true for all integers **$n\geq0$**.**
@@ -273,51 +273,51 @@ guided_study: false
 > Prove by mathematical induction that $u_{n}=5^{n-1}+1$, where $n\geq1$.
 > 
 > > *STE P 1: The basic step*
-> *Find *$u_{1}$* from the recursive sequence*
+> *Find* $u_{1}$ *from the recursive sequence*
 > 
 > $u_{1}=2$
 > 
-> > *Find *$u_{1}$* from the **n*<sup>*th*</sup>* term formula*
+> > *Find* $u_{1}$* from the **n*<sup>*th*</sup> *term formula*
 > 
 > $\begin{gathered} u_{1} & = 5^{1 - 1} + 1 \\ = 5^{0} + 1 \\ = 1 + 1 \\ = 2 \end{gathered}$
 > 
 > > *These two terms are equal*
-> *State that it is true for *$n=1$
+> *State that it is true for* $n=1$
 > 
-> *It is true for *$n=1$
+> *It is true for* $n=1$
 > 
 > > * *
 > 
 > > *STEP 2: The assumption step*
-> *Assume the formula is true for some *$n=k$* where *$k$* is a positive integer*
+> *Assume the formula is true for some* $n=k$ *where* $k$ *is a positive integer*
 > 
-> *Assume that *$u_{k}=5^{k-1}+1$
+> *Assume that* $u_{k}=5^{k-1}+1$
 > 
 > > * *
 > 
 > > *STEP 3: The inductive step*
-> *Use the recursive sequence to write *$u_{k+1}$* in terms of *$u_{k}$
+> *Use the recursive sequence to write* $u_{k+1}$ *in terms of* $u_{k}$
 > 
 > $\begin{gathered} u_{k + 1} & = 5 u_{k} - 4 \end{gathered}$
 > 
-> > *Replace *$u_{k}$* with the assumption in STEP 2 and simplify*
+> > *Replace* $u_{k}$ *with the assumption in STEP 2 and simplify*
 > 
 > $\begin{gathered} u_{k + 1} & = 5 ( 5^{k - 1} + 1 ) - 4 \\ = 5^{k} + 5 - 4 \\ = 5^{k} + 1 \end{gathered}$
 > 
-> > *Check that this is the same as substituting *$n=k+1$* into the **n*<sup>*th*</sup>* term formula *
+> > *Check that this is the same as substituting* $n=k+1$* into the **n*<sup>*th*</sup> *term formula*
 > 
 > $\begin{gathered} u_{k + 1} & = 5^{( k + 1 ) - 1} + 1 \\ = 5^{k} + 1 \end{gathered}$
 > 
-> > *State that the result is true for *$n=k+1$
+> > *State that the result is true for* $n=k+1$
 > 
-> *It is true for *$n=k+1$
+> *It is true for* $n=k+1$
 > 
 > > * *
 > 
 > > *STEP 4: The conclusion*
-> *We have just proved that if the case when *$n=k$* is true, then the case when *$n=k+1$* is true*
-> *We have also shown that the case when *$n=1$* is true*
-> *Those two parts come together to mean that *$n=1$* is true, so** *$n=2$* is true, so *$n=3$* is true, ... and so on*
+> *We have just proved that if the case when* $n=k$ *is true, then the case when* $n=k+1$ *is true*
+> *We have also shown that the case when* $n=1$ *is true*
+> *Those two parts come together to mean that* $n=1$* is true, so** *$n=2$ *is true, so* $n=3$ *is true, ... and so on*
 > 
 > **Final answer:** **If it is true for **$n=k$**, then it is true for **$n=k+1$**.**
 > **As it is true for **$n=1$**, the statement is true for all **$n\inℤ^{+}$**.**
@@ -364,25 +364,25 @@ guided_study: false
 > Prove, using mathematical induction, that $M^{n} = ( \begin{gathered} 2^{n} & 2 ( 2^{n} - 1 ) \\ 0 1 \end{gathered} )$ for all integers satisfying $n\geq1$.
 > 
 > > *STE P 1: The basic step*
-> *Prove that it is true for *$n=1$
+> *Prove that it is true for* $n=1$
 > 
 > $\begin{gathered} M^{1} & = ( \begin{gathered} 2^{1} & 2 ( 2^{1} - 1 ) \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 2 2 \\ 0 1 \end{gathered} ) \\ = M \end{gathered}$
 > 
-> > *State that it is true for *$n=1$
+> > *State that it is true for* $n=1$
 > 
-> *It is true for *$n=1$
+> *It is true for* $n=1$
 > 
 > > * *
 > 
 > > *STEP 2: The assumption step*
-> *Assume the formula is true for some *$n=k$* where *$k$* is a positive integer*
+> *Assume the formula is true for some* $n=k$ *where* $k$ *is a positive integer*
 > 
-> *Assume that *$M^{k} = ( \begin{gathered} 2^{k} & 2 ( 2^{k} - 1 ) \\ 0 1 \end{gathered} )$* *
+> *Assume that* $M^{k} = ( \begin{gathered} 2^{k} & 2 ( 2^{k} - 1 ) \\ 0 1 \end{gathered} )$* *
 > 
 > > * *
 > 
 > > *STEP 3: The inductive step*
-> *Look at the power of *$n=k+1$
+> *Look at the power of* $n=k+1$
 > 
 > $\begin{gathered} M^{k + 1} \end{gathered}$
 > 
@@ -395,20 +395,20 @@ guided_study: false
 > 
 > * *$\begin{gathered} M^{k + 1} & = ( \begin{gathered} 2^{k \times 2 + 0 & 2^{k} \times 2 + 2 ( 2^{k} + 1} - 1 ) \times 1 \\ 0 + 0 & 0 + 1 \end{gathered} ) \\ = ( \begin{gathered} 2^{k + 1} & 2 \times 2^{k + 1} - 2 \\ 0 1 \end{gathered} ) \end{gathered}$
 > 
-> > *Check that this is the same as substituting *$n=k+1$* into the formula for *$M^{n}$
+> > *Check that this is the same as substituting* $n=k+1$ *into the formula for* $M^{n}$
 > 
 > * *$\begin{gathered} M^{k + 1} & = ( \begin{gathered} 2^{k + 1} & 2 ( 2^{k + 1} - 1 ) \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 2^{k + 1} & 2 \times 2^{k + 1} - 2 \\ 0 1 \end{gathered} ) \end{gathered}$
 > 
-> > *State that the result is true for *$n=k+1$
+> > *State that the result is true for* $n=k+1$
 > 
-> *It is true for *$n=k+1$
+> *It is true for* $n=k+1$
 > 
 > > * *
 > 
 > > *STEP 4: The conclusion*
-> *We have just proved that if the case when *$n=k$* is true, then the case when *$n=k+1$* is true*
-> *We have also shown that the case when *$n=1$* is true*
-> *Those two parts come together to mean that *$n=1$* is true, so** *$n=2$* is true, so *$n=3$* is true, ... and so on*
+> *We have just proved that if the case when* $n=k$ *is true, then the case when* $n=k+1$ *is true*
+> *We have also shown that the case when* $n=1$ *is true*
+> *Those two parts come together to mean that* $n=1$* is true, so** *$n=2$ *is true, so* $n=3$ *is true, ... and so on*
 > 
 > **Final answer:** **If it is true for **$n=k$**, then it is true for **$n=k+1$**.**
 > **As it is true for **$n=1$**, the statement is true for all **$n\inℤ^{+}$**.**

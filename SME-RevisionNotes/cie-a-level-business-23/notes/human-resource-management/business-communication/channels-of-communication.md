@@ -34,7 +34,7 @@ guided_study: false
 - The message travels step-by-step up or down the *hierarchy*, following the *chain of command*
 - Chain communication suits tall, rule-bound organisations, such as the armed forces
 
-  - There is clear *authority *and *accountability*
+  - There is clear *authority* and *accountability*
   - It is easy to trace who said what
 - However, it is slow, as passing the message through each layer adds time
 
@@ -74,9 +74,9 @@ guided_study: false
 | **Benefit** | **Explanation** | **Example** |
 |---|---|---|
 | **Clear instructions** | - Formal documents state the exact steps, deadlines and who is responsible<br>- Staff do not have to guess or ask several people, so tasks are done the same way on every shift and in every location | - A production manager gives operators a** checklist** to follow before the machines run<br>- Errors are reduced and product quality remains stable |
-| **A record is kept** | - Saving messages as emails, *minutes *or forms creates proof of what was decided and who agreed<br>- Managers can trace problems and settle arguments because the date and wording are stored | - A customer claims a delivery was late; the logistics team shows the ***despatch note*** email to prove the goods left on time |
-| **Fairness** | - Formal channels like the *intranet*, noticeboards or newsletters send the same information to all employees at once<br>- *Overtime *offers, training places or job vacancies are open to everyone, not just close friends of the boss | - A shop manager posts the **weekly rota** on the staff portal instead of handing it to favourite supervisors, so each worker can plan ahead |
-| **Legal protection** | - Laws often require firms to keep contracts, policies and safety records; these documents act as legal evidence if *audited *or taken to court<br>- They show the company followed proper rules and gave clear warnings | - After an accident on-site, a business can show the worker’s **signed safety training record** to prove correct training was given, reducing possible *fines* |
+| **A record is kept** | - Saving messages as emails, *minutes* or forms creates proof of what was decided and who agreed<br>- Managers can trace problems and settle arguments because the date and wording are stored | - A customer claims a delivery was late; the logistics team shows the ***despatch note*** email to prove the goods left on time |
+| **Fairness** | - Formal channels like the *intranet*, noticeboards or newsletters send the same information to all employees at once<br>- *Overtime* offers, training places or job vacancies are open to everyone, not just close friends of the boss | - A shop manager posts the **weekly rota** on the staff portal instead of handing it to favourite supervisors, so each worker can plan ahead |
+| **Legal protection** | - Laws often require firms to keep contracts, policies and safety records; these documents act as legal evidence if *audited* or taken to court<br>- They show the company followed proper rules and gave clear warnings | - After an accident on-site, a business can show the worker’s **signed safety training record** to prove correct training was given, reducing possible *fines* |
 
 ## One- and two-way communication
 

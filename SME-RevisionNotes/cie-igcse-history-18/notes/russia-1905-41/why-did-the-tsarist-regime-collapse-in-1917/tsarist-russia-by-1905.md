@@ -65,7 +65,7 @@ Hated Change: “Reforms to Russia may challenge his authority” and “The Tsa
   - **Russia’s limited industry developed in the west of the empire**
   - Russian workers did not have the skills to keep up with production in Western Europe
   
-    - Russia developed *pig iron* whereas Britain and Germany produced *alloys *like steel
+    - Russia developed *pig iron* whereas Britain and Germany produced *alloys* like steel
   - **Much of Russia did not have roads**
   
     - Russia had **begun to develop railways**, having over 30,000 miles of railway tracks

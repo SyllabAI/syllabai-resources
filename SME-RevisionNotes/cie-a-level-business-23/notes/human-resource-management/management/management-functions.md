@@ -164,7 +164,7 @@ guided_study: false
 - Managers contribute to business performance by **planning**, **leading**, **organising, **and **making appropriate decisions**
 
   - Good managers help businesses run smoothly, adapt to change and meet objectives effectively
-  - Poor management can lead to confusion, low *morale *and missed opportunities
+  - Poor management can lead to confusion, low *morale* and missed opportunities
 
 > **Case Study**
 > **Better management at Café Verde**
@@ -173,7 +173,7 @@ guided_study: false
 > 
 > ![Green coffee bean and leaf logo with the text "Café Verde" beneath on a beige background, symbolising a natural coffee brand.](assets/7e3c1ec505d2-58476-cafe-verde-logo.bin)
 > 
-> When the business began struggling with high staff turnover and inconsistent customer service, the owner promoted Lindiwe, an experienced* team leader*, to the role of operations manager.
+> When the business began struggling with high staff turnover and inconsistent customer service, the owner promoted Lindiwe, an experienced *team leader*, to the role of operations manager.
 > 
 > Lindiwe introduced several key changes:
 > 
@@ -184,5 +184,5 @@ guided_study: false
 > 
 > **Outcomes**
 > 
-> - Within three months, customer complaints fell by 40%, staff morale improved and *staff turnover *reduced significantly
+> - Within three months, customer complaints fell by 40%, staff morale improved and *staff turnover* reduced significantly
 > - Sales increased as more customers returned and left positive reviews online

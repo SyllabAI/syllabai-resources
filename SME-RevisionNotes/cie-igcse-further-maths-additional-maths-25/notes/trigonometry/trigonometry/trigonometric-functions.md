@@ -28,7 +28,7 @@ guided_study: false
 |---|---|---|---|
 | Sine | $\sin ( x )$ | $x\inℝ$ | $- 1 \le \text{sin} ( x ) \le 1$ |
 | Cosine | $\cos ( x )$ | $x\inℝ$ | $- 1 \le \text{cos} ( x ) \le 1$ |
-| Tangent | $\tan ( x )$ | `x in real numbers | x != +/- 90 deg , +/- 270 deg , +/- 450 deg ,... ( in degrees ) | x != +/- pi / 2 , +/- (3 pi)/(2) , +/- (5 pi)/(2) ,... ( in radians )` | $\tan ( x ) \in \mathbb{R}$ |
+| Tangent | $\tan ( x )$ | `x in real numbers | x !=+/- 90 deg ,+/- 270 deg ,+/- 450 deg ,... (in degrees) | x !=+/- π / 2 ,+/- (3π)/(2) ,+/- (5π)/(2) ,... (in radians)` | $\tan ( x ) \in \mathbb{R}$ |
 
 ### How can I use the trigonometric functions with right-angled triangles?
 
@@ -76,12 +76,12 @@ guided_study: false
     - $\cot x = \frac{1}{\tan x }$
 - A good way to remember which function is which is to look at the **third** letter in each of the reciprocal trig functions
 
-  - co**t** *x* is 1 over **t**an *x *etc
+  - co**t** *x* is 1 over **t**an *x* etc
 - Each of the reciprocal trig functions are **undefined** for certain values of *x*
 
-  - **sec ***x* is undefined for values of *x* for which **cos *****x***** = 0**
+  - **sec ***x *is undefined for values of* x* for which **cos *****x***** = 0**
   - **cosec** *x* is undefined for values of *x* for which **sin *****x***** = 0**
-  - **cot ***x* is undefined for values of *x* for which **tan *****x***** = 0**
+  - **cot ***x *is undefined for values of* x* for which **tan *****x***** = 0**
   
     - When tan *x* is undefined, cot *x* = 0
 - **Be careful** not to confuse the reciprocal trig functions with the inverse trig functions
@@ -97,7 +97,7 @@ guided_study: false
 > 
 > `sec ( pi / 6 ) = (1)/(cos ( pi / 6 ))`
 > 
-> > *Write down the value of *`cos ( pi / 6 )`*.*
+> > *Write down the value of* `cos ( pi / 6 )`*.*
 > 
 > `sec ( pi / 6 ) = (1)/(( (sqrt( 3)/(2) ))`
 > 

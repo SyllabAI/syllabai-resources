@@ -19,13 +19,13 @@ guided_study: true
 
 - In some plants species their **height **is partially controlled by their genes
 - The ***Le *****gene** dictates the height of some plants
-- It has two alleles: *Le *and *le*
+- It has two alleles: *Le* and *le*
 
   - The dominant allele** *****Le *****produces tall plants** when present
   - The recessive allele** *****le *****produces shorter plants** when present (in a *homozygous* individual)
 - The gene regulates the production of an **enzyme** that is involved in a pathway that forms **active gibberellin** GA<sub>1</sub>
 - Active gibberellin is a hormone that helps plants grow by **stimulating cell division and elongation** in the stem
-- The recessive allele *le *results in **non-functional enzyme**
+- The recessive allele *le* results in **non-functional enzyme**
 
   - It is only **one nucleotide different** to the dominant allele
   - This causes a single amino acid substitution (threonine -> alanine) in the primary structure of the enzyme

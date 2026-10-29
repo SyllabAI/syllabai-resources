@@ -40,7 +40,7 @@ guided_study: true
 |---|
 | `score = int() `*# whole number* |
 | `cost = float() `*# decimal number* |
-| `light = bool()`* # data can only have one or two values* |
+| `light = bool()` *# data can only have one or two values* |
 
 ### What is a constant?
 

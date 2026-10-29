@@ -29,7 +29,7 @@ guided_study: false
   - Fewer people paying tax which can lead to higher taxes
   - **Underused resources**, which can lead to wastage
   - A shortage of workers
-  - Lower levels of *exports *and production, which affects the wealth of an area
+  - Lower levels of *exports* and production, which affects the wealth of an area
   - Fewer customers for goods and services
 - **Optimum population** occurs when there is a balance between the number of people and available resources/technology
 ** **

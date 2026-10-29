@@ -151,7 +151,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Where:\n\n  - *Q* = charge remaining (C)\n  - *Q*<sub>0</sub> = initial charge stored (C)\n  - *e* = exponential function\n  - *t* = elapsed time (s)\n  - *R = *circuit* *resistance (Ω)\n  - *C* = capacitance (F)"
+   "md": "- Where:\n\n  - *Q* = charge remaining (C)\n  - *Q*<sub>0</sub> = initial charge stored (C)\n  - *e* = exponential function\n  - *t* = elapsed time (s)\n  - *R =* circuit* *resistance (Ω)\n  - *C* = capacitance (F)"
   },
   {
    "type": "heading",
@@ -168,7 +168,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Therefore, substituting *CV* for *Q *into the original exponential decay equation gives:"
+   "md": "- Therefore, substituting *CV* for *Q* into the original exponential decay equation gives:"
   },
   {
    "type": "paragraph",
@@ -176,7 +176,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Cancelling *C *from both sides gives the exponential decay equation for **potential difference *****V*****:**"
+   "md": "- Cancelling *C* from both sides gives the exponential decay equation for **potential difference *****V*****:**"
   },
   {
    "type": "paragraph",
@@ -201,11 +201,11 @@
   },
   {
    "type": "bullets",
-   "md": "- Recall Ohm's law ***V***** = *****IR***\n\n  - It follows that the initial potential difference *V*<sub>0</sub>* *= *I*<sub>0</sub>*R *(where *I*<sub>0</sub> is the initial current)"
+   "md": "- Recall Ohm's law ***V***** = *****IR***\n\n  - It follows that the initial potential difference *V*<sub>0</sub>* *= *I*<sub>0</sub>*R* (where *I*<sub>0</sub> is the initial current)"
   },
   {
    "type": "bullets",
-   "md": "- Therefore, substituting *IR* for *V *into the decay equation for potential difference gives:"
+   "md": "- Therefore, substituting *IR* for *V* into the decay equation for potential difference gives:"
   },
   {
    "type": "paragraph",
@@ -213,7 +213,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Cancelling *R *from both sides gives the exponential decay equation for **current *****I*****:**"
+   "md": "- Cancelling *R* from both sides gives the exponential decay equation for **current *****I*****:**"
   },
   {
    "type": "paragraph",
@@ -231,7 +231,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A 10 mF capacitor is fully charged by a 12 V power supply and then discharged through a 1 kΩ resistor.\n\nWhat is the discharge current after 15 s?\n\n**Answer:**\n\n**Step 1: Write the known quantities**\n\n- Initial potential difference *V*<sub>0</sub> = 12 V\n- Resistance *R* = 1 kΩ = 1000 Ω\n- Capacitance *C* = 10 mF = 0.01 F\n- Time elapsed = 15 s\n\n**Step 2: Determine the initial current *****I***<sub>**0**</sub>\n\n- Since the initial potential difference is 12 V and the resistance is 1000 Ω, then:\n\n$I_{0}=\\frac{V_{0}}{R}=\\frac{12}{1000}$= 0.012 A\n\n**Step 3: Write the decay equation for current**\n\n- The decay equation for current is:\n\n$I=I_{0}e^{-(t/RC)}$\n\n**Step 4: Substitute quantities and calculate the current after 15 s **\n\n- Substituting quantities gives the following:\n\n*I* = (0.012) × (*e*<sup>–(15/(1000 × 0.01)</sup>)\n\n*I* = (0.012) × (*e*<sup>–1.5</sup>)\n\n*I *= (0.012) × (0.223...)\n\n*I* = 2.7 × 10<sup>–3</sup> A = 2.7 mA"
+   "md": "A 10 mF capacitor is fully charged by a 12 V power supply and then discharged through a 1 kΩ resistor.\n\nWhat is the discharge current after 15 s?\n\n**Answer:**\n\n**Step 1: Write the known quantities**\n\n- Initial potential difference *V*<sub>0</sub> = 12 V\n- Resistance *R* = 1 kΩ = 1000 Ω\n- Capacitance *C* = 10 mF = 0.01 F\n- Time elapsed = 15 s\n\n**Step 2: Determine the initial current *****I***<sub>**0**</sub>\n\n- Since the initial potential difference is 12 V and the resistance is 1000 Ω, then:\n\n$I_{0}=\\frac{V_{0}}{R}=\\frac{12}{1000}$= 0.012 A\n\n**Step 3: Write the decay equation for current**\n\n- The decay equation for current is:\n\n$I=I_{0}e^{-(t/RC)}$\n\n**Step 4: Substitute quantities and calculate the current after 15 s **\n\n- Substituting quantities gives the following:\n\n*I* = (0.012) × (*e*<sup>–(15/(1000 × 0.01)</sup>)\n\n*I* = (0.012) × (*e*<sup>–1.5</sup>)\n\n*I* = (0.012) × (0.223...)\n\n*I* = 2.7 × 10<sup>–3</sup> A = 2.7 mA"
   },
   {
    "type": "callout",
@@ -305,7 +305,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Following similar steps, the linearised versions of the decay equations for **potential** **difference** *V *is:"
+   "md": "- Following similar steps, the linearised versions of the decay equations for **potential** **difference** *V* is:"
   },
   {
    "type": "paragraph",
@@ -323,13 +323,13 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "When a capacitor discharges, the voltage *V* across it varies with time *t. *A graph showing the variation of ln *V* against *t* is shown for a particular discharging capacitor.\n\n![7-13-we-natural-log-graph-pd_edexcel-al-physics-rn](assets/8c4c28545919-7-13-we-natural-log-graph-pd-edexcel-al-physics-.png)\n\nUse the graph to determine the initial voltage across the capacitor.\n\n**Answer:**\n\n**Step 1: Write the equation for the linearised decay equation for potential difference**\n\n- The linearised decay equation for potential difference is given by:\n\n$\\mathrm{ln}V=-\\frac{1}{RC}t+\\mathrm{ln}V_{0}$\n\n**Step 2: Interpret the graph given using the linearised equation**\n\n- The equation says the y-intercept of the straight line is represented by ln *V*<sub>0</sub>\n\n**Step 3: Use the y-intercept to determine the initial voltage**\n\n- The y-intercept is equal to 2.1\n- Therefore:\n\nln *V*<sub>0</sub> = 2.1\n\n**Step 4: Cancel the natural logarithm using the exponential function:**\n\n- Raising both sides using the exponential function *e* 'cancels' the natural logarithm\n- This gives:\n\n*V*<sub>0</sub> = *e*<sup>(2.1)</sup> = 8.2 V"
+   "md": "When a capacitor discharges, the voltage *V* across it varies with time *t.* A graph showing the variation of ln *V* against *t* is shown for a particular discharging capacitor.\n\n![7-13-we-natural-log-graph-pd_edexcel-al-physics-rn](assets/8c4c28545919-7-13-we-natural-log-graph-pd-edexcel-al-physics-.png)\n\nUse the graph to determine the initial voltage across the capacitor.\n\n**Answer:**\n\n**Step 1: Write the equation for the linearised decay equation for potential difference**\n\n- The linearised decay equation for potential difference is given by:\n\n$\\mathrm{ln}V=-\\frac{1}{RC}t+\\mathrm{ln}V_{0}$\n\n**Step 2: Interpret the graph given using the linearised equation**\n\n- The equation says the y-intercept of the straight line is represented by ln *V*<sub>0</sub>\n\n**Step 3: Use the y-intercept to determine the initial voltage**\n\n- The y-intercept is equal to 2.1\n- Therefore:\n\nln *V*<sub>0</sub> = 2.1\n\n**Step 4: Cancel the natural logarithm using the exponential function:**\n\n- Raising both sides using the exponential function *e* 'cancels' the natural logarithm\n- This gives:\n\n*V*<sub>0</sub> = *e*<sup>(2.1)</sup> = 8.2 V"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "You need to know how to derive decay equations for pd and for current from the decay equation for charge, as well as how to use and interpret natural logarithm equations. If you can understand that these natural log equations are **linear**, because they can plotted as a graph in the form *y* = *mx *+ *c*, then you are well set for exam questions on this topic! Remember:\n\n- The gradient of the straight line is given by -1/*RC*\n- The y-intercept of the line represents ln *Q*<sub>0</sub> or ln *V*<sub>0</sub> or ln *I*<sub>0</sub>"
+   "md": "You need to know how to derive decay equations for pd and for current from the decay equation for charge, as well as how to use and interpret natural logarithm equations. If you can understand that these natural log equations are **linear**, because they can plotted as a graph in the form *y* = *mx* + *c*, then you are well set for exam questions on this topic! Remember:\n\n- The gradient of the straight line is given by -1/*RC*\n- The y-intercept of the line represents ln *Q*<sub>0</sub> or ln *V*<sub>0</sub> or ln *I*<sub>0</sub>"
   }
  ]
 }

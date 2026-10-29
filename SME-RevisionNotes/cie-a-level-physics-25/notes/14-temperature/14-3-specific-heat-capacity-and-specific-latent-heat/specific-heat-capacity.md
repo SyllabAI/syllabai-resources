@@ -40,7 +40,7 @@ guided_study: true
 
 ### Calculating specific heat capacity
 
-- The amount of thermal energy *Q* needed to raise the temperature by *∆θ* for a mass *m *with specific heat capacity *c* is equal to:
+- The amount of thermal energy *Q* needed to raise the temperature by *∆θ* for a mass *m* with specific heat capacity *c* is equal to:
 
 **∆*****Q***** = *****mc*****∆*****θ***
 

@@ -29,7 +29,7 @@ $T=2π\sqrt{\frac{l}{g}}$
 - Where:
 
   - $l$ = the length of the pendulum
-  - $g$* =* the gravitational field strength on the planet on which the pendulum is set up
+  - $g$ *=* the gravitational field strength on the planet on which the pendulum is set up
 
 > **Worked Example**
 > A child is sitting on a swing that is 200 cm long. What is the period of oscillation?
@@ -42,7 +42,7 @@ $T=2π\sqrt{\frac{l}{g}}$
 > 
 > **Step 2: Substitute the correct values**
 > 
-> *T *= 2π$\sqrt{\frac{l}{g}}$= 2π$\sqrt{\frac{2}{9.81}}$=2.84 s
+> *T* = 2π$\sqrt{\frac{l}{g}}$= 2π$\sqrt{\frac{2}{9.81}}$=2.84 s
 > 
 > **Step 3: Confirm the answer**
 > 

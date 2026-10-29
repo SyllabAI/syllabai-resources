@@ -15,7 +15,7 @@ guided_study: false
 
 ### Summary
 
-When Franklin D. Roosevelt (FDR) was* inaugurated *in January 1933, he faced an enormous task. His solution completely reshaped the relationship between the *federal government* and the American people. Roosevelt brought *direct relief* to those who needed it most and created millions of jobs for unemployed Americans.
+When Franklin D. Roosevelt (FDR) was *inaugurated* in January 1933, he faced an enormous task. His solution completely reshaped the relationship between the *federal government* and the American people. Roosevelt brought *direct relief* to those who needed it most and created millions of jobs for unemployed Americans.
 
 This *radical solution* to the problems caused by the Great Depression was known as the “**New Deal**” for the American people.
 
@@ -58,7 +58,7 @@ This *radical solution* to the problems caused by the Great Depression was known
 
   - Many people had openly broken the Prohibition
   - It had become acceptable for people to ignore the government
-  - The Act stopped millions of dollars from going to criminals and earned the government *revenue *from taxing alcohol
+  - The Act stopped millions of dollars from going to criminals and earned the government *revenue* from taxing alcohol
 - This was successful because it reduced law-breaking and increased taxes
 
 #### The Economy Act (1933)

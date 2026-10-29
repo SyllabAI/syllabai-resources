@@ -85,31 +85,31 @@ guided_study: false
 > 
 > Calculate the total variable cost
 > 
-> *Variable costs = Direct materials + Direct labour + Other direct costs *
+> *Variable costs = Direct materials + Direct labour + Other direct costs*
 > 
-> *= \$3 000 + \$5 000 + \$6 000 *
+> *= \$3 000 + \$5 000 + \$6 000*
 > 
-> *= \$14 000 *
+> *= \$14 000*
 > 
 > Calculate the total contribution
 > 
-> *Contribution = Revenue - Variable costs *
+> *Contribution = Revenue - Variable costs*
 > 
 > *= \$200 000 - \$14 000*
 > 
-> *= \$186 000 *
+> *= \$186 000*
 > 
 > Calculate the contribution per unit
 > 
-> *Contribution per unit = Total contribution ÷ Number of units *
+> *Contribution per unit = Total contribution ÷ Number of units*
 > 
-> *= \$186 000 ÷ 10 000 *
+> *= \$186 000 ÷ 10 000*
 > 
-> *= \$18.60 per unit *
+> *= \$18.60 per unit*
 > 
 > Calculate the break-even point in units
 > 
-> *Break-even point in units = Total fixed costs ÷ Contribution per unit *
+> *Break-even point in units = Total fixed costs ÷ Contribution per unit*
 > 
 > *  = \$100 000 ÷ 18.6 *
 > 
@@ -147,17 +147,17 @@ guided_study: false
 > 
 > Calculate the contribution per unit
 > 
-> *Contribution per unit = Selling price per unit - Variable cost per unit *
+> *Contribution per unit = Selling price per unit - Variable cost per unit*
 > 
-> *= \$50 -\$ 30 *
+> *= \$50 -\$ 30*
 > 
-> *= \$20 per unit *
+> *= \$20 per unit*
 > 
 > Calculate the number of units required to make the profit
 > 
 > *Level of output required in units = (Total fixed costs + Target profit) ÷ Contribution per unit*
 > 
-> *= (\$40 000 + \$60 000) ÷ \$20 *
+> *= (\$40 000 + \$60 000) ÷ \$20*
 > 
 > *= 5 000 units*
 > 
@@ -171,7 +171,7 @@ guided_study: false
 > 
 > Or calculate the contribution to sales ratio and use the relevant formula
 > 
-> *Sales to contribution ratio = \$20 ÷ \$50 = 0.4 *
+> *Sales to contribution ratio = \$20 ÷ \$50 = 0.4*
 > 
 > *Level of output required in sales revenue = (Total fixed costs + Target profit) ÷ Contribution to sales ratio*
 > 
@@ -204,9 +204,9 @@ guided_study: false
 > 
 > Use the formula
 > 
-> *Margin of safety in units = Forecasted production - Break-even point in units *
+> *Margin of safety in units = Forecasted production - Break-even point in units*
 > 
-> *= 15 000 - 10 000 *
+> *= 15 000 - 10 000*
 > 
 > **Final answer:** **Margin of safety is 10 000 units **
 

@@ -145,7 +145,7 @@ Decrees on Women: granted equal rights, divorce, and abortion freedoms.](../../.
     - **A hatred of Bolsheviks was not enough to unify these groups**
   - Some generals **treated their soldiers badly**
   
-    - This encouraged troops to *defect *to the Bolsheviks
+    - This encouraged troops to *defect* to the Bolsheviks
   - The White Army's **propaganda was not as effective**
   
     - They could not persuade enough Russians to support their cause

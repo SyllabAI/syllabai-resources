@@ -102,7 +102,7 @@ guided_study: false
 *Layout of the equity and liabilities section of the statement of financial position*
 
 > **Exam Hint**
-> If you are given the information in a trial balance, identify the items that would appear on the statement of financial position.  You might find it helpful to annotate with *SoFP *to differentiate from those which would appear on the income statement.
+> If you are given the information in a trial balance, identify the items that would appear on the statement of financial position.  You might find it helpful to annotate with *SoFP* to differentiate from those which would appear on the income statement.
 
 > **Worked Example**
 > The following trial balance has been extracted by the book-keeper of Bilal Aba at 31 December 2023.

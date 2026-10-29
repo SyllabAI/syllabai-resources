@@ -26,14 +26,14 @@ guided_study: false
 #### Effect on the value of K<sub>c</sub>
 
 - For a reaction that is exothermic in the forward direction, increasing the temperature pushes the equilibrium from right to left
-- Therefore, the value of *K*<sub>*c *</sub>will decrease as the ratio of [ products ] to [ reactants ] decreases
-- Conversely, if the temperature is raised in an endothermic reaction, the value of *K*<sub>*c *</sub>will increase
+- Therefore, the value of *K*<sub>*c* </sub>will decrease as the ratio of [ products ] to [ reactants ] decreases
+- Conversely, if the temperature is raised in an endothermic reaction, the value of *K*<sub>*c* </sub>will increase
 
 #### Effect on the value of K<sub>p</sub>
 
 - For a reaction that is exothermic in the forward direction, increasing the temperature pushes the equilibrium from right to left
-- Therefore, the value of *K*<sub>*p *</sub>will decrease as the ratio of [ products ] to [ reactants ] decreases
-- Conversely, if the temperature is raised in an endothermic reaction, the value of *K*<sub>*p *</sub>will increase
+- Therefore, the value of *K*<sub>*p* </sub>will decrease as the ratio of [ products ] to [ reactants ] decreases
+- Conversely, if the temperature is raised in an endothermic reaction, the value of *K*<sub>*p* </sub>will increase
 
 ### Effects of pressure
 
@@ -44,17 +44,17 @@ guided_study: false
 
 #### Effect on the value of Kc
 
-- The value of *K*<sub>*c *</sub>is not affected by any changes in pressure as this does not involve gases.
+- The value of *K*<sub>*c* </sub>is not affected by any changes in pressure as this does not involve gases.
 
 #### Effect on the value of K<sub>p</sub>
 
-- The value of *K*<sub>*p *</sub>is not affected by any changes in pressure.
-- Changes in pressure cause a shift in the position of equilibrium to a new position which restores the value of *K*<sub>*p *</sub>
-- This is analogous to what happens to *K*<sub>*c *</sub>when you change concentration in an aqueous equilibrium; a shift restores equilibrium to a new position maintaining *K*<sub>*c*</sub>
+- The value of *K*<sub>*p* </sub>is not affected by any changes in pressure.
+- Changes in pressure cause a shift in the position of equilibrium to a new position which restores the value of *K*<sub>*p* </sub>
+- This is analogous to what happens to *K*<sub>*c* </sub>when you change concentration in an aqueous equilibrium; a shift restores equilibrium to a new position maintaining *K*<sub>*c*</sub>
 
 ### Presence of a catalyst
 
-- If all other conditions stay the same, the equilibrium constant* K*<sub>*p*</sub> is **not affected **by the presence of a catalyst
+- If all other conditions stay the same, the equilibrium constant *K*<sub>*p*</sub> is **not affected **by the presence of a catalyst
 - A catalyst speeds up both the forward and reverse reactions at the same rate so the ratio of  [ products ] to [ reactants ] remains unchanged
 - Catalysts only cause a reaction to reach equilibrium **faster**
 - Catalysts therefore have **no effect **on the **position of the equilibrium **once this is reached
@@ -66,7 +66,7 @@ guided_study: false
 > 
 > AB (aq) + CD (aq)  ⇌  AC (aq) + BD (aq)      ΔH = +180 kJ mol<sup>-1</sup>
 > 
-> Which factors would affect the value of *K*<sub>*c *</sub>in this equilibrium?
+> Which factors would affect the value of *K*<sub>*c* </sub>in this equilibrium?
 > 
 > **Answer**
 > 

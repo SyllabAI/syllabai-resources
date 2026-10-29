@@ -108,13 +108,13 @@ The following model answer demonstrates a top-mark response to the above task:
 > 
 > **Answer**
 > 
-> *Thank you for coming to listen to me today. I am here to argue that students must participate in decisions about our school. *As you are aware, we currently do not have a school council, which I believe denies us the vital opportunity to influence how our community is run.
+> *Thank you for coming to listen to me today. I am here to argue that students must participate in decisions about our school.* As you are aware, we currently do not have a school council, which I believe denies us the vital opportunity to influence how our community is run.
 > 
 > However, participation must be meaningful. The effectiveness of a council depends entirely on how well it is managed. *If a school pays lip service to student feedback without acting on it, the exercise is pointless.* If representatives invest time only to be ignored, they will inevitably feel disillusioned and powerless. We need a voice that is actually heard.
 > 
-> I appreciate that parents and teachers may feel education should come first, leaving ‘big decisions’ to the professionals. Yet, this view is short-sighted. *As the people who spend the most time here, we should be empowered to make informed decisions about our environment. *Being young does not render us incapable of providing intelligent, constructive feedback.
+> I appreciate that parents and teachers may feel education should come first, leaving ‘big decisions’ to the professionals. Yet, this view is short-sighted. *As the people who spend the most time here, we should be empowered to make informed decisions about our environment.* Being young does not render us incapable of providing intelligent, constructive feedback.
 > 
-> Furthermore, representation brings tangible benefits. *It makes students feel valued and develops crucial life skills like negotiation and decision-making — assets for our CVs. *Students can also offer fresh perspectives on challenging issues like bullying. Evidence suggests that when students are entrusted with responsibility, it leads to better attitudes, improved attendance, and higher results.
+> Furthermore, representation brings tangible benefits. *It makes students feel valued and develops crucial life skills like negotiation and decision-making — assets for our CVs.* Students can also offer fresh perspectives on challenging issues like bullying. Evidence suggests that when students are entrusted with responsibility, it leads to better attitudes, improved attendance, and higher results.
 > 
 > Having critiqued the teachers' guide on setting up councils, I worry it underestimates the significant time commitment required. We must be realistic: effective participation requires hard work. We need a council that has a genuine say on real issues, not just a token gesture. Ultimately, we deserve to be trusted with the responsibility of shaping our own education.
 > 

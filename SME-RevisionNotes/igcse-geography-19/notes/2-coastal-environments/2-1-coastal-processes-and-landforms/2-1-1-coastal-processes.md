@@ -172,7 +172,7 @@ guided_study: false
 
 - Longshore drift is the **main process **of **deposition** and **transportation **along the coast
 - The** prevailing wind **pushes the waves at an angle to the beach
-- As the waves break, the *swash *carries material up the beach at the same angle
+- As the waves break, the *swash* carries material up the beach at the same angle
 - The ***backwash*** then carries the material down the beach at right angles (90°)
 - The process repeats, transporting material along the beach in a **zig-zag movement**
 
@@ -194,7 +194,7 @@ guided_study: false
 > 
 > **[4 marks]**
 > 
-> - Identify the *command words* and *link *to the key term
+> - Identify the *command words* and *link* to the key term
 > - Command words are '**describe and explain**' – say what you see and why
 > - Your focus is on '**longshore drift**' – what is it?
 > - **Answer:**

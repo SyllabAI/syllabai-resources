@@ -51,7 +51,7 @@ guided_study: false
 > The radius of the circle is 6 cm.
 > Angle *OPQ* = 40º.
 > 
-> Find the length* PQ*.
+> Find the length *PQ*.
 > 
 > ![A circle of centre, O, has two points on its circumference, P and Q. The lines OQ and PQ are drawn on. The angle OQP = 40º.](assets/1182e5932dd5-6663-we-radius-intersecting-chord.png)
 > 
@@ -130,7 +130,7 @@ guided_study: false
 > 
 > ![cie-igcse-core-rn-tangent-and-radius-diagram-worked-example-2-working](assets/3fa4541003ec-cie-igcse-core-rn-tangent-and-radius-diagram-wor.png)
 > 
-> *Using the fact that the internal angles in a triangle sum to 180, we can find angle *$x$
+> *Using the fact that the internal angles in a triangle sum to 180, we can find angle* $x$
 > 
 > $\begin{array}{rcl} x + 37 + 37 & = 180 \\ x + 74 & = 180 \end{array}$
 > 
@@ -154,7 +154,7 @@ guided_study: false
 > - Look for tangents in the exam and draw on the radius at right angles to see if it helps
 
 > **Worked Example**
-> Find the value of *θ  *in the diagram below.
+> Find the value of *θ* in the diagram below.
 > 
 > ![A circle with centre, O, and two points on the circumference, S and R. Tangents to the circle, at S and R, meet at a point outside the circle, T. The acute angle between these two tangents at point T is 25º. The angle SOR is labelled θ.](assets/1928678be028-q1a-circle-theorems-1.png)
 > 

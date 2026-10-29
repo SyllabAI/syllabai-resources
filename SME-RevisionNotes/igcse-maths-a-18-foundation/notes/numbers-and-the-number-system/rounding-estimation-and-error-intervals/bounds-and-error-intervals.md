@@ -73,4 +73,4 @@ guided_study: false
 > **Final answer:** **Upper bound: 3.65 km**
 > **Lower bound: 3.55 km**
 > 
-> > *This could also be written as f *$3.55\leql<3.65$
+> > *This could also be written as f* $3.55\leql<3.65$

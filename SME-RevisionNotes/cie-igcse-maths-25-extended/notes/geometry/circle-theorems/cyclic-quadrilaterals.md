@@ -57,7 +57,7 @@ guided_study: true
 > 
 > > *The radius bisects the chord and so creates two congruent triangles*
 > 
-> > *Use this to work out 72° (equal to the equivalent angle in the other triangle) *
+> > *Use this to work out 72° (equal to the equivalent angle in the other triangle)*
 > *And 18° (angles in a triangle add up to 180°)*
 > 
 > > *Then use that** opposite angles in a cyclic quadrilateral add up to 180°*

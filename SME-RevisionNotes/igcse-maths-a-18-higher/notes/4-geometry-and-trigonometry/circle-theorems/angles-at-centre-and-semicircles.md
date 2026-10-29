@@ -87,7 +87,7 @@ guided_study: true
 > 
 > *The angle at the centre is twice the angle at the circumference*
 > 
-> > *Form an equation for *$x$
+> > *Form an equation for* $x$
 > 
 > $2 ( x + 60 ) = 150$
 > 

@@ -24,7 +24,7 @@ guided_study: false
 |---|---|---|
 | **Trade in goods** | - Exports and imports of physical goods<br><br>  - Cars, oil, food, machinery | - Persistent deficit |
 | **Trade in services** | - Exports and imports of services<br><br>  - Banking, insurance, tourism, education | - Persistent surplus |
-| **Primary income** | - Investment income flows<br><br>  - Profits, *dividends *and interest on overseas assets; cross-border wages | - Typically surplus |
+| **Primary income** | - Investment income flows<br><br>  - Profits, *dividends* and interest on overseas assets; cross-border wages | - Typically surplus |
 | **Secondary income** | - One-way transfers with no good or service in return<br><br>  - Foreign aid, remittances, military spending abroad | - Persistent deficit |
 
 ### Balance and imbalances

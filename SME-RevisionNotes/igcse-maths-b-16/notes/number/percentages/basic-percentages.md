@@ -107,7 +107,7 @@ guided_study: false
 > > *Find 35% of 40*
 > *Start by finding 10%, to help find 5% and 30%*
 > 
-> *10% of 40 = 4 *
+> *10% of 40 = 4*
 > *so 30% of 40 = 4 × 3 = 12*
 > *and 5% of 40 = 4 ÷ 2 = 2*
 > 
@@ -129,7 +129,7 @@ guided_study: false
 > 
 > $\frac{150}{1200}$* *
 > 
-> > *Find the value of this fraction as a decimal, using your calculator *
+> > *Find the value of this fraction as a decimal, using your calculator*
 > 
 > $\frac{150}{1200}=0.125$
 > 

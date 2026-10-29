@@ -138,9 +138,9 @@ guided_study: false
 > 
 > **Method 2 (Difference of two squares)**
 > 
-> > *Use the difference of two squares, *$a^{2} - b^{2} = ( a + b ) ( a - b )$
+> > *Use the difference of two squares,* $a^{2} - b^{2} = ( a + b ) ( a - b )$
 > 
-> - *Here *$a=6n+5$* and *$b=6n-5$
+> - *Here* $a=6n+5$ *and* $b=6n-5$
 > 
 > $\begin{gathered} ( 6 n + 5 )^{2} - ( 6 n - 5 )^{2} & = ( ( 6 n + 5 ) + ( 6 n - 5 ) ) ( ( 6 n + 5 ) - ( 6 n - 5 ) ) \\ = ( 12 n ) ( 10 ) \\ = 120 n \end{gathered}$
 > 
@@ -167,7 +167,7 @@ guided_study: false
 > > *At first glance this may look like a question about sequences*
 > 
 > - *But really it is an algebraic proof question*
-> - *You need to prove that *$\frac{2n^{2}+5n+2}{2n+4}$* is not an integer for any positive integer *$n$
+> - *You need to prove that* $\frac{2n^{2}+5n+2}{2n+4}$ *is not an integer for any positive integer* $n$
 > 
 > > *Start by factorising the top and bottom of the expression*
 > 
@@ -181,7 +181,7 @@ guided_study: false
 > 
 > **Method 1**
 > 
-> > $2n+1$* is odd because it is one more than an even number*
+> > $2n+1$ *is odd because it is one more than an even number*
 > 
 > - *and an odd number divided by 2 is never an integer*
 > 
@@ -193,6 +193,6 @@ guided_study: false
 > 
 > $\begin{gathered} a_{n} & = \frac{2 n + 1}{2} \\ = \frac{2 n}{2} + 1 \frac{1}{2} \\ = n + 1 \frac{1}{2} \end{gathered}$
 > 
-> > *That is equal to an integer (*$n$*) plus something that is not an integer *$( 1 \frac{1}{2} )$
+> > *That is equal to an integer (*$n$*) plus something that is not an integer* $( 1 \frac{1}{2} )$
 > 
 > **Final answer:** $a_{n}=n+\frac{1}{2}$**. **$n$** is an integer, so **$n+\frac{1}{2}$** is not an integer. Therefore **$a_{n}$** is not an integer for any value of **$n$**.**

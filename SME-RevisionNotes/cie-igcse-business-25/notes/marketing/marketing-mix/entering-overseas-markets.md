@@ -85,7 +85,7 @@ knowledge, legal requirements"
 
   - Advertising that works in one country may be seen as inappropriate in another
   - Words, symbols or images used in one country might carry completely different or even offensive meanings in another
-  - Product flavours, features or *aesthetics *that are popular in one country may not appeal to consumers in another
+  - Product flavours, features or *aesthetics* that are popular in one country may not appeal to consumers in another
 - Businesses must adapt their products and messages to fit the local culture to avoid misunderstandings and lost sales.
 
 #### 2. Lack of local knowledge

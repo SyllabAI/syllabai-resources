@@ -64,14 +64,14 @@ guided_study: false
 > 
 > **Answer**
 > 
-> > *A description such as: *
+> > *A description such as:*
 > 
 > The Internet is always available** [1]** so he can work at times suitable to him **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > He can collaborate with others **[1]**  to share expertise / reduce the time to complete a task / share workload **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > He can access a wider range of sources **[1]**  allowing him to make better decisions **[1]**

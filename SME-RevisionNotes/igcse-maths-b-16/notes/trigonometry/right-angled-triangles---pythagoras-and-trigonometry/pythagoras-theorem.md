@@ -93,23 +93,23 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *To find *$x$*, we first need to find the length of *$BD$* using triangle *$ABD$
-> *Note that *$BD$* is a shorter side*
-> *Apply Pythagoras' theorem, *$a=\sqrt{c^{2}-b^{2}}$
+> > *To find* $x$*, we first need to find the length of* $BD$ *using triangle* $ABD$
+> *Note that* $BD$ *is a shorter side*
+> *Apply Pythagoras' theorem,* $a=\sqrt{c^{2}-b^{2}}$
 > 
 > $BD=\sqrt{12^{2}-9^{2}}=\sqrt{63}=7.93725...$
 > 
-> > *It is best to leave rounding until the very end, use *$\sqrt{63}$* (or *$3\sqrt{7}$* if this is what your calculator has given you) in subsequent working*
+> > *It is best to leave rounding until the very end, use* $\sqrt{63}$ *(or* $3\sqrt{7}$ *if this is what your calculator has given you) in subsequent working*
 > 
-> > *Find the length of *$DC$* by subtracting the length of *$AD$* from the length of *$AC$
+> > *Find the length of* $DC$ *by subtracting the length of* $AD$ *from the length of* $AC$
 > 
 > $DC=22-9=13\mathrm{cm}$
 > 
-> > *Now we can find *$x$* using triangle *$BCD$
-> *Note that *$BC$* is the hypotenuse*
-> *Apply Pythagoras' theorem, *$c=\sqrt{a^{2}+b^{2}}$
+> > *Now we can find* $x$ *using triangle* $BCD$
+> *Note that* $BC$ *is the hypotenuse*
+> *Apply Pythagoras' theorem,* $c=\sqrt{a^{2}+b^{2}}$
 > 
-> `x equals square root of B D squared plus D C squared end root equals square root of open parentheses square root of 63 close parentheses squared plus 13 squared end root equals square root of 63 plus 169 end root`
+> `x=√(B D²+D C²)=√((√(63)²+13²)=√(63+169)`
 > 
 > $x=\sqrt{232}=15.23154621...$
 > 

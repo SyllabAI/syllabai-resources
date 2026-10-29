@@ -57,7 +57,7 @@ guided_study: false
 >   - Once the paperwork is complete, the car is delivered directly to their home
 > - **Customer support and warranty**
 > 
->   - They receive a 5-year *warranty *and access to customer support in case they need help with features or maintenance
+>   - They receive a 5-year *warranty* and access to customer support in case they need help with features or maintenance
 
 ## Tangible and intangible product attributes
 
@@ -134,7 +134,7 @@ guided_study: false
 |---|---|
 | **Market research collection and analysis can be time-consuming and expensive** | - Before launching a new product, businesses often need to carry out detailed research to understand customer needs, competitor activity and market trends |
 | **Investment in research, development, and design is often very costly** | - Developing a successful product may require expert staff such as engineers or designers, as well as specialised equipment or software |
-| **The cost of producing trial products can be significant** | - Creating *prototypes *or test versions often results in waste, especially if expensive or unusual materials and *components *are used<br>- Early versions may need several changes before being finalised |
+| **The cost of producing trial products can be significant** | - Creating *prototypes* or test versions often results in waste, especially if expensive or unusual materials and *components* are used<br>- Early versions may need several changes before being finalised |
 | **There may be low sales if the product does not meet market expectations** | - If the business targets the wrong customer group or develops a product that fails to solve a real need, it may sell poorly, resulting in lost revenue after a major investment |
 | **A failed product can damage the brand and other products in the range** | - If customers are disappointed with a new product, it can affect their trust in the brand as a whole, leading to reduced sales of existing, successful products |
 

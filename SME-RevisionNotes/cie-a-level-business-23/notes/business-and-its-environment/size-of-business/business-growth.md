@@ -23,7 +23,7 @@ guided_study: false
 | Reason | Explanation | Example |
 |---|---|---|
 | Rising customer demand | - When more people want a company’s products, it can open new stores or hire extra staff to meet that need | - **Deliveroo **expanded into new cities when food-delivery orders surged during lockdown |
-| Economies of scale | - As firms get bigger, they spread fixed costs over more units, cutting the *unit cost *and boosting profits | - A carmaker that builds 1 million vehicles each year pays less per car for parts and factory costs than a business that builds 100,000 cars |
+| Economies of scale | - As firms get bigger, they spread fixed costs over more units, cutting the *unit cost* and boosting profits | - A carmaker that builds 1 million vehicles each year pays less per car for parts and factory costs than a business that builds 100,000 cars |
 | Entering new markets or products | - By selling to new customer groups or introducing related products, a business can find extra sources of revenue | - **Netflix **moved from DVD rentals to streaming and then launched in dozens of countries worldwide |
 
 ## Internal (organic) growth
@@ -65,7 +65,7 @@ guided_study: false
 
 - **A merger **occurs when two or more companies combine **to form a new company, **usually on a **friendly **basis
 
-  - The original companies cease to exist, and their *assets *and *liabilities *are transferred to the newly created entity
+  - The original companies cease to exist, and their *assets* and *liabilities* are transferred to the newly created entity
   - Firms merge to become **stronger together** than they would be apart
   
     - That strength comes from lower costs, more customers, new capabilities or less competition
@@ -82,7 +82,7 @@ guided_study: false
 | Reason | Explanation | Example |
 |---|---|---|
 | **Strategic fit** | - Acquiring another company to enter new markets, offer new products, or gain new technology | - In 2010, **Kraft Foods** bought Cadbury to expand its product range and boost sales in the UK |
-| **Economies of scale** | - Growing larger lets companies cut costs and work more efficiently by combining operations and spreading fixed costs over more output | - When a factory doubles output, its cost per unit falls because *overheads *are spread across more items |
+| **Economies of scale** | - Growing larger lets companies cut costs and work more efficiently by combining operations and spreading fixed costs over more output | - When a factory doubles output, its cost per unit falls because *overheads* are spread across more items |
 | **Synergies** | - Benefits that arise when two companies combine, such as higher revenue, lower costs, or better products | - Two merged airlines share routes and staff, reducing costs and offering more flight options |
 | **Elimination of competition** | - Buying rivals removes competition and increases the buyer’s *market share* | - **Meta **(Facebook’s parent company) acquired WhatsApp in 2014, adding its users to Facebook’s network |
 | **Shareholder value** | - Mergers and takeovers can boost profits, *dividends*, and *share prices*, creating higher returns for investors | - After a merger, a company’s combined profits rise, leading to a higher dividend and a stronger share price |

@@ -45,7 +45,7 @@ guided_study: false
 |---|---|
 | **Purchasing economy** | - Occurs when large firms buy raw materials in greater volumes and receive a *bulk purchase discount*<br>- This lowers the average cost and provides a ***competitive advantage*** over smaller businesses |
 | **Managerial economy** | - Occurs when large firms can **employ specialist managers** who are more efficient at certain tasks<br><br>  - This efficiency lowers the average cost<br>- Managers in small firms often have to fulfil multiple roles and are less specialised |
-| **Marketing economy** | - Occurs when large firms spread the cost of *advertising *over a large number of sales, reducing average costs<br>- They can also reuse marketing materials in **different geographic regions**, which further lowers the average costs |
+| **Marketing economy** | - Occurs when large firms spread the cost of *advertising* over a large number of sales, reducing average costs<br>- They can also reuse marketing materials in **different geographic regions**, which further lowers the average costs |
 | **Financial economy** | - Banks are more **willing to lend **to large businesses, as they present less of a risk than small businesses<br>- They are **charged a lower rate of** ***interest*** on borrowing, reducing average costs |
 | **Technical economy** | - Occurs as a firm is able to use its machinery at a **higher level of *****capacity ***due to increased output<br>- This spreads the cost of the machinery over more units and lowers the average cost |
 

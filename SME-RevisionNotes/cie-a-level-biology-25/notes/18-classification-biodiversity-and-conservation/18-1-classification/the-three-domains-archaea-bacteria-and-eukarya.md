@@ -51,7 +51,7 @@ guided_study: true
   - Ribosomal structure (particularly that of the small subunit) are more similar to the eukaryotic ribosome than that of the bacteria
 - Archaea have a similar size range as bacteria (and in many ways metabolism is similar between the two groups)
 - DNA transcription is more similar to that of eukaryotes
-- Example: *Halobacterium salinarum *are a species of the archaea domain that can be found in environments with high salt concentrations like the Dead Sea
+- Example: *Halobacterium salinarum* are a species of the archaea domain that can be found in environments with high salt concentrations like the Dead Sea
 
 ### Bacteria
 
@@ -59,7 +59,7 @@ guided_study: true
 - These are organisms that have **prokaryotic cells** which contain no nucleus
 - They vary in size over a wide range: the smallest are bigger than the largest known-viruses and the largest are smaller that the smallest known single-celled eukaryotes
 - Bacterial cells divide by binary fission
-- Example: *Streptococcus pneumoniae *is a bacterial species that causes pneumonia
+- Example: *Streptococcus pneumoniae* is a bacterial species that causes pneumonia
 
 ![Microscopic view of two spherical bacterial cells with textured surfaces on a dark, uneven background with scattered circular pits.](../../../assets/4e0ebd889cea-64275-httpscdn-savemyexams-comuploads202310strep.webp)
 
@@ -71,7 +71,7 @@ guided_study: true
 - They vary massively in size from single-celled organisms several micrometres across to large multicellular organisms many-metres in size, such as blue whales
 - Eukaryotic cells divide by mitosis
 - Eukaryotes can reproduce sexually or asexually
-- Example: *Canis lupus *also known as wolves
+- Example: *Canis lupus* also known as wolves
 
 ![Wolf standing on a snowy landscape, surrounded by bare trees. It has a thick, grey and brown coat with its tongue slightly out.](../../../assets/53d1cb9657e5-19884-httpscdn-savemyexams-comuploads202310canis.webp)
 

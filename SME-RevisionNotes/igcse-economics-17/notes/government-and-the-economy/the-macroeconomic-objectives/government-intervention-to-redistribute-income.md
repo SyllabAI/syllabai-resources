@@ -133,7 +133,7 @@ guided_study: false
 
 | **Advantages ** | **Disadvantages ** |
 |---|---|
-| - Higher levels of education and healthcare contribute to increased **human capital** and greater productivity<br>- This leads to **higher output **and, as a result, higher levels of income<br>- Higher levels of education facilitate greater *occupational mobility *<br>- By acquiring skills needed for jobs, individuals can break the ***poverty  cycle ***and contribute to economic growth | - There is a** high cost** and an *opportunity cost* of spending  on education and health care<br>- There is a time lag involved between investing in education and healthcare and seeing the future benefits<br>- A **blend of policies** (investment in education and benefit payments) may be the most effective way to tackle poverty and inequality |
+| - Higher levels of education and healthcare contribute to increased **human capital** and greater productivity<br>- This leads to **higher output **and, as a result, higher levels of income<br>- Higher levels of education facilitate greater *occupational mobility* <br>- By acquiring skills needed for jobs, individuals can break the ***poverty  cycle ***and contribute to economic growth | - There is a** high cost** and an *opportunity cost* of spending  on education and health care<br>- There is a time lag involved between investing in education and healthcare and seeing the future benefits<br>- A **blend of policies** (investment in education and benefit payments) may be the most effective way to tackle poverty and inequality |
 
 > **Exam Hint**
 > In paper 2, you will often be asked to **evaluate** how progressive taxes, benefit payments or investment in education and healthcare will impact inequality or poverty in a given scenario.

@@ -72,17 +72,17 @@ guided_study: false
 > 
 > Find $f(x)$.
 > 
-> > *Integrate *$\mathrm{f}^{'} ( x )$* to find *$\mathrm{f} ( x )$* in '*$+c$*' form*
+> > *Integrate* $\mathrm{f}^{'} ( x )$ *to find* $\mathrm{f} ( x )$ *in '*$+c$*' form*
 > 
 > $\begin{gathered} \mathrm{f} ( x ) & = \int ( 3 x^{2} - 4 x - 4 ) \mathrm{d} x \\ = 3 ( \frac{x^{2 + 1} }{2 + 1} ) - 4 ( \frac{x^{1 + 1} }{1 + 1} ) - 4 x + c \\ = x^{3} - 2 x^{2} - 4 x + c \end{gathered}$
 > 
-> > *We also know the curve of *$y = \mathrm{f} ( x )$* goes through *$( 3 , - 4 )$
+> > *We also know the curve of* $y = \mathrm{f} ( x )$ *goes through* $( 3 , - 4 )$
 > 
-> > *That means the function is equal to *$-4$* when *$x=3$
+> > *That means the function is equal to* $-4$ *when* $x=3$
 > 
 > $( 3 )^{3} - 2 ( 3 )^{2} - 4 ( 3 ) + c = - 4$
 > 
-> > *Solve for *$c$
+> > *Solve for* $c$
 > 
 > $\begin{gathered} 27 - 18 - 12 + c & = - 4 \\ c - 3 & = - 4 \\ c = - 1 \end{gathered}$
 > 

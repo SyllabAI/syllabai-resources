@@ -21,16 +21,16 @@ guided_study: false
 
 - If there is **no constant term** then just factorise out (a multiple of) $x$
 
-  - `x squared minus 9 x equals x open parentheses x minus 9 close parentheses`
-  - `5 x squared plus 30 x equals 5 x open parentheses x plus 6 close parentheses`
+  - `x²−9x=x (x−9)`
+  - `5x²+30x=5x (x+6)`
 - Factorise quadratics of the form $x^{2}+bx+c$ by **inspection**
 
   - Find a pair of numbers, $p$ and $q$, that **multiply** to give $c$ and **add** to give $b$
   
     - E.g. for $x^{2}-21x-100$ the numbers would be $4$ and $-25$
-  - The quadratic will factorise as `open parentheses x plus p close parentheses open parentheses x plus q close parentheses`
+  - The quadratic will factorise as `(x+p)(x+q)`
   
-    - So  `x squared minus 21 x minus 100 equals open parentheses x plus 4 close parentheses open parentheses x minus 25 close parentheses`
+    - So  `x²−21x−100=(x+4)(x−25)`
 
 ### How can I factorise harder quadratics?
 
@@ -51,10 +51,10 @@ guided_study: false
     - $12x^{2}+4x-15x-5$
   - **Group** and **factorise** the first two terms and the last two terms by pulling out **common factors**
   
-    - `4 x open parentheses 3 x plus 1 close parentheses minus 5 open parentheses 3 x plus 1 close parentheses`
+    - `4x (3x+1)−5 (3x+1)`
   - Those two terms now have a **common factor** (in brackets) that can be factorised out
   
-    - `open parentheses 4 x minus 5 close parentheses open parentheses 3 x plus 1 close parentheses`
+    - `(4x−5)(3x+1)`
 
 ### How do I factorise a difference of two squares
 
@@ -65,17 +65,17 @@ guided_study: false
   
     - $x^{2}-36$
     - $9^{2}-5^{2}$
-    - `open parentheses x plus 1 close parentheses squared minus open parentheses x minus 4 close parentheses squared`
-    - $4m^{2}-25n^{2}$  which is equal to  `open parentheses 2 m close parentheses squared minus open parentheses 5 n close parentheses squared`
-- Such expressions will **factorise** as `open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+    - `(x+1)²−(x−4)²`
+    - $4m^{2}-25n^{2}$  which is equal to  `(2m)²−(5n)²`
+- Such expressions will **factorise** as `(a+b)(a−b)`
 
-  - This is because  `open parentheses a plus b close parentheses open parentheses a minus b close parentheses equals a squared minus a b plus a b minus b squared equals a squared minus b squared`
+  - This is because  `(a+b)(a−b)=a²−a b+a b−b²=a²−b²`
   - So
   
-    - `x squared minus 36 equals open parentheses x plus 6 close parentheses open parentheses x minus 6 close parentheses`
-    - `9 squared minus 5 squared equals open parentheses 9 plus 5 close parentheses open parentheses 9 minus 5 close parentheses`  which is equal to $14\times4=56$
-    - `open parentheses x plus 1 close parentheses squared minus open parentheses x minus 4 close parentheses squared equals open parentheses open parentheses x plus 1 close parentheses plus open parentheses x minus 4 close parentheses close parentheses open parentheses open parentheses x plus 1 close parentheses minus open parentheses x minus 4 close parentheses close parentheses` which is equal to `open parentheses 2 x minus 3 close parentheses open parentheses 5 close parentheses equals 10 x minus 15`
-    - `4 m squared minus 25 n squared equals open parentheses 2 m plus 5 n close parentheses open parentheses 2 m minus 5 n close parentheses`
+    - `x²−36=(x+6)(x−6)`
+    - `9²−5²=(9+5)(9−5)`  which is equal to $14\times4=56$
+    - `(x+1)²−(x−4)²=((x+1)+(x−4))((x+1)−(x−4))` which is equal to `(2x−3)(5)=10x−15`
+    - `4m²−25n²=(2m+5n)(2m−5n)`
 
 > **Exam Hint**
 > - As a check, expand your answer and make sure you get the same expression as the one you were trying to factorise.
@@ -86,9 +86,9 @@ guided_study: false
 > 
 > > *           We will factorise by inspection*
 > 
-> > *          We need two numbers that multiply to *$-21$* and add to *$-4$
+> > *          We need two numbers that multiply to *$-21$ *and add to* $-4$
 > 
-> > *         *$+3$* and *$-7$* satisfy this*
+> > *         *$+3$ *and* $-7$ *satisfy this*
 > 
 > > *          Write down the brackets*
 > 
@@ -98,26 +98,26 @@ guided_study: false
 > 
 > > *        We will factorise by splitting the middle term and grouping*
 > 
-> > *        We need two numbers that multiply to  *`6 cross times open parentheses negative 3 close parentheses equals negative 18`*  and  add to *$-7$* *
+> > *        We need two numbers that multiply to  *`6×(−3)=−18` *and  add to* $-7$* *
 > 
-> > $+2$*  and *$-9$* satisfy this*
+> > $+2$ *and* $-9$ *satisfy this*
 > 
 > > *        Split the middle term*
 > 
 > $6x^{2}+2x-9x-3$
 > 
-> > *        Factorise *$2x$* out of the first two terms, and *$-3$* out of the last two terms*
+> > *        Factorise *$2x$ *out of the first two terms, and* $-3$ *out of the last two terms*
 > 
-> `2 x open parentheses 3 x plus 1 close parentheses minus 3 open parentheses 3 x plus 1 close parentheses`
+> `2x (3x+1)−3 (3x+1)`
 > 
-> > *        These have a common factor of *`open parentheses 3 x plus 1 close parentheses`* which can be factored out*
+> > *        These have a common factor of *`(3x+1)` *which can be factored out*
 > 
 > $(2x-3)(3x+1)$
 > 
 > (c) Factorise $9x^{2}-16$.
 > 
-> *Recognise that this is a difference of two squares, because  * * *`9 x squared minus 16 equals open parentheses 3 x close parentheses squared minus open parentheses 4 close parentheses squared`
+> *Recognise that this is a difference of two squares, because* * *`9x²−16=(3x)²−(4)²`
 > 
-> > *         Use the relation  *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+> > *         Use the relation  *`a²−b²=(a+b)(a−b)`
 > 
 > $(3x+4)(3x-4)$

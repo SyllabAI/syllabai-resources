@@ -17,7 +17,7 @@ guided_study: false
 
 ## Introduction to Mixed Economies
 
-- A **mixed economy** is a blend of the* free market *and a *planned economy*
+- A **mixed economy** is a blend of the *free market* and a *planned economy*
 - It is an economy in which there is both a **public and a private sector**
 
   - Individuals, firms and the government **own factors of production** and distribute goods/services. E.g UK, Germany, Ireland, Japan
@@ -46,7 +46,7 @@ guided_study: false
   - A range of government-owned organisations exist in the UK
   
     - **Corporations** like the *BBC* and *Channel 4*
-    - **National services** such as *schools *and the NHS
+    - **National services** such as *schools* and the NHS
     - **Local services **such as *Transport for Greater Manchester* and county-based Social Services
     - **Civil service **departments such as Defence, Police and Social Security
     - **Regulatory bodies **such as the *General Dental Council*

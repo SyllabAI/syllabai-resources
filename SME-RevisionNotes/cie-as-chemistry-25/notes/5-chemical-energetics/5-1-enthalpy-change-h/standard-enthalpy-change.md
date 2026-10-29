@@ -87,7 +87,7 @@ guided_study: true
 > **Worked Example**
 > **Calculating enthalpy changes**
 > 
-> Identify each of the following as Δ*H*<sup>θ</sup><sub>*r*</sub>*, *Δ*H*<sup>θ</sup><sub>*f*</sub>*, *Δ*H*<sup>θ</sup><sub>*c*</sub>* *or Δ*H*<sup>θ</sup><sub>*neut*</sub>:
+> Identify each of the following as Δ*H*<sup>θ</sup><sub>*r*</sub>*,* Δ*H*<sup>θ</sup><sub>*f*</sub>*,* Δ*H*<sup>θ</sup><sub>*c*</sub>* *or Δ*H*<sup>θ</sup><sub>*neut*</sub>:
 > 
 > 1. MgCO<sub>3</sub> (s) → MgO (s) + CO<sub>2</sub> (g)
 > 2. C (graphite) + O<sub>2</sub> (g) → CO<sub>2</sub> (g)

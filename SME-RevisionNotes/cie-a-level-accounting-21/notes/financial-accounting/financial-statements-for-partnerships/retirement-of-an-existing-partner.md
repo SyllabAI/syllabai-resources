@@ -114,7 +114,7 @@ Calculate the share of the** eliminated goodwill **for each of the current partn
 > 
 > - Find the increase in the non-current assets
 > 
-> *\$191 500 - (\$175 000 - \$3 000) = \$19 500 *
+> *\$191 500 - (\$175 000 - \$3 000) = \$19 500*
 > 
 > - Find the decrease in inventory
 > 
@@ -126,11 +126,11 @@ Calculate the share of the** eliminated goodwill **for each of the current partn
 > 
 > - Split the amount using the old profit-sharing ratio
 > 
-> *Lawrence: *`3 over 8 cross times $ 16 space 000 equals $ 6 space 000`
+> *Lawrence:* `3 / 8×$ 16 000=$ 6 000`
 > 
-> *Mike: *`3 over 8 cross times $ 16 space 000 equals $ 6 space 000`
+> *Mike:* `3 / 8×$ 16 000=$ 6 000`
 > 
-> *Nikita: *`2 over 8 cross times $ 16 space 000 equals $ 4 space 000`
+> *Nikita:* `2 / 8×$ 16 000=$ 4 000`
 > 
 > |   | \$ |   | \$ |
 > |---|---|---|---|
@@ -144,19 +144,19 @@ Calculate the share of the** eliminated goodwill **for each of the current partn
 > 
 > - These will be credited to the capital accounts
 > 
-> *Lawrence: *`3 over 8 cross times $ 32 space 000 equals $ 12 space 000`
+> *Lawrence:* `3 / 8×$ 32 000=$ 12 000`
 > 
-> *Mike: *`3 over 8 cross times $ 32 space 000 equals $ 12 space 000`
+> *Mike:* `3 / 8×$ 32 000=$ 12 000`
 > 
-> *Nikita: *`2 over 8 cross times $ 32 space 000 equals $ 8 space 000`
+> *Nikita:* `2 / 8×$ 32 000=$ 8 000`
 > 
 > Calculate the share of goodwill using the new ratio
 > 
 > - These will be debited to the capital accounts
 > 
-> *Lawrence: *`3 over 5 cross times $ 32 space 000 equals $ 19 space 200`
+> *Lawrence:* `3 / 5×$ 32 000=$ 19 200`
 > 
-> *Mike: *`2 over 5 cross times $ 32 space 000 equals $ 12 space 800`
+> *Mike:* `2 / 5×$ 32 000=$ 12 800`
 > 
 > Prepare the capital accounts
 > 

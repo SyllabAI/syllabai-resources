@@ -73,7 +73,7 @@ guided_study: true
   - Multiply both to get the overall **highest common factor**
   
     - 2*a*<sup>2</sup>*b*
-  - 2*a*<sup>3</sup>*b* - 4*a*<sup>*2*</sup>*b*<sup>2</sup>* * is the same as 2*a*<sup>2</sup>*b * × a  -  2*a*<sup>2</sup>*b*  × 2*b*
+  - 2*a*<sup>3</sup>*b* - 4*a*<sup>*2*</sup>*b*<sup>2</sup>* * is the same as 2*a*<sup>2</sup>*b* × a  -  2*a*<sup>2</sup>*b*  × 2*b*
   
     - Using the highest common factor
   - **Take out** the highest common factor
@@ -82,14 +82,14 @@ guided_study: true
     - Put the remaining terms, *a - 2b*,  inside the brackets
   - This gives the answer
   
-    - 2*a*<sup>2</sup>*b *(*a* - 2*b*)
+    - 2*a*<sup>2</sup>*b* (*a* - 2*b*)
 
 > **Exam Hint**
 > In the exam, check that your factorisation is correct by **expanding **the brackets.
 > 
 > **Factorise** means factorise **fully.**
 > 
-> *x *(6*x  *+ 10) is not fully factorised but 2*x *(3*x *+ 5) is.
+> *x* (6*x  *+ 10) is not fully factorised but 2*x *(3*x *+ 5) is.
 
 > **Worked Example**
 > (a) Factorise 5*x* + 15
@@ -156,6 +156,6 @@ guided_study: true
 > 
 > *5***x***<sup>*3*</sup>***y***  × ***x***  + 5***x***<sup>*3*</sup>***y***  × 5***y***<sup>2</sup>*<sup> </sup>
 > 
-> > *Take out the 5**x*<sup>*3*</sup>*y ** and put **x**  + 5**y*<sup>*2*</sup>* in brackets*
+> > *Take out the 5**x*<sup>*3*</sup>*y ** and put **x**  + 5**y*<sup>*2*</sup> *in brackets*
 > 
 > **Final answer:** **5****x**<sup>**3**</sup>**y**** ****(****x****  + 5****y**<sup>**2**</sup>**)**

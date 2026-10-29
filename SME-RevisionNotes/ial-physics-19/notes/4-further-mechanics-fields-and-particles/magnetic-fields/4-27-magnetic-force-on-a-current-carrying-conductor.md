@@ -46,7 +46,7 @@ guided_study: false
   - Current *I*
   - Magnetic flux density *B*
   - Length of conductor in the field *L*
-  - The sine of the angle *θ *between the conductor and the magnetic flux lines
+  - The sine of the angle *θ* between the conductor and the magnetic flux lines
 
 ![Force on conductor (1), downloadable AS & A Level Physics revision notes](../../../assets/508da32c2ff1-20-1-force-on-conductor-1.png)
 

@@ -105,7 +105,7 @@ Calculate the **area** of the **full circle**
 > 
 > $A=\frac{72}{360}π\times5^{2}$
 > 
-> > *Use a calculator to work out this value *
+> > *Use a calculator to work out this value*
 > 
 > *15.70796..*.
 > 
@@ -121,10 +121,10 @@ Calculate the **area** of the **full circle**
 > 
 > $l=\frac{72}{360}\times2\timesπ\times5$
 > 
-> *Simplify the number part without *$π$
+> *Simplify the number part without* $π$
 > 
 > $\frac{72}{360}\times2\times5=\frac{1}{5}\times10=2$
 > 
-> > *Write down the final answer with *$π$
+> > *Write down the final answer with* $π$
 > 
 > **Final answer:** **2π cm**

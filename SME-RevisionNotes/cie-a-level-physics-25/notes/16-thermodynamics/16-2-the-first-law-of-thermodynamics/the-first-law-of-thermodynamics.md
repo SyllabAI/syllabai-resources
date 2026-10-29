@@ -37,7 +37,7 @@ $\DeltaU=q+W$
   - There is an important sign convention used for this equation
 - A **positive **value for internal energy (+∆*U*) means:
 
-  - The internal energy ∆*U *of the system **increases**
+  - The internal energy ∆*U* of the system **increases**
   - Heat (+*q*) is **added** to the system
   - Work (+*W*) is done **on **the system
 - A **negative **value for internal energy (−∆*U*) means:
@@ -65,12 +65,12 @@ $\DeltaU=q+W$
 > 
 > $W=p\DeltaV$
 > 
-> - ∆*V *= final volume − initial volume
+> - ∆*V* = final volume − initial volume
 > 
-> ∆*V = *5.9 × 10<sup>-2</sup> − 2.4 × 10<sup>-5</sup> = 0.058976 m<sup>3</sup>
+> ∆*V =* 5.9 × 10<sup>-2</sup> − 2.4 × 10<sup>-5</sup> = 0.058976 m<sup>3</sup>
 > 
 > - *p* = atmospheric pressure  = 1.03 × 10<sup>5</sup> Pa
-> - *W *= work done
+> - *W* = work done
 > 
 > *W* = (1.03 × 10<sup>5</sup>) × 0.058976 = 6074.528 = 6.07 × 10<sup>3</sup> J
 > 

@@ -185,7 +185,7 @@ guided_study: false
     - Others (e.g. food, personal care) often need local adaptation to suit customer preferences or laws
   - **Resources and budget**
   
-    - Larger businesses may invest in ***FDI*** or* joint ventures*
+    - Larger businesses may invest in ***FDI*** or *joint ventures*
     - Smaller firms may start with ***exporting*** or ***licensing*** due to lower risk and cost
   - **Level of risk**
   
@@ -194,7 +194,7 @@ guided_study: false
   - **Competitive environment**
   
     - Businesses assess the strength and number of competitors
-    - In highly competitive markets, *differentiation *and strong branding are essential
+    - In highly competitive markets, *differentiation* and strong branding are essential
 
 > **Case Study**
 > **Global expansion strategy – Eco Brew Ltd**

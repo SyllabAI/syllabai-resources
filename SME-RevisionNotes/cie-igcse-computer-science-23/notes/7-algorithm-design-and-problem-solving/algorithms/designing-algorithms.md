@@ -90,7 +90,7 @@ construct a solution to a problem"
 |   |
 
 > **Exam Hint**
-> *Pseudocode is ****not real code****—don’t use syntax like*` print()`* or *`input()`* with brackets. Stick to simple statements like:*
+> *Pseudocode is ****not real code****—don’t use syntax like*` print()` *or* `input()` *with brackets. Stick to simple statements like:*
 > 
 > `INPUT Age`
 > 

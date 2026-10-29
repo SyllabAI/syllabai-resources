@@ -75,7 +75,7 @@ guided_study: true
   - Once all conditions have been dealt with, **shade the region** that **only contains ticks** and no crosses
 
 > **Worked Example**
-> On triangle *ABC *below, indicate the region that is closer to the side *AB *than the side *AC.*
+> On triangle *ABC* below, indicate the region that is closer to the side *AB* than the side *AC.*
 > 
 > ![General Triangle ABC, IGCSE & GCSE Maths revision notes](assets/d158177367c5-43064-loci-1.png)
 > 
@@ -146,8 +146,8 @@ guided_study: true
 > 
 > ![Diagram showing two towns, A and B, connected by a line. Masts R and S, and a house are marked. Scale is 1 cm = 1 mile, with intersecting circles.](assets/dadaf9b32061-3840-loci-6.png)
 > 
-> > *The house is located outside of this region, so it is more than 5 miles from the mast at the point S  *
+> > *The house is located outside of this region, so it is more than 5 miles from the mast at the point S*
 > 
-> > *The house satisfies one of the conditions given to receive its signal from the mast at point R *
+> > *The house satisfies one of the conditions given to receive its signal from the mast at point R*
 > 
 > **Final answer:** **The house receives its radio signal from the mast at point R**

@@ -31,7 +31,7 @@ The racist Ku Klux Klan’s (KKK) popularity grew enormously during the 1920s, a
   - It was the largest recorded movement of people in history
 - The arrival of millions of new immigrants angered many existing Americans
 
-  - The White Americans already living in the US were the *descendants *of immigrants themselves
+  - The White Americans already living in the US were the *descendants* of immigrants themselves
   
     - In the 1600s, their ancestors had emigrated across the Atlantic from North-Western Europe
   - These Americans became known as **WASPs**
@@ -72,7 +72,7 @@ The racist Ku Klux Klan’s (KKK) popularity grew enormously during the 1920s, a
   - After its formation, the popularity of the organisation declined
 - In 1915, the release of a film, *The Birth of a Nation,* led to an enormous revival of the KKK
 - By 1925, its membership had grown to around 5 million people
-- The KKK believed in* white supremacy*
+- The KKK believed in *white supremacy*
 
   - They wore white robes and hoods and marched with burning crosses
   - They attacked, tortured and killed Black Americans
@@ -95,7 +95,7 @@ The racist Ku Klux Klan’s (KKK) popularity grew enormously during the 1920s, a
 
 ![Portrait of a distinguished man with a beard and moustache, wearing a suit with a white shirt and bow tie, looking slightly to the left.](../../../assets/40a503be5463-29630-w-e-b-du-bois-by-james-e-purdy-1907-croppe.jpg)
 
-*W. E. B. Du Bois was one of the founding members of the NAACP and became one its most important members *
+*W. E. B. Du Bois was one of the founding members of the NAACP and became one its most important members*
 
 ## Treatment of Black Americans in the Southern US states
 
@@ -103,7 +103,7 @@ The racist Ku Klux Klan’s (KKK) popularity grew enormously during the 1920s, a
 
 ## Treatment of Black Americans in the Southern US states
 
-- Much of the NAACP’s work was focused in the Southern US states, where* lynchings* and *Jim Crow Laws* were common
+- Much of the NAACP’s work was focused in the Southern US states, where *lynchings* and *Jim Crow Laws* were common
 
   - Although slavery was abolished in America in 1865, it left a *legacy* of racial tension
 - Tensions were worst in the *South*,* *where most of the large cotton and tobacco farms that used slave labour had been located

@@ -51,9 +51,9 @@ guided_study: false
 
 | **Qualitative factor** | **Explanation** | **Key question** |
 |---|---|---|
-| **Business aims and objectives** | - The investment should align with the business’s overall goals (e.g. growth, *sustainability*, social impact) | - Does the investment support the business’s *mission *and long-term goals? |
+| **Business aims and objectives** | - The investment should align with the business’s overall goals (e.g. growth, *sustainability*, social impact) | - Does the investment support the business’s *mission* and long-term goals? |
 | **Stakeholder impact** | - Consider how the investment will affect employees, customers, suppliers, and the local community | - Will it lead to job losses, new opportunities, or community disruption? |
-| **Environmental impact** | - Projects that harm the environment may damage reputation or go against *ethical *values, while green projects support sustainability | - Will the project harm or protect the environment? |
+| **Environmental impact** | - Projects that harm the environment may damage reputation or go against *ethical* values, while green projects support sustainability | - Will the project harm or protect the environment? |
 | **Risk tolerance** | - Some businesses are more willing to take risks depending on size, finances, and confidence in the market | - Is the business willing and able to take on the level of risk involved? |
 
 ## Comparison of investment appraisal methods

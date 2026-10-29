@@ -70,7 +70,7 @@ guided_study: true
 > 
 > ![3-2-3-fig5-we-solution-3](assets/b551e6a497f9-3-2-3-fig5-we-solution-3.png)
 > 
-> (c)  Find the tension,*T *N, in the cable of the lift.
+> (c)  Find the tension,*T* N, in the cable of the lift.
 > 
 > **Answer:**
 > 

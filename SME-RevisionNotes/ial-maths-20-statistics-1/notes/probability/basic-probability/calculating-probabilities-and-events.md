@@ -130,7 +130,7 @@ $P(A\mathrm{AND}B)=P(A)\timesP(B)$
 
 $P(A\mathrm{OR}B)=P(A)+P(B)$
 
-- e.g.  `straight P left parenthesis " 6 space on space straight a space dice " space bold OR bold space " 5 space on space straight a space dice " right parenthesis equals 1 over 6 plus 1 over 6 equals 2 over 6 space space space space open parentheses 1 third close parentheses`
+- e.g.  `straight P left parenthesis " 6 on straight a dice " bold OR bold " 5 on straight a dice " right parenthesis=1 / 6+1 / 6=2 / 6 (1 third)`
 
 - **Mutually** **exclusive** events generally refer to events from the same (single trial of an) experiment
 - Mutually exclusive events cannot be independent; the outcome of one event means the probability of the other event is zero

@@ -17,7 +17,7 @@ guided_study: false
 
 ## Kinetic Energy
 
-- Kinetic energy (usually written *E*<sub>*k *</sub>and sometimes KE) is the energy an object has due to its **motion** (or velocity)
+- Kinetic energy (usually written *E*<sub>*k* </sub>and sometimes KE) is the energy an object has due to its **motion** (or velocity)
 
   - The faster an object moves, the greater its kinetic energy
 

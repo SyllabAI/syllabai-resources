@@ -31,7 +31,7 @@ The term “Roaring Twenties” captures the essence of a decade that witnessed 
 - The Roaring Twenties was also a time of social freedom and experimentation
 
   - People began to challenge traditional values, and new forms of expression emerged
-  - The* decade *saw the rise of jazz music and the emergence of new forms of entertainment, such as radio and cinema
+  - The *decade* saw the rise of jazz music and the emergence of new forms of entertainment, such as radio and cinema
 
 ## Impact of the motor car
 
@@ -72,7 +72,7 @@ The term “Roaring Twenties” captures the essence of a decade that witnessed 
   
     - News travelled more quickly
     - New and different ideas spread across all of the US
-  - Many people were* illiterate* in the US in the 1920s
+  - Many people were *illiterate* in the US in the 1920s
   
     - Radio enabled communication to all citizens, regardless of whether they could read and write
 - Radio improved the day-to-day life of people in the US
@@ -143,7 +143,7 @@ The term “Roaring Twenties” captures the essence of a decade that witnessed 
   
     - Romance
     - Comedy
-    - Cartoons — Mickey the Mouse’s *Steamboat Willie *was released in 1928
+    - Cartoons — Mickey the Mouse’s *Steamboat Willie* was released in 1928
 
 > **Worked Example**
 > **Describe the developments in American society during the Roaring Twenties. **

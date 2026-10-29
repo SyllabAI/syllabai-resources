@@ -96,7 +96,7 @@ $P=\frac{\DeltaE}{t}$
 - Where:
 
   - $P$* *= power measured in watts (W)
-  - $W$* = *work done, measured in joules (J)
+  - $W$ *=* work done, measured in joules (J)
   - $t$ = time measured in seconds (s)
   - $\DeltaE$ = energy transferred, measured in joules (J)
 

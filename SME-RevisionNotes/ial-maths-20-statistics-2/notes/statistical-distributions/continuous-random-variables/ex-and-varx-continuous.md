@@ -22,7 +22,7 @@ guided_study: false
 - E(X)is the **expected** **value**, or **mean**, of a **random** **variable X**
 
   - E(X) is the same as the population mean so can also be denoted by *µ*
-- **Var (X) **is the **variance** of the continuous random variable* X*
+- **Var (X) **is the **variance** of the continuous random variable *X*
 
   - **Standard** **deviation** is the **square** **root** of the **variance**
 
@@ -30,14 +30,14 @@ guided_study: false
 
 - The **mean**, for a **continuous** **random** **variable *****X*** is given by
 
-$E ( X ) = mu = integral_{ } - \text{infinity} ^{ } \text{infinity} x f ( x ) d x$
+$E ( X ) = \mu = integral_{ } - \text{infinity} ^{ } \text{infinity} x f ( x ) d x$
 
 - This is equivalent to $ΣxP(X=x)$ for discrete random variables
 - If the graph of $y=f(x)$has **axis** of **symmetry,** x = a , then  E(X) = a
 
 - The **variance** is given by
 
-$Var ( X ) = \text{sigma} ^{ } 2 = integral_{ } - \text{infinity} ^{ } \text{infinity} x^{ } 2 f ( x ) d x - mu^{ } 2$
+$Var ( X ) = \text{sigma} ^{ } 2 = integral_{ } - \text{infinity} ^{ } \text{infinity} x^{ } 2 f ( x ) d x - \mu^{ } 2$
 
 - This is equivalent to $Σx^{2}P(X=x)-μ^{2}$  for discrete random variables
 - Be careful about confusing $E(X^{2})$  and $[ E ( X ) ]^{2}$

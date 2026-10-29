@@ -36,7 +36,7 @@ guided_study: false
 
 ### International examples of subsidies
 
-- **India**: heavily subsidises *fertilisers *and food staples to support agricultural production and food security for low-income households
+- **India**: heavily subsidises *fertilisers* and food staples to support agricultural production and food security for low-income households
 - **Germany and South Korea**: have provided substantial subsidies for electric vehicle (EV) production and purchase to correct the positive externality of reduced *carbon emissions*
 - **Brazil**: subsidises ethanol fuel production from sugarcane, internalising the positive externality of lower carbon emissions relative to *fossil fuels*
 - **Kenya and Rwanda**: governments subsidise primary and secondary education to correct under-consumption caused by imperfect information about the private and external benefits of schooling
@@ -122,7 +122,7 @@ guided_study: false
 - **Public goods**: national defence is directly provided by governments in virtually every country. Private firms cannot profitably supply it due to *non-excludability*
 - **Healthcare**: in **Canada**, **Cuba**, and many European countries, core healthcare services are directly provided by the state, correcting under-consumption caused by *imperfect information* and income inequality
 - **Education**: **South Korea** and **Finland** provide free state education through to upper secondary level, ensuring consumption closer to the socially optimal level
-- **Infrastructure**: many governments in **Sub-Saharan Africa** and **South Asia** directly provide roads, water supply and *sanitation *where private markets fail due to low incomes and high fixed costs
+- **Infrastructure**: many governments in **Sub-Saharan Africa** and **South Asia** directly provide roads, water supply and *sanitation* where private markets fail due to low incomes and high fixed costs
 
 ## Evaluating the effectiveness of direct provision
 
@@ -153,7 +153,7 @@ guided_study: false
 | Best suited to | - Merit goods, partial market failure | - Public goods, complete market failure |
 | Consumer choice | - Preserved | - Removed or limited |
 | Government cost | - Cost of subsidy payment | - Full cost of provision |
-| Risk of inefficiency | - *Overproduction *if subsidy too large | - X-inefficiency without competition |
+| Risk of inefficiency | - *Overproduction* if subsidy too large | - X-inefficiency without competition |
 
 > **Exam Hint**
 > Always distinguish between the **size** of the welfare loss reduction and **full correction**: a subsidy reduces the welfare loss but only eliminates it entirely if set equal to the MEB at Qopt. Examiners reward this precision.

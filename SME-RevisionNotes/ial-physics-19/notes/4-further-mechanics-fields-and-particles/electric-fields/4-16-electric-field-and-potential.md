@@ -59,7 +59,7 @@ guided_study: false
 > **Worked Example**
 > An electric field is set up between two pairs of oppositely charged plates, set X and set Y.
 > 
-> A graph showing how the electric potential *V *varies with distance *d* is shown for both set X and set Y.
+> A graph showing how the electric potential *V* varies with distance *d* is shown for both set X and set Y.
 > 
 > ![7-5-we-electric-field-strength-and-potential_edexcel-al-physics-rn](assets/9a7e1fc556ba-7-5-we-electric-field-strength-and-potential-ede.png)
 > 

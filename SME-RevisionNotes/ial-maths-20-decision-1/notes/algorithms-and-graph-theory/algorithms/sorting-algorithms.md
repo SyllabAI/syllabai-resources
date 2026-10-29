@@ -180,7 +180,7 @@ $\sum_{r = 1}^{n - 1} r = 1 \frac{1}{2} n ( n - 1 )$
 > 
 > **Final answer:** **The maximum number of passes will be 6**
 > 
-> *ii) **The *$k^{\mathrm{th}}$* pass will have *$n-k$* comparisons*
+> *ii) **The *$k^{\mathrm{th}}$ *pass will have* $n-k$ *comparisons*
 > 
 > $7-3=4$
 > 
@@ -311,7 +311,7 @@ The **original** (full) list of items will now be in **ascending** order
 > **Answer:**
 > 
 > - *STEP 1*
-> *This is the first pass so the entire list will be the sub-list* *There are 8 values so the pivot will be the *$\frac{8+1}{2}=4.5$* rounded up to the 5*<sup>*th*</sup>* value on the list*
+> *This is the first pass so the entire list will be the sub-list* *There are 8 values so the pivot will be the* $\frac{8+1}{2}=4.5$ *rounded up to the 5*<sup>*th*</sup> *value on the list*
 > *Pass 1 (pivot 4)*
 > 
 > | *5* | *3* | *7* | *2* | `circle enclose 4` | *5* | *9* | *6* |

@@ -97,7 +97,7 @@ Find the **amount** of the invoice **due in that financial period**
 >   - *2 months (M-A)*
 >   - *\$275 ✕ 2 = \$550*
 > 
-> > *Add the two values together to find the amount for the income statement. *
+> > *Add the two values together to find the amount for the income statement.*
 > 
 > *\$2 500 + \$550 =* **\$3 050**
 

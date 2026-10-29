@@ -95,13 +95,13 @@ Does it have **3 terms**?
 > 
 > $- 8 x^{2} + 100 x - 48 = - 4 ( 2 x^{2} - 25 x + 12 )$
 > 
-> > *Check to see if the quadratic in the bracket will factorise using *$b^{2}-4ac$
+> > *Check to see if the quadratic in the bracket will factorise using* $b^{2}-4ac$
 > 
 > $\begin{gathered} ( - 25 )^{2} - ( 4 \times 2 \times 12 ) \\ = 625 - 96 \\ = 529 \end{gathered}$
 > 
 > > *529 is a square number (23*<sup>*2*</sup>*) so the expression will factorise*
 > 
-> > *Factorise *$2x^{2}-25x+12$
+> > *Factorise* $2x^{2}-25x+12$
 > 
 > > *We require a pair of numbers which multiply to **ac**, and sum to **b*
 > 
@@ -111,16 +111,16 @@ Does it have **3 terms**?
 > 
 > *-24 and -1*
 > 
-> > *Split the *$-25x$* term into *$-24x-x$
+> > *Split the* $-25x$ *term into* $-24x-x$
 > 
 > $\begin{gathered} 2 x^{2} - 24 x - x + 12 \end{gathered}$
 > 
-> > *Group and factorise the first two terms, using *$2x$* as the common factor*
-> *Group and factorise the last two terms using *$-1$* as the common factor*
+> > *Group and factorise the first two terms, using* $2x$ *as the common factor*
+> *Group and factorise the last two terms using* $-1$ *as the common factor*
 > 
 > $\begin{gathered} 2 x ( x - 12 ) - 1 ( x - 12 ) \end{gathered}$
 > 
-> > *These factorised terms now have a common factor of *$( x - 12 )$*, so this can be factorised out*
+> > *These factorised terms now have a common factor of* $( x - 12 )$*, so this can be factorised out*
 > 
 > $( 2 x - 1 ) ( x - 12 )$
 > 

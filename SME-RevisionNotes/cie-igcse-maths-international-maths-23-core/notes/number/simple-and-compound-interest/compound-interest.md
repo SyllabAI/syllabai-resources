@@ -92,7 +92,7 @@ guided_study: true
 > 
 > > *We want an increase of 4% per year, this is equivalent to a multiplier of 1.04, or 104% of the original amount*
 > 
-> > *This multiplier is applied 7 times; *$\times1.04\times1.04\times1.04\times1.04\times1.04\times1.04\times1.04=1.04^{7}$
+> > *This multiplier is applied 7 times;* $\times1.04\times1.04\times1.04\times1.04\times1.04\times1.04\times1.04=1.04^{7}$
 > 
 > > *Therefore the final value after 7 years will be*
 > 
@@ -103,7 +103,7 @@ guided_study: true
 > $\$ 1579$
 > 
 > > *Alternate method*
-> *Using the formula for the final amount   *$P ( 1 + \frac{r}{100} )^{n }$
+> *Using the formula for the final amount* $P ( 1 + \frac{r}{100} )^{n }$
 > *Substitute **P** is 1200, **r** = 4 and **n** = 7 into the formula *
 > 
 > $1200 ( 1 + \frac{4}{100} )^{7}$

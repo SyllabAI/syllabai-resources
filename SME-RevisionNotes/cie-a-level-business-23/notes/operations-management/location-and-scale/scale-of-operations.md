@@ -33,14 +33,14 @@ guided_study: false
 #### Size of the market
 
 - If the business operates in a large or fast-growing market, it may have more opportunities to grow
-- In contrast, *niche *or local markets may limit how large a firm can become
+- In contrast, *niche* or local markets may limit how large a firm can become
 
   - Bigger markets = more potential customers
   - Smaller markets = fewer opportunities to expand
 
 #### Capital available
 
-- A firm with access to large amounts of capital, such as* retained profit*, *loans* or *share capital*, is more likely to expand
+- A firm with access to large amounts of capital, such as *retained profit*, *loans* or *share capital*, is more likely to expand
 
   - More capital = more investment in equipment, staff or premises
   - Limited finance = restricted growth
@@ -72,7 +72,7 @@ guided_study: false
 
 ## Economies of scale
 
-- As a firm grows, it is able to increase its **scale of output, **generating efficiencies that lower its *average costs *of production
+- As a firm grows, it is able to increase its **scale of output, **generating efficiencies that lower its *average costs* of production
 
   - These efficiencies are called ***economies of scale***
 
@@ -112,7 +112,7 @@ guided_study: false
 
 | **Source** | **Explanation** |
 |---|---|
-| **Geographic cluster** | - As an industry grows, *ancillary firms *move closer to major manufacturers to cut costs and generate more business |
+| **Geographic cluster** | - As an industry grows, *ancillary firms* move closer to major manufacturers to cut costs and generate more business |
 | **Transport links** | - Improved transport links develop around growing industries to help get people to work and to improve transport logistics |
 | **Skilled labour** | - An increase in skilled labour can **lower the cost of skilled labour**<br>- The larger the geographic cluster, the larger the pool of skilled labour |
 | **Favourable legislation**<br>** ** | - Governments support certain industries in order to achieve their wider economic objectives |

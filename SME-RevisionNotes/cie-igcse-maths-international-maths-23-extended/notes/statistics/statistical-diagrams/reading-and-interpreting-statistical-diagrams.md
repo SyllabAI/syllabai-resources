@@ -77,7 +77,7 @@ guided_study: true
 > **Answer:**
 > 
 > > *The trend shows a decrease in the first three days, then a constant temperature*
-> *Find numbers from the graph to use in your answer *
+> *Find numbers from the graph to use in your answer*
 > *Refer to the steepness of the change*
 > 
 > **Final answer:** **The temperature decreases from 12°C on Monday to 9°C on Wednesday**
@@ -106,7 +106,7 @@ guided_study: true
 > > *The mean of 10°C does not support the claim that the average temperature is below 10°C*
 > *Try calculating the mode instead*
 > 
-> *12, 10, 9, 9, 11, 10, 9 *
+> *12, 10, 9, 9, 11, 10, 9*
 > 
 > > *The most frequent number is 9*
 > 

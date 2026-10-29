@@ -36,7 +36,7 @@ $\mathrm{Labour} \mathrm{productivity}=\frac{\mathrm{Output}}{\mathrm{Number} \m
 > | 2021 | 46,000 |
 > | 2022 | 69,000 |
 > 
-> In 2021 *Sokkemani Ltd *employed 50 staff. In 2022 the number of staff employed by the business increased by 20%.
+> In 2021 *Sokkemani Ltd* employed 50 staff. In 2022 the number of staff employed by the business increased by 20%.
 > 
 > Calculate the percentage change in productivity between 2021 and 2022.
 > 
@@ -100,7 +100,7 @@ $\mathrm{Average} \mathrm{cost} \mathrm{per} \mathrm{unit}=\frac{\mathrm{Total} 
 
 #### 1. Increasing automation
 
-- Automation uses machines or *robots *to carry out tasks that would normally be done by humans.
+- Automation uses machines or *robots* to carry out tasks that would normally be done by humans.
 
   - Production is likely to be faster and safer, with fewer errors and lower long-term labour costs
   - For example, car manufacturers use robotic arms for welding and assembling.

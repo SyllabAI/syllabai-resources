@@ -13,7 +13,7 @@ guided_study: false
 
 ## Summary
 
-The 1920s were a decade of enormous change for some women. All women were granted the right to vote thanks to the passing of the 19th* Amendment *to the American *Constitution* in 1920. In addition to this, more women than ever before entered the workforce. By earning their own wages, women became **economically independent** from their husbands and fathers. This led to them making their own decisions and life choices. The short-haired, short-skirted “**flapper**” seemed to sum up this new spirit of independence in American women. In reality, the lives of many women remained unchanged from those of their mothers and grandmothers.
+The 1920s were a decade of enormous change for some women. All women were granted the right to vote thanks to the passing of the 19th *Amendment* to the American *Constitution* in 1920. In addition to this, more women than ever before entered the workforce. By earning their own wages, women became **economically independent** from their husbands and fathers. This led to them making their own decisions and life choices. The short-haired, short-skirted “**flapper**” seemed to sum up this new spirit of independence in American women. In reality, the lives of many women remained unchanged from those of their mothers and grandmothers.
 
 ## Life for women before the First World War
 
@@ -34,11 +34,11 @@ The 1920s were a decade of enormous change for some women. All women were grante
   - A housewife
   
     - Most women did not work outside of the household
-    - If women did work, they had *stereotypical *jobs, such as being a *seamstress* or a maid
+    - If women did work, they had *stereotypical* jobs, such as being a *seamstress* or a maid
     - Regardless of employment status, women were expected to **look after children **and the **men** of the household
 - The First World War changed the lives of women
 
-  - From 1917, *conscription *meant that American men left the US to fight in the conflict
+  - From 1917, *conscription* meant that American men left the US to fight in the conflict
   - In their absence, women had to take on male-dominated jobs, such as:
   
     - Working in ***munition *****factories**
@@ -62,7 +62,7 @@ The 1920s were a decade of enormous change for some women. All women were grante
 - By 1929, 25% more American women had jobs than in 1920
 
   - The **economic boom** created more jobs
-  - Many women gained employment in offices as *telephonists, *secretaries and typists
+  - Many women gained employment in offices as *telephonists,* secretaries and typists
   - In 1929, around 10.9 million women worked in jobs outside of the home
 - Earning their own money led to many women feeling** less dependent **on their husbands
 

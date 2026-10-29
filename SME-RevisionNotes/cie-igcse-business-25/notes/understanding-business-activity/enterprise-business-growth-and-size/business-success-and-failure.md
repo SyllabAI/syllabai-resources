@@ -55,7 +55,7 @@ of product, demand for products, changes in the economy, level of competition"
 ### Favourable economic conditions
 
 - In a strong economy, people have more money to spend, which increases sales
-- Low *interest rates* and low *inflation *can also help businesses grow
+- Low *interest rates* and low *inflation* can also help businesses grow
 
   - For example,  during economic growth periods, car manufacturers often see rising sales
 
@@ -66,7 +66,7 @@ of product, demand for products, changes in the economy, level of competition"
   - For example,  lower prices, better quality or a strong brand
 - Having few competitors also gives more control over pricing and customers
 
-  - For example,  Nike stays successful by constantly *innovating *and using powerful *branding*
+  - For example,  Nike stays successful by constantly *innovating* and using powerful *branding*
 
 ## Why businesses fail
 

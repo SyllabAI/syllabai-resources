@@ -28,7 +28,7 @@ guided_study: true
 
 ### How do I find the n<sup>th</sup> term formula for a simple quadratic sequence?
 
-- The sequence with *n *th term formula** *****n***<sup>**2**</sup> are the **square numbers **
+- The sequence with *n* th term formula** *****n***<sup>**2**</sup> are the **square numbers **
 
   - 1, 4, 9, 16, 25, 36, 49, ...
   
@@ -64,7 +64,7 @@ guided_study: true
 
 ### How do I find the n<sup>th</sup> term formula for a simple cubic sequence?
 
-- The sequence with *n *th term formula** *****n***<sup>**3**</sup> are the **cube numbers **
+- The sequence with *n* th term formula** *****n***<sup>**3**</sup> are the **cube numbers **
 
   - 1, 8, 27, 64, 125, ...
   
@@ -104,7 +104,7 @@ guided_study: true
 > *    Second differences:   2,    2,     2, ...   *
 > 
 > > *The second differences are constant so this must be a quadratic sequence*
-> *Compare each term to terms in the sequence **n*<sup>*2 *</sup>*(the square numbers)*
+> *Compare each term to terms in the sequence **n*<sup>*2* </sup>*(the square numbers)*
 > 
 > **           n***<sup>2 </sup>**:  1,   4,   9,   16,   25,  ... *
 > * Sequence:  6,   9,   14,   21,   30, ..*.
@@ -119,7 +119,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Substitute **n**  = 20 into **n*<sup>*2*</sup>* + 5*
+> > *Substitute **n**  = 20 into **n*<sup>*2*</sup> *+ 5*
 > 
 > *(20)**<sup>2</sup>** + 5 = 400 + 5*
 > 

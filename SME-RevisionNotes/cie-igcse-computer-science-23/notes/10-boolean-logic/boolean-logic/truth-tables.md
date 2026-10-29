@@ -115,7 +115,7 @@ guided_study: false
 | 1 | 1 | 0 | 1 | **1** |
 | 1 | 1 | 1 | 1 | **0** |
 
-- The last column shows the **result **of the Boolean expression (**P**) by comparing (A AND B) AND NOT C** **// `open parentheses A. B close parentheses. top enclose C`
+- The last column shows the **result **of the Boolean expression (**P**) by comparing (A AND B) AND NOT C** **// `(A. B). top enclose C`
 
 | A | B | C | **A AND B** | **NOT C** | P |
 |---|---|---|---|---|---|

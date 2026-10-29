@@ -43,7 +43,7 @@ guided_study: false
 > 
 > Find the rate of change of the volume with respect to the radius.
 > 
-> > *Differentiate the formula given for the volume of a sphere. *
+> > *Differentiate the formula given for the volume of a sphere.*
 > 
 > $\frac{dV}{dr}=3\times\frac{4}{3}π\timesr^{2}$
 > 
@@ -97,7 +97,7 @@ guided_study: false
 > 
 > $\frac{dV}{dx}=12-40x$
 > 
-> > *At the maximum volume, *$\frac{dV}{dx}=0$
+> > *At the maximum volume,* $\frac{dV}{dx}=0$
 > 
 > $\therefore12-40x=0$
 > 
@@ -113,7 +113,7 @@ guided_study: false
 > 
 > (c) Prove that your answer is a maximum value.
 > 
-> > *Using the second derivative is usually the easiest way to find the nature of a stationary point *
+> > *Using the second derivative is usually the easiest way to find the nature of a stationary point*
 > 
 > $\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = - 40 ( < 0 )$
 > 

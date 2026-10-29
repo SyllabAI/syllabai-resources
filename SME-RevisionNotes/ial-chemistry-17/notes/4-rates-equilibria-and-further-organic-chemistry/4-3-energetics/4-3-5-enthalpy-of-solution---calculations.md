@@ -110,7 +110,7 @@ guided_study: false
 
 - As we have seen previously
 
-Δ*S*<sub>*total*</sub><sub> </sub>= Δ* S*<sub>*system*</sub>+ Δ *S*<sub>*surroundings*</sub>
+Δ*S*<sub>*total*</sub><sub> </sub>= Δ*S*<sub>*system*</sub>+ Δ *S*<sub>*surroundings*</sub>
 
 And since
 
@@ -130,7 +130,7 @@ If we consider ammonium nitrate, NH<sub>4</sub>NO<sub>3</sub> (s), at 298 K
 
 **NH**<sub>**4**</sub>**NO**<sub>**3**</sub>** (s) → NH**<sub>**4**</sub><sup>**+**</sup>** (aq) + NO**<sub>**3**</sub><sup>**-**</sup>** (aq)**
 
-- The** **enthalpy change of solution, Δ<sub>*sol*</sub>*H *= +25.8 kJ mol<sup>-1</sup>
+- The** **enthalpy change of solution, Δ<sub>*sol*</sub>*H* = +25.8 kJ mol<sup>-1</sup>
 - The temperature, in K, of the water, *T* = 298 K
 
 Δ*S*<sub>*system*</sub> = *S*[NH<sub>4</sub><sup>+</sup> (aq)] + *S*[NO<sub>3</sub><sup>-</sup> (aq)] - *S*[NH<sub>4</sub>NO<sub>3</sub> (s)]

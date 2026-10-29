@@ -58,7 +58,7 @@ guided_study: false
 - Current decreases because the resistance has increased (from *V* = *IR*)
 
   - This is because resistivity has increased
-  - This is from ρ ∝ *R *(if the area *A* and length *L* is constant)
+  - This is from ρ ∝ *R* (if the area *A* and length *L* is constant)
 
 - For a metallic conductor:
 
@@ -79,7 +79,7 @@ guided_study: false
   - As a result, the frequency of **collisions **between free electrons and the ions increases, which leads to an **increase **in resistance
 - Resistance **opposes **the current, causing the current to increase at a slower rate
 
-  - This is seen on the* I*-*V* graph as a curve with a **decreasing gradient**
+  - This is seen on the *I*-*V* graph as a curve with a **decreasing gradient**
 
 > **Worked Example**
 > The temperature of a non-ohmic resistor increases as the current through it increases.
@@ -164,7 +164,7 @@ guided_study: false
 > **Step 3: Consider a relevant equation**
 > 
 > - Ohm’s law states that ***V***** = *****IR***
-> - Since the resistance of the thermistor increases, and *I* is the same, the potential difference *V *across it increases
+> - Since the resistance of the thermistor increases, and *I* is the same, the potential difference *V* across it increases
 > 
 > **Step 4: State the conclusion**
 > 

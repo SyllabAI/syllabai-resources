@@ -156,7 +156,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > 
 > $\begin{gathered} x^{2} + 6 x & = ( x + 3 )^{2} - 3^{2} \\ = ( x + 3 )^{2} - 9 \end{gathered}$
 > 
-> > *Replace **x*<sup>*2*</sup>* + 6**x **with (**x** + 3)*<sup>*2*</sup>* – 9 in the equation*
+> > *Replace **x*<sup>*2*</sup>* + 6**x **with (**x** + 3)*<sup>*2*</sup> *– 9 in the equation*
 > * *
 > 
 > $\begin{gathered} ( x + 3 )^{2} - 9 + 5 & = 0 \\ ( x + 3 )^{2} - 4 & = 0 \end{gathered}$
@@ -264,7 +264,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > 
 > $x=\pm2\mathrm{or}x=\pm1$
 > 
-> > *Write your solutions out (it's good practice to write them in numerical order) *
+> > *Write your solutions out (it's good practice to write them in numerical order)*
 > 
 > $x=-2,-1,1\mathrm{or}2$
 > 

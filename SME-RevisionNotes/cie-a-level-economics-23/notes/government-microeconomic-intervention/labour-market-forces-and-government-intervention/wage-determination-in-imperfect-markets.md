@@ -51,7 +51,7 @@ guided_study: false
 | **Wage as proportion of total costs** | - If wages are a small share of costs, firms resist less<br><br>  - Union power is higher |
 | **Ability to substitute capital for labour** | - If *capital substitution* is easy, firms can resist wage demands<br><br>  - Union power is lower |
 | **Productivity of labour** | - Highly productive workers are harder to replace<br><br>  - Strengthening union bargaining power |
-| **State of the economy** | - Unions are stronger during *booms *when labour demand is high and weaker during *recessions* |
+| **State of the economy** | - Unions are stronger during *booms* when labour demand is high and weaker during *recessions* |
 
 #### Impact of trade unions on labour markets
 
@@ -75,7 +75,7 @@ guided_study: false
 | - Raises wages for members above the competitive rate | - Creates excess labour supply<br><br>  - Unemployment among non-unionised or priced-out workers |
 | - Reduces *information asymmetry*<br><br>  - Workers have better knowledge of their rights and market wages | - May reduce labour market flexibility<br><br>  - Firms substitute capital for labour as wages rise |
 | - Improves working conditions and *job security* through *collective bargaining* | - May price firms out of international competition if wages rise above productivity levels |
-| - Corrects *monopsony *wage suppression | - Union power is weakest among low-paid, part-time and *gig workers* who need it most |
+| - Corrects *monopsony* wage suppression | - Union power is weakest among low-paid, part-time and *gig workers* who need it most |
 
 > **Exam Hint**
 > Always define **collective bargaining** precisely - unions negotiate on behalf of all members, giving workers greater power than individual negotiation.
@@ -122,7 +122,7 @@ guided_study: false
 |---|---|
 | - **Reduces in-work poverty**<br><br>  - Guarantees a minimum income floor for the lowest-paid workers | - **May cause unemployment**<br><br>  - Firms demand less labour at W₁, creating excess supply of QdQs |
 | - **Increases household income**<br><br>  - Higher wages for low-paid workers may stimulate consumer spending | - **Unemployment effect depends on PED for labour**<br><br>  - Inelastic demand means small employment losses; elastic demand means significant unemployment |
-| - **May improve productivity**<br><br>  - Higher wages can motivate workers, reduce *labour turnover *and attract more productive workers | - **Raises production costs**<br><br>  - Firms may respond by raising prices, reducing international competitiveness |
+| - **May improve productivity**<br><br>  - Higher wages can motivate workers, reduce *labour turnover* and attract more productive workers | - **Raises production costs**<br><br>  - Firms may respond by raising prices, reducing international competitiveness |
 | - **Empirical evidence suggests limited unemployment effects**<br><br>  - Card and Krueger's US research found minimal employment losses from moderate NMW increases | - **Harms small businesses disproportionately**<br><br>  - Large firms absorb higher labour costs more easily than small firms in *labour-intensive* sectors |
 | - **Corrects information failure**<br><br>  - Provides a clear wage floor for workers in weak bargaining positions | - **May accelerate capital substitution**<br><br>  - Higher wages incentivise firms to *automate*, particularly in manufacturing and retail |
 
@@ -133,12 +133,12 @@ guided_study: false
 > 
 > Brazil has one of the most unequal income distributions in the world, with a large low-wage workforce concentrated in agriculture, domestic service and informal urban employment.
 > 
-> The **salário mínimo** (minimum wage) is a federally mandated minimum that applies to all formal sector workers and is adjusted annually to maintain its real value — with increases linked to *GDP growth* and *inflation *under a formula established in 2011.
+> The **salário mínimo** (minimum wage) is a federally mandated minimum that applies to all formal sector workers and is adjusted annually to maintain its real value — with increases linked to *GDP growth* and *inflation* under a formula established in 2011.
 > 
 > **Actions taken**
 > 
 > - The real value of the minimum wage more than **doubled between 2003 and 2015** under Presidents Lula and Dilma, rising significantly faster than inflation
-> - By 2024 the monthly minimum wage stood at **R\$1,412** — used as the reference point for social security benefits, *pensions *and transfer payments as well as wages
+> - By 2024 the monthly minimum wage stood at **R\$1,412** — used as the reference point for social security benefits, *pensions* and transfer payments as well as wages
 > - Annual uprating is recommended by the **Inter-union Department of Statistics and Socioeconomic Studies (DIEESE)**
 > 
 > **Outcomes**
@@ -150,7 +150,7 @@ guided_study: false
 > This illustrates a fundamental limitation of minimum wage policy in lower-income economies - effectiveness depends critically on the capacity to enforce compliance.
 
 > **Exam Hint**
-> Always challenge the standard unemployment prediction with **empirical evidence** - Card and Krueger found minimal unemployment effects from moderate NMW increases, suggesting real labour markets are closer to *monopsony *than perfect competition.
+> Always challenge the standard unemployment prediction with **empirical evidence** - Card and Krueger found minimal unemployment effects from moderate NMW increases, suggesting real labour markets are closer to *monopsony* than perfect competition.
 > 
 > Unemployment effects depend critically on **PED for labour** - inelastic demand means small employment losses; elastic demand means significant unemployment. Always state this explicitly.
 > 

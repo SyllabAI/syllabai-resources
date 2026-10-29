@@ -95,8 +95,8 @@ guided_study: false
 > 
 > **Answer: **
 > 
-> - Calculate the OAR *\$50 000 ÷ 10 000 = \$5 per machine hour *
+> - Calculate the OAR *\$50 000 ÷ 10 000 = \$5 per machine hour*
 > - Calculate the overheads absorbed *\$5 × 9 000 = \$45 000*
-> - Actual overheads - Overheads absorbed *\$48 000 - \$45 000 = \$3 000 *
+> - Actual overheads - Overheads absorbed *\$48 000 - \$45 000 = \$3 000*
 > 
 > **Final answer:** **Overheads are under-absorbed by \$3 000**

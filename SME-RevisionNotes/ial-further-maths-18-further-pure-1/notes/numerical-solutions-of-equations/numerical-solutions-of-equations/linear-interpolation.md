@@ -21,11 +21,11 @@ guided_study: false
 
 - **Linear interpolation** draws a **straight line** between the points *A* and *B* with coordinates  $( a , \mathrm{f} ( a ) )$ and $( b , \mathrm{f} ( b ) )$, where $a<x<b$ is an interval containing a root to the equation $\mathrm{f} ( x ) = 0$
 
-  - As $\mathrm{f} ( a )$ and $\mathrm{f} ( b )$ have **different signs**, *A *and *B* are on **either side **of the *x*-axis
+  - As $\mathrm{f} ( a )$ and $\mathrm{f} ( b )$ have **different signs**, *A* and *B* are on **either side **of the *x*-axis
   - The **approximation** to the root is  where this straight line **cuts the *****x*****-axis**
   
     - This is at the point *X* with coordinates $( x , 0 )$
-    - Points *A, X *and *B* lie on the same straight line
+    - Points *A, X* and *B* lie on the same straight line
 - It helps to use the **gradient formula**
 
   - The gradient between $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
@@ -40,7 +40,7 @@ guided_study: false
   - *X* is the point $( x , 0 )$
   
     - This is the *x*-intercept of the line *AB*
-    - *A, X *and *B* lie on the same **straight line**
+    - *A, X* and *B* lie on the same **straight line**
   - The **gradient **of ***AX*** equals the** gradient** of ***XB***
   
     - The** order** matters (not *BX*)
@@ -74,17 +74,17 @@ guided_study: false
 > 
 > Use linear interpolation once to find an approximation to the root, giving your answer to 3 decimal places.
 > 
-> > *Find *$\mathrm{f} ( 1.4 )$* and *$\mathrm{f} ( 1.5 )$
+> > *Find* $\mathrm{f} ( 1.4 )$ *and* $\mathrm{f} ( 1.5 )$
 > 
 > $\begin{gathered} \mathrm{f} ( 1.4 ) & = 1.4^{3} - \sqrt{1.4} - 2 = - 0.439215... \\ \mathrm{f} ( 1.5 ) & = 1.5^{3} - \sqrt{1.5} - 2 = 0.150255... \end{gathered}$
 > 
-> > *It is easier to write them as *$\mathrm{f} ( 1.4 )$* and *$\mathrm{f} ( 1.5 )$* for now*
-> *Let **A**, **B** and **X** be the points *$( 1.4 , \mathrm{f} ( 1.4 ) )$*, *$( 1.5 , \mathrm{f} ( 1.5 ) )$* and *$( x , 0 )$
-> *Use the gradient formula *$\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **AX*
+> > *It is easier to write them as* $\mathrm{f} ( 1.4 )$ *and* $\mathrm{f} ( 1.5 )$ *for now*
+> *Let **A**, **B** and **X** be the points *$( 1.4 , \mathrm{f} ( 1.4 ) )$*,* $( 1.5 , \mathrm{f} ( 1.5 ) )$ *and* $( x , 0 )$
+> *Use the gradient formula* $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **AX*
 > 
 > *gradient of ***AX ***is *$\frac{0 - \mathrm{f} ( 1.4 )}{x - 1.4}$
 > 
-> > *Use the gradient formula *$\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **XB*
+> > *Use the gradient formula* $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **XB*
 > 
 > *gradient of ***XB ***is *$\frac{ \mathrm{f} ( 1.5 ) - 0}{1.5 - x}$
 > 
@@ -96,15 +96,15 @@ guided_study: false
 > 
 > $\begin{gathered} \frac{- \mathrm{f} ( 1.4 )}{x - 1.4} & = \frac{ \mathrm{f} ( 1.5 )}{1.5 - x} \\ - \mathrm{f} ( 1.4 ) ( 1.5 - x ) & = \mathrm{f} ( 1.5 ) ( x - 1.4 ) \end{gathered}$
 > 
-> > *Expand and collect the *$x$* terms on the right-hand side*
+> > *Expand and collect the* $x$ *terms on the right-hand side*
 > 
 > $\begin{gathered} - 1.5 \mathrm{f} ( 1.4 ) + \mathrm{f} ( 1.4 ) x & = \mathrm{f} ( 1.5 ) x - 1.4 \mathrm{f} ( 1.5 ) \\ 1.4 \mathrm{f} ( 1.5 ) - 1.5 \mathrm{f} ( 1.4 ) & = \mathrm{f} ( 1.5 ) x - \mathrm{f} ( 1.4 ) x \end{gathered}$
 > 
-> > *Factorise out the *$x$*, then make *$x$* the subject*
+> > *Factorise out the* $x$*, then make* $x$ *the subject*
 > 
 > $\begin{gathered} 1.4 \mathrm{f} ( 1.5 ) - 1.5 \mathrm{f} ( 1.4 ) & = x [ \mathrm{f} ( 1.5 ) - \mathrm{f} ( 1.4 ) ] \\ \frac{1.4 \mathrm{f} ( 1.5 ) - 1.5 \mathrm{f} ( 1.4 )}{ \mathrm{f} ( 1.5 ) - \mathrm{f} ( 1.4 )} & = x \end{gathered}$
 > 
-> > *Substitute in  *$\mathrm{f} ( 1.4 )$* and *$\mathrm{f} ( 1.5 )$* from above*
+> > *Substitute in* $\mathrm{f} ( 1.4 )$ *and* $\mathrm{f} ( 1.5 )$ *from above*
 > 
 > $\begin{gathered} \frac{1.4 \times 0.150255... - 1.5 \times ( - 0.439215... )}{0.150255... - ( - 0.439215... )} & = x \\ 1.47451... & = x \end{gathered}$
 > 

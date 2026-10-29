@@ -107,7 +107,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The *$+c$* at the end is the *$y$*-intercept*
+> > *The* $+c$ *at the end is the* $y$*-intercept*
 > 
 > $y$*-intercept:* *(0, 6)*
 > 
@@ -115,7 +115,7 @@ guided_study: true
 > 
 > $y = ( x - 2 ) ( x - 3 )$
 > 
-> > *Solve *$y=0$
+> > *Solve* $y=0$
 > 
 > $( x - 2 ) ( x - 3 ) = 0 , \text{so} x = 2 \text{or} x = 3$
 > 
@@ -134,22 +134,22 @@ guided_study: true
 > > *It is a positive quadratic, so will be a u-shape*
 > *The turning point will therefore be a minimum*
 > 
-> > *The *$+c$* at the end is the *$y$*-intercept*
+> > *The* $+c$ *at the end is the* $y$*-intercept*
 > 
 > $y$*-intercept:* *(0, 13)*
 > 
 > > *Find the minimum point by completing the square (or through differentiation)*
 > 
-> > *For example, complete the square by writing the equation in the form *$a ( x - p )^{2} + q$* (you may need to look this method up)*
+> > *For example, complete the square by writing the equation in the form* $a ( x - p )^{2} + q$ *(you may need to look this method up)*
 > 
 > $\begin{gathered} x^{2} - 6 x + 13 & = ( x - 3 )^{2} - 9 + 13 \\ = ( x - 3 )^{2} + 4 \end{gathered}$
 > 
-> > *The turning point of *$y = a ( x - p )^{2} + q$* has coordinates *$( p , q )$
+> > *The turning point of* $y = a ( x - p )^{2} + q$ *has coordinates* $( p , q )$
 > *The minimum point is therefore*
 > 
 > *(3, 4)*
 > 
-> > *As the **minimum **point is above the *$x$*-axis, and the curve is a u-shape, this means the graph will not cross the *$x$*-axis (it has no roots)*
+> > *As the **minimum **point is above the *$x$*-axis, and the curve is a u-shape, this means the graph will not cross the* $x$*-axis (it has no roots)*
 > 
 > ![Graph of y=x²-6x+13, with y-intercept (0,13) and minimum point (3, 4) marked on.](assets/f973756bd17f-45808-cie-igcse-quadratic-graphs-we-2.png)
 > 
@@ -160,7 +160,7 @@ guided_study: true
 > > *It is a negative quadratic, so will be an n-shape*
 > *The turning point will therefore be a maximum*
 > 
-> > *The *$+c$* at the end is the *$y$*-intercept*
+> > *The* $+c$ *at the end is the* $y$*-intercept*
 > 
 > * *$y$*-intercept: (0, -4)*
 > 
@@ -170,11 +170,11 @@ guided_study: true
 > 
 > $\frac{dy}{dx}=-2x-4$
 > 
-> > *Set the derivative equal to zero and solve for *$x$
+> > *Set the derivative equal to zero and solve for* $x$
 > 
 > $\begin{gathered} 0 = - 2 x - 4 \\ 2 x & = - 4 \\ x = - 2 \end{gathered}$
 > 
-> > *Substitute this value of *$x$* back into the original equation for *$y$
+> > *Substitute this value of* $x$ *back into the original equation for* $y$
 > 
 > $\begin{gathered} y = - ( - 2 )^{2} - 4 ( - 2 ) - 4 \\ y = - 4 + 8 - 4 \\ y & = 0 \end{gathered}$
 > 
@@ -182,7 +182,7 @@ guided_study: true
 > 
 > *(-2, 0)*
 > 
-> > *As the maximum is on the *$x$*-axis, there is **only one root*
+> > *As the maximum is on the* $x$*-axis, there is **only one root*
 > 
 > ![Graph of y=-x²-4x-4 with root (-2, 0) and y-intercept (0, -4) marked on.](assets/6557f36e9ae4-40066-cie-igcse-quadratic-graphs-we-3.png)
 
@@ -209,15 +209,15 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The graph shows the roots and a point on the curve (in this case the *$y$*-intercept)*
+> > *The graph shows the roots and a point on the curve (in this case the* $y$*-intercept)*
 > 
-> > *Use the form *$y = a ( x - x_{1} ) ( x - x_{2} )$* to fill in *$x_{1}$* and *$x_{2}$* by inspection*
+> > *Use the form* $y = a ( x - x_{1} ) ( x - x_{2} )$ *to fill in* $x_{1}$ *and* $x_{2}$ *by inspection*
 > 
-> > *The roots are at *$( x_{1} , 0 )$* and *$( x_{2} , 0 )$
+> > *The roots are at* $( x_{1} , 0 )$ *and* $( x_{2} , 0 )$
 > 
 > $y = a ( x - 2 ) ( x - 3 )$
 > 
-> > *Substitute in the other known point (0, 24) to find *$a$
+> > *Substitute in the other known point (0, 24) to find* $a$
 > 
 > $\begin{gathered} 24 = a ( 0 - 2 ) ( 0 - 3 ) \\ 24 = a ( - 2 ) ( - 3 ) \\ 24 = 6 a \\ 4 = a \end{gathered}$
 > 
@@ -225,7 +225,7 @@ guided_study: true
 > 
 > $y=4(x-2)(x-3)$
 > 
-> > *You could also write this in expanded form: *$y=4x^{2}-20x+24$
+> > *You could also write this in expanded form:* $y=4x^{2}-20x+24$
 > 
 > (b) Find the equation of the graph below.
 > 
@@ -235,13 +235,13 @@ guided_study: true
 > 
 > > *The graph shows the vertex and a point on the curve*
 > 
-> > *Use the form *$y = a ( x - p )^{2} + q$* to fill in *$p$* and *$q$* by inspection*
+> > *Use the form* $y = a ( x - p )^{2} + q$ *to fill in* $p$ *and* $q$ *by inspection*
 > 
-> > *The vertex is at *$( p , q )$
+> > *The vertex is at* $( p , q )$
 > 
 > $y = a ( x - 9 )^{2} - 16$
 > 
-> > *Substitute in the other known point (2, 82) to find *$a$
+> > *Substitute in the other known point (2, 82) to find* $a$
 > 
 > $\begin{gathered} 82 = a ( 2 - 9 )^{2} - 16 \\ 82 = a ( - 7 )^{2} - 16 \\ 82 = 49 a - 16 \\ 98 = 49 a \\ 2 = a \end{gathered}$
 > 

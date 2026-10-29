@@ -25,7 +25,7 @@ guided_study: true
   - This gives the ***y*****-values**
 - To plot the points
 
-  - Use the *x * and *y-*values to mark** crosses** on the grid at the **coordinates (*****x *****, *****y *****)**
+  - Use the *x* and *y-*values to mark** crosses** on the grid at the **coordinates (*****x *****, *****y *****)**
   - Each point is expected to be plotted to **an accuracy within half of the smallest square** on the grid
 - **Draw** a **single** **smooth freehand **curve
 
@@ -44,7 +44,7 @@ guided_study: true
   
     - becomes *y*  = -(-3)<sup>2</sup> + 8(-3)
     - which simplifies to -9 - 24
-    - so *y * = - 33
+    - so *y* = - 33
 - For **reciprocal **graphs like $y=\frac{1}{x}$, do **not include *****x ***** = 0**
 
   - You **cannot** **divide** by **zero**
@@ -95,7 +95,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use the table function on your calculator for *$\mathrm{f} ( x ) = 10 - 8 x^{2}$
+> > *Use the table function on your calculator for* $\mathrm{f} ( x ) = 10 - 8 x^{2}$
 > *Start at -1.5, end at 1.5 and use steps of 0.5*
 > *On a non-calculator paper, substitute the **x**-values into the equation, for example** x** = -1.5*
 > 

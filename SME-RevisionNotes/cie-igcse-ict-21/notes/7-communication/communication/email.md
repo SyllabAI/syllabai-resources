@@ -127,7 +127,7 @@ guided_study: false
 > 
 > > *How to answer this question:*
 > 
-> > *Give a maximum of 4 bullet points on how users can recognise spam content and then a maximum of 4 points on how they can prevent spam content. *
+> > *Give a maximum of 4 bullet points on how users can recognise spam content and then a maximum of 4 points on how they can prevent spam content.*
 > 
 > **Final answer:** **Answers:**
 > 

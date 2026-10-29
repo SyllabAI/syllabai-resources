@@ -46,8 +46,8 @@ guided_study: false
 
 - Because **mala’ikah** are mysterious figures, part of the unseen world, Muslims have differing beliefs about their nature
 
-- Some Muslims believe that they are actual* supernatural* beings, created by Allah from light
-- Some believe in a* metaphorical* interpretation of their qualities
+- Some Muslims believe that they are actual *supernatural* beings, created by Allah from light
+- Some believe in a *metaphorical* interpretation of their qualities
 
   - For example, the idea that angels have wings is a metaphor for being powerful
 - Regardless of interpretation, all Muslims agree that angels:

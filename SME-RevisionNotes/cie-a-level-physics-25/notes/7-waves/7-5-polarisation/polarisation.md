@@ -135,7 +135,7 @@ guided_study: true
 
 - **Malus's law** states that if the analyser is rotated by an angle *θ*  **with respect to the polariser**, the intensity of the waves transmitted by the analyser is given by the equation
 
-`I space equals space I subscript 0 cos squared open parentheses theta close parentheses`
+`I=I_ 0 cos² (θ)`
 
 - Where
 
@@ -146,7 +146,7 @@ guided_study: true
   - If **vertically polarised **electromagnetic waves with intensity $\frac{I_{0}}{2}$ are incident on an analyser with a **vertical transmission axis**, **all** of the **waves **will be **transmitted** through the analyser
   - The **intensity** between the polariser and the analyser will **not decrease **
 
-- If the analyser is rotated by **90° **with respect to the polariser (*θ *= 90°), the intensity of the light transmitted by the analyser will be **zero**, since *cos*(90°) = 0
+- If the analyser is rotated by **90° **with respect to the polariser (*θ* = 90°), the intensity of the light transmitted by the analyser will be **zero**, since *cos*(90°) = 0
 
   - If **vertically polarised light** is incident on an **analyser** with a **horizontal transmission axis**, none of the light will be transmitted through the analyser
   - In this instance,** all** the waves will be **absorbed**
@@ -171,7 +171,7 @@ guided_study: true
 > 
 > **A.** 0.75 *I*
 > 
-> **B.** 0.38 *I *
+> **B.** 0.38 *I*
 > 
 > **C.** 0.87 *I*
 > 
@@ -190,7 +190,7 @@ guided_study: true
 > - The angle of the transmission axis is 30°
 > - In this case, *I*<sub>0</sub> in Malus's equation is *I*<sub>1</sub> here, because the light has already passed through the first polariser
 > 
-> `I subscript 2 space equals space I subscript 1 cos squared open parentheses theta close parentheses space equals space 1 half I space cos squared open parentheses 30 degree close parentheses space equals space 1 half I space cross times space 3 over 4`
+> `I_ 2=I_ 1 cos² (θ)=1 half I cos² (30 degree)=1 half I×3 / 4`
 > 
 > $I_{2}=\frac{3}{8}I=0.375I$
 > 

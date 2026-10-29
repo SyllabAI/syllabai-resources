@@ -56,7 +56,7 @@ Find the** lowest common denominator** (LCD)
 > 
 > **Answer:**
 > 
-> > *The lowest common denominator is *$( x + 4 ) ( x - 1 )$
+> > *The lowest common denominator is* $( x + 4 ) ( x - 1 )$
 > *Write each fraction over this common denominator, remember to multiply the top of the fractions too*
 > 
 > $\frac{x ( x - 1 )}{( x + 4 ) ( x - 1 )} - \frac{3 ( x + 4 )}{( x - 1 ) ( x + 4 )}$
@@ -82,8 +82,8 @@ Find the** lowest common denominator** (LCD)
 > 
 > **Answer:**
 > 
-> > *The lowest common denominator is *$2 x ( x - 3 )$* *
-> *(You could also use *$4 x ( x - 3 )$* but this wouldn't be the **lowest** common denominator)*
+> > *The lowest common denominator is* $2 x ( x - 3 )$* *
+> *(You could also use* $4 x ( x - 3 )$* but this wouldn't be the **lowest** common denominator)*
 > 
 > > *Write each fraction over this common denominator, remember to multiply the top of the fractions too*
 > 

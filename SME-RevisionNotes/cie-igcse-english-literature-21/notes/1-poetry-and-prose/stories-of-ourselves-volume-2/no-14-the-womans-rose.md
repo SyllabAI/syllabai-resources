@@ -199,4 +199,4 @@ Schreiner’s story criticises *fickle* and *superficial* attitudes to female be
 
 ### Sources
 
-Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.
+Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2,* Cambridge University Press.

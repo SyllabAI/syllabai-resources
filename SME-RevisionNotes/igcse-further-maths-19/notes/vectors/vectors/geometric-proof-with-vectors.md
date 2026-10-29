@@ -24,12 +24,12 @@ guided_study: false
 - A **vector path** is a path of vectors taking you from a **start point **to an **end point**
 - On the diagram shown
 
-  - *F  *to *B * has the **path** *F * to *A * to *B*
+  - *F* to *B* has the **path** *F* to *A* to *B*
   
     - $\overset{\rightarrow}{FB}=\overset{\rightarrow}{FA}+\overset{\rightarrow}{AB}$
   - There are other possible paths too
   
-    - *F * to *G*  to *B*
+    - *F* to *G*  to *B*
 - You can write vector paths in terms of vectors given (**a**, **b**, ...)
 
   - The rule $\overset{\rightarrow}{XY}=-\overset{\rightarrow}{YX}$ helps
@@ -83,17 +83,17 @@ guided_study: false
 > 
 > (b) $\overset{\rightarrow}{AX}$, where $X$is the point on the line $AT$such that $AX:XT=1:3$.
 > 
-> *Start by imagining the vector *$\begin{gathered} \vec{AT} \end{gathered}$
+> *Start by imagining the vector* $\begin{gathered} \vec{AT} \end{gathered}$
 > *It is easy to write this vector in terms of **a** and **b** *
 > 
 > $\begin{gathered} \vec{AT} \end{gathered} = 4 a + 3 b$
 > 
-> *To find *$\begin{gathered} \vec{AX} \end{gathered}$*, use the given ratio to write it as a fraction of *$\begin{gathered} \vec{AT} \end{gathered}$
+> *To find* $\begin{gathered} \vec{AX} \end{gathered}$*, use the given ratio to write it as a fraction of* $\begin{gathered} \vec{AT} \end{gathered}$
 > *There are 1 + 3 = 4 parts*
 > 
 > $\begin{gathered} \vec{AX} & = 1 \frac{1}{4} \vec{AT} \end{gathered}$
 > 
-> *Substitute in the known expression for *$\begin{gathered} \vec{AT} \end{gathered}$
+> *Substitute in the known expression for* $\begin{gathered} \vec{AT} \end{gathered}$
 > *Expand and simplify to get the final answer*
 > 
 > $\begin{gathered} \vec{AX} & = 1 \frac{1}{4} ( 4 a + 3 b ) \\ = a + \frac{3}{4} b \end{gathered}$
@@ -157,7 +157,7 @@ guided_study: false
 > $\begin{gathered} a = 2 ( p - 2 q ) \\ b = - 3 ( p - 2 q ) \end{gathered}$
 > 
 > *Write **b** in terms of **a*
-> *It can help to make the brackets the subject of the first equation, i.e. *$( p - 2 q ) = \frac{a}{2}$
+> *It can help to make the brackets the subject of the first equation, i.e.* $( p - 2 q ) = \frac{a}{2}$
 > *Then substitute that into the equation for **b*
 > 
 > $b=-3\times\frac{a}{2}=-\frac{3}{2}a$
@@ -177,7 +177,7 @@ guided_study: false
 
 ### What does collinear mean?
 
-- The points *A *, *B * and *C * are **collinear** if they all lie along the **same straight line**
+- The points *A*, *B* and *C* are **collinear** if they all lie along the **same straight line**
 - In the image on the left in the diagram below, the following vectors are all **parallel**:
 
   - $\overset{\rightarrow}{AB},\overset{\rightarrow}{BC},\overset{\rightarrow}{AC},\overset{\rightarrow}{BA},\overset{\rightarrow}{CA},\overset{\rightarrow}{CB}$
@@ -186,7 +186,7 @@ guided_study: false
 
 ### How do I use vectors to show that three points are collinear?
 
-- To show the points *A *, *B * and *C * are **collinear**
+- To show the points *A*, *B* and *C* are **collinear**
 
   - prove that two line segments are **parallel**
   - and show that there is at least **one point** that **lies on both **segments
@@ -194,24 +194,24 @@ guided_study: false
     - This makes them parallel and **connected **(not side-by-side)
 - For example, if you show that $\overset{\rightarrow}{BC}=2\overset{\rightarrow}{AB}$ then
 
-  - the line segments *AB*  and *BC  *are parallel
-  - and they have a **common point**, *B *
+  - the line segments *AB*  and *BC* are parallel
+  - and they have a **common point**, *B*
   
-    - So *A *, *B * and *C  *must be collinear
-- Similarly, $\overset{\rightarrow}{AC}=3\overset{\rightarrow}{AB}$ means *AC * and *AB * are parallel
+    - So *A*, *B* and *C* must be collinear
+- Similarly, $\overset{\rightarrow}{AC}=3\overset{\rightarrow}{AB}$ means *AC* and *AB* are parallel
 
   - and they have a common point, *A*
   
-    - so *A *, *B * and *C  *must be collinear
+    - so *A*, *B* and *C* must be collinear
 
 ### How can collinearity be used when extend lines?
 
 - **Extending** the line segment *OA*  means **continuing** the straight line** beyond ***A*
 
-  - If the extended line passes through the point *X *
+  - If the extended line passes through the point *X*
   
     - then *O* , *A*  and *X*  are **collinear**
-- To **test **whether another point, *Y *, is on* ****OA*****  extended**
+- To **test **whether another point, *Y*, is on* ****OA*****  extended**
 
   - test whether *O* , *A*  and *Y*  are **collinear**
 
@@ -238,9 +238,9 @@ guided_study: false
 > Show that $O$, $X$ and $B$ are not collinear.
 > 
 > *O **, **X  **and **B  **are collinear if two line segments are parallel and share a common point*
-> *Consider the vectors *$\overset{\rightarrow}{OX}$* and  *$\overset{\rightarrow}{OB}$
+> *Consider the vectors* $\overset{\rightarrow}{OX}$ *and* $\overset{\rightarrow}{OB}$
 > *They have a common point, **O*
-> *Check if they are parallel by first finding *$\overset{\rightarrow}{OX}$
+> *Check if they are parallel by first finding* $\overset{\rightarrow}{OX}$
 > 
 > $\begin{gathered} \vec{OX} & = \vec{OA} + 1 \frac{1}{2} \vec{AC} \\ = 2 a + 1 \frac{1}{2} ( \vec{AO} + \vec{OC} ) \\ = 2 a + 1 \frac{1}{2} ( - 2 a + c ) \end{gathered}$
 > 
@@ -248,14 +248,14 @@ guided_study: false
 > 
 > $\begin{gathered} \vec{OX} & = 2 a - a + 1 \frac{1}{2} c \\ = a + 1 \frac{1}{2} c \end{gathered}$
 > 
-> *Now compare it to *$\overset{\rightarrow}{OB}=2a+3c$* (given in the question)*
-> *Try factorisation to write *$\overset{\rightarrow}{OB}$* in terms of *$\overset{\rightarrow}{OX}$
+> *Now compare it to* $\overset{\rightarrow}{OB}=2a+3c$ *(given in the question)*
+> *Try factorisation to write* $\overset{\rightarrow}{OB}$ *in terms of* $\overset{\rightarrow}{OX}$
 > 
 > $\begin{gathered} \vec{OB} & = 2 a + 3 c \\ = 2 ( a + \frac{3}{2} c ) \end{gathered}$
 > 
-> > *The *$a$* inside the brackets matches the *$a$* in *$\overset{\rightarrow}{OX}=a+\frac{1}{2}c$
-> *But the *$+\frac{3}{2}c$* inside the brackets does not match the *$+\frac{1}{2}c$* in *$\overset{\rightarrow}{OX}=a+\frac{1}{2}c$
-> *Therefore you cannot write *$\overset{\rightarrow}{OB}$* and *$\overset{\rightarrow}{OX}$* as scalar multiples of each other*
+> > *The* $a$ *inside the brackets matches the* $a$ *in* $\overset{\rightarrow}{OX}=a+\frac{1}{2}c$
+> *But the* $+\frac{3}{2}c$ *inside the brackets does not match the* $+\frac{1}{2}c$ *in* $\overset{\rightarrow}{OX}=a+\frac{1}{2}c$
+> *Therefore you cannot write* $\overset{\rightarrow}{OB}$ *and* $\overset{\rightarrow}{OX}$ *as scalar multiples of each other*
 > 
 > **Final answer:** $\overset{\rightarrow}{OX}$** is not a scalar multiple of **$\overset{\rightarrow}{OB}$
 > **Therefore ****OX **** and ****OB****  are not parallel**
@@ -267,12 +267,12 @@ guided_study: false
 > 
 > Show that $O$, $Y$ and $B$ are collinear.* *
 > 
-> > *Similarly to part (a), find *$\overset{\rightarrow}{OY}$* and see if it is parallel to *$\overset{\rightarrow}{OB}$* *
+> > *Similarly to part (a), find* $\overset{\rightarrow}{OY}$ *and see if it is parallel to* $\overset{\rightarrow}{OB}$* *
 > 
 > > $\begin{gathered} \vec{OY} & = \vec{OA} + \frac{3}{4} \vec{AC} \\ = 2 a + \frac{3}{4} ( - 2 a + c ) \\ = 1 \frac{1}{2} a + \frac{3}{4} c \end{gathered}$
 > * *
 > 
-> > *Use factorisation to write *$\overset{\rightarrow}{OB}$* in terms of *$\overset{\rightarrow}{OY}$* *
+> > *Use factorisation to write* $\overset{\rightarrow}{OB}$ *in terms of* $\overset{\rightarrow}{OY}$* *
 > 
 > > $\vec{OB} = 2 a + 3 c
 > = 4 ( 1 \frac{1}{2} a + \frac{3}{4} c )
@@ -313,7 +313,7 @@ guided_study: false
 - To find this point, create **two different vector paths** that approach the point from **different directions**
 
   - Then set them **equal** and **equate coefficients**
-- For example, if the lines *AB * and *CD * **intersect **at the point *P *,* *find $\overset{\rightarrow}{AP}$
+- For example, if the lines *AB* and *CD* **intersect **at the point *P*,* *find $\overset{\rightarrow}{AP}$
 
   - One path is along the line *AB*
   
@@ -353,13 +353,13 @@ guided_study: false
 > 
 > > *Find two different paths from **O ** to **P ** that come in along different diagonals*
 > *The first path is along **OB**  itself*
-> *Although the length **OP ** is unknown, *$\overset{\rightarrow}{OP}$*  is definitely a scalar multiple of *$\overset{\rightarrow}{OB}$* (they are parallel)*
+> *Although the length **OP ** is unknown, *$\overset{\rightarrow}{OP}$ *is definitely a scalar multiple of* $\overset{\rightarrow}{OB}$ *(they are parallel)*
 > * *
 > 
 > > $\overset{\rightarrow}{OP}=k\overset{\rightarrow}{OB}$
 > * *
 > 
-> > *Use *$\begin{array}{rcl} \vec{OB} & = \vec{OA} + \vec{AB} = \vec{OA} + 3 \vec{OC} \end{array}$* to write this first path in terms of **a** and **c*
+> > *Use* $\begin{array}{rcl} \vec{OB} & = \vec{OA} + \vec{AB} = \vec{OA} + 3 \vec{OC} \end{array}$* to write this first path in terms of **a** and **c*
 > * *
 > 
 > > $\vec{OP} = k ( 2 a + 3 c )$
@@ -370,17 +370,17 @@ guided_study: false
 > 
 > > $\begin{gathered} \vec{OP} & = \vec{OA} + \vec{AP} \end{gathered}$* *
 > 
-> > *Although the length **AP  **is unknown, *$\overset{\rightarrow}{AP}$* is definitely a scalar multiple of *$\overset{\rightarrow}{AC}$* (they are parallel)*
-> *Give the scalar a letter different to *$k$* used above *
+> > *Although the length **AP  **is unknown, *$\overset{\rightarrow}{AP}$ *is definitely a scalar multiple of* $\overset{\rightarrow}{AC}$ *(they are parallel)*
+> *Give the scalar a letter different to* $k$ *used above*
 > 
 > > *  *$\begin{gathered} \vec{OP} & = \vec{OA} + \\lambda \vec{AC} \end{gathered}$
 > *  *
 > 
-> > *Use *$\overset{\rightarrow}{AC}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OC}$* to write this second path in terms of **a** and **c *
+> > *Use* $\overset{\rightarrow}{AC}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OC}$* to write this second path in terms of **a** and **c *
 > 
 > > $\vec{OP} = 2 a + \\lambda ( - 2 a + c )$* *
 > 
-> > *Set the first path equal to the second path *
+> > *Set the first path equal to the second path*
 > 
 > > $k ( 2 a + 3 c ) = 2 a + \\lambda ( - 2 a + c )$
 > * *
@@ -400,15 +400,15 @@ guided_study: false
 > > $3k=λ$
 > * *
 > 
-> > *This gives two simultaneous equations in *$k$* and *$λ$
-> *Solve these simultaneously *
+> > *This gives two simultaneous equations in* $k$ *and* $λ$
+> *Solve these simultaneously*
 > 
 > $\begin{gathered} k = 1 - 3 k \\ 4 k & = 1 \\ k = 1 \frac{1}{4} \end{gathered}$
 > *and ** *$λ=\frac{3}{4}$
 > * *
 > 
-> > *Go back to either of the two paths for *$\overset{\rightarrow}{OP}$* *
-> *Substitute in *$k$* or *$λ$
+> > *Go back to either of the two paths for* $\overset{\rightarrow}{OP}$* *
+> *Substitute in* $k$ *or* $λ$
 > *Simplify to get the final answer*
 > * *
 > 

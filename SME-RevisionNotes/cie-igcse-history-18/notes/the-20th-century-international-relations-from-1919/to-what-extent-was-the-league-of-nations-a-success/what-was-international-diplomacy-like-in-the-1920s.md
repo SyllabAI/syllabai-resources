@@ -61,7 +61,7 @@ guided_study: false
 *A political cartoon called ‘Treaty of Locarno’ by David Low, 5th September 1925. It shows French Foreign Minister, Aristide Briand, with a boxing glove behind his back*
 
 > **Exam Hint**
-> Paper Two presents you with unseen sources and asks you a series of source analysis questions. Before the exam, study as many written and visual sources as you can on the specified core content topic. It may result in you knowing one of the sources that appears in the paper. David Low was born in New Zealand but worked in the UK. He created many political cartoons for *The Star *(1919 - 1927)* *and the *Evening Standard* (1927-1950). He is best known for his cartoons about Hitler and Appeasement, which are covered in [Hitler’s Foreign Policy](https://www.savemyexams.com/igcse/history/cie/18/revision-notes/the-20th-century-international-relations-from-1919/was-hitlers-foreign-policy-to-blame-for-the-second-world-war/context-of-the-second-world-war/).
+> Paper Two presents you with unseen sources and asks you a series of source analysis questions. Before the exam, study as many written and visual sources as you can on the specified core content topic. It may result in you knowing one of the sources that appears in the paper. David Low was born in New Zealand but worked in the UK. He created many political cartoons for *The Star* (1919 - 1927)* *and the *Evening Standard* (1927-1950). He is best known for his cartoons about Hitler and Appeasement, which are covered in [Hitler’s Foreign Policy](https://www.savemyexams.com/igcse/history/cie/18/revision-notes/the-20th-century-international-relations-from-1919/was-hitlers-foreign-policy-to-blame-for-the-second-world-war/context-of-the-second-world-war/).
 
 ## The Dawes Plan, 1925
 

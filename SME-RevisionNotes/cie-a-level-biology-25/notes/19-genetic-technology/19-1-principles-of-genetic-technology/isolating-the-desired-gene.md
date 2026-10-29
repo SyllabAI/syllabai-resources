@@ -37,7 +37,7 @@ guided_study: true
   - This is why they are called restriction endonuclease (‘endo’ means within)
 - They are also referred to simply as **restriction enzymes**
 - There are many different restriction endonucleases because each one binds to a **specific restriction site** (specific sequences of bases) on DNA, eg. *HindIII* will always bind to the base sequence AAGCTT
-- The restriction endonucleases are named according to the bacteria they are sourced from and which numbered enzyme it is from that source (eg. *HindIII *comes from *Haemophilus influenzae* and it is the third enzyme from that bacteria)
+- The restriction endonucleases are named according to the bacteria they are sourced from and which numbered enzyme it is from that source (eg. *HindIII* comes from *Haemophilus influenzae* and it is the third enzyme from that bacteria)
 - Restriction endonucleases will separate the two strands of DNA at the specific base sequence by ‘cutting’ the sugar-phosphate backbone in an uneven way to give **sticky ends** or straight across to give **blunt ends**
 - Sticky ends result in one strand of the DNA fragment being longer than the other strand
 - The sticky ends make it easier to insert the desired gene into another organism's DNA as they can easily form **hydrogen bonds** with the complementary base sequences on other pieces of DNA that have been cut with the **same** restriction enzyme

@@ -81,7 +81,7 @@ guided_study: false
 > 
 > a) Find $\vert \vec{XY} \vert$.
 > 
-> > $\vert \vec{XY} \vert$* is the magnitude of the vector, so use Pythagoras' theorem.*
+> > $\vert \vec{XY} \vert$ *is the magnitude of the vector, so use Pythagoras' theorem.*
 > 
 > $\vert \vec{XY} \vert = \sqrt{12^{2} + 5^{2}} = \sqrt{169}$
 > 
@@ -89,7 +89,7 @@ guided_study: false
 > 
 > b) Find the unit vector in the direction of $\overset{\rightarrow}{XY}$.
 > 
-> > *For a unit vector, divide the vector *$\overset{\rightarrow}{XY}$* by its magnitude, which was found in part (a).*
+> > *For a unit vector, divide the vector* $\overset{\rightarrow}{XY}$ *by its magnitude, which was found in part (a).*
 > 
 > $\frac{\vec{XY}}{\vert \vec{XY} \vert} = \frac{- 12 i + 5 j}{13} = - \frac{12}{13} i + \frac{5}{13} j$
 > 
@@ -122,7 +122,7 @@ guided_study: false
 
 #### How do I find the magnitude of a displacement vector?
 
-- You can use **coordinate geometry** to find **magnitudes **of **displacement vectors** from *A * to *B*
+- You can use **coordinate geometry** to find **magnitudes **of **displacement vectors** from *A* to *B*
 
   - From the **position vectors** of *A*  and *B*  you know their coordinates
   

@@ -33,7 +33,7 @@ $NΦ=BAN$
   - *B* = magnetic flux density (T)
   - *A* = cross-sectional area (m<sup>2</sup>)
 
-- The flux linkage* NΦ *has the units of **Weber turns** **(Wb turns)**
+- The flux linkage *NΦ* has the units of **Weber turns** **(Wb turns)**
 - As with magnetic flux, if the field lines are not completely perpendicular to the plane of the area they are passing through
 - Therefore, the component of the flux density which is perpendicular is equal to:
 
@@ -54,7 +54,7 @@ $N \\Phi = B A N \cos ( \\theta )$
 > 
 > - Cross-sectional area, *A* = πr<sup>2</sup> = π(0.4)<sup>2</sup> = 0.503 m<sup>2</sup>
 > - Magnetic flux density, *B* = 5.1 mT = 5.1 × 10<sup>−3</sup> T
-> - Number of turns of the coil, *N *= 300 turns
+> - Number of turns of the coil, *N* = 300 turns
 > 
 > **Step 2: Write down the equation for the magnetic flux linkage**
 > 

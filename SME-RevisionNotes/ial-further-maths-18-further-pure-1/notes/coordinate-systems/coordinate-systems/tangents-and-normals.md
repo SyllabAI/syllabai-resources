@@ -30,7 +30,7 @@ guided_study: false
   - A general point on $y^{2}=4ax$ is $( a t^{2} , 2 a t )$
 - You can have two or more** distinct** general points
 
-  - $( 3 p^{2} , 6 p )$and $( 3 q^{2} , 6 q )$ are general points *P*  and *Q * on $y^{2}=12x$
+  - $( 3 p^{2} , 6 p )$and $( 3 q^{2} , 6 q )$ are general points *P*  and *Q* on $y^{2}=12x$
 
 ### How do I find the tangent or normal to a parabola at a general point?
 
@@ -66,7 +66,7 @@ guided_study: false
 > (a)  Use calculus to show that the equation of the normal at $P$ is  $y + t x = 4 t ( t^{2} + 2 )$
 > 
 > > *The normal at **P**   has the form *$y - y_{1} = m ( x - x_{1} )$*  *
-> *Substitute in *$x_{1}=4t^{2}$* and *$y_{1}=8t$
+> *Substitute in* $x_{1}=4t^{2}$ *and* $y_{1}=8t$
 > 
 > $y - 8 t = m ( x - 4 t^{2} )$* *
 > 
@@ -82,11 +82,11 @@ guided_study: false
 > > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 4 \times 1 \frac{1}{2} x^{- 1 \frac{1}{2}} \\ = \frac{2}{ \sqrt{x} } \end{gathered}$
 > * *
 > 
-> > *Then substitute in *$x_{1}=4t^{2}$
+> > *Then substitute in* $x_{1}=4t^{2}$
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = \frac{2}{ \sqrt{4 t^{2}} } \\ = \frac{1}{t} \end{gathered}$
 > 
-> > *The negative reciprocal is *$-t$
+> > *The negative reciprocal is* $-t$
 > *Therefore the equation of the normal is*
 > 
 > $y - 8 t = - t ( x - 4 t^{2} )$* *
@@ -101,12 +101,12 @@ guided_study: false
 > 
 > (b)  Hence find the coordinates of the three points on the parabola at which the normal passes through the point $( 9 , 0 )$.
 > 
-> > *The equation of the normal above must pass through the point *$( 9 , 0 )$
-> *Substitute in *$x=9$* and *$y=0$
+> > *The equation of the normal above must pass through the point* $( 9 , 0 )$
+> *Substitute in* $x=9$ *and* $y=0$
 > 
 > $0 + 9 t = 4 t ( t^{2} + 2 )$* *
 > 
-> > *This forms an equation in *$t$
+> > *This forms an equation in* $t$
 > *Rearrange and solve*
 > 
 > $\begin{gathered} 9 t & = 4 t^{3} + 8 t \\ 0 = 4 t^{3} - t \\ 0 = t ( 4 t^{2} - 1 ) \\ 0 = t ( 2 t - 1 ) ( 2 t + 1 ) \end{gathered}$* *
@@ -114,7 +114,7 @@ guided_study: false
 > $t=0,t=\frac{1}{2},t=-\frac{1}{2}$
 > 
 > > *The question asks for the coordinates of the points on the curve, **P**, *$( 4 t^{2} , 8 t )$
-> *Substitute in the three values of *$t$
+> *Substitute in the three values of* $t$
 > 
 > $( 0 , 0 ) , ( 1 , 4 ) , ( 1 , - 4 )$
 > 
@@ -178,7 +178,7 @@ guided_study: false
 > (a)  Use calculus to show that the equation of the tangent to the curve at $P$ is  $p^{2}y=-x+4p$.
 > 
 > > *The tangent at **P ** has the form *$y - y_{1} = m ( x - x_{1} )$*  *
-> *Substitute in *$x_{1}=2p$* and *$y_{1}=\frac{2}{p}$
+> *Substitute in* $x_{1}=2p$ *and* $y_{1}=\frac{2}{p}$
 > 
 > $y - \frac{2}{p} = m ( x - 2 p )$
 > 
@@ -190,7 +190,7 @@ guided_study: false
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = - 4 x^{- 2} \\ = - \frac{4}{x^{2}} \end{gathered}$
 > 
-> > *Then substitute in *$x_{1}=2p$* and simplify*
+> > *Then substitute in* $x_{1}=2p$ *and simplify*
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = - \frac{4}{( 2 p )^{2}} \\ = - \frac{4}{4 p^{2}} \\ = - \frac{1}{p^{2}} \end{gathered}$
 > 
@@ -198,11 +198,11 @@ guided_study: false
 > 
 > $y - \frac{2}{p} = - \frac{1}{p^{2}} ( x - 2 p )$
 > 
-> > *Multiply both sides by *$p^{2}$* then rearrange*
+> > *Multiply both sides by* $p^{2}$ *then rearrange*
 > 
 > $\begin{gathered} p^{2} y - 2 p & = - ( x - 2 p ) \\ p^{2} y - 2 p & = - x + 2 p \end{gathered}$
 > 
-> > *Make *$p^{2}y$* the subject*
+> > *Make* $p^{2}y$ *the subject*
 > 
 > $p^{2}y=-x+4p$
 > 
@@ -217,7 +217,7 @@ guided_study: false
 > 
 > ![Tangents to a rectangular hyperbola intersecting each other](assets/5b85e264102c-we-tangents-to-a-general-rectangular-hyperbola.png)
 > 
-> > *Make *$y$* the subject of each tangent and set them equal to each other*
+> > *Make* $y$ *the subject of each tangent and set them equal to each other*
 > 
 > $\frac{-x+4p}{p^{2}}=\frac{-x+4q}{q^{2}}$
 > 
@@ -225,17 +225,17 @@ guided_study: false
 > 
 > $\begin{gathered} q^{2} ( - x + 4 p ) & = p^{2} ( - x + 4 q ) \\ - q^{2} x + 4 p q^{2} & = - p^{2} x + 4 p^{2} q \end{gathered}$* *
 > 
-> > *Bring the *$x$*  terms to one side and factorise*
+> > *Bring the* $x$ *terms to one side and factorise*
 > 
 > $p^{2} x - q^{2} x = 4 p^{2} q - 4 p q^{2}
 > ( p^{2} - q^{2} ) x = 4 p q ( p - q )$
 > 
-> > *Make *$x$*  the subject and use the difference of two squares*
+> > *Make* $x$ *the subject and use the difference of two squares*
 > 
 > $\begin{gathered} x = \frac{4 p q ( p - q )}{p^{2} - q^{2}} \\ x = \frac{4 p q ( p - q )}{( p - q ) ( p + q )} \end{gathered}$
 > 
-> > *As *$p\neq\pmq$*, the brackets will never be zero*
-> *This means the *$( p - q )$* bracket can be cancelled, giving the final answer*
+> > *As* $p\neq\pmq$*, the brackets will never be zero*
+> *This means the* $( p - q )$ *bracket can be cancelled, giving the final answer*
 > 
 > $x=\frac{4pq}{p+q}$
 > 

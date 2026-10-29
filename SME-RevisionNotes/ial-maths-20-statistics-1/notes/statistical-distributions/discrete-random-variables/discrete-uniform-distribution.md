@@ -50,21 +50,21 @@ guided_study: false
 - The numbers can be anything as long as they are equally likely
 - The formulae for the mean and variance only apply when the values are the integers 1 to *n*
 - If the outcomes form an **arithmetic sequence** then the distribution can be transformed to the distribution with the values 1 to *n*
-- If *X *is the discrete uniform distribution using 1 to *n* and *Y* is a discrete uniform distribution whose outcomes form an arithmetic sequence then:
+- If *X* is the discrete uniform distribution using 1 to *n* and *Y* is a discrete uniform distribution whose outcomes form an arithmetic sequence then:
 
-  - *Y *= *aX *+ *b*
+  - *Y* = *aX* + *b*
 - You can then use this formula to find the **mean** and **variance**
 
   - E(*Y*) = *a*E(*X*) + *b*
   - Var(*Y*) = *a*² Var(*X*)
-- For example: *Y *= 2, 5, 8, 11 can be transformed to *X *= 1, 2, 3, 4 using *Y = *3*X* - 1
+- For example: *Y* = 2, 5, 8, 11 can be transformed to *X* = 1, 2, 3, 4 using *Y =* 3*X* - 1
 
 #### What can be modelled using a discrete uniform distribution?
 
 - Anything which satisfies the **two conditions**
 
   - finite distinct outcomes and all equally likely
-- For example, let *R *be the second digit of a number given by a random number generator
+- For example, let *R* be the second digit of a number given by a random number generator
 
   - There are 10 distinct outcomes: 0, 1, 2, ..., 9
   - As it is a random number then each value is equally likely to be the second digit

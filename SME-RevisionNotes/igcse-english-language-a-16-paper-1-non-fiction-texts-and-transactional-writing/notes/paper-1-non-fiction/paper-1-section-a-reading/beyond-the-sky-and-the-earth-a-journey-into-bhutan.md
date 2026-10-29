@@ -32,7 +32,7 @@ The following guide to *Beyond the Sky and the Earth: A Journey into Bhutan* by 
 
 ## Beyond the Sky and the Earth overview
 
-Jamie Zeppa is a Canadian writer who worked in Bhutan teaching English in her early 20s. She wrote an essay about her first month in the country, which developed into the book *Beyond the Sky and the Earth *about the first three years she spent there.* *The book’s title is derived from a Bhutanese expression of thankfulness.
+Jamie Zeppa is a Canadian writer who worked in Bhutan teaching English in her early 20s. She wrote an essay about her first month in the country, which developed into the book *Beyond the Sky and the Earth* about the first three years she spent there.* *The book’s title is derived from a Bhutanese expression of thankfulness.
 
 ## Beyond the Sky and the Earth summary
 

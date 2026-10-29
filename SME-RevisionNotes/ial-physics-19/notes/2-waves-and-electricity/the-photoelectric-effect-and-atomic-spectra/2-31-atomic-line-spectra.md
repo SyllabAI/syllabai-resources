@@ -57,7 +57,7 @@ guided_study: false
 
 - Using energy can be written as:
 
-*E = *$\frac{hc}{λ}$
+*E =* $\frac{hc}{λ}$
 
 - Where:
 
@@ -78,7 +78,7 @@ guided_study: false
 
 - The difference of energy corresponds to the energy of the absorbed (or emitted) photon:
 
-Δ*E* = *E*<sub>*1*</sub> – *E*<sub>*2*</sub><sub> </sub>= *hf = *$\frac{hc}{λ}$
+Δ*E* = *E*<sub>*1*</sub> – *E*<sub>*2*</sub><sub> </sub>= *hf =* $\frac{hc}{λ}$
 
 - For each transition, a photon will be emitted with a specific wavelength
 - In the case of hydrogen, all wavelengths are in the visible range:

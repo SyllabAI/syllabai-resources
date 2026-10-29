@@ -96,9 +96,9 @@ guided_study: true
 > 
 > $\mathrm{sin}60=\frac{x}{28}$
 > 
-> > *Remember that *$\mathrm{sin}60=\frac{\sqrt{3}}{2}$
+> > *Remember that* $\mathrm{sin}60=\frac{\sqrt{3}}{2}$
 > 
-> > *So, *
+> > *So,*
 > 
 > $\begin{gathered} \frac{ \sqrt{3} }{2} & = \frac{x}{28} \\ 28 \times \frac{ \sqrt{3} }{2} & = x \\ 14 \times \sqrt{3} & = x \end{gathered}$
 > 

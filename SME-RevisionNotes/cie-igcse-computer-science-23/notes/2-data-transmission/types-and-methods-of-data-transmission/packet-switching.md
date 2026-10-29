@@ -24,7 +24,7 @@ guided_study: false
 
 | **Stage** | **Overview** | **Detail** |
 |---|---|---|
-| 1 | Data is broken down into packets | - *Learn more by reading our *[data packets](https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/types-and-methods-of-data-transmission/data-packets/) revision note |
+| 1 | Data is broken down into packets | - *Learn more by reading our* [data packets](https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/2-data-transmission/types-and-methods-of-data-transmission/data-packets/) revision note |
 | 2 | Packets are assigned a header |   |
 | 3 | Each packet makes its way to the destination | - Like normal car traffic, data traffic builds up on the internet<br>- Routers can see this and decide to send a packet down a different route that avoids traffic |
 | 4 | Routers control the routes taken for each packet | - Routers know which nearby router is closer to the destination device |

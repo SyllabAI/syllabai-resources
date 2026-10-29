@@ -62,9 +62,9 @@ $v=\frac{2πr}{T}$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Radius of the Earth,* R* = 6400 km
-> - Height of the telescope above the Earth's surface, *h *= 560 km
-> - Time period, *T *= 96 minutes
+> - Radius of the Earth,*R* = 6400 km
+> - Height of the telescope above the Earth's surface, *h* = 560 km
+> - Time period, *T* = 96 minutes
 > 
 > **Step 2: Write the relevant equation**
 > 

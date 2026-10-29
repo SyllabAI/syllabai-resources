@@ -126,8 +126,8 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Initial means *$t=0$
-> *Substitute *$t=0$* into *$s$* to find the initial displacement*
+> > *Initial means* $t=0$
+> *Substitute* $t=0$ *into* $s$ *to find the initial displacement*
 > 
 > $\begin{gathered} s = 0^{3} - 6 \times 0^{2} - 3 \\ = - 3 \end{gathered}$
 > 
@@ -143,7 +143,7 @@ guided_study: false
 > 
 > $v=\frac{ds}{dt}=3t^{2}-12t$
 > 
-> > *This is an expression for the velocity in terms of time, *$t$
+> > *This is an expression for the velocity in terms of time,* $t$
 > 
 > **Final answer:** $v=3t^{2}-12t$** ms**<sup>**-1**</sup>
 > 
@@ -151,16 +151,16 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The particle is at rest when *$v=0$
-> *Set *$v=0$* and solve to find *$t$
+> > *The particle is at rest when* $v=0$
+> *Set* $v=0$ *and solve to find* $t$
 > 
 > $0 = 3 t^{2} - 12 t
 > 0 = t^{2} - 4 t
 > 0 = t ( t - 4 )$
 > 
-> $t=0$* or *$t=4$
+> $t=0$ *or* $t=4$
 > 
-> > *After *$t=0$* the next point of rest is *$t=4$
+> > *After* $t=0$ *the next point of rest is* $t=4$
 > 
 > **Final answer:** **After **$t=0$**, it takes 4 seconds for the particle to come to rest**
 > 
@@ -168,12 +168,12 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> A* deceleration of 3 means an acceleration of -3*
+> A *deceleration of 3 means an acceleration of -3*
 > *Differentiate the velocity function to find acceleration*
 > 
 > $a=\frac{dv}{dt}=6t-12$
 > 
-> > *Set *$a=-3$* and solve for *$t$
+> > *Set* $a=-3$ *and solve for* $t$
 > 
 > $6t-12=-3\,6t=9\,t=1.5$
 > 

@@ -84,7 +84,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Substitute the values you are given for *$P$* and *$w$* into the formula*
+> > *Substitute the values you are given for* $P$ *and* $w$ *into the formula*
 > 
 > $20=2\timesl+2\times4$
 > 
@@ -92,7 +92,7 @@ guided_study: true
 > 
 > $20=2l+8$
 > 
-> > *Solve the resulting equation to find the value of *$l$
+> > *Solve the resulting equation to find the value of* $l$
 > *Start by subtracting 8 from both sides*
 > 
 > $12=2l$

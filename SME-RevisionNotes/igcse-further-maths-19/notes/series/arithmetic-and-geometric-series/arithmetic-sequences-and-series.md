@@ -103,22 +103,22 @@ $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*   *
 > **Worked Example**
 > The fourth term of an arithmetic series is 10 and the ninth term is 25.  Find the first term and the common difference of the series.
 > 
-> > *Put the information for the fourth and ninth terms into the **n*<sup>*th*</sup>* term formula  *$u_{n} = a + ( n - 1 ) d$
+> > *Put the information for the fourth and ninth terms into the **n*<sup>*th*</sup> *term formula* $u_{n} = a + ( n - 1 ) d$
 > 
-> > *For *$u_{4}$
+> > *For* $u_{4}$
 > 
 > $\begin{gathered} a + ( 4 - 1 ) d & = 10 \\ a + 3 d & = 10 \end{gathered}$
 > 
-> > *For *$u_{9}$
+> > *For* $u_{9}$
 > 
 > $\begin{gathered} a + ( 9 - 1 ) d & = 25 \\ a + 8 d & = 25 \end{gathered}$
 > 
-> > *That gives us two simultaneous equations in *$a$* and *$d$
-> *Subtract the *$u_{4}$* equation from the *$u_{9}$* equation to eliminate *$a$
+> > *That gives us two simultaneous equations in* $a$ *and* $d$
+> *Subtract the* $u_{4}$ *equation from the* $u_{9}$ *equation to eliminate* $a$
 > 
 > > $\begin{array}{rcl} 5 d & = 15 \\ d = 3 \end{array}$
 > 
-> *Substitute that value into the first equation to find *$a$
+> *Substitute that value into the first equation to find* $a$
 > 
 > > $\begin{gathered} a + 3 ( 3 ) & = 10 \\ a + 9 & = 10 \\ a = 1 \end{gathered}$
 > 
@@ -133,11 +133,11 @@ $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*   *
 > 
 > a) Find the common difference, $d$, of the series.
 > 
-> > *Use the arithmetic series formula  *$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
+> > *Use the arithmetic series formula* $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
 > 
-> > *Here  *$n=10$*,  *$S_{10}=630$*  and  *$a=18$
+> > *Here* $n=10$*,* $S_{10}=630$ *and* $a=18$
 > 
-> > *Substitute in and solve for *$d$
+> > *Substitute in and solve for* $d$
 > 
 > $\begin{gathered} 630 = \frac{10}{2} [ 2 ( 18 ) + ( 10 - 1 ) d ] \\ 630 = 5 [ 36 + 9 d ] \\ 630 = 180 + 45 d \\ 450 = 45 d \\ d = 450 \div 45 \end{gathered}$
 > 
@@ -149,7 +149,7 @@ $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*   *
 > 
 > b) Find the first term, $a$, of the series.
 > 
-> > *Here  *$n=10$*,  *$S_{10}=630$*  and  *$d=11$
+> > *Here* $n=10$*,* $S_{10}=630$ *and* $d=11$
 > 
 > $\begin{gathered} 630 = \frac{10}{2} [ 2 a + ( 10 - 1 ) 11 ] \\ 630 = 5 [ 2 a + 99 ] \\ 630 = 10 a + 495 \\ 135 = 10 a \\ a = 135 \div 10 \end{gathered}$
 > 

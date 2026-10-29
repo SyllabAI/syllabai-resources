@@ -63,4 +63,4 @@ Mechanics uses a variety of different scalar and vector quantities.
 
 > **Exam Hint**
 > - Make sure you fully understand the definitions of all the words in this section so that you can be clear about what your exam question is asking of you
-> - Vectors appear in **bold** (non-italic) font in textbooks, on exam papers, etc (i.e. ***F****, ****α*** ) but in handwriting should be underlined (i.e.* *<u>*F*</u>* , *<u>*α*</u>* *)
+> - Vectors appear in **bold** (non-italic) font in textbooks, on exam papers, etc (i.e. ***F****, ****α*** ) but in handwriting should be underlined (i.e.* *<u>*F*</u>*,* <u>*α*</u>* *)

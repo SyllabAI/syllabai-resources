@@ -64,7 +64,7 @@ $W=Fd$
   - *W* = work done on charge (J)
   - *F* = force on the charge (N)
   - *d* = distance between plates (m)
-- The work done in moving a charge *q* through a potential difference *V *between parallel plates is given by:
+- The work done in moving a charge *q* through a potential difference *V* between parallel plates is given by:
 
 $W=qV$
 

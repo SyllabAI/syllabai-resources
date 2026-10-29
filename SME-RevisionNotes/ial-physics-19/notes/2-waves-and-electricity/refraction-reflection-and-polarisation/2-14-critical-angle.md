@@ -32,9 +32,9 @@ guided_study: false
 
 - Where:
 
-  - *θ*<sub>*1*</sub> = *C *
+  - *θ*<sub>*1*</sub> = *C*
   - *θ*<sub>*2*</sub> = 90°
-  - *n*<sub>*1 *</sub> = *n*
+  - *n*<sub>*1* </sub> = *n*
   - *n*<sub>*2*</sub> = 1 (air)
 
 > **Worked Example**
@@ -70,9 +70,9 @@ guided_study: false
 > 
 > **Step 1: Recall Snell's Law and rearrange to make critical angle the subject**
 > 
-> *n*<sub>*1*</sub> sin *θ*<sub>*1*</sub> = *n*<sub>*2*</sub> sin *θ*<sub>*2 *</sub>
+> *n*<sub>*1*</sub> sin *θ*<sub>*1*</sub> = *n*<sub>*2*</sub> sin *θ*<sub>*2* </sub>
 > 
-> $\text{sin} ( C ) = \frac{n_{2}}{n_{1}} \text{sin} ( theta_{2} )$
+> $\text{sin} ( C ) = \frac{n_{2}}{n_{1}} \text{sin} ( \theta_{2} )$
 > 
 > **Step 2: Substitute in the known quantities**
 > 
@@ -81,7 +81,7 @@ guided_study: false
 > - *θ*<sub>*1*</sub> = *C*
 > - *θ*<sub>*2*</sub> = 90° (The angle of refraction is 90° when at the critical angle)
 > 
-> $\text{sin} ( C ) = \frac{n_{2}}{n_{1}} \text{sin} ( theta_{2} )$
+> $\text{sin} ( C ) = \frac{n_{2}}{n_{1}} \text{sin} ( \theta_{2} )$
 > 
 > $C = \sin ^{- 1} ( \frac{1.32}{1.45} )$
 > 

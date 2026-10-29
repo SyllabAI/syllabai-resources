@@ -43,7 +43,7 @@ We’ve included the best Great Expectations quotes — with detailed analysis �
 > **blockquote**
 > **“I wish you could put me right”** - Pip, Chapter 17
 
-| ![Illustration of Pip in profile, wearing a high-collared shirt and a beige coat.](assets/21e09e039167-great-expectations-pip-2.png)<br><br>*Pip * | **Key word or phrase to memorise: **“put me right” | **What the quotation means: **Pip expresses his longing for Biddy to make him love her and forget his desire to be a gentleman** ** | **Theme: **Ambition and self-improvement |
+| ![Illustration of Pip in profile, wearing a high-collared shirt and a beige coat.](assets/21e09e039167-great-expectations-pip-2.png)<br><br>*Pip* | **Key word or phrase to memorise: **“put me right” | **What the quotation means: **Pip expresses his longing for Biddy to make him love her and forget his desire to be a gentleman** ** | **Theme: **Ambition and self-improvement |
 |---|---|---|---|
 | - Dickens contrasts the relationships between Pip and Biddy and Pip and Estella:<br><br>  - Biddy, as Estella’s *<u>foil</u>*, is a good role model and companion for Pip<br>  - Pip acknowledges in “put me right” that he may be on the wrong course<br>  - This [foreshadows](https://www.savemyexams.com/glossary/gcse/english-language/foreshadowing-definition/) Pip’s eventual realisation that emotional integrity matters more than class status<br>- Nevertheless, the vague “wish” suggests Pip is more focused on his future:<br><br>  - This portrays his determined ambition to be a gentleman |   |   |   |
 

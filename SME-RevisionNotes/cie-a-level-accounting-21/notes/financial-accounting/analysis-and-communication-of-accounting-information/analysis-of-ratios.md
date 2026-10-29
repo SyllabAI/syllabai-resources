@@ -84,33 +84,33 @@ State the **implication** or give a **recommendation**
 > 
 > (i) Gearing ratio: $\frac{\mathrm{Fixed} \mathrm{cost} \mathrm{capital}}{\mathrm{Total} \mathrm{capital}}\times100$
 > 
-> *Alpha plc: *$\frac{100 000}{400 000 + 250 000 + 100 000} \times 100 = 13.33 \%$
+> *Alpha plc:* $\frac{100 000}{400 000 + 250 000 + 100 000} \times 100 = 13.33 \%$
 > 
-> *Beta plc: *$\frac{300 000}{300 000 + 150 000 + 300 000} \times 100 = 40.00 \%$
+> *Beta plc:* $\frac{300 000}{300 000 + 150 000 + 300 000} \times 100 = 40.00 \%$
 > 
 > (ii) Earnings per share (EPS): $\frac{\mathrm{Profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Number} \mathrm{of} \mathrm{issued} \mathrm{ordinary} \mathrm{shares}}$
 > 
-> *Alpha plc: *$\frac{95 000}{400 000} = \$ 0.24 \text{per} \text{share}$
+> *Alpha plc:* $\frac{95 000}{400 000} = \$ 0.24 \text{per} \text{share}$
 > 
-> *Beta plc: *$\frac{60 000}{600 000} = \$ 0.10 \text{per} \text{share}$
+> *Beta plc:* $\frac{60 000}{600 000} = \$ 0.10 \text{per} \text{share}$
 > 
 > (iii) Price/earnings (P/E) ratio: $\frac{\mathrm{Market} \mathrm{price} \mathrm{per} \mathrm{share}}{\mathrm{Earnings} \mathrm{per} \mathrm{share}}$
 > 
-> *Alpha plc: *$\frac{2.85}{0.24}=12$
+> *Alpha plc:* $\frac{2.85}{0.24}=12$
 > 
-> *Beta plc: *$\frac{0.80}{0.10}=8$
+> *Beta plc:* $\frac{0.80}{0.10}=8$
 > 
 > (iv) Dividend per share: $\frac{\mathrm{Annual} \mathrm{ordinary} \mathrm{dividend}}{\mathrm{Number} \mathrm{of} \mathrm{issued} \mathrm{ordinary} \mathrm{shares}}$
 > 
-> *Alpha plc: *$\frac{19 000}{400 000} = \$ 0.0475$
+> *Alpha plc:* $\frac{19 000}{400 000} = \$ 0.0475$
 > 
-> *Beta plc: *$\frac{45 000}{600 000} = \$ 0.075$
+> *Beta plc:* $\frac{45 000}{600 000} = \$ 0.075$
 > 
 > Dividend yield: $\frac{\mathrm{Dividend} \mathrm{per} \mathrm{share}}{\mathrm{Market} \mathrm{price} \mathrm{per} \mathrm{share}}\times100$
 > 
-> *Alpha plc: *$\frac{0.0475}{2.85} \times 100 = 1.67 \%$
+> *Alpha plc:* $\frac{0.0475}{2.85} \times 100 = 1.67 \%$
 > 
-> *Beta plc: *$\frac{0.075}{0.80} \times 100 = 9.38 \%$
+> *Beta plc:* $\frac{0.075}{0.80} \times 100 = 9.38 \%$
 > 
 > **(b)**
 > 

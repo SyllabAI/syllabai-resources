@@ -79,7 +79,7 @@ $W=\frac{Q^{2}}{2C}$
 
 - The charge stored *Q* on the capacitor is given by the equation *Q* = *CV*
 
-  - Therefore, the charge stored *Q *is **directly proportional** to the potential difference across the plates *V*
+  - Therefore, the charge stored *Q* is **directly proportional** to the potential difference across the plates *V*
 - The graph of charge against potential difference is therefore a straight line graph through the origin
 - The gradient of the graph represents $\frac{1}{capaci\mathrm{tan}ceC}$, which is a constant
 - The electrical (potential) energy stored in the capacitor can be determined from the** area under the potential-charge graph **which is equal to the **area** of a right-angled triangle:

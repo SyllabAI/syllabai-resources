@@ -72,14 +72,14 @@ Calculate the** contribution**
 > - Sales revenue *\$14 × 12 000 = \$168 000*
 > - Production cost
 > 
->   - Direct materials *\$4 × 18 000 = \$72 000 *
+>   - Direct materials *\$4 × 18 000 = \$72 000*
 >   - Direct labour *\$3 × 18 000 = \$54 000*
 >   - Total
 > 
 > *\$72 000 + \$54 000 = \$126 000*
 > 
 > - Opening inventory *(\$4 + \$3) × 2 000 = \$14 000*
-> - Closing inventory *Opening inventory + Production - Sales * *= 2 000 + 18 000 - 12 000 * *= 8 000 units* *(\$4 + \$3) ×  8 000 = \$56 000*
+> - Closing inventory *Opening inventory + Production - Sales* *= 2 000 + 18 000 - 12 000* *= 8 000 units* *(\$4 + \$3) ×  8 000 = \$56 000*
 > 
 > **Profit statement for the month of August**
 > 
@@ -171,7 +171,7 @@ Calculate the** contribution**
 
 ![Reconciliation statement ](../../../assets/cb640a4f2df2-20990-cost-reconciliation-statement.png)
 
-*Example of a cost reconciliation statement *
+*Example of a cost reconciliation statement*
 
 > **Worked Example**
 > With absorption costing:
@@ -192,9 +192,9 @@ Calculate the** contribution**
 > 
 > Calculate the difference in the inventory values
 > 
-> *Difference in opening inventory: 1 600 - 1 500 = 100 *
+> *Difference in opening inventory: 1 600 - 1 500 = 100*
 > 
-> *Difference in closing inventory: 2 000 - 1 800 = 200 *
+> *Difference in closing inventory: 2 000 - 1 800 = 200*
 > 
 > |   | \$ |
 > |---|---|

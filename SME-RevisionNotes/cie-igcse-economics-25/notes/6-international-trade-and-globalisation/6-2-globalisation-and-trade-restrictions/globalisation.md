@@ -34,7 +34,7 @@ guided_study: false
 | **Cause** | **Explanation** | **Effect on globalisation** |
 |---|---|---|
 | **Changes in trade restrictions** | - When governments reduce *tariffs*, *quotas*, or trade bans, international trade becomes easier | - Encourages more trade and global connections |
-| **Changes in transport costs** | - Improvements in shipping, air travel and *logistics *lower the cost of moving goods between countries | - Makes global trade faster and more affordable |
+| **Changes in transport costs** | - Improvements in shipping, air travel and *logistics* lower the cost of moving goods between countries | - Makes global trade faster and more affordable |
 | **Changes in communication costs** | - The internet, mobile phones and digital platforms make it easier to manage and expand international trade | - Speeds up decision-making and supports global trade |
 | **Movement of MNCs** | - Multinational companies expand to new countries, setting up production and creating *global supply chains* | - Spreads economic activity across the world |
 

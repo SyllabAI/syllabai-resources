@@ -29,7 +29,7 @@ guided_study: false
 
   - This applies to objects moving towards each other or away from each other
 
-- The diagram below shows two masses *m *with velocity *u* and *M *at rest (M has zero velocity)
+- The diagram below shows two masses *m* with velocity *u* and *M* at rest (M has zero velocity)
 
 ![conservation-of-momentum, IGCSE & GCSE Physics revision notes](../../../assets/a362e6647e5b-conservation-of-momentum-1.png)
 
@@ -43,7 +43,7 @@ guided_study: false
 - After the collision:
 
   - Mass *M* also now has momentum
-  - The velocity of *m* is now -*v *(since it is now travelling to the left) and the velocity of *M* is *V*
+  - The velocity of *m* is now -*v* (since it is now travelling to the left) and the velocity of *M* is *V*
   - The total momentum is now the momentum of *M* + momentum of *m*
   - This is (*M* × *V*) + (*m* × -*v*) or **(*****M***** × *****V*****) – (*****m***** × *****v*****)**
 

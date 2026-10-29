@@ -50,13 +50,13 @@ guided_study: true
 - Collecting the clockwise and anticlockwise moments:
 
   - Sum of the clockwise moments = $F_{2}\timesd_{2}$
-  - Sum of the anticlockwise moments = `open parentheses F subscript 1 cross times d subscript 1 close parentheses space plus space open parentheses F subscript 3 cross times d subscript 3 close parentheses`
+  - Sum of the anticlockwise moments = `(F_ 1×d_ 1)+(F_ 3×d_ 3)`
 
 - Using the principle of moments, the beam is balanced when:
 
 **Sum of the clockwise moments = Sum of the anticlockwise moments**
 
-`F subscript 2 space cross times space d subscript 2 space equals space open parentheses F subscript 1 space cross times d subscript 1 close parentheses space plus space open parentheses F subscript 3 space cross times space d subscript 3 close parentheses`
+`F_ 2×d_ 2=(F_ 1×d_ 1)+(F_ 3×d_ 3)`
 
 > **Worked Example**
 > A parent and child are at opposite ends of a playground see-saw. The parent weighs 690 N and the child weighs 140 N. The adult sits 0.3 m from the pivot.

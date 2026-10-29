@@ -19,7 +19,7 @@ In the 1920s, the US introduced a law known as** prohibition**. This was a natio
 
 Prohibition did not work out as planned. Instead of reducing alcohol consumption, it led to a rise in** illegal activities**, such as *bootlegging*,* *which involved people making and selling alcohol secretly. Gangsters such as Al Capone became powerful figures by *smuggling* and distributing alcohol. Every city in the USA had an issue with gangs, which created a lot of violence and crime in cities across the country. Prohibition also led to *corruption* among law enforcement officials. Bootleggers *bribed* police officers to turn a blind eye to their illegal activities, which undermined the rule of law and eroded public trust in the government.
 
-Prohibition had unintended consequences and caused more problems than it solved. While it aimed to improve society, it instead fuelled crime, corruption and *social unrest *in the US* *throughout the 1920s. As a result, the government *repealed* the act in 1933.
+Prohibition had unintended consequences and caused more problems than it solved. While it aimed to improve society, it instead fuelled crime, corruption and *social unrest* in the US* *throughout the 1920s. As a result, the government *repealed* the act in 1933.
 
 ## What was prohibition?
 
@@ -29,7 +29,7 @@ Prohibition had unintended consequences and caused more problems than it solved.
 
 - **Prohibition** made the production, selling and distribution of alcohol illegal
 
-  - This was a* federal *law
+  - This was a *federal* law
   
     - As a result, it **applied to all states** in the US
 - Prohibition took some time to come into law
@@ -100,7 +100,7 @@ Prohibition had unintended consequences and caused more problems than it solved.
 - By the 1930s, the US government could no longer justify prohibition
 
   - **Enforcing prohibition **cost the US government **\$13.4 million  **
-  - The government was losing out on \$11billion of *revenue *from taxing alcohol sales
+  - The government was losing out on \$11billion of *revenue* from taxing alcohol sales
   - US citizens’ opposition to prohibition increased
   
     - Businessmen no longer wanted prohibition due to the **increase in crime**

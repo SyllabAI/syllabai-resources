@@ -25,10 +25,10 @@ guided_study: false
   - The** ratio** between the two amounts will always stay the** same**
 - The symbol $\propto$ means "proportional to"
 
-  - E.g. *y *is directly proportional to *x*, *y*$\propto$*x*
-- If *x *and *y* are directly proportional, then
+  - E.g. *y* is directly proportional to *x*, *y*$\propto$*x*
+- If *x* and *y* are directly proportional, then
 
-  - *x *: *y *will always be the same
+  - *x*: *y* will always be the same
   - there will be some value, *k,* such that ***y *****= *****kx***
   - the graph relating *x* and *y* is a linear graph, with **gradient *****k***
 - *k* is called the **constant of proportionality**

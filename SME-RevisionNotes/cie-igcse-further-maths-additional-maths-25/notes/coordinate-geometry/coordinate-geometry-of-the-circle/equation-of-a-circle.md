@@ -142,7 +142,7 @@ The line and the circle intersect at the points $( 3 , - 1 )$ and $( 8 , 4 )$
 > 
 > $x^{2}=0$
 > 
-> $x=0$* (repeated)*
+> $x=0$ *(repeated)*
 > 
 > **Final answer:** **There is only one point of intersection so the line **$y=4x+4$** is tangent to the circle**** **$(x-4)^{2}+(y-3)^{2}=17$
 > 

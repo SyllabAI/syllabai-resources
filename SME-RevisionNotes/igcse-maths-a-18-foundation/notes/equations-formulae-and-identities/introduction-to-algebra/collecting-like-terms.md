@@ -58,7 +58,7 @@ guided_study: true
     - 5*xy  *and 7*xyz  *(different letters)
 - Remember **multiplication **can be done in **any order**
 
-  - *xy  *and *yx * are **like** terms
+  - *xy* and *yx* are **like** terms
   
     - So are 2*xy*  and 3*yx*
 

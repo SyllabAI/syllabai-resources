@@ -74,7 +74,7 @@ guided_study: false
   - This allows a business to **charge a** ***premium price*** and achieve a** high** ***profit margin***
   - Examples of businesses that adopt a mass market differentiation strategy include
   
-    - **Coca Cola, **whose* *trusted* *and well-known* *branding includes its logo, brand colours and characters such as the *Coca Cola *truck
+    - **Coca Cola, **whose* *trusted* *and well-known* *branding includes its logo, brand colours and characters such as the *Coca Cola* truck
     - **Samsung**'s cutting-edge mobile phones have the most advanced package of technical features in the mass market
     - **Volvo**'s focus on safety and build quality allows it to charge premium prices in the mass market
 

@@ -34,8 +34,8 @@ guided_study: false
 | Area | Use | Example |
 |---|---|---|
 | **Automation (robots, AI, CAD/CAM)** | - Handles repetitive or risky jobs accurately, around the clock | - Invest in robots for packing to cut labour costs and speed up delivery |
-| **E-commerce platforms** | - Provide a virtual shop with secure payments and parcel tracking | - Close some high-street stores and shift the *budget *to online marketing |
-| **Big data and data mining** | - Analyses millions of *transactions *to reveal trends | - Offer personalised discounts to shoppers who often buy sportswear |
+| **E-commerce platforms** | - Provide a virtual shop with secure payments and parcel tracking | - Close some high-street stores and shift the *budget* to online marketing |
+| **Big data and data mining** | - Analyses millions of *transactions* to reveal trends | - Offer personalised discounts to shoppers who often buy sportswear |
 | **Internet of Things (IoT)** | - Connects devices that report location or usage in real time | - Use smart sensors in lorries to reroute shipments and save fuel |
 | **Digital platforms and apps** | - Match buyers with sellers or service providers instantly | - Launch a ride sharing app instead of a traditional taxi fleet |
 
@@ -106,14 +106,14 @@ guided_study: false
   - E.g. US mobile network **Verizon **offers “unlimited calls/data” deals to attract customers from rivals AT&T and T-Mobile
 3. **Need for product innovation**
 
-  - Chinese smartphone brand **Xiaomi **pours billions into *R&D *each year to stay ahead of rivals like Huawei in the oligopoly smartphone market
+  - Chinese smartphone brand **Xiaomi **pours billions into *R&D* each year to stay ahead of rivals like Huawei in the oligopoly smartphone market
 4. **Bulk-buy savings for big players**
 
   - Size gives dominant businesses bargaining power, lowering their costs
   - E.g. **Walmart**’s global scale helps it negotiate lower unit prices from manufacturers, keeping its own costs below those of smaller supermarket chains
 5. **Regulatory costs**
 
-  - Monopolies often face* price caps* that restrict their ability to maximise profits
+  - Monopolies often face *price caps* that restrict their ability to maximise profits
   - E.g. the UK government imposes a maximum amount that suppliers such as **British Gas** can charge households for each unit of energy they use
 
 ### How competitors affect demand
@@ -144,7 +144,7 @@ guided_study: false
 |---|---|
 | **Price of inputs** | - A higher steel cost may force a bicycle maker to raise retail prices, look for cheaper alloys or redesign frames to use less metal |
 | **Quality of materials** | - A laptop brand using premium chips can advertise 'fast-performance' models and charge *premium prices*<br>- If quality falls, the business may switch to a new supplier to protect its reputation |
-| **Supplier reliability** | - Car factories that use* just-in-time* plan production around suppliers that promise prompt deliveries<br>- Delays may require *buffer stock*<br>- It may check suppliers are *solvent *before signingcontracts |
+| **Supplier reliability** | - Car factories that use *just-in-time* plan production around suppliers that promise prompt deliveries<br>- Delays may require *buffer stock*<br>- It may check suppliers are *solvent* before signingcontracts |
 | **Availability and scarcity** | - An ice-cream company facing a global vanilla shortage may offer more chocolate flavours and pre-order next season’s crop<br>- *R&D* teams may focus on finding substitute ingredients to keep production flowing |
 | **Lead times** | - Shipping from Asia to Europe adds time to fashion retailers’ schedules<br>- Buyers order earlier or use local factories to react faster to trends |
 | **Supplier bargaining power** | - If a microchip maker is one of only two global sources, its strong position may force electronics firms to accept higher prices and longer contracts |

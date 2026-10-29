@@ -23,11 +23,11 @@ guided_study: true
 
   - When $a>1$, $y=a^{x}$ represents **exponential growth**
   
-    - Values of *y *increase as* x *increases
+    - Values of *y* increase as *x* increases
   - When $0<a<1$, $y=a^{x}$ represents **exponential decay**
   
     - $a$ is positive but** less than 1**
-    - Values of *y *decrease as* x *increases
+    - Values of *y* decrease as *x* increases
 
 - Graphs of both **exponential growth** and **exponential decay**
 
@@ -86,10 +86,10 @@ guided_study: true
 > 
 > (b) On the same set of axes, sketch the graphs of  $y=3^{x}$  and  $y=4^{x}$.
 > 
-> *Both graphs will have the "typical" *$y=a^{x}$* exponential growth shape for *$a>1$
+> *Both graphs will have the "typical"* $y=a^{x}$ *exponential growth shape for* $a>1$
 > 
-> > $y=4^{x}$* will be the "higher" graph for *$x>0$* and "lower" graph for *$x<0$
+> > $y=4^{x}$ *will be the "higher" graph for* $x>0$ *and "lower" graph for* $x<0$
 > 
-> > *Both graphs go through *$( 0 , 1 )$* and have an asymptote along the *$x$*-axis*
+> > *Both graphs go through* $( 0 , 1 )$ *and have an asymptote along the* $x$*-axis*
 > 
 > ![A sketch of y = 3 to the power x and y = 4 to the power x on the same axes](assets/766b19f9d6e1-jayo5r1a-picture1.png)

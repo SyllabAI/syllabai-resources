@@ -32,7 +32,7 @@ guided_study: false
     - Czechoslovakia bordered Poland
 - Britain and France **abandoned the concept of** ***appeasement*** by March 1939
 
-  - They did not believe that Hitler would stop his aggressive* foreign policy*
+  - They did not believe that Hitler would stop his aggressive *foreign policy*
   - Britain and France had made significant progress in ***rearmament***
 
 ![A colour-coded historical map of Central and Eastern Europe showing German territorial expansion between 1933 and 1939. Germany in 1933 is shaded dark green. The Rhineland, shown in medium green, was remilitarised in 1936. Areas annexed by Germany in 1938 are shaded orange (including Austria and the Sudetenland). Purple marks the areas annexed in 1939 (the rest of Czechoslovakia), while Slovakia is shaded yellow and labelled as becoming a German protectorate in March 1939. Surrounding countries like France, Poland, Hungary, and Romania are also labelled, as are regions like East Prussia and the Saar.

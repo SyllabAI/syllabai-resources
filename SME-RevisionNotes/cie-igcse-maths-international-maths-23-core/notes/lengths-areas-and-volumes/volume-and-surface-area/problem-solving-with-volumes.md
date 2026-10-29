@@ -73,7 +73,7 @@ guided_study: true
 > **Answer:**
 > 
 > *The volume is the area of the cross section × length (10 cm)*
-> *Find the area by splitting into a 7 × 4 and a (9 - 4) × 2 rectangle (or a 9 × 2 and a (7 - 2) × 4 rectangle) *
+> *Find the area by splitting into a 7 × 4 and a (9 - 4) × 2 rectangle (or a 9 × 2 and a (7 - 2) × 4 rectangle)*
 > 
 > * 7 × 4 + (9 - 4) × 2 = 38 cm**<sup>2</sup>*
 > 

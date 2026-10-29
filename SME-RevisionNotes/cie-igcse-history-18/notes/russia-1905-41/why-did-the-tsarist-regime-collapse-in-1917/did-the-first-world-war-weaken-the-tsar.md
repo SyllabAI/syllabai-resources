@@ -170,7 +170,7 @@ Transport (light green section):
   - **They only had one son.** His name was Alexei
   - **Alexei had ***haemophilia*
   
-    - Alexei's medical condition was **kept secret from the Russian people**. Nicholas did not want Alexei, the *heir *to the throne, to appear weak
+    - Alexei's medical condition was **kept secret from the Russian people**. Nicholas did not want Alexei, the *heir* to the throne, to appear weak
 - Due to Alexei's illness, **Rasputin became essential but damaging** to the Romanovs
 
 #### Who was Rasputin?

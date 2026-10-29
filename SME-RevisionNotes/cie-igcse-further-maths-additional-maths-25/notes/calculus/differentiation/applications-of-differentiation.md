@@ -53,11 +53,11 @@ guided_study: false
 > 
 > (a) Find the gradient of the curve when $x=2$.
 > 
-> > $y$* is already in a form that can be differentiated*
+> > $y$ *is already in a form that can be differentiated*
 > 
 > $\frac{dy}{dx}=4x^{2}+3$
 > 
-> > *Substitute *$x=2$* into *$\frac{dy}{dx}$
+> > *Substitute* $x=2$ *into* $\frac{dy}{dx}$
 > 
 > $\frac{dy}{dx}=4\times2^{2}+3=19$
 > 
@@ -69,9 +69,9 @@ guided_study: false
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 4 \\ 4 x^{2} + 3 & = 4 \end{gathered}$
 > 
-> *Solve this equation to find *$x$
+> *Solve this equation to find* $x$
 >  *Note that it is quadratic equation so it could have up to two solutions* 
-> *The question refers to 'values' implying there is (or could be) more than one value for *$x$
+> *The question refers to 'values' implying there is (or could be) more than one value for* $x$
 > 
 > $\begin{gathered} 4 x^{2} & = 1 \\ x^{2} & = 1 \frac{1}{4} \\ x = \pm \sqrt{1 \frac{1}{4}} \\ x = \pm 1 \frac{1}{2} \end{gathered}$
 > 
@@ -132,13 +132,13 @@ $f'(x)<0$ (for decreasing intervals)
 > **Worked Example**
 > For what values of $x$ is $y=2x^{3}-3x^{2}+5$ a decreasing function?
 > 
-> > *The function is decreasing when its gradient *$( \frac{d y}{d x} )$* is less than 0.*
+> > *The function is decreasing when its gradient* $( \frac{d y}{d x} )$ *is less than 0.*
 > 
 > > *Find the derivative of the function by differentiating.*
 > 
 > > $\begin{gathered} \frac{d y}{d x} & = 6 x^{2} - 6 x \end{gathered}$* *
 > 
-> > *Solve the inequality *$\frac{dy}{dx}<0$* to find the set of values where the gradient is negative.*
+> > *Solve the inequality* $\frac{dy}{dx}<0$ *to find the set of values where the gradient is negative.*
 > 
 > $\begin{gathered} 6 x^{2} - 6 x & < 0 \end{gathered}$
 > 
@@ -146,7 +146,7 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > $\begin{gathered} 6 x ( x - 1 ) & < 0 \end{gathered}$
 > 
-> > *The solutions to *$\frac{dy}{dx}=0$* are *$x=0$* and  *$x=1$*. Find the correct way around for the inequalities by considering the graph of *$\frac{dy}{dx}$*. The graph is a positive quadratic, so the function is negative between the values of 0 and 1 (where it is below the *$x$*-axis).*
+> > *The solutions to* $\frac{dy}{dx}=0$ *are* $x=0$ *and* $x=1$*. Find the correct way around for the inequalities by considering the graph of* $\frac{dy}{dx}$*. The graph is a positive quadratic, so the function is negative between the values of 0 and 1 (where it is below the* $x$*-axis).*
 > 
 > > *Considering a sketch of the graph of the gradient function may help you see this.*
 > 
@@ -154,7 +154,7 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > > * *
 > 
-> > *You can check your answers by considering a sketch of the original function, it should be decreasing at the point where *$0<x<1.$
+> > *You can check your answers by considering a sketch of the original function, it should be decreasing at the point where* $0<x<1.$
 > 
 > ![aqa-fm-increasing-and-decreasing-functions-rn-diagram-we-2](assets/21d2082619df-aqa-fm-increasing-and-decreasing-functions-rn-di.png)
 > 
@@ -211,9 +211,9 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > a) Find an equation for the tangent to the curve $y=f(x)$ at the point where $x=1$, giving your answer in the form $y=mx+c$.
 > 
-> > *First find the derivative *$\mathrm{f} ' ( x )$* by differentiating*
+> > *First find the derivative* $\mathrm{f} ' ( x )$ *by differentiating*
 > 
-> > *Start by rewriting *$\mathrm{f} ( x )$*as powers of **x*
+> > *Start by rewriting* $\mathrm{f} ( x )$*as powers of **x*
 > 
 > $\mathrm{f} ( x ) = 2 x^{4 + 3 x^{-2} }$
 > 
@@ -221,19 +221,19 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > $\mathrm{f} ' ( x ) = 8 x^{3} - 6 x^{- 3}$
 > 
-> > *Now substitute *$x=1$* into *$\mathrm{f} ' ( x )$* to find the gradient of the tangent*
+> > *Now substitute* $x=1$ *into* $\mathrm{f} ' ( x )$ *to find the gradient of the tangent*
 > 
 > $\begin{array}{rcl} \mathrm{f} ' ( 1 ) & = 8 ( 1 )^{3} - 6 ( 1 )^{- 3} \\ = 8 - 6 \\ = 2 \end{array}$
 > 
-> > *We also need the **y**-coordinate, so substitute *$x=1$* into *$\mathrm{f} ( x )$* also*
+> > *We also need the **y**-coordinate, so substitute *$x=1$ *into* $\mathrm{f} ( x )$ *also*
 > 
 > $\begin{gathered} \mathrm{f} ( 1 ) & = 2 ( 1 )^{4 + 3 ( 1 )^{-2} } \\ = 2 + 3 \\ = 5 \end{gathered}$
 > 
-> > *Now we can substitute the point (1, 5) and the gradient, 2, into *$y - y_{1} = m ( x_{1} ) ( x - x_{1} )$
+> > *Now we can substitute the point (1, 5) and the gradient, 2, into* $y - y_{1} = m ( x_{1} ) ( x - x_{1} )$
 > 
 > $\begin{gathered} y - 5 & = 2 ( x - 1 ) \end{gathered}$
 > 
-> > *Note that we are asked for the final answer in the form *$y=mx+c$*, so rearrange to this form*
+> > *Note that we are asked for the final answer in the form* $y=mx+c$*, so rearrange to this form*
 > 
 > $\begin{array}{rcl} y - 5 & = 2 x - 2 \end{array}$
 > 
@@ -241,11 +241,11 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > b) Find an equation for the normal at the point where $x=1$, giving your answer in the form $ax+by+d=0$, where $a$, $b$ and $d$ are integers.
 > 
-> > *We already have the gradient of the tangent; the gradient of the normal is *$\frac{-1}{m}$* where *$m$* is the gradient of the tangent*
+> > *We already have the gradient of the tangent; the gradient of the normal is* $\frac{-1}{m}$ *where* $m$ *is the gradient of the tangent*
 > 
-> *gradient of normal = *$\frac{-1}{2}$
+> *gradient of normal =* $\frac{-1}{2}$
 > 
-> > *Substitute the point (1, 5) from part (a) and the gradient of the normal into *$y - y_{1} = m ( x - x_{1} )$
+> > *Substitute the point (1, 5) from part (a) and the gradient of the normal into* $y - y_{1} = m ( x - x_{1} )$
 > 
 > $\begin{gathered} y - 5 & = ( \frac{- 1}{2} ) ( x - 1 ) \end{gathered}$
 > 
@@ -253,6 +253,6 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > $\begin{gathered} y - 5 & = - 1 \frac{1}{2} x + 1 \frac{1}{2} \\ 1 \frac{1}{2} x + y - 5 1 \frac{1}{2} & = 0 \end{gathered}$
 > 
-> > *Note that *$a$*, *$b$* and *$d$* must be integers so multiply by 2 to clear the fractions*
+> > *Note that* $a$*,* $b$ *and* $d$ *must be integers so multiply by 2 to clear the fractions*
 > 
 > $\begin{gathered} x + 2 y - 11 & = 0 \end{gathered}$

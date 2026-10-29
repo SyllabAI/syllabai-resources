@@ -32,7 +32,7 @@ guided_study: false
 
   - *B* = magnetic flux density (T)
   - *F* = magnetic force on a current-carrying wire (N)
-  - *I = *current (A)
+  - *I =* current (A)
   - *L* = length of the wire (m)
 
 - For reference, the Earth's magnetic flux density is around 0.032 mT and an ordinary fridge magnet is around 5 mT

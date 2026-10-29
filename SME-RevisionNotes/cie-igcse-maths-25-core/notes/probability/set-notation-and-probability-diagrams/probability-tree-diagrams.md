@@ -65,8 +65,8 @@ guided_study: true
 > > *Work out the probabilities of each set of traffic lights being on red, R*
 > *Use P(red) = 1 - P(green)*
 > 
-> `straight P open parentheses 1 to the power of st space straight R close parentheses equals 1 minus straight P open parentheses 1 to the power of st space straight G close parentheses equals 1 minus 5 over 7 equals 2 over 7`
-> `straight P open parentheses 2 to the power of nd space straight R close parentheses equals 1 minus straight P open parentheses 2 to the power of nd space straight G close parentheses equals 1 minus 8 over 9 equals 1 over 9`
+> `straight P (1^st straight R)=1−straight P (1^st straight G)=1−5 / 7=2 / 7`
+> `straight P (2^nd straight R)=1−straight P (2^nd straight G)=1−8 / 9=1 / 9`
 > 
 > > *Draw the branches (with a label of G or R on the ends)*
 > *Write the probabilities above each branch*
@@ -93,7 +93,7 @@ guided_study: true
 > *Or the 1st is red and the 2nd is red ('at least one' could mean both)*
 > *Add between the separate cases*
 > 
-> `straight P open parentheses at space least space one space straight R close parentheses space equals space straight P open parentheses straight G comma space straight R close parentheses space plus space straight P open parentheses straight R comma space straight G close parentheses space plus space straight P open parentheses straight R comma space straight R close parentheses space equals space 5 over 63 space plus space 16 over 63 space plus space 2 over 63 space equals space 23 over 63`
+> `straight P (at least one straight R)=straight P (straight G comma straight R)+straight P (straight R comma straight G)+straight P (straight R comma straight R)=5 / 63+16 / 63+2 / 63=23 / 63`
 > 
 > $\frac{23}{63}$
 > 
@@ -101,6 +101,6 @@ guided_study: true
 > *At least one red means all the possible cases shown except two greens*
 > *So P(at least 1 red) = 1 - P(two greens)*
 > 
-> `space 1 space minus space straight P open parentheses straight G comma space straight G close parentheses space equals space 1 space minus space 40 over 63 space equals space 23 over 63`* *
+> `space 1−straight P (straight G comma straight G)=1−40 / 63=23 / 63`* *
 > 
 > $\frac{23}{63}$

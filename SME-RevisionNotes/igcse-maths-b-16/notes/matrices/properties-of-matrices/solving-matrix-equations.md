@@ -66,9 +66,9 @@ $\begin{gathered} BAA^{- 1} & = CA^{- 1} \\ \text{BI} = CA^{- 1} \\ B = CA^{- 1}
 > 
 > **Answer:**
 > 
-> > *Use the inverse formula for a *$2\times2$* matrix*
+> > *Use the inverse formula for a* $2\times2$ *matrix*
 > 
-> - *The inverse of *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
+> - *The inverse of* $( \begin{gathered} a b \\ c d \end{gathered} )$ *is* $\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 > 
 > $\begin{gathered} P^{- 1} & = \frac{1}{4 \times 2 - ( - 2 ) \times ( - 2 )} ( \begin{gathered} 2 2 \\ 2 4 \end{gathered} ) \\ = \frac{1}{8 - 4} ( \begin{gathered} 2 2 \\ 2 4 \end{gathered} ) \\ = 1 \frac{1}{4} ( \begin{gathered} 2 2 \\ 2 4 \end{gathered} ) \\ = ( \begin{gathered} 1 \frac{1}{4} \times 2 & 1 \frac{1}{4} \times 2 \\ 1 \frac{1}{4} \times 2 & 1 \frac{1}{4} \times 4 \end{gathered} ) \\ = ( \begin{gathered} 1 \frac{1}{2} & 1 \frac{1}{2} \\ 1 \frac{1}{2} & 1 \end{gathered} ) \end{gathered}$
 > 
@@ -78,23 +78,23 @@ $\begin{gathered} BAA^{- 1} & = CA^{- 1} \\ \text{BI} = CA^{- 1} \\ B = CA^{- 1}
 > 
 > **Answer:**
 > 
-> > *Use matrix algebra to solve the equation for *$Q$
+> > *Use matrix algebra to solve the equation for* $Q$
 > 
-> - *Multiply both sides of the equation 'from the left' by *$P^{-1}$
+> - *Multiply both sides of the equation 'from the left' by* $P^{-1}$
 > 
 > $P^{-1}\mathrm{PQ}=P^{-1}R$
 > 
-> - *By the definition of the inverse, *$P^{-1}P=I$
+> - *By the definition of the inverse,* $P^{-1}P=I$
 > 
 > $\mathrm{IQ}=P^{-1}R$
 > 
-> - *By the properties of the identity matrix, *$\mathrm{IQ}=Q$
+> - *By the properties of the identity matrix,* $\mathrm{IQ}=Q$
 > 
 > $Q=P^{-1}R$
 > 
-> > *That gives you a matrix 'formula' for *$Q$
+> > *That gives you a matrix 'formula' for* $Q$
 > 
-> - *Substitute in matrices *$P^{-1}$* and *$R$
+> - *Substitute in matrices* $P^{-1}$ *and* $R$
 > 
 > $Q = ( \begin{gathered} 1 \frac{1}{2} & 1 \frac{1}{2} \\ 1 \frac{1}{2} & 1 \end{gathered} ) ( \begin{gathered} 10 4 \\ - 2 & - 2 \end{gathered} )$
 > 

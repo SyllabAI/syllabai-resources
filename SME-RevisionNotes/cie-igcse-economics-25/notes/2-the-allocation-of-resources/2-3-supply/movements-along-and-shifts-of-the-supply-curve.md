@@ -49,7 +49,7 @@ guided_study: false
   - Changes to the number of firms
   - Weather events
   - Future price expectations
-  - Goods in *joint *and *competitive supply*
+  - Goods in *joint* and *competitive supply*
 - Changes to any of the conditions of supply **shift the entire supply curve** (as opposed to a movement along the supply curve)
 
 ![Graph showing supply curves shifting. Initial curve S shifts left to S1 at reduced quantity and right to S2 at increased quantity, price remains at £7.](../../../assets/4afebd254b89-19171-1-2-4-cie-igcse-economics-shifts-in-the-su.png)

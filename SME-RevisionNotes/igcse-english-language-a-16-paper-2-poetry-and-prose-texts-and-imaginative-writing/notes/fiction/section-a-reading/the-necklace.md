@@ -21,7 +21,7 @@ Students studying the Pearson Edexcel International GCSE English Language A qual
 
 If you are sitting the paper two exam, you will be asked to analyse one of the poems or prose texts, which will be included in the question paper. You will have one question to answer about one of these texts in the exam, and you will be asked to analyse how writers use language and structure to achieve effects.
 
-The following guide to *The Necklace *by Guy de Maupassant contains:
+The following guide to *The Necklace* by Guy de Maupassant contains:
 
 - ***The Necklace***** overview**
 - ***The Necklace *****summary**
@@ -34,7 +34,7 @@ The following guide to *The Necklace *by Guy de Maupassant contains:
 
 ## The Necklace overview
 
-*The Necklace *is a short story published in 1884 by French author Guy de Maupassant, set in a time in which Paris was experiencing a period of social, economic and technological change, leading to an unequal, class-based society, which focused on material wealth and consumerism.
+*The Necklace* is a short story published in 1884 by French author Guy de Maupassant, set in a time in which Paris was experiencing a period of social, economic and technological change, leading to an unequal, class-based society, which focused on material wealth and consumerism.
 
 As a writer, Maupassant is known for his use of plot twists, and this particular text tells the story of a beautiful but poor young woman, Mathilde Loisel, who believes she has married beneath her and envies the wealth of others. It is a ***cautionary tale*** that warns against materialism and the dangers of social ambition.
 

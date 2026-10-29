@@ -71,7 +71,7 @@ guided_study: false
 > 
 > **Solution:**
 > 
-> > *The *$+c$* at the end is the *$y$*-intercept*
+> > *The* $+c$ *at the end is the* $y$*-intercept*
 > 
 > $y$*-intercept:* *(0, 6)*
 > 
@@ -79,7 +79,7 @@ guided_study: false
 > 
 > $y = ( x - 2 ) ( x - 3 )$
 > 
-> > *Solve *$y=0$
+> > *Solve* $y=0$
 > 
 > $( x - 2 ) ( x - 3 ) = 0 , \text{so} x = 2 \text{or} x = 3$
 > 
@@ -117,18 +117,18 @@ guided_study: false
 > > *It is a positive quadratic, so will be a u-shape*
 > *The vertex will therefore be a minimum*
 > 
-> > *The vertex of *$y = a ( x - p )^{2} + q$* has coordinates *$( p , q )$
+> > *The vertex of* $y = a ( x - p )^{2} + q$ *has coordinates* $( p , q )$
 > *The minimum point is therefore*
 > 
 > *(3, 4)*
 > 
-> > *To find the *$y$*-intercept, substitute in *$x=0$
+> > *To find the* $y$*-intercept, substitute in* $x=0$
 > 
 > $\begin{gathered} y = ( 0 - 3 )^{2} + 4 \\ y = 9 + 4 \\ y = 13 \end{gathered}$
 > 
 > $y$*-intercept:* *(0, 13)*
 > 
-> > *As the **minimum **point is above the *$x$*-axis, and the curve is a u-shape, this means the graph will not cross the *$x$*-axis (it has no roots)*
+> > *As the **minimum **point is above the *$x$*-axis, and the curve is a u-shape, this means the graph will not cross the* $x$*-axis (it has no roots)*
 > 
 > ![Graph of y=x²-6x+13, with y-intercept (0,13) and minimum point (3, 4) marked on.](assets/f973756bd17f-45808-cie-igcse-quadratic-graphs-we-2.png)
 
@@ -155,15 +155,15 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The graph shows the roots and a point on the curve (in this case the *$y$*-intercept)*
+> > *The graph shows the roots and a point on the curve (in this case the* $y$*-intercept)*
 > 
-> > *Use the form *$y = a ( x - x_{1} ) ( x - x_{2} )$* to fill in *$x_{1}$* and *$x_{2}$* by inspection*
+> > *Use the form* $y = a ( x - x_{1} ) ( x - x_{2} )$ *to fill in* $x_{1}$ *and* $x_{2}$ *by inspection*
 > 
-> > *The roots are at *$( x_{1} , 0 )$* and *$( x_{2} , 0 )$
+> > *The roots are at* $( x_{1} , 0 )$ *and* $( x_{2} , 0 )$
 > 
 > $y = a ( x - 2 ) ( x - 3 )$
 > 
-> > *Substitute in the other known point (0, 24) to find *$a$
+> > *Substitute in the other known point (0, 24) to find* $a$
 > 
 > $\begin{gathered} 24 = a ( 0 - 2 ) ( 0 - 3 ) \\ 24 = a ( - 2 ) ( - 3 ) \\ 24 = 6 a \\ 4 = a \end{gathered}$
 > 
@@ -171,7 +171,7 @@ guided_study: false
 > 
 > $y=4(x-2)(x-3)$
 > 
-> > *You could also write this in expanded form: *$y=4x^{2}-20x+24$
+> > *You could also write this in expanded form:* $y=4x^{2}-20x+24$
 > 
 > (b) Find the equation of the graph below.
 > 
@@ -181,13 +181,13 @@ guided_study: false
 > 
 > > *The graph shows the vertex and a point on the curve*
 > 
-> > *Use the form *$y = a ( x - p )^{2} + q$* to fill in *$p$* and *$q$* by inspection*
+> > *Use the form* $y = a ( x - p )^{2} + q$ *to fill in* $p$ *and* $q$ *by inspection*
 > 
-> > *The vertex is at *$( p , q )$
+> > *The vertex is at* $( p , q )$
 > 
 > $y = a ( x - 9 )^{2} - 16$
 > 
-> > *Substitute in the other known point (2, 82) to find *$a$
+> > *Substitute in the other known point (2, 82) to find* $a$
 > 
 > $\begin{gathered} 82 = a ( 2 - 9 )^{2} - 16 \\ 82 = a ( - 7 )^{2} - 16 \\ 82 = 49 a - 16 \\ 98 = 49 a \\ 2 = a \end{gathered}$
 > 
@@ -195,4 +195,4 @@ guided_study: false
 > 
 > $y=2(x-9)^{2}-16$
 > 
-> > *You could also write this in expanded form: *$y=2x^{2}-36x+146$
+> > *You could also write this in expanded form:* $y=2x^{2}-36x+146$

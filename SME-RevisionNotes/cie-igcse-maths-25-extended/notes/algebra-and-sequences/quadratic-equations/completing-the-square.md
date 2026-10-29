@@ -19,7 +19,7 @@ guided_study: true
 
 ### How can I rewrite the first two terms of a quadratic expression as the difference of two squares?
 
-- Look at the quadratic expression *x*<sup>2</sup> + *bx* + *c *
+- Look at the quadratic expression *x*<sup>2</sup> + *bx* + *c*
 - The first** two terms** can be written as the **difference of two squares** using the following rule
 
 $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
@@ -63,7 +63,7 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
   
     - This looks far more complicated than it is in practice!
   - Usually you are asked to give your final answer in the form  $a ( x + p )^{2} + q$
-  - For example,  *y *= 4*x*<sup>2</sup> + 16*x* + 5
+  - For example,  *y* = 4*x*<sup>2</sup> + 16*x* + 5
   
     - Factorise out '*a*' on the right-hand side (use square brackets)
     
@@ -90,7 +90,7 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
   
     - Notice the negative sign in the *x*-coordinate
     - This links to transformations of graphs
-    - A translation of $y=x^{2}$ by *p* to the left and *q *up
+    - A translation of $y=x^{2}$ by *p* to the left and *q* up
   - If $y = a ( x + p )^{2} + q$ then the turning point is still at $( - p , q )$
   
     - The *a* does **not change** the coordinates
@@ -121,7 +121,7 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
 > 
 > > *Write **x*<sup>*2*</sup>* + 6**x** in the form (**x** + **p**)*<sup>*2*</sup>* - **p*<sup>*2*</sup>
 > 
-> $x^{2}+6x$* is the same as *$( x + 3 )^{2} - 3^{2}$
+> $x^{2}+6x$ *is the same as* $( x + 3 )^{2} - 3^{2}$
 > 
 > > *Put this result into the equation of the curve*
 > 
@@ -131,7 +131,7 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
 > 
 > $y = ( x + 3 )^{2} - 20$
 > 
-> > *Use the fact that the turning point of *$y = ( x + p )^{2} + q$* is at *$( - p , q )$* *
+> > *Use the fact that the turning point of* $y = ( x + p )^{2} + q$ *is at* $( - p , q )$* *
 > *Here **p** = 3 and **q **= -20*
 > 
 > **Final answer:** **turning point at (-3, -20)**
@@ -151,7 +151,7 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
 > $- 3 [ ( x - 2 )^{2} - ( - 2 )^{2} ] + 24$
 > 
 > > *Simplify the numbers inside the brackets*
-> *(-2)*<sup>*2*</sup>* is 4*
+> *(-2)*<sup>*2*</sup> *is 4*
 > 
 > $- 3 [ ( x - 2 )^{2} - 4 ] + 24$
 > 
@@ -176,18 +176,18 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
 
 ### How do I solve a quadratic equation by completing the square?
 
-- To solve *x*<sup>2</sup> + *bx *+* c* = 0
+- To solve *x*<sup>2</sup> + *bx* + *c* = 0
 
   - **replace** the first two terms, ***x***<sup>**2**</sup>** + *****bx***, with **(*****x***** + *****p*****)**<sup>**2**</sup>** - *****p***<sup>**2**</sup> where ***p***** is half of *****b***
   - This is** completing the square**
   
-    - *x*<sup>2</sup> + *bx *+* c* = 0 becomes (*x* + *p*)<sup>2</sup> - *p*<sup>2</sup> + *c *= 0
+    - *x*<sup>2</sup> + *bx* + *c* = 0 becomes (*x* + *p*)<sup>2</sup> - *p*<sup>2</sup> + *c* = 0
     - (where *p* is half of *b)*
   - rearrange this equation to **make *****x***** the subject** (using ±√)
 - For example, solve *x*<sup>2</sup> + 10*x* + 9 = 0 by completing the square
 
   - *x*<sup>2</sup> + 10*x *becomes (*x* + 5)<sup>2</sup> - 5<sup>2</sup>
-  - so* x*<sup>2</sup> + 10*x* + 9 = 0 becomes (*x* + 5)<sup>2</sup> - 5<sup>2 </sup>+ 9 = 0
+  - so *x*<sup>2</sup> + 10*x* + 9 = 0 becomes (*x* + 5)<sup>2</sup> - 5<sup>2 </sup>+ 9 = 0
   - make *x* the subject (using ±√)
   
     - (*x* + 5)<sup>2</sup> - 25<sup> </sup>+ 9 = 0
@@ -250,7 +250,7 @@ $x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
 > $x^{2}-4x-12=0$
 > 
 > > *Halve the middle number, -4, to get -2*
-> *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>* - (-2)*<sup>*2*</sup>
+> *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>*- (-2)*<sup>*2*</sup>
 > 
 > $( x - 2 )^{2} - ( - 2 )^{2} - 12 = 0$
 > 

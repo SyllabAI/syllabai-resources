@@ -70,7 +70,7 @@ guided_study: false
 > 
 > - In 2015, the Singapore government launched **SkillsFuture**, a nationwide programme providing every adult citizen with credits to spend on approved training courses
 > - Courses ranged from IT coding and digital marketing to advanced engineering and finance
-> - Employers were also** encouraged to offer training **through ***subsidies**** *and *tax incentives*
+> - Employers were also** encouraged to offer training **through ***subsidies**** *and* tax incentives*
 > 
 > **Outcome**
 > 
@@ -99,7 +99,7 @@ guided_study: false
 > 
 > **Outcome**
 > 
-> - Transport travel times and *logistics *costs decreased, boosting efficiency across state borders
+> - Transport travel times and *logistics* costs decreased, boosting efficiency across state borders
 > - New energy projects improved power reliability, reducing production delays for businesses
 > - The infrastructure boost attracted international investors, increasing foreign capital inflow
 > - Short-term job creation surged, particularly in construction, engineering and project management
@@ -121,7 +121,7 @@ guided_study: false
 - Lower **corporation tax** increases retained profits for firms, boosting investment
 
   - This can attract *foreign direct investment* (FDI) if taxes are internationally competitive
-  - Encourages *entrepreneurship *as more profit can be kept by business owners
+  - Encourages *entrepreneurship* as more profit can be kept by business owners
 
 ### 5. Deregulation
 

@@ -93,7 +93,7 @@ German Citizens (centre): A man and woman in middle-class clothing say, “The D
 
 Critics (right): A concerned-looking older man says, “I am worried that our economic success is dependent on American loans.”](../../../assets/4ea0be3648f0-47765-httpscdn-savemyexams-comuploads202402react.png)
 
-*An illustration showing the various reactions to the Dawes Plan in Weimar Germany *
+*An illustration showing the various reactions to the Dawes Plan in Weimar Germany*
 
 ### Young Plan
 

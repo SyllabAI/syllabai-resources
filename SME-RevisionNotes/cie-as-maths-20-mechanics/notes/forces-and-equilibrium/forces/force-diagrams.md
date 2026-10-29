@@ -35,7 +35,7 @@ guided_study: true
 - The main forces that you will see are:
 
   - **tension** (a “pulling” force) acts away from a particle, **thrust** (a “pushing” force) acts towards it
-  - **weight** is *W = mg *where *m* kg  is the **mass** of the particle and *g* is the **acceleration** due to **gravity** – In the CIE A Level Mechanics modules the value of $g$ is approximated to $10ms^{-2}$, unless told otherwise
+  - **weight** is *W = mg* where *m* kg  is the **mass** of the particle and *g* is the **acceleration** due to **gravity** – In the CIE A Level Mechanics modules the value of $g$ is approximated to $10ms^{-2}$, unless told otherwise
   - **friction** acts **parallel** to the surface in the **opposite** direction to **motion**
   - the **normal** **reaction** acts **perpendicular** to the surface (and **friction**)
 

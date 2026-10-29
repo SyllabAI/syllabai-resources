@@ -66,13 +66,13 @@ guided_study: true
 > 
 > > *The shape can be split up into a triangle and two rectangles*
 > 
-> > *The dashes on the triangle mean that the lengths are equal *
+> > *The dashes on the triangle mean that the lengths are equal*
 > 
 > > *Therefore, the missing length is 6 cm*
 > 
 > > *The horizontal lengths of the two rectangles add up to the length of the longest horizontal line*
 > *15 cm and the missing length, are equal to the 18 cm length at the top*
-> *The missing horizontal length is therefore 3 cm *
+> *The missing horizontal length is therefore 3 cm*
 > 
 > ![vW8hiT-F_picture-1](assets/2d28b3228fe3-64519-perimeter-3.png)
 > 

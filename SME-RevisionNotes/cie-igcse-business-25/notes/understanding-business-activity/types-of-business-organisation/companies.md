@@ -38,7 +38,7 @@ guided_study: false
 
 | Advantages | Disadvantages |
 |---|---|
-| - Limited liability means owners are not personally responsible for the company's debts<br>- Access to greater finance and capital<br>- Easier to transfer ownership to new shareholders<br>- Can provide a professional image and reputation | - They are expensive and time-consuming to set up<br>- More complex legal requirements and regulations than sole traders<br>- Annual financial reporting and *audits *are required<br>- Shareholders have little control over the company, as the founder usually imposes their agenda |
+| - Limited liability means owners are not personally responsible for the company's debts<br>- Access to greater finance and capital<br>- Easier to transfer ownership to new shareholders<br>- Can provide a professional image and reputation | - They are expensive and time-consuming to set up<br>- More complex legal requirements and regulations than sole traders<br>- Annual financial reporting and *audits* are required<br>- Shareholders have little control over the company, as the founder usually imposes their agenda |
 
 ## Limited liability
 
@@ -73,7 +73,7 @@ guided_study: false
   - To secure this funding, it may choose to transition from a **private limited company (LTD) to a public limited company (PLC)**
   - This is a complex legal process that involves undergoing a ***stock market flotation***
   - Public limited companies sell their shares to the public on the stock exchange, meaning they can have a large number of owners
-- They must publish their *annual reports *and hold an *AGM *each year
+- They must publish their *annual reports* and hold an *AGM* each year
 
   - A **board of directors**,** **whose members are elected by shareholders at the AGM, acts as the governing body of a company,
   - ** **The board of directors appoints a ***CEO**** *to lead the company

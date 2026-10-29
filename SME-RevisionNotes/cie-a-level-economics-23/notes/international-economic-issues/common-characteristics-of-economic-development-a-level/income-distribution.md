@@ -19,7 +19,7 @@ guided_study: false
 
 - Income and wealth inequality are two different concepts
 
-  - **Income inequality **refers to the unequal distribution (flow) of income to households i.e rent, wages, *interest *and profit
+  - **Income inequality **refers to the unequal distribution (flow) of income to households i.e rent, wages, *interest* and profit
   - **Wealth inequality **refers to differences in the amount of ***assets*** that households own
 - The two main measures of income inequality are the **Lorenz Curve** and the **Gini coefficient**
 

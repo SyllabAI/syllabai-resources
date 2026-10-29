@@ -131,7 +131,7 @@ This page covers section 6.3.5 of the [CIE IGCSE specification](https://www.camb
 
 - Over the last few years, the number of migrants has decreased due to:
 
-  - Tougher immigration *enforcement *
+  - Tougher immigration *enforcement*
   - Increased US Border Patrols
   - COVID-19
   - Strengthening of the Mexican economy

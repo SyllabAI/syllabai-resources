@@ -88,7 +88,7 @@ guided_study: false
 > 
 > $a^{2}=4^{2}+6^{2}\,a^{2}=16+36\,a^{2}=52$
 > 
-> > *Draw triangle ABF flat and use Pythagoras' theorem to calculate AF *
+> > *Draw triangle ABF flat and use Pythagoras' theorem to calculate AF*
 > 
 > ![Triangle ABF. AB = 3 cm, BF = a cm and AF = b cm.](assets/11522c51cf53-38350-3d-pythagoras-and-trigonometry-11.png)
 > 

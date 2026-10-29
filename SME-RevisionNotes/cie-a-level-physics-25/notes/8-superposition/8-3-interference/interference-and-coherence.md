@@ -41,7 +41,7 @@ guided_study: true
 
 - The condition for **destructive interference** is:
 
-**path difference =** `open parentheses n space plus thin space 1 half close parentheses lambda`
+**path difference =** `(n+thin 1 half) λ`
 
 - Where:
 

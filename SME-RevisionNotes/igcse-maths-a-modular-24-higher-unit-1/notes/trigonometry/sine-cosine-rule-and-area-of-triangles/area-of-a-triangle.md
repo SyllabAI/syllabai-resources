@@ -23,7 +23,7 @@ guided_study: true
 
 $\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$
 
-- *C *is the angle **between **sides $a$* *and $b$
+- *C* is the angle **between **sides $a$* *and $b$
 
 ![Non Right-Angled Triangle labelled with angles A, B and C and opposite corresponding sides a, b and c.](../../../assets/ae74148bf812-5274-area-of-a-triangle-1.png)
 
@@ -53,9 +53,9 @@ $\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$
 > 
 > ![Triangle ABC with sides opposite angles labelled with the corresponding lowercase letters. Side AB units converted from 32 cm to 0.32 m.](assets/d18dddd0fbfd-45043-area-of-a-triangle-3.png)
 > 
-> > *Use the area of a triangle formula, *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$
+> > *Use the area of a triangle formula,* $\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$
 > 
-> > *You can either re-label the sides and angles to match the formula, or you can use the formula *$\mathrm{Area}=\frac{1}{2}bc\mathrm{sin}A$* which is equivalent*
+> > *You can either re-label the sides and angles to match the formula, or you can use the formula* $\mathrm{Area}=\frac{1}{2}bc\mathrm{sin}A$ *which is equivalent*
 > 
 > $\begin{gathered} \text{Area} = 1 \frac{1}{2} ( 1.1 ) ( 0.32 ) \sin 74 \\ = 0.16918... \end{gathered}$
 > 

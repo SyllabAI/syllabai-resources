@@ -39,7 +39,7 @@ $v=\frac{2πr}{T}$
   - *T* = orbital period in seconds (s)
 
 - This orbital period (or time period) is defined as: **The time taken for an object to complete one orbit**
-- The orbital radius *r *is always taken from the **centre** of the object being orbited to the object orbiting
+- The orbital radius *r* is always taken from the **centre** of the object being orbited to the object orbiting
 
 #### Orbital speed of a planet
 
@@ -58,9 +58,9 @@ $v=\frac{2πr}{T}$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Radius of the Earth,* R* = 6400 km
-> - Height of the telescope above the Earth's surface, *h *= 560 km
-> - Time period, *T *= 96 minutes
+> - Radius of the Earth,*R* = 6400 km
+> - Height of the telescope above the Earth's surface, *h* = 560 km
+> - Time period, *T* = 96 minutes
 > 
 > **Step 2: Write the relevant equation**
 > 

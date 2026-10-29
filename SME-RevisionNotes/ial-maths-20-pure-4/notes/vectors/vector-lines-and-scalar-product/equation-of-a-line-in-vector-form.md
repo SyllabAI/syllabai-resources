@@ -54,11 +54,11 @@ show the same equation written using the two different forms
     - the point with coordinates (2, 0, -1) is on the line and corresponds to *t = -1*
   - However we know that the point with coordinates (-7, 5, 0) is not on this line
   
-    - No value of *t *could make the **k** component 0
+    - No value of *t* could make the **k** component 0
 
 ### Can two vector equations represent the same line?
 
-- Why do we say *a *direction vector and not *the *direction vector? Because the magnitude of the vector doesn’t matter; **only the direction is important**
+- Why do we say *a* direction vector and not *the* direction vector? Because the magnitude of the vector doesn’t matter; **only the direction is important**
 
   - we can multiply any direction vector by a (non-zero) constant and this wouldn’t change the direction
 - Therefore there are an infinite number of options for **a **(a point on the line) and an infinite number of options for the direction vector

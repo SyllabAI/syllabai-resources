@@ -60,8 +60,8 @@ guided_study: false
 > **Worked Example**
 > (a) Show that the derivative of  $x^{3}+\frac{1}{x}$  is  $3x^{2}-\frac{1}{x^{2}}$.
 > 
-> > *This is a standard 'powers of *$x$*'derivative*
-> *Just remember to rewrite *$\frac{1}{x}$* as a power using laws of indices*
+> > *This is a standard 'powers of* $x$*'derivative*
+> *Just remember to rewrite* $\frac{1}{x}$ *as a power using laws of indices*
 > 
 > $\mathrm{f} ( x ) = x^{3} + x^{- 1}$
 > 
@@ -73,10 +73,10 @@ guided_study: false
 > 
 > (b) Hence write down the answer to the indefinite integral  $\int ( 3 x^{2} - \frac{1}{x^{2}} ) \mathrm{d} x$.
 > 
-> > *We can use  *$\int \mathrm{f}^{'} ( x ) d x = \mathrm{f} ( x ) + c$* to write down the answer*
+> > *We can use* $\int \mathrm{f}^{'} ( x ) d x = \mathrm{f} ( x ) + c$ *to write down the answer*
 > 
 > > *This is because integration and differentiation are inverse operations*
 > 
-> > *Just don't forget the constant of integration  *$+c$
+> > *Just don't forget the constant of integration* $+c$
 > 
 > $\text{integral} \text{stretchy} ( 3 x ^{2} - \frac{1}{x} ^{2} \text{stretchy} ) d x = x^{ } 3 + \frac{1}{ } x + c$

@@ -50,7 +50,7 @@ guided_study: false
 
   - Then, 1 C of charge contains 6.25 × 10<sup>18 </sup>electrons
 
-- Charge is sometimes written as Δ*Q *which means 'change in charge'
+- Charge is sometimes written as Δ*Q* which means 'change in charge'
 
   - Similarly, time is written as Δ*t* means 'change in time'
 - When two oppositely charged conductors are connected together (by a length of wire), charge will flow between the two conductors, causing a current

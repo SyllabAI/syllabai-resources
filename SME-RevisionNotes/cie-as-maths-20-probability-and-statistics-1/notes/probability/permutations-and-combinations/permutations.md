@@ -55,7 +55,7 @@ $\frac{n factorial}{r factorial} = n \times ( n - 1 ) ) \times... \times ( r + 1
 - The function $\frac{n!}{(n-r)!}$can be written as $\mathrm{P} pre^{n}_{r}$
 
   - Make sure you can find and use this button on your calculator
-- The same function works if we have *n *spaces into which we want to arrange *r *objects, consider
+- The same function works if we have *n* spaces into which we want to arrange *r* objects, consider
 
   - for example arranging five people into a row of ten empty chairs
 
@@ -88,7 +88,7 @@ $\frac{n factorial}{r factorial} = n \times ( n - 1 ) ) \times... \times ( r + 1
 
   - lay out the rest of the items in a line with a space in between each of them where one of the items which cannot be together could go
   - remember that this could also include the space before the first and after the last item
-  - You would then be able to fit the items which cannot be together into any of these spaces, using the *r *permutations of *n *items rule `( P _ r _ _ ^ n )`
+  - You would then be able to fit the items which cannot be together into any of these spaces, using the *r* permutations of *n* items rule `( P _ r _ _ ^ n )`
   - You do not need to fill every space
 
 ![2-2-2-diagram-3](../../../assets/8442149069e3-2-2-2-diagram-3.png)

@@ -169,7 +169,7 @@ Throughout this section we will use the random variable $X \sim \text{Po} ( \\la
 #### How do I change the mean for a Poisson distribution?
 
 - Sometimes the mean may be given for a different interval of time or space than that which you need to calculate the probability for
-- A given value of *λ *can be adjusted to fit the necessary time period
+- A given value of *λ* can be adjusted to fit the necessary time period
 
   - For example if a football team score a mean of 2 goals an hour and we want to find the probability of them scoring a certain number of goals in a 90 minute game, then we would use the distribution *X* ~ Po(*3*)
   
@@ -177,7 +177,7 @@ Throughout this section we will use the random variable $X \sim \text{Po} ( \\la
 - A very useful property of the Poisson distribution is that if *X* and *Y* are **two independent Poisson** distributions then their sums, ***X *****+***** Y*** is also a **Poisson** distribution
 
   - If *X* ~ Po(*λ*) and *Y* ~ Po(*μ*) then *X* + *Y* ~ Po(*λ* + *μ*)
-  - Note that, for an integer value of *a *and *b *greater than 1, *aX + bY* no longer follows a Poisson distribution
+  - Note that, for an integer value of *a* and *b* greater than 1, *aX + bY* no longer follows a Poisson distribution
 
 > **Worked Example**
 > Xiao makes silly mistakes in his maths homework at a mean rate of 2 per page.

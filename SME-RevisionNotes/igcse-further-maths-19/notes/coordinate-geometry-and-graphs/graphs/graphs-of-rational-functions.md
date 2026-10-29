@@ -40,7 +40,7 @@ guided_study: false
 
   - A **horizontal** asymptote: $y=\frac{a}{c}$
   
-    - This is the **limiting value** when the value of *x *gets very large in the positive or negative direction
+    - This is the **limiting value** when the value of *x* gets very large in the positive or negative direction
   - A **vertical** asymptote: $x=-\frac{d}{c}$
   
     - This is the value that causes the **denominator to be zero**
@@ -63,13 +63,13 @@ guided_study: false
 > 
 > > *The horizontal asymptote is the limiting value as **x** becomes very large in the positive or negative direction*
 > 
-> > *When that happens, the '10' in the numerator and '2' in the denominator no longer affect the value of the function much *
+> > *When that happens, the '10' in the numerator and '2' in the denominator no longer affect the value of the function much*
 > 
-> *For large values of *$x$
+> *For large values of* $x$
 > 
 > $\mathrm{f} ( x ) \approx \frac{- 5 x}{x} = - 5$
 > 
-> > *That means the horizontal asymptote will be at  *$y=-5$
+> > *That means the horizontal asymptote will be at* $y=-5$
 > 
 > **Final answer:** **Horizontal asymptote:  **$y=-5$
 > 

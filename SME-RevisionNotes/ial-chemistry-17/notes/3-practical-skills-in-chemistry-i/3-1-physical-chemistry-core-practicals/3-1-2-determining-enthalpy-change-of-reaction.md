@@ -73,7 +73,7 @@ The energy needed to raise the temperature of 1 g of a substance by 1 K is calle
 #### Analysis
 
 - Use both extrapolated lines to calculate Δ*T* as shown on the graph
-- Use the equation *q * = *mc*Δ*T* to calculate the energy transferred
+- Use the equation *q* = *mc*Δ*T* to calculate the energy transferred
 
   - *q* = energy transferred
   - *m* = mass - this will be the mass of the 25 cm<sup>3</sup> solution which will be 25 g (assuming a density of 1 g cm<sup>-3</sup>)
@@ -83,5 +83,5 @@ The energy needed to raise the temperature of 1 g of a substance by 1 K is calle
 - Then use the equation Δ*H* = $\frac{q}{n}$ to calculate the enthalpy change for the reaction
 
   - *q* = energy transferred
-  - *n *= number of moles - this would be the number of moles of the **limiting reagent**, which means that you will have an extra calculation to do to determine whether this is the zinc or the copper sulfate
+  - *n* = number of moles - this would be the number of moles of the **limiting reagent**, which means that you will have an extra calculation to do to determine whether this is the zinc or the copper sulfate
 - Remember that in the example above, the temperature of the reaction mixture increased which means that the reaction is exothermic and should, therefore, have a negative value

@@ -117,7 +117,7 @@ guided_study: false
 
 - Financial problems are one of the most common causes of business failure, especially for small and new businesses
 
-  - Without sufficient finance, even a business with effective financial planning, good products and healthy *demand *may fail due to poor cash flow or unpaid debts
+  - Without sufficient finance, even a business with effective financial planning, good products and healthy *demand* may fail due to poor cash flow or unpaid debts
 
 ![Flowchart on reasons for business failure; central box lists: financial reasons. Arrows point to overtrading, lack of cash flow, low sales, borrowing, poor planning.](../../../assets/96a53d4c67f2-52958-financial-reasons-for-business-failure.png)
 
@@ -137,7 +137,7 @@ guided_study: false
 
 #### Too much borrowing
 
-- Relying heavily on loans or *overdrafts *increases pressure on the business to make regular repayments
+- Relying heavily on loans or *overdrafts* increases pressure on the business to make regular repayments
 - High *interest* costs can add to financial stress, especially if revenue falls
 
 #### Low sales revenue

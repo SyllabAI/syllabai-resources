@@ -100,9 +100,9 @@ guided_study: false
 - A pressure group is an organisation that tries to **influence the decisions of businesses or governments** in favour of a particular cause, such as animal welfare, climate action, or workers' rights
 - Common **tactics **used by pressure groups include
 
-  - Public *petitions *and letter-writing campaigns
+  - Public *petitions* and letter-writing campaigns
   - Social-media 'naming and shaming' or viral videos
-  - Peaceful protests, *strikes, *or* sit-ins*
+  - Peaceful protests, *strikes,* or *sit-ins*
   - *Lobbying* politicians for new laws
   - Buying shares to speak at a company’s *AGM*
   - Legal action (e.g. climate lawsuits against oil firms)
@@ -119,4 +119,4 @@ guided_study: false
 |---|---|
 | **Greenpeace** | - Engages in direct action at oil rigs and palm-oil plantations<br>- Helped secure a worldwide ban on commercial whaling (1982)<br>- Pushed major retailers to remove microbeads from toiletries (2018) |
 | **Buglife** | - Halted a building development in 2015 that threatened a rare insect species, saving local biodiversity and forcing the developer to redesign plans |
-| **Consumer boycott of Nike** | - Highlighted *sweatshop *labour, leading Nike to publish supplier lists and raise factory standards |
+| **Consumer boycott of Nike** | - Highlighted *sweatshop* labour, leading Nike to publish supplier lists and raise factory standards |

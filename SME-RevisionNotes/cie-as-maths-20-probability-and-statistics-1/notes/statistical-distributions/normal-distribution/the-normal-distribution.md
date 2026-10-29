@@ -73,7 +73,7 @@ The binomial distribution is an example of a discrete probability distribution. 
   - Mean = Median = Mode = *μ*
 - The normal distribution curve has two *points of inflection*
 
-  - x = *μ ±  σ *(one standard deviation away from the mean)
+  - x = *μ ±  σ* (one standard deviation away from the mean)
 - There are the results:
 
   - Approximately **two-thirds (68%)** of the data lies within **one standard deviation** of the mean (*μ ±  σ*)

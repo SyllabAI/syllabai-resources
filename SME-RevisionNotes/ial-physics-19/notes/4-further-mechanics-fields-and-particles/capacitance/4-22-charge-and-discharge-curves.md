@@ -117,13 +117,13 @@ $τ$** = *****RC***
   - *C* = *capacitance* of the capacitor (F)
 
 - For example, to find the time constant for a **discharging** capacitor:
-- Calculate 0.37*V*<sub>*0*</sub>*, *where *V*<sub>0</sub> is the **initial **potential difference across it
+- Calculate 0.37*V*<sub>*0*</sub>*,* where *V*<sub>0</sub> is the **initial **potential difference across it
 
   - Determine the corresponding time taken for the potential difference to decrease to that value
 
 - To find the time constant for a **charging **capacitor:
 
-  - Calculate 0.63*V*<sub>*0*</sub>*, *where *V*<sub>0</sub> is the **maximum **potential difference across it
+  - Calculate 0.63*V*<sub>*0*</sub>*,* where *V*<sub>0</sub> is the **maximum **potential difference across it
   - Determine the corresponding time taken for the potential difference to rise to that value
 
 ![Time Constant on Graph, downloadable AS & A Level Physics revision notes](../../../assets/68a4b238b5c1-7-7-2-time-constant-on-graph.png)

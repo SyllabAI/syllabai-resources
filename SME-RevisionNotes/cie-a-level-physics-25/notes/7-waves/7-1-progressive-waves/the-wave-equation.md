@@ -81,4 +81,4 @@ $v=fλ$
 > $λ=\frac{v}{f}=\frac{340}{3571}=0.095m$
 
 > **Exam Hint**
-> You may also see the wave equation be written as *c* = *fλ* where *c* is the wave speed. However, *c* is often used to represent the speed of light (3 x 10<sup>8</sup> ms<sup>-1</sup>). Only electromagnetic waves travel at this speed, therefore it’s best practice to use *v * for any speed that isn’t the speed of light instead.
+> You may also see the wave equation be written as *c* = *fλ* where *c* is the wave speed. However, *c* is often used to represent the speed of light (3 x 10<sup>8</sup> ms<sup>-1</sup>). Only electromagnetic waves travel at this speed, therefore it’s best practice to use *v* for any speed that isn’t the speed of light instead.

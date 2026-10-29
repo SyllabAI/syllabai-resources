@@ -24,7 +24,7 @@ guided_study: false
 
 ### 1. Actual growth
 
-- **Actual growth is an increase in real output using previously unemployed or underemployed resources** - the economy moves from a point inside the *PPF *towards the frontier
+- **Actual growth is an increase in real output using previously unemployed or underemployed resources** - the economy moves from a point inside the *PPF* towards the frontier
 
   - This occurs when spare capacity is brought back into use - for example during a recovery from *recession*
   - It does not increase the productive potential of the economy - the PPF does not shift
@@ -50,7 +50,7 @@ guided_study: false
 #### Diagram analysis
 
 - The **outward shift** (A to B) represents an increase in productive capacity - caused by improvements in the quantity or quality of factors of production such as new technology, investment in capital, or an expansion of the labour force
-- The **inward shift** represents economic decline - caused by destruction of capital, *emigration *of skilled workers, or *depletion *of natural resources
+- The **inward shift** represents economic decline - caused by destruction of capital, *emigration* of skilled workers, or *depletion* of natural resources
 
 ![2-5-1---long-run-economic-growth](../../../assets/a9ec7b533916-2-5-1-long-run-economic-growth.png)
 
@@ -132,6 +132,6 @@ Real GDP growth = Nominal GDP growth - Inflation rate
   - This is why real GDP is always used when comparing economic performance over time or between countries
 
 > **Exam Hint**
-> Always use **real GDP** when discussing economic growth - nominal GDP figures are misleading because they include the effect of price changes. In the exam, if data is given in *nominal *terms and you are asked to assess growth, check whether an inflation figure is provided and adjust accordingly.
+> Always use **real GDP** when discussing economic growth - nominal GDP figures are misleading because they include the effect of price changes. In the exam, if data is given in *nominal* terms and you are asked to assess growth, check whether an inflation figure is provided and adjust accordingly.
 > 
 > The distinction between actual and potential growth maps directly onto the AD/AS model - actual growth is a movement along the LRAS towards full employment; potential growth is a rightward shift of the LRAS itself. Using this framework in essay answers demonstrates the analytical depth CIE rewards at A Level.

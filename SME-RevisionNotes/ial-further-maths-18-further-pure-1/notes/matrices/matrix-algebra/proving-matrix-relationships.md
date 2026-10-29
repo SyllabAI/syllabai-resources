@@ -89,28 +89,28 @@ guided_study: false
 > 
 > Prove that $Q=P^{-1}R$.
 > 
-> > *You need to use matrix algebra to make *$Q$* the subject*
-> *One possible way is to remove *$P$* from the left by pre-multiplying both  sides by *$P^{-1}$
+> > *You need to use matrix algebra to make* $Q$ *the subject*
+> *One possible way is to remove* $P$ *from the left by pre-multiplying both  sides by* $P^{-1}$
 > 
 > $P^{-1}\mathrm{PQR}^{-1}=P^{-1}I$
 > 
-> > *The *$P^{-1}P$* forms the identity matrix, *$I$*, on the left*
-> *The *$P^{-1}I$* simplifies to just *$P^{-1}$* on the right*
+> > *The* $P^{-1}P$ *forms the identity matrix,* $I$*, on the left*
+> *The* $P^{-1}I$ *simplifies to just* $P^{-1}$ *on the right*
 > 
 > $\mathrm{IQR}^{-1}=P^{-1}$
 > 
-> > *The *$\mathrm{IQR}^{-1}$* on the left simplifies to just *$\mathrm{QR}^{-1}$
+> > *The* $\mathrm{IQR}^{-1}$ *on the left simplifies to just* $\mathrm{QR}^{-1}$
 > 
 > $\mathrm{QR}^{-1}=P^{-1}$
 > 
-> > *Now post-multiply both sides by *$R$
+> > *Now post-multiply both sides by* $R$
 > 
 > $\mathrm{QR}^{-1}R=P^{-1}R$
 > 
-> > *The *$R^{-1}R$* on the left forms the identity matrix*
+> > *The* $R^{-1}R$ *on the left forms the identity matrix*
 > 
 > $\mathrm{QI}=P^{-1}R$
 > 
-> > *The *$\mathrm{QI}$* on the left simplifies to *$Q$
+> > *The* $\mathrm{QI}$ *on the left simplifies to* $Q$
 > 
 > $Q=P^{-1}R$

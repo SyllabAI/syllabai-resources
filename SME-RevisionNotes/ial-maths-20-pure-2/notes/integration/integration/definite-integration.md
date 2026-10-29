@@ -80,13 +80,13 @@ guided_study: false
 > 
 > $\int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x$
 > 
-> > *Integrate as usual (here it's a 'powers of *$x$*' integration)*
+> > *Integrate as usual (here it's a 'powers of* $x$*' integration)*
 > 
 > > *Write the answer in square brackets with the integration limits outside*
 > 
 > $\begin{gathered} \int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x & = [ 3 ( \frac{x^{3 + 1} }{3 + 1} ) - 6 ( \frac{x^{1 + 1} }{1 + 1} ) ]_{2}^{4} \\ = [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} \end{gathered}$
 > 
-> > *Now substitute 4 into that function *
+> > *Now substitute 4 into that function*
 > *And subtract from it the function with 2 substituted in*
 > 
 > $\begin{array}{rcl} [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} & = ( \frac{3}{4} ( 4 )^{4} - 3 ( 4 )^{2} ) - ( \frac{3}{4} ( 2 )^{4} - 3 ( 2^{2} ) ) \\ = ( 192 - 48 ) - ( 12 - 12 ) \\ = 144 - 0 \\ = 144 \end{array}$

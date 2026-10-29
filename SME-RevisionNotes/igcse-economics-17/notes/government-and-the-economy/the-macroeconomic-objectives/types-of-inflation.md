@@ -69,7 +69,7 @@ guided_study: false
 | Exports | - **Inflation erodes international competitiveness** of export industries as the country's exports are now relatively more expensive<br>- **Economic growth** may slow due to a fall in exports and a possible fall in consumption |
 | Unemployment | - Generally, there is an **inverse relationship** between inflation and unemployment<br>- When inflation increases unemployment decreases and vice versa |
 | Menu costs | - Price changes force firms to change their menu prices too<br>- Businesses have the additional cost of updating menus or price cards |
-| Shoe leather costs | - *Shoe leather costs *refers to** hidden costs** or waste of resources during periods of high inflation<br>- E.g People spend more time browsing Google for a better deal |
+| Shoe leather costs | - *Shoe leather costs* refers to** hidden costs** or waste of resources during periods of high inflation<br>- E.g People spend more time browsing Google for a better deal |
 | Business and consumer confidence | - With falling output and rising unemployment, households and business lose confidence choosing to** save or delay investment **<br>- Consumption and investment fall, and **real GDP** reduces even more<br>- Consumers **delay purchasing** goods and services as they believe prices will be cheaper in a few weeks or months |
 | Investment | - Rapid price changes create** uncertainty** and** firms delay investment**<br>- Low and stable inflation improves confidence in future **purchasing power, **encouraging long-term investment |
 

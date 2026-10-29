@@ -81,11 +81,11 @@ guided_study: false
 > 
 > > *The 2 letters must be **followed** by the three digits, so we must treat these separately. *
 > 
-> > *For the first letter there are five possible options (A, B, C, D or E) For the second letter there are four possible options as no letter can be repeated. *
+> > *For the first letter there are five possible options (A, B, C, D or E) For the second letter there are four possible options as no letter can be repeated.*
 > 
 > $P pre^{5}_{2} = ( 5 \times 4 )$
 > 
-> > *For the first number there are ten possible options (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) For the second number there are nine possible options as no number can be repeated.  For the third number there are eight possible options. *
+> > *For the first number there are ten possible options (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) For the second number there are nine possible options as no number can be repeated.  For the third number there are eight possible options.*
 > 
 > $P pre^{10}_{3} = ( 10 \times 9 \times 8 )$
 > 

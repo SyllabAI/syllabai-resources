@@ -18,7 +18,7 @@ guided_study: true
 ## Calculating centripetal acceleration
 
 - Centripetal acceleration is defined as: **The acceleration of an object towards the centre of a circle when an object is in motion (rotating) around a circle at a constant speed**
-- It can be defined using the radius *r *and linear speed *v*:
+- It can be defined using the radius *r* and linear speed *v*:
 
 $a=\frac{v^{2}}{r}$
 
@@ -53,7 +53,7 @@ $a=rω^{2}$
 
   - *a* = centripetal acceleration (m s<sup>−2</sup>)
   - *v* = ***linear*** speed (m s<sup>−1</sup>)
-  - *⍵* = angular speed (rad s<sup>−1</sup>)
+  - *ω* = angular speed (rad s<sup>−1</sup>)
   - *r* = radius of the orbit (m)
 
 > **Worked Example**

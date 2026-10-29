@@ -103,14 +103,14 @@ $\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labou
   - They have left one job and are searching for another
 - It is **short-term and voluntary** in nature - the worker is employable but the process of job search takes time
 - It exists in all economies because information about job vacancies and available workers is not perfect
-- Example: a marketing manager who has *resigned *and is searching for a new role
+- Example: a marketing manager who has *resigned* and is searching for a new role
 
 ### 2. Structural unemployment
 
 - **Structural unemployment occurs when there is a mismatch between the skills workers have and the skills employers demand**
 
   - Caused by long-run changes in the structure of the economy
-- It arises when declining industries shed workers whose skills are not *transferable *to growing industries
+- It arises when declining industries shed workers whose skills are not *transferable* to growing industries
 - It tends to be **long-term and geographically concentrated** in areas dependent on a single industry
 - Example: former steel workers in South Wales or coal miners in northern England whose skills have little value in a service-based economy
 
@@ -121,7 +121,7 @@ $\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labou
 > 
 > Detroit was the centre of the American automotive industry throughout the 20th century, employing hundreds of thousands of workers in car manufacturing.
 > 
-> From the 1970s onwards, competition from Japanese and German manufacturers, *automation *and *offshoring *caused a dramatic contraction - employment in the automotive sector fell from approximately 300,000 in the 1950s to under 20,000 by 2010.
+> From the 1970s onwards, competition from Japanese and German manufacturers, *automation* and *offshoring* caused a dramatic contraction - employment in the automotive sector fell from approximately 300,000 in the 1950s to under 20,000 by 2010.
 > 
 > ![Abandoned industrial building with weathered brick and metal, shattered windows, graffiti, and overgrown vegetation under a cloudy sky.](assets/af62fe5c3121-14592-istockphoto-1457791376-612x612.jpg)
 > 
@@ -129,9 +129,9 @@ $\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labou
 > 
 > **Actions taken**
 > 
-> - The US government provided an \$80 billion *bailout *to General Motors and Chrysler in 2009 to prevent total industry collapse
+> - The US government provided an \$80 billion *bailout* to General Motors and Chrysler in 2009 to prevent total industry collapse
 > - Federal and state retraining programmes were introduced to help displaced workers acquire skills in healthcare and technology
-> - Detroit filed for *bankruptcy *in 2013 - the largest municipal bankruptcy in US history
+> - Detroit filed for *bankruptcy* in 2013 - the largest municipal bankruptcy in US history
 > 
 > **Outcomes**
 > 
@@ -143,7 +143,7 @@ $\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labou
 
 - **Cyclical unemployment (also called demand-deficient unemployment) occurs when there is insufficient aggregate demand in the economy to employ all those willing and able to work**
 
-  - It rises during *recessions *as firms cut output and lay off workers, and falls during periods of economic growth
+  - It rises during *recessions* as firms cut output and lay off workers, and falls during periods of economic growth
 - It is the most economically damaging type - large numbers of workers can become unemployed simultaneously
 - In AD/AS terms it occurs when the economy is operating below full employment output on the Keynesian LRAS
 
@@ -167,7 +167,7 @@ $\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labou
 |---|---|---|---|
 | Frictional | - Job search between employment | - Short-term | - Better job matching information |
 | Structural | - Skills mismatch from industrial change | - Long-term | - Retraining and education |
-| Cyclical | - Deficient aggregate demand | - Medium-term | - Expansionary *fiscal *or *monetary policy* |
+| Cyclical | - Deficient aggregate demand | - Medium-term | - Expansionary *fiscal* or *monetary policy* |
 | Seasonal | - Seasonal fluctuations in labour demand | - Predictable/recurring | - Seasonal work schemes |
 | Technological | - Displacement by automation or technology | - Long-term | - Retraining and *supply-side policy* |
 
@@ -216,7 +216,7 @@ $\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labou
 - **Loss of income** - unemployment reduces household income, lowering *living standards* and potentially pushing individuals into poverty
 - **Skills deterioration** - prolonged unemployment leads to the depreciation of human capital as skills become outdated or underused
 - **Mental and physical health** - unemployment is associated with increased rates of anxiety, depression and poor physical health
-- **Hysteresis** - long-term unemployment makes individuals less *employable *over time, as employers interpret prolonged unemployment as a negative signal
+- **Hysteresis** - long-term unemployment makes individuals less *employable* over time, as employers interpret prolonged unemployment as a negative signal
 
 ### Consequences for the economy
 

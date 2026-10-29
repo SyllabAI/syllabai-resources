@@ -80,7 +80,7 @@ guided_study: false
 > 
 > Calculate the total variable cost
 > 
-> *Variable costs = Direct materials + Direct labour + Other direct costs *
+> *Variable costs = Direct materials + Direct labour + Other direct costs*
 > 
 > *		= \$10 000 + \$6 000 + \$3 000 *
 > 
@@ -88,9 +88,9 @@ guided_study: false
 > 
 > Subtract the variable cost from the revenue
 > 
-> *Contribution = Revenue - Variable costs *
+> *Contribution = Revenue - Variable costs*
 > 
-> *= \$100 000 - \$19 000 *
+> *= \$100 000 - \$19 000*
 > 
 > **Final answer:** **Contribution is \$81 000**
 > 
@@ -98,7 +98,7 @@ guided_study: false
 > 
 > Divide the total contribution by the number of units
 > 
-> *81 000 ÷ 9 000 = \$9 *
+> *81 000 ÷ 9 000 = \$9*
 > 
 > **Final answer:** **Contribution per unit is \$9**
 > 

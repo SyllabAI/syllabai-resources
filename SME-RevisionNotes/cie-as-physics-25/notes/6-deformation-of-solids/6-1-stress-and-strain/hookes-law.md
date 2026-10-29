@@ -35,7 +35,7 @@ $F=kx$
 
 ## The spring constant
 
-- *k *is the **spring constant** of the spring and is a measure of the **stiffness** of a spring
+- *k* is the **spring constant** of the spring and is a measure of the **stiffness** of a spring
 
   - A stiffer spring will have a larger value of *k*
 

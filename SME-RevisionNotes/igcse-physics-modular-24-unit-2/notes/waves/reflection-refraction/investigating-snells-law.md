@@ -23,7 +23,7 @@ guided_study: false
 
 ### Variables
 
-- ***Independent variable*** = angle of incidence,* i*
+- ***Independent variable*** = angle of incidence, *i*
 - ***Dependent variable*** = angle of refraction , *r*
 - Control variables:
 

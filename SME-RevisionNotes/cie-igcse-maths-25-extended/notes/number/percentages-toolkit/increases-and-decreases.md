@@ -73,7 +73,7 @@ guided_study: true
 > 
 > *10% of 200 = 20*
 > *1% of 200 = 2*
-> *21% of 200 = 20 + 20 + 2 = 42 *
+> *21% of 200 = 20 + 20 + 2 = 42*
 > 
 > > *Add this to the original amount*
 > 
@@ -84,7 +84,7 @@ guided_study: true
 > **Method 2** (calculator)
 > 
 > > *An increase by 21% is equivalent to finding 121% of the original amount*
-> *So the multiplier is 1.21 *
+> *So the multiplier is 1.21*
 > 
 > *1.21 × 200*
 > 
@@ -100,11 +100,11 @@ guided_study: true
 > 
 > **Method 1** (non-calculator)
 > 
-> > *By first finding 10% and 5%, find 35% of 500 *
+> > *By first finding 10% and 5%, find 35% of 500*
 > 
 > *10% of 500 = 50*
 > *5% of 500 = 25*
-> *35% of 500 = 50 + 50 + 50 + 25 = 175 *
+> *35% of 500 = 50 + 50 + 50 + 25 = 175*
 > 
 > > *Subtract this from the original amount*
 > 
@@ -114,7 +114,7 @@ guided_study: true
 > 
 > **Method 2** (calculator)
 > 
-> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65) *
+> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65)*
 > *So the multiplier is 0.65*
 > 
 > *500 × 0.65*
@@ -209,7 +209,7 @@ guided_study: true
 > **Answer:**
 > 
 > **Method 1**
-> *Use the formula *$m=\frac{\mathrm{Amount} \mathrm{after}}{\mathrm{Amount} \mathrm{before}}$
+> *Use the formula* $m=\frac{\mathrm{Amount} \mathrm{after}}{\mathrm{Amount} \mathrm{before}}$
 > 
 > $\frac{310}{250}=1.24$* *
 > 
@@ -218,7 +218,7 @@ guided_study: true
 > **Final answer:** **A percentage increase of 24%**
 > 
 > **Method 2**
-> *Use the formula Percentage Change = *$\frac{\mathrm{After}-\mathrm{Before}}{\mathrm{Before}}\times100$
+> *Use the formula Percentage Change =* $\frac{\mathrm{After}-\mathrm{Before}}{\mathrm{Before}}\times100$
 > 
 > $\frac{310-250}{250}\times100=24$
 > 
@@ -234,7 +234,7 @@ guided_study: true
 > **Answer:**
 > 
 > **Method 1**
-> *Use the formula *$m=\frac{\mathrm{Selling} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}$
+> *Use the formula* $m=\frac{\mathrm{Selling} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}$
 > 
 > $\frac{5600}{8000}=0.7$
 > 
@@ -245,7 +245,7 @@ guided_study: true
 > **Final answer:** **A loss of 30%**
 > 
 > **Method 2**
-> *Use the formula Percentage Profit = *$\frac{\mathrm{Selling} \mathrm{Price}-\mathrm{Cost} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}\times100$
+> *Use the formula Percentage Profit =* $\frac{\mathrm{Selling} \mathrm{Price}-\mathrm{Cost} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}\times100$
 > 
 > $\frac{5600-8000}{8000}\times100=-30$
 > 

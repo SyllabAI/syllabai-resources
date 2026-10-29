@@ -66,11 +66,11 @@ guided_study: true
 > 
 > $p ( x - b ) = 2 - a x$
 > 
-> > *Expand the brackets on the left hand side to 'release' the *$x$
+> > *Expand the brackets on the left hand side to 'release' the* $x$
 > 
 > $px-pb=2-ax$
 > 
-> > *Bring the terms containing *$x$* to one side of the equals sign and any other terms to the other side*
+> > *Bring the terms containing* $x$ *to one side of the equals sign and any other terms to the other side*
 > 
 > $\begin{gathered} p x - p b & = 2 - a x \end{gathered}$
 > 
@@ -82,10 +82,10 @@ guided_study: true
 > 
 > $\begin{array}{rcl} p x + a x & = 2 + p b \end{array}$
 > 
-> > *Factorise the left-hand side to bring *$x$* outside of the brackets, so that it appears only once*
+> > *Factorise the left-hand side to bring* $x$ *outside of the brackets, so that it appears only once*
 > 
 > $x ( p + a ) = 2 + p b$
 > 
-> > *Make *$x$* the subject by dividing by the whole expression *$( p + a )$
+> > *Make* $x$ *the subject by dividing by the whole expression* $( p + a )$
 > 
 > $x=\frac{2+pb}{p+a}$

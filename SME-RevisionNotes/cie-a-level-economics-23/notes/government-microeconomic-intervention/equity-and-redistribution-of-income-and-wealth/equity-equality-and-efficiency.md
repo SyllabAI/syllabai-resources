@@ -31,7 +31,7 @@ guided_study: false
 
 ### International examples
 
-- **Progressive taxation** across most *OECD *countries reflects equity - higher earners pay a higher proportion of income in tax, which is considered fairer even though outcomes are unequal
+- **Progressive taxation** across most *OECD* countries reflects equity - higher earners pay a higher proportion of income in tax, which is considered fairer even though outcomes are unequal
 - **Affirmative action policies** in **South Africa**, **India** and **Brazil** pursue equity by treating historically disadvantaged groups differently to correct past inequalities - unequal treatment in pursuit of fairer outcomes
 
 > **Exam Hint**
@@ -49,14 +49,14 @@ guided_study: false
 
 - **Efficiency means obtaining the maximum possible output and welfare from available resources**
 - **Equity focuses on the fairness of distribution — these two objectives frequently conflict**
-- Free markets tend to maximise efficiency by responding to *price signals *
+- Free markets tend to maximise efficiency by responding to *price signals*
 
   - They distribute income and wealth **unequally**, as rewards flow to those with the most productive resources
 - Government intervention to improve equity typically **reduces efficiency**:
 
-  - Progressive taxes reduce the incentive to work, invest and *innovate *at the margin
+  - Progressive taxes reduce the incentive to work, invest and *innovate* at the margin
   - *Means-tested* benefits can create **poverty traps** - where individuals lose benefits as they earn more, reducing the incentive to work
-  - Price controls and *subsidies *distort price signals, reducing allocative efficiency
+  - Price controls and *subsidies* distort price signals, reducing allocative efficiency
 
 > **Exam Hint**
 > This trade-off creates a fundamental policy dilemma: **the more aggressively a government pursues equity, the greater the potential efficiency cost**
@@ -76,7 +76,7 @@ guided_study: false
 > 
 > **The context**
 > 
-> Brazil has one of the most unequal income distributions in the world, rooted in *colonial *history and land concentration. In 2003, President Lula da Silva launched Bolsa Família
+> Brazil has one of the most unequal income distributions in the world, rooted in *colonial* history and land concentration. In 2003, President Lula da Silva launched Bolsa Família
 > 
 > This was a conditional cash transfer programme providing monthly payments to low-income families on the condition that children attended school and received vaccinations
 > 

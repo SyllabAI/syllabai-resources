@@ -25,8 +25,8 @@ guided_study: true
 
 - The following formulae will let you find the sum of the first ***n*** terms of a geometric series: $S_{n}=\frac{a(1-r^{n})}{1-r}$   or   $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 
-  - *a *is the first term
-  - *r *is the common ratio
+  - *a* is the first term
+  - *r* is the common ratio
 
 - The one on the left is more convenient if ***r *****< 1**, the one on the right is more convenient if ***r *****> 1**
 - The ***a*** and the ***r*** in those formulae are exactly the same as the ones used with **geometric sequences**
@@ -40,7 +40,7 @@ guided_study: true
   - Subtract the second sum from the first
   
     - All the terms except two should cancel out
-  - Factorise and rearrange to make *S *the subject
+  - Factorise and rearrange to make *S* the subject
 
 ![Geom Series Proof, A Level & AS Level Pure Maths Revision Notes](../../../assets/97c3ed07312d-4-5-2-geom-series-proof.png)
 

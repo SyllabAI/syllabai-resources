@@ -97,10 +97,10 @@ guided_study: false
 > 
 > > *Find the scale factor of enlargement of the area from 45 to 450*
 > 
-> > *Area scale factor is 10 *
+> > *Area scale factor is 10*
 > 
 > > *The magnitude of the determinant is the area scale factor*
-> *Start by finding and simplifying the determinant of *$M$
+> *Start by finding and simplifying the determinant of* $M$
 > 
 > $\begin{gathered} \det ( M ) & = 3 ( k + 1 ) - 2 \times 4 \\ = 3 k + 3 - 8 \\ = 3 k - 5 \end{gathered}$
 > 
@@ -108,7 +108,7 @@ guided_study: false
 > 
 > $\vert 3 k - 5 \vert = 10$
 > 
-> > *This means *$3k-5$* is either equal to 10 or -10*
+> > *This means* $3k-5$ *is either equal to 10 or -10*
 > *Solve each equation*
 > 
 > $\begin{gathered} 3 k - 5 & = 10 \\ 3 k & = 15 \\ k = 5 \end{gathered}$

@@ -64,7 +64,7 @@ guided_study: true
 - If there are three identical objects within a group of *n* objects to be arranged, the number of ways of arranging $n$ different objects should be divided by 6
 - If there are *r*  identical objects within a group of *n* objects to be arranged, the number of ways of arranging $n$ different objects should be divided by the number of ways of arranging *r* different objects
 
-  - If there are *r*  identical objects within a group of *n* objects to be arranged, the number of ways of arranging *n* the objects is $n\times(n-1)\times(n-2)\times...\times2\times1$  divided by  `r cross times open parentheses r minus 1 close parentheses cross times open parentheses r minus 2 close parentheses cross times... cross times 2 cross times 1`
+  - If there are *r*  identical objects within a group of *n* objects to be arranged, the number of ways of arranging *n* the objects is $n\times(n-1)\times(n-2)\times...\times2\times1$  divided by  `r×(r−1)×(r−2)×...×2×1`
 
 > **Worked Example**
 > By considering the number of options there are for each letter to go into each position, find how many different arrangements there are of the letters in the word REVISE.

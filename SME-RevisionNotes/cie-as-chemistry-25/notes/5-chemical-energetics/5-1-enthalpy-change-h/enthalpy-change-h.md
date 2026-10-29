@@ -19,7 +19,7 @@ guided_study: true
 
 - The total chemical energy inside a substance is called the enthalpy (or heat content)
 - When chemical reactions take place, changes in chemical energy take place and therefore the enthalpy changes
-- An enthalpy change is represented by the symbol Δ*H *(Δ= change; *H* = enthalpy)
+- An enthalpy change is represented by the symbol Δ*H* (Δ= change; *H* = enthalpy)
 - An enthalpy change can be positive or negative
 
 ### Exothermic reactions
@@ -29,7 +29,7 @@ guided_study: true
 
   - The **temperature** of the **environment increases** - this can be measured on a thermometer
   - The **energy** of the **system decreases** as it loses heat to the surroundings
-- There is an enthalpy decrease during the reaction, so Δ*H *is negative
+- There is an enthalpy decrease during the reaction, so Δ*H* is negative
 - Exothermic reactions are more likely to be **thermodynamically **possible (because the enthalpy of the reactants is **higher** than that of the products), although feasibility also depends on the entropy change
 - However, the rate may be too slow to observe any appreciable reaction
 
@@ -49,7 +49,7 @@ guided_study: true
 
   - The **temperature** of the **environment decreases** - this can be measured with a thermometer
   - The **temperature **of the **system increases**
-- There is an enthalpy increase during the reaction, so Δ*H *is positive
+- There is an enthalpy increase during the reaction, so Δ*H* is positive
 
 #### The enthalpy change during an endothermic reaction
 

@@ -46,7 +46,7 @@ In the exam, you may be asked to identify a word or phrase in a text that means 
 
 For example, if we take the word “dying”. The literal meaning of this word is something that is reaching the end of its life. But in the exam, you might be asked to explain what the writer means by the word “dying” in a sentence such as:
 
-*On the other side, there was a streetlamp with a *<u>*dying*</u>* bulb.*
+*On the other side, there was a streetlamp with a* <u>*dying*</u> *bulb.*
 
 Here, the examiner would be looking for an explanation of the word “dying” appropriate to the context in which it has been used. So, in this case, the bulb is becoming fainter and dimmer, so the appropriate synonyms would be “fading” or “dimming”.
 

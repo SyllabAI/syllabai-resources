@@ -45,8 +45,8 @@ guided_study: false
 - Applying trigonometry to the parallax equation:
 
   - 1 AU = radius of Earths orbit around the sun
-  - *p *= parallax angle from earth to the nearby star
-  - *d *= distance to the nearby star
+  - *p* = parallax angle from earth to the nearby star
+  - *d* = distance to the nearby star
   - So, tan(*p)* = $\frac{AU}{d}$
 - For small angles, expressed in radians, tan(*p)* ≈ *p*, therefore: *p* = $\frac{AU}{d}$
 - If the distance to the nearby star is to be measured in *parsec*, then it can be shown that the relationship between the distance to a star from Earth and the angle of stellar parallax is given by

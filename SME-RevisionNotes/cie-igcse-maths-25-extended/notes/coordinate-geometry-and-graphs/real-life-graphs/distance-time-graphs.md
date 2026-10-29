@@ -56,7 +56,7 @@ guided_study: true
 > 
 > > *The speed is the gradient of the line at that point*
 > *The gradient at 2pm is the same as the gradient for all points between 1:45pm and 2:45pm*
-> *It is easiest to use *$\frac{\mathrm{rise}}{\mathrm{run}}$* for that bigger section*
+> *It is easiest to use* $\frac{\mathrm{rise}}{\mathrm{run}}$ *for that bigger section*
 > 
 > $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{6}{1}$
 > 
@@ -75,7 +75,7 @@ guided_study: true
 > 
 > **Answer: **
 > 
-> > *Overall average speed is *$\frac{\mathrm{total} \mathrm{distance} \mathrm{travelled}}{\mathrm{total} \mathrm{time}}$* *
+> > *Overall average speed is* $\frac{\mathrm{total} \mathrm{distance} \mathrm{travelled}}{\mathrm{total} \mathrm{time}}$* *
 > 
 > *Total distance travelled is 8 km*
 > *Total time (including rests) is 1.75 hours*
@@ -93,6 +93,6 @@ guided_study: true
 > **Answer:**
 > 
 > > *Rest is a horizontal line*
-> *Returning home is a straight line with a negative gradient *
+> *Returning home is a straight line with a negative gradient*
 > 
 > ![Example-5-3-20-Diagram-2, IGCSE & GCSE Maths revision notes](assets/e009fa68f83b-13760-distance-time-graphs-2.png)

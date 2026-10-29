@@ -19,9 +19,9 @@ guided_study: true
 
 ### How do I calculate the length of a line?
 
-- The **distance between two points** with coordinates `open parentheses x subscript 1 space comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 space comma space y subscript 2 close parentheses` can be found using the formula
+- The **distance between two points** with coordinates `(x_ 1 comma y_ 1)` and `(x_ 2 comma y_ 2)` can be found using the formula
 
-`d equals square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`
+`d=√((x_ 1−x_ 2)²+(y_ 1−y_ 2)²)`
 
 - This formula uses** Pythagoras’ theorem**  $a^{2}+b^{2}=c^{2}$
 
@@ -30,7 +30,7 @@ guided_study: true
 ![A right-angled triangle drawn between two point on a straight line, to show how Pythagoras is used to find the length of a line](../../../assets/56ff4069434e-15956-basic-coordinate-geometry-notes-diagram-2.png)
 
 > **Exam Hint**
-> Be extra careful when negative coordinates are involved. It can help to put negative numbers in brackets to make your working clearer, e.g. `open parentheses negative 6 close parentheses minus open parentheses negative 8 close parentheses equals 2`.
+> Be extra careful when negative coordinates are involved. It can help to put negative numbers in brackets to make your working clearer, e.g. `(−6)−(−8)=2`.
 
 > **Worked Example**
 > Point *A* has coordinates (3, -4) and point *B* has coordinates (-5, 2).
@@ -39,17 +39,17 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the formula for the distance between two points, *`d equals square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`* *
+> > *Using the formula for the distance between two points,* `d=√((x_ 1−x_ 2)²+(y_ 1−y_ 2)²)`* *
 > 
 > > *Substitute in the two given coordinates*
 > 
-> `d equals square root of open parentheses 3 minus open parentheses negative 5 close parentheses close parentheses squared plus open parentheses open parentheses negative 4 close parentheses minus 2 close parentheses squared end root`
+> `d=√((3−(−5))²+((−4)−2)²)`
 > 
 > > *Be careful with the negative numbers*
-> `3 minus open parentheses negative 5 close parentheses equals 8`* and *`open parentheses negative 4 close parentheses minus 2 equals negative 6`
+> `3−(−5)=8` *and* `(−4)−2=−6`
 > 
 > > *Simplify*
 > 
-> `d equals square root of open parentheses 8 close parentheses squared plus open parentheses negative 6 close parentheses squared end root space equals space square root of 64 plus 36 end root equals square root of 100 equals 10`
+> `d=√((8)²+(−6)²)=√(64+36)=√(100=10`
 > 
 > **Final answer:** **10 units**

@@ -73,25 +73,25 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The formula for an arithmetic sequence is *$u_{n} = a + ( n - 1 ) d$
-> *If the 6*<sup>*th*</sup>* term is 13, then *$u_{6}=13$
-> *Substitute *$n=6$* and *$u_{6}=13$* into the formula*
+> > *The formula for an arithmetic sequence is* $u_{n} = a + ( n - 1 ) d$
+> *If the 6*<sup>*th*</sup> *term is 13, then* $u_{6}=13$
+> *Substitute* $n=6$ *and* $u_{6}=13$ *into the formula*
 > 
 > $\begin{gathered} u_{6} & = a + ( 6 - 1 ) d \\ 13 = a + 5 d \end{gathered}$
 > 
-> > *Similarly, if the 21*<sup>*st*</sup>* term is 43, then *$u_{21}=43$
-> *Substitute *$n=21$* and *$u_{21}=43$* into the formula*
+> > *Similarly, if the 21*<sup>*st*</sup> *term is 43, then* $u_{21}=43$
+> *Substitute* $n=21$ *and* $u_{21}=43$ *into the formula*
 > 
 > $\begin{gathered} u_{21} & = a + ( 21 - 1 ) d \\ 43 = a + 20 d \end{gathered}$
 > 
-> > *These give two different equations in *$a$* and *$d$
-> *Solve the equations simultaneously (for example, eliminate *$a$*)*
+> > *These give two different equations in* $a$ *and* $d$
+> *Solve the equations simultaneously (for example, eliminate* $a$*)*
 > 
 > `- charalign center stackalign right end | a + 20 d = 43 end | | a + 5 d = 13 end | horizontal line | 15 d = 30 end | end`
 > 
 > $d=\frac{30}{15}=2$
 > 
-> > *Substitute *$d=2$* into the first equation and solve for *$a$
+> > *Substitute* $d=2$ *into the first equation and solve for* $a$
 > 
 > $\begin{gathered} 13 = a + 5 \times 2 \\ 13 = a + 10 \\ 3 = a \end{gathered}$
 > 

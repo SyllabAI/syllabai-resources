@@ -69,13 +69,13 @@ $I = \int \frac{f ' ( x )}{f ( x )} \mathrm{d} x = \ln \vert f ( x ) \vert + c$
 > 
 > $\mathrm{f} ( x ) = \int 5 x^{2} \sin ( 2 x^{3} ) \mathrm{d} x$
 > 
-> > *Take 5 out of the integral as a factor. *
+> > *Take 5 out of the integral as a factor.*
 > 
 > $\mathrm{f} ( x ) = 5 \int x^{2} \sin ( 2 x^{3} ) \mathrm{d} x$
 > 
-> > *The main function is sin(...), which would have come from -cos(...). *
+> > *The main function is sin(...), which would have come from -cos(...).*
 > 
-> > *Adjust and compensate the coefficients. 2**x*<sup>*3*</sup><sup>* *</sup>*would differentiate to 6**x*<sup>*2 *</sup>*so -cos(2**x*<sup>*3*</sup>*) would differentiate to (6**x*<sup>*2*</sup>*)sin(2x*<sup>*3*</sup>*)*
+> > *Adjust and compensate the coefficients. 2**x*<sup>*3*</sup><sup>* *</sup>*would differentiate to 6**x*<sup>*2* </sup>*so -cos(2**x*<sup>*3*</sup>*) would differentiate to (6**x*<sup>*2*</sup>*)sin(2x*<sup>*3*</sup>*)*
 > 
 > $\mathrm{f} ( x ) = 5 \times ( \frac{1}{6} ) \times \int ( 6 x^{2} ) \sin ( 2 x^{3} ) \mathrm{d} x$
 > 
@@ -140,7 +140,7 @@ $I = \int \frac{f ' ( x )}{f ( x )} \mathrm{d} x = \ln \vert f ( x ) \vert + c$
 > 
 > $I = 3 [ \frac{1}{\frac{8}{3}} ( 7 - 2 x ) ^{\frac{8}{3}} \times \frac{1}{ - 2} ] + c$
 > 
-> > *Simplify. *
+> > *Simplify.*
 > 
 > $I = 3 [ - \frac{3}{16} ( 7 - 2 x )^{ \frac{8}{3} } ] + c$
 > 
@@ -152,10 +152,10 @@ $I = \int \frac{f ' ( x )}{f ( x )} \mathrm{d} x = \ln \vert f ( x ) \vert + c$
 > 
 > $I = \int 1 \frac{1}{2} \cos ( 3 x - 2 ) \mathrm{d} x = 1 \frac{1}{2} \int \cos ( 3 x - 2 ) \mathrm{d} x$
 > 
-> > *Using the rule *$\int \cos ( a x + b ) \mathrm{d} x = \frac{1}{a} \sin ( a x + b ) + c$*, integrate the expression. *
+> > *Using the rule* $\int \cos ( a x + b ) \mathrm{d} x = \frac{1}{a} \sin ( a x + b ) + c$*, integrate the expression.*
 > 
 > $I = 1 \frac{1}{2} [ 1 \frac{1}{3} \sin ( 3 x - 2 ) ] + c$
 > 
-> > *Simplify. *
+> > *Simplify.*
 > 
 > $I=\frac{1}{6}\mathrm{sin}(3x-2)+c$

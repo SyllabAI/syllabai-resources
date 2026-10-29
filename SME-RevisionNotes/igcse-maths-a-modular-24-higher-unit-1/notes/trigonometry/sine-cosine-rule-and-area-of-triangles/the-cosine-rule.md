@@ -32,7 +32,7 @@ $a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$
   - $b$* *and $c$* *are the other two sides
   
     - $b$* *and $c$ are either side of angle *A*
-    - *A *is the angle between them
+    - *A* is the angle between them
 
 ![Non Right-Angled Triangle labelled with angles A, B and C and opposite corresponding sides a, b and c.](../../../assets/435c5828ab8c-5089-the-cosine-rule-1.png)
 
@@ -62,7 +62,7 @@ $\begin{gathered} a^{2} & = b^{2} + c^{2} - 2 b c \cos A \\ a^{2} + 2 b c \cos A
 
 - Use the formula $\begin{gathered} \cos A & = \frac{b^{2} + c^{2} - a^{2}}{2 b c} \end{gathered}$ to find the **unknown** **angle ***A*
 
-  - Remember, *A *is the angle **between** sides *b *and *c*
+  - Remember, *A* is the angle **between** sides *b* and *c*
   
     - (you may need to relabel the triangle)
   - You will need to use** inverse cosine **at the end, $\cos ^{- 1} (... )$
@@ -82,11 +82,11 @@ $\begin{gathered} a^{2} & = b^{2} + c^{2} - 2 b c \cos A \\ a^{2} + 2 b c \cos A
 > 
 > **Answer:**
 > 
-> > *The side opposite the angle is 7.1, so *$a=7.1$
+> > *The side opposite the angle is 7.1, so* $a=7.1$
 > 
-> > *The sides 4.2 and 3.8 are *$b$* and *$c$* (in either order)*
+> > *The sides 4.2 and 3.8 are* $b$ *and* $c$ *(in either order)*
 > 
-> > *Use the cosine rule in the rearranged form *$\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$
+> > *Use the cosine rule in the rearranged form* $\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$
 > 
 > $\begin{gathered} \cos \\theta & = \frac{4.2^{2} + 3.8^{2} - 7.1^{2}}{2 ( 4.2 ) ( 3.8 )} \\ \\theta = \cos ^{- 1} ( \frac{4.2^{2} + 3.8^{2} - 7.1^{2}}{2 ( 4.2 ) ( 3.8 )} ) \\ \\theta = 125.04699... \end{gathered}$
 > 

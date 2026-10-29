@@ -101,7 +101,7 @@ STEP 5 Find the solutions to the cubic equation by making each factor equal to z
 > **Worked Example**
 > a) Solve the cubic equation $x^{3}-10x^{2}+12x+8=0$.
 > 
-> > *STEP 1 - use factor theorem with *$\mathrm{f} ( x ) = x^{3} - 10 x^{2} + 12 x + 8$
+> > *STEP 1 - use factor theorem with* $\mathrm{f} ( x ) = x^{3} - 10 x^{2} + 12 x + 8$
 > 
 > $\mathrm{f} ( 1 ) = ( 1 )^{3} - 10 ( 1 )^{2} + 12 ( 1 ) + 8 = 11 \text{eq} 0$
 > 
@@ -109,7 +109,7 @@ STEP 5 Find the solutions to the cubic equation by making each factor equal to z
 > 
 > $\mathrm{f} ( 2 ) = ( 2 )^{3} - 10 ( 2 )^{2} + 12 ( 2 ) + 8 = 0$
 > 
-> $\therefore ( x - 2 )$* is a factor of *$\mathrm{f} ( x )$
+> $\therefore ( x - 2 )$ *is a factor of* $\mathrm{f} ( x )$
 > 
 > *STEP 2 - polynomial division (*$f ( x ) \div ( x - 2 )$*) or 'by inspection'* *By inspection ...*
 > 
@@ -119,13 +119,13 @@ STEP 5 Find the solutions to the cubic equation by making each factor equal to z
 > 
 > $a=1$
 > 
-> > *(because the *$x^{3}$* is generated **only** from *$x\timesax^{2}$*)*
+> > *(because the* $x^{3}$* is generated **only** from *$x\timesax^{2}$*)*
 > 
 > $c=-4$
 > 
 > > *(because the constant term is generated **only** from *$-2\timesc$*)*
 > 
-> > *Equate coefficients of *$x$* (or *$x^{2}$*) terms to find *$b$*,*
+> > *Equate coefficients of* $x$ *(or* $x^{2}$*) terms to find* $b$*,*
 > 
 > $12=c-2b$
 > 

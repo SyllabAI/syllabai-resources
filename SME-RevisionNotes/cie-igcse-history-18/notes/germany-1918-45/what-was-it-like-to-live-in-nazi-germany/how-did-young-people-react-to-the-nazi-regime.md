@@ -160,7 +160,7 @@ Red thumbs-down icon at the top
 
 - Activities focused on the ‘**three Ks**’
 
-  - *Kinder *(Children)
+  - *Kinder* (Children)
   - *Kirche* (Church)
   - *Küche* (Cooking)
 

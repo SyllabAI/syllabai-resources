@@ -46,7 +46,7 @@ guided_study: true
 
 ![Diagram showing the conversion of starch and glucose in a liver cell, including glycogen granules, cellulose microfibrils, and a rodent eating grass.](../../../assets/b98086875fb6-46729-glycogen-cellulose-and-starch.png)
 
-*Glycogen, cellulose and starch are all made from glucose molecules. Glycogen is also found in animal muscle cells. *
+*Glycogen, cellulose and starch are all made from glucose molecules. Glycogen is also found in animal muscle cells.*
 
 > **Exam Hint**
 > You don't need to know the terms monosaccharide, disaccharide and polysaccharide for your exam, but you do need to know that **starch** and **glycogen** are **large molecules** formed from **many glucose molecules** (a simple sugar)  joined together. 

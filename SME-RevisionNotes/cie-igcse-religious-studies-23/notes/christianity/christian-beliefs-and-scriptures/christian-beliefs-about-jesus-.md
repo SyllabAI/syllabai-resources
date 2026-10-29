@@ -153,7 +153,7 @@ guided_study: false
 
 - The Last Supper was the final meal Jesus shared with his disciples, the night before his crucifixion
 
-  - During the meal, Jesus predicted that one of his *disciples *would **betray him**
+  - During the meal, Jesus predicted that one of his *disciples* would **betray him**
   - At the end of the meal, Jesus **broke bread** and shared it with his disciples, telling them to:
 
 > **blockquote**
@@ -195,7 +195,7 @@ guided_study: false
 
 ## The trial of Jesus
 
-- Jesus was tried by the* Sanhedrin,* who considered Jesus’s claim that he was the son of God *blasphemy* and **found him guilty** of this charge
+- Jesus was tried by the *Sanhedrin,* who considered Jesus’s claim that he was the son of God *blasphemy* and **found him guilty** of this charge
 - The next morning, Jesus was taken to **Pontius Pilate**, the Roman governor
 
   - Pilate did not think that Jesus was guilty, so he gave the assembled crowd a choice
@@ -233,7 +233,7 @@ guided_study: false
 - The events following the crucifixion of Jesus are central to Christian belief
 
   - After the crucifixion, Jesus’s body was** buried in a tomb** guarded by Roman soldiers
-  - Early on the Sunday morning, three days after the crucifixion, some of Jesus’s female followers went to *anoint *his body with spices, but the **tomb was empty**
+  - Early on the Sunday morning, three days after the crucifixion, some of Jesus’s female followers went to *anoint* his body with spices, but the **tomb was empty**
   - Two men in gleaming white clothes appeared and told the women that Jesus had **risen from the dead**
 
 > **blockquote**
@@ -267,7 +267,7 @@ guided_study: false
 ## The significance of Mary
 
 - Mary is the** mother of Jesus** and a **significant figure** to Christians
-- The **gospels** tell the story that Mary did not *conceive *her son in the usual way:
+- The **gospels** tell the story that Mary did not *conceive* her son in the usual way:
 
   - Mary was a **virgin**, engaged to a man called Joseph
   - The **angel Gabriel **appeared to Mary to tell her that she would **conceive** and **give birth** to a child who would be the **Son of God** (Luke 1:35)
@@ -290,7 +290,7 @@ guided_study: false
   - Use prayers such as the **Hail Mary** to show this respect
   - Believe that Mary has **appeared** at certain times and places to give special messages to humanity
   
-    - Catholics may go on a* pilgrimage* to these locations, such as **Lourdes** in France
+    - Catholics may go on a *pilgrimage* to these locations, such as **Lourdes** in France
 
 > **Worked Example**
 > Give two events that happened at Gethsemane

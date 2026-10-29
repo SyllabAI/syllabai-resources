@@ -84,7 +84,7 @@ Use the **scale** to find the **actual distance** in the **same units**
 > 
 > > *Convert 17 mm into cm*
 > 
-> *17 mm = 1.7 cm  *
+> *17 mm = 1.7 cm*
 > 
 > > *Use the scale to find 1.7 cm on the map in real life*
 > 

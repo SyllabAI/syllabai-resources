@@ -53,7 +53,7 @@ $KE=\frac{1}{2}mv^{2}$
   - This is the** final kinetic energy **minus the** initial kinetic energy**
   - The formula for the **change in kinetic energy** is
 
-** **$\frac{1}{2}mv^{2}-\frac{1}{2}mu^{2}$
+** **$\frac{1}{2}mv^{2}-\frac{1}{2}\mu^{2}$
 
 where ***u***** **is the initial velocity and ** *****v*****  **is the final velocity
 

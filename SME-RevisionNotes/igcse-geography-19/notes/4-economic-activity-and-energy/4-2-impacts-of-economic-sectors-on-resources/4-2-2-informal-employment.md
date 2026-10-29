@@ -21,7 +21,7 @@ guided_study: false
 - It is estimated that more than 60% of the world's employed population work in informal employment
 - As much as 93% of informal employment is in developing and emerging countries
 
-  - Levels of* underemployment* and unemployment are high in these areas
+  - Levels of *underemployment* and unemployment are high in these areas
 - Most informal employment is work in the** tertiary sector**
 - Examples of jobs in the informal economy include:
 

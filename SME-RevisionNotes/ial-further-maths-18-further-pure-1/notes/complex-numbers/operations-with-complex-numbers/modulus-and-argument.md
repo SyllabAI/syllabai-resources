@@ -85,7 +85,7 @@ guided_study: false
   
     - $\left| z_{1} \right| = \sqrt{3^{2} + 4^{2}} = 5$ and $\vert z_{2} \vert = \sqrt{( - 3 )^{2} + 4^{2}} = 5$
     - so $\vert z_{1} \vert + \vert z_{2} \vert = 10$
-    - but $z_{1}+z_{2}=8i$ so `open vertical bar z subscript 1 plus z subscript 2 close vertical bar equals 8`
+    - but $z_{1}+z_{2}=8i$ so `open vertical bar z_ 1+z_ 2 close vertical bar=8`
 
 #### How do I find the argument of a complex number?
 
@@ -124,12 +124,12 @@ guided_study: false
 > 
 > ![The complex number 2 + 3i on an Argand diagram](assets/2dfed0898287-we-modulus-argument-example1.png)
 > 
-> > *Use *$\left| z \right| = \sqrt{x^{2} + y^{2}}$* (or Pythagoras) to find the modulus*
+> > *Use* $\left| z \right| = \sqrt{x^{2} + y^{2}}$ *(or Pythagoras) to find the modulus*
 > 
 > $\begin{gathered} \vert z \vert & = \sqrt{2^{2} + 3^{2}} \\ = \sqrt{13} \\ = 3.60555127... \end{gathered}$
 > 
-> > $z$* is in the first quadrant so the argument is positive and acute*
-> *Use trigonometry to find the argument *$θ$* in radians*
+> > $z$ *is in the first quadrant so the argument is positive and acute*
+> *Use trigonometry to find the argument* $θ$ *in radians*
 > 
 > $\begin{gathered} \tan \\theta & = \frac{3}{2} \\ \\theta = \tan ^{- 1} ( \frac{3}{2} ) \\ \\theta = 0.98279372... \end{gathered}$
 > 
@@ -144,16 +144,16 @@ guided_study: false
 > 
 > ![A complex number in the third quadrant on an Argand diagram](assets/1f974dc8caa1-we-modulus-argument-example2.png)
 > 
-> > *Use *$\left| z \right| = \sqrt{x^{2} + y^{2}}$* (or Pythagoras) to find the modulus*
+> > *Use* $\left| z \right| = \sqrt{x^{2} + y^{2}}$ *(or Pythagoras) to find the modulus*
 > 
 > $\begin{gathered} \vert z \vert & = \sqrt{( - 1 )^{2} + ( - \sqrt{3} )^{2}} \\ = \sqrt{4} \\ = 2 \end{gathered}$
 > 
-> > $z$* is in the third quadrant so the argument is negative and obtuse*
-> *Use trigonometry to first find *$α$* in radians*
+> > $z$ *is in the third quadrant so the argument is negative and obtuse*
+> *Use trigonometry to first find* $α$ *in radians*
 > 
 > $\begin{gathered} \tan \\alpha & = \frac{ \sqrt{3} }{1} \\ \\alpha = \tan ^{- 1} ( \sqrt{3} ) \\ \\alpha = \frac{\pi }{3} \end{gathered}$
 > 
-> > *Then find *$θ$* by subtracting *$α$* from 180° (*$π$* radians)*
+> > *Then find* $θ$ *by subtracting* $α$ *from 180° (*$π$ *radians)*
 > 
 > $\begin{gathered} \\theta = \pi - \\alpha \\ = \pi - \frac{\pi }{3} \\ = \frac{2 \pi }{3} \end{gathered}$
 > 
@@ -195,25 +195,25 @@ guided_study: false
 > **Worked Example**
 > Write $z=-4+4i$ in the exact form $r(\mathrm{cos}θ+i\mathrm{sin}θ)$ where $r>0$ and $-π<θ\leqπ$.
 > 
-> > *Draw a sketch to find the modulus, *$r$*, and argument, *$θ$*, of *$z$
+> > *Draw a sketch to find the modulus,* $r$*, and argument,* $θ$*, of* $z$
 > *Form a right-angled triangle*
 > 
 > ![The complex number -4+4i on an Argand diagram](assets/d7eccdab5267-we-modulus-argument-example3.png)
 > 
-> > *Use *$\left| z \right| = \sqrt{x^{2} + y^{2}}$* (or Pythagoras) to find the modulus*
+> > *Use* $\left| z \right| = \sqrt{x^{2} + y^{2}}$ *(or Pythagoras) to find the modulus*
 > 
 > $\begin{gathered} \vert z \vert & = \sqrt{( - 4 )^{2} + ( 4 )^{2}} \\ = \sqrt{32} \\ = 4 \sqrt{2} \end{gathered}$
 > 
-> > $z$* is in the second quadrant so the argument is positive and obtuse*
-> *Use trigonometry to first find *$α$* in radians*
+> > $z$ *is in the second quadrant so the argument is positive and obtuse*
+> *Use trigonometry to first find* $α$ *in radians*
 > 
 > $\begin{gathered} \tan \\alpha & = \frac{4}{4} \\ \\alpha = \tan ^{- 1} ( 1 ) \\ \\alpha = \frac{\pi }{4} \end{gathered}$
 > 
-> > *Then find *$θ$* by subtracting *$α$* from 180° (*$π$* radians)*
+> > *Then find* $θ$ *by subtracting* $α$ *from 180° (*$π$ *radians)*
 > 
 > $\begin{gathered} \\theta = \pi - \\alpha \\ = \pi - \frac{\pi }{4} \\ = \frac{3 \pi }{4} \end{gathered}$
 > 
-> > *Write the final answer in the form *$r(\mathrm{cos}θ+i\mathrm{sin}θ)$
+> > *Write the final answer in the form* $r(\mathrm{cos}θ+i\mathrm{sin}θ)$
 > 
 > $z = 4 \sqrt{2} ( \cos ( \frac{3 \pi }{4} ) + \mathrm{i} \sin ( \frac{3 \pi }{4} ) )$
 > 

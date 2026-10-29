@@ -54,7 +54,7 @@ guided_study: true
 
 ### How do I find the n<sup>th</sup> term formula for a simple cubic sequence?
 
-- The sequence with the *n *th term formula of** *****n***<sup>**3**</sup> is the **cube numbers **
+- The sequence with the *n* th term formula of** *****n***<sup>**3**</sup> is the **cube numbers **
 
   - 1, 8, 27, 64, 125, ...
   
@@ -72,12 +72,12 @@ guided_study: true
     - They are the cube numbers starting from 2<sup>3</sup>
 - You can also use **third differences** to help find the *n* th term $an^{3}+bn^{2}+cn+d$
 
-  - The value of * a*  is $\frac{1}{6}$ of the **third** difference
+  - The value of *a*  is $\frac{1}{6}$ of the **third** difference
   
     - e.g. the third difference of 8, 23, 62, 137, 260, ... is 12
   - You can then subtract *an*<sup>3</sup> from the sequence and find the *n*th term of the differences
   
-    - e.g. (8, 23, 62, 137, 260, ...) - (2, 16, 54, 128, 250, ... ) is (6, 7, 8, 9, 10, ...) which has *n*th term *n *+ 5
+    - e.g. (8, 23, 62, 137, 260, ...) - (2, 16, 54, 128, 250, ... ) is (6, 7, 8, 9, 10, ...) which has *n*th term *n* + 5
     - So the nth term is 2*n*<sup>3</sup> + *n* + 5
 
 ### What is an exponential (geometric) sequence?
@@ -92,7 +92,7 @@ guided_study: true
 
 ### How do I find the n<sup>th</sup> term formula for a simple exponential sequence?
 
-- The sequence with the *n *th term formula of** *****r***<sup>***n***</sup> is the **powers **of *r*
+- The sequence with the *n* th term formula of** *****r***<sup>***n***</sup> is the **powers **of *r*
 
   - e.g. 2, 4, 8, 16, 32, ... has formula 2<sup>*n*</sup>
 - Finding the ***n *****th term formula** of other exponential sequences comes from **comparing** them to the powers of the multiplier, *r*<sup>*n*</sup>
@@ -158,7 +158,7 @@ guided_study: true
 > 
 > *5, 19, 57, 131, 253, ...*
 > 
-> > *The cube numbers (with **n*<sup>*th*</sup>* term formula *$n^{3}$*) are doubled then 3 is added*
+> > *The cube numbers (with **n*<sup>*th*</sup> *term formula* $n^{3}$*) are doubled then 3 is added*
 > 
 > **The ****n**<sup>**th**</sup>** term formula is **$2n^{3}+3$
 > 
@@ -190,7 +190,7 @@ guided_study: true
 > **Answer:**
 > 
 > > *This sequence is a fraction formed by dividing the sequence in part (a) by the sequence in part (b)*
-> *Divide their **n*<sup>*th*</sup>* term formulas*
+> *Divide their **n*<sup>*th*</sup> *term formulas*
 > 
 > **Final answer:** **The ****n**<sup>**th**</sup>** term formula is **$\frac{2n^{3}+3}{4\times5^{n-1}}$
 
@@ -203,7 +203,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *As this is an exponential sequence, each term is multiplied by the common ratio, *$r$*, to get the next term*
+> > *As this is an exponential sequence, each term is multiplied by the common ratio,* $r$*, to get the next term*
 > 
 > > *Consider the first two terms*
 > 
@@ -214,37 +214,37 @@ guided_study: true
 > $\begin{gathered} 2 x \times r & = x^{2} \\ r = \frac{x^{2}}{2 x} \end{gathered}$
 > 
 > > *This is a pair of simultaneous equations*
-> *They can be solved by substituting one into the other (replacing *$r$*)*
+> *They can be solved by substituting one into the other (replacing* $r$*)*
 > 
 > $\frac{2x}{x-1}=\frac{x^{2}}{2x}$
 > 
-> > *Multiply both sides by *$2x$
+> > *Multiply both sides by* $2x$
 > 
 > $\frac{4x^{2}}{x-1}=x^{2}$
 > 
-> > *Multiply both sides by *$x-1$*, and expand*
+> > *Multiply both sides by* $x-1$*, and expand*
 > 
 > $4 x^{2} = x^{2} ( x - 1 )
 > 4 x^{2} = x^{3} - x^{2}$
 > 
-> > *Subtract *$4x^{2}$* from both sides and factorise*
+> > *Subtract* $4x^{2}$ *from both sides and factorise*
 > 
 > $0 = x^{3} - 5 x^{2}
 > 0 = x^{2} ( x - 5 )$
 > 
 > > *Solve*
 > 
-> $\begin{gathered} x^{2} & = 0 \end{gathered}$* so *$\begin{gathered} x = 0 \end{gathered}$
+> $\begin{gathered} x^{2} & = 0 \end{gathered}$ *so* $\begin{gathered} x = 0 \end{gathered}$
 > *or*
-> $\begin{gathered} ( x - 5 ) & = 0 \end{gathered}$* so *$\begin{gathered} x = 5 \end{gathered}$
+> $\begin{gathered} ( x - 5 ) & = 0 \end{gathered}$ *so* $\begin{gathered} x = 5 \end{gathered}$
 > 
-> > *You are told *$x\neq0$* so *$x=5$
-> *Substitute this into the original sequence,  *$x-1,2x,x^{2}$
+> > *You are told* $x\neq0$ *so* $x=5$
+> *Substitute this into the original sequence,* $x-1,2x,x^{2}$
 > 
 > $( 5 - 1 ) , 2 ( 5 ) , 5^{2}
 > = 4 , 10 , 25$* *
 > 
-> > *Find the common ratio *$r$* (for example, by dividing a term by its previous term)*
+> > *Find the common ratio* $r$ *(for example, by dividing a term by its previous term)*
 > 
 > $\frac{10}{4}=2.5$
 > 

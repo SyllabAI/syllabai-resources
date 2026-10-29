@@ -125,7 +125,7 @@ $p V = 1 \frac{1}{3} N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \te
   - $m$ = mass of one molecule (kg)
   - `< c ^2 >` = mean square speed of the molecules (m<sup>2</sup> s<sup>–2</sup>)
 
-- This can also be written using the density *ρ *of the gas:
+- This can also be written using the density *ρ* of the gas:
 
 $ρ=\frac{\mathrm{mass}}{\mathrm{volume}}=\frac{Nm}{V}$
 

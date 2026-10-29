@@ -30,7 +30,7 @@ guided_study: true
     - Because if two things multiply together to give zero,
     
       - then one or the other of them must be equal to zero
-- To solve `open parentheses x minus 3 close parentheses open parentheses x plus 7 close parentheses equals 0`
+- To solve `(x−3)(x+7)=0`
 
   - …solve **first bracket = 0**:
   
@@ -50,7 +50,7 @@ guided_study: true
 
   - There's a bit more work to find the solutions
   - You can't just write down the answers by changing the signs
-- To solve `open parentheses 2 x minus 3 close parentheses open parentheses 3 x plus 5 close parentheses equals 0`
+- To solve `(2x−3)(3x+5)=0`
 
   - …solve **first bracket = 0**
   
@@ -70,7 +70,7 @@ guided_study: true
 
   - Just be sure to handle the *x* correctly
   - That '*x* as a factor' gives one of the solutions
-- To solve `x open parentheses x minus 4 close parentheses equals 0`
+- To solve `x (x−4)=0`
 
   - it may help to think of *x* as (*x* – 0) or (*x*)
   - …solve **first bracket = 0**
@@ -80,7 +80,7 @@ guided_study: true
   
     - *x* – 4 = 0
     - add 4 to both sides: *x* = 4
-  - The** two solutions** are* x* = 0 or *x *= 4
+  - The** two solutions** are *x* = 0 or *x* = 4
 - It is a common **mistake** to divide (cancel) both sides by *x* at the beginning
 
   - If you do this you will **lose a solution** (the *x* = 0 solution)
@@ -88,7 +88,7 @@ guided_study: true
 > **Exam Hint**
 > Your calculator might be able to solve quadratics. If it does, then you can use this to help you to factorise the quadratic.
 > 
-> For example, a calculator gives solutions to $6x^{2}+x-2=0$ as  $x=-\frac{2}{3}$  and $x=\frac{1}{2}$. You can rearrange these solutions to get zero on one side, $3x+2=0$ and $2x-1=0$. The left-hand side expressions are two factors,`6 x squared plus x minus 2 equals open parentheses 3 x space plus space 2 close parentheses open parentheses 2 x space minus space 1 close parentheses`.
+> For example, a calculator gives solutions to $6x^{2}+x-2=0$ as  $x=-\frac{2}{3}$  and $x=\frac{1}{2}$. You can rearrange these solutions to get zero on one side, $3x+2=0$ and $2x-1=0$. The left-hand side expressions are two factors,`6x²+x−2=(3x+2)(2x−1)`.
 
 > **Worked Example**
 > (a) Solve $x^{2}+3x-10=0$ by factorising.

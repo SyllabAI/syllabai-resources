@@ -105,7 +105,7 @@ guided_study: false
 > - More secure **[1]**
 > - Password not needed **[1]**
 > 
-> B.* Any two from: *
+> B. *Any two from:*
 > 
 > - Can move around (while transferring data) **[1]**
 > - Does not have to waste time finding / connecting cables **[1]**

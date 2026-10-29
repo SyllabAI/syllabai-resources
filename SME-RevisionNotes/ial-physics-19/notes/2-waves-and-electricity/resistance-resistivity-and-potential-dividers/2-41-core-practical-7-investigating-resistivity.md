@@ -69,9 +69,9 @@ guided_study: false
 
 - Where:
 
-  - *R *= average resistance of the length of the wire (Ω)
+  - *R* = average resistance of the length of the wire (Ω)
   - *V* = potential difference across the circuit (V)
-  - *I *= the average current through the wire for the chosen length (A)
+  - *I* = the average current through the wire for the chosen length (A)
 
 - An example of a table of results might look like this:
 
@@ -86,7 +86,7 @@ guided_study: false
 - Where:
 
   - *ρ* = resistivity (Ω m)
-  - *R = *resistance (Ω)
+  - *R =* resistance (Ω)
   - *A* = cross-sectional area of the wire (m<sup>2</sup>)
   - *L* = length of wire (m)
 - Rearranging for the resistance, *R,* gives:

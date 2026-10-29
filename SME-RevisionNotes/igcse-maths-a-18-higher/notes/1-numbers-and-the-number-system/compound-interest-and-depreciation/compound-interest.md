@@ -117,7 +117,7 @@ guided_study: false
 > `bold $ bold 1579`
 > 
 > **Method 2**
-> *Using the formula for the final amount   *$P ( 1 + \frac{r}{100} )^{n }$
+> *Using the formula for the final amount* $P ( 1 + \frac{r}{100} )^{n }$
 > *Substitute **P** is 1200, **r** = 4 and **n** = 7 into the formula *
 > 
 > $1200 ( 1 + \frac{4}{100} )^{7}$

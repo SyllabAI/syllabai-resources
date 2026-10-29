@@ -66,7 +66,7 @@ guided_study: true
   - the *IV* graph is not a straight line, so voltage and current do **not **increase (or decrease) by the same amount
   - the resistance **changes**
 
-- The *IV *graph for a filament lamp shows as voltage increases
+- The *IV* graph for a filament lamp shows as voltage increases
 
   - the current increases at a proportionally **slower **rate
   - the resistance **increases**
@@ -134,7 +134,7 @@ guided_study: true
 
   - The **voltmeter** is used to measure the voltage across the filament lamp / diode
 
-- Recording measurements of current and voltage as the current increases enables an *IV *graph to be plotted for each component
+- Recording measurements of current and voltage as the current increases enables an *IV* graph to be plotted for each component
 
 ## Resistance
 

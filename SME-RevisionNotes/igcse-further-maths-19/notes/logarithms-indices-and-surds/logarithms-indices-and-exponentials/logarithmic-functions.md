@@ -21,7 +21,7 @@ guided_study: false
 
 - A **logarithm** is the **inverse of an exponent**
 
-  - If  $a^{x}=b$  then  `log subscript a open parentheses b close parentheses equals x`,  where  $a>0,b>0,a\neq1$
+  - If  $a^{x}=b$  then  `log_ a (b)=x`,  where  $a>0,b>0,a\neq1$
   
     - This is the essential **definition** of a logarithm
     - The number $a$ is called the **base** of the logarithm
@@ -33,11 +33,11 @@ guided_study: false
 
 - Two important **special cases** are:
 
-  - `ln space x equals log subscript straight e open parentheses x close parentheses`
+  - `ln x=log_ straight e (x)`
   
     - Where $e$ is the mathematical constant 2.718…
     - This is called the **natural logarithm** and will have its own button on your calculator
-  - `log space x equals log subscript 10 open parentheses x close parentheses`
+  - `log x=log_ 10 (x)`
   
     - Logarithms of **base 10** are frequently used
     - They are often abbreviated simply as $\mathrm{log}x$
@@ -69,7 +69,7 @@ $x=3.321928...$
 > i) $x=\mathrm{log}_{3}27$,
 > *Use the definition of a logarithm to rewrite this as an exponential equation*
 > 
-> > *Remember, this equation means "*$x$* is the power that you raise 3 to, to get 27"*
+> > *Remember, this equation means "*$x$ *is the power that you raise 3 to, to get 27"*
 > 
 > $3^{x}=27$
 > 
@@ -83,7 +83,7 @@ $x=3.321928...$
 > 
 > > *Use the definition of a logarithm to rewrite this as a logarithm equation*
 > 
-> > *We want the logarithm that means "*$x$* is the power that you raise 2 to, to get 21.4"*
+> > *We want the logarithm that means "*$x$ *is the power that you raise 2 to, to get 21.4"*
 > 
 > $x=\mathrm{log}_{2}21.4$
 > 
@@ -112,7 +112,7 @@ $x=3.321928...$
 - Its **range** is the set of **all real numbers**
 - $\mathrm{log}_{a}x$ and $a^{x}$ are **inverse** functions
 
-  - `log subscript a open parentheses a to the power of x close parentheses equals x`  and  $a^{\mathrm{log}_{a}x}=x$
+  - `log_ a (a^x)=x`  and  $a^{\mathrm{log}_{a}x}=x$
 
 ### What are the key features of logarithmic graphs?
 
@@ -129,13 +129,13 @@ $x=3.321928...$
 > **Worked Example**
 > On the same set of axes, sketch the graphs of  $y=\mathrm{log}_{3}x$  and  $y=3^{x}$.  Be sure to label any axis intercepts.
 > 
-> > $y=\mathrm{log}_{3}x$* will have the typical logarithmic graph shape*
-> *The *$y$*-axis is an asymptote, and the *$x$*-intercept is *`open parentheses 1 comma 0 close parentheses`
+> > $y=\mathrm{log}_{3}x$ *will have the typical logarithmic graph shape*
+> *The* $y$*-axis is an asymptote, and the* $x$*-intercept is* `(1 comma 0)`
 > 
-> > $y=3^{x}$* will have the typical exponential graph shape*
-> *The *$x$*-axis is an asymptote, and the *$y$*-intercept is *`open parentheses 0 comma space 1 close parentheses`
+> > $y=3^{x}$ *will have the typical exponential graph shape*
+> *The* $x$*-axis is an asymptote, and the* $y$*-intercept is* `(0 comma 1)`
 > 
-> > $\mathrm{log}_{3}x$* and *$3^{x}$*are inverse functions*
-> *Therefore their graphs will be reflections of each other in the line *$y=x$
+> > $\mathrm{log}_{3}x$ *and* $3^{x}$*are inverse functions*
+> *Therefore their graphs will be reflections of each other in the line* $y=x$
 > 
 > ![Graph of y=log_3(x) and  y=3^x](assets/c369ff4e970c-e5cmixl7-picture3.png)

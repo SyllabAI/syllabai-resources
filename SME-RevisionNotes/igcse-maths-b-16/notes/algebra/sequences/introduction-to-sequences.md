@@ -64,7 +64,7 @@ guided_study: false
 - You can jump straight to the 100<sup>th</sup> term by substituting in *n*  = 100
 
   - You do not need to find all 99 previous terms
-- For example, the *n *th term is 8*n*  + 2
+- For example, the *n* th term is 8*n*  + 2
 
   - The 1st term is 8×1 + 2 = 10
   - The 2nd term is 8×2 + 2 = 18
@@ -72,10 +72,10 @@ guided_study: false
 
 ### How do I know if a value belongs to a sequence?
 
-- If you know the *n *th term formula, set the value equal to the formula
+- If you know the *n* th term formula, set the value equal to the formula
 
-  - This creates an **equation** to** solve **for* n*
-- For example, a sequence has the *n *th term formula 8*n * + 2
+  - This creates an **equation** to** solve **for *n*
+- For example, a sequence has the *n* th term formula 8*n * + 2
 
   - Is 98 in the sequence?
   $\begin{gathered} 8 n + 2 & = 98 \\ 8 n & = 96 \\ n = \frac{96}{8} \\ n = 12 \end{gathered}$
@@ -138,6 +138,6 @@ guided_study: false
 > $\begin{array}{rcl} 3 n & = 96 - 2 \\ 3 n & = 94 \\ n = \frac{94}{3} \end{array}$
 > 
 > > *94 is not divisible by 3*
-> *The nearest possible value is 95 ((95-2) ÷ 3 = 31, the 31*<sup>*st*</sup>* term)*
+> *The nearest possible value is 95 ((95-2) ÷ 3 = 31, the 31*<sup>*st*</sup> *term)*
 > 
 > **Final answer:** **96 is not in the sequence**

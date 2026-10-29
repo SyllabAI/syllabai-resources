@@ -49,8 +49,8 @@ guided_study: false
 > **Step 2: Equate the kinetic energy gained by the electron to the energy transferred across the potential difference**
 > 
 > - Potential difference *V* is the energy transferred *W* per unit of charge *Q*, or $V=\frac{W}{Q}$
-> - Since the charge in this case is an electron, *Q* = *e* and so *W *= *eV*
-> - Therefore, the kinetic energy gained is equal to *eV *so we can write:
+> - Since the charge in this case is an electron, *Q* = *e* and so *W* = *eV*
+> - Therefore, the kinetic energy gained is equal to *eV* so we can write:
 > 
 > $\frac{1}{2}mv^{2}=eV$
 > 

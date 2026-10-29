@@ -339,7 +339,7 @@
   },
   {
    "type": "bullets",
-   "md": "- You may need to** rearrange** the equation $B=A\\timesk^{n}$\n\n  - To find $A$ giving $A=\\frac{B}{k^{n}}$\n  - To find $k$ giving $k^{n}=\\frac{B}{A}$ so `k equals n-th root of B over A end root`\n  - To find $n$, using **trial and improvement **\n  \n    - Test different whole-number values for $n$ until both sides of the equation balance"
+   "md": "- You may need to** rearrange** the equation $B=A\\timesk^{n}$\n\n  - To find $A$ giving $A=\\frac{B}{k^{n}}$\n  - To find $k$ giving $k^{n}=\\frac{B}{A}$ so `k=n-th root of B / A)`\n  - To find $n$, using **trial and improvement **\n  \n    - Test different whole-number values for $n$ until both sides of the equation balance"
   },
   {
    "type": "heading",
@@ -360,13 +360,13 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "An island has a population of 25 000 people.\n\nThe population increases exponentially by 4% every year.\n\nFind the population after 13 years, giving your answer to the nearest hundred.\n\n**Answer:**\n\n> *The question says “increases exponentially” so use *$B=A\\timesk^{n}$* where *$k>1$\n\n> $k$* comes from a percentage increase so add 0.04 to 1*\n\n$k=1+0.04$\n\n> *Substitute *$A$* = 25 000, *$k$* = 1.04 and *$n$* = 13 into the formula*\n\n$25000\\times1.04^{13}$* *\n\n> *Work out the value on your calculator*\n\n*41626.83…*\n\n> *Round to the nearest hundred*\n\n**Final answer:** **41 600 people**"
+   "md": "An island has a population of 25 000 people.\n\nThe population increases exponentially by 4% every year.\n\nFind the population after 13 years, giving your answer to the nearest hundred.\n\n**Answer:**\n\n> *The question says “increases exponentially” so use* $B=A\\timesk^{n}$ *where* $k>1$\n\n> $k$ *comes from a percentage increase so add 0.04 to 1*\n\n$k=1+0.04$\n\n> *Substitute* $A$ *= 25 000,* $k$ *= 1.04 and* $n$ *= 13 into the formula*\n\n$25000\\times1.04^{13}$* *\n\n> *Work out the value on your calculator*\n\n*41626.83…*\n\n> *Round to the nearest hundred*\n\n**Final answer:** **41 600 people**"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The temperature of a cup of coffee exponentially decays from 60°C by $r$% each hour. After 3 hours, the temperature is 18°C.\n\nFind the value of $r$ to 3 significant figures.\n\n**Answer:**\n\n> *The question says “exponentially decays” so use  *$B=A\\timesk^{n}$* where *$0<k<1$\n*Note that *$k$* is the multiplier (it is not equal to *$r$* in the question, but is related)*\n*Substitute *$A$* = 60 and *$n$* = 3 into the equation*\n\n$60\\timesk^{3}$\n\n> *The temperature after 3 hours is 18, so set the whole equation equal to 18*\n\n$60\\timesk^{3}=18$\n\n> *Solve this equation for *$k$\n*Start by dividing both sides by 60*\n\n$k^{3}=0.3$\n\n> *The left hand side is to the power of 3 (cubed)*\n*So cube-root both sides and write out lots of decimal places*\n\n`k equals cube root of 0.3 end root equals 0.669432950...`\n\n> *Find the percentage decrease represented by this number*\n*It may help to think of an example, e.g. *$k$* = 0.6 represents a decrease of 40%*\n\n$1-0.669432950...=0.3305670499...$\n\n> *It represents a decrease by 33.05670...%*\n*Round to 3 significant figures*\n\n**Final answer:** $r$** = 33.1**"
+   "md": "The temperature of a cup of coffee exponentially decays from 60°C by $r$% each hour. After 3 hours, the temperature is 18°C.\n\nFind the value of $r$ to 3 significant figures.\n\n**Answer:**\n\n> *The question says “exponentially decays” so use* $B=A\\timesk^{n}$ *where* $0<k<1$\n*Note that* $k$ *is the multiplier (it is not equal to* $r$ *in the question, but is related)*\n*Substitute* $A$ *= 60 and* $n$ *= 3 into the equation*\n\n$60\\timesk^{3}$\n\n> *The temperature after 3 hours is 18, so set the whole equation equal to 18*\n\n$60\\timesk^{3}=18$\n\n> *Solve this equation for* $k$\n*Start by dividing both sides by 60*\n\n$k^{3}=0.3$\n\n> *The left hand side is to the power of 3 (cubed)*\n*So cube-root both sides and write out lots of decimal places*\n\n`k=∛(0.3)=0.669432950...`\n\n> *Find the percentage decrease represented by this number*\n*It may help to think of an example, e.g.* $k$ *= 0.6 represents a decrease of 40%*\n\n$1-0.669432950...=0.3305670499...$\n\n> *It represents a decrease by 33.05670...%*\n*Round to 3 significant figures*\n\n**Final answer:** $r$** = 33.1**"
   }
  ]
 }

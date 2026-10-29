@@ -51,7 +51,7 @@ guided_study: true
 > 
 > $\begin{gathered} x + y + 98 & = 180 \\ 25 + y + 98 & = 180 \\ 123 + y & = 180 \end{gathered}$
 > 
-> > *Solve to find *$y$
+> > *Solve to find* $y$
 > 
 > $y=180-123\,y=57$
 > 

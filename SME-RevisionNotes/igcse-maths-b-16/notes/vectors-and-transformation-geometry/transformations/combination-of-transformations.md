@@ -46,7 +46,7 @@ guided_study: true
   - A translation is described by a vector in the form $( x
  y )$
   
-    - This represents a movement of *x* units to the right and *y *units vertically upwards
+    - This represents a movement of *x* units to the right and *y* units vertically upwards
 
 ![A shape translated 4 units left and 5 units upwards](../../../assets/f13a834dc785-4074-combination-of-transformations-3.png)
 
@@ -92,9 +92,9 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The line *$y=0$* is the *$x$*-axis*
+> > *The line* $y=0$ *is the* $x$*-axis*
 > 
-> > *Measure the perpendicular distance (the vertical distance) between each vertex on the original object and the *$x$*-axis, then measure the same distance on the other side of the mirror line and mark on the corresponding vertex on the reflected image*
+> > *Measure the perpendicular distance (the vertical distance) between each vertex on the original object and the* $x$*-axis, then measure the same distance on the other side of the mirror line and mark on the corresponding vertex on the reflected image*
 > 
 > > *Repeat this for all of the vertices and join them together to create the reflected image*
 > 
@@ -106,7 +106,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The object (F) and image (F'') are reflections of each other in the *$y$*-axis*
+> > *The object (F) and image (F'') are reflections of each other in the* $y$*-axis*
 > 
 > ![Combined Q1 Final Final Answer, IGCSE & GCSE Maths revision notes](assets/bde069589dbd-62883-combination-of-transformations-7.png)
 > 

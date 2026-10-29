@@ -53,7 +53,7 @@ guided_study: true
 > 
 > - For answer option **C**
 > 
-> `anticlockwise space moment space equals space 25 space cross times space open parentheses 0.5 space plus space 0.3 close parentheses space equals space 20 space straight N space straight m`
+> `anticlockwise moment=25×(0.5+0.3)=20 straight N straight m`
 > 
 > **Step 4: Determine if the beam is in equilibrium**
 > 

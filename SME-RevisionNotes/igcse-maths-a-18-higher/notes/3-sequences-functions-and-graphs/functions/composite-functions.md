@@ -105,7 +105,7 @@ guided_study: false
 > **Answer:**
 > 
 > > *"f" is on the inside of the composite function so substitute the function f(**x**) into g(**x**)*
-> *It can help to write *$\text{gf} ( x ) = \mathrm{g} ( \mathrm{f} ( x ) )$
+> *It can help to write* $\text{gf} ( x ) = \mathrm{g} ( \mathrm{f} ( x ) )$
 > 
 > * *$\text{gf} ( x ) = \mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( 2 x - 1 ) = ( ( 2 x - 1 ) + 2 )^{2}$
 > 

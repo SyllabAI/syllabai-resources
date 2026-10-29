@@ -67,12 +67,12 @@ If you're asked for the output, make sure it’s written exactly as it would app
 | 2. **Use the trace table provided** |   |
 | - The trace table includes 15 rows, one for each step where a variable changes<br>- You should use a new row whenever a variable or output changes<br>- If you only use 5–6 rows, something’s probably missing |   |
 | 3. **Work line by line** |   |
-| `03 WHILE count ≤ 3` | `count`* = 1 → loop runs* |
-| `04 number ← INPUT` | *User inputs *`12` |
+| `03 WHILE count ≤ 3` | `count` *= 1 → loop runs* |
+| `04 number ← INPUT` | *User inputs* `12` |
 | `05 IF number > 10 THEN` | *12 > 10 → go to line 6* |
-| `06 total ← total + number` | `total`* becomes 12* |
-| `08 count ← count + 1` | `count`* becomes 2* |
-| `03 WHILE count ≤ 3` | `count`* = 2 → loop runs* |
+| `06 total ← total + number` | `total` *becomes 12* |
+| `08 count ← count + 1` | `count` *becomes 2* |
+| `03 WHILE count ≤ 3` | `count` *= 2 → loop runs* |
 | 4. **Watch out for variable resets** |   |
 | - `number` changes each time new input is entered<br>- `total` only changes if the input is greater than 10<br>- `count` increases on every loop<br>- There are **no nested loops**, so trace line by line in order |   |
 | 5. **Show the final output clearly** |   |

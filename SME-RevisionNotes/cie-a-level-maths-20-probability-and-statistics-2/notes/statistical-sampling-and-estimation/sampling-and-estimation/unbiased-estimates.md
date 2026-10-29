@@ -58,7 +58,7 @@ guided_study: true
 
   - You can use the square root of your unbiased estimate for the population variance
   
-    - `s = sqrt( ( capital sigma ( x - x -bar ) ^2)/(n - 1) ) = sqrt( (1)/(n - 1) ( capital sigma x ^2 - ( capital sigma x ) ^2 / n ) )`
+    - `s=sqrt((capital σ (x - x -bar) ^2)/(n - 1))=sqrt((1)/(n - 1)(capital σ x ^2 - (capital σ x) ^2 / n))`
   - This **won’t be unbiased** but it will be a good estimate
 
 #### How do I calculate unbiased estimates?

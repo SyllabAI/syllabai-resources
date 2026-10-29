@@ -78,8 +78,8 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *To get started, choose a value of *$P$* that is both a multiple of 30 and 40, e.g. 120*
-> *Now plot the objective line with equation *$120=30x+40y$
+> > *To get started, choose a value of* $P$ *that is both a multiple of 30 and 40, e.g. 120*
+> *Now plot the objective line with equation* $120=30x+40y$
 > *Rearrange if you prefer, but by choosing a multiple of 30 and 40, it is easy to see this line will pass through the points (0, 3) and (4, 0)*
 > 
 > ![picture-2](assets/90d0fcf09160-picture-2.png)
@@ -169,7 +169,7 @@ Determine which set of decision variables lead to the **maximum** or **minimum**
 > $x+4y=17,x+y=8\,x=8-y\,8-y+4y=17\,3y=9\,y=3,x=8-3=5\,(5,3)$
 > 
 > - *STEP 2*
-> *Find *$P=2x+5y$* for each pair of *$x$* and *$y$* values*
+> *Find* $P=2x+5y$ *for each pair of* $x$ *and* $y$ *values*
 > *Writing them out in a table can help keep track and make the optimal solution stand out*
 > 
 > | $x$ | $y$ | $P=2x+5y$ |
@@ -181,6 +181,6 @@ Determine which set of decision variables lead to the **maximum** or **minimum**
 > | *5* | *3* | *2 × 5 + 5 × 3 = 25* |
 > 
 > - *STEP 3*
-> *The maximum value is 25, which occurs when *$x=5$* and *$y=3$
+> *The maximum value is 25, which occurs when* $x=5$ *and* $y=3$
 > 
 > **Final answer:** **The optimal solution is **$x=5,y=3$** giving a maximum value of **$P=25$

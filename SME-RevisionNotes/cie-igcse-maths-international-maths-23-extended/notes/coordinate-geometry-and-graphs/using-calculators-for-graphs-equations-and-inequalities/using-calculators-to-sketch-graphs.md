@@ -25,7 +25,7 @@ guided_study: true
   - On some models you will need to select **graph mode** in the menu
 - Enter the **equation **of the function on the line **f(x)= **
 
-  - This is the function, `straight f open parentheses x close parentheses`
+  - This is the function, `straight f (x)`
   - On other models it may be labelled as **f1(x)=** or **Y1:**
 - Press **enter** or **EXE** and the graph should appear
 
@@ -44,7 +44,7 @@ guided_study: true
 - **Zeros (or roots):** these are the ***x*****-intercepts**
 
   - You may have to click before and after the *x*-intercept you require so that the calculator knows **where to search**
-  - **y-intercepts **can be found **without a calculator** by substituting $x=0$ into `straight f open parentheses x close parentheses`
+  - **y-intercepts **can be found **without a calculator** by substituting $x=0$ into `straight f (x)`
   
     - though some models do include a **Y-ICEPT** button which can be used
 - **Maximum or minimum points:** these are the coordinates of the **highest point** and **lowest point** on the graph
@@ -101,7 +101,7 @@ guided_study: true
 > **Worked Example**
 > (a) Draw the graph of $y=2x^{2}-4x-6$ on your calculator and use it to sketch the curve on the axes provided, showing coordinates of all axes intercepts and any maximum or minimum points.
 > 
-> > *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 2 x squared minus 4 x minus 6`* to generate the graph*
+> > *Start a new graph on your calculator and enter* `straight f (x)=2x²−4x−6` *to generate the graph*
 > *This shows the curve has a minimum point (not a maximum point)*
 > 
 > > *Select the option to "analyze" the graph (this may be labelled as G-Solv)*
@@ -109,7 +109,7 @@ guided_study: true
 > *Choose the option "minimum" (or equivalent) to find the coordinates of the minimum point*
 > 
 > > *The question asks for all axes intercepts, so this includes the **y**-intercept*
-> *Substitute *$x=0$* into *`straight f open parentheses x close parentheses equals 2 x squared minus 4 x minus 6`* to get -6 *
+> *Substitute* $x=0$ *into* `straight f (x)=2x²−4x−6` *to get -6*
 > *(or you can use the Y-ICEPT button on some models)*
 > 
 > > *Show all the above information on a sketch using coordinates*

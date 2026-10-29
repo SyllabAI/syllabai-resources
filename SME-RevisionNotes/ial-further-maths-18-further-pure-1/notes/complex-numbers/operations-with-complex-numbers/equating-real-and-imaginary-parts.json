@@ -146,7 +146,7 @@
    "alt": "p"
   },
   {
-   "latex": "z_{1}=p+pi",
+   "latex": "z_{1}=p+\\pi",
    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><mi>p</mi><mo>+</mo><mi>p</mi><mi mathvariant=\"normal\">i</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
    "alt": "z subscript 1 equals p plus p straight i"
   },
@@ -331,7 +331,7 @@
   },
   {
    "type": "bullets",
-   "md": "- If $z=x+yi$ then $\\vert z \\vert = \\sqrt{x^{2} + y^{2}}$\n- Helpful** modulus rules **are:\n\n  - $\\vert z_{1} z_{2} \\vert = \\vert z_{1} \\vert \\vert z_{2} \\vert$\n  - `| z _ 1 / z _ 2 | = (| z _ 1 |)/(| z _ 2 |)`\n  - $\\vert z \\vert = \\vert z \\text{asterisk} \\times \\vert$\n  - $z z \\text{asterisk} \\times = z \\text{asterisk} \\times z = \\vert z \\vert^{2}$\n  \n    - Proved using $z=x+yi$ and $z\\ast=x-yi$\n- For example, find $p$ if $z_{1}=p+pi$, $z_{2}=2i$ and $\\vert z_{1} z_{2} \\vert = 6 \\sqrt{2}$\n\n  - Use $\\vert z_{1} z_{2} \\vert = \\vert z_{1} \\vert \\vert z_{2} \\vert$\n  \n    - $\\vert p + p \\mathrm{i} \\vert \\vert 2 \\mathrm{i} \\vert = 6 \\sqrt{2}$\n  - Use $\\vert z \\vert = \\sqrt{x^{2} + y^{2}}$\n  \n    - $\\sqrt{p^{2}+p^{2}}\\times2=6\\sqrt{2}$ so $2\\sqrt{2p^{2}}=6\\sqrt{2}$\n  - **Square both sides** and simplify\n  \n    - $p^{2}=9$\n    - $p=\\pm3$"
+   "md": "- If $z=x+yi$ then $\\vert z \\vert = \\sqrt{x^{2} + y^{2}}$\n- Helpful** modulus rules **are:\n\n  - $\\vert z_{1} z_{2} \\vert = \\vert z_{1} \\vert \\vert z_{2} \\vert$\n  - `| z _ 1 / z _ 2 | = (| z _ 1 |)/(| z _ 2 |)`\n  - $\\vert z \\vert = \\vert z \\text{asterisk} \\times \\vert$\n  - $z z \\text{asterisk} \\times = z \\text{asterisk} \\times z = \\vert z \\vert^{2}$\n  \n    - Proved using $z=x+yi$ and $z\\ast=x-yi$\n- For example, find $p$ if $z_{1}=p+\\pi$, $z_{2}=2i$ and $\\vert z_{1} z_{2} \\vert = 6 \\sqrt{2}$\n\n  - Use $\\vert z_{1} z_{2} \\vert = \\vert z_{1} \\vert \\vert z_{2} \\vert$\n  \n    - $\\vert p + p \\mathrm{i} \\vert \\vert 2 \\mathrm{i} \\vert = 6 \\sqrt{2}$\n  - Use $\\vert z \\vert = \\sqrt{x^{2} + y^{2}}$\n  \n    - $\\sqrt{p^{2}+p^{2}}\\times2=6\\sqrt{2}$ so $2\\sqrt{2p^{2}}=6\\sqrt{2}$\n  - **Square both sides** and simplify\n  \n    - $p^{2}=9$\n    - $p=\\pm3$"
   },
   {
    "type": "callout",
@@ -343,7 +343,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Let $z$ and $w$ be complex numbers.\nIt is known that $w=5+2i$ and that $z^{2}+10w=zz\\ast$.\n\nFind the two possible values of $z$.\n\n> *Write *$z$* ** in the form *$x+yi$\n\n$z=x+yi$\n\n> *Substitute this, and *$w$*, into the equation*\n\n* *$( x + y \\mathrm{i} )^{2} + 10 ( 5 + 2 \\mathrm{i} ) = ( x + y \\mathrm{i} ) ( x - y \\mathrm{i} )$\n\n> *Expand the brackets and use *$i^{2}=-1$\n\n$x^{2}+2xyi+y^{2}i^{2}+50+20i=x^{2}-y^{2}i^{2}\\,x^{2}+2xyi-y^{2}+50+20i=x^{2}+y^{2}$\n\n> *Equate the real parts and solve for *$y$\n\n$\\begin{gathered} x^{2} - y^{2} + 50 & = x^{2} + y^{2} \\\\ 50 = 2 y^{2} \\\\ 25 = y^{2} \\\\ y = \\pm 5 \\end{gathered}$\n\n> *Now equate the imaginary parts and solve for *$x$\n*Note that there are no imaginary parts on the right*\n\n$\\begin{gathered} 2 x y + 20 & = 0 \\\\ x y & = - 10 \\\\ x = - \\frac{10}{y} \\end{gathered}$\n\n> *When *$y=5$*, then** *$x=-2$\n*When *$y=-5$*, then** *$x=2$\n*Substitute these back in to get *$z$\n\n**Final answer:** $-2+5i$** or **$2-5i$"
+   "md": "Let $z$ and $w$ be complex numbers.\nIt is known that $w=5+2i$ and that $z^{2}+10w=zz\\ast$.\n\nFind the two possible values of $z$.\n\n> *Write* $z$* ** in the form *$x+yi$\n\n$z=x+yi$\n\n> *Substitute this, and* $w$*, into the equation*\n\n* *$( x + y \\mathrm{i} )^{2} + 10 ( 5 + 2 \\mathrm{i} ) = ( x + y \\mathrm{i} ) ( x - y \\mathrm{i} )$\n\n> *Expand the brackets and use* $i^{2}=-1$\n\n$x^{2}+2xyi+y^{2}i^{2}+50+20i=x^{2}-y^{2}i^{2}\\,x^{2}+2xyi-y^{2}+50+20i=x^{2}+y^{2}$\n\n> *Equate the real parts and solve for* $y$\n\n$\\begin{gathered} x^{2} - y^{2} + 50 & = x^{2} + y^{2} \\\\ 50 = 2 y^{2} \\\\ 25 = y^{2} \\\\ y = \\pm 5 \\end{gathered}$\n\n> *Now equate the imaginary parts and solve for* $x$\n*Note that there are no imaginary parts on the right*\n\n$\\begin{gathered} 2 x y + 20 & = 0 \\\\ x y & = - 10 \\\\ x = - \\frac{10}{y} \\end{gathered}$\n\n> *When* $y=5$*, then** *$x=-2$\n*When* $y=-5$*, then** *$x=2$\n*Substitute these back in to get* $z$\n\n**Final answer:** $-2+5i$** or **$2-5i$"
   }
  ]
 }

@@ -94,7 +94,7 @@ guided_study: true
 
 ![Titration curve graph showing pH change versus volume of titrant. Marks for initial and final pH, equivalence point at 25 cm³, and acidic and alkaline regions.](../../../assets/4ce7ddc9a9bd-1-7-equilibria-strong-alkali-strong-acid.png)
 
-*The diagram shows a pH titration curve of sodium hydroxide with hydrochloric acid *
+*The diagram shows a pH titration curve of sodium hydroxide with hydrochloric acid*
 
 ### Strong acid + weak alkali pH titration curve
 

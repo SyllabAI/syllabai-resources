@@ -140,7 +140,7 @@ $T=\frac{1}{f}$
 > 
 > $T=\frac{1}{18}$ **[1 mark]**
 > 
-> `T space equals space 0.056 space s space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+> `T=0.056s (2 straight s. straight f.)` **[1 mark]**
 
 > **Exam Hint**
 > When stating equations make sure you use the right letters. For example, use $λ$ for wavelength, not L or W.

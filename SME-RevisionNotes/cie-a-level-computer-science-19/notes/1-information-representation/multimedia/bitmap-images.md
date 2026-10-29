@@ -52,7 +52,7 @@ guided_study: false
 
 ![Example 1 bit black and white image](../../../assets/52739045d7c6-1-bit-bitmap-image.png)
 
-- In an image with a **colour depth of 2**, you would have *00*, *01*, *10 *& *11 *available binary codes, so **4 colours**
+- In an image with a **colour depth of 2**, you would have *00*, *01*, *10* & *11* available binary codes, so **4 colours**
 
 ![Example 2 bit Mario image](../../../assets/2777a55bdbfd-2-bit-bitmap-image.png)
 

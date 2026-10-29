@@ -31,7 +31,7 @@ guided_study: false
   - Determine what $a$* *and $b$ are for your example
   - Then use the **formula** **for the binomial expansion**
   
-    - $( a + b )^{n = a^{n} + ( \begin{gathered} n \\ 1 \end{gathered} ) a^{n} - 1 } b + \text{horizontal} \text{ellipsis} + ( \begin{gathered} n \\ r \end{gathered} ) a^{n - r} b^{r} + \text{horizontal} \text{ellipsis} + b^{n}$
+    - $( a + b )^{n = a^{n} + ( \begin{gathered} n \\ 1 \end{gathered} ) a^{n} - 1 } b + \ldots + ( \begin{gathered} n \\ r \end{gathered} ) a^{n - r} b^{r} + \ldots + b^{n}$
   - $( \begin{gathered} n \\ r \end{gathered} )$  in the formula is known as the **binomial coefficient**
   
     - $( \begin{gathered} n \\ r \end{gathered} ) = \frac{n factorial}{r \text{factorial} ( n - r ) factorial} = \frac{n ( n - 1 )... ( n - r + 1 )}{r factorial}$
@@ -53,7 +53,7 @@ guided_study: false
   - Check whether the question wants **ascending** or **descending **powers of *x*
   
     - For **ascending **powers start with the constant term, $p^{n}$
-    - For **descending **powers start with the term with $x$*, *$( q x )^{n}$
+    - For **descending **powers start with the term with $x$*,* $( q x )^{n}$
     - Choosing $a$ and $b$ appropriately will make it easier to follow the formula above
 - If you are **not writing the full expansion** you can either
 
@@ -120,15 +120,15 @@ guided_study: false
 > **Worked Example**
 > Using the binomial expansion, find the complete expansion of  $( x + y )^{4}$.
 > 
-> > *Use the formula with *$a=x$*, *$b=y$* and *$n=4$
-> $r$* will run from 0 to 4, so there will be 5 terms*
+> > *Use the formula with* $a=x$*,* $b=y$ *and* $n=4$
+> $r$ *will run from 0 to 4, so there will be 5 terms*
 > 
 > $( x + y )^{4} = ( \begin{gathered} 4 \\ 0 \end{gathered} ) x^{4} + ( \begin{gathered} 4 \\ 1 \end{gathered} ) x^{3} y + ( \begin{gathered} 4 \\ 2 \end{gathered} ) x^{2} y^{2} + ( \begin{gathered} 4 \\ 3 \end{gathered} ) x y^{3} + ( \begin{gathered} 4 \\ 4 \end{gathered} ) y^{4}$
 > 
 > > *Now just work out the values of the binomial coefficients*
 > *You can use the formula, your calculator or Pascal's triangle*
 > 
-> > *Note that  *$( \begin{gathered} 4 \\ 0 \end{gathered} ) = ( \begin{gathered} 4 \\ 4 \end{gathered} ) = 1$
+> > *Note that* $( \begin{gathered} 4 \\ 0 \end{gathered} ) = ( \begin{gathered} 4 \\ 4 \end{gathered} ) = 1$
 > *That's why we usually don't bother writing the binomial coefficients for the first and last terms of an expansion!*
 > 
 > > $(x+y)^{4}=x^{4}+4x^{3}y+6x^{2}y^{2}+4xy^{3}+y^{4}$* *
@@ -136,11 +136,11 @@ guided_study: false
 > **Worked Example**
 > Find the first three terms, in ascending powers of $x$, in the expansion of $(3-2x)^{5}$.
 > 
-> > *For ascending powers of *$x$* we want to start with the constant term*
+> > *For ascending powers of* $x$ *we want to start with the constant term*
 > 
-> > *So we want to use the formula with *$a=3$*, *$b=-2x$*, and *$n=5$
+> > *So we want to use the formula with* $a=3$*,* $b=-2x$*, and* $n=5$
 > 
-> > *For the first three terms (constant term, *$x$* term  and *$x^{2}$* term) we want *$r$* from 0 to 2*
+> > *For the first three terms (constant term,* $x$ *term  and* $x^{2}$ *term) we want* $r$ *from 0 to 2*
 > 
 > > *Substitute those values into the formula*
 > 

@@ -21,7 +21,7 @@ guided_study: true
 
 - When there are **two unknowns** (***x***** and *****y***), we need **two equations** to find them both
 
-  - For example, 3*x* + 2*y *= 11 and 2*x* - *y *= 5
+  - For example, 3*x* + 2*y *= 11 and 2*x* - *y* = 5
   
     - The values that work for both equations at the same time are *x* = 3 and *y* = 1
 - These are called **linear** **simultaneous equations**
@@ -31,8 +31,8 @@ guided_study: true
 
 ### How do I solve linear simultaneous equations by elimination?
 
-- **Elimination** removes one of the variables, *x *or *y*
-- To eliminate the *x*'s from 3*x *+ 2*y* = 11 and 2*x* - *y *= 5, make the number in front of the *x* (the **coefficient**) in both equations the same (the sign may be different)
+- **Elimination** removes one of the variables, *x* or *y*
+- To eliminate the *x*'s from 3*x *+ 2*y* = 11 and 2*x* - *y* = 5, make the number in front of the *x* (the **coefficient**) in both equations the same (the sign may be different)
 
   - Multiply** every term** in the **first** equation **by 2**
   
@@ -49,13 +49,13 @@ guided_study: true
 - The *y*  terms have become 4*y *- (-3*y*) = 7*y *(be careful with **negatives**)
 
   - **Solve** the resulting equation to find *y*
-  - *y *= 1
-- Then **substitute** *y * = 1 into one of the **original **equations to find* x*
+  - *y* = 1
+- Then **substitute** *y* = 1 into one of the **original **equations to find *x*
 
   - 3*x* + 2 = 11, so 3*x *= 9, giving *x* = 3
-- Write out **both** **solutions** together, *x *= 3 and *y *= 1
+- Write out **both** **solutions** together, *x* = 3 and *y* = 1
 - **Alternatively**, you could have eliminated the *y*'s from 3*x *+ 2*y * = 11 and 
-2*x *- *y *= 5 by making the **coefficient** of *y* in both equations the same
+2*x *- *y* = 5 by making the **coefficient** of *y* in both equations the same
 
   - Multiply every term in the second equation by 2
   - **Adding** this to the first equation **eliminates *****y ***(and so on)
@@ -73,7 +73,7 @@ guided_study: true
     - You can still use elimination if you prefer
 - To solve 3*x *+ 2*y* = 11 and 2*x* - *y* = 5 by substitution
 
-  - **Rearrange** one of the equations into ***y***** =** ... (or *x *= ...)
+  - **Rearrange** one of the equations into ***y***** =** ... (or *x* = ...)
   
     - For example, the second equation becomes *y* = 2*x* - 5
   - **Substitute **this into the first equation
@@ -83,9 +83,9 @@ guided_study: true
   - **Solve** this equation to find *x*
   
     - *x* = 3
-  - Then **substitute** *x* = 3 into *y *= 2*x* - 5 to find *y*
+  - Then **substitute** *x* = 3 into *y* = 2*x* - 5 to find *y*
   
-    - *y *= 1
+    - *y* = 1
 
 ### How do I solve linear simultaneous equations graphically?
 
@@ -93,10 +93,10 @@ guided_study: true
 
   - To do this, you can use a **table of values**
   
-    - or rearrange into *y* = *mx* + *c  *if that helps
+    - or rearrange into *y* = *mx* + *c* if that helps
 - Find where the lines **intersect** (cross over)
 
-  - The *x *and *y ***solutions** to the simultaneous equations are the *x *and *y ***coordinates** of the point of **intersection**
+  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and* y ***coordinates** of the point of **intersection**
 - For example, to solve 2*x *- *y* = 3 and 3*x* + *y* = 7 simultaneously
 
   - First **plot** them both on the **same axes** (see graph)

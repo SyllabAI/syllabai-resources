@@ -461,7 +461,7 @@ Here, we will analyse key quotes grouped according to the following themes:
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

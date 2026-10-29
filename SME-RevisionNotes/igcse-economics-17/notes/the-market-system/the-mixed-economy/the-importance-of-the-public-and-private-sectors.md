@@ -34,7 +34,7 @@ guided_study: false
 |---|---|
 | **Provision of goods and services** | - A large public sector makes it easier to provide *public goods* efficiently<br>- This ensures that essential goods and services are accessible to all citizens, contributing to overall **standard of living**<br>- E.g China invests heavily in public infrastructure projects and healthcare and education for its citizens |
 | **Employment ** | - Many** jobs are guaranteed** by the state, providing employment<br>- In China, state-owned enterprises are major employers, offering job security |
-| **Reduce negative externalities** | - State control over key sectors allows governments to regulate and reduce *negative externalities *<br>- E.g Cuban government control over the economy enables it to regulate **environmental pollution** and ensure **sustainable development practices** |
+| **Reduce negative externalities** | - State control over key sectors allows governments to regulate and reduce *negative externalities* <br>- E.g Cuban government control over the economy enables it to regulate **environmental pollution** and ensure **sustainable development practices** |
 
 ## Comparison of Public Sector Sizes
 
@@ -57,7 +57,7 @@ Source: [France stratégie](https://www.strategie.gouv.fr/english-articles/publi
 
 - **Nordic countries**, such as Norway, Denmark, Sweden and Finland have larger numbers of employees in the public sector
 
-  - This indicates that their government allocate a considerable amount of government revenue towards the provision of *merit* and* public goods *
+  - This indicates that their government allocate a considerable amount of government revenue towards the provision of *merit* and *public goods*
   - These countries frequently rank at the** top of** **quality of life indexes**, as result of their excellent **education and healthcare systems**
 - In contrast, the **UK and USA **have a smaller number of employees in the public sector
 

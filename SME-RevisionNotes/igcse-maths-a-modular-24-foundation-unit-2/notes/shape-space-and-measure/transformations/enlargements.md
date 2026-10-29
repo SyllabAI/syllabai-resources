@@ -65,7 +65,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > *Count the number of squares in both a horizontal and vertical direction to go from the CoE to one of the vertices on the original object, this is 2 to the right and 3 up in this example.*
 > *As the scale factor is 2, multiply these distances by 2, so they become 4 to the right and 6 up.*
 > *Count these new distances from the CoE to the corresponding point on the enlarged image and mark it on.*
-> *Draw a line through the CoE and the pair of corresponding points, they should line up in a straight line. *
+> *Draw a line through the CoE and the pair of corresponding points, they should line up in a straight line.*
 > 
 > ![Enlargement-Q1-working, IGCSE & GCSE Maths revision notes](assets/88b1ed18664d-23475-enlargements-2.png)
 > 
@@ -163,11 +163,11 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > 
 > ![cie-igcse-core-fractional-enlargements-rn-we-a2-image](assets/4e41eb65c62f-63088-enlargements-7.png)
 > 
-> > *Multiply these distance by the scale factor, *$\frac{1}{2}$
+> > *Multiply these distance by the scale factor,* $\frac{1}{2}$
 > 
-> *6 'right *$\times\frac{1}{2}=3$* 'right'*
+> *6 'right* $\times\frac{1}{2}=3$ *'right'*
 > 
-> *2 'down' *$\times\frac{1}{2}=1$* 'down'*
+> *2 'down'* $\times\frac{1}{2}=1$ *'down'*
 > 
 > > *Count these new distances (which should be smaller than the originals) from the CoE to find the corresponding point on the new image and mark it on*
 > 
@@ -223,7 +223,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > > *We can see the image is smaller than the original so it is a **fractional enlargement*
 > *Compare two corresponding edges to find the scale factor - we've used the top edge*
 > 
-> *scale factor = *$\frac{\mathrm{new} \mathrm{edge}}{\mathrm{old} \mathrm{edge}}=\frac{2}{6}=\frac{1}{3}$
+> *scale factor =* $\frac{\mathrm{new} \mathrm{edge}}{\mathrm{old} \mathrm{edge}}=\frac{2}{6}=\frac{1}{3}$
 > 
 > > *Draw straight lines through corresponding vertices on the original shape*
 > *Repeat this 3-4 times and you should find the lines intersect at the same point*

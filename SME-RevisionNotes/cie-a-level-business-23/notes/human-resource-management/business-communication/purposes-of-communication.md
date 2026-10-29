@@ -64,7 +64,7 @@ guided_study: false
 |---|---|
 | **Customer relations** | - Communicating clearly with customers to meet their needs, handle complaints, and promote products or services |
 | **Supplier coordination** | - Arranging delivery times, negotiating prices, or discussing quality standards |
-| **Investor confidence** | - Providing accurate financial and strategic information to *shareholders *or potential investors |
+| **Investor confidence** | - Providing accurate financial and strategic information to *shareholders* or potential investors |
 | **Legal and regulatory compliance** | - Ensuring the business meets legal obligations by responding to government or legal bodies |
 | **Public image and *****PR*** | - Promoting a positive reputation and *brand image* through media, social platforms, or advertising |
 

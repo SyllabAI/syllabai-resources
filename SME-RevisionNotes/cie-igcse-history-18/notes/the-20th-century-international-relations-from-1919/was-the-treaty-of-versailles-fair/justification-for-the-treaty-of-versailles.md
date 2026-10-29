@@ -101,7 +101,7 @@ In the bottom map (Post-WWI), Europe is divided into more countries. Austria-Hun
 
 ![A person is crushed under a massive bag labelled "REPARATIONS $55,000,000,000," symbolising the burden of large financial reparations.](../../../assets/3d5d7fbd1610-cie-reparations-source.png)
 
-*A cartoon published in a US newspaper, 1921. Germany is saying, ‘Let’s see you collect it.’ *
+*A cartoon published in a US newspaper, 1921. Germany is saying, ‘Let’s see you collect it.’*
 
 ![Vintage newspaper front page of "Lloyd's News" with a headline "THEY HAVE SIGNED!" featuring a man gesturing, dated Sunday, June 29.](../../../assets/19af6b55f6f6-cie-treaty-of-versailles-source.png)
 
@@ -126,7 +126,7 @@ In the bottom map (Post-WWI), Europe is divided into more countries. Austria-Hun
 > 
 > *How splendid it would have been had we blazed a new and better trail! However, it is to be doubted whether this could have been done, even if those in authority had so decreed, for the peoples back of them had to be reckoned with. It may be that Wilson might have had the power and influence if he had remained in Washington and kept clear of the Conference. When he stepped from his lofty pedestal and wrangled with representatives of other states upon equal terms, he became as common clay.*
 > 
-> *To those who are saying that the Treaty is bad and should never have been made and that it will involve Europe in infinite difficulties in its enforcement, I feel like admitting it. *
+> *To those who are saying that the Treaty is bad and should never have been made and that it will involve Europe in infinite difficulties in its enforcement, I feel like admitting it.*
 > 
 > **Final answer:** **Partial answer:**
 > 

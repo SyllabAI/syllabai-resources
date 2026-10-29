@@ -102,9 +102,9 @@ $\begin{array}{rcl} x = 2.047818... \\ = 2.05 ( 3 \mathrm{s} . \mathrm{f} . ) \e
 > **Worked Example**
 > Solve the equation $4^{x - 3 ( 2^{x} + 1} ) + 9 = 0$.  Give your answer correct to three significant figures.
 > 
-> > *Spot the hidden quadratic:  *$4^{x = ( 2^{2} )^{x} = 2^{2} x} = ( 2^{x} )^{2}$
+> > *Spot the hidden quadratic:* $4^{x = ( 2^{2} )^{x} = 2^{2} x} = ( 2^{x} )^{2}$
 > 
-> > *Also note that  *$2^{x+1}=2^{1}\times2^{x}=2\times2^{x}$
+> > *Also note that* $2^{x+1}=2^{1}\times2^{x}=2\times2^{x}$
 > 
 > > *Substitute these into the equation and simplify*
 > 
@@ -112,12 +112,12 @@ $\begin{array}{rcl} x = 2.047818... \\ = 2.05 ( 3 \mathrm{s} . \mathrm{f} . ) \e
 > 
 > > *Factorise the quadratic*
 > 
-> > *The left-hand side is in the form  *$y^{2}-6y+9$*  where *$y=2^{x}$* *
-> *This factorises to *$( y - 3 )^{2}$
+> > *The left-hand side is in the form* $y^{2}-6y+9$ *where* $y=2^{x}$* *
+> *This factorises to* $( y - 3 )^{2}$
 > 
 > $( 2^{x} - 3 )^{2} = 0$
 > 
-> > *Solve for *$2^{x}$
+> > *Solve for* $2^{x}$
 > 
 > $\begin{gathered} 2^{x} - 3 & = 0 \\ 2^{x} & = 3 \end{gathered}$
 > 
@@ -125,13 +125,13 @@ $\begin{array}{rcl} x = 2.047818... \\ = 2.05 ( 3 \mathrm{s} . \mathrm{f} . ) \e
 > 
 > $\ln ( 2^{x} ) = \ln 3$
 > 
-> > *Use  *$\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$*  to take the power out of the logarithm*
+> > *Use* $\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$ *to take the power out of the logarithm*
 > 
-> > *Remember that  *$\mathrm{ln}=\mathrm{log}_{e}$
+> > *Remember that* $\mathrm{ln}=\mathrm{log}_{e}$
 > 
 > $x\mathrm{ln}2=\mathrm{ln}3$
 > 
-> > *Solve for *$x$
+> > *Solve for* $x$
 > 
 > $x=\frac{\mathrm{ln}3}{\mathrm{ln}2}$
 > 

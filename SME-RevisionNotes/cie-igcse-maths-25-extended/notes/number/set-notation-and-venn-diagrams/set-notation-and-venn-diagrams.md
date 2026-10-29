@@ -32,15 +32,15 @@ guided_study: true
   - The bit before the colon is the type of element
   - The bit after the colon is the rule
   
-    - {*x *is a positive integer : *x*<sup>2</sup> < 30} is the set of positive integers which, when squared, are less than 30
+    - {*x* is a positive integer : *x*<sup>2</sup> < 30} is the set of positive integers which, when squared, are less than 30
     - This is equal to {1, 2, 3, 4, 5}
   - The colon is often read as '**such that'**
   - If **no type** is specified, *x* can take **any value** (fractions, decimals, irrationals, ...)
   
     - {*x*: *x*<sup>2</sup> < 30} means any value whose square is less than 30
-  - { (*x*, *y*) : *y *= *mx *+ *c* } would mean the coordinates (*x*, *y*) where *y *= *mx *+ *c*
+  - { (*x*, *y*) : *y* = *mx* + *c* } would mean the coordinates (*x*, *y*) where *y* = *mx* + *c*
   
-    - I.e. The set of all possible coordinates that lie on the line *y *= *mx *+ *c*
+    - I.e. The set of all possible coordinates that lie on the line *y* = *mx* + *c*
   - A colon can also be replaced by a **vertical bar**
   
     - {*x* | *x*<sup>2</sup> < 30}
@@ -54,10 +54,10 @@ guided_study: true
   
     - U is a common alternative (different to $\cup$ for union!)
     - S or the Greek letter ξ (xi) may also be seen
-- We use **upper case** letters to represent **sets** (*A*,* B*,* C*, ...) and **lower case** letters to represent **elements **(*a*,* b*,* c*, ...)
+- We use **upper case** letters to represent **sets** (*A*,*B*,*C*, ...) and **lower case** letters to represent **elements **(*a*,*b*,*c*, ...)
 - n(*A*) is the **number of elements** in set *A*
 
-  - For example, if $E$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, *A * = {1, 4, 9}, *B  *= {1, 2, 3, 4, 5, 6}
+  - For example, if $E$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, *A* = {1, 4, 9}, *B* = {1, 2, 3, 4, 5, 6}
   n(*A*) = 3, n(*B*) = 6
 - $\in$ means "**is an element of**"
 
@@ -76,8 +76,8 @@ guided_study: true
 
   - This is the set of elements that are in **both** set *A*  and set *B*
   
-    - E.g. If *A* = {1, 2, 3, 4, 5} and *B* = {-1, 1, 4, 7, 8}, then *A* $\cap$ *B  *= {1, 4}
-- *A* $\cup$ *B * means the **union** of *A*  and *B*  (**everything** in *A*  **or** *B*  **or** both)
+    - E.g. If *A* = {1, 2, 3, 4, 5} and *B* = {-1, 1, 4, 7, 8}, then *A* $\cap$ *B* = {1, 4}
+- *A* $\cup$ *B* means the **union** of *A*  and *B*  (**everything** in *A*  **or** *B*  **or** both)
 
   - This is the set of elements that are in **at least one** of the sets
   - This **includes **elements in both sets (in the intersection)
@@ -107,13 +107,13 @@ guided_study: true
 
 ### What do the different regions mean on a Venn diagram?
 
-- $A\cupB$  is represented by the regions that **are in** *A * or *B * or both
-- $A\capB$  is represented by the region where the *A*  and *B  *circles **overlap**
+- $A\cupB$  is represented by the regions that **are in** *A* or *B* or both
+- $A\capB$  is represented by the region where the *A*  and *B* circles **overlap**
 
 ![Venn diagrams showing the union and the intersection of sets A and B](../../../assets/942758b434cf-6364-set-notation-and-venn-diagrams-1.png)
 
 > **Worked Example**
-> Two sets *A *and *B *are shown in the Venn diagram.
+> Two sets *A* and *B* are shown in the Venn diagram.
 > 
 > ![Two sets, A and B, represented on a Venn diagram](assets/7980db8ebb86-64542-set-notation-and-venn-diagrams-2.png)
 > 
@@ -176,19 +176,19 @@ guided_study: true
 > 
 > Fill in the blanks with the appropriate set.
 > 
-> `equation`(i)    `... space ⊈ space T`
+> `equation`(i)    `... ⊈ T`
 > 
 > (ii)   $...\subseteq...$
 > 
 > **Answer:**
 > 
-> > *The symbol *$\subseteq$* means "is a subset of", so all of the elements of one feature in the other*
-> *The symbol *`⊈`* means "is not a subset of"*
+> > *The symbol* $\subseteq$ *means "is a subset of", so all of the elements of one feature in the other*
+> *The symbol* `⊈` *means "is not a subset of"*
 > 
-> > *The element in *$I$* is not in *$T$
+> > *The element in* $I$ *is not in* $T$
 > 
-> `equation``I space ⊈ space T`
+> `equation``I ⊈ T`
 > 
-> > *All the elements of *$M$* are also in *$T$
+> > *All the elements of* $M$ *are also in* $T$
 > 
 > $M\subseteqT$

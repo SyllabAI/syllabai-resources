@@ -44,7 +44,7 @@ guided_study: false
 ### Private goods
 
 - **Private goods** are goods that firms are able to provide to generate profits
-- They can generate profits as these goods are* rival* and *excludable*
+- They can generate profits as these goods are *rival* and *excludable*
 
   - The firm is able to **exclude **certain customers from purchasing their goods through the price mechanism
   

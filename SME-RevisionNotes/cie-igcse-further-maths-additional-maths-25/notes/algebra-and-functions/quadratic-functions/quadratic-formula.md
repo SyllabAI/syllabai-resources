@@ -55,7 +55,7 @@ guided_study: false
 > 
 > $a=12,b=-17,c=6$ * *
 > 
-> *Substitute these values into the quadratic formula, *$x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$ 
+> *Substitute these values into the quadratic formula,* $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$ 
 > *Put brackets around any negative numbers* * *
 > 
 > $x = \frac{- ( - 17 ) \pm \sqrt{( - 17 )^{2} - 4 \times 12 \times 6} }{2 \times 12}$ * *
@@ -64,7 +64,7 @@ guided_study: false
 > 
 > $\begin{gathered} x = \frac{17 \pm \sqrt{289 - 288} }{24} \\ = \frac{17 \pm \sqrt{1} }{24} \end{gathered}$
 > 
-> > *Work out the + and - parts separately to get the two solutions *
+> > *Work out the + and - parts separately to get the two solutions*
 > 
 > $x=\frac{17+1}{24}=\frac{18}{24}\,x=\frac{17-1}{24}=\frac{16}{24}$ * *
 > 

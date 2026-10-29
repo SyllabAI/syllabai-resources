@@ -107,4 +107,4 @@ $E_{k}=\frac{1}{2}mv^{2}=eV$
   - *m* = mass (kg)
   - *v* = velocity (m s<sup>–1</sup>)
   - *e* = charge of an electron (1.60 × 10<sup>–19</sup> C)
-  - *V *= potential difference (V)
+  - *V* = potential difference (V)

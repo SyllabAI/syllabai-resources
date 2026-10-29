@@ -19,7 +19,7 @@ guided_study: false
 
 - Businesses** incur a range of costs **
 
-  - Examples include purchasing raw materials, paying staff *salaries* and wages and paying *utility *bills such as electricity
+  - Examples include purchasing raw materials, paying staff *salaries* and wages and paying *utility* bills such as electricity
 
 - These costs can be classified as follows:
 
@@ -37,7 +37,7 @@ guided_study: false
 - **Fixed costs (FC) are costs that do not change as the level of output changes**
 
   - These have to be paid whether the output is zero or 5000 units
-  - Examples include rent, management salaries, *insurance *and bank loan repayments
+  - Examples include rent, management salaries, *insurance* and bank loan repayments
 
 ![Graph showing fixed costs as a horizontal line at $4000 across output levels, with cost on the vertical axis and output level on the horizontal axis.](../../../assets/e03b552f0a90-27761-httpscdn-savemyexams-comuploads2024109729-.bin)
 
@@ -121,7 +121,7 @@ $\mathrm{Total} \mathrm{costs}(\mathrm{TC})=\mathrm{Total} \mathrm{fixed} \mathr
 - Reducing costs is a key way to increase profit
 
   - **Fixed costs** can be reduced by moving to cheaper premises, lowering staff salaries, cutting promotional spending or using cheaper utility suppliers
-  - **Variable costs** can be lowered by buying cheaper or bulk raw materials, or *outsourcing *delivery
+  - **Variable costs** can be lowered by buying cheaper or bulk raw materials, or *outsourcing* delivery
 - Businesses must consider how cost-cutting affects customer service, product quality and delivery speed
 
   - Paying lower wages may lead to less experienced or skilled staff
@@ -130,7 +130,7 @@ $\mathrm{Total} \mathrm{costs}(\mathrm{TC})=\mathrm{Total} \mathrm{fixed} \mathr
 ### 2. To set prices
 
 - Costs are important when deciding the selling price.
-- They directly affect how much *profit *a business makes.
+- They directly affect how much *profit* a business makes.
 
   - For example, if a cake costs \$3 to make and the business wants to make a \$1 profit on each cake, it must sell them for \$4
 

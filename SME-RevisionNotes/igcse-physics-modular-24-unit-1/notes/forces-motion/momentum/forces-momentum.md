@@ -35,7 +35,7 @@ $p=mv$
 
 - Change in momentum is given as:
 
-$\Deltap=mv-mu$
+$\Deltap=mv-\mu$
 
 - Combining these equations gives:
 
@@ -108,8 +108,8 @@ $F = \frac{( m v - m u )}{t}$
 > 
 > **Step 1: List the known quantities and assign direction**
 > 
-> - Mass of car, *m *= 1500 kg
-> - Velocity before collision, *u *= 15 m/s
+> - Mass of car, *m* = 1500 kg
+> - Velocity before collision, *u* = 15 m/s
 > - Velocity after collision, *v* = −5 m/s
 > - Time of impact, *t* = 3 s
 > 

@@ -100,7 +100,7 @@ guided_study: false
 > - Data (transfer) will not be negatively affected by movement / less risk of damage to the drive **[1]**...
 > - ...because solid state storage does not use moving parts **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > - Smartphones are portable **[1]**...
 > - ...because solid state storage takes up less space / has no moving parts **[1]**

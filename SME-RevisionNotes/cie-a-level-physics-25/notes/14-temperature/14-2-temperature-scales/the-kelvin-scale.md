@@ -71,7 +71,7 @@ guided_study: true
 > 
 > **Step 1:** **Kelvin to Celsius equation**
 > 
-> *θ */ <sup>o</sup>C = T / K − 273.15
+> *θ* / <sup>o</sup>C = T / K − 273.15
 > 
 > **Step 2:** **Substitute in value of 300 K**
 > 

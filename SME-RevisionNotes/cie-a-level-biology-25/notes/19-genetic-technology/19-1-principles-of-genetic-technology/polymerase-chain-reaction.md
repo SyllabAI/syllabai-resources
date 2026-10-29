@@ -42,7 +42,7 @@ guided_study: true
 
 - **Denaturation** – the double-stranded DNA is heated to 95°C which breaks the hydrogen bonds that bond the two DNA strands together
 - *Annealing* – the temperature is decreased to between 50 - 60°C so that primers (forward and reverse ones) can anneal to the ends of the single strands of DNA
-- **Elongation / Extension –** the temperature is increased to 72°C for at least a minute, as this is the optimum temperature for *Taq *polymerase to build the complementary strands of DNA to produce the new identical double-stranded DNA molecules
+- **Elongation / Extension –** the temperature is increased to 72°C for at least a minute, as this is the optimum temperature for *Taq* polymerase to build the complementary strands of DNA to produce the new identical double-stranded DNA molecules
 
 ![Diagram of a PCR process showing primers, buffer solution, Taq polymerase, nucleotides, and a thermocycler connected to a DNA strand.](../../../assets/be25647f5857-44980-httpscdn-savemyexams-comuploads2021039-pol.png)
 

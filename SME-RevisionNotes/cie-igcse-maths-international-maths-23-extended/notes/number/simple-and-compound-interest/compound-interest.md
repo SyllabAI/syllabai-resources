@@ -136,7 +136,7 @@ guided_study: true
 > `bold $ bold 1579`
 > 
 > **Method 2**
-> *Using the formula for the final amount   *$P ( 1 + \frac{r}{100} )^{n }$
+> *Using the formula for the final amount* $P ( 1 + \frac{r}{100} )^{n }$
 > *Substitute **P** is 1200, **r** = 4 and **n** = 7 into the formula *
 > 
 > $1200 ( 1 + \frac{4}{100} )^{7}$
@@ -152,13 +152,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > $n$* is increased by 3.9% for 3 years, resulting in 3925*
+> > $n$ *is increased by 3.9% for 3 years, resulting in 3925*
 > 
 > > *Write an equation describing this*
 > 
 > $n\times1.039^{3}=3925.67$
 > 
-> > *Divide both sides by *$1.039^{3}$
+> > *Divide both sides by* $1.039^{3}$
 > 
 > $n=\frac{3925.67}{1.039^{3}}$
 > 

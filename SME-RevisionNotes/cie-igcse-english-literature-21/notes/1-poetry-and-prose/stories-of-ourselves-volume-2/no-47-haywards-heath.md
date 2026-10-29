@@ -191,4 +191,4 @@ The best way to revise quotations is in connection to a theme. Below you will fi
 
 ### Sources
 
-Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.
+Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2,* Cambridge University Press.

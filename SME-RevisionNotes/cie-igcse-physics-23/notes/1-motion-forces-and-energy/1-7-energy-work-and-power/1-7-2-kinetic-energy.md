@@ -59,7 +59,7 @@ $E_{k}\proptov^{2}$
 - Since kinetic energy is directly proportional to speed squared, doubling the kinetic energy does **not** double the speed; it increases it by a factor of $\sqrt{2}$ (approximately 1.41)
 - The change in an object's kinetic energy can be calculated using:
 
-$\DeltaE_{k}=\frac{1}{2}mv^{2}-\frac{1}{2}mu^{2}$
+$\DeltaE_{k}=\frac{1}{2}mv^{2}-\frac{1}{2}\mu^{2}$
 
 - Where:
 
@@ -84,11 +84,11 @@ $\DeltaE_{k}=\frac{1}{2}mv^{2}-\frac{1}{2}mu^{2}$
 > 
 > **Step 3: Convert the mass into kilograms**
 > 
-> `m space equals space 160 over 1000 space equals space 0.16 space kg` **[1 mark]**
+> `m=160 / 1000=0.16 kg` **[1 mark]**
 > 
 > **Step 4: Calculate the kinetic energy**
 > 
-> `E subscript k space equals space 1 half space cross times space 0.16 space cross times space open parentheses 35 close parentheses squared`* ***[1 mark]**
+> `E_ k=1 half×0.16×(35)²`* ***[1 mark]**
 > 
 > $E_{k}=98J$* ***[1 mark]**
 
@@ -115,7 +115,7 @@ $\DeltaE_{k}=\frac{1}{2}mv^{2}-\frac{1}{2}mu^{2}$
 > 
 > **Step 3: Rearrange for the speed, v**
 > 
-> `2 E subscript k space equals space m v squared`
+> `2 E_ k=m v²`
 > 
 > $\frac{2E_{k}}{m}=v^{2}$
 > 

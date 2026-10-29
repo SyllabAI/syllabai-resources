@@ -67,4 +67,4 @@ guided_study: false
 > - *g* is the gravitational field strength, which varies depending on the size of the mass *M* producing the gravitational field and the distance *r*  from its centre of mass
 > - *G* is Newton’s Universal Gravitational Constant, which always has a value of 6.67 × 10<sup>–11</sup> N m<sup>2</sup> kg<sup>–2</sup>
 > 
-> In addition, remember the equation density *ρ* = mass *m* ÷ volume *V, *which may come in handy with calculations where the density of some object is given, rather than its mass!
+> In addition, remember the equation density *ρ* = mass *m* ÷ volume *V,* which may come in handy with calculations where the density of some object is given, rather than its mass!

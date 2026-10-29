@@ -80,8 +80,8 @@ guided_study: false
 > 
 > By drawing a suitable straight line on the grid, show that the equation  $log_{2} ( 3 x - 1 )^{2} - \frac{2}{3} x = 2$  has a root in the interval  $0\leqx\leq6$, and obtain an estimate for the value of that root.
 > 
-> > *Be careful here – we cannot just draw the horizontal line *$y=2$
-> *That would only work if we had the graph of  *$y = log_{2} ( 3 x - 1 )^{2} - \frac{2}{3} x$
+> > *Be careful here – we cannot just draw the horizontal line* $y=2$
+> *That would only work if we had the graph of* $y = log_{2} ( 3 x - 1 )^{2} - \frac{2}{3} x$
 > 
 > > *Instead we must work on rearranging the equation*
 > *Start by getting the logarithm alone on the left-hand side*
@@ -103,7 +103,7 @@ guided_study: false
 > $3 x - 2 = 2^{( \frac{x}{3} + 1 )} - 1$
 > 
 > > *Now the right-hand side is the function that is graphed on the diagram*
-> *So we need to draw the straight line  *$y=3x-2$
+> *So we need to draw the straight line* $y=3x-2$
 > *We can estimate the root by considering the **x-**coordinate of the point of intersection*
 > 
 > ![Solution graph for question](assets/276d6f8c5dc3-rvnd1ehm-picture2.png)

@@ -60,8 +60,8 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The formula for the sum of the first *$n$* terms in an arithmetic sequence is given by *$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
-> *Here, *$a=6$*, *$d=7$* and *$n=20$*, so substitute these in*
+> > *The formula for the sum of the first* $n$ *terms in an arithmetic sequence is given by* $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
+> *Here,* $a=6$*,* $d=7$ *and* $n=20$*, so substitute these in*
 > 
 > $\begin{gathered} S_{20} & = \frac{20}{2} [ 2 \times 6 + ( 20 - 1 ) \times 7 ] \\ = 10 ( 12 + 19 \times 7 ) \\ = 1450 \end{gathered}$
 > 
@@ -71,9 +71,9 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *This question does not tell you the value of *$n$
-> *You know *$a=6$* and *$d=7$* from before*
-> *Use the formula for the sum of the first *$n$* terms to write *$S_{n}>4000$
+> > *This question does not tell you the value of* $n$
+> *You know* $a=6$ *and* $d=7$ *from before*
+> *Use the formula for the sum of the first* $n$ *terms to write* $S_{n}>4000$
 > 
 > $\frac{n}{2} [ 2 \times 6 + ( n - 1 ) \times 7 ] > 4000$
 > 
@@ -93,16 +93,16 @@ guided_study: false
 > 
 > > *This gives*
 > 
-> $n=33.450913...$* or *$n=-34.165199...$
+> $n=33.450913...$ *or* $n=-34.165199...$
 > 
-> > $n$* is the number of terms so cannot be negative; it must be near 33*
-> *Test *$n=33$* to see if *$S_{n}>4000$* from the original question*
+> > $n$ *is the number of terms so cannot be negative; it must be near 33*
+> *Test* $n=33$ *to see if* $S_{n}>4000$ *from the original question*
 > 
 > $S_{33} = \frac{33}{2} [ 2 \times 6 + ( 33 - 1 ) \times 7 ]
 > = 3894 < 4000$
 > 
 > > *This is not enough terms for the sum to exceed 4000*
-> *Test *$n=34$* to see if *$S_{n}>4000$* *
+> *Test* $n=34$ *to see if* $S_{n}>4000$* *
 > 
 > $S_{34} = \frac{34}{2} [ 2 \times 6 + ( 34 - 1 ) \times 7 ]
 > = 4250 > 4000$

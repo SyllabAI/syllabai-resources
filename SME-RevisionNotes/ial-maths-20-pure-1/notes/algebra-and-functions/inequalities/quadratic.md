@@ -32,7 +32,7 @@ guided_study: true
   - ***ax***<sup>**2**</sup>** + *****bx***** + *****c***** > 0** (>, <, ≤ or ≥)
 - **STEP 2**: Find the **roots** of the quadratic equation
 
-  - **Solve** *ax*<sup>2</sup> + *bx* + *c *= 0 to get ***x***<sub>**1**</sub>* *and* ****x***<sub>**2 **</sub>where** *****x***<sub>**1**</sub>** < *****x***<sub>**2**</sub>
+  - **Solve** *ax*<sup>2</sup> + *bx* + *c* = 0 to get ***x***<sub>**1**</sub>* *and* ****x***<sub>**2 **</sub>where** *****x***<sub>**1**</sub>** < *****x***<sub>**2**</sub>
 - **STEP 3**: **Sketch** a graph of the quadratic and **label the roots**
 
   - As the squared term is positive it will be **"U" shaped**

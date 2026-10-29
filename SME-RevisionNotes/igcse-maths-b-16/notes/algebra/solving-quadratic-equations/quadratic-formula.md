@@ -103,7 +103,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > 
 > **a*** = 3, ***b*** = -2, ***c*** = -4*
 > 
-> > *Substitute these values into the quadratic formula, *$x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
+> > *Substitute these values into the quadratic formula,* $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > *Put brackets around any negative numbers*
 > 
 > $x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - 4 \times 3 \times ( - 4 )} }{2 \times 3}$

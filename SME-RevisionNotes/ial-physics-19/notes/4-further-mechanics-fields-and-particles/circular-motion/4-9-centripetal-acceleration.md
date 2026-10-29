@@ -31,17 +31,17 @@ guided_study: false
 
 ***An object in uniform circular motion is accelerating toward the centre of orbit, O. Between A and B, the horizontal component of motion changes from v sinθ***** *****to –v sinθ***
 
-- At A and B, by resolving the horizontal and vertical components of linear velocity *v, *it can be seen that:
+- At A and B, by resolving the horizontal and vertical components of linear velocity *v,* it can be seen that:
 
-  - Initial vertical component of *v* = final vertical component of *v* which is *v *cos*θ *
-  - Initial horizontal component of *v* is *v *sin*θ*
+  - Initial vertical component of *v* = final vertical component of *v* which is *v* cos*θ *
+  - Initial horizontal component of *v* is *v* sin*θ*
   - Final horizontal component of *v* is –*v* sin*θ*
 
 - This means the acceleration of the object is only horizontal, given by:
 
 $a=\frac{\Deltav}{\Deltat}=\frac{(-v\mathrm{sin}θ)-(v\mathrm{sin}θ)}{t}=\frac{-2v\mathrm{sin}θ}{t}$
 
-- Recalling the equations for angular velocity *ω *= θ /*t* and *v* = *rω*, then:
+- Recalling the equations for angular velocity *ω* = θ /*t* and *v* = *rω*, then:
 
 $t = \frac{ \theta }{ \omega } = \frac{ \theta }{ ( \frac{v}{r} ) } = \frac{r \theta }{v}$
 
@@ -52,16 +52,16 @@ $a = \frac{- 2 v \sin \\theta }{( \frac{2 r \\theta }{v} )} = \frac{- v^{2} \sin
 
 - This equation is the acceleration of the object between points A and B
 
-  - To find the **instantaneous acceleration** at an exact point on the circle, say point C, reduce the size of the angular displacement *θ *so it becomes infinitesimally small
+  - To find the **instantaneous acceleration** at an exact point on the circle, say point C, reduce the size of the angular displacement *θ* so it becomes infinitesimally small
   - This is shown in the image below:
 
 ![6-9-deriving-centripetal-acceleration-2_edexcel-al-physics-rn](../../../assets/1bda7b711009-6-9-deriving-centripetal-acceleration-2-edexcel-.png)
 
 ***By taking the limit of angular displacement as zero, we can derive an equation for the instantaneous centripetal acceleration of the object at point C***
 
-- In the limit *θ *→ 0 radians
+- In the limit *θ* → 0 radians
 
-  - The value of sin *θ *is approximately equal to *θ*
+  - The value of sin *θ* is approximately equal to *θ*
   - Therefore, $\frac{\mathrm{sin}θ}{θ}\approx1$ (for very small angles)
   - This is known as the **small angle approximation**
 
@@ -74,7 +74,7 @@ $a=-\frac{v^{2}}{r}=-rω^{2}$
   - *a* = centripetal acceleration (m s<sup>–2</sup>)
   - *v* = linear velocity (m s<sup>–1</sup>)
   - *r* = radius of orbit (m)
-  - *ω = *angular velocity (rad s<sup>-1</sup>)
+  - *ω =* angular velocity (rad s<sup>-1</sup>)
 
 - The negative sign indicates that the centripetal acceleration is directed toward the **centre of orbit **
 
@@ -88,13 +88,13 @@ $a=-\frac{v^{2}}{r}=-rω^{2}$
 ## Using Equations for Centripetal Acceleration
 
 - Centripetal acceleration is defined as: **The acceleration of an object towards the centre of a circle when an object is in motion (rotating) around a circle at a constant speed**
-- Its magnitude is calculated using the radius *r *and linear speed *v*:
+- Its magnitude is calculated using the radius *r* and linear speed *v*:
 
 ![Calculating Centripetal Acceleration equation 1](../../../assets/c0f1b1e22918-3-calculating-centripetal-acceleration-equation-.png)
 
 - Using the equation relating angular speed ω and linear speed *v*:
 
-** v = r⍵**
+** v = rω**
 
 - These equations can be combined to give another form of the centripetal acceleration equation:
 
@@ -121,7 +121,7 @@ $a=-\frac{v^{2}}{r}=-rω^{2}$
 
   - a = centripetal acceleration (m s<sup>−2</sup>)
   - v = *linear* speed (m s<sup>−1</sup>)
-  - ⍵ = angular speed (rad s<sup>−1</sup>)
+  - ω = angular speed (rad s<sup>−1</sup>)
   - r = radius of the orbit (m)
 
 > **Worked Example**
@@ -134,4 +134,4 @@ $a=-\frac{v^{2}}{r}=-rω^{2}$
 > ![WE - Centripetal acceleration answer image, downloadable AS & A Level Physics revision notes](assets/12ce85c410c3-we-centripetal-acceleration-answer-image.png)
 
 > **Exam Hint**
-> Make sure you understand both the derivation and how to use the equation for centripetal acceleration. The most crucial step is to remember the **small angle approximation, **that sin *θ *is approximately equal to *θ *when the angle is very very small. Try this in your calculator (in radians!) and see for yourself!
+> Make sure you understand both the derivation and how to use the equation for centripetal acceleration. The most crucial step is to remember the **small angle approximation, **that sin *θ* is approximately equal to *θ* when the angle is very very small. Try this in your calculator (in radians!) and see for yourself!

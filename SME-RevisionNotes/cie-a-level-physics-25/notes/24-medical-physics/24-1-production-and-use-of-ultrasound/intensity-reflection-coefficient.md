@@ -24,7 +24,7 @@ $\\alpha = \frac{I_{R} }{I_{0} } = \frac{( Z_{2} - Z_{1} )^{2} }{( Z_{2} + Z_{1}
 
 - Where:
 
-  - *α *= intensity reflection coefficient
+  - *α* = intensity reflection coefficient
   - *I*<sub>R</sub> = intensity of the reflected wave (W m<sup>-2</sup>)
   - *I*<sub>0</sub> = intensity of the incident wave (W m<sup>-2</sup>)
   - *Z*<sub>1</sub> = acoustic impedance of one material (kg m<sup>-2</sup> s<sup>-1</sup>)
@@ -111,7 +111,7 @@ $\\alpha = \frac{I_{R} }{I_{0} } = \frac{( Z_{2} - Z_{1} )^{2} }{( Z_{2} + Z_{1}
 > 
 > **Part (c)**
 > 
-> - At the air-soft tissue boundary, the intensity reflection coefficient is* α* ≈ 1
+> - At the air-soft tissue boundary, the intensity reflection coefficient is *α* ≈ 1
 > 
 >   - Therefore, without gel, there is almost complete reflection, no ultrasound is transmitted through the skin
 > 

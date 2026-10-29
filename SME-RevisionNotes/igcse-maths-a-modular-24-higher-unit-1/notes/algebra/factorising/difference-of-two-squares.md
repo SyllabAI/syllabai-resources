@@ -34,15 +34,15 @@ guided_study: true
 
   - This can be shown by expanding the brackets
   
-    - `open parentheses a plus b close parentheses open parentheses a minus b close parentheses equals a squared minus a b plus b a minus b squared equals a squared minus b squared`
+    - `(a+b)(a−b)=a²−a b+b a−b²=a²−b²`
   - The brackets can swap order
   
     - ***a***<sup>**2**</sup>** - *****b***<sup>**2**</sup>** = (*****a *****+ *****b*****)(*****a *****- *****b*****) = (*****a *****- *****b*****)(*****a *****+ *****b*****)**
     - (but terms inside a bracket cannot swap order)
-- For example, `x squared minus 9 equals open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses`
+- For example, `x²−9=(x+3)(x−3)`
 
-  - This** is the same** as `open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses`
-  - But** not the same **as `open parentheses 3 plus x close parentheses open parentheses 3 minus x close parentheses`
+  - This** is the same** as `(x−3)(x+3)`
+  - But** not the same **as `(3+x)(3−x)`
   
     - which expands to $9-x^{2}$
 
@@ -62,7 +62,7 @@ guided_study: true
   - *a*<sup>4</sup> - *b*<sup>4</sup> = (*a*<sup>2</sup>)<sup>2</sup> - (*b*<sup>2</sup>)<sup>2</sup> = (*a*<sup>2 </sup>+ *b*<sup>2</sup>) (*a*<sup>2 </sup>- *b*<sup>2</sup>) = (*a*<sup>2 </sup>+ *b*<sup>2</sup>)(*a*<sup> </sup>+ *b*)(*a*<sup> </sup>- *b*)
 - You may also need to **take out a common factor first**
 
-  - `2 x squared minus 18 equals 2 open parentheses x squared minus 9 close parentheses` giving `2 open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses`
+  - `2x²−18=2 (x²−9)` giving `2 (x+3)(x−3)`
   
     - The 2 comes out in front
 
@@ -71,7 +71,7 @@ guided_study: true
 - Using the difference of two squares to **expand** is **quicker** than expanding  double brackets and collecting like terms
 - Brackets of the form **(*****a *****+ *****b*****)(*****a *****- *****b*****) expand to *****a***<sup>**2**</sup>** - *****b***<sup>**2**</sup>
 
-  - For example `open parentheses 2 x plus 3 close parentheses open parentheses 2 x minus 3 close parentheses` expands to  $4x^{2}-9$
+  - For example `(2x+3)(2x−3)` expands to  $4x^{2}-9$
 
 > **Exam Hint**
 > The difference between two squares is often the "trick" required to complete a harder algebraic question in the exam.
@@ -83,15 +83,15 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Recognise that *$9x^{2}$* and *$16$* are both squared terms *
+> > *Recognise that* $9x^{2}$ *and* $16$ *are both squared terms*
 > 
 > > *Therefore you can factorise using the difference of two squares*
 > 
 > > *Rewrite as a difference of two squared terms*
 > 
-> `9 x squared minus 16 equals open parentheses 3 x close parentheses squared minus open parentheses 4 close parentheses squared`
+> `9x²−16=(3x)²−(4)²`
 > 
-> > *Use the rule *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+> > *Use the rule* `a²−b²=(a+b)(a−b)`
 > 
 > **Final answer:** $(3x+4)(3x-4)$** **
 > 
@@ -99,15 +99,15 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Recognise that *$4r^{2}$* and *$t^{4}$* are both squared terms *
+> > *Recognise that* $4r^{2}$ *and* $t^{4}$ *are both squared terms*
 > 
 > > *Therefore you can factorise using the difference of two squares*
 > 
 > > *Rewrite as a difference of two squared terms*
 > 
-> `4 r squared minus t to the power of 4 equals open parentheses 2 r close parentheses squared minus open parentheses t squared close parentheses squared`
+> `4r²−t^4=(2r)²−(t²)²`
 > 
-> > *Use the rule *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+> > *Use the rule* `a²−b²=(a+b)(a−b)`
 > 
 > $(2r+t^{2})(2r-t^{2})$
 > 
@@ -115,18 +115,18 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *This does not appear to be in the form *$a^{2}-b^{2}$
+> > *This does not appear to be in the form* $a^{2}-b^{2}$
 > 
 > > *There is a common factor of 2, so take this factor out*
 > 
-> `2 open parentheses y squared minus 25 close parentheses`
+> `2 (y²−25)`
 > 
-> > *You can now see *$y^{2}-25$* which has the form *$y^{2}-5^{2}$
+> > *You can now see* $y^{2}-25$ *which has the form* $y^{2}-5^{2}$
 > 
-> > *Use the rule *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+> > *Use the rule* `a²−b²=(a+b)(a−b)`
 > 
-> `y squared minus 25 equals open parentheses y plus 5 close parentheses open parentheses y minus 5 close parentheses`
+> `y²−25=(y+5)(y−5)`
 > 
 > > *Now multiply this answer by 2  (leaving the 2 on the outside)*
 > 
-> `2 open parentheses y plus 5 close parentheses open parentheses y minus 5 close parentheses`
+> `2 (y+5)(y−5)`

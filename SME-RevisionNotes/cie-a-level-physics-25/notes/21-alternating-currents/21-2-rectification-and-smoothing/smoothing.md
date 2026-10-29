@@ -31,7 +31,7 @@ guided_study: true
 
 ***A smoothing capacitor connected in parallel with the load resistor. The capacitor charges as the output voltage increases and discharges as it decreases***
 
-- The resulting graph of a smoothed output voltage *V*<sub>*out*</sub>* *or output current,* I*<sub>out</sub> against time is a ‘ripple’ shape
+- The resulting graph of a smoothed output voltage *V*<sub>*out*</sub>* *or output current,*I*<sub>out</sub> against time is a ‘ripple’ shape
 
 #### A smoothed out current-time graph
 

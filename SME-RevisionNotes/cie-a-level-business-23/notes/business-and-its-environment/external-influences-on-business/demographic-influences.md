@@ -44,7 +44,7 @@ guided_study: false
   - Environmental hazards or congestion do the opposite
 - **Government and planning policy**
 
-  - *Enterprise zones*, tax incentives and urban regeneration *grants *can revive an area, whereas *planning restrictions* can limit growth
+  - *Enterprise zones*, tax incentives and urban regeneration *grants* can revive an area, whereas *planning restrictions* can limit growth
 - **Birth and death rates**
 
   - Districts with many young families may see natural increase, while areas with older populations may shrink over time
@@ -70,12 +70,12 @@ guided_study: false
 > 
 > **Impacts on businesses**
 > 
-> - Large *labour pool *and innovation
+> - Large *labour pool* and innovation
 > 
 >   - Employers gain access to skilled workers and a vibrant start-up community, encouraging investment and collaboration
 > - Rising costs and competition for space
 > 
->   - High demand pushes up commercial rents, housing prices and wage expectations, so firms must budget carefully or consider *satellite *offices in nearby towns
+>   - High demand pushes up commercial rents, housing prices and wage expectations, so firms must budget carefully or consider *satellite* offices in nearby towns
 
 ## National demographic change
 
@@ -97,7 +97,7 @@ guided_study: false
     - Growth attracts workers and encourages larger families; *recessions* can delay parenthood and trigger emigration
   - **Government policies**
   
-    - *Tax incentives* for larger families, limits on family size, *visa *rules, pension ages and healthcare funding all shape population trends
+    - *Tax incentives* for larger families, limits on family size, *visa* rules, pension ages and healthcare funding all shape population trends
 
 > **Case Study**
 > **Latvia’s shrinking population**
@@ -145,7 +145,7 @@ guided_study: false
 - **Regional shift towards Africa and South Asia**
 
   - More than half of all new births to 2055 are expected in just eight countries, led by Nigeria, India and Pakistan
-  - Populations in Europe, Japan and China either *stagnate *or decline, shifting the centre of labour supply and consumer demand southwards and eastwards
+  - Populations in Europe, Japan and China either *stagnate* or decline, shifting the centre of labour supply and consumer demand southwards and eastwards
 
 ## Migration
 

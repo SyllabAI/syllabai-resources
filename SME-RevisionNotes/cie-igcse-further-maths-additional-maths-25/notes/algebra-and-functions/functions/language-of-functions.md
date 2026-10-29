@@ -72,7 +72,7 @@ guided_study: false
 > 
 > a) Find $\mathrm{f} ( 7 )$.
 > 
-> > *The input is *$x=7$*, so substitute 7 into the expression everywhere you see an *$x$*.*
+> > *The input is* $x=7$*, so substitute 7 into the expression everywhere you see an* $x$*.*
 > 
 > > *  *
 > 
@@ -92,11 +92,11 @@ guided_study: false
 > 
 > b) Find $\mathrm{f} ( x + 3 )$.
 > 
-> > *The input is *$x=x+3$* so substitute *$x+3$* into the expression everywhere you see an *$x$*.  *
+> > *The input is* $x=x+3$ *so substitute* $x+3$ *into the expression everywhere you see an* $x$*.*
 > 
 > > $\mathrm{f} ( x + 3 ) = 3 ( x + 3 )^{2} - 2 ( x + 3 ) + 1$*  *
 > 
-> > *Expand the brackets and simplify.  *
+> > *Expand the brackets and simplify.*
 > 
 > > $\begin{gathered} \mathrm{f} ( x + 3 ) & = 3 ( x^{2} + 6 x + 9 ) - 2 ( x + 3 ) + 1 \\ = 3 x^{2} + 18 x + 27 - 2 x - 6 + 1 \\ = 3 x^{2} + 16 x + 22 \end{gathered}$*  *
 > 
@@ -114,7 +114,7 @@ guided_study: false
 > 
 > > * *
 > 
-> > *Solve the equation by first adding 4 to both sides, then dividing by 3. *
+> > *Solve the equation by first adding 4 to both sides, then dividing by 3.*
 > 
 > > * *
 > 
@@ -173,13 +173,13 @@ guided_study: false
 > 
 > a)  State the range of $\mathrm{f} ( x )$.
 > 
-> > *The 'output' from the function *$f$* is a squared value and so will be positive, or zero.*
+> > *The 'output' from the function* $f$ *is a squared value and so will be positive, or zero.*
 > 
 > $f(x)\geq0$
 > 
 > b) The domain of $\mathrm{f} ( x )$ is changed to $x>5$. Write down the changed range of $\mathrm{f} ( x )$.
 > 
-> *As *$x>5$*, *$\mathrm{f} ( x ) > ( 5 - 3 )^{2}$
+> *As* $x>5$*,* $\mathrm{f} ( x ) > ( 5 - 3 )^{2}$
 > 
 > $\thereforef(x)>4$
 

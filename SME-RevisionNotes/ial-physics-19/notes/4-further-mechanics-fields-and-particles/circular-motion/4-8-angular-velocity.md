@@ -38,7 +38,7 @@ guided_study: false
 - Where:
 
   - *v* = linear speed, *v* (m s<sup>-1</sup>)
-  - *ω = *angular speed (rad s<sup>-1</sup>)
+  - *ω =* angular speed (rad s<sup>-1</sup>)
   - *r* = radius of orbit (m)
 
 ![6-8-angular-velocity_edexcel-al-physics-rn](../../../assets/c9b75599bc13-6-8-angular-velocity-edexcel-al-physics-rn.png)
@@ -51,8 +51,8 @@ guided_study: false
 
 - Where:
 
-  - *T = *the *time period* (s)
-  - *f *= *frequency* (Hz)
+  - *T =* the *time period* (s)
+  - *f* = *frequency* (Hz)
 - This equation shows that:
 
   - The greater the rotation angle *θ* in a given amount of time *T*, the greater the angular velocity ω
@@ -74,6 +74,6 @@ guided_study: false
 > **Exam Hint**
 > Try not to be confused by similar sounding terms like "angular velocity" and "angular speed". Just like in regular linear motion, you have linear velocity and linear speed: one is a scalar (speed) and the other is a vector (velocity).
 > 
-> In this worked example, the equation *v* = *rω *is used to calculate the linear speed. This is fine, because *v* in this context is just the **magnitude** of the linear velocity (and similarly, *ω* is the magnitude of the angular velocity).
+> In this worked example, the equation *v* = *rω* is used to calculate the linear speed. This is fine, because *v* in this context is just the **magnitude** of the linear velocity (and similarly, *ω* is the magnitude of the angular velocity).
 > 
-> Finally, you may sometimes come across *ω* being labelled as 'angular frequency', because of its relationship to linear frequency *f* as given by the alternative equation *ω* = 2*πf. *Remember, the units of *ω *are rad s<sup>–1</sup>, whereas the units of *f *are Hz.
+> Finally, you may sometimes come across *ω* being labelled as 'angular frequency', because of its relationship to linear frequency *f* as given by the alternative equation *ω* = 2*πf. *Remember, the units of *ω* are rad s<sup>–1</sup>, whereas the units of *f* are Hz.

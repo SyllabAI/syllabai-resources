@@ -19,7 +19,7 @@ guided_study: false
 
 ### Share capital
 
-- Share capital is finance **raised from the sale of shares** in a* limited company *through ***flotation*** or a ***rights issue***
+- Share capital is finance **raised from the sale of shares** in a *limited company* through ***flotation*** or a ***rights issue***
 
   - Shareholders are the owners of shares, and they are **entitled to a share of the company’s profit** when ***dividends*** are declared
   - Shareholders usually have a **vote at a company’s *****annual general meeting*** (AGM), where they can have a say in the composition of the Board of Directors
@@ -69,7 +69,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Businesses that have been refused finance from other sources may be able to attract investment from less *risk-averse* venture capitalists<br>- Venture capitalists often bring expertise, contacts, and advice that can help the business grow | - Venture capitalists usually require a *stake *in the business in return for their investment<br>- They often expect to exert some control over the business |
+| - Businesses that have been refused finance from other sources may be able to attract investment from less *risk-averse* venture capitalists<br>- Venture capitalists often bring expertise, contacts, and advice that can help the business grow | - Venture capitalists usually require a *stake* in the business in return for their investment<br>- They often expect to exert some control over the business |
 
 ## Leasing and hire purchase
 
@@ -77,7 +77,7 @@ guided_study: false
 
 ## Leasing and hire purchase
 
-- **Leasing **involves making **regular payments** in return for the use of an *asset *such as a piece of machinery or a vehicle
+- **Leasing **involves making **regular payments** in return for the use of an *asset* such as a piece of machinery or a vehicle
 
   - E.g. many businesses lease office equipment such as photocopiers and IT equipment
 - **Hire purchase **is a method of buying an asset by **paying for it in regular installments** over a set period, rather than paying the full amount upfront
@@ -94,7 +94,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - The business can use the asset immediately while spreading the cost over time<br>- Ownership of the asset passes to the business after the final payment<br>- It is useful for acquiring essential equipment without needing a large lump sum | - Interest is added to the repayments, making it more expensive than buying upfront<br>- The business is responsible for all *maintenance *and repair costs once the agreement begins<br>- Missed payments could lead to *repossession *of the asset before it is fully paid for |
+| - The business can use the asset immediately while spreading the cost over time<br>- Ownership of the asset passes to the business after the final payment<br>- It is useful for acquiring essential equipment without needing a large lump sum | - Interest is added to the repayments, making it more expensive than buying upfront<br>- The business is responsible for all *maintenance* and repair costs once the agreement begins<br>- Missed payments could lead to *repossession* of the asset before it is fully paid for |
 
 ## Bank overdrafts
 
@@ -128,7 +128,7 @@ guided_study: false
   - Loans can be **short-term **or **long-term**
   - Banks must **approve** the loan application
   
-    - A detailed* business plan* provides evidence of the ability to repay
+    - A detailed *business plan* provides evidence of the ability to repay
 - ***Secured loans*** are more likely to be available to larger businesses and are typically repaid over five to 20 years
 
   - **Interest rates may vary** over the term of the loan, and **terms may be renegotiated** if needed
@@ -227,7 +227,7 @@ guided_study: false
 
 - Governments and industry trusts may offer grants to businesses that **meet specific criteria**
 
-  - E.g. grants may be available for businesses that create jobs or improve *infrastructure *in a region
+  - E.g. grants may be available for businesses that create jobs or improve *infrastructure* in a region
 
 #### Evaluating the use of government grants
 

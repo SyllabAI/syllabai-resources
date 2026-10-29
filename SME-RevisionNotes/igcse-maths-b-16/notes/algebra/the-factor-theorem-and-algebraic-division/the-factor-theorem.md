@@ -65,7 +65,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *By the factor theorem, if  *$\mathrm{f} ( a ) = 0$* then *$( x - a )$* is a factor of *$\mathrm{f} ( x )$
+> > *By the factor theorem, if* $\mathrm{f} ( a ) = 0$ *then* $( x - a )$ *is a factor of* $\mathrm{f} ( x )$
 > 
 > > $x-2$* *
 > 
@@ -73,9 +73,9 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *By the factor theorem, *$( x - a )$* can only be a factor of *$\mathrm{g} ( x )$* if  *$\mathrm{g} ( a ) = 0$
+> > *By the factor theorem,* $( x - a )$ *can only be a factor of* $\mathrm{g} ( x )$ *if* $\mathrm{g} ( a ) = 0$
 > 
-> > *But be careful, here *$a$* is equal to *$-1$*, not *$1$
+> > *But be careful, here* $a$ *is equal to* $-1$*, not* $1$
 > 
 > $\begin{gathered} \mathrm{g} ( - 1 ) & = 2 ( - 1 )^{3} + 3 ( - 1 )^{2} - ( - 1 ) + 5 \\ = - 2 + 3 + 1 + 5 \\ = 7 \end{gathered}$
 > 
@@ -85,9 +85,9 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > $( 2 x - 3 ) = 2 ( x - \frac{3}{2} )$*,  so *$( x - \frac{3}{2} )$* is a factor of *$\mathrm{h} ( x )$
+> > $( 2 x - 3 ) = 2 ( x - \frac{3}{2} )$*,  so* $( x - \frac{3}{2} )$ *is a factor of* $\mathrm{h} ( x )$
 > 
-> > *Therefore by the factor theorem, *$\mathrm{h} ( \frac{3}{2} ) = 0$
+> > *Therefore by the factor theorem,* $\mathrm{h} ( \frac{3}{2} ) = 0$
 > 
 > $\begin{gathered} 2 ( \frac{3}{2} )^{3} - b ( \frac{3}{2} )^{2} + 7 ( \frac{3}{2} ) - 6 & = 0 \\ \frac{27}{4} - \frac{9}{4} b + \frac{21}{2} - 6 & = 0 \\ \frac{45}{4} - \frac{9}{4} b & = 0 \\ \frac{9}{4} b & = \frac{45}{4} \\ b = \frac{4}{9} \times \frac{45}{4} \end{gathered}$
 > 

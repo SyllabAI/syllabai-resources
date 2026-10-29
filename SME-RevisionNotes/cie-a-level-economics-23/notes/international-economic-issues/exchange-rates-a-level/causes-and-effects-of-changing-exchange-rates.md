@@ -107,5 +107,5 @@ guided_study: false
 > 
 > - In the short run the current account deficit widened, consistent with J-curve theory - import costs rose immediately while export volumes were slow to respond due to existing contracts and capacity constraints
 > - UK goods export volumes began rising from mid-2017 as foreign buyers responded to lower sterling prices, consistent with the Marshall-Lerner condition being met in the long run
-> - However, the deficit remained above 3% of *GDP *through 2018 — suggesting PED for UK exports and imports was relatively inelastic, and that Brexit uncertainty constrained the full Marshall-Lerner improvement
+> - However, the deficit remained above 3% of *GDP* through 2018 — suggesting PED for UK exports and imports was relatively inelastic, and that Brexit uncertainty constrained the full Marshall-Lerner improvement
 > - The case illustrates that even when the condition is met, structural factors can limit the scale of current account improvement

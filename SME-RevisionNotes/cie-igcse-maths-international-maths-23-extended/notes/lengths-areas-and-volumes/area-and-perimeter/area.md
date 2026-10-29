@@ -65,7 +65,7 @@ guided_study: true
 
 - The area, *A*, of a **trapezium** with parallel lengths, *a* and *b*, and perpendicular height, *h*, can be found using the formula
 
-  - `A equals 1 half open parentheses a plus b close parentheses h`
+  - `A=1 half (a+b) h`
   
     - **Add **together the lengths of the **parallel sides**
     - **Multiply **the result by the distance between the parallel sides
@@ -94,14 +94,14 @@ guided_study: true
 > 
 > (a)
 > 
-> Find the area of the trapezium using `A equals 1 half open parentheses a plus b close parentheses h`
+> Find the area of the trapezium using `A=1 half (a+b) h`
 > 
 > ![A trapezium](assets/a49798d4005a-62512-picture-1.png)
 > 
 > **Answer:**
 > *Remember that **a**  and **b**  are the two parallel sides and **h**  is the perpendicular height*
 > 
-> `A equals 1 half open parentheses 30 plus 15 close parentheses cross times 20`
+> `A=1 half (30+15)×20`
 > 
 > **Final answer:** **450 cm**<sup>**2**</sup>
 > 

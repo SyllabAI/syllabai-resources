@@ -26,8 +26,8 @@ $pV=nRT$
   - *p* = pressure (Pa)
   - *V* = volume (m<sup>3</sup>)
   - *n* = amount of substance / [number of moles](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/15-ideal-gases/15-1-the-mole/the-mole/) (mol)
-  - *R *= molar gas constant (8.31 J K<sup>-1</sup> mol<sup>-1</sup>)
-  - *T *= temperature (K)
+  - *R* = molar gas constant (8.31 J K<sup>-1</sup> mol<sup>-1</sup>)
+  - *T* = temperature (K)
 
 - The ideal gas equation can also be written in the form:
 
@@ -35,8 +35,8 @@ $pV=NkT$
 
 - Where:
 
-  - *N *= number of molecules
-  - *k *= Boltzmann constant (1.38 × 10<sup>-23</sup> J K<sup>–1</sup>)
+  - *N* = number of molecules
+  - *k* = Boltzmann constant (1.38 × 10<sup>-23</sup> J K<sup>–1</sup>)
 - Remember that the number of moles and the number of molecules are related by [Avogadro's constant](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/15-ideal-gases/15-1-the-mole/the-mole/)
 - An ideal gas is therefore defined as:
 

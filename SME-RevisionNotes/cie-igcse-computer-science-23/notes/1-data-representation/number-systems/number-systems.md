@@ -53,7 +53,7 @@ guided_study: false
 > **Exam Hint**
 > *The largest denary number that can be represented using 16 bits is:*
 > 
-> - *  65,535 (Binary 1111111111111111)*
+> -  *65,535 (Binary 1111111111111111)*
 
 ### What is hexadecimal?
 

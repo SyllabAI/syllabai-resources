@@ -76,7 +76,7 @@ minimum wage"
 
 ## Health and safety
 
-- Health and safety legislation requires businesses to operate in a way that protects the **physical and mental well-being** of its employees, *contractors *and customers
+- Health and safety legislation requires businesses to operate in a way that protects the **physical and mental well-being** of its employees, *contractors* and customers
 - Health and safety legislation covers areas including
 
   - The provision of **adequate breaks and rest periods**
@@ -120,7 +120,7 @@ minimum wage"
 
 ## Effects of legal controls over employment issues on employers and employees
 
-- Employers need to understand the impact of employment laws to stay legal, avoid *fines *and manage their staff fairly and effectively
+- Employers need to understand the impact of employment laws to stay legal, avoid *fines* and manage their staff fairly and effectively
 - For employees, understanding their legal rights can help them feel more confident and supported in their jobs
 
 ### Impact on employers

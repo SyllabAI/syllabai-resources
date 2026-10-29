@@ -21,7 +21,7 @@ guided_study: false
 
   - When countries specialise in goods where they have a comparative advantage, total world output increases
   - Specialisation allows countries to exploit ***economies of scale*** - concentrating production lowers average costs as output rises
-  - Specialisation drives **dynamic efficiency** - competition in world markets incentivises firms to *innovate *and improve productivity
+  - Specialisation drives **dynamic efficiency** - competition in world markets incentivises firms to *innovate* and improve productivity
   - Countries gain access to a wider variety of goods than they could produce domestically, increasing consumer choice and welfare
 
 ## Free trade (trade liberalisation)

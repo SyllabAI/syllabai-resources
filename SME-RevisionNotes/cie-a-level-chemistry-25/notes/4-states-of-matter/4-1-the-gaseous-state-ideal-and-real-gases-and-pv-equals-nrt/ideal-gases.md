@@ -76,7 +76,7 @@ guided_study: true
 
 - The **ideal gas equation **shows the relationship between pressure, volume, temperature and number of moles of gas of an ideal gas:
 
-  - *PV *=* nRT*
+  - *PV* = *nRT*
 
 *P* = pressure (pascals, Pa)
 
@@ -129,17 +129,17 @@ guided_study: true
 > - **Step 2: **Check that values have the correct units:
 > 
 >   - *P* = 300 kPa = 300 000 Pa
->   - *V *= 1000 cm<sup>3</sup> = 0.001 m<sup>3</sup>
+>   - *V* = 1000 cm<sup>3</sup> = 0.001 m<sup>3</sup>
 >   - *R* = 8.31 J K<sup>-1</sup> mol<sup>-1</sup>
 >   - *T* = 23 <sup>o</sup>C = 296 K
 > - **Step 3: **Calculate the number of moles of gas:
 > 
->   - *n *= $\frac{300000\mathrm{Pa}\times0.001m^{3}}{8.31JK^{-1}\mathrm{mol}^{-1}\times296K}$
->   - *n *= 0.12 mol
+>   - *n* = $\frac{300000\mathrm{Pa}\times0.001m^{3}}{8.31JK^{-1}\mathrm{mol}^{-1}\times296K}$
+>   - *n* = 0.12 mol
 > 
 > - **Step 4: **Calculate the molar mass using the number of moles of gas:
 > 
->   - *n *= $\frac{\mathrm{mass}}{\mathrm{molar} \mathrm{mass}}$
+>   - *n* = $\frac{\mathrm{mass}}{\mathrm{molar} \mathrm{mass}}$
 >   - molar mass = $\frac{6.39}{0.12\mathrm{mol}}$
 >   - molar mass = 53.25 g mol<sup>-1</sup>
 

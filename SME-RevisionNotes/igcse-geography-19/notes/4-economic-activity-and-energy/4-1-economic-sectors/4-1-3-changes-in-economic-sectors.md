@@ -23,7 +23,7 @@ guided_study: false
 
 ![Graph showing employment sectors over time: pre-industrial, industrial, post-industrial. Primary and secondary decline, tertiary rises, quaternary minimal.](../../../assets/1f8f33b4de3e-54779-clarke-fisher-model.png)
 
-*Clarke-Fisher Model *
+*Clarke-Fisher Model*
 
 ### How levels of development affect employment in different sectors
 

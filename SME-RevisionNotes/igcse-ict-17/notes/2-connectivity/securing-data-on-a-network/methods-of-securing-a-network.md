@@ -164,6 +164,6 @@ guided_study: false
 > 
 > **Answer**
 > 
-> > *A description to include three linked points: *
+> > *A description to include three linked points:*
 > 
 > - Encryption **[1]** encodes/scrambles data / makes data unreadable **[1]** using a key **[1]**

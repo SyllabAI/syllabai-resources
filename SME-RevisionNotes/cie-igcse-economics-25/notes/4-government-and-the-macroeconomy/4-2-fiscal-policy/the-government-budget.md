@@ -63,7 +63,7 @@ $\mathrm{Budget} \mathrm{balance}=\mathrm{Government} \mathrm{revenue}-\mathrm{G
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `Budget space balance space equals space $ 800 straight b space – space $ 900 straight b space`
+> `Budget balance=$ 800 straight b – $ 900 straight b space`
 > 
 > **Step 2: Calculate the answer and state if it is a surplus or deficit**
 > 
@@ -105,7 +105,7 @@ $\mathrm{Budget} \mathrm{balance}=\mathrm{Government} \mathrm{revenue}-\mathrm{G
 **5. Debt interest payments**
 
 - Servicing existing government borrowing
-- Prevents *default *and maintains credibility in financial markets
+- Prevents *default* and maintains credibility in financial markets
 
 **6. Environmental protection projects**
 

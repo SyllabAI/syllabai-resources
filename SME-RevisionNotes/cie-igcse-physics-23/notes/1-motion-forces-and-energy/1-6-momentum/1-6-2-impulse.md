@@ -44,17 +44,17 @@ $\mathrm{impulse}=F\Deltat=\Deltap$
 
 $\Delta p = \Delta ( m v )$
 
-$\Deltap=mv-mu$
+$\Deltap=mv-\mu$
 
 - Where:
 
-  - $\Deltap$* = *change in momentum, measured in kilogram metres per second (kg m/s)
+  - $\Deltap$ *=* change in momentum, measured in kilogram metres per second (kg m/s)
   - $m$ = mass, measured in kilograms (kg)
   - $v$ = final velocity, measured in metres per second (m/s)
   - $u$ = initial velocity, measured in metres per second (m/s)
 - Therefore:
 
-$\mathrm{impulse}=F\Deltat=\Deltap=mv-mu$
+$\mathrm{impulse}=F\Deltat=\Deltap=mv-\mu$
 
 - Since impulse is equal to the change in momentum, **kilogram metres per second** (kg m/s) is also accepted as the **units** of impulse
 
@@ -95,7 +95,7 @@ $\mathrm{impulse}=F\Deltat=\Deltap=mv-mu$
 > 
 > **Step 2: Write down the impulse equation**
 > 
-> $\mathrm{impulse}=F\Deltat=\Deltap=mv-mu$ **[1 mark]**
+> $\mathrm{impulse}=F\Deltat=\Deltap=mv-\mu$ **[1 mark]**
 > 
 > **Step 3: Substitute in the values**
 > 

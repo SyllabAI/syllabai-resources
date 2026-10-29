@@ -36,7 +36,7 @@ $\frac{\mathrm{circumference} \mathrm{of} \mathrm{circle}}{\mathrm{radius}}=\fra
 
 - Use the following equation to convert from degrees to radians:
 
-`theta degree space cross times space open parentheses straight pi over 180 close parentheses space equals space theta space rad`
+`θ degree×(straight π / 180)=θ rad`
 
 **Table of common degrees to radians conversions**
 

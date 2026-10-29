@@ -71,18 +71,18 @@ $\begin{gathered} 8^{x & = 1 \frac{1}{4} \\ ( 2^{3} )^{x} & = \frac{1}{2^{2}} \\
 > (a)$\begin{gathered}^{ } \\ \end{gathered}$Simplify  $\frac{(3x^{2})(2x^{3}y^{2})}{(6x^{2}y)}$.
 > 
 > > *Multiply out the brackets in the numerator.*
-> *Rearrange the numerator so that you are multiplying the numbers together, the *$x$* terms together and the *$y$* terms together.*
+> *Rearrange the numerator so that you are multiplying the numbers together, the* $x$ *terms together and the* $y$ *terms together.*
 > 
 > $\frac{3\times2\timesx^{2}\timesx^{3}\timesy^{2}}{6x^{2}y}$
 > 
 > > *Simplify the numerator.*
-> *Multiply the constants together and add the powers of the *$x$* terms together.*
+> *Multiply the constants together and add the powers of the* $x$ *terms together.*
 > 
 > $\frac{6x^{5}y^{2}}{6x^{2}y}$
 > 
 > > *Divide the constants.*
-> *Subtract the power of the *$x$* term in the denominator from the *$x$* term in the numerator: *$x^{5-2}=x^{3}$*.*
-> *Subtract the power of the *$y$* term in the denominator from the *$y$* term in the numerator: *$y^{2-1}=y^{1}$*.*
+> *Subtract the power of the* $x$ *term in the denominator from the* $x$ *term in the numerator:* $x^{5-2}=x^{3}$*.*
+> *Subtract the power of the* $y$ *term in the denominator from the* $y$ *term in the numerator:* $y^{2-1}=y^{1}$*.*
 > 
 > $x^{3}y$
 > 
@@ -90,7 +90,7 @@ $\begin{gathered} 8^{x & = 1 \frac{1}{4} \\ ( 2^{3} )^{x} & = \frac{1}{2^{2}} \\
 > 
 > > *Simplify the expression inside the brackets.*
 > *Cancel down the constants.*
-> *Subtract the power of the *$x$* term in the denominator from the *$x$* term in the numerator: *$x^{7-4}=x^{3}$*.*
+> *Subtract the power of the* $x$ *term in the denominator from the* $x$ *term in the numerator:* $x^{7-4}=x^{3}$*.*
 > 
 > $( 27 x^{3} )^{- 1 \frac{1}{3}}$
 > 

@@ -140,7 +140,7 @@ guided_study: false
   - **Educating the next generation**
   
     - The Seder is designed to **teach children** about the **Exodus**
-    - This also includes asking the *Four Questions *(Mah Nishtanah) and child-friendly storytelling
+    - This also includes asking the *Four Questions* (Mah Nishtanah) and child-friendly storytelling
 
 > **blockquote**
 > “You shall tell your child…” (Exodus 13:8)

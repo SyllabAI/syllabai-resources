@@ -99,7 +99,7 @@ guided_study: false
 - To secure this funding, it may choose to transition from a **private limited company (LTD) to a public limited company (PLC)**
 - This is a complex legal process  which involves undergoing a ***stock market flotation***
 - Public limited companies sell their shares to the public on the stock exchange, meaning they can have a large number of owners
-- Public limited companies must publish their *annual reports *and hold an *AGM *each year
+- Public limited companies must publish their *annual reports* and hold an *AGM* each year
 
   - A **board of directors**,** **whose members are elected by shareholders at the AGM, acts as the governing body of a company,
   - ** **The board of directors appoints a ***CEO**** *to lead the company

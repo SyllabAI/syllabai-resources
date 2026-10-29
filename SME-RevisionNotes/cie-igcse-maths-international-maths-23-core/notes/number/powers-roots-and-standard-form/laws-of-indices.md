@@ -53,7 +53,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{m}\timesa^{n}=a^{m+n}$* we can rewrite the left hand side*
+> > *Using the law of indices* $a^{m}\timesa^{n}=a^{m+n}$ *we can rewrite the left hand side*
 > 
 > * *$6^{10}\times6^{x}=6^{10+x}$
 > 
@@ -73,11 +73,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{m}\diva^{n}=a^{m-n}$* we can rewrite the left hand side*
+> > *Using the law of indices* $a^{m}\diva^{n}=a^{m-n}$ *we can rewrite the left hand side*
 > 
 > $5^{n}\div5^{4}=5^{n-4}$
 > 
-> > *So the equation is now *
+> > *So the equation is now*
 > 
 > $5^{n-4}=5^{6}$
 > 
@@ -93,11 +93,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{-n}=\frac{1}{a^{n}}$* we can rewrite the expression*
+> > *Using the law of indices* $a^{-n}=\frac{1}{a^{n}}$ *we can rewrite the expression*
 > 
 > $2^{-4}=\frac{1}{2^{4}}$
 > 
-> > $2^{4}=2\times2\times2\times2=16$* so we can rewrite the expression*
+> > $2^{4}=2\times2\times2\times2=16$ *so we can rewrite the expression*
 > 
 > $\frac{1}{2^{4}}=\frac{1}{16}$
 > 

@@ -127,8 +127,8 @@ Prepare the **statement of financial position**
 > 
 > |   |   | \$ |
 > |---|---|---|
-> | Jan - Jun | `6 over 12 cross times 25 percent sign cross times open parentheses 80 space 000 minus 20 space 000 close parentheses` | 7 500 |
-> | Jul - Dec | `6 over 12 cross times 25 percent sign cross times 56 space 000` | 7 000 |
+> | Jan - Jun | `6 / 12×25 percent sign×(80 000−20 000)` | 7 500 |
+> | Jul - Dec | `6 / 12×25 percent sign×56 000` | 7 000 |
 > 
 > Calculate the loss for each period
 > 
@@ -150,8 +150,8 @@ Prepare the **statement of financial position**
 > 
 > |   |   | \$ |
 > |---|---|---|
-> | Rosa | `6 over 12 cross times 10 percent sign cross times 60 space 000` | 3 000 |
-> | Sam | `6 over 12 cross times 10 percent sign cross times 50 space 000` | 2 500 |
+> | Rosa | `6 / 12×10 percent sign×60 000` | 3 000 |
+> | Sam | `6 / 12×10 percent sign×50 000` | 2 500 |
 > 
 > Calculate the profit on revaluation
 > 
@@ -167,7 +167,7 @@ Prepare the **statement of financial position**
 > | Goodwill raised | $\frac{1}{2}\times25500$ | 12 750 | $\frac{1}{2}\times25500$ | 12 750 |
 > | Goodwill eliminated | $\frac{3}{5}\times25500$ | <u>(15 300)</u> | $\frac{2}{5}\times25500$ | (10 200) |
 > | Revised capital |   | <u>59 200</u> |   | <u>54 300</u> |
-> | Interest on capital | `6 over 12 cross times 10 percent sign cross times 59 space 200` | <u>2 960</u> |   | <u>2 715</u> |
+> | Interest on capital | `6 / 12×10 percent sign×59 200` | <u>2 960</u> |   | <u>2 715</u> |
 > 
 > Prepare the appropriation accounts
 > 

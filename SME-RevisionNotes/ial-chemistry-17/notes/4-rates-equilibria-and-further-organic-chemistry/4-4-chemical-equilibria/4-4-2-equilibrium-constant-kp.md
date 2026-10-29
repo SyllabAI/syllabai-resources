@@ -45,7 +45,7 @@ We have seen previously that equilibrium reactions can be quantified by referenc
 
 #### Heterogeneous reactions
 
-- For heterogenous reactions**, solids** and **liquids** are ignored in *K*<sub>*p *</sub>equilibrium expressions
+- For heterogenous reactions**, solids** and **liquids** are ignored in *K*<sub>*p* </sub>equilibrium expressions
 - The *K*<sub>*p*</sub> of a reaction is constant and only changes if the **temperature** of the reaction changes
 
 > **Worked Example**

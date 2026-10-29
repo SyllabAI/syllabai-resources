@@ -180,7 +180,7 @@ guided_study: false
 > $=4\times2+4\times9i+i\times2+i\times9i\,=8+36i+2i+9i^{2}$
 > 
 > > *Collect the imaginary parts*
-> *Use that *$i^{2}=-1$* then collect the real parts*
+> *Use that* $i^{2}=-1$ *then collect the real parts*
 > 
 > $\begin{gathered} = 8 + 38 \mathrm{i} + 9 \times ( - 1 ) \\ = 8 + 38 \mathrm{i} - 9 \end{gathered}$
 > 
@@ -194,7 +194,7 @@ guided_study: false
 > = 9 - 12 \mathrm{i} - 12 \mathrm{i} + 16 \mathrm{i}^{2}$
 > 
 > > *Collect the imaginary parts*
-> *Use that *$i^{2}=-1$* then collect the real parts*
+> *Use that* $i^{2}=-1$ *then collect the real parts*
 > 
 > $\begin{gathered} = 9 - 24 \mathrm{i} + 16 \times ( - 1 ) \\ = 9 - 24 \mathrm{i} - 16 \end{gathered}$
 > 
@@ -206,13 +206,13 @@ guided_study: false
 > 
 > $( - 2 )^{11} \times \mathrm{i}^{11}$
 > 
-> > *Work out *$( - 2 )^{11}$
+> > *Work out* $( - 2 )^{11}$
 > 
 > $( - 2 )^{11} = - 2048$
 > 
-> > *Work out *$i^{11}$
-> *It helps to write it in terms of *$i^{10}$* then *$i^{2}$
-> *Use *$i^{2}=-1$
+> > *Work out* $i^{11}$
+> *It helps to write it in terms of* $i^{10}$ *then* $i^{2}$
+> *Use* $i^{2}=-1$
 > 
 > $\begin{gathered} \mathrm{i}^{11} & = \mathrm{i}^{10} \times \mathrm{i} \\ = ( \mathrm{i}^{2} )^{5} \times \mathrm{i} \\ = ( - 1 )^{5} \times \mathrm{i} \\ = - 1 \times \mathrm{i} \\ = - \mathrm{i} \end{gathered}$
 > 
@@ -277,7 +277,7 @@ guided_study: false
 > 
 > $z_{2}\ast=3+i$
 > 
-> > *Multiply the top and bottom of *$\frac{z_{1}}{z_{2}}$* by *$z_{2}\ast$
+> > *Multiply the top and bottom of* $\frac{z_{1}}{z_{2}}$ *by* $z_{2}\ast$
 > 
 > $\frac{( 1 + 7 \mathrm{i} )}{( 3 - \mathrm{i} )} \times \frac{( 3 + \mathrm{i} )}{( 3 + \mathrm{i} )}$
 > 
@@ -285,11 +285,11 @@ guided_study: false
 > 
 > $\frac{( 1 + 7 \mathrm{i} ) ( 3 + \mathrm{i} )}{( 3 - \mathrm{i} ) ( 3 + \mathrm{i} )} = \frac{3 + \mathrm{i} + 21 \mathrm{i} + 7 \mathrm{i}^{2}}{9 - \mathrm{i}^{2}}$
 > 
-> > *Use that *$i^{2}=-1$*then collect real and imaginary parts*
+> > *Use that* $i^{2}=-1$*then collect real and imaginary parts*
 > 
 > $\begin{gathered} = \frac{3 + \mathrm{i} + 21 \mathrm{i} - 7}{9 - ( - 1 )} \\ = \frac{- 4 + 22 \mathrm{i} }{10} \end{gathered}$
 > 
-> > *To give your answer in the form *$x+yi$*, split the fraction then simplify*
+> > *To give your answer in the form* $x+yi$*, split the fraction then simplify*
 > 
 > $-\frac{4}{10}+\frac{22}{10}i$
 > 

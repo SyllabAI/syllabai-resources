@@ -54,8 +54,8 @@ $H_{0}=\frac{v}{d}$
 > 
 > **Step 2: Determine the Hubble constant, *****H***<sub>***0***</sub>**, from the graph:**
 > 
-> - y–axis = *v *= 20, 000
-> - x–axis = *d *= 305
+> - y–axis = *v* = 20, 000
+> - x–axis = *d* = 305
 > - gradient = *H*<sub>*0*</sub>
 > 
 > ![10-8-we-solution_edexcel-al-physics-rn](assets/79544fae7ca8-10-8-we-solution-edexcel-al-physics-rn.png)

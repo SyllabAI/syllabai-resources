@@ -20,7 +20,7 @@ guided_study: true
 ### How do I draw a straight line from a table of values?
 
 - You may be given a** table of values** with **no** equation
-- Use the *x *and *y* values to form a point with **coordinates **(*x*, *y*)
+- Use the *x* and *y* values to form a point with **coordinates **(*x*, *y*)
 
   - Then** plot** these points
   - Use a ruler to draw a **straight line** through them
@@ -101,11 +101,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Rearrange *$\frac{y+1}{3}=x$* into the form *$y=mx+c$* to make it easier to plot*
+> > *Rearrange* $\frac{y+1}{3}=x$ *into the form* $y=mx+c$ *to make it easier to plot*
 > 
 > $\begin{gathered} \frac{y + 1}{3} & = x \\ y + 1 & = 3 x \\ y = 3 x - 1 \end{gathered}$
 > 
-> > *For *$y=3x-1$*, create a table of values*
+> > *For* $y=3x-1$*, create a table of values*
 > 
 > | $x$ | *0* | *1* | *2* |
 > |---|---|---|---|
@@ -116,7 +116,7 @@ guided_study: true
 > 
 > > *Alternatively, start at the **y**-intercept (0, -1) and mark the next points 3 units up for every 1 unit to the right*
 > 
-> > *For *$y=-\frac{3}{5}x+3$*, create a table of values*
+> > *For* $y=-\frac{3}{5}x+3$*, create a table of values*
 > *Because of the fraction, **x **= 5 is a good point to include*
 > 
 > | $x$ | *0* | *3* | *5* |

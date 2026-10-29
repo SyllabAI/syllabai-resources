@@ -76,7 +76,7 @@ $\mathrm{AD}=C+I+G+(X-M)$
   - Reduces demand in the economy, helping to control inflation
   - Useful when the economy is overheating or inflation is high
 - May slow growth and increase unemployment if used for too long
-- Can support **environmental sustainability** by reducing *subsidies *for polluting industries and increasing taxes on harmful activities (e.g. carbon taxes)
+- Can support **environmental sustainability** by reducing *subsidies* for polluting industries and increasing taxes on harmful activities (e.g. carbon taxes)
 
 ### Link to macroeconomic aims
 
@@ -125,4 +125,4 @@ $\mathrm{AD}=C+I+G+(X-M)$
 | **Example 2** | **The government increases unemployment benefits** |
 |---|---|
 | **Effect on the economy** | - Household income increases → consumption increases → total demand increases |
-| **Impact on macroeconomic aims** | - **Economic growth** increases<br>- **Inflation** rises<br>- **Unemployment** may decrease as output is rising, which requires more workers (although increased unemployment benefits may discourage some people from entering the labour market)<br>- The **Current Account** is unlikely to change, as this policy helps the poorest and imports are unlikely to increase<br>- **Redistribution of income** has increased and there is more *equity *in society |
+| **Impact on macroeconomic aims** | - **Economic growth** increases<br>- **Inflation** rises<br>- **Unemployment** may decrease as output is rising, which requires more workers (although increased unemployment benefits may discourage some people from entering the labour market)<br>- The **Current Account** is unlikely to change, as this policy helps the poorest and imports are unlikely to increase<br>- **Redistribution of income** has increased and there is more *equity* in society |

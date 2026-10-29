@@ -21,7 +21,7 @@ Throughout this section we will use the random variable $X \sim \mathrm{N} ( \\m
 
 #### How do I find probabilities using a normal distribution?
 
-- The **area** **under a normal curve** between the points $x=a$ and $x=b$ is equal to the **probability **P(*a < X < b *)
+- The **area** **under a normal curve** between the points $x=a$ and $x=b$ is equal to the **probability **P(*a < X < b*)
 
   - Remember for a normal distribution $P(a\leqX\leqb)=P(a<X<b)$ so you do not need to worry about whether the inequality is strict (< or >) or weak (≤ or ≥)
 - The equation of a normal distribution curve is complicated so the **area must be calculated numerically**
@@ -38,7 +38,7 @@ $Z=\frac{X-μ}{σ}$
 
 - You can calculate a probability $P(X<x)$ using the relationship $\mathrm{P} ( X < x ) = \mathrm{P} ( Z < \frac{x - \\mu }{\\sigma } )$
 - **Always sketch** a quick diagram to visualise which area you are looking for
-- Once you have determined the *z *value use the table of the normal distribution to find the probability
+- Once you have determined the *z* value use the table of the normal distribution to find the probability
 
   - Refer to your sketch to decide if you need to subtract the probability from one
 - The probability of a **single value** is **always zero** for a normal distribution
@@ -47,12 +47,12 @@ $Z=\frac{X-μ}{σ}$
   - $P(X=x)=0$
 - $P(X<μ)=P(X>μ)=0.5$
 
-  - You can look at which side of the mean *x *is on and the direction of the inequality to decide if your answer should be greater or less than 0.5
+  - You can look at which side of the mean *x* is on and the direction of the inequality to decide if your answer should be greater or less than 0.5
 - As $P(X=a)=0$ you can use:
 
   - $P(X<a)+P(X>a)=1$
-  - `P ( X greater than a ) = 1 - P ( X less than a ) = 1 - capital phi ( (a - mu)/(sigma) )`
-  - `P ( a less than X less than b ) = P ( X less than b ) - P ( X less than a ) = capital phi ( (b - mu)/(sigma) ) - capital phi ( (a - mu)/(sigma) )`
+  - `P (X greater than a)=1 - P (X less than a)=1 - capital φ ((a - μ)/(σ))`
+  - `P (a less than X less than b)=P (X less than b) - P (X less than a)=capital φ ((b - μ)/(σ)) - capital φ ((a - μ)/(σ))`
 
 > **Worked Example**
 > The random variable $X \sim \mathrm{N} ( 20 , 5^{2} )$. Calculate:
@@ -80,17 +80,17 @@ $Z=\frac{X-μ}{σ}$
 
   - If $P(X<a)$ is **more than 0.5** or $P(X>a)$ is **less than 0.5** then *a* should be **bigger than the mean**
   
-    - *z *will be positive
+    - *z* will be positive
   - If $P(X<a)$ is **less than 0.5** or $P(X>a)$ is **more than 0.5** then *a*  should be **smaller than the mean**
   
-    - *z *will be negative
+    - *z* will be negative
 - You do not need to remember these, **a sketch will help you see it**
 
   - **Always sketch a diagram**
 
 ![3-3-3-inverse-normal-diagram-1-](../../../assets/5fece527cf0f-3-3-3-inverse-normal-diagram-1.png)
 
-- If your probability is less than 0.5 you will need to **subtract it from one** to find the corresponding *z *value
+- If your probability is less than 0.5 you will need to **subtract it from one** to find the corresponding *z* value
 
   - Remember that the **position **of the z-value will not change, only the direction of the inequality
 - Once you have the correct value substitute it into the formula** **$z=\frac{a-μ}{σ}$   and solve to find the value of *a*
@@ -116,4 +116,4 @@ $Z=\frac{X-μ}{σ}$
 > ![3-2-3-inverse-normal-we-solution](assets/1540f87d52d3-image.bin)
 
 > **Exam Hint**
-> - The most common mistake students make when finding values from given probabilities is forgetting to check whether the *z-*value should be negative or not.  Avoid this by checking early on **using a sketch** whether *z *is positive or negative and writing a note to yourself before starting the other calculations.
+> - The most common mistake students make when finding values from given probabilities is forgetting to check whether the *z-*value should be negative or not.  Avoid this by checking early on **using a sketch** whether *z* is positive or negative and writing a note to yourself before starting the other calculations.

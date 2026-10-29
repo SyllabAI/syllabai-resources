@@ -46,14 +46,14 @@ guided_study: true
   
     - (3), 5, 7, 9, 11, ...
     - *b*  = 3
-  - So the *n *th term = 2*n * + 3
+  - So the *n* th term = 2*n * + 3
 - For example 15, 10, 5, ...
 
   - Subtracting 5 each time means *d*  = -5
   - Going backwards from 15 gives 15 + 5 = 20
   
-    - (20), 15, 10, 5, ... so *b * = 20
-  - The *n *th term = -5*n * + 20
+    - (20), 15, 10, 5, ... so *b* = 20
+  - The *n* th term = -5*n * + 20
 
 > **Worked Example**
 > Find a formula for the *n*<sup>th</sup> term of the sequence -7, -3, 1, 5, 9, ...

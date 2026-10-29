@@ -33,7 +33,7 @@ guided_study: false
 - **The current account** was covered in detail in the AS Section, [Components of the Current Account](https://www.savemyexams.com/a-level/economics/cie/23/revision-notes/international-economic-issues/current-account-of-the-balance-of-payments/components-of-the-current-account/)
 
   - It records trade in goods, trade in services, primary income and secondary income
-  - A **current account deficit** means *debits *exceed *credits *- the country is a net payer of funds to the rest of the world
+  - A **current account deficit** means *debits* exceed *credits* - the country is a net payer of funds to the rest of the world
   - A **current account surplus** means credits exceed debits - the country is a net receiver of funds
 
 ### The financial account
@@ -46,7 +46,7 @@ guided_study: false
 | **Foreign direct investment (FDI)** | - Long-term investment in productive capacity abroad or by foreigners domestically | - A US firm building a factory in Vietnam |
 | **Portfolio investment** | - Purchase and sale of foreign financial assets - *shares*, *bonds*, *securities* | - A UK *pension fund* buying Japanese government bonds |
 | **Other investment** | - *Bank loans*, *trade credit*, currency deposits | - A German bank lending to a Brazilian firm |
-| **Reserve assets** | - Changes in a central bank's holdings of foreign exchange reserves and gold | - The *central bank *selling dollars to support the domestic currency |
+| **Reserve assets** | - Changes in a central bank's holdings of foreign exchange reserves and gold | - The *central bank* selling dollars to support the domestic currency |
 
 - A current account deficit must be financed by a **surplus on the financial account** - either through attracting foreign investment, borrowing abroad or running down *reserve assets*
 - A current account surplus must be offset by a **deficit on the financial account** - the country is exporting capital, building up foreign asset holdings

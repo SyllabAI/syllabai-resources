@@ -47,7 +47,7 @@ guided_study: false
 
 - A rough approximation of the charge density can be determines by dividing the charge by the square of its ionic radius and this can help us estimate the extent of covalent character
 
-`charge space density space tilde charge over straight r squared`
+`charge density tilde charge / straight r²`
 
 #### Comparing the Covalent Character of NaCl and MgCl<sub>2</sub>
 

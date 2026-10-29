@@ -182,7 +182,7 @@ guided_study: false
 
 - The sample** might not reflect the views of the whole target market**
 
-  - If the group chosen for the research is too small or not *diverse *enough, the results may not represent the wider population
+  - If the group chosen for the research is too small or not *diverse* enough, the results may not represent the wider population
   - This can lead to incorrect assumptions about customer preferences or behaviour
   
     - E.g. If a sportswear company only surveys customers in one city, it may miss preferences in other regions

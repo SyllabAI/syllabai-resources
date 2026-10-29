@@ -93,7 +93,7 @@ guided_study: false
   - Product-oriented firms rely more on internal expertise than customer feedback
 - **Efficient production**
 
-  - Standardised products allow for* economies of scale* and streamlined processes
+  - Standardised products allow for *economies of scale* and streamlined processes
 
 ### Customer (market) orientation
 
@@ -199,7 +199,7 @@ $\mathrm{Market} \mathrm{growth}=\frac{\mathrm{This} \mathrm{year}'s\mathrm{mark
 | **Population growth** | - More people often means more potential customers, leading to a larger market |
 | **Level of competition** | - In markets with few rivals, businesses may grow quickly; too much competition can slow growth |
 | **Technological innovation** | - New technology can create demand for new products or services, speeding up market growth |
-| **Government policies** | - Supportive laws or *subsidies *can help markets grow, while strict regulations may slow growth |
+| **Government policies** | - Supportive laws or *subsidies* can help markets grow, while strict regulations may slow growth |
 | **Availability of substitutes** | - If there are many alternatives, market growth may be limited as customers have more choice |
 
 ## Implications of changes in market share and market growth
@@ -255,6 +255,6 @@ $\mathrm{Market} \mathrm{growth}=\frac{\mathrm{This} \mathrm{year}'s\mathrm{mark
 | - Encourages innovation | - Firms compete by creating new or improved products to win market share |   |
 | **Contracting market** | - Falling sales | - Overall demand is shrinking, making it harder to maintain sales levels |
 | - Increased competition | - Businesses may fight harder over fewer customers, leading to *price wars* |   |
-| - Cost-cutting pressure | - Firms might need to reduce *expenses *to stay profitable |   |
-| - Risk of redundancy and closures | - Lower demand could force businesses to *downsize *or shut down operations |   |
+| - Cost-cutting pressure | - Firms might need to reduce *expenses* to stay profitable |   |
+| - Risk of redundancy and closures | - Lower demand could force businesses to *downsize* or shut down operations |   |
 | - Less investment interest | - Investors may be cautious or reduce investment in declining markets |   |

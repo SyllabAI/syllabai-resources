@@ -34,7 +34,7 @@ $V = \pi \int_{a}^{b} y^{2} d x$
 
 - The formula may look complicated or confusing at first due to the *y* and d*x*
 
-  - remember that *y *is a function of *x*
+  - remember that *y* is a function of *x*
   - once the expression for *y* is substituted in, everything will be in terms of *x*
 - π is a constant so you may see this written either inside or outside the integral
 - This is **not** given in the formulae booklet

@@ -65,7 +65,7 @@ guided_study: false
 
 | Policy | Mechanism | Real-world example | Limitation |
 |---|---|---|---|
-| **Carbon/pollution tax** | - Tax per unit of emissions raises private cost toward social cost → firms reduce output or switch to cleaner inputs | - Sweden's carbon tax (US\$130/tonne, 1991) | - Politically unpopular<br>- *Regressive *on low-income households<br>- Hurts competitiveness if unilateral |
+| **Carbon/pollution tax** | - Tax per unit of emissions raises private cost toward social cost → firms reduce output or switch to cleaner inputs | - Sweden's carbon tax (US\$130/tonne, 1991) | - Politically unpopular<br>- *Regressive* on low-income households<br>- Hurts competitiveness if unilateral |
 | **Tradable pollution permits** (cap-and-trade) | - Government caps total emissions and issues permits; firms that cut emissions cheaply sell permits to firms that cannot → market price emerges on pollution | - **EU Emissions Trading System (EU ETS)** — world's largest carbon market, covers ~40% of EU emissions | - Requires accurate cap<br>- Price volatility<br>- Risk of over-allocation (EU ETS prices collapsed 2008–2017) |
 | **Subsidies for clean technology** | - Lowers cost of renewables, EVs, energy efficiency → shifts production and consumption toward cleaner alternatives | - US Inflation Reduction Act (2022)<br>- EU renewable subsidies | - Expensive<br>- Opportunity cost on government budgets<br>- Risk of picking wrong winners |
 
@@ -98,7 +98,7 @@ guided_study: false
 > **The policies**
 > 
 > - **Payment for Ecosystem Services** (Forestry Law 1996) — landowners paid to conserve forests, funded by a fossil fuel tax
-> - **Renewable electricity** — over 90% from hydro, *geothermal *and wind
+> - **Renewable electricity** — over 90% from hydro, *geothermal* and wind
 > - **Protected areas** cover ~26% of national territory
 > 
 > **Outcomes**
@@ -112,7 +112,7 @@ guided_study: false
 > **Limitations**
 > 
 > - Transport emissions are rising as car ownership grows
-> - Agriculture remains a *deforestation *pressure
+> - Agriculture remains a *deforestation* pressure
 > - The model relies on favourable geography (hydro potential) and small population
 > 
 > **Key lesson**

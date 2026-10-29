@@ -77,7 +77,7 @@ guided_study: false
   - Note, this is different to electric **field** **strength**, which varies according to 1 / r<sup>2</sup>
 
 > **Worked Example**
-> The electric potential at a distance *r *from a proton is *V*.
+> The electric potential at a distance *r* from a proton is *V*.
 > 
 > What is the value of the electric potential at a distance three-times farther?
 > 
@@ -92,7 +92,7 @@ guided_study: false
 > **Step 2: Write the transformed equation for a distance three times as large**
 > 
 > - The charge *Q* remains constant (due to the proton)
-> - The potential *V* becomes *V' *
+> - The potential *V* becomes *V'*
 > - The distance *r* becomes 3*r*
 > - Hence the transformed equation becomes:
 > 

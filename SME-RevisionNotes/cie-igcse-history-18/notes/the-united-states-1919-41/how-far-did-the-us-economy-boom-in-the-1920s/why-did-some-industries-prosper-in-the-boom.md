@@ -21,7 +21,7 @@ The 1920s are often described as a *golden age* for the American economy. Powere
 
 ## Prosperity of new industries
 
-- The success of the **motor industry** during the 1920s had a positive* knock-on effect *on other industries
+- The success of the **motor industry** during the 1920s had a positive *knock-on effect* on other industries
 
   - It increased the demand for steel, glass, rubber and leather
   - New jobs were created in those *sectors*

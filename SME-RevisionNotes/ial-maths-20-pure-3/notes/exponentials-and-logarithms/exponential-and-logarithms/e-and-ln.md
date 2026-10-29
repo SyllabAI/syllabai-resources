@@ -117,7 +117,7 @@ guided_study: false
   
     - For example: If $y=e^{x}$ then $e^{4x}=y^{4}$
     - You can then solve the resulting equation (usually a quadratic)
-    - Once you solve for *y* then solve for *x *using the substitution formula
+    - Once you solve for *y* then solve for *x* using the substitution formula
 - If your equation involves "ln", try to combine all "ln" terms together
 
   - Use the laws of logarithms to combine terms into a single term

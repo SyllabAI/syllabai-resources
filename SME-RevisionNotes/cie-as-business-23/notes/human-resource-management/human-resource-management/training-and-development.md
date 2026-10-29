@@ -188,7 +188,7 @@ guided_study: false
 - **Improves productivity and efficiency**
 
   - Multi-skilled workers are more useful across the business and can perform several roles
-  - This reduces *downtime *and helps the business run smoothly
+  - This reduces *downtime* and helps the business run smoothly
   
     - E.g. Manufacturing employees who can operate different machines ensure production continues even if one area has fewer staff available
 

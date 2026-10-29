@@ -57,7 +57,7 @@ guided_study: false
 - You may be asked to prove that three points lie on a straight line
 
   - Points that lie on a straight line are **collinear**
-- To show that the points *A *, *B * and *C * are **collinear**
+- To show that the points *A*, *B* and *C* are **collinear**
 
   - prove that two line segments are **parallel**
   - and show that there is at least **one point** that **lies on both **segments
@@ -65,15 +65,15 @@ guided_study: false
     - This makes them parallel and **connected **(not parallel and side-by-side)
 - For example, if you show that $\overset{\rightarrow}{BC}=2\overset{\rightarrow}{AB}$ then
 
-  - the line segments *AB*  and *BC  *are parallel
-  - and they have a **common point**, *B *
+  - the line segments *AB*  and *BC* are parallel
+  - and they have a **common point**, *B*
   
-    - So *A *, *B * and *C  *must be collinear
-- Similarly, $\overset{\rightarrow}{AC}=3\overset{\rightarrow}{AB}$ means *AC * and *AB * are parallel
+    - So *A*, *B* and *C* must be collinear
+- Similarly, $\overset{\rightarrow}{AC}=3\overset{\rightarrow}{AB}$ means *AC* and *AB* are parallel
 
   - and they have a common point, *A*
   
-    - so *A *, *B * and *C  *must be collinear
+    - so *A*, *B* and *C* must be collinear
 
 ![If A, B, C are collinear, AB is parallel to AC and BC](../../../assets/3316163cafec-21923-problem-solving-with-vectors-1.png)
 
@@ -102,7 +102,7 @@ guided_study: false
 > 
 > $\overset{\rightarrow}{OC}=c$
 > 
-> *AB *is parallel to *OC, *with $\overset{\rightarrow}{AB}=3\overset{\rightarrow}{OC}$.
+> *AB* is parallel to *OC,* with $\overset{\rightarrow}{AB}=3\overset{\rightarrow}{OC}$.
 > 
 > ![Question Vector Trapezium, IGCSE & GCSE Maths revision notes](assets/f56bbdd57d25-50276-problem-solving-with-vectors-3.png)
 > 
@@ -110,7 +110,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > $\overset{\rightarrow}{AB}=3\overset{\rightarrow}{OC}$* and *$\overset{\rightarrow}{OC}=c$*  so  *$\overset{\rightarrow}{AB}=3c$*.*
+> > $\overset{\rightarrow}{AB}=3\overset{\rightarrow}{OC}$ *and* $\overset{\rightarrow}{OC}=c$ *so* $\overset{\rightarrow}{AB}=3c$*.*
 > 
 > $\begin{gathered} \vec{OB} & = \vec{OA} + \vec{AB} \\ = 2 a + 3 c \end{gathered}$
 > 
@@ -120,7 +120,7 @@ guided_study: false
 > 
 > $\overset{\rightarrow}{AC}=c-2a$
 > 
-> (b) Point *P *lies on *AC *such that *AP *: *PC *= 3 : 1.
+> (b) Point *P* lies on *AC* such that *AP*: *PC* = 3 : 1.
 > 
 > Find expressions for vectors $\overset{\rightarrow}{AP}$ and $\overset{\rightarrow}{OP}$ in terms of **a** and **c**.
 > 
@@ -136,7 +136,7 @@ guided_study: false
 > 
 > $\overset{\rightarrow}{OP}=\frac{1}{2}a+\frac{3}{4}c$
 > 
-> (c) Hence, prove that point *P *lies on line *OB, *and determine the ratio $\overset{\rightarrow}{OP}:\overset{\rightarrow}{PB}$.
+> (c) Hence, prove that point *P* lies on line *OB,* and determine the ratio $\overset{\rightarrow}{OP}:\overset{\rightarrow}{PB}$.
 > 
 > **Answer:**
 > 
@@ -147,6 +147,6 @@ guided_study: false
 > $\overset{\rightarrow}{OP}=\frac{1}{4}\overset{\rightarrow}{OB}$** ****therefore ****OP**** is parallel to ****OB**** **
 > **and so ****P ****must lie on the line ****OB**** **
 > 
-> > *If *$\begin{gathered} \vec{OP} & = 1 \frac{1}{4} \vec{OB} \end{gathered}$* then *$\begin{gathered} \vec{PB} & = \frac{3}{4} \vec{OB} \end{gathered}$
+> > *If* $\begin{gathered} \vec{OP} & = 1 \frac{1}{4} \vec{OB} \end{gathered}$ *then* $\begin{gathered} \vec{PB} & = \frac{3}{4} \vec{OB} \end{gathered}$
 > 
 > $\overset{\rightarrow}{OP}:\overset{\rightarrow}{PB}=1:3$

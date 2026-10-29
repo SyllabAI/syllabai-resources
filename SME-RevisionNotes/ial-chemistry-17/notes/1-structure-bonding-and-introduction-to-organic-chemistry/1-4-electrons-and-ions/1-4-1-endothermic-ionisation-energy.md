@@ -43,7 +43,7 @@ guided_study: false
 
 **Ca**<sup>**+**</sup>** (g) → Ca**<sup>**2+ **</sup>**(g) + e**<sup>**-**</sup>**  *****IE***<sub>**2**</sub>** = 1145 kJ mol**<sup>**-1**</sup>
 
-- **The third ionisation energy **(*IE*<sub>3</sub>)* of* an element can be represented as
+- **The third ionisation energy **(*IE*<sub>3</sub>)*of* an element can be represented as
 
 **X**<sup>**2+**</sup>** (g) → X**<sup>**3+ **</sup>**(g) + e**<sup>**-**</sup>
 

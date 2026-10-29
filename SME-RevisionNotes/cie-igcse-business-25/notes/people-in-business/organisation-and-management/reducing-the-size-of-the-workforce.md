@@ -38,7 +38,7 @@ need to lower costs"
   - ***Mergers*** or ***takeovers*** could mean that some workers' roles are duplicated so some staff will no longer be required
 3. **The need to lower costs**
 
-  - Businesses that are struggling to survive look to reduce their most significant costs which, in many cases, is *salaries *and wages
+  - Businesses that are struggling to survive look to reduce their most significant costs which, in many cases, is *salaries* and wages
 4. **Business closure**
 
   - Will mean that only a few workers will be required to legally ***dissolve*** the organisation

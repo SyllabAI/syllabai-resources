@@ -38,7 +38,7 @@ In the center: Woodrow Wilson of the USA, shown with gray hair and glasses, wear
 
 On the right: David Lloyd George of Great Britain, shown with brown hair and a moustache, wearing a dark three-piece suit. The British flag is in the top right of his frame.](../../../assets/0429762ca04e-who-were-the-big-three-1.png)
 
-*An illustration showing the members of the ‘Big Three’ *
+*An illustration showing the members of the ‘Big Three’*
 
 > **Exam Hint**
 > Students often struggle to spell Clemenceau. His name does not sound the way it is spelt as the French alphabet has different sounds to the English alphabet. Keep practising the spelling of this name until you feel more confident. You could also create a mnemonic for words you find difficult in this topic. This will help you to remember the order of the letters in each word.
@@ -98,7 +98,7 @@ On the right: David Lloyd George of Great Britain, shown with brown hair and a m
   - From 1884 onwards, Germany had expanded its empire. Britain wanted to have the strongest and biggest empire in the world
 - Britain also supported Wilson’s point that a **strong Germany was better for European economies**
 
-  - A *prosperous *Germany would want to trade with Britain and buy its* ****imperial*** goods
+  - A *prosperous* Germany would want to trade with Britain and buy its* ****imperial*** goods
 
 > **Worked Example**
 > **What were Wilson’s aims for the League of Nations? **

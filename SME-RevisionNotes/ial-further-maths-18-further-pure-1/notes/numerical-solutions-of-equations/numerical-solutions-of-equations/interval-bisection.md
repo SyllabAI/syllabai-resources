@@ -72,12 +72,12 @@ guided_study: false
 > 
 > $x=\frac{2.1+2.9}{2}=2.5$
 > 
-> > *Find the sign of *$\mathrm{f} ( x )$* at *$x=2.5$
+> > *Find the sign of* $\mathrm{f} ( x )$ *at* $x=2.5$
 > 
 > $\mathrm{f} ( 2.5 ) = 2.125 > 0$
 > 
 > > *Find the new halved interval containing the sign change*
-> *Check the signs: *$\mathrm{f} ( 2.1 ) < 0$*, *$\mathrm{f} ( 2.5 ) > 0$* and *$\mathrm{f} ( 2.9 ) > 0$
+> *Check the signs:* $\mathrm{f} ( 2.1 ) < 0$*,* $\mathrm{f} ( 2.5 ) > 0$ *and* $\mathrm{f} ( 2.9 ) > 0$
 > 
 > $[ 2.1 , 2.5 ]$
 > 
@@ -86,11 +86,11 @@ guided_study: false
 > 
 > $x=\frac{2.1+2.5}{2}=2.3$
 > 
-> > *Find the sign of *$\mathrm{f} ( x )$* at *$x=2.3$
+> > *Find the sign of* $\mathrm{f} ( x )$ *at* $x=2.3$
 > 
 > $\mathrm{f} ( 2.3 ) = - 1.533 < 0$
 > 
 > > *Find the new halved interval containing the sign change*
-> *Check the signs: *$\mathrm{f} ( 2.1 ) < 0$*, *$\mathrm{f} ( 2.3 ) < 0$* and *$\mathrm{f} ( 2.5 ) > 0$
+> *Check the signs:* $\mathrm{f} ( 2.1 ) < 0$*,* $\mathrm{f} ( 2.3 ) < 0$ *and* $\mathrm{f} ( 2.5 ) > 0$
 > 
 > $[ 2.3 , 2.5 ]$

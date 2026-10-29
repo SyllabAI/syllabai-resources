@@ -48,7 +48,7 @@ $P=h\timesρ\timesg$
 
   - *p* = pressure in pascals (Pa)
   - *h* = height or depth of the fluid column above the object in metres (m)
-  - *ρ *= density of the fluid in kilograms per metre cubed (kg/m<sup>3</sup>)
+  - *ρ* = density of the fluid in kilograms per metre cubed (kg/m<sup>3</sup>)
   - *g* = gravitational field strength on Earth in newtons per kilogram (N/kg)
 
 #### Pressure in a liquid with a density is applied at a depth
@@ -64,9 +64,9 @@ $P=h\timesρ\timesg$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Pressure, *P *= 20 kPa
-> - Density of water, *ρ *= 1000 kg/m<sup>3</sup>
-> - Gravitational field strength, *g *= 9.8 N/kg
+> - Pressure, *P* = 20 kPa
+> - Density of water, *ρ* = 1000 kg/m<sup>3</sup>
+> - Gravitational field strength, *g* = 9.8 N/kg
 > 
 > **Step 2: List the relevant equation**
 > 

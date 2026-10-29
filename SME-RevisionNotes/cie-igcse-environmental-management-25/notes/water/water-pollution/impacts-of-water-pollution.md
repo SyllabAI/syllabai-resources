@@ -35,7 +35,7 @@ guided_study: false
 
 ![vibrio cholerae viewed under the microscope](../../../assets/0e36cd8eb6c8-vibrio-cholerae-stained-micrograph.webp)
 
-*The pathogen Vibrio cholerae can cause cholera (CDC, Public domain, via Wikimedia Commons)  *
+*The pathogen Vibrio cholerae can cause cholera (CDC, Public domain, via Wikimedia Commons)*
 
 ## Bioaccumulation & biomagnification of toxic substances
 
@@ -149,4 +149,4 @@ guided_study: false
 
 ![Diagram showing eutrophication process with six numbered stages involving nutrients, algal growth, blocked sunlight, decomposition, and aquatic organism death.](../../../assets/25afb1fd89ef-16184-eutrophication.png)
 
-*The sequence of events causing eutrophication *
+*The sequence of events causing eutrophication*

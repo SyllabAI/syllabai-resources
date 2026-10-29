@@ -81,4 +81,4 @@ guided_study: true
 > **Exam Hint**
 > Remember – the movement of molecules from high concentration to low concentration is **diffusion**.
 > 
-> If this movement requires the aid of a protein (for example because the molecule is charged and cannot pass directly through the phospholipid bilayer) this is *facilitated *diffusion.
+> If this movement requires the aid of a protein (for example because the molecule is charged and cannot pass directly through the phospholipid bilayer) this is *facilitated* diffusion.

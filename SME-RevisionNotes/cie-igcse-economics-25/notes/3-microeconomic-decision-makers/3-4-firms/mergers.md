@@ -40,7 +40,7 @@ guided_study: false
 
   - **A merger **occurs when two or more companies combine **to form a new company**
   
-    - The original companies cease to exist and their *assets *and *liabilities *are transferred to the newly created entity
+    - The original companies cease to exist and their *assets* and *liabilities* are transferred to the newly created entity
   - **A takeover **occurs when **one company purchases another company**, often against its will
   
     - The acquiring company **buys a controlling stake in the target company's *****shares *****(>50%)** and gains control of its operations

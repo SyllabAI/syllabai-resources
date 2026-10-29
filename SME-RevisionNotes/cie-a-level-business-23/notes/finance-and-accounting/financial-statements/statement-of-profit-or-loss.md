@@ -27,7 +27,7 @@ guided_study: false
 | **Cost of sales** | - The cost of producing or buying in the goods actually sold by the business during a time period.<br>- Also called **cost of goods sold**<br>- Includes raw materials, packaging and direct labour |
 | **Gross profit** | - Made when **sales revenue is greater than the cost of sales**.<br>- Calculated using the formula<br><br>$\mathrm{Sales} \mathrm{revenue}--\mathrm{Cost} \mathrm{of} \mathrm{sales}$ |
 | **Expenses** | - Non-direct costs a business incurs during normal operations, also called **overheads**<br>- Includes salaries, rent, advertising, utilities and depreciation |
-| **Profit from operations** | - Profit made after all direct and indirect costs are deducted from revenue<br>- Calculated using the formula<br><br>`Sales space revenue space – space open parentheses Cost space of space sales space plus space Expenses close parentheses` |
+| **Profit from operations** | - Profit made after all direct and indirect costs are deducted from revenue<br>- Calculated using the formula<br><br>`Sales revenue – (Cost of sales+Expenses)` |
 | **Taxation** | - The amount of money paid to the government based on profit, usually called **corporation tax**<br>- Subtracted after profit from operations to determine final profit |
 | **Profit for the year** | - Profit remaining **after tax has been deducted**<br>- This is the amount available to be distributed to shareholders or retained in the business<br>- Calculated using the formula<br><br>$\mathrm{Profit} \mathrm{from} \mathrm{operations}--\mathrm{Taxation}$ |
 | **Dividends** | - The portion of profit **paid to shareholders** as a reward for their investment |

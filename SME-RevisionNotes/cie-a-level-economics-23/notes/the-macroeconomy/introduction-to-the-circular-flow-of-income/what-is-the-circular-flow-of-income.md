@@ -85,7 +85,7 @@ guided_study: false
 
   - Increased savings by households **(S)**
   - Increased taxation by the government **(T)**
-  - Increased *import *purchases **(M)**
+  - Increased *import* purchases **(M)**
 - There are high levels of** interdependence** between households, firms, the government, the financial sector, and the foreign sector (foreign firms and households)
 
 ### Circular flow with Injections and leakages
@@ -123,7 +123,7 @@ guided_study: false
 
   - Taxation of households or firms - money flows out to government
   - Household saving or firm repayment of bank loans - money flows out to the financial sector
-  - *Dividends *or profits paid to foreign shareholders - money flows out of the domestic economy abroad
+  - *Dividends* or profits paid to foreign shareholders - money flows out of the domestic economy abroad
   - Import expenditure - money flows out to foreign producers
 - **The direction trap**: always check which way the flow moves
 

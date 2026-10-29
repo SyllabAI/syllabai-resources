@@ -41,7 +41,7 @@ guided_study: false
 - **Government spending**
 
   - When governments invest in infrastructure, such as roads, hospitals and schools, certain businesses benefit
-  - During economic downturns, governments may also support industries through *subsidies *or *grants*
+  - During economic downturns, governments may also support industries through *subsidies* or *grants*
 - **Political stability**
 
   - Businesses prefer to operate in stable countries where laws and policies are predictable
@@ -119,7 +119,7 @@ guided_study: false
 |---|---|---|
 | **Focus on profit over service** | - Private firms may prioritise profit rather than providing high-quality or universal services | - **US **private healthcare companies have been criticised for putting profit before patient care |
 | **Loss of public control** | - Once sold, the government has limited control over how the service is run | - In **Argentina**, water services were privatised in the 1990s, leading to concerns over foreign control and rising prices |
-| **Job losses** | - To cut costs, private firms may reduce staff or cut wages and benefits | - In **Greece**, privatisation during the financial crisis led to significant *redundancies *in the transport and energy sectors |
+| **Job losses** | - To cut costs, private firms may reduce staff or cut wages and benefits | - In **Greece**, privatisation during the financial crisis led to significant *redundancies* in the transport and energy sectors |
 | **Unequal access** | - Services may become too expensive or be reduced in less profitable rural areas | - In **South Africa**, rural communities complained of reduced access after parts of the electricity sector were privatised |
 | **Risk of private monopoly** | - If no competition exists, one firm may dominate and exploit consumers | - In **Russia**, the early 1990s saw the creation of powerful monopolies after rapid privatisation, especially in oil and gas |
 | **Short-term thinking** | - Private firms may avoid long-term investment to boost short-term profits | - In **India**, some critics argued that privatised rail contractors cut maintenance budgets to save money, risking safety |
@@ -147,7 +147,7 @@ guided_study: false
 - When a business is nationalised, it may gain **financial stability** and access to **long-term government investment**
 
   - This can be especially helpful if the business was struggling under private ownership
-  - Government backing also allows the company to focus on long-term goals, such as *infrastructure *development or environmental sustainability, without worrying about short-term profit pressures or investor demands
+  - Government backing also allows the company to focus on long-term goals, such as *infrastructure* development or environmental sustainability, without worrying about short-term profit pressures or investor demands
 
 ### Disadvantages of nationalisation
 

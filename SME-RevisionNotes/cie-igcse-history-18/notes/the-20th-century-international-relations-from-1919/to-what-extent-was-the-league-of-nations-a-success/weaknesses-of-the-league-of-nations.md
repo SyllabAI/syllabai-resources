@@ -85,7 +85,7 @@ Thought that the League was weak without the USA](../../../assets/5c15e9a79243-3
   - If the League placed ***sanctions**** *on the USA, it would affect their ability to ***export***
 - **Wilson became too ill to run for re-election in 1920**
 
-  - Wilson undertook a 27-day train journey to win public support for the *Versailles Settlement *and the League of Nations
+  - Wilson undertook a 27-day train journey to win public support for the *Versailles Settlement* and the League of Nations
   - When he returned to Washington, he suffered a stroke
 - The ***Republican*** candidate, **Warren Harding**, campaigned aggressively against the League of Nations
 

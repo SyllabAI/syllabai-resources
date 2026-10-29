@@ -25,9 +25,9 @@ guided_study: true
 
 - The following formulae will let you find the sum of the first ***n*** terms of an arithmetic progression: $S_{n}=\frac{n}{2}(2a+(n-1)d)$   or   $S_{n}=\frac{n}{2}(a+l)$
 
-  - *a *is the first term
-  - *d *is the common difference
-  - *l *is the last term
+  - *a* is the first term
+  - *d* is the common difference
+  - *l* is the last term
 
 - You can use whichever formula is more convenient for a given question
 - The ***a*** and the ***d*** in those formulae are exactly the same as the ones used with **arithmetic progressions**
@@ -41,7 +41,7 @@ guided_study: true
   - Add the two sums together
   
     - The terms will pair up to give the same sum $2a+(n-1)d$
-    - There will be *n *of these terms
+    - There will be *n* of these terms
   - Divide by two as two of the sums have been added together ![Arithm Series Proof, A Level & AS Level Pure Maths Revision Notes](assets/96bd5ab585a8-4-4-2-arithm-series-proof.png)
 
 > **Exam Hint**

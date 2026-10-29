@@ -55,7 +55,7 @@ guided_study: false
 
 | Factor | Explanation |
 |---|---|
-| **Interest payments** | - The government must pay interest to *bondholders *each year - high debt levels mean a larger share of government spending is consumed by *debt servicing*, leaving less for public services<br><br>  - UK debt interest payments exceeded £100 billion in 2023 |
+| **Interest payments** | - The government must pay interest to *bondholders* each year - high debt levels mean a larger share of government spending is consumed by *debt servicing*, leaving less for public services<br><br>  - UK debt interest payments exceeded £100 billion in 2023 |
 | **Intergenerational burden** | - A large national debt may transfer the cost of repayment to future taxpayers, raising questions of *intergenerational equity* - today's borrowing is tomorrow's tax bill |
 | **Crowding out** | - High government borrowing may push up interest rates, raising the cost of borrowing for private firms and households and reducing private sector investment |
 | **Fiscal sustainability** | - If the national debt grows faster than GDP, the debt-to-GDP ratio rises, potentially undermining market confidence in the government's ability to repay and increasing the risk of a *sovereign debt crisis* |
@@ -72,7 +72,7 @@ guided_study: false
 > 
 > **Actions taken**
 > 
-> - The government ran persistent budget deficits throughout the 1990s and 2000s, financing large *infrastructure *spending programmes
+> - The government ran persistent budget deficits throughout the 1990s and 2000s, financing large *infrastructure* spending programmes
 > - Following the 2008 global financial crisis and the 2011 Tōhoku earthquake, further emergency spending increased the deficit significantly
 > - The Bank of Japan purchased large quantities of *government bonds* to keep interest rates near zero, preventing debt servicing costs from becoming unmanageable
 > 

@@ -75,17 +75,17 @@ Obtain $\frac{dy}{dx}$ by applying the product rule **formula**
 > **Worked Example**
 > Find the derivative of $y=5x^{2}\mathrm{cos}3x$.
 > 
-> > *We'll use  *$y=uv$*  form*
+> > *We'll use* $y=uv$ *form*
 > 
-> > *Identify the functions *$u$* and *$v$
+> > *Identify the functions* $u$ *and* $v$
 > 
 > $u=5x^{2}v=\mathrm{cos}3x$
 > 
-> > *Differentiate those to find *$u'$* and *$v'$
+> > *Differentiate those to find* $u'$ *and* $v'$
 > 
 > $u'=10xv'=-3\mathrm{sin}3x$
 > 
-> > *Put the pieces together using  *$y'=u'v+uv'$
+> > *Put the pieces together using* $y'=u'v+uv'$
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( 10 x ) ( \cos 3 x ) + ( 5 x^{2} ) ( - 3 \sin 3 x )$
 > 
@@ -169,17 +169,17 @@ Obtain $\frac{dy}{dx}$ by applying the quotient rule **formula**
 > **Worked Example**
 > Given the function $f(x)=\frac{\mathrm{cos}2x}{3x+2}$,  find $\mathrm{f}^{'} ( x )$.
 > 
-> > *We'll use *$y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$* form*
+> > *We'll use* $y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$ *form*
 > 
-> > *Identify the functions *$\mathrm{f} ( x )$* and *$\mathrm{g} ( x )$
+> > *Identify the functions* $\mathrm{f} ( x )$ *and* $\mathrm{g} ( x )$
 > 
 > $\mathrm{f} ( x ) = \cos 2 x \mathrm{g} ( x ) = 3 x + 2$
 > 
-> > *Differentiate those to find *$\mathrm{f} ' ( x )$* and *$\mathrm{g}^{'} ( x )$
+> > *Differentiate those to find* $\mathrm{f} ' ( x )$ *and* $\mathrm{g}^{'} ( x )$
 > 
 > $\mathrm{f}^{'} ( x ) = - 2 \sin 2 x \mathrm{g}^{'} ( x ) = 3$
 > 
-> > *Put the pieces together using  *$\frac{ \mathrm{d} }{ \mathrm{d} x} ( \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )} ) = \frac{ \mathrm{f}^{'} ( x ) \mathrm{g} ( x ) - \mathrm{f} ( x ) \mathrm{g}^{'} ( x )}{[ \mathrm{g} ( x ) ]^{2}}$* from the exam formula sheet*
+> > *Put the pieces together using* $\frac{ \mathrm{d} }{ \mathrm{d} x} ( \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )} ) = \frac{ \mathrm{f}^{'} ( x ) \mathrm{g} ( x ) - \mathrm{f} ( x ) \mathrm{g}^{'} ( x )}{[ \mathrm{g} ( x ) ]^{2}}$ *from the exam formula sheet*
 > 
 > $\mathrm{f} ' ( x ) = \frac{( - 2 \sin 2 x ) ( 3 x + 2 ) - ( \cos 2 x ) ( 3 )}{( 3 x + 2 )^{2}}$
 > 
@@ -286,13 +286,13 @@ Substitute the expression for $u$ back in
 > **Worked Example**
 > (a) Find the derivative of$y=(x^{2}-5x+7)^{7}$.
 > 
-> > *This is *$y = [ \mathrm{f} ( x ) ]^{n}$* with *$n=7$* and *$\mathrm{f} ( x ) = x^{2} - 5 x + 7$
+> > *This is* $y = [ \mathrm{f} ( x ) ]^{n}$ *with* $n=7$ *and* $\mathrm{f} ( x ) = x^{2} - 5 x + 7$
 > 
-> > *Start by finding the derivative of *$\mathrm{f} ( x )$
+> > *Start by finding the derivative of* $\mathrm{f} ( x )$
 > 
 > $\frac{ \mathrm{d} }{ \mathrm{d} x} ( x^{2} - 5 x + 7 ) = 2 x - 5$
 > 
-> > *Now use  *$\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
+> > *Now use* $\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 7 ( 2 x - 5 ) ( x^{2} - 5 x + 7 )^{7 - 1}$
 > 
@@ -304,17 +304,17 @@ Substitute the expression for $u$ back in
 > 
 > $y = ( \sin x )^{1 \frac{1}{2}}$
 > 
-> > *This is *$y = [ \mathrm{f} ( x ) ]^{n}$* with *$n=\frac{1}{2}$* and *$\mathrm{f} ( x ) = \sin x$
+> > *This is* $y = [ \mathrm{f} ( x ) ]^{n}$ *with* $n=\frac{1}{2}$ *and* $\mathrm{f} ( x ) = \sin x$
 > 
-> > *Find the derivative of *$\mathrm{f} ( x )$
+> > *Find the derivative of* $\mathrm{f} ( x )$
 > 
 > $\frac{ \mathrm{d} }{ \mathrm{d} x} ( \sin x ) = \cos x$
 > 
-> > *Now use  *$\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
+> > *Now use* $\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
 > 
 > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = ( 1 \frac{1}{2} ) ( \cos x ) ( \sin x )^{1 \frac{1}{2} - 1} \\ = \frac{\cos x}{2} ( \sin x )^{- 1 \frac{1}{2}} \end{gathered}$
 > 
-> > *And by laws of indices  *$( \sin x )^{- 1 \frac{1}{2}} = \frac{1}{( \sin x )^{1 \frac{1}{2}}} = \frac{1}{ \sqrt{\sin x} }$
+> > *And by laws of indices* $( \sin x )^{- 1 \frac{1}{2}} = \frac{1}{( \sin x )^{1 \frac{1}{2}}} = \frac{1}{ \sqrt{\sin x} }$
 > 
 > $\frac{dy}{dx}=\frac{\mathrm{cos}x}{2\sqrt{\mathrm{sin}x}}$
 > 
@@ -322,7 +322,7 @@ Substitute the expression for $u$ back in
 > 
 > > *This is not a 'power of a function', so we need to use the general chain rule method*
 > 
-> > *Start by identifying *$y$* and *$u$
+> > *Start by identifying* $y$ *and* $u$
 > 
 > $y=e^{u}\,\,u=\mathrm{cos}x$
 > 
@@ -330,11 +330,11 @@ Substitute the expression for $u$ back in
 > 
 > $\frac{dy}{du}=e^{u}\,\,\frac{du}{dx}=-\mathrm{sin}x$
 > 
-> > *Substitute into  *$\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
+> > *Substitute into* $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( \mathrm{e}^{u} ) \times ( - \sin x )$
 > 
-> > *Substitute the expression for *$u$* back in*
+> > *Substitute the expression for* $u$ *back in*
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( \mathrm{e}^{\cos x} ) \times ( - \sin x )$
 > 

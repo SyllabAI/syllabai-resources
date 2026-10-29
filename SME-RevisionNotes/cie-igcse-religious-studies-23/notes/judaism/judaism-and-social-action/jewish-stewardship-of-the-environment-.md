@@ -20,7 +20,7 @@ guided_study: false
 - The world is important for humans both now and in the future because there is **only one planet Earth**,** **and it cannot be replaced
 - Religious people believe that they have been given a significant role in **ensuring the planet is maintained for future generations**
 - Religious people believe that they have a **duty to look after it** (**stewardship**) and **treat it with respect**
-- They also believe that humans have *dominion *over nature by** permission of G-d**
+- They also believe that humans have *dominion* over nature by** permission of G-d**
 - In Judaism, humans are seen as** caretakers of G-d’s creation**
 - The Hebrew term for this idea is “bal tashchit”, or “**do not destroy**”
 - Jewish beliefs about the world and the role humans have to play affect the way Jewish people act
@@ -39,7 +39,7 @@ guided_study: false
 - Jews **believe G-d made the world**, so they have a** duty to care** for it
 
   - This includes **avoiding waste (bal tashchit)**, acting as **stewards** and helping to **repair the world (tikkun olam)**
-- Part of the command of *bal tashchit *is a **ban on needless destruction**, which **encourages sustainability** and** caring for nature**
+- Part of the command of *bal tashchit* is a **ban on needless destruction**, which **encourages sustainability** and** caring for nature**
 
 > **blockquote**
 > “Do not destroy trees… for the tree of the field is man’s life” (Deuteronomy 20:19)

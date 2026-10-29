@@ -166,7 +166,7 @@ guided_study: false
 
 #### Email
 
-- Businesses create *databases *of customers who opt in to email updates
+- Businesses create *databases* of customers who opt in to email updates
 - These emails share news of new products, offers and events quickly and cheaply
 
 #### Mobile
@@ -225,7 +225,7 @@ guided_study: false
 
 **AI chatbots**
 
-- Many businesses use AI-powered *chatbots *to answer customer questions automatically
+- Many businesses use AI-powered *chatbots* to answer customer questions automatically
 - These bots are available 24/7 and help improve customer service without needing human staff at all times
 
 #### AI in marketing: key concerns

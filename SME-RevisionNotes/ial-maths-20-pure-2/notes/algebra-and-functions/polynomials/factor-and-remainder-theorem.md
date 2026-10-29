@@ -74,7 +74,7 @@ guided_study: false
   - This is because if f(x) = x<sup>2</sup>- 2x and a = 3
 - If the remainder from a polynomial division is known, the **remainder** **theorem **can be used to find unknown coefficients in polynomials
 
-  - g. The remainder from $(x^{2}+px)\div(x-2)$ is 8 so the value of *p* can be found by solving `2 squared plus p open parentheses 2 close parentheses equals 8`, leading to $p=2$
+  - g. The remainder from $(x^{2}+px)\div(x-2)$ is 8 so the value of *p* can be found by solving `2²+p (2)=8`, leading to $p=2$
   - In harder problems there may be more than one unknown in which case simultaneous equations would need setting up and solving
 - The more general version of remainder theorem is if f(x) is divided by (ax - b) then the remainder is  $f(\frac{b}{a})$
 

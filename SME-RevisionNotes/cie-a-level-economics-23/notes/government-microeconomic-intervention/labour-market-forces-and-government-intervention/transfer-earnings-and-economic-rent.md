@@ -48,7 +48,7 @@ guided_study: false
 
   - Where moving to another high-paying occupation requires significant retraining, transfer earnings fall
   
-    - A surgeon cannot easily transfer into another well-paid profession — high *barriers to entry *elsewhere reduce the value of their next best alternative
+    - A surgeon cannot easily transfer into another well-paid profession — high *barriers to entry* elsewhere reduce the value of their next best alternative
 - **Conditions in the wider labour market**
 
   - in a strong labour market with low unemployment, alternative opportunities are more plentiful, raising transfer earnings across most occupations
@@ -66,7 +66,7 @@ guided_study: false
     - Elite athletes possess natural talent that cannot be trained into other workers -  their supply is highly inelastic, generating very large rents
 - **Strength of demand**
 
-  - High *MRP *combined with inelastic supply generates the largest economic rents
+  - High *MRP* combined with inelastic supply generates the largest economic rents
   
     - A top commercial lawyer whose work generates \$millions in deal value has both high MRP and scarce skills - economic rent is substantial
 - **Barriers to entry**

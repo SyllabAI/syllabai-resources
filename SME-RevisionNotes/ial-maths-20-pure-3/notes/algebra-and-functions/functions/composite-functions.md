@@ -43,7 +43,7 @@ guided_study: true
 
   - **fg(x)** means **“f **of** g **of** x”**
 
-  - First apply *g *to *x *to get $g(x)$
+  - First apply *g* to *x* to get $g(x)$
   - Then apply *f* to the previous output to get $f(g(x))$
   - Always start with the function **closest to the variable**
   - $fg(x)$ is not usually equal to $gf(x)$

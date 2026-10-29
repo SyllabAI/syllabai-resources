@@ -21,7 +21,7 @@ guided_study: true
 
 - Look at the expression  3*x*(*t* + 4) + 2(*t* + 4)
 
-  - Both terms have a **common** **bracket**, (*t *+ 4)
+  - Both terms have a **common** **bracket**, (*t* + 4)
   - The whole bracket, (*t* + 4), can be "taken out" like a common factor:
   
     - (*t* + 4)(3*x* + 2)
@@ -39,10 +39,10 @@ guided_study: true
     - The second two terms have a common factor of 5
   - Factorising fully the **first pair** of terms, and the** last pair** of terms:
   
-    - *x*(*y *+ 3) + 5(*y *+ 3)
-  - You can now spot a common bracket of (*y *+ 3)
+    - *x*(*y* + 3) + 5(*y* + 3)
+  - You can now spot a common bracket of (*y* + 3)
   
-    - (*y *+ 3)(*x *+ 5)
+    - (*y* + 3)(*x* + 5)
 
 - This is called** factorising by grouping**
 
@@ -55,7 +55,7 @@ guided_study: true
     - *xy* + 5*y* + 3*x* + 15
     - The first pair of terms have a common factor of *y*
     - The second pair of terms have a common factor of 3
-  - Factorising gives  *y*(*x *+ 5) + 3(*x *+ 5)
+  - Factorising gives  *y*(*x* + 5) + 3(*x* + 5)
   
     - You can now spot a common bracket, this time of (*x* + 5)
   - (*x*+5)(*y*+3)
@@ -69,7 +69,7 @@ guided_study: true
 > Once you have factorised something, expand it by hand to check your answer is correct.
 
 > **Worked Example**
-> Factorise *ab *+ 3*b *+* *2*a *+ 6.
+> Factorise *ab* + 3*b *+* *2*a *+ 6.
 > 
 > **Answer:**
 > 
@@ -82,7 +82,7 @@ guided_study: true
 > 
 > **b(a ***+ 3)** **+*** ***2***a ***+ 6 *
 > 
-> > *Factorise the second two terms, using 2 as a common factor *
+> > *Factorise the second two terms, using 2 as a common factor*
 > 
 > **b(a ***+ 3)** **+*** ***2(***a ***+ 3) *
 > 
@@ -96,7 +96,7 @@ guided_study: true
 > > *Notice that **ab** and 2**a** have a common factor of **a*
 > *Notice that 3**b** and 6 have a common factor of 3*
 > 
-> > *Rewrite the expression, grouping these terms together *
+> > *Rewrite the expression, grouping these terms together*
 > 
 > **ab ***+ 2***a ***+ 3***b ***+ 6*
 > 
@@ -104,7 +104,7 @@ guided_study: true
 > 
 > **a***(***b*** + 2) + 3***b*** + 6*
 > 
-> > *Factorise the second two terms, using 3 as a common factor *
+> > *Factorise the second two terms, using 3 as a common factor*
 > 
 > **a***(***b*** + 2) + 3(***b*** + 2) *
 > 

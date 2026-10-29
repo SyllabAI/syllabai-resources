@@ -35,11 +35,11 @@ guided_study: false
 > **Worked Example**
 > The displacement, $x$ m, of a particle at $t$ seconds, is modelled by the function $x(t)=2t^{3}-27t^{2}+84t$.
 > 
-> Find expressions for `x apostrophe open parentheses t close parentheses` and `x apostrophe apostrophe open parentheses t close parentheses`, and state what these expressions represent.
+> Find expressions for `x apostrophe (t)` and `x apostrophe apostrophe (t)`, and state what these expressions represent.
 > 
 > $x=2t^{3}-27t^{2}+84t$
 > 
-> > `x apostrophe open parentheses t close parentheses`* means the same as *$\frac{dx}{dt}$
+> > `x apostrophe (t)` *means the same as* $\frac{dx}{dt}$
 > 
 > `x apostrophe open parentheses t close parentheses space equals space 6 t squared minus 54 t plus 84
 > x apostrophe open parentheses t close parentheses space equals space 6 open parentheses t squared minus 9 t plus 14 close parentheses`
@@ -48,9 +48,9 @@ guided_study: false
 >  **This expression represents the velocity of the particle.** 
 > **Answers may or may not need to be factorised, depending on the question**
 > 
-> > `x apostrophe apostrophe open parentheses t close parentheses`* means the same as *$\frac{d^{2}x}{dt^{2}}$
+> > `x apostrophe apostrophe (t)` *means the same as* $\frac{d^{2}x}{dt^{2}}$
 > 
-> `x apostrophe apostrophe open parentheses t close parentheses space equals space 12 t minus 54`
+> `x apostrophe apostrophe (t)=12t−54`
 > 
 > $x''(t)=6(2t-9)$ 
 > **This expression represents the acceleration of the particle.**
@@ -83,11 +83,11 @@ guided_study: false
 
 - Definite integrals can be used to find the displacement of a particle between two points in time
 
-  - `space integral subscript t subscript 1 end subscript superscript t subscript 2 end superscript space v left parenthesis t right parenthesis space straight d t` would give the **displacement** of the particle **between** the times$t=t_{1}$ and$t=t_{2}$
+  - `space integral_ t_ 1 end_ superscript t_ 2 end superscript v left parenthesis t right parenthesis straight d t` would give the **displacement** of the particle **between** the times$t=t_{1}$ and$t=t_{2}$
   
     - This can be found using a velocity-time graph by **subtracting** the **total area below** the horizontal axis from the **total area above**
     - You could think of this as the "net area" e.g. 4 m - 1 m = 3 m
-  - `space integral subscript t subscript 1 end subscript superscript t subscript 2 end superscript open vertical bar v left parenthesis t right parenthesis close vertical bar space straight d t` gives the **distance **a particle has **travelled** between the times$t=t_{1}$ and$t=t_{2}$
+  - `space integral_ t_ 1 end_ superscript t_ 2 end superscript open vertical bar v left parenthesis t right parenthesis close vertical bar straight d t` gives the **distance **a particle has **travelled** between the times$t=t_{1}$ and$t=t_{2}$
   
     - This can be found using a velocity velocity-time graph by **adding** the **total area below** the horizontal axis to the **total area above**
     - You could think of this as the "gross area" e.g. 4 m + 1 m = 5 m
@@ -105,14 +105,14 @@ guided_study: false
 > `s open parentheses t close parentheses space equals integral v open parentheses t close parentheses space d t space space equals space integral open parentheses 8 t cubed minus 12 t squared minus 2 t close parentheses space d t
 > s open parentheses t close parentheses space equals space 2 t to the power of 4 minus 4 t cubed minus t squared plus c`
 > 
-> > *"Initial" means when *$t=0$* and "at the origin" means *$s=0$
+> > *"Initial" means when* $t=0$ *and "at the origin" means* $s=0$
 > 
-> > *Substitute these values in to find *$c$
+> > *Substitute these values in to find* $c$
 > 
 > `0 space equals space 2 open parentheses 0 close parentheses to the power of 4 minus 4 open parentheses 0 close parentheses cubed minus open parentheses 0 close parentheses squared plus c
 > c equals 0`
 > 
-> `bold italic s open parentheses t close parentheses space equals space 2 bold italic t to the power of 4 minus 4 bold italic t cubed minus bold italic t squared`
+> `bold italic s (t)=2 bold italic t^4−4 bold italic t³−bold italic t²`
 > 
 > b) Find the displacement of the particle from the origin after the first five seconds of its motion.
 > 

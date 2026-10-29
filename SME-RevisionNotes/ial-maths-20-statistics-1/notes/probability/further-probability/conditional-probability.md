@@ -25,18 +25,18 @@ guided_study: true
 - In **probability**, set notation allows us to talk about the **sample** **space** and ***events***** **within in it
 
   - S, U, $ξ$ , $E$ are common symbols used for the Universal set In probability this is the entire sample space, or the rectangle in a **Venn diagram**
-  - **Events** are denoted by capital letters, *A, B, C *etc
+  - **Events** are denoted by capital letters, *A, B, C* etc
   - The **events **“$notA$ ”, “$notB$”, “$notC$” are denoted by $A',B',C'$ etc (Strictly pronounced “*A*  prime” but often called “*A*  dash”)  $A'$is called the **complement** of *A*
 - In probability we are often looking at combined events
 
   - The event *A* and *B* is called the **intersection** of events *A* and *B* , and the symbol ∩  is used i.e.  *A* and *B*  is written as $A\capB$
   
-    - On a **Venn** **diagram** this would be the **overlap** between the bubble for event *A *and the bubble for event $B$
+    - On a **Venn** **diagram** this would be the **overlap** between the bubble for event *A* and the bubble for event $B$
     - From **Basic** **Probability**, for ***independent*** events
 
 $P(A\capB)=P(A)\timesP(B)$
 
-- The event *A *or *B* is called the **union** of events *A* and *B* , and the symbol $\cup$ is used i.e.  *A *or *B*  is written as $A\cupB$
+- The event *A* or *B* is called the **union** of events *A* and *B* , and the symbol $\cup$ is used i.e.  *A* or *B*  is written as $A\cupB$
 
   - On a **Venn** **diagram** this would be **both** the bubbles for event A and event B including their **overlap** (**intersection**)
   - From **Basic** **Probability**, for ***mutually**** ****exclusive*** events

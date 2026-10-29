@@ -142,7 +142,7 @@ guided_study: false
   - If b is positive then the data set has **positive correlation **and if b is negative then the data set has **negative correlation**
 - The value of *b* can be used to interpret how the data is changing
 
-  - *b* is the ***gradient*** of the line and represents the change in *y * for each individual unit change in $x$
+  - *b* is the ***gradient*** of the line and represents the change in *y* for each individual unit change in $x$
 - The regression line can also be used to **predict** the value of a **dependent variable** from an **independent variable**
 
   - Predictions should only be made for values of the dependent variable that are within the range of the given data

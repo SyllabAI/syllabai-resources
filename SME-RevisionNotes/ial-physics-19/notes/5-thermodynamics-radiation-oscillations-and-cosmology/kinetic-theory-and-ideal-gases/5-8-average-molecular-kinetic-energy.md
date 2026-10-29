@@ -48,7 +48,7 @@ guided_study: false
 
 - Where:
 
-  - *E*<sub>*k *</sub>= kinetic energy of a molecule (J)
+  - *E*<sub>*k* </sub>= kinetic energy of a molecule (J)
   - *m* = mass of one molecule (kg)
   - (*c*<sub>*rms*</sub>)<sup>2 </sup>= mean square speed of a molecule (m<sup>2</sup> s<sup>-2</sup>)
   - *k* = *Boltzmann constant*

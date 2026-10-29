@@ -90,7 +90,7 @@ Following these steps will give you a strategy for answering this question effec
   - The important information from each of the three bullet points that you need to include in your answer
 2. Re-read Text C and annotate any references directly relevant to the focus of the first bullet point:
 
-  - Do the same for the second and third bullet points* before *you start writing your answer
+  - Do the same for the second and third bullet points *before* you start writing your answer
 3. Start your answer with the first bullet point:
 
   - Maintain your focus on the bullet point - avoid the temptation to write about everything or make up information not directly relevant to the bullet point

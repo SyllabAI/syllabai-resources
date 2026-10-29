@@ -59,7 +59,7 @@ guided_study: false
 
 #### Multinational Corporations (MNCs)
 
-- The rapid growth and influence of *MNCs *contribute to globalisation by expanding their operations and presence across borders
+- The rapid growth and influence of *MNCs* contribute to globalisation by expanding their operations and presence across borders
 
 > **Worked Example**
 > A firm is described as a multinational corporation (MNC) if it:

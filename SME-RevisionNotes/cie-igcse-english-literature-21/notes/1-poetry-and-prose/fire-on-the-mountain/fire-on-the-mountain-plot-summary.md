@@ -537,7 +537,7 @@ Fire on the Mountain is split into three parts, with chapters within each of the
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

@@ -94,7 +94,7 @@ guided_study: false
 > 
 > - The plane stops after 400 m, which is 50 m before the end of the runway
 > 
-> - **Note:** In this solution, the negative value produced by *v*<sup>*2*</sup>* − u*<sup>*2*</sup> is cancelled out by the negative value for acceleration, giving a positive value for displacement
+> - **Note:** In this solution, the negative value produced by *v*<sup>*2*</sup>*− u*<sup>*2*</sup> is cancelled out by the negative value for acceleration, giving a positive value for displacement
 
 > **Worked Example**
 > A rocket is launched vertically, using motors which give it a constant vertical acceleration of 6.5 m s<sup>−2</sup> for 30 s before switching off.
@@ -146,7 +146,7 @@ guided_study: false
 > 
 > **Step 2: Identify the missing values (the unknown answer and the one not given)**
 > 
-> - Known quantities: *u, a,* *t*, and *v *(from part a)
+> - Known quantities: *u, a,* *t*, and *v* (from part a)
 > - Unknown quantity: final displacement, *s*
 > - All the SUVAT values are available in this case, but since *v* was calculated, first look for an equation that doesn't use it (in case of mistakes)
 > 
@@ -154,11 +154,11 @@ guided_study: false
 > 
 > - The SUVAT equation which omits velocity is:
 > 
-> *s* = *ut *+ $\frac{1}{2}$*at*<sup>*2*</sup>
+> *s* = *ut* + $\frac{1}{2}$*at*<sup>*2*</sup>
 > 
 > **Step 4: Substitute the values into the equation and calculate *****s***
 > 
-> *s *= (0 × 30) + $\frac{1}{2}$(6.5 × 30<sup>2</sup>) = 2925 m
+> *s* = (0 × 30) + $\frac{1}{2}$(6.5 × 30<sup>2</sup>) = 2925 m
 > 
 > **Step 5: Write the full answer to the question, taking care to check significant figures**
 > 

@@ -13,11 +13,11 @@ guided_study: false
 
 ### Timeline & Summary
 
-An **economic boom** is a period of **rapid economic growth** and *prosperity *within a country. During the 1920s, the US experienced an economic boom. Many factors contributed to this growth. One key factor was the emergence of new industries and technologies — such as cars, radios and consumer *appliances *— due to *innovation* and investment.
+An **economic boom** is a period of **rapid economic growth** and *prosperity* within a country. During the 1920s, the US experienced an economic boom. Many factors contributed to this growth. One key factor was the emergence of new industries and technologies — such as cars, radios and consumer *appliances* — due to *innovation* and investment.
 
 In the 1920s, there was also an increase in consumer spending. Workers had more *disposable income* than ever before due to rising wages and increased access to *credit.* This allowed more US citizens to purchase goods and services. Businesses had to produce more to meet this demand, further increasing their profits.
 
-*Republican* government policies also helped the economy boom. They cut taxes and allowed businesses to operate without government intervention. This promoted business investment and *entrepreneurship. *
+*Republican* government policies also helped the economy boom. They cut taxes and allowed businesses to operate without government intervention. This promoted business investment and *entrepreneurship.*
 
 The economic boom of the 1920s had a significant impact on the US. It led to a rising *standard of living*, increased *urbanisation* and the emergence of a modern *consumer culture*. The widespread availability of consumer technology transformed daily life for many US citizens. New products and wealth offered an opportunity for leisure and entertainment.
 
@@ -36,9 +36,9 @@ The economic boom of the 1920s had a significant impact on the US. It led to a r
 - The US did not suffer as much as European countries in the First World War
 
   - **No fighting** occurred on US soil
-  - The US suffered fewer* casualties*
+  - The US suffered fewer *casualties*
 - Before entering the First World War, the US gave** loans** to *Allied* countries
-- At the end of the conflict, the US began to* recall *the loans to Europe, which** increased American wealth**
+- At the end of the conflict, the US began to *recall* the loans to Europe, which** increased American wealth**
 
   - The** UK repaid \$4.7 bn **to the US
 - The First World War did not destroy US industry or *infrastructure*
@@ -76,7 +76,7 @@ The economic boom of the 1920s had a significant impact on the US. It led to a r
 
 - The expansion of the car industry also led to the growth of other industries
 
-  - Steel, rubber, glass, leather and oil manufacturers all* boomed* because they supplied parts to the car industry
+  - Steel, rubber, glass, leather and oil manufacturers all *boomed* because they supplied parts to the car industry
 - Other American industries soon adopted the **assembly line**
 
   - This made more and more goods affordable for US citizens
@@ -126,7 +126,7 @@ The economic boom of the 1920s had a significant impact on the US. It led to a r
   
     - This is French for “allow to do”
     - It meant that the Republican government did not interfere with how businesses were run
-- In addition to this, *Congress* passed the Fordney–McCumber* Tariff* in 1922
+- In addition to this, *Congress* passed the Fordney–McCumber *Tariff* in 1922
 
   - This placed a tariff or tax on foreign goods entering the US
   - This made foreign-made goods more expensive and encouraged American consumers to buy goods made in the US
@@ -139,7 +139,7 @@ The economic boom of the 1920s had a significant impact on the US. It led to a r
 
 - Many US citizens believed that the economic boom would last forever
 
-  - This led to more workers purchasing* shares* in companies than ever before
+  - This led to more workers purchasing *shares* in companies than ever before
 - Many workers bought shares “**on the margin**”
 
   - This meant that they borrowed money using low-interest loans and used it to buy the shares

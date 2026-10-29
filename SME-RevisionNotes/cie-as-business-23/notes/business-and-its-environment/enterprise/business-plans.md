@@ -53,7 +53,7 @@ guided_study: false
 #### Company description
 
 - A description of the business *mission*, vision, and values
-Information about the** legal structure**, location and any unique advantages or* intellectual property* the business may have
+Information about the** legal structure**, location and any unique advantages or *intellectual property* the business may have
 
 #### Market analysis
 

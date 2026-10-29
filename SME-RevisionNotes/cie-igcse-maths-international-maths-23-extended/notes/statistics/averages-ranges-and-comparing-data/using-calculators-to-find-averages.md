@@ -98,7 +98,7 @@ guided_study: true
 > 
 > > *Make sure the frequency is set to '1'*
 > 
-> > *Read off the values for the median (*$\mathrm{MedianX}$* or *$\mathrm{Med}$*), the lower quartile (*$Q_{1}X$* or *$Q1$*) and the upper quartile (*$Q_{3}X$* or *$Q3$*)*
+> > *Read off the values for the median (*$\mathrm{MedianX}$ *or* $\mathrm{Med}$*), the lower quartile (*$Q_{1}X$ *or* $Q1$*) and the upper quartile (*$Q_{3}X$ *or* $Q3$*)*
 > 
 > **Final answer:** **Median = 47**
 > **Lower quartile = 43**
@@ -192,7 +192,7 @@ guided_study: true
 > 
 > > *Select the statistics calculations from the statistics function and choose one-variable statistics*
 > 
-> > *Make sure the data is set as the 'time' column *
+> > *Make sure the data is set as the 'time' column*
 > *Make sure the frequency is set to the 'freq' column*
 > 
 > > *Read off the values for the mean (*`equation`$\overline{x}$*)*

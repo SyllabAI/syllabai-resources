@@ -121,7 +121,7 @@ guided_study: true
 > 
 > $a^{2}=4^{2}+6^{2}\,a^{2}=16+36\,a^{2}=52$
 > 
-> > *Draw triangle ABF flat and use Pythagoras' theorem to calculate AF *
+> > *Draw triangle ABF flat and use Pythagoras' theorem to calculate AF*
 > 
 > ![Triangle ABF. AB = 3 cm, BF = a cm and AF = b cm.](assets/11522c51cf53-38350-3d-pythagoras-and-trigonometry-11.png)
 > 
@@ -148,7 +148,7 @@ guided_study: true
 > > *The plane BEFC is the horizontal top surface of the box*
 > 
 > > *To see the angle between AF and the plane, form a triangle with side AB (which is a height perpendicular to the plane)*
-> *The angle needed is marked *$c$
+> *The angle needed is marked* $c$
 > 
 > ![Cuboid ABCDEFGH with a right-angled triangle ABF highlighted and another right-angled triangle BEF also highlighted.](assets/184ab2b031e2-56890-3d-pythagoras-and-trigonometry-12.png)
 > 
@@ -158,8 +158,8 @@ guided_study: true
 > ![Triangle ABF with sides AB (opposite) = 3 cm, BF (adjacent) = √52 cm and AF (hypotenuse) = √61 cm.](assets/d3a008e713dc-24816-3d-pythagoras-and-trigonometry-13.png)
 > 
 > > *This is now ready for SOHCAHTOA*
-> *We know all three sides so could use any trig ratio, for example  *$\mathrm{tan}θ=\frac{O}{A}$
-> *Use this to find angle *$c$
+> *We know all three sides so could use any trig ratio, for example* $\mathrm{tan}θ=\frac{O}{A}$
+> *Use this to find angle* $c$
 > 
 > $\begin{gathered} \tan c & = \frac{3}{ \sqrt{52} } \\ c = \tan ^{- 1} ( \frac{3}{ \sqrt{52} } ) \\ c = 22.58853... \end{gathered}$
 > 

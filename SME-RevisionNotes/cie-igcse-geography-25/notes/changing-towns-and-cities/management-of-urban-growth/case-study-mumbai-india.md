@@ -34,7 +34,7 @@ This page covers part of section 7.3.2 of the [CIE IGCSE specification](https://
 
 - Mumbai is the capital city of the **Maharashtra state** on the **western coast of India**
 - Originally, Mumbai was  a number of separate islands
-- These were joined through large-scale ***land reclamation*** and *causeway *projects
+- These were joined through large-scale ***land reclamation*** and *causeway* projects
 - Mumbai has more millionaires and billionaires than any other Indian city, but also the highest rates of poverty
 
   - Mumbai contributes 31% of India's entire tax revenue

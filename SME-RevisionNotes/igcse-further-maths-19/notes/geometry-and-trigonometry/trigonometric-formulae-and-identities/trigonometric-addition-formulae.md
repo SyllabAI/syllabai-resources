@@ -94,11 +94,11 @@ guided_study: false
 > 
 > > *Use the trigonometric addition formulae for tan*
 > 
-> > *Also recall that *$\mathrm{tan}\frac{π}{4}=1$
+> > *Also recall that* $\mathrm{tan}\frac{π}{4}=1$
 > 
-> $\text{tan} ( x + \frac{pi}{4} ) = \frac{ \text{tan} x + \text{tan} \frac{pi}{4}}{1 - \text{tan} x \text{tan} \frac{pi}{4}} = \frac{ \text{tan} x + 1}{1 - \text{tan} x}$
+> $\text{tan} ( x + \frac{\pi}{4} ) = \frac{ \text{tan} x + \text{tan} \frac{\pi}{4}}{1 - \text{tan} x \text{tan} \frac{\pi}{4}} = \frac{ \text{tan} x + 1}{1 - \text{tan} x}$
 > 
-> $\text{tan} ( x - \frac{pi}{4} ) = \frac{ \text{tan} x - \text{tan} \frac{pi}{4}}{1 + \text{tan} x \text{tan} \frac{pi}{4}} = \frac{ \text{tan} x - 1}{1 + \text{tan} x}$
+> $\text{tan} ( x - \frac{\pi}{4} ) = \frac{ \text{tan} x - \text{tan} \frac{\pi}{4}}{1 + \text{tan} x \text{tan} \frac{\pi}{4}} = \frac{ \text{tan} x - 1}{1 + \text{tan} x}$
 > 
 > > *Substitute those into the left-hand side of the equation and rearrange*
 > 
@@ -114,6 +114,6 @@ guided_study: false
 > 
 > $\begin{gathered} \frac{2 ( \tan ^{2} x + 1 )}{1 - \tan ^{2} x} & = - 4 \\ \frac{\tan ^{2} x + 1}{1 - \tan ^{2} x} & = - 2 \\ \tan ^{2} x + 1 & = 2 \tan ^{2} x - 2 \\ \tan ^{2} x & = 3 \\ \tan x & = \pm \sqrt{3} \\ x = \frac{\pi }{3} , - \frac{\pi }{3} \end{gathered}$
 > 
-> > *But only *$\frac{π}{3}$* is in the range *$0\leqx\leq\frac{π}{2}$
+> > *But only* $\frac{π}{3}$ *is in the range* $0\leqx\leq\frac{π}{2}$
 > 
 > $x=\frac{π}{3}$

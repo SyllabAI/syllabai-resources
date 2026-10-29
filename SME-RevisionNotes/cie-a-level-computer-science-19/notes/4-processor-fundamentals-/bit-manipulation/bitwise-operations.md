@@ -63,7 +63,7 @@ guided_study: false
 | **Original** | *1* | *1* | 0 | 0 | *1* | 0 | 0 | 0 |
 | **Right shift by 3** | 0 | 0 | 0 | *1* | *1* | 0 | 0 | *1* |
 
-- **Original number:**       *1100 1000 *= **200**
+- **Original number:**       *1100 1000* = **200**
 - **Right shift (3) result: ***0001 1001* = **25**
 - Each right shift has **halved** the number:
 
@@ -91,13 +91,13 @@ guided_study: false
 | **Right shift by 3** | *1* | *1* | *1* | *1* | *1* | *1* | 0 | *1* |
 
 - **Original number**: *1110 1000*` `= **−24**
-- **Right shift (3)** **result**: *1111 1101 *= **−3**
+- **Right shift (3)** **result**: *1111 1101* = **−3**
 - Each arithmetic right shift **divides the number by 2**, rounding **towards negative infinity** (preserving the sign bit)
 
   - **Original value** = **−24**
-  - **Right shift 1** → *1111 0100 *= **−12**
-  - **Right shift 2** → *1111 1010 *= **−6**
-  - **Right shift 3** → *1111 1101 *= **−3**
+  - **Right shift 1** → *1111 0100* = **−12**
+  - **Right shift 2** → *1111 1010* = **−6**
+  - **Right shift 3** → *1111 1101* = **−3**
 
 ### Cyclic
 
@@ -119,11 +119,11 @@ guided_study: false
 | **Cyclic left (×3)** | *1* | 0 | 0 | 0 | *1* | *1* | 0 | *1* |
 | **Cyclic right (×3)** | 0 | 0 | *1* | *1* | 0 | ***1*** | *1* | 0 |
 
-- The 3 leftmost bits *101 *wrap around to the right side
-- The 3 rightmost bits *001 *wrap around to the left side
-- **Original**: *1011 0001 *= **177**
-- **Cyclic left (3)**: *1000 1101 *= **141**
-- **Cyclic right (3)**: *0011 0110 *= **54**
+- The 3 leftmost bits *101* wrap around to the right side
+- The 3 rightmost bits *001* wrap around to the left side
+- **Original**: *1011 0001* = **177**
+- **Cyclic left (3)**: *1000 1101* = **141**
+- **Cyclic right (3)**: *0011 0110* = **54**
 
 | **Shift type** | **Left shift** | **Right shift** | **Used for** |
 |---|---|---|---|

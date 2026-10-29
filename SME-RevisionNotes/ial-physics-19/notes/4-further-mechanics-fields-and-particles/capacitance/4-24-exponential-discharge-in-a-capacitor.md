@@ -30,7 +30,7 @@ $Q=Q_{0}e^{-(t/RC)}$
   - *Q*<sub>0</sub> = initial charge stored (C)
   - *e* = exponential function
   - *t* = elapsed time (s)
-  - *R = *circuit* *resistance (Ω)
+  - *R =* circuit* *resistance (Ω)
   - *C* = capacitance (F)
 
 #### Discharge Equation for Potential Difference
@@ -41,11 +41,11 @@ $Q=Q_{0}e^{-(t/RC)}$
 
   - It also follows that the initial charge *Q*<sub>0</sub>* *= *CV*<sub>0</sub>* *(where *V*<sub>0</sub> is the initial potential difference)
 
-- Therefore, substituting *CV* for *Q *into the original exponential decay equation gives:
+- Therefore, substituting *CV* for *Q* into the original exponential decay equation gives:
 
 $CV=CV_{0}e^{-(t/RC)}$
 
-- Cancelling *C *from both sides gives the exponential decay equation for **potential difference *****V*****:**
+- Cancelling *C* from both sides gives the exponential decay equation for **potential difference *****V*****:**
 
 $V=V_{0}e^{-(t/RC)}$
 
@@ -65,13 +65,13 @@ $V=V_{0}e^{-(t/RC)}$
 
 - Recall Ohm's law ***V***** = *****IR***
 
-  - It follows that the initial potential difference *V*<sub>0</sub>* *= *I*<sub>0</sub>*R *(where *I*<sub>0</sub> is the initial current)
+  - It follows that the initial potential difference *V*<sub>0</sub>* *= *I*<sub>0</sub>*R* (where *I*<sub>0</sub> is the initial current)
 
-- Therefore, substituting *IR* for *V *into the decay equation for potential difference gives:
+- Therefore, substituting *IR* for *V* into the decay equation for potential difference gives:
 
 $IR=I_{0}Re^{-(t/RC)}$
 
-- Cancelling *R *from both sides gives the exponential decay equation for **current *****I*****:**
+- Cancelling *R* from both sides gives the exponential decay equation for **current *****I*****:**
 
 $I=I_{0}e^{-(t/RC)}$
 
@@ -119,7 +119,7 @@ $I=I_{0}e^{-(t/RC)}$
 > 
 > *I* = (0.012) × (*e*<sup>–1.5</sup>)
 > 
-> *I *= (0.012) × (0.223...)
+> *I* = (0.012) × (0.223...)
 > 
 > *I* = 2.7 × 10<sup>–3</sup> A = 2.7 mA
 
@@ -166,7 +166,7 @@ $\mathrm{ln}Q=-\frac{1}{RC}t+\mathrm{ln}Q_{0}$
 
 ***The natural logarithm of the exponential decay curve line arises it to a straight-line graph with a gradient equal to –1/RC***
 
-- Following similar steps, the linearised versions of the decay equations for **potential** **difference** *V *is:
+- Following similar steps, the linearised versions of the decay equations for **potential** **difference** *V* is:
 
 $\mathrm{ln}V=--\frac{1}{RC}t+\mathrm{ln}V_{0}$
 
@@ -175,7 +175,7 @@ $\mathrm{ln}V=--\frac{1}{RC}t+\mathrm{ln}V_{0}$
 $\mathrm{ln}I=-\frac{1}{RC}t+\mathrm{ln}I_{0}$
 
 > **Worked Example**
-> When a capacitor discharges, the voltage *V* across it varies with time *t. *A graph showing the variation of ln *V* against *t* is shown for a particular discharging capacitor.
+> When a capacitor discharges, the voltage *V* across it varies with time *t.* A graph showing the variation of ln *V* against *t* is shown for a particular discharging capacitor.
 > 
 > ![7-13-we-natural-log-graph-pd_edexcel-al-physics-rn](assets/8c4c28545919-7-13-we-natural-log-graph-pd-edexcel-al-physics-.png)
 > 
@@ -208,7 +208,7 @@ $\mathrm{ln}I=-\frac{1}{RC}t+\mathrm{ln}I_{0}$
 > *V*<sub>0</sub> = *e*<sup>(2.1)</sup> = 8.2 V
 
 > **Exam Hint**
-> You need to know how to derive decay equations for pd and for current from the decay equation for charge, as well as how to use and interpret natural logarithm equations. If you can understand that these natural log equations are **linear**, because they can plotted as a graph in the form *y* = *mx *+ *c*, then you are well set for exam questions on this topic! Remember:
+> You need to know how to derive decay equations for pd and for current from the decay equation for charge, as well as how to use and interpret natural logarithm equations. If you can understand that these natural log equations are **linear**, because they can plotted as a graph in the form *y* = *mx* + *c*, then you are well set for exam questions on this topic! Remember:
 > 
 > - The gradient of the straight line is given by -1/*RC*
 > - The y-intercept of the line represents ln *Q*<sub>0</sub> or ln *V*<sub>0</sub> or ln *I*<sub>0</sub>

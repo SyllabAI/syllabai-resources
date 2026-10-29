@@ -55,7 +55,7 @@ This page covers section 8.3.3 of the [CIE IGCSE specification](https://www.camb
 ### Disadvantages
 
 - **Fair Trade** products usually **cost more** than non-Fair Trade options, making them harder to buy and affecting sales
-- Getting *certified *can be difficult and expensive for producers, especially for small farmers and those in remote areas
+- Getting *certified* can be difficult and expensive for producers, especially for small farmers and those in remote areas
 - Fair Trade can make producers dependent on it, which might be risky if demand changes
 - The fair trade movement mainly focuses on a few products, like coffee and bananas, so options are limited for consumers
 

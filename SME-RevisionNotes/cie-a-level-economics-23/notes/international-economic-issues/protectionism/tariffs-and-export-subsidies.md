@@ -32,7 +32,7 @@ guided_study: false
 |---|---|---|
 | **Infant industry** | - New domestic industries need protection from established foreign competitors until they achieve** *****economies of scale*** and become internationally competitive | - Protection may become permanent - industries never become competitive; consumers pay higher prices indefinitely |
 | **Declining industry** | - Allows time to manage ***structural unemployment***** **as sunset industries contract, avoiding sudden job losses | - Delays necessary structural adjustment; resources remain in **inefficient **industries |
-| **Strategic industries** | - Certain industries (defence, food, energy) must be maintained for national security **regardless of comparative advantage** | - Governments may misidentify strategic industries; risk of *political lobbying *distorting decisions |
+| **Strategic industries** | - Certain industries (defence, food, energy) must be maintained for national security **regardless of comparative advantage** | - Governments may misidentify strategic industries; risk of *political lobbying* distorting decisions |
 | **Prevent dumping** | - Protects domestic producers from foreign firms selling below cost of production to **gain *****market share*** | - Difficult to identify genuine dumping; **retaliatory tariffs **may harm consumers and trigger trade wars |
 | **Correct a balance of payments deficit** | - Reducing imports through tariffs or quotas may reduce a **current account deficit** | - Effect **depends on *****PED**** *of imports; may trigger retaliation worsening the deficit further |
 | **Protect employment** | - Prevents job losses in industries facing low-cost foreign competition | - Creates inefficiency; **protects uncompetitive jobs** at the expense of consumers and export industries |
@@ -84,7 +84,7 @@ guided_study: false
 > 
 > C.  a tariff that improves an industry's terms of trade
 > 
-> D.  an *embargo *on goods with negative externalities
+> D.  an *embargo* on goods with negative externalities
 > 
 > **Final answer:** **Answer: B**
 > 

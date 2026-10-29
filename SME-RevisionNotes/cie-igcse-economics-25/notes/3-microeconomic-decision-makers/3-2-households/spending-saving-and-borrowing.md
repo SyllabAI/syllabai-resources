@@ -43,7 +43,7 @@ guided_study: false
 | **Influence** | **Explanation** |
 |---|---|
 | **Changes to income** | - Higher disposable income allows households to save more after covering essential expenses<br>- Lower disposable income means less money available for saving<br><br>  - E.g. A salary increase enables a family to deposit more into a savings account each month |
-| **Changes to interest rates** | - Higher* interest rates *encourage saving because the return on savings is greater<br>- Lower interest rates discourage saving as returns are smaller, making spending more attractive |
+| **Changes to interest rates** | - Higher *interest rates* encourage saving because the return on savings is greater<br>- Lower interest rates discourage saving as returns are smaller, making spending more attractive |
 | **Changes to confidence levels** | - High consumer confidence → households may save less and spend more<br>- Low confidence (e.g. during a recession) → households may increase saving as a precaution (**precautionary saving**) |
 | **Changes to age distribution** | - Younger people often save less and prioritise spending on education, housing and leisure<br>- Middle‑aged individuals may save more for *retirement*<br>- Retired individuals might reduce saving and draw on past savings |
 | **The culture of the country** | - Cultures that value saving (e.g. Japan, Germany) → higher proportion of income saved<br>- Consumption‑oriented cultures → lower savings rates |

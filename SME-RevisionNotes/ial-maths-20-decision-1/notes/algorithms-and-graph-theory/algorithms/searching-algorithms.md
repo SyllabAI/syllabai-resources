@@ -73,7 +73,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Find the pivot *
+> > *Find the pivot*
 > 
 > $\frac{( 1 + 8 )}{2} = 4.5 \rightarrow 5$*th item*
 > 

@@ -28,7 +28,7 @@ guided_study: false
 ### What are test strategies?
 
 - A test strategy is** a method of testing a completed system **to ensure **all parts work as intended**
-- Systems are designed in a *modular *format
+- Systems are designed in a *modular* format
 - Each module needs to be** tested independently**
 - Testing **is done again **once** **all **modules are joined together**
 - The results of testing **may indicate changes** need to be made, **testing is repeated **once all changes have been made

@@ -67,7 +67,7 @@ guided_study: false
 - Transport policies can help mitigate the effects of acid rain by using fewer fossil fuels
 - In many countries, it is **compulsory** for vehicles to have catalytic converters
 - By providing larger subsidies, governments can promote the use of public transport
-- Walking, cycling, and *carpooling *reduce emissions
+- Walking, cycling, and *carpooling* reduce emissions
 - Increasing the number of electric vehicles (EV) on the road can also help
 
 ## Benefits & limitations of strategies to manage impacts of acid rain

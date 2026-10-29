@@ -28,7 +28,7 @@ guided_study: false
     - but in **opposite** **directions**
 - In** two dimensions**, vectors consist of *x-* and *y-***components**
 
-  - This shows movement parallel to the* x*  and *y*-**axes**
+  - This shows movement parallel to the *x*  and *y*-**axes**
   - Components can be **positive **or** negative **
 
 ### What is a scalar?
@@ -62,7 +62,7 @@ guided_study: false
   - You should write **underlined** letters
   
     - <u>a</u>, <u>b</u>, ...
-- If points *(A ,* *B *, ...) are given, $\overset{\rightarrow}{AB}$ means the vector **from** *A * **to** *B*
+- If points *(A ,* *B*, ...) are given, $\overset{\rightarrow}{AB}$ means the vector **from** *A* **to** *B*
 
   - The **order** matters
 
@@ -121,12 +121,12 @@ guided_study: false
     - They both end up at the same place
 - The diagram below shows vectors **s**, **t** and **u**
 
-  - To get from *A * to *C * do **s** then **t**
+  - To get from *A* to *C* do **s** then **t**
   
     - **s **+** t**
 - If you have to travel the **wrong direction** along a vector, add the **negative** of that vector
 
-  - To get from *B * to *D * do **t** then the **reverse** of **u**
+  - To get from *B* to *D* do **t** then the **reverse** of **u**
   
     - **t** + (**-u**)
     - This simplifies to **t **-** u**

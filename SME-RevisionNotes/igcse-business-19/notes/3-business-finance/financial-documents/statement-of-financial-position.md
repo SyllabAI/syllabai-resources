@@ -80,7 +80,7 @@ guided_study: false
 
 #### Financing its activities
 
-- *Packer Sports Limited *is funded through share capital of \$1,500 and ***retained earnings*** of \$13,235
+- *Packer Sports Limited* is funded through share capital of \$1,500 and ***retained earnings*** of \$13,235
 
   - The business has long-term liabilities in the form of a loan for \$20,000
   
@@ -89,7 +89,7 @@ guided_study: false
 
 #### What the business owns
 
-- On the stated date, *Packer Sports Ltd *owned **assets** worth \$39,795 in total
+- On the stated date, *Packer Sports Ltd* owned **assets** worth \$39,795 in total
 
   - Non-current assets of \$24,250 consisting of property, machinery (plant) and other equipment
   - Current assets worth \$15,545, comprised of inventory, trade receivables and cash

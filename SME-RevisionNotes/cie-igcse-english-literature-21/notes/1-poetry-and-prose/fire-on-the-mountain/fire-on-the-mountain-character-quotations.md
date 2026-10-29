@@ -132,7 +132,7 @@ Here we will examine some important quotations from the following key characters
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

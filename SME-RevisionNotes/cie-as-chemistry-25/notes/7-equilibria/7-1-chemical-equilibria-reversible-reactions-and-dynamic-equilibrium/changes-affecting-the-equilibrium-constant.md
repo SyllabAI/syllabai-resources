@@ -19,7 +19,7 @@ guided_study: true
 
 ### Changes in concentration
 
-- If all other conditions stay the same, the equilibrium constant* K*<sub>*c*</sub> is **not affected** by any changes in concentration of the reactants or products
+- If all other conditions stay the same, the equilibrium constant *K*<sub>*c*</sub> is **not affected** by any changes in concentration of the reactants or products
 - For example, the decomposition of hydrogen iodide:
 
 **2HI ⇌ H**<sub>**2**</sub>** + I**<sub>**2**</sub>
@@ -35,7 +35,7 @@ guided_study: true
 ### Changes in pressure
 
 - A change in pressure **only **changes the **position** **of the equilibrium **(see [Le Chatelier’s principle](https://www.savemyexams.com/a-level/chemistry/cie/25/revision-notes/7-equilibria/7-1-chemical-equilibria-reversible-reactions-and-dynamic-equilibrium/le-chateliers-principle/))
-- If all other conditions stay the same, the equilibrium constant* K*<sub>*c*</sub> is **not affected **by any changes in the pressure of the reactants and products
+- If all other conditions stay the same, the equilibrium constant *K*<sub>*c*</sub> is **not affected **by any changes in the pressure of the reactants and products
 
 ### Changes in temperature
 
@@ -62,7 +62,7 @@ guided_study: true
 
 ### Presence of a catalyst
 
-- If all other conditions stay the same, the equilibrium constant* K*<sub>*c*</sub> is **not affected **by the presence of a catalyst
+- If all other conditions stay the same, the equilibrium constant *K*<sub>*c*</sub> is **not affected **by the presence of a catalyst
 - A catalyst speeds up both the forward and reverse reactions at the same rate so the ratio of [ products ] to [ reactants ] remains unchanged
 
 > **Worked Example**

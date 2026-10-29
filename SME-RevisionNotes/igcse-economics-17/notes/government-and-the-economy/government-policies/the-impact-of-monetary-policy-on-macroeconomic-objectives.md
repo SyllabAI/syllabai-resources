@@ -17,7 +17,7 @@ guided_study: false
 
 ## How Does Contractionary Monetary Policy Affect Macroeconomic Objectives?
 
-- When monetary policy decisions are made, it creates a **ripple effect through the economy,** impacting the* macroeconomic objectives* of the government
+- When monetary policy decisions are made, it creates a **ripple effect through the economy,** impacting the *macroeconomic objectives* of the government
 
   - Specifically, the use of monetary policy aims to achieve
   

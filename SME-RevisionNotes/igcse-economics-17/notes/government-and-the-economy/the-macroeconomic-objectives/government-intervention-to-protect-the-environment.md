@@ -23,7 +23,7 @@ guided_study: false
 
 ![Types of government intervention](../../../assets/44594e63ce12-edexcel-igcse-economics-types-of-government-inte.bin)
 
-*Governments intervention through taxation, subsidies, regulation, fines, permits & provision of parks *
+*Governments intervention through taxation, subsidies, regulation, fines, permits & provision of parks*
 
 - Some of the following government interventions to protect the environment have been explained earlier:
 
@@ -111,7 +111,7 @@ guided_study: false
 
 ## Providing Parks and Green Spaces
 
-- Parks are free **open spaces **and are considered a* public good*
+- Parks are free **open spaces **and are considered a *public good*
 
   - For example, the Canadian government provides 48 national parks in order to conserve land, protect ecosystems and provide recreational activities
 

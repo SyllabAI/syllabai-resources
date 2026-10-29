@@ -70,16 +70,16 @@ guided_study: false
 > **Worked Example**
 > (a)  Solve $z^{2}-2z+37=0$.
 > 
-> > *Use the quadratic formula with *$a=1$*, *$b=-2$* and *$c=37$
-> *Find the discriminant *$b^{2}-4ac$
+> > *Use the quadratic formula with* $a=1$*,* $b=-2$ *and* $c=37$
+> *Find the discriminant* $b^{2}-4ac$
 > 
 > $\begin{gathered} b^{2} - 4 a c & = ( - 2 )^{2} - 4 \times 1 \times 37 \\ = 4 - 148 \\ = - 144 \end{gathered}$
 > 
-> > *Substitute these values into the quadratic formula *$\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
+> > *Substitute these values into the quadratic formula* $\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > 
 > $\begin{gathered} z = \frac{- ( - 2 ) \pm \sqrt{- 144} }{2 \times 1} \\ = \frac{2 \pm \sqrt{- 144} }{2} \end{gathered}$
 > 
-> > *Use that *$\sqrt{-144}=\sqrt{144i^{2}}=12i$
+> > *Use that* $\sqrt{-144}=\sqrt{144i^{2}}=12i$
 > 
 > $z=\frac{2\pm12i}{2}$
 > 
@@ -94,7 +94,7 @@ guided_study: false
 > 
 > $-\frac{1}{2}-\frac{3i}{2}$
 > 
-> > *Write down the quadratic equation in factorised form, *$( z - z_{1} ) ( z - z_{1} \text{asterisk} \times ) = 0$
+> > *Write down the quadratic equation in factorised form,* $( z - z_{1} ) ( z - z_{1} \text{asterisk} \times ) = 0$
 > 
 > $( z - ( - 1 \frac{1}{2} + \frac{3 \mathrm{i} }{2} ) ) ( z - ( - 1 \frac{1}{2} - \frac{3 \mathrm{i} }{2} ) ) = 0$
 > 
@@ -110,7 +110,7 @@ guided_study: false
 > 
 > $( z + 1 \frac{1}{2} )^{2} - ( \frac{3 \mathrm{i} }{2} )^{2} = 0$
 > 
-> > *Expand and collect, using *$i^{2}=-1$
+> > *Expand and collect, using* $i^{2}=-1$
 > 
 > $\begin{gathered} z^{2} + z + 1 \frac{1}{4} + \frac{9}{4} & = 0 \\ z^{2} + z + \frac{5}{2} & = 0 \end{gathered}$
 > 
@@ -119,7 +119,7 @@ guided_study: false
 > 
 > $2z^{2}+2z+5=0$
 > 
-> > *Write down the values of *$a$*, *$b$* and *$c$
+> > *Write down the values of* $a$*,* $b$ *and* $c$
 > 
 > **Final answer:** $a=2$**, **$b=2$** and **$c=5$
 > 
@@ -210,8 +210,8 @@ guided_study: false
 > 
 > $-4-2i$
 > 
-> > *Write down a factorised quadratic factor of the cubic *
-> *Use the form *$( z - ( - 4 + 2 \mathrm{i} ) ) ( z - ( - 4 - 2 \mathrm{i} ) )$
+> > *Write down a factorised quadratic factor of the cubic*
+> *Use the form* $( z - ( - 4 + 2 \mathrm{i} ) ) ( z - ( - 4 - 2 \mathrm{i} ) )$
 > 
 > $( z - ( - 4 + 2 \mathrm{i} ) ) ( z - ( - 4 - 2 \mathrm{i} ) )$
 > 
@@ -219,27 +219,27 @@ guided_study: false
 > 
 > $= ( z + 4 - 2 \mathrm{i} ) ( z + 4 + 2 \mathrm{i} )$
 > 
-> > *Group the first pair of terms in each bracket *
+> > *Group the first pair of terms in each bracket*
 > *Then expand using the difference between two squares*
 > *Simplify the quadratic factor*
 > 
 > $\begin{gathered} = ( ( z + 4 ) - 2 \mathrm{i} ) ( ( z + 4 ) + 2 \mathrm{i} ) \\ = ( z + 4 )^{2} - ( 2 \mathrm{i} )^{2} \\ = z^{2} + 8 z + 16 + 4 \\ = z^{2} + 8 z + 20 \end{gathered}$
 > 
-> > *Write the cubic as the quadratic factor multiplied by a linear factor *$Pz+Q$
+> > *Write the cubic as the quadratic factor multiplied by a linear factor* $Pz+Q$
 > 
 > $z^{3} + 5 z^{2} - 4 z - 60 \equiv ( z^{2} + 8 z + 20 ) ( P z + Q )$
 > 
 > > *Either expand the right-hand side and equate coefficients*
-> *Or see that *$P=1$* to get *$z^{3}$*  on the left, and *$Q=-3$* to get *$-60$* on the left*
+> *Or see that* $P=1$ *to get* $z^{3}$ *on the left, and* $Q=-3$ *to get* $-60$ *on the left*
 > 
 > $z^{3} + 5 z^{2} - 4 z - 60 \equiv ( z^{2} + 8 z + 20 ) ( z - 3 )$
 > 
-> > $z^{3}+5z^{2}-4z-60=0$* so set the factorised cubic equal to zero*
+> > $z^{3}+5z^{2}-4z-60=0$ *so set the factorised cubic equal to zero*
 > 
 > $( z^{2} + 8 z + 20 ) ( z - 3 ) = 0$
 > 
 > > *The solutions from the quadratic factor are the complex conjugates*
-> *The solution from *$( z - 3 ) = 0$* is *$z=3$
+> *The solution from* $( z - 3 ) = 0$ *is* $z=3$
 > *Write down all three solutions*
 > 
 > **Final answer:** $z=-4+2i$**, **$-4-2i$** or **$3$
@@ -251,7 +251,7 @@ guided_study: false
 > $1-3i$
 > 
 > > *Write down a factorised quadratic factor of the quartic*
-> *Use the form *$( z - ( 1 + 3 \mathrm{i} ) ) ( z - ( 1 - 3 \mathrm{i} ) )$
+> *Use the form* $( z - ( 1 + 3 \mathrm{i} ) ) ( z - ( 1 - 3 \mathrm{i} ) )$
 > 
 > $( z - ( 1 + 3 \mathrm{i} ) ) ( z - ( 1 - 3 \mathrm{i} ) )$
 > 
@@ -259,37 +259,37 @@ guided_study: false
 > 
 > $= ( z - 1 - 3 \mathrm{i} ) ( z - 1 + 3 \mathrm{i} )$
 > 
-> > *Group the first pair of terms in each bracket *
+> > *Group the first pair of terms in each bracket*
 > *Then expand using the difference between two squares*
 > *Simplify the quadratic factor*
 > 
 > $\begin{gathered} = ( ( z - 1 ) - 3 \mathrm{i} ) ( ( z - 1 ) + 3 \mathrm{i} ) \\ = ( z - 1 )^{2} - ( 3 \mathrm{i} )^{2} \\ = z^{2} - 2 z + 1 + 9 \\ = z^{2} - 2 z + 10 \end{gathered}$
 > 
 > > *The other two roots are repeated and real*
-> *Write the quartic as the quadratic factor multiplied by the square of a linear factor *$( P z + Q )^{2}$
+> *Write the quartic as the quadratic factor multiplied by the square of a linear factor* $( P z + Q )^{2}$
 > 
 > $z^{4} - 8 z^{3} + A z^{2} + B z + 90 \equiv ( z^{2} - 2 z + 10 ) ( P z + Q )^{2}$
 > 
 > *Imagine expanding the right-hand side*
-> *To get* $z^{4}$* on the left, you can let *$P$* equal 1*
+> *To get* $z^{4}$ *on the left, you can let* $P$ *equal 1*
 > 
 > $\begin{gathered} z^{4} - 8 z^{3} + A z^{2} + B z + 90 & \equiv ( z^{2} - 2 z + 10 ) ( z + Q )^{2} \\ \equiv ( z^{2} - 2 z + 10 ) ( z^{2} + 2 Q z + Q^{2} ) \end{gathered}$
 > 
-> > *To get 90 on the left, let *$Q^{2}=9$* so *$Q=\pm3$
-> *To find out which value *$Q$* takes, expand and collect the right-hand side further*
+> > *To get 90 on the left, let* $Q^{2}=9$ *so* $Q=\pm3$
+> *To find out which value* $Q$ *takes, expand and collect the right-hand side further*
 > 
 > $\begin{gathered} z^{4} - 8 z^{3} + A z^{2} + B z + 90 & \equiv z^{4} + 2 Q z^{3} + 9 z^{2} - 2 z^{3} - 4 Q z^{2} - 18 z + 10 z^{2} + 20 Q z + 90 \\ \equiv z^{4} + ( 2 Q - 2 ) z^{3} + ( 9 - 4 Q + 10 ) z^{2} + ( - 18 + 20 Q ) z + 90 \end{gathered}$
 > 
-> > *The *$z^{4}$* and *$+90$* are correct*
-> *Equate the *$z^{3}$* coefficients to get an equation in *$Q$* and solve*
+> > *The* $z^{4}$ *and* $+90$ *are correct*
+> *Equate the* $z^{3}$ *coefficients to get an equation in* $Q$ *and solve*
 > 
 > $\begin{gathered} - 8 & = 2 Q - 2 \\ - 6 & = 2 Q \\ - 3 & = Q \end{gathered}$
 > 
-> > *Substitute *$Q=-3$* into the coefficient of *$z^{2}$* to get *$A$
+> > *Substitute* $Q=-3$ *into the coefficient of* $z^{2}$ *to get* $A$
 > 
 > $\begin{gathered} A = 9 - 4 ( - 3 ) + 10 \\ = 31 \end{gathered}$
 > 
-> > *Substitute *$Q=-3$* into the coefficient of *$z$* to get *$B$
+> > *Substitute* $Q=-3$ *into the coefficient of* $z$ *to get* $B$
 > 
 > $\begin{gathered} B = - 18 + 20 ( - 3 ) \\ = - 78 \end{gathered}$
 > 

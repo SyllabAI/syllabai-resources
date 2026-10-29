@@ -42,27 +42,27 @@ You now know how conjugation, addition and subtraction affect the geometry of co
 
 ### Which geometric transformations represent complex multiplication and division?
 
-- Let *w *be a given complex number with **modulus *****r**** *and **argument θ**
+- Let *w* be a given complex number with **modulus *****r**** *and **argument θ**
 
   - In exponential form $w=re^{iθ}$
-- Let *z *be any complex number represented on an Argand diagram
-- **Multiplying *****z***** by *****w*** results in *z *being:
+- Let *z* be any complex number represented on an Argand diagram
+- **Multiplying *****z***** by *****w*** results in *z* being:
 
   - **Stretched** from the origin by a **scale factor of *****r***
   
-    - If *r *> 1 then *z *will move further away from the origin
-    - If 0 < *r *< 1 then *z *will move closer to the origin
-    - If *r *= 1 then *z *will remain the same distance from the origin
+    - If *r* > 1 then *z* will move further away from the origin
+    - If 0 < *r* < 1 then *z* will move closer to the origin
+    - If *r* = 1 then *z* will remain the same distance from the origin
   - **Rotated anti-clockwise** about the origin by **angle θ**
   
     - If θ < 0 then the rotation will be clockwise
-- **Dividing *****z***** by *****w*** results in *z *being:
+- **Dividing *****z***** by *****w*** results in *z* being:
 
   - **Stretched** from the origin by a **scale factor of **$\frac{1}{r}$
   
-    - If *r *> 1 then *z *will move closer to the origin
-    - If 0 < *r *< 1 then *z *will further away from the origin
-    - If *r *= 1 then *z *will remain the same distance from the origin
+    - If *r* > 1 then *z* will move closer to the origin
+    - If 0 < *r* < 1 then *z* will further away from the origin
+    - If *r* = 1 then *z* will remain the same distance from the origin
   - **Rotated clockwise** about the origin by **angle θ**
   
     - If θ < 0 then the rotation will be anti-clockwise

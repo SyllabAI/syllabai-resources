@@ -31,7 +31,7 @@ guided_study: false
 | **Bonus** | - Money paid in **addition to a salary** and is usually a single annual payment<br>- Often paid when the company earns high levels of profits, or as a **reward **for exceptional worker performance |
 | **Piece rate pay** | - A **fixed amount **paid to the employee for **each completed item** produced<br><br>  - e.g., 25 Rupees paid to workers in India for each pair of socks they produce |
 | **Performance-related pay (PRP)** | - Payment based on how well the **worker performs**<br>- Workers doing exactly the **same job** may receive **different compensation** based on **different outcomes** they achieve |
-| **Share options** | - Payment through the issuing of *shares *in the company the employee works for<br>- This is usually in addition to a monthly salary<br>- The **monetary value **of the shares provided to the employee can be calculated on any given day as: **number of shares x share price** |
+| **Share options** | - Payment through the issuing of *shares* in the company the employee works for<br>- This is usually in addition to a monthly salary<br>- The **monetary value **of the shares provided to the employee can be calculated on any given day as: **number of shares x share price** |
 
 ## Non-wage factors
 
@@ -66,7 +66,7 @@ guided_study: false
 
 - Stability of employment can be an important deciding factor
 - Some industries offer *permanent contracts*; others have short‑term contracts (e.g. 1–4 years)
-- Workers may avoid jobs in industries with high *redundancy *risk
+- Workers may avoid jobs in industries with high *redundancy* risk
 
 ### Job satisfaction (enjoyment of work)
 

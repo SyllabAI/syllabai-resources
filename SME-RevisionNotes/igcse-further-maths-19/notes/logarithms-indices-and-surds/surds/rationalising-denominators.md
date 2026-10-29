@@ -90,6 +90,6 @@ $\frac{2 ( 1 - \sqrt{3} )}{( 1 + \sqrt{3} ) ( 1 - \sqrt{3} )} = \frac{2 ( 1 - \s
 > 
 > $2\sqrt{6}+4=4+2\sqrt{6}$
 > 
-> > *This is now in the required form, with *$p=4$*, *$q=2$* and *$r=6$
+> > *This is now in the required form, with* $p=4$*,* $q=2$ *and* $r=6$
 > 
 > $4+2\sqrt{6}$

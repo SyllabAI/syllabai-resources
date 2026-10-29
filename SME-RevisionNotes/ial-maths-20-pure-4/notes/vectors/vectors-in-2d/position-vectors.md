@@ -32,7 +32,7 @@ guided_study: true
 
 ### How do I find the magnitude of a displacement vector?
 
-- You can use **coordinate geometry** to find **magnitudes **of **displacement vectors** from *A * to *B*
+- You can use **coordinate geometry** to find **magnitudes **of **displacement vectors** from *A* to *B*
 
   - From the **position vectors** of *A*  and *B*  you know their coordinates
   

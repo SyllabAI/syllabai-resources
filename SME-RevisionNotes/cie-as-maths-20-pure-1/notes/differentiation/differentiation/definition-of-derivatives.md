@@ -22,21 +22,21 @@ guided_study: true
 - **Differentiation** is an operation that calculates the **rate of change** of a **function** with respect to a variable
 
   - This means how much the function varies when the variable increases by one unit
-- To **differentiate** a function (f(*x*)) with respect to the variable *x *we use the **notation**
+- To **differentiate** a function (f(*x*)) with respect to the variable *x* we use the **notation**
 
   - $\frac{ \mathrm{d} }{ \mathrm{d} x} ( \mathrm{f} ( x ) )$
 - The result is called the **derivative**
 
 ### What is the link between derivatives and gradients?
 
-- The rate of change of a function f(*x*) with respect to *x *can be thought of as the **gradient** **function** of the graph *y *= f(*x*)
+- The rate of change of a function f(*x*) with respect to *x* can be thought of as the **gradient** **function** of the graph *y* = f(*x*)
 
   - We can write the gradient function (or derivative) as
   
     - $f'(x)$ or $\frac{dy}{dx}$
 - The rate of change of a function (or the gradient of its graph) varies for different values of *x*
 
-  - For a **linear function** f(*x*)* *=* mx *+* c *the gradient is constant
+  - For a **linear function** f(*x*)* *= *mx* + *c* the gradient is constant
   
     - We can write this as $f'(x)=m$ or $\frac{dy}{dx}=m$
   - For the **quadratic function** f(*x*) = *x*² the gradient varies
@@ -54,7 +54,7 @@ guided_study: true
   - Calculate the **gradient of the chord** joining the two points
   
     - $\frac{ \mathrm{f} ( x + h ) - \mathrm{f} ( x )}{( x + h ) - x} = \frac{ \mathrm{f} ( x + h ) - \mathrm{f} ( x )}{h}$
-  - Move the **second point closer to the first point** (make *h *get close to zero)
+  - Move the **second point closer to the first point** (make *h* get close to zero)
   - Examine what **happens to the gradient **of the chord
   - The gradient of the tangent will be the **limit of the gradients of the chords**
   

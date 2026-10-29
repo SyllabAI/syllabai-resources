@@ -74,7 +74,7 @@ guided_study: true
 > **Step 2: Calculate the potential difference shown by voltmeter V**<sub>**2**</sub>
 > 
 > - Applying Kirchhoff's second law to this loop
-> - Both lamps have the same resistance *R* and the same current *I *through them so they share the energy equally and have the same potential difference
+> - Both lamps have the same resistance *R* and the same current *I* through them so they share the energy equally and have the same potential difference
 > 
 > ![10-2-5-we2-kirchhoff-step-2-cie-new](assets/468ff31cb66c-10-2-5-we2-kirchhoff-step-2-cie-new.png)
 > 

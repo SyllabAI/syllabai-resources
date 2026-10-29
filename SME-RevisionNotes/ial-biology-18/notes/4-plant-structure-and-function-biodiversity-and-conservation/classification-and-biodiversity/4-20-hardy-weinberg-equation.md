@@ -104,7 +104,7 @@ guided_study: false
 > 
 > - Allele frequencies:
 > 
->   - *p *= **F** = 0.68
+>   - *p* = **F** = 0.68
 >   - *q* =** f **= 0.32
 > - Genotype frequencies:
 > 

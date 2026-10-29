@@ -89,13 +89,13 @@ guided_study: false
 > 
 > Find the derivative of $\mathrm{f} ( x )$.
 > 
-> > *Start by rewriting the *$\frac{4}{\sqrt{x}}$* term as a power of *$x$
+> > *Start by rewriting the* $\frac{4}{\sqrt{x}}$ *term as a power of* $x$
 > 
-> > *By laws of indices, *$\frac{1}{\sqrt{x}}=x^{-\frac{1}{2}}$
+> > *By laws of indices,* $\frac{1}{\sqrt{x}}=x^{-\frac{1}{2}}$
 > 
 > $\mathrm{f} ( x ) = 2 x^{3} + 4 x^{- 1 \frac{1}{2}}$
 > 
-> > *Now differentiate as powers of *$x$
+> > *Now differentiate as powers of* $x$
 > 
 > $\begin{gathered} \mathrm{f}^{'} ( x ) & = 2 ( 3 x^{3 - 1} ) + 4 ( - 1 \frac{1}{2} x^{- 1 \frac{1}{2} - 1} ) \\ = 2 ( 3 x^{2} ) + 4 ( - 1 \frac{1}{2} x^{- \frac{3}{2} } ) \\ = 6 x^{2} - 2 x^{- \frac{3}{2} } \end{gathered}$
 > 
@@ -131,22 +131,22 @@ guided_study: false
 > **Worked Example**
 > (a) Given the function $\mathrm{f} ( x ) = \cos 5 x$, find $f^{'}(x)$.
 > 
-> > *Use  *$y=\mathrm{cos}ax\Rightarrow\frac{dy}{dx}=-a\mathrm{sin}ax$*  with  *$a=5$
+> > *Use* $y=\mathrm{cos}ax\Rightarrow\frac{dy}{dx}=-a\mathrm{sin}ax$ *with* $a=5$
 > 
 > $f^{'}(x)=-5\mathrm{sin}5x$
 > 
 > (b) A curve has the equation $y=3\mathrm{sin}\frac{x}{2}$.
 > Find the gradient of the curve at the point where  $x=\frac{π}{3}$, giving your answer as an exact value.
 > 
-> > *Start by finding *$\frac{dy}{dx}$
+> > *Start by finding* $\frac{dy}{dx}$
 > 
-> > *Use  *$y=\mathrm{sin}ax\Rightarrow\frac{dy}{dx}=a\mathrm{cos}ax$*  with  *$a=\frac{1}{2}$
+> > *Use* $y=\mathrm{sin}ax\Rightarrow\frac{dy}{dx}=a\mathrm{cos}ax$ *with* $a=\frac{1}{2}$
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 3 ( 1 \frac{1}{2} \cos \frac{x}{2} ) = \frac{3}{2} \cos \frac{x}{2}$
 > 
-> > *Substitute *$x=\frac{π}{3}$* into *$\frac{dy}{dx}$* to find the gradient*
+> > *Substitute* $x=\frac{π}{3}$ *into* $\frac{dy}{dx}$ *to find the gradient*
 > 
-> $\text{gradient} = \frac{3}{2} \text{cos} ( \frac{ ( \frac{pi}{3} ) }{2} ) = \frac{3}{2} \text{cos} \frac{pi}{6} = \frac{3}{2} ( \frac{\sqrt{3}}{2} ) = \frac{3 \sqrt{3}}{4}$
+> $\text{gradient} = \frac{3}{2} \text{cos} ( \frac{ ( \frac{\pi}{3} ) }{2} ) = \frac{3}{2} \text{cos} \frac{\pi}{6} = \frac{3}{2} ( \frac{\sqrt{3}}{2} ) = \frac{3 \sqrt{3}}{4}$
 > 
 > $\frac{3\sqrt{3}}{4}$
 
@@ -178,15 +178,15 @@ guided_study: false
 > 
 > Find the gradient of the curve at the point where$x=\frac{1}{2}$, giving your answer correct to 3 significant figures.
 > 
-> > *Differentiate using *$y=e^{ax}\Rightarrow\frac{dy}{dx}=ae^{ax}$
+> > *Differentiate using* $y=e^{ax}\Rightarrow\frac{dy}{dx}=ae^{ax}$
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 2 ( - 3 \mathrm{e}^{- 3 x} ) = - 6 \mathrm{e}^{- 3 x}$
 > 
-> > *Substitute *$x=\frac{1}{2}$* into *$\frac{dy}{dx}$* to find the gradient*
+> > *Substitute* $x=\frac{1}{2}$ *into* $\frac{dy}{dx}$ *to find the gradient*
 > 
 > $\text{gradient} = - 6 \mathrm{e}^{- 3 ( 1 \frac{1}{2} )} = - 6 \mathrm{e}^{- \frac{3}{2} }$
 > 
-> > *Note that  *$-6e^{-\frac{3}{2}}=-\frac{6}{e\sqrt{e}}$*  is the exact value answer*
+> > *Note that* $-6e^{-\frac{3}{2}}=-\frac{6}{e\sqrt{e}}$ *is the exact value answer*
 > 
 > > *Use a calculator to find the decimal version*
 > 

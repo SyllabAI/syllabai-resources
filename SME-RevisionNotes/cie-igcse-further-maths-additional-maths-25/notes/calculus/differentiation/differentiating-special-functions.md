@@ -51,7 +51,7 @@ guided_study: false
 > 
 > $f'(x)=\mathrm{cos}x$
 > 
-> ii.    *Use the chain rule or remember that when *$y = \cos ( a x + b )$*, then *$\frac{ \mathrm{d} y}{ \mathrm{d} x} = - a \sin ( a x + b )$
+> ii.    *Use the chain rule or remember that when* $y = \cos ( a x + b )$*, then* $\frac{ \mathrm{d} y}{ \mathrm{d} x} = - a \sin ( a x + b )$
 > 
 > $f'(x)=-2\mathrm{sin}(2x)$
 > 
@@ -67,7 +67,7 @@ guided_study: false
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 2 \cos ( 2 x + \frac{\pi }{6} )$
 > 
-> > *... and substitute *$x=\frac{π}{8}$* into the derivative*
+> > *... and substitute* $x=\frac{π}{8}$ *into the derivative*
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 2 \cos ( 2 ( \frac{\pi }{8} ) + \frac{\pi }{6} )$
 > 
@@ -102,7 +102,7 @@ guided_study: false
 > **Exam Hint**
 > - Remember to avoid the common mistakes:
 > 
->   - the derivative of$\mathrm{ln}kx$ with respect to $x$ is$\frac{1}{x}$*, *NOT$\frac{k}{x}$ !
+>   - the derivative of$\mathrm{ln}kx$ with respect to $x$ is$\frac{1}{x}$*,* NOT$\frac{k}{x}$ !
 >   - the derivative of $e^{kx}$ with respect to $x$ is $ke^{kx}$, NOT $kxe^{kx-1}$!
 
 > **Worked Example**
@@ -110,11 +110,11 @@ guided_study: false
 > 
 > Find the gradient of the curve at the point where $x=2$ giving your answer in the form $a+be^{c}$, where $a,b$ and $c$ are integers to be found.
 > 
-> > *Differentiate each term separately. *
+> > *Differentiate each term separately.*
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = - 3 \mathrm{e}^{- 3 x} + 2 ( \frac{1}{x} )$
 > 
-> > *Substitute *$x=2$* into the derivative.*
+> > *Substitute* $x=2$ *into the derivative.*
 > 
 > > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = - 3 \mathrm{e}^{- 3 ( 2 )} + 2 ( 1 \frac{1}{2} )$* *
 > 

@@ -98,19 +98,19 @@ $\begin{gathered} r = ( 2 i - 3 j ) + 10 ( 4 i + 7 j ) \\ r = ( ( 2 + 40 ) i + (
 > 
 > ii) Find the coordinates of the point at which the boats will collide.
 > 
-> *i)* *The position of a particle at time *$t$* is *$r=r_{0}+tv$* where *$r_{0}$* is the initial position and *$v$* is its (resultant) velocity.*
+> *i)* *The position of a particle at time* $t$ *is* $r=r_{0}+tv$ *where* $r_{0}$ *is the initial position and* $v$ *is its (resultant) velocity.*
 > 
 > > *The two boats will be in the same position when they collide.*
 > 
 > $\therefore ( 0 i + 0 j ) + t ( 2.5 i + 4 j ) = ( 27 i + 6 j ) + t ( - 2 i + 3 j )$
 > 
-> > *Equating *$i$* (or *$j$*) components gives an equation in *$t$*.*
+> > *Equating* $i$ *(or* $j$*) components gives an equation in* $t$*.*
 > 
 > * *$\begin{gathered} 2.5 t & = 27 - 2 t \\ 4.5 t & = 27 \\ t = 6 \end{gathered}$      *or*       $\begin{gathered} 4 t & = 6 + 3 t \\ t = 6 \end{gathered}$
 > 
 > **Final answer:** **The boats collide at **$t=6$** seconds.**
 > 
-> *ii)* *Find the position of either boat at *$t=6$* seconds. *
+> *ii)* *Find the position of either boat at* $t=6$ *seconds.*
 > 
 > $\begin{gathered} r = ( 0 i + 0 j ) + 6 ( 2.5 i + 4 j ) \\ r = ( 15 i + 24 j ) \end{gathered}$
 > 

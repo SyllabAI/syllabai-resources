@@ -27,7 +27,7 @@ guided_study: true
 
 - The formula for Simpson's index is:
 
-`straight d equals space 1 minus open parentheses sum from blank to blank of open parentheses straight n over straight N close parentheses squared close parentheses`
+`straight d=1−(sum from blank to blank of (straight n / straight N)²)`
 
 - Where:
 
@@ -63,7 +63,7 @@ The results and calculations are seen in the table below. The figures have been 
 | Hornet | 7 | 0.0347 | 0.0012 |
 | Fly | 19 | 0.0941 | 0.0088 |
 | Highland midge | 59 | 0.2921 | 0.0853 |
-| **Total no. of organisms (N)** | **202** | `sum for blank of open parentheses straight n over straight N close parentheses squared equals space 0.1737` |   |
+| **Total no. of organisms (N)** | **202** | `sum for blank of (straight n / straight N)²=0.1737` |   |
 
 D = 1 - 0.1737 = <u>**0.826**</u>** **(3dp)
 

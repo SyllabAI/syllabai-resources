@@ -52,9 +52,9 @@ guided_study: false
 > 
 > > *The increase occurs 7 times (for the seven years)*
 > 
-> - *So multiply \$1200 by *$1.04\times1.04\times1.04\times1.04\times1.04\times1.04\times1.04=1.04^{7}$
+> - *So multiply \$1200 by* $1.04\times1.04\times1.04\times1.04\times1.04\times1.04\times1.04=1.04^{7}$
 > 
-> `1200 cross times 1.04 to the power of 7 equals $ 1579.118135...`
+> `1200×1.04^7=$ 1579.118135...`
 > 
 > > *Round to the nearest dollar*
 > 
@@ -118,7 +118,7 @@ guided_study: false
 > 
 > *After the interest added on 31st December 2025, David owed Seren*
 > 
-> `18100 cross times 1.05 equals $ 19005`
+> `18100×1.05=$ 19005`
 > 
 > And finally, on 1st January 2026 David repaid Seren another \$5000
 > 

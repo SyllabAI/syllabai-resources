@@ -98,7 +98,7 @@ guided_study: false
 ## Social significance of observing Lent
 
 - Lent brings people together in a **shared purpose**
-- The focus on* almsgiving* means that many churches and communities run **charity campaigns** or fundraisers during Lent (e.g. **Christian Aid**, **CAFOD**)
+- The focus on *almsgiving* means that many churches and communities run **charity campaigns** or fundraisers during Lent (e.g. **Christian Aid**, **CAFOD**)
 - Fasting encourages a spirit of **gratitude** and makes people **mindful** about what they consume and may take for granted
 - Lent helps people to develop habits of **discipline, generosity** and **self-awareness**
 - In schools and youth groups, Lent lunches, sponsored fasts and community events may be used to teach **moral values** and encourage service to others

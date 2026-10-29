@@ -149,8 +149,8 @@ guided_study: false
 > |   |   |   |   |   |
 > | Output: |   |   |   |   |
 > 
-> > *The first instruction is to input *$n$*, so fill 23 under *$n$* in the first row of the table*
-> *The next two instructions are to let *$k=1$* and to let *$p=k^{2}$*, so also in the first row we can fill in 1 and 1 for *$k$* and *$p$* *
+> > *The first instruction is to input* $n$*, so fill 23 under* $n$ *in the first row of the table*
+> *The next two instructions are to let* $k=1$ *and to let* $p=k^{2}$*, so also in the first row we can fill in 1 and 1 for* $k$ *and* $p$* *
 > 
 > | $n$ | $k$ | $p$ | Is $p=n$? | Is $p>n$? |
 > |---|---|---|---|---|
@@ -158,8 +158,8 @@ guided_study: false
 > |   |   |   |   |   |
 > |   |   |   |   |   |
 > 
-> > *The next instruction is the first question, is *$p=n$*; the answer is no*
-> *For the answer no, the flow chart directs us to another question, is *$p>n$*; the answer is no and so we can complete the top row of the table*
+> > *The next instruction is the first question, is* $p=n$*; the answer is no*
+> *For the answer no, the flow chart directs us to another question, is* $p>n$*; the answer is no and so we can complete the top row of the table*
 > 
 > | $n$ | $k$ | $p$ | Is $p=n$? | Is $p>n$? |
 > |---|---|---|---|---|
@@ -167,9 +167,9 @@ guided_study: false
 > |   |   |   |   |   |
 > |   |   |   |   |   |
 > 
-> > *The flow chart now updates the value of *$k$*; indicate this on the second row of the table*
-> *The flow chart then takes us back round the loop of finding and testing the value of *$p$
-> $n$* does not get updated so only appears in the first row of the table*
+> > *The flow chart now updates the value of* $k$*; indicate this on the second row of the table*
+> *The flow chart then takes us back round the loop of finding and testing the value of* $p$
+> $n$ *does not get updated so only appears in the first row of the table*
 > 
 > | $n$ | $k$ | $p$ | Is $p=n$? | Is $p>n$? |
 > |---|---|---|---|---|
@@ -179,7 +179,7 @@ guided_study: false
 > 
 > > *The table can be completed by continuing to precisely follow the flow chart*
 > *The output needs stating at the end as per the flow chart instructions*
-> *In the *$k=5$* row "is *$p=n$*?" still has a 'no' answer, but the 'yes' answer to the question "is *$p>n$*?" means that the algorithm gives its output and stops*
+> *In the* $k=5$ *row "is* $p=n$*?" still has a 'no' answer, but the 'yes' answer to the question "is* $p>n$*?" means that the algorithm gives its output and stops*
 > 
 > | $n$ | $k$ | $p$ | Is $p=n$? | Is $p>n$? |
 > |---|---|---|---|---|

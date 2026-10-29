@@ -38,7 +38,7 @@ Throughout this section we will use the random variable $X \sim \text{Po} ( \\la
 - $P(X<x)$ is asking you to find the probabilities of **all values up to but not including *****x***
 
   - This means all values that are **less than x**
-  - This will be the value in the row of *x *- 1
+  - This will be the value in the row of *x* - 1
   
     - $P(X\leqx-1)$
 - $P(X\geqx)$ is asking you to find the probabilities of **all values greater than and including x**
@@ -79,7 +79,7 @@ Throughout this section we will use the random variable $X \sim \text{Po} ( \\la
 #### How do I change the mean for a Poisson distribution?
 
 - Sometimes the mean may be given for a different interval of time or space than that which you need to calculate the probability for
-- A given value of *λ *can be adjusted to fit the necessary time period
+- A given value of *λ* can be adjusted to fit the necessary time period
 
   - For example if a football team score a mean of 2 goals an hour and we want to find the probability of them scoring a certain number of goals in a 90 minute game, then we would use the distribution *X* ~ Po(*3*)
   

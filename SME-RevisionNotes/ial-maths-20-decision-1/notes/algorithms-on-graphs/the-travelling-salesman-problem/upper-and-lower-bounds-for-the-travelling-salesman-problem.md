@@ -77,7 +77,7 @@ Find a **minimum spanning tree** for the network using either **Prim's** or **Kr
 > *Repeat adding the next edge of least weight each time provided it does not create a cycle until all vertices are connected*
 > * *
 > 
-> *Edges added in the order: CD (5), CE (6), AC (7), EF (8), BF (9) *
+> *Edges added in the order: CD (5), CE (6), AC (7), EF (8), BF (9)*
 > *  *
 > 
 > ![WdntKlV2_mst](assets/b18cf9798ec1-wdntklv2-mst.png)
@@ -225,7 +225,7 @@ When the network has been tested for **each missing vertex**, identify the** max
 > ![delete-vertex-e](assets/10a70e31f499-delete-vertex-e.png)
 > 
 > * *
-> *Edges added in the order: AC (7), CD (5), BD/DF (18), BF (9) *
+> *Edges added in the order: AC (7), CD (5), BD/DF (18), BF (9)*
 > 
 > *Total weight of the residual minimum spanning tree = 7 + 5 + 18 + 9 = 39*
 > *  *
@@ -386,7 +386,7 @@ This minimum value is the **least possible upper bound **that can be found by th
 > *Hamiltonian cycle: ACDEFBA*
 > 
 > - *STEP 4*
-> *Find the weight of the Hamiltonian cycle by adding together the weights of the edges forming it *
+> *Find the weight of the Hamiltonian cycle by adding together the weights of the edges forming it*
 > 
 > *Total weight = 7 + 5 + 10 + 8 + 9 + 14 = 53*
 > 

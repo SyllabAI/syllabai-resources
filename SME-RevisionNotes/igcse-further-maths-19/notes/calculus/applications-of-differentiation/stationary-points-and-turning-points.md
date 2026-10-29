@@ -171,45 +171,45 @@ Find the **value** of $\mathrm{f}^{''} ( x )$ at each of the **stationary points
 > **Worked Example**
 > Find the coordinates and determine the nature of any stationary points on the graph of $y=f(x)$, where $f$ is the function defined by  $f(x)=2x^{3}-3x^{2}-36x+25$.
 > 
-> > *Start by finding *$\mathrm{f}^{'} ( x )$
+> > *Start by finding* $\mathrm{f}^{'} ( x )$
 > 
 > $\mathrm{f}^{'} ( x ) = 6 x^{2} - 6 x - 36$
 > 
-> > *Solve *$\mathrm{f}^{'} ( x ) = 0$* to find the *$x$*-coordinates of any stationary points*
+> > *Solve* $\mathrm{f}^{'} ( x ) = 0$ *to find the* $x$*-coordinates of any stationary points*
 > 
 > $\begin{gathered} 6 x^{2} - 6 x - 36 & = 0 \\ 6 ( x^{2} - x - 6 ) & = 0 \\ x^{2} - x - 6 & = 0 \\ ( x - 3 ) ( x + 2 ) & = 0 \end{gathered}$
 > 
 > $x=-2\mathrm{or}x=3$
 > 
-> > *Substitute into *$\mathrm{f} ( x )$* to find the corresponding *$y$*-coordinates*
+> > *Substitute into* $\mathrm{f} ( x )$ *to find the corresponding* $y$*-coordinates*
 > 
 > $\begin{gathered} \mathrm{f} ( - 2 ) & = 2 ( - 2 )^{3} - 3 ( - 2 )^{2} - 36 ( - 2 ) + 25 \\ = - 16 - 12 + 72 + 25 \\ = 69 \end{gathered}$
 > 
 > $\begin{gathered} \mathrm{f} ( 3 ) & = 2 ( 3 )^{3} - 3 ( 3 )^{2} - 36 ( 3 ) + 25 \\ = 54 - 27 - 108 + 25 \\ = - 56 \end{gathered}$
 > 
-> > *So the stationary points are *$( - 2. 69 )$* and *$( 3 , - 56 )$
+> > *So the stationary points are* $( - 2. 69 )$ *and* $( 3 , - 56 )$
 > 
 > > *Method 1: using the second derivative to test the points*
 > 
-> > *Differentiate *$\mathrm{f}^{'} ( x )$* to find the second derivative *$\mathrm{f}^{''} ( x )$
+> > *Differentiate* $\mathrm{f}^{'} ( x )$ *to find the second derivative* $\mathrm{f}^{''} ( x )$
 > 
 > $\begin{gathered} \mathrm{f}^{''} ( x ) & = \frac{ \mathrm{d} }{ \mathrm{d} x} ( 6 x^{2} - 6 x - 36 ) \\ = 12 x - 6 \end{gathered}$
 > 
-> > *Now substitute in the *$x$*-coordinates of the two stationary points*
+> > *Now substitute in the* $x$*-coordinates of the two stationary points*
 > *This will give the value of the second derivative at those points*
 > 
 > $\mathrm{f}^{''} ( - 2 ) = 12 ( - 2 ) - 6 = - 30 < 0$
 > 
-> > *That is less than zero, so *$( - 2 , 69 )$* is a local maximum point*
+> > *That is less than zero, so* $( - 2 , 69 )$ *is a local maximum point*
 > 
 > $\mathrm{f}^{''} ( 3 ) = 12 ( 3 ) - 6 = 30 > 0$
 > 
-> > *That is greater than zero, so *$( 3 , - 56 )$* is a local minimum point*
+> > *That is greater than zero, so* $( 3 , - 56 )$ *is a local minimum point*
 > 
 > > *Method 2: using the first derivative to test the points*
 > 
-> > *Test the values of *$\mathrm{f}^{'} ( x )$* at either side of the stationary points*
-> *(Note that, where applicable, *$x=0$* is a very convenient test value!)*
+> > *Test the values of* $\mathrm{f}^{'} ( x )$ *at either side of the stationary points*
+> *(Note that, where applicable,* $x=0$ *is a very convenient test value!)*
 > 
 > $\begin{gathered} \mathrm{f}^{'} ( - 3 ) & = 6 ( - 3 )^{2} - 6 ( - 3 ) - 36 \\ = 54 + 18 - 36 \\ = 36 \\ > 0 \end{gathered}$
 > 
@@ -217,9 +217,9 @@ Find the **value** of $\mathrm{f}^{''} ( x )$ at each of the **stationary points
 > 
 > $\begin{array}{rcl} \mathrm{f}^{'} ( 4 ) & = 6 ( 4 )^{2} - 6 ( 4 ) - 36 \\ = 96 - 24 - 36 \\ = 36 \\ > 0 \end{array}$
 > 
-> > *At  *$( - 2 , 69 )$*  the derivative changes from positive to negative, so that is a local maximum point*
+> > *At* $( - 2 , 69 )$ *the derivative changes from positive to negative, so that is a local maximum point*
 > 
-> > *At  *$( 3 , - 56 )$*  the derivative changes from negative to positive, so that is a local minimum point*
+> > *At* $( 3 , - 56 )$ *the derivative changes from negative to positive, so that is a local minimum point*
 > 
 > > *Note that for this function both stationary points are also turning points*
 > 

@@ -66,7 +66,7 @@ guided_study: true
   - **s **is the **displacement** of the particle from its initial position
 
 > **Worked Example**
-> A ship moves with velocity,** v**  m s<sup>-1</sup>, where **v** = (2t)**i** + (e<sup>0.5t</sup>)**j**. Initially the ship has position vector (3**i **— 4**j**) m* *from a fixed origin* O*.
+> A ship moves with velocity,** v**  m s<sup>-1</sup>, where **v** = (2t)**i** + (e<sup>0.5t</sup>)**j**. Initially the ship has position vector (3**i **— 4**j**) m* *from a fixed origin *O*.
 > 
 > (a)  Find an expression for the position vector of the ship after $t$ seconds.
 > 

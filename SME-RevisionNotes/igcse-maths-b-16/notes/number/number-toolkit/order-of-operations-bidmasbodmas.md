@@ -41,12 +41,12 @@ guided_study: true
 - **Fractions** mean **division** in calculations (BI**D**MAS/BO**D**MAS)
 - There may be "invisible brackets" around the numerator and around the denominator
 
-  - e.g.  $\frac{2+5}{7-2}$ means `open parentheses 2 plus 5 close parentheses divided by open parentheses 7 minus 2 close parentheses`
+  - e.g.  $\frac{2+5}{7-2}$ means `(2+5)÷(7−2)`
   - Instead of brackets we extend the fraction line to show exactly what is on the top and what is on the bottom
 - **Roots** are powers (B**I**DMAS/B**O**DMAS)
 - There may be "invisible brackets" under the root
 
-  - e.g.  $\sqrt{9+16}$ means `square root of open parentheses 9 plus 16 close parentheses end root`
+  - e.g.  $\sqrt{9+16}$ means `√((9+16))`
   - Instead of brackets we extend the top line on the root symbol to show everything that is to be rooted
 
 ### How do I use a calculator for BIDMAS/BODMAS questions?
@@ -66,18 +66,18 @@ guided_study: true
 > 
 > > *Use **BODMAS*
 > 
-> *First calculate anything inside brackets, *$5-3=2$*, so the question becomes   *
+> *First calculate anything inside brackets,* $5-3=2$*, so the question becomes*
 > 
 > $2+2\times7^{2}$
 > 
-> *Then any powers, *$7^{2}=49$*               *
+> *Then any powers,* $7^{2}=49$*               *
 > 
 > $2+2\times49$
 > 
-> > *followed by any divisions and multiplications, *$2\times49=98$
+> > *followed by any divisions and multiplications,* $2\times49=98$
 > 
 > $2+98$
 > 
-> > *and finally any additions and subtractions, *$2+98=100$
+> > *and finally any additions and subtractions,* $2+98=100$
 > 
 > $(5--3)+2\times7^{2}=100$

@@ -61,11 +61,11 @@ $I=nqvA$
 
 - The **same equation** is used whether the charge carriers are positive or negative
 
-  - A negative value for* v* will indicate current in the opposite direction to the charge carriers
+  - A negative value for *v* will indicate current in the opposite direction to the charge carriers
 - The transport equation shows that *v* is** inversely proportiona**l to *n*
 
   - Since the more charge carriers available per unit volume the more the density will slow down their speed through the conductor
-- The transport equation also shows that *I* is **directly proportional** to *n *
+- The transport equation also shows that *I* is **directly proportional** to *n*
 
   - Greater *n* means a greater charge is flowing and therefore a larger current *I*
 - When the value of *n* is lower, the charge carriers must **travel faster** to carry the same current
@@ -80,7 +80,7 @@ $I=nqvA$
 > **Step 1: Consider the situation**
 > 
 > - A copper wire is a conductor, and the free electrons are charge carriers
-> - Use the transport equation *I *= *nqvA *
+> - Use the transport equation *I* = *nqvA*
 > 
 > **Step 2: Rearrange the equation for drift speed *****v***
 > 
@@ -88,10 +88,10 @@ $I=nqvA$
 > 
 > **Step 3: Substitute in values**
 > 
-> - Current, *I *= 3.5 A
-> - Cross-sectional area,* A* = 1.5 mm<sup>2</sup> = 1.5 ÷ 1000<sup>2</sup> = 1.5 × 10<sup>−6</sup> m<sup>2</sup>
-> - Number density of conduction electrons,* n *= 9.2 × 10<sup>28</sup> m<sup>−3 </sup>
-> - Charge on an electron, *q *= 1.60 × 10<sup>−19</sup> C (From the data sheet)
+> - Current, *I* = 3.5 A
+> - Cross-sectional area,*A* = 1.5 mm<sup>2</sup> = 1.5 ÷ 1000<sup>2</sup> = 1.5 × 10<sup>−6</sup> m<sup>2</sup>
+> - Number density of conduction electrons, *n* = 9.2 × 10<sup>28</sup> m<sup>−3 </sup>
+> - Charge on an electron, *q* = 1.60 × 10<sup>−19</sup> C (From the data sheet)
 > 
 > $v = \frac{3.5}{( 9.2 \times 10^{28 ) \times ( 1.60 \times 10^{-19} } ) \times ( 1.5 \times 10^{- 6} )} = 0.16 \times 10^{- 3}$ m s<sup>−1</sup>
 > 
@@ -105,7 +105,7 @@ $I=nqvA$
 
 #### Resistivity
 
-- The transport equation tells us that current,* I* ∝ number of charge carriers, *n*
+- The transport equation tells us that current,*I* ∝ number of charge carriers, *n*
 
   - Therefore, the **larger **the number of charge carriers, the **greater **the current will be for the same applied voltage
   - This is because resistivity has decreased with more charge carriers available

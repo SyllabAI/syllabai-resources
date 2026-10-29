@@ -31,7 +31,7 @@ $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{
 > 
 > In May factory output was 51,420 units
 > 
-> Calculate* Bäkkerei Lola's* capacity utilisation in May.
+> Calculate *Bäkkerei Lola's* capacity utilisation in May.
 > 
 > (2)
 > 

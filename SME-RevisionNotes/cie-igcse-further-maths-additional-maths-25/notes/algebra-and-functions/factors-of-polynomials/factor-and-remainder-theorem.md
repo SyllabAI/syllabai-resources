@@ -48,7 +48,7 @@ ii) if $( x - p )$ is a factor of $\mathrm{f} ( x )$, then $\mathrm{f} ( p ) = 0
 > **Worked Example**
 > a) Show that $( x - 2 )$ is a factor of the polynomial $\mathrm{f} ( x ) = x^{3} + 6 x^{2} - 9 x - 14$.
 > 
-> *(From part (ii) of our definition of factor theorem ...)* *... if *$( x - 2 )$* is a factor of *$\mathrm{f} ( x )$* then *$\mathrm{f} ( 2 ) = 0$*.*
+> *(From part (ii) of our definition of factor theorem ...)* *... if* $( x - 2 )$ *is a factor of* $\mathrm{f} ( x )$ *then* $\mathrm{f} ( 2 ) = 0$*.*
 > 
 > $\begin{gathered} \mathrm{f} ( 2 ) & = ( 2 )^{3} + 6 ( 2 )^{2} - 9 ( 2 ) - 14 \\ \mathrm{f} ( 2 ) & = 8 + 24 - 18 - 14 \\ \mathrm{f} ( 2 ) & = 0 \end{gathered}$
 > 
@@ -56,17 +56,17 @@ ii) if $( x - p )$ is a factor of $\mathrm{f} ( x )$, then $\mathrm{f} ( p ) = 0
 > 
 > b) Use the factor theorem to find another factor of $\mathrm{f} ( x )$.
 > 
-> > *Try *$\mathrm{f} ( 1 )$* first,*
+> > *Try* $\mathrm{f} ( 1 )$ *first,*
 > 
 > $\begin{array}{rcl} \mathrm{f} ( 1 ) & = ( 1 )^{3} + 6 ( 1 )^{2} - 9 ( 1 ) - 14 \\ \mathrm{f} ( 1 ) & = 1 + 6 - 9 - 14 \\ \mathrm{f} ( 1 ) & = - 16 \end{array}$
 > 
-> > *Since *$\mathrm{f} ( 1 ) \text{eq} 0$*, *$( x - 1 )$* is **not** a factor of *$\mathrm{f} ( x )$*.*
+> > *Since* $\mathrm{f} ( 1 ) \text{eq} 0$*,* $( x - 1 )$* is **not** a factor of *$\mathrm{f} ( x )$*.*
 > 
-> > *Try *$\mathrm{f} ( - 1 )$*,*
+> > *Try* $\mathrm{f} ( - 1 )$*,*
 > 
 > $\begin{gathered} \mathrm{f} ( - 1 ) & = ( - 1 )^{3} + 6 ( - 1 )^{2} - 9 ( - 1 ) - 14 \\ \mathrm{f} ( - 1 ) & = - 1 + 6 + 9 - 14 \\ \mathrm{f} ( - 1 ) & = 0 \end{gathered}$
 > 
-> > *Since *$\mathrm{f} ( - 1 ) = 0$*, *$( x + 1 )$* **is** a factor of *$\mathrm{f} ( x )$*.*
+> > *Since* $\mathrm{f} ( - 1 ) = 0$*,* $( x + 1 )$* **is** a factor of *$\mathrm{f} ( x )$*.*
 > 
 > **Final answer:** $(x+1)$** is another factor of **$f(x)$**.**
 > 
@@ -117,13 +117,13 @@ ii) if $( x - p )$ is a factor of $\mathrm{f} ( x )$, then $\mathrm{f} ( p ) = 0
 > When $\mathrm{p} ( x )$ is divided by $( 2 x - 1 )$ the remainder is 1. 
 > Find the values of $a$ and $b$.
 > 
-> > *Remainder theorem: "*$\mathrm{f} ( a )$* is the remainder when *$\mathrm{f} ( x )$* is divided by *$( x - a )$*".*
+> > *Remainder theorem: "*$\mathrm{f} ( a )$ *is the remainder when* $\mathrm{f} ( x )$ *is divided by* $( x - a )$*".*
 > 
-> > $x-1=0$* when *$x=1$*:*
+> > $x-1=0$ *when* $x=1$*:*
 > 
 > $\begin{array}{rcl} \mathrm{p} ( 1 ) & = 9 \\ 8 + a + b - 1 & = 9 \\ a + b & = 2 \end{array}$
 > 
-> > $2x-1=0$* when *$x=\frac{1}{2}$*:*
+> > $2x-1=0$ *when* $x=\frac{1}{2}$*:*
 > 
 > $\begin{gathered} \mathrm{p} ( 1 \frac{1}{2} ) & = 1 \\ 8 ( 1 \frac{1}{2} )^{4} + a ( 1 \frac{1}{2} )^{2} + b ( 1 \frac{1}{2} ) - 1 & = 1 \\ 1 \frac{1}{2} + 1 \frac{1}{4} a + 1 \frac{1}{2} b - 1 & = 1 \\ a + 2 b & = 6 \end{gathered}$
 > 

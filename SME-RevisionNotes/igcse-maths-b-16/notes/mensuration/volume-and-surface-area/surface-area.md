@@ -98,11 +98,11 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Calculate the curved surface area of the cone using the formula, *$A=πrl$
+> > *Calculate the curved surface area of the cone using the formula,* $A=πrl$
 > 
 > $A_{cone}=π\times5\times12=60π$
 > 
-> > *Calculate the curved surface area of a hemisphere using the formula for the curved surface area of a sphere, *$A=4πr^{2}$* and dividing it by 2*
+> > *Calculate the curved surface area of a hemisphere using the formula for the curved surface area of a sphere,* $A=4πr^{2}$ *and dividing it by 2*
 > 
 > $A_{hemisphere}=\frac{4π\times5^{2}}{2}=50π$
 > 

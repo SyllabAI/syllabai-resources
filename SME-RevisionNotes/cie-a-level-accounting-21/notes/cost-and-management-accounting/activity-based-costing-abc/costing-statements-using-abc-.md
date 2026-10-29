@@ -92,9 +92,9 @@ Calculate the **selling price**
 > 
 > Find the number of set up's needed per month:
 > 
-> Tables = $\frac{8000}{1000}$* = 8 set up's           *
+> Tables = $\frac{8000}{1000}$ *= 8 set up's*
 > 
-> Chairs = $\frac{2400}{200}$* = 12 set up's *
+> Chairs = $\frac{2400}{200}$ *= 12 set up's*
 > 
 > Total number of set up's need = *8 + 12 = 20*
 > 

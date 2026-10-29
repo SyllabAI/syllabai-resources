@@ -121,11 +121,11 @@ Draw a line and add the **point B** at the **given distance**
 > 
 > > *First, draw a North line at the point Q, then carefully measure an angle of 65° clockwise from this line. Make a mark and then draw a line from Q through this mark*
 > 
-> > *Using the scale, find the distance in cm along the line you will need to measure. *
+> > *Using the scale, find the distance in cm along the line you will need to measure.*
 > 
 > *  35 km = 35 ÷ 10 = 3.5 cm*
 > 
-> *Accurately measure 3.5 cm from the point Q along this new line and make a clear mark on the line *
+> *Accurately measure 3.5 cm from the point Q along this new line and make a clear mark on the line*
 > *This is the final position of the ship*.
 > 
 > ![Bearings worked example working solution](assets/9ab75984a775-57982-bearings6.png)

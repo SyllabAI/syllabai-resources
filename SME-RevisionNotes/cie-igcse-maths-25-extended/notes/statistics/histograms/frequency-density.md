@@ -54,7 +54,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Add two columns to the table *
+> > *Add two columns to the table*
 > 
 > - *one for class width*
 > - *one for frequency density*

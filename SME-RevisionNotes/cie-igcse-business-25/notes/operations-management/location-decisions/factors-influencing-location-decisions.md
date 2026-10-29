@@ -90,7 +90,7 @@ guided_study: false
 
   - Rent and *business rates* tend to be lower
   - Incentives for job creation such as grants may be available from local authorities
-- In addition, businesses are likely to avoid locating in areas with **high levels of anti-social behaviour and crime,** as this could impact *insurance *costs
+- In addition, businesses are likely to avoid locating in areas with **high levels of anti-social behaviour and crime,** as this could impact *insurance* costs
 
 ## Factors to consider when choosing a country to produce in
 
@@ -102,12 +102,12 @@ guided_study: false
 
 | **Factor** | Explanation |
 |---|---|
-| **Trade barriers** | - Locating in a country within a *trade bloc*, such as the EU or USMCA, reduces *tariffs *and *quotas*<br>- This can help firms from countries such as China avoid trade barriers |
+| **Trade barriers** | - Locating in a country within a *trade bloc*, such as the EU or USMCA, reduces *tariffs* and *quotas*<br>- This can help firms from countries such as China avoid trade barriers |
 | **Financial incentives** | - Some governments offer tax breaks, grants or loans to attract foreign investment that creates jobs and brings in foreign currency |
 | **Labour costs & skills** | - Some countries have low wages, like Bangladesh or Turkey, offering low-cost location for garment manufacture<br>- Technology businesses may be attracted to Ireland's highly-skilled workforce |
-| **Corporate tax rates** | - Low-tax locations (e.g. Ireland’s 12.5%) attract multinational firms like Google, Microsoft, Apple that want to reduce their *tax burden * |
+| **Corporate tax rates** | - Low-tax locations (e.g. Ireland’s 12.5%) attract multinational firms like Google, Microsoft, Apple that want to reduce their *tax burden* |
 | **Access to raw materials** | - Locating near key resources can cut raw material transport costs and reduce supply delays |
-| **Market access** | - Being near customers reduces distribution costs and helps a business serve *saturated *or new markets quickly |
+| **Market access** | - Being near customers reduces distribution costs and helps a business serve *saturated* or new markets quickly |
 | **Political/legal environment** | - Stable economies with clear laws are safer<br>- Weak enforcement of law or unstable government in less developed countries may mean lower costs but greater risks |
 | **Infrastructure quality** | - Good roads, ports, power grids and communications allow smoother production and trade |
 
@@ -120,9 +120,9 @@ guided_study: false
 > 
 > - Very low *corporation tax* rate of around 12.5%
 > - Access to a highly educated, English-speaking workforce that fits technology or *R&D* roles
-> - Open *immigration *policies attract global skilled workers in technology, healthcare and ICT sectors
+> - Open *immigration* policies attract global skilled workers in technology, healthcare and ICT sectors
 > - Strategic location that gives easy access to both the US and European markets
-> - Strong *infrastructure *and legal environment with stable government and EU membership
+> - Strong *infrastructure* and legal environment with stable government and EU membership
 
 ## Recommending an appropriate business location
 

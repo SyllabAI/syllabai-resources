@@ -92,7 +92,7 @@ October – New political parties such as the Kadets and the Octobrists are form
 
   - **An elected ******duma****** (parliament)**
   
-    - The *duma *would meet to pass laws
+    - The *duma* would meet to pass laws
   - **More political rights **for people in the Russian Empire
   
     - A promise to loosen *censorship*
@@ -166,7 +166,7 @@ October – New political parties such as the Kadets and the Octobrists are form
     - Increase the number of right-wing parties in the *duma*
   - It showed the tsar’s lack of commitment to making Russia democratic
   
-    - The tsar could have used the *duma *system to create a *constitutional monarchy*
+    - The tsar could have used the *duma* system to create a *constitutional monarchy*
     - Instead, the** tsar made the *****duma *****powerless**. This angered many people in the empire
 
 > **Exam Hint**

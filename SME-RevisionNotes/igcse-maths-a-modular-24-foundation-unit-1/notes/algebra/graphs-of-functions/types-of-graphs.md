@@ -124,13 +124,13 @@ guided_study: true
 > 
 > > *This is a quadratic graph, **y**  = **ax*<sup>*2*</sup>*  + **bx**  + **c ** (**a**  = -1, **b**  = 3, **c**  = 2)*
 > 
-> > *The number in front of **x*<sup>*2*</sup>* is negative so it has an n-shape *
+> > *The number in front of **x*<sup>*2*</sup> *is negative so it has an n-shape*
 > 
 > **Final answer:** **Graph C**
 > 
 > (c)$\begin{gathered} \\ \end{gathered}$ $y=\frac{1}{x}$
 > **Answer:**
->  *This is the reciprocal graph, *$y=\frac{1}{x}$
+>  *This is the reciprocal graph,* $y=\frac{1}{x}$
 > *It has two  curved shaped branches and no **y**-value when **x**  = 0*
 > 
 > > * *

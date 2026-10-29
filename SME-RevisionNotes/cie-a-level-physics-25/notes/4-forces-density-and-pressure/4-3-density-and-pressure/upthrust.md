@@ -69,7 +69,7 @@ guided_study: true
 > 
 > - The value for pressure needed is the change in pressure between the top and the bottom of the cube
 > 
-> `F space equals space open parentheses 7700 space minus space 3000 close parentheses space cross times space 2`
+> `F=(7700−3000)×2`
 > 
 > $F=9400N$
 > 

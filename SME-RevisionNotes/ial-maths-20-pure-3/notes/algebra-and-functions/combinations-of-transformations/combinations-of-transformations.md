@@ -31,11 +31,11 @@ guided_study: false
 
   - First apply any **horizontal** transformations **inside** the brackets (if you have more than one transformation inside the brackets, **translations** must be applied **before** **stretches and reflections**)
   
-    - *y *= *k*f(***a****x ***+ *****b***)+ *c*
+    - *y* = *k*f(***a****x ***+ *****b***)+ *c*
     - For your exam you will only be given **at most one inside** the bracket
   - Then apply any **vertical** transformations **outside** the brackets (if you have more than one transformation outside the brackets, **stretches and reflections** must be applied **before translations**)
   
-    - *y *= ***k***f(*ax *+ *b*)**+ *****c***** **
+    - *y* = ***k***f(*ax* + *b*)**+ *****c***** **
 - If the transformation involves a modulus
 
   - First apply any transformations **inside the modulus sign**

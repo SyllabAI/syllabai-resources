@@ -60,11 +60,11 @@ guided_study: false
 > 
 > ![TuW80_W4_reflection-matrix-we-1](assets/496add2d026c-tuw80-w4-reflection-matrix-we-1.png)
 > 
-> *The point A *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to A' *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$* *
+> *The point A* $( \begin{gathered} 1 \\ 0 \end{gathered} )$ *moves to A'* $( \begin{gathered} - 1 \\ 0 \end{gathered} )$* *
 > 
-> *The point C *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* remains in the same place*
+> *The point C* $( \begin{gathered} 0 \\ 1 \end{gathered} )$ *remains in the same place*
 > 
-> > *The transformation matrix is given by *$M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
+> > *The transformation matrix is given by* $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
 > 
 > **Final answer:** $\mathrm{M} = ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} )$
 > ** **
@@ -73,14 +73,14 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Consider how the points A and C on the unit square are transformed by a reflection in the line *$y=-x$
+> > *Consider how the points A and C on the unit square are transformed by a reflection in the line* $y=-x$
 > 
 > ![reflection-matrix-we-2](assets/bce90e3b034a-reflection-matrix-we-2.png)
 > 
-> *The point A *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to A' *$( \begin{gathered} 0 \\ - 1 \end{gathered} )$* *
+> *The point A* $( \begin{gathered} 1 \\ 0 \end{gathered} )$ *moves to A'* $( \begin{gathered} 0 \\ - 1 \end{gathered} )$* *
 > 
-> *The point C *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* moves to C' *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$
+> *The point C* $( \begin{gathered} 0 \\ 1 \end{gathered} )$ *moves to C'* $( \begin{gathered} - 1 \\ 0 \end{gathered} )$
 > 
-> > *The transformation matrix is given by *$N = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
+> > *The transformation matrix is given by* $N = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
 > 
 > $\mathrm{N} = ( \begin{gathered} 0 - 1 \\ - 1 & 0 \end{gathered} )$

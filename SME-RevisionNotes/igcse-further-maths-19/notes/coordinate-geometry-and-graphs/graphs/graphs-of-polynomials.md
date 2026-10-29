@@ -23,8 +23,8 @@ guided_study: false
 - The shape of the graph is known as a **parabola**
 - The value of *a* affects the shape of the curve
 
-  - If *a *is **positive** the shape is **'u-shaped'** ∪
-  - If *a *is **negative** the shape is **'upside down u-shaped'** ∩
+  - If *a* is **positive** the shape is **'u-shaped'** ∪
+  - If *a* is **negative** the shape is **'upside down u-shaped'** ∩
 - The ***y*****-intercept** is at the point (0, *c*)
 - The **roots** are the solutions to $ax^{2}+bx+c=0$
 
@@ -45,7 +45,7 @@ guided_study: false
 
   - It can be found by **completing the square**
   - The *x*-coordinate is $x=-\frac{b}{2a}$
-  - The *y*-coordinate can be found by calculating *y *when $x=-\frac{b}{2a}$
+  - The *y*-coordinate can be found by calculating *y* when $x=-\frac{b}{2a}$
   - If *a* is **positive** then the vertex is the **minimum point**
   - If *a* is **negative** then the vertex is the **maximum point**
 
@@ -77,7 +77,7 @@ guided_study: false
 
 ### How do I find an equation of a quadratic?
 
-- If you have the **roots** *x *= *p *and *x* = *q*...
+- If you have the **roots** *x* = *p* and *x* = *q*...
 
   - Write in **factorised form** $y=a(x-p)(x-q)$
   - You will need a third point to find the value of *a*
@@ -89,7 +89,7 @@ guided_study: false
 
   - Write in the **general form** $y=ax^{2}+bx+c$
   - Substitute the three points into the equation
-  - Form and solve a system of three linear equations to find the values of *a*, *b *& *c*
+  - Form and solve a system of three linear equations to find the values of *a*, *b* & *c*
 
 > **Exam Hint**
 > - Your calculator may be able to find the roots and turning point of a quadratic function
@@ -107,17 +107,17 @@ guided_study: false
 > 
 > *Method 1*
 > 
-> *Since we know the vertex (turning point), it will be easiest to start with the completed square version of the equation *
-> *This is  *$f(x)=a(x-h)^{2}+k$*,  where the vertex is at *$( h , k )$
+> *Since we know the vertex (turning point), it will be easiest to start with the completed square version of the equation*
+> *This is* $f(x)=a(x-h)^{2}+k$*,  where the vertex is at* $( h , k )$
 > 
 > $\begin{gathered} \mathrm{f} ( x ) & = a ( x - ( - 1 ) )^{2} + 8 \\ = a ( x + 1 )^{2} + 8 \end{gathered}$
 > 
-> > *We also know the curve *$y = \mathrm{f} ( x )$* goes through (0, 6)*
-> *Put those coordinates into the equation and solve for *$a$
+> > *We also know the curve* $y = \mathrm{f} ( x )$ *goes through (0, 6)*
+> *Put those coordinates into the equation and solve for* $a$
 > 
 > $\begin{gathered} 6 = a ( 0 + 1 )^{2} + 8 \\ 6 = a + 8 \\ a = - 2 \end{gathered}$
 > 
-> > *Substitute *$a=-2$* into the expression for *$\mathrm{f} ( x )$
+> > *Substitute* $a=-2$ *into the expression for* $\mathrm{f} ( x )$
 > *Expand the brackets and rearrange into the form required*
 > 
 > $\begin{gathered} \mathrm{f} ( x ) & = - 2 ( x + 1 )^{2} + 8 \\ = - 2 ( x^{2} + 2 x + 1 ) + 8 \\ = - 2 x^{2} - 4 x - 2 + 8 \end{gathered}$
@@ -126,40 +126,40 @@ guided_study: false
 > 
 > > *Method** **2*
 > 
-> *It is also possible to start with the *$y=ax^{2}+bx+c$* form*
+> *It is also possible to start with the* $y=ax^{2}+bx+c$ *form*
 > *Because the **y-**intercept is (0, 6) we know that *$c=6$
 > 
-> *Goes through *$( 0 , 6 )$* means  *$\mathrm{f} ( x ) = a x^{2} + b x + 6$
+> *Goes through* $( 0 , 6 )$ *means* $\mathrm{f} ( x ) = a x^{2} + b x + 6$
 > 
 > > *It also goes through (-1, 8)*
-> *Substitute those coordinates into the equation of *$y = f ( x )$
+> *Substitute those coordinates into the equation of* $y = f ( x )$
 > 
-> *Goes through *$( - 1 , 8 )$* means*
+> *Goes through* $( - 1 , 8 )$ *means*
 > 
 > $\begin{gathered} 8 = a ( - 1 )^{2} + b ( - 1 ) + 6 \\ 8 = a - b + 6 \\ a - b & = 2 \end{gathered}$
 > 
 > > *We need one more piece of information*
-> *You may remember that the turning point lies on the line  *$x=-\frac{b}{2a}$
+> *You may remember that the turning point lies on the line* $x=-\frac{b}{2a}$
 > *If not, then use the fact that the **x-**coordinate of the turning point satisfies  *$\mathrm{f}^{'} ( x ) = 0$
 > 
-> *Turning point at *$( - 1 , 8 )$* means**  *$\mathrm{f}^{'} ( - 1 ) = 0$
+> *Turning point at* $( - 1 , 8 )$* means**  *$\mathrm{f}^{'} ( - 1 ) = 0$
 > 
-> > *Differentiate to find *$\mathrm{f}^{'} ( x )$
-> *Then solve *$\mathrm{f}^{'} ( - 1 ) = 0$* to find another equation with *$a$*and *$b$
+> > *Differentiate to find* $\mathrm{f}^{'} ( x )$
+> *Then solve* $\mathrm{f}^{'} ( - 1 ) = 0$ *to find another equation with* $a$*and* $b$
 > 
 > $\mathrm{f}^{'} ( x ) = 2 a x + b$
 > 
 > $\begin{gathered} 2 a ( - 1 ) + b & = 0 \\ - 2 a + b & = 0 \end{gathered}$
 > 
-> > *We now have two simultaneous equations that we can solve to find *$a$* and *$b$
+> > *We now have two simultaneous equations that we can solve to find* $a$ *and* $b$
 > 
 > $\begin{gathered} a - b & = 2 [ 1 ] \\ - 2 a + b & = 0 [ 2 ] \end{gathered}$
 > 
-> > *Add [1] and [2] together to eliminate *$b$
+> > *Add [1] and [2] together to eliminate* $b$
 > 
 > $\begin{gathered} - a & = 2 \\ a = - 2 \end{gathered}$
 > 
-> > *Substitute into [2] and solve to find *$b$
+> > *Substitute into [2] and solve to find* $b$
 > 
 > $\begin{gathered} - 2 ( - 2 ) + b & = 0 \\ 4 + b & = 0 \\ b = - 4 \end{gathered}$
 > 
@@ -225,29 +225,29 @@ Draw with a **smooth** curve (this takes practice!)
 > 
 > (a) Find the values of $b$ and $c$.
 > 
-> > *The turning points occur when *$\mathrm{f}^{'} ( x ) = 0$
+> > *The turning points occur when* $\mathrm{f}^{'} ( x ) = 0$
 > 
-> > *Start by differentiating to find *$\mathrm{f}^{'} ( x )$
+> > *Start by differentiating to find* $\mathrm{f}^{'} ( x )$
 > 
 > $\mathrm{f}^{'} ( x ) = - 3 x^{2} + 2 b x + c$
 > 
-> > *That is equal to 0 when *$x=1$* and when *$x=3$
+> > *That is equal to 0 when* $x=1$ *and when* $x=3$
 > 
-> > *Substitute those values in to find two equations in *$b$* and *$c$
+> > *Substitute those values in to find two equations in* $b$ *and* $c$
 > 
 > $\begin{gathered} - 3 ( 1 )^{2} + 2 b ( 1 ) + c & = 0 \\ - 3 + 2 b + c & = 0 \\ 2 b + c & = 3 \end{gathered}$
 > 
 > $\begin{gathered} - 3 ( 3 )^{2} + 2 b ( 3 ) + c & = 0 \\ - 27 + 6 b + c & = 0 \\ 6 b + c & = 27 \end{gathered}$
 > 
-> > *Those are simultaneous equations in *$b$* and *$c$
-> *Subtract the first from the second to eliminate *$c$* and find *$b$
-> *Then substitute that value into either equation to find *$c$
+> > *Those are simultaneous equations in* $b$ *and* $c$
+> *Subtract the first from the second to eliminate* $c$ *and find* $b$
+> *Then substitute that value into either equation to find* $c$
 > 
 > $b=6c=-9$
 > 
 > (b) Sketch the graph of $y = \mathrm{f} ( x )$.
 > 
-> > *There is no constant term in *$\mathrm{f} ( x )$*, so the **y**-intercept will be 0*
+> > *There is no constant term in* $\mathrm{f} ( x )$*, so the **y**-intercept will be 0*
 > 
 > > *Substitute the **x**-coordinates of the turning points into *$\mathrm{f} ( x )$* to find the corresponding **y**-coordinates*
 > 
@@ -257,7 +257,7 @@ Draw with a **smooth** curve (this takes practice!)
 > 
 > - ( 3 )^{3} + 6 ( 3 )^{2} - 9 ( 3 ) = - 27 + 54 - 27 = 0$
 > 
-> > *So the turning points are at  *$( 1 , - 4 )$* and *$( 3 , 0 )$
+> > *So the turning points are at* $( 1 , - 4 )$ *and* $( 3 , 0 )$
 > 
 > > *Find the **x-**intercepts by solving *$\mathrm{f} ( x ) = 0$
 > 
@@ -265,7 +265,7 @@ Draw with a **smooth** curve (this takes practice!)
 > 
 > $x=0,x=3$
 > 
-> > *So the **x-**intercepts are *$( 0 , 0 )$* and *$( 3 , 0 )$
+> > *So the **x-**intercepts are *$( 0 , 0 )$ *and* $( 3 , 0 )$
 > *Note that the first is also the **y-**intercept. and the second is also a turning point*
 > 
 > > *Finally consider the shape of the curve*

@@ -49,7 +49,7 @@ guided_study: false
 > 
 > ![cie-add-maths-the-unit-circle-we-solution](assets/a56dce8eb419-cie-add-maths-the-unit-circle-we-solution.png)
 > 
-> > *We know that *$( x , y ) = ( \cos \\theta , \sin \\theta )$* so we can use either ratio to solve for  *$θ$*.*
+> > *We know that* $( x , y ) = ( \cos \\theta , \sin \\theta )$ *so we can use either ratio to solve for* $θ$*.*
 > 
 > $\begin{gathered} \cos \\theta & = 0.629 \\ \\theta & = \cos ^{- 1 } 0.629 \\ = 0.89053... \end{gathered}$
 > 
@@ -109,7 +109,7 @@ guided_study: false
     - If you see π or some multiple of π then you must work in radians
 - The following steps may help you use the unit circle to find **secondary values**
 
-STEP 1: Draw the angle into the first quadrant using the *x* or *y *coordinate to help you
+STEP 1: Draw the angle into the first quadrant using the *x* or *y* coordinate to help you
 
 - If you are working with **sin** *x* = *k*, draw the line from the origin to the circumference of the circle at the point where the **y coordinate** is *k*
 - If you are working with **cos** *x* = *k*, draw the line from the origin to the circumference of the circle at the point where the **x coordinate** is *k*
@@ -122,7 +122,7 @@ STEP 1: Draw the angle into the first quadrant using the *x* or *y *coordinate t
 
 STEP 2: Draw the radius in the other quadrant which has the same...
 
-- *... ****x-*****coordinate** if* *solving **cos** *x *= *k*
+- *... ****x-*****coordinate** if* *solving **cos** *x *=* k*
 
   - This will be the quadrant which is vertical to the original quadrant
 - *... ****y-*****coordinate** if* *solving **sin** *x *= k
@@ -147,9 +147,9 @@ STEP 4: Add or subtract either 360° or 2π radians to both values until you hav
 > - Being able to sketch out the unit circle and remembering CAST can help you to find all solutions to a problem in an exam question
 
 > **Worked Example**
-> Given that one solution of cos*θ* = 0.8 is *θ *= 0.6435 radians correct to 4 decimal places, find all other solutions in the range -2π ≤ *θ *≤ 2*π*.  Give your answers correct to 3 significant figures.
+> Given that one solution of cos*θ* = 0.8 is *θ* = 0.6435 radians correct to 4 decimal places, find all other solutions in the range -2π ≤ *θ* ≤ 2*π*.  Give your answers correct to 3 significant figures.
 > 
-> > *Cosine is positive in the first and fourth quadrants so draw the angle from the horizontal axis in both quadrants. *
+> > *Cosine is positive in the first and fourth quadrants so draw the angle from the horizontal axis in both quadrants.*
 > 
 > ![cie-add-maths-using-the-unit-circle-we-solution-part-i](assets/c0ad60a419a5-cie-add-maths-using-the-unit-circle-we-solution-.png)
 > 

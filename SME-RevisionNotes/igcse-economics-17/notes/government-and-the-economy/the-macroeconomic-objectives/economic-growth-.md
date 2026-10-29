@@ -25,7 +25,7 @@ guided_study: false
 
 ![Governments want their economies to grow and prosper](../../../assets/0a844a0740e7-edexcel-igcse-economics-macroeconomic-objectives.bin)
 
-*Governments set specific macroeconomic objectives as they want their economies to grow and prosper *
+*Governments set specific macroeconomic objectives as they want their economies to grow and prosper*
 
 ### The macroeconomic objectives
 

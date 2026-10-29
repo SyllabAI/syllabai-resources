@@ -40,7 +40,7 @@ guided_study: false
 > **Worked Example**
 > By considering the number of options there are for each letter to go into each position, find how many distinct arrangements there are of the letters in the word MATHS.
 > 
-> *There are 5 different letters in the word MATHS, so there are 5 letters for the first space, then there will be four for the second, three for the third and so on.  *
+> *There are 5 different letters in the word MATHS, so there are 5 letters for the first space, then there will be four for the second, three for the third and so on.*
 > 
 > $5\times4\times3\times2\times1$
 > 
@@ -108,7 +108,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 > 
 > (ii)$\begin{gathered} \\ \end{gathered}$ Hence, simplify  $\frac{n!}{(n-3)!}$
 > 
-> > *(i)   Write 5! and 8! in their full form.   *
+> > *(i)   Write 5! and 8! in their full form.*
 > 
 > $5!=5\times4\times3\times2\times1$
 > 
@@ -163,7 +163,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 - The function $\frac{n!}{(n-r)!}$can be written as $\mathrm{P} pre^{n}_{r}$
 
   - Make sure you can find and use this button on your calculator
-- The same function works if we have *n *spaces into which we want to arrange *r *objects, consider
+- The same function works if we have *n* spaces into which we want to arrange *r* objects, consider
 
   - for example arranging five people into a row of ten empty chairs
 
@@ -192,7 +192,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 
   - lay out the rest of the items in a line with a space in between each of them where one of the items which cannot be together could go
   - remember that this could also include the space before the first and after the last item
-  - You would then be able to fit the items which cannot be together into any of these spaces, using the *r *permutations of *n *items rule `equation`
+  - You would then be able to fit the items which cannot be together into any of these spaces, using the *r* permutations of *n* items rule `equation`
   - You do not need to fill every space
 
 ### Permutations when two or more items must be in specific places
@@ -224,7 +224,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 > 
 > > *   *
 > 
-> *'Stick' the E and the S at each end.*  *Be careful here, the question says 'at each end' so the E and the S could each go at either end. *
+> *'Stick' the E and the S at each end.*  *Be careful here, the question says 'at each end' so the E and the S could each go at either end.*
 > 
 > > *   *
 > 
@@ -232,9 +232,9 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 > 
 > *or*
 > 
-> *S _ _ _ E   *
+> *S _ _ _ E*
 > 
-> > *Find the number of arrangements of the remaining letters. *
+> > *Find the number of arrangements of the remaining letters.*
 > 
 > > *  *
 > 
@@ -258,6 +258,6 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 > 
 > $10\times9\times8\times7$
 > 
-> > *This is the same as *<sup>*10*</sup>*P*<sub>*4*</sub>*, (**n **= 10, **r **= 4).*
+> > *This is the same as* <sup>*10*</sup>*P*<sub>*4*</sub>*, (**n **= 10, **r **= 4).*
 > 
 > **Final answer:** **5040**

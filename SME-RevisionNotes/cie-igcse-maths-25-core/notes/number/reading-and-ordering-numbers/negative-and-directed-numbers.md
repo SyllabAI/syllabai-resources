@@ -39,20 +39,20 @@ guided_study: true
 
   - Two numbers with the** same sign** make a **positive**
   
-    - `open parentheses negative 12 close parentheses divided by open parentheses negative 4 close parentheses equals 3`
-    - `open parentheses negative 6 close parentheses cross times open parentheses negative 4 close parentheses equals 24`
+    - `(−12)÷(−4)=3`
+    - `(−6)×(−4)=24`
   - Two numbers with** different signs** make a **negative**
   
-    - `open parentheses negative 12 close parentheses divided by 4 equals negative 3`
-    - `6 cross times open parentheses negative 4 close parentheses equals negative 24`
+    - `(−12)÷4=−3`
+    - `6×(−4)=−24`
 - When **adding** and **subtracting** with negative numbers
 
   - **Subtracting a negative** number is the same as **adding** the positive
   
-    - e.g.  `5 minus open parentheses negative 3 close parentheses equals 5 plus 3 equals 8`
+    - e.g.  `5−(−3)=5+3=8`
   - **Adding a negative** number is the same as **subtracting** the positive
   
-    - e.g.  `7 plus open parentheses negative 3 close parentheses equals 7 minus 3 equals 4`
+    - e.g.  `7+(−3)=7−3=4`
 
 ### Where are negative numbers used in real-life?
 
@@ -82,8 +82,8 @@ guided_study: true
 > - Your calculator isn't always as clever as you may think!
 > - Using brackets around negative numbers will always make sure the calculator is doing what you want
 > 
->   - e.g.  The square of negative three is `open parentheses negative 3 close parentheses cross times open parentheses negative 3 close parentheses equals 9`
->   On many calculators, $-3^{2}=-9$ but `open parentheses negative 3 close parentheses squared equals 9`
+>   - e.g.  The square of negative three is `(−3)×(−3)=9`
+>   On many calculators, $-3^{2}=-9$ but `(−3)²=9`
 >   The second one is the required calculation
 
 > **Worked Example**

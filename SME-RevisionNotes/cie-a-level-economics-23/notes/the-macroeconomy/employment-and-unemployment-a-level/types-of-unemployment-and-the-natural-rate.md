@@ -37,7 +37,7 @@ $\mathrm{Unemployment} \mathrm{rate}=\frac{\mathrm{unemployed}}{\mathrm{labour} 
 - **Full employment is the level of employment at which everyone willing and able to work at the going wage rate is employed**
 - Full employment does NOT mean zero unemployment
 
-  - Some unemployment always remains due to *frictional*, *structural *and voluntary factors
+  - Some unemployment always remains due to *frictional*, *structural* and voluntary factors
 
 ![Graph of long-run aggregate supply (LRAS), short-run aggregate supply (SRAS), and aggregate demand (AD) with axes for average price level and real GDP.](../../../assets/40bc703abf70-11608-long-run-equilibrium.png)
 
@@ -56,7 +56,7 @@ $\mathrm{Unemployment} \mathrm{rate}=\frac{\mathrm{unemployed}}{\mathrm{labour} 
 | Type | Cause | Examples |
 |---|---|---|
 | **Equilibrium unemployment** | - Labour market clears at the market wage<br><br>  - Some workers are still unemployed | - Frictional, structural, *seasonal*, voluntary |
-| **Disequilibrium unemployment** | - Labour market does NOT clear<br><br>  - Real wage stuck above equilibrium | - *Cyclical *(demand-deficient), real-wage/classical |
+| **Disequilibrium unemployment** | - Labour market does NOT clear<br><br>  - Real wage stuck above equilibrium | - *Cyclical* (demand-deficient), real-wage/classical |
 
 ### Equilibrium unemployment
 
@@ -122,7 +122,7 @@ $\mathrm{Unemployment} \mathrm{rate}=\frac{\mathrm{unemployed}}{\mathrm{labour} 
   - It comprises frictional + structural + voluntary unemployment
 - The NRU cannot be reduced permanently by expansionary demand-side policy
 
-  - Doing so only creates *inflation *(see [expectations-augmented Phillips curve](https://www.savemyexams.com/a-level/economics/cie/23/revision-notes/government-macroeconomic-intervention/government-macroeconomic-policy-objectives-a-level/the-phillips-curve/))
+  - Doing so only creates *inflation* (see [expectations-augmented Phillips curve](https://www.savemyexams.com/a-level/economics/cie/23/revision-notes/government-macroeconomic-intervention/government-macroeconomic-policy-objectives-a-level/the-phillips-curve/))
 
 ### Determinants of the NRU
 

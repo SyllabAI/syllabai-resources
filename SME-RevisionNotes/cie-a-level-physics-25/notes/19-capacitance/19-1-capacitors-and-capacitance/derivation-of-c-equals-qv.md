@@ -41,7 +41,7 @@ guided_study: true
 
 $V_{1}=\frac{Q}{C_{1}}$ and $V_{2}=\frac{Q}{C_{2}}$
 
-- Where the total p.d. *V *is defined by the total capacitance
+- Where the total p.d. *V* is defined by the total capacitance
 
 $V=\frac{Q}{C_{\mathrm{total}}}$
 

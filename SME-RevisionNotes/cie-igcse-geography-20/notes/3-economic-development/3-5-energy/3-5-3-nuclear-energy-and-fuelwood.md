@@ -144,7 +144,7 @@ guided_study: false
 > **Case Study**
 > - Nepal is a developing country located between China and India
 > - The landscape is **mountainous** and includes much of the Himalayas
-> - Nepal is* landlocked*
+> - Nepal is *landlocked*
 > - The population is rural, with only 16% of the population living in towns and cities
 > - Energy demand is **very low **but growing as the country develops
 > 

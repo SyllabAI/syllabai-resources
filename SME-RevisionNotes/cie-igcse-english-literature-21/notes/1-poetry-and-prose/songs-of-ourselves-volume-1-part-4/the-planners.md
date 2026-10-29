@@ -215,7 +215,7 @@ In order to answer an essay question on any poem, it is vital that you understan
 - The persistent and *unyielding* nature of construction is emphasised through the first line:
 
   - It suggests an ongoing and never-ending process of building and development, highlighting the relentless nature of growth and expansion
-  - The phrase “will not stop” underscores the sense of** ***inevitability* and determination driving the Planners, emphasising the *futility* in attempting to halt or resist the process
+  - The phrase “will not stop” underscores the sense of** ***inevitability *and determination driving the Planners, emphasising the* futility* in attempting to halt or resist the process
 - The imagery of the drilling going “right through the fossils of last century” conveys a sense of disregard for the historical and cultural heritage of the urban environment:
 
   - The use of the word “fossils” suggests a sense of history and significance, implying that these remnants of the past hold cultural value

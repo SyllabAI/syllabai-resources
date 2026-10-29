@@ -31,7 +31,7 @@ guided_study: false
   - Overestimating costs may lead to prices that are too high, reducing *demand*
 - **To calculate profit**
 
-  - Accurate costs help calculate* gross profit* and *net profit*, important for judging performance
+  - Accurate costs help calculate *gross profit* and *net profit*, important for judging performance
 - **For decision-making**
 
   - Managers use cost data to decide whether to
@@ -45,7 +45,7 @@ guided_study: false
   - Accurate costs make break-even analysis more reliable
 - **To control spending**
 
-  - Comparing actual costs with *budgets *helps identify areas of overspending and take action
+  - Comparing actual costs with *budgets* helps identify areas of overspending and take action
 
 ## Types of costs
 
@@ -176,7 +176,7 @@ guided_study: false
 $\mathrm{Average} \mathrm{cost}=\mathrm{Total} \mathrm{cost}\div\mathrm{Quantity} \mathrm{of} \mathrm{output}$
 
 - The average cost helps a businesses set prices that cover costs and leave room for profit
-- It is also used to compare *efficiency *over time or between different products
+- It is also used to compare *efficiency* over time or between different products
 
 > **Worked Example**
 > Supajuice has been approached by a large supermarket chain that wants to buy a large volume of its juice each month. The supermarket chain is willing to pay \$2.95 for each bottle.

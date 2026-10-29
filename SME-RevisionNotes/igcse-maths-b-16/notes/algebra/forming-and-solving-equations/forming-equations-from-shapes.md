@@ -123,13 +123,13 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The volume of a prism is given by *$V=\mathrm{area} \mathrm{of} \mathrm{cross} \mathrm{section}\times\mathrm{length}$
+> > *The volume of a prism is given by* $V=\mathrm{area} \mathrm{of} \mathrm{cross} \mathrm{section}\times\mathrm{length}$
 > 
-> - *Here the length is *$( x + 3 )$
+> - *Here the length is* $( x + 3 )$
 > 
-> > *To find the area of the cross section, use the area of a trapezium formula, *$A = 1 \frac{1}{2} ( a + b ) h$
+> > *To find the area of the cross section, use the area of a trapezium formula,* $A = 1 \frac{1}{2} ( a + b ) h$
 > 
-> - *Here *$a=4x$*, *$b=3x$* and *$h=2x$
+> - *Here* $a=4x$*,* $b=3x$ *and* $h=2x$
 > 
 > $\begin{gathered} A = 1 \frac{1}{2} ( 4 x + 3 x ) ( 2 x ) \\ = x ( 7 x ) \\ = 7 x^{2} \end{gathered}$
 > 

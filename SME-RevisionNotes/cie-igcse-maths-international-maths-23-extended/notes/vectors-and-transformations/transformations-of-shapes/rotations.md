@@ -71,9 +71,9 @@ guided_study: true
 > 
 > ![Steps to rotate a shape](assets/9bb7f3d634e7-29777-rotations-3.png)
 > 
-> > *With your pencil fixed on the point of rotation, rotate the tracing paper 90*<sup>*o*</sup>* anti-clockwise, the arrow that you drew should now be pointing left.*
+> > *With your pencil fixed on the point of rotation, rotate the tracing paper 90*<sup>*o*</sup> *anti-clockwise, the arrow that you drew should now be pointing left.*
 > *Make a mental note of the new coordinates of the vertex that you marked on your tracing paper.*
-> *Draw the new position of this vertex onto the grid.  *
+> *Draw the new position of this vertex onto the grid.*
 > 
 > ![Steps to rotate a shape](assets/cdff252e7ef6-16946-rotations-4.png)
 > 
@@ -131,14 +131,14 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *You should be able to see that the object has been rotated 90*<sup>*o*</sup>* clockwise (or 270*<sup>*o*</sup>* anti-clockwise).*
+> > *You should be able to see that the object has been rotated 90*<sup>*o*</sup>*clockwise (or 270*<sup>*o*</sup> *anti-clockwise).*
 > *You are likely to be able to see roughly where the centre of rotation is but it may take a little time to find its position exactly.*
 > 
 > ![Finding the centre of rotation](assets/070f67c093e4-36147-rotations-7.png)
 > 
 > > *To find the exact coordinates of the centre of rotation you can play around with tracing paper.*
 > 
-> > *Draw over shape A on tracing paper, then try out different locations for the centre of enlargement by placing your pencil on a point, rotating the paper 90*<sup>*o*</sup>* clockwise and seeing if it lines up with shape B.*
+> > *Draw over shape A on tracing paper, then try out different locations for the centre of enlargement by placing your pencil on a point, rotating the paper 90*<sup>*o*</sup> *clockwise and seeing if it lines up with shape B.*
 > 
 > ![Finding the centre of rotation](assets/a8afeba8e20e-57109-rotations-8.png)
 > 

@@ -24,7 +24,7 @@ guided_study: true
   - e.g. for vertical motion *a* = ± 9.81 m s<sup>–2</sup>, an object which starts or finishes at rest will have *u* = 0 or *v* = 0
 - **Step 2:** Choose the equation which contains the quantities you have listed
 
-  - e.g. the equation that links *s, u, a* and* t* is s = ut + ½at<sup>2</sup>
+  - e.g. the equation that links *s, u, a* and *t* is s = ut + ½at<sup>2</sup>
 - **Step 3:** Convert any units to SI units and then insert the quantities into the equation and rearrange algebraically to determine the answer
 
 > **Worked Example**
@@ -44,7 +44,7 @@ guided_study: true
 > 
 > - *u* = 50 m s<sup>–1</sup>
 > - *v* = 10 m s<sup>–1</sup>
-> - *t *= 20 s
+> - *t* = 20 s
 > - *s* = ?
 > 
 > **Step 2: State the appropriate equation**

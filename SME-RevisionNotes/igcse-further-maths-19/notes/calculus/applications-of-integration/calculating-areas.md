@@ -58,7 +58,7 @@ guided_study: false
 > 
 > $\int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x$
 > 
-> > *Integrate as usual (here it's a 'powers of *$x$*' integration)*
+> > *Integrate as usual (here it's a 'powers of* $x$*' integration)*
 > 
 > > *Write the answer in square brackets with the integration limits outside*
 > 
@@ -148,16 +148,16 @@ guided_study: false
 > 
 > > *Start by finding the integration limits.*
 > 
-> > *The *$y$*-axis is the left boundary, so *$x=0$* will be the lower integration limit*
+> > *The* $y$*-axis is the left boundary, so* $x=0$ *will be the lower integration limit*
 > 
-> > *The right boundary is where the curve intercepts the *$x$*-axis*
-> *Solve the equation  *$y=0$*  to find its *$x$*-coordinate*
+> > *The right boundary is where the curve intercepts the* $x$*-axis*
+> *Solve the equation* $y=0$ *to find its* $x$*-coordinate*
 > 
 > $\begin{gathered} 3 + 2 x - x^{2} & = 0 \\ x^{2} - 2 x - 3 & = 0 \\ ( x + 1 ) ( x - 3 ) & = 0 \end{gathered}$
 > 
 > $x=-1\mathrm{or}x=3$
 > 
-> > *We want the positive intercept, so the upper integral limit will be *$x=3$
+> > *We want the positive intercept, so the upper integral limit will be* $x=3$
 > 
 > > *Put all that info into the definite integral*
 > 
@@ -248,35 +248,35 @@ Write the definite integral **for each part**
 > 
 > (a) Determine the coordinates of the point labelled$P$.
 > 
-> > *That point is one of the *$x$*-axis intercepts  of the function*
+> > *That point is one of the* $x$*-axis intercepts  of the function*
 > 
-> > *Solve *$\mathrm{f} ( x ) = 0$* to find what those area*
+> > *Solve* $\mathrm{f} ( x ) = 0$ *to find what those area*
 > 
 > $( x + 4 ) ( x - 1 ) ( x - 5 ) = 0$
 > 
 > $x=-4,1,5$
 > 
 > > *It has to be positive, because the point is to the right of the origin*
-> *And it has to be less than 3, because it's to the left of the line *$x=3$
-> *So it must be the intercept at *$x=1$
+> *And it has to be less than 3, because it's to the left of the line* $x=3$
+> *So it must be the intercept at* $x=1$
 > 
 > $(1,0)$
 > 
 > (b) Find the exact total area of the shaded regions $R_{1}$ and $R_{2}$.
 > 
-> > $R_{1}$* is the region between *$x=0$* and *$x=1$
+> > $R_{1}$ *is the region between* $x=0$ *and* $x=1$
 > 
-> > *It lies totally above the *$x$*-axis, so the definite integral will calculate the area directly*
+> > *It lies totally above the* $x$*-axis, so the definite integral will calculate the area directly*
 > 
 > `| Area of R _ 1 | = integral _ 0 ^ 1 ( x + 4 ) ( x - 1 ) ( x - 5 ) d x | | _ = integral _ 0 ^ 1 ( x ^3 - 2 x ^2 - 19 x + 20 ) d x | | _ = [ 1 fourth x ^ 4 - 2 / 3 x ^3 - 19 / 2 x ^2 + 20 x ] _ 0 ^ 1 | | _ = ( 1 fourth ( 1 ) ^ 4 - 2 / 3 ( 1 ) ^3 - 19 / 2 ( 1 ) ^2 + 20 ( 1 ) ) - ( 1 fourth ( 0 ) ^ 4 - 2 / 3 ( 0 ) ^3 - 19 / 2 ( 0 ) ^2 + 20 ( 0 ) ) | | _ = ( 1 fourth - 2 / 3 - 19 / 2 + 20 ) - ( 0 - 0 - 0 + 0 ) | | _ = 121 / 12 - 0 | | _ = 121 / 12 | |`
 > 
-> > $R_{2}$* is the region between *$x=1$* and *$x=3$
+> > $R_{2}$ *is the region between* $x=1$ *and* $x=3$
 > 
-> > *It lies totally below the *$x$*-axis, so the integral will give us the negative version of the area*
+> > *It lies totally below the* $x$*-axis, so the integral will give us the negative version of the area*
 > 
 > `| - ( Area of R _ 2 ) | = integral _ 1 ^ 3 ( x ^3 - 2 x ^2 - 19 x + 20 ) d x | | _ = [ 1 fourth x ^ 4 - 2 / 3 x ^3 - 19 / 2 x ^2 + 20 x ] _ 1 ^ 3 | | _ = ( 1 fourth ( 3 ) ^ 4 - 2 / 3 ( 3 ) ^3 - 19 / 2 ( 3 ) ^2 + 20 ( 3 ) ) - ( 1 fourth ( 1 ) ^ 4 - 2 / 3 ( 1 ) ^3 - 19 / 2 ( 1 ) ^2 + 20 ( 1 ) ) - | | _ = ( 81 / 4 - 18 - 171 / 2 + 60 ) - ( 1 fourth - 2 / 3 - 19 / 2 + 20 ) | | _ = - 93 / 4 - 121 / 12 | | _ = - 400 / 12 | |`
 > 
-> > *So the area of *$R_{2}$* is *$\frac{400}{12}$* *$( = \frac{100}{3} )$
+> > *So the area of* $R_{2}$ *is* $\frac{400}{12}$* *$( = \frac{100}{3} )$
 > 
 > > *Add the two areas together to get the total area*
 > 

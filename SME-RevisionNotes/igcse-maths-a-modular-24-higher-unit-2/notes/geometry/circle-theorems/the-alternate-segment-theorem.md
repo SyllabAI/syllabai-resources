@@ -67,7 +67,7 @@ guided_study: true
 > 
 > ![Circle with points A, B, C on circumference, lines AD, CF, AE, BF tangent. Angles at A and B are 47 degrees. Note: Not drawn to scale.](assets/f5723c45e6c2-22620-alternate-segment-theorem-answer.png)
 > 
-> > *Angle *$x$*and angle **CAB** form a straight lie*
+> > *Angle* $x$*and angle **CAB** form a straight lie*
 > 
 > $\begin{gathered} x + 47 & = 180 \\ x = 180 - 47 \end{gathered}$
 > 

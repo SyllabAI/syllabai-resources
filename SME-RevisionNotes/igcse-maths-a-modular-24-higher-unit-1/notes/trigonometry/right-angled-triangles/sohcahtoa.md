@@ -139,7 +139,7 @@ guided_study: true
 > 
 > ![Right Pointing Right Angled Triangle with measurements, IGCSE & GCSE Maths revision notes](assets/5d3995ed8d60-12475-trigonometry-to-find-lengths-4.png)
 > 
-> > *We know A and we want to know O - that's TOA or *$\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$
+> > *We know A and we want to know O - that's TOA or* $\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$
 > 
 > $\tan ( 43 ) = \frac{x}{9}$
 > 
@@ -168,11 +168,11 @@ guided_study: true
 > 
 > ![Left Pointing Right Angled Triangle with measurements, IGCSE & GCSE Maths revision notes](assets/ad060dd647a8-20307-sohcahtoa-6.png)
 > 
-> > *We know A and H - that's CAH or *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
+> > *We know A and H - that's CAH or* $\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
 > 
 > $\cos ( y ) = \frac{8}{23}$
 > 
-> > *Use inverse cos to find *$y$
+> > *Use inverse cos to find* $y$
 > 
 > $y = \cos ^{- 1} ( \frac{8}{23} )$
 > 

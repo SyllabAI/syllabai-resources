@@ -65,7 +65,7 @@ $f=\frac{1}{T}$
 > 
 > **Step 1: List the known values**
 > 
-> - Frequency, *f *= 6 × 10<sup>14</sup> Hz
+> - Frequency, *f* = 6 × 10<sup>14</sup> Hz
 > 
 > **Step 2: State the relationship between frequency and time period **
 > 

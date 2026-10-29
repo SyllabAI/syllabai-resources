@@ -89,7 +89,7 @@ $\mathrm{moment}=Fd$
 > 
 > $\mathrm{moment}=1.4715Nm$
 > 
-> `moment space equals space 1.5 space straight N space straight m space open parentheses 2 space straight s. straight f. close parentheses`
+> `moment=1.5 straight N straight m (2 straight s. straight f.)`
 
 > **Exam Hint**
 > It is better to only round your answer right at the end of your calculation. Always work with at least one, preferably two more significant figures than your final answer requires. This will help you to avoid compound rounding errors that could lose you marks.

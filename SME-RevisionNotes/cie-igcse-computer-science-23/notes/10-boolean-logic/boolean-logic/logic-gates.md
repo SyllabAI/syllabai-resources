@@ -65,7 +65,7 @@ gates"
 | (A **XOR** B) | ![xor](assets/9e0424c74965-screenshot-2023-05-30-at-08-25-28.png) | Returns TRUE if **either** input is TRUE but **NOT **both<br><br>**TRUE **OR **FALSE **= **TRUE**<br><br>**FALSE **OR **FALSE **= **FALSE**<br><br>**TRUE **OR **TRUE **=** FALSE** |
 
 > **Exam Hint**
-> *The most common exam mistake is confusing *`OR`* and *`XOR`*. Remember: *`XOR`* is only ****true if exactly one input is true****. It’s false if both are true or both are false.*
+> *The most common exam mistake is confusing* `OR` *and* `XOR`*. Remember:* `XOR`* is only ****true if exactly one input is true****. It’s false if both are true or both are false.*
 
 #### NAND (not and)
 

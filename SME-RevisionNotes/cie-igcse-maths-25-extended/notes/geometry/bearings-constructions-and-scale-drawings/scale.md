@@ -90,7 +90,7 @@ Use this ratio to **convert** the **actual distance** to the **scale distance**
 > 
 > > *Convert 17 mm into cm*
 > 
-> *17 mm = 1.7 cm  *
+> *17 mm = 1.7 cm*
 > 
 > > *Use the scale to find 1.7 cm on the map in real life*
 > 

@@ -17,7 +17,7 @@ guided_study: true
 
 ## Angular speed
 
-- The angular speed (⍵) of a body in circular motion is defined as:
+- The angular speed (ω) of a body in circular motion is defined as:
 
 **The rate of change in angular displacement with respect to time**
 
@@ -37,16 +37,16 @@ guided_study: true
 
 ## Calculating angular speed
 
-- Taking the angular displacement of a complete cycle as 2π, the angular speed *⍵* can be calculated using the equation:
+- Taking the angular displacement of a complete cycle as 2π, the angular speed *ω* can be calculated using the equation:
 
 $ω=\frac{\Deltaθ}{\Deltat}=\frac{2π}{T}=2πf$
 
 - Where:
 
-  - Δ*θ = *change in ***angular displacement*** (***radians***)
-  - Δ*t = *time interval (s)
-  - *T = *the ***time period*** (s)
-  - *f *= ***frequency*** (Hz)
+  - Δ*θ =* change in ***angular displacement*** (***radians***)
+  - Δ*t =* time interval (s)
+  - *T =* the ***time period*** (s)
+  - *f* = ***frequency*** (Hz)
 - Angular velocity is the same as angular speed, but it is a vector quantity
 - When an object travels at constant linear speed *v* in a circle of radius *r*, the angular velocity is equal to:
 
@@ -58,8 +58,8 @@ $ω=\frac{\Deltaθ}{\Deltat}=\frac{v}{r}$
   - *r* is the radius of orbit (m)
 - This equation tells us:
 
-  - The greater the rotation angle *θ* in a given amount of time, the greater the angular velocity *⍵*
-  - An object rotating further from the centre of the circle (larger *r*) moves with a smaller angular velocity (smaller *⍵*)
+  - The greater the rotation angle *θ* in a given amount of time, the greater the angular velocity *ω*
+  - An object rotating further from the centre of the circle (larger *r*) moves with a smaller angular velocity (smaller *ω*)
 
 > **Worked Example**
 > A bird flies in a horizontal circle with an angular speed of 5.25 rad s<sup>-1</sup> of radius 650 m.

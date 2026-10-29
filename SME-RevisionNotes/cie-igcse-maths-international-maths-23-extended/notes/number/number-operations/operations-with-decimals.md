@@ -117,7 +117,7 @@ guided_study: true
 > 
 > *157 × 78 = 12 246*
 > 
-> > *Undo the initial action by dividing the answer by 10 000 *
+> > *Undo the initial action by dividing the answer by 10 000*
 > *(This is dividing by 100 and then 100 again)*
 > 
 > *12 246 ÷ 10 000*

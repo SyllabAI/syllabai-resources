@@ -82,7 +82,7 @@ guided_study: false
   - These record what will be or has been discussed in face-to-face or virtual meetings
 - **Letters**
 
-  - These may be used for formal communication with external *stakeholders *such as customers, suppliers or job applicants
+  - These may be used for formal communication with external *stakeholders* such as customers, suppliers or job applicants
 - **Contracts and agreements**
 
   - These are legal documents confirming terms and conditions
@@ -126,16 +126,16 @@ guided_study: false
   - This can be used to promote the business and interact with external audiences
 - **Internal platforms**
 
-  - These include *intranets *that can be used to share updates, documents and announcements with employees
+  - These include *intranets* that can be used to share updates, documents and announcements with employees
 
 #### Strengths and weaknesses of electronic communication
 
 | **Strengths** | **Weaknesses** |
 |---|---|
-| - Fast and efficient, as messages can be sent instantly anywhere | - May lead to *information overload *as a result of too many messages or emails |
+| - Fast and efficient, as messages can be sent instantly anywhere | - May lead to *information overload* as a result of too many messages or emails |
 | - Can combine text, images, audio and video | - Can be impersonal, reducing human connection |
 | - Supports remote working and international communication | - Technical problems, such as system crashes or poor internet connection, can cause delays |
-| - Easy to store and retrieve as messages can be saved and reviewed | - Security risks due to data breaches or *hacking *of sensitive information |
+| - Easy to store and retrieve as messages can be saved and reviewed | - Security risks due to data breaches or *hacking* of sensitive information |
 | - Helps with collaboration through shared documents or group chats | - Employees may ignore or misunderstand messages if they are poorly written |
 
 ## Visual communication
@@ -161,7 +161,7 @@ guided_study: false
   - These can help employees understand how to use equipment or follow procedures
 - **Presentations (e.g. PowerPoint)**
 
-  - Software used in meetings or *pitches *to illustrate key points
+  - Software used in meetings or *pitches* to illustrate key points
 - **Signs and symbols**
 
   - These can include health and safety signs, arrows or labels around the workplace, providing instructions or information

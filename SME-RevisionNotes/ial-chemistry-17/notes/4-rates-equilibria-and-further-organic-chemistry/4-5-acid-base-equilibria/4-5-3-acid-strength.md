@@ -50,7 +50,7 @@ guided_study: false
 ![The acid dissociation constant, downloadable AS & A Level Chemistry revision notes](../../../assets/0ca85fd48e17-5-6-1-the-acid-dissociation-constant.png)
 
 - This constant is called the **acid dissociation constant**, *K*<sub>*a*</sub>, and has the units mol dm<sup>-3</sup>
-- Values of *K*<sub>*a *</sub>are very small, for example for ethanoic acid *K*<sub>*a *</sub>= 1.74 x 10<sup>-5</sup> mol dm<sup>-3 </sup>
+- Values of *K*<sub>*a* </sub>are very small, for example for ethanoic acid *K*<sub>*a* </sub>= 1.74 x 10<sup>-5</sup> mol dm<sup>-3 </sup>
 - When writing the equilibrium expression for weak acids, the following assumptions are made:
 
   - The concentration of hydrogen ions due to the ionisation of water is negligible
@@ -72,10 +72,10 @@ guided_study: false
 
 ***pK***<sub>***a ***</sub>**= -log*****K***<sub>***a***</sub>
 
-- Looking at the *pK*<sub>*a *</sub>values for the same acids:
+- Looking at the *pK*<sub>*a* </sub>values for the same acids:
 
 #### Table of pK<sub>a </sub>values
 
 ![Table of pKa values, downloadable AS & A Level Chemistry revision notes](../../../assets/b2c6922705a2-5-6-2-table-of-pka-values.png)
 
-- The range of *pK*<sub>*a *</sub>values for most weak acids lies between 3 and 7
+- The range of *pK*<sub>*a* </sub>values for most weak acids lies between 3 and 7

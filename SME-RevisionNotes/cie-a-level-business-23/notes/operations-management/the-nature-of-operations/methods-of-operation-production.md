@@ -121,7 +121,7 @@ guided_study: false
 
 ![Assorted items: bread, croissant, pretzels; a medicine box with tablets; and various bottles of toiletries, including pumps and sprays.](../../../assets/987fb4d93241-8232-httpscdn-savemyexams-comuploads202309batch-.png)
 
-*Commonly used in industries such as pharmaceuticals, beauty products and food processing *
+*Commonly used in industries such as pharmaceuticals, beauty products and food processing*
 
 - Batch production strikes a **balance between customisation and cost-effectiveness**, making it a suitable production method for industries that deal with **diverse product range**s and **varying customer needs**
 ** **

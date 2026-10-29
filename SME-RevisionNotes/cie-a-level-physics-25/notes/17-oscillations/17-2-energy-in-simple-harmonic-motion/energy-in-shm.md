@@ -68,7 +68,7 @@ $E=\frac{1}{2}mω^{2}x_{0}^{2}$
 
   - *E* = total energy of a simple harmonic system (J)
   - *m* = mass of the oscillator (kg)
-  - *⍵* = angular frequency (rad s<sup>-1</sup>)
+  - *ω* = angular frequency (rad s<sup>-1</sup>)
   - *x*<sub>*0*</sub> = amplitude (m)
 
 ### Sum of potential and kinetic energies
@@ -129,7 +129,7 @@ $E=\frac{1}{2}mω^{2}x_{0}^{2}$
 > 
 > **Step 1: Write down all known quantities**
 > 
-> - Mass,* m* = 23 g = 23 × 10<sup>–3</sup> kg
+> - Mass,*m* = 23 g = 23 × 10<sup>–3</sup> kg
 > - Amplitude, *x*<sub>*0*</sub> = 1.5 cm = 0.015 m
 > - Frequency, *f* = 4.8 Hz
 > 

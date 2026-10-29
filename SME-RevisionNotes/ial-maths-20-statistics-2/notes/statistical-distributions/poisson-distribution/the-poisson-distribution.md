@@ -35,7 +35,7 @@ guided_study: false
 
   - $P(X=r)=e^{-λ}\times\frac{λ^{r}}{r!}$ for r=0, 1, 2, ...,*n*
   - *e* is the constant 2.718…
-  - `r factorial equals r open parentheses r minus 1 close parentheses open parentheses r minus 2 close parentheses....2 cross times 1`
+  - `r factorial=r (r−1)(r−2)....2×1`
 
 #### What are the important properties of a Poisson distribution?
 

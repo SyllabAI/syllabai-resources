@@ -104,4 +104,4 @@ guided_study: true
 > ![Worked example using normal approximation to binomial: finds μ=500, σ²=300, applies continuity correction 484.5≤X≤530.5, standardises and evaluates P≈0.776](assets/0cd58ece1a6f-27595-image-3.png)
 
 > **Exam Hint**
-> - In the exam, the question will often tell you to use a normal approximation but sometimes you will have to recognise that you should do so for yourself. Look for the conditions mentioned in this revision note, *n *is large, *p *is close to 0.5, *np > 5 *and *nq > 5.*
+> - In the exam, the question will often tell you to use a normal approximation but sometimes you will have to recognise that you should do so for yourself. Look for the conditions mentioned in this revision note, *n* is large, *p* is close to 0.5, *np > 5* and *nq > 5.*

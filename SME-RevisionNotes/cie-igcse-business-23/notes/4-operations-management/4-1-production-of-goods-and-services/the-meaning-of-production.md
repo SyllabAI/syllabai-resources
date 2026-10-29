@@ -77,7 +77,7 @@ $\mathrm{Labour} \mathrm{productivity}=\frac{\mathrm{Output}}{\mathrm{Number} \m
 > | 2021 | 46,000 |
 > | 2022 | 69,000 |
 > 
-> In 2021 *Sokkemani *employed 50 staff. In 2022 the number of staff employed by the business increased by 20%
+> In 2021 *Sokkemani* employed 50 staff. In 2022 the number of staff employed by the business increased by 20%
 > 
 > Calculate *Sokkemani*'s* *productivity in 2021 and 2022.**  ****[3 marks]**
 > 

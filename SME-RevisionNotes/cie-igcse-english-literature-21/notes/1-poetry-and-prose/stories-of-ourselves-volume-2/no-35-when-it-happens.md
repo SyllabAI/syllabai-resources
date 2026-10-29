@@ -192,4 +192,4 @@ Margaret Atwood’s chilling short story When It Happens depicts a middle-aged w
 
 ### Sources
 
-Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.
+Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2,* Cambridge University Press.

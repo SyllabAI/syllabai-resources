@@ -85,7 +85,7 @@ guided_study: false
 - Taking on more debt increases the gearing ratio
 
   - This indicates greater financial risk and a higher dependency on borrowed funds
-- Using *equity *reduces gearing
+- Using *equity* reduces gearing
 
   - This indicates a more stable capital structure with lower financial risk
 
@@ -100,7 +100,7 @@ guided_study: false
 
 #### 3. Dividend cover
 
-- More debt means higher *interest *payments, which reduce net profit
+- More debt means higher *interest* payments, which reduce net profit
 
   - This may lower the *dividend cover*, making dividend payments less sustainable
 - Raising finance through equity avoids interest costs and may result in a higher dividend cover
@@ -154,7 +154,7 @@ guided_study: false
 | **Ratio** | **Explanation** |
 |---|---|
 | **Return on capital employed** | - Business growth often requires extra funding (loans or equity), increasing capital employed<br>- If profit doesn’t rise quickly, ROCE can decrease, suggesting lower efficiency in using capital |
-| **Current ratio** | - Growth might lead to increased short-term borrowing or spending on *inventory *and wages<br>- This can reduce liquidity, causing the current ratio to fall, which signals cash pressure |
+| **Current ratio** | - Growth might lead to increased short-term borrowing or spending on *inventory* and wages<br>- This can reduce liquidity, causing the current ratio to fall, which signals cash pressure |
 | **Inventory turnover** | - A growing business may build up more stock to meet demand or launch new products that sell slower<br>- This can lead to a fall in *inventory turnover*, indicating slower sales or overstocking |
 | **Price/earnings ratio** | - If growth creates optimism, the share price may rise, increasing the *price/earnings ratio*<br>- But if growth causes uncertainty (e.g. high risk or debt), the share price might fall, lowering the price/earnings ratio |
 
@@ -166,7 +166,7 @@ guided_study: false
 
 ### 1. Cost-cutting strategy
 
-- A business might reduce its costs by lowering wages, using cheaper materials, or cutting back on *overheads *like advertising or travel
+- A business might reduce its costs by lowering wages, using cheaper materials, or cutting back on *overheads* like advertising or travel
 
 | **Ratio** | **Explanation** |
 |---|---|
@@ -210,12 +210,12 @@ guided_study: false
   - Staff morale
   - Customer loyalty
   - Brand reputation
-  - *Innovation *and leadership
+  - *Innovation* and leadership
 - These factors can have a significant impact on business success, so ignoring them means only a partial picture of a business is gained
 
 #### Different accounting methods
 
-- Businesses can choose different methods for things like *depreciation *or valuing inventory
+- Businesses can choose different methods for things like *depreciation* or valuing inventory
 - This makes it **difficult to compare** companies directly
 
 #### Window dressing

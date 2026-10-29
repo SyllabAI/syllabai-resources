@@ -28,7 +28,7 @@ Throughout this section we will use the random variable $X \sim \mathrm{B} ( n ,
     - If there are *r* successes then there are $( n - r )$ failures
     - The number of times this can happen is calculated by the **binomial coefficient**
     - $( \begin{gathered} n \\ r \end{gathered} ) = C pre^{n}_{r} = \frac{n factorial}{r \text{factorial} ( n - r ) factorial}$
-- This can be seen by considering a **probability tree diagram** with *n *trials, where *p* is the probability of success and the tree diagram is being used to find *r *successes
+- This can be seen by considering a **probability tree diagram** with *n* trials, where *p* is the probability of success and the tree diagram is being used to find *r* successes
 - $( \begin{gathered} n \\ r \end{gathered} )$ is the number of pathways through the tree there would be exactly *r* successes within the *n* trials
 - The formula allows statisticians to quickly find probabilities for larger values of *n* without needing to draw the whole tree diagram
 - Your calculator may have a function that would allow you to calculate binomial probabilities
@@ -46,7 +46,7 @@ Throughout this section we will use the random variable $X \sim \mathrm{B} ( n ,
 - $P(X\leqr)$is asking you to find the probabilities of **all values up to and including *****r***
 
   - This means all values that are **at most *****r***
-  - Don’t forget to include P(*X *= 0)
+  - Don’t forget to include P(*X* = 0)
   - It could also be written as $P(X\leqr)=1-P(X>r)$
 - $P(X<r)$is asking you to find the probabilities of **all values up to but not including *****r***
 

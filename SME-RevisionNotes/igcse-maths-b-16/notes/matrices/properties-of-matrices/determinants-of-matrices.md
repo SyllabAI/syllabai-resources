@@ -46,13 +46,13 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Use *$\det ( \begin{gathered} a b \\ c d \end{gathered} ) = a d - b c$* to find the determinants of the two matrices*
+> > *Use* $\det ( \begin{gathered} a b \\ c d \end{gathered} ) = a d - b c$ *to find the determinants of the two matrices*
 > 
 > $\det A = \sqrt{p} \times ( - 7 ) - ( - 1 ) \times 3 = 3 - 7 \sqrt{p}$
 > 
 > $\mathrm{det}B=2\times1-4\times5=-18$
 > 
-> > *Set the two determinants equal and solve for *$p$
+> > *Set the two determinants equal and solve for* $p$
 > 
 > $\begin{gathered} - 18 & = 3 - 7 \sqrt{p} \\ 7 \sqrt{p} & = 3 + 18 \\ 7 \sqrt{p} & = 21 \\ \sqrt{p} & = 3 \end{gathered}$
 > 

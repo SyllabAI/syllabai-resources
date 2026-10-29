@@ -25,7 +25,7 @@ $F ( x_{ } 0 ) = P ( X \le x_{ } 0 ) = integral_{ } - \text{infinity} ^{ } x_{ }
 
 - Compare this to the cumulative distribution function for a **discrete random variable**
 
-$F(x_{0})=P(X\leqx_{0})=$$\underset{x\leqx_{0}}{\sum}P(X=x)$
+$F(x_{0})=P(X\leqx_{0})=\underset{x\leqx_{0}}{\sum}P(X=x)$
 
 - F(x<sub>0</sub>) is the probability that *X* is a value less than or equal to x<sub>0</sub>
 - Notice the use of **uppercase **$\text{F}$ for the **c.d.f.** but **lowercase** $\text{f}$  for the **p.d.f.**

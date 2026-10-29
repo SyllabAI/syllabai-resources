@@ -67,7 +67,7 @@ guided_study: false
 > 
 > **Step 1**: Find the number of moles of NaOH needed from the concentration and volume:
 > 
-> - *number of moles  = concentration (mol dm*<sup>*-3*</sup>*) x volume (dm*<sup>*3*</sup>*)  *
+> - *number of moles  = concentration (mol dm*<sup>*-3*</sup>*) x volume (dm*<sup>*3*</sup>*)*
 > 
 >   - n = 0.200 *mol dm*<sup>*-3*</sup> x 0.250 *dm*<sup>*3*</sup>
 >   - n = **0.0500 mol**

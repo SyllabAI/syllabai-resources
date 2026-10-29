@@ -59,16 +59,16 @@ guided_study: false
 > 
 > Show that its Cartesian equation is $y^{2}=4ax$.
 > 
-> > *To find the Cartesian equation, eliminate *$t$* from the parametric equations*
-> *It is easier to make *$t$* the subject of *$y=2at$
+> > *To find the Cartesian equation, eliminate* $t$ *from the parametric equations*
+> *It is easier to make* $t$ *the subject of* $y=2at$
 > 
 > $t=\frac{y}{2a}$
 > 
-> > *Substitute this into the equation for *$x$* and simplify*
+> > *Substitute this into the equation for* $x$ *and simplify*
 > 
 > $\begin{gathered} x = a ( \frac{y}{2 a} )^{2} \\ x = \frac{a y^{2}}{4 a^{2}} \\ x = \frac{y^{2}}{4 a} \end{gathered}$
 > 
-> > *Make *$y^{2}$* the subject*
+> > *Make* $y^{2}$ *the subject*
 > 
 > $y^{2}=4ax$
 
@@ -94,12 +94,12 @@ guided_study: false
   - “Points on a parabola are the **same distance** from the focus as they are horizontally from the directrix”
 - In other words:
 
-  - If *S * is the **focus **of a parabola
-  - and *P * is **any point** on the parabola
+  - If *S* is the **focus **of a parabola
+  - and *P* is **any point** on the parabola
   - and *X*  is the point on the **directrix** horizontally from *P*
-  - Then the distance *PS * equals *PX*
+  - Then the distance *PS* equals *PX*
   
-    - *PS * = *PX*
+    - *PS* = *PX*
 - This property is an example of a ***locus*** of points
 
 > **Exam Hint**
@@ -132,6 +132,6 @@ guided_study: false
 > 
 > $\begin{gathered} x^{2} - 2 a x + a^{2} + y^{2} & = x^{2} + 2 a x + a^{2} \\ - 2 a x + y^{2} & = 2 a x \\ y^{2} & = 4 a x \end{gathered}$
 > 
-> > $P ( x , y )$* must lie on this curve*
+> > $P ( x , y )$ *must lie on this curve*
 > 
 > $y^{2}=4ax$

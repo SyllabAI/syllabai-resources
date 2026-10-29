@@ -78,11 +78,11 @@ guided_study: false
 > 
 > **Step 2: Write down the relationship between the frequency *****f***** and the period *****T ***
 > 
-> *f = *$\frac{1}{T}$
+> *f =* $\frac{1}{T}$
 > 
 > **Step 3: Substitute the value of the period determined in Step 1**
 > 
-> *f = *$\frac{1}{1\times10^{-3}}$
+> *f =* $\frac{1}{1\times10^{-3}}$
 > 
 > *f* = 1000 Hz
 

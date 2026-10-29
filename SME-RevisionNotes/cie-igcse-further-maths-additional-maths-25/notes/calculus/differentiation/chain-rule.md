@@ -67,14 +67,14 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 - If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely
 - The chain rule allows us to use **substitution** to differentiate any function in the form *y* = (*ax* + *b*)<sup>n</sup>
 
-  - Let *u = ax + b, *then *y = u*<sup>*n*</sup>
+  - Let *u = ax + b,* then *y = u*<sup>*n*</sup>
   - **Differentiate** both parts **separately**
   
-    - $\frac{du}{dx}=a$ and $\frac{dy}{du}=nu^{n-1}$
+    - $\frac{du}{dx}=a$ and $\frac{dy}{du}=\nu^{n-1}$
   - Put both parts into the **chain rule**
   
     - $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}=a\timesnu^{n-1}=anu^{n-1}$
-  - **Substitute** *u = ax + b *back into your answer
+  - **Substitute** *u = ax + b* back into your answer
   
     - $\frac{dy}{dx}=an(ax+b)^{n-1}$
 
@@ -83,14 +83,14 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 - The chain rule allows us to use **substitution** to differentiate any function in the form $y=\sqrt{ax+b}$
 - Rewrite $\sqrt{ax+b}=(ax+b)^{\frac{1}{2}}$
 
-  - Let *u = ax + b, *then *y = u*<sup>*½*</sup>
+  - Let *u = ax + b,* then *y = u*<sup>*½*</sup>
   - **Differentiate** both parts **separately**
   
     - $\frac{du}{dx}=a$ and $\frac{dy}{du}=\frac{1}{2}u^{-\frac{1}{2}}$
   - Put both parts into the **chain rule**
   
     - $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}=a\times\frac{1}{2}u^{-\frac{1}{2}}=\frac{a}{2}u^{-\frac{1}{2}}$
-  - **Substitute** *u = ax + b *back into your answer
+  - **Substitute** *u = ax + b* back into your answer
   
     - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{a}{2} ( a x + b )^{- 1 \frac{1}{2}} = \frac{a}{2 \sqrt{a x + b} }$
 - This method can be used for any **fractional power** of any linear or non-linear expression
@@ -122,15 +122,15 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 > 
 > > $y=u^{7}$*           *$u=x^{2}-5x+7$
 > 
-> > *STEP 2   Find *$\frac{dy}{du}$* and *$\frac{du}{dx}$
+> > *STEP 2   Find* $\frac{dy}{du}$ *and* $\frac{du}{dx}$
 > 
 > > $\frac{dy}{du}=7u^{6}$*         *$\frac{du}{dx}=2x-5$
 > 
-> > *STEP 3   Apply the chain rule, *$\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
+> > *STEP 3   Apply the chain rule,* $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 7 u^{6} ( 2 x - 5 )$
 > 
-> > *Substitute *$u$* in terms of *$x$* back in*
+> > *Substitute* $u$ *in terms of* $x$ *back in*
 > 
 > $= 7 ( x^{2} - 5 x + 7 )^{6} ( 2 x - 5 )$
 > 
@@ -140,11 +140,11 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 > 
 > > *(In this solution, we will be applying the mental method discussed in the Exam Tip above)*
 > 
-> > *"... differentiate *`sin box _`*, ignore *$e^{2x}$*"*
+> > *"... differentiate* `sin box _`*, ignore* $e^{2x}$*"*
 > 
 > `( d y)/( d x) = cos ( e ^ 2 x ) x box`
 > 
-> > *"... multiply by the derivative of *$e^{2x}$*": differentiate *$e^{2x}$* using the result "if *$y=e^{f(x)}$*, then *$\frac{dy}{dx}=f^{'}(x)e^{f(x)}$*"*
+> > *"... multiply by the derivative of* $e^{2x}$*": differentiate* $e^{2x}$ *using the result "if* $y=e^{f(x)}$*, then* $\frac{dy}{dx}=f^{'}(x)e^{f(x)}$*"*
 > 
 > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \cos ( \mathrm{e}^{2 x} ) \times 2 \mathrm{e}^{2 x}$
 > 

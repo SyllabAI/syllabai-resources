@@ -122,9 +122,9 @@ $ΔE=mc\Deltaθ$
 - Where:
 
   - Δ*E* = change in thermal energy, in joules (J)
-  - *m *=* *mass, in kilograms (kg)
-  - *c *=* *specific heat capacity, in joules per kilogram per degree Celsius (J/kg °C
-  - Δ*θ *=* *change in temperature, in degrees Celsius (°C)
+  - *m* =* *mass, in kilograms (kg)
+  - *c* =* *specific heat capacity, in joules per kilogram per degree Celsius (J/kg °C
+  - Δ*θ* =* *change in temperature, in degrees Celsius (°C)
 
 - Rearranging for the specific heat capacity, *c*:
 
@@ -141,7 +141,7 @@ $ΔE=IV\Deltat$
 - Where:
 
   - *I* = average current, in amperes (A)
-  - *V = *average potential difference (V)
+  - *V =* average potential difference (V)
   - Δ*t* = time spent heating, in seconds (s)
 - These values are then substituted into the specific heat capacity equation to calculate the specific heat capacity of the aluminium block
 

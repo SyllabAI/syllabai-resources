@@ -29,7 +29,7 @@ guided_study: false
 
 ![Supplying the Euro to buy US$ causes the Euro to depreciate](../../../assets/6c3c42edccb4-edexcel-igcse-economics-shift-depreciation-of-cu.bin)
 
-*The market for Euros in Dollars shows an increase in supply of  Euros *
+*The market for Euros in Dollars shows an increase in supply of  Euros*
 
 ### Diagram analysis
 

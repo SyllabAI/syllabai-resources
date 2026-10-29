@@ -56,7 +56,7 @@ guided_study: false
 > 
 > **The context**
 > 
-> The 2008 global financial crisis hit *Eurozone *economies hard. Youth unemployment (15-24 age group) rose far more sharply than adult rates across the region.
+> The 2008 global financial crisis hit *Eurozone* economies hard. Youth unemployment (15-24 age group) rose far more sharply than adult rates across the region.
 > 
 > **The pattern**
 > 
@@ -71,7 +71,7 @@ guided_study: false
 > 
 > - **Cyclical component** - youth are the "first out" when demand falls (*fixed-term contracts*, last hired)
 > - **Structural component** - skills mismatch; dual labour markets (protected insiders vs precarious outsiders)
-> - **Regional divergence** - Germany's dual training system (*apprenticeships *+ vocational schools) produced better matching, showing the role of structural factors
+> - **Regional divergence** - Germany's dual training system (*apprenticeships* + vocational schools) produced better matching, showing the role of structural factors
 > - **Hysteresis risk** - long spells of youth unemployment create long-lasting "scarring" effects on future earnings
 
 > **Exam Hint**

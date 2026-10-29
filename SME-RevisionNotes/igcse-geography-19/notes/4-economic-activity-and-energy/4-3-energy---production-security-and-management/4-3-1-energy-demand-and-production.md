@@ -44,7 +44,7 @@ guided_study: false
 
 ![World map showing electricity usage per capita in kWh, with a colour scale from light to dark red for increasing consumption; includes a key and data gaps.](../../../assets/efa84628d443-59648-energy-use-per-person-2020.png)
 
-*Global energy use per person *
+*Global energy use per person*
 
 - The main energy sources are ***fossil fuels,*** which supply 84% of the world's primary energy
 - Renewables are increasing but only make up 11% of the ***energy mix***

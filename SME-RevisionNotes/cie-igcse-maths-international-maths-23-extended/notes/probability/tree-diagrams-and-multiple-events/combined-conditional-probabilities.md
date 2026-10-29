@@ -47,7 +47,7 @@ guided_study: true
 
 ### What if there are multiple possibilities within one question?
 
-- You may need a **listing strategy** (e.g.* AAB*, *ABA*, *BAA*)
+- You may need a **listing strategy** (e.g.*AAB*, *ABA*, *BAA*)
 - You will need the **or** rule for multiple possibilities
 
   - P(*AB* **or** *BA* **or*** AA ***or***...*) = P(*AB*) + P(*BA*) + P(*AA*) +...
@@ -84,7 +84,7 @@ guided_study: true
 > 
 > > *Calculate each conditional probability separately, remembering the number of beads changes after one is drawn and not replaced*
 > 
-> > *For example, P(YY) = *$\frac{10}{20}\times\frac{9}{19}$
+> > *For example, P(YY) =* $\frac{10}{20}\times\frac{9}{19}$
 > 
 > $\frac{10}{20}\times\frac{9}{19}+\frac{6}{20}\times\frac{5}{19}+\frac{4}{20}\times\frac{3}{19}$
 > 
@@ -114,7 +114,7 @@ guided_study: true
 > 
 > > *Calculate each conditional probability separately, remembering the number of beads changes after one is drawn and not replaced*
 > 
-> > *For example, P(YB) = *$\frac{10}{20}\times\frac{6}{19}$
+> > *For example, P(YB) =* $\frac{10}{20}\times\frac{6}{19}$
 > 
 > $\frac{10}{20}\times\frac{6}{19}+\frac{6}{20}\times\frac{10}{19}+\frac{10}{20}\times\frac{4}{19}+\frac{4}{20}\times\frac{10}{19}+\frac{6}{20}\times\frac{4}{19}+\frac{4}{20}\times\frac{6}{19}\,$
 > 
@@ -167,11 +167,11 @@ guided_study: true
 > 
 > > *Write expressions for the number of each colour*
 > 
-> *Let *$x$* be the number of blue marbles*
+> *Let* $x$ *be the number of blue marbles*
 > 
-> *Then there are *$x+3$* red marbles*
+> *Then there are* $x+3$ *red marbles*
 > 
-> *And there are *$x+x+3=2x+3$* marbles in total*
+> *And there are* $x+x+3=2x+3$ *marbles in total*
 > 
 > > *Find the probability that the first marble is blue*
 > 
@@ -179,19 +179,19 @@ guided_study: true
 > 
 > > *Given that the first marble is blue, find the probability that the second marble is blue*
 > 
-> - * After one blue marble is taken, there are *$x-1$* blue marbles left out of *$2x+2$* marbles in total*
+> -  *After one blue marble is taken, there are* $x-1$ *blue marbles left out of* $2x+2$ *marbles in total*
 > 
 > $\frac{x-1}{2x+2}$
 > 
 > > *Find the probability that both marbles are blue by multiplying the probabilities together*
 > 
-> - *Set this equal to *$\frac{1}{7}$
+> - *Set this equal to* $\frac{1}{7}$
 > 
 > $\frac{x}{2x+3}\times\frac{x-1}{2x+2}=\frac{1}{7}$
 > 
-> > *Multiply through by *`7 open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 2 close parentheses`* to get rid of the fractions*
+> > *Multiply through by* `7 (2x+3)(2x+2)` *to get rid of the fractions*
 > 
-> `7 x open parentheses x minus 1 close parentheses equals open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 2 close parentheses`
+> `7x (x−1)=(2x+3)(2x+2)`
 > 
 > > *Expand and simplify both sides*
 > 
@@ -215,6 +215,6 @@ guided_study: true
 > `open parentheses 3 x plus 1 close parentheses open parentheses x minus 6 close parentheses equals 0
 > x equals negative 1 third comma space x equals 6`
 > 
-> > $x$* needs to be a positive whole number*
+> > $x$ *needs to be a positive whole number*
 > 
 > **Final answer:** $x=6$** blue marbles initially**

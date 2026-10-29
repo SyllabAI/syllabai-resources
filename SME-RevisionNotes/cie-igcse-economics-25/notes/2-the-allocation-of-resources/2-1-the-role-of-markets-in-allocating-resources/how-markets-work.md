@@ -43,8 +43,8 @@ guided_study: false
 | **Online market** | - Buyers and sellers interact via the internet | - Shopee – an e-commerce platform used widely in Southeast Asia |
 | **Commodity market** | - Raw materials such as oil, gold or wheat are traded | - The Dubai Mercantile Exchange for crude oil |
 | **Labour market** | - Workers offer labour, and employers demand it | - The tech recruitment market in Bengaluru, India |
-| **Foreign exchange market** | - *Currencies *are bought and sold | - *Forex *trading platforms accessed by banks worldwide |
-| **Stock market** | - *Shares *of companies are bought and sold | - The Tokyo Stock Exchange |
+| **Foreign exchange market** | - *Currencies* are bought and sold | - *Forex* trading platforms accessed by banks worldwide |
+| **Stock market** | - *Shares* of companies are bought and sold | - The Tokyo Stock Exchange |
 
 ## Roles of buyers and sellers
 

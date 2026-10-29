@@ -32,9 +32,9 @@ $P=IV$
 
 - Where:
 
-  - *P *= power, measured in Watts (W)
-  - *I *= current, measured in amperes (A)
-  - *V *= potential difference, measured in volts (V)
+  - *P* = power, measured in Watts (W)
+  - *I* = current, measured in amperes (A)
+  - *V* = potential difference, measured in volts (V)
 
 - The unit of power is the **Watt** (W), which is the same as a joule per second (J/s)
 

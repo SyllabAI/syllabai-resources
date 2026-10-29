@@ -60,7 +60,7 @@ guided_study: false
 
 | **Output device** | Use/features | **Advantages** | **Disadvantages** |
 |---|---|---|---|
-| **CRT monitor** | Display output from a computer<br><br>**Screen size** is measured diagonally in inches<br><br>**Resolution **is the number of *pixels *measured horizontally across the screen | - Large viewing angles<br>- Can be used with light pens | - Run hot<br>- Heavy<br>- Consume more power (than other monitor types) |
+| **CRT monitor** | Display output from a computer<br><br>**Screen size** is measured diagonally in inches<br><br>**Resolution **is the number of *pixels* measured horizontally across the screen | - Large viewing angles<br>- Can be used with light pens | - Run hot<br>- Heavy<br>- Consume more power (than other monitor types) |
 | **LCD monitor** | - Low power<br>- Lightweight<br>- No flickering<br>- No image burn-in | - Motion blur/ghosting<br>- Colour & contrast variable from different viewing angles |   |
 | **LED monitor** | - No motion blur/ghosting<br>- Low power<br>- Long life | - More expensive (than LCD)<br>- Contrast can be poor |   |
 | **Laser printer** | **High volume** printing<br><br>Electronically charged **toner**<br><br>**Dry ink** | - Fast<br>- High-quality prints<br>- Lower cost per page | - Expensive initial cost<br>- Limited to flat surfaces |

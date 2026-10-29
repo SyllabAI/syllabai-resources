@@ -19,15 +19,15 @@ guided_study: false
 
 - For a material which obeys Hooke's law, the elastic strain energy, *E*<sub>*el*</sub> can be determined by finding the area under the force-extension graph
 
-  - Since this area will be a triangle with sides *F* (force) and *x *(extension) the equation is:
+  - Since this area will be a triangle with sides *F* (force) and *x* (extension) the equation is:
 
 $ΔE_{el}=\frac{1}{2}FΔx$
 
 - Where:
 
-  - *E*<sub>*el*</sub>* = *elastic strain energy (or work done) (J)
+  - *E*<sub>*el*</sub>*=* elastic strain energy (or work done) (J)
   - *F* = average force (N)
-  - Δ*x = *extension (m)
+  - Δ*x =* extension (m)
 - Since Hooke's Law states that ***F***** = *****k*****Δ*****x***, the elastic strain energy can also be written as: * *
 
 $ΔE_{el}=\frac{1}{2}k(Δx)^{2}$

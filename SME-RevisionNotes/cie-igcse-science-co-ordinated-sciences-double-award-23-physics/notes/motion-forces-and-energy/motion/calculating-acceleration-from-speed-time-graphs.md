@@ -222,7 +222,7 @@ $\mathrm{gradient}=\frac{\Deltay}{\Deltax}$
 > 
 > $a=\frac{38}{9.0}$
 > 
-> `a space equals space 4.2 space straight m divided by straight s squared space open parentheses 2 space straight s. straight f. close parentheses`
+> `a=4.2 straight m÷straight s² (2 straight s. straight f.)`
 
 > **Exam Hint**
 > The CIE IGCSE Co-ordinated Science specification does not say that you need to calculate acceleration from a curved speed–time graph.

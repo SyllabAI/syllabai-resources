@@ -65,7 +65,7 @@ guided_study: false
   - At the new equilibrium **P₃Y₃**, real output is higher, **employment** has risen as firms expand to meet demand, and the price level has risen
 - The balance of output versus price effects depends on the slope of SRAS: with significant spare capacity, the gain is mostly in real output and employment
 
-  - near full capacity most of the effect becomes *inflationary *with limited employment gains
+  - near full capacity most of the effect becomes *inflationary* with limited employment gains
 
 ## Calculating the effect of changing AD on national income
 
@@ -104,11 +104,11 @@ guided_study: false
 - The multiplier is a powerful tool but rests on the following strong assumptions:
 
   - **Assumes a stable MPC** - in reality, MPC varies with income level, confidence and the phase of the *economic cycle*
-  - **Assumes spare capacity** - if the economy is at or near full employment, the multiplied increase in AD translates into *inflation *rather than output growth
+  - **Assumes spare capacity** - if the economy is at or near full employment, the multiplied increase in AD translates into *inflation* rather than output growth
   - **Ignores time lags** - the full multiplier effect takes several quarters to work through; it is not instantaneous
   - **Ignores crowding out** - if the initial injection is government spending financed by borrowing, higher *interest rates* may reduce private investment, partially offsetting the multiplier
   - **Small open economies have small multipliers** - countries like Singapore or Ireland have very high MPMs, so domestic multipliers are close to 1; fiscal stimulus leaks abroad
-  - **The reverse multiplier** amplifies downturns - a fall in exports or investment reduces national income by a multiple of the initial fall, which is why *recessions *deepen rapidly
+  - **The reverse multiplier** amplifies downturns - a fall in exports or investment reduces national income by a multiple of the initial fall, which is why *recessions* deepen rapidly
 
 ### Why do multiplier estimates vary internationally
 

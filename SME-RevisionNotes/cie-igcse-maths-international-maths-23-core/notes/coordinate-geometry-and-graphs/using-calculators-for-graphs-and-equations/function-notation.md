@@ -90,7 +90,7 @@ guided_study: true
 > 
 > Find $\mathrm{f} ( 7 )$.
 > 
-> > *The input is *$x=7$*, so substitute 7 into the expression everywhere you see an *$x$
+> > *The input is* $x=7$*, so substitute 7 into the expression everywhere you see an* $x$
 > 
 > $\mathrm{f} ( 7 ) = 3 ( 7 )^{2} - 2 ( 7 ) + 1$*  *
 > 
@@ -106,9 +106,9 @@ guided_study: true
 > Find the value of $x$ for which $\mathrm{g} ( x ) = - 16$.
 > 
 > > *This is not saying substitute 16 into the function*
-> *It says that an input *$x$* is substituted into *$g$* giving the output -16*
+> *It says that an input* $x$ *is substituted into* $g$ *giving the output -16*
 > 
-> > *To find the input, form an equation by replacing *$\mathrm{g} ( x )$* with *$3x-4$
+> > *To find the input, form an equation by replacing* $\mathrm{g} ( x )$ *with* $3x-4$
 > 
 > $\begin{gathered} 3 x - 4 & = - 16 \end{gathered}$
 > 

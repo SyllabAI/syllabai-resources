@@ -20,7 +20,7 @@ guided_study: false
 ### What are quadratic simultaneous equations?
 
 - When there are two unknowns (say *x* and *y*) in a problem, we need two equations to be able to find them both: these are called** simultaneous equations**
-- If there is an x<sup>2</sup> or y<sup>2</sup> or *xy *in one of the equations then they are **quadratic** (or **non-linear**) simultaneous equations
+- If there is an x<sup>2</sup> or y<sup>2</sup> or *xy* in one of the equations then they are **quadratic** (or **non-linear**) simultaneous equations
 
 ### How do I solve quadratic simultaneous equations?
 
@@ -31,13 +31,13 @@ guided_study: false
     - Do not try to substitute the quadratic equation into the linear equation
 - Solve *x*<sup>2</sup> + *y*<sup>2</sup> = 25 and *y* - 2*x* = 5
 
-  - **Rearrange** the **linear** equation into *y *= 2*x* + 5
+  - **Rearrange** the **linear** equation into *y* = 2*x* + 5
   - **Substitute** this into the quadratic equation, replacing all *y*'s with (2*x* + 5) in **brackets**
   
     - *x*<sup>2</sup> + (2*x* + 5)<sup>2</sup> = 25
   - Expand and **solve** this **quadratic** equation (*x* = 0 and *x* = -4)
   - Substitute **each** value of *x* into the **linear** equation, *y* = 2*x* + 5, to get their value of *y*
-  - Present your solutions in a way that makes it obvious which* x* belongs to which *y*
+  - Present your solutions in a way that makes it obvious which *x* belongs to which *y*
   
     - *x* = 0, *y* = 5 or *x* = -4, *y* = -3
 - **Check** your final solutions satisfy both equations
@@ -46,10 +46,10 @@ guided_study: false
 
 - **Plot** both equations on the same set of axes
 
-  - to do this, you can use a table of values (or, for straight lines, rearrange into *y* = *mx* + *c *if it helps)
+  - to do this, you can use a table of values (or, for straight lines, rearrange into *y* = *mx* + *c* if it helps)
 - Find where the lines **intersect** (cross over)
 
-  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and *y ***coordinates** of the point of **intersection**
+  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and* y ***coordinates** of the point of **intersection**
 - e.g. to solve y = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 simultaneously, first plot them both (see graph)
 
   - find the points of intersection, (-1, -1) and (0, 1)
@@ -77,8 +77,8 @@ guided_study: false
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 > 
-> > *Equation (2) is equal to *$x$* so this can be eliminated by substituting it into the *$x$* part for equation (1). *
-> *Substitute *$x=2y+6$* into equation (1).*
+> > *Equation (2) is equal to* $x$ *so this can be eliminated by substituting it into the* $x$ *part for equation (1).*
+> *Substitute* $x=2y+6$ *into equation (1).*
 > 
 > $( 2 y + 6 )^{2} + y^{2} = 36$
 > 
@@ -101,18 +101,18 @@ guided_study: false
 > 
 > $\begin{gathered} 5 y^{2 } + 24 y + 36 - 36 & = 0 \\ 5 y^{2} + 24 y & = 0 \end{gathered}$
 > 
-> > *The question does not give a specified degree of accuracy, so this can be factorised. Take out the common factor of *$\begin{gathered} y \end{gathered}$*.*
+> > *The question does not give a specified degree of accuracy, so this can be factorised. Take out the common factor of* $\begin{gathered} y \end{gathered}$*.*
 > 
 > $\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 > 
-> > *Solve to find the values of *$y$*.*
+> > *Solve to find the values of* $y$*.*
 > * **Let each factor be equal to 0 and solve.*
 > 
 > $\begin{gathered} y_{1} & = 0 \\ 5 y_{2} + 24 & = 0 \Leftrightarrow y_{2} = - \frac{24}{5} = - 4.8 \end{gathered}$
 > 
 > **[1]**
 > 
-> > *Substitute the values of *$y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
+> > *Substitute the values of* $y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
 > 
 > $x_{1} = 2 ( 0 ) + 6 = 6 x_{2} = 2 ( - \frac{24}{5} ) + 6 = - 9.6 + 6$
 > 

@@ -57,7 +57,7 @@ offers /discounts"
 ## Methods of sales promotion
 
 - **Sales promotion** is a short-term marketing strategy used to encourage customers to buy a product
-- It often includes special deals or *incentives *and is designed to boost sales quickly or support a new product launch
+- It often includes special deals or *incentives* and is designed to boost sales quickly or support a new product launch
 
 ### Methods of sales promotion
 

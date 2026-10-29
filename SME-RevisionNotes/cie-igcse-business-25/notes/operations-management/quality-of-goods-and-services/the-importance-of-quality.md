@@ -153,4 +153,4 @@ guided_study: false
 > 
 >   - In contrast, quality control only spots problems at the end, which could mean wasted materials and delayed deliveries
 > 
-> While quality assurance needs staff training and better procedures, it is more effective for a food business where freshness, accuracy and hygiene are essential. It also supports the business’s aim to grow and keep long-term *contracts *with schools and offices
+> While quality assurance needs staff training and better procedures, it is more effective for a food business where freshness, accuracy and hygiene are essential. It also supports the business’s aim to grow and keep long-term *contracts* with schools and offices

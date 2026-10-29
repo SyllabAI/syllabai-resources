@@ -73,7 +73,7 @@ $ε=-\frac{d(NΦ)}{dt}$
 
 - The **negative** **sign** represents Lenz's Law
 
-  - This is because it shows the induced e.m.f *ε *is set up in an '**opposite** **direction**' to oppose the changing flux linkage
+  - This is because it shows the induced e.m.f *ε* is set up in an '**opposite** **direction**' to oppose the changing flux linkage
 
 - This equation also shows that the **gradient** of the graph of magnetic flux (linkage) against time, $\frac{Δ(NΦ)}{Δt}$ represents the **magnitude** of the induced e.m.f
 

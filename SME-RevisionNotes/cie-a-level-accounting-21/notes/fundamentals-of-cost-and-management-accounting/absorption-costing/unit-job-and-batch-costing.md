@@ -43,7 +43,7 @@ guided_study: false
 
 ![Unit cost statement ](../../../assets/4ba6eef83c00-55541-unit-costing.png)
 
-*Example of a unit cost statement *
+*Example of a unit cost statement*
 
 > **Exam Hint**
 > For service businesses, there is no direct material cost or factory overheads.
@@ -180,7 +180,7 @@ guided_study: false
 
 ![Batch cost statement ](../../../assets/dd1da373c0f8-44030-batch-costing.png)
 
-*Example of a batch cost statement *
+*Example of a batch cost statement*
 
 > **Worked Example**
 > Company Z manufactures toys in batches.

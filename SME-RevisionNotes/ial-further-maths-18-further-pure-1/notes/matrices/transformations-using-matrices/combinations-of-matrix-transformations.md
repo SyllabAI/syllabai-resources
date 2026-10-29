@@ -52,19 +52,19 @@ guided_study: false
 > $B = ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} )$** **represents a reflection in the *y*-axis
 > $C = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} )$** **represents a reflection in the *x*-axis
 > 
-> (a)  Use matrix multiplication to prove that a reflection in the* y*-axis followed by a reflection in the *x*-axis is equivalent to a rotation of 180° about the origin.
+> (a)  Use matrix multiplication to prove that a reflection in the *y*-axis followed by a reflection in the *x*-axis is equivalent to a rotation of 180° about the origin.
 > 
-> > *The question requires transformation *$B$* followed by transformation *$C$
-> *This is the same as the matrix *$\mathrm{CB}$* in that order (the first transformation appears on the right)*
+> > *The question requires transformation* $B$ *followed by transformation* $C$
+> *This is the same as the matrix* $\mathrm{CB}$ *in that order (the first transformation appears on the right)*
 > 
 > $\mathrm{CB}$
 > 
-> > *Use matrix multiplication to find *$\mathrm{CB}$
+> > *Use matrix multiplication to find* $\mathrm{CB}$
 > 
 > $\text{CB} = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} ) \times ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} ) = ( \begin{gathered} ( 1 \times - 1 + 0 \times 0 ) & ( 1 \times 0 + 0 \times 1 ) \\ ( 0 \times - 1 + - 1 \times 0 ) & ( 0 \times 0 + - 1 \times 1 ) \end{gathered} )$
 > 
-> > *The question claims that this is equivalent to transformation  *$A$
-> *Simplify the working above and show that it is the same as matrix *$A$
+> > *The question claims that this is equivalent to transformation* $A$
+> *Simplify the working above and show that it is the same as matrix* $A$
 > 
 > **Final answer:** $\text{CB} = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} ) = A$
 > **Therefore a reflection in the**** y****-axis followed by a reflection in the ****x****-axis is equivalent to a rotation of 180° about the origin**
@@ -76,13 +76,13 @@ guided_study: false
 > Find and simplify the matrix representing the inverse of the transformation.
 > 
 > > *Y**ou need to find the inverse of *$\mathrm{CD}$
-> *You need the rule that *$( \text{CD} )^{- 1} = D^{- 1} C^{- 1}$
-> *You can substitute in *$D^{-1}$* from the question*
+> *You need the rule that* $( \text{CD} )^{- 1} = D^{- 1} C^{- 1}$
+> *You can substitute in* $D^{-1}$ *from the question*
 > 
 > $\begin{gathered} ( \text{CD} )^{- 1} & = D^{- 1} C^{- 1} \\ = ( \begin{gathered} 2 0 \\ 0 1 \end{gathered} ) C^{- 1} \end{gathered}$
 > 
-> > *You need to find *$C^{-1}$
-> *Use that *$M = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow M^{- 1} = \frac{1}{\det M} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$* where *$\mathrm{det}M=ad-bc$
+> > *You need to find* $C^{-1}$
+> *Use that* $M = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow M^{- 1} = \frac{1}{\det M} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$ *where* $\mathrm{det}M=ad-bc$
 > 
 > $\begin{gathered} C^{- 1} & = \frac{1}{1 \times ( - 1 ) - 0 \times 0} ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} ) \end{gathered}$
 > 

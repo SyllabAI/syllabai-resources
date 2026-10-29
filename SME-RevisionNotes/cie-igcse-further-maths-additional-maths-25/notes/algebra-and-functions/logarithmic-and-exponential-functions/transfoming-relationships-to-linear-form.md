@@ -50,7 +50,7 @@ guided_study: false
 > **Exam Hint**
 > - You may need to leave your answer in exact form, especially in the non-calculator paper
 > 
->   - e.g. to solve ln *a *= 2 the answer will be *a *= e<sup>2</sup>
+>   - e.g. to solve ln *a* = 2 the answer will be *a* = e<sup>2</sup>
 
 > **Worked Example**
 > The heights, $h$ metres, and the amount of time spent sleeping, $t$ hours, of a group of young giraffes can be modelled using $t=ah^{b}$, where $a$ and $b$ are constants.
@@ -63,20 +63,20 @@ guided_study: false
 > 
 > $m=\frac{-4.5--0.9}{4-1}=-\frac{3.6}{3}=-1.2$
 > 
-> > *Substitute *$m=-1.2$*, *$x=\mathrm{ln}h$* and *$y=\mathrm{ln}t$* into the equation of a straight line (*$y=mx+c$*).*
+> > *Substitute* $m=-1.2$*,* $x=\mathrm{ln}h$ *and* $y=\mathrm{ln}t$ *into the equation of a straight line (*$y=mx+c$*).*
 > 
 > > $\mathrm{ln}t=-1.2\mathrm{ln}h+c$* *
 > 
-> > *Substitute either coordinate in and rearrange to find *$c$*.*
+> > *Substitute either coordinate in and rearrange to find* $c$*.*
 > 
 > $\begin{gathered} - 0.9 & = - 1.2 ( 1 ) + c \\ c & = - 0.9 + 1.2 \\ c & = 0.3 \end{gathered}$
 > 
-> > *Compare this to the linearised form of *$t=ah^{b}$*. Take logarithms of both sides first and rearrange if you can't remember the correct form. *
+> > *Compare this to the linearised form of* $t=ah^{b}$*. Take logarithms of both sides first and rearrange if you can't remember the correct form.*
 > 
 > > $\ln t = \ln ( a h^{b} )
 > \ln t = \ln a + b \ln h$* *
 > 
-> > *So *$b$* is the value in front of *$\mathrm{ln}h$* and *$\mathrm{ln}a=0.3$*. Solve *$\mathrm{ln}a=0.3$* by taking *$e$* of both sides.*
+> > *So* $b$ *is the value in front of* $\mathrm{ln}h$ *and* $\mathrm{ln}a=0.3$*. Solve* $\mathrm{ln}a=0.3$ *by taking* $e$ *of both sides.*
 > 
 > $\begin{gathered} \ln a & = 0.3 \\ \mathrm{e}^{\ln a } & = \mathrm{e}^{0.3} \\ a & = \mathrm{e}^{0.3} \end{gathered}$
 > 
@@ -138,17 +138,17 @@ guided_study: false
 > 
 > $m=\frac{8-5}{5-2}=\frac{3}{3}=1$
 > 
-> > *Substitute *$m=1$*, *$X=x$* and *$Y=\mathrm{lg}y$* into the equation of a straight line (*$Y=mX+c$*).*
+> > *Substitute* $m=1$*,* $X=x$ *and* $Y=\mathrm{lg}y$ *into the equation of a straight line (*$Y=mX+c$*).*
 > 
 > > $\mathrm{lg}y=x+c$* *
 > 
-> > *Substitute either coordinate in and rearrange to find *$c$*.*
+> > *Substitute either coordinate in and rearrange to find* $c$*.*
 > 
 > $\begin{gathered} 5 & = 2 + c \\ c & = 3 \end{gathered}$
 > 
 > $\mathrm{lg}y=x+3$
 > 
-> > *Linearise *$y=A\timesb^{x}$*.*
+> > *Linearise* $y=A\timesb^{x}$*.*
 > * Take logarithms of both sides first and rearrange if you can't remember the correct form.  Take logarithms of both sides. *
 > 
 > > $lg y = lg ( A b^{x} )$* *
@@ -157,19 +157,19 @@ guided_study: false
 > 
 > $\mathrm{lg}y=\mathrm{lg}A+\mathrm{lg}b^{x}$
 > 
-> > *Bring down the power in the final term. *
+> > *Bring down the power in the final term.*
 > 
 > $\mathrm{lg}y=\mathrm{lg}A+x\mathrm{lg}b$
 > 
 > > *Compare this to the equation of the line.*
 > 
-> > $\mathrm{lg}b=1$* and *$\mathrm{lg}A=3$* *
+> > $\mathrm{lg}b=1$ *and* $\mathrm{lg}A=3$* *
 > 
-> > *Solve *$\mathrm{lg}b=1$* by raising 10 to the power of both sides.*
+> > *Solve* $\mathrm{lg}b=1$ *by raising 10 to the power of both sides.*
 > 
 > $\begin{gathered} \text{lg} b & = 1 \\ 10^{lg b} & = 10^{1} \\ b & = 10 \end{gathered}$
 > 
-> > *Solve *$\mathrm{lg}A=3$* by raising 10 to the power of both sides.*
+> > *Solve* $\mathrm{lg}A=3$ *by raising 10 to the power of both sides.*
 > 
 > $\begin{gathered} \text{lg} A & = 3 \\ 10^{lg A} & = 10^{3} \\ A & = 1000 \end{gathered}$
 > 

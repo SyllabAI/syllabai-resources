@@ -45,7 +45,7 @@ e.g.  The sample space below is for two ***fair***** **four-sided spinners whose
     - *A*  **or ***B*  is formally written as  $A\cupB$(∪ is called **union**)
   - **not *****A*** means the event *A* does not happen
   
-    - **not *****A is formally*** written as ***A*****'** (pronounced "*A *prime*"*)
+    - **not *****A is formally*** written as ***A*****'** (pronounced "*A* prime*"*)
 - **Notation** – the way probabilities are written is formal and consistent at A-level
 
   - $P(A)=0.6$           “the probability of **event *****A*** happening is 0.6”
@@ -129,7 +129,7 @@ e.g.     $P("6\mathrm{on}a\mathrm{dice}"\mathrm{AND}"\mathrm{heads} \mathrm{on}a
 
 $P(A\mathrm{OR}B)=P(A\cupB)=P(A)+P(B)$
 
-e.g.  `straight P left parenthesis " 6 space on space straight a space dice " space bold OR " heads space on space straight a space coin " right parenthesis equals 1 over 6 plus 1 half equals 4 over 6 space equals space open parentheses 2 over 3 close parentheses`
+e.g.  `straight P left parenthesis " 6 on straight a dice " bold OR " heads on straight a coin " right parenthesis=1 / 6+1 half=4 / 6=(2 / 3)`
 
 - **Mutually** **exclusive** events generally refer to events from the same (single trial of an) ***experiment***
 - Mutually exclusive events cannot be independent; the outcome of one event means the probability of the other event is zero

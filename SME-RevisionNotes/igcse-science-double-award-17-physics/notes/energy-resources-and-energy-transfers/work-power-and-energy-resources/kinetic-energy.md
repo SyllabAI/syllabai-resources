@@ -50,7 +50,7 @@ $KE=\frac{1}{2}\timesm\timesv^{2}$
 > 
 > **Step 3: Calculate the kinetic energy**
 > 
-> `K E space equals space 1 half space cross times space 1200 space cross times space open parentheses 27 close parentheses squared`
+> `K E=1 half×1200×(27)²`
 > 
 > $KE=437400J$
 > 

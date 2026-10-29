@@ -83,9 +83,9 @@ $W=Fs$
 > 
 > ![5-1-1-we-work-done-on-barrel-answer-cie-new](assets/5f80db150d5b-5-1-1-we-work-done-on-barrel-answer-cie-new.png)
 > 
-> `F subscript A space equals space F subscript W space cross times space sin open parentheses 40 close parentheses`
+> `F_ A=F_ W×sin (40)`
 > 
-> `F subscript A space equals space 2.5 cross times 10 cubed space cross times space sin open parentheses 40 close parentheses`
+> `F_ A=2.5×10³×sin (40)`
 > 
 > $F_{A}=1607N$
 > 

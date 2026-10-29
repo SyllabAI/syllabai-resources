@@ -80,7 +80,7 @@ Calculate the** gross profit**
 > - Sales revenue *\$14 × 12 000 = \$168 000*
 > - Production cost
 > 
->   - Direct materials *\$4 × 18 000 = \$72 000 *
+>   - Direct materials *\$4 × 18 000 = \$72 000*
 >   - Direct labour *\$3 × 18 000 = \$54 000*
 >   - Fixed overheads *25 000 ÷ 20 000 = \$1.25 per unit* *\$1.25 × 18 000 = \$22 500*
 >   - Total
@@ -88,7 +88,7 @@ Calculate the** gross profit**
 > *\$72 000 + \$54 000 + \$22 500 = \$148 500*
 > 
 > - Opening inventory *(\$4 + \$3 + \$1.25) × 2 000 = \$16 500*
-> - Closing inventory *Opening inventory + Production - Sales * *= 2 000 + 18 000 - 12 000 * *= 8 000 units* *(\$4 + \$3 + \$1.25) ×  8 000 = \$66 000*
+> - Closing inventory *Opening inventory + Production - Sales* *= 2 000 + 18 000 - 12 000* *= 8 000 units* *(\$4 + \$3 + \$1.25) ×  8 000 = \$66 000*
 > - Calculate the overheads that are over-absorbed or under-absorbed
 > 
 >   - Actual overheads - Overheads absorbed

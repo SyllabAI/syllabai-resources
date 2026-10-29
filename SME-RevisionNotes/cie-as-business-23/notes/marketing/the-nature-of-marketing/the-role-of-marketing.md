@@ -63,7 +63,7 @@ guided_study: false
 > 
 > **Corporate objective**
 > 
-> - After sales slipped in 2017, LEGO’s directors set a clear objective to increase *revenue *by 5% by the end of 2019
+> - After sales slipped in 2017, LEGO’s directors set a clear objective to increase *revenue* by 5% by the end of 2019
 > 
 > **Marketing objective**
 > 

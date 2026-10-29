@@ -74,7 +74,7 @@ guided_study: false
 
   - Poor healthcare and sanitation
   - Limited access to clean water and medicine
-  - *Malnutrition *or infectious diseases
+  - *Malnutrition* or infectious diseases
 - **Lower in high-income countries** due to:
 
   - Advanced healthcare systems

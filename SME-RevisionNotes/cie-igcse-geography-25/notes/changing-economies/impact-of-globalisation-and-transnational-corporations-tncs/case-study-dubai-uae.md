@@ -28,7 +28,7 @@ This page covers section 9.2.6 of the [CIE IGCSE specification.](https://www.cam
 
 ## Detailed Specific Example: Dubai, UAE
 
-- Dubai shows how **globalisation** can transform a city from a fishing village to a global *metropolis *in a short space of time
+- Dubai shows how **globalisation** can transform a city from a fishing village to a global *metropolis* in a short space of time
 - Dubai took the opportunities of a connected world and faced complex social, environmental, and economic challenges
 - Dubai's growth highlights the advantages and disadvantages of rapid global interaction
 

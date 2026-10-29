@@ -59,7 +59,7 @@ Food chains show the direction of **energy transfer**, not who eats the most
 
 ![Marine food web diagram showing connections from phytoplankton and zooplankton to krill, fish, squid, seals, whales, penguins, and birds.](../../../assets/be62b5658ad2-3071-antarctic-food-web-1.png)
 
-*Food web showing inter-relation between producers and consumers (prey and predator) *
+*Food web showing inter-relation between producers and consumers (prey and predator)*
 
 ### Trophic levels
 

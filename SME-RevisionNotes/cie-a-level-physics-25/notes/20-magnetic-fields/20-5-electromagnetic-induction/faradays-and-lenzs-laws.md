@@ -30,7 +30,7 @@ $ε=N\frac{\DeltaΦ}{\Deltat}$
   - *ε* = induced *e.m.f* (V)
   - *N* = number of turns of coil
   - Δ*Φ* = change in *magnetic flux* (Wb)
-  - Δ*t *= time interval (s)
+  - Δ*t* = time interval (s)
 - Lenz’s Law gives the **direction** of the induced e.m.f. as defined by Faraday’s law:
 
 **The induced e.m.f acts in such a direction to produce effects which oppose the change causing it**

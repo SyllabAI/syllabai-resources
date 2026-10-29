@@ -25,16 +25,16 @@ guided_study: true
 
 - The speed of an oscillator **released from** the **equilibrium position** in SHM is defined by:
 
-***v***** = *****v***<sub>**0 **</sub>**cos(*****⍵t*****)**
+***v***** = *****v***<sub>**0 **</sub>**cos(*****ωt*****)**
 
 - Where:
 
   - *v* = speed (m s<sup>-1</sup>)
   - *v*<sub>0</sub> = maximum speed (m s<sup>-1</sup>)
-  - *⍵* = angular frequency (rad s<sup>-1</sup>)
+  - *ω* = angular frequency (rad s<sup>-1</sup>)
   - *t* = time (s)
 
-#### Interpreting the graph v = v<sub>0 </sub>cos(⍵t)
+#### Interpreting the graph v = v<sub>0 </sub>cos(ωt)
 
 ![Speed SHM graph, downloadable AS & A Level Physics revision notes](../../../assets/badcdd4bb26a-17-1-speed-shm-graph.png)
 
@@ -44,7 +44,7 @@ guided_study: true
 
   - This is shown on the [SHM graphs revision note](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/17-oscillations/17-1-simple-harmonic-oscillations/shm-graphs/)
 - Although the symbol *v* is commonly used to represent velocity, not speed, exam questions focus more on the magnitude of the velocity than its direction in SHM
-- The **maximum speed** of an oscillator is the **amplitude**, *v*<sub>*0 *</sub>of the **velocity-time graph**
+- The **maximum speed** of an oscillator is the **amplitude**, *v*<sub>*0* </sub>of the **velocity-time graph**
 
 ### SHM equation for speed
 
@@ -57,7 +57,7 @@ guided_study: true
   - *v* = speed (m s<sup>-1</sup>)
   - *x*<sub>0</sub> = *amplitude* (m)
   - ± = ‘plus or minus’, this value can be positive or negative
-  - *⍵* = angular frequency (rad s<sup>-1</sup>)
+  - *ω* = angular frequency (rad s<sup>-1</sup>)
   - *x* = displacement (m)
 - This equation shows that when an oscillator has a greater amplitude *x*<sub>*0*</sub>, it has to travel a greater distance in the same amount of time and hence has greater speed *v*
 
@@ -68,7 +68,7 @@ guided_study: true
 - An oscillator reaches its greatest speed at the equilibrium position i.e. when its displacement is 0 (*x* = 0)
 - At maximum speed the SHM speed equation becomes:
 
-***v***<sub>**0**</sub>** = *****⍵x***<sub>**0**</sub>
+***v***<sub>**0**</sub>** = *****ωx***<sub>**0**</sub>
 
 > **Worked Example**
 > A simple pendulum oscillates with simple harmonic motion with an amplitude of 15 cm. The frequency of the oscillations is 6.7 Hz.
@@ -93,7 +93,7 @@ guided_study: true
 > 
 > The equation relating angular frequency and normal frequency:
 > 
-> *⍵* = 2π*f* = 2π× 6.7 = 42.097…
+> *ω* = 2π*f* = 2π× 6.7 = 42.097…
 > 
 > **Step 4: Substitute in values and calculate**
 > 
@@ -102,4 +102,4 @@ guided_study: true
 > *v* = 3.789 = 3.8 m s<sup>-1</sup> (2 s.f)
 
 > **Exam Hint**
-> You often have to convert between time period *T*, frequency *f* and angular frequency *⍵* for many exam questions – so make sure you revise the equations relating to these.
+> You often have to convert between time period *T*, frequency *f* and angular frequency *ω* for many exam questions – so make sure you revise the equations relating to these.

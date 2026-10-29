@@ -33,7 +33,7 @@ guided_study: true
 - **Pyramids **can have planes of symmetry too
 
   - The number of planes of symmetry in pyramids will be equal to the number of lines of symmetry in its 2D base
-  - If the base of the pyramid is a **regular polygon** of *n *sides, it will have *n *planes of symmetry
+  - If the base of the pyramid is a **regular polygon** of *n* sides, it will have *n* planes of symmetry
 
 ![A cube has 9 planes of symmetry, a cuboid has 3 planes of symmetry, a square based pyramid has 4 planes of symmetry](../../../assets/eb52b74cd780-64006-planes-of-symmetry-1.png)
 

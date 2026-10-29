@@ -41,7 +41,7 @@ guided_study: true
     - 2 × (-4) = -8  and  2 + (-4) = -2
   - **Write** these numbers in a **pair of brackets** like this:
   
-    - `open parentheses x plus 2 close parentheses open parentheses x minus 4 close parentheses`
+    - `(x+2)(x−4)`
 
 ### How do I factorise quadratics by grouping?
 
@@ -52,7 +52,7 @@ guided_study: true
   - **multiply** to give *c*
   
     - which in this case is -8
-  - and **add** to give* b*
+  - and **add** to give *b*
   
     - which in this case is -2
   - +2 and -4 satisfy these conditions
@@ -64,10 +64,10 @@ guided_study: true
   - **Group** and **factorise** the **first two terms**, using *x* as the common factor
   - and **group** and **factorise** the **last two terms**, using -4 as the common factor
   
-    - `x open parentheses x plus 2 close parentheses minus 4 open parentheses x plus 2 close parentheses`
+    - `x (x+2)−4 (x+2)`
   - Note that these both now have a **common factor** of (*x* + 2) so this **whole** **bracket** can be factorised out
   
-    - `open parentheses x plus 2 close parentheses open parentheses x minus 4 close parentheses`
+    - `(x+2)(x−4)`
 
 ### How do I factorise quadratics using a grid?
 
@@ -78,7 +78,7 @@ guided_study: true
   - **multiply** to give *c*
   
     - which in this case is -8
-  - and **add** to give* b*
+  - and **add** to give *b*
   
     - which in this case is -2
   - +2 and -4 satisfy these conditions
@@ -123,13 +123,13 @@ guided_study: true
 
 - We can now read off the factors from the column and row headings
 
-  - `open parentheses x plus 2 close parentheses open parentheses x minus 4 close parentheses`
+  - `(x+2)(x−4)`
 
 ### Which method should I use for factorising simple quadratics?
 
 - The first method, by **inspection**, is by far the **quickest**
 
-  - So this is recommended in an exam for simple quadratics (where *a *= 1)
+  - So this is recommended in an exam for simple quadratics (where *a* = 1)
 - However some students find the other methods helpful
 
   - So you may want to learn at least one of them too
@@ -201,14 +201,14 @@ guided_study: true
 > 
 > |   |   |   |
 > |---|---|---|
-> |   | **x***<sup>2</sup>* | *+4***x** |
+> |   | **x***<sup>2</sup> *|* +4***x** |
 > |   | *-6***x** | *-24* |
 > 
 > > *Write a heading using a common factor for the first row*
 > 
 > |   |   |   |
 > |---|---|---|
-> | ****x**** | **x***<sup>2</sup>* | *+4***x** |
+> | ****x**** | **x***<sup>2</sup> *|* +4***x** |
 > | * * | *-6***x** | *-24* |
 > 
 > *Work out the headings for the rows*
@@ -217,7 +217,7 @@ guided_study: true
 > 
 > | * * | ****x**** | ***+4*** |
 > |---|---|---|
-> | ****x**** | **x***<sup>2</sup>* | *+4***x** |
+> | ****x**** | **x***<sup>2</sup> *|* +4***x** |
 > | * * | *-6***x** | *-24* |
 > 
 > *Repeat for the heading for the remaining row*
@@ -226,7 +226,7 @@ guided_study: true
 > 
 > | * * | ****x**** | ***+4*** |
 > |---|---|---|
-> | ****x**** | **x***<sup>2</sup>* | *+4***x** |
+> | ****x**** | **x***<sup>2</sup> *|* +4***x** |
 > | ***-6*** | *-6***x** | *-24* |
 > 
 > > *Read off the factors from the column and row headings*

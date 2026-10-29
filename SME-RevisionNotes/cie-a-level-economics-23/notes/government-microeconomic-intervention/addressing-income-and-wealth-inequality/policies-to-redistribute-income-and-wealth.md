@@ -173,7 +173,7 @@ guided_study: false
 
 | Advantages | Disadvantages |
 |---|---|
-| - Both services are **merit goods**, meaning they tend to be under-consumed if left to the market<br>- They generate **positive externalities**, such as a healthier workforce and lower crime rates<br>- State provision helps correct **market failure** while improving equity | - May reduce incentives to invest or take risks<br>- Difficult to calculate gains accurately due to* inflation *and asset valuation<br>- Can lead to *capital flight* if investors move assets to lower-tax countries<br>- *Tax avoidance *is possible through timing the sale of assets |
+| - Both services are **merit goods**, meaning they tend to be under-consumed if left to the market<br>- They generate **positive externalities**, such as a healthier workforce and lower crime rates<br>- State provision helps correct **market failure** while improving equity | - May reduce incentives to invest or take risks<br>- Difficult to calculate gains accurately due to *inflation* and asset valuation<br>- Can lead to *capital flight* if investors move assets to lower-tax countries<br>- *Tax avoidance* is possible through timing the sale of assets |
 
 > **Worked Example**
 > **Question**

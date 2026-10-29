@@ -21,7 +21,7 @@ guided_study: false
 
   - It is a ***liquid asset***** **in the form of notes, coins and money in the bank
 
-- A new business may have to **pay cash on purchase for all of its supplies** until its suppliers trust them enough to grant *trade credit *
+- A new business may have to **pay cash on purchase for all of its supplies** until its suppliers trust them enough to grant *trade credit*
 
   - A supplier may then give the business 30 or 60 days to pay for items they purchase
   - This means that the business can receive their stock now pay for it later, so the cash outflow is delayed

@@ -53,7 +53,7 @@ guided_study: true
   - Events are usually given capital letters
   - n(*A*)* *is the number of possible outcomes from event *A*
   
-    - *A *= a dice lands on an even number (2, 4 or 6)
+    - *A* = a dice lands on an even number (2, 4 or 6)
     - n*(A) *= 3
 - A **sample space** is the set of **all **possible outcomes of an experiment
 
@@ -95,7 +95,7 @@ guided_study: true
 - Two events are **mutually exclusive** if they **cannot both happen at once**
 
   - When rolling a dice, the events “getting a prime number” and “getting a 6” are mutually exclusive (as 6 is not prime)
-- If *A *and *B *are mutually exclusive events, then the probability of **either A or B happening** is **P(A) + P(B)**
+- If *A* and *B* are mutually exclusive events, then the probability of **either A or B happening** is **P(A) + P(B)**
 - **Complementary events** are mutually exclusive
 
 > **Exam Hint**

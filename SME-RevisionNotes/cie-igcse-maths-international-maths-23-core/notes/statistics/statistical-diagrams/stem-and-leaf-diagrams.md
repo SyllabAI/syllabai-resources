@@ -75,12 +75,12 @@ Key: 1|8 means 18 years old
 > *Split each value into its tens digit (stem) and units digit (leaf)*
 > *The values are not yet in order*
 > 
-> | * * | * Blood pressure reduction* |
+> | * * | *Blood pressure reduction* |
 > |---|---|
-> | *1* | * 2   8   9   7   6* |
-> | *2* | * 4   1   3* |
-> | *3* | * 1   4* |
-> | *4* | * 0* |
+> | *1* | *2   8   9   7   6* |
+> | *2* | *4   1   3* |
+> | *3* | *1   4* |
+> | *4* | *0* |
 > 
 > *Put the values in order*
 > *Write down the key*
@@ -103,10 +103,10 @@ Key: 1|8 means 18 years old
 > 
 > | * * | * ****Blood pressure reduction*** |
 > |---|---|
-> | ***1*** | * 2   6   7   8   9* |
-> | ***2*** | `circle enclose 1`*   3   4* |
-> | ***3*** | * 1   4* |
-> | ***4*** | * 0* |
+> | ***1*** | *2   6   7   8   9* |
+> | ***2*** | `circle enclose 1` *3   4* |
+> | ***3*** | *1   4* |
+> | ***4*** | *0* |
 > 
 > > *The median has a leaf of 1 and a stem of 2*
 > 

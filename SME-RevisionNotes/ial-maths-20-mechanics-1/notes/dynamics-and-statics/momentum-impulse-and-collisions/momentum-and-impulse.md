@@ -59,8 +59,8 @@ guided_study: false
   - The **direction of the impulse** of a force is the same as the **direction of the force**
 - The **Impulse-Momentum Principle** states that impulse is equal to the **change in momentum**
 
-  - $I=mv-mu$
-  - where *m* is the mass, *u* is the initial velocity and  *v *is the final velocity
+  - $I=mv-\mu$
+  - where *m* is the mass, *u* is the initial velocity and  *v* is the final velocity
 
 #### What happens when two objects are in contact?
 

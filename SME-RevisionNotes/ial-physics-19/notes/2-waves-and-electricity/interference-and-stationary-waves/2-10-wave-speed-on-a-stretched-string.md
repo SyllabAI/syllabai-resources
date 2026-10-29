@@ -38,10 +38,10 @@ guided_study: false
 - Where:
 
   - *f* = frequency (Hz)
-  - *L *= the length of the string (m)
-  - *T *= the tension in the string (N)
-  - *µ *= mass per unit length (kg m<sup>-1</sup>)
-- Mass per unit length, *µ *can be calculated by dividing the mass of the string by the length of the string
+  - *L* = the length of the string (m)
+  - *T* = the tension in the string (N)
+  - *µ* = mass per unit length (kg m<sup>-1</sup>)
+- Mass per unit length, *µ* can be calculated by dividing the mass of the string by the length of the string
 
 ![Fixed end wavelengths and harmonics (1), downloadable AS & A Level Physics revision notes](../../../assets/feafd3e9d438-fixed-end-wavelengths-and-harmonics-1-e161614749.png)
 
@@ -68,11 +68,11 @@ guided_study: false
 > 
 > **Step 1: Write the known quantities in S.I. units**
 > 
-> - Tension, *T *= 65 N
+> - Tension, *T* = 65 N
 > - Mass, *m* = 3.2 g = 3.2 × 10<sup>−3</sup> kg
 > - Length of string, *L* = 90 cm = 0.90 m
 > 
->   - Mass per unit length, *μ *= $\frac{m}{L}=\frac{3.2\times10^{-3}}{0.9}$ = 3.56 × 10<sup>−3</sup> kg m<sup>−1</sup>
+>   - Mass per unit length, *μ* = $\frac{m}{L}=\frac{3.2\times10^{-3}}{0.9}$ = 3.56 × 10<sup>−3</sup> kg m<sup>−1</sup>
 > 
 > **Step 2: Write the equation for speed on a string and calculate**
 > 
@@ -89,8 +89,8 @@ guided_study: false
 > 
 > **Step 1: Write the known quantities in S.I. units**
 > 
-> - Tension, *T *= 65 N
-> - Length of string under tension,* L* = 75 cm = 0.75 m
+> - Tension, *T* = 65 N
+> - Length of string under tension,*L* = 75 cm = 0.75 m
 > - Mass per unit length, *μ =* 3.56 × 10<sup>−3</sup> kg m<sup>−1 </sup>(from part (a))
 > 
 > **Step 2: Identify the length of one wavelength at the fundamental frequency, *****f***<sub>***0***</sub>

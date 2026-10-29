@@ -120,9 +120,9 @@ guided_study: true
 > 
 > $A=xy$
 > 
-> > *You need a right-hand side in terms of *$x$* only*
+> > *You need a right-hand side in terms of* $x$ *only*
 > 
-> > *Make *$y$* the subject of part (a)*
+> > *Make* $y$ *the subject of part (a)*
 > 
 > $y=60-2x$
 > 
@@ -130,7 +130,7 @@ guided_study: true
 > 
 > $A = x ( 60 - 2 x )$
 > 
-> > *This is now all in terms of *$x$
+> > *This is now all in terms of* $x$
 > 
 > > *Expand*
 > 
@@ -140,9 +140,9 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *To find a maximum point, set *$\frac{dA}{dx}=0$
+> > *To find a maximum point, set* $\frac{dA}{dx}=0$
 > 
-> > *First find *$\frac{dA}{dx}$* by differentiating each term*
+> > *First find* $\frac{dA}{dx}$ *by differentiating each term*
 > 
 > $\frac{dA}{dx}=60-4x$
 > 
@@ -150,9 +150,9 @@ guided_study: true
 > 
 > $\begin{gathered} 60 - 4 x & = 0 \\ 4 x & = 60 \\ x = \frac{60}{4} \\ x = 15 \end{gathered}$
 > 
-> > *This is the value of *$x$* at the maximum point (but not the maximum of *$A$*)*
+> > *This is the value of* $x$ *at the maximum point (but not the maximum of* $A$*)*
 > 
-> > *Substitute this value of *$x$* back into *$A$
+> > *Substitute this value of* $x$ *back into* $A$
 > 
 > $\begin{gathered} A = 60 \times 15 - 2 \times 15^{2} \\ = 450 \end{gathered}$
 > 
@@ -162,13 +162,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *See how the area *$A$* depends on  *$x$
+> > *See how the area* $A$ *depends on* $x$
 > 
 > > *Think about what it would look like as a graph*
 > 
-> $A=60x-2x^{2}$* is a negative quadratic curve*
+> $A=60x-2x^{2}$ *is a negative quadratic curve*
 > 
-> > *A negative quadratic curve has an *$\cap$* shape*
+> > *A negative quadratic curve has an* $\cap$ *shape*
 > 
 > > *There is only one turning point on this graph and it is a maximum point*
 > 

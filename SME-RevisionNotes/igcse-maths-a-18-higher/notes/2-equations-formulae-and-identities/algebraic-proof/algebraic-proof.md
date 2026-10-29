@@ -59,24 +59,24 @@ guided_study: true
     - **sum** ($+$)
     - **difference** ($-$)
     - **product **($\times$)
-    - **square** `open parentheses... close parentheses squared`
+    - **square** `(...)²`
 
 ### How do I show that a result is odd or even?
 
 - To prove an expression is **even**, show that it can be written as `Error converting from MathML to accessible text.`
 
-  - For example, `2 open parentheses n squared minus 3 n close parentheses` is even
+  - For example, `2 (n²−3n)` is even
   
     - This may require **factorising out a 2**
 - To prove something is **odd,** show that it  can be written as `Error converting from MathML to accessible text.`
 
-  - For example, `2 open parentheses n plus m close parentheses plus 1` is odd
+  - For example, `2 (n+m)+1` is odd
 - Make sure the part **inside the brackets** is an **integer**
 
-  - For example, `2 open parentheses n plus 1 third close parentheses` is **not **even as $\frac{1}{3}$ is not an integer
+  - For example, `2 (n+1 third)` is **not **even as $\frac{1}{3}$ is not an integer
 - You can apply similar ideas to prove expressions are **multiples** of other numbers
 
-  - For example, `7 open parentheses n squared plus 2 n close parentheses` is a multiple of 7
+  - For example, `7 (n²+2n)` is a multiple of 7
 
 ### How do I prove results with prime numbers?
 
@@ -102,29 +102,29 @@ guided_study: true
 > 
 > $2n$
 > 
-> > *Write down an expression for the next consecutive even number after *$2n$
+> > *Write down an expression for the next consecutive even number after* $2n$
 > 
 > $2n+2$
 > 
 > > *Now square the two consecutive even numbers*
-> *Then write down the difference of these squares *
+> *Then write down the difference of these squares*
 > *Write the larger value subtract the smaller value*
 > 
-> `open parentheses 2 n plus 2 close parentheses squared minus open parentheses 2 n close parentheses squared`
+> `(2n+2)²−(2n)²`
 > 
 > **Method 1**
 > 
 > > *Expand the brackets (using a double-bracket expansion)*
-> *Collect any like terms (the *$4n^{2}$* and the *$-4n^{2}$* cancel out)*
+> *Collect any like terms (the* $4n^{2}$ *and the* $-4n^{2}$ *cancel out)*
 > 
 > `open parentheses 2 n plus 2 close parentheses open parentheses 2 n plus 2 close parentheses minus 4 n squared
 > equals 4 n squared plus 4 n plus 4 n plus 4 minus 4 n squared
 > equals 8 n plus 4`
 > 
 > > *Show that the final answer is divisible by 4 (a multiple of 4)*
-> *Do this by writing it as *`Error converting from MathML to accessible text.`
+> *Do this by writing it as* `Error converting from MathML to accessible text.`
 > 
-> `equals 4 open parentheses 2 n plus 1 close parentheses`
+> `=4 (2n+1)`
 > 
 > > *Write a conclusion that copies the wording in the question*
 > 
@@ -133,9 +133,9 @@ guided_study: true
 > 
 > **Method 2**
 > 
-> > *Use the difference of two squares to factorise, *`a squared minus b squared equals open parentheses a minus b close parentheses open parentheses a plus b close parentheses`
+> > *Use the difference of two squares to factorise,* `a²−b²=(a−b)(a+b)`
 > 
-> `open parentheses 2 n plus 2 close parentheses squared minus open parentheses 2 n close parentheses squared equals open parentheses 2 n plus 2 minus 2 n close parentheses open parentheses 2 n plus 2 plus 2 n close parentheses`
+> `(2n+2)²−(2n)²=(2n+2−2n)(2n+2+2n)`
 > 
 > > *Simplify inside both brackets*
 > 
@@ -147,7 +147,7 @@ guided_study: true
 > `equals 2 cross times 2 open parentheses 2 n plus 1 close parentheses
 > equals 4 open parentheses 2 n plus 1 close parentheses`
 > 
-> > *This has the form *`Error converting from MathML to accessible text.`* so it is divisible by 4 (a multiple of 4)*
+> > *This has the form* `Error converting from MathML to accessible text.` *so it is divisible by 4 (a multiple of 4)*
 > *Write a conclusion that copies the wording in the question*
 > 
 > **Final answer:** $4\times(2n+1)$** ****is a multiple of 4**

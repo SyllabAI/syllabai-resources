@@ -89,7 +89,7 @@ guided_study: false
 > - *Calculate the difference from the previous provision for irrecoverable debts*
 > 
 >   - *\$960 - \$880 = \$80*
-> - *This is a decrease *
+> - *This is a decrease*
 > 
 >   - *It will appear as other income on the income statement*
 > 

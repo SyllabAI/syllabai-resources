@@ -64,7 +64,7 @@ guided_study: false
   - Offer different types of accounts (*current*, savings, fixed deposit) with varying interest rates
 - **Lending to customers**
 
-  - Provide loans, *overdrafts*, and *mortgages *to individuals and businesses.
+  - Provide loans, *overdrafts*, and *mortgages* to individuals and businesses.
   - Generate profit mainly through interest charged on loans
 - **Facilitating payments**
 

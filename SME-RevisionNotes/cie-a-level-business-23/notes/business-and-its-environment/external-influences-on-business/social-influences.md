@@ -75,7 +75,7 @@ guided_study: false
   - Everyone can study, work, earn, own property and take part in decisions without *discrimination*
   - Rewards such as pay, promotion or investment are based on merit, not gender
 - **Sweden** has a high level of gender equality, where women earn about 90% of men’s pay
-- **Japan **has high levels of gender inequality, with a gender pay gap of around 22%, and only 14 % of company *directors *are women
+- **Japan **has high levels of gender inequality, with a gender pay gap of around 22%, and only 14 % of company *directors* are women
 
 #### How gender equality affects businesses
 

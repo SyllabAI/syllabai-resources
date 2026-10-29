@@ -23,7 +23,7 @@ guided_study: false
 
 **Variables**
 
-- *Independent variable* = time, *t *
+- *Independent variable* = time, *t*
 - *Dependent variable*= potential difference, *V*
 - Control variables:
 

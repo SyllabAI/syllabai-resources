@@ -25,7 +25,7 @@ guided_study: true
   - **Multiplying each value** of $X$ with its corresponding **probability**
   - **Adding** all these terms together
 
-$Σ$$xP(X=x)$
+$ΣxP(X=x)$
 
 - Look out for **symmetrical** distributions (where the values of X are symmetrical and their probabilities are symmetrical) as the mean of these is the same as the median
 
@@ -40,15 +40,15 @@ $Σ$$xP(X=x)$
   - **Multiplying each value** of X<sup>2</sup> with its corresponding **probability**
   - **Adding** all these terms together
 
-$Σ$$x^{2}P(X=x)$
+$Σx^{2}P(X=x)$
 
 - In a similar way E(f(x))  can be calculated for a discrete random variable by:
 
   - **Applying the function f** to each value of to get the values of f(*X*)
-  - **Multiplying each value** of f(*X *) with its corresponding **probability**
+  - **Multiplying each value** of f(*X*) with its corresponding **probability**
   - **Adding** all these terms together
 
-$Σ$$f(x)P(X=x)$
+$Σf(x)P(X=x)$
 
 ![3-1-2-ex-_-varx-discrete-diagram-1](../../../assets/aafbf8a0826f-3-1-2-ex-varx-discrete-diagram-1.png)
 

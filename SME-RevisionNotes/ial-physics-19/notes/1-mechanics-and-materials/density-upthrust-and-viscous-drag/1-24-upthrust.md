@@ -28,7 +28,7 @@ guided_study: false
 
   - Find the volume of the submerged object, which is also the volume of the displaced fluid
   - Find the weight of the displaced fluid
-  - Since *m* = *ρV *(density × volume), upthrust is equal to *F* = *mg* which is the weight of the fluid displaced by the object
+  - Since *m* = *ρV* (density × volume), upthrust is equal to *F* = *mg* which is the weight of the fluid displaced by the object
 
 - Archimedes’ Principle explains how ships float:
 

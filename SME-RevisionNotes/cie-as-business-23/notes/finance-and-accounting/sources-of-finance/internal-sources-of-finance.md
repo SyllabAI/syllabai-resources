@@ -67,7 +67,7 @@ guided_study: false
 
 ## Sale of unwanted assets
 
-- Selling *fixed assets *that are no longer required, such as machinery, land or buildings, generates finance
+- Selling *fixed assets* that are no longer required, such as machinery, land or buildings, generates finance
 - Businesses use this method for a range of reasons
 
   - To raise **cash quickly** without taking on debt
@@ -118,7 +118,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - It frees up internal funds without needing loans or paying* interest*<br>- It improves short-term cash flow and liquidity<br>- It allows faster access to finance compared to applying for external funding<br>- It can be used flexibly by adjusting *receivables*, payables or stock levels | - It may reduce stock levels or delay supplier payments, which can affect operations<br>- Over-reliance on working capital can strain supplier relationships or damage *credit terms*<br>- Reducing working capital too much can lead to cash shortages or missed payments<br>- It is not suitable for large or long-term investments |
+| - It frees up internal funds without needing loans or paying *interest*<br>- It improves short-term cash flow and liquidity<br>- It allows faster access to finance compared to applying for external funding<br>- It can be used flexibly by adjusting *receivables*, payables or stock levels | - It may reduce stock levels or delay supplier payments, which can affect operations<br>- Over-reliance on working capital can strain supplier relationships or damage *credit terms*<br>- Reducing working capital too much can lead to cash shortages or missed payments<br>- It is not suitable for large or long-term investments |
 
 - Further notes on managing working capital can be reviewed [here](https://www.savemyexams.com/a-level/business/cie/23/revision-notes/finance-and-accounting/business-finance/working-capital/)
 

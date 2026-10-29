@@ -117,7 +117,7 @@ guided_study: false
 > 
 > - Unemployment fell from 26.3% (2013) to under **10% by late 2025** - the lowest level since 2008
 > - Over 3 million jobs recovered; firms began hiring at lower rates of GDP growth than in previous cycles
-> - *Exports *surged as unit labour costs fell
+> - *Exports* surged as unit labour costs fell
 > 
 > **Limitations**
 > 

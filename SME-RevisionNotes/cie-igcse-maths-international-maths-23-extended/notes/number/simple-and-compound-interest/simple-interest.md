@@ -90,7 +90,7 @@ guided_study: true
 > 
 > > *Find what percentage of the original amount this represents*
 > 
-> `540 over 9000 equals 0.06 equals 6 percent sign`
+> `540 / 9000=0.06=6 percent sign`
 > 
 > > *£ 540 is 6% of the original £ 9000*
 > 

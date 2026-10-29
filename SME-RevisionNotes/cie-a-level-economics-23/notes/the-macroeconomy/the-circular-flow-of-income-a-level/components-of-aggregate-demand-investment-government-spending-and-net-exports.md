@@ -78,7 +78,7 @@ guided_study: false
   - **The stage of the *****economic cycle*** - expansionary fiscal policy in recessions, contractionary in booms
   - **Government macroeconomic objectives** - priorities between growth, inflation control and debt reduction
   - **The size of the***** public sector*** - economies with larger state sectors (e.g. France, many Nordic countries) have structurally higher G than those with smaller ones (e.g. Singapore)
-  - **Demographic pressures** - ageing populations raise healthcare and *pension *spending
+  - **Demographic pressures** - ageing populations raise healthcare and *pension* spending
   - **Debt servicing costs** - high national debt crowds out other government spending
 - Transfer payments (pensions, unemployment benefits) are not part of G in the AD equation because they do not directly purchase goods or services - they appear in the income of households and affect AD through C
 
@@ -98,7 +98,7 @@ guided_study: false
 - **Foreign national income** - a rise in trading partners' Y raises demand for X
 - **The *****exchange rate*** - a depreciation makes exports cheaper abroad, raising X
 - **Relative domestic and foreign prices** - lower domestic inflation raises X
-- **Trade policy abroad** - *tariffs *and *quotas *imposed by trading partners reduce X
+- **Trade policy abroad** - *tariffs* and *quotas* imposed by trading partners reduce X
 - **Non-price competitiveness** - quality, reliability and brand strength of domestic producers
 
 ### Determinants of imports

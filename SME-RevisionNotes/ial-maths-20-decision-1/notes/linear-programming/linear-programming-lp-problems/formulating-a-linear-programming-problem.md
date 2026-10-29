@@ -142,8 +142,8 @@ Formulate the** linear programming problem** by writing it in a formal manner
 > *Define the decision variables*
 > *The 'things' that can be varied here are the number of chairs and the number of tables that are made per day*
 > 
-> *Let *$x$* be the number of chairs made by the furniture manufacturer per day*
-> *Let *$y$* be the number of tables made by the furniture manufacturer per day*
+> *Let* $x$ *be the number of chairs made by the furniture manufacturer per day*
+> *Let* $y$ *be the number of tables made by the furniture manufacturer per day*
 > 
 > - *STEP 2*
 > *Write each constraint (given in words) as an inequality*

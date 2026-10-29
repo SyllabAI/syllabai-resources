@@ -63,7 +63,7 @@ guided_study: false
 
 | **Advantages  for employees** | **Disadvantages for employees** |
 |---|---|
-| - Workers benefit from *collective bargaining*, meaning they do not have to negotiate alone<br>- Union members often receive higher pay, better working conditions and non-wage benefits such as breaks and holiday rights<br>- Trade unions offer free legal advice, support during disputes and job training to help workers | - Union decisions may not reflect everyone’s views, but members are still expected to support them<br>- Union fees must be paid, reducing discretionary income<br>- Should a *strike *be called, employees are not paid, creating stress and tension between workers and management<br>- Workers who choose not to take *industrial action* may face pressure or intimidation from others. |
+| - Workers benefit from *collective bargaining*, meaning they do not have to negotiate alone<br>- Union members often receive higher pay, better working conditions and non-wage benefits such as breaks and holiday rights<br>- Trade unions offer free legal advice, support during disputes and job training to help workers | - Union decisions may not reflect everyone’s views, but members are still expected to support them<br>- Union fees must be paid, reducing discretionary income<br>- Should a *strike* be called, employees are not paid, creating stress and tension between workers and management<br>- Workers who choose not to take *industrial action* may face pressure or intimidation from others. |
 
 > **Exam Hint**
 > Avoid one-sided answers – in exams, show how trade unions can benefit **employees** (e.g. protection, better pay) but may also create **challenges for employers** (e.g. strikes, higher costs)

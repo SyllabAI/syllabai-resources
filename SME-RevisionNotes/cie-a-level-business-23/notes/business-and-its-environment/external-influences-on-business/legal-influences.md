@@ -176,7 +176,7 @@ guided_study: false
 - Competition law can
 
   - Prevent *price fixing* and unfair *collusion*
-  - Stop *mergers *or *takeovers *that reduce market competition
+  - Stop *mergers* or *takeovers* that reduce market competition
   - Ban abuse of *monopoly power*
 - If a company breaks competition law, it may face **heavy fines, restrictions** or **forced break-up **of business operations
 

@@ -38,14 +38,14 @@ guided_study: true
 
 - Use algebra to **replace the limit** which cannot be found with a variable
 
-  - E.g. let the undefined limit of zero be *a *or the infinite limit be *b*
+  - E.g. let the undefined limit of zero be *a* or the infinite limit be *b*
 - **Evaluate the integral** and substitute your chosen variable into the expression
 - Consider what will happen to your answer as the value of your chosen variable **tends towards the limit**
 
-  - E.g. what happens as *a *gets closer to zero or as *b* gets closer to infinity?
+  - E.g. what happens as *a* gets closer to zero or as *b* gets closer to infinity?
 - Your final answer will be the value you get if you substitute this into your answer
 
-  - E.g. as *a *tends to zero *a*<sup>*2*</sup>* *tends to zero and so this part of your solution will be zero
+  - E.g. as *a* tends to zero *a*<sup>*2*</sup>* *tends to zero and so this part of your solution will be zero
 - It is useful to remember as *a* tends to infinity then $\frac{1}{a}$ tends to 0
 
 > **Worked Example**

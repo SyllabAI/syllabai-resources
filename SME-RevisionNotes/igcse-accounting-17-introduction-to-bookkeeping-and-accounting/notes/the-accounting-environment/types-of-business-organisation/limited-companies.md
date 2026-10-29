@@ -36,7 +36,7 @@ guided_study: false
 
 - Limited companies can often **raise more capital** than sole traders or partnerships through the sale of shares
 
-  - Lenders may also be more willing to lend to a company, as they are considered to less of a risk than *unincorporated *businesses
+  - Lenders may also be more willing to lend to a company, as they are considered to less of a risk than *unincorporated* businesses
 - The owners of a limited company have **limited liability,** whereas sole traders and partnerships have unlimited liability
 
 ### What are the disadvantages of operating as a limited company?

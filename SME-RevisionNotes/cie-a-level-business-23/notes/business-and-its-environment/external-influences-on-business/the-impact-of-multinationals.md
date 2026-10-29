@@ -50,7 +50,7 @@ guided_study: false
 
   - By selling in many national markets, the **risk of failure** is reduced
   
-    - E.g. a *recession *in one country can be offset by sales in a growing market elsewhere
+    - E.g. a *recession* in one country can be offset by sales in a growing market elsewhere
 6. **Tax incentives**
 
   - MNCs are able to increase profits by setting up in countries with **low corporation tax** rates or countries that offer MNCs ***tax breaks***

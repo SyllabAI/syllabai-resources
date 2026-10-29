@@ -65,7 +65,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Sketching a diagram of the vector *$\overset{\rightarrow}{AB}$* can help*
+> > *Sketching a diagram of the vector* $\overset{\rightarrow}{AB}$ *can help*
 > 
 > ![Right-angled triangle formed from points A and B. The horizontal distance is 10, the vertical distance is 4 and the hypotenuse is the magnitude of the vector from A to B.](assets/3cc4aa74ac29-40842-length-of-a-vector-2.png)
 > 
@@ -91,9 +91,9 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Being three times *$\left| \vec{AB} \right|$* means the vector *$\overset{\rightarrow}{AB}$* is three times longer*
+> > *Being three times* $\left| \vec{AB} \right|$ *means the vector* $\overset{\rightarrow}{AB}$ *is three times longer*
 > 
-> > *One way to find a vector is to multiply each component of the vector *$\overset{\rightarrow}{AB}$* by 3 or -3*
+> > *One way to find a vector is to multiply each component of the vector* $\overset{\rightarrow}{AB}$ *by 3 or -3*
 > 
 > $\begin{gathered} \vec{CD} & = 3 \vec{AB} = 3 ( \begin{gathered} 10 \\ - 4 \end{gathered} ) \end{gathered}$
 > 

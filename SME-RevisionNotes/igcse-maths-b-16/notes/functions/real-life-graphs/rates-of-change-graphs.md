@@ -66,7 +66,7 @@ guided_study: true
 
 - If the graph is a **curve**, you can draw a** tangent **at a point on the graph and find its **gradient**
 
-  - This will be an **estimate** of the rate of change of* y* against *x*
+  - This will be an **estimate** of the rate of change of *y* against *x*
 - The **rate of change is greater** when the graph is **steeper**
 
   - In the below image

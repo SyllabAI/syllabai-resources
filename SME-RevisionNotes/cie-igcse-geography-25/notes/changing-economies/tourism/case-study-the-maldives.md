@@ -207,7 +207,7 @@ This page covers section 9.3.5 of the [CIE IGCSE specification](https://www.camb
 ### Stage 5 – Stagnation
 
 - Overcrowding in popular atolls is one of today's signs
-- Growing awareness of *coral *bleaching, erosion, and pollution
+- Growing awareness of *coral* bleaching, erosion, and pollution
 
 ### Stage 6 – Rejuvenation
 

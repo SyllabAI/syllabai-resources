@@ -34,7 +34,7 @@ guided_study: false
 ### Proximity to labour
 
 - This means being located near areas where skilled and qualified workers are available
-- Businesses often choose locations with a strong local workforce to make it easier to *recruit *the right people and run operations efficiently
+- Businesses often choose locations with a strong local workforce to make it easier to *recruit* the right people and run operations efficiently
 
 ### Proximity to materials
 
@@ -104,7 +104,7 @@ guided_study: false
 
   - Good transport links are essential for service and delivery-based businesses
   
-    - *Logistics *firms favour northern Calais due to its excellent road, rail and ferry connections.
+    - *Logistics* firms favour northern Calais due to its excellent road, rail and ferry connections.
 
 ### 2. National location decisions
 
@@ -120,18 +120,18 @@ guided_study: false
 
 - **Regional incentives**
 
-  - Governments may offer *grants* or *tax breaks* to attract businesses to poorer areas, aiming to reduce *unemployment *and support local economies
+  - Governments may offer *grants* or *tax breaks* to attract businesses to poorer areas, aiming to reduce *unemployment* and support local economies
   
     - E.g. The Welsh Government has funded companies locating in places like Cardiff and Swansea
 - **Labour costs and availability**
 
   - Wages and skills vary by region
-  - Cities may offer highly skilled workers at higher wages, while *rural *areas may be cheaper but with fewer qualified employees
+  - Cities may offer highly skilled workers at higher wages, while *rural* areas may be cheaper but with fewer qualified employees
   
     - E.g. In India, major cities like Bangalore and Delhi have more skilled workers than rural regions
 - **Proximity to target markets**
 
-  - Locating near areas with high *demand *helps reduce delivery costs and respond better to local preferences
+  - Locating near areas with high *demand* helps reduce delivery costs and respond better to local preferences
   
     - E.g. Mexican food firms often base themselves near large cities like Mexico City or Guadalajara to reach more consumers
 - **Transport links**
@@ -155,7 +155,7 @@ guided_study: false
 - **Labour costs**
 
   - Businesses may locate in countries where wages are lower to reduce production costs, especially in *labour-intensive* sectors like textiles or electronics
-  - However, they must weigh up lower wages against possible lower skill levels, *productivity *and working conditions
+  - However, they must weigh up lower wages against possible lower skill levels, *productivity* and working conditions
   
     - E.g. Zara and H&M outsource production to countries like Bangladesh and Vietnam, where labour is much cheaper than in Europe or North America
 - **New markets**
@@ -173,7 +173,7 @@ guided_study: false
     - E.g. Ireland’s low corporate tax and EU access have attracted major tech firms like Google and Facebook
 - **Trade barriers**
 
-  - Locating within a country can help businesses avoid *tariffs*, *quotas *or other trade restrictions
+  - Locating within a country can help businesses avoid *tariffs*, *quotas* or other trade restrictions
   - This is vital for exporters and also improves delivery times and local relationships
   
     - E.g. Toyota has built factories in the US and UK to avoid import tariffs and better serve local markets
@@ -245,7 +245,7 @@ guided_study: false
 |---|---|
 | **Access to international markets** | - Businesses may locate in countries where they can directly serve large or fast-growing markets<br>- This reduces transport costs and increases sales potential |
 | **Cheaper labour and materials** | - Globalisation allows access to countries with lower wages or material costs<br>- This helps firms reduce expenses and remain competitive |
-| **Improved transport and technology** | - Better logistics, communication systems and *infrastructure *make it easier to operate across borders and coordinate global supply chains |
+| **Improved transport and technology** | - Better logistics, communication systems and *infrastructure* make it easier to operate across borders and coordinate global supply chains |
 | **Avoiding *****trade barriers*** | - Businesses can avoid tariffs or quotas by locating inside specific countries or *trading blocs*<br>- This gives them easier access to important regional markets |
 | **Government incentives** | - Some governments offer tax reductions or grants to attract international businesses, especially in developing areas |
 | **Cultural and language factors** | - Understanding local customs and languages is key to operating abroad<br>- Some businesses locate where suitable language skills and cultural understanding exist |

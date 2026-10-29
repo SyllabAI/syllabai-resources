@@ -93,7 +93,7 @@ guided_study: false
 
 - Once these values are calculated:
 
-1. Plot a graph of *p *against 1 / *V* and draw a line of best fit
+1. Plot a graph of *p* against 1 / *V* and draw a line of best fit
 2. If this plot is a straight line graph, this means that the pressure is proportional to the inverse of the volume, hence confirming Boyle's Law (*pV* = constant)
 
 ![Boyles Law Example Graph, downloadable AS & A Level Physics revision notes](../../../assets/8a6678bbe0d0-6-5-6-boyles-law-example-graph.png)

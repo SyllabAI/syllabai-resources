@@ -68,7 +68,7 @@ guided_study: false
 
 ***Snell's Law is used to find the refractive indices or the angles to the normal at a boundary***
 
-- *θ*<sub>*1*</sub> and *θ*<sub>*2 *</sub>are always taken from the **normal**
+- *θ*<sub>*1*</sub> and *θ*<sub>*2* </sub>are always taken from the **normal**
 - Material 1 is always the material in which the ray goes through **first**
 - Material 2 is always the material in which the ray goes through **second**
 

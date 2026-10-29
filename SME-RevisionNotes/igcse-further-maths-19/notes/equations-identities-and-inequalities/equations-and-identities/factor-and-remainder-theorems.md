@@ -62,24 +62,24 @@ guided_study: false
 > **Worked Example**
 > a) Consider the function$f(x)=x^{3}-2x^{2}-x+2$. Given that $x=2$ is a solution to the equation $\mathrm{f} ( x ) = 0$, write down a linear factor of $\mathrm{f} ( x )$.
 > 
-> *By the factor theorem, if  *$\mathrm{f} ( a ) = 0$* then *$( x - a )$* is a factor of *$\mathrm{f} ( x )$
+> *By the factor theorem, if* $\mathrm{f} ( a ) = 0$ *then* $( x - a )$ *is a factor of* $\mathrm{f} ( x )$
 > 
 > > $x-2$* *
 > 
 > b) Use the factor theorem to determine whether $( x + 1 )$ is a factor of $g(x)=2x^{3}+3x^{2}-x+5$.
 > 
-> > *By the factor theorem, *$( x - a )$* can only be a factor of *$\mathrm{g} ( x )$* if  *$\mathrm{g} ( a ) = 0$*.*
+> > *By the factor theorem,* $( x - a )$ *can only be a factor of* $\mathrm{g} ( x )$ *if* $\mathrm{g} ( a ) = 0$*.*
 > 
-> > *But be careful – here *$a$* is equal to *$-1$*, not *$1$
+> > *But be careful – here* $a$ *is equal to* $-1$*, not* $1$
 > 
 > **Final answer:** $\begin{gathered} \mathrm{g} ( - 1 ) & = 2 ( - 1 )^{3} + 3 ( - 1 )^{2} - ( - 1 ) + 5 \\ = - 2 + 3 + 1 + 5 \\ = 7 \end{gathered}$
 > $g(-1)\neq0$**, so **$(x+1)$** is not a factor of **$g(x)$
 > 
 > c) It is given that $( 2 x - 3 )$ is a factor of $\mathrm{h} ( x ) = 2 x^{3} - b x^{2} + 7 x - 6$. Find the value of $b$.
 > 
-> > $( 2 x - 3 ) = 2 ( x - \frac{3}{2} )$*,  so *$( x - \frac{3}{2} )$* is a factor of *$\mathrm{h} ( x )$*.*
+> > $( 2 x - 3 ) = 2 ( x - \frac{3}{2} )$*,  so* $( x - \frac{3}{2} )$ *is a factor of* $\mathrm{h} ( x )$*.*
 > 
-> > *Therefore by the factor theorem, *$\mathrm{h} ( \frac{3}{2} ) = 0$*.*
+> > *Therefore by the factor theorem,* $\mathrm{h} ( \frac{3}{2} ) = 0$*.*
 > 
 > $\begin{gathered} 2 ( \frac{3}{2} )^{3} - b ( \frac{3}{2} )^{2} + 7 ( \frac{3}{2} ) - 6 & = 0 \\ \frac{27}{4} - \frac{9}{4} b + \frac{21}{2} - 6 & = 0 \\ \frac{45}{4} - \frac{9}{4} b & = 0 \\ \frac{9}{4} b & = \frac{45}{4} \\ b = \frac{4}{9} \times \frac{45}{4} \end{gathered}$
 > 
@@ -124,11 +124,11 @@ guided_study: false
 > **Worked Example**
 > a) Find the remainder when the function $\mathrm{f} ( x ) = 2 x^{4} - 2 x^{3} - x^{2} - 3 x + 1$ is divided by $( x - 2 )$.
 > 
-> > *We're dividing by *$( x - a ) = ( x - 2 )$
+> > *We're dividing by* $( x - a ) = ( x - 2 )$
 > 
-> > *So *$a=2$
+> > *So* $a=2$
 > 
-> > *By the remainder theorem the remainder will be *
+> > *By the remainder theorem the remainder will be*
 > 
 > $\begin{gathered} \mathrm{f} ( 2 ) & = 2 ( 2 )^{4} - 2 ( 2 )^{3} - ( 2 )^{2} - 3 ( 2 ) + 1 \\ = 32 - 16 - 4 - 6 + 1 \\ = 7 \end{gathered}$
 > 
@@ -138,9 +138,9 @@ guided_study: false
 > 
 > $( 2 x + 1 ) = 2 ( x + 1 \frac{1}{2} ) = 2 ( x - ( - 1 \frac{1}{2} ) )$
 > 
-> > *So here the value of *$a$* to use is  *$-\frac{1}{2}$
+> > *So here the value of* $a$ *to use is* $-\frac{1}{2}$
 > 
-> > *By the remainder theorem the remainder will be equal to *$\mathrm{g} ( - 1 \frac{1}{2} )$
+> > *By the remainder theorem the remainder will be equal to* $\mathrm{g} ( - 1 \frac{1}{2} )$
 > 
 > $\begin{gathered} 2 ( - 1 \frac{1}{2} )^{3} + ( - 1 \frac{1}{2} )^{2} + b ( - 1 \frac{1}{2} ) + 1 & = 3 \\ - 1 \frac{1}{4} + 1 \frac{1}{4} - \frac{b}{2} + 1 & = 3 \\ - \frac{b}{2} & = 2 \end{gathered}$
 > 

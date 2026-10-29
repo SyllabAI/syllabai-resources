@@ -93,7 +93,7 @@ Y \text{ED} = 1$
   - With an **increase in income** during periods of **economic growth**, businesses with normal  goods can expect an increase in demand
   
     - Businesses with **inferior goods **can expect a **fall** in demand
-  - With a **decrease in income** during periods of* recession,* businesses with **inferior goods **can expect an increase in demand
+  - With a **decrease in income** during periods of *recession,* businesses with **inferior goods **can expect an increase in demand
   
     - Business can plan to expand production if they can predict future sales based on income
   - Businesses can plan to** expand or contract **production or diversify goods if they can** predict future sales** based on income
@@ -103,7 +103,7 @@ Y \text{ED} = 1$
 
   - Governments can predict **spending patterns** of consumers in response to a change in income
   
-    - They can use this to reduce* inequality*. By reducing taxes on lower income earners, they can increase spending on goods such as **healthcare or education **
+    - They can use this to reduce *inequality*. By reducing taxes on lower income earners, they can increase spending on goods such as **healthcare or education **
   - Governments could increase** taxes** on goods that are not very responsive to a change in income, eg. necessity goods
   
     - This guarantees **tax revenue**, even in times of recession, where there is a fall in income

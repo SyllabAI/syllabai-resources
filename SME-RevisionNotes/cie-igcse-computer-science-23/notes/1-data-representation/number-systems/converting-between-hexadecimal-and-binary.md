@@ -30,7 +30,7 @@ guided_study: false
 
 #### Example 1
 
-- To convert the binary number *10110111 *to **hexadecimal**, first split the 8 bit number into 2 binary** *****nibbles***
+- To convert the binary number *10110111* to **hexadecimal**, first split the 8 bit number into 2 binary** *****nibbles***
 
 | **8** | **4** | **2** | **1** | ** ** | **8** | **4** | **2** | **1** |
 |---|---|---|---|---|---|---|---|---|
@@ -40,11 +40,11 @@ guided_study: false
 - (1 x 8) + (1 x 2) + (1 x 1) = 11 (B)
 - (1 x 4) + (1 x 2) + (1 x 1) = 7
 - Join them together to make a 2 digit hexadecimal number
-- Binary *10110111 *is **B7 **in hexadecimal
+- Binary *10110111* is **B7 **in hexadecimal
 
 #### Example 2
 
-- To convert the binary number *00111001 *to **hexadecimal**, first split the 8 bit number into 2 binary nibbles
+- To convert the binary number *00111001* to **hexadecimal**, first split the 8 bit number into 2 binary nibbles
 
 | **8** | **4** | **2** | **1** | ** ** | **8** | **4** | **2** | **1** |
 |---|---|---|---|---|---|---|---|---|
@@ -54,7 +54,7 @@ guided_study: false
 - (1 x 2) + (1 x 1) = 3
 - (1 x 8) + (1 x 1) = 9
 - Join them together to make a 2 digit hexadecimal number
-- Binary *00111001 *is **39 **in hexadecimal
+- Binary *00111001* is **39 **in hexadecimal
 
 ## Hexadecimal to Binary Conversion
 

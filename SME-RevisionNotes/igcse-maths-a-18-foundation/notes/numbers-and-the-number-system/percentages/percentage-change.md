@@ -66,7 +66,7 @@ guided_study: true
 > **Answer:**
 > 
 > **Method 1**
-> *Use the formula *$m=\frac{\mathrm{Amount} \mathrm{after}}{\mathrm{Amount} \mathrm{before}}$
+> *Use the formula* $m=\frac{\mathrm{Amount} \mathrm{after}}{\mathrm{Amount} \mathrm{before}}$
 > 
 > $\frac{310}{250}=1.24$* *
 > 
@@ -75,7 +75,7 @@ guided_study: true
 > **Final answer:** **A percentage increase of 24%**
 > 
 > **Method 2**
-> *Use the formula Percentage Change = *$\frac{\mathrm{After}-\mathrm{Before}}{\mathrm{Before}}\times100$
+> *Use the formula Percentage Change =* $\frac{\mathrm{After}-\mathrm{Before}}{\mathrm{Before}}\times100$
 > 
 > $\frac{310-250}{250}\times100=24$
 > 
@@ -89,7 +89,7 @@ guided_study: true
 > **Answer:**
 > 
 > **Method 1**
-> *Use the formula *$m=\frac{\mathrm{Selling} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}$
+> *Use the formula* $m=\frac{\mathrm{Selling} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}$
 > 
 > $\frac{5600}{8000}=0.7$
 > 
@@ -98,7 +98,7 @@ guided_study: true
 > **Final answer:** **A loss of 30%**
 > 
 > **Method 2**
-> *Use the formula Percentage Profit = *$\frac{\mathrm{Selling} \mathrm{Price}-\mathrm{Cost} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}\times100$
+> *Use the formula Percentage Profit =* $\frac{\mathrm{Selling} \mathrm{Price}-\mathrm{Cost} \mathrm{Price}}{\mathrm{Cost} \mathrm{Price}}\times100$
 > 
 > $\frac{5600-8000}{8000}\times100=-30$
 > 

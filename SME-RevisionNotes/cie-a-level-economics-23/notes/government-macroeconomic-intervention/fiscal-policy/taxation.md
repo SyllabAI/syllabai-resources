@@ -48,7 +48,7 @@ guided_study: false
 
 - **Indirect taxes are regressive in terms of proportion of income**
 
-  - A high earner and a low earner pay the same absolute amount of *VAT *on a good, but it represents a larger share of the low earner's income.
+  - A high earner and a low earner pay the same absolute amount of *VAT* on a good, but it represents a larger share of the low earner's income.
   
     - As income rises, **a smaller percentage** of income is paid in tax
 - In the diagram, when personal **income rises** from Y<sub>1</sub> to Y2, the **tax rate falls** from T<sub>1</sub> to T<sub>2</sub>

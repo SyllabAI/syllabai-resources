@@ -89,7 +89,7 @@ guided_study: true
 
 ### Trends of enthalpy change of solution
 
-- Going down the group, the Δ*H*<sub>*latt*</sub><sup>*ꝋ *</sup>of the ionic compounds becomes less exothermic
+- Going down the group, the Δ*H*<sub>*latt*</sub><sup>*ꝋ* </sup>of the ionic compounds becomes less exothermic
 
   - The positively charged **cations** become larger, so there is more space between the negatively and positively charged ions in the ionic compound
   - So there are weaker **attractive forces** between the ions

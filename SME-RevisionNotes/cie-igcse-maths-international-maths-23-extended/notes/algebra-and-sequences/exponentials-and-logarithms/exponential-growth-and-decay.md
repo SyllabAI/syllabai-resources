@@ -103,12 +103,12 @@ The ideas of compound interest and depreciation can be applied to other (non-mon
 > 
 > Find the population after 13 years, giving your answer to the nearest hundred.
 > 
-> > *Substitute in *$t=13$
+> > *Substitute in* $t=13$
 > 
 > $N=1.04^{13}\,N=1.665073507...$
 > 
 > > *The question asks for the answer to the nearest hundred*
-> *The question also states that *$N$* is measured in thousands*
+> *The question also states that* $N$ *is measured in thousands*
 > 
 > *1.665073507... × 1000 = 1665.073507... birds*
 > 
@@ -125,13 +125,13 @@ The ideas of compound interest and depreciation can be applied to other (non-mon
 > 
 > (a) After 3 days, 51.2% of the tickets are still available. Find the value of `equation`$a$.
 > 
-> > $x$* will be 3 (from 3 days)*
-> $y$* will be 0.512 (as the percentage is written as a decimal in this model)*
+> > $x$ *will be 3 (from 3 days)*
+> $y$ *will be 0.512 (as the percentage is written as a decimal in this model)*
 > *Substitute these values into the model*
 > 
 > $0.512=a^{3}$
 > 
-> > *Find *$a$* by taking the cube root of both sides*
+> > *Find* $a$ *by taking the cube root of both sides*
 > 
 > $\begin{gathered} \sqrt[3]{0.512} & = a \\ 0.8 & = a \end{gathered}$
 > 
@@ -139,15 +139,15 @@ The ideas of compound interest and depreciation can be applied to other (non-mon
 > 
 > (b) What percentage of tickets remain after 2 weeks? State your answer to three significant figures.
 > 
-> > *Now that *$a$* is known, the full equation of the model is*
+> > *Now that* $a$ *is known, the full equation of the model is*
 > 
 > $y=0.8^{x}$
 > 
-> > $x$* is measured in days*
+> > $x$ *is measured in days*
 > 
 > *2 weeks = 2 × 7 = 14 days*
 > 
-> > *Substitute in *$x=14$
+> > *Substitute in* $x=14$
 > 
 > $y=0.8^{14}=0.04398046511...$
 > 

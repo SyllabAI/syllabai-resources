@@ -43,7 +43,7 @@ The **variance **is another measure for the spread of the data, it measures the 
   - This version is easier to work with and should be used in most instances
   - Variance can also be written in other ways
 
-Variance =`sigma ^2 = ( capital sigma ( x - x -bar ) ^2)/(n) = 1 / n ( capital sigma x ^2 - ( capital sigma x ) ^2 / n ) = ( capital sigma x ^2)/(n) - ( ( capital sigma x)/(n) ) ^2 = ( capital sigma x ^2)/(n) - x -bar ^2`
+Variance =`σ ^2=(capital σ (x - x -bar) ^2)/(n)=1 / n (capital σ x ^2 - (capital σ x) ^2 / n)=(capital σ x ^2)/(n) - ((capital σ x)/(n)) ^2=(capital σ x ^2)/(n) - x -bar ^2`
 
 - An easy way to remember this is to think of it as ‘*the sum of x squared over n minus the sum of the mean squared’*
 - Most calculators can be used to find summary statistic such as the standard deviation and variance fairly quickly, practice finding it on yours
@@ -63,8 +63,8 @@ Variance =`sigma ^2 = ( capital sigma ( x - x -bar ) ^2)/(n) = 1 / n ( capital s
   - Multiply each $x$ value by its corresponding frequency and use these values within the formulae
   - The formulae will become
   
-    - Variance = `sigma ^2 = ( capital sigma ( x - x -bar ) ^2 f)/( capital sigma f) = ( capital sigma x ^2 f)/( capital sigma f) - ( ( capital sigma x f)/( capital sigma f) ) ^2`
-    - Standard deviation = `sigma = sqrt( ( capital sigma ( x - x -bar ) ^2 f)/( capital sigma f) ) = sqrt( ( capital sigma x ^2 f)/( capital sigma f) - ( ( capital sigma x f)/( capital sigma f) ) ) ^2`
+    - Variance = `σ ^2=(capital σ (x - x -bar) ^2f)/(capital σ f)=(capital σ x ^2f)/(capital σ f) - ((capital σ x f)/(capital σ f)) ^2`
+    - Standard deviation = `σ=sqrt((capital σ (x - x -bar) ^2f)/(capital σ f))=sqrt((capital σ x ^2f)/(capital σ f) - ((capital σ x f)/(capital σ f))) ^2`
 
 > **Worked Example**
 > Phoom recorded the length of time, $t$ , it took him, in minutes, to answer a selection of further calculus exam questions. The data is summarised in the table below.

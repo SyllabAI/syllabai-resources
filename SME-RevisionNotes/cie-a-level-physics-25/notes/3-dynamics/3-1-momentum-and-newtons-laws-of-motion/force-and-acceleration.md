@@ -83,7 +83,7 @@ $F=ma$
 > 
 > **Step 3: Calculate the resultant force acting on the rocket**
 > 
-> `F space equals space open parentheses 15 cross times 10 to the power of 6 close parentheses space minus space open parentheses 8 cross times 10 to the power of 6 close parentheses space minus space open parentheses 500 cross times 10 cubed close parentheses`
+> `F=(15×10^6)−(8×10^6)−(500×10³)`
 > 
 > $F=6.5\times10^{6}N\mathrm{upwards}$
 > 

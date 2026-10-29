@@ -88,7 +88,7 @@ $I = I_{0} \sin ( \\omega t )$
 
   - *I* = current (A)
   - *I*<sub>0</sub> = *peak current* (A)
-  - ⍵ = angular frequency of the supply (rad s<sup>-1</sup>)
+  - ω = angular frequency of the supply (rad s<sup>-1</sup>)
   - *t* = time (s)
 
 - **Note: **this a sine function since the alternative current graph is *sinusoidal*
@@ -98,10 +98,10 @@ $V = V_{0} \sin ( \\omega t )$
 
 - Where:
 
-  - *V *= voltage (V)
+  - *V* = voltage (V)
   - *V*<sub>0</sub> = *peak voltage* (V)
 
-- Recall the relation between the equation for angular frequency ⍵:
+- Recall the relation between the equation for angular frequency ω:
 
 $ω=\frac{2π}{T}=2πf$
 
@@ -110,7 +110,7 @@ $ω=\frac{2π}{T}=2πf$
   - *f* = frequency of the supply (Hz)
 
 > **Worked Example**
-> An alternating current *I *varies with time *t *as shown in the graph below.
+> An alternating current *I* varies with time *t* as shown in the graph below.
 > 
 > ![21-1-1-we-alternating-current--cie-new](assets/2b637e8bf6ac-21-1-1-we-alternating-current-cie-new.png)
 > 
@@ -129,7 +129,7 @@ $ω=\frac{2π}{T}=2πf$
 > **Step 3:** **Measure the time period *****T***** and peak current***** I***<sub>**0**</sub>** from the graph**
 > 
 > - The time period is the time taken for one full cycle, *T* = 0.10 s
-> - Peak current (amplitude),* I*<sub>0</sub> = 17 A
+> - Peak current (amplitude),*I*<sub>0</sub> = 17 A
 > 
 > **Step 4: Substitute values into alternating current equation at time***** t***
 > 
@@ -142,6 +142,6 @@ $ω=\frac{2π}{T}=2πf$
 > **Exam Hint**
 > These equations are written as  $x = x_{0} \sin ( \\omega t )$, the *x* is replaced with *I* or *V,* depending on the question.
 > 
-> Remember to check that your calculator is in **radians** mode when using any of these equations. This is because the angular frequency *⍵* is measured in rad s<sup>-1</sup>.
+> Remember to check that your calculator is in **radians** mode when using any of these equations. This is because the angular frequency *ω* is measured in rad s<sup>-1</sup>.
 > 
 > Current can also be positive or negative, depending on its **direction**. This is why the answer in the worked example is negative. At *t* = 0.48 s the current will be in the negative direction. The mark schemes in the exams are normally not too picky about this, but the size of the current (16 A in the worked example) is what will get the mark.

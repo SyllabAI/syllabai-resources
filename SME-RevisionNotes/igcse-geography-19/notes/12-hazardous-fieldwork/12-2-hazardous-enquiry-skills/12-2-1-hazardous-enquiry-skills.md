@@ -59,8 +59,8 @@ guided_study: false
 > 
 > **Guidance**
 > 
-> - *The first bar needs to be just above the 50mph line (each small square is 1mph). *
-> - *The second bar must be on the line. *
+> - *The first bar needs to be just above the 50mph line (each small square is 1mph).*
+> - *The second bar must be on the line.*
 > - *The bars do not need to be shaded but should be the same width as the other bars.*
 > 
 > **Mark an x in the box on Figure 1b which represents the anomalous wind speed result **

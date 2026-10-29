@@ -13,7 +13,7 @@ guided_study: false
 
 ## Summary
 
-The **Wall Street Crash** had a catastrophic* knock-on effect* on the rest of the US economy. With so many people suddenly in serious financial trouble, there was a huge drop in the number of potential customers for businesses. This meant they cut back on production or, in many cases, went* bust*. The banking industry struggled because too many loans had been given to people to buy shares “**on the margin**” before the crash. In the aftermath, many savers rushed to withdraw all their savings before the bank went bust, making a terrible situation for banks even worse. The farming industry had not benefitted from the boom but was still hit hard by the crash. A drop in food prices and an increase in *interest rates* after 1929 meant many farmers could not afford to repay their loans. As a result, their farms were *seized *by the banks that had lent them money. The consequence for workers in all these industries was job losses, and by 1933, a **quarter of all Americans were unemployed**.
+The **Wall Street Crash** had a catastrophic *knock-on effect* on the rest of the US economy. With so many people suddenly in serious financial trouble, there was a huge drop in the number of potential customers for businesses. This meant they cut back on production or, in many cases, went *bust*. The banking industry struggled because too many loans had been given to people to buy shares “**on the margin**” before the crash. In the aftermath, many savers rushed to withdraw all their savings before the bank went bust, making a terrible situation for banks even worse. The farming industry had not benefitted from the boom but was still hit hard by the crash. A drop in food prices and an increase in *interest rates* after 1929 meant many farmers could not afford to repay their loans. As a result, their farms were *seized* by the banks that had lent them money. The consequence for workers in all these industries was job losses, and by 1933, a **quarter of all Americans were unemployed**.
 
 ## Impact on businesses
 
@@ -34,7 +34,7 @@ The **Wall Street Crash** had a catastrophic* knock-on effect* on the rest of th
 
 ## Impact on banking
 
-- Banks suffered particularly badly in the* aftermath* of the crash
+- Banks suffered particularly badly in the *aftermath* of the crash
 
 ![Flowchart explaining bank failures post-Wall Street crash. Highlights loans for shares, mass withdrawals, bank collapses, and refusal to loan to firms.](../../../assets/1e4769b9c13c-10211-banking-crisis-1929-flow-diagram.png)
 
@@ -65,7 +65,7 @@ The **Wall Street Crash** had a catastrophic* knock-on effect* on the rest of th
 
 - There were** no welfare** or* unemployment benefits** *for those who had lost their jobs, but rent and mortgages still had to be paid
 
-  - Many people were *evicted* or had their homes* repossessed *
+  - Many people were *evicted* or had their homes *repossessed*
   - Some people travelled from state to state looking for work and became known as “**hobos**”
 - “Hobos” became seen as a social problem, and prejudice against them made it even more difficult for them to find work
 

@@ -98,7 +98,7 @@ guided_study: true
 
 - *L* is the length of the string
 
-  - 1 wavelength *λ *is only a portion of the length of the string
+  - 1 wavelength *λ* is only a portion of the length of the string
 - **Changing the frequency** of the stationary wave produced will **change the number of nodes** and antinodes produced and consequently the wavelength
 
 ![Three stationary wave patterns on a string fixed at both ends, with one, two and three loops](../../../assets/9a61e323595f-4-5-5a-qun-three-harmonics-sl-sq-easy-phy.png)

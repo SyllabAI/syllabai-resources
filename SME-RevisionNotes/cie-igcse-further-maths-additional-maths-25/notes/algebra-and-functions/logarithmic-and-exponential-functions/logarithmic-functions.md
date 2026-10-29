@@ -41,7 +41,7 @@ guided_study: false
 
   - We can solve some of these by inspection
   
-    - For example, for the equation 2<sup>*x*</sup>* *= 8 we know that *x *must be 3
+    - For example, for the equation 2<sup>*x*</sup>* *= 8 we know that *x* must be 3
   - Logarithms allow use to solve more complicated problems
   
     - For example, the equation 2<sup>*x*</sup> = 10 does not have a clear answer
@@ -136,7 +136,7 @@ guided_study: false
   
     - For example: If $y=e^{x}$ then $e^{4x}=y^{4}$
     - You can then solve the resulting equation (usually a quadratic)
-    - Once you solve for *y* then solve for *x *using the substitution formula
+    - Once you solve for *y* then solve for *x* using the substitution formula
 - If your equation involves "ln", try to combine all "ln" terms together
 
   - Use the laws of logarithms to combine terms into a single term
@@ -146,20 +146,20 @@ guided_study: false
 > **Exam Hint**
 > - If you're working on the non-calculator exam paper you may need to leave answers as exact values so using ln*x *is a good idea
 > 
->   - This can be solved with e<sup>*x *</sup>which can then be left as an exact value
+>   - This can be solved with e<sup>*x* </sup>which can then be left as an exact value
 
 > **Worked Example**
 > Solve the equation $e^{2x}=5$, leaving your answer as an exact value.
 > 
-> > *Take the natural logarithm of both sides. *
+> > *Take the natural logarithm of both sides.*
 > 
 > $\ln ( \mathrm{e}^{2 x} ) = \ln 5$
 > 
-> > *Use the property that *$\ln ( \mathrm{e}^{a} ) = a$*.*
+> > *Use the property that* $\ln ( \mathrm{e}^{a} ) = a$*.*
 > 
 > > $2x=\mathrm{ln}5$* *
 > 
-> > *Divide both sides by 2. *
+> > *Divide both sides by 2.*
 > 
 > $\begin{gathered} x & = \frac{\ln 5}{2} \end{gathered}$
 > 

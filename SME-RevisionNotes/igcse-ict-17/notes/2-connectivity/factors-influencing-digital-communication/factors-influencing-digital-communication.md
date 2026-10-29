@@ -45,7 +45,7 @@ guided_study: false
 #### Impact on user experience
 
 - Playing games online smoothly, **requires a high bandwidth**
-- A **high latency** can cause *lag *and the game will not** respond as quickly** as a users commands
+- A **high latency** can cause *lag* and the game will not** respond as quickly** as a users commands
 - This can cause big issues when users are** playing fast paced games** or playing against** other users with a lower latenc**y (have an advantage due to** **quicker response times)
 - Streaming sport content with a high latency** can cause micro-stutters** and **ruin a users watching experience**
 

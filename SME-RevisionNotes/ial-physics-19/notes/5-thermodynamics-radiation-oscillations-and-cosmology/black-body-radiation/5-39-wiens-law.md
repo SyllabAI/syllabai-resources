@@ -23,7 +23,7 @@ guided_study: false
 ![Wien's Displacement Law equation 1](../../../assets/6a04b8abd25b-5-wiens-displacement-law-equation-1.png)
 
 - λ<sub>max</sub> is the maximum wavelength (m) emitted by an object at the peak intensity
-- *T *is the surface temperature (K) of an object
+- *T* is the surface temperature (K) of an object
 
 - Wien's Law equation is given by:
 

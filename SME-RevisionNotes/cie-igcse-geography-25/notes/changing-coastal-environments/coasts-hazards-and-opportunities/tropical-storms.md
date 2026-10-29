@@ -71,7 +71,7 @@ This page covers sections 2.3.4 and 2.3.5 of the [CIE IGCSE Geography specificat
   - **Storm surges** from large areas of low pressure allow the sea level to rise, which, combined with high winds, forces a large mass of water towards land. This erodes beaches, damage sea defences and contaminates farmland and freshwater
   - **Coastal flooding** caused by intense rainfall and storm surges can affect large areas of low-lying land, including farmland and the tourist industry
   - **Landslides **are triggered because soil becomes saturated due to intense rainfall and in areas with steep slopes, where the soil can no longer hold its position, sliding down the slope
-- The *secondary * impacts of tropical storms include
+- The *secondary* impacts of tropical storms include
 
   - People are made homeless, causing distress, poverty, ill health or death due to a lack of shelter. The cost of rebuilding can be expensive and some people may not have insurance
   - Blocked or destroyed roads prevent rescue and emergency vehicles, and aid from getting through

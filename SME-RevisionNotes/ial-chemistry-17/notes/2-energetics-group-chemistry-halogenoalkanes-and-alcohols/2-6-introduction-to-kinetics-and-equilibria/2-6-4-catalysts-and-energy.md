@@ -44,7 +44,7 @@ guided_study: false
 
 - **Catalysts** provide the reactants another pathway which has a lower activation energy
 - On the graph below, the original number of successfully reacting particles is shown by the dark shaded area
-- By lowering *E*<sub>*a*</sub>*, *a **greater proportion **of molecules in the reaction mixture have the activation energy, and therefore have sufficient energy for an **effective collision**
+- By lowering *E*<sub>*a*</sub>*,* a **greater proportion **of molecules in the reaction mixture have the activation energy, and therefore have sufficient energy for an **effective collision**
 
   - This is shown by the combined number of particles in the light and dark shaded areas
 - As a result of this, the rate of the catalysed reaction is increased compared to the uncatalysed reaction

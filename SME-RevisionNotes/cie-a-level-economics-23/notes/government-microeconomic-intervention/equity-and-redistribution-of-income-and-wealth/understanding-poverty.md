@@ -46,13 +46,13 @@ guided_study: false
 > 
 > **The context**
 > 
-> India's rapid economic growth since the *liberalisation *reforms of the 1990s provides a striking illustration of the distinction between absolute and relative poverty - dramatic progress on one measure alongside deterioration on the other.
+> India's rapid economic growth since the *liberalisation* reforms of the 1990s provides a striking illustration of the distinction between absolute and relative poverty - dramatic progress on one measure alongside deterioration on the other.
 > 
 > **Actions taken**
 > 
 > - Market liberalisation drove technology-led growth, particularly in services and manufacturing
 > - **MGNREGA** guaranteed rural employment, directly targeting absolute poverty
-> - **Direct benefit transfers** channelled food, fuel and fertiliser *subsidies *to low-income households
+> - **Direct benefit transfers** channelled food, fuel and fertiliser *subsidies* to low-income households
 > 
 > **Outcomes**
 > 
@@ -106,7 +106,7 @@ guided_study: false
 |---|---|
 | **Disincentive to work** | - High effective marginal tax rates reduce labour supply at the margin<br><br>  - This is a productive inefficiency with macroeconomic costs |
 | **Rational behaviour** | - Individuals staying on benefits are not irrational<br><br>  - They are responding correctly to the incentives the system creates. the problem is with the system design, not the individual |
-| **Equity concern** | - The poverty trap disproportionately affects the lowest-income groups, *entrenching *inequality rather than reducing it<br><br>  - The opposite of the redistribution system's stated goal |
+| **Equity concern** | - The poverty trap disproportionately affects the lowest-income groups, *entrenching* inequality rather than reducing it<br><br>  - The opposite of the redistribution system's stated goal |
 | **Policy trade-off** | - Reducing benefit withdrawal rates to eliminate the poverty trap requires either lower benefit levels (worsening equity) or higher government spending (fiscal cost) -  there is no costless solution |
 | **Measurement difficulty** | - The effective marginal tax rate varies significantly across individuals depending on their specific combination of benefits, family circumstances and local costs, making the poverty trap hard to quantify and target |
 

@@ -22,7 +22,7 @@ guided_study: true
 - The** sinoatrial node (SAN)** is a group of cells in the wall of the right atrium
 
   - The SAN initiates a wave of ***depolarisation**** *that causes the **atria to contract**
-- The* Annulus fibrosus *is a region of non-conducting tissue which prevents the depolarisation spreading straight to the ventricles
+- The *Annulus fibrosus* is a region of non-conducting tissue which prevents the depolarisation spreading straight to the ventricles
 
   - Instead, the depolarisation is carried to the **atrioventricular node (AVN)**
   - This is a region of conducting tissue between atria and ventricles

@@ -72,8 +72,8 @@ $F=ma$
 > **Step 1: Write down the known quantities**
 > 
 > - Charge-to-mass ratio: $\frac{q}{m}=1.8\times10^{11}C\mathrm{kg}^{-1}$
-> - Magnetic flux density,* B *= 6.2 mT
-> - Electron speed,* v *= 3.0 × 10<sup>6</sup> m s<sup>-1</sup>
+> - Magnetic flux density, *B* = 6.2 mT
+> - Electron speed, *v* = 3.0 × 10<sup>6</sup> m s<sup>-1</sup>
 > 
 > **Step 2: Write down the equation for the radius of a charged particle in a perpendicular magnetic field**
 > 

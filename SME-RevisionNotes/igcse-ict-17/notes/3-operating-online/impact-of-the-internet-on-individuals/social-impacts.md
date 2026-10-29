@@ -46,7 +46,7 @@ guided_study: false
   - **Hurtful messages**
   - **Distributing upsetting images**
   - **Preventing participation in online events/discussions (isolating)**
-- Cyberbullies **can feel protected** by the apparent *anonymity *of the internet, however most online communication is **easily monitored**
+- Cyberbullies **can feel protected** by the apparent *anonymity* of the internet, however most online communication is **easily monitored**
 - Cyberbullying can **spread very quickly** and **to more people**
 
 ## Reduced physical activity
@@ -66,7 +66,7 @@ guided_study: false
 | Health | Wellbeing |
 |---|---|
 | Increased risk of chronic diseases | Increased anxiety and depression |
-| *Musculoskeletal *problems | Lower energy levels |
+| *Musculoskeletal* problems | Lower energy levels |
 | Weakened immune system | Poor sleep quality |
-| *Metabolic *issues | Lower self esteem |
+| *Metabolic* issues | Lower self esteem |
 | Increased blood pressure | Decreased social interaction |

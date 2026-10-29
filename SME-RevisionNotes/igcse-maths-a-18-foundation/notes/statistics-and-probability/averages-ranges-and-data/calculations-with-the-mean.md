@@ -49,14 +49,14 @@ guided_study: true
 > **Answer:**
 > 
 > > *Rearrange the formula for mean to get 'total of heights = mean height × number of students'*
-> *Find the total of heights before *
+> *Find the total of heights before*
 > 
-> *Total of heights before = 1.56 × 24 = 37.44 *
+> *Total of heights before = 1.56 × 24 = 37.44*
 > 
 > > *Find the total of heights after*
 > *Remember there are now 25 students*
 > 
-> *Total of heights after = 1.57 × 25 = 39.25 *
+> *Total of heights after = 1.57 × 25 = 39.25*
 > 
 > > *The height of the new student is the difference of the two totals above*
 > 

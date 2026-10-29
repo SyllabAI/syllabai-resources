@@ -29,7 +29,7 @@ guided_study: false
 
 - There are many significant practices that happen during Yom Kippur
 
-  - Many Jews will *fast *for a total of 25 hours
+  - Many Jews will *fast* for a total of 25 hours
   
     - This act shows **self-discipline **and means that Jews can focus on spiritual matters
   - Jews attend **five synagogue services**, including the **Kol Nidrei **(opening prayer) and **Neilah** (closing prayer)

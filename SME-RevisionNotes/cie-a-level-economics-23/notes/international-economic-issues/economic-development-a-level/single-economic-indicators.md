@@ -41,7 +41,7 @@ guided_study: false
 |---|---|---|
 | Real GDP per capita | - Total value of output produced within a country's borders, divided by population, adjusted for inflation | - Measuring domestic economic output per person |
 | Real GNI per capita | - GDP plus net income from abroad, divided by population, adjusted for *inflation* | - Comparing residents' average income across countries |
-| Real NNI per capita | - GNI minus *depreciation *of the capital stock | - Most accurate measure of net income available to residents |
+| Real NNI per capita | - GNI minus *depreciation* of the capital stock | - Most accurate measure of net income available to residents |
 
 - **GNI per capita is preferred to GDP** **per capita** for international comparisons
 
@@ -71,7 +71,7 @@ guided_study: false
   - A country spending heavily on weapons and prisons will show higher GDP than one spending the same on healthcare and schools
 - **Externalities**
 
-  - GDP counts the output of polluting industries but not the environmental damage they cause, overstating welfare in *industrialised *economies
+  - GDP counts the output of polluting industries but not the environmental damage they cause, overstating welfare in *industrialised* economies
 - **Data reliability**
 
   - Low-income economies often lack the statistical capacity to measure GDP accurately, so the figures that matter most are the least reliable

@@ -43,7 +43,7 @@ guided_study: false
 
 ![Marginal costing statement showing revenue, direct materials, direct labour, other variable costs, contribution, fixed costs, and profit calculations.](../../../assets/9acaaa81b41c-55324-marginal-costing-statement.png)
 
-*Example of marginal costing statement *
+*Example of marginal costing statement*
 
 > **Worked Example**
 > The following data is available for the year ended 31 March 2018.

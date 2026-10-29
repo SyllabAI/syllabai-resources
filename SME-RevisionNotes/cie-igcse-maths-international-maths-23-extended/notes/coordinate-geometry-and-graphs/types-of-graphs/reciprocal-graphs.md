@@ -36,7 +36,7 @@ guided_study: true
 
   - A **horizontal** asymptote along the *x*-axis (with** equation** $y=0$)
   
-    - This is the **limiting value** of *y* when the value of *x *gets very large (either positive or negative)
+    - This is the **limiting value** of *y* when the value of *x* gets very large (either positive or negative)
   - A **vertical** asymptote along the *y*-axis (with **equation** $x=0$)
   
     - This shows the **problem** of trying to **divide by zero**
@@ -69,12 +69,12 @@ guided_study: true
 > 
 > (a) Write down the equation of the horizontal asymptote.
 > 
-> > *A reciprocal graph of the form *$y=\frac{a}{x}+b$* will have a horizontal asymptote at *$y=b$
+> > *A reciprocal graph of the form* $y=\frac{a}{x}+b$ *will have a horizontal asymptote at* $y=b$
 > 
 > $y=-4$
 > 
 > (b) Write down the equation of the vertical asymptote.
 > 
-> > *A reciprocal graph of the form *$y=\frac{a}{x}+b$* will always have a vertical asymptote along the **y**-axis*
+> > *A reciprocal graph of the form* $y=\frac{a}{x}+b$* will always have a vertical asymptote along the **y**-axis*
 > 
 > $x=0$

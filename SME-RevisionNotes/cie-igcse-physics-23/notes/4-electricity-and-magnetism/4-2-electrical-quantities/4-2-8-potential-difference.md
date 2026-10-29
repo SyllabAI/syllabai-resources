@@ -125,7 +125,7 @@ $V=\frac{W}{Q}$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Voltage, *V = *6 V
+> - Voltage, *V =* 6 V
 > - Charge, *Q* = 4200 C
 > 
 > **Step 2: State the equation linking potential difference, energy and charge**

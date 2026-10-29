@@ -39,7 +39,7 @@ guided_study: true
 
 $λ=\frac{h}{p}$
 
-- Since momentum* p = mv,* the de Broglie wavelength can be related to the **speed **of a moving particle (*v*) by the equation:
+- Since momentum *p = mv,* the de Broglie wavelength can be related to the **speed **of a moving particle (*v*) by the equation:
 
 $λ=\frac{h}{mv}$
 
@@ -60,7 +60,7 @@ $λ=\frac{h}{\sqrt{2mE}}$
   - *p* = momentum of the particle (kg m s<sup>-1</sup>)
   - *E* = kinetic energy of the particle (J)
   - *m* = mass of the particle (kg)
-  - *v *= speed of the particle (m s<sup>-1</sup>)
+  - *v* = speed of the particle (m s<sup>-1</sup>)
 
 > **Worked Example**
 > A proton and an electron are each accelerated from rest through the same potential difference.

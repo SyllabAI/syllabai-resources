@@ -19,9 +19,9 @@ guided_study: false
 
 ### What are inverse matrix transformations?
 
-- If the matrix $M$ transforms the point *P*  to* P’*  then
+- If the matrix $M$ transforms the point *P*  to *P’*  then
 
-  - the **inverse matrix** $M^{-1}$ transforms *P’ * **back **to *P*
+  - the **inverse matrix** $M^{-1}$ transforms *P’* **back **to *P*
 - Inverse matrices represent the **reverse** of the transformation
 - Applying a transformation then its inverse returns points to their **original positions**
 
@@ -49,15 +49,15 @@ guided_study: false
 > 
 > (a)  Describe fully the single transformation represented by $Q^{-1}$.
 > 
-> > *The inverse of *$Q$* reverses the transformation*
+> > *The inverse of* $Q$ *reverses the transformation*
 > 
 > **Final answer:** $Q^{-1}$**represents a rotation of 120° clockwise about the origin**
 > 
 > (b)  Use a geometrical argument to explain why $Q^{-1}=Q^{2}$.
 > 
-> > $Q^{2}$* means apply the transformation represented by *`equation`$Q$* twice*
+> > $Q^{2}$ *means apply the transformation represented by* `equation`$Q$ *twice*
 > 
-> $Q^{2}$* represents a rotation of 240° anticlockwise about the origin*
+> $Q^{2}$ *represents a rotation of 240° anticlockwise about the origin*
 > 
 > > *Rotating 240° anticlockwise is the same as rotating 120° clockwise*
 > 

@@ -140,14 +140,14 @@
    "latex": null,
    "mathml": null,
    "alt": "straight P left parenthesis X greater than a right parenthesis equals 1 minus straight P left parenthesis X less than a right parenthesis equals 1 minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses",
-   "render": "`P ( X greater than a ) = 1 - P ( X less than a ) = 1 - capital phi ( (a - mu)/(sigma) )`",
+   "render": "`P (X greater than a)=1 - P (X less than a)=1 - capital φ ((a - μ)/(σ))`",
    "via": "alt-transpile"
   },
   {
    "latex": null,
    "mathml": null,
    "alt": "straight P left parenthesis a less than X less than b right parenthesis equals straight P left parenthesis X less than b right parenthesis minus straight P left parenthesis X less than a right parenthesis equals straight capital phi open parentheses fraction numerator b minus mu over denominator sigma end fraction close parentheses minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses",
-   "render": "`P ( a less than X less than b ) = P ( X less than b ) - P ( X less than a ) = capital phi ( (b - mu)/(sigma) ) - capital phi ( (a - mu)/(sigma) )`",
+   "render": "`P (a less than X less than b)=P (X less than b) - P (X less than a)=capital φ ((b - μ)/(σ)) - capital φ ((a - μ)/(σ))`",
    "via": "alt-transpile"
   },
   {
@@ -299,7 +299,7 @@
   },
   {
    "type": "bullets",
-   "md": "- You can calculate a probability $P(X<x)$ using the relationship $\\mathrm{P} ( X < x ) = \\mathrm{P} ( Z < \\frac{x - \\\\mu }{\\\\sigma } )$\n- **Always sketch** a quick diagram to visualise which area you are looking for\n- Once you have determined the *z *value use the table of the normal distribution to find the probability\n\n  - Refer to your sketch to decide if you need to subtract the probability from one"
+   "md": "- You can calculate a probability $P(X<x)$ using the relationship $\\mathrm{P} ( X < x ) = \\mathrm{P} ( Z < \\frac{x - \\\\mu }{\\\\sigma } )$\n- **Always sketch** a quick diagram to visualise which area you are looking for\n- Once you have determined the *z* value use the table of the normal distribution to find the probability\n\n  - Refer to your sketch to decide if you need to subtract the probability from one"
   },
   {
    "type": "paragraph",
@@ -307,7 +307,7 @@
   },
   {
    "type": "bullets",
-   "md": "- You can picture this as the area of a single line is zero\n\n  - $P(X=x)=0$\n- $P(X<μ)=P(X>μ)=0.5$\n\n  - You can look at which side of the mean *x *is on and the direction of the inequality to decide if your answer should be greater or less than 0.5\n- As $P(X=a)=0$ you can use:\n\n  - $P(X<a)+P(X>a)=1$\n  - `P ( X greater than a ) = 1 - P ( X less than a ) = 1 - capital phi ( (a - mu)/(sigma) )`\n  - `P ( a less than X less than b ) = P ( X less than b ) - P ( X less than a ) = capital phi ( (b - mu)/(sigma) ) - capital phi ( (a - mu)/(sigma) )`"
+   "md": "- You can picture this as the area of a single line is zero\n\n  - $P(X=x)=0$\n- $P(X<μ)=P(X>μ)=0.5$\n\n  - You can look at which side of the mean *x* is on and the direction of the inequality to decide if your answer should be greater or less than 0.5\n- As $P(X=a)=0$ you can use:\n\n  - $P(X<a)+P(X>a)=1$\n  - `P (X greater than a)=1 - P (X less than a)=1 - capital φ ((a - μ)/(σ))`\n  - `P (a less than X less than b)=P (X less than b) - P (X less than a)=capital φ ((b - μ)/(σ)) - capital φ ((a - μ)/(σ))`"
   },
   {
    "type": "callout",
@@ -334,7 +334,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Given a probability you will have to look through the table of the normal distribution to locate the *z*-value that corresponds with that probability\n- Look at whether your probability is **greater or less than 0.5** and the **direction of the inequality** to determine whether your *z-*value will be positive or negative\n\n  - If $P(X<a)$ is **more than 0.5** or $P(X>a)$ is **less than 0.5** then *a* should be **bigger than the mean**\n  \n    - *z *will be positive\n  - If $P(X<a)$ is **less than 0.5** or $P(X>a)$ is **more than 0.5** then *a*  should be **smaller than the mean**\n  \n    - *z *will be negative\n- You do not need to remember these, **a sketch will help you see it**\n\n  - **Always sketch a diagram**"
+   "md": "- Given a probability you will have to look through the table of the normal distribution to locate the *z*-value that corresponds with that probability\n- Look at whether your probability is **greater or less than 0.5** and the **direction of the inequality** to determine whether your *z-*value will be positive or negative\n\n  - If $P(X<a)$ is **more than 0.5** or $P(X>a)$ is **less than 0.5** then *a* should be **bigger than the mean**\n  \n    - *z* will be positive\n  - If $P(X<a)$ is **less than 0.5** or $P(X>a)$ is **more than 0.5** then *a*  should be **smaller than the mean**\n  \n    - *z* will be negative\n- You do not need to remember these, **a sketch will help you see it**\n\n  - **Always sketch a diagram**"
   },
   {
    "type": "figure",
@@ -345,7 +345,7 @@
   },
   {
    "type": "bullets",
-   "md": "- If your probability is less than 0.5 you will need to **subtract it from one** to find the corresponding *z *value\n\n  - Remember that the **position **of the z-value will not change, only the direction of the inequality\n- Once you have the correct $z$ value substitute it into the formula** **$z=\\frac{a-μ}{σ}$   and solve to find the value of *a*\n- Always check that your answer makes sense by considering where *a* is in relation to the mean"
+   "md": "- If your probability is less than 0.5 you will need to **subtract it from one** to find the corresponding *z* value\n\n  - Remember that the **position **of the z-value will not change, only the direction of the inequality\n- Once you have the correct $z$ value substitute it into the formula** **$z=\\frac{a-μ}{σ}$   and solve to find the value of *a*\n- Always check that your answer makes sense by considering where *a* is in relation to the mean"
   },
   {
    "type": "heading",
@@ -373,7 +373,7 @@
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "- The most common mistake students make when finding values from given probabilities is forgetting to check whether the *z-*value should be negative or not.  Avoid this by checking early on **using a sketch** whether *z *is positive or negative and writing a note to yourself before starting the other calculations."
+   "md": "- The most common mistake students make when finding values from given probabilities is forgetting to check whether the *z-*value should be negative or not.  Avoid this by checking early on **using a sketch** whether *z* is positive or negative and writing a note to yourself before starting the other calculations."
   }
  ]
 }

@@ -136,7 +136,7 @@ guided_study: false
 
 ![Graph showing land price from CBD. Shops afford high values; industry is farther; housing is low cost. Price decreases with distance, indicating distance decay.](../../../assets/5da1eccbbcb0-bid-rent-theory.png)
 
-*Bid-rent graph shows land prices decrease further from the CBD *
+*Bid-rent graph shows land prices decrease further from the CBD*
 
 ### Urban land use in LEDCs
 
@@ -176,7 +176,7 @@ guided_study: false
 > 
 > **Final answer:** **Approximately 13 km from CBD to fringe **
 > 
-> > *Use a ruler and measure the distance key, which tells you that so many cm = 1 or 2 km; in this instance, it is 0.5 cm = 1 km and 2 km = 1 cm *
+> > *Use a ruler and measure the distance key, which tells you that so many cm = 1 or 2 km; in this instance, it is 0.5 cm = 1 km and 2 km = 1 cm*
 > 
 > *Measure the length from A to boundary between D and E = 6.5 cm (approx.)*
 > 

@@ -47,7 +47,7 @@ guided_study: false
 
   - It can be hard to spot patterns, trends or seasonal changes by looking at rows of data or, even, data in a graph, especially if sales are volatile
   
-    - In the example below, it would be **difficult to draw a *****line of best fit*** in order to *extrapolate *and make sales forecasts
+    - In the example below, it would be **difficult to draw a *****line of best fit*** in order to *extrapolate* and make sales forecasts
 
 #### Example of raw data plotted in a chart
 

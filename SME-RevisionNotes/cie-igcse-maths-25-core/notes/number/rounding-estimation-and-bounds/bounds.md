@@ -73,4 +73,4 @@ guided_study: true
 > **Final answer:** **Upper bound: 3.65 km**
 > **Lower bound: 3.55 km**
 > 
-> > *We could also write this as an error interval of *$3.55\leql<3.65$*, although this is not asked for in this question*
+> > *We could also write this as an error interval of* $3.55\leql<3.65$*, although this is not asked for in this question*

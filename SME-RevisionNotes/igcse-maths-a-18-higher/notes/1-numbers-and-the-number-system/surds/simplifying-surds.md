@@ -87,8 +87,8 @@ guided_study: true
 - You may have to expand double brackets containing surds
 
   - This can be done in the same way as multiplying out double brackets algebraically, and then simplifying
-  - The property `open parentheses square root of a close parentheses squared space equals space a` can be used to simplify the expression, once expanded
-  - E.g. `open parentheses square root of 6 minus 2 close parentheses open parentheses square root of 6 plus 4 close parentheses` expands to `open parentheses square root of 6 close parentheses squared space plus 4 square root of 6 minus 2 square root of 6 minus 8`
+  - The property `(√(a)²=a` can be used to simplify the expression, once expanded
+  - E.g. `(√(6−2)(√(6+4)` expands to `(√(6)²+4 √(6−2 √(6−8`
   
     - This simplifies to $6+2\sqrt{6}-8$ which gives $-2+2\sqrt{6}$
 

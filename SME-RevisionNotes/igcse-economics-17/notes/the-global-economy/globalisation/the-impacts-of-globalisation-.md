@@ -55,7 +55,7 @@ guided_study: false
 
 ### Individual countries
 
-- As globalisation increases, so too does *inequality *between the richest and poorest countries
+- As globalisation increases, so too does *inequality* between the richest and poorest countries
 
   - In developing countries, workers have low trade union membership, so there is a greater **exploitation** of workers through low wages, poor human rights and worsening income inequality
 - There is a loss of **traditional industries** in developed countries as *deindustrialisation* causes certain industries to move operations to low cost countries

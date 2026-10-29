@@ -35,7 +35,7 @@ $E = E^{ } \Theta + \frac{ R T}{ z F} l n \frac{ \text{stretchy} [ o x i d i s e
 
 $E = E^{ } \Theta + \frac{ 0 . 059}{ z} log_{ } 10 \frac{ \text{stretchy} [ o x i d i s e d s p e c i e s \text{stretchy} ]}{ \text{stretchy} [ r e d u c e d s p e c i e s \text{stretchy} ]}$
 
-- At standard temperature, *R, T *and *F* are constant
+- At standard temperature, *R, T* and *F* are constant
 
   - ln x = 2.303 log<sub>10</sub> x
 - The Nernst equation only depends on **aqueous ions **and **not solids or gases**

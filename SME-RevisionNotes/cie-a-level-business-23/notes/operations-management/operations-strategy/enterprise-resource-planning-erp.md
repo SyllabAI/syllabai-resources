@@ -78,7 +78,7 @@ guided_study: false
 
 #### 1. Inventory control
 
-- ERP systems monitor *inventory *levels in real time, across all warehouses and stores
+- ERP systems monitor *inventory* levels in real time, across all warehouses and stores
 
   - This prevents overstocking and stock shortages, as stock levels are always accurate
   - It helps reduce waste and storage costs by only reordering when necessary

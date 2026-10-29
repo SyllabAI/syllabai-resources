@@ -178,4 +178,4 @@ guided_study: false
 >   - **River straightening** downstream of Stockton to allow easier *navigation* further up the river
 >   
 >     - The Mandale Loop was a meander which was cut off to reduce the distance ships had to travel by 4km
->   - Industrial developments on the floodplains close to the* estuary*
+>   - Industrial developments on the floodplains close to the *estuary*

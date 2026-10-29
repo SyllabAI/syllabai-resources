@@ -34,7 +34,7 @@ The following guide to *Whistle and I’ll Come to You (*from *T*he Woman in Bla
 
 ## Whistle and I’ll Come to You overview
 
-*Whistle and I’ll Come to You *is an extract from the 1983 gothic horror novel The Woman in Black by Susan Hill, about a spectre which haunts a small English town. The novel is set in the Edwardian era and tells the story of Arthur Kipps who encountered a vengeful ghost at Eel Marsh House, where he was working. The extract creates suspense and tension through the use of Gothic literary elements.
+*Whistle and I’ll Come to You* is an extract from the 1983 gothic horror novel The Woman in Black by Susan Hill, about a spectre which haunts a small English town. The novel is set in the Edwardian era and tells the story of Arthur Kipps who encountered a vengeful ghost at Eel Marsh House, where he was working. The extract creates suspense and tension through the use of Gothic literary elements.
 
 ## Whistle and I’ll Come to You summary
 

@@ -26,7 +26,7 @@ guided_study: false
   - Is the **presence of God** working **in the world today**
   - **Inspires people** to let them know the** will of God**
 - There is some variation in the emphasis that different Christian churches place on how the Holy Spirit is conferred to Christians today
-- **Catholic **and **Anglican Christians** believe that although the Holy Spirit is present at all times, it is passed on in a very special and significant way through the *sacraments *of **baptism**, **confirmation** and **ordination**
+- **Catholic **and **Anglican Christians** believe that although the Holy Spirit is present at all times, it is passed on in a very special and significant way through the *sacraments* of **baptism**, **confirmation** and **ordination**
 
   - They also include prayer and worship of the Holy Spirit throughout their* **liturgy *in **Sunday Mass** and* Eucharistic** *services
   - Examples include prayers, such as the **Sign of the Cross **and the** ***Creed*

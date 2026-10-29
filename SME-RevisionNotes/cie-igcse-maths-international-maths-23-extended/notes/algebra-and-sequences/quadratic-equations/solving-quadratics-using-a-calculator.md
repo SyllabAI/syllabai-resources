@@ -75,7 +75,7 @@ guided_study: true
 > **Worked Example**
 > Use your calculator to solve the equation $10x=19-6x^{2}$ giving your solutions to four significant figures.
 > 
-> > *Rearrange the equation to the form *$ax^{2}+bx+c=0$
+> > *Rearrange the equation to the form* $ax^{2}+bx+c=0$
 > 
 > $\begin{gathered} 10 x & = 19 - 6 x^{2} \\ 6 x^{2} + 10 x & = 19 \\ 6 x^{2} + 10 x - 19 & = 0 \end{gathered}$
 > 

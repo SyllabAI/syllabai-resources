@@ -37,11 +37,11 @@ guided_study: true
   - **Group **and fully **factorise **the** first two terms**, using 4*x* as the common factor
   - and **group **and fully **factorise **the **last two terms**, using 3 as the common factor
   
-    - `4 x open parentheses x minus 7 close parentheses plus 3 open parentheses x minus 7 close parentheses`
-  - These terms now have a **common factor** of `open parentheses x minus 7 close parentheses`
+    - `4x (x−7)+3 (x−7)`
+  - These terms now have a **common factor** of `(x−7)`
   
     - This **whole bracket** can be factorised out
-    - This gives the answer `open parentheses x minus 7 close parentheses open parentheses 4 x plus 3 close parentheses`
+    - This gives the answer `(x−7)(4x+3)`
 
 #### Method 2: Factorising using a grid
 
@@ -89,7 +89,7 @@ guided_study: true
 
 - We can now read off the brackets from the column and row headings:
 
-  - `open parentheses x minus 7 close parentheses open parentheses 4 x plus 3 close parentheses`
+  - `(x−7)(4x+3)`
 
 > **Worked Example**
 > (a) Factorise $6x^{2}-7x-3$.

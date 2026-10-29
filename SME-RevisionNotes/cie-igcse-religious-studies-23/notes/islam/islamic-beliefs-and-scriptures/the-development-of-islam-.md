@@ -29,7 +29,7 @@ guided_study: false
 - **Sunni Muslims** think that only the **Qur’an** and the *Sunnah* have authority
 
   - This is where the name Sunni comes from: **followers of the Sunnah**
-  - Sunni Muslims elected **Abu Bakr** to be their* Caliph* and to act on behalf of Muhammad (pbuh) and Allah
+  - Sunni Muslims elected **Abu Bakr** to be their *Caliph* and to act on behalf of Muhammad (pbuh) and Allah
   - **Imams** are not holy figures appointed by Allah
   
     - They are good teachers and leaders chosen by the community
@@ -133,7 +133,7 @@ guided_study: false
   - He disappeared after his father’s death
   - It is believed he has been kept **alive**, hidden somewhere on Earth, and will return with **Jesus** at the end of time to bring** justice **and **equality**
 - Shi’a Muslims believe that **revelation from Allah** was **completed **with the Prophet **Muhammad (pbuh)** but that twelve Imams were chosen by Allah to **guide **and **preserve Allah’s message**
-- The **Imams** rule justly and are also the only people who can **interpret the Qur’an** and *Shariah Law *without fault
+- The **Imams** rule justly and are also the only people who can **interpret the Qur’an** and *Shariah Law* without fault
 - For Shi’a Muslims, Imams are seen as *infallible* and must be obeyed
 - They are **protectors of the faith**, ensuring that the teachings do not become corrupted or spoiled
 

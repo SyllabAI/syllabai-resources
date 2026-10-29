@@ -77,6 +77,6 @@ guided_study: true
 | **Disease** | **Pathogen** | **Transmission** | **Symptoms** |
 |---|---|---|---|
 | Cholera | *Vibrio cholerae* | Contaminated water or food | Diarrhoea and dehydration |
-| Malaria | *Plasmodium falciparum*,* P. malariae*,* P. ovale*,* P. vivax* | Female* Anopheles* mosquito | Fever, headaches and muscle pain |
-| TB | *Mycobacterium tuberculosis*,* M. bovis* | Airborne droplets | Cough, chest pain, fever and weight loss |
+| Malaria | *Plasmodium falciparum*,*P. malariae*,*P. ovale*,*P. vivax* | Female *Anopheles* mosquito | Fever, headaches and muscle pain |
+| TB | *Mycobacterium tuberculosis*,*M. bovis* | Airborne droplets | Cough, chest pain, fever and weight loss |
 | HIV/AIDS | Human Immunodeficiency Virus | Exchange of body fluids | Initial flu-like symptoms, and eventually a loss of immune function (AIDS) |

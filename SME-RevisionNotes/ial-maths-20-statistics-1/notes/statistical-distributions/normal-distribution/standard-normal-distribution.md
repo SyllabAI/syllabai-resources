@@ -61,17 +61,17 @@ $Z=\frac{X-μ}{σ}$
   - For negative values of *z*, the symmetry property of the normal distribution is used
   - For values greater than *z* = 4 the probabilities are small enough to be considered negligible
 - The tables give the probabilities to 4 decimal places
-- To read probabilities from the normal distribution table for a *z *value :
+- To read probabilities from the normal distribution table for a *z* value :
 
-  - Find the *z* value in a column labelled *z *at the top
-  - The probability $Φ(z)$ will be the probability directly to the right of the *z *value
+  - Find the *z* value in a column labelled *z* at the top
+  - The probability $Φ(z)$ will be the probability directly to the right of the *z* value
   - So the value of $Φ(1.23)=P(Z\leq1.23)$ would be found to the right of 1.23
   
     - $P(Z\leq1.23)=0.8907$
-- If the value of *z *is not listed then find the closest value on the table
+- If the value of *z* is not listed then find the closest value on the table
 
-  - *z *= 3.14 is not listed so use *z *= 3.15
-  - *z *= 2.25 is not listed so use *z *= 2.24 or *z *= 2.26
+  - *z* = 3.14 is not listed so use *z* = 3.15
+  - *z* = 2.25 is not listed so use *z* = 2.24 or *z* = 2.26
 
 #### How is the table used to find probabilities that are not listed?
 
@@ -82,7 +82,7 @@ $Z=\frac{X-μ}{σ}$
 
   - $P(Z\leqz)=P(Z\geq-z)$
   - $P(Z\geqz)=P(Z\leq-z)$
-- This allows probabilities to be found for negative values of *z *or for $P(Z>z)$
+- This allows probabilities to be found for negative values of *z* or for $P(Z>z)$
 
   - $Φ(-z)=1-Φ(z)$
   - $P(Z>z)=1-Φ(z)$
@@ -100,21 +100,21 @@ $Z=\frac{X-μ}{σ}$
 
 #### How are z values found from the table of the normal distribution function?
 
-- To find the value of *z *for which $P(Z\leqz)=p$ look for the value of *p *from within the table and find the corresponding value of *z*
+- To find the value of *z* for which $P(Z\leqz)=p$ look for the value of *p* from within the table and find the corresponding value of *z*
 
   - If the probability is given to 4 decimal places most of the time the value will exist somewhere in the tables
-- If your probability is 0.5 or greater look through the tables to find the corresponding *z *value
+- If your probability is 0.5 or greater look through the tables to find the corresponding *z* value
 
   - For $P(Z<z)\geq0.5$  use the z value found in the table
   - For $P(Z>z)\geq0.5$ take the negative of the z value found in the table
-- If the probability is less than 0.5 you will need to **subtract it from one** before using the tables to find the corresponding *z *value
+- If the probability is less than 0.5 you will need to **subtract it from one** before using the tables to find the corresponding *z* value
 
   - For $P(Z<z)<0.5$  take the negative of the z value found in the table
   - For $P(Z>z)<0.5$ use the z value found in the table
 - **Always draw a sketch **so that you can see these clearly
 - The formula booklet also contains a **table of the critical values of *****z ***for $P(Z>z)=p$
 
-  - This gives *z *values to 4 decimal places for common probabilities
+  - This gives *z* values to 4 decimal places for common probabilities
   - The probabilities in this table are 0.5, 0.4, 0.3, 0.2, 0.15, 0.1, 0.05, 0.025, 0.01, 0.005, 0.001 and 0.0005.
 
 > **Worked Example**

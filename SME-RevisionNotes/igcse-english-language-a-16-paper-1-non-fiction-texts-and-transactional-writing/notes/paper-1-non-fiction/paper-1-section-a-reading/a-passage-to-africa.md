@@ -19,7 +19,7 @@ guided_study: false
 
 Students studying the Pearson Edexcel International GCSE English Language A qualification must study all ten of the non-fiction texts in Part 1 of the Edexcel International GCSE English Language Anthology in preparation for Paper 1. You will be given** one **of the ten texts in your exam, along with another unseen text, which are thematically linked. Section A, Question 4 will specifically be about the anthology text, and Question 5 will ask you to compare the anthology text with the unseen text.
 
-The following guide to* A Passage to Africa* by George Alagiah contains:
+The following guide to *A Passage to Africa* by George Alagiah contains:
 
 - ***A Passage to Africa***** overview**
 - ***A Passage to Africa *****summary**
@@ -32,7 +32,7 @@ The following guide to* A Passage to Africa* by George Alagiah contains:
 
 ## A Passage to Africa overview
 
-*A Passage to Africa *was written by British newsreader and journalist George Alagiah, who passed away in 2023. It is about Alagiah’s experiences as a television reporter in Somalia, Africa, during the war in the early 1990s, and specifically how an encounter in a village near Gufgaduud affected him more than anything else he witnessed on his journey.
+*A Passage to Africa* was written by British newsreader and journalist George Alagiah, who passed away in 2023. It is about Alagiah’s experiences as a television reporter in Somalia, Africa, during the war in the early 1990s, and specifically how an encounter in a village near Gufgaduud affected him more than anything else he witnessed on his journey.
 
 ## A Passage to Africa summary
 

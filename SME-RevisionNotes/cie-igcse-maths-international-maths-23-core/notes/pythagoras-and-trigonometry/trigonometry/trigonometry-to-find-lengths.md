@@ -106,7 +106,7 @@ guided_study: true
 > 
 > ![Right Pointing Right Angled Triangle with measurements, IGCSE & GCSE Maths revision notes](assets/5d3995ed8d60-12475-trigonometry-to-find-lengths-4.png)
 > 
-> > *We know A and we want to know O - that's TOA or *$\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$
+> > *We know A and we want to know O - that's TOA or* $\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$
 > 
 > $\tan ( 43 ) = \frac{x}{9}$
 > 

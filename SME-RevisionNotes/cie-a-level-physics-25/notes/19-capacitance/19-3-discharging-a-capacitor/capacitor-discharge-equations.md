@@ -33,7 +33,7 @@ $τ$ = *RC*
 - Where:
 
   - $τ$ = time constant (s)
-  - *R *= resistance of the resistor (Ω)
+  - *R* = resistance of the resistor (Ω)
   - *C* = *capacitance* of the capacitor (F)
 - For example, to find the time constant from a voltage-time graph, calculate 0.37*V*<sub>*0*</sub> and determine the corresponding time for that value
 
@@ -83,7 +83,7 @@ $X=X_{0}e^{-(\frac{t}{RC})}$
 
 - Where:
 
-  - *X *= current, charge or potential difference
+  - *X* = current, charge or potential difference
   - *X*<sub>*0*</sub> = initial current, charge or potential difference before discharge
   - *e* = the exponential function
   - *t* = time (s)

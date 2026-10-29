@@ -25,8 +25,8 @@ guided_study: true
 - The units provide the context as to what *v* refers to:
 
   - If *v* represents velocity, the unit would be **m s**<sup>**–1**</sup>
-  - If *v *represents volume, the unit would be **m**<sup>**3**</sup>
-  - If *V *represents potential difference, the unit would be **V**
+  - If *v* represents volume, the unit would be **m**<sup>**3**</sup>
+  - If *V* represents potential difference, the unit would be **V**
 
 ![What is a Physical Quantity, downloadable AS & A Level Physics revision notes](../../../assets/50fdee87e216-1-1-1-what-is-a-physical-quantity.png)
 

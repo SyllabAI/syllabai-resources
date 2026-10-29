@@ -21,11 +21,11 @@ guided_study: false
 - The strength of a gravitational field caused by a point mass can be derived using Newton’s Law of Universal Gravitation
 
   - For calculations involving gravitational forces, a spherical mass can be treated as a *point mass* at the centre of the sphere
-- Newton’s Law of Universal Gravitation states that the magnitude of the attractive gravitational force *F* between two masses *M* and *m *with separation *r* is equal to:
+- Newton’s Law of Universal Gravitation states that the magnitude of the attractive gravitational force *F* between two masses *M* and *m* with separation *r* is equal to:
 
 ![Deriving Gravitational Field Strength (g) equation 1](../../../assets/080004a4627b-7-deriving-gravitational-field-strength-g-equati.png)
 
-- The gravitational field strength at a point is defined as the force *F *per unit mass *m*
+- The gravitational field strength at a point is defined as the force *F* per unit mass *m*
 
 ![Deriving Gravitational Field Strength (g) equation 2](../../../assets/cf7815cc0ffa-7-deriving-gravitational-field-strength-g-equati.png)
 
@@ -33,13 +33,13 @@ guided_study: false
 
 ![Deriving Gravitational Field Strength (g) equation 3](../../../assets/339939c88ba3-7-deriving-gravitational-field-strength-g-equati.png)
 
-- Cancelling mass* m*, the equation becomes:
+- Cancelling mass *m*, the equation becomes:
 
 ![Deriving Gravitational Field Strength (g) equation 4](../../../assets/eb2488814462-7-deriving-gravitational-field-strength-g-equati.png)
 
 - Where:
 
-  - *g* = gravitational field strength due to a point mass *M *(N kg<sup>–1</sup>)
+  - *g* = gravitational field strength due to a point mass *M* (N kg<sup>–1</sup>)
   - *G* = *Newton’s Gravitational Constant* (N m<sup>2</sup> kg<sup>–2</sup>)
   - *M* = mass of the body producing the gravitational field (kg)
   - *r* = distance from the centre of mass *M*  to a chosen point in the field (m)
@@ -65,7 +65,7 @@ guided_study: false
 > 
 > **Step 2: Write the equation for gravitational field strength**
 > 
-> - The gravitational field strength *g *at some distance *r* due to a mass *M* is given by the equation:
+> - The gravitational field strength *g* at some distance *r* due to a mass *M* is given by the equation:
 > 
 > *g* = $\frac{GM}{r^{2}}$
 > 

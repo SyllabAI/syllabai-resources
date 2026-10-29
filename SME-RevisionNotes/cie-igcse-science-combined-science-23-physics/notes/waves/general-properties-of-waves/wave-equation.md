@@ -23,9 +23,9 @@ $v=f\timesλ$
 
 - Where:
 
-  - *v *= wave speed, measured in metres per second (m/s)
-  - *f *= wave frequency, measured in hertz (Hz)
-  - *λ *= wavelength, measured in metres (m)
+  - *v* = wave speed, measured in metres per second (m/s)
+  - *f* = wave frequency, measured in hertz (Hz)
+  - *λ* = wavelength, measured in metres (m)
 
 - Wave speed is defined as: **The distance travelled by a wave each second**
 - Wave speed is the speed at which energy is transferred through a medium
@@ -81,7 +81,7 @@ $v=f\timesλ$
 > 
 > $λ=\frac{0.15}{0.5}$
 > 
-> Wavelength,* λ* = **0.30 m**
+> Wavelength,*λ* = **0.30 m**
 
 > **Exam Hint**
 > When stating equations make sure you use the right letters. For example, use λ for wavelength, not L or W

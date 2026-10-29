@@ -32,7 +32,7 @@ The following guide to *A Game of Polo with a Headless Goat* by Emma Levine cont
 
 ## A Game of Polo with a Headless Goat overview
 
-*A Game of Polo with a Headless Goat *is an excerpt taken from a book by Emma Levine, a British journalist, who wrote about her experiences of watching unusual games and sports played in Asia, but not anywhere else in the world. In this passage, she tells of her experience trying to photograph a donkey race in Karachi, Pakistan.
+*A Game of Polo with a Headless Goat* is an excerpt taken from a book by Emma Levine, a British journalist, who wrote about her experiences of watching unusual games and sports played in Asia, but not anywhere else in the world. In this passage, she tells of her experience trying to photograph a donkey race in Karachi, Pakistan.
 
 ## A Game of Polo with a Headless Goat summary
 

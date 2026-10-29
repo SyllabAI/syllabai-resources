@@ -47,7 +47,7 @@ guided_study: false
 > 
 > The service can carry out multiple transactions simultaneously / no queuing **[1]**
 > 
-> > *One mark max for any general banking service: *
+> > *One mark max for any general banking service:*
 > 
 > Check balance **[1]**
 > 

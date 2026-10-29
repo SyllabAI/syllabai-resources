@@ -184,7 +184,7 @@ guided_study: true
 > **Worked Example**
 > Aluminium reacts with copper(II) oxide to produce aluminium oxide and copper. Balance the symbol equation for the reaction taking place.
 > 
-> *_Al (s) +  _CuO (s)  ⟶  _Al*<sub>*2*</sub>*O*<sub>*3*</sub>* (s) +  *_Cu (s)
+> *_Al (s) +  _CuO (s)  ⟶  _Al*<sub>*2*</sub>*O*<sub>*3*</sub>*(s) +* _Cu (s)
 > 
 > **Answer:**
 > 
@@ -196,13 +196,13 @@ guided_study: true
 > 
 >   - There are 2 aluminium atoms on the product side, so 2 aluminium atoms are needed on the reactant side
 >   
->     - **2**Al  +  *CuO  ⟶  *Al<sub>2</sub>O<sub>3</sub>  +  **_**Cu
+>     - **2**Al  +  *CuO  ⟶* Al<sub>2</sub>O<sub>3</sub>  +  **_**Cu
 > - Step 2 - balancing oxygen atoms
 > 
 >   - There are 3 oxygen atoms on the product side, so 3 oxygen atoms are needed on the reactant side
 >   - This means that 3 CuO will be needed as we cannot change the chemical formula
 >   
->     - **2**Al  +  **3**CuO  ⟶  *Al*<sub>*2*</sub>*O*<sub>*3*</sub>*  +  *Cu
+>     - **2**Al  +  **3**CuO  ⟶  *Al*<sub>*2*</sub>*O*<sub>*3*</sub>*+* Cu
 > - Step 3 - balancing copper atoms
 > 
 >   - There are 3 copper atoms on the reactant side, so 3 copper atoms are needed on the product side

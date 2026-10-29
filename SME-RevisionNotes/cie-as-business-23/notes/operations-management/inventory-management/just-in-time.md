@@ -24,7 +24,7 @@ guided_study: false
 
   - **Close**,** long-term** relationships with these suppliers** **need to be developed
   
-    - Many businesses using JIT inventory management systems aim to source raw materials and *components *from local or regional suppliers
+    - Many businesses using JIT inventory management systems aim to source raw materials and *components* from local or regional suppliers
     - They must be **flexible** and **reliable**
     - They may be required to** hold inventory on behalf **of a JIT-operating customer
     - They are often in** close proximity **to their key JIT-operating customer
@@ -75,10 +75,10 @@ guided_study: false
   - Since stock is only ordered when needed, businesses spend less on storage facilities and insurance
 - **Less money tied up in stock**
 
-  - Firms have more *working capital *available for other uses, like marketing or staff training
+  - Firms have more *working capital* available for other uses, like marketing or staff training
 - **Fewer waste costs**
 
-  - JIT reduces the risk of *obsolete *or damaged stock, especially for *perishable *or seasonal items
+  - JIT reduces the risk of *obsolete* or damaged stock, especially for *perishable* or seasonal items
 
 ### Impact on quality
 

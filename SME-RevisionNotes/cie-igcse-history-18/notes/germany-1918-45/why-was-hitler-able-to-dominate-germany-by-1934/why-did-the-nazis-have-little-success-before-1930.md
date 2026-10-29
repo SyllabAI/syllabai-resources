@@ -86,11 +86,11 @@ Although the Nazi Party lost support, **Hitler used 1924-1928 as a period to res
 
 ## The Lean Years of the Nazi Party, 1924-1928
 
-- In Landsberg Prison, Hitler wrote *Mein Kampf *(‘My Struggle’)
+- In Landsberg Prison, Hitler wrote *Mein Kampf* (‘My Struggle’)
 
   - He considered what the **core values of the Nazi Party **should be
   - He dictated the piece for Rudolph Hess, who later became a deputy in the party, to write
-  - He published *Mein Kampf  *in** July 1925**
+  - He published *Mein Kampf* in** July 1925**
 
 #### Key Beliefs in Mein Kampf
 
@@ -104,7 +104,7 @@ Although the Nazi Party lost support, **Hitler used 1924-1928 as a period to res
 | Redistributing the wealth from industry and land | Hitler believed that** landowners and factory owners should have their profits taken from them**. The German workers would benefit from this money | Socialism |
 
 > **Exam Hint**
-> When comparing *Mein Kampf* to the [Twenty-Five Point Programme](https://www.savemyexams.com/igcse/history/cie/18/revision-notes/germany-1918-45/why-was-hitler-able-to-dominate-germany-by-1934/what-did-the-nazi-party-stand-for-in-the-1920s/), it is clear that Hitler had moved the party firmly towards ***nationalism***. While there were still elements of *socialism*, this was more in name rather than in policy. This move to the extreme right-wing created a clearer political identity. It also shrunk its potential support base as *Mein Kampf *made NSDAP’s policies more extreme.
+> When comparing *Mein Kampf* to the [Twenty-Five Point Programme](https://www.savemyexams.com/igcse/history/cie/18/revision-notes/germany-1918-45/why-was-hitler-able-to-dominate-germany-by-1934/what-did-the-nazi-party-stand-for-in-the-1920s/), it is clear that Hitler had moved the party firmly towards ***nationalism***. While there were still elements of *socialism*, this was more in name rather than in policy. This move to the extreme right-wing created a clearer political identity. It also shrunk its potential support base as *Mein Kampf* made NSDAP’s policies more extreme.
 
 ## Reorganising the Nazi Party, 1924-1928
 

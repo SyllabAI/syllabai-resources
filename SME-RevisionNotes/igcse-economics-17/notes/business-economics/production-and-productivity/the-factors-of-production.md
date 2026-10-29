@@ -25,7 +25,7 @@ guided_study: false
 |---|---|
 | - Capital includes any **man-made** **resource ** used to produce goods/services<br>- Examples include tools, buildings, machines and computer equipment | - Enterprise involves **taking risks** when setting up or running a business<br>- An entrepreneur decides on the combination of the **factors of production** necessary to produce goods/services with the aim of generating *profit* |
 | **Land** | **Labour** |
-| - This includes** natural resources **and **physical locations **that are used for production<br>- Some regions have **vast supplies **of a particular natural resource and are able to* specialise* in its production, e.g. oil, wood, fish, iron ore | - This includes **human input** into the production process<br>- Labour involves **mental **or** physical effort**<br><br>  - It can be **skilled or unskilled**<br>  - Its effectiveness is determined by education, training & experience workers have |
+| - This includes** natural resources **and **physical locations **that are used for production<br>- Some regions have **vast supplies **of a particular natural resource and are able to *specialise* in its production, e.g. oil, wood, fish, iron ore | - This includes **human input** into the production process<br>- Labour involves **mental **or** physical effort**<br><br>  - It can be **skilled or unskilled**<br>  - Its effectiveness is determined by education, training & experience workers have |
 
 - The production of any good or service requires the use of **a combination **of all four factors of production
 

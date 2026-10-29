@@ -26,7 +26,7 @@ guided_study: true
 - You need to know the ***n***<sup>**th**</sup>** term formula** for a geometric sequence $u_{n}=ar^{n-1}$
 
   - a is the first term
-  - *r *is the common ratio
+  - *r* is the common ratio
 
 > **Exam Hint**
 > If you know two terms in a geometric sequence you can find ***a*** and ***r*** using simultaneous equations.

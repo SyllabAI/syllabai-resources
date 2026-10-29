@@ -99,7 +99,7 @@ guided_study: false
 > 
 > - **Step 1: **Write the unbalanced chemical equation:
 > 
->   - *C + *ZnO → *CO*<sub>*2*</sub>* + *Zn
+>   - *C +* ZnO → *CO*<sub>*2*</sub>*+* Zn
 > - **Step 2: **Write down the masses of each substance:
 > 
 >   - C = 12

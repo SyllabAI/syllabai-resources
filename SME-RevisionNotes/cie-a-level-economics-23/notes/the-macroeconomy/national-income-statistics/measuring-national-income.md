@@ -45,7 +45,7 @@ guided_study: false
 - **GDP is the total market value of all final goods and services produced within a country's geographical borders in a given time period, regardless of the nationality of the producer**
 
   - A Japanese car factory operating in the UK contributes to UK GDP
-  - Profits *repatriated *abroad by that factory are included in UK GDP but not UK GNI
+  - Profits *repatriated* abroad by that factory are included in UK GDP but not UK GNI
 
 ### Gross national income (GNI)
 
@@ -77,7 +77,7 @@ NNI = GNI − depreciation (capital consumption)
 > **Worked Example**
 > **Which source of income is not included in measuring real GDP?**
 > 
-> A Pension paid to *retired *people
+> A Pension paid to *retired* people
 > 
 > B Profits made by firms
 > 
@@ -96,7 +96,7 @@ NNI = GNI − depreciation (capital consumption)
 > - **Wages (D)** — earned by workers in return for labour supplied ✓
 > - **Pensions (A)** — a **transfer payment**: no good or service is produced in return. The recipient is not contributing to current output - the pension is simply a transfer of income from taxpayers to retirees
 > 
-> *Transfer payments *are excluded from GDP because including them would count the same income twice — once when it was earned, and again when it is transferred.
+> *Transfer payments* are excluded from GDP because including them would count the same income twice — once when it was earned, and again when it is transferred.
 
 ## Adjustments
 
@@ -138,7 +138,7 @@ GDP at basic prices = GDP at market prices − indirect taxes + subsidies
 
 NNI = GNI − capital consumption (depreciation)
 
-- Net measures are considered more meaningful for assessing *sustainable *living standards
+- Net measures are considered more meaningful for assessing *sustainable* living standards
 
   - A country with high gross output but very high depreciation has less true income available than the gross figure suggests
 

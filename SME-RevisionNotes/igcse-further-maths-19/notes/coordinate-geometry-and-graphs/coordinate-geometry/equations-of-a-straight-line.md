@@ -20,7 +20,7 @@ guided_study: false
 ### How do I find the gradient of a straight line?
 
 - Find two points that the line passes through with coordinates (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>) and (*x*<sub>*2*</sub>*, y*<sub>*2*</sub>)
-- The gradient *m * between these two points is calculated by
+- The gradient *m* between these two points is calculated by
 
 $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
@@ -35,11 +35,11 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 - $y=mx+c$
 
   - This is sometimes called **gradient-intercept form**
-  - It clearly shows the gradient *m *and the *y*-intercept (0, *c*)
+  - It clearly shows the gradient *m* and the *y*-intercept (0, *c*)
 - $y-y_{1}=m(x-x_{1})$
 
   - This is sometimes called the **point-gradient form**
-  - It clearly shows the gradient *m *and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)
+  - It clearly shows the gradient *m* and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)
 - $ax+by=c$
 
   - This is sometimes called the **general form**
@@ -126,9 +126,9 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > $\begin{gathered} 2 x - 5 y & = 3 \\ 5 y & = 2 x - 3 \\ y = \frac{2}{5} x - \frac{3}{5} \end{gathered}$
 > 
-> > *So the gradient of line *$l$* is *$\frac{2}{5}$
+> > *So the gradient of line* $l$ *is* $\frac{2}{5}$
 > 
-> > *Insert that gradient and the coordinates of the point into  *$y - y_{1} = m ( x - x_{1} )$
+> > *Insert that gradient and the coordinates of the point into* $y - y_{1} = m ( x - x_{1} )$
 > 
 > $\begin{gathered} y - ( - 1 ) & = \frac{2}{5} ( x - 4 ) \\ y + 1 & = \frac{2}{5} x - \frac{8}{5} \end{gathered}$
 > 
@@ -161,7 +161,7 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
   - If their **product is** $-1$ then the lines are perpendicular
 - Be careful with **horizontal** and **vertical** lines
 
-  - $x=p$ and $y=q$ are perpendicular where *p *and *q *are constants
+  - $x=p$ and $y=q$ are perpendicular where *p* and *q* are constants
 
 ![Parallel & Perpendicular Gradients Notes Diagram 3](../../../assets/94028e9e876f-3-1-2-parallel-perpendicular-gradients-notes-dia.png)
 
@@ -172,17 +172,17 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > Determine whether $l_{1}$ and $l_{2}$ are perpendicular. Give a reason for your answer.
 > 
-> > *Rearrange the *$l_{1}$* equation into *$y=mx+c$* form*
+> > *Rearrange the* $l_{1}$ *equation into* $y=mx+c$ *form*
 > 
 > $\begin{gathered} 3 x - 5 y & = 7 \\ 5 y & = 3 x - 7 \\ y = \frac{3}{5} x - \frac{7}{5} \end{gathered}$
 > 
-> > *So the gradient of *$l_{1}$* is *$\frac{3}{5}$
+> > *So the gradient of* $l_{1}$ *is* $\frac{3}{5}$
 > 
-> > *The gradient of *$l_{2}$* is *$-\frac{5}{3}$*  (don't be fooled by the order of the terms in the equation!)*
+> > *The gradient of* $l_{2}$ *is* $-\frac{5}{3}$ *(don't be fooled by the order of the terms in the equation!)*
 > *Find the product of the two gradients*
 > 
 > $\frac{3}{5} \times ( - \frac{5}{3} ) = - \frac{15}{15} = - 1$
 > 
-> > *The product of the gradients is equal to *$-1$*, so the lines are perpendicular*
+> > *The product of the gradients is equal to* $-1$*, so the lines are perpendicular*
 > 
 > **Final answer:** **The product of the gradients of the two lines is equal to **$-1$**, so **$l_{1}$** and **$l_{2}$** are perpendicular**

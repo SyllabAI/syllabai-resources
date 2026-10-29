@@ -90,7 +90,7 @@ This page covers section 3.1.1, 3.1.2 ,3.1.3  and 3.1.4 of the [CIE IGCSE specif
 
 ## The Antarctic ecosystem
 
-- Antarctica has both *marine *and *terrestrial *ecosystems
+- Antarctica has both *marine* and *terrestrial* ecosystems
 - The abiotic features of the Antarctic affect the type and number of biotic (flora and fauna) organisms that can survive on the continent
 
 ### Key abiotic factors of the Antarctic ecosystem
@@ -157,7 +157,7 @@ This page covers section 3.1.1, 3.1.2 ,3.1.3  and 3.1.4 of the [CIE IGCSE specif
 
 ![An adult king penguin and a brown fluffy chick stand on rocky ground with blurred penguins in the background.](../../../assets/9fc9288c3092-29956-penguins.jpg)
 
-*King penguin and its chick         *
+*King penguin and its chick*
 
 <sup>Martin Wettstein on Unsplash</sup>
 
@@ -172,7 +172,7 @@ This page covers section 3.1.1, 3.1.2 ,3.1.3  and 3.1.4 of the [CIE IGCSE specif
 
 ![Two blue whales spouting in calm Antarctic waters, with snowy mountains and icebergs in the distance under a cloudy sky.](../../../assets/922f2c82a195-7286-blue-whatle.jpg)
 
-*The Antarctic waters are rich in nutrients to support Earth's largest mammal  *
+*The Antarctic waters are rich in nutrients to support Earth's largest mammal*
 
 <sup>Torsten Dederichs on Unsplash</sup>
 

@@ -49,7 +49,7 @@ Describe a species as a group of organisms that can reproduce to produce fertile
 > 
 > You do need to know for a given name which part is the genus and which part is the species because you could be given an unfamiliar binomial name and asked for either of these.
 > 
-> For examples, the binomial name for the house mouse is *Mus musculus. *If you were asked to give the genus name for the house mouse, it would be *Mus. *If you were asked for the species name, it's *musculus. *
+> For examples, the binomial name for the house mouse is *Mus musculus.* If you were asked to give the genus name for the house mouse, it would be *Mus.* If you were asked for the species name, it's *musculus.*
 
 ## Dichotomous keys
 

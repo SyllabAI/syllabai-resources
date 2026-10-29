@@ -35,8 +35,8 @@ $E=P\timest$
 - Where:
 
   - *E* = energy transferred in joules (J)
-  - *P = *power in watts (W)
-  - *t *= time in seconds (s)
+  - *P =* power in watts (W)
+  - *t* = time in seconds (s)
 
 - ***P = IV ***as explained in [Electrical power & fuses](https://www.savemyexams.com/igcse/physics/edexcel/19/revision-notes/2-electricity/2-3-electrical-power-and-mains-electricity/2-3-1-electrical-power-and-fuses/)
 

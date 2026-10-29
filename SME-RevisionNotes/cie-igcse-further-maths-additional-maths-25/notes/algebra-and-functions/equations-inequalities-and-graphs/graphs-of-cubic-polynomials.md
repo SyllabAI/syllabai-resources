@@ -73,23 +73,23 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 > **Worked Example**
 > Sketch the graph of $y = ( 2 x - 1 ) ( x - 3 )^{2}$.
 > 
-> > *STEP 1 - *$y$*-axis intercept*
+> > *STEP 1 -* $y$*-axis intercept*
 > 
 > $y = ( - 1 ) ( - 3 )^{2} = - 9$
 > 
-> > *STEP 2 - *$x$*-axis intercepts*
+> > *STEP 2 -* $x$*-axis intercepts*
 > 
 > $2x-1=0,x=\frac{1}{2}$
 > 
-> $x-3=0,x=3$* (repeated)*
+> $x-3=0,x=3$ *(repeated)*
 > 
 > > *STEP 3 - shape, 'start'/'end'*
 > 
-> > $a > 0 ( a = 2 )$* so it is a positive cubic *$x=3$* is a repeated root so the graph will touch the *$x$*-axis at this point*
+> > $a > 0 ( a = 2 )$ *so it is a positive cubic* $x=3$ *is a repeated root so the graph will touch the* $x$*-axis at this point*
 > 
 > > *STEP 4 - turning points*
 > 
-> > *One turning point (minimum) will need to be where the curve touches the *$x$*-axis The other (maximum) will need to be between*$x=\frac{1}{2}$* and *$x=3$
+> > *One turning point (minimum) will need to be where the curve touches the* $x$*-axis The other (maximum) will need to be between*$x=\frac{1}{2}$ *and* $x=3$
 > 
 > > *STEP 5 - smooth curve with labelled intercepts*
 > 
@@ -169,19 +169,19 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 > 
 > Deduce an expression for $\mathrm{f} ( x )$ leaving your answer in factorised form, with each factor having integer coefficients.
 > 
-> $\mathrm{f} ( x )$* is a positive cubic polynomial so the graph should 'start' in the third quadrant and 'end' in the first.* *A quick sketch (without labels) can help.*
+> $\mathrm{f} ( x )$ *is a positive cubic polynomial so the graph should 'start' in the third quadrant and 'end' in the first.* *A quick sketch (without labels) can help.*
 > 
 > ![cie-adma25-2023-cubic-mod-2-we-solution](assets/d2542b97a081-cie-adma25-2023-cubic-mod-2-we-solution.png)
 > 
-> > *The *$x$*-axis intercepts indicate the roots.*
+> > *The* $x$*-axis intercepts indicate the roots.*
 > 
 > $( x + 4 ) ( x + 1 \frac{1}{2} ) ( x - 3 )$
 > 
-> > *The expression for *$\mathrm{f} ( x )$* is of the form *$a ( x + 4 ) ( x + 1 \frac{1}{2} ) ( x - 3 )$*. Use the *$y$*-axis intercept to deduce the value of *$a$*. From the sketch of *$y = \mathrm{f} ( x )$* the *$y$*-axis intercept is -12 (not 12).*
+> > *The expression for* $\mathrm{f} ( x )$ *is of the form* $a ( x + 4 ) ( x + 1 \frac{1}{2} ) ( x - 3 )$*. Use the* $y$*-axis intercept to deduce the value of* $a$*. From the sketch of* $y = \mathrm{f} ( x )$ *the* $y$*-axis intercept is -12 (not 12).*
 > 
 > $\begin{gathered} a \times 4 \times 1 \frac{1}{2} \times - 3 & = - 12 \\ - 6 a & = - 12 \\ a = 2 \end{gathered}$
 > 
-> > *The final answer requires each factor to have integer coefficients so multiply 2 into *$( x + 1 \frac{1}{2} )$* and write down *$\mathrm{f} ( x )$*.*
+> > *The final answer requires each factor to have integer coefficients so multiply 2 into* $( x + 1 \frac{1}{2} )$ *and write down* $\mathrm{f} ( x )$*.*
 > 
 > $f(x)=(x+4)(2x+1)(x-3)$
 
@@ -228,7 +228,7 @@ Write down the **solutions** to the inequality
 > **Worked Example**
 > a) Sketch the graph of $y = \mathrm{f} ( x )$ where $\mathrm{f} ( x ) = ( 3 x - 1 ) ( x - 3 )^{2}$.
 > 
-> > *This is a **positive** cubic polynomial with roots *$x=\frac{1}{3}$* and *$x=3$
+> > *This is a **positive** cubic polynomial with roots *$x=\frac{1}{3}$ *and* $x=3$
 > 
 > > $x=3$* is a **repeated** root so the graph will **touch** the *$x$*-axis at this point*
 > 
@@ -244,6 +244,6 @@ Write down the **solutions** to the inequality
 > 
 > ![dQsDLIdG_cie-adma25-2023-cubic-ineq-2-we-solution-diff-colours](assets/423548b1fcdd-dqsdlidg-cie-adma25-2023-cubic-ineq-2-we-solutio.png)
 > 
-> > *STEP 4 - Write the solution mathematically. Remember that in this case it is a strict inequality, so it cannot be equal to 3 or *$\frac{1}{3}$
+> > *STEP 4 - Write the solution mathematically. Remember that in this case it is a strict inequality, so it cannot be equal to 3 or* $\frac{1}{3}$
 > 
 > $x>\frac{1}{3},x\neq3$

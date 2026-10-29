@@ -129,7 +129,7 @@ guided_study: false
 ## Evaluating break-even charts
 
 - A key advantage of using break-even charts is that they allow managers to model the impact of different pricing strategies before implementing them
-- However, assuming that costs are linear straight-line costs or ignoring *bulk buying discounts* and *overtime *costs in calculations limit their usefulness
+- However, assuming that costs are linear straight-line costs or ignoring *bulk buying discounts* and *overtime* costs in calculations limit their usefulness
 
 #### Evaluating break-even charts
 

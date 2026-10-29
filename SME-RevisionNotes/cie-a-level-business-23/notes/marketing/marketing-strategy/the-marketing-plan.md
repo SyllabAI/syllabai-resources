@@ -69,10 +69,10 @@ guided_study: false
     - What is being sold, including decisions related to quality, design and packaging
   - **Price**
   
-    - What pricing strategy will be used, such as *competitive*, *penetration *or *dynamic* methods
+    - What pricing strategy will be used, such as *competitive*, *penetration* or *dynamic* methods
   - **Place**
   
-    - Where and how the product will be distributed, such as online or through *retail *outlets
+    - Where and how the product will be distributed, such as online or through *retail* outlets
   - **Promotion**
   
     - How the product will be promoted through, for example, social media, the use of discounts or advertising

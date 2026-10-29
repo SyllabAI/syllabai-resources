@@ -102,10 +102,10 @@ with or without parameters"
 **ENDFUNCTION**
 
 > **Exam Hint**
-> *In pseudocode, never write *`CALL calculate_area()`* for a function.*
+> *In pseudocode, never write* `CALL calculate_area()` *for a function.*
 > *Functions are ****called in expressions**** like:*
 > `OUTPUT calculate_area(5,3)`
-> *Use *`CALL`* only with ****procedures**** that do not return a value.*
+> *Use* `CALL`* only with ****procedures**** that do not return a value.*
 
 | **Creating and using a function** |
 |---|
@@ -163,6 +163,6 @@ with or without parameters"
 > **Exam Hint**
 > *in pseudocode, you can get marks just for using the correct structure:*
 > 
-> - *Starts with *`FUNCTION`* or *`PROCEDURE`* ***[1 mark]**
-> - *Correct use of parameters and *`RETURN`* (functions) or *`OUTPUT`* (procedures) ***[1 mark]**
+> - *Starts with* `FUNCTION` *or* `PROCEDURE`* ***[1 mark]**
+> - *Correct use of parameters and* `RETURN` *(functions) or* `OUTPUT`* (procedures) ***[1 mark]**
 > - *Called correctly from main program ***[1 mark]**

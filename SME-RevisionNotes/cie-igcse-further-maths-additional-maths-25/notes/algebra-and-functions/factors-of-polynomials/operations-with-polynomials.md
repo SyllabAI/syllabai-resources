@@ -38,7 +38,7 @@ guided_study: false
 
 ![expanding brackets example](../../../assets/91c58b5ca0c6-2-5-1-expanding-brackets-illustration.png)
 
-- If you are trying to expand a two term bracket to a higher power (i.e. `open parentheses a plus b close parentheses to the power of n`) then use the **binomial expansion**
+- If you are trying to expand a two term bracket to a higher power (i.e. `(a+b)^n`) then use the **binomial expansion**
 
 > **Worked Example**
 > ![Expanding brackets worked example 1](assets/e6db13c3dd53-2-5-1-expanding-brackets-multiple.png)

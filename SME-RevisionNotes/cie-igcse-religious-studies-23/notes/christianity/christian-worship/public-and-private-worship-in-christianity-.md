@@ -27,7 +27,7 @@ guided_study: false
 - Roman Catholic, Protestant and Orthodox Christians see the service as a** sacrament**
 
   - Sacraments are important ceremonies in which a **sacred** or **spiritual power **(**Grace**) is believed to be transmitted from God to the worshipper
-- It remembers the last meal Jesus shared with his disciples and remembers his death, the sacrifice and the miracle of his* resurrection*
+- It remembers the last meal Jesus shared with his disciples and remembers his death, the sacrifice and the miracle of his *resurrection*
 - During Holy Communion, Christians give thanks to God for sending Jesus to save people from sin and enable them to experience** God’s love** for all eternity
 - During the service, Christians remember the biblical account of** The Last Supper, **with **bread **and **wine** representing the body and blood of Christ:
 
@@ -69,7 +69,7 @@ guided_study: false
 
   - There is no improvisation at all
   - Believers across the world are familiar with the order of service
-- Liturgical worship also includes the formal ritual based around the *Sacraments*, such as *Baptism* and* Holy Communion*
+- Liturgical worship also includes the formal ritual based around the *Sacraments*, such as *Baptism* and *Holy Communion*
 - It is important to understand the similarities and differences between the Christian denominations
 
 #### Similarities in liturgical worship
@@ -95,7 +95,7 @@ guided_study: false
 
   - Uses the *Roman Missal*
   - Always includes the Eucharist (called **Mass**)
-  - Includes the* liturgy of the Word and the Eucharist*
+  - Includes the *liturgy of the Word and the Eucharist*
   - Involves the confession of sin and a request for God’s mercy
   - Sharing of the peace
   - The Lord’s Prayer
@@ -103,7 +103,7 @@ guided_study: false
 
   - Based on the** liturgy of St John Chrysostom**
   - Always involves the Eucharist
-  - Includes the* Litany*
+  - Includes the *Litany*
   - Chants and candles are used as a visible sign to God of prayer
   - Incense is burned
 - Worshipping in public helps some Christians feel** part of a larger community**

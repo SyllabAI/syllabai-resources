@@ -85,7 +85,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> *Add up all the numbers (you can add the rows if it helps) *
+> *Add up all the numbers (you can add the rows if it helps)*
 > 
 > *12 + 10 + 15 + 14 + 17 = 68*
 > *11 + 12 + 13 + 9 + 21 = 66*

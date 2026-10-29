@@ -36,11 +36,11 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 - $y=mx+c$
 
   - This is the **gradient-intercept form**
-  - It clearly shows the gradient *m *and the *y*-intercept (0, *c*)
+  - It clearly shows the gradient *m* and the *y*-intercept (0, *c*)
 - $y - y_{1} = m ( x - x_{1} )$
 - This is the **point-gradient form**
 
-  - It clearly shows the gradient *m *and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)
+  - It clearly shows the gradient *m* and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)
 - $ax+by+d=0$
 
   - This is the **general form**
@@ -71,7 +71,7 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > **Worked Example**
 > (a) Find the equation of the straight line with gradient 3 that passes through (5, 4).
 > 
-> > *We know that the gradient is 3 so the line takes the form *
+> > *We know that the gradient is 3 so the line takes the form*
 > 
 > $y=3x+c$
 > 
@@ -95,7 +95,7 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > $\begin{array}{rcl} m = \frac{6 - 1}{- 2 - 8} \\ = \frac{5}{- 10} \\ = - 1 \frac{1}{2} \end{array}$
 > 
-> > *We know that the line takes the form *
+> > *We know that the line takes the form*
 > 
 > $\begin{array}{rcl} y = - 1 \frac{1}{2} x + c \end{array}$
 > 
@@ -131,7 +131,7 @@ $( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 - It is the average of both the **x** and **y** coordinates
 
 > **Worked Example**
-> The coordinates of *A *are (−4, 3) and the coordinates of *B *are (8, −12).
+> The coordinates of *A* are (−4, 3) and the coordinates of *B* are (8, −12).
 > 
 > Find *M*, the midpoint of *AB*.
 > 
@@ -176,7 +176,7 @@ $d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
 > 
 > Calculate the distance of the line segment *AB*.
 > 
-> > *Using the formula for the distance between two points, *$d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$* *
+> > *Using the formula for the distance between two points,* $d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$* *
 > 
 > > *Substituting in the two given coordinates:*
 > 

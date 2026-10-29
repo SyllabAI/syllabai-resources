@@ -82,7 +82,7 @@ guided_study: false
 ### 7. Premium pricing
 
 - The business sets a **high price** for its product, which gives customers an impression of **high quality** and luxury
-- This is effective for **designer brands** such as *Chanel *and *Ritz Carlton Hotels*
+- This is effective for **designer brands** such as *Chanel* and *Ritz Carlton Hotels*
 - Premium pricing should not be confused with **price skimming**, where a high price is set for a short period at a product's launch
 
 | **Advantages** | **Disadvantages** |

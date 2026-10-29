@@ -34,7 +34,7 @@ guided_study: false
 | **Fill skill gaps** | - If a business knows it will need people with digital or technical skills, workforce planning ensures they are trained or hired in time |
 | **Handle retirements or resignations** | - By predicting when people might leave, HRM can recruit or promote others without causing disruption |
 | **Meet changes in demand** | - If a business expects growth, such as launching in new countries, it plans for more staff<br>- If demand drops, it plans to reduce the workforce |
-| **Control labour costs** | - Avoids overstaffing, which is expensive, or understaffing, which reduces *productivity *and service quality |
+| **Control labour costs** | - Avoids overstaffing, which is expensive, or understaffing, which reduces *productivity* and service quality |
 | **Support strategic goals** | - If a business wants to increase its customer service quality, it may need to hire more experienced employees or provide extra training |
 | **Adapt to technological changes** | - New machines or systems may require different skills, so new staff or training might be needed |
 
@@ -84,7 +84,7 @@ $\mathrm{Labour} \mathrm{turnover}=\frac{\mathrm{Number} \mathrm{of} \mathrm{sta
 
 | **Problems** | **Opportunities** |
 |---|---|
-| - Increased recruitment and selection costs (e.g. advertising, interviews)<br>- Higher *induction *and training costs for new staff<br>- Lower *productivity *while new employees settle in<br>- Disruption to teamwork and relationships<br>- Loss of experienced employees and valuable knowledge<br>- Possible drop in *morale *for remaining staff | - New employees may bring fresh ideas and *innovation*<br>- External recruits can introduce different skills and perspectives<br>- Opportunity to hire staff with better qualifications or attitudes<br>- Removes underperforming or demotivated staff<br>- Opens up internal *promotion *opportunities for existing staff<br>- Can help reshape *company culture* or restructure teams more easily |
+| - Increased recruitment and selection costs (e.g. advertising, interviews)<br>- Higher *induction* and training costs for new staff<br>- Lower *productivity* while new employees settle in<br>- Disruption to teamwork and relationships<br>- Loss of experienced employees and valuable knowledge<br>- Possible drop in *morale* for remaining staff | - New employees may bring fresh ideas and *innovation*<br>- External recruits can introduce different skills and perspectives<br>- Opportunity to hire staff with better qualifications or attitudes<br>- Removes underperforming or demotivated staff<br>- Opens up internal *promotion* opportunities for existing staff<br>- Can help reshape *company culture* or restructure teams more easily |
 
 > **Case Study**
 > **Fresh Bites** is a fast-growing chain of cafés based in urban areas across several countries. The company focuses on offering healthy snacks and drinks with fast service
@@ -107,7 +107,7 @@ $\mathrm{Labour} \mathrm{turnover}=\frac{\mathrm{Number} \mathrm{of} \mathrm{sta
 > 
 > - **Fresh talent**: Some of the new hires have brought creative ideas for improving the menu and customer experience.
 > - **Performance shake-up**: HR has started to review the training and reward systems to make the company more attractive and reduce poor performers.
-> - **Cultural reset**: With many new staff joining, FreshBites is working on creating a more positive and *inclusive *workplace culture.
+> - **Cultural reset**: With many new staff joining, FreshBites is working on creating a more positive and *inclusive* workplace culture.
 
 ### Low labour turnover
 

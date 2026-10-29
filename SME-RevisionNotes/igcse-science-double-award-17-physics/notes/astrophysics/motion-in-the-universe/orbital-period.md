@@ -37,7 +37,7 @@ $v=\frac{2πr}{T}$
   - *r* = average radius of the orbit in metres (m)
   - *T* = orbital period in seconds (s)
 - This orbital period (or time period) is defined as: **The time taken for an object to complete one orbit**
-- The orbital radius *r *is always taken from the **centre** of the object being orbited to the object orbiting
+- The orbital radius *r* is always taken from the **centre** of the object being orbited to the object orbiting
 
 ![Orbital Period, downloadable IGCSE & GCSE Physics revision notes](../../../assets/efdfdd8c8427-8-1-4-orbital-period.png)
 
@@ -56,7 +56,7 @@ $v=\frac{2πr}{T}$
 > 
 > - Radius of the Earth = 6400 km
 > - Height of the HST above the Earth's surface = 560 km
-> - Time period, *T *= 96 minutes
+> - Time period, *T* = 96 minutes
 > 
 > **Step 2: Write the relevant equation**
 > 

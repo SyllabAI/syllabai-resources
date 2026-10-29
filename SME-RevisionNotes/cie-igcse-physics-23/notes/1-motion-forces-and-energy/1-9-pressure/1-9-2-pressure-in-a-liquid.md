@@ -67,7 +67,7 @@ $Δp=ρgΔh$
   - Δ*p* = change in pressure, measured in pascals (Pa)
   
     - Where 1 Pa = 1 N/m<sup>2</sup>
-  - *ρ *= density of the liquid, measured in kilograms per metre cubed (kg/m<sup>3</sup>)
+  - *ρ* = density of the liquid, measured in kilograms per metre cubed (kg/m<sup>3</sup>)
   - *g* = gravitational field strength, measured in newtons per kilogram (N/kg)
   - Δ*h* = change in height of the column, measured in metres (m)
 
@@ -104,7 +104,7 @@ $Δp=ρgΔh$
 > 
 > $Δh=\frac{20000}{1000\times9.8}$ **[1 mark]**
 > 
-> `straight capital delta h space equals space 2.0408 space straight m space equals space 2.0 space straight m space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+> `straight capital Δ h=2.0408 straight m=2.0 straight m (2 straight s. straight f.)` **[1 mark]**
 
 > **Exam Hint**
 > You need to be able to recall the equation for the change in pressure and make sure you are comfortable rearranging it for the variable required in the question. With pressure in pascals, make sure the change in depth is measured in metres.

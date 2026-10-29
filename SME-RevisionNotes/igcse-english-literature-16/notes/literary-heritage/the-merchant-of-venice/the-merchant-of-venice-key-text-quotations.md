@@ -17,7 +17,7 @@ guided_study: true
 
 ## Key Quotations
 
-Remember the assessment objectives explicitly states that you should be able to “use textual references, *including *quotations”. This means summarising, paraphrasing, referencing single words and referencing plot events are all as valid as quotations in demonstrating that you understand the text. It is important to remember that you can evidence your knowledge of the text in these two equally valid ways: both through references *to *it and direct quotations *from *it.
+Remember the assessment objectives explicitly states that you should be able to “use textual references, *including* quotations”. This means summarising, paraphrasing, referencing single words and referencing plot events are all as valid as quotations in demonstrating that you understand the text. It is important to remember that you can evidence your knowledge of the text in these two equally valid ways: both through references *to* it and direct quotations *from* it.
 
 Overall, you should aim to secure a strong knowledge of the text, rather than rehearsed quotations, as this will enable you to respond to the question. It is the quality of your knowledge of the text which will enable you to select references effectively.
 

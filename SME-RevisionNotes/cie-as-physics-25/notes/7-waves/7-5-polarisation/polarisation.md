@@ -146,7 +146,7 @@ $I = I_{0} \cos ^{2} ( \\theta )$
   - If **vertically polarised **electromagnetic waves with intensity $\frac{I_{0}}{2}$ are incident on an analyser with a **vertical transmission axis**, **all** of the **waves **will be **transmitted** through the analyser
   - The **intensity** between the polariser and the analyser will **not decrease **
 
-- If the analyser is rotated by **90° **with respect to the polariser (*θ *= 90°), the intensity of the light transmitted by the analyser will be **zero**, since *cos*(90°) = 0
+- If the analyser is rotated by **90° **with respect to the polariser (*θ* = 90°), the intensity of the light transmitted by the analyser will be **zero**, since *cos*(90°) = 0
 
   - If **vertically polarised light** is incident on an **analyser** with a **horizontal transmission axis**, none of the light will be transmitted through the analyser
   - In this instance,** all** the waves will be **absorbed**
@@ -171,7 +171,7 @@ $I = I_{0} \cos ^{2} ( \\theta )$
 > 
 > **A.** 0.75 *I*
 > 
-> **B.** 0.38 *I *
+> **B.** 0.38 *I*
 > 
 > **C.** 0.87 *I*
 > 

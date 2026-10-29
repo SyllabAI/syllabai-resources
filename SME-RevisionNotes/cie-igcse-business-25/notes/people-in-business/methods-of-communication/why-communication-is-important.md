@@ -61,7 +61,7 @@ advantages and disadvantages of different methods of communication"
 ### 1. Meetings
 
 - Meetings are discussions that take place either in person or through video calls
-- They are useful when detailed conversations are needed or when team *collaboration *is important
+- They are useful when detailed conversations are needed or when team *collaboration* is important
 
   - For example, a manager might hold a virtual meeting with department heads to plan for a product launch
 
@@ -77,7 +77,7 @@ advantages and disadvantages of different methods of communication"
 - Emails are written messages sent electronically over the internet to one or more people
 - They are useful for sharing documents, giving instructions or contacting *external stakeholders* like suppliers or customers
 
-  - For example, a sales manager may email a customer with an *invoice *and delivery confirmation
+  - For example, a sales manager may email a customer with an *invoice* and delivery confirmation
 
 #### Advantages and disadvantages of email
 
@@ -133,7 +133,7 @@ advantages and disadvantages of different methods of communication"
 - Letters are written documents usually printed and delivered by post or hand
 - They are used for formal communication or when a permanent, signed record is needed
 
-  - For example, a company may send a job offer or *contract *to a new employee by letter
+  - For example, a company may send a job offer or *contract* to a new employee by letter
 
 #### Advantages and disadvantages of letters
 
@@ -158,7 +158,7 @@ advantages and disadvantages of different methods of communication"
 
 ### 8. Noticeboards
 
-- Noticeboards are boards found in workplaces where printed messages, *rotas *or announcements can be pinned up
+- Noticeboards are boards found in workplaces where printed messages, *rotas* or announcements can be pinned up
 - They are useful for displaying long-term or regularly updated information such as shift timetables or company news
 
   - For example, a restaurant might use a noticeboard to show the weekly staff schedule

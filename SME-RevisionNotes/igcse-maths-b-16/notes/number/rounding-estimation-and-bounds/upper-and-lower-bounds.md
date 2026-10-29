@@ -195,7 +195,7 @@ guided_study: true
 > 
 > > *The minimum number of fencing panels needed will be when the path is as short as possible (5.95 m), and the panels are as long as possible (0.55 m)*
 > 
-> *Minimum number of fencing panels = *$\frac{5.95}{0.55}=10.8181...$
+> *Minimum number of fencing panels =* $\frac{5.95}{0.55}=10.8181...$
 > 
 > > *Assuming we can only purchase a whole number of fencing panels, round up to nearest integer*
 > 

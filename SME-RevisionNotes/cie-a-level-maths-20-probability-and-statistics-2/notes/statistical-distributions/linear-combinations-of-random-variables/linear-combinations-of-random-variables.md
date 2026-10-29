@@ -40,7 +40,7 @@ guided_study: true
 - The graphical representation of ***aX + b ***is a linear transformation (a translation and a stretch) of the graphical representation of ***X***
 - If ***X*** follows a **normal **distribution then ***aX + b ***will also follow a **normal** distribution
 
-  - If *X *~ N(*μ, σ²*) then *aX + b *~ N(*aμ + b, a²σ²*)
+  - If *X* ~ N(*μ, σ²*) then *aX + b* ~ N(*aμ + b, a²σ²*)
 - If *X* follows a binomial, geometric or Poisson distribution then *aX + b* will no longer follow the same type of distribution
 
 > **Worked Example**
@@ -66,14 +66,14 @@ guided_study: true
 
 #### How are the means and variances of X and Y related to the mean and variance of X + Y ?
 
-- If *X* and *Y* are two **random variables** then *X *+* Y *is the random variable whose values are the sums of each pair containing one value of *X* and one value of *Y*
+- If *X* and *Y* are two **random variables** then *X* + *Y* is the random variable whose values are the sums of each pair containing one value of *X* and one value of *Y*
 - **E(*****X *****+***** Y*****) = E(*****X*****) + E(*****Y*****)**
 
   - this is true for **any** random variables *X* and *Y*
   - Note that **E(*****X *****– *****Y*****) = E(*****X*****) - E(*****Y*****)** (see below for more information)
 - **Var(*****X *****+***** Y*****) = Var(*****X*****) + Var(*****Y*****)**
 
-  - this is true if *X* and *Y *are **independent**
+  - this is true if *X* and *Y* are **independent**
   - Note that **Var(*****X *****-***** Y*****) = Var(*****X*****) + Var(*****Y*****)** (see below for more information)
 
 #### What does the distribution of X + Y  look like?
@@ -93,7 +93,7 @@ guided_study: true
   - this is true for **any** random variables *X* and *Y*
 - **Var(*****aX***** + *****bY*****) = *****a*****²Var(*****X*****) + *****b*****²Var(*****Y*****)**
 
-  - this is true if *X* and *Y *are **independent**
+  - this is true if *X* and *Y* are **independent**
 - Note that b is squared for the variance so we have
 
   - **E(*****aX***** - *****bY*****) = *****a*****E(*****X*****) - *****b*****E(*****Y*****)**
@@ -103,9 +103,9 @@ guided_study: true
 - If ***X*** and ***Y*** are **two independent normal** distributions then ***aX *****+***** bY*** is also a **normal** distribution
 
   - If *X* ~ N(*μ*<sub>*1*</sub>*, σ*<sub>*1*</sub>²) and *Y* ~ N(*μ*<sub>*2*</sub>*, σ*<sub>*2*</sub>²) then *aX* ± *bY* ~ N(*aμ*<sub>*1*</sub>* *± *bμ*<sub>*2*</sub>*, a*²*σ*<sub>*1*</sub>²* *+ *b*²*σ*<sub>*2*</sub>²)
-- Note that *aX *+* bY *is **no longer Poisson** even if *X* and *Y* are Poisson
+- Note that *aX* + *bY* is **no longer Poisson** even if *X* and *Y* are Poisson
 
-  - This holds provided *a *and *b *are not 0 or 1
+  - This holds provided *a* and *b* are not 0 or 1
 
 > **Worked Example**
 > $X$ and $Y$ are independent random variable such that
@@ -134,25 +134,25 @@ guided_study: true
 
 #### For a given random variable X, what is the difference between 2X and X<sub>1</sub> + X<sub>2</sub>?
 
-- **2*****X ***means **one observation** of *X *is taken and **then doubled**
-- ***X***<sub>**1**</sub>** + *****X***<sub>**2 **</sub>means **two observations** of *X *are taken and **added together**
+- **2*****X ***means **one observation** of *X* is taken and **then doubled**
+- ***X***<sub>**1**</sub>** + *****X***<sub>**2 **</sub>means **two observations** of *X* are taken and **added together**
 - **2*****X ***and ***X***<sub>**1**</sub>** + *****X***<sub>**2 **</sub>both have the **same expected value** of **2E(*****X*****)**
 - **2*****X ***and ***X***<sub>**1**</sub>** + *****X***<sub>**2 **</sub>have **different variances**
 
   - **Var(2*****X*****) = 2²Var(X) = 4Var(*****X*****)**
   - **Var(*****X***<sub>**1**</sub>** + *****X***<sub>**2**</sub>**) = 2Var(*****X*****)**
-- Imagine *X *could take the values 0 and 1
+- Imagine *X* could take the values 0 and 1
 
   - 2*X *could then take the values 0 and 2 (2 × 0 = 0 and 2 × 1 = 2)
   - *X*<sub>1</sub> + *X*<sub>2 </sub>could then take the values 0, 1 and 2 (0 + 0 = 0, 0 +1 = 1, 1 + 1 = 2)
 - Sometimes questions may describe the variables in context
 
   - The mass of a carton of half a dozen eggs is the mass of the carton plus the mass of the 6 **individual** eggs and can be modelled using the random variable
-  - *C *+ *E*<sub>*1*</sub> + *E*<sub>*2 *</sub>+ *E*<sub>*3 *</sub>+ *E*<sub>*4 *</sub>+ *E*<sub>*5 *</sub>+ *E*<sub>*6 *</sub>where
+  - *C* + *E*<sub>*1*</sub> + *E*<sub>*2* </sub>+ *E*<sub>*3* </sub>+ *E*<sub>*4* </sub>+ *E*<sub>*5* </sub>+ *E*<sub>*6* </sub>where
   
-    - *C *is the mass of a carton
-    - *E *is the mass of an egg
-  - It is **not** *C *+ 6*E *because the masses of the 6 eggs could be different
+    - *C* is the mass of a carton
+    - *E* is the mass of an egg
+  - It is **not** *C* + 6*E *because the masses of the 6 eggs could be different
 
 #### How do I use linear combinations of normal random variables to find probabilities?
 

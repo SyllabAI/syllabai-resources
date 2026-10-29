@@ -337,15 +337,15 @@ Deal with any amounts that will be carried over to the **next financial period**
 > 
 > Calculate the amount that should be transferred to the income statement for rent and rates. You can either do this by balancing the account for rent and rates separately or by calculating how much should have been paid for the financial year.
 > 
-> - *Rent: \$4 900 (amount paid) *
+> - *Rent: \$4 900 (amount paid)*
 > 
->   - *- \$500 (amount owed from last year) *
->   - *+ \$400 (amount owed at end of this year) *
+>   - *- \$500 (amount owed from last year)*
+>   - *+ \$400 (amount owed at end of this year)*
 >   - *= \$4 800*
-> - *Rates: \$2 300 (amount paid) *
+> - *Rates: \$2 300 (amount paid)*
 > 
 >   - *- \$800 (amount owed from last year)*
->   - *- \$200 (amount prepaid for next year) *
+>   - *- \$200 (amount prepaid for next year)*
 >   - *= \$1 300*
 > 
 > **Final answer:** **Yuzra**

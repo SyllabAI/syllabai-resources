@@ -61,10 +61,10 @@ guided_study: false
 > 
 > **Actions taken**
 > 
-> Australia became the first country to introduce standardised plain packaging in December 2012, removing all *branding *and replacing it with graphic images of smoking-related diseases.
+> Australia became the first country to introduce standardised plain packaging in December 2012, removing all *branding* and replacing it with graphic images of smoking-related diseases.
 > 
 > - All tobacco products sold in identical olive-brown packaging with graphic health warnings covering 75% of the front and 90% of the back
-> - Tobacco firms launched significant *WTO *legal challenges, which ultimately ruled in Australia's favour in 2018
+> - Tobacco firms launched significant *WTO* legal challenges, which ultimately ruled in Australia's favour in 2018
 > - The policy inspired subsequent adoption across Latin America, Asia and Africa
 > 
 > **Outcomes**
@@ -97,7 +97,7 @@ guided_study: false
 
   - **Present bias**
   
-    - Individuals place excessive weight on immediate costs and benefits relative to future ones - explaining why people under-save for *retirement *or over-consume addictive goods
+    - Individuals place excessive weight on immediate costs and benefits relative to future ones - explaining why people under-save for *retirement* or over-consume addictive goods
   - **Status quo bias**
   
     - Individuals tend to stick with the default option even when alternatives would make them better off
@@ -134,7 +134,7 @@ guided_study: false
 
 - Setting the socially desirable option as the **default** that individuals must actively opt out of, rather than opt into
 
-  - **Organ donation**: **Wales** (2015), **Spain**, **Austria** and **France** operate *opt-out *organ donation systems - *presumed consent* dramatically increases donor rates by exploiting status quo bias. **Spain's** opt-out system gives it one of the highest donor rates in the world
+  - **Organ donation**: **Wales** (2015), **Spain**, **Austria** and **France** operate *opt-out* organ donation systems - *presumed consent* dramatically increases donor rates by exploiting status quo bias. **Spain's** opt-out system gives it one of the highest donor rates in the world
 
 #### Social norm information (exploiting social influence)
 
@@ -162,7 +162,7 @@ guided_study: false
 
 | Advantages | Disadvantages |
 |---|---|
-| - **Cost-effective**<br><br>  - nudges typically cost far less than taxes, *subsidies *or *regulation *to implement and administer | - **Ethical concerns**<br><br>  - nudges manipulate decision-making without individuals' explicit awareness, raising questions about *autonomy *and consent |
+| - **Cost-effective**<br><br>  - nudges typically cost far less than taxes, *subsidies* or *regulation* to implement and administer | - **Ethical concerns**<br><br>  - nudges manipulate decision-making without individuals' explicit awareness, raising questions about *autonomy* and consent |
 | - **Preserves freedom of choice**<br><br>  - no options are banned; individuals can always opt out or choose differently | - **Lack of transparency**<br><br>  - choice architecture operates largely invisibly, making it difficult for individuals to recognise and question the influences shaping their decisions |
 | - **Exploits actual behaviour**<br><br>  - works with real human psychology rather than assuming rational behaviour that does not exist in practice | - **Variable success rates**<br><br>  - nudges are not equally effective across cultures, income levels or contexts; a nudge that works in one country may fail in another |
 | - **Complements other policies**<br><br>  - can be combined with taxes or regulation to reinforce behaviour change | - **Unintended consequences**<br><br>  - as nudges become widely known, individuals may actively work against them, reducing effectiveness over time |

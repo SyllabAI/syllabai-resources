@@ -58,14 +58,14 @@ y ∝ $\frac{1}{x}$
 
 - This now means that as *y* increases, *x* increases with the amount determined by the constant *k*
 
-  - If *k* is 3 then *y = 3x *so the both increase by a factor of 3
+  - If *k* is 3 then *y = 3x* so the both increase by a factor of 3
 - The same happens for an inversely proportional relationship
 
 *y* = $\frac{k}{x}$
 
 - This now means that as *y* increases, *x* increases with the amount determined by the constant *k*
 
-  - If *k* is 3 then *y = *$\frac{3}{x}$* *so *y* decreases by a factor of 3
+  - If *k* is 3 then *y =* $\frac{3}{x}$* *so *y* decreases by a factor of 3
 - Another common relationship is the **inverse square law**
 - For two variables, *y* and *x* that are related by the inverse square law, this looks like:
 

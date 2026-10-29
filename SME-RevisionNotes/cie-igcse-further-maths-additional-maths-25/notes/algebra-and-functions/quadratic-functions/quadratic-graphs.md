@@ -69,15 +69,15 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 > **Worked Example**
 > a) Sketch the graph of $y=x^{2}-5x+6$, labelling any intercepts with the coordinate axes.
 > 
-> > *It is a positive quadratic, so will be a *$\cup$*-shape*
+> > *It is a positive quadratic, so will be a* $\cup$*-shape*
 > 
-> *The '*$+c$*' at the end is the *$y$*-intercept (*$y=c$* when *$x=0$*), so the graph crosses the *$y$*-axis at* *(0,6)*
+> *The '*$+c$*' at the end is the* $y$*-intercept (*$y=c$ *when* $x=0$*), so the graph crosses the* $y$*-axis at* *(0,6)*
 > 
 > > *Factorise*
 > 
 > $y = ( x - 2 ) ( x - 3 )$
 > 
-> > *Solve *$y=0$
+> > *Solve* $y=0$
 > 
 > $( x - 2 ) ( x - 3 ) = 0$
 > 
@@ -91,9 +91,9 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 > 
 > b) Sketch the graph of $y=x^{2}-6x+13$, labelling any intercepts with the coordinate axes.
 > 
-> > *It is a positive quadratic, so will be a *$\cup$*-shape*
+> > *It is a positive quadratic, so will be a* $\cup$*-shape*
 > 
-> > *The '*$+c$*' at the end is the *$y$*-intercept, so this graph crosses the y-axis at*
+> > *The '*$+c$*' at the end is the* $y$*-intercept, so this graph crosses the y-axis at*
 > 
 > *(0,13)*
 > 
@@ -101,23 +101,23 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 > 
 > $( - 6 )^{2} - 4 ( 1 ) ( 13 ) = 36 - 52 = - 16$
 > 
-> > *As the discriminant is negative, there are no (real) roots and the graph does not intersect the *$x$*-axis*
+> > *As the discriminant is negative, there are no (real) roots and the graph does not intersect the* $x$*-axis*
 > 
-> > *(Note we have included the coordinates of the turning point, *$( 3 , 4 )$* to help you visualise the graph, but there was no requirement from the question to do this - on a sketch like this, the turning point should be in the correct quadrant)*
+> > *(Note we have included the coordinates of the turning point,* $( 3 , 4 )$ *to help you visualise the graph, but there was no requirement from the question to do this - on a sketch like this, the turning point should be in the correct quadrant)*
 > 
 > ![cie-igcse-quadratic-graphs-we-2](assets/04db591d2d25-cie-igcse-quadratic-graphs-we-2.png)
 > 
 > c) Sketch the graph of $y=-x^{2}-4x-4$,  labelling any intercepts with the coordinate axes and the turning point.
 > 
-> > *It is a negative quadratic, so will be an *$\cap$*-shape*
+> > *It is a negative quadratic, so will be an* $\cap$*-shape*
 > 
-> *The '*$+c$*' at the end is the *$y$*-intercept, so this graph crosses the *$y$*-axis at **(0, -4)*
+> *The '*$+c$*' at the end is the* $y$*-intercept, so this graph crosses the* $y$*-axis at **(0, -4)*
 > 
 > > *Factorising*
 > 
 > $- x^{2} - 4 x - 4 = - ( x^{2} + 4 x + 4 ) = - ( x + 2 )^{2}$
 > 
-> *This shows that there is only one root and the graph will touch the *$x$*-axis at the point* *(-2, 0)* *This point will also be the turning point - and as this is a negative quadratic - will be a maximum point*
+> *This shows that there is only one root and the graph will touch the* $x$*-axis at the point* *(-2, 0)* *This point will also be the turning point - and as this is a negative quadratic - will be a maximum point*
 > 
 > ![cie-igcse-quadratic-graphs-we-3](assets/6782e143ab07-cie-igcse-quadratic-graphs-we-3.png)
 
@@ -177,11 +177,11 @@ The **turning point** has coordinates $( - p , q )$ This can be considered when 
 > 
 > $\begin{gathered} \mathrm{f} ( x ) & = 2 ( x^{2} - 2 x ) - 6 \\ = 2 [ ( x - 1 )^{2} - 1 ] - 6 \\ = 2 ( x - 1 )^{2} - 8 \end{gathered}$
 > 
-> > *STEP 2 - Deduce the *$x$*-coordinate.*
+> > *STEP 2 - Deduce the* $x$*-coordinate.*
 > 
 > $x = - ( - 1 ) = 1$
 > 
-> > *STEP 3 - Deduce the *$y$*-coordinate.*
+> > *STEP 3 - Deduce the* $y$*-coordinate.*
 > 
 > $y=-8$
 > 

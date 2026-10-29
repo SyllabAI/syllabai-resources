@@ -21,7 +21,7 @@ guided_study: true
 
 - A **conditional probability** is the probability of something happening (*A*) **given that **something else has **already happened** (*B*)
 
-  - It is written `straight P open parentheses A vertical line B close parentheses`
+  - It is written `straight P (A vertical line B)`
   
     - Pronounced "the probability of ***A***** given *****B****"*
 
@@ -48,13 +48,13 @@ guided_study: true
 > **Worked Example**
 > A Venn diagram is shown below. The numbers represent numbers of people.
 > 
-> When 1 random person is selected, find `straight P open parentheses A vertical line B close parentheses`, simplifying your answer.
+> When 1 random person is selected, find `straight P (A vertical line B)`, simplifying your answer.
 > 
 > ![Venn diagram with two overlapping circles, A and B. A has 20, intersection 42, B has 63. Outside both is 14.](assets/5bf1df7ef5f3-35714-conditional-probability.png)
 > 
 > **Answer:**
 > 
-> > `straight P open parentheses A vertical line B close parentheses`* means the probability that **A** is true, given that **B** is true*
+> > `straight P (A vertical line B)`* means the probability that **A** is true, given that **B** is true*
 > 
 > > *Given that B is true, your probability will be out of the total number in **B*
 > 
@@ -68,8 +68,8 @@ guided_study: true
 > 
 > > *Form a probability by dividing 42 by 105*
 > 
-> `straight P open parentheses A vertical line B close parentheses equals 42 over 105`
+> `straight P (A vertical line B)=42 / 105`
 > 
 > > *Simplify your answer*
 > 
-> `straight P open parentheses A vertical line B close parentheses equals 2 over 5`
+> `straight P (A vertical line B)=2 / 5`

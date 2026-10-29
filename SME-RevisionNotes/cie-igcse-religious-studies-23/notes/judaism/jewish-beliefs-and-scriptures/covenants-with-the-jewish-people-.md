@@ -41,7 +41,7 @@ guided_study: false
   - G-d promised to bless Abraham and his family
 - The story of G-d giving Abraham the covenant is important within Judaism
 
-  - Abraham was born in the** city of Ur** (located in the country now called** Iraq**) at a time when worshipping *idols *was common
+  - Abraham was born in the** city of Ur** (located in the country now called** Iraq**) at a time when worshipping *idols* was common
   - The **Book of Genesis** explains how G-d spoke to Abraham in a** vision**
 
 > **blockquote**
@@ -202,7 +202,7 @@ guided_study: false
     - Keeping *kosher*
     - Observing *Shabbat*
     - Praying regularly
-    - Wearing *tefillin *and a *tallit*
+    - Wearing *tefillin* and a *tallit*
   - The covenant also influences the relationship Jews have with others
   
     - Laws about justice, kindness and charity are followed to reflect G-d’s will

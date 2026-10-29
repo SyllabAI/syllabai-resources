@@ -19,7 +19,7 @@ guided_study: true
 
 #### How do I find the mean (μ) or the standard deviation (σ) if one of them is unknown?
 
-- If the **mean **or** standard deviation** of the `X tilde N left parenthesis mu comma sigma squared right parenthesis` is **unknown** then you will need to use the **standard normal distribution**
+- If the **mean **or** standard deviation** of the `X tilde N left parenthesis μ comma σ ² right parenthesis` is **unknown** then you will need to use the **standard normal distribution**
 - You will need to use the formula
 
   - $z=\frac{x-μ}{σ}$ or its rearranged form $x=μ+σz$
@@ -34,7 +34,7 @@ guided_study: true
   - Make sure the direction of the inequality for $Z$  is consistent with $X$
   - The table gives the $z$-value to three decimal places to **avoid rounding errors**
   
-    - Use the sketch to help you decide whether your *z *value is positive or negative
+    - Use the sketch to help you decide whether your *z* value is positive or negative
     - You should use the 3 decimal places throughout your calculations so that your final answer can be rounded to 3 significant figures
 - **STEP 3**: **Substitute** the known values into $z=\frac{x-μ}{σ}$ or $x=μ+σz$
 

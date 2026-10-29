@@ -56,7 +56,7 @@ guided_study: false
 #### Developed countries and urbanisation
 
 - Rates of urbanisation are lower in **developed countries** as a high percentage of the population already live in towns and ***cities***
-- In some developed countries, rates of urbanisation may start to decrease as *counter-urbanisation *occurs
+- In some developed countries, rates of urbanisation may start to decrease as *counter-urbanisation* occurs
 
 ### Millionaire and megacities
 

@@ -57,5 +57,5 @@ guided_study: true
 > **Exam Hint**
 > Be careful when describing the development of antibiotic resistance; there are two major pitfalls to look out for:
 > 
-> - Antibiotic resistance mutations occur** by chance**, and not as the result of exposure to antibiotics; you should never say that antibiotics* cause *mutation
+> - Antibiotic resistance mutations occur** by chance**, and not as the result of exposure to antibiotics; you should never say that antibiotics *cause* mutation
 > - Mutation gives rise to a new resistance **allele**, and not a new gene

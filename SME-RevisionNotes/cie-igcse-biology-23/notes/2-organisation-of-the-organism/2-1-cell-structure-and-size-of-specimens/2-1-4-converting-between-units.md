@@ -56,4 +56,4 @@ guided_study: true
 > 
 > ![Diagram showing 1 mm equals 1000 micrometres, with arrows: multiply by 1000 to convert mm to µm and divide by 1000 to convert µm to mm](assets/60b245702dc0-converting-units.png)
 > 
-> *Converting units between millimetres and micrometres *
+> *Converting units between millimetres and micrometres*

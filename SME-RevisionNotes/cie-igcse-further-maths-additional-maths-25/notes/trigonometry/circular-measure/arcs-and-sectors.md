@@ -64,7 +64,7 @@ $l=rθ$
 > 
 > i) the length of the outside crust of the slice of pizza (the minor arc),
 > 
-> > *A simple diagram will help  *
+> > *A simple diagram will help*
 > 
 > ![minor arc diagram for worked example](assets/d0a9ac73a79f-zivsveyx-arcs-we-diagram-1.png)
 > 
@@ -76,15 +76,15 @@ $l=rθ$
 > 
 > ii) the perimeter of the remaining pizza.
 > 
-> > *A diagram will help consider where the perimeter is  *
+> > *A diagram will help consider where the perimeter is*
 > 
 > ![major arc diagram for worked example](assets/1d1a7751e865-idmzejxc-arcs-we-diagram-2.png)
 > 
-> > *Find the angle for the major arc, by subtracting from the angle in a full circle  *
+> > *Find the angle for the major arc, by subtracting from the angle in a full circle*
 > 
 > $2π-\frac{π}{6}=\frac{11π}{6}$
 > 
-> > *  Use the formula for the length of an arc, *$s=rθ$*, to find the curved length of the perimeter, the major arc *$M$
+> > *  Use the formula for the length of an arc, *$s=rθ$*, to find the curved length of the perimeter, the major arc* $M$
 > 
 > $M=12\times\frac{11π}{6}=22π$
 > 
@@ -155,7 +155,7 @@ $A=\frac{1}{2}r^{2}θ$
 > 
 > ![sector area diagram for worked example](assets/0cb3d665403d-2abgitrm-sectors-we-diagram-1.png)
 > 
-> > *Use the formula for the area of a sector, where the angle is in radians; *$A=\frac{1}{2}r^{2}θ$
+> > *Use the formula for the area of a sector, where the angle is in radians;* $A=\frac{1}{2}r^{2}θ$
 > 
 > $30=\frac{1}{2}\times6^{2}\timesθ$
 > 

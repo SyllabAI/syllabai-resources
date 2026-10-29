@@ -165,9 +165,9 @@ guided_study: false
 > 
 >   - *Label the entry as bank or Henry, both are allowed*
 > 
-> > *At the end of the year transfer the balances to the income statement. *
+> > *At the end of the year transfer the balances to the income statement.*
 > 
-> > *One option is to transfer the balances separately. *
+> > *One option is to transfer the balances separately.*
 > 
 > **Final answer:** **Tim**
 > **Irrecoverable Debts Account**

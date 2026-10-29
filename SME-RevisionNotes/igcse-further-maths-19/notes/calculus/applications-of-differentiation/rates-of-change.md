@@ -65,11 +65,11 @@ guided_study: false
 > 
 > Using calculus, find an estimate for the increase in the radius of the sphere.  Give your answer in $\mathrm{cm}$, correct to 2 significant figures.
 > 
-> > *'Using calculus' and 'find an estimate for the increase' are hints that we should use  *$dy\approx\frac{dy}{dx}dx$
+> > *'Using calculus' and 'find an estimate for the increase' are hints that we should use* $dy\approx\frac{dy}{dx}dx$
 > 
-> > *Here we know the change in the surface area, *$dA$
+> > *Here we know the change in the surface area,* $dA$
 > 
-> > *We want to estimate the change in the radius, *$dr$
+> > *We want to estimate the change in the radius,* $dr$
 > 
 > $dr\approx\frac{dr}{dA}dA$
 > 
@@ -77,11 +77,11 @@ guided_study: false
 > 
 > $A=4πr^{2}$
 > 
-> > *Differentiate that with respect to *$r$* to find *$\frac{dA}{dr}$* *
+> > *Differentiate that with respect to* $r$ *to find* $\frac{dA}{dr}$* *
 > 
 > $\frac{dA}{dr}=8πr$
 > 
-> > *But we need *$\frac{dr}{dA}$* for our approximation formula, so use  *$\frac{ \mathrm{d} x}{ \mathrm{d} y} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
+> > *But we need* $\frac{dr}{dA}$ *for our approximation formula, so use* $\frac{ \mathrm{d} x}{ \mathrm{d} y} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
 > 
 > $\frac{ \mathrm{d} r}{ \mathrm{d} A} = \frac{1}{( \frac{ \mathrm{d} A}{ \mathrm{d} r} )} = \frac{1}{8 \pi r}$
 > 
@@ -89,9 +89,9 @@ guided_study: false
 > 
 > $dr\approx\frac{1}{8πr}dA$
 > 
-> > *We want to know the value of that when *$r=5$* and *$dA=15$
+> > *We want to know the value of that when* $r=5$ *and* $dA=15$
 > 
-> > *(Note that that is a 'small' change, *$dA$*, compared to the total surface area of *$100π=314.15...\mathrm{cm}^{2}$* when *$r=5$*) *
+> > *(Note that that is a 'small' change,* $dA$*, compared to the total surface area of* $100π=314.15...\mathrm{cm}^{2}$ *when* $r=5$*)*
 > 
 > $\mathrm{d} r \approx \frac{1}{8 \pi ( 5 )} ( 15 ) = \frac{3}{8 \pi } = 0.119366...$
 > 
@@ -228,34 +228,34 @@ Write down the **formula** for a related quantity (volume, etc)
 > 
 > > *Note that length and volume are both given in terms of centimetres, so we won't need to convert any units*
 > 
-> *Write down a chain rule equation connecting *$\frac{dV}{dt}$* and *$\frac{dx}{dt}$
+> *Write down a chain rule equation connecting* $\frac{dV}{dt}$ *and* $\frac{dx}{dt}$
 > 
 > $\frac{dx}{dt}=\frac{d?}{d?}\times\frac{dV}{dt}$
 > 
 > > *The right-hand side should 'cancel out' to be equal with the left-hand side*
-> *This means the missing derivative must be *$\frac{dx}{dV}$
+> *This means the missing derivative must be* $\frac{dx}{dV}$
 > 
 > $\frac{dx}{dt}=\frac{dx}{dV}\times\frac{dV}{dt}$
 > 
-> > *Now we need to find *$\frac{dx}{dV}$
+> > *Now we need to find* $\frac{dx}{dV}$
 > 
-> > *Write down the volume of a cuboid formula, *$V=\mathrm{height}\times\mathrm{length}\times\mathrm{width}$
+> > *Write down the volume of a cuboid formula,* $V=\mathrm{height}\times\mathrm{length}\times\mathrm{width}$
 > 
-> > *Here the height is 5, and the length and width are both *$x$
+> > *Here the height is 5, and the length and width are both* $x$
 > 
-> > *This gives a formula connecting *$V$* and *$x$
+> > *This gives a formula connecting* $V$ *and* $x$
 > 
 > $\begin{gathered} V = 5 \times x \times x \\ = 5 x^{2} \end{gathered}$
 > 
-> > *Now differentiate that with respect to *$x$
+> > *Now differentiate that with respect to* $x$
 > 
-> > *That will give a formula for *$\frac{dV}{dx}$* in terms of *$x$
+> > *That will give a formula for* $\frac{dV}{dx}$ *in terms of* $x$
 > 
 > $\frac{dV}{dx}=10x$
 > 
-> > *But our chain rule formula needs  *$\frac{dx}{dV}$
+> > *But our chain rule formula needs* $\frac{dx}{dV}$
 > 
-> > *We can find this using  *$\frac{ \mathrm{d} x}{ \mathrm{d} y} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
+> > *We can find this using* $\frac{ \mathrm{d} x}{ \mathrm{d} y} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
 > 
 > $\frac{ \mathrm{d} x}{ \mathrm{d} V} = \frac{1}{( \frac{ \mathrm{d} V}{ \mathrm{d} x} )} = \frac{1}{10 x}$
 > 
@@ -263,7 +263,7 @@ Write down the **formula** for a related quantity (volume, etc)
 > 
 > $\frac{dx}{dt}=\frac{1}{10x}\times\frac{dV}{dt}$
 > 
-> > *We know *$\frac{dV}{dt}=20$*, and we want to know *$\frac{dx}{dt}$* when *$x=3$
+> > *We know* $\frac{dV}{dt}=20$*, and we want to know* $\frac{dx}{dt}$ *when* $x=3$
 > 
 > > *Substitute those values into the chain rule formula*
 > 

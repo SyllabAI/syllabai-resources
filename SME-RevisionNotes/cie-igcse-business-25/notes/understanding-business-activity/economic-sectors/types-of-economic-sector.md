@@ -27,7 +27,7 @@ guided_study: false
 - The **primary** sector is concerned with the **extraction** of raw materials from land, sea or air
 
   - Examples include farming, mining or fishing
-- **Less developed economies **are primarily focused on the **primary sector,** with most people employed in *agriculture *and the production of food
+- **Less developed economies **are primarily focused on the **primary sector,** with most people employed in *agriculture* and the production of food
 
   - This is partly as a result of** lower participation rates in education **and a **lack of *****infrastructure**** *to support manufacturing or service provision
 - Some **developed economies,** such as Australia (*viticulture*) and Norway (forestry and oil extraction), continue to have significant primary sectors

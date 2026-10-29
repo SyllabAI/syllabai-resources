@@ -61,7 +61,7 @@ $E=\frac{hc}{λ}$
 > 
 > **Step 1:** **Write down the known quantities**
 > 
-> - Wavelength, *λ *= 490 nm = 490 × 10<sup>-9</sup> m
+> - Wavelength, *λ* = 490 nm = 490 × 10<sup>-9</sup> m
 > - Power, *P* = 3.6 mW = 3.6 × 10<sup>-3</sup> W
 > - Time, *t* = 2.0 s
 > 
@@ -113,7 +113,7 @@ $p=\frac{E}{c}$
 > **Step 1: Write down the known quantities**
 > 
 > - Power, *P* = 5.0 mW = 5.0 × 10<sup>-3 </sup>W
-> - Frequency, *f *= 5.6 × 10<sup>14</sup> Hz
+> - Frequency, *f* = 5.6 × 10<sup>14</sup> Hz
 > - Cross-sectional area, *A* = 8.0 × 10<sup>-6</sup> m<sup>2</sup>
 > 
 > **Step 2: Write the equations for photon energy and momentum**

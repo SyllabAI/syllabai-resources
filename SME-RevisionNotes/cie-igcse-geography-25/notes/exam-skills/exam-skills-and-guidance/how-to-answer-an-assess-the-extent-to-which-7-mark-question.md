@@ -78,7 +78,7 @@ guided_study: false
 
 - Read the question carefully and underline the **command words**
 
-*"*<u>*Assess the extent to which*</u>* technology can reduce the impacts of volcanic eruptions*."
+*"*<u>*Assess the extent to which*</u>*technology can reduce the impacts of volcanic eruptions*."
 
 - The command word "**Assess**" means that at the end of your answer you need to make an informed judgement
 
@@ -86,7 +86,7 @@ guided_study: false
 
 - Underline the key words.
 
-*"Assess the extent to which *<u>*technology *</u>*can *<u>*reduce the impacts*</u>* of volcanic *<u>*eruptions*</u>."
+*"Assess the extent to which* <u>*technology* </u>*can* <u>*reduce the impacts*</u>*of volcanic* <u>*eruptions*</u>."
 
 - In this example, you need to focus on examples of technology which can reduce the impacts of volcanic eruptions
 
@@ -107,7 +107,7 @@ guided_study: false
   - Do not make general statements
   - Be specific, for example:
 
-*'In Iceland, the eruption of Eyjafjallajökull in 2010 was predicted using seismic data, helping to reduce the impact on people.'     *
+*'In Iceland, the eruption of Eyjafjallajökull in 2010 was predicted using seismic data, helping to reduce the impact on people.'*
 
 - Whilst the question does not ask for a named volcano part of the criteria for level 3 is that the  '**Answer is supported by relevant evidence and/or examples throughout**'
 

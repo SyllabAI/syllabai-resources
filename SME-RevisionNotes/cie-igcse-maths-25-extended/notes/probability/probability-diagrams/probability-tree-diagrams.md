@@ -65,10 +65,10 @@ guided_study: true
 - Conditional probability questions are sometimes introduced by the expression **'given that...'**
 
   - e.g. 'Find the probability that the team win their next game given that they lost their previous game'
-- The** notation** `straight P open parentheses A vertical line B close parentheses` is often used for conditional probabilities
+- The** notation** `straight P (A vertical line B)` is often used for conditional probabilities
 
   - That is read as 'the probability of *A* given *B'*
-  - e.g. `straight P open parentheses win vertical line lose close parentheses` is the probability a team wins, given that they lost the previous game
+  - e.g. `straight P (win vertical line lose)` is the probability a team wins, given that they lost the previous game
 
 > **Exam Hint**
 > When multiplying along branches with fractions, **don't cancel fractions** in your working.
@@ -88,8 +88,8 @@ guided_study: true
 > > *Work out the probabilities of each set of traffic lights being on red, R*
 > *Use P(red) = 1 - P(green)*
 > 
-> `straight P open parentheses 1 to the power of st space straight R close parentheses equals 1 minus straight P open parentheses 1 to the power of st space straight G close parentheses equals 1 minus 5 over 7 equals 2 over 7`
-> `straight P open parentheses 2 to the power of nd space straight R close parentheses equals 1 minus straight P open parentheses 2 to the power of nd space straight G close parentheses equals 1 minus 8 over 9 equals 1 over 9`
+> `straight P (1^st straight R)=1−straight P (1^st straight G)=1−5 / 7=2 / 7`
+> `straight P (2^nd straight R)=1−straight P (2^nd straight G)=1−8 / 9=1 / 9`
 > 
 > > *Draw the branches (with a label of G or R on the ends)*
 > *Write the probabilities above each branch*
@@ -117,7 +117,7 @@ guided_study: true
 > 
 > > *Add between the separate cases*
 > 
-> `straight P open parentheses at space least space one space straight R close parentheses space equals space straight P open parentheses straight G comma space straight R close parentheses space plus space straight P open parentheses straight R comma space straight G close parentheses space plus space straight P open parentheses straight R comma space straight R close parentheses space equals space 5 over 63 space plus space 16 over 63 space plus space 2 over 63 space equals space 23 over 63`
+> `straight P (at least one straight R)=straight P (straight G comma straight R)+straight P (straight R comma straight G)+straight P (straight R comma straight R)=5 / 63+16 / 63+2 / 63=23 / 63`
 > 
 > $\frac{23}{63}$
 > 
@@ -127,7 +127,7 @@ guided_study: true
 > 
 > > *So P(at least 1 red) = 1 - P(two greens)*
 > 
-> `space 1 space minus space straight P open parentheses straight G comma space straight G close parentheses space equals space 1 space minus space 40 over 63 space equals space 23 over 63`* *
+> `space 1−straight P (straight G comma straight G)=1−40 / 63=23 / 63`* *
 > 
 > $\frac{23}{63}$
 
@@ -147,7 +147,7 @@ guided_study: true
 > > *If the first pet is a guinea pig, there will only be 6 guinea pigs and 3 rabbits left (9 animals total)*
 > *So for the second pet the probability of choosing a guinea pig would be 6/9, and probability of choosing a rabbit would be 3/9*
 > 
-> > *If the first pet is a rabbit, there will only be 7 guinea pigs and 2 rabbits left (9 animals total) *
+> > *If the first pet is a rabbit, there will only be 7 guinea pigs and 2 rabbits left (9 animals total)*
 > *So for the second pet the probability of choosing a guinea pig would be 7/9, and probability of choosing a rabbit would be 2/9*
 > 
 > > *Put these probabilities into the correct places on the tree diagram, and then multiply along the branches to find the probabilities for each outcome*
@@ -168,6 +168,6 @@ guided_study: true
 > 
 > > *This would be "G AND R" OR "R AND G" so we need to add two of the final probabilities*
 > 
-> `straight P open parentheses two space different space kinds close parentheses space equals space straight P open parentheses straight G comma space straight R close parentheses space plus space straight P open parentheses straight R comma space straight G close parentheses space equals space 21 over 90 plus 21 over 90 equals 42 over 90`
+> `straight P (two different kinds)=straight P (straight G comma straight R)+straight P (straight R comma straight G)=21 / 90+21 / 90=42 / 90`
 > 
 > $P(\mathrm{two} \mathrm{different} \mathrm{kinds})=\frac{42}{90}(=\frac{7}{15})$

@@ -100,7 +100,7 @@ guided_study: true
 > `equation`
 > 
 > > *Move on to the tens (next on the left) column*
-> *The sum is 15 so the 5 (ones) is written below the line and the 1 (tens) 'carries over' to the next (hundreds) column *
+> *The sum is 15 so the 5 (ones) is written below the line and the 1 (tens) 'carries over' to the next (hundreds) column*
 > 
 > `equation`
 > 

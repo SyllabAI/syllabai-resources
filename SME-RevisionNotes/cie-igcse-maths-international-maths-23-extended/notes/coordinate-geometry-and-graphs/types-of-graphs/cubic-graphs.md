@@ -22,7 +22,7 @@ guided_study: true
 - A **cubic** is a function of the form $ax^{3}+bx^{2}+cx+d$
 
   - $a,b,c$ and $d$ are constants
-  - It is a *polynomial *of **degree** (order) 3
+  - It is a *polynomial* of **degree** (order) 3
   
     - So $b,c$ and/or $d$ could be zero
     - but $a$ cannot be equal to zero
@@ -92,30 +92,30 @@ Consider where any **turning points** should go
 > Sketch the graph of $y = ( 2 x - 1 ) ( x - 3 )^{2}$.
 > 
 > > *STEP 1*
-> *Find the *$y$*-axis intercept by substituting in *$x=0$
+> *Find the* $y$*-axis intercept by substituting in* $x=0$
 > 
 > $y = ( - 1 ) ( - 3 )^{2} = - 9$
 > 
 > > *STEP 2*
-> *Find the *$x$*-axis intercepts by solving *$y=0$
+> *Find the* $x$*-axis intercepts by solving* $y=0$
 > *Either bracket can be equal to zero*
 > 
 > $\begin{gathered} ( 2 x - 1 ) & = 0 \\ x & = 1 \frac{1}{2} \end{gathered}$
 > 
 > $\begin{gathered} ( x - 3 )^{2} & = 0 \\ x = 3 \end{gathered}$
-> *(repeated solution, as there are two *$( x - 3 )$* brackets*
+> *(repeated solution, as there are two* $( x - 3 )$ *brackets*
 > 
 > > *STEP 3*
 > *Consider the shape, and the 'start' and 'end' points:*
 > 
-> > $a > 0 ( a = 2 )$* so it is a positive cubic*
+> > $a > 0 ( a = 2 )$ *so it is a positive cubic*
 > $x=3$* is a repeated root so the graph will **touch **the *$x$*-axis at this point*
 > 
 > > *STEP 4*
 > *Consider the turning points*
 > 
-> > *One turning point (minimum) will need to be where the curve touches the *$x$*-axis*
-> *The other (maximum) will need to be between the two roots *$x=\frac{1}{2}$* and *$x=3$
+> > *One turning point (minimum) will need to be where the curve touches the* $x$*-axis*
+> *The other (maximum) will need to be between the two roots* $x=\frac{1}{2}$ *and* $x=3$
 > 
 > > *STEP 5*
 > *Sketch a smooth curve with labelled intercepts*

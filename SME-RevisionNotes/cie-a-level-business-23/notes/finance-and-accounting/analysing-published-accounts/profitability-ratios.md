@@ -276,7 +276,7 @@ $\mathrm{Profit} \mathrm{margin}=\frac{\mathrm{Profit} \mathrm{from} \mathrm{ope
 
   - **Price tactics**
   
-    - Use* promotional pricing* strategies to encourage customers to buy more or buy more often
+    - Use *promotional pricing* strategies to encourage customers to buy more or buy more often
     - For example, a "buy one get one half price" offer may double the number of items purchased, increasing total revenue
   - **Increase marketing activities**
   
@@ -299,7 +299,7 @@ $\mathrm{Profit} \mathrm{margin}=\frac{\mathrm{Profit} \mathrm{from} \mathrm{ope
 - The **profit margin** can be improved in two ways
 
   - Increasing the gross profit margin (see above)
-  - Reducing *overhead *costs
+  - Reducing *overhead* costs
 
 #### Reduce overhead costs
 

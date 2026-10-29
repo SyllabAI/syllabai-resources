@@ -99,7 +99,7 @@ guided_study: false
 
   - $m+n=ps+qr=b$
   - $m\timesn=psqr=ac$
-  - Therefore these are the two numbers whose **product** is *ac *and **sum** is *b*
+  - Therefore these are the two numbers whose **product** is *ac* and **sum** is *b*
 
 > **Worked Example**
 > ![1-5-1-ial-fig1-we-solution-fact](assets/3694e8395e85-1-5-1-ial-fig1-we-solution-fact.png)

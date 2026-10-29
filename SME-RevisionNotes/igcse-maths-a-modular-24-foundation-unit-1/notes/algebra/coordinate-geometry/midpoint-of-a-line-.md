@@ -26,13 +26,13 @@ guided_study: true
 $( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
 > **Worked Example**
-> The coordinates of *A *are (−4, 3) and the coordinates of *B *are (8, −12).
+> The coordinates of *A* are (−4, 3) and the coordinates of *B* are (8, −12).
 > 
 > Find the coordinates of the midpoint of *AB*.
 > 
 > **Answer:**
 > 
-> > *The midpoint can be found using *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
+> > *The midpoint can be found using* $( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 > 
 > > *Substitute in the values of **x** and **y ** from each point into their correct positions*
 > 

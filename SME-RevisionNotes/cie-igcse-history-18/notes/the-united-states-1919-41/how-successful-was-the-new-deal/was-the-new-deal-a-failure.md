@@ -43,8 +43,8 @@ The success, or failure, of the New Deal is a debate that continues to divide hi
 
 #### The unemployed and the poor
 
-- The US government gave millions of dollars to support those facing* poverty*, homelessness and hunger
-- The **Tennessee Valley Authority (TVA)** created work and improved the *standard of living *in poorer parts of the US
+- The US government gave millions of dollars to support those facing *poverty*, homelessness and hunger
+- The **Tennessee Valley Authority (TVA)** created work and improved the *standard of living* in poorer parts of the US
 - After 1935, many **vulnerable people **in society benefitted from the *Social Security Act*
 
 #### Male workers
@@ -72,10 +72,10 @@ The success, or failure, of the New Deal is a debate that continues to divide hi
 
 - The New Deal gave jobs to Black Americans
 - After 1935, Black Americans received relief cheques from the government
-- Before the Depression, many Black Americans supported the *Republican *Party
+- Before the Depression, many Black Americans supported the *Republican* Party
 
   - It was the political party of Abraham Lincoln that *abolished* slavery
-- After the New Deal, more Black Americans supported the* Democrats*
+- After the New Deal, more Black Americans supported the *Democrats*
 
 ## Failures of the New Deal
 

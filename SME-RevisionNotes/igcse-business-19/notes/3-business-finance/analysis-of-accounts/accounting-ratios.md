@@ -115,7 +115,7 @@ $\text{Operating profit margin =}\frac{\mathrm{Operating} \mathrm{profit}}{\m
 > 
 > = 52.84 \%$                 ** ****[1 mark]**
 > 
-> > *In 2022, 52.84% of Head to Toe Wellbeing’s revenue was converted into operating profit *
+> > *In 2022, 52.84% of Head to Toe Wellbeing’s revenue was converted into operating profit*
 
 ### Improving the operating profit margin
 
@@ -237,7 +237,7 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Non}-\mathrm{current} \mathrm{liabil
 - RoCE can be used to support **strategic decisions** (e.g. investment or ***divestment*** decisions) to determine the most profitable option given the level of capital employed
 
 > **Worked Example**
-> Faced with increasing costs, *Kent & Medway Properties Ltd *is looking to close one of its three high street real estate branches.
+> Faced with increasing costs, *Kent & Medway Properties Ltd* is looking to close one of its three high street real estate branches.
 > 
 > The table below shows some key data for each of the branches.
 > 

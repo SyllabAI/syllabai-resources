@@ -35,9 +35,9 @@ guided_study: true
 
 **-Δ*****H***<sub>***latt***</sub><sup>**θ**</sup>** + Δ*****H***<sub>***hyd***</sub><sup>**θ **</sup>**= reverse lattice enthalpy + hydration enthalpies of each ion**
 
-- Lattice enthalpy usually means Lattice* formation* enthalpy, in other words bond forming
+- Lattice enthalpy usually means Lattice *formation* enthalpy, in other words bond forming
 
-  - If we are breaking the lattice then this is reversing the enthalpy change so a negative sign is added in front of the term (alternatively it is called lattice* dissociation* enthalpy)
+  - If we are breaking the lattice then this is reversing the enthalpy change so a negative sign is added in front of the term (alternatively it is called lattice *dissociation* enthalpy)
 - According to **Hess’s law,** the enthalpy change for both routes is the same, such that:
 
 **Δ*****H***<sub>***sol***</sub><sup>**θ **</sup>**= -Δ*****H***<sub>***latt***</sub><sup>**θ**</sup>** + Δ*****H***<sub>***hyd***</sub><sup>**θ**</sup>

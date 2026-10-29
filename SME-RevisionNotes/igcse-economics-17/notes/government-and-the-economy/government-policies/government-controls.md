@@ -18,7 +18,7 @@ guided_study: false
 ## Government Controls and Macroeconomic Objectives
 
 - Government controls are used to correct market failure, ensuring that markets work more efficiently, which creates greater economic welfare for consumers and firms
-- In the short term, government controls such as *regulation*, legislation, fines and *pollution permits *may negatively impact some macroeconomic objectives
+- In the short term, government controls such as *regulation*, legislation, fines and *pollution permits* may negatively impact some macroeconomic objectives
 
   - E.g. Government controls on levels of **emissions** increase costs for firms in the short run, reducing investment and therefore **slowing down economic growth**. However, in the long run, there is an incentive to transition towards cleaner energy sources and **protect the environment**
 
@@ -43,5 +43,5 @@ guided_study: false
 | **Low and stable inflation** | - While **pollution permits, fines, and regulation raises costs of production, **this can lead  lead to ***cost-push inflation*** |
 | **Low unemployment** | - Government controls to protect the environment may indirectly increase unemployment in some industries (such as coal powered plants) by causing **redundant workers **<br>- On the other hand, they can drive innovation and create employment opportunities in **green industries** |
 | **Stable current account on balance of payments ** | - **Higher cost exports **may be less desirable abroad, causing **exports to fall**<br>- Domestic output becomes more expensive than equivalent imports,  leading to more imports and a **worsening of the current account** |
-| **Environmental protection** | - Negative externalities associated with pollution and resource depletion is reduced and overall *sustainability *is improved |
+| **Environmental protection** | - Negative externalities associated with pollution and resource depletion is reduced and overall *sustainability* is improved |
 | **The redistribution of income** | - Government controls may lead to higher costs, which disproportionately impacts **lower income earners** e.g. a tax on car emissions<br>- However, as industrial pollution tends to be **concentrated in low-income and industrial areas**, it aims to protect worse off in society |

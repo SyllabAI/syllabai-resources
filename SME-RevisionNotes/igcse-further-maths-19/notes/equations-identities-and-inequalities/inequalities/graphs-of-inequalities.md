@@ -32,9 +32,9 @@ guided_study: false
 **Decide** which side of line is wanted.
 
   - **Below** line if "*y* ≤ ..." or "*y* < ..."
-  - **Above** line if "*y *≥ ..." or "*y* > ..."
+  - **Above** line if "*y* ≥ ..." or "*y* > ..."
   - To the **left** of the line if "*x* ≤ ..." or "*x* < ..."
-  - To the **right** of the line if "*x *≥ ..." or "*x* > ..."
+  - To the **right** of the line if "*x* ≥ ..." or "*x* > ..."
   - If unsure, use a point that's not on the line as a test
   
     - **Substitute** its *x* and *y* value into the inequality and check if the inequality is satisfied
@@ -59,29 +59,29 @@ guided_study: false
 > 
 > Label the region $R$.
 > 
-> > *First draw the three straight lines, *$3x+2y=12$*, *$y=2x$* and *$x=3$
-> *You may wish to rearrange *$3x+2y=12$* to the form *$y=mx+c$* first:*
+> > *First draw the three straight lines,* $3x+2y=12$*,* $y=2x$ *and* $x=3$
+> *You may wish to rearrange* $3x+2y=12$ *to the form* $y=mx+c$ *first:*
 > 
 > $\begin{gathered} 2 y & = - 3 x + 12 \\ y = - \frac{3}{2} x + 6 \end{gathered}$
 > 
-> > *The line *$3x+2y\geq12$* takes a solid line because of the "≥"*
-> *The lines *$y<2x$* and *$x<3$* take dotted lines because of the "<"*
+> > *The line* $3x+2y\geq12$ *takes a solid line because of the "≥"*
+> *The lines* $y<2x$ *and* $x<3$ *take dotted lines because of the "<"*
 > 
 > ![Graph of lines from question](assets/892486116533-ha0m6zse-picture2.png)
 > 
 > > *Now we need to determine the wanted and unwanted** **regions*
 > 
-> > *For *$3x+2y\geq12$* (or *$y\geq-\frac{3}{2}x+6$*), the wanted region is above the line*
+> > *For* $3x+2y\geq12$ *(or* $y\geq-\frac{3}{2}x+6$*), the wanted region is above the line*
 > *We can check this with the point (0, 0)*
 > 
-> $3 ( 0 ) + 2 ( 0 ) \ge 12$* is false, so (0, 0) does not lie in the wanted region for *$\begin{array}{rcl} 3 x + 2 y & \text{greater} \text{or} \text{equal} \text{than} 12 \end{array}$
+> $3 ( 0 ) + 2 ( 0 ) \ge 12$ *is false, so (0, 0) does not lie in the wanted region for* $\begin{array}{rcl} 3 x + 2 y & \text{greater} \text{or} \text{equal} \text{than} 12 \end{array}$
 > 
-> > *For *$y<2x$*, the wanted region is below the line*
+> > *For* $y<2x$*, the wanted region is below the line*
 > *If unsure, check with another point, for example (1, 0)*
 > 
-> $0 < 2 ( 1 )$* is true, so (1, 0) lies in the wanted region for *$\begin{gathered} y < 2 x \end{gathered}$
+> $0 < 2 ( 1 )$ *is true, so (1, 0) lies in the wanted region for* $\begin{gathered} y < 2 x \end{gathered}$
 > 
-> *For *$x<3$*, the wanted region is to the left of *$x=3$* *
+> *For* $x<3$*, the wanted region is to the left of* $x=3$* *
 > *(If unsure, you could check with a point)*
 > 
 > > *Finally, shade the region that satisfies all three inequalities on the graph*
@@ -136,18 +136,18 @@ Remember that lines are drawn with:
 > 
 > > *Start by determining the equations of the three lines on the graph.*
 > 
-> > *The line through points (0, 0) and (1, 6) has equation  *$y=6x$
-> *The line through points (0, 0) and (2, 2) has equation  *$y=x$
-> *The line through points (0, 7) and (7, 0) has equation  *$y=-x+7$
+> > *The line through points (0, 0) and (1, 6) has equation* $y=6x$
+> *The line through points (0, 0) and (2, 2) has equation* $y=x$
+> *The line through points (0, 7) and (7, 0) has equation* $y=-x+7$
 > 
 > > *Label the lines on the diagram with these equations*
 > 
 > ![Graph with equations of lines added on](assets/47a98d11c2ac-picture4.png)
 > 
-> > *The lines are solid, so all the inequalities will be *$\leq$* or *$\geq$
+> > *The lines are solid, so all the inequalities will be* $\leq$ *or* $\geq$
 > 
-> > *The region is **below** the lines  *$y=-x+7$*  and  *$y=6x$*, so those will be *$\leq$
-> *The region is **above** the line  *$y=x$*, so that will be *$\geq$
+> > *The region is **below** the lines  *$y=-x+7$ *and* $y=6x$*, so those will be* $\leq$
+> *The region is **above** the line  *$y=x$*, so that will be* $\geq$
 > 
 > > *Write down these inequalities for the final answer*
 > 
@@ -157,16 +157,16 @@ Remember that lines are drawn with:
 > 
 > (b) Find the greatest value of $P$.
 > 
-> > *The greatest (and least) values of *$P$* will occur at one of the intersections of the lines bordering the region*
+> > *The greatest (and least) values of* $P$ *will occur at one of the intersections of the lines bordering the region*
 > 
 > > *(These points can be seen on the graph, but it would be worth substituting the coordinates into the equations to make sure)*
 > 
-> > *So we need to find the value of *$P$* at each of those points*
+> > *So we need to find the value of* $P$ *at each of those points*
 > 
-> *For point (0, 0):  *$P = 20 ( 0 ) - 3 ( 0 ) = 0$
+> *For point (0, 0):* $P = 20 ( 0 ) - 3 ( 0 ) = 0$
 > 
-> *For point (1, 6):  *$P = 20 ( 1 ) - 3 ( 6 ) = 2$
+> *For point (1, 6):* $P = 20 ( 1 ) - 3 ( 6 ) = 2$
 > 
-> *For point (3.5, 3.5):  *$P = 20 ( 3.5 ) - 3 ( 3.5 ) = 59.5$
+> *For point (3.5, 3.5):* $P = 20 ( 3.5 ) - 3 ( 3.5 ) = 59.5$
 > 
 > **Final answer:** **The greatest value is**** **$P=59.5$

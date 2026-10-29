@@ -83,7 +83,7 @@ guided_study: false
 *** ***
 
 - *L* is the length of the string
-- 1 wavelength *λ *is only a portion of the length of the string
+- 1 wavelength *λ* is only a portion of the length of the string
 
 > **Worked Example**
 > A stretched string is used to demonstrate a stationary wave, as shown in the diagram.

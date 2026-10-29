@@ -92,7 +92,7 @@ guided_study: false
   - Consumers in B2C markets are often more sensitive to price changes and tend to look for deals or discounts
   - B2B customers are usually more focused on value for money and may require customised pricing or contracts based on the volume purchased
   
-    - E.g., a shopper might choose a different brand of cereal because it’s on special offer, while a retailer negotiating with a wholesaler may request a lower* unit price* for buying 1,000 boxes at once
+    - E.g., a shopper might choose a different brand of cereal because it’s on special offer, while a retailer negotiating with a wholesaler may request a lower *unit price* for buying 1,000 boxes at once
 - **Product knowledge and information needs**
 
   - In B2C sales, customers usually need only basic information to make a decision

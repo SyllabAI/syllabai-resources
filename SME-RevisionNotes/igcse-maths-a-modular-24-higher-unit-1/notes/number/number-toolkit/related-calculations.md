@@ -126,7 +126,7 @@ guided_study: true
 > 
 > $\frac{68.8}{4.3}=\frac{688}{43}$
 > 
-> > *Division is the inverse operation to multiplication *
+> > *Division is the inverse operation to multiplication*
 > 
 > *If 43 × 16 = 688 then 688 ÷ 43 = 16*
 > 

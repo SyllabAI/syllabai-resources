@@ -46,9 +46,9 @@ guided_study: false
 
 - Where:
 
-  - Δ*m *= rest mass of the particle (kg)
+  - Δ*m* = rest mass of the particle (kg)
   - *c* = speed of light (m s<sup>–1</sup>)
-  - Δ*E *= rest mass energy of the particle (J)
+  - Δ*E* = rest mass energy of the particle (J)
 
 - Therefore, in order to create a particle & anti-particle pair, the energy carried by a single photon must be **at least** twice the rest-mass energy required, i.e.
 

@@ -84,11 +84,11 @@ Select the **next edge of least weight** that has not already been chosen
 > - *STEP 2** *
 > *Add the edge of least weight (EH)*
 > 
-> - *STEP 3 *
+> - *STEP 3*
 > *Add the next edge of least weight (DH)*
 > 
 > - *STEP 4** *
-> *Repeat Step 3 *
+> *Repeat Step 3*
 > *Repeat adding the next edge of least weight each time provided it does not create a cycle until all vertices are connected*
 > 
 >   - *Add AB*
@@ -106,8 +106,8 @@ Select the **next edge of least weight** that has not already been chosen
 > 
 > **Answer**:
 > 
-> > *Add up the weights of the edges in the minimum spanning tree  *
+> > *Add up the weights of the edges in the minimum spanning tree*
 > 
-> *1 + 2 + 4 + 5 + 5 + 6 + 7 = 30  *
+> *1 + 2 + 4 + 5 + 5 + 6 + 7 = 30*
 > 
 > **Final answer:** **Total weight = 30**

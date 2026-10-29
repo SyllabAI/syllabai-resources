@@ -101,7 +101,7 @@ guided_study: false
 
 - Government spending can correct under-provision of **merit goods** such as healthcare and education, where the free market produces less than the socially optimal quantity due to imperfect information
 
-  - *Subsidies *to producers or direct provision shifts supply rightward, increasing consumption towards the socially optimal level
+  - *Subsidies* to producers or direct provision shifts supply rightward, increasing consumption towards the socially optimal level
 
 ### To redistribute income and wealth
 

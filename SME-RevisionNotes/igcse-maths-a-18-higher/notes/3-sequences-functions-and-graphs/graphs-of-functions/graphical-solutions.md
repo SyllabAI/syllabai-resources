@@ -22,7 +22,7 @@ guided_study: true
 - Plot** two graphs** on the** same **set of **axes**
 
   - The **points** **of intersection** are where the two lines **meet**
-- For example, plot* y*  = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 on the same axes
+- For example, plot *y*  = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 on the same axes
 
   - They meet twice, as shown
   - The **coordinates** of** intersection** are (-1, -1) and (0, 1)
@@ -31,15 +31,15 @@ guided_study: true
 
 ### How do I solve simultaneous equations graphically?
 
-- The *x* and *y ***solutions** to **simultaneous equations** are the *x *and *y ***coordinates** of the **point of intersection**
-- For example, to solve 2*x *- *y *= 3 and 3*x* + *y* = 7 simultaneously
+- The *x* and *y ***solutions** to **simultaneous equations** are the *x *and* y ***coordinates** of the **point of intersection**
+- For example, to solve 2*x *- *y* = 3 and 3*x* + *y* = 7 simultaneously
 
   - **Rearrange** them into the form ***y***** = *****mx***** + *****c***
   
     - *y* = 2*x* - 3 and *y* = -3*x* + 7
   - Use a** table of values** to plot each line
   - Find the **point of intersection**, (2, 1)
-  - The** solutions **are therefore *x* = 2 and *y *= 1
+  - The** solutions **are therefore *x* = 2 and *y* = 1
 
 ![Solving simultaneous equations graphically](../../../assets/55a239ed49fa-44696-solving-equations-graphically-notes-diagra.png)
 
@@ -86,7 +86,7 @@ guided_study: true
 > *Read off the values where the curve cuts the **x**-axis*
 > *Use a suitable level of accuracy (no more than 2 decimal places from the scale of this graph)*
 > 
-> *-1.12 and 1.12 *
+> *-1.12 and 1.12*
 > 
 > > *These are the two solutions to the equation*
 > 
@@ -102,7 +102,7 @@ guided_study: true
 > > *The function equals 8, so draw the horizontal line **y** = 8*
 > *Find the **x**-coordinates where this cuts the graph  *
 > 
-> *-0.5 and 0.5 *
+> *-0.5 and 0.5*
 > 
 > > *These are the two solutions to the original equation*
 > 
@@ -119,7 +119,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *We are given a different equation to the one plotted so we must rearrange it to *$\mathrm{graph}=mx+c$*, in this case *$x^{3}+x^{2}-3x-1=mx+c$
+> > *We are given a different equation to the one plotted so we must rearrange it to* $\mathrm{graph}=mx+c$*, in this case* $x^{3}+x^{2}-3x-1=mx+c$
 > 
 > $\begin{array}{rcl} x^{3} + x^{2} - 4 x & = 0 \end{array}$
 > 
@@ -127,10 +127,10 @@ guided_study: true
 > 
 > $\begin{array}{rcl} x^{3} + x^{2} - 3 x + 1 & = x - 1 \end{array}$
 > 
-> > *Now plot *$y=x-1$* on the same axes*
+> > *Now plot* $y=x-1$ *on the same axes*
 > 
 > ![The graph of y = x^3 + x^2 - 3x - 1  and the line y = x - 1](assets/87bc44eb4da0-58371-cubic-linear-intersections-after.png)
 > 
-> > *The solutions are the *$x$*-coordinates of where the curve and the straight line intersect*
+> > *The solutions are the* $x$*-coordinates of where the curve and the straight line intersect*
 > 
 > $x=-2.6,x=0,x=1.6$

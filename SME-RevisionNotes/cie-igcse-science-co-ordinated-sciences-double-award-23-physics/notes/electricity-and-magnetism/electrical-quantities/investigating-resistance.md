@@ -24,7 +24,7 @@ guided_study: false
 ### Variables
 
 - *Independent variable* = Length of resistance wire, *L*
-- *Dependent variable* = Resistance,* R*
+- *Dependent variable* = Resistance, *R*
 - Control variables:
 
   - Voltage of the power supply

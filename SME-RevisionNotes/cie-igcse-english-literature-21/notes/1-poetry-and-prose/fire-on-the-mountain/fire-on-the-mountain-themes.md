@@ -302,7 +302,7 @@ Nanda, Ila and Raka are changed people due to the impact of traditional, patriar
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

@@ -74,7 +74,7 @@ guided_study: false
 
 ![Free trade blocs: Countries can trade freely or with reduced restrictions ](../../../assets/7643e60eda9a-edexcel-igcse-economics-shift-trading-blocs.bin)
 
-*Free trade blocs: Countries can trade freely or with reduced restrictions *
+*Free trade blocs: Countries can trade freely or with reduced restrictions*
 
 ### The European Union (EU)
 

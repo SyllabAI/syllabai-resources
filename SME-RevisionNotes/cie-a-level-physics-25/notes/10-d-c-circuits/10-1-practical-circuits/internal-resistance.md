@@ -44,7 +44,7 @@ guided_study: true
   - **Lost volts = *****I***** × *****r***** **(Ohm’s law)
 - The e.m.f is the sum of these potential differences, giving the equation below:
 
-`thin space E equals space I R space plus thin space I r space equals space I open parentheses R space plus thin space r close parentheses`
+`thin E=I R+thin I r=I (R+thin r)`
 
 - Where:
 
@@ -53,7 +53,7 @@ guided_study: true
   - *R* = load resistance (Ω)
   - *r* = internal resistance (Ω)
 - *IR* is collectively known as the 'terminal potential difference'
-- *Ir *is collectively known as the 'lost volts'
+- *Ir* is collectively known as the 'lost volts'
 
 > **Worked Example**
 > A battery of e.m.f 7.3 V and internal resistance *r* of 0.3 Ω is connected in series with a resistor of resistance 9.5 Ω.
@@ -78,7 +78,7 @@ guided_study: true
 > 
 > **Step 2: Use the e.m.f equation to determine the current *****I***
 > 
-> `E thin space equals space I open parentheses R space plus thin space r close parentheses`
+> `E thin=I (R+thin r)`
 > 
 > $I=\frac{E}{R+r}$
 > 

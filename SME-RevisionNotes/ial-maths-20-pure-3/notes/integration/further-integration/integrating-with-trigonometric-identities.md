@@ -45,10 +45,10 @@ guided_study: true
 - The **integral** of **cosec**<sup>**2**</sup>***x*** is **-cot *****x***** (+c)**
 
   - This is because the **derivative** of cot x is -cosec<sup>2</sup>x
-- The **integral** of **tan**<sup>**2**</sup>***x*** can be found by using the identity to rewrite tan<sup>2</sup>*x *before integrating:
+- The **integral** of **tan**<sup>**2**</sup>***x*** can be found by using the identity to rewrite tan<sup>2</sup>*x* before integrating:
 
   - 1 + tan<sup>2</sup>*x* = sec<sup>2</sup>*x*
-- The **integral** of **cot**<sup>**2**</sup>***x*** can be found by using the identity to rewrite cot<sup>2</sup>*x *before integrating:
+- The **integral** of **cot**<sup>**2**</sup>***x*** can be found by using the identity to rewrite cot<sup>2</sup>*x* before integrating:
 
   - 1 + cot<sup>2</sup>*x* = cosec<sup>2</sup>*x*
 

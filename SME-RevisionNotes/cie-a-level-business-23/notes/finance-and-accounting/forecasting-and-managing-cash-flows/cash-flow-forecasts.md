@@ -225,7 +225,7 @@ $\mathrm{Closing} \mathrm{balance}=\mathrm{Net} \mathrm{cash} \mathrm{flow}+\mat
   - **Budget** effectively and consider adopting ***zero budgeting*** to carefully control spending
   - Set clear **financial objectives** and look for ways to **reduce outflows** and **increase inflows** wherever possible
   
-    - E.g. global ***conglomerate*** **3M**, maker of *Post-it *notes, announced in early 2023 that it intends to raise prices and cut about 6,000 jobs to improve its profits and cash flow position
+    - E.g. global ***conglomerate*** **3M**, maker of *Post-it* notes, announced in early 2023 that it intends to raise prices and cut about 6,000 jobs to improve its profits and cash flow position
 - A business can also have **too much cash**
 
   - If a business is **holding large amounts of cash**, it is likely to be **missing out** on the benefits of investing it in fixed *assets* or investments

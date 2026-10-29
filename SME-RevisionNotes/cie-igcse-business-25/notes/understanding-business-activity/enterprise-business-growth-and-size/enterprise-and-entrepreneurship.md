@@ -90,7 +90,7 @@ research, marketing, finance, people, operations"
 
   - Projects the business’s anticipated income from sales
   - Calculated as: **Sales Revenue = Price x Quantity Sold**
-  - Helps plan for *break-even levels *of output
+  - Helps plan for *break-even levels* of output
 - **Forecast costs**
 
   - Predicts *fixed*, *variable*, and total costs to manage spending effectively

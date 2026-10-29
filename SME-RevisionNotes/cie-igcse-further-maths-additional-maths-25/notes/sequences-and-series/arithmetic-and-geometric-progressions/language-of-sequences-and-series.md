@@ -26,7 +26,7 @@ guided_study: false
 - The terms of a progression are often referred to by letters with a subscript
 
   - This will often be the letter *u*
-  - So in the progression above, *u*<sub>*1 *</sub>= 1, *u*<sub>*2 *</sub>= 3, *u*<sub>*3 *</sub>= 5 and so on
+  - So in the progression above, *u*<sub>*1* </sub>= 1, *u*<sub>*2* </sub>= 3, *u*<sub>*3* </sub>= 5 and so on
 - Each term in a progression can be found by **substituting** the term number into **formula for the n**<sup>**th**</sup>** term**
 
 ### What is a series?
@@ -36,11 +36,11 @@ guided_study: false
   - E.g. For the sequence 1, 3, 5, 7, … the associated series is 1 + 3 + 5 + 7 +  …
 - We use the notation *S*<sub>*n*</sub>* *to refer to the sum of the first *n* terms in the series
 
-  - *S*<sub>*n*</sub>* = u*<sub>*1 *</sub>+ *u*<sub>*2 *</sub>+ *u*<sub>*3 *</sub>+ … + *u*<sub>*n*</sub>
-  - So for the series above *S*<sub>*5*</sub>* = *1 + 3 + 5 + 7 + 9 = 25
+  - *S*<sub>*n*</sub>*= u*<sub>*1* </sub>+ *u*<sub>*2* </sub>+ *u*<sub>*3* </sub>+ … + *u*<sub>*n*</sub>
+  - So for the series above *S*<sub>*5*</sub>*=* 1 + 3 + 5 + 7 + 9 = 25
 
 > **Worked Example**
-> Determine the first five terms and the value of *S*<sub>*5*</sub> in the progression with terms defined by *u*<sub>*n *</sub>* = 5 - 2n.*
+> Determine the first five terms and the value of *S*<sub>*5*</sub> in the progression with terms defined by *u*<sub>*n* </sub> *= 5 - 2n.*
 > 
 > > *Substitute **n **in for each term that you want to find. *
 > 
@@ -52,9 +52,9 @@ guided_study: false
 > 
 > **Final answer:** **The first five terms are 3, 1, -1, -3, -5**
 > 
-> > *To find **S*<sub>*5 *</sub>*add the first five terms of the progression together. *
+> > *To find **S*<sub>*5* </sub>*add the first five terms of the progression together.*
 > 
-> `3 space plus space 1 space plus space open parentheses negative 1 close parentheses space plus space open parentheses negative 3 close parentheses space plus space open parentheses negative 5 close parentheses`
+> `3+1+(−1)+(−3)+(−5)`
 > 
 > **Final answer:** **S**<sub>**5 **</sub>**= -5**
 
@@ -76,8 +76,8 @@ guided_study: false
 
 - Be careful, the limits don’t have to start with 1
 
-  - For example `sum from k space equals space 0 to 4 of left parenthesis 2 k plus 1 right parenthesis`  or  `sum from k space equals space 7 to 14 of left parenthesis 2 k minus 13 right parenthesis`
-  - *r *and *k *are commonly used variables within sigma notation
+  - For example `sum from k=0 to 4 of left parenthesis 2k+1 right parenthesis`  or  `sum from k=7 to 14 of left parenthesis 2k−13 right parenthesis`
+  - *r* and *k* are commonly used variables within sigma notation
 
 > **Exam Hint**
 > - Sigma notation will not be tested in the exam but understanding it will help you to further understand series

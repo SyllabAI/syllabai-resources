@@ -50,7 +50,7 @@ guided_study: true
 
 - Write **both** **sides** of the equation over the **same base** number
 
-  - Then work out what* x* should be
+  - Then work out what *x* should be
   $\begin{gathered} 5^{x} & = 125 \\ 5^{x} & = 5^{3} \\ x & = 3 \end{gathered}$
 
 - You might have to use **negative** **indices**
@@ -61,7 +61,7 @@ $\begin{array}{rcl} 2^{x & = \frac{1}{8} \\ 2^{x} & = \frac{1}{2^{3}} \\ 2^{x} &
 > 
 > **Answer:**
 > 
-> *Use *$( a^{m )^{n} = a^{m} n}$
+> *Use* $( a^{m )^{n} = a^{m} n}$
 > 
 > $( u^{5 )^{5} = u^{5} \times 5}$
 > 
@@ -71,11 +71,11 @@ $\begin{array}{rcl} 2^{x & = \frac{1}{8} \\ 2^{x} & = \frac{1}{2^{3}} \\ 2^{x} &
 > 
 > **Answer:**
 > 
-> > *Use *$a^{m}\timesa^{n}=a^{m+n}$* to simplify the numerator*
+> > *Use* $a^{m}\timesa^{n}=a^{m+n}$ *to simplify the numerator*
 > 
 > $q^{2}\timesq^{5}=q^{2+5}=q^{7}$
 > 
-> > *Use *$\frac{a^{m}}{a^{n}}=a^{m-n}$* **to simplify the fraction*
+> > *Use* $\frac{a^{m}}{a^{n}}=a^{m-n}$* **to simplify the fraction*
 > 
 > $\frac{q^{7}}{q^{10}}=q^{7-10}=q^{-3}$
 > 
@@ -83,8 +83,8 @@ $\begin{array}{rcl} 2^{x & = \frac{1}{8} \\ 2^{x} & = \frac{1}{2^{3}} \\ 2^{x} &
 > 
 > > $q^{x}=q^{-3}$* *
 > 
-> > *Both sides are now over the same base of *$q$
+> > *Both sides are now over the same base of* $q$
 > 
-> > *So *$x$* must equal the power on the right-hand side*
+> > *So* $x$ *must equal the power on the right-hand side*
 > 
 > $x=-3$

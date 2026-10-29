@@ -89,7 +89,7 @@ guided_study: false
     - **Negative output gap** - actual real GDP is **below** potential real GDP. The economy has spare capacity and unemployed resources
 - A positive output gap is not "good news" in a simple sense
 
-  - It reflects *overheating *and typically generates inflationary pressure
+  - It reflects *overheating* and typically generates inflationary pressure
 - A negative output gap is not purely "bad news" either
 
   - It reflects spare capacity that can be brought back into use without inflationary consequences.

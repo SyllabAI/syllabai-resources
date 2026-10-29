@@ -51,7 +51,7 @@ how and for whom to produce"
 > 
 > ![Farmer in a hat holds a coffee plant. Arrows indicate a process from coffee plants to coffee beans in a sack, then to money and coffee growth.](assets/ee0237db955b-1910-coffee-case-study.png)
 > 
-> *Incentives and signals in the coffee market *
+> *Incentives and signals in the coffee market*
 > 
 > **Scenario**
 > 

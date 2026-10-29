@@ -135,11 +135,11 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > $\frac{45\times10^{-3}}{0.9\times10^{5}}=\frac{45}{0.9}\times\frac{10^{-3}}{10^{5}}$
 > 
-> > *Work out *$\frac{45}{0.9}$
+> > *Work out* $\frac{45}{0.9}$
 > 
 > $\frac{45}{0.9}=\frac{450}{9}=50$
 > 
-> > *Work out *$\frac{10^{-3}}{10^{5}}$* using laws of indices*
+> > *Work out* $\frac{10^{-3}}{10^{5}}$ *using laws of indices*
 > 
 > $\frac{10^{-3}}{10^{5}}=10^{-3-5}=10^{-8}$
 > 
@@ -147,7 +147,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > `equation`$( 45 \times 10^{- 3} ) \div ( 0.9 \times 10^{5 ) = 50 \times 10^{-8} }$
 > 
-> > *Rewrite in standard form, where *$a$* is between 1 and 10*
+> > *Rewrite in standard form, where* $a$ *is between 1 and 10*
 > 
 > $50\times10^{-8}=5\times10\times10^{-8}=5\times10^{-7}$
 > 
@@ -160,7 +160,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > **Answer:**
 > 
-> > *Rewrite *$2.8\times10^{-6}$* so that the power of 10 matches *$9.7\times10^{-8}$
+> > *Rewrite* $2.8\times10^{-6}$ *so that the power of 10 matches* $9.7\times10^{-8}$
 > 
 > $2.8\times10^{-6}=280\times10^{-8}$
 > 

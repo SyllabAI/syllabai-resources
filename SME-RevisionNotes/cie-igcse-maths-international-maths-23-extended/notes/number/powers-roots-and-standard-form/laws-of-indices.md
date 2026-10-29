@@ -58,7 +58,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{m}\timesa^{n}=a^{m+n}$* we can rewrite the left hand side*
+> > *Using the law of indices* $a^{m}\timesa^{n}=a^{m+n}$ *we can rewrite the left hand side*
 > 
 > * *$6^{10}\times6^{x}=6^{10+x}$
 > 
@@ -78,11 +78,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{m}\diva^{n}=a^{m-n}$* we can rewrite the left hand side*
+> > *Using the law of indices* $a^{m}\diva^{n}=a^{m-n}$ *we can rewrite the left hand side*
 > 
 > $5^{n}\div5^{4}=5^{n-4}$
 > 
-> > *So the equation is now *
+> > *So the equation is now*
 > 
 > $5^{n-4}=5^{6}$
 > 
@@ -98,11 +98,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{-n}=\frac{1}{a^{n}}$* we can rewrite the expression*
+> > *Using the law of indices* $a^{-n}=\frac{1}{a^{n}}$ *we can rewrite the expression*
 > 
 > $2^{-4}=\frac{1}{2^{4}}$
 > 
-> > $2^{4}=2\times2\times2\times2=16$* so we can rewrite the expression*
+> > $2^{4}=2\times2\times2\times2=16$ *so we can rewrite the expression*
 > 
 > $\frac{1}{2^{4}}=\frac{1}{16}$
 > 
@@ -112,11 +112,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Using the law of indices *$a^{-n}=\frac{1}{a^{n}}$* we can rewrite the expression*
+> > *Using the law of indices* $a^{-n}=\frac{1}{a^{n}}$ *we can rewrite the expression*
 > 
 > $8^{-\frac{1}{3}}=\frac{1}{8^{\frac{1}{3}}}$
 > 
-> > *Using the law of indices *$a^{ \frac{1}{n} } = \sqrt[n]{a}$* we can rewrite the expression*
+> > *Using the law of indices* $a^{ \frac{1}{n} } = \sqrt[n]{a}$ *we can rewrite the expression*
 > 
 > $\frac{1}{8^{1 \frac{1}{3}}} = \frac{1}{ \sqrt[3]{8} }$
 > 
@@ -128,13 +128,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use the law of indices *$( a^{m )^{n} = a^{m} n}$* we can rewrite the expression in two ways*
+> > *Use the law of indices* $( a^{m )^{n} = a^{m} n}$ *we can rewrite the expression in two ways*
 > 
-> $81^{ \frac{3}{4} } = ( 81^{3} )^{1 \frac{1}{4}}$* or *$( 81^{1 \frac{1}{4}} )^{3}$
+> $81^{ \frac{3}{4} } = ( 81^{3} )^{1 \frac{1}{4}}$ *or* $( 81^{1 \frac{1}{4}} )^{3}$
 > 
-> > *Both forms are equivalent, but *$( 81^{3} )^{1 \frac{1}{4}}$* would require calculating 81 cubed, so use the second form instead*
+> > *Both forms are equivalent, but* $( 81^{3} )^{1 \frac{1}{4}}$ *would require calculating 81 cubed, so use the second form instead*
 > 
-> > *Using the law of indices *$a^{ \frac{1}{n} } = \sqrt[n]{a}$* we can rewrite the expression*
+> > *Using the law of indices* $a^{ \frac{1}{n} } = \sqrt[n]{a}$ *we can rewrite the expression*
 > 
 > $( 81^{1 \frac{1}{4}} )^{3} = ( \sqrt[4]{81} )^{3}$
 > 

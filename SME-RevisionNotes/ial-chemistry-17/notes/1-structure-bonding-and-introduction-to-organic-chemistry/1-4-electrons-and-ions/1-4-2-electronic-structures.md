@@ -66,7 +66,7 @@ By analysing where the large jumps appear and the number of electrons removed wh
 > **Worked Example**
 > Values for the successive *IE*s of an unknown element are:
 > 
-> *IE*<sub>1 </sub>= **899** kJ mol<sup>-1</sup>, *IE*<sub>2 </sub>= **1757** kJ mol<sup>-1</sup>, *IE*<sub>3 </sub>= **14850** kJ mol<sup>-1</sup>,* IE*<sub>4 </sub>= **21005** kJ mol<sup>-1</sup>
+> *IE*<sub>1 </sub>= **899** kJ mol<sup>-1</sup>, *IE*<sub>2 </sub>= **1757** kJ mol<sup>-1</sup>, *IE*<sub>3 </sub>= **14850** kJ mol<sup>-1</sup>,*IE*<sub>4 </sub>= **21005** kJ mol<sup>-1</sup>
 > 
 > Deduce which group of the periodic table of elements you would expect to find the unknown element.
 > 

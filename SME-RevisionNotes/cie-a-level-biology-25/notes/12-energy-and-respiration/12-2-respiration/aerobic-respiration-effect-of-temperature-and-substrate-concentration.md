@@ -93,7 +93,7 @@ guided_study: true
 
 ### Calculations
 
-- The volume of oxygen consumed (cm<sup>3</sup> min<sup>-1</sup>) can be worked out using the radius of the capillary tube* r* (cm) and the distance moved by the manometer fluid *h* (cm) in a minute using the formula:
+- The volume of oxygen consumed (cm<sup>3</sup> min<sup>-1</sup>) can be worked out using the radius of the capillary tube *r* (cm) and the distance moved by the manometer fluid *h* (cm) in a minute using the formula:
 
 **πr**<sup>**2**</sup>**h**
 

@@ -43,9 +43,9 @@ guided_study: true
 
   - For example:
 
-`sum from r equals 1 to 6 of left parenthesis 4 r plus 7 right parenthesis plus sum from r equals 7 to 11 of left parenthesis 4 r plus 7 right parenthesis equals sum from r equals 1 to 11 of left parenthesis 4 r plus 7 right parenthesis`
+`sum from r=1 to 6 of left parenthesis 4r+7 right parenthesis+sum from r=7 to 11 of left parenthesis 4r+7 right parenthesis=sum from r=1 to 11 of left parenthesis 4r+7 right parenthesis`
 
-`sum from r equals 1 to 100 of left parenthesis 7 cross times 2 to the power of r right parenthesis minus sum from r equals 1 to 50 of left parenthesis 7 cross times 2 to the power of r right parenthesis equals sum from r equals 51 to 100 of left parenthesis 7 cross times 2 to the power of r right parenthesis`
+`sum from r=1 to 100 of left parenthesis 7×2^r right parenthesis−sum from r=1 to 50 of left parenthesis 7×2^r right parenthesis=sum from r=51 to 100 of left parenthesis 7×2^r right parenthesis`
 
 > **Exam Hint**
 > Be careful when more than one letter appears in a sigma notation question.

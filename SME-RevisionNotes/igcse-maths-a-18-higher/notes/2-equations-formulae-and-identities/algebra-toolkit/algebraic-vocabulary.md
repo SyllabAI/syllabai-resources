@@ -23,7 +23,7 @@ guided_study: true
 
   - a letter (**variable**) on its own, or a variable raised to a power
   
-    - For example, *x  *or* x*<sup>2</sup>
+    - For example, *x* or *x*<sup>2</sup>
   - a number on its own
   
     - For example, 20
@@ -113,7 +113,7 @@ guided_study: true
 > 
 > (ii) an equation.
 > 
-> 2*x* + 5 = 4              7*x *– 9            *x *= *vt* – *w*
+> 2*x* + 5 = 4              7*x *– 9            *x* = *vt* – *w*
 > 
 > **Answer:**
 > 
@@ -125,11 +125,11 @@ guided_study: true
 > 
 > (ii)
 > 
-> > *An equation has an equals sign and can be solved *
+> > *An equation has an equals sign and can be solved*
 > 
 > **Final answer:** **2****x**** + 5**** ****=**** ****4  is the equation**
 > 
-> (b) If *x *= 10, *v* = 2 and *w* = 3, use the formula shown to write an equation in *t*.
+> (b) If *x* = 10, *v* = 2 and *w* = 3, use the formula shown to write an equation in *t*.
 > 
 > **Answer:**
 > 

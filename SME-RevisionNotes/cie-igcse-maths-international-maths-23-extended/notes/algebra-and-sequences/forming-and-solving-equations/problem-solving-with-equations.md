@@ -69,7 +69,7 @@ guided_study: true
 > 
 > *14 edges*
 > 
-> > *Multiply this number by the side length, *$x$
+> > *Multiply this number by the side length,* $x$
 > 
 > **Final answer:** **The perimeter of the net shown is **$14x$** cm**
 > 
@@ -81,7 +81,7 @@ guided_study: true
 > 
 > *6 faces*
 > 
-> > *Multiply this number by the area of one face, *$x\timesx=x^{2}$
+> > *Multiply this number by the area of one face,* $x\timesx=x^{2}$
 > 
 > **Final answer:** **The area of the net shown is **$6x^{2}$** cm**<sup>**2**</sup>
 > 
@@ -93,9 +93,9 @@ guided_study: true
 > 
 > > *First find an expression for the volume of the cube*
 > 
-> > *This will have dimensions *$x\timesx\timesx$
+> > *This will have dimensions* $x\timesx\timesx$
 > 
-> *The volume is *$x^{3}$
+> *The volume is* $x^{3}$
 > 
 > > *Then find an expression for the difference between the volume and the surface area in part (b)*
 > 
@@ -109,15 +109,15 @@ guided_study: true
 > 
 > $x^{3}-6x^{2}=8\times14x$
 > 
-> > *Simplify *$8\times14$* and bring all the terms to one side*
+> > *Simplify* $8\times14$ *and bring all the terms to one side*
 > 
 > $\begin{gathered} x^{3} - 6 x^{2} & = 112 x \\ x^{3} - 6 x^{2} - 112 x & = 0 \end{gathered}$
 > 
 > > *You are nearly at the correct equation given in the question*
 > 
-> > *Cancel both sides by *$x$* (as *$x$* cannot be zero)*
+> > *Cancel both sides by* $x$ *(as* $x$ *cannot be zero)*
 > 
-> > *To show this, you can factorise out an *$x$* first*
+> > *To show this, you can factorise out an* $x$ *first*
 > 
 > $\cancel{x} ( x^{2} - 6 x - 112 ) = 0$
 > 
@@ -129,9 +129,9 @@ guided_study: true
 > 
 > > *Hence means use the previous results*
 > 
-> > *The volume of the cube is *$x^{3}$* which involves an unknown, *$x$
+> > *The volume of the cube is* $x^{3}$ *which involves an unknown,* $x$
 > 
-> > *To find *$x$*, solve the equation in part (c), for example using the quadratic formula*
+> > *To find* $x$*, solve the equation in part (c), for example using the quadratic formula*
 > 
 > $\begin{gathered} x = \frac{6 \pm \sqrt{( - 6 )^{2} - 4 \times 1 \times ( - 112 )} }{2} \\ = \frac{6 \pm \sqrt{484} }{2} \\ = \frac{6 \pm 22}{2} \end{gathered}$
 > 
@@ -139,11 +139,11 @@ guided_study: true
 > 
 > *14 or -8*
 > 
-> > *The side length *$x$* cannot be a negative number*
+> > *The side length* $x$ *cannot be a negative number*
 > 
 > $x=14$
 > 
-> > *Substitute this into *$x^{3}$* to find the volume*
+> > *Substitute this into* $x^{3}$ *to find the volume*
 > 
 > $14^{3}$
 > 

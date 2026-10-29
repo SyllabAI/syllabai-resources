@@ -56,7 +56,7 @@ guided_study: true
   - For example, make *x* the subject of the formula *x*<sup>2</sup> + 6*x* = *y*
   
     - Complete the square: (*x* + 3)<sup>2</sup> – 9 = *y*
-    - Add 9 to both sides: (*x *+ 3)<sup>2</sup> = *y* + 9
+    - Add 9 to both sides: (*x* + 3)<sup>2</sup> = *y* + 9
     - Take square roots and use ±:  $x+3=\pm\sqrt{y+9}$
     - Subtract 3:  $x=-3\pm\sqrt{y+9}$
 - Completing the square **always works**
@@ -78,7 +78,7 @@ guided_study: true
 > 
 > $x = \frac{- ( - 7 ) \pm \sqrt{( - 7 )^{2} - 4 \times 1 \times 2} }{2 \times 1}$
 > 
-> > *Use a calculator to find each solution *
+> > *Use a calculator to find each solution*
 > 
 > **x*** = 6.70156… or 0.2984...*
 > 
@@ -137,7 +137,7 @@ guided_study: true
 > 
 > $\begin{gathered} x^{2} + 6 x & = ( x + 3 )^{2} - 3^{2} \\ = ( x + 3 )^{2} - 9 \end{gathered}$
 > 
-> > *Replace **x*<sup>*2*</sup>* + 6**x **with (**x** + 3)*<sup>*2*</sup>* – 9 in the equation*
+> > *Replace **x*<sup>*2*</sup>* + 6**x **with (**x** + 3)*<sup>*2*</sup> *– 9 in the equation*
 > 
 > $\begin{gathered} ( x + 3 )^{2} - 9 + 5 & = 0 \\ ( x + 3 )^{2} - 4 & = 0 \end{gathered}$
 > 

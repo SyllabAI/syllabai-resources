@@ -54,7 +54,7 @@ resources or a decrease in the quality of resources
 
   - Skills shortages due to underinvestment in education and training
   - An ageing or unhealthy population reduces workforce effectiveness
-  - The poor maintenance of *infrastructure *slows down production
+  - The poor maintenance of *infrastructure* slows down production
 - A reduction on the quality of the factors of production causes long-term declines in *productive capacity*
 - The **economic decline (recession)** caused by supply-side interruptions can be illustrated using a production possibility curve (PPC)
 
@@ -114,7 +114,7 @@ resources or a decrease in the quality of resources
 | **Consumers** | **Workers** |
 |---|---|
 | - Lower disposable income reduces the ability to buy goods and services | - Job losses as firms cut staff to reduce costs |
-| - Falling house prices and *share *values can reduce household wealth | - Higher unemployment rates, especially in luxury industries |
+| - Falling house prices and *share* values can reduce household wealth | - Higher unemployment rates, especially in luxury industries |
 | - Reduced access to credit as banks tighten lending criteria | - Increased competition for fewer job vacancies |
 | - Decline in consumer confidence leads to postponement of major purchases | - Wage freezes or reductions as firms try to survive |
 | - Higher risk of poverty, especially for low-income households | - Reduced working hours or shift patterns to save on wage bills |

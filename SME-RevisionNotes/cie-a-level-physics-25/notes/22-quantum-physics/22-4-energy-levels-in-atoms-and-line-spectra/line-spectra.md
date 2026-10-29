@@ -36,7 +36,7 @@ $\DeltaE=hf=\frac{hc}{λ}$
 
 - Where:
 
-  - Δ*E *= change in energy level (J)
+  - Δ*E* = change in energy level (J)
   - *h* = *Planck’s constant* (J s)
   - *f* = frequency of photon (Hz)
   - *c* = *the speed of light* (m s<sup>-1</sup>)

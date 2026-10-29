@@ -54,10 +54,10 @@ guided_study: false
 > 
 > **Answer:**
 >   
-> *The matrix *$M$* can be written as a multiple of the identity matrix, *$I$
+> *The matrix* $M$ *can be written as a multiple of the identity matrix,* $I$
 > 
 > $( \begin{gathered} 1 \frac{1}{4} & 0 \\ 0 1 \frac{1}{4} \end{gathered} ) = 1 \frac{1}{4} ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$
 > 
-> > *So the unit square is being scaled by *$\frac{1}{4}$
+> > *So the unit square is being scaled by* $\frac{1}{4}$
 > 
 > **Final answer:** **Enlargement by scale factor **$\frac{1}{4}$**with centre at the origin**

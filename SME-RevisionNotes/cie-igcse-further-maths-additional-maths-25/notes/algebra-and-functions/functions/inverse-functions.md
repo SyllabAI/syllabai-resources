@@ -27,7 +27,7 @@ guided_study: false
 
 ### How do I write inverse functions?
 
-- An inverse function f<sup>-1</sup> can be written as $f^{-1}(x)=\dots$ or  `f ^ - 1 colon x -> from bar horizontal ellipsis`
+- An inverse function f<sup>-1</sup> can be written as $f^{-1}(x)=\dots$ or  `f ^ - 1 colon x ->from bar …`
 
   - For example, if $f(x)=2x+1$ its inverse can be written as
   - $f^{-1}(x)=\frac{(x--1)}{2}$  or   $\mathrm{f}^{- 1} : x \rightarrow \text{from} \text{bar} \frac{( x - 1 )}{2}$
@@ -80,11 +80,11 @@ $\begin{gathered} ff^{- 1} ( x ) & = \mathrm{f} ( 5 ) \\ x = \mathrm{f} ( 5 ) \\
 > **Worked Example**
 > Find the inverse of the function $\mathrm{f} ( x ) = 5 - 3 x$.
 > 
-> > *Write the function in the form *$y=5-3x$* and then swap the *$x$* and *$y.$*  *
+> > *Write the function in the form* $y=5-3x$ *and then swap the* $x$ *and* $y.$*  *
 > 
 > $y=5-3x\,x=5-3y$
 > 
-> > *Rearrange **the expression to make *$y$* the subject again.*
+> > *Rearrange **the expression to make *$y$ *the subject again.*
 > 
 > $\begin{gathered} x & = 5 - 3 y \\ x + 3 y & = 5 \\ 3 y & = 5 - x \\ y & = \frac{5 - x}{3} \end{gathered}$
 > 
@@ -112,7 +112,7 @@ $\begin{gathered} ff^{- 1} ( x ) & = \mathrm{f} ( 5 ) \\ x = \mathrm{f} ( 5 ) \\
 > 
 > > *The domain of an inverse function is the range of the function.*
 > 
-> > *The range of *$\mathrm{f} ( x )$* is*
+> > *The range of* $\mathrm{f} ( x )$ *is*
 > 
 > $f>0$
 > 
@@ -174,13 +174,13 @@ $\begin{gathered} ff^{- 1} ( x ) & = \mathrm{f} ( 5 ) \\ x = \mathrm{f} ( 5 ) \\
 > 
 > a)On a copy of the diagram, sketch the graph of $y = \mathrm{f}^{- 1} ( x )$. Label the point where the graph crosses the $y$-axis and write down the equation of the asymptote.
 > 
-> > *The graph of an inverse function is the reflection of the graph of that function in the line *$y=x$*.*
+> > *The graph of an inverse function is the reflection of the graph of that function in the line* $y=x$*.*
 > 
-> > *Draw the line *$y=x$* to help sketch the inverse function.*
+> > *Draw the line* $y=x$ *to help sketch the inverse function.*
 > 
-> > *The *$x$*-axis intercept *$( 1 , 0 )$* becomes the *$y$*-axis intercept, *$( 0 , 1 )$*.*
+> > *The* $x$*-axis intercept* $( 1 , 0 )$ *becomes the* $y$*-axis intercept,* $( 0 , 1 )$*.*
 > 
-> > *The (horizontal) asymptote *$y=4$* will. become the (vertical) asymptote *$x=4$*.*
+> > *The (horizontal) asymptote* $y=4$ *will. become the (vertical) asymptote* $x=4$*.*
 > 
 > ![desmos-graph-5](assets/b1aa33d82ebb-desmos-graph-5.png)
 > 
@@ -188,9 +188,9 @@ $\begin{gathered} ff^{- 1} ( x ) & = \mathrm{f} ( 5 ) \\ x = \mathrm{f} ( 5 ) \\
 > 
 > > *This will be the point at which the two graphs meet.*
 > 
-> > *The point will be on the line *$y=x$* so there is no need to work out *$\mathrm{f}^{- 1} ( x )$*.*
+> > *The point will be on the line* $y=x$ *so there is no need to work out* $\mathrm{f}^{- 1} ( x )$*.*
 > 
-> > *By sketching the graph in part (a) this point (with coordinates *$( 2 , 2 )$*) should have already been considered. Only the *$x$* value is required.*
+> > *By sketching the graph in part (a) this point (with coordinates* $( 2 , 2 )$*) should have already been considered. Only the* $x$ *value is required.*
 > 
 > $x=2$
 > 

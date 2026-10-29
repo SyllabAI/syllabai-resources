@@ -98,26 +98,26 @@ guided_study: false
 > 
 > (a)  Using $x_{0}=2$ as the first approximation to the  solution, apply the Newton-Raphson method to find a second approximation.
 > 
-> > *Rearrange the formula into the form *$\mathrm{f} ( x ) = 0$
+> > *Rearrange the formula into the form* $\mathrm{f} ( x ) = 0$
 > 
-> $2x^{4}-4x^{3}+1=0$*  so  *$\mathrm{f} ( x ) = 2 x^{4} - 4 x^{3} + 1$
+> $2x^{4}-4x^{3}+1=0$ *so* $\mathrm{f} ( x ) = 2 x^{4} - 4 x^{3} + 1$
 > 
-> > *(You could also use *$-1+4x^{3}-2x^{4}$*)*
-> *Find *$\mathrm{f} ' ( x )$* using differentiation*
+> > *(You could also use* $-1+4x^{3}-2x^{4}$*)*
+> *Find* $\mathrm{f} ' ( x )$ *using differentiation*
 > 
 > $\mathrm{f} ' ( x ) = 8 x^{3} - 12 x^{2}$
 > 
-> > *Substitute *$\mathrm{f} ( x )$* and *$\mathrm{f} ' ( x )$* into the Newton-Raphson formula *$x_{n + 1} = x_{n} - \frac{ \mathrm{f} ( x_{n} )}{ \mathrm{f} ' ( x_{n} )}$
+> > *Substitute* $\mathrm{f} ( x )$ *and* $\mathrm{f} ' ( x )$ *into the Newton-Raphson formula* $x_{n + 1} = x_{n} - \frac{ \mathrm{f} ( x_{n} )}{ \mathrm{f} ' ( x_{n} )}$
 > 
 > $x_{n + 1} = x_{n} - \frac{( 2 x_{n}^{4} - 4 x_{n}^{3} + 1 )}{( 8 x_{n}^{3} - 12 x_{n}^{2} )}$
 > 
-> > *Substitute *$x_{0}=2$* into the formula to get *$x_{1}$
+> > *Substitute* $x_{0}=2$ *into the formula to get* $x_{1}$
 > 
 > $x_{1} = 2 - \frac{( 2 \times 2^{4} - 4 \times 2^{3} + 1 )}{( 8 \times 2^{3} - 12 \times 2^{2} )} 
 > = 2 - \frac{1}{16} 
 > = 1.9375$
 > 
-> > *Check this solution lies in the interval *$[ 1 , 2 ]$
+> > *Check this solution lies in the interval* $[ 1 , 2 ]$
 > 
 > $x_{1}=1.9375$
 > 
@@ -125,12 +125,12 @@ guided_study: false
 > 
 > (b)  Explain why the midpoint of the interval $( 1 , 2 )$ cannot be used as the first approximation when applying the Newton-Raphson method.
 > 
-> > *The Newton-Raphson method fails if *$x_{0}$* satisfies *$\mathrm{f} ' ( x_{0} ) = 0$
+> > *The Newton-Raphson method fails if* $x_{0}$ *satisfies* $\mathrm{f} ' ( x_{0} ) = 0$
 > *Find the midpoint of the interval*
 > 
 > $x_{0}=\frac{1+2}{2}=1.5$
 > 
-> > *Check if *$\mathrm{f} ' ( 1.5 ) = 0$
+> > *Check if* $\mathrm{f} ' ( 1.5 ) = 0$
 > 
 > $\mathrm{f} ' ( 1.5 ) = 8 \times 1.5^{3} - 12 \times 1.5^{2} = 0$
 > 

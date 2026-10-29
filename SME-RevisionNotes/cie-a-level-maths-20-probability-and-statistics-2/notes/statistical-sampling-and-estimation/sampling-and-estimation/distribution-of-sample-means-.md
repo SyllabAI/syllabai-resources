@@ -34,7 +34,7 @@ guided_study: true
   - Mean, $\overline{x}$ = *µ*
   - Variance $\frac{σ^{2}}{n}$
   - Standard deviation $\frac{σ}{\sqrt{n}}$
-- For a random variable `X tilde straight N left parenthesis mu comma sigma squared right parenthesis` the distribution of the sample mean would be `stack X space with bar on top tilde N open parentheses mu comma sigma squared over n close parentheses`
+- For a random variable `X tilde straight N left parenthesis μ comma σ ² right parenthesis` the distribution of the sample mean would be `stack X with bar on top tilde N (μ comma σ ² / n)`
 - The standard deviation of the distribution of the sample means depends on the sample size, $n$
 
   - It is inversely proportional to the square root of the sample size
@@ -43,7 +43,7 @@ guided_study: true
 ![5-3-1-sample-means-diagram-1](../../../assets/9277ccbb9aa1-5-3-1-sample-means-diagram-1.png)
 
 > **Worked Example**
-> A random sample of 10 observations is taken from the population of the random variable `X tilde N space left parenthesis 30 space comma space 25 right parenthesis` and the sample mean is calculated as $\overline{x}$ .  Write down the distribution of the sample mean, $\overline{X}$
+> A random sample of 10 observations is taken from the population of the random variable `X tilde N left parenthesis 30 comma 25 right parenthesis` and the sample mean is calculated as $\overline{x}$ .  Write down the distribution of the sample mean, $\overline{X}$
 > 
 > **Answer:**
 > 
@@ -68,7 +68,7 @@ guided_study: true
 
 #### What is the central limit theorem?
 
-- If a **random sample** of **size n** is taken from a population with **mean ***µ*** ** and **variance **$σ^{2}$  then the **Central Limit Theorem** states that $\overline{X}$ can be **approximated** by the **normal distribution** `straight N open parentheses mu comma sigma squared over n close parentheses` provided **n is large** enough
+- If a **random sample** of **size n** is taken from a population with **mean ***µ*** ** and **variance **$σ^{2}$  then the **Central Limit Theorem** states that $\overline{X}$ can be **approximated** by the **normal distribution** `straight N (μ comma σ ² / n)` provided **n is large** enough
 
   - Notice the variance is still divided by the size of the sample
 - We usually say n is large enough if it is **at least 30**

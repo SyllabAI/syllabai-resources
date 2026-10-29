@@ -53,7 +53,7 @@ guided_study: false
 
   - \$20+ a day
 - Most people have a high standard of living
-- Economies are dominated by *tertiary *and *quaternary *industries
+- Economies are dominated by *tertiary* and *quaternary* industries
 - Healthcare, education and infrastructure are well developed
 - Birth rates are low and life expectancy is high
 - Examples include USA, Germany, Japan, UK, Canada, Australia, Singapore, and Switzerland
@@ -92,7 +92,7 @@ guided_study: false
 
 ![Population pyramid of the United States in 2018, showing males in blue and females in red, divided by age groups, with population in millions on the x-axis.](../../../assets/6b120f030083-2444-population-pyramid-usa.png)
 
-*Stationary moving to constrictive population pyramid *
+*Stationary moving to constrictive population pyramid*
 
 ### Direct comparison of population structure
 

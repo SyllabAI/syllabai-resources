@@ -124,7 +124,7 @@ guided_study: false
 > **Worked Example**
 > The empirical formula of **X** is C<sub>4</sub>H<sub>10</sub>S<sub>1</sub>
 > 
-> The relative formula mass (*M*<sub>*r *</sub>) of **X** is 180.
+> The relative formula mass (*M*<sub>*r* </sub>) of **X** is 180.
 > 
 > Calculate the molecular formula of **X**.
 > 
@@ -134,7 +134,7 @@ guided_study: false
 > 
 > 1. Calculate the relative formula mass of the empirical formula:
 > 
->   - *M*<sub>*r *</sub>=  (12 x 4) + (1 x 10) + (32 x 1)   =   90
+>   - *M*<sub>*r* </sub>=  (12 x 4) + (1 x 10) + (32 x 1)   =   90
 > 2. Divide the relative formula mass of **X** by the relative formula mass of empirical formula:
 > 
 >   - 180 / 90 = 2

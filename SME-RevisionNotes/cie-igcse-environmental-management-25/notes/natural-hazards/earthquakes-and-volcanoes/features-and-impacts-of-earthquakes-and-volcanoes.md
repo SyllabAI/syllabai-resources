@@ -222,13 +222,13 @@ guided_study: false
 - **Loss of crops, livestock and habitats**
 
   - Ash covers farmland; lava buries fields, causing the death of crops
-  - Earthquakes can destroy *irrigation *and greenhouses
+  - Earthquakes can destroy *irrigation* and greenhouses
   - Wildlife habitats burn or become uninhabitable
   - This leads to food shortages and affects farmers' income
 - **Evacuation of people and livestock**
 
   - Volcanic warnings often lead to mass evacuations
-  - *Tsunami *threats require rapid coastal evacuation
+  - *Tsunami* threats require rapid coastal evacuation
   - Evacuation disrupts livelihoods and may become long-term
 - **Fire**
 

@@ -91,7 +91,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The input is *$x=7$*, so substitute 7 into the expression everywhere you see an *$x$
+> > *The input is* $x=7$*, so substitute 7 into the expression everywhere you see an* $x$
 > 
 > $\mathrm{f} ( 7 ) = 3 ( 7 )^{2} - 2 ( 7 ) + 1$*  *
 > 
@@ -105,13 +105,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The input is *$( x + 3 )$* so substitute *$( x + 3 )$* into the expression everywhere you see an *$x$
-> *This is like replacing *$x$* with *$( x + 3 )$
+> > *The input is* $( x + 3 )$ *so substitute* $( x + 3 )$ *into the expression everywhere you see an* $x$
+> *This is like replacing* $x$ *with* $( x + 3 )$
 > 
 > $\mathrm{f} ( x + 3 ) = 3 ( x + 3 )^{2} - 2 ( x + 3 ) + 1$
 > 
 > > *Expand the brackets and simplify*
-> *Use that *$( x + 3 )^{2} = ( x + 3 ) ( x + 3 )$
+> *Use that* $( x + 3 )^{2} = ( x + 3 ) ( x + 3 )$
 > *Be careful with negative signs*
 > 
 > $\begin{gathered} \mathrm{f} ( x + 3 ) & = 3 ( x^{2} + 6 x + 9 ) - 2 ( x + 3 ) + 1 \\ = 3 x^{2} + 18 x + 27 - 2 x - 6 + 1 \\ = 3 x^{2} + 16 x + 22 \end{gathered}$
@@ -127,8 +127,8 @@ guided_study: true
 > **Answer:**
 > 
 > > *This is not saying substitute 16 into the function*
-> *It says that an input  *$x$* is substituted into *$g$* giving the output -16*
-> *To find the input, form an equation by replacing *$\mathrm{g} ( x )$* with *$3x-4$
+> *It says that an input* $x$ *is substituted into* $g$ *giving the output -16*
+> *To find the input, form an equation by replacing* $\mathrm{g} ( x )$ *with* $3x-4$
 > 
 > $\begin{gathered} 3 x - 4 & = - 16 \end{gathered}$
 > 

@@ -36,7 +36,7 @@ guided_study: false
   - *A* does vary slightly with temperature but it can still be considered a constant
 
   - *R* is a fundamental physical constant for all reactions
-  - *k* and *T *are the only variables in the Arrhenius equation
+  - *k* and *T* are the only variables in the Arrhenius equation
 - The Arrhenius equation is used to describe reactions that involve gases, reactions occurring in solution or reactions that occur on the surface of a catalyst
 
 #### Finding the Activation Energy

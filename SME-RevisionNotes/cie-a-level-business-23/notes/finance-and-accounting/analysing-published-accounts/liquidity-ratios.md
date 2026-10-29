@@ -31,7 +31,7 @@ guided_study: false
 ## The current ratio
 
 - The Current Ratio is a **quick way** to measure *liquidity* and the outcome is **expressed as a ratio**
-- All forms of *current asset *are considered in this ratio
+- All forms of *current asset* are considered in this ratio
 - The current ratio is an effective **liquidity **measure for businesses that **hold little stock**
 - The result indicates how well **current assets** **can cover short-term debt**
 - It is calculated using the formula

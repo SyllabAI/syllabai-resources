@@ -71,14 +71,14 @@ guided_study: false
 > 
 > ![Minor sector with minor arc, angle and radius](assets/f508908880f1-igcse-fpure-arc-length-we-1.png)
 > 
-> > *Use the arc length formula (in the degrees form) with *$r=12$* and *$θ=38$
-> *(You could also convert *$38^{\circ}$* to radians and use the radians version of the formula)*
+> > *Use the arc length formula (in the degrees form) with* $r=12$ *and* $θ=38$
+> *(You could also convert* $38^{\circ}$ *to radians and use the radians version of the formula)*
 > 
 > $l = \frac{38}{360} \times 2 \pi ( 12 ) = \frac{38 \pi }{15} = 7.958701...$
 > 
 > > *Round to 3 significant figures*
 > 
-> > *(Note that *$\frac{38π}{15}$* cm is the exact value answer)*
+> > *(Note that* $\frac{38π}{15}$ *cm is the exact value answer)*
 > 
 > $7.96\mathrm{cm}(3s.f.)$
 > 
@@ -88,19 +88,19 @@ guided_study: false
 > 
 > > *The remaining pizza will be in the shape of a major sector*
 > 
-> > *The angle at the centre will be  *$360-38=322^{\circ}$
+> > *The angle at the centre will be* $360-38=322^{\circ}$
 > 
 > ![Major sector of circle with radius and angle at centre](assets/040aa54c3c7e-igcse-fpure-arc-length-we-2.png)
 > 
 > > *The perimeter will include both the major arc and the two radii*
 > 
-> > *Use the arc length formula (in the degrees form) with *$r=12$* and *$θ=322$
+> > *Use the arc length formula (in the degrees form) with* $r=12$ *and* $θ=322$
 > 
 > $\text{perimeter} = ( \frac{322}{360} \times 2 \pi ( 12 ) ) + 12 + 12 = \frac{322 \pi }{15} + 24 = 91.439522...$
 > 
 > > *Round to 3 significant figures*
 > 
-> > *(Note that *$\frac{322π}{15}+24$* cm is the exact value answer)*
+> > *(Note that* $\frac{322π}{15}+24$ *cm is the exact value answer)*
 > 
 > **Final answer:** **91.4 cm (3 s.f.)**
 
@@ -113,7 +113,7 @@ guided_study: false
 > 
 > > *The perimeter of sector will include both the length of the arc and the two radii*
 > 
-> > *Use the arc length formula (in the radians form) with *$r=7$* and *$θ=\frac{π}{6}$
+> > *Use the arc length formula (in the radians form) with* $r=7$ *and* $θ=\frac{π}{6}$
 > 
 > $\text{perimeter} = ( 7 ) ( \frac{\pi }{6} ) + 7 + 7 = \frac{7 \pi }{6} + 14$
 > 
@@ -177,15 +177,15 @@ guided_study: false
 > 
 > ![Circle with minor and major sectors](assets/1aa0e8a333da-igcse-fpure-sector-area-we-1.png)
 > 
-> > *Use the sector area formula (degrees form) with *$r=50$* and *$θ=100$
+> > *Use the sector area formula (degrees form) with* $r=50$ *and* $θ=100$
 > 
-> > *(You could also convert *$100^{\circ}$* to radians and use the radians version of the formula)*
+> > *(You could also convert* $100^{\circ}$ *to radians and use the radians version of the formula)*
 > 
 > $A = \frac{100}{360} \times \pi ( 50 )^{2} = \frac{6250 \pi }{9} = 2181.6615...$
 > 
 > > *Round to 3 significant figures*
 > 
-> > *(Note that *$\frac{6250π}{9}$* cm*<sup>*2*</sup>* is the exact value answer) *
+> > *(Note that* $\frac{6250π}{9}$ *cm*<sup>*2*</sup> *is the exact value answer)*
 > 
 > $2180\mathrm{cm}^{2}(3s.f.)$
 > 
@@ -193,13 +193,13 @@ guided_study: false
 > 
 > > *This will be the rest of the circle from the preceding diagram*
 > 
-> > *Use the sector area formula (degrees form) with *$r=50$* and *$θ=260$
+> > *Use the sector area formula (degrees form) with* $r=50$ *and* $θ=260$
 > 
 > $A = \frac{260}{160} \times \pi ( 50 )^{2} = \frac{16250 \pi }{9} = 5672.3200...$
 > 
 > > *Round to 3 significant figures*
 > 
-> > *(Note that *$\frac{16250π}{9}$* cm*<sup>*2*</sup>* is the exact value answer)*
+> > *(Note that* $\frac{16250π}{9}$ *cm*<sup>*2*</sup> *is the exact value answer)*
 > 
 > $5670\mathrm{cm}^{2}(3s.f.)$
 
@@ -210,7 +210,7 @@ guided_study: false
 > 
 > ![Circle sector with radius and angle a centre](assets/eee72845cbd2-igcse-fpure-arc-length-we-3.png)
 > 
-> > *Use the sector area formula (radians form) with *$r=7$* and *$θ=\frac{π}{6}$
+> > *Use the sector area formula (radians form) with* $r=7$ *and* $θ=\frac{π}{6}$
 > 
 > $A = 1 \frac{1}{2} ( 7 )^{2} ( \frac{\pi }{6} ) = \frac{49 \pi }{12}$
 > 

@@ -154,7 +154,7 @@ $R=\frac{V}{I}$
   - the *I-V* graph is not a straight line, so voltage and current do **not **increase (or decrease) by the same amount
   - the slope of the graph is not constant, so resistance **changes**
 
-- The *I-V *graph for a filament lamp shows that as voltage increases:
+- The *I-V* graph for a filament lamp shows that as voltage increases:
 
   - the current increases at a proportionally **slower **rate
   - the resistance **increases**;** **the flatter the slope, the higher the resistance

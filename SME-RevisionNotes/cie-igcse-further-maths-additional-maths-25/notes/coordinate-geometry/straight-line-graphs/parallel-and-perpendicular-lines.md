@@ -43,23 +43,23 @@ guided_study: false
 > **Worked Example**
 > Find the equation of the line that is parallel to $y=3x+7$ and passes through (2,1).
 > 
-> > *As the gradient is the same, the line that is parallel will be in the form: *
+> > *As the gradient is the same, the line that is parallel will be in the form:*
 > 
 > $y=3x+d$
 > 
-> > *Substitute in the coordinate that the line passes through: *
+> > *Substitute in the coordinate that the line passes through:*
 > 
 > $1 = 3 ( 2 ) + d$
 > 
-> > *Simplify: *
+> > *Simplify:*
 > 
 > $1=6+d$
 > 
-> > *Subtract 6 from both sides: *
+> > *Subtract 6 from both sides:*
 > 
 > $-5=d$
 > 
-> > *Final answer: *
+> > *Final answer:*
 > 
 > $y=3x-5$
 > 
@@ -87,7 +87,7 @@ guided_study: false
   - If their product is -1 then they are perpendicular
 - Be careful with horizontal and vertical lines
 
-  - $x=p$ and $y=q$ are perpendicular where *p *and *q *are constants
+  - $x=p$ and $y=q$ are perpendicular where *p* and *q* are constants
 
 ![Equations of perpendicular lines](../../../assets/94028e9e876f-3-1-2-parallel-perpendicular-gradients-notes-dia.png)
 
@@ -101,7 +101,7 @@ guided_study: false
 > 
 > Leave your answer in the form $ax+by+c=0$ where $a,b,c$ are integers.
 > 
-> > *L** is in the form *$y=mx+c$* so we can see that its gradient is 2*
+> > *L** is in the form *$y=mx+c$ *so we can see that its gradient is 2*
 > 
 > $m_{1}=2$
 > 
@@ -109,15 +109,15 @@ guided_study: false
 > 
 > $m_{2}=-\frac{1}{2}$
 > 
-> > *Now we need to find *$c$* for the line we're after Do this by substituting the point *$( 2 , - 3 )$* into the equation *$y=-\frac{1}{2}x+c$* and solving for *$c$
+> > *Now we need to find* $c$ *for the line we're after Do this by substituting the point* $( 2 , - 3 )$ *into the equation* $y=-\frac{1}{2}x+c$ *and solving for* $c$
 > 
 > $\begin{array}{rcl} - 3 & = - 1 \frac{1}{2} \times 2 + c \\ - 3 & = - 1 + c \\ c = - 2 \end{array}$
 > 
-> > *Now we know the line we want is *
+> > *Now we know the line we want is*
 > 
 > $\begin{array}{rcl} y = - 1 \frac{1}{2} x - 2 \end{array}$
 > 
-> > *But this is not in the form asked for in the question. So rearrange into the form *$ax+by+c=0$* where *$a$*, *$b$* and *$c$* are integers*
+> > *But this is not in the form asked for in the question. So rearrange into the form* $ax+by+c=0$ *where* $a$*,* $b$ *and* $c$ *are integers*
 > 
 > $\begin{array}{rcl} y + 1 \frac{1}{2} x + 2 & = 0 \\ 2 y + x + 4 & = 0 \end{array}$
 > 

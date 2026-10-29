@@ -80,15 +80,15 @@ guided_study: true
 > 
 > > *Let the number of red flowers be** x*
 > 
-> $x$* red flowers*
+> $x$ *red flowers*
 > 
 > > *Multiply this by 3 to get the number of yellow flowers*
 > 
-> $3x$* yellow flowers*
+> $3x$ *yellow flowers*
 > 
 > > *Add 5 to the previous result to get the number of purple flowers*
 > 
-> $3x+5$* purple flowers*
+> $3x+5$ *purple flowers*
 > 
 > > *Find the difference between the number of purple and red flowers (purple subtract red, as purple is larger)*
 > 

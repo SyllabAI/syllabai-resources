@@ -33,7 +33,7 @@ In order to answer an essay question on any poem, it is important to understand 
 
 ### 'Song: Love Armed' overview
 
-Aphra Behn, a *Restoration*** **poet and dramatist, subverts traditional ideals of romantic love in her poem 'Song: Love Armed', taken from her 1676 revenge play Abdelazer; or, the Moor's Revenge*.* The play opens with this song playing.* *In the song (or poem), the speaker describes love as a destructive force by representing it as a warrior, gloating over the “bleeding hearts” he has conquered.
+Aphra Behn, a *Restoration*** **poet and dramatist, subverts traditional ideals of romantic love in her poem 'Song: Love Armed', taken from her 1676 revenge play Abdelazer; or, the Moor's Revenge*.*The play opens with this song playing.* *In the song (or poem), the speaker describes love as a destructive force by representing it as a warrior, gloating over the “bleeding hearts” he has conquered.
 
 ### 'Song: Love Armed' breakdown
 

@@ -24,7 +24,7 @@ guided_study: true
   - i.e. if $z^{2}=a+bi$ then $z=c+di$
 - We can then square ($c+di$) and equate it to the original complex number ($a+bi$), as they both describe $z^{2}$:
 
-  - `a plus b straight i equals open parentheses c plus d straight i close parentheses squared`
+  - `a+b straight i=(c+d straight i)²`
 - Then expand and simplify:
 
   - $a+bi=c^{2}+2cdi+d^{2}i^{2}$

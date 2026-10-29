@@ -97,7 +97,7 @@ guided_study: false
 | - Combined with Laffer curve insight, can identify revenue-raising tax structures | - Above the revenue-maximising rate, tax rises reduce revenue and harm growth |
 
 > **Worked Example**
-> *In 2022, many countries experienced a high rate of inflation caused by disruptions to the supply of goods and services. In one country, the government cut taxes and the central bank raised interest rates. *
+> *In 2022, many countries experienced a high rate of inflation caused by disruptions to the supply of goods and services. In one country, the government cut taxes and the central bank raised interest rates.*
 > 
 > *Evaluate the likely impact of these policies on that government's ability to control inflation.*
 > 

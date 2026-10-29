@@ -161,7 +161,7 @@ guided_study: true
 > - The time period is a year
 > - The number of half-lives is 2
 > 
-> `2 space 000 space 000 rightwards arrow from text 6 months end text to text 1 half life end text of 1 space 000 space 000 rightwards arrow from text 1 year end text to text 2 half lives end text of 500 space 000`
+> `2 000 000 → from text 6 months end text to text 1 half life end text of 1 000 000 → from text 1 year end text to text 2 half lives end text of 500 000`
 > 
 > - So two half-lives is 1 year, and one half-life is 6 months
 > - Therefore, the half-life of the sample is **6 months** **[1 mark]**

@@ -29,7 +29,7 @@ guided_study: true
 
 ### What are coordinates?
 
-- **Coordinates** are a** pair **of **numbers**, *x * and *y *, that describe the** location** of a **point **on the grid
+- **Coordinates** are a** pair **of **numbers**, *x* and *y*, that describe the** location** of a **point **on the grid
 
   - They are written in **brackets** as **(*****x *****, *****y *****)**
   - The point is
@@ -54,7 +54,7 @@ guided_study: true
 > Check the scale on the coordinate grid! 1 square might not represent 1 unit.
 
 > **Worked Example**
-> (a) Write down the coordinates of the point *A *shown on the axes below.
+> (a) Write down the coordinates of the point *A* shown on the axes below.
 > 
 > ![2d-coordinates-we](assets/aa2a3a825385-42010-coordinates-we.png)
 > 

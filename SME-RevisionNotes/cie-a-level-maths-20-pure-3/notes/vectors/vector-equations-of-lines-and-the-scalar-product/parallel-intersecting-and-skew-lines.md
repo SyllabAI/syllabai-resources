@@ -72,7 +72,7 @@ In three dimensions, there is a further possibility: a pair of lines might not b
   
     - One for each component (**i, j, k**)
   - Solve **any two pairs** of these equations simultaneously to find *s* and *t*
-  - **Check** whether the values of *s* and *t *you have found satisfy the third equation
+  - **Check** whether the values of *s* and *t* you have found satisfy the third equation
   
     - If **all three** equations are satisfied, then the lines **intersect**
     - If **not all three** equations are satisfied, then the lines are **skew**

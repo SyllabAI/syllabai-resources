@@ -55,7 +55,7 @@ $\text{integral} \text{sec} ^{ } 2 ( a x + b ) d x = \frac{1}{ } a \text{tan} ( 
 > 
 > $\int \cos x \mathrm{d} x = \sin x + c$
 > 
-> *ii.*   *Use the standard result: *$\int \sec ^{2 } ( a x + b ) d x = \frac{ 1}{a} \tan ( a x + b ) + c .$
+> *ii.*   *Use the standard result:* $\int \sec ^{2 } ( a x + b ) d x = \frac{ 1}{a} \tan ( a x + b ) + c .$
 > 
 > `equation`
 > 
@@ -67,20 +67,20 @@ $\text{integral} \text{sec} ^{ } 2 ( a x + b ) d x = \frac{1}{ } a \text{tan} ( 
 > 
 > Find an expression for $y.$
 > 
-> *Factor out the 2 in front of the sin first, and then use the standard result: *$\int \sin ( a x + b ) d x = - \frac{1}{a} \cos ( a x + b ) + c .$* *
+> *Factor out the 2 in front of the sin first, and then use the standard result:* $\int \sin ( a x + b ) d x = - \frac{1}{a} \cos ( a x + b ) + c .$* *
 > 
 > `y = 2 integral sin ( 2 x + pi / 6 ) d x > y = 2 ( - 1 half cos ( 2 x + pi / 6 ) + c )`
 > 
-> *When multiplying the arbitrary constant *$c$*, by 2, it is still just an arbitrary constant and so it is still just written as *$c.$* *
+> *When multiplying the arbitrary constant* $c$*, by 2, it is still just an arbitrary constant and so it is still just written as* $c.$* *
 > 
 > `y = - cos ( 2 x + pi / 6 ) + c`
 > 
-> *Substitute in the given coordinate, and evaluate, to find *$c.$* *
+> *Substitute in the given coordinate, and evaluate, to find* $c.$* *
 > 
 > *At* $x=\frac{π}{3},y=\sqrt{3}$
 > 
-> `sqrt( 3 = - cos ( (2 pi)/(3) + pi / 6 ) + c > sqrt( 3 = - cos ( (5 pi)/(6) ) + c > sqrt( 3 = (sqrt( 3)/(2) + c > c = (sqrt( 3)/(2)`
+> `sqrt(3=- cos ((2π)/(3)+π / 6)+c>sqrt(3=- cos ((5π)/(6))+c>sqrt(3=(sqrt(3)/(2)+c>c=(sqrt(3)/(2)`
 > 
-> *Rewrite the full expression for *$y.$
+> *Rewrite the full expression for* $y.$
 > 
 > $y=-\mathrm{cos}(2x+\frac{π}{6})+\frac{\sqrt{3}}{2}$

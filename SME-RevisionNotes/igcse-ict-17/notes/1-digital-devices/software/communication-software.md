@@ -86,7 +86,7 @@ guided_study: false
 > 
 > **Answer**
 > 
-> > *A description such as: *
+> > *A description such as:*
 > 
 > - To access/request/render/display **[1]** HTML / web pages **[1]**
 > 

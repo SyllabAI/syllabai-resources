@@ -74,7 +74,7 @@ guided_study: false
 > 
 > b) Find, in terms of $x$, $fg ( x )$.
 > 
-> > $g$* is the first function to be applied ...*
+> > $g$ *is the first function to be applied ...*
 > 
 > $\begin{gathered} \therefore \text{fg} ( x ) & = \mathrm{f} [ x + 3 ] \\ = ( x + 3 )^{2} + 3 ( x + 3 ) - 2 \\ = x^{2} + 6 x + 9 + 3 x + 9 - 2 \end{gathered}$
 > 
@@ -113,11 +113,11 @@ guided_study: false
 > 
 > a) Write down the range of $\mathrm{f} ( x )$ and the range of $\mathrm{g} ( x )$.
 > 
-> > *As the domain of *$\mathrm{f} ( x )$* is *$0<x<1$*, *$\frac{1}{x}$* will always be greater than 1,*
+> > *As the domain of* $\mathrm{f} ( x )$ *is* $0<x<1$*,* $\frac{1}{x}$ *will always be greater than 1,*
 > 
 > **Final answer:** **The range of **$f(x)$** is **$f>1$
 > 
-> > *The square of any value will be positive or zero, but here, *$x=0$* is not included in the domain for *$\mathrm{g} ( x )$*.*
+> > *The square of any value will be positive or zero, but here,* $x=0$ *is not included in the domain for* $\mathrm{g} ( x )$*.*
 > 
 > **Final answer:** **The range of **$g(x)$** is **$g>1$
 > 
@@ -127,6 +127,6 @@ guided_study: false
 > 
 > c) Find the range of $gf ( x )$,
 > 
-> > $f$* is the first function.  The range of *$f$* is *$f>1$*.  This is the same as the domain of *$\mathrm{g} ( x > 1 )$*.*
+> > $f$ *is the first function.  The range of* $f$ *is* $f>1$*.  This is the same as the domain of* $\mathrm{g} ( x > 1 )$*.*
 > 
 > **Final answer:** **The range of **$\mathrm{gf}$** is **$\mathrm{gf}>1$

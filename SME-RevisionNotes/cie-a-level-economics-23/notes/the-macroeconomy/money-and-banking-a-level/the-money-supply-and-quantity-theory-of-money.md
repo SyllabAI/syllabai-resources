@@ -19,7 +19,7 @@ guided_study: false
 
 - **The money supply is the total stock of money in circulation in an economy at a given point in time.**
 
-  - The money supply includes all financial assets that function as money, ranging from the most liquid (cash) to less *liquid *forms
+  - The money supply includes all financial assets that function as money, ranging from the most liquid (cash) to less *liquid* forms
   - Its main components are
   
     - **Cash in circulation** - notes and coins held by the public
@@ -48,7 +48,7 @@ guided_study: false
 
   - Cash is the most liquid asset
   - Savings deposits are less liquid than demand deposits - they may require notice of withdrawal
-- *Shares *and property are **financial and real assets respectively - they are not part of the money supply**, even though they can be converted into cash
+- *Shares* and property are **financial and real assets respectively - they are not part of the money supply**, even though they can be converted into cash
 
 ## The quantity theory of money
 
@@ -114,4 +114,4 @@ guided_study: false
 > 
 > The strongest responses trace the **chain of causation**: an increase in money supply (M) leads to more spending, which raises prices (P) because the volume of transactions (T) is constrained by productive capacity. Stating this chain is worth more than stating the equation.
 > 
-> For evaluation, use real-world cases. Zimbabwe (2008) and Weimar Germany (1923) support the theory — *hyperinflation *followed monetary expansion. Post-2008 *quantitative easing* in the UK and US does not — money supply rose sharply but inflation stayed low because V fell as banks held reserves rather than lending. Citing both shows that the theory holds conditionally, not universally.
+> For evaluation, use real-world cases. Zimbabwe (2008) and Weimar Germany (1923) support the theory — *hyperinflation* followed monetary expansion. Post-2008 *quantitative easing* in the UK and US does not — money supply rose sharply but inflation stayed low because V fell as banks held reserves rather than lending. Citing both shows that the theory holds conditionally, not universally.

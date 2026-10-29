@@ -73,19 +73,19 @@ $p=mv$
 > 
 > **Step 1: Calculate the momentum of the tennis ball using the momentum equation**
 > 
-> *p *= *mv*
+> *p* = *mv*
 > 
-> *p *= 0.06 × 75
+> *p* = 0.06 × 75
 > 
-> *p *= 4.5 kg m/s
+> *p* = 4.5 kg m/s
 > 
 > **Step 2: Calculate the momentum of the brick using the momentum equation**
 > 
-> *p *= *mv*
+> *p* = *mv*
 > 
-> *p *= 3 × 1.5
+> *p* = 3 × 1.5
 > 
-> *p *= 4.5 kg m/s
+> *p* = 4.5 kg m/s
 > 
 > **Step 3: Explain your answer**
 > 
@@ -126,7 +126,7 @@ $p=mv$
 - After the collision:
 
   - Mass *M* also now has momentum
-  - The velocity of *m* is now -*v  *(since it is now travelling to the left) and the velocity of *M*  is *V*
+  - The velocity of *m* is now -*v* (since it is now travelling to the left) and the velocity of *M*  is *V*
   - The total momentum is now the momentum of *M* + the momentum of *m*
   - This is (*M*  × *V*) + (*m*  × -*v*) or **(*****M*****  × *****V*****) – (*****m***** × *****v*****) **written more simply
 

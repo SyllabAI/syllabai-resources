@@ -35,7 +35,7 @@ guided_study: false
 - **Reduces risk**
 
   - Thinking ahead helps managers spot potential problems, such as a rival launching a similar product
-  - They can then build in safeguards, such as securing *supply contracts *early
+  - They can then build in safeguards, such as securing *supply contracts* early
 - **Improves coordination**
 
   - When marketing, production, finance and other areas all follow the same long-term plan, there are fewer conflicts and overlaps as each team understands its role
@@ -254,7 +254,7 @@ guided_study: false
 >   - Ek framed Spotify as a movement against piracy, not just an app: “Make all the world’s music instantly accessible"
 > - **Empowering and inclusive**
 > 
->   - Ek organised small  *cross-functional teams *with freedom to innovate
+>   - Ek organised small  *cross-functional teams* with freedom to innovate
 >   - Anyone could pitch ideas during 'hack weeks' and successful concepts moved into full development
 > - **People-centered**
 > 
@@ -270,7 +270,7 @@ guided_study: false
 >   - By 2021, Spotify operated in over 170 countries with more than 165 million subscribers, outpacing rivals
 > - **High employee engagement**
 > 
->   - Spotify ranked among Europe’s top workplaces, with *staff retention *exceeding industry averages
+>   - Spotify ranked among Europe’s top workplaces, with *staff retention* exceeding industry averages
 > - **Brand resilience**
 > 
 >   - Spotify’s image remained positive by promoting fair pay for artists and transparent reporting

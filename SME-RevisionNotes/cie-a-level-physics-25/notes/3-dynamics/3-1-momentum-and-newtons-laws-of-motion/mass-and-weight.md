@@ -41,7 +41,7 @@ $W=mg$
 
   - *W* = weight in newtons (N)
   - *m*= mass in kilograms (kg)
-  - *g *= acceleration of freefall in metres per second (m s<sup>-2</sup>)
+  - *g* = acceleration of freefall in metres per second (m s<sup>-2</sup>)
 - The acceleration of freefall, *g*, on Earth, is 9.81 m s<sup>-2</sup>
 
 > **Exam Hint**

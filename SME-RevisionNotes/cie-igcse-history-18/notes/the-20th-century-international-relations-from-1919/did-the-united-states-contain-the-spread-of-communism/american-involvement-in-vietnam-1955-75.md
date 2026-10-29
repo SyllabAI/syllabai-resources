@@ -164,7 +164,7 @@ January 1973 (blue box): The Paris Peace Accords are signed by the USA, North Vi
   
     - Around 2.8 million US soldiers fought in Vietnam
     - The draft affected black Americans *disproportionately*
-    - The police *prosecuted *over **9,000 young men for ‘*****draft dodging*****’ **
+    - The police *prosecuted* over **9,000 young men for ‘*****draft dodging*****’ **
   - The** Tet Offensive (1968)** caused the media to** question if the war was worthwhile**
   - It was the **first televised war**
   
@@ -224,7 +224,7 @@ January 1973 (blue box): The Paris Peace Accords are signed by the USA, North Vi
 > 
 > **7 marks**
 > 
-> | **Source D: **From ‘In Retrospect, The Tragedy and Lessons of Vietnam’ by Robert S McNamara, published in 1995. McNamara was Secretary of Defence in the governments of Kennedy and Johnson from 1961 to 1968 when he resigned over Vietnam<br><br>*By the time the United States finally left South Vietnam in 1973, we had lost over 58000 men and women, our economy had been damaged by years of heavy war spending, and the political unity of our society had been shattered. Were such high costs justified? Many conclude that without US intervention in Vietnam, Communism would have spread farther through South and East Asia. I seriously question such judgements. I question whether either Soviet or Chinese behaviour and influence in the 1970s and 1980s would have been different had we not entered the war or had we withdrawn from Vietnam in the early or mid-1960s.*<br><br>*By then it should have been clear that the two conditions underlying President Kennedy’s decision to send military advisers were not being met, and could not be met: political stability did not exist; and the South Vietnamese were incapable of defending themselves. I do not believe that US withdrawal in 1963 would have led West Europeans to question our support for NATO. On the contrary, it is possible we would have improved our credibility by withdrawing from Vietnam and saving our strength for more defensible stands elsewhere. * |
+> | **Source D: **From ‘In Retrospect, The Tragedy and Lessons of Vietnam’ by Robert S McNamara, published in 1995. McNamara was Secretary of Defence in the governments of Kennedy and Johnson from 1961 to 1968 when he resigned over Vietnam<br><br>*By the time the United States finally left South Vietnam in 1973, we had lost over 58000 men and women, our economy had been damaged by years of heavy war spending, and the political unity of our society had been shattered. Were such high costs justified? Many conclude that without US intervention in Vietnam, Communism would have spread farther through South and East Asia. I seriously question such judgements. I question whether either Soviet or Chinese behaviour and influence in the 1970s and 1980s would have been different had we not entered the war or had we withdrawn from Vietnam in the early or mid-1960s.*<br><br>*By then it should have been clear that the two conditions underlying President Kennedy’s decision to send military advisers were not being met, and could not be met: political stability did not exist; and the South Vietnamese were incapable of defending themselves. I do not believe that US withdrawal in 1963 would have led West Europeans to question our support for NATO. On the contrary, it is possible we would have improved our credibility by withdrawing from Vietnam and saving our strength for more defensible stands elsewhere.* |
 > |---|
 > 
 > **Final answer:** **Partial answer:**

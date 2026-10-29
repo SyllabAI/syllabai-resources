@@ -45,8 +45,8 @@ guided_study: false
 > - Where:
 > 
 >   - *E* is the e.m.f. of the power source = 16 V
->   - *V*<sub>*X *</sub>is the potential difference across X = 10 V
->   - *V*<sub>*Y *</sub>is the potential difference across Y
+>   - *V*<sub>*X* </sub>is the potential difference across X = 10 V
+>   - *V*<sub>*Y* </sub>is the potential difference across Y
 > - Recall that:
 > 
 >   - *E* = 16 V

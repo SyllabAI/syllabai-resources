@@ -110,7 +110,7 @@ guided_study: false
 ### Distribution of salt marshes
 
 - Salt marshes are found all over the world and are not temperature-dependent
-- Like mangroves, they are an ecosystem of the *intertidal zone *
+- Like mangroves, they are an ecosystem of the *intertidal zone*
 - They are typically very flat, with numerous channels running through them
 - They form in:
 

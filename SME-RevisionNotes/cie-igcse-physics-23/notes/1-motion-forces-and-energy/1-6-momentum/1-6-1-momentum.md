@@ -97,7 +97,7 @@ $p=mv$
 > - The ball falls downwards, so the initial velocity, $u$, of the ball is $u=-15m/s$
 > - Therefore, the initial momentum is:
 > 
-> $p_{\mathrm{initial}}=mu$
+> $p_{\mathrm{initial}}=\mu$
 > 
 > $p_{\mathrm{initial}}=0.20\times-15$
 > 
@@ -118,7 +118,7 @@ $p=mv$
 > 
 > $\Deltap=p_{\mathrm{final}}-p_{\mathrm{initial}}$
 > 
-> `increment p space equals space 2.4 space minus space open parentheses negative 3 close parentheses`
+> `increment p=2.4−(−3)`
 > 
 > $\Deltap=5\mathrm{kg}m/s$ **[1 mark]**
 
@@ -150,7 +150,7 @@ $p=mv$
 
 - Momentum is conserved **only** when no external resultant force acts on the system
 
-- The diagram below shows two masses *m *with velocity *u* and *M *at rest (i.e. zero velocity)
+- The diagram below shows two masses *m* with velocity *u* and *M* at rest (i.e. zero velocity)
 
 ![Before a collision, one mass m is moving to the right with velocity u and one mass M is at rest. After the collision, mass m is moving to the left with velocity v and mass M is moving to the right with velocity V.](../../../assets/a362e6647e5b-conservation-of-momentum-1.png)
 
@@ -163,12 +163,12 @@ $p=mv$
 - After the collision:
 
   - Mass *M* also now has momentum
-  - The velocity of *m* is now -*v *(since it is now travelling to the left) and the velocity of *M* is *V*
+  - The velocity of *m* is now -*v* (since it is now travelling to the left) and the velocity of *M* is *V*
   - The total momentum is now the momentum of *M* + momentum of *m*
   - This is (*M* × *V*) + (*m* × -*v*) or **(*****M***** × *****V*****) – (*****m***** × *****v*****)**
 - Since momentum is conserved, this means that:
 
-$mu=MV-mv$
+$\mu=MV-mv$
 
 - The principle of conservation of momentum also applies to objects that are **pushed apart** as well as to collisions
 

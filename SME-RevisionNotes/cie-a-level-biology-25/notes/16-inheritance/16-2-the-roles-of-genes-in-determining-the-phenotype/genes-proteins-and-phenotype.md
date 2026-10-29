@@ -44,7 +44,7 @@ guided_study: true
 **tyrosine → DOPA → dopaquinone → melanin**
 
 - A **gene called *****TYR*** located on chromosome 11 codes for the enzyme tyrosinase
-- There is a **recessive allele** for the gene *TYR *that causes a lack of enzyme tyrosinase or the presence of inactive tyrosinase
+- There is a **recessive allele** for the gene *TYR* that causes a lack of enzyme tyrosinase or the presence of inactive tyrosinase
 - Without the tyrosinase enzyme tyrosine can not be converted into melanin
 
 ### HBB gene and sickle cell anaemia
@@ -52,7 +52,7 @@ guided_study: true
 - **Sickle cell anaemia** is a condition that causes individuals to have frequent infections, episodes of pain and anaemia
 - Humans with sickle cell anaemia have **abnormal haemoglobin** in their red blood cells
 - β-globin is a polypeptide found in haemoglobin that is coded for by the **gene *****HBB*** which is found on chromosome 11
-- There is an **abnormal allele** for the gene *HBB *which produces a slightly different amino acid sequence to the normal allele
+- There is an **abnormal allele** for the gene *HBB* which produces a slightly different amino acid sequence to the normal allele
 
   - The change of a **single base** in the DNA of the abnormal allele results in an **amino acid substitution**
   
@@ -70,7 +70,7 @@ guided_study: true
 - A **homozygous **individual that has two abnormal alleles for the *HBB* gene produces **only sickle cell haemoglobin**
 
   - They **have sickle cell anaemia **and suffer from the associated symptoms
-- A **heterozygous **individual that has one normal allele and one abnormal allele for the *HBB *gene will produce some **normal haemoglobin and some sickle cell haemoglobin**
+- A **heterozygous **individual that has one normal allele and one abnormal allele for the *HBB* gene will produce some **normal haemoglobin and some sickle cell haemoglobin**
 
   - They are a **carrier **of the allele
   - They may have no symptoms
@@ -83,7 +83,7 @@ guided_study: true
 
 - **Factor VIII **is a coagulating agent that plays an essential role in** blood clotting**
 - The gene ***F8*** codes for the Factor VIII protein
-- There are **abnormal alleles** of the *F8 *gene that result in:
+- There are **abnormal alleles** of the *F8* gene that result in:
 
   - Production of abnormal forms of factor VIII
   - Less production of normal factor VIII
@@ -106,7 +106,7 @@ guided_study: true
 - It has been found that individuals with Huntington's disease have **abnormal alleles of the *****HTT***** gene**
 
   - The *HTT* gene codes for the protein **huntingtin** which is involved in neuronal development
-  - People that have a large number (>40) of **repeated CAG triplets** present in the nucleotide sequence of their *HTT *gene suffer from the disease
+  - People that have a large number (>40) of **repeated CAG triplets** present in the nucleotide sequence of their *HTT* gene suffer from the disease
 - The **abnormal allele is dominant **over the normal allele
 
   - If an individual has one abnormal allele present they will suffer from the disease

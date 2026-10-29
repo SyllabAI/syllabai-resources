@@ -24,7 +24,7 @@ guided_study: true
 > **Exam Hint**
 > Conditional probability can be written using formal notation.
 > 
-> The notation `straight P open parentheses A vertical line B close parentheses` describes the probability of event A occurring, **given **that event B has already occurred.
+> The notation `straight P (A vertical line B)` describes the probability of event A occurring, **given **that event B has already occurred.
 > 
 > Note that you are **not** expected to know this notation for the exam, but you are expected to be able to calculate conditional probabilities using Venn diagrams, tree diagrams or tables.
 

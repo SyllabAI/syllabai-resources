@@ -153,19 +153,19 @@ You should be familiar with the following key features and know how to identify 
 > 
 > $x=5,x=-1$
 > 
-> > *So the **x**-intercepts are *$( 5 , 0 )$* and *$( - 1 , 0 )$
+> > *So the **x**-intercepts are *$( 5 , 0 )$ *and* $( - 1 , 0 )$
 > 
-> > *The turning point will occur when  *$\mathrm{f}^{'} ( x ) = 0$
+> > *The turning point will occur when* $\mathrm{f}^{'} ( x ) = 0$
 > 
 > $\mathrm{f}^{'} ( x ) = 2 x - 4$
 > 
 > $\begin{gathered} 2 x - 4 & = 0 \\ 2 x & = 4 \\ x = 2 \end{gathered}$
 > 
-> > *Substitute into *$\mathrm{f} ( x )$* to find the corresponding **y-**value*
+> > *Substitute into* $\mathrm{f} ( x )$* to find the corresponding **y-**value*
 > 
 > $\begin{gathered} \mathrm{f} ( 2 ) & = ( 2 )^{2} - 4 ( 2 ) - 5 \\ = 4 - 8 - 5 \\ = - 9 \end{gathered}$
 > 
-> > *So the turning point is *$( 2 , - 9 )$
+> > *So the turning point is* $( 2 , - 9 )$
 > 
 > > *Sketch a graph showing the correct general shape and incorporating all the key points identified above*
 > *Label the graph, the axes, and the key features*

@@ -56,7 +56,7 @@ guided_study: true
 
   - **Step 1:**  Create a scatter graph of data gathered and identify if a linear correlation exists
   - **Step 2:**  State a null hypothesis
-  - **Step 3: ** Use the following equation to work out Pearson’s correlation coefficient* r*
+  - **Step 3: ** Use the following equation to work out Pearson’s correlation coefficient *r*
 
 ![Pearsons Equation, downloadable AS & A Level Biology revision notes](../../../assets/db6004d5516a-pearsons-equation.png)
 
@@ -118,7 +118,7 @@ Where:
 
 - *n* = 10 as there are 10 quadrat samples
 - The sum of ***x*** x* ****y**** (∑xy)* = 2114
-- *n *x mean of ***x*** x mean of ***y*** = nx̅y̅ = 2060
+- *n* x mean of ***x*** x mean of ***y*** = nx̅y̅ = 2060
 - S<sub>x </sub>= 2.16 and S<sub>y</sub> = 3.02
 - Substitute values into the equation above: $r = \frac{2114 - 2060}{( 10 - 1 ) ( 2.16 ) ( 3.02 )} = 0.92$
 

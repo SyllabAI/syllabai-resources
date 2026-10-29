@@ -68,8 +68,8 @@ guided_study: false
 
 | **Want** | **How they may be met at work** |
 |---|---|
-| **Luxury items** | - *Bonuses *or high pay to afford non-essentials |
-| **Career success** | - Opportunities for *promotion *or recognition |
+| **Luxury items** | - *Bonuses* or high pay to afford non-essentials |
+| **Career success** | - Opportunities for *promotion* or recognition |
 | **Flexible lifestyle** | - Flexible hours or remote work options |
 | **Respect and praise** | - Positive feedback from managers or co-workers |
 | **Comfort** | - Clean, modern office or staff facilities like lounges or cafés |

@@ -63,11 +63,11 @@ guided_study: true
 > 
 > ![Left Pointing Right Angled Triangle with measurements, IGCSE & GCSE Maths revision notes](assets/9e4e5e0305a9-47855-trigonometry-to-find-angles-2.png)
 > 
-> > *We know A and H - that's CAH or *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
+> > *We know A and H - that's CAH or* $\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
 > 
 > $\cos ( y ) = \frac{8}{23}$
 > 
-> > *Use inverse cos to find *$y$
+> > *Use inverse cos to find* $y$
 > 
 > $y = \cos ^{- 1} ( \frac{8}{23} )$
 > 

@@ -37,7 +37,7 @@ guided_study: false
 - The graphs of sin x and cos x are always in the **range -1 ≤ *****y***** ≤ 1**
 
   - **Domain: **`open curly brackets bold italic x blank vertical line blank bold italic x blank element of blank straight real numbers close curly brackets`
-  - **Range: **`open curly brackets bold italic y blank vertical line minus 1 blank less or equal than space bold italic y blank less or equal than space 1 close curly brackets`
+  - **Range: **`open curly brackets bold italic y blank vertical line−1 blank less or equal than bold italic y blank less or equal than 1 close curly brackets`
   - The graphs of sin x and cos x are identical however one is a **translation **of the other
   
     - sin x passes through the origin
@@ -58,7 +58,7 @@ guided_study: false
   - In radians this is at the points ± $\frac{π}{2}$, ± $\frac{3π}{2}$ etc
 - The range of the graph of tan x is
 
-  - **Domain: **`open curly brackets bold italic x blank vertical line blank bold italic x blank not equal to bold italic pi over 2 plus bold italic k bold italic pi comma blank bold italic k blank element of blank straight integer numbers close curly brackets`** **
+  - **Domain: **`open curly brackets bold italic x blank vertical line blank bold italic x blank≠bold italic π / 2+bold italic k bold italic π comma blank bold italic k blank ∈ blank straight integer numbers close curly brackets`** **
   - **Range: **`open curly brackets bold italic y blank vertical line blank bold italic y blank element of blank straight real numbers close curly brackets`
 
 ![Graphs of sin, cos, and tan](../../../assets/8475160651c6-5-2-1-graphs-of-trigonometric-functions-diagram-.png)
@@ -169,18 +169,18 @@ guided_study: false
 - **Stretches **in the horizontal and vertical direction are often combined
 - The functions** *****a *****sin(*****bx*****)***** ***and** *****a *****cos(*****bx*****) **have the following properties:
 
-  - The** amplitude **of the graph is |*a *|
+  - The** amplitude **of the graph is |*a* |
   - The **period** of the graph is $\frac{360}{b}$° (or $\frac{2π}{b}$ rad)
   
-    - In this course, *a *will always be a positive integer and *b* will be a simple fraction or integer
+    - In this course, *a* will always be a positive integer and *b* will be a simple fraction or integer
 - **Translations **in both directions could also be combined with the stretches
 - The functions** *****a *****sin*****bx***** + *****c ***and** *****a *****cos*****bx***** + *****c ***have the following properties:
 
-  - The** amplitude **of the graph is |*a *|
+  - The** amplitude **of the graph is |*a* |
   - The **period** of the graph is $\frac{360}{b}$° (or $\frac{2π}{b}$)
   - The translation in the vertical direction is *c*
   
-    - *c *represents the **principal axis **(the line that the function fluctuates about)
+    - *c* represents the **principal axis **(the line that the function fluctuates about)
     - It helps to start by sketching the principle axis
 - The function** *****a *****tan*****bx***** + *****c ***has the following properties:
 

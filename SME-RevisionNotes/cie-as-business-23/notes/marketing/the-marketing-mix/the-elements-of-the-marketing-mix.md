@@ -58,7 +58,7 @@ guided_study: false
 #### Place
 
 - Place refers to where and how the product is sold
-- The choice of *distribution channel *must suit the product and customer preferences
+- The choice of *distribution channel* must suit the product and customer preferences
 
   - E.g. A youth fashion brand might focus on selling online and through social media platforms, while a specialist tool company may focus on professional trade retailers
 

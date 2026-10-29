@@ -21,7 +21,7 @@ guided_study: true
 
 - The **population parameter** being tested will be the **mean, λ ,** in a **Poisson distribution**
 
-  - As it is the population mean, sometimes *μ *will be used instead
+  - As it is the population mean, sometimes *μ* will be used instead
 - A hypothesis test is used when the mean is questioned
 - The **null hypothesis**, H<sub>0</sub>  and **alternative hypothesis**, H<sub>1 </sub>will be given in terms of λ (or *μ*)
 
@@ -56,8 +56,8 @@ guided_study: true
 
   - Check that the next value would cause this probability to be greater than the significance level
   
-    - For H<sub>1</sub> : λ < ...   if $\mathrm{P} ( X \le c ) \le \alpha \%$ and $\mathrm{P} ( X \le c + 1 ) > \alpha \%$ then *c *is the critical value
-    - For H<sub>1</sub> : λ > ... if $\mathrm{P} ( X \ge c ) \le \alpha \%$ and $\mathrm{P} ( X \ge c - 1 ) > \alpha \%$ then *c *is the critical value
+    - For H<sub>1</sub> : λ < ...   if $\mathrm{P} ( X \le c ) \le \alpha \%$ and $\mathrm{P} ( X \le c + 1 ) > \alpha \%$ then *c* is the critical value
+    - For H<sub>1</sub> : λ > ... if $\mathrm{P} ( X \ge c ) \le \alpha \%$ and $\mathrm{P} ( X \ge c - 1 ) > \alpha \%$ then *c* is the critical value
   - Using the formula for this can be time consuming so only use this method if you need to
   
     - otherwise compare the probability of the random variable being at least as extreme as the observed value with the significance level
@@ -74,7 +74,7 @@ guided_study: true
 
 **H**<sub>**1**</sub>** **: λ = ...
 
-**Step 3.  **Define the distribution, usually $X \sim \text{Po} ( \\lambda )$  where *λ *is the mean to be tested
+**Step 3.  **Define the distribution, usually $X \sim \text{Po} ( \\lambda )$  where *λ* is the mean to be tested
 
 **Step 4.  **Calculate the probability of the random variable being at least as extreme as the observed value
 

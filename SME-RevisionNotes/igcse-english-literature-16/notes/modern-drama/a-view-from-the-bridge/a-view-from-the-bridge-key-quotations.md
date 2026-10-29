@@ -34,7 +34,7 @@ This is not an exhaustive list of key quotations from the play; it is simply a s
 > - When Beatrice asks Eddie when she will “be a wife again”, it obviously relates to ideas of Love and sexuality (see below), but also links to the theme of Masculinity:
 > 
 >   - Beatrice is questioning her husband’s manliness and his ability to provide for the needs of his family
-> - When Eddie compares Rodolpho to a “goddam thief” (see Masculinity), he also reveals views relevant to Justice and the law *and *Love and sexuality:
+> - When Eddie compares Rodolpho to a “goddam thief” (see Masculinity), he also reveals views relevant to Justice and the law *and* Love and sexuality:
 > 
 >   - He sees Catherine as property, which suggests that he sees women as objects
 >   - Eddie considers Rodolpho’s behaviour to be an injustice against him, even though he has no legal right to feel that way
@@ -189,7 +189,7 @@ This is not an exhaustive list of key quotations from the play; it is simply a s
   - The scene leaves no time for Catherine to fully respond; the audience can only imagine how she must feel at this juncture:
   
     - Miller’s script gives the actor playing Catherine the freedom to embody her emotions physically in many different ways
-  - Catherine’s single response (“*in horror: *B!”) suggests that Catherine may never have suspected that Eddie desired her sexually:
+  - Catherine’s single response (“*in horror:* B!”) suggests that Catherine may never have suspected that Eddie desired her sexually:
   
     - On the other hand, her horror may simply come from the shock of Beatrice openly speaking the unspeakable
 - Importantly, Beatrice does not seem to love Eddie any less – even after making this accusation:

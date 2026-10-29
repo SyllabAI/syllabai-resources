@@ -74,7 +74,7 @@ guided_study: false
 |---|---|
 | - **Corrects natural monopoly failure**<br><br>  - government can set price at MC rather than the profit-maximising price, improving allocative efficiency | - **X-inefficiency**<br><br>  - without competitive pressure, state enterprises tend to operate above minimum cost |
 | - **Equity**<br><br>  - ensures universal access to essential services regardless of income or location | - **Political interference**<br><br>  - pricing and investment decisions may be driven by political rather than economic objectives |
-| - **Long-term investment**<br><br>  - allows *infrastructure *investment with long payback periods that private firms would avoid | - **Fiscal burden**<br><br>  - loss-making state enterprises require ongoing *subsidies*, creating an *opportunity cost* |
+| - **Long-term investment**<br><br>  - allows *infrastructure* investment with long payback periods that private firms would avoid | - **Fiscal burden**<br><br>  - loss-making state enterprises require ongoing *subsidies*, creating an *opportunity cost* |
 | - **Prevents private monopoly exploitation**<br><br>  - removes the incentive to restrict output and raise prices | - **Lack of innovation**<br><br>  - absence of competitive pressure reduces incentives for *dynamic efficiency* |
 
 ## Privatisation
@@ -87,7 +87,7 @@ guided_study: false
 - The economic case rests on:
 
   - **Productive efficiency** — private firms face a profit motive and competitive pressure to minimise costs
-  - **Dynamic efficiency** — stronger incentives to *innovate *and adopt new technology
+  - **Dynamic efficiency** — stronger incentives to *innovate* and adopt new technology
   - **Reducing the fiscal burden** — raises one-off revenue and removes ongoing subsidies to loss-making enterprises
 
 > **Case Study**

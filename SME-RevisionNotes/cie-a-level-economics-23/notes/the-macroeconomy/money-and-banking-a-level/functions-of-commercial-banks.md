@@ -99,7 +99,7 @@ guided_study: false
 
 - **The fundamental trade-off is that more liquid and more secure assets generally generate less profit**
 
-  - A bank that prioritises profit by lending aggressively risks* insolvency* if loans default or depositors demand withdrawals
+  - A bank that prioritises profit by lending aggressively risks *insolvency* if loans default or depositors demand withdrawals
   - A bank that prioritises liquidity and security sacrifices returns to shareholders
 - Reserve and capital ratios are regulatory tools that constrain banks' pursuit of profit to protect depositors and the wider financial system
 

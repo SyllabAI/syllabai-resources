@@ -20,7 +20,7 @@ guided_study: true
 ### What are quadratic simultaneous equations?
 
 - When there are two unknowns (e.g. *x* and *y*) in a problem, we need two equations to be able to find them both; these are called** simultaneous equations**
-- If there is an *x*<sup>2</sup> or *y*<sup>2</sup> or *xy *in one of the equations then they are **quadratic** (or **non-linear**) simultaneous equations
+- If there is an *x*<sup>2</sup> or *y*<sup>2</sup> or *xy* in one of the equations then they are **quadratic** (or **non-linear**) simultaneous equations
 
 ### How do I use a graph to solve quadratic simultaneous equations?
 
@@ -30,7 +30,7 @@ guided_study: true
   - Or for straight lines it can help to rearrange into *y* = *mx* + *c*
 - Find the point where the lines **intersect**
 
-  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and *y ***coordinates** of the point of **intersection**
+  - The *x* and *y ***solutions** to the simultaneous equations are the *x *and* y ***coordinates** of the point of **intersection**
 - E.g. To solve *y* = *x*<sup>2</sup> + 3*x* + 1 and *y* = 2*x* + 1 simultaneously
 
   - First **plot **them both (see graph below)
@@ -63,7 +63,7 @@ guided_study: true
 
   - $y = 2 ( 0 ) + 5 = 5$
   - $y = 2 ( - 4 ) + 5 = - 3$
-- Present your solutions in a way that makes it obvious which* x* belongs to which *y*
+- Present your solutions in a way that makes it obvious which *x* belongs to which *y*
 
   - *x* = 0, *y* = 5 or *x* = -4, *y* = -3
 
@@ -119,9 +119,9 @@ guided_study: true
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution*
 > 
-> > *Equation 2 can be rearranged to make *$x$* the subject, which can then be substituted into equation 1*
+> > *Equation 2 can be rearranged to make* $x$ *the subject, which can then be substituted into equation 1*
 > 
-> > *You could rearrange to make *$y$* the subject instead, but this results in a fraction which can be more tricky to deal with*
+> > *You could rearrange to make* $y$ *the subject instead, but this results in a fraction which can be more tricky to deal with*
 > 
 > > *Rearranging equation 2*
 > 
@@ -145,23 +145,23 @@ guided_study: true
 > 
 > $\begin{gathered} 5 y^{2} + 24 y & = 0 \end{gathered}$
 > 
-> > *Take out the common factor of *$\begin{array}{rcl} y \end{array}$
+> > *Take out the common factor of* $\begin{array}{rcl} y \end{array}$
 > 
 > $\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 > 
-> > *Solve to find the values of *$y$* by equating each factor to zero*
+> > *Solve to find the values of* $y$ *by equating each factor to zero*
 > 
-> $y=0$*  or  *$5y+24=0$
+> $y=0$ *or* $5y+24=0$
 > 
 > > *Solve the linear equation above*
 > 
 > $y=-\frac{24}{5}$
 > 
-> > *So the two *$y$* values are*
+> > *So the two* $y$ *values are*
 > 
 > $\begin{gathered} y_{1} & = 0 \\ y_{2} & = - \frac{24}{5} \end{gathered}$
 > 
-> > *Substitute the values of *$y$* **into one of the equations (the linear equation is easiest) to find the values of *$x$
+> > *Substitute the values of* $y$* **into one of the equations (the linear equation is easiest) to find the values of *$x$
 > 
 > $x=2y+6$
 > 

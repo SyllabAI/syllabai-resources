@@ -13,7 +13,7 @@ guided_study: false
 
 ## Summary
 
-Although **President Roosevelt **had been elected on an enormous* landslide*, his New Deal was not popular with everybody. It came under fierce criticism from many different groups in American society. Some argued it went too far and interfered with business and the American way of life. Others argued it did not go far enough and that the wealth of the super-rich should be confiscated. The* Supreme Court* even ruled that some aspects of the New Deal were *unconstitutional.*
+Although **President Roosevelt **had been elected on an enormous *landslide*, his New Deal was not popular with everybody. It came under fierce criticism from many different groups in American society. Some argued it went too far and interfered with business and the American way of life. Others argued it did not go far enough and that the wealth of the super-rich should be confiscated. The *Supreme Court* even ruled that some aspects of the New Deal were *unconstitutional.*
 
 ## Republican opposition to the New Deal
 
@@ -78,7 +78,7 @@ Although **President Roosevelt **had been elected on an enormous* landslide*, hi
 - The Supreme Court ruled that **Roosevelt** had broken the rules over how much power a president has
 - It ruled that:
 
-  - The **NRA** had tried to set prices and wages that only* Congress*, not the president, could do
+  - The **NRA** had tried to set prices and wages that only *Congress*, not the president, could do
   - The **Agricultural Adjustment Association (AAA) **had paid farmers to not grow food, which the Supreme Court ruled was the role of the state governments — not the president
 
 > **Worked Example**
@@ -90,7 +90,7 @@ Although **President Roosevelt **had been elected on an enormous* landslide*, hi
 > 
 > One reason why there was opposition to the New Deal was that most Republicans believed in a small government that stayed out of people’s lives. The New Deal meant that the government had become more involved in the American people’s lives than ever before.
 > 
-> Another reason for the opposition to the New Deal was that some people did not believe it went far enough in correcting the problems in American society. *Radicals *such as Huey Long argued that the extreme wealth of the super-rich should be taken from them by the government and shared amongst the American people. Under Long’s plans, nobody could own more than \$5 million.
+> Another reason for the opposition to the New Deal was that some people did not believe it went far enough in correcting the problems in American society. *Radicals* such as Huey Long argued that the extreme wealth of the super-rich should be taken from them by the government and shared amongst the American people. Under Long’s plans, nobody could own more than \$5 million.
 
 > **Exam Hint**
 > When answering the 6 mark “Why…?” question, make sure you use the PEEL format.

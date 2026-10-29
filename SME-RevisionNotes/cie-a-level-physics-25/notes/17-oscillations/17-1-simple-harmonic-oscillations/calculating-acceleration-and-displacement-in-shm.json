@@ -94,12 +94,12 @@
   },
   {
    "type": "bullets",
-   "md": "- Where:\n\n  - *a* = acceleration (m s<sup>-2</sup>)\n  - *⍵* = angular frequency (rad s<sup>-1</sup>)\n  - *x* = displacement (m)\n- The equation demonstrates:\n\n  - Acceleration reaches its **maximum** value when the displacement is at a **maximum** i.e. *x* = *x*<sub>*0*</sub> at its *amplitude*\n  - The **minus** sign shows that when the object is displaced to the **right**, the direction of the acceleration is to the **left** and vice versa (*a* and *x* are always in opposite directions to each other)"
+   "md": "- Where:\n\n  - *a* = acceleration (m s<sup>-2</sup>)\n  - *ω* = angular frequency (rad s<sup>-1</sup>)\n  - *x* = displacement (m)\n- The equation demonstrates:\n\n  - Acceleration reaches its **maximum** value when the displacement is at a **maximum** i.e. *x* = *x*<sub>*0*</sub> at its *amplitude*\n  - The **minus** sign shows that when the object is displaced to the **right**, the direction of the acceleration is to the **left** and vice versa (*a* and *x* are always in opposite directions to each other)"
   },
   {
    "type": "heading",
    "level": 4,
-   "text": "The graph representing a = −⍵<sup>2</sup>x"
+   "text": "The graph representing a = −ω<sup>2</sup>x"
   },
   {
    "type": "bullets",
@@ -108,7 +108,7 @@
   {
    "type": "heading",
    "level": 4,
-   "text": "The graph of a = −⍵<sup>2</sup>x"
+   "text": "The graph of a = −ω<sup>2</sup>x"
   },
   {
    "type": "figure",
@@ -123,7 +123,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Key features of the acceleration-displacement graph:\n\n  - The gradient is equal to − *⍵*<sup>2</sup>\n  - The maximum and minimum displacement *x* values are the amplitudes −*x*<sub>0</sub> and +*x*<sub>0</sub>"
+   "md": "- Key features of the acceleration-displacement graph:\n\n  - The gradient is equal to − *ω*<sup>2</sup>\n  - The maximum and minimum displacement *x* values are the amplitudes −*x*<sub>0</sub> and +*x*<sub>0</sub>"
   },
   {
    "type": "heading",
@@ -136,7 +136,7 @@
   },
   {
    "type": "paragraph",
-   "md": "***x***** = *****x***<sub>**0**</sub>**sin(*****⍵t*****)**"
+   "md": "***x***** = *****x***<sub>**0**</sub>**sin(*****ωt*****)**"
   },
   {
    "type": "bullets",
@@ -144,12 +144,12 @@
   },
   {
    "type": "bullets",
-   "md": "- This equation can be used to find the **position** of an object in SHM with a particular **angular frequency** and **amplitude** at a specific moment in time\n- The displacement will be at its **maximum** when sin(⍵t) equals 1 or −1, when *x *=* x*<sub>0</sub>"
+   "md": "- This equation can be used to find the **position** of an object in SHM with a particular **angular frequency** and **amplitude** at a specific moment in time\n- The displacement will be at its **maximum** when sin(ωt) equals 1 or −1, when *x* = *x*<sub>0</sub>"
   },
   {
    "type": "heading",
    "level": 4,
-   "text": "The graph of x = x<sub>0</sub>sin(⍵t)"
+   "text": "The graph of x = x<sub>0</sub>sin(ωt)"
   },
   {
    "type": "figure",
@@ -166,13 +166,13 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A mass of 55 g is suspended from a fixed point by means of a spring. The stationary mass is released from the central equilibrium position at *t* = 0 and reaches a maximum displacement of 4.3 cm.\n\nThe mass is observed to perform simple harmonic motion with a period of 0.8 s.\n\nCalculate the displacement *x* in cm of the mass at time *t* = 0.3 s.\n\n**Answer:**\n\n**Step 1: Write down the SHM displacement equation**\n\n- Since the mass is released at *t* = 0 from its equilibrium position then the displacement is calculated using:\n\n***x***** = *****x***<sub>**0 **</sub>**sin(*****⍵t*****)**\n\n**Step 2: Calculate angular frequency**\n\n$ω=\\frac{2π}{T}=\\frac{2π}{0.8}=7.85\\mathrm{rad}s^{-1}$\n\n- Remember to use the value of the time period given and not any other values of time\n\n**Step 3: Substitute values into the displacement equation**\n\n*x* = 4.3 sin (7.85 × 0.3) = 3.044… = 3.0** cm** (2 s.f)\n\n- Make sure the calculator is in **radians mode**\n- The positive value means the mass is 3.0 cm is on the same side of the equilibrium position to where it started (3.0 cm above it)"
+   "md": "A mass of 55 g is suspended from a fixed point by means of a spring. The stationary mass is released from the central equilibrium position at *t* = 0 and reaches a maximum displacement of 4.3 cm.\n\nThe mass is observed to perform simple harmonic motion with a period of 0.8 s.\n\nCalculate the displacement *x* in cm of the mass at time *t* = 0.3 s.\n\n**Answer:**\n\n**Step 1: Write down the SHM displacement equation**\n\n- Since the mass is released at *t* = 0 from its equilibrium position then the displacement is calculated using:\n\n***x***** = *****x***<sub>**0 **</sub>**sin(*****ωt*****)**\n\n**Step 2: Calculate angular frequency**\n\n$ω=\\frac{2π}{T}=\\frac{2π}{0.8}=7.85\\mathrm{rad}s^{-1}$\n\n- Remember to use the value of the time period given and not any other values of time\n\n**Step 3: Substitute values into the displacement equation**\n\n*x* = 4.3 sin (7.85 × 0.3) = 3.044… = 3.0** cm** (2 s.f)\n\n- Make sure the calculator is in **radians mode**\n- The positive value means the mass is 3.0 cm is on the same side of the equilibrium position to where it started (3.0 cm above it)"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "Since displacement is a vector quantity, remember to keep the minus sign in your solutions if they are negative, you could lose a mark if not!\n\nAlso, remember that your calculator must be in **radians** mode when using the cosine and sine functions. This is because the angular frequency ⍵ is calculated in rad s<sup>-1</sup>, **not** degrees.\n\nYou often have to convert between time period *T*, frequency *f* and angular frequency ⍵ for many exam questions – so make sure you revise the equations relating to these."
+   "md": "Since displacement is a vector quantity, remember to keep the minus sign in your solutions if they are negative, you could lose a mark if not!\n\nAlso, remember that your calculator must be in **radians** mode when using the cosine and sine functions. This is because the angular frequency ω is calculated in rad s<sup>-1</sup>, **not** degrees.\n\nYou often have to convert between time period *T*, frequency *f* and angular frequency ω for many exam questions – so make sure you revise the equations relating to these."
   }
  ]
 }

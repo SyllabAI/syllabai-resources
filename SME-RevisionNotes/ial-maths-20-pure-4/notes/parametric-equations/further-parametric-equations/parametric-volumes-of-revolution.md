@@ -20,7 +20,7 @@ guided_study: false
 ### What is a parametric volume of revolution?
 
 - **Solids** of **revolution** are formed by rotating functions about the *x*-axis
-- Here though, rather than given *y *in terms of *x*, both *x* and *y* are given in terms of a parameter, *t*
+- Here though, rather than given *y* in terms of *x*, both *x* and *y* are given in terms of a parameter, *t*
 
   - $x=f(t)$
   - $y=g(t)$
@@ -29,7 +29,7 @@ guided_study: false
 ### How do I find parametric volumes of revolution?
 
 - The aim is to replace everything in the ‘original’ integral so that it is in terms of *t*
-- For the ‘original’ integral `V equals pi integral subscript x subscript 1 end subscript superscript x subscript 2 end superscript space y squared d x` and parametric equations given in the form $x=f(t)$ and $y=g(t)$ use the following process
+- For the ‘original’ integral `V=π integral_ x_ 1 end_ superscript x_ 2 end superscript y² d x` and parametric equations given in the form $x=f(t)$ and $y=g(t)$ use the following process
 - **STEP 1: **Find d*x* in terms of *t* and d*t*
 
   - $dx=f'(t)dt$
@@ -39,11 +39,11 @@ guided_study: false
   - $x_{2}=f(t_{2})$
 - **STEP 3: **Square *y*
 
-  - `y squared equals stretchy left square bracket straight g left parenthesis t right parenthesis stretchy right square bracket squared`
+  - `y²=stretchy left square bracket straight g left parenthesis t right parenthesis stretchy right square bracket²`
   - *Do this separately to avoid confusing when putting the integral together*
 - **STEP 4: **Set up the integral, so everything is now in terms of *t*, simplify where possible and evaluate the integral to find the volume of revolution
 
-`V equals pi integral subscript t subscript 1 end subscript superscript t subscript 2 end superscript space left parenthesis straight g left parenthesis t right parenthesis right parenthesis squared straight f apostrophe left parenthesis t right parenthesis d t`
+`V=π integral_ t_ 1 end_ superscript t_ 2 end superscript left parenthesis straight g left parenthesis t right parenthesis right parenthesis² straight f apostrophe left parenthesis t right parenthesis d t`
 
 > **Worked Example**
 > ![6-2-4-ial-fig1-we-solution](assets/8d9167027a58-6-2-4-ial-fig1-we-solution.png)

@@ -25,8 +25,8 @@ $Z=ρc$
 
 - Where:
 
-  - *Z *= acoustic impedance (kg m<sup>-2</sup> s<sup>-1</sup>)
-  - *ρ *= the density of the material (kg m<sup>-3</sup>)
+  - *Z* = acoustic impedance (kg m<sup>-2</sup> s<sup>-1</sup>)
+  - *ρ* = the density of the material (kg m<sup>-3</sup>)
   - *c* = the speed of sound in the material (m s<sup>-1</sup>)
 
 - This equation tells us:
@@ -45,8 +45,8 @@ $Z=ρc$
   - Two materials with the same acoustic impedance would give no reflection
   - Two materials with a large difference in values would give much larger reflections
 
-- Air has an acoustic impedance of* Z*<sub>air</sub> = 400 kg m<sup>-2</sup> s<sup>-1</sup>
-- Skin has an acoustic impedance of* Z*<sub>skin</sub> = 1.7 × 10<sup>6</sup> kg m<sup>-2</sup> s<sup>-1</sup>
+- Air has an acoustic impedance of *Z*<sub>air</sub> = 400 kg m<sup>-2</sup> s<sup>-1</sup>
+- Skin has an acoustic impedance of *Z*<sub>skin</sub> = 1.7 × 10<sup>6</sup> kg m<sup>-2</sup> s<sup>-1</sup>
 
   - The large difference means ultrasound would be significantly reflected, hence a coupling gel is necessary
   - The coupling gel used has a similar Z value to the skin, meaning that very little ultrasound is reflected

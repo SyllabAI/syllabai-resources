@@ -119,7 +119,7 @@ Demand and supply diagrams to be used to illustrate these changes in market cond
 > **Exam Hint**
 > MCQ frequently requires you to identify the consequences of **dynamic changes** in markets, e.g. the new equilibrium point after a change in the market). **Memorise the conditions of demand and supply**; by doing so, you will save valuable thinking time in the exam.
 > 
-> In structured questions, explaining the steps in the dynamic change is often referred to as *analysis *and students frequently leave out some steps in the explanation
+> In structured questions, explaining the steps in the dynamic change is often referred to as *analysis* and students frequently leave out some steps in the explanation
 > 
 > **Here is a systematic process to help build your explanation:**
 > 

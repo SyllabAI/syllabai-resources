@@ -60,9 +60,9 @@ guided_study: false
 > **Worked Example**
 > Solve the equation $11\mathrm{sin}x--7=5\mathrm{cos}^{2}x$, finding all solutions in the interval  $0\leqx\leq2π$.  Give your answers correct to 3 significant figures.
 > 
-> > $\mathrm{sin}^{2}x+\mathrm{cos}^{2}x=1$*  can be rearranged as  *$\mathrm{cos}^{2}x=1-\mathrm{sin}^{2}x$
+> > $\mathrm{sin}^{2}x+\mathrm{cos}^{2}x=1$ *can be rearranged as* $\mathrm{cos}^{2}x=1-\mathrm{sin}^{2}x$
 > 
-> > *Substitute this to get the equation entirely in terms of *$\mathrm{sin}x$
+> > *Substitute this to get the equation entirely in terms of* $\mathrm{sin}x$
 > 
 > $11 \sin x - 7 = 5 ( 1 - \sin ^{2} x )$
 > 
@@ -70,7 +70,7 @@ guided_study: false
 > 
 > $\begin{gathered} 11 \sin x - 7 & = 5 - 5 \sin ^{2} x \\ 5 \sin ^{2} x + 11 \sin x - 12 & = 0 \end{gathered}$
 > 
-> > *This can be solved by factorising (it might help you to think of it as  *$5s^{2}+11s-12=0$*)*
+> > *This can be solved by factorising (it might help you to think of it as* $5s^{2}+11s-12=0$*)*
 > *You could also solve it by using the quadratic formula*
 > *Or your calculator may be able to solve quadratics*
 > 
@@ -78,8 +78,8 @@ guided_study: false
 > 
 > \sin x = \frac{4}{5} \text{or} \sin x = - 3$
 > 
-> > $\mathrm{sin}x=-3$*  has no solutions for *$x$* because sine cannot be less than *$-1$
-> *So we only need to find solutions for *$\mathrm{sin}x=\frac{4}{5}$
+> > $\mathrm{sin}x=-3$ *has no solutions for* $x$ *because sine cannot be less than* $-1$
+> *So we only need to find solutions for* $\mathrm{sin}x=\frac{4}{5}$
 > 
 > > *Start by finding the primary solution*
 > *The interval is given in radians, so we have to make sure the calculator is set up for radians!*
@@ -90,7 +90,7 @@ guided_study: false
 > 
 > $x_{2} = \pi - x_{1} = \pi - \sin ^{- 1} ( \frac{4}{5} ) = 2.214297...$
 > 
-> > *Both those solutions are the interval *$0\leqx\leq2π$*, and there are no other solutions in the interval*
+> > *Both those solutions are the interval* $0\leqx\leq2π$*, and there are no other solutions in the interval*
 > *(You could sketch the sine function to confirm that)*
 > 
 > $x=0.927,2.21(3s.f.)$

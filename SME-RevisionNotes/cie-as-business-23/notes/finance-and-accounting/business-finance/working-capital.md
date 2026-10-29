@@ -80,14 +80,14 @@ $\mathrm{Working} \mathrm{capital}=\mathrm{Current} \mathrm{assets}-\mathrm{Curr
 
 #### Managing trade receivables effectively
 
-- Effective management of trade receivables helps get cash into the business  quickly, improving *liquidity *and reducing the risk of *bad debt*
+- Effective management of trade receivables helps get cash into the business  quickly, improving *liquidity* and reducing the risk of *bad debt*
 - Ways to manage trade receivables effectively include
 
   - **Set clear payment terms** (e.g. 30 days) to avoid long delays in receiving money
   - **Send *****invoices *****promptly** and follow up on late payments with reminders
   - **Offer early payment incentives** such as small discounts to encourage customers to pay faster
   - **Check customer***** creditworthiness*** before offering credit, especially to new buyers
-  - **Limit credit to high-risk customers** or require *deposits *upfront
+  - **Limit credit to high-risk customers** or require *deposits* upfront
 
 #### Managing trade payables effectively
 

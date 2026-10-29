@@ -35,7 +35,7 @@ $F=BIL\mathrm{sin}θ$
   - increasing the current flowing through the conductor
   - increasing the length of the conductor in the field
 
-- **Note**: The length *L *represents the length of the conductor that is **within** the field
+- **Note**: The length *L* represents the length of the conductor that is **within** the field
 
 #### Magnetic force on a current-carrying conductor
 
@@ -63,7 +63,7 @@ $F=BIL$
 
 - It is important to note that a current-carrying conductor will experience **no** force if the current in the conductor is parallel to the field
 
-  - This is because the *F*, *B* and *I *must be **perpendicular** to each other
+  - This is because the *F*, *B* and *I* must be **perpendicular** to each other
 
 > **Worked Example**
 > A current of 0.87 A flows in a wire of length 1.4 m placed at 30° to a magnetic field of flux density 80 mT.
@@ -75,7 +75,7 @@ $F=BIL$
 > **Step 1: Write down the known quantities**
 > 
 > - Magnetic flux density, *B* = 80 mT = 80 × 10<sup>-3</sup> T
-> - Current,* I* = 0.87 A
+> - Current,*I* = 0.87 A
 > - Length of wire*, L* = 1.4 m
 > - Angle between the wire and the magnetic field, *θ =* 30°
 > 

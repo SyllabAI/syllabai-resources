@@ -66,7 +66,7 @@ guided_study: false
 
 ![Increase in supply for labour due to changes in population](../../../assets/dc275cb9c960-edexcel-igcse-economics-increase-in-supply-of-la.bin)
 
-*Changes in the supply of labour *
+*Changes in the supply of labour*
 
 ### Diagram analysis
 

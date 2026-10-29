@@ -83,13 +83,13 @@ Write out the **first three** or **four **terms of *an*<sup>2</sup> and **subtra
 | difference | -1 | 2 | 5 | 8 |
 
 - **STEP 4**
-Work out the ***n*****th term** of these **differences **to find the *bn* + *c *part of the formula
+Work out the ***n*****th term** of these **differences **to find the *bn* + *c* part of the formula
 
-  - e.g. the *n*th term of -1, 2, 5, 8, ... is  *bn* + *c *= 3*n* − 4
+  - e.g. the *n*th term of -1, 2, 5, 8, ... is  *bn* + *c* = 3*n* − 4
 - **STEP 5**
-Find *an*<sup>*2*</sup>* *+* bn *+* c *by adding together this linear *n*th term to *an*<sup>2</sup> term
+Find *an*<sup>*2*</sup>* *+ *bn* + *c* by adding together this linear *n*th term to *an*<sup>2</sup> term
 
-  - e.g.  *an*<sup>*2*</sup>* *+* bn *+* c *= 2*n*<sup>2</sup> + 3*n* − 4
+  - e.g.  *an*<sup>*2*</sup>* *+ *bn* + *c* = 2*n*<sup>2</sup> + 3*n* − 4
 
 > **Exam Hint**
 > You must learn the square numbers from 1<sup>2</sup> to 15<sup>2</sup> .
@@ -123,7 +123,7 @@ Find *an*<sup>*2*</sup>* *+* bn *+* c *by adding together this linear *n*th term
 > 
 > **Answer:**
 > 
-> > *Substitute **n** = 20 into **n*<sup>*2*</sup>* + 5*
+> > *Substitute **n** = 20 into **n*<sup>*2*</sup> *+ 5*
 > 
 > *(20)**<sup>2</sup>** + 5 = 400 + 5*
 > 
@@ -139,11 +139,11 @@ Find *an*<sup>*2*</sup>* *+* bn *+* c *by adding together this linear *n*th term
 > 
 > *Sequence:   5,   7,   11,   17,   25*
 > 
-> *First differences:      2,    4,     6,      8, ...           *
+> *First differences:      2,    4,     6,      8, ...*
 > 
-> *Second difference:     2,    2,     2, ...               *
+> *Second difference:     2,    2,     2, ...*
 > 
-> > *Hence *
+> > *Hence*
 > 
 > **a*** = 2 ÷ 2 = 1*
 > 
@@ -159,7 +159,7 @@ Find *an*<sup>*2*</sup>* *+* bn *+* c *by adding together this linear *n*th term
 > 
 > **bn*** + ***c*** = −n + 5*
 > 
-> > *Add **an*<sup>*2*</sup>* and **bn** + **c **together to give you the **n*<sup>*th*</sup>* term of the sequence*
+> > *Add **an*<sup>*2*</sup>* and **bn** + **c **together to give you the **n*<sup>*th*</sup> *term of the sequence*
 > 
 > **Final answer:** **n**<sup>**th**</sup>** term =**** n**<sup>**2**</sup>** − ****n**** + 5**
 > 

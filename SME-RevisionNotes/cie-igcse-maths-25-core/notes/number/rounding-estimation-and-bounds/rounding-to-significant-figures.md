@@ -127,7 +127,7 @@ guided_study: true
 > 
 > `345 space circle enclose 2 56`
 > 
-> > *This digit is less than 5 so round down *
+> > *This digit is less than 5 so round down*
 > 
 > **345 000 (3 s.f.)**
 > 
@@ -141,7 +141,7 @@ guided_study: true
 > 
 > > *Circle the digit to the right of the third significant figure (6)*
 > 
-> `0.002 space 95 circle enclose 6 space 314`
+> `0.002 95 circle enclose 6 314`
 > 
 > > *6 is greater than 5 so we need to round up*
 > 
@@ -154,7 +154,7 @@ guided_study: true
 > 
 > > *Count in hundredths*
 > *Identify the number it could round down to (3.99) or round up to (4.00)*
-> *Because the value in the tenths and hundredths columns is 9, it will affect higher place values *
+> *Because the value in the tenths and hundredths columns is 9, it will affect higher place values*
 > 
 > > *Circle the digit to the right of the third significant figure (7)*
 > 

@@ -46,7 +46,7 @@ guided_study: false
 
 - Where:
 
-  - *F * is the restoring force
+  - *F* is the restoring force
   - *x* is the displacement of the object from the equilibrium position
   - *k* is a constant depending on the system
   - the negative sign shows that the acceleration will always be towards the centre of oscillation
@@ -78,7 +78,7 @@ guided_study: false
 > 
 > **Step 2: Substitute values into the restoring force equation**
 > 
-> *F *= *-kx *= -(90) x (0.05) = - 4.5 N
+> *F* = *-kx* = -(90) x (0.05) = - 4.5 N
 > 
 > **Step 3: Explain the answer**
 > 

@@ -109,7 +109,7 @@ In Section A, there are two assessment objectives which are both equally weighte
 - Explore a variety of interpretations simply by using phrases such as “An alternative interpretation of this scene might suggest…”
 - Avoid lengthy narrations about the plot:
 
-  - This is* not* analysis and will severely limit your marks
+  - This is *not* analysis and will severely limit your marks
 - Write with care and accuracy:
 
   - Time spent reading, planning and checking is always well spent

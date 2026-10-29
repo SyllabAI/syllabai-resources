@@ -43,7 +43,7 @@ guided_study: false
 - Some Jews (particularly Orthodox) reject technology on holy days (for example, no phones on Shabbat or Yom Kippur)
 - For many people, there is now greater access and inclusion in Jewish practice, and services may now include:
 
-  - *Interfaith *families
+  - *Interfaith* families
   - **Gender equality** (for example, women wearing **tallit **and** leading prayers**)
   - **Translations** and **modern readings **for greater understanding
 - Practices may also be different depending on global and cultural differences

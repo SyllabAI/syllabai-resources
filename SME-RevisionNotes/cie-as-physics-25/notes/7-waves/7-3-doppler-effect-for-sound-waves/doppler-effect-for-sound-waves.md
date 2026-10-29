@@ -80,7 +80,7 @@ $f_{o} = f_{s} ( \frac{v}{v \pm v_{s} } )$
 
   - *f*<sub>*o*</sub>* *is the observed frequency in Hz
   - *f*<sub>*s*</sub>* *is the source frequency in Hz
-  - *v *is wave velocity in m s<sup>−1</sup>
+  - *v* is wave velocity in m s<sup>−1</sup>
   - *v*<sub>*s*</sub>* *is the velocity of the source relative to the observer, again in m s<sup>−1</sup>
 - Use the speed of sound given in the question (often 340 m s<sup>-1</sup> in air)
 - The ± depends on whether the source is moving towards or away from the observer

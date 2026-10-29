@@ -27,7 +27,7 @@ guided_study: true
 - Thus the promoter is used to **regulate gene expression** because only if it is present will transcription and therefore the expression of the gene occur
 - If genetic engineers want to ensure the desired gene is expressed when modifying the plasmid they have to **add an appropriate promoter**
 - As with eukaryotic cells, bacteria have many different genes coding for many different proteins although not all genes are switched on at once
-- Bacteria will only express genes (to make proteins) if the growing conditions require a certain protein (e.g., *E. coli *bacteria only make[ β-galactosidase enzymes ](https://www.savemyexams.com/a-level/biology/cie/25/revision-notes/16-inheritance/16-3-gene-control/gene-control-lac-operon/?_ai=internal-linking)when their growing medium contains lactose but lacks glucose)
+- Bacteria will only express genes (to make proteins) if the growing conditions require a certain protein (e.g., *E. coli* bacteria only make[ β-galactosidase enzymes ](https://www.savemyexams.com/a-level/biology/cie/25/revision-notes/16-inheritance/16-3-gene-control/gene-control-lac-operon/?_ai=internal-linking)when their growing medium contains lactose but lacks glucose)
 - Scientists used this knowledge when first genetically engineering bacteria to produce insulin
 
   - In this case, they added the insulin gene along with the β-galactosidase gene to share a promoter (which switched on the gene when the bacteria needed to metabolise lactose)

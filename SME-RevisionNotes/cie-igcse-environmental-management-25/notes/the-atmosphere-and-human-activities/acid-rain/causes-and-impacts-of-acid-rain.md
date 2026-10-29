@@ -71,7 +71,7 @@ guided_study: false
 - Acid rain negatively impacts  forests and trees as sulphur dioxide **interferes **with the **process** of **photosynthesis**
 
   - When acid rain **directly **falls on **leaves**, it  damages the protective waxy coating of leaves, interrupting water and gas exchange, which eventually kills the plant
-- Acid rain also damages foliage, causing *defoliation *and reduces nutrient absorption
+- Acid rain also damages foliage, causing *defoliation* and reduces nutrient absorption
 
   - Acid rain is especially** harmful **to** coniferous forests **such as **pine and spruce** due to their** shallow root systems **and** thin bark**
 - Removing a whole tree can be equivalent to the effect of 60 years of acid rain

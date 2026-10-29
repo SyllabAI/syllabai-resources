@@ -63,7 +63,7 @@ guided_study: true
 
 ## Relating centripetal acceleration & angular speed
 
-- An object travelling in uniform circular motion has ***centripetal acceleration***, yet its angular speed (*⍵*) is constant
+- An object travelling in uniform circular motion has ***centripetal acceleration***, yet its angular speed (*ω*) is constant
 
   - This is because speed is a ***scalar*** quantity, whilst velocity is a vector quantity
   - Therefore, angular speed is the **magnitude** (size) component of angular velocity

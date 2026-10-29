@@ -29,7 +29,7 @@ guided_study: false
 
 #### Increase in consumption
 
-- Rising household incomes, falling interest rates, or rising *consumer confidence *increase consumption (C), shifting AD right and raising real output
+- Rising household incomes, falling interest rates, or rising *consumer confidence* increase consumption (C), shifting AD right and raising real output
 
 #### Increase in investment
 
@@ -41,7 +41,7 @@ guided_study: false
 
 #### Increase in net exports
 
-- A *depreciation *of the exchange rate makes exports cheaper abroad and imports more expensive domestically, raising net exports (X-M) and shifting AD right
+- A *depreciation* of the exchange rate makes exports cheaper abroad and imports more expensive domestically, raising net exports (X-M) and shifting AD right
 
 ### 2. Supply-side causes: shifts in LRAS
 
@@ -55,7 +55,7 @@ guided_study: false
 
 #### Improvements in human capital
 
-- Investment in education and training raises the quality of labour, increasing *productivity *and shifting LRAS right
+- Investment in education and training raises the quality of labour, increasing *productivity* and shifting LRAS right
 
 #### Increase in the quantity of factors of production
 
@@ -63,7 +63,7 @@ guided_study: false
 
 #### Institutional improvements
 
-- Stronger property rights, reduced *corruption*, *deregulation *and improved *infrastructure *reduce the costs of doing business, raising productive capacity over time
+- Stronger property rights, reduced *corruption*, *deregulation* and improved *infrastructure* reduce the costs of doing business, raising productive capacity over time
 
 > **Case Study**
 > **Potential growth - land reclamation in Singapore**
@@ -96,7 +96,7 @@ guided_study: false
 | **Benefits of economic growth** | **Costs of economic growth** |
 |---|---|
 | - **Rising living standards**<br><br>  - Real GDP per capita rises - households can afford more goods, services and leisure | - **Inflation**<br><br>  - Demand-led growth near full capacity raises the price level without increasing real output |
-| - **Falling unemployment**<br><br>  - Firms hire more workers to meet higher demand - employment rises and *cyclical unemployment* falls | - **Environmental damage**<br><br>  - Higher output requires more energy and raw materials, increasing *emissions *and resource depletion |
+| - **Falling unemployment**<br><br>  - Firms hire more workers to meet higher demand - employment rises and *cyclical unemployment* falls | - **Environmental damage**<br><br>  - Higher output requires more energy and raw materials, increasing *emissions* and resource depletion |
 | - **Higher tax revenues**<br><br>  - Growth raises incomes and spending, increasing government revenues without higher tax rates | - **Inequality**<br><br>  - Benefits may flow disproportionately to capital owners and high-skilled workers, widening the *income gap* |
 | - **Improved business confidence**<br><br>  - Sustained growth encourages further investment, creating a virtuous cycle of higher productivity | - **Current account deterioration**<br><br>  - Rising incomes increase import demand, potentially worsening the *current account* balance |
 
@@ -109,7 +109,7 @@ guided_study: false
 > 
 > **Actions taken**
 > 
-> - *Market liberalisation* and export-led *industrialisation *drove rapid expansion in manufacturing and services
+> - *Market liberalisation* and export-led *industrialisation* drove rapid expansion in manufacturing and services
 > - Hundreds of millions of rural workers were absorbed into urban employment as the economy shifted from agriculture to industry
 > 
 > **Outcomes**
@@ -119,7 +119,7 @@ guided_study: false
 > - However China became the world's largest carbon emitter, with rapid industrialisation generating severe air and water pollution
 > - Income inequality worsened significantly - the *Gini coefficient* rose from approximately 0.30 in 1990 to over 0.46 by the mid-2010s - as urban workers and capital owners captured a disproportionate share of gains
 > 
-> China's experience shows that rapid growth can simultaneously reduce absolute poverty and worsen relative inequality - the *net welfare effect *depends on how growth is generated and how its benefits are distributed
+> China's experience shows that rapid growth can simultaneously reduce absolute poverty and worsen relative inequality - the *net welfare effect* depends on how growth is generated and how its benefits are distributed
 
 > **Exam Hint**
 > Always distinguish between **demand-led** and **supply-led** growth in your analysis. Demand-led growth raises real output in the short run but generates inflationary pressure as the economy approaches full capacity. Supply-led growth shifts LRAS right, raising potential output and reducing the price level simultaneously - it is non-inflationary and sustainable.

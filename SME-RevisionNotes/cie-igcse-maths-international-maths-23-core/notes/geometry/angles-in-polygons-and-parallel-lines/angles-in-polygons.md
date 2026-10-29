@@ -117,7 +117,7 @@ Use the **formula** $\frac{180 ( n - 2 )}{n}$ which calculates the interior angl
 > 
 > **Answer:**
 > 
-> > *The formula for the exterior angle of a regular polygon is *$\mathrm{Exterior} \mathrm{Angle}=\frac{360^{\circ}}{n}$* *
+> > *The formula for the exterior angle of a regular polygon is* $\mathrm{Exterior} \mathrm{Angle}=\frac{360^{\circ}}{n}$* *
 > 
 > > *Substitute the 45 for the exterior angle*
 > 

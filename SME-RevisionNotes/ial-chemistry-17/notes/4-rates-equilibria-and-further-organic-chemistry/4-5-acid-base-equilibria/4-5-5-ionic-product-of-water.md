@@ -30,7 +30,7 @@ guided_study: false
 
 ![[H+] and [OH-] table, downloadable IB Chemistry revision notes](../../../assets/a256575f4a59-8-1-8-h-and-oh-table.png)
 
-The relationship between *K*<sub>*w *</sub>and<sub>* *</sub>*pK*<sub>*w*</sub>* *is given by the following equation:
+The relationship between *K*<sub>*w* </sub>and<sub>* *</sub>*pK*<sub>*w*</sub>* *is given by the following equation:
 
 **pK**<sub>**w**</sub>** = -logK**<sub>**w**</sub>
 
@@ -52,7 +52,7 @@ The relationship between *K*<sub>*w *</sub>and<sub>* *</sub>*pK*<sub>*w*</sub>* 
 
 ![Finding pH of strong bases, downloadable AS & A Level Chemistry revision notes](../../../assets/28d26b5d6ddc-5-5-3-finding-ph-of-strong-bases.png)
 
-- Similarly, the ionic product of water can be used to find the concentration of OH<sup>-</sup> ions in solution if [H<sup>+</sup>] is known, simply by dividing *K*<sub>*w *</sub>by the [H<sup>+</sup>]
+- Similarly, the ionic product of water can be used to find the concentration of OH<sup>-</sup> ions in solution if [H<sup>+</sup>] is known, simply by dividing *K*<sub>*w* </sub>by the [H<sup>+</sup>]
 
 > **Worked Example**
 > **pH calculations of a strong alkali**
@@ -75,7 +75,7 @@ The relationship between *K*<sub>*w *</sub>and<sub>* *</sub>*pK*<sub>*w*</sub>* 
 > 
 > The pH of the solution is:
 > 
-> [H<sup>+</sup>] = *K*<sub>*w  *</sub>÷ [OH<sup>-</sup>]
+> [H<sup>+</sup>] = *K*<sub>*w* </sub>÷ [OH<sup>-</sup>]
 > 
 > [H<sup>+</sup>] = (1 x 10<sup>-14</sup>) ÷ 0.15 = 6.66 x 10<sup>-14</sup>
 > 
@@ -99,7 +99,7 @@ The relationship between *K*<sub>*w *</sub>and<sub>* *</sub>*pK*<sub>*w*</sub>* 
 > 
 > *   K*<sub>*w*</sub> = [H<sup>+</sup>] [OH<sup>-</sup>]
 > 
-> [OH<sup>-</sup>]= *K*<sub>*w  *</sub>÷  [H<sup>+</sup>]
+> [OH<sup>-</sup>]= *K*<sub>*w* </sub>÷  [H<sup>+</sup>]
 > 
 > **Step 3: **Substitute the values into the expression to find the concentration of hydroxide ions
 > 

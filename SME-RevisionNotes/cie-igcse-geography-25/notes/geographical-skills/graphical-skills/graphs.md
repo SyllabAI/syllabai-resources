@@ -144,7 +144,7 @@ relevant scales and annotations to present information
 
 - Kite diagrams can show both **distribution **and **amounts**
 
-  - The distribution along a* transect* is shown by its **position along a line** in each section of a kite diagram
+  - The distribution along a *transect* is shown by its **position along a line** in each section of a kite diagram
   
     - Each section represents a different species
     - The **distance along the transect is given on the x-axis**

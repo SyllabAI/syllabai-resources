@@ -77,8 +77,8 @@ $n=\frac{\mathrm{sin}i}{\mathrm{sin}r}$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Refractive index of glass, *n *= 1.53
-> - Angle of incidence, *i *= 15°
+> - Refractive index of glass, *n* = 1.53
+> - Angle of incidence, *i* = 15°
 > 
 > **Step 2: Write the equation for refractive index in terms of the ratio of angles**
 > 
@@ -103,8 +103,8 @@ $n=\frac{\mathrm{sin}i}{\mathrm{sin}r}$
 > 
 > **Important:** ($\frac{\mathrm{sin}i}{\mathrm{sin}r}$) is not the same as ($\frac{i}{r}$). Incorrectly cancelling the sin terms is a very common mistake!
 > 
-> When calculating the value of *i* or *r*, start by calculating the value of sin* i* or sin* r.*
+> When calculating the value of *i* or *r*, start by calculating the value of sin *i* or sin *r.*
 > 
 > You can then use the **inverse sine** function (sin<sup>–1</sup> on most calculators by pressing 'shift' then 'sine') to find the angle.
 > 
-> One way to remember which way around *i *and *r* are in the fraction is remembering that '*i*' comes before '*r*' in the alphabet, and therefore is on the top of the fraction (whilst *r* is on the bottom).
+> One way to remember which way around *i* and *r* are in the fraction is remembering that '*i*' comes before '*r*' in the alphabet, and therefore is on the top of the fraction (whilst *r* is on the bottom).

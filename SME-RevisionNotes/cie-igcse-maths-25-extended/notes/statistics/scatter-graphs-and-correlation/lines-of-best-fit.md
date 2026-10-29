@@ -41,7 +41,7 @@ guided_study: true
 
 - Once the line of best fit is drawn, you can use it to **predict values**
 
-  - E.g. to estimate* y* when *x* = 5
+  - E.g. to estimate *y* when *x* = 5
   
     - Use the line to read off the *y* value when *x* is 5
 - It is best to use your line to predict values that lie **within the region **covered by the data points
@@ -67,7 +67,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Plot each point carefully using crosses *
+> > *Plot each point carefully using crosses*
 > 
 > ![A scatter diagram for time against price](assets/33245bc02455-38226-scatter-price-time-fixed.png)
 > 

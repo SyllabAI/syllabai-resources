@@ -68,7 +68,7 @@ guided_study: true
 - For example:
 
   - A 2p electron is in the second shell
-  - Therefore, it has an energy corresponding to *n *= 2
+  - Therefore, it has an energy corresponding to *n* = 2
 - Even though there is repulsion between negatively charged electrons (**inter-electrons repulsion**), they occupy the same region of space in orbitals
 - This is because the energy required to jump to **successive **empty orbital is **greater **than the inter-electron repulsion
 - For this reason, electrons pair up and occupy the lower energy levels first

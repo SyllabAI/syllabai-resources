@@ -32,13 +32,13 @@ guided_study: false
 
 - ** Fair pay and financial incentives**
 
-  - Offering fair salaries and extra financial rewards, such as *bonuses *or *profit sharing*, motivates employees, making them feel valued and fairly treated
+  - Offering fair salaries and extra financial rewards, such as *bonuses* or *profit sharing*, motivates employees, making them feel valued and fairly treated
 - **Opportunities for career advancement and personal growth**
 
   - Employees become motivated when they see clear opportunities to progress within a business, developing new skills and taking on greater responsibilities
 - **Recognition of good performance and achievements**
 
-  - Regularly acknowledging employees' achievements boosts *self-esteem *and motivation and encourages continued high performance
+  - Regularly acknowledging employees' achievements boosts *self-esteem* and motivation and encourages continued high performance
 - **Positive relationships among staff and management**
 
   - Good relationships within the workplace create trust and mutual respect, improving communication and cooperation across the business
@@ -54,7 +54,7 @@ guided_study: false
 |---|---|
 | **Health insurance and medical benefits** | - Providing health insurance ensures employees have access to necessary medical care<br>- This improves well-being- and reduces *absenteeism* |
 | **Safe and pleasant working conditions** | - Safe, comfortable workplaces prevent accidents and reduce *stress*<br>- This increases employee satisfaction and productivity |
-| **Training on health and safety** | - Regular health and safety training reduces workplace risks and *empowers *employees to handle situations effectively<br>- This improves worker confidence and gives them peace of mind |
+| **Training on health and safety** | - Regular health and safety training reduces workplace risks and *empowers* employees to handle situations effectively<br>- This improves worker confidence and gives them peace of mind |
 | **Mental health support and counselling** | - Offering mental health resources helps employees manage stress and anxiety<br>- This improves their *resilience* and may improve productivity |
 
 ### Work-life balance
@@ -68,7 +68,7 @@ guided_study: false
 |---|---|---|
 | **Flexible working hours or remote working** | - Allowing employees to choose working hours or work from home gives them control over their schedules<br>- This reduces stress and improves job satisfaction | - **Spotify **allows employees globally to work remotely, promoting productivity and better time management |
 | **Paid parental leave** | - Offering paid *parental leave* supports employees during significant life changes<br>- This helps balance family responsibilities and careers | - **Netflix **provides up to 52 weeks paid parental leave for employees worldwide, encouraging staff retention and loyalty |
-| **Holiday entitlement and encouragement to take breaks** | - Ensuring employees take regular holidays and breaks reduces *burnout *and boosts overall health and productivity | - **Daimler **actively encourages employees across its global branches use all of their annual leave entitlement to recharge and maintain productivity |
+| **Holiday entitlement and encouragement to take breaks** | - Ensuring employees take regular holidays and breaks reduces *burnout* and boosts overall health and productivity | - **Daimler **actively encourages employees across its global branches use all of their annual leave entitlement to recharge and maintain productivity |
 | **Employee assistance programmes** | - Providing access to confidential professional support services helps employees manage personal, emotional, or financial challenges | - **Tesco **gives its staff access to counselling and financial advice, supporting their overall well-being |
 
 ## The impact of diversity and equality in the workplace
@@ -86,7 +86,7 @@ guided_study: false
 
 - **Promotes fairness and reduces discrimination**
 
-  - Emphasising equality ensures that everyone has the same opportunities and reduces unfair treatment or *bias *based on personal characteristics
+  - Emphasising equality ensures that everyone has the same opportunities and reduces unfair treatment or *bias* based on personal characteristics
 - **Enhances job satisfaction, morale and motivation**
 
   - When employees see diversity and equality valued in their workplace, they become happier, more engaged and enthusiastic about their work
@@ -132,7 +132,7 @@ guided_study: false
 >   - Employees from different backgrounds work together effectively, bringing fresh ideas and solutions
 > - **Improved brand image**
 > 
->   - Customers see Adidas as a fair and *inclusive *company, increasing loyalty and attracting more buyers worldwide
+>   - Customers see Adidas as a fair and *inclusive* company, increasing loyalty and attracting more buyers worldwide
 > - **Motivated employees**
 > 
 >   - Workers feel valued and respected, leading to high morale and low staff turnover

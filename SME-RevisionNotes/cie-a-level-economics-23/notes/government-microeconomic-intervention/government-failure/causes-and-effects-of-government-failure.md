@@ -36,7 +36,7 @@ guided_study: false
 | **Unintended consequences** | - Producers and consumers respond to interventions by seeking legal or illegal ways to avoid them, creating outcomes the government did not anticipate | - Tobacco taxation in **Australia** and **Singapore** has been linked to growth in illicit tobacco markets - **shifting consumption **from taxed legal products to untaxed illegal ones |
 | **Regulatory capture** | - The *regulating body* comes to act in the interests of the industry it regulates rather than the public interest, turning regulation into a tool that protects incumbents | - Financial regulators in several countries were criticised for being too close to the banks they oversaw, contributing to the risk-taking that caused the 2008 global financial crisis |
 | **Administrative and compliance costs** | - The costs of designing, implementing, monitoring and enforcing government interventions may exceed the *welfare gains* they generate | - Complex tax systems in many lower-income economies impose significant *compliance costs* on small firms, reducing productive efficiency without generating equivalent welfare gains |
-| **Political pressures** | - Government decisions are influenced by *electoral cycles*, *lobbying *and short-term political considerations rather than long-term economic efficiency | - Fuel subsidies in **Nigeria**, **Iran** and **Venezuela** have been maintained long after they ceased to be economically justified, due to political difficulty of removal |
+| **Political pressures** | - Government decisions are influenced by *electoral cycles*, *lobbying* and short-term political considerations rather than long-term economic efficiency | - Fuel subsidies in **Nigeria**, **Iran** and **Venezuela** have been maintained long after they ceased to be economically justified, due to political difficulty of removal |
 
 ## Consequences of government failure
 
@@ -64,7 +64,7 @@ guided_study: false
 
 ### Black markets
 
-- Price controls and *prohibitions *push activity into illegal markets where consumer protections, quality standards and tax collection are absent
+- Price controls and *prohibitions* push activity into illegal markets where consumer protections, quality standards and tax collection are absent
 
   - For example, rent controls in **New York**, **Stockholm** and **Mumbai** have generated significant informal rental markets operating outside the legal framework
 
@@ -93,7 +93,7 @@ guided_study: false
 > 
 > Nigeria introduced fuel subsidies to make petrol affordable for its population, the majority of whom live on low incomes.
 > 
-> At their peak the subsidies consumed a vast share of government revenue, making them one of the most significant examples of government failure through fiscal cost and *misallocation *in any developing economy.
+> At their peak the subsidies consumed a vast share of government revenue, making them one of the most significant examples of government failure through fiscal cost and *misallocation* in any developing economy.
 > 
 > **Actions taken**
 > 
@@ -103,11 +103,11 @@ guided_study: false
 > 
 > **Outcomes**
 > 
-> Removal of the subsidy caused significant short-term *inflation *and hardship for low-income households - the very group the subsidy was meant to protect
+> Removal of the subsidy caused significant short-term *inflation* and hardship for low-income households - the very group the subsidy was meant to protect
 > 
-> This illustrates a central *paradox *of government failure: poorly designed interventions can become so embedded that their removal also causes harm
+> This illustrates a central *paradox* of government failure: poorly designed interventions can become so embedded that their removal also causes harm
 > 
-> Critics note that wealthier Nigerians, who own more vehicles, captured a disproportionate share of the subsidy benefit, making the policy both fiscally costly and* regressive*
+> Critics note that wealthier Nigerians, who own more vehicles, captured a disproportionate share of the subsidy benefit, making the policy both fiscally costly and *regressive*
 
 > **Exam Hint**
 > Government failure is not a reason to avoid intervention — it is a reason to **design intervention carefully**. Strong answers acknowledge that both market failure and government failure exist and evaluate which is likely to be greater in context.

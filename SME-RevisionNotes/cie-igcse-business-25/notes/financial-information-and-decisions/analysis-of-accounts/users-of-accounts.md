@@ -49,7 +49,7 @@ shareholders), managers, employees"
 
 - Employees are also interested in the information within financial reports to
 
-  - Judge the business’s financial health to check that they have* job security*
+  - Judge the business’s financial health to check that they have *job security*
   - See if the business is profitable or liquid enough to award pay rises or *bonuses*
 
 > **Exam Hint**

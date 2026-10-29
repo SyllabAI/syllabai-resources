@@ -67,7 +67,7 @@ guided_study: false
 > **Worked Example**
 > A red snooker ball, travelling at 2.5 m s<sup>–1</sup>, collides with a green snooker ball, which is at rest. Both snooker balls have the same mass *m*.
 > 
-> The angle of collision is such that the red ball moves off at 28° below the horizontal at 2.1 m s<sup>–1</sup> and the green ball moves off at 55° above the horizontal, with a speed *v, *as shown.
+> The angle of collision is such that the red ball moves off at 28° below the horizontal at 2.1 m s<sup>–1</sup> and the green ball moves off at 55° above the horizontal, with a speed *v,* as shown.
 > 
 > ![6-3-snooker-we_edexcel-al-physics-rn](assets/89fb427796c4-52000-6-3-snooker-we-edexcel-al-physic.png)
 > 
@@ -104,9 +104,9 @@ guided_study: false
 > 
 > Total vertical momentum before = total vertical momentum after
 > 
-> $mu_{y\mathrm{red}}+mu_{y\mathrm{green}}=mv_{y\mathrm{red}}+mv_{y\mathrm{green}}$
+> $\mu_{y\mathrm{red}}+\mu_{y\mathrm{green}}=mv_{y\mathrm{red}}+mv_{y\mathrm{green}}$
 > 
-> `0 space plus space 0 space equals space m open parentheses negative 2.1 space sin space 28 degree close parentheses space plus space m open parentheses v space sin space 55 degree close parentheses`
+> `0+0=m (−2.1 sin 28 degree)+m (v sin 55 degree)`
 > 
 > $0=-2.1\mathrm{sin}28^{\circ}+v\mathrm{sin}55^{\circ}$
 > 

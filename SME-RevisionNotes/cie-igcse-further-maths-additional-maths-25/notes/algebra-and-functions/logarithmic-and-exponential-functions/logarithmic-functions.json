@@ -232,7 +232,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Logarithms allow us to solve equations where the exponent is the unknown value\n\n  - We can solve some of these by inspection\n  \n    - For example, for the equation 2<sup>*x*</sup>* *= 8 we know that *x *must be 3\n  - Logarithms allow use to solve more complicated problems\n  \n    - For example, the equation 2<sup>*x*</sup> = 10 does not have a clear answer\n    - Instead, we can use our calculator to find the value of $\\mathrm{log}_{2}10$"
+   "md": "- Logarithms allow us to solve equations where the exponent is the unknown value\n\n  - We can solve some of these by inspection\n  \n    - For example, for the equation 2<sup>*x*</sup>* *= 8 we know that *x* must be 3\n  - Logarithms allow use to solve more complicated problems\n  \n    - For example, the equation 2<sup>*x*</sup> = 10 does not have a clear answer\n    - Instead, we can use our calculator to find the value of $\\mathrm{log}_{2}10$"
   },
   {
    "type": "heading",
@@ -356,19 +356,19 @@
   },
   {
    "type": "bullets",
-   "md": "- The functions $e^{x}$ and $\\mathrm{ln}x$ are **inverses** of each other\n\n  - If $e^{x}=a$ then $x = \\ln a$\n  - If $\\ln x = a$ then $x=e^{a}$\n  - If $e^{f(x)}=g(x)$ then $\\mathrm{f} ( x ) = \\ln \\mathrm{g} ( x )$\n  - If $\\ln \\mathrm{f} ( x ) = \\mathrm{g} ( x )$ then $\\mathrm{f} ( x ) = \\mathrm{e}^{ \\mathrm{g} ( x )}$\n- If your equation involves \"e\" then try to get all the \"e\" terms on one side\n\n  - If \"e\" terms are multiplied, you can add the powers\n  \n    - $e^{x}\\timese^{y}=e^{x+y}$\n    - You can then apply ln to both sides of the equation\n  - If \"e\" terms are added, try transforming the equation with a substitution\n  \n    - For example: If $y=e^{x}$ then $e^{4x}=y^{4}$\n    - You can then solve the resulting equation (usually a quadratic)\n    - Once you solve for *y* then solve for *x *using the substitution formula\n- If your equation involves \"ln\", try to combine all \"ln\" terms together\n\n  - Use the laws of logarithms to combine terms into a single term\n  - If you have $\\ln \\mathrm{f} ( x ) = \\ln \\mathrm{g} ( x )$ then solve $\\mathrm{f} ( x ) = \\mathrm{g} ( x )$\n  - If you have $\\ln \\mathrm{f} ( x ) = k$ then solve $\\mathrm{f} ( x ) = \\mathrm{e}^{k}$"
+   "md": "- The functions $e^{x}$ and $\\mathrm{ln}x$ are **inverses** of each other\n\n  - If $e^{x}=a$ then $x = \\ln a$\n  - If $\\ln x = a$ then $x=e^{a}$\n  - If $e^{f(x)}=g(x)$ then $\\mathrm{f} ( x ) = \\ln \\mathrm{g} ( x )$\n  - If $\\ln \\mathrm{f} ( x ) = \\mathrm{g} ( x )$ then $\\mathrm{f} ( x ) = \\mathrm{e}^{ \\mathrm{g} ( x )}$\n- If your equation involves \"e\" then try to get all the \"e\" terms on one side\n\n  - If \"e\" terms are multiplied, you can add the powers\n  \n    - $e^{x}\\timese^{y}=e^{x+y}$\n    - You can then apply ln to both sides of the equation\n  - If \"e\" terms are added, try transforming the equation with a substitution\n  \n    - For example: If $y=e^{x}$ then $e^{4x}=y^{4}$\n    - You can then solve the resulting equation (usually a quadratic)\n    - Once you solve for *y* then solve for *x* using the substitution formula\n- If your equation involves \"ln\", try to combine all \"ln\" terms together\n\n  - Use the laws of logarithms to combine terms into a single term\n  - If you have $\\ln \\mathrm{f} ( x ) = \\ln \\mathrm{g} ( x )$ then solve $\\mathrm{f} ( x ) = \\mathrm{g} ( x )$\n  - If you have $\\ln \\mathrm{f} ( x ) = k$ then solve $\\mathrm{f} ( x ) = \\mathrm{e}^{k}$"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "- If you're working on the non-calculator exam paper you may need to leave answers as exact values so using ln*x *is a good idea\n\n  - This can be solved with e<sup>*x *</sup>which can then be left as an exact value"
+   "md": "- If you're working on the non-calculator exam paper you may need to leave answers as exact values so using ln*x *is a good idea\n\n  - This can be solved with e<sup>*x* </sup>which can then be left as an exact value"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Solve the equation $e^{2x}=5$, leaving your answer as an exact value.\n\n> *Take the natural logarithm of both sides. *\n\n$\\ln ( \\mathrm{e}^{2 x} ) = \\ln 5$\n\n> *Use the property that *$\\ln ( \\mathrm{e}^{a} ) = a$*.*\n\n> $2x=\\mathrm{ln}5$* *\n\n> *Divide both sides by 2. *\n\n$\\begin{gathered} x & = \\frac{\\ln 5}{2} \\end{gathered}$\n\n> *Do not use your calculator to evaluate this as the question asks for the answer given as an exact value.*\n\n$x=\\frac{\\mathrm{ln}5}{2}$"
+   "md": "Solve the equation $e^{2x}=5$, leaving your answer as an exact value.\n\n> *Take the natural logarithm of both sides.*\n\n$\\ln ( \\mathrm{e}^{2 x} ) = \\ln 5$\n\n> *Use the property that* $\\ln ( \\mathrm{e}^{a} ) = a$*.*\n\n> $2x=\\mathrm{ln}5$* *\n\n> *Divide both sides by 2.*\n\n$\\begin{gathered} x & = \\frac{\\ln 5}{2} \\end{gathered}$\n\n> *Do not use your calculator to evaluate this as the question asks for the answer given as an exact value.*\n\n$x=\\frac{\\mathrm{ln}5}{2}$"
   }
  ]
 }

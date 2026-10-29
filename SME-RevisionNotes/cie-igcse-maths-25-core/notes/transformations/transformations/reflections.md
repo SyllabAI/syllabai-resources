@@ -67,12 +67,12 @@ From **each vertex** on the **original object** measure the **perpendicular dist
 > 
 > **Answer:**
 > 
-> > *Draw in the mirror line; *$x=-1$* will be a vertical line passing through -1 on the **x**-axis*
+> > *Draw in the mirror line;* $x=-1$* will be a vertical line passing through -1 on the **x**-axis*
 > *Measure or count the number of units from the shape "diagonals" on the other side of the mirror line to find the position of the corresponding vertex on the reflected image*
 > 
 > ![cie-igcse-core-reflections-rn-image](assets/9f657b634cf3-61899-reflections-4.png)
 > 
-> > *List the vertices of the reflected image. *
+> > *List the vertices of the reflected image.*
 > *Work your way around the shape vertex by vertex so that you don't miss any out as there are quite a few!*
 > 
 > **Final answer:** **Vertices of the reflected shape: (1, 6), (2, 6), (2, 4), (3, 4), (3, 6), (4, 6), (4, 3), (3, 3), (3, 1), (2, 1), (2, 3), (1,3)**

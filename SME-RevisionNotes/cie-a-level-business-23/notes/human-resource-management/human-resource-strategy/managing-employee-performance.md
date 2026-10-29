@@ -89,7 +89,7 @@ $\mathrm{Absenteeism} \mathrm{rate}=\frac{\mathrm{Number} \mathrm{of} \mathrm{st
   - A wider** culture of absenteeism** may develop
 
 > **Worked Example**
-> On January 16th twenty-two of *Belling Stoneworks Ltd's *189 employees were absent.
+> On January 16th twenty-two of *Belling Stoneworks Ltd's* 189 employees were absent.
 > 
 > Calculate Belling Stoneworks Limited's absenteeism rate on January 16th.
 > 

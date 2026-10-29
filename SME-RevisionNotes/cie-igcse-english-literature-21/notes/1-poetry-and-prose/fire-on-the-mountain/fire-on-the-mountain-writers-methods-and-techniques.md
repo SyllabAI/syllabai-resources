@@ -143,7 +143,7 @@ There are moments in the novel that could be seen as [foreshadowing](https://www
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

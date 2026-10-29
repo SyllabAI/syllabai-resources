@@ -15,7 +15,7 @@ guided_study: false
 
 ![A timeline showing the dates November 9th 1918, 11th November 1918, January 19th 1919 and 31st July 1919. On November 9th 1918, Kaiser Wilhelm II abdicates, 11th November 1918, Germany signs an armistice with the Allies. This ends World War One. 19th January 1919, the German people elect the Weimar Government and 31st July 1919, the National Assembly finishes creating a new constitution. ](../../../assets/655c0014daf2-64675-creation-of-weimar-timeline.png)
 
-*A timeline of the creation of Weimar Germany *
+*A timeline of the creation of Weimar Germany*
 
 In **1918,** Germany was under a ***dictatorship*** **of the *****Kaiser*** - the German word for ‘King’. Kaiser Wilhelm II ruled Germany from **1888 **and pushed the country to **increase its economic and military power**. He refused to give the people of Germany rights and freedoms.
 

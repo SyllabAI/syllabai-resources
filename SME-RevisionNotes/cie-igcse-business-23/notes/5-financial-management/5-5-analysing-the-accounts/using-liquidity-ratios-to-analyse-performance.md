@@ -37,7 +37,7 @@ $\mathrm{Current} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}}{\mathrm
 > **Worked Example**
 > *Packer Sports Ltd* has current assets of \$15,545, current liabilities of \$5,060 and an inventory (stock) figure of \$8,250.
 > 
-> Calculate *Packer Sports Ltd.’s *current ratio.
+> Calculate *Packer Sports Ltd.’s* current ratio.
 > 
 > (2)
 > 
@@ -67,7 +67,7 @@ $\mathrm{Current} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}}{\mathrm
 $\mathrm{Acid} \mathrm{test} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}-\mathrm{stock}}{\mathrm{Current} \mathrm{liabilities}}\,\,=?:1$
 
 > **Worked Example**
-> *Packer Sports Ltd *has current assets of \$15,545, current liabilities of \$5,060 and a stock figure of \$8,250.
+> *Packer Sports Ltd* has current assets of \$15,545, current liabilities of \$5,060 and a stock figure of \$8,250.
 > 
 > Calculate *Packer Sports Ltd’s* acid test ratio.
 > 

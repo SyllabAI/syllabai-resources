@@ -112,7 +112,7 @@ definitions, advantages and disadvantages"
 > 
 > The nationalisation of YPF shows how governments may intervene in strategic industries to protect national interests
 > 
-> However, it also highlights **trade-offs** between *sovereignty *and market efficiency and the potential **risks to international investment**
+> However, it also highlights **trade-offs** between *sovereignty* and market efficiency and the potential **risks to international investment**
 
 ## Quotas
 
@@ -139,7 +139,7 @@ definitions, advantages and disadvantages"
 > **Context**
 > New Zealand has some of the richest fishing waters in the world. To prevent overfishing, the government introduced a **Quota Management System (QMS)** in 1986, placing annual limits on how much fish could be caught for each species.
 > 
-> It was designed to conserve stocks, protect *biodiversity *and ensure long-term industry sustainability
+> It was designed to conserve stocks, protect *biodiversity* and ensure long-term industry sustainability
 > 
 > ![Man holding fish with New Zealand map, fishing boat on water, fish icon, and quotas chart.](assets/ca3ddfe67172-34558-quotas.png)
 > 

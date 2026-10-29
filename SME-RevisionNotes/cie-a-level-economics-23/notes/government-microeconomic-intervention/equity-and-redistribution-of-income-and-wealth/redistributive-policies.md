@@ -30,7 +30,7 @@ guided_study: false
 - **These are  benefits paid only to individuals whose income and/or wealth falls below a specified threshold - recipients must demonstrate financial need to qualify**
 
   - The government targets support at those who need it most, making this approach **cost-effective** relative to universal provision
-  - Examples include housing benefit, food assistance, unemployment support and healthcare *subsidies *for low-income households
+  - Examples include housing benefit, food assistance, unemployment support and healthcare *subsidies* for low-income households
 
 ### Evaluating means-tested benefits
 
@@ -127,7 +127,7 @@ guided_study: false
 
   - Unlike negative income tax, UBI is paid to everyone, not just those below a threshold
   - Unlike means-tested benefits, it is never withdrawn as income rises, eliminating the poverty trap entirely
-- UBI has gained significant policy attention as a potential response to *technological unemployment* and the* gig economy*
+- UBI has gained significant policy attention as a potential response to *technological unemployment* and the *gig economy*
 
 ### Evaluating universal basic income
 

@@ -175,11 +175,11 @@
   },
   {
    "type": "bullets",
-   "md": "- The **binomial theorem (**also known as the binomial expansion) gives a method for expanding a **two-term** expression in a bracket raised to a power\n- To expand a bracket with a two-term expression in:\n\n  - First choose the most appropriate parts of the expression to assign to *a *and *b*\n  - Then use the formula for the binomial theorem:"
+   "md": "- The **binomial theorem (**also known as the binomial expansion) gives a method for expanding a **two-term** expression in a bracket raised to a power\n- To expand a bracket with a two-term expression in:\n\n  - First choose the most appropriate parts of the expression to assign to *a* and *b*\n  - Then use the formula for the binomial theorem:"
   },
   {
    "type": "paragraph",
-   "md": "`( a + b ) ^ n = a ^ n + _ ( n 1 ) a ^ n - 1 b + _ ( n 2 ) a ^ n - 2 b ^2 + horizontal ellipsis + ( n r ) a _ ^ n - r b _ ^ r + horizontal ellipsis + b ^ n`"
+   "md": "`(a+b)^n=a^n+_ (n 1) a^n - 1b+_ (n 2) a^n - 2b ^2+…+(n r) a_ ^ n - r b_ ^ r+…+b^n`"
   },
   {
    "type": "bullets",
@@ -212,7 +212,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Taking the first row as the 0th row, $( 0\n0 ) = 1$, each row corresponds to the $n^{th}$* *row and the term within that row corresponds to the $r^{th}$* *term\n\n  - The first term, which will be a 1, will be the 0th term\n- In the non-calculator exam Pascal's triangle can be helpful if you need to get the coefficients of an expansion quickly, provided the value of *n *is not too big"
+   "md": "- Taking the first row as the 0th row, $( 0\n0 ) = 1$, each row corresponds to the $n^{th}$* *row and the term within that row corresponds to the $r^{th}$* *term\n\n  - The first term, which will be a 1, will be the 0th term\n- In the non-calculator exam Pascal's triangle can be helpful if you need to get the coefficients of an expansion quickly, provided the value of *n* is not too big"
   },
   {
    "type": "heading",
@@ -229,7 +229,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The question will give you the power of *x* of the term you are looking for\n\n  - Use this to choose which value of *r * you will need to use in the formula\n  - This will depend on where the *x *is in the bracket\n  - The laws of indices can help you decide which value of *r  *to use:\n  \n    - For $(a+bx)^{n}$* *to find the coefficient of $x^{r}$* *use $a^{n-r}(bx)^{r}$\n    - For $(a+bx^{2})^{n}$ to find the coefficient of $x^{r}$* *use <sup>* *</sup>$a^{n-\\frac{r}{2}}(bx^{2})^{\\frac{r}{2}}$\n    - For $(a+\\frac{b}{x})^{n}$ look at how the powers will cancel out to decide which value of $r$ to use\n  - So for $( 3 x + \\frac{2}{x} )^{8}$ to find the coefficient of $x^{2}$ use the term with $r=3$ and to find the constant term use the term with $r=4$\n  \n    - There are a lot of variations of this so it is usually easier to see this by inspection of the powers\n- You may also be given the coefficient of a particular term and asked to find an unknown in the brackets\n\n  - Use the laws of indices to choose the correct term and then use the binomial theorem formula to form and solve and equation"
+   "md": "- The question will give you the power of *x* of the term you are looking for\n\n  - Use this to choose which value of *r* you will need to use in the formula\n  - This will depend on where the *x* is in the bracket\n  - The laws of indices can help you decide which value of *r* to use:\n  \n    - For $(a+bx)^{n}$* *to find the coefficient of $x^{r}$* *use $a^{n-r}(bx)^{r}$\n    - For $(a+bx^{2})^{n}$ to find the coefficient of $x^{r}$* *use <sup>* *</sup>$a^{n-\\frac{r}{2}}(bx^{2})^{\\frac{r}{2}}$\n    - For $(a+\\frac{b}{x})^{n}$ look at how the powers will cancel out to decide which value of $r$ to use\n  - So for $( 3 x + \\frac{2}{x} )^{8}$ to find the coefficient of $x^{2}$ use the term with $r=3$ and to find the constant term use the term with $r=4$\n  \n    - There are a lot of variations of this so it is usually easier to see this by inspection of the powers\n- You may also be given the coefficient of a particular term and asked to find an unknown in the brackets\n\n  - Use the laws of indices to choose the correct term and then use the binomial theorem formula to form and solve and equation"
   },
   {
    "type": "callout",
@@ -241,7 +241,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Find the first three terms in the expansion of $(3-2x)^{5}$, in ascending powers of $x$. Simplify the coefficient of each term.\n\n> *Identify the values of **a**,** b **and** n.*\n\n$a=3,b=-2x,n=5$\n\n> *Substitute values into the formula for (**a** + **b**)*<sup>*n*</sup>*. The question asks for ascending powers of **x**, so start with the constant term, **a*<sup>*n*</sup>*. *`stretchy ( a + b stretchy ) ^ n = a ^ n + _ ( n 1 ) a ^ n - 1 b + _ ( n 2 ) a ^ n - 2 b ^2 + horizontal ellipsis + ( n r ) a _ ^ n - r b _ ^ r + horizontal ellipsis + b ^ n`*.*\n\n> *Pay attention to the negative term for **b. *\n\n$\\begin{gathered} ( 3 - 2 x )^{5} & = 3^{5} + ( 5\n1 ) ( 3 )^{5 - 1 } ( - 2 x ) + ( 5\n2 ) ( 3 )^{5 - 2 } ( - 2 x )^{2} + \\text{horizontal} \\text{ellipsis} \\\\ = 243 + ( 5 ) ( 81 ) ( - 2 x ) + ( 10 ) ( 27 ) ( 4 x^{2} ) \\\\ = 243 + ( 405 ) ( - 2 x ) + 270 ( 4 x^{2} ) \\end{gathered}$\n\n$(3-2x)^{5}=243-810x+1080x^{2}+...$"
+   "md": "Find the first three terms in the expansion of $(3-2x)^{5}$, in ascending powers of $x$. Simplify the coefficient of each term.\n\n> *Identify the values of **a**,** b **and** n.*\n\n$a=3,b=-2x,n=5$\n\n> *Substitute values into the formula for (**a** + **b**)*<sup>*n*</sup>*. The question asks for ascending powers of **x**, so start with the constant term, **a*<sup>*n*</sup>*.* `stretchy (a+b stretchy)^n=a^n+_ (n 1) a^n - 1b+_ (n 2) a^n - 2b ^2+…+(n r) a_ ^ n - r b_ ^ r+…+b^n`*.*\n\n> *Pay attention to the negative term for **b. *\n\n$\\begin{gathered} ( 3 - 2 x )^{5} & = 3^{5} + ( 5\n1 ) ( 3 )^{5 - 1 } ( - 2 x ) + ( 5\n2 ) ( 3 )^{5 - 2 } ( - 2 x )^{2} + … \\\\ = 243 + ( 5 ) ( 81 ) ( - 2 x ) + ( 10 ) ( 27 ) ( 4 x^{2} ) \\\\ = 243 + ( 405 ) ( - 2 x ) + 270 ( 4 x^{2} ) \\end{gathered}$\n\n$(3-2x)^{5}=243-810x+1080x^{2}+...$"
   },
   {
    "type": "spec_point",
@@ -262,7 +262,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Binomial expansions are used to expand brackets\n\n  - Normally in the form (a + b)<sup>n</sup>\n- You will most likely be asked to find the first few terms\n- Look out for whether you should give your answer in **ascending** or **descending **powers of *x*\n\n  - For **ascending **powers start with the constant term, *a*<sup>*n*</sup>\n  - For **descending **powers start with the term with *x *in\n  \n    - You may wish to swap *a* and *b* over so that you can follow the general formula given in the formula book\n- If you are not writing the full expansion you can either\n\n  - show that the sequence continues by putting an ellipsis (…) after your final term\n  - or show that the terms you have found are an approximation of the full sequence by using the sign for approximately equals to (≈) ** ** ![The Binomial Expansion can be used to find the first few terms of an expansion](assets/bd9d9b335124-4-1-1-binomial-expansion-notes-diagram-6.png)"
+   "md": "- Binomial expansions are used to expand brackets\n\n  - Normally in the form (a + b)<sup>n</sup>\n- You will most likely be asked to find the first few terms\n- Look out for whether you should give your answer in **ascending** or **descending **powers of *x*\n\n  - For **ascending **powers start with the constant term, *a*<sup>*n*</sup>\n  - For **descending **powers start with the term with *x* in\n  \n    - You may wish to swap *a* and *b* over so that you can follow the general formula given in the formula book\n- If you are not writing the full expansion you can either\n\n  - show that the sequence continues by putting an ellipsis (…) after your final term\n  - or show that the terms you have found are an approximation of the full sequence by using the sign for approximately equals to (≈) ** ** ![The Binomial Expansion can be used to find the first few terms of an expansion](assets/bd9d9b335124-4-1-1-binomial-expansion-notes-diagram-6.png)"
   },
   {
    "type": "bullets",

@@ -212,7 +212,7 @@ guided_study: false
 > - *F starts at 4*
 > 
 >   - *D and E end at 4*
->   - *F has immediate predecessors D and E *
+>   - *F has immediate predecessors D and E*
 > 
 > > *F is the last activity (it ends at the sink node, event 5) so the precedence table can be completed*
 > 

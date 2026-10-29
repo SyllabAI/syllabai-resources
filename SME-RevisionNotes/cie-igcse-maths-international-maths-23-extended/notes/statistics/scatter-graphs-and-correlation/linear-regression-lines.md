@@ -45,7 +45,7 @@ Add your raw data to a **spreadsheet** in your graphic display calculator
 - **STEP 2**
 From the statistics function on your graphic display calculator, select the **statistics calculations **
 
-  - Choose the option** linear regression **`equation``open parentheses m x plus b close parentheses`
+  - Choose the option** linear regression **`equation``(m x+b)`
   - On some models you instead select **CALC **followed by **REG**
   
     - You must also then select **X**, as we are finding a linear model, rather than quadratic or cubic etc
@@ -73,7 +73,7 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
   - Plot these two points on the scatter diagram and **draw a straight line** through them
   
     - Use a ruler!
-- A regression line drawn from its equation will **always** go through the ***mean point***, `open parentheses x with bar on top comma space y with bar on top close parentheses`** **for the data set
+- A regression line drawn from its equation will **always** go through the ***mean point***, `(x with bar on top comma y with bar on top)`** **for the data set
 
   - You may be required to use this fact in an exam question
 
@@ -93,7 +93,7 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
 > 
 > (a) Find the equation of the regression line for $y$ in terms of $x$.
 > 
-> > *Enter the data as two columns in a spreadsheet or statistics mode on your graphic display calculator *
+> > *Enter the data as two columns in a spreadsheet or statistics mode on your graphic display calculator*
 > *Label the columns if you are able to; **x** (distance run) and **y** (calories burned)*
 > 
 > | $x$ | $y$ |
@@ -106,13 +106,13 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
 > | *14* | *870* |
 > | *5* | *315* |
 > 
-> > *Select the stats calculation from the statistics function *
-> *Choose the option for the linear regression *`open parentheses m x plus b close parentheses`
+> > *Select the stats calculation from the statistics function*
+> *Choose the option for the linear regression* `(m x+b)`
 > *Select the column that you input the distance data as the **x** list and the column that you input the calories burned data as the **y** list*
 > 
 > > *On some models you instead select **CALC **followed by **REG, **then **X for a linear model**,** **and finally select **ax+b **for the format of the equation*
 > 
-> > *Write down the values for *$m$* and *$b$* and round to 3 significant figures*
+> > *Write down the values for* $m$ *and* $b$ *and round to 3 significant figures*
 > 
 > $m=62.12264...\approx62.1\,b=20.01886...\approx20.0\,$
 > 
@@ -134,7 +134,7 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
 > 
 > (b) Use this information to find the mean of the data values for the calories burned.
 > 
-> > *Use the fact that the regression line always goes through the mean point *`open parentheses x with bar on top comma space y with bar on top close parentheses`
+> > *Use the fact that the regression line always goes through the mean point* `(x with bar on top comma y with bar on top)`
 > 
 > > *Draw a vertical line up from 8 on the **x-**axis until it hits the regression line*
 > *Then draw a horizontal line from there until it hits the **y-**axis*

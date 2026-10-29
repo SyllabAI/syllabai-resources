@@ -19,9 +19,9 @@ guided_study: false
 
 ### How do I transform a point using a matrix?
 
-- A point (*x*,* y*) in a 2D plane can be **transformed** onto another point (*x*',*y*') by a **matrix**, $M$
+- A point (*x*,*y*) in a 2D plane can be **transformed** onto another point (*x*',*y*') by a **matrix**, $M$
 
-  - (*x*,* y*) is the **object **and (*x*',*y*') is the **image**
+  - (*x*,*y*) is the **object **and (*x*',*y*') is the **image**
 - The **coordinates** of the image point can be found using **matrix multiplication**
 - To transform (*x*, *y*) by the matrix $( \begin{gathered} a b \\ c d \end{gathered} )$
 
@@ -51,7 +51,7 @@ $\begin{gathered} M ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gath
 > 
 > **Answer:**
 > 
-> *Multiply the coordinates, written as a column vector, by the transformation matrix *$M$
+> *Multiply the coordinates, written as a column vector, by the transformation matrix* $M$
 > 
 > $( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} 2 \\ 3 \end{gathered} ) = ( \begin{gathered} 4 \times 2 + 5 \times 3 \\ 1 \times 2 + - 2 \times 3 \end{gathered} ) = ( \begin{gathered} 23 \\ - 4 \end{gathered} )$
 > 
@@ -67,9 +67,9 @@ $\begin{gathered} M ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gath
 > 
 > **Method 1**
 > 
-> *You do not know the coordinates of *$P$*, so you can write it as *$( x , y )$*  *
+> *You do not know the coordinates of* $P$*, so you can write it as* $( x , y )$*  *
 > 
-> *Let *$P = ( x , y )$* *
+> *Let* $P = ( x , y )$* *
 > 
 > > *Multiply the coordinates of **P**, written as a column vector, by the transformation matrix *$M$
 > 
@@ -83,15 +83,15 @@ $\begin{gathered} M ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gath
 > 
 > > *You now have a pair of simultaneous equations which can be solved using either elimination or substitution*
 > 
-> > *Using substitution, start by rearranging the second equation to make *$x$* the subject*
+> > *Using substitution, start by rearranging the second equation to make* $x$ *the subject*
 > 
 > $x=2y+6$
 > 
-> > *Substitute this into the first equation, and solve to find *$y$* *
+> > *Substitute this into the first equation, and solve to find* $y$* *
 > 
 > $\begin{gathered} 4 ( 2 y + 6 ) + 5 y & = 11 \\ 8 y + 24 + 5 y & = 11 \\ 13 y + 24 & = 11 \\ 13 y & = - 13 \\ y = - 1 \end{gathered}$
 > 
-> > *Substitute *$y=-1$* into the second equation to find *$x$* *
+> > *Substitute* $y=-1$ *into the second equation to find* $x$* *
 > 
 > $\begin{gathered} x - 2 ( - 1 ) & = 6 \\ x + 2 & = 6 \\ x = 4 \end{gathered}$
 > 
@@ -99,13 +99,13 @@ $\begin{gathered} M ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gath
 > 
 > **Method 2**
 > 
-> > *Find the inverse of matrix *$M$
+> > *Find the inverse of matrix* $M$
 > 
-> - *The inverse of *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
+> - *The inverse of* $( \begin{gathered} a b \\ c d \end{gathered} )$ *is* $\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 > 
 > $\begin{gathered} M^{- 1} & = \frac{1}{4 \times ( - 2 ) - 5 \times 1} ( \begin{gathered} - 2 & - 5 \\ - 1 & 4 \end{gathered} ) \\ = \frac{1}{- 13} ( \begin{gathered} - 2 & - 5 \\ - 1 & 4 \end{gathered} ) \\ = ( \begin{gathered} \frac{2}{13} & \frac{5}{13} \\ \frac{1}{13} & - \frac{4}{13} \end{gathered} ) \end{gathered}$
 > 
-> > *If *$M ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} 11 \\ 6 \end{gathered} )$*, then *$( \begin{gathered} x \\ y \end{gathered} ) = M^{- 1} ( \begin{gathered} 11 \\ 6 \end{gathered} )$
+> > *If* $M ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} 11 \\ 6 \end{gathered} )$*, then* $( \begin{gathered} x \\ y \end{gathered} ) = M^{- 1} ( \begin{gathered} 11 \\ 6 \end{gathered} )$
 > 
 > $\begin{gathered} ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gathered} \frac{2}{13} & \frac{5}{13} \\ \frac{1}{13} & - \frac{4}{13} \end{gathered} ) ( \begin{gathered} 11 \\ 6 \end{gathered} ) \\ = ( \begin{gathered} \frac{2}{13} \times 11 + \frac{5}{13} \times 6 \\ \frac{1}{13} \times 11 + ( - \frac{4}{13} ) \times 6 \end{gathered} ) \\ = ( \begin{gathered} \frac{52}{13} \\ - \frac{13}{13} \end{gathered} ) \\ = ( \begin{gathered} 4 \\ - 1 \end{gathered} ) \end{gathered}$
 > 

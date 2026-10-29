@@ -48,7 +48,7 @@ guided_study: true
   
     - **Positive **for uphill lines
     - **Negative** for downhill lines
-  - You can also find gradient of a line between two points, `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+  - You can also find gradient of a line between two points, `(x_ 1 comma y_ 1)` and `(x_ 2 comma y_ 2)`
   
     - Use the formula  $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
@@ -81,14 +81,14 @@ guided_study: true
 > 
 > > *Find two points that the line passes through*
 > 
-> `open parentheses 0 comma space 2 close parentheses space and space open parentheses 1 comma space 5 close parentheses`
+> `(0 comma 2) and (1 comma 5)`
 > 
 > > *Use the grid to draw a right-angled triangle*
 > *Find the 'rise' (vertical length) and 'run' (horizontal length)*
 > 
 > ![cie-igcse-core-gradient-of-a-line-rn-we-a](assets/a99db6ef57e1-33454-gradient-of-a-line-2.png)
 > 
-> > *Work out the fraction *$\frac{\mathrm{rise}}{\mathrm{run}}$
+> > *Work out the fraction* $\frac{\mathrm{rise}}{\mathrm{run}}$
 > 
 > $\frac{3}{1}=3$
 > 
@@ -103,7 +103,7 @@ guided_study: true
 > **Answer:**
 > 
 > > *Mark on the point (0, 1)*
-> *-2 is the fraction *$-\frac{2}{1}$
+> *-2 is the fraction* $-\frac{2}{1}$
 > *The rise is 2, the run is 1, the line goes downhill (so 1 across, 2 down)*
 > 
 > ![cie-igcse-gradients-of-lines-we-1](assets/8e4325db44b4-31161-igcse-gradients-of-lines-we-1.png)
@@ -112,7 +112,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Mark on the point (0,-1) *
+> > *Mark on the point (0,-1)*
 > *The rise is 2, the run is 3, the line goes uphill (so 3 across, 2 up)*
 > 
 > ![cie-igcse-gradients-of-lines-we-2](assets/10dbe7932b85-32403-igcse-gradients-of-lines-we-2.png)

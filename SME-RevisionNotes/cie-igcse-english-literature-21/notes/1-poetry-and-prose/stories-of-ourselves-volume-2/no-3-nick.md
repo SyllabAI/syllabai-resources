@@ -198,4 +198,4 @@ In Christina Rossetti’s story Nick, the [protagonist](https://www.savemyexams.
 
 ### Sources
 
-Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.
+Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2,* Cambridge University Press.

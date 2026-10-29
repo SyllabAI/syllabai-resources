@@ -112,7 +112,7 @@ guided_study: false
 
 - When deciding what approximating distribution to use first make sure you know the reason why you cannot find the probability using the original distribution
 
-  - Is the value of *n *or *λ *too large?
+  - Is the value of *n* or *λ* too large?
   - Will it take too long to carry out the calculations?
 - Make sure you know what distribution you are approximating **from**
 

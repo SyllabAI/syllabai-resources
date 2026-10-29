@@ -39,7 +39,7 @@ guided_study: true
 
 ### Staphylococcus
 
-- There are known populations of the bacterium *Staphylococcus *that possess alleles which make them resistant to the effects of penicillin
+- There are known populations of the bacterium *Staphylococcus* that possess alleles which make them resistant to the effects of penicillin
 
   - These are known as **resistant strains**
 - Due to the **rapid reproduction rate** of bacteria (generations of 20-30 minutes for some species in optimal conditions), a single resistant bacterium can produce 10,000 million resistant descendants within a day

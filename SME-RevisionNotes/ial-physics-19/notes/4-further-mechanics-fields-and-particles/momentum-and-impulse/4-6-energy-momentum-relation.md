@@ -25,7 +25,7 @@ $E_{k}=\frac{1}{2}mv^{2}$
 
 $p=mv$
 
-- Combining these gives an equation that links kinetic energy to momentum, called the **energy-momentum relation** `E subscript k equals 1 half m open parentheses p over m close parentheses squared`
+- Combining these gives an equation that links kinetic energy to momentum, called the **energy-momentum relation** `E_ k=1 half m (p / m)²`
 
   - Firstly, substituting the equation for velocity $v=\frac{p}{m}$into the equation for kinetic energy gives:
 

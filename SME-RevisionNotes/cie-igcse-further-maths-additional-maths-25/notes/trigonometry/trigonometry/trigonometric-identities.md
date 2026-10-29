@@ -80,7 +80,7 @@ guided_study: false
 > **Worked Example**
 > Show that the equation $2\mathrm{sin}^{2}x-\mathrm{cos}x=0$ can be written in the form $a\mathrm{cos}^{2}x+b\mathrm{cos}x+c=0$, where $a$, $b$ and $c$ are integers to be found.
 > 
-> > *Substitute *$\mathrm{sin}^{2}x=1-\mathrm{cos}^{2}x$* into the equation to form a quadratic in terms of *$\mathrm{cos}x$*.*
+> > *Substitute* $\mathrm{sin}^{2}x=1-\mathrm{cos}^{2}x$ *into the equation to form a quadratic in terms of* $\mathrm{cos}x$*.*
 > 
 > $2 ( 1 - \cos ^{2} x ) - \cos x = 0$
 > 
@@ -104,15 +104,15 @@ guided_study: false
 
 ### What are the identities linking tan, sec, cot, and cosec?
 
-- Aside from the Pythagorean identity sin<sup>2</sup>*x *+ cos<sup>2</sup>*x* = 1** **there are two further Pythagorean identities you will need to learn
+- Aside from the Pythagorean identity sin<sup>2</sup>*x* + cos<sup>2</sup>*x* = 1** **there are two further Pythagorean identities you will need to learn
 
   - $1 + \tan ^{2} \\theta = \sec ^{2} \\theta$
   - $1 + \cot ^{2} \\theta = cosec^{2} \\theta$
   - Both can be found in the list of formulae
-- Both of these identities can be derived from sin<sup>2</sup>*x *+ cos<sup>2</sup>*x* = 1** **
+- Both of these identities can be derived from sin<sup>2</sup>*x* + cos<sup>2</sup>*x* = 1** **
 
-  - To derive the identity for **sec**<sup>**2**</sup>***x*** divide sin<sup>2</sup>*x *+ cos<sup>2</sup>*x* = 1** **by **cos**<sup>**2**</sup>***x***
-  - To derive the identity for **cosec**<sup>**2**</sup>***x ***divide sin<sup>2</sup>*x *+ cos<sup>2</sup>*x* = 1** **by **sin**<sup>**2**</sup>***x***
+  - To derive the identity for **sec**<sup>**2**</sup>***x*** divide sin<sup>2</sup>*x* + cos<sup>2</sup>*x* = 1** **by **cos**<sup>**2**</sup>***x***
+  - To derive the identity for **cosec**<sup>**2**</sup>***x ***divide sin<sup>2</sup>*x* + cos<sup>2</sup>*x* = 1** **by **sin**<sup>**2**</sup>***x***
 
 ![Deriving the Pythagorean identities for the reciprocal trig functions](../../../assets/2e508d389885-5-5-3-trig-fur-ids-illustr-1.png)
 
@@ -141,9 +141,9 @@ guided_study: false
 > - Writing down all the identities you know can be a good way to spot how to get started on a question
 
 > **Worked Example**
-> Solve the equation 9 sec<sup>2 </sup>*θ *– 11 = 3 tan *θ* in the interval 0 ≤ *θ *≤ 2π. Give your answers to three decimal places.
+> Solve the equation 9 sec<sup>2 </sup>*θ* – 11 = 3 tan *θ* in the interval 0 ≤ *θ* ≤ 2π. Give your answers to three decimal places.
 > 
-> > *The squared term can be rewritten using the identity *$\mathrm{sec}^{2}θ=1+\mathrm{tan}^{2}θ$*. Substitute this into the equation.*
+> > *The squared term can be rewritten using the identity* $\mathrm{sec}^{2}θ=1+\mathrm{tan}^{2}θ$*. Substitute this into the equation.*
 > 
 > $9 ( 1 + \tan ^{2} \\theta ) - 11 = 3 \tan \\theta$
 > 
@@ -151,13 +151,13 @@ guided_study: false
 > 
 > $9+9\mathrm{tan}^{2}θ-11=3\mathrm{tan}θ\,9\mathrm{tan}^{2}θ-3\mathrm{tan}θ-2=0$
 > 
-> > *Treat as a quadratic using *$x=\mathrm{tan}θ$*.*
+> > *Treat as a quadratic using* $x=\mathrm{tan}θ$*.*
 > 
 > $9 x^{2} - 3 x - 2 = 0
 > ( 3 x - 2 ) ( 3 x + 1 ) = 0
 > x = \frac{2}{3} , x = - 1 \frac{1}{3}$
 > 
-> > *Substitute *$x=\mathrm{tan}θ$* back in and find the principal value for each equation.*
+> > *Substitute* $x=\mathrm{tan}θ$ *back in and find the principal value for each equation.*
 > 
 > $\tan \\theta = \frac{2}{3} \rightarrow \tan ^{- 1} ( \frac{2}{3} ) = 0.5880...
 > \tan \\theta = - 1 \frac{1}{3} \rightarrow \tan ^{- 1} ( - 1 \frac{1}{3} ) = - 0.3217...$

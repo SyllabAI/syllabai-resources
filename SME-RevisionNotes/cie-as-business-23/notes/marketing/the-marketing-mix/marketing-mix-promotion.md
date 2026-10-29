@@ -19,7 +19,7 @@ guided_study: false
 
 - Promotion plays a crucial role in **generating customer awareness**, interest and desire for a product
 
-  - It communicates a business's** *****value proposition*** to potential customers and helps to *differentiate *the product or business from competitors
+  - It communicates a business's** *****value proposition*** to potential customers and helps to *differentiate* the product or business from competitors
 
 #### The main aims of promotion
 
@@ -140,7 +140,7 @@ guided_study: false
 | - **Cost-effective**<br><br>  - Many digital methods, such as social media posts, are cheaper than traditional advertising | - **High competition and digital noise**<br><br>  - With so many online adverts, customers may ignore or scroll past promotions |
 | - **Targeted advertising**<br><br>  - Businesses can focus promotions on specific customer groups based on age, location, interests and behaviour | - **Requires up-to-date skills and technology**<br><br>  - Managing digital campaigns needs knowledge, time and regular updates |
 | - **Measurable results**<br><br>  - Businesses can track performance through data such as clicks, views and conversion rates | - ***Ad blockers***** reduce visibility**<br><br>  - Many users install tools that prevent online ads from being seen |
-| - **Global reach**<br><br>  - Businesses can promote products internationally without the cost of physical stores | - **Negative feedback spreads quickly**<br><br>  - Online complaints or bad reviews can go *viral *and harm a brand’s image |
+| - **Global reach**<br><br>  - Businesses can promote products internationally without the cost of physical stores | - **Negative feedback spreads quickly**<br><br>  - Online complaints or bad reviews can go *viral* and harm a brand’s image |
 | - **Interactive engagement**<br><br>  - Customers can respond to adverts by liking, sharing or commenting, helping boost brand awareness | - **Can be impersonal**<br><br>  - Some customers may prefer human interaction or personalised service over automated messages |
 
 ## The role of packaging in promotion

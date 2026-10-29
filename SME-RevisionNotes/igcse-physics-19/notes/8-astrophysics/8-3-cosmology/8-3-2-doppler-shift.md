@@ -75,7 +75,7 @@ $\frac{λ-λ_{0}}{λ_{0}}=\frac{Δλ}{λ_{0}}=\frac{v}{c}$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Observed wavelength, *λ *= 485 × 10<sup>−9</sup> m
+> - Observed wavelength, *λ* = 485 × 10<sup>−9</sup> m
 > - Reference wavelength, *λ*<sub>0</sub> = 435 × 10<sup>−9</sup> m
 > 
 > **Step 2: Write out the Doppler effect equation**

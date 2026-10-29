@@ -24,11 +24,11 @@ guided_study: true
   - If two quantities are **inversely proportional**, then we can say that one is **directly proportional **to the **reciprocal** of the other
 - The symbol, $\propto$, is used to show that one quantity is "directly proportional to the reciprocal of" (inversely proportional to) another quantity
 
-  - "*y * is inversely proportional to *x*" is written $y\propto\frac{1}{x}$
+  - "*y* is inversely proportional to *x*" is written $y\propto\frac{1}{x}$
 - If *x* and *y* are inversely proportional then
 
   - $\frac{1}{x}:y$ will always be the same
-  - there will be some value of *k *such that $y=\frac{k}{x}$
+  - there will be some value of *k* such that $y=\frac{k}{x}$
 - The** graph** of $y=\frac{k}{x}$ is shown below
 
 ![A graph showing an inversely proportional relationship between two quantities x and y.](../../../assets/8fce8e70d200-44639-inverse-proportion.png)
@@ -101,7 +101,7 @@ guided_study: true
 > 
 > $t = \frac{k}{ \sqrt[3]{n} }$
 > 
-> > *Find **k** by substituting in *$n=27$* and *$t=50$* (from the words in the question)*
+> > *Find **k** by substituting in *$n=27$ *and* $t=50$ *(from the words in the question)*
 > 
 > $\begin{gathered} 50 = \frac{k}{ \sqrt[3]{27} } \\ 50 = \frac{k}{3} \\ 50 \times 3 & = k \\ 150 = k \end{gathered}$
 > 
@@ -113,11 +113,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use the formula to find *$n$* when *$t=60$
+> > *Use the formula to find* $n$ *when* $t=60$
 > 
 > $\begin{gathered} 60 = \frac{150}{ \sqrt[3]{n} } \\ \sqrt[3]{n} & = \frac{150}{60} = 2.5 \\ n = 2.5^{3} = 15.625 \end{gathered}$
 > 
-> > *A sensible answer here is a whole number (as *$n$* is the number of people)*
+> > *A sensible answer here is a whole number (as* $n$ *is the number of people)*
 > *15 people would not complete it in time, but 16 would*
 > 
 > **Final answer:** **16 people**

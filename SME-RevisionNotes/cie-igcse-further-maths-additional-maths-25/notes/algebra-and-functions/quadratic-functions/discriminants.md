@@ -35,15 +35,15 @@ $ax^{2}+bx+c=0$
 > **Worked Example**
 > Find, in terms of the constant $k$, the discriminant of the quadratic equation $3x^{2}+2kx-k=kx^{2}-4kx+2$.
 > 
-> > *First write the quadratic equation in the form *$ax^{2}+bx+c=0$*.*
+> > *First write the quadratic equation in the form* $ax^{2}+bx+c=0$*.*
 > 
 > $\begin{gathered} 3 x^{2} - k x^{2} + 2 k x + 4 k x - k - 2 & = 0 \\ ( 3 - k ) x^{2} + 6 k x - ( k + 2 ) & = 0 \end{gathered}$
 > 
-> > *It can be easier/clearer to pick out *$a,b$* and *$c$* first, before finding the discriminant.*
+> > *It can be easier/clearer to pick out* $a,b$ *and* $c$ *first, before finding the discriminant.*
 > 
 > $\begin{array}{rcl} a = 3 - k \\ b = 6 k \\ c = - ( k + 2 ) \end{array}$
 > 
-> > *The discriminant is *$b^{2}-4ac$*.*
+> > *The discriminant is* $b^{2}-4ac$*.*
 > 
 > $\begin{gathered} \Delta = ( 6 k )^{2} - 4 \times ( 3 - k ) \times - ( k + 2 ) \\ \Delta = 36 k^{2} + 4 ( 6 + k - k^{2} ) \end{gathered}$
 > 

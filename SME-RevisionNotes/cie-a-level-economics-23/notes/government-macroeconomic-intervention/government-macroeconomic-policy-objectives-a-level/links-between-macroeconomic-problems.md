@@ -39,7 +39,7 @@ guided_study: false
 
 - Inflation reduces the **internal** value of money - each unit buys fewer goods at home
 - High inflation typically reduces the **external** value of money - foreign demand for the currency falls because domestic goods become more expensive relative to foreign alternatives
-- A falling external value (depreciation) raises *import *prices, which can feed back into domestic inflation, further reducing the internal value
+- A falling external value (depreciation) raises *import* prices, which can feed back into domestic inflation, further reducing the internal value
 - The two move together over the long run, though short-run movements may diverge due to capital flows and *central bank* intervention
 
 #### Implications
@@ -47,7 +47,7 @@ guided_study: false
 | Internal value falls (inflation rises) | External value falls (currency depreciates) |
 |---|---|
 | - Domestic purchasing power falls | - Imports become more expensive |
-| - Real wages fall unless nominal wages rise | - *Exports *become more competitive |
+| - Real wages fall unless nominal wages rise | - *Exports* become more competitive |
 | - Fixed-income groups lose disproportionately | - Import prices push up *cost-push inflation* |
 
 - A self-reinforcing cycle can develop in countries with high inflation
@@ -149,7 +149,7 @@ guided_study: false
 > 
 > - **AO1 Knowledge**: Define economic growth and balance of payments; identify the current account components (trade in goods, services, primary and secondary income)
 > - **AO2 Analysis**: Explain why growth typically increases imports — rising real income raises consumer spending, including on imports; firms expanding output import more inputs; high MPM countries see this most strongly. Explain why exports do not automatically rise with domestic growth — they depend on foreign demand
-> - **AO3 Evaluation**: The relationship is not inevitable. **Export-led growth** (Germany, China) shows growth can occur without BoP deficit; **supply-led growth** through productivity improvements can boost both growth and export competitiveness; **low-MPM economies** experience smaller BoP effects from growth. The strength of the relationship depends on the **type of growth** (demand-led vs supply-led) and the **structure of the economy** (industrial composition, trade openness). Conclude that growth and BoP deficit are *correlated *but not necessarily *causal *— policy design and structural conditions matter
+> - **AO3 Evaluation**: The relationship is not inevitable. **Export-led growth** (Germany, China) shows growth can occur without BoP deficit; **supply-led growth** through productivity improvements can boost both growth and export competitiveness; **low-MPM economies** experience smaller BoP effects from growth. The strength of the relationship depends on the **type of growth** (demand-led vs supply-led) and the **structure of the economy** (industrial composition, trade openness). Conclude that growth and BoP deficit are *correlated* but not necessarily *causal* — policy design and structural conditions matter
 
 > **Exam Hint**
 > In essays, **distinguish demand-led from supply-led growth**. This single distinction allows you to evaluate every relationship in this section. Demand-led growth causes inflation and worsens BoP; supply-led growth does neither.

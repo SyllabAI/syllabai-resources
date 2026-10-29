@@ -71,22 +71,22 @@ Determine whether the area required is a **sum or difference**
 > 
 > Be sure to Identify and label the region$R$ on your sketch, and indicate the points of intersection between the curve and the line.  You may assume without proof that the curve's $x$-axis intercepts all lie on the positive $x$-axis.
 > 
-> > *Because of the minus sign in front of *$x^{2}$*, the curve will be an 'upside down u-shaped' parabola*
+> > *Because of the minus sign in front of* $x^{2}$*, the curve will be an 'upside down u-shaped' parabola*
 > 
 > *We need to find the points of intersection of the curve and line*
-> *Set their equations equal and solve to find the *$x$*-coordinates*
+> *Set their equations equal and solve to find the* $x$*-coordinates*
 > 
 > $\begin{array}{rcl} 8 - x & = 10 x - x^{2} - 16 \\ x^{2} - 11 x + 24 & = 0 \\ ( x - 3 ) ( x - 8 ) & = 0 \end{array}$
 > 
 > $x=3\mathrm{or}x=8$
 > 
-> > *So the curve and line intersect when *$x=3$* and when *$x=8$
+> > *So the curve and line intersect when* $x=3$ *and when* $x=8$
 > 
-> > *Substitute into the equation of the line to find the corresponding *$y$*-coordinates*
+> > *Substitute into the equation of the line to find the corresponding* $y$*-coordinates*
 > 
 > $x=3:y=8-3=5\,\,x=8:y=8-8=0$
 > 
-> > *So the points of intersection are *$( 3 , 5 )$* and *$( 8 , 0 )$
+> > *So the points of intersection are* $( 3 , 5 )$ *and* $( 8 , 0 )$
 > 
 > > *That gives us enough information to sketch the graphs*
 > 
@@ -96,17 +96,17 @@ Determine whether the area required is a **sum or difference**
 > 
 > > *Here we're going to need a **difference** of areas:  (area under curve)*$-$*(area under line)*
 > 
-> > *The area under the line is a right-angled triangle with vertices at *$( 3 , 0 )$*, *$( 3 , 5 )$* and *$( 8 , 0 )$
+> > *The area under the line is a right-angled triangle with vertices at* $( 3 , 0 )$*,* $( 3 , 5 )$ *and* $( 8 , 0 )$
 > 
-> > *So the height is *$5-0=5$* and the base is *$8-3=5$
+> > *So the height is* $5-0=5$ *and the base is* $8-3=5$
 > 
 > $\mathrm{Area} \mathrm{of} \mathrm{triangle}=\frac{1}{2}\times5\times5=\frac{25}{2}$
 > 
-> > *For the area under a curve we need to use a definite integral between *$x=3$* and *$x=8$
+> > *For the area under a curve we need to use a definite integral between* $x=3$ *and* $x=8$
 > 
 > `| Area under the curve | = integral _ 3 ^ 8 ( 10 x - x ^2 - 16 ) d x | | _ = [ 5 x ^2 - 1 third x ^3 - 16 x ] _ 3 ^ 8 | | _ = ( 5 ( 8 ) ^2 - 1 third ( 8 ) ^3 - 16 ( 8 ) ) - ( 5 ( 3 ) ^2 - 1 third ( 3 ) ^3 - 16 ( 3 ) ) | | _ = ( 320 - 512 / 3 - 128 ) - ( 45 - 9 - 48 ) | | _ = 64 / 3 - ( - 12 ) | | _ = 100 / 3 | |`
 > 
-> > *For the area of *$R$*, subtract the area of the triangle from the area under the curve*
+> > *For the area of* $R$*, subtract the area of the triangle from the area under the curve*
 > 
 > $\mathrm{Area} \mathrm{of} \mathrm{region}R=\frac{100}{3}-\frac{25}{2}=\frac{125}{6}$
 > 
@@ -175,7 +175,7 @@ Determine which curve is the **‘upper’ boundary** for each region
 > 
 > > *Start by finding the points of intersection*
 > 
-> > *Set the equations of the curves equal to each other, and solve to find the *$x$*-coordinates*
+> > *Set the equations of the curves equal to each other, and solve to find the* $x$*-coordinates*
 > 
 > $( x - 2 ) ( x - 3 )^{2} = x^{2} - 5 x + 6$
 > 
@@ -186,15 +186,15 @@ Determine which curve is the **‘upper’ boundary** for each region
 > 
 > $x=2,3\mathrm{or}4$
 > 
-> > *Note that we don't need to know the corresponding *$y$*-coordinates here!*
+> > *Note that we don't need to know the corresponding* $y$*-coordinates here!*
 > 
 > > *We have two regions here*
 > 
-> > *The first region is from *$x=2$* to *$x=3$*, and *$\mathrm{f} ( x )$* is the 'upper curve'*
+> > *The first region is from* $x=2$ *to* $x=3$*, and* $\mathrm{f} ( x )$ *is the 'upper curve'*
 > 
 > $\begin{gathered} \text{Region} 1 & = \int_{2}^{3} ( ( x - 2 ) ( x - 3 )^{2} - ( x^{2} - 5 x + 6 ) ) \mathrm{d} x \\ = \int_{2}^{3} ( x^{3} - 9 x^{2} + 26 x - 24 ) \mathrm{d} x \\ = [ 1 \frac{1}{4} x^{4} - 3 x^{3} + 13 x^{2} - 24 x ]_{2}^{3} \\ = ( 1 \frac{1}{4} ( 3 )^{4} - 3 ( 3 )^{3} + 13 ( 3 )^{2} - 24 ( 3 ) ) - ( 1 \frac{1}{4} ( 2 )^{4} - 3 ( 2 )^{3} + 13 ( 2 )^{2} - 24 ( 2 ) ) \\ = ( \frac{81}{4} - 81 + 117 - 72 ) - ( 4 - 24 + 52 - 48 ) \\ = - \frac{63}{4} - ( - 16 ) \\ = 1 \frac{1}{4} \end{gathered}$
 > 
-> > *The second region is from *$x=3$* to *$x=4$* and *$\mathrm{g} ( x )$* is the 'upper curve'*
+> > *The second region is from* $x=3$ *to* $x=4$ *and* $\mathrm{g} ( x )$ *is the 'upper curve'*
 > 
 > $\begin{gathered} \text{Region} 2 & = \int_{3}^{4} ( ( x^{2} - 5 x + 6 ) - ( x - 2 ) ( x - 3 )^{2} ) \mathrm{d} x \\ = \int_{3}^{4} ( - x^{3} + 9 x^{2} - 26 x + 24 ) \mathrm{d} x \\ = [ - 1 \frac{1}{4} x^{4} + 3 x^{3} - 13 x^{2} + 24 x ]_{3}^{4} \\ = ( - 1 \frac{1}{4} ( 4 )^{4} + 3 ( 4 )^{3} - 13 ( 4 )^{2} + 24 ( 4 ) ) - ( - 1 \frac{1}{4} ( 3 )^{4} + 3 ( 3 )^{3} - 13 ( 3 )^{2} + 24 ( 3 ) ) \\ = ( - 64 + 192 - 208 + 96 ) - ( - \frac{81}{4} + 81 - 117 + 72 ) \\ = 16 - \frac{63}{4} \\ = 1 \frac{1}{4} \end{gathered}$
 > 

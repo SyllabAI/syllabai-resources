@@ -55,10 +55,10 @@ guided_study: false
 > 
 > She can listen to music on the go **[1]** because streaming does not require bulky storage **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > She can listen to audio from any device **[1]** because it is stored on a server **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > Streaming lets Rose get the latest news **[1]** because a live recording can be broadcast **[1]**

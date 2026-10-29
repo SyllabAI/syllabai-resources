@@ -25,7 +25,7 @@ guided_study: false
   
     - The **first term, *****a,***** **is 2
     - The **common ratio, *****r*****, **is 3
-- A geometric progression can be **increasing **(*r* > 1) or** decreasing **(0 < *r *< 1)
+- A geometric progression can be **increasing **(*r* > 1) or** decreasing **(0 < *r* < 1)
 - If the common ratio is a **negative number** the terms will alternate between positive and negative values
 
   - For example, 1, -4, 16, -64, 256, … is a sequence with the rule *‘start at one and multiply each number by negative four’*
@@ -83,9 +83,9 @@ $u_{n}=ar^{n-1}$
 
 $S_{n}=\frac{a(1-r^{n})}{1-r}$   or   $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 
-- *a *is the first term
+- *a* is the first term
 
-  - *r *is the common ratio ($r\neq1$)
+  - *r* is the common ratio ($r\neq1$)
 
 - The **first is given** in the list of formulas and is more convenient if ***r *****< 1**
 

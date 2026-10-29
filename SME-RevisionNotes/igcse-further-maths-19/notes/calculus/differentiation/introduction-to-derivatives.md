@@ -80,7 +80,7 @@ For a **straight line** the gradient is always the same (**constant**)
   - This is pronounced "d*y* by d*x*" or "d*y* over d*x*"
   - In **function notation**, it can be written $\mathrm{f} ' ( x )$
   
-    - pronounced "f-dash-of-*x" *or "f-prime-of-*x"*
+    - pronounced "f-dash-of-*x"* or "f-prime-of-*x"*
 - To get from $y = \mathrm{f} ( x )$ to $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \mathrm{f} ' ( x )$ you need to do an operation called **differentiation**
 
   - Differentiation turns **curve equations** into **gradient functions**

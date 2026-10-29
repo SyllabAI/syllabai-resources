@@ -34,7 +34,7 @@ $V = \pi \int_{a}^{b} y^{2} d x$
 
 - The formula may look complicated or confusing at first due to the *y* and d*x*
 
-  - remember that *y *is a function of *x*
+  - remember that *y* is a function of *x*
   - once the expression for *y* is substituted in, everything will be in terms of *x*
 - π is a constant so you may see this written either inside or outside the integral
 - This is **not** given in the formulae booklet
@@ -123,7 +123,7 @@ $V = \pi \int_{c}^{d} x^{2} d y$
 > - Double check questions to ensure you are clear about which axis the rotation is around
 > - Separating the rearranging of $y=f(x)$into $x=g(y)$ and the squaring of *x* is important for maintaining accuracy
 > 
->   - In some cases it can seem as though *x *has been squared twice
+>   - In some cases it can seem as though *x* has been squared twice
 >   
->     - in the worked example above, *x *has been squared twice
+>     - in the worked example above, *x* has been squared twice
 >     - but it needed to be – once as part of the rearranging, once as part of the volume formula

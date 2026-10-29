@@ -32,7 +32,7 @@ guided_study: false
 - A geometric sequence can be
 
   - **increasing **(*r* > 1), or
-  - **decreasing **(0 < *r *< 1)
+  - **decreasing **(0 < *r* < 1)
 - If the common ratio is a **negative number** the terms will alternate between positive and negative values
 
   - For example, 1, -4, 16, -64, 256, … is a sequence with the rule *‘start at one and multiply each number by negative four’*
@@ -125,7 +125,7 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > (a) the common ratio of the series
 > 
 > > *Find the common ratio by dividing a term by the term immediately before it*
-> *Here *$r=\frac{7^{\mathrm{th}}\mathrm{term}}{6^{\mathrm{th}}\mathrm{term}}$
+> *Here* $r=\frac{7^{\mathrm{th}}\mathrm{term}}{6^{\mathrm{th}}\mathrm{term}}$
 > 
 > $r=\frac{1458}{486}$
 > 
@@ -133,9 +133,9 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > 
 > (b) the first term of the series.
 > 
-> > *Use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$
+> > *Use the **n*<sup>*th*</sup> *term formula* $u_{n}=ar^{n-1}$
 > 
-> > *For the 6*<sup>*th*</sup>* term, we know  *$u_{6}=486$*,  *$r=3$*  and  *$n=6$
+> > *For the 6*<sup>*th*</sup> *term, we know* $u_{6}=486$*,* $r=3$ *and* $n=6$
 > 
 > $\begin{gathered} 486 = a \times 3^{( 6 - 1 )} \\ 486 = a \times 3^{5} \\ 486 = 243 a \\ a = \frac{486}{243} \end{gathered}$
 > 
@@ -146,19 +146,19 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > 
 > Find the value of the fifth term, as well as the sum of the first 5 terms.
 > 
-> > *To find the fifth term, use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$
-> *Here  *$n=5$*,  *$a=25$*  and  *$r=0.8$* *
+> > *To find the fifth term, use the **n*<sup>*th*</sup> *term formula* $u_{n}=ar^{n-1}$
+> *Here* $n=5$*,* $a=25$ *and* $r=0.8$* *
 > 
 > $\begin{gathered} \frac{1}{5} \text{term} & = 25 \times 0.8^{( 5 - 1 )} \\ = 25 \times 0.8^{4} \end{gathered}$
 > 
 > > $\mathrm{fifth} \mathrm{term}=10.24$
 > 
-> *To find the sum of the first 5 terms, use the sum of a geometric series formula  *$S_{n}=\frac{a(1-r^{n})}{1-r}$
-> *Again,  *$a=25$*  and  *$r=0.8$* *
+> *To find the sum of the first 5 terms, use the sum of a geometric series formula* $S_{n}=\frac{a(1-r^{n})}{1-r}$
+> *Again,* $a=25$ *and* $r=0.8$* *
 > 
 > $S_{5} = \frac{25 ( 1 - 0.8^{5} )}{1 - 0.8}$
 > 
-> > *Use your calculator to work this out  *
+> > *Use your calculator to work this out*
 > 
 > $S_{5}=84.04$
 
@@ -223,19 +223,19 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > **Worked Example**
 > The first three terms of a geometric sequence are  $6,2,\frac{2}{3}$.  Show that the sum to infinity of the series exists, and then find the sum to infinity.
 > 
-> > *To show the sum to infinity exists we need to know the value of the common ratio *$r$
+> > *To show the sum to infinity exists we need to know the value of the common ratio* $r$
 > 
-> > *We can find this by dividing a term by the term immediately before it *
+> > *We can find this by dividing a term by the term immediately before it*
 > 
 > $r=\frac{2}{6}=\frac{1}{3}$
 > 
-> > *This satisfies *`open vertical bar r close vertical bar less than 1`*, so the series converges and the sum to infinity exists*
+> > *This satisfies* `open vertical bar r close vertical bar less than 1`*, so the series converges and the sum to infinity exists*
 > 
 > $\text{stretchy} \mid r \text{stretchy} \mid < 1$*, ***so the series converges**
 > 
-> > *Now use the sum to infinity formula  *$S_{\infty}=\frac{a}{1-r}$
+> > *Now use the sum to infinity formula* $S_{\infty}=\frac{a}{1-r}$
 > 
-> > *Here  *$a=6$*  and  *$r=\frac{1}{3}$
+> > *Here* $a=6$ *and* $r=\frac{1}{3}$
 > 
 > `| S _ inf | = (6)/(1 - 1 third) | | _ = (6)/(( 2 / 3 )) | | _ = 6 x 3 / 2 | |`
 > 

@@ -59,7 +59,7 @@ guided_study: true
 
   - A **horizontal** asymptote at the *x*-axis: $y=0$
   
-    - This is the **limiting value** when the value of *x *gets very large (or very negative)
+    - This is the **limiting value** when the value of *x* gets very large (or very negative)
   - A **vertical** asymptote at the *y*-axis: $x=0$
   
     - This is the value that causes the **denominator to be zero**

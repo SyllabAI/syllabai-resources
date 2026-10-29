@@ -155,7 +155,7 @@ Estimate the **mean **by using the **formula**
 > **Answer:**
 > 
 > > *There are 20 dogs*
-> *The median interval will be the interval containing the 10.5*<sup>*th*</sup>* dog*
+> *The median interval will be the interval containing the 10.5*<sup>*th*</sup> *dog*
 > *Keep a running total*
 > 
 > | **Weight, *****w***** kg** | **Frequency** | **Running Total** |
@@ -166,6 +166,6 @@ Estimate the **mean **by using the **formula**
 > | 4.5 ≤ *w* < 5 | 5 | *13 + 5 = 18* |
 > | 5 ≤ *w* < 6 | 2 | *18 + 2 = 20* |
 > 
-> > *The 10.5*<sup>*th*</sup>* dog is in the third interval*
+> > *The 10.5*<sup>*th*</sup> *dog is in the third interval*
 > 
 > **The median is in the interval ****4 ≤ ****w**** < 4.5**

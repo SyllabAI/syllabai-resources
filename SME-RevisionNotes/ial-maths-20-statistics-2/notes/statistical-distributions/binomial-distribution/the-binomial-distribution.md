@@ -33,7 +33,7 @@ guided_study: false
 - The **probability of failure is 1-*****p ***which is sometimes denoted as ***q***
 - The formula for the probability of *r* successful trials is given by:
 
-  - $P = ( X = r ) = ( \begin{gathered} n \\ r \end{gathered} ) p^{r ( 1 - p )^{n} - r}$ for *r = *0, 1, 2,..*..,n*
+  - $P = ( X = r ) = ( \begin{gathered} n \\ r \end{gathered} ) p^{r ( 1 - p )^{n} - r}$ for *r =* 0, 1, 2,..*..,n*
   - This is equal to the term which includes $p^{r}$ in the expansion of $(p+q)^{n}$ where $q=1-p$ (this shows the link with the Binomial Expansion)
 
 #### What are the important properties of a binomial distribution?
@@ -44,9 +44,9 @@ guided_study: false
   - Square root to get the standard deviation
 - The distribution can be represented visually using a vertical line graph
 
-  - If *p *is **close to 0** then the graph has a **tail to the right**
-  - If *p *is **close to 1** then the graph has a **tail to the left**
-  - If *p *is **close to 0.5** then the graph is **roughly symmetrical**
+  - If *p* is **close to 0** then the graph has a **tail to the right**
+  - If *p* is **close to 1** then the graph has a **tail to the left**
+  - If *p* is **close to 0.5** then the graph is **roughly symmetrical**
   - **If *****p = *****0.5 **then the graph is **symmetrical**
 
 ![1Aka39bs_4-2-1-the-binomial-distribution-diagram-1-part-1](../../../assets/75fe22530b99-1aka39bs-4-2-1-the-binomial-distribution-diagram.png)

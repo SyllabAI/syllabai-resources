@@ -30,7 +30,7 @@ guided_study: true
     - Because if two things multiply together to give zero,
     
       - then one or the other of them must be equal to zero
-- To solve `open parentheses x minus 3 close parentheses open parentheses x plus 7 close parentheses equals 0`
+- To solve `(x−3)(x+7)=0`
 
   - …solve **first bracket = 0**:
   
@@ -50,7 +50,7 @@ guided_study: true
 
   - Just be sure to handle the *x* correctly
   - That '*x* as a factor' gives one of the solutions
-- To solve `x open parentheses x minus 4 close parentheses equals 0`
+- To solve `x (x−4)=0`
 
   - it may help to think of *x* as (*x* – 0) or (*x*)
   - …solve **first bracket = 0**
@@ -60,7 +60,7 @@ guided_study: true
   
     - *x* – 4 = 0
     - add 4 to both sides: *x* = 4
-  - The** two solutions** are* x* = 0 or *x *= 4
+  - The** two solutions** are *x* = 0 or *x* = 4
 - It is a common **mistake** to divide (cancel) both sides by *x* at the beginning
 
   - If you do this you will **lose a solution** (the *x* = 0 solution)

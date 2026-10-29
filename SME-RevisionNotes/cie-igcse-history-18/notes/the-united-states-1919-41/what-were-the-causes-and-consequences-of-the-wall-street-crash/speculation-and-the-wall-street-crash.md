@@ -50,7 +50,7 @@ Once the US economy began to slow down, fears of a drop in share prices caused p
 
 ## Reasons for the Wall Street Crash
 
-- If people had faith that the US economy would continue to grow and therefore continued to *invest *in the stock market, shares would continue to rise
+- If people had faith that the US economy would continue to grow and therefore continued to *invest* in the stock market, shares would continue to rise
 
   - But if enough people started to doubt the strength of the US economy, they would sell their shares, and prices would start to fall
 - In 1929, some *investors* began to see signs that the US economy was slowing down
@@ -81,7 +81,7 @@ Once the US economy began to slow down, fears of a drop in share prices caused p
 - Many people had purchased shares “on the margin” with money they had borrowed from banks
 
   - Many thousands of investors were unable to pay these loans back because their shares had suddenly become worthless
-  - The result was 659 American banks going* bust* in 1929
+  - The result was 659 American banks going *bust* in 1929
 - Millions of Americans had savings in these banks
 
   - When the banks disappeared, so did people’s savings
@@ -89,7 +89,7 @@ Once the US economy began to slow down, fears of a drop in share prices caused p
 
 ![Line graph showing unadjusted DJIA index value from Jan 1920 to Nov 1930, peaking sharply in 1929 before declining significantly.](../../../assets/02240ccdede9-19811-44288-wall-street-crash-share-value-graph.webp)
 
-*A graph from Statista.com showing the monthly valuations of stocks between January 1920 and November 1930. *
+*A graph from Statista.com showing the monthly valuations of stocks between January 1920 and November 1930.*
 
 > **Worked Example**
 > **Describe the causes of the Wall Street Crash of October 1929. **

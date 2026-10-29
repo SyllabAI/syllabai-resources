@@ -42,7 +42,7 @@ guided_study: true
 
 ![Diagram of human body showing blood water regulation. Hypothalamus detects high water, pituitary releases less ADH, kidneys reabsorb less, leading to more urine.](../../../assets/3fb14bcd2dae-4397-the-role-of-adh-image-2.png)
 
-*ADH is produced by the pituitary gland and levels of ADH in the blood affect how permeable to water the collecting ducts of nephrons in the kidneys are *
+*ADH is produced by the pituitary gland and levels of ADH in the blood affect how permeable to water the collecting ducts of nephrons in the kidneys are*
 
 > **Exam Hint**
 > You must remember the key phrase "ADH increases the permeability of the collecting duct to water" for your exams. Mark schemes will expect you to use this exact terminology. 

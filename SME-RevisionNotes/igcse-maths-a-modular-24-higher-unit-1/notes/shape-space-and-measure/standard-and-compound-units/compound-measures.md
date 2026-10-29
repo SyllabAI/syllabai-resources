@@ -96,17 +96,17 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The units for the fuel consumption are km per litre, which suggests the formula is *$\mathrm{fuel} \mathrm{consumption}=\frac{\mathrm{distance}}{\mathrm{volume}}$
+> > *The units for the fuel consumption are km per litre, which suggests the formula is* $\mathrm{fuel} \mathrm{consumption}=\frac{\mathrm{distance}}{\mathrm{volume}}$
 > 
 > > *Calculate the total distance covered for the 15 laps*
 > 
 > $15\times5.9\mathrm{km}=88.5\mathrm{km}$
 > 
-> > *Use the above formula to find the volume of fuel, *$V$* litres, used*
+> > *Use the above formula to find the volume of fuel,* $V$ *litres, used*
 > 
 > $\begin{gathered} \text{fuel} \text{consumption} & = \frac{distance }{volume} \\ 3 \text{km} \text{per} \text{litre} & = \frac{88.5 \text{km} }{V litres} \end{gathered}$
 > 
-> > *Rearrange the equation by multiplying both sides by *$V$*, and dividing both sides by 3*
+> > *Rearrange the equation by multiplying both sides by* $V$*, and dividing both sides by 3*
 > 
 > $\begin{array}{rcl} 3 V & = 88.5 \\ V = \frac{88.5}{3} = 29.5 \end{array}$
 > 
@@ -122,7 +122,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The flow rate is 720 litres per minute which suggests the formula is *$\mathrm{flow} \mathrm{rate}=\frac{\mathrm{volume}}{\mathrm{time}}$
+> > *The flow rate is 720 litres per minute which suggests the formula is* $\mathrm{flow} \mathrm{rate}=\frac{\mathrm{volume}}{\mathrm{time}}$
 > 
 > > *Before we can use the formula, we need to change the units of time to both be the same*
 > 

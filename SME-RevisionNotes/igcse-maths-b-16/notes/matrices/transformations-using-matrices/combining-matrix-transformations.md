@@ -19,7 +19,7 @@ guided_study: false
 
 ### How do I find a single matrix that represents a combination of transformations?
 
-- A point (*x*,* y*) can be transformed **twice**
+- A point (*x*,*y*) can be transformed **twice**
 
   - **First** by the matrix $P$, then** second** by the matrix $Q$
   - This is called a **combined** (or **composite**) transformation
@@ -50,13 +50,13 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Transformation *$B$* followed by transformation *$C$* would be combined into a single matrix by finding *$\mathrm{CB}$* (note the order)*
+> > *Transformation* $B$ *followed by transformation* $C$ *would be combined into a single matrix by finding* $\mathrm{CB}$ *(note the order)*
 > 
-> > *Find the matrix multiplication *$\mathrm{CB}$
+> > *Find the matrix multiplication* $\mathrm{CB}$
 > 
 > $\begin{gathered} \text{CB} & = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} ) \times ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 1 \times ( - 1 ) + 0 \times 0 & 1 \times 0 + 0 \times 1 \\ 0 \times ( - 1 ) + ( - 1 ) \times 0 & 0 \times 0 + ( - 1 ) \times 1 \end{gathered} ) \\ = ( \begin{gathered} - 1 + 0 & 0 + 0 \\ 0 + 0 & 0 - 1 \end{gathered} ) \\ = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} ) \end{gathered}$
 > 
-> > *This is the same as *$A$
+> > *This is the same as* $A$
 > 
 > - *This makes sense geometrically as well*
 > 

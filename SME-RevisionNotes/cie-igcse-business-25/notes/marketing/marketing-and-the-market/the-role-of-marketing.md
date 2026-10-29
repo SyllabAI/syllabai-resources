@@ -66,7 +66,7 @@ guided_study: false
   
     - Developing close ties with customers and** finding out if products are continuing to meet their needs **
     
-      - For example, using *surveys *to discover if preferences are changing
+      - For example, using *surveys* to discover if preferences are changing
     - Using **technology **to gather important information about customers
 
 - By having strong relationships with the customer, **the business can respond appropriately** when customers change their expectations

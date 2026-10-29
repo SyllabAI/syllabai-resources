@@ -72,7 +72,7 @@ Find out more about the poem to confidently answer an essay question in your exa
   - You can also read it as an objection to, or an interruption of, the mindset that created the term “half-caste”
 - He demands an explanation by repeating: “Explain yuself/wha yu mean/when yu say half-caste”:
 
-  - This implies that people who use the term *can’t *explain it, conveying the **irrationality **of racist attitudes
+  - This implies that people who use the term *can’t* explain it, conveying the **irrationality **of racist attitudes
 - Agard uses the ironic humour of standing on one leg to point out the **absurd** implications of calling someone “half” anything
 - The use of phonetic spelling in words like “yuself” and “yu” establishes an **authentic **voice and gives the poem its** spoken-word** quality
 

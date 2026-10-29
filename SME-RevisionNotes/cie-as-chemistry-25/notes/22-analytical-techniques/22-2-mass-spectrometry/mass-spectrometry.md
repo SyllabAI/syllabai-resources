@@ -40,7 +40,7 @@ guided_study: true
 
   - For example, an ion with mass 16 and charge 2+ will have a *m/e* value of 8
 - In the magnetic field, ions with a smaller *m/e* value (smaller mass or higher positive charge) are deflected more than ions with a larger *m/e* value
-- Each fragment corresponds to a specific **peak** with a particular *m/e *value in the mass spectrum
+- Each fragment corresponds to a specific **peak** with a particular *m/e* value in the mass spectrum
 - The **base peak **is the peak corresponding to the most **abundant** ion
 
 ### Isotopes
@@ -73,4 +73,4 @@ guided_study: true
 > - *m/e* (<sup>56</sup>Fe<sup>3+</sup>) =** **$\frac{56}{3}=18.7\,=19$
 
 > **Exam Hint**
-> A small *m/e *value corresponds to fragments that are either **small **or have a **high positive charge **or a combination of **both**
+> A small *m/e* value corresponds to fragments that are either **small **or have a **high positive charge **or a combination of **both**

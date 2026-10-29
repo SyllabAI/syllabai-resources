@@ -37,7 +37,7 @@ guided_study: false
 > 
 > (a) Find $\mathrm{f}^{'} ( x )$.
 > 
-> > *This is a 'powers of *$x$*' derivative*
+> > *This is a 'powers of* $x$*' derivative*
 > 
 > $\mathrm{f}^{'} ( x ) = 3 x^{3 - 1} - 6 ( 2 x^{2 - 1} ) + 5$
 > 
@@ -45,13 +45,13 @@ guided_study: false
 > 
 > (b) Show that the curve $y = \mathrm{f} ( x )$ goes through the point $( 2 , - 18 )$, and find the gradient of the tangent to the curve at that point.
 > 
-> > *Substitute *$x=2$* into *$\mathrm{f} ( x )$* *
+> > *Substitute* $x=2$ *into* $\mathrm{f} ( x )$* *
 > 
 > $\begin{gathered} \mathrm{f} ( 2 ) & = ( 2 )^{3} - 6 ( 2 )^{2} + 5 ( 2 ) - 12 \\ = 8 - 24 + 10 - 12 \\ = - 18 \end{gathered}$
 > 
 > **Final answer:** $f(2)=-18$** so the curve goes through **$(2,-18)$
 > 
-> > *Now substitute *$x=2$* into *$\mathrm{f}^{'} ( x )$* to find the gradient*
+> > *Now substitute* $x=2$ *into* $\mathrm{f}^{'} ( x )$ *to find the gradient*
 > 
 > $\begin{gathered} \mathrm{f} ' ( 2 ) & = 3 ( 2 )^{2} - 12 ( 2 ) + 5 \\ = 12 - 24 + 5 \\ = - 7 \end{gathered}$
 > 

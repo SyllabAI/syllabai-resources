@@ -46,7 +46,7 @@ guided_study: false
 5. $\mathrm{Average} \mathrm{variable} \mathrm{cost}(\mathrm{AVC})=\frac{\mathrm{Total} \mathrm{variable} \mathrm{costs}(\mathrm{TVC})}{\mathrm{quantity}(Q)}$ ** **
 **Cost Calculations Using the Above Formulas Where VC Is \$60**
 
-| **Output (Q)** | **TFC** | **TVC = **`$ 60 space straight x space straight Q` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ | **AFC = **$\frac{\mathrm{TFC}}{Q}$ | **AVC = **$\frac{\mathrm{TVC}}{Q}$ | **AC = **$\frac{\mathrm{TC}}{Q}$ |
+| **Output (Q)** | **TFC** | **TVC = **`$ 60 straight x straight Q` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ | **AFC = **$\frac{\mathrm{TFC}}{Q}$ | **AVC = **$\frac{\mathrm{TVC}}{Q}$ | **AC = **$\frac{\mathrm{TC}}{Q}$ |
 |---|---|---|---|---|---|---|
 | 0 | 200 | - | 200 | - | - | - |
 | 1 | 200 | 60 | 260 | 200 | 60 | 260 |

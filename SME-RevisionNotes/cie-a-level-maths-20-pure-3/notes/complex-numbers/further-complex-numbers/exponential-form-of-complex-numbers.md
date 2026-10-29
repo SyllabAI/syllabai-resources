@@ -43,7 +43,7 @@ You now know how to do lots of operations with complex numbers: add, subtract, m
 
 - Any complex number $z=a+bi$ can be written in **polar form **$z = r ( \cos \\theta + \text{isin} \\theta )$
 
-  - *r *is the modulus
+  - *r* is the modulus
   - θ* *is the argument
 - Using the definition of $e^{iθ}$ we can now also write $z$ in **exponential form**
 
@@ -70,7 +70,7 @@ You now know how to do lots of operations with complex numbers: add, subtract, m
   - $1=e^{2πi}$
 - Using the same idea you can write:
 
-  - $1=e^{0}=e^{2πi}=e^{4πi}=e^{6πi}=e^{2kπi}$ where *k *is any integer
+  - $1=e^{0}=e^{2πi}=e^{4πi}=e^{6πi}=e^{2kπi}$ where *k* is any integer
 - As $\cos ( \pi ) = - 1$ and $\sin ( \pi ) = 0$ you can write:
 
   - $e^{πi}=-1$

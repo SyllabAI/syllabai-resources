@@ -21,7 +21,7 @@ guided_study: true
 
 - A **stationary point** is a point on the graph at which the **gradient is zero** (a tangent drawn at this point will be **horizontal**)
 
-  - These* include *peaks (**maximum points**) and troughs (**minimum points**)
+  - These *include* peaks (**maximum points**) and troughs (**minimum points**)
 - Maximum points and minimum points are collectively know as **turning points**
 
   - At a turning point a curve **changes** from **moving upwards** to **moving downwards**, or vice versa
@@ -34,7 +34,7 @@ guided_study: true
   - Horizontal lines have a gradient of zero
 - Because the gradient at a turning point is zero
 
-  - Substituting the* x*-coordinate of a turning point into the **gradient function **$\frac{dy}{dx}$ (the** derivative**) will give an **output of zero**
+  - Substituting the *x*-coordinate of a turning point into the **gradient function **$\frac{dy}{dx}$ (the** derivative**) will give an **output of zero**
 
 ![Graph of a curve with the stationary points highlighted. Tangents are drawn at the stationary point, which are horizontal lines.](../../../assets/2103972abbef-10584-turn-pts-notes-fig2.png)
 

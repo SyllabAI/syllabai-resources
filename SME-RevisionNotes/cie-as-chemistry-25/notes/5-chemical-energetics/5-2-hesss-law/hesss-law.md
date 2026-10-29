@@ -83,8 +83,8 @@ Therefore,
 > 
 > - **Step 4: **Apply Hess’s Law:
 > 
->   - Δ*H*<sub>*r*</sub>* = ΔH*<sub>*2*</sub>* – *Δ*H*<sub>*1*</sub>
->   - Δ*H*<sub>*r*</sub>* = ( *Δ*H*<sub>*f*</sub>* *[Na<sub>2</sub>CO<sub>3</sub> (s)] + Δ*H*<sub>*f*</sub>* *[CO<sub>2</sub> (g)]* + *Δ*H*<sub>*f*</sub>* *[H<sub>2</sub>O (l)] ) – 2Δ*H*<sub>*f*</sub>* *[NaHCO<sub>3</sub> (s)]
+>   - Δ*H*<sub>*r*</sub>*= ΔH*<sub>*2*</sub>*–* Δ*H*<sub>*1*</sub>
+>   - Δ*H*<sub>*r*</sub>*= (* Δ*H*<sub>*f*</sub>* *[Na<sub>2</sub>CO<sub>3</sub> (s)] + Δ*H*<sub>*f*</sub>* *[CO<sub>2</sub> (g)]*+* Δ*H*<sub>*f*</sub>* *[H<sub>2</sub>O (l)] ) – 2Δ*H*<sub>*f*</sub>* *[NaHCO<sub>3</sub> (s)]
 >   - Δ*H*<sub>*r*</sub>* *= ( (–1130.7) + (–393.5) + (–285.8) ) – ( 2 x –950.8)
 >   - Δ*H*<sub>*r*</sub>* *= +91.6 kJ mol<sup>-1</sup>
 
@@ -131,7 +131,7 @@ Therefore,
 > 
 > - **Step 4: **Apply Hess’s Law:
 > 
->   - Δ*H*<sub>*f*</sub>* = ΔH*<sub>*1*</sub>* – *Δ*H*<sub>*2*</sub>
+>   - Δ*H*<sub>*f*</sub>*= ΔH*<sub>*1*</sub>*–* Δ*H*<sub>*2*</sub>
 >   - Δ*H*<sub>*f*</sub>* *= ( (2 x –393.5) + (3 x –285.8) ) – ( –1559.7)
 >   - Δ*H*<sub>*f*</sub>* *= –84.7 kJ mol<sup>-1</sup>
 
@@ -170,8 +170,8 @@ Therefore,
 > 
 > - **Step 4: **Apply Hess’s Law:
 > 
->   - Δ*H = *Δ*H*<sup>θ</sup><sub>*at*</sub>* – *Δ*H*<sub>*f*</sub>
->   - Δ*H *= ( (+717.7) + (4 x 218) ) – ( –74.8)
+>   - Δ*H =* Δ*H*<sup>θ</sup><sub>*at*</sub>*–* Δ*H*<sub>*f*</sub>
+>   - Δ*H* = ( (+717.7) + (4 x 218) ) – ( –74.8)
 >   - Δ*H* = +1664.5 kJ mol<sup>-1</sup>
 > 
 > - **Step 5: **Calculate the bond energy for **one **C–H bond

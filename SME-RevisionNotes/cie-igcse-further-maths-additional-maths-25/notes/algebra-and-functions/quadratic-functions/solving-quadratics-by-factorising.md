@@ -29,7 +29,7 @@ guided_study: false
   - If (*x* + 4)(*x* - 1) = 0, then either *x* + 4 = 0 or *x* - 1 = 0
   
     - Because if *A* × *B* = 0, then either *A* = 0 or *B* = 0
-- To solve `open parentheses x minus 3 close parentheses open parentheses x plus 7 close parentheses equals 0`
+- To solve `(x−3)(x+7)=0`
 
   - …solve “**first bracket = 0**”:
   
@@ -42,7 +42,7 @@ guided_study: false
   - The **two solutions** are *x* = 3 or *x* = -7
   
     - The solutions have the opposite signs to the numbers in the brackets
-- To solve `open parentheses 2 x minus 3 close parentheses open parentheses 3 x plus 5 close parentheses equals 0`
+- To solve `(2x−3)(3x+5)=0`
 
   - …solve “first bracket = 0”
   
@@ -55,7 +55,7 @@ guided_study: false
     - subtract 5 from both sides: 3*x* = -5
     - divide both sides by 3: *x* = $-\frac{5}{3}$
   - The two solutions are *x* = $\frac{3}{2}$ or *x* = $-\frac{5}{3}$
-- To solve `x open parentheses x minus 4 close parentheses equals 0`
+- To solve `x (x−4)=0`
 
   - it may help to think of *x* as (*x* – 0) or (x)
   - …solve “first bracket = 0”
@@ -65,7 +65,7 @@ guided_study: false
   
     - *x* – 4 = 0
     - add 4 to both sides: *x* = 4
-  - The** two solutions** are* x* = 0 or *x *= 4
+  - The** two solutions** are *x* = 0 or *x* = 4
   
     - It is a common **mistake** to divide both sides by *x* at the beginning - you will **lose a solution** (the *x* = 0 solution)
 
@@ -76,15 +76,15 @@ guided_study: false
 >   - e.g.  A calculator gives solutions to $6x^{2}+x-2=0$ as *x* = $-\frac{2}{3}$  and *x* = $\frac{1}{2}$
 >   
 >     - "Reverse" the method above to factorise!
->     - `6 x squared plus x minus 2 equals open parentheses 3 x space plus space 2 close parentheses open parentheses 2 x space minus space 1 close parentheses`
+>     - `6x²+x−2=(3x+2)(2x−1)`
 >   - Warning: a calculator (correctly) gives solutions to 12*x*<sup>2</sup> + 2*x* – 4 = 0 as *x* = $-\frac{2}{3}$ and *x* = $\frac{1}{2}$
 >   
->     - But 12*x*<sup>2</sup> + 2*x* – 4 ≠ `open parentheses 3 x plus 2 close parentheses open parentheses 2 x minus 1 close parentheses` as these brackets expand to 6*x*<sup>2</sup> + ... not 12*x*<sup>2</sup> + ...
+>     - But 12*x*<sup>2</sup> + 2*x* – 4 ≠ `(3x+2)(2x−1)` as these brackets expand to 6*x*<sup>2</sup> + ... not 12*x*<sup>2</sup> + ...
 >     - Multiply by 2 to correct this
->     - 12*x*<sup>2</sup> + 2*x* – 4 = `2 open parentheses 3 x plus 2 close parentheses open parentheses 2 x minus 1 close parentheses`
+>     - 12*x*<sup>2</sup> + 2*x* – 4 = `2 (3x+2)(2x−1)`
 
 > **Worked Example**
-> (a) Solve `open parentheses x minus 2 close parentheses open parentheses x plus 5 close parentheses equals 0`
+> (a) Solve `(x−2)(x+5)=0`
 > * *
 > 
 > > *Set the first bracket equal to zero*
@@ -107,7 +107,7 @@ guided_study: false
 > 
 > **Final answer:** **x**** = 2 or ****x**** = -5**
 > 
-> (b) Solve `open parentheses 8 x plus 7 close parentheses open parentheses 2 x minus 3 close parentheses equals 0`
+> (b) Solve `(8x+7)(2x−3)=0`
 > * *
 > 
 > > *Set the first bracket equal to zero*
@@ -140,7 +140,7 @@ guided_study: false
 > 
 > **Final answer:** **x**** = **$-\frac{7}{8}$** or ****x**** = **$\frac{3}{2}$
 > 
-> (c) Solve `x open parentheses 5 x minus 1 close parentheses equals 0`
+> (c) Solve `x (5x−1)=0`
 > 
 > > *Do not divide both sides by** x **(this will lose a solution at the end)*
 > *Set the first “bracket” equal to zero*

@@ -27,7 +27,7 @@ guided_study: false
 - **High barriers to entry exist **and have the** **ability to **prevent/deter competition** from entering the market
 
   - **Legal barriers** such as a licence to sell the product will limit competitors entering the market
-  - *Patents *prevent other firms from copying the design of a product
+  - *Patents* prevent other firms from copying the design of a product
   - Generous **marketing budgets** on branding and advertising increase **customer loyalty**
   - High** start-up costs**, e.g. setting up a renewable energy company costs billions
 - Many governments** **define a monopoly as any firm having more than 25% ***market share***

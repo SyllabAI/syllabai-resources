@@ -76,7 +76,7 @@ Find any other transactions relating to credit customer, such as:
 > 
 > *January opening balance*
 > 
-> *November = (55 000 × \$5) × 70% = \$192 500 *
+> *November = (55 000 × \$5) × 70% = \$192 500*
 > 
 > *December = (62 000 × \$5) × 30% = \$93 000*
 > 
@@ -185,7 +185,7 @@ Find any other transactions relating to credit suppliers, such as:
 > 
 > *January opening balance*
 > 
-> *(5 000 ×\$2) × 60% = \$6 000 *
+> *(5 000 ×\$2) × 60% = \$6 000*
 > 
 > *(6 000 × \$2) × 40% = \$4 800*
 > 

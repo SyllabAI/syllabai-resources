@@ -32,7 +32,7 @@ This page covers section 4.4.3 of the [CIE IGCSE specification](https://www.camb
 - **Syria:**
 
   - is a low-income country (LIC)
-  - is in the midst of  a continuing* civil war*
+  - is in the midst of  a continuing *civil war*
   - has a severely damaged infrastructure and economy
   - has limited ability to respond to a disaster
 

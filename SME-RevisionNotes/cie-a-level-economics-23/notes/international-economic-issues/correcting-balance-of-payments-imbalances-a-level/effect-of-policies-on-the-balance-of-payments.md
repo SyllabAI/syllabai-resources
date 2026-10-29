@@ -48,7 +48,7 @@ guided_study: false
 
 ## Effect of supply-side policies on the balance of payments
 
-- Supply-side policies raise *productivity *and international competitiveness, improving the current account sustainably over time
+- Supply-side policies raise *productivity* and international competitiveness, improving the current account sustainably over time
 - Higher productivity also attracts FDI as the country becomes a more attractive location for investment - improving the financial account
 - Supply-side policies therefore offer the most durable improvement to the **overall** balance of payments position - addressing both the current account (through competitiveness) and the financial account (through investment attractiveness)
 - The main limitation is the **time lag** - supply-side improvements take years to materialise
@@ -59,7 +59,7 @@ guided_study: false
 
 ## Effect of protectionist policies on the balance of payments
 
-- *Tariffs *and *quotas *directly reduce import volumes, improving the current account in the short run
+- *Tariffs* and *quotas* directly reduce import volumes, improving the current account in the short run
 - However, trading partners may retaliate with their own protectionist measures, reducing export demand and worsening the current account
 - Protectionism does not address the financial account and may **discourage FDI** if it signals a closed, inefficient economy - the overall balance of payments effect may therefore be negative in the long run
 
@@ -72,7 +72,7 @@ guided_study: false
 - **Depreciation** makes exports cheaper and imports dearer - if the Marshall-Lerner condition is satisfied, the current account improves over time
 
 - A depreciation also makes domestic assets cheaper for foreign investors in foreign currency terms, potentially attracting FDI and portfolio investment and improving the financial account
-- However, depreciation raises import costs, contributing to *cost-push inflation *which may erode the initial competitiveness gain
+- However, depreciation raises import costs, contributing to *cost-push inflation* which may erode the initial competitiveness gain
 
 ![Flowchart showing effects of exchange rate depreciation: export prices fall, demand rises, current account improves; domestic assets cheaper, boosting investment.](../../../assets/f7da7d89d122-34865-42-the-impact-of-an-exchange-rate-deprecia.png)
 

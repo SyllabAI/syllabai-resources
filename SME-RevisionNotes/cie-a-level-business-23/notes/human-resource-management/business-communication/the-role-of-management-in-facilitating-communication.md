@@ -38,7 +38,7 @@ guided_study: false
 
 | **Benefits** | **Risks** |
 |---|---|
-| - **Fast information flow**<br><br>  - Staff can warn each other of a problem immediately, without waiting for formal meetings | - **Rumours and gossip**<br><br>  - Wrong facts can spread quickly, damaging *morale *or reputation |
+| - **Fast information flow**<br><br>  - Staff can warn each other of a problem immediately, without waiting for formal meetings | - **Rumours and gossip**<br><br>  - Wrong facts can spread quickly, damaging *morale* or reputation |
 | - **Builds team spirit**<br><br>  - Friendly chat helps people feel connected, boosting motivation and cooperation | - **No written record**<br><br>  - Decisions made informally may be forgotten or disputed later |
 | - **Encourages ideas**<br><br>  - Casual talk makes employees more willing to share creative suggestions | - **Can bypass managers**<br><br>  - Important issues might skip the chain of command, leaving leaders unaware |
 | - **Reduces stress**<br><br>  - A quick joke or personal story can ease tension during busy periods | - **Exclusion risk**<br><br>  - Staff who are not part of the social circle may feel left out or unfairly treated |

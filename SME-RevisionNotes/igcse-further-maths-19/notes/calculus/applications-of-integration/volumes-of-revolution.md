@@ -84,21 +84,21 @@ Identify the **limits** $a$ and $b$
 > **Worked Example**
 > Find the volume of the solid of revolution formed by rotating the region bounded by the graph of $y=\sqrt{3x^{2}+2}$, the coordinate axes and the line $x=3$ by $2π$ radians about the $x$-axis.  Give your answer as an exact value.
 > 
-> > *Start by finding the values of *$a$* and *$b$* for the formula*
+> > *Start by finding the values of* $a$ *and* $b$ *for the formula*
 > 
-> > *'Bounded by the coordinate axes' tells us that the *$y$*-axis (*$x=0$*) is one boundary*
-> *The question tells us that *$x=3$* is the other one*
-> *So  *$a=0$*  and  *$b=3$
+> > *'Bounded by the coordinate axes' tells us that the* $y$*-axis (*$x=0$*) is one boundary*
+> *The question tells us that* $x=3$ *is the other one*
+> *So* $a=0$ *and* $b=3$
 > 
 > > *If in doubt, drawing a sketch can help*
 > 
 > ![Sketch of function for volume of revolution](assets/5565c07492cb-edexcel-fpure-vols-of-rev-we.png)
 > 
-> > *Now square the function *$y = \mathrm{f} ( x )$
+> > *Now square the function* $y = \mathrm{f} ( x )$
 > 
 > $y^{2} = ( \sqrt{3 x^{2} + 2} )^{2} = 3 x^{2} + 2$
 > 
-> > *Substitute everything into  *$V = \pi \int_{a}^{b} y^{2} \mathrm{d} x$
+> > *Substitute everything into* $V = \pi \int_{a}^{b} y^{2} \mathrm{d} x$
 > 
 > $V = \pi \int_{0}^{3} ( 3 x^{2} + 2 ) \mathrm{d} x$
 > 
@@ -108,10 +108,10 @@ Identify the **limits** $a$ and $b$
 > 
 > > *Put that value back into the volume formula*
 > 
-> > *Don't forget to include the *$π$* !*
+> > *Don't forget to include the* $π$ *!*
 > 
 > $V=33π$
 > 
-> > *The question asks for an exact value answer, so leave the answer in terms of *$π$
+> > *The question asks for an exact value answer, so leave the answer in terms of* $π$
 > 
 > **Final answer:** **Volume **$=33π\mathrm{units}^{3}$

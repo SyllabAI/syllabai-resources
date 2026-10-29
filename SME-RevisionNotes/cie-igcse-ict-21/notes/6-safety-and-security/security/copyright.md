@@ -63,16 +63,16 @@ guided_study: false
 > **Answer: ***One mark for naming the method then one mark for each reason*
 > 
 > **Serial numbers/product keys **
-> *When software is being installed, users are often asked to enter a unique number which proves the software is original *
+> *When software is being installed, users are often asked to enter a unique number which proves the software is original*
 > 
-> > *Serial numbers and product keys are supplied with the original copy of the software *
+> > *Serial numbers and product keys are supplied with the original copy of the software*
 > 
 > **Holograms **
-> *Holograms are often used on the packaging of software and they indicate that the copy is genuine *
+> *Holograms are often used on the packaging of software and they indicate that the copy is genuine*
 > 
-> *Software without a hologram on the packaging is usually an illegal copy as they are too difficult and costly for pirates to implement *
+> *Software without a hologram on the packaging is usually an illegal copy as they are too difficult and costly for pirates to implement*
 > 
 > **Licence agreements **
-> *Licence agreements are part of the software installation process and they inform the user exactly how they are legally allowed to use the product *
+> *Licence agreements are part of the software installation process and they inform the user exactly how they are legally allowed to use the product*
 > 
 > > *Users are required to 'agree to terms of use' before they can complete the installation Any breach of this can mean prosecution and fines*

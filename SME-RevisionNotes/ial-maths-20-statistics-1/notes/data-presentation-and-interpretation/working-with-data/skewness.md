@@ -32,10 +32,10 @@ The distribution of a data set is either symmetrical or it has skewness.
 
   - If the median is closer to the lower quartile then the distribution has **positive skew**
   
-    - *Q*<sub>*3*</sub>* -  Q*<sub>*2*</sub> > *Q*<sub>*2*</sub>*- Q*<sub>*1*</sub>
+    - *Q*<sub>*3*</sub>*-  Q*<sub>*2*</sub> > *Q*<sub>*2*</sub>*- Q*<sub>*1*</sub>
   - If the median is closer to the upper quartile then the distribution has **negative skew**
   
-    - *Q*<sub>*3*</sub>* -  Q*<sub>*2*</sub> < *Q*<sub>*2*</sub>* - Q*<sub>*1*</sub>
+    - *Q*<sub>*3*</sub>*-  Q*<sub>*2*</sub> < *Q*<sub>*2*</sub>*- Q*<sub>*1*</sub>
 
 ![2-3-3-skewness-diagram-2](../../../assets/5bdcc5af4172-2-3-3-skewness-diagram-2.png)
 

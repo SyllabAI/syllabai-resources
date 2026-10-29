@@ -25,7 +25,7 @@ $p=mv$
 
   - *p* = linear momentum in kilogram metres per second (kg m s<sup>-1</sup>)
   - *m* = mass in kilograms (kg)
-  - *v *= velocity in metres per second (m s<sup>-1</sup>)
+  - *v* = velocity in metres per second (m s<sup>-1</sup>)
 
 - Momentum is a **vector **quantity; it has both **magnitude **and **direction**
 - It can have a positive or negative value which describes its direction in a one dimensional plane

@@ -174,7 +174,7 @@ guided_study: false
 
   - *y* = ln (*N*) is plotted on the y-axis
   - *x* = t is plotted on the x-axis
-  - gradient, *m *= −λ
+  - gradient, *m* = −λ
   - y-intercept = ln (*N*<sub>*0*</sub>) is a constant
 
 - The exponential decay version of the equation could produce a curve, whilst the ln(*N*) equation produces a straight line

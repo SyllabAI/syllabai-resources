@@ -26,8 +26,8 @@ guided_study: true
 
   - $E$ , S, U and $ξ$  are common symbols used for the **Universal** **set**
   In probability this is the entire **sample** **space**
-  - **Events** are denoted by capital letters, *A, B, C *etc
-  - *A' * is called the **complement** of  and means “*not A*”
+  - **Events** are denoted by capital letters, *A, B, C* etc
+  - *A'* is called the **complement** of  and means “*not A*”
   (Strictly pronounced “ *A* prime” but often called “*A*  dash”)
   
     - Recall the important and easily missed result $P(A')=1-P(A)$

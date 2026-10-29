@@ -74,7 +74,7 @@ guided_study: false
 - Businesses that open new factories, offices, or stores provide employment for local people
 
   - For example, when **Toyota** opened its manufacturing plant in **Durban, South Africa**, it created thousands of jobs
-  - This boosted the local economy and reduced *unemployment *in the region
+  - This boosted the local economy and reduced *unemployment* in the region
 
 #### Improved infrastructure
 

@@ -24,12 +24,12 @@ The benefits of the economic boom were not experienced by all Americans. In the 
 - Americans who were male, white and already wealthy were the ones who benefitted most from the boom
 - Business owners saw an increase in demand for their goods, which increased their profits
 
-  - Many of these profits were* reinvested* in the business; for example, by developing new products, hiring new workers and opening new factories
+  - Many of these profits were *reinvested* in the business; for example, by developing new products, hiring new workers and opening new factories
   - Often, this led to even greater profits, increasing the personal wealth of the business owners
   - Business owners also benefitted from lower rates of tax, thanks to the policies of Republican presidents
 - Members of America’s urban middle class also benefitted from the boom through dramatic improvements in their standard of living
 
-  - *Mass production *and *hire purchase* schemes meant that many consumer goods suddenly became available and affordable
+  - *Mass production* and *hire purchase* schemes meant that many consumer goods suddenly became available and affordable
   - Ownership of items such as cars, washing machines, refrigerators and vacuum cleaners completely changed how people lived their lives
   - Thanks to these devices, people had more time to enjoy leisure activities
 - The stock market continued to rise throughout the 1920s
@@ -51,7 +51,7 @@ The benefits of the economic boom were not experienced by all Americans. In the 
   - They were also forced to live in slum areas in overcrowded, poor quality housing
 - Indigenous Americans had been forced to live on reservations during the late 19th and early 20th centuries
 
-  - The land on these* reservations* was of poor quality and unsuitable for growing crops
+  - The land on these *reservations* was of poor quality and unsuitable for growing crops
   - They had little access to education or medical care, and many lived in extreme poverty
 
 - Recently arrived immigrants were not welcomed by many Americans during the 1920s

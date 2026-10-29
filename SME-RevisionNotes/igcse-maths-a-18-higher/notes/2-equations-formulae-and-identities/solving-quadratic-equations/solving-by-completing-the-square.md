@@ -19,18 +19,18 @@ guided_study: false
 
 ### How do I solve a quadratic equation by completing the square?
 
-- To solve *x*<sup>2</sup> + *bx *+* c* = 0
+- To solve *x*<sup>2</sup> + *bx* + *c* = 0
 
   - **replace** the first two terms, ***x***<sup>**2**</sup>** + *****bx***, with **(*****x***** + *****p*****)**<sup>**2**</sup>** - *****p***<sup>**2**</sup> where ***p***** is half of *****b***
   - This is** completing the square**
   
-    - *x*<sup>2</sup> + *bx *+* c* = 0 becomes (*x* + *p*)<sup>2</sup> - *p*<sup>2</sup> + *c *= 0
+    - *x*<sup>2</sup> + *bx* + *c* = 0 becomes (*x* + *p*)<sup>2</sup> - *p*<sup>2</sup> + *c* = 0
     - (where *p* is half of *b)*
   - rearrange this equation to **make *****x***** the subject** (using ±√)
 - For example, solve *x*<sup>2</sup> + 10*x* + 9 = 0 by completing the square
 
   - *x*<sup>2</sup> + 10*x *becomes (*x* + 5)<sup>2</sup> - 5<sup>2</sup>
-  - so* x*<sup>2</sup> + 10*x* + 9 = 0 becomes (*x* + 5)<sup>2</sup> - 5<sup>2 </sup>+ 9 = 0
+  - so *x*<sup>2</sup> + 10*x* + 9 = 0 becomes (*x* + 5)<sup>2</sup> - 5<sup>2 </sup>+ 9 = 0
   - make *x* the subject (using ±√)
   
     - (*x* + 5)<sup>2</sup> - 25<sup> </sup>+ 9 = 0
@@ -93,7 +93,7 @@ guided_study: false
 > $x^{2}-4x-12=0$
 > 
 > > *Halve the middle number, -4, to get -2*
-> *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>* - (-2)*<sup>*2*</sup>
+> *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>*- (-2)*<sup>*2*</sup>
 > 
 > $( x - 2 )^{2} - ( - 2 )^{2} - 12 = 0$
 > 

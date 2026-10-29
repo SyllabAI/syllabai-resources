@@ -74,7 +74,7 @@ guided_study: false
 > 
 > - Multiply by the payment per share
 > 
-> *160 000 × \$0.035 = \$5 600 *
+> *160 000 × \$0.035 = \$5 600*
 > 
 > Find the updated retained earnings:
 > 

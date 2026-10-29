@@ -141,14 +141,14 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use a calculator to find the first solution *
+> > *Use a calculator to find the first solution*
 > *Take the inverse sin of both sides*
 > 
 > $x = \sin ^{- 1} ( 0.25 ) = 14.47751...$
 > 
-> > *Sketch the graph of *$y=\mathrm{sin}x$
+> > *Sketch the graph of* $y=\mathrm{sin}x$
 > 
-> > *Mark on (roughly) where *$x=14.48$* and *$y=0.25$* would be*
+> > *Mark on (roughly) where* $x=14.48$ *and* $y=0.25$ *would be*
 > 
 > > *Draw a vertical line up to the curve*
 > *Draw another line horizontally across to the next point on the curve*
@@ -156,7 +156,7 @@ guided_study: true
 > 
 > ![Graph of y = sin(x) from x=0º to x=360º.](assets/05484ed349a4-51797-solving-trig-equations-4.png)
 > 
-> > *Find this value using the symmetry of the curve *
+> > *Find this value using the symmetry of the curve*
 > *Subtract 14.48 from 180*
 > 
 > $180-14.48=165.52$

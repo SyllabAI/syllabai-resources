@@ -175,7 +175,7 @@ guided_study: false
 > 
 > **Final answer:** **Answer**
 > 
-> > *Three from: *
+> > *Three from:*
 > 
 > RTF has basic formatting (embolden, underline, etc.) while TXT is plain text **[1]**
 > 

@@ -17,7 +17,7 @@ guided_study: false
 
 ## Europe's Reaction to the Treaty
 
-- There was a **mixed reaction** in Europe to the *Versailles Settlement *in 1919
+- There was a **mixed reaction** in Europe to the *Versailles Settlement* in 1919
 
 ![A diagram showing how different countries reacted to the Treaty of Versailles.
 

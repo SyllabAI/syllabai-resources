@@ -195,4 +195,4 @@ Ellison’s story highlights the entrenched racism existing in America in the ea
 
 ### Sources
 
-Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2, *Cambridge University Press.
+Wilmer, M (ed.), 2018, *Stories of Ourselves: Cambridge Assessment International Education Anthology of Stories in English Volume 2,* Cambridge University Press.

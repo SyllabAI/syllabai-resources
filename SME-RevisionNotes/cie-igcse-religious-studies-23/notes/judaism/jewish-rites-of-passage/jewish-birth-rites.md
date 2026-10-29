@@ -77,7 +77,7 @@ guided_study: false
 
 - Jewish naming ceremonies are important** rites of passage** that **welcome a new baby** into the Jewish community and give them their **Hebrew name**
 
-  - A child’s Hebrew name is formally announced and given (according to traditional custom,** for the first time**) during the *brit milah* or *brit bat *ceremony
+  - A child’s Hebrew name is formally announced and given (according to traditional custom,** for the first time**) during the *brit milah* or *brit bat* ceremony
   - There are different ceremonies for baby boys and baby girls
 - Baby boys have a **brit milah** (Covenant of Circumcision)
 

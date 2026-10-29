@@ -45,7 +45,7 @@ guided_study: false
 
 - Coding **does affect** the equation of the regression line of *y* on *x*
 - Coding is used to make numbers simpler to work with
-- The equation of the regression line of *Y* on *X *can be calculated using the coded data
+- The equation of the regression line of *Y* on *X* can be calculated using the coded data
 - This equation can then be used to find the equation of the regression line of *y* on *x*
 
 #### How do I use coding to find the equation of the regression line of y on x?
@@ -54,12 +54,12 @@ guided_study: false
 
   - *X* = *px* + *q*
   - *Y* = *my* + *n*
-- The equation of the regression line of *Y* on *X *can be calculated as *Y* = *A* + *BX*
+- The equation of the regression line of *Y* on *X* can be calculated as *Y* = *A* + *BX*
 - To find the equation of the regression line of *y* on *x*
 
   - Substitute the codes into the equation
   
-    - *my* + *n *= *A* + *B(px* + *q)*
+    - *my* + *n* = *A* + *B(px* + *q)*
   - Rearrange into the form *y* = *a* + *bx*
 
 > **Worked Example**

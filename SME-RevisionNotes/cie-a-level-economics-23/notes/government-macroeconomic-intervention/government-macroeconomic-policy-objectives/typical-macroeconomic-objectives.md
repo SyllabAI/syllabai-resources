@@ -60,7 +60,7 @@ Source: [Macrotrends](https://www.macrotrends.net/global-metrics/countries/mys/m
 
 | **2014 - 2016** | **2017 - 2019** | **2020** | **2022** |
 |---|---|---|---|
-| - Economic growth was increasing each year, but at a decreasing rate | - Growth increased significantly in 2017, but the following two years saw the rate of growth falling again | - As with all economies during the Covid-19 *lockdowns*, Malaysia experienced significant *recession *and a fall from +4.2% growth to - 5.8% growth | - As with most economies, Malaysia saw a significant rebound in economic growth (over 8%) during 2022 |
+| - Economic growth was increasing each year, but at a decreasing rate | - Growth increased significantly in 2017, but the following two years saw the rate of growth falling again | - As with all economies during the Covid-19 *lockdowns*, Malaysia experienced significant *recession* and a fall from +4.2% growth to - 5.8% growth | - As with most economies, Malaysia saw a significant rebound in economic growth (over 8%) during 2022 |
 
 ## Low unemployment
 

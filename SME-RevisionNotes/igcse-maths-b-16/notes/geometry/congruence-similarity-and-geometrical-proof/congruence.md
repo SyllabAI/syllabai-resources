@@ -95,7 +95,7 @@ guided_study: false
 >   - That converts 'AAS' to 'ASA'
 
 > **Worked Example**
-> Prove that triangles *ABC *and *PQR *are congruent.
+> Prove that triangles *ABC* and *PQR* are congruent.
 > 
 > ![congruent-triangle-we](assets/45f36a118a95-4567-congruent-triangles.png)
 > 

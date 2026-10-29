@@ -25,9 +25,9 @@ guided_study: false
 | **Term** | **Definition** | **Explanation** |
 |---|---|---|
 | **Hierarchy** | - The number of layers of management and supervision within an organisation | - It shows how many steps there are from the top (senior management) to the bottom (operational staff)<br>- A tall structure has many levels, while a flat structure has few, which affects communication, control and decision-making speed |
-| **Chain of command** | - The chain of command is the formal line of authority that flows down from the top management to lower-level employees | - It defines who reports to whom and who is responsible for making decisions<br>- The chain of command helps establish a clear communication channel and helps maintain *accountability *within the business |
-| **Span of control** | - Span of control refers to the number of employees that a manager or *supervisor *effectively manages | - It is based on the principle that a manager can only effectively manage a limited number of employees<br>- A narrower span of control means more layers of management<br>- A wider span of control means fewer layers |
-| **Centralised** | - Decision-making authority is concentrated at the top of the organisation | - Senior management make most of the key decisions<br>- Centralisation can promote *consistency *and control |
+| **Chain of command** | - The chain of command is the formal line of authority that flows down from the top management to lower-level employees | - It defines who reports to whom and who is responsible for making decisions<br>- The chain of command helps establish a clear communication channel and helps maintain *accountability* within the business |
+| **Span of control** | - Span of control refers to the number of employees that a manager or *supervisor* effectively manages | - It is based on the principle that a manager can only effectively manage a limited number of employees<br>- A narrower span of control means more layers of management<br>- A wider span of control means fewer layers |
+| **Centralised** | - Decision-making authority is concentrated at the top of the organisation | - Senior management make most of the key decisions<br>- Centralisation can promote *consistency* and control |
 | **Decentralised** | - Decision-making is distributed throughout the organisation | - Lower-level employees have more decision-making power<br>- Decentralisation can promote flexibility and innovation |
 | **Authority** | - Authority is the official power given to a person to make decisions and give orders | - It flows down the organisational hierarchy and allows managers to direct others, allocate resources and take responsibility for decisions |
 | **Delegation** | - Delegation is the process of passing authority from a manager to a *subordinate* | - A manager gives responsibility for a task to someone else but remains responsible for the outcome<br>- It helps develop staff and reduce the manager's workload |
@@ -39,10 +39,10 @@ guided_study: false
 
 ## Functional structure
 
-- Employees are arranged into different *functions *that fulfil particular roles, such as finance, human resources or marketing
+- Employees are arranged into different *functions* that fulfil particular roles, such as finance, human resources or marketing
 
   - Employees are **arranged according to their expertise**, bringing appropriate skills, experience and qualifications to a particular area of the business
-  - There is a danger that functional areas **focus only on their own area** of responsibility and lose touch with the *objectives *of the business as a whole
+  - There is a danger that functional areas **focus only on their own area** of responsibility and lose touch with the *objectives* of the business as a whole
 
 ![Business organisation by function breaks a business structure up into its core functions such as finance, marketing, human resources etc.](../../../assets/62a5453b0959-5972-business-organisation-by-function.bin)
 

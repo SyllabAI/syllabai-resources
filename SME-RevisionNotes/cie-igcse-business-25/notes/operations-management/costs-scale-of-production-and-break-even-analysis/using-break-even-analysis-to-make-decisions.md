@@ -24,7 +24,7 @@ costs, changes in variable cost per unit"
   - Knowing when the business will break-even or how much profit it is expected to make **may attract or deter *****shareholders**** *from investing in the business
 - Break-even analysis provides **a basis for informed decision-making**
 
-  - It helps the business to assess the costs and expected *returns *of new projects and expansion plans
+  - It helps the business to assess the costs and expected *returns* of new projects and expansion plans
   
     - By considering the break-even point, businesses can **assess the potential risks and rewards** associated with different decisions
 
@@ -37,7 +37,7 @@ costs, changes in variable cost per unit"
 | **Pricing decisions** | - Supports pricing by calculating the minimum price required to cover costs and achieve the desired profit |
 | **Financial planning** | - Acts as a guide for setting realistic *sales targets* and planning future spending |
 | **Redrawing the graph with changes** | - Demonstrates how changes in costs, prices, or sales volume affect the break-even point<br>- This helps assess risks such as price increases or new competition |
-| **Performance monitoring** | - Provides a *benchmark *to compare actual sales and costs<br>- This helps the business measure progress and financial health |
+| **Performance monitoring** | - Provides a *benchmark* to compare actual sales and costs<br>- This helps the business measure progress and financial health |
 
 ## Changes to break-even variables
 

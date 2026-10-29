@@ -126,7 +126,7 @@ guided_study: false
 - A colorimeter is an instrument that beams a specific wavelength (colour) of light through a sample and measures how much of this light is **absorbed** by the sample
 
   - Colour filters are used to control the light wavelength emitted
-  - The colour used will be **in contrast** to the colour of the solution, e.g. Benedict's solution turns orange in the presence of sugar, so the colorimeter will* assess the intensity of the* *orange* colour; in order to do this a blue light filter would be used to shine blue light through the sample
+  - The colour used will be **in contrast** to the colour of the solution, e.g. Benedict's solution turns orange in the presence of sugar, so the colorimeter will *assess the intensity of the* *orange* colour; in order to do this a blue light filter would be used to shine blue light through the sample
   
     - Blue light is absorbed by an orange solution as orange light is reflected to give the orange appearance
     - The extent to which the blue light is absorbed will differ depending on the intensity of the orange colour; a solution that is orange/green will absorb less blue light than a solution that is brick red

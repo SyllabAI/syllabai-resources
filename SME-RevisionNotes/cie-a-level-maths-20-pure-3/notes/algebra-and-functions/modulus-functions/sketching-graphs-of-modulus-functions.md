@@ -28,7 +28,7 @@ guided_study: true
 
 ### How do I sketch the straight line modulus graph y = a|­x+p|+q?
 
-- The graph will look like a “ꓦ” if *a *> 0 or a “ꓥ” if *a *< 0
+- The graph will look like a “ꓦ” if *a* > 0 or a “ꓥ” if *a* < 0
 - There will be a vertex at the point (-*p*, *q*)
 - There could be 0, 1 or 2 roots
 
@@ -70,7 +70,7 @@ STEP 2          **Reflect** this in the ***y*****-axis**
 - For the exam you will only be asked to do this when f(*x*) is **linear**
 
   - Your graphs will all look like a “ꓦ” or a “ꓥ”
-  - You can also think of these graphs as **transformations** of the graph *y *= |*x*|
+  - You can also think of these graphs as **transformations** of the graph *y* = |*x*|
 
 > **Worked Example**
 > ![Modulus functions - Sketching Graphs Example Diagram, A Level & AS Level Pure Maths Revision Notes](assets/32bbb6fb716e-2-8-4-modulus-functions-sketching-graphs-example.png)

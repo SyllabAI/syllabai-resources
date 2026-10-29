@@ -45,8 +45,8 @@ guided_study: false
 
 - The production of any good or service requires the use of **a combination of all four factors of production**
 
-  - Goods are* tangible* objects, e.g. mobile phone
-  - Services are* intangible* actions or activities that one person performs for another, e.g manicure, car wash
+  - Goods are *tangible* objects, e.g. mobile phone
+  - Services are *intangible* actions or activities that one person performs for another, e.g manicure, car wash
 
 #### Explanation of the factors of production
 

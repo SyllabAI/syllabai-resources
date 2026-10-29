@@ -25,7 +25,7 @@ $σ=\frac{F}{A}$
 
 - Where:
 
-  - *σ *is tensile stress in Pa
+  - *σ* is tensile stress in Pa
   - *F* is applied force in N
   - *A* is the cross-sectional area of the object in m<sup>2</sup>
 - The **ultimate tensile stress** is the **maximum** force per original cross-sectional area a wire is able to support at the point it breaks
@@ -55,7 +55,7 @@ $E=\frac{σ}{ε}=\frac{FL}{Ax}$
 
 - Where:
 
-  - *E *is Young modulus where its unit are the same as stress: **Pa** (since strain is unitless)
+  - *E* is Young modulus where its unit are the same as stress: **Pa** (since strain is unitless)
 - For a material demonstrating elastic behaviour, **stress and strain**, like force and extension, are also directly proportional to one another
 - The directly proportional nature of the stress-strain relationship can be shown by drawing a stress-strain graph
 
@@ -87,7 +87,7 @@ $E=\frac{σ}{ε}=\frac{FL}{Ax}$
 > **Step 1: List the known quantities:**
 > 
 > - Load force, *F* = 92 N
-> - Cross-sectional area, *A *= 0.04 mm<sup>2</sup>
+> - Cross-sectional area, *A* = 0.04 mm<sup>2</sup>
 > - Extension is 0.50% of the original length
 > 
 > **Step 2: Determine the stress:**
@@ -150,7 +150,7 @@ $E=\frac{σ}{ε}=\frac{FL}{Ax}$
 
 ### Improving experiment and reducing uncertainties
 
-- Reduce uncertainty of the cross-sectional area by measuring the diameter* d* in several places along the wire and then calculating an average
+- Reduce uncertainty of the cross-sectional area by measuring the diameter *d* in several places along the wire and then calculating an average
 - After each reading remove the load and check that the wire returns to its original shape after each reading
 - Take several readings with each loads and find the average extension
 - Use a Vernier scale to measure the extension of the wire

@@ -103,8 +103,8 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > $\mathrm{f} ( \frac{x}{3} )$* represents a horizontal stretch of scale factor *$\frac{1}{( 1 \frac{1}{3} )} = 3$
-> *And *$2 \mathrm{f} (... )$* represents a vertical stretch of scale factor 2*
+> > $\mathrm{f} ( \frac{x}{3} )$ *represents a horizontal stretch of scale factor* $\frac{1}{( 1 \frac{1}{3} )} = 3$
+> *And* $2 \mathrm{f} (... )$ *represents a vertical stretch of scale factor 2*
 > 
 > > *Apply these in any order, e.g. start with the horizontal stretch, scale factor 3*
 > 

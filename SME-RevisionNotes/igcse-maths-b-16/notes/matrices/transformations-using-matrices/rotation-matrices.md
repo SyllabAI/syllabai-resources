@@ -64,10 +64,10 @@ guided_study: false
 > 
 > ![transforming-a-point-we](assets/830fb34638c3-transforming-a-point-we.png)
 > 
-> *The point A *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to A' *$( \begin{gathered} 0 \\ - 1 \end{gathered} )$
+> *The point A* $( \begin{gathered} 1 \\ 0 \end{gathered} )$ *moves to A'* $( \begin{gathered} 0 \\ - 1 \end{gathered} )$
 > 
-> *The point C *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* moves to C' *$( \begin{gathered} 1 \\ 0 \end{gathered} )$
+> *The point C* $( \begin{gathered} 0 \\ 1 \end{gathered} )$ *moves to C'* $( \begin{gathered} 1 \\ 0 \end{gathered} )$
 > 
-> > *The transformation matrix is given by *$M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
+> > *The transformation matrix is given by* $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
 > 
 > $\mathrm{M} = ( \begin{gathered} 0 1 \\ - 1 & 0 \end{gathered} )$

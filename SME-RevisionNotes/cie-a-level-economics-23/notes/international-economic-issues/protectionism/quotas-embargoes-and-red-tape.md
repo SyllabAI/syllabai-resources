@@ -42,7 +42,7 @@ guided_study: false
   - It is the most extreme form of protectionism - imports fall to zero
   - Domestic prices rise significantly as foreign supply is removed entirely
   - Consumer welfare falls sharply; domestic producers benefit if domestic alternatives exist
-- Embargoes are typically imposed for **political or strategic reasons** rather than economic ones - e.g. *sanctions *on Russia following the 2022 invasion of Ukraine
+- Embargoes are typically imposed for **political or strategic reasons** rather than economic ones - e.g. *sanctions* on Russia following the 2022 invasion of Ukraine
 - They carry a high risk of retaliation and can severely disrupt *supply chains*
 
 ## Excessive administrative burdens (red tape)
@@ -53,7 +53,7 @@ guided_study: false
 
 - **Excessive administrative burdens are non-tariff barriers that make importing more costly, time-consuming or complex without imposing a direct tax**
 
-  - Examples include lengthy *customs *procedures, complex licensing requirements, excessive product testing and certification, burdensome documentation requirements
+  - Examples include lengthy *customs* procedures, complex licensing requirements, excessive product testing and certification, burdensome documentation requirements
 - They act as a hidden tariff - raising the effective cost of imports without appearing as formal protectionism
 - Particularly common in agricultural trade - e.g. *phytosanitary regulations* that disproportionately burden foreign producers
 - Difficult for trading partners to challenge through the *WTO* as they are often disguised as legitimate regulatory requirements

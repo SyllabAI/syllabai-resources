@@ -117,7 +117,7 @@ $\begin{gathered} \sqrt{32} + \sqrt{8} & = ( \sqrt{16} \times \sqrt{2} ) + ( \sq
 > 
 > > *Simplify both surds separately by finding the highest square number that is a factor of each of them*
 > 
-> > *9 is a factor of 54, so *
+> > *9 is a factor of 54, so*
 > 
 > $\sqrt{54}=\sqrt{9\times6}=3\sqrt{6}$
 > 
@@ -129,6 +129,6 @@ $\begin{gathered} \sqrt{32} + \sqrt{8} & = ( \sqrt{16} \times \sqrt{2} ) + ( \sq
 > 
 > * *$\sqrt{54}-\sqrt{24}=3\sqrt{6}-2\sqrt{6}=\sqrt{6}$
 > 
-> > *This is in the required form with  *$p=1$*  and  *$q=6$
+> > *This is in the required form with* $p=1$ *and* $q=6$
 > 
 > $\sqrt{6}$

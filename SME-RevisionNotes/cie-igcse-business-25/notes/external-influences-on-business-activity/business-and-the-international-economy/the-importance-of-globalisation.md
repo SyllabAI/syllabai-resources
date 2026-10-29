@@ -43,7 +43,7 @@ communication, free trade agreements, newly industrialised countries"
 - **Technological change**, including advances in communication, has made it quicker and cheaper to share information across the world
 
   - Businesses can now manage international operations, hold *virtual meetings* and advertise to global audiences more easily
-- **Free trade agreements **between countries have reduced or removed *tariffs *and other *trade barriers*
+- **Free trade agreements **between countries have reduced or removed *tariffs* and other *trade barriers*
 
   - This encourages international trade by making imported goods more affordable and increasing access to foreign markets
 - **The growth of newly industrialised countries **has created new markets for goods and services
@@ -146,7 +146,7 @@ communication, free trade agreements, newly industrialised countries"
 #### Disadvantages of tariffs
 
 - **Increases the cost** of imported raw materials, which may affect businesses that use these goods for production, leading to higher prices for consumers
-- **Reduces competition** for domestic firms, who may become more *inefficient *and produce poor-quality products for their customers
+- **Reduces competition** for domestic firms, who may become more *inefficient* and produce poor-quality products for their customers
 - **Reduces consumer choice **as imports are now more expensive and some customers will be unable to afford them
 
 > **Exam Hint**
@@ -162,7 +162,7 @@ communication, free trade agreements, newly industrialised countries"
 
 #### Advantages of import quotas
 
-- To **meet extra demand, domestic businesses may need to **hire more workers, which reduces *unemployment *and benefits the wider economy
+- To **meet extra demand, domestic businesses may need to **hire more workers, which reduces *unemployment* and benefits the wider economy
 - The higher prices for the product may encourage **new businesses to start up** in the industry
 - Countries are able to **easily change** import quota as market conditions change
 - Foreign countries view quotas as **less *****confrontational ***to their business interests than tariffs

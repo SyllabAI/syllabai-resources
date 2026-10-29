@@ -104,7 +104,7 @@ guided_study: true
 > 
 > **Method 2: Differentiation (1**<sup>**st**</sup>** derivative)**
 > 
-> > *Differentiate the original equation to find the 1*<sup>*st*</sup>* derivative, the gradient function, *$\frac{dy}{dx}$
+> > *Differentiate the original equation to find the 1*<sup>*st*</sup> *derivative, the gradient function,* $\frac{dy}{dx}$
 > 
 > $\begin{gathered} 2 x^{3} & \rightarrow 6 x^{2} \\ 3 x^{2} & \rightarrow 6 x \\ - 12 x & \rightarrow - 12 \\ 1 \rightarrow 0 \end{gathered}$
 > 
@@ -123,25 +123,25 @@ guided_study: true
 > 
 > **Method 3: Differentiation (2**<sup>**nd**</sup>** derivative)**
 > 
-> > *Differentiate the original equation to find the 1*<sup>*st*</sup>* derivative*
+> > *Differentiate the original equation to find the 1*<sup>*st*</sup> *derivative*
 > 
 > $\begin{gathered} 2 x^{3} & \rightarrow 6 x^{2} \\ 3 x^{2} & \rightarrow 6 x \\ - 12 x & \rightarrow - 12 \\ 1 \rightarrow 0 \end{gathered}$
 > 
 > $\frac{dy}{dx}=6x^{2}+6x-12$
 > 
-> > *Differentiate again to find the 2*<sup>*nd*</sup>* derivative*
+> > *Differentiate again to find the 2*<sup>*nd*</sup> *derivative*
 > 
 > $\begin{gathered} 6 x^{2} & \rightarrow 12 x \\ 6 x & \rightarrow 6 \\ - 12 & \rightarrow 0 \end{gathered}$
 > 
 > $\frac{d^{2}y}{dx^{2}}=12x+6$
 > 
-> > *Find the nature of each turning point by substituting the value of its **x**-coordinate into the 2*<sup>*nd*</sup>* derivative*
+> > *Find the nature of each turning point by substituting the value of its **x**-coordinate into the 2*<sup>*nd*</sup> *derivative*
 > *A negative result indicates a maximum point (or positive for a minimum point)*
 > 
-> *For (-2, 21):   *$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( - 2 ) + 6 = - 18$
+> *For (-2, 21):* $\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( - 2 ) + 6 = - 18$
 > 
 > **Final answer:** **The second derivative is negative, therefore the turning point at (-2, 21) is a maximum point**
 > 
-> *For (1, -6):   *$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( 1 ) + 6 = 18$
+> *For (1, -6):* $\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( 1 ) + 6 = 18$
 > 
 > **Final answer:** **The second derivative is positive, therefore the turning point at (1, -6) is a minimum point**

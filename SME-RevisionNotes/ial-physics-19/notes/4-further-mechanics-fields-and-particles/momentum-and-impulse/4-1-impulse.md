@@ -35,7 +35,7 @@ guided_study: false
 
   - *I =* impulse (N s)
   - *F* = force (N)
-  - *t = *time (s)
+  - *t =* time (s)
   - Δ*p* = change in momentum (kg m s<sup>–1</sup>)
   - *m* = mass (kg)
   - *v* = final velocity (m s<sup>–1</sup>)

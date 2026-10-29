@@ -77,7 +77,7 @@ guided_study: true
 > **Final answer:** **£12 282.50**
 > 
 > > *Alternative method*
-> *Use the formula for the final amount   *$P ( 1 - \frac{r}{100} )^{n }$
+> *Use the formula for the final amount* $P ( 1 - \frac{r}{100} )^{n }$
 > *Substitute **P** = 20 000, **r** = 15 and **n** = 3 into the formula *
 > 
 > $20 000 ( 1 - \frac{15}{100} )^{3}$

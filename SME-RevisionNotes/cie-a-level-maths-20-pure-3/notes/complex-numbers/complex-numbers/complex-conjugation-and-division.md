@@ -28,10 +28,10 @@ When dividing ***complex*** numbers, we can use the **complex conjugate** to mak
   - $z+z^{*}$ is always real because $(a+bi)+(a-bi)=2a$
   
     - For example: $(6+5i)+(6-5i)=6+6+5i-5i=12$
-  - $z-z^{*}$ is always imaginary because `open parentheses a plus b straight i close parentheses minus left parenthesis a minus b straight i right parenthesis equals 2 b straight i`
+  - $z-z^{*}$ is always imaginary because `(a+b straight i)−left parenthesis a−b straight i right parenthesis=2b straight i`
   
     - For example: $(6+5i)-(6-5i)=6-6+5i-(-5i)=10i$
-  - $z\timesz^{*}$ is always real because `open parentheses a plus b straight i close parentheses open parentheses a minus b straight i close parentheses equals a squared plus a b straight i minus a b straight i minus b squared straight i squared equals a squared plus b squared` (as $i^{2}=-1$)
+  - $z\timesz^{*}$ is always real because `(a+b straight i)(a−b straight i)=a²+a b straight i−a b straight i−b² straight i²=a²+b²` (as $i^{2}=-1$)
   
     - For example: $(6+5i)(6-5i)=36+30i--30i-25i^{2}=36--25(-1)=61$
 
@@ -50,7 +50,7 @@ When dividing ***complex*** numbers, we can use the **complex conjugate** to mak
 > ![8-1-2-dividing-complex-numbers](assets/39a09dbb434f-8-1-2-dividing-complex-numbers.png)
 
 > **Exam Hint**
-> - We can speed up the process for finding $zz\ast$by using the basic pattern of `open parentheses x plus a close parentheses open parentheses x minus a close parentheses equals x squared minus a squared`
-> - We can apply this to complex numbers: `open parentheses a plus b straight i close parentheses open parentheses a minus b straight i close parentheses equals a squared minus b squared straight i squared equals a squared plus b squared`
+> - We can speed up the process for finding $zz\ast$by using the basic pattern of `(x+a)(x−a)=x²−a²`
+> - We can apply this to complex numbers: `(a+b straight i)(a−b straight i)=a²−b² straight i²=a²+b²`
 > (using the fact that $i^{2}=-1$)
 > - So $3+4i$ multiplied by its conjugate would be $3^{2}+4^{2}=25$

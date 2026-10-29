@@ -35,7 +35,7 @@ guided_study: true
   - Directed towards the equilibrium position, and hence, in the **opposite **direction to the** displacement**
   - Directly **proportional **to the** displacement**
 
-*a* ∝ −*x *
+*a* ∝ −*x*
 
 - Where:
 

@@ -165,7 +165,7 @@ Repeat STEPS 3 and 4 until **all vertices** have been **added** to the tree
 > 
 > ![prims-2](assets/819b58093b30-prims-2.png)
 > 
-> *AB (15) *
+> *AB (15)*
 > *  *
 > 
 > - *STEP 3*

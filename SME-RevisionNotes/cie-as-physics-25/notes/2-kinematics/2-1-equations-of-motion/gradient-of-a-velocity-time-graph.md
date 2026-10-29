@@ -23,8 +23,8 @@ $a c c e l e r a t i o n = \frac{ c h a n g e i n v e l o c i t y}{t i m e} = \f
 
 - Where:
 
-  - *v *= final velocity (m s<sup>–1</sup>)
-  - *u = *initial velocity (m s<sup>–1</sup>)
+  - *v* = final velocity (m s<sup>–1</sup>)
+  - *u =* initial velocity (m s<sup>–1</sup>)
   - Δ*v* = change in velocity (m s<sup>–1</sup>)
   - Δ*t* = change in time (s)
 

@@ -57,11 +57,11 @@ guided_study: true
 > - Acceleration, *a* = 9.81 m s<sup>–2</sup>
 > - Initial velocity, *u* = 0
 > - Time, *t* = 0.5 s
-> - Displacement,* s* = L = ?
+> - Displacement,*s* = L = ?
 > 
 > **Step 2: State the relevant equation of motion**
 > 
-> - The equation linking *a*, *u, *t* *and *s* is
+> - The equation linking *a*, *u,* t* *and *s* is
 > 
 > $s=ut+\frac{1}{2}at^{2}$
 > 
@@ -104,8 +104,8 @@ guided_study: true
 > **Step 5: List the known quantities for the horizontal motion**
 > 
 > - Displacement, *s* = 10 m
-> - Acceleration, *a = *0
-> - Time, *t *= 0.5 s
+> - Acceleration, *a =* 0
+> - Time, *t* = 0.5 s
 > - Initial velocity, *u* = ?
 > 
 > **Step 6: Calculate the initial velocity, *****u***

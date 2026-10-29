@@ -97,7 +97,7 @@ guided_study: false
 > 
 > > *Plot each inequality as a straight line graph with the 'unwanted' side shaded*
 > *For this problem, all lines will be solid lines*
-> *The first constraint will be the line *$y=-x+10$* (gradient -1 and *$y$*-axis intercept 10)*
+> *The first constraint will be the line* $y=-x+10$ *(gradient -1 and* $y$*-axis intercept 10)*
 > *(You may find it easier to 'see' that points like (0, 10) and (10, 0) lie on the line, which you can plot and join up)*
 > 
 > ![feasible-1](assets/b3cfb7a125bc-feasible-1.png)
@@ -106,6 +106,6 @@ guided_study: false
 > 
 > ![feasible-2](assets/e0194ce30b77-feasible-2.png)
 > 
-> > *Label the feasible region with *$R$
+> > *Label the feasible region with* $R$
 > 
 > ![feasible-3-green](assets/c5726b3ac50b-feasible-3-green.png)

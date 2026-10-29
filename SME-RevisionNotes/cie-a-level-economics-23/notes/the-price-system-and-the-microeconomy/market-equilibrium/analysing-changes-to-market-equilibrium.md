@@ -153,7 +153,7 @@ guided_study: false
   - The **excess supply** in the market has been cleared
 
 > **Exam Hint**
-> Questions frequently require you to explain **dynamic changes** in markets. Explaining the steps in the change is often referred to as '*chains of analysis' or 'reasoning', *and students frequently leave out some steps in the chain
+> Questions frequently require you to explain **dynamic changes** in markets. Explaining the steps in the change is often referred to as '*chains of analysis' or 'reasoning',* and students frequently leave out some steps in the chain
 > 
 > **Step 1:** From the scenario, identify if the change is on the **demand side** or **supply side**
 > 

@@ -31,7 +31,7 @@ $F=6πηrv$
 
   - *F* = viscous drag force (N)
   - *η* = coefficient of viscosity of the fluid (N s m<sup>−2</sup> *or* Pa s)
-  - *r *= radius of the object (m)
+  - *r* = radius of the object (m)
   - *v* = velocity of the object (m s<sup>−1</sup>)
 
 - The viscosity of a fluid can be thought of as its thickness, or how much it resists flowing
@@ -95,7 +95,7 @@ $( \frac{4}{3} \mathrm{\pi } r^{3} \rho_{s} ) g = ( \frac{4}{3} \mathrm{\pi } r^
 
 $6 \mathrm{\pi } \\eta r v_{term} = \frac{4}{3} \mathrm{\pi } r^{3} g ( \rho_{s} - \rho_{f} )$
 
-`v _ term = (4 / 3 pi r ^3 g ( rho _ s - rho _ f ))/(6 pi eta r)`
+`v_ term=(4 / 3π r ^3g (ρ _ s - ρ _ f))/(6π eta r)`
 
 $v_{term} = \frac{2 \mathrm{\pi } r^{3} g ( \rho_{s} - \rho_{f} )}{9 \mathrm{\pi } \\eta r}$
 
@@ -159,7 +159,7 @@ $v_{term} = \frac{2 r^{2} g ( \rho_{s} - \rho_{f} )}{9 \\eta }$
 > 
 > **Step 2: Sketch a free-body diagram to resolve the forces at constant speed**
 > 
-> *W*<sub>*s*</sub>* = F*<sub>*d*</sub>* + U*
+> *W*<sub>*s*</sub>*= F*<sub>*d*</sub> *+ U*
 > 
 > ![4-3-viscous-drag-worked-example-answer_edexcel-al-physics-rn](assets/4a63355e8993-4-3-viscous-drag-worked-example-answer-edexcel-a.png)
 > 

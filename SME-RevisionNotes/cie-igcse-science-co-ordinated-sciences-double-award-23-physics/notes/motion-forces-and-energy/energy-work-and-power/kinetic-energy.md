@@ -70,13 +70,13 @@ $E_{k}=\frac{1}{2}mv^{2}$
 > 
 > **Step 3: Calculate the kinetic energy**
 > 
-> `E subscript k space equals space 1 half space cross times space 1200 space cross times space open parentheses 27 close parentheses squared`
+> `E_ k=1 half×1200×(27)²`
 > 
 > $E_{k}=437400J$
 > 
 > **Step 4: Round the final answer to 2 significant figures**
 > 
-> `E subscript k space equals space 440 space 000 space straight J space open parentheses 2 space straight s. straight f. close parentheses`
+> `E_ k=440 000 straight J (2 straight s. straight f.)`
 
 > **Exam Hint**
 > When performing calculations using the kinetic energy equation, always double-check that you have squared the speed. Forgetting to do this is the most common mistake that students make.

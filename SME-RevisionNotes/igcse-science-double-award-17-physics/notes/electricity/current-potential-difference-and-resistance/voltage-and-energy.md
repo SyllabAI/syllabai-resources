@@ -64,9 +64,9 @@ $E=Q\timesV$
 
 - Where:
 
-  - *E = *energy transferred, measured in joules (J)
-  - *Q = *charge moved, measured in coulombs (C)
-  - *V = *voltage, measured in volts (V)
+  - *E =* energy transferred, measured in joules (J)
+  - *Q =* charge moved, measured in coulombs (C)
+  - *V =* voltage, measured in volts (V)
 
 - This can be rearranged using the formula triangle below:
 
@@ -87,7 +87,7 @@ $E=Q\timesV$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Voltage, *V = *6 V
+> - Voltage, *V =* 6 V
 > - Charge, *Q* = 4200 C
 > 
 > **Step 2: State the equation linking potential difference, energy and charge**
@@ -98,7 +98,7 @@ $E=Q\timesV$
 > 
 > **Step 3: Substitute the known values and calculate the energy transferred**
 > 
-> *E = *6 × 4200 = 25 200 J
+> *E =* 6 × 4200 = 25 200 J
 > 
 > - Therefore, **25 200 J** of energy is transferred in the lamp
 

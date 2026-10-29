@@ -203,7 +203,7 @@ $P=I^{2}R$
 
   - *P* = power, in watts (W)
   - *I* = current, in amps (A)
-  - *R = *resistance, in ohms (Ω)
+  - *R =* resistance, in ohms (Ω)
 
 - A **step-up** transformer is used to increase the voltage and decrease the current of electricity **before **transmission
 

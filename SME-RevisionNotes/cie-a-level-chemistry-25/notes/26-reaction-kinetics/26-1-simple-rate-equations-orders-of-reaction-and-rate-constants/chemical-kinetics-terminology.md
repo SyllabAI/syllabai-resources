@@ -240,7 +240,7 @@ $\mathrm{Rate} \mathrm{of} \mathrm{reaction}=\frac{\mathrm{change} \mathrm{in} \
 
 - The **rate-determining step **is the slowest step in a reaction
 - If a reactant appears in the **rate-determining step**, then the concentration of that reactant will also appear in the **rate equation**
-- For example, the rate equation for the reaction below is **rate **= *k *[CH<sub>3</sub>Br] [OH<sup>–</sup>]
+- For example, the rate equation for the reaction below is **rate **= *k* [CH<sub>3</sub>Br] [OH<sup>–</sup>]
 
 **CH**<sub>**3**</sub>**Br + OH**<sup>**–**</sup>** → CH**<sub>**3**</sub>**OH + Br**<sup>**–**</sup>
 

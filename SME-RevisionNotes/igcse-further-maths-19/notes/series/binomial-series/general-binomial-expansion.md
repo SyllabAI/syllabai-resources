@@ -97,13 +97,13 @@ guided_study: false
 > 
 > $\begin{gathered} ( 9 - 3 x )^{- 1 \frac{1}{2}} & = ( 9^{- 1 \frac{1}{2}} ) ( 1 - \frac{3}{9} x )^{- 1 \frac{1}{2}} \\ = 1 \frac{1}{3} ( 1 - \frac{x}{3} )^{- 1 \frac{1}{2}} \end{gathered}$
 > 
-> > *Now use the binomial series formula to expand *$( 1 - \frac{x}{3} )^{- 1 \frac{1}{2}}$
+> > *Now use the binomial series formula to expand* $( 1 - \frac{x}{3} )^{- 1 \frac{1}{2}}$
 > 
-> > *Use *$n=\frac{1}{2}$* and substitute  *$-\frac{x}{3}$* everywhere that *$x$* appears in the formula*
+> > *Use* $n=\frac{1}{2}$ *and substitute* $-\frac{x}{3}$ *everywhere that* $x$ *appears in the formula*
 > 
 > > `| ( 1 - x / 3 ) ^ - 1 half | = 1 + ( - 1 half ) ( - x / 3 ) + (( - 1 half ) ( - 1 half - 1 ))/(2 factorial) ( - x / 3 ) ^2 + (( - 1 half ) ( - 1 half - 1 ) ( - 1 half - 2 ))/(3 factorial) ( - x / 3 ) ^3 +... | | _ = 1 + 1 / 6 x + (( - 1 half ) ( - 3 / 2 ))/(2) ( x ^2 / 9 ) + (( - 1 half ) ( - 3 / 2 ) ( - 5 / 2 ))/(6) ( - x ^3 / 27 ) +... | | _ = 1 + 1 / 6 x + (( 3 / 4 ))/(2) ( x ^2 / 9 ) + (( - 15 / 8 ))/(6) ( - x ^3 / 27 ) +... | | _ = 1 + 1 / 6 x + ( 3 / 8 ) ( x ^2 / 9 ) + ( - 5 / 16 ) ( - x ^3 / 27 ) +... | | _ = 1 + 1 / 6 x + 1 / 24 x ^2 + 5 / 432 x ^3 +... | |`
 > 
-> *Now don't forget to multiply by *$\frac{1}{3}$* (factorised out earlier) to get the final answer!*
+> *Now don't forget to multiply by* $\frac{1}{3}$ *(factorised out earlier) to get the final answer!*
 > 
 > $\frac{1}{ \sqrt{9 - 3 x} } = 1 \frac{1}{3} ( \begin{array}{rcl} 1 + \frac{1}{6} x + \frac{1}{24} x^{2} + \frac{5}{432} x^{3} +... \end{array} )$
 > 
@@ -111,9 +111,9 @@ guided_study: false
 > 
 > (b) Find the interval of convergence for the expansion in part (a).
 > 
-> > *Remember that we used  *$-\frac{x}{3}$* in place of *$x$* when we used the binomial series formula*
+> > *Remember that we used* $-\frac{x}{3}$ *in place of* $x$ *when we used the binomial series formula*
 > 
-> > *We also need to substitute  *$-\frac{x}{3}$* into the standard convergence interval  *`open vertical bar x close vertical bar less than 1`
+> > *We also need to substitute* $-\frac{x}{3}$ *into the standard convergence interval* `open vertical bar x close vertical bar less than 1`
 > 
 > `open vertical bar negative x over 3 close vertical bar less than 1
 > 1 third open vertical bar x close vertical bar less than 1

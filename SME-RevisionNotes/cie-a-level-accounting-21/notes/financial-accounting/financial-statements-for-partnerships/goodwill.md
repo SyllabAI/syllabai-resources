@@ -55,7 +55,7 @@ guided_study: false
   - change in the partners' profit-sharing ratio
   - introduction of a new partner
   - retirement of an existing partner
-  - *dissolution *of a partnership
+  - *dissolution* of a partnership
 - The **partners' capital** accounts are adjusted so that the goodwill account can be immediately written off
 
   - The value of the goodwill is **added **to the partners' capital accounts using the **old **profit-sharing ratio
@@ -118,15 +118,15 @@ guided_study: false
 > 
 > Calculate the share of the goodwill using the old ratio
 > 
-> *Tom: *$\$ 74 000 \div 2 = \$ 37 000$
+> *Tom:* $\$ 74 000 \div 2 = \$ 37 000$
 > 
-> *Jerry: *$\$ 74 000 \div 2 = \$ 37 000$
+> *Jerry:* $\$ 74 000 \div 2 = \$ 37 000$
 > 
 > Calculate the share of the goodwill using the new ratio
 > 
-> *Tom: *$\$ 74 000 \times 40 \% = \$ 29 600$
+> *Tom:* $\$ 74 000 \times 40 \% = \$ 29 600$
 > 
-> *Jerry: *$\$ 74 000 \times 60 \% = \$ 44 400$
+> *Jerry:* $\$ 74 000 \times 60 \% = \$ 44 400$
 > 
 > Calculate the new capital balances
 > 

@@ -22,7 +22,7 @@ guided_study: true
 - E(X)is the **expected** **value**, or **mean**, of a **random** **variable X**
 
   - E(X) is the same as the population mean so can also be denoted by *µ*
-- **Var (X) **is the **variance** of the continuous random variable* X*
+- **Var (X) **is the **variance** of the continuous random variable *X*
 
   - **Standard** **deviation** is the **square** **root** of the **variance**
 

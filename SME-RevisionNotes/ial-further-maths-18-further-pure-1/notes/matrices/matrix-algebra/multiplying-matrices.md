@@ -102,7 +102,7 @@ guided_study: false
 > 
 > (a)  $\mathrm{PQ}$
 > 
-> > *Write out *$\mathrm{PQ}$* in full*
+> > *Write out* $\mathrm{PQ}$ *in full*
 > 
 > $( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} ) \times ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$
 > 
@@ -116,11 +116,11 @@ guided_study: false
 > 
 > (b)  $\mathrm{PR}$
 > 
-> > *Write out *$\mathrm{PR}$* in full*
+> > *Write out* $\mathrm{PR}$ *in full*
 > 
 > $( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} ) \times ( \begin{gathered} 10 - 1 & 4 \\ 8 0 5 \end{gathered} )$
 > 
-> > *The order (dimensions) agree, as *$P$* has 2 columns and *$R$* has 2 rows*
+> > *The order (dimensions) agree, as* $P$ *has 2 columns and* $R$ *has 2 rows*
 > *Multiply the matrices*
 > 
 > $( \begin{gathered} ( 3 \times 10 + 1 \times 8 ) & ( 3 \times - 1 + 1 \times 0 ) & ( 3 \times 4 + 1 \times 5 ) \\ ( - 2 \times 10 + 0 \times 8 ) & ( - 2 \times - 1 + 0 \times 0 ) & ( - 2 \times 4 + 0 \times 5 ) \end{gathered} )$
@@ -131,7 +131,7 @@ guided_study: false
 > 
 > (c)  $Q^{2}$
 > 
-> > *Write out *$Q^{2}$* as *$Q\timesQ$
+> > *Write out* $Q^{2}$ *as* $Q\timesQ$
 > 
 > $( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} ) \times ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$
 > 
@@ -145,7 +145,7 @@ guided_study: false
 > 
 > (d)  Explain why the matrix $\mathrm{RP}$ does not exist.
 > 
-> > *An *$m\timesn$*  matrix can only be multiplied by an *$n\timesp$*  matrix*
+> > *An* $m\timesn$ *matrix can only be multiplied by an* $n\timesp$ *matrix*
 > 
 > **Final answer:** **The order (dimensions) do not agree, as **$R$** has 3 columns but **$P$** has 2 rows**
 
@@ -178,7 +178,7 @@ guided_study: false
 > **Worked Example**
 > If $A = ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} )$ show that $A^{2}=4I$.
 > 
-> > *Write out *$A^{2}$* as *$A\timesA$
+> > *Write out* $A^{2}$ *as* $A\timesA$
 > 
 > $( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) \times ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} )$
 > 
@@ -186,6 +186,6 @@ guided_study: false
 > 
 > $\begin{gathered} ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) \times ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) & = ( \begin{gathered} ( 0 \times 0 + 2 \times 2 ) & ( 0 \times 2 + 2 \times 0 ) \\ ( 2 \times 0 + 0 \times 2 ) & ( 2 \times 2 + 0 \times 0 ) \end{gathered} ) \\ = ( \begin{gathered} 4 0 \\ 0 4 \end{gathered} ) \end{gathered}$
 > 
-> > *Write in terms of the identity matrix, *$I = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$* **by factorising out 4*
+> > *Write in terms of the identity matrix,* $I = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$* **by factorising out 4*
 > 
 > $( \begin{gathered} 4 0 \\ 0 4 \end{gathered} ) = 4 ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) = 4 I$

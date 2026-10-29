@@ -103,4 +103,4 @@ guided_study: false
 > **Exam Hint**
 > The Δ*H*<sub>*f*</sub><sup>Ꝋ </sup>of an **element** in its standard state is zero.
 > 
-> For example, Δ*H*<sub>*f *</sub><sup>*Ꝋ *</sup>of O<sub>2</sub>(g) is 0 kJ mol<sup>-1</sup>
+> For example, Δ*H*<sub>*f* </sub><sup>*Ꝋ* </sup>of O<sub>2</sub>(g) is 0 kJ mol<sup>-1</sup>

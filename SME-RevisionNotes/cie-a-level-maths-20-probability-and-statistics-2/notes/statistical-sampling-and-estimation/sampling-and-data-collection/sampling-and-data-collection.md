@@ -71,7 +71,7 @@ Collecting data about the length of vehicles by only collecting data about cars 
 - For **random** **sampling**, **every** member of the population has an **equal** **probability** of being selected
 
   - A **sampling** **frame** is essential for a **simple** **random** **sample**
-  - **Simple random sampling **is one method of random sampling - this is where every possible sample of size *n *has an equal probability of being selected as the sample
+  - **Simple random sampling **is one method of random sampling - this is where every possible sample of size *n* has an equal probability of being selected as the sample
 - In **random** **sampling**, every member of the population has a** non-zero** **probability** of being selected
 
 #### How do I use random numbers or tables?

@@ -129,7 +129,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Some consumers benefit from lower prices, especially those who are more* price-sensitive* (e.g. students or pensioners)<br>- In some cases, higher prices reduce demand, which can be positive if it improves the service<br><br>  - e.g. train services may be less crowded<br>- Total revenue increases, as the firm can charge different prices to different groups based on their willingness to pay<br>- Can help cover *fixed costs* and support services that may not survive under a single price model | - Many consumers lose out by paying higher prices than others for the same product or service<br>- Can be seen as unfair if those paying more receive no extra benefit<br>- Setting up and enforcing price discrimination, such as requiring ID or monitoring purchase patterns, can increase average costs and require more complex IT systems |
+| - Some consumers benefit from lower prices, especially those who are more *price-sensitive* (e.g. students or pensioners)<br>- In some cases, higher prices reduce demand, which can be positive if it improves the service<br><br>  - e.g. train services may be less crowded<br>- Total revenue increases, as the firm can charge different prices to different groups based on their willingness to pay<br>- Can help cover *fixed costs* and support services that may not survive under a single price model | - Many consumers lose out by paying higher prices than others for the same product or service<br>- Can be seen as unfair if those paying more receive no extra benefit<br>- Setting up and enforcing price discrimination, such as requiring ID or monitoring purchase patterns, can increase average costs and require more complex IT systems |
 
 ## Dynamic pricing
 

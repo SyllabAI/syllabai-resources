@@ -60,7 +60,7 @@ guided_study: false
 |---|---|---|
 | **Sustainable differentiation** | - Core competencies give a business a unique strength that rivals find hard to copy, so its products stand out in the market | - **Lego** uses its creative design skills and partnerships to develop ranges, such as Star Wars and Harry Potter sets, offering toys no other company can match |
 | **Cost efficiency and scale** | - Streamlined processes and shared know-how lower the *unit cost*, enabling the business to produce more cheaply | - **McDonald’s** standardised kitchen layouts, cooking methods and training mean it can serve millions of burgers at low cost worldwide |
-| **Easier market expansion** | - Core competencies can be applied to launch new products or enter new markets quickly and with greater confidence | - **Unilever** uses its expertise in branding and *distribution *to introduce items like Dove deodorant or Ben & Jerry’s ice cream into new markets |
+| **Easier market expansion** | - Core competencies can be applied to launch new products or enter new markets quickly and with greater confidence | - **Unilever** uses its expertise in branding and *distribution* to introduce items like Dove deodorant or Ben & Jerry’s ice cream into new markets |
 | **Continuous innovation** | - A strong core competence encourages ongoing *R&D* and experimentation, keeping the business ahead of changing trends | - **3M’s** innovation culture has produced inventions from Post-it Notes to advanced medical tape, helping it stay relevant over decades |
 
 ### Problems with developing core competencies

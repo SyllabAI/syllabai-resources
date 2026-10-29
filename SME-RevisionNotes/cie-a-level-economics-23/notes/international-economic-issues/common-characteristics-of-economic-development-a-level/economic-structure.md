@@ -46,7 +46,7 @@ guided_study: false
 
 - The boundaries between sectors are not always clear
 
-  - *Agro-processing *sits between primary and secondary
+  - *Agro-processing* sits between primary and secondary
   - Financial services linked to commodity exports blur further distinctions
 - Employment shares do not capture productivity differences
 

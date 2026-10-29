@@ -53,19 +53,19 @@ guided_study: false
 > 
 > $\sec ^{2} x ( \cot ^{2} x - \cos ^{2} x ) = \cot ^{2 } x$
 > 
-> > *Use the definitions of *$\mathrm{sec}x=\frac{1}{\mathrm{cos}x}$* and *$\mathrm{cot}x=\frac{1}{\mathrm{tan}x}=\frac{\mathrm{cos}x}{\mathrm{sin}x}$*, to rewrite the left hand side*
+> > *Use the definitions of* $\mathrm{sec}x=\frac{1}{\mathrm{cos}x}$ *and* $\mathrm{cot}x=\frac{1}{\mathrm{tan}x}=\frac{\mathrm{cos}x}{\mathrm{sin}x}$*, to rewrite the left hand side*
 > 
 > $\frac{1}{\cos ^{2} x} ( \frac{\cos ^{2} x}{\sin ^{2} x} - \cos ^{2} x )$
 > 
-> > *Expand the brackets, using the fact that multiplying by *$\frac{1}{\mathrm{cos}^{2}x}$* is the same as dividing by *$\mathrm{cos}^{2}x$
+> > *Expand the brackets, using the fact that multiplying by* $\frac{1}{\mathrm{cos}^{2}x}$ *is the same as dividing by* $\mathrm{cos}^{2}x$
 > 
 > $\frac{1}{\mathrm{sin}^{2}x}-1$
 > 
-> > *Use the definition of *$\mathrm{cosec}x=\frac{1}{\mathrm{sin}x}$* to rewrite the expression*
+> > *Use the definition of* $\mathrm{cosec}x=\frac{1}{\mathrm{sin}x}$ *to rewrite the expression*
 > 
 > $\mathrm{cosec}^{2}x-1$
 > 
-> > *Use the identity *$1+\mathrm{cot}^{2}x=\mathrm{cosec}^{2}x$* to rewrite the expression*
+> > *Use the identity* $1+\mathrm{cot}^{2}x=\mathrm{cosec}^{2}x$ *to rewrite the expression*
 > 
 > $1+\mathrm{cot}^{2}x-1$
 > 

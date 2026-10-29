@@ -196,7 +196,7 @@
    "alt": "fraction numerator d u over denominator d x end fraction equals a"
   },
   {
-   "latex": "\\frac{dy}{du}=nu^{n-1}",
+   "latex": "\\frac{dy}{du}=\\nu^{n-1}",
    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>u</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msup><mi>u</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
    "alt": "fraction numerator d y over denominator d u end fraction equals n u to the power of n minus 1 end exponent"
   },
@@ -452,7 +452,7 @@
   },
   {
    "type": "bullets",
-   "md": "- For *n = 2* you will most likely **expand the brackets** and differentiate each term separately\n- If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely\n- The chain rule allows us to use **substitution** to differentiate any function in the form *y* = (*ax* + *b*)<sup>n</sup>\n\n  - Let *u = ax + b, *then *y = u*<sup>*n*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=nu^{n-1}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\timesnu^{n-1}=anu^{n-1}$\n  - **Substitute** *u = ax + b *back into your answer\n  \n    - $\\frac{dy}{dx}=an(ax+b)^{n-1}$"
+   "md": "- For *n = 2* you will most likely **expand the brackets** and differentiate each term separately\n- If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely\n- The chain rule allows us to use **substitution** to differentiate any function in the form *y* = (*ax* + *b*)<sup>n</sup>\n\n  - Let *u = ax + b,* then *y = u*<sup>*n*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=\\nu^{n-1}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\timesnu^{n-1}=anu^{n-1}$\n  - **Substitute** *u = ax + b* back into your answer\n  \n    - $\\frac{dy}{dx}=an(ax+b)^{n-1}$"
   },
   {
    "type": "heading",
@@ -461,7 +461,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The chain rule allows us to use **substitution** to differentiate any function in the form $y=\\sqrt{ax+b}$\n- Rewrite $\\sqrt{ax+b}=(ax+b)^{\\frac{1}{2}}$\n\n  - Let *u = ax + b, *then *y = u*<sup>*½*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=\\frac{1}{2}u^{-\\frac{1}{2}}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\times\\frac{1}{2}u^{-\\frac{1}{2}}=\\frac{a}{2}u^{-\\frac{1}{2}}$\n  - **Substitute** *u = ax + b *back into your answer\n  \n    - $\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = \\frac{a}{2} ( a x + b )^{- 1 \\frac{1}{2}} = \\frac{a}{2 \\sqrt{a x + b} }$\n- This method can be used for any **fractional power** of any linear or non-linear expression\n\n  - Provided you know how to differentiate the non-linear expression"
+   "md": "- The chain rule allows us to use **substitution** to differentiate any function in the form $y=\\sqrt{ax+b}$\n- Rewrite $\\sqrt{ax+b}=(ax+b)^{\\frac{1}{2}}$\n\n  - Let *u = ax + b,* then *y = u*<sup>*½*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=\\frac{1}{2}u^{-\\frac{1}{2}}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\times\\frac{1}{2}u^{-\\frac{1}{2}}=\\frac{a}{2}u^{-\\frac{1}{2}}$\n  - **Substitute** *u = ax + b* back into your answer\n  \n    - $\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = \\frac{a}{2} ( a x + b )^{- 1 \\frac{1}{2}} = \\frac{a}{2 \\sqrt{a x + b} }$\n- This method can be used for any **fractional power** of any linear or non-linear expression\n\n  - Provided you know how to differentiate the non-linear expression"
   },
   {
    "type": "heading",
@@ -486,7 +486,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "a) Find the derivative of$y=(x^{2}-5x+7)^{7}$.\n\n> *STEP 1   Identify the two functions and rewrite*\n\n> $y=u^{7}$*           *$u=x^{2}-5x+7$\n\n> *STEP 2   Find *$\\frac{dy}{du}$* and *$\\frac{du}{dx}$\n\n> $\\frac{dy}{du}=7u^{6}$*         *$\\frac{du}{dx}=2x-5$\n\n> *STEP 3   Apply the chain rule, *$\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}$\n\n$\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = 7 u^{6} ( 2 x - 5 )$\n\n> *Substitute *$u$* in terms of *$x$* back in*\n\n$= 7 ( x^{2} - 5 x + 7 )^{6} ( 2 x - 5 )$\n\n$\\frac{dy}{dx}=7(2x-5)(x^{2}-5x+7)^{6}$\n\nb) Find the derivative of$y=\\mathrm{sin}(e^{2x})$.\n\n> *(In this solution, we will be applying the mental method discussed in the Exam Tip above)*\n\n> *\"... differentiate *`sin box _`*, ignore *$e^{2x}$*\"*\n\n`( d y)/( d x) = cos ( e ^ 2 x ) x box`\n\n> *\"... multiply by the derivative of *$e^{2x}$*\": differentiate *$e^{2x}$* using the result \"if *$y=e^{f(x)}$*, then *$\\frac{dy}{dx}=f^{'}(x)e^{f(x)}$*\"*\n\n$\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = \\cos ( \\mathrm{e}^{2 x} ) \\times 2 \\mathrm{e}^{2 x}$\n\n$\\frac{dy}{dx}=2e^{2x}\\mathrm{cos}(e^{2x})$"
+   "md": "a) Find the derivative of$y=(x^{2}-5x+7)^{7}$.\n\n> *STEP 1   Identify the two functions and rewrite*\n\n> $y=u^{7}$*           *$u=x^{2}-5x+7$\n\n> *STEP 2   Find* $\\frac{dy}{du}$ *and* $\\frac{du}{dx}$\n\n> $\\frac{dy}{du}=7u^{6}$*         *$\\frac{du}{dx}=2x-5$\n\n> *STEP 3   Apply the chain rule,* $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}$\n\n$\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = 7 u^{6} ( 2 x - 5 )$\n\n> *Substitute* $u$ *in terms of* $x$ *back in*\n\n$= 7 ( x^{2} - 5 x + 7 )^{6} ( 2 x - 5 )$\n\n$\\frac{dy}{dx}=7(2x-5)(x^{2}-5x+7)^{6}$\n\nb) Find the derivative of$y=\\mathrm{sin}(e^{2x})$.\n\n> *(In this solution, we will be applying the mental method discussed in the Exam Tip above)*\n\n> *\"... differentiate* `sin box _`*, ignore* $e^{2x}$*\"*\n\n`( d y)/( d x) = cos ( e ^ 2 x ) x box`\n\n> *\"... multiply by the derivative of* $e^{2x}$*\": differentiate* $e^{2x}$ *using the result \"if* $y=e^{f(x)}$*, then* $\\frac{dy}{dx}=f^{'}(x)e^{f(x)}$*\"*\n\n$\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = \\cos ( \\mathrm{e}^{2 x} ) \\times 2 \\mathrm{e}^{2 x}$\n\n$\\frac{dy}{dx}=2e^{2x}\\mathrm{cos}(e^{2x})$"
   }
  ]
 }

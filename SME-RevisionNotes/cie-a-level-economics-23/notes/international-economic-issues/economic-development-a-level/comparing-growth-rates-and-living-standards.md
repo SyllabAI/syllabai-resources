@@ -34,7 +34,7 @@ guided_study: false
   - **Environmental degradation** accumulates
   
     - Sustained growth may be achieved at the cost of *resource depletion* and pollution not captured in GDP figures
-- The most reliable time-series comparisons use *PPP-adjusted* real GNI per capita alongside non-monetary indicators such as *life expectancy* and *literacy *to check whether income gains are translating into genuine welfare improvements
+- The most reliable time-series comparisons use *PPP-adjusted* real GNI per capita alongside non-monetary indicators such as *life expectancy* and *literacy* to check whether income gains are translating into genuine welfare improvements
 
 ## Comparisons between countries
 
@@ -63,7 +63,7 @@ guided_study: false
 > **Actions taken**
 > 
 > - Vietnam pursued *export-oriented manufacturing* following its Doi Moi reforms, attracting *FDI* into electronics, textiles and footwear - growth broadly distributed across the workforce and supported by public investment in healthcare and education
-> - The Philippines relied more heavily on *remittances *and business process *outsourcing *- a model that raised incomes for a relatively narrow urban and skilled segment while leaving agricultural and *informal workers* behind
+> - The Philippines relied more heavily on *remittances* and business process *outsourcing* - a model that raised incomes for a relatively narrow urban and skilled segment while leaving agricultural and *informal workers* behind
 > 
 > **Outcomes**
 > 

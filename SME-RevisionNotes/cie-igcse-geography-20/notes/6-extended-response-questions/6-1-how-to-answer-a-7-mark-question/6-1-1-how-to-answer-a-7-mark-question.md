@@ -65,7 +65,7 @@ guided_study: false
 
 *‘For a named country you have studied, explain why the natural population growth rate is low.’*
 
-*Or *
+*Or*
 
 *‘For a named urban area you have studied, describe the problems which are caused by urban sprawl ’*
 

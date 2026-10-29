@@ -47,8 +47,8 @@ guided_study: false
 | **Increased profit** | - MNCs often make large profits, some of which are sent back to their home country<br>- However, some use *offshore bank accounts* and do not return profits home |
 | **New markets** | - MNCs can enter new markets in different countries, which increases sales and spreads risk across multiple regions |
 | **Transportation costs** | - Setting up production facilities closer to customers reduces transportation costs and speeds up delivery times |
-| **Risk management** | - Selling in many countries reduces the risk of overall business failure<br>- For example, if Egypt enters a *recession *and sales fall there, rising sales in a strong German market may offset the losses |
-| **Tax incentives** | - MNCs may increase profits by locating in countries with low *corporation tax *or where *tax breaks* are offered |
+| **Risk management** | - Selling in many countries reduces the risk of overall business failure<br>- For example, if Egypt enters a *recession* and sales fall there, rising sales in a strong German market may offset the losses |
+| **Tax incentives** | - MNCs may increase profits by locating in countries with low *corporation tax* or where *tax breaks* are offered |
 | **Avoidance of protectionism** | - MNCs can avoid import tariffs by setting up production in countries with *protectionist policies*<br>- For example, a Chinese MNC might open a factory in the USA to avoid tariffs on Chinese exports |
 
 ## Advantages to a country of hosting a multinational company
@@ -106,7 +106,7 @@ investment"
 #### Tax revenue
 
 - There is the potential for the host country to earn significant *tax revenue* from MNCs
-- Governments can use this to invest in improving public services and *infrastructure *
+- Governments can use this to invest in improving public services and *infrastructure*
 
 ## Disadvantages to a country of hosting a multinational company
 

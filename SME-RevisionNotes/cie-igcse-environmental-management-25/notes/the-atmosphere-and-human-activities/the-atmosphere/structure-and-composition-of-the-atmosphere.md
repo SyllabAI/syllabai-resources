@@ -38,7 +38,7 @@ guided_study: false
 
 *The gaseous composition of the Earth's atmosphere*
 
-- The atmosphere also contains* aerosols* and fine particles such as dust, salt, sand and volcanic ash
+- The atmosphere also contains *aerosols* and fine particles such as dust, salt, sand and volcanic ash
 
 | Component | Percentage % | Importance |
 |---|---|---|

@@ -64,17 +64,17 @@ guided_study: false
 5. Read and record the mass of each beaker of water on each electronic balance
 6. Repeat the experiment at least 3 times and calculate the average mass, *m* for the water in each beaker
 
-  - *m*<sub>*A *</sub>*= *average mass of water in beaker A
-  - *m*<sub>*B *</sub>*= *average mass of water in beaker B
+  - *m*<sub>*A* </sub>*=* average mass of water in beaker A
+  - *m*<sub>*B* </sub>*=* average mass of water in beaker B
 7. Calculate the mass of the melted ice and convert into kg
 
-  - Δ*m*<sub>* *</sub>= *m*<sub>*A *</sub>- *m*<sub>*B*</sub>
+  - Δ*m*<sub>* *</sub>= *m*<sub>*A* </sub>- *m*<sub>*B*</sub>
   - Mass in g ÷ 1000 = Mass in kg
 8. Calculate the specific latent heat of fusion of ice to water using the equation **Δ*****E = L*****Δ*****m*** $L=\frac{ΔE}{Δm}$
 
   - Δ*E**** ***= Energy supplied by the heater = 10 000 J
   - *L* = Specific latent heat of fusion
-  - Δ*m *= mass of ice
+  - Δ*m* = mass of ice
 
 #### Sample Results Table:
 
@@ -142,6 +142,6 @@ guided_study: false
 > 
 >   - Δ*E**** ***= Energy supplied by the heater = 10, 000 J
 >   - *L* = Specific latent heat of fusion
->   - Δ*m *= mass of ice
+>   - Δ*m* = mass of ice
 >   - Rearrange the equation** **$L=\frac{ΔE}{Δm}$
 >   - So,** **$L=\frac{10000}{0.03}$ = 340136 J kg<sup>-1 </sup>= 340 000 J

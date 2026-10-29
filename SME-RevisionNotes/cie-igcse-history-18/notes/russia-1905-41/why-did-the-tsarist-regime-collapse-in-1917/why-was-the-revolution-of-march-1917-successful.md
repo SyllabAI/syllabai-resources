@@ -13,7 +13,7 @@ guided_study: false
 
 ## Was the March Revolution Inevitable? - Summary
 
-Historians debate whether it was *inevitable* that the *tsar *would *abdicate* in March 1917. A significant factor was the [First World War](https://www.savemyexams.com/igcse/history/cie/18/revision-notes/russia-1905-41/why-did-the-tsarist-regime-collapse-in-1917/did-the-first-world-war-weaken-the-tsar/). The conflict created **poor conditions** in Russia. **Food and fuel shortages caused mass protests in Moscow and Petrograd.** With a proper government, these issues may have been solvable. However, Tsar Nicholas' command of the army left Russia without a leader. *Tsarina* Alexandra and Rasputin ran a** chaotic government** with multiple changes of ministers. **Local needs were not being met. **The** ******zemstva******* *****took more responsibility **than the government for the health and safety of the Russian people.
+Historians debate whether it was *inevitable* that the *tsar* would *abdicate* in March 1917. A significant factor was the [First World War](https://www.savemyexams.com/igcse/history/cie/18/revision-notes/russia-1905-41/why-did-the-tsarist-regime-collapse-in-1917/did-the-first-world-war-weaken-the-tsar/). The conflict created **poor conditions** in Russia. **Food and fuel shortages caused mass protests in Moscow and Petrograd.** With a proper government, these issues may have been solvable. However, Tsar Nicholas' command of the army left Russia without a leader. *Tsarina* Alexandra and Rasputin ran a** chaotic government** with multiple changes of ministers. **Local needs were not being met. **The** ******zemstva******* *****took more responsibility **than the government for the health and safety of the Russian people.
 
 Some historians argue that the First World War only dictated the timing of the March Revolution. They argue that **Tsarist Russia had unresolvable issues**. The misuse of the army, the empire's economic backwardness and the mix of *nationalities* would cause a revolution eventually. **The First World War sped up when this revolution would occur.**
 
@@ -99,7 +99,7 @@ Some historians argue that the First World War only dictated the timing of the M
 - After Nicholas' abdication, there was confusion about who would rule Russia
 
   - **Nicholas' brother refused the position, ending 300 years of the Romanov dynasty**
-  - Both the *duma *and the Petrograd Soviet wanted power
+  - Both the *duma* and the Petrograd Soviet wanted power
 - After the March 1917 Revolution, a system of **Dual Power** replaced the Tsarist government
 
 ![Diagram of Russian dual power structure, showing Provisional Government with Prince Lvov and Petrograd Soviet with workers and army representatives.](../../../assets/460e2fec31c4-48374-httpscdn-savemyexams-comuploads2025067725-.png)

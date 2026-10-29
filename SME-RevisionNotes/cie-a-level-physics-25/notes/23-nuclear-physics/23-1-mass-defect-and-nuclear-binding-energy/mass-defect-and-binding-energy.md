@@ -87,9 +87,9 @@ $E=\Deltamc^{2}$
 > 
 > **Step 2: Calculate the mass defect, ∆*****m***
 > 
-> - Proton mass,* m*<sub>p</sub>* *= 1.007 276 u
-> - Neutron mass,* m*<sub>n</sub>* *= 1.008 665 u
-> - Mass of K-40,* m*<sub>total</sub>* *= 39.953 548 u
+> - Proton mass,*m*<sub>p</sub>* *= 1.007 276 u
+> - Neutron mass,*m*<sub>n</sub>* *= 1.008 665 u
+> - Mass of K-40,*m*<sub>total</sub>* *= 39.953 548 u
 > 
 > $\Deltam=Zm_{p}+Nm_{n}-m_{total}$
 > 

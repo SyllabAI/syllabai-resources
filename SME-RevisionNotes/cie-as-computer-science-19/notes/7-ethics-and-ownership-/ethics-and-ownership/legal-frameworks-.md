@@ -64,7 +64,7 @@ guided_study: false
 > 
 > - Make sure that you specify that the Copyright Design and Patents Act covers original work and is automatically applied from the creation of the work, then talk about what this means for the distribution of the work. For example:
 > 
->   - *The work was protected by the Copyright Designs and Patents act when it was created. Therefore if anyone wishes to distribute it they have to gain the owner’s permission, if they just posted it to the internet then this would be in breach of the act. *
+>   - *The work was protected by the Copyright Designs and Patents act when it was created. Therefore if anyone wishes to distribute it they have to gain the owner’s permission, if they just posted it to the internet then this would be in breach of the act.*
 > - Also when referring to the name of the act, ensure you use its full name (The Copyright, Designs and Patents Act). It's not called the Copyright Act. If you use a shortened version it may cost you marks in the exam
 
 ## Software licensing

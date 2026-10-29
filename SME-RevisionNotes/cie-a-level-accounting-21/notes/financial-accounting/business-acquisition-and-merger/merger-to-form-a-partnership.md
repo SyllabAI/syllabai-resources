@@ -125,9 +125,9 @@ Calculate the **new capital balances** for all the partners
 > 
 > Share the goodwill in the old ratio between Ali and Ben
 > 
-> *Ali: *$\frac{3}{5} \times \$ 160 000 = \$ 96 000$
+> *Ali:* $\frac{3}{5} \times \$ 160 000 = \$ 96 000$
 > 
-> *Ben: *$\frac{2}{5} \times \$ 160 000 = \$ 64 000$
+> *Ben:* $\frac{2}{5} \times \$ 160 000 = \$ 64 000$
 > 
 > Calculate the total goodwill
 > 
@@ -135,11 +135,11 @@ Calculate the **new capital balances** for all the partners
 > 
 > Share the goodwill in the new ratio between Ali, Ben and Chloe
 > 
-> *Ali: *$40 \% \times \$ 210 000 = \$ 84 000$
+> *Ali:* $40 \% \times \$ 210 000 = \$ 84 000$
 > 
-> *Ben: *$30 \% \times \$ 210 000 = \$ 63 000$
+> *Ben:* $30 \% \times \$ 210 000 = \$ 63 000$
 > 
-> *Chloe: *$30 \% \times \$ 210 000 = \$ 63 000$
+> *Chloe:* $30 \% \times \$ 210 000 = \$ 63 000$
 > 
 > Calculate the net profit or loss on revaluation for Ali and Ben
 > 
@@ -151,9 +151,9 @@ Calculate the **new capital balances** for all the partners
 > 
 > Share this in the old ratio
 > 
-> *Ali: *$\frac{3}{5} \times \$ 25 000 = \$ 15 000$
+> *Ali:* $\frac{3}{5} \times \$ 25 000 = \$ 15 000$
 > 
-> *Ben: *$\frac{2}{5} \times \$ 25 000 = \$ 10 000$
+> *Ben:* $\frac{2}{5} \times \$ 25 000 = \$ 10 000$
 > 
 > Calculate the net profit or loss on revaluation for Chloe
 > 

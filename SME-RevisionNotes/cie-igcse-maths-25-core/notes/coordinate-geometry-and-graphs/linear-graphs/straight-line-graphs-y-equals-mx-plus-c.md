@@ -44,7 +44,7 @@ guided_study: true
 - Read off the ***y*****-intercept** from the graph
 
   - Where it cuts the *y*-axis
-- **Substitute **these values into *y*  = *mx  *+* c*
+- **Substitute **these values into *y*  = *mx* + *c*
 
 ### What if no y-intercept is shown?
 
@@ -57,22 +57,22 @@ guided_study: true
 
   - The *y*-intercept is unknown
   
-    - Write *y*  = 6*x*  +* c*
+    - Write *y*  = 6*x*  + *c*
   - Substitute in *x*  = 2 and *y*  = 15
   
     - 15 = 6 × 2 + *c*
     - 15 = 12 + *c*
   - Solve for *c*
   
-    - *c * = 3
-  - The equation is *y * = 6*x*  + 3
+    - *c* = 3
+  - The equation is *y* = 6*x*  + 3
 
 ### What are the equations of horizontal and vertical lines?
 
 - A **horizontal **line has the equation *y*  = *c*
 
   - *c*  is the *y*-intercept
-- A **vertical** line has the equation *x * = *k*
+- A **vertical** line has the equation *x* = *k*
 
   - *k*  is the *x*-intercept
 - For example
@@ -97,13 +97,13 @@ guided_study: true
 > *The rise is 4*
 > *The run is 8*
 > 
-> > *Calculate the fraction *$\frac{\mathrm{rise}}{\mathrm{run}}$
+> > *Calculate the fraction* $\frac{\mathrm{rise}}{\mathrm{run}}$
 > 
 > $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{4}{8}=\frac{1}{2}$
 > 
 > > *The slope is downward (downhill), so it is a negative gradient*
 > 
-> *gradient, *$m=-\frac{1}{2}$
+> *gradient,* $m=-\frac{1}{2}$
 > 
 > > *Now find the **y**-intercept*
 > *The line cuts the **y**-axis at 5*

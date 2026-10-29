@@ -53,9 +53,9 @@ $A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \f
 > 
 > **Method 1**
 > 
-> > *If you know the inverse formula, you can use it to calculate the inverse of *$A$* directly*
+> > *If you know the inverse formula, you can use it to calculate the inverse of* $A$ *directly*
 > 
-> - *The inverse of *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
+> - *The inverse of* $( \begin{gathered} a b \\ c d \end{gathered} )$ *is* $\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 > 
 > $\begin{gathered} A^{- 1} & = \frac{1}{1 \times 7 - 3 \times 2} ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = \frac{1}{7 - 6} ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = 1 ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = B \end{gathered}$
 > 
@@ -66,12 +66,12 @@ $A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \f
 > 
 > > *If you don't know the inverse formula, you can use the definition of the inverse*
 > 
-> - *I.e. if *$A^{-1}$* is the inverse of *$A$*, then *$\mathrm{AA}^{-1}=A^{-1}A=I$
+> - *I.e. if* $A^{-1}$ *is the inverse of* $A$*, then* $\mathrm{AA}^{-1}=A^{-1}A=I$
 > 
-> > *So you can show that *$B$* is the inverse of *$A$* by showing*
+> > *So you can show that* $B$ *is the inverse of* $A$ *by showing*
 > 
-> - *either that *$\mathrm{AB}=I$
-> - *or that *$\mathrm{BA}=I$
+> - *either that* $\mathrm{AB}=I$
+> - *or that* $\mathrm{BA}=I$
 > 
 > $\begin{gathered} \text{AB} = ( \begin{gathered} 1 3 \\ 2 7 \end{gathered} ) ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = ( \begin{gathered} 1 \times 7 + 3 \times ( - 2 ) & 1 \times ( - 3 ) + 3 \times 1 \\ 2 \times 7 + 7 \times ( - 2 ) & 2 \times ( - 3 ) + 7 \times 1 \end{gathered} ) \\ = ( \begin{gathered} 7 - 6 & - 3 + 3 \\ 14 - 14 & - 6 + 7 \end{gathered} ) \\ = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) \\ = I \end{gathered}$
 > 

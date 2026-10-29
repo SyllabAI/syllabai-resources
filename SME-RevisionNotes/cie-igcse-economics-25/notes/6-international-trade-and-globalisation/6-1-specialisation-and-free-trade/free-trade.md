@@ -17,7 +17,7 @@ guided_study: false
 
 ## The advantages of free trade
 
-- Free trade is the exchange of goods and services between countries **without any trade barriers**, such as *tariffs*, *quotas *or import bans
+- Free trade is the exchange of goods and services between countries **without any trade barriers**, such as *tariffs*, *quotas* or import bans
 - This means countries can **buy and sell freely** with each other, allowing for more open access to foreign markets
 
 ![Diagram showing trade's benefits, such as flow of ideas, economic development, growth, efficiency, access to resources, cooperation, choice, and lower prices.](../../../assets/47f9d8fb361f-43516-httpscdn-savemyexams-comuploads20240655463.png)

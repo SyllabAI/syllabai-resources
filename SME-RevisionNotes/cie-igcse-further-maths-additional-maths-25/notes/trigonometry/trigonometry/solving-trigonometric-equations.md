@@ -61,14 +61,14 @@ guided_study: false
   - For the equation sin x = k the primary value is x<sub>1</sub> = sin <sup>-1</sup> k
   
     - A secondary value is x<sub>2 </sub>= 180° - sin <sup>-1</sup> k
-    - Then all values within the range can be found using x<sub>1</sub> ± 360n and x<sub>2</sub> ± 360n where *n ∈ * $ℕ$
+    - Then all values within the range can be found using x<sub>1</sub> ± 360n and x<sub>2</sub> ± 360n where *n ∈* $ℕ$
   - For the equation cos x = k the primary value is x<sub>1</sub> = cos <sup>-1</sup> k
   
     - A secondary value is x<sub>2</sub> = - cos <sup>-1</sup> k
-    - Then all values within the range can be found using x<sub>1</sub> ± 360n and x<sub>2</sub> ± 360n where *n ∈ * $ℕ$
+    - Then all values within the range can be found using x<sub>1</sub> ± 360n and x<sub>2</sub> ± 360n where *n ∈* $ℕ$
   - For the equation tan x = k  the primary value is x = tan <sup>-1</sup> k
   
-    - All secondary values within the range can be found using x ± 180n where *n ∈  *$ℕ$
+    - All secondary values within the range can be found using x ± 180n where *n ∈* $ℕ$
 
 ### How do I use the CAST diagram?
 
@@ -80,11 +80,11 @@ guided_study: false
 - Trigonometric equations in the form sin(*ax + b*) can be solved in more than one way
 - The easiest method is to consider the transformation of the angle as a substitution
 
-  - For example let *u *= *ax *+ *b*
+  - For example let *u* = *ax* + *b*
 - Transform the given interval for the solutions in the same way as the angle
 
   - For example if the given interval is 0° ≤ x ≤ 360° the new interval will be
-  - (*a *(0°) + *b*) ≤ *u ≤ *(*a *(360°) + *b*)
+  - (*a* (0°) + *b*) ≤ *u ≤* (*a* (360°) + *b*)
 - Solve the function to find the primary value for *u*
 - Use either the unit circle or sketch the graph to find all the other solutions in the range for *u*
 - Undo the substitution to convert all of the solutions back into the corresponding solutions for *x*
@@ -135,8 +135,8 @@ guided_study: false
 - A quadratic can give up to two solutions
 
   - You must consider both solutions to see whether a real value exists
-  - Remember that solutions for sin *θ *= k and cos *θ *= k only exist for -1 ≤ k ≤ 1
-  - Solutions for tan *θ *= k exist for all values of k
+  - Remember that solutions for sin *θ* = k and cos *θ* = k only exist for -1 ≤ k ≤ 1
+  - Solutions for tan *θ* = k exist for all values of k
 - Find all solutions within the given interval
 
   - There will often be more than two solutions for one quadratic equation

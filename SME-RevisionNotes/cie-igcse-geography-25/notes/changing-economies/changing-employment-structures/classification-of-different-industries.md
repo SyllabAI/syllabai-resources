@@ -34,7 +34,7 @@ This page covers section 9.1.1 of the [CIE IGCSE specification](https://www.camb
 - The way a country's** workforce** is **divided up** between the **sectors** is called a country's **employment structure**
 - Employment is **divided into 4 sectors**, with each representing different types of industries ![Four people representing economic sectors: farmer (primary), factory worker (secondary), hairdresser (tertiary), and researcher (quaternary).](assets/443f40c77e13-10651-four-employment-sectors.png)
 
-*The four sectors of industry *
+*The four sectors of industry*
 
 ## Primary industry
 

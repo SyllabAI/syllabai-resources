@@ -50,13 +50,13 @@ The method used will depend on the value of the *coefficient* of the $x^{2}$ ter
 > **Worked Example**
 > Write $3x^{2}-12x+k$ in the form $a ( x + p )^{2} + k + q$, where $a,p$ and $q$ are constants to be found, and $k$ is an unknown constant.
 > 
-> > *The form required is 'completing the square' (do not be put off by the *$k$*, it is just a constant!).*
+> > *The form required is 'completing the square' (do not be put off by the* $k$*, it is just a constant!).*
 > 
-> > *STEP 1 - Take a factor of 3 out of the *$x^{2}$* and *$x$* terms - leaving *$k$* avoids awkward fractions.*
+> > *STEP 1 - Take a factor of 3 out of the* $x^{2}$ *and* $x$ *terms - leaving* $k$ *avoids awkward fractions.*
 > 
 > $3 x^{2} - 12 x + k = 3 ( x^{2} - 4 x ) + k$
 > 
-> > *STEPS 2 and 3 - Complete the square on the *$( x^{2} - 4 x )$* part only. "*$p=-\frac{4}{2}=-2$*" and "*$q = 0 - ( - 2 )^{2} = 4$*".*
+> > *STEPS 2 and 3 - Complete the square on the* $( x^{2} - 4 x )$ *part only. "*$p=-\frac{4}{2}=-2$*" and "*$q = 0 - ( - 2 )^{2} = 4$*".*
 > 
 > $3 [ ( x - 2 )^{2} - 4 ] + k$
 > 
@@ -76,19 +76,19 @@ The method used will depend on the value of the *coefficient* of the $x^{2}$ ter
 
 #### How do I solve a quadratic equation by completing the square?
 
-- To solve *x*<sup>2</sup> + *bx *+* c* = 0
+- To solve *x*<sup>2</sup> + *bx* + *c* = 0
 
   - **replace** the first two terms, ***x***<sup>**2**</sup>** + *****bx***, with **(*****x***** + *****p*****)**<sup>**2**</sup>** - *****p***<sup>**2**</sup> where ***p***** is half of *****b***
   - this is called** completing the square**
   
-    - *x*<sup>2</sup> + *bx *+* c* = 0 becomes
+    - *x*<sup>2</sup> + *bx* + *c* = 0 becomes
     
-      - (*x* + *p*)<sup>2</sup> - *p*<sup>2</sup> + *c *= 0 where *p* is half of *b*
+      - (*x* + *p*)<sup>2</sup> - *p*<sup>2</sup> + *c* = 0 where *p* is half of *b*
   - rearrange this equation to **make *****x***** the subject** (using ±√)
 - For example, solve *x*<sup>2</sup> + 10*x* + 9 = 0 by completing the square
 
   - *x*<sup>2</sup> + 10*x *becomes (*x* + 5)<sup>2</sup> - 5<sup>2</sup>
-  - so* x*<sup>2</sup> + 10*x* + 9 = 0 becomes (*x* + 5)<sup>2</sup> - 5<sup>2 </sup>+ 9 = 0
+  - so *x*<sup>2</sup> + 10*x* + 9 = 0 becomes (*x* + 5)<sup>2</sup> - 5<sup>2 </sup>+ 9 = 0
   - make *x* the subject (using ±√)
   
     - (*x* + 5)<sup>2</sup> - 25<sup> </sup>+ 9 = 0
@@ -111,8 +111,8 @@ The method used will depend on the value of the *coefficient* of the $x^{2}$ ter
 > 
 > $x^{2}-4x-12=0$ * *
 > 
-> *Halve the middle number, -4, to get -2 *
-> *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>* - (-2)*<sup>*2*</sup> * *
+> *Halve the middle number, -4, to get -2*
+> *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>*- (-2)*<sup>*2*</sup> * *
 > 
 > $( x - 2 )^{2} - ( - 2 )^{2} - 12 = 0$ * *
 > 
@@ -124,7 +124,7 @@ The method used will depend on the value of the *coefficient* of the $x^{2}$ ter
 > 
 > $( x - 2 )^{2} = 16$ * *
 > 
-> *Square root both sides *
+> *Square root both sides*
 > *Include the ± sign to get two solutions* * *
 > 
 > $x-2=\pm\sqrt{16}=\pm4$ * *

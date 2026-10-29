@@ -91,7 +91,7 @@ guided_study: false
 - **Catholic **and** Anglican churches** may hold a Mass or Holy Communion service with hymns, Bible readings about the Ascension and even a procession
 - **Orthodox Christians** also have a *Divine Liturgy* and readings about the Ascension. They may display icons of the Ascension
 
-  - Some Orthodox Christians take part in an all-night* vigil*
+  - Some Orthodox Christians take part in an all-night *vigil*
 - **Protestant Christians **may not have a set** liturgy** for the Ascension, but some may hold services at which *sermons* are preached about Jesus’s *divine authority* and promise to return
 
 > **Worked Example**

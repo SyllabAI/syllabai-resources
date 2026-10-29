@@ -36,9 +36,9 @@ guided_study: false
 - Where:
 
   - Δ*E* = change in heat energy, in joules (J)
-  - *m = *mass, in kilograms (kg)
-  - *c = *specific heat capacity, in joules per kilogram per degree Kelvin (J/kg K **or** J/kg °C)
-  - Δ*θ = *change in temperature, in Kelvin or Celsius
+  - *m =* mass, in kilograms (kg)
+  - *c =* specific heat capacity, in joules per kilogram per degree Kelvin (J/kg K **or** J/kg °C)
+  - Δ*θ =* change in temperature, in Kelvin or Celsius
 - (The symbol Δ in Maths is used to denote a change in value)
 
 ![9-1-examples-of-heat-energy_edexcel-al-physics-rn](../../../assets/8fe12be9028a-9-1-examples-of-heat-energy-edexcel-al-physics-r.png)
@@ -75,7 +75,7 @@ guided_study: false
 > **Step 1: Write down the known quantities**
 > 
 > - Mass, *m* = 0.48 kg
-> - Change in temperature, Δ*θ = *0.7 K
+> - Change in temperature, Δ*θ =* 0.7 K
 > - Specific heat capacity, *c* = 4200 J kg<sup>-1 </sup>K<sup>-1</sup>
 > 
 > **Step 2: Write down the relevant equation **
@@ -142,7 +142,7 @@ guided_study: false
 
   - *ΔE* =  amount of heat energy to change the state (J)
   - *L* = latent heat of fusion or vaporisation (J kg<sup>-1</sup>)
-  - *Δm *= change in mass of the substance changing state (kg)
+  - *Δm* = change in mass of the substance changing state (kg)
 - The values of latent heat for water are:
 
   - Specific latent heat of fusion = 330 kJ kg<sup>-1</sup>

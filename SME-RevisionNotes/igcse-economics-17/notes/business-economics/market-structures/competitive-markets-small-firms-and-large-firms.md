@@ -44,7 +44,7 @@ guided_study: false
 
 | Advantages | Disadvantages |
 |---|---|
-| - Increased *economies of scale *from increased output reduces cost per unit of output. This increases **profit**<br>- **Lower Prices** Firms may pass on their cost savings (due to economies of scale) in the form of lower product prices<br>- Large firms may earn greater profits and can use this to invest in research & development to **innovative **or** improve the quality** goods and services | - When a company grows too large, it may experience ***diseconomies of scale*****. **It may face challenges in coordinating its various departments, managing its workforce, or maintaining quality control<br>- Rapid growth may result in **miscommunication.** This may result in delays, errors, missed opportunities and impact on employee morale<br>- A firm can take** on more business than it can handle**<br><br>  - E.g. A company that expands too quickly may **struggle to hire and train enough staff** to handle increased demand, leading to a backlog of orders and dissatisfied customers |
+| - Increased *economies of scale* from increased output reduces cost per unit of output. This increases **profit**<br>- **Lower Prices** Firms may pass on their cost savings (due to economies of scale) in the form of lower product prices<br>- Large firms may earn greater profits and can use this to invest in research & development to **innovative **or** improve the quality** goods and services | - When a company grows too large, it may experience ***diseconomies of scale*****. **It may face challenges in coordinating its various departments, managing its workforce, or maintaining quality control<br>- Rapid growth may result in **miscommunication.** This may result in delays, errors, missed opportunities and impact on employee morale<br>- A firm can take** on more business than it can handle**<br><br>  - E.g. A company that expands too quickly may **struggle to hire and train enough staff** to handle increased demand, leading to a backlog of orders and dissatisfied customers |
 
 ## Reasons Why Firms Grow
 
@@ -59,7 +59,7 @@ guided_study: false
 
 | **Reason** | **Explanation** |
 |---|---|
-| **Access to finance** | - Larger firms often earn large **profits. **This** **improves the reputation of the company amongst its *shareholders *or banks<br>- It can make it easier for the firm to **access greater finance   ** |
+| **Access to finance** | - Larger firms often earn large **profits. **This** **improves the reputation of the company amongst its *shareholders* or banks<br>- It can make it easier for the firm to **access greater finance   ** |
 | **Economies of scale** | - Larger firms can take advantage of ***economies of scale*** to **lower their average costs**<br>- With lower costs, firms can **leave price levels the same and enjoy higher profits**, or they can **lower prices and pass on the cost benefits** to their customers<br>- Some industries have economies of scale that mean only  one firm can operate efficiently - a *natural monopoly* |
 | **Desire to spread risk** | - Growth provides opportunities for ***product diversification***<br>- Firms are able to increase the number of products that it offer and this reduces risk - if one product fails others may well still be successful |
 | **Take over competitors** | - Firms *merge* or *acquire* their competitors as they desire **stronger market power **and** fewer competitors**<br>- The *Walt Disney Company* and *21st Century Fox* merged in 2018 to **gain a higher market value and share** (the new company achieved a market share greater than 90%) |
@@ -85,7 +85,7 @@ While many firms grow, some stay small or intentionally choose to remain small. 
 - **Avoid rapid growth and** ***diseconomies of scale*** which cause costs to rise
 - **Avoid investigation by Government**
 
-  - Legislation and regulation can prevent firms from growing too large if deemed to be* anti-competitive behaviour*
+  - Legislation and regulation can prevent firms from growing too large if deemed to be *anti-competitive behaviour*
   - **Merger activity** is monitored to prevent a single firm gaining **more than significant market share**
   
     - E.g. in July 2022 the CMA launched an [investigation](https://www.gov.uk/government/news/foam-merger-raises-competition-concerns) into the **merger of two companies** which produce foam used in bedding & cleaning products as they believed it would lead to **higher prices & less choice        **

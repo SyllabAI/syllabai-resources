@@ -80,7 +80,7 @@ guided_study: false
 > 
 > $y=\frac{3x^{5}}{5}-\frac{2x^{3}}{3}+3x-\frac{x^{\frac{1}{2}}}{\frac{1}{2}}+c$
 > 
-> > *Rewrite using the same format given in the question. *
+> > *Rewrite using the same format given in the question.*
 > 
 > $y=\frac{3}{5}x^{5}-\frac{2}{3}x^{3}+3x-2\sqrt{x}+c$
 
@@ -120,7 +120,7 @@ guided_study: false
 > **Worked Example**
 > Given $\mathrm{f} ' ( x ) = \frac{( x + 3 )^{2}}{ \sqrt{x} }$ and $\mathrm{f} ( 1 ) = 25$, find $\mathrm{f} ( x )$.
 > 
-> > *Rewrite *$\mathrm{f}^{'} ( x )$* in a form the can be integrated more easily. *
+> > *Rewrite* $\mathrm{f}^{'} ( x )$ *in a form the can be integrated more easily.*
 > 
 > > $\begin{gathered} \mathrm{f}^{'} ( x ) & = \frac{( x + 3 ) ( x + 3 )}{ \sqrt{x} } \\ = \frac{x^{2 } + 6 x + 9}{x^{1 \frac{1}{2}} } \\ = \frac{ x^{2}}{x^{1 \frac{1}{2}} } + \frac{ 6 x}{x^{1 \frac{1}{2}} } + \frac{ 9}{x^{1 \frac{1}{2}} } \\ = x^{ \frac{3}{2} } + 6 x^{1 \frac{1}{2}} + 9 x^{- 1 \frac{1}{2}} \end{gathered}$*   *
 > 

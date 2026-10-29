@@ -114,7 +114,7 @@ sustainable"
 ### Soil erosion
 
 - Without the tree roots to bind the soil, the soil is more easily eroded by wind and rain
-- Exposed soil is more vulnerable to the* leaching* of nutrients and the soil becomes **less fertile**
+- Exposed soil is more vulnerable to the *leaching* of nutrients and the soil becomes **less fertile**
 
 ### Loss of biodiversity
 

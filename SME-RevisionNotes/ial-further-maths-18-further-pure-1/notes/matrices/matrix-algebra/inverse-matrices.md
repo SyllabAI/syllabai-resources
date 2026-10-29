@@ -46,12 +46,12 @@ $A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow \det A = \le
 > 
 > Given that $\mathrm{det}A=-3$, find the value of $p$.
 > 
-> > *Use that if *$A = ( \begin{gathered} a b \\ c d \end{gathered} )$* then *$\det A = \left| A \right| = a d - b c$
+> > *Use that if* $A = ( \begin{gathered} a b \\ c d \end{gathered} )$ *then* $\det A = \left| A \right| = a d - b c$
 > *Work out the determinant algebraically*
 > 
 > $\begin{gathered} \det ( A ) & = 3 \times 7 - ( - 6 ) \times p \\ = 21 + 6 p \end{gathered}$
 > 
-> > *Set this expression equal to -3 and solve for *$p$
+> > *Set this expression equal to -3 and solve for* $p$
 > 
 > $\begin{gathered} 21 + 6 p & = - 3 \\ 6 p & = - 24 \end{gathered}$
 > 
@@ -104,12 +104,12 @@ $A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \f
 > 
 > (a)   Find $P^{-1}$, giving your answer in terms of $k$.
 > 
-> > *Use that *$A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \frac{1}{\det A} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$* where *$\mathrm{det}A=ad-bc$
-> *First find *$\det ( P )$
+> > *Use that* $A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \frac{1}{\det A} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$ *where* $\mathrm{det}A=ad-bc$
+> *First find* $\det ( P )$
 > 
 > $\begin{gathered} \det ( P ) & = 1 \times k - 4 \times ( - 2 ) \\ = k + 8 \end{gathered}$
 > 
-> > *Now divide *$P$* by *$\det ( P )$*, swap *$a$*  and *$d$*, and change signs of *$b$* and *$c$
+> > *Now divide* $P$ *by* $\det ( P )$*, swap* $a$ *and* $d$*, and change signs of* $b$ *and* $c$
 > 
 > $P^{- 1} = \frac{1}{k + 8} ( \begin{gathered} k 2 \\ - 4 & 1 \end{gathered} )$
 > 
@@ -118,12 +118,12 @@ $A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \f
 > (b)  Verify that $P^{-1}P=I$, where $I$ is the identity matrix.
 > 
 > > *Verify means check that it is true*
-> *Substitute *$P^{-1}$* and *$P$* into the left-hand side and multiply out the matrices*
+> *Substitute* $P^{-1}$ *and* $P$ *into the left-hand side and multiply out the matrices*
 > 
 > $\begin{gathered} P^{- 1} P & = \frac{1}{k + 8} ( \begin{gathered} k 2 \\ - 4 & 1 \end{gathered} ) ( \begin{gathered} 1 - 2 \\ 4 k \end{gathered} ) \\ = \frac{1}{k + 8} ( \begin{gathered} k \times 1 + 2 \times 4 & k \times ( - 2 ) + 2 \times k \\ - 4 \times 1 + 1 \times 4 & - 4 \times ( - 2 ) + 1 \times k \end{gathered} ) \\ = \frac{1}{k + 8} ( \begin{gathered} k + 8 & 0 \\ 0 8 + k \end{gathered} ) \end{gathered}$* *
 > 
-> > *The *$8+k$* is the same as *$k+8$
-> *Since *$k\neq-8$* in the question, cancel the *$( k + 8 )$*'s *
+> > *The* $8+k$ *is the same as* $k+8$
+> *Since* $k\neq-8$ *in the question, cancel the* $( k + 8 )$*'s*
 > 
 > $P^{- 1} P = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$
 > 

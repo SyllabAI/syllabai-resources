@@ -110,7 +110,7 @@ $Δp=mgt$ (equation 2)
 
   - *m* = mass on the hanger (kg)
   - *g* = acceleration due to gravity, (9.81 m s<sup>−1</sup>)
-  - *t = *time taken between light-gates A and B
+  - *t =* time taken between light-gates A and B
 
 - Combing equations 1 and 2 gives:
 
@@ -120,12 +120,12 @@ $mgt=M(v_{B}--v_{A})$
 
 $mt=\frac{M}{g}(v_{B}-v_{A})$
 
-- This is in the form of* y *=* mx *+* c*, where:
+- This is in the form of *y* = *mx* + *c*, where:
 
   - *y* = *mt*
   - *x* = (*v*<sub>B</sub> − *v*<sub>A</sub>)
   - *m* = $\frac{M}{g}$
-  - *c *= 0
+  - *c* = 0
 
 - Therefore, a graph can be plotted of *mt* against (*v*<sub>B</sub> − *v*<sub>A</sub>)
 

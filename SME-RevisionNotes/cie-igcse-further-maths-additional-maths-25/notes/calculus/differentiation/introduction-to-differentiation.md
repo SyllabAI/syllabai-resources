@@ -75,7 +75,7 @@ guided_study: false
 > 
 > Use the derivative to find the gradient of $y=x^{3}-2x^{2}-x+3$ at the point $A ( 2 , 1 )$.
 > 
-> > *Substitute *$x=2$* into the derivative, *$3x^{2}-4x-1$
+> > *Substitute* $x=2$ *into the derivative,* $3x^{2}-4x-1$
 > 
 > $3 ( 2 )^{2} - 4 ( 2 ) - 1 = 12 - 8 - 1$
 > 
@@ -141,13 +141,13 @@ guided_study: false
 > **Worked Example**
 > Find the derivative of
 > 
-> (a)$\begin{gathered} \\ \\ \end{gathered}$$y=5x^{3}+2x+\frac{3}{x^{2}}+8$
+> (a)$\begin{gathered} \\ \\ \end{gathered}y=5x^{3}+2x+\frac{3}{x^{2}}+8$
 > 
-> > *Rewrite the *$\frac{3}{x^{2}}$* term*
+> > *Rewrite the* $\frac{3}{x^{2}}$ *term*
 > 
 > $y=5x^{3}+2x+3x^{-2}+8$
 > 
-> > *Apply the rule for differentiating powers (*$y=ax^{n},\frac{dy}{dx}=anx^{n-1}$*) and apply the special cases for the terms *$2x$* and 8 (*$y=ax,\frac{dy}{dx}=a$* and *$y=a,\frac{dy}{dx}=0$*)*
+> > *Apply the rule for differentiating powers (*$y=ax^{n},\frac{dy}{dx}=anx^{n-1}$*) and apply the special cases for the terms* $2x$ *and 8 (*$y=ax,\frac{dy}{dx}=a$ *and* $y=a,\frac{dy}{dx}=0$*)*
 > 
 > $\frac{dy}{dx}=15x^{2}+2-6x^{-3}$
 > 
@@ -157,7 +157,7 @@ guided_study: false
 > 
 > (b) $y = ( 2 x + 3 )^{2}$
 > 
-> > *This is a product of two (equal) brackets so cannot be differentiated directly Expand the brackets to get an expression in powers of *$x$* Take time to get the expansion correct, writing stages out in full if necessary*
+> > *This is a product of two (equal) brackets so cannot be differentiated directly Expand the brackets to get an expression in powers of* $x$ *Take time to get the expansion correct, writing stages out in full if necessary*
 > 
 > $\begin{gathered} y = ( 2 x + 3 ) ( 2 x + 3 ) \\ y = 4 x^{2} + 6 x + 6 x + 9 \\ y = 4 x^{2} + 12 x + 9 \end{gathered}$
 > 
@@ -179,7 +179,7 @@ guided_study: false
 > 
 > $y=4x^{6-4}-\frac{1}{2}x^{3-4}\,y=4x^{2}-\frac{1}{2}x^{-1}$
 > 
-> > *Each term is now a power of *$x$*, so differentiate 'term-by-term'*
+> > *Each term is now a power of* $x$*, so differentiate 'term-by-term'*
 > 
 > $\frac{dy}{dx}=8x+\frac{1}{2}x^{-2}$
 > 

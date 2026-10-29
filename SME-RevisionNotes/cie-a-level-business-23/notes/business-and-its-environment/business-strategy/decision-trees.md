@@ -152,7 +152,7 @@ equals space £ 10 comma 300 space`
   - However, there is **little between the two options** and the business should **look at other factors** to inform their decision
 
 > **Worked Example**
-> *Caramelac* is a lactose-free chocolate product manufactured by a large multinational confectionery business. In recent years increased competition from other well-known brands has started to impact on sales of the product and managers are determined to maintain *Caramelac’s *market share.
+> *Caramelac* is a lactose-free chocolate product manufactured by a large multinational confectionery business. In recent years increased competition from other well-known brands has started to impact on sales of the product and managers are determined to maintain *Caramelac’s* market share.
 > 
 > Market research has shown that the business has two options:
 > 

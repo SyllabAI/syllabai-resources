@@ -117,7 +117,7 @@ $A=\frac{\DeltaN}{\Deltat}=-λN$
 - Where:
 
   - *N*<sub>0</sub> = the initial number of undecayed nuclei (when *t* = 0)
-  - *N *= number of undecayed nuclei at a certain time *t*
+  - *N* = number of undecayed nuclei at a certain time *t*
   - *λ* = decay constant (s<sup>-1</sup>)
   - *t* = time interval (s)
 

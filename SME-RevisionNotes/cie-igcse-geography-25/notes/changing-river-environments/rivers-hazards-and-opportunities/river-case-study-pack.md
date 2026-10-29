@@ -126,7 +126,7 @@ guided_study: false
     - Homes on stilts
 - **Mekong River Commission (MRC) **
 
-  - An *inter-governmental *organisation which has established monitoring stations at 138 points along the river
+  - An *inter-governmental* organisation which has established monitoring stations at 138 points along the river
   
     - To forecast flooding and provide early warnings
     - **The Mekong Flood Forecasting and Early Warning System (MFFS)**

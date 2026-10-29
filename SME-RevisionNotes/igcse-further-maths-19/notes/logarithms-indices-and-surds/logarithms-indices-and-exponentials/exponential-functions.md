@@ -58,11 +58,11 @@ guided_study: false
 > **Worked Example**
 > On the same set of axes, sketch the graphs of  $y=3^{x}$  and  $y=4^{x}$.
 > 
-> *Both graphs will have the 'typical' *$y=a^{x}$* exponential shape for the *$a>1$*case*
+> *Both graphs will have the 'typical'* $y=a^{x}$ *exponential shape for the* $a>1$*case*
 > 
-> > $y=4^{x}$* will be the 'lower' graph for *$x<0$*,and the 'higher' graph for *$x>0$
+> > $y=4^{x}$ *will be the 'lower' graph for* $x<0$*,and the 'higher' graph for* $x>0$
 > 
-> > *Both graphs go through *$( 0 , 1 )$* and have an asymptote at the *$x$*-axis*
+> > *Both graphs go through* $( 0 , 1 )$ *and have an asymptote at the* $x$*-axis*
 > 
 > ![jAyO5R1a_picture1](assets/766b19f9d6e1-jayo5r1a-picture1.png)
 
@@ -105,12 +105,12 @@ guided_study: false
 > **Worked Example**
 > On the same set of axes, sketch the graphs of  $y=e^{x}$,  $y=e^{2x}$  and  $y=e^{-2x}$.
 > 
-> *By laws of indices, *$\mathrm{e}^{2 x} = ( \mathrm{e}^{2} )^{x}$
+> *By laws of indices,* $\mathrm{e}^{2 x} = ( \mathrm{e}^{2} )^{x}$
 > 
-> > $e^{2}>e$*,  so  *$y=e^{2x}$* will be the 'lower' graph for *$x<0$*,and the 'higher' graph for *$x>0$
+> > $e^{2}>e$*,  so* $y=e^{2x}$ *will be the 'lower' graph for* $x<0$*,and the 'higher' graph for* $x>0$
 > 
-> > $y=e^{-2x}$* is the reflection of  *$y=e^{2x}$*in the *$y$*-axis*
+> > $y=e^{-2x}$ *is the reflection of* $y=e^{2x}$*in the* $y$*-axis*
 > 
-> > *All three graphs go through *$( 0 , 1 )$* and have an asymptote at the *$x$*-axis*
+> > *All three graphs go through* $( 0 , 1 )$ *and have an asymptote at the* $x$*-axis*
 > 
 > ![Aj8jgIxw_picture2](assets/f262f30da9b0-aj8jgixw-picture2.png)

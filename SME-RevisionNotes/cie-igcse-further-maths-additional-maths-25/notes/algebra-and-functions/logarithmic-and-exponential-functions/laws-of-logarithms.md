@@ -75,13 +75,13 @@ guided_study: false
 > **Worked Example**
 > a) Write the expression $2\mathrm{log}4-\mathrm{log}2$ in the form $\mathrm{log}k$, where $k\inℤ$.
 > 
-> > *Using the law *$\mathrm{log}_{a}x^{m}=m\mathrm{log}_{a}x$* we can rewrite *$2\mathrm{log}4$* as *$\mathrm{log}4^{2}=\mathrm{log}16$*.*
+> > *Using the law* $\mathrm{log}_{a}x^{m}=m\mathrm{log}_{a}x$ *we can rewrite* $2\mathrm{log}4$ *as* $\mathrm{log}4^{2}=\mathrm{log}16$*.*
 > 
 > > *  *
 > 
 > $2\mathrm{log}4-\mathrm{log}2=\mathrm{log}16-\mathrm{log}2$
 > 
-> > *Using the law *$\mathrm{log}_{a}\frac{x}{y}=\mathrm{log}_{a}x-\mathrm{log}_{a}y$*:*
+> > *Using the law* $\mathrm{log}_{a}\frac{x}{y}=\mathrm{log}_{a}x-\mathrm{log}_{a}y$*:*
 > 
 > > * *
 > 
@@ -93,19 +93,19 @@ guided_study: false
 > 
 > > *Rewrite the equation using the expression found in part (a).*
 > 
-> > $2\mathrm{log}4-\mathrm{log}2=\mathrm{log}8$*: *
+> > $2\mathrm{log}4-\mathrm{log}2=\mathrm{log}8$*:*
 > 
 > > *  *
 > 
 > $\mathrm{log}8=-\mathrm{log}\frac{1}{x}$
 > 
-> > *Using the index law *$\frac{1}{x}=x^{-1}$*::*
+> > *Using the index law* $\frac{1}{x}=x^{-1}$*::*
 > 
 > > * *
 > 
 > > * *$\mathrm{log}8=-\mathrm{log}x^{-1}$
 > 
-> > *Using the law *$\mathrm{log}_{a}x^{m}=m\mathrm{log}_{a}x$*:*
+> > *Using the law* $\mathrm{log}_{a}x^{m}=m\mathrm{log}_{a}x$*:*
 > 
 > > *  *
 > 
@@ -131,7 +131,7 @@ guided_study: false
 
 $\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$
 
-- The value you choose for *b* does not matter, however if you do not have a calculator, you can choose *b *such that the problem will be possible to solve
+- The value you choose for *b* does not matter, however if you do not have a calculator, you can choose *b* such that the problem will be possible to solve
 
 ### Why change the base of a logarithm?
 
@@ -169,19 +169,19 @@ $log_{a} x = \frac{1}{log_{x} a}$
 > - Only use it when the bases of the logarithms are different
 
 > **Worked Example**
-> By choosing a suitable value for *b, *use the change of base law to find the value of  $\mathrm{log}_{8}32$ without using a calculator.
+> By choosing a suitable value for *b,* use the change of base law to find the value of  $\mathrm{log}_{8}32$ without using a calculator.
 > 
-> > *Note that 8 and 32 are both powers of 2, where 8 = 2*<sup>*3 *</sup>* and 32 = 2*<sup>*5*</sup>*.*
+> > *Note that 8 and 32 are both powers of 2, where 8 = 2*<sup>*3* </sup>*and 32 = 2*<sup>*5*</sup>*.*
 > 
 > > *Therefore we can choose **b** = 2 in the change of base formula. *
 > 
-> > $\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$*: *
+> > $\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$*:*
 > 
 > > *  *
 > 
 > $\mathrm{log}_{8}32=\frac{\mathrm{log}_{2}32}{\mathrm{log}_{2}8}$
 > 
-> > *If  2*<sup>*3*</sup>* = 8 then log*<sub>*2 *</sub>*8 = 3 and if  2*<sup>*5*</sup>* = 32 then log*<sub>*2 *</sub>*32 = 5.*
+> > *If  2*<sup>*3*</sup>*= 8 then log*<sub>*2* </sub>*8 = 3 and if  2*<sup>*5*</sup>*= 32 then log*<sub>*2* </sub>*32 = 5.*
 > 
 > > * *
 > 

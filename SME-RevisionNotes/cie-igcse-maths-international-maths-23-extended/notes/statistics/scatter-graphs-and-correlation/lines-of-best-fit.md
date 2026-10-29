@@ -27,7 +27,7 @@ guided_study: true
 
 ### How do I find the coordinates of the mean point?
 
-- You need to be able to find the **mean point**, `open parentheses x with bar on top comma space y with bar on top close parentheses` to draw a line of best fit
+- You need to be able to find the **mean point**, `(x with bar on top comma y with bar on top)` to draw a line of best fit
 
   - Calculate the **mean of the *****x***** values** for all data points, this is $\overline{x}$
   - Calculate the **mean of the *****y***** values** for all data points, this is $\overline{y}$
@@ -37,7 +37,7 @@ guided_study: true
 
 - To draw a **line of best fit**:
 
-  - **Find** the **coordinates **of the** mean point**, `open parentheses x with bar on top comma space y with bar on top close parentheses`
+  - **Find** the **coordinates **of the** mean point**, `(x with bar on top comma y with bar on top)`
   - **Plot** the** mean point** on the graph with all of the other data values
   - Draw a **single-ruled straight line **through the mean point
   
@@ -51,7 +51,7 @@ guided_study: true
 
 - Once the line of best fit is drawn, you can use it to **predict values**
 
-  - E.g. to estimate* y* when *x* = 5
+  - E.g. to estimate *y* when *x* = 5
   
     - Use the line to read off the *y* value when *x* is 5
 - It is best to use your line to predict values that lie **within the region **covered by the data points
@@ -75,7 +75,7 @@ guided_study: true
 > 
 > (a) Draw a scatter diagram, showing the results on the axes below.
 > 
-> > *Plot each point carefully using crosses *
+> > *Plot each point carefully using crosses*
 > 
 > ![A scatter diagram for time against price](assets/529a23045890-37687-lines-of-best-fit-1.png)
 > 
@@ -90,15 +90,15 @@ guided_study: true
 > 
 > (c) Use a line of best fit to estimate the price of a computer that completes the task in 3.4 seconds.
 > 
-> > *Find the mean point, *`open parentheses x with bar on top comma space y with bar on top close parentheses`
+> > *Find the mean point,* `(x with bar on top comma y with bar on top)`
 > 
 > $\overline{x}=\frac{320+300+400+650+250+380+900+700}{8}=487.5$
 > 
 > $\overline{y}=\frac{3.2+5.4+4.1+2.8+5.1+4.3+2.6+3.7}{8}=3.9$
 > 
-> `open parentheses x with bar on top comma space y with bar on top close parentheses equals open parentheses 487.5 comma space 3.9 close parentheses`
+> `(x with bar on top comma y with bar on top)=(487.5 comma 3.9)`
 > 
-> > *Plot *`open parentheses x with bar on top comma space y with bar on top close parentheses`* on the graph*
+> > *Plot* `(x with bar on top comma y with bar on top)` *on the graph*
 > *Draw a line of best fit that goes through it*
 > 
 > *Then draw a horizontal line from 3.4 seconds to the line of best fit*

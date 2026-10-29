@@ -24,7 +24,7 @@ guided_study: false
   - This leads to **over-exploitation**: the private cost of using the resource is below the social cost, generating a negative externality
 - Governments can correct this by **assigning property rights** over previously unowned resources, giving the rights-holder a direct incentive to manage the resource efficiently
 
-  - This **internalises the externality** - the cost of *degrading *the resource falls on the owner rather than on society
+  - This **internalises the externality** - the cost of *degrading* the resource falls on the owner rather than on society
 - **Pollution permits** are the most important application of this principle in economics
 
   - They create tradeable property rights over the right to emit pollution
@@ -52,7 +52,7 @@ guided_study: false
 
 - **Forest rights**: **Community forest management** programmes in **Nepal** and **Mexico** have assigned property rights over forest resources to local communities
 
-  - This has dramatically reducing illegal logging and *deforestation *rates compared to state-managed forests
+  - This has dramatically reducing illegal logging and *deforestation* rates compared to state-managed forests
 
 ## Evaluating property rights
 
@@ -114,8 +114,8 @@ guided_study: false
 |---|---|
 | - **Achieves emissions target with certainty**<br><br>  - the cap directly limits total pollution regardless of the permit price, unlike a carbon tax whose effect on quantity depends on PED | - **Setting the correct cap is difficult**<br><br>  - if the cap is set too high, permits are cheap, emissions reduction is minimal and the market failure persists |
 | - **Cost-efficient**<br><br>  - emissions reductions are made by firms with the lowest abatement costs, achieving the overall target at least total cost across the economy | - **Permit price volatility**<br><br>  - prices fluctuate with economic conditions; during *recessions*, lower output reduces permit demand and prices collapse, weakening the incentive to invest in green technology |
-| - **Incentivises innovation**<br><br>  - firms that develop cheaper abatement technology can sell surplus permits, generating revenue and a continuous market incentive to innovate beyond the required standard | - **Initial allocation raises equity concerns**<br><br>  - if permits are given free to existing polluters ("grandfathering"), this rewards past harmful behaviour and creates a *windfall *for high-emitting incumbents |
-| - **Generates government revenue**<br><br>  - if permits are *auctioned *rather than allocated free, the government raises significant revenue that can be used to fund green investment or reduce other taxes | - **Carbon leakage**<br><br>  - if only some countries operate permit schemes, firms may relocate production to countries without carbon costs, shifting emissions rather than reducing them globally |
+| - **Incentivises innovation**<br><br>  - firms that develop cheaper abatement technology can sell surplus permits, generating revenue and a continuous market incentive to innovate beyond the required standard | - **Initial allocation raises equity concerns**<br><br>  - if permits are given free to existing polluters ("grandfathering"), this rewards past harmful behaviour and creates a *windfall* for high-emitting incumbents |
+| - **Generates government revenue**<br><br>  - if permits are *auctioned* rather than allocated free, the government raises significant revenue that can be used to fund green investment or reduce other taxes | - **Carbon leakage**<br><br>  - if only some countries operate permit schemes, firms may relocate production to countries without carbon costs, shifting emissions rather than reducing them globally |
 | - **Market-based**<br><br>  - harnesses price signals rather than requiring detailed knowledge of each firm's abatement costs, avoiding the information problems that affect regulation | - **Requires strong institutions**<br><br>  - effective monitoring, reporting and verification of emissions is essential; in lower-income economies this capacity may not exist |
 
 ## Permits vs regulation vs taxation: key comparison
@@ -144,6 +144,6 @@ guided_study: false
 > **Two strongest evaluation points**
 > 
 > 1. Cap too generous → permit price collapses → minimal emissions reduction (early EU ETS)
-> 2. Carbon leakage → firms *relocate *to avoid carbon costs, shifting rather than reducing global emissions
+> 2. Carbon leakage → firms *relocate* to avoid carbon costs, shifting rather than reducing global emissions
 > 
 > Connect property rights to the externality framework: absent rights mean **MSC > MPC** → assigning rights raises private costs towards social costs → output moves towards **Qopt**.

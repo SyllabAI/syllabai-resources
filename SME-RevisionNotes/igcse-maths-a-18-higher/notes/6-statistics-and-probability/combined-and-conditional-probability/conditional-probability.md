@@ -62,8 +62,8 @@ guided_study: false
 > 
 > > *Form a probability by dividing 42 by 105*
 > 
-> `straight P open parentheses A space given space B close parentheses equals 42 over 105`
+> `straight P (A given B)=42 / 105`
 > 
 > > *Simplify your answer*
 > 
-> `straight P open parentheses A space given space B close parentheses equals 2 over 5`
+> `straight P (A given B)=2 / 5`

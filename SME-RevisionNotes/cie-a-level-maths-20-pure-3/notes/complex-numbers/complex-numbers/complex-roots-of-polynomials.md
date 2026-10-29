@@ -31,7 +31,7 @@ guided_study: true
 
 - We solve an equation with complex roots in the same way we solve any other quadratic equations
 
-  - If in the form `a z squared plus b equals 0 blank open parentheses a not equal to 0 close parentheses` we can **rearrange** to solve
+  - If in the form `a z²+b=0 blank (a≠0)` we can **rearrange** to solve
   - If in the form $az^{2}+bz+c=0(a\neq0)$ we can **complete the square** or use the **quadratic formula**
 - We use the property $i=\sqrt{-1}$ along with a manipulation of surds
 
@@ -49,10 +49,10 @@ guided_study: true
 - We can find the equation of the form $z^{2}+bz+c=0$ if you are given a complex root in the form $m+ni$
 
   - We know that the complex conjugate $m-ni$ is another root,
-  - This means that `z minus open parentheses m plus n straight i close parentheses` and `z minus open parentheses m minus n straight i close parentheses`are **factors** of the quadratic equation
-  - Therefore `z squared plus b z plus c equals left square bracket z minus open parentheses m plus n straight i close parentheses right square bracket left square bracket z minus open parentheses m minus n straight i close parentheses right square bracket`
+  - This means that `z−(m+n straight i)` and `z−(m−n straight i)`are **factors** of the quadratic equation
+  - Therefore `z²+b z+c=left square bracket z−(m+n straight i) right square bracket left square bracket z−(m−n straight i) right square bracket`
   
-    - Writing this as the difference of two squares - `left parenthesis open parentheses z minus m close parentheses minus n straight i right parenthesis left parenthesis open parentheses z minus m close parentheses plus n straight i right parenthesis` - will speed up expanding
+    - Writing this as the difference of two squares - `left parenthesis (z−m)−n straight i right parenthesis left parenthesis (z−m)+n straight i right parenthesis` - will speed up expanding
   - **Expanding** and **simplifying** gives us a quadratic equation where $b$ and $c$ are **real** numbers
 
 > **Worked Example**
@@ -103,17 +103,17 @@ guided_study: true
 - Steps to solve a cubic equation with complex roots
 
   - If we are told that** **$m+ni$ is a root, then we know $m-ni$ is also a root
-  - This means that `left parenthesis z minus open parentheses m plus n straight i close parentheses right parenthesis` and $(z-(m-ni))$ are **factors** of the cubic equation
+  - This means that `left parenthesis z−(m+n straight i) right parenthesis` and $(z-(m-ni))$ are **factors** of the cubic equation
   - **Multiply** the above factors together gives us a quadratic factor of the form $(Az^{2}+Bz+C)$
   - We need to find the third factor $(z-α)$
   - **Multiply** the factors and **equate** to our original equation to get
 
-`open parentheses A z squared plus B z plus C close parentheses open parentheses z minus alpha close parentheses equals a x cubed plus b x squared plus c x plus d`
+`(A z²+B z+C)(z−α)=a x³+b x²+c x+d`
 
 - From there either
 
   - **Expand** and **compare coefficients** to find $α$
-  - Or use **polynomial division** to find the factor `open parentheses z minus alpha close parentheses`
+  - Or use **polynomial division** to find the factor `(z−α)`
 - Finally, write your **three roots** clearly
 
 ### How do I solve a quartic equation given one complex root?

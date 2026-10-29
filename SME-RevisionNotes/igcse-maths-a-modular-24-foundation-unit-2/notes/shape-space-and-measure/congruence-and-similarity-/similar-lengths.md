@@ -81,7 +81,7 @@ Use the scale factor to find the **length **you need
 > ![Similar triangles sketched separately](assets/9c222e89d6a4-5090-similar-lengths-2.png)
 
 > **Worked Example**
-> *ABCD *and *PQRS *are similar shapes.
+> *ABCD* and *PQRS* are similar shapes.
 > Find the length of *PS.*
 > 
 > ![Two similar quadrilaterals](assets/048a7f9d6792-11865-similar-lengths-3.png)
@@ -96,7 +96,7 @@ Use the scale factor to find the **length **you need
 > 
 > **Method 1**
 > 
-> > *The second shape is smaller than the first shape so the scale factor will be between 0 and 1 *
+> > *The second shape is smaller than the first shape so the scale factor will be between 0 and 1*
 > *Divide the known length on the second shape by the corresponding length on the first shape to find the scale factor*
 > 
 > $\begin{gathered} \text{Scale} \text{Factor} & = \frac{3}{6} = 1 \frac{1}{2} \end{gathered}$

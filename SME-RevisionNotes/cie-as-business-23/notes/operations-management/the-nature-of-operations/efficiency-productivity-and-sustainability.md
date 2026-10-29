@@ -71,7 +71,7 @@ $\mathrm{Labour} \mathrm{productivity}=\frac{\mathrm{Output}}{\mathrm{Number} \m
 > | 2023 | 46,000 |
 > | 2024 | 69,000 |
 > 
-> In 2023 *Scotty Socks *employed 50 staff. In 2024 the number of staff employed by the business increased by 20%.
+> In 2023 *Scotty Socks* employed 50 staff. In 2024 the number of staff employed by the business increased by 20%.
 > 
 > **Calculate **the percentage change in labour productivity between 2023 and 2024.
 > 

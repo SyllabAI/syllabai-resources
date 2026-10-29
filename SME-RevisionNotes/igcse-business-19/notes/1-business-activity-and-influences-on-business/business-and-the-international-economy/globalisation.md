@@ -130,4 +130,4 @@ guided_study: false
   - The UK's vote to leave the EU in 2016 caused immediate financial shocks around the world, with ***stock exchanges*** in countries as distant as Australia and Japan reporting sharp falls
 - Global **distribution networks** can be affected by natural disasters or other interruptions, such as accidents or terrorism
 
-  - In 2021, the grounded container ship *Ever Given *blocked the Suez Canal for six days, causing delays to deliveries of goods such as semiconductors, which impacted technology ***manufacturing*** around the world
+  - In 2021, the grounded container ship *Ever Given* blocked the Suez Canal for six days, causing delays to deliveries of goods such as semiconductors, which impacted technology ***manufacturing*** around the world

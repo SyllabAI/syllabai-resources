@@ -54,9 +54,9 @@ guided_study: false
 | Channel | Mechanism |
 |---|---|
 | **Market interest rates** | - Lending and savings rates rise<br><br>  - Consumption and investment fall, saving rises |
-| **Asset prices** | - *Bond *and *equity *prices fall<br><br>  - Wealth effect reduces consumption |
+| **Asset prices** | - *Bond* and *equity* prices fall<br><br>  - Wealth effect reduces consumption |
 | **Expectations / confidence** | - Anchors inflation expectations<br><br>  - Influences spending and investment decisions |
-| **Exchange rate** | - Capital inflows strengthen the currency<br><br>  - *Exports *become more expensive, *imports *cheaper (and import prices fall, reducing inflation directly) |
+| **Exchange rate** | - Capital inflows strengthen the currency<br><br>  - *Exports* become more expensive, *imports* cheaper (and import prices fall, reducing inflation directly) |
 
 - The bidirectional arrows in the diagram show the channels also interact
 
@@ -80,7 +80,7 @@ guided_study: false
 - **Quantitative easing is a monetary policy tool in which the central bank creates new reserves electronically and uses them to buy financial assets (typically government bonds), expanding the money supply and reducing long-term interest rates**
 
   - QE works through the same transmission mechanism but operates on **long-term** rates rather than the short-term base rate
-  - Bond purchases push prices up and *yields *down, feeding into the asset prices channel and indirectly into market interest rates
+  - Bond purchases push prices up and *yields* down, feeding into the asset prices channel and indirectly into market interest rates
   - QE is used when conventional monetary policy reaches its limits - typically at the zero lower bound
   - It was used extensively after the 2008 financial crisis and during the COVID-19 pandemic by major central banks
 

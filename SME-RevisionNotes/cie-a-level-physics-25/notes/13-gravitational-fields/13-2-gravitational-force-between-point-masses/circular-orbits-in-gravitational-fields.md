@@ -51,15 +51,15 @@ $v^{2}=\frac{GM}{r}\Rightarrowv=\sqrt{\frac{GM}{r}}$
 ***The direction of the instantaneous velocity and the gravitational force at different points of the Earth’s orbit around the sun***
 
 > **Worked Example**
-> A binary star system consists of two stars orbiting about a fixed point **B**. The star of mass *M*<sub>*1*</sub> has a circular orbit of radius *R*<sub>*1*</sub> and mass *M*<sub>*2*</sub> has a radius of *R*<sub>*2*</sub>. Both have an angular speed ⍵ about **B**.
+> A binary star system consists of two stars orbiting about a fixed point **B**. The star of mass *M*<sub>*1*</sub> has a circular orbit of radius *R*<sub>*1*</sub> and mass *M*<sub>*2*</sub> has a radius of *R*<sub>*2*</sub>. Both have an angular speed ω about **B**.
 > 
 > ![Worked example - circular orbits in g fields, downloadable AS & A Level Physics revision notes](assets/a44562fc685d-13-1-2-5-worked-example-circular-orbits-in-g-fie.png)
 > 
 > State the following formula, in terms of *G*, *M*<sub>*2*</sub>, *R*<sub>*1*</sub> and *R*<sub>*2*</sub>
 > 
-> (a) The angular speed ⍵ of *M*<sub>*1*</sub>
+> (a) The angular speed ω of *M*<sub>*1*</sub>
 > 
-> (b) The time period *T* for each star in terms of angular speed ⍵
+> (b) The time period *T* for each star in terms of angular speed ω
 > 
 > **Answer:**
 > 
@@ -73,7 +73,7 @@ $v^{2}=\frac{GM}{r}\Rightarrowv=\sqrt{\frac{GM}{r}}$
 > 
 > $R_{1} \\omega ^{2} = \frac{ G M_{2} }{( R_{1} + R_{2} )^{2}}$
 > 
-> **Step 3: Rearrange for angular velocity ⍵**
+> **Step 3: Rearrange for angular velocity ω**
 > 
 > $\\omega ^{2} = \frac{ G M_{2} }{R_{1} ( R_{1} + R_{2} )^{2}}$
 > 
@@ -91,7 +91,7 @@ $v^{2}=\frac{GM}{r}\Rightarrowv=\sqrt{\frac{GM}{r}}$
 > 
 > $T=\frac{2π}{ω}$
 > 
-> **Step 3: Substitute in ⍵**
+> **Step 3: Substitute in ω**
 > 
 > $T = 2 \mathrm{\pi } \div \sqrt{ \frac{G M_{2} }{R_{1} ( R_{1} + R_{2} )^{2}} } = 2 \mathrm{\pi } \sqrt{ \frac{R_{1} ( R_{1} + R_{2} )^{2}}{G M_{2} } }$
 

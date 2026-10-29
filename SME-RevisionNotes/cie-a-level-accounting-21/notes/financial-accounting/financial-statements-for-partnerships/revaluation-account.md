@@ -120,7 +120,7 @@ Share the net profit or loss on revaluation between the **partners' capital acco
 > 
 > Find the share of the loss for Ameena using the old ratio
 > 
-> `$ 5 space 500 space cross times space 7 over 11 space equals space $ 3 space 500`
+> `$ 5 500×7 / 11=$ 3 500`
 > 
 > Note that the revaluation account would look like:
 > 

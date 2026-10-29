@@ -32,25 +32,25 @@ guided_study: false
   - The bit before the colon is the type of element
   - The bit after the colon is the rule
   
-    - {*x *is a positive integer : *x*<sup>2</sup> < 30} is the set of positive integers which, when squared, are less than 30
+    - {*x* is a positive integer : *x*<sup>2</sup> < 30} is the set of positive integers which, when squared, are less than 30
     - This is equal to {1, 2, 3, 4, 5}
   - The colon is often read as '**such that'**
   - If **no type** is specified, *x* can take **any value** (fractions, decimals, irrationals, ...)
   
     - {*x*: *x*<sup>2</sup> < 30} means any value whose square is less than 30
-  - { (*x*, *y*) : *y *= *mx *+ *c* } would mean the coordinates (*x*, *y*) where *y *= *mx *+ *c*
+  - { (*x*, *y*) : *y* = *mx* + *c* } would mean the coordinates (*x*, *y*) where *y* = *mx* + *c*
   
-    - I.e. The set of all possible coordinates that lie on the line *y *= *mx *+ *c*
+    - I.e. The set of all possible coordinates that lie on the line *y* = *mx* + *c*
 
 ### What do I need to know about set notation?
 
 - $E$ is the **universal** set (the set of **everything**)
 
   - For example, if we are only interested in factors of 24 then $E$ = {1, 2, 3, 4, 6, 8, 12, 24}
-- We use **upper case** letters to represent **sets** (*A*,* B*,* C*, ...) and **lower case** letters to represent **elements **(*a*,* b*,* c*, ...)
+- We use **upper case** letters to represent **sets** (*A*,*B*,*C*, ...) and **lower case** letters to represent **elements **(*a*,*b*,*c*, ...)
 - n(*A*) is the **number of elements** in set *A*
 
-  - For example, if $E$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, *A * = {1, 4, 9}, *B  *= {1, 2, 3, 4, 5, 6}
+  - For example, if $E$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, *A* = {1, 4, 9}, *B* = {1, 2, 3, 4, 5, 6}
   n(*A*) = 3, n(*B*) = 6
 - $\in$ means "**is an element of**"
 
@@ -68,8 +68,8 @@ guided_study: false
 
   - This is the set of elements that are in **both** set *A*  and set *B*
   
-    - E.g. If *A* = {1, 2, 3, 4, 5} and *B* = {-1, 1, 4, 7, 8}, then *A* $\cap$ *B  *= {1, 4}
-- *A* $\cup$ *B * means the **union** of *A*  and *B*  (**everything** in *A*  **or** *B*  **or** both)
+    - E.g. If *A* = {1, 2, 3, 4, 5} and *B* = {-1, 1, 4, 7, 8}, then *A* $\cap$ *B* = {1, 4}
+- *A* $\cup$ *B* means the **union** of *A*  and *B*  (**everything** in *A*  **or** *B*  **or** both)
 
   - This is the set of elements that are in **at least one** of the sets
   - This **includes **elements in both sets (in the intersection)
@@ -94,7 +94,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *All the elements of *$M$* are also in *$T$
+> > *All the elements of* $M$ *are also in* $T$
 > 
 > $M\subsetT$
 
@@ -120,8 +120,8 @@ guided_study: false
 
 ### What do the different regions mean on a Venn diagram?
 
-- $A\cupB$  is represented by the regions that **are in** *A * or *B * or both
-- $A\capB$  is represented by the region where the *A*  and *B  *circles **overlap**
+- $A\cupB$  is represented by the regions that **are in** *A* or *B* or both
+- $A\capB$  is represented by the region where the *A*  and *B* circles **overlap**
 
 ![Venn diagrams showing the union and the intersection of sets A and B](../../../assets/942758b434cf-6364-set-notation-and-venn-diagrams-1.png)
 
@@ -136,10 +136,10 @@ guided_study: false
   - A region **outside the circles**
   
     - $A'\capB'$
-    - This can also be written as `open parentheses A union B close parentheses apostrophe`
+    - This can also be written as `(A union B) apostrophe`
 
 > **Worked Example**
-> Two sets *A *and *B *are shown in the Venn diagram.
+> Two sets *A* and *B* are shown in the Venn diagram.
 > 
 > ![Two sets, A and B, represented on a Venn diagram](assets/7980db8ebb86-64542-set-notation-and-venn-diagrams-2.png)
 > 

@@ -41,7 +41,7 @@ There is no assessment on language analysis as such. Examiners are looking for a
   - This happens when Klara’s robot brain is overloaded by information and cannot compute the sheer amount of detail
   - The implication here is that a robot cannot quickly process and sift complex human emotions in the way a human brain can, even though her processing and observational abilities are emphasised as vastly superior to a human’s
 
-- At the start of Part Two, the narrative perspective is revealed to be* retrospective*, with Klara stating, “Today, as I gather these memories”:
+- At the start of Part Two, the narrative perspective is revealed to be *retrospective*, with Klara stating, “Today, as I gather these memories”:
 
   - The retrospective nature of the narrative adds an additional layer of wisdom to Klara’s perspective
   - The perspective further suggests a character arc, with the novel explaining how and why Klara has changed, and how events have influenced her change

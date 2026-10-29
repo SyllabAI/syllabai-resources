@@ -24,7 +24,7 @@ guided_study: false
   - There is an $x^{2}$ term and any **inequality sign**, $\geq,\leq,>,<$
   - They can usually be **factorised**
   
-    - For example, `open parentheses x minus 2 close parentheses open parentheses x minus 5 close parentheses greater or equal than 0`
+    - For example, `(x−2)(x−5) greater or equal than 0`
 - **Solutions** to quadratic inequalities are **ranges of **$x$** values**
 
   - For example, $1\leqx\leq4$
@@ -34,12 +34,12 @@ guided_study: false
 - Quadratic inequalities are** solved **by **sketching a graph**
 
   - The solutions then appears along the $x$-axis
-- For example, to solve `open parentheses x minus 2 close parentheses open parentheses x minus 5 close parentheses greater or equal than 0`
+- For example, to solve `(x−2)(x−5) greater or equal than 0`
 
-  - Sketch the graph of `y equals open parentheses x minus 2 close parentheses open parentheses x minus 5 close parentheses`
+  - Sketch the graph of `y=(x−2)(x−5)`
   
     - Show the** **$x$**-intercepts** of 2 and 5
-    - These come from solving `open parentheses x minus 2 close parentheses open parentheses x minus 5 close parentheses equals 0`
+    - These come from solving `(x−2)(x−5)=0`
   - As the inequality is** **$\geq0$, **shade **any **parts of the curve **that are **above the **$x$**-axis**
   
     - These are left of $x=2$ and right of $x=5$
@@ -47,7 +47,7 @@ guided_study: false
   
     - $x\leq2$ or $x\geq5$
     - Use the word "**or**" for two separate parts
-    - In** set notation** this is `open curly brackets x colon space x less or equal than 2 close curly brackets union open curly brackets x colon space x greater or equal than 5 close curly brackets`
+    - In** set notation** this is `open curly brackets x colon x less or equal than 2 close curly brackets union open curly brackets x colon x greater or equal than 5 close curly brackets`
 
 ![Graph of quadratic inequality (x-2)(x-5) ≥ 0, showing shading for x ≤ 2 and x ≥ 5, and the quadratic function y = (x-2)(x-5) plotted, crossing x at 2 and 5.](../../../assets/b6ea98fb89cf-4010-quadratic-inequality-1.png)
 
@@ -59,13 +59,13 @@ guided_study: false
 - If the quadratic inequality is $ax^{2}+bx+c\leq0$ where $a$ is positive
 
   - then shade the part of the curve** below **the $x$-axis
-- For example, to solve `open parentheses x minus 2 close parentheses open parentheses x minus 5 close parentheses less or equal than 0`
+- For example, to solve `(x−2)(x−5) less or equal than 0`
 
   - Repeat the process above but shade where the curve is below the $x$-axis
   
     - The solution is $2\leqx\leq5$
     - (You do not use the word "or", but could say $x\geq2$ "**and**" $x\leq5$)
-    - In** set notation** this is `open curly brackets x colon space x greater or equal than 2 close curly brackets intersection open curly brackets x colon space x less or equal than 5 close curly brackets`, or alternatively `open curly brackets x colon space 2 less or equal than x less or equal than 5 close curly brackets`
+    - In** set notation** this is `open curly brackets x colon x greater or equal than 2 close curly brackets intersection open curly brackets x colon x less or equal than 5 close curly brackets`, or alternatively `open curly brackets x colon space 2 less or equal than x less or equal than 5 close curly brackets`
 
 ![Graph depicting the quadratic inequality (x - 2)(x - 5) ≤ 0. The highlighted area shows y = (x - 2)(x - 5) between x = 2 and x = 5, inclusive.](../../../assets/fccf7a41d20c-63132-quadratic-inequality-2.png)
 
@@ -85,8 +85,8 @@ guided_study: false
   - This may involve factorising
   
     - $ax^{2}+bx+c$ into **double brackets**
-    - `a squared x squared minus b squared equals open parentheses a x plus b close parentheses open parentheses a x minus b close parentheses` (the **difference of two squares**)
-    - `a x squared plus b x equals x open parentheses a x plus b close parentheses` (**factorising out** an $x$)
+    - `a² x²−b²=(a x+b)(a x−b)` (the **difference of two squares**)
+    - `a x²+b x=x (a x+b)` (**factorising out** an $x$)
   - If it does **not** factorise, you may need the **quadratic formula **to find $x$-intercepts
 - You may be given a quadratic inequality $ax^{2}+bx+c\geq0$ where $a$ is** negative**
 

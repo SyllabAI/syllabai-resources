@@ -54,7 +54,7 @@ guided_study: false
   - **Cost of Sales** is the** **cost of raw materials and labour used in producing or buying in the goods actually sold by the business during a time period
   
     - Calculated by **Variable Cost per unit x Quantity Sold**
-- In 2023, *Toys & Trikes Ltd *earned revenue of \$274,000 and its cost of sales was \$169,000
+- In 2023, *Toys & Trikes Ltd* earned revenue of \$274,000 and its cost of sales was \$169,000
 
   - Gross Profit was therefore \$274,000 - \$169,000 = \$105,000
 
@@ -64,7 +64,7 @@ guided_study: false
 - Calculated by **Gross Profit - Expenses**
 
   - **Expenses** are costs that are not directly related to the production of goods or purchasing stock for sales
-- In 2023, *Toys & Trikes Ltd *made a gross profit of \$105,000 and had expenses of \$48,000
+- In 2023, *Toys & Trikes Ltd* made a gross profit of \$105,000 and had expenses of \$48,000
 
   - Operating Profit was therefore \$105,000 - \$48,000 = \$57,000
 

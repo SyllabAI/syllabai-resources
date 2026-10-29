@@ -34,7 +34,7 @@ guided_study: false
   - Expansionary policies include
   
     - Reducing interest rates: encourages borrowing and this helps to drive demand for goods and services
-    - Increasing* quantitative easing*: increases the money supply in the economy which means families have more money to buy goods and services
+    - Increasing *quantitative easing*: increases the money supply in the economy which means families have more money to buy goods and services
     - ***Depreciating*** the exchange rate: encourages foreigners to buy goods and services from our country which can increase the supply of money
 
 #### Example: expansionary monetary policy in the USA
@@ -62,7 +62,7 @@ guided_study: false
 
 ### The impact of monetary policy changes on business decisions
 
-- When a Central Bank changes the base rate of interest, it changes the price of borrowing for everyone, from families with *mortgages *to firms financing new equipment
+- When a Central Bank changes the base rate of interest, it changes the price of borrowing for everyone, from families with *mortgages* to firms financing new equipment
 - Businesses take a range of decisions to keep borrowing affordable, steady sales, and stay ahead of rivals whenever rates change
 
 #### Business decisions and interest rate changes
@@ -145,10 +145,10 @@ guided_study: false
 
 | **Supply-side policy** | **Explanation** | **Effects** |
 |---|---|---|
-| **Education and training** | - Increasing government spending on** education** raises the quality of the workforce, resulting in *productivity *improvements | - Skills increase, leading to productivity improvements<br><br>  - The cost of production falls so selling prices can be lower, leading to improved international competitiveness |
+| **Education and training** | - Increasing government spending on** education** raises the quality of the workforce, resulting in *productivity* improvements | - Skills increase, leading to productivity improvements<br><br>  - The cost of production falls so selling prices can be lower, leading to improved international competitiveness |
 | **Improving quality, quantity and access to health care** | - Increasing government spending on** healthcare** so that productivity improves | - Healthier workforce can improve productivity<br><br>  - Output increases, so businesses can better meet demand, leading to business growth |
-| **Research and development** | - Increased **government spending** on *innovation *increases the supply of potential jobs in the economy | - New industry emerges, leading to improved  infrastructure<br><br>  - More jobs are created leading to long-term economic growth |
-| **Provision of infrastructure** | - Increased government spending on *infrastructure *helps to facilitate the **movement of people and goods**, which increases supply | - New infrastructure is developed helping reduce costs of production<br><br>  - Supply increases so firms lower selling prices, leading to improved competitiveness |
+| **Research and development** | - Increased **government spending** on *innovation* increases the supply of potential jobs in the economy | - New industry emerges, leading to improved  infrastructure<br><br>  - More jobs are created leading to long-term economic growth |
+| **Provision of infrastructure** | - Increased government spending on *infrastructure* helps to facilitate the **movement of people and goods**, which increases supply | - New infrastructure is developed helping reduce costs of production<br><br>  - Supply increases so firms lower selling prices, leading to improved competitiveness |
 | **Industrial policies** | - Industrial policies are direct and targeted support to firms or industries in the form of ***subsidies *** | - Businesses receive subsidies so their costs of production decrease<br><br>  - Increased profit is generated, allowing more investment in innovation |
 
 ### Market-based supply-side policies

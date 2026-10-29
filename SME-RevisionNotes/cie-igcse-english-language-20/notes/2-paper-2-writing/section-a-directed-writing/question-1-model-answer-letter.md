@@ -102,7 +102,7 @@ The following model answer demonstrates a top-mark response to the above task:
 > 
 > *It was lovely to hear from you. Your potential move to France sounds like a thrilling adventure, though we would naturally miss Luke and Harry terribly!*
 > 
-> *I have been doing some research, and I must be honest about my concerns.* Achieving fluency is significantly harder as we get older. Since the boys are teenagers, they may struggle to integrate at school; I would hate for them to feel isolated because their accents mark them out as different. *Professionally, you may also face hurdles; missing linguistic nuances like tone can easily lead to workplace confusion. *There is also a risk that if the boys adapt faster than you, it could create a frustrating distance within the family.
+> *I have been doing some research, and I must be honest about my concerns.* Achieving fluency is significantly harder as we get older. Since the boys are teenagers, they may struggle to integrate at school; I would hate for them to feel isolated because their accents mark them out as different. *Professionally, you may also face hurdles; missing linguistic nuances like tone can easily lead to workplace confusion.* There is also a risk that if the boys adapt faster than you, it could create a frustrating distance within the family.
 > 
 > *That said, the benefits are undeniable*. Viewing the world through a different cultural lens is enriching, and bilingualism is a fantastic employability skill. I even read that it can help prevent dementia in later life!
 > 

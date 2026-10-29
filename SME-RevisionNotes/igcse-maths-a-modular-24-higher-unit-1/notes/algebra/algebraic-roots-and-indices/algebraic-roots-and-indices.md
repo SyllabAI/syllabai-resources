@@ -66,7 +66,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> *Use *$( a^{m )^{n} = a^{m} n}$
+> *Use* $( a^{m )^{n} = a^{m} n}$
 > 
 > $( u^{5 )^{5} = u^{5} \times 5}$
 > 
@@ -76,11 +76,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use *$a^{m}\timesa^{n}=a^{m+n}$* to simplify the numerator*
+> > *Use* $a^{m}\timesa^{n}=a^{m+n}$ *to simplify the numerator*
 > 
 > $q^{2}\timesq^{5}=q^{2+5}=q^{7}$
 > 
-> > *Use *$\frac{a^{m}}{a^{n}}=a^{m-n}$* **to simplify the fraction*
+> > *Use* $\frac{a^{m}}{a^{n}}=a^{m-n}$* **to simplify the fraction*
 > 
 > $\frac{q^{7}}{q^{10}}=q^{7-10}=q^{-3}$
 > 
@@ -88,9 +88,9 @@ guided_study: true
 > 
 > > $q^{x}=q^{-3}$* *
 > 
-> > *Both sides are now over the same base of *$q$
+> > *Both sides are now over the same base of* $q$
 > 
-> > *So *$x$* must equal the power on the right-hand side*
+> > *So* $x$ *must equal the power on the right-hand side*
 > 
 > $x=-3$
 
@@ -99,15 +99,15 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use *$a^{ \frac{1}{n} } = \sqrt[n]{a}$* to rewrite the cube-root as a power of *$\frac{1}{3}$
+> > *Use* $a^{ \frac{1}{n} } = \sqrt[n]{a}$ *to rewrite the cube-root as a power of* $\frac{1}{3}$
 > 
 > $\frac{1}{( x^{4 )^{1}} \frac{1}{3}}$
 > 
-> > *Use *$( a^{m )^{n} = a^{m} n}$* to simplify the denominator*
+> > *Use* $( a^{m )^{n} = a^{m} n}$ *to simplify the denominator*
 > 
 > $\frac{1}{x^{\frac{4}{3}}}$
 > 
-> > *Use *$a^{-n}=\frac{1}{a^{n}}$* to rewrite as a term with a negative fraction as the power*
+> > *Use* $a^{-n}=\frac{1}{a^{n}}$ *to rewrite as a term with a negative fraction as the power*
 > 
 > $x^{-\frac{4}{3}}$
 > 
@@ -115,13 +115,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use *$( a b )^{n} = a^{n} b^{n}$* to rewrite the left hand side*
-> *Remember to apply the power to both *$a$* and *$x^{6}$
+> > *Use* $( a b )^{n} = a^{n} b^{n}$ *to rewrite the left hand side*
+> *Remember to apply the power to both* $a$ *and* $x^{6}$
 > 
 > $a^{\frac{1}{m}}\timesx^{\frac{6}{m}}=8x^{3}$
 > 
-> > *Both sides of the equation have a constant part, *$a^{\frac{1}{m}}$* and *$8$
-> *And both sides of the equation have a part in terms of *$x$
+> > *Both sides of the equation have a constant part,* $a^{\frac{1}{m}}$ *and* $8$
+> *And both sides of the equation have a part in terms of* $x$
 > 
 > > *The two sides of the equation are equal, so set the respective parts equal to one another*
 > 
@@ -133,7 +133,7 @@ guided_study: true
 > 
 > $\frac{6}{m}=3$
 > 
-> > *Solve to find *$m$
+> > *Solve to find* $m$
 > 
 > $m=2$
 > 
@@ -141,14 +141,14 @@ guided_study: true
 > 
 > $a^{\frac{1}{m}}=8$
 > 
-> > *We now know that *$m=2$*, so substitute this in*
+> > *We now know that* $m=2$*, so substitute this in*
 > 
 > $a^{\frac{1}{2}}=8$
 > 
-> > *Use *$a^{ \frac{1}{n} } = \sqrt[n]{a}$* to rewrite as a square root*
+> > *Use* $a^{ \frac{1}{n} } = \sqrt[n]{a}$ *to rewrite as a square root*
 > 
 > $\sqrt{a} = 8$
 > 
-> > *Find *$a$* by squaring both sides*
+> > *Find* $a$ *by squaring both sides*
 > 
 > $a=64$

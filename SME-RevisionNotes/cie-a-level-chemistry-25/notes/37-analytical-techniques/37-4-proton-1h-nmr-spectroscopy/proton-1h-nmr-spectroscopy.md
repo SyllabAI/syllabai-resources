@@ -155,7 +155,7 @@ guided_study: true
 
 - The number of sub-peaks is one greater than the number of adjacent protons causing the splitting
 
-  - For a proton with *n *protons attached to an adjacent carbon atom, the number of sub-peaks in a splitting pattern = *n*+1
+  - For a proton with *n* protons attached to an adjacent carbon atom, the number of sub-peaks in a splitting pattern = *n*+1
 - When analysing spin-spin splitting, it shows you the number of hydrogen atoms on the adjacent carbon atom
 - These are the splitting patterns that you need to be able to recognise from a <sup>1</sup>H spectra:
 

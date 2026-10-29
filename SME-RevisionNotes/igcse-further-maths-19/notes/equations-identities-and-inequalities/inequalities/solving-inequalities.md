@@ -57,9 +57,9 @@ guided_study: false
 
   - `open curly brackets x colon space... close curly brackets` means "*x* is in the set such that ..."
   
-    - e.g. the set of all *x *such that *x *is greater than 3 is written `open curly brackets x colon space x greater than 3 close curly brackets`
+    - e.g. the set of all *x* such that *x* is greater than 3 is written `open curly brackets x colon space x greater than 3 close curly brackets`
 
-- If *x * is **between** two values
+- If *x* is **between** two values
 
   - you can write it as a single set
   
@@ -69,7 +69,7 @@ guided_study: false
     - so the above example could also be written in set notation as `open curly brackets x colon x greater than 3 close curly brackets intersection open curly brackets x colon x less or equal than 5 close curly brackets`
   - Either way will get the marks, unless a question specifically **asks for** one or the other
 
-- If *x * is **less than one value OR greater than another value** (disjoint sets)
+- If *x* is **less than one value OR greater than another value** (disjoint sets)
 
   - then the two end values must be written in separate sets using the **union** symbol, $\cup$
   
@@ -150,7 +150,7 @@ guided_study: false
 - **STEP 2**
 Find the **roots** of the quadratic equation
 
-  - **Solve** *ax*<sup>2</sup> + *bx* + *c *= 0 to get ***x***<sub>**1**</sub>* *and* ****x***<sub>**2 **</sub>where** *****x***<sub>**1**</sub>** < *****x***<sub>**2**</sub>
+  - **Solve** *ax*<sup>2</sup> + *bx* + *c* = 0 to get ***x***<sub>**1**</sub>* *and* ****x***<sub>**2 **</sub>where** *****x***<sub>**1**</sub>** < *****x***<sub>**2**</sub>
 - **STEP 3**
 **Sketch** a graph of the quadratic and **label the roots**
 

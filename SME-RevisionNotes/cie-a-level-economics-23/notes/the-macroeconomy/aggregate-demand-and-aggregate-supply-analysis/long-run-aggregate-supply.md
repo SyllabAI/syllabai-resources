@@ -20,11 +20,11 @@ guided_study: false
 - **Short run aggregate supply (SRAS)** is influenced by changes in the costs of production or productivity
 
   - Short run refers to the time period where at least one factor of production is fixed
-- **Long run aggregate supply (LRAS) **is influenced by a change in the *productive capacity *of the economy
+- **Long run aggregate supply (LRAS) **is influenced by a change in the *productive capacity* of the economy
 
   - Productive capacity is affected by changes to the quantity or quality of the factors of production
   
-    - When production capacity changes, it is equivalent to a shift inwards/outwards of the *production possibilities frontier *(PPF)
+    - When production capacity changes, it is equivalent to a shift inwards/outwards of the *production possibilities frontier* (PPF)
 - Long-term economic growth requires the productive capacity to increase
 
 ## An introduction to long-run aggregate supply (LRAS)
@@ -127,7 +127,7 @@ guided_study: false
 |---|---|---|
 | **Land ** | - The quality of land can increase productivity through<br><br>  - **Irrigation schemes **<br>  - Use of **fertilisers **<br>  - *Genetic modification* of crops | - Land can increase in quantity due to<br><br>  - Discovery of **new resources, **eg. oil reserves<br>  - ***Land reclamation***, eg. The Netherlands reclaiming land from the North Sea |
 | **Labour ** | - A well-educated** workforce **increases overall productivity and can be achieved through:<br><br>  - ***Apprenticeship *****programmes**<br>  - Job-related** training ** | - The quantity of labour can increase due to<br><br>  - Increased ***immigration***<br>  - Increase in** *****birth rates***<br>  - ***Fringe benefits***, eg. free child care, encourages people at home to work |
-| **Capital ** | - **Technological advances,** eg. a new machine can increase output per unit  and reduce cost<br>- Research and development (**R&D**) can lead to more *innovative *processes and efficiency | - Increased investment in **capital goods** can lead to overall increase in productive capacity<br><br>  - Investment into infrastructure: roads, airports, technology |
+| **Capital ** | - **Technological advances,** eg. a new machine can increase output per unit  and reduce cost<br>- Research and development (**R&D**) can lead to more *innovative* processes and efficiency | - Increased investment in **capital goods** can lead to overall increase in productive capacity<br><br>  - Investment into infrastructure: roads, airports, technology |
 
 > **Exam Hint**
 > The key distinction between the classical and Keynesian LRAS is what each model implies about the role of government. In the classical model, LRAS is vertical at full employment output - the economy is always tending towards Y<sub>FE</sub>, so government intervention to boost AD is unnecessary and simply inflationary.

@@ -77,13 +77,13 @@ guided_study: false
 > 
 > - Apportion the total to each department based on its power usage
 > 
-> Painting: *(120 ÷ 500) × \$20 500 = \$4 920 *
+> Painting: *(120 ÷ 500) × \$20 500 = \$4 920*
 > 
-> Sewing: *(320 ÷ 500) × \$20 500 = \$13 120 *
+> Sewing: *(320 ÷ 500) × \$20 500 = \$13 120*
 > 
-> Technical support: *(40 ÷ 500) × \$20 500 =* *\$1 640 *
+> Technical support: *(40 ÷ 500) × \$20 500 =* *\$1 640*
 > 
-> Personnel: *(20 ÷ 500) × \$20 500 = \$820 *
+> Personnel: *(20 ÷ 500) × \$20 500 = \$820*
 > 
 > **Buildings insurance**
 > 
@@ -95,13 +95,13 @@ guided_study: false
 > 
 > - Apportion the total to each department based on its floor area
 > 
-> Painting: *(90 ÷ 180) × \$11 800 = \$5 940 *
+> Painting: *(90 ÷ 180) × \$11 800 = \$5 940*
 > 
 > Sewing: *(70 ÷ 180) × \$11 800 = \$4 620*
 > 
-> Technical support: *(15 ÷ 180) × \$11 800 = \$990 *
+> Technical support: *(15 ÷ 180) × \$11 800 = \$990*
 > 
-> Personnel: *(5 ÷ 180) × \$11 800 = \$330 *
+> Personnel: *(5 ÷ 180) × \$11 800 = \$330*
 > 
 > **Total overheads**
 > 
@@ -150,13 +150,13 @@ guided_study: false
 > 
 > - Calculate the total number of employees
 > 
-> *20 + 15 + 5 = 40 employees *
+> *20 + 15 + 5 = 40 employees*
 > 
 > - Apportion the total to each department based on its number of employees
 > 
-> Painting:* (20 ÷ 40) × \$18 650 = \$9 325 *
+> Painting: *(20 ÷ 40) × \$18 650 = \$9 325*
 > 
-> Sewing:* (15 ÷ 40) × \$18 650 = \$6 993.75*
+> Sewing: *(15 ÷ 40) × \$18 650 = \$6 993.75*
 > 
 > Technical support: *(5 ÷ 40) × \$18 650 = \$2 331.25*
 > 
@@ -174,13 +174,13 @@ guided_study: false
 > 
 > - Calculate the total number of technical support hours
 > 
-> *400 + 60 = 460 technical support hours *
+> *400 + 60 = 460 technical support hours*
 > 
 > - Apportion the total to each department based on its number of technical support hours
 > 
 > Painting: *(400 ÷ 460) × \$35 531.25 = \$30 896.74*
 > 
-> Sewing: *(60 ÷ 460) × \$35 531.25  = \$4 634.51 *
+> Sewing: *(60 ÷ 460) × \$35 531.25  = \$4 634.51*
 > 
 > **Total overheads**
 > 

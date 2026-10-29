@@ -105,7 +105,7 @@ guided_study: false
 #### 3.Political constraints
 
 - *Election cycles* encourage short-term policy choices over long-term optimal policy
-- Politically powerful groups (industries, *unions*, regional voters) lobby for protection, *subsidies *or tax breaks that benefit them at general cost
+- Politically powerful groups (industries, *unions*, regional voters) lobby for protection, *subsidies* or tax breaks that benefit them at general cost
 - Policy reversals between governments undermine credibility and long-run effectiveness
 
   - For example, supply-side investment in education and infrastructure benefits the economy over decades but rarely shows results within an electoral cycle
@@ -114,7 +114,7 @@ guided_study: false
 
 - Policies designed to achieve one outcome can produce unexpected effects elsewhere
 - For example, *quantitative easing* was intended to stimulate lending, but instead inflated asset prices (housing, equities), widening inequality without raising real activity in proportion
-- For example, protectionist *tariffs *designed to support domestic industry can trigger retaliation from trading partners that harms exporters
+- For example, protectionist *tariffs* designed to support domestic industry can trigger retaliation from trading partners that harms exporters
 
 #### 5. Regulatory capture and rent-seeking
 

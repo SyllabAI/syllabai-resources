@@ -83,16 +83,16 @@ OR
 
 *E*<sup>θ</sup> ∝ ln*K*
 
-- Δ*G *= –*nF E*<sup>*θ*</sup><sub>cell</sub>
+- Δ*G* = –*nF E*<sup>*θ*</sup><sub>cell</sub>
 
-  - Δ*G *= –*RT *ln* K*
+  - Δ*G* = –*RT* ln *K*
 
 > **Exam Hint**
 > You are expected to be aware of the two directly proportional relationships described
 > 
 > However, you are not expected to work with the Faraday based Gibbs free energy equation
 > 
-> Δ*G *= –*nF E*<sup>*θ*</sup><sub>cell</sub>
+> Δ*G* = –*nF E*<sup>*θ*</sup><sub>cell</sub>
 > 
 > - The Faraday constant, *F*, is not given in the Data Booklet
 

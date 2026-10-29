@@ -30,7 +30,7 @@ guided_study: false
 
   - These include:
   
-    - Readings from the *Old Testament*, a* psalm*, a reading from the *New Testament* and a *gospel* reading each Sunday
+    - Readings from the *Old Testament*, a *psalm*, a reading from the *New Testament* and a *gospel* reading each Sunday
     - A **sermon**, which the priest delivers to explain the readings and help believers reflect on the messages the readings contain
 - In the **Anglican Church**, the format of services are often similar to that of the Catholic Church
 - In **Protestant churches** such as the **Methodist Church**, the **Bible readings** and the **sermon** are the **central features** of the Sunday service
@@ -78,7 +78,7 @@ guided_study: false
 
 ## The meaning and importance of the paten and the chalice
 
-- A **paten**, or plate, is what the** bread** is placed on during a *Holy Communion service *or Mass
+- A **paten**, or plate, is what the** bread** is placed on during a *Holy Communion service* or Mass
 - A **chalice** is a **cup** that holds the** wine** during a Holy Communion service or Mass
 - Both items are used by the priest at the moment of **consecration**, or **blessing **of the bread and wine, during the **Eucharist**
 - The paten and chalice are often made from **precious metals**, usually **gold or silver**

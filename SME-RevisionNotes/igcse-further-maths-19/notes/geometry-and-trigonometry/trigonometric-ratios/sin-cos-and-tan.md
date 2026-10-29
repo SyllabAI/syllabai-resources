@@ -23,7 +23,7 @@ guided_study: false
 - It helps us to define values for **sin *****θ****,* **cos *****θ *** and **tan *****θ  ***for **all** values of *θ*
 
   - $420^{\circ}$* *or $-750^{\circ}$doesn't make sense as an angle in a triangle or other shape
-  - But sin *θ, *cos *θ * and tan *θ*  are defined for 'angles' like that
+  - But sin *θ,* cos *θ* and tan *θ*  are defined for 'angles' like that
 - **On the unit circle**
 
   - Angles are always measured **from the positive *****x-*****axis** and turn:
@@ -47,7 +47,7 @@ guided_study: false
   
     - the ***x *****coordinate** gives the value of **cos *****θ***
     - the ***y *****coordinate** gives the value of **sin *****θ***
-  - **Dividing** the *y *coordinate by the *x *coordinate gives the value of **tan *****θ***
+  - **Dividing** the *y* coordinate by the *x* coordinate gives the value of **tan *****θ***
   
     - This is also the **gradient** of the line through the origin and the point on the unit circle
 - Unlike SOHCAHTOA this allows us to **calculate sin**, **cos** and **tan** for
@@ -82,7 +82,7 @@ guided_study: false
   - **T**angent (tan *θ* ) is positive in this quadrant
 - The **fourth quadrant** is for angles between 270° and 360° ($\frac{3π}{2}$ rad and $2π$ rad)
 
-  - **C**osine (cos *θ *) is positive in this quadrant
+  - **C**osine (cos *θ*) is positive in this quadrant
 - Starting from the **fourth** quadrant (on the bottom right) and working anti-clockwise
 
   - the positive trig functions spell out **CAST**
@@ -117,7 +117,7 @@ guided_study: false
     - If you see ***π*** or some multiple of π then you must work in radians
 - The following steps can help you use the unit circle to find **additional values**
 - **STEP 1**
-**Draw** the primary value angle using the *x* or *y *coordinates to help you
+**Draw** the primary value angle using the *x* or *y* coordinates to help you
 
   - This will be in the first or second quadrants if using $\mathrm{cos}^{-1}$ to get the primary angle
   
@@ -173,7 +173,7 @@ Add or subtract (multiples of) either 360° or 2*π* radians to or from both val
 > - This can help you to find all solutions to a problem in an exam question
 
 > **Worked Example**
-> It is given that one solution of $\mathrm{cos}θ=0.8$ is *θ *= 0.6435 radians, correct to 4 decimal places.
+> It is given that one solution of $\mathrm{cos}θ=0.8$ is *θ* = 0.6435 radians, correct to 4 decimal places.
 > 
 > Use this to find all other solutions in the interval  $-2π\leqθ\leq2π$, giving your answers correct to 3 significant figures.
 > 
@@ -210,7 +210,7 @@ Add or subtract (multiples of) either 360° or 2*π* radians to or from both val
   - They are the ***x*** and ***y *****coordinates** respectively
   - If using the unit circle coordinates to memorise the exact values
   
-    - remember that cos (*x  *value) comes **before** sin (*y*  value)
+    - remember that cos (*x* value) comes **before** sin (*y*  value)
 - The unit circle can also be used to find **exact values of other angles** using symmetry
 - If you know the exact values for an angle in the **first quadrant**
 

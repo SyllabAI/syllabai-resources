@@ -50,12 +50,12 @@ guided_study: false
 > 
 > (a)  $α+β$
 > 
-> > *Either use *$\\alpha + \\beta = - \frac{b}{a} = - \frac{( - 30 )}{5}$
+> > *Either use* $\\alpha + \\beta = - \frac{b}{a} = - \frac{( - 30 )}{5}$
 > *Or first divide both sides of the equation by 5*
 > 
 > $x^{2}-6x-\frac{3}{5}=0$
 > 
-> > *Then use *$x ^{2} - ( \text{sum} of \text{roots} ) x + \text{product} of \text{roots} = 0$
+> > *Then use* $x ^{2} - ( \text{sum} of \text{roots} ) x + \text{product} of \text{roots} = 0$
 > *The sum of the roots is the negative of the middle number*
 > 
 > $\\alpha + \\beta = - ( - 6 )$
@@ -64,12 +64,12 @@ guided_study: false
 > 
 > (b)  $αβ$
 > 
-> > *Either use *$\\alpha \\beta = \frac{c}{a} = \frac{( - 3 )}{5}$
+> > *Either use* $\\alpha \\beta = \frac{c}{a} = \frac{( - 3 )}{5}$
 > *Or first divide both sides of the equation by 5*
 > 
 > $x^{2}-6x-\frac{3}{5}=0$
 > 
-> > *Then use *$x ^{2} - ( \text{sum} of \text{roots} ) x + \text{product} of \text{roots} = 0$
+> > *Then use* $x ^{2} - ( \text{sum} of \text{roots} ) x + \text{product} of \text{roots} = 0$
 > *The product of the roots is the constant term on the end*
 > *No change of sign is needed*
 > 
@@ -128,29 +128,29 @@ guided_study: false
 > 
 > (a)  $\frac{α}{β}+\frac{β}{α}$
 > 
-> > *Use *$α+β=-\frac{b}{a}$* and *$αβ=\frac{c}{a}$* to find the sum and product of the roots*
+> > *Use* $α+β=-\frac{b}{a}$ *and* $αβ=\frac{c}{a}$ *to find the sum and product of the roots*
 > 
 > $α+β=-\frac{10}{2}=-5$* *  *and*   $αβ=\frac{9}{2}$
 > 
-> > *Add the algebraic fractions *$\frac{α}{β}+\frac{β}{α}$
-> *Use a lowest common denominator of *$αβ$
+> > *Add the algebraic fractions* $\frac{α}{β}+\frac{β}{α}$
+> *Use a lowest common denominator of* $αβ$
 > 
-> `| alpha / beta + beta / alpha | = (alpha ^2)/(alpha beta) + (beta ^2)/(alpha beta) | | _ _ _ | _ = (alpha ^2 + beta ^2)/(alpha beta) | |`
+> `| α / β+β / α |=(α ^2)/(α β)+(β ^2)/(α β) | | _ _ _ | _=(α ^2+β ^2)/(α β) | |`
 > 
-> > *Now use the identity for the sum of the squares of the roots *$α^{2}+β^{2}\equiv(α+β)^{2}-2αβ$
+> > *Now use the identity for the sum of the squares of the roots* $α^{2}+β^{2}\equiv(α+β)^{2}-2αβ$
 > 
 > $= \frac{( \\alpha + \\beta )^{2} - 2 \\alpha \\beta }{\\alpha \\beta }$
 > 
-> *Substitute in *$α+β=-5$  *and*  $αβ=\frac{9}{2}$
+> *Substitute in* $α+β=-5$  *and*  $αβ=\frac{9}{2}$
 > 
-> `| alpha / beta + beta / alpha | = (( - 5 ) ^2 - 2 ( 9 / 2 ))/(( 9 / 2 )) | | _ = (25 - 9)/(9 / 2) | | _ = 16 / 9 / 2 | |`
+> `| α / β+β / α |=((- 5) ^2 - 2 (9 / 2))/((9 / 2)) | | _=(25 - 9)/(9 / 2) | | _=16 / 9 / 2 | |`
 > 
 > $\begin{array}{ccc}\frac{ \alpha }{ \beta } + \frac{ \beta }{ \alpha } & = & \frac{32}{9}\end{array}$
 > 
 > (b)  $α^{3}+β^{3}$
 > 
-> > *Either use *$α^{3}+β^{3}\equiv(α+β)^{3}-3αβ(α+β)$* if learnt*
-> *Or start by expanding the binomial *$(α+β)^{3}$
+> > *Either use* $α^{3}+β^{3}\equiv(α+β)^{3}-3αβ(α+β)$ *if learnt*
+> *Or start by expanding the binomial* $(α+β)^{3}$
 > 
 > $(α+β)^{3}=α^{3}+3α^{2}β+3αβ^{2}+β^{3}$
 > 
@@ -158,11 +158,11 @@ guided_study: false
 > 
 > $( \\alpha + \\beta )^{3} = \\alpha ^{3} + 3 \\alpha \\beta ( \\alpha + \\beta ) + \\beta ^{3}$
 > 
-> > *Make *$α^{3}+β^{3}$* the subject*
+> > *Make* $α^{3}+β^{3}$ *the subject*
 > 
 > $\\alpha ^{3} + \\beta ^{3} = ( \\alpha + \\beta )^{3} - 3 \\alpha \\beta ( \\alpha + \\beta )$
 > 
-> > *Substitute in *$α+β=-5$* and *$αβ=\frac{9}{2}$
+> > *Substitute in* $α+β=-5$ *and* $αβ=\frac{9}{2}$
 > 
 > $\begin{gathered} \\alpha ^{3} + \\beta ^{3} & = ( - 5 )^{3} - 3 ( \frac{9}{2} ) ( - 5 ) \\ = - 125 + \frac{135}{2} \end{gathered}$
 > 

@@ -58,7 +58,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *P(both red) = P(red and red) *
+> > *P(both red) = P(red and red)*
 > *This is P(red) × P(red) using the 'and rule'*
 > 
 > $\begin{array}{rcl} \frac{8}{11} \times \frac{8}{11} \end{array}$

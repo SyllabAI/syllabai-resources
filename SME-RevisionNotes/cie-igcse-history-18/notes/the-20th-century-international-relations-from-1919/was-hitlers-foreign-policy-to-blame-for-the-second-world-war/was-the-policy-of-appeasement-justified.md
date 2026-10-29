@@ -31,7 +31,7 @@ guided_study: false
     - He would **do anything to avoid another world war**
   - **In 1937, Chamberlain became the British Prime Minister**
   
-    - During this time, he attempted to *appease *Hitler’s *foreign policy* aims
+    - During this time, he attempted to *appease* Hitler’s *foreign policy* aims
 - Not all British politicians agreed with appeasement
 
   - **Winston Churchill was a strong opponent of appeasement**
@@ -88,7 +88,7 @@ Arguments listed below include:
 > 
 > **7 marks**
 > 
-> **Source A:** A cartoon by David Low published in the *Evening Standard *on 8th July 1936 with the title “Stepping Stones to Glory”. A representation of Hitler is seen stepping on multiple people’s backs. The words ‘Rearmament’ and ‘Rhineland Fortification’ are displayed on the first three backs.
+> **Source A:** A cartoon by David Low published in the *Evening Standard* on 8th July 1936 with the title “Stepping Stones to Glory”. A representation of Hitler is seen stepping on multiple people’s backs. The words ‘Rearmament’ and ‘Rhineland Fortification’ are displayed on the first three backs.
 > 
 > ![Hitler in Nazi uniform steps over a row of people bowing, labelled "Spineless Leaders of Democracy." The people form a staircase marked with events, such as 'Rearmament' and 'Danzig'](assets/6228b32290ba-cie-appeasement-source.png)
 > 
@@ -100,7 +100,7 @@ Arguments listed below include:
 > All sources are, in some way, useful for a historian. To achieve full marks for this question, you need to comment on the nature, origin and purpose of the source
 > 
 > - **Nature - **The source is a cartoon produced in 1936. Cartoons are useful for understanding the zeitgeist, or the mood of the time. A limitation of cartoons as historical sources is that events are often exaggerated
-> - **Origin -  **David Low was born in New Zealand but worked in the UK. He created many political cartoons for *The Star *(1919 - 1927)* *and the *Evening Standard* (1927-1950)
+> - **Origin -  **David Low was born in New Zealand but worked in the UK. He created many political cartoons for *The Star* (1919 - 1927)* *and the *Evening Standard* (1927-1950)
 > - **Purpose - **Cartoons are often drawn to entertain or to provide an opinion. Low represents an anti-appeasement opinion in a time when a lot of British people supported the policy
 > 
 > This method of source analysis ensures you are using details from the source and your own knowledge in your answer.

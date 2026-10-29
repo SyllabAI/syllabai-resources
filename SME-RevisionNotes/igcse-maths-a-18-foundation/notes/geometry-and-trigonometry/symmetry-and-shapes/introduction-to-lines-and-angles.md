@@ -22,7 +22,7 @@ guided_study: true
 - A **line **is a straight, one dimensional path that extends forever
 
   - A **line** **segment **is a part of a line, it has a start and an end point
-  - A line segment that starts at the point *A* and ends at the point *B* is usually labelled *AB *
+  - A line segment that starts at the point *A* and ends at the point *B* is usually labelled *AB*
   - Two lines with single marks are of equal length
   
     - Two other lines with double marks are of (a different) equal length

@@ -59,7 +59,7 @@ guided_study: false
   - $z z \text{asterisk} \times = z \text{asterisk} \times z = \vert z \vert^{2}$
   
     - Proved using $z=x+yi$ and $z\ast=x-yi$
-- For example, find $p$ if $z_{1}=p+pi$, $z_{2}=2i$ and $\vert z_{1} z_{2} \vert = 6 \sqrt{2}$
+- For example, find $p$ if $z_{1}=p+\pi$, $z_{2}=2i$ and $\vert z_{1} z_{2} \vert = 6 \sqrt{2}$
 
   - Use $\vert z_{1} z_{2} \vert = \vert z_{1} \vert \vert z_{2} \vert$
   
@@ -81,29 +81,29 @@ guided_study: false
 > 
 > Find the two possible values of $z$.
 > 
-> > *Write *$z$* ** in the form *$x+yi$
+> > *Write* $z$* ** in the form *$x+yi$
 > 
 > $z=x+yi$
 > 
-> > *Substitute this, and *$w$*, into the equation*
+> > *Substitute this, and* $w$*, into the equation*
 > 
 > * *$( x + y \mathrm{i} )^{2} + 10 ( 5 + 2 \mathrm{i} ) = ( x + y \mathrm{i} ) ( x - y \mathrm{i} )$
 > 
-> > *Expand the brackets and use *$i^{2}=-1$
+> > *Expand the brackets and use* $i^{2}=-1$
 > 
 > $x^{2}+2xyi+y^{2}i^{2}+50+20i=x^{2}-y^{2}i^{2}\,x^{2}+2xyi-y^{2}+50+20i=x^{2}+y^{2}$
 > 
-> > *Equate the real parts and solve for *$y$
+> > *Equate the real parts and solve for* $y$
 > 
 > $\begin{gathered} x^{2} - y^{2} + 50 & = x^{2} + y^{2} \\ 50 = 2 y^{2} \\ 25 = y^{2} \\ y = \pm 5 \end{gathered}$
 > 
-> > *Now equate the imaginary parts and solve for *$x$
+> > *Now equate the imaginary parts and solve for* $x$
 > *Note that there are no imaginary parts on the right*
 > 
 > $\begin{gathered} 2 x y + 20 & = 0 \\ x y & = - 10 \\ x = - \frac{10}{y} \end{gathered}$
 > 
-> > *When *$y=5$*, then** *$x=-2$
-> *When *$y=-5$*, then** *$x=2$
-> *Substitute these back in to get *$z$
+> > *When* $y=5$*, then** *$x=-2$
+> *When* $y=-5$*, then** *$x=2$
+> *Substitute these back in to get* $z$
 > 
 > **Final answer:** $-2+5i$** or **$2-5i$

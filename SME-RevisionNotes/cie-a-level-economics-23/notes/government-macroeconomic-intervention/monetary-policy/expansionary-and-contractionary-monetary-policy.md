@@ -26,7 +26,7 @@ guided_study: false
 
 ![Economic graph showing SRAS upward slope, intersecting AD₁ and AD₂ downwards. Y-axis: average price level (£), X-axis: real GDP, indicating equilibrium shifts.](../../../assets/79b0b24d4cf1-2-4-3-changes-to-equilibrium-classical-increase-.png)
 
-*AD/AS diagram illustrating expansionary monetary policy *
+*AD/AS diagram illustrating expansionary monetary policy*
 
 ### Diagram analysis
 
@@ -42,7 +42,7 @@ guided_study: false
 | **The USA Federal Reserve Bank commits to an extra \$60bn a month of QE** |   |
 |---|---|
 | **Effect on the economy** | - *Commercial banks* receive cash for their bonds → liquidity in the market increases → commercial banks lower lending rates → consumers and firms borrow more → **consumption and investment** increase → AD increases |
-| **Impact on macroeconomic aims** | - **Economic growth** increases<br>- ***Inflation**** *rises<br>- Employment rises as firms expand output and demand more labour - unemployment falls<br>- **Net external demand** worsens (with higher price levels *exports *may decrease and with rising incomes, *imports *may increase) |
+| **Impact on macroeconomic aims** | - **Economic growth** increases<br>- ***Inflation**** *rises<br>- Employment rises as firms expand output and demand more labour - unemployment falls<br>- **Net external demand** worsens (with higher price levels *exports *may decrease and with rising incomes,* imports *may increase) |
 
 > **Worked Example**
 > **Which combination would represent the most expansionary set of monetary policies?**
@@ -76,7 +76,7 @@ guided_study: false
 
 ![Graph showing shifts in Aggregate Demand (AD) curves, effecting changes in Average Price Level (AP) and Real GDP (RGDP) with Long Run Aggregate Supply (LRAS).](../../../assets/5996f266f614-2-6-2-contractionary-demand-side-policies.png)
 
-*Keynesian diagram illustrating contractionary monetary policy *
+*Keynesian diagram illustrating contractionary monetary policy*
 
 ### Diagram analysis
 
@@ -106,7 +106,7 @@ guided_study: false
 > **Actions taken**
 > 
 > - The Federal Reserve raised the federal funds rate from near zero in March 2022 to 5.25-5.50% by July 2023 - eleven consecutive increases over sixteen months
-> - Higher rates increased *mortgage *costs, *credit card* rates and business borrowing costs, reducing consumption and investment
+> - Higher rates increased *mortgage* costs, *credit card* rates and business borrowing costs, reducing consumption and investment
 > - The Fed also began reducing the quantitative easing of the pandemic period by selling bonds and withdrawing money from circulation
 > 
 > **Outcomes**

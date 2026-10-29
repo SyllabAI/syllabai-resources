@@ -65,13 +65,13 @@ guided_study: false
 > 
 > **Actions taken**
 > 
-> - Education spending has consistently exceeded 3% of GDP - the government funds a highly *selective school system*, two world-ranked universities and a network of *polytechnics *and technical institutes
+> - Education spending has consistently exceeded 3% of GDP - the government funds a highly *selective school system*, two world-ranked universities and a network of *polytechnics* and technical institutes
 > - The SkillsFuture programme, launched in 2015, provides every adult Singaporean with a credit of SGD 500 to spend on approved skills training courses - explicitly targeting productivity improvement in the existing workforce
 > - The Economic Development Board actively attracts high-technology foreign firms whose presence transfers skills and technology to the domestic economy
 > 
 > **Outcomes**
 > 
-> - Singapore's *GDP per capita *rose from approximately \$500 in 1965 to over \$65,000 by 2023 - one of the fastest sustained increases in productive capacity in economic history
+> - Singapore's *GDP per capita* rose from approximately \$500 in 1965 to over \$65,000 by 2023 - one of the fastest sustained increases in productive capacity in economic history
 > - *Labour productivity* is among the highest in Asia, reflecting decades of human capital investment
 > - The non-inflationary nature of supply-side growth is illustrated by Singapore's sustained low inflation record - average CPI inflation below 2% over the past two decades despite rapid growth
 

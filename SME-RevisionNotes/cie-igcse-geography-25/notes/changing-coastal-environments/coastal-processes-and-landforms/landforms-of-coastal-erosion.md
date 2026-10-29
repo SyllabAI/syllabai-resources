@@ -25,7 +25,7 @@ This page covers section 2.2.1  of the [CIE IGCSE specification](https://www.cam
 
 ### Cliffs
 
-- Cliffs are sloping or steep rocks with different profiles depending on the *topography *and geology of the cliff
+- Cliffs are sloping or steep rocks with different profiles depending on the *topography* and geology of the cliff
 - The cliff face angle is also affected by geology and wave attack at its base
 - Cliffs are shaped through erosion
 

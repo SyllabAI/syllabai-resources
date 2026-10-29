@@ -227,7 +227,7 @@ The third box says: "Dubcek is arrested and sent to Moscow. The Soviet Union ord
 
 The final box at the bottom states: "Dubcek returns to Czechoslovakia. The Czech Communist Party replace Dubcek with Husak as First Secretary. Husak’s government reinforce Soviet power in Czechoslovakia, arresting thousands of Czech protestors."](../../../assets/07169089969c-soviet-response-to-prague-spring-flow-diagram.png)
 
-*A flow diagram depicting how the USSR  suppressed the Prague Spring *
+*A flow diagram depicting how the USSR  suppressed the Prague Spring*
 
 - Brezhnev ensured that Czechoslovakia remained under Soviet control for the next 20 years
 

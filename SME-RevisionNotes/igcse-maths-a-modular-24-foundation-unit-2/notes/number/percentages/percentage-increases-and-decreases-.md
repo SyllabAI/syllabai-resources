@@ -69,7 +69,7 @@ guided_study: false
 > **Answer:**
 > 
 > > *An increase by 21% is equivalent to finding 121% of the original amount*
-> *So the multiplier is 1.21 *
+> *So the multiplier is 1.21*
 > 
 > *1.21 × 200*
 > 
@@ -83,7 +83,7 @@ guided_study: false
 > 
 > > *A discount of 35% means the price decreases by 35%*
 > 
-> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65) *
+> > *A decrease of 35% is equivalent to finding 65% of the original amount (100 - 35 = 65)*
 > *So the multiplier is 0.65*
 > 
 > *500 × 0.65*

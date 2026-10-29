@@ -36,13 +36,13 @@ guided_study: false
 
 - After the addition of the second portion of acid, the solution is effectively a half-neutralised sample of acid
 - This is the half-equivalence point at which the *K*<sub>*a*</sub> = [H<sup>*+*</sup>]
-- By measuring the pH at that point you can convert it to [H<sup>*+*</sup>] and hence find the *K*<sub>*a *</sub>of the acid
+- By measuring the pH at that point you can convert it to [H<sup>*+*</sup>] and hence find the *K*<sub>*a* </sub>of the acid
 
 pH = 4.75
 
 [H<sup>*+*</sup>] = 10<sup>-pH</sup> = 1.8 x 10<sup>-5</sup> mol dm<sup>-3</sup>
 
-∴  *K*<sub>*a *</sub>= 1.8 x 10<sup>-5</sup> mol dm<sup>-3</sup>
+∴  *K*<sub>*a* </sub>= 1.8 x 10<sup>-5</sup> mol dm<sup>-3</sup>
 
 - You can also say that the p*K*<sub>*a*</sub> = pH at the half-equivalence point
 

@@ -47,7 +47,7 @@ guided_study: false
 | 13 |   |   |   |   |   |
 |---|---|---|---|---|---|
 | **32** | **16** | **8** | **4** | **2** | **1** |
-| * 1* | * * | * * | * * | * * | * * |
+| *1* | * * | * * | * * | * * | * * |
 
 - **Repeat with next column heading** (how many times does 16 fit into 13?)
 
@@ -63,9 +63,9 @@ guided_study: false
 | 13 | 13 | 5 | 1 | 1 | 0 |
 |---|---|---|---|---|---|
 | **32** | **16** | **8** | **4** | **2** | **1** |
-| *1 * | *0 * | *1 * | *1 * | *0 * | *1 * |
+| *1* | *0* | *1* | *1* | *0* | *1* |
 
-- Denary **45 **is *101101 *in binary (6 bits)
+- Denary **45 **is *101101* in binary (6 bits)
 
 > **Exam Hint**
 > *Cambridge often asks for a ****specific number of bits****—if the question says “8-bit answer,” you must pad your binary result with leading 0s. Always double-check the number of bits or you’ll lose a mark.*
@@ -105,7 +105,7 @@ guided_study: false
 | 2,048 | 1,024 | 512 | 256 | **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |
 | *1* | *0* | *1* | *1* | *1* | *1* | *1* | *1* | *0* | *0* | *1* | *1* |
 
-- Denary **3059 **is *101111110011 *in binary (12 bits)
+- Denary **3059 **is *101111110011* in binary (12 bits)
 
 ## Binary to Denary Conversion
 
@@ -119,7 +119,7 @@ guided_study: false
 
 #### Example 1 (4 bits)
 
-- To convert the binary number *1011 *to denary, start by **writing out the binary headings** from right to left
+- To convert the binary number *1011* to denary, start by **writing out the binary headings** from right to left
 
 | **8** | **4** | **2** | **1** |
 |---|---|---|---|
@@ -133,14 +133,14 @@ guided_study: false
 
 - Add together **any column heading with a 1 under it**
 - (1 x 8) + (1 x 2) + (1 x 1) = 11
-- Binary *1011 *is **11 **in denary
+- Binary *1011* is **11 **in denary
 
 > **Exam Hint**
 > *If a binary number ends in 1, the denary result ****must**** be odd. Use this as a quick logic check during the exam—examiners love to test basic number sense.*
 
 #### Example 2 (8 bits)
 
-- To convert the binary number *01100011 *to denary, start by **writing out the binary headings** from right to left
+- To convert the binary number *01100011* to denary, start by **writing out the binary headings** from right to left
 
 | **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |
 |---|---|---|---|---|---|---|---|
@@ -154,11 +154,11 @@ guided_study: false
 
 - Add together **any column heading with a 1 under it**
 - (1 x 64) + (1 x 32) + (1 x 2) + (1 x 1) = 99
-- Binary *01100011 *is **99** in denary
+- Binary *01100011* is **99** in denary
 
 #### Example 3 (14 bits)
 
-- To convert the binary number *01110001110100 *to denary, start by **writing out the binary headings** from right to left
+- To convert the binary number *01110001110100* to denary, start by **writing out the binary headings** from right to left
 
 | 8,192 | 4,096 | 2,048 | 1,024 | 512 | 256 | **128** | **64** | **32** | **16** | **8** | **4** | **2** | **1** |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -166,4 +166,4 @@ guided_study: false
 
 - Add together **any column heading with a 1 under it**
 - (1 x 4096) + (1 x 2048) + (1 x 1024) + (1 x 64) + (1 x 32) + (1 x 16) + (1 x 4) = 7284
-- Binary *01110001110100 *is **7284 **in denary
+- Binary *01110001110100* is **7284 **in denary

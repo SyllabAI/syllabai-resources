@@ -73,7 +73,7 @@ guided_study: true
 > 
 > > *Find the value of "before" (by dividing both sides by 1.05)*
 > 
-> *"before" = *$\frac{31500}{1.05}$* = 30 000*
+> *"before" =* $\frac{31500}{1.05}$ *= 30 000*
 > 
 > > *She was paid £30 000 before the pay rise*
 > 

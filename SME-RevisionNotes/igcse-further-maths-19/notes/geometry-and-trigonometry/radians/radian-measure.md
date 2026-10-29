@@ -63,19 +63,19 @@ guided_study: false
 > **Worked Example**
 > (a) Convert 43.8° to radians, giving your answer correct to 3 significant figures.
 > 
-> > *Multiply by  *$\frac{π}{180}$
+> > *Multiply by* $\frac{π}{180}$
 > 
 > $43.8\times\frac{π}{180}=\frac{73π}{300}=0.764454...$
 > 
-> > *Note that *$\frac{73π}{300}$* is the exact value answer*
+> > *Note that* $\frac{73π}{300}$ *is the exact value answer*
 > 
 > **Final answer:** **0.764 rad (3 s.f.)**
 > 
 > (b) Convert $\frac{5π}{4}$ radians to degrees.
 > 
-> > *If you remember that *$\frac{π}{4}$* radians is 45°, then you just need to multiply that by 5 to get the answer.*
+> > *If you remember that* $\frac{π}{4}$ *radians is 45°, then you just need to multiply that by 5 to get the answer.*
 > 
-> > *Otherwise, multiply by  *$\frac{180}{π}$
+> > *Otherwise, multiply by* $\frac{180}{π}$
 > 
 > $\frac{5π}{4}\times\frac{180}{π}=\frac{5}{4}\times180=5\times45=225$
 > 

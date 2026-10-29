@@ -27,21 +27,21 @@ guided_study: false
   - *B* = *magnetic flux density* (T)
   - *Q* = charge of the particle (C)
   - *v* = speed of the particle (m s<sup>-1</sup>)
-- This is the maximum force on the charged particle, when *F*,* B* and *v* are mutually perpendicular
+- This is the maximum force on the charged particle, when *F*,*B* and *v* are mutually perpendicular
 
   - Therefore if a particle travels **parallel** to a magnetic field, it will not experience a magnetic force
 
 - Current is the rate of flow of **positive** charge
 
   - This means that the direction of the 'current' for a flow of negative charge (e.g. an electron beam) is in the opposite direction to its motion
-- If the charged particle is moving at an angle *θ *to the magnetic field lines, then the size of the magnetic force *F* is given by the equation:
+- If the charged particle is moving at an angle *θ* to the magnetic field lines, then the size of the magnetic force *F* is given by the equation:
 
 ***F = BQv *****sin***** θ***
 
 - This equation shows that:
 
-  - The size of the magnetic force is **zero** if the angle *θ *is **zero** (i.e. the particle moves **parallel** to the field lines)
-  - The size of the magnetic force is **maximum** if the angle *θ *is **90° **(i.e. the particle moves **perpendicular **to field lines)
+  - The size of the magnetic force is **zero** if the angle *θ* is **zero** (i.e. the particle moves **parallel** to the field lines)
+  - The size of the magnetic force is **maximum** if the angle *θ* is **90° **(i.e. the particle moves **perpendicular **to field lines)
 
 > **Worked Example**
 > A beta particle is incident at 70° to a magnetic field of flux density 0.5 mT, travelling at a speed of 1.5 × 10<sup>6</sup> m s<sup>–1</sup>.
@@ -62,7 +62,7 @@ guided_study: false
 > 
 > - Magnetic flux density *B* = 0.5 mT = 0.5 × 10<sup>–3</sup> T
 > - Speed *v* = 1.5 × 10<sup>6</sup> m s<sup>–1</sup>
-> - Angle *θ *between the flux and the velocity = 70°
+> - Angle *θ* between the flux and the velocity = 70°
 > 
 > **Step 2: Substitute quantities into the equation for magnetic force on a charged particle**
 > 
@@ -70,7 +70,7 @@ guided_study: false
 > - Therefore, the **magnitude** of electron charge *Q* = 1.6 × 10<sup>–19</sup> C
 > - Substituting values gives:
 > 
-> *F *= *BQv *sin *θ*
+> *F* = *BQv* sin *θ*
 > 
 > *F* = (0.5 × 10<sup>–3</sup>) × (1.6 × 10<sup>–19</sup>) × (1.5 × 10<sup>6</sup>) × sin (70)
 > 
@@ -85,21 +85,21 @@ guided_study: false
 > 
 > **Step 2: Determine the angle to the flux lines**
 > 
-> - Angle *θ *between the flux and the velocity = 90° if the magnetic force is a maximum
+> - Angle *θ* between the flux and the velocity = 90° if the magnetic force is a maximum
 > 
 > **Step 3: Substitute quantities into the equation for magnetic force on a charged particle**
 > 
 > - The **magnitude** of electron charge *Q* = 1.6 × 10<sup>–19</sup> C
 > - Substituting values gives:
 > 
-> *F *= *BQv *sin *θ *= *BQv *when sin 90 = 1
+> *F* = *BQv* sin *θ* = *BQv* when sin 90 = 1
 > 
 > *F* = (0.5 × 10<sup>–3</sup>) × (1.6 × 10<sup>–19</sup>) × (1.5 × 10<sup>6</sup>)
 > 
 > *F* = 1.2 × 10<sup>–16</sup> N
 
 > **Exam Hint**
-> Remember not to mix this up with *F* = *BIL *sin *θ*!
+> Remember not to mix this up with *F* = *BIL* sin *θ*!
 > 
 > - ***F***** = *****BIL *****sin *****θ*** is the force on a current-carrying conductor
 > - ***F***** = *****BQv *****sin *****θ*** is the force on an isolated moving charged particle (which may be inside a conductor)

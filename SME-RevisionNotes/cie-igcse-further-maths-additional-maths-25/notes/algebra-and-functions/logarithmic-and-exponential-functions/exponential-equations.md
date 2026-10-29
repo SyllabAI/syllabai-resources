@@ -66,20 +66,20 @@ $\begin{gathered} 27^{x} & = 9 \\ x = log_{27} 9 \\ = \frac{log_{3} 9}{log_{3} 2
 > **Worked Example**
 > Solve the equation $4^{x - 3 ( 2^{x} + 1} ) + 9 = 0$.  Give your answer correct to three significant figures.
 > 
-> > *'Spot' the hidden quadratic by noticing that *$4^{x} = ( 2^{2} )^{x} = ( 2^{x} )^{2}$*.*
+> > *'Spot' the hidden quadratic by noticing that* $4^{x} = ( 2^{2} )^{x} = ( 2^{x} )^{2}$*.*
 > 
 > > *Rewrite the first term as a power of 2.*
 > 
 > $( 2^{x )^{2} - 3 ( 2^{x} + 1} ) + 9 = 0$
 > 
-> > *Rewrite the middle terms using the laws of indices: If  *$2^{x + 1} = 2^{x} \times 2^{1} = 2 ( 2^{x} )$*     *
+> > *Rewrite the middle terms using the laws of indices: If* $2^{x + 1} = 2^{x} \times 2^{1} = 2 ( 2^{x} )$*     *
 > 
 > > * *$( 2^{x} )^{2} - 3 \times 2 ( 2^{x} ) + 9 = 0
 > ( 2^{x} )^{2} - 6 ( 2^{x} ) + 9 = 0$*    *
 > 
-> > *USing a substitution can make this easier to solve. *
+> > *USing a substitution can make this easier to solve.*
 > 
-> *Let *$u=2^{x}$
+> *Let* $u=2^{x}$
 > 
 > $( u )^{2} - 6 ( u ) + 9 = 0$
 > 
@@ -88,19 +88,19 @@ $\begin{gathered} 27^{x} & = 9 \\ x = log_{27} 9 \\ = \frac{log_{3} 9}{log_{3} 2
 > $u^{2} - 6 u + 9 = 0
 > ( u - 3 ) ( u - 3 ) = 0$
 > 
-> > *Solve to find **u** and substitute 2*<sup>*x *</sup>*back in.*
+> > *Solve to find **u** and substitute 2*<sup>*x* </sup>*back in.*
 > 
 > $\begin{gathered} u & = 3 \\ 2^{x } & = 3 \end{gathered}$
 > 
-> > *Solve the exponential equation 2*<sup>*x *</sup>*= 3 by taking logarithms of both sides.*
+> > *Solve the exponential equation 2*<sup>*x* </sup>*= 3 by taking logarithms of both sides.*
 > 
 > $\mathrm{ln}2^{x}=\mathrm{ln}3$
 > 
-> > *Bring the power down using the law of logs *$\mathrm{ln}x^{m}=m\mathrm{ln}x$*.*
+> > *Bring the power down using the law of logs* $\mathrm{ln}x^{m}=m\mathrm{ln}x$*.*
 > 
 > $x\mathrm{ln}2=\mathrm{ln}3$
 > 
-> > *Rearrange and solve. *
+> > *Rearrange and solve.*
 > 
 > $x=\frac{\mathrm{ln}3}{\mathrm{ln}2}=1.584...$
 > 

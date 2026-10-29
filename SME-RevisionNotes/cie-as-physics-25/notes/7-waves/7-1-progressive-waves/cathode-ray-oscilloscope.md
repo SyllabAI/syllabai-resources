@@ -36,7 +36,7 @@ guided_study: true
 
   - Time-base is **how many seconds each division represents **measured commonly in **s div**<sup>**-1**</sup>** **or **s cm**<sup>**-1**</sup>
 - Count the number of wavelengths shown on the screen
-- Divide the total time by the number of wavelengths to obtain the time period *T *
+- Divide the total time by the number of wavelengths to obtain the time period *T*
 - Calculate the frequency of the wave using $f=\frac{1}{T}$
 
 > **Worked Example**

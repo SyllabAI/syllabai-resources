@@ -132,7 +132,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The transformation of the graph is a horizontal translation with vector *$( \begin{gathered} - 3 \\ 0 \end{gathered} )$* (3 units to the left)*
+> > *The transformation of the graph is a horizontal translation with vector* $( \begin{gathered} - 3 \\ 0 \end{gathered} )$ *(3 units to the left)*
 > 
 > > *The **x**-coordinates of the points change (subtract 3 from each)*
 > *The **y**-coordinates of the points stay the same*

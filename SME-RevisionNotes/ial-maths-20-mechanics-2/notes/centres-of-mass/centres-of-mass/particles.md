@@ -65,7 +65,7 @@ If given a diagram, add anything necessary to it.
 
 STEP 2       Set up an equation for the -coordinate for the centre of mass using
 
-$\underset{}{\sum}$$m_{i}x_{i}=\overline{x}\underset{}{\sum}$$m_{i}$
+$\underset{}{\sum}m_{i}x_{i}=\overline{x}\underset{}{\sum}m_{i}$
 
 (This is the same equation as above but you may sometimes see
 
@@ -119,7 +119,7 @@ $\sum_{i = 1}^{n} m_{i} r_{i} = \bar{r} \sum_{i = 1}^{n} m_{i}$
 where $r_{i}=x_{i}i+y_{i}j$ are the ***position vectors*** of the particles and
  $\vec{r} = \vec{x} i + \vec{y} j$ is the position vector of the centre of mass
 
-- (Position) **vectors** can be given as **column** **vectors**; $( \begin{gathered} x \\ y \end{gathered} )$ or in **i-j ** **notation**; $xi+yj$
+- (Position) **vectors** can be given as **column** **vectors**; $( \begin{gathered} x \\ y \end{gathered} )$ or in **i-j ** **notation**; $\xi+yj$
 - Alternatively the two dimensions can be separated creating two systems of particles in a straight line
 
   - Use the equations  $\summ_{i}x_{i}=\overline{x}\summ_{i}$ and $\summ_{i}y_{i}=\overline{y}\summ_{i}$   to find the coordinates of the centre of mass, separately
@@ -137,7 +137,7 @@ STEP 2       Set up an equation for the position vector of the centre of mass us
 
 $\summ_{i}r_{i}=\overline{r}\summ_{i}$
 
-(This is the same equation as above but you may sometimes see it with the *n*  and th *  i* =1 removed, as we have done here.)
+(This is the same equation as above but you may sometimes see it with the *n*  and th *i* =1 removed, as we have done here.)
 
 Alternatively, you can set up separate equations for $\overline{x}$  and $\overline{y}$.
 

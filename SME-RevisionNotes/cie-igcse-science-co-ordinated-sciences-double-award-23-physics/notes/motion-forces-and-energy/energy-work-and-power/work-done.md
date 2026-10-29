@@ -112,7 +112,7 @@ $1Nm=1J$
 > - The lowest number of significant figures in the input values is 1 s.f. (500 N)
 > - Therefore, the final answer must be rounded to 1 s.f.
 > 
-> `W space equals space 10 space 000 space straight J space open parentheses 1 space straight s. straight f. close parentheses`
+> `W=10 000 straight J (1 straight s. straight f.)`
 
 > **Exam Hint**
 > Remember to always convert the distance into **metres** and force into n**ewtons** so that the work done is in **joules** or **newton-metres**

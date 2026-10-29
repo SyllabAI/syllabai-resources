@@ -41,7 +41,7 @@ guided_study: false
 - Where:
 
   - $\mathrm{X} pre_{Z} pre^{A}$ is the initial element X with mass number A and atomic number Z
-  - `Y presubscript Z minus sign 2 end presubscript presuperscript A minus sign 4 end presuperscript` is the new element Y
+  - `Y presubscript Z−2 end presubscript presuperscript A−4 end presuperscript` is the new element Y
   - $\ \\alpha pre_{2} pre^{4}$ is an alpha particle
 
 ### Beta decay

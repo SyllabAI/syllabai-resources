@@ -19,7 +19,7 @@ guided_study: false
 
 ### What are Cartesian coordinates?
 
-- **Cartesian** coordinates are the coordinates used in the *x-y *coordinate system
+- **Cartesian** coordinates are the coordinates used in the *x-y* coordinate system
 
   - They allow us to label where things are in a two-dimensional plane
 - In the 2D Cartesian system, the horizontal axis is labelled *x*  and the vertical axis is labelled *y*
@@ -76,23 +76,23 @@ guided_study: false
 > 
 > (a) Calculate the distance between points $A$ and $B$.
 > 
-> > *Let *$A ( 3 , - 4 )$*be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$
+> > *Let* $A ( 3 , - 4 )$*be 'point 1', so* $x_{1}=3$ *and* $y_{1}=-4$
 > 
-> *Let *$B ( - 5 , 8 )$ *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$
+> *Let* $B ( - 5 , 8 )$ *be 'point 2', so* $x_{2}=-5$ *and* $y_{2}=8$
 > 
-> > *Use the formula  *$d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
+> > *Use the formula* $d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
 > 
 > $d = \sqrt{( 3 - ( - 5 ) )^{2} + ( - 4 - 8 )^{2}} = \sqrt{8^{2} + ( - 12 )^{2}} = \sqrt{64 + 144}$
 > 
 > **Final answer:** $\sqrt{208}$**  ****(or **$4\sqrt{13}$** ****or 14.4 to 3 s.f.)**
 > 
-> (b) Find the gradient of the line joining points *A *and *B*.
+> (b) Find the gradient of the line joining points *A* and *B*.
 > 
-> > *Let *$A ( 3 , - 4 )$* be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$
+> > *Let* $A ( 3 , - 4 )$ *be 'point 1', so* $x_{1}=3$ *and* $y_{1}=-4$
 > 
-> *Let *$B ( - 5 , 8 )$ *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$
+> *Let* $B ( - 5 , 8 )$ *be 'point 2', so* $x_{2}=-5$ *and* $y_{2}=8$
 > 
-> > *Use the formula *$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
+> > *Use the formula* $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > $m = \frac{8 - ( - 4 )}{- 5 - 3} = \frac{12}{- 8}$
 > 
@@ -102,11 +102,11 @@ guided_study: false
 > 
 > (c) Find point that divides the line joining points *A* and *B* in the ratio $1:3$.
 > 
-> > *Let *$A ( 3 , - 4 )$*be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$
+> > *Let* $A ( 3 , - 4 )$*be 'point 1', so* $x_{1}=3$ *and* $y_{1}=-4$
 > 
-> *Let *$B ( - 5 , 8 )$ *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$
+> *Let* $B ( - 5 , 8 )$ *be 'point 2', so* $x_{2}=-5$ *and* $y_{2}=8$
 > 
-> > *Use the formula  *$( \frac{n x_{1} + m x_{2} }{m + n} , \frac{n y_{1} + m y_{2} }{m + n} )$* with *$m=1$* and *$n=3$
+> > *Use the formula* $( \frac{n x_{1} + m x_{2} }{m + n} , \frac{n y_{1} + m y_{2} }{m + n} )$ *with* $m=1$ *and* $n=3$
 > 
 > > $( \frac{( 3 ( 3 ) + 1 ( - 5 ) )}{1 + 3} , \frac{( 3 ( - 4 ) + 1 ( 8 ) )}{1 + 3} ) = ( \frac{9 - 5}{4} , \frac{- 12 + 8}{4} )$* *
 > 

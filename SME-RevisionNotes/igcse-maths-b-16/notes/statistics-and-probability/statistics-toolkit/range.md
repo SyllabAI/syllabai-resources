@@ -52,7 +52,7 @@ guided_study: false
 > 
 > > *The range is the largest value minus the smallest value*
 > 
-> > *Set up an equation and solve for *$w$
+> > *Set up an equation and solve for* $w$
 > 
 > $\begin{gathered} 19 = 22 - w \\ w = 22 - 19 \\ w = 3 \end{gathered}$
 > 

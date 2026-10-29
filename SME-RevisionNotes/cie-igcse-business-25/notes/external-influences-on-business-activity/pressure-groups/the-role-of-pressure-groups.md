@@ -62,7 +62,7 @@ guided_study: false
 
 ### Other pressure group actions
 
-- Starting online campaigns or *petitions *that go viral
+- Starting online campaigns or *petitions* that go viral
 - Partnering with celebrities or influencers to spread a message
 - Taking legal action or supporting *court cases* against companies
 

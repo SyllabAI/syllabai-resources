@@ -35,7 +35,7 @@ guided_study: true
 
   - Each sister chromatid contains **one DNA molecule**
   - They are joined together at the *centromere*
-- The two *centrosomes *(replicated in the G<sub>2</sub> phase just before prophase) move towards **opposite poles** (opposite ends of the nucleus)
+- The two *centrosomes* (replicated in the G<sub>2</sub> phase just before prophase) move towards **opposite poles** (opposite ends of the nucleus)
 - **Spindle fibres** (protein **microtubules**) begin to emerge from the centrosomes (consists of two centrioles in animal cells)
 - The **nuclear envelope **(nuclear membrane) **breaks down** into small vesicles
 

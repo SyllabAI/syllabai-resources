@@ -22,7 +22,7 @@ guided_study: true
 - The **trapezium rule** is a numerical method of integration used to find the **approximate area** under a curve
 - It can be used when **analytical methods** of **integration** won’t work
 - It finds an **approximation** of the area by finding the **sum of the areas** of trapeziums beneath the curve
-- The **formula **for an **estimate** of the area when splitting it into *n *strips (trapezium) is
+- The **formula **for an **estimate** of the area when splitting it into *n* strips (trapezium) is
 
 `integral _ a ^ b y d x ~= 1 half h left curly bracket ( y _ 0 + y _ n ) + 2 ( y _ 1 + y _ 2 +... + y _ n - 1 end _ ) right curly bracket` where $h=\frac{b-a}{n}$
 

@@ -88,15 +88,15 @@ guided_study: false
 > 
 > **Step 1: Write the known values from the question**
 > 
-> - Frequency, *f *= 3.2 kHz = 3 200 Hz
-> - Speed of sound, *v *= 1 500 m s<sup>−1</sup>
-> - Time, *t *= 3.6 s
+> - Frequency, *f* = 3.2 kHz = 3 200 Hz
+> - Speed of sound, *v* = 1 500 m s<sup>−1</sup>
+> - Time, *t* = 3.6 s
 > 
 > **Step 2: Write the correct equation and substitute the values**
 > 
 > - Distance;
 > 
-> *d *= *vt* = 1 500 × 3.6 = 5 400 m
+> *d* = *vt* = 1 500 × 3.6 = 5 400 m
 > 
 > **Step 3: Account for the received signal being an echo**
 > 

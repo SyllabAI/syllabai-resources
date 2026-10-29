@@ -77,15 +77,15 @@ Multiply the **bottoms** together
 > 
 > $\frac{( 2 x - 3 ) ( x - 4 )}{( x + 7 ) ( x - 4 )} \times \frac{( x + 2 ) ( x - 7 )}{( 3 - 2 x ) ( 3 + 2 x )}$
 > 
-> > *Rewrite *$2x-3$* as *$- ( 3 - 2 x )$* and cancel common factors*
+> > *Rewrite* $2x-3$ *as* $- ( 3 - 2 x )$ *and cancel common factors*
 > 
 > $\frac{- \cancel{( 3 - 2 x )} \cancel{( x - 4 )} }{( x + 7 ) \cancel{( x - 4 )} } \times \frac{( x + 2 ) ( x - 7 )}{ \cancel{( 3 - 2 x )} ( 3 + 2 x )} 
 > \frac{- 1}{( x + 7 )} \times \frac{( x + 2 ) ( x - 7 )}{( 3 + 2 x )}$
 > 
 > > *Write as a single fraction*
 > 
-> - $( x + 7 )$* and *$( x - 7 )$* are not common factors*
-> - *You can multiply *$( x - 7 )$* by -1 to get rid of the negative sign in front of the front*
+> - $( x + 7 )$ *and* $( x - 7 )$ *are not common factors*
+> - *You can multiply* $( x - 7 )$ *by -1 to get rid of the negative sign in front of the front*
 > - *Leave the expressions factorised*
 > 
 > $\frac{- ( x + 2 ) ( x - 7 )}{( x + 7 ) ( 3 + 2 x )} \text{or} \frac{( x + 2 ) ( 7 - x )}{( x + 7 ) ( 3 + 2 x )}$
@@ -109,7 +109,7 @@ Multiply the **bottoms** together
 > $\frac{x+3}{x-4}\div\frac{2x+6}{x^{2}-16}=\frac{x+3}{x-4}\times\frac{x^{2}-16}{2x+6}$
 > 
 > > *Factorise all numerators and denominators to see which factors cancel out*
-> *You need to use the difference of two squares, *$x^{2} - 4^{2} = ( x - 4 ) ( x + 4 )$
+> *You need to use the difference of two squares,* $x^{2} - 4^{2} = ( x - 4 ) ( x + 4 )$
 > 
 > $\frac{x + 3}{x - 4} \times \frac{x^{2} - 16}{2 x + 6} = \frac{ \cancel{x + 3} }{ \cancel{x - 4} } \times \frac{ \cancel{( x - 4 )} ( x + 4 )}{2 \cancel{( x + 3 )} }$
 > 
@@ -119,6 +119,6 @@ Multiply the **bottoms** together
 > 
 > > *Check to see if you missed any terms that are the same on the top and bottom that could be cancelled*
 > 
-> > $\frac{x+4}{2}$* is already in its simplest form *
+> > $\frac{x+4}{2}$ *is already in its simplest form*
 > 
 > $\frac{x+4}{2}$

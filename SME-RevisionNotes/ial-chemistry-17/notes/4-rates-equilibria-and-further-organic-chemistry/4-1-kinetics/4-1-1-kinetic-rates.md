@@ -70,6 +70,6 @@ The following general reaction will be used as an example to study the rate of r
 - In the above rate equation:
 
   - [A] and [B] are the concentrations of the reactants
-  - *m *and *n* are orders with respect to each reactant involved in the reaction
+  - *m* and *n* are orders with respect to each reactant involved in the reaction
 - Products and catalysts may feature in rate equations
 - Intermediates do not feature in rate equations

@@ -23,7 +23,7 @@ guided_study: false
 
   - It measures the rate at which one currency can be exchanged for another at a given point in time
   - Example: if £1 = \$1.25, the nominal exchange rate of sterling against the dollar is 1.25
-- The nominal exchange rate does not adjust for differences in price levels or *inflation *between countries - it is a raw, unadjusted rate
+- The nominal exchange rate does not adjust for differences in price levels or *inflation* between countries - it is a raw, unadjusted rate
 
 ### Real exchange rate
 

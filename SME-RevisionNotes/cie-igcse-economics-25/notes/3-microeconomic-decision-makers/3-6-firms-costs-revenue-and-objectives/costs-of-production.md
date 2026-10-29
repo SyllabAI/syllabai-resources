@@ -73,7 +73,7 @@ $\mathrm{Average} \mathrm{variable} \mathrm{cost}(\mathrm{AVC})=\frac{\mathrm{To
 > - Variable cost is \$60
 > - The fixed cost is \$200
 > 
-> | **Output (Q)** | **TFC** | **TVC = **`$ 60 space straight x space straight Q` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ | **AFC = **$\frac{\mathrm{TFC}}{Q}$ | **AVC = **$\frac{\mathrm{TVC}}{Q}$ | **ATC = **$\frac{\mathrm{TC}}{Q}$ |
+> | **Output (Q)** | **TFC** | **TVC = **`$ 60 straight x straight Q` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ | **AFC = **$\frac{\mathrm{TFC}}{Q}$ | **AVC = **$\frac{\mathrm{TVC}}{Q}$ | **ATC = **$\frac{\mathrm{TC}}{Q}$ |
 > |---|---|---|---|---|---|---|
 > | 0 | 200 | - | 200 | - | - | - |
 > | 1 | 200 | 60 | 260 | 200 | 60 | 260 |

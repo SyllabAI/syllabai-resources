@@ -83,9 +83,9 @@ guided_study: false
 > 
 > *3 × 5 = 15*
 > 
-> > *Shade 15 squares *
+> > *Shade 15 squares*
 > 
-> - * It doesn't matter which 15 you shade*
+> -  *It doesn't matter which 15 you shade*
 > - *It's neater to group them together*
 > 
 > ![grid 2](assets/ef782e8fef85-3879-introduction-to-fractions-2.png)

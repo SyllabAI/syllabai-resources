@@ -60,7 +60,7 @@ guided_study: false
 
 - Some aspects of induction training need to be **revisited** by employees regularly
 
-  - **Health and safety training** needs to be carried out regularly, especially when new *regulations *come into effect
+  - **Health and safety training** needs to be carried out regularly, especially when new *regulations* come into effect
   - When business **policies change,** employees need to understand the implications for their job role
 
 #### Evaluating induction training
@@ -103,7 +103,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - Employees learn new skills and knowledge outside of the workplace, which can **bring fresh ideas **and new **perspectives** to the workplace<br>- **Training can be tailored** to the employee's specific needs and interests<br>- Training can be **used as a reward** or *incentive *for high-performing employees<br>- **Can be cost-effective** if training is provided online or through webinars | - Can be expensive to organise, especially if** travel and accommodation** are required<br>- Employees may** miss work** while attending training, which can impact productivity<br>- The training **may not be directly applicable** to the employee's job role or the needs of the firm |
+| - Employees learn new skills and knowledge outside of the workplace, which can **bring fresh ideas **and new **perspectives** to the workplace<br>- **Training can be tailored** to the employee's specific needs and interests<br>- Training can be **used as a reward** or *incentive* for high-performing employees<br>- **Can be cost-effective** if training is provided online or through webinars | - Can be expensive to organise, especially if** travel and accommodation** are required<br>- Employees may** miss work** while attending training, which can impact productivity<br>- The training **may not be directly applicable** to the employee's job role or the needs of the firm |
 
 > **Exam Hint**
 > Examiners often test why training matters – remember it benefits **both employees (skills, confidence)** and the **business (productivity, quality, lower turnover)**. Always cover both sides for stronger answers

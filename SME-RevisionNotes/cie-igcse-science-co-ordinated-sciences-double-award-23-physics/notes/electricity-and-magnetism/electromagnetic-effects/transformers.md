@@ -54,8 +54,8 @@ guided_study: false
 
 - A **step-up** transformer:
 
-  - increases the **voltage** of a power source `open parentheses V subscript s space greater than space V subscript p close parentheses`
-  - has **more turns** on the secondary coil than on the primary coil `open parentheses N subscript s space greater than space N subscript p close parentheses`
+  - increases the **voltage** of a power source `(V_ s greater than V_ p)`
+  - has **more turns** on the secondary coil than on the primary coil `(N_ s greater than N_ p)`
 
 ![Transformer diagram](../../../assets/49c5ca095e36-26-1-transformer-diagram.png)
 
@@ -65,8 +65,8 @@ guided_study: false
 
 - A **step-down** transformer:
 
-  - decreases the **voltage** of a power source `open parentheses V subscript s space less than space V subscript p close parentheses`
-  - has** fewer turns** on the secondary coil than on the primary coil `open parentheses N subscript s space less than space N subscript p close parentheses`
+  - decreases the **voltage** of a power source `(V_ s less than V_ p)`
+  - has** fewer turns** on the secondary coil than on the primary coil `(N_ s less than N_ p)`
 
 ![transformer-basics](../../../assets/825c06c5b0ec-transformer-basics.png)
 

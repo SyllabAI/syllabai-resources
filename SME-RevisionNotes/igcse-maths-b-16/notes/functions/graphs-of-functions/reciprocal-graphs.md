@@ -37,7 +37,7 @@ guided_study: false
 
   - A **horizontal** asymptote along the *x*-axis (with** equation** $y=0$)
   
-    - This is the **limiting value** of *y* when the value of *x *gets very large (either positive or negative)
+    - This is the **limiting value** of *y* when the value of *x* gets very large (either positive or negative)
   - A **vertical** asymptote along the *y*-axis (with **equation** $x=0$)
   
     - This shows the **problem** of trying to **divide by zero**
@@ -81,14 +81,14 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The graph of *$y=\frac{2}{x}-3$
+> > *The graph of* $y=\frac{2}{x}-3$
 > 
-> - *will have the same basic shape as *$y=\frac{1}{x}$
+> - *will have the same basic shape as* $y=\frac{1}{x}$
 > 
 >   - *(For a sketch, you don't need to worry abut the effect of the '2')*
 > - *but shifted down by 3 units because of the -3*
 > 
->   - *(This means it will have an asymptote at *$y=-3$*)*
+>   - *(This means it will have an asymptote at* $y=-3$*)*
 > 
 > > *It can be useful to sketch the asymptote first, to give you a 'guideline' for the rest of the sketch*
 > 

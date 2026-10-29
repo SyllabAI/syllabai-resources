@@ -31,7 +31,7 @@ This page covers section 9.2.1, 9.2.2 and 9.2.3 of the [CIE IGCSE specification]
 
 ![Globe illustration with notes: low labour costs, better communications, transport improvements, and trade freedom by World Trade Organisation.](../../../assets/089ed9bbb437-63325-reasons-for-globalisation-1.png)
 
-*The reasons for globalisation *
+*The reasons for globalisation*
 
 **Flows** to places and populations are the result of **four **significant developments:
 

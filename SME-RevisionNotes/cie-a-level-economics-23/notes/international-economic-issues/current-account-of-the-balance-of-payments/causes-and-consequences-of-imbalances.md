@@ -25,7 +25,7 @@ guided_study: false
 
 - **Lack of price competitiveness**
 
-  - If domestic *inflation *is persistently higher than that of trading partners, export prices rise relative to foreign competitors, reducing export demand and increasing demand for cheaper imports
+  - If domestic *inflation* is persistently higher than that of trading partners, export prices rise relative to foreign competitors, reducing export demand and increasing demand for cheaper imports
 - **Low productivity**
 
   - If domestic firms produce less efficiently than foreign competitors, *unit costs* are higher, making exports less price-competitive in world markets
@@ -55,12 +55,12 @@ guided_study: false
   - If domestic consumption is low, fewer imports are demanded; combined with strong export performance this generates a surplus - Germany and China are key examples
 - **Comparative advantage in traded goods**
 
-  - *Specialisation *in goods for which world demand is strong and *income-elastic* generates persistent export surpluses
+  - *Specialisation* in goods for which world demand is strong and *income-elastic* generates persistent export surpluses
 
 > **Worked Example**
 > What is most likely to cause a current account deficit?
 > 
-> A .- a *recession *in the domestic economy
+> A .- a *recession* in the domestic economy
 > 
 > B. - a relatively high rate of inflation
 > 
@@ -93,7 +93,7 @@ guided_study: false
 | **Exchange rate** | - Depreciation raises import costs, contributing to *cost-push inflation* and squeezing real incomes | - Depreciation may improve export competitiveness over time - a potential self-correcting mechanism |
 | **Financing the deficit** | - Government may borrow to finance the deficit, raising national debt and future *debt servicing costs* | - Reliance on *foreign capital inflows* increases foreign ownership of domestic assets and future primary income outflows |
 | **Policy response** | - Contractionary fiscal or monetary policy reduces domestic demand, slowing growth and raising unemployment | - Reduced import demand may ease pressure on trading partners' current account surpluses |
-| **Productive capacity** | - A persistent deficit on goods may reflect *deindustrialisation *- manufacturing capacity is difficult and costly to rebuild | - Loss of export market share to foreign competitors entrenches comparative disadvantage in traded goods |
+| **Productive capacity** | - A persistent deficit on goods may reflect *deindustrialisation* - manufacturing capacity is difficult and costly to rebuild | - Loss of export market share to foreign competitors entrenches comparative disadvantage in traded goods |
 | **Foreign exchange reserves** | - A central bank may run down reserves to support the exchange rate, reducing capacity to manage future shocks | - Falling reserves signal external vulnerability, potentially triggering *capital flight* by foreign investors |
 
 ### Consequences of a current account surplus
@@ -104,7 +104,7 @@ guided_study: false
 | **Accumulation of assets** | - *Sovereign wealth funds* and overseas holdings generate future primary income inflows, boosting living standards | - Surplus countries accumulate claims on deficit countries, creating persistent global imbalances |
 | **Domestic demand** | - Suppressed consumption means households enjoy lower living standards than productive capacity allows | - Trading partners face pressure on their own current accounts, risking *protectionist retaliation* |
 | **Inflationary pressure** | - Strong export demand may drive up domestic prices if the economy is near full capacity | - Competitive currency policies by surplus countries create tensions in international trade relations |
-| **International pressure** | - Government may face demands to stimulate domestic demand, requiring expansionary fiscal policy | - *IMF *and trading partners may pressure the country to revalue its currency - China-USA trade tensions are a prominent example |
+| **International pressure** | - Government may face demands to stimulate domestic demand, requiring expansionary fiscal policy | - *IMF* and trading partners may pressure the country to revalue its currency - China-USA trade tensions are a prominent example |
 
 > **Worked Example**
 > A government succeeds in changing a current account deficit into a current account surplus. Why might this current account surplus increase the country's inflation rate?
@@ -132,4 +132,4 @@ guided_study: false
 > 
 > When evaluating consequences, address both the domestic economy (growth, employment, inflation, policy responses) and the external economy (exchange rate movements, trading partner reactions, retaliation risk) as the syllabus requires.
 > 
-> A current account deficit is not always harmful - if financed by productive *FDI *that raises long-run productive capacity it may be sustainable; always consider the cause and method of financing before evaluating severity.
+> A current account deficit is not always harmful - if financed by productive *FDI* that raises long-run productive capacity it may be sustainable; always consider the cause and method of financing before evaluating severity.

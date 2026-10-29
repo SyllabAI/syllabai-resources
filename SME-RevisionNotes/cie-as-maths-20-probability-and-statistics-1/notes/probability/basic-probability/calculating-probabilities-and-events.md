@@ -45,7 +45,7 @@ e.g.  The sample space below is for two ***fair***** **four-sided spinners whose
     - *A*  **or ***B*  is formally written as  $A\cupB$(∪ is called **union**)
   - **not *****A*** means the event *A* does not happen
   
-    - **not *****A is formally*** written as ***A*****'** (pronounced "*A *prime*"*)
+    - **not *****A is formally*** written as ***A*****'** (pronounced "*A* prime*"*)
 - **Notation** – the way probabilities are written is formal and consistent at A-level
 
   - $P(A)=0.6$           “the probability of **event *****A*** happening is 0.6”

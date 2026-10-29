@@ -55,13 +55,13 @@ $\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}$
 > 
 > **Step 2: Write down the known quantities**
 > 
-> - *p*<sub>*1*</sub>* = *5.10 × 10<sup>5</sup> Pa
+> - *p*<sub>*1*</sub>*=* 5.10 × 10<sup>5</sup> Pa
 > - *T*<sub>*1*</sub> = 279 K
-> - *T*<sub>*2*</sub>* = *299 K
+> - *T*<sub>*2*</sub>*=* 299 K
 > 
 > **Step 3: Rearrange for *****p***<sub>***2***</sub>*** *****and substitute values into the pressure law**
 > 
-> - To make *p*<sub>*2*</sub>* *the subject, multiply both sides by* T*<sub>*2 *</sub>to cancel out the *T*<sub>*2*</sub>* *in the fraction under* p*<sub>*2*</sub>
+> - To make *p*<sub>*2*</sub>* *the subject, multiply both sides by *T*<sub>*2* </sub>to cancel out the *T*<sub>*2*</sub>* *in the fraction under *p*<sub>*2*</sub>
 > 
 > `p _ 1 / T _ 1 x T _ 2 = (p _ 2)/(/ T _ 2 ) x / T _ 2`
 > 
@@ -74,4 +74,4 @@ $\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}$
 > $p_{2}=5.47\times10^{5}\mathrm{Pa}$
 
 > **Exam Hint**
-> Remember when using gas laws the temperature *T *must always be in **kelvin **(K)!
+> Remember when using gas laws the temperature *T* must always be in **kelvin **(K)!

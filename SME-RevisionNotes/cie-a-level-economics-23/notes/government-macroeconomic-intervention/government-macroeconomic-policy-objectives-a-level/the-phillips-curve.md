@@ -52,7 +52,7 @@ guided_study: false
 - The 1970s produced **stagflation** - simultaneously high inflation and high unemployment - which the traditional Phillips curve could not explain
 
   - The 1973 oil shock raised production costs sharply, pushing inflation up
-  - At the same time, the *recession *that followed pushed unemployment up
+  - At the same time, the *recession* that followed pushed unemployment up
   - Both variables rose together, contradicting the stable inverse relationship the original curve predicted
   - This empirical failure prompted the development of the expectations-augmented Phillips curve
 

@@ -51,7 +51,7 @@ guided_study: true
 > The radius of the circle is 6 cm.
 > Angle *OQP* = 40º.
 > 
-> Find the length* PQ*.
+> Find the length *PQ*.
 > 
 > ![A circle of centre, O, has two points on its circumference, P and Q. The lines OQ and PQ are drawn on. The angle OQP = 40º.](assets/a12cb90bb7bb-33382-theorems-with-chords-and-tangents-2.png)
 > 
@@ -116,7 +116,7 @@ guided_study: true
 > Look for tangents in the exam and draw on the radius at right angles to see if it helps.
 
 > **Worked Example**
-> Find the value of *θ  *in the diagram below.
+> Find the value of *θ* in the diagram below.
 > 
 > ![A circle with centre, O, and two points on the circumference, S and R. Tangents to the circle, at S and R, meet at a point outside the circle, T. The acute angle between these two tangents at point T is 25º. The angle SOR is labelled θ.](assets/ee6388feafdb-24869-theorems-with-chords-and-tangents-6.png)
 > 

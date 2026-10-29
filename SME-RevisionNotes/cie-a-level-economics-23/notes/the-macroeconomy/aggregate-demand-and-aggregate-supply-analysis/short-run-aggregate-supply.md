@@ -113,7 +113,7 @@ guided_study: false
 > 
 > **The context**
 > 
-> In June 2016, the UK voted to leave the European Union. The result triggered an immediate and sharp depreciation of sterling - the pound fell by approximately 10-15% against the US dollar and euro within days of the *referendum *result, reaching its lowest level against the dollar in over 30 years.
+> In June 2016, the UK voted to leave the European Union. The result triggered an immediate and sharp depreciation of sterling - the pound fell by approximately 10-15% against the US dollar and euro within days of the *referendum* result, reaching its lowest level against the dollar in over 30 years.
 > 
 > ![Illustration of two people; one holds a red ](assets/a4db3e209de2-40529-16-remain-and-leave-campaigns.png)
 > 
@@ -127,10 +127,10 @@ guided_study: false
 > 
 > **The outcome**
 > 
-> - UK *inflation *rose from around 0.5% in mid-2016 to over 3% by late 2017, driven in part by higher import costs feeding through into production prices
+> - UK *inflation* rose from around 0.5% in mid-2016 to over 3% by late 2017, driven in part by higher import costs feeding through into production prices
 > - The Office for National Statistics noted that import price inflation was a significant contributor to the rise in the *Consumer Prices Index* during this period
 > - *Real wages* fell as price inflation outpaced wage growth - households faced a squeeze on *purchasing power*
 > 
 > **What this illustrates**
 > 
-> The Brexit depreciation is a clear real-world example of a ***negative supply shock*** - a currency movement that raised production costs and shifted SRAS left, generating *cost-push inflation *without any increase in productive capacity. It also illustrates that exchange rate changes affect both AD (via net exports) and SRAS (via import costs) simultaneously - making the overall macroeconomic effect difficult to predict with precision.
+> The Brexit depreciation is a clear real-world example of a ***negative supply shock*** - a currency movement that raised production costs and shifted SRAS left, generating *cost-push inflation* without any increase in productive capacity. It also illustrates that exchange rate changes affect both AD (via net exports) and SRAS (via import costs) simultaneously - making the overall macroeconomic effect difficult to predict with precision.

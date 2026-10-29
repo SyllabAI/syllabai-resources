@@ -22,13 +22,13 @@ guided_study: false
 - The product moment correlation coefficient (PMCC) is a way of giving a numerical value to **linear correlation** of bivariate data
 - The PMCC of a sample is denoted by the letter *r*
 
-  - *r *can take any value such that $-1\leqr\leq1$
+  - *r* can take any value such that $-1\leqr\leq1$
   
     - Can be written as $\mid r \mid \le 1$
-  - A positive value of *r *describes positive correlation
-  - A negative value of *r * describes negative correlation
+  - A positive value of *r* describes positive correlation
+  - A negative value of *r* describes negative correlation
   - If *r = 0* there is no correlation
-  - *r = 1 *means perfect positive correlation and *r = -1* means perfect negative correlation
+  - *r = 1* means perfect positive correlation and *r = -1* means perfect negative correlation
   - The closer to 1 or -1, the stronger the correlation
 - The gradient of the regression line does not change the value of *r*
 
@@ -40,7 +40,7 @@ guided_study: false
 
   - `S _ x x end _ = capital sigma x ^2 - ( capital sigma x ) ^2 / n`
   - $S_{y y} = Σy^{2} - \frac{( Σy )^{2}}{n}$
-  - `S _ x y end _ = capital sigma x y - (( capital sigma x ) ( capital sigma y ))/(n)`
+  - `S_ x y end_=capital σ x y - ((capital σ x)(capital σ y))/(n)`
   - These are given in the formula booklet
 - These are related to variance and can be written in several different ways:
 
@@ -79,7 +79,7 @@ If the PMCC is close to 1 or -1 then this suggests the data follows a linear mod
   - This is found using the fact that the point $( \bar{x} , \bar{y} )$ lies on the regression line
 - If you are asked to find the equation of the regression line of ***x***** on *****y***
 
-  - *x = c + dy *
+  - *x = c + dy*
   - $d=\frac{S_{xy}}{S_{yy}}$
   - $c=\overline{x}-d\overline{y}$
   - These are not given in the formulae booklet

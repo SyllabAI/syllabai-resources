@@ -21,7 +21,7 @@ guided_study: true
 
 - The **double angle formulae** are derived from the 'A+B' versions of the **compound angle formulae**:
 
-  - `sin open parentheses 2 A close parentheses identical to 2 sin A cos A`
+  - `sin (2 A) ≡ 2 sin A cos A`
   - $\mathrm{cos}(2A)\equiv\mathrm{cos}^{2}A-\mathrm{sin}^{2}A$
   
     - $\mathrm{cos}(2A)\equiv2\mathrm{cos}^{2}A-1$

@@ -64,7 +64,7 @@ $y=ax+b$
 
 Then the standard deviation of the coded data, $σ_{y}$would be
 
-`sigma subscript y equals open vertical bar a close vertical bar sigma subscript x`
+`σ _ y=open vertical bar a close vertical bar σ _ x`
 
 The original standard deviation,* *$σ_{x}$, will be
 

@@ -246,7 +246,7 @@ Analysing a piece of prose involves not just looking at the language the writer 
 - Never retell the story:
 
   - “Narrative” and “descriptive” answers get the lowest marks
-  - Move from *what* the author is presenting to *how* and* why* they have made the choices they have
+  - Move from *what* the author is presenting to *how* and *why* they have made the choices they have
 
 #### Perspective
 
@@ -268,7 +268,7 @@ There are two main types of characterisation:
 
 | Direct characterisation | - This means what we are told by the author about a character’s appearance and personality<br>- It might also involve the writer explicitly showing what characters think of one another:<br><br>  - For example, a character might directly describe another character’s traits |
 |---|---|
-| Indirect characterisation | - This involves implying what a character is* like*<br>- This could involve what a character says, how they say it or how they interact with other characters<br>- It might also involve their inner thoughts and feelings, and more subtle indications of character, such as how they move and behave |
+| Indirect characterisation | - This involves implying what a character is *like*<br>- This could involve what a character says, how they say it or how they interact with other characters<br>- It might also involve their inner thoughts and feelings, and more subtle indications of character, such as how they move and behave |
 
 Often, characters are symbolic of broader ideas or attitudes. It is therefore important to consider how a character changes as a result of the events in a novel.
 

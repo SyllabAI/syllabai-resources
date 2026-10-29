@@ -43,20 +43,20 @@ $( \frac{a}{b} ) - ( \frac{c}{d} ) = ( \frac{a - c}{b - d} )$
 
 ### Which geometric transformations represent complex addition and subtraction?
 
-- Let *w *be a given complex number with **real part *****a**** *and **imaginary part *****b***
+- Let *w* be a given complex number with **real part *****a**** *and **imaginary part *****b***
 
   - $w=a+bi$
-- Let *z *be any complex number represented on an Argand diagram
-- **Adding *****w *****to *****z*** results in *z *being **translated** by vector $( \begin{gathered} a \\ b \end{gathered} )$
-- **Subtracting *****w *****from *****z*** results in *z *being **translated** by vector $( \begin{gathered} - a \\ - b \end{gathered} )$
+- Let *z* be any complex number represented on an Argand diagram
+- **Adding *****w *****to *****z*** results in *z* being **translated** by vector $( \begin{gathered} a \\ b \end{gathered} )$
+- **Subtracting *****w *****from *****z*** results in *z* being **translated** by vector $( \begin{gathered} - a \\ - b \end{gathered} )$
 
 ![8-2-2-geometry-of-complex-diagram-1](../../../assets/e6bf4bdb6c2b-8-2-2-geometry-of-complex-diagram-1.png)
 
 ### What geometric transformation represents complex conjugation?
 
 - If we plot **complex conjugate** pairs on an Argand diagram, we notice the points are **reflections** of each other in the **real axis**
-- Let *z *be any complex number represented on an Argand diagram
-- **Complex conjugating *****z*** results in *z *being **reflected **in the real axis
+- Let *z* be any complex number represented on an Argand diagram
+- **Complex conjugating *****z*** results in *z* being **reflected **in the real axis
 
 ![8-2-2-geometry-of-complex-diagram-2](../../../assets/3c8616cfa95a-8-2-2-geometry-of-complex-diagram-2.png)
 

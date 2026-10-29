@@ -85,7 +85,7 @@ $P=\frac{\DeltaE}{t}$
 - Where:
 
   - $P$* *= power measured in watts (W)
-  - $W$* = *work done, measured in newton metres (N m)
+  - $W$ *=* work done, measured in newton metres (N m)
   - $t$ = time measured in seconds (s)
   - $\DeltaE$ = energy transferred, measured in joules (J)
 

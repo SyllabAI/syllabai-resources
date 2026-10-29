@@ -64,7 +64,7 @@ guided_study: false
 > 
 > This means that changes in one component can have a major effect on other  parts of the ecosystem.
 
-- A **predator **is an organism that hunts, kills and eats *prey *for food
+- A **predator **is an organism that hunts, kills and eats *prey* for food
 
   - Populations of predators and prey are closely linked
   

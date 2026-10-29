@@ -242,7 +242,7 @@ Bottom right: “Buildings were to be impressive, but should still be rationally
 - The Nazis** banned around 2,500 writers** because they did not conform to Nazi beliefs:
 
   - Works by Einstein and Oppenheimer were banned because of their Jewish origins
-  - Lenin's work was banned because it spoke about ***Communism***, an *ideology *hated by the Nazis
+  - Lenin's work was banned because it spoke about ***Communism***, an *ideology* hated by the Nazis
 - Nazis removed millions of books from libraries and universities and burned them on bonfires:
 
   - In **May 1933**, students in Berlin burned** 20,000 books** by anti-Nazi authors

@@ -50,7 +50,7 @@ guided_study: false
 
 #### Equation for calculating change in gas volume
 
-- The volume of oxygen consumed (cm<sup>3</sup> min<sup>-1</sup>) can be worked out using the diameter of the capillary tube* r* (cm) and the distance moved by the manometer fluid *h* (cm) in a minute using the formula:
+- The volume of oxygen consumed (cm<sup>3</sup> min<sup>-1</sup>) can be worked out using the diameter of the capillary tube *r* (cm) and the distance moved by the manometer fluid *h* (cm) in a minute using the formula:
 
 **πr**<sup>**2**</sup>**h**
 
@@ -71,9 +71,9 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> *x *= 2.9 cm<sup>3</sup>min<sup>-1</sup>
+> *x* = 2.9 cm<sup>3</sup>min<sup>-1</sup>
 > 
-> *y *= -0.8 cm<sup>3</sup>min<sup>-1</sup>
+> *y* = -0.8 cm<sup>3</sup>min<sup>-1</sup>
 > 
 > **Step 1: Write down equation**
 > 

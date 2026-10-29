@@ -40,7 +40,7 @@ $λ=\frac{ax}{D}$
 
 - Where:
 
-  - *λ *= wavelength of source (m)
+  - *λ* = wavelength of source (m)
   - *a* = distance between the centres of the slits (m)
   - *x* = fringe width (distance between successive bright fringes) (m)
   - *D* = distance between the slits and the screen (m)

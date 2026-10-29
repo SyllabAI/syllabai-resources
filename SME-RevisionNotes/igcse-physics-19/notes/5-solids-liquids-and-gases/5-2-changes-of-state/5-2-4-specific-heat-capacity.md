@@ -55,9 +55,9 @@ $ΔQ=mcΔT$
 - Where:
 
   - Δ*Q* = change in thermal energy, in joules (J)
-  - *m = *mass, in kilograms (kg)
-  - *c = *specific heat capacity, in joules per kilogram per degree Celsius (J/kg °C)
-  - Δ*T = *change in temperature, in degrees Celsius (°C)
+  - *m =* mass, in kilograms (kg)
+  - *c =* specific heat capacity, in joules per kilogram per degree Celsius (J/kg °C)
+  - Δ*T =* change in temperature, in degrees Celsius (°C)
 
 > **Worked Example**
 > Water of mass 0.48 kg is increased in temperature by 0.7 °C. The specific heat capacity of water is 4200 J / kg °C.
@@ -69,7 +69,7 @@ $ΔQ=mcΔT$
 > **Step 1: Write down the known quantities**
 > 
 > - Mass, *m* = 0.48 kg
-> - Change in temperature, Δ*T* *= *0.7 °C
+> - Change in temperature, Δ*T* *=* 0.7 °C
 > - Specific heat capacity, *c* = 4200 J/kg °C
 > 
 > **Step 2: Write down the relevant equation **

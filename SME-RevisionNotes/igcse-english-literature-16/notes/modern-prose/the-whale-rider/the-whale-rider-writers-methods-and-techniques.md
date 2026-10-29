@@ -81,7 +81,7 @@ There is no assessment on language analysis as such. Examiners are looking for a
 - The human story starts with Kahu’s birth to connect her to the rider, Kahuti Te Rangi:
 
   - This foreshadows her significant role in the tribe
-- Ihimaera makes use of motifs such as the call of *“karanga mai” *(call out to us):
+- Ihimaera makes use of motifs such as the call of *“karanga mai”* (call out to us):
 
   - Chapters end with the traditional Māori prayer *"Hui e, haumi e, taiki e”* (Join together and let it be done)
   - This underlines humanity’s connection with nature, as well as the integral nature of the Māori tradition

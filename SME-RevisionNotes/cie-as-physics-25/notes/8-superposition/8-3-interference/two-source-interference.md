@@ -141,7 +141,7 @@ guided_study: true
 
 ***Interference pattern of light waves shown with orders of maxima***
 
-- *** ****n* = 0 is taken from the middle, *n* = 1 is one either side and so on
+- *** ****n *= 0 is taken from the middle,* n* = 1 is one either side and so on
 
 > **Worked Example**
 > Two coherent sources of sound waves S<sub>1</sub> and S<sub>2</sub> are situated 65 cm apart in air as shown below.

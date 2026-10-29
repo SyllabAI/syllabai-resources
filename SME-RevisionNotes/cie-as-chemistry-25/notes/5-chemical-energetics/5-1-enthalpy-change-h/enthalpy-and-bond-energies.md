@@ -45,7 +45,7 @@ guided_study: true
 - Bond dissociation energy (*E*) is also known as **exact bond energy **
 - The type of bond broken is put in brackets after *E*
 
-  - E.g.* EE*(H-H) is the bond energy of a mole of single bonds between two hydrogen atoms
+  - E.g.*EE*(H-H) is the bond energy of a mole of single bonds between two hydrogen atoms
 
 ### Average bond energy
 
@@ -154,13 +154,13 @@ guided_study: true
 - The specific heat capacity of water is 4.18 J g<sup>-1</sup> <sup>o</sup>C<sup>-1</sup>
 - The energy transferred as heat can be calculated using the following equation:
 
-*q* = *m *x *c* x Δ*T*
+*q* = *m* x *c* x Δ*T*
 
 - *q* = the heat transferred, J
 
   - *m* = the mass of water, g
-  - *c *= the specific heat capacity, J g<sup>-1</sup> <sup>o</sup>C<sup>-1</sup> or J g<sup>-1</sup> K<sup>-1</sup>
-  - *T *= the temperature change, <sup>o</sup>C
+  - *c* = the specific heat capacity, J g<sup>-1</sup> <sup>o</sup>C<sup>-1</sup> or J g<sup>-1</sup> K<sup>-1</sup>
+  - *T* = the temperature change, <sup>o</sup>C
 
 > **Worked Example**
 > In a calorimetric experiment, 2.50 g of methane is burnt in excess oxygen.
@@ -173,18 +173,18 @@ guided_study: true
 > 
 > **Answer**
 > 
-> - **Step 1: **Gather the necessary values for the *q* = *m *x *c* x Δ*T *equation:
+> - **Step 1: **Gather the necessary values for the *q* = *m* x *c* x Δ*T* equation:
 > 
->   - *m *(of water) = 500 g
->   - *c *(of water) = 4.18 J g<sup>-1</sup> K<sup>-1</sup>
->   - Δ*T *(of water) = 68 <sup>o</sup>C - 25 <sup>o</sup>C = 43 <sup>o</sup>C = 43 K
+>   - *m* (of water) = 500 g
+>   - *c* (of water) = 4.18 J g<sup>-1</sup> K<sup>-1</sup>
+>   - Δ*T* (of water) = 68 <sup>o</sup>C - 25 <sup>o</sup>C = 43 <sup>o</sup>C = 43 K
 >   
 >     - The change in temperature in <sup>o</sup>C is equal to the change in temperature in K
 > 
 > - **Step 2: **Complete the calculation:
 > 
 >   - *q* = 500 x 4.18 x 43
->   - *q *= 89 870 J
+>   - *q* = 89 870 J
 > - **Step 3:**  Conversion from 30% to 100%
 > 
 >   - The value of *q* calculated is only 30% of the total energy released by 2.50 g of methane
@@ -208,11 +208,11 @@ guided_study: true
 > 
 > **2O (g) → O**<sub>**2**</sub>** (g)   *****E***** (O=O) –498 kJ mol**<sup>**-1**</sup>
 > 
-> - Aqueous solutions of acid, alkalis and salts are assumed to be largely water so you can just use the *m *and *c* values of water when calculating the energy transferred
+> - Aqueous solutions of acid, alkalis and salts are assumed to be largely water so you can just use the *m* and *c* values of water when calculating the energy transferred
 > - To then calculate any changes in enthalpy per mole of a reactant or product, the following relationship can be used:
 > 
 > Δ*H* = –*m* x *c* x Δ*T*
 > 
-> - When there is a rise in temperature, the value for Δ*H *becomes negative, suggesting that the reaction is exothermic
+> - When there is a rise in temperature, the value for Δ*H* becomes negative, suggesting that the reaction is exothermic
 > - When there is a fall in temperature, the value for Δ*H* becomes positive, suggesting that the reaction is endothermic
-> - Also, remember that Δ*T *is the same in <sup>o</sup>C and K!
+> - Also, remember that Δ*T* is the same in <sup>o</sup>C and K!

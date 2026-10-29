@@ -58,15 +58,15 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Multiply all elements of *$A$* by 2 to find *$2A$
+> > *Multiply all elements of* $A$ *by 2 to find* $2A$
 > 
 > $\begin{gathered} 2 A & = 2 ( \begin{gathered} - 2 & 2 \\ - 2 & - 5 \end{gathered} ) \\ = ( \begin{gathered} 2 \times ( - 2 ) & 2 \times 2 \\ 2 \times ( - 2 ) & 2 \times ( - 5 ) \end{gathered} ) \\ = ( \begin{gathered} - 4 & 4 \\ - 4 & - 10 \end{gathered} ) \end{gathered}$
 > 
-> > *Multiply all elements of *$B$* by *$n$* to find *$nB$
+> > *Multiply all elements of* $B$ *by* $n$ *to find* $nB$
 > 
 > $\begin{gathered} n B & = n ( \begin{gathered} - 4 & 1 \\ 3 - 4 \end{gathered} ) \\ = ( \begin{gathered} - 4 n & n \\ 3 n & - 4 n \end{gathered} ) \end{gathered}$
 > 
-> > *Subtract the corresponding elements to find *$2A-nB$
+> > *Subtract the corresponding elements to find* $2A-nB$
 > 
 > $\begin{gathered} 2 A - n B & = ( \begin{gathered} - 4 & 4 \\ - 4 & - 10 \end{gathered} ) - ( \begin{gathered} - 4 n & n \\ 3 n & - 4 n \end{gathered} ) \\ = ( \begin{gathered} - 4 - ( - 4 n ) & 4 - n \\ - 4 - 3 n & - 10 - ( - 4 n ) \end{gathered} ) \\ = ( \begin{gathered} 4 n - 4 & 4 - n \\ - 3 n - 4 & 4 n - 10 \end{gathered} ) \end{gathered}$
 > 
@@ -74,13 +74,13 @@ guided_study: false
 > 
 > $\begin{gathered} ( \begin{gathered} 4 n - 4 & 4 - n \\ - 3 n - 4 & 4 n - 10 \end{gathered} ) & = ( \begin{gathered} 8 1 \\ - 13 & 2 \end{gathered} ) \end{gathered}$
 > 
-> > *For those two matrices to be equal, the correct value of *$n$* must make ALL the corresponding elements equal in the two matrices*
+> > *For those two matrices to be equal, the correct value of* $n$ *must make ALL the corresponding elements equal in the two matrices*
 > 
-> - *So you can choose any one pair to solve to find *$n$
+> - *So you can choose any one pair to solve to find* $n$
 > 
 > $\begin{gathered} 4 n - 4 & = 8 \\ 4 n & = 12 \\ n = 3 \end{gathered}$
 > 
-> > *It is worth checking the other three pairs of elements with that value of *$n$*, to make sure you haven't made a mistake*
+> > *It is worth checking the other three pairs of elements with that value of* $n$*, to make sure you haven't made a mistake*
 > 
 > $4 - 3 = 1 ✔
 > - 3 ( 3 ) - 4 = - 13 ✔

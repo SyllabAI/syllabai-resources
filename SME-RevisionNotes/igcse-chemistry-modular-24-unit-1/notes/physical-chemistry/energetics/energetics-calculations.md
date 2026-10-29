@@ -100,7 +100,7 @@ $ΔH=\frac{Q}{n}$
 >   - Q = 250 x 4.18 x 12 = **12 540 J**
 > - **Step 2:**  Calculate the energy released per mole
 > 
->   - Δ*H = Q *÷ n
+>   - Δ*H = Q* ÷ n
 >   - 12 540 J ÷ 0.01 mol = 1 254 000 J/mol
 >   - – 1254 kJ/mol
 

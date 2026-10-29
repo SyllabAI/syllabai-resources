@@ -82,7 +82,7 @@ guided_study: false
 
 #### Investigating the rate of photosynthesis
 
-- Investigations to determine the effects of light intensity, light wavelength, carbon dioxide concentration, and temperature on the **rate of photosynthesis** can be carried out using **aquatic plants** such as *Elodea* or *Cabomba *
+- Investigations to determine the effects of light intensity, light wavelength, carbon dioxide concentration, and temperature on the **rate of photosynthesis** can be carried out using **aquatic plants** such as *Elodea* or *Cabomba*
 
   - Aquatic plants are especially useful for investigating the rate of photosynthesis because the waste oxygen gas produced can be easily collected and measured underwater
 - The effect of these limiting factors on the rate of photosynthesis can be investigated in the following ways

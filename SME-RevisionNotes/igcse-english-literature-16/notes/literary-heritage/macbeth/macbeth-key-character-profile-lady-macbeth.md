@@ -187,7 +187,7 @@ In the exam, always spend time planning your answer, as examiners repeatedly rep
 | Increasingly, however, Lady Macbeth loses hold on her power and is increasingly sidelined by her husband | Contrast the insults of “coward” and “green and pale” | Macbeth begins to keep secrets from her (assassinations); she is increasingly sidelined in terms of *agency* |
 | Ultimately, Lady Macbeth is presented as a feeble, powerless wife, a complete reversal of her character in Act I | Contrast the interrogatives and [blank verse](https://www.savemyexams.com/glossary/gcse/english-literature/blank-verse-definition/) | **Prose** a reflection of the complete loss of control and power; death isn’t even on stage |
 | **Shakespeare’s methods:** Commanding language; [characterisation](https://www.savemyexams.com/glossary/gcse/english-literature/characterisation-definition/) across whole play |   |   |
-| **Contextual factors: ***Jacobean* expectations for women; *societal norms* |   |   |
+| **Contextual factors: ***Jacobean *expectations for women;* societal norms* |   |   |
 
 ## Macbeth Key Character Profile: Lady Macbeth: Lady Macbeth essay: Model paragraph
 

@@ -161,11 +161,11 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > 
 > ![Trapezium with the centre of enlargement identified at point (4, 2).](assets/e6832d4fa4d8-cie-igcse-core-fractional-enlargements-rn-we-a2-.png)
 > 
-> > *Multiply these distance by the scale factor, *$\frac{1}{2}$
+> > *Multiply these distance by the scale factor,* $\frac{1}{2}$
 > 
-> *6 'right *$\times\frac{1}{2}=3$* 'right'*
+> *6 'right* $\times\frac{1}{2}=3$ *'right'*
 > 
-> *2 'down' *$\times\frac{1}{2}=1$* 'down'*
+> *2 'down'* $\times\frac{1}{2}=1$ *'down'*
 > 
 > > *Count these new distances (which should be smaller than the originals) from the CoE to find the corresponding point on the new image and mark it on*
 > 
@@ -187,7 +187,7 @@ Multiply **both** the horizontal and vertical distances by the given **scale fac
 > 
 > > *Compare two corresponding edges to find the scale factor - we've used the top edge*
 > 
-> *scale factor = *$\frac{\mathrm{new} \mathrm{edge}}{\mathrm{old} \mathrm{edge}}=\frac{2}{6}=\frac{1}{3}$
+> *scale factor =* $\frac{\mathrm{new} \mathrm{edge}}{\mathrm{old} \mathrm{edge}}=\frac{2}{6}=\frac{1}{3}$
 > 
 > > *Draw straight lines through corresponding vertices on the original shape*
 > *Repeat this 3-4 times and you should find the lines intersect at the same point*

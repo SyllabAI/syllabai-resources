@@ -22,10 +22,10 @@ guided_study: false
 - The **binomial theorem (**also known as the binomial expansion) gives a method for expanding a **two-term** expression in a bracket raised to a power
 - To expand a bracket with a two-term expression in:
 
-  - First choose the most appropriate parts of the expression to assign to *a *and *b*
+  - First choose the most appropriate parts of the expression to assign to *a* and *b*
   - Then use the formula for the binomial theorem:
 
-`( a + b ) ^ n = a ^ n + _ ( n 1 ) a ^ n - 1 b + _ ( n 2 ) a ^ n - 2 b ^2 + horizontal ellipsis + ( n r ) a _ ^ n - r b _ ^ r + horizontal ellipsis + b ^ n`
+`(a+b)^n=a^n+_ (n 1) a^n - 1b+_ (n 2) a^n - 2b ^2+…+(n r) a_ ^ n - r b_ ^ r+…+b^n`
 
 - where $n$ is a positive integer and  $( n
 r ) = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$
@@ -57,7 +57,7 @@ r )$
 0 ) = 1$, each row corresponds to the $n^{th}$* *row and the term within that row corresponds to the $r^{th}$* *term
 
   - The first term, which will be a 1, will be the 0th term
-- In the non-calculator exam Pascal's triangle can be helpful if you need to get the coefficients of an expansion quickly, provided the value of *n *is not too big
+- In the non-calculator exam Pascal's triangle can be helpful if you need to get the coefficients of an expansion quickly, provided the value of *n* is not too big
 
 ### How do I find the coefficient of a single term?
 
@@ -69,9 +69,9 @@ r ) a^{n - r} b^{r}$
 
 - The question will give you the power of *x* of the term you are looking for
 
-  - Use this to choose which value of *r * you will need to use in the formula
-  - This will depend on where the *x *is in the bracket
-  - The laws of indices can help you decide which value of *r  *to use:
+  - Use this to choose which value of *r* you will need to use in the formula
+  - This will depend on where the *x* is in the bracket
+  - The laws of indices can help you decide which value of *r* to use:
   
     - For $(a+bx)^{n}$* *to find the coefficient of $x^{r}$* *use $a^{n-r}(bx)^{r}$
     - For $(a+bx^{2})^{n}$ to find the coefficient of $x^{r}$* *use <sup>* *</sup>$a^{n-\frac{r}{2}}(bx^{2})^{\frac{r}{2}}$
@@ -93,13 +93,13 @@ r ) a^{n - r} b^{r}$
 > 
 > $a=3,b=-2x,n=5$
 > 
-> > *Substitute values into the formula for (**a** + **b**)*<sup>*n*</sup>*. The question asks for ascending powers of **x**, so start with the constant term, **a*<sup>*n*</sup>*. *`stretchy ( a + b stretchy ) ^ n = a ^ n + _ ( n > 1 ) a ^ n - 1 b + _ ( n > 2 ) a ^ n - 2 b ^2 + horizontal ellipsis + ( n > r ) a _ ^ n - r b _ ^ r + horizontal ellipsis + b ^ n`*.*
+> > *Substitute values into the formula for (**a** + **b**)*<sup>*n*</sup>*. The question asks for ascending powers of **x**, so start with the constant term, **a*<sup>*n*</sup>*.* `stretchy (a+b stretchy)^n=a^n+_ (n>1) a^n - 1b+_ (n>2) a^n - 2b ^2+…+(n>r) a_ ^ n - r b_ ^ r+…+b^n`*.*
 > 
 > > *Pay attention to the negative term for **b. *
 > 
 > $\begin{gathered} ( 3 - 2 x )^{5} & = 3^{5} + ( 5
 > 1 ) ( 3 )^{5 - 1 } ( - 2 x ) + ( 5
-> 2 ) ( 3 )^{5 - 2 } ( - 2 x )^{2} + \text{horizontal} \text{ellipsis} \\ = 243 + ( 5 ) ( 81 ) ( - 2 x ) + ( 10 ) ( 27 ) ( 4 x^{2} ) \\ = 243 + ( 405 ) ( - 2 x ) + 270 ( 4 x^{2} ) \end{gathered}$
+> 2 ) ( 3 )^{5 - 2 } ( - 2 x )^{2} + … \\ = 243 + ( 5 ) ( 81 ) ( - 2 x ) + ( 10 ) ( 27 ) ( 4 x^{2} ) \\ = 243 + ( 405 ) ( - 2 x ) + 270 ( 4 x^{2} ) \end{gathered}$
 > 
 > $(3-2x)^{5}=243-810x+1080x^{2}+...$
 
@@ -118,7 +118,7 @@ r ) a^{n - r} b^{r}$
 - Look out for whether you should give your answer in **ascending** or **descending **powers of *x*
 
   - For **ascending **powers start with the constant term, *a*<sup>*n*</sup>
-  - For **descending **powers start with the term with *x *in
+  - For **descending **powers start with the term with *x* in
   
     - You may wish to swap *a* and *b* over so that you can follow the general formula given in the formula book
 - If you are not writing the full expansion you can either

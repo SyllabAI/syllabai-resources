@@ -58,7 +58,7 @@ guided_study: false
     - The most commonly used polymerase is ***Taq***** polymerase, **which comes from thermophilic bacterium *Thermus aquaticus*
     
       - *Taq* polymerase **does not denature** at the** high temperature** required during the first stage of the PCR reaction
-      - The optimum temperature of *Taq *polymerase is high enough to prevent *annealing* of the DNA strands that have not been copied yet
+      - The optimum temperature of *Taq* polymerase is high enough to prevent *annealing* of the DNA strands that have not been copied yet
   - **Free nucleotides**
   
     - Enable the construction of new DNA or RNA strands
@@ -76,7 +76,7 @@ guided_study: false
     - The temperature is decreased to 50-60 °C so that primers can anneal to the ends of the single strands of DNA
   - **Elongation / Extension**
   
-    - The temperature is increased to 72 °C, as this is the optimum temperature for *Taq *polymerase to build the complementary strands of DNA to produce the new identical double-stranded DNA molecules
+    - The temperature is increased to 72 °C, as this is the optimum temperature for *Taq* polymerase to build the complementary strands of DNA to produce the new identical double-stranded DNA molecules
 - These three stages make up a single PCR cycle, and **many cycles can be completed**
 
   - Each PCR cycle **doubles the amount of DNA**

@@ -129,11 +129,11 @@ $( 3 + 2 x )^{- 1} = 1 \frac{1}{3} - \frac{2}{9} x + \frac{4}{27} x^{2} - \frac{
 > 
 > (a) Use the expansion to estimate the value of $\frac{1}{\sqrt{10}}$, giving your answer as a fraction.
 > 
-> > *Find the value of *$x$*you need to use*
+> > *Find the value of* $x$*you need to use*
 > 
 > $\begin{gathered} \frac{1}{ \sqrt{9 - 3 x} } & = \frac{1}{ \sqrt{10} } \\ 9 - 3 x & = 10 \\ 3 x & = - 1 \\ x = - 1 \frac{1}{3} \end{gathered}$
 > 
-> > *That is within the interval of convergence  *$-3<x<3$*, so we can use it to find approximation*
+> > *That is within the interval of convergence* $-3<x<3$*, so we can use it to find approximation*
 > 
 > > *Substitute it into the expansion*
 > 
@@ -143,7 +143,7 @@ $( 3 + 2 x )^{- 1} = 1 \frac{1}{3} - \frac{2}{9} x + \frac{4}{27} x^{2} - \frac{
 > 
 > (b) Find the percentage error, to 3 decimal places, of your approximation from the actual value.
 > 
-> > *Use  *$\text{percentage} \text{error} = ( \frac{v_{E} - v_{A} }{v_{E} } ) \times 100 \%$
+> > *Use* $\text{percentage} \text{error} = ( \frac{v_{E} - v_{A} }{v_{E} } ) \times 100 \%$
 > 
 > > *Make sure the exact value is in the denominator!*
 > 

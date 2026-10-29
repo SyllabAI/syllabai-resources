@@ -24,7 +24,7 @@ guided_study: true
 - When a stationary wave, such as a vibrating string, is fixed at both ends, the simplest wave pattern is a single loop made up of **two nodes** and an **antinode**
 
   - This is called the **fundamental mode** of vibration or the **first harmonic**
-- The particular frequencies (i.e. resonant frequencies) of standing waves possible in the string depend on its length *L *and its speed *v*
+- The particular frequencies (i.e. resonant frequencies) of standing waves possible in the string depend on its length *L* and its speed *v*
 - As you **increase the frequency**, the **higher harmonics** begin to appear
 
   - The frequencies can be calculated from the string length and wave equation

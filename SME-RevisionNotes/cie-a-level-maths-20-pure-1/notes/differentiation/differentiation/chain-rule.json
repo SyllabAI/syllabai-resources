@@ -62,7 +62,7 @@
    "alt": "fraction numerator d u over denominator d x end fraction equals a"
   },
   {
-   "latex": "\\frac{dy}{du}=nu^{n-1}",
+   "latex": "\\frac{dy}{du}=\\nu^{n-1}",
    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>u</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msup><mi>u</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
    "alt": "fraction numerator d y over denominator d u end fraction equals n u to the power of n minus 1 end exponent"
   },
@@ -152,7 +152,7 @@
   },
   {
    "type": "bullets",
-   "md": "- For *n = 2* you will most likely **expand the brackets** and differentiate each term separately\n- If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely\n- The chain rule allows us to use **substitution** to differentiate any function in the form *y* = (*ax* + *b*)<sup>n</sup>\n\n  - Let *u = ax + b, *then *y = u*<sup>*n*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=nu^{n-1}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\timesnu^{n-1}=anu^{n-1}$\n  - **Substitute** *u = ax + b *back into your answer\n  \n    - $\\frac{dy}{dx}=an(ax+b)^{n-1}$"
+   "md": "- For *n = 2* you will most likely **expand the brackets** and differentiate each term separately\n- If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely\n- The chain rule allows us to use **substitution** to differentiate any function in the form *y* = (*ax* + *b*)<sup>n</sup>\n\n  - Let *u = ax + b,* then *y = u*<sup>*n*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=\\nu^{n-1}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\timesnu^{n-1}=anu^{n-1}$\n  - **Substitute** *u = ax + b* back into your answer\n  \n    - $\\frac{dy}{dx}=an(ax+b)^{n-1}$"
   },
   {
    "type": "heading",
@@ -161,7 +161,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The chain rule allows us to use **substitution** to differentiate any function in the form $y=\\sqrt{ax+b}$\n- Rewrite $\\sqrt{ax+b}=(ax+b)^{\\frac{1}{2}}$\n\n  - Let *u = ax + b, *then *y = u*<sup>*½*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=\\frac{1}{2}u^{-\\frac{1}{2}}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\times\\frac{1}{2}u^{-\\frac{1}{2}}=\\frac{a}{2}u^{-\\frac{1}{2}}$\n  - **Substitute** *u = ax + b *back into your answer\n  \n    - $\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = \\frac{a}{2} ( a x + b )^{- 1 \\frac{1}{2}} = \\frac{a}{2 \\sqrt{a x + b} }$\n- This method can be used for any **fractional power** of any linear or non-linear expression\n\n  - Provided you know how to differentiate the non-linear expression"
+   "md": "- The chain rule allows us to use **substitution** to differentiate any function in the form $y=\\sqrt{ax+b}$\n- Rewrite $\\sqrt{ax+b}=(ax+b)^{\\frac{1}{2}}$\n\n  - Let *u = ax + b,* then *y = u*<sup>*½*</sup>\n  - **Differentiate** both parts **separately**\n  \n    - $\\frac{du}{dx}=a$ and $\\frac{dy}{du}=\\frac{1}{2}u^{-\\frac{1}{2}}$\n  - Put both parts into the **chain rule**\n  \n    - $\\frac{dy}{dx}=\\frac{dy}{du}\\times\\frac{du}{dx}=a\\times\\frac{1}{2}u^{-\\frac{1}{2}}=\\frac{a}{2}u^{-\\frac{1}{2}}$\n  - **Substitute** *u = ax + b* back into your answer\n  \n    - $\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = \\frac{a}{2} ( a x + b )^{- 1 \\frac{1}{2}} = \\frac{a}{2 \\sqrt{a x + b} }$\n- This method can be used for any **fractional power** of any linear or non-linear expression\n\n  - Provided you know how to differentiate the non-linear expression"
   },
   {
    "type": "heading",
@@ -170,7 +170,7 @@
   },
   {
    "type": "bullets",
-   "md": "- This method can be used for any linear or non – linear expression\n\n  - Let *u *= f(*x*) and follow the method above\n  - In general if $y=(f(x))^{n}$ then $\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = n \\mathrm{f}^{ \\mathrm{'} ( x ) ( \\mathrm{f} ( x ) )^{n} - 1}$\n- With practice you will be able to carry out this method **without the need for *****u***\n\n  - This is essential for learning the **reverse chain rule** later in the course"
+   "md": "- This method can be used for any linear or non – linear expression\n\n  - Let *u* = f(*x*) and follow the method above\n  - In general if $y=(f(x))^{n}$ then $\\frac{ \\mathrm{d} y}{ \\mathrm{d} x} = n \\mathrm{f}^{ \\mathrm{'} ( x ) ( \\mathrm{f} ( x ) )^{n} - 1}$\n- With practice you will be able to carry out this method **without the need for *****u***\n\n  - This is essential for learning the **reverse chain rule** later in the course"
   },
   {
    "type": "callout",
@@ -182,7 +182,7 @@
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "If using *u *as a substitution don't forget to substitute *x *back into your final answer."
+   "md": "If using *u* as a substitution don't forget to substitute *x* back into your final answer."
   }
  ]
 }

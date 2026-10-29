@@ -31,7 +31,7 @@ guided_study: false
 - However, businesses often try to cut costs after a merger or takeover
 
   - This may lead to **job losses** (especially in duplicated roles), uncertainty and lower *morale*
-- E.g., When **Amazon **took over **Whole Foods**, some staff benefitted from higher wages, but others were worried about* job security* due to *automation*
+- E.g., When **Amazon **took over **Whole Foods**, some staff benefitted from higher wages, but others were worried about *job security* due to *automation*
 
 #### 2. Owners
 
@@ -78,8 +78,8 @@ guided_study: false
 ### Heavier debt burden
 
 - Mergers are often paid for with borrowed money
-- High *interest *payments use cash that could alternatively fund research, marketing or new factories
-- If profits fall, the enlarged business may be forced to cut dividends, sell *assets *or issue new shares
+- High *interest* payments use cash that could alternatively fund research, marketing or new factories
+- If profits fall, the enlarged business may be forced to cut dividends, sell *assets* or issue new shares
 
   - E.g. **Dell **borrowed \$48 billion in 2016 to finance its purchase of rival **EMC**, which affected cash flow for years and was a key reason Dell had to raise finance by selling shares on the stock market in 2018
 
@@ -103,7 +103,7 @@ guided_study: false
 > 
 >   - The merger would reduce competition in the insurance market
 >   - Businesses (especially large companies) would face **higher prices** and **fewer choices** when buying insurance services
->   - It could have harmed *innovation *in the industry
+>   - It could have harmed *innovation* in the industry
 > 
 > **Outcome**
 > 

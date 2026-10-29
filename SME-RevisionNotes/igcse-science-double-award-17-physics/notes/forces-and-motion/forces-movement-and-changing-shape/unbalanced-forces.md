@@ -68,7 +68,7 @@ F = m × a
 - Where:
 
   - *F* = resultant force, measured in newtons (N)
-  - *m = *mass, measured in kilograms (kg)
+  - *m =* mass, measured in kilograms (kg)
   - *a* = acceleration, measured in metres per second squared (m/s<sup>2</sup>)
 - This equation is also known as Newton's second law of motion
 

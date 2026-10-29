@@ -157,7 +157,7 @@ He talks of the ravine, the locals at the Pasteur Institute, wild animals and ev
 
 **Sources**
 
-Desai, A. (1999) *Fire on the Mountain *(Vintage)
+Desai, A. (1999) *Fire on the Mountain* (Vintage)
 
 ### Sources
 

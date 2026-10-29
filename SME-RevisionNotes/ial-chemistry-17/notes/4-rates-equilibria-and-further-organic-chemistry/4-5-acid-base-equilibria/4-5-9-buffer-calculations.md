@@ -38,7 +38,7 @@ guided_study: false
 > **Worked Example**
 > Calculate the pH of a buffer solution containing 0.305 mol dm<sup>-3</sup> of ethanoic acid and 0.520 mol dm<sup>-3</sup> sodium ethanoate.
 > 
-> The *K*<sub>*a *</sub>of ethanoic acid  = 1.74 × 10<sup>-5</sup> mol dm<sup>-3 </sup>at 298 K
+> The *K*<sub>*a* </sub>of ethanoic acid  = 1.74 × 10<sup>-5</sup> mol dm<sup>-3 </sup>at 298 K
 > 
 > **Answer**
 > 

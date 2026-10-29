@@ -22,8 +22,8 @@ guided_study: false
 - For **Δ*****S***<sub>***total***</sub>* *to be positive and therefore the reaction feasible:
 
   - Both Δ*S*<sub>*system*</sub>* *and Δ*S*<sub>*surroundings*</sub>* *are positive
-  - Δ*S*<sub>*surroundings *</sub>is positive and ΔS<sub>system</sub> is negative, but Δ*S*<sub>*surroundings *</sub>> Δ*S*<sub>*system*</sub>
-  - Δ*S*<sub>*surroundings *</sub>is negative and ΔS<sub>system</sub> is positive, but Δ*S*<sub>*surroundings *</sub>*< *ΔS<sub>system</sub>
+  - Δ*S*<sub>*surroundings* </sub>is positive and ΔS<sub>system</sub> is negative, but Δ*S*<sub>*surroundings* </sub>> Δ*S*<sub>*system*</sub>
+  - Δ*S*<sub>*surroundings* </sub>is negative and ΔS<sub>system</sub> is positive, but Δ*S*<sub>*surroundings* </sub>*<* ΔS<sub>system</sub>
 
 #### Feasibility
 
@@ -45,7 +45,7 @@ guided_study: false
 
 - This reaction is **endothermic**, therefore Δ*S*<sub>*surroundings*</sub>* *is negative
 - However, a gas is produced from a solid and liquid, so Δ*S*<sub>*system*</sub> is positive
-- Δ*S*<sub>*system *</sub>> Δ*S*<sub>*surroundings*</sub> and the reaction is spontaneous
+- Δ*S*<sub>*system* </sub>> Δ*S*<sub>*surroundings*</sub> and the reaction is spontaneous
 
 #### Gibbs free energy
 
@@ -67,7 +67,7 @@ guided_study: false
 
 #### Temperature & feasibility
 
-- We can look at the the values for Δ*H* and Δ*S *to determine whether the reaction is spontaneous / feasible at a given temperature (*T*)
+- We can look at the the values for Δ*H* and Δ*S* to determine whether the reaction is spontaneous / feasible at a given temperature (*T*)
 - The Gibbs equation can explain what will affect the spontaneity / feasibility of a reaction for exothermic and endothermic reactions
 
 #### Exothermic reactions
@@ -83,7 +83,7 @@ guided_study: false
   - The first term is **negative **and the second term is **positive**
   - At very high temperatures, the –*T*Δ*S*<sub>*system*</sub><sup>ꝋ </sup>will be very **large** and **positive** and will overcome Δ*H*<sub>*reaction*</sub><sup>ꝋ</sup>
   - Therefore, at high temperatures Δ*G*<sup>ꝋ </sup>is **positive** and the reaction is **not feasible**
-- Since the relative size of an entropy change is much smaller than an enthalpy change, it is unlikely that TΔ*S > *Δ*H *as temperature increases
+- Since the relative size of an entropy change is much smaller than an enthalpy change, it is unlikely that TΔ*S >* Δ*H* as temperature increases
 - These reactions are therefore usually spontaneous at normal conditions
 
 ![](../../../assets/b0b51c2cf202-5-2-entropy-feasibility-of-exothermic-reactions.png)
@@ -127,7 +127,7 @@ guided_study: false
 > 
 > - As both Δ*H* and Δ*S* are positive, Δ*G* will become negative if *T*Δ*S* > Δ*H*.
 > - The temperature at which this reaction becomes spontaneous can be calculated. This will be when Δ*G* = 0.
-> - If Δ*G* = 0, then T = Δ*H */ Δ*S**
+> - If Δ*G* = 0, then T = Δ*H* / Δ*S**
 > - T = $\frac{1336}{0.581}$
 > - T = 2299 K
 > 
@@ -142,7 +142,7 @@ guided_study: false
 ### Thermodynamic Stability
 
 - Refers to whether a reaction is feasible under given conditions
-- A reaction is thermodynamically feasible if the Gibbs free energy change (ΔG) is negative Δ*G *= Δ*H*−*T*Δ*S*
+- A reaction is thermodynamically feasible if the Gibbs free energy change (ΔG) is negative Δ*G* = Δ*H*−*T*Δ*S*
 - This means:
 
   - Reactions are more likely to be feasible if **enthalpy change (Δ*****H*****)** is **negative** (exothermic)

@@ -202,9 +202,9 @@ $\ \\gamma pre_{0} pre^{0}$
 | Beta plus (β<sup>+</sup>) | Positron (e<sup>+</sup>) | 0.0005 | +1 | >0.99 |
 | Gamma (γ) | Electromagnetic wave | 0 | 0 | 1 |
 
-- *u *is the atomic mass unit (see “Atomic Mass Unit (u)”)
+- *u* is the atomic mass unit (see “Atomic Mass Unit (u)”)
 - *e* is the charge of the electron: 1.60 × 10<sup>-19</sup> C
-- *c *is the speed of light: 3 × 10<sup>8</sup> m s<sup>-1</sup>
+- *c* is the speed of light: 3 × 10<sup>8</sup> m s<sup>-1</sup>
 
 > **Worked Example**
 > Three successive radioactive decays are shown in the diagram below. Each one results in a particle being emitted.

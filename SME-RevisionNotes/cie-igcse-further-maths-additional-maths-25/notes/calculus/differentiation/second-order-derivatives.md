@@ -61,7 +61,7 @@ guided_study: false
 > 
 > $\begin{gathered} \frac{d y}{d x} & = 5 x^{4} - 6 x^{2} + 14 x + 9 \end{gathered}$* *
 > 
-> > *Find the second derivative, *$\frac{d^{2}y}{dx^{2}}$* by differentiating each term in the first derivative.*
+> > *Find the second derivative,* $\frac{d^{2}y}{dx^{2}}$ *by differentiating each term in the first derivative.*
 > 
 > $\begin{array}{ccc}\frac{ d^{ } 2 y}{ d x^{ } 2} & = & 20 x^{ } 3 - 12 x + 14\end{array}$**  **
 > 
@@ -71,7 +71,7 @@ guided_study: false
 > 
 > > $\begin{gathered} y & = \frac{3 x}{x^{4} } + \frac{7}{x^{4}} \end{gathered}$*  *
 > 
-> > *Rewrite each term using index notation so that they are in a form that can be differentiated. *
+> > *Rewrite each term using index notation so that they are in a form that can be differentiated.*
 > 
 > $\begin{gathered} y & = 3 x ( x^{- 4} ) + 7 x^{- 4} = 3 x^{- 3} + 7 x^{- 4} \end{gathered}$
 > 
@@ -79,7 +79,7 @@ guided_study: false
 > 
 > > $\begin{gathered} \frac{d y}{d x} & = - 9 x^{- 4} - 28 x^{- 5} \end{gathered}$* *
 > 
-> > *Find the second derivative, *$\frac{d^{2}y}{dx^{2}}$* by differentiating each term in the first derivative.*
+> > *Find the second derivative,* $\frac{d^{2}y}{dx^{2}}$ *by differentiating each term in the first derivative.*
 > 
 > $\begin{gathered} \frac{d^{2} y}{d x^{2}} & = - 9 ( - 4 ) x^{- 5} - 28 ( - 5 ) x^{- 6} = 36 x^{- 5} + 140 x^{- 6} \end{gathered}$
 > 
@@ -133,11 +133,11 @@ guided_study: false
 > 
 > $\frac{dy}{dx}=2x-2$
 > 
-> > *Solve *$\frac{dy}{dx}=0$
+> > *Solve* $\frac{dy}{dx}=0$
 > 
 > $\begin{gathered} 2 x - 2 & = 0 \\ 2 x & = 2 \\ x & = 1 \end{gathered}$
 > 
-> > *Find the corresponding *$y$*-coordinate.*
+> > *Find the corresponding* $y$*-coordinate.*
 > 
 > $\begin{gathered} x = 1 , y = ( 1 )^{2} - 2 ( 1 ) = - 1 \end{gathered}$
 > 
@@ -145,7 +145,7 @@ guided_study: false
 > 
 > **Final answer:** **The stationary point is (1, -1)**
 > 
-> > *To explain why it is a minimum point, consider the shape of the quadratic. *
+> > *To explain why it is a minimum point, consider the shape of the quadratic.*
 > 
 > **Final answer:** **(1, -1) is a minimum point because it is a positive quadratic.**
 
@@ -197,7 +197,7 @@ guided_study: false
 > 
 > and determine the nature of each.
 > 
-> > *Start by expanding the brackets in the expression for *$y$
+> > *Start by expanding the brackets in the expression for* $y$
 > 
 > $y=2x^{4}-4x^{2}$
 > 
@@ -205,7 +205,7 @@ guided_study: false
 > 
 > $\frac{dy}{dx}=8x^{3}-8x$
 > 
-> *Step 2* *Solve *$\frac{dy}{dx}=0$
+> *Step 2* *Solve* $\frac{dy}{dx}=0$
 > 
 > $\begin{gathered} 8 x^{3} - 8 x & = 0 \end{gathered}$
 > 
@@ -217,19 +217,19 @@ guided_study: false
 > 
 > $\begin{gathered} x ( x^{2} - 1 ) & = 0 \\ x ( x - 1 ) ( x + 1 ) & = 0 \end{gathered}$
 > 
-> > *Solve to find the *$x$*-coordinates of the stationary (turning) points*
+> > *Solve to find the* $x$*-coordinates of the stationary (turning) points*
 > 
 > $x_{1}=0,x_{2}=1,x_{3}=-1$
 > 
-> *Step 3* *Find the corresponding *$y$*-coordinates*
+> *Step 3* *Find the corresponding* $y$*-coordinates*
 > 
 > $\begin{gathered} x_{1} & = 0 , y_{1} = ( 0 )^{2} ( 2 ( 0 )^{2} - 4 ) = 0 \\ x_{2} & = 1 , y_{2} = ( 1 )^{2} ( 2 ( 1 )^{2} - 4 ) = - 2 \\ x_{3} & = - 1 , y_{3} = ( - 1 )^{2} ( 2 ( - 1 )^{2} - 4 ) = - 2 \end{gathered}$
 > 
-> > *Write the answers as coordinates, being careful to correctly match *$x$*'s and *$y$*'s*
+> > *Write the answers as coordinates, being careful to correctly match* $x$*'s and* $y$*'s*
 > 
 > **Final answer:** **The stationary points are (0, 0), (1, -2) and (-1, -2)**
 > 
-> > *To find the nature of each stationary point, use Method B *
+> > *To find the nature of each stationary point, use Method B*
 > 
 > > *Step 4 Find the second derivative*
 > 

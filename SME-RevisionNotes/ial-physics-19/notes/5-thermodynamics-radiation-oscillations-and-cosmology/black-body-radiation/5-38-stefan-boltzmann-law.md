@@ -50,7 +50,7 @@ guided_study: false
 > 
 > **Step 1: List the known quantities**
 > 
-> - Surface area,* A* = 16 m<sup>2</sup>
+> - Surface area,*A* = 16 m<sup>2</sup>
 > - Temperature (in K), *T* = 40 + 273 = 313 K
 > - Stefan-Boltzmann constant, *σ* = 5.67 × 10<sup>–8</sup> W m<sup>−2</sup> K<sup>−4</sup>
 > 
@@ -60,7 +60,7 @@ guided_study: false
 > 
 > **Step 3: Substitute in the values**
 > 
-> *L *= (5.67 × 10<sup>–8</sup>) × 16 × 313<sup>4</sup> = 8707 W
+> *L* = (5.67 × 10<sup>–8</sup>) × 16 × 313<sup>4</sup> = 8707 W
 > 
 > **Step 4: Write the answer to correct significant figures and include units**
 > 

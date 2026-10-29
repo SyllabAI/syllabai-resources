@@ -20,7 +20,7 @@ guided_study: true
 - Root-mean-square (r.m.s) values of current, or voltage, are a useful way of **comparing **a.c current, or voltage, to its equivalent direct current, or voltage
 - The r.m.s values represent the d.c current, or voltage, values that will produce the same **heating effect**, or power dissipation, as the alternating current, or voltage
 - The r.m.s value of an alternating current is defined as: **The value of a constant current that produces the same power in a resistor as the alternating current**
-- The r.m.s current* I*<sub>r.m.s</sub> is defined by the equation:
+- The r.m.s current *I*<sub>r.m.s</sub> is defined by the equation:
 
 $I_{r.m.s}=\frac{I_{0}}{\sqrt{2}}$
 
@@ -46,7 +46,7 @@ $V_{r.m.s}=\frac{V_{0}}{\sqrt{2}}$
 > **Worked Example**
 > An alternating current is *I* is represented by the equation
 > 
-> `I space equals space 410 space sin open parentheses 100 straight pi t close parentheses`
+> `I=410 sin (100 straight π t)`
 > 
 > where *I* is measured in amps and *t* is in seconds.
 > 
@@ -66,8 +66,8 @@ $V_{r.m.s}=\frac{V_{0}}{\sqrt{2}}$
 > 
 > **Step 2:** **Determine the peak voltage *****I***<sub>***0***</sub>
 > 
-> - The alternating current equation is in the form: `I space equals space I subscript 0 sin open parentheses omega t close parentheses`
-> - Comparing this to `I space equals space bold 410 sin open parentheses 100 straight pi t close parentheses`means the peak current is ***I***<sub>**0**</sub>** = 410 A**
+> - The alternating current equation is in the form: `I=I_ 0 sin (ω t)`
+> - Comparing this to `I=bold 410 sin (100 straight π t)`means the peak current is ***I***<sub>**0**</sub>** = 410 A**
 > 
 > **Step 3: Substitute into the***** I***<sub>**r.m.s**</sub>** equation**
 > 
@@ -81,8 +81,8 @@ $V_{r.m.s}=\frac{V_{0}}{\sqrt{2}}$
 > 
 > **Step 2: Determine the angular frequency**
 > 
-> - The alternating current equation is in the form: `I space equals space I subscript 0 sin open parentheses omega t close parentheses`
-> - Comparing this to `I space equals space 410 sin open parentheses bold 100 bold pi t close parentheses`means the angular frequency is ***ω***** = 100π rad s**<sup>**−1**</sup>
+> - The alternating current equation is in the form: `I=I_ 0 sin (ω t)`
+> - Comparing this to `I=410 sin (bold 100 bold π t)`means the angular frequency is ***ω***** = 100π rad s**<sup>**−1**</sup>
 > 
 > **Step 3: Rearrange and substitute into the***** *****equation to calculate frequency**
 > 

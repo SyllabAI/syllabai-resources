@@ -76,7 +76,7 @@ Write a **narrative** for the journal entry
 >   - *\$1 000 + \$2 000 = \$3 000*
 > - *Equity is the difference between assets and liabilities*
 > 
->   - *\$4* *000 + \$3* *000 - \$5* *000 = \$2* *000 *
+>   - *\$4* *000 + \$3* *000 - \$5* *000 = \$2* *000*
 > 
 > **Journal**
 > 

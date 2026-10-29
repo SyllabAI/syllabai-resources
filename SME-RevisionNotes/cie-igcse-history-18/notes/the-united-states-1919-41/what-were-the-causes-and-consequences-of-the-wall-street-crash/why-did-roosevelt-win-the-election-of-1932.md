@@ -19,7 +19,7 @@ guided_study: false
 
 This was a very popular policy in the 1920s when things were booming. People didn’t need the government's help, and they appreciated the** low taxes**. However, when disaster struck and the ***stock market *****crashed** in October 1929, people’s attitudes changed. Unfortunately, President Hoover’s didn’t.
 
-Hoover believed that people should look to themselves to solve their problems, not the government. He eventually changed his mind and introduced a series of measures to help people, but it was too late to stop him from becoming very unpopular with the American people. When he used force against some Army *veterans *campaigning for financial help, he became even more unpopular.
+Hoover believed that people should look to themselves to solve their problems, not the government. He eventually changed his mind and introduced a series of measures to help people, but it was too late to stop him from becoming very unpopular with the American people. When he used force against some Army *veterans* campaigning for financial help, he became even more unpopular.
 
 Hoover’s opponent in the 1932 presidential election was** Franklin D. Roosevelt**. He was a great public speaker and promised to help people out of the **Great Depression**. The result was a defeat for Herbert Hoover and the election of Roosevelt as president.
 
@@ -66,7 +66,7 @@ Hoover’s opponent in the 1932 presidential election was** Franklin D. Roosevel
 - Hoover’s attitude and actions towards the **Bonus Marchers** damaged his reputation even further
 - The Bonus Marchers were a group of 25,000 First World War veterans who wanted their war *pension* (or bonus) paid immediately rather than in 1945
 
-  - When this was refused, they marched to Washington, DC, and set up a *Hooverville *directly outside the White House in March 1932
+  - When this was refused, they marched to Washington, DC, and set up a *Hooverville* directly outside the White House in March 1932
 - Hoover decided to remove the Bonus Marchers by force
 - The Army used* ****tear gas*** and** tanks** to move the Bonus Marchers
 
@@ -102,7 +102,7 @@ Hoover’s opponent in the 1932 presidential election was** Franklin D. Roosevel
   - Many people in the US felt like the “forgotten man” — they trusted that Roosevelt would help them recover from the economic crisis
 - Roosevelt highlighted his own struggles
 
-  - He was disabled after suffering from *polio *at the age of 39
+  - He was disabled after suffering from *polio* at the age of 39
   - The US public believed that Roosevelt understood what it was like to go through suffering
   
     - Hoover’s backstory as a self-made millionaire was unrelatable to most people in the US

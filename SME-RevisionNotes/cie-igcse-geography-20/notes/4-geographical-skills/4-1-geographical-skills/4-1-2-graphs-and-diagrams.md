@@ -171,7 +171,7 @@ guided_study: false
 
 ![Triangular graph illustrating soil characteristics at sites 1-3, showing clay, sand, and silt proportions, with red points indicating sample locations.](../../../assets/733a55856caa-triangular-graph.png)
 
-*Example of a triangular graph *
+*Example of a triangular graph*
 
 ### Scatter graph
 

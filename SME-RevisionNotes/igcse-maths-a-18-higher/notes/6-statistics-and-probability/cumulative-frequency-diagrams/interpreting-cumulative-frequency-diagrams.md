@@ -112,13 +112,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *There are 100 pieces of data, so *$n=100$
+> > *There are 100 pieces of data, so* $n=100$
 > 
 > $\begin{gathered} \frac{n}{2} & = \frac{100}{2} = 50 \\ \frac{n}{4} & = \frac{100}{4} = 25 \\ \frac{3 n}{4} & = 3 \times 25 = 75 \end{gathered}$
 > 
-> > *So the median is the 50*<sup>*th*</sup>* value*
-> *The lower quartile is the 25*<sup>*th*</sup>* value*
-> *The upper quartile is the 75*<sup>*th*</sup>* value*
+> > *So the median is the 50*<sup>*th*</sup> *value*
+> *The lower quartile is the 25*<sup>*th*</sup> *value*
+> *The upper quartile is the 75*<sup>*th*</sup> *value*
 > 
 > > *Draw horizontal lines from these on the cumulative frequency axis until they hit the curve*
 > *Then draw vertical lines down to the time of calls axis and take readings*

@@ -29,7 +29,7 @@ guided_study: false
 
 - **Depreciation or devaluation of the *****exchange rate***
 
-  - Makes *exports *cheaper for foreign buyers and imports dearer for domestic consumers
+  - Makes *exports* cheaper for foreign buyers and imports dearer for domestic consumers
 - ***Tariffs *****and *****import quotas***
 
   - Raises the price of imported goods relative to domestic substitutes
@@ -38,7 +38,7 @@ guided_study: false
   - Lowers the price of exports in world markets, switching foreign expenditure towards domestic goods
 - **Supply-side policies**
 
-  - Improves *productivity *and reduce *unit costs*, switching both domestic and foreign expenditure towards domestically produced goods through improved price and non-price competitiveness
+  - Improves *productivity* and reduce *unit costs*, switching both domestic and foreign expenditure towards domestically produced goods through improved price and non-price competitiveness
 
 - Expenditure-switching policies can improve the current account **without reducing domestic output and employment**
 
@@ -86,7 +86,7 @@ guided_study: false
 - Expenditure-reducing policies are **reliable in reducing imports** - but carry significant costs:
 
   - Lower growth and rising unemployment as domestic demand falls
-  - Potential *deflation *if demand falls sharply
+  - Potential *deflation* if demand falls sharply
   - The current account improves but at the cost of other macroeconomic objectives - a major policy trade-off
 
 ### Comparing the two policies

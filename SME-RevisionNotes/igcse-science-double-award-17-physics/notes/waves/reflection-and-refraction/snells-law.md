@@ -82,6 +82,6 @@ $\mathrm{refractive} \mathrm{index},n=\frac{\mathrm{speed} \mathrm{of} \mathrm{l
 > **Exam Hint**
 > **Important:** in snell's law $\frac{\mathrm{sin}i}{\mathrm{sin}r}$ is not the same as $\frac{i}{r}$. Incorrectly cancelling the sin terms is a common mistake!
 > 
-> When calculating the value of *i* or *r* start by calculating the value of sin* i* or sin* r. *You can then use the **inverse sin** function (sin<sup>–1</sup> on most calculators by pressing 'shift' then 'sine') to find the angle.
+> When calculating the value of *i* or *r* start by calculating the value of sin *i* or sin *r.* You can then use the **inverse sin** function (sin<sup>–1</sup> on most calculators by pressing 'shift' then 'sine') to find the angle.
 > 
-> One way to remember which way around *i *and *r* are in the fraction is remembering that 'i' comes before 'r' in the alphabet, and therefore is on the top of the fraction (whilst *r* is on the bottom).
+> One way to remember which way around *i* and *r* are in the fraction is remembering that 'i' comes before 'r' in the alphabet, and therefore is on the top of the fraction (whilst *r* is on the bottom).

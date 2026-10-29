@@ -66,7 +66,7 @@ guided_study: true
 > - *height (frequency density) of 0.6*
 > - *width of 30-15 = 15*
 > 
-> > *Rearrange *$\mathrm{frequency} \mathrm{density}=\frac{\mathrm{frequency}}{\mathrm{class} \mathrm{width}}$*to get*
+> > *Rearrange* $\mathrm{frequency} \mathrm{density}=\frac{\mathrm{frequency}}{\mathrm{class} \mathrm{width}}$*to get*
 > 
 > $\mathrm{frequency}=\mathrm{frequency} \mathrm{density}\times\mathrm{class} \mathrm{width}$
 > 
@@ -91,7 +91,7 @@ guided_study: true
 > - *frequency of 16*
 > - *width of 10-8 = 2*
 > 
-> > *Use *$\mathrm{frequency} \mathrm{density}=\frac{\mathrm{frequency}}{\mathrm{class} \mathrm{width}}$* **to find the frequency density*
+> > *Use* $\mathrm{frequency} \mathrm{density}=\frac{\mathrm{frequency}}{\mathrm{class} \mathrm{width}}$* **to find the frequency density*
 > 
 > $\mathrm{frequency} \mathrm{density}=\frac{16}{2}=8$
 > 
@@ -113,7 +113,7 @@ guided_study: true
 > 
 > ![The histogram from the question with the bar between 13 and 15 highlighted.](assets/40c8950db051-36642-interpreting-histograms-3.png)
 > 
-> > *Now use *$\mathrm{frequency}=\mathrm{frequency} \mathrm{density}\times\mathrm{class} \mathrm{width}$* to estimate the number of dolphins in the 13 ≤ **w** < 15 interval*
+> > *Now use* $\mathrm{frequency}=\mathrm{frequency} \mathrm{density}\times\mathrm{class} \mathrm{width}$* to estimate the number of dolphins in the 13 ≤ **w** < 15 interval*
 > *(Note that using the histogram in this way is actually a form of linear interpolation)*
 > 
 > $\mathrm{frequency}=4\times2=8$

@@ -140,7 +140,7 @@ guided_study: false
 > 
 > > *Find the number of students who like studying statistics only*
 > 
-> - *Give your answer in terms of *$x$
+> - *Give your answer in terms of* $x$
 > 
 > $x-5-6-3=x-14$
 > 
@@ -156,7 +156,7 @@ guided_study: false
 > 
 > $x-14+6+5+11=x+8$
 > 
-> > *Set this equal to 30 and solve for *$x$
+> > *Set this equal to 30 and solve for* $x$
 > 
 > $\begin{gathered} x + 8 & = 30 \\ x = 22 \end{gathered}$
 > 

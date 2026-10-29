@@ -37,9 +37,9 @@ guided_study: false
   - Most ions will only gain a charge of 1+ and therefore a ion with mass 12 and charge 1+ will have an *m/z* value of 12
   - It is, however, possible for a greater charge to occur. For example, an ion with mass 16 and charge 2+ will have a *m/z* value of 8
 - The smaller and more positively charged fragment ions will be **detected** first as they will get **deflected** the most and are more attracted to the **negative** **pole** of the magnet
-- Each fragment corresponds to a specific **peak** with a particular *m/z *value in the mass spectrum
+- Each fragment corresponds to a specific **peak** with a particular *m/z* value in the mass spectrum
 - The **base peak **is the peak corresponding to the most **abundant** ion
-- The *m/z* is sometimes referred to as the *m/e *ratio and it is almost always **1:1**
+- The *m/z* is sometimes referred to as the *m/e* ratio and it is almost always **1:1**
 
 #### Isotopes
 
@@ -72,7 +72,7 @@ guided_study: false
 >   - It also has the largest positive charge and will be more attracted to the negative pole of the magnet within the mass spectrometer.
 
 > **Exam Hint**
-> A small *m/z *value corresponds to fragments that are either **small **or have a **high positive charge **or a combination of **both**.
+> A small *m/z* value corresponds to fragments that are either **small **or have a **high positive charge **or a combination of **both**.
 
 #### Deducing molecular formulae
 
@@ -143,7 +143,7 @@ guided_study: false
 #### Alcohols
 
 - Alcohols often tend to lose a **water molecule **giving rise to a peak at **18 below the molecular ion**
-- Another common peak is found at *m/e *value 31 which corresponds to the CH<sub>2</sub>OH<sup>+</sup>­­ fragment
+- Another common peak is found at *m/e* value 31 which corresponds to the CH<sub>2</sub>OH<sup>+</sup>­­ fragment
 - For example, the mass spectrum of propan-1-ol shows that the compound has fragmented in four different ways:
 
   - Loss of H<sup>•</sup> to form a C<sub>3</sub>H<sub>7</sub>O<sup>+</sup> fragment with *m/e* = 59

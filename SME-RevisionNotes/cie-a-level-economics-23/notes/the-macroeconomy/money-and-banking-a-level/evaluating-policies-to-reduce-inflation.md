@@ -35,7 +35,7 @@ guided_study: false
 ### Mechanism (the transmission mechanism)
 
 - The *central bank* raises the *base interest rate*
-- *Commercial bank* lending rates rise, *mortgage *and loan repayments become more expensive
+- *Commercial bank* lending rates rise, *mortgage* and loan repayments become more expensive
 - Consumer spending falls (higher cost of credit, higher savings returns)
 - Investment falls (higher cost of borrowing for firms)
 - The *exchange rate* appreciates as foreign capital is attracted by higher returns, reducing export demand
@@ -60,7 +60,7 @@ guided_study: false
 
 ### Mechanism
 
-- The government raises *direct *or *indirect taxes*, reducing household *disposable income *and firm profits
+- The government raises *direct* or *indirect taxes*, reducing household *disposable income* and firm profits
 - Government reduces spending on public services, *transfer payments*, or infrastructure
 - Aggregate demand falls, reducing demand-pull inflationary pressure
 - A *budget surplus* (or smaller deficit) may also reduce the money supply if bonds previously financing the deficit are no longer issued

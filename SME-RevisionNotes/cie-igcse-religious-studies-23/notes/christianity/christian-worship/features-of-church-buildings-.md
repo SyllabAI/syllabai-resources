@@ -23,7 +23,7 @@ guided_study: false
 - The part of the building at the top of the cross is called the **sanctuary**
 - It is considered the **holiest part **of the church.
 - It contains many important church features, including the **altar**
-- The sanctuary is sometimes separated from the *nave *by a rail
+- The sanctuary is sometimes separated from the *nave* by a rail
 
 ### Altar
 

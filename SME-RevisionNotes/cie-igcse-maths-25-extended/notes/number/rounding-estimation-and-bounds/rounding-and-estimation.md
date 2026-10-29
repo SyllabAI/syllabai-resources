@@ -219,7 +219,7 @@ guided_study: true
 > 
 > > *Circle the digit to the right of the third significant figure (6)*
 > 
-> `0.002 space 95 circle enclose 6 space 314`
+> `0.002 95 circle enclose 6 314`
 > 
 > > *6 is greater than 5 so we need to round up (the 5 increases by 1 to 6)*
 > 

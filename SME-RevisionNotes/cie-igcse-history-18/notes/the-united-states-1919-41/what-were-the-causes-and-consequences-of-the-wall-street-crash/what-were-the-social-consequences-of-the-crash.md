@@ -28,12 +28,12 @@ In the South, large numbers of Black American *sharecroppers* were made redundan
 - The Wall Street Crash caused many American businesses to close
 
   - As a result, **unemployment rose **from 3% in 1929 to 25% in 1933
-- The US had no *social security *in the 1920s
-- The *Republican *government expected unemployed workers to resolve their own problems
+- The US had no *social security* in the 1920s
+- The *Republican* government expected unemployed workers to resolve their own problems
 - **Charities** and local governments organised social and economic support for those in need
 
   - People were forced to queue for hours for food
-  - Such was the level of demand that some *state governments *went **bankrupt**
+  - Such was the level of demand that some *state governments* went **bankrupt**
   - Government employees, such as teachers, did not receive a salary when this happened
 - Workers who kept their jobs still struggled because:
 
@@ -78,7 +78,7 @@ In the South, large numbers of Black American *sharecroppers* were made redundan
 
   - In 1930, drought conditions combined with strong winds on the *Great Plains* to blow away the *topsoil*
   - The event, which became known as the **Dust Bowl**, decreased the fertility of millions of acres of farmland
-- As a result of these issues, many farm workers headed to the *citrus farms of California *in search of jobs
+- As a result of these issues, many farm workers headed to the *citrus farms of California* in search of jobs
 
   - Life in California was tough for the migrant workers, who were often housed in large, unhygienic camps where illness quickly spread
   - Californian labourers also resented the arrival of so many **migrant workers**, as they** **felt the migrants were taking their jobs

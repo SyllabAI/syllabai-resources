@@ -78,7 +78,7 @@ guided_study: true
 
 - The interior **angles in the triangle** add up to 180°
 
-  - *a *+* b* + *c* = 180°
+  - *a* + *b* + *c* = 180°
 - An **interior **angle and its **exterior **angle add up to 180°
 
   - *c* + *d* = 180°
@@ -86,10 +86,10 @@ guided_study: true
 
   - Therefore, the left-hand sides are equal
   
-    - *a *+* b* + *c* = *c* + *d*
+    - *a* + *b* + *c* = *c* + *d*
   - Subtract *c* from both sides
   
-    - *a *+* b* = *d*
+    - *a* + *b* = *d*
 - Therefore the **exterior angle** is the **sum** of the **two opposite interior angles**
 
 #### Method 2 - Using parallel lines
@@ -138,7 +138,7 @@ guided_study: true
 >   - For each step, just write down the fact, followed by the key mathematical reason that justifies it
 
 > **Worked Example**
-> In the diagram below, *AC *and *DG* are parallel lines. *B* lies on *AC*, *E *and* F* lie on *DG *and triangle *BEF *is isosceles.
+> In the diagram below, *AC* and *DG* are parallel lines. *B* lies on *AC*, *E* and *F* lie on *DG* and triangle *BEF* is isosceles.
 > 
 > ![4-5-3-geometrical-proof-we](assets/acd6463ce48c-42390-geometrical-proof-2.png)
 > 

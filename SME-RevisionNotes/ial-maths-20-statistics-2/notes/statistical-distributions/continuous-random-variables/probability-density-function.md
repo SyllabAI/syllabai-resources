@@ -158,7 +158,7 @@ $integral_{m}^{infinity} \mathrm{f} ( \mathrm{x} ) dx = 0.5$
 
 - In a similar way to finding the median
 
-  - The lower quartile will be the value *L *such that P(*X* ≤ *L*) = 0.25 or
+  - The lower quartile will be the value *L* such that P(*X* ≤ *L*) = 0.25 or
   P(*X* ≥ *L*) = 0.75
   - The upper quartile will be the value *U* such that P(*X* ≤ *U*) = 0.75 or
   P(*X* ≥ *U*) = 0.25

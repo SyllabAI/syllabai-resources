@@ -80,10 +80,10 @@ guided_study: false
 
 | Positive | Negative |
 |---|---|
-| - *Agglomeration *economies<br><br>  - Concentration of firms and workers raises productivity | - Urban overcrowding<br><br>  - Strain on housing, transport and public services |
+| - *Agglomeration* economies<br><br>  - Concentration of firms and workers raises productivity | - Urban overcrowding<br><br>  - Strain on housing, transport and public services |
 | - Better access to healthcare, education and social services | - Growth of informal settlements and slums with poor *sanitation* |
 | - Higher average incomes and living standards | - Environmental degradation<br><br>  - Pollution, congestion, waste |
-| - Greater *innovation *and knowledge spillovers | - Urban-rural inequality widens as rural areas are left behind |
+| - Greater *innovation* and knowledge spillovers | - Urban-rural inequality widens as rural areas are left behind |
 
 #### Urbanisation and development
 

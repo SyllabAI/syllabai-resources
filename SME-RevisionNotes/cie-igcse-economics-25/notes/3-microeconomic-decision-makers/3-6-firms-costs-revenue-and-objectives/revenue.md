@@ -23,7 +23,7 @@ guided_study: false
 
 ### 1. Total revenue (TR)
 
-- The **total amount of money received** from selling all output `Total space revenue space open parentheses TR close parentheses space equals space Selling space price space open parentheses straight P close parentheses space straight x space Quantity space sold space open parentheses straight Q close parentheses`
+- The **total amount of money received** from selling all output `Total revenue (TR)=Selling price (straight P) straight x Quantity sold (straight Q)`
 
   - Some firms sell a single product and it is easy to calculate their revenue
   - Other firms may sell thousands of products and revenue calculations can be more complex

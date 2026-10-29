@@ -46,7 +46,7 @@ guided_study: true
 
 ### How do I solve problems using F = ma and suvat equations?
 
-- *F= ma *can be used in conjunction with the ‘*suvat*’ equations – the linking connection is **acceleration** (a)
+- *F= ma* can be used in conjunction with the ‘*suvat*’ equations – the linking connection is **acceleration** (a)
 - ‘suvat’ only questions will not involve **mass** or (**resultant**) **force**
 - Step 1. **Draw** a **diagram** and label all forces acting on the particle(s)
 
@@ -99,7 +99,7 @@ guided_study: true
 
 > **Exam Hint**
 > - Sketching, or adding to given, diagrams can help to understand problems and can help you decide which direction to take as positive.
-> - Remember that *F *(in N2L) is the resultant force, sometimes seen as  F<sub>net</sub>- be careful not to get it muddled with any other forces that are, or could be, denoted by *F*.  To avoid confusion, use quote marks around “*F = ma"*  to show that the quoted *F, m*  do not necessarily correspond to a  mentioned in the question.
+> - Remember that *F* (in N2L) is the resultant force, sometimes seen as  F<sub>net</sub>- be careful not to get it muddled with any other forces that are, or could be, denoted by *F*.  To avoid confusion, use quote marks around “*F = ma"*  to show that the quoted *F, m*  do not necessarily correspond to a  mentioned in the question.
 > - Depending on which direction is taken as positive, the resultant force, *F N* , may be negative and/or acceleration, a m s<sup>-2</sup>, may be negative (this is particularly relevant for vertical motion)
 > - Write a list of the quantities that are given in a question and another list of those you are asked to find.  This will help you decide which equation(s) to use.
 > - A third list of the quantities you are not concerned can help as these may be used to find intermediate results.

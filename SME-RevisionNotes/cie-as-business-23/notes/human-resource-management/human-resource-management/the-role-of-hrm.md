@@ -40,7 +40,7 @@ guided_study: false
   - This helps keep workers happy and productive
 - **Performance management**
 
-  - HRM monitors performance through *appraisals *and gives feedback to help employees improve and feel valued
+  - HRM monitors performance through *appraisals* and gives feedback to help employees improve and feel valued
 - **Health and safety**
 
   - HRM ensures that legal requirements are met and the workplace is safe
@@ -53,5 +53,5 @@ guided_study: false
   - HRM makes sure the business follows the law on *employment contracts*, dismissal and discrimination, reducing the risk of fines or lawsuits
 - **Supporting change**
 
-  - HRM helps manage change, such as *mergers *or the introduction of technology by retraining staff and communicating clearly
+  - HRM helps manage change, such as *mergers* or the introduction of technology by retraining staff and communicating clearly
   - This should help to reduce employee resistance and speed up the change process

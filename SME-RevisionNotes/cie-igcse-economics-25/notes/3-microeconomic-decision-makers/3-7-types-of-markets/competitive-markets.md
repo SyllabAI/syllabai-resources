@@ -74,7 +74,7 @@ guided_study: false
 
 | **Advantages** | **Disadvantages** |
 |---|---|
-| - **Lower prices** for consumers due to high competition<br>- **Better quality** as firms *innovate *to attract customers<br>- **Greater efficiency**: firms must minimise costs to survive<br>- **Wider choice** for consumers as firms differentiate through service or extra features | - **Lower profit margins** for firms may limit investment in research and development<br>- **Risk of short-termism**: firms may focus on survival rather than long-term growth<br>- **Duplication of resources**: many firms producing similar products can lead to waste<br>- **Market instability**: prices can fluctuate with changes in demand and supply |
+| - **Lower prices** for consumers due to high competition<br>- **Better quality** as firms *innovate* to attract customers<br>- **Greater efficiency**: firms must minimise costs to survive<br>- **Wider choice** for consumers as firms differentiate through service or extra features | - **Lower profit margins** for firms may limit investment in research and development<br>- **Risk of short-termism**: firms may focus on survival rather than long-term growth<br>- **Duplication of resources**: many firms producing similar products can lead to waste<br>- **Market instability**: prices can fluctuate with changes in demand and supply |
 
 ### Effect of a high number of firms
 

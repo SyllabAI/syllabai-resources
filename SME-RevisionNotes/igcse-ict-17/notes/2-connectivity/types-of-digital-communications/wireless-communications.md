@@ -167,11 +167,11 @@ guided_study: false
 > 
 > - Wi-Fi does not require line of sight / Infrared requires line of sight** ****[1]** which is not always possible when moving/exercising **[1]**
 > 
-> > *OR *
+> > *OR*
 > 
 > - Infrared is / Wi-Fi  is not affected by sunlight **[1]** (which will affect the data transfer because) the health monitor will be used outside **[1]**
 > 
-> > *B. An explanation to include two from: *
+> > *B. An explanation to include two from:*
 > 
 > - More packets of data have to be requested again **[1]**
 > - ...because a signal degrades / gets weaker as it travels **[1]**

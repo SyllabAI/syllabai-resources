@@ -26,7 +26,7 @@ guided_study: false
 
 ***The conventional representation of voltaic cells***
 
-- By convention, the half cell with the greatest negative potential is written on the left of the salt bridge, so* E*<sup>**ꝋ**</sup><sub>*cell*</sub> = *E*<sup>**ꝋ**</sup><sub>*right*</sub><sub> </sub>– *E*<sup>**ꝋ**</sup><sub>*left*</sub>
+- By convention, the half cell with the greatest negative potential is written on the left of the salt bridge, so *E*<sup>**ꝋ**</sup><sub>*cell*</sub> = *E*<sup>**ꝋ**</sup><sub>*right*</sub><sub> </sub>– *E*<sup>**ꝋ**</sup><sub>*left*</sub>
 
   - In this case, *E*<sup>**ꝋ**</sup><sub>*cell*</sub> = +0.34 – -0.76 = +1.10 V.
 - The left cell is being oxidized while the right is being reduced

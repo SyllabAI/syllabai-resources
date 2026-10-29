@@ -85,7 +85,7 @@ guided_study: false
 > 
 > **Answer**
 > 
-> > *Two linked descriptions from: *
+> > *Two linked descriptions from:*
 > 
 > - 1. Use key words/terms (images/video/websites) **[1]** to return more relevant results **[1]**
 > - 2. Filter by images/video/websites **[1]** to return appropriate file type **[1]**

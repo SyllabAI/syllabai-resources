@@ -40,7 +40,7 @@ and colour depth"
 ## Resolution & Colour Depth
 
 > **Exam Hint**
-> *Cambridge IGCSE 0478 expects you to define ****resolution**** and ****colour depth****, explain how both affect ****file size****, and use formulas like *`width × height × colour depth`* to calculate storage needs. This page keeps everything focused on exam-ready phrasing and examples.*
+> *Cambridge IGCSE 0478 expects you to define ****resolution**** and ****colour depth****, explain how both affect ****file size****, and use formulas like *`width × height × colour depth` *to calculate storage needs. This page keeps everything focused on exam-ready phrasing and examples.*
 
 ### What is resolution?
 

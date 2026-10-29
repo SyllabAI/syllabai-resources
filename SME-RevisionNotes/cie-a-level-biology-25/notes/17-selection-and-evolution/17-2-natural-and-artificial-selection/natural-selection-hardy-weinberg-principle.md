@@ -76,7 +76,7 @@ guided_study: true
 >     - Frequency of the heterozygous genotype = ***2pq***
 >     - Frequency of the homozygous dominant genotype = ***p***<sup>***2***</sup>
 > 
-> **Step 1: **find* q*
+> **Step 1: **find *q*
 > 
 > *q*<sup>*2*</sup>* *= 0.1
 > 
@@ -84,17 +84,17 @@ guided_study: true
 > 
 > ***q *****= 0.32**
 > 
-> **Step 2: **find *p *(the frequency of the dominant allele F).
+> **Step 2: **find *p* (the frequency of the dominant allele F).
 > 
 > If *q* = 0.32, and *p* + *q* = 1
 > 
-> *p *+* q* = 1
+> *p* + *q* = 1
 > 
 > *p* = 1 - 0.32
 > 
 > ***p***** = 0.68**
 > 
-> **Step 3: **Find* p*<sup>2</sup> (the frequency of the homozygous dominant genotype)
+> **Step 3: **Find *p*<sup>2</sup> (the frequency of the homozygous dominant genotype)
 > 
 > 0.68<sup>2 </sup>= 0.46
 > 

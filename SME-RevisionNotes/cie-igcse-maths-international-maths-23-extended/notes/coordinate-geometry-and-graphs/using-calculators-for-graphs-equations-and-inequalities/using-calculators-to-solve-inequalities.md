@@ -21,15 +21,15 @@ guided_study: true
 
 - You can use a **graphic display calculator** to **solve inequalities **of the form
 
-  - `straight f subscript 1 open parentheses x close parentheses greater than straight f subscript 2 open parentheses x close parentheses` or `straight f subscript 1 open parentheses x close parentheses less than straight f subscript 2 open parentheses x close parentheses`
-  - `straight f subscript 1 open parentheses x close parentheses greater or equal than straight f subscript 2 open parentheses x close parentheses` or `straight f subscript 1 open parentheses x close parentheses less or equal than straight f subscript 2 open parentheses x close parentheses`
-- First, turn the inequality into an **equation** and **solve** `straight f subscript 1 open parentheses x close parentheses equals straight f subscript 2 open parentheses x close parentheses`
+  - `straight f_ 1 (x) greater than straight f_ 2 (x)` or `straight f_ 1 (x) less than straight f_ 2 (x)`
+  - `straight f_ 1 (x) greater or equal than straight f_ 2 (x)` or `straight f_ 1 (x) less or equal than straight f_ 2 (x)`
+- First, turn the inequality into an **equation** and **solve** `straight f_ 1 (x)=straight f_ 2 (x)`
 
   - Read the revision note on Using Calculators to Solve Equations to see how
-  - The **solutions** to the equation `straight f subscript 1 open parentheses x close parentheses equals straight f subscript 2 open parentheses x close parentheses` are the** *****x*****-coordinates** of the** points of intersection **of the two graphs `y equals straight f subscript 1 open parentheses x close parentheses` and `y equals straight f subscript 2 open parentheses x close parentheses`
+  - The **solutions** to the equation `straight f_ 1 (x)=straight f_ 2 (x)` are the** *****x*****-coordinates** of the** points of intersection **of the two graphs `y=straight f_ 1 (x)` and `y=straight f_ 2 (x)`
 - Then look at the regions (areas) enclosed between the two graphs and decide which curve is the** top curve **and which is the **bottom curve** ![A diagram showing whether a curve is above a line or the line is above a curve](assets/b1d31e9ab860-8-1-5-notes-fig7.png)
 
-  - e.g. The** solution **to `straight f subscript 1 open parentheses x close parentheses greater than straight f subscript 2 open parentheses x close parentheses` are the **ranges of *****x*****-values **for which `y equals straight f subscript 1 open parentheses x close parentheses` is the top curve and `y equals straight f subscript 2 open parentheses x close parentheses` is the bottom curve
+  - e.g. The** solution **to `straight f_ 1 (x) greater than straight f_ 2 (x)` are the **ranges of *****x*****-values **for which `y=straight f_ 1 (x)` is the top curve and `y=straight f_ 2 (x)` is the bottom curve
   
     - The top curve is** greater than** the bottom curve
   - Examples of different regions, R, are shown below
@@ -44,13 +44,13 @@ guided_study: true
 ![Points of intersection between a curve and a line](../../../assets/d373ae6a8364-2-7-3-solving-equations-graphically-notes-diagra.png)
 
 > **Exam Hint**
-> Remember to give your solutions as** ranges **of* x* values, using strict inequalities if the question uses strict inequalities!
+> Remember to give your solutions as** ranges **of *x* values, using strict inequalities if the question uses strict inequalities!
 
 > **Worked Example**
 > Use a graphical method to solve the inequality $x^{3}+2x^{3}+1\leqx+2$, giving your answers correct to 1 decimal place and showing a sketch of the graph.
 > 
-> > *Start a new graph on your calculator and enter *`straight f subscript 1 open parentheses x close parentheses equals x cubed plus 2 x squared plus 1`* to generate the graph*
-> *Add on the second graph of *`straight f subscript 2 open parentheses x close parentheses equals x plus 2`
+> > *Start a new graph on your calculator and enter* `straight f_ 1 (x)=x³+2x²+1` *to generate the graph*
+> *Add on the second graph of* `straight f_ 2 (x)=x+2`
 > 
 > > *Select the option to "analyze" the graph (this may be labelled as G-Solv)*
 > *Choose the option "intersections" to find the coordinates of the 3 points of intersection*
@@ -59,10 +59,10 @@ guided_study: true
 > 
 > ![Drawing a cubic graph and a straight line graph on a graphic display calculator to find the points of intersection](assets/a79a02f1ebab-2-15-2-solving-equations-using-graphs.png)
 > 
-> *The solutions to the equation *$x^{3}+2x^{3}+1=x+2$* are*
-> * *$x=-2.2$*, *$x=-0.6$* or *$x=0.8$* to 1 d.p.*
+> *The solutions to the equation* $x^{3}+2x^{3}+1=x+2$ *are*
+> * *$x=-2.2$*,* $x=-0.6$ *or* $x=0.8$ *to 1 d.p.*
 > 
-> > *The inequality in the question is "cubic graph *$\leq$* straight line graph"*
+> > *The inequality in the question is "cubic graph* $\leq$ *straight line graph"*
 > *Look at regions where the cubic is the bottom curve and the line is above*
 > 
 > *left of ***x*** = -2.2 and between ***x*** = -0.6 and ***x*** = 0.8*

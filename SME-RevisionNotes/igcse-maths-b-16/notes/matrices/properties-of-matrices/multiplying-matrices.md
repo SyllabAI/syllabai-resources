@@ -137,7 +137,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> (i)*  **Write out *$\mathrm{PR}$* in full*
+> (i)*  **Write out *$\mathrm{PR}$ *in full*
 > 
 > $( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} ) \times ( \begin{gathered} 10 \\ 8 \end{gathered} )$
 > 
@@ -149,7 +149,7 @@ guided_study: false
 > 
 > `Error converting from MathML to accessible text.`
 > 
-> (ii)*  **Write out *$\mathrm{PQ}$* in full*
+> (ii)*  **Write out *$\mathrm{PQ}$ *in full*
 > 
 > $( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} ) \times ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$
 > 
@@ -161,7 +161,7 @@ guided_study: false
 > 
 > `Error converting from MathML to accessible text.`
 > 
-> (iii)*  **Write out *$Q^{2}$* as *$Q\timesQ$
+> (iii)*  **Write out *$Q^{2}$ *as* $Q\timesQ$
 > 
 > $( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} ) \times ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$
 > 
@@ -178,7 +178,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *Write out *$A^{2}$* as *$A\timesA$
+> > *Write out* $A^{2}$ *as* $A\timesA$
 > 
 > $( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) \times ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} )$
 > 
@@ -188,6 +188,6 @@ guided_study: false
 > 
 > $= ( \begin{gathered} 4 0 \\ 0 4 \end{gathered} )$
 > 
-> > *Write in terms of the identity matrix,  *$I = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$* by factoring out 4*
+> > *Write in terms of the identity matrix,* $I = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$ *by factoring out 4*
 > 
 > $( \begin{gathered} 4 0 \\ 0 4 \end{gathered} ) = 4 ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) = 4 I$
