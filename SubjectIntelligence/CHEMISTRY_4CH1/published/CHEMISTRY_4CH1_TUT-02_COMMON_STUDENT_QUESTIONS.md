@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-02 — Common Student Questions
@@ -156,6 +156,23 @@ electricity. (2)" (SRC-BOOK-4CH1-SB1,
 parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 396). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### TUT-064 — The book hands the tutor ready-made model-answer chains for structure-property demands
+
+**Claim:** The book's question commentary does not leave structure-property explanations to the tutor's invention — it prints the chains themselves in exam-answer grain. Ionic brittleness is explained as a same-charge collision sequence ending in the crystal splitting itself apart; the water-versus-organic-solvent solubility contrast is stated as a paired rule; and ductility is folded into malleability with an explicit same-explanation identity, so the tutor teaches one laminated-layer mechanism covering both words. These are precisely the sentences a student must reproduce when the exam asks why, and the book supplies them verbatim.
+**Evidence:** the brittleness chain: "lonic crystals tend to be brittle. This is because any small distortion of a crystal will bring ions with the same charge alongside each other. Like charges repel and so the crystal splits itself apart." and the solubility pair: "lonic substances tend to be soluble in water. lonic compounds tend to be insoluble in organic solvents." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 299); the ductility identity: "Metals can also be described as ductile. This means that they can be drawn out into wires. The explanation is the same as why they are malleable." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 351).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-065 — The batteries drill data-driven explanation: numbers given, mechanism demanded
+
+**Claim:** The structure-and-bonding batteries systematically pair supplied data with a mechanism demand, which is the exact grammar the exam's explain-with-data items use. The metals question quotes the sea-of-electrons phrase and requires the magnesium electronic configuration to unpack it; a follow-up supplies three consecutive elements' boiling points and demands the trend be explained through electronic configurations and metallic bonding; and the halogen-displacement unit question makes students interrogate the experiment design itself — why the grey cells were never run — before completing the table. A tutor drilling from this book is rehearsing explanation-from-evidence, not recall.
+**Evidence:** the phrase-unpacking demand: "A solid metal is often described as having 'a lattice of positive ions in a sea of delocalised electrons'. State the electronic configuration of a magnesium atom and use it to explain what this phrase means." and the data explanation: "The boiling points of sodium, magnesium and aluminium are 890 °C, 1110 °C and 2470 °C, respectively. Explain these values in terms of the electronic configurations of the elements and metallic bonding." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 351); the design interrogation: "Explain why the student did not carry out the experiments shaded in dark grey in the table." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 691); the anomaly hunt: "Explain which student's result is incorrect." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 403).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-066 — The calculation batteries embed yield, excess and approximation honesty in the questions themselves
+
+**Claim:** The unit-question batteries price the honesty concepts inside ordinary mole calculations: a crystallisation experiment states the theoretical 7.61 g and the actual 5.23 g and demands the percentage yield; the pyrite extraction question states the molar-volume assumption in the question stem; and the strontium-hydroxide solubility question ends by declaring its own five-mark answer only approximate — because dissolving changes the volume — and asks for the redesigned experiment that fixes it. The question bank also police reagent choice at the method grain: the halide-test commentary forbids the three acids that would import the very ion being tested for. A tutor therefore teaches yield, excess, assumption-stating and method justification as routine question furniture, not as add-on wisdom.
+**Evidence:** the yield drill: "He actually only made 5.23g. Calculate the percentage yield of the student's experiment." and the assumption: "In this question you can assume that the molar volume of any gas at rtp is 24 dm³." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 398); the approximation disclosure: "The calculation used in d gives only an approximate value for the solubility because the volume changes when a substance is dissolved in water." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 400); the reagent prohibition: "You must not use hydrochloric acid (or hydrobromic acid or hydroiodic acid) as you will be adding halide ions and you are certain to obtain a precipitate." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 682).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus — the chapter 1, 2, 5,
@@ -180,4 +197,4 @@ sections, outside the window). No canonical planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-064..TUT-066), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

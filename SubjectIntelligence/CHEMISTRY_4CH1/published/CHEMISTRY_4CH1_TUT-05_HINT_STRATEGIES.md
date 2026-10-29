@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-05 — Hint Strategies
@@ -149,6 +149,23 @@ to show a method clearly." (SRC-ER-4CH1,
 chemistry/4ch1/past-papers/2022-06/4CH1-1C/er.pdf p6). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### TUT-073 — Accepted-variant hints define the equivalence classes the exam will tolerate
+
+**Claim:** The HINT apparatus does not only police errors — it grants explicit permission for variants, which tells the tutor exactly where individual taste is free. Terminology is the standing example: shell and energy level are declared interchangeable, both accepted in the examination; electron drawings may show helium's two electrons paired or opposite, either form acceptable; and single-or-paired electron drawing is left to taste at this level. A tutor who knows these equivalence classes never wastes marks policing style the exam does not discriminate on, and can spend the saved attention on the conventions the book does pin down.
+**Evidence:** the terminology grant: "The terms 'shell' and 'energy level' are used quite interchangeably by chemists. To make things easier, we will just use one term, shell, from now on. If, however, you prefer the term energy level, that is absolutely fine and both terms will be accepted in the examination." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 117); the drawing grants: "The helium electrons are sometimes shown as a pair (as here), and sometimes as two separate electrons on opposite sides of the circle. Either form is acceptable." and "It does not matter at this level whether you draw the electrons singly or in pairs." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 117).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-074 — Error-anticipation hints name the mistake mechanism; sanity-envelope hints bound the answer
+
+**Claim:** Two hint families work as a pair. The forecast family names the exact mechanism of a common mistake before it happens — the hydrated-crystal counter that correctly works out ten hydrogens but then counts one oxygen instead of five, the yield multiplier that re-applies the coefficient two by using 2Fe's 112 g after the moles step already used it, and the word-ending trap in formula writing. The envelope family then bounds the answer so the mistake can be caught downstream: a percentage yield must come out below 100 per cent, with the two legitimate explanations for an over-100 value spelled out, and an Rf value must sit between 0 and 1, a violation meaning the division ran backwards. The tutor teaches the mechanism, then hands the student the detector.
+**Evidence:** the named forecasts: "It is dangerous to calculate the number of hydrogens and oxygens separately. The common mistake is to work out 10 hydrogens (quite correctly!), but then only count 1 oxygen rather than 5." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 154) and "A common mistake is to multiply the number of moles by the mass of 2Fe (112 g), but we have already used the '2' when we worked out the number of moles of Fe." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 214); the yield envelope: "The percentage yield should always come out as less than 100%. If it comes out as more than 100% either you have made a mistake in the calculation or the question will continue by asking about what might have gone wrong in the experiment to give a value greater than 100%." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 223); the Rf envelope: "An Rf value must be between 0 and 1. If you get a number bigger than 1 you have probably divided the numbers the wrong way round." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 81).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-075 — Method-pluralism hints license the faster route — with a show-your-working floor beneath it
+
+**Claim:** The calculation hints repeatedly grant pluralism: reliance on memorised formulae is discouraged in favour of proportional reasoning, the printed formula is licensed for students who feel safer with it, and two complete calculation methods for reacting masses are offered on the explicit condition that only one need be learned. The floor under the freedom is uniform: however fast the route, all calculations must be shown. The tutor therefore teaches method choice as a legitimate decision while enforcing the one non-negotiable — visible working — which is what the mark scheme actually pays for.
+**Evidence:** the proportional-reasoning steer: "Don't get too reliant on learning formulae for doing simple calculations. If 1 mole weighs 100g, it should be fairly obvious to you that 2 moles will weigh twice as much, 10 moles will weigh 10 times as much and 0.2 moles will weigh 0.2 times as much." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 162) and "On the other hand, if you feel safer using a formula, use it." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 163); the floor: "Your maths may be so good that you don't need to take all these steps to find the answer. If you can do it more quickly, that's fine. However, you must still show all your calculations." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 212).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus — HINT boxes from
@@ -172,4 +189,4 @@ were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-073..TUT-075), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-07
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-07 — Exam Feedback Patterns
@@ -166,6 +166,23 @@ was purple or brown." (SRC-ER-4CH1,
 chemistry/4ch1/past-papers/2019-06/4CH1-2C/er.pdf p6). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### TUT-079 — The particulate-account chain is the marking currency: what the ions are, what the frequency must do
+
+**Claim:** Two unmined commentary pages carry the same correction chain from opposite ends of a rates question: the acid must be described as ions in dilute solution, the concentration effect must be stated as more particles per unit volume, and the rate consequence must be stated as more successful collisions per unit time — each missing step costing its mark even when the outcome is acknowledged. Alongside sits the design-level insight the candidates missed: the marble-chip mass is irrelevant because the chips are always in excess. The feedback therefore teaches the full explanatory ladder a tutor must drill — model, census, frequency — plus the excess reasoning that explains why one variable drops out of the account entirely.
+**Evidence:** the chain: "In dilute solution HCl exists as ions, not molecules. It is also necessary to state that there are more particles/ions in the same volume. The second mark could not be awarded since the candidate did not state that there are more successful collisions per unit time." (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p8); the same ruling at the weaker response: "In dilute solution HCl exists as ions, not molecules. It is also necessary to state that there are more particles/ions in the same volume." with the identical collision ruling (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p16); the design insight: "The mass of the marble chips is irrelevant in this experiment since the chips are always in excess." (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p16).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-080 — The examiner autopsies the misapprehension itself, diagnosing where the wrong model came from
+
+**Claim:** The examiner's report on the halogen-states question does not merely record that answers were wrong — it names the two most common misapprehensions (bromine as a gas, solid iodine as purple or brown) and then diagnoses their probable origin: the candidates were likely recalling iodine vapour or iodine solution, the two forms in which that element is most often seen. The same report autopsies the decimal-place losses with a reading-compliance reading: some candidates rounded to the periodic-table value rather than the demanded one decimal place, perhaps because they did not read the whole question, and the mark is lost even though the method was correct. Feedback at this grain tells the tutor what to re-teach and what habit to train, separately.
+**Evidence:** the autopsy: "The most common misapprehensions were stating bromine as a gas at room temperature and even more thought solid iodine was purple or brown. These candidates may have been thinking about iodine vapour or iodine solution." (SRC-ER-4CH1, 2019-06/4CH1-2C/er.pdf p6); the reading diagnosis: "Some candidates failed to give their answer to 1 decimal place as required, perhaps showing they did not read the whole question." and the cost: "Unfortunately they have not then given the final answer to the required one decimal place so do not gain the third mark." (SRC-ER-4CH1, 2019-06/4CH1-2C/er.pdf p6).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-081 — Named common mistakes repeat verbatim across responses, and definition-completeness is marked atomically
+
+**Claim:** The commentary's common-mistake sentence for addition polymers is printed twice, once under each of two different student responses earning 5/6 and 6/6 — the repetition itself is evidence that the commentary treats it as a standing pattern, not a one-off remark. The crude-oil exemplar page adds the atomic accounting grain: a mark is lost simply because the answer never states that a hydrocarbon contains only carbon and hydrogen atoms, and a dot-and-cross loses its mark for missing lone pairs even when the bonding pair is right. The tutor learns that definitional completeness and lone-pair discipline are individually priced marks, auditable from the feedback alone.
+**Evidence:** the repeated pattern: "It is a common mistake to name an addition polymer as a saturated compound." as printed under both Student Response B (5/6) and Student Response C (6/6) (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p82 and p83); the atomic accounting: "One mark lost because the answer does not state that only carbon and hydrogen atoms are present in a hydrocarbon." and the lone-pair ruling: "Lone pairs on the chlorine atom missing." (SRC-TL-4CH1, international-gcse-chemistry-exemplars-commentary.pdf p28).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Supplementary evidence carries this family: SRC-TL-4CH1 (the issuing body's
@@ -192,4 +209,4 @@ only the headline weightings are claimed. No canonical planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-079..TUT-081), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

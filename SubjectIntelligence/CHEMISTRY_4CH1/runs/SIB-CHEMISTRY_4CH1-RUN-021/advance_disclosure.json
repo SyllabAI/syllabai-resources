@@ -1,0 +1,36 @@
+{
+  "schema": "sib-advance-disclosure/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-021",
+  "advances": [
+    {
+      "at": "session start",
+      "from": "7765e43fa (the RUN-020 merge — PR #217, D3 tranche 4 tip of record)",
+      "to": "7352d2eab",
+      "isolation": "git log 7765e43fa..origin/main = 3 commits; 0 touch SubjectIntelligence/ (foreign lanes: converter/figure + F117/F113 + T-SPECS lanes; per-commit diff-tree census in advance_commits.json); 7765e43fa proven ancestor (merge-base --is-ancestor OK)",
+      "advance_commits": [
+        {
+          "sha": "7352d2eab",
+          "subject": "Merge pull request #219 from SyllabAI/sib/f117-twin-r2-consumed-20261029",
+          "parents": 2,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        },
+        {
+          "sha": "02fe7ffd0",
+          "subject": "F117 twin: exporter-disclosure r2-consumed receipt (v2 #451 merged c53e2ed314; post-sync census empty)",
+          "parents": 1,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        },
+        {
+          "sha": "267cd49e8",
+          "subject": "repair(T-SPECS-CIE-REJOIN-2) run-002: the 11 inherited in-item duplicates deduped at source — first-wins twin ",
+          "parents": 1,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        }
+      ]
+    }
+  ],
+  "disposition": "fetch-first gate held with disclosed advance; branch of record to be cut at 7352d2eab (origin/main tip at session start)"
+}

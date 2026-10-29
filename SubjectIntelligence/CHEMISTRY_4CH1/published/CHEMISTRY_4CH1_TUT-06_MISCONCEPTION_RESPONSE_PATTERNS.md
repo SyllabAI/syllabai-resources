@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-021"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "7352d2eab0bc822a8273d8dadfbeaefe3faf45d2"
 ---
 
 # TUT-06 — Misconception Response Patterns
@@ -161,6 +161,23 @@ reaction." (SRC-ER-4CH1,
 chemistry/4ch1/past-papers/2024-06/4CH1-2CR/er.pdf p5). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### TUT-076 — The catalyst phrasing law: the book mandates the route wording and refutes the mountain wording
+
+**Claim:** The book's catalyst page contains an explicit misconception-correction instruction aimed at the sentence students most commonly produce: the phrasing must be that catalysts provide an alternative route with a lower activation energy, never that they lower the activation energy. The refutation is carried by the page's own teaching analogy — a tunnel through a mountain does not lower the mountain, the original route remains open for sufficiently energetic travellers — so the corrected sentence follows from the picture rather than from authority. For the tutor this is the rare case where the correction target is a wording, the repair is a wording, and the justification is a model the class already holds.
+**Evidence:** the phrasing mandate: "Be careful how you phrase the statement explaining how a catalyst works. You should say 'Catalysts provide an alternative route with a lower activation energy'." and the refutation: "They do not 'lower the activation energy' any more than building a tunnel lowers the mountain. The original route is still there, and if particles collide with enough energy they will still use it, just as very energetic people will still choose to climb over the top of the mountain." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 815); the underlying model: "If a reaction is slow, it means that very few collisions have this amount of energy; when most collisions happen, the particles simply bounce off each other." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 815).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-077 — Name-confusion misconceptions are met with a stated distinction and the priced cost of method overreach
+
+**Claim:** The book's misconception responses follow one pattern: name the confusable pair or shortcut, state the distinction in one sentence, and where a rule is involved, price what blind application costs. Bromide and bromine are separated at the exact sentence where electrode language matters; the inner-electron omission shortcut is granted but bounded to questions that allow it; and the crossover method for formulas carries its own overreach warning — applied where the charges are equal it manufactures Ca2O2 from calcium oxide. The tutor inherits three ready-made corrections, each phrased in the book's own voice and each anchored to a visible error, not to a rule recital.
+**Evidence:** the electrode pair: "It is really important to use the correct terms when talking about the reactions at the electrodes. Bromide ions are attracted to the anode, where they lose electrons to form bromine molecules. Do not confuse bromide and bromine." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 364); the convention boundary: "In fact, the inner electrons are often left out of bonding diagrams. But be careful! In an exam, only leave out the inner electrons if the question tells you to." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 311); the overreach pricing: "You have to be careful using this method because you can get the wrong answer when the charges on the ions are the same. For example, the formula of calcium oxide is CaO and not Ca2O2." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 291).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### TUT-078 — The topic guide models public self-correction, then hands the tutor the safety responsibility
+
+**Claim:** The equilibrium topic guide demonstrates the highest-order misconception response available to a teaching document: correcting itself in print. After building its argument it publishes an N.B. conceding a potential flaw — the pressure change entangled a volume change — and supplies the supplementary rule that repairs the reasoning, quoting van't Hoff on volume shifts. The demonstration then ends by returning responsibility to the teacher: the risk assessment for the demonstration belongs to the person running it, with CLEAPPS as the fallback. A tutor reading the guide sees both the intellectual move (audit your own argument) and the professional move (own the safety case) modelled in the same page.
+**Evidence:** the self-audit: "N.B. The observant amongst you will have spotted a potential flaw in the argument put forward. The pressure is not the only factor to have changed. The volume has changed as well." with the repair rule: "An increase in volume, at constant temperature, will shift the equilibrium to the side where there are more moles of gas" (SRC-TL-4CH1, Chemical-equilibrium---FINAL.pdf p4); the responsibility return: "Remember, it is your responsibility to carry out a risk assessment, based on local conditions, on this procedure before doing the experiment. If in doubt CLEAPPS can always help." (SRC-TL-4CH1, Chemical-equilibrium---FINAL.pdf p4).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the parse v3 corpus — the book's
@@ -185,4 +202,4 @@ the excerpt window. No canonical planes were written.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-021 (D3 REQUIRED-core depth pass, tranche 5: TUT): +3 records (TUT-076..TUT-078), zero-append mining of the carried pack of record on the OCR text-of-record basis resolved by operator ruling (gate_resolution_sb1_ebook.json); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.
