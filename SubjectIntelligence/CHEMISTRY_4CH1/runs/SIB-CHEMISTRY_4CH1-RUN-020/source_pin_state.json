@@ -1,0 +1,80 @@
+{
+  "schema": "sib-source-pin-state/1.1",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-020",
+  "resources_advance_checked": "4c04603f..origin/main",
+  "pastpapers_pin_rev_of_record": "e4c1960be234beb0406b9218f4fbb2a95b1e3f28",
+  "rows": [
+    {
+      "repo": "syllabai-resources",
+      "distinct_paths": 17,
+      "paths_with_blob_drift_across_advance": 0,
+      "drift_paths": []
+    },
+    {
+      "repo": "syllabai-resources",
+      "check": "content sha256 vs pin at tip",
+      "distinct_paths": 17,
+      "byte_identical": 14,
+      "pin_mismatch": 3,
+      "unreadable": 0,
+      "mismatch_sample": [
+        "Official-ExamQuestion/igcse-chemistry-19/2019-06/4CH1-1C/questions.md",
+        "Official-ExamQuestion/igcse-chemistry-19/2023-06/4CH1-2C/questions.md",
+        "Official-ExamQuestion/igcse-chemistry-19/2022-06/4CH1-2CR/questions.md"
+      ]
+    },
+    {
+      "repo": "syllabai-pastpapers",
+      "distinct_paths": 3,
+      "verdicts": {
+        "identical_at_pin_rev": 3,
+        "identical_at_tip": 3,
+        "mismatch": 0,
+        "error": 0
+      },
+      "advance_commits_e4c1960b_to_tip": 1
+    }
+  ],
+  "pastpapers_detail": [
+    {
+      "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2016-06/4CH0-1C/",
+      "aids": [
+        "PED-01",
+        "PED-02",
+        "PED-03",
+        "PED-04",
+        "PED-05",
+        "PED-06",
+        "PED-07",
+        "PED-08",
+        "PED-09"
+      ],
+      "pin_rev": "identical",
+      "tip": "identical"
+    },
+    {
+      "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2019-06/4CH1-1C/",
+      "aids": [
+        "PED-01",
+        "PED-02",
+        "PED-03",
+        "PED-06",
+        "PED-07",
+        "PED-08",
+        "PED-09"
+      ],
+      "pin_rev": "identical",
+      "tip": "identical"
+    },
+    {
+      "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-06/4CH1-1C/",
+      "aids": [
+        "PED-04",
+        "PED-05",
+        "PED-09"
+      ],
+      "pin_rev": "identical",
+      "tip": "identical"
+    }
+  ]
+}

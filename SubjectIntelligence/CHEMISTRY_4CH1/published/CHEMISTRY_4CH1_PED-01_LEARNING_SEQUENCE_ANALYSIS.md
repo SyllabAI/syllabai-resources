@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-01 — Learning Sequence Analysis
@@ -78,6 +78,7 @@ scheme of work is held of-record (identity-pinned), while publisher topic guides
 supply topic-level teaching sequences. External notes mirror the official topic
 numbering and carry spec-point mappings, giving the same sequence a second,
 independent structuring.
+The deepened records extend the sequencing claim into its framing and support layers: the four unit-opener pages that define each unit's scope and relevance before its first chapter, the publisher's topic essays that import named pedagogy scholarship (Taber's RSC chemical-stability sheets, the Allsop-George Le Chatelier critique) for the known-difficult topics, and the external notes' anchor-anchored pedagogy pattern in which every idea is pinned to a spec-point id and then walked through worked examples and exam hints.
 
 ## Main Analysis
 
@@ -176,6 +177,22 @@ states-of-matter note closes with a summary properties table for the three state
 (SRC-SME-NOTES-4CH1, 1-1-1-the-three-states-of-matter.md lines 30-44).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PED-063 — Unit openers frame scope and relevance before the first chapter
+
+**Claim:** each of the four units opens with a framing page — scope definition plus a relevance hook — that stages the unit before its chapter sequence begins.
+**Evidence:** Unit 1 opens "The universe is made of three things!" and defines the discipline — "Chemistry can be described as the study of how these different atoms are joined together in various ways to make everything around us" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 19); Unit 2 defines its scope and its unifying tool — "Inorganic chemistry is the study of all the elements in the Periodic Table and the compounds they form" where "The Periodic Table is the great unifying principle used by inorganic chemists as a guide to understanding the behaviour of the elements and their compounds." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 405); Unit 3 hangs the whole physical-chemistry triad on a world problem — "fighting against hunger is an extremely important challenge" — because "chemists and chemical engineers from around the world have had to understand the principles of energy changes, rates of reaction and equilibrium" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 709); Unit 4 scopes its empire — "Organic chemistry is the study of the compounds of carbon" and "There are more organic compounds than all the other compounds put together." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 862).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-064 — The publisher's topic essays import named pedagogy scholarship for the hard topics
+
+**Claim:** for the known-difficult topics the publisher's teaching-support corpus carries named external scholarship and states the misconception-research basis outright, rather than silently re-teaching the topic.
+**Evidence:** the bonding essay opens with the acknowledged difficulty — "acknowledged as being a ‘tricky to teach’ topic, and with good reason" — and grounds it in research: "Research has shown that students commonly acquire misconceptions about chemical bonding." with the quantified study "One study showed that over 97% of the 15-16 year olds tested believed that a Na+ ion was more stable than a sodium atom." (SRC-TL-4CH1, Chemical-bonding---FINAL.pdf p 2); the sheet is attributed — "produced by Keith Taber for the Royal Society of Chemistry" (SRC-TL-4CH1, Chemical-bonding---FINAL.pdf p 3); the equilibrium essay builds on the literature: "In 1984 R.T. Allsop and N.H. George wrote an article, published in Education in Chemistry, entitled ‘Le Châtelier – A Redundant Principle?’" and fixes the syllabus posture — "Although Le Châtelier’s Principle is not required for teaching the International GCSE Chemistry specification, a number of students refer to it in answers." (SRC-TL-4CH1, Chemical-equilibrium---FINAL.pdf p 2).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-065 — The external notes run a spec-point-anchored worked-example pedagogy
+
+**Claim:** the external notes sequence each idea as spec-point anchor, prose, worked example, and exam hint — a second pedagogy layer whose every section is machine-anchored into the specification.
+**Evidence:** sections open on an anchor line — "**Spec point** — `spcpt_hSPvFj7GvBS5rzsZ` · understand how to carry out calculations involving amount of substance, relative atomic mass (Ar) and relative formula mass (Mr)" — before the prose motivation: "Although elements and chemicals react with each other in **molar ratios**, in the laboratory we use digital balances and grams to measure quantities of chemicals" (SRC-SME-NOTES-4CH1, 1-5-3-moles-mass-and-rfm.md lines 43-57); the pattern then demonstrates and warns — "What is the mass of 0.250 moles of zinc?" is worked stepwise to "The mass is calculated by **moles x molar mass**" (SRC-SME-NOTES-4CH1, 1-5-3-moles-mass-and-rfm.md lines 60-74), and the exam-hint block generalises: "You need to appreciate that the measurement of amounts in moles can apply to atoms, molecules, ions, electrons, formulae and equations." (SRC-SME-NOTES-4CH1, 1-5-3-moles-mass-and-rfm.md lines 43-57).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (Getting Started Guide pages; bonding and
@@ -190,22 +207,8 @@ builder.
 
 ## Limitations / Coverage Gaps
 
-The scheme of work and course planner are DOCX/PPTX identity entries in this
-pack — their internal week-by-week tables are not text-extractable through the
-pack builder, so intra-week sequencing inside those documents is neither claimed
-nor denied here. The Unit 3 and Unit 4 chapter-map excerpts surface as divider
-prose rather than full page-anchored lists in this pack's query windows, so
-unit-3/4 chapter order is asserted only at the level the pack shows. OCR-era
-text of the book parse carries parse-era rescue disclosures; anomalous spacing
-(e.g. "UNIT1") and a garbled electrolysis-objective window (the molten-compounds
-parenthetical) are paraphrased, never repaired into quotes. The unit-1 map
-excerpt carries no chemistry-only suffixes, so the chemistry-only designation is
-asserted only from the electrolysis objectives' content, not from the map line.
-No canonical planes were written.
+This artifact catalogues the learning-sequence structures visible in its pack's excerpt windows; sequence structures outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so framing/support detail outside the captured surface is neither quoted nor denied. Publisher-essay prose is quoted as parsed (PDF line wraps collapse under the binding normalisation; typographic quotes preserved as parsed). OCR-era quirks of the book parse (the Unit 3 opener's garbled middle sentence, 'DÑA' for DNA) are quoted as parsed or paraphrased, never repaired. The legacy ER window in the pack supplies ResultsPlus service context only and is not cited by any record. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-063..065) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

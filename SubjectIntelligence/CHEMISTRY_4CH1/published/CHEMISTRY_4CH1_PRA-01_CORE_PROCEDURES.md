@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRA-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PRA-01 — Core Procedures
@@ -75,6 +75,7 @@ for strong acid or alkali, and quantified expected results (ammonium chloride at
 The book carries the same procedures as PRACTICAL boxes with safety notes baked
 in. The question corpus shows the exam face: describe-the-test and prepare-a-sample
 items drawn from these same procedures.
+The deepened records extend the family's exam-face claim into result-processing law: the book's own chromatography analysis routine (spot matching by travelled distance, centre-of-spot measurement, the Rf ratio with its 0-to-1 sanity envelope and its solvent-and-paper validity conditions), the solubility procedure's quantified processing route (mass scaling to the 100 g convention, the general solubility equation, and the always-quote-a-temperature discipline), and the apparatus pragmatics — a non-critical supply voltage and the expected-volume caveat where chlorine dissolves — that pre-arm observation judgement inside the electrolysis procedures themselves.
 
 ## Main Analysis
 
@@ -171,6 +172,22 @@ to "obtain a pure, dry sample of hydrated copper(II) sulfate crystals from the
 filtrate" at five marks (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines
 1221-1235). Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PRA-033 — The book arms the chromatography procedure with result-processing law
+
+**Claim:** procedure depth extends past execution into interpretation — the book's own analysis routine specifies spot matching, a measurement discipline, and the Rf ratio with its validity conditions.
+**Evidence:** the analysis hint instructs "Measure to the centre of the spot." and demonstrates the match law — "The mixture (m) has spots corresponding to dyes d1, d3 and d4." — with a same-coloured dye excluded once it has travelled a different distance (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 81); the ratio carries a hard validity envelope — "An Rf value must be between 0 and 1." with no units — and cross-paper comparison is licensed only under identical conditions: "you can still compare R values as long as you use the same type of paper and the same solvent" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 82).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-034 — The solubility procedure carries its own quantified processing route
+
+**Claim:** the solubility box quantifies the full data path from raw masses to a temperature-pinned solubility value, and ties measurement care to result validity.
+**Evidence:** the worked example scales the raw capture — "12.28g of solid is the maximum mass that dissolves in 20.00 g of water" — five-fold to the 100 g convention and states "The solubility of potassium nitrate at 40°C is therefore 61.4g per 100g of water." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 49); the accompanying hint binds discipline to the number — "you must always quote a temperature with a solubility value" — and the gentle-heating instruction is justified by measurement validity: "We heat the solution gently to make sure that none spits out." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 47); curve-reading tasks quantify the same route — "From the graph we can see that the solubility at 40 °C is 40g per 100g of water." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 54).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-035 — Apparatus pragmatics and expected-yield caveats ride inside the procedure
+
+**Claim:** the electrolysis procedures carry their apparatus tolerances and expected-observation caveats on the same teaching surface, so the expected result is pre-armed before the lab.
+**Evidence:** the apparatus key point fixes nothing arbitrary — "The power supply can be a 6 volt battery or a power pack. It doesn't matter which." and "The voltage isn't critical either." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 358); the aqueous box quantifies the expected volumes and pre-explains the observed shortfall — "We would expect to get the same volume of hydrogen as chlorine." yet "we appear to obtain less chlorine than expected because it is more soluble in water" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 372).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (practical statement pages at page locators),
@@ -182,17 +199,8 @@ preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-This artifact catalogues the procedures visible in its pack's excerpt windows —
-the full twelve-core-practical roster is indexed in the library's curriculum
-registry and consumed family-wide; individual procedures outside the windows
-are neither enumerated nor denied. OCR-era quirks of the book parse (doubled KEY
-POINT stamps, half-equation spacing) are quoted as parsed or paraphrased, never
-repaired. No examiner sentiment is synthesized from mark schemes. No canonical
-planes were written.
+This artifact catalogues the procedures visible in its pack's excerpt windows — the full twelve-core-practical roster is indexed in the library's curriculum registry and consumed family-wide; individual procedures outside the windows are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so processing-law detail outside the captured pages/lines is neither quoted nor denied. OCR-era quirks of the book parse (doubled KEY POINT stamps, half-equation spacing, Rf rendered as R or Rt in places) are quoted as parsed or paraphrased, never repaired. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PRA-033..035) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

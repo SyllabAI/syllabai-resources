@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PED-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PED-06 — Retrieval Practice Opportunities
@@ -75,6 +75,7 @@ terms). Forward pointers prime future retrieval by naming where a thread returns
 Where the book itself flags a point as confusing — hydrogen chloride versus
 hydrochloric acid — it stops and re-teaches, and the publisher's topic guides
 supply research-informed prompt instruments for exactly such failure points.
+The deepened records extend the retrieval-opportunity claim into summaries, drawing aids, and data provision: the section summary that restates the Group 1 family as a seven-line self-test checklist, the drawing-notation hints that compress the diagram demands (dots versus crosses carrying no physical difference, the carbon-4/hydrogen-1 bonding rule with hydrogens on the outside), and the worked examples that re-supply their own working data so practice lands on the method rather than the lookup.
 
 ## Main Analysis
 
@@ -163,6 +164,22 @@ it then routes teachers to the Royal Society of Chemistry prompt-sheet series as
 the repair instrument (SRC-TL-4CH1, Chemical-bonding---FINAL.pdf p 3).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### PED-078 — Section summaries restate the family as a self-test checklist
+
+**Claim:** the book closes its group-chemistry section with a summary that reads as a retrieval checklist — seven stated features the learner can recite and test against.
+**Evidence:** the checklist opens on the family and runs from storage to trend: "Group 1 elements:" "are soft with melting points and densities which are very low for metals", "have to be stored out of contact with air or water", "react with water to produce an alkaline solution of the metal hydroxide and hydrogen gas", "increase in reactivity as you go down the group", and "form compounds in which the metal has a 1+ ion" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 427).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-079 — Drawing-notation hints compress the diagram retrieval demands
+
+**Claim:** the book pre-empts the notation burdens of diagram work with hints: the dot-and-cross convention is deflated to its real meaning, and the organic drawing rule is compressed into two bond counts plus a placement rule.
+**Evidence:** the notation hint removes a false distinction — "there is absolutely no difference between them in reality" — and states what the marks actually carry: "the dots and the crosses simply show that the electrons have come from two different atoms." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 305); the drawing hint compresses the valences — "carbon always forms 4 bonds by sharing 4 electrons, and hydrogen always forms 1 bond by sharing 1 electron." — and fixes the topology: "The hydrogen atoms always go on the outside, never in the middle." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 315).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PED-080 — Worked examples re-supply their own working data
+
+**Claim:** the calculation worked examples restate the constants and identities needed at the moment of practice — relative atomic masses, formulae, mole ratios — so the retrieval being exercised is the method, never the lookup.
+**Evidence:** the percentage-mass example grants its own data line — "Relative atomic masses: Na = 23, C = 12, O = 16." — before the arithmetic (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 157); the empirical-to-molecular example states the whole task with the mass given — "A compound has the empirical formula CH2. If the relative formula mass is 56, work out the molecular formula." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 201); and the atom-ratio derivation pauses on its own potential confusion — "It is important to remember in this calculation that we are working out how many atoms of copper combine with how many atoms of oxygen" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 171).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (REMINDER/HINT/KEY POINT chunks, unit-bank
@@ -175,17 +192,8 @@ pack builder.
 
 ## Limitations / Coverage Gaps
 
-The retrieval devices catalogued are those in this pack's query windows; the
-full REMINDER/HINT inventory across all 29 chapters is neither enumerated nor
-denied. Mnemonic coverage is limited to the three the window captured. The
-scheme of work remains a DOCX identity entry; its internal retrieval
-opportunities are not text-claimable here. OCR-era quirks are quoted as parsed or
-paraphrased, never repaired. The legacy examiner-report entry is present for
-identity only; no legacy claim is made. No canonical planes were written.
+This artifact catalogues the retrieval-practice opportunities visible in its pack's excerpt windows; opportunities outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so opportunity detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (the 'divien mn n n s mss' truncation in the atom-ratio window, doubled stamps) are quoted as parsed or paraphrased, never repaired. The bonding topic-guide windows cited by the pre-existing record remain the TL plane of record; no new guide claims were added. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PED-078..080) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.

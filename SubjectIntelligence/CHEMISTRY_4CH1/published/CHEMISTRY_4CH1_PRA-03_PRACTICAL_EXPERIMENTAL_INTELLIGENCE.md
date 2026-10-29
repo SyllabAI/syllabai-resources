@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRA-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-29
 
 provenance:
   source_manifest: "SRC-TL-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-020"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "f39fc0fde3ee12f97efa5c031e16c17c25243fd5"
+    syllabai_resources: "923232c73d9ac7dca748b29ccca1c8067ba741aa"
 ---
 
 # PRA-03 — Practical/Experimental Intelligence
@@ -77,6 +77,7 @@ salt formulae, percentage-yield preparations, evaporating to dryness — and its
 course planner maps sections and spec codes week by week. The exam examines the
 same system through describe-the-test, prepare-the-sample, and electrolysis
 items.
+The deepened records extend the family-level claim into procedure-internal governance: the metal-acid investigation's controlled comparison with its mole-matching fairness law and deliberate excess-acid choice, the solubility gate that decides which salt-preparation method a sample demands, and the quantitative-electrolysis upgrade that turns the qualitative electrolysis box into a current-laddered, repeated, gas-volume measurement.
 
 ## Main Analysis
 
@@ -168,6 +169,22 @@ electrode (SRC-QPMS-4CH1, 2023-06/4CH1-2C/questions.md lines 491-505, lines
 (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 1221-1235). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### PRA-039 — The metal-acid investigation is a controlled comparison with a stated fairness law
+
+**Claim:** the metal-acid procedures run as controlled comparison — four metals against two acids — and the quantitative variant demands mole-matched samples, controlled surface area, and deliberately excess acid so the comparison stays fair.
+**Evidence:** the qualitative protocol fixes the comparison frame — "Set up four test-tubes and put about 2 cm³ of dilute hydrochloric acid into each one." — with magnesium, zinc, iron or copper observed and the gas confirmed because "a squeaky pop indicates the presence of hydrogen gas" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 513); the quantitative variant states the fairness law in-procedure — "It is therefore important that we use the same number of moles in each experiment rather than the same number of grams." — controls surface area because "it will affect the speed at which the heat is given out", and oversupplies the acid by design: "this amount was chosen so that the hydrochloric acid is in excess" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 517).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-040 — Salt-preparation method choice is gated by solubility knowledge
+
+**Claim:** the book makes solubility knowledge the explicit prerequisite gate for salt-preparation method choice, and pairs the two preparation objectives — soluble salt from acid and alkali, insoluble salt from two soluble reactants — with the designated lead(II) sulfate application.
+**Evidence:** the gate is stated before any method is taught — "Before we can do this, we need to know which substances are soluble and which are insoluble in water because the method we use depends on this." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 613); the paired objectives are fixed as demands — "Describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an acid and alkali." and "Describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants." — with "Practical: Prepare a sample of pure, dry lead(II) sulfate" as the designated application (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 597).
+Temporal scope: CURRENT — AUTHORITATIVE.
+### PRA-041 — Quantitative electrolysis upgrades the qualitative box into a measured investigation
+
+**Claim:** the book extends electrolysis from qualitative observation to a measured current-volume investigation, stating the apparatus deltas, the fixed-duration protocol, the current ladder, and the repeats-for-reliability step inside the procedure itself.
+**Evidence:** the framing is explicit — "We can investigate how much product we get in an electrolysis experiment." — and the apparatus additions are named: "we would also have to put a variable resistor and an ammeter into the circuit to allow us to vary and measure the current" (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 390); the protocol is quantified end-to-end — "Stop the timer after 5 minutes and note the final reading on the gas burette." — laddered across currents, "Repeat for currents of 0.4A, 0.6A, 0.8A and 1.0A.", and closed with the reliability step: "Repeat each experiment to get more reliable results." (SRC-BOOK-4CH1-SB1, edexcel_igcse_chemistry_chunks_v3.jsonl line 390).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
 ## Evidence / Source Basis
 
 Primary evidence: SRC-TL-4CH1 (Getting Started Guide aims, skills band,
@@ -179,17 +196,8 @@ locators preserved; caps enforced by the pack builder.
 
 ## Limitations / Coverage Gaps
 
-Method variants are catalogued from this pack's excerpt windows; further
-variant pairs outside the windows are neither enumerated nor denied. The
-Getting Started Guide is the modular-edition guide (its title pages say so) —
-its 4CH1 mapping rows are cited only at the level its excerpts show. OCR-era
-quirks of the book parse (a garbled skills band, doubled stamps) are quoted as
-parsed or paraphrased, never repaired. No examiner sentiment is synthesized
-from mark schemes. No canonical planes were written.
+This artifact catalogues the method families and investigation patterns visible in its pack's excerpt windows; methods outside the captured pages/lines are neither enumerated nor denied. The RUN-020 deepening added records only from the held pack surface (zero-append tranche): no windows were appended, so procedure detail outside the captured surface is neither quoted nor denied. OCR-era quirks of the book parse (doubled KEY POINT stamps, garbled step lines such as the truncated stirring/adding steps in the quantitative metal-acid procedure) are quoted as parsed or paraphrased, never repaired. No examiner sentiment is synthesized from mark schemes. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's
-evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 binds
-every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+GENERATED under SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6) from this artifact's evidence pack alone; deepened under SIB-CHEMISTRY_4CH1-RUN-020 (D3 REQUIRED-core depth pass, tranche 4 — PRA+PED, zero-append) with +3 records (PRA-039..041) authored only from the held pack excerpts, quotes pre-bound under the markup-transparent self-check; validator of record tools/sib @ 357ace0a; claim QA r3 binds every citation to a pack excerpt. Research artifact — evidence-backed, not canonical educational truth.
