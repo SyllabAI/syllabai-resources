@@ -1,0 +1,526 @@
+{
+ "format": "guided-lesson/0.3",
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/23a624524aa6-chromatography-e2-80-93-pure-impure.png",
+   "alt": "Chromatogram showing the separation of brown ink",
+   "sourceHeading": "Interpreting chromatograms",
+   "caption": "Diagram showing the analysis of a mixture and pure substances using chromatography",
+   "moduleIds": [
+    "L1"
+   ]
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/8797d28f11b4-64942-using-rf-values-to-identify-mixture-compon.avif",
+   "alt": "using-rf-values-to-identify-mixture-components",
+   "sourceHeading": "Rf Values",
+   "moduleIds": [
+    "L2"
+   ]
+  }
+ ],
+ "noteRef": {
+  "noteId": "rn_R3ptwxGTTvdBFvyP",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "1. Principles of Chemistry",
+  "subtopicTitle": "Elements, Compounds & Mixtures",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/1-2-4-interpreting-chromatograms"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-1.11",
+   "text": "understand how a chromatogram provides information about the composition of a mixture"
+  },
+  {
+   "code": "4CH1-1.12",
+   "text": "understand how to use the calculation of Rf values to identify the components of a mixture"
+  }
+ ],
+ "primer": {
+  "text": "You already know from Separation Techniques how paper chromatography separates the components of an ink. This note reads the result: what the spots say about purity and composition, and how Rf values put numbers on each component so unknowns can be named.",
+  "prerequisiteSubtopic": "Separation Techniques"
+ },
+ "lessons": [
+  {
+   "title": "Reading the Spots",
+   "sourceHeadings": [
+    "Identifying Mixtures",
+    "Interpreting chromatograms"
+   ],
+   "specRefs": [
+    "4CH1-1.11"
+   ],
+   "figureIds": [
+    "fig-01"
+   ],
+   "opening": "A chromatogram is the finished paper after a run, and it reads like a list of ingredients. One spot means a pure substance; several spots mean a mixture, because each component travels to its own height. Run known compounds alongside as reference spots, and any unknown whose dots line up horizontally with a reference is named.",
+   "keyPoints": [
+    "A pure substance produces one spot on a chromatogram; an impure sample produces more than one.",
+    "A mixture separates on the paper, showing each of its components as a separate spot.",
+    "Identical substances produce identical chromatograms under the same conditions.",
+    "A known compound run as a reference spot helps match and identify unknown spots.",
+    "The brown ink's three dots line up horizontally with red, yellow and blue, so the ink contains all three.",
+    "Exam chromatograms are black and white, so matching is done by horizontal alignment of dots."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Count the spots: one means pure, several means a mixture with every component showing its own spot. Dots at the same height came from the same substance, so a reference chemical settles what an unknown contains.",
+     "analogy": "It is like footprints marked at different heights on a wall chart: everyone who reached the same line took the same climb.",
+     "examPointer": "Spot counts decide pure versus impure; horizontal alignment decides which substance is which."
+    },
+    "medium": {
+     "restatement": "Each component of a mixture travels to its own characteristic height, so the finished chromatogram displays the components as separate spots — one spot for a pure substance, several for a mixture. A known compound run alongside acts as a reference: any unknown spot sitting level with it belongs to that substance, which is how exam chromatograms identify components without colour.",
+     "analogy": "Athletes on a climbing wall reach different holds; the height each one ends at is their signature, and matching heights match the climbers.",
+     "examPointer": "In black-and-white papers, match dots by level lines, never by shade."
+    }
+   },
+   "check": [
+    {
+     "stem": "A chromatogram shows four separate spots stacked at different heights. What was applied to the baseline?",
+     "misconceptionClass": "spot count interpretation",
+     "options": [
+      {
+       "key": "A",
+       "text": "A mixture — each component shows as its own spot",
+       "correct": true,
+       "explanation": "Several spots mean several substances travelled, which is a mixture.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A pure substance — one chemical always gives four dots",
+       "correct": false,
+       "explanation": "A pure substance gives exactly one spot.",
+       "misconception": "count invented"
+      },
+      {
+       "key": "C",
+       "text": "An element — dots prove atomic simplicity",
+       "correct": false,
+       "explanation": "Chromatography says nothing about elements versus compounds, only how many substances are present.",
+       "misconception": "wrong domain inference"
+      },
+      {
+       "key": "D",
+       "text": "A compound with four bonds",
+       "correct": false,
+       "explanation": "Spot count counts substances, not bonds.",
+       "misconception": "bond confusion"
+      }
+     ]
+    },
+    {
+     "stem": "Brown ink is run beside red, yellow and blue inks. The brown leaves three dots, each level with one of the others. What follows?",
+     "misconceptionClass": "alignment conclusion",
+     "options": [
+      {
+       "key": "A",
+       "text": "The brown ink is a mixture of the red, yellow and blue inks",
+       "correct": true,
+       "explanation": "Level dots mean identical substances, and three of them make up the brown.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The brown ink is pure, since its dots are level",
+       "correct": false,
+       "explanation": "Three dots is three substances — the very picture of a mixture here.",
+       "misconception": "alignment overread as purity"
+      },
+      {
+       "key": "C",
+       "text": "The inks reacted to make brown during the run",
+       "correct": false,
+       "explanation": "No reaction occurs; the brown was mixed before it reached the paper.",
+       "misconception": "reaction invented"
+      },
+      {
+       "key": "D",
+       "text": "The chromatogram is faulty and should be repeated",
+       "correct": false,
+       "explanation": "The result is exactly what a mixture of three dyes looks like.",
+       "misconception": "evidence dismissed"
+      }
+     ]
+    },
+    {
+     "stem": "Why is a reference spot of a known compound included on the same paper?",
+     "misconceptionClass": "reference spot purpose",
+     "options": [
+      {
+       "key": "A",
+       "text": "So unknown spots that line up with it can be identified by matching",
+       "correct": true,
+       "explanation": "A level line between reference and unknown means the same substance.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To make the chromatogram look complete",
+       "correct": false,
+       "explanation": "The reference has a working role, not a decorative one.",
+       "misconception": "decorative assumption"
+      },
+      {
+       "key": "C",
+       "text": "To use up spare space on the paper",
+       "correct": false,
+       "explanation": "Space is not the concern; identification is.",
+       "misconception": "trivial rationale"
+      },
+      {
+       "key": "D",
+       "text": "Because every valid chromatogram must contain four spots",
+       "correct": false,
+       "explanation": "There is no spot-count rule; references exist to match against.",
+       "misconception": "rule invented"
+      }
+     ]
+    },
+    {
+     "stem": "Two samples give chromatograms whose spots sit at exactly the same heights. What can be concluded?",
+     "misconceptionClass": "identical chromatograms",
+     "options": [
+      {
+       "key": "A",
+       "text": "The samples are the same substance",
+       "correct": true,
+       "explanation": "Identical substances produce identical chromatograms.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One sample is purer than the other",
+       "correct": false,
+       "explanation": "Same spots, same purity picture; nothing distinguishes them.",
+       "misconception": "purity ranking invented"
+      },
+      {
+       "key": "C",
+       "text": "The solvent was different for each",
+       "correct": false,
+       "explanation": "A different solvent would shift the heights.",
+       "misconception": "condition mismatch assumed"
+      },
+      {
+       "key": "D",
+       "text": "The samples are mixtures of the same colour",
+       "correct": false,
+       "explanation": "Height matching identifies substances regardless of colour.",
+       "misconception": "colour-based reasoning"
+      }
+     ]
+    },
+    {
+     "stem": "An exam prints a chromatogram in black and white. How do you tell whether a mixture contains a given known sample?",
+     "misconceptionClass": "monochrome matching",
+     "options": [
+      {
+       "key": "A",
+       "text": "Check whether the mixture's dots line up horizontally with the known's dots",
+       "correct": true,
+       "explanation": "In black and white, level alignment is the only reliable match.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Compare the darkness of the spots",
+       "correct": false,
+       "explanation": "Shade depends on quantity and printing, not identity.",
+       "misconception": "shade as identity"
+      },
+      {
+       "key": "C",
+       "text": "Count which sample has more dots overall",
+       "correct": false,
+       "explanation": "Counts say pure versus mixture, not which substances are shared.",
+       "misconception": "count as match"
+      },
+      {
+       "key": "D",
+       "text": "Measure which spots are widest",
+       "correct": false,
+       "explanation": "Spot width is not the identification criterion.",
+       "misconception": "size as identity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rf Values",
+   "sourceHeadings": [
+    "Rf Values"
+   ],
+   "specRefs": [
+    "4CH1-1.12"
+   ],
+   "figureIds": [
+    "fig-02"
+   ],
+   "opening": "Every substance has a retention factor: the distance it moves up the paper divided by the distance the solvent front moves. The value is a ratio with no units, always less than one, and constant for that substance in that solvent — change the solvent and the value changes with it. Compare measured values against known ones and unknown components can be named.",
+   "keyPoints": [
+    "Rf equals the distance moved by the substance divided by the distance moved by the solvent.",
+    "The value is a ratio, carries no units, and always stays below one.",
+    "A compound keeps the same Rf in the same solvent, but a new solvent changes it.",
+    "Measured Rf values compared with tables of known values identify the components of a mixture.",
+    "Measure both distances from the baseline to the centre of each dot or front.",
+    "Strict mark schemes reward careful ruler work on both distances."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Divide how far the spot climbed by how far the solvent climbed: that number is Rf. It has no units, never reaches one, and repeats exactly while the solvent stays the same. Comparing the value with recorded tables names the substance, provided the same solvent was used.",
+     "analogy": "If the solvent front runs a full race and the substance completes half of it, the substance's score is 0.5.",
+     "examPointer": "Anchor both measurements at the baseline and read to the centre of the dot."
+    },
+    "medium": {
+     "restatement": "The retention factor is computed as the distance moved by the substance over the distance moved by the solvent front, both measured from the pencil baseline. Being a ratio it carries no units and must stay below one, since the substance can never outrun the solvent that carries it; a fresh solvent re-sets the value, so tables of known values apply only under matching conditions.",
+     "analogy": "Treat the solvent front as the full length of a swimming pool and the spot as one swimmer's lap: the fraction completed is the swimmer's score, whatever the pool's size.",
+     "examPointer": "Change the solvent and every Rf changes with it — state the solvent when quoting values."
+    }
+   },
+   "check": [
+    {
+     "stem": "What is the Rf value of a substance?",
+     "misconceptionClass": "Rf definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Distance moved by the substance divided by distance moved by the solvent",
+       "correct": true,
+       "explanation": "Both distances are measured from the baseline.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Distance moved by the solvent divided by distance moved by the substance",
+       "correct": false,
+       "explanation": "That inverts the ratio and pushes values above one.",
+       "misconception": "ratio inverted"
+      },
+      {
+       "key": "C",
+       "text": "The time the substance takes to climb the paper",
+       "correct": false,
+       "explanation": "Rf is about distances, not times.",
+       "misconception": "time substituted"
+      },
+      {
+       "key": "D",
+       "text": "The mass of substance dissolved in the solvent",
+       "correct": false,
+       "explanation": "No mass enters the calculation.",
+       "misconception": "quantity confused"
+      }
+     ]
+    },
+    {
+     "stem": "Why must every Rf value be smaller than one?",
+     "misconceptionClass": "Rf bound",
+     "options": [
+      {
+       "key": "A",
+       "text": "The substance cannot travel further than the solvent that carries it",
+       "correct": true,
+       "explanation": "The solvent front sets the maximum distance, so the ratio stays below one.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Values above one are simply rounded down",
+       "correct": false,
+       "explanation": "The bound is physical, not a rounding convention.",
+       "misconception": "rounding as physics"
+      },
+      {
+       "key": "C",
+       "text": "Because Rf is measured in centimetres",
+       "correct": false,
+       "explanation": "Rf has no units at all.",
+       "misconception": "unit confusion"
+      },
+      {
+       "key": "D",
+       "text": "One is the maximum solubility allowed",
+       "correct": false,
+       "explanation": "Solubility does not cap the ratio; the geometry of the run does.",
+       "misconception": "solubility cap"
+      }
+     ]
+    },
+    {
+     "stem": "A student measures Rf = 0.4 in one solvent, then repeats the run in a different solvent. What happens?",
+     "misconceptionClass": "solvent dependence",
+     "options": [
+      {
+       "key": "A",
+       "text": "The Rf value can change, because it depends on the solvent used",
+       "correct": true,
+       "explanation": "The value is constant only for a given substance in a given solvent.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The Rf stays 0.4 in every solvent",
+       "correct": false,
+       "explanation": "Changing the solvent changes the value.",
+       "misconception": "universality assumed"
+      },
+      {
+       "key": "C",
+       "text": "Rf doubles when the solvent changes",
+       "correct": false,
+       "explanation": "There is no fixed scaling between solvents.",
+       "misconception": "linear rule invented"
+      },
+      {
+       "key": "D",
+       "text": "Rf becomes meaningless after the first run",
+       "correct": false,
+       "explanation": "Each run gives a valid value for its own solvent.",
+       "misconception": "one-run validity"
+      }
+     ]
+    },
+    {
+     "stem": "Where exactly are the two distances for an Rf calculation measured from and to?",
+     "misconceptionClass": "measurement anchors",
+     "options": [
+      {
+       "key": "A",
+       "text": "From the baseline to the centre of the dot, and to the solvent front",
+       "correct": true,
+       "explanation": "Baseline to centre for the substance; baseline to front for the solvent.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "From the top of the paper down to the dots",
+       "correct": false,
+       "explanation": "Both distances run upward from the same baseline.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "From dot edge to dot edge",
+       "correct": false,
+       "explanation": "Centres, not edges, are the marked convention.",
+       "misconception": "edge convention"
+      },
+      {
+       "key": "D",
+       "text": "From the solvent container to the pencil line",
+       "correct": false,
+       "explanation": "The container plays no part; the paper's baseline is the anchor.",
+       "misconception": "apparatus anchor"
+      }
+     ]
+    },
+    {
+     "stem": "Why can Rf values identify an unknown component of a mixture?",
+     "misconceptionClass": "identification logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because a substance's Rf under the same conditions matches a known value in the tables",
+       "correct": true,
+       "explanation": "Same substance, same solvent, same value — the match names the component.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because every substance has a unique Rf across all solvents",
+       "correct": false,
+       "explanation": "The value is unique only within a fixed solvent; the table must match conditions.",
+       "misconception": "universal uniqueness"
+      },
+      {
+       "key": "C",
+       "text": "Because higher spots always mean bigger molecules",
+       "correct": false,
+       "explanation": "Travel reflects solubility in the solvent, not molecular size rules of thumb.",
+       "misconception": "size heuristic"
+      },
+      {
+       "key": "D",
+       "text": "Because the solvent records its own fingerprint",
+       "correct": false,
+       "explanation": "The identification reads the spots, not the solvent.",
+       "misconception": "solvent fingerprint"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "separation",
+    "definition": "Taking a mixture apart into its components by physical means.",
+    "firstLesson": 1
+   },
+   {
+    "term": "chromatogram",
+    "definition": "The visual output of a chromatography run: the paper with its separated spots after the run.",
+    "firstLesson": 1
+   },
+   {
+    "term": "reference spot",
+    "definition": "A spot of a known compound run alongside unknowns so spots can be matched.",
+    "firstLesson": 1
+   },
+   {
+    "term": "pure substance",
+    "definition": "A substance that gives a single spot on a chromatogram.",
+    "firstLesson": 1
+   },
+   {
+    "term": "baseline",
+    "definition": "The pencil starting line on chromatography paper where samples are spotted.",
+    "firstLesson": 2
+   },
+   {
+    "term": "Rf value",
+    "definition": "The ratio of the distance moved by a substance to the distance moved by the solvent.",
+    "firstLesson": 2
+   },
+   {
+    "term": "solvent",
+    "definition": "The liquid that travels up the paper and carries the substances with it.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "A student runs a chromatogram and measures the distance moved by the substance as 3 units and the distance moved by the solvent as 6 units. Calculate the Rf value of the substance.",
+   "steps": [
+    "Distance moved by the substance, measured baseline to centre: 3 on the printed scale.",
+    "Distance moved by the solvent, measured baseline to front: 6 on the same scale.",
+    "Rf value: 3 / 6 = 0.5, a ratio with no units."
+   ],
+   "finalAnswer": "Rf = 0.5 for that substance in that solvent."
+  }
+ }
+}
