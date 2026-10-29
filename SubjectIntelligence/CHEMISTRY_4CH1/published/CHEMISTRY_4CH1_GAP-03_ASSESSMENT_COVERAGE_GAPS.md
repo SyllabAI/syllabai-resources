@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-03 — Assessment Coverage Gaps
@@ -195,6 +195,23 @@ International GCSE in Chemistry (4CH1) and Science (4SD0 and 4SS0) First
 teaching 2017" (SRC-TL-4CH1, Chemical-bonding---FINAL.pdf p1). Temporal scope:
 CURRENT — AUTHORITATIVE.
 
+### GAP-055 — The two-paper mark ledger closes arithmetically of record and the page rules out scaling, so no hidden normalisation layer exists to reconcile
+
+**Claim:** The assessment model's own arithmetic closes on the page of record: 110 plus 70 marks is the stated 180 total, the stated weightings 61.1 and 38.9 percent sum to exactly 100, and the page states the marks for the papers are not scaled, with grades 9 to 1 awarded on the overall mark; assessment-coverage risk therefore lives in the absent question-paper and mark-scheme corpora disclosed at GAP-018, not in the mark ledger itself, which needs no reconciliation surface beyond the two papers. (Authored from held windows with fresh claims: this artifact's unmined excerpt surface was exhausted pre-run.)
+**Evidence:** the page totals and closes the ledger — "The total number of marks for this qualification is 180. This total is obtained by adding the mark for Paper 1C (out of 110 marks) to the mark for Paper 2C (out of 70 marks). The marks for the papers are not scaled." — and fixes the award rule: "Based on the overall mark, students will be awarded a grade. The grades available range from 9 to 1" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p33).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-056 — The experimental-skills list is the finest-grained experimental-assessment surface of record, and it carries no per-skill weighting
+
+**Claim:** The specification's experimental-skills page enumerates the ability classes the written papers may test — from solving problems in a practical context through identifying independent, dependent and control variables — but the pack carries no per-skill weighting: the only quantitative surface for experimental skills is the AO3 band of 19 to 21 percent, so skill-level assessment coverage cannot be audited from the of-record corpus and is disclosed as a granularity gap. (Authored from held windows with fresh claims: this artifact's unmined excerpt surface was exhausted pre-run.)
+**Evidence:** the skills list opens "solve problems set in a practical context" and includes "make observations and measurements with appropriate precision, record these methodically and present them in appropriate ways" and "identify independent, dependent and control variables" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p34); the only weighting surface of record is "AO3 Experimental skills, analysis and evaluation of data and methods in chemistry 19–21%" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p35).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-057 — Exactly one cover in the 23-report census names a second qualification: the November 2023 Paper 1C report is jointly issued for 4CH1 and 4SD0
+
+**Claim:** The November 2023 Paper 1C examiner report identifies itself as covering both the Chemistry Paper 1C and the Science Double Award 4SD0 Paper 1C in a single document — the only such joint-qualification cover in the census of record — so the 4CH1 November-2023 1C commentary is partially shared with the Double Award population; no standalone 4SD0 report corpus exists of record, and no other session cover names a second qualification. (Authored from held windows with fresh claims: this artifact's unmined excerpt surface was exhausted pre-run.)
+**Evidence:** the joint cover of record reads "Pearson Edexcel International GCSE In Chemistry (4CH1) Paper 1C and Science Double Award (4SD0) Paper 1C" under the November 2023 heading (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p1); the other 22 covers of record identify 4CH1 papers only, e.g. "Examiners' Report June 2025 Int GCSE Chemistry 4CH1 1C" (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p1).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (the assessment-information page, the SAMs /
@@ -220,4 +237,4 @@ claim is made about them.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-055..GAP-057), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

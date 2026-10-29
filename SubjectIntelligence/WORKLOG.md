@@ -1025,3 +1025,60 @@ specification governs — this run is RUN-020, tranche 4 of the RUN-017 plan of 
   advance_commits, gate_resolution_sb1_ebook, pack_carry, source_pin_state, unmined_census,
   census (gate-time), census_post, quote_selfcheck_tut, evidence_claim_qa_report,
   lifecycle_receipt, post_lifecycle_scoreboard, run_manifest, bodies/, evidence/, staged/).
+
+---
+
+## RUN-022 — D3 REQUIRED-core depth pass, tranche 6: GAP (2026-10-30; operator traces 1a1838d0413b6fbd D3, 1a188d61cef5bc5d "T6 (GAP, 8 artifacts)")
+
+- TRANCHE OF RECORD: T6 = the last D3 tranche (8 REQUIRED GAP artifacts, no gate by the D3
+  plan of record; the only operator-side gate in the register, RUN-011 SB1 publisher-eBook,
+  was resolved by ruling trace 1a188a28859dc5c9 and is never exercised by the GAP family).
+  Operator order trace 1a188d61cef5bc5d ("T6 (GAP, 8 artifacts)"). Packs of record carried
+  byte-identical from their origin run RUN-009 (pack_carry.json, per-file sha256 asserted);
+  zero windows appended, caps untouched; 32/32 distinct pinned paths verified (9 resources
+  byte-identical at tip 1a5c37bc; 23 pastpapers ER paths byte-identical at the LIVE tip
+  bc4740884; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance — 5 foreign commits,
+  0 SubjectIntelligence/ paths, per-commit diff-tree census filed).
+- CENSUS of record (pre-run): GAP = 8 artifacts / 12,161 words / 48 records
+  (GAP-001..048, family-continuous). Unmined-window census first: 244/347
+  excerpts unmined pre-run; GAP-03's unmined surface was EXHAUSTED (1/29) and its +3 records
+  are authored from held windows with fresh claims per the zero-append law (TUT-07 precedent,
+  disclosed); the other seven artifacts authored from their unmined windows.
+- T6 EXECUTION (all 8 REQUIRED GAP artifacts, +24 records GAP-049..072, family-unique block
+  above GAP-048): every record authored ONLY from read pack excerpts; quotes pre-bound under
+  the markup-transparent self-check — 65 quotes, ALL grounded pre-composition
+  (quote_selfcheck_gap.json). Themes: statement-level C-suffix completion for sub-topics
+  (h)/(i) with the objective-grain chemistry-only banner, the formula-practical book-side
+  surface against the unverified-pages boundary; objectives-node continuity, parameter-level
+  node detail, and OCR-noise coordinates in the node surface; the closed two-paper mark
+  ledger (no-scaling law), the skills-granularity gap, the 4SD0 joint-cover disclosure; the
+  answer key's coefficient-misconception register, the spec's printed scope fences, and
+  presentation-format demands; marking-law pre-publication and tolerance bands, the
+  CHEMISTRY ONLY graded battery; question-block routing bands, stance-carrying hooks, the
+  book-native skill taxonomy; apparatus-precision examiner law, the self-disclosed averaging
+  boundary, examiner-commented failure modes; and three new research-backlog items (naming
+  ledger, cross-discipline hooks, epistemology hooks).
+- GATES: r3 evidence-claim QA on deployed bodies BEFORE receipts = 174 citations / 0 violations
+  across 8 artifacts; validator qa 0 errors / 0 warnings x8 content-bound; stage x8
+  (SIB-ING-002) -> publish x8 (QA re-verified) -> chunks x8; library-wide receipt
+  verification 95/95 at 0 errors / 0 warnings via a temp GENERATED-status view (F4b-disclosed
+  seam: published files cannot re-enter the qa seat in place; content byte-identical, only the
+  status line flipped in the view); run_manifest add-artifact x8 (7 gates each — no
+  gate_resolution: T6 carries no gate) + validate OK; post-lifecycle validate-manifest = the
+  byte-exact F4a-disclosed red state ({SIB-MANI-007: 88, SIB-MANI-011: 4, SIB-MANI-012: 7};
+  landing zones empty by design) — OBSERVED + DISCLOSED, never worked around.
+- HONEST DEPTH OUTCOME (census_post.json): GAP median ~1,535 -> ~2,120 words
+  (+38%); tranche totals 12,161 -> 17,013 words
+  (+4,852); REQUIRED-core ~144,284 -> ~149,136 words; library
+  records 739 -> 763. Final numbers of record in
+  runs/SIB-CHEMISTRY_4CH1-RUN-022/census_post.json (published-file shas).
+- D3 STATUS: CLOSED — all six tranches landed (T1 EXM RUN-017, T2 MS RUN-018, T3 PRO+ASM
+  RUN-019, T4 PRA+PED RUN-020, T5 TUT RUN-021 on the operator-ruled OCR basis, T6 GAP
+  RUN-022); MIS/CUR/EXP confirm-clean only. Register beyond D3 unchanged: D6 (single-pipeline
+  self-attestation structural limit), F4 (upstream validator fix, master repo tools/sib lane),
+  and the independent silver-tier ER review before production reliance.
+- Library-side dual record: SubjectIntelligence/WORKLOG.md RUN-022 entry (this); repo run
+  record runs/SIB-CHEMISTRY_4CH1-RUN-022/ complete (plan_of_record, advance_disclosure,
+  advance_commits, pack_carry, source_pin_state, unmined_census, census (gate-time),
+  census_post, quote_selfcheck_gap, evidence_claim_qa_report, lifecycle_receipt,
+  post_lifecycle_scoreboard, run_manifest, bodies/, evidence/, staged/).

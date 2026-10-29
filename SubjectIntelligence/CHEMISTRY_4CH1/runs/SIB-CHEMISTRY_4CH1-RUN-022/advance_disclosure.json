@@ -1,0 +1,50 @@
+{
+  "schema": "sib-advance-disclosure/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-022",
+  "advances": [
+    {
+      "at": "session start",
+      "from": "1e4278895 (the RUN-021 merge — PR #221, D3 tranche 5 tip of record)",
+      "to": "1a5c37bce",
+      "isolation": "git log 1e4278895..origin/main = 5 commits; 0 touch SubjectIntelligence/ (per-commit diff-tree census in advance_commits.json); 1e4278895 proven ancestor (merge-base --is-ancestor OK)",
+      "advance_commits": [
+        {
+          "sha": "1a5c37bce",
+          "subject": "fix(SME-RevisionNotes): repair rendering-defect classes corpus-wide",
+          "parents": 1,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        },
+        {
+          "sha": "9db02bb75",
+          "subject": "Merge pull request #220 from SyllabAI/f111/class1-strip-closure-r0",
+          "parents": 2,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        },
+        {
+          "sha": "d28bb1e9e",
+          "subject": "F117 r2-consumed twin re-placed at the picker's glob path — repairs the #219 scripts/scripts/ path slip that l",
+          "parents": 1,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        },
+        {
+          "sha": "2cb382878",
+          "subject": "Merge main (7352d2ea: the #219 F117 r2-consumed twin disclosure) into the class-1 closure branch — the #220 CI",
+          "parents": 2,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        },
+        {
+          "sha": "d8fd8acb1",
+          "subject": "F111 class-1 closure: the 19 guarded drawing-strip remains registered at source (F98 mechanism) — the last F86",
+          "parents": 1,
+          "subjectintelligence_paths": 0,
+          "subjectintelligence_paths_list": []
+        }
+      ]
+    }
+  ],
+  "disposition": "fetch-first gate held with disclosed advance; branch of record to be cut at 1a5c37bce (origin/main tip at session start)"
+}

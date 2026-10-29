@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-06 — Retrieval Risk Analysis
@@ -195,6 +195,23 @@ report is absent from the pack of record consistent with its garbled-OCR
 exclusion carried forward from the earlier run. Temporal scope: CURRENT —
 AUTHORITATIVE.
 
+### GAP-064 — The Unit 3 battery carries question-block-level CHEMISTRY ONLY bands, giving indirect paper routing that refines the no-labels finding
+
+**Claim:** The Unit 3 question battery is internally banded — a CHEMISTRY ONLY marker opens the bond-energy block, END OF CHEMISTRY ONLY closes it, and a second CHEMISTRY ONLY marker opens the equilibrium block — so while GAP-034's finding stands that no battery question is labelled 1C or 2C, the chemistry-only routing is recoverable indirectly at question-block granularity: combined with the specification's paper-split rule, a C-banded block is examinable on Paper 2C only, which is routing information no other unit battery in the pack exhibits.
+**Evidence:** the battery bands — CHEMISTRY ONLY at the bond-energy block (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 850) and END OF CHEMISTRY ONLY two chunks later (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 852); the routing rule that converts the band to paper coordinates — "Assesses all the content, including content that is in bold and has a 'C' reference" (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p33).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-065 — The did-you-know surface extends past the four sampled hooks to stance-carrying and terminology hooks, widening the misclassification risk
+
+**Claim:** Beyond the four hooks sampled at GAP-033, the pack exhibits hooks that carry a contested-claims stance and non-examinable terminology: the climate hook frames a live scientific disagreement, and the hydrogen-peroxide hook introduces the non-SI vol concentration scale used in commerce; a retrieval system that ranks the hook surface as core content would not merely misclassify context as content — it would surface contested framing and commercial units as if they were settled, assessable statements, so the misclassification risk extends from labels to stance.
+**Evidence:** the stance hook reads "Although most scientists believe that increases in carbon dioxide will cause devastating climate change, there are others who reject this." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 483); the terminology hooks read "'vol', meaning volume, is a measurement for concentration for hydrogen peroxide." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 813) and "Intermolecular literally means between molecules." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 323).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-066 — The unit batteries carry a book-native skill taxonomy — executive function and decision making among them — with no printed mapping to the assessment objectives
+
+**Claim:** The unit question batteries tag their questions with a book-native skill taxonomy — INTERPRETATION, REASONING, PROBLEM SOLVING, CRITICAL THINKING, ANALYSIS, EXECUTIVE FUNCTION and DECISION MAKING — a skill-dimension retrieval surface that neither the specification's assessment-objective model nor any paper label supplies; the pack prints no mapping between the book's skill tags and the AO classes, so a retrieval system can route by skill but cannot ground that routing in the assessment model, and the mapping is disclosed as unmapped of record.
+**Evidence:** the Unit 1 battery tags its questions with the SKILLS line INTERPRETATION, REASONING (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 395); the Unit 2 battery carries the EXECUTIVE FUNCTION tag (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 689) and the DECISION MAKING tag (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 694).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (the chemistry-only statement cluster, p21;
@@ -219,4 +236,4 @@ unaudited in this pack and disclosed as such.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-064..GAP-066), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

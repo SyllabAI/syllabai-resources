@@ -1,0 +1,173 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-022",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+    "syllabai_resources": "1a5c37bcecf379cd98e83aa74aa9472920092428",
+    "syllabai_pastpapers": "bc4740884"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "GAP-01",
+      "filename": "CHEMISTRY_4CH1_GAP-01_CURRICULUM_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-01/evidence_pack.json",
+      "evidence_pack_sha256": "7de4375ce3695fa72c410cde33f5b94954d3755c21d39a0d4ffd3060b1bf6afc",
+      "artifact_sha256": "263608aa2150a23b1d3e86ed7484c362181ce5bb993b069a04999843085414fc",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-049..GAP-051, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 10 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:23 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-01.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-01.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-01.qa.json"
+    },
+    {
+      "artifact_id": "GAP-02",
+      "filename": "CHEMISTRY_4CH1_GAP-02_KG_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-02/evidence_pack.json",
+      "evidence_pack_sha256": "9c478786c9ff46c0ab27b35d4386ffa3cf6c0be200bd3faf65313e62e3586994",
+      "artifact_sha256": "53df7ddcd0bfe7415cfd27dfb3e441f3d41dcd28ad91861c4ac9b5c135880604",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-052..GAP-054, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 7 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:24 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-02.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-02.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-02.qa.json"
+    },
+    {
+      "artifact_id": "GAP-03",
+      "filename": "CHEMISTRY_4CH1_GAP-03_ASSESSMENT_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-03/evidence_pack.json",
+      "evidence_pack_sha256": "0ec96cdac4e20eb86bb97119fb36e20eda2ca3671ea1f5c7420fa73055407493",
+      "artifact_sha256": "9e5c951103220b69a620df260a881b974785a782160cc18b0bdf4a7613eeade5",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-055..GAP-057, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (held-window authoring with fresh claims per the zero-append law as its unmined surface was exhausted (1/29 excerpts unmined pre-run)); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 8 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:17 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-03.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-03.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-03.qa.json"
+    },
+    {
+      "artifact_id": "GAP-04",
+      "filename": "CHEMISTRY_4CH1_GAP-04_MISCONCEPTION_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-04/evidence_pack.json",
+      "evidence_pack_sha256": "ca11fe3478a3bc1b6a8e25e5504827fc6addef571381e3e2ead419496c67de81",
+      "artifact_sha256": "3ee120a4a6f92ee082a6e66077b55d0e9f198a537e394371772cccd1c3c5fe91",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-058..GAP-060, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 7 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:26 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-04.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-04.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-04.qa.json"
+    },
+    {
+      "artifact_id": "GAP-05",
+      "filename": "CHEMISTRY_4CH1_GAP-05_RESOURCE_QUALITY_GAPS.md",
+      "evidence_pack": "evidence/GAP-05/evidence_pack.json",
+      "evidence_pack_sha256": "06cdc9dcf46c7fff632c4612e62815ae87efe51b95fcc4a825625919691f9ef1",
+      "artifact_sha256": "163a128dff5ca8832676474e69ea197df3b6937ea12ce9f8f452dc62fb35a6aa",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-061..GAP-063, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 8 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:16 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-05.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-05.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-05.qa.json"
+    },
+    {
+      "artifact_id": "GAP-06",
+      "filename": "CHEMISTRY_4CH1_GAP-06_RETRIEVAL_RISK_ANALYSIS.md",
+      "evidence_pack": "evidence/GAP-06/evidence_pack.json",
+      "evidence_pack_sha256": "2599896fcb4fc7b973dd04d431e0625de1e3ae402d6198f32af8aab563310a93",
+      "artifact_sha256": "a35db1b52389d2f0b797a47d654210a802288059a9692426beacaca388c7a6f1",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-064..GAP-066, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 4 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:23 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-06.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-06.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-06.qa.json"
+    },
+    {
+      "artifact_id": "GAP-07",
+      "filename": "CHEMISTRY_4CH1_GAP-07_TUTOR_KNOWLEDGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-07/evidence_pack.json",
+      "evidence_pack_sha256": "fba52a567a9f0497d4c2df797298ec607142b302404ce8cae2687aca83ce33a5",
+      "artifact_sha256": "ed05d56ab93bb895d6b3e3d5b15d5d4c2f47402f3e53a5e5792ef799973f448b",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-067..GAP-069, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 11 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:21 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-07.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-07.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-07.qa.json"
+    },
+    {
+      "artifact_id": "GAP-08",
+      "filename": "CHEMISTRY_4CH1_GAP-08_SUBJECT_RESEARCH_BACKLOG.md",
+      "evidence_pack": "evidence/GAP-08/evidence_pack.json",
+      "evidence_pack_sha256": "f73c7e7efebd86c484fcc0f9f8edacd01facf196d47f4c3c50c8615c94421edb",
+      "artifact_sha256": "cd43b42381257d4e804743a3361ba11b3d59fdb49afba2dd8cc50ec2c898b96c",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight -> PASS:pack of record carried byte-identical from its origin run RUN-009 (pack_carry.json, per-file sha256 asserted); source pins: syllabai 357ace0a (validator, tools/sib), syllabai_resources 1a5c37bc (tip), syllabai_pastpapers bc4740884 (live tip); 32/32 distinct pinned paths verified (9 resources byte-identical at tip; 23 pastpapers ER paths byte-identical at the live tip; 0 blob-oid drift across the 1e427889 -> 1a5c37bc advance)": "",
+        "pack_append -> PASS:zero-append deepening tranche (every cited span already held in the artifact's pack of record; no windows appended, caps untouched; authoring mined the unmined excerpt surface first — unmined_census.json 244/347 excerpts unmined pre-run; GAP-03 authored from held windows with fresh claims per the zero-append law as its unmined surface was exhausted)": "",
+        "authoring -> PASS:+3 records (GAP-070..GAP-072, family-unique block GAP-049..072) authored only from read excerpts of the carried pack (unmined-window authoring from the artifact's own unmined excerpt surface); every quote self-bound to raw excerpt text before the official gate (quote_selfcheck_gap.json — markup-transparent check stricter than the r3 gate: 10 quotes, all grounded)": "",
+        "r3_evidence_claim_qa -> PASS:24 citations / 0 violations on the authored body (gate BEFORE receipts; 174 citations / 0 violations tranche-wide)": "",
+        "validator_qa -> PASS:0 errors / 0 warnings; qa-reports/GAP-08.qa.json content-bound to the stamped GENERATED copy (byte-identical to the landing copy per the deploy assert; F4b-disclosed: published files cannot re-enter the qa seat — OBSERVED + DISCLOSED, never worked around)": "",
+        "lifecycle -> PASS:stage (SIB-ING-002 content binding) -> publish (QA re-verified) -> chunks refreshed (GAP-08.chunks.jsonl); landing zone empty by design post-transition; version 1.0 -> 1.1": "",
+        "advance_disclosure -> PASS:pin of record 1e427889 (the RUN-021 merge, PR #221) -> tip 1a5c37bc ": " 5 foreign commits (SME-RevisionNotes rendering repair + F111/F117 lanes), 0 SubjectIntelligence/ paths per-commit diff-tree census; 1e427889 proven ancestor (merge-base OK); advance_disclosure.json + advance_commits.json filed"
+      },
+      "qa_report": "qa-reports/GAP-08.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

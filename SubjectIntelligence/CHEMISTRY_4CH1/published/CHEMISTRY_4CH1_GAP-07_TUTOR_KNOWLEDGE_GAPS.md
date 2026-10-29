@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-07
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-07 — Tutor Knowledge Gaps
@@ -190,6 +190,23 @@ the examiner-report presence source identifies as "Examiners' Report June 2019
 IGCSE Chemistry 4CH1 1C" (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p1). Temporal
 scope: CURRENT — AUTHORITATIVE.
 
+### GAP-067 — Appendix C codifies the examiners' own apparatus expectations — reading precision, recording precision, and instruments that are never acceptable
+
+**Claim:** The practical guide states the board's marking expectations in apparatus terms: Edexcel examiners expect scale readings to half the smallest division, a burette reading that falls on a line must still be recorded with its trailing zeros to show the achievable precision, and beakers and conical flasks are named as never acceptable for measuring volume; a tutor briefing students on practical accuracy has this only inside the book — the topic-guide corpus of record carries no apparatus-precision guidance, extending the GAP-040 coverage asymmetry to a third guidance class.
+**Evidence:** the reading rule — "Edexcel examiners expect you to read a scale to a precision of half the smallest divisions marked on whatever piece of apparatus you are using." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1083); the recording rule — "you should still record it as 11.00 cm³because it was possible to read it to 0.05 cm³ and your answer wasn't 11.05 or 10.95 cm³" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1084); the instrument prohibition — "you will never use a beaker or a conical flask to measure the volume of a liquid. They are too imprecise!" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1081).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-068 — The reliability machinery is taught with a self-disclosed boundary: the book's own averaging rule admits the mark schemes can decide otherwise
+
+**Claim:** Appendix C teaches reliability operationally — repeat experiments, treat close agreement as reliability, discard the discordant set — and prices titration consistency at a tenth of a cubic centimetre; then it discloses its own limit: a past question averaged all three values including the discordant one, and the mark scheme's answer did so, so the book tells the tutor that the discard rule is not universal and that judging such cases requires reading mark schemes and Examiners' Reports; the guidance surface documents the boundary of its own authority.
+**Evidence:** the reliability rule — "Experiments have to be repeated to check their reliability. Reliable results are those that are in close agreement, but not necessarily the same." with the discard discipline — "If two sets of results agree closely and a third doesn't, then you discard the third set of results." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1088); the titration limit — "with good titration technique you should get results that are consistent to within 0.10 cm³" — and the self-disclosed exception — "The answer given in the mark scheme, however, was 94 (an average of all three)." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1099).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-069 — Appendix C preserves examiner-commented failure modes as tutor briefing — the colder-climate answer and the vagueness prohibition
+
+**Claim:** The practical guide records how examiners have actually responded to answers: modifying an experiment by moving it to a colder climate has been commented on more than once and earns no credit, vague modification language is prohibited with the word amount banned outright, and the mark-pricing rule is stated so the tutor can train answers as information pieces; these are examiner-commented failure modes, a briefing class the two topic guides of record — bonding and equilibria misconceptions — do not carry.
+**Evidence:** the colder-climate record — "More than once in the past, examiners have commented that students often suggested moving the experiment to a colder climate. You won't get credit for that!" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1094); the precision law — "Don't use vague expressions like 'I would change the amount of hydrogen peroxide.' Avoid the word 'amount' entirely." with "You must be precise in order to get the mark." and the pricing rule "one mark equals one piece of information" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1102).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-BOOK-4CH1-SB1 (the book's appendices of record — course
@@ -215,4 +232,4 @@ No claim is made about tutor surfaces outside the cited pages.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-067..GAP-069), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.

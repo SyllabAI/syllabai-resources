@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: GAP-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -25,19 +25,19 @@ source_scope:
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-30
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-009"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-022"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "6ef8c89291a6662f11fc6dc5ada151c47b172075"
+    syllabai_pastpapers: "bc4740884"
+    syllabai_resources: "1a5c37bcecf379cd98e83aa74aa9472920092428"
 ---
 
 # GAP-05 — Resource Quality Gaps
@@ -180,6 +180,23 @@ teaching September 2017 First examination June 2019" (SRC-SAMS-4CH1,
 international-gcse-Chemistry-2017-SAM.pdf p1, identity-presence only).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
+### GAP-061 — The answer key pre-publishes marking law and accepted-variant equivalence classes — a quality dimension no other of-record surface supplies
+
+**Claim:** The book's answer infrastructure does not stop at scores: the answer pages publish the marking law itself — for conduction answers the word ions is required and any mention of electrons scores zero — and publish accepted-variant equivalence classes for diagrams — dots, crosses or colours, and the positions of the hydrogens, do not matter — so a student self-checking against the book is checking against the board's own acceptance rules; this pre-publication of marking law is a resource-quality dimension the examiner reports corroborate only session by session.
+**Evidence:** the conduction answer states the law inline — "The ions are free to move (it is important to use the word ions here; any mention of electrons will score 0 in an exam)." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1163); the diagram answer states the equivalence class — "(lt doesn't matter whether students use dots or crosses or just different colours- or what positions (N, S, E, W) the hydrogens occupy in the H2S or PH3)" (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1164; the parenthetical opens with the OCR surface lt for It — quoted verbatim from the text of record).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-062 — The answer key publishes tolerance bands for graph-dependent answers, teaching tolerance-aware self-checking
+
+**Claim:** The solubility-curve answers publish their own tolerance bands — a solubility read from the line of best fit is marked correct across about a gram per hundred grams, a crystallisation mass within a gram, a temperature within a degree — and the key says why: the values depend on the line of best fit and the exam will always accept a range; no other of-record surface documents numeric tolerance for graph-reading, so the book is the only place a student can learn tolerance-aware self-checking of plotted answers.
+**Evidence:** the key states the dependence — "The values obtained in this question and in c depend on the line of best fit. In the exam there will always be some tolerance – a range of values will be accepted." — with the bands in the answers themselves: "b 94 +/-1 g per 100 g" and "Answers of 13 ±1 g are acceptable." (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1138).
+Temporal scope: CURRENT — AUTHORITATIVE.
+
+### GAP-063 — The Unit 3 CHEMISTRY ONLY question battery is a graded assessment surface inside the book, with mark tariffs on the chemistry-only tier
+
+**Claim:** The Unit 3 question battery contains a CHEMISTRY ONLY band that prices the chemistry-only tier in examination format: the dynamic-equilibrium item asks students to choose two characteristics from four options whose distractors encode the constant-versus-equal distinction, and the catalyst item demands an explained answer about equilibrium position; the battery therefore lets the chemistry-only population self-assess at exam grain inside the book of record, extending the answer-infrastructure finding of GAP-026 from answers to a full graded battery with mark tariffs.
+**Evidence:** the battery frames the choice — "What are the characteristics of a reaction at dynamic equilibrium (choose two answers)?" with distractor "B The concentrations of the reactants and the products are always equal." against correct option "D The concentrations of the reactants and the products are constant." — and prices the catalyst item: "Reactions can be accelerated using a catalyst. Write down and explain the effect of a catalyst on the position of equilibrium in this reaction." — the whole battery chunk opening at its own CHEMISTRY ONLY band (SRC-BOOK-4CH1-SB1, parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 861).
+Temporal scope: CURRENT — AUTHORITATIVE.
 ## Evidence / Source Basis
 
 Primary evidence: SRC-SPEC-4CH1 (the Issue 3 change summary, p3, and the SAMs
@@ -204,4 +221,4 @@ as absent; no claim here depends on their contents.
 GENERATED under SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9) from this artifact's
 evidence pack alone; validator of record tools/sib @ 357ace0a; claim QA binds
 every citation to a pack excerpt. Research artifact — evidence-backed, not
-canonical educational truth.
+canonical educational truth. Deepened under SIB-CHEMISTRY_4CH1-RUN-022 (D3 REQUIRED-core depth pass, tranche 6: GAP): +3 records (GAP-061..GAP-063), zero-append mining of the carried pack of record (origin RUN-009) — unmined-window authoring for seven artifacts and held-window authoring with fresh claims for GAP-03, whose unmined surface was exhausted (1/29 excerpts unmined pre-run); every quote self-bound to raw excerpt text before the official gate; claim QA re-bound all citations.
