@@ -1,0 +1,53 @@
+{
+ "battery": "cie_rejoin2_dup_repair_check",
+ "task": "T-SPECS-CIE-REJOIN-2 run-002",
+ "base": "7765e43fa7b76fe73de4f0c693a1d15c56eb20e9",
+ "verdict": "PASS",
+ "checks": [
+  {
+   "id": "DR1",
+   "verdict": "PASS",
+   "detail": "HEAD: entries 1759, dup items 11 (inventory 11), surplus 12, twins identical True"
+  },
+  {
+   "id": "DR2",
+   "verdict": "PASS",
+   "detail": "per-lane deltas exact, deep-equal outside later-twin removals, spec-links delta == ['spec-links/cie-as-business-23.json', 'spec-links/cie-as-computer-science-19.json', 'spec-links/cie-as-maths-20-mechanics.json']"
+  },
+  {
+   "id": "DR3",
+   "verdict": "PASS",
+   "detail": "tree: entries 1747 (1759->1747), dup items 0, surplus 0"
+  },
+  {
+   "id": "DR4",
+   "verdict": "PASS",
+   "detail": "manifest sha256 stable 85a797b7f198ff89\u2026"
+  },
+  {
+   "id": "DR5",
+   "verdict": "PASS",
+   "detail": "engine re-run refusal path performs zero writes (tree byte-stable)"
+  },
+  {
+   "id": "DR6",
+   "verdict": "PASS",
+   "detail": "all 11 repaired items retain exactly the pre-state first payload (the one the consume's per-official_id attach already used) \u2014 v2 outcome unchanged, zero v2 contact"
+  }
+ ],
+ "census": {
+  "pre": {
+   "entries": 1759,
+   "dup_items": 11,
+   "surplus": 12
+  },
+  "post": {
+   "entries": 1747,
+   "dup_items": 0,
+   "surplus": 0
+  }
+ },
+ "laws": {
+  "consume_inertness": "T-SPECS-CIE-GATE-2 RECORD: 'the consume lane dedups per official_id at attach time'; T-SPECS-CIE-CONSUME-2: 'the engine's strongest-wins per-code dedup collapses them at attach'"
+ }
+}
