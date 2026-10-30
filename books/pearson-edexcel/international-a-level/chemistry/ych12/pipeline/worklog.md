@@ -523,3 +523,49 @@ Stage Summary:
   records self-heal)**, todo 343; single-round record +194; the re-seed law
   and the reconciliation are now repo-resident tooling (R-013 closed).
   Open follow-ups: pack-floor fold fix (own gate), serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-6
+Agent: Z.ai (main, zai-web)
+Task: "continue" (2026-10-30, zai-web, trace 1a18d9ef7edd1c41) — continue the v2
+polish grind, land whatever delta survives the quota, keep the §9 playbook
+current.
+
+Work Log:
+- SANDBOX RESET #10 recovery, FASTEST YET: the base image ships a clone of
+  this very repo (`gh_repos/syllabai-resources`, blob:none) — reused it
+  instead of re-cloning; fetch had one 300 s stall then completed, ff'd to
+  the tip (parallel lanes: PR #243), sparse-checkout switched to NON-CONE
+  mode (cone rejects the file-level patterns: books/README.md, CATALOG.md,
+  lane README/worklog) with a minimal pattern set — docling_pages_v2 and
+  the 72 MB source PDF stay excluded. Recovery used ONLY repo-resident
+  tooling this time: env copied from `ych12_v2_env_template.sh`,
+  workspace seeded by `ych12_v2_reseed.sh` (R-013/R-014's closed action
+  paying off — nothing had to be recreated from memory).
+- GRIND: 8 windows, STEADY-CRACK REGIME — every window probed clear within
+  0-2 attempts, harvested ~4 min, walled (2x429): +30/+28/+30/+31/+29/
+  +28/+30/+30 records (26/25/26/28/24/22/26/27 ok each, ~3 err-cum-429 per
+  window, rejects 0-3). Session +204 ok net-new (420->624) = the SECOND
+  consecutive record round (CONT-V2-5 +194). Evidence 724 raw records
+  (624 ok / 46 rejected / 54 error-cum-429); 670/801 done, todo 131 —
+  the grind is now ~83.5% applied with only 131 resumable ids left.
+- LANDING ON REPO-RESIDENT TOOLING END-TO-END: reseed.sh (corpus <- pristine,
+  report <- landed keeping by_design_gaps, baseline <- landed corpus) ->
+  merge (llm_repaired 624, text changed 620, anchor PASS 0 drift) ->
+  reconcile ALL PASS (net-new 204, overlap 420 re-applied from pristine,
+  R1-R6 clean) -> audit 0 Unicode-unit regressions (residual 18+ runs
+  genuine chemistry words: hydroxybutanenitrile, disproportionation, …,
+  benign class) -> validate ALL CHECKS PASSED (EP 10/10) — and the same
+  validate re-run against the REPO copy post-copy (ALL CHECKS PASSED,
+  gaps True, polished 624, changed 620).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 420->624) + evidence/llm_repairs_ych12_v2.jsonl (724
+  records); ledgers same commit: lane README, CATALOG row 12 + §3.6,
+  playbook R-015 + changelog v1.12. No new L-entries, no new errata
+  (E-007 headroom 2500 untouched — no near-max chunk repaired this round).
+
+Stage Summary:
+- v2 polish R1 at **624/801 applied (670 done incl. 46 rejected, 54 error
+  records self-heal)**, todo 131; two record rounds back-to-back (+194,
+  +204); recovery and landing now fully repo-resident. Open follow-ups:
+  finish the last 131 ids, pack-floor fold fix (own gate), serving lane.

@@ -1012,6 +1012,31 @@ E-ID they correct)*
   (E-007 is an errata, not a lesson — the playbook's bounds table itself
   is unchanged). Errata filed: E-007.
 
+- **R-015** (2026-10-30, T-PARSE-YCH12-2 POLISH-CONT-V2-6, YCH12 SB2 v2 polish
+  continuation): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  AND re-run green against the repo copy (v2 grammar, EP 10/10); LLM polish
+  R1-v2: 801 staged, cumulative **624 applied** (624 flagged, 620 text
+  changed), 46 rejected (guard; raws in evidence), 54 error-cum-429
+  (self-heal on resume; 670/801 done, todo 131); this session 8 windows in
+  a STEADY-CRACK regime — every window probed clear within 0–2 attempts,
+  harvested ~4 min, walled (+30/+28/+30/+31/+29/+28/+30/+30 records) — the
+  mildest wall cadence of the grind so far. **Second consecutive record
+  round: +204 net-new ok** (420 → 624; CONT-V2-5 +194). **RECOVERY
+  FASTEST YET**: reset #10's base image ships a clone of this repo —
+  reused instead of re-cloning (one 300 s fetch stall, then ff to tip);
+  sparse-checkout switched cone → NON-CONE (cone mode rejects file-level
+  patterns; minimal pattern set keeps docling_pages_v2 + the 72 MB source
+  PDF excluded); recovery consumed ONLY repo-resident tooling — env from
+  `ych12_v2_env_template.sh`, workspace seeded by `ych12_v2_reseed.sh`
+  (R-013/R-014's closed action paying off: nothing recreated from
+  memory). Landing end-to-end on the resident chain: reseed → merge
+  (624/620, anchor 0 drift) → reconcile ALL PASS (net-new 204, overlap
+  420 re-applied from pristine) → audit 0 Unicode-unit regressions →
+  validate ALL CHECKS PASSED ×2 (workspace + repo copy). Deviations from
+  playbook: none. Lessons appended: none new. Errata filed: none new
+  (E-007 headroom 2500 untouched — no near-max chunk repaired this round).
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -1021,6 +1046,17 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-30 — v1.12 (T-PARSE-YCH12-2 POLISH-CONT-V2-6):** YCH12 v2 polish
+  grind continued and landed (R-015: cumulative **624/801 applied**, net-new
+  **+204** this landing — the second consecutive record round, +194 before
+  it; anchor 0 drift, reconciliation + audit + validator all green ×2,
+  resumable at todo 131 — the grind is ~83.5% done). **Recovery fastest
+  yet**: the sandbox base image ships a clone of this repo (reused, not
+  re-cloned; sparse-checkout cone → non-cone for file-level patterns) and
+  the whole landing ran on the repo-resident tooling (env template +
+  reseed law + reconcile, R-013/14's closed action paying off). Ledgers:
+  CATALOG row 12 + §3.6 updated; lane README + worklog same commit.
 
 - **2026-10-30 — v1.11 (T-PARSE-YCH12-2 POLISH-CONT-V2-5):** YCH12 v2 polish
   grind continued and landed (R-014: cumulative **420/801 applied**, net-new
