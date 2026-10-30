@@ -408,8 +408,9 @@ def main() -> int:
     pre_blocks = json.dumps({k: v for k, v in manifest.items()
                              if k not in ("courses", "generated_utc")},
                             sort_keys=True)
-    manifest["generated_utc"] = STAMP
-    manifest["cie_wave3_rejoin"] = {
+    if touched_lanes:
+        manifest["generated_utc"] = STAMP
+        manifest["cie_wave3_rejoin"] = {
         "lane": "T-SPECS-CIE-REJOIN-3",
         "review_state": "SUGGESTED",
         "lanes": len(touched_lanes),
@@ -417,14 +418,28 @@ def main() -> int:
         "operator_directive": f"{DIRECTIVE} (gateway trace {TRACE})",
         "fires": FIRES,
     }
-    manifest_path.write_text(
-        json.dumps(manifest, indent=1, ensure_ascii=False) + "\n",
-        encoding="utf-8")
+        manifest_path.write_text(
+            json.dumps(manifest, indent=1, ensure_ascii=False) + "\n",
+            encoding="utf-8")
     drifted = [k for k, v in json.loads(pre_blocks).items()
                if manifest.get(k) != v]
     if drifted:
         print("FATAL: pre-existing manifest blocks drifted:", drifted)
         return 1
+
+    if not touched_lanes:
+        print("no-op re-run: sidecars, manifest and sheet byte-identical")
+        STATS_OUT.write_text(json.dumps({
+            "lane": "T-SPECS-CIE-REJOIN-3", "stamp": STAMP, "pin": sha,
+            "lanes": {}, "totals": {"pending_refs_before": refs_total,
+                                    "unique_pairs": len(pairs),
+                                    "resolved_pairs": 0,
+                                    "ambiguous_pairs": 0,
+                                    "stays": dict(stays),
+                                    "verdict_evaluated_pairs":
+                                        verdict_evaluated_pairs},
+        }, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+        return 0
 
     sheet = {"schema": "syllabai.cie-rejoin-resolutions/1.0",
              "lane": "T-SPECS-CIE-REJOIN-3",
