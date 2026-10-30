@@ -305,7 +305,7 @@ def main() -> int:
         for v in sheets[sheet_name]["verdicts"]:
             l = v["lane"]
             landed = any(c.get("official_id") == v["official_id"]
-                         and c.get("tier") == v["tier"]
+                         and str(c.get("official_code")) == str(v["official_code"])
                          for it in sidecars[l]["items"].values()
                          for c in it.get("codes") or [])
             if not landed:
