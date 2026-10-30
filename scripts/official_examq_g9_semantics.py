@@ -224,3 +224,70 @@ def overall_gate(leg_receipts):
     if reasons:
         return "REVIEW", reasons
     return OUTCOME_PASS, []
+
+
+# ── the F120 label-visibility law (shared contract helpers) ──────────────────
+#
+# F119 served the printed part label ("(a)", "(a)(i)") as a first-class field
+# (sourcePaper.questionPart) but left the G9 rendered gate without a
+# label-visibility case — the defect class was invisible to the gate BY
+# CONSTRUCTION (LEDGER F119 "QUEUED" item). benchmark_version 3 adds the
+# frozen part_labels contract; these helpers are the SINGLE SOURCE of the
+# label grammar, shared by the casegen (derivation), the static check
+# (contract enforcement on both layers) and the render check (rendered
+# assertion — the same pattern string is injected into the audit JS).
+
+import re as _re
+
+# "(a)" / "(a)(i)" / "(a)(ii)" — 1-3 parenthesized [a-z0-9]{1,5} groups,
+# exactly the exporter's printed_part_label() output grammar (F119) and the
+# hub lib/part-label.ts attested shapes. The pattern string is JS-compatible
+# and is injected verbatim into the render check's audit JS.
+LABEL_GRAMMAR_SRC = "^(?:\\([a-z0-9]{1,5}\\)){1,3}$"
+LABEL_GRAMMAR_RE = _re.compile(LABEL_GRAMMAR_SRC)
+_LABEL_SEG_RE = _re.compile(r"^[a-z0-9]{1,5}$")
+
+# offp_<series>_<paper>_<qn>[-<path>] — both shapes attested (735 path-less).
+OFFP_ID_RE = _re.compile(r"^offp_[0-9a-z-]+_[0-9a-z-]+_(\d{1,2})(?:-([0-9a-z-]+))?$")
+
+
+def wrap_label_segments(segs):
+    """"(a)(i)" from path/label segments — None when any segment is off-grammar."""
+    segs = list(segs or [])
+    if not segs or len(segs) > 3:
+        return None
+    if not all(_LABEL_SEG_RE.match(s) for s in segs):
+        return None
+    return "".join(f"({s})" for s in segs)
+
+
+def label_from_offp_id(pid):
+    """The label a part's OWN IDENTITY carries (the G-E6 pin source).
+
+    Returns (label, state): label is the re-wrapped id path or None, and
+    state is "labelled" | "pathless" | "off-grammar" — off-grammar ids never
+    guess (fail-closed law, same as hub lib/part-label.ts)."""
+    m = OFFP_ID_RE.match(pid or "")
+    if not m:
+        return None, "off-grammar"
+    if not m.group(2):
+        return None, "pathless"
+    return wrap_label_segments(m.group(2).split("-")), "labelled"
+
+
+def derive_label_from_part_number(part_number):
+    """The corpus-side derivation law (mirrors exporter printed_part_label,
+    F119): the part_number minus its leading question number. None IFF the
+    part_number carries no printed sub-part label (whole-question slices)."""
+    m = _re.match(r"^\d+(.*)$", (part_number or "").strip())
+    rest = (m.group(1) if m else "").strip()
+    if not rest or not LABEL_GRAMMAR_RE.match(rest):
+        return None
+    return rest
+
+
+def bundle_label_of(part):
+    """The served first-class label field of a bundle part (or None)."""
+    sp = part.get("sourcePaper") or {}
+    qp = (sp.get("questionPart") or "").strip()
+    return qp or None

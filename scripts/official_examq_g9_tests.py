@@ -30,6 +30,15 @@ asset-byte guard (official_examq_asset_bytes.py):
   truncated PNG, wrong signature, UTF-8-mojibake binary (C2 89 50 4E 47),
   empty file, dangling asset reference in a topic.json.
 
+  F120 label-visibility contract (benchmark v3):
+    - the shared label grammar/derivation law (semantics helpers) on attested
+      and off-grammar shapes;
+    - the static legs enforce the frozen part_labels samples + the
+      labelled_parts census on BOTH layers (served field / derivation source);
+    - a mutated SERVED label FAILs the bundles leg; the mutated-label control
+      through the real corpus CLI DETECTs it while the original still derives;
+    - the committed benchmark contract of record carries the v3 label shape.
+
 Usage: python3 scripts/official_examq_g9_tests.py
 Exit: 0 all green; 1 any failure.
 """
@@ -50,6 +59,11 @@ from official_examq_g9_semantics import (  # noqa: E402
     LEG_STATIC_CORPUS, LEG_STATIC_BUNDLES, LEG_RENDERED,
     OUTCOME_PASS, OUTCOME_FAIL, OUTCOME_NOT_RUN, OUTCOME_NOT_APPLICABLE,
     REQ_REQUIRED, REQ_DELEGATED, REQ_EVIDENCE,
+    LABEL_GRAMMAR_SRC, LABEL_GRAMMAR_RE, wrap_label_segments, label_from_offp_id,
+    derive_label_from_part_number, bundle_label_of,
+)
+from official_examq_g9_static_check import (  # noqa: E402
+    mutate_label, offp_part_number,
 )
 from official_examq_asset_bytes import (  # noqa: E402
     validate_asset_bytes, validate_asset_file, AssetByteError, publish_git_blob,
@@ -121,22 +135,37 @@ def make_case(case_id="mini-1p", mutated=False):
         "url_path": "/courses/igcse-physics-19/past-papers/x",
         "fact_parts": [{"part_id": "offp_2023-06_1p_1-a", "snippet": snip}],
         "solution_facts": [{"part_id": "offp_2023-06_1p_1-a", "snippet": SOL_SNIPPET}],
-        "expected": {"questions": 1, "parts": 1, "marks_total": 3, "mcq_parts": 0,
+        "part_labels": [
+            {"part_id": "offp_2023-06_1p_1-b-i", "label": "(b)(i)",
+             "text_start": "The pencil has a weight of 0.16 N.", "kind": "labelled"},
+            {"part_id": "offp_2023-06_1p_2", "label": None,
+             "text_start": "State one hazard of damaged wiring.", "kind": "null"},
+        ],
+        "expected": {"questions": 1, "parts": 3, "marks_total": 6, "mcq_parts": 0,
                      "mcq_keyed": 0, "crop_assets": 1, "crop_required_stubs": 0,
-                     "mark_points": 2, "crop_imgs_inlined": 1, "solutions": 1},
+                     "mark_points": 2, "crop_imgs_inlined": 1, "solutions": 3,
+                     "labelled_parts": 2},
     }
 
 
 CORPUS_TOPIC = {
     "questions": [{
         "id": "offq_2023-06_1p_1", "stem_md": "A fuse wire is used in a plug.",
-        "total_marks": 3,
+        "total_marks": 6,
         "parts": [{
             "id": "offp_2023-06_1p_1-a", "part_number": "1(a)", "marks": 3,
             "problem_md": "A fuse wire is used in a plug.\n" + FACT_SNIPPET + " State the resistance.",
             "solution_md": SOL_SNIPPET,
             "assets": [{"kind": "crop", "path": "assets/asset_1_a_fig.png",
                         "rawUrl": "https://raw.example/asset_1_a_fig.png"}],
+        }, {
+            "id": "offp_2023-06_1p_1-b-i", "part_number": "1(b)(i)", "marks": 2,
+            "problem_md": "The pencil has a weight of 0.16 N. State the moment.",
+            "solution_md": "substitution into the formula",
+        }, {
+            "id": "offp_2023-06_1p_2", "part_number": "2", "marks": 1,
+            "problem_md": "State one hazard of damaged wiring.",
+            "solution_md": "any sensible hazard",
         }],
     }]
 }
@@ -144,14 +173,25 @@ CORPUS_TOPIC = {
 BUNDLE_TOPIC = {
     "slug": "official-4ph1-1p-2023-06",
     "questions": [{
-        "id": "offq_2023-06_1p_1", "stemMd": "A fuse wire is used in a plug.", "totalMarks": 3,
+        "id": "offq_2023-06_1p_1", "stemMd": "A fuse wire is used in a plug.", "totalMarks": 6,
         "parts": [{
             "id": "offp_2023-06_1p_1-a", "marks": 3,
+            "sourcePaper": {"date": "June 2023", "number": "4PH1/1P", "questionPart": "(a)"},
             "problemMd": "A fuse wire is used in a plug.\n![fig](https://raw.example/asset_1_a_fig.png)\n"
                          + FACT_SNIPPET + " State the resistance.",
             "solutionMd": SOL_SNIPPET,
             "assets": [{"kind": "crop", "path": "igcse-physics-19/2023-06/4PH1-1P/assets/asset_1_a_fig.png",
                         "rawUrl": "https://raw.example/asset_1_a_fig.png"}],
+        }, {
+            "id": "offp_2023-06_1p_1-b-i", "marks": 2,
+            "sourcePaper": {"date": "June 2023", "number": "4PH1/1P", "questionPart": "(b)(i)"},
+            "problemMd": "The pencil has a weight of 0.16 N. State the moment.",
+            "solutionMd": "substitution into the formula",
+        }, {
+            "id": "offp_2023-06_1p_2", "marks": 1,
+            "sourcePaper": {"date": "June 2023", "number": "4PH1/1P", "questionPart": None},
+            "problemMd": "State one hazard of damaged wiring.",
+            "solutionMd": "any sensible hazard",
         }],
     }]
 }
@@ -308,6 +348,112 @@ def test_scenario_6_static_pass_rendered_missing():
     ov, reasons = overall_gate(legs)
     check("overall NOT PASS (missing leg)", ov != OUTCOME_PASS, ov)
     check("reason names the missing leg", any(LEG_RENDERED in r for r in reasons), str(reasons))
+
+
+# ── Part A-F120: the label-visibility contract (benchmark v3) ────────────────
+
+def test_f120_label_contract(tmp):
+    print("[F120] the printed-label contract: law, both static layers, controls")
+
+    # a. the shared derivation/grammar law (single source in semantics)
+    lab, st = label_from_offp_id("offp_2023-06_2p_1-b-i")
+    check("id slug derives (b)(i)", lab == "(b)(i)" and st == "labelled", f"{lab!r} {st!r}")
+    lab2, st2 = label_from_offp_id("offp_2018-06_01_1")
+    check("path-less id is honestly null", lab2 is None and st2 == "pathless", f"{lab2!r} {st2!r}")
+    lab3, st3 = label_from_offp_id("offp_weird")
+    check("off-grammar id never guesses", lab3 is None and st3 == "off-grammar", f"{lab3!r} {st3!r}")
+    check("segment over 5 chars refused", wrap_label_segments(["abcdef"]) is None)
+    check("4+ group labels refused by grammar", not LABEL_GRAMMAR_RE.match("(a)(b)(c)(d)"))
+    check("grammar source is JS-compatible (no python-only syntax)",
+          "(?P<" not in LABEL_GRAMMAR_SRC and "\\\\" not in LABEL_GRAMMAR_SRC, LABEL_GRAMMAR_SRC)
+    check("part_number tail derivation (1(b)(i) -> (b)(i))",
+          derive_label_from_part_number("1(b)(i)") == "(b)(i)")
+    check("bare part_number derives None", derive_label_from_part_number("2") is None)
+    check("off-grammar tail derives None (never invented)",
+          derive_label_from_part_number("1(a)(b)(c)(d)") is None and derive_label_from_part_number("1 a i") is None)
+    check("mutate_label produces a plausible-but-wrong label",
+          mutate_label("(b)(i)") == "(z)(i)" and mutate_label("(b)(i)") != "(b)(i)")
+    check("offp_part_number mapping (shared with the controls)",
+          offp_part_number("offp_2023-06_2p_12-b-i") == "12(b)(i)")
+
+    # b. both static layers enforce the frozen samples + census
+    corpus, bundles, cases = build_world(tmp / "f120")
+    r1 = run(STATIC, "--corpus", corpus, "--cases", cases)
+    check("corpus leg green with label contract", r1.returncode == 0, r1.stdout[-400:] + r1.stderr[-200:])
+    crec = json.loads((corpus / "g9-static-receipt.local.json").read_text())
+    cchecks = crec["cases"][0]["checks"]
+    check("corpus label check present + PASS",
+          any(c["id"] == "label:offp_2023-06_1p_1-b-i" and c["outcome"] == OUTCOME_PASS for c in cchecks),
+          str([c["id"] for c in cchecks]))
+    check("corpus null-label check present + PASS",
+          any(c["id"] == "label-null:offp_2023-06_1p_2" and c["outcome"] == OUTCOME_PASS for c in cchecks))
+    check("corpus labels-field-count is delegated (served-field property)",
+          any(c["id"] == "labels-field-count" and c["outcome"] == OUTCOME_NOT_APPLICABLE
+              and "static-bundles" in c.get("responsibility", "") for c in cchecks))
+    r2 = run(STATIC, "--bundles", bundles, "--cases", cases, cwd=tmp / "f120")
+    check("bundles leg green with label contract", r2.returncode == 0, r2.stdout[-400:] + r2.stderr[-200:])
+    brcp = tmp / "f120" / "g9-static-receipt-bundles.local.json"
+    brec = json.loads(brcp.read_text())
+    bchecks = brec["cases"][0]["checks"]
+    check("bundles labels-field-count REQUIRED + PASS",
+          any(c["id"] == "labels-field-count" and c["outcome"] == OUTCOME_PASS
+              and c.get("requirement", REQ_REQUIRED) == REQ_REQUIRED for c in bchecks))
+    check("bundles served-label check pins field AND id slug",
+          any(c["id"] == "label:offp_2023-06_1p_1-b-i" and c["outcome"] == OUTCOME_PASS for c in bchecks))
+    check("bundles null-class check PASS",
+          any(c["id"] == "label-null:offp_2023-06_1p_2" and c["outcome"] == OUTCOME_PASS for c in bchecks))
+
+    # c. a mutated SERVED label FAILs the bundles leg (the class the gate now sees)
+    bundles_m = tmp / "f120m"
+    bundles_m.mkdir()
+    bt = json.loads(json.dumps(BUNDLE_TOPIC))
+    bt["questions"][0]["parts"][1]["sourcePaper"]["questionPart"] = "(z)(i)"
+    (bundles_m / "igcse-physics-19").mkdir()
+    (bundles_m / "igcse-physics-19" / "official-papers.json").write_text(json.dumps([bt]))
+    r3 = run(STATIC, "--bundles", bundles_m, "--cases", cases, cwd=tmp / "f120m")
+    check("mutated served label FAILs the bundles leg (exit 1)", r3.returncode == 1, r3.stdout[-300:])
+    mrec = json.loads((tmp / "f120m" / "g9-static-receipt-bundles.local.json").read_text())
+    mchk = [c for c in mrec["cases"][0]["checks"] if c["id"] == "label:offp_2023-06_1p_1-b-i"][0]
+    check("mutated label recorded as FAIL naming the drift", mchk["outcome"] == OUTCOME_FAIL
+          and "(z)(i)" in mchk["detail"], str(mchk))
+
+    # d. mutated-label control through the real corpus CLI -> DETECTED (exit 0)
+    ctl_out = tmp / "f120" / "mutated-label-control.receipt.json"
+    r4 = run(STATIC, "--corpus", corpus, "--cases", cases, "--negative-control-label",
+             "--receipt-out", ctl_out)
+    check("mutated-label control DETECTED", r4.returncode == 0 and "DETECTED" in r4.stdout,
+          r4.stdout + r4.stderr)
+    lrec = json.loads(ctl_out.read_text()) if ctl_out.exists() else {}
+    check("label control receipt honest (status DETECTED, control=mutated-label)",
+          lrec.get("status") == "DETECTED" and lrec.get("control") == "mutated-label", str(lrec))
+
+    # e. the committed contract of record carries the v3 label shape
+    committed = HERE.parent / "Official-ExamQuestion" / "benchmark" / "cases.json"
+    if committed.exists():
+        cb = json.loads(committed.read_text())
+        check("committed contract is benchmark_version 3", cb.get("benchmark_version") == 3,
+              str(cb.get("benchmark_version")))
+        bad = [c["id"] for c in cb["cases"]
+               if not c.get("part_labels") or "labelled_parts" not in c.get("expected", {})]
+        check("every case freezes part_labels + labelled_parts", not bad, str(bad))
+        bads = [(c["id"], s.get("part_id")) for c in cb["cases"] for s in c.get("part_labels") or []
+                if s.get("label") and not LABEL_GRAMMAR_RE.match(s["label"])]
+        check("every frozen labelled sample is on the attested grammar", not bads, str(bads))
+        drift = []
+        for c in cb["cases"]:
+            for s in c.get("part_labels") or []:
+                id_lab, state = label_from_offp_id(s["part_id"])
+                if s.get("label"):
+                    if id_lab != s["label"]:
+                        drift.append((c["id"], s["part_id"], "label vs id slug"))
+                elif state != "pathless":
+                    drift.append((c["id"], s["part_id"], f"null sample but id state {state}"))
+        check("frozen samples resolve on their own identity (G-E6 pin)", not drift, str(drift[:3]))
+        census_bad = [c["id"] for c in cb["cases"]
+                      if sum(1 for s in c.get("part_labels") or [] if s.get("label")) < 1]
+        check("every case freezes at least one labelled sample", not census_bad, str(census_bad))
+    else:
+        check("committed contract present", False, f"missing: {committed}")
 
 
 def test_scenario_7_negative_controls(tmp):
@@ -510,6 +656,7 @@ def main():
         test_scenario_5_renderer_unavailable()
         test_scenario_6_static_pass_rendered_missing()
         test_scenario_7_negative_controls(tmp)
+        test_f120_label_contract(tmp)
         test_asset_formats(tmp)
         test_corpus_scan(tmp)
         test_end_to_end_aggregate(tmp)

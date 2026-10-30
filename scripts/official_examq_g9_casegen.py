@@ -22,8 +22,21 @@ import argparse
 import json
 import re
 import sys
+from pathlib import Path
 
-BENCHMARK_VERSION = 2  # F106 bump: maths-02r-2019-06 crop census moved with the run-012 figure wave (073639f) + the v2 serving sync — re-derived from the bundles of record
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from official_examq_g9_semantics import (  # noqa: E402 — the F120 shared label law
+    LABEL_GRAMMAR_RE, bundle_label_of, label_from_offp_id,
+)
+
+# F120 bump: the label-visibility contract. The G9 rendered gate had NO
+# part-label visibility case when the printed labels shipped (F119 "QUEUED"
+# follow-up of record) — the same blind spot that let the original defect
+# reach learners. v3 freezes per-case part_labels samples (labelled + null
+# classes) and the labelled_parts census; every v2 expectation is carried
+# over byte-identical (the F119 label emission touched ONLY
+# sourcePaper.questionPart — zero content deltas per G-E1).
+BENCHMARK_VERSION = 3
 VALIDATOR_VERSION = "g9-render-check/0.1"
 
 # (case_id, lane, course, topic_slug_suffix)
@@ -67,6 +80,63 @@ def norm(s):
 
 def slugify(s):
     return re.sub(r"^-+|-+$", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower().strip()))
+
+
+def md_first_prose(md, minlen=14, maxlen=110):
+    """F120: the first rendered prose of a part's problemMd — the exact words
+    the printed label sits in front of on the SAME rendered line. None when
+    the head of the md is not plain prose (TeX/markdown/table/option-line/
+    figure-first heads, or an md that carries its own parenthesized label —
+    any of which would make the label-adjacency assertion ambiguous)."""
+    s = norm(md or "")
+    if not s:
+        return None
+    s = re.sub(r"^(?:\*{1,2}|#{1,6}|_)+\s*", "", s).strip()
+    if not s or s.startswith(("![", "[!", "<", "|")):
+        return None
+    if re.match(r"^\([a-z0-9]{1,5}\)", s):  # md carries its own printed label
+        return None
+    if re.match(r"^[A-Fa-f][).]\s", s):  # option-line head (MCQ inline options)
+        return None
+    sent = re.split(r"(?<=[.?!])\s+", s)[0].strip()
+    if not (minlen <= len(sent) <= maxlen):
+        return None
+    if re.search(r"[$<>|_\\*]|https?:", sent):
+        return None
+    return sent
+
+
+def pick_label_samples(parts, want_labelled=3):
+    """F120: the frozen part_labels sample — deterministic, risk-class-driven:
+    one roman-nested label (the (a)(i) class the original defect mislabelled),
+    one labelled MCQ part, one further labelled part, plus up to ONE null
+    (path-less) part — the fail-closed class whose rendered surface must show
+    NO invented chip. Every sample needs a plain-prose first text (md_first_prose)."""
+    roman = mcq = single = null = None
+    for p in parts:
+        pid = p.get("id") or ""
+        lab = bundle_label_of(p)
+        label, state = label_from_offp_id(pid)
+        ts = md_first_prose(p.get("problemMd"))
+        if lab is None or state == "pathless":
+            if null is None and ts and state == "pathless" and lab is None:
+                null = {"part_id": pid, "label": None, "text_start": ts, "kind": "null"}
+            continue
+        if ts is None or not LABEL_GRAMMAR_RE.match(lab):
+            continue
+        if label is not None and label != lab:
+            continue  # G-E6 drift at derivation time — not a valid sample
+        rec = {"part_id": pid, "label": lab, "text_start": ts, "kind": "labelled"}
+        segs = (label_from_offp_id(pid)[0] or "").count("(") if label else 0
+        if roman is None and segs >= 2:
+            roman = rec
+        elif mcq is None and p.get("questionType") == "multiple_choice":
+            mcq = rec
+        elif single is None:
+            single = rec
+        if all(x is not None for x in (roman, mcq, single, null)):
+            break
+    return [x for x in (roman, mcq, single, null) if x]
 
 
 def pick_facts(parts, want=3, minlen=40, maxlen=110):
@@ -193,10 +263,15 @@ def main():
                 "mark_points": sum(len(p.get("markPoints") or []) for p in parts),
                 "crop_imgs_inlined": imgs_expected,
                 "solutions": sum(1 for p in parts if (p.get("solutionMd") or "").strip()),
+                # F120: the labelled-parts census of the case (parts whose
+                # served sourcePaper.questionPart is non-null) — enforced at
+                # the static-bundles leg AND as the rendered chip census.
+                "labelled_parts": sum(1 for p in parts if bundle_label_of(p)),
             },
             "fact_parts": pick_facts(parts),
             "solution_facts": pick_solution_facts(parts),
             "mcq_interaction": mcq,
+            "part_labels": pick_label_samples(parts),
         }
         if missing_inline:
             case["expected"]["crop_inline_gaps"] = missing_inline
@@ -219,7 +294,8 @@ def main():
         print(f"  {c['id']}: q={e['questions']} parts={e['parts']} marks={e['marks_total']} "
               f"mcq={e['mcq_parts']}/{e['mcq_keyed']} crops={e['crop_assets']} imgs_inline={e['crop_imgs_inlined']} "
               f"stubs={e['crop_required_stubs']} facts={len(c['fact_parts'])} solfacts={len(c['solution_facts'])} "
-              f"mcq_ixn={'Y' if c['mcq_interaction'] else 'N'} url={c['url_path']}")
+              f"mcq_ixn={'Y' if c['mcq_interaction'] else 'N'} labels={e['labelled_parts']}/{e['parts']} "
+              f"samples={len(c['part_labels'])} url={c['url_path']}")
 
 
 if __name__ == "__main__":

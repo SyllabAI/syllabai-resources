@@ -45,10 +45,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from official_examq_g9_semantics import (  # noqa: E402
     check as law_check, case_disposition, leg_disposition,
     OUTCOME_PASS, OUTCOME_FAIL, OUTCOME_NOT_RUN, OUTCOME_NOT_APPLICABLE,
+    bundle_label_of, derive_label_from_part_number, label_from_offp_id,
 )
 from official_examq_asset_bytes import validate_asset_file, AssetByteError  # noqa: E402
 
-VALIDATOR_VERSION = "g9-static-check/0.2"
+VALIDATOR_VERSION = "g9-static-check/0.3"
 
 # Layer delegation of record (benchmark/README.md "Layer ownership"): these
 # properties are exporter/served-layer text or renderer-runtime behavior; the
@@ -164,6 +165,28 @@ def not_run(name, detail):
     return law_check(OUTCOME_NOT_RUN, cid=name, area="static", detail=detail)
 
 
+def offp_part_number(pid):
+    """offp_2023-06_2p_1-b-i -> "1(b)(i)" (the corpus part_number shape;
+    shared by the mutated-fact and mutated-label negative controls)."""
+    if not (pid or "").startswith("offp_"):
+        return pid
+    segs = pid[len("offp_"):].split("_")
+    m = re.match(r"^(\d+)(?:-(.*))?$", segs[-1])
+    if not m:
+        return pid
+    return m.group(1) if not m.group(2) else m.group(1) + "(" + m.group(2).replace("-", ")(") + ")"
+
+
+def mutate_label(label):
+    """A plausible-but-wrong label: the first segment's body replaced by 'z'
+    (a body no attested segment in the sampled slices carries)."""
+    segs = re.findall(r"\(([a-z0-9]{1,5})\)", label or "")
+    if not segs:
+        return None
+    segs[0] = "z"
+    return "".join(f"({s})" for s in segs)
+
+
 def delegated(name, detail, responsibility=RESP_SERVED_TEXT):
     """NOT_APPLICABLE here — the contract assigns the property to the named
     mandatory legs (never a silent pass; overall gate stays blocked until the
@@ -181,6 +204,10 @@ def main():
                     help="anti-gaming self-test: mutate the first frozen fact and prove "
                          "the corpus text layer REFUSES it while accepting the original "
                          "(exit 0 = control detected; exit 1 = harness integrity broken)")
+    ap.add_argument("--negative-control-label", action="store_true",
+                    help="F120 anti-gaming self-test: mutate the first frozen printed label "
+                         "and prove the corpus derivation layer REFUSES it while the original "
+                         "still derives (exit 0 = control detected; exit 1 = harness broken)")
     ap.add_argument("--receipt-out", default=None,
                     help="(negative-control mode) write an honest control receipt JSON here")
     args = ap.parse_args()
@@ -249,6 +276,49 @@ def main():
             sys.exit(0)
         ctl_out("DETECTED", "mutated fact refused, original accepted")
         print("negative control: DETECTED (mutated fact refused, original accepted)")
+        sys.exit(0)
+
+    if args.negative_control_label:
+        def ctl_out2(status, detail):
+            if args.receipt_out:
+                Path(args.receipt_out).write_text(json.dumps({
+                    "receipt_schema": "syllabai.g9-negative-control-receipt/0.1",
+                    "control": "mutated-label", "status": status,
+                    "validator_version": VALIDATOR_VERSION,
+                    "benchmark_version": bench.get("benchmark_version"),
+                    "corpus": args.corpus, "detail": detail,
+                }, indent=1))
+        # F120 anti-gaming law for the label contract: a MUTATED frozen label
+        # must be REFUSED by the corpus derivation layer (part_number tail is
+        # the derivation source of record — a label can never be invented),
+        # and the ORIGINAL label must still derive (non-vacuous probe).
+        labelled = [(c, s) for c in cases for s in (c.get("part_labels") or []) if s.get("label")]
+        if not labelled:
+            ctl_out2("INCONCLUSIVE", "no labelled sample in the contract")
+            sys.exit("negative control: no labelled sample in the contract")
+        case, sample = labelled[0]
+        parsed = parse_topic_slug(case["topic_slug"])
+        spec, paper, series = parsed
+        raw = load_corpus_topic(args.corpus, LANE_BY_SPEC[spec], series, paper)
+        if raw is None:
+            ctl_out2("INCONCLUSIVE", "corpus slice not found")
+            sys.exit("negative control: corpus slice not found")
+        t = TopicSource(raw, "corpus")
+        p = next((pp for pp in t.parts()
+                  if (pp.get("part_number") or "") == offp_part_number(sample["part_id"])), None)
+        if p is None:
+            ctl_out2("INCONCLUSIVE", "corpus part not found for " + sample["part_id"])
+            sys.exit("negative control: corpus part not found")
+        derived = derive_label_from_part_number(p.get("part_number"))
+        original, mutated = sample["label"], mutate_label(sample["label"])
+        if derived == mutated:
+            ctl_out2("HARNESS-BROKEN", f"mutated label {mutated!r} reported derivable for {p.get('part_number')!r}")
+            sys.exit("NEGATIVE-CONTROL FAILURE: mutated label derivable — harness integrity broken")
+        if derived != original:
+            ctl_out2("INCONCLUSIVE", f"original label {original!r} does not derive from part_number {p.get('part_number')!r} (got {derived!r})")
+            sys.exit("negative control: INCONCLUSIVE (original label does not derive at the corpus layer)")
+        ctl_out2("DETECTED", f"mutated label {mutated!r} refused, original {original!r} derives from {p.get('part_number')!r}")
+        print(f"negative control: DETECTED (mutated label {mutated!r} refused, original {original!r} derives)")
         sys.exit(0)
 
     receipt = {
@@ -385,6 +455,65 @@ def main():
                 else:
                     checks.append(check(f"solfact:{fact['part_id']}", False,
                                         f"EXPECTED SOLUTION FACT MISSING from the served text of {fact['part_id']} — solution-integrity violation"))
+            # F120 label-visibility contract (benchmark v3): the frozen printed
+            # label samples + the labelled-parts census. Bundle mode enforces the
+            # SERVED FIELD of record (sourcePaper.questionPart) against the frozen
+            # labels AND each part's own id slug (the G-E6 pin, echoed at the
+            # contract layer); corpus mode enforces the DERIVATION SOURCE (the
+            # part_number tail). Null samples pin the fail-closed class: no label
+            # IFF the identity is path-less — never an invented or index-guessed one.
+            label_samples = case.get("part_labels") or []
+            if "labelled_parts" in e or label_samples:
+                if mode == "bundle":
+                    census = sum(1 for p in parts if bundle_label_of(p))
+                    checks.append(check("labels-field-count",
+                                        census == e.get("labelled_parts"),
+                                        f"{census} labelled parts vs {e.get('labelled_parts')} frozen"))
+                else:
+                    checks.append(delegated(
+                        "labels-field-count",
+                        "sourcePaper.questionPart is the exporter-emitted serving field (F119); "
+                        "the corpus layer carries only the derivation source (part_number), "
+                        "checked per sample below — the served field is required and verified "
+                        "at the static-bundles leg and the rendered leg",
+                        RESP_SERVED_TEXT))
+            for smp in label_samples:
+                pid = smp["part_id"]
+                want = smp.get("label")
+                id_label, state = label_from_offp_id(pid)
+                p = lookup(pid)
+                if mode == "bundle":
+                    got = bundle_label_of(p) if p else None
+                    if want is None:
+                        ok = p is not None and got is None and state == "pathless"
+                        checks.append(check(f"label-null:{pid}", ok,
+                                            "" if ok else f"part {pid}: served label {got!r} with id state "
+                                            f"{state!r} — the fail-closed null class requires no served "
+                                            "label IFF the id is path-less"))
+                    else:
+                        ok = p is not None and got == want and id_label == want
+                        checks.append(check(f"label:{pid}", ok,
+                                            "" if ok else f"part {pid}: served {got!r} vs frozen {want!r} "
+                                            f"vs id-slug {id_label!r} (G-E6 pin echoed at the contract layer)"))
+                else:  # corpus mode — the derivation source of record
+                    pn = (p or {}).get("part_number")
+                    if p is None or not pn:
+                        checks.append(delegated(
+                            f"label:{pid}",
+                            "corpus part carries no part_number — the label derivation source is "
+                            "absent at this layer; required and verified at the static-bundles "
+                            "leg and the rendered leg",
+                            RESP_SERVED_TEXT))
+                        continue
+                    derived = derive_label_from_part_number(pn)
+                    if want is None:
+                        ok = derived is None and bool(re.match(r"^\d+$", pn.strip()))
+                        checks.append(check(f"label-null:{pid}", ok,
+                                            "" if ok else f"part_number {pn!r} must be bare for a path-less part"))
+                    else:
+                        ok = derived == want
+                        checks.append(check(f"label:{pid}", ok,
+                                            "" if ok else f"part_number {pn!r} derives {derived!r} vs frozen {want!r}"))
             # MCQ interaction spec must still match the attested key
             ix = case.get("mcq_interaction")
             if ix:

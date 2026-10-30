@@ -17,6 +17,20 @@ and validates the learner-facing rendered output per frozen benchmark case:
   E solution        — solution reveal carries the frozen solution fact snippet
                       (or, when a case carries no TeX-free solution fact, the
                       reveal/must-expand presence check).
+  F labels (F120)   — the printed part label is VISIBLE and rendered INLINE on
+                      the same line as the part text: per frozen sample, the
+                      chip [data-part-label] carries the exact frozen label,
+                      is actually rendered (offsetParent/rects/visibility),
+                      sits in a flex items-baseline row geometrically ON the
+                      first text line (chip right edge before the text block,
+                      chip band overlapping the text block's first line), and
+                      the whole-page chip census equals the frozen
+                      labelled_parts count with every chip on the attested
+                      label grammar. Null (path-less) samples must render NO
+                      chip — the fail-closed law, never an index guess. This
+                      is the case the gate lacked when the labels shipped
+                      (F119 QUEUED follow-up): a data field that exists but is
+                      never rendered now FAILS here instead of shipping.
 
 Renderer identity of record is captured per receipt (renderer.class =
 "syllabai-v2-local-runtime" | "syllabai-v2-vercel"; the local runtime is the
@@ -56,9 +70,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from official_examq_g9_semantics import (  # noqa: E402
     case_disposition, leg_disposition, REQ_EVIDENCE, OUTCOME_PASS, OUTCOME_NOT_RUN,
+    LABEL_GRAMMAR_SRC,
 )
 
-VALIDATOR_VERSION = "g9-render-check/0.4"
+VALIDATOR_VERSION = "g9-render-check/0.5"
 SCROLL_STEPS = 14
 
 AUDIT_JS = r"""
@@ -166,6 +181,66 @@ def find_qblock_js(qb):
             " const q = qs.find(x => x.getAttribute('data-question-block') === p.qb);"
             " if (!q) return JSON.stringify({err: 'qblock missing', have: qs.slice(0,3).map(x => x.getAttribute('data-question-block'))});"
             " return JSON.stringify({ok: true, q: q.getAttribute('data-question-block')}); })()")
+
+
+# ── F120 label-visibility probes (the printed label must be VISIBLE + INLINE) ─
+
+def labels_census_js():
+    """Whole-page chip census over the part rows. The label grammar is the
+    SHARED pattern string from official_examq_g9_semantics (single source of
+    the F120 law) injected into the JS — the JS regex and the python regex
+    cannot drift."""
+    return ("(() => { const gram = new RegExp(" + q(LABEL_GRAMMAR_SRC) + ");"
+            " const rows = [...document.querySelectorAll('[data-part-row]')];"
+            " const chips = [];"
+            " for (const r of rows) { const c = r.querySelector('[data-part-label]');"
+            "  if (c) chips.push((c.textContent || '').trim()); }"
+            " return JSON.stringify({ rows: rows.length, chips: chips.length,"
+            "  badGrammar: chips.filter(t => !gram.test(t)).length }); })()")
+
+
+def label_probe_js(pid, want):
+    """Per-sample same-line visibility probe: the chip carries the EXACT frozen
+    label, is actually rendered, and sits geometrically ON the first text line
+    of its items-baseline row (chip right edge at/behind the text block's left
+    edge minus the row gap; chip band overlapping the text block's top line).
+    A chip-on-its-own-line layout (the PARTLABEL-1 shape the operator refined
+    away) or an aria-only label (the original defect) fails here."""
+    return ("(() => { const p = {pid: " + q(pid) + ", want: " + q(want) + "};"
+            " const rows = [...document.querySelectorAll('[data-part-row]')];"
+            " const row = rows.find(x => x.getAttribute('data-part-row') === p.pid);"
+            " if (!row) return JSON.stringify({err: 'part row missing', rows: rows.length});"
+            " const chip = row.querySelector('[data-part-label]');"
+            " if (!chip) return JSON.stringify({err: 'label chip missing', rowHead: (row.innerText || '').slice(0, 60)});"
+            " const got = (chip.textContent || '').trim();"
+            " if (got !== p.want) return JSON.stringify({err: 'chip text mismatch', got: got, want: p.want});"
+            " const cs = getComputedStyle(row);"
+            " const cr = chip.getBoundingClientRect();"
+            " const tb = chip.nextElementSibling;"
+            " if (!tb) return JSON.stringify({err: 'text block missing'});"
+            " const tr = tb.getBoundingClientRect();"
+            " const vis = chip.offsetParent !== null && cr.width > 0 && cr.height > 0"
+            "  && getComputedStyle(chip).visibility !== 'hidden' && getComputedStyle(chip).display !== 'none';"
+            " const sameLine = cs.display === 'flex' && cs.alignItems === 'baseline'"
+            "  && cr.bottom >= tr.top + 1 && cr.top <= tr.top + 30 && cr.top >= tr.top - 8"
+            "  && cr.right <= tr.left + 2.5;"
+            " return JSON.stringify({ ok: vis && sameLine, vis: vis, sameLine: sameLine,"
+            "  flex: cs.display, align: cs.alignItems,"
+            "  rect: { chipTop: Math.round(cr.top), chipBottom: Math.round(cr.bottom),"
+            "          chipRight: Math.round(cr.right), textTop: Math.round(tr.top), textLeft: Math.round(tr.left) } }); })()")
+
+
+def label_null_probe_js(pid):
+    """Fail-closed probe for a path-less (null-label) part: the row must render
+    with its text but carry NO chip — never an invented or index-guessed label."""
+    return ("(() => { const p = {pid: " + q(pid) + "};"
+            " const rows = [...document.querySelectorAll('[data-part-row]')];"
+            " const row = rows.find(x => x.getAttribute('data-part-row') === p.pid);"
+            " if (!row) return JSON.stringify({err: 'part row missing'});"
+            " const chip = row.querySelector('[data-part-label]');"
+            " const hasText = (row.innerText || '').trim().length > 0;"
+            " return JSON.stringify({ ok: !chip && hasText,"
+            "  chip: chip ? (chip.textContent || '').trim() : null, hasText: hasText }); })()")
 
 
 def wait_ready(base_url):
@@ -357,6 +432,24 @@ def drive_case(base_url, case, outdir, shots=True):
                "solution reveal expands with non-empty content" if rv.get("ok") else f"reveal failed: {rv}")
         else:
             ck("solution", "reveal-presence", False, str(picked))
+
+    # ── F labels — the printed label is visible, inline, exact (F120) ────────
+    if "labelled_parts" in e or case.get("part_labels"):
+        ls = ab_eval(labels_census_js())
+        ck("labels", "labels-rows-served",
+           ls.get("rows") == e["parts"],
+           f"rows={ls.get('rows')} vs parts={e['parts']}")
+        ck("labels", "labels-chip-census",
+           ls.get("chips") == e.get("labelled_parts") and ls.get("badGrammar") == 0,
+           f"chips={ls.get('chips')} vs labelled={e.get('labelled_parts')} "
+           f"badGrammar={ls.get('badGrammar')}")
+        for smp in case.get("part_labels") or []:
+            if smp.get("kind") == "null" or not smp.get("label"):
+                r = ab_eval(label_null_probe_js(smp["part_id"]))
+                ck("labels", f"label-null:{smp['part_id']}", bool(r.get("ok")), str(r)[:220])
+            else:
+                r = ab_eval(label_probe_js(smp["part_id"], smp["label"]))
+                ck("labels", f"label:{smp['part_id']}", bool(r.get("ok")), str(r)[:220])
 
     # ── evidence ────────────────────────────────────────────────────────────
     if shots:
