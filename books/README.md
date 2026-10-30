@@ -911,6 +911,34 @@ E-ID they correct)*
   CONFIRMS the playbook; the ENOSPC cleanup note is filed here in R-012 as
   an operational remark — no ledger rule change). Errata filed: none new.
 
+- **R-013** (2026-10-30, T-PARSE-YCH12-2 POLISH-CONT-V2-4, YCH12 SB2 v2 polish
+  continuation): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  (v2 grammar, EP 10/10); LLM polish R1-v2: 801 staged, cumulative **226
+  applied** (226 text changed), 24 rejected (guard; raws in evidence), 16
+  error-cum-429 (self-heal on resume; 250/801 done, todo 551); this session
+  5 windows in a HARSH quota regime — the wall opened only in brief cracks
+  (+4/+0/+9/+0/+0 records) instead of CONT-V2-3's full 10–12 min windows
+  (L-017 "walls vary" now observed at three intensities: full windows,
+  51+ min closure, crack-openings); **CLOBBER REPLAY CAUGHT** (L-024's own
+  protocol working as designed): a merge invocation inside a FAILED tool
+  call had already executed (stdout swallowed by the tool error) — the
+  explicit re-run then double-applied on the merged corpus ("llm_repaired
+  226, text changed 0" + R3 text_original != pristine on all 226); the
+  reconciliation flagged it BEFORE any repo copy (repo untouched), fixed by
+  re-seeding from .pristine and one full-evidence merge (226 changed, anchor
+  0 drift, reconciliation ALL PASS: net-new 8, overlap 218 re-applied from
+  pristine). NUANCE disclosed here for L-024's action list: re-seed before
+  EVERY merge invocation, not once per session — a "failed" tool call may
+  have succeeded invisibly, and this merge is not idempotent (re-running it
+  is destructive by design). Environment: fresh rootfs with 8.5 GB free (no
+  ENOSPC — reset #8 cleared the disk the hard way); the reset also wiped
+  the lane's local helper scripts (env surface + reconcile tool), which had
+  to be recreated — lane tooling that lives only in the sandbox workspace
+  should live in the repo (the runner/merge/audit/validate already do).
+  Deviations from playbook: none. Lessons appended: none new (replay is
+  L-024's own scenario caught by its own protocol). Errata filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -920,6 +948,18 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-30 — v1.10 (T-PARSE-YCH12-2 POLISH-CONT-V2-4):** YCH12 v2 polish
+  grind continued and landed (R-013: cumulative **226/801 applied**, net-new
+  8 this landing — a harsh crack-opening quota session, anchor 0 drift,
+  reconciliation + audit + validator all green, resumable at todo 551).
+  **Clobber replay caught and disclosed** (R-013): a merge hidden inside a
+  failed tool call double-applied on the merged corpus; the L-024 three-way
+  reconciliation flagged it pre-landing, fixed by the pristine re-seed +
+  single full-evidence merge; nuance recorded — re-seed before EVERY merge
+  invocation (the merge is not idempotent). Review record **R-013**, no new
+  L-entries. Ledgers: CATALOG row 12 + §3.6 updated; lane README + worklog
+  same commit.
 
 - **2026-10-28 — v1.9 (T-PARSE-YCH12-2 POLISH-CONT-V2-3):** YCH12 v2 polish
   grind continued and landed (R-012: cumulative **218/801 applied**, net-new

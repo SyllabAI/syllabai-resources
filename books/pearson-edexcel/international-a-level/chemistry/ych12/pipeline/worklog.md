@@ -417,3 +417,47 @@ Stage Summary:
   healthy this session (~10-12 min cadence, +27-50/window). Grind resumable
   via the unchanged recipe. Open follow-ups: pack-floor fold fix (own gate),
   serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-4
+Agent: Z.ai (main, zai-web)
+Task: "continue" (2026-10-30, zai-web, trace 1a18bc2b68b0b609) — continue the v2
+polish grind, land whatever delta survives the quota, keep the §9 playbook
+current.
+
+Work Log:
+- SANDBOX RESET #8 recovery: fresh rootfs (8.5 GB free — no ENOSPC this time;
+  the reset itself cleared the disk), fetch + ff-only 626 commits (parallel
+  lanes: T-TEXTDEBRIS-1 1,826-file debris cleanup, T-SPECS, CIE-JOIN-2),
+  sparse-add ych12, SDK reinstalled, v2 workspace rebuilt from the repo
+  (env + reconcile helper scripts recreated — reset wipes scripts/ too).
+- GRIND: 5 windows, HARSH REGIME — window 1 +4 (2 ok), window 2 +0, window 3
+  +9 (6 ok / 1 rej), windows 4-5 +0; the wall opened only in brief cracks
+  (~1 call) instead of yesterday's full 10-12 min windows. Evidence 266
+  records (226 ok / 24 rejected / 16 error-cum-429); 250/801 done, todo 551.
+- CLOBBER REPLAY CAUGHT (L-024 protocol, detector = three-way reconciliation):
+  a merge invocation inside a FAILED tool call had already executed (its
+  stdout was swallowed by the tool error) — the explicit re-run then
+  double-applied on the merged corpus: "llm_repaired 226, text changed 0" +
+  R3 text_original != pristine on all 226. Repo untouched (copy happens
+  after reconciliation). Fix per the law: re-seed from .pristine, single
+  full-evidence merge → 226 text changed, anchor PASS 0 drift, reconciliation
+  ALL PASS (net-new 8, overlap 218 re-applied from pristine). NUANCE worth
+  recording: re-seed before EVERY merge invocation, not once per session —
+  a "failed" tool call may have succeeded invisibly, and this merge is not
+  idempotent (re-running it is destructive by design).
+- AUDIT: 0 Unicode-unit regressions; residual 18+ runs all genuine chemistry
+  words (disproportionation, electronegativities, dinitrophenylhydrazine,
+  hydroxypropanenitrile, …) — benign class. VALIDATE: ALL CHECKS PASSED
+  post-merge (EP 10/10).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 218→226) + evidence/llm_repairs_ych12_v2.jsonl (266 records);
+  ledgers same commit: lane README, CATALOG row 12 + §3.6, playbook R-013 +
+  changelog v1.10 (no new L-entry — the replay is L-024's own scenario
+  caught by its own protocol; nuance disclosed in R-013).
+
+Stage Summary:
+- v2 polish R1 at **226/801 applied (250 done incl. 24 rejected, 16 error
+  records self-heal)**, todo 551; quota regime turned harsh (crack-openings
+  vs full windows); grind resumable via the unchanged recipe. Open
+  follow-ups: pack-floor fold fix (own gate), serving lane.

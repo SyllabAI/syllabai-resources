@@ -1224,13 +1224,13 @@ Table A shows the units for rate constants,using mol dm-3 as the unit of concent
 2RATEEQUATIONS,RATECONSTANTS ANDORDERSOFREACTION 11.1(iv)
 LEARNING OBJECTIVES
 
-• Understandthe terms:
+• Understand the terms:
 
-• rateequation,rate=k[A]m[B],wheremandnareO,1or2
+• rate equation, rate=k[A]m[B], where m and n are 0,1 or 2
 
-• (ii) orderwithrespecttoasubstanceinarateequation
+• (ii) order with respect to a substance in a rate equation
 
-• (i) overallorderofareaction
+• (i) overall order of a reaction
 
 • (iv) rate constant
 
@@ -4059,23 +4059,24 @@ What are the signs of the entropy changes at 1113 K?
 #### (Total for Question 5 = 1 mark)
 • 7 The Born-Haber cycle shown below can be used to calculate the lattice energy for magnesium oxide.
 
-• (a)Give the name of each of the enthalpy changes labelled H, △H and △H3.
+• (a) Give the name of each of the enthalpy changes labelled H, △H and △H₃.
 
 [3]
 
-• (b)Writethemissingformulaefrom thetopof theBorn-Haber cycle. Include state symbols. [2]
+• (b) Write the missing formulas from the top of the Born-Haber cycle. Include state symbols.
+[2]
 
-• C Ssystem is negative
+• C S system is negative
 
-• (c)The equations for the first and second electron affinities of oxygen are:
+• (c) The equations for the first and second electron affinities of oxygen are:
 
-O(g) + e= O-(g) 1st EA=-141kJmol-1 O-(g) +e-= O²-(g) 2nd EA =+798kJmol-1
+O(g) + e⁻ = O⁻(g) 1st EA = -141 kJ mol⁻¹ O⁻(g) + e⁻ = O²⁻(g) 2nd EA = +798 kJ mol⁻¹
 
 Suggest why the second electron affinity of oxygen is endothermic.
 
 [2]
 
-• (d)Use thedataintheBorn-Habercycletocalculatethe lattice energy of magnesium oxide.
+• (d) Use the data in the Born-Haber cycle to calculate the lattice energy of magnesium oxide.
 
 [2]
 (Total for Question 7 = 9 marks)
@@ -4129,25 +4130,25 @@ I-293
 [2]
 (Total for Question 8 = 12 marks)
 
-• 9 9Entropy changes areimportant in determining the feasibility of a process.
+• 9 9Entropy changes are important in determining the feasibility of a process.
 
-• (a)For each of the four processes below, predict the likely sign of the entropy change of the system, Ssystem In each case,justifyyour answer. [4]
+• (a) For each of the four processes below, predict the likely sign of the entropy change of the system, ΔSsystem. In each case, justify your answer. [4]
 
-• (i)N2(g) +3H2(g)→ 2NH(g)
+• (i) N2(g) + 3H2(g) → 2NH3(g)
 
-• (i)H2O(s)→H2O(l)
+• (ii) H2O(s) → H2O(l)
 
-• (ii)2Na(s) + O2(g)→Na2O2(s)
+• (iii) 2Na(s) + O2(g) → Na2O2(s)
 
 • (iv) S(s) + O2(g) → 2SO2(g)
 
 • (b) Magnesium oxide is used as a refractory lining for furnaces.
 
-• It can be made by heating magnesium carbonate. ）△H°=+117kJmol-1
+• It can be made by heating magnesium carbonate. ) ΔH° = +117 kJ mol⁻¹
 
-Thetableshowsthestandardentropiesat298Kof
+The table shows the standard entropies at 298 K of
 
-MgCO3(s) → MgO(s) + CO2(g) MgCO(s), MgO(s) and CO2(g).
+MgCO3(s) → MgO(s) + CO2(g) MgCO3(s), MgO(s) and CO2(g).
 
 #### (Total for Question 8 = 12 marks)
 | Substance   |   H(g) |   O2(g) |   H,O(l) |
@@ -4680,25 +4681,25 @@ tableC
 As the value of K, decreases,the percentages of H2(g) and I2(g)increase,and the percentage of HI(g) decreases. The equilibrium shifts to the left, in the endothermic direction, as the temperature is increased.
 CHECKPOINT
 
-• Adynamicequilibriumissetupbetweencarbonmonoxide,hydrogenandmethanol.Theequation forthereaction is:
+• A dynamic equilibrium is set up between carbon monoxide, hydrogen and methanol. The equation for the reaction is:
 
 CO(g) + 2H₂(g) ⇌ CH₃OH(g)
 
-Whenthereactioniscarriedoutatahighertemperature,thevalueofK.decreases. Explainwhethertheforwardreactionisexothermicorendothermic.
+When the reaction is carried out at a higher temperature, the value of K decreases. Explain whether the forward reaction is exothermic or endothermic.
 
-• 2.Thereactionbetween hydrogen andiodinetoform hydrogeniodideisreversible:
+• 2. The reaction between hydrogen and iodine to form hydrogen iodide is reversible:
 
 H₂(g) + I₂(g) ⇌ 2HI(g)
 
-SomeH2(g)is mixedwith I2(g)and themixture is allowed toreachequilibrium.Atequilibrium, 0.14 mol of H2(g) is present.
+Some H₂(g) is mixed with I₂(g) and the mixture is allowed to reach equilibrium. At equilibrium, 0.14 mol of H₂(g) is present.
 
-The experiment isrepeated with the same amountsof H2(g)andI2(g),but ata highertemperature. Thistime the amount of H2(g) at equilibrium is greater than0.14 mol.
+The experiment is repeated with the same amounts of H₂(g) and I₂(g), but at a higher temperature. This time the amount of H₂(g) at equilibrium is greater than 0.14 mol.
 
-Explainwhat thisinformationtellsyou about thereaction.
+Explain what this information tells you about the reaction.
 
-• N2(g) +O2(g) = 2NO(g) Hispositive
+• N₂(g) + O₂(g) = 2NO(g) ΔH is positive
 
-The equilibrium constant at 298Kfor this reaction is 4.8×10-31.
+The equilibrium constant at 298K for this reaction is 4.8×10⁻³¹.
 
 Explain the change, if any, in the proportion of NO(g) at a temperature higher than 298 K.
 LEARNING OBJECTIVES
@@ -5844,21 +5845,21 @@ However, even the most alkaline solutions contain some hydrogen ionsbecause wate
 Sodium hydroxide is a strong base,so in dilute aqueous solutions we can consider its ions to be completely dissociated.
 LEARNING TIP
 
-ThepHofaneutralsolutionis oftensaidtobe7.00.However, thisistrueonlyfora solution thathasa temperatureof298K.
+The pH of a neutral solution is often said to be 7.00. However, this is true only for a solution that has a temperature of 298K.
 
-Aswithallequilibrium constants,Kwvarieswith temperature.
+As with all equilibrium constants, Kw varies with temperature.
 
-At288Kithasavalueof 4.52×10-15mol²dm-6.
+At 288K it has a value of 4.52×10⁻¹⁵ mol² dm⁻⁶.
 
-Atthistemperature, [H+（aq)]=6.72×10-8mol dm-3, giving a pH of 7.17.
+At this temperature, [H⁺(aq)]=6.72×10⁻⁸ mol dm⁻³, giving a pH of 7.17.
 
-So,at288Kaneutralsolution has a pH of 7.17.
+So, at 288K a neutral solution has a pH of 7.17.
 
-Similarlyitcanbeshownthatat 308K,thepHofaneutral solution is6.84.
+Similarly it can be shown that at 308K, the pH of a neutral solution is 6.84.
 
 LEARNING TIP
 
-The equationshouldstrictlybe pKw=-1gKw/(c)²,wherecis thestandardconcentrationof1 mol dm-3,inordertobeableto takethelogarithmofa dimensionless quantity. Howeverwewill usethe simplifiedversionofthe equation.
+The equation should strictly be pKw=-lgKw/(c)², where c is the standard concentration of 1 mol dm⁻³, in order to be able to take the logarithm of a dimensionless quantity. However we will use the simplified version of the equation.
 TOPIC14
 
 A sodium hydroxide solution of concentration 0.100mol dm-3 therefore has a hydroxide ion concentrationof0.100moldm-3.
@@ -10979,15 +10980,15 @@ LEARNING TIP
 RememberthatinTopic2 (Book1:IAs)youlearned that the3dorbitalstartstofillbefore the4sandthatthe4selectrons have higherenergythanthe electronsinthe3dorbitals.This iswhythe4selectronsarelost firstwhentheatomsformions.
 
 #### LEARNING TIP
-tableAElectronicconfigurationsof theelementsscandiumtozinc.
+Table A Electronic configurations of the elements scandium to zinc.
 
-| ELEMENT   |   Z | ELECTRONICCONFIGURATION      | ELECTRONS-IN-BOXESDIAGRAMFOR3d AND4SELECTRONS   |
+| ELEMENT   |   Z | ELECTRONIC CONFIGURATION      | ELECTRONS-IN-BOXES DIAGRAM FOR 3d AND 4s ELECTRONS   |
 |-----------|-----|------------------------------|-------------------------------------------------|
 | scandium  |  21 | 1s2 2s2 2p6 3s2 3p6 3d1 4s2  |                                                 |
 | titanium  |  22 | 1s2 2s2 2p6 3s2 3p6 3d2 4s2  |                                                 |
 | vanadium  |  23 | 1s2 2s2 2p6 3s2 3p6 3d3 4s2  |                                                 |
-| chromium  |  24 | 1s²2s²2p63s23p63d54s2        |                                                 |
-| maganese  |  25 | 1s2 2s2 2p6 3s2 3p6 3d5 4s2  |                                                 |
+| chromium  |  24 | 1s²2s²2p63s23p63d54s1        |                                                 |
+| manganese |  25 | 1s2 2s2 2p6 3s2 3p6 3d5 4s2  |                                                 |
 | iron      |  26 | 1s2 2s2 2p6 3s2 3p6 3d7 4s2  |                                                 |
 | cobalt    |  27 | 1s2 2s2 2p6 3s2 3p6 3d8 4s2  | T                                               |
 | nickel    |  28 | 1s2 2s2 2p6 3s2 3p6 3d8 4s2  |                                                 |
@@ -13905,9 +13906,11 @@ LEARNING OBJECTIVES
 WHATISAPEPTIDE?
 
 When two amino acid molecules react together, an acid-base reaction occurs.The OH of the COOH group combines with one of the H atoms of the NH2 group to form water This is a condensation reaction, in which the two amino acids are joined together by an amide group (CO—NH). The bond thatforms isknown as apeptidebond, and the organicproduct is a dipeptide.
-MORETHANONEDIPEPTIDE
 
-When two amino acids combine together toform a dipeptide,there are always twopossibilitiessometimes more.For example,when glycine reacts with alanine,the OH could be lost from either molecule,as shown below.
+#### MORETHANONEDIPEPTIDE
+MORE THAN ONE DIPEPTIDE
+
+When two amino acids combine together to form a dipeptide, there are always two possibilities sometimes more. For example, when glycine reacts with alanine, the OH could be lost from either molecule, as shown below.
 
 alanine + glycine:
 
@@ -15144,9 +15147,9 @@ fig A The Chen-White catalyst with hydrogen peroxide selectively hydroxylated th
 Though platinum and palladium catalysts are able to hydroxylate, aminate, and alkylate C-H bonds selectively, they rely on nearby activating or directing groups (which enhance a C-H bond's reactivity, or guide a catalyst to one C-H bond in particular) and protecting groups. But these synthetic crutches mean extra steps in a reaction. Only natural enzymes are able to pick out C-H bonds from a complex molecule without help, but their elaborate protein binding pockets mean they only work on specific substrates.
 
 #### IRON CATALYST SELECTIVELY OXIDISES UNREACTIVE C-H BONDS, UNAIDED
-YetWhiteand Chen'selectrophilicironcatalyst,withhydrogen peroxide,selectively oxidised lone C-H bondsfrom complex moleculeswithease.Thenewmethodwas demonstrated successfully onseveral complexproducts,including the antimalarialartemisinin.Here,one C-H bond outoffivewas selectivelyoxidised,inyieldhigherthan that achievedbya previousenzymatictransformation.Particularlyimpressive was that White and Chen laid down a series of rules predicting the catalyst'sselectivity:dependingon theelectron-richnessof the C-Hbond,orwhetheritwasphysicallyhinderedfrom the catalyst'sapproach.
+Yet White and Chen's electrophilic iron catalyst, with hydrogen peroxide, selectively oxidised lone C-H bonds from complex molecules with ease. The new method was demonstrated successfully on several complex products, including the antimalarial artemisinin. Here, one C-H bond out of five was selectively oxidised, in yield higher than that achieved by a previous enzymatic transformation. Particularly impressive was that White and Chen laid down a series of rules predicting the catalyst's selectivity: depending on the electron-richness of the C-H bond, or whether it was physically hindered from the catalyst's approach.
 
-"This is an absolutely beautiful piece of work,"commented Alan Goldman,who works on C-H activation at Rutgers University, NewJersey,USA."TheabilitytofunctionaliseC-Hbonds selectivelyis the ultimate challenge in organic synthesis,with immensepotentialvalue."
+"This is an absolutely beautiful piece of work," commented Alan Goldman, who works on C-H activation at Rutgers University, New Jersey, USA. "The ability to functionalise C-H bonds selectively is the ultimate challenge in organic synthesis, with immense potential value."
 
 #### Workinprogress
 Work in progress

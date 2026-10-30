@@ -16,11 +16,11 @@ resumable). **v2 fresh-parse lane COMPLETE (T-PARSE-YCH12-2, 2026-10-27): the R2
 recycle with the FULL 315-record sidecar applied (re-verified 306+9=315/315) — consumed as the v2
 corpus of record (1406 chunks, `ych2_v2_`, validator ALL CHECKS PASSED; adjudication: error-class
 rates identical to r0, structure identical, 305/306 fills in chunk text — METHOD D-12).** v2 polish R1
-grind resumed (POLISH-CONT-V2, 2026-10-27; CONT-V2-2, 2026-10-28; CONT-V2-3, 2026-10-28): runner/merge/audit parameterized
-via env (defaults = v1 byte-proven unchanged, L-026), **218/801 applied** across 11 quota windows
+grind resumed (POLISH-CONT-V2, 2026-10-27; CONT-V2-2/3, 2026-10-28; CONT-V2-4, 2026-10-30): runner/merge/audit parameterized
+via env (defaults = v1 byte-proven unchanged, L-026), **226/801 applied** across 16 quota windows
 (merge anchor 0 drift from the v2 pristine, three-way reconciliation ALL PASS, audit 0 Unicode-unit
-regressions, validator ALL CHECKS PASSED — resumable; 241 done incl. 23 rejected, 12 error records
-self-heal; todo 560). SB1 = parsed in the sibling `ych11` lane. Scaffold per
+regressions, validator ALL CHECKS PASSED — resumable; 250 done incl. 24 rejected, 16 error records
+self-heal; todo 551). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane
