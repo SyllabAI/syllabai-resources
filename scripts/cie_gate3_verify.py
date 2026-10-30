@@ -164,7 +164,8 @@ def main() -> int:
                        if v.get("codes")}
 
     sheets = {}
-    for name in ("cie_wave3_resolutions.yaml", "cie_wave3_verdicts.yaml"):
+    for name in ("cie_rejoin_resolutions.yaml", "cie_rejoin_wave2as_resolutions.yaml",
+                 "cie_wave3_resolutions.yaml", "cie_wave3_verdicts.yaml"):
         sheets[name] = yaml.safe_load(
             (REPO / "scripts" / name).read_text(encoding="utf-8"))
 
@@ -265,13 +266,18 @@ def main() -> int:
                 elif tier.startswith("J"):
                     census["J_sheet_entries"] += 1
                     row = None
-                    for v in sheets["cie_wave3_resolutions.yaml"]["verdicts"]:
-                        if v["lane"] == l and v["official_id"] == c.get("official_id"):
-                            row = v
+                    for sheet_name in ("cie_wave3_resolutions.yaml",
+                                       "cie_rejoin_resolutions.yaml",
+                                       "cie_rejoin_wave2as_resolutions.yaml"):
+                        for v in sheets[sheet_name]["verdicts"]:
+                            if v["lane"] == l and v["official_id"] == c.get("official_id"):
+                                row = v
+                                break
+                        if row is not None:
                             break
                     if row is None:
                         errors.append(f"{l}:{iid}:J-entry-without-sheet-row:{code}")
-                    elif row["official_code"] != code:
+                    elif str(row["official_code"]) != str(code):
                         errors.append(f"{l}:{iid}:J-sheet-code-mismatch:{code}")
                 elif tier.startswith("V"):
                     census["V_sheet_entries"] += 1
@@ -302,6 +308,8 @@ def main() -> int:
     # sheet bijection: every sheet resolve row must be landed on >=1 item
     for sheet_name, tier_pfx in (("cie_wave3_resolutions.yaml", "J"),
                                  ("cie_wave3_verdicts.yaml", "V")):
+        if sheet_name not in sheets:
+            continue
         for v in sheets[sheet_name]["verdicts"]:
             l = v["lane"]
             landed = any(c.get("official_id") == v["official_id"]
