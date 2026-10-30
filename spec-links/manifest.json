@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.learner-spec-links-manifest/1.0",
- "generated_utc": "2026-10-28T18:04:07Z",
+ "generated_utc": "2026-10-30T09:00:00Z",
  "courses": {
   "ial-biology-18": {
    "qual": "ial-biology",
@@ -2469,6 +2469,36 @@
      "J4_name_phrase_identity": 5
     }
    }
+  },
+  "cie-as-accounting-21": {
+   "qual": "cie-a-level-accounting-2023-2025",
+   "items": 98,
+   "items_with_codes": 52,
+   "by_kind": {
+    "notes": 98,
+    "question_parts": 0,
+    "flashcards": 0
+   },
+   "coded_by_kind": {
+    "notes": 52,
+    "question_parts": 0,
+    "flashcards": 0
+   }
+  },
+  "cie-as-biology-25": {
+   "qual": "cie-a-level-biology-2025-2027",
+   "items": 2015,
+   "items_with_codes": 1962,
+   "by_kind": {
+    "notes": 124,
+    "question_parts": 1891,
+    "flashcards": 0
+   },
+   "coded_by_kind": {
+    "notes": 119,
+    "question_parts": 1843,
+    "flashcards": 0
+   }
   }
  },
  "cie_join": {
@@ -3122,5 +3152,14 @@
    "inherited_dup_items_pinned": 11
   },
   "note": "the wave-2 AS chain's review/promotion gate (the JOIN-2 chain of record stage #2): all 191 resolutions of the three classes independently re-fired and verified 191/191 before promotion (V 18 + J 124 + T2 49); the 609 quarantines stay out; items/codes/pending/anchors byte-preserved; the 11 inherited REJOIN-2 in-item duplicates stay pinned as the disclosed known defect (consume dedups per official_id); record-less pairs stay pending honestly (AGENT.md rule 3)"
+ },
+ "cie_wave3": {
+  "lane": "T-SPECS-CIE-JOIN-3",
+  "review_state": "SUGGESTED",
+  "lanes": 9,
+  "operator_directive": "fire that consume lane (gateway trace 1a18bc6701800065)",
+  "residual_of_record": "EQFC-CONSUME-1: the wave's unmapped growth joins the verdict fills -> review gate -> v2 consume chain",
+  "items_added": 8541,
+  "j0_cascade_sids": 1077
  }
 }
