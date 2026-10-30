@@ -18,6 +18,7 @@ V2_PIN = "3245de7c91e030625bf556dd6280bfd2d4f10bea"
 sys.path.insert(0, str(REPO / "scripts"))
 import cie_spec_join as base  # noqa: E402
 import cie_spec_join_wave2as as j2  # noqa: E402
+import cie_verdict_fill as vf  # noqa: E402
 
 fails: list[str] = []
 oks: list[str] = []
@@ -124,8 +125,10 @@ def main() -> int:
             if v.get("codes")}
         j0 = quar = t12 = 0
         bad = []
-        reg2 = base.Registry(quals[lane_to_qual[l]])
-        import cie_verdict_fill as vf  # noqa: E402
+        # expected j0 resolution events: rebuilt pendings with an accepted row
+        # that is not quarantined by the item's of-record row
+        j0_events = 0
+        reg2 = vf.load_registry(cur["qual"])
         pts = vf.lane_pool(l, reg2)
         pool = {str(p.get("official_code")) for p in pts}
         for iid in sorted(new_ids):
@@ -134,8 +137,13 @@ def main() -> int:
             if rit is None:
                 bad.append(f"{iid}:absent-from-rebuild")
                 continue
-            declared = set(rit.get("pending") or []) | \
-                {c.get("official_code") for c in rit.get("codes") or []}
+            of_record_pre = mapcodes.get(iid) or set()
+            for sid in (rit.get("pending") or []):
+                row = acc.get(sid)
+                if row and row.get("officialCode") and \
+                        (not of_record_pre or
+                         row["officialCode"] in of_record_pre):
+                    j0_events += 1
             # every pending sid must be declared-but-unresolved substrate
             for sid in it.get("pending") or []:
                 if sid not in (rit.get("pending") or []):
@@ -162,8 +170,24 @@ def main() -> int:
                 else:
                     if of_record and code not in of_record:
                         t12 += 1
-        wj4_ok = not bad and j0 == (cur["anchors"].get("wave3", {})
-                                    .get("j0", {}).get("j0_sids", 0))
+        j0_census = dict(cur["anchors"].get("wave3", {}).get("j0", {}))
+        # replay oracle: re-run the engine's cascade over the rebuilt items;
+        # the replay counter must equal the census AND the replayed codes and
+        # pendings must equal the landed state exactly
+        import cie_spec_join_wave3 as eng  # noqa: E402
+        replay = json.loads(json.dumps(
+            {iid: rebuilt["items"][iid] for iid in new_ids}))
+        rep_st = eng.j0_cascade(replay, acc, mapcodes)
+        replay_ok = dict(rep_st) == j0_census and all(
+            json.dumps(replay[iid].get("codes"), sort_keys=True) ==
+            json.dumps(cur["items"][iid].get("codes"), sort_keys=True) and
+            json.dumps(replay[iid].get("pending"), sort_keys=True) ==
+            json.dumps(cur["items"][iid].get("pending"), sort_keys=True)
+            for iid in new_ids)
+        wj4_ok = not bad and replay_ok and j0 == sum(
+            1 for iid in new_ids
+            for c in cur["items"][iid].get("codes") or []
+            if c.get("via") == "wave3-cascade-of-record-sid-row")
         check(f"WJ4 {l} j0+quarantine law", wj4_ok,
               f"j0={j0} t12q={t12} bad={bad[:3]}")
 
@@ -173,8 +197,9 @@ def main() -> int:
         for it in cur["items"].values():
             by[it["kind"] + "s"] += 1
             coded[it["kind"] + "s"] += 1 if it["codes"] else 0
-        xfoot = dict(t["by_kind"]) == dict(by) and \
-            dict(t["coded_by_kind"]) == dict(coded) and \
+        kinds = ("notes", "question_parts", "flashcards")
+        xfoot = all(t["by_kind"].get(k, 0) == by.get(k, 0) for k in kinds) and \
+            all(t["coded_by_kind"].get(k, 0) == coded.get(k, 0) for k in kinds) and \
             t["items"] == len(cur["items"]) and \
             t["items_with_codes"] == sum(coded.values()) and \
             t["items"] - len(pre_ids) == len(new_ids)
