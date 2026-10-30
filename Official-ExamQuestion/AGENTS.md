@@ -513,6 +513,32 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 28 (2026-10-30, F121) CLOSED the group-stem restore — the last wave-22 open
+  item ("the exporter restores QUESTION stems only") — end-to-end: the exporter
+  (exporter v5) now restores every question-GROUP intro (`groups[<letter>].
+  group_stem_md`, 567 corpus-wide) to its group's FIRST part, the printed position,
+  under the F-W15-1 laws (STEM-RESTORE.json group verdicts `Q<n>.<letter>` — 36
+  eyeballed cut verdicts of record, every cut crop-corroborated, data tables and
+  displayed formulae with no serving crop KEPT verbatim — then mechanical cleaning,
+  splice-guard, fail-closed anchors) with the new G-E7 plane law (a group stem can
+  never vanish, be invented, or mis-attach; group ledger keys slice-scoped consumed;
+  adjudicated cuts must actually cut) and the F121 unit battery
+  (scripts/official_examq_f121_tests.py, 101 checks, CI step). Served at the
+  main@5f170f987 cut: G-E1 = 567 deltas == the disclosure exactly
+  (scripts/exporter-disclosures/2026-10-30-f121-group-stem-restore-4ch1.json; the
+  delta field universe is {problemMd: 567} — the group-stem class only); counts
+  unchanged; G-E4 byte-identical; verifier census-exact + self-test 4/4. THE SAME
+  ORDER'S OTHER HALF ("19-part drawing-strip wave") was found ALREADY CLOSED at
+  source by d8fd8acb (PR #220 — the 73 per-line text-repair registrations over the
+  16 staged QP layers, the F98 mechanism; corpus bytes untouched) and this wave
+  re-proved it independently: all 54 slices re-emitted fresh at v0.33.0 reproduce
+  20/20 of the C147–C166 of-record pins; the corpus-wide re-emission census is clean
+  modulo the F117-adjudicated 2024-06 1C source_page staging-drift artifact and the
+  known frozen-report/mirror classes — the Task-25 "remaining reproducibility debt"
+  line is SUPERSEDED by that closure (no strip work remained to do; verified,
+  not assumed). Receipt: AUDIT-2026-10-30-f121-group-stem-restore.{md,json}. READ
+  the F121 ledger section before touching the group verdicts: a cut needs
+  crop-corroboration evidence, never the reverse.
 - Task 27 (2026-10-30, F120) CLOSED the G9 label-visibility gate gap — the F119 QUEUED
   item (a) — with a benchmark v3 contract: frozen `part_labels` samples + `labelled_parts`
   census per case, enforced at ALL THREE legs (served field + id-slug pin at static-bundles;

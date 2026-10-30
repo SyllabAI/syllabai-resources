@@ -140,3 +140,5 @@ jobs:
             --allow-new-official
       - name: F119 part-label battery (the printed-part-label serving wave — law + wiring, zero network)
         run: python3 scripts/official_examq_f119_tests.py
+      - name: F121 group-stem battery (the group-stem restore wave — law + wiring, zero network)
+        run: python3 scripts/official_examq_f121_tests.py
