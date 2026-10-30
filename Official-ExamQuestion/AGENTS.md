@@ -513,7 +513,7 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
-- Task 29 (2026-10-30, F122) CLOSED the maths-B corpus back-sync standing debt (operator
+- Task 30 (2026-10-30, F122) CLOSED the maths-B corpus back-sync standing debt (operator
   order "the maths-B corpus back-sync", trace 1a18c23adef78245) with the F114
   reconcile-to-plane shape at scale: corpus := the serving plane of record (f7a8c687) per
   field — 1,471 pids / 2,657 field writes / 271 asset upgrades / 66 sets — so the exporter
@@ -525,6 +525,26 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   markPoints label entries re-keyed to the canonical order, content-identical, 20 pids)
   rides the v2 landing leg (staged plane + manifest re-stamp). Future maths-B hand-repairs:
   land on the corpus first, or re-run this wave's shape (F114/F121 repeatable).
+- Task 29 (2026-10-30, the PUA mapping pass close) CLOSED the carried 'PUA mapping pass'
+  open item — verification-only (zero corpus bytes, zero converter/exporter changes, zero
+  v2 contact): the pass was ALREADY LANDED of record — F48 (wave-14) evidenced the PUA_MAP
+  at text ingest with the fail-closed law (an unmapped PUA char ABORTS the run with a
+  ValueError naming the evidenced-entry requirement), F52 added the U+01FB→Δ confusable
+  normalization, and the physics (F64/F66/F69) + maths-B (run-004 union, tranche-2
+  completion — the T-MIG-141 table of record) tranches completed the map (128 evidenced
+  entries, table.v1-complete, `_PUA_SEQ` sequence-first) — and every standing guard held
+  fresh at main e606043e8: check_canaries 214/214 (C56 corpus-wide PUA-free + eleven
+  mapping pins, C65 U+01FB, C74 physics, C78 BEL); an independent census at main found
+  ZERO PUA across all 714 corpus text files (the 1,316 skipped paths are all PNGs) and
+  ZERO PUA in the served hub bundle (official-papers.json / questions.json / manifest at
+  v2 main c5e8101f0); the fail-closed law re-proven by negative test (U+E0BC/U+F1FF/
+  U+E123 abort; F0B4→× F0B8→÷ F044→Δ F083→⇌ F0B0→° F0FC→✓ F022→→ F0E5→Σ F8E7→─ F097→•
+  F0AE→→; F0A2/F0C0 furniture drops; 01FB→Δ; SEQ-A/SEQ-B run collapse; PUA-free
+  passthrough byte-identical). Receipt of record:
+  AUDIT-2026-10-30-pua-mapping-pass-close.{md,json}. The standing law for any future
+  series is UNCHANGED: a new symbol-font glyph must earn an evidenced PUA_MAP entry
+  (font trace + page render) as a disclosed `notation` edit under ADR-039; unmapped PUA
+  refuses the run.
 - Task 28 (2026-10-30, F121) CLOSED the group-stem restore — the last wave-22 open
   item ("the exporter restores QUESTION stems only") — end-to-end: the exporter
   (exporter v5) now restores every question-GROUP intro (`groups[<letter>].
@@ -664,8 +684,12 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   for hydrogen density (airship), NO-recycling in the nitric acid process, or
   safety precautions (verified against the published spec PDF); entries live in
   the series spec-labels files and C32 pins them (F38; 2C's 607 parts were resolved by their first wave (v0.9.0): 584 tagged + 23 terminal no-spec-point; C33 pins it). Crop review is EMPTY and TERMINAL (v0.10.1, F45): all 8 crop-required stubs are dispositioned — 4 manual-cropped from their printed scaffolds/table (2020-11 5(b)(iv), 2023-11 6(b), 2024-06 7(b), 2019-06 15(a) off the rasterized scan) and 4 re-verified genuinely blank with stub-accepted notes (2021-06 8(b)(iii), 2025-06 9(a)(i), 2026-06 6(b), 2021-11:2C 5(c)); zero `figure crop required` entries remain corpus-wide, so new converter flags after any future crop change still need eyeballs before a ledger verdict.
-- Residual PUA mapping (post F48/F52): converter-level table + parity run; lands as
-  disclosed `notation` edits under ADR-039 — no ledger ceremony required.
+- Residual PUA mapping: CLOSED of record (Task 29 above — the pass landed as F48/F52 +
+  the physics/maths-B tranches; fresh at main: 214/214 canaries, 0 PUA across the 714
+  corpus text files and the served hub bundle; receipt
+  AUDIT-2026-10-30-pua-mapping-pass-close.{md,json}). The standing law is unchanged:
+  an evidenced mapping (font trace + page render) lands at the converter-level table +
+  parity run as disclosed `notation` edits under ADR-039 — no ledger ceremony required.
 - 2019-06 archive damage: DONE (v0.10.0) — the six rasterized content pages were
   re-captured through the F41 OCR source layer and G1 is PASS 110/110. The historical
   residual item 2019-06 3(d)(ii) CLOSED via the F47 manual-linkage ledger (the eyeballed
