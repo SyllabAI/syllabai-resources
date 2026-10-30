@@ -88,6 +88,9 @@ src = (RES / "scripts" / "official_examq_export_hub.py").read_text(encoding="utf
 check("sourcePaper.questionPart wired to printed_part_label",
       '"questionPart": printed_part_label(p["part_number"])' in src)
 check("G-E6 gate present in run_gates", "g_e6_label_law(q[\"parts\"]" in src)
+import official_examq_verify_export as V
+check("verify harness delta classes learned sourcePaper (F119)",
+      "sourcePaper" in V.DISCLOSED_DELTA_CLASSES)
 
 # ── 4. the staged exports of record carry the law (when staged) ─────────────
 # Local receipt re-verification: SKIP (not FAIL) when no F119 staging exists —
