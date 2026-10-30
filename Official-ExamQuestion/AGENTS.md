@@ -350,6 +350,14 @@ discloses"). This section makes it operational for every agent wave:
 
 ## The v0.5 serving fields (what the frontend / Smart Mark consume)
 
+- `sourcePaper.questionPart` — F119: the printed part label ("(a)", "(a)(i)") as a FIRST-CLASS
+  field on the official plane, derived from the corpus part_number by `printed_part_label()`
+  (question number stripped; fail-closed grammar: 1-3 parenthesized [a-z0-9]{1,5} groups;
+  bare "7"-style whole-question slices → null) and identity-pinned to the part id slug by
+  the G-E6 label gate (fail-closed BOTH directions: label == id-derived, null IFF path-less).
+  The hub player consumes it first (lib/part-label data-first branch) with the slug parse as
+  fail-closed fallback; it renders INLINE with the part text at a smaller label size
+  (T-OEQ-PARTLABEL-2/3). Never derive a printed label from a list index — see LEDGER F119.
 - `solution_md` — the verbatim mark-scheme answer block for the part (whitespace-
   normalized; marks-column digits stripped). Render behind a reveal control.
 - `mark_points[]` — awardable points `{id, marks, text_md}`; ids are stable
@@ -505,6 +513,23 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 26 (2026-10-30, F119) CLOSED the operator-reported part-label learner-surface gap
+  end-to-end and shipped the pipeline's first SERVING-FIELD playbook: the exporter emits
+  `sourcePaper.questionPart` (printed_part_label, fail-closed grammar), the new G-E6 gate
+  pins it to the part's own identity (label == id-derived, both directions, unit battery
+  scripts/official_examq_f119_tests.py + CI step), physics + chemistry re-served at the
+  current cut (delta == the label class exactly; G-E4 byte-untouched SME planes;
+  manifests re-stamped), maths-B served via a disclose-everything FIELD-WRITE because its
+  serving plane is AHEAD of its corpus (the T-OEQ-MATHSB-SERVE-1 run-020..025 hand-repair
+  chain, 1,461-pid standing debt — a corpus re-export measured 1,466 regressive deltas,
+  corpus-lag census filed). READ the F119 ledger section before any maths-B re-export:
+  the next corpus catch-up MUST port printed_part_label + G-E6 into the maths-B port
+  first, or the re-serve strips the labels. QUEUED from this wave: (a) a G9
+  rendered-benchmark case for part-label VISIBILITY (the gap that let the defect ship —
+  data gates could not see a field the exporter never emitted); (b) the maths-B corpus
+  back-sync (the standing debt; labels ride the ported exporter); (c) the v2-side
+  T-OEQ-PARTLABEL-3 card (data-first part-label consumption + the text-sm label) is the
+  serving counterpart of this wave.
 - Task 25 (2026-10-29, F117) CLOSED the Finding-8b exponent-restore class at source (the
   F111 census's class 2: 23 parts / 51 fields) and recorded Finding 8a CLOSED BY EVIDENCE.
   8b's mechanism was never a validity-rule refusal: the F89 restore law had been DEAD CODE

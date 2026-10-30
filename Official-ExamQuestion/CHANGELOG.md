@@ -1,5 +1,51 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## exporter-v4+F119 — 2026-10-30 · the printed-part-label serving wave (T-OEQ-PARTLABEL-3) — converter unchanged
+
+- **The gap (operator-reported, all three courses)**: the question player rendered parts
+  as bare problemMd blocks — the printed part labels ((a), (c)(ii)…) never appeared. The
+  label was never a first-class serving field: the exporter hardcoded
+  `"questionPart": None` and the player's partLabel was aria-only by design. No gate
+  could catch it (the corpus always carried the label; the byte gates compare the
+  exporter against its own bundle; G9 had no visibility case).
+- **The data-side fix (this repo, scripts/official_examq_export_hub.py)**:
+  `printed_part_label()` derives the label from the corpus part_number ("1(a)(i)" →
+  "(a)(i)"; fail-closed grammar: 1-3 parenthesized [a-z0-9]{1,5} groups; bare
+  whole-question numbers → null) and the part emission serves it as
+  `sourcePaper.questionPart`. The new **G-E6 label-identity gate** (`g_e6_label_law`,
+  also ported to the maths-B exporter's next base) fails closed in BOTH directions:
+  every official part's questionPart must equal its own id slug's path re-wrapped
+  ("1-a-i" → "(a)(i)"), null IFF path-less — a label can never vanish or be invented.
+  Zero-network unit battery `scripts/official_examq_f119_tests.py` (30 checks) + CI
+  step. Physics (2,239 of 2,254 parts labelled; 15 whole-question slices stay null) and
+  chemistry (2,607 of 2,607) re-served from the corpus of record with the full G-E
+  suite + the disclosure censuses
+  (scripts/exporter-disclosures/2026-10-30-f119-part-label-serving-4ph1/-4ch1.json);
+  the SME questions.json planes are byte-untouched (G-E4: 2,057,977 B / 2,605,409 B);
+  manifests re-stamped (importSource.ref = the consumed cut; F119 note of record).
+- **The maths-B discipline (the wave's finding)**: the igcse-maths-b-16 serving plane is
+  AHEAD of its corpus (the T-OEQ-MATHSB-SERVE-1 run-020..025 eyes-on hand-repair chain,
+  1,461-pid standing debt); a corpus re-export at the a7a34cd9 pin measured **1,469
+  regressive content deltas** at the run-026 plane 37fc0a18 (1,466 at the run-025
+  plane it superseded mid-wave; census:
+  scripts/exporter-disclosures/2026-10-30-f119-maths-b-corpus-lag-census.json) —
+  re-exporting would have resurrected repaired defect classes. The F119 label law went
+  to maths-B as a serve-plane FIELD-WRITE instead: 1,723 id-derived label writes, 720
+  path-less parts stay null, 8/8 fail-closed battery (serialization identity, census
+  EXACT 66/1281/2443/6600, marks+id planes identical, changed-set deep-diff =
+  questionPart only, label law bidirectional, PUA/FFFD/dollar parity, single-line
+  compact shape). The next maths-B corpus catch-up MUST port printed_part_label + G-E6
+  into the port BEFORE re-exporting.
+- **The hub line (v2, T-OEQ-PARTLABEL-1/2/3)**: #467 (lib/part-label.ts fail-closed
+  slug/SME derivation), #469 (the label INLINE with the part text — same-line flex
+  baseline row, not a chip above), this wave's data-first consumption branch + the
+  smaller label size (operator: "the font of the part number could be a little
+  smaller"). Corpus-wide: 6,569 of 7,304 official parts carry first-class printed
+  labels; 735 stay honestly null. AUDIT of record:
+  AUDIT-2026-10-30-f119-part-label-serving.md. Queued: the G9 rendered label-visibility
+  case; the maths-B corpus back-sync.
+
+
 ## 0.33.0 — 2026-10-30 · the F95 ALLOW-lead guard: the F111 row's last review-queue item closes (2025-11 1C 5(c) adjudicated a false positive)
 
 - **F118, the false positive**: the F111 row's review-queue drift ("3 new honest F95

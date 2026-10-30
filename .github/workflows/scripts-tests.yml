@@ -138,3 +138,5 @@ jobs:
             --current /tmp/current-questions.json \
             --current-official-papers /tmp/current-official-papers.json \
             --allow-new-official
+      - name: F119 part-label battery (the printed-part-label serving wave — law + wiring, zero network)
+        run: python3 scripts/official_examq_f119_tests.py
