@@ -513,6 +513,19 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 32 (2026-10-30, F124) CLOSED the F121/F123 disclosure-consumption debt (operator
+  order "F121 regeneration", trace 1a18cc6d37cc78f9): both chemistry disclosures of record
+  went stale when their v2 companions consumed the censuses (#486 the 567-part group-stem
+  sync; #499 the 12-pid stemfig stub sync) — the F119-section wave-consumption race
+  recurring on the shared official-export-gates pick. Eyes-on per the gate's own law
+  (every class): fresh census 0; the restore set re-derived independently from the corpus
+  groups == the F121 census exactly (567 pids / 54 sets, set-equal both ways); 567/567
+  per-pid byte-equal v2==rebuilt; G-E7 on the served bundle {567 served / 48 keys / 46
+  cuts}; verdict classes 528 mechanical / 35 drop-tail / 2 dropSpan+dropTail / 1 replace /
+  1 dropSpan with per-class rendered samples eyeballed. Fix = the F115 convention:
+  r2-consumed twins filed for both (empty census; originals untouched); the LATEST pick
+  lands on the F123 twin in reproducibility no-op mode. Zero corpus bytes, zero exporter
+  changes. Re-runnable: exporter of record at the staged cut vs the v2 main bundles.
 - Task 31 (2026-10-30, F123) CLOSED the 2019-06 stem-figure stub tranche (operator
   order "the 2019-06 stem-figure stub pass"): the F121 soup detector's
   false-negative class — 13 June-2019 stems serving flattened figure-label soup
