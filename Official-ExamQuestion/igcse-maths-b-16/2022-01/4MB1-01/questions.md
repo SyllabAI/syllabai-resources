@@ -55,18 +55,14 @@ Find the value of when a = − 2 and b = −3 b
 > number, excluding 180 and 198 eg.
 > 360,540,720,900,1080 and 396, 594, 792, 990,1188
 > 1980 A1 Allow 22 × 32 × 5 ×11
-> Total 2 marks
 > 2 3 p ( 2 p 2 q 5 r − 5q 3 ) or 3q 3 ( 2 p 3 q 2 r − 5 p ) or 2 M1
 > pq 3 ( 6 p 2 q 2 r − 15 ) or 3 pq ( 2 p 2 q 4 r − 5q 2 )
 > or 3 pq 2 ( 2 p 2 q 3 r − 5q ) or
 > 3 pq 3 ( 2 p 2 q 2 r − 5 ) A1 cao
-> Total 2 marks
 > 11 − 2 × 4 11 − 2( −2) 2
 > oe Allow or or
 > −3 −3 −3 −3
 > –1 A1 cao
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 90 99 those shaded (or other combination with a product
 
@@ -77,9 +73,12 @@ A Diagram NOT accurately drawn 15 cm C 8 cm B The diagram shows the right-angled
 
 ### 4 [2]
 
-A Diagram NOT accurately drawn 15 cm C 8 cm B The diagram shows the right-angled triangle in which AB = 15 cm BC = 8 cm ∠ ACB = 90° Calculate the size, in degrees to 3 significant figures, of ∠ ABC ° ∠ ABC =
+The diagram shows the right-angled triangle in which AB = 15 cm BC = 8 cm ∠ ACB = 90° Calculate the size, in degrees to 3 significant figures, of ∠ ABC ° ∠ ABC =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, C, B · Figure values: 15, 8.
+
+![diagram — official paper figure (qp.pdf p.2)](assets/asset_4_diagram.png)
 
 
 **Mark scheme answer**
@@ -88,10 +87,9 @@ A Diagram NOT accurately drawn 15 cm C 8 cm B The diagram shows the right-angled
 > cos ∠ABC =
 > 15 Allow use of Pythagoras with tan or sine.
 > Allow use of sine rule or cosine rule. Eg.
-> [ AC =] 152 − 82 [ = 12.7] and sin ∠ABC = sin 90
+> [ AC =] $15^2$ − $8^2$ [ = 12.7] and sin ∠ABC = sin 90
 > "12.7"
 > 57.8 A1 awrt 57.8
-> Total 2 marks
 
 - **(2)** 8 2 M1 Correct expression for trigonometric ratio of ∠ABC
 
@@ -102,19 +100,17 @@ B = Calculate 4A − 3B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
 
 ### 5 [2]
 
-B = Calculate 4A − 3B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+B = Calculate 4A − 3B 
 
 
 **Mark scheme answer**
 
 > ⎛ 20 −16 ⎞ ⎛ 9 −6 ⎞ 2 M1 Multiplying by scalar. Allow 1 numerical or sign
-> ⎜ ⎟ [ −] ⎜ ⎟ error. There is no need to show an intention to
+>  [ −] error. There is no need to show an intention to
 > ⎝ 8 −8 ⎠ ⎝ − 6 15 ⎠
 > subtract.
 > ⎛ 11 −10 ⎞ A1 cao
-> ⎜ ⎟
-> ⎝14 − 23 ⎠
-> Total 2 marks
+>  14 − 23 
 
 - **(2)** ⎛ 20 −16 ⎞ ⎛ 9 −6 ⎞ 2 M1 Multiplying by scalar. Allow 1 numerical or sign
 
@@ -146,8 +142,6 @@ Find the value of m m =
 > [ m =]
 > letters
 > 36 2 A1 cao
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3m − 5 = 103 oe M1 Forms an equation or a method to find m eg.
 
@@ -186,9 +180,12 @@ A Diagram NOT 6.5 cm accurately drawn 55° O B OAB is a sector of a circle, cent
 
 ### 8 [3]
 
-A Diagram NOT 6.5 cm accurately drawn 55° O B OAB is a sector of a circle, centre O and radius 6.5 cm ∠ AOB = 55° Calculate the perimeter, in cm to 3 significant figures, of the sector OAB cm
+OAB is a sector of a circle, centre O and radius 6.5 cm ∠ AOB = 55° Calculate the perimeter, in cm to 3 significant figures, of the sector OAB cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, O, B · Figure values: 6.5, 55°.
+
+![diagram — official paper figure (qp.pdf p.4)](assets/asset_8_diagram.png)
 
 
 **Mark scheme answer**
@@ -199,8 +196,6 @@ A Diagram NOT 6.5 cm accurately drawn 55° O B OAB is a sector of a circle, cent
 > "6.239..."+ 2 × 6.5 M1 dep add on the 2 straight edges
 > 19.2 A1 143π
 > awrt 19.2 accept + 13
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 55 ⎡ 143π ⎤ 3 M1 Correct method to find the length of arc AB
 
@@ -216,7 +211,7 @@ Simplify (25 x 4 y 2 ) 2 25 x 3
 
 **Mark scheme answer**
 
-> 125x6 y3 3 M1 Two terms correct as part of a product. Expect to
+> 125x6 y³ 3 M1 Two terms correct as part of a product. Expect to
 > see as the numerator of a fraction but allow
 > separately. Allow 53 for 125
 > kx a y b M1 dep
@@ -225,8 +220,7 @@ Simplify (25 x 4 y 2 ) 2 25 x 3
 > product of 3 terms.
 > 2 of k = 5, a = "6"− 3 and b = 3 correct, seen k may
 > be a fraction
-> 5x3 y3 A1
-> Total 3 marks
+> 5x3 y³ A1
 
 - **(3)** 125x6 y3 3 M1 Two terms correct as part of a product. Expect to
 
@@ -237,9 +231,12 @@ A B Diagram NOT accurately drawn D C In the diagram, triangles ABC and ABD are s
 
 ### 10 [3]
 
-A B Diagram NOT accurately drawn D C In the diagram, triangles ABC and ABD are such that AD = BC and ∠ BAD = ∠ ABC Prove that AC = BD
+In the diagram, triangles ABC and ABD are such that AD = BC and ∠ BAD = ∠ ABC Prove that AC = BD
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, D, C.
+
+![diagram — official paper figure (qp.pdf p.5)](assets/asset_10_diagram.png)
 
 
 **Mark scheme answer**
@@ -263,9 +260,12 @@ Diagram NOT accurately drawn 24 cm 18 cm A solid is made by joining a hemisphere
 
 ### 11 [3]
 
-Diagram NOT accurately drawn 24 cm 18 cm A solid is made by joining a hemisphere, of diameter 18 cm, to a right circular cone whose base has a diameter of 18 cm. The height of the cone is 24 cm. The plane face of the cone coincides with the plane face of the hemisphere. Calculate the volume, in cm3, of the solid. Give your answer in terms of π cm3
+solid is made by joining a hemisphere, of diameter 18 cm, to a right circular cone whose base has a diameter of 18 cm. The height of the cone is 24 cm. The plane face of the cone coincides with the plane face of the hemisphere. Calculate the volume, in cm³, of the solid. Give your answer in terms of π cm³
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A · Figure values: 24, 18.
+
+![diagram — official paper figure (qp.pdf p.6)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**
@@ -278,8 +278,6 @@ Diagram NOT accurately drawn 24 cm 18 cm A solid is made by joining a hemisphere
 > π × 92 × 24 + π × 93
 > 3 3 3sf.)
 > 1134π A1 cao
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1 3 M1 Volume of cone or hemisphere accept value correct
 
@@ -289,6 +287,8 @@ Diagram NOT accurately drawn 24 cm 18 cm A solid is made by joining a hemisphere
 Given that y = where x ≠ 0 x dy find dx dy = . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . dx
 
 ### 12 [3]
+
+Given that y = where x ≠ 0 x dy find dx dy = ……………dx
 
 Given that y = where x ≠ 0 x dy find dx dy = dx
 
@@ -304,7 +304,7 @@ Given that y = where x ≠ 0 x dy find dx dy = dx
 > −1 2 −2
 > ⎡ dy ⎤ ( 2 x + 1) x − ( x + x + 1) [1]
 > =
-> ⎢⎣ dx ⎥⎦ x2
+> ⎢⎣ dx ⎥⎦ x²
 > ⎡ d( x) ⎤ ⎡ d( x −1 ) ⎤ −2 M1 indep For one term in x correctly differentiated (ft
 > =
 > ⎢⎣ dx ⎥⎦ 1 or ⎢ dx = ⎥ − x their simplified 3 term expression) or one correct
@@ -316,7 +316,6 @@ Given that y = where x ≠ 0 x dy find dx dy = dx
 > SC if no other marks awarded if top and bottom are
 > differentiated independently giving an answer of
 > 2 x + 1 award B1
-> Total 3 marks
 
 - **(3)** y = x + 1 + x−1 3 M1 Rewriting as a 3 term expression in a form that can
 
@@ -337,8 +336,6 @@ Without using a calculator and showing your working clearly, express 432 − 147
 > 5 3 A1 Must gain the method mark to award this
 > allow for 75 gained without 5 3 stated
 > 75 A1 dep on M mark gained allow n = 75
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 144 × 3 – 49 × 3 3 M1 Must see 432 and 147 decomposed into at least
 
@@ -349,34 +346,34 @@ A and B are two similar solids. The volume of A is 500 cm3 The volume of B is 32
 
 ### 14 [3]
 
-A and B are two similar solids. The volume of A is 500 cm3 The volume of B is 32 cm3 The total surface area of A is 250 cm2 Calculate the total surface area, in cm2, of B cm2
+A and B are two similar solids. The volume of A is 500 cm³ The volume of B is 32 cm³ The total surface area of A is 250 cm² Calculate the total surface area, in cm², of B
+
+…………… cm²
 
 
 **Mark scheme answer**
 
 > 32 ⎡ 8 ⎤ ⎡ 2⎤ 3 M1 An expression to find a linear scale factor or a
 > 3 = = 0.064 ⎥⎦ ⎢⎣ = 5 ⎥⎦ or correct equation in x 3 .
-> 500 ⎢⎣ 125 3
+> 500 125 3
 > ⎛ x ⎞ ⎛ 500 ⎞
-> 500 ⎡ 125
+> 500 125
 > =
 > ⎤ ⎡ 5⎤
 > = 15.625⎥ ⎢ = ⎥ or
-> Also accept ⎜ ⎟ =⎜ ⎟ for this mark only.
+> Also accept = for this mark only.
 > ⎢ ⎝ 250 ⎠ ⎝ 32 ⎠
 > 32 ⎣ 8 ⎦ ⎣ 2⎦
 > 3
-> ⎛ 250 ⎞ ⎛ 500 ⎞
-> ⎜ ⎟ =⎜ ⎟ oe
+> ⎛ 250 ⎞ ⎛ 500 = oe
 > ⎝ x ⎠ ⎝ 32 ⎠
 > 250 × "0.4"2 or 250 ÷ "2.5"2 or M1 dep
 > 2 A fully correct expression for the surface area
 > ⎛ 32 ⎞
 > [ x =] 3
-> 250 × ⎜ ⎟ oe
+> 250 × oe
 > ⎝ 500 ⎠
 > 40 A1 cao
-> Total 3 marks
 
 - **(3)** 32 ⎡ 8 ⎤ ⎡ 2⎤ 3 M1 An expression to find a linear scale factor or a
 
@@ -412,8 +409,6 @@ Find the probability that this mouse weighs less than 22 grams.
 > oe ⎜ and 0.65 often seen ⎟ ft their 40 if it comes
 > 40 ⎝ 20 ⎠
 > from 8 + 3 + 15 + 8 + 6
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 26 1 B1 ⎛ 13 ⎞
 
@@ -424,7 +419,9 @@ Andrew borrowed some money from Sarah. He borrowed $21 250 on 1st January 2018 O
 
 ### 16(a) [1]
 
-Show that before Andrew had repaid $4000 to Sarah on 1st January 2019, he owed Sarah $22 100 After Andrew had repaid $4000 to Sarah on 1st January 2020,
+Andrew borrowed some money from Sarah. He borrowed \$21 250 on 1st January 2018 On 31st December each year, starting on 31st December 2018, Sarah charged Andrew interest of 4% on the amount of money that he owed her. This interest was added to the amount of money that Andrew owed Sarah. On 1st January each year, starting on 1st January 2019, Andrew repaid \$4000 to Sarah.
+
+Show that before Andrew had repaid \$4000 to Sarah on 1st January 2019, he owed Sarah \$22 100 After Andrew had repaid \$4000 to Sarah on 1st January 2020 …………… , ……………
 
 
 **Mark scheme answer**
@@ -435,7 +432,7 @@ Show that before Andrew had repaid $4000 to Sarah on 1st January 2019, he owed S
 
 ### 16(b) [3]
 
-calculate how much money Andrew now owed Sarah. $
+calculate how much money Andrew now owed Sarah. \$
 
 
 **Mark scheme answer**
@@ -456,9 +453,12 @@ A B fountain D C Scale: 1 cm represents 1 m The diagram shows a scale drawing of
 
 ### 17 [4]
 
-A B fountain D C Scale: 1 cm represents 1 m The diagram shows a scale drawing of a garden in the shape of the rectangle ABCD. The position of a fountain in the garden is marked by a cross. Tarik is going to plant a tree in the garden. The tree must be less than 2 metres from AB, greater than 3 metres from the fountain, closer to AB than to AC. Using ruler and compasses only and showing all your construction lines, construct and show by shading the region in which Tarik can plant the tree. Label the region R.
+fountain D C Scale: 1 cm represents 1 m The diagram shows a scale drawing of a garden in the shape of the rectangle ABCD. The position of a fountain in the garden is marked by a cross. Tarik is going to plant a tree in the garden. The tree must be less than 2 metres from AB, greater than 3 metres from the fountain, closer to AB than to AC. Using ruler and compasses only and showing all your construction lines, construct and show by shading the region in which Tarik can plant the tree. Label the region R.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram.*
+> Labels in the original figure: A, B.
+
+![diagram — official paper figure (qp.pdf p.11)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -473,8 +473,6 @@ A B fountain D C Scale: 1 cm represents 1 m The diagram shows a scale drawing of
 > Correct region A1 dep All previous method marks must be awarded.
 > identified Condone if the region is not labelled R as long as it
 > is clearly shaded.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 4
 
@@ -485,9 +483,12 @@ A B fountain D C Scale: 1 cm represents 1 m The diagram shows a scale drawing of
 
 ### 18 [4]
 
-5 cm A B Diagram NOT accurately drawn D C 9 cm The diagram shows a trapezium ABCD. ∠ ABC = ∠ BCD = 90° AB = 5 cm DC = 9 cm The area of the trapezium ABCD is 29.4 cm2 Calculate the length, in cm, of AD cm
+The diagram shows a trapezium ABCD. ∠ ABC = ∠ BCD = 90° AB = 5 cm DC = 9 cm The area of the trapezium ABCD is 29.4 cm² Calculate the length, in cm, of AD cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, D, C · Figure values: 5, 9.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_18_diagram.png)
 
 
 **Mark scheme answer**
@@ -497,9 +498,8 @@ A B fountain D C Scale: 1 cm represents 1 m The diagram shows a scale drawing of
 > 2 Do not allow AD.
 > 29.4 × 2 M1 dep a correct expression for BC
 > [ BC =] [ = 4.2]
-> AD2 = "4.2"2 + (9 − 5)2 oe M1 indep A correct formula involving AD ft their BC
+> AD2 = "4.2"2 + (9 − 5)² oe M1 indep A correct formula involving AD ft their BC
 > 5.8 A1 cao
-> Total 4 marks
 
 - **(4)** 1 for correct formula for area of the trapezium. Allow
 
@@ -510,7 +510,9 @@ The sum of the interior angles of a regular polygon is 8280° Calculate the size
 
 ### 19 [4]
 
-The sum of the interior angles of a regular polygon is 8280° Calculate the size, in degrees, of each exterior angle of the regular polygon. °
+The sum of the interior angles of a regular polygon is 8280° Calculate the size, in degrees, of each exterior angle of the regular polygon.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -549,11 +551,8 @@ The numbers p and q are positive such that p is inversely proportional to q p = 
 > a correct expression for k.
 > ⎛ "1260" ⎞
 > 2 M1 dep Rearranging correctly to get a value for q.
-> q=⎜ ⎟
-> ⎝ 28 ⎠
+> q= 28 
 > 2025 A1 cao
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** k 4 M1 For using inversely M2 correct equation in
 
@@ -564,9 +563,11 @@ Diagram NOT accurately drawn a cm A cm2 C° b cm The diagram shows a triangle of
 
 ### 21 [4]
 
-Diagram NOT accurately drawn a cm A cm2 C° b cm The diagram shows a triangle of area A cm2 in which a = 5.2 to 1 decimal place b = 8.4 to 1 decimal place A = 13 to 2 significant figures. Given that the angle marked C ° is an acute angle, calculate the lower bound, to 3 significant figures, of C.
+a cm A cm² C° b cm The diagram shows a triangle of area A cm² in which a = 5.2 to 1 decimal place b = 8.4 to 1 decimal place A = 13 to 2 significant figures. Given that the angle marked C ° is an acute angle, calculate the lower bound, to 3 significant figures, of C.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -590,8 +591,6 @@ Diagram NOT accurately drawn a cm A cm2 C° b cm The diagram shows a triangle of
 > 12.5 = × 5.25 × 8.45 × sin C 12.5 Area < 13 , 5.2 < a 5.25 8.4 < b 8.45
 > 34.3 A1 Awrt 34.3 must see all correct values (12.5, 5.25
 > and 8.45) used
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 12.5 ≤ Area < 13.5 4 M1 One bound from each line seen e.g. 12.5 , 5.15 and
 
@@ -623,8 +622,6 @@ Express ÷⎜ − ⎟ as a single fraction in its simplest form. 6 x + 7 x − 1
 > inverting their divisor.
 > 5x − 1 A1 dep on all M marks awarded correct answer gained
 > 6x − 5 with no incorrect working seen.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 8 − 7x 4 M1 denominator factorised, must expand to give at least
 
@@ -669,8 +666,6 @@ Calculate the probability that the sum of the numbers on the two balls is greate
 > them oe eg × " "+ " "
 > 20 19
 > 62 A1 oe allow awrt 0.653
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 12 8 8 12 8 7 3 M1 ft their (a) (Do not ft values M2 for
 
@@ -701,8 +696,6 @@ The two digit number M has tens digit p and units digit q The two digit number N
 > Can be implied by a correct answer if all other
 > marks awarded
 > 67 A1 dep on all marks gained
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** [ M =]10 p + q or [ N =]10q + p stated or 5 M1 Allow M and N interchanged as long as one is
 
@@ -724,15 +717,13 @@ By writing 8x 2 − 56x + 17 in the form p (x + q) 2 + r find the exact solution
 > 8 ⎜ x 2 − 7 x + ⎟ [ = 0] Allow p = 8
 > ⎝ 8⎠
 > ⎛⎛ 7 ⎞ 49 ⎞
-> 8 ⎜ ⎜ x − ⎟ − ⎟ + 17 [ = 0] or dep Correct method for completing the square .
-> ⎜⎝ 2⎠ 4 ⎟⎠
-> ⎝ allow a maximum of one numeric or sign error in
+> 8 x − − + 17 [ = 0] or dep Correct method for completing the square .
+>  2 4 allow a maximum of one numeric or sign error in
 > M1
 > ⎛⎛ 7 ⎞ 49 17 ⎞
 > 2 total. Coefficient of x must be halved.
-> 8 ⎜ ⎜ x − ⎟ − + ⎟ [ = 0] Allow p = 8 and q = –3.5 oe
-> ⎜⎝ 2⎠ 4 8 ⎟⎠
-> ⎝
+> 8 x − − + [ = 0] Allow p = 8 and q = –3.5 oe
+>  2 4 8 
 > dep Obtain expression in the required form, allow a
 > 2 maximum of one numeric or sign error in total.
 > ⎛ 7⎞
@@ -758,8 +749,7 @@ By writing 8x 2 − 56x + 17 in the form p (x + q) 2 + r find the exact solution
 > 14 ± 9 2 oe dep on first three M marks awarded. Allow
 > x= A1
 > 4 answer given as decimal if correct answer seen.
-> Question Working Answer Mark Notes
-> square should be awarded the first three marks
+> A candidate who attempts to complete the square should be awarded the first three marks
 > in line with the main scheme.
 > M1 A fully correct substitution into a fully correct
 > − ( −56 ) ± ( −56 ) − 4 × 8 ×17
@@ -779,10 +769,6 @@ By writing 8x 2 − 56x + 17 in the form p (x + q) 2 + r find the exact solution
 > A candidate who does not attempt to complete
 > the square and who only uses the quadratic
 > formula can score a maximum of 2 marks.
-> Total 6 marks
-> Question Working Answer Mark Notes
-> 7 M1 Method to find AM allow trigonometric methods eg
-> [ AM =] (8 3 ) − ( 4 3 ) [ = 12]
 
 - **(6)** 8( x 2 − 7 x) + 17 [ = 0] or
 
@@ -793,9 +779,12 @@ V Diagram NOT accurately drawn A O B M C The diagram shows a solid pyramid with 
 
 ### 26 [7]
 
-V Diagram NOT accurately drawn A O B M C The diagram shows a solid pyramid with a triangular base ABC, which is an equilateral triangle of side 8 3 cm. The base of the pyramid is on a horizontal surface and the vertex V of the pyramid is vertically above the point O of the base. The edges AV, BV and CV of the pyramid are the same length and O lies on AM, where M is the midpoint of CB and AO : OM = 2 : 1 Given that the total surface area of the pyramid is 150 3 cm2, find the length, in cm, of VO cm
+The diagram shows a solid pyramid with a triangular base ABC, which is an equilateral triangle of side 8 3 cm. The base of the pyramid is on a horizontal surface and the vertex V of the pyramid is vertically above the point O of the base. The edges AV, BV and CV of the pyramid are the same length and O lies on AM, where M is the midpoint of CB and AO : OM = 2 : 1 Given that the total surface area of the pyramid is 150 3 cm², find the length, in cm, of VO cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: V, A, O, B, M, C.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_26_diagram.png)
 
 
 **Mark scheme answer**
@@ -827,13 +816,10 @@ V Diagram NOT accurately drawn A O B M C The diagram shows a solid pyramid with 
 > ⎣ ⎦
 > OV = "8.5"2 − "4"2 M1 dep on all previous marks OV = "120.25"− "8"2
 > 7.5 A1 cao
-> Total 7 marks
 > Candidates may use different length or areas from those listed, any that are equivalent should gains marks as per the scheme. For reference:
 > Taking X as mid-point of AB and Y as the mid-point of AC
 > AM = CX = BY = 12, AO = BO = CO = 8, OM = OX = OY = 4, Area of ABC = 48 3 = 83.1 ,
-> Question Working Answer Mark Notes
 > Area of BCV = Area of ABV = Area of ACV = 34 3 = 58.9 , VM = VX = VY = 8.5, VB = VA = VC = 120.25 = 11.0 , VO = 7.5
-> Question Working Answer Mark Notes
 > AM = CX = BY = 12
 > AO = BO = CO = 8
 > OM = OX = OY = 4
@@ -850,7 +836,6 @@ V Diagram NOT accurately drawn A O B M C The diagram shows a solid pyramid with 
 > Y √481
 > 4√3
 > 4√3
-> Question Working Answer Mark Notes
 
 - **(7)** 2
 

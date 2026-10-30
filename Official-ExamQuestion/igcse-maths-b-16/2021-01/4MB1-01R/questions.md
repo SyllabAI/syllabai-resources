@@ -8,7 +8,7 @@ The nth term of a sequence is given by 9 − 4n Find the first 3 terms of this s
 
 ### 1 [2]
 
-The nth term of a sequence is given by 9 − 4n Find the first 3 terms of this sequence , ,
+The nth term of a sequence is given by 9 − 4n Find the first 3 terms of this sequence …………… , …………… , ……………
 
 
 **Mark scheme answer**
@@ -94,7 +94,9 @@ N = 254 × 583 Evaluate N, giving your answer
 
 ### 5(a) [1]
 
-to 3 significant figures,
+N = 254 × 583 Evaluate N, giving your answer
+
+to 3 significant figures …………… , ……………
 
 
 **Mark scheme answer**
@@ -122,7 +124,9 @@ Find the size of each interior angle of a regular 18-sided polygon. °
 
 ### 6 [2]
 
-Find the size of each interior angle of a regular 18-sided polygon. °
+Find the size of each interior angle of a regular 18-sided polygon.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -131,7 +135,6 @@ Find the size of each interior angle of a regular 18-sided polygon. °
 > 180 − M1 (oe e.g. )
 > 18
 > 160 2 A1
-> Total 2 mark
 > s
 
 - **(2)** 360 180 (18 − 2 )
@@ -164,9 +167,12 @@ Diagram NOT accurately drawn B A 7 cm O The diagram shows a sector OAB of a circ
 
 ### 8 [2]
 
-Diagram NOT accurately drawn B A 7 cm O The diagram shows a sector OAB of a circle centre O and radius 7 cm. Given that the area of the sector OAB is 52 cm2 calculate the size, to the nearest degree, of ∠AOB. °
+The diagram shows a sector OAB of a circle centre O and radius 7 cm. Given that the area of the sector OAB is 52 cm² calculate the size, to the nearest degree, of ∠AOB. °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, O · Figure values: 7.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_8_diagram.png)
 
 
 **Mark scheme answer**
@@ -213,7 +219,7 @@ Solve = 3 2 Show clear algebraic working. x = . . . . . . . . . . . . . . . . . 
 
 ### 10 [3]
 
-Solve = 3 2 Show clear algebraic working. x =
+Solve = 3 2 Show clear algebraic working. x = ……………Solve = 3 2 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
@@ -238,7 +244,7 @@ A company makes two sizes of containers, small and large. Each small container i
 
 ### 11 [3]
 
-A company makes two sizes of containers, small and large. Each small container is similar to each large container. The volume of each small container is 225 cm3 The volume of each large container is 650 cm3 Given that the height of each large container is 18 cm, calculate the height, in cm to 3 significant figures, of each small container cm
+A company makes two sizes of containers, small and large. Each small container is similar to each large container. The volume of each small container is 225 cm³ The volume of each large container is 650 cm³ Given that the height of each large container is 18 cm, calculate the height, in cm to 3 significant figures, of each small container cm
 
 
 **Mark scheme answer**
@@ -251,10 +257,8 @@ A company makes two sizes of containers, small and large. Each small container i
 > 650 3
 > 1 M1dep for a fully correct method to find the height
 > ⎛ 9 ⎞3
-> eg 18 ⎜ ⎟
-> ⎝ 26 ⎠
+> eg 18 26 
 > 12.6 3 A1 awrt 12.6
-> Total 3 marks
 
 - **(3)** 650 1 1 225 M1 for a correct statement for ratio of lengths (may
 
@@ -287,7 +291,7 @@ A and B are two matrices such that the determinant of A is equal to the determin
 
 ### 13 [3]
 
-A and B are two matrices such that the determinant of A is equal to the determinant of B. ⎛ 3 2⎞ ⎛ 5 3⎞ Given that A = ⎜ ⎟ and B = ⎜⎝ 1 4⎟⎠ where a is a positive integer, ⎝ −1 a⎠ find the value of a. a =
+A and B are two matrices such that the determinant of A is equal to the determinant of B. ⎛ 3 2⎞ ⎛ 5 3⎞ Given that A = and B = 1 4 where a is a positive integer, ⎝ −1 a⎠ find the value of a. a =
 
 
 **Mark scheme answer**
@@ -307,7 +311,7 @@ The equation of the curve C is y = x3 − x2 The point A lies on C such that the
 
 ### 14 [3]
 
-The equation of the curve C is y = x3 − x2 The point A lies on C such that the x coordinate of A is −1 Use differentiation to find the gradient of C at the point A.
+The equation of the curve C is y = x³ − x² The point A lies on C such that the x coordinate of A is −1 Use differentiation to find the gradient of C at the point A.
 
 
 **Mark scheme answer**
@@ -331,9 +335,12 @@ B Diagram NOT accurately drawn E A C M F D The diagram shows △ABC and the stra
 
 ### 15 [3]
 
-B Diagram NOT accurately drawn E A C M F D The diagram shows △ABC and the straight line BMD such that M is the midpoint of AC. The points E and F lie on BMD such that AE and CF are each perpendicular to BMD. Prove that △AEM is congruent to △CFM.
+The diagram shows △ABC and the straight line BMD such that M is the midpoint of AC. The points E and F lie on BMD such that AE and CF are each perpendicular to BMD. Prove that △AEM is congruent to △CFM.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, E, A, C, M, F, D.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_15_diagram.png)
 
 
 **Mark scheme answer**
@@ -358,28 +365,27 @@ A= B = 4 3 4 1 Find
 
 ### 16(a) [2]
 
-A − B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+A= B = 4 3 4 1 Find
+
+A − B 
 
 
 **Mark scheme answer**
 
 > ⎛ 5 −7 ⎞ 2 B2 (-1 for eeoo)
-> ⎜ ⎟
-> ⎝ 0 −2 ⎠
+>  0 −2 
 
 - **(2)** ⎛ 5 −7 ⎞ 2 B2 (-1 for eeoo)
 
 ### 16(b) [2]
 
-3A + 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+3A + 2B 
 
 
 **Mark scheme answer**
 
 > ⎛ 5 4⎞ 2 B2 (-1 for eeoo)
-> ⎜ ⎟
-> ⎝ 20 9 ⎠
-> Total 4 marks
+>  20 9 
 
 - **(2)** ⎛ 5 4⎞ 2 B2 (-1 for eeoo)
 
@@ -398,7 +404,7 @@ Show that ÷ 2 is equal to an integer. x + x − 12 3 x − 48 Show clear algebr
 > 5 x − 15 3 x 2 − 48 M1
 > × oe
 > x 2 + x − 12 x−4
-> 5 ( x − 3) 3 ( x + 4 )( x − 4 ) M1 for factorising either 5 x − 15 or x2 + x − 12
+> 5 ( x − 3) 3 ( x + 4 )( x − 4 ) M1 for factorising either 5 x − 15 or x² + x − 12
 > × M1 for factorising fully 3x² ˗ 48
 > ( x − 3)( x + 4 ) x−4
 > 15 4 A1 dep on M3
@@ -407,7 +413,6 @@ Show that ÷ 2 is equal to an integer. x + x − 12 3 x − 48 Show clear algebr
 > x 3 − 3x 2 − 16 x + 48 (M2 with 1 or 2 incorrect terms)
 > (M1 with 3 incorrect terms)
 > 15 4 A1 dep on M3
-> Total 4 marks
 
 - **(4)** 5 x − 15 3 x 2 − 48 M1
 
@@ -430,6 +435,12 @@ x = 4
 
 y = 3x − 1
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 18(b) [1]
 
 On the grid, show by shading, the region R defined by the inequalities x ≤ 4 and 2x + y ≥ 8 and y ≤ 3x – 1 Label the region R.
@@ -451,9 +462,12 @@ C B Diagram NOT accurately drawn 5 cm O Q 63° A P In the diagram, A, B and C ar
 
 ### 19 [4]
 
-C B Diagram NOT accurately drawn 5 cm O Q 63° A P In the diagram, A, B and C are points on a circle with centre O and radius 5 cm. AOC is a diameter of the circle and PAQ is the tangent to the circle at A. ∠BAQ = 63° Calculate the length, in cm to 3 significant figures, of AB. AB = cm
+In the diagram, A, B and C are points on a circle with centre O and radius 5 cm. AOC is a diameter of the circle and PAQ is the tangent to the circle at A. ∠BAQ = 63° Calculate the length, in cm to 3 significant figures, of AB. AB = cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, B, O, Q, A, P · Figure values: 5, 63°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_19_diagram.png)
 
 
 **Mark scheme answer**
@@ -488,15 +502,13 @@ C B Diagram NOT accurately drawn 5 cm O Q 63° A P In the diagram, A, B and C ar
 > (1 + 2 )
 > 1+ 2 2 + 2
 > ⎛ 2 − 2 ⎞⎛ 3 − 2 2 ⎞ M1ft for a correct method to rationalise their
-> ⎜⎜ ⎟⎜
-> ⎟⎜ ⎟⎟ denominator (dep on a surd in the form a ± b c )
+>  denominator (dep on a surd in the form a ± b c )
 > ⎝ 3 + 2 2 ⎠⎝ 3 − 2 2 ⎠
 > 6−4 2 −3 2 + 4 M1 (dependent on previous M mark) for expanding
 > numerator (3 or 4 terms) allow one error with a
 > 9 −8 denominator of 1 or an implied 1
 > a = 10 4 A1 (dependent on M3)
 > b = −7
-> Total 4 marks
 
 - **(4)** 2− 2 2− 2 M1 for expanding denominator correctly (2, 3 or 4
 
@@ -514,7 +526,7 @@ y varies inversely as the cube of x and y = 3a when x = 2a Find an expression fo
 
 > k M1
 > y=
-> x3
+> x³
 > k = 3a ( 2a )
 > ( = 24a )
 > 4 A1
@@ -526,7 +538,6 @@ y varies inversely as the cube of x and y = 3a when x = 2a Find an expression fo
 > A1 a or 0.375a −2 must come from correct
 > 8a 2
 > working
-> Total 4 marks
 
 - **(4)** k M1
 
@@ -537,21 +548,23 @@ Diagram NOT 4 cm accurately drawn The diagram shows a solid made by fixing a sol
 
 ### 22 [4]
 
-Diagram NOT 4 cm accurately drawn The diagram shows a solid made by fixing a solid hemisphere of radius 4 cm on the flat circular top face of a solid cylinder of radius 4 cm. The centre of the hemisphere coincides with the centre of the flat circular top face of the cylinder. 920 The total volume of the solid is π cm3 Find the total height, in cm, of the solid cm
+The diagram shows a solid made by fixing a solid hemisphere of radius 4 cm on the flat circular top face of a solid cylinder of radius 4 cm. The centre of the hemisphere coincides with the centre of the flat circular top face of the cylinder. 920 The total volume of the solid is π cm³ Find the total height, in cm, of the solid cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Figure values: 4.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
 
 > Volume of cylinder π ( 4 ) h oe
 > 2 B1
-> Volume of hemisphere is 2 π ( 4 )3 oe B1
+> Volume of hemisphere is 2 π ( 4 )³ oe B1
 > 128 920 M1ft (dep on the sum of 2 volumes and at least B1
 > π + 16π h = π (h = 16.5) oe previously awarded) for setting up an equation in h
 > 3
 > 20.5 4 A1
-> Total 4 marks
 
 - **(4)** Volume of cylinder π ( 4 ) h oe
 
@@ -562,9 +575,11 @@ a cm Diagram NOT accurately drawn R cm2 h cm b cm The diagram shows a trapezium 
 
 ### 23 [4]
 
-a cm Diagram NOT accurately drawn R cm2 h cm b cm The diagram shows a trapezium in which the parallel sides are of length a cm and b cm The height of the trapezium is h cm The area of the trapezium is R cm2 Given that b = 14.5 to the nearest 0.5 h = 4.0 to the nearest 0.1 R = 50 to the nearest whole number calculate the lower bound, to 3 significant figures, of a
+a cm Diagram NOT accurately drawn R cm² h cm b cm The diagram shows a trapezium in which the parallel sides are of length a cm and b cm The height of the trapezium is h cm The area of the trapezium is R cm² Given that b = 14.5 to the nearest 0.5 h = 4.0 to the nearest 0.1 R = 50 to the nearest whole number calculate the lower bound, to 3 significant figures, of a
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_23_diagram.png)
 
 
 **Mark scheme answer**
@@ -573,15 +588,14 @@ a cm Diagram NOT accurately drawn R cm2 h cm b cm The diagram shows a trapezium 
 > hLB = 3.95, hUB = 4.05
 > RLB = 49.5, RUB = 50.5
 > ⎛ a + 14.75 ⎞ M1 for use of correct formula for the area of a
-> eg 49.5 = ⎜ ⎟ 4.05 or 2(49.5 ÷ 4.05) – 14.75 oe trapezium with b, h and R substituted (may be used
+> eg 49.5 = 4.05 or 2(49.5 ÷ 4.05) – 14.75 oe trapezium with b, h and R substituted (may be used
 > ⎝ 2 ⎠
 > with given figures or incorrect bounds)
 > ⎛R ⎞ ⎛ 49.5 ⎞ M1 for rearranging for a and using RLB where
-> aLB = 2 ⎜ LB ⎟ − bUB eg aLB = 2 ⎜ ⎟ − 14.75
+> aLB = 2 ⎜ LB ⎟ − bUB eg aLB = 2 − 14.75
 > ⎝ hUB ⎠ ⎝ 4.05 ⎠ 49.5 ≤ RLB < 50 , hUB where 4 < hUB ≤ 4.05 and bUB
 > where 14.5 < bUB ≤ 14.75
 > 9.69 4 A1 awrt 9.69 (for reference: 9.6944444…)
-> Total 4 marks
 
 - **(4)** bLB = 14.25, bUB = 14.75 B1 for one correct LB or UB stated
 
@@ -597,7 +611,7 @@ q = The vectors p and q are such that | p | = | p − 2q | Find the value of x. 
 
 **Mark scheme answer**
 
-> ⎡ p 2 ⎤ = 4 + ( 3 − 2x )2 B1 for either correct p or p
+> ⎡ p 2 ⎤ = 4 + ( 3 − 2x )² B1 for either correct p or p
 > ⎣ ⎦
 > p − 2q = 64 + (1 − 2x )
 > 2
@@ -606,7 +620,6 @@ q = The vectors p and q are such that | p | = | p − 2q | Find the value of x. 
 > correctly
 > 13 − 12 x = 65 − 4 x oe eg 8 x = − 52
 > x = −6.5 4 A1 dep on correct working seen
-> Total 4 marks
 
 - **(4)** ⎡ p 2 ⎤ = 4 + ( 3 − 2x )2 B1 for either correct p or p
 
@@ -619,25 +632,24 @@ There are 12 marbles in bag A and 15 marbles in bag B. In bag A, there are 7 yel
 
 There are 12 marbles in bag A and 15 marbles in bag B. In bag A, there are 7 yellow marbles and 5 red marbles. In bag B, there are 10 yellow marbles and 5 red marbles. Eugene takes at random one marble from bag A and without looking at the marble puts the marble into bag B. Eugene then takes at random one marble from bag A and takes at random two marbles from bag B. He places the three marbles on a table. Calculate the probability that the three marbles on the table all have the same colour. ( )
 
-> 🖼 crop required: table (qp.pdf p.20)
+![figure — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-01R/assets/asset_25_25.png)
+
+![figure — official paper figure (qp.pdf p.21)](assets/asset_25_25.png)
 
 
 **Mark scheme answer**
 
 > ⎛ 5 ⎞ ⎛ 7 ⎞ ⎛ 10 ⎞ ⎛ 9 ⎞ M3 for three correct expressions, M2 for two correct
-> ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ oe (red moved from A to expressions and M1 for one correct expression
+>  × × × oe (red moved from A to expressions and M1 for one correct expression
 > ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
 > B then choosing 3 yellow)
-> ⎛5⎞ ⎛4⎞ ⎛6⎞ ⎛5⎞
-> ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ oe (red moved from A to B
+> ⎛5⎞ ⎛4⎞ ⎛6⎞ ⎛5 × × × oe (red moved from A to B
 > ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
 > then choosing 3 red)
-> ⎛ 7 ⎞ ⎛ 6 ⎞ ⎛ 11 ⎞ ⎛ 10 ⎞
-> ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ oe (yellow moved from A
+> ⎛ 7 ⎞ ⎛ 6 ⎞ ⎛ 11 ⎞ ⎛ 10 × × × oe (yellow moved from A
 > ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
 > to B then choosing 3 yellow)
-> ⎛7⎞ ⎛5⎞ ⎛5⎞ ⎛4⎞
-> ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ × ⎜ ⎟ oe (yellow moved from A to
+> ⎛7⎞ ⎛5⎞ ⎛5⎞ ⎛4 × × × oe (yellow moved from A to
 > ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
 > B then choosing 3 red)
 > M1dep – attempt a correct calculation by summing four
@@ -645,30 +657,18 @@ There are 12 marbles in bag A and 15 marbles in bag B. In bag A, there are 7 yel
 > 907 5 A1 (oe) accept awrt 0.286
 > 3168
 > See next page for SC Total 5 marks
-> Special cases ⎛ 7 ⎞ ⎛ 10 ⎞ ⎛ 9 ⎞ ⎛4⎞ ⎛ 6⎞ ⎛5⎞
-> ⎜ ⎟×⎜ ⎟×⎜ ⎟, ⎜ ⎟×⎜ ⎟×⎜ ⎟
-> ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
-> ⎛ 6 ⎞ ⎛ 11 ⎞ ⎛ 10 ⎞ ⎛5⎞ ⎛ 5⎞ ⎛ 4⎞
-> ⎜ ⎟×⎜ ⎟×⎜ ⎟, ⎜ ⎟×⎜ ⎟×⎜ ⎟
-> ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
+> Special cases ⎛ 7 ⎞ ⎛ 10 ⎞ ⎛ 9 ⎞ ⎛4⎞ ⎛ 6⎞ ⎛5 × × , × × 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
+> ⎛ 6 ⎞ ⎛ 11 ⎞ ⎛ 10 ⎞ ⎛5⎞ ⎛ 5⎞ ⎛ 4 × × , × × 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
 > (SCB1 for 2 of these expressions))
 > OR
 > (SCB2 for 3 or 4 of
-> ⎛ 5 ⎞ ⎛ 10 ⎞ ⎛ 9 ⎞ ⎛ 5⎞ ⎛ 6⎞ ⎛5⎞
-> ⎜ ⎟×⎜ ⎟×⎜ ⎟ , ⎜ ⎟×⎜ ⎟×⎜ ⎟
-> ⎝ 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
-> ⎛ 7 ⎞ ⎛ 11 ⎞ ⎛ 10 ⎞ ⎛7⎞ ⎛ 5⎞ ⎛ 4⎞
-> ⎜ ⎟×⎜ ⎟×⎜ ⎟ , ⎜ ⎟×⎜ ⎟×⎜ ⎟
-> ⎝ 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
+> ⎛ 5 ⎞ ⎛ 10 ⎞ ⎛ 9 ⎞ ⎛ 5⎞ ⎛ 6⎞ ⎛5 × × , × × 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
+> ⎛ 7 ⎞ ⎛ 11 ⎞ ⎛ 10 ⎞ ⎛7⎞ ⎛ 5⎞ ⎛ 4 × × , × × 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠ ⎝ 12 ⎠ ⎝ 16 ⎠ ⎝ 15 ⎠
 > (SCB1 for 2 of these expressions))
 > OR
 > (SCB2 for 3 or 4 of
-> ⎛ 5 ⎞ ⎛ 7 ⎞ ⎛ 10 ⎞ ⎛ 10 ⎞ ⎛ 5⎞ ⎛4⎞ ⎛ 6⎞ ⎛ 6⎞
-> ⎜ ⎟×⎜ ⎟×⎜ ⎟×⎜ ⎟ , ⎜ ⎟×⎜ ⎟×⎜ ⎟×⎜ ⎟
-> ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠ ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠
-> ⎛ 7 ⎞ ⎛ 6 ⎞ ⎛ 11 ⎞ ⎛ 11 ⎞ ⎛7⎞ ⎛5⎞ ⎛ 5⎞ ⎛ 5⎞
-> ⎜ ⎟×⎜ ⎟×⎜ ⎟×⎜ ⎟ , ⎜ ⎟×⎜ ⎟×⎜ ⎟×⎜ ⎟
-> ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠ ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠
+> ⎛ 5 ⎞ ⎛ 7 ⎞ ⎛ 10 ⎞ ⎛ 10 ⎞ ⎛ 5⎞ ⎛4⎞ ⎛ 6⎞ ⎛ 6 × × × , × × × 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠ ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠
+> ⎛ 7 ⎞ ⎛ 6 ⎞ ⎛ 11 ⎞ ⎛ 11 ⎞ ⎛7⎞ ⎛5⎞ ⎛ 5⎞ ⎛ 5 × × × , × × × 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠ ⎝ 12 ⎠ ⎝ 11 ⎠ ⎝ 16 ⎠ ⎝ 16 ⎠
 > (SCB1 for 2 of these expressions))
 
 - **(5)** ⎛ 5 ⎞ ⎛ 7 ⎞ ⎛ 10 ⎞ ⎛ 9 ⎞ M3 for three correct expressions, M2 for two correct
@@ -680,39 +680,31 @@ G H Diagram NOT accurately drawn F E h cm B C 4a cm A 2a cm D The diagram shows 
 
 ### 26 [6]
 
-G H Diagram NOT accurately drawn F E h cm B C 4a cm A 2a cm D The diagram shows a cuboid ABCDEFGH in which AD = 2a cm DC = 4a cm CH = h cm ( ) Given that AC = 2 a BH and that ∠HAC = 45° find the value of a. ( ) a =
+h cm B C 4a cm A 2a cm D The diagram shows a cuboid ABCDEFGH in which AD = 2a cm DC = 4a cm CH = h cm ( ) Given that AC = 2 a BH and that ∠HAC = 45° find the value of a. ( ) a =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: G, H, F, E.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_26_diagram.png)
 
 
 **Mark scheme answer**
 
 > B1 for stating or working out that h = AC
-> or AC = HC (may be seen in later working) [eg h = 20a 2 ]
-> ⎡( AC )2 ⎤ = ( 2a )2 + ( 4a )2 oe or M1 for a correct statement for AC² or AC in terms of a
-> ⎣ ⎦
-> (AC ) = 20a 2 (= 2a 5 )oe
-> ⎡( BH )2 ⎤ = ( 2a )2 + h 2 oe or [BH] = 4a 2 + h2 or M1 for a correct statement for BH² or BH in terms of a
-> ⎣ ⎦ and/or h (ft their value for h) - may be seen in later working
-> [BH] = ( 20a 2 ) ÷ ( 2 a ) (= 5a ) [must have correct brackets or correct expansions eg (2a)²
-> or 4a²]
-> [ BH ] = 24a 2 oe
-> 2 2
-> eg (2 a )( h + 4a ) = 20a or M1dep for a correct equation equating two expressions for
-> AC using a correct expression for BH eg
-> ( )
-> 24a 2 × 2 a = 2a 5 oe
-> (2 a )( h 2 + 4a 2 ) = 20a 2 or 4h² + 16a² = 20a or
-> 5a = 4a 2 + h2 oe
-> or
-> Or a correct equation equating two expressions for BH eg
-> 24a 2 = 5a
-> 24a 2 = 5a
+> or AC = HC (may be seen in later working) [eg h = √(20a²)]
+> [(AC)²] = (2a)² + (4a)² oe or
+> (AC) = √(20a²) (= 2a√5) oe M1 for a correct statement for AC² or AC in terms of a
+> [(BH)²] = (2a)² + h² oe or [BH] = √(4a² + h²) or M1 for a correct statement for BH² or BH in terms of a
+> [BH] = (√(20a²)) ÷ (2√a) (= √5a) and/or h (ft their value for h) - may be seen in later working [must have correct brackets or correct expansions eg (2a)² or 4a²]
+> [BH] = √(24a²) oe
+> eg (2√a)(√(h² + 4a²)) = √(20a²) or M1dep for a correct equation equating two expressions for AC using a correct expression for BH eg
+> √(24a²) × (2√a) = 2a√5 oe (2√a)(√(h² + 4a²)) = √(20a²) or 4h² + 16a² = 20a or
+> 5a = 4a² + h² oe
+> or Or a correct equation equating two expressions for BH eg
+> √(24a²) = √5a
 > eg 96a² = 20a or 5a = 24a² oe or M1 for a correct two-term quadratic or linear equation in a
 > 24a = 5 oe
-> 5 6 A1 (0.208…)
-> a=
-> Total 6 marks
+> a = 5/24 A1 (0.208…)
 
 - **(6)** B1 for stating or working out that h = AC
 
@@ -736,7 +728,11 @@ Find the class interval that contains the median of these times.
 
 Calculate an estimate, to 3 significant figures, of the mean time it took Amrit to complete his homework tasks last term minutes ( ) The diagram below is an incomplete histogram for the information in the table. Frequency density 15 20 25 30 35 40 45 50 Time (minutes)
 
-> 🖼 crop required: diagram (qp.pdf p.24)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![table — official paper figure (qp.pdf p.24) (same figure as asset_27_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-01R/assets/asset_27_b_table_stem.png)
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_27_diagram.png)
 
 ![table — official paper figure (qp.pdf p.24) — shared with asset_27_b_table_stem](assets/asset_27_b_table_stem.png)
 
@@ -808,30 +804,26 @@ Find the length of AB, giving your answer in the form k 17 , where k is a ration
 
 ### 28(b) [2]
 
-Calculate the size, to the nearest degree, of ∠CAB. °
+Calculate the size, to the nearest degree, of ∠CAB.
+
+…………… °
 
 
 **Mark scheme answer**
 
 > ⎛ '4.5' ⎞ M1 for complete method to find required angle (oe using their
-> ⎛ '18' ⎞ −1 ⎜ ⎟ A and B)
-> ⎟ or 180 − cos
+> ⎛ '18' ⎞ −1 A and B)
+>  or 180 − cos
 > −1
-> 180 − tan ⎜
-> ⎝ '4.5' ⎠ ⎜ ' 9 17 ' ⎟ ⎛ ⎛ 39 ⎞ ⎞
+> 180 − tan '4.5' ' 9 17 ' 39 
 > ⎝ 2 ⎠
 > ( )
 > 9
-> ⎜ 2 17 + 3 − ⎜ " " ⎟ ⎟
-> ⎛ '18' ⎞ −1 ⎜ ⎝ 2 ⎠ ⎟ oe
-> or 180 − sin −1 ⎜ ⎟ cos
-> ⎜ ' 9 17 ' ⎟
-> ⎜ 2 × 9 17 × 3 ⎟
-> ⎝ 2 ⎠ ⎜ 2 ⎟
-> ⎝ ⎠
+> ⎜ 2 17 + 3 − ⎜ " " '18' ⎞ −1 2 oe
+> or 180 − sin −1 cos
+>  ' 9 17 ' 2 × 9 17 × 3 2 2 
 > or complete method using cosine rule
 > 104 2 A1 awrt 104
-> Total 8 marks
 
 - **(2)** ⎛ '4.5' ⎞ M1 for complete method to find required angle (oe using their
 

@@ -24,14 +24,14 @@ Solve the simultaneous equations 3 x 5 y 7.5 7 x 6 y 3.9 Show clear algebraic wo
 > x= oe or y = oe or a substitution of x or y with at most one incorrect term
 > 7
 > ⎛ 7.5 − 5 y ⎞ M1ft one incorrect term, for indicating a correct operation to
-> 17 y = 40.8 oe or 17 x = −25.5 oe or 7 ⎜ ⎟ + 6 y = 3.9 eliminate one variable. If the correct operation is not indicated
+> 17 y = 40.8 oe or 17 x = −25.5 oe or 7 + 6 y = 3.9 eliminate one variable. If the correct operation is not indicated
 > ⎝ 3 ⎠ then the correct operation must be applied throughout. Can be
 > ⎛ 7.5 − 3 x ⎞ ⎛ 3.9 − 6 y ⎞ implied by a correct ft equation in terms of one variable
-> oe or 7 x + 6 ⎜ ⎟ = 3.9 oe or 3 ⎜ ⎟ + 5 y = 7.5
+> oe or 7 x + 6 = 3.9 oe or 3 + 5 y = 7.5
 > ⎝ 5 ⎠ ⎝ 7 ⎠ OR substitute to give an equation in terms of just x or an
 > equation in terms of just y.
 > ⎛ 3.9 − 7 x ⎞
-> oe or 3 x + 5 ⎜ ⎟ = 7.5 oe
+> oe or 3 x + 5 = 7.5 oe
 > ⎝ 6 ⎠
 > x = −1.5 A1 oe award three marks if one method mark has been
 > or awarded
@@ -40,7 +40,6 @@ Solve the simultaneous equations 3 x 5 y 7.5 7 x 6 y 3.9 Show clear algebraic wo
 > and
 > y = 2.4
 > wr Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 21x + 35 y = 52.5 18 x + 30 y = 45 4 M1 multiplying both equations so the coefficients of x are the
 
@@ -122,8 +121,6 @@ write down all the possible y coordinates of the point P y L −4 −3 −2 −1
 
 > −2 and −3 1 B1 dep on B1 being awarded in part (c)
 > for −2 and −3 only or for (1, −2) and (1, −3) only
-> cas Total 6 marks
-> Question Working Answer Mark Notes
 > Ignore the use of or the omission of brackets throughout
 
 - **(1)** −2 and −3 1 B1 dep on B1 being awarded in part (c)
@@ -174,7 +171,9 @@ E ∪ F 70 children were asked which flavours of ice cream they like from chocol
 
 Show all of this information on the Venn diagram opposite, giving the number of students in each appropriate subset.
 
-> 🖼 crop required: diagram (qp.pdf p.6)
+![figure — official paper figure (qp.pdf p.6)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_3_3-b.png)
+
+![figure — official paper figure (qp.pdf p.6)](assets/asset_3_3-b.png)
 
 
 **Mark scheme answer**
@@ -230,8 +229,6 @@ find the probability that this child also likes chocolate. E C V S
 > 6+5 11 35
 > B1 only for or ÷ oe)
 > 6 + 5 + 1 + 23 70 70
-> cas Total 10 marks
-> Question Working Answer Mark Notes
 > Throughout allow 3.1, 3.14, etc or for π
 
 - **(2)** 11 2 B2 oe eg 0.31(42…) rounded or truncated to 2sf
@@ -258,7 +255,7 @@ Calculate the length, in cm to 3 significant figures, of the arc CD The area of 
 
 ### 4(b) [2]
 
-Calculate the area, in cm2 to 3 significant figures, of the shaded region ABEF Given that OA = 1.1 cm
+Calculate the area, in cm² to 3 significant figures, of the shaded region ABEF Given that OA = 1.1 cm
 
 
 **Mark scheme answer**
@@ -272,6 +269,12 @@ Calculate the area, in cm2 to 3 significant figures, of the shaded region ABEF G
 ### 4(c) [3]
 
 calculate the length, in cm, of AB
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 
 ## Question 5 (8 marks)
@@ -306,7 +309,6 @@ Calculate the probability that these 2 counters are the same colour. A box conta
 > 76
 > A1 oe eg or 0.48(7…) rounded or truncated to 2sf
 > 156
-> Question Working Answer Mark Notes
 > Throughout allow 3.1, 3.14, etc or for π
 
 - **(3)** 8 7 ⎛ 56 ⎞ 3 M1 for one correct product
@@ -355,6 +357,8 @@ Calculate the value of w Show all your working.
 Diagram NOT accurately drawn h cm r cm Figure 2 Figure 2 shows a solid shape S, made by fixing a solid right circular cone to the flat circular face of a solid hemisphere. The centre of the base of the cone coincides with the centre of the hemisphere. The base radius of the cone and the radius of the hemisphere are each r cm The height of the cone is h cm The total volume of S is 1660 cm3 the volume of the hemisphere : the total volume of S = 8 : 25
 
 ### 6(a) [4]
+
+Diagram NOT accurately drawn h cm r cm Figure 2 Figure 2 shows a solid shape S, made by fixing a solid right circular cone to the flat circular face of a solid hemisphere. The centre of the base of the cone coincides with the centre of the hemisphere. The base radius of the cone and the radius of the hemisphere are each r cm The height of the cone is h cm The total volume of S is 1660 cm³ the volume of the hemisphere : the total volume of S = 8 : 25
 
 Find, in cm to 3 significant figures, the value of r
 
@@ -406,8 +410,6 @@ Find, in cm to 3 significant figures, the value of h 1 2 Volume of cone 3 r h Vo
 > 3 be shown
 > 531.2 must be correct or from a correct calculation
 > 26.9 A1 awrt 26 or 27
-> cas Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1 3 M1 ft candidates answer to part (a) for an expression for the volume of the cone
 
@@ -424,7 +426,7 @@ Find a simplified expression for in terms of a and b The point E lies on such th
 **Mark scheme answer**
 
 > 1 ⎛ 3 ⎞ 3 M1 for a correct method to find OB or BO
-> OB = a + 3b + a ⎜ = a + 3b ⎟ or BO = −3b − a − a ⎛⎜ = − a − 3b ⎞⎟
+> OB = a + 3b + a ⎜ = a + 3b ⎟ or BO = −3b − a − a = − a − 3b 
 > 1
 > 2 ⎝ 2 ⎠ 2 ⎝ 2 ⎠
 > 3⎛ 3 ⎞ 1 2⎛ 3 ⎞ M1 for a correct method to find
@@ -538,9 +540,11 @@ Find the class interval that contains the median weight.
 
 ### 8(d) [4]
 
-Calculate an estimate for the mean weight, in kg, of berries sold on each day in April. Chetan wants to buy 60 kg of apples for his shop from one of the following online traders. US traders French traders 12 kg box of apples for $29.50 1.72 euros per kg of apples Free delivery Total delivery cost of 22.80 euros Buy 4 boxes and get a 5th box free Special offer of 15% off the cost of apples and the cost of delivery Using an exchange rate of $1 = 0.92 euros
+Calculate an estimate for the mean weight, in kg, of berries sold on each day in April. Chetan wants to buy 60 kg of apples for his shop from one of the following online traders. US traders French traders 12 kg box of apples for \$29.50 1.72 euros per kg of apples Free delivery Total delivery cost of 22.80 euros Buy 4 boxes and get a 5th box free Special offer of 15% off the cost of apples and the cost of delivery Using an exchange rate of \$1 = 0.92 euros
 
-> 🖼 crop required: boxes (qp.pdf p.20)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![boxes — official paper figure (qp.pdf p.19)](assets/asset_8_boxes.png)
 
 
 **Mark scheme answer**
@@ -582,7 +586,7 @@ Calculate an estimate for the mean weight, in kg, of berries sold on each day in
 > French with A1 for France with correct comparable figures €108(.56) and €107(.10) Award
 > working full marks for a correct answer with correct comparable figures provided it is not
 > from obvious incorrect working
-> $ (e) [US traders =] 29.50 × 4 [ = 118] 5 M1 for method to find the cost in
+> \$ (e) [US traders =] 29.50 × 4 [ = 118] 5 M1 for method to find the cost in
 > US
 > [French traders =] 1.72 × 60 + 22.80 M1 for a method to find the total M2 for M3 for
 > cost in France ie [French traders =] [French
@@ -604,18 +608,22 @@ Calculate an estimate for the mean weight, in kg, of berries sold on each day in
 > [Delivery after discount=] 19.38 ÷ 0.92 [ = 21.06(5...) ]
 > [1kg after discount =] 1.462 ÷ 0.92 [ = 1.58(9...) ]
 > [60kg after discount =] 87.72 ÷ 0.92 [ = 95.34(7...) ]
-> French with A1 for France with correct comparable figures $118 and $116(.41…)
+> French with A1 for France with correct comparable figures \$118 and \$116(.41…)
 > working
 > Award full marks for a correct answer with correct comparable figures provided it
 > is not from obvious incorrect working
-> cas Total 13 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 2.5 ×10 ( = 25 ) 4 M2 for at least 3 correct products added (need not be evaluated
 
 ### 8(e) [5]
 
 compare the cost, including delivery, of 60 kg of apples bought from US traders with the cost of 60 kg of apples bought from French traders. State which of the traders is the cheaper when buying 60 kg of apples. Show all your working.
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 
 ## Question 9 (9 marks)
@@ -676,38 +684,34 @@ find the value of x Show all your working.
 > ⎛ x+5 ⎞ ⎛ x+5 ⎞
 > ⎡⎣ hg ( x ) = ⎤⎦ 3 ⎜ "
 > –1
-> − 1" ⎟ + 6 ⎜ " − 1" ⎟⎟ − 2 for hg ( x ) or gh ( x )
+> − 1" ⎟ + 6 ⎜ " − 1" − 2 for hg ( x ) or gh ( x )
 > –1 –1
-> ⎜ 2 ⎟ ⎜
-> ⎝ ⎠ ⎝ ⎠
-> ⎛ x+5 ⎞
+> ⎜ 2 x+5 ⎞
 > or ⎡⎣ hg ( x) = ⎤⎦ 3 ⎜ "
 > −1
-> ⎜ − 1"+ 1 ⎟⎟ − 5 or
+>  − 1"+ 1 − 5 or
 > ⎝ 2 ⎠
 > ⎛ x+5 ⎞ ⎛ x+5 ⎞
 > ⎡⎣gh ( x ) = ⎤⎦ 2 ⎜ "
 > –1
-> − 1" ⎟ + 4 ⎜ " − 1" ⎟⎟ − 3
-> ⎜ 3 ⎟ ⎜
-> ⎝ ⎠ ⎝ ⎠
-> ⎛ x+5 ⎞
+> − 1" ⎟ + 4 ⎜ " − 1" − 3
+> ⎜ 3 x+5 ⎞
 > or ⎡⎣gh ( x) = ⎤⎦ 2 ⎜ "
 > −1
-> ⎜ − 1"+ 1 ⎟⎟ − 5
+>  − 1"+ 1 − 5
 > ⎝ 3 ⎠
 > 2 M1 dep on previous method mark being awarded
 > ⎛ x+5 ⎞ ⎛ x+5 ⎞
-> 3 ⎜⎜ − 1⎟⎟ + 6 ⎜⎜ − 1⎟⎟ − 2 = 6.1 or hg –1( x ) = 6.1 or gh –1( 6.1)
+> 3 − 1 + 6 − 1 − 2 = 6.1 or hg –1( x ) = 6.1 or gh –1( 6.1)
 > ⎝ 2 ⎠ ⎝ 2 ⎠
 > ⎛ x+5 ⎞
-> 3 ⎜⎜ " − 1"+ 1⎟⎟ − 5 = 6.1 or
+> 3 " − 1"+ 1 − 5 = 6.1 or
 > ⎝ 2 ⎠
 > ⎛ 6.1 + 5 ⎞ ⎛ 6.1 + 5 ⎞
-> 2 ⎜⎜ − 1⎟⎟ + 4 ⎜⎜ − 1⎟⎟ − 3 or
+> 2 − 1 + 4 − 1 − 3 or
 > ⎝ 3 ⎠ ⎝ 3 ⎠
 > ⎛ 6.1 + 5 ⎞
-> 2 ⎜⎜ " − 1"+ 1⎟⎟ − 5
+> 2 " − 1"+ 1 − 5
 > ⎝ 3 ⎠
 > 2.4 A1 oe dep on at least one M1 awarded
 > same side of an equation / expression
@@ -727,47 +731,35 @@ find the value of x Show all your working.
 > ⎛ −4 ± 16 − 4 × 2 × (− x − 3) ⎞ ⎛ −4 ± 16 − 4 × 2 × (− x − 3) ⎞
 > ⎡⎣ hg ( x ) = ⎤⎦ 3 ⎜ " "⎟ + 6 ⎜ " "⎟ − 2 for hg ( x ) or gh ( x )
 > –1 –1 –1
-> ⎜ 4 ⎟ ⎜ 4 ⎟
-> ⎝ ⎠ ⎝ ⎠
-> ⎛ −4 ± 16 − 4 × 2 × (− x − 3) ⎞
+> ⎜ 4 4 −4 ± 16 − 4 × 2 × (− x − 3) ⎞
 > or ⎡⎣ hg ( x) = ⎤⎦ 3 ⎜ "
 > −1
-> "+ 1 ⎟ − 5 or
-> ⎜ 4 ⎟
-> ⎝ ⎠
-> ⎛ −6 ± 36 − 4 × 3 × (− x − 2) ⎞ ⎛ −6 ± 36 − 4 × 3 × (− x − 2) ⎞
+> "+ 1 − 5 or
+> ⎜ 4 −6 ± 36 − 4 × 3 × (− x − 2) ⎞ ⎛ −6 ± 36 − 4 × 3 × (− x − 2) ⎞
 > ⎡⎣gh ( x ) = ⎤⎦ 2 ⎜ "
 > –1
 > "⎟ + 4 ⎜ " "⎟ − 3
-> ⎜ 6 ⎟ ⎜ 6 ⎟
-> ⎝ ⎠ ⎝ ⎠
-> ⎛ −6 + 36 − 4 × 3 × (− x − 2) ⎞
+> ⎜ 6 6 −6 + 36 − 4 × 3 × (− x − 2) ⎞
 > or ⎡⎣gh ( x) = ⎤⎦ 2 ⎜ "
 > −1
-> "+ 1⎟ − 5
-> ⎜ 6 ⎟
-> ⎝ ⎠
+> "+ 1 − 5
+>  6 
 > 2 M1 dep on previous method mark being awarded
 > ⎛ −4 ± 16 − 4 × 2 × (− x − 3) ⎞ ⎛ −4 ± 16 − 4 × 2 × (− x − 3) ⎞
-> 3⎜"
-> ⎜
+> 3"
+> 
 > "⎟ + 6 ⎜ "
-> ⎟ ⎜
-> " ⎟ − 2 = 6.1
-> ⎟ hg –1( x ) = 6.1 or gh –1( 6.1)
+>  
+> " − 2 = 6.1
+>  hg –1( x ) = 6.1 or gh –1( 6.1)
 > ⎝ 4 ⎠ ⎝ 4 ⎠
 > ⎛ −4 ± 16 − 4 × 2 × (− x − 3) ⎞
 > or 3 ⎜ " "+ 1⎟ − 5 = 6.1 or
-> ⎜ 4 ⎟
-> ⎝ ⎠
-> ⎛ −6 ± 36 − 4 × 3 × (−6.1 − 2) ⎞ ⎛ −6 ± 36 − 4 × 3 × (−6.1 − 2) ⎞
+> ⎜ 4 −6 ± 36 − 4 × 3 × (−6.1 − 2) ⎞ ⎛ −6 ± 36 − 4 × 3 × (−6.1 − 2) ⎞
 > 2⎜" "⎟ + 4 ⎜ " "⎟ − 3
-> ⎜ 6 ⎟ ⎜ 6 ⎟
-> ⎝ ⎠ ⎝ ⎠
-> ⎛ −6 ± 36 − 4 × 3 × (−6.1 − 2) ⎞
+> ⎜ 6 6 −6 ± 36 − 4 × 3 × (−6.1 − 2) ⎞
 > or 2 ⎜ " "+ 1⎟ − 5
-> ⎜ 6 ⎟
-> ⎝ ⎠
+>  6 
 > 2.4 A1 oe
 > ALTERNATIVE METHOD 3
 > 3x 2 + 6 x − 2 − 6.1[ = 0] M1 for h(x) = 6.1 and arranging all terms on the same
@@ -782,12 +774,9 @@ find the value of x Show all your working.
 > 6
 > 2 M1 dep on previous method mark being awarded for
 > ⎛ −10 ± 370 ⎞ ⎛ −10 ± 370 ⎞
-> 2 ⎜⎜ " " ⎟⎟ + 4 ⎜⎜ " " ⎟⎟ − 3 oe ⎛ −10 + 370 ⎞
-> ⎝ 10 ⎠ ⎝ 10 ⎠ g⎜⎜ ⎟⎟
-> ⎝ 10 ⎠
+> 2 " " + 4 " " − 3 oe ⎛ −10 + 370 ⎞
+> ⎝ 10 ⎠ ⎝ 10 ⎠ g 10 ⎠
 > 2.4 A1 oe
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(7)** Allow any letter throughout for x or g(x) or h(x) or g-1(x) or h-1(x)
 
@@ -797,7 +786,9 @@ find the value of x Show all your working.
 
 Complete the table of values for y 2 x 3 5 x x −2.5 −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 2.5 y −15.75 3.75 5.25 3 0.75 2.25 21.75
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_10_10-a.png)
+
+![figure — official paper figure (qp.pdf p.9)](assets/asset_10_10-a.png)
 
 
 **Mark scheme answer**
@@ -805,7 +796,6 @@ Complete the table of values for y 2 x 3 5 x x −2.5 −2 −1.5 −1 −0.5 0 
 > −3, 6, 0, 9 3 B3 for all 4 correct values
 > (B2 for 3 correct
 > (B1 for 2 correct))
-> Question Working Answer Mark Notes
 > In this question ignore any labelling of triangles even if incorrect
 
 - **(3)** −3, 6, 0, 9 3 B3 for all 4 correct values
@@ -814,9 +804,13 @@ Complete the table of values for y 2 x 3 5 x x −2.5 −2 −1.5 −1 −0.5 0 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
+![grid — official paper figure (qp.pdf p.29)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_10_b_grid.png)
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
 ![grid — official paper figure (qp.pdf p.29)](assets/asset_10_b_grid.png)
 
-> 🖼 crop required: table (qp.pdf p.28)
+![figure — official paper figure (qp.pdf p.28)](assets/asset_10_10-b.png)
 
 
 **Mark scheme answer**
@@ -846,7 +840,9 @@ By drawing a suitable straight line (at least 3 cm long) on the grid, find an es
 
 ### 10(d) [3]
 
-By drawing a suitable straight line on the grid, find the range of values of x, to one decimal place, in the interval −2.5 ≤ x ≤ 2.5 for which 2 x 3 5 x y −3 −2 −1 O 1 2 3 x −5 −10 −15 −20 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y −3 −2 −1 O 1 2 3 x −5 −10 −15 −20
+By drawing a suitable straight line on the grid, find the range of values of x, to one decimal place, in the interval −2.5 ≤ x ≤ 2.5 for which 2 x 3 5 x
+
+![graph — official paper figure (qp.pdf p.29) (same figure as asset_10_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_10_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.29) — shared with asset_10_b_grid](assets/asset_10_b_grid.png)
 
@@ -872,9 +868,13 @@ Triangle A and triangle D are drawn on the grid opposite. Triangle A is transfor
 
 ### 11(a) [2]
 
+Triangle A and triangle D are drawn on the grid opposite. Triangle A is transformed to triangle B under a rotation of 180° about the point with coordinates (3, 1)
+
 On the grid, draw and label triangle B Triangle A is transformed to triangle C under a reflection in the line with equation y 0.5
 
-> 🖼 crop required: grid (qp.pdf p.32)
+![figure — official paper figure (qp.pdf p.32)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_11_11-a.png)
+
+![figure — official paper figure (qp.pdf p.32)](assets/asset_11_11-a.png)
 
 
 **Mark scheme answer**
@@ -889,7 +889,9 @@ On the grid, draw and label triangle B Triangle A is transformed to triangle C u
 
 On the grid, draw and label triangle C Triangle D is transformed to triangle E under the transformation with matrix M where 2 0 M
 
-> 🖼 crop required: grid (qp.pdf p.32)
+![figure — official paper figure (qp.pdf p.32)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_11_11-b.png)
+
+![figure — official paper figure (qp.pdf p.32)](assets/asset_11_11-b.png)
 
 
 **Mark scheme answer**
@@ -904,20 +906,18 @@ On the grid, draw and label triangle C Triangle D is transformed to triangle E u
 
 On the grid, draw and label triangle E
 
-> 🖼 crop required: grid (qp.pdf p.32)
+![figure — official paper figure (qp.pdf p.9)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_11_11-c.png)
+
+![figure — official paper figure (qp.pdf p.9)](assets/asset_11_11-c.png)
 
 
 **Mark scheme answer**
 
 > Points can be in any order 3 M1 for intention to multiply the correct way, can be implied by writing the matrices
 > Could just be one correct point in the correct order or correctly stating or plotting one point.
-> ⎛ −2 0 ⎞⎛ −1 −1 −2 ⎞
-> ⎜ ⎟⎜ ⎟
-> ⎝ 0 −2 ⎠⎝ 1 4 4 ⎠
+> ⎛ −2 0 ⎞⎛ −1 −1 −2 0 −2 ⎠⎝ 1 4 4 ⎠
 > Points can be in any order M1 for at least two correct columns or correctly stating or plotting two points.
-> ⎛ 2 2 4⎞
-> ⎜ ⎟
-> ⎝ −2 −8 −8 ⎠
+> ⎛ 2 2 4 −2 −8 −8 ⎠
 > Correct A1 for triangle correctly drawn with vertices at (2, −2) (2, −8) (4, −8)
 > triangle E Award 3 marks for a correct triangle drawn, irrespective of working in the working
 > space.
@@ -948,82 +948,74 @@ Describe fully the single transformation that maps triangle A onto triangle E Tr
 
 ### 11(e) [5]
 
-find the value of k a b d b [Inverse of matrix is ] c d ad bc c a y D A −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 x −1 −2 −3 −4 −5 −6 −7 −8 −9 Turn to page 35 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y D A −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 x −1 −2 −3 −4 −5 −6 −7 −8 −9
+find the value of k.
 
-> 🖼 crop required: grid (qp.pdf p.None)
+[Inverse of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$]
+
+![grid — official paper figure (qp.pdf p.33)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-11/4MB1-02/assets/asset_11_e_grid.png)
+
+![grid — official paper figure (qp.pdf p.32)](assets/asset_11_grid.png)
 
 
 **Mark scheme answer**
 
 > ⎛ 0 −1 ⎞ ⎛ 0 1⎞ 5 M1 for stating the correct matrix from A to F or from F to A
-> A to F = ⎜ ⎟ F to A = ⎜ ⎟ or for stating a correct coordinate of triangle F which may be in a
+> A to F = F to A = or for stating a correct coordinate of triangle F which may be in a
 > ⎝1 0⎠ ⎝ −1 0 ⎠ matrix
 > [Coordinates of F = (–1, 1) (–1, 2), (–4, 1)]
 > ⎛6 2⎞ ⎛ 0.2 −0.1 ⎞ M1
-> F to G = ⎜ ⎟ oe G to F = ⎜ ⎟ oe correct transformation matrix F to G or G to F
-> ⎝2 4⎠ ⎜ −0.1 0.3 ⎟⎠
-> ⎝ or correct transformation matrix in terms of k for A to G or G to A
+> F to G = oe G to F = oe correct transformation matrix F to G or G to F
+> 2 4 −0.1 0.3 or correct transformation matrix in terms of k for A to G or G to A
 > or A to F or F to A
 > ⎛2 2k − 7 ⎞ G to A = Where at least one of the elements in a must be correct
-> A to G = ⎜ ⎟ oe ⎛ −2 ⎞
-> −2 ⎠ 7 − 2k
+> A to G = oe ⎛ −2 ⎞
+> −2 7 − 2k
 > ⎝4 ⎜ 24 − 8k 24 − 8k ⎟ This mark and the following mark may be awarded in either order
-> ⎜ ⎟ oe
-> ⎜ −4 2 ⎟
-> ⎝ 24 − 8k 24 − 8k ⎠
-> ⎛0 5 ⎞
-> ⎜ 2k − 6 ⎟ ⎛ 0.2k − 0.1 1⎞
-> A to F = ⎜ ⎟ oe F to A = ⎜ ⎟ oe
-> 1 − 2k ⎜ 0.4k − 1.2 0 ⎟⎠
-> ⎜1 ⎟ ⎝
-> ⎝ 4k − 12 ⎠
+>  oe
+> ⎜ −4 2 24 − 8k 24 − 8k ⎠
+> ⎛0 5 2k − 6 0.2k − 0.1 1⎞
+> A to F = oe F to A = oe
+> 1 − 2k ⎜ 0.4k − 1.2 0 1 4k − 12 ⎠
 > −1 M1 for finding a fully correct inverse matrix
 > ⎛ 2 −6 ⎞ ⎛ 7 − 2k 2⎞ 1 ⎛4 −2 ⎞
-> eg N = ⎜ ⎟ oe or ⎜ ⎟ = ⎜ ⎟ oe
+> eg N = oe or = oe
 > ⎝ 4 −2 ⎠ ⎝ 2 4⎠ 24 − 8k ⎝ −2 7 − 2k ⎠
 > ⎛ 0.2k − 0.1 1 ⎞ ⎛ 0 −1 ⎞ ⎛ 1 0.1 − 0.2k ⎞ or multiplying two matrices that are inverses of each other where
-> eg ⎜ ⎟⎜ ⎟=⎜ ⎟ one is in terms of k and at least one element in terms of k is
+> eg = one is in terms of k and at least one element in terms of k is
 > ⎝ 0.4k − 1.2 0 ⎠ ⎝ 1 0 ⎠ ⎝ 0 1.2 − 0.4k ⎠ correct
 > ⎛ 7 − 2k 2 ⎞⎛ 0.2 −0.1 ⎞ ⎛1.2 − 0.4k 0.2k − 0.1⎞
-> or ⎜ ⎟⎜ ⎟=⎜ ⎟ This mark and the previous mark may be awarded in either order
+> or = This mark and the previous mark may be awarded in either order
 > ⎝ 2 4 ⎠⎝ −0.1 0.3 ⎠ ⎝ 0 1 ⎠
 > M1 for a correct equation to find k implies M4
 > 0.5 A1 oe Award full marks for a correct answer provided it is not
 > from obvious incorrect working
-> Total 15 marks
 > Work down the columns ⎛1 2 1 ⎞
-> Points can be any order, only need to use one point rather than all three For reference A = ⎜ ⎟
+> Points can be any order, only need to use one point rather than all three For reference A = 
 > Award maximum of M1 for finding the inverse ⎝1 1 4 ⎠
 > ⎛ 0 −1 ⎞ ⎛ 0 1⎞ For finding the inverse of N-1 M1
-> M1 for stating the correct matrix from A to F = ⎜ ⎟ or from F to A = ⎜ ⎟ ⎛ 2 −6 ⎞
-> ⎝1 0⎠ ⎝ −1 0 ⎠ N=⎜ ⎟
-> ⎛ −1 −1 −4 ⎞ ⎝ 4 −2 ⎠
-> or for stating a correct coordinate of triangle F which may be in a matrix F = ⎜ ⎟ or
+> M1 for stating the correct matrix from A to F = or from F to A = 2 −6 
+> ⎝1 0⎠ ⎝ −1 0 ⎠ N= −1 −1 −4 ⎞ ⎝ 4 −2 ⎠
+> or for stating a correct coordinate of triangle F which may be in a matrix F = or
 > ⎝ 1 2 1⎠ correct coordinate of G
 > ⎛ −4 −2 −22 ⎞
-> G =⎜ ⎟
-> ⎝ 2 6 − 4⎠
+> G = 2 6 − 4
 > For correct coordinate of G in terms of k. For finding the inverse of N-1 −1 M1
 > ⎛ 7 − 2k 2 ⎞ 1 ⎛4 −2 ⎞
-> ⎛ 2 −6 ⎞ For ⎜ ⎟ = ⎜ ⎟
-> ⎛ 2k − 5 2k − 3 8k − 26 ⎞ N=⎜ ⎟ ⎝ 2 4⎠ 24 − 8k ⎝ −2 7 − 2k ⎠
-> G =⎜ ⎟ ⎝ 4 −2 ⎠ or
+> ⎛ 2 −6 ⎞ For = 2k − 5 2k − 3 8k − 26 ⎞ N= 2 4⎠ 24 − 8k ⎝ −2 7 − 2k ⎠
+> G = 4 −2 or
 > ⎝ 2 6 −4 ⎠ or correct coordinate of G correct coordinate of F in terms of k.
 > ⎛ −4 −2 −22 ⎞ 1 ⎛ 10 10 40 ⎞
-> G =⎜ ⎟ F= ⎜ ⎟
-> ⎝ 2 6 − 4⎠ 4k − 12 ⎝ 2k − 11 6k − 23 − 4k − 8 ⎠
+> G = F= 2 6 − 4⎠ 4k − 12 ⎝ 2k − 11 6k − 23 − 4k − 8 ⎠
 > For correct coordinate of A in terms of k. For finding the inverse of −1 For correct coordinate of A in terms of k. M1
 > ⎛ 7 − 2k 2 ⎞ 1 ⎛4 −2 ⎞
-> ⎛ −0.2k + 1.1 −0.2k + 2.1 −0.8k + 1.4 ⎞ N-1 For ⎜ ⎟ = ⎜ ⎟
-> A=⎜ ⎟ ⎛ 2 −6 ⎞ ⎝ 2 4⎠ 24 − 8k ⎝ −2 7 − 2k ⎠ ⎛ −0.2k + 1.1 −0.2k + 2.1 −0.8k + 1.4 ⎞
-> ⎝ −0.4k + 1.2 −0.4k + 1.2 −1.6k + 4.8 ⎠ N=⎜ ⎟ or A=⎜ ⎟
-> ⎝ 4 −2 ⎠ correct coordinate of F in terms of k. ⎝ −0.4k + 1.2 −0.4k + 1.2 −1.6k + 4.8 ⎠
+> ⎛ −0.2k + 1.1 −0.2k + 2.1 −0.8k + 1.4 ⎞ N-1 For = 
+> A= 2 −6 ⎞ ⎝ 2 4⎠ 24 − 8k ⎝ −2 7 − 2k ⎠ ⎛ −0.2k + 1.1 −0.2k + 2.1 −0.8k + 1.4 ⎞
+> ⎝ −0.4k + 1.2 −0.4k + 1.2 −1.6k + 4.8 ⎠ N= or A= 4 −2 ⎠ correct coordinate of F in terms of k. ⎝ −0.4k + 1.2 −0.4k + 1.2 −1.6k + 4.8 ⎠
 > or 1 ⎛ 10 10 40 ⎞
-> correct coordinate of G F= ⎜ ⎟
+> correct coordinate of G F= 
 > 4k − 12 ⎝ 2k − 11 6k − 23 − 4k − 8 ⎠
 > ⎛ −4 −2 −22 ⎞
-> G =⎜ ⎟
-> ⎝ 2 6 − 4⎠
+> G = 2 6 − 4
 > Correct equation for k from equating Correct equation for k Correct equation for k from equating coordinate Correct equation for k from equating M1
 > coordinate of A from equating coordinate of F coordinate of A
 > of G

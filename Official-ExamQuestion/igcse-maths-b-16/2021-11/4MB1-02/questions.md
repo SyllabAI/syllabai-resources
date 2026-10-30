@@ -34,12 +34,9 @@ write down the coordinates of all possible points P.
 > for one correct pair of coordinates if all the given co-ordinates
 > x+2
 > are on the line y = eg (3, 2.5) or (5, 3.5) or (6, 4) or
-> ⎛ 14 10 ⎞
-> ⎜ , ⎟
-> ⎝ 3 3⎠
+> ⎛ 14 10 , 3 3⎠
 > (2, 2), (4, 3) A1 both coordinates and no extras. Condone missing brackets
 > Allow written as x = 2, y = 2 and x = 4, y = 3 if pairing is clear.
-> Total 5 marks
 > Ques Working Answer Mark Notes
 
 - **(2)** 2 M1 for line 2y – x = 2 drawn (between x = 2 and x = 4 at least) or
@@ -51,7 +48,9 @@ E Diagram NOT accurately drawn 12 cm D C M 10 cm A 8 cm B Figure 1 Figure 1 show
 
 ### 2(a) [4]
 
-Calculate the total surface area, in cm2 to 3 significant figures, of the pyramid. The point P is the midpoint of AB and the point Q is the midpoint of BC.
+E Diagram NOT accurately drawn 12 cm D C M 10 cm A 8 cm B Figure 1 Figure 1 shows a right pyramid ABCDE with horizontal rectangular base ABCD and vertex E. AB =8 cm BC =10 cm EA = EB = EC = ED = 12 cm M is the midpoint of the base.
+
+Calculate the total surface area, in cm² to 3 significant figures, of the pyramid. The point P is the midpoint of AB and the point Q is the midpoint of BC.
 
 
 **Mark scheme answer**
@@ -61,23 +60,20 @@ Calculate the total surface area, in cm2 to 3 significant figures, of the pyrami
 > BEC or angle AEB or angle ECB or angle EBC or angle EBA or
 > 122 − 42 [= 128 = 8 2 = 11.3] or angle EAB oe This may be implied by a correct expression or
 > ⎛ 122 + 122 − 82 ⎞ area for triangle AEB or ECB.
-> [ ∠ AEB=] cos −1 ⎜ ⎟ [= 38.9 ] or ALT
+> [ ∠ AEB=] cos −1 [= 38.9 ] or ALT
 > ⎝ 2 ×12 ×12 ⎠
 > ⎛ 122 + 102 − 122 ⎞
-> 4⎞ [ ∠ ECB = ∠ EBC =] cos −1 ⎜ ⎟ [= 65.4... ]
-> [ ∠AEB =] 2 × sin −1 ⎛⎜ ⎟ or ⎝ 2 ×12 ×10 ⎠
+> 4 [ ∠ ECB = ∠ EBC =] cos −1 [= 65.4... ]
+> [ ∠AEB =] 2 × sin −1 or ⎝ 2 ×12 ×10 ⎠
 > ⎝ 12 ⎠
 > ⎛ 122 + 122 − 102 ⎞ ⎛ 122 + 82 − 122 ⎞
 > −1
-> [ ∠ EBA = ∠ EAB =] cos ⎜ ⎟ [= 70.5... ]
-> [∠BEC =] cos ⎜ −1
+> [ ∠ EBA = ∠ EAB =] cos [= 70.5... ]
+> [∠BEC =] cos −1
 > ⎟ [49.2 ] or ⎝ 2 ×12 × 8 ⎠
 > ⎝ 2 ×12 ×12 ⎠
 > 5 ⎛ 122 + 102 − 122 ⎞
-> [ ∠BEC =] 2 × sin −1 ⎛⎜ ⎞⎟ Allow all written in form cos … = eg cos... = ⎜
-> ⎝ 2 × 12 × 10 ⎠
-> ⎟
-> ⎝ 12 ⎠
+> [ ∠BEC =] 2 × sin −1 Allow all written in form cos … = eg cos... = 2 × 12 × 10 12 
 > 0.5 × 10 ×"10.9" or M1 ft their height of the triangles.
 > 0.5 × 12 × 12 × sin"49.2"°or For area of triangle AEB [= 45.2…] NB 12sin"65.4..." = 10.9
 > 0.5 × 8 × "11.3" or or triangle BEC [= 54.5…] NB 12sin"70.5..." = 11.3... This may
@@ -100,24 +96,16 @@ Calculate the size, in degrees to one decimal place, of ∠PEQ. Cosine rule: a 2
 > 2 2 M1 a correct equation to find ∠PEQ . Allow use of their values for
 > oe EP and EQ either from part (a) or from this part . ft their PQ.
 > M1 dep on previous method mark being awarded. A correct method
-> cos ∠PEQ = ⎜⎜
+> cos ∠PEQ = 
 > (
-> ⎛ "10.9"2 + "11.3"2 − 41 2 ⎞
-> ⎟ ) to find ∠PEQ . Allow use of their values for EP and EQ either
-> 2 × "10.9"× "11.3" ⎟
-> ⎜
-> ⎝
-> ⎟
-> ⎠
+>  "10.9"2 + "11.3"2 − 41 2 ) to find ∠PEQ . Allow use of their values for EP and EQ either
+> 2 × "10.9"× "11.3" 
 > from part (a) or from this part if they are clearly labelled. Allow
 > other letters for P and Q if clear on diagram
-> Allow cos −1 ⎜⎜
+> Allow cos −1 
 > ( )
-> ⎛ "10.9"2 + "11.3"2 − " 41" 2 ⎞
-> ⎟
-> 2 × "10.9"× "11.3" ⎟
-> ⎜ ⎟
-> ⎝ ⎠
+>  "10.9"2 + "11.3"2 − " 41" 2 
+> 2 × "10.9"× "11.3" 
 > 33.4 A1 33.4 – 33.5 Total 8 marks
 
 - **(4)** [PQ = ] 42 + 52 [= 41 ] 4 M1 a correct method to find PQ Allow 41 or awrt 6.40 seen -
@@ -246,7 +234,6 @@ Calculate the price of a jar of honey before the price increase.
 > (M1 for 106.25% = 5.10 oe Allow x + 6.25% x = 5.10 )
 > 4.8(0) A1 Must not come from incorrect working.
 > (euros)
-> Total 12 marks
 > 2 v
 
 - **(3)** 5.10 ÷ 1.0625 3 M2 for 5.10 ÷ 1.0625 oe Allow x + 0.0625 x = 5.10
@@ -293,12 +280,12 @@ On the grid opposite, draw and label trapezium D. Trapezium D is transformed to 
 **Mark scheme answer**
 
 > ⎛ −2 0 ⎞⎛ 1 1 2 2 ⎞ 3 M1 for setting up correct matrix and for intention to multiply matrices
-> ⎜ ⎟⎜ ⎟ oe in the correct order with at least 2 correct entries in answer.
+>  oe in the correct order with at least 2 correct entries in answer.
 > ⎝ 0 −1 ⎠⎝ 2 3 3 1 ⎠
 > Implied by trapezium D drawn correctly. Implied by 2 correct
 > points plotted
 > ⎛ −2 −2 −4 −4 ⎞ A1 correct matrix. Pairs can be in any order. Implied by trapezium D
-> ⎜ ⎟ drawn correctly
+>  drawn correctly
 > ⎝ −2 −3 −3 −1 ⎠
 > trapezium D A1 trapezium D drawn correctly
 
@@ -306,7 +293,11 @@ On the grid opposite, draw and label trapezium D. Trapezium D is transformed to 
 
 ### 5(d) [3]
 
-Find matrix N. a b 1 d b The inverse of matrix is c d ad bc c a y B A −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x −1 −2 −3 −4 for a spare grid if you need to redraw your trapeziums. Only use this grid if you need to redraw your trapeziums. y B A −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x −1 −2 −3 −4
+Find matrix N.
+
+[The inverse of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$]
+
+![grid — official paper figure (qp.pdf p.11) (same figure as asset_5_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_5_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.11) — shared with asset_5_b_grid](assets/asset_5_b_grid.png)
 
@@ -314,23 +305,19 @@ Find matrix N. a b 1 d b The inverse of matrix is c d ad bc c a y B A −6 −5 
 **Mark scheme answer**
 
 > 1 ⎛ −1 0 ⎞ 3 M1 for the inverse of matrix M or for one correct row or column in
-> ⎜ ⎟ or the answer
+>  or the answer
 > 2 ⎝ 0 −2 ⎠
-> ⎛ a b ⎞⎛ −2 −2 −4 −4 ⎞ ⎛ 2 2 4 4 ⎞
-> ⎜ ⎟⎜ ⎟=⎜ ⎟
-> ⎝ c d ⎠⎝ −2 −3 −3 −1 ⎠ ⎝ 4 6 6 2 ⎠
+> ⎛ a b ⎞⎛ −2 −2 −4 −4 ⎞ ⎛ 2 2 4 4 = c d ⎠⎝ −2 −3 −3 −1 ⎠ ⎝ 4 6 6 2 ⎠
 > ⎛ 2 0 ⎞ ⎡ 1 ⎛ −1 0 ⎞ ⎤ M1 for fully correct calculations shown or for 3 correct entries in
-> ⎜ ⎟⎢ ⎜ ⎟⎥ or ⎡ 1 ⎛ −1 0 ⎞⎛ 2 0 ⎞ ⎤
-> ⎝ 0 2 ⎠ ⎣ 2 ⎝ 0 −2 ⎠ ⎦ the answer or Allow ⎢ ⎜ ⎟⎜ ⎟ ⎥ or
+>  or ⎡ 1 ⎛ −1 0 ⎞⎛ 2 0 ⎞ ⎤
+> ⎝ 0 2 ⎠ ⎣ 2 ⎝ 0 −2 ⎠ ⎦ the answer or Allow or
 > −2a − 2b = 2 −2c − 2d = 4 ⎣ 2 ⎝ 0 −2 ⎠⎝ 0 2 ⎠ ⎦
 > −2a − 3b = 2 −2c − 3d = 6 Different letters may be used
 > 2 of and 2 of
 > −4a − 3b = 4 −4c − 3d = 6
 > −4a − b = 4 −4c − d = 2
 > ⎛ −1 0 ⎞ A1 fully correct
-> ⎜ ⎟
-> ⎝ 0 −2 ⎠
-> Total 11 marks
+>  0 −2 
 
 - **(3)** 1 ⎛ −1 0 ⎞ 3 M1 for the inverse of matrix M or for one correct row or column in
 
@@ -347,7 +334,7 @@ Find the coordinates of the point C. The point D is such that ABCD is a parallel
 **Mark scheme answer**
 
 > (−4, 3) 2 ⎛ −4 ⎞
-> B2 (B1 for one correct coordinate or for (3, −4)or for ⎜ ⎟ )
+> B2 (B1 for one correct coordinate or for (3, −4)or for )
 > ⎝ 3⎠
 > Allow x = −4 y = 3
 
@@ -355,7 +342,7 @@ Find the coordinates of the point C. The point D is such that ABCD is a parallel
 
 ### 6(b) [5]
 
-Find the area, in cm2, of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc cos A Area of triangle 1 ab sin C
+Find the area, in cm², of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc cos A Area of triangle 1 ab sin C
 
 
 **Mark scheme answer**
@@ -364,24 +351,24 @@ Find the area, in cm2, of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc 
 > 2 2 2
 > (5 − −7) + (4 − −1) / ("8"− "− 4") + ("8"− "3") (= 13) coordinates of C and D ("−4" + 12, "3"+ 5 ))or correct answer.
 > Ignore working if they have [AB/CD =]13
-> [AC =] ("− 4"− 5)2 + ("3"− 4) 2 = ( 82 = 9.05...)
+> [AC =] ("− 4"− 5)² + ("3"− 4) 2 = ( 82 = 9.05...)
 > [BD=] (M1 for correct method to find one side) Condone if not
 > labelled
-> ("8"− −7)2 + ("8"− −1) 2 (= 306 = 3 34 = 17.49...)
+> ("8"− −7)² + ("8"− −1) 2 (= 306 = 3 34 = 17.49...)
 > Alternative:
 > N.B. Alt using coordinate geometry
 > M2 for 2 of: rectangle = 12 × 5 ( = 60), 0.5 × 9 × 1 (=4.5),
 > 0.5 × (5 + 1) × 3(=9), 0.5 × 12 × 5(=30)
 > ( Allow M1 for finding one of the areas)
 > ⎛ "82"+ 52 − "132 " ⎞ ⎡ −62 ⎤ M1 For a correct statement, ft their lengths if clearly labelled
-> Eg cos ∠BCA = ⎜ ⎟ ⎢= ⎥ oe or (allow on a diagram), to enable either angle BCA or angle
+> Eg cos ∠BCA = = oe or (allow on a diagram), to enable either angle BCA or angle
 > ⎝ 2 × " 82 "× 5 ⎠ ⎣ 10 82 ⎦ ABC or angle BAC to be found or area of all 4 shapes needed
 > ⎛ "13"2 + 52 − "82" ⎞ ⎡ 112 ⎤ to find area of shaded shape.
-> cos ∠ABC = ⎜ ⎟ ⎢= ⎥ oe or ∠BCA = 133.2 ∠ABC = 30.5 ∠BAC = 16.27
+> cos ∠ABC = = oe or ∠BCA = 133.2 ∠ABC = 30.5 ∠BAC = 16.27
 > ⎝ 2 × "13"× 5 ⎠ ⎣ 130 ⎦
 > Allow use of right angled triangles eg
 > ⎛ "82"+ "13"2 − 52 ⎞ ⎡ 226 ⎤ 12
-> cos ∠BAC = ⎜ ⎟ ⎢= ⎥ oe A = 90 − tan −1 − tan −1 [=16.27…]
+> cos ∠BAC = = oe A = 90 − tan −1 − tan −1 [=16.27…]
 > ⎝ 2 × "13"× 82 ⎠ ⎣ 26 82 ⎦ 5
 > Area of half parallelogram = M1 correct area formula for half parallelogram, ft their angle
 > 0.5 × 5 × "13" × sin("30.5") and sides if clearly labelled(allow on a diagram), or
@@ -389,9 +376,8 @@ Find the area, in cm2, of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc 
 > 33 (cm²) A1 32.9 – 33
 > NB: A correct answer within the given range with no obvious
 > incorrect working gains full marks.
-> Total 7 marks
 > part (b) There are other ways see next page for most common
-> Alt 1 [AB/CD =] (5 − −7)2 + (4 − −1) 2 (= 13) M1 Condone not labelled
+> Alt 1 [AB/CD =] (5 − −7)² + (4 − −1) 2 (= 13) M1 Condone not labelled
 > 4 − −1 5 23 M1 Correct method to find the equation of the line. Allow
 > [Line AB] y − 4 = ( x − 5) oe ⎡⎢⇒ y = x + ⎤⎥ use of point B
 > 5 − −7 ⎣ 12 12 ⎦
@@ -423,7 +409,7 @@ Find the area, in cm2, of the parallelogram ABCD. Cosine rule : a 2 b 2 c 2 2bc 
 > (5 − − " 7 25") + ( 4 − "199 25") [= 6.6 …]
 > 2
 > AF = Use of D gives x = 68/25 and y = 299/25
-> (8 − "68 / 25")2 + (8 − "299 / 25") 2
+> (8 − "68 / 25")² + (8 − "299 / 25") 2
 > Area = 5 × 6.6 33 (cm²) A1
 > Alt 3 [ 2 × 0.5] × ( 5(−1 − "3") − "4"(−7 + 4) − (−7 × "3"− 4) ) M4 ft their coordinates from part(a)
 > ± [ −5 − 15 + 28 − 16 − 21 − 4]
@@ -443,7 +429,11 @@ Here is the equation of a curve y = x3 − 3x − 1
 
 ### 7(a) [3]
 
-Complete the table of values for y = x3 − 3x − 1, giving your values of y to 2 decimal places where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 0.13 0.38 −3 −2.13 1
+Here is the equation of a curve y = x³ − 3x − 1
+
+Complete the table of values for y = x³ − 3x − 1, giving your values of y to 2 decimal places where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 0.13 0.38 −3 −2.13 1
+
+![table — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_a_table.png)
 
 ![table — official paper figure (qp.pdf p.16)](assets/asset_7_a_table.png)
 
@@ -478,7 +468,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ### 7(c) [2]
 
-Use your graph to estimate, to one decimal place, the solutions in the interval −2 ≤ x ≤ 2 of the equation x3 − 3x − 1 = 0.5
+Use your graph to estimate, to one decimal place, the solutions in the interval −2 ≤ x ≤ 2 of the equation x³ − 3x − 1 = 0.5
+
+![graph — official paper figure (qp.pdf p.17) (same figure as asset_7_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.17) — shared with asset_7_b_grid](assets/asset_7_b_grid.png)
 
@@ -492,7 +484,9 @@ Use your graph to estimate, to one decimal place, the solutions in the interval 
 
 ### 7(d) [2]
 
-By drawing a suitable straight line on the grid, find an estimate, to one significant figure, of the gradient of the curve at the point where x = 0.5 y −2 −1 O 1 2 x −1 −2 −3 −4 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y −2 −1 O 1 2 x −1 −2 −3 −4
+By drawing a suitable straight line on the grid, find an estimate, to one significant figure, of the gradient of the curve at the point where x = 0.5
+
+![grid — official paper figure (qp.pdf p.17) (same figure as asset_7_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_7_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17) — shared with asset_7_b_grid](assets/asset_7_b_grid.png)
 
@@ -512,9 +506,13 @@ Some college students were each asked which of the subjects Mathematics (M), Phy
 
 ### 8(a) [4]
 
+Some college students were each asked which of the subjects Mathematics (M), Physics (P) and Chemistry (C) they were studying. Here is some information about their answers. n(M ∩ P) = 21 n(M ∩ C ) = 24 n(P ∩ C ) = 25 n(M ) = 43 n(P) = 50 n([M ∪ P ∪ C ]ʹ) = 25 n([M ∪ P]ʹ ∩ C ) = 8 n(M ∩ P ∩ C ) = x , where x is a positive integer.
+
 Use all the given information to complete the Venn diagram on the opposite page, giving the number of elements in each appropriate subset, in terms of x where necessary. Given that n(C ) = 40
 
-> 🖼 crop required: diagram (qp.pdf p.20)
+![figure — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-11/4MB1-02/assets/asset_8_8-a.png)
+
+![figure — official paper figure (qp.pdf p.20)](assets/asset_8_8-a.png)
 
 
 **Mark scheme answer**
@@ -536,7 +534,7 @@ Use all the given information to complete the Venn diagram on the opposite page,
 
 ### 8(b) [4]
 
-find the total number of college students that were asked. One of these college students is to be chosen at random. Given that the college student studies Chemistry,
+find the total number of college students that were asked. One of these college students is to be chosen at random. Given that the college student studies Chemistry …………… , ……………
 
 
 **Mark scheme answer**
@@ -577,9 +575,12 @@ B C Diagram NOT accurately drawn O 18° 120° A D E Figure 2 Figure 2 shows a ci
 
 ### 9 [6]
 
-B C Diagram NOT accurately drawn O 18° 120° A D E Figure 2 Figure 2 shows a circle ABCDE with centre O. ∠BAO = 18° ∠AOD = 120° The area of segment BCD, shown shaded in Figure 2, is T cm2 Given that the perimeter of the sector AODE is 5(3 + π) cm, calculate the value, to one decimal place, of T. Area of triangle 2 ab sin C
+Figure 2 Figure 2 shows a circle ABCDE with centre O. ∠BAO = 18° ∠AOD = 120° The area of segment BCD, shown shaded in Figure 2, is T cm² Given that the perimeter of the sector AODE is 5(3 + π) cm, calculate the value, to one decimal place, of T. Area of triangle 2 ab sin C
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, O, A, D, E · Figure values: 18°, 120°.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_9_diagram.png)
 
 
 **Mark scheme answer**
@@ -595,7 +596,7 @@ B C Diagram NOT accurately drawn O 18° 120° A D E Figure 2 Figure 2 shows a ci
 > "96" M1 a correct method to find Area of sector OBCD. Ft their value
 > Area of sector OBCD = × π × "7.5"2
 > 360 ⎛ 360 − 96 ⎞
-> of r and their ∠BOD eg π "7.5"2 − ⎜ ⎟ × π "7.5"
+> of r and their ∠BOD eg π "7.5"2 − × π "7.5"
 > ( = 15π = 47.12...) ⎝ 360 ⎠
 > 1
 > NB radians "7.5"2 × π
@@ -604,7 +605,6 @@ B C Diagram NOT accurately drawn O 18° 120° A D E Figure 2 Figure 2 shows a ci
 > ( = 27.97...) value of r and their ∠BOD . May use trig to find lengths
 > and use area = 0.5bh
 > 19.2 (cm²) A1 19.1 – 19.2
-> Total 6 marks
 
 - **(6)** 120 6 M1 correct equation for perimeter of sector AOD Allow 30.7 or
 
@@ -733,7 +733,7 @@ Use the factor theorem to show that (2x + 3) is a factor of f (x)
 
 > 3
 > 4 × (−1.5) + 4 × (−1.5) − 5 × −1.5 − 3 oe 2 M1
-> 4 × (−1.5)3 + 4 × (−1.5)2 − 5 × −1.5 − 3 = 0 oe A1 must show that substitution of −1.5 gives solution of zero
+> 4 × (−1.5)³ + 4 × (−1.5)² − 5 × −1.5 − 3 = 0 oe A1 must show that substitution of −1.5 gives solution of zero
 
 - **(2)** 3
 
@@ -747,16 +747,15 @@ Hence solve the equation f (x) = 0 Show clear algebraic working.
 > The first 3 marks may be awarded for working seen in part(i)
 > Division by (2x + 3) giving a first term of 2x² 4 M1 for (2x + 3)(2x².......) or synthetic division
 > 2 x 2 ...................... 4 4 −5 −3
-> (2 x + 3) 4 x3 + 4 x 2 − 5 x − 3 -3/2 −6 3
+> (2 x + 3) 4 x³ + 4 x 2 − 5 x − 3 -3/2 −6 3
 > 4 −2 … …
 > Quotient 2x² − x − 1 M1 Allow 4x² − 2x − 2
 > (2x + 1)(x – 1)(=0) oe M1 Correct factorisation of their quotient. For synthetic
 > division allow ( 4 x + 2 )( x − 1) (= 0) or ( 2 x + 1)( 2 x − 2 ) (= 0)
 > or 2 ( 2x + 1)( x − 1) (= 0) but we will condone missing 2
 > Allow correct use of quadratic formula for their quadratic
-> but working must be seen. Condone 22 for (−2)2
+> but working must be seen. Condone 22 for (−2)²
 > −1.5, −0.5, 1 A1 All previous method marks must be awarded
-> Total 15 marks
 > Q6
 > Q5
 > Q7

@@ -97,6 +97,8 @@ Given that y = 21x 2 – x dy find dx dy = .....................................
 
 ### 5 [2]
 
+Given that y = 21x 2 – x dy find dx dy = ……………dx
+
 Given that y = 21x 2 – x dy find dx dy = dx
 
 
@@ -104,7 +106,7 @@ Given that y = 21x 2 – x dy find dx dy = dx
 
 > 8 2 B2 oe eg 42 x + 8 x −2
 > 42x +
-> x2 (B1 for one term correct need not be simplified)
+> x² (B1 for one term correct need not be simplified)
 > Correct answers scores full marks Total 2 marks
 > (unless from obviously incorrect
 > working)
@@ -197,7 +199,7 @@ Solve 3(2 – x)2 – 75 = 0 Show clear algebraic working. x = .................
 
 ### 9 [3]
 
-Solve 3(2 – x)2 – 75 = 0 Show clear algebraic working. x =
+Solve 3(2 – x)² – 75 = 0 Show clear algebraic working. x = ……………Solve 3(2 – x)² – 75 = 0 Show clear algebraic working. x =
 
 
 **Mark scheme answer**
@@ -354,7 +356,9 @@ The diagram shows a square piece of card from which two semicircles are cut out.
 
 ### 14 [4]
 
-The diagram shows a square piece of card from which two semicircles are cut out. 5 cm 5 cm Diagram NOT accurately drawn 15 cm The square has a side of length 15 cm. Calculate the area, in cm2 to 3 significant figures, of the piece of card left when the semicircles are cut out cm2
+The diagram shows a square piece of card from which two semicircles are cut out. 5 cm 5 cm Diagram NOT accurately drawn 15 cm The square has a side of length 15 cm. Calculate the area, in cm² to 3 significant figures, of the piece of card left when the semicircles are cut out cm²
+
+![diagram — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01R/assets/asset_14_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.8)](assets/asset_14_diagram.png)
 
@@ -395,10 +399,10 @@ Solve the simultaneous equations 9x + 7y = 3 5x – 4y = 6.4 Show clear algebrai
 > 71y = –42.6 71x = 56.8 selected variable (condone any one arithmetic error) or
 > or writing x or y in terms of the other variable and
 > ⎛ 3−7y ⎞ ⎛ 3 − 9x ⎞ correctly substituting must gain an equation in one
-> 5⎜ ⎟ − 4 y = 6.4 or 5 x − 4 ⎜ ⎟ = 6.4 or variable
+> 5 − 4 y = 6.4 or 5 x − 4 = 6.4 or variable
 > ⎝ 9 ⎠ ⎝ 7 ⎠
 > ⎛ 6.4 + 4 y ⎞ ⎛ 5 x − 6.4 ⎞
-> 9⎜ ⎟ + 7 y = 3 or 9 x + 7 ⎜ ⎟=3
+> 9 + 7 y = 3 or 9 x + 7 =3
 > ⎝ 5 ⎠ ⎝ 4 ⎠
 > x = 0.8 or A1oe one correct value dep on M1
 > y = –0.6
@@ -417,9 +421,12 @@ A 16 cm B Diagram NOT accurately drawn 68° D 20 cm C The diagram shows trapeziu
 
 ### 16 [4]
 
-A 16 cm B Diagram NOT accurately drawn 68° D 20 cm C The diagram shows trapezium ABCD in which AB = 16 cm DC = 20 cm ∠BCD = 68° ∠BAD = ∠CDA = 90° Calculate the area, in cm2 to 3 significant figures, of trapezium ABCD cm2
+The diagram shows trapezium ABCD in which AB = 16 cm DC = 20 cm ∠BCD = 68° ∠BAD = ∠CDA = 90° Calculate the area, in cm² to 3 significant figures, of trapezium ABCD cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, D, C · Figure values: 16, 68°, 20.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -429,7 +436,7 @@ A 16 cm B Diagram NOT accurately drawn 68° D 20 cm C The diagram shows trapeziu
 > 20 − 16 etc…
 > AD = tan 68 × 4 [= 9.9…] M1 Correct method to find AD
 > ⎛ 16 + 20 ⎞ M1 Correct method to find area, ft their AD
-> ⎜ ⎟ × "9.9" or
+>  × "9.9" or
 > ⎝ 2 ⎠
 > 20 × “9.9” – 0.5 × (20 – 16) × “9.9” oe
 > 178 A1 awrt 178
@@ -528,9 +535,12 @@ F Diagram NOT D C accurately drawn E A B 106° G In the diagram, ABCD is a trape
 
 ### 19 [5]
 
-F Diagram NOT D C accurately drawn E A B 106° G In the diagram, ABCD is a trapezium and EDF is an isosceles triangle with DE = DF EDC and GADF are straight lines. ∠GAB = 106° Calculate the size, in degrees, of ∠DEF Give reasons for each stage of your working. ° ∠DEF =
+In the diagram, ABCD is a trapezium and EDF is an isosceles triangle with DE = DF EDC and GADF are straight lines. ∠GAB = 106° Calculate the size, in degrees, of ∠DEF Give reasons for each stage of your working. ° ∠DEF =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: F, D, C, E, A, B, G · Figure values: 106°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_19_diagram.png)
 
 
 **Mark scheme answer**
@@ -637,9 +647,9 @@ Use the factor theorem to show that k = 53
 
 **Mark scheme answer**
 
-> 6 × (±2)3 + 31× (±2)2 ± 2 × 53 + 30 = ... or 2 M1 substitution of x = ± 2 and k = 53 into expression
+> 6 × (±2)³ + 31× (±2)² ± 2 × 53 + 30 = ... or 2 M1 substitution of x = ± 2 and k = 53 into expression
 > and attempt to evaluate or
-> 6 × (±2)3 + 31× (±2)2 ± 2k + 30 = 0
+> 6 × (±2)³ + 31× (±2)² ± 2k + 30 = 0
 > substitution of x = ± 2 into expression and equating to 0
 > to form an equation in k
 > For both method allow with terms evaluated eg:
@@ -664,7 +674,7 @@ Factorise fully 6x 3 + 31x 2 + 53x + 30
 > (allow (2x + 3)(3x + 5))
 > (x + 2)(2x + 3)(3x + 5) A1 fully correct allow
 > ⎛ 3 ⎞⎛ 5⎞
-> NB: ( x + 2 ) ⎜ x + ⎟ ⎜ x + ⎟ gains no marks
+> NB: ( x + 2 ) ⎜ x + x + ⎟ gains no marks
 > ⎝ 2 ⎠⎝ 3⎠
 > Do not isw answer if roots are found this is A0
 > (unless from obviously incorrect
@@ -679,13 +689,15 @@ Factorise fully 6x 3 + 31x 2 + 53x + 30
 
 ### 22(a) [2]
 
-Find 4A – 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠ Given the determinant of BC is 20
+⎛ 3 4⎞ ⎛ −2 3⎞ ⎛ 7 x⎞ B= 4 −1 A= 2 −3 C= 2 4 
+
+Find 4A – 2B Given the determinant of BC is 20
 
 
 **Mark scheme answer**
 
 > ⎛16 10 ⎞ 2 B2 for all correct values
-> ⎜ ⎟ B1 2 × 2 matrix with at least 2 correct values
+>  B1 2 × 2 matrix with at least 2 correct values
 > ⎝ 0 −10 ⎠
 
 - **(2)** ⎛16 10 ⎞ 2 B2 for all correct values
@@ -698,7 +710,7 @@ find the value of x x =
 **Mark scheme answer**
 
 > ⎛ −14 + 6 −2 x + 12 ⎞ 4 M2 all correct in matrix BC, M1 for 2 or 3 elements
-> ⎜ ⎟ oe or correct give bod for missing brackets or
+>  oe or correct give bod for missing brackets or
 > ⎝ 28 − 2 4x − 4 ⎠
 > M2 for (2 – 12)(28 – 2x) = 20 (M1 for this equation
 > (2 – 12)(28 – 2x) = 20 with one error)
@@ -769,11 +781,14 @@ E Diagram NOT accurately drawn D A X 10 cm C 10 cm B The diagram shows a solid r
 
 ### 24 [5]
 
-E Diagram NOT accurately drawn D A X 10 cm C 10 cm B The diagram shows a solid right square‑based pyramid ABCDE The volume of the pyramid is 1000 cm3 The pyramid is standing with its square base, ABCD, on a horizontal table. The square base has side 10 cm. X is the midpoint of the side AB Calculate the size, in degrees to the nearest degree, of ∠CEX °
+The diagram shows a solid right square‑based pyramid ABCDE The volume of the pyramid is 1000 cm³ The pyramid is standing with its square base, ABCD, on a horizontal table. The square base has side 10 cm. X is the midpoint of the side AB Calculate the size, in degrees to the nearest degree, of ∠CEX °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.17)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01R/assets/asset_24_24.png)
+> Labels in the original figure: E, D, A, X, C, B · Figure values: 10, 10.
 
-> 🖼 crop required: table (qp.pdf p.None)
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_24_diagram.png)
+
+![figure — official paper figure (qp.pdf p.17)](assets/asset_24_24.png)
 
 
 **Mark scheme answer**
@@ -791,9 +806,9 @@ E Diagram NOT accurately drawn D A X 10 cm C 10 cm B The diagram shows a solid r
 > 2 2 that would leads to a value correct to 3 significant
 > figures follow through their h and CM
 > [ EX =] "30"2 + 52 (= 925 = 5 37 = 30.41...) or
-> [CE =] "30"2 + ("5 2 ")2 (= 950 = 5 38 = 30.82...)
+> [CE =] "30"2 + ("5 2 ")² (= 950 = 5 38 = 30.82...)
 > ⎛ ("5 38 ") 2 + ("5 37 ") 2 − ("5 5 ") 2 ⎞ M1 dep on all previous M marks correct method to find
-> cos −1 ⎜⎜ ⎟⎟ ∠CEX that would lead to a correct value follow
+> cos −1 ∠CEX that would lead to a correct value follow
 > ⎝ 2 × "5 38 "× "5 37 " ⎠ through their CE, EX and CX
 > 21 A1 awrt 21
 > Correct answers scores full marks (unless from Total 5 marks

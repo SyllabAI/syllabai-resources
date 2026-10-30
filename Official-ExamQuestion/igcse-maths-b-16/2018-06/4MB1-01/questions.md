@@ -8,7 +8,7 @@ The nth term of a sequence is given by 5n – 7 Write down the second, third and
 
 ### 1 [2]
 
-The nth term of a sequence is given by 5n – 7 Write down the second, third and fourth terms of the sequence , ,
+The nth term of a sequence is given by 5n – 7 Write down the second, third and fourth terms of the sequence …………… , …………… , ……………
 
 
 **Mark scheme answer**
@@ -25,7 +25,9 @@ The bearing of town A from town B is 054° Find the bearing of town B from town 
 
 ### 2 [2]
 
-The bearing of town A from town B is 054° Find the bearing of town B from town A. °
+The bearing of town A from town B is 054° Find the bearing of town B from town A.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -42,7 +44,9 @@ At the beginning of the summer, Amrit’s weight was 75 kg. At the end of the su
 
 ### 3 [2]
 
-At the beginning of the summer, Amrit’s weight was 75 kg. At the end of the summer, his weight was 69 kg. Calculate the percentage loss in Amrit’s weight %
+At the beginning of the summer, Amrit’s weight was 75 kg. At the end of the summer, his weight was 69 kg. Calculate the percentage loss in Amrit’s weight
+
+…………… %
 
 
 **Mark scheme answer**
@@ -63,7 +67,7 @@ The point A is mapped onto the point (–1, 3) under the translation ⎜ ⎟ ⎝
 
 ### 4 [2]
 
-The point A is mapped onto the point (–1, 3) under the translation ⎜ ⎟ ⎝ −5⎠ Find the coordinates of A. ( , )
+The point A is mapped onto the point (–1, 3) under the translation −5 Find the coordinates of A. ( …………… , …………… )
 
 
 **Mark scheme answer**
@@ -151,7 +155,7 @@ Solve the equation 4x + (5.2 q 105) = (7.1 q 107) – 12x Give your answer in st
 
 ### 8 [3]
 
-Solve the equation 4x + (5.2 q 105) = (7.1 q 107) – 12x Give your answer in standard form.
+Solve the equation 4x + (5.2 × 10⁵) = (7.1 × 10⁷) – 12x Give your answer in standard form.
 
 
 **Mark scheme answer**
@@ -208,7 +212,7 @@ The determinant of the matrix ⎜ is equal to 9 ⎝ 5 x 4⎟⎠ Find the value o
 
 ### 10 [3]
 
-The determinant of the matrix ⎜ is equal to 9 ⎝ 5 x 4⎟⎠ Find the value of x. x =
+The determinant of the matrix is equal to 9 5 x 4 Find the value of x. x =
 
 
 **Mark scheme answer**
@@ -255,7 +259,11 @@ Diagram NOT accurately drawn A O 32q C B ABC is a triangle such that the points 
 
 ### 12(a) [1]
 
-∠COB °
+Diagram NOT accurately drawn A O 32° C B ABC is a triangle such that the points A, B and C lie on a circle, centre O. BC = BA and ∠CAB = 32° Find the size, in degrees, of
+
+∠COB
+
+…………… °
 
 
 **Mark scheme answer**
@@ -266,7 +274,9 @@ Diagram NOT accurately drawn A O 32q C B ABC is a triangle such that the points 
 
 ### 12(b) [2]
 
-∠OCA °
+∠OCA
+
+…………… °
 
 
 **Mark scheme answer**
@@ -285,7 +295,7 @@ Prove that (4n + 3)2 – (4n – 3)2 is a multiple of 12 for all positive intege
 
 ### 13 [3]
 
-Prove that (4n + 3)2 – (4n – 3)2 is a multiple of 12 for all positive integer values of n.
+Prove that (4n + 3)² – (4n – 3)² is a multiple of 12 for all positive integer values of n.
 
 
 **Mark scheme answer**
@@ -310,7 +320,7 @@ Prove that (4n + 3)2 – (4n – 3)2 is a multiple of 12 for all positive intege
 
 ### 14 [3]
 
-⎛ 2 x − 1⎞ a=⎜ ⎝ −3 ⎟⎠ Given that a = 5 find the possible values of x.
+⎛ 2 x − 1⎞ a= −3 Given that a = 5 find the possible values of x.
 
 
 **Mark scheme answer**
@@ -336,9 +346,12 @@ B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. Th
 
 ### 15 [3]
 
-B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. The point C is such that CD and CB are tangents to the circle. ∠ADB = ∠ABD Prove that 'ABC and 'ADC are congruent.
+A, B and D are three points on a circle. The point C is such that CD and CB are tangents to the circle. ∠ADB = ∠ABD Prove that △ABC and △ADC are congruent.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C, D.
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_15_diagram.png)
 
 
 **Mark scheme answer**
@@ -357,7 +370,7 @@ B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. Th
 ## Question 16 (4 marks)
 ### 16(a) [2]
 
-Simplify (4x5)2
+Simplify (4x5)²
 
 
 **Mark scheme answer**
@@ -398,7 +411,9 @@ the lower bound, in mm, for the perimeter of the piece of paper, mm
 
 ### 17(b) [2]
 
-the upper bound, to the nearest mm2, for the area of the piece of paper mm2
+the upper bound, to the nearest mm², for the area of the piece of paper
+
+…………… mm²
 
 
 **Mark scheme answer**
@@ -415,7 +430,7 @@ y varies inversely as the cube of x. y = 297 when x = Find the value of x2 when 
 
 ### 18 [4]
 
-y varies inversely as the cube of x. y = 297 when x = Find the value of x2 when y = 704 x2 =
+y varies inversely as the cube of x. y = 297 when x = Find the value of x² when y = 704 x² =
 
 
 **Mark scheme answer**
@@ -423,13 +438,11 @@ y varies inversely as the cube of x. y = 297 when x = Find the value of x2 when 
 > −3 M1
 > ⎛1⎞ SC B1 for 297 =
 > k
-> 297 = k ⎜ ⎟
-> ⎝3⎠
+> 297 = k 3
 > k = 11 Or equivalent M1
 > 2 M1dep
 > ⎛ ''11'' ⎞
-> x 2 = ⎜⎜ 3 ⎟⎟
-> ⎝ 704 ⎠
+> x 2 = 3 704 
 > ( x ) = 161
 > 2 Or equivalent A1
 > Question Working Answer Notes Mark Sub- Total
@@ -445,7 +458,7 @@ Simplify fully 10 x + 5 y − 2 x 2 − xy 4 x2 − y 2
 
 ### 19 [4]
 
-Simplify fully 10 x + 5 y − 2 x 2 − xy 4 x2 − y 2
+Simplify fully 10 x + 5 y − 2 x 2 − xy 4 x² − y 2
 
 
 **Mark scheme answer**
@@ -499,9 +512,12 @@ A Diagram NOT accurately drawn 35q O 8 cm B The diagram shows a sector, AOB, of 
 
 ### 21 [4]
 
-A Diagram NOT accurately drawn 35q O 8 cm B The diagram shows a sector, AOB, of a circle centre O and radius 8 cm. The angle AOB is 35° Find the area, in cm2 to 3 significant figures, of the segment shaded in the diagram cm2
+The diagram shows a sector, AOB, of a circle centre O and radius 8 cm. The angle AOB is 35° Find the area, in cm² to 3 significant figures, of the segment shaded in the diagram cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, O, B · Figure values: 35°, 8.
+
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -526,25 +542,26 @@ Two containers, A and B, are mathematically similar. Container A has a volume of
 
 ### 22 [4]
 
-Two containers, A and B, are mathematically similar. Container A has a volume of 4500 cm3 and a total surface area of 1500 cm2 Container B has a volume of 972 cm3 Calculate the total surface area, in cm2, of container B cm2
+Two containers, A and B, are mathematically similar. Container A has a volume of 4500 cm³ and a total surface area of 1500 cm² Container B has a volume of 972 cm³ Calculate the total surface area, in cm², of container B
+
+…………… cm²
 
 
 **Mark scheme answer**
 
 > 1 972 M2
 > ⎛ 972 ⎞ 3 M1 for
-> ⎜ ⎟ (length scale factor) oe 4500
+>  (length scale factor) oe 4500
 > ⎝ 4500 ⎠
 > 2 1 M1
 > ⎧
 > ⎫ ⎛ 972 ⎞ 3
-> ⎪⎛ 972 ⎞ 3 ⎪ Squaring their ⎜ ⎟ - DEP
-> ⎨⎜ ⎟ ⎬ ⎝ 4500 ⎠
+> ⎪⎛ 972 ⎞ 3 ⎪ Squaring their - DEP
+> ⎨ ⎬ ⎝ 4500 ⎠
 > ⎪⎩⎝ 4500 ⎠ ⎪⎭
 > dependent on first M mark
 > 540 A1
 > Question Working Answer Notes Mark Sub- Total
-> Total
 
 - **(4)** 1 972 M2
 
@@ -590,6 +607,8 @@ Diagram NOT accurately drawn O The diagram shows a circle and a square. The circ
 
 ### 24(a) [3]
 
+Diagram NOT accurately drawn O The diagram shows a circle and a square. The circle has centre O and diameter k cm and each vertex of the square lies on the circle. The total area of the regions shown shaded in the diagram is A cm²
+
 Show that 8A = 2λN 2 – 3k2
 
 
@@ -597,7 +616,7 @@ Show that 8A = 2λN 2 – 3k2
 
 > 2 Correct expression for the M1 3
 > ⎛k⎞
-> Area of circle = π ⎜ ⎟ area of the circle
+> Area of circle = π area of the circle
 > ⎝2⎠
 > 1 Correct expression for area M1
 > Area of square = k 2 or
@@ -707,15 +726,18 @@ B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram
 
 ### 27 [6]
 
-B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram shows triangle ABC in which AB = (x + 3) cm BC = 2x cm AC = (3x + 1) cm ∠ABC = 120° Find the size, in degrees to 3 significant figures, of ∠ACB. ∠ACB = °
+(x + 3) cm 2x cm A (3x + 1) cm C The diagram shows triangle ABC in which AB = (x + 3) cm BC = 2x cm AC = (3x + 1) cm ∠ABC = 120° Find the size, in degrees to 3 significant figures, of ∠ACB. ∠ACB = °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C · Figure values: 120° · Other figure text: (x + 3) cm, 2x cm, (3x + 1) cm.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
 
 > 2 2 2 M1
-> 9x2 + 6x + 1 = x2 + 6 x + 9 + 4 x2 + 2 x2 + 6 x Expand brackets (condone M1
+> 9x2 + 6x + 1 = x² + 6 x + 9 + 4 x² + 2 x² + 6 x Expand brackets (condone M1
 > at most one error)
 > x 2 − 3x − 4 =0 Simplifying to TQ M1
 > ( x + 1)( x − 4 ) =
@@ -728,8 +750,6 @@ B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram
 > of x – independent of
 > previous M marks
 > 27.8 A1
-> Question Working Answer Notes Mark Sub- Total
-> Total
 
 - **(6)** 2 2 2 M1
 

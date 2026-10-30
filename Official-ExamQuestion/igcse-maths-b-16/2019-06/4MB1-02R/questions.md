@@ -68,18 +68,18 @@ AUB
 
 ### 1(f) [1]
 
-n(B’ aC’) P60 2 5 8 A 0 2 3 6 pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+Find
+
+n(B′ ∩ C′)
 
 
 **Mark scheme answer**
 
-> 5 1 B1 or ft their Venn diagram, also
+> 5  B1 or ft their Venn diagram, also
 > ft number of elements in answer to (d) + number of elements
 > in Venn diagram in ‘just A’
-> Total 8 marks
-> Question Working Answer Mark Notes
 
-- **(1)** 5 1 B1 or ft their Venn diagram, also
+- **(1)** 5  B1 or ft their Venn diagram, also
 
 
 ## Question 2 (10 marks)
@@ -145,20 +145,20 @@ Represent your solution on the same number line.
 
 ### 2(c) [1]
 
-Write down the set of values for which both 6x + 10 > 2x +2 and (4x + 3)(2x — 1) < (6x + 5) — 2) viii | oS een eects seessii scenic sentient > ee P60 2 5 8 A 0 4 3 6 pe PMT (. —-5 —4 —3 —2 -1 0 1 2 3 4 5 [>
+Write down the set of values for which
+
+**both** $6x + 10 \geqslant 2x + 2$ **and** $(4x + 3)(2x - 1) < (6x + 5)(x - 2)$
 
 
 **Mark scheme answer**
 
-> −2 ≤ x < −1 1 B1for the correct answer oe eg −1 > x ≥ −2 or x < −1 (and) x ≥
-> −2 or [−2, −1) even if b(i) does not have the correct answer
+> −2 ≤ x < −1  B1 for the correct answer oe eg −1 > x ≥ −2 or x < −1 (and) x ≥
+> −2 or [−2, −1) even if (b)(i) does not have the correct answer
 > displayed or ft dep on M1 in both (a) and (b) and answers for
 > (b)(i) in the form a < x < b and answer in (a)(i) an answer
 > which overlaps the answer in (b)(i)
-> Total 10 marks
-> Question Working Answer Mark Notes
 
-- **(1)** −2 ≤ x < −1 1 B1for the correct answer oe eg −1 > x ≥ −2 or x < −1 (and) x ≥
+- **(1)** −2 ≤ x < −1  B1 for the correct answer oe eg −1 > x ≥ −2 or x < −1 (and) x ≥
 
 
 ## Question 3 (8 marks)
@@ -184,9 +184,30 @@ Complete the probability tree diagram. First counter Second counter orange orang
 
 Calculate the probability that Priya takes 2 white counters.
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 3(c) [3]
 
-Calculate the probability that the counters Priya takes are not of the same colour. P60 2 5 8 A 0 6 3 6 pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+Calculate the probability that the counters Priya takes are not of the same colour.
+
+
+**Mark scheme answer**
+
+> 5/15 × 3/14 + 5/15 × 7/14 + 3/15 × 5/14 + 3/15 × 7/14 +
+> 7/15 × 5/14 + 7/15 × 3/14  or
+> 5/15 × 10/14 + 3/15 × 12/14 + 7/15 × 8/14  oe  or
+> 1 − 5/15 × 4/14 − 3/15 × 2/14 − “1/5”  oe
+> 
+> M2ft for a fully correct method, ft dep on probabilities between 0 and 1
+> M1ft for at least 2 correct products (or one product of eg O, O′ or for 1 minus at least one product for 2 of the same colour, ft the answer to (b))
+> 
+> 71/105
+> A1 oe allow decimals of 0.68 or better and 68% or better (0.67619...)
+
 
 
 ## Question 4 (14 marks)
@@ -194,6 +215,8 @@ Calculate the probability that the counters Priya takes are not of the same colo
 The total amount of money that was spent last March by Marco’s family was $4200 The four table itemsbelow gives information about the amount Marco’s family spent on each of last March. Item Amount healthcare insurance $504 $336 food $546 travel $630 housing entertainment other items
 
 ### 4(a) [2]
+
+The total amount of money that was spent last March by Marco’s family was \$4200 The four table itemsbelow gives information about the amount Marco’s family spent on each of last March. Item Amount healthcare insurance \$504 \$336 food \$546 travel \$630 housing entertainment other items
 
 Calculate the percentage of the total amount that was spent on healthcare. The amount transport spent in the on 4 ratios travel : 3 : 2was divided between Marco’s car, his wife’s car and other
 
@@ -213,7 +236,7 @@ Calculate the percentage of the total amount that was spent on healthcare. The a
 
 ### 4(b) [2]
 
-Calculate the amount, in $, that was spent on Marco’s car. The amount last February. that was spent on food last March was 12% more than was spent on food
+Calculate the amount, in \$, that was spent on Marco’s car. The amount last February. that was spent on food last March was 12% more than was spent on food
 
 
 **Mark scheme answer**
@@ -223,13 +246,13 @@ Calculate the amount, in $, that was spent on Marco’s car. The amount last Feb
 > 15 14
 > 1 A1 oe cao
 > × 630
-> ($)280 A1
+> (\$)280 A1
 
 - **(2)** 7 6 2 M1ft their tree diagram for white, white
 
 ### 4(c) [3]
 
-Calculate the amount, in $, that was spent on food last February. The amount of money of was that moneynot spent spent on on entertainment last March healthcare, insurance, was food 12.5% and of the total amount travel.
+Calculate the amount, in \$, that was spent on food last February. The amount of money of was that moneynot spent spent on on entertainment last March healthcare, insurance, was food 12.5% and of the total amount travel.
 
 
 **Mark scheme answer**
@@ -243,13 +266,13 @@ Calculate the amount, in $, that was spent on food last February. The amount of 
 > for 1 minus at least one product for 2 of the same colour (ft the
 > M2 for
 > (546 ÷ 112) × 100 M1 1.12
-> ($)487.5(0) A1
+> (\$)487.5(0) A1
 
 - **(3)** 5 3 5 7 3 5 3 7 3 M2ft for a fully correct method
 
 ### 4(d) [3]
 
-Calculate the amount, in $, that was spent on entertainment. Marco draws a pie chart for the amounts his family spent on all the items last March.
+Calculate the amount, in \$, that was spent on entertainment. Marco draws a pie chart for the amounts his family spent on all the items last March.
 
 
 **Mark scheme answer**
@@ -259,7 +282,7 @@ Calculate the amount, in $, that was spent on entertainment. Marco draws a pie c
 > 12.5 M1 a correct calculation to find 12.5% of “2184”
 > “2184 × 0.125 oe eg 2184 ×
 > 100 “2184” must come from correct working
-> ($)273 A1
+> (\$)273 A1
 
 - **(3)** 4200 – (336 + 504 + 546 + 3 M1
 
@@ -279,19 +302,18 @@ Calculate the size of the angle, in degrees, for insurance. The angle in the pie
 
 ### 4(f) [2]
 
-Calculate the amount, in $, that was spent on housing. P60 2 5 8 A 0 8 3 6 pe PMT a ee MUA ACA AAA Turnover > | P6025 8 A 09 3 6P60 2 5 8 A 0 9 3 6 e Oo ro) ccc 0 i eects, ro) ccc Es — ACOA AMA AI ANAT A A A P6025 8 A010 3 6 | pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+The angle in the pie chart for housing is 114°
+
+Calculate the amount, in \$, that was spent on housing.
 
 
 **Mark scheme answer**
 
-> 114 2 M1
-> × 4200 oe
-> 360
-> ($)1330 A1
-> Total 14 marks
-> Question Working Answer Mark Notes
+> 114/360 × 4200  oe   M1
+> 
+> (\$)1330  A1
 
-- **(2)** 114 2 M1
+- **(2)** 114/360 × 4200  oe   M1
 
 
 ## Question 5 (10 marks)
@@ -344,13 +366,10 @@ On the grid, draw and label triangle D. Triangle D is the image of triangle A un
 > 15 14 15 14 5
 > 71 A1 oe allow decimals of 0.68 or better and 68% or better
 > 105 (0.67619...)
-> Total 8 marks
-> Question Working Answer Mark Notes
-> ⎜ ⎟⎜ ⎟ coordinates or for at least 2 correct coordinates listed or
+>  coordinates or for at least 2 correct coordinates listed or
 > ⎝ −2 0 ⎠⎝ 1 4 3 ⎠ plotted.
 > ⎛ 2 8 6⎞ If not M2 then M1 for a correct matrix product with all
-> = ⎜ ⎟
-> ⎝ 4 4 6⎠ coordinates in the matrix and multiplied firstly by the
+> = 4 4 6 coordinates in the matrix and multiplied firstly by the
 > transformation matrix.
 > (2, 4), (8, 4), (6, 6) A1 for a fully correct triangle plotted on grid
 
@@ -358,27 +377,26 @@ On the grid, draw and label triangle D. Triangle D is the image of triangle A un
 
 ### 5(d) [3]
 
-Find the matrix N. ee cece eee cece cnet eset seins essai esis sii sii g NIG IU AMCAAA TAA A A P6025 8 A 01 2 3 6 | 7 PMT : PTT ETT TT TT :7 z PTT yy tyeTT Pity ye EET REE PaEPbpTT pgTT ap pett 3 SRR Nee ° yyBRR |2| NEE tT WE NE| | | A Z elai2}% ett} ee BRR ae eee ett Aes |? 14 PY] s | 1+ e AER z PTT ppd TT iTT PetttT bpp petTTpeTt tt : Pt ttt} PEE PeTEE tT EE pes Eett TT TT FE | nnn ntnnnannninnnnnnnniinnnnnnnninnnnnniinnnnnnniiinnnniiinnnnnnninnnniisinnnnet MUM ETA A > for a spare grid if you need to redraw your triangles. p P 602 58 A013 3P60 2 5 8 A 01 3 3 6 Oo ro) ccc 0 i eects, ro) ccc Es — AUTON AAA AT ANAT A A A a P6025 8 A014 3 6 | pO PMT Only use this grid if you need to redraw your triangles. VA 5 Pd 9 SRR yy BRR EPR Nee RTAe We NEE pet pe pes NE tt | 4} oi] | ett eit| || 2 | RA | 4 | 8 | to < E z See SRR AER Aes = PTT LTP i: PTT TT BRD Pe PattT TT pa Ttygtt PEE TT TEE EE EE TTtyTT TT PET TT Tt tt FP ssn
+Triangle $D$ is the image of triangle $A$ under the transformation with matrix $\mathbf{N}$.
+
+Find the matrix $\mathbf{N}$.
 
 ![grid — official paper figure (qp.pdf p.12) — shared with asset_5_b_grid_stem](assets/asset_5_b_grid_stem.png)
 
 
 **Mark scheme answer**
 
-> ⎛ 0 2 ⎞⎛ −1 0 ⎞ 3 M1 for both matrices (either order) with intention to
-> ⎜ ⎟⎜ ⎟ or multiply or for any 2 correct entries in matrix N or for at
-> ⎝ −2 0 ⎠⎝ 0 1 ⎠ least 2 correct equations from list
-> 2a + b = 2. 2a + 4b = 8,
-> 3a + 3b = 6, 2c + d = 4
-> 2c + 4d = 4. 3c + 3d = 6 oe
-> ⎛0 2⎞ A2 award A1 for 3 correct entries (A marks assume M mark
-> ⎜ ⎟ is gained)
-> ⎝2 0⎠
-> Total 10 marks
-> Questions 5b & 5c
-> Question Working Answer Mark Notes
+> $\begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}$ $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$  or
+> 
+> 2a + b = 2,  2a + 4b = 8,
+> 3a + 3b = 6,  2c + d = 4
+> 2c + 4d = 4,  3c + 3d = 6  oe
+> 
+> M1 for both matrices (either order) with intention to multiply or for any 2 correct entries in matrix N or for at least 2 correct equations from list
+> 
+> $\begin{pmatrix} 0 & 2 \\ 2 & 0 \end{pmatrix}$  A2 award A1 for 3 correct entries (A marks assume M mark is gained)
 
-- **(3)** ⎛ 0 2 ⎞⎛ −1 0 ⎞ 3 M1 for both matrices (either order) with intention to
+- **(3)** $\begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}$ $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$  or
 
 
 ## Question 6 (7 marks)
@@ -387,37 +405,41 @@ MUM ACA A Turnover > P60 2 5 8 A 01 5 3 6 U <S = Diagram NOT accurately drawn gj
 
 ### 6 [7]
 
-P60 2 5 8 A 01 5 3 6 U <S = Diagram NOT accurately drawn gj 140" OS R as Sem an y : 12cm > P 12cm Q 7 Figure 1 Figure 1 shows a right pentagonal prism, with a horizontal square base PORS of side 12cm. YP =WQO=5cm ZWXY = 140° ZYPO = ZWOP = 90° M is the midpoint of PO so that XM is an axis of symmetry of the pentagon. (a) Calculate the size, in degrees to one decimal place, of ZVMR. (b) Calculate the length, in cm to one decimal place, of PU. ee eect eecii enue enue suisse sissies 9 P60 2 5 8 A 01 6 3 6 pe PMT a ee AUT EAA > | P6025 8A01 7 3 P60 6 2 5 8 A 01 7 3 6 Oo ro) ccc 0 i eects, ro) ccc Es — AOA AQ A AT ANT A P6025 8 A 01 8 3 6 | pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+Figure 1 shows a right pentagonal prism, with a horizontal square base $PQRS$ of side 12 cm.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+YP = WQ = 5 cm
+∠WXY = 140°
+∠YPQ = ∠WQP = 90°
+M is the midpoint of PQ so that XM is an axis of symmetry of the pentagon.
+
+(a) Calculate the size, in degrees to one decimal place, of ∠VMR.
+
+(b) Calculate the length, in cm to one decimal place, of PU.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_6_diagram.png)
 
 
 **Mark scheme answer**
 
-> (MR=) 6 + 12 (= 180 = 6 5 = 13.4...)
-> 2 2 3 M1
-> 5 M1 oe ft their MR as long as clear intention to be MR
-> tan VMR = eg labelled or shown on diagram
-> " 180 "
-> 20.4(°) A1 allow 20.4 – 20.5
-> 6 4 M1oe eg 6tan20(=2.18...)
-> (height of triangle =) (=2.18...)
-> tan(70° )
-> ( ) or M1 ft their MR as long as clear intention to be MR
-> =
-> PU 2
-> ("2.18..."+ 5) 2 + " 180 "
-> “2.18” must come from correct working
-> eg UM = 122 + ("2.18..."+ 5) 2 (= 13.985...)
-> M1 ft their MR as long as clear intention to be MR
-> PU = ("2.18..."+ 5) 2 + (" 180 ") 2 or
-> “2.18” must come from correct working
-> =PU "13.985..."2 + 62
-> 15.2 (cm) A1 15.2 – 15.3
-> Total 7 marks
-> Question Working Answer Mark Notes
+> (MR =) √(6² + 12²)  (= √180 = 6√5 = 13.4...)  M1
+> 
+> tan VMR = 5 ÷ “√180”
+> M1 oe ft their MR as long as clear intention to be MR, eg labelled or shown on diagram
+> 
+> 20.4(°)  A1 allow 20.4 – 20.5
+> 
+> (height of triangle =) 6 ÷ tan(70°)  (= 2.18...)
+> M1 oe eg 6tan20 (= 2.18...)
+> 
+> PU² = (“2.18...” + 5)² + (“√180”)²  or  eg UM = √(12² + (“2.18...” + 5)²)  (= 13.985...)
+> M1 ft their MR as long as clear intention to be MR; “2.18” must come from correct working
+> 
+> PU = √((“2.18...” + 5)² + (“√180”)²)  or  PU = √(“13.985...”² + 6²)
+> M1 ft their MR as long as clear intention to be MR; “2.18” must come from correct working
+> 
+> 15.2 (cm)  A1 15.2 – 15.3
 
-- **(7)** (MR=) 6 + 12 (= 180 = 6 5 = 13.4...)
+- **(7)** (MR =) √(6² + 12²)  (= √180 = 6√5 = 13.4...)  M1
 
 
 ## Question 7 (10 marks)
@@ -441,7 +463,11 @@ Complete the table of values for y = 5 — 5 — x? x —4 —3 —2 —l 0 1 2 
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-> 🖼 crop required: grid (qp.pdf p.20)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![table — official paper figure (qp.pdf p.20) (same figure as 7(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02R/assets/asset_7_a_table.png)
+
+![figure — official paper figure (qp.pdf p.20)](assets/asset_7_7-b.png)
 
 ![table — official paper figure (qp.pdf p.20) — shared with 7(a)](assets/asset_7_a_table.png)
 
@@ -485,24 +511,24 @@ xUse your curve to find the range of values of x, to one decimal place, for whic
 
 ### 7(e) [3]
 
-for By thedrawing a suitable solutions of straight the equation 3—x— line x? on = 0the grid, find estimates, to one decimal place, ene ence etnies seiaiis iain iain iiss iii 9g ANI OANA TAA A P6025 8 A020 3 6 | | PMT 4» .5y mM | EECCCEEEEREEEEECECEEE EEE EEE <x SEREREE SERS BE Be ee ee eee 6 ERE SE SE ee Oe eee eee ee z PEE EEE EEE CEE EEE EE EEE EEE EEE EEE EEE EEE ECEEEEEEEE EEE EEE EEE EEE EEE EEE EEE EEE . BREESE SEES Pe Pe ee eee Ht 55 EERE BR Be ee ee ee eee Wu BREED BERGE PR Pe Pe Be Be Be Pe ee Be ee ee BREED BEBE BREE EPR B ee ee ee ——-ERRES 44 EERE BRR BRBeee eeeee eee SREREE i=.EERE E BERG ERED S SR BREE Be E BR BB Pe BePeBeee POBe Be ee ee SE OeSEeeeeeee eee Pe e BP Be Be BeeePeeee Be ) S00 0 Ce eC ee ee : — ERR owed ERED =m BREED EE BERGE BREESE ERED Be eePR BEERS SERGE BERS PRCRee Peee Be——- ee eeeeERE eeBe Peee Peeee Pe tt PeBREED SR34 eBERREE BRR BR e ee eee ee eee Be Pe BERR PR eeeBe Pe ee ee eeee Pe ee ee a FEEEEEEEE EEE EEE EERE EERE EEE EEEEEEEEEEEEEEEEEEEEEHEEEEEEEEEEEEEE EEE EEE ERED SER BE ee ee ee eee ERR SE Be ee ee eee eee ee : ERREE BREE BR Be ee ee Se ee Ee ee ee ace EERE E BERG 8 BR PO Be Be Oe Pe ee Be ee ee “Vv TTS WOON — N es) aN | err eee eee oe ee ee ee ee ee ee a EE MN | oi oy ee ERED BREE BR Be Be ee Se Be Ee ee ee eectees BREED BREE BR Be Pe ee SR Be Se ee ee . * EREEE SERRE Pe Pe ee ee ~9 SRREE BREE PR ee Pe ee ee Onn enennnnnnnnneninnsnenenienenenaneniensenienienienienanienieniananianiananenienansanianienienienienienienenienenenenete for a spare grid if you need to redraw your curve. | P 602 58 A021 3P60 MUM EAC A Turnover > 6 2 5 8 A 02 1 3 6 Oo ro) ccc 0 i eects, ro) ccc Es — SAMOA AQAA ANT AT A P 602 58 A 02 2 3 6 | Only use this grid if you need to redraw your curve. c rv FEE ane Be aa _ || ae r a ie sg sv T] I 4 FH = i 7 ws . |7 S WONT — N es) aN Qn Na oo | Ko [| + a Hi ae bee _ ua ae 7 7 & = jee a a uw = -- 7 a = ae ae - - ae .: -os ise au- - 7 - -- - -7 - - S a a 71 -oy - 7EE 7 -7 7 7 7 7 7
+By drawing a suitable straight line on the grid, find estimates, to one decimal place, for the solutions of the equation $3 - x - x^2 = 0$
 
 ![grid — official paper figure (qp.pdf p.20) — shared with 7(a)](assets/asset_7_a_table.png)
 
 
 **Mark scheme answer**
 
-> 3 M1 for y = 0.5x + 2 stated or shown in working,
-> eg 5 − 0.5x − x² = 2 + 0.5x
-> M1 for drawing y = 0.5x + 2 accurately going through the
+> M1 for $y = 0.5x + 2$ stated or shown in working,
+> eg $5 - 0.5x - x^2 = 2 + 0.5x$
+> 
+> M1 for drawing $y = 0.5x + 2$ accurately going through the
 > points (−2, 1), (0, 2), (2, 3) (or would if extended)
-> −2.3, 1.3 A1ft from their graph - both values dependent on M2
-> awarded
+> 
+> −2.3, 1.3  A1 ft from their graph — both values dependent on M2 awarded
+> 
 > Must not be given as part of a coordinate
-> Total 10 marks
-> Question Working Answer Mark Notes
 
-- **(3)** 3 M1 for y = 0.5x + 2 stated or shown in working,
+- **(3)** M1 for $y = 0.5x + 2$ stated or shown in working,
 
 
 ## Question 8 (14 marks)
@@ -573,26 +599,32 @@ Express the inverse function h™! in the form ht! : x +>...
 
 ### 8(e) [5]
 
-Solve the equation g(x) Show your working clearly. + h(x) = 1 Give your solutions in the form a + Vb where a and b are integers. soto of ax? +—b+vVb? - we] bxa +c = Oarex =5 P60 2 5 8 A 02 4 3 6 pe PMT a ee MUM EAC EA > | P6025 8 A002 5 P60 36 258A02536 Oo ro) ccc 0 i eects, ro) ccc Es — AOU AAA AU ANAT AT A a P 602 58 A 0 2 6 3 6 | pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+Solve the equation $g(x) + h(x) = 1$
+
+Show your working clearly.
+
+Give your solutions in the form $a \pm \sqrt{b}$ where $a$ and $b$ are integers.
 
 
 **Mark scheme answer**
 
-> 1( x − 3) 2 x(2 x − 3) 5 M1 for writing fractions correctly over the same
-> eg + (=
-> 1) oe
-> (2 x − 3)( x − 3) (2 x − 3)( x − 3) common denominator oe
-> eg 4 x 2 − 5 x − 3= 2 x 2 − 6 x − 3 x + 9 oe M1 correct expansion of brackets in a correct
-> equation, allow one error
-> 2x² + 4x – 12 (=0) or x² + 2x – 6 (=0) oe A1 correct 3 term quadratic
-> −2 ± 22 − 4 ×1× −6 −2 ± 4 + 24 M1ft their 3TQ correct substitution into formula or
-> eg or completing the square [eg (x + 1)² − 7 (=0)] oe
-> 2 ×1
-> −1 ± 7 A1 dep on at least M2
-> Total 14 marks
-> Question Working Answer Mark Notes
+> eg $\dfrac{1(x - 3)}{(2x - 3)(x - 3)} + \dfrac{2x(2x - 3)}{(2x - 3)(x - 3)}$  (= 1)  oe
+> 
+> M1 for writing fractions correctly over the same common denominator oe
+> 
+> g eg 4x² − 5x − 3 = 2x² − 6x − 3x + 9  oe
+> M1 correct expansion of brackets in a correct equation, allow one error
+> 
+> 2x² + 4x − 12 (＝0)  or  x² + 2x − 6 (＝0)  oe
+> A1 correct 3 term quadratic
+> 
+> eg $\dfrac{-2 \pm \sqrt{2^2 - 4 \times 1 \times -6}}{2 \times 1}$  or  $\dfrac{-2 \pm \sqrt{4 + 24}}{2}$
+> M1 ft their 3TQ correct substitution into formula or completing the square [eg (x + 1)² − 7 (＝0)] oe
+> 
+> −1 ± √7
+> A1 dep on at least M2
 
-- **(5)** 1( x − 3) 2 x(2 x − 3) 5 M1 for writing fractions correctly over the same
+- **(5)** eg $\dfrac{1(x - 3)}{(2x - 3)(x - 3)} + \dfrac{2x(2x - 3)}{(2x - 3)(x - 3)}$  (= 1)  oe
 
 
 ## Question 9 (8 marks)
@@ -601,58 +633,60 @@ MUA EAC EA > P60 2 5 8 A 02 7 3 6 9A Diagram NOT accurately drawn Figure 2 Figur
 
 ### 9(a) [3]
 
-Calculate the volume, in cm’, of the smaller pyramid.
+Figure 2 shows a solid right square-based pyramid with height 20 cm.
+The volume of the pyramid is 960 cm³
+The pyramid is standing with its square base on a horizontal table.
+
+The pyramid is divided into a smaller right square-based pyramid of height 10 cm and a frustum of the pyramid, as shown in Figure 3, by a horizontal cut.
+
+Calculate the volume, in cm³, of the smaller pyramid.
 
 
 **Mark scheme answer**
 
-> Volume = 1³ : 2³ oe or 3 M1 for a correct volume scale factor in any form or
-> side of square base of pyramid = for a calculation to find the side of the square base
-> 960 × 3 of the pyramid
-> (= 12)
-> 1 1 M1 a correct calculation to find the volume of the
-> × 960 or × (0.5 × “12”)² × 10 smaller pyramid
-> 8
-> 120 (cm³) A1
+> Volume = 1³ : 2³  oe  or
+> side of square base of pyramid = √(960 × 3 ÷ 20)  (= 12)
+> 
+> M1 for a correct volume scale factor in any form or for a calculation to find the side of the square base of the pyramid
+> 
+> 1/8 × 960  or  1/3 × (0.5 × “12”)² × 10
+> 
+> M1 a correct calculation to find the volume of the smaller pyramid
+> 
+> 120 (cm³)  A1
 
-- **(3)** Volume = 1³ : 2³ oe or 3 M1 for a correct volume scale factor in any form or
+- **(3)** Volume = 1³ : 2³  oe  or
 
 ### 9(b) [5]
 
-Calculate the total surface area, in cm? to 3 significant figures, of the frustum of the pyramid. P60 2 5 8 A 0 2 8 3 6 pe PMT Btn tnnnnnnnninnnininnninininininininininininininiinenininininininininininininiiiniiiiinininiitiiiiiiiieiietietiieteteteteti ee [votume of pyramid = : x base area X height MUM EAC A > P60 2 5 8 A 02 9 3 6 Oo ro) ccc 0 i eects, ro) ccc Es — ACOA CQ A AI ANT A A a P 602 58 A 0 3 0 3 6 | pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+Calculate the total surface area, in cm² to 3 significant figures, of the frustum of the pyramid.
 
 
 **Mark scheme answer**
 
-> 960 × 3 "120"× 3 5 M1 Award for sight of calculations for 144 and 36
-> eg + or 12² + 6² or 144 + 36
-> or for 144 and 36 as part of a calculation for the
-> 20
-> total surface area. 12 & 6 may be found in (a)
-> area of one triangular face of pyramid lge/sml M1 for a correct calculation for
-> 0.5 × "12"× 202 + = = 125.(28...))
-> 62 ( 12 109 area of a triangular face of the large pyramid
-> or (NB: 202 + 6=
-> = 20.88... ) or
-> 2 109
-> 0.5 × 6 × 102 +=32 ( 3 =
-> 109 31.(32...)) oe or The area of a triangular face of the small pyramid
-> height of trapezium = (NB: 102 + 3=
-> 109= 10.44... ) or
-> 32 + 102= 109(= 10.4...) oe or the height of the trapezium
-> (any ft figures must have come from a correct
-> method)
-> Area of trapezoidal face of frustum = M1ft area of trapezoidal face of frustum
-> "12 109 " − "3 109 " or (any ft figures must have come from a correct
-> 6 + 12 method)
-> × 109 (= 9 109 = 93.9(6...))
-> 4 × "9 109 " + "12"× "12"+ "6"× "6" oe M1ft a fully correct method from fully correct
-> working
-> 556 (cm²) A1 (answers in range 555.8 – 556)
-> Total 8 marks
-> Question Working Answer Mark Notes
+> eg 960 × 3 ÷ 20 + “120” × 3 ÷ 10  or  12² + 6²  or  144 + 36
+> 
+> M1 Award for sight of calculations for 144 and 36 or for 144 and 36 as part of a calculation for the total surface area. 12 & 6 may be found in (a)
+> 
+> area of one triangular face of pyramid lge/sml
+> 0.5 × “12” × √(20² + 6²)  (= 12√109 = 125.(28...))  or
+> 0.5 × 6 × √(10² + 3²)  (= 3√109 = 31.(32...))  oe  or
+> height of trapezium = √(3² + 10²) = √109 (= 10.4...)  oe
+> 
+> M1 for a correct calculation for area of a triangular face of the large pyramid (NB: √(20² + 6²) = 2√109 = 20.88...) or The area of a triangular face of the small pyramid (NB: √(10² + 3²) = √109 = 10.44...) or the height of the trapezium (any ft figures must have come from a correct method)
+> 
+> Area of trapezoidal face of frustum = “12√109” − “3√109”  or
+> (6 + 12) ÷ 2 × √109  (= 9√109 = 93.9(6...))
+> 
+> M1 ft area of trapezoidal face of frustum (any ft figures must have come from a correct method)
+> 
+> 4 × “9√109” + “12” × “12” + “6” × “6”  oe
+> 
+> M1 ft a fully correct method from fully correct working
+> 
+> 556 (cm²)  A1 (answers in range 555.8 – 556)
 
-- **(5)** 960 × 3 "120"× 3 5 M1 Award for sight of calculations for 144 and 36
+- **(5)** eg 960 × 3 ÷ 20 + “120” × 3 ÷ 10  or  12² + 6²  or  144 + 36
 
 
 ## Question 10 (5 marks)
@@ -661,25 +695,37 @@ A particle, P, is moving along a straight line through the fixed point O. The di
 
 ### 10 [5]
 
-A particle, P, is moving along a straight line through the fixed point O. The displacement, s metres, of P from O at time ¢ seconds is given by s=f-7P —5t+ 121 t>0 Find the displacement, in metres, of P from O when P is instantaneously at rest. P60 2 5 8 A 0 3 2 3 6 pe PMT = cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie cn oc cs cossssussustteennitnevivivesisssssvssisssssssasnesasesesesisiniieiniiiiisiistssvvsssssssssstsssssssssesisisisitiniiiisssiiisissssvsssssssssissssssssssisisiiisiiininiisiiisssssssvsssiisssisssisesesisiiutiiniinie
+A particle, P, is moving along a straight line through the fixed point O.
+The displacement, s metres, of P from O at time t seconds is given by
+
+s = t³ − 7t² − 5t + 121    (t ⩾ 0)
+
+Find the displacement, in metres, of P from O when P is instantaneously at rest.
 
 
 **Mark scheme answer**
 
-> (v =) 3t² −14t − 5 5 M1 all correct
-> 3t² −14t – 5 = 0 M1ft for their v = 0
-> (3t + 1)(t – 5) M1ft method to solve quadratic equation for ft this
-> 1 must be a 3 term quadratic
-> (t = − ) t = 5
-> 3 By factorising brackets must expand to give 2 out
-> of 3 terms correct or fully correct substitution into
-> fully correct formula or completing the square
-> t = 5 (only)substituted into s M1
-> 46(m) A1
-> Total 5 marks
-> Question Working Answer Mark Notes
+> (v =) 3t² − 14t − 5
+> 
+> M1 all correct
+> 
+> 3t² − 14t − 5 = 0
+> 
+> M1 ft for their v = 0
+> 
+> (3t + 1)(t − 5)
+> (t = −1/3)  t = 5
+> 
+> M1 ft method to solve quadratic equation for ft this must be a 3 term quadratic
+> By factorising brackets must expand to give 2 out of 3 terms correct or fully correct substitution into fully correct formula or completing the square
+> 
+> t = 5 (only) substituted into s
+> 
+> M1
+> 
+> 46 (m)  A1
 
-- **(5)** (v =) 3t² −14t − 5 5 M1 all correct
+- **(5)** (v =) 3t² − 14t − 5
 
 
 ## Question 11 (6 marks)
@@ -688,44 +734,51 @@ A particle, P, is moving along a straight line through the fixed point O. The di
 
 ### 11 [6]
 
-| P 602 58 A 0 3 3P60 MUM ACA EA > 36258A03336 B; Diagram NOT accurately drawn R ; — Figure 4A Figure 4 shows triangle OAB in which OA =a and OB =b =~ =~ P Q is is the thepoint pointon onAB OPsuch suchthat thatAP OO: PB=2: : OP =11 : 3 R is the point on OB such that RQA is a straight line. Calculate, in its simplest form, the ratio OR : RB ee eee eee seen cesta catia esau esis sini g P60 2 5 8 A 0 3 4 3 6 pe PMT a ee MUM EAC A > | P6025 8A 03 5 3P60 6 258A03536 suosstisstissonisitissussiuisiisiussiusiisiastiisinasiiiosiusiiasiniiiaiosiinisiaintiiaioininiiaiinanannini4n§nn~€,s« og co osseseeuetntenietvevivivvssssvsvsvssvssissssnsananasasiiininiiniisiisississsssvssssisstsassnsnisasisiiiiniiisssisissssissssssisssissinnnsiasisiiiiiiiiiiniiiisissssssssssrisssissinsiisiiiiiini =
+Figure 4 shows triangle OAB in which $\overrightarrow{OA} = \mathbf{a}$ and $\overrightarrow{OB} = \mathbf{b}$
+
+P is the point on AB such that AP : PB = 2 : 1
+Q is the point on OP such that OQ : QP = 1 : 3
+R is the point on OB such that RQA is a straight line.
+
+Calculate, in its simplest form, the ratio OR : RB
 
 ![diagram — official paper figure (qp.pdf p.34) — shared with asset_11_q_diagram_stem](assets/asset_11_q_diagram_stem.png)
 
 
 **Mark scheme answer**
 
-> → 2 2 → 2 2 6 M1oe must be labelled
-> AP = b − a or PA = a − b or need not be simplified
-> 3 3 3
-> → 1 1 → 1
-> BP = a − b or PB = b − a or
-> 3 3 3
-> → 1 2 → Δ 1
-> = a + b or PO =
-> OP − a− b
-> 3 3 3
-> → →
-> → 1 ⎛ 1 2 ⎞ 1 1 M1oe or for QO or QP
-> OQ = ⎜ a + b ⎟ = a + b or
-> 4⎝3 3 ⎠ 12 6 must be labelled
-> → 3 1 2 1 1 need not be simplified
-> PQ =(− a − b) = − a− b
-> 4 3 3 4
-> → 1 11 → Δ 11 1 M1oe must be labelled, need not be simplified
-> AQ= b − a or QA = a− b
-> 6→ 12 12
-> or eg RA = (1 − k )b + a − b
-> → 1 11 → M1oe or for use of the relationship between
-> AR n( b − a) and AR =
-> = − a + mb or
-> RQ and QA or RQ and RA or AQ and AR or
-> 6
-> → 1 1 → AQ and QR or a correct statement for OR
-> RQ = ( − k )b + a & RQ = µ (a − kb) or
-> 6
-> → 1
-> OR = ( − µ )a + ( + µ k )b oe
+> $\overrightarrow{AP} = \frac{2}{3}\mathbf{b} - \frac{2}{3}\mathbf{a}$  or  $\overrightarrow{PA} = \frac{2}{3}\mathbf{a} - \frac{2}{3}\mathbf{b}$  or
+> $\overrightarrow{BP} = \frac{1}{3}\mathbf{a} - \frac{1}{3}\mathbf{b}$  or  $\overrightarrow{PB} = \frac{1}{3}\mathbf{b} - \frac{1}{3}\mathbf{a}$  or
+> $\overrightarrow{OP} = \frac{1}{3}\mathbf{a} + \frac{2}{3}\mathbf{b}$  or  $\overrightarrow{PO} = -\frac{1}{3}\mathbf{a} - \frac{2}{3}\mathbf{b}$
+> 
+> M1 oe must be labelled, need not be simplified
+> 
+> $\overrightarrow{OQ} = \frac{1}{4}\left(\frac{1}{3}\mathbf{a} + \frac{2}{3}\mathbf{b}\right) = \frac{1}{12}\mathbf{a} + \frac{1}{6}\mathbf{b}$  or
+> $\overrightarrow{PQ} = \frac{3}{4}\left(-\frac{1}{3}\mathbf{a} - \frac{2}{3}\mathbf{b}\right) = -\frac{1}{4}\mathbf{a} - \frac{1}{2}\mathbf{b}$
+> 
+> M1 oe or for $\overrightarrow{QO}$ or $\overrightarrow{QP}$, must be labelled, need not be simplified
+> 
+> $\overrightarrow{AQ} = \frac{1}{6}\mathbf{b} - \frac{11}{12}\mathbf{a}$  or  $\overrightarrow{QA} = \frac{11}{12}\mathbf{a} - \frac{1}{6}\mathbf{b}$
+> or eg $\overrightarrow{RA} = (1-k)\mathbf{b} + \mathbf{a} - \mathbf{b}$
+> 
+> M1 oe must be labelled, need not be simplified
+> 
+> $\overrightarrow{AR} = n\left(\frac{1}{6}\mathbf{b} - \frac{11}{12}\mathbf{a}\right)$ and $\overrightarrow{AR} = -\mathbf{a} + m\mathbf{b}$  or
+> $\overrightarrow{RQ} = (\frac{1}{6} - k)\mathbf{b} + \frac{1}{12}\mathbf{a}$  &  $\overrightarrow{RQ} = \mu(\mathbf{a} - k\mathbf{b})$  or
+> $\overrightarrow{OR} = (\frac{1}{12} - \mu)\mathbf{a} + (\frac{1}{6} + \mu k)\mathbf{b}$  oe
+> $\overrightarrow{OR} = \frac{1}{12}\mathbf{a} + \frac{1}{6}\mathbf{b} + \frac{1}{6}n\mathbf{b} - \frac{11}{12}n\mathbf{a}$  $(n = \frac{1}{11})$
+> 
+> M1 oe or for use of the relationship between RQ and QA or RQ and RA or AQ and AR or AQ and QR or a correct statement for OR
+> 
+> $m = \frac{2}{11}$  or
+> $\overrightarrow{OR} = \frac{12}{11} \times \frac{1}{6}\mathbf{b} \; (= \frac{2}{11}\mathbf{b})$
+> 
+> M1 for a solution showing the line divided in the correct fraction eg
+> OR = 2/11 OB or BR = 9/11 BO or the value of a term such as μ oe
+> 
+> THERE ARE OTHER CORRECT METHODS
+> 
+> 2 : 9  A1 correct answer from no incorrect working
 
-- **(6)** → 2 2 → 2 2 6 M1oe must be labelled
+- **(6)** $\overrightarrow{AP} = \frac{2}{3}\mathbf{b} - \frac{2}{3}\mathbf{a}$  or  $\overrightarrow{PA} = \frac{2}{3}\mathbf{a} - \frac{2}{3}\mathbf{b}$  or
 

@@ -8,20 +8,22 @@ The manufacturer’s price for a Jinko car is $x Ben was given a 7% discount on 
 
 ### 1(a) [2]
 
-Calculate the value of x. After a year Ben sold his Jinko for $19 880
+The manufacturer’s price for a Jinko car is \$x Ben was given a 7% discount on the manufacturer’s price when he bought a Jinko. Ben paid \$23 622 when he bought his Jinko.
+
+Calculate the value of x. After a year Ben sold his Jinko for \$19 880
 
 
 **Mark scheme answer**
 
 > 23622 M1 Alt x – 0.07x = 23 622 oe
 > 0.93
-> ($) 25 400 2 A1
+> (\$) 25 400 2 A1
 
 - **(2)** 23622 M1 Alt x – 0.07x = 23 622 oe
 
 ### 1(b) [2]
 
-Calculate the percentage loss, to 3 significant figures, on the price Ben paid for his Jinko. During the year that Ben owned the Jinko, he travelled d km in the car. The average fuel consumption of the car was 10 km per litre. The average cost of the fuel he used was $1.40 per litre. Other costs for the car in the year came to $938 The cost per km, including the loss in value, of his Jinko to Ben during the year that he owned the car was $0.40
+Calculate the percentage loss, to 3 significant figures, on the price Ben paid for his Jinko. During the year that Ben owned the Jinko, he travelled d km in the car. The average fuel consumption of the car was 10 km per litre. The average cost of the fuel he used was \$1.40 per litre. Other costs for the car in the year came to \$938 The cost per km, including the loss in value, of his Jinko to Ben during the year that he owned the car was \$0.40
 
 
 **Mark scheme answer**
@@ -70,6 +72,12 @@ Find the Highest Common Factor (HCF) of 75, 90 and 120 . Bhu sets the alarm on h
 Find the first time after 09 30 that both alarms will sound at the same time.
 
 
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
+
 ## Question 3 (8 marks)
 ### 3(a) [2]
 
@@ -99,8 +107,6 @@ Solve the inequality 3p > 6p + 12 An inequality, in w, is shown on a number line
 > 930 938 946
 > 910 922 934 946
 > 09 46 oe 2 A1
-> Total 4 marks
-> Question Working Answer Mark Notes
 > p < −4 2 A1
 
 - **(2)** Both could sound together at 9.22 and M1
@@ -131,8 +137,6 @@ Write down the 3 inequalities that define the shaded region R in Figure 1 y 1 R 
 > y ≤ −2 x + 4 or 2 A1
 > oe
 > y < −2 x + 4
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(3)** x ≥ −1 or x > −1 and allow − 1 < x < n where n ≥ 2
 
@@ -145,9 +149,13 @@ A youth club has introduced three new activities badminton (B), cookery (C) and 
 
 ### 4(a) [3]
 
+A youth club has introduced three new activities badminton (B), cookery (C) and drama (D). Each of the 75 members of the youth club is asked to say in which of these activities they have participated. Their answers showed that of the 75 members all have participated in at least one of these activities 27 have participated in badminton and drama 31 have participated in badminton and cookery 23 have participated in cookery and drama 48 have participated in badminton 49 have participated in cookery 40 have participated in drama. Let x be the number of members of the youth club who have participated in all three activities.
+
 Using all this information, complete the Venn diagram opposite to show, in terms of x, the number of elements in each appropriate subset.
 
-> 🖼 crop required: diagram (qp.pdf p.8)
+![figure — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02R/assets/asset_4_4-a.png)
+
+![figure — official paper figure (qp.pdf p.8)](assets/asset_4_4-a.png)
 
 
 **Mark scheme answer**
@@ -182,7 +190,7 @@ n (B ∩ C ʹ)
 
 ### 4(c)(ii) [2]
 
-n B C D One of the members of the youth club is picked at random. Given that this member has participated in cooking,
+n B C D One of the members of the youth club is picked at random. Given that this member has participated in cooking …………… , ……………
 
 
 **Mark scheme answer**
@@ -195,7 +203,9 @@ n B C D One of the members of the youth club is picked at random. Given that thi
 
 find the probability that this member has not participated in any other activity. E C D B for a spare Venn diagram if you need to redraw your diagram. Only use this diagram if you need to redraw your Venn diagram. E C D B
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02R/assets/asset_4_4-d.png)
+
+![figure — official paper figure (qp.pdf p.8)](assets/asset_4_4-d.png)
 
 
 **Mark scheme answer**
@@ -204,8 +214,6 @@ find the probability that this member has not participated in any other activity
 > 49 numerator < 49
 > 14 A1ft oe (0.2857... allow 2dp
 > 49 truncated or rounded)
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(2)** "19"− 5 M1 denominator of 49,
 
@@ -213,7 +221,7 @@ find the probability that this member has not participated in any other activity
 ## Question 5 (5 marks)
 ### 5(a) [2]
 
-Factorise x2 + 5x − 6
+Factorise x² + 5x − 6
 
 
 **Mark scheme answer**
@@ -240,8 +248,6 @@ Express as a single fraction in its simplest form x 3 2x 5 4
 > 20
 > −3x + 11
 > 10 A1oe
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** or x + 3 − x − 1 M1
 
@@ -273,11 +279,9 @@ On the grid opposite, draw and label triangle B. Triangle C is the image of tria
 **Mark scheme answer**
 
 > ⎛ −2 0 ⎞⎛1 3 4 ⎞ M1
-> ⎜ ⎟⎜ ⎟
-> ⎝ 0 2 ⎠⎝1 1 3 ⎠
+>  0 2 ⎠⎝1 1 3 ⎠
 > ⎛ −2 −6 −8 ⎞ A1
-> ⎜ ⎟
-> ⎝ 2 2 6⎠
+>  2 2 6
 > Triangle B 3 A1
 
 - **(3)** ⎛ −2 0 ⎞⎛1 3 4 ⎞ M1
@@ -292,7 +296,6 @@ On the grid opposite, draw and label triangle C. Triangle A is transformed to tr
 **Mark scheme answer**
 
 > Triangle C 1 B1
-> Question Working Answer Mark Notes
 
 - **(1)** Triangle C 1 B1
 
@@ -304,7 +307,7 @@ Find matrix N. Triangle D is the image of triangle C under a rotation through 18
 **Mark scheme answer**
 
 > 1 0 2 0 2 0 ⎛ 0 −2 ⎞
-> N M1 Allow M1 for ⎜ ⎟
+> N M1 Allow M1 for 
 > 0 1 0 2 0 2 ⎝ −2 0 ⎠
 > Or
 > A C is an enlargement with centre O and
@@ -313,8 +316,7 @@ Find matrix N. Triangle D is the image of triangle C under a rotation through 18
 > and
 > 0 0 1
 > ⎛ −2 0 ⎞ A1
-> ⎜ ⎟
-> ⎝ 0 −2 ⎠
+>  0 −2 
 
 - **(2)** 1 0 2 0 2 0 ⎛ 0 −2 ⎞
 
@@ -345,8 +347,6 @@ Describe fully the single transformation that maps triangle D onto triangle A. y
 > SF 1 B1
 > centre (–2, –2)
 > B1
-> Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Enlargement 1 B1
 
@@ -412,8 +412,6 @@ Find the proportion of birds on Tuesday that spent longer than 15 seconds on the
 **Mark scheme answer**
 
 > 35 14(.28571)%)
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 35 14(.28571)%)
 
@@ -441,12 +439,10 @@ Jenny ran a road race. The distance Jenny ran was 5 km, to the nearest 20 m. Jen
 > 34.5
 > 4.99 A1
 > 34.5
-> ⎛ 10100 4990 ⎞
-> ⎜ − ⎟ × 60
+> ⎛ 10100 4990 − ⎟ × 60
 > ⎝ 67.5 34.5 ⎠ M1
 > 1000
 > 0.2995 (km/h) 5 A1
-> Total 5 marks
 > Questi
 > Working Answer Mark Notes
 > on
@@ -460,7 +456,9 @@ Figure 2 shows two shapes A and B. All the lengths are in metres. Diagram NOT ac
 
 ### 9(a) [3]
 
-Show that 4y2 – x2 = 200 and that 2y = 2x + 5
+Figure 2 shows two shapes A and B. All the lengths are in metres. Diagram NOT accurately drawn P 2x x 2y A 6y – 3 B 4y + 4 4y Q 2x + 4 R Figure 2 The corners of shape A are all right angles. The area of shape A is 400 m² Shape B is triangle PQR. The perimeter of shape A is equal to the perimeter of shape B.
+
+Show that $4y^2$ – x² = 200 and that 2y = 2x + 5
 
 
 **Mark scheme answer**
@@ -480,7 +478,7 @@ Find the value of x and the value of y. Show clear algebraic working.
 
 **Mark scheme answer**
 
-> ( 2 x + 5) − x 2 = 200 4 y2 − ⎜ ⎟ = 200
+> ( 2 x + 5) − x 2 = 200 4 y² − = 200
 > M1
 > ⎝ 2 ⎠
 > M1 Rearranging correctly to get
@@ -510,13 +508,11 @@ Find the value of x and the value of y. Show clear algebraic working.
 > A1 dep on M2 (positive values
 > x = 5 and y = 7.5
 > only)
-> Total 8 marks
-> Question Working Answer Mark Notes
 > ⎛1⎞
 > ⎛1⎞
 > 1 M1
 
-- **(5)** ( 2 x + 5) − x 2 = 200 4 y2 − ⎜ ⎟ = 200
+- **(5)** ( 2 x + 5) − x 2 = 200 4 y² − = 200
 
 
 ## Question 10 (13 marks)
@@ -530,7 +526,7 @@ Use the factor theorem to show that (3x – 1) is a factor of f(x).
 
 **Mark scheme answer**
 
-> 3× ⎜ ⎟ − 7 × ⎜ ⎟ + 5× −1
+> 3× − 7 × + 5× −1
 > ⎝3⎠ ⎝ 3⎠
 > = 0, (3x – 1)is a factor 2 A1
 
@@ -566,9 +562,7 @@ Find the exact coordinates of the turning points on C. The curve C crosses the y
 > Substituting x values into M1
 > y = 3x³ − 7x² + 5x − 1
 > (1, 0) A1
-> ⎛ 5 32 ⎞
-> ⎜ , ⎟
-> ⎝ 9 243 ⎠
+> ⎛ 5 32 , 9 243 ⎠
 
 - **(5)** dy M1
 
@@ -594,8 +588,6 @@ Hence find an equation of the tangent to C at P.
 
 > y = “5”x – 1 M1
 > y = 5x – 1 2 A1oe
-> Total 13 marks
-> Question Working Answer Mark Notes
 
 - **(2)** y = “5”x – 1 M1
 
@@ -606,9 +598,13 @@ Diagram NOT accurately drawn Cone B 20 cm 100 cm Cone A F 30 cm Figure 3 A right
 
 ### 11(a) [3]
 
-Find the value of k. Diagram NOT 20 cm accurately drawn 102 cm Figure 4 Figure 4 shows a solid circular cylinder. The cylinder has a radius of 20 cm, a height of 102 cm and a volume of V cm3
+Cone B 20 cm 100 cm Cone A F 30 cm Figure 3 A right circular cone, A, has height 100 cm and base radius 30 cm. The shaded solid, F, is formed by removing the right circular cone, B, of height 20 cm from the top of A, as shown in Figure 3 The volume of F is k π cm³ where k is an integer.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+Find the value of k. Diagram NOT 20 cm accurately drawn 102 cm Figure 4 Figure 4 shows a solid circular cylinder. The cylinder has a radius of 20 cm, a height of 102 cm and a volume of V cm³
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**
@@ -625,7 +621,9 @@ Find the value of k. Diagram NOT 20 cm accurately drawn 102 cm Figure 4 Figure 4
 
 ### 11(b) [1]
 
-Calculate the value of V. Give your answer in terms of π. Volume of a cylinder πr 2 h Volume of a cone 1 2 = πr h Question 11 continues on the next page. Figure 5 below shows a door stop made from a hollow hemisphere and a hollow right circular cone. Diagram NOT accurately drawn 108 cm h cm 30 cm Figure 5 The radius of the base of the cone and the radius of the hemisphere are both 30 cm. The centre of the base of the cone coincides with the centre of the hemisphere. The height of the cone is 108 cm. The door stop rests on horizontal ground with the cone on top of the hemisphere and the axis of symmetry of the door stop vertical. The door stop contains sand to a height of h cm. Given that the volume of sand in the door stop is V cm3, where V cm3 is the volume of the cylinder in Figure 4
+Calculate the value of V. Give your answer in terms of π. Volume of a cylinder πr 2 h Volume of a cone 1 2 = πr h Figure 5 below shows a door stop made from a hollow hemisphere and a hollow right circular cone. Diagram NOT accurately drawn 108 cm h cm 30 cm Figure 5 The radius of the base of the cone and the radius of the hemisphere are both 30 cm. The centre of the base of the cone coincides with the centre of the hemisphere. The height of the cone is 108 cm. The door stop rests on horizontal ground with the cone on top of the hemisphere and the axis of symmetry of the door stop vertical. The door stop contains sand to a height of h cm. Given that the volume of sand in the door stop is V cm³, where V cm³ is the volume of the cylinder in Figure 4
+
+![diagram — official paper figure (qp.pdf p.30)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-06/4MB1-02R/assets/asset_11_b_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.30)](assets/asset_11_b_diagram.png)
 
@@ -667,8 +665,6 @@ calculate the value of h. 4 3 Volume of a sphere 3 πr
 > = M1
 > 108
 > awrt 66 A1
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(6)** π × 303 + ... M1
 
@@ -726,8 +722,7 @@ find OG in terms of a and b
 > 1 ⎛ 1 1 ⎞
 > OG = a + n ⎜ "− a + b " ⎟ M1
 > 5 ⎝ 5 2 ⎠
-> ⎛1 1 ⎞
-> ⎜ − n ⎟ = 1 − m or m = n
+> ⎛1 1 − n ⎟ = 1 − m or m = n
 > 1 M1
 > ⎝ 5 5 ⎠
 > n= or m = 4 A1
@@ -735,7 +730,6 @@ find OG in terms of a and b
 > OG = a + 4 (b – a ) or 1
 > − a+ b 5 A1
 > 3 3
-> Total 11 marks
 
 - **(5)** OG = a + m ( b − a ) M1
 

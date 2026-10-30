@@ -48,7 +48,6 @@ Calculate the speed, in km/s to one significant figure, that light travels from 
 > 3 ×105 A1 from correct working. Dependent on both M
 > marks being awarded Allow awrt 3.0 ×105
 > wr Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 81460 000 000 000 4 M1 for use of Speed = distance / time. Condone
 
@@ -115,8 +114,6 @@ Show, by shading, the region R Label the region R
 > bisector must cross AB and the perpendicular
 > bisector must cross BC. Only allow if the correct
 > area is shaded.
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(1)** correct region shaded 1 B1ft only follow through if they have a circle
 
@@ -127,9 +124,13 @@ A college offers courses in Astronomy (A), Biology (B), Chemistry (C) and Physic
 
 ### 3(a) [3]
 
+A college offers courses in Astronomy (A), Biology (B), Chemistry (C) and Physics (D) A group of 220 students are asked which of these courses they study. Here is some information about the numbers of students who study these subjects. n A 58 n B C D x n B D n B C D' 35 n B C D 20 The incomplete Venn diagram on the opposite page shows some other information about the numbers of students who study these subjects.
+
 Using all the information given, complete the Venn diagram giving the number of elements in each appropriate subset, in terms of x where necessary. Given that n C' 105
 
-> 🖼 crop required: diagram (qp.pdf p.4)
+![figure — official paper figure (qp.pdf p.4)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_3_3-a.png)
+
+![figure — official paper figure (qp.pdf p.4)](assets/asset_3_3-a.png)
 
 
 **Mark scheme answer**
@@ -187,8 +188,6 @@ Write down the probability that this student studies Chemistry but not Biology. 
 > 220 220
 > better. We will condone 19.5[%] or better (actual
 > 0.1954545…)
-> cas Total 7 marks
-> Question Working Answer Mark Notes
 > In this question ignore any labelling on the triangles
 
 - **(1)** 43 1 15 + 28
@@ -200,9 +199,13 @@ Triangle A and triangle D are drawn on the grid opposite. Triangle A is reflecte
 
 ### 4(a) [2]
 
+Triangle A and triangle D are drawn on the grid opposite. Triangle A is reflected in the x-axis to give triangle B
+
 On the grid, draw and label triangle B Triangle A is transformed to triangle C by a rotation of 90° clockwise about the point (0, 0)
 
-> 🖼 crop required: grid (qp.pdf p.6)
+![figure — official paper figure (qp.pdf p.6)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_4_4-a.png)
+
+![figure — official paper figure (qp.pdf p.6)](assets/asset_4_4-a.png)
 
 
 **Mark scheme answer**
@@ -221,7 +224,9 @@ On the grid, draw and label triangle B Triangle A is transformed to triangle C b
 
 On the grid, draw and label triangle C Triangle D is the image of triangle A under a single transformation.
 
-> 🖼 crop required: grid (qp.pdf p.6)
+![figure — official paper figure (qp.pdf p.6)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_4_4-b.png)
+
+![figure — official paper figure (qp.pdf p.6)](assets/asset_4_4-b.png)
 
 
 **Mark scheme answer**
@@ -253,17 +258,18 @@ Describe fully this transformation. Triangle A is transformed to triangle E unde
 
 On the grid, draw and label triangle E Triangle E is transformed to triangle B under the transformation with matrix N
 
-> 🖼 crop required: grid (qp.pdf p.6)
+![figure — official paper figure (qp.pdf p.6)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_4_4-d.png)
+
+![figure — official paper figure (qp.pdf p.6)](assets/asset_4_4-d.png)
 
 
 **Mark scheme answer**
 
 > ⎛ −1 −1 ⎞⎛ −2 −5 −7 ⎞ 3 M1 for the intention to multiply the right way. Points can be in any order.
-> ⎜ ⎟⎜ ⎟ May be implied by writing the matrices in the correct order or correctly stating
+>  May be implied by writing the matrices in the correct order or correctly stating
 > ⎝ 0 −2 ⎠⎝ 3 1 5 ⎠ or plotting one point.
 > ⎛ −1 4 2⎞ M1 for at least two correct columns or correctly stating or plotting two points.
-> =⎜ ⎟
-> ⎝ −6 −2 −10 ⎠
+> = −6 −2 −10 
 > correct A1 correct triangle drawn
 > triangle E NB Award 3 marks for a correct triangle drawn irrespective of working in the
 > drawn working space.
@@ -272,34 +278,33 @@ On the grid, draw and label triangle E Triangle E is transformed to triangle B u
 
 ### 4(e) [3]
 
-Using a combination of transformation matrices or otherwise, find the matrix N a b 1 d b The inverse of matrix is c d ad bc c a y A D −10 −8 −6 −4 −2 O 2 4 6 8 10 12 x −2 −4 −6 −8 −10 −12 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A D −10 −8 −6 −4 −2 O 2 4 6 8 10 12 x −2 −4 −6 −8 −10 −12
+Using a combination of transformation matrices or otherwise, find the matrix N.
 
-> 🖼 crop required: grid (qp.pdf p.6)
+[The inverse of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$]
+
+![figure — official paper figure (qp.pdf p.6)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_4_4-e.png)
+
+![figure — official paper figure (qp.pdf p.6)](assets/asset_4_4-e.png)
 
 
 **Mark scheme answer**
 
 > ⎛ −1 0.5 ⎞ 3 M1 for a correct inverse matrix for M or correct matrix for
-> M −1 = ⎜ ⎟ or reflection in the x-axis or for setting up a correct matrix
+> M −1 = or reflection in the x-axis or for setting up a correct matrix
 > ⎝ 0 −0.5 ⎠ equation. Points in any order but the order must be the same in
 > ⎛1 0 ⎞ both matrices
-> matrix for reflection in x-axis is ⎜ ⎟ or
+> matrix for reflection in x-axis is or
 > ⎝ 0 −1 ⎠
-> ⎛ a b ⎞⎛ −1 4 2 ⎞ ⎛ −2 −5 −7 ⎞
-> ⎜ ⎟⎜ ⎟=⎜ ⎟
-> ⎝ c d ⎠⎝ −6 −2 − 10 ⎠ ⎝ −3 −1 −5 ⎠
+> ⎛ a b ⎞⎛ −1 4 2 ⎞ ⎛ −2 −5 −7 = c d ⎠⎝ −6 −2 − 10 ⎠ ⎝ −3 −1 −5 ⎠
 > ⎛ 1 0 ⎞⎛ −1 0.5 ⎞ M1 dep on M1 fully correct product or 2 correct equations from
-> N=⎜ ⎟⎜ ⎟ or each set (any letters) May be implied by a correct answer
+> N= or each set (any letters) May be implied by a correct answer
 > ⎝ 0 −1⎠⎝ 0 −0.5 ⎠
 > ⎡ −a − 6b = −2 ⎤ ⎡ −c − 6d = −3 ⎤
 > 2 of ⎢ 4a − 2b = −5 ⎥ and 2 of ⎢⎢ 4c − 2d = −1 ⎥⎥
 > ⎢ ⎥
 > ⎢⎣ 2a − 10b = −7 ⎥⎦ ⎢⎣ 2c − 10d = −5⎥⎦
 > ⎛ −1 0.5 ⎞ A1 cao
-> ⎜ ⎟
-> ⎝ 0 0.5 ⎠
-> cas Total 13 marks
-> Question Working Answer Mark Notes
+>  0 0.5 
 
 - **(3)** ⎛ −1 0.5 ⎞ 3 M1 for a correct inverse matrix for M or correct matrix for
 
@@ -330,8 +335,6 @@ Using a combination of transformation matrices or otherwise, find the matrix N a
 > the equation for x. If t or k is incorrect working
 > must be shown.
 > 108 A1 Do Not ISW
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** dx 5 M1 Attempt to differentiate ie t n → t n −1 for at
 
@@ -448,8 +451,6 @@ Calculate the probability of getting 3 green counters. Give your answer as a fra
 > 2 × "20" 2 × "20"− 1 2 × "20"− 2
 > 3 A1 or equivalent fraction. Do Not allow written as a decimal
 > 247
-> cas Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 1
 
@@ -466,28 +467,28 @@ Show that EH = 102.5 cm
 **Mark scheme answer**
 
 > 2 3 M1 for a fully correct method or expression to find BF
-> 40 40 ⎛ 40 ⎞ + 402 = 80 or
-> [ BF =] or or ⎜ ⎟ [ ] BC
-> sin 30 cos 60 ⎝ tan 30 ⎠ eg = and BF 2 = 402 + "4800"
+> 40 40 ⎛ 40 ⎞ + $40^2$ = 80 or
+> [ BF =] or or [ ] BC
+> sin 30 cos 60 ⎝ tan 30 ⎠ eg = and $BF^2$ = $40^2$ + "4800"
 > sin 60 sin 30
 > 40
-> sin 30 = or cos 60 = (NB BC2 = 4800 and BC = 40 3 or 69.2[82...] )
+> sin 30 = or cos 60 = (NB $BC^2$ = 4800 and BC = 40 3 or 69.2[82...] )
 > BF BF
 > Allow any letters for BF
-> eg ⎡⎣ EH 2 = ⎤⎦ 1002 + ("80"− 57.5 )
+> eg ⎡⎣ $EH^2$ = ⎤⎦ $100^2$ + ("80"− 57.5 )
 > or M1 dependent on M1being awarded. for a fully correct
-> method to find EH2 or EH
+> method to find $EH^2$ or EH
 > ⎧ tan ∠FEH = "80 "− 57.5 ⇒ ∠FEH = 12.68... and ✓
-> ⎪⎪ [ ] ⎪ eg ⎡⎣ EH 2 = ⎤⎦ 1002 + ( 22.5 ) or [ EH =] 1002 + ( 22.5)
+> ⎪⎪ [ ] ⎪ eg ⎡⎣ $EH^2$ = ⎤⎦ $100^2$ + ( 22.5 ) or [ EH =] $100^2$ + ( 22.5)
 > 2
 > 100 ⎪
 > ⎩ 100
-> ⎫ condone 1002 + ( 57.5 − "80")
+> ⎫ condone $100^2$ + ( 57.5 − "80")
 > ⎪ EH = ⎪
 > ⎪⎩ cos ( "12.68...") ⎪⎭
 > wr [ EH =] 10506.25 ⇒ EH = 102.5 A1oe dep on both previous M marks being awarded. for a
-> fully correct expression for EH2 or EH seen leading to
-> 102.5 eg ⎡⎣ EH 2 = ⎤⎦ 1002 + ( 22.5 ) or 10506.25 or
+> fully correct expression for $EH^2$ or EH seen leading to
+> 102.5 eg ⎡⎣ $EH^2$ = ⎤⎦ $100^2$ + ( 22.5 ) or 10506.25 or
 > 100
 > [ EH =] 100 + ( 22.5 ) or
 > 2
@@ -498,32 +499,30 @@ Show that EH = 102.5 cm
 
 ### 7(b) [5]
 
-Calculate, in degrees to 3 significant figures, ∠EHD [ Cosine rule: a2 = b2 + c2 – 2bc cos A ]
+Calculate, in degrees to 3 significant figures, ∠EHD [ Cosine rule: $a^2$ = $b^2$ + $c^2$ – 2bc cos A ]
 
 
 **Mark scheme answer**
 
 > X is a point on the line FC such that HX is horizontal and Y is a point on the line BC such that HY is vertical
 > 5 M1 for a fully correct method to find HX (the distance from
-> [ HX or YC =] ("80"− 57.5) cos 30 802 − 402 − 57.5 cos 30 H to FC) eg ("80"− 57.5) sin 60 Allow 19.4 or 19.5 Allow
+> [ HX or YC =] ("80"− 57.5) cos 30 $80^2$ − $40^2$ − 57.5 cos 30 H to FC) eg ("80"− 57.5) sin 60 Allow 19.4 or 19.5 Allow
 > or 19.4 [85...]
 > awrt 19 from correct working
 > 57.5 M1 for a fully correct method to find CX (the height of H
 > [CX or YH =] 57.5sin 30 or × 40 or above BC) Allow 29 from correct working
 > "80"
 > 40 − ("80"− 57.5 ) sin 30 or 28.75 or 28.8
-> ⎡⎣ DH 2 = ⎤⎦ 1002 + ("19.485...") + ("28.75") [ = 11206.25]
+> ⎡⎣ $DH^2$ = ⎤⎦ $100^2$ + ("19.485...") + ("28.75") [ = 11206.25]
 > 2 2 M1 dep on both previous M marks being awarded. For a
-> fully correct method to find DH2 or DH ft their HX and CX
+> fully correct method to find $DH^2$ or DH ft their HX and CX
 > or 11206 or 11200 or [DH =] 105.8… if clearly labelled or comes from correct working. Allow
 > 11000 from correct working or awrt 105 or 106
 > 102.5 + 11206.25 − 40
 > 2 M1 dependent on all 3 method previous M marks being
 > cos ∠EHD = [ = 0.92679...] oe awarded. For a fully correct method to find cos ∠EHD .
-> 2 × 102.5 × 11206.25 For 11206.25 allow (awrt 105 or awrt 106)2
+> 2 × 102.5 × 11206.25 For 11206.25 allow (awrt 105 or awrt 106)²
 > cas 22.1 A1 awrt 22.1 Allow 22.2 or 22 or 22.0 from correct working
-> Total 8 marks
-> Question Working Ans Mark Notes
 
 - **(5)** X is a point on the line FC such that HX is horizontal and Y is a point on the line BC such that HY is vertical
 
@@ -562,7 +561,7 @@ Calculate the total amount Mel earns in January. In February Mel works 150 hours
 
 ### 8(c) [3]
 
-Calculate the value of the watches Mel sells in February. In March the company makes 250 automatic watches. The cost to make each automatic watch is 80 Swiss francs. 64% of these automatic watches are sold for 140 Swiss francs each. The remaining automatic watches are sold in America for $216 each. Using an exchange rate of 1 Swiss franc = $1.08
+Calculate the value of the watches Mel sells in February. In March the company makes 250 automatic watches. The cost to make each automatic watch is 80 Swiss francs. 64% of these automatic watches are sold for 140 Swiss francs each. The remaining automatic watches are sold in America for \$216 each. Using an exchange rate of 1 Swiss franc = \$1.08
 
 
 **Mark scheme answer**
@@ -585,8 +584,8 @@ calculate the total profit, in Swiss francs, the company makes on these 250 auto
 
 > 0.64 × 250 ×140 [ = 160 ×140 = 22400] 5 M1 for calculating the total selling price for watches sold in
 > Swiss francs
-> 216 M1 for a correct method to change $ to Swiss francs. May be
-> [$216 =] [ = 200] seen in any calculation (need not be correct calculation) eg
+> 216 M1 for a correct method to change \$ to Swiss francs. May be
+> [\$216 =] [ = 200] seen in any calculation (need not be correct calculation) eg
 > 1.08
 > 216 216
 > ( 250 − 0.64 × 250 ) × or ( 250 − 160 ) × Implied by
@@ -604,8 +603,6 @@ calculate the total profit, in Swiss francs, the company makes on these 250 auto
 > [×100 = 102] or implied by a profit of 102[%]
 > 20000
 > 20400 A1 do not ISW
-> cas Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 0.64 × 250 ×140 [ = 160 ×140 = 22400] 5 M1 for calculating the total selling price for watches sold in
 
@@ -669,7 +666,11 @@ Using your graph, find estimates, to one decimal place, of the solutions of the 
 
 ### 9(d) [4]
 
-By drawing a suitable line on the grid, find the range of values, to one decimal place, of x in −4 ≤ x ≤ 4 for which 1 2 1 x − 2 − ≤0 4 x y O x −4 −3 −2 −1 1 2 3 4 −1 −2 −3 −4 −5 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y O x −4 −3 −2 −1 1 2 3 4 −1 −2 −3 −4 −5
+By drawing a suitable line on the grid, find the range of values, to one decimal place, of x in −4 ≤ x ≤ 4 for which 1 2 1 x − 2 − ≤0 4 x
+
+![graph — official paper figure (qp.pdf p.24) (same figure as 9(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_table.png)
+
+![grid — official paper figure (qp.pdf p.25) (same figure as asset_9_a_graph)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2024-06/4MB1-02/assets/asset_9_a_graph.png)
 
 ![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_table.png)
 
@@ -695,8 +696,6 @@ By drawing a suitable line on the grid, find the range of values, to one decimal
 > must have 0 < but the others we will allow < or or >
 > Allow other notation eg [–2.5, –0.5] or (0,3.1] allow curved brackets for
 > square brackets NB Allow −2.5, −0.5 and 3.1 all ± 0.2 but must have 0
-> Total 10 marks
-> Question Working Answer M Notes
 
 - **(4)** Line y = −1 drawn 4 M1 for the line y = −1 drawn on the grid from –4 to 4
 
@@ -706,6 +705,8 @@ By drawing a suitable line on the grid, find the range of values, to one decimal
 f(x) 6 x3 (6 p 1) x 2 (5 p q ) x 2 where p and q are integers. Given that 2 x 1 is a factor of f(x)
 
 ### 10(a) [2]
+
+f(x) 6 x³ (6 p 1) x 2 (5 p q ) x 2 where p and q are integers. Given that 2 x 1 is a factor of f(x)
 
 show that 2 p q Given that x p is also a factor of f(x)
 
@@ -734,18 +735,18 @@ find the value of p and the value of q Show clear algebraic working.
 > 6 p − (6 p − 1) p − (5 p + q) p + 2 or
 > 3
 > 7 M1 Substituting p in for x or −3 − 2 p for q or −32−q for p
-> 6 x3 − (6 p − 1) x 2 − (5 p + (−3 − 2 p)) x + 2 or or for correct remainder −4 p 2 − pq + 2 from long division.
+> 6 x³ − (6 p − 1) x 2 − (5 p + (−3 − 2 p)) x + 2 or or for correct remainder −4 p 2 − pq + 2 from long division.
 > ⎛ ⎛ −3 − q ⎞ ⎞ 2 ⎛ ⎛ −3 − q ⎞ ⎞ This needs to be a correct expression.
-> 6 x3 − ⎜ 6 ⎜ ⎟ − 1) ⎟ x − ⎜ 5 ⎜ ⎟ + q ⎟ x + 2 or We will condone the use of an incorrect equation found in part(a)
+> 6 x³ − ⎜ 6 − 1) ⎟ x − ⎜ 5 + q ⎟ x + 2 or We will condone the use of an incorrect equation found in part(a)
 > ⎝ ⎝ 2 ⎠ ⎠ ⎝ ⎝ 2 ⎠ ⎠
 > 6 p 3 − (6 p − 1) p 2 − (5 p + (−3 − 2 p)) p + 2 [ = 0] or M1 Substituting p in for x and −3 − 2 p for q or −32−q for p
 > 3
 > ⎛ −3 − q ⎞ ⎛ ⎛ −3 − q ⎞ ⎞ ⎛ −3 − q ⎞ ⎛ ⎛ −3 − q ⎞ ⎞ ⎛ −3 − q ⎞ −3 − q
-> 6⎜ ⎟ − ⎜6⎜ ⎟ − 1⎟ ⎜ ⎟ − ⎜ 5⎜ ⎟ + q ⎟⎜ ⎟ + 2 [ = 0] or or subst −3 − 2 p for q or for p into their remainder to
+> 6 − 6 − 1 − 5 + q + 2 [ = 0] or or subst −3 − 2 p for q or for p into their remainder to
 > ⎝ 2 ⎠ ⎝ ⎝ 2 ⎠ ⎠⎝ 2 ⎠ ⎝ ⎝ 2 ⎠ ⎠⎝ 2 ⎠
 > ⎛ −3 − q ⎞ ⎛ −3 − q ⎞
 > form an expression in terms of either p or q. Allow substitution into
-> −4 p 2 − p ( −3 − 2 p ) + 2 or −4 ⎜ ⎟ −⎜ ⎟ q + 2 [ = 0] their expression (allow if subst into an incorrect expression)
+> −4 p 2 − p ( −3 − 2 p ) + 2 or −4 − q + 2 [ = 0] their expression (allow if subst into an incorrect expression)
 > ⎝ 2 ⎠ ⎝ 2 ⎠ We will condone the use of an incorrect equation found in part(a)
 > 2 p 2 − 3 p − 2 [ = 0] oe or q 2 + 9q + 14 [ = 0] oe A1 dependent on both previous M marks being awarded correct 3
 > term quadratic in terms of p or q
@@ -776,18 +777,15 @@ Factorise fully f(x) b b 2 4ac bx c 0 are x 2a
 
 **Mark scheme answer**
 
-> 2 ⎞ 2 M1 ft their value of p must be of the form
-> ( 2 x + 1)( x − "2") ⎛⎜ 3x − ⎟ ⎛ 2 ⎞
-> ⎝ "2" ⎠ ( 2 x + 1)( x − " p ") ⎜ 3x − ⎟
-> ⎝ " p" ⎠
+> 2 2 M1 ft their value of p must be of the form
+> ( 2 x + 1)( x − "2") 3x − 2 
+> ⎝ "2" ⎠ ( 2 x + 1)( x − " p ") ⎜ 3x − " p" ⎠
 > cas ( 2 x + 1)( x − 2 )( 3x − 1) A1 cao do not ISW. Mark final answer.
 > ⎛ 1⎞ ⎛ 1⎞
 > NB ⎜ x + ⎟ ( x − 2 ) ⎜ x − ⎟ is M0A0
 > ⎝ 2⎠ ⎝ 3⎠
-> Total 11 marks
-> Question Working Answer Mark Notes
 
-- **(2)** 2 ⎞ 2 M1 ft their value of p must be of the form
+- **(2)** 2 2 M1 ft their value of p must be of the form
 
 
 ## Question 11 (13 marks)
@@ -843,7 +841,7 @@ Find the value for x, to 3 significant figures, for which f(x) = g(x) Show your 
 > if recovered. If only seen expanded allow 2 sign errors.
 > 4 x 2 + 2 x − 10 x − 5 = 7 − 8 x M1 dependent on M1 awarded. multiplying out
 > brackets. Allow one incorrect term.
-> x2 = 3 M1 gaining a value for x2 ft their equation if the x
+> x² = 3 M1 gaining a value for x² ft their equation if the x
 > terms cancel. May be implied by correct answer
 > wr 1.73 A1 dependent on the 1st and 2nd M1 being awarded.
 > awrt 1.73 or 3 (condone ±)
@@ -863,7 +861,7 @@ Express h(x) in the form a x b c where a, b and c are integers.
 > ⎝ 2⎠
 > This may be implied by the 2nd M1
 > M1 allow for 2 of a = 2 or b = 1 or c = 7 Allow these
-> ⎡ 2 ( x + 1)2 − 2 ⎤ − 5 or 2 ⎡( x + 1)2 − 1 − 5 ⎤
+> ⎡ 2 ( x + 1)² − 2 ⎤ − 5 or 2 ⎡( x + 1)² − 1 − 5 ⎤
 > ⎣ ⎦ ⎢⎣ 2 ⎥⎦ seen in an expression of the form a ( x + b ) − c
 > cas 2 ( x + 1) − 7
 > A1 if a correct expression is not seen we allow

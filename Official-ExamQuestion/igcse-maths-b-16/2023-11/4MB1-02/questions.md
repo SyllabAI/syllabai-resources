@@ -8,7 +8,11 @@ The table shows information about 5 lakes in the Lake District. Name Surface are
 
 ### 1(a) [1]
 
-Write 3.3 × 106 as an ordinary number. Elter Water is another lake and has a volume of 500 000 m3
+The table shows information about 5 lakes in the Lake District. Name Surface area (m²) Volume (m³) Windermere 1.5 × 107 3.1 × 108 Ullswater 8.9 × 106 2.2 × 108 Thirlmere 3.3 × 106 5.0 × 107 Wastwater 2.9 × 106 1.1 × 108 Ennerdale Water 3.0 × 106 5.4 × 107
+
+Write 3.3 × 106 as an ordinary number. Elter Water is another lake and has a volume of 500 000
+
+…………… m³
 
 
 **Mark scheme answer**
@@ -88,8 +92,6 @@ Find, in standard form, an expression for x 2 in terms of n
 > or or
 > (16 ×1012n ) 16
 > 6.25 ×10−12 n−2 A1 cas
-> Total 11 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 4 −2 or 10 −12 n 3 1 1
 
@@ -148,8 +150,6 @@ A B
 
 > 7,8,9,10,11,12,13,14,15,16,17,18,19,20 2 M1 Finding A ∪ B ignore any incorrect set notation
 > 6, 21 A1 cas
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 7,8,9,10,11,12,13,14,15,16,17,18,19,20 2 M1 Finding A ∪ B ignore any incorrect set notation
 
@@ -159,6 +159,8 @@ A B
 x 3 10 x 3 Given that y = x3
 
 ### 4(a) [2]
+
+x 3 10 x 3 Given that y = x³
 
 show that y 2 3 y
 
@@ -187,8 +189,8 @@ show that y 2 3 y
 > x + 3x − 10 [ = 0]
 > 3
 > M1 For substituting y = x into y 2 + 3 y − 10
-> ⎛ −
-> ⎞ 1 1
+>  −
+>  1 1
 > x ⎜10 x 3 − 3 + 3 ⎟ − 10 ⇒ 10 − 10 = 0
 > 3 A1 For taking out the x as a factor and substituting 10 x − 3 for x
 > 3 3
@@ -213,7 +215,7 @@ Solve the equation y 2 3 y 1 1
 
 ### 4(b)(ii) [2]
 
-Hence find the solutions to x3 10 x 3
+Hence find the solutions to x³ 10 x 3
 
 
 **Mark scheme answer**
@@ -222,8 +224,6 @@ Hence find the solutions to x3 10 x 3
 > 3
 > see the cube
 > 8, −125 A1 cas ignore any y values given
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** x = 2 or x = ( −5 ) 2 M1 for cubing at least 1 of their y values. If y values incorrect, we need to
 
@@ -233,6 +233,8 @@ Hence find the solutions to x3 10 x 3
 A solid square-based cuboid is made of steel. The mass of the cuboid is 1500 grams, to the nearest 50 grams. The length of the side of the square base of the cuboid is 12 cm, to 2 significant figures. The density of the steel is 7.98 g/cm3, to 3 significant figures. Given that Mass Density = Volume
 
 ### 5(a) [4]
+
+A solid square-based cuboid is made of steel. The mass of the cuboid is 1500 grams, to the nearest 50 grams. The length of the side of the square base of the cuboid is 12 cm, to 2 significant figures. The density of the steel is 7.98 g/cm³, to 3 significant figures. Given that Mass Density = Volume
 
 show that the lower bound of the height of the cuboid is 1.2 cm to one decimal place. Show your working clearly. Another solid square-based cuboid is made of wood. The length of the side of the square base of this cuboid is 13 cm, to 2 significant figures. The height of the cuboid is 2.4 cm, to one decimal place.
 
@@ -266,7 +268,7 @@ show that the lower bound of the height of the cuboid is 1.2 cm to one decimal p
 
 ### 5(b) [3]
 
-Find, in cm2 to one decimal place, the lower bound of the surface area of the cuboid. Show your working clearly.
+Find, in cm² to one decimal place, the lower bound of the surface area of the cuboid. Show your working clearly.
 
 
 **Mark scheme answer**
@@ -278,8 +280,6 @@ Find, in cm2 to one decimal place, the lower bound of the surface area of the cu
 > 430 A1wr working must be shown and the correct calculation with
 > correct bounds seen. Allow 430.0
 > NB An answer of 430 with no working gains no marks
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 2( s 2 + 2s × h) or 2 × s 2 + 4 × s × h oe 3 M1 for a correct expression in 2 variables. If the correct expression is
 
@@ -351,12 +351,10 @@ Calculate the number of these 65 customers who spent more than 3 minutes in the 
 > (8 × 2 + 5 × 2.4 + 5 ×1.6) × "1.25" or 65 − (1× 4.8 − 2 × 5.6) × "1.25"
 > ( 4 ×1 + 1.2 × 2.5 + 0.8 × 2.5) × "5" or 65 − ( 0.5 × 2.4 + 1× 2.8) × "5"
 > 45 A1cas
-> Total 9 marks
 > D
 > A
 > B
 > C
-> Question Working Answer Mark Notes
 
 - **(3)** Fd for 5 – 10 class = 3 or 3 M1 finding fd oe eg 12 medium square = 15
 
@@ -373,20 +371,20 @@ Describe fully the single transformation. Triangle B is transformed to triangle 
 **Mark scheme answer**
 
 > ⎛ −5 ⎞ 2 M1 If multiple transformations given award M0. Multiple
-> Translation or ⎜ ⎟ transformation are when more than one of reflection, rotation
+> Translation or transformation are when more than one of reflection, rotation
 > ⎝ −1 ⎠ (turn), translation(move), enlargement(stretch/squash) is stated.
 > Giving an equation of a line, SF, vector does not count as
 > multiple transformations
 > Translation A1
-> ⎛ −5 ⎞
-> ⎜ ⎟
-> ⎝ −1 ⎠
+> ⎛ −5 −1 ⎠
 
 - **(2)** ⎛ −5 ⎞ 2 M1 If multiple transformations given award M0. Multiple
 
 ### 7(b) [3]
 
-Draw and label triangle C The area of triangle A is x cm2
+Draw and label triangle C The area of triangle A is x
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -399,7 +397,7 @@ Draw and label triangle C The area of triangle A is x cm2
 
 ### 7(c) [1]
 
-Find, in terms of x, the area in cm2, of triangle C 3 2 y 1 M= N = 5 4 2 2 Triangle B is transformed to triangle D under the transformation with matrix N Given that the determinant of M is equal to the determinant of N
+Find, in terms of x, the area in cm², of triangle C 3 2 y 1 M= N = 5 4 2 2 Triangle B is transformed to triangle D under the transformation with matrix N Given that the determinant of M is equal to the determinant of N
 
 
 **Mark scheme answer**
@@ -410,9 +408,13 @@ Find, in terms of x, the area in cm2, of triangle C 3 2 y 1 M= N = 5 4 2 2 Trian
 
 ### 7(d) [5]
 
-draw and label triangle D Show your working clearly. a b Determinant of matrix ad bc c d y A B −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 x −1 −2 −3 −4 −5 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A B −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 7 x −1 −2 −3 −4 −5
+draw and label triangle D. Show your working clearly.
 
-> 🖼 crop required: grid (qp.pdf p.None)
+[Determinant of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc$]
+
+![figure — official paper figure (qp.pdf p.12)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_7_7-d.png)
+
+![figure — official paper figure (qp.pdf p.12)](assets/asset_7_7-d.png)
 
 
 **Mark scheme answer**
@@ -422,15 +424,13 @@ draw and label triangle D Show your working clearly. a b Determinant of matrix a
 > 3 × 4 − 5 × 2 + ( −1× −2 ) M1 rearranging to find a correct expression or value for y
 > y= [ = 2]
 > ⎛ "2" −1⎞⎛ −1 −1 1 ⎞ M1 Correct order of multiplication using their y. The points can be
-> ⎜ ⎟⎜ ⎟ in any order
+>  in any order
 > ⎝ −2 2 ⎠⎝ 1 3 4 ⎠
 > ⎛ −3 −5 −2 ⎞ M1 dep on previous M1 for multiplying out to give a 2×3 matrix
-> ⎜ ⎟ with at least 2 correct entries. The points can be in any order.
+>  with at least 2 correct entries. The points can be in any order.
 > ⎝4 8 6⎠ Allow if two points plotted correctly
 > Triangle D A1cas (−3, 4) (−5, 8) (−2, 6)
 > plotted
-> Total 11 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 3 × 4 − 5 × 2 = 2 y − ( −1× −2 ) 5 M1 ISW for using the determinant to set up an equation. eg
 
@@ -440,7 +440,9 @@ draw and label triangle D Show your working clearly. a b Determinant of matrix a
 
 Complete the table of values for y x 2 4 x x −2 −1 0 1 2 3 4 5 y 8 −4 −7 −7 −4
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_8_8-a.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_8_8-a.png)
 
 
 **Mark scheme answer**
@@ -454,7 +456,11 @@ Complete the table of values for y x 2 4 x x −2 −1 0 1 2 3 4 5 y 8 −4 −7
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve.
 
-> 🖼 crop required: grid (qp.pdf p.16)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![table — official paper figure (qp.pdf p.16) (same figure as asset_8_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_8_b_table_stem.png)
+
+![figure — official paper figure (qp.pdf p.16)](assets/asset_8_8-b.png)
 
 ![table — official paper figure (qp.pdf p.16) — shared with asset_8_b_table_stem](assets/asset_8_b_table_stem.png)
 
@@ -472,7 +478,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 By drawing a suitable straight line on your grid, find estimates to one decimal place, for the solutions of the equation x 2 4 x 4 2 x 1 in the range −2 ≤ x ≤ 5
 
-> 🖼 crop required: grid (qp.pdf p.16)
+![figure — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_8_8-c.png)
+
+![figure — official paper figure (qp.pdf p.16)](assets/asset_8_8-c.png)
 
 
 **Mark scheme answer**
@@ -486,11 +494,13 @@ By drawing a suitable straight line on your grid, find estimates to one decimal 
 
 ### 8(d) [2]
 
-By drawing a suitable straight line on your grid, find an estimate to the nearest whole number, of the gradient of the curve y x 2 4 x 4 at the point where x y −2 −1 O 1 2 3 4 5 x −1 −2 −3 −4 −5 −6 −7 −8 −9 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y −2 −1 O 1 2 3 4 5 x −1 −2 −3 −4 −5 −6 −7 −8 −9
+By drawing a suitable straight line on your grid, find an estimate to the nearest whole number, of the gradient of the curve $y = x^2 - 4x - 4$ at the point where $x = -1$.
 
-> 🖼 crop required: graph (qp.pdf p.16)
+![grid — official paper figure (qp.pdf p.17)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-02/assets/asset_8_d_grid.png)
 
-> 🖼 crop required: grid (qp.pdf p.16)
+![figure — official paper figure (qp.pdf p.16)](assets/asset_8_8-d.png)
+
+![figure — official paper figure (qp.pdf p.16)](assets/asset_8_8-d_1.png)
 
 
 **Mark scheme answer**
@@ -498,8 +508,6 @@ By drawing a suitable straight line on your grid, find an estimate to the neares
 > A clear tangent drawn 2 M1 Accept a hand drawn line with the intention for it to be drawn
 > so it touches the curve once at x = -1
 > −6 A1 dep on tangent drawn. Allow ± 1
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(2)** A clear tangent drawn 2 M1 Accept a hand drawn line with the intention for it to be drawn
 
@@ -523,7 +531,9 @@ CA (ii) AB (iii) OD Given that CE λCA
 
 ### 9(b) [4]
 
-use a vector method to find the value of λ → → → → The point P is such that OP = μOD where μ 1 and AP is parallel to OB Given that the area of triangle OCE is 8 cm2
+use a vector method to find the value of λ → → → → The point P is such that OP = μOD where μ 1 and AP is parallel to OB Given that the area of triangle OCE is 8
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -549,7 +559,7 @@ use a vector method to find the value of λ → → → → The point P is such 
 
 ### 9(c) [4]
 
-find the area, in cm2, of triangle APE
+find the area, in cm², of triangle APE
 
 
 **Mark scheme answer**
@@ -559,7 +569,7 @@ find the area, in cm2, of triangle APE
 > 2 3 OC PA
 > 2
 > 3 ⎛3⎞ 2 ⎛2⎞
-> × 8 or ⎜ ⎟ × 8 or k × = 8 or k × ⎜ ⎟ = 8 seen
+> × 8 or × 8 or k × = 8 or k × = 8 seen
 > 2 ⎝2⎠ 3 ⎝3⎠
 > (B1 CE : EA = 2 : 3 ft their lambda oe)
 > May be implied by an area of 12 or 18
@@ -570,7 +580,6 @@ find the area, in cm2, of triangle APE
 > 8 × ⎜ " " ⎟ or k × ⎜ " " ⎟ = 8
 > ⎝ 2 ⎠ ⎝ 3 ⎠
 > 18 A1cas do not ISW This must be their final answer or clearly labelled as APE
-> Total 12 marks
 > Alternative 1 Alternative 2 Alternative 3
 > → → → → → → → → → → → → →
 > CE = CB + BD + DE CE = CA+ AD + DE CE = CB + BA + AO + OE
@@ -593,8 +602,7 @@ find the area, in cm2, of triangle APE
 > → →
 > Alternative 4 Using OE Alternative 5 Using CO
 > → ⎛ 3 ⎞ → → ⎛ 3 ⎞
-> M1 OE = κ ⎜ "2a + b" ⎟ CO = CE − η ⎜ "2a + b" ⎟
-> ⎝ 2 ⎠ ⎝ 2 ⎠
+> M1 OE = κ ⎜ "2a + b" ⎟ CO = CE − η ⎜ "2a + b" 2 ⎠ ⎝ 2 ⎠
 > →
 > OE = λ ("4a − 2b ") + 2b leading to CE = λ ("4a − 2b ") and CO = −2b leading to
 > M1
@@ -607,7 +615,6 @@ find the area, in cm2, of triangle APE
 > 2
 > A1
 > 5
-> Question Working Answer Mark Notes
 
 - **(4)** 3 2 4 AP OC
 
@@ -618,7 +625,9 @@ E Diagram NOT accurately drawn F A D H 4m G 1.5 m 2.4 m B 3m C Figure 3 Figure 3
 
 ### 10(a) [2]
 
-Calculate the volume, in m3, of the prism.
+E Diagram NOT accurately drawn F A D H 4m G 1.5 m 2.4 m B 3m C Figure 3 Figure 3 shows a solid right prism ABCDEFGH The base of the prism, ABCD, is a rectangle and is horizontal. Trapezium BCHG is a cross section of the prism. AB = 4 m BC = 3 m CH = 2.4 m GB = 1.5 m GBC BCH ABG DCH
+
+Calculate the volume, in m³, of the prism.
 
 
 **Mark scheme answer**
@@ -701,8 +710,6 @@ Calculate, in degrees to one decimal place, ∠APQ Area of trapezium ( a b) h
 > cos APQ ⎢ = ⎥=
 > ⎣ 2 × AP × PQ ⎦ 2 × 24.41 × 2.1
 > 64.8 A1cas awrt 64.8 Only allow awrt 65 from correct working
-> Total 11 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 2 4 M1 using similar triangles to find PQ eg Both PQ and AQ May be seen
 
@@ -769,10 +776,9 @@ Find h(x) in its simplest form. Show clear algebraic working.
 **Mark scheme answer**
 
 > ⎛ 3x − 4 ⎞ 7 ⎛ 3x − 4 ⎞
-> h ( x ) = g −1 ⎜ ⎟ Implied by subst into their g ( x )
+> h ( x ) = g −1 Implied by subst into their g ( x )
 > −1
-> ⎟ M1 for g −1 ⎜
-> ⎝ x −1 ⎠ ⎝ x −1 ⎠
+> ⎟ M1 for g −1 x −1 ⎠ ⎝ x −1 ⎠
 > y ( x + 3) = 4 ( x + 3) − ( x + 7 ) or M1 for 1st step to find g −1 ( x) eg x ( y + 3) = 3 y + 5 Condone
 > x ( y + 3) = 4 ( y + 3) − ( y + 7 ) missing brackets around ( x + 7 ) or ( y + 7 ) eg x ( y + 3) = 3 y + 19
 > x ( y − 4 + 1) = 12 − 7 − 3 y or x ( y − 3) = 5 − 3 y or M1 collecting x (y) terms on one side and factorising. Allow 1 error
@@ -783,10 +789,9 @@ Find h(x) in its simplest form. Show clear algebraic working.
 > y −3 x −3 y −c x−c
 > of a,b and c are correct. oe This implies the 2nd and 3rd M1
 > ⎛ 3x − 4 ⎞ 3x − 4
-> 5 − 3⎜ ⎟ M1 Subst into their g −1 ( x) Allow any letter
+> 5 − 3 M1 Subst into their g −1 ( x) Allow any letter
 > ⎝ x −1 ⎠ x −1
-> ⎛ 3x − 4 ⎞
-> ⎜ ⎟−3
+>  3x − 4 −3
 > ⎝ x −1 ⎠
 > 5 ( x − 1) − 3 ( 3 x − 4 ) M1 dep on 4th and 5th M mark being awarded. For removing the
 > embedded fractions correctly
@@ -826,7 +831,6 @@ Find h(x) in its simplest form. Show clear algebraic working.
 > the terms in h on one side.
 > ⎡⎣ h ( x ) = ⎤⎦ 4 x − 7 A1 dep on at least 5 M marks being awarded. For
 > 4 x − 7 . Must be in terms of x
-> Total 14 marks
 
 - **(7)** ⎛ 3x − 4 ⎞ 7 ⎛ 3x − 4 ⎞
 

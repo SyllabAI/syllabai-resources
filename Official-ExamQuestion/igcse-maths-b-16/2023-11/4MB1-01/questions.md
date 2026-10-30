@@ -27,8 +27,6 @@ Shade, on the grid below, exactly 5 squares to make a pattern with 4 lines of sy
 **Mark scheme answer**
 
 > or 1 B1 A suitable pattern
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** or 1 B1 A suitable pattern
 
@@ -39,7 +37,9 @@ Shade, on the grid below, exactly 5 squares to make a pattern with 4 lines of sy
 
 ### 2(a) [1]
 
-both a rational number and a natural number,
+−3 4 3 Write down a number from the above list that is
+
+both a rational number and a natural number …………… , ……………
 
 
 **Mark scheme answer**
@@ -56,8 +56,6 @@ an irrational number.
 **Mark scheme answer**
 
 > 3 1 B1 with no incorrect values
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 3 1 B1 with no incorrect values
 
@@ -83,8 +81,6 @@ The nth term of a sequence is given by 3n 2 − 20 Find the difference between t
 > 2
 > round eg 28 – 55
 > 27 or – 27 A1
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** (3 × 5 − 20) [ = 55] and (3 × 4 − 20 ) [= 28] or
 
@@ -104,7 +100,6 @@ Using ruler and compasses only and showing all your construction lines, construc
 > Accurate bisector A1 correct bisector which must be a straight line + construction
 > lines ignore any additional lines eg line drawn from F to H
 > wr Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 M1 for bisector of angle FGH within lines of overlay
 
@@ -130,7 +125,6 @@ Without using a calculator and showing all your working, work out 1 1 2 ÷1 3 5 
 > =1 the correct simplified mixed fraction
 > 18 18
 > wr Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2+ 1 35 2 M1
 
@@ -149,8 +143,6 @@ Factorise fully 5mp 2 − 10 p
 > 5 p ( mp − 2 ) 2 B2 correct answer
 > B1 for 5 ( mp 2 − 2 p ) or p ( 5mp − 10 ) or 5 p ( mp + 2 ) or 5 p (... − ...)
 > Condone missing closed bracket
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 5 p ( mp − 2 ) 2 B2 correct answer
 
@@ -172,8 +164,6 @@ Harpreet has been given 22 × 3 × 55 × 7 red bricks 22 × 54 × 7 2 green bric
 > non zero integers
 > or having the HCF with other values in the working space
 > Note B0 for finding the LCM only
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3500 2 B2 Allow 22 × 53 × 7 must be their only answer or identified as their
 
@@ -197,8 +187,6 @@ Given that a = find the exact value of ½ a½
 > Implied by 58 or ± 58 or − 58 or 7.6….
 > 58 A1 isw if they give the exact value and then 7.6….
 > A0 for ± 58
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 7 2 + ( −3) or
 
@@ -227,8 +215,6 @@ A car travels at an average speed of 80 km/h for 2.5 hours and then travels a fu
 > 75 A1 ignore any additional incorrect units
 > isw further calculations for the method marks but not for the
 > accuracy mark
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1 1 3 M1 Correct method to find the distance in 2.5 hours (could be
 
@@ -263,8 +249,6 @@ Calculate the value of x x =
 > x − 5 + x + "4 x − 1"+ 2 = 32 oe 2 M1 correct equation ft their 4x – 1 only.
 > eg x − 5 + x + "4 x − 1" = 30 Condone the missing 2 only eg x − 5 + x + "4 x − 1" = 32
 > 6 A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** x − 5 + x + "4 x − 1"+ 2 = 32 oe 2 M1 correct equation ft their 4x – 1 only.
 
@@ -292,8 +276,6 @@ Calculate the mean of the two numbers 4 × 10100 and 3.6 × 10101 Give your answ
 > 2 ×10101 A1 oe eg 2.0 ×10101 but not 20 ×10100 (this implies M2)
 > Allow international multiplication symbol of . for × eg 2.10101
 > Do not isw
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 0.4 ×10101 or 36 ×10100 or 3 M1 for converting one of the numbers so that it is written as the
 
@@ -329,8 +311,6 @@ On the grid, shade and label the region R defined by 0 ≤ y≤4 and 0 ≤ x≤3
 > shaded • correct region shaded
 > • correct region labelled as R
 > • all of outside region shaded.
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** Correct 1 B1
 
@@ -350,11 +330,9 @@ Simplify x 2 + 3x + 2
 > ( x + 1)( x + 2 ) does not have to be within a fraction
 > M1 for one of the numerator fully factorised or denominator
 > factorised correctly does not have to be within a fraction
-> x2
+> x²
 > A1 (do not isw)
 > x+2
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** x 2 ( x + 1) 3 M2 numerator fully factorised and denominator factorised correctly
 
@@ -403,8 +381,6 @@ Calculate the value of y y =
 > 0.14
 > If converting to degrees 4y = 129.6 => y = 32.4
 > 0.09 A1 oe
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Credit can be given for work seen in part (a) if not seen in part (b)
 
@@ -455,8 +431,6 @@ A bag contains red counters, blue counters and yellow counters such that number 
 > 5+ 2+ 8
 > or 56 + "42"+ "105"
 > 203 A1
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 15 : 6 and 6 : 8 oe or 15 : 6 : 8 oe 4 M1 for writing the ratios with a common figure or for writing a
 
@@ -467,35 +441,37 @@ Here is hexagon ABCDEF ( 2 x + 1) cm ( 3x + 4 ) cm AB 2 x cm DE = 2 x cm FE = 5 
 
 ### 16 [4]
 
-Here is hexagon ABCDEF ( 2 x + 1) cm ( 3x + 4 ) cm AB 2 x cm DE = 2 x cm FE = 5 x cm AF 3 x The perimeter of the hexagon is 40 cm. Find the area, in cm2, of the hexagon cm2
+Here is hexagon ABCDEF
+
+AB = (2x+1) cm   DE = 2x cm   FE = 5x cm   AF = (3x+4)
+
+The perimeter of the hexagon is 40 cm. Find the area, in cm², of the hexagon.
+
+…………… cm²
 
 
 **Mark scheme answer**
 
 > 10 x + 6 x + 8 = 40 oe 4 M1 condone CD to be 3x+1 (for this mark only) may be implied by
-> 16x + 10 = 40 or x =
-> 40 − 8
-> x= [ = 2] M1 method to solve correct equation (this may imply the previous
+> 16x + 10 = 40 or x = $\frac{40-8}{16}$ [ = 2] M1 method to solve correct equation (this may imply the previous
 > method mark)
 > ( 2 x + 1)( 3x + 4 ) + 2 x ( 5 x − ( 2 x + 1) ) M1 for correct expression for the area, may be in terms of x or with
 > their x value substituted, in which may be simplified, ft their value of
 > ( 2 x + 1)( 3x + 4 ) + 2 x ( 3x − 1) oe x provided working is shown
 > or ( 2 x + 1)( 3x + 4 − 2 x ) + 5 x × 2 x oe eg
-> ( 2 x + 1)( x + 4 ) + 10 x 2 ( 2 × "2"+ 1) × ( 3 × "2"+ 4 ) + (5 × "2"− ( 2 × "2"+ 1) ) × ( 2 × "2") oe
+> ( 2 x + 1)( x + 4 ) + $10 x^2$ ( 2 × "2"+ 1) × ( 3 × "2"+ 4 ) + (5 × "2"− ( 2 × "2"+ 1) ) × ( 2 × "2") oe
 > eg ( 2 × "2"+ 1) × ( 3 × "2"+ 4 ) + ( 3 × "2"− 1) × ( 2 × "2") or 5 ×10 + 5 × 4
 > or 5 x ( 3x + 4 ) − ( 5 x − (2 x + 1) )( x + 4 ) oe
-> or ( 2 × "2"+ 1) × ( 3 × "2"+ 4 − 2 × "2 ) + ( 5 × "2") × ( 2 × "2") oe
+> or ( 2 × "2"+ 1) × ( 3 × "2"+ 4 − 2 × "2" ) + ( 5 × "2") × ( 2 × "2") oe
 > 5 x ( 3x + 4 ) − ( 3x − 1)( x + 4 )
 > eg ( 2 × "2"+ 1) × ("2"+ 4 ) + ( 5 × "2") × ( 2 × "2") or 5 × 6 + 10 × 4
 > Or
-> 12 x 2 + 9 x + 4 or ( 5 × "2") × ( 3 × "2"+ 4 ) − ( 5 × "2"− (2 × "2"+ 1) ) × ("2"+ 4 ) oe
+> $12 x^2 + 9 x + 4$ or ( 5 × "2") × ( 3 × "2"+ 4 ) − ( 5 × "2"− (2 × "2"+ 1) ) × ("2"+ 4 ) oe
 > eg ( 5 × "2") × ( 3 × "2"+ 4 ) − ( 3 × "2"− 1) × ("2"+ 4 ) or 10 ×10 − 5 × 6
-> or 12 × "2"2 + 9 × "2"+ 4
+> or $12 \times "2"^2 + 9 \times "2"+ 4$
 > 70 A1
 > SC B2 for an answer of 51.3125, 63.0625, 70.5625 Accept values
 > that are rounded to 1dp
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 10 x + 6 x + 8 = 40 oe 4 M1 condone CD to be 3x+1 (for this mark only) may be implied by
 
@@ -506,32 +482,33 @@ Here is hexagon ABCDEF ( 2 x + 1) cm ( 3x + 4 ) cm AB 2 x cm DE = 2 x cm FE = 5 
 
 ### 17(a) [2]
 
-Calculate 3A – 2B 1 p 3 10 8 B C BC 32 1 2 7 4 1
+A = $\begin{pmatrix} 2 & -1 \\ 4 & 3 \end{pmatrix}$  B = $\begin{pmatrix} -3 & -1 \\ 2 & 7 \end{pmatrix}$
+
+Calculate 3A − 2B
 
 
 **Mark scheme answer**
 
-> ⎛ 12 −1 ⎞ 2 B2 Fully correct matrix
-> ⎜ ⎟
-> ⎝ 8 −5 ⎠ (B1 for 2 or 3 correct entries in a matrix of correct order)
+> $\begin{pmatrix} 12 & -1 \\ 8 & -5 \end{pmatrix}$ 2 B2 Fully correct matrix
+> (B1 for 2 or 3 correct entries in a matrix of correct order)
 
-- **(2)** ⎛ 12 −1 ⎞ 2 B2 Fully correct matrix
+- **(2)** $\begin{pmatrix} 12 & -1 \\ 8 & -5 \end{pmatrix}$ 2 B2 Fully correct matrix
 
 ### 17(b) [2]
 
-Calculate the value of p p =
+B = $\begin{pmatrix} -3 & -1 \\ 2 & 7 \end{pmatrix}$  C = $\begin{pmatrix} p & -3 \\ 4 & 1 \end{pmatrix}$  BC = $\begin{pmatrix} -10 & 8 \\ 32 & 1 \end{pmatrix}$
+
+Calculate the value of p
+
+p =
 
 
 **Mark scheme answer**
 
-> −3 p − 4 = −10 or 2 p + 28 = 32 2 M1 A correct equation or ⎛⎜ −3 p − 4 ⎞
-> ⎟
-> ⎝ 2 p + 28 ⎠
+> −3 p − 4 = −10 or 2 p + 28 = 32 2 M1 A correct equation or −3 p − 4 2 p + 28 
 > 2 A1
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(2)** −3 p − 4 = −10 or 2 p + 28 = 32 2 M1 A correct equation or ⎛⎜ −3 p − 4 ⎞
+- **(2)** −3 p − 4 = −10 or 2 p + 28 = 32 2 M1 A correct equation or −3 p − 4 2 p + 28 
 
 
 ## Question 18 (4 marks)
@@ -540,9 +517,12 @@ A Diagram NOT accurately drawn B 75° O C OABC is a sector of a circle, centre O
 
 ### 18 [4]
 
-A Diagram NOT accurately drawn B 75° O C OABC is a sector of a circle, centre O, with ∠AOC = 75° The arc length ABC = 54 cm. Calculate the area, in cm2 to 2 significant figures, of the sector cm2
+OABC is a sector of a circle, centre O, with ∠AOC = 75° The arc length ABC = 54 cm. Calculate the area, in cm² to 2 significant figures, of the sector cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, O, C · Figure values: 75°.
+
+![diagram — official paper figure (qp.pdf p.13)](assets/asset_18_diagram.png)
 
 
 **Mark scheme answer**
@@ -566,7 +546,6 @@ A Diagram NOT accurately drawn B 75° O C OABC is a sector of a circle, centre O
 > 1100 A1 awrt 1100 (1113.83…)
 > If an answer is given in the range in the working
 > and then rounded incorrectly award full marks
-> cas Total 4 marks
 > Q Working Answer Mark Notes
 
 - **(4)** 75 4 M1 For a correct equation with one unknown
@@ -578,7 +557,9 @@ The diagram shows two mathematically similar solids, A and B Diagram NOT accurat
 
 ### 19 [4]
 
-The diagram shows two mathematically similar solids, A and B Diagram NOT accurately drawn A B The volume of solid B is 43% less than the volume of solid A The total surface area of solid A is 700 cm2 Work out the total surface area, in cm2 to 3 significant figures, of solid B cm2
+The diagram shows two mathematically similar solids, A and B Diagram NOT accurately drawn A B The volume of solid B is 43% less than the volume of solid A The total surface area of solid A is 700 cm² Work out the total surface area, in cm² to 3 significant figures, of solid B cm²
+
+![diagram — official paper figure (qp.pdf p.15)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-11/4MB1-01/assets/asset_19_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.15)](assets/asset_19_diagram.png)
 
@@ -603,13 +584,13 @@ The diagram shows two mathematically similar solids, A and B Diagram NOT accurat
 > 100 / 43 [ = 1.324(8...) ] or (100 / 43) [ = 5.408...]
 > 3
 > ⎛ 100 ⎞
-> ("0.829") [ = 0.687] or 3 "0.3249" [ = 0.687...] oe M1 Correct method to find an area SF from a ⎜⎜ 3 ⎟⎟ or
+> ("0.829") [ = 0.687] or 3 "0.3249" [ = 0.687...] oe M1 Correct method to find an area SF from a 3 or
 > volume SF when Volume SF is 0.57 or 0.43 ⎝ 57 ⎠
 > or
 > ⎛ 100 ⎞
 > ("1.206") [ = 1.454(6...)] or "3.077..." [ = 1.454(6...)] oe
 > If Volume SF = 0.43
-> ⎜ ⎟ or
+>  or
 > Area SF = ⎝ 57 ⎠
 > ("0.754(7)") or 3 "0.1849 " [ = 0.569(6)] ( 100 )
 > 2
@@ -625,15 +606,13 @@ The diagram shows two mathematically similar solids, A and B Diagram NOT accurat
 > Volume scale factor B to A = 100/57 (=1.75…) oe May be seen in a calculation
 > 700 ⎡⎣ = 10 7 = 26.4(5...) ⎤⎦ or ( 700 ) [ = 18520.(25918)] M1
 > 700 × 3 0.57 [ = 21.9(3...) ] oe M1
-> ⎛
-> ( 700 ) × 0.57 ⎞⎟⎠ [ = 21.9(3...)]
-> eg ⎜ 3 Allow use of 0.43 instead of 0.57
-> ⎝ If Volume SF = 0.43 then 700 × 3 0.43 [ = 19.9(6...) ]
+> 
+> ( 700 ) × 0.57 [ = 21.9(3...)]
+> eg 3 Allow use of 0.43 instead of 0.57
+>  If Volume SF = 0.43 then 700 × 3 0.43 [ = 19.9(6...) ]
 > ("21.9(3...)") 481 A1 awrt 480 to 483
 > If an answer is given in the range in the working and then rounded
 > incorrectly award full marks
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** ( 0.57 ) or
 
@@ -644,9 +623,12 @@ X 4 cm Diagram NOT accurately drawn B 5 cm P C A 2 cm D A, B, C and D are four p
 
 ### 20 [5]
 
-X 4 cm Diagram NOT accurately drawn B 5 cm P C A 2 cm D A, B, C and D are four points on a circle. P is the midpoint of AB APBX is a straight line. DCX is a straight line. BX = 4 cm CX = 5 cm DC = 2 cm ∠PCX = 115° Calculate, in degrees to one decimal place, ∠BPC BPC °
+A, B, C and D are four points on a circle. P is the midpoint of AB APBX is a straight line. DCX is a straight line. BX = 4 cm CX = 5 cm DC = 2 cm ∠PCX = 115° Calculate, in degrees to one decimal place, ∠BPC BPC °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: X, B, P, C, A, D · Figure values: 4, 5, 2.
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -678,8 +660,6 @@ X 4 cm Diagram NOT accurately drawn B 5 cm P C A 2 cm D A, B, C and D are four p
 > 45.3 A1 awrt 45.1 to 45.3
 > If an answer is given in the range in the working
 > and then rounded incorrectly award full marks
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** AX × 4 = 7 × 5 oe or ( AB + 4 ) × 4 = 7 × 5 oe 5 M1 use chord theorem correctly to form a
 
@@ -687,50 +667,42 @@ X 4 cm Diagram NOT accurately drawn B 5 cm P C A 2 cm D A, B, C and D are four p
 ## Question 21 (5 marks)
 ### 21(a) [3]
 
-Express 3 x 2 6 x 9 in the form p ( x + q ) 2 + r where p, q and r are integers to be found.
+Express $3x^2 + 6x - 9$ in the form $p(x + q)^2 + r$ where p, q and r are integers to be found.
 
 
 **Mark scheme answer**
 
-> 3 ( x + 2 x )…… or 3 ( x + 2 x ……) oe
-> 2 2 3 M1 (where …… is any number or no number)
-> 3( x + 1) 2 …… or 3 ⎡( x + 1)2 ……⎤ oe M1 (where …… is any number or no number)
+> $3 ( x^2 + 2 x )$…… or $3 ( x^2 + 2 x ……)$ oe 3 M1 (where …… is any number or no number)
+> $3( x + 1)^2$ …… or 3 ⎡( x + 1)² ……⎤ oe M1 (where …… is any number or no number)
 > ⎣ ⎦
-> 3 ( x + 1) − 12 A1 condone 3 ( x + 1) + ( −12 )
-> 2
+> $3 ( x + 1)^2 - 12$ A1 condone $3 ( x + 1)^2 + ( -12 )$
 > allow p = 3, q = 1, r = –12
 
-- **(3)** 3 ( x + 2 x )…… or 3 ( x + 2 x ……) oe
+- **(3)** $3 ( x^2 + 2 x )$…… or $3 ( x^2 + 2 x ……)$ oe 3 M1 (where …… is any number or no number)
 
 ### 21(b) [2]
 
-Hence, or otherwise, solve the equation 3 x 2 6 x 0 without using a calculator. Show your working clearly.
+Hence, or otherwise, solve the equation $3x^2 + 6x - 9 = 0$ without using a calculator. Show your working clearly.
 
 
 **Mark scheme answer**
 
-> 12 2 M1 if using answer to part a then allow follow
-> ( x + 1) = or ( x + 1)2 = 4 or
-> 3 through of their r and p values provided
-> (3x + 9)(x – 1) or (x + 3)(3x – 3) or (x + 3)(x – 1) oe −r
-> >0
-> p
+> $( x + 1)^2 = \frac{12}{3}$ or $( x + 1)^2 = 4$ or 2 M1 if using answer to part a then allow follow
+> through of their r and p values provided
+> (3x + 9)(x – 1) or (x + 3)(3x – 3) or (x + 3)(x – 1) oe −r/p > 0
 > allow use of formula – no errors and
 > substitution no more simplified than
-> −2 ± 16
-> seen in the working
+> $\frac{-2 \pm \sqrt{16}}{2}$ seen in the working
 > 1, −3 A1 dep on M1 being awarded (allow if the
 > method is seen in the working space for
 > part (a))
-> ALT (a) px2 + 2pqx + pq2 + r M1 for multiplying out p(x + q)2 + r to obtain
-> px2 + 2pqx + pq2 + r oe
+> ALT (a) $px^2 + 2pqx + pq^2 + r$ M1 for multiplying out p(x + q)² + r to obtain
+> $px^2 + 2pqx + pq^2 + r$ oe
 > 2 of: M1 for equating coefficients and making 2
-> p= 3 2pq = 6 oe pq2 + r = – 9 oe correct statements
-> 3 ( x + 1) − 12
-> Total 5 marks
-> Question Working Answer Mark Notes
+> p= 3 2pq = 6 oe $pq^2 + r = - 9$ oe correct statements
+> $3 ( x + 1)^2 - 12$
 
-- **(2)** 12 2 M1 if using answer to part a then allow follow
+- **(2)** $( x + 1)^2 = \frac{12}{3}$ or $( x + 1)^2 = 4$ or 2 M1 if using answer to part a then allow follow
 
 
 ## Question 22 (5 marks)
@@ -777,7 +749,6 @@ Find the least speed, in m/s, of the particle m/s
 > 6⎜t − ⎟ + quadratic
 > ⎝ 3⎠
 > 4.33 A1 allow 13/3 awrt 4.3
-> cas Total 5 marks
 > Q Working Answer Mark Notes
 
 - **(3)** a = 12t − 16 3 M1 for 12t or ± 16 allow if seen in (a) only if
@@ -789,9 +760,12 @@ C Diagram NOT accurately drawn O E 102° 54° A B D In the diagram, A, B, and C 
 
 ### 23 [6]
 
-C Diagram NOT accurately drawn O E 102° 54° A B D In the diagram, A, B, and C are points on a circle, centre O DBE is the tangent to the circle at the point B EBC 54° AOB 102° Find, in degrees, the size of ∠OCA Give reasons for each stage of your working. OCA °
+In the diagram, A, B, and C are points on a circle, centre O DBE is the tangent to the circle at the point B EBC 54° AOB 102° Find, in degrees, the size of ∠OCA Give reasons for each stage of your working. OCA °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, O, E, A, B, D · Figure values: 102°, 54°.
+
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_23_diagram.png)
 
 
 **Mark scheme answer**
@@ -829,7 +803,6 @@ C Diagram NOT accurately drawn O E 102° 54° A B D In the diagram, A, B, and C 
 > Angles on a line add to 180°
 > Alternate segment theorem
 > Angles in a quadrilateral add to 360°
-> cas Total 6 marks
 > Q Working Answer Mark Notes
 
 - **(6)** Finding ∠OBC or ∠OCB eg ALT 1 ALT2 6 M1 We can not mix and match
@@ -841,30 +814,23 @@ A box contains n buttons. The buttons are either red or blue such that number of
 
 ### 24 [6]
 
-A box contains n buttons. The buttons are either red or blue such that number of red buttons : number of blue buttons = 3 : 5 A sample of 2 buttons is taken at random from the bag. Given that the probability of the 2 buttons being the same colour is find the value of n n =
+A box contains n buttons. The buttons are either red or blue such that number of red buttons : number of blue buttons = 3 : 5 A sample of 2 buttons is taken at random from the bag. Given that the probability of the 2 buttons being the same colour is $\frac{10}{19}$, find the value of n
+
+n =
 
 
 **Mark scheme answer**
 
-> 3 5 6 M1 For correct use of ratio to find a correct probability
-> P(1st Red) = or P(1st Blue) =
-> 8 8 for the 1st button or the correct number of red or blue on
+> P(1st Red) = $\frac{3}{8}$ or P(1st Blue) = $\frac{5}{8}$ 6 M1 For correct use of ratio to find a correct probability
+> for the 1st button or the correct number of red or blue on
 > the first selection.
-> 3 3 M1 For finding an algebraic expression for the probability
-> n −1 n −1 of two red or two blue buttons
-> 3 8 3n 8
-> P(both Red) = × oe eg × pn − 1 pn
-> 8 n −1 8n n − 1 Allow p × or p × where 0 < p < 1
-> 5 5 n −1 n
-> n −1 n −1 qn − 1 qn
-> 5 8 5n 8 Allow p × or p ×
-> or P(both Blue) = × oe eg ×
-> 8 n −1 8n n − 1 n −1 n
-> 5 3 where 0 < p < 1 and p+q = 1
-> n −1 n −1
-> 3 8 5 8
-> or P(one of each colour) = × or × oe
-> 8 n −1 8 n −1
+> P(both Red) = $\frac{3}{8}$ × $\frac{\frac{3}{8}n-1}{n-1}$ oe eg $\frac{3n}{8n}$ × $\frac{\frac{3}{8}n-1}{n-1}$
+> or P(both Blue) = $\frac{5}{8}$ × $\frac{\frac{5}{8}n-1}{n-1}$ oe eg $\frac{5n}{8n}$ × $\frac{\frac{5}{8}n-1}{n-1}$
+> or P(one of each colour) = $\frac{3}{8}$ × $\frac{\frac{5}{8}n-1}{n-1}$ or $\frac{5}{8}$ × $\frac{\frac{3}{8}n-1}{n-1}$ oe M1 For finding an algebraic expression for the probability
+> of two red or two blue buttons
+> Allow p × $\frac{pn-1}{n-1}$ or p × $\frac{pn}{n}$ where 0 < p < 1
+> Allow p × $\frac{qn-1}{n-1}$ or p × $\frac{qn}{n}$
+> where 0 < p < 1 and p+q = 1
 > 3 5 M1 implies previous M1 for algebraic expression for
 > n −1 n −1 P(2 red) + Prob(2 Blue) or 2 × P( red) × Prob( Blue)
 > 3 8 5 8
@@ -885,16 +851,14 @@ A box contains n buttons. The buttons are either red or blue such that number of
 > 3 8 n −1 9
 > or 2 × × = oe n −1 n −1
 > 8 n − 1 19 where 0 < p < 1 and p+q = 1
-> 9 25
-> n − 3 + n − 5 = × 8 ( n − 1) or 285n = 288 ( n –1) oe M1 multiplying throughout by n – 1 or n and n – 1 to
-> 8 8 19 remove the denominator to form a correct linear or
-> 3 ⎛3 ⎞ 5 ⎛5 ⎞ 10 3 2 quadratic equation without terms in n on the denominator.
-> n ⎜ n − 1⎟ + n ⎜ n − 1⎟ = n(n − 1) or n = 9n oe
-> 8 ⎝8 ⎠ 8 ⎝8 ⎠ 19 32 Note: if all terms are on one side, condone the missing‘=0’
+> $\frac{9}{8} n - 3 + \frac{25}{8} n - 5 = \frac{10}{19} \times 8 ( n - 1)$ or $285n = 288 ( n - 1)$ oe M1 multiplying throughout by n – 1 or n and n – 1 to
+> remove the denominator to form a correct linear or
+> quadratic equation without terms in n on the denominator.
+> $\frac{3}{8} n\left(\frac{3}{8} n - 1\right) + \frac{5}{8} n\left(\frac{5}{8} n - 1\right) = \frac{10}{19} n(n - 1)$ or $\frac{3}{32} n^2 = 9n$ oe
+> Note: if all terms are on one side, condone the missing‘=0’
 > 96 A1 cao (ie must have discounted n = 0 if found)
 > Note: An answer of 96 with no obvious incorrect working
 > gets all 6 marks
-> Total 6 marks
 > Q Working USING n = 8x Answer Mark Notes
 > P(1st Red) = or P(1st Blue) =
 > 8 8 the 1st button or the correct number of red or blue on the
@@ -924,8 +888,8 @@ A box contains n buttons. The buttons are either red or blue such that number of
 > 8 8 x − 1 19 Allow × + ×
 > t tx − 1 t tx − 1
 > where r < t and s < t and r+s = t
-> 19(34 x2 − 8x) = 10(64 x2 − 8x) or M1 multiplying throughout by 8x – 1 or 8x 2 − x
-> 646 x 2 − 152 x = 640 x 2 − 80 x or 6 x − 72 x[= 0] oe
+> 19(34 x² − 8x) = 10(64 x² − 8x) or M1 multiplying throughout by 8x – 1 or $8x^2 - x$
+> $646 x^2 - 152 x = 640 x^2 - 80 x$ or $6 x^2 - 72 x$[= 0] oe
 > to remove the denominator to form a correct linear or
 > or quadratic equation without terms in x on the denominator.
 > 19(34 x − 8) = 10(64 x − 8) or 646 x − 152 = 640 x − 80 or Note: if all terms are on one side, condone the missing‘=0’
@@ -934,10 +898,9 @@ A box contains n buttons. The buttons are either red or blue such that number of
 > 96 A1 cao (ie must have discounted n = 0 if found)
 > Note: An answer of 96 with no obvious incorrect working
 > gets all 6 marks
-> Total 6 marks
 > Q Working Answer Mark Notes
 
-- **(6)** 3 5 6 M1 For correct use of ratio to find a correct probability
+- **(6)** P(1st Red) = $\frac{3}{8}$ or P(1st Blue) = $\frac{5}{8}$ 6 M1 For correct use of ratio to find a correct probability
 
 
 ## Question 25 (3 marks)
@@ -968,7 +931,6 @@ Make h the subject of p = h
 > 5 −5
 > h= or h = has been seen in the working space
 > p−2 2− p
-> cas Total 3 marks
 > Q Working Answer Mark Notes
 > ( 4 x + 6 ) = ( 6 x + 4 ) + ( 3x ) − 2 × 3x × ( 6 x + 4 ) cos 60
 > 2 2
@@ -982,33 +944,32 @@ B Diagram NOT accurately drawn 60° A C The diagram shows triangle ABC AB 4 x cm
 
 ### 26 [6]
 
-B Diagram NOT accurately drawn 60° A C The diagram shows triangle ABC AB 4 x cm BC 3 x cm AC 6 x cm ACB 60° Find the area, in cm2 to 3 significant figures, of triangle ABC cm2
+The diagram shows triangle ABC
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+AB = (4x + 6) cm  BC = 3x cm  AC = (6x + 4) cm  ∠ACB = 60°
+
+Find the area, in cm² to 3 significant figures, of triangle ABC cm²
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C · Figure values: 60°.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_26_diagram.png)
 
 
 **Mark scheme answer**
 
-> 6 M1 for correct substitution into the cosine rule
+> $(4 x + 6 )^2 = ( 6 x + 4 )^2 + ( 3x )^2 - 2 \times 3x \times ( 6 x + 4 ) \cos 60$ oe 6 M1 for correct substitution into the cosine rule
 > Only condone missing brackets around the 6x+4 and 4x+6 if
-> oe
 > recovered
-> or cos 60 = (
-> 6 x + 4 ) + ( 3x ) − ( 4 x + 6 )
-> 2 2
-> oe Note having sin instead of cos is not considered a misread
-> 2 × 3x × ( 6 x + 4 )
-> 16 x 2 + 48 x + 36 = 36 x 2 + 48 x + 16 + 9 x 2 − 18 x 2 − 12 x M1 Two out of three correct terms in 3TQ or
+> or cos 60 = $\frac{(6 x + 4 )^2 + ( 3x )^2 - ( 4 x + 6 )^2}{2 \times 3x \times ( 6 x + 4 )}$ oe Note having sin instead of cos is not considered a misread
+> $16 x^2 + 48 x + 36 = 36 x^2 + 48 x + 16 + 9 x^2 - 18 x^2 - 12 x$ M1 Two out of three correct terms in 3TQ or
 > or
-> 16 x 2 + 36 = 36 x 2 + 16 + 9 x 2 − 18 x 2 − 12 x Expand brackets in a correct equation.
+> $16 x^2 + 36 = 36 x^2 + 16 + 9 x^2 - 18 x^2 - 12 x$ Expand brackets in a correct equation.
 > or Condone two incorrect or missing terms (likely to be having one or
-> 1 36 x 2 + 48 x + 16 + 9 x 2 − 16 x 2 − 48 x − 36 two signs incorrect on the last two terms eg
-> = oe 16 x 2 + 48 x + 36 = 36 x 2 + 48 x + 16 + 9 x 2 + 18 x 2 + 12 x
-> 2 36 x 2 + 24 x
-> 1 29 x 2 − 20
-> eg =
-> 2 36 x 2 + 24 x
-> 22 x 2 − 24 x − 40[= 0] or 11x 2 − 12 x − 20[ = 0] oe M1 implies previous method marks
+> $\frac{1}{2} = \frac{36 x^2 + 48 x + 16 + 9 x^2 - 16 x^2 - 48 x - 36}{36 x^2 + 24 x}$ oe two signs incorrect on the last two terms eg
+> $16 x^2 + 48 x + 36 = 36 x^2 + 48 x + 16 + 9 x^2 + 18 x^2 + 12 x$
+> eg $\frac{1}{2} = \frac{29 x^2 - 20}{36 x^2 + 24 x}$
+> $22 x^2 - 24 x - 40$[= 0] or $11x^2 - 12 x - 20$[ = 0] oe M1 implies previous method marks
 > Simplifying to get correct 3TQ
 > (11x + 10 )( x − 2 ) [=0] M1 Attempt to solve their three term quadratic, if the quadratic is
 > incorrect the method must be shown.
@@ -1018,22 +979,17 @@ B Diagram NOT accurately drawn 60° A C The diagram shows triangle ABC AB 4 x cm
 > 3x ( 6 x + 4 ) sin 60 M1 indep Correct method to find the area of the triangle may be in
 > oe terms of x or with their x value substituted, ft their value of x.
 > 2 If x ≠ 2 the working must be shown
-> or ( 6 × "2"+ 4 )( 3 × "2") sin 60
-> (4 x + 6) + (3 x) + (6 x + 4) ⎡ 13 x + 10 ⎤
-> s= ⎢⎣ =
+> or $\frac{1}{2}$( 6 × "2"+ 4 )( 3 × "2") sin 60
+> s = $\frac{(4 x + 6) + (3 x) + (6 x + 4)}{2}$ = $\frac{13 x + 10}{2}$ with
 > or
-> 2 ⎥⎦
-> with
-> 2 (4 × "2"+ 6) + (3 × "2") + (6 × "2"+ 4)
-> s= [ = 18] with
-> " s "× (" s "− ( 4 x + 6 ) ) × (" s "− 3 x ) × (" s "− ( 6 x + 4 ) )
-> "18"× ("18"− ( 4 × "2"+ 6 ) ) × ("18"− ( 3 × "2") ) × ("18"− ( 6 × "2"+ 4 ) )
-> 41.6 A1 Condone 24 3 If an answer is given in the range in the
+> s = $\frac{(4 × "2"+ 6) + (3 × "2") + (6 × "2"+ 4)}{2}$ [ = 18] with
+> √(" s "× (" s "− ( 4 x + 6 ) ) × (" s "− 3 x ) × (" s "− ( 6 x + 4 ) ))
+> √("18"× ("18"− ( 4 × "2"+ 6 ) ) × ("18"− ( 3 × "2") ) × ("18"− ( 6 × "2"+ 4 ) ))
+> 41.6 A1 Condone 24√3 If an answer is given in the range in the
 > working and then rounded incorrectly award full marks
-> cas Total 6 marks
 > Q Working Answer Mark Notes
 
-- **(6)** 6 M1 for correct substitution into the cosine rule
+- **(6)** $(4 x + 6 )^2 = ( 6 x + 4 )^2 + ( 3x )^2 - 2 \times 3x \times ( 6 x + 4 ) \cos 60$ oe 6 M1 for correct substitution into the cosine rule
 
 
 ## Question 27 (3 marks)
@@ -1087,27 +1043,27 @@ f ( x) = 12 x3 4x2 25 x 14
 
 ### 28(a) [2]
 
-Use the factor theorem to show that (3x − 4) is not a factor of f(x) g(x) = f(x) − 2
+f(x) = 12x³ − 4x² − 25x + 14
+
+(a) Use the factor theorem to show that (3x − 4) is **not** a factor of f(x)
+
+g(x) = f(x) − 2
 
 
 **Mark scheme answer**
 
-> ⎛4⎞
-> ⎛4⎞ ⎛4⎞
-> 2 2 M1 allow 1.3 or 1.33 for this mark only
-> 12 ⎜ ⎟ − 4 ⎜ ⎟ − 25 ⎜ ⎟ + 14 256 64 100
-> ⎝3⎠ ⎝3⎠ ⎝3⎠ Allow − − + 14 but do not allow 2
-> 9 9
+> 12 $\left(\frac{4}{3}\right)^3$ − 4 $\left(\frac{4}{3}\right)^2$ − 25 $\left(\frac{4}{3}\right)$ + 14 2 M1 allow 1.3 or 1.33 for this mark only
+> Allow $\frac{256}{9}$ − $\frac{64}{9}$ − $\frac{100}{3}$ + 14 but do not allow 2
 > without prior working
-> ⎛4⎞ A1 dep on M1
-> f⎜ ⎟=2≠0
-> ⎝3⎠ Correct evaluation (to 2) and recognition that
+> A1 dep on M1
+> f $\left(\frac{4}{3}\right)$ = 2 ≠ 0
+> Correct evaluation (to 2) and recognition that
 > this is not equal to zero or indicating that they
 > know that for it to be a factor then it should be
 > equal to 0 ie not just for = 2 therefore not a factor
 > Credit can be given for work seen in part (a) if not seen in part (b)
 
-- **(2)** ⎛4⎞
+- **(2)** 12 $\left(\frac{4}{3}\right)^3$ − 4 $\left(\frac{4}{3}\right)^2$ − 25 $\left(\frac{4}{3}\right)$ + 14 2 M1 allow 1.3 or 1.33 for this mark only
 
 ### 28(b) [4]
 
@@ -1116,27 +1072,24 @@ Factorise fully g(x) Show clear algebraic working.
 
 **Mark scheme answer**
 
-> ( 3x − 4 ) ( 4 x 2 ...) 4 M1 for realising 3x – 4 is a factor and getting 4x2
-> Allow ( 2 x − 1) and 6x2 or ( 2 x + 3) and 6x2
+> ( 3x − 4 ) $( 4 x^2 ...)$ 4 M1 for realising 3x – 4 is a factor and getting $4x^2$
+> Allow ( 2 x − 1) and $6x^2$ or ( 2 x + 3) and $6x^2$
 > Division by ( 3 x − 4 ) giving a first term of
-> ⎛ 1⎞
-> 4x 2 Allow ⎜ x − ⎟ and 12x2 etc
-> eg ⎝ 2⎠
+> $4x^2$
+> eg
+> Allow $\left( x - \frac{1}{2} \right)$ and $12x^2$ etc
 > 4/3 12 –4 –25 12 May be seen as part of long division of synthetic
 > 16 16 –12 long division (in which case look for the first
 > 12 –9 0 correct non zero term on the bottom row).
-> Quotient ( 4 x 2 + 4 x − 3) M1 a correct quadratic ( 6 x 2 − 11x + 4 ) or
-> ( 6 x + x − 12) or ( 4 x + 4 x − 3) or
-> 2
-> (12 x + 2 x − 24 ) etc
+> Quotient $( 4 x^2 + 4 x - 3)$ M1 a correct quadratic $( 6 x^2 - 11x + 4 )$ or
+> $( 6 x^2 + x - 12)$ or $( 4 x^2 + 4 x - 3)$ or
+> $(12 x^2 + 2 x - 24 )$ etc
 > ( 2 x + 3)( 2 x − 1) M1 Correct factorisation of their quotient which
 > must be a 3TQ
 > ( 3x − 4 )( 2 x + 3)( 2 x − 1) A1 dep on first 2 method marks
-> Note: ⎛⎜ x − 4 ⎞⎟ ⎛⎜ x + 3 ⎞⎟ ⎛⎜ x − 1 ⎞⎟ scores A0
-> ⎝ 3 ⎠⎝ 2 ⎠⎝ 2⎠
+> Note: $\left( x - \frac{4}{3} \right) \left( x + \frac{3}{2} \right) \left( x - \frac{1}{2} \right)$ scores A0
 > A0 if they go on to solve but A1 if solve and
 > identify correct answer on the answer line
-> Total 6 marks
 
-- **(4)** ( 3x − 4 ) ( 4 x 2 ...) 4 M1 for realising 3x – 4 is a factor and getting 4x2
+- **(4)** ( 3x − 4 ) $( 4 x^2 ...)$ 4 M1 for realising 3x – 4 is a factor and getting $4x^2$
 

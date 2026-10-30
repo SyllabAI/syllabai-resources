@@ -32,11 +32,10 @@ Bronze is made from copper and tin in the ratio of 22 : 3 by weight. Calculate t
 **Mark scheme answer**
 
 > 12.5 ⎛ 12.5 ⎞ 2 M1 a fully correct method that leads to the correct answer
-> × 22 oe eg 12.5 − ⎜ ⎟×3
+> × 22 oe eg 12.5 − ×3
 > 22 + 3 ⎝ 22 + 3 ⎠
 > 11 A1
 > (SCB1 for an answer of 11 000)
-> Total 2 marks
 
 - **(2)** 12.5 ⎛ 12.5 ⎞ 2 M1 a fully correct method that leads to the correct answer
 
@@ -195,7 +194,7 @@ Solve 2(x + 7) = 5x – 6 x = . . . . . . . . . . . . . . . . . . . . . .. . . .
 
 ### 9 [3]
 
-Solve 2(x + 7) = 5x – 6 x =
+Solve 2(x + 7) = 5x – 6 x = ……………Solve 2(x + 7) = 5x – 6 x =
 
 
 **Mark scheme answer**
@@ -306,7 +305,7 @@ Given that x ≠ –4 x2 + 4 x simplify 2x + 8
 
 ### 13 [3]
 
-Given that x ≠ –4 x2 + 4 x simplify 2x + 8
+Given that x ≠ –4 x² + 4 x simplify 2x + 8
 
 
 **Mark scheme answer**
@@ -327,9 +326,12 @@ D C E Diagram NOT accurately drawn A B Using the diagram above, prove that the s
 
 ### 14 [3]
 
-D C E Diagram NOT accurately drawn A B Using the diagram above, prove that the sum of the angles of triangle ABC is the same as the sum of the angles on the straight line DCE Give a reason for each stage of your proof.
+Using the diagram above, prove that the sum of the angles of triangle ABC is the same as the sum of the angles on the straight line DCE Give a reason for each stage of your proof.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: D, C, E, A, B.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -386,28 +388,27 @@ A= ⎜ ⎝ −6 −1⎟⎠
 
 ### 16(a) [2]
 
-Calculate A + 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+A= −6 −1 
+
+Calculate A + 2B 
 
 
 **Mark scheme answer**
 
 > ⎛1 0⎞ 2 B2 ( B1 for a 2 × 2 matrix with 2 or 3 correct entries)
-> ⎜ ⎟
-> ⎝0 1⎠
+>  0 1
 
 - **(2)** ⎛1 0⎞ 2 B2 ( B1 for a 2 × 2 matrix with 2 or 3 correct entries)
 
 ### 16(b) [2]
 
-Calculate AB ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+Calculate AB 
 
 
 **Mark scheme answer**
 
 > ⎛ −9 1 ⎞ 2 B2 (B1 for a 2 × 2 matrix with 2 or 3 correct entries)
-> ⎜ ⎟
-> ⎝ 3 −7 ⎠
-> Total 4 marks
+>  3 −7 
 
 - **(2)** ⎛ −9 1 ⎞ 2 B2 (B1 for a 2 × 2 matrix with 2 or 3 correct entries)
 
@@ -418,9 +419,12 @@ A Diagram NOT accurately drawn O 100° B C OABC is a sector of a circle, centre 
 
 ### 17 [4]
 
-A Diagram NOT accurately drawn O 100° B C OABC is a sector of a circle, centre O, with ∠AOC = 100° The area of the sector is 27 cm2 Calculate the perimeter, in cm to 3 significant figures, of the sector cm
+OABC is a sector of a circle, centre O, with ∠AOC = 100° The area of the sector is 27 cm² Calculate the perimeter, in cm to 3 significant figures, of the sector cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, O, B, C · Figure values: 100°.
+
+![diagram — official paper figure (qp.pdf p.11)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -461,22 +465,20 @@ Given that p = show that =p–1 p Show your working clearly.
 > 2 1 − 5 2(1 − 5) 5 −1 A1 dep on M1 for a correct result from
 > × = = oe and showing p −1 (gaining B1) rationalisation and showing p ‒ 1 in working.
 > 1+ 5 1− 5 −4
-> Alt p −1 = or ⎜⎜ ⎟⎜ 2 ⎟⎟ =
-> ⎟⎜ = working out p2 correctly
+> Alt p −1 = or 2 =
+>  = working out p2 correctly
 > 2 ⎝ 2 ⎠⎝ ⎠ 4
-> ⎡⎛ 1 ⎞⎤
-> ⎢⎜ = p − 1⎟ ⎥ ⇒ 1 = p( p − 1) for a correct rearrangement of = p −1
+>  1 = p − 1 ⇒ 1 = p( p − 1) for a correct rearrangement of = p −1
 > ⎣⎝ p ⎠⎦ M1 p
 > 1+ 5 5 −1 5 −1 A1 dep on M1 for a correct result for multiplying
 > × = = 1 or p(p ‒1) and showing 1 = p(p – 1) in working oe
 > 2 2
 > ⎛ 1+ 5 ⎞ ⎛ 1+ 5 ⎞ 1+ 2 5 + 5 ⎛ 1+ 5 ⎞ 3 + 5 1+ 5
-> ⎜⎜ ⎟⎟ − ⎜⎜ ⎟⎟ = − ⎜⎜ ⎟⎟ = − =1
+>  − = − = − =1
 > ⎝ 2 ⎠ ⎝ 2 ⎠ 4 ⎝ 2 ⎠ 2
 > 3 B1 working out p ‒ 1 correctly or showing a
 > = oe correct equation for (2p ‒1)²
-> 2 ⎝ 1 + 5 ⎟⎠
-> ⎜
+> 2 1 + 5 
 > Alt
 > ( 5 − 1)(1 + 5 ) = 2 × 2 oe 4 p 2 − 4 p + 1 = 5 and p 2 − p − 1 = 0 oe M1 oe rearranging a correct equation or forming
 > a correct quadratic and simplifying
@@ -487,7 +489,6 @@ Given that p = show that =p–1 p Show your working clearly.
 > 1 p
 > p ( p − 1) = 1 so = p − 1 dividing throughout by p
 > p
-> Total 3 marks
 
 - **(3)** 5 −1 −1 + 5 3 Numerical approaches (use of p = 1.618)are not
 
@@ -498,7 +499,9 @@ There are 1000 cm3 of orange juice in a carton. The total surface area of this c
 
 ### 19 [4]
 
-There are 1000 cm3 of orange juice in a carton. The total surface area of this carton is 700 cm2 For a special offer, a new carton is designed. The volume of orange juice in the new carton is 33.1% more than the volume of orange juice in the original carton. The new carton is mathematically similar to the original carton. Calculate the total surface area of the new carton cm2
+There are 1000 cm³ of orange juice in a carton. The total surface area of this carton is 700 cm² For a special offer, a new carton is designed. The volume of orange juice in the new carton is 33.1% more than the volume of orange juice in the original carton. The new carton is mathematically similar to the original carton. Calculate the total surface area of the new carton
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -524,13 +527,11 @@ There are 1000 cm3 of orange juice in a carton. The total surface area of this c
 > eg 700 × "1.1"2 or
 > 2
 > ⎛ 100 ⎞ ⎛ 10 ⎞ 100
-> 700 ÷ ⎜⎜ 3 ⎟⎟ oe eg 700 ÷ ⎜ ⎟ or 700 ÷ or
+> 700 ÷ 3 oe eg 700 ÷ or 700 ÷ or
 > ⎝ 133.1 ⎠ ⎝ 11 ⎠ 121
-> ⎛ 11× 700 ⎞
-> ⎜⎜ ⎟⎟ oe
+>  11× 700 oe
 > ⎝ 10 ⎠
 > 847 A1
-> Total 4 marks
 
 - **(4)** 133.1 4 B1 for a correct SF for the volume of the new
 
@@ -541,17 +542,17 @@ Given that a = ⎜ ⎟ where ½ a½ = 5 ⎝ 2x ⎠ find the exact value of x x =
 
 ### 20 [4]
 
-Given that a = ⎜ ⎟ where ½ a½ = 5 ⎝ 2x ⎠ find the exact value of x x =
+Given that a = where ½ a½ = 5 ⎝ 2x ⎠ find the exact value of x x =
 
 
 **Mark scheme answer**
 
-> ( x − 2)2 + ( 2 x ) 2 = 5 oe or 4 M1 a correct equation for the modulus of the vector (condone lack of
+> ( x − 2)² + ( 2 x ) 2 = 5 oe or 4 M1 a correct equation for the modulus of the vector (condone lack of
 > brackets if meaning is clear)
-> (x – 2)2 + 2x = 5 oe
+> (x – 2)² + 2x = 5 oe
 > x − 4 x + 4 + 2 x = 5 oe or M1 expand brackets correctly and equate to 5
-> eg x2 – 2x – 1 (= 0)
-> − − 2 ± (−2)2 − 4 ×1× −1 M1 for a correct method to solve their 3 term quadratic equation dep on
+> eg x² – 2x – 1 (= 0)
+> − − 2 ± (−2)² − 4 ×1× −1 M1 for a correct method to solve their 3 term quadratic equation dep on
 > ( x =) or 1st M1 (must see substitution if using the wrong equation) (allow some
 > 2 ×1 simplification and one sign error). Allow as far as
 > 2+ 4+4
@@ -560,7 +561,6 @@ Given that a = ⎜ ⎟ where ½ a½ = 5 ⎝ 2x ⎠ find the exact value of x x =
 > A1 oe (but must be in exact form) as the only answer
 > 1+ 2 2+ 8
 > eg accept
-> Total 4 marks
 
 - **(4)** ( x − 2)2 + ( 2 x ) 2 = 5 oe or 4 M1 a correct equation for the modulus of the vector (condone lack of
 
@@ -573,7 +573,9 @@ The diagram shows triangle ABC A C B The region R consists of all the points ins
 
 The diagram shows triangle ABC A C B The region R consists of all the points inside the triangle that are closer to C than to B and also closer to AB than to AC Using ruler and compasses only and showing all your construction lines, construct and show by shading the region R Label the region R
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -621,7 +623,9 @@ Find an equation of the line L
 
 Write down the three inequalities that define the region shaded in the diagram.
 
-> 🖼 crop required: diagram (qp.pdf p.17)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.16)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
@@ -643,9 +647,12 @@ B Diagram NOT accurately drawn 3 cm E A C D ABCD is a kite so that the points A,
 
 ### 23 [5]
 
-B Diagram NOT accurately drawn 3 cm E A C D ABCD is a kite so that the points A, B, C and D lie on a circle with radius 7.5 cm. The diagonals, AC and BD, of the kite intersect at point E, so that AE = 3 cm. The line AEC is a diameter of the circle. Find the area of the kite ABCD cm2
+ABCD is a kite so that the points A, B, C and D lie on a circle with radius 7.5 cm. The diagonals, AC and BD, of the kite intersect at point E, so that AE = 3 cm. The line AEC is a diameter of the circle. Find the area of the kite ABCD cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, E, A, C, D · Figure values: 3.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_23_diagram.png)
 
 
 **Mark scheme answer**
@@ -673,7 +680,9 @@ In a triangle ABC AC = 6.5 cm BC = 12 cm ∠ABC = 30° Calculate, in cm2 to 3 si
 
 ### 24 [6]
 
-In a triangle ABC AC = 6.5 cm BC = 12 cm ∠ABC = 30° Calculate, in cm2 to 3 significant figures, the smaller of the areas of the two possible triangles ABC cm2
+In a triangle ABC AC = 6.5 cm BC = 12 cm ∠ABC = 30° Calculate, in cm² to 3 significant figures, the smaller of the areas of the two possible triangles ABC
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -681,14 +690,14 @@ In a triangle ABC AC = 6.5 cm BC = 12 cm ∠ABC = 30° Calculate, in cm2 to 3 si
 > sin A sin 30 CN = 12sin 30 (= 6) where CN is 6 M1
 > = oe
 > 12 6.5 perpendicular to AB
-> 12sin 30 BN = 122 − "6"2 (6 3 = 10.39...) M1 dep assumes previous mark unless
+> 12sin 30 BN = $12^2$ − "6"$^2$ (6 3 = 10.39...) M1 dep assumes previous mark unless
 > sin A =
 > 6.5 they use BN = 12cos30
 > 12sin 30
 > BN = or BN=12cos 30
 > tan 30
-> ⎛ 12sin 30 ⎞ AN = 6.52 − (12sin 30)2 (=2.5) M1
-> A = sin −1 ⎜ ⎟ (= 67.3(8...))
+> ⎛ 12sin 30 ⎞ AN = $6.5^2$ − (12sin 30)² (=2.5) M1
+> A = sin$^{-1}$ (= 67.3(8...))
 > ⎝ 6.5 ⎠
 > 180 ‒ 30 ‒ (180 ‒ "67.38..")(= 37.38) or Smallest AB = “10.39…” ‒ “2.5” (= 7.89) M1 method to find correct angle or
 > 1 or correct side for smallest area.
@@ -706,8 +715,8 @@ In a triangle ABC AC = 6.5 cm BC = 12 cm ∠ABC = 30° Calculate, in cm2 to 3 si
 > × × 6.5 × sin"112.6"
 > 2 sin 30
 > 2 2
-> Alt 6.5 = AB + 12 – 2 × AB × 12 × cos 30 6 M1 AB may be labelled in any way – eg c
-> AB2 – 12ξ3AB + 101.75 (= 0) M1
+> Alt $6.5^2$ = $AB^2$ + $12^2$ – 2 × AB × 12 × cos 30 6 M1 AB may be labelled in any way – eg c
+> $AB^2$ – 12ξ3AB + 101.75 (= 0) M1
 > M1 ft their quadratic dep on 1st M1
 > (12 3 ) − 4 ×1×101.75 (allow as far as 12 3 ± 432 − 407 )
 > 12 3 ± allow some simplification and 1 sign
@@ -722,7 +731,6 @@ In a triangle ABC AC = 6.5 cm BC = 12 cm ∠ABC = 30° Calculate, in cm2 to 3 si
 > × 12 × "7.89" × sin 30
 > 2
 > 23.7 A1(allow awrt 23.5 to 23.7)
-> Total 6 marks
 
 - **(6)** sin A sin 30 CN = 12sin 30 (= 6) where CN is 6 M1
 
@@ -771,14 +779,13 @@ Find the possible values of n Show clear algebraic working.
 > or If using formula must see substitution of values, allow one sign error and
 > 2
 > ⎛ 25 ⎞ ⎛ 25 ⎞ 25 ± 625 − 400
-> ⎜ n − ⎟ − ⎜ ⎟ + 100 = 0 oe some simplification – allow as far as and if
+> ⎜ n − ⎟ − + 100 = 0 oe some simplification – allow as far as and if
 > ⎝ 2 ⎠ ⎝ 2 ⎠
 > completing the square allow as far as shown.
 > A correct answer will score full marks A1 dep on M2
 > 5 and 20
 > as long as the student has gained at
 > least 2 method marks
-> Total 7 marks
 
 - **(6)** n 25 – n
 
@@ -804,21 +811,21 @@ Using the factor theorem, show that (2x – 1) is not a factor of f(x) f ( x)
 
 ### 26(b) [3]
 
-Express in the form (x + a)2 + b 2x + 1 where a and b are integers to be found.
+Express in the form (x + a)² + b 2x + 1 where a and b are integers to be found.
 
 
 **Mark scheme answer**
 
 > 2 terms of x + 4 x − 9 correct (out of no
-> 3 B1 for correctly getting 2 terms out of x2, +4x, –9 (out of
+> 3 B1 for correctly getting 2 terms out of x², +4x, –9 (out of
 > more than 3 terms) no more than 3 terms) or
-> or if equating coefficients, for two of: the x2 or the terms in x
-> 2 x3 + 4ax 2 + 2a 2 x + 2 xb + x 2 + 2ax + a 2 + b or the constant terms correct
-> (x + 2)2 [+ b] M1ft a method to start to complete the square with correct
-> Or coefficient for a ft their quadratic eg (x + 2)2
+> or if equating coefficients, for two of: the x² or the terms in x
+> 2 x³ + 4ax 2 + 2a 2 x + 2 xb + x 2 + 2ax + a 2 + b or the constant terms correct
+> (x + 2)² [+ b] M1ft a method to start to complete the square with correct
+> Or coefficient for a ft their quadratic eg (x + 2)²
 > 4a + 1 = 9 and 2a2 + 2b + 2a = ‒14 or two correct equations from equating coefficients
 > A1 (could state that a = 2 and b = ‒13)
-> (x + 2)2 – 13
+> (x + 2)² – 13
 
 - **(3)** 2 terms of x + 4 x − 9 correct (out of no
 

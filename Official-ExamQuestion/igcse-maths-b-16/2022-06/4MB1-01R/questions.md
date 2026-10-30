@@ -14,7 +14,6 @@ Calculate the value of 12.3 − 9.91 Give your answer as a decimal to 5 signific
 **Mark scheme answer**
 
 > 1.2092 1 B0 for 1.20920 or 1.20921
-> Total 1 mark
 
 - **(1)** 1.2092 1 B0 for 1.20920 or 1.20921
 
@@ -52,9 +51,12 @@ N Diagram NOT accurately drawn 133° A N x° C B The diagram shows the position 
 
 ### 3 [2]
 
-N Diagram NOT accurately drawn 133° A N x° C B The diagram shows the position of two ports, A and B, and the position of a ship C The bearing of port B from port A is 133° Given that C is due west of B calculate the value of x x =
+x° C B The diagram shows the position of two ports, A and B, and the position of a ship C The bearing of port B from port A is 133° Given that C is due west of B calculate the value of x x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: N, A, N · Figure values: 133°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_3_diagram.png)
 
 
 **Mark scheme answer**
@@ -83,8 +85,7 @@ Without using a calculator and showing all your working, calculate 7 5 2 ×3 10 
 > 10 9 10 9
 > marks
 > 7 5 7 5
-> 2×3 + ×3 + × 2 + ×
-> 10 9 10 9
+> 2×3 + ×3 + × 2 + ×10⁹ 10 9
 > 864 48 3 32 16 48 3 3 2 A1 dependent on M1 – must see at least one
 > = = 9 or 3 × = 3 × = =9
 > 90 5 5 10 5 5 5 5 27 32
@@ -92,7 +93,6 @@ Without using a calculator and showing all your working, calculate 7 5 2 ×3 10 
 > 10 9
 > answer – all stages of simplification if shown need
 > to be correct. No equivalent answers allowed
-> Total 2 marks
 
 - **(2)** 7 5 27 32 M1 correct improper fractions or clear alternative
 
@@ -151,7 +151,7 @@ Here is a list of six numbers. 20 4π 24 5 18 −3 5 9π 42 2 3 Write down the t
 
 ### 7 [2]
 
-Here is a list of six numbers. 20 4π 24 5 18 −3 5 9π 42 2 3 Write down the two numbers in the list that are natural numbers ,
+Here is a list of six numbers. 20 4π 24 5 18 −3 5 9π 42 2 3 Write down the two numbers in the list that are natural numbers …………… , ……………
 
 
 **Mark scheme answer**
@@ -173,7 +173,9 @@ cm Diagram NOT accurately drawn 10 cm The diagram shows a right circular solid c
 
 ### 8 [2]
 
-cm Diagram NOT accurately drawn 10 cm The diagram shows a right circular solid cylinder of diameter 8 cm and height 10 cm. Calculate, to the nearest cm3, the volume of the cylinder cm3
+cm Diagram NOT accurately drawn 10 cm The diagram shows a right circular solid cylinder of diameter 8 cm and height 10 cm. Calculate, to the nearest cm³, the volume of the cylinder cm³
+
+![diagram — official paper figure (qp.pdf p.5) (same figure as asset_8_q_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-01R/assets/asset_8_q_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.5) — shared with asset_8_q_diagram_stem](assets/asset_8_q_diagram_stem.png)
 
@@ -310,7 +312,9 @@ The diagram shows a trapezium. (2x – 1) cm Diagram NOT accurately drawn 4 cm (
 
 ### 13 [3]
 
-The diagram shows a trapezium. (2x – 1) cm Diagram NOT accurately drawn 4 cm (3x + 2) cm The lengths of the parallel sides of the trapezium are (3x + 2) cm and (2x – 1) cm. The height of the trapezium is 4 cm. Given that the area of the trapezium is 28 cm2 find the value of x x =
+The diagram shows a trapezium. (2x – 1) cm Diagram NOT accurately drawn 4 cm (3x + 2) cm The lengths of the parallel sides of the trapezium are (3x + 2) cm and (2x – 1) cm. The height of the trapezium is 4 cm. Given that the area of the trapezium is 28 cm² find the value of x x =
+
+![diagram — official paper figure (qp.pdf p.7) (same figure as asset_13_q_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-01R/assets/asset_13_q_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.7) — shared with asset_13_q_diagram_stem](assets/asset_13_q_diagram_stem.png)
 
@@ -338,9 +342,12 @@ B A C The diagram shows a farmer’s field that is in the shape of a ΔABC The f
 
 ### 14 [3]
 
-B A C The diagram shows a farmer’s field that is in the shape of a ΔABC The farmer is going to grow carrots in the region of the field which is • nearer to A than to B and • nearer to AB than to AC Using ruler and compasses only and showing all your construction lines, construct the region T inside the field in which the farmer is going to grow his carrots. Shade the region and label it T
+The diagram shows a farmer’s field that is in the shape of a ΔABC The farmer is going to grow carrots in the region of the field which is • nearer to A than to B and • nearer to AB than to AC Using ruler and compasses only and showing all your construction lines, construct the region T inside the field in which the farmer is going to grow his carrots. Shade the region and label it T
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram.*
+> Labels in the original figure: B, A, C.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
@@ -372,7 +379,9 @@ y y–x=2 Diagram NOT accurately drawn R O x 3x + y = 15 The diagram shows part 
 
 y y–x=2 Diagram NOT accurately drawn R O x 3x + y = 15 The diagram shows part of the shaded infinite region R which has three straight boundary lines. Write down the three inequalities that define the shaded region R
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_15_diagram.png)
 
 
 **Mark scheme answer**
@@ -393,9 +402,12 @@ B Diagram NOT accurately drawn A C D F E The diagram shows the square ACEF and t
 
 ### 16 [3]
 
-B Diagram NOT accurately drawn A C D F E The diagram shows the square ACEF and the equilateral triangles ABC and CDE Prove that ΔECB is congruent to ΔACD
+The diagram shows the square ACEF and the equilateral triangles ABC and CDE Prove that ΔECB is congruent to ΔACD
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C, D, F, E.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -431,31 +443,27 @@ Without using a calculator and showing all your working, express 4−2 3 3 +1 in
 **Mark scheme answer**
 
 > 4 − 2 3 ⎛ 4 − 2 3 ⎞⎛ 3 − 1 ⎞ M1 for multiplying numerator and denominator
-> =⎜ ⎟⎜ ⎟⎟ by 3 − 1 or 1 − 3
-> 3 + 1 ⎜⎝ 3 + 1 ⎟⎜
-> ⎠⎝ 3 − 1 ⎠
+> = by 3 − 1 or 1 − 3
+> 3 + 1 3 + 1 3 − 1 
 > 4 3 −4−6+2 3 4 3 −4−6+2 3 M1dep for expanding numerator (2, 3 or 4
 > or terms) and denominator (2 or 4 terms) –
 > 3 −1 ( 3) 2 − 12
 > condone one error only when multiplying out
 > both numerator and denominator
 > 3 3 −5 3 A1 final answer (dependent on both M marks)
-> Total 3 marks
 > 4−2 3
 > No marks for = 3 3 −5
 > 3 +1
 > M1 only for
-> ⎛ 4 − 2 3 ⎞⎛ 3 − 1 ⎞
-> ⎜⎜ ⎟⎜
-> ⎟⎜ ⎟⎟ = −5 + 3 3
+> ⎛ 4 − 2 3 ⎞⎛ 3 − 1 = −5 + 3 3
 > ⎝ 3 + 1 ⎠⎝ 3 − 1 ⎠
 > M1 only for
 > ⎛ 4 − 2 3 ⎞ ⎛ 3 − 1 ⎞ −10 + 6 3
-> ⎜⎜ ⎟⎟ ⎜⎜ ⎟⎟ = (= −5 + 3 3)
+>  = (= −5 + 3 3)
 > ⎝ 3 + 1 ⎠ ⎝ 3 −1 ⎠
 > SC B2 for
 > ⎛ 4 − 2 3 ⎞ ⎛ 3 −1 ⎞ 4 3 − 4 − 6 + 2 3
-> ⎜⎜ ⎟⎟ ⎜⎜ ⎟⎟ =
+>  =
 > ⎝ 3 + 1 ⎠ ⎝ 3 −1 ⎠
 > regardless of subsequent working
 
@@ -468,9 +476,12 @@ Diagram NOT accurately drawn O S R 118° P Q In the diagram, P, Q and R are poin
 
 ### 18 [4]
 
-Diagram NOT accurately drawn O S R 118° P Q In the diagram, P, Q and R are points on a circle with centre O PRS is a straight line and ∠QRS = 118° Calculate, in degrees, the size of ∠OQP Give reasons for each stage of your working. ∠OQP = °
+In the diagram, P, Q and R are points on a circle with centre O PRS is a straight line and ∠QRS = 118° Calculate, in degrees, the size of ∠OQP Give reasons for each stage of your working. ∠OQP = °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: O, S, R, P, Q · Figure values: 118°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_18_diagram.png)
 
 
 **Mark scheme answer**
@@ -505,9 +516,12 @@ C Diagram NOT accurately drawn 6m B 24° O D A In the diagram A, B and C are poi
 
 ### 19 [4]
 
-C Diagram NOT accurately drawn 6m B 24° O D A In the diagram A, B and C are points on a circle with centre O and radius 6 m. AD and CD are tangents to the circle. OBD is a straight line such that ∠ODC = 24° Calculate the perimeter, in m to 3 significant figures, of the shaded region m
+6m B 24° O D A In the diagram A, B and C are points on a circle with centre O and radius 6 m. AD and CD are tangents to the circle. OBD is a straight line such that ∠ODC = 24° Calculate the perimeter, in m to 3 significant figures, of the shaded region m
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_19_diagram.png)
 
 
 **Mark scheme answer**
@@ -518,18 +532,17 @@ C Diagram NOT accurately drawn 6m B 24° O D A In the diagram A, B and C are poi
 > 6 complete correct method for CD or AD (eg by
 > or CD or AD = or CD or AD = 6 tan 66
 > tan 24
-> Pythagoras eg AD/ CD 62 ) (For
+> Pythagoras eg AD/ CD $6^2$ ) (For
 > sin 24
 > reference: CD (= AD) = 13.4762…)
 > ⎛ 132 ⎞ ⎛ 22 ⎞ ⎛ 66 ⎞
-> Arc ABC = ⎜ ⎟ × 2π ( 6 ) ⎜ = π ⎟ M1 or for arc AB or BC = ⎜ ⎟ × 2π ( 6 ) (For
+> Arc ABC = × 2π ( 6 ) ⎜ = π ⎟ M1 or for arc AB or BC = × 2π ( 6 ) (For
 > ⎝ 360 ⎠ ⎝ 5 ⎠ ⎝ 360 ⎠
 > reference: Arc ABC = 13.823…)
 > ⎛ 6 ⎞ 11 M1dep (on both previous M marks)
-> 2⎜ ⎟ + (12π )
+> 2 + (12π )
 > ⎝ tan 24 ⎠ 30
 > 40.8 4 A1 for awrt 40.8 (for reference: 40.775448…)
-> Total 4 marks
 
 - **(4)** 6 CD or AD
 
@@ -581,14 +594,15 @@ The points A and B are such that the coordinates of A are (3, –2) and BA = ⎜
 
 ### 21(a) [2]
 
-Find the coordinates of point B ( , ) The point C has coordinates (m, n) where m > 3 → Given that ½ AC ½ = 5
+The points A and B are such that the coordinates of A are (3, –2) and BA = 4
+
+Find the coordinates of point B ( …………… , …………… ) The point C has coordinates (m, n) where m > 3 → Given that ½ AC ½ = 5
 
 
 **Mark scheme answer**
 
 > ⎛ 3⎞ ⎛1⎞ M1 (oe) or for one correct coordinate or for
-> OB = ⎜ ⎟ + ⎜ ⎟
-> ⎝ −2 ⎠ ⎝ −4 ⎠ ( −4, 6 )
+> OB = + −2 ⎠ ⎝ −4 ⎠ ( −4, 6 )
 > ( 4, −6 ) 2 A1
 
 - **(2)** ⎛ 3⎞ ⎛1⎞ M1 (oe) or for one correct coordinate or for
@@ -601,10 +615,9 @@ find an expression for m in terms of n m =
 **Mark scheme answer**
 
 > ⎛ m − 3⎞ 2 M1 for obtaining a correct expression for AC
-> ⎟ ⇒ AC = ( m − 3) + ( n + 2 )
+>  ⇒ AC = ( m − 3) + ( n + 2 )
 > 2
-> AC = ⎜
-> ⎝n+2⎠ or AC condone finding CA for AC for all
+> AC = n+2 or AC condone finding CA for AC for all
 > ( m − 3) + ( n + 2 )
 > 2
 > or AC =
@@ -618,9 +631,9 @@ find an expression for m in terms of n m =
 > or
 > expanding ( n + 2 ) or ( −2 − n ) . Taking only
 > 2
-> m2 6m n2 4n 12 0 the positive square root is fine.
+> m² 6m n2 4n 12 0 the positive square root is fine.
 > Or for expanding which leads to a 3-term
-> ( 6) ( 6)2 4(1)(n 2 4n 12) quadratic in m with a quadratic constant term in
+> ( 6) ( 6)² 4(1)(n 2 4n 12) quadratic in m with a quadratic constant term in
 > m
 > 2 n (so five terms in total) and then correct use of
 > the quadratic formula by substituting values in
@@ -635,7 +648,6 @@ find an expression for m in terms of n m =
 > If using quadratic formula, then most likely to
 > 6 84 16n 4n 2
 > see m ISW once seen
-> Total 5 marks
 
 - **(3)** ⎛ m − 3⎞ 2 M1 for obtaining a correct expression for AC
 
@@ -646,27 +658,29 @@ G H Diagram NOT accurately drawn F E cm 3 − 8x B C 18 x cm A 3 cm D 1 − 2x T
 
 ### 22(a) [5]
 
+G H Diagram NOT accurately drawn F E cm³ − 8x B C 18 x cm A 3 cm D 1 − 2x The diagram shows cuboid ABCDEFGH in which 18 x 6 AD = 3 cm DC = cm AH = cm 1 − 2x 3 − 8x where 0 < x < k Given that the length of CH is L cm, where L = and k is a positive integer, (3 − 8 x)(1 − 2 x)
+
 find the value of k Show your working clearly. k = Given that x = 0.3
 
 
 **Mark scheme answer**
 
 > 18 x M1 for a correct use of Pythagoras involving AC oe
-> AD 2 + CD 2 = AC 2 ⇒ AC 2 = 9 + 9
-> 1 − 2x eg may see AC 2 or AC etc. –
+> $AD^2$ + $CD^2$ = $AC^2$ ⇒ $AC^2$ = 9 + 9
+> 1 − 2x eg may see $AC^2$ or AC etc. –
 > ⎛ 18 x ⎞
 > 2 1 2x 1 2x
-> oe eg AC 2 = 32 + ⎜⎜ ⎟⎟ need not be simplified
+> oe eg $AC^2$ = $3^2$ + need not be simplified
 > ⎝ 1− 2x ⎠
 > 18 x 36 9 36 M1 for obtaining an expression/equation for
-> eg L2 + 9 + = or L2 + = or
-> 1 − 2 x 3 − 8x 1 − 2 x 3 − 8x L (CH) or L2 from a correct second application of
+> eg $L^2$ + 9 + = or $L^2$ + = or
+> 1 − 2 x 3 − 8x 1 − 2 x 3 − 8x L (CH) or $L^2$ from a correct second application of
 > 36 18 x 36 9 Pythagoras (dependent on first M mark)
-> ( L2 =) −9− or ( L2 =) −
+> ( $L^2$ =) −9− or ( $L^2$ =) −
 > 3 − 8x 1− 2x 3 − 8x 1 − 2 x
 > eg M1 for the correct method of obtaining a single
-> ( L2 = ) 3 −368 x − 1 −92 x = (( 3 − 8 x))(1 −( 2 x ) )
-> 36 1 − 2 x − 9 3 − 8 x (unsimplified) fraction for L / CH or L2
+> ( $L^2$ = ) 3 −368 x − 1 −92 x = (( 3 − 8 x))(1 −( 2 x ) )
+> 36 1 − 2 x − 9 3 − 8 x (unsimplified) fraction for L / CH or $L^2$
 > (dependent on first two M marks) oe eg
 > ( L = ) 3 −368x − 9 − 118
 > 2 x
@@ -681,9 +695,9 @@ find the value of k Show your working clearly. k = Given that x = 0.3
 > allow one slip (dependent on all previous M marks)
 > – this mark can be implied by a correct final answer
 > 36 − 72 x − 27 + 72 x
-> Or ( L2 = )
+> Or ( $L^2$ = )
 > ( 3 − 8 x )(1 − 2 x ) (
-> or for getting to L2 = ) ( 3 − 8x )(9 1 − 2 x ) or
+> or for getting to $L^2$ = ) ( 3 − 8x )(9 1 − 2 x ) or
 > ( L =) provided previous M
 > ( 3 − 8 x )(1 − 2 x )
 > mark awarded
@@ -693,22 +707,22 @@ find the value of k Show your working clearly. k = Given that x = 0.3
 > ( 3 − 8x )(1 − 2 x )
 > ALTERNATIVE
 > 18 x M1 for a correct use of Pythagoras involving AC
-> AD 2 + CD 2 = AC 2 ⇒ AC 2 = 9 + (possibly implied by next M mark) or equivalent
+> $AD^2$ + $CD^2$ = $AC^2$ ⇒ $AC^2$ = 9 + (possibly implied by next M mark) or equivalent
 > 1 − 2x
-> eg AC 2
+> eg $AC^2$
 > 1 2x
-> AH 2 AD 2 DC 2 L2 M1 for a correct second application of Pythagoras -
-> obtaining an expression/equation for k or k 2
-> 36 18 x k2
+> $AH^2$ $AD^2$ $DC^2$ $L^2$ M1 for a correct second application of Pythagoras -
+> obtaining an expression/equation for k or $k^2$
+> 36 18 x $k^2$
 > 9 (dependent on first M mark)
 > 3 8x 1 2x 3 8x 1 2 x
-> 36 9 k2
+> 36 9 $k^2$
 > Or
 > 3 8x 1 2x 3 8x 1 2 x
-> 36 1 2 x 9 3 8x 1 2 x 18 x 3 8 x k2 M1 for correctly removing all fractions (dependent
+> 36 1 2 x 9 3 8x 1 2 x 18 x 3 8 x $k^2$ M1 for correctly removing all fractions (dependent
 > on first two M marks)
-> or 36 1 2 x 9 3 8x k2
-> k2 36 72 x 27 126 x 144 x 2 (54 x 144 x 2 ) 9 M1 for expanding and attempt to simplify
+> or 36 1 2 x 9 3 8x $k^2$
+> $k^2$ 36 72 x 27 126 x $144x^2$ (54 x $144x^2$ ) 9 M1 for expanding and attempt to simplify
 > (dependent on all previous M marks) – allow one
 > or k 36 72 x 27 72 x slip
 > 3 5 A1 (dependent on all previous M marks) – not for
@@ -718,19 +732,20 @@ find the value of k Show your working clearly. k = Given that x = 0.3
 
 ### 22(b) [2]
 
-calculate the volume, in cm3, of the cuboid cm3
+calculate the volume, in cm³, of the cuboid
+
+…………… cm³
 
 
 **Mark scheme answer**
 
 > ⎛ 18 x ⎞ ⎛ ⎞ M1 for a correct expression for the volume (allow
 > k
-> Volume = ( 3) ⎜⎜ ⎟⎟ ⎜ ⎟ with or without x = 0.3 substituted). Allow if the
-> ⎝ 1 − 2 x ⎠ ⎜⎝ ( 3 − 8 x )(1 − 2 x ) ⎟⎠ expression for CH is still in terms of k or their
+> Volume = ( 3) with or without x = 0.3 substituted). Allow if the
+>  1 − 2 x ( 3 − 8 x )(1 − 2 x ) expression for CH is still in terms of k or their
 > incorrect k
 > 67.5 2 135
 > A1 final answer of 67.5 only (oe eg )
-> Total 7 marks
 
 - **(2)** ⎛ 18 x ⎞ ⎛ ⎞ M1 for a correct expression for the volume (allow
 
@@ -781,13 +796,15 @@ A=⎜ B=⎜ ⎝ −3 4⎟⎠ ⎝ 2 2⎟⎠ Find
 
 ### 24(a) [2]
 
-A – B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+A= B= −3 4 2 2 Find
+
+A – B 
 
 
 **Mark scheme answer**
 
 > ⎛ −5 −1⎞ 2 B2
-> ⎜ ⎟ or B1 for a 2 × 2 matrix with 2 or 3 correct
+>  or B1 for a 2 × 2 matrix with 2 or 3 correct
 > ⎝ −5 2 ⎠ entries. Check carefully for transcription errors
 > but do not condone misreading operators
 
@@ -795,13 +812,13 @@ A – B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
 
 ### 24(b) [2]
 
-3A + 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠ The matrix C is such that A = BC
+3A + 2B The matrix C is such that A = BC
 
 
 **Mark scheme answer**
 
 > ⎛0 7⎞ 2 B2
-> ⎜ ⎟ or B1 for a 2 × 2 matrix with 2 or 3 correct
+>  or B1 for a 2 × 2 matrix with 2 or 3 correct
 > ⎝ −5 16 ⎠ entries. Check carefully for transcription errors
 > but do not condone misreading operators
 
@@ -809,34 +826,28 @@ A – B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
 
 ### 24(c) [4]
 
-Find C ⎛ ⎞ ⎜ ⎟ C= ⎜ ⎟ ⎜ ⎟ ⎜⎝ ⎟⎠
+Find C C= 
 
 
 **Mark scheme answer**
 
 > 1 ⎛ 2 −2 ⎞ B2
-> B −1 = ⎜ ⎟ or B1 for correct determinant or B1 for
+> B −1 = or B1 for correct determinant or B1 for
 > 6 − 4 ⎝ −2 3 ⎠
 > ⎛ 2 −2 ⎞
-> k⎜ ⎟ where k is non-zero
+> k where k is non-zero
 > ⎝ −2 3 ⎠
 > 1 ⎛ 2 −2 ⎞⎛ −2 1 ⎞ M1 for the correct intention of matrix multiplication
-> C = B −1A = ⎜ ⎟⎜ ⎟ of their inverse of B with A in the correct order (but
+> C = B −1A = of their inverse of B with A in the correct order (but
 > 2 ⎝ −2 3 ⎠⎝ −3 4 ⎠ they do not need to attempt the multiplication)
-> ⎛ 1 −3 ⎞ 4 1 ⎛ 2 −6 ⎞
-> ⎜ ⎟ A1 (oe) eg ⎜ ⎟ - a correct answer with
+> ⎛ 1 −3 ⎞ 4 1 ⎛ 2 −6 A1 (oe) eg - a correct answer with
 > ⎝ −2.5 5 ⎠ 2 ⎝ −5 10 ⎠
 > no working scores all 4 marks
-> ⎛ −2 1 ⎞ ⎛ 3 2 ⎞⎛ a b ⎞
-> ⎜ ⎟=⎜ ⎟⎜ ⎟
-> ⎝ −3 4 ⎠ ⎝ 2 2 ⎠⎝ c d ⎠
+> ⎛ −2 1 ⎞ ⎛ 3 2 ⎞⎛ a b = −3 4 ⎠ ⎝ 2 2 ⎠⎝ c d ⎠
 > 3a 2c 2 2 a 2c 3 B2
 > 3b 2d 1 2b 2d 4 or B1 for 2 or 3 correct equations
 > M1 for one correct column of matrix C
-> ⎛ 1 −3 ⎞ 1 ⎛ 2 −6 ⎞
-> ⎜ ⎟ A1 (oe) e.g. ⎜ ⎟
-> ⎝ −2.5 5 ⎠ 2 ⎝ −5 10 ⎠
-> Total 8 marks
+> ⎛ 1 −3 ⎞ 1 ⎛ 2 −6 A1 (oe) e.g. −2.5 5 ⎠ 2 ⎝ −5 10 ⎠
 
 - **(4)** 1 ⎛ 2 −2 ⎞ B2
 
@@ -854,22 +865,22 @@ Find the value of x and the value of y Show your working clearly. x = y = Given 
 
 > 5 y = 15 x ( ⇒ y = 3x ) M1 for correct application of intersecting chord
 > theorem
-> ( 7 x ) = 152 + y 2 − 2 (15)( y ) cos120
+> ( 7 x ) = $15^2$ + $y^2$ − 2 (15)( y ) cos120
 > 2 M1 for correct application of cosine rule (either in
 > terms of x and y or using their result from
 > intersecting chords to get an equation in x or y)
 > Condone a single error in cosine rule
 > eg 7 x = 15 + y − 2 (15 )( y ) cos120
 > 2 2
-> ( 7 x ) = 152 + y 2 + 2 (15)( y ) cos120
-> ( 7 x ) = 152 + y − 2 (15)( y ) cos120
-> 49 x 2 = 225 + 9 x 2 + 45 x M1dep (on both previous M marks) – substituting
+> ( 7 x ) = $15^2$ + $y^2$ + 2 (15)( y ) cos120
+> ( 7 x ) = $15^2$ + y − 2 (15)( y ) cos120
+> $49x^2$ = 225 + $9x^2$ + 45 x M1dep (on both previous M marks) – substituting
 > to obtain an equation in x (or y) only eg
 > ⎛ y⎞
-> 49 ⎜ ⎟ = 225 + y 2 + 15 y
+> 49 = 225 + $y^2$ + 15 y
 > ⎝3⎠
-> 40 x 2 − 45 x − 225 = 0 A1 (oe – correct 3-term quadratic in x or in y eg
-> 8 y 2 − 27 y − 405 = 0 )
+> $40x^2$ − 45 x − 225 = 0 A1 (oe – correct 3-term quadratic in x or in y eg
+> $8y^2$ − 27 y − 405 = 0 )
 > eg ( 8 x + 15 )( x − 3) = 0 M1 for attempting to solve their 3-term
 > quadratic in x or in y e.g. ( 8 y + 45 )( y − 9 ) = 0 -
 > or if no working shown then a correct answer for
@@ -879,7 +890,7 @@ Find the value of x and the value of y Show your working clearly. x = y = Given 
 > 2(8) factorising when expanded, the result must give at
 > least 2 of the 3 terms of their quadratic. Or for
 > correct use of the formula by substituting values in
-> correctly but allow one slip and allow 92 for
+> correctly but allow one slip and allow $9^2$ for
 > ( 9) 2 underneath the square root.
 > x = 3, y = 9 6 A1 dep on all previous M marks
 > 5 y = 15 x ( ⇒ y = 3x ) M1 for correct application of intersecting chord
@@ -895,7 +906,6 @@ Find the value of x and the value of y Show your working clearly. x = y = Given 
 > sin120 sin('38.2 ') sin('21.8') sin('38.2 ')
 > x = 3, y = 9 6 A1 condone if non-exact values seen provided final
 > answers are integers - dependent on all previous M
-> marks
 
 - **(6)** 5 y = 15 x ( ⇒ y = 3x ) M1 for correct application of intersecting chord
 
@@ -911,15 +921,14 @@ find the value of n n =
 > ED 3 AE
 > 15 area of ABE
 > 2 5 x sin120
-> or 32 but not just 3 (unless clear where this area of CDE
+> or $3^2$ but not just 3 (unless clear where this area of CDE
 > 15 y sin120
 > 5
 > value has come from) x 3
 > 3y 27
 > ( n 9)
 > n=9 2 A1 correct answer with no working scores both
-> marks – do not award this A mark for 32
-> Total 8 marks
+> marks – do not award this A mark for $3^2$
 
 - **(2)** AE 1 ED 5 M1 (oe e.g. EB : EC = x : y or their y (possibly in
 
@@ -963,7 +972,7 @@ Show that the x coordinates of the stationary points on C satisfy the equation 3
 
 ### 26(b) [3]
 
-Write 3x 2 + 6x – 1 in the form a(x + b)2 + c where a, b and c are integers.
+Write 3x 2 + 6x – 1 in the form a(x + b)² + c where a, b and c are integers.
 
 
 **Mark scheme answer**
@@ -983,7 +992,7 @@ Hence find the exact x coordinate of each of the stationary points on C Show you
 
 > 3 ( x + 1) = 4 ⇒ x = ...
 > 2 M1 for correct order of operations to find x from
-> their a( x b)2 c with a, b, and c non-zero and
+> their a( x b)² c with a, b, and c non-zero and
 > or
 > leading to real value(s) of x. Or for correct use of
 > 6 62 4(3)( 1) the quadratic formula on 3x 2 + 6 x − 1 = 0 by
@@ -993,7 +1002,6 @@ Hence find the exact x coordinate of each of the stationary points on C Show you
 > x= A1 oe eg x = −1 ± as a final answer (so do
 > 3
 > not ISW if replaced with non-exact values)
-> Total 10 marks
 
 - **(2)** 3 ( x + 1) = 4 ⇒ x = ...
 

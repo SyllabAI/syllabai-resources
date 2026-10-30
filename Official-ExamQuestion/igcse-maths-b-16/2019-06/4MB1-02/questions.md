@@ -43,8 +43,6 @@ Calculate an estimate for the mean age, to the nearest year, of the members of t
 > ISW incorrect rounding after any of these values seen.
 > Correct answer with no incorrect working scores full
 > marks.
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 23 × 15 + 47 × 25 + 56 × 35 + 4 M2 For M2 require exactly 5 products with at least 4
 
@@ -107,8 +105,6 @@ Calculate the population of country B in 2018
 > 2.5 × 107 × 1.024 × 0.976 2 M1
 > 2.49856 × 10 or A1 Allow answers between 24 986 000 and 24 990 000
 > 24 985 600 inclusive oe ISW rounding.
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2.5 × 107 × 1.024 × 0.976 2 M1
 
@@ -151,7 +147,7 @@ Calculate the length, in cm to 3 significant figures, of the arc ABC.
 > cos∠𝐴𝐴𝐴𝐴𝐴𝐴 = 8+"2.25"
 > (⇒ ∠𝐴𝐴𝐴𝐴𝐴𝐴 = 77.3∘ )
 > Allow
-> 102 = (8 + "2.25")2 + "2.25"2 −
+> 102 = (8 + "2.25")² + "2.25"2 −
 > 2 × (8 + "2.25") × 2.25 cos ∠AOC
 > "77.3" M1 dep.
 > arc length = 360 × 2𝜋𝜋 × "2.25"
@@ -159,8 +155,6 @@ Calculate the length, in cm to 3 significant figures, of the arc ABC.
 > ∠AOC ≥ 90º
 > AWRT 3.03 or A1
 > 3.04 (cm)
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(3)** tan∠𝐴𝐴𝐴𝐴𝐴𝐴 = "2.25" or 3 M1 Any correct expression for sin, cos or tan of ∠AOC or
 
@@ -191,14 +185,16 @@ Describe fully the single transformation that maps triangle A onto triangle B. T
 
 > Translation 2 B1 B1 These 2 marks are independent. Do not award
 > ⎛ 2⎞ either if more than one transformations given (including
-> ⎜ ⎟ two translations).
+>  two translations).
 > ⎝ 3⎠
 
 - **(2)** Translation 2 B1 B1 These 2 marks are independent. Do not award
 
 ### 4(c) [3]
 
-On the grid, draw and label triangle C. Triangle D is the image of triangle C under the transformation with matrix M where ⎛ 1 ⎞ − 0 ⎜ 2 ⎟ M=⎜ ⎟ ⎜ 1 −1⎟ ⎝ 2 ⎠
+On the grid, draw and label triangle C. Triangle D is the image of triangle C under the transformation with matrix M where ⎛ 1 ⎞ − 0 ⎜ 2 ⎟ M= 1 −1 2 ⎠
+
+![grid — official paper figure (qp.pdf p.9) (same figure as asset_4_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_4_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.9) — shared with asset_4_a_grid](assets/asset_4_a_grid.png)
 
@@ -223,46 +219,35 @@ On the grid, draw and label triangle D. Triangle C is the image of triangle D un
 
 **Mark scheme answer**
 
-> (−0.5 0) (2 6 2) = 3 M2 for a matrix solution or list of coordinates containing
-> ( 0.5 −1) (4 −4 8) at least 4 correct values seen or for 2 correct coordinates
-> (−1 −3 −1)
-> (−3 7 −7)
-> calculate the coordinates of triangle D
+> $\begin{pmatrix} -0.5 & 0 \\ 0.5 & -1 \end{pmatrix}$ $\begin{pmatrix} 2 & 6 & 2 \\ 4 & -4 & 8 \end{pmatrix}$ = $\begin{pmatrix} -1 & -3 & -1 \\ -3 & 7 & -7 \end{pmatrix}$ M2 for a matrix solution or list of coordinates containing at least 4 correct values seen or for 2 correct coordinates plotted
+> Otherwise M1 for a correctly stated matrix product to calculate the coordinates of triangle D
 > Triangle D drawn A1 cao
 
-- **(3)** (−0.5 0) (2 6 2) = 3 M2 for a matrix solution or list of coordinates containing
+- **(3)** $\begin{pmatrix} -0.5 & 0 \\ 0.5 & -1 \end{pmatrix}$ $\begin{pmatrix} 2 & 6 & 2 \\ 4 & -4 & 8 \end{pmatrix}$ = $\begin{pmatrix} -1 & -3 & -1 \\ -3 & 7 & -7 \end{pmatrix}$ M2 for a matrix solution or list of coordinates containing at least 4 correct values seen or for 2 correct coordinates plotted
 
 ### 4(e) [3]
 
-Find the matrix N. ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a ⎟⎠ ⎦ y −6 −4 −2 A −2 −4 −6 −8 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y −6 −4 −2 A −2 −4 −6 −8
+Triangle C is the image of triangle D under the transformation with matrix N. Find the matrix N.
+
+[The inverse of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$]
+
+![grid — official paper figure (qp.pdf p.9) (same figure as asset_4_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_4_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.9) — shared with asset_4_a_grid](assets/asset_4_a_grid.png)
 
 
 **Mark scheme answer**
 
-> Recognising that N = M −1 3
-> M1 Either state N = M −1 or NM=I or −1×−0.5−0×0.5 seen
-> or (−1 0 / −0.5 −0.5) seen.
+> Recognising that N = M⁻¹
+> M1 Either state N = M⁻¹ or NM=I or 1/(−1×−0.5−0×0.5) seen or $\begin{pmatrix} -1 & 0 \\ -0.5 & -0.5 \end{pmatrix}$ seen.
 > A2
-> 2 (−1 0 / −0.5 −0.5)
+> 2$\begin{pmatrix} -1 & 0 \\ -0.5 & -0.5 \end{pmatrix}$
 > Any A marks imply M1 if not already awarded.
-> ALT (𝑃𝑃 𝑄𝑄) (−1 −3 −1) =
-> (𝑅𝑅 𝑆𝑆) (−3 7 −7)
-> (2 6 2)
-> (4 −4 8)
-> and states at least 2 linear equations
-> in 2 variables derived from this.
-> −2
-> (−2 0 / −1 −1) A1 for one correct row or column or for 3 of the variables
-> listed correctly 𝑃𝑃 = −2, 𝑄𝑄 = 0, 𝑅𝑅 = −1, 𝑆𝑆 = −1
-> Total 12 marks
-> C
-> B
-> D
-> Question Working Answer Mark Notes
+> ALT $\begin{pmatrix} P & Q \\ R & S \end{pmatrix}$ $\begin{pmatrix} -1 & -3 & -1 \\ -3 & 7 & -7 \end{pmatrix}$ = $\begin{pmatrix} 2 & 6 & 2 \\ 4 & -4 & 8 \end{pmatrix}$
+> and states at least 2 linear equations in 2 variables derived from this.
+> $\begin{pmatrix} -2 & 0 \\ -1 & -1 \end{pmatrix}$ A1 for one correct row or column or for 3 of the variables listed correctly P = −2, Q = 0, R = −1, S = −1
 
-- **(3)** Recognising that N = M −1 3
+- **(3)** Recognising that N = M⁻¹
 
 
 ## Question 5 (10 marks)
@@ -288,7 +273,9 @@ Calculate the length, in cm to 3 significant figures, of BE.
 
 ### 5(b) [3]
 
-Calculate the size, in degrees to 3 significant figures, of ·ABE. The area of quadrilateral BCDE is 18.9 cm2
+Calculate the size, in degrees to 3 significant figures, of ·ABE. The area of quadrilateral BCDE is 18.9
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -324,8 +311,6 @@ Calculate the length, in cm to 3 significant figures, of CD. ⎡ ⎤ ⎢Cosine r
 > 𝐶𝐶𝐶𝐶 = "1.7" × "4.44"
 > from (a)
 > 7.55 (cm) A1 Allow any answer between 7.54 and 7.55 inclusive.
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 1 4 M1
 
@@ -356,8 +341,6 @@ A = {a, b, c, d} Write down all the subsets of A that contain the element b.
 > NB Multiples written in sets eg. { b, ab, bc, bd} is in this
 > case counted as 4 correct sets with a penalty for missing
 > brackets. (ie 1 mark)
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** {𝑏𝑏}, {𝑎𝑎, 𝑏𝑏, 𝑐𝑐, 𝑑𝑑}, {𝑎𝑎, 𝑏𝑏} B4 B4 all correct exactly 8 sets listed.
 
@@ -420,8 +403,6 @@ State whether or not Preety should take the two tests. Give a reason for your an
 > (Preety should take
 > seen.
 > the tests)
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3 17 2 M1 ft their answer from part (a) only if it is between 0
 
@@ -432,7 +413,11 @@ C 5x m D Diagram NOT accurately drawn (5x + 3) m (2x + 3) m A 4x m B Figure 3 Fi
 
 ### 8(a) [2]
 
-Find and simplify an expression for P in terms of x. The area of the lawn is A m2
+C 5x m D Diagram NOT accurately drawn (5x + 3) m (2x + 3) m A 4x m B Figure 3 Figure 3 shows the plan for a lawn that is in the shape of a trapezium ABCD in which AB = 4x metres BC = (5x + 3) metres CD = 5x metres DA = (2x + 3) metres The perimeter of the lawn is P metres.
+
+Find and simplify an expression for P in terms of x. The area of the lawn is A
+
+…………… m²
 
 
 **Mark scheme answer**
@@ -444,7 +429,9 @@ Find and simplify an expression for P in terms of x. The area of the lawn is A m
 
 ### 8(b) [2]
 
-Show that A = 14x2 + 12x The owner of the lawn wants the perimeter of the lawn to be greater than 52 m. He also wants the area of the lawn to be at most 162 m2
+Show that A = 14x2 + 12x The owner of the lawn wants the perimeter of the lawn to be greater than 52 m. He also wants the area of the lawn to be at most 162
+
+…………… m²
 
 
 **Mark scheme answer**
@@ -484,8 +471,6 @@ Find the range of possible values of x. Show clear algebraic working. ⎡ 1 ⎤ 
 > Condone only finding critical values in working as long
 > as the working contains no ambiguous or incorrect
 > inequalities.
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(6)** "16𝑥𝑥 + 6" > 52 6 M1 Their perimeter > 52, condone ≥. or =
 
@@ -496,14 +481,16 @@ Find the range of possible values of x. Show clear algebraic working. ⎡ 1 ⎤ 
 
 ### 9(a) [5]
 
-Show that x2 − 3x − 9 = 0 Given that x > 0
+⎛ 2 x − 1⎞ ⎛ y + 3⎞ p=⎜ q= y − y 7⎞ The vectors p and q are such that |p| = 98 and p + q = 0⎠
+
+Show that x² − 3x − 9 = 0 Given that x > 0
 
 
 **Mark scheme answer**
 
-> √((2𝑥𝑥 − 1)2 + 𝑦𝑦 2) = √98 5 M1 Correct use of modulus to form any correct equation
+> √((2𝑥𝑥 − 1)² + 𝑦𝑦 2) = √98 5 M1 Correct use of modulus to form any correct equation
 > (2𝑥𝑥 − 1) + (𝑦𝑦 + 3) = 7 M1 oe e.g. 2𝑥𝑥 + 𝑦𝑦 = 5
-> (2𝑥𝑥 − 1)2 + (5 − 2𝑥𝑥)2 = 98 oe M1 dep. on both previous M marks.
+> (2𝑥𝑥 − 1)² + (5 − 2𝑥𝑥)² = 98 oe M1 dep. on both previous M marks.
 > Remove square-roots and substitute to gain an equation in
 > terms of x only. May be seen in expanded form.
 > Eg. −4𝑥𝑥 2 + 4𝑥𝑥 + 97 = 25 + 4𝑥𝑥 2 − 20𝑥𝑥
@@ -520,7 +507,7 @@ Show that x2 − 3x − 9 = 0 Given that x > 0
 
 ### 9(b)(i) [2]
 
-find the exact value of x,
+find the exact value of x …………… , ……………
 
 
 **Mark scheme answer**
@@ -529,7 +516,7 @@ find the exact value of x,
 > − ( −3) ± ( −3) − 4(1)(−9)
 > x=
 > 2(1)
-> or (𝑥𝑥 − 3/2)2 − 9/4 − 9 = 0
+> or (𝑥𝑥 − 3/2)² − 9/4 − 9 = 0
 > 3 + 3√5 3+√45
 > 𝑥𝑥 = A1 Accept other equivalent exact forms eg 2
 > 2 Do not accept ± for the final answer, they must indicate
@@ -547,11 +534,11 @@ show that y = 2 − 3√5
 
 > 3 + 3√5 2 M1 Substitute their x which must be an expression
 > 𝑦𝑦 = 5 − 2 ((3 + 3√5)/2) involving surds into linear equation to find y
-> If using equation for y2 must obtain
+> If using equation for y² must obtain
 > 𝑦𝑦 2 = 98 − 49 − 12√5 or simpler to gain this mark.
 > 𝑦𝑦 = 2 − 3√5 A1 As answer given sufficient working must be shown
 > Allow 𝑦𝑦 2 = 49 − 12√5 from modulus equation and
-> expansion of (2 − 3√5)2 = 49 − 12√5 along with an
+> expansion of (2 − 3√5)² = 49 − 12√5 along with an
 > appropriate comment.
 > Do not isw answer given as a decimal.
 
@@ -566,14 +553,12 @@ Find the exact value of |q|2 Show your working clearly. ⎡ 2 −b ± b 2 − 4a
 
 > (|𝐪𝐪|2 =) 3 M1 Attempt q= q12 + q2 2 - allow in terms of y or x
 > 2
-> (2 − 3√5 + 3)2 + (−(2 − 3√5))2 Eg. (𝑦𝑦 + 3)2 + 𝑦𝑦 2 or (8 − 2𝑥𝑥)2 + (5 − 2𝑥𝑥)2
+> (2 − 3√5 + 3)² + (−(2 − 3√5))² Eg. (𝑦𝑦 + 3)² + 𝑦𝑦 2 or (8 − 2𝑥𝑥)² + (5 − 2𝑥𝑥)²
 > Allow an expression for |𝐪𝐪|
 > = 25 − 30 5 + 45 + 45 − 12 5 + 4 M1 dep expand brackets must involve surds.
 > Allow square root of this.
 > 119 − 42√5 or A1 cao Do not isw answer given as a decimal.
 > 7(17 − 6√5)
-> Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(3)** (|𝐪𝐪|2 =) 3 M1 Attempt q= q12 + q2 2 - allow in terms of y or x
 
@@ -612,7 +597,7 @@ Show that 2a + b = −14
 
 ### 10(c) [3]
 
-Hence find the value of a and the value of b. Show clear algebraic working. Using the value of a and the value of b found in part (c),
+Hence find the value of a and the value of b. Show clear algebraic working. Using the value of a and the value of b found in part (c) …………… , ……………
 
 
 **Mark scheme answer**
@@ -642,8 +627,6 @@ find the x coordinate of each of the points on C where the tangent to C is paral
 > They must have a factorised expression with 2 factors
 > 5
 > 𝑥𝑥 = 0 and 𝑥𝑥 = 3 A1 cao for 𝑥𝑥 = 3 accept 1.67 or better.
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 6𝑥𝑥 2 − 10𝑥𝑥 − 4 = −4 3 M1 Substitutes their a and their b into their f/ (𝑥𝑥) and
 
@@ -654,7 +637,11 @@ Diagram NOT accurately drawn h cm r cm Figure 4 A child’s toy is made by fixin
 
 ### 11(a) [2]
 
-find the upper bound for the value of r. Give a reason for your answer. The volume of the toy is V cm3
+Diagram NOT accurately drawn h cm r cm Figure 4 A child’s toy is made by fixing a solid right circular cone, with base radius r cm and height h cm, on the flat circular face of a solid hemisphere of radius r cm. The centre of the base of the cone coincides with the centre of the hemisphere, as shown in Figure 4 Given that h + 6r = 15
+
+find the upper bound for the value of r. Give a reason for your answer. The volume of the toy is V
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -707,7 +694,11 @@ Complete the following table of values for V = (1/3)πr2(15 − 4r) Give your va
 
 ### 11(d) [2]
 
-On the grid opposite, plot the points from your completed table and join them to form a smooth curve. The volume of one particular toy is 26 cm3
+On the grid opposite, plot the points from your completed table and join them to form a smooth curve. The volume of one particular toy is 26 cm³
+
+![grid — official paper figure (qp.pdf p.35)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_11_d_grid.png)
+
+![table — official paper figure (qp.pdf p.34) (same figure as 11(c))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_11_c_table.png)
 
 ![grid — official paper figure (qp.pdf p.35)](assets/asset_11_d_grid.png)
 
@@ -742,7 +733,9 @@ Use your curve to find, to one decimal place, the value of r. The manufacturer o
 
 ### 11(f) [3]
 
-By drawing a suitable straight line on the grid, find an estimate, to the nearest integer, for the value of V. V O 1 2 3 r for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. V O 1 2 3 r
+By drawing a suitable straight line on the grid, find an estimate, to the nearest integer, for the value of V.
+
+![grid — official paper figure (qp.pdf p.35) (same figure as asset_11_d_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-02/assets/asset_11_d_grid.png)
 
 ![grid — official paper figure (qp.pdf p.35) — shared with asset_11_d_grid](assets/asset_11_d_grid.png)
 

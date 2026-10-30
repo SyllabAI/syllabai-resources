@@ -25,7 +25,9 @@ The bearing of village A from village B is 124° Find the bearing of village B f
 
 ### 2 [2]
 
-The bearing of village A from village B is 124° Find the bearing of village B from village A. °
+The bearing of village A from village B is 124° Find the bearing of village B from village A.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -43,9 +45,12 @@ Diagram NOT C F accurately drawn p° H E B G 135° A D ABC and DEF are parallel 
 
 ### 3 [2]
 
-Diagram NOT C F accurately drawn p° H E B G 135° A D ABC and DEF are parallel straight lines and GBEH is a straight line. ∠ABE = 135° and ∠FEH = p° Find the value of p. p =
+p° H E B G 135° A D ABC and DEF are parallel straight lines and GBEH is a straight line. ∠ABE = 135° and ∠FEH = p° Find the value of p. p =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, F.
+
+![diagram — official paper figure (qp.pdf p.2)](assets/asset_3_diagram.png)
 
 
 **Mark scheme answer**
@@ -105,8 +110,6 @@ A ∩ B
 **Mark scheme answer**
 
 > 2 B1 Ignore brackets
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 2 B1 Ignore brackets
 
@@ -139,7 +142,7 @@ The nth term of a sequence is given by 2 − 5n Write down the 3rd, 4th and 5th 
 
 ### 7 [2]
 
-The nth term of a sequence is given by 2 − 5n Write down the 3rd, 4th and 5th terms of the sequence , ,
+The nth term of a sequence is given by 2 − 5n Write down the 3rd, 4th and 5th terms of the sequence …………… , …………… , ……………
 
 
 **Mark scheme answer**
@@ -158,7 +161,11 @@ Express 42 minutes as a percentage of 5 hours. .................................
 
 ### 8 [3]
 
-Express 42 minutes as a percentage of 5 hours %
+Express 42 minutes as a percentage of 5 hours……………%
+
+Express 42 minutes as a percentage of 5 hours
+
+…………… %
 
 
 **Mark scheme answer**
@@ -202,8 +209,6 @@ Write down the integer values of x for which −3 ≤ x < 4
 **Mark scheme answer**
 
 > −3, −2, −1,0,1, 2,3 B1
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** −3, −2, −1,0,1, 2,3 B1
 
@@ -214,24 +219,33 @@ A=⎜ B = ⎝ 4 1 ⎟⎠ ⎜⎝ 4 −2⎟⎠ Calculate
 
 ### 10(a) [1]
 
-A + B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎝ ⎠
+A = \$\begin{pmatrix} 2 & -3 \\ 4 & 1 \end{pmatrix}\$   B = \$\begin{pmatrix} 5 & 0 \\ 4 & -2 \end{pmatrix}\$
+
+Calculate
+
+**(a)** A + B
 
 
 **Mark scheme answer**
 
-> ⎛ 7 −3 ⎞ 3 B1
-> ⎜ ⎟
-> ⎝ 8 −1⎠
-> ⎛ −16 −6 ⎞ B2 Fully correct
-> ⎜ ⎟ B1 for 2 or 3 correct elements in a 2×2
-> ⎝ −8 10 ⎠ matrix
-> Total 3 marks
+> A + B = \$\begin{pmatrix} 7 & -3 \\ 8 & -1 \end{pmatrix}\$
+> 
+> Add corresponding elements.
 
-- **(1)** ⎛ 7 −3 ⎞ 3 B1
+- **(1)** \$\begin{pmatrix} 7 & -3 \\ 8 & -1 \end{pmatrix}\$ — correct 2×2 matrix
 
 ### 10(b) [2]
 
-2A – 4B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎝ ⎠
+**(b)** 2A − 4B
+
+
+**Mark scheme answer**
+
+> 2A = \$\begin{pmatrix} 4 & -6 \\ 8 & 2 \end{pmatrix}\$   4B = \$\begin{pmatrix} 20 & 0 \\ 16 & -8 \end{pmatrix}\$
+> 
+> 2A − 4B = \$\begin{pmatrix} -16 & -6 \\ -8 & 10 \end{pmatrix}\$
+
+- **(2)** \$\begin{pmatrix} -16 & -6 \\ -8 & 10 \end{pmatrix}\$ — fully correct (B1 for 2 or 3 correct elements in a 2×2 matrix)
 
 
 ## Question 11 (3 marks)
@@ -257,8 +271,6 @@ Express as a single fraction in its simplest form 5 2 − 3 − 2 x 2 + 5x
 > 4 + 29x A1 allow 6 + 11x − 10 x 2 in the
 > oe
 > ( 3 − 2x )( 2 + 5x ) denominator do not ISW for this mark.
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 5 ( 2 + 5x ) − 2 (3 − 2 x ) 3 M1 for correct single fraction
 
@@ -313,12 +325,10 @@ Simplify ( 3x 2 y 3 ) 9 xy 2
 > 27 x 6 y 9 3 M1 Expansion of numerator – at least
 > two components correct
 > 9 xy 2
-> “3” “x5” “y7” M1 indep. Correct division from their
+> “3” “x⁵” “y7” M1 indep. Correct division from their
 > numerator with at least two components
 > correctly following through.
 > 3x 5 y 7 A1 Fully correct
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 27 x 6 y 9 3 M1 Expansion of numerator – at least
 
@@ -338,12 +348,12 @@ Solve the simultaneous equations 3x + 2y = 8 −4x + 9y = 22 Show clear algebrai
 > –12x +27y = 66 −8x + 18y = 44 single variable.
 > 35y = 98 35x = 28 or Allow a maximum of 1 arithmetic or sign error.
 > 8− 2y ⎛ 8− 2y ⎞
-> x= giving − 4 ⎜ ⎟ + 9 y = 22 or
+> x= giving − 4 + 9 y = 22 or
 > 3 ⎝ 3 ⎠
 > y y
 > x giving 3 2y 8 or
 > 8 − 3x ⎛ 8 − 3x ⎞
-> y= giving − 4 x + 9 ⎜ ⎟ = 22 or
+> y= giving − 4 x + 9 = 22 or
 > 2 ⎝ 2 ⎠
 > x
 > y giving 3x 2
@@ -355,7 +365,6 @@ Solve the simultaneous equations 3x + 2y = 8 −4x + 9y = 22 Show clear algebrai
 > and y = 14 A1 Allow x= 0.8 and y = 2.8
 > x=
 > 5
-> Total 4 marks
 
 - **(4)** 12x + 8y = 32 or 27x + 18y = 72 4 M1 Fully correct method to obtain equation in a
 
@@ -366,9 +375,11 @@ Diagram NOT y accurately drawn y=5+x y = 6 − 2x R x O The diagram shows the sh
 
 ### 15 [4]
 
-Diagram NOT y accurately drawn y=5+x y = 6 − 2x R x O The diagram shows the shaded region R, which is bounded by three straight lines, one of which is parallel to the y-axis. One vertex of R lies on the x-axis. Find three inequalities that define R.
+y accurately drawn y=5+x y = 6 − 2x R x O The diagram shows the shaded region R, which is bounded by three straight lines, one of which is parallel to the y-axis. One vertex of R lies on the x-axis. Find three inequalities that define R.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_15_diagram.png)
 
 
 **Mark scheme answer**
@@ -381,8 +392,6 @@ Diagram NOT y accurately drawn y=5+x y = 6 − 2x R x O The diagram shows the sh
 > x≤3 A1
 > SC Allow a total of B2 for
 > y ≤ 6 –2 x, y ≥ 5 + x and x ≥ 3
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** y ≥ 6 − 2x 4 B1 Allow strict inequalities
 
@@ -393,19 +402,20 @@ A model of a ship is made to a scale of 3 : 400 The surface area of the model is
 
 ### 16 [4]
 
-A model of a ship is made to a scale of 3 : 400 The surface area of the model is 7200 cm2 Calculate, in m2, the surface area of the ship m2
+A model of a ship is made to a scale of 3 : 400 The surface area of the model is 7200 cm² Calculate, in m², the surface area of the ship
+
+…………… m²
 
 
 **Mark scheme answer**
 
 > 400 : 3 or or 4 M1 state or use scale factor squared
 > ⎛ 400 ⎞ M1 dep correct method to find surface area M2 for
-> 7200 × ⎜ ⎟ or oe
+> 7200 × or oe
 > ⎝ 3 ⎠ of ship condone 72 0.72
 > 100 2
 > M1 indep convert from cm to m
 > 12800 A1
-> Total 4 marks
 
 - **(4)** 400 : 3 or or 4 M1 state or use scale factor squared
 
@@ -416,25 +426,27 @@ Diagram NOT B accurately drawn 4.2 cm 35° 6.5 cm C A 2.5 cm D The diagram shows
 
 ### 17 [4]
 
-Diagram NOT B accurately drawn 4.2 cm 35° 6.5 cm C A 2.5 cm D The diagram shows △ABD and △BCD such that AB = 6.5 cm, AD = 2.5 cm, BC = 4.2 cm, ∠CBD = 35° and ∠ADB = 90° Calculate the area, in cm2 to 3 significant figures, of the quadrilateral ABCD cm2
+The diagram shows △ABD and △BCD such that AB = 6.5 cm, AD = 2.5 cm, BC = 4.2 cm, ∠CBD = 35° and ∠ADB = 90° Calculate the area, in cm² to 3 significant figures, of the quadrilateral ABCD cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, A, D · Figure values: 4.2, 35°, 6.5, 2.5.
+
+![diagram — official paper figure (qp.pdf p.11)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
 
-> (BD2=)6.52-2.52 (=36) 4 M3 Completely correct method to find area ABCD or
+> ($BD^2$=)$6.5^2$-$2.5^2$ (=36) 4 M3 Completely correct method to find area ABCD or
 > Area of ABD = 2.5 BD (=7.5) M2 Completely correct method to find the area of ABD or
 > BCD or
-> Area of BCD = 4.2 BD sin 35 M1 Correct method to find BD or BD2
+> Area of BCD = 4.2 BD sin 35 M1 Correct method to find BD or $BD^2$
 > (=7.23)
 > Area of ABCD = For Area of ABD allow 6.5 2.5 sin BAD
 > 2.5 BD 4.2 BD sin 35 .
 > with cos BAD (BAD = 67.4)
 > awrt 14.7 A1
-> Total 4 marks
 
-- **(4)** (BD2=)6.52-2.52 (=36) 4 M3 Completely correct method to find area ABCD or
+- **(4)** ($BD^2$=)$6.5^2$-$2.5^2$ (=36) 4 M3 Completely correct method to find area ABCD or
 
 
 ## Question 18 (4 marks)
@@ -443,25 +455,17 @@ p=⎜ q = ⎜⎝ 5 ⎟⎠ ⎝ 2 x − 1⎟⎠ The vectors p and q are such that 
 
 ### 18 [4]
 
-p=⎜ q = ⎜⎝ 5 ⎟⎠ ⎝ 2 x − 1⎟⎠ The vectors p and q are such that ½ p½ = ½ q½ Given that x < 0 find the value of x. x =
+p= q = 5 2 x − 1 The vectors p and q are such that ½ p½ = ½ q½ Given that x < 0 find the value of x. x =
 
 
 **Mark scheme answer**
 
-> p = x 2 + ( 2 x − 1) and q = ( −9 ) + 52 4 M1 Attempt at both moduli or both moduli squared (or
-> 2 2 2
-> equivalent)
-> |p|=|q|⇒5x2 –4x – 105 (=0) M1 dep. Forming three term quadratic in x allow a maximum
-> of 1 arithmetic or sign error
-> (5x+21)(x-5)(=0) M1 dep. Factorising trinomial quadratic expression must
-> expand to give 2 of 3 terms correct or completely correct
-> substitution into a completely correct formula.
-> (oe) A1 Do not allow if x = 5 given and not rejected allow –4.2
-> x=−
-> Total 4 marks
-> Question Working Answer Mark Notes
+> |p|² = x² + (2x−1)² and |q|² = (−9)² + 5² M1 Attempt at both moduli or both moduli squared (or equivalent)
+> |p|=|q|⇒5x² − 4x − 105 (=0) M1 dep. Forming three term quadratic in x allow a maximum of 1 arithmetic or sign error
+> (5x+21)(x-5)(=0) M1 dep. Factorising trinomial quadratic expression must expand to give 2 of 3 terms correct or completely correct substitution into a completely correct formula.
+> x = −21/5 (oe) A1 Do not allow if x = 5 given and not rejected allow −4.2
 
-- **(4)** p = x 2 + ( 2 x − 1) and q = ( −9 ) + 52 4 M1 Attempt at both moduli or both moduli squared (or
+- **(4)** |p|² = x² + (2x−1)² and |q|² = (−9)² + 5² M1 Attempt at both moduli or both moduli squared (or equivalent)
 
 
 ## Question 19 (4 marks)
@@ -470,9 +474,12 @@ Diagram NOT accurately drawn C D S 30° O B A BOC is a sector of a circle, centr
 
 ### 19 [4]
 
-Diagram NOT accurately drawn C D S 30° O B A BOC is a sector of a circle, centre O, with ∠BOC = 30° The sector AOD of the circle, centre O, such that ODC and OAB are straight lines, is removed from the sector BOC to form the region S, shown shaded in the diagram. Given that OA = AB and that the perimeter of S is 10 m, calculate, giving your answer in terms of π, the length, in m, of AB m
+BOC is a sector of a circle, centre O, with ∠BOC = 30° The sector AOD of the circle, centre O, such that ODC and OAB are straight lines, is removed from the sector BOC to form the region S, shown shaded in the diagram. Given that OA = AB and that the perimeter of S is 10 m, calculate, giving your answer in terms of π, the length, in m, of AB m
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, D, S, O, B, A · Figure values: 30°.
+
+![diagram — official paper figure (qp.pdf p.13)](assets/asset_19_diagram.png)
 
 
 **Mark scheme answer**
@@ -527,8 +534,6 @@ Calculate an estimate, to the nearest °C, of the mean temperature at midday in 
 > . . . "
 > (=13.28)
 > 13 A1 cao
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(4)** Use of at least 3 correct midpoints M1
 
@@ -591,8 +596,6 @@ x= c a = 8.45 correct to 2 decimal places. b = 1.93 correct to 2 decimal places.
 > " . "
 > UB = 1.382907…, LB = 1.380585… 1.38 A1 Must see both values given to at least
 > 3 d.p
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** UB: a = 8.455, b = 1.935, c = 3.4155 5 M1 Any two correct UB seen
 
@@ -613,7 +616,7 @@ Factorise completely 10a − 25ab
 
 ### 23(b) [2]
 
-Factorise x2 − 3x − 10
+Factorise x² − 3x − 10
 
 
 **Mark scheme answer**
@@ -669,8 +672,6 @@ The equation of a curve C is y = ( 2 x − 3) ( kx + 5) , where k is a constant.
 > substitute x = ½
 > k = −30 A1 cao must follow from fully correct
 > working
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** kx2 x kx 6 M1 Expanding numerator achieving a
 
@@ -712,8 +713,6 @@ Calculate, giving your reasons, the size in degrees of ∠ACD. ° ∠ACD =
 > is twice the angle at the Allow double instead of twice
 > circumference Allow half angle at circumference is
 > angle at centre
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ∠AOD = 180 − 2 ( '24') (=132) M1
 
@@ -748,7 +747,6 @@ Calculate, giving your reasons, the size in degrees of ∠ACD. ° ∠ACD =
 > numerators and denominators in any
 > order
 > 15 A1 awrt 0.536
-> Total 6 marks
 > Question Working
 > uuur uuur uuur
 > Answer Mark Notes
@@ -764,7 +762,9 @@ Calculate, giving your reasons, the size in degrees of ∠ACD. ° ∠ACD =
 
 3a A Diagram NOT O accurately drawn 5b C B D The diagram shows △OAB and a point D which is outside the triangle. The point C lies on AB such that AC = 3CB → 7 15 → → The point D is such that BD = a+ b where OA = 3a and OB = 5b 4 4 Find the ratio OC : CD
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.22)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
@@ -788,7 +788,6 @@ Calculate, giving your reasons, the size in degrees of ∠ACD. ° ∠ACD =
 > Only follow through their result for AB⃗
 > 3:4 oe A1 Allow any equivalent numerical ratio eg. : 1
 > PTO for alternative methods
-> Question Working Answer Mark Notes
 > (M1) Correct expression for OC⃗
 > OC⃗ 𝜆 a 5b (M1)
 > 𝜆 (M1)
@@ -797,7 +796,6 @@ Calculate, giving your reasons, the size in degrees of ∠ACD. ° ∠ACD =
 > OC⃗ 𝜆 a b (M1)
 > 𝜆 (M1)
 > 3:4 oe (A1) Allow any equivalent numerical ratio eg. : 1
-> Total 5 marks
 
 - **(5)** A B = A O + O B = − 3a + 5 b 5 B1 may be embedded within working
 

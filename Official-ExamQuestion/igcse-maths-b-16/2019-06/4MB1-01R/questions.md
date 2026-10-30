@@ -87,9 +87,12 @@ Here are four numbers written in order of size. w 7 x 24 The range of the four n
 
 ### 4 [2]
 
-8 cm Diagram NOT accurately drawn 12 cm The diagram shows a right circular cylinder of radius 8 cm and height 12 cm. Calculate the volume, in cm3 to the nearest cm3, of the cylinder cm3
+The diagram shows a right circular cylinder of radius 8 cm and height 12 cm. Calculate the volume, in cm³ to the nearest cm³, of the cylinder cm³
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Figure values: 8, 12.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_4_diagram.png)
 
 
 **Mark scheme answer**
@@ -107,7 +110,7 @@ Solve =9 x = ......................................................
 
 ### 5 [2]
 
-Solve =9 x =
+Solve =9 x = ……………Solve =9 x =
 
 
 **Mark scheme answer**
@@ -127,7 +130,7 @@ Q = c² − 4c Work out the value of Q when c = −6 Q = .......................
 
 ### 6 [2]
 
-Q = c² − 4c Work out the value of Q when c = −6 Q =
+Q = c² − 4c Work out the value of Q when c = −6 Q = ……………Q = c² − 4c Work out the value of Q when c = −6 Q =
 
 
 **Mark scheme answer**
@@ -176,9 +179,12 @@ B Diagram NOT accurately drawn A O x 132° D C A, B, C and D are points on a cir
 
 ### 8 [2]
 
-B Diagram NOT accurately drawn A O x 132° D C A, B, C and D are points on a circle, centre O. Angle ADC = 132° Calculate, in degrees, the size of angle x. °
+x 132° D C A, B, C and D are points on a circle, centre O. Angle ADC = 132° Calculate, in degrees, the size of angle x. °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, O, D, C · Figure values: 132°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_8_diagram.png)
 
 
 **Mark scheme answer**
@@ -196,19 +202,19 @@ y = 4x3 − 7/x2 dy Find dx dy = ...............................................
 
 ### 9 [2]
 
-y = 4x3 − 7/x2 dy Find dx dy = dx
+y = 4x3 − 7/x² dy Find dx dy = ……………dx
+
+y = 4x3 − 7/x² dy Find dx dy = dx
 
 
 **Mark scheme answer**
 
 > 14
 > M1 for 12x² or 14x−3 oe (e.g. )
-> x3
+> x³
 > 12x² + 14x−3 2
 > A1 oe (e.g. 12x 2 + ) must be + in between the two terms – mark final
-> x3
-> answer
-> Total 2 marks
+> x³
 
 - **(2)** 14
 
@@ -238,9 +244,12 @@ A Diagram NOT accurately drawn 7 cm C P 4 cm D 5 cm B A, C, B and D are four poi
 
 ### 11 [2]
 
-A Diagram NOT accurately drawn 7 cm C P 4 cm D 5 cm B A, C, B and D are four points on a circle. The chord AB intersects the chord CD at P. AP = 7 cm PB = 5 cm PD = 4 cm Calculate, in cm, the length of CP cm
+A, C, B and D are four points on a circle. The chord AB intersects the chord CD at P. AP = 7 cm PB = 5 cm PD = 4 cm Calculate, in cm, the length of CP cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, C, P, D, B · Figure values: 7, 4, 5.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**
@@ -261,7 +270,9 @@ y x=1 4 1 y= x x+y=6 O 1 2 3 4 5 6 7 x Write down the three inequalities that de
 
 y x=1 4 1 y= x x+y=6 O 1 2 3 4 5 6 7 x Write down the three inequalities that define the shaded region in the diagram above.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
@@ -306,19 +317,17 @@ A= ⎜ B= ⎜ ⎝ 2 −1⎟⎠ ⎝ 2 y 7⎟⎠ ⎛ 8 27⎞ Given that 5A + nB = 
 
 ### 14 [3]
 
-A= ⎜ B= ⎜ ⎝ 2 −1⎟⎠ ⎝ 2 y 7⎟⎠ ⎛ 8 27⎞ Given that 5A + nB = ⎜ where n is an integer, ⎝ 1 −26⎟⎠ find the value of n, the value of x and the value of y. n = x = y =
+A= ⎜ B= 2 −1 2 y 7 8 27⎞ Given that 5A + nB = ⎜ where n is an integer, ⎝ 1 −26 find the value of n, the value of x and the value of y. n = x = y =
 
 
 **Mark scheme answer**
 
 > ⎛ 20 15 ⎞ ⎛ 4 x⎞ M1 for correct matrix sum or 20 + 4n = 8 or −5 + 7n = −26 or
-> ⎜ ⎟ + n⎜ ⎟ oe ⎛ −12 12 ⎞
-> ⎝ 10 −5 ⎠ ⎝2y 7⎠ nB = ⎜ ⎟
-> ⎝ −9 −21⎠
+>  + n oe ⎛ −12 12 ⎞
+> ⎝ 10 −5 ⎠ ⎝2y 7⎠ nB = −9 −21⎠
 > n = −3, x 3 A2 for all 3 values correct, A1 for 2 correct values
 > = −4, y=
 > 1.5
-> Total 3 marks
 
 - **(3)** ⎛ 20 15 ⎞ ⎛ 4 x⎞ M1 for correct matrix sum or 20 + 4n = 8 or −5 + 7n = −26 or
 
@@ -365,9 +374,12 @@ C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point
 
 ### 16 [3]
 
-C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point B on CA and the point D on CE are such that BD is parallel to AE. BD = 7.2 cm to 2 significant figures. AE = 9.3 cm to 2 significant figures. Area of △BCD = 15.4 cm2 to 3 significant figures. Calculate the upper bound, to 3 significant figures, for the area of △ACE cm2
+The diagram shows triangle ACE. The point B on CA and the point D on CE are such that BD is parallel to AE. BD = 7.2 cm to 2 significant figures. AE = 9.3 cm to 2 significant figures. Area of △BCD = 15.4 cm² to 3 significant figures. Calculate the upper bound, to 3 significant figures, for the area of △ACE cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, B, D, A, E.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -375,15 +387,13 @@ C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point
 > 7.15, 7.25, 9.25, 9.35, 15.35, 15.45 γ
 > B1 for one of the given values, accept 7.149 etc.
 > 2
-> ⎛ 9.35 ⎞ ⎛ UB( AE ) ⎞
-> ⎜ ⎟ ×15.45 M1 or for ⎜ ⎟ × (UB( BCD) ) where
+> ⎛ 9.35 ⎞ ⎛ UB( AE ) ×15.45 M1 or for × (UB( BCD) ) where
 > ⎝ 7.15 ⎠ ⎝ LB( BD) ⎠
 > 9.3 < UB(AE) ≤ 9.35
 > 7.15 ≤ LB(BD) < 7.2
 > 15.4 < UB(BCD) ≤ 15.45
 > 26.4 3 A1 (26.4204142...) – must come from correct bounds (9.35, 7.15 and 15.45
 > only) – allow 26.5
-> Total 3 marks
 
 - **(3)** 7.15, 7.25, 9.25, 9.35, 15.35, 15.45 γ
 
@@ -394,9 +404,12 @@ D A 67° B Diagram NOT accurately drawn 123° x F G E C The diagram shows three 
 
 ### 17 [4]
 
-D A 67° B Diagram NOT accurately drawn 123° x F G E C The diagram shows three straight lines ABC, DBE and FECG. ∠ABD = 67° and ∠BEF = 123° Calculate the size, in degrees, of angle x. Give a reason for each stage of your working. °
+x F G E C The diagram shows three straight lines ABC, DBE and FECG. ∠ABD = 67° and ∠BEF = 123° Calculate the size, in degrees, of angle x. Give a reason for each stage of your working. °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: D, A, B, F, G, E, C · Figure values: 67°, 123°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -458,7 +471,9 @@ The sum of the interior angles of a regular polygon is 2700° Calculate the size
 
 ### 19 [3]
 
-The sum of the interior angles of a regular polygon is 2700° Calculate the size, in degrees to one decimal place, of each interior angle of the regular polygon. °
+The sum of the interior angles of a regular polygon is 2700° Calculate the size, in degrees to one decimal place, of each interior angle of the regular polygon.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -482,9 +497,12 @@ A B Diagram NOT (2 − √2 ) cm accurately drawn D C The diagram shows rectangl
 
 ### 20 [3]
 
-A B Diagram NOT (2 − √2 ) cm accurately drawn D C The diagram shows rectangle ABCD. AD = BC = (2 − √2 ) cm Area of ABCD = 3(5√2 − 2) cm2 Show that the length of AB can be written in the form (a + b√2 ) cm where a and b are integers to be found. Show your working clearly.
+− √2 ) cm accurately drawn D C The diagram shows rectangle ABCD. AD = BC = (2 − √2 ) cm Area of ABCD = 3(5√2 − 2) cm² Show that the length of AB can be written in the form (a + b√2 ) cm where a and b are integers to be found. Show your working clearly.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B · Other figure text: (2.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_20_diagram.png)
 
 
 **Mark scheme answer**
@@ -496,7 +514,6 @@ A B Diagram NOT (2 − √2 ) cm accurately drawn D C The diagram shows rectangl
 > × oe
 > 2− 2 2+ 2
 > 9 + 12 2 3 A1 dep on M2
-> Total 3 marks
 > ( a + b 2 )( 2 − 2 )= 3 (5 2 − 2) M1 (allow one slip) – getting to simultaneous equations in a and b
 > ( 2a − 2b ) + ( −a + 2b ) 2 =−6 + 15 2
 > 2a − 2b =−6, − a + 2b =15
@@ -526,7 +543,7 @@ Solve the simultaneous equations 3x + 4y = 4.5 2x – 3y = 11.5 Show clear algeb
 > OR
 > 11.5 + 3 y ⎛ 4.5 − 4 y ⎞
 > =x =
-> and 2 ⎜ ⎟ − 3 y 11
+> and 2 − 3 y 11
 > 2 ⎝ 3 ⎠
 > OR
 > 4.5 − 3 x ⎛ 4.5 − 3 x ⎞
@@ -537,15 +554,11 @@ Solve the simultaneous equations 3x + 4y = 4.5 2x – 3y = 11.5 Show clear algeb
 > 3x + 4 × −1.5 = 4.5 equations or correct use of elimination or substitution again.
 > x = 3.5, 4 First A1 dep on first M1 (so for their first value)
 > y = −1.5 Second A1 dep on second M1 (so for their second value)
-> Total 4 marks
-> ⎜ ⎟⎜ ⎟ = ⎜ ⎟
-> ⎝ 2 −3 ⎠ ⎝ y ⎠ ⎝11.5 ⎠
+>  = 2 −3 ⎠ ⎝ y ⎠ ⎝11.5 ⎠
 > −1
-> ⎛3 4 ⎞ 1 ⎛ −3 −4 ⎞
-> ⎜ ⎟ = ⎜ ⎟
-> ⎝ 2 −3 ⎠ 3 ( −3) − 2 ( 4 ) ⎝ −2 3 ⎠
+> ⎛3 4 ⎞ 1 ⎛ −3 −4 = 2 −3 ⎠ 3 ( −3) − 2 ( 4 ) ⎝ −2 3 ⎠
 > 1 ⎛ −3 −4 ⎞ ⎛ 4.5 ⎞ 1 ⎛ −59.5 ⎞ ⎛ 4.5 ⎞
-> − ⎜ ⎟⎜ ⎟= − ⎜ ⎟ M1dep multiplying their inverse by ⎜ ⎟ to obtain at least a 2 by 1 matrix
+> − = − M1dep multiplying their inverse by to obtain at least a 2 by 1 matrix
 > 17 ⎝ −2 3 ⎠ ⎝11.5 ⎠ 17 ⎝ 25.5 ⎠ ⎝11.5 ⎠
 > x = 3.5, A2 (A1 for one correct value)
 > y = −1.5
@@ -559,9 +572,12 @@ A Diagram NOT accurately drawn D E B C ABC is an isosceles triangle with AB = AC
 
 ### 22 [4]
 
-A Diagram NOT accurately drawn D E B C ABC is an isosceles triangle with AB = AC. D and E are the midpoints of the sides AB and AC respectively. Prove that triangles EBC and DCB are congruent.
+ABC is an isosceles triangle with AB = AC. D and E are the midpoints of the sides AB and AC respectively. Prove that triangles EBC and DCB are congruent.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, E, B, C.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
@@ -576,7 +592,6 @@ A Diagram NOT accurately drawn D E B C ABC is an isosceles triangle with AB = AC
 > given alongside the corresponding result (and not just appearing
 > somewhere in their response)
 > SAS 4 A1 for all correct reasons stated and SAS (dependent on all previous M marks)
-> Total 4 marks
 > 2 x + x +1
 
 - **(4)** M1 for EC = DB together with D and E are midpoints (oe e.g. middle but must
@@ -599,14 +614,13 @@ Given that = 32x × 3x + 1 9y find an expression for y in terms of x. Give your 
 > 2 y
 > = 32 x + x +1
 > (3 )
-> (33 )3 x 2 x + x +1 M1 for all of three of (33 )3 x , (32 ) y and 32 x + x +1 (or better)
+> (33 )³ x 2 x + x +1 M1 for all of three of (33 )³ x , (32 ) y and 32 x + x +1 (or better)
 > =3
 > (32 ) y
 > 9x – 2y = 3x + 1 M1 for α x − β y = 2 x + x + 1 (oe) with either α = 9 or β = 2 (so
 > dependent on first M mark only)
 > 6x −1 4 A1 oe
 > y=
-> Total 4 marks
 
 - **(4)** 3 3x
 
@@ -617,7 +631,9 @@ The scale drawing shows the positions of two posts, A and B. N N A B Scale: 1 cm
 
 ### 24(a) [2]
 
-Using ruler and compasses only, construct the locus of points that are equidistant from A and B. Given that C is also on a bearing of 250° from B,
+The scale drawing shows the positions of two posts, A and B. N N A B Scale: 1 cm represents 50 metres A third post, C, is equidistant from A and B.
+
+Using ruler and compasses only, construct the locus of points that are equidistant from A and B. Given that C is also on a bearing of 250° from B …………… , ……………
 
 
 **Mark scheme answer**
@@ -725,7 +741,9 @@ The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 12
 
 ### 27 [6]
 
-The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 128° 85° D 9 cm 6.4 cm C AB = 7.2 cm BC = 9 cm CD = 6.4 cm ∠ABC = 128° ∠ADC = 85° Calculate the area, in cm2 to 3 significant figures, of quadrilateral ABCD cm2
+The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 128° 85° D 9 cm 6.4 cm C AB = 7.2 cm BC = 9 cm CD = 6.4 cm ∠ABC = 128° ∠ADC = 85° Calculate the area, in cm² to 3 significant figures, of quadrilateral ABCD cm²
+
+![diagram — official paper figure (qp.pdf p.20)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-06/4MB1-01R/assets/asset_27_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.20)](assets/asset_27_diagram.png)
 
@@ -734,10 +752,10 @@ The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 12
 
 > (AC²=)7.2² + 9² − 2 × 7.2 × 9 × cos(128°) M1 (correct application of cosine rule – condone if stated as AC)
 > 212.6... (=14.58...) A1
-> sin CAD sin 85o M1 or for AC 2 = AD 2 + 6.42 - 2( AD )(6.4) cos85o (oe complete method
+> sin CAD sin 85o M1 or for $AC^2$ = $AD^2$ + $6.4^2$ - 2( AD )(6.4) cos85o (oe complete method
 > = (CAD = 25.9...)
 > 6.4 "14.58..." with AD in cosine rule) with their AC substituted
-> ( AD 2 - 1.1155903507 AD - 171.6697272 = 0
+> ( $AD^2$ - 1.1155903507 AD - 171.6697272 = 0
 > AD = (13.6(719426)))
 > dependent on previous M mark
 > 0.5 × 7.2 × 9 × sin(128°)(=25.5...) M1 (correct application of 0.5absin C for triangle ABC) – independent of
@@ -746,7 +764,6 @@ The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 12
 > 0.5 × 6.4 × “14.58...” × sin(180 – 85 − “25.9...”) dependent on all previous M marks
 > 25.5... + 43.5...... (oe for triangle ACD e.g. 0.5 × 6.4 × “13.6” × sin 85o )
 > 69.1 6 A1 accept answers in range 69.0 – 69.1
-> Total 6 marks
 
 - **(6)** (AC²=)7.2² + 9² − 2 × 7.2 × 9 × cos(128°) M1 (correct application of cosine rule – condone if stated as AC)
 
@@ -757,9 +774,13 @@ The table below gives information about the lengths of time, in minutes, that 75
 
 ### 28(a) [4]
 
+The table below gives information about the lengths of time, in minutes, that 75 cars were parked in a car park on Sunday. Time (t minutes) Frequency 0 < t ⩽ 5 8 5 < t ⩽ 20 10 20 < t ⩽ 30 15 30 < t ⩽ 40 17 40 < t ⩽ 60 25
+
 Calculate an estimate for the mean length of time, in minutes to one decimal place, that the 75 cars were parked in the car park on Sunday minutes The incomplete table and incomplete histogram give information about the lengths of time, in minutes, that 132 cars were parked in the car park on Monday. Time (t minutes) Frequency 0 < t ⩽ 5 12 5 < t ⩽ 20 20 < t ⩽ 30 30 < t ⩽ 40 27 40 < t ⩽ 60 18
 
-> 🖼 crop required: table (qp.pdf p.22)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![table — official paper figure (qp.pdf p.None)](assets/asset_28_table.png)
 
 
 **Mark scheme answer**
@@ -776,7 +797,9 @@ Calculate an estimate for the mean length of time, in minutes to one decimal pla
 
 Complete the histogram and the table. Frequency density 0 10 20 30 40 50 60 Time (t minutes)
 
-> 🖼 crop required: table (qp.pdf p.23)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![table — official paper figure (qp.pdf p.None)](assets/asset_28_table.png)
 
 
 **Mark scheme answer**

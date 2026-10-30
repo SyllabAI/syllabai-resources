@@ -8,7 +8,9 @@ Express 15 centimetres as a percentage of 3 metres. %
 
 ### 1 [2]
 
-Express 15 centimetres as a percentage of 3 metres. %
+Express 15 centimetres as a percentage of 3 metres.
+
+…………… %
 
 
 **Mark scheme answer**
@@ -26,7 +28,8 @@ A B The diagram shows shape A and shape B. Write down,
 
 ### 2(a) [1]
 
-the number of lines of symmetry of shape A,
+A B The diagram shows shape A and shape B. Write down …………… , ……………
+the number of lines of symmetry of shape A …………… , ……………
 
 
 **Mark scheme answer**
@@ -53,7 +56,9 @@ The bearing of ship P from ship Q is 057° Find the bearing of ship Q from ship 
 
 ### 3 [2]
 
-The bearing of ship P from ship Q is 057° Find the bearing of ship Q from ship P. °
+The bearing of ship P from ship Q is 057° Find the bearing of ship Q from ship P.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -71,12 +76,12 @@ A= ⎜ ⎟ B = ⎜ ⎝ −3 5⎠ ⎝ 3 −3⎟⎠ Calculate 3A + 2B ⎛ ⎞ ⎜ 
 
 ### 4 [2]
 
-A= ⎜ ⎟ B = ⎜ ⎝ −3 5⎠ ⎝ 3 −3⎟⎠ Calculate 3A + 2B ⎛ ⎞ ⎜ ⎟ ⎜ ⎟ ⎝ ⎠
+A= B = −3 5⎠ ⎝ 3 −3 Calculate 3A + 2B 
 
 
 **Mark scheme answer**
 
-> ⎜ ⎟ entries.
+>  entries.
 > ⎝ −3 9 ⎠
 > 9 8 27 32 M1 for correct improper fractions with intention
 
@@ -120,7 +125,6 @@ Given that y = 7x2 − x dy find dx dy = dx
 > Correct 1 B1 eg divided the previous term by −4 or
 > explanation +/− alternates and it goes down by 2² each time –
 > must see either ‘divide/multiply’ (oe)
-> Question Working Answer Mark Notes
 > 8 4 × 11.5 (=46) or 3 × 9 (=27) M1
 > (4 × 11.5 + 3 × 9) ÷ 7 M1 (“46” + “27”) ÷ 7
 > 10.4 3 A1
@@ -143,7 +147,6 @@ Given that y = 7x2 − x dy find dx dy = dx
 > method to find one of the smaller
 > pieces (1.8, 3)
 > 4.2 3 A1
-> Question Working Answer Mark Notes
 
 - **(2)** 14x + 3x−2 2 B2 oe B1 for 14x or + 3x−2 oe
 
@@ -157,6 +160,17 @@ Here are the first 4 terms of a sequence. 4096 −1024 256 −64
 4096 −1024 256 −64 (i) Write down the next 2 terms of the sequence. , (ii) Explain how you found your answer.
 
 
+**Mark scheme answer**
+
+> Next two terms: **16** and **−4**
+> 
+> Each term is found by dividing the previous term by −4 (multiplying by −¼).
+
+- **(1)** 16
+- **(1)** −4
+- **(1)** divide by −4 / multiply by −¼ each time oe
+
+
 ## Question 8 (3 marks)
 
 Ying has 4 black counters and 3 white counters. There is a number on each counter. The mean of the numbers on the black counters is 11.5 The mean of the numbers on the white counters is 9 Calculate the mean, to 3 significant figures, of the numbers on all 7 counters.
@@ -164,6 +178,19 @@ Ying has 4 black counters and 3 white counters. There is a number on each counte
 ### 8 [3]
 
 Ying has 4 black counters and 3 white counters. There is a number on each counter. The mean of the numbers on the black counters is 11.5 The mean of the numbers on the white counters is 9 Calculate the mean, to 3 significant figures, of the numbers on all 7 counters.
+
+
+**Mark scheme answer**
+
+> Total of black counters: 4 × 11.5 = 46
+> 
+> Total of white counters: 3 × 9 = 27
+> 
+> Mean = (46 + 27) ÷ 7 = **10.4** (3 s.f.)
+
+- **(1)** 4 × 11.5 (= 46) or 3 × 9 (= 27)
+- **(1)** (46 + 27) ÷ 7
+- **(1)** 10.4
 
 
 ## Question 9 (3 marks)
@@ -175,6 +202,21 @@ Find the largest integer value of x such that 17 − 2x ≥ 4(x – 5) Show clea
 Find the largest integer value of x such that 17 − 2x ≥ 4(x – 5) Show clear algebraic working.
 
 
+**Mark scheme answer**
+
+> 17 − 2x ≥ 4x − 20
+> 
+> 37 ≥ 6x
+> 
+> x ≤ 37/6 (= 6.16…)
+> 
+> Largest integer value: **x = 6**
+
+- **(1)** 4x − 20 seen or expansion of bracket
+- **(1)** 37 ≥ 6x oe
+- **(1)** 6
+
+
 ## Question 10 (3 marks)
 
 A regular polygon has n sides. Each interior angle of the regular polygon is 135° greater than each exterior angle of the polygon. Find the value of n. n=
@@ -184,6 +226,19 @@ A regular polygon has n sides. Each interior angle of the regular polygon is 135
 A regular polygon has n sides. Each interior angle of the regular polygon is 135° greater than each exterior angle of the polygon. Find the value of n. n=
 
 
+**Mark scheme answer**
+
+> Interior + exterior = 180°, and interior = exterior + 135°
+> 
+> So 2 × exterior = 45°, exterior = 45°
+> 
+> n = 360 ÷ 45 = **8**
+
+- **(1)** exterior = 45° oe (from 180 − (x + 135) or 2x = 45)
+- **(1)** 360 ÷ their exterior angle
+- **(1)** 8
+
+
 ## Question 11 (3 marks)
 
 A piece of ribbon 9 metres long is cut into 3 parts in the ratios 3 : 5 : 7 by length. Calculate the length, in metres, of the longest piece. m
@@ -191,6 +246,19 @@ A piece of ribbon 9 metres long is cut into 3 parts in the ratios 3 : 5 : 7 by l
 ### 11 [3]
 
 A piece of ribbon 9 metres long is cut into 3 parts in the ratios 3 : 5 : 7 by length. Calculate the length, in metres, of the longest piece. m
+
+
+**Mark scheme answer**
+
+> Total parts = 3 + 5 + 7 = 15
+> 
+> One part = 9 ÷ 15 = 0.6 m
+> 
+> Longest piece = 7 × 0.6 = **4.2 m**
+
+- **(1)** 9 ÷ 15 (= 0.6)
+- **(1)** their one part × 7
+- **(1)** 4.2
 
 
 ## Question 12 (3 marks)
@@ -257,7 +325,6 @@ Solve the equation 5x2 = 7 − 9x Give your solutions to 3 significant figures. 
 > 2×5
 > correct substitution into formula
 > 0.587, −2.39 3 A1 dep on M1
-> Question Working Answer Mark Notes
 
 - **(3)** 5x² + 9x – 7 (=0) M1 for correctly rearranging
 
@@ -309,7 +376,6 @@ t varies inversely as the square of a where a > 0 t = 14 when a = 5 Calculate th
 > 224 = 2 M1 or 5 ×
 > a
 > 1.25 4 A1 oe
-> Question Working Answer Mark Notes
 
 - **(4)** k M1
 
@@ -320,9 +386,12 @@ Diagram NOT accurately drawn 20 cm 6 cm A B The diagram shows two similar jugs. 
 
 ### 17 [4]
 
-Diagram NOT accurately drawn 20 cm 6 cm A B The diagram shows two similar jugs. The height of jug A is 20 cm and the height of jug B is 6 cm. Given that volume of jug A − volume of jug B = 1459.5 cm3 calculate the volume, in cm3, of jug B. cm3
+The diagram shows two similar jugs. The height of jug A is 20 cm and the height of jug B is 6 cm. Given that volume of jug A − volume of jug B = 1459.5 cm³ calculate the volume, in cm³, of jug B. cm³
 
-> 🖼 crop required: diagram (qp.pdf p.11)
+![figure — official paper figure (qp.pdf p.19)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-01R/assets/asset_17_17.png)
+> Labels in the original figure: A, B · Figure values: 20, 6.
+
+![figure — official paper figure (qp.pdf p.19)](assets/asset_17_17.png)
 
 
 **Mark scheme answer**
@@ -412,7 +481,6 @@ Solve the simultaneous equations 10x + 2y = 17 15x − 3y = 39 x= ,y=
 > e.g. 10 × 2.15 + 2y = 17 M1 (dep on M1) method to find second variable.
 > x = 2.15, 4 A1 for both 2.15oe and −2.25 oe dep on at least
 > y = − 2.25 M1
-> Question Working Answer Mark Notes
 
 - **(4)** e.g. 30x +6y = 51 30x + 6y = 51 M1 first stage of method to eliminate one variable
 
@@ -429,7 +497,7 @@ The coordinates of point A are (7, 2) and the coordinates of point B are (−5, 
 **Mark scheme answer**
 
 > ⃗⃗⃗⃗⃗⃗⃗ −12 M1 oe eg 13 − (7 − −5) 2
-> 𝐴𝐵 = ( ) ⇔ 169 = (𝑦 − 2)2 + 144
+> 𝐴𝐵 = ( ) ⇔ 169 = (𝑦 − 2)² + 144
 > 𝑦−2
 > y – 2 = ±5
 > 2 + 5 (=7) or 2 – 5 (= −3) M1
@@ -470,9 +538,12 @@ A Diagram NOT accurately drawn D C B E In the diagram ACE and BCD are straight l
 
 ### 22 [4]
 
-A Diagram NOT accurately drawn D C B E In the diagram ACE and BCD are straight lines such that the point C is the midpoint of BD. AB is parallel to DE. Prove that the triangles ABC and EDC are congruent.
+In the diagram ACE and BCD are straight lines such that the point C is the midpoint of BD. AB is parallel to DE. Prove that the triangles ABC and EDC are congruent.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, D, C, B, E.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_22_diagram.png)
 
 
 **Mark scheme answer**
@@ -485,7 +556,6 @@ A Diagram NOT accurately drawn D C B E In the diagram ACE and BCD are straight l
 > already mentioned
 > Shows proof 4 A1 Concludes proof by stating ABC and EDC are
 > congruent due to ASA
-> Question Working Answer Mark Notes
 
 - **(4)** M1 BC = DC (given C is midpoint of BD)
 
@@ -496,7 +566,7 @@ A right circular cone has a curved surface area of 136 π cm2 The radius of the 
 
 ### 23 [4]
 
-A right circular cone has a curved surface area of 136 π cm2 The radius of the base of the cone is 8 cm The volume of the cone is k π cm3 Find the value of k. k=
+A right circular cone has a curved surface area of 136 π cm² The radius of the base of the cone is 8 cm The volume of the cone is k π cm³ Find the value of k. k=
 
 
 **Mark scheme answer**
@@ -508,7 +578,6 @@ A right circular cone has a curved surface area of 136 π cm2 The radius of the 
 > 1 2
 > k = × 8 × 15
 > 320 4 A1
-> Question Working Answer Mark Notes
 
 - **(4)** slant height = 136 ÷ 8 (=17) M1
 
@@ -527,7 +596,7 @@ Solve 3 − − =1 2x + 9x − 5 x+5 Show clear algebraic working. x=
 > x +1 (2 x − 1) 2 M1 for use of a correct common denominator (no
 > 3− − = 1 oe need to collect terms)
 > (2 x − 1)( x + 5) (2 x − 1)( x + 5)
-> 4 x 2 − 3x + 2 M1 or 2(2x − 1)(x + 5) = x + 1 + (2x − 1)2 –
+> 4 x 2 − 3x + 2 M1 or 2(2x − 1)(x + 5) = x + 1 + (2x − 1)² –
 > 2= oe dependent on previous M mark
 > (2 x − 1)( x + 5)
 > 2(2 x 2 + 9 x − 5) = 4 x 2 − 3 x + 2 M1 – dependent on both previous M marks
@@ -557,7 +626,6 @@ There are 20 counters in a bag. There are 7 red counters. The rest of the counte
 > 20 19 20 19 4 19
 > 80 5 A1 oe allow 0.21 or better (0.21052...)
 > 380
-> Question Working Answer Mark Notes
 
 - **(5)** w w −1 1 M1
 
@@ -612,9 +680,12 @@ B Diagram NOT accurately drawn (2x − 5) cm 30° (x + 5) cm A C The diagram sho
 
 ### 27 [6]
 
-B Diagram NOT accurately drawn (2x − 5) cm 30° (x + 5) cm A C The diagram shows △ ABC in which AB = (2x − 5) cm BC = (x + 5) cm Ð ABC = 30° The area of △ ABC is 15.75 cm2 Calculate the length, in cm to 3 significant figures, of AC. cm
+− 5) cm 30° (x + 5) cm A C The diagram shows △ ABC in which AB = (2x − 5) cm BC = (x + 5) cm ∠ ABC = 30° The area of △ ABC is 15.75 cm² Calculate the length, in cm to 3 significant figures, of AC. cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C · Figure values: 30° · Other figure text: (2x − 5) cm, (x + 5) cm.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_27_diagram.png)
 
 
 **Mark scheme answer**
@@ -626,7 +697,6 @@ B Diagram NOT accurately drawn (2x − 5) cm 30° (x + 5) cm A C The diagram sho
 > x = 5.5 M1 and rejecting x = −8
 > AC= 6² + 10.5² − 2 × 6 × 10.5 × cos30 M1
 > 6.09 6 A1
-> Question Working Answer Mark Notes
 
 - **(6)** 0.5(2x – 5)(x + 5) × sin30° = 15.75 M1
 
@@ -634,7 +704,7 @@ B Diagram NOT accurately drawn (2x − 5) cm 30° (x + 5) cm A C The diagram sho
 ## Question 28 (7 marks)
 ### 28(a) [2]
 
-Factorise fully 15x3 y − 20x2 y2 (27 x ) 6 3
+Factorise fully 15x3 y − 20x2 y² (27 x ) 6 3
 
 
 **Mark scheme answer**

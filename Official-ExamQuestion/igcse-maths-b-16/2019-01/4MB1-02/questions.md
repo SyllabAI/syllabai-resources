@@ -8,7 +8,9 @@ Answer ALL TWELVE questions. Write your answers in the spaces provided. You must
 
 ### 1 [4]
 
-Answer ALL TWELVE questions. Write your answers in the spaces provided. You must write down all the stages in your working. D E C Diagram NOT accurately drawn B A Figure 1 Figure 1 shows part of a regular 12‑sided polygon. The vertices B and E of the polygon are joined with a straight line. Calculate the size, in degrees, of ∠ABE. Give reasons for each stage of your working.
+D E C Diagram NOT accurately drawn B A Figure 1 Figure 1 shows part of a regular 12‑sided polygon. The vertices B and E of the polygon are joined with a straight line. Calculate the size, in degrees, of ∠ABE. Give reasons for each stage of your working.
+
+![diagram — official paper figure (qp.pdf p.2)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02/assets/asset_1_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.2)](assets/asset_1_diagram.png)
 
@@ -51,7 +53,9 @@ The original price of each 6‑day ski pass is reduced by 15% in a sale. In the 
 
 ### 3(a) [2]
 
-Calculate the original price of each 6‑day ski pass. The price of each 3‑day ski pass is £110 The exchange rate is £1 = $1.70
+The original price of each 6‑day ski pass is reduced by 15% in a sale. In the sale the price of each 6‑day ski pass is \$272
+
+Calculate the original price of each 6‑day ski pass. The price of each 3‑day ski pass is £110 The exchange rate is £1 = \$1.70
 
 
 **Mark scheme answer**
@@ -75,7 +79,7 @@ Calculate how much Andrew will save by buying one 6‑day ski pass in the sale r
 > 272
 > 220 × 1.7 − 272 or 220 − M1
 > 1.7
-> $102 or £60 3 A1
+> \$102 or £60 3 A1
 
 - **(3)** 272
 
@@ -107,7 +111,6 @@ Find the next time that a train to Watson and a train to Barbe leave Denby stati
 > 14 48
 > LCM = 168 A1
 > 14:48 or 2.48 pm 3 A1
-> Question Working Answer Mark Notes
 
 - **(3)** Method to find the LCM
 
@@ -147,7 +150,6 @@ Show, by shading on the grid, the region R defined by all of the inequalities y 
 > R
 > Correct region identified
 > 3 B1
-> Question Working Answer Mark Notes
 
 - **(3)** Line y = 4 B1
 
@@ -194,7 +196,6 @@ n(P ∩ Sʹ )
 **Mark scheme answer**
 
 > 37 1 B1
-> Question Working Answer Mark Notes
 
 - **(3)** 37 1 B1
 
@@ -220,7 +221,7 @@ Calculate the number of times he would expect to score 1 Vincent plays the game 
 
 ### 7(b) [3]
 
-Calculate the probability that Vincent’s Total is greater than 6 Given that for these two games Vincent has a Total greater than 6 points,
+Calculate the probability that Vincent’s Total is greater than 6 Given that for these two games Vincent has a Total greater than 6 points …………… , ……………
 
 
 **Mark scheme answer**
@@ -242,7 +243,6 @@ calculate the probability that he got a score of 4 in the first of these two gam
 > 0.03 M1
 > "0.05"
 > 0.6 oe 3 A1
-> Question Working Answer Mark Notes
 
 - **(3)** 0.2 × 0.1 + 0.1 × 0.1 = 0.03 M1
 
@@ -306,7 +306,6 @@ Show that A, B and Q are collinear.
 > AB = −2a + 3b or AQ = − a + 4 b (B1)
 > AB = 3BQ ∴ A,B AQ = 4BQ ∴ A,B and (A1)
 > and Q are collinear Q are collinear
-> Question Working Answer Mark Notes
 > Condone missing label
 
 - **(4)** 4 ⎛ 2 ⎞ M1
@@ -318,7 +317,11 @@ The vertices of triangle A are the points with coordinates (0, 0), (1, 0) and (0
 
 ### 9(a) [1]
 
-On the grid opposite, draw and label triangle A. Triangle A is transformed to triangle B under the transformation with matrix M where ⎛ 3 −4⎞ M= ⎜ ⎝4 3⎟⎠
+The vertices of triangle A are the points with coordinates (0, 0), (1, 0) and (0, 2)
+
+On the grid opposite, draw and label triangle A. Triangle A is transformed to triangle B under the transformation with matrix M where ⎛ 3 −4⎞ M= 4 3 
+
+![grid — official paper figure (qp.pdf p.17)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17)](assets/asset_9_a_grid.png)
 
@@ -339,10 +342,9 @@ On the grid, draw and label triangle B. The transformation with matrix M is equi
 
 **Mark scheme answer**
 
-> ⎜ ⎟⎜ ⎟ M1
+>  M1
 > ⎝ 4 3 ⎠⎝0 0 2⎠
-> ⎛0 3 −8 ⎞
-> ⎜ ⎟ A1
+> 0 3 −8 A1
 > ⎝0 4 6 ⎠
 > Condone missing label Correct triangle drawn 3 A1
 
@@ -388,21 +390,21 @@ On the grid, draw and label triangle C. Triangle A is transformed to triangle C 
 
 ### 9(f) [2]
 
-Find matrix T. y –10 –8 –6 –4 –2 O 2 4 6 8 x –2 –4 –6 –8 –10 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y –10 –8 –6 –4 –2 O 2 4 6 8 x –2 –4 –6 –8 –10
+Find matrix T.
+
+![grid — official paper figure (qp.pdf p.17) (same figure as asset_9_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17) — shared with asset_9_a_grid](assets/asset_9_a_grid.png)
 
 
 **Mark scheme answer**
 
-> ⎜ ⎟⎜ ⎟ or 1 column correct M1
+>  or 1 column correct M1
 > ⎝0 −1 ⎠ ⎝ 4 3 ⎠
-> ⎛ 3 −4 ⎞
-> ⎜ ⎟ 2 A1
+>  3 −4 2 A1
 > ⎝ −4 −3 ⎠
-> Question Working Answer Mark Notes
 
-- **(2)** ⎜ ⎟⎜ ⎟ or 1 column correct M1
+- **(2)**  or 1 column correct M1
 
 
 ## Question 10 (13 marks)
@@ -477,7 +479,6 @@ Find the total distance, to the nearest metre, travelled by the rocket at the in
 
 > M1
 > awrt 257 2 A1
-> Question Working Answer Mark Notes
 > ⎛ 1⎞ ⎛ 1⎞
 
 - **(2)** M1
@@ -523,8 +524,7 @@ Find the coordinates of the points of intersection of C with the x‑axis.
 **Mark scheme answer**
 
 > ( 2 x + 1)( 2 x + 3 )( x − 2 ) = 0 M1
-> ⎛ 1 ⎞ ⎛ 3 ⎞
-> ⎜ − , 0 ⎟ , ⎜ − , 0 ⎟ , ( 2, 0 ) 2 A1
+> ⎛ 1 ⎞ ⎛ 3 − , 0 ⎟ , ⎜ − , 0 ⎟ , ( 2, 0 ) 2 A1
 > ⎝ 2 ⎠ ⎝ 2 ⎠
 
 - **(2)** ( 2 x + 1)( 2 x + 3 )( x − 2 ) = 0 M1
@@ -546,9 +546,17 @@ Find the coordinates, to 2 decimal places, of the turning points of C. The table
 
 ### 11(e) [3]
 
-On the grid opposite, draw the curve C for –2 ≤ x ≤ 2 Clearly label the coordinates of the turning points of C and the coordinates of the points of intersection with the x‑axis and the y‑axis. y –2 –1 O 1 2 3 x –5 –10 –15 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y –2 –1 O 1 2 3 x –5 –10 –15
+On the grid opposite, draw the curve C for –2 ≤ x ≤ 2 Clearly label the coordinates of the turning points of C and the coordinates of the points of intersection with the x‑axis and the y‑axis.
+
+![grid — official paper figure (qp.pdf p.25)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2019-01/4MB1-02/assets/asset_11_e_grid.png)
 
 ![grid — official paper figure (qp.pdf p.25)](assets/asset_11_e_grid.png)
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 
 ## Question 12 (12 marks)
@@ -557,7 +565,11 @@ Diagram NOT accurately drawn 2a cm b cm b cm Figure 3 Figure 3 shows a solid sil
 
 ### 12(a) [2]
 
-Find an expression for A in terms of π, a and b. Given that a = 6 5 and that the surface area of the paperweight can be written as (2b2 + 6ab + 60π 15) cm2
+Diagram NOT accurately drawn 2a cm b cm b cm Figure 3 Figure 3 shows a solid silver paperweight made from a cuboid and a half cylinder. The cuboid is 2a cm wide, b cm long and b cm high. The plane face of the half cylinder coincides with the top face of the cuboid. The total surface area of the paper weight is A cm²
+
+Find an expression for A in terms of π, a and b. Given that a = 6 5 and that the surface area of the paperweight can be written as (2b2 + 6ab + 60π 15)
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -576,28 +588,21 @@ Find an expression for A in terms of π, a and b. Given that a = 6 5 and that th
 
 show that the exact value of b is 10 3 – 6 5 The paperweight is melted down to form a different cuboid. This second cuboid is 2a cm wide, b cm long and h cm high, as shown in Figure 4. F G Diagram NOT accurately drawn E H h cm B C A b cm 2a cm D Figure 4
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.27)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
 
-> π 6 5 or π 6 5 b M1
-> π ( 6 5 ) + π ( 6 5 ) b = 60π 15
-> M1
-> 60π 15 − π ( 6 5 )
-> b= M1
-> π (6 5 )
-> 60π 15 − π ( 6 5 )
-> b= × or
-> π (6 5 )
-> M1
-> 60 15 ( 6 5 )
-> 60 75 − 180 5
-> b= − or b =
-> 6 5 6 5
-> b = 10 3 − 6 5 5 A1 cso
+> π(6√5)² or π(6√5)b M1
+> π(6√5)² + π(6√5)b = 60π√15 M1
+> b = (60π√15 − π(6√5)²)/(π(6√5)) M1
+> b = (60π√15 − π(6√5)²)/(π(6√5)) × √5/√5 or M1
+> b = 60√15/(6√5) − (6√5)²/(6√5) or b = (60√75 − 180√5)/30
+> b = 10√3 − 6√5 A1 cso
 
-- **(5)** π 6 5 or π 6 5 b M1
+- **(5)** π(6√5)² or π(6√5)b M1
 
 ### 12(c) [5]
 
@@ -606,29 +611,12 @@ Calculate the size, to the nearest degree, of angle GAC. ⎡ Volume of cylinder 
 
 **Mark scheme answer**
 
-> 1
-> 2abh = "2ab 2 + π a 2b " M1
-> ⎛ 1 ⎞
-> ⎜h = b+ πa⎟
-> ⎝ 4 ⎠
-> h = 10 3 − 6 5 + π × 6 5 or awrt 14.4 M1
-> (10 3 − 6 5 ) + (12 5 ) or awrt
-> 2
-> AC =
-> M1
-> 27.1
-> "14.4"
-> [ ∠GAC ] = tan −1 M1
-> "27.1"
-> awrt 28 5 A1
-> y
-> (-1.03,3.02)
-> -2 -1 0 1 2 3 x
-> -1.5
-> -6 -5
-> -10
-> -15
-> (1.04,-15)
+> 2abh = "2ab² + (1/2)πa²b" M1
+> (h = b + (1/4)πa)
+> h = 10√3 − 6√5 + (1/4)π × 6√5 or awrt 14.4 M1
+> AC = √((10√3 − 6√5)² + (12√5)²) or awrt 27.1 M1
+> [∠GAC] = tan⁻¹("14.4"/"27.1") M1
+> awrt 28 A1
 
-- **(5)** 1
+- **(5)** 2abh = "2ab² + (1/2)πa²b" M1
 

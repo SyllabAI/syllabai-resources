@@ -22,7 +22,6 @@ Calculate the value of 7.1 Give your answer as a decimal to 5 significant figure
 > 322
 > SC1 for
 > 205
-> cas Total 2 marks
 
 - **(2)** 1.5707 2 B2 for 1.5707
 
@@ -33,7 +32,7 @@ The nth term of a sequence is given by 12 − 7 n Find the first 3 terms of this
 
 ### 2 [2]
 
-The nth term of a sequence is given by 12 − 7 n Find the first 3 terms of this sequence , ,
+The nth term of a sequence is given by 12 − 7 n Find the first 3 terms of this sequence …………… , …………… , ……………
 
 
 **Mark scheme answer**
@@ -44,7 +43,6 @@ The nth term of a sequence is given by 12 − 7 n Find the first 3 terms of this
 > incorrectly to answer line, mark the correct work
 > and isw. Also B2 if answers correct in working
 > and not transcribed.
-> cas Total 2 marks
 
 - **(2)** 5, −2, −9 2 B2 −1 for every error or omission
 
@@ -55,7 +53,9 @@ Find the size of an interior angle of a regular polygon with 30 sides. .........
 
 ### 3 [2]
 
-Find the size of an interior angle of a regular polygon with 30 sides °
+Find the size of an interior angle of a regular polygon with 30 sides
+
+…………… °
 
 
 **Mark scheme answer**
@@ -67,8 +67,6 @@ Find the size of an interior angle of a regular polygon with 30 sides °
 > 360/30 [= 12] for calculating the exterior angle. May be seen or
 > used in further working eg [180 – 360/30]
 > 168 A1
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 180(30 – 2) [= 5040] 2 M1 for the method for calculating the sum of
 
@@ -119,7 +117,6 @@ Without using a calculator and showing all your working, evaluate 2 4 5 −2 3 5
 > 4 −2 = 2
 > 15 15 15 their working to indicate subtraction.
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 17 14 3 M1 for correctly writing the fractions as improper,
 
@@ -130,20 +127,23 @@ Diagram NOT B accurately drawn 42.5 cm 20 cm A C The diagram shows the right-ang
 
 ### 5 [2]
 
-Diagram NOT B accurately drawn 42.5 cm 20 cm A C The diagram shows the right-angled triangle ABC AB = 20 cm BC = 42.5 cm BAC Calculate the length of AC cm
+The diagram shows the right-angled triangle ABC AB = 20 cm BC = 42.5 cm BAC Calculate the length of AC cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, A, C · Figure values: 42.5, 20.
+
+![diagram — official paper figure (qp.pdf p.3)](assets/asset_5_diagram.png)
 
 
 **Mark scheme answer**
 
-> eg AC 2 + 202 = 42.52 or 2 M1 for applying Pythagoras theorem correctly.
-> AC 2 + 400 = 1806.25 or 1406.25 implies this mark.
-> Be aware 42.52 = AC 2 + 202 − 2 × 20 × cos 90 is equivalent and
-> ⎡⎣ AC 2 = ⎤⎦ 1806.25 − 400 or [AC=] 42.5 − 20
+> eg $AC^2$ + $20^2$ = $42.5^2$ or 2 M1 for applying Pythagoras theorem correctly.
+> $AC^2$ + 400 = 1806.25 or 1406.25 implies this mark.
+> Be aware $42.5^2$ = $AC^2$ + $20^2$ − 2 × 20 × cos 90 is equivalent and
+> ⎡⎣ $AC^2$ = ⎤⎦ 1806.25 − 400 or [AC=] 42.5 − 20
 > 2
 > M1
-> ⎡⎣ AC 2 = ⎤⎦ 42.52 − 202 ( = 1406.25)
+> ⎡⎣ $AC^2$ = ⎤⎦ $42.5^2$ − $20^2$ ( = 1406.25)
 > Allow any letters or labelling that implies a correct use of
 > Pythagoras.
 > 37.5 A1
@@ -151,9 +151,8 @@ Diagram NOT B accurately drawn 42.5 cm 20 cm A C The diagram shows the right-ang
 > cos B = or
 > 42.5
 > Allow any letters or labelling that implies a correct use of
-> [ B =] cos −1 ⎛⎜
-> 20 ⎞
-> ⎟ ( = 61.9275...) Trigonometry.
+> [ B =] cos −1 
+> 20 ( = 61.9275...) Trigonometry.
 > ⎝ 42.5 ⎠
 > and
 > oe method using non right-angled trig
@@ -163,13 +162,13 @@ Diagram NOT B accurately drawn 42.5 cm 20 cm A C The diagram shows the right-ang
 > sin C sin 90
 > or [ AC = ] tan ("61.9275...") × 20
 > −1 ⎛ 20 ⎞
-> or eg or [C = ] sin ⎜⎝ 42.5 × sin 90 ⎟⎠ ( = 28.0724.... ) oe
+> or eg or [C = ] sin 42.5 × sin 90 ( = 28.0724.... ) oe
 > sin C =
 > 42.5
 > or and [ AC = ]
-> [C =] sin −1 ⎛⎜
-> 20 ⎞ 202 + 42.52 − 2 × 20 × 42.5cos (180 − "28.0724"− 90 ) oe
-> ⎟ ( = 28.0724...)
+> [C =] sin −1 
+> 20 202 + 42.52 − 2 × 20 × 42.5cos (180 − "28.0724"− 90 ) oe
+>  ( = 28.0724...)
 > ⎝ 42.5 ⎠
 > and
 > tan ("28.0724...") =
@@ -178,10 +177,8 @@ Diagram NOT B accurately drawn 42.5 cm 20 cm A C The diagram shows the right-ang
 > or [ AC = ]
 > 37.5 oe A1
 > eg 75/2 This is an exact answer but allow awrt 75/2 or 37.5
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
-- **(2)** eg AC 2 + 202 = 42.52 or 2 M1 for applying Pythagoras theorem correctly.
+- **(2)** eg $AC^2$ + $20^2$ = $42.5^2$ or 2 M1 for applying Pythagoras theorem correctly.
 
 
 ## Question 6 (2 marks)
@@ -227,8 +224,6 @@ On the number line below represent the inequality 4 ≤ x x −5 −4 −3 −2 
 > allow the line drawn to be on the printed number line.
 > A1 Both end points identified using the correct symbols
 > and one correct line drawn between the two correct points.
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** closed circle at x = −4 or 2 M1
 
@@ -297,52 +292,54 @@ The numbers D, E and F are given as products of their prime factors D 29 3 x E 2
 
 ### 10(a) [1]
 
-Find the Highest Common Factor (HCF) of D and E Give your answer in terms of x as a product of prime factors.
+The numbers $D$, $E$ and $F$ are given as products of their prime factors
+
+$D = 2^9 \times 3^x$
+
+$E = 2^2 \times 3^{x+1}$
+
+$F = 2^4 \times 3^{2x+1} \times 7^{x+1}$
+
+where $x$ is a positive integer.
+
+Find the Highest Common Factor (HCF) of $D$ and $E$
+
+Give your answer in terms of $x$ as a product of prime factors.
 
 
 **Mark scheme answer**
 
-> 2 2 × 3x 1 B1 do not isw Condone eg 223x
-> Allow 2 × 2 but not 4
+> $2^2 \times 3^x$ 1 B1 do not isw Condone eg $2^2 3^x$
+> Allow $2 \times 2$ but not 4
 
-- **(1)** 2 2 × 3x 1 B1 do not isw Condone eg 223x
+- **(1)** $2^2 \times 3^x$ 1 B1 do not isw Condone eg $2^2 3^x$
 
 ### 10(b) [1]
 
-Find the Lowest Common Multiple (LCM) of E and F Give your answer in terms of x as a product of prime factors. Given that x is even,
+Find the Lowest Common Multiple (LCM) of $E$ and $F$
+
+Give your answer in terms of $x$ as a product of prime factors.
+
+Given that $x$ is even,
 
 
 **Mark scheme answer**
 
-> 2
-> or
-> 27 + 6 + 10
-> [ total students] = 600 × [ = 2580]
-> and "2580"× or
-> 27 + 6 + 10
-> "2580"− 600 − "360" oe
-> 360 ×11
-> or 960 – 600 [=360] and [=1980]
-> and 1980 – 360 = 1620
-> 1620 A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
+> $2^4 \times 3^{2x+1} \times 7^{x+1}$ 1 B1 condone eg $2^4 \times 3^{2x} \times 3^1 \times 7^x \times 7^1$ for B1
 > do not isw
-> Condone 2432 x +17 x +1
-> Allow 2 × 2 × 2 × 2 but not16
+> Condone $2^4 3^{2x+1} 7^{x+1}$
+> Allow $2 \times 2 \times 2 \times 2$ but not 16
 
-- **(1)** 2
+- **(1)** $2^4 \times 3^{2x+1} \times 7^{x+1}$ 1 B1 condone eg $2^4 \times 3^{2x} \times 3^1 \times 7^x \times 7^1$ for B1
 
 ### 10(c) [1]
 
-find the least number that F must be multiplied by to give a square number.
+find the least number that $F$ must be multiplied by to give a square number.
 
 
 **Mark scheme answer**
 
 > 21 1 B1 cao
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 21 1 B1 cao
 
@@ -424,9 +421,12 @@ Diagram NOT accurately drawn B C 7 cm 5 cm E A 13 cm D In the diagram A, B, C an
 
 ### 13 [3]
 
-Diagram NOT accurately drawn B C 7 cm 5 cm E A 13 cm D In the diagram A, B, C and D are points on a circle. AEC is a diameter of the circle. BED is a chord of the circle. AE = 5 cm BE = 7 cm ED = 13 cm Calculate, in cm, the radius of the circle cm
+In the diagram A, B, C and D are points on a circle. AEC is a diameter of the circle. BED is a chord of the circle. AE = 5 cm BE = 7 cm ED = 13 cm Calculate, in cm, the radius of the circle cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, E, A, D · Figure values: 7, 5, 13.
+
+![diagram — official paper figure (qp.pdf p.8)](assets/asset_13_diagram.png)
 
 
 **Mark scheme answer**
@@ -439,8 +439,6 @@ Diagram NOT accurately drawn B C 7 cm 5 cm E A 13 cm D In the diagram A, B, C an
 > working or is clearly labelled.
 > EC must not be 15.
 > 11.6 A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 5 × EC = 13 × 7(= 91) or 3 M1 correct equation in EC or correct method to find
 
@@ -451,9 +449,12 @@ Diagram NOT accurately drawn B C 7 cm 5 cm E A 13 cm D In the diagram A, B, C an
 
 ### 14 [3]
 
-120 100 Distance travelled (metres) 60 0 1 2 3 4 5 6 Time (t seconds) The graph shows the distance travelled by a car at time t seconds. By drawing a suitable straight line, estimate the speed of the car when t = 5 Give your answer in m/s to 2 significant figures m/s
+Distance travelled (metres) 60 0 1 2 3 4 5 6 Time (t seconds) The graph shows the distance travelled by a car at time t seconds. By drawing a suitable straight line, estimate the speed of the car when t = 5 Give your answer in m/s to 2 significant figures m/s
 
-> 🖼 crop required: graph (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram.*
+> Figure values: 120, 100.
+
+![graph — official paper figure (qp.pdf p.9)](assets/asset_14_graph.png)
 
 
 **Mark scheme answer**
@@ -470,14 +471,13 @@ Diagram NOT accurately drawn B C 7 cm 5 cm E A 13 cm D In the diagram A, B, C an
 > Working may be seen on the diagram
 > If the answer is not in range, we must see a
 > calculation for the gradient of the form
-> y2 − y1
-> x2 − x1
+> y² − y1
+> x² − x1
 > 30 A1 dep on first M1 answer range 24-36 inclusive.
 > Must come from a gradient of a tangent and not
 > gradient of a chord.
 > Must see tangent drawn.
 > wr Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 for drawing a tangent to the curve at t = 5
 
@@ -488,9 +488,12 @@ Diagram NOT accurately drawn R O 28° x° U S T R and T are two points on a circ
 
 ### 15 [4]
 
-Diagram NOT accurately drawn R O 28° x° U S T R and T are two points on a circle, centre O STU is the tangent to the circle at the point T ROS is a straight line. OTR OST x Calculate the value of x Give reasons for each stage of your working. x =
+x° U S T R and T are two points on a circle, centre O STU is the tangent to the circle at the point T ROS is a straight line. OTR OST x Calculate the value of x Give reasons for each stage of your working. x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: R, O · Figure values: 28°.
+
+![diagram — official paper figure (qp.pdf p.10)](assets/asset_15_diagram.png)
 
 
 **Mark scheme answer**
@@ -523,8 +526,6 @@ Diagram NOT accurately drawn R O 28° x° U S T R and T are two points on a circ
 > 180
 > Angle at centre = Double angle at circumference
 > Allow an angle symbol for the word angle.
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** [Angle ROT =] 180 – 2 × 28 [= 124] 4 M1 for method to find TOR
 
@@ -532,44 +533,37 @@ Diagram NOT accurately drawn R O 28° x° U S T R and T are two points on a circ
 ## Question 16 (4 marks)
 ### 16(a) [2]
 
-Factorise fully 10 p 2 q 4 − 15 p 3q
+Factorise fully $10p^2q^4 - 15p^3q$
 
 
 **Mark scheme answer**
 
-> 5 p q(2q − 3 p)
-> 2 3 2 B2 for 5 p q(2q − 3 p)
-> 2
+> $5p^2q(2q^3 - 3p)$ 2 B2 for $5p^2q(2q^3 - 3p)$
 > (B1 for correct partial factorisation seen on answer line
-> or working space 5 p (2q − 3 pq) or p q (10q − 15 p )
-> 2 4 2
-> or 5q (2 p q − 3 p ) or 5 p q(2q − 3 p) or
-> 2 3 3 2
-> 5 pq(2 pq3 − 3 p2 )
+> or working space $5p^2(2q^4 - 3pq)$ or $p^2q(10q^3 - 15p)$
+> or $5q(2p^2q^3 - 3p^3)$ or $5p^2q(2q^3 - 3p)$ or
+> $5pq(2pq^3 - 3p^2)$
 > or for correctly identifying the HCF in a factorisation
-> of the form 5 p q(aq ± ...) or 5 p 2 q(... ± bp)
-> 2
-> where a and b are integers).
+> of the form $5p^2q(aq^3 \pm ...)$ or $5p^2q(... \pm bp)$
+> where $a$ and $b$ are integers).
 
-- **(2)** 5 p q(2q − 3 p)
+- **(2)** $5p^2q(2q^3 - 3p)$ 2 B2 for $5p^2q(2q^3 - 3p)$
 
 ### 16(b) [2]
 
-Factorise 2 x 2 − 9 x − 5
+Factorise $2x^2 - 9x - 5$
 
 
 **Mark scheme answer**
 
-> (2 x + 1)( x − 5) 2 B2
+> $(2x + 1)(x - 5)$ 2 B2
 > (B1 for any factorisation of the form
-> (ax + b)( x + c), where a, b and c are integers
+> $(ax + b)(x + c)$, where $a$, $b$ and $c$ are integers
 > which expands to give 2 out of 3 correct terms
 > B1 if further work shows a misunderstanding, such as
 > solving)
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(2)** (2 x + 1)( x − 5) 2 B2
+- **(2)** $(2x + 1)(x - 5)$ 2 B2
 
 
 ## Question 17 (4 marks)
@@ -578,9 +572,12 @@ Diagram NOT accurately drawn 8 cm 16 cm 24 cm The diagram shows six solid sphere
 
 ### 17 [4]
 
-Diagram NOT accurately drawn 8 cm 16 cm 24 cm The diagram shows six solid spheres placed inside a hollow cuboid. The cuboid measures 16 cm by 24 cm by 8 cm Each sphere has a diameter of 8 cm Calculate the volume, in cm 3 to 3 significant figures, of the space inside the cuboid that is not occupied by the spheres cm3
+The diagram shows six solid spheres placed inside a hollow cuboid. The cuboid measures 16 cm by 24 cm by 8 cm Each sphere has a diameter of 8 cm Calculate the volume, in cm³ to 3 significant figures, of the space inside the cuboid that is not occupied by the spheres cm³
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Figure values: 8, 16, 24.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_17_diagram.png)
 
 
 **Mark scheme answer**
@@ -590,11 +587,11 @@ Diagram NOT accurately drawn 8 cm 16 cm 24 cm The diagram shows six solid sphere
 > cube around each ball and follow this
 > (whole cuboid=) ( 8 × 3) × ( 8 × 2 ) × ( 8 ) [= 3072] or through to get a correct answer
 > 4 ⎛ 8 ⎞ ⎡ 256π M1 for volume of 1 or n balls where n is an
-> ⎤
-> (1 ball=) π ⎜ ⎟ ⎢ = = 268.0825731⎥ or integer.
+> 
+> (1 ball=) π = = 268.0825731 or integer.
 > 3 ⎝2⎠ ⎣ 3 ⎦
 > 4 ⎛8⎞
-> n× π ⎜ ⎟
+> n× π 
 > (n balls=) 3 ⎝2⎠
 > [ = 512π = 1608.495439] for 6 balls
 > eg "3072 − 512π " oe M1 for a complete method to find the
@@ -603,8 +600,6 @@ Diagram NOT accurately drawn 8 cm 16 cm 24 cm The diagram shows six solid sphere
 > ⎝ 3 ⎠
 > but implies previous 2 marks).
 > 1460 A1 awrt 1460 (1463.504561)
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** (cube surrounding 1 cube around a sphere=) 4 M1 for volume of cuboid
 
@@ -658,8 +653,6 @@ Find the probability that this flight was late by greater than 120 minutes.
 > •
 > If writing a decimal 0.26r , 0.2 6 , 0.26…(minimum one 6),
 > 0.27. Do not accept 0.3.
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 4 1 240
 
@@ -695,31 +688,30 @@ f is directly proportional to g 2 f = 9 when g = 5 g is inversely proportional t
 > [9 = 25k ] [ K = 4 × 5 = 20]
 > are constants of proportionality ≠ 1
 > ⎡ 9⎤ May be implied by the 3rd M1.
-> ⎢⎣ k =
-> 25 ⎥⎦
+>  k =
+> 25 
 > K M1 for substitution of values into both equations 9 = k 52 oe
 > 9 = k 52 and 5=
 > 4 K
 > and 5 = oe allow use of ‘α’ instead of ‘=’, so long as there
 > [9 = 25k ] [ K = 4 × 5 = 20]
 > ⎡ 9⎤ are constants of proportionality ≠ 1 Implied by the correct
-> ⎢⎣ k =
-> 25 ⎥⎦
+>  k =
+> 25 
 > values for both constants.
 > 9 2 20 9 ⎛ 20 ⎞
 > 2 144
 > f = g g= A1 oe eg f = Must see f = at least once
-> 25 h f = ⎜ ⎟ h2
+> 25 h f = h2
 > 25 ⎝ h ⎠
 > 9 ⎛ 20 ⎞
-> f = ⎜ ⎟ The question doesn’t ask for simplification, Equivalents are
+> f = The question doesn’t ask for simplification, Equivalents are
 > 25 ⎝ h ⎠ fine. Once the correct unsimplified answer is seen, you may
 > ⎡ 9 ⎛ 400 ⎞ ⎛ 3600 ⎞ ⎤ isw. Do not allow poor notation eg f =
 > 9 20
 > ×
-> ⎢ f = 25 ⎜ h 2 ⎟ = ⎜ 25h 2 ⎟ ⎥ 25 h
+> ⎢ f = 25 ⎜ h 2 ⎟ = ⎜ 25h 2 25 h
 > ⎣ ⎝ ⎠ ⎝ ⎠⎦
-> Total 4 marks
 > ALT k M1 for combining two equations
 > f =
 > h2
@@ -739,8 +731,6 @@ f is directly proportional to g 2 f = 9 when g = 5 g is inversely proportional t
 > are fine.
 > Do not allow poor notation.
 > Allow any value of g, due to the g cancelling.
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** eg f = kg
 
@@ -751,7 +741,7 @@ A solid right cylinder is made of wood. The mass of the cylinder is 2140 g, to t
 
 ### 20 [4]
 
-A solid right cylinder is made of wood. The mass of the cylinder is 2140 g, to the nearest 10 g The radius of the cylinder is 8.5 cm, to the nearest 0.5 cm The density of the wood is 0.7 g/cm 3, to the nearest 0.1 g/cm 3 mass Given that density = volume and taking the value of π as 3.142 calculate the lower bound, in cm to one decimal place, of the height of the cylinder. Show all your working cm
+A solid right cylinder is made of wood. The mass of the cylinder is 2140 g, to the nearest 10 g The radius of the cylinder is 8.5 cm, to the nearest 0.5 cm The density of the wood is 0.7 g/cm³, to the nearest 0.1 g/cm³ mass Given that density = volume and taking the value of π as 3.142 calculate the lower bound, in cm to one decimal place, of the height of the cylinder. Show all your working cm
 
 
 **Mark scheme answer**
@@ -785,7 +775,6 @@ A solid right cylinder is made of wood. The mass of the cylinder is 2140 g, to t
 > 3.142 × 8.752 × 0.75 use 2135, 8.75 (Allow 8.7499…), 0.75 (Allow
 > 0.7499…) but may be seen in stages.
 > wr Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** [mLB =] 2135, [mUB =] 2145 4 B1 For one correct LB or UB seen or used.
 
@@ -796,33 +785,32 @@ A A B C 5 10 2 p 4 1 3 8
 
 ### 21(a) [2]
 
-Find matrix B, giving the elements of B in terms of p where appropriate.
+$\mathbf{A} = \begin{pmatrix} 2 & -3 \\ -5 & 10 \end{pmatrix}\qquad \mathbf{A} - \mathbf{B} = \begin{pmatrix} 1 & p \\ -2p & 4 \end{pmatrix}\qquad \mathbf{C} = \begin{pmatrix} 4 & -5 & 2 \\ -1 & 3 & 8 \end{pmatrix}$
+
+Find matrix $\mathbf{B}$, giving the elements of $\mathbf{B}$ in terms of $p$ where appropriate.
 
 
 **Mark scheme answer**
 
-> ⎛ 1 −3 − p ⎞ 2 B2 correct
-> ⎜ ⎟ (B1 for 3 correct values or expressions in the correct
-> ⎝ −5 + 2 p 6 ⎠
+> $\begin{pmatrix} 1 & -3-p \\ -5+2p & 6 \end{pmatrix}$ 2 B2 correct
+> (B1 for 3 correct values or expressions in the correct
 > position)
 
-- **(2)** ⎛ 1 −3 − p ⎞ 2 B2 correct
+- **(2)** $\begin{pmatrix} 1 & -3-p \\ -5+2p & 6 \end{pmatrix}$ 2 B2 correct
 
 ### 21(b) [2]
 
-Find A −1
+Find $\mathbf{A}^{-1}$
 
 
 **Mark scheme answer**
 
-> 1 ⎛10 3⎞ 2 B2 correct
-> ⎜ ⎟ oe (B1 for a correct method to find the determinant
-> 5⎝ 5 2⎠
+> $\frac{1}{5}\begin{pmatrix} 10 & 3 \\ 5 & 2 \end{pmatrix}$ oe 2 B2 correct
+> (B1 for a correct method to find the determinant
 > and
-> ⎛2 0.6 ⎞ 2 other values correct in the correct position.
-> eg ⎜ ⎟
-> ⎝1 0.4 ⎠ For determinant
-> 2 ×10 − ( −3 × −5 ) allow 2 ×10 − 3 × 5 oe
+> $\begin{pmatrix} 2 & 0.6 \\ 1 & 0.4 \end{pmatrix}$ other values correct in the correct position.
+> eg For determinant
+> $2 \times 10 - (-3 \times -5)$ allow $2 \times 10 - 3 \times 5$ oe
 > Allow the presence of 5 or 1/5 with no contradictory
 > work to imply this mark.)
 > or
@@ -830,26 +818,24 @@ Find A −1
 > and
 > an attempt to find the determinant – one error only
 > involving multiplication of diagonals
-> eg 2 ×10 + ( −3 × −5 ) eg 2 ×10 − ( −3 × 5 ) )
+> eg $2 \times 10 + (-3 \times -5)$ eg $2 \times 10 - (-3 \times 5)$ )
 > If the correct matrix is seen in the working space,
 > with the det then incorrectly included inside, isw.
 
-- **(2)** 1 ⎛10 3⎞ 2 B2 correct
+- **(2)** $\frac{1}{5}\begin{pmatrix} 10 & 3 \\ 5 & 2 \end{pmatrix}$ oe 2 B2 correct
 
 ### 21(c) [2]
 
-Find AC
+Find $\mathbf{AC}$
 
 
 **Mark scheme answer**
 
-> ⎛ 11 −19 −20 ⎞ 2 B2 correct
-> ⎜ ⎟ (B1 for 3, 4 or 5 correct values in the correct
-> ⎝ −30 55 70 ⎠ position)
-> cas Total 6 marks
-> Question Working Answer Mark Notes
+> $\begin{pmatrix} 11 & -19 & -20 \\ -30 & 55 & 70 \end{pmatrix}$ 2 B2 correct
+> (B1 for 3, 4 or 5 correct values in the correct
+> position)
 
-- **(2)** ⎛ 11 −19 −20 ⎞ 2 B2 correct
+- **(2)** $\begin{pmatrix} 11 & -19 & -20 \\ -30 & 55 & 70 \end{pmatrix}$ 2 B2 correct
 
 
 ## Question 22 (6 marks)
@@ -858,59 +844,49 @@ Solve the simultaneous equations 3x 2 x 2y 2x 3y Show clear algebraic working.
 
 ### 22 [6]
 
-Solve the simultaneous equations 3x 2 x 2y 2x 3y Show clear algebraic working.
+Solve the simultaneous equations
+
+$3x^2 - \dfrac{10}{3}x + 3 = 2y$
+
+$2x + 3y = 4$
+
+Show clear algebraic working.
 
 
 **Mark scheme answer**
 
-> 4 − 2x ⎛ 4 − 2x ⎞ 10 6 M1 for substituting a rearranged linear equation into the correct
-> y= ⎟ = 3x − x + 3
-> and 2 ⎜ oe quadratic equation (or a rearranged quadratic equation into the
-> 3 ⎝ 3 ⎠ 3 correct linear equation) to form an un-simplified equation in one
-> or variable – allow one sign error only in the rearranged equation.
-> ⎛ 4 − 3 y ⎞ 10 ⎛ 4 − 3 y ⎞
-> 2 This mark may be implied by a correct equation (simplified or
-> 4 − 3y
-> x= and 2 y = 3 ⎜ ⎟ − ⎜ ⎟ + 3oe unsmplified) in terms of x or y Eg 8 − 4 x = 9 x 2 − 10 x + 9
-> 2 ⎝ 2 ⎠ 3⎝ 2 ⎠
-> 9 x 2 − 6 x + 1(= 0) or M1 dep on 1st M mark for simplifying to a 3 term quadratic with
-> least 2 terms correct
-> 81y 2 − 180 y + 100(= 0) or (oe so look for signs reversed or any multiples of coefficients,
-> or eg 18 x 2 − 12 x = −2 doesn’t need to = 0 if terms collected on one ‘side’)
-> M1 dep on 1st M mark for valid method to solve their quadratic.
-> 6 ± (−6) 2 − 4 × 9 × 1
-> If factorising must multiply out to give 2 correct terms.
-> (3x − 1)2 (= 0) oe or 2×9 oe Allow use of formula with one sign error.
-> or −27 ± 27 2 − 4 × 3 × ( −188 )
-> 180 ± (−180) 2 − 4 × 81×100 [ x =]
-> 2×3 .
-> (9 y − 10) ( = 0) or
-> 2 × 81 Allow completing the square with one sign error only.
+> $y = \frac{4-2x}{3}$ and $2\left(\frac{4-2x}{3}\right) = 3x^2 - \frac{10}{3}x + 3$ oe 6 M1 for substituting a rearranged linear equation into the correct
+> or quadratic equation (or a rearranged quadratic equation into the
+> correct linear equation) to form an un-simplified equation in one
+> variable – allow one sign error only in the rearranged equation.
+> $x = \frac{4-3y}{2}$ and $2y = 3\left(\frac{4-3y}{2}\right)^2 - \frac{10}{3}\left(\frac{4-3y}{2}\right) + 3$ oe This mark may be implied by a correct equation (simplified or
+> unsmplified) in terms of x or y Eg $8 - 4x = 9x^2 - 10x + 9$
+> $9x^2 - 6x + 1 (= 0)$ or M1 dep on 1st M mark for simplifying to a 3 term quadratic with
+> $81y^2 - 180y + 100 (= 0)$ or least 2 terms correct
+> or eg $18x^2 - 12x = -2$ (oe so look for signs reversed or any multiples of coefficients,
+> doesn't need to = 0 if terms collected on one 'side')
+> $(3x - 1)^2 (= 0)$ oe or $\frac{6 \pm \sqrt{(-6)^2 - 4\times9\times1}}{2\times9}$ oe M1 dep on 1st M mark for valid method to solve their quadratic.
+> or If factorising must multiply out to give 2 correct terms.
+> Allow use of formula with one sign error.
+> $(9y - 10)^2 (= 0)$ or $\frac{180 \pm \sqrt{(-180)^2 - 4\times81\times100}}{2\times81}$ $[x =] \frac{-27 \pm \sqrt{27^2 - 4\times3\times(-188)}}{2\times3}$.
+> Allow completing the square with one sign error only.
 > Implied by correct values. If not correct, method must be shown.
-> 1 10 A1 dependent on a correct quadratic
-> x= y= for a correct value of x or y
-> 3 oe or 9 oe
-> 4 − 2 ×" 3 "1 M1 Dep on 1st M.
-> [ y =] 2 × " 13 "+ 3 y = 4 Substitute their value of x or y into a correct equation or
-> Eg 3 or expression or starting again and giving a correct unsimplified
-> 4 − 3 × " 109 "
-> [ x =] 2 x + 3 × " 109 " = 4
-> equation for the relevant variable.
+> $x = \frac{1}{3}$ oe or $y = \frac{10}{9}$ oe A1 dependent on a correct quadratic
+> for a correct value of x or y
+> Eg $[y =] \frac{4 - 2\times"\frac{1}{3}"}{3}$ or $2\times"\frac{1}{3}" + 3y = 4$ M1 Dep on 1st M.
+> or Substitute their value of x or y into a correct equation or
+> expression or starting again and giving a correct unsimplified
+> $[x =] \frac{4 - 3\times"\frac{10}{9}"}{2}$ or $2x + 3\times"\frac{10}{9}" = 4$ equation for the relevant variable.
 > Implied by a correct pair of values.
-> or 2 or
 > If values of x or y are incorrect then working must be shown
 > If 2 values are found from an incorrect equation – only 1 needs
 > to be substituted for the mark.
-> 1 A1 oe dep on any previous 2 method marks being awarded
-> x= •
-> 3 oe
-> x = 0.3 or 0.3r or 0.33... not 0.3
-> y= Allow •
-> and x = 1.1 or 1.1r or 1.11... not 1.1
+> $x = \frac{1}{3}$ oe A1 oe dep on any previous 2 method marks being awarded
+> and $y = \frac{10}{9}$ Allow x=0.̇ or 0.̇r or 0.33... not 0.3
+> y=1.1̇ or 1.1̇r or 1.11... not 1.1
 > wr Total 6 marks
-> Question Working Answer Mark Notes
 
-- **(6)** 4 − 2x ⎛ 4 − 2x ⎞ 10 6 M1 for substituting a rearranged linear equation into the correct
+- **(6)** $y = \frac{4-2x}{3}$ and $2\left(\frac{4-2x}{3}\right) = 3x^2 - \frac{10}{3}x + 3$ oe 6 M1 for substituting a rearranged linear equation into the correct
 
 
 ## Question 23 (7 marks)
@@ -969,14 +945,12 @@ Find the mean number of hours worked last week by the remaining 9 employees hour
 
 **Mark scheme answer**
 
-> 33 ×100 − 2976(= 324) 3 M1 find the total for the 9 trainees
-> "324" M1 dep on 1st M mark for complete method to find the mean wage
-> 9 for the 9 trainees
+> $33 \times 100 - 2976 (= 324)$ 3 M1 find the total for the 9 trainees
+> $\frac{"324"}{9}$ M1 dep on 1st M mark for complete method to find the mean wage
+> for the 9 trainees
 > 36 A1
-> cas Total 7 marks
-> Question Working Answer Mark Notes
 
-- **(3)** 33 ×100 − 2976(= 324) 3 M1 find the total for the 9 trainees
+- **(3)** $33 \times 100 - 2976 (= 324)$ 3 M1 find the total for the 9 trainees
 
 
 ## Question 24 (6 marks)
@@ -985,17 +959,20 @@ N A Diagram NOT accurately drawn 15 km L 22 km B The diagram shows the position 
 
 ### 24 [6]
 
-N A Diagram NOT accurately drawn 15 km L 22 km B The diagram shows the position of two boats, A and B, and the position of a lighthouse L, which are all in the same horizontal plane. The bearing of A from L is 050° The bearing of B from L is 125° The distance of A from L is 15 km The distance of B from L is 22 km Calculate the bearing, to the nearest degree, of A from B Show your working clearly °
+The diagram shows the position of two boats, A and B, and the position of a lighthouse L, which are all in the same horizontal plane. The bearing of A from L is 050° The bearing of B from L is 125° The distance of A from L is 15 km The distance of B from L is 22 km Calculate the bearing, to the nearest degree, of A from B Show your working clearly °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: N, A, L, B · Figure values: 15, 22.
+
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_24_diagram.png)
 
 
 **Mark scheme answer**
 
 > ( AB =)15 + 22 − 2 ×15 × 22 × cos(125 − 50)
 > 2 2 2 6 M1 correct substitution into Cosine Rule to find AB
-> or AB2
-> ( AB2 =)538(.1794302) A1 for 538(.1794302) or ( AB =)23. (19869458)
+> or $AB^2$
+> ($AB^2$ =)538(.1794302) A1 for 538(.1794302) or ( AB =)23. (19869458)
 > Correct answer can imply first M1 even though
 > question states working required.
 > sin ABL sin 75 M1 correct substitution into sine rule or cosine rule
@@ -1014,40 +991,33 @@ N A Diagram NOT accurately drawn 15 km L 22 km B The diagram shows the position 
 > This isn’t a dependent mark, but it must be clear
 > from diagram or working that students are using their
 > value for AB
-> ( sin ABL = ) ⎛⎜ ⎞ M1 full correct method to find angle ABL
-> × 15 ⎟ or ( sin ABL = ) ⎛⎜
-> sin 75 14.489... ⎞
-> ⎟ or angle LAB
+> ( sin ABL = ) M1 full correct method to find angle ABL
+> × 15 or ( sin ABL = ) 
+> sin 75 14.489... or angle LAB
 > ⎝ "23.19..." ⎠ ⎝ "23.19..." ⎠
 > or ( sin ABL = )("0.0416..."×15)
 > Implies previous method mark.
 > ⎛ 22 + ("23.19...") − 15 ⎞
 > 2 2
-> or ( cos ABL = ) ⎜ ⎟
-> ⎜ 2 × 22 × ("23.19...") ⎟ Allow this mark to be implied by
+> or ( cos ABL = ) 2 × 22 × ("23.19...") Allow this mark to be implied by
 > ⎝ ⎠
 > ⎛ "797.17..." ⎞
-> or ( cos ABL = ) ⎜ ⎟
+> or ( cos ABL = ) 
 > [ABL =] awrt 38 or awrt 39
 > ⎝ "1020.74....." ⎠ [LAB =] awrt 66 or awrt 67
 > or
 > Again for info, you will see, for example, the
 > ⎛ 21.250... ⎞ following, if students find angle LAB first
-> ( sin LAB = ) ⎛⎜ ⎞
+> ( sin LAB = ) 
 > sin 75
-> × 22 ⎟ or ( sin LAB = ) ⎜ ⎟
-> ⎝ "23.19..." ⎠ ⎝ "23.19..." ⎠
+> × 22 ⎟ or ( sin LAB = ) "23.19..." ⎠ ⎝ "23.19..." ⎠
 > eg (ABL) = 180 – “ 66.35038218 ” – 75
 > or ( sin ABL = )("0.0416..."× 22 )
 > or
-> ⎛ 152 + ("23.19...")2 − 222 ⎞ (see diagram) eg “66.35….” – 50
-> or ( cos LAB = ) ⎜ ⎟
-> ⎜ 2 × 15 × ("23.19...") ⎟
-> ⎝ ⎠
-> ( cos LAB = ) ⎛⎜
-> "279.17...." ⎞
-> ⎟
-> ⎝ "695.96..." ⎠
+> ⎛ 152 + ("23.19...")² − 222 ⎞ (see diagram) eg “66.35….” – 50
+> or ( cos LAB = ) 2 × 15 × ("23.19...") 
+> ( cos LAB = ) 
+> "279.17...." "695.96..." 
 > eg 180 + 125 + "38.6496..."[ = 343.6496...] M1 (dep on the 2 previous M marks) correct method
 > to find the bearing.
 > or
@@ -1057,9 +1027,8 @@ N A Diagram NOT accurately drawn 15 km L 22 km B The diagram shows the position 
 > Dep on awarding any 2 previous method marks
 > wr Total 6 marks
 > ALT
-> Question Working Answer Mark Notes
 > AB
-> ⎡⎣ AB 2 = ⎤⎦ 538(.1794302) A1 (M1 on ePen) for 538(.1794302) or
+> ⎡⎣ $AB^2$ = ⎤⎦ 538(.1794302) A1 (M1 on ePen) for 538(.1794302) or
 > ( AB =)23.1(9869458)
 > Correct answer can imply first M1 even though
 > question states working required.
@@ -1078,8 +1047,6 @@ N A Diagram NOT accurately drawn 15 km L 22 km B The diagram shows the position 
 > to find the bearing
 > 344 A1 accept answers in the range [343.6, 344.1]
 > Dep on awarding any 2 previous method marks
-> cas Total 6 marks
-> Question Working Answer Mar Notes
 > k Condone missing arrows throughout
 
 - **(6)** ( AB =)15 + 22 − 2 ×15 × 22 × cos(125 − 50)
@@ -1103,7 +1070,7 @@ Express in terms of a and b
 
 ### 25(b) [2]
 
-Express in terms of a and b Give your answer in its simplest form. Given that the point X is such that OXN and MXB are straight lines,
+Express in terms of a and b Give your answer in its simplest form. Given that the point X is such that OXN and MXB are straight lines …………… , ……………
 
 
 **Mark scheme answer**
@@ -1112,7 +1079,7 @@ Express in terms of a and b Give your answer in its simplest form. Given that th
 > Ignore any labelling.
 > ⎡ 4 ⎤ ⎡ 1 ⎤
 > ⎢⎣a + 5 (−a + 3b) ⎥⎦ ⎢⎣ 3b + (a − 3b) ⎥
-> 5 ⎦
+> 5 
 > 1 12 A1
 > a+ b
 > 5
@@ -1174,11 +1141,10 @@ find a simplified expression for in terms of a and b
 > a + ( −a + 3b ) − α (" a + b") possibilities.
 > 2 5 5 5 Candidates may also for example use a negative
 > parameter or a longer path.
-> ⎡ MX = μ MB = ⎤ μ ⎛⎜ "− a + 3b" ⎞⎟
-> ⎣ ⎦ ⎝ 2
+> ⎡ MX = μ MB = ⎤ μ "− a + 3b" 2
 > 1 ( )
 > M1 for using μ correct or theirMB and any
-> ⎠ unknown different parameter, in terms of a and
+>  unknown different parameter, in terms of a and
 > b.
 > The example given is not the only possibility,
 > they may also for example use a negative
@@ -1272,7 +1238,7 @@ find a simplified expression for in terms of a and b
 > possibilities.
 > Candidates may also for example use a negative
 > parameter or longer paths.
-> ( BX = α BM = )α ⎛⎜⎝ " 12 a − 3b" ⎞⎟⎠ ( )
+> ( BX = α BM = )α " 12 a − 3b" ( )
 > M1 for using α correct or theirMB and any
 > unknown different parameter, in terms of a and
 > b.
@@ -1331,7 +1297,6 @@ find a simplified expression for in terms of a and b
 > 5 12b − 5a
 > − a + 2b A1oe eg.
 > 6
-> Question Working Answer Mark Notes
 
 - **(5)** 1 12 5 M1 for using the correct or their ON in a correct vector
 
@@ -1339,7 +1304,7 @@ find a simplified expression for in terms of a and b
 ## Question 26 (7 marks)
 ### 26(a) [2]
 
-Solve the inequality 3 x 5 15 2 x
+Solve the inequality $3x - 5 < 15 - 2x$
 
 
 **Mark scheme answer**
@@ -1355,12 +1320,13 @@ Solve the inequality 3 x 5 15 2 x
 
 ### 26(b) [3]
 
-Solve the inequality x x 1 Show clear algebraic working.
+Solve the inequality $x(x - 1) > 6$
+Show clear algebraic working.
 
 
 **Mark scheme answer**
 
-> x2 − x − 6 [> 0] 3 M1 oe correctly rearranged does not need > 0
+> x² − x − 6 [> 0] 3 M1 oe correctly rearranged does not need > 0
 > oe eg ( x − 3)( x + 2 ) [ > 0]
 > ( x = ) 3 and ( x = ) − 2 A1 dep on M1
 > x < −2 A1 ft dep on M1
@@ -1373,7 +1339,7 @@ Solve the inequality x x 1 Show clear algebraic working.
 
 ### 26(c) [2]
 
-Hence find the range of values of x for which both 3 x 5 15 2 x and x x 1
+Hence find the range of values of $x$ for which both $3x - 5 < 15 - 2x$ and $x(x - 1) > 6$
 
 
 **Mark scheme answer**

@@ -40,8 +40,6 @@ Calculate, giving your answer in standard form 2.5 × 1060 − 1.3 × 1059 1.5 �
 > or 158 ×10 oe A1 A correct single value seen in their working but
 > need not be in standard form.
 > 1.58 ×10108 A1
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Numerator of 2.37 ×10 or 23.7 ×10 oe
 
@@ -98,8 +96,6 @@ Calculate the mean age, in years, of the passengers on the bus who are not pensi
 > 34 − 11 23 method to find the mean age of the passengers
 > who are not pensioners.
 > 38 A1
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 34 × 49 − 11× 72 [ = 1666 − 792 = 874] 3 M1 A correct method to find the total age of the
 
@@ -110,7 +106,11 @@ Triangles A and D are drawn on the grid below. Triangle B is the image of triang
 
 ### 3(a) [2]
 
-On the grid below, draw and label triangle B. ⎛ −9⎞ Triangle A is transformed to triangle C under the translation ⎜ ⎟ ⎝ −2⎠
+Triangles A and D are drawn on the grid below. Triangle B is the image of triangle A under a reflection in the line with equation y = –x
+
+On the grid below, draw and label triangle B. ⎛ −9⎞ Triangle A is transformed to triangle C under the translation −2⎠
+
+![grid — official paper figure (qp.pdf p.4) (same figure as asset_3_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_3_a_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.4) — shared with asset_3_a_grid_stem](assets/asset_3_a_grid_stem.png)
 
@@ -138,7 +138,9 @@ On the grid, draw and label triangle C.
 
 ### 3(c) [3]
 
-Describe fully the single transformation that maps triangle A onto triangle D. y A –10 –8 –6 –4 –2 O 2 4 6 8 10 x –2 D –4 –6 –8 –10 A spare grid is on the next page if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A –10 –8 –6 –4 –2 O 2 4 6 8 10 x –2 D –4 –6 –8 –10
+Describe fully the single transformation that maps triangle A onto triangle D.
+
+![grid — official paper figure (qp.pdf p.4) (same figure as asset_3_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_3_a_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.4) — shared with asset_3_a_grid_stem](assets/asset_3_a_grid_stem.png)
 
@@ -148,7 +150,6 @@ Describe fully the single transformation that maps triangle A onto triangle D. y
 > enlargement 3 B1
 > SF – 0.5 B1
 > Centre (6, –1) B1
-> Total 7 marks
 > C
 > B
 > Que Working Ans Mark Notes
@@ -170,18 +171,16 @@ A curve C has equation x 2 + y 2 = 64 A straight line l has equation 4y + 3x = 4
 > ⎛ 40 − 3 x ⎞
 > ⎛ 40 − 4 y ⎞
 > 6 M1 For substituting a correct expression for x or y into the
-> x2 + ⎜ ⎟ = 64 or ⎜ ⎟ + y = 64 oe
+> x² + = 64 or + y = 64 oe
 > quadratic equation to form an (un-simplified) quadratic
 > ⎝ 4 ⎠ ⎝ 3 ⎠
 > equation in either x or y. Implied by the 2nd M1
-> ⎛ 40 − 3x ⎞ ⎛ 40 − 4 y ⎞
-> ⎜ ⎟ = 64 − x
-> or ⎜ ⎟ = 64 − y
+> ⎛ 40 − 3x ⎞ ⎛ 40 − 4 y = 64 − x
+> or = 64 − y
 > ⎝ 4 ⎠ ⎝ 3 ⎠
 > ⎛ 1600 240 9 ⎞ M1
 > ⎛ 40 − 3 x ⎞ ⎛ 40 − 4 y ⎞
-> x2 + ⎜ − x + x 2 ⎟ = 64 or For a correct method to expand ⎜ ⎟ or ⎜ ⎟
-> ⎝ 16 16 16 ⎠ ⎝ 4 ⎠ ⎝ 3 ⎠
+> x² + ⎜ − x + x 2 ⎟ = 64 or For a correct method to expand or 16 16 16 ⎠ ⎝ 4 ⎠ ⎝ 3 ⎠
 > ⎛ 1600 320 16 ⎞ resulting with 3 or 4 terms. Condone 1 error in total
 > ⎜ − y + y 2 ⎟ + y 2 = 64 oe
 > ⎝ 9 9 9 ⎠ (numerical or sign). NB −3x2 and −4y2 will count as 1
@@ -191,20 +190,20 @@ A curve C has equation x 2 + y 2 = 64 A straight line l has equation 4y + 3x = 4
 > 25 y 2 − 320 y + 1024 = 0 or 25 y 2 − 320 y + 1024 = 0 oe
 > 9 9
 > ⎛5 ⎞⎛ 5 ⎞ M1 Solving their 3 term quadratic equation using any
-> ⎜ x − 6 ⎟⎜ x − 6 ⎟ or ( 5 x − 24 )( 5 x − 24 ) or correct method - if factorising, allow brackets which
+> ⎜ x − 6 x − 6 ⎟ or ( 5 x − 24 )( 5 x − 24 ) or correct method - if factorising, allow brackets which
 > ⎝4 ⎠⎝ 4 ⎠
 > expanded give 2 out of 3 terms correct. If using formula
 > or completing the square allow one sign error. Working
 > ( 5 3 y − 32 3 )( 5 3 y − 32 3 ) or ( 5 y − 32 )(5 y − 32 ) or must be seen. By completing the square must see eg
 > 25 ⎛ 24 ⎞
-> (−320)2 − 4(25 × 1024) or (−240) 2 − 4(25 × 576) ⎜ x − ⎟ [ ±...] = 0
+> (−320)² − 4(25 × 1024) or (−240) 2 − 4(25 × 576) ⎜ x − ⎟ [ ±...] = 0
 > 16 ⎝ 5 ⎠
 > Allow calculation of the discriminant for their quadratic
 > x = 4.8 or y = 6.4 A1 correct single value for x or y. Award A0 if more than
 > or using discriminant one value of x or more than one value of y is given
 > For discriminant the calculation must be correct and = 0
 > 9)(− 4 ( 25 × 1024 ) = 0
-> (−320)2 − 4(25 × 1024) = 0 or − 320
+> (−320)² − 4(25 × 1024) = 0 or − 320
 > 9
 > (−240) − 4(25 × 576) = 0 or (−15) − 4 (
 > 2 25 2
@@ -212,8 +211,6 @@ A curve C has equation x 2 + y 2 = 64 A straight line l has equation 4y + 3x = 4
 > Only one solution. [therefore line A1dep Dep on all previous method marks awarded and only 1
 > intersects the C only once.] value of x and/or y given. For a correct conclusion
 > stating only one solution
-> Total 6 marks
-> Question Working Answer Mark Notes
 > For this question Marks for part(b) may be awarded if seen in part(a)
 
 - **(6)** ⎛ 40 − 3 x ⎞
@@ -270,7 +267,6 @@ find and simplify an expression, in terms of a and b, for AE
 > m = 10 or k = 4 or t = 9
 > 4 ( −a + b ) A1 oe
 > Correct answer gets 6/6
-> Total 7 marks
 > There may be other combinations used. If there is another method use that merits marks send to review
 > → 2 → ⎛ 1 2 ⎞
 > AC = − a and AC = ± k ("− a + b ") ± m ⎜ "− a + b " ⎟
@@ -296,7 +292,6 @@ find and simplify an expression, in terms of a and b, for AE
 > ⎛ 1 2 ⎞ 2
 > or a = ± k ("− a + b ") ± m ⎜ " a − b "⎟ − b
 > ⎝ 3 5 ⎠ 5
-> Question Working Answer Mark Notes
 
 - **(6)** ⎡ → ⎤ 6 M1 →
 
@@ -307,25 +302,23 @@ find and simplify an expression, in terms of a and b, for AE
 
 ### 6 [7]
 
-6 ⎛ −2 −3⎞ ⎛ 4 x −14⎞ A= ⎜ ⎝ 2 4 ⎟⎠ BA = ⎜ ⎝ x −1⎟⎠ Given that the determinant of B is 10 find B Show your working clearly. ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matrix ⎜ ⎟ = ad − bc ⎥ ⎢ ⎝ c d⎠ ⎥ ⎢ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎥ ⎢Inverse of matrix ⎜⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a ⎟⎠ ⎥ = ⎢⎣ ⎥⎦
+6 ⎛ −2 −3⎞ ⎛ 4 x −14⎞ A= 2 4 BA = x −1 Given that the determinant of B is 10 find B Show your working clearly. ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matrix = ad − bc ⎥ ⎢ ⎝ c d⎠ ⎥ ⎢ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎥ ⎢Inverse of matrix c d ad − bc −c a = ⎢⎣ ⎥⎦
 
 
 **Mark scheme answer**
 
 > 1 ⎛ 4 3⎞ ⎡ 1⎛ 4 3 ⎞⎤ 7 M1 oe allow correct un-simplified
-> [A–1 =] − ⎟ ⎢= − ⎜
-> ( 4 × −2 ) − ( 3 × −2 ) ⎝ −2 −2 ⎠ ⎣ 2 ⎝ −2 −2 ⎟⎠ ⎥⎦
-> ⎜
-> ⎛ 4 x −14 ⎞ ⎡ 1 ⎛ 4 3⎞ ⎤ M1 For writing or using B AA–1 ft their inverse of A
-> [B =] B AA or [ B = ] ⎜
+> [A–1 =] − = − 
+> ( 4 × −2 ) − ( 3 × −2 ) ⎝ −2 −2 ⎠ ⎣ 2 ⎝ −2 −2 4 x −14 ⎞ ⎡ 1 ⎛ 4 3⎞ ⎤ M1 For writing or using B AA–1 ft their inverse of A
+> [B =] B AA or [ B = ] 
 > –1
-> ⎟ ⎢"− ⎜ ⎟ "⎥
+>  "− "
 > ⎝ x − 1 ⎠ ⎣ 2 ⎝ −2 −2 ⎠ ⎦
 > ⎛ − 8 x − 14 − 6 x − 14 ⎞ M1dep Dep on previous M mark being awarded. Correct method
-> 1 ⎛ 16 x + 28 12 x + 28 ⎞ ⎜ ⎟ for multiplying out B AA–1 to find a single matrix for B in
+> 1 16 x + 28 12 x + 28 for multiplying out B AA–1 to find a single matrix for B in
 > [B =] − ⎜ 4 x + 2 ⎟ or
-> 3 x + 2 ⎠ ⎜⎜ −2 x − 1
-> 2⎝ − x − 1 ⎟⎟ terms of x (determinant and 2 terms correct)
+> 3 x + 2 −2 x − 1
+> 2 − x − 1 terms of x (determinant and 2 terms correct)
 > ⎝ 2 ⎠
 > 1 M1 Correct method for finding the determinant in terms of x
 > 10 = " " ( ("16 x + 28")("3 x + 2") − ("4 x + 2")("12 x + 28") ) and equating to 10. If full working shown then ft their
@@ -337,11 +330,9 @@ find and simplify an expression, in terms of a and b, for AE
 > correct linear equation which need not be fully simplified.
 > x=–2 A1 Correct value for x
 > ⎛ 2 −2 ⎞
-> B=⎜ ⎟
-> ⎝3 2⎠ A1
+> B= 3 2 A1
 > ALT ⎡⎛ a b ⎞⎛ −2 −3 ⎞ ⎤ ⎛ −2a + 2b −3a + 4b ⎞ M1 Correct matrix – letters may be different.
-> ⎢⎜ ⎟⎜ ⎟ =⎥ ⎜ ⎟
-> ⎣⎝ c d ⎠⎝ 2 4 ⎠ ⎦ ⎝ −2c + 2d −3c + 4d ⎠
+>  = c d ⎠⎝ 2 4 ⎠ ⎦ ⎝ −2c + 2d −3c + 4d ⎠
 > "− 2a + 2b " = 4 x "− 3a + 4b " = −14 M1 Forming the 4 equations ft their matrix
 > "− 2c + 2d " = x "− 3c + 4d " = −1
 > a = −8 x − 14 and b = −6 x − 14 M1dep Dep on previous M mark being awarded. Solving to get a,
@@ -354,10 +345,8 @@ find and simplify an expression, in terms of a and b, for AE
 > correct linear equation which need not be fully simplified
 > x=–2 A1 Correct value for x
 > ⎛ 2 −2 ⎞
-> B=⎜ ⎟ A1
+> B= A1
 > ⎝3 2⎠
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(7)** 1 ⎛ 4 3⎞ ⎡ 1⎛ 4 3 ⎞⎤ 7 M1 oe allow correct un-simplified
 
@@ -405,15 +394,13 @@ Giving reasons, show that the radius of the circle is 1.5 cm.
 
 ### 7(b) [2]
 
-Calculate the area, in cm2 to 2 decimal places, of the circle ABCDG
+Calculate the area, in cm² to 2 decimal places, of the circle ABCDG
 
 
 **Mark scheme answer**
 
 > [Area =] π ×1.52 2 M1
 > 7.07 A1 Awrt 7.07
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(2)** [Area =] π ×1.52 2 M1
 
@@ -456,7 +443,7 @@ n([A ∩ D¢] ∪ S)
 
 ### 8(b)(iii) [3]
 
-n([A ∩ D ∩ S¢]¢) One of the students in the drama group is selected at random. Given that this student takes part in dancing,
+n([A ∩ D ∩ S¢]¢) One of the students in the drama group is selected at random. Given that this student takes part in dancing …………… , ……………
 
 
 **Mark scheme answer**
@@ -467,7 +454,7 @@ n([A ∩ D ∩ S¢]¢) One of the students in the drama group is selected at ran
 
 ### 8(c)(i) [1]
 
-stage management,
+stage management …………… , ……………
 
 
 **Mark scheme answer**
@@ -488,7 +475,6 @@ singing.
 > or
 > 29 "10"+ "11"+ "3"+ "5" numerator must be less than the denominator
 > 14 A1
-> Total 9 marks
 > Quest Working Ans Mark Notes
 
 - **(2)** "11"+ "3" "11"+ "3" 2 M1 Correct answer or Ft their Venn diagram but the
@@ -500,57 +486,58 @@ T Diagram NOT accurately drawn 30 m C B A Figure 3 Figure 3 shows three points A
 
 ### 9 [8]
 
-T Diagram NOT accurately drawn 30 m C B A Figure 3 Figure 3 shows three points A, B and C on horizontal ground. A vertical mast BT of height 30 m is at point B. The angle of elevation of T from A is 32° The angle of elevation of T from C is 25° The bearing of A from B is 195° The bearing of C from B is 280° Calculate the bearing, in degrees to the nearest degree, of C from A. ⎛ Sine rule: a b c ⎞ = = ⎜ sin A sin B sin C ⎟ ⎜ ⎟ ⎝ Cosine rule: a 2 = b 2 + c 2 − 2bc cos A ⎠
+Figure 3 Figure 3 shows three points A, B and C on horizontal ground. A vertical mast BT of height 30 m is at point B. The angle of elevation of T from A is 32° The angle of elevation of T from C is 25° The bearing of A from B is 195° The bearing of C from B is 280° Calculate the bearing, in degrees to the nearest degree, of C from A. ⎛ Sine rule: a b c ⎞ = = ⎜ sin A sin B sin C Cosine rule: a 2 = b 2 + c 2 − 2bc cos A ⎠
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: T, C, B, A · Figure values: 30.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_9_diagram.png)
 
 
 **Mark scheme answer**
 
-> 30 30 ⎞
+> 30 30 
 > 2 8 M1 A correct method to find the length AB. Allow awrt 48
-> [ AB =] [ = 48.01] or [ AB =] ⎛⎜ ⎟ − 30 [ = 48.01] oe
+> [ AB =] [ = 48.01] or [ AB =] − 30 [ = 48.01] oe
 > May be seen on diagram
 > tan 32 ⎝ sin 32 ⎠
-> 30 30 ⎞
+> 30 30 
 > 2 M1 A correct method to find the length CB. Allow awrt 64.3
-> [CB =] [ = 64.3...] or [CB =] ⎛⎜ ⎟ − 30 [ = 64.3...] oe
+> [CB =] [ = 64.3...] or [CB =] − 30 [ = 64.3...] oe
 > May be seen on diagram
 > tan 25 ⎝ sin 25 ⎠
 > [ ∠CBA = ]280 – 195 [=85] M1 A correct method to find ∠CBA May be seen on diagram
 > The next 3 method marks can only be awarded if using their ∠CBA or a correct value
-> ⎡⎣ AC 2 = ⎤⎦ "48.01"2 + "64.335"2 − 2 × "48.01"× "64.335"cos"85" M1 A correct method to find the length AC
+> ⎡⎣ $AC^2$ = ⎤⎦ "48.01"$^2$ + "64.335"$^2$ − 2 × "48.01"× "64.335"cos"85" M1 A correct method to find the length AC
 > Allow awrt 5910 or 76.8
 > [=5905] May be seen on diagram
 > or Ft through their AB, AC and ∠CBA if they are labelled
-> [ AC =] "48.01"2 + "64.335"2 − 2 × "48.01"× "64.335"cos"85" clearly(allow on diagram) or it must come from correct
+> [ AC =] "48.01"$^2$ + "64.335"$^2$ − 2 × "48.01"× "64.335"cos"85" clearly(allow on diagram) or it must come from correct
 > [= 76.8…] working
 > sin ∠CAB sin"85" sin ∠ACB sin"85" M1 A fully correct method to find ∠CAB or ∠ACB . Ft
 > = or = or
 > "64.335" "76.85" "48.01" "76.85" through their CB(or AB), AC and ∠CBA if they are
-> "64.3" 2 = "48.01" 2 + "76.8" 2 − 2 × "48.01"× "76.8"cos ∠CAB or labelled clearly (allow on diagram) or come from correct
+> "64.3"$^2$ = "48.01"$^2$ + "76.8"$^2$ − 2 × "48.01"× "76.8"cos ∠CAB or labelled clearly (allow on diagram) or come from correct
 > working.
-> "48.01" 2 = "64.3" 2 + "76.8" 2 − 2 × "64.3"× "76.8"cos ∠ACB
+> "48.01"$^2$ = "64.3"$^2$ + "76.8"$^2$ − 2 × "64.3"× "76.8"cos ∠ACB
 > May use cosine rule.
 > sin"85" M1 Rearranging and using inverse sine leading to an angle for
 > sin ∠CAB = × "64.335" → ∠CAB =56.5… or ∠CAB or ∠ACB does not need to be correct)
 > "76.85"
-> "48.01" 2 + "76.8" 2 − "64.3" 2 This implies the 5th M1
+> "48.01"$^2$ + "76.8"$^2$ − "64.3"$^2$ This implies the 5th M1
 > cos ∠CAB = → ∠CAB = 56.5…
 > 2 × "48.01"× "76.8"
 > sin"85"
 > sin ∠ACB = × "48.01" → ∠ACB = 38.487.. or
 > "76.85"
-> "64.3" 2 + "76.8" 2 − "48.01" 2
+> "64.3"$^2$ + "76.8"$^2$ − "48.01"$^2$
 > cos ∠ACB = → ∠ACB = 38.487…
 > 2 × "64.3"× "76.8"
 > 360 + 15 − "56.5..." or 360 – (180 – (100 + "38.487…")) oe M1 A correct method to find required bearing.
 > eg 180 + 100 + "38.487…"
 > 318 A1 awrt 318 or awrt 319 Condone degree sign.
-> Total 8 marks
-> Question Working Answer Mark Notes
 
-- **(8)** 30 30 ⎞
+- **(8)** 30 30 
 
 
 ## Question 10 (10 marks)
@@ -558,6 +545,8 @@ T Diagram NOT accurately drawn 30 m C B A Figure 3 Figure 3 shows three points A
 The production costs of building a Kimo boat are $L for labour $M for materials $H for overheads In 2020, the total of the production costs for a Kimo boat was $120 000 where L:M:H = 5:3:2
 
 ### 10(a) [2]
+
+The production costs of building a Kimo boat are \$L for labour \$M for materials \$H for overheads In 2020, the total of the production costs for a Kimo boat was \$120 000 where L:M:H = 5:3:2
 
 Calculate the value of H in 2020 The production costs were different in 2021 from what they were in 2020 The labour costs had increased by 10% The cost of materials had increased by 5% The overheads had decreased by 4%
 
@@ -567,13 +556,13 @@ Calculate the value of H in 2020 The production costs were different in 2021 fro
 > 2 2 M1
 > ×120 000
 > 5+3+ 2
-> 24 000 A1 Ignore any units eg condone $24 000
+> 24 000 A1 Ignore any units eg condone \$24 000
 
 - **(2)** 2 2 M1
 
 ### 10(b) [3]
 
-Calculate the percentage increase, from 2020 to 2021, in the total of the production costs of building a Kimo boat. Gordon bought a Kimo boat and sold it a year later for $360 000, making a loss of 25% on the price for which he bought the boat.
+Calculate the percentage increase, from 2020 to 2021, in the total of the production costs of building a Kimo boat. Gordon bought a Kimo boat and sold it a year later for \$360 000, making a loss of 25% on the price for which he bought the boat.
 
 
 **Mark scheme answer**
@@ -594,7 +583,7 @@ Calculate the percentage increase, from 2020 to 2021, in the total of the produc
 
 ### 10(c) [2]
 
-Calculate the price for which Gordon bought the boat. Gordon sold the boat to a friend living in Hungary. Gordon’s friend paid Gordon the $360 000 in Hungarian forints. Using exchange rates of £1 = $1.35 £1 = 388.50 Hungarian forints
+Calculate the price for which Gordon bought the boat. Gordon sold the boat to a friend living in Hungary. Gordon’s friend paid Gordon the \$360 000 in Hungarian forints. Using exchange rates of £1 = \$1.35 £1 = 388.50 Hungarian forints
 
 
 **Mark scheme answer**
@@ -602,7 +591,7 @@ Calculate the price for which Gordon bought the boat. Gordon sold the boat to a 
 > 360 000 360 000 2 M1
 > or ×4
 > 0.75
-> [$]480 000 A1
+> [\$]480 000 A1
 > ft their "2.5" value .Allow x < (awrt 2.5)
 > 42
 > or x <
@@ -614,7 +603,7 @@ Calculate the price for which Gordon bought the boat. Gordon sold the boat to a 
 
 ### 10(d) [3]
 
-change $360 000 to Hungarian forints.
+change \$360 000 to Hungarian forints.
 
 
 **Mark scheme answer**
@@ -629,7 +618,6 @@ change $360 000 to Hungarian forints.
 > × 388.5
 > 1.35
 > 103 600 000 A1 oe awrt 103600000
-> Total 10 marks
 > Quest Working Answer Mark Notes
 > 11(a) (i) A correct straight line drawn between at least 2 M1 Allow ± 1 small square for all points.
 > 2 integer values of x
@@ -652,19 +640,45 @@ change $360 000 to Hungarian forints.
 
 3y + 2x = 15 –3 ≤ x ≤ 4
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 11(b) [1]
 
 Using your straight lines, find an estimate, to one decimal place, of the solution of the simultaneous equations 4y – 3x = 6 3y + 2x = 15 6 + 3 x 15 − 2 x
 
+
+**Mark scheme answer**
+
+> The two lines cross at **x ≈ 3.0, y ≈ 3.0**
+
+- **(1)** x = 3.0, y = 3.0 (allow exact (3, 3))
+
 ### 11(c) [1]
 
 Hence, or otherwise, solve the inequality < 4 3
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 ### 11(d) [2]
 
 Complete the table of values for y = x 2 – 2x – 1 x –2 –1 0 1 2 3 4 y –1 2 7
 
 ![table — official paper figure (qp.pdf p.26)](assets/asset_11_d_table.png)
+
+
+**Mark scheme answer**
+
+> Missing values: x = −2 → 7, x = 1 → −2, x = 2 → −1, x = 3 → 2
+
+- **(2)** all 4 values correct (B1 for 2 or 3 values correct)
 
 ### 11(e) [2]
 
@@ -674,13 +688,27 @@ On the same grid on the opposite page, plot the points from your completed table
 
 ![table — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 11(f) [3]
 
-Using part (a) and part (e), find an estimate, to one decimal place, for the range of values of x for which 11 5 x2 − x− <0 4 2 Show your working clearly. y –3 –2 –1 O 1 2 3 4 x –1 –2 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y –3 –2 –1 O 1 2 3 4 x –1 –2
+Using part (a) and part (e), find an estimate, to one decimal place, for the range of values of x for which 11 5 x² − x− <0 4 2 Show your working clearly.
+
+![graph — official paper figure (qp.pdf p.26) (same figure as 11(d))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-01/4MB1-02/assets/asset_11_d_table.png)
 
 ![graph — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
 
 ![grid — official paper figure (qp.pdf p.26) — shared with 11(d)](assets/asset_11_d_table.png)
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 
 ## Question 12 (13 marks)
@@ -688,6 +716,8 @@ Using part (a) and part (e), find an estimate, to one decimal place, for the ran
 The function g is defined for all values of x by g : x ↦ 5 – x2
 
 ### 12(a) [1]
+
+The function g is defined for all values of x by g : x ↦ 5 – x²
 
 Find g(–4)
 
@@ -763,7 +793,7 @@ Express ff(x) in terms of x giving your answer as a single fraction in its simpl
 > 4 3 M1
 > oe
 > ⎛ 4 ⎞
-> 2⎜ ⎟ − 11
+> 2 − 11
 > ⎝ 2 x − 11 ⎠
 > 4 M1 Reducing the denominator to a single fraction.
 > 8 − 11( 2 x − 11) 5 ( 2 x − 11) − 16
@@ -782,9 +812,8 @@ find the value of a and the value of b
 **Mark scheme answer**
 
 > hm( x) = ( 3x + 3)( 3x + 2 ) or ( ax + b )( ax + b + 1) 2 M1 Rewriting hm(x) in the form y ( y + 1) where y is
-> or a2 x2 + 2abx + b2 + ax + b a function of x. ISW
+> or a2 x² + 2abx + b2 + ax + b a function of x. ISW
 > a=3 b=2 A1 Allow 3 x + 2
-> Total 13 marks
 
 - **(2)** hm( x) = ( 3x + 3)( 3x + 2 ) or ( ax + b )( ax + b + 1) 2 M1 Rewriting hm(x) in the form y ( y + 1) where y is
 

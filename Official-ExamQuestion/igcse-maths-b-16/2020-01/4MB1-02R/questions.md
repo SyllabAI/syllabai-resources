@@ -83,7 +83,6 @@ Hence solve these two equations for the value of x and for the value of y. Give 
 > 11 14 3 A1
 > x= y=
 > 15
-> Total 5 marks
 > OR (a) 2 X + Y = 252 SC: B1 for both equations
 > X + 2Y = 273
 > coefficients of x or y are the same in both simultaneous equations
@@ -101,45 +100,41 @@ Hence solve these two equations for the value of x and for the value of y. Give 
 ## Question 3 (8 marks)
 ### 3(a) [2]
 
-Find the inverse of the matrix ⎜ ⎝ 5 4⎟⎠
+Find the inverse of the matrix 5 4 
 
 
 **Mark scheme answer**
 
 > −2 (value of the determinant) B1
 > 1 ⎛ 4 −2 ⎞ 2 B1 (oe)
-> ⎜ ⎟
+>  
 > −2 ⎝ −5 2⎠
 
 - **(2)** −2 (value of the determinant) B1
 
 ### 3(b) [6]
 
-Use your answer to part (a) to find the value of x and the values of y that satisfy ⎛ 2 2⎞ ⎛ y 2 − 9 x⎞ ⎛ 0 ⎞ = ⎜⎝ 5 4⎟⎠ ⎜⎝ x ⎟⎠ ⎜⎝ −2⎟⎠ ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢Inverse of matrix: ⎜ = ⎥ ⎣ ⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a ⎟⎠ ⎦
+Use your answer to part (a) to find the value of x and the values of y that satisfy ⎛ 2 2⎞ ⎛ y 2 − 9 x⎞ ⎛ 0 ⎞ = 5 4 x −2 a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢Inverse of matrix: ⎜ = ⎥ ⎣ ⎝ c d ad − bc −c a 
 
 
 **Mark scheme answer**
 
-> 1 ⎛ 4 −5 ⎞ ⎛ 2 2 ⎞ ⎛ y2 − 9x ⎞ M1
-> " ⎜ ⎟ "⎜ ⎟⎜ ⎟ −1
-> −2 ⎝ −2 2 ⎠ ⎝5 4⎠⎝ x ⎠ ⎛ y2 − 9x ⎞ ⎛ 2 2 ⎞ ⎛ 0 ⎞
-> Or ⎜ ⎟=⎜ ⎟ ⎜ ⎟
+> 1 ⎛ 4 −5 ⎞ ⎛ 2 2 ⎞ ⎛ y² − 9x ⎞ M1
+> " " −1
+> −2 ⎝ −2 2 ⎠ ⎝5 4⎠⎝ x ⎠ ⎛ y² − 9x ⎞ ⎛ 2 2 ⎞ ⎛ 0 ⎞
+> Or = 
 > 1 ⎛ 4 −5 ⎞ ⎛ 0 ⎞ ⎝ x ⎠ ⎝ 5 4 ⎠ ⎝ −2 ⎠
-> =" ⎜ ⎟ "⎜ ⎟
+> =" " 
 > −2 ⎝ −2 2 ⎠ ⎝ −2 ⎠
-> ⎛ y2 − 9x ⎞ 1 ⎛ 4 −2 ⎞ ⎛ 0 ⎞ M1 (DEP)
-> ⎜ ⎟=" ⎜ ⎟ "⎜ ⎟
-> ⎝ x ⎠ −2 ⎝ −5 2 ⎠ ⎝ −2 ⎠
-> ⎛ y 2 − 9 x ⎞ ⎛ −2 ⎞ ⎛ −2 ⎞
-> ⎜ ⎟=⎜ ⎟ A1 for ⎜ ⎟
-> ⎝ x ⎠ ⎝ 2⎠ ⎝ 2⎠
+> ⎛ y² − 9x ⎞ 1 ⎛ 4 −2 ⎞ ⎛ 0 ⎞ M1 (DEP)
+>  =" " x ⎠ −2 ⎝ −5 2 ⎠ ⎝ −2 ⎠
+> ⎛ y 2 − 9 x ⎞ ⎛ −2 ⎞ ⎛ −2 = A1 for x ⎠ ⎝ 2⎠ ⎝ 2⎠
 > x=2 A1
 > y − 9" x " = "− 2" (substituting their value of
 > M1 – dependent on both previous M marks
 > x, RHS must be a constant)
 > y=±4 6 A1
-> Total 8 marks
-> OR (b) 2 ( y2 − 9x) + 2x = 0 M1 – two equations in y 2 and x
+> OR (b) 2 ( y² − 9x) + 2x = 0 M1 – two equations in y 2 and x
 > 5 ( y 2 − 9 x ) + 4 x = −2
 > A1
 > 5 ( − x ) + 4 x = −2 M1 (DEP) – eliminate y 2 or x to obtain an
@@ -148,7 +143,7 @@ Use your answer to part (a) to find the value of x and the values of y that sati
 > y=±4 A1 – so can score a maximum of 5 out of 6 if
 > not using inverse
 
-- **(6)** 1 ⎛ 4 −5 ⎞ ⎛ 2 2 ⎞ ⎛ y2 − 9x ⎞ M1
+- **(6)** 1 ⎛ 4 −5 ⎞ ⎛ 2 2 ⎞ ⎛ y² − 9x ⎞ M1
 
 
 ## Question 4 (9 marks)
@@ -159,7 +154,9 @@ Bag B1 and bag B2 each contain soil. The weight of soil in B1 is 7.5 kg to the n
 
 ### 4(a)(i) [1]
 
-the lower bound for the total weight of soil in the two bags,
+Bag B1 and bag B2 each contain soil. The weight of soil in B1 is 7.5 kg to the nearest 100 g. The weight of soil in B2 is 5 kg to the nearest 10 g.
+
+the lower bound for the total weight of soil in the two bags …………… , ……………
 
 
 **Mark scheme answer**
@@ -170,7 +167,7 @@ the lower bound for the total weight of soil in the two bags,
 
 ### 4(a)(ii) [2]
 
-the upper bound for the difference in the weights of soil in the two bags,
+the upper bound for the difference in the weights of soil in the two bags …………… , ……………
 
 
 **Mark scheme answer**
@@ -259,7 +256,15 @@ The functions f, g and h are defined as f : x ↦ x + 3 g : x ↦ x2 – 2x + 3 
 
 ### 6(a) [2]
 
-Find (i) g(–3) (ii) f h ⎜ − ⎟ ⎝ 4⎠
+The functions f, g and h are defined as f : x ↦ x + 3 g : x ↦ x² – 2x + 3 h : x ↦ x ≠ 0 x ⎛ 1⎞
+
+Find (i) g(–3) (ii) f h ⎜ − 4⎠
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 ### 6(b)(i) [?]
 
@@ -391,7 +396,8 @@ Diagram NOT A accurately drawn 100 cm E D 30 cm 70° B M C Figure 1 Figure 1 sho
 
 ### 8(a) [3]
 
-the size, in degrees, of ∠ABC,
+Diagram NOT A accurately drawn 100 cm E D 30 cm 70° B M C Figure 1 Figure 1 shows triangle ABC in which AB = 100 cm, AC = 30 cm and ∠ACB = 70° Calculate, to 3 significant figures …………… , ……………
+the size, in degrees, of ∠ABC …………… , ……………
 
 
 **Mark scheme answer**
@@ -400,8 +406,7 @@ the size, in degrees, of ∠ABC,
 > =
 > sin ∠ ABC sin 70
 > ⎛ 30 × sin 70 ⎞ M1 (DEP)
-> ∠ABC = sin −1 ⎜ ⎟
-> ⎝ 100 ⎠
+> ∠ABC = sin$^{-1}$ 100 
 > 16.4o 3 A1 (for reference: 16.3741004…)
 > Accept awrt to 3 sf
 
@@ -418,7 +423,7 @@ the length, in cm, of BC. As shown in Figure 1, the point E lies on AB and the p
 > =
 > sin (180 − (" ∠ABC "+ 70 ) ) sin 70
 > OR
-> BC 2 = 100 2 + 30 2 − 2 × 100 × 30 × cos" ∠BAC "
+> $BC^2$ = $100^2$ + $30^2$ − 2 × 100 × 30 × cos" ∠BAC "
 > 100 × sin (180 − (" ∠ABC "+ 70 ) ) M1 (DEP)
 > BC =
 > sin 70
@@ -442,20 +447,20 @@ Write down the length, in cm, of DC. The midpoint of BC is the point M.
 
 ### 8(d) [2]
 
-Calculate the area, in cm2 to 3 significant figures, of triangle DCM. area Δ ABC Given that = k, area ΔDCM
+Calculate the area, in cm² to 3 significant figures, of triangle DCM. area Δ ABC Given that = k, area ΔDCM
 
 
 **Mark scheme answer**
 
-> VDCM = 12 × ⎛⎜⎝ 12 × " BC "⎞⎟⎠ × (" DC ") × sin 70 M1
-> 498, 499 (cm2) 2 A1 (for reference: 498.9991215…)
+> VDCM = 12 × 12 × " BC " × (" DC ") × sin 70 M1
+> 498, 499 (cm²) 2 A1 (for reference: 498.9991215…)
 > Accept awrt to 3 sf
 
 - **(2)** VDCM = 12 × ⎛⎜⎝ 12 × " BC "⎞⎟⎠ × (" DC ") × sin 70 M1
 
 ### 8(e) [1]
 
-find the value of k without working out the area of triangle ABC. ⎡ Sine rule a = b = c ⎤ ⎢ sin A sin B sin C ⎥ ⎢ ⎥ ⎢Cosine rule a 2 = b 2 + c 2 − 2bc cos A ⎥ ⎢ ⎥ ⎢ 1 ⎥ ⎢⎣ Area of triangle = ab sin C ⎥⎦
+find the value of k without working out the area of triangle ABC. ⎡ Sine rule a = b = c ⎤ ⎢ sin A sin B sin C ⎥ ⎢ ⎥ ⎢Cosine rule $a^2$ = $b^2$ + $c^2$ − 2bc cos A ⎥ ⎢ ⎥ ⎢ 1 ⎥ ⎢⎣ Area of triangle = ab sin C ⎥⎦
 
 
 **Mark scheme answer**
@@ -519,7 +524,9 @@ On the grid, draw and label triangle C.
 
 ### 9(d) [3]
 
-Describe fully the single transformation that maps triangle C onto triangle A. y –12 –11 –10 –9 –8 –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 9 10 x –1 –2 –3 –4 –5 –6 –7 –8 –9 –10 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y –12 –11 –10 –9 –8 –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 9 10 x –1 –2 –3 –4 –5 –6 –7 –8 –9 –10
+Describe fully the single transformation that maps triangle C onto triangle A.
+
+![grid — official paper figure (qp.pdf p.21) (same figure as asset_9_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.21) — shared with asset_9_a_grid](assets/asset_9_a_grid.png)
 
@@ -530,7 +537,6 @@ Describe fully the single transformation that maps triangle C onto triangle A. y
 > stated scores no marks in this part
 > ( 9, −8) B1
 > (Scale) factor 2 3 B1
-> Total 10 marks
 > uuur
 
 - **(3)** Enlargement B1 – note that more than one transformation
@@ -544,7 +550,14 @@ a C 2 B Diagram NOT accurately drawn M N D O A a Figure 2 Figure 2 shows trapezi
 
 ### 10(a)(i) [7]
 
+a C 2 B Diagram NOT accurately drawn M N D O A a Figure 2 Figure 2 shows trapezium ABCD in which the point O is the midpoint of AD and the point M is the midpoint of CD. → → 1 → Given that OA = a, CB = a and OB = b …………… , ……………
 AB (ii) AC (iii) CD (iv) AM → → → → The lines OB and AM intersect at N so that AN = λ AM and ON = μOB , where λ and μ are positive constants. →
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 ### 10(b)(i) [2]
 
@@ -556,8 +569,8 @@ Find and simplify an expression in terms of a, b and λ for ON
 > ⎝ 4 2 ⎠ ON = OD + DC + CB + BA + AN in terms of a,
 > b and λ
 > uuur ⎛ 7λ ⎞ λ 2 A1 (two
-> ON = a ⎜ 1 − uuur terms in a and one term in b) – note
-> ⎟+ b that ON = μ b is no marks in this part unless
+> ON = a 1 − uuur terms in a and one term in b) – note
+> + b that ON = μ b is no marks in this part unless
 > ⎝ 4 ⎠ 2
 > uuur
 > they go and find ON in terms of a, b and λ
@@ -578,8 +591,7 @@ Hence find the value of λ and the value of μ The area of triangle OAB is 14 sq
 > Component of a: 1 − λ =0
 > 4 AN = AO + ON = −a + μ b and
 > uuur ⎛ 7 1 ⎞
-> AN = λ ⎜ "− a + b " ⎟
-> ⎝ 4 2 ⎠
+> AN = λ ⎜ "− a + b " 4 2 ⎠
 > 7
 > ⇒ −a + μ b = − λa + λb and compare
 > 4
@@ -613,7 +625,11 @@ Part of the curve with equation y = x2 – 5x + 3 is drawn on the grid. x3 6 x 2
 
 ### 11(a) [3]
 
+Part of the curve with equation y = x² – 5x + 3 is drawn on the grid. x³ 6 x 2 3x The equation of another curve is y = – + − 6 5 2 x³ 6 x 2 3x
+
 Complete the table of values for y = – + − 6 5 2 Give your values of y to 2 decimal places. x 0 0.5 1 2 3 4 4.5 5 y 0 –0.47 1.8 1.67
+
+![table — official paper figure (qp.pdf p.28)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)
 
 ![table — official paper figure (qp.pdf p.28)](assets/asset_11_a_table.png)
 
@@ -657,7 +673,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ### 11(c) [4]
 
-Use the two curves on the grid to find an estimate, to 2 decimal places, of the range x3 x 2 7 x of positive values of x for which − − +3<0 6 5 2 Show your working clearly. For positive values of x, the two curves on the grid intersect at the points P and Q.
+Use the two curves on the grid to find an estimate, to 2 decimal places, of the range x³ x 2 7 x of positive values of x for which − − +3<0 6 5 2 Show your working clearly. For positive values of x, the two curves on the grid intersect at the points P and Q.
+
+![grid — official paper figure (qp.pdf p.28) (same figure as 11(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)
 
 ![grid — official paper figure (qp.pdf p.28) — shared with 11(a)](assets/asset_11_a_table.png)
 
@@ -666,7 +684,7 @@ Use the two curves on the grid to find an estimate, to 2 decimal places, of the 
 
 > Penalise failure to round correctly ONCE
 > only
-> − + − > x2 − 5x + 3 the intersection of the two curves)
+> − + − > x² − 5x + 3 the intersection of the two curves)
 > 6 5
 > 0.85 ± 0.05 A1ft (one intersection of their graphs)
 > 4.80 ± 0.05 A1ft (second intersection of their graphs)
@@ -694,7 +712,9 @@ Find an estimate, to 1 decimal place, of the gradient of the straight line throu
 
 ### 11(e) [2]
 
-Find, to 1 decimal place, the value of b. y 3.5 3.0 2.5 2.0 1.5 1.0 0.5 –1.0 –0.5 O 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 x –0.5 –1.0 –1.5 –2.0 –2.5 –3.0 –3.5 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y 3.5 3.0 2.5 2.0 1.5 1.0 0.5 –1.0 –0.5 O 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 x –0.5 –1.0 –1.5 –2.0 –2.5 –3.0 –3.5
+Find, to 1 decimal place, the value of b.
+
+![grid — official paper figure (qp.pdf p.28) (same figure as 11(a))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02R/assets/asset_11_a_table.png)
 
 ![grid — official paper figure (qp.pdf p.28) — shared with 11(a)](assets/asset_11_a_table.png)
 

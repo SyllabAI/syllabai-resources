@@ -8,9 +8,13 @@ For concerts in a theatre, people can buy tickets in the Stalls, in the Dress Ci
 
 ### 1(a) [2]
 
-find the total number of seats in the theatre. The following table gives information about the cost of tickets and the number of tickets sold for a concert held in the theatre in 2017 Cost of each ticket Number of tickets sold Stalls $65 S Dress Circle $40 90% of D Balcony $25 1 4B
+For concerts in a theatre, people can buy tickets in the Stalls, in the Dress Circle and in the Balcony. The number of seats in the Stalls is S, the number of seats in the Dress Circle is D and the number of seats in the Balcony is B where S : D : B = 12 : 9 : 4 Given that B = 600
 
-> 🖼 crop required: table (qp.pdf p.None)
+find the total number of seats in the theatre. The following table gives information about the cost of tickets and the number of tickets sold for a concert held in the theatre in 2017 Cost of each ticket Number of tickets sold Stalls \$65 S Dress Circle \$40 90% of D Balcony \$25 1 4B
+
+![figure — official paper figure (qp.pdf p.0)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_1_1-a.png)
+
+![figure — official paper figure (qp.pdf p.0)](assets/asset_1_1-a.png)
 
 
 **Mark scheme answer**
@@ -24,14 +28,14 @@ find the total number of seats in the theatre. The following table gives informa
 
 ### 1(b) [3]
 
-Calculate the total amount of money, in $, paid for all the tickets sold for this concert. For a concert held in 2018, the total amount of money paid for all the tickets sold was $175 000 For this concert in 2018, the costs of each ticket for a seat in the Stalls, in the Dress Circle and in the Balcony were the same as the costs in 2017 Also for this concert, the number of tickets sold for seats in the Stalls was the same as in 2017 and the number of tickets sold for seats in the Dress Circle was the same as in 2017
+Calculate the total amount of money, in \$, paid for all the tickets sold for this concert. For a concert held in 2018, the total amount of money paid for all the tickets sold was \$175 000 For this concert in 2018, the costs of each ticket for a seat in the Stalls, in the Dress Circle and in the Balcony were the same as the costs in 2017 Also for this concert, the number of tickets sold for seats in the Stalls was the same as in 2017 and the number of tickets sold for seats in the Dress Circle was the same as in 2017
 
 
 **Mark scheme answer**
 
 > Stalls: 1800 Dress Circle: 1350 B1
 > ( ''1800''× 65) + ( 0.9 × ( ''1350''× 40 ) ) + ( 0.25 × ( 600 × 25) ) M1
-> $169,350 A1
+> \$169,350 A1
 
 - **(3)** Stalls: 1800 Dress Circle: 1350 B1
 
@@ -58,9 +62,12 @@ E Diagram NOT accurately drawn 11 cm D C O 5 cm A 12 cm B Figure 1 Figure 1 show
 
 ### 2 [5]
 
-E Diagram NOT accurately drawn 11 cm D C O 5 cm A 12 cm B Figure 1 Figure 1 shows a rectangular based right pyramid, ABCDE. The point O is the centre of the rectangular base so that OE is the perpendicular height of the pyramid. AB = 12 cm and BC = 5 cm AE = BE = CE = DE = 11 cm Calculate the exact volume of the pyramid. Give your answer in the form p q cm3 where p and q are integers. ⎡ 1 ⎤ ⎢⎣ Volume of pyramid = 3 × base area × height ⎥⎦
+Figure 1 Figure 1 shows a rectangular based right pyramid, ABCDE. The point O is the centre of the rectangular base so that OE is the perpendicular height of the pyramid. AB = 12 cm and BC = 5 cm AE = BE = CE = DE = 11 cm Calculate the exact volume of the pyramid. Give your answer in the form p q cm³ where p and q are integers. ⎡ 1 ⎤ ⎢⎣ Volume of pyramid = 3 × base area × height ⎥⎦
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, D, C, O, A, B · Figure values: 11, 5, 12.
+
+![diagram — official paper figure (qp.pdf p.5)](assets/asset_2_diagram.png)
 
 
 **Mark scheme answer**
@@ -90,7 +97,7 @@ A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = λI
 
 ### 3 [5]
 
-A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = λI where λ is an integer and I = ⎜ ⎝ 0 1⎟⎠ find the value of a and the value of λ.
+A=⎜ B= 4 −1 4 10 1 0⎞ Given that A2 – B = λI where λ is an integer and I = 0 1 find the value of a and the value of λ.
 
 
 **Mark scheme answer**
@@ -101,18 +108,14 @@ A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = λI
 > Question Working Answer Notes Mark Sub- Total
 > Total
 > ⎛ a 2 + 12 3a − 3 ⎞
-> A =⎜
-> ⎟ (-1 eeoo)
+> A = (-1 eeoo)
 > ⎝ 4a − 4 13 ⎠
 > λI
 > Their A 2 − B = M1
-> ⎛ a 2 + 12 3a − 3 ⎞ ⎛13 3 ⎞ ⎛1 0⎞
-> ⎜ ⎟−⎜ ⎟=λ⎜ ⎟
-> ⎝ 4a − 4 13 ⎠ ⎝ 4 10 ⎠ ⎝0 1⎠
+> ⎛ a 2 + 12 3a − 3 ⎞ ⎛13 3 ⎞ ⎛1 0 − =λ 4a − 4 13 ⎠ ⎝ 4 10 ⎠ ⎝0 1⎠
 > a=2 A1
 > λ =3 A1
 > Question Working Answer Notes Mark Sub- Total
-> Total
 
 - **(5)** answer of 177.(4823...)
 
@@ -349,7 +352,9 @@ On the grid, draw and label triangle A. Triangle A is transformed to triangle B 
 
 ### 7(b) [2]
 
-On the grid, draw and label triangle B. ⎛ 1⎞ Triangle B is transformed to triangle C under the translation ⎜ ⎟ ⎝ −3⎠
+On the grid, draw and label triangle B. ⎛ 1⎞ Triangle B is transformed to triangle C under the translation −3⎠
+
+![grid — official paper figure (qp.pdf p.19) (same figure as asset_7_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.19) — shared with asset_7_a_grid](assets/asset_7_a_grid.png)
 
@@ -366,7 +371,9 @@ On the grid, draw and label triangle B. ⎛ 1⎞ Triangle B is transformed to tr
 
 ### 7(c) [2]
 
-On the grid, draw and label triangle C. Triangle C is transformed to triangle D under the transformation with matrix M where ⎛ −2 0 ⎞ M= ⎜ ⎝ 0 −2⎟⎠
+On the grid, draw and label triangle C. Triangle C is transformed to triangle D under the transformation with matrix M where ⎛ −2 0 ⎞ M= 0 −2 
+
+![grid — official paper figure (qp.pdf p.19) (same figure as asset_7_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.19) — shared with asset_7_a_grid](assets/asset_7_a_grid.png)
 
@@ -387,13 +394,10 @@ On the grid, draw and label triangle D.
 **Mark scheme answer**
 
 > NB: coordinates may be M1ft
-> ⎛ −2 0 ⎞ ⎛ −4 −4 −3 ⎞
-> ⎜ ⎟ '' ⎜ ⎟ '' in any order
+> ⎛ −2 0 ⎞ ⎛ −4 −4 −3 '' '' in any order
 > ⎝ 0 −2 ⎠ ⎝ −2 0 0 ⎠
 > A1ft
-> ⎛8 8 6⎞
-> ⎜ ⎟
-> ⎝ 4 0 0⎠
+> ⎛8 8 6 4 0 0⎠
 > Triangle D drawn cao A1
 
 - **(3)** NB: coordinates may be M1ft
@@ -406,9 +410,8 @@ Find the inverse matrix, M–1, of the matrix M
 **Mark scheme answer**
 
 > B1 for one correct row B2
-> ⎛ −0.5 0 ⎞ 1 ⎛ −2 0 ⎞
-> ⎜ ⎟
-> −0.5 ⎠ ⎜ ⎟ oe or column & correct
+> ⎛ −0.5 0 ⎞ 1 ⎛ −2 0 
+> −0.5 oe or column & correct
 > ⎝ 0 4 ⎝ 0 −2 ⎠
 > expression for det.
 
@@ -416,7 +419,11 @@ Find the inverse matrix, M–1, of the matrix M
 
 ### 7(f) [3]
 
-Describe fully the single transformation represented by the matrix M–1 ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎟ ⎝ c d⎠ ad − bc ⎜⎝ −c a ⎟⎠ ⎦ y 6– 5– 4– 3– 2– 1– – – – – – – – – – – – – – – – –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 9 x –1 – –2 – –3 – –4 – –5 – –6 – for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y 6– 5– 4– 3– 2– 1– – – – – – – – – – – – – – – – –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 9 x –1 – –2 – –3 – –4 – –5 – –6 –
+Describe fully the single transformation represented by the matrix M⁻¹.
+
+[The inverse of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$]
+
+![grid — official paper figure (qp.pdf p.19) (same figure as asset_7_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.19) — shared with asset_7_a_grid](assets/asset_7_a_grid.png)
 
@@ -438,6 +445,8 @@ Describe fully the single transformation represented by the matrix M–1 ⎡ ⎛
 The equation of a curve is y = x ( x − 1) − x3 + 11x + 2 3 3 The point A on the curve has coordinates (p, q) The gradient of the curve at A is 5
 
 ### 8(a) [3]
+
+The equation of a curve is y = x ( x − 1) − x³ + 11x + 2 3 3 The point A on the curve has coordinates (p, q) The gradient of the curve at A is 5
 
 Show that p is a root of the equation 2p3 – 5p2 – p + 6 = 0
 
@@ -554,7 +563,9 @@ CD (ii) AE → → Given that AE = 4CD
 
 ### 9(c) [4]
 
-find the value of μ and the value of λ. Given also that ]a] = 4 cm, ]b] = 1 cm and that the area of the trapezium CDEF is 5 cm2
+find the value of μ and the value of λ. Given also that ]a] = 4 cm, ]b] = 1 cm and that the area of the trapezium CDEF is 5
+
+…………… cm²
 
 
 **Mark scheme answer**
@@ -598,7 +609,11 @@ The equation of a curve is given by y = x2 − 5x + x
 
 ### 10(a) [3]
 
+The equation of a curve is given by y = x² − 5x + x
+
 Complete the table of values for y, giving your values of y to 2 decimal places where necessary. x 0.8 1 2 3 4 5 6 y 4 –2 –2 7.33
+
+![table — official paper figure (qp.pdf p.30)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_10_a_table.png)
 
 ![table — official paper figure (qp.pdf p.30)](assets/asset_10_a_table.png)
 
@@ -633,7 +648,9 @@ On the grid, plot the points from your completed table and join them to form a s
 
 ### 10(c) [5]
 
-By drawing a suitable straight line on the grid, find an estimate, to 1 decimal place, for the range of values of x in 0.8 - x - 6 for which 4x3 – 21x2 – 12x + 32 y 8– 7– 6– 5– 4– 3– 2– 1– O – – – – – – – 1 2 3 4 5 6 7x –1 – –2 – –3 – –4 – for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y 8– 7– 6– 5– 4– 3– 2– 1– O – – – – – – – 1 2 3 4 5 6 7x –1 – –2 – –3 – –4 –
+By drawing a suitable straight line on the grid, find an estimate, to 1 decimal place, for the range of values of x in 0.8 - x - 6 for which 4x3 – 21x2 – 12x + 32
+
+![graph — official paper figure (qp.pdf p.31) (same figure as asset_10_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02/assets/asset_10_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.31) — shared with asset_10_b_grid](assets/asset_10_b_grid.png)
 
@@ -643,9 +660,9 @@ By drawing a suitable straight line on the grid, find an estimate, to 1 decimal 
 **Mark scheme answer**
 
 > M1
-> x2 − 5x + = ax + b or x 2 + 8 < 21 x + 3 oe
+> x² − 5x + = ax + b or x 2 + 8 < 21 x + 3 oe
 > x x 4
-> 4 x3 + 4 ( −5 − a ) x 2 − 4bx + 32 =0 oe
+> 4 x³ + 4 ( −5 − a ) x 2 − 4bx + 32 =0 oe
 > Re-arrange and attempt M1
 > to solve for a and b
 > 8 1
@@ -661,7 +678,6 @@ By drawing a suitable straight line on the grid, find an estimate, to 1 decimal 
 > ft their graph. Must be
 > correct inequality signs
 > Question Working Answer Notes Mark Sub- Total
-> Total
 
 - **(5)** M1
 

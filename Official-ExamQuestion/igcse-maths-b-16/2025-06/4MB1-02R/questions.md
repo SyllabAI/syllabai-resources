@@ -23,13 +23,13 @@ Solve the simultaneous equations 3x 4 y 4x 7 y Show clear algebraic working.
 > x= or x = [Allow eg, x = or x = 3 y − 1 or y = or y = ]
 > 4 3 7 11
 > ⎛ 4x − 2 ⎞ M1 dependent on previous mark For a correct method to eliminate either
-> 5 y = 6 or 5 x = 13 or 3 x − 4 ⎜ ⎟ = 3 or variable by adding/subtracting equations or substituting to obtain an
+> 5 y = 6 or 5 x = 13 or 3 x − 4 = 3 or variable by adding/subtracting equations or substituting to obtain an
 > ⎝ 7 ⎠ equation in one variable
 > ⎛ 3x − 3 ⎞ ⎛ 2+ 7y ⎞ NB the alternative forms of x and y listed in the notes above can be
-> 4x − 7 ⎜ ⎟ = 2 or 3 ⎜ ⎟ − 4 y = 3 or substituted into either of the correct original equations
+> 4x − 7 = 2 or 3 − 4 y = 3 or substituted into either of the correct original equations
 > ⎝ 4 ⎠ ⎝ 4 ⎠ Allow one arithmetic or sign slip in total for both M marks
 > ⎛ 3+ 4y ⎞ A correct equation in one variable implies the previous mark
-> 4⎜ ⎟ −7y = 2
+> 4 −7y = 2
 > ⎝ 3 ⎠
 > x = 2.6 A2 wr dependent both method marks being awarded and having a correct
 > and equation in terms of x or y only
@@ -43,8 +43,6 @@ Solve the simultaneous equations 3x 4 y 4x 7 y Show clear algebraic working.
 > NB we will not accept decimals within a fraction eg
 > May be seen within a coordinate pair
 > (A1 for just one value correct)
-> Total 4 marks
-> Question Working Answer Mark Notes
 > Use the overlay when marking this question
 
 - **(4)** 12 x − 16 y = 12 21x − 28 y = 21 4 M1 for preparing to eliminate a variable either by multiplying so the
@@ -58,13 +56,32 @@ A B D C The diagram shows quadrilateral ABCD
 
 Construct the locus of all points that are 4 cm from C
 
+
+**Mark scheme answer**
+
+> The locus is a **circle, centre C, radius 4 cm**.
+
+- **(1)** circle centre C radius 4 cm
+
 ### 2(b) [2]
 
 Using ruler and compasses only and showing all your construction lines, construct the perpendicular bisector of AD The region R consists of all the points inside the quadrilateral that are less than 4 cm from C and nearer to A than to D
 
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
 ### 2(c) [1]
 
 Show, by shading, the region R Label the region R
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 
 ## Question 3 (6 marks)
@@ -81,13 +98,11 @@ Find the size, in degrees, of angle ABC
 > 2 M1 Finding the sum of the interior angles or the exterior angle of the
 > [ = 18] or ( 20 − 2 ) ×180 [ = 3240] or
 > 360
-> polygon. May be seen as part of calculation eg ⎛⎜ 180 −
-> 20 360 ⎞
-> ⎟ or
+> polygon. May be seen as part of calculation eg 180 −
+> 20 360 or
 > ( 2 × 20 − 4 ) × 90 [ = 3240] ⎝ 20 ⎠
 > ⎛ ( 20 − 2 ) ×180 ⎞ or ( 2 × 20 − 4 ) × 90
-> ⎜ ⎟
-> ⎝ 20 ⎠
+>  20 
 > 162 A1 cas May be seen on diagram.
 
 - **(2)** 2 M1 Finding the sum of the interior angles or the exterior angle of the
@@ -125,10 +140,8 @@ Find the size, in degrees, of angle EGA Sum of interior angles of a polygon 2n 4
 > "540"− "162"− 2 × " ∠DEG "
 > [∠EGA =]
 > 36 A1 cas
-> Total 6 marks
 > Commonly found angles that could be used to work towards finding ∠EGA
 > (due to the symmetry of the shape, these may not always be found in these positions)
-> Question Working Ans Mark Notes
 
 - **(4)** ( 2 × 7 − 4) × 90 [ = 900] or ( 2 × 6 − 4) × 90 [ = 720] or 4 M1 for a start to the process,
 
@@ -193,8 +206,6 @@ find the value of d Show all your working.
 > 12
 > 3 A1 wr dependent on 3 method marks awarded
 > d = 3 must be clearly selected
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(5)** d ( 2 x − 1) + 2 = 4 x + 9 5 M1 for
 
@@ -204,6 +215,8 @@ find the value of d Show all your working.
 A large rental company has cars, vans and minibuses available to rent. The cost to rent a minibus from the company is found by adding $1000 rental fee $400 for each day the minibus is rented $0.8 per kilometre the minibus travels during the time it is rented This cost is reduced by n% if the minibus is a hybrid vehicle. The total cost of hiring 3 minibuses that are hybrid vehicles for 7 days is $10 584 Given that each minibus travels a total distance of 500 kilometres during these 7 days
 
 ### 5(a) [5]
+
+A large rental company has cars, vans and minibuses available to rent. The cost to rent a minibus from the company is found by adding \$1000 rental fee \$400 for each day the minibus is rented \$0.8 per kilometre the minibus travels during the time it is rented This cost is reduced by n% if the minibus is a hybrid vehicle. The total cost of hiring 3 minibuses that are hybrid vehicles for 7 days is \$10 584 Given that each minibus travels a total distance of 500 kilometres during these 7 days
 
 find the value of n Show all your working. The number of cars the company owns is the Highest Common Factor (HCF) of 2 2 × 35 × 53 and 25 × 32 × 55 × 7
 
@@ -223,8 +236,8 @@ find the value of n Show all your working. The number of cars the company owns i
 > [ = 3528] or either the cost of hiring 1 discounted minibus (hybrid) or 3 full-price
 > minibuses or ( m full-price minibuses and m discounted minibuses)
 > "4200"× 3[= 12600] or ft their values if they come from correct method
-> ⎛ 10584 × m
-> ⎜ "4200"× m and [ = 3528m] ⎞⎟ 12600 implies M1M1M1 unless contradictory working is seen
+>  10584 × m
+>  "4200"× m and [ = 3528m] 12600 implies M1M1M1 unless contradictory working is seen
 > ⎝ 3 ⎠
 > "3528" M1 ft their values if they all use the same value of m and come from
 > ± [ = 0.84] or correct working
@@ -311,8 +324,6 @@ Express the total number of vans and minibuses which are hybrid vehicles as a pe
 > [×100] or " "+ " "[×100]
 > 8 4 200
 > 38.5 A1 wr dependent on all method marks awarded
-> Total 13 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 5 4 M1 For a correct method to find the number of hybrid vans
 
@@ -375,8 +386,6 @@ Find n C D
 **Mark scheme answer**
 
 > 8 1 B1 ft "6" + "2" or 90 – “82”
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 8 1 B1 ft "6" + "2" or 90 – “82”
 
@@ -419,7 +428,9 @@ On the grid, draw and label triangle D Triangle B is the image of triangle A und
 
 ### 7(c) [3]
 
-Calculate the value, to 4 significant figures, of θ Show your working. y A O x −7 −6 −5 −4 −3 −2 −1 1 2 3 4 5 6 7 8 9 −1 −2 B −3 −4 −5 −6 −7 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y A O x −7 −6 −5 −4 −3 −2 −1 1 2 3 4 5 6 7 8 9 −1 −2 B −3 −4 −5 −6 −7
+Calculate the value, to 4 significant figures, of θ Show your working.
+
+![grid — official paper figure (qp.pdf p.17) (same figure as asset_7_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.17) — shared with asset_7_a_grid](assets/asset_7_a_grid.png)
 
@@ -438,10 +449,8 @@ Calculate the value, to 4 significant figures, of θ Show your working. y A O x 
 > method was seen
 > 117 A1ft wr awrt 117 ft their x value if from correct working.
 > ⎛ −2 ⎞
-> SC3 for using cos −1 ⎜ ⎟ = 116.56...
+> SC3 for using cos −1 = 116.56...
 > ⎝2 5⎠
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1 2 3 M1 uses a trigonometric method to calculate an angle.
 
@@ -534,8 +543,6 @@ find the probability that the red dice lands on the number 2
 > where 0.036 < p < 1
 > "0.072"
 > 0.5 A1 cas oe
-> Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 0.1× 0.24 + 0.15 × 0.24 + 0.1× 0.12 [ = 0.072] 3 M1 for finding the probability that the score is < 6
 
@@ -546,7 +553,9 @@ Diagram NOT accurately drawn E F D C G H A B Figure 2 Figure 2 shows a solid mad
 
 ### 9(a) [5]
 
-Calculate, in cm 2 to 2 significant figures, the total surface area of the solid. Show all your working. O is the midpoint of EF N is the point on the edge of the half cylinder vertically above O
+Diagram NOT accurately drawn E F D C G H A B Figure 2 Figure 2 shows a solid made by joining a half cylinder to a prism. The plane face of the half cylinder coincides with the top face of the prism. The rectangular base ABGH of the solid is horizontal. The cross section ABCD of the prism is a trapezium such that AB is parallel to DC AB = 26 cm DC = 10 cm BG = 20 cm AD = BC = 17 cm The perpendicular height of the trapezium ABCD is 15 cm
+
+Calculate, in cm² to 2 significant figures, the total surface area of the solid. Show all your working. O is the midpoint of EF N is the point on the edge of the half cylinder vertically above O
 
 
 **Mark scheme answer**
@@ -558,7 +567,7 @@ Calculate, in cm 2 to 2 significant figures, the total surface area of the solid
 > 2π × 5 × 20 [ = 200π = 628.318...] or π × 5 × 20 [ = 100π = 314.159...] M1 for a method to find the surface area of the
 > cylinder or half-cylinder.
 > ⎡ 25 π = 39.269...⎤ Allow π × 5 × 20 + π × 5 [ = 125π = 392.699...]
-> and π × 5 [ = 25π = 78.539...] or 0.5 × π × 5 ⎢ =
+> and π × 5 [ = 25π = 78.539...] or 0.5 × π × 5 =
 > 2 2
 > ⎣ 2 ⎥⎦
 > 1 M1 Correct method for area of the trapezium. Allow
@@ -582,7 +591,7 @@ Calculate the size, in degrees to 3 significant figures, of ∠AON Area of trape
 > AX = 13 + 20 ⎡⎣= 569 = 23.85...⎤⎦ or
 > 2 2 M1 for a correct method to find AX, AO or AN
 > ignoring labelling
-> AO 2 = 132 + 202 + 152 [ = 794] or AN 2 = 132 + 202 + 202 [ = 969]
+> $AO^2$ = $13^2$ + $20^2$ + $15^2$ [ = 794] or $AN^2$ = $13^2$ + $20^2$ + $20^2$ [ = 969]
 > " 569 " M1 dependent on 1st M1
 > 15 " 569 "
 > tan ∠AOX = or cos ∠AOX = or sin ∠AOX = ft using trigonometry to find ∠AOX or ∠AON allow
@@ -595,8 +604,6 @@ Calculate the size, in degrees to 3 significant figures, of ∠AON Area of trape
 > or tan ∠ANX = and =
 > 20 "969" "794"
 > 122 A1 cas awrt 122 or 123
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 X is the midpoint of HG
 
@@ -607,7 +614,9 @@ B Diagram NOT accurately drawn N C O M A Figure 3 Figure 3 shows triangle OAB wh
 
 ### 10(a) [3]
 
-Find an expression for in terms of a and b Give your answer in its simplest form. The point C lies on BM such that BC : BM = 3 : 4 The area of triangle OBM = 45 cm 2 Given that a= b= 2 cm
+B Diagram NOT accurately drawn N C O M A Figure 3 Figure 3 shows triangle OAB where = 10a and = 5b M is the midpoint of OA The point N lies on the line AB such that AN = AB
+
+Find an expression for in terms of a and b Give your answer in its simplest form. The point C lies on BM such that BC : BM = 3 : 4 The area of triangle OBM = 45 cm² Given that a= b= 2 cm
 
 
 **Mark scheme answer**
@@ -634,14 +643,13 @@ find the length, in cm to 3 significant figures, of OC a b c Sine Rule sin A sin
 > 1 4 M1 allow awrt 64.2
 > ×10 ×10sin ∠BOM = 45 or ∠BOM = 64.158...
 > ⎛ "64.158..." ⎞ M1 Allow for BM = 10.62… or BM = 112.8…
-> BM = 2 × 10 sin ⎜ ⎟ or
+> BM = 2 × 10 sin or
 > ⎝ 2 ⎠ ft their ∠BOM
 > BM = 10 + 10 − 2 ×10 ×10 × cos"64.158..." or
 > 2 2
 > =
 > ⎛ 180 − "64.158..." ⎞ sin("64.158...")
-> sin ⎜ ⎟
-> ⎝ 2 ⎠
+> sin 2 
 > ⎛3 ⎞
 > ⎛3 ⎞ M1 for finding length OC awrt 78.8
 > OC 2 = 102 + ⎜ × " BM " ⎟ − 2 ×10 × ⎜ × " BM " ⎟ × cos (" ∠OBM ") ft their values for BM and angles provided correctly
@@ -654,18 +662,14 @@ find the length, in cm to 3 significant figures, of OC a b c Sine Rule sin A sin
 > 2
 > ⎝4 ⎠ ⎝4 ⎠
 > ⎛ 10 × sin ("64.15...") ⎞ = 57.92... but
-> ∠OMB = ∠OBM = sin ⎜
+> ∠OMB = ∠OBM = sin 
 > −1
-> or OC 2 = 102 + ("2.65...") − 2 ×10 × ("2.65...") × cos ("57.92...") or ⎟
-> ⎝ BM ⎠
+> or OC 2 = 102 + ("2.65...") − 2 ×10 × ("2.65...") × cos ("57.92...") or BM 
 > ⎛1 ⎞ ⎛1
-> ⎞
+> 
 > the angle ∠OMB alone does not imply the mark
-> OC 2 = 102 − ⎜ × "10.62..." ⎟ + ⎜ × "10.62..." ⎟
-> ⎝ 2 ⎠ ⎝ 4 ⎠
+> OC 2 = 102 − ⎜ × "10.62..." ⎟ + ⎜ × "10.62..." 2 ⎠ ⎝ 4 ⎠
 > 8.88 A1 wr accept answer in the range 8.87 - 8.90
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 1 4 M1 allow awrt 64.2
 
@@ -741,7 +745,9 @@ Find the coordinates, to 2 decimal places, of these two turning points. Show you
 
 Complete the table of values for y f x x −1.5 −0.75 0 0.75 1.5 2.25 y 0.3 −2 −5.5 4.5
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.3)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_11_11-d.png)
+
+![figure — official paper figure (qp.pdf p.3)](assets/asset_11_11-d.png)
 
 
 **Mark scheme answer**
@@ -761,6 +767,12 @@ On the grid opposite, plot the points where curve C crosses the x-axis, the two 
 ### 11(e)(ii) [4]
 
 Join all the points to form a smooth curve.
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 ### 11(f) [3]
 
@@ -782,7 +794,11 @@ By drawing a suitable line on the grid, find estimates to one decimal place, of 
 
 ### 11(g) [2]
 
-By drawing a suitable line (at least 3 cm long) on the grid, find the gradient of curve C at the point where x = 1.5 2a y −2 −1 O 1 2 3 x −1 −2 −3 −4 −5 −6 to page 37 for a spare grid if you need to redraw your graph. Only use this grid if you need to redraw your graph. y −2 −1 O 1 2 3 x −1 −2 −3 −4 −5 −6
+By drawing a suitable line (at least 3 cm long) on the grid, find the gradient of curve C at the point where x = 1.5.
+
+![graph — official paper figure (qp.pdf p.32) (same figure as 11(e)(i))](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_11_e_i_table.png)
+
+![grid — official paper figure (qp.pdf p.33) (same figure as asset_11_e_i_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02R/assets/asset_11_e_i_grid.png)
 
 ![graph — official paper figure (qp.pdf p.32) — shared with 11(e)(i)](assets/asset_11_e_i_table.png)
 
@@ -794,8 +810,6 @@ By drawing a suitable line (at least 3 cm long) on the grid, find the gradient o
 > Tangent drawn 2 M1 for a clear tangent drawn
 > 5.5 A1 dependent on M1 being awarded
 > allow in range 4 – 8 (if not from incorrect working)
-> Total 19 marks
-> Question Working Answer Mark Notes
 
 - **(2)** Tangent drawn 2 M1 for a clear tangent drawn
 

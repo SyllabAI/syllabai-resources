@@ -513,6 +513,18 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 29 (2026-10-30, F122) CLOSED the maths-B corpus back-sync standing debt (operator
+  order "the maths-B corpus back-sync", trace 1a18c23adef78245) with the F114
+  reconcile-to-plane shape at scale: corpus := the serving plane of record (f7a8c687) per
+  field — 1,471 pids / 2,657 field writes / 271 asset upgrades / 66 sets — so the exporter
+  re-export is a byte-level no-op (G-E1 0 deltas, G-E7 2669/2669 in-run, determinism
+  proven). Three exporter-law alignments landed with it (r3: A1 verbatim synced problem_md,
+  A2 markPoints label passthrough, A3 asset note passthrough); the synced-fields ledger of
+  record + 2,669 C-law pins + the zero-network battery (B1-B7) are CI-enforced; C145
+  re-pointed (the run-018 residual consumed). The ONE file-level normalization (the 41
+  markPoints label entries re-keyed to the canonical order, content-identical, 20 pids)
+  rides the v2 landing leg (staged plane + manifest re-stamp). Future maths-B hand-repairs:
+  land on the corpus first, or re-run this wave's shape (F114/F121 repeatable).
 - Task 28 (2026-10-30, F121) CLOSED the group-stem restore — the last wave-22 open
   item ("the exporter restores QUESTION stems only") — end-to-end: the exporter
   (exporter v5) now restores every question-GROUP intro (`groups[<letter>].
@@ -552,8 +564,10 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   (aggregate PASS; mutated-fact + mutated-label DETECTED; dead renderer NOT_RUN). LANDED
   post-merge: the post-deploy vercel spot receipt for the v3 contract (2 cases through the
   DEPLOYED hub of record, 10/10 label checks green, renderer class `syllabai-v2-vercel`).
-  STANDING from the F119 queue: (b) the maths-B corpus back-sync (unchanged; the label
-  contract only READS the serve-plane field-write). The
+  STANDING from the F119 queue: (b) the maths-B corpus back-sync — EXECUTED by F122
+  (T-OEQ-MATHSB-SERVE-1 run-030, operator trace 1a18c23adef78245): corpus := plane of
+  record (1,471 pids / 2,669 ledgered fields), the exporter port landed with
+  printed_part_label + G-E6 + the r3 law set, re-export byte-no-op proven. The
   F119 item (c) closed earlier with T-OEQ-PARTLABEL-3 (v2 #477).
 - Task 26 (2026-10-30, F119) CLOSED the operator-reported part-label learner-surface gap
   end-to-end and shipped the pipeline's first SERVING-FIELD playbook: the exporter emits

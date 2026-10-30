@@ -33,7 +33,9 @@ Some students at a school are asked the following question “Did you walk to sc
 
 ### 2 [2]
 
-Some students at a school are asked the following question “Did you walk to school today?” 52% of the students asked are in Year 7 and the rest of the students asked are in Year 8. 20% of the students asked are Year 8 students who walked to school. 42% of the students asked did not walk to school. Find as a percentage of all students asked, those who are in Year 7 and did not walk to school %
+Some students at a school are asked the following question “Did you walk to school today?” 52% of the students asked are in Year 7 and the rest of the students asked are in Year 8. 20% of the students asked are Year 8 students who walked to school. 42% of the students asked did not walk to school. Find as a percentage of all students asked, those who are in Year 7 and did not walk to school
+
+…………… %
 
 
 **Mark scheme answer**
@@ -83,7 +85,6 @@ Q = 10 − At Work out the value of Q when A = −2 and t = 3 Q =
 
 > 10 – (–2 × 3) 2 M1
 > 16 A1
-> Total 2 marks
 > Working Answer Mark Notes
 
 - **(2)** 10 – (–2 × 3) 2 M1
@@ -95,7 +96,7 @@ Given that ⎛ −4 x⎞ ⎛ 3 1⎞ ⎛ x 4⎞ ⎜⎝ y 1⎟⎠ + x ⎜⎝ 0 −
 
 ### 5 [2]
 
-Given that ⎛ −4 x⎞ ⎛ 3 1⎞ ⎛ x 4⎞ ⎜⎝ y 1⎟⎠ + x ⎜⎝ 0 −1⎟⎠ = ⎜⎝ y −1⎟⎠ find the value of x. x =
+Given that ⎛ −4 x⎞ ⎛ 3 1⎞ ⎛ x 4 y 1 + x 0 −1 = y −1 find the value of x. x =
 
 
 **Mark scheme answer**
@@ -105,11 +106,10 @@ Given that ⎛ −4 x⎞ ⎛ 3 1⎞ ⎛ x 4⎞ ⎜⎝ y 1⎟⎠ + x ⎜⎝ 0 −
 > matrices – allow 1 sign slip only
 > 2 A1 – correct working only - so if seen must
 > ⎛ −4 + 3x 2 x ⎞ ⎛ x 4 ⎞
-> imply that ⎜ ⎟=⎜ ⎟ - any
+> imply that = - any
 > ⎝ y 1 − x ⎠ ⎝ y −1⎠
 > incorrect entries even if answer correct
 > scores M1 only
-> Total 2 marks
 
 - **(2)** 1 − x = −1 or −4 + 3x = x or x + x = 4 2 M1 – setting up at least one linear equation
 
@@ -134,8 +134,6 @@ Here are four numbers written in order of size. 1.5 2 p 19.5 The mean of the fou
 > (the 3 must be on the correct side of the
 > equation)
 > 2.2 A1
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 2+p 1.5 + 2 + p + 19.5 3 M1 either mean or median stated correctly
 
@@ -146,9 +144,11 @@ Here is hexagon ABCDEF. A 8 cm B Diagram NOT accurately drawn 9 cm 14 cm C 12 cm
 
 ### 7 [3]
 
-Here is hexagon ABCDEF. A 8 cm B Diagram NOT accurately drawn 9 cm 14 cm C 12 cm D F E All the corners of ABCDEF are right angles. AB = 8 cm AF = 14 cm BC = 9 cm CD = 12 cm Calculate the area, in cm2, of ABCDEF cm2
+Here is hexagon ABCDEF. A 8 cm B Diagram NOT accurately drawn 9 cm 14 cm C 12 cm D F E All the corners of ABCDEF are right angles. AB = 8 cm AF = 14 cm BC = 9 cm CD = 12 cm Calculate the area, in cm², of ABCDEF cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.4)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**
@@ -192,8 +192,6 @@ Find the value of the National Minimum Wage before this increase. £
 
 > £7.83 ÷ 1.044 2 M1
 > £7.50 A1
-> Total 3 marks
-> Question Working Answer Mark Notes
 > 3 M1 Complete correct method for CD or
 > ( CD = ) 42 − 32 ( = 2.65)
 > BC e.g. cos(CAD) = ⇒ CAD = 41.409...
@@ -209,7 +207,6 @@ Find the value of the National Minimum Wage before this increase. £
 > BC
 > cos ( ABC ) =
 > 27.9 A1 awrt 27.9 (For ref: 27.88556…)
-> Total 3 marks
 > 10 ( 2n + 1)( n + 1) or 2 ( n + 1) 3 M1 Factorise the numerator or
 > denominator correctly
 > 2n + 1 1 A1 Fully correct fully simplified
@@ -221,10 +218,8 @@ Find the value of the National Minimum Wage before this increase. £
 > or
 > No marks if numerical examples
 > considered only
-> Question Working Answer Mark Notes
 > n is an integer so n +
 > is not
-> Total 3 marks
 
 - **(2)** £7.83 ÷ 1.044 2 M1
 
@@ -235,9 +230,25 @@ C Diagram NOT accurately drawn 4 cm A 3 cm D 5 cm B The diagram shows triangle A
 
 ### 9 [3]
 
-C Diagram NOT accurately drawn 4 cm A 3 cm D 5 cm B The diagram shows triangle ABC. The point D lies on AB such that ∠ADC = 90° AC = 4 cm AD = 3 cm BD = 5 cm Calculate the size, in degrees to one decimal place, of ∠ABC. °
+The diagram shows triangle ABC. The point D lies on AB such that ∠ADC = 90° AC = 4 cm AD = 3 cm BD = 5 cm Calculate the size, in degrees to one decimal place, of ∠ABC. °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: C, A, D, B · Figure values: 4, 3, 5.
+
+![diagram — official paper figure (qp.pdf p.6)](assets/asset_9_diagram.png)
+
+
+**Mark scheme answer**
+
+> DC = √(4² − 3²) = √7  (right angle at D)
+> 
+> tan ∠ABC = √7 ÷ 5
+> 
+> ∠ABC = **27.9°** (1 dp)
+
+- **(1)** DC = √(4² − 3²) = √7 oe
+- **(1)** tan ∠ABC = √7/5 oe
+- **(1)** 27.9°
 
 
 ## Question 10 (3 marks)
@@ -249,10 +260,16 @@ The nth term of a sequence is an where an = 2n + 2 By simplifying the expression
 The nth term of a sequence is an where an = 2n + 2 By simplifying the expression for an or otherwise, explain why no term in the sequence is an integer. Show algebraic working and clearly explain your reasoning.
 
 
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
+
+
 ## Question 11 (3 marks)
 ### 11(a) [1]
 
-Factorise x2 − 1 p and q are integers greater than 260 000 and p < q
+Factorise x² − 1 p and q are integers greater than 260 000 and p < q
 
 
 **Mark scheme answer**
@@ -285,7 +302,7 @@ The density, d grams/cm3, of an object of mass m grams and volume V cm3 is given
 
 ### 12 [3]
 
-The density, d grams/cm3, of an object of mass m grams and volume V cm3 is given by the formula m d = V m = 2800 to the nearest 10 V = 1600 to 3 significant figures. Calculate the lower bound, to 3 significant figures, of d. Show your working clearly.
+The density, d grams/cm³, of an object of mass m grams and volume V cm³ is given by the formula m d = V m = 2800 to the nearest 10 V = 1600 to 3 significant figures. Calculate the lower bound, to 3 significant figures, of d. Show your working clearly.
 
 
 **Mark scheme answer**
@@ -319,11 +336,8 @@ Without using your calculator and showing all your working, express 13 + 11 13 �
 > condone
 > ( 13 ) − ( 11 )
 > 2
-> Question Working Answer Mark Notes
 > 24 + 2 143 12 + 143 A1 cao sufficient working must be seen.
 > Correct answer with no working scores no
-> marks
-> Total 3 marks
 
 - **(3)** 13 + 11 13 + 11 3 M1 multiplying numerator and
 
@@ -408,7 +422,9 @@ Given that a = 2.1 × 1056 and b = 8 × 1054
 
 ### 17(a) [2]
 
-calculate ab Give your answer in standard form. n Given that a + b = k × 10 where k and n are integers,
+Given that a = 2.1 × 1056 and b = 8 × 1054
+
+calculate ab Give your answer in standard form. n Given that a + b = k × 10 where k and n are integers …………… , ……………
 
 
 **Mark scheme answer**
@@ -431,12 +447,9 @@ find the smallest value of k and the corresponding value of n k = n =
 > 2.18 ×1056 or 210 ×1054 2 M1
 > k = 218 A1 Allow 218 ×1054 if given as a final
 > n = 54 answer in working only. Do not isw if
-> Question Working Answer Mark Notes
 > 218 ×1054 seen in working then followed by
 > 2.18 ×1056 either in working or on the answer
 > line
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2.18 ×1056 or 210 ×1054 2 M1
 
@@ -458,19 +471,19 @@ Solve the simultaneous equations 5x + 3y = 2 3x − 8y = 4 Show clear algebraic 
 > no marks
 > OR
 > 2 − 3y ⎛ 2 − 3y ⎞
-> x= and 3⎜ ⎟ − 8y = 4
+> x= and 3 − 8y = 4
 > 5 ⎝ 5 ⎠
 > OR
 > 8y + 4 ⎛ 8y + 4 ⎞
-> x= and 5⎜ ⎟ + 3y = 2
+> x= and 5 + 3y = 2
 > 3 ⎝ 3 ⎠
 > OR
 > 2 − 5x ⎛ 2 − 5x ⎞
-> y= and 3x − 8 ⎜ ⎟=4
+> y= and 3x − 8 =4
 > 3 ⎝ 3 ⎠
 > OR
 > 3x − 4 ⎛ 3x − 4 ⎞
-> y= and 5x + 3 ⎜ ⎟=2
+> y= and 5x + 3 =2
 > 8 ⎝ 8 ⎠
 > 4 2 A1 (oe – awrt x = 0.57(1428…) or y = –
 > x= or y = − 0.28(57142…) to at least two decimal
@@ -485,8 +498,6 @@ Solve the simultaneous equations 5x + 3y = 2 3x − 8y = 4 Show clear algebraic 
 > 4 2 A1 – must see exact values at some point
 > x= and y = −
 > 7
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 40𝑥 + 24𝑦 = 16 OR 15x + 9 y = 6 4 M1 – allow one arithmetic or sign slip only
 
@@ -496,6 +507,8 @@ Solve the simultaneous equations 5x + 3y = 2 3x − 8y = 4 Show clear algebraic 
 f (x) = x3 + ax − 3 where a is an integer. (x − 3) is a factor of f (x)
 
 ### 19(a) [2]
+
+f (x) = x³ + ax − 3 where a is an integer. (x − 3) is a factor of f (x)
 
 Use the factor theorem to show that a = −8 Given that f (x) = (x − 3)Q(x) where Q(x) is a quadratic expression in x
 
@@ -519,11 +532,10 @@ find Q(x) Q(x) =
 
 **Mark scheme answer**
 
-> x2 + 3x + 1 2 M1 Correct method used to find 2 correct
+> x² + 3x + 1 2 M1 Correct method used to find 2 correct
 > coefficients or
 > x 2 ( x − 3) + 3x ( x − 3) + 1( x − 3)
 > A1 cao
-> Total 4 marks
 
 - **(2)** x2 + 3x + 1 2 M1 Correct method used to find 2 correct
 
@@ -534,7 +546,9 @@ A C B The diagram shows triangle ABC. Showing all your construction lines, const
 
 ### 20(a) [2]
 
-the perpendicular bisector of AB,
+A C B The diagram shows triangle ABC. Showing all your construction lines, construct
+
+the perpendicular bisector of AB …………… , ……………
 
 
 **Mark scheme answer**
@@ -567,8 +581,6 @@ Show, by shading, the region R. Label the region R.
 
 > Correct region 1 B1 dep on both M1 scored in (a) and (b)
 > labelled R (either labelled or R or correctly shaded)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** Correct region 1 B1 dep on both M1 scored in (a) and (b)
 
@@ -579,9 +591,12 @@ B Diagram NOT accurately drawn C 80° D 120° O A E The diagram shows the circle
 
 ### 21 [5]
 
-B Diagram NOT accurately drawn C 80° D 120° O A E The diagram shows the circle ABCDE with centre O. AC is the diameter of the circle. AB is parallel to ED. ∠ACD = 80° ∠CDE = 120° Giving your reasons, find the size, in degrees, of ∠ACB. ° ∠ACB =
+The diagram shows the circle ABCDE with centre O. AC is the diameter of the circle. AB is parallel to ED. ∠ACD = 80° ∠CDE = 120° Giving your reasons, find the size, in degrees, of ∠ACB. ° ∠ACB =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: B, C, D, O, A, E · Figure values: 80°, 120°.
+
+![diagram — official paper figure (qp.pdf p.16)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -596,7 +611,6 @@ B Diagram NOT accurately drawn C 80° D 120° O A E The diagram shows the circle
 > together with correct corresponding reason
 > 70 with reason A1 correct answer of 70 together with all
 > correct reasons for their method – see below
-> Total 5 marks
 > Method 1
 > • ∠ABC = 90 (angles in a semi-circle or right-angled triangle in a semi-circle)
 > • ∠BAE + ∠AED = 180 (co-interior angles or allied angles)
@@ -611,7 +625,6 @@ B Diagram NOT accurately drawn C 80° D 120° O A E The diagram shows the circle
 > ∠BAE = 80’ (corresponding angles) (so may not use co-interior/allied angles)
 > Also note that the correct answer can come from assuming that both ∠DEA and ∠BAE = 90 – this can score a maximum of B1M1M0B1A0
 > Symbols may be used instead of words (e.g. ∠ for angle, Δ for triangle, etc.)
-> Question Working Answer Mark Notes
 
 - **(5)** ∠ABC = 90 5 B1 ∠ABC = 90 may be seen on diagram
 
@@ -622,7 +635,11 @@ Diagram NOT accurately drawn 20 cm S 20 cm The diagram above shows a right circu
 
 ### 22(a) [2]
 
-Calculate the volume, in cm3 to 3 significant figures, of S cm3 Diagram NOT accurately drawn A B 10 cm 20 cm The shape B is formed from cone S by cutting S parallel to its base and removing cone A, as shown in the diagram above. The height of B is 10 cm.
+Diagram NOT accurately drawn 20 cm S 20 cm The diagram above shows a right circular solid cone S with base diameter 20 cm and height 20 cm.
+
+Calculate the volume, in cm³ to 3 significant figures, of S cm³ Diagram NOT accurately drawn A B 10 cm 20 cm The shape B is formed from cone S by cutting S parallel to its base and removing cone A, as shown in the diagram above. The height of B is 10 cm.
+
+![diagram — official paper figure (qp.pdf p.19) (same figure as asset_22_a_diagram_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-01/assets/asset_22_a_diagram_stem.png)
 
 ![diagram — official paper figure (qp.pdf p.19) — shared with asset_22_a_diagram_stem](assets/asset_22_a_diagram_stem.png)
 
@@ -640,7 +657,9 @@ Calculate the volume, in cm3 to 3 significant figures, of S cm3 Diagram NOT accu
 
 ### 22(b) [3]
 
-Calculate the volume, in cm3 to 3 significant figures, of B cm3
+Calculate the volume, in cm³ to 3 significant figures, of B
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -648,8 +667,7 @@ Calculate the volume, in cm3 to 3 significant figures, of B cm3
 > 3
 > ⎛1⎞ ⎛ 1⎞ 1 3
 > M1 may be seen as a ratio
-> ⎜ ⎟ ⎜ = ⎟ or × π × 5 ×10
-> 2
+>  = or × π × 5 ×10²
 > ⎝ 2⎠ ⎝ 8⎠
 > ⎛ 1 ⎞ 1
 > "2090"× ⎜1 − " " ⎟ or "2090"− × π × 52 ×10 M1dep allow for "2090"− × π × 52 ×10
@@ -658,7 +676,6 @@ Calculate the volume, in cm3 to 3 significant figures, of B cm3
 > A1 – allow exact value π (=
 > 1832.595715…) or awrt 1830 (most likely
 > to be from 1828 to 1833 to 4 sf)
-> Total 5 marks
 
 - **(3)** 3
 
@@ -686,8 +703,6 @@ The incomplete histogram and the incomplete table give information about the dai
 > 48 in table and A1 including frequency density axis labelled
 > Bar from 17 to 25 (1 cm square is 2.5)
 > height 2.4 cm drawn
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** Bar from 10 to 15 height 6.4 cm drawn Bar from 10 to 15 5 B1
 
@@ -697,6 +712,8 @@ The incomplete histogram and the incomplete table give information about the dai
 The functions f and g are defined as f:xα x−3 g : x ↦ x2 − 2
 
 ### 24(a) [2]
+
+The functions f and g are defined as f:xα x−3 g : x ↦ x² − 2
 
 Find fg(6) The function h is defined as h(x) = gf (x)
 
@@ -710,14 +727,14 @@ Find fg(6) The function h is defined as h(x) = gf (x)
 
 ### 24(b) [2]
 
-Show that h(x) = x2 − 6x + 7 The domain of h is {x : x ≥ n} The inverse of h is h−1
+Show that h(x) = x² − 6x + 7 The domain of h is {x : x ≥ n} The inverse of h is h−1
 
 
 **Mark scheme answer**
 
 > h ( x ) = ( x − 3) − 2
 > 2 M1
-> h ( x ) = x2 − 6x + 7 A1 - Answer given, must see no incorrect
+> h ( x ) = x² − 6x + 7 A1 - Answer given, must see no incorrect
 > working. As a minimum
 > ( x − 3) − 2 = x 2 − 6 x + 9 − 2 = x 2 − 6 x + 7 for
 > full marks
@@ -755,8 +772,6 @@ For this value of n, find h−1(x) h−1(x) =
 > x = ±3 ± y ± 2 (so sign errors only)
 > or h −1 ( x ) = f −1 ( x ± 2 ) = ±3 ± x ± 2
 > A1 fully correct and must be in terms of x
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(3)** y = ( x − 3) − 2 leading to ( x − 3) = y + 2
 
@@ -800,7 +815,9 @@ calculate the value, to 2 significant figures, of x. x =
 
 ### 25(b) [2]
 
-Calculate the size, to the nearest degree, of angle BAN. °
+Calculate the size, to the nearest degree, of angle BAN.
+
+…………… °
 
 
 **Mark scheme answer**
@@ -819,8 +836,6 @@ Calculate the size, to the nearest degree, of angle BAN. °
 > 28 A1 (correct working only) – must be using a correct
 > AN and angles from part (a) – awrt 28.
 > (For reference: 28.303196…)
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(2)** sin ( ∠BAN ) sin"58.2..." 2 M1 correct complete method to find angle BAN
 
@@ -858,12 +873,10 @@ Find the total distance travelled by the particle between t = 0 and t = 5 m
 
 > s ( 0 ) = 0 and s ( 5) = 0 3 B1 seen or implied from working
 > ⎛ ⎛ 10 ⎞ ⎞ 10 2 10 3 ⎛ 500 ⎞ M1
-> ⎜ s ⎜ " "⎟ = ⎟ = 5 × " " − " " ⎜ = ⎟
-> ⎝ ⎝ 3 ⎠ ⎠ 3 3 ⎝ 27 ⎠
+> ⎜ s ⎜ " "⎟ = ⎟ = 5 × " " − " " ⎜ = 3 ⎠ ⎠ 3 3 ⎝ 27 ⎠
 > 1000 A1 cso (so must have scored both previous
 > oe marks)
 > Allow awrt 37
-> Total 7 marks
 
 - **(3)** s ( 0 ) = 0 and s ( 5) = 0 3 B1 seen or implied from working
 

@@ -26,8 +26,6 @@ Charles asks each of the students in his class which flavour of ice cream they p
 > Note: an answer with no working and in the range
 > 6.8 – 7.17 implies B1M1
 > Note: B0M1A1 is possible
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 84 (±2) seen or 276 (±2) 3 B1 may be seen in a calculation. May be implied
 
@@ -93,8 +91,6 @@ Show, by shading, the region in which Abdul can place the fountain. Label the re
 > touch/cross PQ and the bisector and the bisector must
 > touch/cross the parallel line i.e. it must be a fully bounded
 > area
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** correct region indicated 1 B1ft only follow through if they have an arc centre P and a
 
@@ -147,8 +143,6 @@ Calculate x + y Give your answer in standard form.
 > or for a correct answer in any form
 > 56 ×10120 or 5.6 ×10n or k ×10121
 > 5.6 ×10121 A1 cao
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** (54 ×10 ) + ( 2 ×10 ) or (5.4 ×10 ) + ( 0.2 ×10 ) or
 
@@ -159,7 +153,11 @@ B C Diagram NOT 5m accurately drawn 50° A 5m D Figure 1 Figure 1 shows the sect
 
 ### 4(a) [2]
 
-Calculate the area, in m 2 to 3 significant figures, of the sector ADB Grass is to be grown in this section ABCD of the park. 35 g of grass seed is needed for each 1 m 2
+B C Diagram NOT 5m accurately drawn 50° A 5m D Figure 1 Figure 1 shows the section of a park, ABCD, where ADB is a sector of a circle centre D AD = BD = 5 m ADB BCD CDA
+
+Calculate the area, in m² to 3 significant figures, of the sector ADB Grass is to be grown in this section ABCD of the park. 35 g of grass seed is needed for each 1
+
+…………… m²
 
 
 **Mark scheme answer**
@@ -211,8 +209,6 @@ Calculate, in g to the nearest g, the weight of grass seed needed to cover this 
 > of triangle BCD. It must be 2 areas
 > added together and multiplied by 35
 > 597 A1 awrt 597
-> Cas Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** BC = 5sin 40 or BC = 5cos 50 [=3.213938048] 4 M1 for a correct method to find BC
 
@@ -251,7 +247,7 @@ Calculate, in £, how much the company pays for each cushion. The company buys 1
 
 ### 5(c) [4]
 
-Calculate the percentage profit that the company makes in January. Give your answer to one decimal place. The company buys some items from a new supplier. The company spends $9460 Using the exchange rate of £1 = $1.23
+Calculate the percentage profit that the company makes in January. Give your answer to one decimal place. The company buys some items from a new supplier. The company spends \$9460 Using the exchange rate of £1 = \$1.23
 
 
 **Mark scheme answer**
@@ -262,8 +258,7 @@ Calculate the percentage profit that the company makes in January. Give your ans
 > 3 95 M1 for a correct method to find the income from
 > ×1500 ×15 + × 600 ×18[= 13500 + 10260 = 23760] or
 > ⎛3 ⎞ ⎛ 95 ⎞ profit. May be seen as two separate calculations and
-> ⎜ ×1500 × 15 − 10500 ⎟ + ⎜ × 600 × 18 − 6600 ⎟
-> ⎝5 ⎠ ⎝ 100 ⎠ added at any stage (Condone 95% for )
+> ⎜ ×1500 × 15 − 10500 ⎟ + ⎜ × 600 × 18 − 6600 5 ⎠ ⎝ 100 ⎠ added at any stage (Condone 95% for )
 > 100
 > [= 3000 + 3600 = 6660]
 > "23760"− "17100" "6660" M1 for a correct method to find the percentage profit
@@ -285,8 +280,6 @@ calculate the amount, in £ to the nearest £, that the company spends with this
 **Mark scheme answer**
 
 > 7691 1 B1 awrt 7691
-> Cas Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 7691 1 B1 awrt 7691
 
@@ -352,8 +345,6 @@ Calculate the number of students who were members of the Drama Club in 2024
 > Condone 80 ×112.5% ×130% May be seen as separate
 > calculations
 > 117 A1 cao
-> Cas Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 80 ×1.125 ×1.3 2 M1 correct method to find no of students
 
@@ -364,9 +355,13 @@ Bag A contains 10 red counters and 5 yellow counters. Two counters are taken at 
 
 ### 7(a) [2]
 
+Bag A contains 10 red counters and 5 yellow counters. Two counters are taken at random from bag A.
+
 Complete the tree diagram below. First counter Second counter red red yellow red yellow yellow
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.13)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**
@@ -384,7 +379,7 @@ Complete the tree diagram below. First counter Second counter red red yellow red
 
 ### 7(b) [2]
 
-Calculate the probability that the two counters taken are the same colour. Bag B contains 4 red counters and 3 yellow counters. The two counters that have been taken from bag A are both placed into bag B so that there are a total of 9 counters in bag B. A counter is then taken at random from bag B. Given that each of the two counters taken from bag A and the one counter taken from bag B are all the same colour,
+Calculate the probability that the two counters taken are the same colour. Bag B contains 4 red counters and 3 yellow counters. The two counters that have been taken from bag A are both placed into bag B so that there are a total of 9 counters in bag B. A counter is then taken at random from bag B. Given that each of the two counters taken from bag A and the one counter taken from bag B are all the same colour …………… , ……………
 
 
 **Mark scheme answer**
@@ -393,8 +388,7 @@ Calculate the probability that the two counters taken are the same colour. Bag B
 > × " "+ " "× " " or
 > 15 14 15 14 Do not ft any probability greater than 1
 > ⎛ 10 5 5 10 ⎞
-> 1 − ⎜ × " "+ " "× " " ⎟
-> ⎝ 15 14 15 14 ⎠
+> 1 − ⎜ × " "+ " "× " " 15 14 15 14 ⎠
 > 11 A1 oe Allow awrt 0.52
 
 - **(2)** 10 9 5 4 2 M1 fully correct method ft their tree diagram
@@ -417,8 +411,6 @@ calculate the probability that the three counters are all red.
 > SC award M1M0A0 for oe where a and b are the
 > a+b
 > product of three probabilities and a ≠ b
-> Cas Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ⎛ 10 9 6 ⎞ ⎛ 5 4 5⎞ 3 M2 probability of all the same colour ft their tree diagram. Do
 
@@ -428,6 +420,8 @@ calculate the probability that the three counters are all red.
 y cm x cm 2x cm Figure 2 Figure 2 shows a solid cuboid with length 2x cm, width x cm and height y cm The volume of the cuboid is a cm 3 , where a is a constant. The total surface area of the cuboid is S cm 2 3a
 
 ### 8(a) [4]
+
+y cm x cm 2x cm Figure 2 Figure 2 shows a solid cuboid with length 2x cm, width x cm and height y cm The volume of the cuboid is a cm³ , where a is a constant. The total surface area of the cuboid is S cm² 3a
 
 Show that S 4 x 2 x Given that the minimum value of S is 400
 
@@ -439,9 +433,9 @@ Show that S 4 x 2 x Given that the minimum value of S is 400
 > Need not be simplified.
 > a a a 2x 2 y a M1 for a correct rearrangement of the volume expression
 > y= oe or xy = oe or 2 xy = oe or = May be implied by an embedded expression in S
-> 2 x2 2x x x x
+> 2 x² 2x x x x
 > a a a A1 dep on M3 with no errors seen
-> [ S =] 4 x 2 + 6 x × 2 or [ S =] 4 x2 + 6 × or [ S =] 4 x2 + 3 × or We condone S = omitted from the final answer
+> [ S =] 4 x 2 + 6 x × 2 or [ S =] 4 x² + 6 × or [ S =] 4 x² + 3 × or We condone S = omitted from the final answer
 > 2x 2x x
 > 2x y
 > [ S =] 4 x 2 + 3 × Leading to the given answer
@@ -462,15 +456,15 @@ Find, to 3 significant figures, the value of a
 > x
 > dS M1 for differentiating one term correctly and putting equal to 0
 > = 8 x − 3ax −2 = 0 oe
-> dx May be implied by 8 x3 − 3a = 0
+> dx May be implied by 8 x³ − 3a = 0
 > 3a M1 dependent on a fully correct expression for dS = 0
-> 4x2 + = 400[⇒ 4 x3 + 3a = 400 x] dx
+> 4x2 + = 400[⇒ 4 x³ + 3a = 400 x] dx
 > x
 > For putting S = 400 and solving simultaneously to get a correct
-> Solving simultaneously leading to 12 x3 = 400 x oe or
+> Solving simultaneously leading to 12 x³ = 400 x oe or
 > equation in one variable.
 > ⎛ 3a ⎞ ⎛ 3a ⎞
-> 4 ⎜⎜ 3 ⎟⎟ + 3a = 400 ⎜⎜ 3 ⎟⎟ oe May be implied by x = 100 [=5.77…] oe May be implied by a
+> 4 3 + 3a = 400 3 oe May be implied by x = 100 [=5.77…] oe May be implied by a
 > ⎝ 8 ⎠ ⎝ 8 ⎠
 > correct equation of the form a n = ...
 > 3
@@ -480,8 +474,6 @@ Find, to 3 significant figures, the value of a
 > or a 3 = ⎜ 3 ⎟ oe May be implied by awrt 513
 > 9 ⎝ ⎠
 > 513 A1 awrt 513 Allow 8000 3
-> Cas Total 9 marks
-> Question Working Ans Mark Notes
 
 - **(5)** S = 4 x 2 + 3ax −1 5 3a dS
 
@@ -492,7 +484,9 @@ X M Diagram NOT F E accurately drawn A D O B C Figure 3 Figure 3 shows a solid r
 
 ### 9(a) [3]
 
-Find the area, in cm 2 to one decimal place, of the hexagonal base.
+X M Diagram NOT F E accurately drawn A D O B C Figure 3 Figure 3 shows a solid right pyramid ABCDEFX The base ABCDEF of the pyramid is horizontal and is a regular hexagon of side 3 cm O is the midpoint of the base. The vertex X of the pyramid is vertically above point O such that OX = 5 cm M is the midpoint of XD
+
+Find the area, in cm² to one decimal place, of the hexagonal base.
 
 
 **Mark scheme answer**
@@ -557,11 +551,10 @@ Find the area, in cm 2 to one decimal place, of the hexagonal base.
 > 3 + 3 − 2 × 3 × 3 cos120 × 1.5 × 2 + 3 × 3 + 3 − 2 × 3 × 3 cos120
 > 2 2 2
 > or or
-> 6+3 3 ⎛6+3 3 ⎞⎛ 6 + 3 3 ⎞⎛ 6 + 3 3 ⎞
-> ⎜ − 3 ⎟⎜ − 3 ⎟⎜ − 3 3 ⎟ × 2 + 3 × 3 3 or
+> 6+3 3 ⎛6+3 3 ⎞⎛ 6 + 3 3 ⎞⎛ 6 + 3 3 − 3 − 3 − 3 3 ⎟ × 2 + 3 × 3 3 or
 > 2 ⎝ 2 ⎠⎝ 2 ⎠⎝ 2 ⎠
 > 9+3 3 ⎛9+3 3 ⎞⎛ 9 + 3 3 ⎞⎛ 9 + 3 3 3 3⎞ 3 3
-> ⎜ − 3 ⎟⎜ − 1.5 ⎟⎜ − ⎟ × 4 + 2× 3×
+> ⎜ − 3 − 1.5 − ⎟ × 4 + 2× 3×
 > 4 ⎝ 4 ⎠⎝ 4 ⎠⎝ 4 2 ⎠
 > 23.4 27
 > A1 awrt 23.4 or exact value of oe
@@ -576,9 +569,9 @@ Calculate the size, in degrees to 3 significant figures, of ∠AMX Show all your
 **Mark scheme answer**
 
 > 6 M1 for correct use of Pythagoras to find XA or XD
-> [ XA = XD = ] 5 + 3 ⎡⎣ = 2
-> 34 = 5.830...⎤
-> ⎦
+> [ XA = XD = ] 5 + 3 = 2
+> 34 = 5.830...
+> 
 > May be implied by 34 = awrt5.8 or
 > 1 ⎡ 34 ⎤ M1 for correct use of midpoint to find XM
 > [ XM = MD ] 5 + 3 ⎢= = 2.915...⎥
@@ -587,44 +580,42 @@ Calculate the size, in degrees to 3 significant figures, of ∠AMX Show all your
 > M1 for a correct method to find AM
 > ⎛ 3⎞ ⎛ 5 ⎞ ⎡ = 106 = 5.1478...⎤ or
 > 2
-> [ AM =] ⎜ 3 + ⎟ +⎜ ⎟ ⎢ ⎥
-> ⎝ 2⎠ ⎝2⎠ ⎣ 2 ⎦ May be implied by
+> [ AM =] ⎜ 3 + ⎟ + 2⎠ ⎝2⎠ ⎣ 2 ⎦ May be implied by
 > 106
 > or awrt 5.15 Allow 5.14
 > ⎛ 34 ⎞ 34 ⎡ 106 ⎤ May be seen in stages
-> [ AM =] 6 + ⎜ ⎟ − 2×6× cos ( 59.036..) ⎢ = = 5.1478...⎥
+> [ AM =] 6 + − 2×6× cos ( 59.036..) ⎢ = = 5.1478...⎥
 > ⎝ 2 ⎠ 2 ⎣ 2 ⎦ You may find these expressions useful
 > 3 5
 > cos −1 = sin −1 = tan −1 = 59.036...
 > ⎛ 34 ⎞ ⎡ 106 ⎤
 > 34
-> cos ( 61.927...) ⎢ =
-> or [ AM =] 34 + ⎜
+> cos ( 61.927...) =
+> or [ AM =] 34 + 
 > 34
-> ⎟ − 2 × 34 × = 5.1478...⎥
+>  − 2 × 34 × = 5.1478...
 > ⎝ 2 ⎠ 2 ⎣ 2 ⎦ ⎛ 34 2 + 34 2 − 6 2 ⎞
-> cos ⎜ ⎟ = 61.927
+> cos = 61.927
 > −1
-> ⎜ ⎟
-> ⎝ 2 34 34 ⎠
+>  2 34 34 
 > Allow decimal equivalents
 > ⎛ 34 ⎞ ⎛ 106 ⎞
 > 2
 > M1 dependent on 3rd M mark for correct substitution into Cosine
 > 2 34 106
-> 34 = ⎜ ⎟ +⎜ ⎟ − 2× × × cos AMX or Rule
+> 34 = + − 2× × × cos AMX or Rule
 > ⎝ 2 ⎠ ⎝ 2 ⎠ 2 2 or correct substitution into the Sine Rule
 > Allow decimal equivalents
 > ⎛ 34 ⎞ ⎛ 106 ⎞
 > 2
 > 34 106
-> 6 =⎜ ⎟ +⎜ ⎟ − 2× × × cos AMD or sin ∠AMD sin 59.036...
+> 6 = + − 2× × × cos AMD or sin ∠AMD sin 59.036...
 > ⎝ 2 ⎠ ⎝ 2 ⎠ 2 2 Allow =
 > 6 106
 > ⎛ 34 ⎞ ⎛ 106 ⎞
 > 2
 > 106
-> ⎜ ⎟ = 6 +⎜ ⎟ − 2×6× × cos MAD or
+>  = 6 + − 2×6× × cos MAD or
 > ⎝ 2 ⎠ ⎝ 2 ⎠ 2 may be implied by 5th M mark
 > sin ∠AMX sin ( 61.927...) sin ∠MAD sin 59.036...
 > = or =
@@ -633,7 +624,7 @@ Calculate the size, in degrees to 3 significant figures, of ∠AMX Show all your
 > M1 dependent on 4th M mark for a correct rearrangement of the
 > ⎛ 34 ⎞ ⎛ 106 ⎞ ⎛ 34 ⎞ ⎛ 106 ⎞
 > 2 2 2
-> ⎜ ⎟ +⎜ ⎟ − 34 ⎜ ⎟ +⎜ ⎟ −6
+>  + − 34 + −6
 > cosine rule or the sine rule
 > cos ∠AMX =
 > ⎝ 2 ⎠ ⎝ 2 ⎠ or cos ∠AMD = ⎝ 2 ⎠ ⎝ 2 ⎠ or Allow decimal equivalents
@@ -644,8 +635,7 @@ Calculate the size, in degrees to 3 significant figures, of ∠AMX Show all your
 > ⎛ 106 ⎞ ⎛ 34 ⎞
 > 2
 > ⎛ 106 ⎞
-> 6 +⎜
-> ⎟ −⎜ ⎟ sin ( 61.927 ) ⎜ ⎟
+> 6 + − sin ( 61.927 ) 
 > cos ∠MAD =
 > ⎝ 2 ⎠ ⎝ 2 ⎠ or sin ∠AXM = × 34 or ⎝ 2 ⎠
 > 106 106
@@ -659,7 +649,6 @@ Calculate the size, in degrees to 3 significant figures, of ∠AMX Show all your
 > Do not accept answers in the range that have come from incorrect
 > methods
 > Wr Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(6)** 6 M1 for correct use of Pythagoras to find XA or XD
 
@@ -705,7 +694,9 @@ Hence, factorise f( x) completely.
 
 Complete the table of values for y x 3 3 x Give your values of y to one decimal place where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 2.5 y −4 −0.9 −2 −3.4 −4 0 6.1
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.21)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02/assets/asset_10_10-c.png)
+
+![figure — official paper figure (qp.pdf p.21)](assets/asset_10_10-c.png)
 
 
 **Mark scheme answer**
@@ -738,7 +729,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ### 10(e) [3]
 
-By drawing a suitable straight line on the grid, find an estimate, to one decimal place, for the solution of the equation 2 x 3 7 x 6 0 in the interval −2 ≤ x ≤ 2.5 y −3 −2 −1 O 1 2 3 x −2 −4 −6 −8 −10 −12 −14 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y −3 −2 −1 O 1 2 3 x −2 −4 −6 −8 −10 −12 −14
+By drawing a suitable straight line on the grid, find an estimate, to one decimal place, for the solution of the equation 2 x 3 7 x 6 0 in the interval −2 ≤ x ≤ 2.5
+
+![grid — official paper figure (qp.pdf p.27) (same figure as asset_10_d_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02/assets/asset_10_d_grid.png)
 
 ![grid — official paper figure (qp.pdf p.27) — shared with asset_10_d_grid](assets/asset_10_d_grid.png)
 
@@ -746,7 +739,7 @@ By drawing a suitable straight line on the grid, find an estimate, to one decima
 **Mark scheme answer**
 
 > 3 M1 for identifying the required line` (allow 0.5 x + 1 or f ( x) = 0.5 x + 1 )
-> x3 − 3x − 2 = 0.5 x + 1 or y = 0.5 x + 1
+> x³ − 3x − 2 = 0.5 x + 1 or y = 0.5 x + 1
 > May be seen on the diagram
 > Allow a straight line drawn through (0, 1) with a positive gradient.
 > M1 a correct line that intersects the curve
@@ -754,8 +747,6 @@ By drawing a suitable straight line on the grid, find an estimate, to one decima
 > (x=) 2.2 A1 dependent on a correct line being drawn
 > Allow answers in the range 2.1 to 2.3 inclusive (dep on M2)
 > NB: if y values given as well then A0
-> Total 13 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 for identifying the required line` (allow 0.5 x + 1 or f ( x) = 0.5 x + 1 )
 
@@ -766,6 +757,8 @@ The functions f, g and h are defined as f : x ↦ 6 − x2 0< x<3 x 1 g : x ↦ 
 
 ### 11(a) [3]
 
+The functions f, g and h are defined as f : x ↦ 6 − x² 0< x<3 x 1 g : x ↦ + x x + 6x + 8 x + 2 x+5 h : x ↦ x>0 2x + 3
+
 Write g(x) as a single fraction in its simplest form. Show clear algebraic working.
 
 
@@ -774,11 +767,11 @@ Write g(x) as a single fraction in its simplest form. Show clear algebraic worki
 > ⎡⎣ x 2 + 6 x + 8 = ⎤⎦ ( x + 4)( x + 2) 3 B1 factorising quadratic
 > x+x+4 ⎡ 2x + 4 2( x + 2) ⎤ M1 for writing both fractions with a common denominator
 > = =
-> ⎢
+> 
 > ( x + 4)( x + 2) ⎣ ( x + 4)( x + 2) ( x + 4)( x + 2) ⎥⎦ (can be written as two fractions with a common
 > denominator or one single fraction)
 > This step may be done before or without factorising
-> x ( x + 2) + x2 + 6x + 8
+> x ( x + 2) + x² + 6x + 8
 > eg oe
 > ( x + 6 x + 8) ( x + 2 )
 > 2 A1 cao dep on M1
@@ -793,11 +786,11 @@ Find hf(2)
 
 **Mark scheme answer**
 
-> 6 − 1 x2 + 5 2 M1 for f(2) = 4
+> 6 − 1 x² + 5 2 M1 for f(2) = 4
 > f (2) = 4 or
 > 2 4+5
 > (
-> 2 6 − 1 x2 + 3
+> 2 6 − 1 x² + 3
 > 2 ) May be seen as a substitution into h(x) e,g.
 > 2(4) + 3
 > or
@@ -844,7 +837,7 @@ Solve the equation hh( x) = x Show your working clearly.
 > May be implied by a correct quadratic ft answer to part (c)
 > for this method mark only
 > May be implied by ( x + 5)( 2 x − 1) = ( 5 − 3x )( 2 x + 3) or
-> 2 x2 + 9 x − 5 = 15 + x − 6 x2
+> 2 x² + 9 x − 5 = 15 + x − 6 x²
 > 8x2 + 8x − 20[ = 0] oe M1 for a correct three term quadratic
 > −1 + 11 A1 oe Allow awrt 1.16 (Condone 1.15) Must reject other
 > 2 root if seen
@@ -853,7 +846,7 @@ Solve the equation hh( x) = x Show your working clearly.
 > [ hh( x) =] x + 5
 > 2 x + 3 or May be implied by a correct quadratic/cubic
 > ⎛ ⎞ 11x + 20
-> 2⎜ ⎟+3 May be implied by = x or 11x + 20 = x ( 8 x + 19 )
+> 2 +3 May be implied by = x or 11x + 20 = x ( 8 x + 19 )
 > ⎝ 2x + 3 ⎠ 8 x + 19
 > x + 5 + 5 ( 2 x + 3)
 > ⎡⎣ h 2 ( x) = ⎤⎦ = or
@@ -862,11 +855,9 @@ Solve the equation hh( x) = x Show your working clearly.
 > ⎡⎣ h 2 ( x) = ⎤⎦
 > 8 x + 19
 > 8x2 + 8x − 20[ = 0] oe or M1 for a correct three term quadratic or a correct cubic
-> 16 x3 + 40 x 2 − 16 x − 60 [ = 0] oe Allow equivalent expressions e.g 40 x 2 − 16 x − 60 = −16 x3
+> 16 x³ + 40 x 2 − 16 x − 60 [ = 0] oe Allow equivalent expressions e.g 40 x 2 − 16 x − 60 = −16 x³
 > −1 + 11 A1 oe Allow awrt 1.16 (Condone 1.15) Must reject other
 > 2 root/roots if seen
-> Total 12 marks
-> Question Working Answer Mark Notes
 
 - **(3)** x+5 5 − 3x 3 M1 for recognising that question can be answered by
 
@@ -939,10 +930,10 @@ On the grid, draw and label triangle D Triangle F is transformed to triangle A u
 **Mark scheme answer**
 
 > ⎛ −2 1 ⎞ ⎛ 2 3 5 ⎞ 3 M1 for the intention to multiply the right way. Points can be in any order.
-> ⎜ ⎟⎜ ⎟ May be implied by writing the matrices in the correct order or correctly
+>  May be implied by writing the matrices in the correct order or correctly
 > ⎝ 1 −3 ⎠ ⎝ 1 4 1 ⎠ stating or plotting one point.
 > ⎛ −3 −2 − 9⎞ M1 for at least two correct columns or correctly stating or plotting two
-> =⎜ ⎟ correct points
+> = correct points
 > ⎝ −1 −9 2 ⎠
 > correct A1 correct triangle drawn
 > triangle D NB Award 3 marks for a correct triangle drawn irrespective of working in
@@ -952,7 +943,11 @@ On the grid, draw and label triangle D Triangle F is transformed to triangle A u
 
 ### 12(d)(ii) [4]
 
-calculate the value of k a b Determinant of matrix = ad bc c d y E 2 A −10 −8 −6 −4 −2 O 2 4 6 8 10 12 x −2 −4 −6 −8 −10 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y E 2 A −10 −8 −6 −4 −2 O 2 4 6 8 10 12 x −2 −4 −6 −8 −10
+calculate the value of k.
+
+[Determinant of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc$]
+
+![grid — official paper figure (qp.pdf p.35) (same figure as asset_12_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2025-06/4MB1-02/assets/asset_12_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.35) — shared with asset_12_b_grid](assets/asset_12_b_grid.png)
 
@@ -960,25 +955,23 @@ calculate the value of k a b Determinant of matrix = ad bc c d y E 2 A −10 −
 **Mark scheme answer**
 
 > ⎛ −2 1 ⎞ ⎛ k −5 ⎞ 4 M1 for intention to multiply the two matrices, implied by one correct value
-> ⎜ ⎟⎜ ⎟ or once multiplied or finding the determinant of the two matrices
+>  or once multiplied or finding the determinant of the two matrices
 > ⎝ 1 −3 ⎠ ⎝ 1 −1 ⎠
-> ⎛ k −5 ⎞ ⎛ −2 1 ⎞
-> ⎜ ⎟⎜ ⎟ or
+> ⎛ k −5 ⎞ ⎛ −2 1 or
 > ⎝ 1 −1 ⎠ ⎝ 1 −3 ⎠
 > ⎛ −2 1 ⎞
-> det ⎜ ⎟ = (−2 × −3 − 1×1) and
+> det = (−2 × −3 − 1×1) and
 > ⎝ 1 −3 ⎠
 > ⎛ k −5 ⎞
-> det ⎜ ⎟ = (k × −1 − −5 ×1)
+> det = (k × −1 − −5 ×1)
 > ⎝ 1 −1 ⎠
 > ⎛ −2k + 1 9 ⎞ ⎛ −2k − 5 k + 15 ⎞ M1 for matrix with 3 or 4 correct elements or for multiplying the two
-> ⎜ ⎟ or ⎜ ⎟ or determinants and equating to 5
+>  or or determinants and equating to 5
 > ⎝ k − 3 −2 ⎠ ⎝ −3 4 ⎠
 > (−2 × −3 − 1×1) (k × −1 − −5 ×1) =5
 > −2(−2k + 1) − 9(k − 3) = 5 or M1 dependent on previous M mark for forming a correct equation for their
 > 4(−2k − 5) + 3(k + 15) = 5 or 5(−k + 5) = 5 determinant
 > 4 A1
-> Total 14 marks
 > E
 > B A
 > C

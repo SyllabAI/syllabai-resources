@@ -28,8 +28,6 @@ The GDP per capita for a region is defined as follows total GDP GDP per capita =
 > M1 Do NOT allow for 11400 =
 > 7.67 × 109
 > 8.7 ×1013 A1 oe allow 8.7 ×1013 written to at least 2 sf ISW
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** For this question we will allow the correct answer in any form( Allow incorrect standard form) in the table or in their
 
@@ -101,8 +99,6 @@ Find the probability that this set C is such that B ∩ C = ∅
 > number of sets they have in (b)
 > NB correct probability ¼ gains 2/2
 > SC B1 for a probability of 0 or which follows from their part (b)
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(2)** Indicate only {r} gives desired 2 M1ft either indicates just {r} or ft their list from (b) ie lists their sets
 
@@ -159,8 +155,6 @@ Hence, or otherwise, solve the simultaneous equations 2 x × 4 y = 128 8x = 32 4
 > Maybe implied by either correct answer. Allow oe
 > x=3 A1
 > y=2 A1
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 4x = 12 or 8y = 16 or 3 M1 Forming any correct un-simplified equation in one variable eg
 
@@ -182,7 +176,7 @@ Write down the class interval that contains the median time spent on the interne
 
 ### 4(b) [4]
 
-Calculate an estimate for the mean time spent on the internet per day. Sophie drew a histogram for the information in the table. In her histogram, the bar for the class interval 30 ≤ t < 60 is a square with sides of length 3 cm. Given that the bar for the class interval 10 ≤ t < 30 is a rectangle of width w cm and of height h cm,
+Calculate an estimate for the mean time spent on the internet per day. Sophie drew a histogram for the information in the table. In her histogram, the bar for the class interval 30 ≤ t < 60 is a square with sides of length 3 cm. Given that the bar for the class interval 10 ≤ t < 30 is a rectangle of width w cm and of height h cm …………… , ……………![table — official paper figure (qp.pdf p.8) (same figure as asset_4_b_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_4_b_table_stem.png)
 
 ![table — official paper figure (qp.pdf p.8) — shared with asset_4_b_table_stem](assets/asset_4_b_table_stem.png)
 
@@ -217,8 +211,6 @@ find the value of w and the value of h
 > M1
 > Freq. densities = 15/30 and 7/20
 > h = 2.1 A1
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(3)** w=2 3 B1
 
@@ -228,6 +220,8 @@ find the value of w and the value of h
 A closed box is in the shape of a hollow cuboid. The dimensions of the cuboid are 12 cm by 4.0 cm by 3.0 cm. Each length is given to 2 significant figures. A tin of paint contains enough paint to cover exactly 200 cm2
 
 ### 5(a) [4]
+
+A closed box is in the shape of a hollow cuboid. The dimensions of the cuboid are 12 cm by 4.0 cm by 3.0 cm. Each length is given to 2 significant figures. A tin of paint contains enough paint to cover exactly 200 cm²
 
 Determine if this tin of paint is definitely enough to cover the 6 outside faces of the closed box.
 
@@ -259,7 +253,7 @@ Calculate the length of the longest straight rod that can definitely fit inside 
 > 11.5, 12.5, 3.95, 4.05, 2.95, 3.05 4 M1 Any 3 of these values seen in the question (parts (a)
 > and (b)) Allow 12.49…, 3.049…, 4.049…
 > M2 use of 3-D Pythagoras using LB 11.5 l <12 and
-> 11.52 + 3.952 + 2.952
+> $11.5^2$ + $3.95^2$ + $2.95^2$
 > 3.95 w < 4.0 and 2.95 h < 3
 > (M1 correct use of 3-D Pythagoras using
 > 11.5 l 12.5 and 3.5 w 4.5 and 2.5 h 3.5 )
@@ -267,8 +261,6 @@ Calculate the length of the longest straight rod that can definitely fit inside 
 > (cm) bounds
 > NB if they are not using bounds at all ie use 12, 4 and 3
 > In (a) they get 192 and in (b) they get 13
-> Total 8 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 11.5, 12.5, 3.95, 4.05, 2.95, 3.05 4 M1 Any 3 of these values seen in the question (parts (a)
 
@@ -288,7 +280,7 @@ Show that the height of the tower, in metres to 3 significant figures, is 304 m.
 > tan16.9 = or oe
 > 1000 QP 1
 > = or cos16.9 =
-> sin16.9 sin 73.1 QP 2 + 1
+> sin16.9 sin 73.1 $QP^2$ + 1
 > QP
 > Allow with 1 instead of 1000 eg tan16.9 = Allow any letter
 > for QP Allow other correct methods
@@ -297,8 +289,7 @@ Show that the height of the tower, in metres to 3 significant figures, is 304 m.
 > 1000sin16.9
 > expression followed by 304 or an awrt 304 eg = 304 or
 > sin 73.1
-> ⎛ 1 ⎞
-> ⎜ ⎟ − 1 × 1000 = 303.8... oe
+>  1 − 1 × 1000 = 303.8... oe
 > ⎝ cos16.9 ⎠
 > NB Could get answer from incorrect working so need to award the
 > M1 to gain the A mark ie You must see a correct trigonometric.
@@ -315,19 +306,17 @@ Calculate the size, in degrees to one decimal place, of the angle of elevation o
 
 > 2000 × tan 8.2 [ = 288.20...] or 5 M1 Allow awrt 288 or 0.288
 > 2 × tan 8.2 [ = 0.28820...] ⎛ 2000 ⎞ 2000sin 8.2
-> Allow other correct methods eg ⎜ ⎟ − 2000 or
+> Allow other correct methods eg − 2000 or
 > ⎝ cos8.2 ⎠ sin 81.8
 > [CB =] 304 – "288"[ = 15.79...] or M1 dep on 1st M1 being awarded. Allow awrt 16 or 0.016
 > 0.304 – "0.288"[ = 0.01579...]
 > M1 For using Pythagoras to find AB Allow awrt 2240 or 2.24
-> [AB=] 10002 + 20002 [ = 2236.06...]
+> [AB=] $1000^2$ + $2000^2$ [ = 2236.06...]
 > or 1 + 2 [ = 2.236...]
 > "15.79..." M1 dep on 2nd and 3rd M1 being awarded
 > tan θ = oe
 > "2236.06..."
 > 0.4 A1 awrt 0.4
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 2000 × tan 8.2 [ = 288.20...] or 5 M1 Allow awrt 288 or 0.288
 
@@ -356,7 +345,7 @@ show that AB is parallel to DC → Given also that λ is a scalar such that BE =
 
 ### 7(b) [2]
 
-find the value of λ The area of triangle ABE is x square units. Given that the area of quadrilateral ABCD is P square units,
+find the value of λ The area of triangle ABE is x square units. Given that the area of quadrilateral ABCD is P square units …………… , ……………
 
 
 **Mark scheme answer**
@@ -386,24 +375,21 @@ find an expression for P in terms of x
 > 2
 > ⎛ "2" ⎞ ⎛ "2" ⎞
 > 2 3 ⎛ "their λ "− 1 ⎞
-> ⎛ "their λ " ⎞
-> ⎜ ⎟ or ⎜ ⎟ x oe M1ft for ⎜ ⎟ Allow ⎜ ⎟ for the SF
+>  "their λ " or x oe M1ft for Allow for the SF
 > ⎝ "3" ⎠ ⎝ "3" ⎠ ⎝ "their λ " ⎠ ⎝ "their λ "− 1 ⎠
 > 2 2
 > ⎛ "2" ⎞ ⎛ "2" ⎞ ⎛ "their λ "− 1 ⎞
-> 1− ⎜ ⎟ or x − ⎜ ⎟ x M1ft for 1 − ⎜ ⎟ or x − ( n) x
+> 1− or x − x M1ft for 1 − or x − ( n) x
 > where 0 < n < 1
 > ⎝ "3" ⎠ ⎝ "3" ⎠ ⎝ "their λ " ⎠
 > x − P ⎛ "2" ⎞
-> or =⎜ ⎟ oe
+> or = oe
 > x ⎝ "3" ⎠
 > ⎛ "2" ⎞ ⎡ 5 ⎤ A1ft (If ft both M marks must be awarded)
-> x −⎜ ⎟ x = x
+> x − x = x
 > ⎝ "3" ⎠ ⎢⎣ 9 ⎥⎦ ⎛2⎞
-> Allow a correct un-simplified expression eg x − ⎜ ⎟ x ISW
+> Allow a correct un-simplified expression eg x − x ISW
 > ⎝3⎠
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 2
 
@@ -414,14 +400,16 @@ Diagram NOT accurately drawn 0.9 m 1.2 m 2.1 m Figure 2 Figure 2 shows the desig
 
 ### 8(a) [3]
 
-Calculate the area, in m2 to 3 significant figures, of one of the flower beds. Each flower bed needs to be filled with compost to a depth of 10 cm. The compost is sold in bags containing 50 litres of compost.
+Diagram NOT accurately drawn 0.9 m 1.2 m 2.1 m Figure 2 Figure 2 shows the design for a garden feature. In the middle of the feature is a circular pond. The pond is surrounded by 6 identical flower beds. Each flower bed is in the shape of an isosceles trapezium.
+
+Calculate the area, in m² to 3 significant figures, of one of the flower beds. Each flower bed needs to be filled with compost to a depth of 10 cm. The compost is sold in bags containing 50 litres of compost.
 
 
 **Mark scheme answer**
 
 > 2
-> 2.1 − 1.2 ⎞ 3 M1 correct method to find h awrt 0.78Allow other
-> [ h =] 0.92 − ⎛⎜ ⎟ = 0.9 − 0.45 [= 0.7794…]
+> 2.1 − 1.2 3 M1 correct method to find h awrt 0.78Allow other
+> [ h =] 0.92 − = 0.9 − 0.45 [= 0.7794…]
 > 2
 > method eg h = 0.9sin 60 h = 0.9cos30
 > ⎝ 2 ⎠
@@ -442,7 +430,7 @@ Show that 16 bags of compost will be needed to fill all six flower beds to a dep
 
 **Mark scheme answer**
 
-> Volume of 1 bed = "1.29"× 0.1 or "1.29"×10 4 M1 for multiplying by 10 or 0.1 Allow if (a) × by 10n if
+> Volume of 1 bed = "1.29"× 0.1 or "1.29"×10⁴ M1 for multiplying by 10 or 0.1 Allow if (a) × by 10n if
 > not part of a unit conversion
 > "1.29 × 0.1"× 6 "1.29 ×10"× 6 M1 for multiplying by 6 and dividing by 50. Allow if
 > or
@@ -462,8 +450,8 @@ Show that 16 bags of compost will be needed to fill all six flower beds to a dep
 > 16 × 50 = 800 and 15 × 50 = 750 litres ∴ 16 A1 must have awrt 770, 800 and 750 plus conclusion
 > Sight of 770, 800 and 750 implies M1M1A1
 > ALT 2 Volume of 1 bed = "1.29"× 0.1 or "1.29"×10 M1 for multiplying their answer to (a) by 10 or 0.1
-> "1.29 ×10"×10000 × 6 M1 correct method to find the total compost in cm3
-> awrt 770000 cm3 A1 awrt 770000
+> "1.29 ×10"×10000 × 6 M1 correct method to find the total compost in cm³
+> awrt 770000 cm³ A1 awrt 770000
 > 16 × 50 ×1000[ = 800000] and ∴ 16 A1 must have awrt 770000, 800000 and 750000 plus
 > 15 × 50 ×1000[ = 750000] conclusion.
 > Sight of 770000, 800000 and 750000 implies M1M1A1
@@ -471,9 +459,9 @@ Show that 16 bags of compost will be needed to fill all six flower beds to a dep
 > "1.29 × 0.1"× 6 [=0.77...] and
 > 50 × 1000
 > [=0.05] M1 multiply by 6 to find the total compost in m3and
-> 1003 correct method to find the compost in 1 bag in m3
+> 1003 correct method to find the compost in 1 bag in m³
 > 0.77 16… and 0.05 A1 awrt 0.77
-> 16 × 0.05[ = 0.8] and 15 × 0.05 ⎡⎣ = 0.75 m3 per bag ⎤⎦ ∴ 16 A1 must have 0.77, 0.8 and 0.75 plus conclusion
+> 16 × 0.05[ = 0.8] and 15 × 0.05 ⎡⎣ = 0.75 m³ per bag ⎤⎦ ∴ 16 A1 must have 0.77, 0.8 and 0.75 plus conclusion
 > Sight of 0.77, 0.8 and 0.75 implies M1M1A1
 > ALT 4 16 15 M1 dividing number of bags by their answer to (a) Allow
 > or
@@ -484,11 +472,11 @@ Show that 16 bags of compost will be needed to fill all six flower beds to a dep
 > 10.335… or 9.689… A1 awrt 10.3/10.4 or awrt 9.7
 > 10.3… and 9.689… ∴ 16 A1 awrt 10.3/10.4 and awrt 9.7 plus conclusion
 
-- **(4)** Volume of 1 bed = "1.29"× 0.1 or "1.29"×10 4 M1 for multiplying by 10 or 0.1 Allow if (a) × by 10n if
+- **(4)** Volume of 1 bed = "1.29"× 0.1 or "1.29"×10⁴ M1 for multiplying by 10 or 0.1 Allow if (a) × by 10n if
 
 ### 8(c) [4]
 
-Find the area of the circular pond. Give your answer in m2 to 3 significant figures. Area of trapezium = (a + b)h
+Find the area of the circular pond. Give your answer in m² to 3 significant figures. Area of trapezium = (a + b)h
 
 
 **Mark scheme answer**
@@ -497,16 +485,14 @@ Find the area of the circular pond. Give your answer in m2 to 3 significant figu
 > hypotenuse or these may be seen in correct place find r
 > on diagram
 > 0.6 M1 oe allow other correct methods eg
-> [r =] 0.6 × tan 60 or 1.22 − 0.62 or or
-> tan 30 0.62 + 0.62 + 2 × 0.62 cos120 or 1.05 tan 60 − "0.9974" or
+> [r =] 0.6 × tan 60 or $1.2^2$ − $0.6^2$ or or
+> tan 30 $0.6^2$ + $0.6^2$ + 2 × $0.6^2$ cos120 or 1.05 tan 60 − "0.9974" or
 > 3 3 1.2 × sin120
 > 1.2sin 60 [= = 1.039…] Awrt 1.04 if no working shown do not ISW
 > 5 2sin 30
-> π × "1.039.."2 M1 using the correct formula for area of a circle ( π × " r "2 )
+> π × "1.039.."$^2$ M1 using the correct formula for area of a circle ( π × " r "2 )
 > where 0 < r < 2.1
 > 3.39 A1 awrt condone 3.4 or 3.40
-> Total 11 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 60º or 30º or 120 º used or 1.2 used as 4 M1 Implied by a correct value of r or correct method to
 
@@ -531,7 +517,9 @@ On the grid opposite, draw and label quadrilateral A Quadrilateral A is transfor
 
 ### 9(b) [2]
 
-On the grid opposite, draw and label quadrilateral B Quadrilateral B is transformed to quadrilateral C under the transformation with matrix M where ⎛1 3⎞ M= ⎜ ⎝1 1⎟⎠
+On the grid opposite, draw and label quadrilateral B Quadrilateral B is transformed to quadrilateral C under the transformation with matrix M where ⎛1 3⎞ M= 1 1 
+
+![grid — official paper figure (qp.pdf p.21) (same figure as asset_9_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.21) — shared with asset_9_a_grid](assets/asset_9_a_grid.png)
 
@@ -556,13 +544,13 @@ On the grid opposite, draw and label quadrilateral C
 **Mark scheme answer**
 
 > ⎛1 3 ⎞⎛ −1 −4 −6 −3 ⎞ 3 M1ft their B. For intention to multiply matrices the right way
-> ⎜ ⎟⎜ ⎟ round. At least one co-ordinate pair the right way round in the
+>  round. At least one co-ordinate pair the right way round in the
 > ⎝1 1 ⎠⎝ 1 2 4 3 ⎠ 2nd matrix. Implied by trapezium C correctly drawn. Allow
 > ⎛1 3 ⎞⎛ −1⎞
-> for ⎜ ⎟⎜ ⎟ using any point
+> for using any point
 > ⎝1 1 ⎠⎝ 1 ⎠
 > ⎛ 2 2 6 6⎞ M1ft dep on M1. An attempt to find all 4 points with at least 2
-> ⎜ ⎟ correct coordinates (x, y) gained. ft their points. Implied by 2
+>  correct coordinates (x, y) gained. ft their points. Implied by 2
 > ⎝ 0 −2 −2 0 ⎠ correct points plotted. Pairs can be in any order. Implied by
 > trapezium C drawn correctly.
 > C correctly A1
@@ -571,7 +559,7 @@ On the grid opposite, draw and label quadrilateral C
 > (6, –2) and
 > (6, 0)
 > ⎛ 4 −14 22 6 ⎞
-> SC for MA allow ⎜ ⎟ all 4 points with at least
+> SC for MA allow all 4 points with at least
 > ⎝ 2 6 10 0 ⎠
 > 2 correct coordinates gained M0M1A0
 
@@ -590,7 +578,11 @@ Calculate the determinant of M
 
 ### 9(e) [2]
 
-Calculate the area of quadrilateral A ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matrix ⎜ ⎟ = ad − bc ⎥ ⎣ ⎝ c d⎠ ⎦ y –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 x –1 –2 –3 –4 –5 –6 for a spare grid if you need to redraw your shapes. Only use this grid if you need to redraw your shapes. y –7 –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 x –1 –2 –3 –4 –5 –6
+Calculate the area of quadrilateral A.
+
+[Determinant of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc$]
+
+![grid — official paper figure (qp.pdf p.21) (same figure as asset_9_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_9_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.21) — shared with asset_9_a_grid](assets/asset_9_a_grid.png)
 
@@ -601,10 +593,9 @@ Calculate the area of quadrilateral A ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matr
 > or "2 × 4"÷ 2 oe finding the area of their A eg 0.5 22 + 22 × 12 + 12
 > 11 2 4 3 1 1
 > = ⎡( 4 + 12 + 12 + 3) − ( 2 + 16 + 18 + 3 )⎤⎦
-> 21 4 6 3 1 2⎣
-> 4 (cm2) A1 –4 scores M1A0 condone lack of units. NB answer of 4
+> 21 4 6 3 1 2
+> 4 (cm²) A1 –4 scores M1A0 condone lack of units. NB answer of 4
 > gains 2/2
-> Total 9 marks
 > y
 > A
 > B
@@ -612,7 +603,6 @@ Calculate the area of quadrilateral A ⎡ ⎛ a b⎞ ⎤ ⎢ Determinant of matr
 > C
 > -2
 > -4
-> Question Working Answer Mark Notes
 
 - **(2)** Area of A = 5 × 3 − 2 × ( 2 + 2 + 1.5) 2 M1 finding “area of their C “÷”2” or
 
@@ -623,13 +613,15 @@ cm x cm Figure 3 Figure 4 Figure 3 shows a rectangle with dimensions 20 cm by 10
 
 ### 10(a) [2]
 
+cm x cm Figure 3 Figure 4 Figure 3 shows a rectangle with dimensions 20 cm by 10 cm from which a square with sides of length x cm is removed from each of the corners. The shape in Figure 3 is then folded along the dotted lines to form a box, without a lid, in the shape of a cuboid, shown in Figure 4 The volume of the box is V cm³
+
 Show that V = 4x 3 – 60x 2 + 200x dV
 
 
 **Mark scheme answer**
 
 > V = x (10 – 2 x )( 20 − 2 x ) 2 M1 Condone x (10 – x )( 20 − x )
-> x ( 200 − 40 x − 20 x + 4 x 2 ) or V = 4 x3 − 60 x 2 + 200 x A1 must see one of the 2 given lines of working followed by the
+> x ( 200 − 40 x − 20 x + 4 x 2 ) or V = 4 x³ − 60 x 2 + 200 x A1 must see one of the 2 given lines of working followed by the
 > correct answer.
 > ( 200 x − 40 x − 20 x + 4 x )
 > 2 2
@@ -689,7 +681,9 @@ On the grid opposite, plot the points from your completed table and, using your 
 
 ### 10(e) [2]
 
-By drawing on the grid a tangent to the curve, find an estimate of the gradient of the curve at the point where x = 1.5 Starting with a square of side 15 cm and removing a square with sides of length x cm from each corner, a second box without a lid is formed by folding as in part (a). The volume of this box is B cm3 where B = 4x 3 – 60x 2 + 225x Given that B = 200
+By drawing on the grid a tangent to the curve, find an estimate of the gradient of the curve at the point where x = 1.5 Starting with a square of side 15 cm and removing a square with sides of length x cm from each corner, a second box without a lid is formed by folding as in part (a). The volume of this box is B cm³ where B = 4x 3 – 60x 2 + 225x Given that B = 200
+
+![grid — official paper figure (qp.pdf p.27) (same figure as asset_10_d_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_10_d_grid.png)
 
 ![grid — official paper figure (qp.pdf p.27) — shared with asset_10_d_grid](assets/asset_10_d_grid.png)
 
@@ -703,7 +697,9 @@ By drawing on the grid a tangent to the curve, find an estimate of the gradient 
 
 ### 10(f) [3]
 
-find, by drawing a suitable straight line on the grid, estimates, to one decimal place, of the possible values of x V 200 180 160 140 120 100 O 1 2 3 4 5 x for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. V 200 180 160 140 120 100 O 1 2 3 4 5 x
+find, by drawing a suitable straight line on the grid, estimates, to one decimal place, of the possible values of x
+
+![grid — official paper figure (qp.pdf p.27) (same figure as asset_10_d_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2022-06/4MB1-02/assets/asset_10_d_grid.png)
 
 ![grid — official paper figure (qp.pdf p.27) — shared with asset_10_d_grid](assets/asset_10_d_grid.png)
 
@@ -714,7 +710,6 @@ find, by drawing a suitable straight line on the grid, estimates, to one decimal
 > line drawn
 > line y = 200 − 25 x drawn A1 line through (1, 175) and (4 ,100)
 > 1.3, 3.9 A1 correct line must be drawn allow ± 0.1
-> Total 15 marks
 > VV
 > 200
 > 200
@@ -734,7 +729,6 @@ find, by drawing a suitable straight line on the grid, estimates, to one decimal
 > 2020
 > O
 > 0 1 22 3 4 5 x
-> Question Working Answer Mark Notes
 
 - **(3)** y = 200 − 25 x 3 M1 for indicating that 200 – 25x is the line. Implied by correct
 
@@ -807,7 +801,7 @@ Find the value of a such that gf(a) = fg(a)
 > a − 1 + 3a + 1 ⎡ 4a −a ⎤ M1 dep on 1st M1 and the answer to (c) being of the form
 > [g(a) =] = = oe
 > a − 1 − 9a − 3 ⎣ −8a − 4 2a + 1 ⎥⎦
-> ⎢ ax ± b
+>  ax ± b
 > for removing nested fractions. or removing fractions and
 > cx ± d
 > or 8g( x) x + 4g( x) = −4 x collecting the g(x) terms on one side and the x terms on the other side
@@ -817,7 +811,7 @@ Find the value of a such that gf(a) = fg(a)
 > [gf (a)] = a −1 a −1
 > ⎛ +1⎞
 > 3a their g(a) Allow any letter
-> 2⎜ ⎟ +1
+> 2 +1
 > ⎝ a −1 ⎠
 > −3a − 1 ⎡ −3a − 1 ⎤ A1 A correct expression for gf(a) without nested fractions.
 > [gf (a)] = =
@@ -828,7 +822,6 @@ Find the value of a such that gf(a) = fg(a)
 > ( a − 1)( 7a + 1) = ( −3a − 1)(3a + 1) A1 removing the fractions to gain a correct equation. Allow any
 > letter. If this line is not seen it may implied by the final A1
 > [a =] 0 A1 from correct working.
-> Total 14 marks
 
 - **(7)** a −1 7 M1 ft Their part (c) using g(a) = f-1(fg(a)) ie substituting
 

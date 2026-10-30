@@ -63,7 +63,9 @@ E = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} A = {1, 3, 5, 7, 9} B = {3, 6, 9} Show all t
 
 E = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} A = {1, 3, 5, 7, 9} B = {3, 6, 9} Show all this information on the Venn diagram. E A B
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_3_diagram.png)
 
 
 **Mark scheme answer**
@@ -73,8 +75,6 @@ E = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} A = {1, 3, 5, 7, 9} B = {3, 6, 9} Show all t
 > A B
 > 2 4 1 5 3
 > 8 10 7
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 B2 Fully correct
 
@@ -114,24 +114,18 @@ Find the value of when a = 3 and b a2 b2
 
 ### 5 [2]
 
-Find the value of when a = 3 and b a2 b2
+Find the value of $\frac{a-b}{a^2+b^2}$ when a = 3 and b = −4
 
 
 **Mark scheme answer**
 
-> 3 − ( −4 ) 2 M1 Substitute into formula, must have correct signs, accept
-> 32 + ( −4 )
-> 2 3+ 4 3+ 4 7 m
-> 2 or or or m, n are integers
-> 3 +4
-> 9 + 16 n
+> $\frac{3-(-4)}{3^2+(-4)^2}$ 2 M1 Substitute into formula, must have correct signs, accept
+> $\frac{3+4}{3^2+4^2}$ or $\frac{3+4}{9+16}$ or $\frac{7}{n}$ or $\frac{m}{25}$ m, n are integers
 > Missing brackets may be recovered.
-> cas 7 A1 oe eg 0.28
-> oe isw after correct answer seen
-> Total 2 marks
-> Question Working Answer Mark Notes
+> cas $\frac{7}{25}$ oe A1 oe eg 0.28
+> isw after correct answer seen
 
-- **(2)** 3 − ( −4 ) 2 M1 Substitute into formula, must have correct signs, accept
+- **(2)** $\frac{3-(-4)}{3^2+(-4)^2}$ 2 M1 Substitute into formula, must have correct signs, accept
 
 
 ## Question 6 (3 marks)
@@ -140,9 +134,12 @@ Diagram NOT x cm accurately drawn D C 5 cm A B 10 cm The diagram shows trapezium
 
 ### 6 [3]
 
-Diagram NOT x cm accurately drawn D C 5 cm A B 10 cm The diagram shows trapezium ABCD where AB is parallel to DC AB = 10cm and DC = x cm The vertical height of the trapezium is 5 cm Given that the area of the trapezium is 45 cm2 find the value of x x =
+x cm accurately drawn D C 5 cm A B 10 cm The diagram shows trapezium ABCD where AB is parallel to DC AB = 10cm and DC = x cm The vertical height of the trapezium is 5 cm Given that the area of the trapezium is 45 cm² find the value of x x =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: D, C, A, B · Figure values: 5, 10.
+
+![diagram — official paper figure (qp.pdf p.3)](assets/asset_6_diagram.png)
 
 
 **Mark scheme answer**
@@ -156,14 +153,13 @@ Diagram NOT x cm accurately drawn D C 5 cm A B 10 cm The diagram shows trapezium
 > Condone splitting into a rectangle and 2 triangles or 2 rectangles
 > as follows:
 > ⎡ 1 ⎤ ⎛ 10 − x ⎞
-> 45 = ⎢ 2 × ⎥ × 5 ⎜ ⎟ + 5x
+> 45 = ⎢ 2 × ⎥ × 5 + 5x
 > ⎣ 2⎦ ⎝ 2 ⎠
 > Condone use of eg a or b for x
 > 2 × 45 M1 dep on previous M1 correct order of operations to isolate x
 > [ x =] − 10 oe May imply the previous method mark
 > This may be done in stages.
 > cas 8 A1 cao
-> Total 3 marks
 
 - **(3)** 1 3 M1 forming correct equation in x
 
@@ -174,20 +170,25 @@ Diagram NOT x cm accurately drawn D C 5 cm A B 10 cm The diagram shows trapezium
 
 ### 7(a) [2]
 
-Find A + B Given that A C D
+A = $\begin{pmatrix} 1 & -1 \\ 3 & -4 \end{pmatrix}$  B = $\begin{pmatrix} 3 & 3 \\ -1 & 5 \end{pmatrix}$  C = $\begin{pmatrix} x & 2 \\ -2 & x \end{pmatrix}$  D = $\begin{pmatrix} 4 & 1 \\ 1 & -1 \end{pmatrix}$
+
+(a) Find A + B
+
+Given that A + C = D
+
+(b) find the value of x
 
 
 **Mark scheme answer**
 
-> ⎛ 4 2⎞ 2 B2 Fully correct
-> ⎜ ⎟ (B1 2 or 3 values correct)
-> ⎝2 1⎠
+> $\begin{pmatrix} 4 & 2 \\ 2 & 1 \end{pmatrix}$ 2 B2 Fully correct
+> (B1 2 or 3 values correct)
 
-- **(2)** ⎛ 4 2⎞ 2 B2 Fully correct
+- **(2)** $\begin{pmatrix} 4 & 2 \\ 2 & 1 \end{pmatrix}$ 2 B2 Fully correct
 
 ### 7(b) [1]
 
-find the value of x x =
+find the value of $x$ x =
 
 
 **Mark scheme answer**
@@ -240,8 +241,6 @@ Find the Lowest Common Multiple (LCM) of 24 and 54
 **Mark scheme answer**
 
 > 216 1 B1 cao do not accept 23 × 33
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 216 1 B1 cao do not accept 23 × 33
 
@@ -290,8 +289,6 @@ On the number line below, represent the inequality y < 2 y −5 −4 −3 −2 �
 > circle.
 > Eg
 > as arrow indicates this continues beyond where the line stops.
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 1 B1 cao
 
@@ -304,7 +301,9 @@ y y=x+3 R x=4 x+y=4 O x Write down three inequalities that define the shaded reg
 
 y y=x+3 R x=4 x+y=4 O x Write down three inequalities that define the shaded region R in the diagram above.
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_10_diagram.png)
 
 
 **Mark scheme answer**
@@ -318,8 +317,6 @@ y y=x+3 R x=4 x+y=4 O x Write down three inequalities that define the shaded reg
 > cas x + y …4
 > oe eg
 > y …4 − x SC1 – all three inequalities incorrect way round, strict or not
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** x„ 4 3 B3 All 3 correct
 
@@ -330,9 +327,12 @@ Diagram NOT A B accurately drawn 80° 5 cm O OAB is a sector of a circle, centre
 
 ### 11 [3]
 
-Diagram NOT A B accurately drawn 80° 5 cm O OAB is a sector of a circle, centre O and radius 5 cm AOB 80° Calculate the perimeter, in cm to 2 significant figures, of the sector OAB cm
+OAB is a sector of a circle, centre O and radius 5 cm AOB 80° Calculate the perimeter, in cm to 2 significant figures, of the sector OAB cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, O · Figure values: 80°, 5.
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_11_diagram.png)
 
 
 **Mark scheme answer**
@@ -352,8 +352,6 @@ Diagram NOT A B accurately drawn 80° 5 cm O OAB is a sector of a circle, centre
 > Watch out for incorrect method of finding the area which also
 > leads to a value of 17 (to 2sf)
 > 17.4532……
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 80 ⎡ 20 ⎤ 3 M1 Correct method to find arc length
 
@@ -390,13 +388,11 @@ The incomplete table and the incomplete histogram give information about the len
 > 0.025 = oe
 > eg 8 cm to 1 FD
 > or
-> eg 1 cm2 to 2.5 frequency
+> eg 1 cm² to 2.5 frequency
 > 39 or 10 A1 indicated on table, on graph or in working.
 > cas A1
 > Bar from 60-100 height 0.825 (33 small squares), and
 > Bar from 100-200 height 0.1 (4 small squares)
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Frequency density of 3 M1 Method to find either a frequency for the table or height of a
 
@@ -417,7 +413,7 @@ The diagram shows a triangle. Diagram NOT accurately drawn x cm The vertical hei
 > 1+ 7 ⎡ 1+ 7 2 + 2 7 ⎤ ⎡1 ⎤ 1+ 7 3 M1
 > [ x =] 1 ⎢= = ⎥ or ⎢ x = ⎥ oe Any correct expression shown oe
 > (
-> 6−2 7 ⎣ )3 − 7 6 − 2 7 ⎦ ⎣ 2 ⎦ 6 − 2(7 ) For this question, completely ignore
+> 6−2 7 ⎣ )³ − 7 6 − 2 7 ⎦ ⎣ 2 ⎦ 6 − 2(7 ) For this question, completely ignore
 > 2
 > labelling of x or x
 > 1+ 7 3 + 7 3+3 7 + 7 +7 10 + 4 7 M1 For rationalising any of
@@ -463,8 +459,6 @@ The diagram shows a triangle. Diagram NOT accurately drawn x cm The vertical hei
 > wr 5+ 2 7 A1
 > accept
 > a = 5, b = 2, c = 7
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1+ 7 ⎡ 1+ 7 2 + 2 7 ⎤ ⎡1 ⎤ 1+ 7 3 M1
 
@@ -475,7 +469,9 @@ The value of an investment increases by 20% to $1926
 
 ### 14(a) [2]
 
-Find the value of the investment before the increase. $ Using an exchange rate of 1 euro = $1.07
+The value of an investment increases by 20% to \$1926
+
+Find the value of the investment before the increase. \$ Using an exchange rate of 1 euro = \$1.07
 
 
 **Mark scheme answer**
@@ -493,18 +489,17 @@ Find the value of the investment before the increase. $ Using an exchange rate o
 
 ### 14(b) [2]
 
-change $1926 into euros euros
+change \$1926 into euros euros
 
 
 **Mark scheme answer**
 
-> 1926 2 M1 Correct method to change $1926 into euros
+> 1926 2 M1 Correct method to change \$1926 into euros
 > oe
 > 1.07
 > cas 1800 A1 cao
-> Total 4 marks
 
-- **(2)** 1926 2 M1 Correct method to change $1926 into euros
+- **(2)** 1926 2 M1 Correct method to change \$1926 into euros
 
 
 ## Question 15 (4 marks)
@@ -535,8 +530,6 @@ Calculate 9 10100 1.2 10101 Give your answer in standard form.
 > or M1 Express both numbers with same exponent where m is an
 > 2.1×10m or q ×10101 integer and 1„ q < 10 .
 > cas 2.1×10101 2 A1 cao
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 0.9 ×10 or 12 ×10
 
@@ -547,7 +540,9 @@ A large solid cylinder has a diameter of 12 cm and a height of 12 cm
 
 ### 16(a) [1]
 
-Show that the volume of the cylinder is 432π cm3 Diagram NOT accurately drawn 12 cm 12 cm The diagram shows a large solid cylinder from which a small cylinder is removed. The volume of the solid formed is 416π cm3 Given that the small cylinder is similar to the large cylinder,
+A large solid cylinder has a diameter of 12 cm and a height of 12 cm
+
+Show that the volume of the cylinder is 432π cm³ Diagram NOT accurately drawn 12 cm 12 cm The diagram shows a large solid cylinder from which a small cylinder is removed. The volume of the solid formed is 416π cm³ Given that the small cylinder is similar to the large cylinder …………… , ……………![diagram — official paper figure (qp.pdf p.13)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2026-06/4MB1-01R/assets/asset_16_a_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.13)](assets/asset_16_a_diagram.png)
 
@@ -556,7 +551,7 @@ Show that the volume of the cylinder is 432π cm3 Diagram NOT accurately drawn 1
 
 > π × 62 ×12 [ = 432π ] or 1 B1 one of the correct expressions only
 > ⎛ 12 ⎞
-> π × ⎜ ⎟ ×12 [ = 432π ]
+> π × ×12 [ = 432π ]
 > ⎝ 2⎠
 > or π × 36 ×12 [ = 432π ]
 
@@ -574,7 +569,7 @@ calculate the diameter of the small cylinder cm
 > or
 > Allow any letters for r or d
 > ⎛d ⎞
-> π ⎜ ⎟ × d = ( 432 − 416 ) π [ = 16 π ] oe
+> π × d = ( 432 − 416 ) π [ = 16 π ] oe
 > ⎝2⎠
 > or
 > ⎡ 16 ⎤
@@ -606,15 +601,13 @@ calculate the diameter of the small cylinder cm
 > 3
 > cas 4 A1 awrt 4
 > ALT2 (b) ( 432 − 416 ) π = ⎛ d ⎞3 oe M1 correct equation involving d only
-> ⎜ ⎟ (d is diameter of small cylinder)
+>  (d is diameter of small cylinder)
 > 432π ⎝ 12 ⎠
 > For 16π , 416π , 432π allow values as per ALT1
 > Allow any letter for d (including r)
 > [d =] 4 M1 Dep on 1st M
 > solves for d (allow 1 processing error)
 > cas 4 A1 awrt 4
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(3)** π r 2 × 2r = ( 432 − 416 ) π [ = 16 π ] oe 3 M1 correct equation involving r or d only
 
@@ -622,55 +615,42 @@ calculate the diameter of the small cylinder cm
 ## Question 17 (4 marks)
 ### 17(a) [2]
 
-Simplify fully 2 x 2 y 3 125 p q
+Simplify fully $\left(2x^2y^3\right)^3$
 
 
 **Mark scheme answer**
 
-> Examples for B1: 6 9
-> 8x y 2
-> B2 For the correct term. Allow in any order eg x 8 y
-> 8 must not be 23
-> 23 x 6 y 9 (B1 any 2 terms correct as part of a product of the form
-> x 5 × 23 × y 9 bxn y m b, m, n ≠ 0 . Allow 8 to be 23
-> Condone terms with or without of multiplication signs for B1
-> x 6 × y 9 × 23
-> only eg x × y 2
-> 6 9 3
-> 6 9
-> 4.5 x y Only allow transcription errors of the powers or the constant
+> Examples for B1: $8x^6y^9$ 2 B2 For the correct term. Allow in any order eg $x^6 8y^9$
+> $2^3 x^6 y^9$ 8 must not be $2^3$
+> $x^5 \times 2^3 \times y^9$ (B1 any 2 terms correct as part of a product of the form
+> $x^6 \times y^9 \times 2^3$ $bx^n y^m$ b, m, n ≠ 0 . Allow 8 to be $2^3$
+> $4.5x^6y^9$ Condone terms with or without of multiplication signs for B1
+> only eg $x^6 \times y^9 2^3$
+> Only allow transcription errors of the powers or the constant
 > onto the answer line)
 > Do not isw (B1 only)
 
-- **(2)** Examples for B1: 6 9
+- **(2)** Examples for B1: $8x^6y^9$ 2 B2 For the correct term. Allow in any order eg $x^6 8y^9$
 
 ### 17(b) [2]
 
-Write 15 3 in the form ap m q n where a, m and n are integers. 375 p q
+Write $\left(\frac{125p^{11}q}{375p^{15}q^3}\right)^{-2}$ in the form $ap^mq^n$ where a, m and n are integers.
 
 
 **Mark scheme answer**
 
-> Examples for B1: 9 p8q 4 2 8 4
-> B2 Allow in any order eg p q 9
-> Condone a = 9, m = 8, n = 4
-> 32 p8 q 4 9 must not be 32
-> p8 × 32 × q −2 B1 any 2 terms correct as part of a product of the form
-> apn qm a, n, m ≠ 0 . Allow 9 to be 32
-> p ×q ×3
-> 6 4
+> Examples for B1: $9p^8q^4$ 2 B2 Allow in any order eg $p^8q^4$ 9
+> $3^2 p^8 q^4$ Condone a = 9, m = 8, n = 4
+> $p^8 \times 3^2 \times q^{-2}$ 9 must not be $3^2$
+> $p^6 \times q^4 \times 3^2$ B1 any 2 terms correct as part of a product of the form
+> $p^8q^4 \times 6$ $ap^n q^m$ a, n, m ≠ 0 . Allow 9 to be $3^2$
 > Condone terms with or without of multiplication signs for B1
-> p q ×6
-> 8 4
-> only eg p × q 3
-> 6 4 2
+> only eg $p^6 \times q^4 3^2$
 > Only allow transcription errors of the powers or the constant
 > onto the answer line
 > Do not isw (B1 only)
-> Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(2)** Examples for B1: 9 p8q 4 2 8 4
+- **(2)** Examples for B1: $9p^8q^4$ 2 B2 Allow in any order eg $p^8q^4$ 9
 
 
 ## Question 18 (4 marks)
@@ -690,7 +670,7 @@ cm
 > *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
 > Labels in the original figure: C, A, B · Figure values: 20° · Other figure text: 1).
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_18_diagram.png)
 
 
 **Mark scheme answer**
@@ -806,21 +786,26 @@ f x x 3 7 x 2 17 x
 
 ### 20(a) [2]
 
-Use the factor theorem to show that x 2 is a factor of f x Given that f x x Q x where Q x is a quadratic expression in x
+f(x) = x³ + 7x² + 17x + 14
+
+(a) Use the factor theorem to show that (x + 2) is a factor of f(x)
+
+Given that f(x) = (x + 2)Q(x) where Q(x) is a quadratic expression in x
+
+(b) find Q(x)
 
 
 **Mark scheme answer**
 
 > [ f (−2) =] eg 2 M1
 > If a full substitution is not seen, the minimum we will accept
-> ( −2 ) + 7 × ([ −] 2 ) + 17 × −2 + 14
-> 3
+> $(-2)^3 + 7 \times ([ -] 2 )^2 + 17 \times -2 + 14$
 > is
 > −8 + 28 − 34 + 14
 > Condone
-> −23 + 7 × −22 + 17 × −2 + 14 = 0
+> $-2^3 + 7 \times -2^2 + 17 \times -2 + 14 = 0$
 > or
-> −23 + 7 × ( −2 ) + 17 × −2 + 14 = 0
+> $-2^3 + 7 \times ( -2 )^2 + 17 \times -2 + 14 = 0$
 > Must see = 0 for either of these
 > Ignore any reference to long division for part (a)
 > wr =0 A1
@@ -829,24 +814,20 @@ Use the factor theorem to show that x 2 is a factor of f x Given that f x x Q x 
 
 ### 20(b) [2]
 
-find Q x Q x
+find $Q(x)$ $Q(x) =$
 
 
 **Mark scheme answer**
 
-> x + Ax + 7 or x + 5x + B
-> 2
-> A, B > 0 2 M1 Any 2 terms of the quadratic factor obtained –
+> $x^2 + Ax + 7$ or $x^2 + 5x + B$  $A, B > 0$ 2 M1 Any 2 terms of the quadratic factor obtained –
 > this may be seen awarded for the correct quadratic factor
 > seen in part (a)
-> cas x2 + 5x + 7 A1
+> cas $x^2 + 5x + 7$ A1
 > Do not isw eg if they go on to solve, after seeing the correct
 > quadratic, award A0
 > This must be seen in part (b) to be awarded
-> Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(2)** x + Ax + 7 or x + 5x + B
+- **(2)** $x^2 + Ax + 7$ or $x^2 + 5x + B$  $A, B > 0$ 2 M1 Any 2 terms of the quadratic factor obtained –
 
 
 ## Question 21 (4 marks)
@@ -861,100 +842,85 @@ Shape A is transformed to shape B under the transformation with matrix M where 1
 **Mark scheme answer**
 
 > ⎛15 19 ⎞ 4 M1 Attempt to find NM (at least 2 values in the matrix
-> [ NM =] ⎜ ⎟ correct)
+> [ NM =] correct)
 > ⎝19 24 ⎠
 > ⎡ ⎛ 15 19 ⎞ ⎤ M1 Correct method to find determinant of their NM
-> ⎢⎜ ⎟ = ⎥ 15 × 24 − 19 ×19 [ = −1] (allow their MN)
+>  = 15 × 24 − 19 ×19 [ = −1] (allow their MN)
 > ⎢⎣ ⎝19 24 ⎠ ⎥⎦ Eg for MN
 > For reference ⎡⎛ 7 −9 ⎞ ⎤
-> ⎡ ⎛ 7 −9 ⎞ ⎤ ⎢⎜ ⎟ = ⎥ 7 × 32 − ( −9 ) × ( −25 ) [ = −1]
+> ⎡ ⎛ 7 −9 = ⎥ 7 × 32 − ( −9 ) × ( −25 ) [ = −1]
 > ⎣⎝ −25 32 ⎠ ⎦
-> ⎢MN = ⎜ ⎟⎥
-> ⎣ ⎝ −25 32 ⎠ ⎦ For an incorrect NM or MN, correct working must be shown
+> ⎢MN = −25 32 ⎠ ⎦ For an incorrect NM or MN, correct working must be shown
 > for their matrix product
 > 7 × 32 − (−9 × −25) [ = −1]
 > ⎡ 1 ⎤ ⎛ 24 −19 ⎞ M1 ft their NM (allow their MN)
 > ( )
 > −1
-> ⎢⎣ NM = ⎜ ⎟
+>  NM = 
 > −1⎥⎦ ⎝ −19 15 ⎠
 > This mark is for (ignore the determinant)
-> ⎛ a b ⎞ ⎛ d −b ⎞
-> ⎜ ⎟→⎜ ⎟ with their NM or their MN
+> ⎛ a b ⎞ ⎛ d −b → with their NM or their MN
 > ⎝ c d ⎠ ⎝ −c a ⎠
 > cas ⎛ −24 19 ⎞ A1
-> ⎜ ⎟
-> ⎝ 19 −15 ⎠
+>  19 −15 
 > or Allow
 > −19 ⎞ 1 ⎛ 24 −19 ⎞
 > ⎛ 24 −19 ⎞
-> −⎜
-> eg − 1 ⎛⎜ 24 ⎟ or eg ⎜ ⎟
-> ⎟ 1 ⎝ −19 15 ⎠ −1 ⎝ −19 15 ⎠
+> −
+> eg − 1 24 ⎟ or eg 1 ⎝ −19 15 ⎠ −1 ⎝ −19 15 ⎠
 > ⎝ −19 15 ⎠
-> Total 4 marks
-> Alt1 ⎢⎜ ⎟ = ⎥ 1× ( −4 ) − 1× ( −3) [ = −1]
+> Alt1 = 1× ( −4 ) − 1× ( −3) [ = −1]
 > ⎢⎣ ⎝ −3 −4 ⎠ ⎥⎦
 > or
-> ⎡ ⎛ 3 −4 ⎞ ⎤
-> ⎢⎜ ⎟ = ⎥ 3 × ( −5 ) − 4 × ( −4 ) [ = 1]
+> ⎡ ⎛ 3 −4 = ⎥ 3 × ( −5 ) − 4 × ( −4 ) [ = 1]
 > ⎢⎣ ⎝ 4 −5 ⎠ ⎥⎦
 > ⎛ 1 1 ⎞ ⎛ −4 −1⎞ M1 correct method to find inverse (ignore determinant) of M
-> ⎜ ⎟→⎜ ⎟ or or N
+>  → or or N
 > ⎝ −3 −4 ⎠ ⎝ 3 1 ⎠
-> ⎛ 3 −4 ⎞ ⎛ −5 4 ⎞
-> ⎜ ⎟→⎜ ⎟
-> ⎝ 4 −5 ⎠ ⎝ −4 3 ⎠
+> ⎛ 3 −4 ⎞ ⎛ −5 4 → 4 −5 ⎠ ⎝ −4 3 ⎠
 > ⎛ −24 19 ⎞ M1 Find M −1N −1
-> ⎜ ⎟ Awarded if at least 2 out of 4 numbers in the final matrix are
+>  Awarded if at least 2 out of 4 numbers in the final matrix are
 > ⎝ 19 −15 ⎠
 > correct.
 > cas ⎛ −24 19 ⎞ A1
-> ⎜ ⎟
-> ⎝ 19 −15 ⎠
+>  19 −15 
 > or Allow
 > −19 ⎞ 1 ⎛ 24 −19 ⎞
 > ⎛ 24 −19 ⎞
-> −⎜
-> eg − 1 ⎛⎜ 24 ⎟ or eg ⎜ ⎟
-> ⎟ 1 ⎝ −19 15 ⎠ −1 ⎝ −19 15 ⎠
+> −
+> eg − 1 24 ⎟ or eg 1 ⎝ −19 15 ⎠ −1 ⎝ −19 15 ⎠
 > ⎝ −19 15 ⎠
-> Alt2 [ NM =] ⎜ ⎟ (at least 2 numbers in the matrix correct)
+> Alt2 [ NM =] (at least 2 numbers in the matrix correct)
 > ⎝19 24 ⎠
-> ⎛ 15 19 ⎞ ⎛ x1 x2 x3 ..... ⎞ M1 Correct attempt to multiply any 2 by 2 matrix representing
-> "⎜ ⎟ "⎜ y y ⎟ their NM by a 2 by n matrix with entries that form coordinates
-> ⎝ 19 24 ⎠ ⎝ 1 2 y3 ..... ⎠
+> ⎛ 15 19 ⎞ ⎛ x1 x² x³ ..... ⎞ M1 Correct attempt to multiply any 2 by 2 matrix representing
+> " "⎜ y y ⎟ their NM by a 2 by n matrix with entries that form coordinates
+> ⎝ 19 24 ⎠ ⎝ 1 2 y³ ..... ⎠
 > that could make any shape with n sides.
-> ⎛ x ' x2 ' x3 '... ⎞ Entries in the resulting matrix will need to be checked.
+> ⎛ x ' x² ' x³ '... ⎞ Entries in the resulting matrix will need to be checked.
 > =⎜ 1 ⎟ Allow for 2 correct columns using their NM and their set
-> ⎝ y1 ' y2 ' y3 '... ⎠ of coordinates.
+> ⎝ y1 ' y² ' y³ '... ⎠ of coordinates.
 > Note it is also possible to just work with a 2 by 2 rather than
 > 2 by n matrix and transform 2 points.
-> ⎛ a b ⎞ ⎛ x1 ' x2 ' x3 '.... ⎞ ⎛ a b ⎞ ⎛ x1 ' x2 ' x3 '.... ⎞ ⎛ x1 x2 x3 ..... ⎞
-> ⎜ ⎟⎜ ⎟ M1 for ⎜ ⎟⎜ ⎟=⎜ ⎟
-> ⎝ c d ⎠⎝ y1 ' y2 ' y3 '.... ⎠ ⎝ c d ⎠⎝ y1 ' y2 ' y3 '.... ⎠ ⎝ y1 y2 y3 ..... ⎠
-> ⎛ x x x3 ..... ⎞
+> ⎛ a b ⎞ ⎛ x1 ' x² ' x³ '.... ⎞ ⎛ a b ⎞ ⎛ x1 ' x² ' x³ '.... ⎞ ⎛ x1 x² x³ ..... M1 for = c d ⎠⎝ y1 ' y² ' y³ '.... ⎠ ⎝ c d ⎠⎝ y1 ' y² ' y³ '.... ⎠ ⎝ y1 y² y³ ..... ⎠
+> ⎛ x x x³ ..... ⎞
 > =⎜ 1 2 ⎟⇒ and correctly forming 2 pairs of simultaneous equations.
 > y
-> ⎝ 1 2y y3 ..... ⎠
+> ⎝ 1 2y y³ ..... ⎠
 > ax1 '+ by1 ' = x1 These equations must be correct for their NM and their image
-> ax2 '+ by2 ' = x2 and original coordinates.
-> ax3 '+ by3 ' = x3 Note it is also possible to just work with a 2 by 2 rather than
+> ax2 '+ by2 ' = x² and original coordinates.
+> ax3 '+ by3 ' = x³ Note it is also possible to just work with a 2 by 2 rather than
 > and 2 by n matrix and transform 2 points.
 > cx1 '+ dy1 ' = y1
-> cx2 '+ dy2 ' = y2
-> cx3 '+ dy3 ' = y3
+> cx2 '+ dy2 ' = y²
+> cx3 '+ dy3 ' = y³
 > ⎛ −24 19 ⎞ A1
-> ⎜ ⎟
-> ⎝ 19 −15 ⎠
+>  19 −15 
 > or Allow
 > −19 ⎞ 1 ⎛ 24 −19 ⎞
 > ⎛ 24 −19 ⎞
-> −⎜
-> eg − 1 ⎛⎜ 24 ⎟ or eg ⎜ ⎟
-> ⎟ 1 ⎝ −19 15 ⎠ −1 ⎝ −19 15 ⎠
+> −
+> eg − 1 24 ⎟ or eg 1 ⎝ −19 15 ⎠ −1 ⎝ −19 15 ⎠
 > ⎝ −19 15 ⎠
-> Question Working Answer Mark Notes
 
 - **(4)** ⎛15 19 ⎞ 4 M1 Attempt to find NM (at least 2 values in the matrix
 
@@ -986,7 +952,7 @@ Find the value of x x = There are 340 buttons in the bag.
 
 ### 22(b) [2]
 
-Find the number of red buttons in the bag. Roya takes at random two buttons from the bag without replacement. Given that the first button Roya takes is not green,
+Find the number of red buttons in the bag. Roya takes at random two buttons from the bag without replacement. Given that the first button Roya takes is not green …………… , ……………
 
 
 **Mark scheme answer**
@@ -1015,15 +981,13 @@ calculate the probability that both buttons Roya takes are red. Show all your wo
 > or = × or
 > 1 − 0.1 306 ⎢⎣ 3 ⎥⎦ 340 − 1 Correct method to find probability of red for second
 > "102" "102"− 1 ⎡ 101 ⎤ counter and multiplication by probability of red for first
-> × ⎢ 0.3 × counter. Ft their 102 from part b, if used.
-> 340 339 = 339 ⎥ oe
+> × 0.3 × counter. Ft their 102 from part b, if used.
+> 340 339 = 339 oe
 > "102"/ 3 ⎢ ⎥
 > 1− ⎢ 0.9 ⎥
 > 340 ⎣ ⎦
 > cas 101 A1 accept awrt 0.099
 > 1017 Allow 0.1 from any correct working
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 0.3 ⎡ 1 ⎤ 3 M1 Correct probability of red for first counter, given not
 
@@ -1034,37 +998,38 @@ The curve with equation y x 3 15 x 5 has two stationary points. Find the exact c
 
 ### 23 [5]
 
-The curve with equation y x 3 15 x 5 has two stationary points. Find the exact coordinates of each of these stationary points.
+The curve with equation y = x³ − 15x + 5 has two stationary points.
+
+Find the exact coordinates of each of these stationary points.
 
 
 **Mark scheme answer**
 
-> 3x 2 or –15 5 M1 one correct algebraic term correctly differentiated
-> "3x 2 − 15" = 0 or M1 dep on previous method mark, their derivative = 0
+> $3x^2$ or −15 5 M1 one correct algebraic term correctly differentiated
+> $"3x^2 - 15"$ = 0 or M1 dep on previous method mark, their derivative = 0
 > dependent also on a derivative in the form
-> [ x =] 5 or [ x =] − 5
-> 3x2 + b or ax 2 − 15 a, b ≠ 0
-> May be implied by [ x =] 5 or [ x =] − 5
-> ("± 5 ") −15 × ("± 5 ") + 5 M1 dep on previous method mark
+> [ x =] √5 or [ x =] −√5
+> $3x^2 + b$ or $ax^2 - 15$ a, b ≠ 0
+> May be implied by [ x =] √5 or [ x =] −√5
+> $( "±\sqrt{5}" )^3 - 15 \times ( "±\sqrt{5}" ) + 5$ M1 dep on previous method mark
 > for substituting any value of x (from previous working)
-> into x3 − 15 x + 5
+> into x³ − 15x + 5
 > Condone use of a decimal here.
 > This mark can be implied by a correct coordinate,
 > decimal or exact.
-> ( 5, 5 −10 5 ) oe exact A2 for both coordinates correct
-> eg ( − 5, 5 − 500 ) A1 only
+> ( √5, 5 − 10√5 ) oe exact A2 for both coordinates correct
+> e.g ( −√5, 5 − √500 ) A1 only
 > for one correct coordinate
-> ( − 5, 5 + 10 5 ) oe exact or
-> eg ( − 5, 5 + 500 ) all values correct given as decimals awrt 1dp or a mix of
+> ( −√5, 5 + 10√5 ) oe exact or
+> e.g ( −√5, 5 + √500 ) all values correct given as decimals awrt 1dp or a mix of
 > surds and decimals
-> 5 = 2.2(36067....) 5 + 10 5 = 27.4 (27.36067977)
-> 5 + 10 5 = −17.4 (−17.36067977)
+> √5 = 2.2(36067....) 5 + 10√5 = 27.4 (27.36067977)
+> 5 + 10√5 = −17.4 (−17.36067977)
 > Allow answers to be given as x = and y =, so long as
 > correctly paired. If seen we can isw
 > cas - discuss Total 5 marks
-> Question Working Answer Mark Notes
 
-- **(5)** 3x 2 or –15 5 M1 one correct algebraic term correctly differentiated
+- **(5)** $3x^2$ or −15 5 M1 one correct algebraic term correctly differentiated
 
 
 ## Question 24 (5 marks)
@@ -1078,28 +1043,27 @@ Calculate the radius, in cm, of the circle cm
 
 **Mark scheme answer**
 
-> (18 − 2r ) ×18 = 122 oe or 3 M1 correctly form equation using intersecting chord
+> (18 − 2r ) ×18 = $12^2$ oe or 3 M1 correctly form equation using intersecting chord
 > theorem
-> (18 − r ) = 122 + r 2
+> (18 − r ) = $12^2$ + $r^2$
 > or
 > 2
 > ⎛ d⎞ ⎛d ⎞ correct equation using Pythagoras’ theorem
-> oe eg ⎜18 − ⎟ = 122 + ⎜ ⎟
-> ⎝ 2⎠ ⎝2⎠
+> oe eg ⎜18 − ⎟ = $12^2$ + 2⎠ ⎝2⎠
 > 36r = 18 − 12 [ = 180] oe
 > 2
 > M1 dep on previous M Correctly isolate terms in r
-> and eliminate r2 if using Pythagoras
+> and eliminate $r^2$ if using Pythagoras
 > cas 5 A1 cao
-> ALT (a) 18 × PA = 122 oe M1 Correct equation to find PA or d
-> (18 − d ) ×18 = 122 oe
+> ALT (a) 18 × PA = $12^2$ oe M1 Correct equation to find PA or d
+> (18 − d ) ×18 = $12^2$ oe
 > [PA = 8 or d = 10]
 > 18 − "8" "10" M1 dep on previous M
 > or
 > 2 2 Correct method to find the radius, using their PA
 > cas 5 A1 cao
 
-- **(3)** (18 − 2r ) ×18 = 122 oe or 3 M1 correctly form equation using intersecting chord
+- **(3)** (18 − 2r ) ×18 = $12^2$ oe or 3 M1 correctly form equation using intersecting chord
 
 ### 24(b) [2]
 
@@ -1109,28 +1073,26 @@ Calculate the length, in cm, of QB cm
 **Mark scheme answer**
 
 > 18 2 M1 Correct use of similar triangles, ft their 5 from (a)
-> "5"× oe or (12 + x )2 = 182 + x 2 oe or correctly forms equation using Pythagoras
+> "5"× oe or (12 + x )² = $18^2$ + $x^2$ oe or correctly forms equation using Pythagoras
 > Allow seen in part (a) if used in part (b)
 > BQ = CQ (equal tangents) so a correct equation also is
 > (12 + CQ ) = 18 + CQ
 > 2 2 2
 > cas 7.5 A1 oe
 > ALT "5" 2 Full correct method to find angle OPT (= angle BPQ)
-> [∠OPC =] tan −1 [ = 22.61986....] awrt 23
+> [∠OPC =] tan^-1 [ = 22.61986....] awrt 23
 > BQ and correct equation with BQ and this angle.
 > tan"22.61986..". = oe
 > or
 > ⎡ sin 90 sin( POC ) ⎤
 > ⎢⎣ 12 = 13 ⎥⎦
-> [ POC =] sin −1 ⎛⎜ ⎞⎟ = 67.3801......
+> [ POC =] sin^-1 = 67.3801......
 > ⎝ 12 ⎠
 > OPC = 90 − "67.3801......"[ = 22.61986....]
 > sin "22.61986...." sin"67.3801......."
 > =
 > BQ
 > cas 7.5 A1 oe
-> Total 5 marks
-> Question Working Answer Mark Notes
 > → → →
 
 - **(2)** 18 2 M1 Correct use of similar triangles, ft their 5 from (a)
@@ -1238,9 +1200,12 @@ Diagram NOT E accurately drawn D C 9 cm M 48 cm O A 64 cm B The diagram shows a 
 
 ### 26 [6]
 
-Diagram NOT E accurately drawn D C 9 cm M 48 cm O A 64 cm B The diagram shows a right pyramid ABCDE with horizontal rectangular base ABCD O is the centre of the base. Vertex E is vertically above O such that AE = BE = CE = DE AB = 64cm BC = 48cm EO = 9cm M is the midpoint of AD Calculate the size, to the nearest degree, of angle CEM °
+The diagram shows a right pyramid ABCDE with horizontal rectangular base ABCD O is the centre of the base. Vertex E is vertically above O such that AE = BE = CE = DE AB = 64cm BC = 48cm EO = 9cm M is the midpoint of AD Calculate the size, to the nearest degree, of angle CEM °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, D, C, M, O, A, B · Figure values: 9, 48, 64.
+
+![diagram — official paper figure (qp.pdf p.22)](assets/asset_26_diagram.png)
 
 
 **Mark scheme answer**
@@ -1248,19 +1213,19 @@ Diagram NOT E accurately drawn D C 9 cm M 48 cm O A 64 cm B The diagram shows a 
 > ⎡⎣ MC ⎤⎦ = 24 + 64 [ = 4672]
 > 2 2 2 6 M1 correct full method to find MC 2 or MC
 > For MC accept awrt 68 – will imply correct method
-> [ MC =] 242 + 642 ⎡⎣ = 8 73 = 68.3520....⎤⎦ unless from obviously incorrect method.
-> ⎡⎣ ME 2 ⎤⎦ = 322 + 92 [ = 1105] M1 correct full method to find ME2 or ME
+> [ MC =] $24^2$ + $64^2$ ⎡⎣ = 8 73 = 68.3520....⎤⎦ unless from obviously incorrect method.
+> ⎡⎣ ME 2 ⎤⎦ = $32^2$ + $9^2$ [ = 1105] M1 correct full method to find ME2 or ME
 > For ME accept awrt 33 – will imply correct method
-> [ ME ] = 322 + 92 ⎡⎣ 1105 = 33.24154....⎤⎦ unless from obviously incorrect method.
-> ⎡⎣CE 2 ⎤⎦ = 242 + "33.2"2 oe eg ⎡⎣CE 2 ⎤⎦ = 242 + "1105"[ = 1681] M1 correct full method to find CE2 or CE or any of
+> [ ME ] = $32^2$ + $9^2$ ⎡⎣ 1105 = 33.24154....⎤⎦ unless from obviously incorrect method.
+> ⎡⎣CE 2 ⎤⎦ = $24^2$ + "33.2"$^2$ oe eg ⎡⎣CE 2 ⎤⎦ = 242 + "1105"[ = 1681] M1 correct full method to find CE2 or CE or any of
 > the slant edges eg AE.
-> [CE ] = 242 + "33.2"2 [CE ] = 242 + "1105" [ = 41] ft their ME – allow anything they believe is their ME,
+> [CE ] = $24^2$ + "33.2"$^2$ [CE ] = 242 + "1105" [ = 41] ft their ME – allow anything they believe is their ME,
 > not contradicted by other working.
-> ⎡⎣ AC 2 = ⎤⎦ 482 + 642 [ = 6400] or AC = 482 + 642 [ = 80] Allow awrt 41 – will imply correct method unless
+> ⎡⎣ AC 2 = ⎤⎦ $48^2$ + $64^2$ [ = 6400] or AC = $48^2$ + $64^2$ [ = 80] Allow awrt 41 – will imply correct method unless
 > from obviously incorrect method.
-> or ⎡⎣OC 2 = ⎤⎦ 242 + 322 [ = 1600] or AC = 242 + 322 [ = 40] ⇒ For the first 3 marks, if students don’t follow the
+> or ⎡⎣OC 2 = ⎤⎦ $24^2$ + $32^2$ [ = 1600] or AC = $24^2$ + $32^2$ [ = 40] ⇒ For the first 3 marks, if students don’t follow the
 > quickest route, it must be a full method and they
-> ⎡⎣ AE 2 = ⎤⎦ "40"2 + 92 [ = 1609] or AE = "40"2 + 92 [ = 41 = CE ]
+> ⎡⎣ AE 2 = ⎤⎦ "40"$^2$ + $9^2$ [ = 1609] or AE = "40"$^2$ + $9^2$ [ = 41 = CE ]
 > may find any equivalent length.
 > "4672" = ("41") + ("33.2") − 2 × "41"× "33.2"cos CEM
 > 2
@@ -1284,8 +1249,6 @@ Diagram NOT E accurately drawn D C 9 cm M 48 cm O A 64 cm B The diagram shows a 
 > methods. If there is a contradiction between these, the A correct final answer may imply previous method
 > working space takes precedence. marks (unless from obviously incorrect working).
 > cas
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(6)** ⎡⎣ MC ⎤⎦ = 24 + 64 [ = 4672]
 
@@ -1313,7 +1276,7 @@ The size of each exterior angle of polygon Q is 9° greater than the size of eac
 
 ### 27(b) [3]
 
-Show that x^2 + 2x − 80 = 0
+Show that $x^2 + 2x - 80 = 0$
 
 
 **Mark scheme answer**
@@ -1349,18 +1312,14 @@ Calculate the value of x Show clear algebraic working.
 > 2 out of 3 terms correct
 > If using formula must use a fully correct formula,
 > but allow one sign error when substituting
-> ( 2 ) − 4 [×1] × ( −80 )
-> −2 ±
-> oe
-> 2 [×1]
+> $\frac{-2 \pm \sqrt{(2)^2 - 4[\times 1] \times (-80)}}{2[\times 1]}$ oe
 > If completing the square need to see
-> ( x + 1) + c [ = 0] c ≠ 0, −80 oe
+> $( x + 1)^2 + c$ [ = 0] c ≠ 0, −80 oe
 > This mark is for the method shown
 > x = – 10 or 8 without working scores M0
 > (as students are told to show clear algebraic working).
 > wr 8 A1 do not accept –10 unless rejected
 > Dep on M1
-> Total 6 marks
 
 - **(2)** (x + 10)(x – 8) 2 M1 correct method to solve quadratic.
 

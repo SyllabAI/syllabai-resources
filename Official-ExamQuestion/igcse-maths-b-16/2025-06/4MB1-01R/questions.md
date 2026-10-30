@@ -21,8 +21,6 @@ Factorise fully 9 x + 12 x 2 y
 > or a correct answer (that is not their final answer) seen within the
 > working)
 > condone missing closed bracket
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3x ( 3 + 4 xy ) 2 B2 fully correct answer as their final answer
 
@@ -33,9 +31,12 @@ N Diagram NOT accurately drawn N K 214° J The diagram shows the position of two
 
 ### 2 [2]
 
-N Diagram NOT accurately drawn N K 214° J The diagram shows the position of two towns, J and K The bearing of J from K is 214° Find the bearing, in degrees, of K from J °
+The diagram shows the position of two towns, J and K The bearing of J from K is 214° Find the bearing, in degrees, of K from J °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: N, N, K, J · Figure values: 214°.
+
+![diagram — official paper figure (qp.pdf p.1)](assets/asset_2_diagram.png)
 
 
 **Mark scheme answer**
@@ -49,8 +50,6 @@ N Diagram NOT accurately drawn N K 214° J The diagram shows the position of two
 > Do not ISW ie if 34 is not on the answer line it must be their final
 > answer
 > may be seen on diagram provided it is the only angle at J
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 360 – 214 [= 146] oe or 2 M1 for a correct method to find an appropriate angle at K
 
@@ -81,8 +80,6 @@ Make x the subject of t = 6(x + 4)
 > 6 6
 > must see x = ... but allow if written in working but omitted on the
 > answer line.
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** eg t − 24 = 6 x 2 M1 for start by multiplying out brackets and isolating the term in x
 
@@ -93,7 +90,7 @@ The price of a television is reduced by 8% in a sale. The price of the televisio
 
 ### 4 [2]
 
-The price of a television is reduced by 8% in a sale. The price of the television in the sale is $1012 Calculate the price of the television before the sale. $
+The price of a television is reduced by 8% in a sale. The price of the television in the sale is \$1012 Calculate the price of the television before the sale. \$
 
 
 **Mark scheme answer**
@@ -103,8 +100,6 @@ The price of a television is reduced by 8% in a sale. The price of the televisio
 > 0.92 100
 > oe
 > 1100 A1
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 1012 92 2 M1 for realising that 1012 is 92%
 
@@ -115,7 +110,7 @@ Simplify fully (4xy5)3 / 2xy
 
 ### 5 [2]
 
-Simplify fully (4xy5)3 / 2xy
+Simplify fully (4xy5)³ / 2xy
 
 
 **Mark scheme answer**
@@ -124,8 +119,6 @@ Simplify fully (4xy5)3 / 2xy
 > (B1 for a product with 2 parts correct and no more than 3 parts in
 > total)
 > Condone inclusion of multiplication signs for B1
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 32x2 y14 2 B2
 
@@ -136,7 +129,7 @@ Given that, for all values of x, x 2 + 6 x − 15 = ( x + a )2 − b where a and
 
 ### 6 [2]
 
-Given that, for all values of x, x 2 + 6 x − 15 = ( x + a )2 − b where a and b are integers find the value of a and the value of b a = b =
+Given that, for all values of x, x 2 + 6 x − 15 = ( x + a )² − b where a and b are integers find the value of a and the value of b a = b =
 
 
 **Mark scheme answer**
@@ -149,8 +142,6 @@ Given that, for all values of x, x 2 + 6 x − 15 = ( x + a )2 − b where a and
 > b = 24
 > on the answer line
 > NB When + 6x is misread as – 6x award M1 for a = –3 and b = 24
-> cas Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 2 M1 for ( x + 3) − .... (condone ( x + 3) − .... ) or ... − 24 is seen in working
 
@@ -161,9 +152,12 @@ A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG
 
 ### 7 [3]
 
-A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG are parallel straight lines. ∠BEF = 56° and ∠CBF = 72° Find the size, in degrees, of ∠EBF Give reasons for each stage of your working. ∠EBF °
+In the diagram ABC and DEFG are parallel straight lines. ∠BEF = 56° and ∠CBF = 72° Find the size, in degrees, of ∠EBF Give reasons for each stage of your working. ∠EBF °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, C, D, E, F, G · Figure values: 72°, 56°.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**
@@ -186,8 +180,6 @@ A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG
 > Angle(s) in a triangle add to 180° Allow Alt and for ‘triangle’ and ∠ for ‘angle’
 > Co-interior angles or/ allied angles
 > add up to 180°
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ∠ABE = 56 or ∠BFE = 72 or 3 M1 may be seen on diagram
 
@@ -218,8 +210,6 @@ Find the median of these 10 marks.
 > 11 + 15 anywhere in the question) or for identifying 11 and 15 or for a
 > or correct calculation
 > 13 A1
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 4 6 10 11 11 15 19 24 25 28 2 M1 for arranging all 10 numbers in order (this may be seen
 
@@ -250,8 +240,6 @@ Represent the inequality x ≥ 1 on the number line below. x −5 −4 −3 −2
 
 > 1 B1 filled in circle with single horizontal line going to 5 or if it
 > doesn’t reach 5 it must have an arrow on.
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(1)** 1 B1 filled in circle with single horizontal line going to 5 or if it
 
@@ -262,7 +250,7 @@ The cost, including delivery, of a mobile phone in the UK is £624 The cost of a
 
 ### 10 [3]
 
-The cost, including delivery, of a mobile phone in the UK is £624 The cost of an identical mobile phone in the USA is $448 plus an additional cost of $d for delivery. The cost, including delivery, of the mobile phone in the UK is £224 more than the cost, including delivery, of the mobile phone in the USA. Using the exchange rate £1 = $1.28 calculate the value of d d =
+The cost, including delivery, of a mobile phone in the UK is £624 The cost of an identical mobile phone in the USA is \$448 plus an additional cost of \$d for delivery. The cost, including delivery, of the mobile phone in the UK is £224 more than the cost, including delivery, of the mobile phone in the USA. Using the exchange rate £1 = \$1.28 calculate the value of d d =
 
 
 **Mark scheme answer**
@@ -275,17 +263,15 @@ The cost, including delivery, of a mobile phone in the UK is £624 The cost of a
 > Implied by the values 798.72 or 800 or 799 or 286.72 or 290 or 287 or
 > 512 or 350
 > In American Dollars: M1 dep on previous M1 mark awarded.
-> 448 + d = "798.72"− "286.72" oe An equation or method to find the delivery cost in $ or £ (the equation
+> 448 + d = "798.72"− "286.72" oe An equation or method to find the delivery cost in \$ or £ (the equation
 > eg must have all values in the same currency)
 > 448 + d = 1.28 × 624 − 1.28 × 224
 > or
 > [ d =]"798.72"− "286.72"− 448 Allow use of their values rounded to minimum of 2 sf eg 800, 799,
 > or 290, 287.
-> In GBP Implied by (£)50 or ($)64
+> In GBP Implied by (£)50 or (\$)64
 > "350"+ d = 624 − 224 oe
 > 64 A1 cao
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 624 ×1.28 [ = 798.72] or 3 M1 A correct method used to change currency
 
@@ -333,8 +319,6 @@ A and B are two points on horizontal ground. The distance from A to B is 1.5 kil
 > worth 0 marks
 > NB: When 6 is misread as 60 award M2 for awrt 2600 or awrt
 > 2.6 provided they are not from incorrect working
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** h 3 M1 for a correct equation to find the height in m or km
 
@@ -345,7 +329,9 @@ Solid A and solid B are similar. The surface area of solid A is 25 cm 2 The surf
 
 ### 12 [3]
 
-Solid A and solid B are similar. The surface area of solid A is 25 cm 2 The surface area of solid B is 900 cm 2 The volume of solid A is 50 cm 3 Calculate the volume, in cm 3, of solid B cm 3
+Solid A and solid B are similar. The surface area of solid A is 25 cm² The surface area of solid B is 900 cm² The volume of solid A is 50 cm³ Calculate the volume, in cm³, of solid B
+
+…………… cm³
 
 
 **Mark scheme answer**
@@ -359,21 +345,15 @@ Solid A and solid B are similar. The surface area of solid A is 25 cm 2 The surf
 > 25 × x = 900 or 900 : 25 oe
 > 3
 > ⎛ 900 ⎞ ⎛ V ⎞
-> or ⎜ ⎟ =⎜ ⎟
-> ⎝ 25 ⎠ ⎝ 50 ⎠
+> or = 25 ⎠ ⎝ 50 ⎠
 > 50 M1 dep on previous method mark awarded
 > 50 × ("6") or
 > 3 for a correct method to find the volume.
-> ⎛ 1 ⎞
-> ⎜ " "⎟ ft their SF if it comes from correct working
+> ⎛ 1 " "⎟ ft their SF if it comes from correct working
 > ⎝ 6 ⎠
-> ⎛ 900 ⎞
-> ⎟ × 50 oe
-> or ⎜
-> ⎝ 25 ⎠
+>  900 × 50 oe
+> or 25 
 > 10 800 A1 cao do not isw
-> cas Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 for a correct expression to find a linear SF or a correct equation
 
@@ -411,8 +391,6 @@ On a trip, a powerboat travels at an average speed of 40 km/h for 1 hour 18 minu
 > speed
 > 35 A1 cao
 > NB: Accept 60 + 18 for 78 throughout
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 40 ×1.3[ = 52] or 22 × 0.5 [ = 11] oe 4 M1 correct method to find the distance travelled M3
 
@@ -443,7 +421,6 @@ Xiou records the time, in minutes, it takes each of the 30 students in his class
 > "132" M1 dep on M1 for dividing by 30
 > 30 Allow 7 + 8 + 6 + 5 + 4 for 30
 > 4.4 A1 oe
-> cas Total 4 marks
 > Question Working Answer Mark Notes.
 > Condone missing arrows throughout
 
@@ -461,53 +438,46 @@ The points O, A and B are such that OA = (−1/5) and OB = (−4/2) The point C 
 
 **Mark scheme answer**
 
-> ⎡⎣ OB =⎤⎦ (−4)2 + 22 ⎡⎣= 20 ⎤⎦ or 4 M1 correct method to find OB or AC or OB2 or AC2
+> ⎡⎣ OB =⎤⎦ (−4)² + 22 ⎡⎣= 20 ⎤⎦ or 4 M1 correct method to find OB or AC or OB2 or AC2
 > Condone missing brackets around the –4 or – 4k
 > ⎡⎣ AC =⎤⎦ ( −4k ) + ( 2k ) ⎡⎣= 20k ⎤⎦
 > 2
 > → ⎛ −10 ⎞ → ⎛ −11⎞
-> oe eg Implied by AC = ⎜ ⎟ or OC = ⎜ ⎟
-> ⎡⎣ AC =⎤⎦ 16k 2 + 4k 2 ⎡⎣ = 20k ⎤⎦ ⎝ 5⎠ ⎝ 10 ⎠
+> oe eg Implied by AC = or OC = AC =⎤⎦ 16k 2 + 4k 2 ⎡⎣ = 20k ⎤⎦ ⎝ 5⎠ ⎝ 10 ⎠
 > 125 = k " 20 " oe → → → →
 > M1 for using AC = k OB or | AC |= k | OB |
 > eg
 > 125 = λ "20" oe →
-> ft | OB | if clearly labelled or comes from (−4)2 + 22
+> ft | OB | if clearly labelled or comes from (−4)² + 22
 > → ⎛ −4 ⎞ ⎛ −4 ⎞
-> Allow for AC = k ⎜ ⎟ or 125 = k ⎜ ⎟
-> ⎝ 2⎠ ⎝ 2⎠
+> Allow for AC = k or 125 = k 2⎠ ⎝ 2⎠
 > Implied by 2.5 oe or 0.4 oe or 6.25 oe or 0.16 oe
 > → ⎛ −10 ⎞ → ⎛ −11⎞
-> or AC = ⎜ ⎟ or OC = ⎜ ⎟
-> ⎝ 5⎠ ⎝ 10 ⎠
+> or AC = or OC = 5⎠ ⎝ 10 ⎠
 > → ⎛ 4 ⎞ ⎛ −1 ⎞ 125 ⎛ −4 ⎞ M1 dep on both previous marks
-> BC = ⎜ ⎟ + ⎜ ⎟ ± ⎜ ⎟ or →
+> BC = + ± or →
 > ⎝ −2 ⎠ ⎝ 5 ⎠ " 20 " ⎝ 2 ⎠ for a correct method to find BC
 > → ⎛ 4 ⎞ ⎛ −1 ⎞ ⎛ −10 ⎞ If working shown allow
-> BC = ⎜ ⎟ + ⎜ ⎟ ± " ⎜ ⎟"
+> BC = + ± " "
 > ⎝ −2 ⎠ ⎝ 5 ⎠ ⎝ 5 ⎠ → ⎛ 4 ⎞ ⎛ −1 ⎞ ⎛ −4 ⎞ → ⎛ 3⎞ ⎛ −4 ⎞
-> BC = ⎜ ⎟ + ⎜ ⎟ ± " k " ⎜ ⎟ or BC = ⎜ ⎟ ± " k " ⎜ ⎟
-> ⎝ −2 ⎠ ⎝ 5 ⎠ ⎝ 2⎠ ⎝3⎠ ⎝ 2⎠
+> BC = + ± " k " or BC = ± " k " −2 ⎠ ⎝ 5 ⎠ ⎝ 2⎠ ⎝3⎠ ⎝ 2⎠
 > → ⎛ 4 ⎞ ⎛ −1 ⎞ ⎛ −4 ⎞ → ⎛ 3⎞ ⎛ −4 ⎞
-> BC = ⎜ ⎟ + ⎜ ⎟ ± " λ " ⎜ ⎟ or BC = ⎜ ⎟ ± " λ " ⎜ ⎟
-> ⎝ −2 ⎠ ⎝ 5 ⎠ ⎝ 2⎠ ⎝3⎠ ⎝ 2⎠
+> BC = + ± " λ " or BC = ± " λ " −2 ⎠ ⎝ 5 ⎠ ⎝ 2⎠ ⎝3⎠ ⎝ 2⎠
 > → →
 > Do not allow misreads of signs BO and OA
 > ⎛ 13 ⎞ ⎛ −7 ⎞
-> Implied by ⎜ ⎟ or ⎜ ⎟
-> ⎝ −2 ⎠ ⎝ 8 ⎠
+> Implied by or −2 ⎠ ⎝ 8 ⎠
 > ⎛ −7 ⎞ A1 dep on at least 2 previous marks awarded.
-> ⎜ ⎟ ⎛ 13 ⎞
-> ⎝ 8 ⎠ condone ⎜ ⎟ (from k = –2.5) not being eliminated.
+>  13 
+> ⎝ 8 ⎠ condone (from k = –2.5) not being eliminated.
 > ⎝ −2 ⎠
-> cas Total 4 marks
 > ALT
-> ⎡ AC 2 = ⎤ (c − 3)2 + (d − 3) 2 = 125 oe M1 correct method to find AC or AC2 in terms of c and d
+> ⎡ AC 2 = ⎤ (c − 3)² + (d − 3) 2 = 125 oe M1 correct method to find AC or AC2 in terms of c and d
 > ⎣ ⎦
-> ( x + 1) + ( y − 5)2 = 125 oe
+> ( x + 1) + ( y − 5)² = 125 oe
 > or correct method to find the equation of a circle with centre A and
 > → ⎛ x⎞
-> radius 125 where OC = ⎜ ⎟ (allow any letter for x and y including c
+> radius 125 where OC = (allow any letter for x and y including c
 > ⎝ y⎠
 > and d and allow any letter for c and d)
 > d −3 2 M1 for correct method to find the equation of the line CD
@@ -516,24 +486,23 @@ The points O, A and B are such that OA = (−1/5) and OB = (−4/2) The point C 
 > y −5
 > or = − oe
 > x +1
-> eg (6 − 2d ) + (d − 3)2 = 125 oe
+> eg (6 − 2d ) + (d − 3)² = 125 oe
 > 2 M1 dep on both previous marks
 > 2 for correctly substituting their rearranged linear equation into the non
 > ⎛ 1 9 ⎞
 > (c − 3) + ⎜ − c + − 3 ⎟ = 125 oe
 > 2 linear equation to form an equation in one variable
 > ⎝ 2 2 ⎠
-> or (10 − 2 y) + ( y − 5)2 = 125 oe
+> or (10 − 2 y) + ( y − 5)² = 125 oe
 > ⎛ 1 9 ⎞
 > ( x + 1) + ⎜ − x + − 5 ⎟ = 125 oe
 > ⎝ 2 2 ⎠
 > ⎛ −7 ⎞ A1 dep on at least 2 previous marks awarded.
-> ⎜ ⎟ ⎛ 13 ⎞
-> ⎝ 8 ⎠ condone ⎜ ⎟ not being eliminated.
+>  13 
+> ⎝ 8 ⎠ condone not being eliminated.
 > ⎝ −2 ⎠
-> Question Working Answer Mark Notes
 
-- **(4)** ⎡⎣ OB =⎤⎦ (−4)2 + 22 ⎡⎣= 20 ⎤⎦ or 4 M1 correct method to find OB or AC or OB2 or AC2
+- **(4)** ⎡⎣ OB =⎤⎦ (−4)² + 22 ⎡⎣= 20 ⎤⎦ or 4 M1 correct method to find OB or AC or OB2 or AC2
 
 
 ## Question 16 (4 marks)
@@ -542,9 +511,12 @@ A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre 
 
 ### 16 [4]
 
-A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre O with ∠AOC = 120° The length of arc ABC is 17.2 cm Calculate the area, in cm 2 to 3 significant figures, of the sector cm2
+OABC is a sector of a circle, centre O with ∠AOC = 120° The length of arc ABC is 17.2 cm Calculate the area, in cm² to 3 significant figures, of the sector cm²
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, O, C · Figure values: 120°.
+
+![diagram — official paper figure (qp.pdf p.12)](assets/asset_16_diagram.png)
 
 
 **Mark scheme answer**
@@ -571,11 +543,9 @@ A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre 
 > 360 area formula for the sector (must show substitution into correct
 > 2 formula if r is incorrect)
 > 1 ⎛ 17.2 ⎞
-> eg Area = π × ⎜ ⎟
+> eg Area = π × 
 > 3 ⎝ 2π 3 ⎠ Allow π to be 3 or better for this mark
 > 70.6 A1 awrt 69 or awrt 70 or awrt 71
-> cas Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 120 2π r 4 M1 setting up a correct equation to find r
 
@@ -611,16 +581,15 @@ Without using a calculator and showing all your working, express (4 + 2√7)/(3 
 > 4+ 2 7 3+ 7
 > M1 only for × = 13 + 5 7
 > 3− 7 3+ 7
-> 4+ 2 7 3+ 7 ⎡
-> B1M1 only for × = 13 + 5 7 = ⎤⎦ 13 + 175
-> 3− 7 3+ 7 ⎣
+> 4+ 2 7 3+ 7 
+> B1M1 only for × = 13 + 5 7 = 13 + 175
+> 3− 7 3+ 7 
 > 4 + 2 7 3 + 7 26 + 10 7
 > B0M2A1 for × = = 13 + 5 7
 > 3− 7 3+ 7
-> 4 + 2 7 3 + 7 26 + 10 7 ⎡
+> 4 + 2 7 3 + 7 26 + 10 7 
 > B1M2A1 for × = = ⎣13 + 5 7 = ⎤⎦ 13 + 175
 > 3− 7 3+ 7
-> Question Working Answer Mark Notes
 
 - **(4)** 4 B1 for an answer of 13 + 175
 
@@ -631,7 +600,11 @@ B Diagram NOT accurately drawn 52° x° O A C D In the diagram A, B, C and D are
 
 ### 18(a) [2]
 
-Find the size, in degrees, of ∠ADC Give a reason for your answer °
+B Diagram NOT accurately drawn 52° x° O A C D In the diagram A, B, C and D are points on a circle, centre O ∠ABC = 52° and the reflex angle AOC = x°
+
+Find the size, in degrees, of ∠ADC Give a reason for your answer
+
+…………… °
 
 
 **Mark scheme answer**
@@ -673,8 +646,6 @@ Find the value of x Give a reason for your answer. x =
 > ½ angle at centre Allow ∠ for ‘angle’
 > or
 > Angles around a point add up to 360°
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** [∠AOC =] 2 × 52 [ = 104] and 360 – 104 3 M1 follow through their answer to part (a)
 
@@ -682,7 +653,7 @@ Find the value of x Give a reason for your answer. x =
 ## Question 19 (5 marks)
 ### 19(a) [2]
 
-Calculate 3.6 × 10103 × 7.5 × 10101 Give your answer in standard form. c = 4 × 10^(−8n) where n is an integer. −
+Calculate 3.6 × 10103 × 7.5 × 10101 Give your answer in standard form. $c = 4 \times 10^{-8n}$ where n is an integer. −
 
 
 **Mark scheme answer**
@@ -695,7 +666,7 @@ Calculate 3.6 × 10103 × 7.5 × 10101 Give your answer in standard form. c = 4 
 
 ### 19(b) [3]
 
-Find an expression for c^(−1/2) in terms of n Give your answer in standard form.
+Find an expression for $c^{-\frac{1}{2}}$ in terms of n Give your answer in standard form.
 
 
 **Mark scheme answer**
@@ -729,8 +700,6 @@ Find an expression for c^(−1/2) in terms of n Give your answer in standard for
 > 5 ×104 n−1 8n
 > −1
 > A1 both correct Accept 5 × 10
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 1 1 3 1 1
 
@@ -768,7 +737,9 @@ Factorise x 2 + 8 x − 20
 
 ### 20(c) [1]
 
-Hence write down the range of values of x for which the area of the rectangle is greater than 20 m 2
+Hence write down the range of values of x for which the area of the rectangle is greater than 20
+
+…………… m²
 
 
 **Mark scheme answer**
@@ -777,8 +748,6 @@ Hence write down the range of values of x for which the area of the rectangle is
 > must have only one positive critical value and only one region must
 > be given
 > Condone x ≥ "2"
-> cas Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** x > "2" 1 B1 for x > 2 or follow through their part (b) but factorised form
 
@@ -789,9 +758,12 @@ E Diagram NOT accurately drawn C D A B The diagram shows a right solid pyramid A
 
 ### 21 [5]
 
-E Diagram NOT accurately drawn C D A B The diagram shows a right solid pyramid ABCDE, made of silver, with horizontal rectangular base ABCD and vertex E AB = 9 cm to 1 significant figure. BC = 6.5 cm to the nearest 0.5 cm. The mass of the pyramid is 5080 grams to the nearest 10 grams. The density of the silver is 10.5 g/cm 3 to 3 significant figures. mass Given that density = volume calculate the upper bound, in cm to 3 significant figures, of the perpendicular height of the pyramid. Show all your working cm
+The diagram shows a right solid pyramid ABCDE, made of silver, with horizontal rectangular base ABCD and vertex E AB = 9 cm to 1 significant figure. BC = 6.5 cm to the nearest 0.5 cm. The mass of the pyramid is 5080 grams to the nearest 10 grams. The density of the silver is 10.5 g/cm³ to 3 significant figures. mass Given that density = volume calculate the upper bound, in cm to 3 significant figures, of the perpendicular height of the pyramid. Show all your working cm
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E, C, D, A, B.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_21_diagram.png)
 
 
 **Mark scheme answer**
@@ -840,7 +812,6 @@ E Diagram NOT accurately drawn C D A B The diagram shows a right solid pyramid A
 > figures seen leading to awrt
 > 27.5
 > wr Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 8.5, 9.5, 6.25, 6.75, 5075, 5085, 10.45,10.55 5 B1 for one correct LB or UB
 
@@ -877,7 +848,6 @@ Show that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato.
 > OR
 > y
 > 0.8 = and y = 16 and fd = 0.8 for the 35-55 group
-> Qu Working Ans Mark Notes
 
 - **(2)** fd = 4.8 or 4 or 6 or 2 oe seen by the table or 2 M1 for use of area to work out frequency density.
 
@@ -925,23 +895,23 @@ A = (−1/2 −2 / 0 1) BA⁻¹ = ( x −8 / 1 x ) where x > 0 Given that the de
 **Mark scheme answer**
 
 > ⎛ 1 ⎞ 5 M1 BA-1 and A matrices to be multiplied in correct order
-> ⎛ x −8 ⎞ ⎜ − −2⎟
-> [B =] ⎜ ⎟ 2 This may be implied by the second M1
-> ⎝1 x ⎠⎜ 0 ⎟ Condone incorrect labelling
+> ⎛ x −8 − −2⎟
+> [B =] 2 This may be implied by the second M1
+> ⎝1 x 0 ⎟ Condone incorrect labelling
 > ⎝ 1⎠
 > ⎛− 1 x ⎞
 > − 2x − 8 ⎛ ⎞ ⎛ −2 + x 2x + 8 ⎞
 > M1 correct method to multiply out the matrices with at least
-> ⎜ ⎟ ⎜ ⎟ ⎜ 2 elements correct.
+>  2 elements correct.
 > [B =] ⎜ 2 ⎟ or ⎡⎣ B ⎤⎦ = ⎜
 > −1
 > ⎟ ×⎜ 1
-> ⎟ Condone incorrect labelling
-> ⎜⎜ − 1 ⎟
+>  Condone incorrect labelling
+>  − 1 
 > ( )
-> ( ) − ⎟
-> − 2+ x⎟ ⎜ − x −2 + x − 2 x + 8 ⎟ ⎝ 2 x
-> ⎠ Condone missing brackets – mark clear intention (even if
+> ( ) − 
+> − 2+ x − x −2 + x − 2 x + 8 2 x
+>  Condone missing brackets – mark clear intention (even if
 > ⎝ 2 ⎠ ⎝ 2 2 ⎠
 > not recovered)
 > 1 1 M1 for a correct equation in terms of x
@@ -957,8 +927,7 @@ A = (−1/2 −2 / 0 1) BA⁻¹ = ( x −8 / 1 x ) where x > 0 Given that the de
 > − x ( −2 + x ) − ( 2 x + 8 )
 > 2
 > ⎛ −2 + "2" 2 × "2"+ 8 ⎞ M1ft dep on previous 3 M marks being awarded.
-> 1⎜ ⎟
-> ⎡⎣B = ⎤⎦ −
+> 1 B = −
 > −1
 > 1 1 Correct method to find 3 or 4 elements
 > 6⎜ − × "2" ⎟ x -value subst into B or B-1 ft their x value
@@ -967,18 +936,14 @@ A = (−1/2 −2 / 0 1) BA⁻¹ = ( x −8 / 1 x ) where x > 0 Given that the de
 > NB For x = –2
 > ⎛ −2 + "− 2" 2 × "− 2"+ 8 ⎞ ⎡ ⎛ −4 4 ⎞ ⎤
 > ⎡⎣B = ⎤⎦ −
-> −1 1⎜ ⎟ ⎢ =−
-> 1⎜ ⎟⎥
+> −1 1 =−
+> 1 
 > 1 1
-> 6⎜ − × "− 2" ⎟ ⎢ 6⎜ 1⎟ ⎥
-> ⎝ 2 2 ⎠ ⎢⎣ ⎝ 2 ⎠ ⎥⎦
+> 6⎜ − × "− 2" 6⎜ 1 2 2 ⎠ ⎢⎣ ⎝ 2 ⎠ ⎥⎦
 > ⎛0 12 ⎞ A1 oe dep on at least first 2 method marks awarded
-> 1⎜ ⎟
+> 1 
 > − 1 ignore any second matrix given.
-> 6⎜ − 1⎟
-> ⎝ 2 ⎠
-> cas Total 5 marks
-> Question Working Answer Mark Notes
+> 6⎜ − 1 2 ⎠
 
 - **(5)** ⎛ 1 ⎞ 5 M1 BA-1 and A matrices to be multiplied in correct order
 
@@ -989,7 +954,7 @@ Solve the simultaneous equations 9 − xy = x2 4y − x = 11 Show clear algebrai
 
 ### 24 [6]
 
-Solve the simultaneous equations 9 − xy = x2 4y − x = 11 Show clear algebraic working.
+Solve the simultaneous equations 9 − xy = x² 4y − x = 11 Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -997,10 +962,9 @@ Solve the simultaneous equations 9 − xy = x2 4y − x = 11 Show clear algebrai
 > ( 4 y − 11) = 9 – ( 4 y − 11) y or 6 M1 for substituting a rearranged linear equation into the correct non linear
 > equation (or a rearranged non linear equation into the correct linear equation)
 > ⎛ 11 + x ⎞ to form an un-simplified equation in one variable – allow one sign error only
-> x2 = 9 – x ⎜ ⎟
-> ⎝ 4 ⎠ in the rearranged equation.
-> ⎛ 9 − x2 ⎞ This mark can be implied by a correct equation (simplified or unsimplified) in
-> 4⎜ ⎟ − x = 11 terms of x or y
+> x² = 9 – x 4 in the rearranged equation.
+> ⎛ 9 − x² ⎞ This mark can be implied by a correct equation (simplified or unsimplified) in
+> 4 − x = 11 terms of x or y
 > ⎝ x ⎠ eg 16 y 2 − 88 y + 121 = 9 − 4 y 2 + 11y
 > 5 x 2 + 11x − 36 [ = 0] or M1 dep on first M awarded for simplifying to a 3 term quadratic with least 2
 > terms correct
@@ -1034,13 +998,12 @@ Solve the simultaneous equations 9 − xy = x2 4y − x = 11 Show clear algebrai
 > x=
 > 5 For both pairs correct. Must be clearly paired up eg
 > y= and 9 ⎛ 9 16 ⎞ ⎛ 7⎞
-> 5 x= and x = −4 and ⎜ , ⎟ ⎜ −4, ⎟
+> 5 x= and x = −4 and ⎜ , −4, ⎟
 > x = −4 5 ⎝5 5 ⎠ ⎝ 4⎠
 > y=
 > 7 y = and y = 7
 > 4 5
 > wr Total 6 marks
-> Question Working Ans Mark Notes
 
 - **(6)** ( 4 y − 11) = 9 – ( 4 y − 11) y or 6 M1 for substituting a rearranged linear equation into the correct non linear
 
@@ -1051,9 +1014,12 @@ Diagram NOT accurately drawn E h cm H F G D X A C Y B A cube ABCDEFGH of side 6 
 
 ### 25 [5]
 
-Diagram NOT accurately drawn E h cm H F G D X A C Y B A cube ABCDEFGH of side 6 cm is placed inside a hollow cone of height h cm. The face ABCD of the cube rests on the circular base of the cone. The vertices E, F, G and H of the cube touch the curved surface of the cone. X and Y are points on the circumference of the base of the cone such that XACY is a straight line. Given that XF = 134 cm find the value of h Show all your working. h =
+h cm H F G D X A C Y B A cube ABCDEFGH of side 6 cm is placed inside a hollow cone of height h cm. The face ABCD of the cube rests on the circular base of the cone. The vertices E, F, G and H of the cube touch the curved surface of the cone. X and Y are points on the circumference of the base of the cone such that XACY is a straight line. Given that XF = 134 cm find the value of h Show all your working. h =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: E.
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_25_diagram.png)
 
 
 **Mark scheme answer**
@@ -1117,7 +1083,6 @@ Diagram NOT accurately drawn E h cm H F G D X A C Y B A cube ABCDEFGH of side 6 
 > Allow decimals to at least 1 dp condone truncation eg =
 > 4.2 5.6
 > 24 A1 dep on the first 3 method marks awrt 24
-> cas Total 5 marks
 > ALT
 > [ AC =] 62 + 62 M1 A correct method to find AC or
 > AC
@@ -1140,7 +1105,6 @@ Diagram NOT accurately drawn E h cm H F G D X A C Y B A cube ABCDEFGH of side 6 
 > 13h2 − 372h + 1440 = 0
 > 24 A1 dep on the first 3 method marks
 > awrt 24 need to discard the 4.61(5…)
-> Question Working Answer Mark Notes
 
 - **(5)** [ AC =] 62 + 62 ⎡⎣= 72 = 6 2 = 8.4852...⎤⎦ oe
 
@@ -1218,7 +1182,6 @@ Express the composite function gh in the form gh : x ↦ where a, b and c c are 
 > 2x − 3
 > −10 x + 21 A1 condone the fraction line not being under the – in
 > 2 the –10x
-> cas Total 8 marks
 
 - **(2)** 5 2 5 ( 2 x − 3)
 

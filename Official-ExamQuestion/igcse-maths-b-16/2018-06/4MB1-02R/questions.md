@@ -8,6 +8,8 @@ Write your name here Surname Other names Centre Number Candidate Number Pearson 
 
 ### 1(a) [2]
 
+Diagram NOT (2x + 3) cm accurately drawn x cm (2x – 2) cm (x + 3) cm (x + 1) cm Figure 1 Figure 1 shows a triangle and a rectangle. The triangle has sides of length x cm, (2x – 2) cm and (x + 1) cm. The rectangle has length (2x + 3) cm and width (x + 3) cm. The perimeter of the rectangle is 3 times the perimeter of the triangle.
+
 Write down an equation in x to represent the given information.
 
 
@@ -33,7 +35,6 @@ Solve your equation to find the value of x. Show clear algebraic working.
 > 4x – 2x = 4 + 1 (only ft a linear equation)
 > 6x = 15
 > x = 15 ÷ 6 = 2.5 2.5 A1oe dep on M1
-> Total 5 marks
 > Ques Working Answer Mark Notes
 
 - **(3)** 3(4x – 1) = 6x + 12 3 M1 for a fully correct equation with all terms expanded and
@@ -111,7 +112,7 @@ calculate, in hours and minutes to the nearest minute, the time taken by the wat
 
 ### 3(b) [2]
 
-Calculate the value, to the nearest whole number, of R. ⎛ 1 m3 = 1000 litres ⎞ ⎜ ⎟ ⎝ Volume of cylinder = πr 2h ⎠
+Calculate the value, to the nearest whole number, of R. ⎛ 1 m³ = 1000 litres Volume of cylinder = πr 2h ⎠
 
 
 **Mark scheme answer**
@@ -325,7 +326,11 @@ y A –5 –4 –3 –2 –1 O 1 2 3 x –1 –2 –3 Figure 3 Figure 3 shows a 
 
 ### 8(a) [4]
 
-On the grid in Figure 3, draw and label triangle B. y A –5 –4 –3 –2 –1 O 1 2 3 x –1 –2 –3 Figure 4 Figure 4 shows triangle A drawn on a grid. Triangle B is transformed to triangle C under the transformation with matrix Q where ⎛ 3 −4⎞ Q= ⎜ ⎟ ⎝ 1 −2⎠
+y A –5 –4 –3 –2 –1 O 1 2 3 x –1 –2 –3 Figure 3 Figure 3 shows a triangle, A, drawn on a grid. Triangle A is transformed to triangle B under the transformation with matrix P where ⎛2 −1 ⎞ P= ⎜3 1⎟ − 2 2⎠
+
+On the grid in Figure 3, draw and label triangle B. y A –5 –4 –3 –2 –1 O 1 2 3 x –1 –2 –3 Figure 4 Figure 4 shows triangle A drawn on a grid. Triangle B is transformed to triangle C under the transformation with matrix Q where ⎛ 3 −4⎞ Q= 1 −2⎠
+
+![grid — official paper figure (qp.pdf p.16)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2018-06/4MB1-02R/assets/asset_8_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.16)](assets/asset_8_a_grid.png)
 
@@ -333,9 +338,9 @@ On the grid in Figure 3, draw and label triangle B. y A –5 –4 –3 –2 –1
 **Mark scheme answer**
 
 > ⎛2 −1 ⎞ ⎛ −3 0 −4 ⎞ 4 B1 for correct matrix from coordinates – any order
-> ⎜ ⎟ ⎛ −1 1 0 ⎞ = ⎜ ⎟ M1 for a correctly calculated coordinate
-> ⎜3 1 ⎜ ⎟
-> − ⎟ ⎝ 1 2 4 ⎠ ⎜ −2 −2 ⎟ A1 for all coordinates correctly calculated
+>  −1 1 0 = M1 for a correctly calculated coordinate
+> 3 1 
+> − 1 2 4 −2 −2 A1 for all coordinates correctly calculated
 > ⎝2 2⎠ ⎝ 2 ⎠
 > A1 for correct plotting of triangle B
 
@@ -351,9 +356,8 @@ On the grid in Figure 4, draw and label triangle C. Triangle C is the image of t
 **Mark scheme answer**
 
 > ⎛ 0 ⎞ 3 M1ft a correctly calculated coordinate
-> ⎛ 3 −4 ⎞ ⎜ −3 −4 ⎟ ⎛ −1 −2 −4 ⎞
-> ⎜ ⎟ 1 =⎜ ⎟ A1ft for all correctly calculated coordinates
-> ⎝ 1 −2 ⎠ ⎜ −2 −2 ⎟ ⎝ 1 −1 0 ⎠
+>  3 −4 −3 −4 −1 −2 −4 1 = A1ft for all correctly calculated coordinates
+> ⎝ 1 −2 −2 −2 1 −1 0 ⎠
 > B1cao for correctly plotting C
 > ⎝ 2 ⎠
 
@@ -396,7 +400,7 @@ Calculate an estimate for the mean length of time, in minutes to 3 significant f
 
 ### 9(b)(i) [?]
 
-both people were in the library for more than 30 minutes,
+both people were in the library for more than 30 minutes …………… , ……………
 
 
 **Mark scheme answer**
@@ -456,7 +460,7 @@ Calculate the number of lemon cakes made by Zahur. Zahur put icing on each of th
 
 ### 10(c) [2]
 
-Calculate the total amount, in kg, of icing sugar needed for all the vanilla cakes made by Zahur. At the start of the cake sale, the selling price of each of the cakes made by Zahur was $4 and he sold 204 cakes at this price. Zahur then reduced the selling price of each cake by 30% and he sold all the remaining cakes.
+Calculate the total amount, in kg, of icing sugar needed for all the vanilla cakes made by Zahur. At the start of the cake sale, the selling price of each of the cakes made by Zahur was \$4 and he sold 204 cakes at this price. Zahur then reduced the selling price of each cake by 30% and he sold all the remaining cakes.
 
 
 **Mark scheme answer**
@@ -469,20 +473,20 @@ Calculate the total amount, in kg, of icing sugar needed for all the vanilla cak
 
 ### 10(d) [3]
 
-Calculate the total amount of money, in $, that Zahur received by selling all 250 cakes. When Zahur had subtracted the cost of all the ingredients he needed to make his cakes from the total amount of money he received by selling all the cakes, he found that he had made a profit of 60%
+Calculate the total amount of money, in \$, that Zahur received by selling all 250 cakes. When Zahur had subtracted the cost of all the ingredients he needed to make his cakes from the total amount of money he received by selling all the cakes, he found that he had made a profit of 60%
 
 
 **Mark scheme answer**
 
 > 0.7 × 4 (=2.8) oe 3 M1
 > 4 × 204 + 2.8 × 46 M1
-> ($)944.8(0) A1 allow ($)945
+> (\$)944.8(0) A1 allow (\$)945
 
 - **(3)** 0.7 × 4 (=2.8) oe 3 M1
 
 ### 10(e) [3]
 
-Calculate, in $, the cost of all the ingredients Zahur needed.
+Calculate, in \$, the cost of all the ingredients Zahur needed.
 
 
 **Mark scheme answer**
@@ -494,8 +498,7 @@ Calculate, in $, the cost of all the ingredients Zahur needed.
 > = 0.6 oe
 > c
 > 944.8 ÷ 1.6 oe M1ft oe
-> ($)590.5(0) A1
-> Total 12 marks
+> (\$)590.5(0) A1
 
 - **(3)** eg 160% = 944.8 or 3 M1ft recognition that 944.8 is 160%
 
@@ -514,13 +517,13 @@ Find, in cm to 3 significant figures, the length of AO.
 > Recognition of an appropriate triangle 5 B1 may be seen on diagram or evident from further working
 > (AN² =) 3² +8² (=73) or 3 3 6sin 54
 > M1 or GO = = = =( 5.1039...) oe
-> (AN =) 32 + 82 = '73' (8.544...) cos 54 sin 36 sin 72
+> (AN =) $3^2$ + $8^2$ = '73' (8.544...) cos 54 sin 36 sin 72
 > (NO =) 3 tan 54° or M1 or (=
-> AO 2 )"5.10..."2=
-> + 82 ( 90.049...) oe
+> $AO^2$ )"5.10..."$^2$=
+> + $8^2$ ( 90.049...) oe
 > (=4.129..)
 > tan 360
-> (AO=) ' 4.129 '2 + '73' M1 or (AO =) "5.10..."2 + 82 oe
+> (AO=) ' 4.129 '$^2$ + '73' M1 or (AO =) "5.10..."$^2$ + $8^2$ oe
 > 9.49 A1
 
 - **(5)** Recognition of an appropriate triangle 5 B1 may be seen on diagram or evident from further working
@@ -544,14 +547,13 @@ Calculate the size, in degrees to 1 decimal place, of the angle between MK and M
 > + (“5.10...”+”4.129...”) oe or
 > cos54° tan 36° ( = 9.233...)
 > 6 cos 54° + 6 cos 18° (“3.5267...”+“5.706...”)
-> or "94.249.."− 32
+> or "94.249.."− $3^2$
 > '9.233..' M1 for correct angle ratio from correct working
 > tan ∠ = oe
 > ⎛ '9.233..' ⎞ M1 for fully correct method from correct working to find
-> ∠ = tan −1 ⎜ ⎟ oe required angle
+> ∠ = tan$^{-1}$ oe required angle
 > ⎝ 8 ⎠
 > 49.1° A1 awrt 49.1°
-> Total 10 marks
 
 - **(5)** 3 5 M1 for OK or other relevant partial height of pentagon.
 
@@ -562,6 +564,7 @@ cm Figure 6 Figure 6 shows a triangle ABC and a circle PQR, centre O. The triang
 
 ### 12(a) [4]
 
+cm Figure 6 Figure 6 shows a triangle ABC and a circle PQR, centre O. The triangle is such that side AB is the tangent to the circle at P, side BC is the tangent to the circle at Q and side AC is the tangent to the circle at R. The region inside the circle is shaded, as shown in Figure 6. AB = 14 cm, BC = 12 cm and AC = 8 cm. Let BP = x cm and by considering the lengths of the tangents to the circle …………… , ……………
 obtain an equation in x only and solve it to find the length, in cm, of BP.
 
 
@@ -578,7 +581,7 @@ obtain an equation in x only and solve it to find the length, in cm, of BP.
 
 ### 12(b) [7]
 
-Find, to 3 significant figures, the area of the circle as a percentage of the total area of triangle ABC. ⎛ Cosine rule: a 2 = b 2 + c 2 − 2bc cos A⎞ ⎜ ⎟ ⎜ 1 ⎟ ⎜⎝ Area of triangle = ab sin C ⎟⎠
+Find, to 3 significant figures, the area of the circle as a percentage of the total area of triangle ABC. Cosine rule: $a^2$ = $b^2$ + $c^2$ − 2bc cos A 1 Area of triangle = ab sin C 
 
 
 **Mark scheme answer**
@@ -586,14 +589,14 @@ Find, to 3 significant figures, the area of the circle as a percentage of the to
 > 8² = 14² +12² − 2 × 12 × 14 × cosABC or 7 M1 For method to start to find ∠CAB, ∠ABC or ∠ACB
 > 14² = 8² +12² − 2 × 8 × 12 × cosACB or
 > 12² = 8² +14² − 2 × 8 × 14 × cosCAB
-> ⎛ 82 + 142 − 122 ⎞ M1 Complete method to find one angle
-> CAB = cos −1 ⎜ ⎟ (=58.8°)or
+> ⎛ $8^2$ + $14^2$ − $12^2$ ⎞ M1 Complete method to find one angle
+> CAB = cos$^{-1}$ (=58.8°)or
 > ⎝ 2 × 8 ×14 ⎠
-> ⎛ 142 + 122 − 82 ⎞
-> ABC = cos −1 ⎜ ⎟ (=34.77°)or
+> ⎛ $14^2$ + $12^2$ − $8^2$ ⎞
+> ABC = cos$^{-1}$ (=34.77°)or
 > ⎝ 2 × 14 × 12 ⎠
-> ⎛ 82 + 122 − 142 ⎞
-> ACB = cos −1 ⎜ ⎟ (=86.4°)
+> ⎛ $8^2$ + $12^2$ − $14^2$ ⎞
+> ACB = cos$^{-1}$ (=86.4°)
 > ⎝ 2 × 8 ×12 ⎠
 > Area of triangle = 0.5×8×14×sin(58.8..°) M1 Method to find area of triangle (from fully correct working,
 > or 0.5×14×12×sin(34.77..°) ie M2 previously gained) (could use Hero’s formula
@@ -607,7 +610,6 @@ Find, to 3 significant figures, the area of the circle as a percentage of the to
 > %= ×100
 > 47.906...
 > 52.1 A1 awrt
-> Total 11 marks
 
 - **(7)** 8² = 14² +12² − 2 × 12 × 14 × cosABC or 7 M1 For method to start to find ∠CAB, ∠ABC or ∠ACB
 

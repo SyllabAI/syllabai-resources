@@ -54,8 +54,6 @@ Work out the value of C, giving your answer as a number in standard form.
 > 2 M1 Allow 3 × 5 × 10410
 > an integer
 > 1.5 × 10411 A1
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 15 × 10 or 1.5 × 10 where n is
 
@@ -66,7 +64,11 @@ The points with coordinates (2, 1), (5, 1), (3, 3) and (6, 3) are the vertices o
 
 ### 2(a) [1]
 
-On the grid, draw and label parallelogram A. ⎛ 2⎞ Parallelogram A is transformed to parallelogram B under the translation ⎜ ⎟ ⎝ −5⎠
+The points with coordinates (2, 1), (5, 1), (3, 3) and (6, 3) are the vertices of parallelogram A.
+
+On the grid, draw and label parallelogram A. ⎛ 2⎞ Parallelogram A is transformed to parallelogram B under the translation −5⎠
+
+![grid — official paper figure (qp.pdf p.5)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02/assets/asset_2_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.5)](assets/asset_2_a_grid.png)
 
@@ -93,8 +95,7 @@ On the grid, draw and label parallelogram B. Parallelogram B is transformed to p
 > parallelogram A points of their shape moved -5 vertically
 > Translation A1ft their shape A
 > ⎛2⎞ or Vertices at (5, −2), (8, −2) (4, −4), (7, −4)
-> ⎜ ⎟
-> ⎝ −5 ⎠
+>  −5 
 
 - **(2)** for an attempt to translate their 2 M1 Allow 3 points of their shape moved +2 horizontally or 3
 
@@ -120,7 +121,9 @@ On the grid, draw and label parallelogram C. Parallelogram C is transformed to p
 
 ### 2(d) [2]
 
-On the grid, draw and label parallelogram D. y –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 9 x –1 –2 –3 –4 –5 –6 for a spare grid if you need to redraw your parallelograms. Only use this grid if you need to redraw your parallelograms. y –6 –5 –4 –3 –2 –1 O 1 2 3 4 5 6 7 8 9 x –1 –2 –3 –4 –5 –6
+On the grid, draw and label parallelogram D.
+
+![grid — official paper figure (qp.pdf p.5) (same figure as asset_2_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02/assets/asset_2_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.5) — shared with asset_2_a_grid](assets/asset_2_a_grid.png)
 
@@ -131,8 +134,6 @@ On the grid, draw and label parallelogram D. y –6 –5 –4 –3 –2 –1 O 1
 > their shape C
 > Parallelogram A1cao Vertices at ( −3,1), ( −1, 2) ( −3, 4), ( −1, 5) .
 > D drawn
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(2)** They do not need to label their shapes to gain the marks.
 
@@ -143,26 +144,27 @@ Diagram NOT accurately drawn O B 25° C A 15 cm Figure 1 In Figure 1, A and B ar
 
 ### 3(a) [3]
 
-Calculate the area, in cm2 to 3 significant figures, of the circle. The region inside triangle OAC but outside the circle is shown shaded in Figure 1
+Diagram NOT accurately drawn O B 25° C A 15 cm Figure 1 In Figure 1, A and B are two points on a circle with centre O. The line AC is the tangent to the circle at A and OBC is a straight line. AC = 15 cm and ∠OCA = 25°
+
+Calculate the area, in cm² to 3 significant figures, of the circle. The region inside triangle OAC but outside the circle is shown shaded in Figure 1
 
 
 **Mark scheme answer**
 
 > [OA =]15tan 25 oe 3 M1 A correct method for finding OA eg
-> 15 ⎛ 15 ⎞
-> ⎟ − 15
-> or ⎜ or awrt 6.99
+> 15 15 − 15
+> or or awrt 6.99
 > tan 65 ⎝ cos 25 ⎠
 > [ Area of circle = ]π (" OA ") M1 Correct method for finding the area of the circle.
 > Allow use of their OA( may be on diagram) and 22/7 for π
 > 154 or 153 A1 Allow awrt 154 or awrt 153, Ignore units
-> [cm2]
+> [cm²]
 
 - **(3)** [OA =]15tan 25 oe 3 M1 A correct method for finding OA eg
 
 ### 3(b) [4]
 
-Calculate the area, in cm2 to 3 significant figures, of this shaded region.
+Calculate the area, in cm² to 3 significant figures, of this shaded region.
 
 
 **Mark scheme answer**
@@ -171,10 +173,10 @@ Calculate the area, in cm2 to 3 significant figures, of this shaded region.
 > 1 from part(a) if working shown eg
 > (15)("6.9946...")
 > 2
-> (15 ) ⎛⎜
-> 15 ⎞
+> (15 ) 
+> 15 
 > ( )
-> ⎟ sin 25 or (15) 15 + "6.9946..." sin25 or awrt
+>  sin 25 or (15) 15 + "6.9946..." sin25 or awrt
 > ⎝ cos 25 ⎠
 > 2
 > 52.4 or 52.5
@@ -187,9 +189,7 @@ Calculate the area, in cm2 to 3 significant figures, of this shaded region.
 > 65 Implied by awrt 24.7
 > "52.4596…" – ("153.70128...")
 > 360
-> 24.7 [cm2] A1 awrt 24.6 – 24.8 with no incorrect working. Ignore units
-> Total 7 marks
-> Question Working Answer Mark Notes
+> 24.7 [cm²] A1 awrt 24.6 – 24.8 with no incorrect working. Ignore units
 
 - **(4)** [Area of triangle = ] 4 M1 Correct method for finding the area of the triangle. ft their OA
 
@@ -234,8 +234,6 @@ Hence calculate the distance, in metres, that Akaash ran in the race. Show clear
 > need for units. Do not award if more than one value given. Do not
 > award from incorrect working (eg use of -7.5) May be seen in
 > part(a)
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** ( 2 x − 15)( x + 7 ) = 0 4 M1 May be seen in part(a) For solving the given 3TQ - 2 terms
 
@@ -267,7 +265,7 @@ Complete the probability tree diagram. Scarf Coat No scarf Scarf No coat No scar
 
 ### 5(b) [2]
 
-he is not wearing a coat and is not wearing a scarf,
+he is not wearing a coat and is not wearing a scarf …………… , ……………
 
 
 **Mark scheme answer**
@@ -288,8 +286,7 @@ he is wearing a coat or he is wearing a scarf but he is not wearing both a coat 
 
 > ⎛ 5 3 ⎞ ⎛ 3 1 ⎞ 2 M1 ft their probabilities if 0 < p < 1
 > ⎜ ' '× ' ' ⎟ + ⎜ ' '× ' ' ⎟ oe ⎛ 5 1 ⎞ ⎛ 3 5 ⎞
-> ⎝ 8 4 ⎠ ⎝ 8 6 ⎠ Allow 1 − ⎜ ' '× ' ' ⎟ + ⎜ ' '× ' ' ⎟
-> ⎝ 8 4 ⎠ ⎝ 8 6 ⎠
+> ⎝ 8 4 ⎠ ⎝ 8 6 ⎠ Allow 1 − ⎜ ' '× ' ' ⎟ + ⎜ ' '× ' ' 8 4 ⎠ ⎝ 8 6 ⎠
 > 17 A1 oe allow awrt 0.53
 
 - **(2)** ⎛ 5 3 ⎞ ⎛ 3 1 ⎞ 2 M1 ft their probabilities if 0 < p < 1
@@ -314,8 +311,6 @@ Calculate the probability, that on a day Joe goes to school in winter, he is not
 > 3 5
 > SC " "× " "× seen as method can earn the first M1
 > 8 6
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 5 1 3 5 1 2 3 M1 ft their probabilities if 0 < p < 1
 
@@ -325,6 +320,8 @@ Calculate the probability, that on a day Joe goes to school in winter, he is not
 f and g are two functions such that f : x ↦ x2 + x – 6 where x ≥ − 2 x − 24 g : x ↦ 3 − 2x
 
 ### 6(a) [1]
+
+f and g are two functions such that f : x ↦ x² + x – 6 where x ≥ − 2 x − 24 g : x ↦ 3 − 2x
 
 State the value of x that must be excluded from any domain of g
 
@@ -337,13 +334,13 @@ State the value of x that must be excluded from any domain of g
 
 ### 6(b) [2]
 
-Find the value of a and the value of b such that f (x) = (x + a)2 + b
+Find the value of a and the value of b such that f (x) = (x + a)² + b
 
 
 **Mark scheme answer**
 
-> ⎛
-> 1 ⎞ 25 2 1
+> 
+> 1 25 2 1
 > B1 for a = oe B1 for b = − oe
 > ⎜x+ ⎟ − 2
 > ⎝ 2⎠
@@ -378,7 +375,7 @@ Find the value of c for which g–1(0) = c Given that f (x) = g (x)
 
 ### 6(e) [3]
 
-show that 2x3 – x2 – 13x – 6 = 0 Show clear algebraic working.
+show that 2x3 – x² – 13x – 6 = 0 Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -397,7 +394,7 @@ show that 2x3 – x2 – 13x – 6 = 0 Show clear algebraic working.
 
 ### 6(f) [2]
 
-Use the factor theorem to show that (2x + 1) is a factor of 2x3 – x2 – 13x – 6 The curve with equation y = f (x) intersects the curve with equation y = g (x) at the point A with coordinates ( p, q), where p > −
+Use the factor theorem to show that (2x + 1) is a factor of 2x3 – x² – 13x – 6 The curve with equation y = f (x) intersects the curve with equation y = g (x) at the point A with coordinates ( p, q), where p > −
 
 
 **Mark scheme answer**
@@ -421,7 +418,7 @@ Find the coordinates of A.
 > 2
 > 4 M1 dividing by 2x + 1 to get quadratic of form
 > x 2 + ax − 6 or 2 x 2 + ax − 12 May be seen in part (f).
-> May be implied by a correct quadratic. NB x2 + x – 6
+> May be implied by a correct quadratic. NB x² + x – 6
 > scores M0 because this is f(x)
 > x 2 − x − 6 or 2 x 2 − 2 x − 12 A1 May be seen in part (f)
 > ( x − 3)( x + 2) or 2 ( x − 3)( x + 2) oe M1dep on previous M mark being awarded. Solving
@@ -429,8 +426,6 @@ Find the coordinates of A.
 > NB use of calculator to gain values of – 0.5, – 2 and 3
 > gains M1A1M1 and
 > ( 3, 6 ) A1 only one set of coordinates must be given.
-> Total 15 marks
-> Question Working Answer Mark Notes
 
 - **(4)** x + ax − 6 or 2 x + ax − 12
 
@@ -441,17 +436,19 @@ Diagram NOT accurately drawn 2h cm 4 cm Figure 2 Figure 2 shows a right circular
 
 ### 7(a) [3]
 
-Show that V = 32πh – 2πh3
+Diagram NOT accurately drawn 2h cm 4 cm Figure 2 Figure 2 shows a right circular cylinder cut from a solid sphere of radius 4 cm. The height of the cylinder is 2h cm. The volume of the cylinder is V cm³
+
+Show that V = 32πh – 2π$h^3$
 
 
 **Mark scheme answer**
 
 > eg ⎡⎣ r = ⎤⎦ 16 − h or [ r =] 16 − h
 > 2 2 2 3 82 − (2h) 2
-> M1 Use of Pythagoras’ to find r2 or r eg
-> V = π (16 − h 2 ) ( 2 h ) M1dep dependent on previous method mark being
+> M1 Use of Pythagoras’ to find $r^2$ or r eg
+> V = π (16 − $h^2$ ) ( 2 h ) M1dep dependent on previous method mark being
 > awarded. ft their r if previous M awarded
-> V = 32π h − 2π h3 A1 Note that answer given so sufficient working must
+> V = 32π h − 2π $h^3$ A1 Note that answer given so sufficient working must
 > be given. No incorrect working seen.
 
 - **(3)** eg ⎡⎣ r = ⎤⎦ 16 − h or [ r =] 16 − h
@@ -460,7 +457,9 @@ Show that V = 32πh – 2πh3
 
 Using calculus, find the stationary value, to 3 significant figures, of V. Show your working clearly. ⎡⎣ Volume of cylinder = πr 2 h ⎤⎦ Part of the curve with equation V = 32πh – 2πh3 is drawn on the grid. V 160 150 140 130 120 110 100 O h 0.5 1 1.5 2 2.5 3 3.5 4
 
-> 🖼 crop required: grid (qp.pdf p.18)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![grid — official paper figure (qp.pdf p.17)](assets/asset_7_grid.png)
 
 
 **Mark scheme answer**
@@ -472,7 +471,7 @@ Using calculus, find the stationary value, to 3 significant figures, of V. Show 
 > dh
 > ⎛ 4 ⎞ ⎛ 4 ⎞
 > M1 Substitute their h into correct V – dependent on both
-> Vmax = 32π ⎜ ⎟ − 2π ⎜ ⎟ previous M marks Allow subst of awrt 2.31
+> Vmax = 32π − 2π previous M marks Allow subst of awrt 2.31
 > ⎝ 3⎠ ⎝ 3⎠
 > 155 A1 awrt 155
 
@@ -480,15 +479,15 @@ Using calculus, find the stationary value, to 3 significant figures, of V. Show 
 
 ### 7(c) [2]
 
-Find an estimate, to one decimal place, of each of the two values of h for which the volume of the cylinder is 100 cm3
+Find an estimate, to one decimal place, of each of the two values of h for which the volume of the cylinder is 100
+
+…………… cm³
 
 
 **Mark scheme answer**
 
 > 1.0 to 1.1 inclusive 2 B1
 > 3.3 to 3.4 inclusive B1
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 1.0 to 1.1 inclusive 2 B1
 
@@ -499,7 +498,11 @@ C x metres D Diagram NOT accurately drawn A B y metres F E Figure 3 Figure 3 sho
 
 ### 8(a) [2]
 
-Find and simplify an equation in terms of x and y for this information. The area of the floor plan is 248 m2
+C x metres D Diagram NOT accurately drawn A B y metres F E Figure 3 Figure 3 shows the plan of a floor ABCDEF in which all the corners are right angles and CD = x metres AF = y metres The length of DE is twice the length of CD. The length of FE is twice the length of AF. The perimeter of the floor plan is 68 metres.
+
+Find and simplify an equation in terms of x and y for this information. The area of the floor plan is 248
+
+…………… m²
 
 
 **Mark scheme answer**
@@ -530,7 +533,7 @@ Show that 2y 2 + 2x2 – xy = 248
 > CD × AF or square highlighted on
 > diagram
 > NB Allow M2 for 2x2 +y(2y – x) or 2y2 +x(2x – y)
-> 2 y 2 + 2 x2 - xy = 248 A1 Note that answer given so sufficient working must
+> 2 y 2 + 2 x² - xy = 248 A1 Note that answer given so sufficient working must
 > be given. Previous M marks must be awarded. No
 > incorrect working seen.
 
@@ -555,8 +558,6 @@ Find the possible lengths of AB. Show clear algebraic working.
 > or y = 11 and x = 6 correct pair
 > AB = 1 m or 16 m A1 dep on at least two M1 being awarded. Both
 > answers needed including units.
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 2 (17 − x ) + 2 x 2 − x (17 − x ) = 248 (oe) 5 M1 Substitute to eliminate either x or y using their
 
@@ -567,34 +568,31 @@ A=⎜ B=⎜ ⎝ −1 2⎟⎠ ⎝ 2 −2⎟⎠ The transformation with matrix A i
 
 ### 9 [5]
 
-A=⎜ B=⎜ ⎝ −1 2⎟⎠ ⎝ 2 −2⎟⎠ The transformation with matrix A is equivalent to the transformation with matrix B followed by the transformation with matrix C, where C is a 2 × 2 matrix. Find matrix C. ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a⎟⎠ ⎦
+A=⎜ B= −1 2 2 −2 The transformation with matrix A is equivalent to the transformation with matrix B followed by the transformation with matrix C, where C is a 2 × 2 matrix. Find matrix C. ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎝ c d ad − bc −c a 
 
 
 **Mark scheme answer**
 
 > ⎛ 3 4⎞ ⎛ 3 −1 ⎞ 5 M1 setting up the correct equation
-> A = CB or ⎜ ⎟ = C⎜ ⎟ oe Allow if written or used C = AB-1
+> A = CB or = C oe Allow if written or used C = AB-1
 > ⎝ −1 2 ⎠ ⎝ 2 −2 ⎠
 > ⎛ 3 −1 ⎞
 > −1
 > 1 ⎛ −2 1 ⎞ B1 for determinant – may be unsimplified.
-> ⎜ ⎟ = ⎜ ⎟ ⎛ d −b ⎞
-> ⎝ 2 −2 ⎠ −6 + 2 ⎝ −2 3 ⎠ B1 for ⎜ ⎟
-> ⎝ −c a ⎠
+>  = d −b 
+> ⎝ 2 −2 ⎠ −6 + 2 ⎝ −2 3 ⎠ B1 for −c a ⎠
 > 1 ⎛ 3 4 ⎞ ⎛ −2 1 ⎞ M1dep dependent on the first M1 and at least one B1
-> C = "− " ⎜ ⎟ "⎜ ⎟" Must use their B-1
+> C = "− " " " Must use their B-1
 > 4 ⎝ −1 2 ⎠ ⎝ −2 3 ⎠
 > 1 ⎛ −14 15 ⎞ ⎛ 3.5 −3.75 ⎞
-> C=− ⎜ ⎟ A1 oe eg ⎜ ⎟
+> C=− A1 oe eg 
 > 4 ⎝ −2 5 ⎠ ⎝ 0.5 −1.25 ⎠
-> Total 5 marks
 > Alternative
 > A = CB M1 setting up the correct equation. Implied by 4 correct
 > ⎛ 3 4⎞ ⎛ 3 −1 ⎞ equations.
-> or ⎜ ⎟ = C⎜ ⎟ or
+> or = C or
 > ⎝ −1 2 ⎠ ⎝ 2 −2 ⎠
-> ⎛ 3 4 ⎞ ⎛ a b ⎞ ⎛ 3 −1 ⎞
-> ⎜ ⎟=⎜ ⎟⎜ ⎟ oe
+> ⎛ 3 4 ⎞ ⎛ a b ⎞ ⎛ 3 −1 = oe
 > ⎝ −1 2 ⎠ ⎝ c d ⎠ ⎝ 2 −2 ⎠
 > 3 = 3a + 2b B2 for 4 correct equations. Implied by both a and b
 > 4 = −a − 2b correct and both c and d correct
@@ -604,10 +602,9 @@ A=⎜ B=⎜ ⎝ −1 2⎟⎠ ⎝ 2 −2⎟⎠ The transformation with matrix A i
 > a= b=− c= d =−
 > 2 4 2 4 For solving to gain 2 correct values
 > 1 ⎛ −14 15 ⎞ ⎛ 3.5 −3.75 ⎞
-> C=− ⎜ ⎟ A1 oe eg ⎜ ⎟
+> C=− A1 oe eg 
 > 4 ⎝ −2 5 ⎠ ⎝ 0.5 −1.25 ⎠
 > NB Correct answer with no incorrect working gains full marks
-> Question Working Answer Mark Notes
 
 - **(5)** ⎛ 3 4⎞ ⎛ 3 −1 ⎞ 5 M1 setting up the correct equation
 
@@ -618,18 +615,22 @@ Triangle ABC has sides AB = 10 cm, BC = 7 cm and CA = 6 cm.
 
 ### 10(a) [5]
 
-Calculate the area, in cm2 to 3 significant figures, of triangle ABC. C Diagram NOT accurately drawn 6 cm 7 cm A B 10 cm Figure 4 Figure 4 shows triangle ABC and a circle inside the triangle so that each side of the triangle is a tangent to the circle.
+Triangle ABC has sides AB = 10 cm, BC = 7 cm and CA = 6 cm.
+
+Calculate the area, in cm² to 3 significant figures, of triangle ABC. C Diagram NOT accurately drawn 6 cm 7 cm A B 10 cm Figure 4 Figure 4 shows triangle ABC and a circle inside the triangle so that each side of the triangle is a tangent to the circle.
+
+![diagram — official paper figure (qp.pdf p.28)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2020-01/4MB1-02/assets/asset_10_a_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.28)](assets/asset_10_a_diagram.png)
 
 
 **Mark scheme answer**
 
-> eg 62 = 102 + 72 − 2 ×10 × 7 × cos(θ ) (oe) 5 M1 Use of cosine rule in any form to find any angle (ignore
+> eg $6^2$ = $10^2$ + $7^2$ − 2 ×10 × 7 × cos(θ ) (oe) 5 M1 Use of cosine rule in any form to find any angle (ignore
 > incorrect labels). May be seen in part (b)
 > 6 + 7 + 10
 > Use of Heron’s formula S = [ = 11.5]
-> 10 2 + 7 2 − 6 2 M1dep Dependent on first M mark. Ignore incorrect labels.
+> $10^2$ + $7^2$ − $6^2$ M1dep Dependent on first M mark. Ignore incorrect labels.
 > cos ∠θ = (oe) Using Heron’s
 > 2(10)(7)
 > "11.5"× ( 6 − "11.5") × ( 7 − "11.5") × (10 − "11.5")
@@ -645,13 +646,13 @@ Calculate the area, in cm2 to 3 significant figures, of triangle ABC. C Diagram 
 > Area = (7)(6) sin(100.2865...) or
 > Using Heron’s "426.9375"
 > Area = (10)(6) sin(43.5311...) May be seen in part (b)
-> 20.7 [cm2] A1 awrt 20.7 May be seen in part (b)
+> 20.7 [cm²] A1 awrt 20.7 May be seen in part (b)
 
-- **(5)** eg 62 = 102 + 72 − 2 ×10 × 7 × cos(θ ) (oe) 5 M1 Use of cosine rule in any form to find any angle (ignore
+- **(5)** eg $6^2$ = $10^2$ + $7^2$ − 2 ×10 × 7 × cos(θ ) (oe) 5 M1 Use of cosine rule in any form to find any angle (ignore
 
 ### 10(b) [3]
 
-Calculate the radius, in cm to 2 significant figures, of the circle. ⎡Cosine rule: a 2 = b 2 + c 2 − 2bc cos A⎤ ⎢ ⎥ ⎢ 1 ⎥ Area of triangle = ab sin C ⎢⎣ 2 ⎦⎥
+Calculate the radius, in cm to 2 significant figures, of the circle. ⎡Cosine rule: $a^2$ = $b^2$ + $c^2$ − 2bc cos A⎤ ⎢ ⎥ ⎢ 1 ⎥ Area of triangle = ab sin C ⎢⎣ 2 ⎦⎥
 
 
 **Mark scheme answer**
@@ -662,20 +663,18 @@ Calculate the radius, in cm to 2 significant figures, of the circle. ⎡Cosine r
 > (10)(r ) + ( 6 ) (r ) + ( 7 ) (r ) = 20.6624.
 > 2 2
 > 1.8 [cm] A1 Please check working is valid
-> Total 8 marks
 > NB Alternative for (b) on next page
 > Alternative for (b)
 > r ⎛ "36.1822" ⎞ 3 M1 Setting up two equations, in any form, to find the length of
-> eg = tan ⎜ ⎟ and
+> eg = tan and
 > XB ⎝ 2 ⎠ any side of triangle
 > r ⎛ "43.531" ⎞
-> = tan ⎜ ⎟
+> = tan 
 > AX ⎝ 2 ⎠
 > r r M1dep Dependent on first M mark. For adding the 2 parts and
 > eg. + = 10
 > tan("18.09...") tan("21.765...") equating
 > 1.8 [cm] A1 Please check working is valid
-> Question Working Answer Mark Notes
 
 - **(3)** Splitting up triangle into 3 each with 3 M1
 
@@ -686,7 +685,7 @@ Find the range of values of x for which both 2x + 3(4 – 3x) < 8x and 6x – 5 
 
 ### 11 [7]
 
-Find the range of values of x for which both 2x + 3(4 – 3x) < 8x and 6x – 5 ≤ (2x – 3)2 Show clear algebraic working.
+Find the range of values of x for which both 2x + 3(4 – 3x) < 8x and 6x – 5 ≤ (2x – 3)² Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -695,7 +694,7 @@ Find the range of values of x for which both 2x + 3(4 – 3x) < 8x and 6x – 5 
 > correct or allow 15x < 12 oe
 > 6 x − 5 ≤ 4 x 2 − 12 x + 9 M1 Expand brackets in an equation or inequality – allow one
 > sign or numerical error(simplified or unsimplified)
-> 2 x2 − 9 x + 7 ≥ 0 M1 a correct 3TQ in an equation or inequality
+> 2 x² − 9 x + 7 ≥ 0 M1 a correct 3TQ in an equation or inequality
 > ( 2 x − 7 )( x − 1) [≥ 0] M1 Factorise their 3TQ (oe) to find 2 critical values. 2 terms
 > correct when multiplied out. Or a correct method if formula
 > used. Implied by 1 and 7/2
@@ -708,8 +707,6 @@ Find the range of values of x for which both 2x + 3(4 – 3x) < 8x and 6x – 5 
 > < x ≤1
 > A1 Dependent on at least 4 M1’s
 > and x ≥
-> Total 7 marks
-> Question Working Answer Mark Notes
 
 - **(7)** 2 x + 3 ( 4 − 3x ) < 8 x ⇒ 15 x > 12 7 M1 Reduce linear inequality to ax > b with either a or b
 
@@ -720,7 +717,9 @@ A company produces bird food made with sunflower seeds, corn and millet. The wei
 
 ### 12(a) [2]
 
-Calculate the weight, in kg, of corn in each bag of the bird food. Tom buys bags of the bird food from the company and sells them in his shop. He sells each bag for $15.04 He makes a profit of 17.5% on each bag he sells.
+A company produces bird food made with sunflower seeds, corn and millet. The weights of sunflower seeds, corn and millet in each bag of the bird food are in the ratios sunflower seeds : corn : millet = 8 : 3 : 1 The total weight of the bird food in each bag is 30 kg.
+
+Calculate the weight, in kg, of corn in each bag of the bird food. Tom buys bags of the bird food from the company and sells them in his shop. He sells each bag for \$15.04 He makes a profit of 17.5% on each bag he sells.
 
 
 **Mark scheme answer**
@@ -734,20 +733,20 @@ Calculate the weight, in kg, of corn in each bag of the bird food. Tom buys bags
 
 ### 12(b) [2]
 
-Calculate, in $, how much Tom pays the company for each bag of the bird food he buys. The bags are filled with the bird food at a rate of 530 grams per second.
+Calculate, in \$, how much Tom pays the company for each bag of the bird food he buys. The bags are filled with the bird food at a rate of 530 grams per second.
 
 
 **Mark scheme answer**
 
 > 15.04 2 M1
 > 1.175
-> [$]12.8(0) A1
+> [\$]12.8(0) A1
 
 - **(2)** 15.04 2 M1
 
 ### 12(c) [4]
 
-Calculate the number of bags of the bird food that are filled completely in 6 hours. Sunflower seeds cost £150.75 for 30 kg from farmer A. Sunflower seeds cost $162.35 for 25 kg from farmer B. Using an exchange rate of £1 = $1.315
+Calculate the number of bags of the bird food that are filled completely in 6 hours. Sunflower seeds cost £150.75 for 30 kg from farmer A. Sunflower seeds cost \$162.35 for 25 kg from farmer B. Using an exchange rate of £1 = \$1.315
 
 
 **Mark scheme answer**
@@ -782,17 +781,16 @@ find which of the two farmers, A or B, sells sunflower seeds at the cheaper cost
 > Farmer B: (= £4.938... per kg) same units
 > 1.315 × 25
 > Farmer B is A1 Dependent on both previous M marks. No incorrect
-> cheaper working seen. Allow truncation or rounding of £/$
-> Total 11 marks
+> cheaper working seen. Allow truncation or rounding of £/\$
 > NB Alternatives for (d) M1M1 next page
 > Alternatives for (d) M1M1
 > A1 162.35 M1 Calculate the cost per kg for either farmer
-> Farmer B: ( = $6.494 per kg)
+> Farmer B: ( = \$6.494 per kg)
 > 150.75 M1 Calculate comparable cost(s) for both farmers with
-> Farmer A: ×1.315 (= $6.607... per kg) same units
-> A2 Farmer A: £150.75 × 1.315 [=$198.24] M1 Converting cost of 30kg to $
+> Farmer A: ×1.315 (= \$6.607... per kg) same units
+> A2 Farmer A: £150.75 × 1.315 [=\$198.24] M1 Converting cost of 30kg to \$
 > 162.35 M1 Calculate comparable cost(s) for both farmers for
-> Farmer B : × 30 [=$194.82]
+> Farmer B : × 30 [=\$194.82]
 > 25 the same weight
 > A3 162.35 M1 Converting cost of 25kg to £
 > Farmer B: [=£123.46]
@@ -801,7 +799,7 @@ find which of the two farmers, A or B, sells sunflower seeds at the cheaper cost
 > Farmer A : × 25 [=£125.625]
 > 30 the same weight
 > Helpful figures
-> Kg/$ 0.151 and 0.153 Kg/£ 0.199 and 0.202
+> Kg/\$ 0.151 and 0.153 Kg/£ 0.199 and 0.202
 
 - **(3)** There are many ways of comparing the costs. Some are below but this is not an exhaustive list.
 

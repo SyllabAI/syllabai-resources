@@ -8,6 +8,8 @@ Please check the examination details below before entering your candidate inform
 
 ### 1(a) [2]
 
+Colour Number of bricks red red 72° yellow green 50 Total 130 A bag contains red bricks, yellow bricks and green bricks only. The incomplete table and an incomplete pie chart give information about the colours of the bricks in the bag.
+
 Find the number of red bricks. A box contains 9 red bricks and 6 green bricks only. Asha takes a brick from the bag and a brick from the box.
 
 
@@ -52,8 +54,6 @@ Calculate the probability that exactly one of the bricks is green. Bag Box 15 gr
 > 130 15 130 15
 > 31 A1 cas oe awrt 0.48 (actual answer 0.47692…)
 > 65 ignore subsequent incorrect changes to decimal form
-> Total 6 marks
-> Qu Working Answer Mark Notes
 
 - **(2)** 50 9 80 6 2 3 16
 
@@ -63,6 +63,8 @@ Calculate the probability that exactly one of the bricks is green. Bag Box 15 gr
 A farmer grows 300 pumpkins. The pumpkins are small or medium or giant. It cost the farmer $1.25 to grow each small pumpkin. He sells each small pumpkin for $1.30
 
 ### 2(a) [2]
+
+A farmer grows 300 pumpkins. The pumpkins are small or medium or giant. It cost the farmer \$1.25 to grow each small pumpkin. He sells each small pumpkin for \$1.30
 
 Calculate the percentage profit the farmer makes on each small pumpkin he sells. The farmer sells each medium pumpkin for 20% more than he sells each small pumpkin.
 
@@ -78,7 +80,7 @@ Calculate the percentage profit the farmer makes on each small pumpkin he sells.
 
 ### 2(b) [2]
 
-Calculate the price, in $, that the farmer sells each medium pumpkin for. Of the 300 pumpkins, 28% are small.
+Calculate the price, in \$, that the farmer sells each medium pumpkin for. Of the 300 pumpkins, 28% are small.
 
 
 **Mark scheme answer**
@@ -159,7 +161,6 @@ Calculate the percentage of the total selling price of the giant pumpkins that i
 > "135" C
 > throughout
 > 59 A1 awrt 59 (actual answer 58.888…)
-> Qu Working Answer Mark Notes
 
 - **(4)** ( 50 × 0.3) [×P = 15P ] and 40 × 0.6 [×P = 24 P ] 4 M1 working out the profit for the first 90 pumpkins where P
 
@@ -170,14 +171,16 @@ The table below shows information about the prices of secondhand cars for sale a
 
 ### 3 [4]
 
-The table below shows information about the prices of secondhand cars for sale at a garage. Price of secondhand car ($x) Frequency 6000 < x ≤ 12000 3 12000 < x ≤ 20000 23 20000 < x ≤ 34000 21 34000 < x ≤ 40000 34 40 000 < x ≤ 62 000 10 Calculate an estimate, in dollars, for the mean price of a secondhand car at this garage.
+The table below shows information about the prices of secondhand cars for sale at a garage. Price of secondhand car (\$x) Frequency 6000 < x ≤ 12000 3 12000 < x ≤ 20000 23 20000 < x ≤ 34000 21 34000 < x ≤ 40000 34 40 000 < x ≤ 62 000 10 Calculate an estimate, in dollars, for the mean price of a secondhand car at this garage.
+
+![table — official paper figure (qp.pdf p.6) (same figure as asset_3_q_table_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_3_q_table_stem.png)
 
 ![table — official paper figure (qp.pdf p.6) — shared with asset_3_q_table_stem](assets/asset_3_q_table_stem.png)
 
 
 **Mark scheme answer**
 
-> 9000 × 3 + 16000 × 23 + 27 000 × 21 + 37 000 × 34 + 51000 ×10 4 M2 for at least 4 correct products using midpoints with
+> 9000 × 3 + 16000 × 23 + 27 000 × 21 + 37 000 × 34 + 51000 ×10⁴ M2 for at least 4 correct products using midpoints with
 > [ = 2 730 000] intention to add. Allow 27000 + 368000 + 567000 +
 > 1258000 + 510000 or seeing 2730000
 > M1 for
@@ -193,56 +196,8 @@ The table below shows information about the prices of secondhand cars for sale a
 > oe
 > 3 + 23 + 21 + 10 + 34
 > 30 000 A1 cas
-> Total 4 marks
-> Qu Working Ans Mark Notes
-> 4(a) 360 2 M1 A correct method or equation to find the number of
-> or ( 2n − 4 ) 90 = 172n oe
-> 180 − 172 sides eg ( n − 2 ) 180 = 172 n
-> 45 A1 cas
-> [UB =] 5.25 or [LB =] 5.15 6 B1 a correct upper or lower bound seen or used. Allow
-> ⎡UB = ⎤ 2.625 or ⎡ LB = ⎤ 2.575
-> ⎣ 2 ⎦ ⎣ 2 ⎦
-> h UB UB M1 for setting up an equation to find the height of the
-> tan ( 86 ) = or tan ( 4 ) = 2 or
-> h
-> = 2 triangle (h) or side length (S)
-> UB h sin ( 86 ) sin ( 4 )
-> UB UB
-> 2 2 UB
-> cos ( 86 ) = or sin ( 90 − 86 [ = 4]) =
-> S
-> or = or allow 5.1 UB 5.3 or 2.55 UB 2 2.65
-> S S sin ( 86 ) sin 8
-> 5.252 = S 2 + S 2 − 2S 2 cos8 condone if use 171.5 ≤ angle ≤ 172.5
-> UB M1 for correct method to find h or S
-> 2 UB
-> h = UB tan (86 ) [= 37.539…] or h = or h = 2 × sin ( 86 ) Allow 5.1 UB 5.3 or 2.55 UB 2.65 or
-> 2 tan ( 4 ) sin ( 4 )
-> awrt 37.5 or awrt 37.6
-> UB UB
-> S= 2 [ = 37.63...] S = 2 [ = 37.63] or S = UB × sin (86 )
-> or If previous method mark is awarded allow for
-> cos ( 86 ) sin ( 90 − 86 ) sin ( 8 )
-> awrt 36.5 h awrt 37.9 or awrt 36.5 S awrt 40.0
-> 5.252 This mark implies the previous M1
-> or S =
-> 2 − 2cos ( 8 )
-> 1 1 M1 for finding the area of the triangle
-> Area of triangle = × UB × " h " [ Area = 98.54…] or × " h" × " S "× sin ( 4 )
-> 2
-> 1
-> or × UB × " S " × sin ( 86 ) or × " S" × " S "sin ( 8 ) where 5.1 UB 5.3 and S < 5 or S > 5.5 or h < 5 or
-> 2
-> h > 5.5 allow awrt 98.5
-> NB 0.5 × UB × UBsin172 is M0
-> UB + UB + S
-> or R = and R( R − UB)( R − UB)( R − S )
-> Area of polygon = "45"× " 98.54 …" or 2 × " 45 "× "49.27 …" M1 dep on the 3rd M mark being awarded
-> 4430 A1dep on seeing 5.25or 2.625 for UB throughout awrt 4430
-> Total 8 marks
-> Question Working Answer Mark Notes
 
-- **(4)** 9000 × 3 + 16000 × 23 + 27 000 × 21 + 37 000 × 34 + 51000 ×10 4 M2 for at least 4 correct products using midpoints with
+- **(4)** 9000 × 3 + 16000 × 23 + 27 000 × 21 + 37 000 × 34 + 51000 ×10⁴ M2 for at least 4 correct products using midpoints with
 
 
 ## Question 4 (8 marks)
@@ -253,9 +208,38 @@ Each interior angle of a regular polygon is 172°
 
 Calculate the number of sides of the polygon. The length of each side of the regular polygon is 5.2 cm to 2 significant figures.
 
+
+**Mark scheme answer**
+
+> Exterior angle = 180° − 172° = 8°
+> 
+> n = 360 ÷ 8 = **45**
+
+- **(1)** exterior = 8° oe
+- **(1)** 45
+
 ### 4(b) [6]
 
-Calculate, in cm2 to 3 significant figures, the upper bound of the area of the polygon. Sum of interior angles of polygon 2n 4 right angles
+Calculate, in cm² to 3 significant figures, the upper bound of the area of the polygon. Sum of interior angles of polygon 2n 4 right angles
+
+
+**Mark scheme answer**
+
+> [UB =] 5.25 or [LB =] 5.15 B1 A correct upper or lower bound seen or used. Allow [UB/2 =] 2.625 or [LB/2 =] 2.575
+> tan(86) = h/(UB/2) or tan(4) = (UB/2)/h or h/sin(86) = (UB/2)/sin(4) M1 for setting up an equation to find the height of the triangle (h) or side length (S)
+> cos(86) = (UB/2)/S or sin(90 − 86 [= 4]) = (UB/2)/S or S/sin(86) = UB/sin(8) or 5.25² = S² + S² − 2S²cos(8) allow 5.1 ≤ UB ≤ 5.3 or 2.55 ≤ UB/2 ≤ 2.65
+> condone if use 171.5 ≤ angle ≤ 172.5
+> h = (UB/2)tan(86) [= 37.539…] or h = (UB/2)/tan(4) or h = (UB/2)/sin(4) × sin(86) M1 for correct method to find h or S
+> S = (UB/2)/cos(86) [= 37.63…] or S = (UB/2)/sin(90 − 86) [= 37.63] or S = (UB/sin(8)) × sin(86) Allow 5.1 ≤ UB ≤ 5.3 or 2.55 ≤ UB/2 ≤ 2.65 or awrt 37.5 or awrt 37.6
+> or S = √(5.25²/(2 − 2cos(8))) If previous method mark is awarded allow for awrt 36.5 ≤ h ≤ awrt 37.9 or awrt 36.5 ≤ S ≤ awrt 40.0
+> This mark implies the previous M1
+> Area of triangle = ½ × UB × "h" [Area = 98.54…] or ½ × "h" × "S" × sin(4) M1 for finding the area of the triangle
+> or ½ × UB × "S" × sin(86) or ½ × "S" × "S" × sin(8) where 5.1 ≤ UB ≤ 5.3 and S < 5 or S > 5.5 or h < 5 or h > 5.5 allow awrt 98.5
+> NB 0.5 × UB × UBsin172 is M0
+> or R = (UB + UB + S)/2 and √(R(R − UB)(R − UB)(R − S))
+> Area of polygon = "45" × "98.54…" or 2 × "45" × "49.27…" M1 dep on the 3rd M mark being awarded
+> 4430 A1 dep on seeing 5.25 or 2.625 for UB throughout awrt 4430
+
 
 
 ## Question 5 (10 marks)
@@ -264,7 +248,11 @@ Part of the curve C with equation y x 2 x is drawn on the grid. 2 2
 
 ### 5(a) [2]
 
-By drawing a suitable straight line on the grid, find estimates, to one decimal place, for the solutions of the equation 1 1 x x 1 2 2 The equation of curve D is given by y x3 x 2 3x
+Part of the curve C with equation y x 2 x is drawn on the grid. 2 2
+
+By drawing a suitable straight line on the grid, find estimates, to one decimal place, for the solutions of the equation 1 1 x x 1 2 2 The equation of curve D is given by y x³ x 2 3x
+
+![grid — official paper figure (qp.pdf p.10) (same figure as asset_5_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_5_a_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.10) — shared with asset_5_a_grid_stem](assets/asset_5_a_grid_stem.png)
 
@@ -278,9 +266,11 @@ By drawing a suitable straight line on the grid, find estimates, to one decimal 
 
 ### 5(b) [2]
 
-Complete the table of values for y x3 x 2 3 x, giving your values to 2 decimal places where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 2 3 1.63 0 −1.13 6
+Complete the table of values for y x³ x 2 3 x, giving your values to 2 decimal places where necessary. x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 2 3 1.63 0 −1.13 6
 
-> 🖼 crop required: table (qp.pdf p.None)
+![figure — official paper figure (qp.pdf p.10)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_5_5-b.png)
+
+![figure — official paper figure (qp.pdf p.10)](assets/asset_5_5-b.png)
 
 
 **Mark scheme answer**
@@ -295,9 +285,13 @@ Complete the table of values for y x3 x 2 3 x, giving your values to 2 decimal p
 
 On the grid opposite, plot the points from your completed table and join them to form a smooth curve. Curve C and curve D intersect twice in the range −2 ≤ x ≤ 2
 
+![grid — official paper figure (qp.pdf p.10) (same figure as asset_5_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_5_a_grid_stem.png)
+
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
 ![grid — official paper figure (qp.pdf p.10) — shared with asset_5_a_grid_stem](assets/asset_5_a_grid_stem.png)
 
-> 🖼 crop required: table (qp.pdf p.10)
+![figure — official paper figure (qp.pdf p.10)](assets/asset_5_5-c.png)
 
 
 **Mark scheme answer**
@@ -324,7 +318,9 @@ Write down the coordinates, to one decimal place, of these 2 points of intersect
 
 ### 5(d)(ii) [3]
 
-Work out the equation of the line that passes through these 2 points of intersection. Give your answer in the form y = mx + c where the values of m and c are given to one decimal place. Show your working clearly. y −2 −1 O 1 2 x −1 −2 −3 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y −2 −1 O 1 2 x −1 −2 −3
+Work out the equation of the line that passes through these 2 points of intersection. Give your answer in the form y = mx + c where the values of m and c are given to one decimal place. Show your working clearly.
+
+![grid — official paper figure (qp.pdf p.10) (same figure as asset_5_a_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_5_a_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.10) — shared with asset_5_a_grid_stem](assets/asset_5_a_grid_stem.png)
 
@@ -345,8 +341,6 @@ Work out the equation of the line that passes through these 2 points of intersec
 > correct equation for their coordinates if working shown
 > y = 0.5 x + 2.8 A1 allow any value in the ranges 0.4 m 0.6 and / or 2.7 c 2.9
 > Allow fractions providing they lie in the range
-> Total 10 marks
-> Question Working Answer Mark Notes
 
 - **(3)** "3.7"− "2.4" 3 M1 correct method to find the gradient (allow figures within ±0.1
 
@@ -394,7 +388,7 @@ n H B
 
 ### 6(b)(iii) [1]
 
-n R B H One of the students is selected at random. Given that this student plays Hockey,
+n R B H One of the students is selected at random. Given that this student plays Hockey …………… , ……………
 
 
 **Mark scheme answer**
@@ -418,8 +412,6 @@ calculate the probability that they also play Rugby. m Give your answer in the f
 > 12 + 6 + 3 + 4 n
 > but must see the 7 or 25 in the fraction
 > 7 A1 cas oe Do not allow 0.28
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 3+ 4 2 7 m
 
@@ -466,30 +458,24 @@ Solve fg(x) = −1 54
 
 > ⎛ 2⎞
 > ⎛ 2⎞ 4 M1 correct expression for fg(x) or f −1 ( x ) = x + 1 + 1
-> ⎜1 + ⎟ − 2 ⎜1 + ⎟
-> ⎝ x⎠ ⎝ x ⎠ or
-> ⎛ x+2⎞ ⎛ x+2⎞
-> ⎜ ⎟ − 2⎜ ⎟
-> ⎝ x ⎠ ⎝ x ⎠
+> ⎜1 + ⎟ − 2 ⎜1 + x⎠ ⎝ x ⎠ or
+> ⎛ x+2⎞ ⎛ x+2 − 2 x ⎠ ⎝ x ⎠
 > ⎛ 4 4 ⎞ ⎛ 4 ⎛2⎞ ⎞
 > 2 M1 dep on 1st M1 being awarded. Correct method to
 > ⎜ 1 + + 2 ⎟ or ⎜
-> 1 + + ⎜ ⎟ ⎟ multiply out the squared brackets leading to 3 or 4
-> ⎝ x x ⎠ ⎜⎝ x ⎝ x ⎠ ⎟⎠ x
+> 1 + + multiply out the squared brackets leading to 3 or 4
+>  x x x x x
 > terms or correct expression for ⎡⎣f −1 ( g ) = ⎤⎦ +1 −1 +1
-> ⎛ x2 + 4x + 4 ⎞
-> ⎜ ⎟ oe
-> ⎝ x2 ⎠
+>  x² + 4x + 4 oe
+> ⎝ x² ⎠
 > 4 x 4 x M1for simplifying down to get a correct equation with
 > = or 2 − =0
 > x 2
-> 54 x 54 x3
+> 54 x 54 x³
 > a maximum of 2 algebraic terms eg 4 = or a
-> or x3 = 216
+> or x³ = 216
 > correct expression for x
 > 6 A1 cas Allow x = 3 216
-> Total 8 marks
-> Qu Working Answer Mark Notes
 
 - **(4)** ⎛ 2⎞
 
@@ -500,9 +486,12 @@ A Diagram NOT B accurately drawn O C Figure 1 Figure 1 shows three points A, B a
 
 ### 8 [7]
 
-A Diagram NOT B accurately drawn O C Figure 1 Figure 1 shows three points A, B and C on a circle with centre O where AOC is a diameter of the circle. The length of AB is 2 cm less than the length of BC Given that AC ≤ BC calculate the range of possible values for the length, in cm to one decimal place, of BC
+Figure 1 Figure 1 shows three points A, B and C on a circle with centre O where AOC is a diameter of the circle. The length of AB is 2 cm less than the length of BC Given that AC ≤ BC calculate the range of possible values for the length, in cm to one decimal place, of BC
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, O, C.
+
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_8_diagram.png)
 
 
 **Mark scheme answer**
@@ -510,14 +499,14 @@ A Diagram NOT B accurately drawn O C Figure 1 Figure 1 shows three points A, B a
 > ∠ABC = 90° 7 M1 using circle theorem. May be seen on diagram with right angle symbol or 90°
 > [let x = BC then] M1 using Pythagoras where AB is 2 less than BC eg
 > ⎡⎣ AC 2 = ⎤⎦ x 2 + ( x − 2 ) or
-> = ⎤⎦ y + ( y + 2 )
+> = y + ( y + 2 )
 > 2 ⎛5 ⎞
-> [let y = AB then] ⎡⎣ AC
+> [let y = AB then] AC
 > 2
-> or ⎣⎡ BC = ⎦⎤ ⎜ ( y + 2 ) ⎟ − y 2 Allow if square
+> or ⎣⎡ BC = ( y + 2 ) ⎟ − y 2 Allow if square
 > 2 ⎝4 ⎠
 > ⎛5 ⎞
-> ⎡⎣ BC 2 = ⎤⎦ ⎜ x ⎟ − ( x − 2 ) or
+> ⎡⎣ BC 2 = x ⎟ − ( x − 2 ) or
 > rooted
 > ⎝4 ⎠ or if finding angles must clear which angle 4/5 is.
 > 4
@@ -530,7 +519,7 @@ A Diagram NOT B accurately drawn O C Figure 1 Figure 1 shows three points A, B a
 > 2
 > ( x − 2) + x
 > 2 2 ⎛ 5 x ⎞ or M1 Allow any inequality or = sign. For using AB + BC 2
-> ⎜ ⎟
+>  
 > BC
 > ⎝4 ⎠
 > BC and all 3 terms are in terms of the same letter. Allow if square rooted eg
@@ -561,41 +550,6 @@ A Diagram NOT B accurately drawn O C Figure 1 Figure 1 shows three points A, B a
 > x 8 M1 for the single inequality x 8 on its own with no other given. For x 8 allow
 > n x 8 (or x n and x 8 ) where 0 < n < 8 Allow < for
 > 2< x 8 A1 cas Total 7 marks
-> Qu Working Answer Mark Notes
-> 9(a) 3 ( −4 )3 + a ( −4 )2 − 20 ( −4 ) + b = 0 or 3 M1 substituting in –4 or 2 and equating to 0 (the equating to 0 may be
-> implied when linear equations formed) Do not condone missing brackets
-> 3 ( 2 ) + a ( 2 ) − 20 ( 2 ) + b = 0
-> 3
-> around (–4) unless recovered.
-> 16a + b = 112 16a + b = 112 A1 2 simplified linear equations - one must be correct but we will allow one
-> 4a + b = 16 4a + ("112 − 16a ") = 16 error only in the other one
-> a = 8 and b = −16 A1wr dep on M1 This mark will imply the previous A mark
-> SC a = 8 and b = −16 with no working or no method mark awarded award B2
-> ( 2 x − 3) 5 B1 ( 2 x − 3) seen or used
-> 4 x 2 ± nx − 2 M1 for a quadratic with any value of n seen. Allow multiples
-> 4 x 2 − 3x − 2 A1 for a correct quadratic seen. Allow multiples
-> −(−3) ± (−3) 2 − 4 × 4 × ( −2 ) M1 dep on the 1st M1 for correctly solving their 3 term quadratic. Condone
-> x= 3 ± 9 + 32
-> 2× 4 missing brackets around the –3. Allow simplified as far as x = oe
-> ⎛⎛ 3⎞ ⎛ 3⎞ 1 ⎞
-> 2 2
-> ⎛ 3⎞ ⎛ 9 ⎞
-> Allow completing the square. 4 ⎜⎜ ⎜ x − ⎟ − ⎜ ⎟ − ⎟⎟ or 4 ⎜ x − ⎟ − ⎜ ⎟ − 2
-> ⎝⎝ 8⎠ ⎝8⎠ 2⎠ ⎝ 8 ⎠ ⎝ 16 ⎠
-> oe
-> 3 ± 41 A1wr dep on B1 and 2 M awarded – needs to be simplified ignore subsequent
-> x= changes to decimal form if exact form seen. Ignore extra root of 3/2
-> Total 8 marks
-> ALT ⎛ 3 ⎞
-> x− B1 ⎛⎜ x − ⎞⎟ seen or used
-> 8x2 − 6 x − 4 A1 allow multiples eg 4 x2 − 3x − 2
-> − ( −6 ) ± ( −6 ) − 4 × 8 × ( −4 )
-> 6 ± 36 + 128
-> x= M1 dep on the 1st M1 Allow simplified as far as x =
-> 2×8
-> 3 ± 41 A1wr dep on B1 and 2 M awarded
-> x= ignore subsequent changes to decimal form if exact form seen
-> Qu Working Answer Mark Notes
 
 - **(7)** ∠ABC = 90° 7 M1 using circle theorem. May be seen on diagram with right angle symbol or 90°
 
@@ -606,11 +560,54 @@ f ( x) 3 x3 ax 2 20 x b where a and b are integers. (x + 4) is a factor of f(x) 
 
 ### 9(a) [3]
 
-Use the factor theorem to find the value of a and the value of b One solution of the equation 8 x3 18 x 2 5 x 0 is
+f ( x) 3 x³ ax 2 20 x b where a and b are integers. (x + 4) is a factor of f(x) (x − 2) is a factor of f(x)
+
+Use the factor theorem to find the value of a and the value of b One solution of the equation 8 x³ 18 x 2 5 x 0 is
+
+
+**Mark scheme answer**
+
+> (x + 4) a factor ⇒ f(−4) = 0:  3(−64) + 16a + 80 + b = 0 ⇒ 16a + b = 112
+> 
+> (x − 2) a factor ⇒ f(2) = 0:  24 + 4a − 40 + b = 0 ⇒ 4a + b = 16
+> 
+> Subtract: 12a = 96 ⇒ a = 8, and b = 16 − 4 × 8 = −16
+
+- **(1)** f(−4) = 0 and f(2) = 0 oe (factor theorem)
+- **(1)** a = 8
+- **(1)** b = −16
 
 ### 9(b) [5]
 
 Without using a calculator and showing all your working, find the other 2 solutions of the equation. Give your answers in exact form.
+
+
+**Mark scheme answer**
+
+> ( 2 x − 3) 5 B1 ( 2 x − 3) seen or used
+> 4 x 2 ± nx − 2 M1 for a quadratic with any value of n seen. Allow multiples
+> 4 x 2 − 3x − 2 A1 for a correct quadratic seen. Allow multiples
+> −(−3) ± (−3) 2 − 4 × 4 × ( −2 ) M1 dep on the 1st M1 for correctly solving their 3 term quadratic. Condone
+> x= 3 ± 9 + 32
+> 2× 4 missing brackets around the –3. Allow simplified as far as x = oe
+> ⎛⎛ 3⎞ ⎛ 3⎞ 1 ⎞
+> 2 2
+> ⎛ 3⎞ ⎛ 9 ⎞
+> Allow completing the square. 4 x − ⎟ − − or 4 ⎜ x − ⎟ − − 2
+> ⎝⎝ 8⎠ ⎝8⎠ 2⎠ ⎝ 8 ⎠ ⎝ 16 ⎠
+> oe
+> 3 ± 41 A1wr dep on B1 and 2 M awarded – needs to be simplified ignore subsequent
+> x= changes to decimal form if exact form seen. Ignore extra root of 3/2
+> ALT ⎛ 3 ⎞
+> x− B1 x − seen or used
+> 8x2 − 6 x − 4 A1 allow multiples eg 4 x² − 3x − 2
+> − ( −6 ) ± ( −6 ) − 4 × 8 × ( −4 )
+> 6 ± 36 + 128
+> x= M1 dep on the 1st M1 Allow simplified as far as x =
+> 2×8
+> 3 ± 41 A1wr dep on B1 and 2 M awarded
+> x= ignore subsequent changes to decimal form if exact form seen
+
 
 
 ## Question 10 (14 marks)
@@ -666,7 +663,11 @@ On the grid, draw and label triangle D Triangle B is transformed to triangle E u
 
 ### 10(d) [7]
 
-find the coordinates of the vertices of triangle F a b Determinant of matrix ad bc c d y B O A −4 −3 −2 −1 1 2 3 4 5 6 7x −1 −2 −3 −4 −5 −6 −7 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y B O A −4 −3 −2 −1 1 2 3 4 5 6 7x −1 −2 −3 −4 −5 −6 −7
+find the coordinates of the vertices of triangle F.
+
+[Determinant of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc$]
+
+![grid — official paper figure (qp.pdf p.23) (same figure as asset_10_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-06/4MB1-02/assets/asset_10_b_grid.png)
 
 ![grid — official paper figure (qp.pdf p.23) — shared with asset_10_b_grid](assets/asset_10_b_grid.png)
 
@@ -674,10 +675,10 @@ find the coordinates of the vertices of triangle F a b Determinant of matrix ad 
 **Mark scheme answer**
 
 > ⎛ k 1 ⎞⎛ − k 1 ⎞ 7 M1 matrices in terms of k in correct order. Implied by fully correct
-> N=⎜ 2 ⎟⎜ ⎟ matrix for N
+> N= 2 matrix for N
 > ⎝ k − 1 k ⎠⎝ k − 3 0 ⎠
 > ⎛ −k 2 + k − 3 k ⎞ M1 for a 2 by 2 matrix with at least 2 correct entries
-> N =⎜ 3 2 2 ⎟ ⎛ −1 0 ⎞
+> N =⎜ 3 2 2 −1 0 ⎞
 > ⎝ − k + k + k − 3k k − 1 ⎠ If matrices in incorrect order it gives ⎜ 2 ⎟ allow for at
 > ⎝ k − 3k k − 3 ⎠
 > least 2 non zero entries correct
@@ -688,14 +689,13 @@ find the coordinates of the vertices of triangle F a b Determinant of matrix ad 
 > −k 4 + k 3 − 3k 2 + k 2 − k + 3 + k 4 − k 2 − k 3 + 3k 2 = 2 M1 dep on previous M being awarded for equating their det to 2
 > k =1 A1 dep on 1st M1 this does not imply the previous marks
 > ⎛ "− 12 + 1 − 3" "1" ⎞ ⎛ 1 0 1 ⎞ M1 ft their value of k and their 2 × 2 matrix N Must show working
-> N= ⎜ 3 ⎟⎜ ⎟ if k is incorrect. Points can be in any order. May be implied by
+> N= 3 if k is incorrect. Points can be in any order. May be implied by
 > ⎝ "− 1 + 1 + 1 − 3 × 1" "1 − 1" ⎠ ⎝ 0 −1 2 ⎠
 > 2
 > correct points
 > (−1, −2), (−3, −2), A1 dependent on all previous marks being awarded. Allow
 > (−1, 0) ⎛ −1 −3 −1 ⎞ or correct triangle drawn. Points can be in any order
-> ⎜ ⎟
-> ⎝ −2 −2 0 ⎠
+>  −2 −2 0 
 > NEXT PAGE for alternative method for (d) Total 14 marks
 > Use the MS that gives the highest mark. but do not use both
 > ALT
@@ -705,23 +705,19 @@ find the coordinates of the vertices of triangle F a b Determinant of matrix ad 
 > −k + 3 = 2
 > k =1 A1dep on 2nd M1 this does not imply the previous marks
 > ⎛ − k 1 ⎞⎛ 0 1 1 ⎞ ⎛ −1 − k − k + 2 ⎞ M1 for attempt to multiply matrices. Must be a 2 by 3 or a 2 by 2
-> ⎜ k − 3 0 ⎟⎜ −1 0 2 ⎟ = ⎜ 0 k − 3 k − 3 ⎟ or matrix and have at least 2 correct entries in terms of k or with their k
+> ⎜ k − 3 0 −1 0 2 ⎟ = ⎜ 0 k − 3 k − 3 ⎟ or matrix and have at least 2 correct entries in terms of k or with their k
 > ⎝ ⎠⎝ ⎠ ⎝ ⎠ value substituted. Points can be in any order
-> ⎛ k 1 ⎞⎛ − k 1 ⎞ ⎛ −k 2 + k − 3 k ⎞ ⎛ − 1 −1 1 ⎞ ⎛ − 3 1 ⎞
-> ⎜ k 2 − 1 k ⎟⎜ k − 3 0 ⎟ = ⎜ 3 ⎟ If k = 1 then matrices are ⎜ ⎟ or ⎜ ⎟
-> ⎝ ⎠⎝ ⎠ ⎝ − k + k + k − 3k k − 1 ⎠
+> ⎛ k 1 ⎞⎛ − k 1 ⎞ ⎛ −k 2 + k − 3 k ⎞ ⎛ − 1 −1 1 ⎞ ⎛ − 3 1 k 2 − 1 k k − 3 0 ⎟ = ⎜ 3 ⎟ If k = 1 then matrices are or − k + k + k − 3k k − 1 ⎠
 > 2
 > ⎝ 0 −2 −2 ⎠ ⎝ −2 0 ⎠
 > ⎛ k 1 ⎞⎛ − k 1 ⎞⎛ 0 1 1 ⎞ M1 matrices in correct order with either k or their k value substituted
-> ⎜ k 2 − 1 k ⎟⎜ k − 3 0 ⎟⎜ −1 0 2 ⎟ ⎛ 1 1 ⎞⎛ −1 1 ⎞⎛ 0 1 1 ⎞
-> ⎝ ⎠⎝ ⎠⎝ ⎠ eg ⎜ ⎟⎜ ⎟⎜ ⎟ may be done in steps
+> ⎜ k 2 − 1 k k − 3 0 −1 0 2 1 1 ⎞⎛ −1 1 ⎞⎛ 0 1 1 ⎞
+> ⎝ ⎠⎝ ⎠⎝ ⎠ eg may be done in steps
 > ⎝ 0 1 ⎠⎝ −2 0 ⎠⎝ −1 0 2 ⎠
 > Points can be in any order. May be implied by correct points
 > (−1, −2), (−3, −2), A1 dependent on all previous marks being awarded. Allow
 > (−1, 0) ⎛ −1 −3 −1 ⎞ or correct triangle drawn. Points can be in any order
-> ⎜ ⎟
-> ⎝ −2 −2 0 ⎠
-> Question Working Answer Mark Notes
+>  −2 −2 0 
 
 - **(7)** ⎛ k 1 ⎞⎛ − k 1 ⎞ 7 M1 matrices in terms of k in correct order. Implied by fully correct
 
@@ -771,8 +767,6 @@ Find the value of k
 > M1 Setting up the equation using d and substituting t = 2
 > 20 = k + 4 × 2 + 5 × 22 − 2 × 23
 > 8 A1 cas
-> Total 9 marks
-> Question Working Answer Mark Notes
 
 - **(5)** 0 = 4 + 10t − 6t 2 5 M1 for equating 4 + 10t − 6t 2 to 0
 
@@ -833,8 +827,7 @@ Find the ratio OM : MA Show your working clearly.
 > OM = 15b + β ⎜ " a − b " ⎟ or
 > ⎝ 2 4 ⎠ or AM or MA (has to be the same vector as for M1) eg
 > → ⎛ 3 45 ⎞ → 3 ⎛ 3 45 ⎞
-> AM = −3a + 15b+φ ⎜ " a − b " ⎟ or OM = ("2a + 5b ") + α ⎜ " a − b" ⎟
-> ⎝ 2 4 ⎠ 4 ⎝ 2 4 ⎠
+> AM = −3a + 15b+φ ⎜ " a − b " ⎟ or OM = ("2a + 5b ") + α ⎜ " a − b" 2 4 ⎠ 4 ⎝ 2 4 ⎠
 > → → → 3 → → → →
 > using MN = MO + ON gives γ ( −3λa + 15b ) = 3λa + ("2a + 5b") or using resultant vectors using OM or MO or AM or MA to gain an
 > 4 equation in terms of a and b
@@ -861,7 +854,6 @@ Find the ratio OM : MA Show your working clearly.
 > → →
 > ft their OM or AM providing it is < 3a Allow equivalent eg 4 : 2
 > NB If they gain any method mark then get 2 : 1 is full marks
-> Total 8 marks
 
 - **(5)** → → 5 → → → →
 

@@ -36,8 +36,6 @@ Find the Highest Common Factor (HCF) of 60 and 165 Show your working clearly.
 > 24 and 96
 > Correct answer scores full marks (unless from obvious ± 72 A1 Allow 72 or –72
 > incorrect working)
-> Total 2 marks
-> Question Working Answer Mark Notes
 > primes ( Allow 4 × 3 × 5 )
 > Factors (165) 1, 3, 5, 11, 15, 33, 55, 165 and or factors given up to 15 for both numbers
 > Factors( 60) 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60 or
@@ -79,14 +77,10 @@ Factorise fully 6af + 30 f 2
 > Working required 15 A1 Dependent on M1 awarded
 > SC answer of 15 only with none of the above
 > working is B1
-> Total 2 marks
-> Question Working Answer Mark Notes
 > 3 6 ( af + 5 f 2 ) or f ( 6a + 30 f ) or 2 f ( 3a + 15 f ) or
 > 2 M1 Allow 6f(a + nf) where n is an integer
 > 3 f ( 2a + 10 f ) or 2 ( 3af + 15 f 2 ) or 3 ( 2af + 10 f 2 )
 > 6f(a + 5f) A1 6f(5f + a )
-> Total 2 marks
-> Question Working Answer Mark Notes
 > 13 2
 > × or
 > 26 15
@@ -96,8 +90,6 @@ Factorise fully 6af + 30 f 2
 > and Working required 1 15
 > A1
 > to see 26/15 leading to correct answer
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 11 5 6 3 11
 
@@ -123,8 +115,6 @@ Solve the inequality 5 x ≤ 3 x + 15
 > A1
 > you see the correct answer in the working but incorrect
 > on the answer line
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 5 x − 3x 15 2 M1 For correctly collecting terms in x on one side and
 
@@ -147,8 +137,6 @@ Calculate 4.2 1072 5.5 1075 Give your answer in standard form.
 > a ×10148 where 1 a < 10
 > Correct answer scores full marks (unless 2.31×10148 A1
 > from obvious incorrect working)
-> Total 2 marks
-> Question Working Answer Mark Notes
 
 - **(2)** eg 23.1×10147 or 231×10146 or
 
@@ -159,7 +147,7 @@ The price of a holiday is reduced by 4% in a sale. Haniya pays $600 of the sale 
 
 ### 7 [3]
 
-The price of a holiday is reduced by 4% in a sale. Haniya pays $600 of the sale price when she books the holiday. She pays the remainder of the sale price in 4 equal monthly payments of $180 Calculate the price of the holiday before the sale. $
+The price of a holiday is reduced by 4% in a sale. Haniya pays \$600 of the sale price when she books the holiday. She pays the remainder of the sale price in 4 equal monthly payments of \$180 Calculate the price of the holiday before the sale. \$
 
 
 **Mark scheme answer**
@@ -174,8 +162,6 @@ The price of a holiday is reduced by 4% in a sale. Haniya pays $600 of the sale 
 > obvious incorrect working)
 > NB × by 1.04 gives an answer of 1372.8(0) and is M1M0A0
 > unless the method marks can be awarded in the working.
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Sale price = 600 + 4 ×180 [=1320] 3 M1 Correct method to find total sale price. May be implied by
 
@@ -199,8 +185,6 @@ The straight line L1 has equation y + 4x = 5 The straight line L2 is parallel to
 > Correct answer scores full marks (unless from y = −4 x + 2 Do not ISW. Allow y = 2 − 4 x
 > A1
 > obvious incorrect working)
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** y = −4 x ± c where c ≠ 5 or y = −4 x or 3 M1 For a correct gradient in the final equation
 
@@ -213,7 +197,9 @@ y B A 4 −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x Quadrilateral A and q
 
 y B A 4 −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x Quadrilateral A and quadrilateral B are drawn on a grid. Quadrilateral B is the image of quadrilateral A under a single transformation. Describe fully this single transformation.
 
-> 🖼 crop required: grid (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![grid — official paper figure (qp.pdf p.5)](assets/asset_9_grid.png)
 
 
 **Mark scheme answer**
@@ -226,8 +212,6 @@ y B A 4 −7 −6 −5 −4 −3 −2 −1 O 1 2 3 4 5 6 x Quadrilateral A and q
 > SC B2 for rotation of 180 degrees about (1, 5)
 > and enlargement with scale factor 0.5
 > All information required.
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** Must be as a single transformation
 
@@ -261,8 +245,6 @@ Without using a calculator and showing your working clearly, find the value of t
 > Working required
 > Dep on 2nd M1 awarded. Condone 588 or 14 3
 > SC if no marks awarded award B1 for 588 condone 588
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ⎡ 2 300 = ⎤ 2 3 × 100 or 2 3 ×102 or 2 22 × 3 × 52 3 M1 for one root/part expressed correctly
 
@@ -301,8 +283,6 @@ Simplify fully 4 y 8
 **Mark scheme answer**
 
 > 8 y12 2 B2 B1 for a product with 1 part correct and 2 parts in total
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(2)** 8 y12 2 B2 B1 for a product with 1 part correct and 2 parts in total
 
@@ -313,9 +293,12 @@ A Diagram NOT B accurately drawn 75° C E D F A, B, C and D are points on a circ
 
 ### 12 [3]
 
-A Diagram NOT B accurately drawn 75° C E D F A, B, C and D are points on a circle. EDF is the tangent to the circle at the point D Angle BDF = 75° Calculate, giving your reasons, the size, in degrees, of ∠BCD °
+A, B, C and D are points on a circle. EDF is the tangent to the circle at the point D Angle BDF = 75° Calculate, giving your reasons, the size, in degrees, of ∠BCD °
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: A, B, C, E, D, F · Figure values: 75°.
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_12_diagram.png)
 
 
 **Mark scheme answer**
@@ -346,8 +329,6 @@ A Diagram NOT B accurately drawn 75° C E D F A, B, C and D are points on a circ
 > Angle at the centre is 2 × (double) angle at
 > circumference or angle at circumference is ½ angle at
 > centre
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** ∠DAB = 75 or ∠BDE = 180 − 75 [ = 105] or 3 M1 A correct first step – may be on diagram if not
 
@@ -377,8 +358,6 @@ a t v = 8.91 to 3 significant figures. u = 5.82 to 3 significant figures. t = 9 
 > A1 allow 475 awrt 0.324 from fully correct
 > working - Allow use of 5.82499... and/or
 > 9.499…
-> Total 3 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 8.915, 8.905, 5.815, 5.825, 9.5, 8.5 3 B1 for one correct bound seen Allow equivalent eg
 
@@ -389,35 +368,35 @@ F D Diagram NOT 69° accurately drawn E C G A B H The diagram shows a regular pe
 
 ### 14 [4]
 
-F D Diagram NOT 69° accurately drawn E C G A B H The diagram shows a regular pentagon ABCDE and three sides, FE, EG and GH, of a regular n-sided polygon. AB is horizontal. EG is vertical. DEF 69 Calculate the value of n n =
+The diagram shows a regular pentagon ABCDE and three sides, FE, EG and GH, of a regular n-sided polygon. AB is horizontal. EG is vertical. DEF 69 Calculate the value of n n =
 
-> 🖼 crop required: diagram (qp.pdf p.None)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately).*
+> Labels in the original figure: F, D, E, C, G, A, B, H · Figure values: 69°.
+
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_14_diagram.png)
 
 
 **Mark scheme answer**
 
 > 360 ⎡ 540 ⎤
-> 180 − = = 108⎥ or M1 Correct method to find the interior angle or exterior angle
-> ⎢
+> 180 − = = 108 or M1 Correct method to find the interior angle or exterior angle
+> 
 > 5 ⎣ 5 ⎦ of the pentagon. May be marked on the diagram. Allow if
 > exterior angle = 72° 108 or 72 seen
 > ⎛ 180 − 108 ⎞ ⎡ 108 ⎤ M1
-> 69 − ⎜ 90 − ⎟ ⎢ = 69 − = 15⎥ or
+> 69 − ⎜ 90 − = 69 − = 15⎥ or
 > ⎝ 2 ⎠⎣ 2 ⎦ A correct expression to find the exterior or interior angle
 > of the n-sided polygon
 > [∠GEF =] 360 − (108 − 90 ) − 69 − 108 [ = 165] or eg
 > (180 − 69 ) + 72 − 18 = 165 or [∠GEF =] 360 − ("180 − 90 − (180 − 108) ") − 69 − 108 [ = 165]
 > ⎛ 108 ⎞ There may be other correct methods.
-> 360 − ⎜ 69 + + 90 ⎟
-> ⎝ 3 ⎠
+> 360 − ⎜ 69 + + 90 3 ⎠
 > M1 dep on the previous M1. A correct method to find the
 > 360 ( n − 2 ) ×180 = "165" value of n
 > n= or oe
 > "15" n
 > Correct answer scores full marks (unless from A1
 > obvious incorrect working)
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 360 ⎡ 540 ⎤
 
@@ -453,8 +432,6 @@ The diagram shows a sphere of radius r cm and a right circular cone with base ra
 > Correct answer scores full marks (unless from A1 ISW if seen in working as r = 7.5 oe .
 > 7.5
 > obvious incorrect working) Condone awrt 7.5 or 7.49
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 4 M1 For both volumes correct.
 
@@ -493,8 +470,8 @@ P is inversely proportional to the square root of W P = 1600 when W = 1.96 Find 
 > 5017600
 > ⎛ "2240" ⎞
 > 2 "5017600" M1 dep on M1 A correct method to find W using their k
-> W =⎜ W= or j If k is incorrect working must show the intention
-> ⎟ 8002
+> W = W= or j If k is incorrect working must show the intention
+>  8002
 > ⎝ 800 ⎠ to square
 > Correct answer scores full marks (unless from obvious 7.84 A1 196
 > do not ISW Allow
@@ -503,8 +480,6 @@ P is inversely proportional to the square root of W P = 1600 when W = 1.96 Find 
 > k
 > or 2.77[185…] using
 > W2
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** Method 1 Method 2
 
@@ -520,23 +495,17 @@ Quadrilateral A is transformed to quadrilateral B under a reflection in the line
 
 **Mark scheme answer**
 
-> ⎛ 0 −1 ⎞
-> ⎜ ⎟ 4 M1 Matrix for reflection in y = − x
+>  0 −1 4 M1 Matrix for reflection in y = − x
 > ⎝ −1 0 ⎠
 > M1 ⎛ 4 −2 ⎞⎛ a b ⎞
-> Allow ⎜ ⎟⎜ ⎟
-> ⎛ 4 −2 ⎞⎛ 0 −1 ⎞ ⎝ 1 3 ⎠⎝ c d ⎠
-> ⎜ ⎟⎜ ⎟
-> ⎝ 1 3 ⎠⎝ −1 0 ⎠
+> Allow 4 −2 ⎞⎛ 0 −1 ⎞ ⎝ 1 3 ⎠⎝ c d 1 3 ⎠⎝ −1 0 ⎠
 > where a, b, c and d are 0 or ±1
 > ⎛ 2 − 4⎞ A2 dep on previous 2nd method mark being
 > Correct answer scores full marks (unless from
-> ⎜ ⎟ awarded. All values correct
+>  awarded. All values correct
 > obvious incorrect working) ⎝ −3 −1 ⎠ (A1 for 2 terms correct)
-> Total 4 marks
-> Question Working Answer Mark Notes
 
-- **(4)** ⎛ 0 −1 ⎞
+- **(4)**  0 −1 4 M1 Matrix for reflection in y = − x
 
 
 ## Question 18 (4 marks)
@@ -545,7 +514,9 @@ Diagram NOT accurately drawn A B The diagram shows two mathematically similar so
 
 ### 18 [4]
 
-Diagram NOT accurately drawn A B The diagram shows two mathematically similar solids A and B The volume of solid A is 1125 cm3 The volume of solid B is 576 cm3 Given that surface area of solid A + surface area of solid B = 3198 cm2 calculate the surface area of solid B cm2
+Diagram NOT accurately drawn A B The diagram shows two mathematically similar solids A and B The volume of solid A is 1125 cm³ The volume of solid B is 576 cm³ Given that surface area of solid A + surface area of solid B = 3198 cm² calculate the surface area of solid B cm²
+
+![diagram — official paper figure (qp.pdf p.14)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2023-01/4MB1-01/assets/asset_18_diagram.png)
 
 ![diagram — official paper figure (qp.pdf p.14)](assets/asset_18_diagram.png)
 
@@ -553,37 +524,30 @@ Diagram NOT accurately drawn A B The diagram shows two mathematically similar so
 **Mark scheme answer**
 
 > 2 4 M2 For a correct SF or ratio
-> ⎛ 1125 ⎞ ⎡ 25 ⎤
-> ⎜ ⎟ ⎢= = 1.5625⎥ or 25 : 16 or
+> ⎛ 1125 ⎞ ⎡ 25 = = 1.5625⎥ or 25 : 16 or
 > ⎝ 576 ⎠ ⎣ 16 ⎦
 > 1125 ⎡ 5 ⎤ ⎛ 1125 ⎞ 576 ⎡ 4 ⎤
-> 2 M1 for 3 = or ⎜ ⎟ or 3 = or
+> 2 M1 for 3 = or or 3 = or
 > ⎛ 576 ⎞ ⎡ 16 ⎤ ⎢ ⎥
-> 576 ⎣ 4 ⎦ ⎝ 576 ⎠ 1125 ⎢⎣ 5 ⎥⎦
-> ⎜ ⎟ ⎢= = 0.64 ⎥ or 16 : 25
+> 576 ⎣ 4 ⎦ ⎝ 576 ⎠ 1125 ⎢⎣ 5 = = 0.64 ⎥ or 16 : 25
 > ⎝ 1125 ⎠ ⎣ 25 ⎦ ⎛ 576 ⎞
 > 2
-> ⎟ or 1125 : 576 or 5 : 4 or 4 : 5 or 125 : 64
+>  or 1125 : 576 or 5 : 4 or 4 : 5 or 125 : 64
 > 3
-> ⎜
-> ⎝ 1125 ⎠
+>  1125 
 > 10.4 5
 > or 642: 1252 oe (useful number = )
 > 8.32 4
 > 2 M1 A correct equation or ratio
-> ⎛ 1125 ⎞
-> ⎜ ⎟ × SA of B + SA of B = 3198 or Allow
+>  1125 × SA of B + SA of B = 3198 or Allow
 > ⎝ 576 ⎠ 16
 > 25 × 3198 or × 3198 or SA of A =1950
 > b + b = 3198 oe or 25 + 16 25 + 16
-> ⎛ 576 ⎞
-> ⎜ ⎟ × SA of A + SA of A = 3198 or
+>  576 × SA of A + SA of A = 3198 or
 > ⎝ 1125 ⎠
 > a + a = 3198 oe
 > Correct answer scores full marks (unless 1248 A1 Allow awrt 1248 or 1249 from correct working
 > from obvious incorrect working)
-> Total 4 marks
-> Question Working Answer Mark Notes
 
 - **(4)** 2 4 M2 For a correct SF or ratio
 
@@ -650,8 +614,6 @@ Show, by shading, the region where Simon can place the light. Label the region R
 > there must be an arc drawn from C
 > The area indicated must be enclosed by the 3
 > lines and AD
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(1)** dep on the perpendicular bisector drawn
 
@@ -700,8 +662,6 @@ Calculate the number of visits to the cinema Bhaskor makes in June.
 > = 1.7 Allow their "27"
 > Correct answer scores full marks (unless from obvious A1 NB watch for incorrect method of 27 – 20
 > incorrect working see notes)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3 M1 Correct method to find the total of the 19
 
@@ -743,8 +703,6 @@ Calculate the value of u u =
 > 2 2
 > Correct answer scores full marks (unless from obvious 7.5 A1 oe
 > incorrect working)
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(3)** 3
 
@@ -755,7 +713,11 @@ The bar chart gives information about the number of pieces of music downloaded l
 
 ### 22(a) [2]
 
-Calculate the percentage of students who downloaded more than 8 pieces of music last month %
+The bar chart gives information about the number of pieces of music downloaded last month for each of 30 students in a class. Number of students 4 0-2 3-5 6-8 9-11 12-14 15-17 Number of pieces of music downloaded
+
+Calculate the percentage of students who downloaded more than 8 pieces of music last month
+
+…………… %
 
 
 **Mark scheme answer**
@@ -790,8 +752,6 @@ Calculate an estimate for the mean number of pieces of music each student downlo
 > 30 For dividing their sum by 30
 > Correct answer scores full marks (unless from obvious 7.6 A1 oe ISW allow if seen in working
 > incorrect working)
-> Total 6 marks
-> Question Working Answer Mark Notes
 
 - **(4)** ( 4 ×1) + ( 9 × 4 ) + ( 5 × 7 ) + ( 3 ×10 ) + ( 7 ×13) + ( 2 ×16 ) 4 M2 for correct calculation (need not be
 
@@ -802,7 +762,7 @@ Simplify x 3 x2 4 Show your working clearly.
 
 ### 23 [5]
 
-Simplify x 3 x2 4 Show your working clearly.
+Simplify x 3 x² 4 Show your working clearly.
 
 
 **Mark scheme answer**
@@ -811,8 +771,7 @@ Simplify x 3 x2 4 Show your working clearly.
 > expression that expands to give 2 of 3 terms correct
 > x 2 − 4 = ( x − 2 )( x + 2 ) M1 for factorising x 2 − 4 correctly
 > ⎛ 2 ⎞ M1 for dealing with the division correctly. Turning
-> ( x − 3) × ⎜⎜
-> ⎟⎟ upside down and multiplying – need not be
+> ( x − 3) × upside down and multiplying – need not be
 > ⎝ ( x − 3)( x − 2 ) ⎠ factorised. Must be done before the subtraction
 > 2 ( x − 3) − 1 ( 2 x − 7 )( x + 2 ) M1 dependent on 3rd M for a single fraction with at
 > eg or or most one incorrect term (when expanded). eg if
@@ -824,15 +783,13 @@ Simplify x 3 x2 4 Show your working clearly.
 > Allow or
 > 2 ( x − 3)( x − 2 ) − ( x − 2 ) ( x − 5x + 6 )( x − 4 )
 > 2
-> ( x − 2 )( x − 2 ) 3x 2 + 2 x − x3 − 6
+> ( x − 2 )( x − 2 ) 3x 2 + 2 x − x³ − 6
 > oe if fully correct
-> x 4 + 2 x 2 − 5 x3 + 20 x − 24
+> x 4 + 2 x 2 − 5 x³ + 20 x − 24
 > Working required 2x − 7 dependent on all 4 M marks awarded.
 > x−2 A1
 > Allow 2 −
 > x−2
-> Total 5 marks
-> Question Working Answer Mark Notes
 
 - **(5)** x 2 − 5 x + 6 = ( x − 3)( x − 2 ) 5 M1 for factorising x 2 − 5 x + 6 . Allow a factorised
 
@@ -840,7 +797,7 @@ Simplify x 3 x2 4 Show your working clearly.
 ## Question 24 (6 marks)
 ### 24(a) [2]
 
-Use the factor theorem to show that x 1 is a factor of 18 x3 9 x 2 17 x
+Use the factor theorem to show that x 1 is a factor of 18 x³ 9 x 2 17 x
 
 
 **Mark scheme answer**
@@ -856,7 +813,7 @@ Use the factor theorem to show that x 1 is a factor of 18 x3 9 x 2 17 x
 
 ### 24(b) [4]
 
-Factorise fully 18 x3 9 x 2 17 x Show clear algebraic working.
+Factorise fully 18 x³ 9 x 2 17 x Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -871,9 +828,6 @@ Factorise fully 18 x3 9 x 2 17 x Show clear algebraic working.
 > Only accept what is seen (any order). Don’t accept a list
 > with commas. Condone = 0 but do not ISW if gone on to
 > solve.
-> Total 6 marks
-> Question Working Answer Mark Notes
-> Question Working Answer Mark Notes
 
 - **(4)** 18 x 2 ... 4 M1 for a start to find the quadratic factor. This may be seen in
 
@@ -911,12 +865,11 @@ Find, in metres, the distance OA m
 > If their 3TQ is incorrect we must see working.
 > − ("3") + 4 ("3") + 3 × "3"+ 1
 > 3 2 M1 Correctly substituting their positive value of t
-> into the equation given for x. Condone (– 3)3
+> into the equation given for x. Condone (– 3)³
 > Ignore substitution of negative values for t
 > If t is incorrect we must see working.
 > Correct answer scores full marks (unless 19 A1 Do not allow if more than one value is given.
 > from obvious incorrect working)
-> Total 6 marks
 
 - **(4)** −3t 2 + 8t + 3 = 0 or 3t 2 − 8t − 3 = 0 oe 4 M1 Equating their part (a) to 0 or solving
 
@@ -939,10 +892,10 @@ Calculate the length, in cm to one decimal place, of AB cm
 > [ = 21.2132…] (need not be labelled). May be
 > seen on diagram.
 > ft their AD. A correct method to find AB2 or AB
-> ( ) + ("15 2 ") − 2 ×10 3 × "15 2 "× cos 60
+> ( ) + ("15 2 ") − 2 ×10³ × "15 2 "× cos 60
 > 2
 > ⎡⎣ AB 2 = ⎤⎦ 10 3 M1
-> eg 300 + 450 − 2 × 10 3 × 15 2 × cos 60
+> eg 300 + 450 − 2 ×10³ × 15 2 × cos 60
 > Correct answer scores full marks (unless from obvious awrt 19.6 (19.559… so condone 19.5
 > 19.6 A1
 > incorrect working) (truncation))
@@ -951,7 +904,9 @@ Calculate the length, in cm to one decimal place, of AB cm
 
 ### 26(b) [5]
 
-Calculate the area, in cm2 to 3 significant figures, of triangle ABC cm2
+Calculate the area, in cm² to 3 significant figures, of triangle ABC
+
+…………… cm²
 
 
 **Mark scheme answer**

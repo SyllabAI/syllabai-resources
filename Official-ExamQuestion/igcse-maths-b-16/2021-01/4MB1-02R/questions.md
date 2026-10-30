@@ -8,9 +8,13 @@ E is the universal set and A, B and C are three sets such that E = {even numbers
 
 ### 1(a) [3]
 
+E is the universal set and A, B and C are three sets such that E = {even numbers between 5 and 31} A = {factors of 24} B = {8, 16} C = {multiples of 6} The Venn diagram on the opposite page can be used to show these sets.
+
 Complete the Venn diagram for the sets ℰ, A, B and C List the elements of the set
 
-> 🖼 crop required: diagram (qp.pdf p.2)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_1_diagram.png)
 
 
 **Mark scheme answer**
@@ -77,7 +81,9 @@ n ([A ∩ B] ∪ C) A number is selected at random from ℰ
 
 Find the probability that the number is in set B E A B C for a spare copy of the Venn diagram. Only use this Venn diagram if you wish to replace your answer to part (a) E A B C
 
-> 🖼 crop required: diagram (qp.pdf p.2)
+> *Figure not shown in this reconstruction — the printed paper includes a diagram (not drawn accurately). Use the text description to work through it.*
+
+![diagram — official paper figure (qp.pdf p.None)](assets/asset_1_diagram.png)
 
 
 **Mark scheme answer**
@@ -96,19 +102,21 @@ Each year the students at a college organise a music concert. In 2017, the total
 
 ### 2(a) [2]
 
+Each year the students at a college organise a music concert. In 2017, the total cost of organising the concert was \$675 In 2018, the total cost of organising the concert was 20% more than the total cost in 2017
+
 Calculate the total cost of organising the concert in 2018 The tickets sold each year were either adult tickets or student tickets. In 2019, the total number of tickets sold was 385 In 2019, the number of adult tickets sold and the number of student tickets sold were in the ratio number of adult tickets : number of student tickets = 19 : 16
 
 
 **Mark scheme answer**
 
 > 675 ×1.2 or 675 + 0.2 × 675 M1 complete method to increase by 20%
-> ($)810 2 A1
+> (\$)810 2 A1
 
 - **(2)** 675 ×1.2 or 675 + 0.2 × 675 M1 complete method to increase by 20%
 
 ### 2(b) [2]
 
-Calculate the number of adult tickets sold in 2019 In 2019, the price of each adult ticket sold was $8.50 and the price of each student ticket sold was $4.50
+Calculate the number of adult tickets sold in 2019 In 2019, the price of each adult ticket sold was \$8.50 and the price of each student ticket sold was \$4.50
 
 
 **Mark scheme answer**
@@ -122,13 +130,13 @@ Calculate the number of adult tickets sold in 2019 In 2019, the price of each ad
 
 ### 2(c) [2]
 
-Calculate the total amount of money, in $, received for all the tickets sold in 2019 In 2019, the total cost of organising the concert was double the total cost in 2017
+Calculate the total amount of money, in \$, received for all the tickets sold in 2019 In 2019, the total cost of organising the concert was double the total cost in 2017
 
 
 **Mark scheme answer**
 
 > "209"× 8.50 + (385 − "209") × 4.50 M1
-> ($)2568.50 2 A1 allow ($)2568.5
+> (\$)2568.50 2 A1 allow (\$)2568.5
 
 - **(2)** "209"× 8.50 + (385 − "209") × 4.50 M1
 
@@ -155,7 +163,11 @@ The equation of a curve is y = −2x3 + 6x + x2
 
 ### 3(a) [2]
 
-Complete the table of values for y = −2x3 + 6x + x2 Give your values of y to 2 decimal places where necessary. x −2 −1.8 −1.7 −1.6 −1.4 −1.2 −1 −0.9 −0.8 y 5.25 2.41 0.55 −0.36 1 4.04
+The equation of a curve is y = −2x3 + 6x + x²
+
+Complete the table of values for y = −2x3 + 6x + x² Give your values of y to 2 decimal places where necessary. x −2 −1.8 −1.7 −1.6 −1.4 −1.2 −1 −0.9 −0.8 y 5.25 2.41 0.55 −0.36 1 4.04
+
+![table — official paper figure (qp.pdf p.8)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_3_a_table.png)
 
 ![table — official paper figure (qp.pdf p.8)](assets/asset_3_a_table.png)
 
@@ -190,7 +202,9 @@ On the grid opposite, plot the points from your completed table and join them to
 
 ### 3(c) [1]
 
-Use your graph to find an estimate, to 2 decimal places, for the minimum value of −2x3 + 6x + 2 for values of x in −2 ≤ x ≤ −0.8 x y −2 −1 O x −1 −2 for a spare grid if you need to redraw your curve. Only use this grid if you need to redraw your curve. y −2 −1 O x −1 −2
+Use your graph to find an estimate, to 2 decimal places, for the minimum value of −2x3 + 6x + 2 for values of x in −2 ≤ x ≤ −0.8
+
+![graph — official paper figure (qp.pdf p.9) (same figure as asset_3_b_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_3_b_grid.png)
 
 ![graph — official paper figure (qp.pdf p.9) — shared with asset_3_b_grid](assets/asset_3_b_grid.png)
 
@@ -246,12 +260,10 @@ Find the probability that the total of the two numbers on the cards is 11 Chen t
 **Mark scheme answer**
 
 > ⎛1 1⎞ ⎛2 1⎞ 2 M1
-> 2⎜ × ⎟ + 2⎜ × ⎟
-> ⎝6 5⎠ ⎝ 6 5⎠
+> 2⎜ × ⎟ + 2⎜ × 6 5⎠ ⎝ 6 5⎠
 > 1 A1 (oe)
 > ⎛1 1⎞ ⎛2 1⎞ ⎛ 6 ⎞ B1
-> SC 2 ⎜ × ⎟ + 2 ⎜ × ⎟ ⎜= ⎟
-> ⎝6 6⎠ ⎝6 6⎠ ⎝ 36 ⎠
+> SC 2 ⎜ × ⎟ + 2 ⎜ × = 6 6⎠ ⎝6 6⎠ ⎝ 36 ⎠
 
 - **(2)** ⎛1 1⎞ ⎛2 1⎞ 2 M1
 
@@ -266,8 +278,7 @@ Find the probability that Chen stops taking cards from her bag before she takes 
 > +⎜ × ⎟+⎜ × × ⎟ M1 Allow + + or 1 − − or 1 − for this mark
 > 6 ⎝6 5⎠ ⎝6 5 4⎠ 6 15 5 15 15
 > ⎛ 4 3 2 2⎞ ⎛4 3 2 1⎞
-> or 1 − ⎜ × × × ⎟ − ⎜ × × × ⎟
-> ⎝ 6 5 4 3⎠ ⎝ 6 5 4 3⎠
+> or 1 − ⎜ × × × ⎟ − ⎜ × × × 6 5 4 3⎠ ⎝ 6 5 4 3⎠
 > or 1 − × ×
 > 6 5 4
 > 4 A1 (oe)
@@ -300,11 +311,11 @@ Calculate the length, in cm to 3 significant figures, of BD.
 
 **Mark scheme answer**
 
-> BD2 = 10.62 + 9.22 − 2 (10.6 )(9.2 ) cos 65 M1 Any correct method to find BD or BD2 allow once a
+> $BD^2$ = $10.6^2$ + $9.2^2$ − 2 (10.6 )(9.2 ) cos 65 M1 Any correct method to find BD or $BD^2$ allow once a
 > correct equation in BD is formed
 > 10.7 (cm) 2 A1 awrt 10.7
 
-- **(2)** BD2 = 10.62 + 9.22 − 2 (10.6 )(9.2 ) cos 65 M1 Any correct method to find BD or BD2 allow once a
+- **(2)** $BD^2$ = $10.6^2$ + $9.2^2$ − 2 (10.6 )(9.2 ) cos 65 M1 Any correct method to find BD or $BD^2$ allow once a
 
 ### 5(b) [1]
 
@@ -337,7 +348,7 @@ Calculate the length, in cm to 3 significant figures, of BC. The point E is such
 
 ### 5(d) [4]
 
-Calculate the area, in cm2 to 3 significant figures, of the quadrilateral BCDE. ⎡ ⎤ ⎢Cosine rule a = b + c − 2bc cos A⎥ 2 2 2 ⎢ a b c ⎥ ⎢ Sine rule = = ⎥ ⎢ sin A sin B sin C ⎥ ⎢ 1 ⎥ ⎢ Area of triangle = ab sin C ⎥ ⎣⎢ 2 ⎦⎥
+Calculate the area, in cm² to 3 significant figures, of the quadrilateral BCDE. ⎡ ⎤ ⎢Cosine rule a = b + c − 2bc cos A⎥ 2 2 2 ⎢ a b c ⎥ ⎢ Sine rule = = ⎥ ⎢ sin A sin B sin C ⎥ ⎢ 1 ⎥ ⎢ Area of triangle = ab sin C ⎥ ⎣⎢ 2 ⎦⎥
 
 
 **Mark scheme answer**
@@ -356,8 +367,7 @@ Calculate the area, in cm2 to 3 significant figures, of the quadrilateral BCDE. 
 > Area of ΔBDE = × "10.7"× "8.40" or
 > 2 BD or their BE or DE (for reference: = 44.960…)
 > Area of ΔBDE = × ("9.96") × sin 65
-> 63.2 (cm2) 4 A1 awrt 63.1 or 63.2
-> Total 9 marks
+> 63.2 (cm²) 4 A1 awrt 63.1 or 63.2
 
 - **(4)** Area of M1 Any correct method to find area of ΔBDC
 
@@ -368,7 +378,15 @@ The two functions, f and g, are defined for all values of x as f : x ↦ 3x + 1 
 
 ### 6(a) [2]
 
+The two functions, f and g, are defined for all values of x as f : x ↦ 3x + 1 g : x ↦ x² − 2
+
 Find (i) g (−3) (ii) fg (1)
+
+
+**Mark scheme answer**
+
+> *The official mark scheme line for this part was not captured by the digitised extraction — treat the worked values above the line with care and check against the paper's own mark scheme.*
+
 
 ### 6(b) [1]
 
@@ -472,7 +490,11 @@ The points with coordinates (2, 2), (5, 2) and (4, −1) are the vertices of tri
 
 ### 7(a) [1]
 
-On the grid, draw and label triangle A. Triangle A is transformed to triangle B under the transformation with matrix M where ⎛ 1⎞ ⎜ 2⎟ M= ⎜ ⎟ ⎜ −1 − 1 ⎟ ⎝ 2⎠
+The points with coordinates (2, 2), (5, 2) and (4, −1) are the vertices of triangle A.
+
+On the grid, draw and label triangle A. Triangle A is transformed to triangle B under the transformation with matrix M where ⎛ 1 2⎟ M= −1 − 1 2⎠
+
+![grid — official paper figure (qp.pdf p.25)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.25)](assets/asset_7_a_grid.png)
 
@@ -486,7 +508,9 @@ On the grid, draw and label triangle A. Triangle A is transformed to triangle B 
 
 ### 7(b) [2]
 
-On the grid, draw and label triangle B. Triangle B is transformed to triangle C under the transformation with matrix N where ⎛1 1⎞ − ⎜2 2⎟ N= ⎜ ⎜1 1 ⎟⎟ ⎝2 2⎠
+On the grid, draw and label triangle B. Triangle B is transformed to triangle C under the transformation with matrix N where ⎛1 1⎞ − ⎜2 2⎟ N= 1 1 2 2⎠
+
+![grid — official paper figure (qp.pdf p.24) (same figure as asset_7_b_grid_stem)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_7_b_grid_stem.png)
 
 ![grid — official paper figure (qp.pdf p.24) — shared with asset_7_b_grid_stem](assets/asset_7_b_grid_stem.png)
 
@@ -494,8 +518,8 @@ On the grid, draw and label triangle B. Triangle B is transformed to triangle C 
 **Mark scheme answer**
 
 > ⎛3 2 ⎞⎛ 2
-> 5 4⎞ M1 for correct matrix multiplication with at
-> ⎜ ⎟⎜ ⎟ least one correct coordinate or two correct
+> 5 4 M1 for correct matrix multiplication with at
+>  least one correct coordinate or two correct
 > ⎝ −1 − 2 ⎠ ⎝ 2 2 −1⎠
 > coordinates found or one correct coordinate
 > plotted.
@@ -514,7 +538,7 @@ On the grid, draw and label triangle C. Triangle B is the image of triangle C un
 **Mark scheme answer**
 
 > ⎛ 12 − 12 ⎞⎛ 7 16 11.5 ⎞ M1 ft for correct matrix multiplication with at
-> ⎜1 1 ⎟⎜ ⎟ least one correct coordinate or two correct
+> 1 1 least one correct coordinate or two correct
 > ⎝2 2 ⎠ ⎝ −3 −6 −3.5 ⎠
 > coordinates found or one correct coordinate
 > plotted. (following through their answer to (b))
@@ -532,20 +556,23 @@ Find the matrix P Triangle A is transformed to triangle C under the transformati
 
 > 1 ⎛ 12 12 ⎞ M1 for attempt at N −1 with either correct
 > or
-> ( 12 )( 12 ) − ( 12 )( − 12 ) ⎜⎝ − 12 12 ⎠⎟ determinant or correct elements in 2 by 2
+> ( 12 )( 12 ) − ( 12 )( − 12 ) − 12 12 determinant or correct elements in 2 by 2
 > matrix or sufficient linear equations to find the
 > 2 equations from each set of 3 terms of the matrix N −1 seen.
 > 5a + 2b = 7, 11a + 5b = 16 , 7.5a + 4b = 11.5
 > 5c + 2d = –3, 11c + 5d = –6 , 7.5c + 4d = –3.5
 > ⎛ 1 1⎞ 2 A1 oe do not ISW
-> ⎜ ⎟
-> ⎝ −1 1 ⎠
+>  −1 1 
 
 - **(2)** 1 ⎛ 12 12 ⎞ M1 for attempt at N −1 with either correct
 
 ### 7(e) [2]
 
-Find the matrix Q ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a⎟⎠ ⎦ y −2 O 2 4 6 8 10 12 14 16 18 x −2 −4 −6 −8 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y −2 O 2 4 6 8 10 12 14 16 18 x −2 −4 −6 −8
+Find the matrix Q.
+
+[The inverse of matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ is $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$]
+
+![grid — official paper figure (qp.pdf p.25) (same figure as asset_7_a_grid)](https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-maths-b-16/2021-01/4MB1-02R/assets/asset_7_a_grid.png)
 
 ![grid — official paper figure (qp.pdf p.25) — shared with asset_7_a_grid](assets/asset_7_a_grid.png)
 
@@ -553,9 +580,9 @@ Find the matrix Q ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix �
 **Mark scheme answer**
 
 > ⎛ 1 − 1 ⎞⎛ 3
-> 2 ⎞
+> 2 
 > M1 Matrix multiplication seen, must be in the
-> Q = NM = ⎜ 12 1 2 ⎟⎜ 1⎟
+> Q = NM = ⎜ 12 1 2 1⎟
 > or correct order or sufficient linear equations to
 > ⎝ 2 2 ⎠⎝ − 1 − 2⎠
 > find the terms of the matrix Q seen.
@@ -563,9 +590,7 @@ Find the matrix Q ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix �
 > 2a + 2b = 5, 5a + 2b =11, 4a – b = 7.5
 > 2c + 2d =2, 5c +2d = 5, 4c – d =4
 > ⎛ 2 12 ⎞ 2 A1 oe
-> ⎜ ⎟
-> ⎝1 0⎠
-> Total 9 marks
+>  1 0
 > C
 > A
 > B
@@ -579,13 +604,15 @@ E B x cm F D A C 3x cm G K H J (x − 2) cm 2x cm Figure 2 Figure 2 shows a soli
 
 ### 8(a) [4]
 
-Show that x3 − 2x2 − 144 = 0 Given that f (x) = x3 − 2x2 − 144
+E B x cm F D A C 3x cm G K H J (x − 2) cm 2x cm Figure 2 Figure 2 shows a solid right pentagonal prism ABCDEFGHJK which is made by fixing a solid right triangular prism ABCDEF onto a solid cuboid ACDFGHJK. The triangle ABC is isosceles with BA = BC and the height of the triangle is x cm. AH = FG = CJ = DK = 3x cm AC = HJ = FD = GK = 2x cm HG = JK = AF = CD = (x − 2) cm The volume of the pentagonal prism is 1008 cm³
+
+Show that x³ − 2x2 − 144 = 0 Given that f (x) = x³ − 2x2 − 144
 
 
 **Mark scheme answer**
 
 > [Volume of ACDFGHJK = ] M1 correct expression for the volume of
-> 3x × 2 x × ( x − 2 ) ⎡⎣ = 6 x3 − 12 x 2 ⎤⎦ or ACDFGHJK or the area of ABC or half the
+> 3x × 2 x × ( x − 2 ) ⎡⎣ = 6 x³ − 12 x 2 ⎤⎦ or ACDFGHJK or the area of ABC or half the
 > area of ABCJH
 > [Area of ABC =] × x × 2 x ⎡⎣ = x 2 ⎤⎦ or
 > 1 7 2
@@ -593,19 +620,18 @@ Show that x3 − 2x2 − 144 = 0 Given that f (x) = x3 − 2x2 − 144
 > 2
 > [Volume of ABCDEF = ] M1 correct expression for the volume of
 > 1 ABCDEF or the area of ABCJH
-> x × 2 x × ( x − 2 ) ⎡⎣ = x3 − 2 x 2 ⎤⎦ or
+> x × 2 x × ( x − 2 ) ⎡⎣ = x³ − 2 x 2 ⎤⎦ or
 > [Area of ABCJH =] × x × 2 x + 2 x × 3x ⎡⎣ = 7 x 2 ⎤⎦ or
 > [Area of ABCJH =] 2 3x 4 x x 7 x 2
 > 1 M1 dep on both previous M marks
 > 3x ( 2 x )( x − 2 ) + x ( 2 x )( x − 2 ) = 1008 or
-> ⎛1 ⎞
-> ⎜ × x × 2 x + 2 x × 3x ⎟ × ( x − 2 ) = 1008 or
+> ⎛1 × x × 2 x + 2 x × 3x ⎟ × ( x − 2 ) = 1008 or
 > ⎝2 ⎠
 > 2 3x 4 x x x 2 1008
-> 6 x 2 ( x − 2 ) + x 2 ( x − 2 ) = 1008 x3 − 2 x2 − 144 = 0 4 A1 – note that AG so sufficient working must
+> 6 x 2 ( x − 2 ) + x 2 ( x − 2 ) = 1008 x³ − 2 x² − 144 = 0 4 A1 – note that AG so sufficient working must
 > be shown
-> ⇒ 6 x3 − 12 x 2 + x3 − 2 x 2 = 1008 Must see all M marks and at least additional
-> ⇒ 7 x3 − 14 x 2 − 1008 = 0 stage towards the final answer.
+> ⇒ 6 x³ − 12 x 2 + x³ − 2 x 2 = 1008 Must see all M marks and at least additional
+> ⇒ 7 x³ − 14 x 2 − 1008 = 0 stage towards the final answer.
 
 - **(4)** [Volume of ACDFGHJK = ] M1 correct expression for the volume of
 
@@ -671,7 +697,7 @@ The equation of a curve C is y = x (2x − 3)(x + 2) The point P lies on C The x
 
 **Mark scheme answer**
 
-> y = x ( 2 x 2 + x − 6 ) = 2 x3 + x 2 − 6 x M1 for attempt to expand (allow one error)
+> y = x ( 2 x 2 + x − 6 ) = 2 x³ + x 2 − 6 x M1 for attempt to expand (allow one error)
 > Attempt to differentiate M1 for at least two terms of their y
 > differentiated correctly
 > dy A1
@@ -695,7 +721,6 @@ The equation of a curve C is y = x (2x − 3)(x + 2) The point P lies on C The x
 > Allow > sign rather than ≥
 > 2 7 A1 (oe) – condone x for a for full marks
 > a≥ or a ≤ −1
-> Total 7 marks
 
 - **(7)** y = x ( 2 x 2 + x − 6 ) = 2 x3 + x 2 − 6 x M1 for attempt to expand (allow one error)
 
@@ -708,7 +733,9 @@ C F B Diagram NOT accurately drawn c X D O A a Figure 3 → → Figure 3 shows a
 
 ### 10(a)(i) [2]
 
-CF in terms of a (ii) AD in terms of c The lines OD and AF intersect at the point X → → → → Given that OX = λOD and AX = μAF , where λ and μ are scalars,
+C F B Diagram NOT accurately drawn c X D O A a Figure 3 → → Figure 3 shows a rectangle OABC in which OA = a and OC = c F is the midpoint of CB and D is the point on AB such that AD : DB = 2 : 3
+
+CF in terms of a (ii) AD in terms of c The lines OD and AF intersect at the point X → → → → Given that OX = λOD and AX = μAF , where λ and μ are scalars …………… , ……………
 
 
 **Mark scheme answer**
@@ -725,12 +752,11 @@ find the value of λ and the value of μ Given that OX : XD = n : 1
 
 **Mark scheme answer**
 
-> (OX = ) λ ⎛⎜⎝ a + " 52 c "⎞⎟⎠ M1 ft their AD
-> ( AX = ) μ ⎛⎜⎝ c − 12 a ⎞⎟⎠ ⎛ 1 ⎞
-> M1 ft their CF μ ⎜ c + a − " a " ⎟
-> ⎝ 2 ⎠
+> (OX = ) λ a + " 52 c " M1 ft their AD
+> ( AX = ) μ c − 12 a 1 
+> M1 ft their CF μ ⎜ c + a − " a " 2 ⎠
 > M1
-> (OX = ) a + μ ⎛⎜⎝ c − 12 a ⎞⎟⎠ or using OX − AX = OA
+> (OX = ) a + μ c − 12 a or using OX − AX = OA
 > to set up an equation with λ and µ
 > ⎛ 2 ⎞ ⎛ 1 ⎞ M1 oe correct vector equations following
 > " λ ⎜ a + c ⎟ " = "a + μ ⎜ c − a ⎟ " through their answers in (a)
@@ -751,7 +777,7 @@ find the value of λ and the value of μ Given that OX : XD = n : 1
 
 ### 10(c) [1]
 
-find the value of n Given also that | a | = 12 cm and | c | = 12.5 cm,
+find the value of n Given also that | a | = 12 cm and | c | = 12.5 cm …………… , ……………
 
 
 **Mark scheme answer**
@@ -764,7 +790,7 @@ find the value of n Given also that | a | = 12 cm and | c | = 12.5 cm,
 
 ### 10(d) [4]
 
-find the area, in cm2, of quadrilateral XDBF
+find the area, in cm², of quadrilateral XDBF
 
 
 **Mark scheme answer**
@@ -777,15 +803,14 @@ find the area, in cm2, of quadrilateral XDBF
 > Area of ΔADX = × "5"× ⎜ ×12 ⎟ [ = 5] or
 > 2 ⎝6 ⎠
 > 1 ⎛ ⎛ 6 ⎞⎞
-> × sin ⎜ tan −1 ⎜ ⎟ ⎟ × "5"× " "× 6 + 12.5 [ = 5]
+> × sin tan −1 × "5"× " "× 6 + 12.5 [ = 5]
 > 2
 > 2 ⎝ ⎝ 12.5 ⎠ ⎠
 > ⎛ 5 ⎞ M1 Correct method to find area of triangle
 > Area of ΔADX = ⎜1 − " " ⎟ × "30"[ = 5] and ABF and ADX
 > ⎝ 6 ⎠
 > Area of ΔABF = ×12.5 × 6 [ = 37.5]
-> 32.5 (cm2) 4 A1
-> Total 14 marks
+> 32.5 (cm²) 4 A1
 
 - **(4)** c = 12.5 ⇒ AD = 5 B1
 
@@ -807,9 +832,9 @@ Diagram NOT accurately drawn Figure 4 Figure 4 shows six identical circles insid
 > (
 > [Area of circles = ] 6 π (12 )
 > ) [= 2714(4sf )] B1 Accept 864π
-> 242 − 122 [ = 20.8] or M1 for finding the vertical distance between
+> $24^2$ − $12^2$ [ = 20.8] or M1 for finding the vertical distance between
 > the centres of two circles on adjacent rows or
-> 482 − 242 [= 41.6] or between the top circle and the bottom row
+> $48^2$ − $24^2$ [= 41.6] or between the top circle and the bottom row
 > 2 × 12 × sin 60 or 4 × 12 × sin 60
 > 2 ×12 + 2 × "20.8"[ = 65.6] M1dep for finding total height of the rectangle
 > oe e.g. 2 (12 ) + "41.6" or 24 + 24 3
@@ -824,9 +849,9 @@ Diagram NOT accurately drawn Figure 4 Figure 4 shows six identical circles insid
 > (
 > [Area of circles = ] 6 π ( 6 )
 > ) [= 678.6(4sf )] B0
-> 122 − 62 [= 10.4] or M1 for finding the vertical distance between
+> $12^2$ − $6^2$ [= 10.4] or M1 for finding the vertical distance between
 > the centres of two circles on adjacent rows or
-> 242 − 122 [ = 20.8] or between the top circle and the bottom row
+> $24^2$ − $12^2$ [ = 20.8] or between the top circle and the bottom row
 > 2 × 6 × sin 60 or 4 × 6 × sin 60
 > 2 × 6 + 2 × "10.4"[ = 32.8] M1dep for finding total height of the rectangle
 > oe e.g. 2 ( 6 ) + "20.8" or 12 + 12 3
@@ -836,7 +861,6 @@ Diagram NOT accurately drawn Figure 4 Figure 4 shows six identical circles insid
 > 57.5% A1 AG must see sufficient working to award
 > all method marks their expression must
 > evaluate to awrt 57.5
-> Total 6 marks
 
 - **(6)** [Length of rectangle = ]72 6 B1 (May be seen within working)
 
