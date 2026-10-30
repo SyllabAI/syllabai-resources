@@ -3,14 +3,14 @@
  * LLM fidelity polish for YPH11 SB2 (IAL physics) v1 chunks (4PH1-style, scan-adapted).
  * PRIMARY error class on this scan: RapidOCR drops spaces between words.
  * STRICT RULE: fix only OCR/parse transcription errors; never reword/paraphrase.
- * Reads data/llm_repair_ids_physics.json, writes data/llm_repairs_physics.jsonl (resumable).
+ * Reads data/llm_repair_ids_sb2.json, writes data/llm_repairs_sb2.jsonl (resumable).
  */
 const fs = require("fs");
 
-const ZJSONL = "/home/z/my-project/download/rag_ial_physics/edexcel_ial_physics_sb2_chunks_v1.jsonl";
-const IDS = JSON.parse(fs.readFileSync("/home/z/my-project/data/ial_physics/llm_repair_ids_sb2.json", "utf-8"));
-const OUT = "/home/z/my-project/data/ial_physics/llm_repairs_sb2.jsonl";
-const LOG = "/home/z/my-project/data/ial_physics/llm_repair_sb2.log";
+const ZJSONL = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl";
+const IDS = JSON.parse(fs.readFileSync("/home/z/my-project/data/llm_repair_ids_sb2.json", "utf-8"));
+const OUT = "/home/z/my-project/data/llm_repairs_sb2.jsonl";
+const LOG = "/home/z/my-project/data/llm_repair_sb2.log";
 
 function log(msg) {
   const line = `[${new Date().toISOString()}] ${msg}`;

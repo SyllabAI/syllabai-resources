@@ -5,16 +5,16 @@ report regenerated. Serving-critical guarantee: id / unit_no / chapter_no /
 content_type / pdf_pages / book_pages / section are NEVER touched; an
 anchor-preservation diff against the pristine pre-polish snapshot is printed.
 """
-import json, os, sys, collections
+import json, os, collections
 
-sys.path.insert(0, "/home/z/my-project/scripts")
-from book_structure_ial_physics import BOOK_TITLE, BOOK_AUTHOR
+BOOK_TITLE = "Pearson Edexcel International A2 Level Physics Student Book 2"
+BOOK_AUTHOR = "Miles Hudson"
 
-ZJSONL = "/home/z/my-project/download/rag_ial_physics/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
-PRISTINE = "/home/z/my-project/data/ial_physics/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl.pristine"
-REPAIRS = "/home/z/my-project/data/ial_physics/llm_repairs_sb2.jsonl"
-MD_OUT = "/home/z/my-project/download/rag_physics/full_book_docling.md"
-REPORT = "/home/z/my-project/download/rag_physics/parse_report_v1.json"
+ZJSONL = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
+PRISTINE = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.pristine"
+REPAIRS = "/home/z/my-project/data/llm_repairs_sb2.jsonl"
+MD_OUT = "/home/z/my-project/download/rag_yph11/full_book_sb2_docling.md"
+REPORT = "/home/z/my-project/download/rag_yph11/parse_report_sb2_v1.json"
 ANCHOR_KEYS = ("id", "unit_no", "chapter_no", "content_type",
                "pdf_pages", "book_pages", "section", "unit_name", "chapter_title")
 

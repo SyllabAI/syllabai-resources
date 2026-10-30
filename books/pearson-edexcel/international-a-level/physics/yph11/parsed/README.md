@@ -102,9 +102,27 @@ verbatim manual transcription rescue is PENDING for SB2 (SB1's
 manual_formula_ws_yph11.py is the precedent of record). SB2 formula items that
 did decode: 9 converted to Unicode, 1 failed (dropped, body text carries it).
 
-**SB2 polish status:** selected 794/826 (all 67 chapter_questions forced +
-glue-scored), 0 applied — the same account-level 429 wall as SB1 R1; resume
-identical (`pipeline/scripts/llm_repair_ial_physics_sb2.js` →
-`merge_llm_ial_physics_sb2.py` → `audit_polish_ial_physics_sb2.py` →
-re-validate; pristine snapshot shipped at
-`edexcel_ial_physics_yph11_sb2_chunks_v1.pristine`).
+**SB2 polish status: R1 COMPLETE 2026-10-30 — 794/794 terminal** (774
+applied, all with text changes; 20 guard-rejected raws with original text
+preserved — same guard class as SB1: length drift 0.6–1.7×, refusals,
+Unicode-unit non-decrease, per-line pipe counts on tables, wording fidelity
+via whitespace-stripped char-LCS ≥ 0.97). The runner banked the selection
+across five quota openings of the same account-level 429 wall (2026-10-25
+22:17–22:52Z +94; 2026-10-26 +261; 2026-10-27 +254; two sealed probe-only
+cycles +0; 2026-10-30 07:45–08:50Z +185 finishing), PM-3 probe/resume
+throughout; chain re-runnable via `pipeline/scripts/llm_repair_ial_physics_sb2.js`
+→ `merge_llm_ial_physics_sb2.py` → `audit_polish_ial_physics_sb2.py` →
+`validate_ial_physics_sb2.py` (pristine snapshot shipped at
+`edexcel_ial_physics_yph11_sb2_chunks_v1.pristine`). Post-merge: anchor diff
+vs pristine **0 drift** (id/unit/chapter/type/pages/section untouched;
+char_count recomputed); `full_book_sb2_docling.md` +
+`parse_report_sb2_v1.json` regenerated. Audit: on repaired chunks space-run
+**4610 → 15**, camel-glue 450 → 13, caps-glue 326 → 94, latex remnants 0,
+repeated-punct 720 → 714, **0 Unicode-unit regressions**; the 7 chunks still
+carrying 18+-char lowercase runs were verified against `text_original` — all
+carry the runs verbatim in the OCR source (URLs, acknowledgements, one
+unrecoverably mangled Latin-quote passage), i.e. 0 true regressions.
+Validator post-polish: **ALL CHECKS PASSED** (826 chunks, 13/13 chapters,
+7/7 units, 26/26 question pages, 0 order breaks). Scripts of record were
+replaced in the completion commit — the versions shipped 2026-10-25 carried
+pre-fix phantom paths (`books/README.md` E-006).

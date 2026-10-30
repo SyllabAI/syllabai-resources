@@ -10,7 +10,7 @@ Extra checks vs the 4PH1 reference:
 """
 import json, re, collections, sys
 
-F = "/home/z/my-project/download/rag_ial_physics/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
+F = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
 chunks = [json.loads(l) for l in open(F)]
 errs = []
 

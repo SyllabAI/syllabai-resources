@@ -54,8 +54,8 @@ books/
 | Edexcel IGCSE Chemistry (4CH1), 383 pp | `chem_v3_…` | v1 640 / v3 **1234** chunks | Final; external audit green (2026-10-18); LLM-polished |
 | Edexcel IGCSE Physics (4PH1), 308 pp | `phys_v1_…` | v1 **736** chunks | Final; polish rounds 1–2 (299/300); validation green (2026-10-20) |
 | Edexcel IGCSE Biology (4BI1), 357 pp | `bio_v1_…` | v1 **871** chunks | Parsed 2026-10-21 (T-PARSE-4BI1-1): **first text-layer lane** (PyMuPDF, no OCR); validation green; polish round 1 (see parsed report) |
-| Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
-| Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
+| Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 COMPLETE 2026-10-25 (404/404 — 394 applied, 7 guard-rejected; audit space-glue 1759→4, 0 Unicode regressions) |
+| Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 COMPLETE 2026-10-30 (794/794 — 774 applied, 20 guard-rejected; anchor diff 0 drift, audit green, 0 Unicode regressions; chain scripts of record replaced, E-006) |
 | Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1-R3 partial (90/800 across five quota windows, pristine-baseline merges anchor 0 drift, quota-walled, resumable) |
 | Edexcel IAL Chemistry YCH12 **SB2** (Curtis, Murgatroyd & Scott), 320 pp | `ych2_v1_…` / `ych2_v2_…` | v1 1400 / **v2 1406** chunks (v2 = corpus of record) | Parsed 2026-10-25 (T-PARSE-YCH12-1): page law book = pdf−12, roman = pdf−0 (i absent; no printed page 1); 2 units / 10 topics / 19 chapters (11A–20A); 315 blank formula regions exported, 133 verbatim-transcribed (127 fills + 6 adjudicated), 182 banked by rescue R2 (315/315 sidecar, bbox-verified position-true); validator ALL CHECKS PASSED, byte-identity double-run verified; periodic-table page + FOUR graph-paper end leaves registered as by-design gaps; polish R1 v1 partial 103/800 (quota-walled, burst-harvest). **v2 fresh-parse lane (T-PARSE-YCH12-2, 2026-10-27): corpus of record switched to v2 — 1406 chunks (`ych2_v2_`), FULL 315/315 sidecar consumed (305/306 fills in chunk text, METHOD D-12), validator ALL CHECKS PASSED; v1 corpus + its 103-repair evidence remain landed/history (repairs do not carry by id); v2 polish R1 re-staged 801 ids, grind in progress (quota-walled regime, L-024/L-025/L-026)** |
 
@@ -667,6 +667,27 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   "v2" passed ALL CHECKS). Disposition: FIXED HERE (comment corrections in
   both scripts, same commit — comments only, no behavior change).
 
+- **E-006** (2026-10-30, T-PARSE-YPH11-1 SB2 polish completion): the SB2
+  polish-chain scripts shipped by the 2026-10-25 SB1-polish commit
+  (`6a0779e0`) were the PRE-FIX phantom-path versions —
+  `merge_llm_ial_physics_sb2.py` and `audit_polish_ial_physics_sb2.py`
+  pointed at `download/rag_ial_physics/` + `data/ial_physics/` (directories
+  that never existed in this repo), the merge's MD_OUT/REPORT pointed at the
+  4PH1 lane's `full_book_docling.md` + `parse_report_v1.json` (clobber
+  hazard on a sibling lane's of-record outputs), the repair runner read
+  `rag_ial_physics/edexcel_ial_physics_sb2_chunks_v1.jsonl` (filename also
+  missing the `yph11` component), `select_noisy_ial_physics_sb2.py` would
+  have clobbered the of-record ids file instead of writing its `.regen`
+  copy, and the `polish_loop_ial_physics_sb2.sh` wrapper named in that
+  commit's message was not in the tree at all. Evidence: `git show
+  6a0779e0:books/…/pipeline/scripts/merge_llm_ial_physics_sb2.py` path
+  lines vs the corrected scripts landed here. Provenance: a sandbox
+  workspace reset reverted the working copies between the 10-24 fix session
+  and that commit. Proven by running the corrected flat-path chain
+  (`download/rag_yph11/` + flat `data/`) to completion: merge ANCHOR_PASS,
+  audit 0 Unicode-unit regressions, validator ALL CHECKS PASSED (SB2 polish
+  R1 794/794). Disposition: FIXED HERE — the five tested scripts + the
+  wrapper replaced in the same commit that lands SB2 polish R1 COMPLETE.
 
 *(template for future entries; superseding entries must reference the
 E-ID they correct)*

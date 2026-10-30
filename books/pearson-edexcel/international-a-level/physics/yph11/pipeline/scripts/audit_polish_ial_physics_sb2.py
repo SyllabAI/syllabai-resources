@@ -2,14 +2,12 @@
 """Post-polish audit for physics v1 (chemistry-style): re-score the polished
 corpus with the same selector patterns and report before/after on the 300
 polished ids plus corpus-wide space-glue totals."""
-import json, re, sys
+import json, re
 from collections import Counter
 
-sys.path.insert(0, "/home/z/my-project/scripts")
-
-POLISHED = "/home/z/my-project/download/rag_ial_physics/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
-PRISTINE = "/home/z/my-project/data/ial_physics/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl.pristine"
-REPAIRS = "/home/z/my-project/data/ial_physics/llm_repairs_sb2.jsonl"
+POLISHED = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
+PRISTINE = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.pristine"
+REPAIRS = "/home/z/my-project/data/llm_repairs_sb2.jsonl"
 
 PATTERNS = {
     "space_run":     re.compile(r"\b[a-z]{18,}\b"),

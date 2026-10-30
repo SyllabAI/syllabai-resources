@@ -10,12 +10,13 @@ Policy:
 - include every chunk with measurable glue damage (longest lowercase run >= 12)
 - table_data and glossary/index glue is included too (guards protect structure;
   4PH1 precedent: index table chunk was the only holdout, evidence kept)
-Outputs data/ial_physics/llm_repair_ids_sb2.json (ordered: questions first).
+Writes REGEN copy data/llm_repair_ids_sb2.regen.json + diffs vs live of-record (never clobbers live).
 """
 import json, re, collections
 
-F = "/home/z/my-project/download/rag_ial_physics/edexcel_ial_physics_yph11_sb2_chunks_v1.jsonl"
-OUT = "/home/z/my-project/data/ial_physics/llm_repair_ids_sb2.json"
+F = "/home/z/my-project/download/rag_yph11/edexcel_ial_physics_yph11_sb2_chunks_v1.pristine"
+OUT = "/home/z/my-project/data/llm_repair_ids_sb2.regen.json"
+LIVE = "/home/z/my-project/data/llm_repair_ids_sb2.json"
 chunks = [json.loads(l) for l in open(F)]
 
 def glue_metrics(text):
@@ -43,3 +44,7 @@ selected.sort(key=lambda t: (not t[1], -t[2]))
 ids = [i for i, _, _, _ in selected]
 json.dump(ids, open(OUT, "w"), indent=0)
 print(f"-> {OUT} ({len(ids)} ids)")
+live = json.load(open(LIVE))
+so, sl = set(ids), set(live)
+print(f"reconciliation vs live of-record ({len(sl)} ids): reproduced {len(so & sl)}/{len(sl)}, "
+      f"only-in-live {sorted(sl - so)[:6]}, only-in-regen {sorted(so - sl)[:6]}")

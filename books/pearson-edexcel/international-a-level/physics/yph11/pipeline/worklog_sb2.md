@@ -36,3 +36,35 @@ delta on top, blob-compared before push).
   to L-021/L-022 + E-004 + R-005 (SB1 lane took L-018…L-020 + E-003 + R-004),
   CATALOG row 3 / §3.4 / §4.2 / change log.
 - Phase 10: temp-index delta commit on fresh origin/main.
+
+## Phase 7 completion (2026-10-30, sessions of 10-25 → 10-30)
+
+- Five quota openings of the account-level 429 wall banked the full
+  selection, PM-3 probe/resume throughout, crash-safe JSONL append per
+  chunk: 2026-10-25 22:17–22:52Z +94 · 2026-10-26 evening +261 · 2026-10-27
+  evening +254 · two sealed probe-only cycles +0 · 2026-10-30 07:45–08:50Z
+  +185 (last window finished the final 19, `remaining todo: 0`).
+- Final: **794/794 terminal = 774 applied (all with text changes) + 20
+  guard-rejected** (original text preserved; same guard class as SB1 —
+  LCS ≥ 0.97 whitespace-stripped, length 0.6–1.7×, Unicode-unit
+  non-decrease, pipe discipline, line-strict retry).
+- Merge (`merge_llm_ial_physics_sb2.py`): anchor diff vs pristine **0
+  drift**; char_count recomputed; `full_book_sb2_docling.md` +
+  `parse_report_sb2_v1.json` regenerated.
+- Audit (`audit_polish_ial_physics_sb2.py`): on repaired chunks space-run
+  4610→15, camel-glue 450→13, caps-glue 326→94, 0 Unicode-unit regressions.
+  The 7 chunks retaining 18+-char lowercase runs verified against
+  `text_original`: all carry the runs verbatim in the OCR source (URLs,
+  acknowledgements, one unrecoverably mangled Latin-quote passage) — 0 true
+  regressions.
+- Validator (`validate_ial_physics_sb2.py`): **ALL CHECKS PASSED** (826
+  chunks, 13/13 chapters, 7/7 units, 26/26 question pages, 0 order breaks).
+- Chain scripts of record replaced: the 2026-10-25 commit had shipped the
+  pre-fix phantom-path versions (`download/rag_ial_physics/` +
+  `data/ial_physics/` paths; MD_OUT pointing at the 4PH1 lane's
+  `full_book_docling.md` — clobber hazard) and omitted the wrapper entirely
+  (`books/README.md` E-006); this commit lands the tested flat-path scripts
+  that produced the R1 merge.
+- Phase 10: delta commit on fresh origin/main (L-008 protocol — workspace
+  reset had corrupted the stale local checkout; hard-reset to 8dd16e99,
+  clean tree verified, CATALOG rebased on upstream row state).
