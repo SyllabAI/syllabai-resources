@@ -1,0 +1,344 @@
+{
+ "schema": "syllabai.stemfig-pass-receipt/1.0",
+ "wave": "F123",
+ "task": "T-OEQ-STEMFIG-2019-06",
+ "order": "the 2019-06 stem-figure stub pass",
+ "generated_utc": "2026-10-30",
+ "branch": "t-oeq-stemfig-2019-06/run-001",
+ "data_cut_validated": "main@b541dda88909d54ebc1808f3d58f7e67f783ed2f (pre-flight zero-delta no-op)",
+ "exporter": "official_examq_export_hub.py v5 (unchanged; _CHEM_F123_NOTE_HEAD bump only)",
+ "converter": "v0.33.0 (unchanged)",
+ "scope": {
+  "series": "2019-06",
+  "papers": [
+   "4CH1-1C",
+   "4CH1-1CR",
+   "4CH1-2C",
+   "4CH1-2CR"
+  ],
+  "restorations": 13,
+  "ledger_keys_added": 12,
+  "crops_added": 13
+ },
+ "restorations": [
+  {
+   "key": "2019-06/4CH1-1C:Q4.b",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_4_b_i_chromatogram",
+     "page": 9,
+     "rect": [
+      128,
+      132,
+      445,
+      306
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1C:Q8.c",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_8_c_i_chloroethene",
+     "page": 13,
+     "rect": [
+      278,
+      413,
+      372,
+      487
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1C:Q10.a",
+   "verdict": "replace",
+   "cuts": [],
+   "figures": [
+    "asset_10_stem_pentane"
+   ],
+   "assets": [
+    {
+     "id": "asset_10_stem_pentane",
+     "page": 15,
+     "rect": [
+      238,
+      153,
+      414,
+      240
+     ],
+     "render": "vector",
+     "stem_figure": true
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1C:Q15.b",
+   "verdict": "keep",
+   "cuts": [
+    "dropSpan",
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_15_b_i_apparatus",
+     "page": 26,
+     "rect": [
+      110,
+      530,
+      565,
+      722
+     ],
+     "render": "raster"
+    },
+    {
+     "id": "asset_15_b_i_results-table",
+     "page": 27,
+     "rect": [
+      160,
+      108,
+      500,
+      200
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1CR:Q3.c",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_3_c_i_chromatogram",
+     "page": 6,
+     "rect": [
+      123,
+      278,
+      530,
+      510
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1CR:Q8.b",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_8_b_i_results-table",
+     "page": 18,
+     "rect": [
+      98,
+      640,
+      562,
+      716
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1CR:Q9.b",
+   "verdict": "keep",
+   "cuts": [],
+   "assets": [
+    {
+     "id": "asset_9_b_i_fullerene",
+     "page": 20,
+     "rect": [
+      266,
+      383,
+      388,
+      492
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-1CR:Q10.b",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "complete_sentence_keep": true,
+   "assets": [
+    {
+     "id": "asset_10_b_i_results-table",
+     "page": 22,
+     "rect": [
+      148,
+      468,
+      500,
+      558
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-2C:Q3.c",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_3_c_i_results-table",
+     "page": 7,
+     "rect": [
+      103,
+      112,
+      548,
+      272
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-2C:Q4.c",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "assets": [
+    {
+     "id": "asset_4_c_i_alloy",
+     "page": 9,
+     "rect": [
+      203,
+      140,
+      562,
+      306
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-2C:Q7.b",
+   "verdict": "keep",
+   "cuts": [
+    "dropSpan"
+   ],
+   "assets": [
+    {
+     "id": "asset_7_b_i_gas-syringe",
+     "page": 16,
+     "rect": [
+      203,
+      376,
+      458,
+      512
+     ],
+     "render": "vector"
+    }
+   ]
+  },
+  {
+   "key": "2019-06/4CH1-2CR:Q3.a",
+   "verdict": "keep",
+   "cuts": [
+    "dropTail"
+   ],
+   "figures": [
+    "asset_3_stem_fractionating-column"
+   ],
+   "assets": [
+    {
+     "id": "asset_3_stem_fractionating-column",
+     "page": 6,
+     "rect": [
+      123,
+      133,
+      442,
+      387
+     ],
+     "render": "vector",
+     "stem_figure": true
+    }
+   ]
+  }
+ ],
+ "no_action": [
+  {
+   "case": "2CR 6(a)(i)",
+   "why": "recall task, printed page shows answer lines only (FIGURE-QUEUE dismissed analogue class)"
+  },
+  {
+   "case": "1CR 1(a) / 2CR 1(a)",
+   "why": "printed word boxes fully text-captured in the served stems"
+  },
+  {
+   "case": "1CR 3(a) / 2CR 4(c) / 2CR 5(c)(i)",
+   "why": "draw tasks; the labels/answer-space the stems carry ARE the printed content"
+  },
+  {
+   "case": "1C Q5 / Q14(f) / Q10(b); 2C Q7(c); 1CR Q9(c)",
+   "why": "prose/equation-only detector hits; no printed figure exists"
+  }
+ ],
+ "residual_disclosed": [
+  {
+   "case": "1CR 8(b)(i) part-level grid-axis soup",
+   "why": "lives in the part's own problem_md (pre-existing); the printed grid is served by asset_8_b_i_grid; candidate for a future part-level soup pass"
+  }
+ ],
+ "gates": {
+  "G-E3": "54 slices match MULTI-SERIES constants (4,860 marks)",
+  "G-E2": "part-sum + markPoints sum-law + spec-code shapes hold",
+  "G-E1": "12 deltas == disclosure exactly (phase-1 refused with 12 as designed)",
+  "G-E1b": "identity fields byte-equal 54/54",
+  "G-E6": "labels 2,607/2,607",
+  "G-E4": "SME passthrough byte-identical (2,605,409 B)",
+  "G-E7": "567 accounted / 567 restored / 46 cuts / 48 keys consumed"
+ },
+ "counts": {
+  "sets": 54,
+  "questions": 477,
+  "parts": 2607,
+  "marks": 4860,
+  "markPoints": 4161,
+  "figure_crops": 491,
+  "honest_stubs": 7,
+  "figure_crops_before": 478
+ },
+ "batteries": {
+  "f121": "125/125 (constants 36->48 verdicts, 3->5 figures[])",
+  "strip_law": "29/29",
+  "f116": "green",
+  "f117": "green",
+  "f118": "green",
+  "f119": "green"
+ },
+ "disclosure": "scripts/exporter-disclosures/2026-10-30-f123-stemfig-2019-06-4ch1.json",
+ "corpus_bytes": {
+  "topic_json_touched": [
+   "2019-06/4CH1-1C",
+   "2019-06/4CH1-1CR",
+   "2019-06/4CH1-2C",
+   "2019-06/4CH1-2CR"
+  ],
+  "validation_reports": "untouched (C57/F66)",
+  "multi_series_report": "untouched (counts unchanged)"
+ }
+}

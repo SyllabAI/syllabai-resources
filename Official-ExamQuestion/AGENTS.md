@@ -513,6 +513,21 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 31 (2026-10-30, F123) CLOSED the 2019-06 stem-figure stub tranche (operator
+  order "the 2019-06 stem-figure stub pass"): the F121 soup detector's
+  false-negative class — 13 June-2019 stems serving flattened figure-label soup
+  or a dropped printed figure — adjudicated to zero corpus-side. 13 eyeballed
+  150 dpi manual crops (the of-record manual-crop shape) + 12 STEM-RESTORE.json
+  group verdicts (48 total; 10 cuts all crop-corroborated incl. one
+  dropSpan+dropTail and one complete-sentence-keep; 1 replace; 1 pure keep; 2
+  declared figures[] restore print order); exporter note-of-record bumped
+  (_CHEM_F123_NOTE_HEAD chains F121). Gated run: G-E1 12 deltas == the disclosure
+  exactly (the 12 carrier parts, new=0/gone=0), G-E7 46 cuts / 48 keys, counts
+  unchanged except figure crops 478 -> 491; F121 battery 125/125 (constants
+  36->48 / 3->5), strip-law 29/29, F116-F119 green; pre-flight no-op proven at
+  the unpatched cut. No-action rows (recall tasks, text-captured boxes, draw
+  tasks, prose hits) and the 1CR 8(b)(i) part-level residual are receipted in
+  AUDIT-2026-10-30-f123-stemfig-2019-06.{md,json}.
 - Task 30 (2026-10-30, F122) CLOSED the maths-B corpus back-sync standing debt (operator
   order "the maths-B corpus back-sync", trace 1a18c23adef78245) with the F114
   reconcile-to-plane shape at scale: corpus := the serving plane of record (f7a8c687) per

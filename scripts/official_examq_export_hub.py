@@ -149,6 +149,31 @@ _CHEM_F121_NOTE_HEAD = (
     "chain (through the F119 label pin and the F117/F113/F108 waves it chains) "
     "is preserved verbatim on the serving manifest. 54 official sets (16x1C + "
     "16x2C + R-variants), 477 questions, 2,607 parts, all spec-tagged.")
+# F123 headline of record (T-OEQ-STEMFIG-2019-06). Chains the F121 head
+# verbatim (the manifest note is the full chain; this is the exporter-side
+# bump the staging law requires).
+_CHEM_F123_NOTE_HEAD = (
+    "ADR-037 exporter v5 at this cut (F123, the 2019-06 stem-figure stub pass "
+    "- T-OEQ-STEMFIG-2019-06): the thirteen un-adjudicated 2019-06 stem-figure "
+    "stubs restore - every flattened figure-label soup / dropped printed figure "
+    "in the June-2019 slice (1C Q4.b second chromatogram, Q8.c chloroethene, "
+    "Q10.a pentane, Q15.b apparatus + mass table; 1CR Q3.c chromatogram, Q8.b "
+    "and Q10.b results tables, Q9.b C60 fullerene; 2C Q3.c results table, Q4.c "
+    "alloy, Q7.b gas syringe; 2CR Q3.a fractionating column as a declared group "
+    "figure) is now served by an eyeballed 150 dpi manual crop (13 assets, "
+    "figure crops 478 -> 491) with 12 STEM-RESTORE.json group verdicts (10 cuts "
+    "crop-corroborated incl. one dropSpan+dropTail and one complete-sentence-keep, "
+    "1 replace, 1 keep; 2 declared figures[] restore print order) - the wave-19/20 "
+    "cut law held: every cut's printed object is served by a crop of record. "
+    "official-papers.json re-served at this cut: 12 parts changed (G-E1 census == "
+    "scripts/exporter-disclosures/2026-10-30-f123-stemfig-2019-06-4ch1.json "
+    "exactly - the stem-figure class only, new=0/gone=0). Counts: 54 sets / 477 "
+    "questions / 2,607 parts / 4,860 marks / 4,161 markPoints; figure crops 491 + "
+    "honest stubs 7; G-E4 SME passthrough byte-identical. Wave-15 UX doctrine "
+    "governs under ADR-039 fix-and-disclose: best learner experience, values "
+    "never invented. "
+    + _CHEM_F121_NOTE_HEAD
+)
 # F119 headline of record (T-OEQ-PARTLABEL-3). The full chained note (this
 # headline + the superseded pin's note kept verbatim) is assembled on the
 # serving manifest in the v2 content PR; this hardcode is the exporter-side
@@ -1442,7 +1467,7 @@ def main():
         # F51: the pin law — the staged manifest names the data cut the run
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
-        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F121_NOTE_HEAD
+        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F123_NOTE_HEAD
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())

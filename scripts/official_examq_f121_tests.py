@@ -2,7 +2,7 @@
 """F121 group-stem restore wave — zero-network unit battery (CI step).
 
 Covers:
-  A  the ledger of record: 36 group verdicts, shapes, served_by evidence
+  A  the ledger of record: 48 group verdicts (36 F121 + 13 F123 2019-06 stem-figure stubs), shapes, served_by evidence
   B  the live anchor law: every cut anchor aligns whitespace-tolerantly and
      UNIQUELY against its raw corpus group_stem_md, and the pre-cut context
      ends complete prose
@@ -101,14 +101,14 @@ def raw_stem(key):
 def section_a():
     print("A. the ledger of record")
     gk = group_keys()
-    check("36 group verdicts present", len(gk) == 36, f"got {len(gk)}")
+    check("48 group verdicts present (36 F121 + 13 F123)", len(gk) == 48, f"got {len(gk)}")
     check("all group verdicts carry a known verdict",
           all(v.get("verdict") in ("drop-tail", "keep", "replace") for v in gk.values()))
     check("every cut verdict carries served_by + why evidence",
           all(("served_by" in v and "why" in v)
               for v in gk.values() if v.get("tail") or v.get("dropSpan") or v.get("dropTail")))
     figs = {k: v["figures"] for k, v in gk.items() if v.get("figures")}
-    check("exactly 3 figures declarations", len(figs) == 3, f"got {len(figs)}")
+    check("exactly 5 figures declarations (3 F121 + 2 F122)", len(figs) == 5, f"got {len(figs)}")
 
 
 # ------------------------------------------------------------- B: live anchors

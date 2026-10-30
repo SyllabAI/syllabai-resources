@@ -2300,6 +2300,268 @@
    "tail": " Maximum mass of potassium sulfate 10.0 12.5 15.0 17.5 20.0 in g Temperature of water 12.7 27.4 41.6 55.6 69.5 in °C",
    "why": "solubility data table flattened; the printed table is cropped on 6(e)(i) (asset_6_e_i_table) — eyes-on p17 render",
    "served_by": "asset_6_e_i_table"
+  },
+  "2019-06/4CH1-1C:Q4.b": {
+   "verdict": "keep",
+   "dropTail": "baseline A B C D",
+   "served_by": "asset_4_b_i_chromatogram",
+   "stemFigures": [
+    {
+     "id": "asset_4_b_i_chromatogram",
+     "page": 9,
+     "rect": [
+      128,
+      132,
+      445,
+      306
+     ],
+     "mention": "chromatogram of the second student's results: baseline A, B, C, D",
+     "target": "4(b)(i)"
+    }
+   ],
+   "why": "second chromatogram (her results) flattened to label soup; the printed figure is cropped on 4(b)(i)"
+  },
+  "2019-06/4CH1-1C:Q8.c": {
+   "verdict": "keep",
+   "dropTail": "H Cl C C H H",
+   "served_by": "asset_8_c_i_chloroethene",
+   "stemFigures": [
+    {
+     "id": "asset_8_c_i_chloroethene",
+     "page": 13,
+     "rect": [
+      278,
+      413,
+      372,
+      487
+     ],
+     "mention": "displayed formula of chloroethene",
+     "target": "8(c)(i)"
+    }
+   ],
+   "why": "chloroethene displayed formula flattened to an H/Cl/C letter run; the printed structure is cropped on 8(c)(i)"
+  },
+  "2019-06/4CH1-1C:Q10.a": {
+   "verdict": "replace",
+   "stemMd": "There are three isomers with the molecular formula C5H12.\n\nOne of these isomers is pentane. The displayed formula for pentane is:",
+   "figures": [
+    "asset_10_stem_pentane"
+   ],
+   "stemFigures": [
+    {
+     "id": "asset_10_stem_pentane",
+     "page": 15,
+     "rect": [
+      238,
+      153,
+      414,
+      240
+     ],
+     "mention": "displayed formula of pentane",
+     "target": null
+    }
+   ],
+   "why": "pentane displayed formula flattened to an H/C letter run; authored rebuild keeps complete prose, the crop serves the formula (declared group figure, print order)"
+  },
+  "2019-06/4CH1-1C:Q15.b": {
+   "verdict": "keep",
+   "dropSpan": [
+    "hydrated ammonium iron(III) sulfate heat ice water",
+    "The hydrated solid decomposes"
+   ],
+   "served_by": "asset_15_b_i_apparatus",
+   "stemFigures": [
+    {
+     "id": "asset_15_b_i_apparatus",
+     "page": 26,
+     "rect": [
+      110,
+      530,
+      565,
+      722
+     ],
+     "mention": "apparatus: heated test tube of hydrated solid over an ice-water bath with collection tube",
+     "target": "15(b)(i)"
+    },
+    {
+     "id": "asset_15_b_i_results-table",
+     "page": 27,
+     "rect": [
+      160,
+      108,
+      500,
+      200
+     ],
+     "mention": "results table: the three mass readings",
+     "target": "15(b)(i)"
+    }
+   ],
+   "why": "decomposition apparatus flattened to label soup between two prose sentences; the printed apparatus is cropped on 15(b)(i); the results table (p27) flattened to a label:value run after the equation; the printed table is cropped on 15(b)(i) too",
+   "dropTail": "mass of empty test tube in g 22.04"
+  },
+  "2019-06/4CH1-1CR:Q3.c": {
+   "verdict": "keep",
+   "dropTail": "solvent front V W X Y Z start line",
+   "served_by": "asset_3_c_i_chromatogram",
+   "stemFigures": [
+    {
+     "id": "asset_3_c_i_chromatogram",
+     "page": 6,
+     "rect": [
+      123,
+      278,
+      530,
+      510
+     ],
+     "mention": "chromatogram of inks V, W, X, Y and Z",
+     "target": "3(c)(i)"
+    }
+   ],
+   "why": "chromatogram flattened to label soup; the printed chromatogram is cropped on 3(c)(i)"
+  },
+  "2019-06/4CH1-1CR:Q8.b": {
+   "verdict": "keep",
+   "dropTail": "Total volume of acid in cm3",
+   "served_by": "asset_8_b_i_results-table",
+   "stemFigures": [
+    {
+     "id": "asset_8_b_i_results-table",
+     "page": 18,
+     "rect": [
+      98,
+      640,
+      562,
+      716
+     ],
+     "mention": "results table: total volume of acid vs temperature of reaction mixture",
+     "target": "8(b)(i)"
+    }
+   ],
+   "why": "results table flattened to an interleaved number run; the printed table is cropped on 8(b)(i)"
+  },
+  "2019-06/4CH1-1CR:Q9.b": {
+   "verdict": "keep",
+   "stemFigures": [
+    {
+     "id": "asset_9_b_i_fullerene",
+     "page": 20,
+     "rect": [
+      266,
+      383,
+      388,
+      492
+     ],
+     "mention": "molecule of C60 fullerene",
+     "target": "9(b)(i)"
+    }
+   ],
+   "why": "the C60 fullerene molecule diagram was dropped entirely by the extraction (no label soup survived); the printed molecule is cropped on 9(b)(i)"
+  },
+  "2019-06/4CH1-1CR:Q10.b": {
+   "verdict": "keep",
+   "dropTail": "volume of copper(II) sulfate solution in cm3",
+   "served_by": "asset_10_b_i_results-table",
+   "stemFigures": [
+    {
+     "id": "asset_10_b_i_results-table",
+     "page": 22,
+     "rect": [
+      148,
+      468,
+      500,
+      558
+     ],
+     "mention": "results table: copper(II) sulfate volumes and temperatures",
+     "target": "10(b)(i)"
+    }
+   ],
+   "why": "three-row results table flattened to a label:value run; the printed table is cropped on 10(b)(i) (complete-sentence-keep: the extraction lost the printed period after results; the served stem ends in complete prose by eyeball)"
+  },
+  "2019-06/4CH1-2C:Q3.c": {
+   "verdict": "keep",
+   "dropTail": "Formula Time taken for liquid to evaporate",
+   "served_by": "asset_3_c_i_results-table",
+   "stemFigures": [
+    {
+     "id": "asset_3_c_i_results-table",
+     "page": 7,
+     "rect": [
+      103,
+      112,
+      548,
+      272
+     ],
+     "mention": "results table: evaporation times for students A, B, C and D",
+     "target": "3(c)(i)"
+    }
+   ],
+   "why": "four-student results table flattened to a header+row run; the printed table is cropped on 3(c)(i)"
+  },
+  "2019-06/4CH1-2C:Q4.c": {
+   "verdict": "keep",
+   "dropTail": "magnesium atom aluminium atom",
+   "served_by": "asset_4_c_i_alloy",
+   "stemFigures": [
+    {
+     "id": "asset_4_c_i_alloy",
+     "page": 9,
+     "rect": [
+      203,
+      140,
+      562,
+      306
+     ],
+     "mention": "alloy atom arrangement: magnesium and aluminium atoms",
+     "target": "4(c)(i)"
+    }
+   ],
+   "why": "alloy lattice diagram dropped, only its two key labels survived; the printed diagram is cropped on 4(c)(i)"
+  },
+  "2019-06/4CH1-2C:Q7.b": {
+   "verdict": "keep",
+   "dropSpan": [
+    "equilibrium mixture piston gas syringe",
+    "This equilibrium mixture"
+   ],
+   "served_by": "asset_7_b_i_gas-syringe",
+   "stemFigures": [
+    {
+     "id": "asset_7_b_i_gas-syringe",
+     "page": 16,
+     "rect": [
+      203,
+      376,
+      458,
+      512
+     ],
+     "mention": "gas syringe with equilibrium mixture and piston",
+     "target": "7(b)(i)"
+    }
+   ],
+   "why": "gas syringe diagram flattened to label soup between two prose sentences; the printed diagram is cropped on 7(b)(i)"
+  },
+  "2019-06/4CH1-2CR:Q3.a": {
+   "verdict": "keep",
+   "dropTail": "F E D C B crude oil X A",
+   "served_by": "asset_3_stem_fractionating-column",
+   "figures": [
+    "asset_3_stem_fractionating-column"
+   ],
+   "stemFigures": [
+    {
+     "id": "asset_3_stem_fractionating-column",
+     "page": 6,
+     "rect": [
+      123,
+      133,
+      442,
+      387
+     ],
+     "mention": "crude oil fractionating column with fractions F to A",
+     "target": null
+    }
+   ],
+   "why": "fractionating column flattened to its fraction letters; the printed column is cropped as a declared group figure on 3(a)(i) (the group's first part is the question's first part, print order)"
   }
  }
 }
