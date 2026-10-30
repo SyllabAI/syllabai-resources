@@ -786,6 +786,17 @@ versioned contract, not a one-off probe:
   --cases Official-ExamQuestion/benchmark/cases.json --out-dir <run>`, then
   `official_examq_g9_aggregate.py`; the zero-network battery is
   `python3 scripts/official_examq_g9_tests.py`.
+- **The stale-disclosure retirement rode this wave (honest CI bookkeeping):** the first
+  CI run of this PR failed `official-export-gates` at G-E1 — the F119 chemistry
+  disclosure of record (2,607-part delta) went stale when v2 PRs #477/#478 landed the
+  F119 serving (merged 01:45/01:53 UTC, AFTER resources main's last green exporter run at
+  01:27 UTC): staged == live bundles, harness census 0 != 2,607. Any PR after that moment
+  fails identically — a wave-consumption race, not a code fault. Fixed by the F115
+  convention: `2026-10-30-f119-part-label-serving-4ch1.r2-consumed.json` (+ the physics
+  twin) with the empty census sets — the F115 pick selects it as LATEST, the exporter
+  runs in reproducibility no-op mode, G-E1..G-E4 verify byte-identical (reproduced
+  locally against the live v2 main bundles of record: G-E1 census 0 == disclosure,
+  G-E2/G-E3/G-E4 green).
 - **Standing**: the post-deploy vercel spot receipt for v3 (follows the bake);
   the maths-B corpus back-sync (unchanged standing debt — the F119 warning
   about porting printed_part_label + G-E6 into the maths-B exporter port
