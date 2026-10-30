@@ -428,17 +428,8 @@ def main() -> int:
         return 1
 
     if not touched_lanes:
-        print("no-op re-run: sidecars, manifest and sheet byte-identical")
-        STATS_OUT.write_text(json.dumps({
-            "lane": "T-SPECS-CIE-REJOIN-3", "stamp": STAMP, "pin": sha,
-            "lanes": {}, "totals": {"pending_refs_before": refs_total,
-                                    "unique_pairs": len(pairs),
-                                    "resolved_pairs": 0,
-                                    "ambiguous_pairs": 0,
-                                    "stays": dict(stays),
-                                    "verdict_evaluated_pairs":
-                                        verdict_evaluated_pairs},
-        }, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+        print("no-op re-run: sidecars, manifest, sheet and stats "
+              "byte-identical")
         return 0
 
     sheet = {"schema": "syllabai.cie-rejoin-resolutions/1.0",
