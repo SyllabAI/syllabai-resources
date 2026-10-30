@@ -234,6 +234,11 @@ hooks are part of the code under test).
 | `g9-mutated-label-negative-control.receipt.json` | mutated label `(z)(i)` refused, original `(b)(i)` still derives from `1(b)(i)` → `DETECTED` (the F120 control) |
 | `g9-notrun-control.receipt.json` | unreachable renderer → overall `NOT_RUN`, exit 2 — never PASS |
 | `g9-aggregate.receipt.json` | the OVERALL gate: **PASS** over the three mandatory legs (benchmark_version 3) |
+| `g9-render-vercel-spot.receipt.json` | spot PASS through the DEPLOYED hub of record (`syllabai-v2-vercel`, post-#483 bake): 2 cases, 10/10 label checks green — the visible inline labels are on production |
+
+Spot note: the vercel receipt above landed as the follow-up commit once the
+bake of v2 0bb552ab rolled — the local-runtime receipt remains the full-coverage
+leg of record; the spot is the production-surface bonus leg (2 cases).
 
 No `asset-byte-scan.json` in this run directory: the scan of record is
 corpus-wide (1192 assets, run1) and this wave's checkout carries only the 8

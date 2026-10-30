@@ -797,7 +797,10 @@ versioned contract, not a one-off probe:
   runs in reproducibility no-op mode, G-E1..G-E4 verify byte-identical (reproduced
   locally against the live v2 main bundles of record: G-E1 census 0 == disclosure,
   G-E2/G-E3/G-E4 green).
-- **Standing**: the post-deploy vercel spot receipt for v3 (follows the bake);
-  the maths-B corpus back-sync (unchanged standing debt — the F119 warning
-  about porting printed_part_label + G-E6 into the maths-B exporter port
+- **Landed post-merge**: the promised vercel spot receipt — `g9-render-vercel-spot.receipt.json`
+  in the run0 directory, 2 cases through the DEPLOYED hub of record
+  (renderer class `syllabai-v2-vercel`, post-#483 bake), 10/10 label checks green;
+  the full-coverage leg of record stays the local-runtime receipt.
+- **Standing**: the maths-B corpus back-sync (unchanged standing debt — the F119
+  warning about porting printed_part_label + G-E6 into the maths-B exporter port
   BEFORE any re-export still applies verbatim).
