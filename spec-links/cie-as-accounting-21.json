@@ -14,7 +14,14 @@
    "lane": "T-SPECS-CIE-JOIN-3",
    "gate": "pending",
    "stamp": "2026-10-30T09:00:00Z",
-   "note": "wave-growth sidecar (agent-generated, AGENT.md rule 2); promotion at the chain's stage-#4 gate"
+   "note": "wave-growth sidecar (agent-generated, AGENT.md rule 2); promotion at the chain's stage-#4 gate",
+   "rejoin3": {
+    "state": "SUGGESTED",
+    "lane": "T-SPECS-CIE-REJOIN-3",
+    "directive": "fire that consume lane",
+    "gateway_trace": "1a18bc6701800065",
+    "applied_utc": "2026-10-30T09:30:00Z"
+   }
   }
  },
  "registry": {
@@ -24,14 +31,14 @@
  },
  "totals": {
   "items": 98,
-  "items_with_codes": 52,
+  "items_with_codes": 53,
   "by_kind": {
    "notes": 98,
    "question_parts": 0,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 52,
+   "notes": 53,
    "question_parts": 0,
    "flashcards": 0
   }
@@ -41,7 +48,7 @@
   "parts": 0,
   "universe_ids": 166,
   "universe_resolved": 78,
-  "pending_refs": 88,
+  "pending_refs": 87,
   "flashcards_discovered_uncoded": 0,
   "scope_law": {
    "law": "none (registry carries no printed scope markers)",
@@ -54,7 +61,23 @@
    "stamp": "2026-10-30T09:00:00Z",
    "j0": {},
    "items": 98,
-   "items_with_codes": 52
+   "items_with_codes": 52,
+   "rejoin3": {
+    "lane": "T-SPECS-CIE-REJOIN-3",
+    "applied_utc": "2026-10-30T09:30:00Z",
+    "resolved_pairs": 1,
+    "resolved_refs": 1,
+    "code_entries_added": 1,
+    "by_rule": {
+     "J1_definition_text_identity": 0,
+     "J2_definition_phrase_identity": 0,
+     "J3_name_text_identity": 1,
+     "J4_name_phrase_identity": 0
+    },
+    "ambiguous_pairs": 0,
+    "pending_refs_after": 87,
+    "note": "index re-join cures applied additively to the wave3 lanes' pending anchors; pairs with no identity evidence stay pending honestly (AGENT.md rule 3)"
+   }
   }
  },
  "items": {
@@ -1306,10 +1329,16 @@
    "label": "The Accounting Process | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:3.1.1",
+     "official_code": "3.1.1",
+     "tier": "J3_name_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_M7XmDFyDsCQ7dd57",
-    "spcpt_jgFzgHYbFt7qxVg9"
+    "spcpt_M7XmDFyDsCQ7dd57"
    ]
   },
   "rn_x7nk9yTxjYJdBgbt": {

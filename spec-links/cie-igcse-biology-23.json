@@ -90,7 +90,14 @@
    "lane": "T-SPECS-CIE-JOIN-3",
    "gate": "pending",
    "stamp": "2026-10-30T09:00:00Z",
-   "note": "wave-growth items are agent-generated suggestions (AGENT.md rule 2); promotion at the chain's stage-#4 gate"
+   "note": "wave-growth items are agent-generated suggestions (AGENT.md rule 2); promotion at the chain's stage-#4 gate",
+   "rejoin3": {
+    "state": "SUGGESTED",
+    "lane": "T-SPECS-CIE-REJOIN-3",
+    "directive": "fire that consume lane",
+    "gateway_trace": "1a18bc6701800065",
+    "applied_utc": "2026-10-30T09:30:00Z"
+   }
   }
  },
  "registry": {
@@ -100,7 +107,7 @@
  },
  "totals": {
   "items": 2000,
-  "items_with_codes": 805,
+  "items_with_codes": 1081,
   "by_kind": {
    "notes": 148,
    "question_parts": 1852,
@@ -108,7 +115,7 @@
   },
   "coded_by_kind": {
    "notes": 88,
-   "question_parts": 717,
+   "question_parts": 993,
    "flashcards": 0
   }
  },
@@ -117,7 +124,7 @@
   "parts": 643,
   "universe_ids": 239,
   "universe_resolved": 27,
-  "pending_refs": 471,
+  "pending_refs": 1275,
   "flashcards_discovered_uncoded": 863,
   "rejoin": {
    "lane": "T-SPECS-CIE-REJOIN-1",
@@ -176,6 +183,22 @@
    "v2MirrorInput": {
     "pin": "3245de7c91e030625bf556dd6280bfd2d4f10bea",
     "contentMapSha256": "f32b864fad70996eae5548434de6d45c629ed8791868a6cd5cb1ee0ce37e07ae"
+   },
+   "rejoin3": {
+    "lane": "T-SPECS-CIE-REJOIN-3",
+    "applied_utc": "2026-10-30T09:30:00Z",
+    "resolved_pairs": 44,
+    "resolved_refs": 347,
+    "code_entries_added": 347,
+    "by_rule": {
+     "J1_definition_text_identity": 38,
+     "J2_definition_phrase_identity": 1,
+     "J3_name_text_identity": 0,
+     "J4_name_phrase_identity": 5
+    },
+    "ambiguous_pairs": 16,
+    "pending_refs_after": 1275,
+    "note": "index re-join cures applied additively to the wave3 lanes' pending anchors; pairs with no identity evidence stay pending honestly (AGENT.md rule 3)"
    }
   }
  },
@@ -9966,10 +9989,16 @@
    "label": "qstn_FkVqmcxctYQcTgpJ / part 0",
    "section": "1-characteristics-and-classification-of-living-organisms",
    "topic": "1-1-characteristics-classification-and-features-of-organisms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_STGvsdh7n4HZmjr5",
-    "spcpt_sjR3TQ77JH6BrvHw"
+    "spcpt_STGvsdh7n4HZmjr5"
    ]
   },
   "qstnprt_g5jj9pCsSs2VFKcW": {
@@ -10267,11 +10296,15 @@
      "official_code": "2.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "pending": []
   },
   "qstnprt_jQ5F6GzScV8wRgnm": {
    "kind": "question_part",
@@ -10389,10 +10422,16 @@
    "label": "qstn_qqJbCCX6syxfytjg / part 2",
    "section": "1-characteristics-and-classification-of-living-organisms",
    "topic": "1-1-characteristics-classification-and-features-of-organisms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_gWxRRWtF34Gg3DH6"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_JtNNm9FN9YmWkPhJ": {
@@ -10644,10 +10683,16 @@
    "label": "qstn_FMpBwfcPpqDSNbtj / part 2",
    "section": "1-characteristics-and-classification-of-living-organisms",
    "topic": "1-1-characteristics-classification-and-features-of-organisms",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VWZ2cKQfS6y6BgTn",
-    "spcpt_dRMHjYst5PgT52BQ"
+    "spcpt_VWZ2cKQfS6y6BgTn"
    ]
   },
   "qstnprt_dHnxSkyPv3xtPThc": {
@@ -10786,11 +10831,15 @@
      "official_code": "10.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "pending": []
   },
   "qstnprt_Prmn8jyJg2syHCJ7": {
    "kind": "question_part",
@@ -10858,10 +10907,15 @@
    "label": "qstn_Xyq3HNWqpWXHdCBC / part 2",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ChFrKdhjw852Zb33": {
    "kind": "question_part",
@@ -10884,11 +10938,15 @@
      "official_code": "10.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "pending": []
   },
   "qstnprt_BdfnCZ97JXBwsFRj": {
    "kind": "question_part",
@@ -10916,21 +10974,30 @@
      "official_code": "10.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "pending": []
   },
   "qstnprt_vVvDWt5DtDwcZHx5": {
    "kind": "question_part",
    "label": "qstn_XHG779tmWVny7hKg / part 3",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zJHNF87Tdzm97J7y": {
    "kind": "question_part",
@@ -10948,10 +11015,15 @@
    "label": "qstn_t6S2K8fzTj6F2v4N / part 0",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_92FrTKdwYMHVKhqY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.6",
+     "official_code": "10.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_26bb362S47RQkjgk": {
    "kind": "question_part",
@@ -10978,10 +11050,15 @@
    "label": "qstn_t6S2K8fzTj6F2v4N / part 3",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_RPQVzfJt9R2hcHPt"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.12",
+     "official_code": "10.1.12",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qZYNQRMpwHkVZttt": {
    "kind": "question_part",
@@ -11003,20 +11080,31 @@
    "label": "qstn_t45KpFqwfZrGCT8V / part 1",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fD2QGx3ZJjZrhGT5": {
    "kind": "question_part",
    "label": "qstn_t45KpFqwfZrGCT8V / part 2",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_wghhwgq24rdNvdSC",
-    "spcpt_spC4RGJjMHJ4GVbc"
+    "spcpt_wghhwgq24rdNvdSC"
    ]
   },
   "qstnprt_MyMD75YQKSgdGvMX": {
@@ -11024,10 +11112,16 @@
    "label": "qstn_t45KpFqwfZrGCT8V / part 3",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.6",
+     "official_code": "10.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_m4NHT69dJGJ2Pxd4",
-    "spcpt_92FrTKdwYMHVKhqY"
+    "spcpt_m4NHT69dJGJ2Pxd4"
    ]
   },
   "qstnprt_6tGzH9v9Hw8H5WDt": {
@@ -11075,10 +11169,16 @@
    "label": "qstn_p2mxqVPKPq8PzfrC / part 0",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_wghhwgq24rdNvdSC",
-    "spcpt_spC4RGJjMHJ4GVbc"
+    "spcpt_wghhwgq24rdNvdSC"
    ]
   },
   "qstnprt_GjgzSPPgZbnPDGwJ": {
@@ -11157,10 +11257,15 @@
    "label": "qstn_MMV7fgyMs8vX2Syh / part 3",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QFmVwNBp9hH9VXsm": {
    "kind": "question_part",
@@ -11182,10 +11287,16 @@
    "label": "qstn_JpTRj7wykv8Qm9C2 / part 1",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zH7rWnkTtRFrSz46",
-    "spcpt_spC4RGJjMHJ4GVbc"
+    "spcpt_zH7rWnkTtRFrSz46"
    ]
   },
   "qstnprt_w58qvsmCcgn3MygC": {
@@ -11193,10 +11304,15 @@
    "label": "qstn_JpTRj7wykv8Qm9C2 / part 2",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ymh5R7Jp7RJtMnc9": {
    "kind": "question_part",
@@ -11253,19 +11369,30 @@
    "label": "qstn_8CTbpvKpRqg9yBw2 / part 1",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_92FrTKdwYMHVKhqY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.6",
+     "official_code": "10.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GrdydcstG5V7y397": {
    "kind": "question_part",
    "label": "qstn_8CTbpvKpRqg9yBw2 / part 2",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.6",
+     "official_code": "10.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_92FrTKdwYMHVKhqY",
     "spcpt_5VmTDgw4tSztfSYz"
    ]
   },
@@ -11274,10 +11401,15 @@
    "label": "qstn_8CTbpvKpRqg9yBw2 / part 3",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_92FrTKdwYMHVKhqY"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.6",
+     "official_code": "10.1.6",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kpcxwz4XvPHVvGHB": {
    "kind": "question_part",
@@ -11310,10 +11442,15 @@
    "label": "qstn_4W9sBMczpKB3ydhq / part 1",
    "section": "10-diseases-and-immunity",
    "topic": "10-1-diseases-and-immunity",
-   "codes": [],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NFjtWm3s6T8XYpxw": {
    "kind": "question_part",
@@ -11767,10 +11904,15 @@
    "label": "qstn_ZX34TkgqCs2YkbMb / part 0",
    "section": "11-gas-exchange-in-humans",
    "topic": "11-1-gas-exchange-in-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_N5j42fQD3MX5f8N2": {
    "kind": "question_part",
@@ -12136,30 +12278,45 @@
    "label": "qstn_yJhnmDd3cwg2gD7m / part 0",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MgTw4hXh66RCj96c": {
    "kind": "question_part",
    "label": "qstn_yJhnmDd3cwg2gD7m / part 1",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_93TJfnXm82sb7ZrN": {
    "kind": "question_part",
    "label": "qstn_yJhnmDd3cwg2gD7m / part 2",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DhHmnNbfMzVhXJMr": {
    "kind": "question_part",
@@ -12176,40 +12333,60 @@
    "label": "qstn_wgGX4QxyFvsNrVfG / part 0",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8wTxYMwjCtf6WXww": {
    "kind": "question_part",
    "label": "qstn_wgGX4QxyFvsNrVfG / part 1",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vNFXJYCdn5WRbr2b": {
    "kind": "question_part",
    "label": "qstn_wgGX4QxyFvsNrVfG / part 2",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cVBJ6rcH75qrrYTG": {
    "kind": "question_part",
    "label": "qstn_wgGX4QxyFvsNrVfG / part 3",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sHWkdcnQQYgFHNmt": {
    "kind": "question_part",
@@ -12465,10 +12642,15 @@
    "label": "qstn_KRKBmKkf4jnKfp5t / part 1",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SZk6rWvpcd3MSFjg": {
    "kind": "question_part",
@@ -12547,20 +12729,30 @@
    "label": "qstn_DMSNcx6jjGyZKm3b / part 2",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sQ5DPYckVZyS6bSZ": {
    "kind": "question_part",
    "label": "qstn_DMSNcx6jjGyZKm3b / part 3",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8Z3Mf6CZXfd2zNjm": {
    "kind": "question_part",
@@ -12678,11 +12870,21 @@
    "label": "qstn_7t5ctCx9ZdtGjcGs / part 2",
    "section": "12-respiration",
    "topic": "12-1-respiration",
-   "codes": [],
-   "pending": [
-    "spcpt_dRMHjYst5PgT52BQ",
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:12.1.2",
+     "official_code": "12.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XWb9cvWxqZYXDVhv": {
    "kind": "question_part",
@@ -12952,9 +13154,15 @@
    "label": "qstn_Q4gpwbHgzNSx27bk / part 3",
    "section": "13-excretion-in-humans",
    "topic": "13-1-excretion-in-humans",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_JqmQpW62m2VKsHDG"
    ]
   },
@@ -13206,10 +13414,15 @@
    "label": "qstn_ZPj6y7Z3fWJTMTh8 / part 3",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
-   "pending": [
-    "spcpt_mnJT3XsNdmqpk58S"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.3.4",
+     "official_code": "14.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_H4tsC7XKwpSmxcG3": {
    "kind": "question_part",
@@ -13307,9 +13520,15 @@
    "label": "qstn_fCbdhy6T7Bm9p6c6 / part 1",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.4.4",
+     "official_code": "14.4.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_F7zC8z62jNBh97Y4",
     "spcpt_dMT9ST7g6MZTBs7b"
    ]
   },
@@ -13440,9 +13659,15 @@
    "label": "qstn_RFsTDxQ6NQNXqKqB / part 2",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.1.8",
+     "official_code": "14.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Cj89Dy5MQRMXj4ZK",
     "spcpt_bHvKRstJxC3RYDBt"
    ]
   },
@@ -13461,9 +13686,15 @@
    "label": "qstn_PdrWTyzwKbhHT2ZG / part 1",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.4.4",
+     "official_code": "14.4.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_F7zC8z62jNBh97Y4",
     "spcpt_dMT9ST7g6MZTBs7b"
    ]
   },
@@ -13536,10 +13767,15 @@
    "label": "qstn_KsW54wP2Gm6RBPnp / part 0",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
-   "pending": [
-    "spcpt_jf6F9Zd2YqQXzpZK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.2.1",
+     "official_code": "14.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wHHBP8QdNBPVQPby": {
    "kind": "question_part",
@@ -13586,10 +13822,15 @@
    "label": "qstn_KsW54wP2Gm6RBPnp / part 5",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
-   "pending": [
-    "spcpt_mnJT3XsNdmqpk58S"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.3.4",
+     "official_code": "14.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RjhZhbGMYtbdkMy3": {
    "kind": "question_part",
@@ -13614,10 +13855,16 @@
    "label": "qstn_hWnXb4Vw2WJjNyJw / part 1",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.4.8",
+     "official_code": "14.4.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_GWW9kxYWV9r8WtXr",
-    "spcpt_cTDZRwWDrjBT3H3S"
+    "spcpt_GWW9kxYWV9r8WtXr"
    ]
   },
   "qstnprt_wYp3XqWX8rb5mFrT": {
@@ -13625,10 +13872,16 @@
    "label": "qstn_hWnXb4Vw2WJjNyJw / part 2",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_GWW9kxYWV9r8WtXr",
-    "spcpt_bWFsrk7vr3qVsrjn"
+    "spcpt_GWW9kxYWV9r8WtXr"
    ]
   },
   "qstnprt_gpG6KkR95rDvwhjZ": {
@@ -13636,10 +13889,16 @@
    "label": "qstn_hWnXb4Vw2WJjNyJw / part 3",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.3.4",
+     "official_code": "14.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_qr2YCTxNMm5t3mch",
-    "spcpt_mnJT3XsNdmqpk58S"
+    "spcpt_qr2YCTxNMm5t3mch"
    ]
   },
   "qstnprt_SBpzbgzBCNxTqW78": {
@@ -13698,10 +13957,15 @@
    "label": "qstn_DDjcRjj85vr3cvZK / part 2",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
-   "pending": [
-    "spcpt_jf6F9Zd2YqQXzpZK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.2.1",
+     "official_code": "14.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jtDNxDCD4nPB2d6g": {
    "kind": "question_part",
@@ -13757,10 +14021,16 @@
    "label": "qstn_7gqQgsMJbRSBRcD8 / part 3",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.3.4",
+     "official_code": "14.3.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_ysrscNkSkhtTwWKH",
-    "spcpt_mnJT3XsNdmqpk58S"
+    "spcpt_ysrscNkSkhtTwWKH"
    ]
   },
   "qstnprt_QB2hh8CZ9JnNhdC6": {
@@ -13778,9 +14048,15 @@
    "label": "qstn_7fB4ypMkNQhnMNbp / part 0",
    "section": "14-coordination-and-response",
    "topic": "14-1-coordination-response-and-homeostasis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:14.1.4",
+     "official_code": "14.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_RzgCZgpV8MQpJF82",
     "spcpt_59Y5kYSTPSkmF4Zz"
    ]
   },
@@ -14378,10 +14654,15 @@
    "label": "qstn_v2yM8zNyVhjyC3Dz / part 2",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VHgpkTqM5wdqnt6f": {
    "kind": "question_part",
@@ -14394,11 +14675,15 @@
      "official_code": "17.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:17.1.4",
+     "official_code": "17.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_rvCHWxZ48V94vRqn"
-   ]
+   "pending": []
   },
   "qstnprt_83H9MHmTJtsyQvJP": {
    "kind": "question_part",
@@ -14509,10 +14794,15 @@
    "label": "qstn_QjGDyHC28wJQ3ghR / part 1",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_Jsz8NP4J3rV4mx98"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.2.3",
+     "official_code": "16.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qhSxC9bdgMSpPtQG": {
    "kind": "question_part",
@@ -14593,10 +14883,16 @@
    "label": "qstn_Pj5VcN3FBGyGxgN6 / part 3",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:8.2.3",
+     "official_code": "8.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_wnsYq9ZtzYsVC62X",
-    "spcpt_v7XgMvCgz4NwX2Tp"
+    "spcpt_wnsYq9ZtzYsVC62X"
    ]
   },
   "qstnprt_ZcFVrShtmTVB9zDT": {
@@ -14665,9 +14961,15 @@
    "label": "qstn_DkZxvWbZtQyKGgnb / part 0",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_TjGFyY5JFb7tB377",
     "spcpt_kSBPt45hgWJkPRSS"
    ]
   },
@@ -14698,20 +15000,30 @@
    "label": "qstn_DkZxvWbZtQyKGgnb / part 3",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_Jsz8NP4J3rV4mx98"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.2.3",
+     "official_code": "16.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gGYVss7sN6mKTDqz": {
    "kind": "question_part",
    "label": "qstn_Dh5ZYbjQX4vWyyYS / part 0",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yD6snMn3XDxZjFb7": {
    "kind": "question_part",
@@ -14741,20 +15053,30 @@
    "label": "qstn_cGw22dj6pY7y7rHj / part 0",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_jMd7ZNTNqdJtbhVx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TmQq5rHkTvY97gyT": {
    "kind": "question_part",
    "label": "qstn_cGw22dj6pY7y7rHj / part 1",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_jMd7ZNTNqdJtbhVx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3pNhFqCsRTQgZPxQ": {
    "kind": "question_part",
@@ -14822,10 +15144,16 @@
    "label": "qstn_bnvs9J7QGH7mw3nj / part 2",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_R35kB4QywtG2qyYy",
-    "spcpt_jMd7ZNTNqdJtbhVx"
+    "spcpt_R35kB4QywtG2qyYy"
    ]
   },
   "qstnprt_hmPQxHnj6JgQchVg": {
@@ -14899,10 +15227,16 @@
    "label": "qstn_8BqsQ8m5SQMmz2TQ / part 2",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.2.3",
+     "official_code": "16.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_vydRFSb3ZFGBFQwM",
-    "spcpt_Jsz8NP4J3rV4mx98"
+    "spcpt_vydRFSb3ZFGBFQwM"
    ]
   },
   "qstnprt_dvtmMCkQQ9JTKtzb": {
@@ -14920,10 +15254,15 @@
    "label": "qstn_8BqsQ8m5SQMmz2TQ / part 4",
    "section": "16-reproduction",
    "topic": "16-1-reproduction-in-plants-and-humans",
-   "codes": [],
-   "pending": [
-    "spcpt_rvCHWxZ48V94vRqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:17.1.4",
+     "official_code": "17.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WfYJjpHTZWwhSXyD": {
    "kind": "question_part",
@@ -15133,11 +15472,15 @@
      "official_code": "17.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:17.1.4",
+     "official_code": "17.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_rvCHWxZ48V94vRqn"
-   ]
+   "pending": []
   },
   "qstnprt_h6KHWQdvtppRCpxq": {
    "kind": "question_part",
@@ -15225,11 +15568,15 @@
      "official_code": "17.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:17.1.4",
+     "official_code": "17.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_rvCHWxZ48V94vRqn"
-   ]
+   "pending": []
   },
   "qstnprt_WpYMD9pd2nxYQ6H8": {
    "kind": "question_part",
@@ -15399,9 +15746,15 @@
    "label": "qstn_h4HfrBYsYQHbZ3ZS / part 3",
    "section": "17-inheritance",
    "topic": "17-1-inheritance-genes-and-cell-division",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.1.2",
+     "official_code": "16.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_RsqgzP4MBvnRVfbR",
     "spcpt_RrSTgt9JbGQ3mQq5"
    ]
   },
@@ -15481,10 +15834,15 @@
    "label": "qstn_DMPMyffDRksvJr7p / part 0",
    "section": "17-inheritance",
    "topic": "17-1-inheritance-genes-and-cell-division",
-   "codes": [],
-   "pending": [
-    "spcpt_rvCHWxZ48V94vRqn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:17.1.4",
+     "official_code": "17.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WpxFJK66YTss6zJR": {
    "kind": "question_part",
@@ -15513,10 +15871,16 @@
    "label": "qstn_DMPMyffDRksvJr7p / part 3",
    "section": "17-inheritance",
    "topic": "17-1-inheritance-genes-and-cell-division",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:17.2.4",
+     "official_code": "17.2.4",
+     "tier": "J2_definition_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_ZkxmmCZ3tFwNtbt3",
-    "spcpt_KhMTh9cRX6yXhwt8"
+    "spcpt_ZkxmmCZ3tFwNtbt3"
    ]
   },
   "qstnprt_CgwhHVbcNxSRSRqW": {
@@ -16098,10 +16462,15 @@
    "label": "qstn_Rds6VVYrVrk2WVKp / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jXz3DkVJnHz8VjBk": {
    "kind": "question_part",
@@ -16118,10 +16487,15 @@
    "label": "qstn_Rds6VVYrVrk2WVKp / part 2",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8QpJvDJhTd6K8Skk": {
    "kind": "question_part",
@@ -16154,10 +16528,15 @@
    "label": "qstn_prjX27PYwhMBFZmz / part 1",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_5PsDhK6cgBrSCHFD"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KfmzKnCgGbYHPs72": {
    "kind": "question_part",
@@ -16174,10 +16553,15 @@
    "label": "qstn_nGnRRCzgQhGvGYZs / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RWj9ShwmBrsG69qC": {
    "kind": "question_part",
@@ -16220,10 +16604,15 @@
    "label": "qstn_Rjx7m8dM3NGT7PWp / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sTzkD2gCnMbR9Rhs": {
    "kind": "question_part",
@@ -16353,20 +16742,30 @@
    "label": "qstn_vV8nK65kx4Fs8Gn3 / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qd6F5fD9TxhH95x8": {
    "kind": "question_part",
    "label": "qstn_vV8nK65kx4Fs8Gn3 / part 1",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G2vmg8QD2H88kJ5d": {
    "kind": "question_part",
@@ -16433,10 +16832,15 @@
    "label": "qstn_rGz2bYCM2G4fTpPS / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SRmTbvZjB4FHxPZz": {
    "kind": "question_part",
@@ -16479,21 +16883,31 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "pending": []
   },
   "qstnprt_HzmjfVsj8jYqfzJV": {
    "kind": "question_part",
    "label": "qstn_nYRPpnMWgjNr3QDY / part 2",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_vhv2M7DQfsy2ZwdF",
-    "spcpt_qVv4n2TnyPDrjvdM"
+    "spcpt_vhv2M7DQfsy2ZwdF"
    ]
   },
   "qstnprt_yMwkN99VBms6jpZY": {
@@ -16507,11 +16921,15 @@
      "official_code": "19.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "pending": []
   },
   "qstnprt_bxpHgRRt6HjMHKFJ": {
    "kind": "question_part",
@@ -16554,10 +16972,15 @@
    "label": "qstn_gHvQ2wPwfPm6Wqmp / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hQCnVd4jKRzjSmd2": {
    "kind": "question_part",
@@ -16600,10 +17023,15 @@
    "label": "qstn_Fdm5CKN6TwBWCh95 / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NZc76zPMFBP74SfT": {
    "kind": "question_part",
@@ -16688,10 +17116,15 @@
    "label": "qstn_crq36VFxqvjrbCC8 / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dHy8Y4hKRbPXWX5M": {
    "kind": "question_part",
@@ -16759,11 +17192,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "pending": []
   },
   "qstnprt_Qsc46X9HTKdjrmrh": {
    "kind": "question_part",
@@ -16793,20 +17230,30 @@
    "label": "qstn_BSSx9pCx5mfK32Qd / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dkD7Xh3cGKQM8ZsP": {
    "kind": "question_part",
    "label": "qstn_BSSx9pCx5mfK32Qd / part 1",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jWHNbSzYP7Yvq4V9": {
    "kind": "question_part",
@@ -16850,10 +17297,15 @@
    "label": "qstn_8tKNYdWywjjSGDDF / part 0",
    "section": "19-organisms-and-their-environment",
    "topic": "19-1-energy-and-feeding-relationships",
-   "codes": [],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_37gVbFpnt5bxNrRM": {
    "kind": "question_part",
@@ -16867,11 +17319,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "pending": []
   },
   "qstnprt_tTH3MyY6m4pdsFYT": {
    "kind": "question_part",
@@ -16884,11 +17340,15 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:19.2.10",
+     "official_code": "19.2.10",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_qVv4n2TnyPDrjvdM"
-   ]
+   "pending": []
   },
   "qstnprt_qCVq9K2dCpddsSXZ": {
    "kind": "question_part",
@@ -17004,21 +17464,31 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "pending": []
   },
   "qstnprt_tNRQfNf7TTDsKsfq": {
    "kind": "question_part",
    "label": "qstn_3fB7hD22wwdqrXHW / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_TjGFyY5JFb7tB377"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_PqJwWsT72WyhnKNc": {
@@ -17032,11 +17502,15 @@
      "official_code": "2.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "pending": []
   },
   "qstnprt_VMGDXhG9BbxsFDTH": {
    "kind": "question_part",
@@ -17049,11 +17523,15 @@
      "official_code": "2.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "pending": []
   },
   "qstnprt_hG8Zjn7CdRRn7wyV": {
    "kind": "question_part",
@@ -17066,11 +17544,15 @@
      "official_code": "2.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "pending": []
   },
   "qstnprt_qHjQcbR96xS6749d": {
    "kind": "question_part",
@@ -17121,10 +17603,16 @@
    "label": "qstn_gGCX6ffVs48rXgPb / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_gWxRRWtF34Gg3DH6"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_kP9kNND7M5vdVyMh": {
@@ -17147,40 +17635,61 @@
    "label": "qstn_hXHQnT9jYKr7ZB3h / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_s29x35Gf96qm8m7b": {
    "kind": "question_part",
    "label": "qstn_S446xFctZtRp7kRk / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_gWxRRWtF34Gg3DH6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3mQX5qnDH27M5QYR": {
    "kind": "question_part",
    "label": "qstn_S446xFctZtRp7kRk / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_gWxRRWtF34Gg3DH6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cfZ5wXK9Xm7nRTDD": {
    "kind": "question_part",
    "label": "qstn_S446xFctZtRp7kRk / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_gWxRRWtF34Gg3DH6"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_Zkxd24VYmfwW8vXK": {
@@ -17188,61 +17697,97 @@
    "label": "qstn_pczNhyJ6yjSJXqWK / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SCjPymjdFRMR9pbC": {
    "kind": "question_part",
    "label": "qstn_pczNhyJ6yjSJXqWK / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S6kQydXnBqDJwjfd": {
    "kind": "question_part",
    "label": "qstn_pczNhyJ6yjSJXqWK / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CYQR4QHpcPYZXDhN": {
    "kind": "question_part",
    "label": "qstn_pczNhyJ6yjSJXqWK / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr",
-    "spcpt_jt7pMQpXZBWdyhPR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.5",
+     "official_code": "2.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_94t4FFXmfh27TRQP": {
    "kind": "question_part",
    "label": "qstn_NV5fYTjpFycpK7Fd / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_gWxRRWtF34Gg3DH6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9DVMhZWs38HTJd4S": {
    "kind": "question_part",
    "label": "qstn_NV5fYTjpFycpK7Fd / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_gWxRRWtF34Gg3DH6"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_WrgWq496HcKZxrBq": {
@@ -17250,20 +17795,30 @@
    "label": "qstn_NV5fYTjpFycpK7Fd / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_gWxRRWtF34Gg3DH6"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3Dmdvx79WmgQ8nXx": {
    "kind": "question_part",
    "label": "qstn_NV5fYTjpFycpK7Fd / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hkk5YsJh2kVhZn7w": {
    "kind": "question_part",
@@ -17280,30 +17835,45 @@
    "label": "qstn_MvgcwWxWDV8N2vMH / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dcyd3MFHdbvjnd3V": {
    "kind": "question_part",
    "label": "qstn_MvgcwWxWDV8N2vMH / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kSfhpV9ShbGpnRpw": {
    "kind": "question_part",
    "label": "qstn_MvgcwWxWDV8N2vMH / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nY7hNmPzqqDD6zhx": {
    "kind": "question_part",
@@ -17316,31 +17886,46 @@
      "official_code": "2.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_sjR3TQ77JH6BrvHw"
-   ]
+   "pending": []
   },
   "qstnprt_56Scb5WgbTYs8CWT": {
    "kind": "question_part",
    "label": "qstn_3q52mGJFbXvYbgyR / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pW3JTq3T8HmcQVwm": {
    "kind": "question_part",
    "label": "qstn_3q52mGJFbXvYbgyR / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_rrbnjSkPB3h5YGQP",
-    "spcpt_KwtZ4pxtFPR5vRnr"
+    "spcpt_rrbnjSkPB3h5YGQP"
    ]
   },
   "qstnprt_CT4y22nWbjkbJxr3": {
@@ -17348,10 +17933,16 @@
    "label": "qstn_3q52mGJFbXvYbgyR / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_rrbnjSkPB3h5YGQP",
-    "spcpt_KwtZ4pxtFPR5vRnr"
+    "spcpt_rrbnjSkPB3h5YGQP"
    ]
   },
   "qstnprt_Gnkn8PgB5SdkTR7Q": {
@@ -17432,10 +18023,16 @@
    "label": "qstn_XhmYshrNs9H3KZY9 / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_gWxRRWtF34Gg3DH6"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_XkZM7fm97GMHssJR": {
@@ -17478,71 +18075,111 @@
    "label": "qstn_STYsVct2t7zYdmyv / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_sjR3TQ77JH6BrvHw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HwFdNbwWxrH8wDYc": {
    "kind": "question_part",
    "label": "qstn_q4FZ2XRtR5TYWNkB / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2fTfcPnysR8TKN8H": {
    "kind": "question_part",
    "label": "qstn_q4FZ2XRtR5TYWNkB / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr",
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ztrYFjRpKQYnh84F": {
    "kind": "question_part",
    "label": "qstn_q4FZ2XRtR5TYWNkB / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_sjR3TQ77JH6BrvHw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5zFsXWvQCfTvHj4W": {
    "kind": "question_part",
    "label": "qstn_NwFJwWTQmn2tgZxJ / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qMrtvRVQrS9zJK6D": {
    "kind": "question_part",
    "label": "qstn_NwFJwWTQmn2tgZxJ / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_98SzynCHGmWpsDJQ": {
    "kind": "question_part",
    "label": "qstn_NwFJwWTQmn2tgZxJ / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_22WyXXhkRgn7VHRr": {
    "kind": "question_part",
@@ -17579,10 +18216,15 @@
    "label": "qstn_Bd4zv3zVFzSQTbdY / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VR2NBxZf8jj9XJmf": {
    "kind": "question_part",
@@ -17599,52 +18241,87 @@
    "label": "qstn_Bd4zv3zVFzSQTbdY / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d3WkBv2RJNx8yJvv": {
    "kind": "question_part",
    "label": "qstn_9MRHvgpgpbNQs85Y / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JDTF6xTJn23Rs6K9": {
    "kind": "question_part",
    "label": "qstn_9MRHvgpgpbNQs85Y / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377",
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_P7pWGYx5Qd9x3vdp": {
    "kind": "question_part",
    "label": "qstn_9MRHvgpgpbNQs85Y / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377",
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Yt4wXYRKDChpFQJC": {
    "kind": "question_part",
    "label": "qstn_9MRHvgpgpbNQs85Y / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wTKRgS6RkdjtgRQF": {
    "kind": "question_part",
@@ -17681,40 +18358,60 @@
    "label": "qstn_4gYjtgbcscr5RQxh / part 0",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PsYGRJgDqKgwbMRS": {
    "kind": "question_part",
    "label": "qstn_4gYjtgbcscr5RQxh / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_jt7pMQpXZBWdyhPR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.5",
+     "official_code": "2.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yBZSP72qsDwYgTPm": {
    "kind": "question_part",
    "label": "qstn_4gYjtgbcscr5RQxh / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V6dXyFHCKB9JSyBW": {
    "kind": "question_part",
    "label": "qstn_4gYjtgbcscr5RQxh / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8hJpMg3YwVXqn5TS": {
    "kind": "question_part",
@@ -17727,11 +18424,16 @@
      "official_code": "12.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
    "pending": [
-    "spcpt_rrbnjSkPB3h5YGQP",
-    "spcpt_KwtZ4pxtFPR5vRnr"
+    "spcpt_rrbnjSkPB3h5YGQP"
    ]
   },
   "qstnprt_vFDJhV5KPxfwMSGz": {
@@ -17739,30 +18441,45 @@
    "label": "qstn_2SmFxxv7r6YzST57 / part 1",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w5R8D5TswsYTddRR": {
    "kind": "question_part",
    "label": "qstn_2SmFxxv7r6YzST57 / part 2",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rNHDr7WPyxNGzdhJ": {
    "kind": "question_part",
    "label": "qstn_2SmFxxv7r6YzST57 / part 3",
    "section": "2-organisation-of-the-organism",
    "topic": "2-1-cell-structure-and-size-of-specimens",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Xn5MWksdN3TnWzHs": {
    "kind": "question_part",
@@ -17779,10 +18496,15 @@
    "label": "qstn_Hs67DXhZ46YY8ZPB / part 1",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FbgsxnWpjGx2DddT": {
    "kind": "question_part",
@@ -17825,10 +18547,15 @@
    "label": "qstn_GpsgxcBS9XjzH8V2 / part 2",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vThCqQMTzyBPFTJq": {
    "kind": "question_part",
@@ -18060,21 +18787,36 @@
    "label": "qstn_ZMDZfvBtXZ9DhTJv / part 1",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_w9WXxrwGq5qrD55w",
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qrwqM9GVPrQcdSsM": {
    "kind": "question_part",
    "label": "qstn_ZMDZfvBtXZ9DhTJv / part 2",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ccZkBNqSQZJTd6rs": {
    "kind": "question_part",
@@ -18191,10 +18933,15 @@
    "label": "qstn_nZzVS7KpGcYxr2St / part 0",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jhWPSGmGG6HFNm2J": {
    "kind": "question_part",
@@ -18329,10 +19076,15 @@
    "label": "qstn_JKFNhWn3HGRPnBd5 / part 0",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_w9WXxrwGq5qrD55w"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZmBJrNVyWHgZRsPz": {
    "kind": "question_part",
@@ -18367,10 +19119,15 @@
    "label": "qstn_JKFNhWn3HGRPnBd5 / part 3",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_w9WXxrwGq5qrD55w"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.1.2",
+     "official_code": "20.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QY7HgrPZSzCGFQxb": {
    "kind": "question_part",
@@ -18387,20 +19144,31 @@
    "label": "qstn_FWVH2wZW2crTNTTF / part 0",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7h8cdWD6hjd2Jbtg": {
    "kind": "question_part",
    "label": "qstn_FWVH2wZW2crTNTTF / part 1",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_ZmKxCRs3x6cqvwFN",
-    "spcpt_4pWgsFvZ33JQKhg5"
+    "spcpt_ZmKxCRs3x6cqvwFN"
    ]
   },
   "qstnprt_kwmWhm5DcKdhHw7d": {
@@ -18423,10 +19191,15 @@
    "label": "qstn_FWVH2wZW2crTNTTF / part 3",
    "section": "20-human-influences-on-ecosystems",
    "topic": "20-1-human-impact-biodiversity-pollution-and-conservation",
-   "codes": [],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2XVqMCKnzcXJjTQ2": {
    "kind": "question_part",
@@ -18470,11 +19243,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:20.3.1",
+     "official_code": "20.3.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4pWgsFvZ33JQKhg5"
-   ]
+   "pending": []
   },
   "qstnprt_Z7mkVJvPF3tXNKSX": {
    "kind": "question_part",
@@ -18797,11 +19574,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_3NXPvvnJZwMH4NMC": {
    "kind": "question_part",
@@ -18887,11 +19668,21 @@
    "label": "qstn_m2pCrR7mCRTBV9Gc / part 2",
    "section": "21-biotechnology-and-genetic-modification",
    "topic": "21-1-biotechnology-and-genetic-modification",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k",
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2PtsHpXZw3PCBwhz": {
    "kind": "question_part",
@@ -18908,10 +19699,15 @@
    "label": "qstn_m2pCrR7mCRTBV9Gc / part 4",
    "section": "21-biotechnology-and-genetic-modification",
    "topic": "21-1-biotechnology-and-genetic-modification",
-   "codes": [],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yZg74PYxhTPgRj6v": {
    "kind": "question_part",
@@ -18969,21 +19765,37 @@
    "label": "qstn_BcvYj6hmTkYWZF95 / part 0",
    "section": "21-biotechnology-and-genetic-modification",
    "topic": "21-1-biotechnology-and-genetic-modification",
-   "codes": [],
-   "pending": [
-    "spcpt_sjR3TQ77JH6BrvHw",
-    "spcpt_RsqgzP4MBvnRVfbR"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.2",
+     "official_code": "2.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.1.2",
+     "official_code": "16.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fd7nVpWbBG7SvqjC": {
    "kind": "question_part",
    "label": "qstn_BcvYj6hmTkYWZF95 / part 1",
    "section": "21-biotechnology-and-genetic-modification",
    "topic": "21-1-biotechnology-and-genetic-modification",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.2.3",
+     "official_code": "2.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_VTzh9khD4dMpywHJ",
-    "spcpt_gWxRRWtF34Gg3DH6"
+    "spcpt_VTzh9khD4dMpywHJ"
    ]
   },
   "qstnprt_KPCYGQkYqQXvtbzG": {
@@ -19059,9 +19871,15 @@
    "label": "qstn_Zw6zXjtWCnWV237G / part 0",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_7CHvGTP5rN8kFZZD"
    ]
   },
@@ -19070,9 +19888,15 @@
    "label": "qstn_Zw6zXjtWCnWV237G / part 1",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_7CHvGTP5rN8kFZZD"
    ]
   },
@@ -19081,9 +19905,15 @@
    "label": "qstn_Zw6zXjtWCnWV237G / part 2",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_7CHvGTP5rN8kFZZD"
    ]
   },
@@ -19231,10 +20061,15 @@
    "label": "qstn_pN2wpJChbJk82qVH / part 1",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7ZQMrYstmtrXGhZJ": {
    "kind": "question_part",
@@ -19355,11 +20190,21 @@
    "label": "qstn_wjr2ZDmbbwGJ6nhD / part 3",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry",
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cm8kss8XfQ25DdCW": {
    "kind": "question_part",
@@ -19431,11 +20276,21 @@
    "label": "qstn_PyC9W7sHkXzBj6Jd / part 1",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry",
-    "spcpt_KwtZ4pxtFPR5vRnr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gNfpshfhC3ZNK72Z": {
    "kind": "question_part",
@@ -19502,9 +20357,15 @@
    "label": "qstn_P57swyvmrmXpzCnV / part 0",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_7CHvGTP5rN8kFZZD"
    ]
   },
@@ -19513,20 +20374,30 @@
    "label": "qstn_P57swyvmrmXpzCnV / part 1",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Dy7k3mBcwJQbDFpR": {
    "kind": "question_part",
    "label": "qstn_P57swyvmrmXpzCnV / part 2",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6XjTfcgY86NCqv2c": {
    "kind": "question_part",
@@ -19543,10 +20414,15 @@
    "label": "qstn_NpKhPzZ5RPPCFRZf / part 0",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_tzVtFk4vscng3q7T"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_McZnYJv7S4SYG7bC": {
    "kind": "question_part",
@@ -19583,20 +20459,30 @@
    "label": "qstn_Mz3gYFy999XZ2QSX / part 0",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DN2mpcrGkxn27nrx": {
    "kind": "question_part",
    "label": "qstn_Mz3gYFy999XZ2QSX / part 1",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M6KMB7ZrzKtQp9jq": {
    "kind": "question_part",
@@ -19645,9 +20531,15 @@
    "label": "qstn_GZmzJXb4s4Cw683R / part 2",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_PmhYqrW5gdnXdnmp"
    ]
   },
@@ -19656,10 +20548,15 @@
    "label": "qstn_GZmzJXb4s4Cw683R / part 3",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_z7tTTgr4cYyR7Y46": {
    "kind": "question_part",
@@ -19673,11 +20570,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "pending": []
   },
   "qstnprt_579w9NhcnZKVj4Gd": {
    "kind": "question_part",
@@ -19817,9 +20718,15 @@
    "label": "qstn_bPhSr5xYH6QnKQT9 / part 3",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zK6sdF2666m3wDry",
     "spcpt_7CHvGTP5rN8kFZZD"
    ]
   },
@@ -19870,20 +20777,30 @@
    "label": "qstn_4s9cfH2mP3KBg9zZ / part 0",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BxxXGbGFcvnPhYvY": {
    "kind": "question_part",
    "label": "qstn_4s9cfH2mP3KBg9zZ / part 1",
    "section": "3-movement-into-and-out-of-cells",
    "topic": "3-1-diffusion-osmosis-and-active-transport",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W3J66Jts2spFkn3k": {
    "kind": "question_part",
@@ -20137,11 +21054,15 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_8xMKj4qfk26zxKQt": {
    "kind": "question_part",
@@ -20154,11 +21075,15 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_DJWY3DKZpDvdZtFV": {
    "kind": "question_part",
@@ -20171,11 +21096,15 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_hFjwGMKwBQTzpBgD": {
    "kind": "question_part",
@@ -20188,51 +21117,75 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_ZGzSZtB5DgN4WrBN": {
    "kind": "question_part",
    "label": "qstn_ybmw347XkGzyG9Kn / part 0",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QXDdGFG4gF7FZH6d": {
    "kind": "question_part",
    "label": "qstn_ybmw347XkGzyG9Kn / part 1",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Nhhv9wTRn8j9sn3n": {
    "kind": "question_part",
    "label": "qstn_ybmw347XkGzyG9Kn / part 2",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wZHKscwrh9zj5wpG": {
    "kind": "question_part",
    "label": "qstn_ybmw347XkGzyG9Kn / part 3",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sZyrBGTCJJ8CRczG": {
    "kind": "question_part",
@@ -20279,30 +21232,45 @@
    "label": "qstn_m4w89Z5rDk8yQ3np / part 0",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5VHS9bN3syrMHKYV": {
    "kind": "question_part",
    "label": "qstn_m4w89Z5rDk8yQ3np / part 1",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9Z4hTJnvY2M2NsZs": {
    "kind": "question_part",
    "label": "qstn_m4w89Z5rDk8yQ3np / part 2",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WsrC9VhwTjtCHrpv": {
    "kind": "question_part",
@@ -20349,20 +21317,30 @@
    "label": "qstn_G5fnJs7w3ydRqFcF / part 2",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MHGDccQwTJhYy6wq": {
    "kind": "question_part",
    "label": "qstn_G5fnJs7w3ydRqFcF / part 3",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BYftHfMjg2HXFVrN": {
    "kind": "question_part",
@@ -20375,11 +21353,15 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_Kns2qpR2v6bxprKd": {
    "kind": "question_part",
@@ -20456,9 +21438,15 @@
    "label": "qstn_5KhkKmHRzrPfqtyJ / part 3",
    "section": "4-biological-molecules",
    "topic": "4-1-biological-molecules",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_TjGFyY5JFb7tB377",
     "spcpt_t3B3xMSn7SSPcWfd"
    ]
   },
@@ -20507,100 +21495,150 @@
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gS82DgsbdgS85qgs": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bMDf7hg2WXpmxHtY": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W65T8hJgjGXZ9HzG": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FFKFsMFpVXrgXzqs": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 4",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z8V2B83pRfpWJ6zM": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 5",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7mXGfW3N3sCTyyGr": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 6",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Dx4npDYtz4BNChWs": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 7",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_64gq3HwDq7byC4J9": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 8",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q659mtWNvV7MH4xN": {
    "kind": "question_part",
    "label": "qstn_rM5ZTsXbz2hzGWfq / part 9",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kCN262Df4YSPhxd9": {
    "kind": "question_part",
@@ -20627,60 +21665,90 @@
    "label": "qstn_czCY2dCRqMK2TcqP / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BrNGjKSzHp3V3wmG": {
    "kind": "question_part",
    "label": "qstn_czCY2dCRqMK2TcqP / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jkz6YQcgvCnK6JCn": {
    "kind": "question_part",
    "label": "qstn_HSgGzRzNGdJ285gQ / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gVyj8xNPgZQwgxp7": {
    "kind": "question_part",
    "label": "qstn_HSgGzRzNGdJ285gQ / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JqYZBpX5JNM29GDG": {
    "kind": "question_part",
    "label": "qstn_HSgGzRzNGdJ285gQ / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TgbQ5mYKxqVNpM5M": {
    "kind": "question_part",
    "label": "qstn_HSgGzRzNGdJ285gQ / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6F3Y5RR8wT6gPNrF": {
    "kind": "question_part",
@@ -20693,11 +21761,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_Y6k2nnXs9QdkmxWm": {
    "kind": "question_part",
@@ -20710,11 +21782,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_qjJXwnj5mcqwzCmw": {
    "kind": "question_part",
@@ -20727,11 +21803,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_s8DfcC3MJ8DNswmf": {
    "kind": "question_part",
@@ -20744,11 +21824,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_vjHfkmCqrMN7WbYv": {
    "kind": "question_part",
@@ -20761,11 +21845,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_356wKDkCY3qSx8bS": {
    "kind": "question_part",
@@ -20778,21 +21866,30 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_wPx5dvkXKsbzf3r8": {
    "kind": "question_part",
    "label": "qstn_WhR5qcxggBqBRFbH / part 6",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_TjGFyY5JFb7tB377"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.7",
+     "official_code": "2.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dxDcs6H65FS5Nfxm": {
    "kind": "question_part",
@@ -20839,20 +21936,30 @@
    "label": "qstn_shH9wQ4jH2s5SsQs / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_zK6sdF2666m3wDry"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:3.1.5",
+     "official_code": "3.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_f2sDqDffQ6Gp6wrg": {
    "kind": "question_part",
    "label": "qstn_shH9wQ4jH2s5SsQs / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tXgJtnmzyMD4hj5n": {
    "kind": "question_part",
@@ -20865,11 +21972,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_HCMd4zxbqpKxnTQC": {
    "kind": "question_part",
@@ -20882,11 +21993,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_ckbV4Sv6FvDmc4rF": {
    "kind": "question_part",
@@ -20899,11 +22014,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_bZ8CyyM9zm9HbKNM": {
    "kind": "question_part",
@@ -20916,11 +22035,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "pending": []
   },
   "qstnprt_QF67K2KSFSdKGtF9": {
    "kind": "question_part",
@@ -20937,20 +22060,30 @@
    "label": "qstn_dpgsM7qr3NYzdKg6 / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NbWFg5SfxqHg62Xf": {
    "kind": "question_part",
    "label": "qstn_dpgsM7qr3NYzdKg6 / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nkc3sMD2MWJMjkFZ": {
    "kind": "question_part",
@@ -21022,30 +22155,45 @@
    "label": "qstn_dpgsM7qr3NYzdKg6 / part 7",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cPZ5m6SMSdMrM4Rq": {
    "kind": "question_part",
    "label": "qstn_ZHrmRqGfprV3Wv25 / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y24T9hBG6CvsbHjH": {
    "kind": "question_part",
    "label": "qstn_Z6KKH6rxpVWWgVSS / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7qdySwQqJYzPJ8by": {
    "kind": "question_part",
@@ -21082,10 +22230,15 @@
    "label": "qstn_Qt3tTr22Fs3qvrnh / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hS6n7zfR7vGpMT97": {
    "kind": "question_part",
@@ -21118,10 +22271,15 @@
    "label": "qstn_vkHHWHfN9M3MBFPW / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VVh2FHbc37skwGF2": {
    "kind": "question_part",
@@ -21139,20 +22297,30 @@
    "label": "qstn_NnsBqMDrVxbtpyPv / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cm9mR29RKfTWwz5b": {
    "kind": "question_part",
    "label": "qstn_NnsBqMDrVxbtpyPv / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sSqMmWm5Wsp2Wgtc": {
    "kind": "question_part",
@@ -21199,20 +22367,30 @@
    "label": "qstn_YcRkz7VB5t5ZfYSN / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sTD3fnKBZWmGkmnT": {
    "kind": "question_part",
    "label": "qstn_YcRkz7VB5t5ZfYSN / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WdcDWfC4cpySSRSN": {
    "kind": "question_part",
@@ -21240,40 +22418,61 @@
    "label": "qstn_qfykphTrqxTXvcgG / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VYpdcgNjyz3rZz8t": {
    "kind": "question_part",
    "label": "qstn_qfykphTrqxTXvcgG / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XV7pyj7sY9G85tTD": {
    "kind": "question_part",
    "label": "qstn_qfykphTrqxTXvcgG / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TTRNDNyP6CCqFtPt": {
    "kind": "question_part",
    "label": "qstn_nqX27sJ4s3wjGp6J / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_PG2Cs3NfSfyXstHh",
-    "spcpt_KBdC2wDzfPD3qj46"
+    "spcpt_PG2Cs3NfSfyXstHh"
    ]
   },
   "qstnprt_yxwM9wC249r8vhhQ": {
@@ -21291,20 +22490,31 @@
    "label": "qstn_nqX27sJ4s3wjGp6J / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WxxMYcqkRBHbpN9Q": {
    "kind": "question_part",
    "label": "qstn_nqX27sJ4s3wjGp6J / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_PG2Cs3NfSfyXstHh",
-    "spcpt_KBdC2wDzfPD3qj46"
+    "spcpt_PG2Cs3NfSfyXstHh"
    ]
   },
   "qstnprt_brcZPrbGGx7Wwgc9": {
@@ -21312,20 +22522,30 @@
    "label": "qstn_NB2Gn4GWmBKdsbc6 / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6SyRGyDdkTMNrT7h": {
    "kind": "question_part",
    "label": "qstn_NB2Gn4GWmBKdsbc6 / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BKMxSZd9SxGgDSKn": {
    "kind": "question_part",
@@ -21350,10 +22570,16 @@
    "label": "qstn_MZYmMWxJR542hHHX / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_YV6VK3BryrsFrXsG",
-    "spcpt_bWFsrk7vr3qVsrjn"
+    "spcpt_YV6VK3BryrsFrXsG"
    ]
   },
   "qstnprt_NFnF29YswBGrZyXX": {
@@ -21361,30 +22587,45 @@
    "label": "qstn_MZYmMWxJR542hHHX / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7W6HrXyW2pvgQhSz": {
    "kind": "question_part",
    "label": "qstn_MZYmMWxJR542hHHX / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x7PstDNSQXW8wtGq": {
    "kind": "question_part",
    "label": "qstn_MZYmMWxJR542hHHX / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_NkG4M9JrzvbH26x9"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.5",
+     "official_code": "10.1.5",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7s3QzbHr4RWbJNhR": {
    "kind": "question_part",
@@ -21421,41 +22662,66 @@
    "label": "qstn_M2bM3F9WfTmSdfwF / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xNR7jw67jVCvxYCK": {
    "kind": "question_part",
    "label": "qstn_M2bM3F9WfTmSdfwF / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VBpN7PhZrwM5H2QK": {
    "kind": "question_part",
    "label": "qstn_kXhMZnVXGBVRVppm / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Tcd8QdVTZ5yw4Wr5": {
    "kind": "question_part",
    "label": "qstn_kXhMZnVXGBVRVppm / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k",
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mPnKD8tSzzbdRWj3": {
    "kind": "question_part",
@@ -21478,11 +22744,15 @@
      "official_code": "4.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:4.1.2",
+     "official_code": "4.1.2",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_4MmQW2b72kbzmVGn"
-   ]
+   "pending": []
   },
   "qstnprt_TFZz6jvRFZqDdtHt": {
    "kind": "question_part",
@@ -21500,20 +22770,30 @@
    "label": "qstn_kpvcPjKSgQDQSgGw / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2SQ5j5wKxrFM2vGr": {
    "kind": "question_part",
    "label": "qstn_kpvcPjKSgQDQSgGw / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gJJfY7g3PFdvQ88V": {
    "kind": "question_part",
@@ -21530,10 +22810,15 @@
    "label": "qstn_C7FcSNVHndm3PZwx / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_J9gKdbNTd3bZsYXQ": {
    "kind": "question_part",
@@ -21546,11 +22831,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "pending": []
   },
   "qstnprt_K3syzH8XXWyqZRZc": {
    "kind": "question_part",
@@ -21563,11 +22852,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "pending": []
   },
   "qstnprt_9sVwhzmhpVjtBPmZ": {
    "kind": "question_part",
@@ -21580,11 +22873,15 @@
      "official_code": "5.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "pending": []
   },
   "qstnprt_sZBs2Jdbgk7s3pX3": {
    "kind": "question_part",
@@ -21633,10 +22930,16 @@
    "label": "qstn_7bKfQz33kzJ2JqCw / part 0",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_PG2Cs3NfSfyXstHh",
-    "spcpt_bWFsrk7vr3qVsrjn"
+    "spcpt_PG2Cs3NfSfyXstHh"
    ]
   },
   "qstnprt_MTMWdKS3jRqXccbd": {
@@ -21644,30 +22947,45 @@
    "label": "qstn_7bKfQz33kzJ2JqCw / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bw3fHMJBMbKGt6KM": {
    "kind": "question_part",
    "label": "qstn_7bKfQz33kzJ2JqCw / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yxHbsFzGdtV48FfP": {
    "kind": "question_part",
    "label": "qstn_7bKfQz33kzJ2JqCw / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pgpgcbgJ3HS99PcF": {
    "kind": "question_part",
@@ -21722,30 +23040,45 @@
    "label": "qstn_4qktdgzzYndmnmW6 / part 1",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TkcsPpNXp5Ctvd44": {
    "kind": "question_part",
    "label": "qstn_4qktdgzzYndmnmW6 / part 2",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tGQ2DJQRwpNXp85T": {
    "kind": "question_part",
    "label": "qstn_4qktdgzzYndmnmW6 / part 3",
    "section": "5-enzymes",
    "topic": "5-1-enzymes",
-   "codes": [],
-   "pending": [
-    "spcpt_KBdC2wDzfPD3qj46"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y2gyPVHzfj64D3zv": {
    "kind": "question_part",
@@ -21817,80 +23150,121 @@
    "label": "qstn_gfSwTF26WVBGbnjq / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_jMd7ZNTNqdJtbhVx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4j4jqCczyBxgjJfk": {
    "kind": "question_part",
    "label": "qstn_gfSwTF26WVBGbnjq / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_jMd7ZNTNqdJtbhVx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MgFFbtf979t56qPX": {
    "kind": "question_part",
    "label": "qstn_r6V9c4pfJ9yFTS7G / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_N39kZjTbk9Gwqh92": {
    "kind": "question_part",
    "label": "qstn_r6V9c4pfJ9yFTS7G / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wRTYvPzrQ7yY2FX8": {
    "kind": "question_part",
    "label": "qstn_r6V9c4pfJ9yFTS7G / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sd4fXzyFqMk3KqZC": {
    "kind": "question_part",
    "label": "qstn_r6V9c4pfJ9yFTS7G / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Th7YjQD7XVPQnMJw": {
    "kind": "question_part",
    "label": "qstn_HSsFmgDXktSPYcrG / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2yDnvwBPtss6drb3": {
    "kind": "question_part",
    "label": "qstn_HSsFmgDXktSPYcrG / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_vBM84MMDRcwhh8MN",
-    "spcpt_QpJ9pvTTFqX996sr"
+    "spcpt_vBM84MMDRcwhh8MN"
    ]
   },
   "qstnprt_xnDrCy7HKzXq8bR4": {
@@ -21898,10 +23272,16 @@
    "label": "qstn_HSsFmgDXktSPYcrG / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_vBM84MMDRcwhh8MN",
-    "spcpt_QpJ9pvTTFqX996sr"
+    "spcpt_vBM84MMDRcwhh8MN"
    ]
   },
   "qstnprt_y2b2d4cNHKrmVm6c": {
@@ -21909,41 +23289,66 @@
    "label": "qstn_xM7K23HNRTQZTZph / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_rB4QVJDcCJF98PVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.9",
+     "official_code": "6.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_38BRwV27fYMX68hb": {
    "kind": "question_part",
    "label": "qstn_xM7K23HNRTQZTZph / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_rB4QVJDcCJF98PVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.9",
+     "official_code": "6.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cTWbZ876PGVdGDVV": {
    "kind": "question_part",
    "label": "qstn_C25D5QDrxBgBbQ7f / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_jMd7ZNTNqdJtbhVx",
-    "spcpt_5PsDhK6cgBrSCHFD"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mCdp2nfcW5dkQRYj": {
    "kind": "question_part",
    "label": "qstn_53Z4ZGMFGkzwMRDH / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_jMd7ZNTNqdJtbhVx"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:16.3.8",
+     "official_code": "16.3.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HctNjJ3Xy7J6Pv5D": {
    "kind": "question_part",
@@ -21961,10 +23366,16 @@
    "label": "qstn_WNJMRhd9XXzpMkFt / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_zWw6jqdvgXTt2kdq",
-    "spcpt_Hq7NkC4XhTcFMwqb"
+    "spcpt_zWw6jqdvgXTt2kdq"
    ]
   },
   "qstnprt_FYNdGTsrMCMgFKwq": {
@@ -21987,54 +23398,99 @@
    "label": "qstn_sjJPGgSGr6Zrrcf2 / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2gTVHVnJYCRyXxPR": {
    "kind": "question_part",
    "label": "qstn_sjJPGgSGr6Zrrcf2 / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT",
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ht469xYQ42fPD53g": {
    "kind": "question_part",
    "label": "qstn_sjJPGgSGr6Zrrcf2 / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT",
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wqRfdcDrjbT2xF2W": {
    "kind": "question_part",
    "label": "qstn_SDddjTVG6rmRBJDM / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_BwK89dHxRfBFMjzg",
-    "spcpt_79pKS5qMBVm9kChz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xj8mhB78sXgKsk5P": {
    "kind": "question_part",
    "label": "qstn_SDddjTVG6rmRBJDM / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_BwK89dHxRfBFMjzg",
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GqsnZFnPHpZQdFY2": {
    "kind": "question_part",
@@ -22057,51 +23513,75 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_5PsDhK6cgBrSCHFD"
-   ]
+   "pending": []
   },
   "qstnprt_sGF2dvv4nPj5Nvgb": {
    "kind": "question_part",
    "label": "qstn_q6BnZX8T6kfH9YM9 / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9ZnZ7DgT8hP2xvSS": {
    "kind": "question_part",
    "label": "qstn_q6BnZX8T6kfH9YM9 / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xVSTv6NPwDgsRgpn": {
    "kind": "question_part",
    "label": "qstn_q6BnZX8T6kfH9YM9 / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xk7hDncYP7BkZGpW": {
    "kind": "question_part",
    "label": "qstn_q6BnZX8T6kfH9YM9 / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6V2ybqbnMvMfHWQd": {
    "kind": "question_part",
@@ -22134,132 +23614,201 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_5PsDhK6cgBrSCHFD"
-   ]
+   "pending": []
   },
   "qstnprt_fYxrRrH83nvMRwp9": {
    "kind": "question_part",
    "label": "qstn_J4QYjQcG7YmsDfFJ / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_Hq7NkC4XhTcFMwqb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m72YXYrPB2Pg4Rwd": {
    "kind": "question_part",
    "label": "qstn_dhFQBNmdGWQrXG37 / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pXqByNdCQVhkhXCy": {
    "kind": "question_part",
    "label": "qstn_dhFQBNmdGWQrXG37 / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jdY7rpgmDbBqWj4f": {
    "kind": "question_part",
    "label": "qstn_dhFQBNmdGWQrXG37 / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2YGy7fJDYSxw3yFX": {
    "kind": "question_part",
    "label": "qstn_dhFQBNmdGWQrXG37 / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_79nQTr9cSJwyT5dj": {
    "kind": "question_part",
    "label": "qstn_dhFQBNmdGWQrXG37 / part 4",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pr4tGmrCgkzgrQST": {
    "kind": "question_part",
    "label": "qstn_WcqYBCZNGK7xfmFx / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BZRgHdzvW7KrkpMM": {
    "kind": "question_part",
    "label": "qstn_WcqYBCZNGK7xfmFx / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ps9QGtpKNDk3y7Mj": {
    "kind": "question_part",
    "label": "qstn_WcqYBCZNGK7xfmFx / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn",
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ggpr7NdMgvvChmdk": {
    "kind": "question_part",
    "label": "qstn_WcqYBCZNGK7xfmFx / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x32QkfXbGDzdNfdr": {
    "kind": "question_part",
    "label": "qstn_V2st5wpKxJvV5KtQ / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_Hq7NkC4XhTcFMwqb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j2Mw5BqmYWzrY9Fs": {
    "kind": "question_part",
    "label": "qstn_V2st5wpKxJvV5KtQ / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_Hq7NkC4XhTcFMwqb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WPvzRCgH9VcdCk6Z": {
    "kind": "question_part",
@@ -22286,40 +23835,60 @@
    "label": "qstn_s8g4JK9DvxgmJbZF / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q34JWnvtSQJzs9Ff": {
    "kind": "question_part",
    "label": "qstn_s8g4JK9DvxgmJbZF / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4K3swQh9pFPGHwtG": {
    "kind": "question_part",
    "label": "qstn_s8g4JK9DvxgmJbZF / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qS79msmRHYRjQJB7": {
    "kind": "question_part",
    "label": "qstn_s8g4JK9DvxgmJbZF / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ppV3vVrXGZmTJZC5": {
    "kind": "question_part",
@@ -22332,41 +23901,60 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_5PsDhK6cgBrSCHFD"
-   ]
+   "pending": []
   },
   "qstnprt_Sq75DqnX3TY3kNXS": {
    "kind": "question_part",
    "label": "qstn_q8XwvFNTVXbrj45V / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NqWdYBcdNwz5QxX7": {
    "kind": "question_part",
    "label": "qstn_q8XwvFNTVXbrj45V / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_rB4QVJDcCJF98PVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.9",
+     "official_code": "6.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YS4PYgGqKpT6HbW5": {
    "kind": "question_part",
    "label": "qstn_q8XwvFNTVXbrj45V / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_rB4QVJDcCJF98PVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.9",
+     "official_code": "6.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YQCYRRfp5NmCtkGM": {
    "kind": "question_part",
@@ -22446,31 +24034,45 @@
      "official_code": "6.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_5PsDhK6cgBrSCHFD"
-   ]
+   "pending": []
   },
   "qstnprt_WqYCFHPzJqFdV4Gt": {
    "kind": "question_part",
    "label": "qstn_M6kmWYTtPVHs99Px / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vgx3kJgwdXjXtbV5": {
    "kind": "question_part",
    "label": "qstn_M6kmWYTtPVHs99Px / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_QpJ9pvTTFqX996sr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kWK38gYyksZTzWkP": {
    "kind": "question_part",
@@ -22503,90 +24105,135 @@
    "label": "qstn_DkJjGgGhjr8k4xcw / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yjVdwFkMjbfKGph9": {
    "kind": "question_part",
    "label": "qstn_DkJjGgGhjr8k4xcw / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3wTc7pQntmxSgN33": {
    "kind": "question_part",
    "label": "qstn_DkJjGgGhjr8k4xcw / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_8PMns5BkXxpCK6fj"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bz6mTrPf5X9VPqnh": {
    "kind": "question_part",
    "label": "qstn_bxckdbQnZZ4NwX7n / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vGZmsmRy7td2dyw4": {
    "kind": "question_part",
    "label": "qstn_bxckdbQnZZ4NwX7n / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MCgwSdCxMdrqjdry": {
    "kind": "question_part",
    "label": "qstn_bxckdbQnZZ4NwX7n / part 2",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wGjsSMqfPqpfZxK7": {
    "kind": "question_part",
    "label": "qstn_bxckdbQnZZ4NwX7n / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_nYfWmvbhbsQwyQVT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.11",
+     "official_code": "6.1.11",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qJ4kDfSRfm6H6WJR": {
    "kind": "question_part",
    "label": "qstn_6XGffg6hX4QXBwM2 / part 0",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_Hq7NkC4XhTcFMwqb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bqNZtCSZCgDZQbnZ": {
    "kind": "question_part",
    "label": "qstn_6XGffg6hX4QXBwM2 / part 1",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_BwK89dHxRfBFMjzg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bqgSbGpV5szNhgh8": {
    "kind": "question_part",
@@ -22604,10 +24251,15 @@
    "label": "qstn_6XGffg6hX4QXBwM2 / part 3",
    "section": "6-plant-nutrition",
    "topic": "6-1-photosynthesis-and-leaf-structure",
-   "codes": [],
-   "pending": [
-    "spcpt_BwK89dHxRfBFMjzg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6W99vfzc2zPPppjS": {
    "kind": "question_part",
@@ -22836,11 +24488,15 @@
      "official_code": "7.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:7.1.3",
+     "official_code": "7.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_8h6b83SSDjMzxT36"
-   ]
+   "pending": []
   },
   "qstnprt_P6VF6p22XfgmWdGV": {
    "kind": "question_part",
@@ -22889,11 +24545,15 @@
      "official_code": "10.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:10.1.4",
+     "official_code": "10.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_spC4RGJjMHJ4GVbc"
-   ]
+   "pending": []
   },
   "qstnprt_XhmW9XtRTdt7hnwp": {
    "kind": "question_part",
@@ -22961,10 +24621,15 @@
    "label": "qstn_x85Yyx64q6XrFjp5 / part 3",
    "section": "7-human-nutrition",
    "topic": "7-1-human-diet-and-digestion",
-   "codes": [],
-   "pending": [
-    "spcpt_8h6b83SSDjMzxT36"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:7.1.3",
+     "official_code": "7.1.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JF3BDDby4Mzxjw3X": {
    "kind": "question_part",
@@ -23082,9 +24747,15 @@
    "label": "qstn_rPwZ5q3r34fTX2q9 / part 0",
    "section": "7-human-nutrition",
    "topic": "7-1-human-diet-and-digestion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_R8x9sGg5kRFnCtCM",
     "spcpt_PG2Cs3NfSfyXstHh"
    ]
   },
@@ -23401,12 +25072,27 @@
    "label": "qstn_gnXS3M8Tcy8vpjNm / part 2",
    "section": "7-human-nutrition",
    "topic": "7-1-human-diet-and-digestion",
-   "codes": [],
-   "pending": [
-    "spcpt_YJTG6Y6pw9B5ZW4k",
-    "spcpt_R8x9sGg5kRFnCtCM",
-    "spcpt_BFvYxZfm4TbkN8g3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.4",
+     "official_code": "5.1.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.5",
+     "official_code": "5.1.5",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mtDwshtqN8sfJJHK": {
    "kind": "question_part",
@@ -23464,11 +25150,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.8",
+     "official_code": "5.1.8",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_bWFsrk7vr3qVsrjn"
-   ]
+   "pending": []
   },
   "qstnprt_bf6SKF2z7DMxY8ZG": {
    "kind": "question_part",
@@ -23517,10 +25207,16 @@
    "label": "qstn_3kCxHcGV94pMZPfK / part 2",
    "section": "7-human-nutrition",
    "topic": "7-1-human-diet-and-digestion",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_YV6VK3BryrsFrXsG",
-    "spcpt_KBdC2wDzfPD3qj46"
+    "spcpt_YV6VK3BryrsFrXsG"
    ]
   },
   "qstnprt_jKRfggBDskyHZ8xb": {
@@ -23653,11 +25349,15 @@
      "official_code": "8.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:8.2.4",
+     "official_code": "8.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_hSJhh8dvRpmpDjNF"
-   ]
+   "pending": []
   },
   "qstnprt_2MygRBFVsMv8cB6r": {
    "kind": "question_part",
@@ -23670,11 +25370,15 @@
      "official_code": "8.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:8.2.4",
+     "official_code": "8.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_hSJhh8dvRpmpDjNF"
-   ]
+   "pending": []
   },
   "qstnprt_FGr6Nd22PbrjRqFj": {
    "kind": "question_part",
@@ -24093,20 +25797,30 @@
    "label": "qstn_xrpvfwMpQtdhFf2w / part 1",
    "section": "8-transport-in-plants",
    "topic": "8-1-transport-in-plants",
-   "codes": [],
-   "pending": [
-    "spcpt_v7XgMvCgz4NwX2Tp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:8.2.3",
+     "official_code": "8.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qjX9tMmqbqxsndGq": {
    "kind": "question_part",
    "label": "qstn_xrpvfwMpQtdhFf2w / part 2",
    "section": "8-transport-in-plants",
    "topic": "8-1-transport-in-plants",
-   "codes": [],
-   "pending": [
-    "spcpt_hSJhh8dvRpmpDjNF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:8.2.4",
+     "official_code": "8.2.4",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tXJXk9nYQM23BGPW": {
    "kind": "question_part",
@@ -24157,9 +25871,15 @@
    "label": "qstn_WQ3YgDXpwV6Tz4Sy / part 3",
    "section": "8-transport-in-plants",
    "topic": "8-1-transport-in-plants",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:8.2.3",
+     "official_code": "8.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_v7XgMvCgz4NwX2Tp",
     "spcpt_7rYkZNxvfrCvMRPr"
    ]
   },
@@ -24168,10 +25888,16 @@
    "label": "qstn_SM2P3h9yY8DzdjXd / part 0",
    "section": "8-transport-in-plants",
    "topic": "8-1-transport-in-plants",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:6.2.1",
+     "official_code": "6.2.1",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_wnsYq9ZtzYsVC62X",
-    "spcpt_QpJ9pvTTFqX996sr"
+    "spcpt_wnsYq9ZtzYsVC62X"
    ]
   },
   "qstnprt_cptSGRKN7SswngGX": {
@@ -24728,10 +26454,15 @@
    "label": "qstn_2278N8m9FhjhXKnS / part 0",
    "section": "9-transport-in-animals",
    "topic": "9-1-circulatory-systems-heart-and-blood-vessels",
-   "codes": [],
-   "pending": [
-    "spcpt_c98x9G7n5xjSCbZr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:9.2.3",
+     "official_code": "9.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NhvQtG8kVv3K3RZn": {
    "kind": "question_part",
@@ -24793,10 +26524,16 @@
    "label": "qstn_RKFNtzwMYXhNGbFM / part 0",
    "section": "9-transport-in-animals",
    "topic": "9-1-circulatory-systems-heart-and-blood-vessels",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:2.1.6",
+     "official_code": "2.1.6",
+     "tier": "J4_name_phrase_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_QY63z7YbjBcHcC3y",
-    "spcpt_KwtZ4pxtFPR5vRnr"
+    "spcpt_QY63z7YbjBcHcC3y"
    ]
   },
   "qstnprt_4M7By5NC6Vhpk9JP": {
@@ -24827,10 +26564,15 @@
    "label": "qstn_vm8Bh6cdyN34cxXn / part 0",
    "section": "9-transport-in-animals",
    "topic": "9-1-circulatory-systems-heart-and-blood-vessels",
-   "codes": [],
-   "pending": [
-    "spcpt_c98x9G7n5xjSCbZr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:9.2.3",
+     "official_code": "9.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rkx8Kmf5nwVNkNR4": {
    "kind": "question_part",
@@ -25067,11 +26809,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:9.2.3",
+     "official_code": "9.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_c98x9G7n5xjSCbZr"
-   ]
+   "pending": []
   },
   "qstnprt_Td4Vkc5y9kBsCzBw": {
    "kind": "question_part",
@@ -25258,11 +27004,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:9.2.3",
+     "official_code": "9.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_c98x9G7n5xjSCbZr"
-   ]
+   "pending": []
   },
   "qstnprt_F4kPxptMJRhh2WKH": {
    "kind": "question_part",
@@ -25276,11 +27026,15 @@
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin",
      "via": "wave3-cascade-of-record-sid-row"
+    },
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:9.2.3",
+     "official_code": "9.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
     }
    ],
-   "pending": [
-    "spcpt_c98x9G7n5xjSCbZr"
-   ]
+   "pending": []
   },
   "qstnprt_5H39CQfRGsM7vnT5": {
    "kind": "question_part",
@@ -25393,10 +27147,15 @@
    "label": "qstn_cYv62Q3jqVfY9CdP / part 1",
    "section": "9-transport-in-animals",
    "topic": "9-1-circulatory-systems-heart-and-blood-vessels",
-   "codes": [],
-   "pending": [
-    "spcpt_c98x9G7n5xjSCbZr"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_BIOLOGY_2023_2025:9.2.3",
+     "official_code": "9.2.3",
+     "tier": "J1_definition_text_identity",
+     "method": "cie_index_rejoin_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZDPPD9Vmzjz6X2MH": {
    "kind": "question_part",

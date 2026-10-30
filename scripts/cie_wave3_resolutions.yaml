@@ -1,0 +1,3673 @@
+schema: syllabai.cie-rejoin-resolutions/1.0
+lane: T-SPECS-CIE-REJOIN-3
+stamp: '2026-10-30T09:30:00Z'
+directive: fire that consume lane
+gateway_trace: 1a18bc6701800065
+verdicts:
+- lane: cie-as-accounting-21
+  verdict: resolve
+  tier: J3_name_text_identity
+  official_id: CIE_A_LEVEL_ACCOUNTING_2023_2025:3.1.1
+  official_code: 3.1.1
+  evidence:
+    sme_name: Financial statements
+    sme_definition: ''
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Financial statements
+    rule: norm(name) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:4.1.2
+  official_code: 4.1.2
+  evidence:
+    sme_name: Large molecules are made from smaller molecules
+    sme_definition: 'State that large molecules are made from smaller molecules, limited
+      to:
+
+      (a) starch, glycogen and cellulose from glucose
+
+      (b) proteins from amino acids
+
+      (c) fats and oils from fatty acids and glycerol'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'State that large molecules are made from smaller molecules, limited
+      to:'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:20.3.1
+  official_code: 20.3.1
+  evidence:
+    sme_name: Untreated sewage & excess fertiliser
+    sme_definition: Describe the effects of untreated sewage and excess fertiliser
+      on aquatic ecosystems
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the effects of untreated sewage and excess fertiliser
+      on aquatic ecosystems
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.2
+  official_code: 6.1.2
+  evidence:
+    sme_name: Photosynthesis word equation
+    sme_definition: 'State the word equation for photosynthesis as: carbon dioxide
+      + water → glucose + oxygen in the presence of light and chlorophyll'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'State the word equation for photosynthesis as: carbon dioxide
+      + water → glucose + oxygen in the presence of light and chlorophyll'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.7
+  official_code: 6.1.7
+  evidence:
+    sme_name: Investigating the need for carbon dioxide
+    sme_definition: Investigate the need for chlorophyll, light and carbon dioxide
+      for photosynthesis, using appropriate controls
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate the need for chlorophyll, light and carbon dioxide
+      for photosynthesis, using appropriate controls
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.8
+  official_code: 6.1.8
+  evidence:
+    sme_name: Investigating the rate of photosynthesis
+    sme_definition: Investigate and describe the effects of varying light intensity,
+      carbon dioxide concentration and temperature on the rate of photosynthesis
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate and describe the effects of varying light intensity,
+      carbon dioxide concentration and temperature on the rate of photosynthesis
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:7.1.3
+  official_code: 7.1.3
+  evidence:
+    sme_name: Scurvy & rickets
+    sme_definition: State the causes of scurvy and rickets
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State the causes of scurvy and rickets
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:10.1.6
+  official_code: 10.1.6
+  evidence:
+    sme_name: 'Active immunity: Extended'
+    sme_definition: Describe active immunity as defence against a pathogen by antibody
+      production in the body
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe active immunity as defence against a pathogen by antibody
+      production in the body
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:5.1.5
+  official_code: 5.1.5
+  evidence:
+    sme_name: Investigating the effect of temperature on amylase
+    sme_definition: Investigate and describe the effect of changes in temperature
+      and pH on enzyme activity with reference to optimum temperature and denaturation
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate and describe the effect of changes in temperature and
+      pH on enzyme activity with reference to optimum temperature and denaturation
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.7
+  official_code: 6.1.7
+  evidence:
+    sme_name: Investigating the need for light
+    sme_definition: Investigate the need for chlorophyll, light and carbon dioxide
+      for photosynthesis, using appropriate controls
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate the need for chlorophyll, light and carbon dioxide
+      for photosynthesis, using appropriate controls
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:14.1.8
+  official_code: 14.1.8
+  evidence:
+    sme_name: 'Structure of a synapse: Extended'
+    sme_definition: Describe the structure of a synapse, including the presence of
+      vesicles containing neurotransmitter molecules, the synaptic gap and receptor
+      proteins
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the structure of a synapse, including the presence of
+      vesicles containing neurotransmitter molecules, the synaptic gap and receptor
+      proteins
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:14.4.4
+  official_code: 14.4.4
+  evidence:
+    sme_name: 'Blood glucose control: Extended'
+    sme_definition: Describe the control of blood glucose concentration by the liver
+      and the roles of insulin and glucagon
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the control of blood glucose concentration by the liver
+      and the roles of insulin and glucagon
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.7
+  official_code: 6.1.7
+  evidence:
+    sme_name: Investigating the need for chlorophyll
+    sme_definition: Investigate the need for chlorophyll, light and carbon dioxide
+      for photosynthesis, using appropriate controls
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate the need for chlorophyll, light and carbon dioxide
+      for photosynthesis, using appropriate controls
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:16.2.3
+  official_code: 16.2.3
+  evidence:
+    sme_name: 'Haploid & diploid cells: Extended'
+    sme_definition: State that nuclei of gametes are haploid and that the nucleus
+      of a zygote is diploid
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that nuclei of gametes are haploid and that the nucleus of
+      a zygote is diploid
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:5.1.9
+  official_code: 5.1.9
+  evidence:
+    sme_name: 'Enzymes & pH: Extended'
+    sme_definition: Explain the effect of changes in pH on enzyme activity in terms
+      of shape and fit and denaturation
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain the effect of changes in pH on enzyme activity in terms
+      of shape and fit and denaturation
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:17.2.4
+  official_code: 17.2.4
+  evidence:
+    sme_name: 'Mitosis & stem cells: Extended'
+    sme_definition: Describe stem cells as unspecialised cells that divide by mitosis
+      to produce daughter cells that can become specialised for specific functions
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that during mitosis, the copies of chromosomes separate,
+      maintaining the chromosome number in each daughter cell Describe stem cells
+      as unspecialised cells that divide by mitosis to produce daughter cells that
+      can become specialised for specific functions
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:2.1.6
+  official_code: 2.1.6
+  evidence:
+    sme_name: Specialised cells
+    sme_definition: 'State that specialised cells have specific functions, limited
+      to:
+
+      (a) ciliated cells – movement of mucus in the trachea and bronchi
+
+      (b) root hair cells – absorption
+
+      (c) palisade mesophyll cells – photosynthesis
+
+      (d) neurones – conduction of electrical impulses
+
+      (e) red blood cells – transport of oxygen
+
+      (f) sperm and egg cells (gametes) – reproduction'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState that specialised cells have specific functions, limited\
+      \ to: trachea and bronchi"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:10.1.5
+  official_code: 10.1.5
+  evidence:
+    sme_name: Controlling the spread of disease
+    sme_definition: 'Explain the importance of the following in controlling the spread
+      of disease:
+
+      (a) a clean water supply
+
+      (b) hygienic food preparation
+
+      (c) good personal hygiene
+
+      (d) waste disposal
+
+      (e) sewage treatment (details of the stages of sewage treatment are not required)'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Explain the importance of the following in controlling the spread
+      of disease: sewage treatment are not required)'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.2.1
+  official_code: 6.2.1
+  evidence:
+    sme_name: Leaf structure & adaptations for photosynthesis
+    sme_definition: State that most leaves have a large surface area and are thin,
+      and explain how these features are adaptations for photosynthesis
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that most leaves have a large surface area and are thin,
+      and explain how these features are adaptations for photosynthesis
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:5.1.4
+  official_code: 5.1.4
+  evidence:
+    sme_name: How do enzymes work?
+    sme_definition: Describe enzyme action with reference to the shape of the active
+      site of an enzyme being complementary to its substrate and the formation of
+      products
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe enzyme action with reference to the shape of the active
+      site of an enzyme being complementary to its substrate and the formation of
+      products
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:10.1.12
+  official_code: 10.1.12
+  evidence:
+    sme_name: 'Preventing the spread of disease: Extended'
+    sme_definition: Explain the role of vaccination in controlling the spread of diseases
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain the role of vaccination in controlling the spread of diseases
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:16.1.2
+  official_code: 16.1.2
+  evidence:
+    sme_name: Examples of asexual reproduction
+    sme_definition: Identify examples of asexual reproduction in diagrams, images
+      and information provided
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Identify examples of asexual reproduction in diagrams, images and
+      information provided
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:14.1.4
+  official_code: 14.1.4
+  evidence:
+    sme_name: Neurone diagrams
+    sme_definition: Identify in diagrams and images sensory, relay and motor neurones
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Identify in diagrams and images sensory, relay and motor neurones
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:2.1.7
+  official_code: 2.1.7
+  evidence:
+    sme_name: Levels of organisation in an organism
+    sme_definition: 'Describe the meaning of the terms: cell, tissue, organ, organ
+      system and organism as illustrated by examples given in the syllabus'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the meaning of the terms: cell, tissue, organ, organ\
+      \ system and organism as illustrated by examples given in the syllabus"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:5.1.5
+  official_code: 5.1.5
+  evidence:
+    sme_name: Investigating the effect of pH on amylase
+    sme_definition: Investigate and describe the effect of changes in temperature
+      and pH on enzyme activity with reference to optimum temperature and denaturation
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate and describe the effect of changes in temperature and
+      pH on enzyme activity with reference to optimum temperature and denaturation
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:5.1.8
+  official_code: 5.1.8
+  evidence:
+    sme_name: 'Enzymes & temperature: Extended'
+    sme_definition: Explain the effect of changes in temperature on enzyme activity
+      in terms of kinetic energy, shape and fit, frequency of effective collisions
+      and denaturation
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain the effect of changes in temperature on enzyme activity
+      in terms of kinetic energy, shape and fit, frequency of effective collisions
+      and denaturation
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:9.2.3
+  official_code: 9.2.3
+  evidence:
+    sme_name: Monitoring activity of the heart
+    sme_definition: 'State that the activity of the heart may be monitored by: ECG,
+      pulse rate and listening to sounds of valves closing'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'State that the activity of the heart may be monitored by: ECG,
+      pulse rate and listening to sounds of valves closing'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:14.4.8
+  official_code: 14.4.8
+  evidence:
+    sme_name: 'Vasoconstriction & vasodilation: Extended'
+    sme_definition: Describe the maintenance of a constant internal body temperature
+      in mammals in terms of vasodilation and vasoconstriction of arterioles supplying
+      skin surface capillaries
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the maintenance of a constant internal body temperature
+      in mammals in terms of vasodilation and vasoconstriction of arterioles supplying
+      skin surface capillaries
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:12.1.2
+  official_code: 12.1.2
+  evidence:
+    sme_name: The effect of temperature on respiration
+    sme_definition: Investigate and describe the effect of temperature on respiration
+      in yeast
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate and describe the effect of temperature on respiration
+      in yeast
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:2.2.3
+  official_code: 2.2.3
+  evidence:
+    sme_name: 'Converting between units: Extended'
+    sme_definition: Convert measurements between millimetres (mm) and micrometres
+      (μm)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Convert measurements between millimetres (mm) and micrometres (
+      μ m)
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:8.2.4
+  official_code: 8.2.4
+  evidence:
+    sme_name: Investigating Water Movement in Plants
+    sme_definition: Investigate, using a suitable stain, the pathway of water through
+      the above-ground parts of a plant
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate, using a suitable stain, the pathway of water through
+      the above-ground parts of a plant
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:16.3.8
+  official_code: 16.3.8
+  evidence:
+    sme_name: Factors affecting germination of seeds
+    sme_definition: 'Investigate and describe the environmental conditions that affect
+      germination of seeds, limited to the requirement for: water, oxygen and a suitable
+      temperature'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Investigate and describe the environmental conditions that affect
+      germination of seeds, limited to the requirement for: water, oxygen and a suitable
+      temperature'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:14.2.1
+  official_code: 14.2.1
+  evidence:
+    sme_name: Sense organs as receptors
+    sme_definition: 'Describe sense organs as groups of receptor cells responding
+      to specific stimuli: light, sound, touch, temperature and chemicals'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Describe sense organs as groups of receptor cells responding to
+      specific stimuli: light, sound, touch, temperature and chemicals'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:2.1.5
+  official_code: 2.1.5
+  evidence:
+    sme_name: Producing new cells
+    sme_definition: State that new cells are produced by division of existing cells
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState that new cells are produced by division of existing cells"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:14.3.4
+  official_code: 14.3.4
+  evidence:
+    sme_name: Comparison of nervous & hormonal control
+    sme_definition: Compare nervous and hormonal control, limited to speed of action
+      and duration of effect
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Compare nervous and hormonal control, limited to speed of action
+      and duration of effect
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.11
+  official_code: 6.1.11
+  evidence:
+    sme_name: 'Limiting factors: Extended'
+    sme_definition: Identify and explain the limiting factors of photosynthesis in
+      different environmental conditions
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Identify and explain the limiting factors of photosynthesis in
+      different environmental conditions
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:19.2.10
+  official_code: 19.2.10
+  evidence:
+    sme_name: Food chains & food webs
+    sme_definition: 'Describe a food chain as showing the transfer of energy from
+      one organism to the next, beginning with a producer
+
+      Describe a producer as an organism that makes its own organic nutrients, usually
+      using energy from sunlight, through photosynthesis
+
+      Describe a consumer as an organism that gets its energy by feeding on other
+      organisms
+
+      State that consumers may be classed as primary, secondary, tertiary and quaternary
+      according to their position in a food chain
+
+      Describe a herbivore as an animal that gets its energy by eating plants
+
+      Describe a carnivore as an animal that gets its energy by eating other animals
+
+      Describe a decomposer as an organism that gets its energy from dead or waste
+      organic material
+
+      Construct and interpret simple food chains Describe a food web as a network
+      of interconnected food chains and interpret food webs
+
+      Use food chains and food webs to describe the impact humans have through overharvesting
+      of food species and through introducing foreign species to a habitat'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Use food chains and food webs to describe the impact humans have
+      through overharvesting of food species and through introducing foreign species
+      to a habitat
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:6.1.9
+  official_code: 6.1.9
+  evidence:
+    sme_name: Investigating gas exchange
+    sme_definition: Investigate and describe the effect of light and dark conditions
+      on gas exchange in an aquatic plant using hydrogencarbonate indicator solution
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Investigate and describe the effect of light and dark conditions
+      on gas exchange in an aquatic plant using hydrogencarbonate indicator solution
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:17.1.4
+  official_code: 17.1.4
+  evidence:
+    sme_name: XX & XY chromosomes
+    sme_definition: Describe the inheritance of sex in humans with reference to X
+      and Y chromosomes
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the inheritance of sex in humans with reference to X and
+      Y chromosomes
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:2.1.2
+  official_code: 2.1.2
+  evidence:
+    sme_name: Bacteria cells
+    sme_definition: 'Describe the structure of a bacterial cell, limited to: cell
+      wall, cell membrane, cytoplasm, ribosomes, circular DNA, plasmids'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the structure of a bacterial cell, limited to: cell\
+      \ wall, cell membrane, cytoplasm, ribosomes, circular DNA, plasmids"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:10.1.4
+  official_code: 10.1.4
+  evidence:
+    sme_name: The body defences
+    sme_definition: 'Describe the body defences, limited to: skin, hairs in the nose,
+      mucus, stomach acid and white blood cells'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Describe the body defences, limited to: skin, hairs in the nose,
+      mucus, stomach acid and white blood cells'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:3.2.1
+  official_code: 3.2.1
+  evidence:
+    sme_name: Water as a solvent
+    sme_definition: Describe the role of water as a solvent in organisms with reference
+      to digestion, excretion and transport
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the role of water as a solvent in organisms with reference
+      to digestion, excretion and transport
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:8.2.3
+  official_code: 8.2.3
+  evidence:
+    sme_name: Pathway Taken by Water
+    sme_definition: 'Outline the pathway taken by water through the root, stem and
+      leaf as: root hair cells, root cortex cells, xylem, mesophyll cells'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Outline the pathway taken by water through the root, stem and
+      leaf as: root hair cells, root cortex cells, xylem, mesophyll cells'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:20.1.2
+  official_code: 20.1.2
+  evidence:
+    sme_name: Monocultures
+    sme_definition: 'Describe the advantages and disadvantages of large-scale monocultures
+      of crop plants
+
+      Describe the advantages and disadvantages of intensive livestock production'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the advantages and disadvantages of large-scale monocultures
+      of crop plants
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-biology-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_BIOLOGY_2023_2025:3.1.5
+  official_code: 3.1.5
+  evidence:
+    sme_name: Factors that influence diffusion
+    sme_definition: 'Investigate the factors that influence diffusion, limited to:
+      surface area, temperature, concentration gradient and distance'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Investigate the factors that influence diffusion, limited to:
+      surface area, temperature, concentration gradient and distance'
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:9.2.1
+  official_code: 9.2.1
+  evidence:
+    sme_name: Uses of metals
+    sme_definition: "Describe the uses of metals in terms of their physical properties,\
+      \ including: \naluminium in the manufacture of aircraft because of its low density\
+      \ \naluminium in the manufacture of overhead electrical cables because of its\
+      \ low density and good electrical conductivity \naluminium in food containers\
+      \  because of its resistance to corrosion \ncopper in electrical wiring because\
+      \ of its good electrical conductivity and ductility"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Describe the uses of metals in terms of their physical properties,
+      including: because of its low density electrical cables because of its low density
+      and good electrical conductivity resistance to corrosion electrical conductivity
+      and ductility'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:9.6.3
+  official_code: 9.6.3
+  evidence:
+    sme_name: Extraction of aluminium from bauxite
+    sme_definition: 'State that the main ore of aluminium is bauxite and that aluminium
+      is extracted by electrolysis '
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that the main ore of aluminium is bauxite and that aluminium
+      is extracted by electrolysis
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:8.1.5
+  official_code: 8.1.5
+  evidence:
+    sme_name: Predicting properties
+    sme_definition: Explain how the position of an element in the Periodic Table can
+      be used to predict its properties
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain how the position of an element in the Periodic Table can
+      be used to predict its properties
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:8.1.4
+  official_code: 8.1.4
+  evidence:
+    sme_name: Periodic trends & electronic Configuration
+    sme_definition: 'Explain similarities in the chemical properties of elements in
+      the same group of the Periodic Table in terms of their electronic configuration
+
+      '
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain similarities in the chemical properties of elements in
+      the same group of the Periodic Table in terms of their electronic configuration
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:12.3.2
+  official_code: 12.3.2
+  evidence:
+    sme_name: Interpret simple chromatograms
+    sme_definition: "Interpret simple chromatograms to identify: \nunknown substances\
+      \ by comparison with known substances \npure  and impure substances"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Interpret simple chromatograms to identify: known substances'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.6.3
+  official_code: 2.6.3
+  evidence:
+    sme_name: Structure of silicon(IV) oxide
+    sme_definition: Describe the giant covalent structure of silicon(IV) oxide, SiO2
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the giant covalent structure of silicon( IV ) oxide, SiO
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:4.1.11
+  official_code: 4.1.11
+  evidence:
+    sme_name: Ionic half equations
+    sme_definition: Construct ionic half-equations for reactions at the anode (to
+      show oxidation) and at the cathode (to show reduction)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Construct ionic half-equations for reactions at the anode (to show
+      oxidation) and at the cathode (to show reduction)
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:7.3.2
+  official_code: 7.3.2
+  evidence:
+    sme_name: Solubility rules
+    sme_definition: "Describe the general solubility rules for salts: \nsodium, potassium\
+      \ and ammonium salts are soluble \nnitrates are soluble \nchlorides are soluble,\
+      \ except lead and silver \nsulfates are soluble, except barium,  calcium and\
+      \ lead  \ncarbonates are insoluble, except sodium, potassium and ammonium  \n\
+      hydroxides are  insoluble, except sodium, potassium, ammonium and calcium (partially)"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Describe the general solubility rules for salts: soluble and lead
+      potassium and ammonium potassium, ammonium and calcium (partially)'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.4.1
+  official_code: 2.4.1
+  evidence:
+    sme_name: The formation of ions
+    sme_definition: Describe the formation of positive ions, known as cations, and
+      negative ions, known as anions
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the formation of positive ions, known as cations, and
+      negative ions, known as anions
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.5.1
+  official_code: 2.5.1
+  evidence:
+    sme_name: The formation of covalent bonds
+    sme_definition: State that a covalent bond is formed when a pair of electrons
+      is shared between two atoms leading to noble gas electronic configurations
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that a covalent bond is formed when a pair of electrons is
+      shared between two atoms leading to noble gas electronic configurations
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.3.5
+  official_code: 11.3.5
+  evidence:
+    sme_name: Fractional Distillation
+    sme_definition: nan
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the separation of petroleum into useful fractions by fractional
+      distillation
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:1.2.2
+  official_code: 1.2.2
+  evidence:
+    sme_name: Diffusion & Molecular Mass
+    sme_definition: Describe & explain the effect of relative molecular mass on the
+      rate of diffusion of gases
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe and explain the effect of relative molecular mass on the
+      rate of diffusion of gases
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:5.1.8
+  official_code: 5.1.8
+  evidence:
+    sme_name: Bond energy calculations
+    sme_definition: Calculate the enthalpy change of a reaction using bond energies
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Calculate the enthalpy change of a reaction using bond energies
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:9.1.2
+  official_code: 9.1.2
+  evidence:
+    sme_name: Chemical properties of metals
+    sme_definition: "Describe the general chemical properties of metals, limited to\
+      \ their reactions with: \ndilute acids \ncold water and steam \noxygen"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Describe the general chemical properties of metals, limited to
+      their reactions with:'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.6.1
+  official_code: 2.6.1
+  evidence:
+    sme_name: Structure of graphite & diamond
+    sme_definition: Describe the giant covalent structures of graphite and diamond
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the giant covalent structures of graphite and diamond
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:1.2.1
+  official_code: 1.2.1
+  evidence:
+    sme_name: Diffusion
+    sme_definition: Describe & explain diffusion in terms of kinetic particle theory
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe and explain diffusion in terms of kinetic particle theory
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.8.6
+  official_code: 11.8.6
+  evidence:
+    sme_name: Condensation polymers
+    sme_definition: "Identify the repeat units and/or linkages in condensation polymers\
+      \ \nDeduce the structure or repeat unit of a condensation polymer from given\
+      \ monomers and vice versa, limited to: \npolyamides from a dicarboxylic acid\
+      \  and a diamine \npolyesters from a dicarboxylic acid and a diol \nDescribe\
+      \ and draw the structure of: \nnylon, a polyamide,  (see IMAGE in syllabus)\
+      \ \nPET, a polyester  (see IMAGE in syllabus).\nThe full name for PET, polyethylene\
+      \ terephthalate, is not required\nDescribe the differences between addition\
+      \ and condensation polymerisation "
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Identify the repeat units and / or linkages in addition polymers
+      and in condensation polymers
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.5.6
+  official_code: 11.5.6
+  evidence:
+    sme_name: Addition reactions
+    sme_definition: "State that in an addition reaction only one product is formed\n\
+      Describe the properties of alkenes in terms of addition reactions with: \nbromine\
+      \ or aqueous bromine \nhydrogen in the presence of a nickel catalyst \nsteam\
+      \ in the presence of an acid catalyst and draw the structural or displayed \
+      \ formulae of the products"
+    evidence_source: cross_lane_join
+    corroborating_sources: []
+    official_text: 'Describe the properties of alkenes in terms of addition reactions
+      with: and draw the structural or displayed formulae of the products'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:3.1.5
+  official_code: 3.1.5
+  evidence:
+    sme_name: Empirical formulae
+    sme_definition: Define the empirical formula of a compound as the simplest whole
+      number ratio of the different atoms or ions in a compound
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Define the empirical formula of a compound as the simplest whole
+      number ratio of the different atoms or ions in a compound
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.5.6
+  official_code: 11.5.6
+  evidence:
+    sme_name: Addition reactions
+    sme_definition: "State that in an addition reaction only one product is formed\n\
+      Describe the properties of alkenes in terms of addition reactions with: \nbromine\
+      \ or aqueous bromine \nhydrogen in the presence of a nickel catalyst \nsteam\
+      \ in the presence of an acid catalyst and draw the structural or displayed \
+      \ formulae of the products"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: 'Describe the properties of alkenes in terms of addition reactions
+      with: and draw the structural or displayed formulae of the products'
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.2.4
+  official_code: 11.2.4
+  evidence:
+    sme_name: Alcohols
+    sme_definition: "Describe the manufacture of ethanol by: \nfermentation of aqueous\
+      \ glucose at 25–35°C in the presence of yeast   and in the absence of oxygen\
+      \ \ncatalytic addition of steam to ethene at 300°C and 6000kPa /60 atm in the\
+      \ presence of an acid catalyst\nDescribe the combustion of ethanol\nState the\
+      \ uses of ethanol as: \na solvent \na fuel "
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Name and draw the displayed formulae of the unbranched esters which
+      can be made from unbranched alcohols and carboxylic acids, each containing up
+      to four carbon atoms
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.4.5
+  official_code: 2.4.5
+  evidence:
+    sme_name: The lattice structure of ionic compounds
+    sme_definition: Describe the giant lattice structure of ionic compounds as a regular
+      arrangement of alternating positive and negative ions
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the giant lattice structure of ionic compounds as a regular
+      arrangement of alternating positive and negative ions
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:8.1.6
+  official_code: 8.1.6
+  evidence:
+    sme_name: Identifying Trends
+    sme_definition: Identify trends in groups, given information about the elements
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Identify trends in groups, given information about the elements
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:4.2.1
+  official_code: 4.2.1
+  evidence:
+    sme_name: Hydrogen fuel cells
+    sme_definition: State that a hydrogen–oxygen fuel cell uses hydrogen and oxygen
+      to produce electricity with water as the only chemical product
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that a hydrogen–oxygen fuel cell uses hydrogen and oxygen
+      to produce electricity with water as the only chemical product
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:7.1.7
+  official_code: 7.1.7
+  evidence:
+    sme_name: Hydrogen ion concentration & pH
+    sme_definition: Describe how to compare hydrogen ion concentration, neutrality,
+      relative acidity and relative alkalinity in terms of colour and pH using universal
+      indicator paper
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe how to compare hydrogen ion concentration, neutrality,
+      relative acidity and relative alkalinity in terms of colour and pH using universal
+      indicator paper
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:12.3.1
+  official_code: 12.3.1
+  evidence:
+    sme_name: Paper chromatography
+    sme_definition: Describe how paper chromatography is used to separate mixtures
+      of soluble coloured substances, using a suitable  solvent
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe how paper chromatography is used to separate mixtures
+      of soluble coloured substances, using a suitable solvent
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:5.1.7
+  official_code: 5.1.7
+  evidence:
+    sme_name: Bond breaking & bond forming
+    sme_definition: 'State that bond breaking is an endothermic process and bond making
+      is an exothermic process and explain the enthalpy change of a reaction in terms
+      of bond breaking and bond making '
+    evidence_source: own
+    corroborating_sources: []
+    official_text: State that bond breaking is an endothermic process and bond making
+      is an exothermic process and explain the enthalpy change of a reaction in terms
+      of bond breaking and bond making
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:9.6.1
+  official_code: 9.6.1
+  evidence:
+    sme_name: Extraction of Metals
+    sme_definition: Describe the ease in obtaining metals from their ores, related
+      to the position of the metal in the reactivity series
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the ease in obtaining metals from their ores, related
+      to the position of the metal in the reactivity series
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:12.3.3
+  official_code: 12.3.3
+  evidence:
+    sme_name: Locating agents
+    sme_definition: "Describe how paper chromatography is used to separate mixtures\
+      \ of soluble colourless substances, using a suitable solvent and a locating\
+      \ agent \nKnowledge of specific locating agents is not required"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe how paper chromatography is used to separate mixtures
+      of soluble colourless substances, using a suitable solvent and a locating agent
+      Knowledge of specific locating agents is not required
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:1.1.6
+  official_code: 1.1.6
+  evidence:
+    sme_name: Gases & Kinetic Theory
+    sme_definition: Explain, in terms of kinetic particle theory, the effects of temperature
+      and pressure on the volume of a gas
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain, in terms of kinetic particle theory, the effects of temperature
+      and pressure on the volume of a gas
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.1.8
+  official_code: 11.1.8
+  evidence:
+    sme_name: Structural formulae
+    sme_definition: 'State that a structural formula is an unambiguous description
+      of the way the atoms in a molecule are arranged, including CH2=CH2, CH3CH2OH,
+      CH3COOCH3
+
+      Define structural isomers as compounds with the same molecular formula, but
+      different structural formulae, including C4H10 as CH3CH2CH2CH3 and CH3CH(CH3)CH3
+      and C4H8 as CH3CH2CH=CH2 and CH3CH=CHCH3'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Define structural isomers as compounds with the same molecular
+      formula, but different structural formulae, including C H as CH CH CH CH and
+      CH CH(CH )CH and C H as CH CH CH=CH and CH CH=CHCH
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:3.1.4
+  official_code: 3.1.4
+  evidence:
+    sme_name: Writing word equations & symbol equations
+    sme_definition: Construct word equations and symbol equations to show how reactants
+      form products, including state symbols
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Construct word equations and symbol equations to show how reactants
+      form products, including state symbols
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.7.1
+  official_code: 2.7.1
+  evidence:
+    sme_name: Metallic bonding
+    sme_definition: Describe metallic bonding as the electrostatic attraction between
+      the positive ions in a giant metallic lattice and a ‘sea’ of delocalised electrons
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe metallic bonding as the electrostatic attraction between
+      the positive ions in a giant metallic lattice and a ‘sea’ of delocalised electrons
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.4.3
+  official_code: 2.4.3
+  evidence:
+    sme_name: Ionic bonds between Group I & Group VII elements
+    sme_definition: Describe the formation of ionic bonds between elements from Group
+      I and Group VII, including the use of dot-and-cross diagrams
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the formation of ionic bonds between elements from Group
+      I and Group VII, including the use of dot-and-cross diagrams
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:1.1.5
+  official_code: 1.1.5
+  evidence:
+    sme_name: State Changes & Kinetic Theory
+    sme_definition: Explain changes of state in terms of kinetic particle theory,
+      including the interpretation of heating and cooling curves
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Explain changes of state in terms of kinetic particle theory, including
+      the interpretation of heating and cooling curves
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:7.3.4
+  official_code: 7.3.4
+  evidence:
+    sme_name: Preparing insoluble salts
+    sme_definition: Describe the preparation of insoluble salts by precipitation
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the preparation of insoluble salts by precipitation
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:1.1.4
+  official_code: 1.1.4
+  evidence:
+    sme_name: Pressure & Temperature in Gases
+    sme_definition: Describe the effects of temperature and pressure on the volume
+      of a gas
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the effects of temperature and pressure on the volume
+      of a gas
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.6.4
+  official_code: 2.6.4
+  evidence:
+    sme_name: Comparing diamond & silicon(IV) oxide
+    sme_definition: Describe the similarity in properties between diamond and silicon(IV)
+      oxide, related to their structures
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the similarity in properties between diamond and silicon(
+      IV ) oxide, related to their structures
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:10.1.2
+  official_code: 10.1.2
+  evidence:
+    sme_name: Purity of water
+    sme_definition: "Describe how to test for the purity of water using melting point\
+      \ and boiling point \nExplain that distilled water is used in practical chemistry\
+      \ rather than tap water because it contains fewer chemical impurities"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe how to test for the purity of water using melting point
+      and boiling point
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:3.1.6
+  official_code: 3.1.6
+  evidence:
+    sme_name: Deducing formulae of ionic compounds
+    sme_definition: Deduce the formula of an ionic compound from the relative numbers
+      of the ions present in a model or a diagrammatic representation or from the
+      charges on the ions
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Deduce the formula of an ionic compound from the relative numbers
+      of the ions present in a model or a diagrammatic representation or from the
+      charges on the ions
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:11.8.6
+  official_code: 11.8.6
+  evidence:
+    sme_name: Addition polymers
+    sme_definition: 'Identify the repeat units and/or linkages in addition polymers
+
+      Deduce the structure or repeat unit of an addition polymer from a given alkene
+      and vice versa'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Identify the repeat units and / or linkages in addition polymers
+      and in condensation polymers
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:12.1.2
+  official_code: 12.1.2
+  evidence:
+    sme_name: Advantages & disadvantages of methods & apparatus
+    sme_definition: Suggest advantages and disadvantages of experimental methods and
+      apparatus
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Suggest advantages and disadvantages of experimental methods and
+      apparatus
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-chemistry-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_CHEMISTRY_2023_2025:2.4.6
+  official_code: 2.4.6
+  evidence:
+    sme_name: Ionic bonds between metallic & non-metallic elements
+    sme_definition: Describe the formation of ionic bonds between ions of metallic
+      and non-metallic elements, including the use of dot-and-cross diagrams
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe the formation of ionic bonds between ions of metallic
+      and non-metallic elements, including the use of dot-and-cross diagrams
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.2.2
+  official_code: 6.2.2
+  evidence:
+    sme_name: Nuclear fusion in stars
+    sme_definition: Know that stars are powered by nuclear reactions that release
+      energy and that in stable stars the nuclear reactions involve the fusion of
+      hydrogen into helium
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that stars are powered by nuclear reactions that release\
+      \ energy and that in stable stars the nuclear reactions involve the fusion of\
+      \ hydrogen into helium"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup2
+  official_code: 3.2.2
+  evidence:
+    sme_name: Investigating refraction
+    sme_definition: Describe an experiment to show refraction of light by transparent
+      blocks of different shapes
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe an experiment to show refraction of light by transparent\
+      \ blocks of different shapes"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.6.3
+  official_code: 1.6.3
+  evidence:
+    sme_name: Conservation of momentum
+    sme_definition: Apply the principle of the conservation of momentum to solve simple
+      problems in one dimension
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aApply the principle of the conservation of momentum to solve\
+      \ simple problems in one dimension"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.1.1-dup2
+  official_code: 5.1.1
+  evidence:
+    sme_name: Composition of the nucleus
+    sme_definition: Describe the composition of the nucleus in terms of protons and
+      neutrons
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the composition of the nucleus in terms of protons\
+      \ and neutrons"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.1
+  official_code: 1.5.1
+  evidence:
+    sme_name: Effects of forces
+    sme_definition: Know that forces may produce changes in the size and shape of
+      an object
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that forces may produce changes in the size and shape of\
+      \ an object"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup4
+  official_code: 3.2.2
+  evidence:
+    sme_name: The visible spectrum of light
+    sme_definition: Know the traditional seven colours of the visible spectrum in
+      order of frequency and in order of wavelength
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow the traditional seven colours of the visible spectrum in\
+      \ order of frequency and in order of wavelength"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.4-dup2
+  official_code: 4.2.4
+  evidence:
+    sme_name: Direct & alternating current
+    sme_definition: Know the difference between direct current (d.c.) and alternating
+      current (a.c.)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow the difference between direct current (d.c.) and alternating\
+      \ current (a.c.)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup3
+  official_code: 3.2.4
+  evidence:
+    sme_name: Real images & virtual images
+    sme_definition: 'Describe the characteristics of an image using the terms enlarged/same
+      size/diminished, upright/inverted and real/virtual '
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the characteristics of an image using the terms enlarged/same\
+      \ size/diminished, upright/inverted and real/virtual"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.6
+  official_code: 4.2.6
+  evidence:
+    sme_name: Electrical conductors & insulators
+    sme_definition: Recall and use a simple electron model to explain the difference
+      between electrical conductors and insulators and give typical examples
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aRecall and use a simple electron model to explain the difference\
+      \ between electrical conductors and insulators and give typical examples 4.2.2\
+      \ Electric current"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.9
+  official_code: 3.2.9
+  evidence:
+    sme_name: Optical fibres
+    sme_definition: Describe the use of optical fibres, particularly in telecommunications
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the use of optical fibres, particularly in telecommunications\
+      \ virtual image by a converging lens glass lenses to correct long-sightedness\
+      \ and short- sightedness described as monochromatic"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup2
+  official_code: 4.2.1
+  evidence:
+    sme_name: Current
+    sme_definition: '- Know that electric current is related to the flow of charge'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that electric current is related to the flow of charge"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.1
+  official_code: 4.5.1
+  evidence:
+    sme_name: Induced e.m.f.
+    sme_definition: Know that a conductor moving across a magnetic field or a changing
+      magnetic field linking with a conductor can induce an e.m.f. in the conductor
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that a conductor moving across a magnetic field or a changing\
+      \ magnetic field linking with a conductor can induce an e.m.f. in the conductor"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.3.6
+  official_code: 2.3.6
+  evidence:
+    sme_name: The greenhouse effect
+    sme_definition: Know how the temperature of the Earth is affected by factors controlling
+      the balance between incoming radiation and radiation emitted from the Earth’s
+      surface
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow how the temperature of the Earth is affected by factors\
+      \ controlling the balance between incoming radiation and radiation emitted from\
+      \ the Earth’s surface continued"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.2.2
+  official_code: 1.2.2
+  evidence:
+    sme_name: Velocity
+    sme_definition: Define velocity as speed in a given direction
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine velocity as speed in a given direction"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.10
+  official_code: 4.2.10
+  evidence:
+    sme_name: Electric field patterns
+    sme_definition: 'Describe simple electric field patterns, including the direction
+      of the field:
+
+      (a) around a point charge
+
+      (b) around a charged conducting sphere
+
+      (c) between two oppositely charged parallel conducting plates (end effects will
+      not be examined)'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe simple electric field patterns, including the direction\
+      \ of the field: conducting plates (end effects will not be examined) point per\
+      \ unit time; recall and use the equation to negative and that the flow of free\
+      \ electrons is from negative to positive"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup2
+  official_code: 4.5.1
+  evidence:
+    sme_name: Magnetic field around wires & solenoids
+    sme_definition: Describe the pattern and direction of the magnetic field due to
+      currents in straight wires and in solenoids
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the pattern and direction of the magnetic field due\
+      \ to currents in straight wires and in solenoids"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.2.5
+  official_code: 5.2.5
+  evidence:
+    sme_name: Electric fields
+    sme_definition: "- Describe an electric field as a region in which an electric\
+      \ charge experiences a force \n- State that the direction of an electric field\
+      \ at a point is the direction of the force on a positive charge at that point "
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aUse measurements of background radiation to determine a corrected\
+      \ count rate and γ -radiation in electric fields and magnetic fields reference\
+      \ to:"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.1.10
+  official_code: 6.1.10
+  evidence:
+    sme_name: Comet speed
+    sme_definition: Know that an object in an elliptical orbit travels faster when
+      closer to the Sun and explain this using the conservation of energy
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that an object in an elliptical orbit travels faster when\
+      \ closer to the Sun and explain this using the conservation of energy"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.1.6
+  official_code: 2.1.6
+  evidence:
+    sme_name: Forces & distances between particles
+    sme_definition: Know that the forces and distances between particles (atoms, molecules,
+      ions and electrons) and the motion of the particles affects the properties of
+      solids, liquids and gases
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that the forces and distances between particles (atoms,\
+      \ molecules, ions and electrons) and the motion of the particles affects the\
+      \ properties of solids, liquids and gases"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.5
+  official_code: 1.7.5
+  evidence:
+    sme_name: Gravitational potential energy
+    sme_definition: Recall and use the equation for the change in gravitational potential
+      energy ∆Ep = mg∆h
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aRecall and use the equation for the change in gravitational\
+      \ potential energy ∆ E = mg ∆ h"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup3
+  official_code: 2.2.1
+  evidence:
+    sme_name: Melting & boiling
+    sme_definition: Describe melting and boiling in terms of energy input without
+      a change in temperature
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe melting and boiling in terms of energy input without\
+      \ a change in temperature"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.1.7
+  official_code: 2.1.7
+  evidence:
+    sme_name: Pressure & force of particles in a gas
+    sme_definition: Describe the pressure and the changes in pressure of a gas in
+      terms of the forces exerted by particles colliding with surfaces, creating a
+      force per unit area
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the pressure and the changes in pressure of a gas in\
+      \ terms of the forces exerted by particles colliding with surfaces, creating\
+      \ a force per unit area"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.1.2
+  official_code: 5.1.2
+  evidence:
+    sme_name: Atoms & ions
+    sme_definition: Know how atoms may form positive ions by losing electrons or form
+      negative ions by gaining electrons
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow how atoms may form positive ions by losing electrons or\
+      \ form negative ions by gaining electrons 5.1.2 The nucleus"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.1.2-dup3
+  official_code: 2.1.2
+  evidence:
+    sme_name: Absolute temperature
+    sme_definition: Convert temperatures between kelvin and degrees Celsius; recall
+      and use the equation T (in K) = θ (in °C) + 273
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aConvert temperatures between kelvin and degrees Celsius; recall\
+      \ and use the equation T (in K) = θ (in °C) + 273"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup3
+  official_code: 4.5.1
+  evidence:
+    sme_name: Simple a.c. generators
+    sme_definition: Describe a simple form of a.c. generator (rotating coil or rotating
+      magnet) and the use of slip rings and brushes where needed
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe a simple form of a.c. generator (rotating coil or rotating\
+      \ magnet) and the use of slip rings and brushes where needed"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.1.3
+  official_code: 5.1.3
+  evidence:
+    sme_name: Describing the nucleus
+    sme_definition: Define the terms proton number (atomic number) Z and nucleon number
+      (mass number) A and be able to calculate the number of neutrons in a nucleus
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine the terms proton number (atomic number) Z and nucleon\
+      \ number (mass number) A and be able to calculate the number of neutrons in\
+      \ a nucleus"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.4.4
+  official_code: 1.4.4
+  evidence:
+    sme_name: Floating liquids
+    sme_definition: Determine whether one liquid will float on another liquid based
+      on density data given that the liquids do not mix
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDetermine whether one liquid will float on another liquid based\
+      \ on density data given that the liquids do not mix"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3
+  official_code: 1.7.1
+  evidence:
+    sme_name: Hydroelectric dams
+    sme_definition: "Describe how useful energy may be obtained, or electrical power\
+      \ generated, from:  \n * water behind hydroelectric dams\n including references\
+      \ to a boiler, turbine and generator where they are used\nDescribe advantages\
+      \ and disadvantages in terms of renewability, availability, reliability, scale\
+      \ and environmental impact"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how useful energy may be obtained, or electrical power\
+      \ generated, from: in tides, and in water behind hydroelectric dams power (solar\
+      \ cells) from the Sun to heat water (solar panels) and be the source of wind\
+      \ energy \aincluding references to a boiler, turbine and generator where they\
+      \ are used"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.1.3
+  official_code: 3.1.3
+  evidence:
+    sme_name: Features of a wave
+    sme_definition: Describe the features of a wave in terms of wavefront, wavelength,
+      frequency, crest (peak), trough, amplitude and wave speed
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the features of a wave in terms of wavefront, wavelength,\
+      \ frequency, crest (peak), trough, amplitude and wave speed"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.2.3-dup2
+  official_code: 2.2.3
+  evidence:
+    sme_name: Thermal expansion in terms of particles
+    sme_definition: Explain, in terms of the motion and arrangement of particles,
+      the relative order of magnitudes of the expansion of solids, liquids and gases
+      as their temperatures rise
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aExplain, in terms of the motion and arrangement of particles,\
+      \ the relative order of magnitudes of the expansion of solids, liquids and gases\
+      \ as their temperatures rise in terms of an increase in the average kinetic\
+      \ energies of all of the particles in the object required per unit mass per\
+      \ unit temperature increase; recall and use the equation"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.5
+  official_code: 3.4.5
+  evidence:
+    sme_name: Speed of sound in air
+    sme_definition: Know that the speed of sound in air is approximately 330–350 m/s
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that the speed of sound in air is approximately 330–350\
+      \ m / s"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup3
+  official_code: 5.2.1
+  evidence:
+    sme_name: Types of radioactive decay
+    sme_definition: "- Know that radioactive decay is a change in an unstable nucleus\
+      \ that can result in the emission of    \n    > α-particles or \n    > β-particles\
+      \ and/or \n    > γ-radiation and \n    > know that these changes are spontaneous\
+      \ and random"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that radioactive decay is a change in an unstable nucleus\
+      \ that can result in the emission of α -particles or β -particles and/or γ -radiation\
+      \ and know that these changes are spontaneous and random"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3
+  official_code: 1.7.1
+  evidence:
+    sme_name: Wind energy
+    sme_definition: "Describe how useful energy may be obtained, or electrical power\
+      \ generated, from:  \n * infrared and other electromagnetic waves from the Sun\
+      \ to heat water (solar panels) and be the source of wind energy \n including\
+      \ references to a boiler, turbine and generator where they are used\nDescribe\
+      \ advantages and disadvantages in terms of renewability, availability, reliability,\
+      \ scale and environmental impact"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how useful energy may be obtained, or electrical power\
+      \ generated, from: in tides, and in water behind hydroelectric dams power (solar\
+      \ cells) from the Sun to heat water (solar panels) and be the source of wind\
+      \ energy \aincluding references to a boiler, turbine and generator where they\
+      \ are used"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.3.4
+  official_code: 1.3.4
+  evidence:
+    sme_name: Using a balance
+    sme_definition: Know that weights (and masses) may be compared using a balance
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that weights (and masses) may be compared using a balance"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.10
+  official_code: 3.4.10
+  evidence:
+    sme_name: Compression & rarefaction
+    sme_definition: Describe compression and rarefaction
+    evidence_source: own
+    corroborating_sources: []
+    official_text: Describe compression and rarefaction
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.1.9
+  official_code: 6.1.9
+  evidence:
+    sme_name: Orbital motion of planets
+    sme_definition: Know that the strength of the Sun’s gravitational field decreases
+      and that the orbital speeds of the planets decrease as the distance from the
+      Sun increases
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that the strength of the Sun’s gravitational field decreases\
+      \ and that the orbital speeds of the planets decrease as the distance from the\
+      \ Sun increases"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.8
+  official_code: 3.4.8
+  evidence:
+    sme_name: Echoes
+    sme_definition: Describe an echo as the reflection of sound waves
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe an echo as the reflection of sound waves"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.3.3-dup2
+  official_code: 2.3.3
+  evidence:
+    sme_name: Thermal conduction in liquids & gases
+    sme_definition: Describe, in terms of particles, why thermal conduction is bad
+      in gases and most liquids
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe, in terms of particles, why thermal conduction is bad\
+      \ in gases and most liquids"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.3.7
+  official_code: 3.3.7
+  evidence:
+    sme_name: Systems of communications
+    sme_definition: 'Know that many important systems of communications rely on electromagnetic
+      radiation including:
+
+      (a) mobile phones (cell phones) and wireless internet use microwaves because
+      microwaves can penetrate some walls and only require a short aerial for transmission
+      and reception
+
+      (b) Bluetooth uses radio waves because radio waves pass through walls but the
+      signal is weakened on doing so
+
+      (c) optical fibres (visible light or infrared) are used for cable television
+      and high-speed broadband because glass is transparent to visible light and some
+      infrared; visible light and short wavelength infrared can carry high rates of
+      data'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that many important systems of communications rely on electromagnetic\
+      \ radiation including: internet use microwaves because microwaves can penetrate\
+      \ some walls and only require a short aerial for transmission and reception\
+      \ microwaves because they can pass through walls but the signal is weakened\
+      \ on doing so used for cable television and high-speed broadband because glass\
+      \ is transparent to visible light and some infrared; visible light and short\
+      \ wavelength infrared can carry high rates of data"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.3
+  official_code: 1.5.3
+  evidence:
+    sme_name: Resultant forces on a straight line
+    sme_definition: Determine the resultant of two or more forces acting along the
+      same straight line
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDetermine the resultant of two or more forces acting along the\
+      \ same straight line"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.3
+  official_code: 4.2.3
+  evidence:
+    sme_name: Demonstrating electrostatic charges
+    sme_definition: '- Describe simple experiments to show the production of electrostatic
+      charges by friction and to show the detection of electrostatic charges'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe simple experiments to show the production of electrostatic\
+      \ charges by friction and to show the detection of electrostatic charges"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.4
+  official_code: 4.5.4
+  evidence:
+    sme_name: Lenz's law
+    sme_definition: Know that the direction of an induced e.m.f. opposes the change
+      causing it
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that the direction of an induced e.m.f. opposes the change\
+      \ causing it"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.1.2
+  official_code: 2.1.2
+  evidence:
+    sme_name: Changes of state
+    sme_definition: Know the terms for the changes in state between solids, liquids
+      and gases (gas to solid and solid to gas transfers are not required)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow the terms for the changes in state between solids, liquids\
+      \ and gases (gas to solid and solid to gas transfers are not required)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.2
+  official_code: 4.5.2
+  evidence:
+    sme_name: Demonstrating induction
+    sme_definition: Describe an experiment to demonstrate electromagnetic induction
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe an experiment to demonstrate electromagnetic induction"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup3
+  official_code: 4.2.3
+  evidence:
+    sme_name: Potential difference
+    sme_definition: '- Define potential difference (p.d.) as the work done by a unit
+      charge passing through a component (Core)'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine potential difference (p.d.) as the work done by a unit\
+      \ charge passing through a component"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3
+  official_code: 1.7.1
+  evidence:
+    sme_name: Solar panels
+    sme_definition: "Describe how useful energy may be obtained, or electrical power\
+      \ generated, from:  \n * infrared and other electromagnetic waves from the Sun\
+      \ to heat water (solar panels) and be the source of wind energy \n including\
+      \ references to a boiler, turbine and generator where they are used\nDescribe\
+      \ advantages and disadvantages in terms of renewability, availability, reliability,\
+      \ scale and environmental impact"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how useful energy may be obtained, or electrical power\
+      \ generated, from: in tides, and in water behind hydroelectric dams power (solar\
+      \ cells) from the Sun to heat water (solar panels) and be the source of wind\
+      \ energy \aincluding references to a boiler, turbine and generator where they\
+      \ are used"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.7
+  official_code: 3.4.7
+  evidence:
+    sme_name: Pitch & loudness
+    sme_definition: Describe how changes in amplitude and frequency affect the loudness
+      and pitch of sound waves
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how changes in amplitude and frequency affect the loudness\
+      \ and pitch of sound waves"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.6
+  official_code: 3.2.6
+  evidence:
+    sme_name: Refractive Index as a ratio of speed
+    sme_definition: Define refractive index, n, as the ratio of the speeds of a wave
+      in two different regions
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine refractive index, n , as the ratio of the speeds of a\
+      \ wave in two different regions"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.2.11
+  official_code: 1.2.11
+  evidence:
+    sme_name: Calculating acceleration
+    sme_definition: Calculate acceleration from the gradient of a speed–time graph
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aCalculate acceleration from the gradient of a speed–time graph"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.2.5
+  official_code: 5.2.5
+  evidence:
+    sme_name: Accounting for background radiation
+    sme_definition: Use measurements of background radiation to determine a corrected
+      count rate
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aUse measurements of background radiation to determine a corrected\
+      \ count rate and γ -radiation in electric fields and magnetic fields reference\
+      \ to:"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup2
+  official_code: 3.2.1
+  evidence:
+    sme_name: Ray diagrams for refraction
+    sme_definition: Define and use the terms normal, angle of incidence and angle
+      of refraction
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine and use the terms normal, angle of incidence and angle\
+      \ of refraction"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.5
+  official_code: 1.5.5
+  evidence:
+    sme_name: Newton's second law
+    sme_definition: State that a resultant force may change the velocity of an object
+      by changing its direction of motion or its speed
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState that a resultant force may change the velocity of an object\
+      \ by changing its direction of motion or its speed"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.1.1-dup2
+  official_code: 2.1.1
+  evidence:
+    sme_name: Arrangement & motion of particles
+    sme_definition: Describe the particle structure of solids, liquids and gases in
+      terms of the arrangement, separation and motion of the particles, and represent
+      these states using simple particle diagrams
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the particle structure of solids, liquids and gases\
+      \ in terms of the arrangement, separation and motion of the particles, and represent\
+      \ these states using simple particle diagrams"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.3
+  official_code: 1.7.3
+  evidence:
+    sme_name: Conservation of energy
+    sme_definition: Know the principle of the conservation of energy and apply this
+      principle to simple examples including the interpretation of simple flow diagrams
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow the principle of the conservation of energy and apply this\
+      \ principle to simple examples including the interpretation of simple flow diagrams"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.1.4
+  official_code: 1.1.4
+  evidence:
+    sme_name: Scalar & vector quantities
+    sme_definition: Understand that a scalar quantity has magnitude (size) only and
+      that a vector quantity has magnitude and direction
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aUnderstand that a scalar quantity has magnitude (size) only\
+      \ and that a vector quantity has magnitude and direction"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.5
+  official_code: 4.2.5
+  evidence:
+    sme_name: Investigating electrical conductors & insulators
+    sme_definition: Describe an experiment to distinguish between electrical conductors
+      and insulators
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe an experiment to distinguish between electrical conductors\
+      \ and insulators"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.4.3
+  official_code: 1.4.3
+  evidence:
+    sme_name: Floating objects
+    sme_definition: Determine whether an object floats based on density data
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDetermine whether an object floats based on density data 1.5.1\
+      \ Effects of forces"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.2.9
+  official_code: 6.2.9
+  evidence:
+    sme_name: The Hubble constant
+    sme_definition: "Define the Hubble constant H0 as the ratio of the speed at which\
+      \ the galaxy is moving away from the Earth to its distance from the Earth; \n\
+      \ - recall\n- and use the equation\n                            H0 = v/d\nKnow\
+      \ that the current estimate for H0 is 2.2 × 10^–18 per second"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine the Hubble constant H as the ratio of the speed at which\
+      \ the galaxy is moving away from the Earth to its distance from the Earth; recall\
+      \ and use the equation"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.3.2-dup2
+  official_code: 4.3.2
+  evidence:
+    sme_name: Diodes
+    sme_definition: Draw and interpret circuit diagrams containing diodes and light-emitting
+      diodes (LEDs), and know how these components behave in the circuit
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDraw and interpret circuit diagrams containing diodes and light-emitting\
+      \ diodes (LEDs), and know how these components behave in the circuit in a parallel\
+      \ circuit is equal to the sum of the currents that leave the junction a series\
+      \ circuit is equal to the sum of the individual p.d.s across each component\
+      \ resistances is the same as the p.d. across one branch in the arrangement of\
+      \ the parallel resistances junction is the same as the sum of the currents out\
+      \ of the junction resistors in parallel"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.1-dup3
+  official_code: 1.5.1
+  evidence:
+    sme_name: Centre of gravity
+    sme_definition: State what is meant by centre of gravity
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState what is meant by centre of gravity"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.1.5
+  official_code: 5.1.5
+  evidence:
+    sme_name: Isotopes
+    sme_definition: Explain what is meant by an isotope and state that an element
+      may have more than one isotope
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aExplain what is meant by an isotope and state that an element\
+      \ may have more than one isotope"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup4
+  official_code: 4.5.2
+  evidence:
+    sme_name: Step-up & step-down transformers
+    sme_definition: Use the terms primary, secondary, step-up and step-down
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aUse the terms primary, secondary, step-up and step-down"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.4
+  official_code: 1.5.4
+  evidence:
+    sme_name: Newton's first law
+    sme_definition: Know that an object either remains at rest or continues in a straight
+      line at constant speed unless acted on by a resultant force
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that an object either remains at rest or continues in a\
+      \ straight line at constant speed unless acted on by a resultant force"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.2.4
+  official_code: 6.2.4
+  evidence:
+    sme_name: Evidence for the Big Bang Theory
+    sme_definition: Know that redshift in the light from distant galaxies is evidence
+      that the Universe is expanding and supports the Big Bang Theory
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that redshift in the light from distant galaxies is evidence\
+      \ that the Universe is expanding and supports the Big Bang Theory"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.2.13
+  official_code: 1.2.13
+  evidence:
+    sme_name: Motion of falling objects
+    sme_definition: "Describe the motion of objects falling in a uniform gravitational\
+      \ field \n - with and without air/ liquid resistance (including reference to\
+      \ terminal velocity)"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the motion of objects falling in a uniform gravitational\
+      \ field with and without air/ liquid resistance (including reference to terminal\
+      \ velocity)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.3.5
+  official_code: 2.3.5
+  evidence:
+    sme_name: Heating & cooling by energy transfer
+    sme_definition: Know what happens to an object if the rate at which it receives
+      energy is less or more than the rate at which it transfers energy away from
+      the object
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow what happens to an object if the rate at which it receives\
+      \ energy is less or more than the rate at which it transfers energy away from\
+      \ the object"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.3-dup2
+  official_code: 1.5.3
+  evidence:
+    sme_name: Principle of moments (core)
+    sme_definition: Apply the principle of moments to situations with one force each
+      side of the pivot, including balancing of a beam
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aApply the principle of moments to situations with one force\
+      \ each side of the pivot, including balancing of a beam"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.1.2
+  official_code: 1.1.2
+  evidence:
+    sme_name: Measuring time
+    sme_definition: Describe how to measure a variety of time intervals using clocks
+      and digital timers
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how to measure a variety of time intervals using clocks\
+      \ and digital timers"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.1.6
+  official_code: 3.1.6
+  evidence:
+    sme_name: Longitudinal waves
+    sme_definition: Know that for a longitudinal wave, the direction of vibration
+      is parallel to the direction of propagation and understand that sound waves
+      and seismic P-waves (primary) can be modelled as longitudinal
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that for a longitudinal wave, the direction of vibration\
+      \ is parallel to the direction of propagation and understand that sound waves\
+      \ and seismic P-waves (primary) can be modelled as longitudinal"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.1-dup3
+  official_code: 1.7.1
+  evidence:
+    sme_name: Solar cells
+    sme_definition: "Describe how useful energy may be obtained, or electrical power\
+      \ generated, from: \n   *  light from the Sun to generate electrical power (solar\
+      \ cells)\nDescribe advantages and disadvantages in terms of renewability, availability,\
+      \ reliability, scale and environmental impact:"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how useful energy may be obtained, or electrical power\
+      \ generated, from: in tides, and in water behind hydroelectric dams power (solar\
+      \ cells) from the Sun to heat water (solar panels) and be the source of wind\
+      \ energy \aincluding references to a boiler, turbine and generator where they\
+      \ are used"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.1.2
+  official_code: 3.1.2
+  evidence:
+    sme_name: Wave motion
+    sme_definition: Describe what is meant by wave motion as illustrated by vibrations
+      in ropes and springs, and by experiments using water waves
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe what is meant by wave motion as illustrated by vibrations\
+      \ in ropes and springs, and by experiments using water waves"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.6
+  official_code: 3.4.6
+  evidence:
+    sme_name: Measuring the speed of sound
+    sme_definition: Describe a method involving a measurement of distance and time
+      for determining the speed of sound in air
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe a method involving a measurement of distance and time\
+      \ for determining the speed of sound in air"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.3
+  official_code: 4.5.3
+  evidence:
+    sme_name: Factors affecting electromagnetic induction
+    sme_definition: State the factors affecting the magnitude of an induced e.m.f.
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState the factors affecting the magnitude of an induced e.m.f.\
+      \ 4.5.2 The a.c. generator 4.5.3 Magnetic effect of a current"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.1.7
+  official_code: 1.1.7
+  evidence:
+    sme_name: Calculations with vectors
+    sme_definition: Determine, by calculation or graphically, the resultant of two
+      vectors at right angles, limited to forces or velocities only
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDetermine, by calculation or graphically, the resultant of two\
+      \ vectors at right angles, limited to forces or velocities only"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.1-dup3
+  official_code: 4.2.1
+  evidence:
+    sme_name: Electromotive force
+    sme_definition: "- Define electromotive force (e.m.f.) as the electrical work\
+      \ done by a source in moving a unit charge around a complete circuit (C)\n -\
+      \ Know that e.m.f. is measured in volts (V) (Core)"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine electromotive force (e.m.f.) as the electrical work done\
+      \ by a source in moving a unit charge around a complete circuit"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.5-dup2
+  official_code: 1.5.5
+  evidence:
+    sme_name: Principle of moments (extended)
+    sme_definition: Apply the principle of moments to other situations, including
+      those with more than one force each side of the pivot
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aApply the principle of moments to other situations, including\
+      \ those with more than one force each side of the pivot"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.1.3
+  official_code: 6.1.3
+  evidence:
+    sme_name: Moon & Earth
+    sme_definition: Know that it takes approximately one month for the Moon to orbit
+      the Earth and use this to explain the periodic nature of the Moon’s cycle of
+      phases
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that it takes approximately one month for the Moon to orbit\
+      \ the Earth and use this to explain the periodic nature of the Moon’s cycle\
+      \ of phases"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.2-dup5
+  official_code: 4.5.2
+  evidence:
+    sme_name: Fleming's left-hand rule
+    sme_definition: Recall and use the relative directions of force, magnetic field
+      and current
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aRecall and use the relative directions of force, magnetic field\
+      \ and current"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.4.2
+  official_code: 1.4.2
+  evidence:
+    sme_name: Measuring density
+    sme_definition: Describe how to determine the density of a liquid, of a regularly
+      shaped solid and of an irregularly shaped solid which sinks in a liquid (volume
+      by displacement), including appropriate calculations
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how to determine the density of a liquid, of a regularly\
+      \ shaped solid and of an irregularly shaped solid which sinks in a liquid (volume\
+      \ by displacement), including appropriate calculations"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.1-dup6
+  official_code: 4.5.1
+  evidence:
+    sme_name: Structure of a transformer
+    sme_definition: Describe the construction of a simple transformer with a soft
+      iron core, as used for voltage transformations
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the construction of a simple transformer with a soft\
+      \ iron core, as used for voltage transformations"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.4
+  official_code: 4.2.4
+  evidence:
+    sme_name: Charging by friction
+    sme_definition: '- Explain that charging of solids by friction involves only a
+      transfer of negative charge (electrons)'
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aExplain that charging of solids by friction involves only a\
+      \ transfer of negative charge (electrons)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.3
+  official_code: 3.2.3
+  evidence:
+    sme_name: The law of reflection
+    sme_definition: State that for reflection, the angle of incidence is equal to
+      the angle of reflection; recall and use this relationship
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState that for reflection, the angle of incidence is equal to\
+      \ the angle of reflection; recall and use this relationship"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.2.6
+  official_code: 1.2.6
+  evidence:
+    sme_name: Using distance-time graphs
+    sme_definition: Calculate speed from the gradient of a straight-line section of
+      a distance–time graph
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aCalculate speed from the gradient of a straight- line section\
+      \ of a distance–time graph"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.11
+  official_code: 1.5.11
+  evidence:
+    sme_name: Calculations using Newton's second law
+    sme_definition: Recall and use the equation F = ma and know that the force and
+      the acceleration are in the same direction
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aRecall and use the equation F = ma and know that the force and\
+      \ the acceleration are in the same direction"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.2
+  official_code: 3.2.2
+  evidence:
+    sme_name: Reflection in a plane mirror
+    sme_definition: "Describe the formation of an optical image by a plane mirror,\
+      \ and give its characteristics, i.e. \n- same size, \n-  same distance from\
+      \ mirror, \n - virtual"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the formation of an optical image by a plane mirror,\
+      \ and give its characteristics, i.e. same size, same distance from mirror, virtual"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.2.11
+  official_code: 6.2.11
+  evidence:
+    sme_name: Age of the Universe
+    sme_definition: "Know that the equation d/v = 1/H0 \n - represents an estimate\
+      \ for the age of the Universe and \n- that this is evidence for the idea that\
+      \ all the matter in the Universe was present at a single point"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "Know that the equation \arepresents an estimate for the age of\
+      \ the Universe and that this is evidence for the idea that all the matter in\
+      \ the Universe was present at a single point"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J4_name_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.3.6
+  official_code: 3.3.6
+  evidence:
+    sme_name: The speed of electromagnetic waves
+    sme_definition: Know that the speed of electromagnetic waves in a vacuum is 3.0
+      × 10^8m/s and is approximately the same in air
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that the speed of electromagnetic waves in a vacuum is\
+      \ 3.0 × 10 m / s and is approximately the same in air"
+    rule: token-bounded norm(name) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.2-dup3
+  official_code: 3.2.2
+  evidence:
+    sme_name: Features of Ray Diagrams
+    sme_definition: Define and use the terms focal length, principal axis and principal
+      focus (focal point)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine and use the terms focal length, principal axis and principal\
+      \ focus (focal point)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.11
+  official_code: 3.4.11
+  evidence:
+    sme_name: Speed of sound in materials
+    sme_definition: Know that, in general, sound travels faster in solids than in
+      liquids and faster in liquids than in gases
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that, in general, sound travels faster in solids than in\
+      \ liquids and faster in liquids than in gases continued"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.2.3-dup4
+  official_code: 4.2.3
+  evidence:
+    sme_name: Resistance of a wire
+    sme_definition: State, qualitatively, the relationship of the resistance of a
+      metallic wire to its length and to its cross-sectional area
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState, qualitatively, the relationship of the resistance of\
+      \ a metallic wire to its length and to its cross-sectional area 4.2.5 Electrical\
+      \ energy and electrical power"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.2.1-dup2
+  official_code: 2.2.1
+  evidence:
+    sme_name: Internal energy
+    sme_definition: Know that a rise in the temperature of an object increases its
+      internal energy
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that a rise in the temperature of an object increases its\
+      \ internal energy 2.2.3 Melting, boiling and evaporation"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.2
+  official_code: 1.5.2
+  evidence:
+    sme_name: Investigating springs
+    sme_definition: Sketch, plot and interpret load–extension graphs for an elastic
+      solid and describe the associated experimental procedures
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aSketch, plot and interpret load–extension graphs for an elastic\
+      \ solid and describe the associated experimental procedures"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.6-dup2
+  official_code: 1.5.6
+  evidence:
+    sme_name: Demonstrating equilibrium
+    sme_definition: Describe an experiment to demonstrate that there is no resultant
+      moment on an object in equilibrium
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe an experiment to demonstrate that there is no resultant\
+      \ moment on an object in equilibrium"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup3
+  official_code: 3.2.1
+  evidence:
+    sme_name: Converging & diverging lenses
+    sme_definition: Describe the action of thin converging and thin diverging lenses
+      on a parallel beam of light
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the action of thin converging and thin diverging lenses\
+      \ on a parallel beam of light"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.4.12
+  official_code: 3.4.12
+  evidence:
+    sme_name: Uses of ultrasound
+    sme_definition: "Describe the uses of ultrasound in:\n -  non-destructive testing\
+      \ of materials, \n - medical scanning of soft tissue and \n - sonar including\
+      \ calculation of depth or distance from time and wave speed"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the uses of ultrasound in non- destructive testing\
+      \ of materials, medical scanning of soft tissue and sonar including calculation\
+      \ of depth or distance from time and wave speed"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.1-dup4
+  official_code: 3.2.1
+  evidence:
+    sme_name: Dispersion of light
+    sme_definition: Describe the dispersion of light as illustrated by the refraction
+      of white light by a glass prism
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the dispersion of light as illustrated by the refraction\
+      \ of white light by a glass prism"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.2
+  official_code: 1.7.2
+  evidence:
+    sme_name: Energy transfers
+    sme_definition: Describe how energy is transferred between stores during events
+      and processes, including examples of transfer by forces (mechanical work done),
+      electrical currents (electrical work done), heating, and by electromagnetic,
+      sound and other waves.
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how energy is transferred between stores during events\
+      \ and processes, including examples of transfer by forces (mechanical work done),\
+      \ electrical currents (electrical work done), heating, and by electromagnetic,\
+      \ sound and other waves"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.3-dup2
+  official_code: 1.7.3
+  evidence:
+    sme_name: Efficiency of energy transfer
+    sme_definition: Understand, qualitatively, the concept of efficiency of energy
+      transfer
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aUnderstand, qualitatively, the concept of efficiency of energy\
+      \ transfer"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.2.1-dup4
+  official_code: 5.2.1
+  evidence:
+    sme_name: Half-life basics
+    sme_definition: Define the half-life of a particular isotope as the time taken
+      for half the nuclei of that isotope in any sample to decay; recall and use this
+      definition in simple calculations, which might involve information in tables
+      or decay curves (calculations will not include background radiation)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDefine the half-life of a particular isotope as the time taken\
+      \ for half the nuclei of that isotope in any sample to decay; recall and use\
+      \ this definition in simple calculations, which might involve information in\
+      \ tables or decay curves (calculations will not include background radiation)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.5.4-dup2
+  official_code: 1.5.4
+  evidence:
+    sme_name: Equilibrium
+    sme_definition: State that, when there is no resultant force and no resultant
+      moment, an object is in equilibrium
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState that, when there is no resultant force and no resultant\
+      \ moment, an object is in equilibrium 1.5.3 Centre of gravity"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.1.3
+  official_code: 1.1.3
+  evidence:
+    sme_name: Multiple readings
+    sme_definition: Determine an average value for a small distance and for a short
+      interval of time by measuring multiples (including the period of oscillation
+      of a pendulum)
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDetermine an average value for a small distance and for a short\
+      \ interval of time by measuring multiples (including the period of oscillation\
+      \ of a pendulum)"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.2.7
+  official_code: 1.2.7
+  evidence:
+    sme_name: Using speed-time graphs
+    sme_definition: Calculate the area under a speed–time graph to determine the distance
+      travelled for motion with constant speed or constant acceleration
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aCalculate the area under a speed–time graph to determine the\
+      \ distance travelled for motion with constant speed or constant acceleration"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:1.7.4-dup2
+  official_code: 1.7.4
+  evidence:
+    sme_name: The Sun
+    sme_definition: '•  Know that radiation from the Sun is the main source of energy
+      for all our energy resources except geothermal, nuclear and tidal
+
+      '
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that radiation from the Sun is the main source of energy\
+      \ for all our energy resources except geothermal, nuclear and tidal"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.2.4-dup2
+  official_code: 3.2.4
+  evidence:
+    sme_name: Critical angle
+    sme_definition: State the meaning of critical angle
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState the meaning of critical angle"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.2.2
+  official_code: 2.2.2
+  evidence:
+    sme_name: Uses & consequences of thermal expansion
+    sme_definition: Describe some of the everyday applications and consequences of
+      thermal expansion
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe some of the everyday applications and consequences\
+      \ of thermal expansion 2.2.2 Specific heat capacity"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.3.3
+  official_code: 2.3.3
+  evidence:
+    sme_name: Effects of different surfaces
+    sme_definition: "Describe the effect of \n - surface colour (black or white) and\
+      \ \n - texture (dull or shiny) \non the  emission, absorption and reflection\
+      \ of infrared radiation"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the effect of surface colour (black or white) and texture\
+      \ (dull or shiny) on the emission, absorption and reflection of infrared radiation"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.1.8
+  official_code: 4.1.8
+  evidence:
+    sme_name: Plotting magnetic field lines
+    sme_definition: "Describe the plotting of magnetic field lines with:\n -  a compass\
+      \ or \n- iron filings \nand the use of a compass to determine the direction\
+      \ of the magnetic field"
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the plotting of magnetic field lines with a compass\
+      \ or iron filings and the use of a compass to determine the direction of the\
+      \ magnetic field"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.2.2-dup3
+  official_code: 5.2.2
+  evidence:
+    sme_name: Change to a new element
+    sme_definition: State that during α-decay or β-decay, the nucleus changes to that
+      of a different element
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aState that during α -decay or β -decay, the nucleus changes\
+      \ to that of a different element 5.2.4 Half-life"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.3.2
+  official_code: 3.3.2
+  evidence:
+    sme_name: Properties of electromagnetic waves
+    sme_definition: Know that all electromagnetic waves travel at the same high speed
+      in a vacuum
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that all electromagnetic waves travel at the same high\
+      \ speed in a vacuum"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:5.2.5-dup2
+  official_code: 5.2.5
+  evidence:
+    sme_name: Decay equations
+    sme_definition: Use decay equations, using nuclide notation, to show the emission
+      of α-particles, β-particles and γ-radiation
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aUse decay equations, using nuclide notation, to show the emission\
+      \ of α -particles, β -particles and γ -radiation from which background radiation\
+      \ has not been subtracted the half-life of an isotope determine which isotope\
+      \ is used for applications including: materials with the choice of radiations\
+      \ used linked to penetration and absorption gamma rays"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.2.4-dup2
+  official_code: 2.2.4
+  evidence:
+    sme_name: Investigating specific heat capacity
+    sme_definition: Describe experiments to measure the specific heat capacity of
+      a solid and a liquid
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe experiments to measure the specific heat capacity of\
+      \ a solid and a liquid evaporation movement over a surface affect evaporation\
+      \ an evaporating liquid"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.5.3-dup2
+  official_code: 4.5.3
+  evidence:
+    sme_name: Applications of the magnetic effect of a current
+    sme_definition: Describe how the magnetic effect of a current is used in relays
+      and loudspeakers and give examples of their application
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe how the magnetic effect of a current is used in relays\
+      \ and loudspeakers and give examples of their application"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.3.8
+  official_code: 3.3.8
+  evidence:
+    sme_name: Digital & analogue signals
+    sme_definition: Know the difference between a digital and analogue signal
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow the difference between a digital and analogue signal"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:4.1.9
+  official_code: 4.1.9
+  evidence:
+    sme_name: Uses of magnets
+    sme_definition: Describe the uses of permanent magnets and electromagnets
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aDescribe the uses of permanent magnets and electromagnets"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:6.1.8
+  official_code: 6.1.8
+  evidence:
+    sme_name: Analysing orbits
+    sme_definition: Analyse and interpret planetary data about orbital distance, orbital
+      duration, density, surface temperature and uniform gravitational field strength
+      at the planet’s surface
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aAnalyse and interpret planetary data about orbital distance,\
+      \ orbital duration, density, surface temperature and uniform gravitational field\
+      \ strength at the planet’s surface"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J2_definition_phrase_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:3.1.5
+  official_code: 3.1.5
+  evidence:
+    sme_name: Transverse waves
+    sme_definition: Know that for a transverse wave, the direction of vibration is
+      at right angles to the direction of propagation and understand that electromagnetic
+      radiation, water waves and seismic S-waves (secondary) can be modelled as transverse
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow that for a transverse wave, the direction of vibration\
+      \ is at right angles to the direction of propagation and understand that electromagnetic\
+      \ radiation, water waves and seismic S-waves (secondary) can be modelled as\
+      \ transverse continued"
+    rule: token-bounded norm(definition) phrase in exactly one official point text
+- lane: cie-igcse-physics-23
+  verdict: resolve
+  tier: J1_definition_text_identity
+  official_id: CIE_IGCSE_PHYSICS_2023_2025:2.2.2-dup2
+  official_code: 2.2.2
+  evidence:
+    sme_name: Fixed points of water
+    sme_definition: Know the melting and boiling temperatures for water at standard
+      atmospheric pressure
+    evidence_source: own
+    corroborating_sources: []
+    official_text: "\aKnow the melting and boiling temperatures for water at standard\
+      \ atmospheric pressure"
+    rule: norm(definition) == norm(official point text), unique in the lane pool
+ambiguous:
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 23.3.2
+  - 23.4.4
+  id: spcpt_26qcCY45Rx3S5Q75
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.1
+  - 5.1.7
+  id: spcpt_3G5VshJ2mzwT8ssc
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 13.1.2
+  - 14.1.1
+  - 14.1.4
+  - 14.1.5
+  - 14.1.6
+  id: spcpt_Bk6CctHBVZ7t2gBH
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 21.1.2
+  - 36.1.2
+  id: spcpt_CdtkSssKHMzw5ZTn
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.3.1
+  - 6.1.1
+  - 6.1.2
+  id: spcpt_HmMgqHYYJMyF6nVN
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 12.1.3
+  - 12.1.4
+  - 14.1.6
+  id: spcpt_WXp9yV6RjmGqJnn3
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.1.10
+  - 7.1.2
+  - 7.1.3
+  id: spcpt_c7vFrg8fTnmm4kcp
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.2
+  - 8.2.1
+  - 8.2.2
+  - 8.3.1
+  id: spcpt_hZTPmmSRrdvvX3Qd
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.2.7
+  - 7.2.8
+  id: spcpt_hhsQcFzVK8SK2Fpk
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 12.1.4
+  - 13.1.2
+  - 14.1.6
+  id: spcpt_jptnPNnPshVwycwD
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 28.2.7
+  - 28.3.5
+  id: spcpt_shV2fZB7wCbyWhsJ
+- lane: cie-a-level-chemistry-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 21.1.2
+  - 36.1.2
+  id: spcpt_tGGjXRpfqK64CjD8
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 15.1.1
+  - 15.2.2
+  id: spcpt_2fZq6KG2vqwsJ3FM
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.1.7
+  - 3.2.1
+  - 3.2.2
+  id: spcpt_337BCv49v82TDSXm
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.2.5
+  - 10.2.6
+  id: spcpt_3FdkPXGJ3SjWhMDH
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.3.1
+  - 3.3.2
+  id: spcpt_4KhwwYmwPbgcrh5z
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 17.3.1
+  - 17.3.2
+  id: spcpt_5VYjpVFtmvmTHQ6R
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 25.2.2
+  - 25.2.3
+  id: spcpt_62gJHmjtHV4Y3hQS
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 25.2.1
+  - 25.2.3
+  id: spcpt_7SZzbW6ZrpXF4MrR
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 14.1.2
+  - 4.2.2
+  - 4.2.3
+  id: spcpt_9nvVcWsfBYyXnrnD
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 13.4.1
+  - 16.2.1
+  - 16.2.2
+  - 18.5.1
+  - 5.1.1
+  - 5.1.5
+  - 6.2.2
+  id: spcpt_CgYnfnbfmYcTQx4h
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 13.2.2
+  - 13.3.1
+  id: spcpt_CyZwmbvdfxMh6RBT
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 13.4.3
+  - 5.2.1
+  - 5.2.2
+  id: spcpt_MB58W8fSnpXjxC7h
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 12.1.2
+  - 12.2.2
+  id: spcpt_MvgcdtvT5Bq4HwGw
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 15.3.1
+  - 22.2.1
+  - 3.3.3
+  - 3.3.4
+  - 5.2.1
+  id: spcpt_RSSY9GnfpxwM3HZp
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.1.1
+  - 10.1.2
+  id: spcpt_RgWSd4ySqM6m5vqH
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 18.5.1
+  - 18.5.3
+  - 18.5.4
+  - 19.2.1
+  id: spcpt_X2B2Hm8HKGbv5KT5
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.2.3
+  - 10.2.4
+  id: spcpt_bSgwKCG9dmvYKsqt
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.1.4
+  - 4.2.2
+  id: spcpt_h6NbBGYsyXWxvvYf
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 14.2.1
+  - 20.2.3
+  - 20.3.4
+  - 20.5.1
+  - 4.3.1
+  - 4.3.3
+  - 9.1.4
+  id: spcpt_hbB5GHwNkXjXswMf
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.1.6
+  - 4.1.1
+  id: spcpt_jV2kHfbbq9DcCtyn
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 5.2.1
+  - 5.2.2
+  id: spcpt_nxmYY2CNyTPjyjJY
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 21.2.1
+  - 21.2.3
+  id: spcpt_q22QZfCjrt3qnBBB
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 14.2.1
+  - 15.3.2
+  - 16.2.1
+  - 4.3.2
+  - 4.3.3
+  - 4.3.5
+  id: spcpt_rh44rqfKpHb6wrFc
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 23.1.4
+  - 23.1.6
+  id: spcpt_v8RfyCzDM42J2vHF
+- lane: cie-a-level-physics-25
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.3.5
+  - 4.3.6
+  id: spcpt_wVYyrdMv96X93GY7
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 16.3.4
+  - 16.3.7
+  id: spcpt_3bgzV3GnGF8Wr24r
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.1.16
+  - 10.1.17
+  id: spcpt_3sjKm9qZRcz2H9bD
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.1.1
+  - 3.1.2
+  - 3.1.3
+  - 3.1.4
+  - 3.1.5
+  id: spcpt_7CHvGTP5rN8kFZZD
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 8.2.1
+  - 8.2.3
+  id: spcpt_7rYkZNxvfrCvMRPr
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 18.3.1
+  - 18.3.4
+  - 18.3.5
+  id: spcpt_8DqNMsz3WvKkxzJM
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 18.1.10
+  - 18.1.6
+  - 18.1.7
+  - 18.1.8
+  - 18.1.9
+  id: spcpt_JnsG3MfZPvmKJmkx
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 17.4.11
+  - 17.4.18
+  id: spcpt_MzXYxzG5364MYyTX
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.2.2
+  - 3.2.3
+  - 3.2.4
+  - 3.2.7
+  - 3.2.9
+  id: spcpt_PmhYqrW5gdnXdnmp
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.3.1
+  - 7.3.2
+  - 7.3.5
+  - 7.3.6
+  id: spcpt_cXyr42zbmJ5xyKQ9
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 9.2.1
+  - 9.2.7
+  id: spcpt_gNdqFJBTPFqTFpRZ
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 15.1.2
+  - 15.1.3
+  - 15.1.4
+  - 15.1.5
+  id: spcpt_ktBKzK8SbwKvTDY8
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.3.2
+  - 7.3.7
+  - 7.4.1
+  - 7.4.2
+  id: spcpt_mngsmcDjzNGDv4zp
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.3.3
+  - 7.3.5
+  id: spcpt_rYJcG2WKcNnQQQXX
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 6.1.2
+  - 6.1.3
+  - 6.1.4
+  - 6.1.7
+  id: spcpt_vbtTGfZDMC9Fcq6S
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 8.3.1
+  - 8.3.3
+  - 8.3.5
+  - 8.3.6
+  id: spcpt_wnsYq9ZtzYsVC62X
+- lane: cie-igcse-biology-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 18.3.2
+  - 18.3.3
+  id: spcpt_zwMmkbBCcNXDnxdv
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 11.8.12
+  - 11.8.13
+  id: spcpt_2bWg5KmwdcNnHDgc
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 9.6.2
+  - 9.6.4
+  id: spcpt_3yVJG3nWj7bQ8Gys
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.3
+  - 5.1.6
+  id: spcpt_63Sm3Nx7FY4VbpV7
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.5.3
+  - 2.5.5
+  id: spcpt_7tCQfxYQZBXDdfCm
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 11.4.1
+  - 11.4.2
+  - 11.4.4
+  id: spcpt_8kSCN2GwfnqgmTzQ
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.4.3
+  - 2.4.6
+  id: spcpt_Cv54SzSKvnxKKyBQ
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 6.2.5
+  - 6.2.6
+  id: spcpt_DY57jxyqYD9xwM7K
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.4.4
+  - 2.4.7
+  id: spcpt_FPBxqHYzkMkpTdNd
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.2.3
+  - 3.3.5
+  id: spcpt_JD9ZKfWpJRHRDSr2
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.2.1
+  - 10.2.2
+  id: spcpt_JpZN9vjHtBq855yd
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 7.2.2
+  - 7.2.3
+  id: spcpt_KYmr52qfQRGnKCKP
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 9.4.1
+  - 9.4.2
+  - 9.5.5
+  - 9.6.1
+  id: spcpt_MKvXKMnctwDqYdms
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 6.3.10
+  - 6.3.11
+  - 6.3.8
+  - 6.3.9
+  id: spcpt_W6gRYTHB9XH8SVDw
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 6.3.11
+  - 6.3.5
+  - 6.3.6
+  - 6.3.7
+  id: spcpt_fkcxYVh7yM3gVw4z
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.3.5
+  - 7.1.6
+  id: spcpt_gvC8brrB2MQ2H223
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 8.4.1
+  - 8.4.2
+  id: spcpt_jxPK72xT9PSVKKw6
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.2.2
+  - 2.3.4
+  id: spcpt_nh8N7RNM9zvDvBp6
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 11.1.2
+  - 11.1.3
+  - 11.1.4
+  - 11.1.9
+  id: spcpt_pGKQShf69kHQbB7w
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.7.2
+  - 9.1.1
+  - 9.1.2
+  id: spcpt_pdVBCvCCjNtVfDWX
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.3
+  - 5.1.6
+  id: spcpt_rdv25J6n73Gsk9DG
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 6.4.2
+  - 6.4.5
+  id: spcpt_rsGJhcBV56rhgrFS
+- lane: cie-igcse-chemistry-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 10.3.5
+  - 10.3.6
+  - 10.3.9
+  id: spcpt_tYWjkWkWSpM2vWZH
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.7.1
+  - 1.7.1
+  - 1.7.7
+  - 4.2.2
+  - 4.2.3
+  - 4.3.1
+  - 4.5.3
+  id: spcpt_8W7CrBd4psNCQyDJ
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 5.1.4
+  - 5.2.5
+  id: spcpt_9dP28GSfKJRhp9yB
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 6.1.1
+  - 6.1.4
+  - 6.1.5
+  id: spcpt_BkdmdYCfhSvVnFVf
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.7.5
+  - 1.7.6
+  - 5.1.3
+  id: spcpt_CbN49GQxQnn7qzk6
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.3.1
+  - 2.3.1
+  - 2.3.1
+  - 2.3.2
+  - 2.3.9
+  id: spcpt_Gbf3XsJ7DpjcvTTF
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.7.4
+  - 2.1.2
+  id: spcpt_S3GyzzZYgqsz6fF4
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 3.4.12
+  - 3.4.9
+  id: spcpt_SKQgXb6xdgGPjmsf
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.3.1
+  - 2.3.2
+  id: spcpt_h4v9pvr9HyNMC2Mm
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.5.4
+  - 4.5.5
+  id: spcpt_hFHgczRrTQP82bfd
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.1.6
+  - 1.2.11
+  - 1.2.12
+  - 1.2.7
+  - 1.2.8
+  - 1.2.9
+  - 1.3.3
+  - 1.5.11
+  id: spcpt_kWh99PhkQJ5s2XV5
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 4.1.10
+  - 5.2.5
+  id: spcpt_m4bKyzYc72bbRqBJ
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 2.2.2
+  - 2.2.4
+  id: spcpt_qYwr6S5bMbBD2Drg
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.2.8
+  - 1.3.3
+  id: spcpt_yRNGJt23ZpsHZYyQ
+- lane: cie-igcse-physics-23
+  reason: name_phrase_multi_text
+  matched_codes:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+  - 1.4.4
+  - 1.8.3
+  - 2.3.2
+  - 6.1.8
+  id: spcpt_ydwXHsTbQ9w7DQVX
