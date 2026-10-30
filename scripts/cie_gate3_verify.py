@@ -170,6 +170,18 @@ def main() -> int:
 
     sidecars = {l: json.loads(git("show", f"{sha}:spec-links/{l}.json"))
                 for l in LANES_3}
+    # the wave3 surface: items added by this chain (the chain base is the
+    # pre-wave3 tip; fresh-build lanes own every item). Of-record entries on
+    # pre-existing items were gate-verified by GATE-1/2 — not this gate.
+    CHAIN_BASE = "5f170f98746f4bd21ce8e6b73af02e6a83fa4028"
+    wave3_items: dict[str, set] = {}
+    for l in LANES_3:
+        try:
+            pre = json.loads(git("show", f"{CHAIN_BASE}:spec-links/{l}.json"))
+            pre_ids = set(pre.get("items") or {})
+        except subprocess.CalledProcessError:
+            pre_ids = set()
+        wave3_items[l] = set(sidecars[l]["items"]) - pre_ids
 
     def jfire(l, sid, op):
         """re-fire a (lane, sid) pair through the J/V evaluation."""
@@ -225,6 +237,8 @@ def main() -> int:
         d = sidecars[l]
         rebuilt = rebuilds[l]["items"]
         for iid, it in d["items"].items():
+            if iid not in wave3_items[l]:
+                continue
             of_record = map_rows[l].get(iid) or set()
             rit = rebuilt.get(iid)
             for c in it.get("codes") or []:
