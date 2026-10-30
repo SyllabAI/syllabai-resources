@@ -116,6 +116,13 @@
     "directive": "fire that consume lane",
     "gateway_trace": "1a18bc6701800065",
     "applied_utc": "2026-10-30T09:30:00Z"
+   },
+   "verdict3": {
+    "state": "SUGGESTED",
+    "lane": "T-SPECS-CIE-VERDICT-3",
+    "directive": "fire that consume lane",
+    "gateway_trace": "1a18bc6701800065",
+    "applied_utc": "2026-10-30T10:00:00Z"
    }
   }
  },
@@ -126,15 +133,15 @@
  },
  "totals": {
   "items": 3058,
-  "items_with_codes": 1424,
+  "items_with_codes": 1539,
   "by_kind": {
    "notes": 107,
    "question_parts": 2951,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 61,
-   "question_parts": 1363,
+   "notes": 64,
+   "question_parts": 1475,
    "flashcards": 0
   }
  },
@@ -143,7 +150,7 @@
   "parts": 647,
   "universe_ids": 175,
   "universe_resolved": 18,
-  "pending_refs": 2249,
+  "pending_refs": 2097,
   "flashcards_discovered_uncoded": 1133,
   "rejoin": {
    "lane": "T-SPECS-CIE-REJOIN-1",
@@ -218,6 +225,22 @@
     "ambiguous_pairs": 22,
     "pending_refs_after": 2249,
     "note": "index re-join cures applied additively to the wave3 lanes' pending anchors; pairs with no identity evidence stay pending honestly (AGENT.md rule 3)"
+   },
+   "verdict3": {
+    "lane": "T-SPECS-CIE-VERDICT-3",
+    "applied_utc": "2026-10-30T10:00:00Z",
+    "resolved_pairs": 3,
+    "resolved_refs": 152,
+    "code_entries_added": 122,
+    "by_rule": {
+     "V1_name_text_identity": 0,
+     "V2_name_phrase_identity": 0,
+     "V3_subsection_head_identity": 3,
+     "V4_settext_title_identity": 0,
+     "V5_topic_scoped_phrase_identity": 0
+    },
+    "ambiguous_pairs": 70,
+    "pending_refs_after": 2097
    }
   }
  },
@@ -724,30 +747,45 @@
    "label": "Test for anions - IGCSE Chemistry Revision Notes",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_kZmQWThcskFBCjkh": {
    "kind": "note",
    "label": "Cation tests - IGCSE Chemistry Revision Notes",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_MgwgRrpxvdCWz9X4": {
    "kind": "note",
    "label": "Test for gases - IGCSE Chemistry Revision Notes",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_nbst4t4b6qYXdKBw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_dt4Tjb6d3NgGhycQ": {
    "kind": "note",
@@ -3787,42 +3825,60 @@
    "label": "qstn_7jkNJH2TfhD9G6HP / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG",
-    "spcpt_nbst4t4b6qYXdKBw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_k88KvQ7gmpYNJvpp": {
    "kind": "question_part",
    "label": "qstn_2m4Ws4NT5kgGgGnt / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_nbst4t4b6qYXdKBw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FKWVRGr74XQFjfJV": {
    "kind": "question_part",
    "label": "qstn_ZSJHP8pQ7K2dgHvz / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rMJFwwXmh6shqrQx": {
    "kind": "question_part",
    "label": "qstn_WzW5XMwMNxkzxBPQ / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rPXygcmd8dDvxJFr": {
    "kind": "question_part",
@@ -3839,117 +3895,165 @@
    "label": "qstn_5PsmcSG87HZKsd8q / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yCmrHRcBSmjKTr7t": {
    "kind": "question_part",
    "label": "qstn_33ZxY3tPj7R9VqRz / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X9hfxw6KJS8b9NZk": {
    "kind": "question_part",
    "label": "qstn_Ykpf2dyyfgVyMbFT / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gmJVHjy8GYQ4cDYZ": {
    "kind": "question_part",
    "label": "qstn_VcZ9JVX6sgnMTTkN / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b4hprZvH5Gd5BYGF": {
    "kind": "question_part",
    "label": "qstn_kcgcRqR2GxRkWxFq / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Tf8x47HkVYXt737p": {
    "kind": "question_part",
    "label": "qstn_J92Xqxg8RHG6XzB5 / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_h8fvhrk6DQGmjG6n": {
    "kind": "question_part",
    "label": "qstn_f7ScgkSdDFqRV7xW / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mXZdN239CrRd9v3Z": {
    "kind": "question_part",
    "label": "qstn_SbqNzfr8gw6N8KvT / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KybMrXhWZmhFn3pw": {
    "kind": "question_part",
    "label": "qstn_RBfGxGTgxSwrqQ9n / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RzvYtffBg4GnFQjs": {
    "kind": "question_part",
    "label": "qstn_QtSzpg6Gjy3TsgdK / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j793QtXC4TZXXGY4": {
    "kind": "question_part",
    "label": "qstn_jwkkJpvj7SnDf6Sm / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bhqCKpnrp2D9Kt65": {
    "kind": "question_part",
@@ -9249,11 +9353,15 @@
    "label": "qstn_GXjCHYnHhChmTykZ / part 1",
    "section": "1-states-of-matter",
    "topic": "1-1-solids-liquids-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tGPvcQytNDYBjRCj": {
    "kind": "question_part",
@@ -9691,11 +9799,15 @@
      "official_code": "3.1.4",
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "pending": []
   },
   "qstnprt_CDrfnCRx5F33TCfn": {
    "kind": "question_part",
@@ -9759,11 +9871,15 @@
    "label": "qstn_wQyJ2rS7wjGXRV2Y / part 0",
    "section": "10-chemistry-of-the-environment",
    "topic": "10-1-water-and-water-pollution",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XXzs7q4Hrx4D4S8P": {
    "kind": "question_part",
@@ -10094,10 +10210,15 @@
    "label": "qstn_hY8ynYwFF4xcB5Ct / part 0",
    "section": "10-chemistry-of-the-environment",
    "topic": "10-1-water-and-water-pollution",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TDyDMSZmwqpWJ8y7": {
    "kind": "question_part",
@@ -10355,11 +10476,16 @@
      "official_code": "7.1.7",
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
    "pending": [
-    "spcpt_ZbbnBBCMqtS3vmSK",
-    "spcpt_Xzc5gSbkWQjZqtjP"
+    "spcpt_ZbbnBBCMqtS3vmSK"
    ]
   },
   "qstnprt_MhSjsR2Gyx9wVvzn": {
@@ -12975,9 +13101,15 @@
    "label": "qstn_nmbMVrHSNyJtbdF2 / part 1",
    "section": "11-organic-chemistry",
    "topic": "11-2-organic-families",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_8xpHHNyCy8V8QNb6"
    ]
   },
@@ -14479,9 +14611,15 @@
    "label": "qstn_SScRBGKFDkf3Jhtf / part 1",
    "section": "11-organic-chemistry",
    "topic": "11-3-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_2SDcCH3Hyy4Qw9Yz"
    ]
   },
@@ -15552,21 +15690,30 @@
    "label": "qstn_XCsHbRRpf3F4dwYk / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-1-experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xXRgvmtmT35jcQhV": {
    "kind": "question_part",
    "label": "qstn_XCsHbRRpf3F4dwYk / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-1-experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bcmJsRjpqyVnGWxS": {
    "kind": "question_part",
@@ -16262,10 +16409,15 @@
    "label": "qstn_m89FTT7jYr4YV54V / part 4",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-1-experimental-techniques",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rXRF7ZHh696ckdJZ": {
    "kind": "question_part",
@@ -17168,9 +17320,15 @@
    "label": "qstn_RxzcBQmxZ6Qb8cqZ / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-2-separation-and-purification",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_QYQqPCyhq9SPvztG",
     "spcpt_jxPK72xT9PSVKKw6"
    ]
   },
@@ -18102,9 +18260,15 @@
    "label": "qstn_QSnH8p25DDnXpCjh / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-2-separation-and-purification",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_QYQqPCyhq9SPvztG",
     "spcpt_MQrwDm2SwKxcVVHC"
    ]
   },
@@ -18725,21 +18889,30 @@
    "label": "qstn_ws2wnhgD7hNq2HWH / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yJnvN4b4XhTwb9rC": {
    "kind": "question_part",
    "label": "qstn_ws2wnhgD7hNq2HWH / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KnPbjJrQqVjQ9XX7": {
    "kind": "question_part",
@@ -18788,20 +18961,30 @@
    "label": "qstn_VkjgQ3zZNmXvjszD / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CyTz8H5P9PSdPw9x": {
    "kind": "question_part",
    "label": "qstn_V3RHMsDtCnCRcVns / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xxNCttprB7n8pM62": {
    "kind": "question_part",
@@ -18823,19 +19006,30 @@
    "label": "qstn_V3RHMsDtCnCRcVns / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WDv5t4VCCfGvzhtC": {
    "kind": "question_part",
    "label": "qstn_V3RHMsDtCnCRcVns / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_SQ73kHsS4dxX6WDb"
    ]
   },
@@ -18844,21 +19038,30 @@
    "label": "qstn_V3RHMsDtCnCRcVns / part 4",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b9g6VwfFr45Ktqkt": {
    "kind": "question_part",
    "label": "qstn_tTQcj7Yv5sZYb38R / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9YgrqB5wgCvGjvm8": {
    "kind": "question_part",
@@ -18895,10 +19098,15 @@
    "label": "qstn_tgnqXQmkj2tWwQFk / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y9MCQmWXdFf3x73B": {
    "kind": "question_part",
@@ -18935,42 +19143,60 @@
    "label": "qstn_t33pDYp5kgNxpJjQ / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PTY8hjHg7x3MbTJV": {
    "kind": "question_part",
    "label": "qstn_t33pDYp5kgNxpJjQ / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_THKhTXncxbz7DksC": {
    "kind": "question_part",
    "label": "qstn_t33pDYp5kgNxpJjQ / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3z9VW42xrNXFTD22": {
    "kind": "question_part",
    "label": "qstn_S5KHkF5WKqnrFrVZ / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fyDYZPTKcqkMx6sX": {
    "kind": "question_part",
@@ -18987,20 +19213,30 @@
    "label": "qstn_S5KHkF5WKqnrFrVZ / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5j8hDrQScSjT6PGp": {
    "kind": "question_part",
    "label": "qstn_rcj6HC9VWS6F9phX / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FmPR8VqFDCy4Thy9": {
    "kind": "question_part",
@@ -19032,53 +19268,75 @@
    "label": "qstn_QhdZrWPxgXGbzJjG / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wFnv6MGfvnYFf43t": {
    "kind": "question_part",
    "label": "qstn_QhdZrWPxgXGbzJjG / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_v2qxBBXSzMnhxjZk": {
    "kind": "question_part",
    "label": "qstn_QhdZrWPxgXGbzJjG / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X7J79BmTfx4HCHvz": {
    "kind": "question_part",
    "label": "qstn_pXFNndg6tSYwCmzy / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_99DjFw8Xb87ZGGtV": {
    "kind": "question_part",
    "label": "qstn_pXFNndg6tSYwCmzy / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hmZrrdGNffzHHYMX": {
    "kind": "question_part",
@@ -19095,40 +19353,60 @@
    "label": "qstn_p3TbtzBvvMBymJ4s / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T932txWvJ692c8sm": {
    "kind": "question_part",
    "label": "qstn_p3TbtzBvvMBymJ4s / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pyRt2WHsvdzr3X25": {
    "kind": "question_part",
    "label": "qstn_p3TbtzBvvMBymJ4s / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_n5rb2FNKWQPVpxzW": {
    "kind": "question_part",
    "label": "qstn_p3TbtzBvvMBymJ4s / part 4",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rNcFXs7sPQQkfPKZ": {
    "kind": "question_part",
@@ -19150,11 +19428,15 @@
    "label": "qstn_Ny9Dmtsmrxd5Rtdj / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qx7NbWXdZTcmbtgg": {
    "kind": "question_part",
@@ -19171,9 +19453,15 @@
    "label": "qstn_Ny9Dmtsmrxd5Rtdj / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_QYQqPCyhq9SPvztG",
     "spcpt_jxPK72xT9PSVKKw6"
    ]
   },
@@ -19182,10 +19470,16 @@
    "label": "qstn_nNCBNqtCgvgQnVVq / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_SQ73kHsS4dxX6WDb",
-    "spcpt_QYQqPCyhq9SPvztG"
+    "spcpt_SQ73kHsS4dxX6WDb"
    ]
   },
   "qstnprt_wVGj5TWm57WJvHwz": {
@@ -19218,11 +19512,15 @@
    "label": "qstn_nMYFdck89GVcHX4J / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HPTcfkqGBbkGgbpd": {
    "kind": "question_part",
@@ -19245,30 +19543,45 @@
    "label": "qstn_nMYFdck89GVcHX4J / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GNhHPF69snwNYBQ7": {
    "kind": "question_part",
    "label": "qstn_nMYFdck89GVcHX4J / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bj39Dj6wZ3QgfVhJ": {
    "kind": "question_part",
    "label": "qstn_n7sHmv6bBZMZTpnw / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pxdhNvg5QPnkRnYk": {
    "kind": "question_part",
@@ -19290,10 +19603,15 @@
    "label": "qstn_n7sHmv6bBZMZTpnw / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pGZkCqt2Tkc6Wf7W": {
    "kind": "question_part",
@@ -19349,11 +19667,15 @@
      "official_code": "7.1.7",
      "tier": "J1_definition_text_identity",
      "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "pending": []
   },
   "qstnprt_MGbgJ4VfPRBQpVsG": {
    "kind": "question_part",
@@ -19411,11 +19733,15 @@
      "official_code": "7.3.2",
      "tier": "J4_name_phrase_identity",
      "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "pending": []
   },
   "qstnprt_4W8DGvVpH6jFFKrr": {
    "kind": "question_part",
@@ -19432,11 +19758,15 @@
    "label": "qstn_gz6KDtNHzycqyGXt / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PbPcf28S8DTFK5mB": {
    "kind": "question_part",
@@ -19453,10 +19783,15 @@
    "label": "qstn_gz6KDtNHzycqyGXt / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CSqwWrmMD9C3V3wY": {
    "kind": "question_part",
@@ -19480,11 +19815,15 @@
    "label": "qstn_g9yTF4T5FrhVf3px / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DZjcJXqXbjm44vXK": {
    "kind": "question_part",
@@ -19511,61 +19850,90 @@
    "label": "qstn_F4NQkgky5FBTk9tc / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mJ8RzHzw3NHC2rB3": {
    "kind": "question_part",
    "label": "qstn_F4NQkgky5FBTk9tc / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qhpPTrCvsdjBTpW5": {
    "kind": "question_part",
    "label": "qstn_F4NQkgky5FBTk9tc / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PTXG57xyvq473x7V": {
    "kind": "question_part",
    "label": "qstn_F4NQkgky5FBTk9tc / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QvKWrxHq5CSGbJKt": {
    "kind": "question_part",
    "label": "qstn_F3WmqwG9HHSYGFxk / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hY3hrf6c2JcpmMWf": {
    "kind": "question_part",
    "label": "qstn_F3WmqwG9HHSYGFxk / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WkDF2G8mYQVYFvBk": {
    "kind": "question_part",
@@ -19592,19 +19960,30 @@
    "label": "qstn_Dz5vhcFnV9VmW7WR / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_c7B9MzZ8PBxkb7wC": {
    "kind": "question_part",
    "label": "qstn_Dz5vhcFnV9VmW7WR / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_SQ73kHsS4dxX6WDb"
    ]
   },
@@ -19623,20 +20002,30 @@
    "label": "qstn_Dz5vhcFnV9VmW7WR / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wHgnYXMBgFdWVMcC": {
    "kind": "question_part",
    "label": "qstn_Dhf2cRbZ3c9DJrGk / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yMkFC9GYvFGccbDH": {
    "kind": "question_part",
@@ -19653,10 +20042,15 @@
    "label": "qstn_Dhf2cRbZ3c9DJrGk / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vXGDqQ95W4xkpHFS": {
    "kind": "question_part",
@@ -19673,70 +20067,106 @@
    "label": "qstn_d6kX7dCzXw4j8VKP / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bNGXpXfhsDFgS2CF": {
    "kind": "question_part",
    "label": "qstn_d6kX7dCzXw4j8VKP / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VvPDhPPh3MKGyDw3": {
    "kind": "question_part",
    "label": "qstn_cXxtf4GKTdN2G5Vd / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gg8BGsG7gygXbhC8": {
    "kind": "question_part",
    "label": "qstn_cXxtf4GKTdN2G5Vd / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z5tCyZBnXsX4FDM4": {
    "kind": "question_part",
    "label": "qstn_cXxtf4GKTdN2G5Vd / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NGm7B3vkTVMtpsWq": {
    "kind": "question_part",
    "label": "qstn_cXxtf4GKTdN2G5Vd / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Kk49RQHPjdSqBjTV": {
    "kind": "question_part",
    "label": "qstn_cXxtf4GKTdN2G5Vd / part 4",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_WG9HZG7SFWxdRjB5",
-    "spcpt_QYQqPCyhq9SPvztG"
+    "spcpt_WG9HZG7SFWxdRjB5"
    ]
   },
   "qstnprt_mPH2tRqhcwTbQHQP": {
@@ -19750,21 +20180,30 @@
      "official_code": "7.3.2",
      "tier": "J4_name_phrase_identity",
      "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "pending": []
   },
   "qstnprt_7F2KK945CvgX962t": {
    "kind": "question_part",
    "label": "qstn_cWYBn3rrbmJRfnBt / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sHcSYJp3S58DY2gV": {
    "kind": "question_part",
@@ -19781,11 +20220,15 @@
    "label": "qstn_cWYBn3rrbmJRfnBt / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hwqFbJKHJJvrBZvt": {
    "kind": "question_part",
@@ -19822,22 +20265,30 @@
    "label": "qstn_brqN7rgwfcyr93Xq / part 3",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_t3YqVnsQhf4ndgBQ": {
    "kind": "question_part",
    "label": "qstn_bmBTX2MKTzF7jc3W / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rDsctDN7yQsGrHPy": {
    "kind": "question_part",
@@ -19850,11 +20301,15 @@
      "official_code": "7.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "pending": []
   },
   "qstnprt_JhpZgDbdnmrcj6wZ": {
    "kind": "question_part",
@@ -19886,32 +20341,45 @@
    "label": "qstn_5NGZctwxrD8wFDfb / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xnjYkf6wns6TTZys": {
    "kind": "question_part",
    "label": "qstn_5NGZctwxrD8wFDfb / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qmZ2d6mf9SDV42dr": {
    "kind": "question_part",
    "label": "qstn_5NGZctwxrD8wFDfb / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5QGTzfR7gFFJ5HFJ": {
    "kind": "question_part",
@@ -19933,21 +20401,30 @@
    "label": "qstn_5NGZctwxrD8wFDfb / part 4",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3K7j8jBRbgQPHsH9": {
    "kind": "question_part",
    "label": "qstn_4JznZGtZs56Yq7Tq / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NBrxWCqQ4t4BPrym": {
    "kind": "question_part",
@@ -20053,9 +20530,15 @@
    "label": "qstn_TdB444MsG75XK8kY / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_SQ73kHsS4dxX6WDb"
    ]
   },
@@ -20064,10 +20547,15 @@
    "label": "qstn_TdB444MsG75XK8kY / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JmHvGS9PVfMN5T4s": {
    "kind": "question_part",
@@ -20205,59 +20693,90 @@
    "label": "qstn_j3srkNHbv8ZqmNQQ / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Rkwykccr84gt3hN9": {
    "kind": "question_part",
    "label": "qstn_j3srkNHbv8ZqmNQQ / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ShY4K9wmWhCcwS9t": {
    "kind": "question_part",
    "label": "qstn_j3srkNHbv8ZqmNQQ / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BTWfQjzCc6TnKYZR": {
    "kind": "question_part",
    "label": "qstn_hxK4FTCn2cHM8gDk / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g2t9ZMFKbSfpJrzx": {
    "kind": "question_part",
    "label": "qstn_hxK4FTCn2cHM8gDk / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D9cnrc5pBGrVkYPb": {
    "kind": "question_part",
    "label": "qstn_hxK4FTCn2cHM8gDk / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_SQ73kHsS4dxX6WDb"
    ]
   },
@@ -20266,30 +20785,45 @@
    "label": "qstn_G43qHqJ4jvqChpGT / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D95x4kH8m99sGw44": {
    "kind": "question_part",
    "label": "qstn_G43qHqJ4jvqChpGT / part 1",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gdGDmhm8GjjpD8Wt": {
    "kind": "question_part",
    "label": "qstn_G43qHqJ4jvqChpGT / part 2",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9c5dtQtmhFJwHdPY": {
    "kind": "question_part",
@@ -20318,10 +20852,15 @@
    "label": "qstn_3HTF4JJpKMNmbytt / part 0",
    "section": "12-experimental-techniques-and-chemical-analysis",
    "topic": "12-3-identification-of-ions-and-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_byBM89XtmZmk8P7Y": {
    "kind": "question_part",
@@ -24194,9 +24733,15 @@
    "label": "qstn_qkk6g3hVpG8M2DXT / part 1",
    "section": "3-stoichiometry",
    "topic": "3-1-formulae-and-relative-masses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_MQrwDm2SwKxcVVHC"
    ]
   },
@@ -25335,10 +25880,15 @@
    "label": "qstn_qQjQf4nvpM2krMzh / part 1",
    "section": "3-stoichiometry",
    "topic": "3-2-the-mole-and-the-avogadro-constant",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qvrhrz4sBfQgPtTG": {
    "kind": "question_part",
@@ -25365,9 +25915,15 @@
    "label": "qstn_pqXMPCKdgDvB5Rvx / part 1",
    "section": "3-stoichiometry",
    "topic": "3-2-the-mole-and-the-avogadro-constant",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_WG9HZG7SFWxdRjB5"
    ]
   },
@@ -30318,10 +30874,15 @@
    "label": "qstn_PCcBKNQBJQBwfSb8 / part 1",
    "section": "6-chemical-reactions",
    "topic": "6-1-chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WG3cZtWXDhM6D48P": {
    "kind": "question_part",
@@ -30570,10 +31131,15 @@
    "label": "qstn_kQvRDcbf473RdqMQ / part 2",
    "section": "6-chemical-reactions",
    "topic": "6-1-chemical-change-and-rate-of-reaction",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YdvWWCydNMpfDrTG": {
    "kind": "question_part",
@@ -30816,9 +31382,15 @@
    "label": "qstn_ddSgjZTKQxqtKFYy / part 1",
    "section": "6-chemical-reactions",
    "topic": "6-1-chemical-change-and-rate-of-reaction",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_8xpHHNyCy8V8QNb6"
    ]
   },
@@ -32264,9 +32836,15 @@
    "label": "qstn_gNRm2pHKHkPZyY6F / part 0",
    "section": "6-chemical-reactions",
    "topic": "6-2-reversible-reactions-and-equilibrium",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP",
     "spcpt_MQrwDm2SwKxcVVHC"
    ]
   },
@@ -33868,10 +34446,15 @@
    "label": "qstn_q9jtZxM89d2V83cG / part 3",
    "section": "7-acids-bases-and-salts",
    "topic": "7-1-the-characteristic-properties-of-acids-and-bases",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d82hrGXgT9x77tZr": {
    "kind": "question_part",
@@ -34365,11 +34948,15 @@
      "official_code": "7.1.1",
      "tier": "T1_verbatim",
      "method": "cie_definition_text_join"
+    },
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "pending": []
   },
   "qstnprt_Pf4zgyVfVmhbJKnH": {
    "kind": "question_part",
@@ -35369,10 +35956,15 @@
    "label": "qstn_RFzHM5JkW6j2ZGG5 / part 7",
    "section": "8-the-periodic-table",
    "topic": "8-1-the-periodic-table-and-trends",
-   "codes": [],
-   "pending": [
-    "spcpt_nbst4t4b6qYXdKBw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gC36nyYM57KpmDf6": {
    "kind": "question_part",
@@ -36488,10 +37080,15 @@
    "label": "qstn_B2RypqNHwnMV4X66 / part 2",
    "section": "8-the-periodic-table",
    "topic": "8-2-group-properties-and-trends",
-   "codes": [],
-   "pending": [
-    "spcpt_nbst4t4b6qYXdKBw"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qMCQc3xTDPdkC4bD": {
    "kind": "question_part",
@@ -37305,10 +37902,15 @@
    "label": "qstn_dCXb7nvDSNwRdYFx / part 1",
    "section": "8-the-periodic-table",
    "topic": "8-2-group-properties-and-trends",
-   "codes": [],
-   "pending": [
-    "spcpt_Xzc5gSbkWQjZqtjP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_92XKQTfrwQM53rCT": {
    "kind": "question_part",
@@ -38824,10 +39426,15 @@
    "label": "qstn_CH5f9GnqbqJG7wq9 / part 1",
    "section": "9-metals",
    "topic": "9-2-reactivity-series-and-corrosion-of-metals",
-   "codes": [],
-   "pending": [
-    "spcpt_QYQqPCyhq9SPvztG"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vdBYR3gGMm9rD3bV": {
    "kind": "question_part",
@@ -40068,10 +40675,16 @@
    "label": "qstn_bK3F3DWcbHf5q7vB / part 2",
    "section": "9-metals",
    "topic": "9-3-extraction-of-metals",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_CHEMISTRY_2023_2025:12.5.1",
+     "official_code": "12.5.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_WG9HZG7SFWxdRjB5",
-    "spcpt_QYQqPCyhq9SPvztG",
     "spcpt_9mXTt8yFNWdbX62T"
    ]
   },

@@ -35,7 +35,14 @@
    "lane": "T-SPECS-CIE-JOIN-3",
    "gate": "pending",
    "stamp": "2026-10-30T09:00:00Z",
-   "note": "wave-growth items are agent-generated suggestions (AGENT.md rule 2); promotion at the chain's stage-#4 gate"
+   "note": "wave-growth items are agent-generated suggestions (AGENT.md rule 2); promotion at the chain's stage-#4 gate",
+   "verdict3": {
+    "state": "SUGGESTED",
+    "lane": "T-SPECS-CIE-VERDICT-3",
+    "directive": "fire that consume lane",
+    "gateway_trace": "1a18bc6701800065",
+    "applied_utc": "2026-10-30T10:00:00Z"
+   }
   }
  },
  "registry": {
@@ -45,7 +52,7 @@
  },
  "totals": {
   "items": 428,
-  "items_with_codes": 105,
+  "items_with_codes": 149,
   "by_kind": {
    "notes": 75,
    "question_parts": 353,
@@ -53,7 +60,7 @@
   },
   "coded_by_kind": {
    "notes": 25,
-   "question_parts": 80,
+   "question_parts": 124,
    "flashcards": 0
   }
  },
@@ -62,7 +69,7 @@
   "parts": 313,
   "universe_ids": 157,
   "universe_resolved": 35,
-  "pending_refs": 347,
+  "pending_refs": 470,
   "flashcards_discovered_uncoded": 0,
   "verdict": {
    "lane": "T-SPECS-CIE-VERDICT-1",
@@ -103,6 +110,22 @@
    "v2MirrorInput": {
     "pin": "3245de7c91e030625bf556dd6280bfd2d4f10bea",
     "contentMapSha256": "97c520cb2ccbdb2df353e60be8105d59e1ff90cb31f0e118b1254f1e5af0ee0e"
+   },
+   "verdict3": {
+    "lane": "T-SPECS-CIE-VERDICT-3",
+    "applied_utc": "2026-10-30T10:00:00Z",
+    "resolved_pairs": 22,
+    "resolved_refs": 60,
+    "code_entries_added": 59,
+    "by_rule": {
+     "V1_name_text_identity": 5,
+     "V2_name_phrase_identity": 17,
+     "V3_subsection_head_identity": 0,
+     "V4_settext_title_identity": 0,
+     "V5_topic_scoped_phrase_identity": 0
+    },
+    "ambiguous_pairs": 54,
+    "pending_refs_after": 470
    }
   }
  },
@@ -4080,42 +4103,67 @@
    "label": "qstn_SXBVTp936BNGchqX / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_SpRZW3wdPqKW3kFP"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3xG7NVTwsfNTnZ4N": {
    "kind": "question_part",
    "label": "qstn_SXBVTp936BNGchqX / part 1",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_QmJGQTJJf9mYXhzg"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Dn57sgcqrxwWk7vg": {
    "kind": "question_part",
    "label": "qstn_vCpY6grKy3ThrpKk / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_xGpzcNHqZBkPtR74",
-    "spcpt_GFCZzW9fjGR377Vy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cGfzG4Q7kFZFRnkr": {
    "kind": "question_part",
    "label": "qstn_m46cwJYjYd9dX2BC / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_SpRZW3wdPqKW3kFP",
     "spcpt_qvjxcsyFpHChKr2V",
-    "spcpt_QmJGQTJJf9mYXhzg",
     "spcpt_Bz2JsgqDzH586KB8",
     "spcpt_bf8TynHzPZVrrTqt"
    ]
@@ -4125,9 +4173,15 @@
    "label": "qstn_h86BT9qB3JQ4Kcbs / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_xGpzcNHqZBkPtR74",
     "spcpt_qvjxcsyFpHChKr2V",
     "spcpt_bf8TynHzPZVrrTqt"
    ]
@@ -4137,10 +4191,16 @@
    "label": "qstn_gHtPvvwpvmn8KmWR / part 0",
    "section": "2-sources-and-recording-of-data",
    "topic": "books-of-prime-entry",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_YVYTXGdjSfcMgNxF",
-    "spcpt_xGpzcNHqZBkPtR74",
     "spcpt_kVTbzsX7VFFJwHbX",
     "spcpt_dBxxZ83gsPKXv6Nw"
    ]
@@ -4296,9 +4356,15 @@
    "label": "qstn_6mVf3tfyHZjQwDCg / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_t83ZfyP7c4B3j88c",
     "spcpt_mjq5Zhf33pzS463X"
    ]
   },
@@ -4307,9 +4373,15 @@
    "label": "qstn_6mVf3tfyHZjQwDCg / part 1",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_8hGVCZkWws9nBhnH",
     "spcpt_7bshbZmVH6xDzXRR"
    ]
   },
@@ -4343,11 +4415,17 @@
    "label": "qstn_7BW8Bx56TzZFR8Hw / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_vfNB97tQQRqFPg4k",
-    "spcpt_C7r59XBDpbKhPgQr",
-    "spcpt_8hGVCZkWws9nBhnH"
+    "spcpt_C7r59XBDpbKhPgQr"
    ]
   },
   "qstnprt_DTZmWNbbtqFvhr2s": {
@@ -4355,10 +4433,15 @@
    "label": "qstn_7BW8Bx56TzZFR8Hw / part 1",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mpDW4VMWMZbn788y": {
    "kind": "question_part",
@@ -4385,10 +4468,15 @@
    "label": "qstn_fHvhw3q4GDJp2gRG / part 1",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DVhknkm2VWcw5PMn": {
    "kind": "question_part",
@@ -4419,10 +4507,15 @@
    "label": "qstn_8C9CvZtxFcjyKTbr / part 1",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NPNPq23zYvpdpR8w": {
    "kind": "question_part",
@@ -4440,11 +4533,17 @@
    "label": "qstn_9gpKPnzw49wgv7JY / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_vfNB97tQQRqFPg4k",
-    "spcpt_kf8J3mV9z6q5qZmt",
-    "spcpt_8hGVCZkWws9nBhnH"
+    "spcpt_kf8J3mV9z6q5qZmt"
    ]
   },
   "qstnprt_S6RDYBpFwsvKS57g": {
@@ -4502,10 +4601,15 @@
    "label": "qstn_hdGJbHWtrQ896fRp / part 2",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_8hGVCZkWws9nBhnH"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.2.2",
+     "official_code": "3.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gDkvG4qw6hcW3k9x": {
    "kind": "question_part",
@@ -4522,10 +4626,15 @@
    "label": "qstn_2PbQSxJ5YBky233W / part 0",
    "section": "3-verification-of-accounting-records",
    "topic": "the-trial-balance-and-correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_t83ZfyP7c4B3j88c"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:3.1.2",
+     "official_code": "3.1.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hKdcQV8Wh36g8293": {
    "kind": "question_part",
@@ -4574,10 +4683,16 @@
    "label": "qstn_5d8G433v7wvYYpQy / part 2",
    "section": "4-accounting-procedures",
    "topic": "depreciation-and-disposal-of-non-current-assets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_G56WDcNqvzcxzX9Q",
-    "spcpt_dQWRXcNvJjh8cVVP"
+    "spcpt_G56WDcNqvzcxzX9Q"
    ]
   },
   "qstnprt_JqmwsY9p7v9kfQ9Z": {
@@ -4595,10 +4710,16 @@
    "label": "qstn_5SfSZ9PMV5krKrzC / part 1",
    "section": "4-accounting-procedures",
    "topic": "depreciation-and-disposal-of-non-current-assets",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_G56WDcNqvzcxzX9Q",
-    "spcpt_dQWRXcNvJjh8cVVP"
+    "spcpt_G56WDcNqvzcxzX9Q"
    ]
   },
   "qstnprt_jbW2rP2shzGNPsrz": {
@@ -4647,10 +4768,16 @@
    "label": "qstn_sKh7ypgy88Wj5g9k / part 0",
    "section": "4-accounting-procedures",
    "topic": "irrecoverable-debts-and-provision-for-doubtful-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:4.4.5",
+     "official_code": "4.4.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_Rd2msrC7pY9jyrqb",
-    "spcpt_6ntSqP6M6Gh97H9m"
+    "spcpt_Rd2msrC7pY9jyrqb"
    ]
   },
   "qstnprt_dMvMGFzSJX8Nw72T": {
@@ -4749,14 +4876,25 @@
    "label": "qstn_kR6vyZjFfqFdbWKZ / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_V5TfNXBqkHwcjQq3",
     "spcpt_qdwprVmJXmQPCv6j",
     "spcpt_hvQ8cMB843R9WhXc",
-    "spcpt_HjY7CjQ26J7qQZ2X",
-    "spcpt_7ZP4XqvvpK3gdps5",
-    "spcpt_43dwcRy3J8HVgzmF"
+    "spcpt_7ZP4XqvvpK3gdps5"
    ]
   },
   "qstnprt_VjSbWWscC4yw46r6": {
@@ -4764,10 +4902,15 @@
    "label": "qstn_kR6vyZjFfqFdbWKZ / part 1",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_YJmNWfynd7cJyT2N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JBRhfZXGSR2TSdbT": {
    "kind": "question_part",
@@ -4795,10 +4938,15 @@
    "label": "qstn_qZjpYw7WNk2RTCG4 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_YJmNWfynd7cJyT2N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V4mBWm35vGQqJWP2": {
    "kind": "question_part",
@@ -4825,20 +4973,30 @@
    "label": "qstn_KSfXcKndjjnfz9pC / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_YJmNWfynd7cJyT2N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pJQrzKtVhPfpNMWz": {
    "kind": "question_part",
    "label": "qstn_Rx2WThBtpynVKHhF / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-limited-companies",
-   "codes": [],
-   "pending": [
-    "spcpt_YJmNWfynd7cJyT2N"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.3.7",
+     "official_code": "5.3.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sSYHC2vCrNVp25dp": {
    "kind": "question_part",
@@ -4865,12 +5023,23 @@
    "label": "qstn_CRjKSXsyQh3C9fys / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_hvQ8cMB843R9WhXc",
-    "spcpt_dHbYwPzgcrfv3HDy",
-    "spcpt_5YKW8C4QWCDFZZ9s",
-    "spcpt_43dwcRy3J8HVgzmF"
+    "spcpt_5YKW8C4QWCDFZZ9s"
    ]
   },
   "qstnprt_JQXkt3k49Y7zfWzF": {
@@ -4878,10 +5047,16 @@
    "label": "qstn_CRjKSXsyQh3C9fys / part 1",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_S3TTjdpsXYBzmCWZ",
-    "spcpt_43dwcRy3J8HVgzmF"
+    "spcpt_S3TTjdpsXYBzmCWZ"
    ]
   },
   "qstnprt_pDKmV4SxVB8XM5R6": {
@@ -4889,11 +5064,22 @@
    "label": "qstn_psmnxCC9yv9zFXZH / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_hvQ8cMB843R9WhXc",
-    "spcpt_dHbYwPzgcrfv3HDy",
-    "spcpt_43dwcRy3J8HVgzmF"
+    "spcpt_hvQ8cMB843R9WhXc"
    ]
   },
   "qstnprt_BDQDrvbky5fPsySJ": {
@@ -4911,12 +5097,28 @@
    "label": "qstn_yfN5yVWSfb6pYnX9 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.9",
+     "official_code": "5.1.9",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_hvQ8cMB843R9WhXc",
-    "spcpt_HjY7CjQ26J7qQZ2X",
-    "spcpt_dHbYwPzgcrfv3HDy",
-    "spcpt_43dwcRy3J8HVgzmF"
+    "spcpt_hvQ8cMB843R9WhXc"
    ]
   },
   "qstnprt_Q78Gjbhw63DwshYY": {
@@ -4924,9 +5126,15 @@
    "label": "qstn_yfN5yVWSfb6pYnX9 / part 1",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.6.7",
+     "official_code": "5.6.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_sV4PZNjxJW786NvP",
     "spcpt_cQWncxztgtcV6Cn4"
    ]
   },
@@ -4935,12 +5143,23 @@
    "label": "qstn_ff79Kj58gBkM9BtP / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
     "spcpt_ZH48zTH9JTp8mBPY",
-    "spcpt_dHbYwPzgcrfv3HDy",
-    "spcpt_7ZP4XqvvpK3gdps5",
-    "spcpt_43dwcRy3J8HVgzmF"
+    "spcpt_7ZP4XqvvpK3gdps5"
    ]
   },
   "qstnprt_rXmMp2WwD8PtzYvS": {
@@ -4958,11 +5177,21 @@
    "label": "qstn_VB2B8hnqPhjq3mH5 / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-manufacturing-businesses",
-   "codes": [],
-   "pending": [
-    "spcpt_dHbYwPzgcrfv3HDy",
-    "spcpt_43dwcRy3J8HVgzmF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.5.5",
+     "official_code": "5.5.5",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.1.10",
+     "official_code": "5.1.10",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8WZJ3cfvsfGJMSWQ": {
    "kind": "question_part",
@@ -4979,10 +5208,15 @@
    "label": "qstn_snJqtJF8xn7RD75s / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_65bR8SCWShSWSCbw": {
    "kind": "question_part",
@@ -4999,20 +5233,30 @@
    "label": "qstn_snJqtJF8xn7RD75s / part 2",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_PJZysRdcNSyKffjp"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.4",
+     "official_code": "5.2.4",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NrjJwR2kkvtZTT5D": {
    "kind": "question_part",
    "label": "qstn_qJ8PSSftx2ZBhC2k / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "financial-statements-for-partnerships",
-   "codes": [],
-   "pending": [
-    "spcpt_bphR5b8bjg4DwRhq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:5.2.2",
+     "official_code": "5.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BW8Cy2XmFXrQt7fn": {
    "kind": "question_part",
@@ -5082,45 +5326,91 @@
    "label": "qstn_XyVQvCNpcZH2DdwC / part 0",
    "section": "5-preparation-of-financial-statements",
    "topic": "incomplete-records",
-   "codes": [],
-   "pending": [
-    "spcpt_xGpzcNHqZBkPtR74",
-    "spcpt_GFCZzW9fjGR377Vy"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:2.3.2",
+     "official_code": "2.3.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:1.2.2",
+     "official_code": "1.2.2",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hb4WWB95RnbQfhj9": {
    "kind": "question_part",
    "label": "qstn_jb8423s6D7v2k7qn / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_2YgHfXfnSb6z8yQK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W748j3drzxCnShRx": {
    "kind": "question_part",
    "label": "qstn_jb8423s6D7v2k7qn / part 1",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_CSDQKGHGVjNgrBM3",
-    "spcpt_2YgHfXfnSb6z8yQK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BwKhXBNYmjw4rTQk": {
    "kind": "question_part",
    "label": "qstn_N52nKDtJG3ySYGgT / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.2",
+     "official_code": "6.1.2",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
    "pending": [
-    "spcpt_ZsNxfshk6MGcvz9P",
-    "spcpt_sMD4pGVxmnvyDrHg",
-    "spcpt_CSDQKGHGVjNgrBM3",
-    "spcpt_9rcjm2MdqMhzyt36",
-    "spcpt_2YgHfXfnSb6z8yQK"
+    "spcpt_sMD4pGVxmnvyDrHg"
    ]
   },
   "qstnprt_bKQWT9VXJDgVgPQQ": {
@@ -5138,22 +5428,42 @@
    "label": "qstn_sj2kddBDRxjJGZck / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_9rcjm2MdqMhzyt36"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3j8g6BfTkcZk4KMK": {
    "kind": "question_part",
    "label": "qstn_SzcYrTjjjwtR53cd / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_ZsNxfshk6MGcvz9P",
-    "spcpt_fKHGR7jrT4dxsjVb",
-    "spcpt_9rcjm2MdqMhzyt36"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    },
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.5",
+     "official_code": "6.1.5",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Pbmy56Br6c7xjy3x": {
    "kind": "question_part",
@@ -5171,50 +5481,75 @@
    "label": "qstn_gRH859P4RYdMK6RM / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_xfsyH3bJ9K9ppgj4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.7",
+     "official_code": "6.1.7",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bKXGSvH8wYN2B4wN": {
    "kind": "question_part",
    "label": "qstn_gRH859P4RYdMK6RM / part 1",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_j2dzTVCTznjTZKwV"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.8",
+     "official_code": "6.1.8",
+     "tier": "V2_name_phrase_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DqtqWHwKgcBGb6HR": {
    "kind": "question_part",
    "label": "qstn_rtNmSzryTPbDRc7V / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_2YgHfXfnSb6z8yQK"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.1",
+     "official_code": "6.1.1",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vtGxhfZQBSWzCK9W": {
    "kind": "question_part",
    "label": "qstn_vZt2S3TYfm6BgmsJ / part 0",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_ZsNxfshk6MGcvz9P"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.3",
+     "official_code": "6.1.3",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_P29Xp2rpWdZmHbk7": {
    "kind": "question_part",
    "label": "qstn_vZt2S3TYfm6BgmsJ / part 1",
    "section": "6-analysis-and-interpretation",
    "topic": "accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_fKHGR7jrT4dxsjVb"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_IGCSE_ACCOUNTING_2023_2025:6.1.4",
+     "official_code": "6.1.4",
+     "tier": "V1_name_text_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KcSWdkNxb99vMxSb": {
    "kind": "question_part",

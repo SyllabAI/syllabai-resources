@@ -21,6 +21,13 @@
     "directive": "fire that consume lane",
     "gateway_trace": "1a18bc6701800065",
     "applied_utc": "2026-10-30T09:30:00Z"
+   },
+   "verdict3": {
+    "state": "SUGGESTED",
+    "lane": "T-SPECS-CIE-VERDICT-3",
+    "directive": "fire that consume lane",
+    "gateway_trace": "1a18bc6701800065",
+    "applied_utc": "2026-10-30T10:00:00Z"
    }
   }
  },
@@ -31,14 +38,14 @@
  },
  "totals": {
   "items": 98,
-  "items_with_codes": 53,
+  "items_with_codes": 72,
   "by_kind": {
    "notes": 98,
    "question_parts": 0,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 53,
+   "notes": 72,
    "question_parts": 0,
    "flashcards": 0
   }
@@ -48,7 +55,7 @@
   "parts": 0,
   "universe_ids": 166,
   "universe_resolved": 78,
-  "pending_refs": 87,
+  "pending_refs": 42,
   "flashcards_discovered_uncoded": 0,
   "scope_law": {
    "law": "none (registry carries no printed scope markers)",
@@ -77,6 +84,22 @@
     "ambiguous_pairs": 0,
     "pending_refs_after": 87,
     "note": "index re-join cures applied additively to the wave3 lanes' pending anchors; pairs with no identity evidence stay pending honestly (AGENT.md rule 3)"
+   },
+   "verdict3": {
+    "lane": "T-SPECS-CIE-VERDICT-3",
+    "applied_utc": "2026-10-30T10:00:00Z",
+    "resolved_pairs": 45,
+    "resolved_refs": 45,
+    "code_entries_added": 21,
+    "by_rule": {
+     "V1_name_text_identity": 0,
+     "V2_name_phrase_identity": 0,
+     "V3_subsection_head_identity": 45,
+     "V4_settext_title_identity": 0,
+     "V5_topic_scoped_phrase_identity": 0
+    },
+    "ambiguous_pairs": 0,
+    "pending_refs_after": 42
    }
   }
  },
@@ -996,10 +1019,15 @@
    "label": "Bank Reconciliation Statements | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "reconciliation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_yvcxZp7CtmFdjQzm"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_3ytBpDQ2HDfMcDdv": {
    "kind": "note",
@@ -1036,11 +1064,15 @@
    "label": "Impact of Errors on Profit & Financial Position | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "reconciliation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_vv3HqKxwmgk6bCjz",
-    "spcpt_y5yHrNDkPS2dsZ8Z"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_S4vssx2jZNkqcGky": {
    "kind": "note",
@@ -1074,10 +1106,15 @@
    "label": "Purchases Ledger Control Accounts | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "reconciliation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_KKTrJBdv5JzYBGF5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_Rmg7wwzdQZMPT6FV": {
    "kind": "note",
@@ -1099,10 +1136,15 @@
    "label": "Sales Ledger Control Accounts | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "reconciliation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_kQjPYmk2QN4qnZtz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_nGkt2xjFj5TzhpyF": {
    "kind": "note",
@@ -1124,10 +1166,15 @@
    "label": "The Trial Balance | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "reconciliation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_h8bsrypGnn8ykkFf"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_nt2qmmv9SvdpzsG9": {
    "kind": "note",
@@ -1140,42 +1187,60 @@
      "official_code": "1.4.2",
      "tier": "T1_verbatim",
      "method": "cie_text_join"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_ytMmqCjbk26Vvj5D"
-   ]
+   "pending": []
   },
   "rn_yZFDKFKvd5dB4pbY": {
    "kind": "note",
    "label": "Using a Bank Statement to Update the Cash Book | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "reconciliation-and-verification",
-   "codes": [],
-   "pending": [
-    "spcpt_b7X8SskCKm5mB28r",
-    "spcpt_ZBfkqJbzC9ZMBFhc"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.4.1",
+     "official_code": "1.4.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_nXJPwz7QzxZYsqnd": {
    "kind": "note",
    "label": "Accounting Concepts | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_FNfmCSqsy4J6g8nz"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_ZMVJG4CmJtSTBmcD": {
    "kind": "note",
    "label": "Balancing Accounts | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_dJQdTB2TXZwnbhgF"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_r53mb2DBfdk6x5x3": {
    "kind": "note",
@@ -1190,21 +1255,22 @@
      "method": "cie_text_join"
     }
    ],
-   "pending": [
-    "spcpt_XpKK94dSD3mMmKNR"
-   ]
+   "pending": []
   },
   "rn_BHPHQWyNzHPJWdBn": {
    "kind": "note",
    "label": "Transactions with Cash, Credit & Discounts | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_ZHtfhWjWC2TKjyKb",
-    "spcpt_7HySddQYXswWrvDm",
-    "spcpt_gqQ2kck3SfNJDpqJ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_kD5htgbThQgfrbSM": {
    "kind": "note",
@@ -1226,64 +1292,75 @@
    "label": "Double Entry for Dishonoured Cheques | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_N9r5q6Ys3k85jFr5",
-    "spcpt_h9grHbMYGwk8g7Y5"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_TBD2d5tfQYfvd24Y": {
    "kind": "note",
    "label": "Double Entry for Other Transactions | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_M7njRyst4gY7tcpy",
-    "spcpt_wH7hZcRY9qPJgtCV",
-    "spcpt_wZ6zmvz8yjmGYwkz",
-    "spcpt_n4KxTRsVYk3K99f2",
-    "spcpt_tNMGM6VrVH3yBBdd"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_bPZChMRPDw3MTcXZ": {
    "kind": "note",
    "label": "Double Entry for Purchase Transactions | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_tWZgsH8Bq5wFmfGh",
-    "spcpt_k2QhVprFz2zHPqCw",
-    "spcpt_fWCkWssqxZfCtpBj",
-    "spcpt_9WTTZrWr25Jm7fNr",
-    "spcpt_M7p9jdH4v3dJw2pq"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_GhsRKTX6qxscDFSs": {
    "kind": "note",
    "label": "Double Entry for Refunds | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_M2dTRsvwRVqHK9kG",
-    "spcpt_Y8sRGmHvFjKS3HRN"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_tCgX7YZWWfVVRqbb": {
    "kind": "note",
    "label": "Double Entry for Sale Transactions | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_ywbXqx8VFmCmNQPR",
-    "spcpt_XzwsTygysbgpwtYh",
-    "spcpt_gyGYksYjMKrsCPNS",
-    "spcpt_Wz5yr4Z6sgKpP6CM",
-    "spcpt_wWFQf87Cyj26Fvgn"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_DpR9dP6hXgQbt62Q": {
    "kind": "note",
@@ -1305,24 +1382,30 @@
    "label": "Interpreting Accounts and Their Balances | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_fYSZJ85Wv7dq4WNP",
-    "spcpt_WX5Ycxw2tRzVkyw3",
-    "spcpt_wf8F4DkhS4GWyq6f",
-    "spcpt_bDKJFcK6ZffHNXNQ"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_s7TNX2v3g2yF7WgG": {
    "kind": "note",
    "label": "The Accounting Equation | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_3jVDVmggDG7Kbj9y",
-    "spcpt_wcWGvgpCPZNjhh4x"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_RzHYxWgMg3shBPdh": {
    "kind": "note",
@@ -1335,21 +1418,30 @@
      "official_code": "3.1.1",
      "tier": "J3_name_text_identity",
      "method": "cie_index_rejoin_wave3"
+    },
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
     }
    ],
-   "pending": [
-    "spcpt_M7XmDFyDsCQ7dd57"
-   ]
+   "pending": []
   },
   "rn_x7nk9yTxjYJdBgbt": {
    "kind": "note",
    "label": "The Cash Book | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_ytnhzPH5tFzXW7s3"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_gbQtMz7SYDQfkSHY": {
    "kind": "note",
@@ -1371,20 +1463,30 @@
    "label": "The Ledger | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_qPtQDG4vBB5MV3T4"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_NSQ7rWSJcGkWH8vd": {
    "kind": "note",
    "label": "Transferring Balances at the End of an Accounting Period | Cambridge (CIE) AS Accounting Revision Notes 2021",
    "section": "financial-accounting",
    "topic": "the-accounting-system",
-   "codes": [],
-   "pending": [
-    "spcpt_bTqqn3mFhQKz9YCT"
-   ]
+   "codes": [
+    {
+     "official_id": "CIE_A_LEVEL_ACCOUNTING_2023_2025:1.2.1",
+     "official_code": "1.2.1",
+     "tier": "V3_subsection_head_identity",
+     "method": "cie_verdict_fill_wave3"
+    }
+   ],
+   "pending": []
   },
   "rn_mvzKcfCtz4BH39wf": {
    "kind": "note",
@@ -1399,9 +1501,7 @@
      "method": "cie_text_join"
     }
    ],
-   "pending": [
-    "spcpt_pbKKSWcgqWgYjjSX"
-   ]
+   "pending": []
   },
   "rn_KynwvCV9kpbZ82Hv": {
    "kind": "note",
