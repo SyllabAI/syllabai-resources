@@ -1082,3 +1082,57 @@ specification governs — this run is RUN-020, tranche 4 of the RUN-017 plan of 
   advance_commits, pack_carry, source_pin_state, unmined_census, census (gate-time),
   census_post, quote_selfcheck_gap, evidence_claim_qa_report, lifecycle_receipt,
   post_lifecycle_scoreboard, run_manifest, bodies/, evidence/, staged/).
+
+## SIB-ASSESS-r3-silver — independent silver-tier ER review (2026-10-30; operator traces 1a18bed4b4b74cc1 "Independent silver-tier ER review", 1a18bf09d58eea5d fresh read-scoped PAT staged repo-external 0600, never printed/committed; the previously exposed PAT retired by substitution)
+
+- MANDATE of record: the r1 external-review recommendation's residual — "an independent
+  silver-tier ER review before production reliance" (ASSESSMENT_R2_2026-10-28.md
+  disposition) — EXECUTED. Silver tier = systematic full-corpus verification (not the r1
+  sampled pass), on the post-D3-close published surface (tip 5f170f98; pastpapers live tip
+  8003727c; validator pin 357ace0a unchanged).
+- INDEPENDENCE (disclosed): verifier written fresh for this review — own citation grammar,
+  pack-chain, census and pin logic (scripts of record in the run folder); NO pipeline
+  validator code executed; pipeline receipts used only as reconciliation comparators
+  (reproduced, not trusted). D6-class limit stands: independence is code-level, not
+  organizational (single authoring agent's runtime).
+- LEGS (all pass unless noted): L1 pack chain 57/57 pack_carry asserts re-verified byte-exact
+  (per-artifact sha256 + origin-run cross-check, RUN-017..022), 0 non-D3-identical packs;
+  L2 citations 1,992/1,992 tokens in all 95 published files resolve against their pack of
+  record (1,900 located + 92 identity, 0 violations, 0 unparseable; page-grain, JSONL-line
+  and union-window markdown-range coverage law); L3 quotes 852 spans -> 730 first-pass
+  verbatim + 60 aggressive-normalization binds + 61 manually classified non-verbatim-claim
+  (17 author connective lead-ins ending where a real quote begins; 44 author-side quotes
+  legal under the corpus's own grammar — MIS-family legend RUN-011 defines
+  [OBSERVED_IN_SOURCE] as quote-OR-direct-paraphrase; schematic templates; author
+  arithmetic/fact quotes) + 1 genuine finding F-S1; 0 fabrications, 0 unexplained;
+  L4 census EXACT: REQUIRED-core 88 artifacts / 763 records / 149,136 words; whole-file
+  family medians reproduce of-record values (GAP 2,120, PED 1,696, PRA 1,693); library 833
+  records; L5 T5 OCR caveat disclosed 10/10 TUT artifacts + gate_resolution_sb1_ebook.json
+  wired (ruling trace 1a188a28859dc5c9); L6 post-lifecycle red state {SIB-MANI-007: 88,
+  SIB-MANI-011: 4, SIB-MANI-012: 7} identical across RUN-017..022 in all three scoreboard
+  encodings (encoding evolution disclosed); qa-reports 95/95; L7 pastpapers source plane
+  46/46 distinct pinned paths present at live tip, 46/46 sha256 byte-identical (zero drift);
+  L8 resources source plane 83/83 pinned paths present, 40/83 byte-identical, 43 drifted —
+  ALL in Official-ExamQuestion/igcse-chemistry-19/ (F-S2: later oeq converter waves removed
+  parse debris — stray header/footer fragments; 6-line sample diff, zero chemistry-content
+  change; packs' build-era excerpts remain the immutable text of record).
+- FINDINGS: F-S1 (LOW — the review's one genuine catch): ASM-014 (RUN-005-authored, pre-D3)
+  quotes "State what is meant by the term isomers." with NO citation token of its own; the
+  neighboring token cites the next quote's window (2020-01 lines 274-288); the quoted
+  sentence (raw 2019-06/4CH1-1C/questions.md line 746, verbatim-true at tip) sits outside
+  all held windows of ASM-03's pack of record — a provenance-locator gap, NOT a fabrication;
+  fix path operator-ordered (pack append under the append gate, or record re-point). F-S2
+  informational drift class (above, no repair required; note in the next source_pin_state
+  refresh). F-S3 scope note (author-side quotes classified per the corpus's own claim-type
+  grammar; no action).
+- VERDICT: CLEARED for production reliance at silver tier. Register: the independent
+  silver-tier ER review item is CLOSED by this run. Register beyond it unchanged: D6
+  (single-pipeline self-attestation structural limit — now also applies to this review,
+  code-level independence) and F4 (upstream validator fix, master repo tools/sib lane);
+  GAP-SRC-001 (Pearson silver-gated ER acquisition, operator queue) unchanged.
+- Reconciliation of record: gate-time r3 counts RUN-017..022 = 79+112+279+302+169+174 =
+  1,115 citations / 0 violations over re-gated deployed bodies; independent full-corpus
+  surface = 1,992 tokens (published corpus accumulated pre-D3 + D3 content).
+- Receipts: runs/SIB-CHEMISTRY_4CH1-ASSESS-R3/ + assessment of record
+  CHEMISTRY_4CH1/ASSESSMENT_R3_SILVER_2026-10-30.md (silver_receipt, quote_adjudication,
+  quote_hyphenjoin_recheck, pins_receipt, scripts/). Fetch-first, no force.
