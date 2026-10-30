@@ -1,0 +1,1275 @@
+{
+  "format": "r3-check-types-promotion-receipt/1.0",
+  "wave": "R3-MIXED-CHECK-TYPES (stage B wave 3 — the wave-3 authoring register, 12 notes / 24 lessons / 96 written items)",
+  "operator_traces": [
+    "1a189fd011119961",
+    "1a18a0218b7f44fd",
+    "1a18bc1ca2cf48e5",
+    "1a18c3fc617d21b9",
+    "1a18c9f53d7b8dd1"
+  ],
+  "generated_at_utc": "2026-10-30T12:10:37Z",
+  "repo": "SyllabAI/syllabai-resources",
+  "branch": "integration/r3-stageb3-20261030",
+  "contract_of_record": "R3-MIXED-CHECK-TYPES-STAGE-A-20261030.json followups + the S-B1 NEXT of record ('waves 3..10 to the ~956 total') + the SB2-disclosure ledger NEXT ('stage-B wave 3 ... OPERATOR-GATED per the ledger convention') — gate opened by operator trace 1a18c9f53d7b8dd1 ('wave 3 proceed')",
+  "stack_of_record": {
+    "note": "S-B3 is STACKED on the S-B2 head: PR #237 (integration/r3-stageb2-20261030 @ 7e0276ee, open/clean/sync-SUCCESS, 198/198 gates of record) was MERGED to main of record (merge e679c919, merge method 'merge', evidence-dense message disclosing the wave-3 base) BEFORE this wave's commits — the S-B1 merge-order convention (resources PR merges first; the hub chain follows) requires the prior wave's generation on main. Merge performed by this lane under the 'wave 3 proceed' ignition; zero bytes of S-B2 content altered.",
+    "sb2_merge_commit": "e679c919e7ee9179d2faf4825175dca26ace94c3",
+    "branch_base": "7e0276eee98e2e8f9be9d6afd6d60904aa5d200d"
+  },
+  "commits": {
+    "A": {
+      "sha": "da18433ed9e8351a2e8ce1282b8eaf5c362442d4",
+      "parent": "7e0276eee98e2e8f9be9d6afd6d60904aa5d200d",
+      "note": "S-B3 source-0.5 generation — 12 authored guided-lesson/0.5 notes (96 written items) added to the namespace (36 files total)"
+    },
+    "C": {
+      "sha": "(namespace-complete — outputs + manifest v10 + records + pipeline)",
+      "note": "hub-import-1.4/ ×12 + question-packages-1.1/ ×12 + hub-import-manifest-v10.json + records/INT-3-transform-record-r3-stageb3.json + records/R3-CHECK-TYPES-STAGEB3-PROMOTION-20261030.json + tooling/r3-stageb3-pipeline.js + tooling/r3-stageb3-authoring/ — schema delta NONE (the S-B1 union caps already admit this tranche)"
+    }
+  },
+  "artifact_pin": "71922d1510ee9e00400667670b40f36e1ae5d456 (76 untouched lessons) | 80afdb8e02b628754f0e522d257e54d046ba5b0f (2 stage-A pilots) | 78ad6a2073c669231bb40bd7266674a257c6003e (10 S-B1 notes) | 96c261a3a06e359dec72f63c67fd24d337adf463 (12 S-B2 notes) | da18433ed9e8351a2e8ce1282b8eaf5c362442d4 (12 new source-0.5 lessons — commit A of this wave)",
+  "pkg_pin": "(76 untouched keep INT-0 4d857c47…; 2 pilots keep 80afdb8e; 10 S-B1 keep 78ad6a20; 12 S-B2 keep 96c261a3; da18433ed9e8351a2e8ce1282b8eaf5c362442d4 for the 12 new — the FOURTH package-channel re-pin since INT-0)",
+  "input_pins": {
+    "resources_main_at_wave_open": "e679c919e7ee9179d2faf4825175dca26ace94c3"
+  },
+  "manifest": "hub-import-manifest-v10.json",
+  "int_record": "INT-3-transform-record-r3-stageb3.json",
+  "authoring_parts": [
+    "SME-GuidedLessons/tooling/r3-stageb3-authoring/authoring-part1.json",
+    "SME-GuidedLessons/tooling/r3-stageb3-authoring/authoring-part2.json",
+    "(lane mirrors: scripts/r3-stageb3/authoring-part{1,2}.json; audit: scripts/r3-stageb3/audit_authoring.py)"
+  ],
+  "counts_census": {
+    "notes": 112,
+    "lessons": 239,
+    "checks": 1499,
+    "checks_mcq": 1195,
+    "checks_written": 304,
+    "written_recall": 152,
+    "written_explain_why": 76,
+    "written_application": 76,
+    "sb3_notes": [
+      "rn_4tzwS4GZjPybwtkS",
+      "rn_8Nv33F4dD3kkZnY6",
+      "rn_Hkwmd9GSp3gdxxR5",
+      "rn_N4HX8tqbdhTQcHyS",
+      "rn_Syxyh4Fct8KFg8NQ",
+      "rn_T55t3HNsgyZcXZtN",
+      "rn_VyXFNyxZHZGkxqTG",
+      "rn_mBqgkpZ3hbSBmWCC",
+      "rn_mbcBZkygY4YpG2bf",
+      "rn_pWzTTBv3B4yGFfj3",
+      "rn_vXPcH3vS8wv7BFkK",
+      "rn_yj4y972FxCWnDnSg"
+    ],
+    "sb3_written": 96,
+    "distractors": 3565
+  },
+  "schema_delta": "NONE — the S-B1 union minors already admit this tranche (sme-question-package/1.1 questions maxItems 45; guided-lesson/0.5 check maxItems 9; hub/lesson-import/1.4 checkRefs 9). S-B3 is a pure data wave under unchanged schemas (ajv re-proof ×224 artifacts + ×12 sources in this run).",
+  "taxonomy": "kind enum of record: mcq (default/absent) | recall | explain-why | application — per-lesson appended order [recall, recall, explain-why, application] (the SME set shape of record)",
+  "conservation": {
+    "law": "written stems + misconceptionClass + modelAnswer + keywords are §7 stream tokens on kind!=mcq (feed-safe extension: no kind field -> walk unchanged); 76 non-R3 streams == S-B2 (v9) anchors exactly; 24 prior-R3 streams == their own anchors exactly",
+    "authored_chars": 1501204,
+    "authored_chars_delta_vs_v9": 24179,
+    "mcq_conservation": "tranche package MCQs deep-equal the 1.0 bytes ×12 (+96 count); 76 package shas byte-identical ×76; 24 prior-R3 packages byte-identical ×24"
+  },
+  "gates": {
+    "pipeline": "238/238 pass, 0 fail",
+    "gate_log": [
+      {
+        "name": "P0 wave-open main == the S-B2 merge of record",
+        "ok": true,
+        "detail": "e679c919e7ee9179d2faf4825175dca26ace94c3"
+      },
+      {
+        "name": "P0 worktree branch == integration/r3-stageb3-20261030",
+        "ok": true,
+        "detail": "integration/r3-stageb3-20261030"
+      },
+      {
+        "name": "P0 commit A parent == the S-B2 head of record",
+        "ok": true,
+        "detail": "7e0276eee98e2e8f9be9d6afd6d60904aa5d200d vs 7e0276eee98e2e8f9be9d6afd6d60904aa5d200d"
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_Syxyh4Fct8KFg8NQ",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_mBqgkpZ3hbSBmWCC",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_N4HX8tqbdhTQcHyS",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_VyXFNyxZHZGkxqTG",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_vXPcH3vS8wv7BFkK",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_pWzTTBv3B4yGFfj3",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_yj4y972FxCWnDnSg",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_Hkwmd9GSp3gdxxR5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_4tzwS4GZjPybwtkS",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_T55t3HNsgyZcXZtN",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_mbcBZkygY4YpG2bf",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 no duplicate note across parts: rn_8Nv33F4dD3kkZnY6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 tranche == wave-3 register of record (12 notes)",
+        "ok": true,
+        "detail": "rn_4tzwS4GZjPybwtkS,rn_8Nv33F4dD3kkZnY6,rn_Hkwmd9GSp3gdxxR5,rn_N4HX8tqbdhTQcHyS,rn_Syxyh4Fct8KFg8NQ,rn_T55t3HNsgyZcXZtN,rn_VyXFNyxZHZGkxqTG,rn_mBqgkpZ3hbSBmWCC,rn_mbcBZkygY4YpG2bf,rn_pWzTTBv3B4yGFfj3,rn_vXPcH3vS8wv7BFkK,rn_yj4y972FxCWnDnSg"
+      },
+      {
+        "name": "A0 tranche set matches the wave-3 authoring register (wave-3 receipt perNote order of record)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 tranche disjoint from the 24 prior-R3 notes",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A0 rn_4tzwS4GZjPybwtkS: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_8Nv33F4dD3kkZnY6: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_Hkwmd9GSp3gdxxR5: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_N4HX8tqbdhTQcHyS: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_Syxyh4Fct8KFg8NQ: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_T55t3HNsgyZcXZtN: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_VyXFNyxZHZGkxqTG: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_mBqgkpZ3hbSBmWCC: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_mbcBZkygY4YpG2bf: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_pWzTTBv3B4yGFfj3: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_vXPcH3vS8wv7BFkK: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 rn_yj4y972FxCWnDnSg: authored lessons == source lessons (2)",
+        "ok": true,
+        "detail": "2 vs 2"
+      },
+      {
+        "name": "A0 inventory totals (lessons 24, items 96)",
+        "ok": true,
+        "detail": "24/96"
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_4tzwS4GZjPybwtkS",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_8Nv33F4dD3kkZnY6",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_Hkwmd9GSp3gdxxR5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_N4HX8tqbdhTQcHyS",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_Syxyh4Fct8KFg8NQ",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_T55t3HNsgyZcXZtN",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_VyXFNyxZHZGkxqTG",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_mBqgkpZ3hbSBmWCC",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_mbcBZkygY4YpG2bf",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_pWzTTBv3B4yGFfj3",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_vXPcH3vS8wv7BFkK",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "P0 committed == rebuilt @ source-0.5/rn_yj4y972FxCWnDnSg",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_4tzwS4GZjPybwtkS: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_8Nv33F4dD3kkZnY6: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_Hkwmd9GSp3gdxxR5: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_N4HX8tqbdhTQcHyS: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_Syxyh4Fct8KFg8NQ: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_T55t3HNsgyZcXZtN: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_VyXFNyxZHZGkxqTG: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_mBqgkpZ3hbSBmWCC: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_mbcBZkygY4YpG2bf: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_pWzTTBv3B4yGFfj3: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_vXPcH3vS8wv7BFkK: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-1 rn_yj4y972FxCWnDnSg: 0.5 == 0.4 minus (format, appended check items)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_4tzwS4GZjPybwtkS vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_8Nv33F4dD3kkZnY6 vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_Hkwmd9GSp3gdxxR5 vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_N4HX8tqbdhTQcHyS vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_Syxyh4Fct8KFg8NQ vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_T55t3HNsgyZcXZtN vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_VyXFNyxZHZGkxqTG vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_mBqgkpZ3hbSBmWCC vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_mbcBZkygY4YpG2bf vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_pWzTTBv3B4yGFfj3 vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_vXPcH3vS8wv7BFkK vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 source-0.5 rn_yj4y972FxCWnDnSg vs guided-lesson/0.5",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-2 manifest v9 shape",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-2 112 notes",
+        "ok": true,
+        "detail": "112"
+      },
+      {
+        "name": "C-2 224 local bytes == manifest v9 shas (checkout == pinned generations)",
+        "ok": true,
+        "detail": "112/112 notes (224 artifacts)"
+      },
+      {
+        "name": "written-kind invariants rn_4tzwS4GZjPybwtkS (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_4tzwS4GZjPybwtkS (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_4tzwS4GZjPybwtkS",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_4tzwS4GZjPybwtkS == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_4tzwS4GZjPybwtkS == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_4tzwS4GZjPybwtkS vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_4tzwS4GZjPybwtkS vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_8Nv33F4dD3kkZnY6 (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_8Nv33F4dD3kkZnY6 (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_8Nv33F4dD3kkZnY6",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_8Nv33F4dD3kkZnY6 == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_8Nv33F4dD3kkZnY6 == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_8Nv33F4dD3kkZnY6 vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_8Nv33F4dD3kkZnY6 vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_Hkwmd9GSp3gdxxR5 (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_Hkwmd9GSp3gdxxR5 (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_Hkwmd9GSp3gdxxR5",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_Hkwmd9GSp3gdxxR5 == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_Hkwmd9GSp3gdxxR5 == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_Hkwmd9GSp3gdxxR5 vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_Hkwmd9GSp3gdxxR5 vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_N4HX8tqbdhTQcHyS (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_N4HX8tqbdhTQcHyS (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_N4HX8tqbdhTQcHyS",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_N4HX8tqbdhTQcHyS == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_N4HX8tqbdhTQcHyS == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_N4HX8tqbdhTQcHyS vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_N4HX8tqbdhTQcHyS vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_Syxyh4Fct8KFg8NQ (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_Syxyh4Fct8KFg8NQ (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_Syxyh4Fct8KFg8NQ",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_Syxyh4Fct8KFg8NQ == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_Syxyh4Fct8KFg8NQ == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_Syxyh4Fct8KFg8NQ vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_Syxyh4Fct8KFg8NQ vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_T55t3HNsgyZcXZtN (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_T55t3HNsgyZcXZtN (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_T55t3HNsgyZcXZtN",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_T55t3HNsgyZcXZtN == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_T55t3HNsgyZcXZtN == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_T55t3HNsgyZcXZtN vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_T55t3HNsgyZcXZtN vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_VyXFNyxZHZGkxqTG (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_VyXFNyxZHZGkxqTG (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_VyXFNyxZHZGkxqTG",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_VyXFNyxZHZGkxqTG == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_VyXFNyxZHZGkxqTG == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_VyXFNyxZHZGkxqTG vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_VyXFNyxZHZGkxqTG vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_mBqgkpZ3hbSBmWCC (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_mBqgkpZ3hbSBmWCC (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_mBqgkpZ3hbSBmWCC",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_mBqgkpZ3hbSBmWCC == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_mBqgkpZ3hbSBmWCC == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_mBqgkpZ3hbSBmWCC vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_mBqgkpZ3hbSBmWCC vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_mbcBZkygY4YpG2bf (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_mbcBZkygY4YpG2bf (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_mbcBZkygY4YpG2bf",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_mbcBZkygY4YpG2bf == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_mbcBZkygY4YpG2bf == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_mbcBZkygY4YpG2bf vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_mbcBZkygY4YpG2bf vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_pWzTTBv3B4yGFfj3 (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_pWzTTBv3B4yGFfj3 (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_pWzTTBv3B4yGFfj3",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_pWzTTBv3B4yGFfj3 == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_pWzTTBv3B4yGFfj3 == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_pWzTTBv3B4yGFfj3 vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_pWzTTBv3B4yGFfj3 vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_vXPcH3vS8wv7BFkK (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_vXPcH3vS8wv7BFkK (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_vXPcH3vS8wv7BFkK",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_vXPcH3vS8wv7BFkK == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_vXPcH3vS8wv7BFkK == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_vXPcH3vS8wv7BFkK vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_vXPcH3vS8wv7BFkK vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "written-kind invariants rn_yj4y972FxCWnDnSg (x8)",
+        "ok": true,
+        "detail": "8/8"
+      },
+      {
+        "name": "MCQ deep conservation rn_yj4y972FxCWnDnSg (10 questions)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 checkRefs<->questions 1:1 rn_yj4y972FxCWnDnSg",
+        "ok": true,
+        "detail": "18 refs / 18 questions"
+      },
+      {
+        "name": "D-2 lesson rn_yj4y972FxCWnDnSg == 1.3 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D-2 package rn_yj4y972FxCWnDnSg == 1.0 minus deltas",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 lesson rn_yj4y972FxCWnDnSg vs hub/lesson-import/1.4",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 package rn_yj4y972FxCWnDnSg vs sme-question-package/1.1",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_2MpXPtNXvn8pQm3r vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_2MpXPtNXvn8pQm3r vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_2MpXPtNXvn8pQm3r",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_8T5GfPn2q7sY2YCh vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_8T5GfPn2q7sY2YCh vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_8T5GfPn2q7sY2YCh",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_2d6Yb8GwGfRRd6pZ vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_2d6Yb8GwGfRRd6pZ vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_2d6Yb8GwGfRRd6pZ",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_4SgDJv8rKxpQQSBh vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_4SgDJv8rKxpQQSBh vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_4SgDJv8rKxpQQSBh",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_HZM2WRjPPT8Srcxt vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_HZM2WRjPPT8Srcxt vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_HZM2WRjPPT8Srcxt",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_JCfdFrHsCkrmMbFj vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_JCfdFrHsCkrmMbFj vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_JCfdFrHsCkrmMbFj",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_TM4QVMgXVxs4vbfY vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_TM4QVMgXVxs4vbfY vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_TM4QVMgXVxs4vbfY",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_fQSYvKRMDBj3s2Bx vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_fQSYvKRMDBj3s2Bx vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_fQSYvKRMDBj3s2Bx",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_jNJ4gTmcHqdFqsNh vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_jNJ4gTmcHqdFqsNh vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_jNJ4gTmcHqdFqsNh",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_kJg2gwF77vdFZZ2H vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_kJg2gwF77vdFZZ2H vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_kJg2gwF77vdFZZ2H",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_wTtM2fQVVjntRm64 vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_wTtM2fQVVjntRm64 vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_wTtM2fQVVjntRm64",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_xT8XsdJtDX5gNFXj vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_xT8XsdJtDX5gNFXj vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_xT8XsdJtDX5gNFXj",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_2VnK66PqbvFKdKYt vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_2VnK66PqbvFKdKYt vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_2VnK66PqbvFKdKYt",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_S7GPh8BBPBbmhYKm vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_S7GPh8BBPBbmhYKm vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_S7GPh8BBPBbmhYKm",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_cTk2cs2h2BKQ3y3B vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_cTk2cs2h2BKQ3y3B vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_cTk2cs2h2BKQ3y3B",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_QVmDs8X4szpds3cP vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_QVmDs8X4szpds3cP vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_QVmDs8X4szpds3cP",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_TWGVV6RXN3Ktqb9h vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_TWGVV6RXN3Ktqb9h vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_TWGVV6RXN3Ktqb9h",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_RvgxXR36425BFMcx vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_RvgxXR36425BFMcx vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_RvgxXR36425BFMcx",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_YBWYstSRgM2QPzQq vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_YBWYstSRgM2QPzQq vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_YBWYstSRgM2QPzQq",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_R3ptwxGTTvdBFvyP vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_R3ptwxGTTvdBFvyP vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_R3ptwxGTTvdBFvyP",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_TsfqyK9BYMtN2Bfd vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_TsfqyK9BYMtN2Bfd vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_TsfqyK9BYMtN2Bfd",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_kb2VkFMdBTbmG33t vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_kb2VkFMdBTbmG33t vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_kb2VkFMdBTbmG33t",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_vzGMZxqQtWYVWB7h vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_vzGMZxqQtWYVWB7h vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_vzGMZxqQtWYVWB7h",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 lesson rn_b3XCzdtfQddbJjVf vs hub/lesson-import/1.4 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 prior-R3 package rn_b3XCzdtfQddbJjVf vs sme-question-package/1.1 (re-proof)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-5 prior-R3 checkRefs<->questions 1:1 rn_b3XCzdtfQddbJjVf",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C-6 76 untouched lessons+packages vs union schemas",
+        "ok": true,
+        "detail": "76/76"
+      },
+      {
+        "name": "C-9 76 package shas == manifest v9 (byte conservation)",
+        "ok": true,
+        "detail": "76/76"
+      },
+      {
+        "name": "G-E 76 non-R3 stream anchors == S-B2 (v9) generation exactly (figures-2.2 + stage-A + S-B1 + S-B2)",
+        "ok": true,
+        "detail": "76/76"
+      },
+      {
+        "name": "G-E 24 prior-R3 streams == their anchors exactly (bytes unchanged)",
+        "ok": true,
+        "detail": "24/24"
+      },
+      {
+        "name": "G-E 12 S-B3 rows re-anchored",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "G-E the 12 re-anchored rows carry authoring wave 3 of record",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "G-E wave subtotals ×10",
+        "ok": true,
+        "detail": "wave-9,wave-2,wave-1,wave-10,wave-5,wave-4,wave-8,wave-3,wave-7,wave-6"
+      },
+      {
+        "name": "cross-check: manifest v9 grand == v9 record",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "cross-check: wave subtotals preserved for the 9 untouched waves (1,2,4,5,6,7,8,9,10)",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "cross-check: wave-3 re-anchored",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "manifest v10 lists 224",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "manifest v10: exactly 24 re-issued vs v9",
+        "ok": true,
+        "detail": ""
+      }
+    ]
+  },
+  "merge_order": "resources PR (this branch; a clean descendant of main once #237 merged) merges to main FIRST; the hub PR (runner FEED r3-stageb3-v10 + re-issued artifacts + re-issued guided-import.json) merges only after; stage B wave 4 (next register tranche) remains operator-gated",
+  "hub_side_note": "renderer law unchanged from stage A: MCQ path untouched byte-for-byte; written kinds render a labelled free-text input, submit -> verdict role=status + model answer ALWAYS shown on settle; a11y label/aria-live; flow tallies unchanged in signature (keyword-hit boolean rides onAnswer correct); reveal-only fail-closed when keywords absent",
+  "recalibration_note": "wave receipt + recalibration: grand stream recomputed over all 112 notes; wave subtotals ×10 recomputed (9 untouched waves byte-equal to v9 — declared preserved; wave-3 re-anchored by its 12 S-B3 notes)"
+}
