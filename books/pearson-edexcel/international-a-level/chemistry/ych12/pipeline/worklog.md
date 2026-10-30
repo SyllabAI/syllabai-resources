@@ -461,3 +461,65 @@ Stage Summary:
   records self-heal)**, todo 551; quota regime turned harsh (crack-openings
   vs full windows); grind resumable via the unchanged recipe. Open
   follow-ups: pack-floor fold fix (own gate), serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2-5
+Agent: Z.ai (main, zai-web)
+Task: "continue" (2026-10-30, zai-web, trace 1a18d0c67c43613d) — continue the v2
+polish grind, land whatever delta survives the quota, keep the §9 playbook
+current.
+
+Work Log:
+- SANDBOX RESET #9 recovery: fresh rootfs (8.5 GB free; disk healthy since the
+  ENOSPC cleanup of reset #7). The local checkout was a DIFFERENT project —
+  the lane repo had to be re-located first (origin/main not in any local
+  clone; found via the GitHub commit-lookup loop across the account's repos:
+  e3d648a1 lives in syllabai-resources). Re-cloned sparse + blob-filter,
+  ff'd to main tip (parallel lanes had advanced it: PR #240/#241 r3 stageB3
+  + #242 stageB4), verified 0 ych12 commits between 8dd16e99 (CONT-V2-4)
+  and the new tip, evidence baseline byte-match (266 records).
+- R-013 ACTION LANDED THIS ROUND: the lane tooling that lived only in the
+  sandbox (env surface + reconcile tool) is now repo-resident —
+  `pipeline/scripts/ych12_v2_reconcile.py` (three-way reconciliation,
+  R1-R6 checks incl. the clobber/double-apply detector) and
+  `pipeline/scripts/ych12_v2_reseed.sh` (the L-024 re-seed law as an
+  executable: corpus <- pristine, report <- landed parse_report,
+  baseline <- landed corpus; idempotent, re-run before EVERY merge).
+- GRIND: 7 windows, MIXED REGIME — window 1 FULL (+53: 45 ok / 5 rej /
+  3 err-429, the CONT-V2-3-style full window returned), window 2 crack +11,
+  window 3 crack +46, windows 4-7 steady cracks +28/+28/+27/+29 (~5.5 min
+  probe to clear, ~4 min crack each; PROBE_WAIT shortened 90->45s to fit
+  more probes per 10-min foreground window). Session +194 ok net-new
+  (226->420) = the grind's single-round record (previous +115, CONT-V2-3).
+  Evidence 488 raw records (420 ok / 38 rejected / 30 error-cum-429;
+  458/801 done, todo 343).
+- VALIDATE GATE HIT, RESOLVED WITH DISCLOSURE (E-007): a legitimate de-glue
+  repair grew u15_c11_pdf154_0756 2367->2430 (restored spaces, wording
+  identical, LCS guard passed) — over the validator's parse-era hard max
+  2400. First polish-induced over-max; pristine max 2367; near-max
+  population = 2 chunks total. Bound raised 2400->2500 with an in-code
+  disclosure comment + errata E-007 (bounded headroom, the parse-era
+  runaway class stays closed). Also caught on the same validate run: the
+  merge's regenerated report dropped `by_design_gaps` (fresh workspace
+  report) — CONT-V2-4 had carried it by hand, unrecorded; now structural:
+  the re-seed law seeds the report from the landed copy and the merge
+  preserves existing keys.
+- MERGE (after ych12_v2_reseed.sh): llm_repaired 420, text changed 418,
+  anchor PASS 0 drift; deterministic full replay re-run once more (re-seed
+  -> merge) with identical numbers — the not-idempotent merge is safe under
+  the law. RECONCILIATION ALL PASS (net-new 194, overlap 226 re-applied
+  from pristine, R1-R6 clean). AUDIT: 0 Unicode-unit regressions; residual
+  18+ runs genuine chemistry words (dinitrophenylhydrazine,
+  disproportionation, tetraaquadihydroxoiron, …) — benign class.
+  VALIDATE: ALL CHECKS PASSED post-merge (EP 10/10, size_max 2430).
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2
+  (llm_polished 226->420) + evidence/llm_repairs_ych12_v2.jsonl (488
+  records) + pipeline/scripts/{ych12_v2_reconcile.py, ych12_v2_reseed.sh,
+  validate_ych12.py (E-007 bound)}; ledgers same commit: lane README,
+  CATALOG row 12 + §3.6, playbook E-007 + R-014 + changelog v1.11.
+
+Stage Summary:
+- v2 polish R1 at **420/801 applied (458 done incl. 38 rejected, 30 error
+  records self-heal)**, todo 343; single-round record +194; the re-seed law
+  and the reconciliation are now repo-resident tooling (R-013 closed).
+  Open follow-ups: pack-floor fold fix (own gate), serving lane.

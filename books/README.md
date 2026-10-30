@@ -689,6 +689,27 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   R1 794/794). Disposition: FIXED HERE — the five tested scripts + the
   wrapper replaced in the same commit that lands SB2 polish R1 COMPLETE.
 
+- **E-007** (2026-10-30, T-PARSE-YCH12-2 POLISH-CONT-V2-5): the YCH12
+  validator's size-bound check `size bounds 20..2400` (`validate_ych12.py`,
+  check 9) is a parse-era constant that polish de-glue repairs can
+  legitimately exceed — restoring dropped spaces grows text by design
+  (wording-identical, whitespace-stripped LCS unchanged, runner guard
+  passed), and the first offender this round grew
+  `ych2_v2_u15_c11_pdf154_0756` 2367 → 2430, failing the gate on an
+  otherwise faithful repair. Evidence: the merged workspace corpus +
+  evidence record for that id (CONT-V2-5); pristine corpus max = 2367,
+  near-max (>2300) population = 2 chunks. Disposition: FIXED HERE — hard
+  max raised 2400 → 2500 with an in-code disclosure comment at the check
+  (bounded headroom: worst-case de-glue growth ≈ the number of glued
+  tokens, the parse-era runaway class the bound exists for stays closed;
+  second near-max chunk 2336 keeps fit even if repaired). Companion
+  finding, same validate run: the polish merge's regenerated
+  `parse_report_v2.json` dropped `by_design_gaps` whenever the workspace
+  report was fresh — CONT-V2-4 had carried the key over by hand and the
+  step went unrecorded; now structural (the L-024 re-seed law seeds the
+  report from the landed copy and the merge preserves existing keys —
+  toolled as `ych12_v2_reseed.sh`).
+
 *(template for future entries; superseding entries must reference the
 E-ID they correct)*
 
@@ -960,6 +981,37 @@ E-ID they correct)*
   Deviations from playbook: none. Lessons appended: none new (replay is
   L-024's own scenario caught by its own protocol). Errata filed: none new.
 
+- **R-014** (2026-10-30, T-PARSE-YCH12-2 POLISH-CONT-V2-5, YCH12 SB2 v2 polish
+  continuation): pages parsed n/a (polish grind + landing); chunks unchanged
+  **1406** (v2 = corpus of record); validation ALL CHECKS PASSED post-merge
+  (v2 grammar, EP 10/10, size_max 2430); LLM polish R1-v2: 801 staged,
+  cumulative **420 applied** (420 text flagged, 418 text changed), 38
+  rejected (guard; raws in evidence), 30 error-cum-429 (self-heal on
+  resume; 458/801 done, todo 343); this session 7 windows in a MIXED
+  regime — window 1 the first FULL window since CONT-V2-3 (+53: 45 ok /
+  5 rej / 3 err), then steady ~4-min cracks (+11/+46/+28/+28/+27/+29)
+  behind a ~5.5-min probe-to-clear wall; PROBE_WAIT shortened 90 → 45 s so
+  more probes fit a 10-min foreground window (L-017's "walls vary" now
+  has a cadence countermeasure; CONC 2 unchanged). **Single-round record
+  +194 net-new ok** (226 → 420; previous +115, R-012). **R-013's action
+  landed here**: the sandbox-resident lane tooling is now repo-resident —
+  `pipeline/scripts/ych12_v2_reconcile.py` (three-way reconciliation R1–
+  R6, incl. the clobber/double-apply detector R3) and
+  `pipeline/scripts/ych12_v2_reseed.sh` (the L-024 re-seed law as an
+  executable: corpus ← pristine, report ← landed parse_report (the
+  E-007 companion finding, previously hand-carried), baseline ← landed
+  corpus). Deterministic-replay proof run: re-seed → merge executed a
+  second time with byte-identical numbers (420/418, anchor 0 drift,
+  net-new 194, overlap 226) — the not-idempotent merge is safe under the
+  law. VALIDATE GATE HIT, RESOLVED WITH DISCLOSURE: the de-glue growth
+  class crossed the parse-era hard max on one chunk (2367 → 2430) —
+  errata **E-007**, bound 2400 → 2500 with in-code comment; audit 0
+  Unicode-unit regressions (residual runs genuine chemistry words,
+  benign). Deviations from playbook: the validator constant change (E-007,
+  disclosed here + in-code + changelog). Lessons appended: none new
+  (E-007 is an errata, not a lesson — the playbook's bounds table itself
+  is unchanged). Errata filed: E-007.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -969,6 +1021,19 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-30 — v1.11 (T-PARSE-YCH12-2 POLISH-CONT-V2-5):** YCH12 v2 polish
+  grind continued and landed (R-014: cumulative **420/801 applied**, net-new
+  **+194** this landing — the grind's single-round record, previous +115;
+  anchor 0 drift, reconciliation + audit + validator all green, resumable
+  at todo 343). **R-013's action closed**: the lane's sandbox-resident
+  tooling is now repo-resident — `ych12_v2_reconcile.py` (three-way
+  reconciliation R1–R6) + `ych12_v2_reseed.sh` (the L-024 re-seed law as
+  an executable, incl. the report seed that keeps `by_design_gaps`).
+  Errata **E-007**: polish de-glue repairs legitimately grow text; the
+  parse-era validator hard max 2400 → 2500 with in-code disclosure (first
+  offender 2367 → 2430, wording-identical). Ledgers: CATALOG row 12 +
+  §3.6 updated; lane README + worklog same commit.
 
 - **2026-10-30 — v1.10 (T-PARSE-YCH12-2 POLISH-CONT-V2-4):** YCH12 v2 polish
   grind continued and landed (R-013: cumulative **226/801 applied**, net-new

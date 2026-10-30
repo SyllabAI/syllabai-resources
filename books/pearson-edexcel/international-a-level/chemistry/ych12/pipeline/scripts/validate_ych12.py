@@ -12,7 +12,7 @@ Exit non-zero unless ALL CHECKS PASSED. Checks:
   6. chapter_questions chunks anchored inside the 10 probed EXAM PRACTICE ranges
   7. reading order: pdf_pages non-decreasing within each (unit, chapter) group
   8. char_count consistency (recomputed from text)
-  9. size bounds 20..2400; 0 LaTeX remnants
+  9. size bounds 20..2500; 0 LaTeX remnants
  10. content types from the documented vocabulary
  11. front-matter guard: no question/divider/thinking_bigger typing on roman pages
 """
@@ -155,7 +155,12 @@ for c in chunks:
 for c in chunks:
     if len(c["text"]) < 20:
         errors.append(f"{c['id']}: chunk too small ({len(c['text'])})")
-    if len(c["text"]) > 2400:
+    # hard max 2400->2500 (E-007, CONT-V2-5): polish de-glue repairs restore
+    # dropped spaces and legitimately grow text — first offender
+    # u15_c11_pdf154_0756 2367->2430 (wording-identical, LCS guard passed);
+    # pristine max 2367, so 2500 leaves bounded headroom without re-opening
+    # the parse-era runaway class the bound exists for.
+    if len(c["text"]) > 2500:
         errors.append(f"{c['id']}: chunk over hard max ({len(c['text'])})")
     if re.search(r"\\[a-zA-Z]+|\{\\\w", c["text"]):
         errors.append(f"{c['id']}: LaTeX remnant")
