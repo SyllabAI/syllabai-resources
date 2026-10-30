@@ -1,0 +1,49 @@
+{
+ "schema": "sib-run-manifest/1.0",
+ "program": "SIB-GEN",
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-023",
+ "library": "CHEMISTRY_4CH1",
+ "provider": {
+  "provider": "z.ai",
+  "model": "GLM",
+  "agent_version": "SIB-GEN-r0"
+ },
+ "source_revisions": {
+  "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+  "syllabai_pastpapers": "b387a0b0c124a527295b7f82d01ceb5ce781e27c",
+  "syllabai_resources": "e6dc252bbc5581e212fff1e6ca481921f18db16a"
+ },
+ "preflight": {
+  "base_tip": "e6dc252bbc5581e212fff1e6ca481921f18db16a",
+  "validator_pin": "357ace0a230f5e0095ad230320af587dca6bb71f (tools/sib worktree, file set identical at master tip)",
+  "origin_pack": "runs/SIB-CHEMISTRY_4CH1-RUN-005/evidence/ASM-03/evidence_pack.json @ c017d20aae8adf2cce8b560c4a619bf4e2118aaec0da89c86221d8f77510cdf5",
+  "carry_chain": "RUN-005 -> RUN-019 byte-identical (pack_carry.json), re-proven at run start"
+ },
+ "artifacts": [
+  {
+   "artifact_id": "ASM-03",
+   "filename": "CHEMISTRY_4CH1_ASM-03_QUESTION_ARCHETYPES.md",
+   "evidence_pack": "evidence/ASM-03/evidence_pack.json",
+   "evidence_pack_sha256": "e5094ccf174cb0932d0e26c64ebdd81ea004ba8e4d2ae049df15fe9af257caaf",
+   "artifact_sha256": "327834cef4bfc12b2e32e6cece851e1a2171f5a46fb05a50992d23d1f004ad88",
+   "attempts": 1,
+   "outcome": "QA_PASSED",
+   "gates": {
+    "source_preflight": "PASS: origin pack of record re-proven at c017d20aae8a (RUN-005), carried byte-identical through RUN-019; raw window source sha256-at-tip 9b4bc1128ba869b00eed01b7c553749a852df78e6003b264fa50a915c30f6adb asserted (build-era pin d6869466ea8e407d\u2026 differs \u2014 F-S2 disclosed drift class, excerpt text of record immutable)",
+    "pack_append": "PASS: append-gate re-spec per LESSONS_REGISTER \u00a73 / RUN-017 precedent \u2014 ONE window appended (2019-06/4CH1-1C lines 744-758, 328 chars, builder window math h=745) to the carried copy; origin pack NOT mutated; adds-only diff proof (evidence/diff_proofs.json: pre_existing_byte_identical true, totals 104->105 SRC-QPMS-4CH1); caps respected (per-file max 34 <= 60, excerpt 328 <= 1600); pack_spec.md_query made truthful (|State added) so the appended window is derivable from the plan of document",
+    "authoring": "PASS: ASM-014 (record of ASM-03) gains its own citation token (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines 744-758) for the previously-uncited quote; quote text byte-unchanged (identity preservation); zero record additions/removals; stray space before the comma at the edit seam normalized (pre-existing typo absorbed at the seam, disclosed)",
+    "r3_evidence_claim_qa": "PASS: r3 grammar over the amended body vs the respec'd pack \u2014 citations_checked 21, 0 violations; r1 quote-binding 19 spans, 0 unbound; F-S1 span rebind BINDS_RAW_window_miss -> BINDS_PACK (quote_rebind_check.json)",
+    "validator_qa": "PASS: tools.sib.cli qa @ master pin 357ace0a \u2014 0 errors / 0 warnings / 0 info (qa-reports/ASM-03.qa.json regenerated; content_sha256 = the v1.2 landing (GENERATED) state per the SIB-STATUS-003 landing-gate law; the published file differs by the status line only, validator-applied)",
+    "lifecycle": "PASS: stage (SIB-ING-002 machine-checked) -> publish (QA re-verified) -> chunks refreshed; landing zone empty again post-publish (F4a red state preserved, validate-manifest re-run byte-exact {SIB-MANI-007: 88, SIB-MANI-011: 4, SIB-MANI-012: 7}); artifact_sha256 records the qa'd landing (GENERATED) state 327834cef4bf\u2026 per the RUN-022 receipt pattern \u2014 the committed published file (status PUBLISHED, validator-applied) hashes 9a8beafdb7bd\u2026",
+    "advance_disclosure": "PASS: base tip e6dc252b\u2026; fetch-first re-check at git phase (advance-isolation proof filed)"
+   }
+  }
+ ],
+ "gates": {},
+ "disclosures": [
+  "F-S1 (LOW, ASSESSMENT_R3_SILVER_2026-10-30) repaired by operator order (trace 1a18d9f3169bed85 'push'); the prior fix attempt (trace 1a18c575ca3a6429, commit f749836f) was lost to a sandbox recycle before push and is re-executed of record by this run \u2014 no content of the lost attempt was ever pushed or merged.",
+  "Re-spec disclosure: ASM-03's pack of record advances c017d20a\u2026 -> e5094ccf\u2026 (ONE window appended, adds-only). D3-era copies now {RUN-019: c017d20a\u2026 (historical, immutable), RUN-023: e5094ccf\u2026 (of record)}; future carries re-root at RUN-023 per the RUN-017 precedent chain.",
+  "The appended window's locator is tip-relative (quote at raw line 746 at tip 9b4bc112\u2026); pre-existing excerpts keep their build-era locators (F-S2 disclosed class; the silver review verified the quote verbatim-true at tip).",
+  "Zero census impact: no records added/removed; ASM-03 word count +10 (the token); REQUIRED-core census claims of RUN-022 remain the census of record for the pre-fix surface."
+ ]
+}

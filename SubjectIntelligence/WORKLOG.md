@@ -1136,3 +1136,65 @@ specification governs — this run is RUN-020, tranche 4 of the RUN-017 plan of 
 - Receipts: runs/SIB-CHEMISTRY_4CH1-ASSESS-R3/ + assessment of record
   CHEMISTRY_4CH1/ASSESSMENT_R3_SILVER_2026-10-30.md (silver_receipt, quote_adjudication,
   quote_hyphenjoin_recheck, pins_receipt, scripts/). Fetch-first, no force.
+
+## RUN-023 — F-S1 (LOW) append-gate citation re-spec: ASM-014 provenance locator (2026-10-31)
+
+Task ID: SIB-RUN023-r0; operator order trace 1a18d9f3169bed85 ("push", fresh PAT supplied
+same trace after the recycle wiped the credential store); continuation of the silver-ER fix
+ordered at trace 1a18c575ca3a6429.
+
+- FINDING of record: F-S1 (LOW, citation-coverage gap — genuine), ASSESSMENT_R3_SILVER_2026-10-30
+  (PR #234, merge 3f6547b1): ASM-014 (record of ASM-03, RUN-005-authored pre-D3) quotes "State
+  what is meant by the term isomers." with NO citation token of its own; the neighboring token
+  cites the next quote's window (2020-01 … lines 274-288); the quoted sentence (raw
+  2019-06/4CH1-1C/questions.md line 746) sits outside all held windows of ASM-03's pack of record
+  (held windows for the file jump 603-617 -> 771-785 — re-proven first-hand at tip). Verbatim-true
+  at the raw source; a provenance-locator gap, not a fabrication.
+- PRIOR ATTEMPT DISCLOSURE: the first fix execution (trace 1a18c575ca3a6429, commit f749836f in a
+  session-local clone) was LOST to a sandbox recycle before push — zero bytes ever reached the
+  network; this run is the re-execution of record, rebuilt from the merged finding receipts
+  first-hand (no recovered state was trusted; none was recoverable).
+- ENVIRONMENT-SPLIT INCIDENT (disclosed, RUN-018 precedent): a stray pre-recycle tree at
+  /home/z/my-project/syllabai-resources (2 files — empty-output verifier writes of the lost
+  session, mtimes 2026-10-30T16:55Z, zero unique content vs the committed receipts) was found at
+  session start and removed per the stray-write law before the git phase.
+- PREFLIGHT: fetch-first (clone at main e6dc252b — the serving(books) r1 manifest wave, parallel
+  lane trace 1a18d92606b3b151; zero SubjectIntelligence/ paths in its advance e76925db..e6dc252b);
+  validator pin 357ace0a verified (tools/sib worktree at the pin; tools/sib file set identical at
+  master tip 18a7e985); origin pack re-proven c017d20a (RUN-005) byte-identical through RUN-019
+  (pack_carry.json).
+- ADJUDICATION: record re-point IMPOSSIBLE (no held window covers line 746; re-pointing would
+  falsify provenance — the quote's true source is the 2019-06 10(a)(i) item); full rebuild
+  REJECTED (surface-unstable, LESSONS_REGISTER §3.3, RUN-015 swap precedent); surgical append
+  SELECTED per LESSONS_REGISTER §3.3-3.5 + RUN-017 precedent (appends land in the appending run's
+  evidence dir; origin packs untouched; later carries re-root).
+- EXECUTION: ONE window appended to the carried copy — 2019-06/4CH1-1C/questions.md lines 744-758
+  (328 chars; builder window math: md_query hit 'State…' 0-based h=745 -> lines (h-1)..(h+13);
+  window opens at the '### 10(a)(i) [2]' heading (line 744), quote at 746, M1 mark-scheme lines
+  750-751); byte-built by the join_raw rule probe-verified byte-exact against 11 held windows;
+  per-file sha256-at-tip asserted (9b4bc112…; build-era pin d6869466… differs — F-S2 disclosed
+  drift class, excerpt text of record immutable, appended locator tip-relative).
+  pack_spec.md_query made truthful (|State added). Pack c017d20a -> e5094ccf — adds-only diff
+  proof (evidence/diff_proofs.json: pre_existing_byte_identical true; totals 104->105
+  SRC-QPMS-4CH1; caps respected: per-file max 34 <= 60, excerpt 328 <= 1600). Artifact ASM-03
+  v1.1 -> v1.2: ASM-014 gains its own token (SRC-QPMS-4CH1, 2019-06/4CH1-1C/questions.md lines
+  744-758); quote text byte-unchanged (identity preservation); stray space before the comma at
+  the edit seam normalized (pre-existing typo absorbed at the seam, disclosed).
+- GATES: canonical validator qa 0/0/0 @ pin 357ace0a (SIB-STATUS-003 landing-gate law: receipt
+  content_sha256 = the landing GENERATED state, RUN-022 receipt pattern); stage (SIB-ING-002) ->
+  publish (QA re-verified) -> chunks refreshed (v1.2 / RUN-023 provenance); r3 evidence-claim QA
+  21 citations / 0 violations; r1 quote-binding 19/19 (17 mild-bound + 2 aggressive-bound per the
+  review's own extended normalization; 0 unexplained); F-S1 span rebind BINDS_RAW_window_miss ->
+  BINDS_PACK (quote_rebind_check.json); validate-manifest red state byte-exact F4a form
+  {SIB-MANI-007: 88, SIB-MANI-011: 4, SIB-MANI-012: 7} (landing zone empty BY DESIGN).
+- RE-SPEC DISCLOSURE: ASM-03's pack of record advances c017d20a -> e5094ccf (ONE window,
+  adds-only). D3-era copies now {RUN-019: c017d20a (historical, immutable), RUN-023: e5094ccf
+  (of record)}; future carries re-root at RUN-023 (RUN-017 chain precedent). Zero census impact
+  (no records added/removed; ASM-03 +10 words from the token; the RUN-022 census remains the
+  census of record for the pre-fix surface). The M1 mark-scheme fragment remains F-S3-classified
+  author-side content (review verdict: no action).
+- Scripts persisted under session scripts/ (fs1_run023_build, fs1_run023_gates,
+  fs1_run023_worklog, fs1_run023_gitphase).
+- Git phase: branch sib/fs1-asm014-citation-r0 off e6dc252b; true diff 11 paths (the RUN-023 run
+  record + published ASM-03 v1.2 + qa-reports/ASM-03.qa.json + chunks/ASM-03.chunks.jsonl +
+  WORKLOG), every path reconciled against lane scope; fetch-first re-check before push. No force.

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-03
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -23,21 +23,22 @@ source_scope:
   supplementary: true
 
 # lifecycle: GENERATED -> QA_PASSED -> STAGED
+# lifecycle: GENERATED -> QA_PASSED -> STAGED
 status: PUBLISHED
 generated_by: zai_agent
-generated_at: 2026-10-29
+generated_at: 2026-10-31
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-019"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-023"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "e4c1960be234beb0406b9218f4fbb2a95b1e3f28"
-    syllabai_resources: "e3d648a195a13e3713b4b14a3095518e4a0d24e5"
+    syllabai_pastpapers: "b387a0b0c124a527295b7f82d01ceb5ce781e27c"
+    syllabai_resources: "e6dc252bbc5581e212fff1e6ca481921f18db16a"
 ---
 
 # ASM-03 — Question Archetypes
@@ -97,7 +98,8 @@ Temporal scope: CURRENT — AUTHORITATIVE.
 **Claim:** definition items use a stable "state what is meant by / state the meaning
 of" stem form and are marked against a tight accepted-answer set.
 **Evidence:** "State what is meant by the term isomers." with mark scheme "M1
-(compounds/molecules) with the same ... molecular formula" , and "State the meaning of the term ionic
+(compounds/molecules) with the same ... molecular formula" (SRC-QPMS-4CH1,
+2019-06/4CH1-1C/questions.md lines 744-758), and "State the meaning of the term ionic
 bond." (SRC-QPMS-4CH1, 2020-01/4CH1-1C/questions.md lines 274-288).
 **Design reading:** the mark scheme's OWTTE ("or words to that effect") machinery
 around these stems rewards precise technical vocabulary — exactly the terminology

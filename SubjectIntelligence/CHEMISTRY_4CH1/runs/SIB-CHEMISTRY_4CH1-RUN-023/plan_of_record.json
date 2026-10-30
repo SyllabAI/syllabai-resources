@@ -1,0 +1,16 @@
+{
+ "schema": "sib-plan-of-record/1.0",
+ "run_id": "SIB-CHEMISTRY_4CH1-RUN-023",
+ "finding": "F-S1 (low, citation-coverage gap \u2014 genuine): ASM-014 (RUN-005-authored, pre-D3) quotes 'State what is meant by the term isomers.' with no citation token of its own; the neighboring token cites the next quote's file/window (2020-01 \u2026 lines 274-288), and the quoted sentence (raw 2019-06/4CH1-1C/questions.md line 746) sits outside all held windows of ASM-03's pack of record. Verbatim-true at the raw source \u2014 a provenance-locator gap, not a fabrication.",
+ "fix_paths_adjudicated": {
+  "record_re_point": "IMPOSSIBLE \u2014 no held window covers raw line 746 in the pack of record (held windows for the file jump 603-617 -> 771-785, re-proven first-hand at run start); re-pointing the token at an already-held window would falsify provenance (the quote's true source is the 2019-06 10(a)(i) item).",
+  "full_pack_rebuild": "REJECTED \u2014 surface-unstable per LESSONS_REGISTER \u00a73.3 (select_sources is resolution-driven; RUN-015 swap precedent); the probe-then-rebuild path is not taken for a one-window gap.",
+  "surgical_append": "SELECTED (operator order, this run) \u2014 append the covering window to a carried copy in a NEW run record (RUN-017 precedent: appends land in the appending run's evidence dir; origin packs untouched), pack_spec made truthful, adds-only diff proof, then the ASM-014 citation token through the full governed lifecycle."
+ },
+ "window": {
+  "file": "Official-ExamQuestion/igcse-chemistry-19/2019-06/4CH1-1C/questions.md",
+  "lines": "744-758",
+  "math": "md_query hit 'State\u2026' 0-based h=745 -> excerpt lines (h-1)..(h+13) = 744-758 (LESSONS_REGISTER \u00a73.2); starts at the '### 10(a)(i) [2]' heading (line 744), quote at 746, M1 mark-scheme lines 750-751"
+ },
+ "qa_plan": "canonical validator qa 0/0/0 @ pin; r3 evidence-claim QA 0 violations; F-S1 span rebind BINDS_PACK; validate-manifest red state byte-exact F4a form"
+}
