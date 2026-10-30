@@ -1,5 +1,41 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## exporter-v5+F121 — 2026-10-30 · the group-stem restore wave (T-OEQ-GROUPSTEM-1) — converter unchanged
+
+- **The gap (the wave-15 stem gap one level down)**: topic.json questions carry
+  `groups[<letter>].group_stem_md` (567 corpus-wide, all non-empty) — the printed
+  question-group intro — and the exporter restored QUESTION stems only (F-W15-1):
+  every group intro was silently dropped from the learner surface for the entire
+  serving era ("The tables give the bond energies…", the method bullets, the
+  data-table intros).
+- **The fix (scripts/official_examq_export_hub.py)**: `restore_group_stem()` restores
+  each group intro to its group's FIRST part (the printed position, after the question
+  stem and its figures), mirroring F-W15-1: the STEM-RESTORE.json group verdicts
+  (new key space `Q<n>.<letter>`; 36 eyeballed cut verdicts of record — every cut's
+  printed object is served by a crop asset of record; data tables and displayed
+  formulae with no serving crop are KEPT verbatim by law) then mechanical cleaning;
+  splice-guard against the part text; fail-closed verbatim anchors. Group entries may
+  declare `figures[]` (stem-figure crop ids of the question's first part) that render
+  AFTER the group stem — the served order matches the printed paper.
+- **The new plane gate (G-E7 / `g_e7_group_stem_law`)**: a group stem can never
+  vanish, be invented, or mis-attach; group ledger keys are slice-scoped consumed
+  (the F113 law); adjudicated cuts must actually cut (the raw soup-carrying stem must
+  never reach the served bytes). Zero-network unit battery
+  `scripts/official_examq_f121_tests.py` (101 checks) + CI step.
+- **The serving**: official-papers.json re-served at the data cut main@5f170f987
+  (G-E5 54/54): G-E1 = 567 deltas == the disclosure exactly
+  (scripts/exporter-disclosures/2026-10-30-f121-group-stem-restore-4ch1.json —
+  changed == the 567 group-first part ids set-equal; the delta field universe is
+  {problemMd: 567}, the group-stem class only; new=0/gone=0); counts unchanged
+  (54 sets / 477 questions / 2,607 parts / 4,860 marks / 4,161 markPoints / 478
+  figure crops / 7 honest stubs); G-E4 SME passthrough byte-identical (2,605,409 B);
+  verifier census-exact + self-test 4/4 seeds refused. The 19-part F111 class-1
+  drawing-strip reproducibility debt was found already closed at source (d8fd8acb,
+  PR #220) and re-proven at this cut by the fresh-tree re-emission check (20/20
+  C147–C166 pins reproduce; census clean modulo the F117-adjudicated source_page
+  artifact).
+- **Operator order**: "19-part drawing-strip wave, group-stem restore".
+
 ## exporter-v4+F119 — 2026-10-30 · the printed-part-label serving wave (T-OEQ-PARTLABEL-3) — converter unchanged
 
 - **The gap (operator-reported, all three courses)**: the question player rendered parts

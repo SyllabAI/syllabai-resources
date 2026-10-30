@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-stem-restore/1.0",
- "doctrine": "ADR-039 fix-and-disclose: presentation-layer improvement is ordinary disclosed correction (edit_status + edits[]); values never invented. wave-20 machinery stands: stemFigures carry the eyeballed crop boxes for the stem-figure tranche (crop-required stub -> F45 manual_crop render); dropTail/dropSpan remove flattened figure-label soup that the crop now serves visually; stemFigureRef inlines an already-cropped figure. Anchors disclosed, fail-disclosed.",
+ "doctrine": "ADR-039 fix-and-disclose: presentation-layer improvement is ordinary disclosed correction (edit_status + edits[]); values never invented. wave-20 machinery stands: stemFigures carry the eyeballed crop boxes for the stem-figure tranche (crop-required stub -> F45 manual_crop render); dropTail/dropSpan remove flattened figure-label soup that the crop now serves visually; stemFigureRef inlines an already-cropped figure. Anchors disclosed, fail-disclosed. Group-stem keys (Q<n>.<letter>, F121) restore the question-group intro to the group's first part: same verdict vocabulary + dropSpan/dropTail cuts + mechanical cleaning; a group entry may declare figures[] (asset ids rendered after the group stem, print order restored); fail-closed anchors; slice-scoped consumption (G-E7).",
  "verdicts": {
   "2019-06/4CH1-1C:Q1": {
    "verdict": "drop-tail",
@@ -2070,6 +2070,236 @@
      "target": "10(c)(i)"
     }
    ]
+  },
+  "2019-06/4CH1-2C:Q5.a": {
+   "verdict": "drop-tail",
+   "tail": " Bonds broken Bonds made bond energy bond energy bond bond in kJ/mol in kJ/mol N—N 159 N=N 945 N—H 391 O—O 143 O—H 463 O—H 463",
+   "why": "bond energy tables flattened; the tables are cropped on 5(a)(i) (asset_5_stem_bond-tables, stem figure) and render after the group stem",
+   "served_by": "asset_5_stem_bond-tables",
+   "figures": [
+    "asset_5_stem_displayed-formulae",
+    "asset_5_stem_bond-tables"
+   ]
+  },
+  "2020-01/4CH1-1C:Q4.a": {
+   "verdict": "drop-tail",
+   "tail": " + + Mg2 Al3 NH4+ − S2 MgS Al2S3 NO3− Al(NO3)3 NH4NO3 − CO32 MgCO3 (NH4)2CO3",
+   "why": "ion-formulae table flattened; the printed table is cropped on 4(a)(i) (asset_4_a_i_table); 4(a)(i) completes three missing cells from it",
+   "served_by": "asset_4_a_i_table"
+  },
+  "2020-01/4CH1-1C:Q9.d": {
+   "verdict": "drop-tail",
+   "tail": " Number of carbon atoms per molecule 1 2 3 4 5 Molar enthalpy change, ΔH, in kJ/mol –730 –1370 –2020 –2680 –3320",
+   "why": "data-book table flattened; the printed table is cropped on 9(d)(i) (asset_9_d_i_table)",
+   "served_by": "asset_9_d_i_table"
+  },
+  "2020-01/4CH1-2C:Q5.c": {
+   "verdict": "drop-tail",
+   "tail": " Bond H O O O O O Bond energy in kJ/mol 463 143 498",
+   "why": "bond-energy table flattened; the printed table is cropped on 5(c)(i) (asset_5_c_i_table); the displayed-formula line is kept (no crop serves it)",
+   "served_by": "asset_5_c_i_table"
+  },
+  "2020-01/4CH1-2CR:Q1.a": {
+   "verdict": "drop-tail",
+   "tail": " Box 1 Box 2 Box 3 Box 4 Box 5",
+   "why": "box labels of the element/mixture/compound boxes; the printed boxes are cropped on 1(a)(ii) (asset_1_a_ii_boxes) — wave-19 'extract cropped on a sibling part' precedent",
+   "served_by": "asset_1_a_ii_boxes"
+  },
+  "2020-01/4CH1-2CR:Q7.c": {
+   "verdict": "drop-tail",
+   "tail": " The displayed formula of an ester is H H O H C C C H H H H H H O C C C C H H H H H",
+   "why": "displayed formula of the ester flattened; the printed formula is cropped on 7(c)(i) (asset_7_stem_ester); the cut includes the dangling intro sentence ('…The displayed formula of an ester is <soup>') so the served stem ends in complete prose — the crop + its caption carry the identity",
+   "served_by": "asset_7_stem_ester"
+  },
+  "2020-11/4CH1-1CR:Q9.c": {
+   "verdict": "drop-tail",
+   "tail": " Physical state at Compound Melting point in °C Boiling point in °C room temperature SiO2 1710 2230 solid SiCl4 −69 58",
+   "why": "melting/boiling table flattened (header wrap jumbled); the printed table is cropped on 9(c)(i) (asset_9_c_i_table)",
+   "served_by": "asset_9_c_i_table"
+  },
+  "2020-11/4CH1-2C:Q4.c": {
+   "verdict": "drop-tail",
+   "tail": " Compound Molecular formula Displayed formula ethanoic acid C2H4O2 H H O propanoic acid H C C C H H O H H H H O C4H8O2 H C C C C H H H O H",
+   "why": "organic-compounds table (incl. displayed formulae) flattened; the printed table is cropped on 4(c)(i) (asset_4_c_i_table)",
+   "served_by": "asset_4_c_i_table"
+  },
+  "2020-11/4CH1-2CR:Q7.b": {
+   "verdict": "drop-tail",
+   "tail": " Bond C C C H C O O H O O C O Bond energy in kJ/mol 346 412 358 463 496 743",
+   "why": "bond-energy table flattened; printed tables cropped on 7(b)(i)/(7(b)(ii) (asset_7_b_i_table, asset_7_b_ii_table); the displayed-formula run is kept",
+   "served_by": "asset_7_b_i_table"
+  },
+  "2021-01/4CH1-1CR:Q6.b": {
+   "verdict": "drop-tail",
+   "tail": " 120 100 Volume of hydrogen in cm3 0 20 40 60 80 100 Volume of dilute hydrochloric acid in cm3",
+   "why": "graph axes linearized; the printed graph is cropped on 6(b)(i) (asset_6_b_i_graph)",
+   "served_by": "asset_6_b_i_graph"
+  },
+  "2021-06/4CH1-1C:Q9.b": {
+   "verdict": "drop-tail",
+   "tail": " 0.7 0.6 0.5 0.4 Decrease in mass in g 0.3 0.2 0.1 0 2 4 6 8 10 12 14 Time in minutes",
+   "why": "graph axes linearized; the printed graph is cropped on 9(b)(i) (asset_9_b_i_graph)",
+   "served_by": "asset_9_b_i_graph"
+  },
+  "2021-11/4CH1-1C:Q1.a": {
+   "verdict": "drop-tail",
+   "tail": " A B C D",
+   "why": "particle-diagram letter labels; the four printed boxes A-D are cropped on 1(a)(i) (asset_1_a_i_particles, stem figure; F94 shared with (ii)/(iii)) and render after the group stem",
+   "served_by": "asset_1_a_i_particles",
+   "figures": [
+    "asset_1_a_i_particles"
+   ]
+  },
+  "2021-11/4CH1-1C:Q6.a": {
+   "verdict": "drop-tail",
+   "tail": " U V H H H H H H H H C C H H C C C C C H H C C H H H H H H W X H H H H H H H H H C C C C H H C C C C H H H H H H H Y H H H H H C C C C O H H H H H",
+   "why": "displayed formulae of U,V,W,X,Y flattened; the printed grid is cropped on 6(a)(i) (asset_6_stem_compounds-grid, stem figure) and renders after the group stem",
+   "served_by": "asset_6_stem_compounds-grid",
+   "figures": [
+    "asset_6_stem_compounds-grid"
+   ]
+  },
+  "2022-01/4CH1-1C:Q4.b": {
+   "verdict": "drop-tail",
+   "tail": " Reading number Reading on syringe A in cm3 Start 78 1 70 2 67 3 65 4 63 5 61 6 60 7 59 8 58 9 58 10 58",
+   "why": "syringe results table flattened; the printed table is cropped on 4(b)(ii) (asset_4_b_ii_table) — sibling-part service, wave-19 precedent",
+   "served_by": "asset_4_b_ii_table"
+  },
+  "2022-01/4CH1-1C:Q9.c": {
+   "verdict": "drop-tail",
+   "tail": " 1.00 0.90 0.80 0.70 Decrease 0.60 in mass / g 0.50 0.40 0.30 0.20 0.10 0.00 0 20 40 60 80 100 120 140 Time / seconds",
+   "why": "graph axes linearized; the printed graph is cropped on 9(c)(iii)/(iv) (asset_9_c_iii_graph, asset_9_c_iv_graph) — the same printed graph",
+   "served_by": "asset_9_c_iii_graph"
+  },
+  "2022-01/4CH1-2C:Q3.a": {
+   "verdict": "drop-tail",
+   "tail": " 100 90 copper(II) chloride Solubility in 60 sodium chloride g per 100 g of water 50 0 10 20 30 40 50 60 70 80 90 100 Temperature in °C",
+   "why": "solubility graph axes linearized; the printed graph is cropped on 3(a)(i) (asset_3_a_i_graph)",
+   "served_by": "asset_3_a_i_graph"
+  },
+  "2022-06/4CH1-2C:Q7.d": {
+   "verdict": "drop-tail",
+   "tail": " Bond O O C O O H Bond energy in kJ/mol 498 805 463",
+   "why": "bond-energy table flattened; the printed table is cropped on 7(d)(i) (asset_7_d_i_table); the displayed-formula run is kept. complete-sentence-keep: the pre-cut text is the printed sentence 'The table shows the bond energies for O-O, C=O and O-H.' — the extraction lost the final period before the table soup; the sentence completes with its bond list",
+   "served_by": "asset_7_d_i_table"
+  },
+  "2023-01/4CH1-1C:Q8.a": {
+   "verdict": "drop-tail",
+   "tail": " Na+ Mg2+ Cl– O2– Na2O MgO N3– Na3N",
+   "why": "ion-formulae table flattened; the printed table is cropped on 8(a)(i) (asset_8_a_i_table)",
+   "served_by": "asset_8_a_i_table"
+  },
+  "2023-01/4CH1-2C:Q7.b": {
+   "verdict": "drop-tail",
+   "tail": " Bond Bond energy in kJ/mol N N 158 N H 391 N N 945",
+   "why": "bond-energy table flattened; printed tables cropped on 7(b)(i)/(b)(ii) (asset_7_b_i_table, asset_7_b_ii_table); hydrazine displayed formulae kept",
+   "served_by": "asset_7_b_i_table"
+  },
+  "2023-06/4CH1-2CR:Q7.c": {
+   "verdict": "drop-tail",
+   "tail": " H H O H C C C H O C H H H C H H H",
+   "why": "ester displayed formula flattened; the printed formula is cropped on 7(c)(i) (asset_7_stem_ester-formula)",
+   "served_by": "asset_7_stem_ester-formula"
+  },
+  "2023-11/4CH1-1C:Q2.b": {
+   "verdict": "drop-tail",
+   "tail": " Atom or ion Protons Neutrons Electrons P 3 4 2 Q 5 5 5 R 5 6 5 S 7 7 7 T 8 8 8 U 8 8 10 Table 2",
+   "why": "Table 2 flattened; the printed table is cropped on the 2(b) parts (asset_2_b_i_table + siblings @p6) — the only table on the page",
+   "served_by": "asset_2_b_i_table"
+  },
+  "2023-11/4CH1-2C:Q4.c": {
+   "verdict": "drop-tail",
+   "tail": " Temperature change in °C 0 5 10 15 20 25 30 35 40 Volume of sodium hydroxide in cm3",
+   "why": "graph axes linearized; the printed graph is cropped on 4(c)(i) (asset_4_c_i_graph)",
+   "served_by": "asset_4_c_i_graph"
+  },
+  "2023-11/4CH1-2C:Q7.d": {
+   "verdict": "drop-tail",
+   "tail": " Bond H H O O O H Bond energy in kJ / mol 436 498 463",
+   "why": "bond-energy table flattened; the printed table is cropped on 7(d)(i) (asset_7_d_i_table); the displayed-formula equation is kept",
+   "served_by": "asset_7_d_i_table"
+  },
+  "2024-06/4CH1-1C:Q9.b": {
+   "verdict": "drop-tail",
+   "tail": " 0.7 0.6 0.5 0.4 Loss in mass in g 0.3 0.2 0.1 0 2 4 6 8 10 12 14 Time in minutes",
+   "why": "graph axes linearized; the printed graph is cropped on 9(b)(i) (asset_9_b_i_graph)",
+   "served_by": "asset_9_b_i_graph"
+  },
+  "2024-06/4CH1-1CR:Q7.b": {
+   "verdict": "drop-tail",
+   "tail": " Volume of gas in cm3 0 30 60 90 120 150 180 210 240 Time in s",
+   "why": "graph axes linearized; the printed graph is cropped on 7(b)(i) (asset_7_b_i_graph)",
+   "served_by": "asset_7_b_i_graph"
+  },
+  "2024-06/4CH1-1CR:Q9.a": {
+   "verdict": "drop-tail",
+   "tail": " Cl− O2− SO42− Na+ Na2O Na2SO4 NH4+ NH4Cl Zn2+ ZnCl2 ZnSO4",
+   "why": "ion-formulae table flattened; the printed table is cropped on 9(a)(i) (asset_9_a_i_table)",
+   "served_by": "asset_9_a_i_table"
+  },
+  "2024-06/4CH1-2CR:Q7.b": {
+   "verdict": "drop-tail",
+   "tail": " Bond Bond energy in kJ / mol C H 414 C C 614 O H 463 C C 346 C O 358",
+   "why": "bond-energy table flattened; the printed table is cropped on 7(b)(i) (asset_7_b_i_table); the displayed-formula run is kept",
+   "served_by": "asset_7_b_i_table"
+  },
+  "2024-11/4CH1-1C:Q5.c": {
+   "verdict": "keep",
+   "dropSpan": [
+    " hydrogen peroxide solution 0 20 40 60 80 100 cm3 oxygen B A catalyst",
+    " The student adds"
+   ],
+   "dropTail": " 100 Volume of oxygen in cm3 0 4 8 12 16 Time in minutes",
+   "why": "apparatus labels flattened (served by asset_5_c_i_apparatus on 5(c)(i)) and graph axes linearized (served by asset_5_c_ii_graph on 5(c)(ii)); dropSpan cuts the apparatus label run, dropTail the graph axes",
+   "served_by": "asset_5_c_i_apparatus + asset_5_c_ii_graph"
+  },
+  "2024-11/4CH1-1C:Q6.a": {
+   "verdict": "drop-tail",
+   "tail": " NH+4 Zn2+ Al3+ Cl– NH4Cl ZnCl2 SO42– (NH4)2SO4 Al2(SO4)3 N3– Zn3N2 AlN",
+   "why": "ion-formulae table flattened; the printed table is cropped on 6(a)(i) (asset_6_a_i_table)",
+   "served_by": "asset_6_a_i_table"
+  },
+  "2024-11/4CH1-1C:Q10.b": {
+   "verdict": "drop-tail",
+   "tail": " H H H H H H H H C C C C H H C C C C H H H H H H",
+   "why": "two alkene displayed formulae flattened; the printed diagram is cropped on 10(b)(ii) (asset_10_b_ii_diagram) — sibling-part service",
+   "served_by": "asset_10_b_ii_diagram"
+  },
+  "2024-11/4CH1-2C:Q5.b": {
+   "verdict": "drop-tail",
+   "tail": " Rough Titration 1 Titration 2 Titration 3 Titration 4 titration Burette reading 21.80 22.85 21.75 24.10 at end in cm3 Burette reading 0.50 0.15 0.25 0.10 at start in cm3 Volume added 21.30 22.70 21.50 24.00 in cm3",
+   "why": "titration results table flattened; the printed table is cropped on 5(b)(i)/(b)(ii) (asset_5_b_i_table, asset_5_b_ii_table); the rough-titration burette scale readings ('Start End 2 23 3 24 4 25') are KEPT — no crop serves them and (b)(i) reads them off the diagram",
+   "served_by": "asset_5_b_i_table"
+  },
+  "2025-06/4CH1-1C:Q9.a": {
+   "verdict": "drop-tail",
+   "tail": " H Cl C C H H",
+   "why": "chloroethene displayed formula flattened; the printed formula is cropped on 9(a)(i) (asset_9_a_i_diagram) — eyes-on p20 render",
+   "served_by": "asset_9_a_i_diagram"
+  },
+  "2026-06/4CH1-1C:Q3.f": {
+   "verdict": "drop-tail",
+   "tail": " 120 100 Volume of oxygen 60 in cm3 0 20 40 60 80 100 120 Time in s Grid 2",
+   "why": "Grid 2 axes linearized; the printed plotted grid is cropped on 3(f)(i) (asset_3_f_i_grid) — eyes-on p11 render",
+   "served_by": "asset_3_f_i_grid"
+  },
+  "2026-06/4CH1-1CR:Q6.a": {
+   "verdict": "drop-tail",
+   "tail": " NH4+ Mg2+ Al3+ Cl– MgCl2 no compound O2– Al2O3 formed NO3– NH4NO3 Mg(NO3)2 Al(NO3)3",
+   "why": "ion-formulae table flattened; the printed table is cropped on 6(a)(i) (asset_6_a_i_table)",
+   "served_by": "asset_6_a_i_table"
+  },
+  "2026-06/4CH1-2C:Q2.d": {
+   "verdict": "drop-tail",
+   "tail": " Titration number 1 2 3 4 Volume of acid added 22.95 22.65 23.05 22.90 in cm3 Concordant results",
+   "why": "titration results table flattened; the printed table is cropped on 2(d)(i) (asset_2_d_i_table) — eyes-on p8 render",
+   "served_by": "asset_2_d_i_table"
+  },
+  "2026-06/4CH1-2C:Q6.e": {
+   "verdict": "drop-tail",
+   "tail": " Maximum mass of potassium sulfate 10.0 12.5 15.0 17.5 20.0 in g Temperature of water 12.7 27.4 41.6 55.6 69.5 in °C",
+   "why": "solubility data table flattened; the printed table is cropped on 6(e)(i) (asset_6_e_i_table) — eyes-on p17 render",
+   "served_by": "asset_6_e_i_table"
   }
  }
 }

@@ -85,6 +85,27 @@ wave-20 additions (v6, stem-figure tranche):
            fail-closed); entry.dropTail removes the tail from a verbatim
            anchor (the soup the crop now serves visually). These apply to
            keep-verdict stems before mechanical cleaning.
+
+F121 additions (v7, group-stem tranche — T-OEQ-GROUPSTEM-1):
+  F-W20-4  group stems restore: every question-group intro (topic.json
+           groups[letter].group_stem_md — 567 corpus-wide, the largest stem
+           class still unrestored after F-W15-1) is restored to the group's
+           FIRST part — the printed position, after the question stem and its
+           figures. Same laws as F-W15-1: the STEM-RESTORE.json group
+           verdicts (keys 'Q<n>.<letter>': drop-tail cuts, dropSpan+dropTail,
+           replace) then mechanical cleaning; splice-guard against the part
+           text; fail-closed verbatim anchors. A group entry may declare
+           figures[] (stem-figure crop ids of the question's FIRST part) that
+           render AFTER the group stem so the served order matches the printed
+           paper. Data tables and displayed formulae with no serving crop are
+           KEPT verbatim by law — a cut needs the crop-corroboration evidence
+           of record (the wave-19/20 rule), never the other way round.
+  G-E7     the group-stem plane law (unit battery
+           scripts/official_examq_f121_tests.py + CI): every group stem must
+           reach the served set on its group's first part; a group stem can
+           never vanish, be invented, or be mis-attached; group ledger keys
+           are slice-scoped consumed (the F113 law); adjudicated cuts must
+           actually cut (the cut tail must not survive into the served bytes).
 """
 import json, glob, os, re, subprocess, sys, hashlib
 from pathlib import Path
@@ -97,6 +118,37 @@ RAW = "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Offici
 SERIES_LABEL = {"01": "January", "06": "June", "11": "November"}
 OFFICIAL_SLUG_PREFIX = "official-4ch1-"
 _CHEM_MANIFEST_NOTE = None   # chemistry keeps its per-wave note hardcode at the staging site
+# F121 headline of record (T-OEQ-GROUPSTEM-1). The full chained note (this
+# headline + the superseded pin's note kept verbatim) is assembled on the
+# serving manifest in the v2 content PR; this hardcode is the exporter-side
+# bump the staging law requires.
+_CHEM_F121_NOTE_HEAD = (
+    "ADR-037 exporter v5 at this cut (F121, the group-stem restore wave "
+    "- T-OEQ-GROUPSTEM-1): the question-group intros (topic.json "
+    "groups[<letter>].group_stem_md, 567 corpus-wide - the largest stem class "
+    "still unrestored after the wave-15 question-stem restore) are now "
+    "first-class serving content - the exporter restores each group intro to "
+    "its group's FIRST part (the printed position, after the question stem and "
+    "its figures), passing through the STEM-RESTORE.json group verdicts of "
+    "record (36 eyeballed cuts: flattened table/graph/label soup whose printed "
+    "object a crop asset of record serves - bond-energy tables, results "
+    "tables, ion-formulae tables, solubility/temperature graphs, displayed "
+    "formulae; everything else restores mechanically; data tables and "
+    "displayed formulae with no serving crop are KEPT verbatim by law - a cut "
+    "needs the crop-corroboration evidence, never the reverse). G-E7 pins the "
+    "plane fail-closed both directions (a group stem can never vanish, be "
+    "invented, or be mis-attached; group ledger keys are slice-scoped "
+    "consumed; adjudicated cuts must actually cut). official-papers.json "
+    "re-served at this cut: 567 parts carry their group intro (G-E1 census == "
+    "scripts/exporter-disclosures/2026-10-30-f121-group-stem-restore-4ch1.json "
+    "exactly - the group-stem class only, new=0/gone=0). Counts unchanged "
+    "(54 sets / 477 questions / 2,607 parts / 4,860 marks / 4,161 markPoints); "
+    "G-E4 SME passthrough byte-identical; figure crops 478 + honest stubs 7 "
+    "unchanged. Wave-15 UX doctrine governs under ADR-039 fix-and-disclose: "
+    "best learner experience, values never invented. The full prior-lineage "
+    "chain (through the F119 label pin and the F117/F113/F108 waves it chains) "
+    "is preserved verbatim on the serving manifest. 54 official sets (16x1C + "
+    "16x2C + R-variants), 477 questions, 2,607 parts, all spec-tagged.")
 # F119 headline of record (T-OEQ-PARTLABEL-3). The full chained note (this
 # headline + the superseded pin's note kept verbatim) is assembled on the
 # serving manifest in the v2 content PR; this hardcode is the exporter-side
@@ -490,6 +542,72 @@ def restore_stem(q, series, paper, ledger, by_part_num):
     return _bulletize(stem).strip() or None
 
 
+GROUP_PART_RE = re.compile(r"^(\d+)\(([a-z])\)")
+
+
+def group_letter_of(part_number):
+    """The group letter a part_number belongs to ('5(a)(ii)' -> 'a'), else None."""
+    m = GROUP_PART_RE.match(str(part_number or ""))
+    return m.group(2) if m else None
+
+
+def restore_group_stem(g, series, paper, qnum, letter, ledger, first_problem_md):
+    """F121 (F-W20-4): the question-group intro (groups[letter].group_stem_md)
+    is restored to the group's FIRST part — the largest remaining stem class
+    after F-W15-1 (question stems): 567 group intros were silently dropped by
+    every prior exporter version.
+
+    Same laws as the question stem: the eyeballed ledger verdicts (dropSpan /
+    dropTail cuts, replace) then mechanical cleaning; splice-guard: a stem
+    already folded into the group's first part is not duplicated. Anchors are
+    verbatim and fail-closed. Ledger keys: '<series>/4CH1-<paper>:Q<n>.<letter>'.
+    """
+    stem = (g.get("group_stem_md") or "").strip()
+    if not stem:
+        return None
+    key = f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:Q{qnum}.{letter}"
+    entry = (ledger or {}).get("verdicts", {}).get(key)
+    norm = lambda s: re.sub(r"\s+", " ", s).strip()
+    if norm(stem)[:60] and norm(stem)[:60] in norm(first_problem_md or ""):
+        return None  # splice-guard: the converter already folded this stem in
+    if entry:
+        span = entry.get("dropSpan")
+        if span:
+            a_from, a_to = span
+            i, j = stem.find(a_from), stem.find(a_to)
+            if i < 0 or j < 0 or j < i:
+                raise ExportGateError(
+                    f"F121: dropSpan anchors not found/ordered in group stem "
+                    f"{key}: {a_from[:50]!r} -> {a_to[:50]!r}")
+            stem = (stem[:i].rstrip() + " " + stem[j:].lstrip()).strip()
+        tail = entry.get("dropTail")
+        if tail:
+            if tail not in stem:
+                raise ExportGateError(
+                    f"F121: dropTail anchor not found in group stem {key}: "
+                    f"{tail[:60]!r}")
+            stem = stem[:stem.index(tail)].rstrip()
+            stem = re.sub(r"[\s]*[-\u2013\u2014.:;]?$", "", stem)
+    if entry and entry.get("verdict") == "replace":
+        if "{{FIG:" in (entry.get("stemMd") or ""):
+            raise ExportGateError(
+                f"F121: FIG placeholders are not supported on group stems "
+                f"(v1): {key}")
+        return _bulletize(entry["stemMd"]).strip()
+    if entry and entry.get("verdict") == "drop-tail":
+        tail = entry.get("tail")
+        if tail and tail not in stem:
+            raise ExportGateError(
+                f"F121: drop-tail anchor not found in group stem {key}: "
+                f"{tail[:60]!r}")
+        if tail:
+            stem = stem[:stem.index(tail)].rstrip()
+            stem = re.sub(r"[\s]*[-\u2013\u2014.:;]?$", "", stem)
+        return _bulletize(stem).strip() or None
+    # unledgered (or keep-verdict) group stems: mechanical cleaning only
+    return _bulletize(stem).strip() or None
+
+
 def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
     if topic is None:
         tp = f"{CORPUS}/{series}/{LANES[LANE_SPEC]['code']}-{paper}/topic.json"
@@ -526,7 +644,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                     f"does not resolve to a real crop asset")
             url = raw_url(series, paper, rpath)
             cap = f"{ra.get('mention', 'figure')} — official paper figure (qp.pdf p.{ra.get('page')})"
-            stem_figs_md.append(f"![{cap}]({url})")
+            stem_figs_md.append((ra.get("id"), f"![{cap}]({url})"))
         first_assets = (q["parts"][0].get("assets") or []) if q["parts"] else []
         for a in first_assets:
             if not a.get("stem_figure") or a.get("kind") != "crop":
@@ -538,7 +656,50 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                     f"has no resolvable path")
             url = raw_url(series, paper, rel)
             cap = f"{a.get('mention', 'figure')} — official paper figure (qp.pdf p.{a.get('page')})"
-            stem_figs_md.append(f"![{cap}]({url})")
+            stem_figs_md.append((a["id"], f"![{cap}]({url})"))
+        # ---- F121 (F-W20-4): the group intros restore to their group's first
+        # part. A group ledger entry may declare figures[] (asset ids that are
+        # stem-figure crops of the question's FIRST part) — those render after
+        # the group stem so the served order matches the printed paper.
+        groups = q.get("groups") or {}
+        g_first_pn, group_stems, g_figs_decl = {}, {}, {}
+        q0_pn = q["parts"][0]["part_number"] if q["parts"] else None
+        for letter, g in groups.items():
+            gkey = f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:Q{qnum}.{letter}"
+            g_entry = (stem_ledger or {}).get("verdicts", {}).get(gkey) or {}
+            fp = next((p for p in q["parts"]
+                       if group_letter_of(p["part_number"]) == letter), None)
+            if fp is None:
+                if (g.get("group_stem_md") or "").strip() or g_entry:
+                    raise ExportGateError(
+                        f"F121/G-E7: group {letter} of {series}/4CH1-{paper} "
+                        f"Q{qnum} carries a stem/ledger entry but no part "
+                        f"resolves to it — a group stem can neither vanish nor "
+                        f"be unattachable")
+                continue
+            g_first_pn[fp["part_number"]] = letter
+            group_stems[letter] = restore_group_stem(
+                g, series, paper, qnum, letter, stem_ledger or {},
+                fp.get("problem_md"))
+            figs = g_entry.get("figures") or []
+            if figs:
+                if fp["part_number"] != q0_pn:
+                    raise ExportGateError(
+                        f"F121: figures[] declared on {gkey} but the group's "
+                        f"first part is not the question's first part — the "
+                        f"stem-figure block only exists there")
+                first_ids = {a["id"] for a in first_assets
+                             if a.get("stem_figure") and a.get("kind") == "crop"}
+                missing = [f for f in figs if f not in first_ids]
+                if missing:
+                    raise ExportGateError(
+                        f"F121: declared figure(s) {missing} on {gkey} are not "
+                        f"stem-figure crops of the question's first part")
+                g_figs_decl[letter] = list(figs)
+        g0 = g_first_pn.get(q0_pn)
+        decl0 = set(g_figs_decl.get(g0) or []) if g0 else set()
+        stem_figs_head = [md for aid, md in stem_figs_md if aid not in decl0]
+        stem_figs_group = [md for aid, md in stem_figs_md if aid in decl0]
         parts = []
         for p in q["parts"]:
             marks = int(p["marks"]) if p.get("marks") is not None else 0
@@ -596,9 +757,22 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                             "answer space provided.*")
                 assets_out.append(entry)
             problem_md = (p.get("problem_md") or "").strip()
+            head = []
+            g_here = g_first_pn.get(p["part_number"])
             if len(parts) == 0 and stem_md:
-                # F-W20-1: stem prose, then its figures, then the part text
-                problem_md = stem_md + "\n\n" + (("\n\n".join(stem_figs_md) + "\n\n") if stem_figs_md else "") + problem_md
+                # F-W20-1: stem prose, then its (undeclared) figures
+                head.append(stem_md)
+                head += stem_figs_head
+            if g_here:
+                gmd = group_stems.get(g_here)
+                if gmd:
+                    # F121: the group intro renders before the part text;
+                    # declared group figures render after it (print order)
+                    head.append(gmd)
+                    if len(parts) == 0:
+                        head += stem_figs_group
+            if head:
+                problem_md = "\n\n".join(head + [problem_md])
             if figures_md:
                 problem_md += "\n\n" + "\n\n".join(figures_md)
             sol = p.get("solution_md") or None
@@ -881,6 +1055,100 @@ def verify_source_cut(topics_dir, source_cut):
           f"declared data cut {source_cut} (modulo the converter header)")
 
 
+
+def g_e7_group_stem_law(out_sets, topics_src, stem_ledger):
+    """G-E7 (F121): the group-stem plane law. Every question-group intro of
+    the corpus of record must reach the served set on the group's FIRST part
+    (cleaned per the STEM-RESTORE group verdicts); a group stem can never
+    vanish, be invented, or be attached to the wrong part; group ledger keys
+    must resolve slice-scoped (the F113 unconsumed-key law) and their
+    adjudicated cuts must actually cut (the cut tail must not survive into
+    the served problemMd — fail-visible in both directions). Returns the
+    accounting dict; raises ExportGateError on any violation."""
+    g_stats = {"groups": 0, "served": 0, "splice": 0, "cuts": 0, "keys": 0}
+    g_keys_seen = set()
+    normsp = lambda s: re.sub(r"\s+", " ", s or "").strip()
+    for paper in PAPERS:
+        for series in PAPER_SERIES[paper]:
+            topic = topics_src(series, paper)
+            slug = f"{LANES[LANE_SPEC]['prefix']}{paper.lower()}-{series}"
+            served = next(t for t in out_sets if t["slug"] == slug)
+            served_by_qid = {q["id"]: q for q in served["questions"]}
+            for q in topic["questions"]:
+                qnum = str(q["question_number"])
+                sq = served_by_qid.get(
+                    f"offq_{series}_{paper.lower()}_{part_slug(qnum)}")
+                if sq is None:
+                    raise ExportGateError(f"G-E7: {slug} lost question {qnum}")
+                for letter, g in (q.get("groups") or {}).items():
+                    gs_raw = (g.get("group_stem_md") or "").strip()
+                    gkey = f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:Q{qnum}.{letter}"
+                    g_entry = (stem_ledger or {}).get("verdicts", {}).get(gkey)
+                    if g_entry:
+                        g_keys_seen.add(gkey)
+                    fp = next((p for p in q["parts"]
+                               if group_letter_of(p["part_number"]) == letter), None)
+                    if fp is None:
+                        if gs_raw or g_entry:
+                            raise ExportGateError(
+                                f"G-E7: {gkey} has a stem/ledger entry but no "
+                                f"part resolves to the group")
+                        continue
+                    if not gs_raw:
+                        continue
+                    g_stats["groups"] += 1
+                    gmd = restore_group_stem(
+                        g, series, paper, qnum, letter, stem_ledger or {},
+                        fp.get("problem_md"))
+                    target_id = (f"offp_{series}_{paper.lower()}_"
+                                 + part_slug(fp["part_number"]))
+                    sp = next((x for x in sq["parts"] if x["id"] == target_id), None)
+                    if sp is None:
+                        raise ExportGateError(
+                            f"G-E7: {slug} lost the group-first part {target_id}")
+                    if gmd is None:
+                        # splice-guard: the converter folded the stem into the
+                        # part text — the raw head MUST still be present
+                        g_stats["splice"] += 1
+                    head = normsp(gmd if gmd else gs_raw)[:60]
+                    if head and head not in normsp(sp["problemMd"]):
+                        raise ExportGateError(
+                            f"G-E7: group stem of {gkey} is not served on the "
+                            f"group's first part {target_id}")
+                    if gmd:
+                        g_stats["served"] += 1
+                    # cuts applied: the RAW (soup-carrying) stem must never
+                    # reach the served bytes — the cleaned form only. (Scoping
+                    # the check to the stem rather than the whole problemMd:
+                    # a part's own pre-existing text may legitimately repeat
+                    # soup tokens, e.g. the F94 drawing-option letter runs.)
+                    had_cut = bool(g_entry and (g_entry.get("tail")
+                                                or g_entry.get("dropTail")
+                                                or g_entry.get("dropSpan")))
+                    if had_cut and normsp(gs_raw) in normsp(sp["problemMd"]):
+                        raise ExportGateError(
+                            f"G-E7: the adjudicated cut of {gkey} was not "
+                            f"applied — the raw soup-carrying stem survives "
+                            f"verbatim in the served problemMd")
+                    if g_entry and (g_entry.get("tail") or g_entry.get("dropTail")
+                                    or g_entry.get("dropSpan")):
+                        g_stats["cuts"] += 1
+    lane_code = LANES[LANE_SPEC]["code"]
+    hosted = {s for paper in PAPERS for s in PAPER_SERIES[paper]}
+    stale = sorted(
+        k for k in (stem_ledger or {}).get("verdicts", {})
+        if "." in k.split(":")[-1]
+        and f"/{lane_code}-" in k
+        and k.split("/")[0] in hosted
+        and k not in g_keys_seen)
+    if stale:
+        raise ExportGateError(
+            f"G-E7: {len(stale)} group ledger key(s) never resolved for this lane "
+            f"(stale or misnamed — the F113 unconsumed-key law): {stale[:4]}")
+    g_stats["keys"] = len(g_keys_seen)
+    return g_stats
+
+
 def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path, topics_src, allow_new_official=False, stem_ledger=None, enrich=None):
     """G-E1..G-E4 against the two-file bundle of record (raw_sme_bytes = the
     SME-only questions.json, raw_official_bytes = official-papers.json).
@@ -1062,6 +1330,16 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
             f"(of record {len(raw_sme_bytes)} bytes vs staged {len(out_q_bytes)} bytes)")
     print(f"G-E4 ok: questions.json byte-identical passthrough ({len(raw_sme_bytes)} bytes, "
           f"{len(sme_sets)} SME sets)")
+    # ---- G-E7: the group stem is a first-class serving plane law (F121) ----
+    # The check itself is g_e7_group_stem_law() (unit-batteried,
+    # scripts/official_examq_f121_tests.py).
+    g_stats = g_e7_group_stem_law(out_sets, topics_src, stem_ledger)
+    print(f"G-E7 ok: {g_stats['groups']} group stems accounted for "
+          f"({g_stats['served']} restored to their group's first part, "
+          f"{g_stats['splice']} splice-guarded, {g_stats['cuts']} adjudicated cuts "
+          f"applied; {g_stats['keys']} group ledger keys consumed)")
+
+
 
 
 
@@ -1164,7 +1442,7 @@ def main():
         # F51: the pin law — the staged manifest names the data cut the run
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
-        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F119_NOTE_HEAD
+        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F121_NOTE_HEAD
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
