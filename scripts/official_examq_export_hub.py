@@ -97,16 +97,57 @@ RAW = "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Offici
 SERIES_LABEL = {"01": "January", "06": "June", "11": "November"}
 OFFICIAL_SLUG_PREFIX = "official-4ch1-"
 _CHEM_MANIFEST_NOTE = None   # chemistry keeps its per-wave note hardcode at the staging site
+# F119 headline of record (T-OEQ-PARTLABEL-3). The full chained note (this
+# headline + the superseded pin's note kept verbatim) is assembled on the
+# serving manifest in the v2 content PR; this hardcode is the exporter-side
+# bump the staging law requires.
+_CHEM_F119_NOTE_HEAD = (
+    "ADR-037 exporter v4 at this cut (F119, the printed-part-label serving wave "
+    "- T-OEQ-PARTLABEL-3): sourcePaper.questionPart is now a first-class serving "
+    "field on the official plane - the printed label ('(a)', '(a)(i)') derived "
+    "from the corpus part_number by printed_part_label() (fail-closed grammar: "
+    "1-3 parenthesized [a-z0-9]{1,5} groups) and identity-checked against the "
+    "part id slug by the new G-E6 label gate (fail-closed both directions: a "
+    "label can never vanish or be invented; null IFF the part is a path-less "
+    "whole-question slice). official-papers.json re-served at this cut: all "
+    "2,607 parts carry labels (G-E1 census == scripts/exporter-disclosures/"
+    "2026-10-30-f119-part-label-serving-4ch1.json exactly - the label class "
+    "only, zero content deltas, new=0/gone=0). Counts unchanged (54 sets / 477 "
+    "questions / 2,607 parts / 4,860 marks / 4,161 markPoints); G-E4 SME "
+    "passthrough byte-identical (2,605,409 B); figure crops 478 + honest stubs "
+    "7 unchanged. The hub player consumes the field first (lib/part-label "
+    "data-first branch) with the slug parse kept as fail-closed fallback; "
+    "labels render inline with the part text (T-OEQ-PARTLABEL-2) at a smaller "
+    "label size (T-OEQ-PARTLABEL-3 operator refinement, trace "
+    "1a18a2e461266b5d). Wave-15 UX doctrine governs under ADR-039 "
+    "fix-and-disclose: best learner experience, values never invented. The "
+    "full prior-lineage chain (through the F117 #451 pin @2be1107f and the "
+    "F113/F108 waves it chains) is preserved verbatim on the serving manifest. "
+    "54 official sets (16x1C + 16x2C + R-variants), 477 questions, 2,607 parts, "
+    "all spec-tagged.")
 _PHYS_MANIFEST_NOTE = (
-    "4PH1 lane bootstrap (Task 22, F103): the first official-papers.json for "
-    "igcse-physics-19 - 55 official sets (17x1P + 16x2P + 11x1PR + 11x2PR; the 3 "
-    "2020-11 NO-QP dirs stay na:pmt-not-listed), rebuilt from the resources "
-    "Official-ExamQuestion/igcse-physics-19 corpus of record (converter v0.25.0, "
-    "all 55 slices fully PASS; G3 142/142, G5 2,254/2,254, spec tags terminal). "
-    "Wave-15 UX doctrine governs under ADR-039 fix-and-disclose: best learner "
-    "experience, values never invented. The SME questions.json is a byte-identical "
-    "passthrough (G-E4); the export is disclosed by "
-    "scripts/exporter-disclosures/2026-10-27-task22-physics-bootstrap.json.")
+    "ADR-037 exporter v4 at this cut (F119, the printed-part-label serving wave "
+    "- T-OEQ-PARTLABEL-3): sourcePaper.questionPart is now a first-class serving "
+    "field on the official plane - the printed label ('(a)', '(a)(i)') derived "
+    "from the corpus part_number by printed_part_label() (fail-closed grammar) "
+    "and identity-checked against the part id slug by the new G-E6 label gate "
+    "(fail-closed both directions: null IFF path-less). official-papers.json "
+    "re-served at this cut: 2,239 of 2,254 parts carry labels (G-E1 census == "
+    "scripts/exporter-disclosures/2026-10-30-f119-part-label-serving-4ph1.json "
+    "exactly - the label class only, zero content deltas, new=0/gone=0); the 15 "
+    "whole-question slices stay honestly null. Counts unchanged (55 sets / 540 "
+    "questions / 2,254 parts / 4,970 marks / 2,254 markPoints; figure crops 520 "
+    "+ honest stubs 25); G-E4 SME passthrough byte-identical (2,057,977 B). The "
+    "hub player consumes the field first (lib/part-label data-first branch) "
+    "with the slug parse kept as fail-closed fallback; labels render inline "
+    "with the part text (T-OEQ-PARTLABEL-2) at a smaller label size "
+    "(T-OEQ-PARTLABEL-3 operator refinement, trace 1a18a2e461266b5d). Wave-15 "
+    "UX doctrine governs under ADR-039 fix-and-disclose: best learner "
+    "experience, values never invented. Supersedes the G-E4-PHYS-STAMP-1 stamp "
+    "@main@3b2ce8da700b80f51700fb34fc721c90d6654d6b; its full note (and the "
+    "bootstrap lineage it chains to Task 22 / F103) is preserved verbatim on "
+    "the serving manifest. 55 official sets (17x1P + 16x2P + 11x1PR + 11x2PR), "
+    "540 questions, 2,254 parts, all spec-tagged.")
 
 
 def series_label(series):
@@ -116,6 +157,51 @@ def series_label(series):
 
 def part_slug(pn):
     return pn.replace("(", "-").replace(")", "")
+
+
+def printed_part_label(part_number):
+    """F119: the printed part label ("(a)", "(a)(i)") served as a first-class
+    field (sourcePaper.questionPart) — the corpus part_number minus its leading
+    question number. None IFF the part_number carries no printed sub-part label
+    (whole-question slices: maths-B's bare "2"/"4", the 735 no-path class).
+    Fail-closed grammar: 1-3 parenthesized [a-z0-9]{1,5} groups; anything else
+    refuses (None) — and G-E6's id cross-check then refuses the part outright
+    if its id slug disagrees, so a label can never silently vanish or be made
+    up. The hub player (lib/part-label, T-OEQ-PARTLABEL-1/2/3) consumes this
+    field of record first and keeps the slug parse as the fail-closed fallback."""
+    m = re.match(r"^\d+(.*)$", (part_number or "").strip())
+    rest = (m.group(1) if m else "").strip()
+    if not rest:
+        return None
+    if not re.match(r"^(?:\([a-z0-9]{1,5}\)){1,3}$", rest):
+        return None
+    return rest
+
+
+def g_e6_label_law(parts, census=None):
+    """F119: every official part's sourcePaper.questionPart must BE the label
+    its own identity carries — the id slug's path segments re-wrapped
+    ("1-a-i" -> "(a)(i)"); null IFF the id is path-less (whole-question
+    slices). Fail-closed in BOTH directions: a vanished label and an invented
+    one both raise. census (optional dict) accumulates per-path-level counts."""
+    label_seg_re = re.compile(r"^[a-z0-9]{1,5}$")
+    for p in parts:
+        bits = p["id"].split("_")
+        if len(bits) != 4 or bits[0] != "offp":
+            raise ExportGateError(
+                f"G-E6: {p['id']} id shape off-grammar (offp_<series>_<paper>_<qn>[-<path>])")
+        segs = bits[3].split("-")[1:]
+        if segs and not (len(segs) <= 3 and all(label_seg_re.match(s) for s in segs)):
+            raise ExportGateError(
+                f"G-E6: {p['id']} path segments off-grammar: {segs!r}")
+        expected = "".join(f"({s})" for s in segs) if segs else None
+        actual = (p.get("sourcePaper") or {}).get("questionPart")
+        if actual != expected:
+            raise ExportGateError(
+                f"G-E6: {p['id']} questionPart {actual!r} != the id-derived "
+                f"printed label {expected!r}")
+        if census is not None:
+            census[len(segs)] = census.get(len(segs), 0) + 1
 
 
 PAPER = os.environ.get("EXAMQ_EXPORT_PAPERS", "1C,2C")   # legacy env (unused by the v4 flow)
@@ -565,7 +651,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                     "date": series_label(series),
                     "number": f"{LANES[LANE_SPEC]['code']}/{paper}",
                     "questionNumber": int(qnum) if qnum.isdigit() else None,
-                    "questionPart": None,
+                    "questionPart": printed_part_label(p["part_number"]),
                 },
             })
         questions.append({
@@ -938,6 +1024,22 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
                               "namespace change must land in the exporter of record and the "
                               "bundle in the same reviewed PR)")
     print(f"G-E1b ok: set-level identity fields byte-equal on all {n_common} common official sets")
+    # ---- G-E6: the printed part label is a first-class field (F119) ----
+    # Identity is a law, not a wave artifact (the G-E1b precedent) — the
+    # emitted label and the part id derive from the same corpus part_number,
+    # so any disagreement here is an exporter bug and fails closed in BOTH
+    # directions (a vanished label and an invented one). The check itself is
+    # g_e6_label_law() (unit-batteried, scripts/official_examq_f119_tests.py).
+    label_census = {}
+    for t in out_sets:
+        if not is_official(t):
+            continue
+        for q in t["questions"]:
+            g_e6_label_law(q["parts"], label_census)
+    print("G-E6 ok: questionPart == the id-derived printed label on all official "
+          f"parts ({label_census.get(1, 0)} one-level, {label_census.get(2, 0)} "
+          f"two-level, {label_census.get(3, 0)} three-level, "
+          f"{label_census.get(0, 0)} path-less/null)")
     # ---- G-E4: the SME corpus of record is never touched ----
     # Two-file law (v2 IA 662654ade0): the staged questions.json must be a
     # byte-identical passthrough of the SME bundle of record — proven on the
@@ -1062,28 +1164,7 @@ def main():
         # F51: the pin law — the staged manifest names the data cut the run
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
-        manifest["importSource"]["note"] = _manifest_note_text() or (
-            "ADR-037 converter v0.30.0 corpus (the F113 MS-answer-figure wave — the "
-            "F95/F97 filed MS-side crop capability): the converter\'s first MS-side crop "
-            "path — MS-ANSWER-FIGURES.json (eyeball ledger, flat per-part verdicts) emits "
-            "crop-required stubs (source ms.pdf) and the F45/F99 verdict branches render "
-            "accepted manual_crop boxes FROM the MS PDF (fail-closed: malformed entries, "
-            "id collisions, slice-scoped unconsumed ledger keys). The exporter serves the "
-            "printed MS answer in solutionMd (official mark scheme answer figure, ms.pdf "
-            "p.N caption, after the authored walkthrough; assets[] carry source:\'ms\'). "
-            "Serving delta: 7 parts across 6 slices — 2026-06 2C 5(a) (ethanol + ethyl "
-            "ethanoate displayed formulae), 2019-06 2C 2(a) (printed halogen answer table) "
-            "+ 6(d)(ii) (ethanoic acid + 1-mark partial), 2022-01 2C 7(a)(i) (circled ester "
-            "group), 2023-01 2C 6(a)(i) (circled carbonyl), 2024-11 2C 7(a)(ii) (hand-drawn "
-            "propan-1-ol photo), 2023-06 2CR 7(c)(ii) (hand-drawn 2-methylpropanoic acid "
-            "photo — corroborates F107). Proof: 6/6 slices 8/8 gates, fresh == surgical on "
-            "every target part with PNG byte-identity, residual deltas = F111 classes, "
-            "canaries 117/117 (C113-C119 pin the parts). Canaries C113-C119 (110->117). "
-            "G-E gates green; census constants unchanged (54 sets / 477 questions / 2,607 "
-            "parts / 4,161 markPoints); figure crops 471->478. Wave-15 UX doctrine governs "
-            "under ADR-039 fix-and-disclose: best learner experience, values never "
-            f"invented. {official_n} official sets (16x1C + "
-            f"16x2C + R-variants), {n_q} questions, {n_p} parts, all spec-tagged.")
+        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F119_NOTE_HEAD
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
