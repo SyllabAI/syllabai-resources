@@ -1,0 +1,21 @@
+{
+ "schema": "sib-evidence-claim-qa/1.3",
+ "script": "runs/SIB-CHEMISTRY_4CH1-ASSESS-R3/scripts/assess_r3_silver.py citation grammar r3 (ASM-03 re-gate post F-S1 fix)",
+ "law": "every (SRC-*, locator) resolves to the artifact's own pack; every (census.json, path) resolves to the run census annex; quoted fragments bind to the cited excerpts (r1); page, JSONL-line, and markdown-range locators verified against pack excerpts (r3); unparseable citations fail closed",
+ "artifacts": [
+  {
+   "artifact_id": "ASM-03",
+   "citations_checked": 21,
+   "located": 20,
+   "identity": 1,
+   "prose": 0,
+   "quote_spans_checked": 19,
+   "quote_spans_mild_bound": 17,
+   "quote_spans_aggressive_bound": 2,
+   "quote_spans_fs3_classified": 0,
+   "quote_spans_unbound": 0,
+   "violations": [],
+   "violation_count": 0
+  }
+ ]
+}
