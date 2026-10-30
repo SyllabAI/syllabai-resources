@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-stem-restore/1.0",
- "doctrine": "ADR-039 fix-and-disclose: presentation-layer improvement is ordinary disclosed correction (edit_status + edits[]); values never invented. wave-20 machinery stands: stemFigures carry the eyeballed crop boxes for the stem-figure tranche (crop-required stub -> F45 manual_crop render); dropTail/dropSpan remove flattened figure-label soup that the crop now serves visually; stemFigureRef inlines an already-cropped figure. Anchors disclosed, fail-disclosed. Group-stem keys (Q<n>.<letter>, F121) restore the question-group intro to the group's first part: same verdict vocabulary + dropSpan/dropTail cuts + mechanical cleaning; a group entry may declare figures[] (asset ids rendered after the group stem, print order restored); fail-closed anchors; slice-scoped consumption (G-E7).",
+ "doctrine": "ADR-039 fix-and-disclose: presentation-layer improvement is ordinary disclosed correction (edit_status + edits[]); values never invented. wave-20 machinery stands: stemFigures carry the eyeballed crop boxes for the stem-figure tranche (crop-required stub -> F45 manual_crop render); dropTail/dropSpan remove flattened figure-label soup that the crop now serves visually; stemFigureRef inlines an already-cropped figure. Anchors disclosed, fail-disclosed. Group-stem keys (Q<n>.<letter>, F121) restore the question-group intro to the group's first part: same verdict vocabulary + dropSpan/dropTail cuts + mechanical cleaning; a group entry may declare figures[] (asset ids rendered after the group stem, print order restored); fail-closed anchors; slice-scoped consumption (G-E7). Part-level keys (Q<n>.<g>(<i>), F125) adjudicate the same flattened-soup class living in a part's OWN problem_md: same cut law (the cut removes only what a crop of record serves — served_by must resolve to a crop asset of that part), fail-closed verbatim anchors, slice-scoped consumption (G-E7); cropRect records the eyeballed re-crop box when the wave re-cropped the serving asset.",
  "verdicts": {
   "2019-06/4CH1-1C:Q1": {
    "verdict": "drop-tail",
@@ -2562,6 +2562,18 @@
     }
    ],
    "why": "fractionating column flattened to its fraction letters; the printed column is cropped as a declared group figure on 3(a)(i) (the group's first part is the question's first part, print order)"
+  },
+  "2019-06/4CH1-1CR:Q8.b(i)": {
+   "verdict": "keep",
+   "dropTail": "Temperature of reaction mixture 25 in \u00b0C 0 10 20 30 40 Total volume of acid in cm3",
+   "served_by": "asset_8_b_i_grid",
+   "cropRect": [
+    143,
+    192,
+    507.5,
+    533.3
+   ],
+   "why": "the printed plotting grid's axis block flattened into the part's OWN problem_md (the F123 residual part-level soup, adjudicated by the part-level pass); the printed grid \u2014 y-axis title 'Temperature of reaction mixture in \u00b0C', y-scale 20/25/30, x-scale 0-40, x-axis title 'Total volume of acid in cm3' \u2014 is served by the eyeballed re-crop of asset_8_b_i_grid (F125 rect [143, 192, 507.5, 533.3] on qp.pdf p.19, rendered at 150 dpi from the sha-verified QP of record; the prior converter-era auto-crop clipped the y-axis title, so the crop was re-cut FIRST \u2014 the cut removes only what the crop now serves, the wave-19/20 law); pre-cut context ends in complete prose ('...Make sure that the two lines cross.')"
   }
  }
 }

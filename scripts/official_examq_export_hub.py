@@ -106,6 +106,24 @@ F121 additions (v7, group-stem tranche — T-OEQ-GROUPSTEM-1):
            never vanish, be invented, or be mis-attached; group ledger keys
            are slice-scoped consumed (the F113 law); adjudicated cuts must
            actually cut (the cut tail must not survive into the served bytes).
+
+F125 additions (v6, part-level soup tranche — T-OEQ-PARTSOUP-1):
+  F-W20-5  part-level cuts: the F123 residual class — flattened figure-label
+           soup living in a part's OWN problem_md (pre-existing, the group
+           machinery never touches part text) — is adjudicated by the SAME
+           cut law in a new ledger key space `Q<n>.<g>(<i>)` (the printed
+           part label minus its leading question number and the first
+           group's parens: 8(b)(i) -> Q8.b(i)). apply_part_cut() mirrors the
+           stem/group ledger application (dropSpan/dropTail, fail-closed
+           verbatim anchors, the same trailing-connector strip) and the
+           entry's served_by must resolve to a crop asset OF THAT PART
+           (machine-checked crop corroboration — a cut removes only what a
+           crop of record serves, never the reverse).
+  G-E7+    the plane law extends to the part-level space: part ledger keys
+           are slice-scoped consumed (stale keys refuse); an adjudicated
+           part cut must actually cut (the raw soup-carrying part text must
+           never reach the served bytes) and the cleaned head must be
+           served on the part itself.
 """
 import json, glob, os, re, subprocess, sys, hashlib
 from pathlib import Path
@@ -173,6 +191,32 @@ _CHEM_F123_NOTE_HEAD = (
     "governs under ADR-039 fix-and-disclose: best learner experience, values "
     "never invented. "
     + _CHEM_F121_NOTE_HEAD
+)
+# F125 headline of record (T-OEQ-PARTSOUP-1). Chains the F123 head verbatim
+# (the manifest note is the full chain; this is the exporter-side bump the
+# staging law requires).
+_CHEM_F125_NOTE_HEAD = (
+    "ADR-037 exporter v6 at this cut (F125, the part-level soup pass "
+    "- T-OEQ-PARTSOUP-1): the F123 residual part-level soup class adjudicates "
+    "to zero - flattened figure-label soup living in a part's OWN problem_md "
+    "(1 of record: 2019-06 1CR 8(b)(i), the printed plotting grid's axis "
+    "block) now cuts under the same wave-19/20 cut law in a new "
+    "STEM-RESTORE.json part key space (Q<n>.<g>(<i>)): the serving crop was "
+    "re-cut FIRST (the converter-era auto-crop of asset_8_b_i_grid clipped "
+    "the printed y-axis title; the F125 eyeballed rect [143, 192, 507.5, "
+    "533.3] on qp.pdf p.19 restores it, rendered from the sha-verified QP of "
+    "record) so the cut removes only what the crop serves; G-E7 extends to "
+    "the part-level space (slice-scoped consumed, served_by must be a crop "
+    "asset of the part, the raw soup-carrying part text must never reach the "
+    "served bytes). official-papers.json re-served at this cut: 1 part "
+    "changed (G-E1 census == "
+    "scripts/exporter-disclosures/2026-10-31-f125-part-soup-4ch1.json "
+    "exactly - the part-soup class only, new=0/gone=0). Counts: 54 sets / "
+    "477 questions / 2,607 parts / 4,860 marks / 4,161 markPoints; figure "
+    "crops 491 + honest stubs 7; G-E4 SME passthrough byte-identical. "
+    "Wave-15 UX doctrine governs under ADR-039 fix-and-disclose: best "
+    "learner experience, values never invented. "
+    + _CHEM_F123_NOTE_HEAD
 )
 # F119 headline of record (T-OEQ-PARTLABEL-3). The full chained note (this
 # headline + the superseded pin's note kept verbatim) is assembled on the
@@ -576,6 +620,48 @@ def group_letter_of(part_number):
     return m.group(2) if m else None
 
 
+def part_ledger_key(qnum, part_number):
+    """F125: the part-level verdict key suffix for a part's OWN problem_md —
+    the printed part label minus its leading question number and the first
+    group's parens: '8(b)(i)' -> 'b(i)', '6(a)' -> 'a', '15(b)(iv)' -> 'b(iv)'.
+    Whole-question parts (no parenthesized path) carry no part-level key."""
+    pn = str(part_number or "")
+    q = str(qnum)
+    if not pn.startswith(q + "("):
+        return None
+    suffix = pn[len(q) + 1:]
+    if not suffix or ")" not in suffix:
+        return None
+    first, _, rest = suffix.partition(")")
+    return f"Q{q}.{first}{rest}"
+
+
+def apply_part_cut(text, entry, key):
+    """F125 (F-W20-5): the part-level adjudicated cuts — the same verdict
+    vocabulary, fail-closed verbatim anchors and trailing-connector strip as
+    the F121 group machinery (restore_group_stem), deliberately mirrored not
+    shared so the group path's served bytes stay byte-identical. Applies to
+    the part's OWN problem_md only; the entry's served_by crop corroboration
+    is machine-checked by the G-E7 part-level law."""
+    span = entry.get("dropSpan")
+    if span:
+        a_from, a_to = span
+        i, j = text.find(a_from), text.find(a_to)
+        if i < 0 or j < 0 or j < i:
+            raise ExportGateError(
+                f"F125: dropSpan anchors not found/ordered in part {key}: "
+                f"{a_from[:50]!r} -> {a_to[:50]!r}")
+        text = (text[:i].rstrip() + " " + text[j:].lstrip()).strip()
+    tail = entry.get("dropTail")
+    if tail:
+        if tail not in text:
+            raise ExportGateError(
+                f"F125: dropTail anchor not found in part {key}: {tail[:60]!r}")
+        text = text[:text.index(tail)].rstrip()
+        text = re.sub(r"[\s]*[-\u2013\u2014.:;]?$", "", text)
+    return text
+
+
 def restore_group_stem(g, series, paper, qnum, letter, ledger, first_problem_md):
     """F121 (F-W20-4): the question-group intro (groups[letter].group_stem_md)
     is restored to the group's FIRST part — the largest remaining stem class
@@ -782,6 +868,15 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                             "answer space provided.*")
                 assets_out.append(entry)
             problem_md = (p.get("problem_md") or "").strip()
+            # F125 (F-W20-5): the part-level adjudicated cuts (the F123
+            # residual class — soup in a part's OWN problem_md) apply before
+            # composition, under the same fail-closed anchor law.
+            pk = part_ledger_key(qnum, p["part_number"])
+            if pk:
+                pkey = f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:{pk}"
+                p_entry = (stem_ledger or {}).get("verdicts", {}).get(pkey)
+                if p_entry:
+                    problem_md = apply_part_cut(problem_md, p_entry, pkey)
             head = []
             g_here = g_first_pn.get(p["part_number"])
             if len(parts) == 0 and stem_md:
@@ -1090,8 +1185,10 @@ def g_e7_group_stem_law(out_sets, topics_src, stem_ledger):
     adjudicated cuts must actually cut (the cut tail must not survive into
     the served problemMd — fail-visible in both directions). Returns the
     accounting dict; raises ExportGateError on any violation."""
-    g_stats = {"groups": 0, "served": 0, "splice": 0, "cuts": 0, "keys": 0}
+    g_stats = {"groups": 0, "served": 0, "splice": 0, "cuts": 0, "keys": 0,
+               "part_cuts": 0, "part_keys": 0}
     g_keys_seen = set()
+    p_keys_seen = set()
     normsp = lambda s: re.sub(r"\s+", " ", s or "").strip()
     for paper in PAPERS:
         for series in PAPER_SERIES[paper]:
@@ -1158,6 +1255,50 @@ def g_e7_group_stem_law(out_sets, topics_src, stem_ledger):
                     if g_entry and (g_entry.get("tail") or g_entry.get("dropTail")
                                     or g_entry.get("dropSpan")):
                         g_stats["cuts"] += 1
+                # ---- F125: the part-level plane law — ledger verdicts over a
+                # part's OWN problem_md (the F123 residual class). Consumed
+                # slice-scoped (the F113 law); served_by must be a crop asset
+                # OF THE PART (the wave-19/20 cut law, machine-checked); the
+                # cut must actually cut (the raw soup-carrying part text must
+                # never reach the served bytes) and the cleaned head must be
+                # served on the part itself.
+                for p in q["parts"]:
+                    pk = part_ledger_key(qnum, p["part_number"])
+                    if pk is None:
+                        continue
+                    pkey = f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:{pk}"
+                    p_entry = (stem_ledger or {}).get("verdicts", {}).get(pkey)
+                    if not p_entry:
+                        continue
+                    p_keys_seen.add(pkey)
+                    target_id = (f"offp_{series}_{paper.lower()}_"
+                                 + part_slug(p["part_number"]))
+                    sp = next((x for x in sq["parts"] if x["id"] == target_id), None)
+                    if sp is None:
+                        raise ExportGateError(
+                            f"G-E7: {slug} lost the ledgered part {target_id}")
+                    sb = p_entry.get("served_by")
+                    pa = next((a for a in (p.get("assets") or [])
+                               if a.get("id") == sb), None)
+                    if pa is None or pa.get("kind") != "crop":
+                        raise ExportGateError(
+                            f"G-E7: the part-level cut of {pkey} names served_by "
+                            f"{sb!r} which is not a crop asset of the part "
+                            f"(a cut removes only what a crop of record serves)")
+                    raw_md = (p.get("problem_md") or "").strip()
+                    cleaned = apply_part_cut(raw_md, p_entry, pkey)
+                    if normsp(raw_md) and normsp(raw_md) in normsp(sp["problemMd"]):
+                        raise ExportGateError(
+                            f"G-E7: the adjudicated part cut of {pkey} was not "
+                            f"applied — the raw soup-carrying part text survives "
+                            f"verbatim in the served problemMd")
+                    head = normsp(cleaned)[:60]
+                    if head and head not in normsp(sp["problemMd"]):
+                        raise ExportGateError(
+                            f"G-E7: the cleaned part text of {pkey} is not served "
+                            f"on the part {target_id}")
+                    if p_entry.get("dropTail") or p_entry.get("dropSpan"):
+                        g_stats["part_cuts"] += 1
     lane_code = LANES[LANE_SPEC]["code"]
     hosted = {s for paper in PAPERS for s in PAPER_SERIES[paper]}
     stale = sorted(
@@ -1165,12 +1306,14 @@ def g_e7_group_stem_law(out_sets, topics_src, stem_ledger):
         if "." in k.split(":")[-1]
         and f"/{lane_code}-" in k
         and k.split("/")[0] in hosted
-        and k not in g_keys_seen)
+        and k not in g_keys_seen
+        and k not in p_keys_seen)
     if stale:
         raise ExportGateError(
             f"G-E7: {len(stale)} group ledger key(s) never resolved for this lane "
             f"(stale or misnamed — the F113 unconsumed-key law): {stale[:4]}")
     g_stats["keys"] = len(g_keys_seen)
+    g_stats["part_keys"] = len(p_keys_seen)
     return g_stats
 
 
@@ -1362,7 +1505,9 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
     print(f"G-E7 ok: {g_stats['groups']} group stems accounted for "
           f"({g_stats['served']} restored to their group's first part, "
           f"{g_stats['splice']} splice-guarded, {g_stats['cuts']} adjudicated cuts "
-          f"applied; {g_stats['keys']} group ledger keys consumed)")
+          f"applied; {g_stats['keys']} group ledger keys consumed; "
+          f"{g_stats['part_cuts']} part-level cuts applied on "
+          f"{g_stats['part_keys']} part ledger keys)")
 
 
 
@@ -1467,7 +1612,7 @@ def main():
         # F51: the pin law — the staged manifest names the data cut the run
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
-        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F123_NOTE_HEAD
+        manifest["importSource"]["note"] = _manifest_note_text() or _CHEM_F125_NOTE_HEAD
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
