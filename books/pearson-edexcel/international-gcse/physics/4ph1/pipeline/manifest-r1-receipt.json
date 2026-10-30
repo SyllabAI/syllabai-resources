@@ -1,0 +1,22 @@
+{
+  "schema": "books-manifest-r1-receipt",
+  "task": "T-BOOK-SERVE 4PH1+4BI1 r1 \u2014 no-parse shelf book-block additive update",
+  "operatorTraces": {
+    "standingOrder": "1a18d6866b38000d",
+    "greyedOutReport": "1a18d92606b3b151"
+  },
+  "manifest": "manifest.json",
+  "addedFields": {
+    "book.author": {
+      "value": "Brian Arnold, Penny Johnson, Steve Woolley",
+      "source": "/home/z/my-project/download/t-book-serve-4ph1-4bi1-r0/4ph1-dry-ingest-receipt.json:book.author (parse-derived @ ibm-docling@v3)"
+    },
+    "book.units": {
+      "count": 8,
+      "source": "/home/z/my-project/download/t-book-serve-4ph1-4bi1-r0/4ph1-dry-ingest-receipt.json:toc.units (parse-derived @ ibm-docling@v3)",
+      "consistencyGate": "unit indexes == lesson-slice uN prefixes (script-asserted)"
+    }
+  },
+  "untouched": "slices/ranges/hashes/documentIds deep-compare-identical to the landed r0 manifest (additive-only gate, abort-on-drift)",
+  "consumer": "syllabai-v2 hub lib/books-slices.ts (r1: shelfEntryFromManifest/chaptersFromManifest \u2014 mirror fields optional, older manifests unaffected)"
+}

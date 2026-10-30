@@ -1,403 +1,430 @@
 {
- "schema": "book-slices-manifest-v2",
- "book": {
-  "documentId": "d98fb969-eab4-5511-af83-7807d8722f71",
-  "docVersion": 1,
-  "courseSlug": "igcse-biology-19",
-  "specKey": "pearson-edexcel/international-gcse/biology/4bi1",
-  "title": "Edexcel International GCSE (9-1) Biology Student Book",
-  "source": {
-   "archivePath": "books/pearson-edexcel/international-gcse/biology/4bi1/student-book.pdf",
-   "sha256": "974ad65d913108b9caa98df9eda1584e546177854bcd5efa6d8642797d093006",
-   "pages": 179
-  }
- },
- "slices": [
-  {
-   "file": "chapters/u1_c1.pdf",
-   "role": "lesson",
-   "chapterKey": "u1:c1",
-   "title": "Life processes",
-   "pdfRange": [
-    6,
-    17
-   ],
-   "slicePages": 12,
-   "bytes": 2342047,
-   "sha256": "5ffadf67f4cbb9cbf1df072445c4ddfa0cc5320a3afdf9f3388982203eda8f1d",
-   "questionsStartPage": 16
+  "schema": "book-slices-manifest-v2",
+  "book": {
+    "documentId": "d98fb969-eab4-5511-af83-7807d8722f71",
+    "docVersion": 1,
+    "courseSlug": "igcse-biology-19",
+    "specKey": "pearson-edexcel/international-gcse/biology/4bi1",
+    "title": "Edexcel International GCSE (9-1) Biology Student Book",
+    "source": {
+      "archivePath": "books/pearson-edexcel/international-gcse/biology/4bi1/student-book.pdf",
+      "sha256": "974ad65d913108b9caa98df9eda1584e546177854bcd5efa6d8642797d093006",
+      "pages": 179
+    },
+    "author": "Philip Bradfield, Steve Potter",
+    "units": [
+      {
+        "index": 1,
+        "title": "Organisms and Life Processes"
+      },
+      {
+        "index": 2,
+        "title": "Animal Physiology"
+      },
+      {
+        "index": 3,
+        "title": "Plant Physiology"
+      },
+      {
+        "index": 4,
+        "title": "Ecology and the Environment"
+      },
+      {
+        "index": 5,
+        "title": "Variation and Selection"
+      },
+      {
+        "index": 6,
+        "title": "Microorganisms and Genetic Modification"
+      }
+    ]
   },
-  {
-   "file": "chapters/u1_c2.pdf",
-   "role": "lesson",
-   "chapterKey": "u1:c2",
-   "title": "The variety of living organisms",
-   "pdfRange": [
-    17,
-    20
-   ],
-   "slicePages": 4,
-   "bytes": 908456,
-   "sha256": "a7d19cc3d6f4cfa9aeb48d3e96eb99586660faf1b45d8612e5ca0b813d5bf0d9",
-   "questionsStartPage": 20
-  },
-  {
-   "file": "chapters/u2_c3.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c3",
-   "title": "Breathing and gas exchange",
-   "pdfRange": [
-    24,
-    30
-   ],
-   "slicePages": 7,
-   "bytes": 1444790,
-   "sha256": "c8b46b79bad807dd6c5d8eae483e569f895d751be2ea543eaa7ec2f5891aa278",
-   "questionsStartPage": 29
-  },
-  {
-   "file": "chapters/u2_c4.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c4",
-   "title": "Food and digestion",
-   "pdfRange": [
-    31,
-    39
-   ],
-   "slicePages": 9,
-   "bytes": 1819408,
-   "sha256": "b821796689435d26123358268b36f453c2c8fe73a2974b186477eab2de386d1c",
-   "questionsStartPage": 38
-  },
-  {
-   "file": "chapters/u2_c5.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c5",
-   "title": "Blood and circulation",
-   "pdfRange": [
-    40,
-    46
-   ],
-   "slicePages": 7,
-   "bytes": 1342200,
-   "sha256": "16c088551f67af2bcb883c0930f6b30b261fe37132505e8c703a5bbf8b4cb9cf",
-   "questionsStartPage": 45
-  },
-  {
-   "file": "chapters/u2_c6.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c6",
-   "title": "Coordination",
-   "pdfRange": [
-    47,
-    53
-   ],
-   "slicePages": 7,
-   "bytes": 1285398,
-   "sha256": "2a2359f706bcca9e5734ada40bfacf25f3d63c266a23c3a88ebfc0b1836f9a7e",
-   "questionsStartPage": 52
-  },
-  {
-   "file": "chapters/u2_c7.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c7",
-   "title": "Chemical coordination",
-   "pdfRange": [
-    54,
-    56
-   ],
-   "slicePages": 3,
-   "bytes": 594218,
-   "sha256": "e2b07efb9a5b589fc942a7c43c04dabdc29c0b90ee694f5ad1ccef51f04aa993",
-   "questionsStartPage": 56
-  },
-  {
-   "file": "chapters/u2_c8.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c8",
-   "title": "Homeostasis and excretion",
-   "pdfRange": [
-    57,
-    63
-   ],
-   "slicePages": 7,
-   "bytes": 1351366,
-   "sha256": "4e4873df75555f138face73241944a5d42f642f2a6152a33b79c4d12eb9c1220",
-   "questionsStartPage": 62
-  },
-  {
-   "file": "chapters/u2_c9.pdf",
-   "role": "lesson",
-   "chapterKey": "u2:c9",
-   "title": "Reproduction in humans",
-   "pdfRange": [
-    64,
-    69
-   ],
-   "slicePages": 6,
-   "bytes": 1056014,
-   "sha256": "ba09e1418e3c14bc598abc0d0003fa5e96dc895bb5e12d73de73f3fadf2b0bb8",
-   "questionsStartPage": 68
-  },
-  {
-   "file": "chapters/u3_c10.pdf",
-   "role": "lesson",
-   "chapterKey": "u3:c10",
-   "title": "Plants and food",
-   "pdfRange": [
-    72,
-    80
-   ],
-   "slicePages": 9,
-   "bytes": 1613599,
-   "sha256": "5d94f5c8983d3df69a213d5c91a4984ff71815b44c435e77fc85af9220ff708f",
-   "questionsStartPage": 79
-  },
-  {
-   "file": "chapters/u3_c11.pdf",
-   "role": "lesson",
-   "chapterKey": "u3:c11",
-   "title": "Transport in plants",
-   "pdfRange": [
-    81,
-    88
-   ],
-   "slicePages": 8,
-   "bytes": 1571923,
-   "sha256": "29406ee06fef98cd4fa56f798648a857b6f1c76246b9ee703a2e0c0395b7755c",
-   "questionsStartPage": 87
-  },
-  {
-   "file": "chapters/u3_c12.pdf",
-   "role": "lesson",
-   "chapterKey": "u3:c12",
-   "title": "Chemical coordination in plants",
-   "pdfRange": [
-    89,
-    91
-   ],
-   "slicePages": 3,
-   "bytes": 565987,
-   "sha256": "aa012f7cd8aeb36af67d0d69e6d7b5d40777c1f64d5fbafb955544a94a2ee650",
-   "questionsStartPage": 91
-  },
-  {
-   "file": "chapters/u3_c13.pdf",
-   "role": "lesson",
-   "chapterKey": "u3:c13",
-   "title": "Reproduction in plants",
-   "pdfRange": [
-    92,
-    95
-   ],
-   "slicePages": 4,
-   "bytes": 694872,
-   "sha256": "13a26f8cff78de96fcad88cba4c194acac56913167cb0f25ddf1fa4711575658",
-   "questionsStartPage": 94
-  },
-  {
-   "file": "chapters/u4_c14.pdf",
-   "role": "lesson",
-   "chapterKey": "u4:c14",
-   "title": "Ecosystems",
-   "pdfRange": [
-    98,
-    106
-   ],
-   "slicePages": 9,
-   "bytes": 1809140,
-   "sha256": "0d17a918a40d720edd88c65b9e6665b1675724b952a7349ccbc81fee84eec678",
-   "questionsStartPage": 105
-  },
-  {
-   "file": "chapters/u4_c15.pdf",
-   "role": "lesson",
-   "chapterKey": "u4:c15",
-   "title": "Human influences on the environment",
-   "pdfRange": [
-    107,
-    115
-   ],
-   "slicePages": 9,
-   "bytes": 1965182,
-   "sha256": "d0d855711c3d51fc6d1095b261ed4b6909111c84d2213c4d9f1ded7549485bf4",
-   "questionsStartPage": 114
-  },
-  {
-   "file": "chapters/u5_c16.pdf",
-   "role": "lesson",
-   "chapterKey": "u5:c16",
-   "title": "Chromosomes, genes and DNA",
-   "pdfRange": [
-    118,
-    124
-   ],
-   "slicePages": 7,
-   "bytes": 1294950,
-   "sha256": "d04057f91051e9c7d807181e9bb026e694ed0dfd18bc656a0383276539635e8c",
-   "questionsStartPage": 124
-  },
-  {
-   "file": "chapters/u5_c17.pdf",
-   "role": "lesson",
-   "chapterKey": "u5:c17",
-   "title": "Cell division",
-   "pdfRange": [
-    125,
-    129
-   ],
-   "slicePages": 5,
-   "bytes": 884442,
-   "sha256": "005334aaa0e245274f354a761f99dd48d073188cb90f207a9e4e5a7f292954a5",
-   "questionsStartPage": 128
-  },
-  {
-   "file": "chapters/u5_c18.pdf",
-   "role": "lesson",
-   "chapterKey": "u5:c18",
-   "title": "Genes and inheritance",
-   "pdfRange": [
-    129,
-    135
-   ],
-   "slicePages": 7,
-   "bytes": 1140860,
-   "sha256": "8b4aad689cdd2709c6fa50835333ed1fb4180175c287ce39578d7095a01c606a",
-   "questionsStartPage": 134
-  },
-  {
-   "file": "chapters/u5_c19.pdf",
-   "role": "lesson",
-   "chapterKey": "u5:c19",
-   "title": "Natural selection and evolution",
-   "pdfRange": [
-    135,
-    138
-   ],
-   "slicePages": 4,
-   "bytes": 843816,
-   "sha256": "5b8279daf94856ee1cb533cd6a06b15b791f5e3697cc6221ebb5f30fa21925f2",
-   "questionsStartPage": 138
-  },
-  {
-   "file": "chapters/u5_c20.pdf",
-   "role": "lesson",
-   "chapterKey": "u5:c20",
-   "title": "Selective breeding",
-   "pdfRange": [
-    139,
-    143
-   ],
-   "slicePages": 5,
-   "bytes": 962331,
-   "sha256": "5c7c7bdd43b739d62803d624dfc0a105f34f006cd03ce42ea15c842f7f9cad5c",
-   "questionsStartPage": 142
-  },
-  {
-   "file": "chapters/u6_c21.pdf",
-   "role": "lesson",
-   "chapterKey": "u6:c21",
-   "title": "Using microorganisms",
-   "pdfRange": [
-    145,
-    149
-   ],
-   "slicePages": 5,
-   "bytes": 940452,
-   "sha256": "0c338bab296522bc61875255b6538b336c4cb38905f2fe9a14ae3acc736fb702",
-   "questionsStartPage": 148
-  },
-  {
-   "file": "chapters/u6_c22.pdf",
-   "role": "lesson",
-   "chapterKey": "u6:c22",
-   "title": "Genetic modification",
-   "pdfRange": [
-    149,
-    155
-   ],
-   "slicePages": 7,
-   "bytes": 1201874,
-   "sha256": "e998ac09a354cf5eabee26e7fa9a109fea6651af12183942386bc4357970992f",
-   "questionsStartPage": 154
-  },
-  {
-   "file": "units/u1_practice.pdf",
-   "role": "unit_exam",
-   "chapterKey": "u1:xexam-practice",
-   "title": "Unit 1 exam practice",
-   "pdfRange": [
-    21,
-    23
-   ],
-   "slicePages": 3,
-   "bytes": 458520,
-   "sha256": "35d48d7a1025c75bb16c1fc94e42eb1d760c394e672001c8e792066ff0dde0c3"
-  },
-  {
-   "file": "units/u2_practice.pdf",
-   "role": "unit_exam",
-   "chapterKey": "u2:xexam-practice",
-   "title": "Unit 2 exam practice",
-   "pdfRange": [
-    70,
-    71
-   ],
-   "slicePages": 2,
-   "bytes": 387091,
-   "sha256": "fc4e0899adcc4c751917aadc5b0d86957d9bb89b3a33e41f258c4fbef4509852"
-  },
-  {
-   "file": "units/u3_practice.pdf",
-   "role": "unit_exam",
-   "chapterKey": "u3:xexam-practice",
-   "title": "Unit 3 exam practice",
-   "pdfRange": [
-    96,
-    97
-   ],
-   "slicePages": 2,
-   "bytes": 346460,
-   "sha256": "da079d84b91173d5a70385be996e161f79e11a2ae466507b8d3ab3dd8009bb72"
-  },
-  {
-   "file": "units/u4_practice.pdf",
-   "role": "unit_exam",
-   "chapterKey": "u4:xexam-practice",
-   "title": "Unit 4 exam practice",
-   "pdfRange": [
-    115,
-    117
-   ],
-   "slicePages": 3,
-   "bytes": 477705,
-   "sha256": "502aebe0cc89154ea8115803524a9cbc058ee7cd6831f497bc63177a4ad40a35"
-  },
-  {
-   "file": "units/u5_practice.pdf",
-   "role": "unit_exam",
-   "chapterKey": "u5:xexam-practice",
-   "title": "Unit 5 exam practice",
-   "pdfRange": [
-    143,
-    144
-   ],
-   "slicePages": 2,
-   "bytes": 378242,
-   "sha256": "155a58d134289defb4579bd6b66c4a06df7e77a4efeb64d23fb41195b7acb399"
-  },
-  {
-   "file": "units/u6_practice.pdf",
-   "role": "unit_exam",
-   "chapterKey": "u6:xexam-practice",
-   "title": "Unit 6 exam practice",
-   "pdfRange": [
-    155,
-    156
-   ],
-   "slicePages": 2,
-   "bytes": 387712,
-   "sha256": "e7a4bc8814955743b45817b691f3f43f9cc940ef5165294fd2ddf11bddd42865"
-  }
- ]
+  "slices": [
+    {
+      "file": "chapters/u1_c1.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c1",
+      "title": "Life processes",
+      "pdfRange": [
+        6,
+        17
+      ],
+      "slicePages": 12,
+      "bytes": 2342047,
+      "sha256": "5ffadf67f4cbb9cbf1df072445c4ddfa0cc5320a3afdf9f3388982203eda8f1d",
+      "questionsStartPage": 16
+    },
+    {
+      "file": "chapters/u1_c2.pdf",
+      "role": "lesson",
+      "chapterKey": "u1:c2",
+      "title": "The variety of living organisms",
+      "pdfRange": [
+        17,
+        20
+      ],
+      "slicePages": 4,
+      "bytes": 908456,
+      "sha256": "a7d19cc3d6f4cfa9aeb48d3e96eb99586660faf1b45d8612e5ca0b813d5bf0d9",
+      "questionsStartPage": 20
+    },
+    {
+      "file": "chapters/u2_c3.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c3",
+      "title": "Breathing and gas exchange",
+      "pdfRange": [
+        24,
+        30
+      ],
+      "slicePages": 7,
+      "bytes": 1444790,
+      "sha256": "c8b46b79bad807dd6c5d8eae483e569f895d751be2ea543eaa7ec2f5891aa278",
+      "questionsStartPage": 29
+    },
+    {
+      "file": "chapters/u2_c4.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c4",
+      "title": "Food and digestion",
+      "pdfRange": [
+        31,
+        39
+      ],
+      "slicePages": 9,
+      "bytes": 1819408,
+      "sha256": "b821796689435d26123358268b36f453c2c8fe73a2974b186477eab2de386d1c",
+      "questionsStartPage": 38
+    },
+    {
+      "file": "chapters/u2_c5.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c5",
+      "title": "Blood and circulation",
+      "pdfRange": [
+        40,
+        46
+      ],
+      "slicePages": 7,
+      "bytes": 1342200,
+      "sha256": "16c088551f67af2bcb883c0930f6b30b261fe37132505e8c703a5bbf8b4cb9cf",
+      "questionsStartPage": 45
+    },
+    {
+      "file": "chapters/u2_c6.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c6",
+      "title": "Coordination",
+      "pdfRange": [
+        47,
+        53
+      ],
+      "slicePages": 7,
+      "bytes": 1285398,
+      "sha256": "2a2359f706bcca9e5734ada40bfacf25f3d63c266a23c3a88ebfc0b1836f9a7e",
+      "questionsStartPage": 52
+    },
+    {
+      "file": "chapters/u2_c7.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c7",
+      "title": "Chemical coordination",
+      "pdfRange": [
+        54,
+        56
+      ],
+      "slicePages": 3,
+      "bytes": 594218,
+      "sha256": "e2b07efb9a5b589fc942a7c43c04dabdc29c0b90ee694f5ad1ccef51f04aa993",
+      "questionsStartPage": 56
+    },
+    {
+      "file": "chapters/u2_c8.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c8",
+      "title": "Homeostasis and excretion",
+      "pdfRange": [
+        57,
+        63
+      ],
+      "slicePages": 7,
+      "bytes": 1351366,
+      "sha256": "4e4873df75555f138face73241944a5d42f642f2a6152a33b79c4d12eb9c1220",
+      "questionsStartPage": 62
+    },
+    {
+      "file": "chapters/u2_c9.pdf",
+      "role": "lesson",
+      "chapterKey": "u2:c9",
+      "title": "Reproduction in humans",
+      "pdfRange": [
+        64,
+        69
+      ],
+      "slicePages": 6,
+      "bytes": 1056014,
+      "sha256": "ba09e1418e3c14bc598abc0d0003fa5e96dc895bb5e12d73de73f3fadf2b0bb8",
+      "questionsStartPage": 68
+    },
+    {
+      "file": "chapters/u3_c10.pdf",
+      "role": "lesson",
+      "chapterKey": "u3:c10",
+      "title": "Plants and food",
+      "pdfRange": [
+        72,
+        80
+      ],
+      "slicePages": 9,
+      "bytes": 1613599,
+      "sha256": "5d94f5c8983d3df69a213d5c91a4984ff71815b44c435e77fc85af9220ff708f",
+      "questionsStartPage": 79
+    },
+    {
+      "file": "chapters/u3_c11.pdf",
+      "role": "lesson",
+      "chapterKey": "u3:c11",
+      "title": "Transport in plants",
+      "pdfRange": [
+        81,
+        88
+      ],
+      "slicePages": 8,
+      "bytes": 1571923,
+      "sha256": "29406ee06fef98cd4fa56f798648a857b6f1c76246b9ee703a2e0c0395b7755c",
+      "questionsStartPage": 87
+    },
+    {
+      "file": "chapters/u3_c12.pdf",
+      "role": "lesson",
+      "chapterKey": "u3:c12",
+      "title": "Chemical coordination in plants",
+      "pdfRange": [
+        89,
+        91
+      ],
+      "slicePages": 3,
+      "bytes": 565987,
+      "sha256": "aa012f7cd8aeb36af67d0d69e6d7b5d40777c1f64d5fbafb955544a94a2ee650",
+      "questionsStartPage": 91
+    },
+    {
+      "file": "chapters/u3_c13.pdf",
+      "role": "lesson",
+      "chapterKey": "u3:c13",
+      "title": "Reproduction in plants",
+      "pdfRange": [
+        92,
+        95
+      ],
+      "slicePages": 4,
+      "bytes": 694872,
+      "sha256": "13a26f8cff78de96fcad88cba4c194acac56913167cb0f25ddf1fa4711575658",
+      "questionsStartPage": 94
+    },
+    {
+      "file": "chapters/u4_c14.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c14",
+      "title": "Ecosystems",
+      "pdfRange": [
+        98,
+        106
+      ],
+      "slicePages": 9,
+      "bytes": 1809140,
+      "sha256": "0d17a918a40d720edd88c65b9e6665b1675724b952a7349ccbc81fee84eec678",
+      "questionsStartPage": 105
+    },
+    {
+      "file": "chapters/u4_c15.pdf",
+      "role": "lesson",
+      "chapterKey": "u4:c15",
+      "title": "Human influences on the environment",
+      "pdfRange": [
+        107,
+        115
+      ],
+      "slicePages": 9,
+      "bytes": 1965182,
+      "sha256": "d0d855711c3d51fc6d1095b261ed4b6909111c84d2213c4d9f1ded7549485bf4",
+      "questionsStartPage": 114
+    },
+    {
+      "file": "chapters/u5_c16.pdf",
+      "role": "lesson",
+      "chapterKey": "u5:c16",
+      "title": "Chromosomes, genes and DNA",
+      "pdfRange": [
+        118,
+        124
+      ],
+      "slicePages": 7,
+      "bytes": 1294950,
+      "sha256": "d04057f91051e9c7d807181e9bb026e694ed0dfd18bc656a0383276539635e8c",
+      "questionsStartPage": 124
+    },
+    {
+      "file": "chapters/u5_c17.pdf",
+      "role": "lesson",
+      "chapterKey": "u5:c17",
+      "title": "Cell division",
+      "pdfRange": [
+        125,
+        129
+      ],
+      "slicePages": 5,
+      "bytes": 884442,
+      "sha256": "005334aaa0e245274f354a761f99dd48d073188cb90f207a9e4e5a7f292954a5",
+      "questionsStartPage": 128
+    },
+    {
+      "file": "chapters/u5_c18.pdf",
+      "role": "lesson",
+      "chapterKey": "u5:c18",
+      "title": "Genes and inheritance",
+      "pdfRange": [
+        129,
+        135
+      ],
+      "slicePages": 7,
+      "bytes": 1140860,
+      "sha256": "8b4aad689cdd2709c6fa50835333ed1fb4180175c287ce39578d7095a01c606a",
+      "questionsStartPage": 134
+    },
+    {
+      "file": "chapters/u5_c19.pdf",
+      "role": "lesson",
+      "chapterKey": "u5:c19",
+      "title": "Natural selection and evolution",
+      "pdfRange": [
+        135,
+        138
+      ],
+      "slicePages": 4,
+      "bytes": 843816,
+      "sha256": "5b8279daf94856ee1cb533cd6a06b15b791f5e3697cc6221ebb5f30fa21925f2",
+      "questionsStartPage": 138
+    },
+    {
+      "file": "chapters/u5_c20.pdf",
+      "role": "lesson",
+      "chapterKey": "u5:c20",
+      "title": "Selective breeding",
+      "pdfRange": [
+        139,
+        143
+      ],
+      "slicePages": 5,
+      "bytes": 962331,
+      "sha256": "5c7c7bdd43b739d62803d624dfc0a105f34f006cd03ce42ea15c842f7f9cad5c",
+      "questionsStartPage": 142
+    },
+    {
+      "file": "chapters/u6_c21.pdf",
+      "role": "lesson",
+      "chapterKey": "u6:c21",
+      "title": "Using microorganisms",
+      "pdfRange": [
+        145,
+        149
+      ],
+      "slicePages": 5,
+      "bytes": 940452,
+      "sha256": "0c338bab296522bc61875255b6538b336c4cb38905f2fe9a14ae3acc736fb702",
+      "questionsStartPage": 148
+    },
+    {
+      "file": "chapters/u6_c22.pdf",
+      "role": "lesson",
+      "chapterKey": "u6:c22",
+      "title": "Genetic modification",
+      "pdfRange": [
+        149,
+        155
+      ],
+      "slicePages": 7,
+      "bytes": 1201874,
+      "sha256": "e998ac09a354cf5eabee26e7fa9a109fea6651af12183942386bc4357970992f",
+      "questionsStartPage": 154
+    },
+    {
+      "file": "units/u1_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u1:xexam-practice",
+      "title": "Unit 1 exam practice",
+      "pdfRange": [
+        21,
+        23
+      ],
+      "slicePages": 3,
+      "bytes": 458520,
+      "sha256": "35d48d7a1025c75bb16c1fc94e42eb1d760c394e672001c8e792066ff0dde0c3"
+    },
+    {
+      "file": "units/u2_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u2:xexam-practice",
+      "title": "Unit 2 exam practice",
+      "pdfRange": [
+        70,
+        71
+      ],
+      "slicePages": 2,
+      "bytes": 387091,
+      "sha256": "fc4e0899adcc4c751917aadc5b0d86957d9bb89b3a33e41f258c4fbef4509852"
+    },
+    {
+      "file": "units/u3_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u3:xexam-practice",
+      "title": "Unit 3 exam practice",
+      "pdfRange": [
+        96,
+        97
+      ],
+      "slicePages": 2,
+      "bytes": 346460,
+      "sha256": "da079d84b91173d5a70385be996e161f79e11a2ae466507b8d3ab3dd8009bb72"
+    },
+    {
+      "file": "units/u4_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u4:xexam-practice",
+      "title": "Unit 4 exam practice",
+      "pdfRange": [
+        115,
+        117
+      ],
+      "slicePages": 3,
+      "bytes": 477705,
+      "sha256": "502aebe0cc89154ea8115803524a9cbc058ee7cd6831f497bc63177a4ad40a35"
+    },
+    {
+      "file": "units/u5_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u5:xexam-practice",
+      "title": "Unit 5 exam practice",
+      "pdfRange": [
+        143,
+        144
+      ],
+      "slicePages": 2,
+      "bytes": 378242,
+      "sha256": "155a58d134289defb4579bd6b66c4a06df7e77a4efeb64d23fb41195b7acb399"
+    },
+    {
+      "file": "units/u6_practice.pdf",
+      "role": "unit_exam",
+      "chapterKey": "u6:xexam-practice",
+      "title": "Unit 6 exam practice",
+      "pdfRange": [
+        155,
+        156
+      ],
+      "slicePages": 2,
+      "bytes": 387712,
+      "sha256": "e7a4bc8814955743b45817b691f3f43f9cc940ef5165294fd2ddf11bddd42865"
+    }
+  ]
 }
