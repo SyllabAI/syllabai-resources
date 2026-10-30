@@ -1,0 +1,622 @@
+{
+  "format": "guided-lesson/0.5",
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/aad49939ebf1-1-5-6-water-of-crystallisation.png",
+      "alt": "Water of Crystallisation, downloadable IGCSE & GCSE Chemistry revision notes",
+      "sourceHeading": "Diagram:",
+      "caption": "Heating a hydrated salt to remove the water of crystallisation",
+      "binding": "note-level",
+      "moduleIds": []
+    }
+  ],
+  "noteRef": {
+    "noteId": "rn_pWzTTBv3B4yGFfj3",
+    "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+    "topicTitle": "1. Principles of Chemistry",
+    "subtopicTitle": "Chemical Formulae, Equations, Calculations",
+    "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-6-experiment-finding-formulae-of-compounds"
+  },
+  "specPoints": [
+    {
+      "code": "4CH1-1.31",
+      "text": "understand how the formulae of simple compounds can be obtained experimentally, including metal oxides, water and salts containing water of crystallisation"
+    },
+    {
+      "code": "4CH1-1.33",
+      "text": "calculate empirical and molecular formulae from experimental data"
+    }
+  ],
+  "primer": {
+    "text": "The last few notes turned masses into moles and moles back into masses using relative formula masses. This note points that arithmetic at the laboratory bench: measure masses before and after a reaction, convert both into moles, and the ratio that falls out is the formula itself. The worked case is a salt that carries water inside its crystals.",
+    "prerequisiteSubtopic": null
+  },
+  "lessons": [
+    {
+      "title": "Formulae of Simple Compounds by Experiment",
+      "sourceHeadings": [
+        "Formulae of Simple Compounds by Experiment",
+        "Formulae of a simple compound by experiment"
+      ],
+      "specRefs": [
+        "4CH1-1.31"
+      ],
+      "opening": "A chemical formula can be dug out of the laboratory itself: weigh the substances before and after a reaction, convert both masses into moles, and compare the two. Experiments where a gas escapes or is taken up suit this treatment best, because the mass change is easy to see. The ratio of moles then hands you the empirical formula.",
+      "keyPoints": [
+        "Mass measurements taken before and after a reaction are the raw material for a formula.",
+        "Converting the masses into moles lets molar ratios be deduced, and the ratios give the empirical formula.",
+        "Experiments with gases being lost or gained are the easiest to handle this way.",
+        "Heating a hydrated salt drives its water off as vapour, shrinking the mass by exactly the water's contribution.",
+        "The formulae of metal oxides, water and salts holding water of crystallisation can all be found experimentally."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Before the reaction, weigh everything; afterwards, weigh again. The difference is the mass that left as gas, and the two remaining masses convert into moles for the ratio.",
+          "analogy": "It works like counting a leaky delivery: weigh the van full and again at the end, and whatever vanished on the road is exactly what the journey consumed.",
+          "examPointer": "When a question says 'a gas is lost', read it as an invitation to use the mass change rather than a warning that the data is broken."
+        },
+        "medium": {
+          "restatement": "The bench method and the arithmetic method are the same move at different scales: balances supply the masses, relative formula masses turn them into moles, and the mole ratio is the formula, straight from evidence.",
+          "analogy": "Think of a baker deducing a recipe from the flour gone missing and the bread that appeared: the pantry's losses and gains, weighed carefully, expose the proportions.",
+          "examPointer": "Questions usually hand you the masses; the marks sit in dividing by the right relative formula masses and simplifying the ratio without panic."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is the principle behind finding a formula by experiment?",
+          "misconceptionClass": "method-principle error",
+          "options": [
+            {
+              "key": "A",
+              "text": "Measure masses before and after the reaction, convert them into moles, and deduce the molar ratio",
+              "correct": true,
+              "explanation": "Masses are what balances give; moles are what formulae count, so the ratio of moles is the formula evidence.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Heat every compound until it changes colour",
+              "correct": false,
+              "explanation": "Colour change belongs to the hydrated-salt case; the principle is mass measurement, not colour.",
+              "misconception": "one experiment's detail overgeneralised"
+            },
+            {
+              "key": "C",
+              "text": "Read the formula from the balanced equation",
+              "correct": false,
+              "explanation": "The aim is to find the formula; assuming an equation that already contains it goes in circles.",
+              "misconception": "circular reasoning"
+            },
+            {
+              "key": "D",
+              "text": "Titrate the compound against a standard solution",
+              "correct": false,
+              "explanation": "Titration measures reacting volumes of solutions; this method rests on mass changes.",
+              "misconception": "different technique confused with mass analysis"
+            }
+          ]
+        },
+        {
+          "stem": "Why do experiments where gases are lost or gained suit this method best?",
+          "misconceptionClass": "method-selection error",
+          "options": [
+            {
+              "key": "A",
+              "text": "The gas loss or gain shows up directly as a mass change",
+              "correct": true,
+              "explanation": "A mass change is the method's raw signal, and escaping or absorbed gas produces one on its own.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Gases have smaller relative formula masses",
+              "correct": false,
+              "explanation": "The size of the relative formula mass is irrelevant; what matters is that the total mass changes.",
+              "misconception": "irrelevant property invoked"
+            },
+            {
+              "key": "C",
+              "text": "Gases cannot be weighed",
+              "correct": false,
+              "explanation": "The gas itself need not be weighed; its effect on the total mass is what is recorded.",
+              "misconception": "balance limitation imagined"
+            },
+            {
+              "key": "D",
+              "text": "Other experiments give no useful data",
+              "correct": false,
+              "explanation": "Other routes exist, but mass-change experiments are the straightforward case for this technique.",
+              "misconception": "false exclusivity"
+            }
+          ]
+        },
+        {
+          "stem": "A metal is heated in open air and gains mass. What has happened?",
+          "misconceptionClass": "mass-change direction error",
+          "options": [
+            {
+              "key": "A",
+              "text": "The metal combined with oxygen from the air, so the extra mass is the oxygen now in the oxide",
+              "correct": true,
+              "explanation": "Gains are meaningful too: the metal oxide's mass minus the metal's mass is the oxygen that joined it.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The balance drifted during the heating",
+              "correct": false,
+              "explanation": "A reproducible gain in open air has a chemical cause before an instrumental one.",
+              "misconception": "instrument error blamed by default"
+            },
+            {
+              "key": "C",
+              "text": "The metal evaporated slightly",
+              "correct": false,
+              "explanation": "Evaporation would lose mass; the recorded change here is a gain.",
+              "misconception": "mass change direction confused"
+            },
+            {
+              "key": "D",
+              "text": "The metal expanded, so it weighs more",
+              "correct": false,
+              "explanation": "Expansion changes volume, not mass; only bonded oxygen adds grams.",
+              "misconception": "expansion mistaken for mass gain"
+            }
+          ]
+        },
+        {
+          "stem": "Which set of data is enough to deduce the formula of a metal oxide?",
+          "misconceptionClass": "data-sufficiency error",
+          "options": [
+            {
+              "key": "A",
+              "text": "The mass of the metal and the mass of oxygen that combined with it",
+              "correct": true,
+              "explanation": "Two masses give two mole amounts, and their ratio is the formula.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The volume of the dish used",
+              "correct": false,
+              "explanation": "The dish holds the sample; its size enters no mole sum.",
+              "misconception": "irrelevant apparatus detail"
+            },
+            {
+              "key": "C",
+              "text": "The metal's melting point",
+              "correct": false,
+              "explanation": "Melting points identify substances but say nothing about how many atoms combine.",
+              "misconception": "physical property substituted for composition"
+            },
+            {
+              "key": "D",
+              "text": "The time taken for the reaction",
+              "correct": false,
+              "explanation": "Reaction time concerns speed; the formula needs amounts.",
+              "misconception": "rate data mistaken for composition data"
+            }
+          ]
+        },
+        {
+          "stem": "0.72 g of magnesium combines with 0.48 g of oxygen. Which ratio should you deduce? (Mg: 24, O: 16)",
+          "misconceptionClass": "mole-ratio error",
+          "options": [
+            {
+              "key": "A",
+              "text": "1 : 1, giving MgO",
+              "correct": true,
+              "explanation": "0.72 / 24 = 0.03 mol of magnesium and 0.48 / 16 = 0.03 mol of oxygen, a one-to-one ratio.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "2 : 3, from dividing the masses directly",
+              "correct": false,
+              "explanation": "0.72 / 0.48 is 1.5, and mass ratios are not mole ratios; the relative formula mass division must come first.",
+              "misconception": "masses ratioed without mole conversion"
+            },
+            {
+              "key": "C",
+              "text": "1 : 2, giving MO2",
+              "correct": false,
+              "explanation": "Flipping the divisions swaps which substance has the larger mole count; the masses here give equal moles.",
+              "misconception": "division direction flipped"
+            },
+            {
+              "key": "D",
+              "text": "3 : 2, by rounding the masses",
+              "correct": false,
+              "explanation": "Rounding happens at the very end, after the moles are found; the raw masses are not rounded first.",
+              "misconception": "numbers rounded before converting"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the raw material a formula-by-experiment working starts from.",
+          "misconceptionClass": "mass data recall",
+          "modelAnswer": "Mass measurements taken before and after the reaction.",
+          "keywords": [
+            "mass",
+            "masses",
+            "weighing",
+            "weighings",
+            "before",
+            "after"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Name the three kinds of compound the note says can have their formulae found experimentally.",
+          "misconceptionClass": "compound kinds recall",
+          "modelAnswer": "Metal oxides, water, and salts holding water of crystallisation.",
+          "keywords": [
+            "oxide",
+            "oxides",
+            "water",
+            "salts",
+            "salt",
+            "crystallisation",
+            "crystallisation"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why the before-and-after masses must be converted into moles before the formula can be deduced.",
+          "misconceptionClass": "moles for ratio logic",
+          "modelAnswer": "Because formulae are ratios of atoms, and moles count particles — converting the masses into moles turns the data into the molar ratio that gives the empirical formula.",
+          "keywords": [
+            "moles",
+            "mole",
+            "ratio",
+            "atoms",
+            "particles"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "Two experiments are planned: one where a gas escapes from an open crucible, and one where everything stays as solids in a sealed vessel. State which suits the mass-change method better, and why.",
+          "misconceptionClass": "experiment selection applied",
+          "modelAnswer": "The gas-escape experiment — experiments where a gas is lost or gained are the easiest to handle, because the mass change is easy to see.",
+          "keywords": [
+            "gas",
+            "escape",
+            "escapes",
+            "lost",
+            "gained",
+            "mass",
+            "change"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Formula of a Hydrated Salt",
+      "sourceHeadings": [
+        "The formula of a hydrated salt"
+      ],
+      "specRefs": [
+        "4CH1-1.31",
+        "4CH1-1.33"
+      ],
+      "opening": "Copper sulfate crystals are blue because they hold water; heat them and the blue gives way to a white powder as steam escapes. Weighing before and after captures the water's mass, and dividing each remaining mass by its relative formula mass exposes the ratio of salt to water - the x in the formula.",
+      "keyPoints": [
+        "The aim is to determine the formula of hydrated copper sulfate, written CuSO4.xH2O.",
+        "Heat gently and stir until the blue salt turns completely white, showing all the water has left.",
+        "The water's mass is the hydrated mass minus the anhydrous mass left in the dish.",
+        "Divide each mass by its own relative formula mass, then simplify the ratio of water to salt.",
+        "Write the answer in the form salt.xH2O, rounding the water count to the nearest whole number.",
+        "Avoid overheating: a decomposed salt loses extra mass and corrupts the ratio."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Blue crystals go into the dish, white powder comes out; the missing grams are water. Two divisions by relative formula masses turn salt-mass and water-mass into moles, and the mole ratio writes the formula.",
+          "analogy": "It is like weighing a soggy sponge before and after drying: the difference is the water it held, and weighing the dry sponge separately tells you the sponge's own share.",
+          "examPointer": "Expect an awkward mole ratio: whole numbers are unlikely first time, so round the water figure sensibly at the end."
+        },
+        "medium": {
+          "restatement": "Each mass divides by the relative formula mass of what it measures: salt mass by the anhydrous Mr, water mass by eighteen. Simplify the two mole values to a whole-number ratio and stamp it after the salt's formula.",
+          "analogy": "Two friends split a hotel bill in an odd ratio; divide what each paid by the price of one night and the ratio of nights tells you who stayed how long.",
+          "examPointer": "State the salt formula with its dot before quoting x: examiners want CuSO4.xH2O-style answers, not a bare number floating alone."
+        }
+      },
+      "check": [
+        {
+          "stem": "Why must the hydrated salt be heated until the blue colour completely disappears?",
+          "misconceptionClass": "endpoint judgement error",
+          "options": [
+            {
+              "key": "A",
+              "text": "The colour change shows all the water of crystallisation has been driven off",
+              "correct": true,
+              "explanation": "Blue means water is still held; only the fully white solid has a trustworthy anhydrous mass.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "To melt the salt for accurate weighing",
+              "correct": false,
+              "explanation": "The salt is never melted; melting is not part of the method and would risk loss by spitting.",
+              "misconception": "melting imagined as necessary"
+            },
+            {
+              "key": "C",
+              "text": "To speed up the reaction rate",
+              "correct": false,
+              "explanation": "Heating to completion is about removing every trace of water, not about going faster.",
+              "misconception": "rate confused with completeness"
+            },
+            {
+              "key": "D",
+              "text": "White is the balance's calibration colour",
+              "correct": false,
+              "explanation": "The colour is chemical evidence about water content, not anything to do with the balance.",
+              "misconception": "apparatus misassociation"
+            }
+          ]
+        },
+        {
+          "stem": "In the experiment, what does the mass of water equal?",
+          "misconceptionClass": "mass-bookkeeping error",
+          "options": [
+            {
+              "key": "A",
+              "text": "The hydrated salt's mass minus the white anhydrous salt's mass",
+              "correct": true,
+              "explanation": "Everything that vanished between the two weighings was water driven off as vapour.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "The anhydrous salt's mass minus the dish's mass",
+              "correct": false,
+              "explanation": "That combination leaves part of the salt's own mass, not the water.",
+              "misconception": "quantities subtracted in the wrong pairing"
+            },
+            {
+              "key": "C",
+              "text": "The hydrated mass plus the anhydrous mass",
+              "correct": false,
+              "explanation": "Adding double-counts the salt; the water is what the sample lost.",
+              "misconception": "addition where subtraction belongs"
+            },
+            {
+              "key": "D",
+              "text": "The dish's mass before and after",
+              "correct": false,
+              "explanation": "The dish's mass never changes; the contents are what lose water.",
+              "misconception": "container confused with contents"
+            }
+          ]
+        },
+        {
+          "stem": "A student heats too strongly and some salt decomposes. How does the deduced value of x compare with the true value?",
+          "misconceptionClass": "error-propagation reasoning",
+          "options": [
+            {
+              "key": "A",
+              "text": "Too high, because the extra mass loss is counted as water",
+              "correct": true,
+              "explanation": "Decomposed salt leaves as gas too, so the water mass is inflated and the ratio hands water the larger share.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Too low, because decomposed salt weighs less",
+              "correct": false,
+              "explanation": "The salt's own mole count uses the remaining mass, while the inflated loss lands entirely on the water side.",
+              "misconception": "direction of bias flipped"
+            },
+            {
+              "key": "C",
+              "text": "Unchanged, because decomposition does not involve water",
+              "correct": false,
+              "explanation": "The method cannot tell which gas left; every lost gram is billed to water.",
+              "misconception": "assumed independence of errors"
+            },
+            {
+              "key": "D",
+              "text": "Unreliable in an unpredictable direction",
+              "correct": false,
+              "explanation": "The bias has a firm direction here: extra loss always inflates the water count.",
+              "misconception": "unfalsifiable hedge"
+            }
+          ]
+        },
+        {
+          "stem": "The data gives 0.025 mol of anhydrous salt and 0.049 mol of water. What is the formula?",
+          "misconceptionClass": "ratio-rounding error",
+          "options": [
+            {
+              "key": "A",
+              "text": "Salt.2H2O, since 0.049 / 0.025 is about 2",
+              "correct": true,
+              "explanation": "The water-to-salt ratio is roughly 1.96, and the exam hint says round to the nearest whole number.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Salt.1.96H2O, kept unrounded",
+              "correct": false,
+              "explanation": "Formulae need whole numbers of waters; 1.96 is the raw ratio, not the answer.",
+              "misconception": "rounding step skipped"
+            },
+            {
+              "key": "C",
+              "text": "Salt.0.5H2O, from inverting the ratio",
+              "correct": false,
+              "explanation": "0.025 / 0.049 is about 0.51, but the convention puts one salt unit first and counts waters against it.",
+              "misconception": "division inverted"
+            },
+            {
+              "key": "D",
+              "text": "SaltH2O, because the values are nearly equal",
+              "correct": false,
+              "explanation": "0.049 is nearly double 0.025, not equal to it; the waters number two.",
+              "misconception": "ratio read as one-to-one"
+            }
+          ]
+        },
+        {
+          "stem": "After recording both masses, what is the correct order of steps?",
+          "misconceptionClass": "procedural-order error",
+          "options": [
+            {
+              "key": "A",
+              "text": "Divide each mass by its relative formula mass, simplify the water-to-salt ratio, then write salt.xH2O",
+              "correct": true,
+              "explanation": "Moles first, ratio second, formula last - the table's three steps in order.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Write salt.xH2O, then check it against the masses",
+              "correct": false,
+              "explanation": "The formula is the output; writing it first reverses the evidence chain.",
+              "misconception": "answer-first working"
+            },
+            {
+              "key": "C",
+              "text": "Simplify the masses directly, without converting to moles",
+              "correct": false,
+              "explanation": "Mass ratios and mole ratios differ unless the relative formula masses happen to match; the conversion is not optional.",
+              "misconception": "mass ratio mistaken for mole ratio"
+            },
+            {
+              "key": "D",
+              "text": "Multiply each mass by its relative formula mass",
+              "correct": false,
+              "explanation": "Moles come from dividing by the relative formula mass; multiplying would invent a meaningless quantity.",
+              "misconception": "multiplication and division swapped"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the aim of the hydrated copper sulfate experiment in formula form.",
+          "misconceptionClass": "experiment aim recall",
+          "modelAnswer": "To determine the formula of hydrated copper sulfate, written CuSO4.xH2O.",
+          "keywords": [
+            "formula",
+            "cuso4",
+            "hydrated",
+            "copper",
+            "sulfate",
+            "sulphate"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State why the salt must not be overheated.",
+          "misconceptionClass": "overheating guard recall",
+          "modelAnswer": "A decomposed salt loses extra mass, and that extra loss corrupts the water-to-salt ratio.",
+          "keywords": [
+            "decompose",
+            "decomposes",
+            "decomposed",
+            "extra",
+            "corrupts",
+            "ratio",
+            "loss"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why the water's mass in this experiment is found by subtraction.",
+          "misconceptionClass": "subtraction logic",
+          "modelAnswer": "Because heating drives the water off as steam — the hydrated mass minus the anhydrous mass left in the dish is exactly the water's contribution.",
+          "keywords": [
+            "minus",
+            "subtract",
+            "subtraction",
+            "difference",
+            "hydrated",
+            "anhydrous"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A dish holds 2.50 g of hydrated salt; after gentle heating, 1.60 g of anhydrous solid remains. State the mass of water driven off.",
+          "misconceptionClass": "water mass applied",
+          "modelAnswer": "2.50 - 1.60 = 0.90 g of water.",
+          "keywords": [
+            "0.90",
+            "0.9"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "hydrated salt",
+        "definition": "A salt that carries water within its crystals.",
+        "firstLesson": 1
+      },
+      {
+        "term": "water of crystallisation",
+        "definition": "Water locked into a hydrated salt's crystal structure, written into the formula after a dot.",
+        "firstLesson": 1
+      },
+      {
+        "term": "empirical formula",
+        "definition": "The simplest whole-number ratio of the elements or ions in a compound, deduced here from mole ratios.",
+        "firstLesson": 1
+      },
+      {
+        "term": "mole",
+        "definition": "The counting unit for amounts of substance; a mass divided by the substance's relative formula mass gives the number of moles.",
+        "firstLesson": 1
+      },
+      {
+        "term": "mass change",
+        "definition": "The difference between the masses recorded before and after heating; in this method it is the water's mass.",
+        "firstLesson": 1
+      },
+      {
+        "term": "anhydrous",
+        "definition": "Describes the salt left once every trace of its water has been driven off.",
+        "firstLesson": 2
+      },
+      {
+        "term": "relative formula mass",
+        "definition": "The total of the relative atomic masses in a formula; the number masses are divided by to reach moles.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "A dish holds 4.88 g of hydrated copper sulfate, CuSO4.xH2O. Gentle heating to constant mass leaves 4.00 g of white anhydrous CuSO4. (Mr: CuSO4 = 159.5, H2O = 18.) a) Calculate the mass of water lost. b) Determine x and write the formula of the hydrated salt.",
+      "steps": [
+        "a) Mass of water = 4.88 - 4.00 = 0.88 g.",
+        "b) Moles of CuSO4 = 4.00 / 159.5 = 0.025 mol.",
+        "Moles of H2O = 0.88 / 18 = 0.049 mol.",
+        "Ratio of water to salt = 0.049 / 0.025 = 1.96, which rounds to the nearest whole number 2.",
+        "The formula of the hydrated salt is CuSO4.2H2O."
+      ],
+      "finalAnswer": "a) 0.88 g of water. b) x = 2, so the salt is CuSO4.2H2O."
+    }
+  }
+}
