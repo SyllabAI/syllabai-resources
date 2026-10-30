@@ -745,6 +745,8 @@ task card T-OEQ-PARTLABEL-3 (v2) and the disclosure censuses in
 scripts/exporter-disclosures/.
 
 
+| F123 | 2026-10-30 (the 2019-06 stem-figure stub pass — T-OEQ-STEMFIG-2019-06; operator order "the 2019-06 stem-figure stub pass") | the F121 residual class: group stems whose printed figure the F121 soup detector never flagged (false negatives — label runs with no cue token), so 13 June-2019 stem-figure stubs served flattened label soup or nothing at all (1C Q4.b second chromatogram "baseline A B C D", Q8.c chloroethene "H Cl C C H H", Q10.a pentane letter run, Q15.b apparatus + mass table; 1CR Q3.c chromatogram, Q8.b/Q10.b results tables, Q9.b the C60 molecule dropped entirely; 2C Q3.c students table, Q4.c alloy, Q7.b gas syringe; 2CR Q3.a fractionating column — each verified against the printed QP pages at 150 dpi, crop-vs-context contact sheets) | corpus-side restoration under the F121 machinery, zero exporter-code paths added: 13 eyeballed 150 dpi manual crops (the of-record manual-crop asset shape) land in the four 2019-06 slices; STEM-RESTORE.json gains 12 group verdicts (166 -> 178 keys) — 10 cuts every one crop-corroborated (dropTail x8, dropSpan x2 — Q15.b carries dropSpan+dropTail for its two soups; the 1CR Q10.b pre-cut context carries the complete-sentence-keep marker), 1 replace (Q10.a authored rebuild ends complete, the crop serves the formula), 1 pure keep (Q9.b — the stem was clean prose, only the figure was missing); 2 declared figures[] (Q10.a, 2CR Q3.a — both groups whose first part IS the question's first part, print order preserved); exporter note-of-record bumped (_CHEM_F123_NOTE_HEAD chains the F121 head verbatim) | PROOF: pre-flight zero-delta run at the unpatched cut main@b541dda8 = BYTE-LEVEL NO-OP (the wave's only served delta class is its own); gated run vs the bundle of record — G-E3 54/54 (4,860 marks), G-E2 green, G-E1 = 12 deltas == scripts/exporter-disclosures/2026-10-30-f123-stemfig-2019-06-4ch1.json exactly (phase-1 refused with 12 as designed; changed = the 12 carrier parts only, new=0/gone=0), G-E1b identity 54/54, G-E6 labels 2,607/2,607, G-E4 SME passthrough byte-identical (2,605,409 B), G-E7 567 accounted / 567 restored / 46 cuts / 48 keys consumed; counts unchanged (54 sets / 477 questions / 2,607 parts / 4,860 marks / 4,161 markPoints) except figure crops 478 -> 491 (+13), honest stubs 7 unchanged; batteries on the edited tree: F121 125/125 (constants bumped 36->48 verdicts / 3->5 figures[] — the wave's legitimate movements), strip-law 29/29, F116/F117/F118/F119 green; no-action rows receipted (2CR 6(a)(i) recall task; 1CR/2CR 1(a) text-captured boxes; draw tasks 1CR 3(a), 2CR 4(c), 2CR 5(c)(i); prose/equation hits 1C Q5/Q14(f)/Q10(b), 2C Q7(c), 1CR Q9(c)); residual disclosed: the 1CR 8(b)(i) PART-level grid-axis soup (pre-existing, grid already cropped — candidate for a future part-level pass) | the 2019-06 stem-figure stub tranche CLOSES to zero; v2 companion sync ships in the same wave (the F110 convention); receipt of record AUDIT-2026-10-30-f123-stemfig-2019-06.{md,json} |
+
 ## The G9 label-visibility wave (T-OEQ-G9-LABELVIS-1, benchmark v3 — F120)
 
 **What future agents need to know.** F119 shipped the printed part label as a
@@ -845,3 +847,17 @@ the verify-harness census-exact run + 4/4 self-test, the F121 battery 101/101, a
 the fresh-tree strip re-verification (20/20 pins) — all re-runnable from the
 disclosure census scripts/exporter-disclosures/2026-10-30-f121-group-stem-restore-4ch1.json
 and the receipt AUDIT-2026-10-30-f121-group-stem-restore.{md,json}.
+
+## The 2019-06 stem-figure stub pass (T-OEQ-STEMFIG-2019-06, F123)
+
+The F121 group-stem restore left one residual class live: stems whose printed
+figure the soup detector never flagged. At main@b541dda8 the June-2019 slice
+served 13 of them. This wave adjudicates the slice to zero: every printed
+figure is served by an eyeballed 150 dpi manual crop, every soup run is cut
+with crop corroboration (the wave-19/20 law), and the no-action rows are
+receipted. Twelve new group verdicts (48 total, 10 cuts / 46 total applied),
+13 crops (478 -> 491), 12 disclosed part deltas, batteries re-pinned
+(F121 125/125). The cut law is unchanged and now proven on the detector's
+false-negative class too: adjudicate from the printed page, never from the
+soup's own shape.
+
