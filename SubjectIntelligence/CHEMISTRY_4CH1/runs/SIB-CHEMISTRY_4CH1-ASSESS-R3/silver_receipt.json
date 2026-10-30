@@ -1,0 +1,2415 @@
+{
+ "schema": "sib-assess-r3-silver/1.0",
+ "review": "independent silver-tier ER review (operator trace 1a18bf09d58eea5d)",
+ "independence": "fresh verifier, no pipeline gate code executed; pipeline outputs used only for reconciliation",
+ "corpus": {
+  "published": 95,
+  "artifacts": 95
+ },
+ "L1_pack_chain": {
+  "carry_asserts": 57,
+  "carry_fail": [],
+  "artifacts": 96,
+  "non_d3_identical": []
+ },
+ "L2_citations": {
+  "total_tokens": 1992,
+  "forms": {
+   "located": 1900,
+   "identity": 92
+  },
+  "violation_detail": {},
+  "per_artifact": [
+   {
+    "artifact": "ASM-01",
+    "tokens": 12,
+    "identity": 0,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 15,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "ASM-02",
+    "tokens": 23,
+    "identity": 2,
+    "located": 21,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 17,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "ASM-03",
+    "tokens": 20,
+    "identity": 1,
+    "located": 19,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 19,
+    "quote_fail": 3
+   },
+   {
+    "artifact": "ASM-04",
+    "tokens": 16,
+    "identity": 1,
+    "located": 15,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 14,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "ASM-05",
+    "tokens": 16,
+    "identity": 1,
+    "located": 15,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 10,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "ASM-06",
+    "tokens": 18,
+    "identity": 1,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 11,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "ASM-07",
+    "tokens": 4,
+    "identity": 1,
+    "located": 3,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "ASM-08",
+    "tokens": 14,
+    "identity": 1,
+    "located": 13,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 7,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "ASM-09",
+    "tokens": 23,
+    "identity": 1,
+    "located": 22,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "ASM-10",
+    "tokens": 15,
+    "identity": 1,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 14,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "CUR-01",
+    "tokens": 8,
+    "identity": 1,
+    "located": 7,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 0,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "CUR-02",
+    "tokens": 55,
+    "identity": 1,
+    "located": 54,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 2,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "CUR-03",
+    "tokens": 56,
+    "identity": 0,
+    "located": 56,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "CUR-04",
+    "tokens": 17,
+    "identity": 0,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "CUR-05",
+    "tokens": 50,
+    "identity": 0,
+    "located": 50,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 0,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "CUR-06",
+    "tokens": 53,
+    "identity": 0,
+    "located": 53,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 1,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "CUR-07",
+    "tokens": 38,
+    "identity": 0,
+    "located": 38,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 7,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "CUR-08",
+    "tokens": 32,
+    "identity": 0,
+    "located": 32,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "EXM-01",
+    "tokens": 16,
+    "identity": 0,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 8,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXM-02",
+    "tokens": 15,
+    "identity": 1,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 7,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXM-03",
+    "tokens": 15,
+    "identity": 1,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 7,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "EXM-04",
+    "tokens": 13,
+    "identity": 1,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXM-05",
+    "tokens": 13,
+    "identity": 1,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXM-06",
+    "tokens": 12,
+    "identity": 1,
+    "located": 11,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXP-01",
+    "tokens": 34,
+    "identity": 1,
+    "located": 33,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXP-02",
+    "tokens": 42,
+    "identity": 0,
+    "located": 42,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "EXP-03",
+    "tokens": 35,
+    "identity": 0,
+    "located": 35,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "EXP-04",
+    "tokens": 39,
+    "identity": 0,
+    "located": 39,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 8,
+    "quote_fail": 3
+   },
+   {
+    "artifact": "EXP-05",
+    "tokens": 24,
+    "identity": 0,
+    "located": 24,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 9,
+    "quote_fail": 4
+   },
+   {
+    "artifact": "EXP-06",
+    "tokens": 27,
+    "identity": 0,
+    "located": 27,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 3
+   },
+   {
+    "artifact": "EXP-07",
+    "tokens": 28,
+    "identity": 0,
+    "located": 28,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "EXP-08",
+    "tokens": 25,
+    "identity": 0,
+    "located": 25,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "GAP-01",
+    "tokens": 23,
+    "identity": 0,
+    "located": 23,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 17,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "GAP-02",
+    "tokens": 22,
+    "identity": 0,
+    "located": 22,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 10,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "GAP-03",
+    "tokens": 17,
+    "identity": 0,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 13,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "GAP-04",
+    "tokens": 26,
+    "identity": 0,
+    "located": 26,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 9,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "GAP-05",
+    "tokens": 16,
+    "identity": 0,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 11,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "GAP-06",
+    "tokens": 23,
+    "identity": 0,
+    "located": 23,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 11,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "GAP-07",
+    "tokens": 21,
+    "identity": 0,
+    "located": 21,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 15,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "GAP-08",
+    "tokens": 24,
+    "identity": 0,
+    "located": 24,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 15,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "HIS-01",
+    "tokens": 20,
+    "identity": 0,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 0,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "HIS-02",
+    "tokens": 18,
+    "identity": 0,
+    "located": 18,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 0,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "HIS-03",
+    "tokens": 19,
+    "identity": 0,
+    "located": 19,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "HIS-04",
+    "tokens": 21,
+    "identity": 0,
+    "located": 21,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "HIS-05",
+    "tokens": 16,
+    "identity": 0,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 4,
+    "quote_fail": 4
+   },
+   {
+    "artifact": "HIS-06",
+    "tokens": 24,
+    "identity": 0,
+    "located": 24,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 2,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "HIS-07",
+    "tokens": 20,
+    "identity": 0,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 1,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "MIS-01",
+    "tokens": 28,
+    "identity": 0,
+    "located": 28,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 16,
+    "quote_fail": 8
+   },
+   {
+    "artifact": "MIS-02",
+    "tokens": 15,
+    "identity": 3,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 8,
+    "quote_fail": 5
+   },
+   {
+    "artifact": "MIS-03",
+    "tokens": 14,
+    "identity": 3,
+    "located": 11,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 1,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "MIS-04",
+    "tokens": 11,
+    "identity": 3,
+    "located": 8,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 1,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "MIS-05",
+    "tokens": 13,
+    "identity": 3,
+    "located": 10,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "MIS-06",
+    "tokens": 15,
+    "identity": 3,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "MIS-07",
+    "tokens": 12,
+    "identity": 3,
+    "located": 9,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 2,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "MIS-08",
+    "tokens": 13,
+    "identity": 3,
+    "located": 10,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "MIS-09",
+    "tokens": 17,
+    "identity": 3,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 4,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "MS-01",
+    "tokens": 18,
+    "identity": 1,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 4
+   },
+   {
+    "artifact": "MS-02",
+    "tokens": 18,
+    "identity": 1,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 12,
+    "quote_fail": 5
+   },
+   {
+    "artifact": "MS-03",
+    "tokens": 15,
+    "identity": 1,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 9,
+    "quote_fail": 6
+   },
+   {
+    "artifact": "MS-04",
+    "tokens": 12,
+    "identity": 1,
+    "located": 11,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 5
+   },
+   {
+    "artifact": "MS-05",
+    "tokens": 12,
+    "identity": 1,
+    "located": 11,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 6,
+    "quote_fail": 5
+   },
+   {
+    "artifact": "MS-06",
+    "tokens": 16,
+    "identity": 1,
+    "located": 15,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 11,
+    "quote_fail": 10
+   },
+   {
+    "artifact": "MS-07",
+    "tokens": 15,
+    "identity": 1,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 5,
+    "quote_fail": 4
+   },
+   {
+    "artifact": "MS-08",
+    "tokens": 15,
+    "identity": 1,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 3,
+    "quote_fail": 3
+   },
+   {
+    "artifact": "PED-01",
+    "tokens": 30,
+    "identity": 4,
+    "located": 26,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 19,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-02",
+    "tokens": 19,
+    "identity": 3,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 12,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-03",
+    "tokens": 23,
+    "identity": 3,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 12,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "PED-04",
+    "tokens": 28,
+    "identity": 4,
+    "located": 24,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 16,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-05",
+    "tokens": 23,
+    "identity": 3,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 8,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-06",
+    "tokens": 23,
+    "identity": 2,
+    "located": 21,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 15,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-07",
+    "tokens": 20,
+    "identity": 3,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 14,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-08",
+    "tokens": 24,
+    "identity": 3,
+    "located": 21,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 13,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PED-09",
+    "tokens": 32,
+    "identity": 3,
+    "located": 29,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 17,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PRA-01",
+    "tokens": 26,
+    "identity": 4,
+    "located": 22,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 17,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PRA-02",
+    "tokens": 27,
+    "identity": 3,
+    "located": 24,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 17,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "PRA-03",
+    "tokens": 20,
+    "identity": 0,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 15,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PRA-04",
+    "tokens": 26,
+    "identity": 3,
+    "located": 23,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 14,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "PRA-05",
+    "tokens": 18,
+    "identity": 0,
+    "located": 18,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 18,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PRO-01",
+    "tokens": 17,
+    "identity": 0,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 8,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "PRO-02",
+    "tokens": 20,
+    "identity": 3,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 7,
+    "quote_fail": 3
+   },
+   {
+    "artifact": "PRO-03",
+    "tokens": 13,
+    "identity": 0,
+    "located": 13,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 7,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "PRO-04",
+    "tokens": 13,
+    "identity": 1,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 11,
+    "quote_fail": 4
+   },
+   {
+    "artifact": "PRO-05",
+    "tokens": 14,
+    "identity": 0,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 12,
+    "quote_fail": 4
+   },
+   {
+    "artifact": "PRO-06",
+    "tokens": 14,
+    "identity": 0,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 9,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "PRO-07",
+    "tokens": 16,
+    "identity": 0,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 11,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "TUT-01",
+    "tokens": 20,
+    "identity": 0,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 16,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "TUT-02",
+    "tokens": 14,
+    "identity": 0,
+    "located": 14,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 17,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "TUT-03",
+    "tokens": 17,
+    "identity": 0,
+    "located": 17,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 15,
+    "quote_fail": 2
+   },
+   {
+    "artifact": "TUT-04",
+    "tokens": 12,
+    "identity": 0,
+    "located": 12,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 14,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "TUT-05",
+    "tokens": 18,
+    "identity": 0,
+    "located": 18,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 12,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "TUT-06",
+    "tokens": 16,
+    "identity": 0,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 10,
+    "quote_fail": 1
+   },
+   {
+    "artifact": "TUT-07",
+    "tokens": 18,
+    "identity": 0,
+    "located": 18,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 13,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "TUT-08",
+    "tokens": 16,
+    "identity": 0,
+    "located": 16,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 9,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "TUT-09",
+    "tokens": 18,
+    "identity": 0,
+    "located": 18,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 18,
+    "quote_fail": 0
+   },
+   {
+    "artifact": "TUT-10",
+    "tokens": 20,
+    "identity": 0,
+    "located": 20,
+    "prose": 0,
+    "violations": 0,
+    "quotes": 12,
+    "quote_fail": 0
+   }
+  ]
+ },
+ "L3_quotes": {
+  "ok": 730,
+  "fail": 122,
+  "fail_by_family": {
+   "ASM": 11,
+   "CUR": 5,
+   "EXM": 1,
+   "EXP": 14,
+   "GAP": 4,
+   "HIS": 5,
+   "MIS": 18,
+   "MS": 42,
+   "PED": 1,
+   "PRA": 2,
+   "PRO": 14,
+   "TUT": 5
+  },
+  "fail_detail": [
+   {
+    "artifact": "ASM-02",
+    "quote": "correctly to + or - half a square"
+   },
+   {
+    "artifact": "ASM-03",
+    "quote": "State what is meant by the term isomers."
+   },
+   {
+    "artifact": "ASM-03",
+    "quote": "M1 the regular arrangement of atoms is ALLOW lattice/layers/rows of distorted/disrupted OWTTE atoms are disrup"
+   },
+   {
+    "artifact": "ASM-03",
+    "quote": "M2 because magnesium atoms are larger than ALLOW magnesium and aluminium aluminium atoms atoms are of differen"
+   },
+   {
+    "artifact": "ASM-04",
+    "quote": "A description that refers to three of the following points"
+   },
+   {
+    "artifact": "ASM-06",
+    "quote": "heads the chlorine-isotope RAM item"
+   },
+   {
+    "artifact": "ASM-06",
+    "quote": "Correct answer without working scores 2"
+   },
+   {
+    "artifact": "ASM-07",
+    "quote": "in its guidance - the parsed line reads"
+   },
+   {
+    "artifact": "ASM-07",
+    "quote": "ALLOW alter/interfere with the colour of the flame /with impurities/other"
+   },
+   {
+    "artifact": "ASM-10",
+    "quote": "followed by the full nine-item list"
+   },
+   {
+    "artifact": "ASM-10",
+    "quote": "B is incorrect since it describes covalent bonding not metallic"
+   },
+   {
+    "artifact": "CUR-03",
+    "quote": "), the covalent-bonds-broken-on-melting error ("
+   },
+   {
+    "artifact": "CUR-03",
+    "quote": "is penalised), evaporating-to-dryness ("
+   },
+   {
+    "artifact": "CUR-06",
+    "quote": "statement X officially requires statement Y from another topic"
+   },
+   {
+    "artifact": "CUR-08",
+    "quote": "with the depth rule explicit:"
+   },
+   {
+    "artifact": "CUR-08",
+    "quote": "(pages 7-8), and - administratively decisive -"
+   },
+   {
+    "artifact": "EXM-03",
+    "quote": "- the 2023-06 1C introduction praises topic-spanning knowledge ("
+   },
+   {
+    "artifact": "EXP-02",
+    "quote": "phrasing carries the book's own"
+   },
+   {
+    "artifact": "EXP-02",
+    "quote": "a reaction that gives out heat to the surroundings is said to be exothermic"
+   },
+   {
+    "artifact": "EXP-03",
+    "quote": ". The extension then upgrades the vocabulary: chlorine is"
+   },
+   {
+    "artifact": "EXP-04",
+    "quote": "what is happening at equilibrium?"
+   },
+   {
+    "artifact": "EXP-04",
+    "quote": "what happens when we change conditions?"
+   },
+   {
+    "artifact": "EXP-04",
+    "quote": "with neon. The word itself means"
+   },
+   {
+    "artifact": "EXP-05",
+    "quote": "; particles in a gas are a sparse crowd you walk through easily"
+   },
+   {
+    "artifact": "EXP-05",
+    "quote": "a mole is a big number and that's all"
+   },
+   {
+    "artifact": "EXP-05",
+    "quote": ". The calcium carbonate case makes it concrete -"
+   },
+   {
+    "artifact": "EXP-05",
+    "quote": "atoms want noble gas configurations"
+   },
+   {
+    "artifact": "EXP-06",
+    "quote": "The mechanism is a surface phenomenon - only"
+   },
+   {
+    "artifact": "EXP-06",
+    "quote": ", and it needs both reagents:"
+   },
+   {
+    "artifact": "EXP-06",
+    "quote": ", the mixture gets colder, and"
+   },
+   {
+    "artifact": "EXP-08",
+    "quote": "The chemistry underneath is redox -"
+   },
+   {
+    "artifact": "GAP-01",
+    "quote": "at what temperature would crystals first appear in the solution"
+   },
+   {
+    "artifact": "GAP-01",
+    "quote": "as the shortest sub-topic list,"
+   },
+   {
+    "artifact": "GAP-02",
+    "quote": "with further bullets for interconversions and the terms"
+   },
+   {
+    "artifact": "GAP-06",
+    "quote": "followed by the electrolysis cluster"
+   },
+   {
+    "artifact": "HIS-04",
+    "quote": "and records the consequence that"
+   },
+   {
+    "artifact": "HIS-05",
+    "quote": ", and part (ii) repeats the pattern:"
+   },
+   {
+    "artifact": "HIS-05",
+    "quote": "with the answer dotted after"
+   },
+   {
+    "artifact": "HIS-05",
+    "quote": "and continues on the next page"
+   },
+   {
+    "artifact": "HIS-05",
+    "quote": "where the credited reasoning was that iron"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "Particles collide more often so more evaporate."
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "The covalent bonds break when it melts"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "used vaguely/incorrectly in long answers - examiners flag"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "what breaks when X melts/boils"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "divide by Mr, multiply by ratio"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "candidates need plenty of experience in doing chemistry experiments"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "The ions slide over each other"
+   },
+   {
+    "artifact": "MIS-01",
+    "quote": "24 reports across the 8 sessions"
+   },
+   {
+    "artifact": "MIS-02",
+    "quote": "the covalent bonds break when it melts"
+   },
+   {
+    "artifact": "MIS-02",
+    "quote": "what breaks when X melts/boils"
+   },
+   {
+    "artifact": "MIS-02",
+    "quote": "particles collide more often so more evaporate."
+   },
+   {
+    "artifact": "MIS-02",
+    "quote": "; conduction answers lost marks"
+   },
+   {
+    "artifact": "MIS-02",
+    "quote": "as the name; zero scored despite knowing"
+   },
+   {
+    "artifact": "MIS-06",
+    "quote": "for malleability; and generally"
+   },
+   {
+    "artifact": "MIS-06",
+    "quote": "); name/suffix slips in organic formulae ("
+   },
+   {
+    "artifact": "MIS-07",
+    "quote": "Did not answer the question given"
+   },
+   {
+    "artifact": "MIS-09",
+    "quote": "; and the neglected-ratio complaint"
+   },
+   {
+    "artifact": "MIS-09",
+    "quote": "colour changes and observations were not always well known"
+   },
+   {
+    "artifact": "MS-01",
+    "quote": "An explanation that links together the following two points:"
+   },
+   {
+    "artifact": "MS-01",
+    "quote": "NOTE: If the solution is heated to remove all the water then only M1 can be awarded"
+   },
+   {
+    "artifact": "MS-01",
+    "quote": "NOTE If the solution is left to evaporate all the water without heating only 1 mark can be awarded"
+   },
+   {
+    "artifact": "MS-01",
+    "quote": "An explanation that links together the following N points"
+   },
+   {
+    "artifact": "MS-02",
+    "quote": "M1 protons IGNORE electrons / M2 neutrons"
+   },
+   {
+    "artifact": "MS-02",
+    "quote": "subtraction of \u03a3(bonds made) made and In (iii) ECF from (i) and \u03a3(bonds broken) (ii) must be applied"
+   },
+   {
+    "artifact": "MS-02",
+    "quote": "Subtraction can be in any order"
+   },
+   {
+    "artifact": "MS-02",
+    "quote": ", under the printed conditional"
+   },
+   {
+    "artifact": "MS-02",
+    "quote": "An explanation using either of the following linked pairs:"
+   },
+   {
+    "artifact": "MS-03",
+    "quote": "silver bromide / AgBr If correct name given ignore incorrect formula"
+   },
+   {
+    "artifact": "MS-03",
+    "quote": "with its own ECF rider and floors the under-precise answer,"
+   },
+   {
+    "artifact": "MS-03",
+    "quote": "ALLOW use of 4.2 for all 3 marks (= 2436)"
+   },
+   {
+    "artifact": "MS-03",
+    "quote": "ACCEPT any number of sig figs greater than 2"
+   },
+   {
+    "artifact": "MS-03",
+    "quote": "M3 \u0394H = (+) 24.2 (kJ/mol) ACCEPT any number of sig figs except 1"
+   },
+   {
+    "artifact": "MS-03",
+    "quote": "If answer in kJ unit must be given."
+   },
+   {
+    "artifact": "MS-04",
+    "quote": "ALLOW black / ALLOW any combination of grey and black eg grey-black"
+   },
+   {
+    "artifact": "MS-04",
+    "quote": "M3 can be scored by Br2 as a product in an equation"
+   },
+   {
+    "artifact": "MS-04",
+    "quote": "REJECT compound or references to chemical bonding"
+   },
+   {
+    "artifact": "MS-04",
+    "quote": "ALLOW any named alcohol from the table"
+   },
+   {
+    "artifact": "MS-04",
+    "quote": "beside the exact mean and states"
+   },
+   {
+    "artifact": "MS-05",
+    "quote": "B is not correct as bromine water is orange before it reacts with ethene"
+   },
+   {
+    "artifact": "MS-05",
+    "quote": "D is the only correct answer as nitrogen is the most abundant gas in unpolluted air."
+   },
+   {
+    "artifact": "MS-05",
+    "quote": "A is not correct as there are only trace amounts of hydrogen in unpolluted air."
+   },
+   {
+    "artifact": "MS-05",
+    "quote": ", and the enthalpy-change point symmetrically prints"
+   },
+   {
+    "artifact": "MS-05",
+    "quote": "X is not correct as <chemical reason>"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "- **(1)** (64 + 63 + 60) \u00f73 / - **(1)** = 62"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "62/62.3 with no working scores 2 / ALLOW 69/69.25/69.3 for 1 mark"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "Deduct 1 mark if no mention of layers/sheets/rows"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "REJECT incorrect ALTERNATIVE METHOD rounding for 1 mark"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "M3 subsumes M2 can score M2 and M3"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "electrons i.e. 'electrons move' scores 1 mark"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "ALLOW 0.472 /0.118 for 2 marks"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "only use of 2 or 3 concordant titres can scores both marks in (ii)"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "M1 consequential on results ticked"
+   },
+   {
+    "artifact": "MS-06",
+    "quote": "M2 consequential on correct calculation from M1"
+   },
+   {
+    "artifact": "MS-07",
+    "quote": "IGNORE Fe if added to both sides of the equation"
+   },
+   {
+    "artifact": "MS-07",
+    "quote": "N2 + 3H2 \u2192 2NH3 ACCEPT reversible arrow"
+   },
+   {
+    "artifact": "MS-07",
+    "quote": "REJECT mention of intermolecular forces in diamond"
+   },
+   {
+    "artifact": "MS-07",
+    "quote": "REJECT contradicting statements, e.g. same displayed formula but different structures scores 0 out of 2"
+   },
+   {
+    "artifact": "MS-08",
+    "quote": "ALLOW ECF from incorrect plotting"
+   },
+   {
+    "artifact": "MS-08",
+    "quote": "Mark ECF on (ii), even if a straight line is drawn"
+   },
+   {
+    "artifact": "MS-08",
+    "quote": "scores the chromatography result, with"
+   },
+   {
+    "artifact": "PED-03",
+    "quote": "are followed by the explicit demand"
+   },
+   {
+    "artifact": "PRA-02",
+    "quote": "to dm\u00b3 for concentration work and note"
+   },
+   {
+    "artifact": "PRA-04",
+    "quote": "solution turns colourless ALLOW solution becomes paler"
+   },
+   {
+    "artifact": "PRO-01",
+    "quote": "'Which' added to the command word taxonomy"
+   },
+   {
+    "artifact": "PRO-02",
+    "quote": "correct answer with or without working scores 4"
+   },
+   {
+    "artifact": "PRO-02",
+    "quote": "Use of 280 gives an answer of 26 scores 3"
+   },
+   {
+    "artifact": "PRO-02",
+    "quote": "ALLOW any number of sig figs except 1"
+   },
+   {
+    "artifact": "PRO-03",
+    "quote": "the heat change is about 2400 J and then to"
+   },
+   {
+    "artifact": "PRO-03",
+    "quote": "solution) hydroxide or aqueous ammonia"
+   },
+   {
+    "artifact": "PRO-04",
+    "quote": "as the chosen route and prints"
+   },
+   {
+    "artifact": "PRO-04",
+    "quote": "M3 2PbO + C \u2192 2Pb + CO2 ALLOW PbO + CO \u2192 Pb + CO2"
+   },
+   {
+    "artifact": "PRO-04",
+    "quote": "M3 use and evaluation of Rf = distance moved by spot Y ALLOW 1-4 sig fig"
+   },
+   {
+    "artifact": "PRO-04",
+    "quote": "eg in making soaps/ in solvents (for paints/varnishes)"
+   },
+   {
+    "artifact": "PRO-05",
+    "quote": "M1 brown/pink/pink-brown solid forms ALLOW red-brown /orange-brown"
+   },
+   {
+    "artifact": "PRO-05",
+    "quote": "M2 solution turns colourless ALLOW solution becomes paler"
+   },
+   {
+    "artifact": "PRO-05",
+    "quote": "IGNORE incorrect initial colour of solution"
+   },
+   {
+    "artifact": "PRO-05",
+    "quote": "IGNORE references to magnesium disappearing"
+   },
+   {
+    "artifact": "TUT-02",
+    "quote": "and then fixes the molar volume convention"
+   },
+   {
+    "artifact": "TUT-03",
+    "quote": "and include the chemistry-only item"
+   },
+   {
+    "artifact": "TUT-03",
+    "quote": "apply this method to new numbers"
+   },
+   {
+    "artifact": "TUT-04",
+    "quote": "questions you could ask to enhance learning"
+   },
+   {
+    "artifact": "TUT-06",
+    "quote": ", listing among the statements to avoid"
+   }
+  ]
+ },
+ "L4_census": {
+  "published_files": 95,
+  "records_total": 833,
+  "required_core": {
+   "artifacts": 88,
+   "words": 149136,
+   "records": 763
+  },
+  "words_total_all": 163183,
+  "family_medians": {
+   "ASM": 1329,
+   "CUR": 1931,
+   "EXM": 1091,
+   "EXP": 2135,
+   "GAP": 2049,
+   "HIS": 1960,
+   "MIS": 1670,
+   "MS": 1212,
+   "PED": 1625,
+   "PRA": 1622,
+   "PRO": 1355,
+   "TUT": 1893
+  },
+  "rows": [
+   {
+    "artifact": "ASM-01",
+    "words": 1834,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-02",
+    "words": 1557,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-03",
+    "words": 1562,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-04",
+    "words": 1433,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-05",
+    "words": 1323,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-06",
+    "words": 1302,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-07",
+    "words": 1161,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-08",
+    "words": 1120,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-09",
+    "words": 1181,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "ASM-10",
+    "words": 1335,
+    "records": 9,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-01",
+    "words": 1903,
+    "records": 0,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-02",
+    "words": 2473,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-03",
+    "words": 1958,
+    "records": 7,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-04",
+    "words": 1644,
+    "records": 7,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-05",
+    "words": 1797,
+    "records": 7,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-06",
+    "words": 1947,
+    "records": 7,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-07",
+    "words": 1937,
+    "records": 6,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "CUR-08",
+    "words": 1925,
+    "records": 7,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXM-01",
+    "words": 1257,
+    "records": 9,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXM-02",
+    "words": 1106,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXM-03",
+    "words": 1039,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXM-04",
+    "words": 1038,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXM-05",
+    "words": 1186,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXM-06",
+    "words": 1077,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-01",
+    "words": 2580,
+    "records": 8,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-02",
+    "words": 1952,
+    "records": 8,
+    "version": "1.0",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-03",
+    "words": 2121,
+    "records": 8,
+    "version": "1.0",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-04",
+    "words": 2379,
+    "records": 8,
+    "version": "1.0",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-05",
+    "words": 2232,
+    "records": 8,
+    "version": "1.0",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-06",
+    "words": 1912,
+    "records": 8,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-07",
+    "words": 2150,
+    "records": 8,
+    "version": "1.0",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "EXP-08",
+    "words": 2082,
+    "records": 8,
+    "version": "1.0",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-01",
+    "words": 2217,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-02",
+    "words": 1943,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-03",
+    "words": 2145,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-04",
+    "words": 2058,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-05",
+    "words": 1987,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-06",
+    "words": 2041,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-07",
+    "words": 2122,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "GAP-08",
+    "words": 1932,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-01",
+    "words": 1909,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-02",
+    "words": 2115,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-03",
+    "words": 1933,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-04",
+    "words": 1927,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-05",
+    "words": 1960,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-06",
+    "words": 2135,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "HIS-07",
+    "words": 2068,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "OPTIONAL",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-01",
+    "words": 3746,
+    "records": 12,
+    "version": "1.3",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-02",
+    "words": 2086,
+    "records": 8,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-03",
+    "words": 1920,
+    "records": 8,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-04",
+    "words": 1670,
+    "records": 7,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-05",
+    "words": 1578,
+    "records": 7,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-06",
+    "words": 1634,
+    "records": 7,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-07",
+    "words": 1658,
+    "records": 7,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-08",
+    "words": 1622,
+    "records": 7,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MIS-09",
+    "words": 1671,
+    "records": 7,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-01",
+    "words": 1342,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-02",
+    "words": 1284,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-03",
+    "words": 1280,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-04",
+    "words": 991,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-05",
+    "words": 1196,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-06",
+    "words": 1223,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-07",
+    "words": 1120,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "MS-08",
+    "words": 1201,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-01",
+    "words": 1962,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-02",
+    "words": 1479,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-03",
+    "words": 1625,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-04",
+    "words": 1673,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-05",
+    "words": 1617,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-06",
+    "words": 1604,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-07",
+    "words": 1655,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-08",
+    "words": 1593,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PED-09",
+    "words": 1739,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRA-01",
+    "words": 1655,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRA-02",
+    "words": 1641,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRA-03",
+    "words": 1622,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRA-04",
+    "words": 1621,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRA-05",
+    "words": 1614,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-01",
+    "words": 1444,
+    "records": 10,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-02",
+    "words": 1414,
+    "records": 10,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-03",
+    "words": 1330,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-04",
+    "words": 1214,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-05",
+    "words": 1367,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-06",
+    "words": 1355,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "PRO-07",
+    "words": 1307,
+    "records": 9,
+    "version": "1.2",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-01",
+    "words": 2187,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-02",
+    "words": 1802,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-03",
+    "words": 1847,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-04",
+    "words": 1825,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-05",
+    "words": 1811,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-06",
+    "words": 1919,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-07",
+    "words": 1868,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-08",
+    "words": 1920,
+    "records": 9,
+    "version": "1.3",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-09",
+    "words": 2140,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   },
+   {
+    "artifact": "TUT-10",
+    "words": 2116,
+    "records": 9,
+    "version": "1.1",
+    "applicability": "REQUIRED",
+    "status": "PUBLISHED"
+   }
+  ]
+ },
+ "L5_ocr": {
+  "tut": [
+   {
+    "artifact": "TUT-01",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-02",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-03",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-04",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-05",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-06",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-07",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-08",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-09",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   },
+   {
+    "artifact": "TUT-10",
+    "ocr_mentioned": true,
+    "sb1_mentioned": true
+   }
+  ],
+  "gate_resolution_present": true
+ },
+ "L6_redstate": {
+  "scoreboard_shas": {
+   "RUN-017": "bb62ee26bb4ce9b49220e70085c6cb10834087a0a8a567b60165d085d644dcbe",
+   "RUN-018": "64ab8bd3cb7a8b0dcfed29fc8cbac5c37a432280d825ba08f9aa32f9ea779859",
+   "RUN-019": "628a61586ebd1287eb7a8758076b5498f6ef38fe301e4a8813549a157ebdd706",
+   "RUN-020": "bb62ee26bb4ce9b49220e70085c6cb10834087a0a8a567b60165d085d644dcbe",
+   "RUN-021": "3175c3e4a047c43c5cc558898502574960250df1507dcdd7e09925a95f7f0334",
+   "RUN-022": "d603978db1383df58cba41c7332f4e9da53d64a2f7bb0339c4b2e00fbd23983f"
+  },
+  "file_byte_identical_17_22": false,
+  "per_run_manifest_counts": {
+   "RUN-017": {},
+   "RUN-018": {
+    "SIB-MANI-007": 88,
+    "SIB-MANI-011": 4,
+    "SIB-MANI-012": 7
+   },
+   "RUN-019": {
+    "SIB-MANI-007": 88,
+    "SIB-MANI-011": 4,
+    "SIB-MANI-012": 7
+   },
+   "RUN-020": {},
+   "RUN-021": {
+    "SIB-MANI-007": 88,
+    "SIB-MANI-011": 4,
+    "SIB-MANI-012": 7
+   },
+   "RUN-022": {
+    "SIB-MANI-007": 88,
+    "SIB-MANI-011": 4,
+    "SIB-MANI-012": 7
+   }
+  },
+  "redstate_counts_match_F4a_all_runs": false,
+  "modulo_runid_form_counts": {
+   "{\"counts\": {\"GENERATED\": 0, \"NOT_APPLICABLE\": 0, \"OPTIONAL\": 7, \"PUBLISHED\": 0, \"QA_FAILED\": 0, \"QA_PASSED\": 0, \"REQUIRED\": 88, \"STAGED\": 0, \"UNMANIFESTED\": 0, \"artifacts_defined\": 95, \"backlog\": 7, \"rows\": 95, \"source_gaps\": 4}, \"library\": \"/tmp/my-project/resources/SubjectIntelligence/CHEMISTRY_4CH1\", \"lifecycle\": {\"GENERATED\": [\"QA_FAILED\", \"QA_PASSED\"], \"PUBLISHED\": [], \"QA_FAILED\": [], \"QA_PASSED\": [\"STAGED\"], \"STAGED\": [\"PUBLISHED\"]}, \"manifest_issues\": [{\"artifact_id\": \"ASM-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-10\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-10 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-10\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-10 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[0]\", \"message\": \"declared source gap GAP-SRC-001: RESOLVED 2026-10-25 (BL-001): official Pearson examiner reports acquired from Pearson's own public CDN and placed in the syllabai-pastpapers archive of record \\u2014 24 official 4CH1 ERs across 8 of 16 held sessions (SRC-ER-4CH1) plus 34 legacy 4CH0 ERs across 13 of 16 sessions (SRC-ER-4CH0-LEGACY). Residuals honestly disclosed, never fabricated: no public ER exists for the COVID-era / January / November sessions (zero catalog rows at the issuing body); Nov-2025 + June-2026 PEFs exist but sit behind Pearson's silver tier (401 anonymous) \\u2014 operator-side queue. Wave report: syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md.\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[1]\", \"message\": \"declared source gap GAP-SRC-002: RESOLVED 2026-10-25 (BL-002): the legacy corpus was found already complete for QP/MS (syllabai-pastpapers 4ch0/ \\u2014 40 dirs / 16 sessions; the earlier sweep's 'zero 4CH0 hits' claim corrected by first-hand re-walk, case-sensitive miss of the lowercase subtree); this run added the missing doc classes: 34 legacy ERs + official legacy specification corpus (Issue 3 spec / Issue 5 spec+SAMs / 2009 SAMs \\u2014 resources Official-Specifications/ igcse-chemistry-legacy-4ch0/). All 4CH0 material is classified LEGACY \\u2014 HISTORICAL per protocol \\u00a72. Residual: 2018-06 1CR/2CR QP/MS variants never ingested (their verified ERs placed-NOT under the no-speculative-folders law; sha256s of record in the wave report).\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[2]\", \"message\": \"declared source gap GAP-SRC-003: NARROWED 2026-10-25 (BL-005): the practical-guidance class is covered by SRC-TL-4CH1 (211pp core practicals guide, terminology guidance, lab setup guides, playlist). Residual: no standalone official periodic-table / data-sheet artifact \\u2014 evidence exists embedded: spec PDF (58 pp, Issue 3), student book back matter, per-question exam assets. Optional intake, not blocking.\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[3]\", \"message\": \"declared source gap GAP-SRC-004: RESOLVED 2026-10-25 (BL-005): official scheme of work, Getting Started guide, two topic teaching guides (bonding, equilibrium), linear course planner landed as SRC-TL-4CH1. Residuals disclosed: 35 teacher-training packs available ungated as a bulk class (operator order); silver-gated rows stay operator-side (GAP-SRC-001).\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[0]\", \"message\": \"backlog entry BL-001: DONE 2026-10-25 (trace 1a16f5bd6146b01d): 54 official ERs placed in syllabai-pastpapers @ 3632b0e6 (20 \\u00d7 4CH1, 34 \\u00d7 4CH0) from Pearson's own public CDN; session coverage + provenance recorded in source_manifest.yaml v1.1 (SRC-ER-4CH1, SRC-ER-4CH0-LEGACY); residual sessions disclosed in the wave report.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[1]\", \"message\": \"backlog entry BL-002: DONE 2026-10-25 (trace 1a16f5bd6146b01d): QP/MS corpus verified already complete (40 dirs / 16 sessions); added 34 legacy ERs + official legacy spec corpus (Issue 3 / Issue 5+SAMs / 2009 SAMs) landed in Official-Specifications/igcse-chemistry-legacy-4ch0/ with spec.json provenance; all LEGACY \\u2014 HISTORICAL.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[2]\", \"message\": \"backlog entry BL-003: SUPERSEDED 2026-10-25 (SIB-GEN program r0, operator order 'Execute SIB-GEN' trace 1a1726b6684c4055 + 'run BL-007' trace 1a172e0138191add): the generation provider changed from NotebookLM to the provider-neutral zai_agent run pipeline (SIB-GEN) before provisioning happened. Notebook provisioning will NOT take place for 4CH1; the legacy prompt protocol stays as reference (docs/SIB_NOTEBOOKLM_PROMPTS_V1.md, OPTIONAL-HIS). Historical note (definition preserved): provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the CURRENT \\u2014 AUTHORITATIVE / CURRENT \\u2014 ASSESSMENT EVIDENCE sources; label legacy vs current inside the notebook per protocol \\u00a72.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[3]\", \"message\": \"backlog entry BL-004: First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol \\u00a74), grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1. STATUS 2026-10-25 \\u2014 gate opened by BL-006; the BL-007 pilot (CUR-01 + MIS-01 only) is the first slice; remaining CUR-02..CUR-08 stay queued pending pilot acceptance. DONE 2026-10-25 (BL-008 wave 1, run SIB-CHEMISTRY_4CH1-RUN-002, operator order 'BL-008 batch orchestration' trace 1a1733c96d40e6dd): CUR-02..CUR-08 generated through the full chain with receipts (7 artifacts QA_PASSED; 209 evidence-claim citations verified, 0 violations). Wave-grounding note: SRC-BOOK-4CH1-SB1 was locator-repaired to RESOLVED (v1.2.2) but stays identity-only in packs pending text extraction of the image-only scan; SPEC+GRAPH+TL carried the wave.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[4]\", \"message\": \"backlog entry BL-006: DONE 2026-10-25 (SIB-GEN r0): provider-neutral regeneration infrastructure landed \\u2014 docs r0 edition (PIPELINE.md provider-neutral, SIB_ARTIFACT_SCHEMA_V2.md provenance one-of, SUBJECT_INTELLIGENCE_BUILD_V1 + COURSE_ONBOARDING + SIB_VALIDATOR_IMPLEMENTATION_V1 de-NotebookLM'd, SIB_NOTEBOOKLM_PROMPTS_V1 retagged OPTIONAL-HIS), pipeline modules (source_resolver.py, evidence_pack.py, run_manifest.py, generate_artifact.py, run_build.py, evidence_policy.yaml 12-family law), runs/ work dir, BL-003 superseded; coordinated master-repo validator PR (provenance one-of + zai_agent vocabulary + tests) advanced the tools/sib pin of record.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[5]\", \"message\": \"backlog entry BL-007: Pilot run SIB-CHEMISTRY-4CH1-RUN-001: generate CUR-01 (Curriculum Overview) + MIS-01 (Misconception Atlas) through the full SIB-GEN chain (preflight -> evidence packs -> generation -> stamping -> validator QA -> evidence-claim QA -> educational review) with run receipts under runs/. Acceptance criteria: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness. Batch orchestration (BL-008) unlocks only on pilot acceptance. ACCEPTED 2026-10-25: pilot receipts merged of record (master PR #54 @ 357ace0a + resources PR #124 @ cb28433, coordinated pair); educational review PASS on the five acceptance criteria recorded in RUN-001's manifest \\u2014 acceptance recorded here per the BL-008 precondition wording.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[6]\", \"message\": \"backlog entry BL-008: Batch orchestration \\u2014 full-wave generation runs (remaining REQUIRED families per protocol \\u00a74 order) via pipeline/run_build.py once BL-007 pilot acceptance is recorded. Operator-ordered per wave; staging/publication remain operator gates. WAVE 1 EXECUTED 2026-10-25 (operator order trace 1a1733c96d40e6dd): run SIB-CHEMISTRY_4CH1-RUN-002 = CUR-02..CUR-08 (the BL-004 wave), 7 artifacts QA_PASSED with full receipts + deterministic census annex; source_manifest v1.2.2 locator repair + resolver direct-children-first hardening shipped in the same change. QUEUED per \\u00a74 order: pass 3 EXP (BLOCKED on student-book text extraction \\u2014 image-only scan; operator purchase decision recorded in books/CATALOG.md), pass 4 MIS-02..09 (evidence-unblocked), pass 5 ASM+MS+EXM, pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT (BLOCKED on book text), pass 9 GAP. PASS 4 EXECUTED 2026-10-26 (operator orders trace 1a173a17de8a2739 'merge PR #131; then MIS-02..09' + one-shot PAT trace 1a1745ed7792709d): wave-1 PR #131 merged FIRST (2453da5), then run SIB-CHEMISTRY_4CH1-RUN-003 = MIS-02..09 (58 records MIS-013..070) through the full chain \\u2014 preflight PASS (SRC-ER-4CH1 + SRC-QPMS-4CH1 primaries RESOLVED; 10 absent corpora disclosed), 8 agent-authored pack specs + packs (22 ER inputs sha256-pinned; the glyph-garbled 2024-06 1C ER excluded and disclosed), authoring from packs alone, validator QA @ 357ace0a 0 errors x8 (warnings = pre-existing anchor-registry degradation, disclosed), evidence-claim QA r1 86 citations / 0 violations (script now committed of record: pipeline/sib_evidence_claim_qa.py \\u2014 the wave-1 script had NOT been committed with #131), educational review PASS on the five pilot criteria per artifact. MIS family 9/9 COMPLETE. Scoreboard: 71 x SIB-MANI-007. Remaining queue unchanged. PASS 3 EXECUTED 2026-10-26 (operator order 'order pass 3 EXP' trace 1a174ae7817182b9, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-004 = EXP-01..08 (64 records EXP-001..064) through the full chain \\u2014 preflight PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED, the latter now incl. the registered v3-chunks digest; 10 absent corpora disclosed), 8 agent-authored pack specs + packs (bounded v3-chunk excerpts at line + chunk-id identity via evidence_pack.py r1 _jsonl_locate; bounded spec pages 17-29; pack caps enforced), authoring from packs alone, validator QA @ 357ace0a 0 errors x8 (INFO SIB-ANCH-003 registry note disclosed), evidence-claim QA r2 253 citations / 0 violations (sib_evidence_claim_qa.py r1 -> r2: family-general record blocks, .jsonl path + line-locator grammar, locator-kind quote binding \\u2014 in-turn repair cycle disclosed in the run manifest), educational review PASS on the five pilot criteria per artifact. The PASS 3 BLOCKED note above is SUPERSEDED: the v3 OCR parse of the student book (books/CATALOG.md \\u00a73.1, doc e6c0db50, 1,234 chunks, audit GREEN 2026-10-18) is the pack-citable text of record, registered as SRC-BOOK-4CH1-SB1 evidence in source_manifest v1.2.3; the Pearson publisher-eBook purchase decision remains open ONLY for the native-text upgrade lane (TUT/pass 8 polish), not for EXP grounding. EXP family 8/8 COMPLETE. Remaining queue: pass 5 ASM+MS+EXM, pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT, pass 9 GAP. PASS 5 EXECUTED 2026-10-26 (operator order 'order pass 5' trace 1a174f651acee035, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-005 = ASM-01..10 + MS-01..08 + EXM-01..06 (24 artifacts, 144 records ASM-001..060 / MS-001..048 / EXM-001..036) through the full chain \\u2014 preflight PASS (ASM/MS/EXM primaries SRC-SPEC-4CH1 + SRC-QPMS-4CH1 + SRC-SAMS-4CH1 / SRC-ER-4CH1 RESOLVED; 10 absent corpora disclosed; the garbled 2024-06 4CH1-1C ER excluded of record, 23 usable), 24 agent-authored pack specs + packs (bounded md line-window excerpts from the embedded mark-scheme text of the 54-paper corpus + page-located ER commentary + spec assessment pages; per-source caps enforced; interleaved file order IS the session-spread decision, disclosed), authoring from packs alone, validator QA @ 357ace0a 0 errors x24 (INFO SIB-ANCH-003 disclosed), evidence-claim QA r3 246 citations / 0 violations (sib_evidence_claim_qa.py r2 -> r3: markdown-range locator grammar \\u2014 lines N-M indexed and citable; multi-line citation payload normalization; fail-closed repair cycle disclosed in the run receipts), run manifest validate OK. MS family work = SIB evidence-grounding on the parsed mark-scheme text of record ONLY; the canonical mark_points plane stayed read-only (family law). ASM 10/10 + MS 8/8 + EXM 6/6 COMPLETE; 49 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6). Remaining queue: pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT, pass 9 GAP. PASS 6 EXECUTED 2026-10-26 (operator order 'order pass 6' trace 1a17755d4b4c9ce9, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-006 = PED-01..09 + PRA-01..05 + PRO-01..07 (21 artifacts, 135 records PED-001..063 / PRA-001..030 / PRO-001..042) through the full chain \\u2014 preflight PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed), 21 agent-authored pack specs + packs (bounded TL-corpus pages incl. the getting-started/topic-guide/core-practicals classes, v3-chunk excerpts at line+chunk identity, spec statement pages, official mark-scheme windows, examiner-report pages, notes-class excerpts; every policy-selected source planned per artifact so no auto-pulled entries; legacy sources riding the SRC-ER-* prefix demotion held to 1-page identity presence, never cited for CURRENT claims), authoring from packs alone, validator QA @ 357ace0a 0 errors x21 / 0 warnings (INFO SIB-ANCH-003 registry note disclosed), evidence-claim QA r3 283 citations / 0 violations (in-turn repair cycle disclosed in the run receipts: citation-window alignment, cross-pack locator drift, combined-parenthetical splitting, ambiguous er.pdf dir-qualification, one pack re-spec), run manifest validate OK. PED 9/9 + PRA 5/5 + PRO 7/7 COMPLETE; 70 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7) \\u2014 every REQUIRED artifact of the 95-artifact taxonomy now exists. Remaining queue: pass 7 HIS (the taxonomy's 7 OPTIONAL artifacts; sources RESOLVED since GAP-SRC-002/BL-002 2026-10-25 \\u2014 the v1.0 'blocked' note is superseded), pass 8 TUT (sources PRESENT since SB1 v3 + SRC-TL-4CH1; operator native-text eBook upgrade lane optional), pass 9 GAP (final audit \\u2014 runs last by design). PASS 7 EXECUTED 2026-10-26 (operator order 'order pass 7' trace 1a177bcd9bdac8f1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-007 = HIS-01..07 (7 OPTIONAL artifacts, 42 records HIS-001..042, family-continuous numbering) through the full chain \\u2014 preflight PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide), 7 agent-authored pack specs + packs (bounded page-located excerpts from the Issue 3 spec, the Issue 5 spec+SAMs combination and the 2009 SAMs booklet; five legacy ER sessions as LEGACY witnesses spanning 2011-06..2019-01; current-spec statement/assessment pages; QPMS structural index plus one live-question window; every policy-selected source planned per artifact), authoring from packs alone with per-record LEGACY \\u2014 HISTORICAL / CURRENT \\u2014 AUTHORITATIVE labeling and temporal_scope current+legacy, validator QA @ 357ace0a 0 errors x7 / 0 warnings (INFO SIB-ANCH-003 registry note disclosed), evidence-claim QA r4 89 citations / 0 violations (r3 -> r4 amendment: case-insensitive citation-extension + pack-path matching \\u2014 the uppercase .PDF Issue-5 combination file was a fail-closed dead end no citation could ever resolve; disclosed in the run receipts; in-turn fixes: HIS-04 pack re-spec for two cited pages, quote verbatim-alignment incl. numbered topic-map lists and instruction-bullet text), run manifest validate OK. HIS 7/7 COMPLETE; 77 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7) \\u2014 every REQUIRED artifact plus the OPTIONAL HIS family. Remaining queue: pass 8 TUT (10 REQUIRED; sources PRESENT since SB1 v3 + SRC-TL-4CH1; operator native-text eBook upgrade lane optional), pass 9 GAP (final audit \\u2014 runs last by design). PASS 8 EXECUTED 2026-10-26 (operator order 'pass 8 TUT' trace 1a1781fd0f57ada1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-008 = TUT-01..10 (10 REQUIRED artifacts, 60 records TUT-001..060, family-continuous numbering) through the full chain \\u2014 preflight PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide), 10 agent-authored pack specs + packs (SB1 chunk excerpts with line+chunk locators across the glossary, key points, HINT boxes, question batteries, the electrolysis chapter and the practical appendix; TL topic-guide, core-practical-guide, exemplar-commentary and practical-terminology pages; ER feedback windows; SPEC command-word/AO/assessment pages; every policy-selected source planned per artifact so no auto-pulled entries), authoring from packs alone, validator QA @ 357ace0a 0 errors x10 / 0 warnings, evidence-claim QA r4 94 citations / 0 violations first-pass, run manifest validate OK (SPEC-x-TUT feeds_families instantiation gap disclosed in the run receipts; the policy file governs pack composition). TUT 10/10 COMPLETE; 87 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10). Remaining queue: pass 9 GAP (final audit \\u2014 runs last by design). PASS 9 EXECUTED 2026-10-26 (operator order 'order pass 9' trace 1a17834d3ae5d5c1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-009 = GAP-01..08 (8 REQUIRED artifacts, 48 records GAP-001..048, family-continuous numbering) through the full chain \\u2014 preflight PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched; 6/17 sources resolved, 11 absent corpora disclosed run-wide), 8 agent-authored pack specs + packs (every policy-selected resolved source planned per artifact \\u2014 GAP supplementary '*' selects all six resolved sources, so SRC-ROOT-BOOK-COPIES and SRC-SAMS ride as one-page identity-presence entries consumed for identity claims only, honoring the global_forbidden root-copy law and the SAMS identity law; the 23-report ER census rides GAP-03 without the garbled 2024-06 1C exclusion), authoring from packs alone with gaps disclosed never filled (SRC-GRAPH-4CH1 absence grounds GAP-02 at source level), validator QA @ 357ace0a 0 errors x8 / 0 warnings, evidence-claim QA r4 120 citations / 0 violations final after one disclosed in-turn repair cycle (13 out-of-window citations re-pointed to in-pack locators before any record was committed), run manifest add-artifact x8 + validate OK. GAP 8/8 COMPLETE; 95/95 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10 + GAP 8) \\u2014 the 95-artifact SIB taxonomy for CHEMISTRY_4CH1 is COMPLETE. Staging/publication remain operator-ordered. PASS 10 EXECUTED 2026-10-26 (operator order 'open the remediation pass (RUN-010) starting with items 1-2' trace 1a178e533eaa1b81, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-010 = the external-review remediation pair (ASM-10 v1.1 + MIS-01 v1.1) through the full chain \\u2014 preflight PASS (6/17 sources resolved, 11 absent corpora disclosed run-wide; ASM primaries SRC-SPEC/SRC-QPMS/SRC-SAMS RESOLVED, MIS primaries SRC-ER/SRC-QPMS RESOLVED), 2 agent-authored pack specs + packs (ASM-10: spec p17+p35, 7 QPMS paper files with targeted marker-window queries incl. the two new line-located ASM-059 example windows, SAMS + TL one-page identity-presence; MIS-01: the 23 clean ER reports with identity covers + page-3 introductions + the June-2023 1C p6 / June-2025 1C pp4-5 deep pages, QPMS identity row, TL identity cover; no auto-pulled entries), authoring from packs alone \\u2014 ASM-055 + Exec Summary Topic-1 count corrected 7 -> 9 against the full spec-p17 sub-topic list (the v1.0 excerpt window truncated at '(g) Cov' and the count was taken from the truncated window), MIS-01 corpus statement aligned to the RUN-009 census of record (23 clean reports / seven sessions; v1.0 said '24 reports across the 8 sessions' while listing seven and counting the garbled 2024-06 1C file), both artifacts' citations upgraded to the r4 binding grammar (same sources, pages and quotes), pre-author quote pre-verification against the materialized sources (6 candidate mismatches resolved before packs: 2 checker mapping errors, 2 cross-document ellipsis spans grounded on co-cited files, 2 union-grounded on the correct co-cited page \\u2014 no v1.0 attribution errors found), validator QA @ 357ace0a 0 errors x2 (ASM-10 0 warnings; MIS-01 23 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003), evidence-claim QA r4 38 citations / 0 violations FIRST-PASS, run manifest add-artifact x2 + validate OK. Remediation scoreboard: 95/95 artifacts GENERATED with ASM-10 + MIS-01 corrected at v1.1. Staging/publication remain operator-ordered. PASS 11 EXECUTED 2026-10-27 (operator order 'items 3-8 of the remediation queue', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-011 = remediation-queue items 3-8 through the chain \\u2014 preflight PASS (families MIS/TUT/EXP; 6/17 sources resolved, 11 absent corpora disclosed run-wide), grounding packs carried over byte-identical from the origin runs (MIS-01: RUN-010; MIS-02..09: RUN-003; TUT-08: RUN-008; EXP-06: RUN-004; pack sha256s cross-checked against the origin run manifests \\u2014 items 3-8 alter claim labels, governance files and cross-references only, zero new or altered source claims), item 3 = MIS-family claim-type labeling (legend block in all 9 MIS artifacts; field labels tagged OBSERVED_IN_SOURCE x106 / SIB_INFERENCE x126 / PROPOSED_INTERVENTION x49; citation tokens byte-identical pre/post edit; MIS-01 v1.2, MIS-02..09 v1.1), item 4 = SOURCE_REQUIREMENTS.md section 4.1 classification + claim-type vocabulary definitions of record, item 5 = manifest.yaml header/notebook hygiene, item 6 = coverage_status block added, item 7 = run-record/pack publication closed as verified-of-record (RUN-001..010 receipts + packs + digests committed in-repo since RUN-001; runs/README.md documents the convention), item 8 = TUT-046 (TUT-08 v1.1) <-> EXP-045 (EXP-06 v1.1) family seam cross-references (same book passage, no new citations), validator QA @ 357ace0a 0 errors x11 (MIS warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation, reported not repaired), evidence-claim QA r4 149 citations / 0 violations, run manifest add-artifact x11 + validate OK. Remediation queue: ALL 8 items closed. PASS 12 EXECUTED 2026-10-27 (operator order 'Proceed with RUN-012', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-012 = SIB-ASSESS-r1 disclosure-truth repair (finding D1) + editorial nits (finding D5). manifest.yaml coverage_status rewritten to the verified per-source state: SRC-BOOK-4CH1-SB1's validated v3 parse IS the book evidence path of record (the 'text extraction pending / identity-only' line was wrong), SRC-GRAPH-4CH1 and SRC-SME-NOTES-4CH1 are resolved and pack-cited, six classes re-labeled disclosed-not-consumed, correction_of_record block added. Artifacts: TUT-08 v1.2 (pseudo-quote repair \\u2014 the book prints the hydration-route conditions as separate label/value lines, so the joined forms were not quotes; the parse prints the catalyst formula as H3PO while the book's own data tables print H3PO4 \\u2014 parse-plane defect OBSERVED and DISCLOSED, not repaired, for the books-plane parse lane), PRO-01 v1.1 and EXM-01 v1.1 (editorial repairs). Packs carried byte-identical from origin runs (sha256 cross-checked); citation tokens byte-identical pre/post; validator qa @ 357ace0a 0 errors x3 / 0 warnings; citation QA r4 27 citations / 0 violations; run manifest add-artifact x3 + validate OK. PASS 13 EXECUTED 2026-10-27 (operator order 'D2 anchor-registry repair', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-013 = SIB-ASSESS-r1 finding D2. curriculum_registry.yaml re-pinned to the validator loader contract (specification_points key, 234 quoted ids = 182 official codes of record at pin tree f42033e01de3 + 52 documented unambiguous bare projections of the C-suffixed codes; legacy spec_point_codes preserved; zero identifiers invented \\u2014 the RUN-003 pin's key/namespace defect had left the registry silently absent for every qa since RUN-003, warning all 133 anchor refs). Artifact-side: 13 anchor lines re-anchored across 6 MIS artifacts (MIS-01 v1.3; MIS-02/04/06/07/08 v1.2), per-record adjudication against the official wording of record \\u2014 the old refs cited nonexistent plain-form points (1.5/1.6/3.5), wrong-locus points (3.3/3.5 for collision theory, 1.21/1.22 Periodic Table points for equation conventions), or dropped the C suffix (3.14 -> 3.14C); re-anchored to 1.1/1.2/3.11/1.25/3.14C per the records' actual loci. Packs carried byte-identical from RUN-011 (sha256 cross-checked); citation tokens byte-identical pre/post; validator qa @ 357ace0a 0 errors / 0 warnings x6 edited + 89 unchanged receipts refreshed \\u2014 95/95 receipts clean, the first warning-free library sweep since RUN-003 (anchor refs now resolve as SIB-ANCH-004 INFO); citation QA r4 79 citations / 0 violations; run manifest add-artifact x6 + validate OK. Staging/publication remain operator-ordered. PASS 14 EXECUTED 2026-10-27 (operator order 'D4 (derived-quantity labeling)', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-014 = SIB-ASSESS-r1 finding D4. Library-wide unquoted-figure sweep (225 hits / 78 distinct sites) adjudicated against pack sources; three repairs \\u2014 CUR-02 v1.1 (census 33.2% -> 33.1%, 60/181 per the RUN-002 census of record; + 31 citation tokens upgraded to the r4 binding grammar as a disclosed in-turn repair after the gate fail-closed on pre-existing RUN-002-era debt), EXP-06 v1.2 (EXP-045 '1 in ~75' attributed as the book's own figure; 'pH around 3-5' labeled approximation). Labeling law of record at SOURCE_REQUIREMENTS.md section 4.2. Packs carried byte-identical (CUR-02 <- RUN-002, EXP-06 <- RUN-011 == RUN-004 origin); citation tokens byte-identical pre/post for the D4 edits; validator qa @ 357ace0a 0 errors / 0 warnings x2 edited + 93 unchanged receipts refreshed \\u2014 95/95 clean; citation QA r4 81 citations / 0 violations; run manifest add-artifact x2 + validate OK. PASS 15 EXECUTED 2026-10-27 (operator order 'Proceed with CUR/GAP citation-grammar pass, and the 7 OPTIONAL-HIS backlog artifacts. And also remember to update the docs of the SubjectIntelligence folder... Basically a self improving pipeline', channel zai-web, trace 1a17cb11a9858229): run SIB-CHEMISTRY_4CH1-RUN-015 = the RUN-014 citation-grammar register item + the SIB-ASSESS-r1 OPTIONAL-HIS backlog + docs self-improvement. Stage A: 131 pathless tokens repaired across CUR-03..08 (v1.1 x6) to the r4 binding grammar; 2 prose-paren hidden forms; 4 multi-cover ranges adjudicated; CUR-05/CUR-06 pack re-specs (disclosed surgical appends, minimal-diff proven); 11 quote-binding repairs verbatim-verified (first-time r1 gating of the RUN-002-era CUR family); GAP-01..08 confirm-clean (120 citations / 0 violations, register note retired). Stage B: HIS-01..07 v1.1 \\u2014 28 new records (HIS-043..070) on widened legacy ER windows (5-18 pages/artifact, sessions 2011-2019), 42 original records unchanged, all quotes verbatim-verified. Stage C: docs/LESSONS_REGISTER.md (operational laws of record) + PIPELINE.md r1 \\u00a78 + COURSE_ONBOARDING.md \\u00a77 + README pointer \\u2014 the self-improving-pipeline directive. Chain: preflight PASS (families CUR/GAP/HIS; 9/17 resolved, legacy primaries live); packs carried/ re-spec'd byte-verified; validator qa @ 357ace0a 0 errors / 0 warnings \\u2014 95/95 receipts clean; citation QA r4: CUR 210 + GAP 120 + HIS 138 citations / 0 violations; run manifest add-artifact x13 + validate OK.\", \"record_id\": \"\", \"severity\": \"INFO\"}], \"manifest_qa_passed\": false, \"sib_protocol\": \"SIB-1.0\"}": 1,
+   "{\"context\": {}, \"counts\": {\"GENERATED\": 0, \"NOT_APPLICABLE\": 0, \"OPTIONAL\": 7, \"PUBLISHED\": 0, \"QA_FAILED\": 0, \"QA_PASSED\": 0, \"REQUIRED\": 88, \"STAGED\": 0, \"UNMANIFESTED\": 0, \"artifacts_defined\": 95, \"backlog\": 7, \"rows\": 95, \"source_gaps\": 4}, \"issues\": [{\"artifact_id\": \"ASM-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"ASM-10\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact ASM-10 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"CUR-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact CUR-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXM-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXM-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"EXP-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact EXP-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"GAP-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact GAP-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MIS-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MIS-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"MS-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact MS-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PED-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PED-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRA-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRA-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"PRO-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact PRO-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-01\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-01 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-02\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-02 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-03\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-03 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-04\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-04 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-05\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-05 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-06\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-06 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-07\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-07 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-08\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-08 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-09\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-09 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"TUT-10\", \"code\": \"SIB-MANI-007\", \"field\": \"artifacts\", \"message\": \"REQUIRED artifact TUT-10 has no file in the landing zone\", \"record_id\": \"\", \"severity\": \"ERROR\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[0]\", \"message\": \"declared source gap GAP-SRC-001: RESOLVED 2026-10-25 (BL-001): official Pearson examiner reports acquired from Pearson's own public CDN and placed in the syllabai-pastpapers archive of record \\u2014 24 official 4CH1 ERs across 8 of 16 held sessions (SRC-ER-4CH1) plus 34 legacy 4CH0 ERs across 13 of 16 sessions (SRC-ER-4CH0-LEGACY). Residuals honestly disclosed, never fabricated: no public ER exists for the COVID-era / January / November sessions (zero catalog rows at the issuing body); Nov-2025 + June-2026 PEFs exist but sit behind Pearson's silver tier (401 anonymous) \\u2014 operator-side queue. Wave report: syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md.\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[1]\", \"message\": \"declared source gap GAP-SRC-002: RESOLVED 2026-10-25 (BL-002): the legacy corpus was found already complete for QP/MS (syllabai-pastpapers 4ch0/ \\u2014 40 dirs / 16 sessions; the earlier sweep's 'zero 4CH0 hits' claim corrected by first-hand re-walk, case-sensitive miss of the lowercase subtree); this run added the missing doc classes: 34 legacy ERs + official legacy specification corpus (Issue 3 spec / Issue 5 spec+SAMs / 2009 SAMs \\u2014 resources Official-Specifications/ igcse-chemistry-legacy-4ch0/). All 4CH0 material is classified LEGACY \\u2014 HISTORICAL per protocol \\u00a72. Residual: 2018-06 1CR/2CR QP/MS variants never ingested (their verified ERs placed-NOT under the no-speculative-folders law; sha256s of record in the wave report).\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[2]\", \"message\": \"declared source gap GAP-SRC-003: NARROWED 2026-10-25 (BL-005): the practical-guidance class is covered by SRC-TL-4CH1 (211pp core practicals guide, terminology guidance, lab setup guides, playlist). Residual: no standalone official periodic-table / data-sheet artifact \\u2014 evidence exists embedded: spec PDF (58 pp, Issue 3), student book back matter, per-question exam assets. Optional intake, not blocking.\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-011\", \"field\": \"source_gaps[3]\", \"message\": \"declared source gap GAP-SRC-004: RESOLVED 2026-10-25 (BL-005): official scheme of work, Getting Started guide, two topic teaching guides (bonding, equilibrium), linear course planner landed as SRC-TL-4CH1. Residuals disclosed: 35 teacher-training packs available ungated as a bulk class (operator order); silver-gated rows stay operator-side (GAP-SRC-001).\", \"record_id\": \"\", \"severity\": \"WARNING\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[0]\", \"message\": \"backlog entry BL-001: DONE 2026-10-25 (trace 1a16f5bd6146b01d): 54 official ERs placed in syllabai-pastpapers @ 3632b0e6 (20 \\u00d7 4CH1, 34 \\u00d7 4CH0) from Pearson's own public CDN; session coverage + provenance recorded in source_manifest.yaml v1.1 (SRC-ER-4CH1, SRC-ER-4CH0-LEGACY); residual sessions disclosed in the wave report.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[1]\", \"message\": \"backlog entry BL-002: DONE 2026-10-25 (trace 1a16f5bd6146b01d): QP/MS corpus verified already complete (40 dirs / 16 sessions); added 34 legacy ERs + official legacy spec corpus (Issue 3 / Issue 5+SAMs / 2009 SAMs) landed in Official-Specifications/igcse-chemistry-legacy-4ch0/ with spec.json provenance; all LEGACY \\u2014 HISTORICAL.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[2]\", \"message\": \"backlog entry BL-003: SUPERSEDED 2026-10-25 (SIB-GEN program r0, operator order 'Execute SIB-GEN' trace 1a1726b6684c4055 + 'run BL-007' trace 1a172e0138191add): the generation provider changed from NotebookLM to the provider-neutral zai_agent run pipeline (SIB-GEN) before provisioning happened. Notebook provisioning will NOT take place for 4CH1; the legacy prompt protocol stays as reference (docs/SIB_NOTEBOOKLM_PROMPTS_V1.md, OPTIONAL-HIS). Historical note (definition preserved): provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the CURRENT \\u2014 AUTHORITATIVE / CURRENT \\u2014 ASSESSMENT EVIDENCE sources; label legacy vs current inside the notebook per protocol \\u00a72.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[3]\", \"message\": \"backlog entry BL-004: First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol \\u00a74), grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1. STATUS 2026-10-25 \\u2014 gate opened by BL-006; the BL-007 pilot (CUR-01 + MIS-01 only) is the first slice; remaining CUR-02..CUR-08 stay queued pending pilot acceptance. DONE 2026-10-25 (BL-008 wave 1, run SIB-CHEMISTRY_4CH1-RUN-002, operator order 'BL-008 batch orchestration' trace 1a1733c96d40e6dd): CUR-02..CUR-08 generated through the full chain with receipts (7 artifacts QA_PASSED; 209 evidence-claim citations verified, 0 violations). Wave-grounding note: SRC-BOOK-4CH1-SB1 was locator-repaired to RESOLVED (v1.2.2) but stays identity-only in packs pending text extraction of the image-only scan; SPEC+GRAPH+TL carried the wave.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[4]\", \"message\": \"backlog entry BL-006: DONE 2026-10-25 (SIB-GEN r0): provider-neutral regeneration infrastructure landed \\u2014 docs r0 edition (PIPELINE.md provider-neutral, SIB_ARTIFACT_SCHEMA_V2.md provenance one-of, SUBJECT_INTELLIGENCE_BUILD_V1 + COURSE_ONBOARDING + SIB_VALIDATOR_IMPLEMENTATION_V1 de-NotebookLM'd, SIB_NOTEBOOKLM_PROMPTS_V1 retagged OPTIONAL-HIS), pipeline modules (source_resolver.py, evidence_pack.py, run_manifest.py, generate_artifact.py, run_build.py, evidence_policy.yaml 12-family law), runs/ work dir, BL-003 superseded; coordinated master-repo validator PR (provenance one-of + zai_agent vocabulary + tests) advanced the tools/sib pin of record.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[5]\", \"message\": \"backlog entry BL-007: Pilot run SIB-CHEMISTRY-4CH1-RUN-001: generate CUR-01 (Curriculum Overview) + MIS-01 (Misconception Atlas) through the full SIB-GEN chain (preflight -> evidence packs -> generation -> stamping -> validator QA -> evidence-claim QA -> educational review) with run receipts under runs/. Acceptance criteria: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness. Batch orchestration (BL-008) unlocks only on pilot acceptance. ACCEPTED 2026-10-25: pilot receipts merged of record (master PR #54 @ 357ace0a + resources PR #124 @ cb28433, coordinated pair); educational review PASS on the five acceptance criteria recorded in RUN-001's manifest \\u2014 acceptance recorded here per the BL-008 precondition wording.\", \"record_id\": \"\", \"severity\": \"INFO\"}, {\"artifact_id\": \"\", \"code\": \"SIB-MANI-012\", \"field\": \"backlog[6]\", \"message\": \"backlog entry BL-008: Batch orchestration \\u2014 full-wave generation runs (remaining REQUIRED families per protocol \\u00a74 order) via pipeline/run_build.py once BL-007 pilot acceptance is recorded. Operator-ordered per wave; staging/publication remain operator gates. WAVE 1 EXECUTED 2026-10-25 (operator order trace 1a1733c96d40e6dd): run SIB-CHEMISTRY_4CH1-RUN-002 = CUR-02..CUR-08 (the BL-004 wave), 7 artifacts QA_PASSED with full receipts + deterministic census annex; source_manifest v1.2.2 locator repair + resolver direct-children-first hardening shipped in the same change. QUEUED per \\u00a74 order: pass 3 EXP (BLOCKED on student-book text extraction \\u2014 image-only scan; operator purchase decision recorded in books/CATALOG.md), pass 4 MIS-02..09 (evidence-unblocked), pass 5 ASM+MS+EXM, pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT (BLOCKED on book text), pass 9 GAP. PASS 4 EXECUTED 2026-10-26 (operator orders trace 1a173a17de8a2739 'merge PR #131; then MIS-02..09' + one-shot PAT trace 1a1745ed7792709d): wave-1 PR #131 merged FIRST (2453da5), then run SIB-CHEMISTRY_4CH1-RUN-003 = MIS-02..09 (58 records MIS-013..070) through the full chain \\u2014 preflight PASS (SRC-ER-4CH1 + SRC-QPMS-4CH1 primaries RESOLVED; 10 absent corpora disclosed), 8 agent-authored pack specs + packs (22 ER inputs sha256-pinned; the glyph-garbled 2024-06 1C ER excluded and disclosed), authoring from packs alone, validator QA @ 357ace0a 0 errors x8 (warnings = pre-existing anchor-registry degradation, disclosed), evidence-claim QA r1 86 citations / 0 violations (script now committed of record: pipeline/sib_evidence_claim_qa.py \\u2014 the wave-1 script had NOT been committed with #131), educational review PASS on the five pilot criteria per artifact. MIS family 9/9 COMPLETE. Scoreboard: 71 x SIB-MANI-007. Remaining queue unchanged. PASS 3 EXECUTED 2026-10-26 (operator order 'order pass 3 EXP' trace 1a174ae7817182b9, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-004 = EXP-01..08 (64 records EXP-001..064) through the full chain \\u2014 preflight PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED, the latter now incl. the registered v3-chunks digest; 10 absent corpora disclosed), 8 agent-authored pack specs + packs (bounded v3-chunk excerpts at line + chunk-id identity via evidence_pack.py r1 _jsonl_locate; bounded spec pages 17-29; pack caps enforced), authoring from packs alone, validator QA @ 357ace0a 0 errors x8 (INFO SIB-ANCH-003 registry note disclosed), evidence-claim QA r2 253 citations / 0 violations (sib_evidence_claim_qa.py r1 -> r2: family-general record blocks, .jsonl path + line-locator grammar, locator-kind quote binding \\u2014 in-turn repair cycle disclosed in the run manifest), educational review PASS on the five pilot criteria per artifact. The PASS 3 BLOCKED note above is SUPERSEDED: the v3 OCR parse of the student book (books/CATALOG.md \\u00a73.1, doc e6c0db50, 1,234 chunks, audit GREEN 2026-10-18) is the pack-citable text of record, registered as SRC-BOOK-4CH1-SB1 evidence in source_manifest v1.2.3; the Pearson publisher-eBook purchase decision remains open ONLY for the native-text upgrade lane (TUT/pass 8 polish), not for EXP grounding. EXP family 8/8 COMPLETE. Remaining queue: pass 5 ASM+MS+EXM, pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT, pass 9 GAP. PASS 5 EXECUTED 2026-10-26 (operator order 'order pass 5' trace 1a174f651acee035, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-005 = ASM-01..10 + MS-01..08 + EXM-01..06 (24 artifacts, 144 records ASM-001..060 / MS-001..048 / EXM-001..036) through the full chain \\u2014 preflight PASS (ASM/MS/EXM primaries SRC-SPEC-4CH1 + SRC-QPMS-4CH1 + SRC-SAMS-4CH1 / SRC-ER-4CH1 RESOLVED; 10 absent corpora disclosed; the garbled 2024-06 4CH1-1C ER excluded of record, 23 usable), 24 agent-authored pack specs + packs (bounded md line-window excerpts from the embedded mark-scheme text of the 54-paper corpus + page-located ER commentary + spec assessment pages; per-source caps enforced; interleaved file order IS the session-spread decision, disclosed), authoring from packs alone, validator QA @ 357ace0a 0 errors x24 (INFO SIB-ANCH-003 disclosed), evidence-claim QA r3 246 citations / 0 violations (sib_evidence_claim_qa.py r2 -> r3: markdown-range locator grammar \\u2014 lines N-M indexed and citable; multi-line citation payload normalization; fail-closed repair cycle disclosed in the run receipts), run manifest validate OK. MS family work = SIB evidence-grounding on the parsed mark-scheme text of record ONLY; the canonical mark_points plane stayed read-only (family law). ASM 10/10 + MS 8/8 + EXM 6/6 COMPLETE; 49 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6). Remaining queue: pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT, pass 9 GAP. PASS 6 EXECUTED 2026-10-26 (operator order 'order pass 6' trace 1a17755d4b4c9ce9, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-006 = PED-01..09 + PRA-01..05 + PRO-01..07 (21 artifacts, 135 records PED-001..063 / PRA-001..030 / PRO-001..042) through the full chain \\u2014 preflight PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed), 21 agent-authored pack specs + packs (bounded TL-corpus pages incl. the getting-started/topic-guide/core-practicals classes, v3-chunk excerpts at line+chunk identity, spec statement pages, official mark-scheme windows, examiner-report pages, notes-class excerpts; every policy-selected source planned per artifact so no auto-pulled entries; legacy sources riding the SRC-ER-* prefix demotion held to 1-page identity presence, never cited for CURRENT claims), authoring from packs alone, validator QA @ 357ace0a 0 errors x21 / 0 warnings (INFO SIB-ANCH-003 registry note disclosed), evidence-claim QA r3 283 citations / 0 violations (in-turn repair cycle disclosed in the run receipts: citation-window alignment, cross-pack locator drift, combined-parenthetical splitting, ambiguous er.pdf dir-qualification, one pack re-spec), run manifest validate OK. PED 9/9 + PRA 5/5 + PRO 7/7 COMPLETE; 70 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7) \\u2014 every REQUIRED artifact of the 95-artifact taxonomy now exists. Remaining queue: pass 7 HIS (the taxonomy's 7 OPTIONAL artifacts; sources RESOLVED since GAP-SRC-002/BL-002 2026-10-25 \\u2014 the v1.0 'blocked' note is superseded), pass 8 TUT (sources PRESENT since SB1 v3 + SRC-TL-4CH1; operator native-text eBook upgrade lane optional), pass 9 GAP (final audit \\u2014 runs last by design). PASS 7 EXECUTED 2026-10-26 (operator order 'order pass 7' trace 1a177bcd9bdac8f1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-007 = HIS-01..07 (7 OPTIONAL artifacts, 42 records HIS-001..042, family-continuous numbering) through the full chain \\u2014 preflight PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide), 7 agent-authored pack specs + packs (bounded page-located excerpts from the Issue 3 spec, the Issue 5 spec+SAMs combination and the 2009 SAMs booklet; five legacy ER sessions as LEGACY witnesses spanning 2011-06..2019-01; current-spec statement/assessment pages; QPMS structural index plus one live-question window; every policy-selected source planned per artifact), authoring from packs alone with per-record LEGACY \\u2014 HISTORICAL / CURRENT \\u2014 AUTHORITATIVE labeling and temporal_scope current+legacy, validator QA @ 357ace0a 0 errors x7 / 0 warnings (INFO SIB-ANCH-003 registry note disclosed), evidence-claim QA r4 89 citations / 0 violations (r3 -> r4 amendment: case-insensitive citation-extension + pack-path matching \\u2014 the uppercase .PDF Issue-5 combination file was a fail-closed dead end no citation could ever resolve; disclosed in the run receipts; in-turn fixes: HIS-04 pack re-spec for two cited pages, quote verbatim-alignment incl. numbered topic-map lists and instruction-bullet text), run manifest validate OK. HIS 7/7 COMPLETE; 77 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7) \\u2014 every REQUIRED artifact plus the OPTIONAL HIS family. Remaining queue: pass 8 TUT (10 REQUIRED; sources PRESENT since SB1 v3 + SRC-TL-4CH1; operator native-text eBook upgrade lane optional), pass 9 GAP (final audit \\u2014 runs last by design). PASS 8 EXECUTED 2026-10-26 (operator order 'pass 8 TUT' trace 1a1781fd0f57ada1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-008 = TUT-01..10 (10 REQUIRED artifacts, 60 records TUT-001..060, family-continuous numbering) through the full chain \\u2014 preflight PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide), 10 agent-authored pack specs + packs (SB1 chunk excerpts with line+chunk locators across the glossary, key points, HINT boxes, question batteries, the electrolysis chapter and the practical appendix; TL topic-guide, core-practical-guide, exemplar-commentary and practical-terminology pages; ER feedback windows; SPEC command-word/AO/assessment pages; every policy-selected source planned per artifact so no auto-pulled entries), authoring from packs alone, validator QA @ 357ace0a 0 errors x10 / 0 warnings, evidence-claim QA r4 94 citations / 0 violations first-pass, run manifest validate OK (SPEC-x-TUT feeds_families instantiation gap disclosed in the run receipts; the policy file governs pack composition). TUT 10/10 COMPLETE; 87 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10). Remaining queue: pass 9 GAP (final audit \\u2014 runs last by design). PASS 9 EXECUTED 2026-10-26 (operator order 'order pass 9' trace 1a17834d3ae5d5c1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-009 = GAP-01..08 (8 REQUIRED artifacts, 48 records GAP-001..048, family-continuous numbering) through the full chain \\u2014 preflight PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched; 6/17 sources resolved, 11 absent corpora disclosed run-wide), 8 agent-authored pack specs + packs (every policy-selected resolved source planned per artifact \\u2014 GAP supplementary '*' selects all six resolved sources, so SRC-ROOT-BOOK-COPIES and SRC-SAMS ride as one-page identity-presence entries consumed for identity claims only, honoring the global_forbidden root-copy law and the SAMS identity law; the 23-report ER census rides GAP-03 without the garbled 2024-06 1C exclusion), authoring from packs alone with gaps disclosed never filled (SRC-GRAPH-4CH1 absence grounds GAP-02 at source level), validator QA @ 357ace0a 0 errors x8 / 0 warnings, evidence-claim QA r4 120 citations / 0 violations final after one disclosed in-turn repair cycle (13 out-of-window citations re-pointed to in-pack locators before any record was committed), run manifest add-artifact x8 + validate OK. GAP 8/8 COMPLETE; 95/95 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10 + GAP 8) \\u2014 the 95-artifact SIB taxonomy for CHEMISTRY_4CH1 is COMPLETE. Staging/publication remain operator-ordered. PASS 10 EXECUTED 2026-10-26 (operator order 'open the remediation pass (RUN-010) starting with items 1-2' trace 1a178e533eaa1b81, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-010 = the external-review remediation pair (ASM-10 v1.1 + MIS-01 v1.1) through the full chain \\u2014 preflight PASS (6/17 sources resolved, 11 absent corpora disclosed run-wide; ASM primaries SRC-SPEC/SRC-QPMS/SRC-SAMS RESOLVED, MIS primaries SRC-ER/SRC-QPMS RESOLVED), 2 agent-authored pack specs + packs (ASM-10: spec p17+p35, 7 QPMS paper files with targeted marker-window queries incl. the two new line-located ASM-059 example windows, SAMS + TL one-page identity-presence; MIS-01: the 23 clean ER reports with identity covers + page-3 introductions + the June-2023 1C p6 / June-2025 1C pp4-5 deep pages, QPMS identity row, TL identity cover; no auto-pulled entries), authoring from packs alone \\u2014 ASM-055 + Exec Summary Topic-1 count corrected 7 -> 9 against the full spec-p17 sub-topic list (the v1.0 excerpt window truncated at '(g) Cov' and the count was taken from the truncated window), MIS-01 corpus statement aligned to the RUN-009 census of record (23 clean reports / seven sessions; v1.0 said '24 reports across the 8 sessions' while listing seven and counting the garbled 2024-06 1C file), both artifacts' citations upgraded to the r4 binding grammar (same sources, pages and quotes), pre-author quote pre-verification against the materialized sources (6 candidate mismatches resolved before packs: 2 checker mapping errors, 2 cross-document ellipsis spans grounded on co-cited files, 2 union-grounded on the correct co-cited page \\u2014 no v1.0 attribution errors found), validator QA @ 357ace0a 0 errors x2 (ASM-10 0 warnings; MIS-01 23 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003), evidence-claim QA r4 38 citations / 0 violations FIRST-PASS, run manifest add-artifact x2 + validate OK. Remediation scoreboard: 95/95 artifacts GENERATED with ASM-10 + MIS-01 corrected at v1.1. Staging/publication remain operator-ordered. PASS 11 EXECUTED 2026-10-27 (operator order 'items 3-8 of the remediation queue', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-011 = remediation-queue items 3-8 through the chain \\u2014 preflight PASS (families MIS/TUT/EXP; 6/17 sources resolved, 11 absent corpora disclosed run-wide), grounding packs carried over byte-identical from the origin runs (MIS-01: RUN-010; MIS-02..09: RUN-003; TUT-08: RUN-008; EXP-06: RUN-004; pack sha256s cross-checked against the origin run manifests \\u2014 items 3-8 alter claim labels, governance files and cross-references only, zero new or altered source claims), item 3 = MIS-family claim-type labeling (legend block in all 9 MIS artifacts; field labels tagged OBSERVED_IN_SOURCE x106 / SIB_INFERENCE x126 / PROPOSED_INTERVENTION x49; citation tokens byte-identical pre/post edit; MIS-01 v1.2, MIS-02..09 v1.1), item 4 = SOURCE_REQUIREMENTS.md section 4.1 classification + claim-type vocabulary definitions of record, item 5 = manifest.yaml header/notebook hygiene, item 6 = coverage_status block added, item 7 = run-record/pack publication closed as verified-of-record (RUN-001..010 receipts + packs + digests committed in-repo since RUN-001; runs/README.md documents the convention), item 8 = TUT-046 (TUT-08 v1.1) <-> EXP-045 (EXP-06 v1.1) family seam cross-references (same book passage, no new citations), validator QA @ 357ace0a 0 errors x11 (MIS warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation, reported not repaired), evidence-claim QA r4 149 citations / 0 violations, run manifest add-artifact x11 + validate OK. Remediation queue: ALL 8 items closed. PASS 12 EXECUTED 2026-10-27 (operator order 'Proceed with RUN-012', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-012 = SIB-ASSESS-r1 disclosure-truth repair (finding D1) + editorial nits (finding D5). manifest.yaml coverage_status rewritten to the verified per-source state: SRC-BOOK-4CH1-SB1's validated v3 parse IS the book evidence path of record (the 'text extraction pending / identity-only' line was wrong), SRC-GRAPH-4CH1 and SRC-SME-NOTES-4CH1 are resolved and pack-cited, six classes re-labeled disclosed-not-consumed, correction_of_record block added. Artifacts: TUT-08 v1.2 (pseudo-quote repair \\u2014 the book prints the hydration-route conditions as separate label/value lines, so the joined forms were not quotes; the parse prints the catalyst formula as H3PO while the book's own data tables print H3PO4 \\u2014 parse-plane defect OBSERVED and DISCLOSED, not repaired, for the books-plane parse lane), PRO-01 v1.1 and EXM-01 v1.1 (editorial repairs). Packs carried byte-identical from origin runs (sha256 cross-checked); citation tokens byte-identical pre/post; validator qa @ 357ace0a 0 errors x3 / 0 warnings; citation QA r4 27 citations / 0 violations; run manifest add-artifact x3 + validate OK. PASS 13 EXECUTED 2026-10-27 (operator order 'D2 anchor-registry repair', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-013 = SIB-ASSESS-r1 finding D2. curriculum_registry.yaml re-pinned to the validator loader contract (specification_points key, 234 quoted ids = 182 official codes of record at pin tree f42033e01de3 + 52 documented unambiguous bare projections of the C-suffixed codes; legacy spec_point_codes preserved; zero identifiers invented \\u2014 the RUN-003 pin's key/namespace defect had left the registry silently absent for every qa since RUN-003, warning all 133 anchor refs). Artifact-side: 13 anchor lines re-anchored across 6 MIS artifacts (MIS-01 v1.3; MIS-02/04/06/07/08 v1.2), per-record adjudication against the official wording of record \\u2014 the old refs cited nonexistent plain-form points (1.5/1.6/3.5), wrong-locus points (3.3/3.5 for collision theory, 1.21/1.22 Periodic Table points for equation conventions), or dropped the C suffix (3.14 -> 3.14C); re-anchored to 1.1/1.2/3.11/1.25/3.14C per the records' actual loci. Packs carried byte-identical from RUN-011 (sha256 cross-checked); citation tokens byte-identical pre/post; validator qa @ 357ace0a 0 errors / 0 warnings x6 edited + 89 unchanged receipts refreshed \\u2014 95/95 receipts clean, the first warning-free library sweep since RUN-003 (anchor refs now resolve as SIB-ANCH-004 INFO); citation QA r4 79 citations / 0 violations; run manifest add-artifact x6 + validate OK. Staging/publication remain operator-ordered. PASS 14 EXECUTED 2026-10-27 (operator order 'D4 (derived-quantity labeling)', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-014 = SIB-ASSESS-r1 finding D4. Library-wide unquoted-figure sweep (225 hits / 78 distinct sites) adjudicated against pack sources; three repairs \\u2014 CUR-02 v1.1 (census 33.2% -> 33.1%, 60/181 per the RUN-002 census of record; + 31 citation tokens upgraded to the r4 binding grammar as a disclosed in-turn repair after the gate fail-closed on pre-existing RUN-002-era debt), EXP-06 v1.2 (EXP-045 '1 in ~75' attributed as the book's own figure; 'pH around 3-5' labeled approximation). Labeling law of record at SOURCE_REQUIREMENTS.md section 4.2. Packs carried byte-identical (CUR-02 <- RUN-002, EXP-06 <- RUN-011 == RUN-004 origin); citation tokens byte-identical pre/post for the D4 edits; validator qa @ 357ace0a 0 errors / 0 warnings x2 edited + 93 unchanged receipts refreshed \\u2014 95/95 clean; citation QA r4 81 citations / 0 violations; run manifest add-artifact x2 + validate OK. PASS 15 EXECUTED 2026-10-27 (operator order 'Proceed with CUR/GAP citation-grammar pass, and the 7 OPTIONAL-HIS backlog artifacts. And also remember to update the docs of the SubjectIntelligence folder... Basically a self improving pipeline', channel zai-web, trace 1a17cb11a9858229): run SIB-CHEMISTRY_4CH1-RUN-015 = the RUN-014 citation-grammar register item + the SIB-ASSESS-r1 OPTIONAL-HIS backlog + docs self-improvement. Stage A: 131 pathless tokens repaired across CUR-03..08 (v1.1 x6) to the r4 binding grammar; 2 prose-paren hidden forms; 4 multi-cover ranges adjudicated; CUR-05/CUR-06 pack re-specs (disclosed surgical appends, minimal-diff proven); 11 quote-binding repairs verbatim-verified (first-time r1 gating of the RUN-002-era CUR family); GAP-01..08 confirm-clean (120 citations / 0 violations, register note retired). Stage B: HIS-01..07 v1.1 \\u2014 28 new records (HIS-043..070) on widened legacy ER windows (5-18 pages/artifact, sessions 2011-2019), 42 original records unchanged, all quotes verbatim-verified. Stage C: docs/LESSONS_REGISTER.md (operational laws of record) + PIPELINE.md r1 \\u00a78 + COURSE_ONBOARDING.md \\u00a77 + README pointer \\u2014 the self-improving-pipeline directive. Chain: preflight PASS (families CUR/GAP/HIS; 9/17 resolved, legacy primaries live); packs carried/ re-spec'd byte-verified; validator qa @ 357ace0a 0 errors / 0 warnings \\u2014 95/95 receipts clean; citation QA r4: CUR 210 + GAP 120 + HIS 138 citations / 0 violations; run manifest add-artifact x13 + validate OK.\", \"record_id\": \"\", \"severity\": \"INFO\"}], \"qa_passed\": false, \"unit\": \"manifest\"}": 2,
+   "{\"codes_observed\": {\"SIB-MANI-007\": 88, \"SIB-MANI-011\": 4, \"SIB-MANI-012\": 7}, \"command\": \"tools.sib.cli validate-manifest <library-dir> (post-lifecycle), validator pin 357ace0a\", \"counts\": {\"GENERATED\": 0, \"NOT_APPLICABLE\": 0, \"OPTIONAL\": 7, \"PUBLISHED\": 0, \"QA_FAILED\": 0, \"QA_PASSED\": 0, \"REQUIRED\": 88, \"STAGED\": 0, \"UNMANIFESTED\": 0, \"artifacts_defined\": 95, \"backlog\": 7, \"rows\": 95, \"source_gaps\": 4}, \"expected_F4a_state\": \"88x SIB-MANI-007 + 4 WARN (SIB-MANI-011) + 7 INFO (SIB-MANI-012) \\u2014 BYTE-EXACT the RUN-016/RUN-017 disclosed state\", \"note\": \"the manifest scoreboard models the landing lifecycle only; the published set's evidence chain is the governed transition receipts (lifecycle_receipt.json) \\u2014 OBSERVED + DISCLOSED, never worked around\", \"qa_passed\": false, \"run_id\": \"<RUN>\"}": 1,
+   "{\"issue_counts\": {\"SIB-MANI-007\": 88, \"SIB-MANI-011\": 4, \"SIB-MANI-012\": 7}, \"law\": \"F4a-disclosed structural state: 88x SIB-MANI-007 (the scoreboard cannot model the advanced lifecycle) + designed gap/backlog WARN/INFOs; OBSERVED + DISCLOSED, never worked around\", \"raw_tail\": \"S backlog artifacts. And also remember to update the docs of the SubjectIntelligence folder... Basically a self improving pipeline', channel zai-web, trace 1a17cb11a9858229): run SIB-CHEMISTRY_4CH1-RUN-015 = the RUN-014 citation-grammar register item + the SIB-ASSESS-r1 OPTIONAL-HIS backlog + docs self-improvement. Stage A: 131 pathless tokens repaired across CUR-03..08 (v1.1 x6) to the r4 binding grammar; 2 prose-paren hidden forms; 4 multi-cover ranges adjudicated; CUR-05/CUR-06 pack re-specs (disclosed surgical appends, minimal-diff proven); 11 quote-binding repairs verbatim-verified (first-time r1 gating of the RUN-002-era CUR family); GAP-01..08 confirm-clean (120 citations / 0 violations, register note retired). Stage B: HIS-01..07 v1.1 \\u2014 28 new records (HIS-043..070) on widened legacy ER windows (5-18 pages/artifact, sessions 2011-2019), 42 original records unchanged, all quotes verbatim-verified. Stage C: docs/LESSONS_REGISTER.md (operational laws of record) + PIPELINE.md r1 \\u00a78 + COURSE_ONBOARDING.md \\u00a77 + README pointer \\u2014 the self-improving-pipeline directive. Chain: preflight PASS (families CUR/GAP/HIS; 9/17 resolved, legacy primaries live); packs carried/ re-spec'd byte-verified; validator qa @ 357ace0a 0 errors / 0 warnings \\u2014 95/95 receipts clean; citation QA r4: CUR 210 + GAP 120 + HIS 138 citations / 0 violations; run manifest add-artifact x13 + validate OK.\\\",\\n      \\\"record_id\\\": \\\"\\\",\\n      \\\"severity\\\": \\\"INFO\\\"\\n    }\\n  ],\\n  \\\"qa_passed\\\": false,\\n  \\\"unit\\\": \\\"manifest\\\"\\n}\\n\", \"rc\": 1, \"run_id\": \"<RUN>\", \"schema\": \"sib-post-lifecycle-scoreboard/1.0\"}": 1,
+   "{\"issue_counts\": {\"SIB-MANI-007\": 88, \"SIB-MANI-011\": 4, \"SIB-MANI-012\": 7}, \"law\": \"F4a-disclosed structural state: 88x SIB-MANI-007 (the scoreboard cannot model the advanced lifecycle) + designed gap/backlog WARN/INFOs; OBSERVED + DISCLOSED, never worked around\", \"rc\": 1, \"run_id\": \"<RUN>\", \"schema\": \"sib-post-lifecycle-scoreboard/1.0\"}": 2
+  },
+  "top_key_variance": {
+   "RUN-017": [
+    "context",
+    "counts",
+    "issues",
+    "qa_passed",
+    "unit"
+   ],
+   "RUN-018": [
+    "codes_observed",
+    "command",
+    "counts",
+    "expected_F4a_state",
+    "note",
+    "qa_passed",
+    "run_id"
+   ],
+   "RUN-019": [
+    "issue_counts",
+    "law",
+    "raw_tail",
+    "rc",
+    "run_id",
+    "schema"
+   ],
+   "RUN-020": [
+    "context",
+    "counts",
+    "issues",
+    "qa_passed",
+    "unit"
+   ],
+   "RUN-021": [
+    "issue_counts",
+    "law",
+    "rc",
+    "run_id",
+    "schema"
+   ],
+   "RUN-022": [
+    "issue_counts",
+    "law",
+    "rc",
+    "run_id",
+    "schema"
+   ]
+  },
+  "qa_reports": 95
+ }
+}
