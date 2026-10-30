@@ -79,11 +79,12 @@ staged `official-papers.json` differ ONLY in `sourcePaper` (deep field diff).
 The maths-B serving plane is **AHEAD of its corpus**: the T-OEQ-MATHSB-SERVE-1
 run-020..025 chain applied eyes-on, MS/QP-page-verified repair tuples to the SERVED
 bytes (1,461-pid standing debt; corpus back-syncs rode resources PRs #225/#226 only
-partially). Measured: a pristine-port re-export at the `a7a34cd9` pin yields **1,466
-regressive content deltas** vs the served plane (classes: markPoints+solutionMd 434,
-problemMd 282, markPoints+problemMd+solutionMd 187, solutionMd 182,
-problemMd+solutionMd 122, assets+problemMd 120, assets+markPoints+problemMd+solutionMd
-108, assets+problemMd+solutionMd 31 — census of record:
+partially). Measured: a pristine-port re-export at the `a7a34cd9` pin yields **1,469
+regressive content deltas** at the run-026 serving plane 37fc0a18 (1,466 at the
+run-025 plane 1a479c05 it superseded mid-wave; classes at re-measure:
+markPoints+solutionMd 440, problemMd 283, markPoints+problemMd+solutionMd 190,
+solutionMd 178, problemMd+solutionMd 119, assets+problemMd 117,
+assets+markPoints+problemMd+solutionMd 112, assets+problemMd+solutionMd 30 — census of record:
 `scripts/exporter-disclosures/2026-10-30-f119-maths-b-corpus-lag-census.json`).
 Re-exporting from the corpus would have RESURRECTED repaired defect classes on the
 learner surface — refused.
@@ -92,16 +93,18 @@ The F119 law went to maths-B as a **serve-plane field-write** (the run-0xx patte
 that lane): `sourcePaper.questionPart` written id-derived (the SAME rule G-E6
 enforces), everything else byte-untouched. Battery 8/8 PASS, fail-closed:
 
-1. G1 serialization identity — parse→compact dump == served bytes (1a479c05…, 3,718,164 B)
+1. G1 serialization identity — parse→compact dump == served bytes (37fc0a18…, 3,719,167 B)
 2. G2 census EXACT — 66 sets / 1,281 questions / 2,443 parts / 6,600 marks pre==post
 3. G3 marks map identical · 4. G4 id plane identical
 5. G5 changed-set deep-diff == questionPart only (1,723 writes; pre-state snapshotted
    by re-parse — the aliasing blind the battery itself caught and fixed)
 6. G6 label law bidirectional — 1,594 one-level + 129 two-level + 720 path-less/null
-7. G7 PUA/U+FFFD/dollar parity — 0→0 / 0→0 / 3,623→3,623
+7. G7 PUA/U+FFFD/dollar parity — 0→0 / 0→0 / 4,355→4,355
 8. G8 output single-line compact, no trailing newline
 
-Bytes: 3,718,164 → 3,720,356 (+2,192 — the label field only). The tool + receipt ship
+Bytes: 3,719,167 → 3,721,359 (+2,192 — the label field only; re-run at the run-026
+plane after PR #473 moved it mid-wave — same 1,723 writes / 720 nulls). The tool +
+receipt ship
 in the v2 wave receipts (`T-OEQ-PARTLABEL-3/run-001/`).
 
 ## Corpus-wide census of record

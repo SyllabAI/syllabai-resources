@@ -25,8 +25,9 @@
   manifests re-stamped (importSource.ref = the consumed cut; F119 note of record).
 - **The maths-B discipline (the wave's finding)**: the igcse-maths-b-16 serving plane is
   AHEAD of its corpus (the T-OEQ-MATHSB-SERVE-1 run-020..025 eyes-on hand-repair chain,
-  1,461-pid standing debt); a corpus re-export at the a7a34cd9 pin measured **1,466
-  regressive content deltas** (census:
+  1,461-pid standing debt); a corpus re-export at the a7a34cd9 pin measured **1,469
+  regressive content deltas** at the run-026 plane 37fc0a18 (1,466 at the run-025
+  plane it superseded mid-wave; census:
   scripts/exporter-disclosures/2026-10-30-f119-maths-b-corpus-lag-census.json) —
   re-exporting would have resurrected repaired defect classes. The F119 label law went
   to maths-B as a serve-plane FIELD-WRITE instead: 1,723 id-derived label writes, 720
