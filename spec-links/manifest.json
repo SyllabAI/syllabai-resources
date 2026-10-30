@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.learner-spec-links-manifest/1.0",
- "generated_utc": "2026-10-30T10:00:00Z",
+ "generated_utc": "2026-10-30T10:30:00Z",
  "courses": {
   "ial-biology-18": {
    "qual": "ial-biology",
@@ -3177,5 +3177,13 @@
   "resolved_pairs": 74,
   "operator_directive": "fire that consume lane (gateway trace 1a18bc6701800065)",
   "fires": "T-SPECS-CIE-REJOIN-3 record follow-on (the operator-verdict fill class)"
+ },
+ "cie_gate_wave3": {
+  "gate": "T-SPECS-CIE-GATE-3",
+  "state": "ACCEPTED",
+  "lanes": 9,
+  "accepted_by": "operator directive 'fire that consume lane' (gateway trace 1a18bc6701800065)",
+  "verify": "GATE-3 verify ALL PASS (re-fired J0/J*/V*/T12 + quarantine law)",
+  "fires": "the EQFC-CONSUME-1 residual chain stage #4 (the v2 consume)"
  }
 }

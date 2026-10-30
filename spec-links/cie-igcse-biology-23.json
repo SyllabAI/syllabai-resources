@@ -86,18 +86,24 @@
    }
   },
   "wave3": {
-   "state": "SUGGESTED",
+   "state": "ACCEPTED",
    "lane": "T-SPECS-CIE-JOIN-3",
    "gate": "pending",
    "stamp": "2026-10-30T09:00:00Z",
    "note": "wave-growth items are agent-generated suggestions (AGENT.md rule 2); promotion at the chain's stage-#4 gate",
    "rejoin3": {
-    "state": "SUGGESTED",
+    "state": "ACCEPTED",
     "lane": "T-SPECS-CIE-REJOIN-3",
     "directive": "fire that consume lane",
     "gateway_trace": "1a18bc6701800065",
-    "applied_utc": "2026-10-30T09:30:00Z"
-   }
+    "applied_utc": "2026-10-30T09:30:00Z",
+    "accepted_by": "operator directive 'fire that consume lane' (gateway trace 1a18bc6701800065)",
+    "accepted_utc": "2026-10-30T10:30:00Z",
+    "verify": "GATE-3 verify ALL PASS (re-fired J0/J*/V*/T12 + quarantine law)"
+   },
+   "accepted_by": "operator directive 'fire that consume lane' (gateway trace 1a18bc6701800065)",
+   "accepted_utc": "2026-10-30T10:30:00Z",
+   "verify": "GATE-3 verify ALL PASS (re-fired J0/J*/V*/T12 + quarantine law)"
   }
  },
  "registry": {
