@@ -1,0 +1,61 @@
+{
+ "schema": "syllabai.part-soup-pass-receipt/1.0",
+ "wave": "F125",
+ "task": "T-OEQ-PARTSOUP-1",
+ "order": "Proceed with 1CR 8(b)(i) part-level soup pass",
+ "generated_utc": "2026-10-31",
+ "branch": "t-oeq-partsoup-1/run-001",
+ "data_cut_validated": "4eb722927b45791ca36bddb55cbfbc032558835b (STEM-RESTORE part-level machinery + re-crop + disclosure; this audit is the docs companion)",
+ "exporter": "official_examq_export_hub.py v6 (part_ledger_key + apply_part_cut + export_series composition hook; G-E7 part-level extension; _CHEM_F125_NOTE_HEAD chains F123 verbatim)",
+ "converter": "unchanged",
+ "closes_residual": "AUDIT-2026-10-30-f123-stemfig-2019-06.md 'Residual observed, NOT changed' — the 1CR 8(b)(i) part-level grid-axis soup",
+ "scope": {
+  "series": "2019-06",
+  "papers": ["4CH1-1CR"],
+  "part_verdicts_added": 1,
+  "parts_changed": 1,
+  "crops_recut": 1
+ },
+ "recrop_of_record": {
+  "asset": "asset_8_b_i_grid",
+  "defect": "the converter-era auto-crop clipped the printed y-axis title 'Temperature of reaction mixture in °C' — the wave-19/20 law required the re-cut FIRST (a cut removes only what the crop serves)",
+  "source": "qp.pdf p.19 rendered at 150 dpi, QP of record qp_sha256 8df7bd6f8119e396bf48fede6b94d0e95e5adbe8d4f06d6ddcb06c7b6038d4f8 (1CR topic.json header)",
+  "cropRect": [143, 192, 507.5, 533.3],
+  "bytes_old": 32077,
+  "bytes_new": 39986,
+  "sha256_new": "1a44f5c8c3c6ae69d299c9855950b0fcdc3a83df3526572976fb0d78afb421c6",
+  "byte_verified_against": "the eyeballed candidate render (evidence of record)",
+  "topic_json_asset_record": {"manual_crop": true, "review_verdict": "accepted"}
+ },
+ "verdict_of_record": {
+  "key": "2019-06/4CH1-1CR:Q8.b(i)",
+  "part_id": "offp_2019-06_1cr_8-b-i",
+  "verdict": "keep",
+  "dropTail": "Temperature of reaction mixture 25 in °C 0 10 20 30 40 Total volume of acid in cm3",
+  "served_by": "asset_8_b_i_grid",
+  "cropRect": [143, 192, 507.5, 533.3],
+  "anchor_law": "pre-cut context ends in complete prose ('…Make sure that the two lines cross.'); unique alignment on the raw corpus bytes, battery-verified"
+ },
+ "doctrine_extended": "STEM-RESTORE.json gains the part-level key space Q<n>.<g>(<i>): same cut law (the cut removes only what a crop of record serves — served_by must resolve to a crop asset of that part), fail-closed verbatim anchors, slice-scoped consumption (G-E7); cropRect records the eyeballed re-crop box when the wave re-cropped the serving asset",
+ "gates": {
+  "G-E1": "1 delta == the disclosure exactly (official-4ch1-1cr-2019-06 / offp_2019-06_1cr_8-b-i; the part-soup class only, new=0/gone=0)",
+  "G-E1b": "set-level identity fields byte-equal on all 54 common official sets",
+  "G-E2": "part-sum, markPoints sum-law and spec-code shapes hold on all official sets",
+  "G-E3": "54 slices match the MULTI-SERIES constants of record (4860 marks)",
+  "G-E4": "questions.json byte-identical passthrough (2605409 bytes, 28 SME sets)",
+  "G-E6": "questionPart == id-derived printed label (778 one-level, 1829 two-level, 0 three-level)",
+  "G-E7": "567 group stems accounted for (567 restored, 0 splice-guarded, 46 adjudicated cuts, 48 group keys consumed) + 1 part-level cut applied on 1 part ledger key"
+ },
+ "served_delta": "the flattened axis block removed from the part's OWN problemMd (it sat between the prose and the printed-figure references); the cleaned head ends in prose; BOTH printed figures still served (asset_8_b_i_results-table p18 + asset_8_b_i_grid p19); every other field of the part byte-identical",
+ "counts": {"sets": 54, "questions": 477, "parts": 2607, "marks": 4860, "markPoints": 4161, "figure_crops": 491, "honest_stubs": 7},
+ "batteries": [
+  {"name": "official_examq_f121_tests.py", "result": "149/149 PASS (+24 part-level checks incl. the live 8(b)(i) serving pin)", "receipt": "Official-ExamQuestion/receipts/battery-run.out", "tree": "clean @ 4eb72292"},
+  {"name": "official_examq_strip_law_tests.py", "result": "29/29 green", "receipt": "Official-ExamQuestion/receipts/striplaw-run.out"},
+  {"name": "official_examq_f116_tests.py", "result": "all checks hold (exit 0)", "receipt": "Official-ExamQuestion/receipts/f116-run.out"},
+  {"name": "gated exporter run (--expected-deltas = the F125 disclosure)", "result": "exit 0, all G-E gates green", "receipt": "Official-ExamQuestion/receipts/exporter-run.out"}
+ ],
+ "reproducibility": "two independent gated runs byte-identical (bundle sha256 c0864c596ef689769300e533bcd45692a9bab180913238918a310d90d624b080)",
+ "v2_baseline": "served bundle at v2 main ec3133e9 sha256 fde66a0e9c07ec742123f8f9ea92e81d2ca047132ee596232fea9e372d985c37 == the bundle the wave ran against (v2 advanced with non-chemistry lanes; the chemistry plane untouched)",
+ "disclosure": "scripts/exporter-disclosures/2026-10-31-f125-part-soup-4ch1.json",
+ "residuals_after": "none observed — the 2019-06 slice is zero at both layers (group stems F121/F123, part-own text F125); the part-level census pins exactly the adjudicated set (1 key)"
+}

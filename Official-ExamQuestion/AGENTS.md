@@ -513,6 +513,25 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 33 (2026-10-31, F125) CLOSED the 1CR 8(b)(i) part-level soup residual (operator
+  order "Proceed with 1CR 8(b)(i) part-level soup pass") — the F123 receipt's one queued
+  item (AUDIT-2026-10-30-f123-stemfig-2019-06.md), now adjudicated to zero at the layer
+  no prior machinery reached: a part's OWN problem_md. The part-level key space
+  Q<n>.<g>(<i>) joins STEM-RESTORE.json under the same cut law (the cut removes only what
+  a crop of record serves — served_by must resolve to a crop asset OF THE PART;
+  fail-closed verbatim anchors; slice-scoped consumption, G-E7 extended to the part
+  level). The re-cut of record came FIRST: asset_8_b_i_grid re-cropped from the
+  sha-verified QP of record (8df7bd6f…, p.19 @ 150 dpi, rect [143, 192, 507.5, 533.3],
+  32,077 -> 39,986 B) because the converter-era auto-crop clipped the printed y-axis
+  title; verdict of record 2019-06/4CH1-1CR:Q8.b(i) = keep + dropTail (the flattened axis
+  block) + served_by asset_8_b_i_grid + cropRect. Exporter v6: part_ledger_key +
+  apply_part_cut (the F121 law mirrored; the group path byte-identical) + the
+  export_series composition hook; _CHEM_F125_NOTE_HEAD chains F123. Batteries: F121
+  149/149 (+24 part-level checks incl. the live 8(b)(i) serving pin), strip-law 29/29,
+  F116 family green (clean tree @ 4eb72292); gated run: G-E1 1 delta == the disclosure
+  exactly (offp_2019-06_1cr_8-b-i, new=0/gone=0), G-E7 567 group stems + 1 part-level cut,
+  G-E4 SME passthrough byte-identical; counts unchanged except the one part; two
+  independent runs byte-identical. Receipted in AUDIT-2026-10-31-f125-part-soup-4ch1.{md,json}.
 - Task 32 (2026-10-30, F124) CLOSED the F121/F123 disclosure-consumption debt (operator
   order "F121 regeneration", trace 1a18cc6d37cc78f9): both chemistry disclosures of record
   went stale when their v2 companions consumed the censuses (#486 the 567-part group-stem

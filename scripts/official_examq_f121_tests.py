@@ -2,19 +2,27 @@
 """F121 group-stem restore wave — zero-network unit battery (CI step).
 
 Covers:
-  A  the ledger of record: 48 group verdicts (36 F121 + 13 F123 2019-06 stem-figure stubs), shapes, served_by evidence
+  A  the ledger of record: 48 group verdicts (36 F121 + 13 F123 2019-06
+     stem-figure stubs) + the F125 part-level verdicts, shapes, served_by
+     evidence
   B  the live anchor law: every cut anchor aligns whitespace-tolerantly and
-     UNIQUELY against its raw corpus group_stem_md, and the pre-cut context
-     ends complete prose
+     UNIQUELY against its raw corpus group_stem_md / part problem_md, and
+     the pre-cut context ends complete prose
   C  restore_group_stem laws (mechanical / drop-tail / dropSpan / splice-guard
-     / replace / empty) incl. the fail-closed refusals
+     / replace / empty) incl. the fail-closed refusals; the F125
+     apply_part_cut laws (mirrored anchors, the of-record trailing-
+     punctuation law, fail-closed refusals)
   D  G-E7 negative controls on a synthetic lane (stem missing on the
-     group-first part; an adjudicated cut surviving; a stale group ledger key)
+     group-first part; an adjudicated cut surviving; a stale group ledger
+     key; the F125 part-level classes: a surviving part cut, a part cut
+     whose served_by is not a crop asset of the part, a stale part key)
      + the happy-path accounting
   E  the live 567-census law: every non-empty group stem resolves to a
      group-first part on all 54 slices
   F  the print-order pin: 2019-06 2C Q5(a)(i) serves stem < aircraft fig <
-     group stem < formulae fig < bond-tables fig
+     group stem < formulae fig < bond-tables fig; the F125 live pin:
+     2019-06 1CR 8(b)(i) serves the cleaned part text with the soup cut and
+     the re-cropped grid figure
 """
 import json
 import re
@@ -84,7 +92,14 @@ def align(anchor, raw):
 
 
 def group_keys():
-    return {k: v for k, v in LEDGER["verdicts"].items() if "." in k.split(":")[-1]}
+    return {k: v for k, v in LEDGER["verdicts"].items()
+            if "." in k.split(":")[-1] and "(" not in k.split(":")[-1]}
+
+
+def part_keys():
+    """F125: the part-level verdict space (parenthesized suffixes)."""
+    return {k: v for k, v in LEDGER["verdicts"].items()
+            if "(" in k.split(":")[-1]}
 
 
 def raw_stem(key):
@@ -95,6 +110,20 @@ def raw_stem(key):
     t = json.load(open(CORPUS / series / f"4CH1-{paper}" / "topic.json"))
     q = next(x for x in t["questions"] if str(x["question_number"]) == qnum)
     return q, (q["groups"][letter]["group_stem_md"] or "").strip(), paper, qnum, letter
+
+
+def raw_part(key):
+    """F125: (question, raw part problem_md, paper, qnum, part) for a
+    part-level ledger key — the part is found by its derived ledger key."""
+    sp, qgl = key.split(":")
+    series, paper_code = sp.split("/")
+    qnum, suffix = qgl[1:].split(".", 1)
+    paper = paper_code.replace("4CH1-", "")
+    t = json.load(open(CORPUS / series / f"4CH1-{paper}" / "topic.json"))
+    q = next(x for x in t["questions"] if str(x["question_number"]) == qnum)
+    p = next(x for x in q["parts"]
+             if ex.part_ledger_key(qnum, x["part_number"]) == f"Q{qnum}.{suffix}")
+    return q, (p["problem_md"] or "").strip(), paper, qnum, p
 
 
 # ---------------------------------------------------------------- A: ledger
@@ -109,6 +138,14 @@ def section_a():
               for v in gk.values() if v.get("tail") or v.get("dropSpan") or v.get("dropTail")))
     figs = {k: v["figures"] for k, v in gk.items() if v.get("figures")}
     check("exactly 5 figures declarations (3 F121 + 2 F122)", len(figs) == 5, f"got {len(figs)}")
+    # F125: the part-level verdict space
+    pk = part_keys()
+    check("1 part-level verdict present (F125)", len(pk) == 1, f"got {len(pk)}")
+    check("part verdict carries a known verdict",
+          all(v.get("verdict") in ("drop-tail", "keep", "replace") for v in pk.values()))
+    check("every part cut verdict carries served_by + why + crop evidence",
+          all(("served_by" in v and "why" in v and "cropRect" in v)
+              for v in pk.values() if v.get("tail") or v.get("dropSpan") or v.get("dropTail")))
 
 
 # ------------------------------------------------------------- B: live anchors
@@ -136,6 +173,26 @@ def section_b():
                       bool(pre) and (pre[-1] in ".!?\"" or marker),
                       f"ends {pre[-20:]!r} (a non-punctuated cut needs the "
                       f"complete-sentence-keep eyeball marker in why)")
+    # F125: the part-level live anchor law (raw part problem_md bytes)
+    for key, v in sorted(part_keys().items()):
+        raw = raw_part(key)[1]
+        cuts = []
+        if v.get("dropTail"):
+            cuts.append(("dropTail", v["dropTail"]))
+        if v.get("dropSpan"):
+            cuts.append(("dropSpan-from", v["dropSpan"][0]))
+            cuts.append(("dropSpan-to", v["dropSpan"][1]))
+        for kind, anchor in cuts:
+            pos = align(anchor, raw)
+            assert pos is not None, f"{key} {kind}: anchor does not align"
+            assert raw.count(anchor) == 1, f"{key} {kind}: anchor not unique"
+            check(f"{key} {kind} aligns uniquely", True)
+            if kind in ("dropTail", "dropSpan-from"):
+                pre = raw[:pos[0]].rstrip()
+                marker = "complete-sentence-keep" in (v.get("why") or "")
+                check(f"{key} {kind} pre-cut context ends in prose",
+                      bool(pre) and (pre[-1] in ".!?\"" or marker),
+                      f"ends {pre[-20:]!r}")
 
 
 # ------------------------------------------------- C: restore_group_stem laws
@@ -183,6 +240,36 @@ def section_c():
                   "FIG placeholders")
 
 
+def section_c125():
+    print("C125. apply_part_cut laws (synthetic + the live bytes)")
+    # key derivation
+    check("8(b)(i) -> Q8.b(i)", ex.part_ledger_key("8", "8(b)(i)") == "Q8.b(i)")
+    check("6(a) -> Q6.a", ex.part_ledger_key("6", "6(a)") == "Q6.a")
+    check("15(b)(iv) -> Q15.b(iv)", ex.part_ledger_key("15", "15(b)(iv)") == "Q15.b(iv)")
+    check("whole-question part -> None", ex.part_ledger_key("3", "3") is None)
+    # the of-record cut, on the live corpus bytes
+    led = ex.load_stem_ledger()
+    entry = led["verdicts"]["2019-06/4CH1-1CR:Q8.b(i)"]
+    _, raw, _, _, part = raw_part("2019-06/4CH1-1CR:Q8.b(i)")
+    out = ex.apply_part_cut(raw, entry, "2019-06/4CH1-1CR:Q8.b(i)")
+    check("the F123 residual soup is cut", "Temperature of reaction mixture" not in out)
+    check("the cleaned text ends at the printed prose",
+          out.endswith("Make sure that the two lines cross"))
+    check("the of-record trailing-punctuation law holds on part cuts",
+          not out.endswith("."))
+    bad = dict(entry)
+    bad["dropTail"] = "NOT PRESENT"
+    expect_refuse("part dropTail missing anchor refuses",
+                  lambda: ex.apply_part_cut(raw, bad, "k"),
+                  "dropTail anchor not found")
+    bad_span = dict(entry)
+    bad_span.pop("dropTail", None)
+    bad_span["dropSpan"] = ["NOT PRESENT", "ALSO NOT"]
+    expect_refuse("part dropSpan unordered anchors refuse",
+                  lambda: ex.apply_part_cut(raw, bad_span, "k"),
+                  "dropSpan anchors")
+
+
 # ------------------------------------------------- D: G-E7 negative controls
 def synth_lane():
     """One synthetic slice (2099-01/1C Q9 groups a/b) + served set shape."""
@@ -195,9 +282,9 @@ def synth_lane():
                 "b": {"group_stem_md": "Group intro beta"},
             },
             "parts": [
-                {"part_number": "9(a)(i)", "marks": 2, "problem_md": "Alpha asks.",
+                {"part_number": "9(a)(i)", "marks": 2, "problem_md": "Alpha asks. Soup 1 2 3",
                  "solution_md": None, "mark_points": [], "choices": None,
-                 "assets": [], "spec_point_codes": []},
+                 "assets": [{"id": "ax", "kind": "crop"}], "spec_point_codes": []},
                 {"part_number": "9(b)(i)", "marks": 2, "problem_md": "Beta asks.",
                  "solution_md": None, "mark_points": [], "choices": None,
                  "assets": [], "spec_point_codes": []},
@@ -208,13 +295,15 @@ def synth_lane():
     parts = []
     for p in q["parts"]:
         # compose the served problemMd the way the exporter would (group stem
-        # prepended on the group's first part)
+        # prepended on the group's first part; the F125 part-level cut applied
+        # when its ledger entry is in play)
         letter = ex.group_letter_of(p["part_number"])
         head = q["groups"][letter]["group_stem_md"]
+        body = p["problem_md"].replace(" Soup 1 2 3", "")
         parts.append({
             "id": f"offp_2099-01_1c_{ex.part_slug(p['part_number'])}",
             "order": len(parts), "marks": p["marks"],
-            "problemMd": head + "\n\n" + p["problem_md"],
+            "problemMd": head + "\n\n" + body,
             "markPoints": [], "assets": [], "choices": None,
         })
     served = {"slug": "official-4ch1-1c-2099-01",
@@ -270,6 +359,40 @@ def section_d():
             "verdict": "drop-tail", "tail": "x", "served_by": "x", "why": "w"}}}
         stats = ex.g_e7_group_stem_law([served], topics_src, led_foreign)
         check("foreign-lane group keys ignored", stats["groups"] == 2, str(stats))
+        # ---- F125: the part-level classes ----
+        led_p = {"verdicts": {"2099-01/4CH1-1C:Q9.a(i)": {
+            "verdict": "keep", "dropTail": "Soup 1 2 3",
+            "served_by": "ax", "why": "w"}}}
+        stats = ex.g_e7_group_stem_law([served], topics_src, led_p)
+        check("part cut happy path: 1 part cut consumed",
+              stats["part_cuts"] == 1, str(stats))
+        check("part key consumed slice-scoped", stats["part_keys"] == 1, str(stats))
+        raw_served = json.loads(json.dumps(served))
+        raw_served["questions"][0]["parts"][0]["problemMd"] = \
+            "Group intro alpha with table soup 1 2 3\n\nAlpha asks. Soup 1 2 3"
+        expect_refuse("surviving PART cut refuses",
+                      lambda: ex.g_e7_group_stem_law([raw_served], topics_src, led_p),
+                      "part cut")
+        led_bad_sb = {"verdicts": {"2099-01/4CH1-1C:Q9.a(i)": {
+            "verdict": "keep", "dropTail": "Soup 1 2 3",
+            "served_by": "nope", "why": "w"}}}
+        expect_refuse("part cut served_by not a crop of the part refuses",
+                      lambda: ex.g_e7_group_stem_law([served], topics_src, led_bad_sb),
+                      "not a crop asset of the part")
+        led_stale_p = {"verdicts": {"2099-01/4CH1-1C:Q9.z(9)": {
+            "verdict": "keep", "dropTail": "x", "served_by": "ax", "why": "w"}}}
+        expect_refuse("stale PART ledger key refuses",
+                      lambda: ex.g_e7_group_stem_law([served], topics_src, led_stale_p),
+                      "never resolved")
+        led_bad_asset = {"verdicts": {"2099-01/4CH1-1C:Q9.a(i)": {
+            "verdict": "keep", "dropTail": "Soup 1 2 3",
+            "served_by": "ax", "why": "w"}}}
+        nocrop = json.loads(json.dumps(topic))
+        nocrop["questions"][0]["parts"][0]["assets"] = [{"id": "ax", "kind": "crop-required"}]
+        expect_refuse("part cut served_by non-crop kind refuses",
+                      lambda: ex.g_e7_group_stem_law(
+                          [served], lambda s, p: nocrop, led_bad_asset),
+                      "not a crop asset of the part")
     finally:
         ex.PAPERS, ex.PAPER_SERIES = real
 
@@ -333,6 +456,20 @@ def section_f():
           "peroxide solution. The student adds 100 cm3" in mdc)
     check("dropTail graph axes cut",
           "100 Volume of oxygen in cm3 0 4 8" not in mdc)
+    # ---- F125: the part-level live pin (2019-06 1CR 8(b)(i)) ----
+    t3 = ex.export_series("2019-06", "1CR", stem_ledger=led,
+                          enrich=ex.load_enrichment_ledger())
+    q8 = next(x for x in t3["questions"] if x["id"].endswith("_8"))
+    md8 = next(p for p in q8["parts"]
+               if p["id"] == "offp_2019-06_1cr_8-b-i")["problemMd"]
+    check("the F123 residual part soup is cut from the served bytes",
+          "Temperature of reaction mixture 25" not in md8)
+    check("the cleaned part text is served",
+          "Make sure that the two lines cross" in md8)
+    check("the re-cropped grid figure is served",
+          "asset_8_b_i_grid.png" in md8)
+    check("the group stem head is still served on the part",
+          "The table shows the student" in md8)
 
 
 def main():
@@ -341,6 +478,7 @@ def main():
     section_a()
     section_b()
     section_c()
+    section_c125()
     section_d()
     section_e()
     section_f()

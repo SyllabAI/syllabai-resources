@@ -1,5 +1,41 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## exporter-v6+F125 — 2026-10-31 · the part-level soup pass (T-OEQ-PARTSOUP-1) — converter unchanged
+
+- **The gap (the F123 residual, one layer down again)**: the 1CR 8(b)(i) printed
+  plotting grid's axis block was flattened into the PART's OWN `problem_md`
+  ("Temperature of reaction mixture 25 in °C 0 10 20 30 40 Total volume of acid
+  in cm3") — F121 restored group stems, F123 restored stem figures, but a
+  part's own text had no ledger key space, so this soup run survived every
+  prior wave. The serving crop `asset_8_b_i_grid` (converter-era auto-crop)
+  also clipped the printed y-axis title.
+- **The re-cut FIRST (the wave-19/20 law)**: `asset_8_b_i_grid` re-cropped from
+  the sha-verified QP of record (`8df7bd6f…`, qp.pdf p.19 @ 150 dpi, eyeballed
+  rect `[143, 192, 507.5, 533.3]`, 32,077 → 39,986 B) so the full printed grid —
+  y-axis title, y-scale, x-scale, x-axis title — is inside the served crop; the
+  cut removes only what the crop now serves. The topic.json asset record gains
+  the of-record `manual_crop`/`review_verdict` shape.
+- **The fix (scripts/official_examq_export_hub.py, v6)**: `part_ledger_key()` +
+  `apply_part_cut()` mirror the F121 group cut law for the part-level key space
+  `Q<n>.<g>(<i>)` (STEM-RESTORE.json doctrine extended; the group path
+  byte-identical), applied by the `export_series` composition hook after the
+  group restore. G-E7 extends to the part level: part ledger keys are
+  slice-scoped consumed; `served_by` must resolve to a crop asset OF THE PART;
+  the raw soup-carrying part text must never reach the served bytes; the
+  cleaned head must be served. `_CHEM_F125_NOTE_HEAD` chains F123 verbatim;
+  the manifest note default bumps.
+- **The serving**: official-papers.json re-served at the data cut `4eb72292`:
+  G-E1 = **1 delta == the disclosure exactly**
+  (scripts/exporter-disclosures/2026-10-31-f125-part-soup-4ch1.json — changed =
+  offp_2019-06_1cr_8-b-i, the part-soup class only; new=0/gone=0); G-E7 = 567
+  group stems + 1 part-level cut on 1 part key; counts unchanged (54 sets /
+  477 questions / 2,607 parts / 4,860 marks / 4,161 markPoints / 491 figure
+  crops / 7 honest stubs); G-E4 SME passthrough byte-identical (2,605,409 B).
+  Batteries: F121 **149/149** (+24 part-level checks incl. the live 8(b)(i)
+  serving pin), strip-law 29/29, F116 family green — clean tree. Two
+  independent gated runs byte-identical.
+- **Operator order**: "Proceed with 1CR 8(b)(i) part-level soup pass".
+
 ## exporter-v5+F121 — 2026-10-30 · the group-stem restore wave (T-OEQ-GROUPSTEM-1) — converter unchanged
 
 - **The gap (the wave-15 stem gap one level down)**: topic.json questions carry
