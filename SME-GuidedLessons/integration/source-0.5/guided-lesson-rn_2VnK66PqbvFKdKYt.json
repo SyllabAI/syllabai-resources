@@ -1,0 +1,666 @@
+{
+  "format": "guided-lesson/0.5",
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/263ab5cb97bf-solid.png",
+      "alt": "Diagram showing the regular arrangement of a solid in rows and columns",
+      "sourceHeading": "Summary of the properties of the three states of matter",
+      "caption": "Solid — Diagram",
+      "binding": "unresolved",
+      "moduleIds": [
+        "L1"
+      ]
+    },
+    {
+      "id": "fig-02",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/3f6e693e61a8-liquid.png",
+      "alt": "Diagram showing how the particles in a liquid are arranged randomly and close together but not all touching",
+      "sourceHeading": "Summary of the properties of the three states of matter",
+      "caption": "Liquid — Diagram",
+      "binding": "unresolved",
+      "moduleIds": [
+        "L1"
+      ]
+    },
+    {
+      "id": "fig-03",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/f82561bc2aff-gas.png",
+      "alt": "Diagram showing how the particles in a  gas are far apart and moving quickly and randomly",
+      "sourceHeading": "Summary of the properties of the three states of matter",
+      "caption": "Gas — Diagram",
+      "binding": "unresolved",
+      "moduleIds": [
+        "L1"
+      ]
+    },
+    {
+      "id": "fig-04",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/74c3504eeb9c-changing-state-igcse-and-gcse-chemistry-revision.png",
+      "alt": "Diagram showing the changes of state",
+      "sourceHeading": "Changing states of matter",
+      "caption": "State changes require a change in the energy of the particles",
+      "binding": "heading-unique",
+      "moduleIds": [
+        "L2"
+      ]
+    }
+  ],
+  "noteRef": {
+    "noteId": "rn_2VnK66PqbvFKdKYt",
+    "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+    "topicTitle": "1. Principles of Chemistry",
+    "subtopicTitle": "States of Matter",
+    "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-1-the-three-states-of-matter"
+  },
+  "specPoints": [
+    {
+      "code": "4CH1-1.1",
+      "text": "understand the three states of matter in terms of the arrangement, movement & energy of the particles"
+    },
+    {
+      "code": "4CH1-1.2",
+      "text": "understand the interconversions between the three states of matter in terms of: the names of the interconversions, how they are achieved, the changes in arrangement, movement & energy of the particles"
+    }
+  ],
+  "primer": {
+    "text": "You already know from everyday life that ice melts, puddles dry out and steam fogs a cold window. This topic turns that familiar experience into a precise particle picture: what solids, liquids and gases really are, and what exactly happens when a substance changes from one state to another. By the end you will be able to name every state change and explain it through the behaviour of particles.",
+    "prerequisiteSubtopic": null
+  },
+  "lessons": [
+    {
+      "title": "States of matter",
+      "sourceHeadings": [
+        "The Three States of Matter",
+        "States of matter"
+      ],
+      "specRefs": [
+        "4CH1-1.1"
+      ],
+      "figureIds": [
+        "fig-01",
+        "fig-02",
+        "fig-03"
+      ],
+      "opening": "Everything around you exists as a solid, a liquid or a gas, and the same substance can usually move between all three. Chemists explain the differences with a particle model, picturing every particle as a small solid sphere. How those spheres are arranged, how freely they move and how much energy they hold decide which state a material takes.",
+      "keyPoints": [
+        "Solids, liquids and gases are the three states, and one substance can usually exist in each of them.",
+        "Melting and freezing happen at the melting point; boiling and condensing happen at the boiling point.",
+        "In the model, every particle is drawn as a small solid sphere, whatever the substance.",
+        "Solid particles sit in a regular arrangement, vibrating about fixed positions and very close together.",
+        "Liquid particles are randomly arranged but still close, moving around each other.",
+        "Gas particles are randomly arranged, far apart, and move quickly in all directions."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Solid particles sit in neat rows and only vibrate on the spot; liquid particles stay close but jostle past each other; gas particles fly far apart at speed.",
+          "analogy": "Think of a full cinema: during the film everyone stays seated (solid), as they leave they shuffle past one another (liquid), and outside they scatter in every direction (gas).",
+          "examPointer": "Learn the arrangement, movement and closeness rows for all three states; comparison questions ask for exactly those table entries."
+        },
+        "medium": {
+          "restatement": "Arrangement runs from regular in solids to random in liquids and gases, while movement grows from vibration about fixed points to fast motion in all directions, carrying more energy as particles gain freedom and spacing widens.",
+          "analogy": "The cinema crowd still works: seated viewers only fidget, a departing queue shuffles sideways, and a scattered crowd crosses the foyer quickly, with energy rising at each stage.",
+          "examPointer": "State changes occur at the melting point and the boiling point, and individual atoms do not share the properties of the bulk material."
+        }
+      },
+      "check": [
+        {
+          "stem": "In the particle model, how is every particle of a substance represented?",
+          "misconceptionClass": "model-representation error",
+          "options": [
+            {
+              "key": "A",
+              "text": "As small solid spheres, whatever the substance",
+              "correct": true,
+              "explanation": "The model represents all particles as small solid spheres, whichever state or substance is drawn.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "As cubes for solids, droplets for liquids and dots for gases",
+              "correct": false,
+              "explanation": "The model uses the same spheres throughout; only their arrangement and spacing change.",
+              "misconception": "state-specific shapes imagined"
+            },
+            {
+              "key": "C",
+              "text": "As atoms for elements but molecules for compounds",
+              "correct": false,
+              "explanation": "The simple model draws every particle the same way and does not separate particle types.",
+              "misconception": "particle types over-differentiated"
+            },
+            {
+              "key": "D",
+              "text": "As large spheres in solids and tiny ones in gases",
+              "correct": false,
+              "explanation": "Particle size stays fixed; spacing and arrangement carry the differences between states.",
+              "misconception": "size varies with state"
+            }
+          ]
+        },
+        {
+          "stem": "How do the particles of a solid move?",
+          "misconceptionClass": "movement misattribution",
+          "options": [
+            {
+              "key": "A",
+              "text": "They vibrate about fixed positions",
+              "correct": true,
+              "explanation": "A regular arrangement holds each particle in place, so solids only vibrate on the spot.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "They slide around each other freely",
+              "correct": false,
+              "explanation": "Moving around each other describes liquid particles, not the fixed sites of a solid.",
+              "misconception": "liquid motion assigned to solid"
+            },
+            {
+              "key": "C",
+              "text": "They move quickly in all directions",
+              "correct": false,
+              "explanation": "Fast motion in all directions belongs to gas particles, which are also far apart.",
+              "misconception": "gas motion assigned to solid"
+            },
+            {
+              "key": "D",
+              "text": "They stay completely still at all temperatures",
+              "correct": false,
+              "explanation": "Solid particles always vibrate, and the vibration grows as more energy is supplied.",
+              "misconception": "motion denied in solids"
+            }
+          ]
+        },
+        {
+          "stem": "Which description matches the particles of a gas?",
+          "misconceptionClass": "gas-particle imagery",
+          "options": [
+            {
+              "key": "A",
+              "text": "Randomly arranged, far apart and moving quickly in all directions",
+              "correct": true,
+              "explanation": "The properties table gives gases random arrangement, wide spacing and fast movement in all directions.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Regularly arranged and vibrating about fixed positions",
+              "correct": false,
+              "explanation": "That is the solid row of the table, not the gas row.",
+              "misconception": "solid properties recalled"
+            },
+            {
+              "key": "C",
+              "text": "Randomly arranged, close together and moving around each other",
+              "correct": false,
+              "explanation": "That is the liquid row; gas particles are far apart rather than close.",
+              "misconception": "liquid properties recalled"
+            },
+            {
+              "key": "D",
+              "text": "Regularly arranged, far apart and almost still",
+              "correct": false,
+              "explanation": "Gases are random rather than regular, and their particles move quickly.",
+              "misconception": "order and stillness invented"
+            }
+          ]
+        },
+        {
+          "stem": "At what temperature does a pure substance melt, and at what temperature does it freeze?",
+          "misconceptionClass": "state-change temperatures",
+          "options": [
+            {
+              "key": "A",
+              "text": "At the same temperature: the melting point of the substance",
+              "correct": true,
+              "explanation": "Melting and freezing both take place at the melting point, which is why the two changes share one temperature.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Melting needs a higher temperature than freezing",
+              "correct": false,
+              "explanation": "Both changes occur at the single melting-point temperature for a pure substance.",
+              "misconception": "two separate points assumed"
+            },
+            {
+              "key": "C",
+              "text": "Both occur at the boiling point",
+              "correct": false,
+              "explanation": "The boiling point is where liquid and gas interconvert, not where solid and liquid do.",
+              "misconception": "state-change points swapped"
+            },
+            {
+              "key": "D",
+              "text": "At whatever temperature the change happens to be observed",
+              "correct": false,
+              "explanation": "State changes occur at fixed temperatures that are properties of the substance.",
+              "misconception": "fixed point denied"
+            }
+          ]
+        },
+        {
+          "stem": "How does the spacing of liquid particles compare with that of solid particles?",
+          "misconceptionClass": "closeness comparison",
+          "options": [
+            {
+              "key": "A",
+              "text": "Both are close, but solid particles are in a regular arrangement while liquid particles are random",
+              "correct": true,
+              "explanation": "Solids are very close and regular; liquids remain close but lose the ordered pattern.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Liquid particles are far apart while solid particles are packed together",
+              "correct": false,
+              "explanation": "Being far apart describes gases; liquid particles stay close to one another.",
+              "misconception": "liquid spacing inflated"
+            },
+            {
+              "key": "C",
+              "text": "Solid particles sit further apart than liquid particles",
+              "correct": false,
+              "explanation": "The solid is the most tightly packed state of the three.",
+              "misconception": "spacing order inverted"
+            },
+            {
+              "key": "D",
+              "text": "Neither state keeps its particles close together",
+              "correct": false,
+              "explanation": "Both solids and liquids keep particles close; only gases spread them far apart.",
+              "misconception": "closeness denied"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "Describe the arrangement and movement of the particles in a liquid.",
+          "misconceptionClass": "liquid particle description",
+          "modelAnswer": "Liquid particles are randomly arranged but still close together, moving around each other.",
+          "keywords": [
+            "random",
+            "randomly",
+            "close",
+            "moving",
+            "move",
+            "around"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the three states of matter.",
+          "misconceptionClass": "states recall",
+          "modelAnswer": "Solids, liquids and gases.",
+          "keywords": [
+            "solid",
+            "solids",
+            "liquid",
+            "liquids",
+            "gas",
+            "gases"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why the same particle model can represent every substance.",
+          "misconceptionClass": "model universality logic",
+          "modelAnswer": "Because in the model every particle is drawn as a small solid sphere, whatever the substance — the model shows arrangement and movement, not the identity of the substance.",
+          "keywords": [
+            "sphere",
+            "spheres",
+            "same",
+            "small",
+            "solid",
+            "arrangement",
+            "movement"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "Substance X has particles vibrating about fixed positions very close together; substance Y has particles far apart moving quickly in all directions. Classify each substance's state.",
+          "misconceptionClass": "state classification applied",
+          "modelAnswer": "X is a solid (particles sit in a regular arrangement, vibrating about fixed positions, very close together); Y is a gas (particles are randomly arranged, far apart, moving quickly in all directions).",
+          "keywords": [
+            "solid",
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Interconversion Between the States of Matter",
+      "sourceHeadings": [
+        "Interconversion Between the States of Matter",
+        "Changing states of matter"
+      ],
+      "specRefs": [
+        "4CH1-1.2"
+      ],
+      "figureIds": [
+        "fig-04"
+      ],
+      "opening": "Heat or cool a substance and it can switch between solid, liquid and gas, with a named change for each direction. Melting, boiling, evaporating, freezing, condensing and subliming all describe one underlying event: particles gaining or losing energy until their arrangement alters. Because no new substance forms at any point, every one of these changes is a physical change.",
+      "keyPoints": [
+        "Changing state is a physical change: the particles stay the same and only the forces between them alter.",
+        "Stronger forces between particles need more energy to overcome, giving higher melting and boiling points.",
+        "Melting turns a solid to a liquid as absorbed heat becomes kinetic energy and particles vibrate more.",
+        "Boiling forms gas bubbles throughout the liquid at one temperature; evaporation happens at the surface across a range.",
+        "Freezing reverses melting at the same temperature, and sublimation turns a solid straight into a gas."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Adding heat melts a solid, then boils the liquid; removing heat condenses a gas, then freezes the liquid. A few solids skip the liquid stage and turn straight to gas.",
+          "analogy": "An ice cube on a warm plate does it all: it melts into a puddle, the puddle dries to vapour, and cooling any stage sends it back the other way.",
+          "examPointer": "Boiling happens at one fixed temperature while evaporation works at the surface across a range; that contrast is a favourite exam question."
+        },
+        "medium": {
+          "restatement": "Each interconversion is named by its direction and achieved by energy transfer: heating supplies kinetic energy so particles break loose from fixed positions, while cooling lets particles lose energy and settle back into closer arrangements.",
+          "analogy": "Picture a car park at rush hour: heating empties the neat rows into freely moving traffic, and cooling funnels the traffic back into ordered spaces.",
+          "examPointer": "Questions may draw a state change with reversible arrows, so name each direction separately and state how the change is achieved."
+        }
+      },
+      "check": [
+        {
+          "stem": "What is the difference between boiling and evaporation?",
+          "misconceptionClass": "boiling-evaporation conflation",
+          "options": [
+            {
+              "key": "A",
+              "text": "Boiling happens throughout the liquid at one fixed temperature; evaporation happens only at the surface across a range of temperatures",
+              "correct": true,
+              "explanation": "Bubbles form inside the liquid at the boiling point, while high-energy particles escape from the surface below it.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Boiling happens at the surface while evaporation forms bubbles inside the liquid",
+              "correct": false,
+              "explanation": "It is the reverse: bubbles form inside during boiling, and evaporation is a surface process.",
+              "misconception": "mechanisms swapped"
+            },
+            {
+              "key": "C",
+              "text": "They are identical processes that simply carry different names",
+              "correct": false,
+              "explanation": "Both the temperature range and the location within the liquid differ between them.",
+              "misconception": "distinction collapsed"
+            },
+            {
+              "key": "D",
+              "text": "Evaporation needs a higher temperature than boiling",
+              "correct": false,
+              "explanation": "Evaporation can occur at temperatures below the boiling point, not above some higher threshold.",
+              "misconception": "temperature order inverted"
+            }
+          ]
+        },
+        {
+          "stem": "A pure liquid is frozen until it solidifies. How does the temperature at which it freezes compare with the temperature at which the same liquid melts?",
+          "misconceptionClass": "freezing-point independence belief",
+          "options": [
+            {
+              "key": "A",
+              "text": "At exactly the same temperature",
+              "correct": true,
+              "explanation": "Freezing is the reverse of melting and happens at the same temperature, as with water at 0 °C.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "At a lower temperature than melting",
+              "correct": false,
+              "explanation": "The melting point and freezing point of a pure substance are one and the same value.",
+              "misconception": "two points assumed"
+            },
+            {
+              "key": "C",
+              "text": "At a higher temperature than melting",
+              "correct": false,
+              "explanation": "No gap separates the two; they coincide at the melting point.",
+              "misconception": "direction of gap invented"
+            },
+            {
+              "key": "D",
+              "text": "Freezing has no fixed temperature at all",
+              "correct": false,
+              "explanation": "Freezing occurs at a specific temperature once enough thermal energy is lost.",
+              "misconception": "fixed point denied"
+            }
+          ]
+        },
+        {
+          "stem": "Why does melting count as a physical change rather than a chemical one?",
+          "misconceptionClass": "chemical-change confusion",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because the particles themselves stay the same and only the forces between them change",
+              "correct": true,
+              "explanation": "The particles remain unchanged throughout; it is only the forces between them that alter.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Because a new chemical substance forms each time the state changes",
+              "correct": false,
+              "explanation": "No new substance appears: water is water whether ice, liquid or steam.",
+              "misconception": "identity change assumed"
+            },
+            {
+              "key": "C",
+              "text": "Because the particles are broken apart and remade in a new form",
+              "correct": false,
+              "explanation": "Particles persist throughout the change; only their arrangement and energy differ afterwards.",
+              "misconception": "particle destruction imagined"
+            },
+            {
+              "key": "D",
+              "text": "Because no energy is ever taken in or given out",
+              "correct": false,
+              "explanation": "Energy is central: it is absorbed to overcome forces and released as particles settle.",
+              "misconception": "energy role denied"
+            }
+          ]
+        },
+        {
+          "stem": "How does the strength of the forces between particles affect the melting and boiling points of a substance?",
+          "misconceptionClass": "force-energy inversion",
+          "options": [
+            {
+              "key": "A",
+              "text": "Stronger forces need more energy to overcome, so both points are higher",
+              "correct": true,
+              "explanation": "More energy is needed to overcome stronger forces, which raises the melting and boiling points.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Stronger forces make the points lower because particles hold together less",
+              "correct": false,
+              "explanation": "Holding together more strongly demands more energy to separate, which raises the points.",
+              "misconception": "relationship inverted"
+            },
+            {
+              "key": "C",
+              "text": "Force strength has no effect on either point",
+              "correct": false,
+              "explanation": "The energy needed to change state depends directly on how strong the forces are.",
+              "misconception": "dependence denied"
+            },
+            {
+              "key": "D",
+              "text": "Only the boiling point responds to force strength",
+              "correct": false,
+              "explanation": "Both the melting point and the boiling point rise when forces are stronger.",
+              "misconception": "partial application"
+            }
+          ]
+        },
+        {
+          "stem": "Which statement correctly describes sublimation?",
+          "misconceptionClass": "sublimation over-generalisation",
+          "options": [
+            {
+              "key": "A",
+              "text": "A solid changes directly into a gas, as iodine and solid carbon dioxide do",
+              "correct": true,
+              "explanation": "Sublimation is the direct solid-to-gas change, shown by only a few solids such as iodine and solid carbon dioxide.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Any solid can be made to sublime if enough heat is supplied",
+              "correct": false,
+              "explanation": "Only a few solids, such as iodine or solid carbon dioxide, behave this way.",
+              "misconception": "generality overextended"
+            },
+            {
+              "key": "C",
+              "text": "A liquid changes into a solid as it cools",
+              "correct": false,
+              "explanation": "That change is freezing, the reverse of melting.",
+              "misconception": "state change misnamed"
+            },
+            {
+              "key": "D",
+              "text": "A gas changes directly into a solid as it cools",
+              "correct": false,
+              "explanation": "That direction is deposition or desublimation, the reverse of sublimation.",
+              "misconception": "reverse direction taken"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State what happens to the particles of a solid as it melts.",
+          "misconceptionClass": "melting particles",
+          "modelAnswer": "The absorbed heat becomes kinetic energy and the particles vibrate more.",
+          "keywords": [
+            "kinetic",
+            "energy",
+            "vibrate",
+            "vibrates",
+            "vibrating",
+            "more"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the relationship between the temperature at which a substance melts and the temperature at which it freezes.",
+          "misconceptionClass": "melt-freeze temperature",
+          "modelAnswer": "Freezing reverses melting at the same temperature — they happen at one identical temperature.",
+          "keywords": [
+            "same",
+            "identical",
+            "temperature",
+            "reverses"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why changing state does not alter the substance's chemical identity.",
+          "misconceptionClass": "physical change logic",
+          "modelAnswer": "Because changing state is a physical change: the particles stay the same and only the forces between them alter.",
+          "keywords": [
+            "physical",
+            "particles",
+            "stay",
+            "same",
+            "forces",
+            "only"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A student watches bubbles form throughout a heating liquid at exactly 100 °C, and sees droplets forming on a cold lid above it. State which process each observation shows.",
+          "misconceptionClass": "boiling vs condensing applied",
+          "modelAnswer": "The bubbles forming throughout the liquid at one temperature are boiling; the droplets forming on the cold lid are condensing (condensation).",
+          "keywords": [
+            "boiling",
+            "boil",
+            "condensing",
+            "condensation",
+            "condense",
+            "condenses"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "melting point",
+        "definition": "The fixed temperature at which a pure substance melts and freezes.",
+        "firstLesson": 1
+      },
+      {
+        "term": "boiling point",
+        "definition": "The fixed temperature at which a liquid boils, with gas bubbles forming throughout the liquid.",
+        "firstLesson": 1
+      },
+      {
+        "term": "particle model",
+        "definition": "A simple representation in which all particles are drawn as small solid spheres.",
+        "firstLesson": 1
+      },
+      {
+        "term": "vibration",
+        "definition": "Rapid back-and-forth movement of a particle about a fixed position, as in solids.",
+        "firstLesson": 1
+      },
+      {
+        "term": "evaporation",
+        "definition": "The change from liquid to gas at the surface, across a range of temperatures below the boiling point.",
+        "firstLesson": 2
+      },
+      {
+        "term": "condensation",
+        "definition": "The change from gas to liquid on cooling, when particles lack the energy to bounce apart again.",
+        "firstLesson": 2
+      },
+      {
+        "term": "sublimation",
+        "definition": "The direct change from solid to gas, shown by only a few solids such as iodine.",
+        "firstLesson": 2
+      },
+      {
+        "term": "physical change",
+        "definition": "A change in which the particles stay the same and only the forces between them alter.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Water in a freezer turns to ice. a) Name the change of state and give the temperature at which pure water freezes. b) Describe what happens to the arrangement, movement and energy of the particles as the liquid becomes a solid. c) Explain why this change is classified as a physical change.",
+      "steps": [
+        "a) The change from liquid to solid is freezing, and pure water freezes (and melts) at 0 °C.",
+        "b) On cooling, the water particles lose energy, so they no longer have enough energy to move around each other.",
+        "The particles settle into a regular, close arrangement and can only vibrate about fixed positions.",
+        "c) No new substance forms: the particles themselves stay the same and only the forces and arrangement between them alter, so freezing is a physical change."
+      ],
+      "finalAnswer": "a) Freezing, at 0 °C for pure water. b) The particles lose energy, take up a regular close arrangement and vibrate only about fixed positions. c) It is a physical change because the particles stay the same and only their arrangement and the forces between them change."
+    }
+  }
+}

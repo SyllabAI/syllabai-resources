@@ -1,0 +1,619 @@
+{
+  "format": "guided-lesson/0.5",
+  "figures": [
+    {
+      "id": "fig-01",
+      "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/igcse-chemistry-19/assets/8f9dfc68f8ce-salt-solubility-curves.png",
+      "alt": "A graph to show the solubility curves of three different salts",
+      "sourceHeading": "Solubility curve for three salts",
+      "binding": "unresolved",
+      "moduleIds": [
+        "L1"
+      ]
+    }
+  ],
+  "noteRef": {
+    "noteId": "rn_cTk2cs2h2BKQ3y3B",
+    "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+    "topicTitle": "1. Principles of Chemistry",
+    "subtopicTitle": "States of Matter",
+    "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-4-solubility"
+  },
+  "specPoints": [
+    {
+      "code": "4CH1-1.4",
+      "text": "know what is meant by the terms: • solvent • solute • solution • saturated solution."
+    },
+    {
+      "code": "4CH1-1.5C",
+      "text": "know what is meant by the term solubility in the units g per 100 g of solvent"
+    },
+    {
+      "code": "4CH1-1.6C",
+      "text": "understand how to plot and interpret solubility curves"
+    }
+  ],
+  "primer": {
+    "text": "You already know from States of Matter that dissolving spreads one substance evenly through another, particle by particle. This note attaches numbers to that picture: solubility, measured in grams per 100 grams of solvent. It follows the number as temperature rises, compares how solids and gases behave differently, and draws the results as solubility curves you can read values from.",
+    "prerequisiteSubtopic": "States of Matter"
+  },
+  "lessons": [
+    {
+      "title": "Solubility",
+      "sourceHeadings": [
+        "Solubility"
+      ],
+      "specRefs": [
+        "4CH1-1.4",
+        "4CH1-1.5C"
+      ],
+      "figureIds": [
+        "fig-01"
+      ],
+      "opening": "Stir sugar into tea and it seems to vanish, but chemists can say exactly how much will dissolve. Solubility is the measurement of how much of a substance dissolves in a given volume of liquid, expressed in grams per 100 grams of solvent. The substance doing the dissolving is the solvent; the solid that disappears into it is the solute.",
+      "keyPoints": [
+        "Solubility measures how much of a substance dissolves in a given volume of liquid.",
+        "The liquid that does the dissolving is called the solvent.",
+        "Solubility values are stated in grams per 100 grams of solvent.",
+        "Higher temperature makes most solids more soluble.",
+        "Gases dissolve better under high pressure but worse when warmed.",
+        "Different substances dissolve to different extents in the same solvent."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "Solubility is a measured amount: how many grams of a solid can dissolve in 100 grams of solvent before nothing more will go into the liquid.",
+          "analogy": "Think of a cup of tea that can only take so much sugar: past a certain spoonful, the extra sits on the bottom no matter how you stir.",
+          "examPointer": "Quote the unit correctly, grams per 100 grams of solvent, and remember that solids and gases move in opposite directions as temperature rises."
+        },
+        "medium": {
+          "restatement": "The solubility of a solid is the maximum mass that can dissolve in 100 grams of solvent at that temperature, and it usually climbs as the sample is warmed; gases respond to pressure as well, dissolving more under high pressure and less when heated.",
+          "analogy": "Return to the sugared tea: warming it lets noticeably more sugar dissolve before leftovers appear, which is exactly the temperature effect the numbers record.",
+          "examPointer": "Questions often pair a solid with a gas in the same table; state both temperature trends separately, and add the pressure trend for gases."
+        }
+      },
+      "check": [
+        {
+          "stem": "Which statement describes how solubility is expressed?",
+          "misconceptionClass": "unit form",
+          "options": [
+            {
+              "key": "A",
+              "text": "In grams of solute per 100 grams of solvent",
+              "correct": true,
+              "explanation": "The standard unit is grams of solute dissolved per 100 grams of solvent.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "In grams of solute per litre of solution",
+              "correct": false,
+              "explanation": "A volume-based unit is not the form the specification asks for.",
+              "misconception": "volume-based unit imported"
+            },
+            {
+              "key": "C",
+              "text": "In grams of solute per 100 grams of solution",
+              "correct": false,
+              "explanation": "The denominator is the solvent alone, not the solution it forms.",
+              "misconception": "solution and solvent confused"
+            },
+            {
+              "key": "D",
+              "text": "As a percentage of the solvent used",
+              "correct": false,
+              "explanation": "Solubility is a mass per fixed mass, not a percentage.",
+              "misconception": "percentage form substituted"
+            }
+          ]
+        },
+        {
+          "stem": "What usually happens to a solid's solubility as temperature increases?",
+          "misconceptionClass": "solid temperature trend",
+          "options": [
+            {
+              "key": "A",
+              "text": "It increases",
+              "correct": true,
+              "explanation": "A warmer solvent usually holds more solid in solution.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "It decreases",
+              "correct": false,
+              "explanation": "That is the gas trend; solids nearly always dissolve more when warmed.",
+              "misconception": "gas trend copied onto solids"
+            },
+            {
+              "key": "C",
+              "text": "It stays exactly the same",
+              "correct": false,
+              "explanation": "Only a few salts are nearly flat; the general rule is a rise.",
+              "misconception": "flat trend overgeneralised"
+            },
+            {
+              "key": "D",
+              "text": "It depends on pressure instead",
+              "correct": false,
+              "explanation": "Pressure governs gas solubility; solids respond to temperature.",
+              "misconception": "pressure swapped in for temperature"
+            }
+          ]
+        },
+        {
+          "stem": "A fizzy drink goes flat faster when left warm than when chilled. Which trend explains this?",
+          "misconceptionClass": "gas temperature trend",
+          "options": [
+            {
+              "key": "A",
+              "text": "Gases become less soluble as temperature rises",
+              "correct": true,
+              "explanation": "Warmer liquids hold less dissolved gas, so the drink loses its fizz sooner.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Gases become more soluble as temperature rises",
+              "correct": false,
+              "explanation": "The trend runs the opposite way for gases.",
+              "misconception": "solid trend copied onto gases"
+            },
+            {
+              "key": "C",
+              "text": "Gas solubility does not depend on temperature",
+              "correct": false,
+              "explanation": "Temperature clearly changes how much gas stays dissolved.",
+              "misconception": "temperature independence assumed"
+            },
+            {
+              "key": "D",
+              "text": "The gas escapes because the liquid expands when warm",
+              "correct": false,
+              "explanation": "The cause is falling solubility, not the liquid taking up more room.",
+              "misconception": "expansion story invented"
+            }
+          ]
+        },
+        {
+          "stem": "What effect does increasing pressure have on the solubility of a gas?",
+          "misconceptionClass": "pressure effect",
+          "options": [
+            {
+              "key": "B",
+              "text": "The gas becomes more soluble",
+              "correct": true,
+              "explanation": "Higher pressure pushes more gas into solution.",
+              "misconception": null
+            },
+            {
+              "key": "A",
+              "text": "The gas becomes less soluble",
+              "correct": false,
+              "explanation": "Pressure works the opposite way: more pressure means more dissolved gas.",
+              "misconception": "trend inverted"
+            },
+            {
+              "key": "C",
+              "text": "Pressure changes nothing for gases",
+              "correct": false,
+              "explanation": "Pressure is one of the two stated controls on gas solubility.",
+              "misconception": "pressure dismissed"
+            },
+            {
+              "key": "D",
+              "text": "Pressure only affects solids",
+              "correct": false,
+              "explanation": "The pressure rule belongs to gases; solids follow temperature.",
+              "misconception": "medium mismatch"
+            }
+          ]
+        },
+        {
+          "stem": "Stirring stops and some solid still sits at the bottom of the liquid. What is the liquid above it called?",
+          "misconceptionClass": "saturation state",
+          "options": [
+            {
+              "key": "C",
+              "text": "A saturated solution",
+              "correct": true,
+              "explanation": "When no more solid will dissolve, the solution is saturated at that temperature.",
+              "misconception": null
+            },
+            {
+              "key": "A",
+              "text": "An unsaturated solution",
+              "correct": false,
+              "explanation": "Leftover solid means the dissolving limit has been reached.",
+              "misconception": "saturation state reversed"
+            },
+            {
+              "key": "B",
+              "text": "A pure solvent",
+              "correct": false,
+              "explanation": "The liquid already holds dissolved solute, so it is a solution.",
+              "misconception": "dissolved solute ignored"
+            },
+            {
+              "key": "D",
+              "text": "A diluted mixture",
+              "correct": false,
+              "explanation": "Dilution describes adding more solvent, which is not what happened here.",
+              "misconception": "dilution confused with saturation"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the term for the liquid that does the dissolving.",
+          "misconceptionClass": "solvent naming",
+          "modelAnswer": "The solvent.",
+          "keywords": [
+            "solvent"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State the units in which solubility values are recorded.",
+          "misconceptionClass": "solubility units",
+          "modelAnswer": "Grams per 100 grams of solvent.",
+          "keywords": [
+            "grams",
+            "100",
+            "g"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why a saturated solution of one substance can hold more dissolved solid than a saturated solution of another substance at the same temperature.",
+          "misconceptionClass": "solubility specificity logic",
+          "modelAnswer": "Because different substances dissolve to different extents in the same solvent — solubility is specific to each substance.",
+          "keywords": [
+            "different",
+            "extents",
+            "extent",
+            "specific",
+            "vary",
+            "varies",
+            "substances"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A diver's blood dissolves more gas at depth than at the surface. State the two trends from the note that explain more gas dissolving at depth.",
+          "misconceptionClass": "gas solubility applied",
+          "modelAnswer": "Higher pressure — gases dissolve better under high pressure — and the colder temperature deep underwater, since gases dissolve worse when warmed.",
+          "keywords": [
+            "pressure",
+            "cold",
+            "colder",
+            "cooler"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Solubility Curves",
+      "sourceHeadings": [
+        "Solubility Curves",
+        "Solubility curves"
+      ],
+      "specRefs": [
+        "4CH1-1.6C"
+      ],
+      "opening": "Plot how much of a salt dissolves in 100 grams of water at a series of temperatures, join the points, and you have a solubility curve. The curve answers practical questions at a glance: how much dissolves at any chosen temperature, how that changes when you warm or cool, and where one salt stands against another.",
+      "keyPoints": [
+        "A solubility curve plots solubility, in grams per 100 grams of water, against temperature.",
+        "Each point records the maximum mass that dissolves before a saturated solution forms.",
+        "Points are measured at several temperatures, then joined to trace the curve.",
+        "Most salts dissolve better as the water gets hotter.",
+        "Sodium chloride is the exception, changing very little as temperature rises.",
+        "Reading a curve gives the mass that will dissolve at any chosen temperature."
+      ],
+      "confidenceGate": {
+        "ratings": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "continueDisabledUntilChoice": true,
+        "resumeWithoutReRate": true,
+        "postCheckRecalibration": true
+      },
+      "depthLayers": {
+        "low": {
+          "restatement": "A solubility curve is a graph with temperature along the bottom and dissolving mass up the side, drawn from measurements taken at several temperatures.",
+          "analogy": "It works like a growth chart: each measurement pins down one point, and the joined line lets you estimate values in between.",
+          "examPointer": "Read the axes before anything else; the vertical axis is mass per 100 grams of water, never per litre."
+        },
+        "medium": {
+          "restatement": "Each measured point gives the maximum mass dissolving in 100 grams of water at one temperature, and the joined curve lets you read values between the measurements and compare different salts at a glance.",
+          "analogy": "The growth chart picture still holds: points at fixed intervals, a smooth line between them, and every salt getting its own line on the same axes.",
+          "examPointer": "Curve questions usually ask for a read-off, a comparison between two salts, or the change on cooling; identify which one is being asked before calculating."
+        }
+      },
+      "check": [
+        {
+          "stem": "What does the vertical axis of a solubility curve show?",
+          "misconceptionClass": "axes reading",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mass of solute per 100 grams of water",
+              "correct": true,
+              "explanation": "The curve is drawn from solubility values in grams per 100 grams of water.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Mass of solute per litre of solution",
+              "correct": false,
+              "explanation": "The plotting unit is a fixed mass of water, not a volume of solution.",
+              "misconception": "volume unit imported"
+            },
+            {
+              "key": "C",
+              "text": "Total mass of the saturated solution",
+              "correct": false,
+              "explanation": "Only the dissolved solute is counted, not the solution as a whole.",
+              "misconception": "whole-mass misread"
+            },
+            {
+              "key": "D",
+              "text": "Temperature of the water bath",
+              "correct": false,
+              "explanation": "Temperature belongs on the horizontal axis.",
+              "misconception": "axes swapped"
+            }
+          ]
+        },
+        {
+          "stem": "How is the data for one point on a solubility curve obtained?",
+          "misconceptionClass": "data gathering",
+          "options": [
+            {
+              "key": "C",
+              "text": "By finding the maximum mass that dissolves in 100 grams of water at one temperature",
+              "correct": true,
+              "explanation": "Each point comes from saturating the water at that temperature and recording how much went in.",
+              "misconception": null
+            },
+            {
+              "key": "A",
+              "text": "By timing how long a fixed mass takes to disappear",
+              "correct": false,
+              "explanation": "Dissolving speed is a rate, while the curve records how much can dissolve.",
+              "misconception": "rate confused with extent"
+            },
+            {
+              "key": "B",
+              "text": "By weighing the water before and after the solid is added",
+              "correct": false,
+              "explanation": "The change to record is the mass of solid taken up, not of water.",
+              "misconception": "measured quantity misidentified"
+            },
+            {
+              "key": "D",
+              "text": "By dividing the total mass of solution by its temperature",
+              "correct": false,
+              "explanation": "No such division produces a solubility value.",
+              "misconception": "meaningless operation invented"
+            }
+          ]
+        },
+        {
+          "stem": "A curve shows 68 grams of potassium nitrate dissolving in 100 grams of water at 50 °C. How much dissolves in 20 grams of water at the same temperature?",
+          "misconceptionClass": "proportional scaling",
+          "options": [
+            {
+              "key": "B",
+              "text": "13.6 grams",
+              "correct": true,
+              "explanation": "One fifth of the water holds one fifth of the mass, so 68 scaled to 20 grams gives 13.6.",
+              "misconception": null
+            },
+            {
+              "key": "A",
+              "text": "68 grams",
+              "correct": false,
+              "explanation": "That is the value for 100 grams of water; less water holds proportionally less solute.",
+              "misconception": "no scaling applied"
+            },
+            {
+              "key": "C",
+              "text": "3.4 grams",
+              "correct": false,
+              "explanation": "Dividing 68 by 20 inverts the ratio instead of scaling it.",
+              "misconception": "ratio inverted"
+            },
+            {
+              "key": "D",
+              "text": "136 grams",
+              "correct": false,
+              "explanation": "That doubles the value instead of taking one fifth of it.",
+              "misconception": "wrong factor applied"
+            }
+          ]
+        },
+        {
+          "stem": "A saturated lead(II) nitrate solution is cooled from 90 °C to 40 °C, where the solubilities are 118 and 64 grams per 100 grams of water. What mass crystallises per 100 grams of water?",
+          "misconceptionClass": "cooling crystallisation",
+          "options": [
+            {
+              "key": "D",
+              "text": "54 grams",
+              "correct": true,
+              "explanation": "The difference between the two solubilities leaves the solution as crystals on cooling.",
+              "misconception": null
+            },
+            {
+              "key": "A",
+              "text": "118 grams",
+              "correct": false,
+              "explanation": "The solution keeps holding 64 grams even when cold, so not everything drops out.",
+              "misconception": "whole content assumed to crystallise"
+            },
+            {
+              "key": "B",
+              "text": "64 grams",
+              "correct": false,
+              "explanation": "That is the mass still dissolved at the end, not the mass deposited.",
+              "misconception": "final solubility misread as deposited mass"
+            },
+            {
+              "key": "C",
+              "text": "182 grams",
+              "correct": false,
+              "explanation": "The two values must be subtracted, not added.",
+              "misconception": "values added instead of subtracted"
+            }
+          ]
+        },
+        {
+          "stem": "Which salt's solubility curve is nearly flat across a wide temperature range?",
+          "misconceptionClass": "curve comparison",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sodium chloride",
+              "correct": true,
+              "explanation": "Common salt shows very little change in solubility as temperature rises.",
+              "misconception": null
+            },
+            {
+              "key": "B",
+              "text": "Potassium nitrate, which climbs steeply",
+              "correct": false,
+              "explanation": "A steeply climbing curve is the opposite of a flat one.",
+              "misconception": "steep curve mistaken for flat"
+            },
+            {
+              "key": "C",
+              "text": "Lead(II) nitrate, which falls on cooling",
+              "correct": false,
+              "explanation": "Its curve falls when cooled but is not flat across the range.",
+              "misconception": "falling section misread as whole curve"
+            },
+            {
+              "key": "D",
+              "text": "All salts flatten at high temperature",
+              "correct": false,
+              "explanation": "Most salts keep rising; flattening is the rare case.",
+              "misconception": "overgeneralisation"
+            }
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State which salt is the exception whose solubility changes very little as temperature rises.",
+          "misconceptionClass": "flat curve exception",
+          "modelAnswer": "Sodium chloride (NaCl).",
+          "keywords": [
+            "sodium",
+            "chloride",
+            "nacl"
+          ]
+        },
+        {
+          "kind": "recall",
+          "stem": "State what each point on a solubility curve records.",
+          "misconceptionClass": "curve point meaning",
+          "modelAnswer": "The maximum mass that dissolves before a saturated solution forms (at that temperature).",
+          "keywords": [
+            "maximum",
+            "max",
+            "saturated",
+            "saturation",
+            "most"
+          ]
+        },
+        {
+          "kind": "explain-why",
+          "stem": "Explain why a solubility curve is useful once it has been drawn.",
+          "misconceptionClass": "curve utility logic",
+          "modelAnswer": "Because reading the curve gives the mass that will dissolve at any chosen temperature, without repeating the experiment at each temperature.",
+          "keywords": [
+            "reading",
+            "read",
+            "any",
+            "chosen",
+            "predict",
+            "without"
+          ]
+        },
+        {
+          "kind": "application",
+          "stem": "A hot saturated solution of potassium nitrate is cooled. State what you would expect to form, and why.",
+          "misconceptionClass": "cooling crystallisation applied",
+          "modelAnswer": "Crystals form — most salts dissolve better as the water gets hotter, so cooling means the solution holds less, and the excess solid crystallises out.",
+          "keywords": [
+            "crystals",
+            "crystal",
+            "crystallise",
+            "crystallises",
+            "cooler",
+            "less",
+            "excess"
+          ]
+        }
+      ]
+    }
+  ],
+  "noteAssets": {
+    "glossary": [
+      {
+        "term": "solubility",
+        "definition": "The mass of a substance that dissolves in 100 grams of solvent at a given temperature.",
+        "firstLesson": 1
+      },
+      {
+        "term": "solvent",
+        "definition": "The liquid in which a substance dissolves.",
+        "firstLesson": 1
+      },
+      {
+        "term": "solute",
+        "definition": "The substance that dissolves into the solvent.",
+        "firstLesson": 1
+      },
+      {
+        "term": "solution",
+        "definition": "The mixture formed when a solute dissolves in a solvent.",
+        "firstLesson": 1
+      },
+      {
+        "term": "saturated solution",
+        "definition": "A solution holding the maximum dissolved mass possible at that temperature, with any extra solid left undissolved.",
+        "firstLesson": 1
+      },
+      {
+        "term": "solubility curve",
+        "definition": "A graph of solubility in grams per 100 grams of water plotted against temperature.",
+        "firstLesson": 2
+      },
+      {
+        "term": "crystallisation",
+        "definition": "The formation of solid crystals from a solution, typically on cooling.",
+        "firstLesson": 2
+      }
+    ],
+    "workedExample": {
+      "prompt": "Use the solubility curves to answer two questions. How much potassium nitrate dissolves in 20 g of water at 50 °C? And what mass of lead(II) nitrate crystals forms when 200 cm³ of saturated solution, prepared at 90 °C, is cooled to 40 °C?",
+      "steps": [
+        "At 50 °C the curve shows potassium nitrate dissolving to 68 g per 100 g of water, so in 20 g of water: 68 x (20 / 100) = 13.6 g",
+        "For lead(II) nitrate the curve gives 118 g per 100 g of water at 90 °C and 64 g per 100 g of water at 40 °C, so cooling deposits 118 - 64 = 54 g per 100 g of water",
+        "The prepared solution holds twice the 100 g basis of water, so the total crystal mass is 2 x 54 = 108 g"
+      ],
+      "finalAnswer": "13.6 g of potassium nitrate dissolves in 20 g of water at 50 °C; 108 g of lead(II) nitrate crystallises on cooling from 90 °C to 40 °C"
+    }
+  }
+}
