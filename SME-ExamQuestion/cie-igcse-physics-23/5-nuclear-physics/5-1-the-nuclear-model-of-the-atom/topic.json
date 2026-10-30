@@ -204,7 +204,7 @@
       "spcpt_YPYY7jJHk8Sj4nMN"
      ],
      "part_tier": null,
-     "problem_md": "The nuclide notations for two atoms, P and Q, are shown.\n\n`scriptbase text P end text end scriptbase presubscript 6 presuperscript 12`‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ `scriptbase text Q end text end scriptbase presubscript 6 presuperscript 14`\n\nWhich statement is correct?",
+     "problem_md": "The nuclide notations for two atoms, P and Q, are shown.\n\n`text P end text _ 6 ^ 12`‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ `text Q end text _ 6 ^ 14`\n\nWhich statement is correct?",
      "solution_md": "**Final answer:** **The correct answer is A**\n\n- In nuclide notation `text X end text _ Z ^ A`:\n\n  - the top number $( \\mathrm{A} )$ is the nucleon (mass) number\n  - the bottom number $( \\mathrm{Z} )$ is the proton (atomic) number\n- Isotopes are atoms of the same element that have the same proton number but different nucleon numbers\n- Both P and Q have a proton number of 6, which identifies them as the same element\n- Since their nucleon numbers are different (12 and 14), they are **isotopes **of each other\n\n**B** is incorrect as both atoms have a proton number of 6.\n\n**C** is incorrect because the number of neutrons is calculated as nucleon number − proton number ($14 - 6 = 8$).\n\n**D** is incorrect as 6 is the proton number of P; its nucleon number is 12.",
      "choices": [
       {
@@ -232,7 +232,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "scriptbase text X end text end scriptbase presubscript straight Z presuperscript straight A",
+       "alt": "text X end text _ Z ^ A",
        "render": "`text X end text _ Z ^ A`",
        "via": "alt-transpile"
       },
@@ -362,49 +362,49 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 26 presuperscript 56",
+       "alt": "X _ 26 ^ 56",
        "render": "`X _ 26 ^ 56`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript proton space number end presubscript presuperscript nucleon space number end presuperscript",
+       "alt": "X _ proton number ^ nucleon number",
        "render": "`X _ proton number ^ nucleon number`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript straight Z presuperscript straight A",
+       "alt": "X _ Z ^ A",
        "render": "$\\mathrm{X} pre_{Z} pre^{A}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 56 presuperscript 26",
+       "alt": "X _ 56 ^ 26",
        "render": "`X _ 56 ^ 26`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 26 presuperscript 54",
+       "alt": "X _ 26 ^ 54",
        "render": "`X _ 26 ^ 54`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 24 presuperscript 56",
+       "alt": "X _ 24 ^ 56",
        "render": "`X _ 24 ^ 56`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 28 presuperscript 54",
+       "alt": "X _ 28 ^ 54",
        "render": "`X _ 28 ^ 54`",
        "via": "alt-transpile"
       }
@@ -720,35 +720,35 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "space bold U presubscript 92 presuperscript 235",
+       "alt": "U _ 92 ^ 235",
        "render": "$U_{92}^{235}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight U presubscript 91 presuperscript 235",
+       "alt": "U _ 91 ^ 235",
        "render": "`U _ 91 ^ 235`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "begin mathsize 24px style straight U presubscript 92 presuperscript 238 end style",
+       "alt": "U _ 92 ^ 238",
        "render": "`U _ 92 ^ 238`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "begin mathsize 24px style straight U presubscript 235 presuperscript 92 end style",
+       "alt": "U _ 235 ^ 92",
        "render": "`U _ 235 ^ 92`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "begin mathsize 24px style straight U presubscript 90 presuperscript 235 end style",
+       "alt": "U _ 90 ^ 235",
        "render": "`U _ 90 ^ 235`",
        "via": "alt-transpile"
       }
@@ -859,7 +859,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "bold X presubscript straight Z presuperscript straight A",
+       "alt": "X _ Z ^ A",
        "render": "$X pre_{Z} pre^{A}$",
        "via": "alt-transpile"
       }
@@ -1175,7 +1175,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "bold He presubscript 2 presuperscript 4",
+       "alt": "He _ 2 ^ 4",
        "render": "$He_{2}^{4}$",
        "via": "alt-transpile"
       }
@@ -1544,7 +1544,7 @@
       "spcpt_9dP28GSfKJRhp9yB"
      ],
      "part_tier": null,
-     "problem_md": "Two of the isotopes of hydrogen are hydrogen-2 * ( *`H presubscript 1 presuperscript 2`) and hydrogen-3 ( `H presubscript 1 presuperscript 3`). ** **\n\n(i) State **one** similarity in the composition of their nuclei.\n\n[1]\n\n(ii)** **Describe how a nucleus of hydrogen-3 differs from a nucleus of hydrogen-2.\n\n[2]",
+     "problem_md": "Two of the isotopes of hydrogen are hydrogen-2 * ( *$H_{1}^{2}$) and hydrogen-3 ( $H_{1}^{3}$). ** **\n\n(i) State **one** similarity in the composition of their nuclei.\n\n[1]\n\n(ii)** **Describe how a nucleus of hydrogen-3 differs from a nucleus of hydrogen-2.\n\n[2]",
      "solution_md": "(i) A similarity in the composition of hydrogen-2 and hydrogen-3 is:\n\n- (They both have) the same number of protons / one proton; **[1 mark]**\n\n(ii) A nucleus of hydrogen-3 differs from a nucleus of hydrogen-2 because:\n\n- (They both have) different number of neutrons / nucleons; **[1 mark]**\n- Hydrogen-3 has one more neutron (than hydrogen-2); **[1 mark]**\n\n**Total: [3 marks]**"
     },
     {
@@ -1563,20 +1563,20 @@
       "spcpt_QjFJc2CKhdyWRpVh"
      ],
      "part_tier": "extended_only",
-     "problem_md": "**Extended Tier Only**\n\nIn a nuclear fusion reactor, a nucleus of hydrogen-2 fuses with a nucleus of hydrogen-3 at an extremely high temperature. This fusion reaction produces an isotope of element X and releases a neutron.\n\n(i) Explain why an extremely high temperature is needed when forcing these two nuclei together.\n\n[3]\n\n(ii) Using nuclide notation, complete the equation for this reaction.\n\n`H presubscript 1 presuperscript 2`  +   `H presubscript 1 presuperscript 3`       ⟶\n\n[2]",
-     "solution_md": "(i) An extremely high temperature is needed for nuclear fusion because:\n\n- (A high temperature produces) high (kinetic) energy / momentum / speed / ability to do a large quantity of work; **[1 mark]**\n- (Nuclei / protons) repel each other; **[1 mark]**\n- (Because they) are positively charged / have like charges; **[1 mark]**\n\n**OR**\n\n- (Therefore, high energies are needed) to come close together (and fuse); **[1 mark]**\n\n(ii) The completed nuclear reaction equation is:\n\n$H_{1}^{2} + H_{1}^{3} \\rightarrow H_{2}^{4} e + n_{0}^{1}$\n\n- Correct nuclide notation for helium: $X_{2}^{4} \\text{or} H_{2}^{4} e \\text{or} \\\\alpha pre_{2} pre^{4}$ ; **[1 mark]**\n- Correct nuclide notation for neutron: `n presubscript 0 presuperscript 1`; **[1 mark]**\n\n**Total: [5 marks]**",
+     "problem_md": "**Extended Tier Only**\n\nIn a nuclear fusion reactor, a nucleus of hydrogen-2 fuses with a nucleus of hydrogen-3 at an extremely high temperature. This fusion reaction produces an isotope of element X and releases a neutron.\n\n(i) Explain why an extremely high temperature is needed when forcing these two nuclei together.\n\n[3]\n\n(ii) Using nuclide notation, complete the equation for this reaction.\n\n$H_{1}^{2}$  +   $H_{1}^{3}$       ⟶\n\n[2]",
+     "solution_md": "(i) An extremely high temperature is needed for nuclear fusion because:\n\n- (A high temperature produces) high (kinetic) energy / momentum / speed / ability to do a large quantity of work; **[1 mark]**\n- (Nuclei / protons) repel each other; **[1 mark]**\n- (Because they) are positively charged / have like charges; **[1 mark]**\n\n**OR**\n\n- (Therefore, high energies are needed) to come close together (and fuse); **[1 mark]**\n\n(ii) The completed nuclear reaction equation is:\n\n$H_{1}^{2} + H_{1}^{3} \\rightarrow H_{2}^{4} e + n_{0}^{1}$\n\n- Correct nuclide notation for helium: $X_{2}^{4} \\text{or} H_{2}^{4} e \\text{or} \\\\alpha pre_{2} pre^{4}$ ; **[1 mark]**\n- Correct nuclide notation for neutron: $n_{0}^{1}$; **[1 mark]**\n\n**Total: [5 marks]**",
      "equations": [
       {
        "latex": null,
        "mathml": null,
-       "alt": "H presubscript 1 presuperscript 2 space plus space H presubscript 1 presuperscript 3 space rightwards arrow space H presubscript 2 presuperscript 4 e space plus space n presubscript 0 presuperscript 1",
+       "alt": "H _ 1 ^ 2 + H _ 1 ^ 3 -> H _ 2 ^ 4 e + n _ 0 ^ 1",
        "render": "$H_{1}^{2} + H_{1}^{3} \\rightarrow H_{2}^{4} e + n_{0}^{1}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "X presubscript 2 presuperscript 4 space or space H presubscript 2 presuperscript 4 e space or space alpha presubscript 2 presuperscript 4",
+       "alt": "X _ 2 ^ 4 or H _ 2 ^ 4 e or alpha _ 2 ^ 4",
        "render": "$X_{2}^{4} \\text{or} H_{2}^{4} e \\text{or} \\\\alpha pre_{2} pre^{4}$",
        "via": "alt-transpile"
       }
@@ -1608,7 +1608,7 @@
       "spcpt_9dP28GSfKJRhp9yB"
      ],
      "part_tier": null,
-     "problem_md": "The nuclide notation `X presubscript Z presuperscript A` describes the nucleus of one type of atom.\n\nOn Fig. 11.1 draw a line from each symbol to the correct description for that symbol.\n\n![Table with symbols 'A', 'Z', 'X' and descriptions: number of neutrons, element symbol, proton number, nucleon number, number of atoms. Fig. 11.1.](assets/010-table-with-symbols-a-z-x-and-descriptions-number.png)",
+     "problem_md": "The nuclide notation $X pre_{Z} pre^{A}$ describes the nucleus of one type of atom.\n\nOn Fig. 11.1 draw a line from each symbol to the correct description for that symbol.\n\n![Table with symbols 'A', 'Z', 'X' and descriptions: number of neutrons, element symbol, proton number, nucleon number, number of atoms. Fig. 11.1.](assets/010-table-with-symbols-a-z-x-and-descriptions-number.png)",
      "solution_md": "The terms *A*, *Z* and *X* mean:\n\n![Diagram showing symbols A, Z, X linked to descriptions: number of neutrons, element symbol, proton number, nucleon number, number of atoms.](assets/011-diagram-showing-symbols-a-z-x-linked-to-descript.png)\n\n- *One mark per correct line; ***[3 marks]**\n\n**[Total: 3 marks]**"
     }
    ]
@@ -1638,40 +1638,40 @@
      ],
      "part_tier": null,
      "problem_md": "**Extended tier only**\n\nTable 1.1 shows data about nine elements.\n\n**Table 1.1**\n\n| **proton number** | **element** | **symbol** |\n|---|---|---|\n| 2 | helium | He |\n| 3 | lithium | Li |\n| 4 | beryllium | Be |\n| 5 | boron | B |\n| 6 | carbon | C |\n| 7 | nitrogen | N |\n| 8 | oxygen | O |\n| 9 | fluorine | F |\n| 10 | neon | Ne |\n\nCarbon-14 is a radioactive isotope with a nucleon number of 14. It decays by emitting β-particles.\n\nUse data from Table 1.1 to write down the nuclide equation for this decay.",
-     "solution_md": "Use data from the table to write down the nuclide equation for this decay:\n\n`C _ 6 ^ 14 -> N _ 7 ^ 14 + e _ - 1 ^ 0`    **OR**    `C _ 6 ^ 14 - e _ - 1 ^ 0 -> N _ 7 ^ 14`\n\n- `C _ 6 ^ 14` on left hand side; **[1 mark]**\n- `blank presubscript 7 presuperscript 14`on right hand side; **[1 mark]**\n- N on right hand side; **[1 mark]**\n- `( + e _ - 1 ^ 0 )` on right hand side **OR** `( - e _ - 1 ^ 0 )` on left hand side; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Radioactive decay events can be shown using a decay equation. A decay equation is similar to a chemical reaction equation.*\n\n> *The particles present **before** the decay are shown **before** the arrow, and the particles **produced** in the decay are shown **after** the arrow. *\n\n> *Just like chemical equations, decay equations must be **balanced**. The sum of the mass and atomic numbers before the reaction must be the **same** as the sum of the mass and atomic numbers after the reaction*",
+     "solution_md": "Use data from the table to write down the nuclide equation for this decay:\n\n`C _ 6 ^ 14 -> N _ 7 ^ 14 + e _ - 1 ^ 0`    **OR**    `C _ 6 ^ 14 - e _ - 1 ^ 0 -> N _ 7 ^ 14`\n\n- `C _ 6 ^ 14` on left hand side; **[1 mark]**\n- $blank_{7}^{14}$on right hand side; **[1 mark]**\n- N on right hand side; **[1 mark]**\n- `( + e _ - 1 ^ 0 )` on right hand side **OR** `( - e _ - 1 ^ 0 )` on left hand side; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Radioactive decay events can be shown using a decay equation. A decay equation is similar to a chemical reaction equation.*\n\n> *The particles present **before** the decay are shown **before** the arrow, and the particles **produced** in the decay are shown **after** the arrow. *\n\n> *Just like chemical equations, decay equations must be **balanced**. The sum of the mass and atomic numbers before the reaction must be the **same** as the sum of the mass and atomic numbers after the reaction*",
      "equations": [
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight C presubscript 6 presuperscript 14 space rightwards arrow space straight N presubscript 7 presuperscript 14 space plus space straight e presubscript negative 1 end presubscript presuperscript 0",
+       "alt": "C _ 6 ^ 14 -> N _ 7 ^ 14 + e _ - 1 ^ 0",
        "render": "`C _ 6 ^ 14 -> N _ 7 ^ 14 + e _ - 1 ^ 0`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight C presubscript 6 presuperscript 14 space minus straight e presubscript negative 1 end presubscript presuperscript 0 space rightwards arrow space straight N presubscript 7 presuperscript 14",
+       "alt": "C _ 6 ^ 14 - e _ - 1 ^ 0 -> N _ 7 ^ 14",
        "render": "`C _ 6 ^ 14 - e _ - 1 ^ 0 -> N _ 7 ^ 14`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight C presubscript 6 presuperscript 14",
+       "alt": "C _ 6 ^ 14",
        "render": "`C _ 6 ^ 14`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "open parentheses plus space straight e presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "alt": "( + e _ - 1 ^ 0 )",
        "render": "`( + e _ - 1 ^ 0 )`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "open parentheses negative space straight e presubscript negative 1 end presubscript presuperscript 0 close parentheses",
+       "alt": "( - e _ - 1 ^ 0 )",
        "render": "`( - e _ - 1 ^ 0 )`",
        "via": "alt-transpile"
       }
@@ -1699,7 +1699,7 @@
       {
        "latex": "\\frac{\\mathrm{count} \\mathrm{rate}}{\\mathrm{counts}/s}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>count</mi><mo>&#160;</mo><mi>rate</mi></mrow><mrow><mi>counts</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator count space rate over denominator counts divided by straight s end fraction"
+       "alt": "(count rate)/(counts / s)"
       }
      ]
     }
@@ -1797,8 +1797,8 @@
       "spcpt_9dP28GSfKJRhp9yB"
      ],
      "part_tier": null,
-     "problem_md": "**Extended tier only**\n\nA nucleus of americium-241 has the nuclide notation shown.\n\n`space presubscript 95 presuperscript 241 A m`\n\n(i) Determine the number of neutrons in a nucleus of americium-241.\n\nnumber of neutrons = ........................................................ [1]\n\n(ii) Determine the charge on a nucleus of americium-241.\n\ncharge = ........................................................ [2]",
-     "solution_md": "(i) To determine the number of neutrons in a nucleus:\n\n- The symbol for this nucleus is `space presubscript 95 presuperscript 241 A m`\n\n  - Therefore there are **241** nucleons, of which **95** are protons\n- The number of neutrons = 241 − 95 = <u>146</u>; **[1 mark]**\n\n(ii) To determine the charge on the nucleus:\n\n- The charge of a nucleus is always positive; **[1 mark]**\n- There are 95 protons with a charge of +1 each\n- The charge on the nucleus = <sup>+</sup> <u>95</u>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Since nuclei are made up of only protons and neutrons, and neutrons have no charge at all, while protons are positively charged, it follows that **all nuclei are positively charged**.*"
+     "problem_md": "**Extended tier only**\n\nA nucleus of americium-241 has the nuclide notation shown.\n\n$space_{95}^{241} A m$\n\n(i) Determine the number of neutrons in a nucleus of americium-241.\n\nnumber of neutrons = ........................................................ [1]\n\n(ii) Determine the charge on a nucleus of americium-241.\n\ncharge = ........................................................ [2]",
+     "solution_md": "(i) To determine the number of neutrons in a nucleus:\n\n- The symbol for this nucleus is $space_{95}^{241} A m$\n\n  - Therefore there are **241** nucleons, of which **95** are protons\n- The number of neutrons = 241 − 95 = <u>146</u>; **[1 mark]**\n\n(ii) To determine the charge on the nucleus:\n\n- The charge of a nucleus is always positive; **[1 mark]**\n- There are 95 protons with a charge of +1 each\n- The charge on the nucleus = <sup>+</sup> <u>95</u>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Since nuclei are made up of only protons and neutrons, and neutrons have no charge at all, while protons are positively charged, it follows that **all nuclei are positively charged**.*"
     },
     {
      "id": "qstnprt_b2mwRVVMxqsSKvtg",
@@ -1922,7 +1922,7 @@
      ],
      "part_tier": null,
      "problem_md": "There are three naturally occurring isotopes of hydrogen: hydrogen-1, hydrogen-2 and hydrogen-3.\n\nHydrogen-1 is the simplest nuclide containing only one proton. Each isotope of hydrogen is represented by the symbol $H$.\n\nWrite down the symbols, using nuclide notation, for:\n\nhydrogen-1 ...................................\n\nhydrogen-2 ...................................\n\nhydrogen-3 ...................................",
-     "solution_md": "The symbols for isotopes of hydrogen are:\n\n- hydrogen-1: `H presubscript 1 presuperscript 1`** AND**\n- hydrogen-2: `H _ 1 ^ 2`** AND**\n- hydrogen-3: `H _ 1 ^ 3` **[1 mark]**\n\n**[Total: 1 mark]**",
+     "solution_md": "The symbols for isotopes of hydrogen are:\n\n- hydrogen-1: $H_{1}^{1}$** AND**\n- hydrogen-2: `H _ 1 ^ 2`** AND**\n- hydrogen-3: `H _ 1 ^ 3` **[1 mark]**\n\n**[Total: 1 mark]**",
      "equations": [
       {
        "latex": "H",
@@ -1932,14 +1932,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight H presubscript 1 presuperscript 2",
+       "alt": "H _ 1 ^ 2",
        "render": "`H _ 1 ^ 2`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight H presubscript 1 presuperscript 3",
+       "alt": "H _ 1 ^ 3",
        "render": "`H _ 1 ^ 3`",
        "via": "alt-transpile"
       }
@@ -1962,19 +1962,19 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nhydrogen-1: H₁¹ AND hydrogen-2: H₁² AND hydrogen-3: H₁³\n\n**Extended tier only**\n\nIn a fusion reactor, a nucleus of hydrogen-2 and a nucleus of hydrogen-3 undergo fusion.\n\n(i) State what is meant by nuclear fusion.\n\n[2]\n\n(ii) The fusion reaction produces a free neutron and one other particle.\n\nWrite down, using nuclide notation, the equation that represents this reaction.\n\n[3]",
-     "solution_md": "(i) Nuclear fusion is defined as:\n\n- The joining together of small / H nuclei; **[1 mark]**\n- To produce a larger nucleus / He nucleus **OR** with the release of energy; **[1 mark]**\n\n(ii) The correct equation for this fusion reaction is as follows:\n\n`H _ 1 ^ 2 + H _ 1 ^ 3 -> n _ 0 ^ 1 + He _ 2 ^ 4`\n\n- Identifies the 'one other particle' is helium / alpha particle; **[1 mark]**\n- Correct nuclide notation of the free neutron `n presubscript 0 presuperscript 1`; **[1 mark]**\n- Correct nuclide notation of the helium / alpha particle `He presubscript 2 presuperscript 4` or $\\ \\\\alpha pre_{2} pre^{4}$; **[1 mark]**\n\n**[Total: 5 marks]**",
+     "solution_md": "(i) Nuclear fusion is defined as:\n\n- The joining together of small / H nuclei; **[1 mark]**\n- To produce a larger nucleus / He nucleus **OR** with the release of energy; **[1 mark]**\n\n(ii) The correct equation for this fusion reaction is as follows:\n\n`H _ 1 ^ 2 + H _ 1 ^ 3 -> n _ 0 ^ 1 + He _ 2 ^ 4`\n\n- Identifies the 'one other particle' is helium / alpha particle; **[1 mark]**\n- Correct nuclide notation of the free neutron $n_{0}^{1}$; **[1 mark]**\n- Correct nuclide notation of the helium / alpha particle $He_{2}^{4}$ or $\\ \\\\alpha pre_{2} pre^{4}$; **[1 mark]**\n\n**[Total: 5 marks]**",
      "equations": [
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight H presubscript 1 presuperscript 2 space plus space straight H presubscript 1 presuperscript 3 space rightwards arrow space straight n presubscript 0 presuperscript 1 space plus space He presubscript 2 presuperscript 4",
+       "alt": "H _ 1 ^ 2 + H _ 1 ^ 3 -> n _ 0 ^ 1 + He _ 2 ^ 4",
        "render": "`H _ 1 ^ 2 + H _ 1 ^ 3 -> n _ 0 ^ 1 + He _ 2 ^ 4`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight alpha presubscript 2 presuperscript 4",
+       "alt": "alpha _ 2 ^ 4",
        "render": "$\\ \\\\alpha pre_{2} pre^{4}$",
        "via": "alt-transpile"
       }
@@ -2025,7 +2025,7 @@
       "spcpt_C6S2sx3JHMR7j5F4"
      ],
      "part_tier": null,
-     "problem_md": "When the nucleus of one particular isotope of uranium decays, it releases a β-particle. In the periodic table the entry for this isotope looks like this:\n\n`U presubscript 92 presuperscript 239`\n\nState the proton number, the mass number and the neutron number of this isotope.",
+     "problem_md": "When the nucleus of one particular isotope of uranium decays, it releases a β-particle. In the periodic table the entry for this isotope looks like this:\n\n$U_{92}^{239}$\n\nState the proton number, the mass number and the neutron number of this isotope.",
      "solution_md": "State the proton number, the mass number and the neutron number of this isotope:\n\n- Proton number: 92\n\n**   ****AND**\n\n- Mass number: 239 **[1 mark]**\n- Neutron number: 239 − 92 = 147 **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Bigger number on top = mass number = total number of protons and neutrons in the nucleus*\n- *Proton number = number of protons in the nucleus*\n- *Number of neutrons = proton number − mass number*"
     },
     {
@@ -2050,7 +2050,7 @@
       {
        "latex": "numberofhalf-lives=\\frac{totaldecaytime}{half-life}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mi>u</mi><mi>m</mi><mi>b</mi><mi>e</mi><mi>r</mi><mo> </mo><mi>o</mi><mi>f</mi><mo> </mo><mi>h</mi><mi>a</mi><mi>l</mi><mi>f</mi><mo>-</mo><mi>l</mi><mi>i</mi><mi>v</mi><mi>e</mi><mi>s</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>c</mi><mi>a</mi><mi>y</mi><mo> </mo><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow><mrow><mi>h</mi><mi>a</mi><mi>l</mi><mi>f</mi><mo>-</mo><mi>l</mi><mi>i</mi><mi>f</mi><mi>e</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "n u m b e r space o f space h a l f minus l i v e s space equals space fraction numerator t o t a l space d e c a y space t i m e over denominator h a l f minus l i f e end fraction"
+       "alt": "n u m b e r o f h a l f - l i v e s = (t o t a l d e c a y t i m e)/(h a l f - l i f e)"
       },
       {
        "latex": "numberofhalf-lives=\\frac{46}{23}=2",
@@ -2111,8 +2111,8 @@
       "spcpt_2rTXpKXyZTzJNRGT"
      ],
      "part_tier": null,
-     "problem_md": "**Extract:**\n\nFig. 12.1 shows a diagram to represent a helium atom, and an incomplete key.\n\nThe table in Fig. 12.2 compares two isotopes of helium.\n\n|   | `He presubscript 2 presuperscript 3` | `He presubscript 2 presuperscript 5` |\n|---|---|---|\n| number of protons |   |   |\n| number of neutrons |   |   |\n\n**Fig 12.2**\n\nFor each isotope, write the number of protons and the number of neutrons in the correct places in the table.",
-     "solution_md": "A correctly completed table which would score 2 marks would look like:\n\n|   | `He presubscript 2 presuperscript 3` | `He presubscript 2 presuperscript 5` |\n|---|---|---|\n| number of protons | **Final answer:** **2** | **Final answer:** **2** |\n| number of neutrons | **Final answer:** **1** | **Final answer:** **3** |\n\n**Fig 12.2**\n\n- **Top row correct scores one mark**\n- **Bottom row correct scores one mark**\n\n**[Total: 2 marks]**\n\n> *Knowing the structure of different isotopes is a key learning point. The top number is the nucleon number, the total number of protons and neutrons in the nucleus. The bottom number is the number of protons in the nucleus. This tells us which element it is.*"
+     "problem_md": "**Extract:**\n\nFig. 12.1 shows a diagram to represent a helium atom, and an incomplete key.\n\nThe table in Fig. 12.2 compares two isotopes of helium.\n\n|   | $He_{2}^{3}$ | $He_{2}^{5}$ |\n|---|---|---|\n| number of protons |   |   |\n| number of neutrons |   |   |\n\n**Fig 12.2**\n\nFor each isotope, write the number of protons and the number of neutrons in the correct places in the table.",
+     "solution_md": "A correctly completed table which would score 2 marks would look like:\n\n|   | $He_{2}^{3}$ | $He_{2}^{5}$ |\n|---|---|---|\n| number of protons | **Final answer:** **2** | **Final answer:** **2** |\n| number of neutrons | **Final answer:** **1** | **Final answer:** **3** |\n\n**Fig 12.2**\n\n- **Top row correct scores one mark**\n- **Bottom row correct scores one mark**\n\n**[Total: 2 marks]**\n\n> *Knowing the structure of different isotopes is a key learning point. The top number is the nucleon number, the total number of protons and neutrons in the nucleus. The bottom number is the number of protons in the nucleus. This tells us which element it is.*"
     },
     {
      "id": "qstnprt_f6zQBgpDgshNXWY4",
@@ -2161,26 +2161,26 @@
      ],
      "part_tier": null,
      "problem_md": "**Extended tier only**\n\nFig 1.1 shows a neutron colliding with a nucleus of uranium-235, producing a number of products.\n\n![5-1-5a-h-uranium-235-fission-chain-reaction-sq-igcse](assets/017-5-1-5a-h-uranium-235-fission-chain-reaction-sq-i.png)\n\n(i) Name the process shown in the diagram.\n\n[1]\n\n(ii) Complete, using nuclide notation, the equation that represents the reaction shown in Fig 1.1.\n\n![fission-reaction](assets/018-fission-reaction.png)\n\n[3]",
-     "solution_md": "(i) The process shown in the diagram is:\n\n- Nuclear <u>fission</u>; **[1 mark]**\n\n(ii) The correct equation for this fission reaction is as follows:\n\n`n _ 0 ^ 1 + U _ 92 ^ 235 -> Ba _ 56 ^ 141 + Kr _ 36 ^ 92 + 3 n _ 0 ^ 1`\n\n- Correct notation for `n presubscript bold 0 presuperscript bold 1`, `U _ 92 ^ 235` **AND** `3 n _ 0 ^ 1`; **[1 mark]**\n- Correct calculation of 141, `Ba presubscript 56 presuperscript bold 141`; **[1 mark]**\n- Correct calculation of 36, `Kr presubscript bold 36 presuperscript 92`; **[1 mark]**\n\n*Example of calculation:*\n\n- Nucleon number:  1 + 235 = Ba + 92 + 3\n\n  - Therefore, Ba = (1 + 235) − (92 + 3) = 141\n\n- Atomic number:  92 = 56 + Kr\n\n  - Therefore, Kr = 92 − 56 = 36\n\n**[Total: 4 marks]**",
+     "solution_md": "(i) The process shown in the diagram is:\n\n- Nuclear <u>fission</u>; **[1 mark]**\n\n(ii) The correct equation for this fission reaction is as follows:\n\n`n _ 0 ^ 1 + U _ 92 ^ 235 -> Ba _ 56 ^ 141 + Kr _ 36 ^ 92 + 3 n _ 0 ^ 1`\n\n- Correct notation for $n pre_{0} pre^{1}$, `U _ 92 ^ 235` **AND** `3 n _ 0 ^ 1`; **[1 mark]**\n- Correct calculation of 141, $\\text{Ba} pre_{56} pre^{141}$; **[1 mark]**\n- Correct calculation of 36, $\\text{Kr} pre_{36} pre^{92}$; **[1 mark]**\n\n*Example of calculation:*\n\n- Nucleon number:  1 + 235 = Ba + 92 + 3\n\n  - Therefore, Ba = (1 + 235) − (92 + 3) = 141\n\n- Atomic number:  92 = 56 + Kr\n\n  - Therefore, Kr = 92 − 56 = 36\n\n**[Total: 4 marks]**",
      "equations": [
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight n presubscript 0 presuperscript 1 space plus space straight U presubscript 92 presuperscript 235 space rightwards arrow Ba presubscript 56 presuperscript 141 space plus space Kr presubscript 36 presuperscript 92 space plus space 3 space straight n presubscript 0 presuperscript 1",
+       "alt": "n _ 0 ^ 1 + U _ 92 ^ 235 -> Ba _ 56 ^ 141 + Kr _ 36 ^ 92 + 3 n _ 0 ^ 1",
        "render": "`n _ 0 ^ 1 + U _ 92 ^ 235 -> Ba _ 56 ^ 141 + Kr _ 36 ^ 92 + 3 n _ 0 ^ 1`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight U presubscript 92 presuperscript bold 235",
+       "alt": "U _ 92 ^ 235",
        "render": "`U _ 92 ^ 235`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "bold 3 bold space straight n presubscript bold 0 presuperscript bold 1",
+       "alt": "3 n _ 0 ^ 1",
        "render": "`3 n _ 0 ^ 1`",
        "via": "alt-transpile"
       }
@@ -2256,7 +2256,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight C presubscript 6 presuperscript 14",
+       "alt": "C _ 6 ^ 14",
        "render": "`C _ 6 ^ 14`",
        "via": "alt-transpile"
       }
@@ -2346,34 +2346,34 @@
       "spcpt_9dP28GSfKJRhp9yB"
      ],
      "part_tier": null,
-     "problem_md": "**Extract:**\n\nIsotope X has 13 nucleons therefore, atomic number, A = 13\nIsotope X has 5 protons, therefore, proton number, Z = 5\nHence, the nuclide notation is: X presubscript 5 presuperscript 13\nRecall the nuclide notation for a β-particle: beta presubscript −1 presuperscript 0\nConsider the radioactive decay equation:\nX presubscript 5 presuperscript 13 → beta presubscript −1 presuperscript 0 + Y presubscript ? presuperscript ?\nBalance the atomic and proton numbers for both sides of the equation:\nAtomic numbers: 13 = 0 + ?\nHence, atomic number for Y = 13\nProton numbers: 5 = −1 + ?\n5 + 1 = ?\nHence, proton number = 6\nObtain the nuclide notation for Y:\nY presubscript 6 presuperscript 13\n\nThe isotope of element X is radioactive. It decays to form an isotope of element Y by emitting a β-particle.\n\n(i) Using Fig. 10.1 deduce the nuclide notation for the isotope of Y produced by this decay.\n\nnuclide notation: `Y presubscript..... end presubscript presuperscript..... end presuperscript` [3]\n\n(ii) β-particles ionise the air they pass through less strongly than the same number of α-particles.\n\nSuggest why this is so.\n\n[3]",
+     "problem_md": "**Extract:**\n\nIsotope X has 13 nucleons therefore, atomic number, A = 13\nIsotope X has 5 protons, therefore, proton number, Z = 5\n`Hence, the nuclide notation is: X _ 5 ^ 13`\n`Recall the nuclide notation for a β-particle: beta _ −1 ^ 0`\nConsider the radioactive decay equation:\n`X _ 5 ^ 13 → beta _ −1 ^ 0 + Y _ ? ^ ?`\nBalance the atomic and proton numbers for both sides of the equation:\nAtomic numbers: 13 = 0 + ?\nHence, atomic number for Y = 13\nProton numbers: 5 = −1 + ?\n5 + 1 = ?\nHence, proton number = 6\nObtain the nuclide notation for Y:\n$Y_{6}^{13}$\n\nThe isotope of element X is radioactive. It decays to form an isotope of element Y by emitting a β-particle.\n\n(i) Using Fig. 10.1 deduce the nuclide notation for the isotope of Y produced by this decay.\n\nnuclide notation: `Y _..... ^.....` [3]\n\n(ii) β-particles ionise the air they pass through less strongly than the same number of α-particles.\n\nSuggest why this is so.\n\n[3]",
      "solution_md": "(i) Deduce the nuclide notation for the isotope of Y produced by this decay:\n\nDenote the nuclide notation for isotope X:\n\n- Isotope X has 13 nucleons therefore, atomic number, *A* = 13\n- Isotope X has 5 protons, therefore, proton number, Z = 5\n- Hence, the nuclide notation is: `X _ 5 ^ 13` **[1 mark]**\n\nRecall the nuclide notation for a β-particle:\n\n- `beta _ - 1 ^ 0` **[1 mark]**\n\nConsider the radioactive decay equation:\n\n- `X _ 5 ^ 13 -> beta _ - sign 1 ^ 0 + Y _ square ^ square`\n\nBalance the atomic and proton numbers for both sides of the equation:\n\n- Atomic numbers: 13 = 0 + ?\n\n  - Hence, atomic number for Y = 13\n- Proton numbers: 5 = −1 + ?\n\n  - 5 + 1 = ?\n  \n    - Hence, proton number = 6\n\nObtain the nuclide notation for Y:\n\n- `Y _ 6 ^ 13` **[1 mark]**\n\n(ii) Suggest why β-particles ionise the air they pass through less strongly than the same number of α-particles:\n\n**Any three from:**\n\n- β-particles have a smaller charge than α-particles; **[1 mark]**\n- β-particles have a smaller mass than α-particles; **[1 mark]**\n- β-particles have less energy than α-particles; **[1 mark]**\n- β-particles travel faster / have less travel time near to the air particles than α-particles; **[1 mark]**\n- β-particles have a smaller effect / force on electrons in the air molecules than α-particles; **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *The trick to answering part (i) correctly is to consider individually the nuclide notation of each term in the decay equation. Then, balance the atomic and proton numbers to deduce **A** and **Z **for Y.*\n\n> *In part (ii) remember ionisation is the process by which an atom becomes negative by gaining electrons, or positive losing electrons. The question tells you that β-particles are more ionising than α-particles, you should refer to this in your answer.*",
      "equations": [
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 5 presuperscript 13",
+       "alt": "X _ 5 ^ 13",
        "render": "`X _ 5 ^ 13`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight beta presubscript negative 1 end presubscript presuperscript 0",
+       "alt": "beta _ - 1 ^ 0",
        "render": "`beta _ - 1 ^ 0`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "X presubscript 5 presuperscript 13 space rightwards arrow space beta presubscript negative sign 1 end presubscript presuperscript 0 space plus scriptbase space Y end scriptbase presubscript square presuperscript square",
+       "alt": "X _ 5 ^ 13 -> beta _ - sign 1 ^ 0 + Y _ square ^ square",
        "render": "`X _ 5 ^ 13 -> beta _ - sign 1 ^ 0 + Y _ square ^ square`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight Y presubscript 6 presuperscript 13",
+       "alt": "straight $Y_{6}^{13}$",
        "render": "`Y _ 6 ^ 13`",
        "via": "alt-transpile"
       }
@@ -2424,8 +2424,8 @@
       "spcpt_9dP28GSfKJRhp9yB"
      ],
      "part_tier": null,
-     "problem_md": "A nucleus of radium-226 has the nuclide notation shown.\n\n`Ra presubscript 88 presuperscript 226`\n\n(i) Determine the number of protons in a nucleus of radium-226.\n\n[1]\n\n(ii) Determine the number of neutrons in a nucleus of radium-226.\n\n[1]\n\n(iii) Radium has another isotope, radium-223.\n\nWrite the nuclide notation for radium-223.\n\n[1]",
-     "solution_md": "(i) The number of protons:\n\nLook for the smaller number in the notation:\n\n- The number of protons is 88; **[1 mark]**\n\n(ii) The number of neutrons:\n\nSubtract the proton or atomic number from the larger number (the total nucleons):\n\n- The number of neutrons is (226 - 88) = 138; **[1 mark]**\n\n(ii) To write the notation for an isotope:\n\nRecall that isotopes have the same number of protons:\n\n- Therefore the notation has the smaller number the same;  `space presubscript 88 presuperscript blank R a`\n\nRecall that the name of the isotope tells the total number of nucleons:\n\n- Therefore the notation for radium-223 will have the larger number as 223\n- The nuclide should be written `space presubscript 88 presuperscript 223 R a` **[1 mark]**\n\n**[Total: 3 marks]**"
+     "problem_md": "A nucleus of radium-226 has the nuclide notation shown.\n\n$Ra_{88}^{226}$\n\n(i) Determine the number of protons in a nucleus of radium-226.\n\n[1]\n\n(ii) Determine the number of neutrons in a nucleus of radium-226.\n\n[1]\n\n(iii) Radium has another isotope, radium-223.\n\nWrite the nuclide notation for radium-223.\n\n[1]",
+     "solution_md": "(i) The number of protons:\n\nLook for the smaller number in the notation:\n\n- The number of protons is 88; **[1 mark]**\n\n(ii) The number of neutrons:\n\nSubtract the proton or atomic number from the larger number (the total nucleons):\n\n- The number of neutrons is (226 - 88) = 138; **[1 mark]**\n\n(ii) To write the notation for an isotope:\n\nRecall that isotopes have the same number of protons:\n\n- Therefore the notation has the smaller number the same;  $pre_{88} pre^{ } R a$\n\nRecall that the name of the isotope tells the total number of nucleons:\n\n- Therefore the notation for radium-223 will have the larger number as 223\n- The nuclide should be written $space_{88}^{223} R a$ **[1 mark]**\n\n**[Total: 3 marks]**"
     },
     {
      "id": "qstnprt_XhNBQ58sszSjjctC",
@@ -2547,35 +2547,35 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "space presubscript 92 presuperscript 235 straight U",
+       "alt": "_ 92 ^ 235 U",
        "render": "$space_{92}^{235} \\mathrm{U}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight U presubscript 92 presuperscript 235 space plus space straight n presubscript square presuperscript square space rightwards arrow Cs presubscript square presuperscript 144 space plus space Rb presubscript 37 presuperscript square space plus space 2 straight n presubscript square presuperscript square",
+       "alt": "U _ 92 ^ 235 + n _ square ^ square -> Cs _ square ^ 144 + Rb _ 37 ^ square + 2 n _ square ^ square",
        "render": "`U _ 92 ^ 235 + n _ square ^ square -> Cs _ square ^ 144 + Rb _ 37 ^ square + 2 n _ square ^ square`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight n presubscript 0 presuperscript 1",
+       "alt": "n _ 0 ^ 1",
        "render": "`n _ 0 ^ 1`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow Cs presubscript square presuperscript 144 space plus space Rb presubscript 37 presuperscript square space plus space 2 straight n presubscript 0 presuperscript 1",
+       "alt": "U _ 92 ^ 235 + n _ 0 ^ 1 -> Cs _ square ^ 144 + Rb _ 37 ^ square + 2 n _ 0 ^ 1",
        "render": "`U _ 92 ^ 235 + n _ 0 ^ 1 -> Cs _ square ^ 144 + Rb _ 37 ^ square + 2 n _ 0 ^ 1`",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow Cs presubscript 55 presuperscript 144 space plus space Rb presubscript 37 presuperscript 90 space plus space 2 straight n presubscript 0 presuperscript 1",
+       "alt": "U _ 92 ^ 235 + n _ 0 ^ 1 -> Cs _ 55 ^ 144 + Rb _ 37 ^ 90 + 2 n _ 0 ^ 1",
        "render": "`U _ 92 ^ 235 + n _ 0 ^ 1 -> Cs _ 55 ^ 144 + Rb _ 37 ^ 90 + 2 n _ 0 ^ 1`",
        "via": "alt-transpile"
       }
@@ -2691,8 +2691,8 @@
       "spcpt_9dP28GSfKJRhp9yB"
      ],
      "part_tier": null,
-     "problem_md": "Table 1.1 describes four nuclides. The nuclide notation for lead-206 is missing.\n\n| name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |\n|---|---|---|---|---|\n| nuclide notation | `Ra presubscript 88 presuperscript 222` | `Rn presubscript 86 presuperscript 222` | `Pb presubscript 82 presuperscript 216` |   |\n\n**Table 1.1**\n\n(i) State which **two** nuclides have the same number of protons.\n\n[1]\n\n(ii) Complete the table by filling in the nuclide notation for lead-206.\n\n[1]",
-     "solution_md": "(i) The nuclides which have the same number of protons are:\n\n- Lead-216 and lead-206;** [1 mark]**\n\n  - Number of protons = bottom number, `Pb presubscript bold 82 presuperscript 216`, `Pb presubscript bold 82 presuperscript 206`\n\n(ii) Complete Table 1.1:\n\n| name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |\n|---|---|---|---|---|\n| nuclide notation | `Ra presubscript 88 presuperscript 222` | `Rn presubscript 86 presuperscript 222` | `Pb presubscript 82 presuperscript 216` | `Pb presubscript bold 82 presuperscript bold 206` |\n\n- Correct notation for lead-206, `Pb presubscript 82 presuperscript 206`; **[1 mark]**\n\n**[Total: 2 marks]**"
+     "problem_md": "Table 1.1 describes four nuclides. The nuclide notation for lead-206 is missing.\n\n| name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |\n|---|---|---|---|---|\n| nuclide notation | $Ra_{88}^{222}$ | $Rn_{86}^{222}$ | $Pb_{82}^{216}$ |   |\n\n**Table 1.1**\n\n(i) State which **two** nuclides have the same number of protons.\n\n[1]\n\n(ii) Complete the table by filling in the nuclide notation for lead-206.\n\n[1]",
+     "solution_md": "(i) The nuclides which have the same number of protons are:\n\n- Lead-216 and lead-206;** [1 mark]**\n\n  - Number of protons = bottom number, $\\text{Pb} pre_{82} pre^{216}$, $\\text{Pb} pre_{82} pre^{206}$\n\n(ii) Complete Table 1.1:\n\n| name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |\n|---|---|---|---|---|\n| nuclide notation | $Ra_{88}^{222}$ | $Rn_{86}^{222}$ | $Pb_{82}^{216}$ | $\\text{Pb} pre_{82} pre^{206}$ |\n\n- Correct notation for lead-206, $Pb_{82}^{206}$; **[1 mark]**\n\n**[Total: 2 marks]**"
     },
     {
      "id": "qstnprt_zkynBt7b4sCkVD4K",
@@ -2712,7 +2712,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\n| name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |\n| nuclide notation | Ra 88 222 | Rn 86 222 | Pb 82 216 | Pb 82 206 |\n- Number of protons = bottom number\n- Number of nucleons = top number\n- Number of neutrons = nucleon number − atomic number\nA neutral atom is one with the same number of protons and electrons (so the overall charge is 0). The nuclide notation above does not show the number of electrons directly, but remember, that for a neutral atom this is just the same as the number of protons!\n\nUsing the information from Table 1.1\n\n(i) State which** two** nuclides have the same number of nucleons.\n\n[1]\n\n(ii) State which **two** nuclides have the same number of neutrons.\n\n[1]\n\n(iii) State which **one** of the four nuclides has the most electrons orbiting when it is in a neutral atom.\n\n[1]",
-     "solution_md": "(i) The nuclides which have the same number of nucleons are:\n\n- Radium-222 and radon-222; **[1 mark]**\n\n  - Nucleon number = top number, `Ra presubscript 88 presuperscript bold 222`, `Rn presubscript 86 presuperscript bold 222`\n\n(ii) The nuclides which have the same number of neutrons are:\n\n- Radium-222 and lead-216; **[1 mark]**\n\n  - Number of neutrons = nucleon number − atomic number\n  - `Ra presubscript bold 88 presuperscript bold 222`: 222 − 88 = 134\n  - `Pb presubscript bold 82 presuperscript bold 216`: 216 − 82 = 134\n\n(iii) The nuclide which has the most electrons is:\n\n- Radium-222; **[1 mark]**\n\n  - Number of electrons = number of protons, `Ra presubscript bold 88 presuperscript 222`\n\n**[Total: 3 marks]**\n\n> *A neutral atom is one with the same number of protons and electrons (so the overall charge is 0). *\n\n> *The nuclide notation above does not show the number of electrons directly, but remember, that for a neutral atom this is just the same as the number of protons!*"
+     "solution_md": "(i) The nuclides which have the same number of nucleons are:\n\n- Radium-222 and radon-222; **[1 mark]**\n\n  - Nucleon number = top number, $\\text{Ra} pre_{88} pre^{222}$, $\\text{Rn} pre_{86} pre^{222}$\n\n(ii) The nuclides which have the same number of neutrons are:\n\n- Radium-222 and lead-216; **[1 mark]**\n\n  - Number of neutrons = nucleon number − atomic number\n  - $\\text{Ra} pre_{88} pre^{222}$: 222 − 88 = 134\n  - $\\text{Pb} pre_{82} pre^{216}$: 216 − 82 = 134\n\n(iii) The nuclide which has the most electrons is:\n\n- Radium-222; **[1 mark]**\n\n  - Number of electrons = number of protons, $\\text{Ra} pre_{88} pre^{222}$\n\n**[Total: 3 marks]**\n\n> *A neutral atom is one with the same number of protons and electrons (so the overall charge is 0). *\n\n> *The nuclide notation above does not show the number of electrons directly, but remember, that for a neutral atom this is just the same as the number of protons!*"
     }
    ]
   }

@@ -36,8 +36,8 @@ guided_study: false
     - Either in degrees or radians
 - The graphs of sin x and cos x are always in the **range -1 ≤ *****y***** ≤ 1**
 
-  - **Domain: **`open curly brackets bold italic x blank vertical line blank bold italic x blank element of blank straight real numbers close curly brackets`
-  - **Range: **`open curly brackets bold italic y blank vertical line−1 blank less or equal than bold italic y blank less or equal than 1 close curly brackets`
+  - **Domain: **$\{ \boldsymbol{x} \vert \boldsymbol{x} \in \mathrm{real} \text{numbers} \}$
+  - **Range: **`{ y _ |−1 _ <= y _ <= 1 }`
   - The graphs of sin x and cos x are identical however one is a **translation **of the other
   
     - sin x passes through the origin
@@ -58,8 +58,8 @@ guided_study: false
   - In radians this is at the points ± $\frac{π}{2}$, ± $\frac{3π}{2}$ etc
 - The range of the graph of tan x is
 
-  - **Domain: **`open curly brackets bold italic x blank vertical line blank bold italic x blank≠bold italic π / 2+bold italic k bold italic π comma blank bold italic k blank ∈ blank straight integer numbers close curly brackets`** **
-  - **Range: **`open curly brackets bold italic y blank vertical line blank bold italic y blank element of blank straight real numbers close curly brackets`
+  - **Domain: **$\{ \boldsymbol{x} \vert \boldsymbol{x} ≠ π / 2+ \boldsymbol{k} π , \boldsymbol{k} ∈ \mathrm{integer} \text{numbers} \}$** **
+  - **Range: **$\{ \boldsymbol{y} \vert \boldsymbol{y} \in \mathrm{real} \text{numbers} \}$
 
 ![Graphs of sin, cos, and tan](../../../assets/8475160651c6-5-2-1-graphs-of-trigonometric-functions-diagram-.png)
 

@@ -10,7 +10,7 @@
 
 **Q1** [3 marks]
 
-$P$ is the point `open parentheses 3 comma space 14 close parentheses` and $Q$ is the point `open parentheses negative 1 comma space 2 close parentheses`.
+$P$ is the point $( 3 , 14 )$ and $Q$ is the point $( - 1 , 2 )$.
 
 Calculate the length of $PQ$.
 
@@ -20,7 +20,7 @@ Calculate the length of $PQ$.
 
 \[P\] is the point \[\left(3 , 14\right)\] and \[Q\] is the point \[\left(- 1 , 2\right)\].
 
-Find the equation of the line that is perpendicular to $PQ$ and that passes through the point `open parentheses negative 6 comma space 7 close parentheses`.
+Find the equation of the line that is perpendicular to $PQ$ and that passes through the point $( - 6 , 7 )$.
 
 Give your answer in the form $y=mx+c$.
 
@@ -28,9 +28,9 @@ Give your answer in the form $y=mx+c$.
 
 **Q2** [2 marks]
 
-Point $A$ has coordinates `open parentheses negative 3 comma space 5 close parentheses`.
+Point $A$ has coordinates $( - 3 , 5 )$.
 
-Point $B$ has coordinates `open parentheses 9 comma space 10 close parentheses`.
+Point $B$ has coordinates $( 9 , 10 )$.
 
 Work out the midpoint of the two points.
 
@@ -42,7 +42,7 @@ Find the length between the points $A$ and $B$.
 
 **Q3** [7 marks]
 
-The graphs of `space y equals open parentheses x minus 1 close parentheses squared space` and $y=\frac{1}{2}x+1$ intersect at *A* and *B*.
+The graphs of $y = ( x - 1 )^{2}$ and $y=\frac{1}{2}x+1$ intersect at *A* and *B*.
 
 Find the length of *AB*.
 

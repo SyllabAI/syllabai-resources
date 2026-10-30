@@ -202,13 +202,13 @@ $x=\frac{7}{18}$ **[1]**
 
 $\begin{gathered} x = 0. \dot{6} \dot{3} \textcircled{1} \end{gathered}$
 
-> *Now you need to multiply by powers of 10, to make everything after the decimal point identical to that in equation *`circle enclose 1`* In this case, multiplying by 10 gives you *$6. \dot{3} \dot{6}$*, which doesn't help!*
+> *Now you need to multiply by powers of 10, to make everything after the decimal point identical to that in equation *$\textcircled{1}$* In this case, multiplying by 10 gives you *$6. \dot{3} \dot{6}$*, which doesn't help!*
 
 > *So multiply by 100...*
 
 $100 x = 63. \dot{6} \dot{3} \textcircled{2}$
 
-> `circle enclose 2 minus circle enclose 1`* to eliminate everything after the decimal point*
+> $\textcircled{2} - \textcircled{1}$* to eliminate everything after the decimal point*
 
 $\begin{gathered} 99 x & = 63 \\ x = \frac{63}{99} \end{gathered}$
 

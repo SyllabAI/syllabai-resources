@@ -195,13 +195,13 @@ $\mathrm{X} pre_{Z} pre^{A} \rightarrow \mathrm{X} pre_{Z} pre^{A} + \ \\gamma p
 > **Worked Example**
 > A nucleus with 84 protons and 126 neutrons undergoes alpha decay. It forms lead, which has the element symbol Pb.
 > 
-> **A  **`Pb presubscript 82 presuperscript 206`
+> **A  **$Pb_{82}^{206}$
 > 
-> **B  **`Pb presubscript 82 presuperscript 208`
+> **B  **$Pb_{82}^{208}$
 > 
-> **C  **`Pb presubscript 84 presuperscript 210`
+> **C  **$Pb_{84}^{210}$
 > 
-> **D  **`Pb presubscript 86 presuperscript 214`
+> **D  **$Pb_{86}^{214}$
 > 
 > Which isotope of lead pictured is the correct one formed during the decay?
 > 
@@ -241,13 +241,13 @@ $\mathrm{X} pre_{Z} pre^{A} \rightarrow \mathrm{X} pre_{Z} pre^{A} + \ \\gamma p
 > **Worked Example**
 > A nucleus with 11 protons and 13 neutrons undergoes beta decay. It forms magnesium, which has the element symbol Mg.
 > 
-> **A  **`Mg presubscript 9 presuperscript 20`
+> **A  **$Mg_{9}^{20}$
 > 
-> **B  **`Mg presubscript 10 presuperscript 24`
+> **B  **$Mg_{10}^{24}$
 > 
-> **C  **`Mg presubscript 11 presuperscript 23`
+> **C  **$Mg_{11}^{23}$
 > 
-> **D  **`Mg presubscript 12 presuperscript 24`
+> **D  **$Mg_{12}^{24}$
 > 
 > Which is the correct isotope of magnesium formed during the decay?
 > 

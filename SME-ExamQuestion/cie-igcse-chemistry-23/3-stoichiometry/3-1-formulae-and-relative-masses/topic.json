@@ -579,7 +579,7 @@
       {
        "latex": "\\frac{51}{1.2}=42.5",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac ><mn>51</mn><mrow><mn>1</mn><mo>.</mo><mn>2</mn></mrow></mfrac><mo >=</mo><mn >42</mn><mo >.</mo><mn >5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 51 over denominator 1.2 end fraction equals 42.5"
+       "alt": "(51)/(1.2) = 42.5"
       }
      ]
     }
@@ -1093,12 +1093,12 @@
       {
        "latex": "\\frac{16\\times6}{331}\\times100",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>16</mn><mo>×</mo><mn>6</mn></mrow><mn>331</mn></mfrac><mo>×</mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 16 cross times 6 over denominator 331 end fraction cross times 100"
+       "alt": "(16 x 6)/(331) x 100"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "percent sign space mass space of space an space element equals fraction numerator A subscript straight r cross times number space of space atoms space of space the space element over denominator M subscript straight r space of space the space compound end fraction cross times 100",
+       "alt": "% mass of an element = (A _ r x number of atoms of the element)/(M _ r of the compound) x 100",
        "render": "`% mass of an element = (A _ r x number of atoms of the element)/(M _ r of the compound) x 100`",
        "via": "alt-transpile"
       }
@@ -1433,7 +1433,7 @@
       {
        "latex": "\\frac{\\mathrm{mass} \\mathrm{of} \\mathrm{copper}}{\\mathrm{mass} \\mathrm{of} \\mathrm{copper}(\\mathrm{II})\\mathrm{oxide}}\\times100",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mi>mass</mi><mo> </mo><mi>of</mi><mo> </mo><mi>copper</mi></mrow><mrow><mi>mass</mi><mo> </mo><mi>of</mi><mo> </mo><mi>copper</mi><mo>(</mo><mi>II</mi><mo>)</mo><mo> </mo><mi>oxide</mi></mrow></mfrac><mo > </mo><mo >×</mo><mo > </mo><mn >100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator mass space of space copper over denominator mass space of space copper left parenthesis II right parenthesis space oxide end fraction space cross times space 100"
+       "alt": "(mass of copper)/(mass of copper ( II ) oxide) x 100"
       }
      ]
     }
@@ -1488,31 +1488,31 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "fraction numerator open parentheses 69 space straight x space 63.25 close parentheses plus space open parentheses straight M space straight x space 36.75 close parentheses over denominator 100 end fraction equals space 69.735",
+       "alt": "(( 69 x 63.25 ) + ( M x 36.75 ))/(100) = 69.735",
        "render": "$\\frac{( 69 \\mathrm{x} 63.25 ) + ( \\mathrm{M} \\mathrm{x} 36.75 )}{100} = 69.735$",
        "via": "alt-transpile"
       },
       {
        "latex": "43.64+\\frac{36.75M}{100}=69.735",
        "mathml": "<math class=\"wrs_chemistry\" style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mn>43</mn><mo>.</mo><mn>64</mn><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><mn>36</mn><mo>.</mo><mn>75</mn><mo> </mo><mi mathvariant=\"normal\">M</mi></mrow><mn>100</mn></mfrac><mo>=</mo><mo> </mo><mn>69</mn><mo>.</mo><mn>735</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "43.64 space plus space fraction numerator 36.75 space straight M over denominator 100 end fraction equals space 69.735"
+       "alt": "43.64 + (36.75 M)/(100) = 69.735"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "fraction numerator open parentheses abundance space of space isotope space 1 space straight x space mass space number close parentheses plus open parentheses abundance space of space isotope space 2 space straight x space mass space number close parentheses over denominator 100 end fraction",
+       "alt": "(( abundance of isotope 1 x mass number ) + ( abundance of isotope 2 x mass number ))/(100)",
        "render": "$\\frac{ ( \\text{abundance} of \\text{isotope} 1 \\mathrm{x} \\text{mass} \\text{number} ) + ( \\text{abundance} of \\text{isotope} 2 \\mathrm{x} \\text{mass} \\text{number} ) }{100}$",
        "via": "alt-transpile"
       },
       {
        "latex": "\\frac{(69x63.25)+(Mx36.75)}{100}=69.735",
        "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mrow><mo stretchy=\"true\">(</mo><mn>69</mn><mo> </mo><mi mathvariant=\"normal\">x</mi><mo> </mo><mn>63</mn><mo>.</mo><mn>25</mn><mo stretchy=\"true\">)</mo></mrow><mo>+</mo><mo> </mo><mo stretchy=\"true\">(</mo><mi mathvariant=\"normal\">M</mi><mo> </mo><mi mathvariant=\"normal\">x</mi><mo> </mo><mn>36</mn><mo>.</mo><mn>75</mn><mo stretchy=\"true\">)</mo></mrow><mn>100</mn></mfrac><mo >=</mo><mo > </mo><mn >69</mn><mo >.</mo><mn >735</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator stretchy left parenthesis 69 space straight x space 63.25 stretchy right parenthesis plus space stretchy left parenthesis straight M space straight x space 36.75 stretchy right parenthesis over denominator 100 end fraction equals space 69.735"
+       "alt": "$\\frac{( 69 \\mathrm{x} 63.25 ) + ( \\mathrm{M} \\mathrm{x} 36.75 )}{100} = 69.735$"
       },
       {
        "latex": "\\frac{2609.25}{36.75}",
        "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mrow><mn>2609</mn><mo>.</mo><mn>25</mn></mrow><mrow><mn>36</mn><mo>.</mo><mn>75</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2609.25 over denominator 36.75 end fraction"
+       "alt": "(2609.25)/(36.75)"
       }
      ]
     },
@@ -1557,12 +1557,12 @@
       {
        "latex": "\\frac{18}{12}",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>18</mn><mn>12</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 14px style 18 over 12 end style"
+       "alt": "18 / 12"
       },
       {
        "latex": "\\frac{9}{1}",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>9</mn><mn>1</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 14px style 9 over 1 end style"
+       "alt": "9 / 1"
       },
       {
        "latex": "\\frac{73}{16}",
@@ -2041,7 +2041,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "straight X presubscript 16 presuperscript 34",
+       "alt": "X _ 16 ^ 34",
        "render": "`X _ 16 ^ 34`",
        "via": "alt-transpile"
       }
@@ -2174,7 +2174,7 @@
       {
        "latex": "\\frac{4\\times35.5}{190}\\times100",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>4</mn><mo>×</mo><mn>35</mn><mo>.</mo><mn>5</mn></mrow><mn>190</mn></mfrac><mo>×</mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 4 cross times 35.5 over denominator 190 end fraction cross times 100"
+       "alt": "(4 x 35.5)/(190) x 100"
       }
      ]
     }
@@ -2490,12 +2490,12 @@
       {
        "latex": "\\frac{A_{r}\\times\\mathrm{number} \\mathrm{of} \\mathrm{atoms}}{M_{r}\\mathrm{of} \\mathrm{the} \\mathrm{compound}}\\times100",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub><mo>×</mo><mo> </mo><mi>number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>atoms</mi></mrow><mrow><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub><mo> </mo><mi>of</mi><mo> </mo><mi>the</mi><mo> </mo><mi>compound</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator A subscript straight r cross times space number space of space atoms over denominator M subscript straight r space of space the space compound end fraction space cross times space 100"
+       "alt": "(A _ r x number of atoms)/(M _ r of the compound) x 100"
       },
       {
        "latex": "\\frac{(16\\times3)}{100}\\times100",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mo>(</mo><mn>16</mn><mo>×</mo><mn>3</mn><mo>)</mo></mrow><mn>100</mn></mfrac><mo>×</mo><mn>100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator left parenthesis 16 cross times 3 right parenthesis over denominator 100 end fraction cross times 100"
+       "alt": "(( 16 x 3 ))/(100) x 100"
       }
      ]
     }

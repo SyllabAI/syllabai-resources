@@ -133,7 +133,7 @@ $120-25=95$
 
 > *Determine the number of people who play golf and tennis by finding the difference between the number of people who play golf (*$75$*) added to the number of people who play tennis (*$50$*), and the calculated number of people who play golf or tennis (*$95$*)*
 
-`open parentheses 75 plus 50 close parentheses minus 95 equals 30`
+$( 75 + 50 ) - 95 = 30$
 
 > *Write this value into the Venn diagram at the intersection of the two sets*
 
@@ -175,7 +175,7 @@ $30$ **[1]**
 
 **15** **[1]**
 
-** **(iii) `n open parentheses A union B close parentheses`* means the number of students who like apples **or **bananas.*
+** **(iii) $n ( A \cup B )$* means the number of students who like apples **or **bananas.*
 
 > *Add together the three numbers from inside both circles. *
 
@@ -248,7 +248,7 @@ $19-14=5$
 
 > *Add together all the numbers inside the circles and subtract from the total number of students, 40. *
 
-> `40 minus open parentheses 10 plus 14 plus 5 close parentheses equals 11`* *
+> $40 - ( 10 + 14 + 5 ) = 11$* *
 
 > *Put 11 into the box, outside the circles.*
 

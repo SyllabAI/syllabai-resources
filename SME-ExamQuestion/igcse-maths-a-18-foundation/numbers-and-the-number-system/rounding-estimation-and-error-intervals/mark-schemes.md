@@ -35,7 +35,7 @@
 ### 1((d)) — 1 marks
 > *Look at the number to the right of the thousands column*
 
-`15 space bottom enclose 7 45`
+`15 bottom 7 45`
 
 > *The 7 in the hundreds column is higher than 5, so round the number in the thousands column up*
 

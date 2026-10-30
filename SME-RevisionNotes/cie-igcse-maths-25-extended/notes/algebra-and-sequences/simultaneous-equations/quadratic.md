@@ -114,8 +114,7 @@ guided_study: true
 > 
 > > *Number the equations*
 > 
-> $\begin{gathered} x^{2} + y^{2} & = 36 \\ x - 2 y & = 6 \end{gathered}$`circle enclose 1
-> circle enclose 2`* *
+> $\begin{gathered} x^{2} + y^{2} & = 36 \\ x - 2 y & = 6 \end{gathered}$$\textcircled{1} \textcircled{2}$* *
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution*
 > 

@@ -105,7 +105,7 @@ $\mathrm{number} \mathrm{of} \mathrm{neutrons}=\mathrm{nucleon} \mathrm{number}-
 > **Worked Example**
 > The element symbol for gold is Au. How many protons, neutrons and electrons are in the gold atom?
 > 
-> `Au presubscript 79 presuperscript 197`
+> $Au_{79}^{197}$
 > 
 > | ** ** | **Protons** | **Neutrons** | **Electrons** |
 > |---|---|---|---|

@@ -314,9 +314,7 @@ $=680\times12\,\,=8,160\mathrm{ISK}$      **[1 mark]**
 ### 1((e)) — 2 marks
 **Method 1:**
 
-`equals space $ 15 comma 750 space cross times space 0.14
-
-equals space $ 2 comma 205`      **[1 mark]**
+$= \$ 15 , 750 \\times 0.14 = \$ 2 , 205$      **[1 mark]**
 
 `equals space $ 15 comma 750 space plus space $ 2 comma 205
 
@@ -324,9 +322,7 @@ equals space $ 17 comma 955`      **[1 mark]**
 
 **Method 2:**
 
-`equals space $ 15 comma 750 space cross times space 1.14
-
-equals space $ 17 comma 955`     **[2 marks]**
+$= \$ 15 , 750 \\times 1.14 = \$ 17 , 955$     **[2 marks]**
 
 **Final answer:** **\$17 955**
 

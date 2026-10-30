@@ -56,7 +56,7 @@ CH<sub>3</sub>OH + 1½O2 → CO<sub>2 </sub>+ 2H<sub>2</sub>O
 ### 19((c)) — 3 marks — command: calculate — structured — from paper Oct 2021 · WCH12/01
 Enthalpy changes of combustion can be used to calculate the enthalpy change of formation of a compound.
 
-| **Substance** | **Standard enthalpy change of combustion, ∆**<sub>**c**</sub>`bold italic H to the power of bold ⦵`**/ kJ mol**<sup>**−1**</sup> |
+| **Substance** | **Standard enthalpy change of combustion, ∆**<sub>**c**</sub>`H ^ ⦵`**/ kJ mol**<sup>**−1**</sup> |
 |---|---|
 | C (s,graphite) | – 394 |
 | H<sub>2 </sub>(g) | – 286 |
@@ -132,15 +132,15 @@ Give a sign and units in your answer.
 **(4)**
 
 ### 21((b)) — 5 marks — command: multiple — structured — from paper Jan 2022 · WCH12/01
-The standard enthalpy change of combustion, Δ<sub>c</sub>`H to the power of ⦵`, can be calculated using standard enthalpy changes of formation.
+The standard enthalpy change of combustion, Δ<sub>c</sub>`H ^ ⦵`, can be calculated using standard enthalpy changes of formation.
 
-| **Compound** | **∆**<sub>**f**</sub>`H to the power of ⦵`**/ kJ mol**<sup>**−1**</sup> |
+| **Compound** | **∆**<sub>**f**</sub>`H ^ ⦵`**/ kJ mol**<sup>**−1**</sup> |
 |---|---|
 | 2‐methylpropan‐2‐ol | –359 |
 | carbon dioxide | –394 |
 | water | –286 |
 
-i) State why no ∆<sub>f</sub>`H to the power of ⦵`value has been given for oxygen.
+i) State why no ∆<sub>f</sub>`H ^ ⦵`value has been given for oxygen.
 
 **(1)**
 
@@ -155,7 +155,7 @@ iii) Calculate the standard enthalpy change of combustion of 2‐methylpropan‐
 **(2)**
 
 ### 21((c)) — 2 marks — command: suggest — structured — from paper Jan 2022 · WCH12/01
-The value for Δ<sub>c</sub>*H* obtained in part (a)(ii) is much less exothermic than Δ<sub>c</sub>`H to the power of ⦵`calculated in (b)(iii).
+The value for Δ<sub>c</sub>*H* obtained in part (a)(ii) is much less exothermic than Δ<sub>c</sub>`H ^ ⦵`calculated in (b)(iii).
 
 Suggest **two** reasons for this other than non‐standard conditions.
 

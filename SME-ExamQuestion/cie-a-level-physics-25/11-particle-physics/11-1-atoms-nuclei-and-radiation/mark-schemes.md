@@ -8,7 +8,7 @@
 ### Q1
 **Final answer:** **The correct answer is ****C because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
@@ -32,7 +32,7 @@
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`
 - The mass is not changed, but the proton number increases by one and the number of neutrons decrease by one
 
-  - Nucleus X goes from  `X presubscript 90 presuperscript 234` and undergoes two β<sup>− </sup>decays
+  - Nucleus X goes from  $X_{90}^{234}$ and undergoes two β<sup>− </sup>decays
   - The nucleon number will not change, so, it will still be 234
   - The proton number will increase by two, so, it will be 92
 - Therefore, option **C** correct
@@ -44,10 +44,10 @@
 
 ![cie-ial-mcq-11-1---q14](assets/002-cie-ial-mcq-11-1-q14.png)
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - It is absorbed by card and has a positive charge
-- A β<sup>−</sup> particle is made of an electron, `beta presubscript negative 1 end presubscript presuperscript 0`
+- A β<sup>−</sup> particle is made of an electron, `beta _ - 1 ^ 0`
 
   - It is absorbed by aluminium and is negatively charged
 - A γ-ray is an electromagnetic wave
@@ -58,7 +58,7 @@
 **Final answer:** **The correct answer is ****B**** because:**
 
 - The question states that after decay it is an isotope of thorium which has a proton number of 90
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 232 – 228 = 4, so, two neutrons and two protons are emitted
@@ -83,7 +83,7 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q5
 **Final answer:** **The correct answer is ****A because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
@@ -91,7 +91,7 @@ Therefore, one alpha particle and two beta particles are emitted
 
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`
 - The mass is not changed, but the proton number increases by one and the number of neutrons decrease by one
-- Astatine decays to form polonium emitting an `beta presubscript negative 1 end presubscript presuperscript 0` and `alpha presubscript 2 presuperscript 4`
+- Astatine decays to form polonium emitting an `beta _ - 1 ^ 0` and $alpha_{2}^{4}$
 
   - Stage 1 : `A _ 85 ^ 218 t -> X _ 86 ^ 218 + beta _ - 1 ^ 0`
   - Stage 2 : $X_{86}^{218} \rightarrow P_{84}^{214} o + \\alpha pre_{2} pre^{4}$
@@ -99,14 +99,14 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q6
 **Final answer:** **The correct answer is ****A**** because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - In β<sup>−</sup> decay, a neutron decays to become a proton, β<sup>−</sup> particle `( beta _ - 1 ^ 0 )` and antineutrino $( \bar{v}_{e} )$
 
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ e`
   - The mass is not changed, but the proton number increases by one
-- The original nucleus Q will contain `X presubscript A presuperscript Z` protons and neutrons
+- The original nucleus Q will contain $X pre_{A} pre^{Z}$ protons and neutrons
 
   - `Q -> R + alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0`
 - Isotopes are nuclei with the same proton number and a different number of neutrons and therefore mass
@@ -149,7 +149,7 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q8
 **Final answer:** **The correct answer is ****D**** because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4 making this 235
@@ -177,8 +177,8 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q10
 **Final answer:** **The correct answer is ****A**** because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
-- When the `A presubscript 13 presuperscript 27 l` is bombarded with these particles the nuclei increases in mass and proton number as shown in the equation
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
+- When the $A_{13}^{27} l$ is bombarded with these particles the nuclei increases in mass and proton number as shown in the equation
 
   - $A_{13}^{27} l + \\alpha pre_{2} pre^{4} \rightarrow P_{15}^{30} + X pre_{A} pre^{Z}$
 - 27 + 4 = 30 + Z
@@ -187,7 +187,7 @@ Therefore, one alpha particle and two beta particles are emitted
 - 13 + 2 = 15 + A
 
   - So, A = 0
-- Therefore, `X presubscript 0 presuperscript 1` is a neutron
+- Therefore, $X_{0}^{1}$ is a neutron
 
 ### Q11
 **Final answer:** **The correct answer is ****C**** because:**
@@ -206,7 +206,7 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q12
 **Final answer:** **The correct answer is ****C because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
@@ -222,7 +222,7 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q13
 **Final answer:** **The correct answer is ****B**** because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
   - $U_{92}^{258} \rightarrow X_{90}^{254} + \\alpha pre_{2} pre^{4}$
@@ -236,12 +236,12 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q14
 **Final answer:** **The correct answer is ****B**** because:**
 
-- An *α*-particle is a helium nucleus, which is represented by `H presubscript 2 presuperscript 4 e`
-- A neutron is represented by `n presubscript 0 presuperscript 1`
+- An *α*-particle is a helium nucleus, which is represented by $H_{2}^{4} e$
+- A neutron is represented by $n_{0}^{1}$
 - Since the *α*-particle is supposed to cause the reaction, it should appear on the left of the equation as a reactant
 
   - Hence, only option **A** or **B** can be correct
-- In option **A**, the symbol of the neutron is wrongly represented as `n presubscript 1 presuperscript 1`
+- In option **A**, the symbol of the neutron is wrongly represented as $n_{1}^{1}$
 
   - Therefore, since option **A** is not possible, this leaves only option **B**
 - We can confirm this by comparing the nucleon numbers on each side
@@ -250,7 +250,7 @@ Therefore, one alpha particle and two beta particles are emitted
   - RHS: 20 + 1 = 21
 - Nucleon number is conserved, so option **B** is correct
 
-**A** is incorrect because the symbol of the neutron is wrongly represented as `n presubscript 1 presuperscript 1`
+**A** is incorrect because the symbol of the neutron is wrongly represented as $n_{1}^{1}$
 
 **C & D **are incorrect because the *α*-particle causes the reaction, so, it should appear on the left of the equation as a reactant
 
@@ -272,7 +272,7 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q16
 **Final answer:** **The correct answer is ****D**** because:**
 
-- During *α*-decay, a helium nucleus `H presubscript 2 presuperscript 4 e` is released from each starting atom
+- During *α*-decay, a helium nucleus $H_{2}^{4} e$ is released from each starting atom
 
   - The mass number decreases by 4 and the proton number by 2
 - During *β* radiation, an electron (or positron) is released
@@ -281,7 +281,7 @@ Therefore, one alpha particle and two beta particles are emitted
   - There is no change in atomic number
 - During *γ* radiation, *γ* rays are emitted but there is no change in atomic or proton number
 - We can draw a flow diagram of the processes involved: `T _ 90 ^ 232 h -> with alpha on top R _ 88 ^ 228 a -> with beta on top A _ 89 ^ 228 c -> with beta on top T _ 90 ^ 228 h -> with gamma on top T _ 90 ^ 228 h -> with alpha on top R _ 88 ^ 224 a`
-- Therefore, the end nuclide is `R presubscript 88 presuperscript 224 a`
+- Therefore, the end nuclide is $R_{88}^{224} a$
 
 ### Q17
 **Final answer:** **The correct answer is ****D**** because:**
@@ -290,7 +290,7 @@ Therefore, one alpha particle and two beta particles are emitted
 
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`
 - The mass is not changed, but the proton number increases by one and the number of neutrons decrease by one
-- This type of decay would result  `L presubscript 3 presuperscript 8 i` in having one extra proton and one less neutron, so, the only correct option is **D**
+- This type of decay would result  $L_{3}^{8} i$ in having one extra proton and one less neutron, so, the only correct option is **D**
 
 ### Q18
 **Final answer:** **The correct answer is ****C**** because:**
@@ -365,7 +365,7 @@ Therefore, one alpha particle and two beta particles are emitted
 
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`
 - The mass is not changed, but the proton number increases by one and the number of neutrons decrease by one
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
@@ -381,19 +381,19 @@ Therefore, one alpha particle and two beta particles are emitted
 
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`
 - The mass is not changed, but the proton number increases by one and the number of neutrons decrease by one
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
 - The difference in mass between
 
-  - `R presubscript 86 presuperscript 222 n` and `P presubscript 82 presuperscript 206 b` is 222 – 206 = 16
+  - $R_{86}^{222} n$ and $P_{82}^{206} b$ is 222 – 206 = 16
 - As beta decay does not decrease mass, the change must be due to alpha decay
 
   - Number of alpha particles released$=\frac{16}{4}=4$
 - The difference in atomic number
 
-  - `R presubscript 86 presuperscript 222 n` and `P presubscript 82 presuperscript 206 b` is 86 – 82 = 4
+  - $R_{86}^{222} n$ and $P_{82}^{206} b$ is 86 – 82 = 4
   - The four alpha particles released would have emitted 4 × 2 = 8 protons
 - The number of beta particles released must, therefore, be 4 to increase the proton number to 82
 
@@ -402,8 +402,8 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q24
 **Final answer:** **The correct answer is ****B**** because:**
 
-- When E absorbs a neutron the new isotope is `E presubscript 14 presuperscript 29`
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- When E absorbs a neutron the new isotope is $E_{14}^{29}$
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - When the new isotope emits an alpha particle, the nucleon number is reduced by 4
@@ -418,12 +418,12 @@ Therefore, one alpha particle and two beta particles are emitted
 
 **C **is incorrect as nuclei G and M have different proton numbers making them different atoms not isotopes
 
-**D **is incorrect as in β<sup>−</sup> decay, a neutron decays to become a proton and emits a β<sup>− </sup>particle and an anti-electron neutrino. The mass is not changed, but the proton number increases by one. Nucleus M after β<sup>−</sup> decay would be `X presubscript 13 presuperscript 25`
+**D **is incorrect as in β<sup>−</sup> decay, a neutron decays to become a proton and emits a β<sup>− </sup>particle and an anti-electron neutrino. The mass is not changed, but the proton number increases by one. Nucleus M after β<sup>−</sup> decay would be $X_{13}^{25}$
 
 ### Q25
 **Final answer:** **The correct answer is ****C**** because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - α-particles have a slower speed than that of gamma or beta due to its mass
@@ -459,7 +459,7 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q28
 **Final answer:** **The correct answer is ****B**** because:**
 
-- The symbol `C presubscript 55 presuperscript 133 s`  give the mass number of 133 and an atomic number of 55
+- The symbol $C_{55}^{133} s$  give the mass number of 133 and an atomic number of 55
 
   - So, the nucleus contains 55 protons
 - As the atom is neutral the number of electrons will be 55
@@ -501,7 +501,7 @@ Therefore, one alpha particle and two beta particles are emitted
 
 - When α-decay occurs
 
-  - A helium `H presubscript 2 presuperscript 4 e` particle is emitted
+  - A helium $H_{2}^{4} e$ particle is emitted
   - The atomic number decreases by two and the mass number by four
 - When β<sup>− </sup>-decay occurs
 
@@ -512,12 +512,12 @@ Therefore, one alpha particle and two beta particles are emitted
   - A γ ray is emitted so there is no change in the mass or atomic number
 - The end nuclide is Thorium-228
 
-  - The isotope can be written as `T presubscript 90 presuperscript 228 h`
-- The flow diagram for the decay of `X presubscript Z presuperscript A`is $N_{93}^{236} p \xrightarrow{ \\gamma } N_{93}^{236} p \xrightarrow{ \\beta ^{^{-} } } P_{94}^{236} u \xrightarrow{ \\alpha } U_{92}^{232} \xrightarrow{ \\alpha } T_{90}^{228} h \xrightarrow{ \\gamma } T_{90}^{228} h$
+  - The isotope can be written as $T_{90}^{228} h$
+- The flow diagram for the decay of $X pre_{Z} pre^{A}$is $N_{93}^{236} p \xrightarrow{ \\gamma } N_{93}^{236} p \xrightarrow{ \\beta ^{^{-} } } P_{94}^{236} u \xrightarrow{ \\alpha } U_{92}^{232} \xrightarrow{ \\alpha } T_{90}^{228} h \xrightarrow{ \\gamma } T_{90}^{228} h$
 - Therefore the original isotope is Neptunium-236
 - This is option **C  **
 
-- In order to find the original unknown isotope, you will need to work backwards from `T presubscript 90 presuperscript 228 h`
+- In order to find the original unknown isotope, you will need to work backwards from $T_{90}^{228} h$
 
   - For α-decay add four onto the mass number and two onto the atomic number
   - For β<sup>−</sup>-decay minus one from the atomic number and keep the mass number the same
@@ -525,23 +525,23 @@ Therefore, one alpha particle and two beta particles are emitted
 ### Q32
 **Final answer:** **The correct answer is ****D because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
 
-  - Nucleus S goes from `S presubscript 84 presuperscript 134`  to `X presubscript 82 presuperscript 132`  , so the first stage is α decay
+  - Nucleus S goes from $S_{84}^{134}$  to $X_{82}^{132}$  , so the first stage is α decay
 - In β<sup>−</sup> decay, a neutron decays to become a proton, β<sup>−</sup> particle  `( beta _ - 1 ^ 0 )` and antineutrino $( \vec{v}_{e} )$
 
   - `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + top v _ e`
 - The mass is not changed, but the proton number increases by one and the number of neutrons decrease by one
 
-  - Nucleus X goes from `X presubscript 82 presuperscript 132`  to `T presubscript 84 presuperscript 130` , so two β<sup>− </sup>particles must have been released
+  - Nucleus X goes from $X_{82}^{132}$  to $T_{84}^{130}$ , so two β<sup>− </sup>particles must have been released
 
 ### Q33
 **Final answer:** **The correct answer is ****A**** because:**
 
-- An α-particle is made of two protons and two neutrons, `alpha presubscript 2 presuperscript 4`
+- An α-particle is made of two protons and two neutrons, $alpha_{2}^{4}$
 
   - `X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 - The nucleon number is reduced by 4, emitting two neutrons and 2 protons
@@ -574,7 +574,7 @@ Therefore, one alpha particle and two beta particles are emitted
 
   - Total momentum before *α*-emission = 0
   - Total momentum after *α*-emission$=MV-mv$
-- Where *M* and *V* are the mass and velocity of `P presubscript 82 presuperscript 206 b` and *m* and *v* are the mass and velocity of the *α*-particle
+- Where *M* and *V* are the mass and velocity of $P_{82}^{206} b$ and *m* and *v* are the mass and velocity of the *α*-particle
 
   - $0=MV-mv$
   - $MV=mv$
@@ -589,7 +589,7 @@ Therefore, one alpha particle and two beta particles are emitted
   - $K E ( P b ) + \frac{K E ( P b )}{0.0194} = E_{k}$
   - $K E ( P b ) [ 1 + \frac{1}{0.0194} ] = E_{k}$
   - So, $K E ( P b ) = \frac{E_{k} }{( 1 + \frac{1}{0.0194} )} = 0.0190 E_{k}$
-- Therefore, the kinetic energy of `P presubscript 82 presuperscript 206 b` is between 0 and $\frac{E_{k}}{2}$
+- Therefore, the kinetic energy of $P_{82}^{206} b$ is between 0 and $\frac{E_{k}}{2}$
 
 ## Structured Questions (8 questions)
 
@@ -652,7 +652,7 @@ Calculate *y*:
 
 **[Total: 3 marks]**
 
-> *On the right-hand side, *`3 n presubscript 0 presuperscript 1 space`*means that there are **3** neutrons, so **both** the mass number (1) and the atomic number (0) must be **multiplied** by 3.*
+> *On the right-hand side, *$3 n_{0}^{1}$*means that there are **3** neutrons, so **both** the mass number (1) and the atomic number (0) must be **multiplied** by 3.*
 Three quantities that are conserved in the fission reaction in part (a) are:
 
 - mass and energy / mass–energy; **[1 mark]**
@@ -829,8 +829,8 @@ Determine an equation for the number of α-particles, *n*:
 ### Q6
 List the known quantities:
 
-- Alpha particle = `alpha presubscript 2 presuperscript 4`
-- Beta–minus particle = `beta presubscript negative 1 end presubscript presuperscript 0`
+- Alpha particle = $alpha_{2}^{4}$
+- Beta–minus particle = `beta _ - 1 ^ 0`
 
 Combine the equations for alpha and beta–minus into one decay equation:
 
@@ -847,7 +847,7 @@ State the values of A and Z:
 > *Read the question carefully. It tells you what the daughter nucleus is, so don't get confused with using the daughter nucleus from either the alpha or beta decay. *
 Determine the resulting nuclide after these successive transformations:
 
-- During $α$ emission, an alpha particle `alpha presubscript 2 presuperscript 4` is released from each starting atom
+- During $α$ emission, an alpha particle $alpha_{2}^{4}$ is released from each starting atom
 
   - The mass number decreases by 4 and the proton number decreases by 2
 - During $β$ emission, an electron (or positron) is released
@@ -866,7 +866,7 @@ A flow diagram of the processes involved is obtained using the periodic table:
 
 State the final decay product:
 
-- `Ra presubscript 88 presuperscript 224`** [1 mark]**
+- $Ra_{88}^{224}$** [1 mark]**
 
 **[Total: 3 marks]**
 
@@ -897,7 +897,7 @@ Calculate the number of neutrons:
 
 - X = 255 + (3 × 4) = 267
 - Y = 101 + (3 × 2) = 107
-- Therefore, Bohrium = `Bh presubscript 107 presuperscript 267`
+- Therefore, Bohrium = $Bh_{107}^{267}$
 
   - Hence, the number of neutrons = 267 – 107 = 160** ****[1 mark]**
 
@@ -908,7 +908,7 @@ A completed Table 1.1 that would score full credit is shown below:
 
 | **Type** | **Nuclear notation** | **Relative charge** |
 |---|---|---|
-| **Alpha** | $\ \\alpha pre_{2} pre^{4}$** ****OR**** **`He presubscript 2 presuperscript 4` | +2 |
+| **Alpha** | $\ \\alpha pre_{2} pre^{4}$** ****OR**** **$He_{2}^{4}$ | +2 |
 | **Beta** | `beta _ - 1 ^ 0` | **Final answer:** **–1** |
 | **Gamma** | $\ \\gamma pre_{0} pre^{0}$ | **Final answer:** **0** |
 

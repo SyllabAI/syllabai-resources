@@ -50,7 +50,7 @@ How do you write vector notation by hand?
 
 **Underline** the letter, since bold cannot be written by hand.
 
-A vector printed as $a$ is written `bottom enclose a` in your own working, and the underlining is not optional.
+A vector printed as $a$ is written `bottom a` in your own working, and the underlining is not optional.
 
 
 Spec links: `spcpt_ts8KGt4XJ4wcQFvV`

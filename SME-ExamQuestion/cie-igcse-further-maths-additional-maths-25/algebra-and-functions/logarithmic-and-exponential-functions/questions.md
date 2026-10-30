@@ -378,7 +378,7 @@ Find the value of $A$ and of $b$.
 
 **Extract:**
 
-It is known that y equals A cross times 10 to the power of b x squared end exponent, where A and b are constants. When lg space y is plotted against x squared, a straight line passing through the points (3.63, 5.25) and (4.83, 6.88) is obtained.
+`It is known that y = A x 10 ^ b x ^2 , where A and b are constants. When lg y is plotted against x ^2, a line passing through the points (3.63, 5.25) and (4.83, 6.88) is obtained.`
 
 From the mark scheme:
 A equals 2.09

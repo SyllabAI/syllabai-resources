@@ -13,7 +13,7 @@ Write these numbers in order of size.
 Start with the smallest number.
 
 ### 9((b)) — 1 mark — command: find — structured — from paper Specimen paper · 4MA1/2F
-Find the value of  `cube root of 175.616 end root`
+Find the value of  $\sqrt[3]{175.616}$
 
 ### 9((c)) — 1 mark — command: find — structured — from paper Specimen paper · 4MA1/2F
 Find the square of –4.1

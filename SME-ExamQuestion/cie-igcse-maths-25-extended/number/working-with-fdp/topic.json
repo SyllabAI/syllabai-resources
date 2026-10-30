@@ -299,7 +299,7 @@
       {
        "latex": "\\frac{31.2}{72}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>31</mn><mo>.</mo><mn>2</mn></mrow><mn>72</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 31.2 over denominator 72 end fraction"
+       "alt": "(31.2)/(72)"
       },
       {
        "latex": "\\frac{13}{30}",
@@ -493,7 +493,7 @@
       {
        "latex": "\\frac{81+x}{240}=0.6",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>81</mn><mo>+</mo><mi>x</mi></mrow><mn>240</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 81 plus x over denominator 240 end fraction equals 0.6"
+       "alt": "(81 + x)/(240) = 0.6"
       },
       {
        "latex": "81+x=240\\times0.6\\,81+x=144",
@@ -656,7 +656,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "Write the recurring decimal $0. \\dot{6} \\dot{3}$ as a fraction.",
-     "solution_md": "> *Method 1 *\n\n> *Let **x** be the recurring decimal and, as there are two recurring decimal places, multiply by 100*\n\n$\\begin{gathered} x = 0. \\dot{6} \\dot{3} \\textcircled{1} \\end{gathered}$\n\n> *Now you need to multiply by powers of 10, to make everything after the decimal point identical to that in equation *`circle enclose 1`* In this case, multiplying by 10 gives you *$6. \\dot{3} \\dot{6}$*, which doesn't help!*\n\n> *So multiply by 100...*\n\n$100 x = 63. \\dot{6} \\dot{3} \\textcircled{2}$\n\n> `circle enclose 2 minus circle enclose 1`* to eliminate everything after the decimal point*\n\n$\\begin{gathered} 99 x & = 63 \\\\ x = \\frac{63}{99} \\end{gathered}$\n\n> *It's best to simplify or \"cancel down\" the fraction to the final answer*\n\n$\\frac{7}{11}$** ****or **** **$\\frac{63}{99}$** ****[1]**\n\n$\\frac{63}{99}$**or other equivalent fractions, such as **$\\frac{21}{33}$**, are permitted**\n\n> *Method 2 *\n\n> *Simply know that if there are two recurring decimal places, the answer is a fraction over 99*\n\n$\\frac{63}{99}$\n\n$\\frac{7}{11}$** ****or  **$\\frac{63}{99}$** [1]**",
+     "solution_md": "> *Method 1 *\n\n> *Let **x** be the recurring decimal and, as there are two recurring decimal places, multiply by 100*\n\n$\\begin{gathered} x = 0. \\dot{6} \\dot{3} \\textcircled{1} \\end{gathered}$\n\n> *Now you need to multiply by powers of 10, to make everything after the decimal point identical to that in equation *$\\textcircled{1}$* In this case, multiplying by 10 gives you *$6. \\dot{3} \\dot{6}$*, which doesn't help!*\n\n> *So multiply by 100...*\n\n$100 x = 63. \\dot{6} \\dot{3} \\textcircled{2}$\n\n> $\\textcircled{2} - \\textcircled{1}$* to eliminate everything after the decimal point*\n\n$\\begin{gathered} 99 x & = 63 \\\\ x = \\frac{63}{99} \\end{gathered}$\n\n> *It's best to simplify or \"cancel down\" the fraction to the final answer*\n\n$\\frac{7}{11}$** ****or **** **$\\frac{63}{99}$** ****[1]**\n\n$\\frac{63}{99}$**or other equivalent fractions, such as **$\\frac{21}{33}$**, are permitted**\n\n> *Method 2 *\n\n> *Simply know that if there are two recurring decimal places, the answer is a fraction over 99*\n\n$\\frac{63}{99}$\n\n$\\frac{7}{11}$** ****or  **$\\frac{63}{99}$** [1]**",
      "equations": [
       {
        "latex": "\\frac{7}{11}",

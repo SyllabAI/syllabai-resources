@@ -95,7 +95,7 @@ Three bags contain $x$, $x+5$ and $x+10$ marbles each.
 
 If there are 75 marbles in total, then an equation can be formed by **adding** all the quantities up and setting them **equal to** 75.
 
-This gives `x plus open parentheses x plus 5 close parentheses plus open parentheses x plus 10 close parentheses equals 75`.
+This gives $x + ( x + 5 ) + ( x + 10 ) = 75$.
 
 Examiners want to see this full equation (before simplifying or solving).
 

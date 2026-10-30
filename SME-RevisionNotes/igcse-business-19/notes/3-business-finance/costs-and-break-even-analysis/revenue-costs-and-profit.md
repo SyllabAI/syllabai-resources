@@ -93,9 +93,7 @@ $\mathrm{Revenue}=\mathrm{Quantity} \mathrm{sold}x\mathrm{Selling} \mathrm{price
 > 
 > **Step 1: Calculate the total variable costs of compost**
 > 
-> `equals 43 comma 539 space cross times space £ 3.40
-> 
-> equals space £ 148 comma 033`       **[1 mark]**
+> $= 43 , 539 \\times £ 3.40 = £ 148 , 033$       **[1 mark]**
 > 
 > **Step 2: Add total variable costs to total fixed costs**
 > 

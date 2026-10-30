@@ -123,7 +123,7 @@ What are the reasons for these effects?
 
 **Q10** [1 mark]
 
-When aluminium `A presubscript 13 presuperscript 27 l` was bombarded with α-particles the first radioactive substance was made. The product of this reaction was an unstable isotope of phosphorus, `P presubscript 15 presuperscript 30`.
+When aluminium $A_{13}^{27} l$ was bombarded with α-particles the first radioactive substance was made. The product of this reaction was an unstable isotope of phosphorus, $P_{15}^{30}$.
 
 Which of the following is a by-product of this reaction?
 
@@ -156,7 +156,7 @@ Which statement describes the final nuclide that is formed ?
 
 **Q13** [1 mark]
 
-When an α-particle is produced by `U presubscript 92 presuperscript 258` it produces a new atom X.
+When an α-particle is produced by $U_{92}^{258}$ it produces a new atom X.
 
 What are the values of the proton number and nucleon number for atom X?
 
@@ -186,7 +186,7 @@ Which of the following graph best represents the variation of *n* with *θ *?
 
 **Q16** [1 mark]
 
-Thorium `T presubscript 90 presuperscript 232 h` decays through a series of transformations. The particles emitted in successive transformations are
+Thorium $T_{90}^{232} h$ decays through a series of transformations. The particles emitted in successive transformations are
 
 $αββγα$
 
@@ -198,7 +198,7 @@ The resulting nuclide may be represented by
 
 The nuclides shown in the grid below are arranged according to the number of protons and neutrons in each.
 
-A nucleus of the nuclide `L presubscript 3 presuperscript 8 i`  decays by emitting a β-particle.
+A nucleus of the nuclide $L_{3}^{8} i$  decays by emitting a β-particle.
 
 What is the resulting nuclide ?
 
@@ -294,7 +294,7 @@ Which of the statements can be deduced from the above information about the emis
 
 **Q28** [1 mark]
 
-The atom `C presubscript 55 presuperscript 133 s` is a neutral atom
+The atom $C_{55}^{133} s$ is a neutral atom
 
 How many protons, neutrons and electrons are in this atom?
 
@@ -322,13 +322,13 @@ Which diagram best represents their paths ?
 
 **Q31** [1 mark]
 
-An unknown isotope `X presubscript Z presuperscript A` decays through a series of transformations into Thorium-228. The atomic number of thorium is 90.
+An unknown isotope $X pre_{Z} pre^{A}$ decays through a series of transformations into Thorium-228. The atomic number of thorium is 90.
 
 The successive transformations are:
 
 $γβ^{-}ααγ$
 
-Which row states the correct isotope name, atomic number and mass number of the unknown isotope `X presubscript Z presuperscript A`?
+Which row states the correct isotope name, atomic number and mass number of the unknown isotope $X pre_{Z} pre^{A}$?
 
 |   | **Isotope name** | **Atomic number / Z** | **Mass number / A** |
 |---|---|---|---|
@@ -371,11 +371,11 @@ When β<sup>−</sup> particles are emitted from identical nuclei in a substance
 
 **Q35** [1 mark]
 
-A stationary decay `P presubscript 84 presuperscript 210 o` of  by *α*-emission has a total kinetic energy of *E*<sub>*k*</sub>
+A stationary decay $P_{84}^{210} o$ of  by *α*-emission has a total kinetic energy of *E*<sub>*k*</sub>
 
 $P_{84}^{210} o \rightarrow P_{82}^{206} b + \\alpha$
 
-What is the kinetic energy of the daughter nucleus `P presubscript 82 presuperscript 206 b` ?
+What is the kinetic energy of the daughter nucleus $P_{82}^{206} b$ ?
 
 ## Structured Questions (8 questions)
 
@@ -542,7 +542,7 @@ Write a decay equation for this interaction and hence determine the values of A 
 
 **Q6** [3 marks]
 
-Thorium, `Th presubscript 90 presuperscript 232` decays to an isotope of Radium (Ra) through a series of transformations. The particles emitted in successive transformations are:
+Thorium, $Th_{90}^{232}$ decays to an isotope of Radium (Ra) through a series of transformations. The particles emitted in successive transformations are:
 
 $αββγα$
 
@@ -556,7 +556,7 @@ Explain the simplest sequence of alpha and beta decays required to do this.
 
 **Q6** [2 marks]
 
-A nucleus of Bohrium $\text{Bh} pre_{Y} pre^{X}$ decays to Mendelevium `Md presubscript 101 presuperscript 255` by a sequence of three alpha particle emissions.
+A nucleus of Bohrium $\text{Bh} pre_{Y} pre^{X}$ decays to Mendelevium $Md_{101}^{255}$ by a sequence of three alpha particle emissions.
 
 Determine the number of neutrons in a nucleus of $\text{Bh} pre_{Y} pre^{X}$.
 

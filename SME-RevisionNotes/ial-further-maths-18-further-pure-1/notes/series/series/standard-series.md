@@ -19,7 +19,7 @@ guided_study: false
 
 ### What is sigma notation?
 
-- **Sigma notation **represents **sums** as follows:`sum from r=1 to 5 of r=1+2+3+4+5`
+- **Sigma notation **represents **sums** as follows:$\sum_{r=1}^{5} r=1+2+3+4+5$
 
   - $r$ counts in** integers** from the** lower limit **to the **upper limit**
 - It works for **functions** of $r$
@@ -27,13 +27,13 @@ guided_study: false
   - $\sum_{r = 1}^{5} ( 3 r - 1 ) = ( 3 \times 1 - 1 ) + ( 3 \times 2 - 1 ) + ( 3 \times 3 - 1 ) +... + ( 3 \times 5 - 1 )$
 - The sum of the **first **$n$** terms** has an upper limit of $n$
 
-  - `sum from r=1 to n of r=1+2+3+...+n`
+  - $\sum_{r=1}^{n} r=1+2+3+...+n$
 
 ### How do I write a series as the difference of two sums?
 
-- When the **lower limit **is **not 1**, such as`sum from r=5 to 10 of r=5+6+7+...+10`, you can write it as the **difference** **between two sums**:
+- When the **lower limit **is **not 1**, such as$\sum_{r=5}^{10} r=5+6+7+...+10$, you can write it as the **difference** **between two sums**:
 
-  - `sum from r=5 to 10 of r=sum from r=1 to 10 of r−sum from r=1 to 4 of r`
+  - $\sum_{r=5}^{10} r= \sum_{r=1}^{10} r− \sum_{r=1}^{4} r$
   - This is because$5 + 6 + 7 + 8 + 9 + 10 = ( 1 + 2 + 3 + 4 +... + 10 ) - ( 1 + 2 + 3 + 4 )$
   
     - The 1, 2, 3 and 4** cancel out**, leaving 5, 6, ..., 10
@@ -43,7 +43,7 @@ guided_study: false
 
 - You need to know the following rules:
 
-  - `sum from r=1 to n of k=k+k+...+k=k n`
+  - $\sum_{r=1}^{n} k=k+k+...+k=k n$
   
     - The **sum** of a **constant** is the constant$\timesn$
   - $\sum_{r = 1}^{n} ( a r + b ) = a \sum_{r = 1}^{n} r + b n$
@@ -53,7 +53,7 @@ guided_study: false
 
 ### What is the formula for the sum of the natural numbers?
 
-- `sum from r=1 to n of r=1+2+3+...+n` is the sum of the** natural numbers**
+- $\sum_{r=1}^{n} r=1+2+3+...+n$ is the sum of the** natural numbers**
 
   - Natural numbers are **positive integers**
 - It has the** standard formula**:

@@ -78,12 +78,7 @@
 > \$90 000 **(3) W** 
 > **W **
 > 
-> `space space space space space $
-> space 92 space 750 space
-> left parenthesis 15 space 500 right parenthesis space left parenthesis bold 1 right parenthesis space space
-> 12 space 750 space space space space space left parenthesis bold 1 right parenthesis space space
-> stack 90 space 000 with bar on top space left parenthesis bold 1 bold of right parenthesis
-> stack space space space space space space space space space space space space space space space with bar on top`
+> $\$ 92 750 ( 15 500 ) ( 1 ) 12 750 ( 1 ) 90 00 \bar{0} ( 1 ) \text{spac} \bar{e}$
 
 ## Q3 — medium — 20 marks · exam-questions
 

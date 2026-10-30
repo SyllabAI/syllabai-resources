@@ -71,7 +71,7 @@ $1062000\div10=106200$
 
 > *Plot the mean point, dividing each value by 1000 before plotting it on the graph*
 
-`open parentheses 55.7 comma space 106.2 close parentheses`
+$( 55.7 , 106.2 )$
 
 **[1]**
 
@@ -121,7 +121,7 @@ $1062000\div10=106200$
 
 > *Plot the mean point, rounding the value for time to one decimal place*
 
-`open parentheses 56.2 comma space 12.5 close parentheses`
+$( 56.2 , 12.5 )$
 
 **[1]**
 
@@ -181,7 +181,7 @@ iv) *Draw a vertical line up from 15 on the **x**-axis until it meets the line o
 ### Q5
 > *Plot the coordinates:*
 
-`open parentheses 20 comma space 33 close parentheses comma space open parentheses 44 comma space 52 close parentheses comma space open parentheses 37 comma space 44 close parentheses comma space open parentheses 46 comma space 52 close parentheses`
+$( 20 , 33 ) , ( 44 , 52 ) , ( 37 , 44 ) , ( 46 , 52 )$
 
 ![igcse-cie-may-2019-q6a](assets/017-igcse-cie-may-2019-q6a.png)
 
@@ -211,7 +211,7 @@ iv) *Draw a vertical line up from 15 on the **x**-axis until it meets the line o
 
 > *Plot the mean point, rounding each value to the nearest whole number*
 
-`open parentheses 31 comma space 41 close parentheses`
+$( 31 , 41 )$
 
 **[1]**
 
@@ -257,7 +257,7 @@ $77.8\div14=5.55714...$
 
 > *Plot the mean point, use your calculated value rounded to 1 decimal place to match the value already given*
 
-`open parentheses 5.6 comma space 11.3 close parentheses`
+$( 5.6 , 11.3 )$
 
 **[1]**
 
@@ -454,11 +454,11 @@ $44,51,52,55,77,85,90,103,110,135$
 
 > *Median = middle value*
 
-`up diagonal strike 44 comma space up diagonal strike 51 comma space up diagonal strike 52 comma space up diagonal strike 55 comma space 77 comma space 85 comma space up diagonal strike 90 comma space up diagonal strike 103 comma space up diagonal strike 110 comma space up diagonal strike 135`
+$\cancel{44} , \cancel{51} , \cancel{52} , \cancel{55} , 77 , 85 , \cancel{90} , \cancel{103} , \cancel{110} , \cancel{135}$
 
 > *The middle value is halfway between 77 and 85. Add together the two numbers and divide by 2*
 
-`open parentheses 77 plus 85 close parentheses divided by 2 equals 81`
+$( 77 + 85 ) \div 2 = 81$
 
 **81 kW ****[1]**
 (i) *Plot the two points on the scatter graph*

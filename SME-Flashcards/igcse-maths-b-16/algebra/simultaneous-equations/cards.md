@@ -54,7 +54,7 @@ The **substitution method** involves** rearranging **one equation to make one va
 E.g. For the pair of simultaneous equations $3x+y=7$ and $2x+1=5y$:
 
 1. Rearrange the first equation to make $y$ the subject, $y=7-3x$.
-2. Then substitute the expression for $y$ into the second equation, `2 x plus 1 equals 5 open parentheses 7 minus 3 x close parentheses`.
+2. Then substitute the expression for $y$ into the second equation, $2 x + 1 = 5 ( 7 - 3 x )$.
 3. Solve for $x$, $x=2$.
 4. Substitute the value for $x$ into one of the equations and solve for $y$, $y=1$.
 

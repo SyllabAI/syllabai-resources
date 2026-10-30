@@ -59,17 +59,17 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "Which coordinates would be $a$ units **left **and $b$ units **down **from the point `open parentheses x comma space y close parentheses`?"
+     "md": "Which coordinates would be $a$ units **left **and $b$ units **down **from the point $( x , y )$?"
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "The coordinates $a$ units **left **and $b$ units **down **from the point `open parentheses x comma space y close parentheses` would be `open parentheses x minus a comma space y minus b close parentheses`."
+     "md": "The coordinates $a$ units **left **and $b$ units **down **from the point $( x , y )$ would be $( x - a , y - b )$."
     }
    ],
-   "front_md": "Which coordinates would be $a$ units **left **and $b$ units **down **from the point `open parentheses x comma space y close parentheses`?\n",
-   "back_md": "The coordinates $a$ units **left **and $b$ units **down **from the point `open parentheses x comma space y close parentheses` would be `open parentheses x minus a comma space y minus b close parentheses`.\n",
+   "front_md": "Which coordinates would be $a$ units **left **and $b$ units **down **from the point $( x , y )$?\n",
+   "back_md": "The coordinates $a$ units **left **and $b$ units **down **from the point $( x , y )$ would be $( x - a , y - b )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -163,21 +163,21 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "State the **formula **for the **gradient **of the line that passes through `open parentheses x subscript 1 comma y subscript 1 close parentheses` and `open parentheses x subscript 2 comma y subscript 2 close parentheses`."
+     "md": "State the **formula **for the **gradient **of the line that passes through $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$."
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "The **formula **for the **gradient **of the line that passes through `open parentheses x subscript 1 comma y subscript 1 close parentheses` and `open parentheses x subscript 2 comma y subscript 2 close parentheses` is  $m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$."
+     "md": "The **formula **for the **gradient **of the line that passes through $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is  $m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$."
     },
     {
      "type": "paragraph",
      "md": "The formula $m=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$ will also give the gradient."
     }
    ],
-   "front_md": "State the **formula **for the **gradient **of the line that passes through `open parentheses x subscript 1 comma y subscript 1 close parentheses` and `open parentheses x subscript 2 comma y subscript 2 close parentheses`.\n",
-   "back_md": "The **formula **for the **gradient **of the line that passes through `open parentheses x subscript 1 comma y subscript 1 close parentheses` and `open parentheses x subscript 2 comma y subscript 2 close parentheses` is  $m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$.\n\nThe formula $m=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$ will also give the gradient.\n",
+   "front_md": "State the **formula **for the **gradient **of the line that passes through $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$.\n",
+   "back_md": "The **formula **for the **gradient **of the line that passes through $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is  $m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$.\n\nThe formula $m=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$ will also give the gradient.\n",
    "spec_links": [],
    "flags": []
   },
@@ -223,7 +223,7 @@
     },
     {
      "type": "paragraph",
-     "md": "The **gradient **of the line which passes through `open parentheses 4 comma space 5 close parentheses` and `open parentheses 1 comma space 2 close parentheses` can be found by calculating $\\frac{2-5}{4-1}$."
+     "md": "The **gradient **of the line which passes through $( 4 , 5 )$ and $( 1 , 2 )$ can be found by calculating $\\frac{2-5}{4-1}$."
     }
    ],
    "back_blocks": [
@@ -233,7 +233,7 @@
     },
     {
      "type": "paragraph",
-     "md": "The **gradient **of the line which passes through `open parentheses 4 comma space 5 close parentheses` and `open parentheses 1 comma space 2 close parentheses` can **not **be found by calculating $\\frac{2-5}{4-1}$."
+     "md": "The **gradient **of the line which passes through $( 4 , 5 )$ and $( 1 , 2 )$ can **not **be found by calculating $\\frac{2-5}{4-1}$."
     },
     {
      "type": "paragraph",
@@ -244,8 +244,8 @@
      "md": "It should be either $\\frac{2-5}{1-4}$ or $\\frac{5-2}{4-1}$."
     }
    ],
-   "front_md": "**True or False?**\n\nThe **gradient **of the line which passes through `open parentheses 4 comma space 5 close parentheses` and `open parentheses 1 comma space 2 close parentheses` can be found by calculating $\\frac{2-5}{4-1}$.\n",
-   "back_md": "**False.**\n\nThe **gradient **of the line which passes through `open parentheses 4 comma space 5 close parentheses` and `open parentheses 1 comma space 2 close parentheses` can **not **be found by calculating $\\frac{2-5}{4-1}$.\n\nThe order needs to be consistent. If the second coordinate is used first for the $y$ coordinates, then the second coordinate should be used first for the $x$ coordinates.\n\nIt should be either $\\frac{2-5}{1-4}$ or $\\frac{5-2}{4-1}$.\n",
+   "front_md": "**True or False?**\n\nThe **gradient **of the line which passes through $( 4 , 5 )$ and $( 1 , 2 )$ can be found by calculating $\\frac{2-5}{4-1}$.\n",
+   "back_md": "**False.**\n\nThe **gradient **of the line which passes through $( 4 , 5 )$ and $( 1 , 2 )$ can **not **be found by calculating $\\frac{2-5}{4-1}$.\n\nThe order needs to be consistent. If the second coordinate is used first for the $y$ coordinates, then the second coordinate should be used first for the $x$ coordinates.\n\nIt should be either $\\frac{2-5}{1-4}$ or $\\frac{5-2}{4-1}$.\n",
    "spec_links": [],
    "flags": []
   },

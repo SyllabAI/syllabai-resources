@@ -117,9 +117,7 @@ guided_study: true
 > > *Expand the brackets (using a double-bracket expansion)*
 > *Collect any like terms (the* $4n^{2}$ *and the* $-4n^{2}$ *cancel out)*
 > 
-> `open parentheses 2 n plus 2 close parentheses open parentheses 2 n plus 2 close parentheses minus 4 n squared
-> equals 4 n squared plus 4 n plus 4 n plus 4 minus 4 n squared
-> equals 8 n plus 4`
+> $( 2 n + 2 ) ( 2 n + 2 ) - 4 n^{2} = 4 n^{2} + 4 n + 4 n + 4 - 4 n^{2} = 8 n + 4$
 > 
 > > *Show that the final answer is divisible by 4 (a multiple of 4)*
 > *Do this by writing it as* `Error converting from MathML to accessible text.`
@@ -139,13 +137,11 @@ guided_study: true
 > 
 > > *Simplify inside both brackets*
 > 
-> `equals open parentheses 2 close parentheses open parentheses 4 n plus 2 close parentheses
-> equals 2 open parentheses 4 n plus 2 close parentheses`
+> $= ( 2 ) ( 4 n + 2 ) = 2 ( 4 n + 2 )$
 > 
 > > *Factorise out a 2 from the second bracket*
 > 
-> `equals 2 cross times 2 open parentheses 2 n plus 1 close parentheses
-> equals 4 open parentheses 2 n plus 1 close parentheses`
+> $= 2 \\times 2 ( 2 n + 1 ) = 4 ( 2 n + 1 )$
 > 
 > > *This has the form* `Error converting from MathML to accessible text.` *so it is divisible by 4 (a multiple of 4)*
 > *Write a conclusion that copies the wording in the question*

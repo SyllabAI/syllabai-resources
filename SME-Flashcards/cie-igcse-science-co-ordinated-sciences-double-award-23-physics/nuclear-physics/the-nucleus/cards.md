@@ -82,7 +82,7 @@ What is the **proton number** of an atom with the nuclide notation `\_{13}^{27}A
 
 **BACK**
 
-The **proton number** of an atom with the nuclide notation `Al presubscript 13 presuperscript 27` is **13**.
+The **proton number** of an atom with the nuclide notation $Al_{13}^{27}$ is **13**.
 
 
 Spec links: `spcpt_MQHNd7yBc29JC4yV`
@@ -141,12 +141,12 @@ Spec links: `spcpt_vmbVXrjbhtjDX7TR`
 
 **FRONT**
 
-The nuclide notation for an isotope of iron is `Fe presubscript 26 presuperscript 58`. How many neutrons does an atom of iron `Fe presubscript 26 presuperscript 58` contain?
+The nuclide notation for an isotope of iron is $Fe_{26}^{58}$. How many neutrons does an atom of iron $Fe_{26}^{58}$ contain?
 
 
 **BACK**
 
-An atom of iron `Fe presubscript 26 presuperscript 58` contains **32** neutrons.
+An atom of iron $Fe_{26}^{58}$ contains **32** neutrons.
 
 The number of neutrons = nucleon number − proton number = 58 − 26 = **32**.
 
@@ -267,7 +267,7 @@ What is the relative charge on the nucleus of an atom of `\_{12}^{24}Mg`? **(Ext
 
 **BACK**
 
-The relative charge on the nucleus of an atom of `Mg presubscript 12 presuperscript 24` is **+12**.
+The relative charge on the nucleus of an atom of $Mg_{12}^{24}$ is **+12**.
 
 
 Spec links: `spcpt_mq4YKF8cPRHV3Zs2`

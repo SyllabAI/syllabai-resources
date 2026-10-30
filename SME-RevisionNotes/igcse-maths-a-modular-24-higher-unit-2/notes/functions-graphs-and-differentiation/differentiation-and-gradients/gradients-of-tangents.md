@@ -73,7 +73,7 @@ guided_study: true
 > - This will reduce the effect of any inaccuracy
 
 > **Worked Example**
-> The graph below shows `y equals cube root of x` for $0\leqx\leq1$.
+> The graph below shows $y = \sqrt[3]{x}$ for $0\leqx\leq1$.
 > 
 > Find an estimate of the gradient of the curve at the point where $x=0.5$.
 > 

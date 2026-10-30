@@ -12,7 +12,7 @@
 
 Find the values of the constant $k$ for which the equation
 
-`2 k x squared plus open parentheses k minus 6 close parentheses x minus 4 equals 0`
+$2 k x^{2} + ( k - 6 ) x - 4 = 0$
 
 has no real solutions.
 
@@ -64,7 +64,7 @@ Solve the inequality $(x-8)(x-10)>35$ .
 
 **Q6** [4 marks]
 
-Find the values of $x$ for which `12 x squared minus 20 x plus 5 space less than space open parentheses 2 x plus 1 close parentheses open parentheses x minus 1 close parentheses`.
+Find the values of $x$ for which $12 x^{2} - 20 x + 5 < ( 2 x + 1 ) ( x - 1 )$.
 
 *Source: March 2020 0606/22 Q1*
 

@@ -621,7 +621,7 @@
       {
        "latex": "S_{xy}=\\sumxy-\\frac{\\sumx\\sumy}{n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mo>=</mo><mo>∑</mo><mi>x</mi><mi>y</mi><mo>-</mo><mfrac><mrow><mo>∑</mo><mi>x</mi><mo>∑</mo><mi>y</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "S subscript x y end subscript equals sum x y minus fraction numerator sum x sum y over denominator n end fraction"
+       "alt": "S _ x y = sum x y - (sum x sum y)/(n)"
       },
       {
        "latex": "\\sumxy=328",
@@ -662,7 +662,7 @@
       {
        "latex": "r=\\frac{S_{xy}}{\\sqrt{S_{xx}\\timesS_{yy}}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><msqrt><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mo>×</mo><msub><mi>S</mi><mrow><mi>y</mi><mi>y</mi></mrow></msub></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "r equals fraction numerator S subscript x y end subscript over denominator square root of S subscript x x end subscript cross times S subscript y y end subscript end root end fraction"
+       "alt": "r = (S _ x y)/(sqrt( S _ x x x S _ y y ))"
       }
      ],
      "spec_point_codes": [
@@ -928,7 +928,7 @@
       {
        "latex": "r=\\frac{S_{hx}}{\\sqrt{S_{hh}\\timesS_{xx}}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>r</mi><mo>=</mo><mfrac><msub><mi>S</mi><mrow><mi>h</mi><mi>x</mi></mrow></msub><msqrt><msub><mi>S</mi><mrow><mi>h</mi><mi>h</mi></mrow></msub><mo>×</mo><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "r equals fraction numerator S subscript h x end subscript over denominator square root of S subscript h h end subscript cross times S subscript x x end subscript end root end fraction"
+       "alt": "r = (S _ h x)/(sqrt( S _ h h x S _ x x ))"
       },
       {
        "latex": "h",
@@ -1940,7 +1940,7 @@
       {
        "latex": "y=\\frac{s-300}{4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mo> </mo><mfrac><mrow><mi>s</mi><mo> </mo><mo>-</mo><mo> </mo><mn>300</mn></mrow><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "y space equals space space fraction numerator s space minus space 300 over denominator 4 end fraction"
+       "alt": "y = (s - 300)/(4)"
       },
       {
        "latex": "x",
@@ -3557,12 +3557,12 @@
       {
        "latex": "\\frac{s-153}{103}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mi>s</mi><mo>-</mo><mn>153</mn></mrow><mn>103</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 14px style fraction numerator s minus 153 over denominator 103 end fraction end style"
+       "alt": "(s - 153)/(103)"
       },
       {
        "latex": "\\frac{p-32}{37}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mi>p</mi><mo>-</mo><mn>32</mn></mrow><mn>37</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 14px style fraction numerator p minus 32 over denominator 37 end fraction end style"
+       "alt": "(p - 32)/(37)"
       }
      ],
      "spec_point_codes": [
@@ -3634,12 +3634,12 @@
       {
        "latex": "x=\\frac{d-m}{n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo> </mo><mo>=</mo><mfrac><mrow><mi>d</mi><mo> </mo><mo>-</mo><mo> </mo><mi>m</mi></mrow><mi>n</mi></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "x space equals fraction numerator d space minus space m over denominator n end fraction space"
+       "alt": "x = (d - m)/(n)"
       },
       {
        "latex": "y=\\frac{t-p}{q}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo> </mo><mfrac><mrow><mi>t</mi><mo>-</mo><mi>p</mi></mrow><mi>q</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "y equals space fraction numerator t minus p over denominator q end fraction"
+       "alt": "y = (t - p)/(q)"
       },
       {
        "latex": "x",
@@ -4028,12 +4028,12 @@
       {
        "latex": "x=\\frac{p-100}{5}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mi>p</mi><mo>-</mo><mn>100</mn></mrow><mn>5</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "x equals fraction numerator p minus 100 over denominator 5 end fraction"
+       "alt": "x = (p - 100)/(5)"
       },
       {
        "latex": "y=\\frac{q-20}{10}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mi>q</mi><mo>-</mo><mn>20</mn></mrow><mn>10</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "y equals fraction numerator q minus 20 over denominator 10 end fraction"
+       "alt": "y = (q - 20)/(10)"
       },
       {
        "latex": "S_{xx}=6\\sumy=11\\sumy^{2}=1.29\\sumxy=20.25",

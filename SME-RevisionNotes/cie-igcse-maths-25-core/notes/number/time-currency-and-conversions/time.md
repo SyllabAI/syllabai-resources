@@ -90,7 +90,7 @@ guided_study: true
 > 
 > Remember that 1 hour 30 mins of time would be 1.5 hours on a calculator.
 > 
-> You can use the **degrees, minutes and seconds function** `box enclose degree apostrophe double apostrophe end enclose` to enter time on your calculator
+> You can use the **degrees, minutes and seconds function** `box deg ' double '` to enter time on your calculator
 > 
 > E.g. 3 minutes 45 seconds would be entered as $0^{\circ}3'45''$
 > 

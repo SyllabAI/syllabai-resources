@@ -651,7 +651,7 @@ Calculate the number of molecules, *N*:
 
 **[Total: 2 marks]**
 
-> *The molar mass is **always** the **mass number** of the element, in g mol*<sup>*–1*</sup>*. You must be able to read the *`X presubscript Z presuperscript A`* notation to correctly read the mass number for any element.*
+> *The molar mass is **always** the **mass number** of the element, in g mol*<sup>*–1*</sup>*. You must be able to read the *$X pre_{Z} pre^{A}$* notation to correctly read the mass number for any element.*
 The two states prove it behaves as an ideal gas because:
 
 List the known quantities:

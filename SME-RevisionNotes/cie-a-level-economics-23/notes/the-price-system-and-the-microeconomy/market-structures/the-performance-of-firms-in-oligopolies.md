@@ -73,10 +73,7 @@ guided_study: false
 > 
 > **Step 2: Calculate the percentage of total sales that the top five firms have**
 > 
-> `388 over 500 space cross times space 100
-> 
-> CR 5 equals space 77.6 percent sign
-> `
+> $\frac{388}{500} \\times 100 \text{CR} 5 = 77.6 \%$
 
 ## Collusive and non-collusive behaviour
 

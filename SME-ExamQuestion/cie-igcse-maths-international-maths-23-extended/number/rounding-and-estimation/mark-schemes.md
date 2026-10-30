@@ -8,7 +8,7 @@
 ### Q1
 > *The fourth non-zero digit is the number 9, look at the next digit to decide whether to round up or leave it alone*
 
-`1.879 left enclose 6`
+`1.879 left 6`
 
 *The digit after the 9 is a 6*
 *This is greater than 5 so will result in rounding the 9 up to a 10*
@@ -81,7 +81,7 @@ $\,57.39^{\uparrow}$
 ### Q6
 > *Look for the first 2 non-zero digits, and then check the 3rd to see if it should round up or down*
 
-`0.047 left enclose 8 83`
+`0.047 left 8 83`
 
 > *The 3rd digit here is an 8, so the 7 will round up*
 
@@ -102,7 +102,7 @@ $4.6$** [****1]**
 ### Q8
 > *When rounding to 2 decimal places, we need to consider the 3*<sup>*rd*</sup>* decimal place to decide whether to round the 2*<sup>*nd*</sup>* decimal place down or up*
 
-`1.8 right enclose 9 72`
+`1.8 right 9 72`
 
 > *The 3*<sup>*rd*</sup>* decimal place is a 7, so we round up*
 
@@ -116,7 +116,7 @@ $4.6$** [****1]**
 *Use the next digit to determine whether the 6 stays or rounds up to 7.* 
 *If the digit is 5 or above then you round up.*
 
-`0.04 bottom enclose 6 box enclose 8 75`
+`0.04 bottom 6 box 8 75`
 
 **0.047** **[1]**
 

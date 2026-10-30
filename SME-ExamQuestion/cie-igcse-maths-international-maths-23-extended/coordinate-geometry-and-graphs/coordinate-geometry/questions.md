@@ -105,7 +105,7 @@ Calculate the length $AC.$
 
 **Q7** [7 marks]
 
-The graphs of `space y equals open parentheses x minus 1 close parentheses squared space` and $y=\frac{1}{2}x+1$ intersect at *A* and *B*.
+The graphs of $y = ( x - 1 )^{2}$ and $y=\frac{1}{2}x+1$ intersect at *A* and *B*.
 
 Find the length of *AB*.
 

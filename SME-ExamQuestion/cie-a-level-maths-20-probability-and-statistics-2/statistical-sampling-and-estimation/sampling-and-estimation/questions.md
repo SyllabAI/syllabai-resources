@@ -140,7 +140,7 @@ State, with a reason, whether it was necessary to use the Central Limit theorem 
 
 **Q8** [2 marks]
 
-The standard normal distribution is given by `Z space tilde space N left parenthesis 0 comma 1 squared right parenthesis`.
+The standard normal distribution is given by $Z \sim N ( 0 , 1^{2} )$.
 
 Given that $P(-a<Z<a)=0.95$,
 
@@ -168,7 +168,7 @@ Write down the probability that the confidence interval found in part (b) contai
 
 **Q9** [4 marks]
 
-A random sample of $n$ observations of `X space tilde space N left parenthesis 10 comma 16 right parenthesis` are taken and the distribution of the sample mean is denoted $̅X_{n}$. It is known that the sample mean also follows a normal distribution regardless of the size of the sample.
+A random sample of $n$ observations of $X \sim N ( 10 , 16 )$ are taken and the distribution of the sample mean is denoted $̅X_{n}$. It is known that the sample mean also follows a normal distribution regardless of the size of the sample.
 
 (i) In the case where the sample size is 25, write down the distribution of the sample mean, $̅X_{25}$.
 
@@ -226,7 +226,7 @@ $s^{2}=\frac{1}{n-1}(\sumx^{2}-\frac{(\sumx)^{2}}{n})$
 
 $n$ observations of a random variable $X$ are used to form a random sample. The sample mean is denoted $̅X$. If $X$ has mean $μ$ and variance $σ^{2}$ then $̅X$ has mean $μ$ and variance $\frac{σ^{2}}{n}$.
 
-Find the `E space open parentheses ̅ X close parentheses` and `V a r space open parentheses ̅ X close parentheses` in the case when:
+Find the `E ( ̅ X )` and `V a r ( ̅ X )` in the case when:
 
 (i) $E(X)=20,Var(X)=8andn=4$
 
@@ -238,7 +238,7 @@ Find the `E space open parentheses ̅ X close parentheses` and `V a r space open
 
 **Q13** [2 marks]
 
-The standard normal distribution is given by `Z space tilde space N left parenthesis 0 comma 1 squared right parenthesis`.
+The standard normal distribution is given by $Z \sim N ( 0 , 1^{2} )$.
 
 Given that $P(-a<Z<a)=0.99$,
 

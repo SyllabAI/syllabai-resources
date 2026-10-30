@@ -184,7 +184,7 @@ What is the position-to-term formula for an arithmetic sequence in terms of $a$,
 
 **BACK**
 
-The position-to-term formula for an arithmetic sequence in terms of $a$, $d$ and $n$ is  `a plus open parentheses n minus 1 close parentheses d`.
+The position-to-term formula for an arithmetic sequence in terms of $a$, $d$ and $n$ is  $a + ( n - 1 ) d$.
 
 
 

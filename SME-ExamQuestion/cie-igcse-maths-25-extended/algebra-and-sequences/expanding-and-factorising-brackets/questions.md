@@ -68,7 +68,7 @@ $3a^{2}b-ab^{2}$
 
 Expand and simplify.
 
-`open parentheses x minus 2 close parentheses open parentheses x plus 5 close parentheses open parentheses 2 x minus 1 close parentheses`
+$( x - 2 ) ( x + 5 ) ( 2 x - 1 )$
 
 *Source: 2020 Oct/Nov 0580/41 Q8E*
 
@@ -88,7 +88,7 @@ $2t^{2}-98m^{2}$
 
 **Q8** [2 marks]
 
-Expand and simplify  `open parentheses p plus 9 close parentheses open parentheses p minus 4 close parentheses`
+Expand and simplify  $( p + 9 ) ( p - 4 )$
 
 *Source: 2012	June 1MA0/2H Q14A*
 
@@ -135,7 +135,7 @@ Factorise  $5m^{2}-20p^{4}$.
 
 **Q13** [3 marks]
 
-Write `open parentheses x space plus space 1 close parentheses open parentheses x space minus space 3 close parentheses squared` in the form $ax^{3}+bx^{2}+cx+d$.
+Write $( x + 1 ) ( x - 3 )^{2}$ in the form $ax^{3}+bx^{2}+cx+d$.
 
 *Source: 2020 Oct/Nov 0580/43 Q7B*
 
@@ -206,7 +206,7 @@ Factorise  $3x^{2}+11x--20$
 
 **Q18** [2 marks]
 
-Expand and simplify  `open parentheses 3 x minus 5 y close parentheses open parentheses 2 x plus y close parentheses.`
+Expand and simplify  $( 3 x - 5 y ) ( 2 x + y ).$
 
 *Source: 2020	May/June 0580/41 Q3E*
 
@@ -226,7 +226,7 @@ $3x^{2}-12xy$
 
 **Q20** [2 marks]
 
-Expand and simplify `5 open parentheses p plus 3 close parentheses minus 2 open parentheses 1 minus 2 p close parentheses`
+Expand and simplify $5 ( p + 3 ) - 2 ( 1 - 2 p )$
 
 *Source: 2018	June 1MA1/3H Q2*
 

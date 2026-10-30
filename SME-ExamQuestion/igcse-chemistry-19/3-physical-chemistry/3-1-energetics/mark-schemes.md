@@ -353,8 +353,8 @@ The meaning of the term exothermic is:
 ### 7(b) — 4 marks
 The calculation to give the bond energy of the Cl–Cl bond:
 
-- `sum from blank to blank of`bond energies of reactants = 436 + X;** [1 mark]**
-- `sum from blank to blank of`bond energies of products = 2 x 431 **OR** 862 (kJ); **[1 mark]**
+- `SUM_ _ to _ of`bond energies of reactants = 436 + X;** [1 mark]**
+- `SUM_ _ to _ of`bond energies of products = 2 x 431 **OR** 862 (kJ); **[1 mark]**
 - -184 = 436 + X - 862 
 **OR**
  X = -184 + 862 - 436; **[1 mark]**

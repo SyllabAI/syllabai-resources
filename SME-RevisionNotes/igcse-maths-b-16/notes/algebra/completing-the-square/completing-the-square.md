@@ -49,12 +49,12 @@ $x^{2}+bx$ is the same as `(x+p)²−p²` where $p$ is **half** of $b$
 - You first need to take $a$ out as a **factor** of the *x*<sup>2</sup> and *x* terms only
 
   - **Factorise** the** first two terms**
-  - `a x²+b x+c=a open square brackets x²+b / a x close square brackets+c`
+  - $a x²+b x+c=a [ x²+b / a x ]+c$
   
     - Use **square-shaped** **brackets** here to avoid confusion with round brackets later
 - Then complete the square on the bit **inside** the brackets: $x^{2}+\frac{b}{a}x$
 
-  - This gives `a open square brackets (x+p)²−p² close square brackets+c`
+  - This gives $a [ (x+p)²−p² ]+c$
   
     - where *p* is half of $\frac{b}{a}$
 - Finally **multiply** this expression through by *a* (from outside the square brackets) and **add the c** on to the end
@@ -139,17 +139,17 @@ $x^{2}+bx$ is the same as `(x+p)²−p²` where $p$ is **half** of $b$
 > > *Factorise -3 out of the first two terms only*
 > *Use square-shaped brackets*
 > 
-> `−3 open square brackets x²−4x close square brackets+24`
+> $−3 [ x²−4x ]+24$
 > 
 > > *Complete the square on the **x*<sup>*2*</sup>* - 4**x** inside the brackets*
 > *Write in the form (**x** + **p**)*<sup>*2*</sup>* - **p*<sup>*2*</sup>* where **p** is half of -4*
 > 
-> `−3 open square brackets (x−2)²−(−2)² close square brackets+24`
+> $−3 [ (x−2)²−(−2)² ]+24$
 > 
 > > *Simplify the numbers inside the brackets*
 > *(-2)*<sup>*2*</sup> *is 4*
 > 
-> `−3 open square brackets (x−2)²−4 close square brackets+24`
+> $−3 [ (x−2)²−4 ]+24$
 > 
 > *Multiply -3 by all the terms inside the square brackets*
 > (*You do not multiply -3 by the 24)*

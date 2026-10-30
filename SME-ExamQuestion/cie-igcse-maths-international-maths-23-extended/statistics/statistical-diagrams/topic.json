@@ -159,13 +159,13 @@
       "spcpt_HqkhYPSV6yTYnB9D"
      ],
      "part_tier": null,
-     "problem_md": "**Extract:**\n\nThe number of people swimming in a pool is recorded each day for 12 days. [table row 24 cell space 28 end cell cell space 13 end cell cell space 38 end cell cell space 15 end cell cell space 26 end cell row 45 cell space 21 end cell cell space 48 end cell cell space 36 end cell cell space 18 end cell cell space 38 end cell end table]\n\nFind the median number of swimmers.",
+     "problem_md": "**Extract:**\n\n`The number of people swimming in a pool is recorded each day for 12 days. [| 24 28 | 13 | 38 | 15 | 26 | | 45 21 | 48 | 36 | 18 | 38 | |]`\n\nFind the median number of swimmers.",
      "solution_md": "*The median is the middle value when the values are in order.* *From your stem-and-leaf diagram, cross out values from the start and end until you meet in the middle.*\n\n![ma-cie-igcse-2020-march-p2-tz2-q2b](assets/004-ma-cie-igcse-2020-march-p2-tz2-q2b.png)\n\n> *There are two numbers in the middle so you need to find the mean of these (the value halfway between them).*\n\n$\\frac{26+28}{2}=\\frac{54}{2}=27$\n\n**27** **[1]**",
      "equations": [
       {
        "latex": "\\frac{26+28}{2}=\\frac{54}{2}=27",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>26</mn><mo>+</mo><mn>28</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>54</mn><mn>2</mn></mfrac><mo>=</mo><mn>27</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 26 plus 28 over denominator 2 end fraction equals 54 over 2 equals 27"
+       "alt": "(26 + 28)/(2) = 54 / 2 = 27"
       }
      ]
     }
@@ -217,7 +217,7 @@
       {
        "latex": "\\frac{25}{25+16}=\\frac{25}{41}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>25</mn><mrow><mn>25</mn><mo>+</mo><mn>16</mn></mrow></mfrac><mo>=</mo><mfrac><mn>25</mn><mn>41</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 25 over denominator 25 plus 16 end fraction equals 25 over 41"
+       "alt": "(25)/(25 + 16) = 25 / 41"
       },
       {
        "latex": "\\frac{70}{360}=\\frac{7}{36}",
@@ -358,7 +358,7 @@
       {
        "latex": "\\frac{360^{\\circ}}{32}=11.25^{\\circ}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>360</mn><mo>°</mo></mrow><mn>32</mn></mfrac><mo>=</mo><mn>11</mn><mo>.</mo><mn>25</mn><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 360 degree over denominator 32 end fraction equals 11.25 degree"
+       "alt": "(360 deg)/(32) = 11.25 deg"
       },
       {
        "latex": "11.25^{\\circ}\\times12",

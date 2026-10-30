@@ -577,7 +577,7 @@ $β=2$
 **[3 marks]**
 
 > **[mark-scheme]**
-> 1 mark for the correct numbers for alpha particle = `alpha presubscript 2 presuperscript 4`
+> 1 mark for the correct numbers for alpha particle = $alpha_{2}^{4}$
 > 
 > 1 mark for the correct number of alpha decays = 3
 > 

@@ -743,7 +743,7 @@ Fig. 2
 
 Use the equation provided to calculate the R~f~ values for pigments X and Y in Fig. 2.
 
-Rf space equals fraction numerator space Distance space moved space by space pigment over denominator Distance space moved space by space the space solvent end fraction
+$\text{Rf} = \frac{ \text{Distance} \text{moved} \text{by} pigment}{Distance \text{moved} \text{by} solvent}$
 
 The R~f~ values for pigments X and Y in Fig. 2 are...
 - X = 0.55; [1 mark]

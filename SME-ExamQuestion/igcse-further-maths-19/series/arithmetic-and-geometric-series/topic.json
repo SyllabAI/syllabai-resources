@@ -589,7 +589,7 @@
       {
        "latex": "\\frac{ae}{e^{b}-1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>a</mi><mi mathvariant=\"normal\">e</mi></mrow><mrow><msup><mi mathvariant=\"normal\">e</mi><mi>b</mi></msup><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>1</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator a straight e over denominator straight e to the power of b space minus space 1 end fraction"
+       "alt": "(a e)/( e ^ b - 1)"
       },
       {
        "latex": "a",
@@ -853,7 +853,7 @@
       {
        "latex": "\\frac{3}{\\sqrt{1-2x}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><msqrt><mn>1</mn><mo>-</mo><mn>2</mn><mi>x</mi></msqrt></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 3 over denominator square root of 1 minus 2 x end root end fraction"
+       "alt": "(3)/(sqrt( 1 - 2 x ))"
       },
       {
        "latex": "x",
@@ -1031,7 +1031,7 @@
       {
        "latex": "\\frac{3}{\\sqrt{0.9}}=\\sqrt{10}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>3</mn><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>10</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 3 over denominator square root of 0.9 end root end fraction equals square root of 10"
+       "alt": "$\\frac{3}{ \\sqrt{0.9} } = \\sqrt{10}$"
       },
       {
        "latex": "0 . 9",
@@ -1106,7 +1106,7 @@
       {
        "latex": "\\frac{1}{\\sqrt{10}-3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>3</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 over denominator square root of 10 space minus space 3 end fraction"
+       "alt": "$\\frac{1}{ \\sqrt{10} - 3}$"
       },
       {
        "latex": "a\\sqrt{10}+b",
@@ -1216,7 +1216,7 @@
       {
        "latex": "\\frac{1}{\\sqrt{10}-3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>3</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 over denominator square root of 10 space minus space 3 end fraction"
+       "alt": "$\\frac{1}{ \\sqrt{10} - 3}$"
       },
       {
        "latex": "\\frac{1}{\\sqrt{10}-3} = \\sqrt{10} + 3",
@@ -2641,7 +2641,7 @@
       "spcpt_85Xgrrh56QfsH6Qp"
      ],
      "part_tier": null,
-     "problem_md": "The $n$th term of $A$  is $u_{n}$\n\nFind the value of `sum from r equals 15 to 60 of u subscript r`",
+     "problem_md": "The $n$th term of $A$  is $u_{n}$\n\nFind the value of $\\sum_{r = 15}^{60} u_{r}$",
      "solution_md": "The sum you want starts at $r = 15$, but the sum formula always starts at the first term\n\n- Summing to 60 and then subtracting the sum to 14 leaves exactly the terms from 15 to 60\n\nWork out the sum to 60 terms first, using $a = 2$ and $d = 5$ from part (a)\n\n`S_{60} = \\frac{60}{2} \\left[2 \\left(2\\right) + \\left(60 - 1\\right) 5\\right]`\n\n`S_{60} = 30 \\left(299\\right)`\n\n$S_{60} = 8970$\n\n**[M1]**\n\nNow the sum to 14 terms\n\n`S_{14} = \\frac{14}{2} \\left[2 \\left(2\\right) + \\left(14 - 1\\right) 5\\right]`\n\n`S_{14} = 7 \\left(69\\right)`\n\n$S_{14} = 483$\n\n**[M1]**\n\nSubtract the second total from the first\n\n`\\sum_{r = 15}^{60} u_{r} = 8970 - 483`\n\n**[M1]**\n\n`\\sum_{r = 15}^{60} u_{r} = 8487`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses a correct sum formula with $n = 60$ and your values of $a$ and $d$.\n> \n> **M1**: Uses a correct sum formula with $n = 14$, or finds the 14th term, with your values of $a$ and $d$.\n> \n> **M1**: Subtracts the two totals the correct way round. This mark depends on both previous method marks.\n> \n> **A1**: $8487$.\n> \n> The first plus last route is equally acceptable. There the 15th term is 72 and the 60th is 297, and `\\frac{46}{2} \\left(72 + 297\\right) = 8487`, with the first two method marks earned for those two terms.\n> \n> Treating the terms from 15 to 60 as a series in their own right is also accepted: `\\frac{46}{2} \\left(2 \\times 72 + \\left(46 - 1\\right) 5\\right) = 8487`. This route needs the 15th term found first, and using 45 terms rather than 46 still earns the method marks.\n\n> **[exam-tip]**\n> Subtracting sums is the standard way to shift a starting value.\n> \n> - The sum from 15 to 60 is the sum to 60 minus the sum to 14\n> - Subtracting the sum to 15 instead is the classic error, because that removes the $r = 15$ term you want to keep\n> \n> Count the terms if you use the direct route.\n> \n> - From 15 to 60 inclusive there are $60 - 15 + 1 = 46$ terms, not 45\n> \n> Keep the two totals visible.\n> \n> - Writing 8970 and 483 down separately makes the subtraction easy to check\n> - It also means a slip in one of them does not hide the method",
      "equations": [
       {
@@ -4146,7 +4146,7 @@
       {
        "latex": "8^{(1-2n)}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mn>8</mn><mrow><mo>(</mo><mn>1</mn><mo>-</mo><mn>2</mn><mi>n</mi><mo>)</mo></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "8 to the power of left parenthesis 1 minus 2 n right parenthesis end exponent"
+       "alt": "8 ^ ( 1 - 2 n )"
       },
       {
        "latex": "\\frac{p}{q}",

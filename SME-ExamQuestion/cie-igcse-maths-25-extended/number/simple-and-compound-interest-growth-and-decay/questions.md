@@ -417,7 +417,7 @@ Jack bought a new boat for £12 500
 
 The value, £*V*, of Jack's boat at the end of *n* years is given by the formula
 
-`V space equals space 12500 space cross times space open parentheses 0.85 close parentheses to the power of n`
+$V = 12500 \\times ( 0.85 )^{n}$
 
 At the end of how many years was the value of Jack's boat first less than 50% of the value of the boat when it was new?
 

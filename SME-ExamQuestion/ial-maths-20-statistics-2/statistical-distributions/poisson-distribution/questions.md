@@ -6,7 +6,7 @@
 ## Q1 — easy — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A random variable `X space tilde space P o left parenthesis 5 right parenthesis`.
+A random variable $X \sim P o ( 5 )$.
 
 Write down the integer values of $a$ and $b$ which make the following statements true:
 
@@ -28,7 +28,7 @@ Give your answers to three significant figures.
 ## Q2 — easy — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A random variable `X space tilde space P o left parenthesis 3 right parenthesis`.
+A random variable $X \sim P o ( 3 )$.
 
 (i) Write down the name of this distribution.
 
@@ -46,7 +46,7 @@ Use calculations of the form $p_{r}=e^{-λ}\frac{λ^{r}}{r!}$ to find exact valu
 ## Q3 — easy — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The random variable`space X space tilde space P o left parenthesis lambda right parenthesis`.
+The random variable$X \sim P o ( \lambda )$.
 
 Find the value of $P(X=0)$ in the case when:
 
@@ -77,16 +77,16 @@ Given that $λ=k$, find a simplified expression in terms of $k$ for:
 ### 1() — 3 marks — structured
 For each of the following random variables, calculate the mean using $μ=λ$and the standard deviation using $σ=\sqrt{λ}$.
 
-(i) `X space tilde space P o left parenthesis 4 right parenthesis`
+(i) $X \sim P o ( 4 )$
 
-(ii) `X space tilde space P o left parenthesis 1 right parenthesis`
+(ii) $X \sim P o ( 1 )$
 
-(iii) `X space tilde space P o left parenthesis 5.4 right parenthesis`
+(iii) $X \sim P o ( 5.4 )$
 
 ## Q5 — easy — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The random variable `space X space tilde space P o left parenthesis 6.3 right parenthesis`.
+The random variable $X \sim P o ( 6.3 )$.
 
 (i) Factorise the expression$e^{-λ}\frac{λ^{4}}{4!}+e^{-λ}\frac{λ^{5}}{5!}+e^{-λ}\frac{λ^{6}}{6!}+e^{-λ}\frac{λ^{7}}{7!}+e^{-λ}\frac{λ^{8}}{8!}.$
 
@@ -102,7 +102,7 @@ Calculate:
 ## Q6 — easy — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A random variable `space X space tilde space P o left parenthesis 6 right parenthesis`.
+A random variable $X \sim P o ( 6 )$.
 
 Find the exact value, in terms of $e$, of:
 
@@ -149,7 +149,7 @@ Calculate the value of $λ$ in the case when Naomi is modelling the number of em
 ### 1() — 4 marks — structured
 Use the tables of values for the Poisson cumulative distribution function to calculate the probabilities in this question.
 
-The random variable `X space tilde Po left parenthesis 6.5 right parenthesis`, find:
+The random variable $X \sim \text{Po} ( 6.5 )$, find:
 
 (i) $P(X\leq10)$
 
@@ -158,7 +158,7 @@ The random variable `X space tilde Po left parenthesis 6.5 right parenthesis`, f
 (iii) $P(X=5)$
 
 ### 2() — 4 marks — structured
-The random variable `Y space tilde P o left parenthesis 4 right parenthesis`, find:
+The random variable $Y \sim P o ( 4 )$, find:
 
 (i) $P(Y=0)$
 
@@ -279,7 +279,7 @@ Use Jim’s model to calculate the probability that:
 ## Q15 — medium — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The random variable `X space tilde P o left parenthesis 10 right parenthesis`.
+The random variable $X \sim P o ( 10 )$.
 
 Find:
 
@@ -306,7 +306,7 @@ Find $P(X=4)$.
 Find $P(1.5\leqX<5)$.
 
 ### 4() — 3 marks — structured
-Find `space P left parenthesis X equals 4 space │ space X greater than 0 right parenthesis`.
+Find $P ( X = 4 │ X > 0 )$.
 
 ## Q17 — hard — 9 marks · exam-questions
 
@@ -364,7 +364,7 @@ Estimate the number of weeks in a school year that Ms Ottway issues fewer than 3
 ## Q20 — hard — 7 marks · exam-questions
 
 ### 1() — 7 marks — structured
-$X,Y$ and $Z$ are random variables with `X space tilde space space Po left parenthesis alpha right parenthesis comma space space Y space tilde space space Po left parenthesis beta right parenthesis` and `Z space tilde space space Po left parenthesis gamma right parenthesis`.
+$X,Y$ and $Z$ are random variables with $X \sim \text{Po} ( \alpha ) , Y \sim \text{Po} ( \beta )$ and $Z \sim \text{Po} ( \gamma )$.
 
 (i) Given that $P(X=3)=P(X=7)$, find the value of $α$.
 
@@ -388,7 +388,7 @@ The probability that at least one enemy appears in $k$ minutes is 0.999.  Find t
 ## Q22 — hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-The random variable `X space tilde P o left parenthesis 10 right parenthesis`. Find
+The random variable $X \sim P o ( 10 )$. Find
 
 (i) the largest integer value of $q$ such that $P(X<q)<0.2$
 
@@ -437,14 +437,14 @@ Given that Phoebe’s smoke detector rang at least once in a 6-hour period, find
 ## Q25 — very_hard — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The random variable `space X space tilde space space Po left parenthesis 9.5 right parenthesis.`
+The random variable $X \sim \text{Po} ( 9.5 ).$
 
 (i) Given that $k$ is a non-negative integer, find the largest value of $k$ such that $P(X=k)<P(X=k+1)$ .
 
 (ii) Hence find the mode of $X$.
 
 ### 2() — 4 marks — structured
-The random variable `Y space tilde Po left parenthesis straight m right parenthesis`  where $m$ is a positive integer.
+The random variable $Y \sim \text{Po} ( \mathrm{m} )$  where $m$ is a positive integer.
 
 (i) Show that $P(Y=m)=P(Y=m-1)$.
 
@@ -453,7 +453,7 @@ The random variable `Y space tilde Po left parenthesis straight m right parenthe
 ## Q26 — very_hard — 7 marks · exam-questions
 
 ### 1() — 7 marks — structured
-The random variables `X space tilde space space Po left parenthesis alpha right parenthesis comma space space Y tilde Po left parenthesis beta right parenthesis` and `Z tilde P o left parenthesis gamma right parenthesis`.
+The random variables $X \sim \text{Po} ( \alpha ) , Y \sim \text{Po} ( \beta )$ and $Z \sim P o ( \gamma )$.
 
 (i) Given that $P(X=4)=P(X=2)+P(X=3)$ find the value of $α$.
 

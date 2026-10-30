@@ -673,7 +673,7 @@ According to Hubble's Law, if Galaxy A is twice as far away as Galaxy B, then Ga
 
 **False. **
 
-Hubble's Law states that the distance to a galaxy `open parentheses d close parentheses` and the speed it moves away from Earth `open parentheses v close parentheses` are directly proportional to each other.
+Hubble's Law states that the distance to a galaxy $( d )$ and the speed it moves away from Earth $( v )$ are directly proportional to each other.
 
 Therefore, if Galaxy A is twice as far away as Galaxy B, **Galaxy A** must be moving away at twice the speed of **Galaxy B**.
 

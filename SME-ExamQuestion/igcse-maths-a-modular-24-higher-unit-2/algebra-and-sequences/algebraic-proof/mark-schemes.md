@@ -1095,7 +1095,7 @@ $(x+\frac{1}{2})^{2}\geq0$** for all values of ****x****, **$\therefore(x+\frac{
 ## Q33 — medium — 1 marks · exam-questions
 
 ### 12((b)) — 1 marks
-**Final answer:** **True **`box enclose bold ✓`**    **
+**Final answer:** **True **`box ✓`**    **
 
 **   **$\frac{20 \cancel{n} }{2 \cancel{n} } = 10$**.  As 20****n**** is divisble by 2****n**** for all values of ****n****, 2****n**** is always a factor of 20****n**** ****[1]**
 

@@ -9,12 +9,12 @@ Source: https://www.savemyexams.com/igcse/maths/cie/international-maths/23/core/
 
 **FRONT**
 
-What does the notation `straight P open parentheses A close parentheses` mean, in the context of probability?
+What does the notation $\mathrm{P} ( A )$ mean, in the context of probability?
 
 
 **BACK**
 
-`straight P open parentheses A close parentheses` is the notation for the **probability of event *****A***** occurring**.
+$\mathrm{P} ( A )$ is the notation for the **probability of event *****A***** occurring**.
 
 
 
@@ -69,14 +69,14 @@ It is denoted by $A^{'}$.
 
 **FRONT**
 
-State an** equation** connecting `straight P open parentheses A close parentheses` and `straight P open parentheses A to the power of apostrophe close parentheses`.
+State an** equation** connecting $\mathrm{P} ( A )$ and $\mathrm{P} ( A^{'} )$.
 
 
 **BACK**
 
-The key equation connecting `straight P open parentheses A close parentheses` and `straight P open parentheses A to the power of apostrophe close parentheses` is `straight P open parentheses A close parentheses plus straight P open parentheses A to the power of apostrophe close parentheses equals 1`.
+The key equation connecting $\mathrm{P} ( A )$ and $\mathrm{P} ( A^{'} )$ is $\mathrm{P} ( A ) + \mathrm{P} ( A^{'} ) = 1$.
 
-It can be rearranged as `straight P open parentheses A to the power of apostrophe close parentheses equals 1 minus straight P open parentheses A close parentheses` or `straight P open parentheses A close parentheses equals 1 minus straight P open parentheses A to the power of apostrophe close parentheses`.
+It can be rearranged as $\mathrm{P} ( A^{'} ) = 1 - \mathrm{P} ( A )$ or $\mathrm{P} ( A ) = 1 - \mathrm{P} ( A^{'} )$.
 
 
 

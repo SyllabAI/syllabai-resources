@@ -247,7 +247,7 @@ $\frac{2}{12}$
 > *"There are 12 letters" also accepted*
 > *Add up the probabilities and subtract from 1. *
 
-`1 minus open parentheses 0.12 plus 0.09 plus 0.4 close parentheses equals 0.39`
+$1 - ( 0.12 + 0.09 + 0.4 ) = 0.39$
 
 * ***[1]**
 
@@ -280,7 +280,7 @@ $19-14=5$
 
 > *Add together all the numbers inside the circles and subtract from the total number of students, 40. *
 
-> `40 minus open parentheses 10 plus 14 plus 5 close parentheses equals 11`* *
+> $40 - ( 10 + 14 + 5 ) = 11$* *
 
 > *Put 11 into the box, outside the circles.*
 
@@ -412,14 +412,14 @@ $0$ **[1]**
 ### Q18
 > *There are 8 balls in total and 4 of the balls are red. This means that*
 
-`straight P open parentheses red close parentheses space equals 4 over 8 space equals 1 half`
+$\mathrm{P} ( \text{red} ) = \frac{4}{8} = 1 \frac{1}{2}$
 
 > *0.5 is equivalent to *$\frac{1}{2}$* so find the arrow pointing to this.*
 
 **E**** ****[1]**
 > *7 of the balls are colours other than blue, therefore*
 
-`straight P open parentheses not space blue close parentheses space equals 7 over 8`
+$\mathrm{P} ( \text{not} \text{blue} ) = \frac{7}{8}$
 
 > *The probability scale is split into eighths so each mark represents *$\frac{1}{8}$*. Counting up to *$\frac{7}{8}$* we can find the letter*
 

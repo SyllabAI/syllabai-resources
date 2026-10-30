@@ -217,7 +217,7 @@ State the** equation** in terms of the number of sides of a polygon, $n$, for th
 
 The** equation** in terms of the number of sides of a polygon, $n$, for the **sum of interior angles** in a polygon is:
 
-Sum of interior angles = `180 cross times open parentheses n minus 2 close parentheses`.
+Sum of interior angles = $180 \\times ( n - 2 )$.
 
 
 

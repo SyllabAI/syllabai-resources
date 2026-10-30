@@ -190,7 +190,7 @@ Write 0.046875 correct to 2 significant figures.
 
 **Q16** [2 marks]
 
-Calculate `cube root of 40`
+Calculate $\sqrt[3]{40}$
 
 Give your answer correct to 4 decimal places
 

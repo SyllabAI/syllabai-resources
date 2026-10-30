@@ -41,7 +41,7 @@ guided_study: false
 
 `H _ 1 ^ 2 + H _ 1 ^ 3 -> He _ 2 ^ 4 + n _ 0 ^ 1`
 
-- Where `H presubscript 1 presuperscript 2` (deuterium) and `H _ 1 ^ 3` (tritium) are both isotopes of hydrogen
+- Where $H_{1}^{2}$ (deuterium) and `H _ 1 ^ 3` (tritium) are both isotopes of hydrogen
 
   - These are formed through other fusion reactions in the star
 

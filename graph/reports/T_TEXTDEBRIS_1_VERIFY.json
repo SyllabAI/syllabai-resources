@@ -1,0 +1,43 @@
+{
+ "generated_utc": "2026-10-30T01:21:45Z",
+ "scanner": "scripts/textdebris_scan.py (faithful port of apps/hub/scripts/verify_corpus_23a.ts @ syllabai-v2 a3cf7a6e)",
+ "validation": "port reproduced the frozen speech-baseline.json EXACTLY on the v2 content plane pre-lane: span 655/dollar 1/textwrap 10/multiline 107/baretext 9 over 321 files",
+ "census_pre": {
+  "span": 6597,
+  "dollar": 37,
+  "textwrap": 26,
+  "multiline": 138,
+  "baretext": 947
+ },
+ "census_post": {
+  "span": 1,
+  "dollar": 5,
+  "textwrap": 0,
+  "multiline": 0,
+  "baretext": 67
+ },
+ "changed_files": 1826,
+ "changed_json": 1107,
+ "changed_md": 719,
+ "edits_applied": 20401,
+ "katex_verify": {
+  "unique_conversions": 1603,
+  "pass": 1603,
+  "fail": 0,
+  "method": "independent node katex 0.16 renderToString throwOnError re-verification of every applied tex/gapfill/repair output"
+ },
+ "json_parse": {
+  "checked": 1107,
+  "fail": 0
+ },
+ "md_discipline": {
+  "fence_parity_fail": 0,
+  "trailing_newline_violations": 0
+ },
+ "residuals": {
+  "engine_nulls": 76,
+  "currency_left_of_record": 2,
+  "prose_false_positives_protected": 22,
+  "note": "fixpoint reached round-5: re-derivation finds ZERO convertible survivors; residual enumeration in T_TEXTDEBRIS_1_RESIDUAL.json"
+ }
+}

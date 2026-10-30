@@ -403,7 +403,7 @@ Determine the total charge *Q * of an anti-proton:
 > *'Show that' questions require you to clearly outline every step of your reasoning. Scribbled out sections can confuse your examiner, so coming up with a plan on some scrap paper can help you avoid any errors when it comes to writing out the answer in full.*
 
 ### Q3
-The number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27` is:
+The number of 'up' quarks in the nucleus of $Al_{13}^{27}$ is:
 
 Determine the number of protons and neutrons:
 
@@ -484,7 +484,7 @@ The difference between quarks and antiquarks is:
 
 - `B _ 5 ^ 10` **[1 mark]**
 - `beta _ 1 ^ 0 ^ ( + ) end ^ / e _ 1 ^ 0 ^ +` **[1 mark]**
-- `nu presubscript 0 presuperscript 0` **[1 mark]** ** **
+- $nu_{0}^{0}$ **[1 mark]** ** **
 
 (ii) The change of quark is:
 

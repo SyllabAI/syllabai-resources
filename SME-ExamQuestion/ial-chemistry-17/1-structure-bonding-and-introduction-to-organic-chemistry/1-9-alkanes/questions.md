@@ -66,7 +66,7 @@ All gas volumes were measured at room temperature and pressure.
 
 A general equation for the combustion of a hydrocarbon is
 
-`straight C subscript straight x straight H subscript straight y space plus space open parentheses straight x plus y over 4 close parentheses space straight O subscript 2 space rightwards arrow space xCO subscript 2 plus space open parentheses y over 2 close parentheses space straight H subscript 2 straight O`
+$\mathrm{C}_{x} \mathrm{H}_{y} + ( \mathrm{x} + \frac{y}{4} ) \mathrm{O}_{2} \rightarrow xCO_{2} + ( \frac{y}{2} ) \mathrm{H}_{2} \mathrm{O}$
 
 Determine the molecular formula of C<sub>x</sub>H<sub>y</sub>. You **must** show your working.
 

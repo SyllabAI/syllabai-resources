@@ -168,7 +168,7 @@ The graph shows how the binding energy per nucleon depends upon nucleon number f
 ![q10-wph15-05-jan-2022-edexcel-int-as-a-level-phy](assets/003-q10-wph15-05-jan-2022-edexcel-int-as-a-level-phy.png)
 
 Which of the following can be deduced from the graph?
-- **A.** `Fe presubscript blank presuperscript 56` readily undergoes fission.
+- **A.** $\text{Fe} pre_{ } pre^{56}$ readily undergoes fission.
 - **B.** Fission releases less energy than fusion.
 - **C.** High mass nuclei cannot undergo fusion.
 - **D.** Low mass nuclei release energy during fusion.
@@ -197,4 +197,4 @@ Which of the following **cannot** be deduced from the graph?
 - **A.** Low mass nuclei release energy during fusion.
 - **B.** High mass nuclei release energy during fission.
 - **C.** Fission releases less energy than fusion.
-- **D.** `Fe presuperscript 56` is the most stable nuclide.
+- **D.** $\text{Fe} pre^{56}$ is the most stable nuclide.

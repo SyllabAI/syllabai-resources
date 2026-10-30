@@ -38,7 +38,7 @@ Light is made up of which type of elementary particle?
 
 **Q5** [1 mark]
 
-In a nucleus of Tritium, `H presubscript 1 presuperscript 3` , how many ‘down’ quarks are there?
+In a nucleus of Tritium, $H_{1}^{3}$ , how many ‘down’ quarks are there?
 
 ### Q6 — hard — 1 marks
 
@@ -58,7 +58,7 @@ What type of elementary particles are electrons ?
 
 **Q8** [1 mark]
 
-What are the numbers of hadrons, baryons and mesons in an atom of  `L presubscript 3 presuperscript 7 i`?
+What are the numbers of hadrons, baryons and mesons in an atom of  $L_{3}^{7} i$?
 
 |   | **Hadrons** | **Baryons** | **Mesons** |
 |---|---|---|---|
@@ -216,7 +216,7 @@ State the quark composition of:
 
 **Q2** [1 mark]
 
-State the number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27`.
+State the number of 'up' quarks in the nucleus of $Al_{13}^{27}$.
 
 **Q2** [2 marks]
 

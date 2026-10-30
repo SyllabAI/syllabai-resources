@@ -19,7 +19,7 @@ guided_study: false
 
 #### How do I find the mean (μ) or the standard deviation (σ) if one of them is unknown?
 
-- If the **mean **or** standard deviation** of the `X tilde N left parenthesis μ comma σ ² right parenthesis` is **unknown** then you will need to use the **standard normal distribution**
+- If the **mean **or** standard deviation** of the $X \sim N ( μ , σ ² )$ is **unknown** then you will need to use the **standard normal distribution**
 - You will need to use the formula
 
   - $z=\frac{x-μ}{σ}$ or its rearranged form $x=μ+σz$

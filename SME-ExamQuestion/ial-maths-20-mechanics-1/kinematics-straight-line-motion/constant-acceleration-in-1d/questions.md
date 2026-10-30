@@ -76,7 +76,7 @@ The diagram below shows the velocity-time graph for a particle having initial ve
 
 (ii) Show that the displacement of the particle, from its position at $t=0$, is given by
 
-`s space equals space 1 half t open parentheses u space plus space v close parentheses`
+$s = 1 \frac{1}{2} t ( u + v )$
 
 ## Q14 — medium — 6 marks · exam-questions
 

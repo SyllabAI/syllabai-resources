@@ -72,7 +72,7 @@ $u_{n}=a+(n-1)d$
 
 - Use the following formulae to find the sum of the first *n* terms of the arithmetic series:
 
-`S_ n=1 half n open curly brackets a+l close curly brackets=1 half n open curly brackets 2a+left parenthesis n−1 right parenthesis d close curly brackets space`*   *
+$S_ n=1 \frac{1}{2} n \{ a+l \}=1 \frac{1}{2} n \{ 2a+( n−1 ) d \}$*   *
 
 - $a$<sub>* *</sub>is the first term
 

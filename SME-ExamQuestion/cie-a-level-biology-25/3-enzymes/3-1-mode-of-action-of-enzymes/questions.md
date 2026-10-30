@@ -581,7 +581,7 @@ Fig. 1
 
 The rate of reaction can be calculated by using the following formula:
 
-reaction space rate space equals space fraction numerator product space produced space left parenthesis straight g space dm to the power of negative 3 end exponent right parenthesis over denominator time space left parenthesis straight s right parenthesis end fraction
+$\text{reaction} \text{rate} = \frac{product \text{produced} ( \mathrm{g} dm^{- 3} )}{time ( \mathrm{s} )}$
 
 A copy of Fig. 1 is reproduced below as** **Fig. 2.
 

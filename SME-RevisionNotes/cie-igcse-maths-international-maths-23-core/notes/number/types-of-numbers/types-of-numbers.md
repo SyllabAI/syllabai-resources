@@ -56,8 +56,8 @@ Knowing what each of these terms mean is essential.
   
     - e.g. $0.4444...=\frac{4}{9}$
     - Recurring digits are indicated by dots or bars
-    e.g.  `0.4 5 with dot on top=0.4 5 with bar on top=0.455 555 555 space...` 
-    e.g.  `0.5 with dot on top 82 4 with dot on top=0.5824 with bar on top=0.5824 5824 5824 space...`
+    e.g.  $0.4 \dot{5} =0.4 \bar{5} =0.455 555 555 ...$ 
+    e.g.  $0. \dot{5} 82 \dot{4} =0.582 \bar{4} =0.5824 5824 5824 ...$
 - An **irrational** number cannot be written as a fraction
 
   - All **non-terminating*****,*** **non-recurring** decimals are irrational numbers

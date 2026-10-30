@@ -191,7 +191,7 @@ Calculate the area of the field. Giving your answer to three significant figures
 ## Q21 — medium — 11 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A triangle *ABC* has sides $AB=xcm$,`A C equals space open parentheses x plus 8 close parentheses` *cm* and angle *BAC* =$150^{^{\circ}}$
+A triangle *ABC* has sides $AB=xcm$,$A C = ( x + 8 )$ *cm* and angle *BAC* =$150^{^{\circ}}$
 
 The area of the triangle is $2\frac{1}{4}$cm<sup>2</sup>.
 
@@ -256,7 +256,7 @@ Calculate the values of $x$and $y$ in the diagram below. Giving your answers to 
 ## Q26 — hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A triangle *ABC* has side lengths *AB* = $2x$ cm, *BC* = `open parentheses x plus 5 close parentheses` cm and *AC* = 7 cm. The angle *ABC* = 60°
+A triangle *ABC* has side lengths *AB* = $2x$ cm, *BC* = $( x + 5 )$ cm and *AC* = 7 cm. The angle *ABC* = 60°
 
 Find the value of $x$, giving your answer as a simplified surd.
 
@@ -320,7 +320,7 @@ Unicorns need at least 1234 m<sup>2</sup> each to be happy. Calculate the maximu
 ## Q33 — hard — 9 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A triangle *ABC* has sides $AB=2xcm$, `A C equals open parentheses x plus 6 close parentheses space c m` and angle $BAC=30^{^{\circ}}$.
+A triangle *ABC* has sides $AB=2xcm$, $A C = ( x + 6 ) c m$ and angle $BAC=30^{^{\circ}}$.
 
 The area of the triangle is  $5\frac{3}{4}$ cm<sup>2</sup>.
 
@@ -371,7 +371,7 @@ Given that the total perimeter of the triangle is 37.8 cm, find the area of the 
 ## Q37 — very_hard — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-In a triangle *ABC*, $AB=2x$ cm, $BC=10$ cm and `A C equals open parentheses 20 minus 2 x close parentheses` cm, angle $ABC=θ$°.
+In a triangle *ABC*, $AB=2x$ cm, $BC=10$ cm and $A C = ( 20 - 2 x )$ cm, angle $ABC=θ$°.
 
 Show that $\mathrm{cos}θ=\frac{4x-15}{2x}$ .
 
@@ -419,14 +419,14 @@ State one assumption you have made for your answer in part (a).
 ## Q42 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-A triangle *ABC* has sides *AB* = $x$ cm, *BC* = `open parentheses 4 minus x close parentheses` cm, angle *BAC* = $θ$ and angle *BCA* = 30°.
+A triangle *ABC* has sides *AB* = $x$ cm, *BC* = $( 4 - x )$ cm, angle *BAC* = $θ$ and angle *BCA* = 30°.
 
-Given that $\mathrm{sin}θ=\frac{1}{\sqrt{2}}$ , show that `x equals 4 open parentheses square root of 2 minus 1 close parentheses` .
+Given that $\mathrm{sin}θ=\frac{1}{\sqrt{2}}$ , show that $x = 4 ( \sqrt{2} - 1 )$ .
 
 ## Q43 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A triangle *ABC* has sides $AB=3xcm$,`A C equals open parentheses x plus 5 close parentheses c m`  and angle *BAC*$=150^{\circ}$ .
+A triangle *ABC* has sides $AB=3xcm$,$A C = ( x + 5 ) c m$  and angle *BAC*$=150^{\circ}$ .
 
 The area of the triangle is $7\frac{1}{4}$cm<sup>2</sup>.
 

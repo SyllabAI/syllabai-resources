@@ -369,7 +369,7 @@ Find the values of *c* for which the function $f(x)=x^{2}+8x+c$ has no real root
 ## Q40 — very_hard — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The graph below shows the curve $y=f(x)$ where `straight f open parentheses x close parentheses equals 4 minus x squared over 8`.
+The graph below shows the curve $y=f(x)$ where $\mathrm{f} ( x ) = 4 - \frac{x^{2}}{8}$.
 
 The curve is to be used as the model for the arch on a bridge where the water level under the bridge is represented by the *x*-axis. All measurements are in meters.
 
@@ -398,7 +398,7 @@ Hence show that $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$.
 ## Q42 — very_hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The function `straight f open parentheses x close parentheses` is defined by $f(x)=(k-1)x^{2}-(k-2)x-2k,x\inℝ$.
+The function $\mathrm{f} ( x )$ is defined by $f(x)=(k-1)x^{2}-(k-2)x-2k,x\inℝ$.
 
 The function $g(x)$ is defined by $g(x)=(k-1)x^{2}-3kx+k+1,x\inℝ$.
 

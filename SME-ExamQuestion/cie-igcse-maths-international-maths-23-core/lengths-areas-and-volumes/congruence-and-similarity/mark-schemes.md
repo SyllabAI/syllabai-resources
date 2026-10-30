@@ -57,9 +57,7 @@ $PQ=9.1\mathrm{cm}$ **[1]**
 ### Q4
 > *Work out the angle **ACB **by adding together *$37^{\circ}$* and *$78^{\circ}$* and subtracting from *$180^{\circ}$* (angles in a triangle add up to *$180^{\circ}$*). *
 
-`180 minus open parentheses 37 plus 78 close parentheses equals 65
-
-Angle space A C B space equals 65 degree`
+$180 - ( 37 + 78 ) = 65 \text{Angle} A C B = 65^{\circ}$
 
 **[1]**
 

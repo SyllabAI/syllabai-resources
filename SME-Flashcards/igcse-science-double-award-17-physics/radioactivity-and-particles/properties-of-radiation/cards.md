@@ -216,14 +216,14 @@ Two different isotopes of uranium have the **same **number of **protons** but a 
 
 The following atoms are all possible isotopes of chlorine (symbol Cl):
 
-`Cl presubscript 17 presuperscript 35`,  `Cl presubscript 18 presuperscript 35`,  `Cl presubscript 19 presuperscript 35`,  `Cl presubscript 20 presuperscript 35`
+$Cl_{17}^{35}$,  $Cl_{18}^{35}$,  $Cl_{19}^{35}$,  $Cl_{20}^{35}$
 
 
 **BACK**
 
 **False.**
 
-The atoms `Cl presubscript 17 presuperscript 35`,  `Cl presubscript 18 presuperscript 35`,  `Cl presubscript 19 presuperscript 35`,  `Cl presubscript 20 presuperscript 35` are **not **possible isotopes of chlorine as they have the **same **mass number but **different **atomic numbers.
+The atoms $Cl_{17}^{35}$,  $Cl_{18}^{35}$,  $Cl_{19}^{35}$,  $Cl_{20}^{35}$ are **not **possible isotopes of chlorine as they have the **same **mass number but **different **atomic numbers.
 
 Isotopes of an element must have the **same atomic number **but **different mass numbers**.
 
@@ -237,14 +237,14 @@ Isotopes of an element must have the **same atomic number **but **different mass
 
 The following atoms are all possible isotopes of iron (symbol Fe):
 
-`Fe presubscript 26 presuperscript 54`,  `Fe presubscript 26 presuperscript 56`,  `Fe presubscript 26 presuperscript 57`,  `Fe presubscript 26 presuperscript 58`
+$Fe_{26}^{54}$,  $Fe_{26}^{56}$,  $Fe_{26}^{57}$,  $Fe_{26}^{58}$
 
 
 **BACK**
 
 **True.**
 
-The atoms `Fe presubscript 26 presuperscript 54`,  `Fe presubscript 26 presuperscript 56`,  `Fe presubscript 26 presuperscript 57`,  `Fe presubscript 26 presuperscript 58` are all possible isotopes of iron as they have the **same **atomic number but **different **mass numbers.
+The atoms $Fe_{26}^{54}$,  $Fe_{26}^{56}$,  $Fe_{26}^{57}$,  $Fe_{26}^{58}$ are all possible isotopes of iron as they have the **same **atomic number but **different **mass numbers.
 
 
 

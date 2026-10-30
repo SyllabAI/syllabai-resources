@@ -20,7 +20,7 @@ guided_study: true
 - The nuclide notation of an element is used to describe the constituents of the nuclei
 - An example of this notation for Lithium is:
 
-`Li presubscript 3 presuperscript 7`
+$Li_{3}^{7}$
 
 - Where:
 
@@ -48,7 +48,7 @@ guided_study: true
 - The term **nuclide** is used to refer to a nucleus with a specific combination of protons and neutrons
 
 > **Worked Example**
-> The atom `Ir presubscript 77 presuperscript 192` is a neutral atom.
+> The atom $Ir_{77}^{192}$ is a neutral atom.
 > 
 > State the number of protons, neutrons and electrons in this atom.
 > 

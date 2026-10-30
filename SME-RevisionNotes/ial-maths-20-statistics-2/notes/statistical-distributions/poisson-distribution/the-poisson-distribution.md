@@ -28,7 +28,7 @@ guided_study: false
   
     - λ has to be positive but does not have to be an integer
   - Each occurrence is **independent **of the other occurrences
-- If *X* follows a Poisson distribution then it is denoted `X tilde Po left parenthesis lambda right parenthesis`
+- If *X* follows a Poisson distribution then it is denoted $X \sim \text{Po} ( \lambda )$
 
   - **λ **is the mean number of occurrences of the event
 - The formula for the probability of r occurrences in a given interval is:

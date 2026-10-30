@@ -259,7 +259,7 @@ $4 ( 1 - \frac{22}{57} + \frac{22}{85} - \frac{22}{105} + \frac{22}{117} - \frac
 
 **[1]**
 
-*Show that this is within 0.1 of 3.14* *Use the *`box enclose Ans`* button to help here; *`3.14 - box Ans`
+*Show that this is within 0.1 of 3.14* *Use the *`box Ans`* button to help here; *`3.14 - box Ans`
 
 **3.14 - 3.041839619 = 0.09816038107 which is less than 0.1** **[1]** **Full working must be shown**
 
@@ -452,7 +452,7 @@ $\frac{29^{2} - 4.6}{ \sqrt{( 35 - 1.9^{3} )} }$
 
 > *6 is the fourth significant figure*
 
-`157. circle enclose 6 68255`
+$157. \textcircled{6} 68255$
 
 > *After the 6, there is another 6, so it will round up*
 

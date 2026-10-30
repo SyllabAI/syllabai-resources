@@ -73,7 +73,7 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
   - Plot these two points on the scatter diagram and **draw a straight line** through them
   
     - Use a ruler!
-- A regression line drawn from its equation will **always** go through the ***mean point***, `(x with bar on top comma y with bar on top)`** **for the data set
+- A regression line drawn from its equation will **always** go through the ***mean point***, $( \bar{x} , \bar{y} )$** **for the data set
 
   - You may be required to use this fact in an exam question
 
@@ -122,9 +122,7 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
 > 
 > > *Find the coordinates of two points on the line and draw the line through these points*
 > 
-> `when space x equals 0 comma space space y equals 62.1 open parentheses 0 close parentheses plus 20.0 equals 20.0
-> 
-> when space x equals 10 comma space space y equals 62.1 open parentheses 10 close parentheses plus 20.0 equals 641`
+> `when x = 0 , y = 62.1 ( 0 ) + 20.0 = 20.0 when x = 10 , y = 62.1 ( 10 ) + 20.0 = 641`
 > 
 > > *So draw the line through the points (0, 20) and (10, 641)*
 > 
@@ -134,7 +132,7 @@ Write down the **values** for `equation`$m$ and $b$produced by your calculator
 > 
 > (b) Use this information to find the mean of the data values for the calories burned.
 > 
-> > *Use the fact that the regression line always goes through the mean point* `(x with bar on top comma y with bar on top)`
+> > *Use the fact that the regression line always goes through the mean point* $( \bar{x} , \bar{y} )$
 > 
 > > *Draw a vertical line up from 8 on the **x-**axis until it hits the regression line*
 > *Then draw a horizontal line from there until it hits the **y-**axis*

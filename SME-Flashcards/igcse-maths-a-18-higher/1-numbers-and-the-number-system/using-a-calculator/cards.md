@@ -18,7 +18,7 @@ To find the **square **of -13, you would type $-13^{2}$ into your calculator.
 
 **False.**
 
-To find the **square **of -13, you would type `open parentheses negative 13 close parentheses squared` into your calculator.
+To find the **square **of -13, you would type $( - 13 )^{2}$ into your calculator.
 
 Your calculator applies the order of operations so it will square before multiplying by -1 unless you use brackets.
 
@@ -39,7 +39,7 @@ Typing $\frac{2+5}{3-1}$into a **calculator **is the **same **as $2+5\div3-1$.
 
 Typing $\frac{2+5}{3-1}$into a **calculator **is not the **same **as $2+5\div3-1$.
 
-Imagine invisible brackets around the numerator and denominator, giving `open parentheses 2 plus 5 close parentheses divided by open parentheses 3 minus 1 close parentheses`.
+Imagine invisible brackets around the numerator and denominator, giving $( 2 + 5 ) \div ( 3 - 1 )$.
 
 
 
@@ -52,7 +52,7 @@ How do you use a **calculator **to find the **cube root** of a number?
 
 **BACK**
 
-To find the **cube root** of a number on a **calculator**, find the button that looks like `cube root of blank`.
+To find the **cube root** of a number on a **calculator**, find the button that looks like $\sqrt[3]{ }$.
 
 Be careful, this is different to typing 3 followed by the square root button, $3\sqrt{}$.
 

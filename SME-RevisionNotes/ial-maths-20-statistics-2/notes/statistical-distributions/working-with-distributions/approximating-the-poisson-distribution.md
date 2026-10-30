@@ -60,7 +60,7 @@ Calculating probabilities using a binomial or Poisson distribution can take a wh
 
 #### When can I use a normal distribution to approximate a Poisson distribution?
 
-- A Poisson distribution `X tilde P o left parenthesis lambda right parenthesis`  can be **approximated** by a normal distribution `X_ N tilde N left parenthesis μ comma σ ² right parenthesis`  provided
+- A Poisson distribution $X \sim P o ( \lambda )$  can be **approximated** by a normal distribution $X_ N \sim N ( μ , σ ² )$  provided
 
   - $λ$** is large**
 - Remember that the mean and variance of a Poisson distribution are approximately equal, therefore the parameters of the approximating distribution will be:

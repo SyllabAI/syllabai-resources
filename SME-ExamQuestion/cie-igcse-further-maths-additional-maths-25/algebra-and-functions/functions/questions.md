@@ -307,7 +307,7 @@ Find the range of $f$.
 The functions straight f and straight g are defined as follows.
 
 straight f left parenthesis x right parenthesis space equals space x squared space plus 4 x space space for space space x space element of space R space space
-straight g left parenthesis x right parenthesis space equals space 1 plus straight e to the power of 2 x end exponent space space for space space space x space element of space R
+$\mathrm{g} ( x ) = 1 + \mathrm{e}^{2 x} \text{for} x \in R$
 
 Write down the range of $g$.
 

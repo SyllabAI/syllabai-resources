@@ -163,7 +163,7 @@ guided_study: true
 | uranium | 92 | 143 | 92 |
 
 > **Worked Example**
-> The element symbol for gold is `Au presubscript 79 presuperscript 197`.
+> The element symbol for gold is $Au_{79}^{197}$.
 > 
 > How many protons, neutrons and electrons are in an atom of gold?
 > 

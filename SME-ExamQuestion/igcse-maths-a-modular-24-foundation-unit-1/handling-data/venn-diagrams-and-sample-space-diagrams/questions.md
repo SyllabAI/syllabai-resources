@@ -116,9 +116,7 @@ ii) Find the probability that the product is a multiple of 3.
 ## Q6 — easy — 5 marks · exam-questions
 
 ### 1((a)) — 3 marks — command: complete — structured — from paper June 2019 · 1MA1/3H
-`calligraphic E space equals space open curly brackets 1 comma space 2 comma space 3 comma space 4 comma space 5 comma space 6 comma space 7 comma space 8 comma space 9 close curly brackets
-A space equals space open curly brackets 1 comma space 5 comma space 6 comma space 8 comma space 9 close curly brackets
-B space equals space open curly brackets 2 comma space 6 comma space 9 close curly brackets`
+`calligraphic E = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 } A = { 1 , 5 , 6 , 8 , 9 } B = { 2 , 6 , 9 }`
 
 ![q4a-5-2-easy-edexcel-gcse-maths](assets/013-q4a-5-2-easy-edexcel-gcse-maths.png)
 

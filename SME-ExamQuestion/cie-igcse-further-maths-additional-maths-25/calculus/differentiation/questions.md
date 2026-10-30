@@ -94,7 +94,7 @@ Hence write down the $x$-coordinate of the stationary point of the curve.
 
 A curve has equation y space equals space left parenthesis 2 x minus 1 right parenthesis space square root of 4 x plus 3 end root.
 
-fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 4 open parentheses 3 x plus 1 close parentheses over denominator square root of 4 x plus 3 end root end fraction
+$\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{4 ( 3 x + 1 )}{ \sqrt{4 x + 3} }$
 
 The x-coordinate of the stationary point of the curve is x equals negative 1 third.
 
@@ -188,9 +188,9 @@ Given that $y = ( x^{2} - 1 ) \sqrt{5 x + 2}$, show that $\frac{dy}{dx}=\frac{Ax
 
 **Extract:**
 
-Given that y equals open parentheses x squared minus 1 close parentheses square root of 5 x plus 2 end root, show that fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator A x squared plus B x plus C over denominator 2 square root of 5 x plus 2 end root end fraction, where A comma space B and C are integers.
+`Given that y = ( x ^2 - 1 ) sqrt( 5 x + 2 ), show that ( d y)/( d x) = (A x ^2 + B x + C)/(2 sqrt( 5 x + 2 )), where A , B and C are integers.`
 
-The derivative is: fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 25 x squared plus 8 x minus 5 over denominator 2 square root of 5 x plus 2 end root end fraction
+$ \text{derivative} is: \frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{25 x^{2} + 8 x - 5}{2 \sqrt{5 x + 2} }$
 
 Find the coordinates of the stationary point of the curve $y = ( x^{2} - 1 ) \sqrt{5 x + 2} \text{for} x > 0$. Give each coordinate correct to 2 significant figures.
 
@@ -201,7 +201,7 @@ Find the coordinates of the stationary point of the curve $y = ( x^{2} - 1 ) \sq
 
 **Extract:**
 
-Given that y equals open parentheses x squared minus 1 close parentheses square root of 5 x plus 2 end root, from part (a): fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 25 x squared plus 8 x minus 5 over denominator 2 square root of 5 x plus 2 end root end fraction
+$\text{Given} \text{that} y = ( x^{2} - 1 ) \sqrt{5 x + 2} , \text{from} \text{part} (a): \frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{25 x^{2} + 8 x - 5}{2 \sqrt{5 x + 2} }$
 
 From part (b): The stationary point of the curve y equals open parentheses x squared minus 1 close parentheses square root of 5 x plus 2 end root space for space x greater than 0 occurs at x equals 0.315 and y equals minus 1.70 (coordinates to 2 significant figures).
 
@@ -422,7 +422,7 @@ Find, in terms of $x$, the total time, $Ts$, Joseph takes for the journey.
 
 The rectangle ABCDE represents a ploughed field where AB = 300 m and AE = 400 m. Joseph needs to walk from A to D in the least possible time. He can walk at 0.9 ms⁻¹ on the ploughed field and at 1.5 ms⁻¹ on any part of the path BCD along the edge of the field. He walks from A to C and then from C to D. The distance BC = x m.
 
-T equals 10 over 9 square root of 90 space 000 plus x squared end root plus fraction numerator 2 open parentheses 400 minus x close parentheses over denominator 3 end fraction
+$T = \frac{10}{9} \sqrt{90 000 + x^{2}} + \frac{2 ( 400 - x )}{3}$
 
 Given that $x$ can vary, find the value of $x$ for which $T$ is a minimum and hence find the minimum value of $T$.
 
@@ -471,11 +471,11 @@ Find the equation of the normal to the curve at the point where $x=\sqrt{2}$.
 
 **Extract:**
 
-A curve has equation y equals fraction numerator ln open parentheses 3 x squared minus 5 close parentheses over denominator 2 x plus 1 end fraction space for space 3 x squared greater than 5
+$A \text{curve} \text{has} \text{equation} y = \frac{\ln ( 3 x^{2} - 5 )}{2 x + 1} \text{for} 3 x^{2} > 5$
 
 At the point where x space equals space square root of 2:
 
-fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 6 square root of 2 over denominator 2 square root of 2 plus 1 end fraction
+$\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{6 \sqrt{2} }{2 \sqrt{2} + 1}$
 
 Find the approximate change in $y$ as $x$ increases from $\sqrt{2}\mathrm{to}\sqrt{2}+h$, where $h$ is small.
 
@@ -497,9 +497,9 @@ Find the exact value of $\frac{dy}{dx}$ when $x=\frac{π}{3}$.
 
 **Extract:**
 
-It is given that y equals fraction numerator tan space 3 x over denominator sin space x end fraction.
+$\text{It} \text{is} \text{given} \text{that} y = \frac{\tan 3 x}{\sin x} .$
 
-Find the exact value of fraction numerator straight d y over denominator straight d x end fraction when x equals straight pi over 3.
+$\text{Find} \text{exact} \text{value} \frac{ \mathrm{d} y}{ \mathrm{d} x} \text{when} x = \frac{\mathrm{\pi }}{3} .$
 
 At x = π/3, dy/dx = 2√3
 
@@ -512,9 +512,9 @@ Hence find the approximate change in $y$ as $x$ increases from $\frac{π}{3}\mat
 
 **Extract:**
 
-It is given that y equals fraction numerator tan space 3 x over denominator sin space x end fraction.
+$\text{It} \text{is} \text{given} \text{that} y = \frac{\tan 3 x}{\sin x} .$
 
-Find the exact value of fraction numerator straight d y over denominator straight d x end fraction when x equals straight pi over 3.
+$\text{Find} \text{exact} \text{value} \frac{ \mathrm{d} y}{ \mathrm{d} x} \text{when} x = \frac{\mathrm{\pi }}{3} .$
 
 Given that $x$ is increasing at the rate of 3 units per second, find the corresponding rate of change in $y$ when $x=\frac{π}{3}$ , giving your answer in its simplest surd form.
 
@@ -615,17 +615,17 @@ Given that $y=\frac{e^{2x-3}}{x^{2}+1}$, find $\frac{dy}{dx}$.
 
 **Extract:**
 
-Given that y equals fraction numerator straight e to the power of 2 x minus 3 end exponent over denominator x squared plus 1 end fraction, find fraction numerator straight d y over denominator straight d x end fraction.
+$\text{Given} \text{that} y = \frac{ \mathrm{e}^{2 x - 3} }{x^{2} + 1} , \text{find} \frac{ \mathrm{d} y}{ \mathrm{d} x} .$
 
 Differentiate the equation using the quotient rule and chain rule.
 
-u equals straight e to the power of 2 x minus 3 end exponent    v equals x squared plus 1
+$u = \mathrm{e}^{2 x - 3} v = x^{2} + 1$
 
-fraction numerator straight d u over denominator straight d x end fraction equals 2 straight e to the power of 2 x minus 3 end exponent  fraction numerator straight d v over denominator straight d x end fraction equals 2 x
+$\frac{ \mathrm{d} u}{ \mathrm{d} x} = 2 \mathrm{e}^{2 x - 3} \frac{ \mathrm{d} v}{ \mathrm{d} x} = 2 x$
 
-Substitute into the quotient rule, fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator open parentheses v close parentheses open parentheses fraction numerator straight d u over denominator straight d x end fraction close parentheses minus open parentheses u close parentheses open parentheses fraction numerator straight d v over denominator straight d x end fraction close parentheses over denominator v squared end fraction.
+$\text{Substitute} \text{into} \text{quotient} rule, \frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{( v ) ( \frac{ \mathrm{d} u}{ \mathrm{d} x} ) - ( u ) ( \frac{ \mathrm{d} v}{ \mathrm{d} x} )}{v^{2}} .$
 
-fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator open parentheses x squared plus 1 close parentheses open parentheses 2 straight e to the power of 2 x minus 3 end exponent close parentheses minus open parentheses 2 x close parentheses open parentheses straight e to the power of 2 x minus 3 end exponent close parentheses over denominator open parentheses x squared plus 1 close parentheses squared end fraction
+$\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{( x^{2} + 1 ) ( 2 \mathrm{e}^{2 x - 3} ) - ( 2 x ) ( \mathrm{e}^{2 x - 3} )}{( x^{2} + 1 )^{2}}$
 
 Hence, given that $y$ is increasing at the rate of 2 units per second, find the exact rate of change of $x$ when $x=2$.
 

@@ -370,8 +370,8 @@ The table shows the expected number of speckled chicks, white chicks and black c
 | **Speckled** | **White** | **Black** |   |
 | Observed number (O) | 243 | 125 | 112 |
 | Expected number (E) | 240 | 120 | 120 |
-| `open parentheses straight O minus straight E close parentheses` |   |   |   |
-| `open parentheses straight O minus straight E close parentheses squared over straight E` |   |   |   |
+| $( \mathrm{O} - \mathrm{E} )$ |   |   |   |
+| `( O - E ) ^2 / E` |   |   |   |
 
 This table can be used in a statistics test.
 
@@ -385,7 +385,7 @@ This table can be used in a statistics test.
 
 (iii)     Calculate
 
-`sum for blank of open parentheses straight O minus straight E close parentheses squared over straight E`
+`_ of ( O - E ) ^2 / E`
 
 **(1)**
 

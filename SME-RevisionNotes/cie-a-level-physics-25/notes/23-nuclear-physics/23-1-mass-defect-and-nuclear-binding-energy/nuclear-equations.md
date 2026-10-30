@@ -21,7 +21,7 @@ guided_study: true
 
 ![AZX Notation, downloadable AS & A Level Physics revision notes](../../../assets/bd0701b0056a-11-1-3-azx-notation.png)
 
-`X presubscript Z presuperscript A`*** notation is used to describe the constituents of a nucleus***
+$X pre_{Z} pre^{A}$*** notation is used to describe the constituents of a nucleus***
 
 - The top number A represents the **nucleon **number or the **mass** number
 

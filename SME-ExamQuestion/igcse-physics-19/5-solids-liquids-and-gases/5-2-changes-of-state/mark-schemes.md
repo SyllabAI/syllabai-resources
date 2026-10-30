@@ -356,7 +356,7 @@ List the known quantities:
 Substitute into the equation for specific heat capacity to calculate the energy needed:
 
 - $Q=mcΔθ$
-- `Q space equals space 0.170 space cross times space 4200 space cross times space open parentheses 80 minus 55 close parentheses` **[1 mark]**
+- $Q = 0.170 \\times 4200 \\times ( 80 - 55 )$ **[1 mark]**
 - Energy needed = 17 850 = 18 000 J (2 s.f) **[1 mark]**
 
 **[Total: 3 marks]**

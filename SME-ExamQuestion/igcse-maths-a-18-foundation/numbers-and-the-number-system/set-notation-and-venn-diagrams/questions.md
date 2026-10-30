@@ -6,9 +6,9 @@
 ## Q1 — easy — 5 marks · exam-questions
 
 ### 6((a)) — 3 marks — command: complete — structured — from paper Specimen paper · 4MA1/1F
-`calligraphic E space equals open curly brackets 1 comma space 2 comma space 3 comma space 4 comma space 5 comma space 6 comma space 7 comma space 8 comma space 9 comma space 10 comma space 11 comma space 12 close curly brackets` 
-`A equals open curly brackets 1 comma space 2 comma space 3 comma space 4 comma space 6 comma space 12 close curly brackets`
-`B equals open curly brackets 2 comma space 3 comma space 5 comma space 7 comma space 11 close curly brackets`
+`calligraphic E = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 }` 
+$A = \{ 1 , 2 , 3 , 4 , 6 , 12 \}$
+$B = \{ 2 , 3 , 5 , 7 , 11 \}$
 
 Complete the Venn diagram to show this information.
 
@@ -24,9 +24,9 @@ List the members of the set
 ## Q2 — medium — 3 marks · exam-questions
 
 ### 15() — 3 marks — command: complete — structured — from paper 2023 June · 4MA1/1F
-`calligraphic E equals open curly brackets 5 comma space 6 comma space 7 comma space 8 comma space 9 comma space 10 comma space 11 comma space 12 comma space 13 comma space 14 comma space 15 comma space 16 comma space 17 comma space 18 comma space 19 comma space 20 close curly brackets`
+`calligraphic E = { 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 }`
 
-`A equals open curly brackets odd space numbers close curly brackets space space space space space space space B equals open curly brackets multiples space of space 5 close curly brackets`
+`A = { odd numbers } B = { multiples of 5 }`
 
 Complete the Venn diagram for this information.
 
@@ -45,14 +45,12 @@ List the members of the set $A$
 List the members of the set $A\capB$
 
 ### 15((c)) — 1 mark — command: list — structured — from paper 2023 Nov · 4MA1/1F
-List the members of the set `open parentheses A union B close parentheses apostrophe`
+List the members of the set $( A \cup B ) '$
 
 ## Q4 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — command: complete — structured
-`xi space equals space open curly brackets 2 comma space 4 comma space 6 comma space 8 comma space 10 comma space 12 comma space 14 comma space 16 comma space 18 comma space 20 comma space 22 comma space 24 comma space 26 comma space 28 comma space 30 close curly brackets
-A equals space open curly brackets Multiples space of space 3 close curly brackets
-B equals open curly brackets Factors space of space 12 close curly brackets`
+`xi = { 2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 , 20 , 22 , 24 , 26 , 28 , 30 } A = { Multiples of 3 } B = { Factors of 12 }`
 
 Complete the Venn diagram to show this information.
 
@@ -62,4 +60,4 @@ Complete the Venn diagram to show this information.
 List the members of the set  $A\capB$.
 
 ### 3() — 1 mark — command: find — structured
-Find  `straight n open parentheses A union B close parentheses`
+Find  $\mathrm{n} ( A \cup B )$

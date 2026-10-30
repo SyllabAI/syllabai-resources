@@ -828,7 +828,7 @@
      ],
      "part_tier": "higher_only",
      "problem_md": "Tick whether the following statement is true or false.\n\nGive a reason for your answer.\n\nWhen $n$ is a positive integer, the value of $2n$ is **always** a factor of the value of $20n$.\n\nTrue    $\\text{square}$      False    $\\text{square}$",
-     "solution_md": "**Final answer:** **True **`box enclose bold ✓`**    **\n\n**   **$\\frac{20 \\cancel{n} }{2 \\cancel{n} } = 10$**.  As 20****n**** is divisble by 2****n**** for all values of ****n****, 2****n**** is always a factor of 20****n**** ****[1]**",
+     "solution_md": "**Final answer:** **True **`box ✓`**    **\n\n**   **$\\frac{20 \\cancel{n} }{2 \\cancel{n} } = 10$**.  As 20****n**** is divisble by 2****n**** for all values of ****n****, 2****n**** is always a factor of 20****n**** ****[1]**",
      "equations": [
       {
        "latex": "n",
@@ -883,12 +883,12 @@
       {
        "latex": "\\frac{2n+2n+2+2n+4+2n+6}{4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>4</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>6</mn><mo> </mo></mrow><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 n space plus space 2 n space plus space 2 space plus space 2 n plus 4 space plus space 2 n space plus space 6 space over denominator 4 end fraction"
+       "alt": "(2 n + 2 n + 2 + 2 n + 4 + 2 n + 6 )/(4)"
       },
       {
        "latex": "\\frac{2n+2n+2n+2n+2+4+6}{4}=\\frac{8n+12}{4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo>+</mo><mn>4</mn><mo> </mo><mo>+</mo><mo> </mo><mn>6</mn><mo> </mo></mrow><mn>4</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>8</mn><mi>n</mi><mo> </mo><mo>+</mo><mo> </mo><mn>12</mn><mo> </mo></mrow><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 n space plus space 2 n space plus space 2 n space plus space 2 n space plus space 2 plus 4 space plus space 6 space over denominator 4 end fraction space equals space fraction numerator 8 n space plus space 12 space over denominator 4 end fraction"
+       "alt": "(2 n + 2 n + 2 n + 2 n + 2 + 4 + 6 )/(4) = (8 n + 12 )/(4)"
       }
      ],
      "spec_point_codes": [
@@ -1100,7 +1100,7 @@
       {
        "latex": "\\frac{2n+3}{2n^{2}+3n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 n plus 3 over denominator 2 n squared plus 3 n end fraction"
+       "alt": "(2 n + 3)/(2 n ^2 + 3 n)"
       },
       {
        "latex": "\\frac{1}{n}",
@@ -1110,7 +1110,7 @@
       {
        "latex": "\\frac{2n+3}{2n^{2}+3n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 n plus 3 over denominator 2 n squared plus 3 n end fraction"
+       "alt": "(2 n + 3)/(2 n ^2 + 3 n)"
       },
       {
        "latex": "\\frac{1}{n}",
@@ -1687,12 +1687,12 @@
       {
        "latex": "\\frac{6c^{3}+30c}{3c^{2}+15}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>6</mn><msup><mi>c</mi><mn>3</mn></msup><mo>+</mo><mn>30</mn><mi>c</mi></mrow><mrow><mn>3</mn><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mn>15</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 6 c cubed plus 30 c over denominator 3 c squared plus 15 end fraction"
+       "alt": "(6 c ^3 + 30 c)/(3 c ^2 + 15)"
       },
       {
        "latex": "\\frac{6c^{3}+30c}{3c^{2}+15}=2c",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn mathvariant=\"bold\">6</mn><msup><mi mathvariant=\"bold-italic\">c</mi><mn mathvariant=\"bold\">3</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">30</mn><mi mathvariant=\"bold-italic\">c</mi></mrow><mrow><mn mathvariant=\"bold\">3</mn><msup><mi mathvariant=\"bold-italic\">c</mi><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">+</mo><mn mathvariant=\"bold\">15</mn></mrow></mfrac><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator bold 6 bold italic c to the power of bold 3 bold plus bold 30 bold italic c over denominator bold 3 bold italic c to the power of bold 2 bold plus bold 15 end fraction bold equals bold 2 bold italic c"
+       "alt": "( 6 c ^ 3 + 30 c)/( 3 c ^ 2 + 15) = 2 c"
       }
      ],
      "spec_point_codes": [
@@ -1773,7 +1773,7 @@
       {
        "latex": "\\frac{m+1}{n+1}-\\frac{m}{n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>-</mo><mfrac><mi>m</mi><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator m plus 1 over denominator n plus 1 end fraction minus m over n"
+       "alt": "(m + 1)/(n + 1) - m / n"
       },
       {
        "latex": "\\therefore\\frac{m+1}{n+1}-\\frac{m}{n}=\\frac{n-m}{n(n+1)}",
@@ -1812,7 +1812,7 @@
       {
        "latex": "\\frac{m+1}{n+1}-\\frac{m}{n}>0",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>-</mo><mfrac><mi>m</mi><mi>n</mi></mfrac><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator m plus 1 over denominator n plus 1 end fraction minus m over n greater than 0"
+       "alt": "(m + 1)/(n + 1) - m / n greater than 0"
       },
       {
        "latex": "n-m>0",
@@ -1832,7 +1832,7 @@
       {
        "latex": "(n-m)",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"bold\"><mo stretchy=\"true\">(</mo><mi mathvariant=\"bold-italic\">n</mi><mo>-</mo><mi mathvariant=\"bold-italic\">m</mi><mo stretchy=\"true\">)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin bold style stretchy left parenthesis bold italic n minus bold italic m stretchy right parenthesis end style"
+       "alt": "$\\text{begin} \\text{style} ( \\boldsymbol{n} - \\boldsymbol{m} )$"
       },
       {
        "latex": "n(n+1)",
@@ -2216,7 +2216,7 @@
       {
        "latex": "\\frac{2r^{2}}{πr^{2}}=\\frac{2}{π}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>2</mn><msup><mi>r</mi><mn>2</mn></msup></mrow><mrow><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 r squared over denominator straight pi r squared end fraction equals 2 over straight pi"
+       "alt": "(2 r ^2)/( pi r ^2) = 2 / pi"
       }
      ],
      "spec_point_codes": [
@@ -2399,7 +2399,7 @@
       {
        "latex": "n^{\\mathrm{th}}\\mathrm{term} \\mathrm{is}\\frac{n}{2n-1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold-italic\">n</mi><mi mathvariant=\"bold\">th</mi></msup><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">term</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">is</mi><mo mathvariant=\"bold\"> </mo><mfrac><mi mathvariant=\"bold-italic\">n</mi><mrow><mn mathvariant=\"bold\">2</mn><mi mathvariant=\"bold-italic\">n</mi><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "bold italic n to the power of bold th bold space bold term bold space bold is bold space fraction numerator bold italic n over denominator bold 2 bold italic n bold minus bold 1 end fraction"
+       "alt": "n ^ th term is ( n)/( 2 n - 1)"
       }
      ],
      "spec_point_codes": [
@@ -2438,7 +2438,7 @@
       {
        "latex": "\\frac{4k+1}{4}=k+\\frac{1}{4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mi>k</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 4 k plus 1 over denominator 4 end fraction equals k plus 1 fourth"
+       "alt": "(4 k + 1)/(4) = k + 1 fourth"
       }
      ],
      "spec_point_codes": [
@@ -2477,32 +2477,32 @@
       {
        "latex": "\\frac{1\\times2}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>1</mn><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 space cross times space 2 over denominator 2 end fraction space"
+       "alt": "(1 x 2)/(2)"
       },
       {
        "latex": "\\frac{2\\times3}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>2</mn><mo> </mo><mo>×</mo><mo> </mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 space cross times space 3 over denominator 2 end fraction space"
+       "alt": "(2 x 3)/(2)"
       },
       {
        "latex": "\\frac{3\\times4}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>3</mn><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 3 space cross times space 4 over denominator 2 end fraction space"
+       "alt": "(3 x 4)/(2)"
       },
       {
        "latex": "\\frac{4\\times5}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>4</mn><mo> </mo><mo>×</mo><mo> </mo><mn>5</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 4 space cross times space 5 over denominator 2 end fraction"
+       "alt": "(4 x 5)/(2)"
       },
       {
        "latex": "\\frac{5\\times6}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>5</mn><mo> </mo><mo>×</mo><mo> </mo><mn>6</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 5 space cross times space 6 over denominator 2 end fraction"
+       "alt": "(5 x 6)/(2)"
       },
       {
        "latex": "\\frac{6\\times7}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>6</mn><mo> </mo><mo>×</mo><mo> </mo><mn>7</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 6 space cross times space 7 over denominator 2 end fraction"
+       "alt": "(6 x 7)/(2)"
       }
      ],
      "spec_point_codes": [

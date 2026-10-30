@@ -43,13 +43,13 @@ guided_study: false
   - This means the heaviest elements are the most unstable and likely to undergo **fission**
 
 > **Worked Example**
-> Determine the binding energy per nucleon of Iron-56 (`F presubscript 26 presuperscript 56 e`) in MeV
+> Determine the binding energy per nucleon of Iron-56 ($F_{26}^{56} e$) in MeV
 > 
 > Mass of a neutron = 1.675 × 10<sup>−27</sup> kg
 > 
 > Mass of a proton = 1.673 × 10<sup>−27</sup> kg
 > 
-> Mass of a `F presubscript 26 presuperscript 56 e` nucleus = 9.288 × 10<sup>−26</sup> kg
+> Mass of a $F_{26}^{56} e$ nucleus = 9.288 × 10<sup>−26</sup> kg
 > 
 > **Answer:**
 > 

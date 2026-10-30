@@ -87,7 +87,7 @@ A line has equation $3y=3x--2$
 
 Circle the coordinates of the intercept of the line with the $y$-axis.
 
-| (0, 1) | (0, –1) | `open parentheses 0 comma 2 over 3 close parentheses` | `open parentheses 0 comma negative 2 over 3 close parentheses` |
+| (0, 1) | (0, –1) | $( 0 , \frac{2}{3} )$ | $( 0 , - \frac{2}{3} )$ |
 |---|---|---|---|
 
 ## Q12 — easy — 3 marks · exam-questions
@@ -308,8 +308,8 @@ Give your equation in the form  $ax+by=c$ where $a,b$ and $c$ are integers.
 ## Q33 — medium — 3 marks · exam-questions
 
 ### 13() — 3 marks — command: find — structured — from paper 2023 June  · 4MA1/1H
-$A$ is the point with coordinates `open parentheses – 5 comma space 12 close parentheses` 
-$B$ is the point with coordinates `open parentheses 19 comma space – 48 close parentheses`
+$A$ is the point with coordinates $( – 5 , 12 )$ 
+$B$ is the point with coordinates $( 19 , – 48 )$
 Find an equation of the straight line that passes through the points $A$ and $B$
 
 ## Q34 — hard — 3 marks · exam-questions
@@ -364,7 +364,7 @@ find the area of the triangle $OAB$.
 ## Q39 — hard — 5 marks · exam-questions
 
 ### 5() — 5 marks — command: find — structured — from paper Pre 17 · A Level
-The points $P$ and $Q$* *have coordinates `open parentheses negative 1 comma space 6 close parentheses` and `open parentheses 9 comma space 0 close parentheses` respectively.
+The points $P$ and $Q$* *have coordinates $( - 1 , 6 )$ and $( 9 , 0 )$ respectively.
 
 The line $l$ is perpendicular to $PQ$ and passes through the midpoint of $PQ.$
 
@@ -473,7 +473,7 @@ Find the equation of the line through P that is perpendicular to the line PQ.
 ![q2-vhard-2-16-linear-graphs-edexcel-gcse-maths](assets/004-q2-vhard-2-16-linear-graphs-edexcel-gcse-maths.png)
 
 $ABCD$ is a rhombus. 
-The coordinates of $A$ are `open parentheses 5 comma 11 close parentheses`
+The coordinates of $A$ are $( 5 , 11 )$
 
 The equation of the diagonal $DB$ is $y=\frac{1}{2}x+6$
 

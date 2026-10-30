@@ -125,7 +125,7 @@ guided_study: true
 > 
 > > *Circle the digit on the right of the third significant figure (2)*
 > 
-> `345 space circle enclose 2 56`
+> $345 \textcircled{2} 56$
 > 
 > > *This digit is less than 5 so round down*
 > 
@@ -141,7 +141,7 @@ guided_study: true
 > 
 > > *Circle the digit to the right of the third significant figure (6)*
 > 
-> `0.002 95 circle enclose 6 314`
+> $0.002 95 \textcircled{6} 314$
 > 
 > > *6 is greater than 5 so we need to round up*
 > 
@@ -158,7 +158,7 @@ guided_study: true
 > 
 > > *Circle the digit to the right of the third significant figure (7)*
 > 
-> `3.99 circle enclose 7`
+> $3.99 \textcircled{7}$
 > 
 > > *This value is greater than 5 so it will round up*
 > 

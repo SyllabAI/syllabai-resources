@@ -134,7 +134,7 @@ Find an expression for $\frac{\text{d}y}{\text{d}x}$ and hence show that the gra
 
 The equation of a curve is $\text{e}^{\text{sin}(xy)} = 1$, where $y > 0$.
 
-The points $A$ and $B$ have coordinates `open parentheses 1 half pi comma space 2 close parentheses` and `open parentheses negative 1 half pi comma space 2 close parentheses` respectively.
+The points $A$ and $B$ have coordinates $( 1 \frac{1}{2} \pi , 2 )$ and $( - 1 \frac{1}{2} \pi , 2 )$ respectively.
 
 The tangents to the curve at $A$ and $B$ meet at the point $P$. The tangent at $A$ meets the $x$-axis at $Q$, and the tangent at $B$ meets the $x$-axis at $R$.
 

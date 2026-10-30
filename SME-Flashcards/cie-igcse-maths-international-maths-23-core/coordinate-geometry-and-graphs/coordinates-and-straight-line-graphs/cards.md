@@ -26,12 +26,12 @@ On a coordinate grid, the point which is **3 units right** and **4 units up** fr
 
 **FRONT**
 
-Which coordinates would be $a$ units **left **and $b$ units **down **from the point `open parentheses x comma space y close parentheses`?
+Which coordinates would be $a$ units **left **and $b$ units **down **from the point $( x , y )$?
 
 
 **BACK**
 
-The coordinates $a$ units **left **and $b$ units **down **from the point `open parentheses x comma space y close parentheses` would be `open parentheses x minus a comma space y minus b close parentheses`.
+The coordinates $a$ units **left **and $b$ units **down **from the point $( x , y )$ would be $( x - a , y - b )$.
 
 
 
@@ -86,12 +86,12 @@ The **gradient **of a line is equal to $\frac{\mathrm{change} \mathrm{in}y}{\mat
 
 **FRONT**
 
-State the **formula **for the **gradient **of the line that passes through `open parentheses x subscript 1 comma y subscript 1 close parentheses` and `open parentheses x subscript 2 comma y subscript 2 close parentheses`.
+State the **formula **for the **gradient **of the line that passes through $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$.
 
 
 **BACK**
 
-The **formula **for the **gradient **of the line that passes through `open parentheses x subscript 1 comma y subscript 1 close parentheses` and `open parentheses x subscript 2 comma y subscript 2 close parentheses` is  $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$.
+The **formula **for the **gradient **of the line that passes through $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is  $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$.
 
 The formula $m=\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$ will also give the gradient.
 
@@ -120,14 +120,14 @@ A **positive gradient** means the line goes **upwards **from **bottom left to to
 
 **True or False?**
 
-The **gradient **of the line which passes through `open parentheses 4 comma space 5 close parentheses` and `open parentheses 1 comma space 2 close parentheses` can be found by calculating $\frac{2-5}{4-1}$.
+The **gradient **of the line which passes through $( 4 , 5 )$ and $( 1 , 2 )$ can be found by calculating $\frac{2-5}{4-1}$.
 
 
 **BACK**
 
 **False.**
 
-The **gradient **of the line which passes through `open parentheses 4 comma space 5 close parentheses` and `open parentheses 1 comma space 2 close parentheses` can **not **be found by calculating $\frac{2-5}{4-1}$.
+The **gradient **of the line which passes through $( 4 , 5 )$ and $( 1 , 2 )$ can **not **be found by calculating $\frac{2-5}{4-1}$.
 
 The order needs to be consistent. If the second coordinate is used first for the $y$ coordinates, then the second coordinate should be used first for the $x$ coordinates.
 

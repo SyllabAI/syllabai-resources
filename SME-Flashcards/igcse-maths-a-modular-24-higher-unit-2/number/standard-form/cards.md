@@ -75,7 +75,7 @@ E.g. 0.083 would be written as 8.3 x 10<sup>-2</sup>.
 
 How do you **multiply **two numbers that are written in** standard form** and give the answer in standard form **using index laws**?
 
-E.g. `open parentheses 2 cross times 10 cubed close parentheses cross times open parentheses 6 cross times 10 to the power of 5 close parentheses`
+E.g. $( 2 \\times 10^{3} ) \\times ( 6 \\times 10^{5} )$
 
 
 **BACK**
@@ -96,7 +96,7 @@ Multiply together the **values **of $a$ from both numbers and write this in stan
 
 How do you **divide **two numbers that are written in **standard form** and give the answer in standard form **using index laws**?
 
-E.g. `open parentheses 2 cross times 10 to the power of 9 close parentheses divided by open parentheses 8 cross times 10 squared close parentheses`
+E.g. $( 2 \\times 10^{9} ) \div ( 8 \\times 10^{2} )$
 
 
 **BACK**

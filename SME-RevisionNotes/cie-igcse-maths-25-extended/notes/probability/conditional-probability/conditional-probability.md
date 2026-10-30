@@ -24,7 +24,7 @@ guided_study: true
 > **Exam Hint**
 > Conditional probability can be written using formal notation.
 > 
-> The notation `straight P (A vertical line B)` describes the probability of event A occurring, **given **that event B has already occurred.
+> The notation $\mathrm{P} (A \vert B)$ describes the probability of event A occurring, **given **that event B has already occurred.
 > 
 > Note that you are **not** expected to know this notation for the exam, but you are expected to be able to calculate conditional probabilities using Venn diagrams, tree diagrams or tables.
 
@@ -51,9 +51,7 @@ guided_study: true
 > **Worked Example**
 > A Venn diagram is shown below.
 > 
-> `A equals open curly brackets 2 comma space 6 comma space 12 comma space 14 comma space 28 close curly brackets
-> B equals open curly brackets 7 comma space 14 comma space 21 comma space 28 comma space 35 close curly brackets
-> xi equals open curly brackets 1 comma space 2 comma space 5 comma space 6 comma space 7 comma space 12 comma space 14 comma space 21 comma space 28 comma space 35 close curly brackets`
+> $A = \{ 2 , 6 , 12 , 14 , 28 \} B = \{ 7 , 14 , 21 , 28 , 35 \} \xi = \{ 1 , 2 , 5 , 6 , 7 , 12 , 14 , 21 , 28 , 35 \}$
 > 
 > A number is picked at random.
 > 

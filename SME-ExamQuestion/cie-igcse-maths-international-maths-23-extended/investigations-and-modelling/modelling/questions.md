@@ -44,7 +44,7 @@ The mayor assumes that an average vehicle travels half a lap of the ring road ev
 
 A cubic model used to calculate the traffic on the ring road is given by
 
-`N equals 1 over 108 open parentheses t cubed minus 21 t squared plus 72 t plus 540 close parentheses`
+$N = \frac{1}{108} ( t^{3} - 21 t^{2} + 72 t + 540 )$
 
 where $N$ is the number of vehicles per day, measured in tens of thousands, and $t$ is the time, measured in months, from the date of the driving charge being introduced.
 
@@ -73,7 +73,7 @@ A data analyst inputs the data from the scatter graph into a computer to find th
 
 The computer outputs:
 
-`N equals 1 over 108 open parentheses t cubed minus 21 t squared plus 72 t plus 540 close parentheses`
+$N = \frac{1}{108} ( t^{3} - 21 t^{2} + 72 t + 540 )$
 
 Sketch this model on the axes provided.
 
@@ -113,7 +113,7 @@ N equals 1 over 108 open parentheses t cubed minus 21 t squared plus 72 t plus 5
 
 The negative quadratic model used was of the form
 
-`N equals negative 1 over 12 open parentheses t plus 6 close parentheses open parentheses t minus 10 close parentheses`
+$N = - \frac{1}{12} ( t + 6 ) ( t - 10 )$
 
 The mayor wishes to display the negative quadratic model and the cubic model on the same set of axes.
 
@@ -135,7 +135,7 @@ The mayor believes this is due to a delay in drivers realising that the new char
 
 To model this delay, a negative quadratic model is proposed in the form
 
-`N equals negative 1 over 12 open parentheses t plus 6 close parentheses open parentheses t minus 10 close parentheses`
+$N = - \frac{1}{12} ( t + 6 ) ( t - 10 )$
 
 A sketch of this model is shown below.
 
@@ -211,7 +211,7 @@ A simple model to relate $N$ and $t$ is given by the line of best fit:
 
 $N=a+bt$
 
-The line of best fit intersects the $N$-axis at the point $N=6$ and passes through the point `open parentheses 10 comma space 2 close parentheses`, as shown.
+The line of best fit intersects the $N$-axis at the point $N=6$ and passes through the point $( 10 , 2 )$, as shown.
 
 ![Scatter graph showing vehicles per day declining over 12 months after a driving charge with a line of best fit that has a y-intercept of 6 and passes through the point (10, 2).](assets/005-scatter-graph-showing-vehicles-per-day-declining.png)
 

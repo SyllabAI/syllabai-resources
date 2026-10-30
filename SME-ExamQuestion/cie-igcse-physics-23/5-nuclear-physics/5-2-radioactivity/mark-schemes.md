@@ -20,8 +20,8 @@
 ### Q2
 **Final answer:** **The correct answer is A**
 
-- Radium-226 (`Rn presubscript 88 presuperscript 226`) has a nucleon number of 226 and a proton number of 88
-- In alpha decay, the nucleus emits an alpha particle (`alpha presubscript 2 presuperscript 4`), which consists of 2 protons and 2 neutrons (a helium-4 nucleus)
+- Radium-226 ($Rn_{88}^{226}$) has a nucleon number of 226 and a proton number of 88
+- In alpha decay, the nucleus emits an alpha particle ($alpha_{2}^{4}$), which consists of 2 protons and 2 neutrons (a helium-4 nucleus)
 - The nucleon number decreases by 4:
 
 $226 - 4 = 222$
@@ -349,14 +349,14 @@ Take care to look at the **units** of the time axis before choosing your answer!
 > The time taken for the activity / count rate to fall to half its initial value **[1 mark]**
 The complete nuclide equation for this decay is:
 
-`text Sr end text _ 38 ^ 90 ->` `  presubscript 39 presuperscript 90`$\text{Y}+$ `_ - 1 ^ 0`$\text{β}$
+`text Sr end text _ 38 ^ 90 ->` $pre_{39} pre^{90}$$\text{Y}+$ `_ - 1 ^ 0`$\text{β}$
 
 **[2 marks]**
 
 > **[mark-scheme]**
-> 1 mark for correct nuclide `scriptbase text Y end text end scriptbase presubscript 39 presuperscript 90`
+> 1 mark for correct nuclide `text Y end text _ 39 ^ 90`
 > 
-> 1 mark for correct beta particle `scriptbase text β end text end scriptbase presubscript negative 1 end presubscript presuperscript 0`
+> 1 mark for correct beta particle `text β end text _ - 1 ^ 0`
 
 > **[exam-tip]**
 > In beta decay, a neutron in the nucleus changes into a proton and an electron (the beta particle). This means the mass number stays the same (90 → 90) and the atomic number increases by 1 (38 → 39). Always check that both the mass numbers and atomic numbers balance on each side of the equation.
@@ -567,7 +567,7 @@ Equate the proton numbers (Z) in the equation:
 - $6=7+Z$
 - $6-7=Z$
 - Therefore, Z = −1
-- So, `X presubscript negative sign 1 end presubscript presuperscript blank` **[1 mark]**
+- So, `X _ - sign 1 ^ _` **[1 mark]**
 
 Determine the nuclide X:
 
@@ -880,7 +880,7 @@ A completed nuclear equation which would score two marks is:
 
 $Rn_{86}^{222} \rightarrow Po_{84}^{218} + \ \\alpha pre_{2} pre^{4}$
 
-- `Po presubscript 84 presuperscript 218` **[1 mark]**
+- $Po_{84}^{218}$ **[1 mark]**
 - $\ \\alpha pre_{2} pre^{4}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -1173,7 +1173,7 @@ Explain why beta is used:
 
 (iv) State the number of protons in a nucleus of strontium-90:
 
-- The nuclear symbol for stronium-90 is `space presubscript 38 presuperscript 90 Sr`
+- The nuclear symbol for stronium-90 is $space_{38}^{90} \text{Sr}$
 - The bottom number is the atomic or proton number, corresponding to the number of protons
 - Therefore the number of protons is <u>38</u>; **[1 mark]**
 
@@ -1459,7 +1459,7 @@ A table that would score 3 marks should look like this:
 **[Total: 3 marks]**
 
 > *Use the revision notes to improve your confidence in being able to explain and describe these properties of radiation. Questions that lead on from this will often include identifying the type of radiation from the results of an experiment. *
-(i) To state the type of radiation emitted when `Am presubscript 95 presuperscript 241` decays into `Np presubscript 93 presuperscript 237`.
+(i) To state the type of radiation emitted when $Am_{95}^{241}$ decays into $Np_{93}^{237}$.
 
 Consider the difference in the mass numbers:
 
@@ -1469,11 +1469,11 @@ Consider the difference in the atomic numbers:
 
 - 95 − 93 = 2
 
-Identify the type of radiation `square presubscript 2 presuperscript 4`:
+Identify the type of radiation $square_{2}^{4}$:
 
 - This is an alpha / α particle; **[1 mark]**
 
-(ii) To state the type of radiation emitted when `P _ 15 ^ 32` decays into `Si presubscript 16 presuperscript 32`.
+(ii) To state the type of radiation emitted when `P _ 15 ^ 32` decays into $Si_{16}^{32}$.
 
 Consider the difference in the mass numbers:
 
@@ -1483,7 +1483,7 @@ Consider the difference in the atomic numbers:
 
 - 15 − 16 = −1
 
-Identify the type of radiation `square presubscript negative 1 end presubscript presuperscript 0`:
+Identify the type of radiation `square _ - 1 ^ 0`:
 
 - This is a beta / β particle; **[1 mark]**
 

@@ -48,7 +48,7 @@ guided_study: false
 
 - An **integral** is normally written in the form
 
-`integral f left parenthesis x right parenthesis space straight d x`
+$\int f ( x ) \mathrm{d} x$
 
 - the large operator `integral` means “integrate”
 

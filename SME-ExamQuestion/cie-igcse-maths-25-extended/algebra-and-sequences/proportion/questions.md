@@ -50,7 +50,7 @@ $y$ = ....................................................
 
 **Q4** [3 marks]
 
-$p$ is directly proportional to `open parentheses q plus 2 close parentheses squared`. 
+$p$ is directly proportional to $( q + 2 )^{2}$. 
 When $q=1$, $p=1$.
 
 Find $p$ when $q=10$.
@@ -77,7 +77,7 @@ $y=$ .................................................
 
 **Q6** [3 marks]
 
-$y$ is directly proportional to the cube root of `open parentheses x plus 3 close parentheses`. 
+$y$ is directly proportional to the cube root of $( x + 3 )$. 
 When $x=5,y=\frac{2}{3}$.   
 Find $y$ when $x=24$.
 

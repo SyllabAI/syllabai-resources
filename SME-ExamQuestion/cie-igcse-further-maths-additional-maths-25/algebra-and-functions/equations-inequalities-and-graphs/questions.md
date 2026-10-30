@@ -12,21 +12,21 @@
 
 Solve the following equation.
 
-`2 vertical line x minus 1 vertical line less or equal than vertical line 2 minus x vertical line`
+$2 \vert x - 1 \vert \text{less} \text{or} \text{equal} \text{than} \vert 2 - x \vert$
 
 ### Q2 — hard — 7 marks
 
 **Q2** [5 marks]
 
-The graph `y equals straight p open parentheses x close parentheses` where `straight p open parentheses x close parentheses equals 5 x cubed minus 17 x squared plus 16 x plus a` intersects the $x$-axis at the points `open parentheses b comma space 0 close parentheses`, `open parentheses 1 comma space 0 close parentheses` and `open parentheses c comma space 0 close parentheses` where $b<c$.
+The graph $y = \mathrm{p} ( x )$ where $\mathrm{p} ( x ) = 5 x^{3} - 17 x^{2} + 16 x + a$ intersects the $x$-axis at the points $( b , 0 )$, $( 1 , 0 )$ and $( c , 0 )$ where $b<c$.
 
 Find the constants $a$, $b$ and $c$.
 
 **Q2** [2 marks]
 
-The curve `y equals straight p open parentheses x close parentheses` has a local maximum point at `open parentheses 2 over 3 comma space 16 over 27 close parentheses` and a local minimum point at `open parentheses 8 over 5 comma space minus 36 over 25 close parentheses`.
+The curve $y = \mathrm{p} ( x )$ has a local maximum point at $( \frac{2}{3} , \frac{16}{27} )$ and a local minimum point at $( \frac{8}{5} , - \frac{36}{25} )$.
 
-Find the value of $d$ for which the equation `vertical line p open parentheses x close parentheses vertical line equals d` has exactly 5 distinct solutions.
+Find the value of $d$ for which the equation $\vert p ( x ) \vert = d$ has exactly 5 distinct solutions.
 
 ### Q3 — hard — 3 marks
 
@@ -50,7 +50,7 @@ Solve the inequality `open vertical bar 3 x plus 2 close vertical bar space grea
 
 **Q5** [3 marks]
 
-On the axes below, sketch the graph of `space y space equals space open vertical bar left parenthesis x minus 2 right parenthesis left parenthesis x plus 1 right parenthesis left parenthesis x plus 2 right parenthesis close vertical bar space`showing the coordinates of the points where the curve meets the axes.
+On the axes below, sketch the graph of $y = \left| ( x - 2 ) ( x + 1 ) ( x + 2 ) \right|$showing the coordinates of the points where the curve meets the axes.
 
 ![q1-0606-s20-qp-12-additional-maths](assets/006-q1-0606-s20-qp-12-additional-maths.png)
 
@@ -131,7 +131,7 @@ Write down the values of $x$ such that $f(x)<0$.
 
 **Q8** [3 marks]
 
-On the axes, sketch the graph of `y space equals space 5 open parentheses x plus 1 close parentheses open parentheses 3 x minus 2 close parentheses open parentheses x minus 2 close parentheses`, stating the intercepts with the coordinate axes.
+On the axes, sketch the graph of $y = 5 ( x + 1 ) ( 3 x - 2 ) ( x - 2 )$, stating the intercepts with the coordinate axes.
 
 ![q1a-june-2021-cie-igcse-additional-maths](assets/012-q1a-june-2021-cie-igcse-additional-maths.png)
 
@@ -152,7 +152,7 @@ Substitute x = 0 into y = 5(x+1)(3x-2)(x-2) to find where the curve will cross t
 y = 5(1)(-2)(-2)
 y = 20
 
-Hence find the values of $x$ for which `5 open parentheses x plus 1 close parentheses open parentheses 3 x minus 2 close parentheses open parentheses x minus 2 close parentheses greater than 0`.
+Hence find the values of $x$ for which $5 ( x + 1 ) ( 3 x - 2 ) ( x - 2 ) > 0$.
 
 *Source: June 2021 Paper 11 Q1B*
 
@@ -163,7 +163,7 @@ Hence find the values of $x$ for which `5 open parentheses x plus 1 close parent
 
 ![q1-2025-specimen-paper-1-cie-igcse-additional-maths](assets/014-q1-2025-specimen-paper-1-cie-igcse-additional-ma.png)
 
-The diagram shows the graph of `y space equals space vertical line straight f left parenthesis x right parenthesis vertical line`, where $f(x)$ is a cubic function. Find the possible expressions for $f(x)$ in factorised form.
+The diagram shows the graph of $y = \vert \mathrm{f} ( x ) \vert$, where $f(x)$ is a cubic function. Find the possible expressions for $f(x)$ in factorised form.
 
 *Source: Specimen 2025 Paper 1 Q1A*
 
@@ -175,7 +175,7 @@ The diagram shows the graph of `y space equals space vertical line straight f le
 ![q1b-2025-specimen-paper-2-cie-igcse-additional-maths](assets/015-q1b-2025-specimen-paper-2-cie-igcse-additional-m.png)
 
 The diagram shows the graph of $y=f(x),\mathrm{where}f(x)=2(x+1)^{2}(x--1)$ . 
-Use the graph to solve the inequality `space straight f left parenthesis x right parenthesis space less-than or slanted equal to space – 1 space`.
+Use the graph to solve the inequality $\mathrm{f} ( x ) less-than \text{or} \text{slanted} \text{equal} \text{to} – 1$.
 
 *Source: Specimen 2025 Paper 2 Q1B*
 
@@ -259,7 +259,7 @@ Solve the inequality `open vertical bar 4 x minus 1 close vertical bar space gre
 
 **Q14** [3 marks]
 
-Solve the equation `space 5 vertical line 5 x space – space 2 vertical line space – space 1 space equals space 14 space`.
+Solve the equation $5 \vert 5 x – 2 \vert – 1 = 14$.
 
 *Source: Specimen 2025 Paper 2 Q1A*
 
@@ -270,7 +270,7 @@ Solve the equation `space 5 vertical line 5 x space – space 2 vertical line sp
 
 ![q1-0606-w20-qp-11-additional-maths](assets/022-q1-0606-w20-qp-11-additional-maths.png)
 
-The diagram shows the graph of `y space equals space open vertical bar straight p open parentheses x close parentheses close vertical bar` , where $p(x)$ is a cubic function. Find the two possible expressions for $p(x)$.
+The diagram shows the graph of $y = \left| \mathrm{p} ( x ) \right|$ , where $p(x)$ is a cubic function. Find the two possible expressions for $p(x)$.
 
 *Source: Nov 2020 0606/11 Q1*
 
@@ -315,7 +315,7 @@ The diagram shows the graph of a cubic curve .
 
 ![q1-0606-s20-qp-11-additional-maths](assets/027-q1-0606-s20-qp-11-additional-maths.png)
 
-Find an expression for `straight f open parentheses x close parentheses`.
+Find an expression for $\mathrm{f} ( x )$.
 
 *Source: June 2020 0606/11 Q1A*
 

@@ -413,7 +413,7 @@ $1.28\times60=76.8\mathrm{minutes}$
 
 > *Round this to the nearest integer to determine the number of minutes.*
 
-`76.8 almost equal to 77 space minutes space open parentheses 0 space dp close parentheses`
+`76.8 ~= 77 minutes ( 0 dp )`
 
 > *As 1 hour is equal to *$60$* minutes, subtract *$60$* minutes from this time to determine the time in hours and minutes.*
 

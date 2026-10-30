@@ -12,7 +12,7 @@
 
 Iron acts as a catalyst in the Haber process.
 
-Complete the diagram to show the electron configuration of an atom of  `Fe presubscript 56 presuperscript 26`.
+Complete the diagram to show the electron configuration of an atom of  $Fe_{56}^{26}$.
 
 ![Blank electron box diagram for completing the electron configuration of an iron atom](assets/001-blank-electron-box-diagram-for-completing-the-el.png)
 

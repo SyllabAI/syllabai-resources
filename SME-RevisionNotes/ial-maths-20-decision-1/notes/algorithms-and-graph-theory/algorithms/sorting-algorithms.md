@@ -314,14 +314,14 @@ The **original** (full) list of items will now be in **ascending** order
 > *This is the first pass so the entire list will be the sub-list* *There are 8 values so the pivot will be the* $\frac{8+1}{2}=4.5$ *rounded up to the 5*<sup>*th*</sup> *value on the list*
 > *Pass 1 (pivot 4)*
 > 
-> | *5* | *3* | *7* | *2* | `circle enclose 4` | *5* | *9* | *6* |
+> | *5* | *3* | *7* | *2* | $\textcircled{4}$ | *5* | *9* | *6* |
 > |---|---|---|---|---|---|---|---|
 > 
 > - *STEP 2*
 > *As **descending** order is required, list items greater than the pivot (4) before it; items lower than the pivot after it*
 > *Keep the numbers in the order they are already in*
 > 
-> | *5* | *7* | *5* | *9* | *6* | `circle enclose 4` | *3* | *2* |
+> | *5* | *7* | *5* | *9* | *6* | $\textcircled{4}$ | *3* | *2* |
 > |---|---|---|---|---|---|---|---|
 > 
 > - *STEP 3*
@@ -329,43 +329,43 @@ The **original** (full) list of items will now be in **ascending** order
 > *Repeat steps 1 and 2 on these sub-lists*
 > *Pass 2 (pivots 5 and 2)*
 > 
-> | *5* | *7* | `box enclose 5` | *9* | *6* | `circle enclose 4` | *3* | `box enclose 2` |
+> | *5* | *7* | `box 5` | *9* | *6* | $\textcircled{4}$ | *3* | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *The (repeated) 5 will go into the 'greater than or equal to' sub-list (before the pivot 5 as descending)*
 > *There will be no new sub-lists at the next pass after the pivot 5 or pivot 2 as they are the lowest values in their current sub-lists*
 > 
-> | *5* | *7* | *9* | *6* | `box enclose 5` | `circle enclose 4` | *3* | `box enclose 2` |
+> | *5* | *7* | *9* | *6* | `box 5` | $\textcircled{4}$ | *3* | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *Continuing repeating steps 1 and 2 on each new sub-list until every item has been designated a pivot*
 > *Pass 3 (pivots 9 and 3)*
 > 
-> | *5* | *7* | `bottom enclose 9` | *6* | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | *5* | *7* | `bottom 9` | *6* | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
-> | `bottom enclose 9` | *5* | *7* | *6* | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom 9` | *5* | *7* | *6* | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *Pass 4 (pivot 7)*
 > 
-> | `bottom enclose 9` | *5* | `rounded box enclose 7` | *6* | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom 9` | *5* | `rounded box 7` | *6* | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
-> | `bottom enclose 9` | `rounded box enclose 7` | *5* | *6* | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom 9` | `rounded box 7` | *5* | *6* | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *Pass 5 (pivot 6)*
 > 
-> | `bottom enclose 9` | `rounded box enclose 7` | *5* | `open double vertical bar 6 close double vertical bar` | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom 9` | `rounded box 7` | *5* | `open double vertical bar 6 close double vertical bar` | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
-> | `bottom enclose 9` | `rounded box enclose 7` | `open double vertical bar 6 close double vertical bar` | *5* | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom 9` | `rounded box 7` | `open double vertical bar 6 close double vertical bar` | *5* | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *Pass 6 (pivot 5)*
 > 
-> | `bottom enclose 9` | `rounded box enclose 7` | `open double vertical bar 6 close double vertical bar` | $[ 5 ]$ | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom 9` | `rounded box 7` | `open double vertical bar 6 close double vertical bar` | $[ 5 ]$ | `box 5` | $\textcircled{4}$ | `bottom 3` | `box 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *Every value has now been designated as a pivot so the algorithm is complete and the list is in descending order*

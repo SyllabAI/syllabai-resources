@@ -8,8 +8,8 @@
 ### Q1
 **Final answer:** **The correct answer is A**
 
-- Radium-226 (`Rn presubscript 88 presuperscript 226`) has a nucleon number of 226 and a proton number of 88
-- In alpha decay, the nucleus emits an alpha particle (`alpha presubscript 2 presuperscript 4`), which consists of 2 protons and 2 neutrons (a helium-4 nucleus)
+- Radium-226 ($Rn_{88}^{226}$) has a nucleon number of 226 and a proton number of 88
+- In alpha decay, the nucleus emits an alpha particle ($alpha_{2}^{4}$), which consists of 2 protons and 2 neutrons (a helium-4 nucleus)
 - The nucleon number decreases by 4:
 
 $226 - 4 = 222$

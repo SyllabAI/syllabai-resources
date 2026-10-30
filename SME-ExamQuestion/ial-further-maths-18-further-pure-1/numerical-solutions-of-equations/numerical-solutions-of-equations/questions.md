@@ -19,7 +19,7 @@ Show that your answer to part (a) gives $α$ correct to 2 decimal places.
 ## Q2 — medium — 7 marks · exam-questions
 
 ### 3((a)) — 3 marks — structured — from paper June 2024 · WFM01/01
-`straight f left parenthesis x right parenthesis equals x cubed minus 5 square root of x minus 4 x plus 7      x greater-than or slanted equal to 0`
+$\mathrm{f} ( x ) = x^{3} - 5 \sqrt{x} - 4 x + 7      x greater-than \text{or} \text{slanted} \text{equal} \text{to} 0$
 
 The equation $f(x)=0$ has a root $α$ in the interval `left square bracket 0.25 comma space 1 right square bracket`
 
@@ -36,7 +36,7 @@ Hence, using $x_{0}=1.75$ as a first approximation to $β$, apply the Newton–R
 ## Q3 — medium — 8 marks · exam-questions
 
 ### 6() — 4 marks — structured — from paper January 2024 · WFM01/01
-`straight f left parenthesis x right parenthesis equals x minus 4 minus cos blank space open parentheses 5 square root of x close parentheses      x greater than 0`
+$\mathrm{f} ( x ) = x - 4 - \cos ( 5 \sqrt{x} )      x > 0$
 
 (a) Show that the equation $f(x)=0$ has a root $α$ in the interval `left square bracket 2.5 comma space 3.5 right square bracket`
 

@@ -48,16 +48,16 @@ $x^{2}+bx$ is the same as `(x+p)²−p²` where $p$ is **half** of $b$
 
 - You first need to **take **$a$** out** as a factor of the $x^{2}$ and $x$ terms only
 
-  - `a x²+b x+c=a open square brackets x²+b / a x close square brackets+c`
+  - $a x²+b x+c=a [ x²+b / a x ]+c$
   
     - Use **square-shaped** **brackets** here to avoid confusion with round brackets later
-  - For example,  `4x²+16x+5=4 open square brackets x²+4x close square brackets+5`
+  - For example,  $4x²+16x+5=4 [ x²+4x ]+5$
 - Then complete the square on the bit **inside** the square brackets: $x^{2}+\frac{b}{a}x$
 
-  - This gives `a open square brackets (x+p)²−p² close square brackets+c`
+  - This gives $a [ (x+p)²−p² ]+c$
   
     - where *p* is half of $\frac{b}{a}$
-  - `4 open square brackets x²+4x close square brackets+5=4 open square brackets (x+2)²−4 close square brackets+5`
+  - $4 [ x²+4x ]+5=4 [ (x+2)²−4 ]+5$
 - Finally **multiply** this expression by the $a$ outside the square brackets and **add** the $c$
 
   - `a (x+p)²−a p²+c`
@@ -65,7 +65,7 @@ $x^{2}+bx$ is the same as `(x+p)²−p²` where $p$ is **half** of $b$
   
     - Usually you are asked to give your **final answer** in the form  `a (x+p)²+q`
     - Here  $q=-ap^{2}+c$
-  - `4 open square brackets (x+2)²−4 close square brackets+5=4 (x+2)²−16+5=4 (x+2)²−11`
+  - $4 [ (x+2)²−4 ]+5=4 (x+2)²−16+5=4 (x+2)²−11$
 - For quadratics like $-x^{2}+bx+c$, do the above with $a=-1$
 
 ### How do I find the turning point by completing the square?
@@ -132,20 +132,20 @@ $x^{2}+bx$ is the same as `(x+p)²−p²` where $p$ is **half** of $b$
 > *Use square-shaped brackets*
 > * *
 > 
-> > `−3 open square brackets x²−4x close square brackets+24`
+> > $−3 [ x²−4x ]+24$
 > * *
 > 
 > > *Complete the square on the* $x^{2}-4x$ *inside the brackets (write in the form* `(x+p)²−p²` *where* $p$ *is half of* $-4$*)*
 > * *
 > 
-> > `−3 open square brackets (x−2)²−(−2)² close square brackets+24`
+> > $−3 [ (x−2)²−(−2)² ]+24$
 > * *
 > 
 > > *Simplify the numbers inside the brackets*
 > `(−2)²` *is* $4$
 > * *
 > 
-> > `−3 open square brackets (x−2)²−4 close square brackets+24`
+> > $−3 [ (x−2)²−4 ]+24$
 > * *
 > 
 > > *Multiply all the terms inside the square-shaped brackets by* $-3$

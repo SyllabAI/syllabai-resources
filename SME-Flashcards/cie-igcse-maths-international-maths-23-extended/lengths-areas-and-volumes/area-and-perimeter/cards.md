@@ -137,7 +137,7 @@ What is the** formula** for the **area of a trapezium**?
 
 **BACK**
 
-The formula for the **area of a trapezium** is `A equals 1 half open parentheses a plus b close parentheses h`
+The formula for the **area of a trapezium** is $A = 1 \frac{1}{2} ( a + b ) h$
 
 Where:
 

@@ -42,7 +42,7 @@ How much will each cleaner be paid today?
 ## Q4 — very_hard — 3 marks · exam-questions
 
 ### 16() — 3 marks — command: find — structured — from paper November 2017 · 1MA1/1H
-$y$ is directly proportional to `cube root of x`
+$y$ is directly proportional to $\sqrt[3]{x}$
 
 $y=1\frac{1}{6}$ when  $x=8$
 

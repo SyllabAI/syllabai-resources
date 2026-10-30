@@ -34,13 +34,13 @@ guided_study: true
 - STEP 2        **Locate** the graph **intersections**
 - STEP 3       **Solve** the appropriate equation(s) or inequality
 
-  - For `vertical line straight f left parenthesis x right parenthesis vertical line equals vertical line straight g left parenthesis x right parenthesis vertical line` the two possible equations are $f(x)=g(x)$ and $f(x)=-g(x)$
+  - For $\vert \mathrm{f} ( x ) \vert = \vert \mathrm{g} ( x ) \vert$ the two possible equations are $f(x)=g(x)$ and $f(x)=-g(x)$
 
 ![2-8-5-modulus-functions---solving-equations-notes-diagram-32-8-5-modulus-functions---solving-equations-notes-diagram-3_1](../../../assets/39fd36a6baa3-2-8-5-modulus-functions-solving-equations-notes-.png)
 
 > **Exam Hint**
 > - Sketching the graphs is important as solving algebraically can lead to invalid solutions.
-> - For example, *x* = 1 is a solution to $x-4=2x-5$ but it is not a solution to `vertical line x−4 vertical line=2x−5` (substitute *x* = 1 into both sides and see why it does not work).
+> - For example, *x* = 1 is a solution to $x-4=2x-5$ but it is not a solution to $\vert x−4 \vert=2x−5$ (substitute *x* = 1 into both sides and see why it does not work).
 
 > **Worked Example**
 > ![Modulus functions - Solving Equations Example Diagram 1, A Level & AS Level Pure Maths Revision Notes](assets/1ea6069faae0-2-8-5-modulus-functions-solving-equations-exampl.png)

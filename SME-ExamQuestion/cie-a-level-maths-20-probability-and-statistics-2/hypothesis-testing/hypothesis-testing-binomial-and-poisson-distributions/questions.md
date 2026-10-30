@@ -198,7 +198,7 @@ Determine the outcome of the test, at the 5% level, if Bill had used a one-taile
 
 **Q12** [3 marks]
 
-A single observation is taken from a discrete random variable `X tilde B left parenthesis 15 comma space 0.4 right parenthesis`  to test $H_{0}:p=0.4$ against $H_{1}:p<0.4$.
+A single observation is taken from a discrete random variable $X \sim B ( 15 , 0.4 )$  to test $H_{0}:p=0.4$ against $H_{1}:p<0.4$.
 
 Using a 5% level of significance, find the critical region for this test.
 
@@ -224,7 +224,7 @@ Test, at the 10% level of significance, whether Charlie’s claim is justified.
 
 **Q14** [4 marks]
 
-Harry is using the random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`  to test the hypotheses:
+Harry is using the random variable $X \sim B ( 40 , 0.15 )$  to test the hypotheses:
 
 $H_{0}:p=0.15$
 
@@ -240,7 +240,7 @@ Harry states that the critical regions are $X\leq2$ and $X\geq11$.
 
 **Q14** [4 marks]
 
-Sally is using the random variable `Y tilde B left parenthesis 35 comma 0.03 right parenthesis` to test the hypotheses:
+Sally is using the random variable $Y \sim B ( 35 , 0.03 )$ to test the hypotheses:
 
 $H_{0}:p=0.3$
 
@@ -302,11 +302,11 @@ Comment on Edward’s belief based on this observation.
 
 **Q17** [3 marks]
 
-A random variable has distribution  `X tilde B left parenthesis 20 comma p right parenthesis`.
+A random variable has distribution  $X \sim B ( 20 , p )$.
 
 In order to test the hypotheses
 
-`straight H subscript 0 ∶ p equals 0.4 space space space space space space space space space space space space space space straight H subscript 1 ∶ p not equal to 0.4`
+$\mathrm{H}_{0} ∶ p = 0.4 \mathrm{H}_{1} ∶ p \ne 0.4$
 
 a random observation of $X$ is taken and found to be 3.
 
@@ -314,7 +314,7 @@ Carry out a hypothesis test at the 2% significance level.
 
 **Q17** [3 marks]
 
-Another random variable has distribution  `Y tilde B left parenthesis m comma p right parenthesis`.
+Another random variable has distribution  $Y \sim B ( m , p )$.
 
 A random observation of is taken and found to be 0. Using the same hypotheses as above, find the maximum value of $m$ for which $H_{0}$ would not be rejected at the 2% significance level.
 
@@ -374,7 +374,7 @@ Given that teams wearing green have won 13 games from the last 15 in which they 
 
 **Q20** [5 marks]
 
-A single observation, $x$, is taken from a discrete random variable `space X tilde B left parenthesis 15 comma p right parenthesis` to test `straight H subscript 0 ∶ p equals 0.5` against  `straight H subscript 1 ∶ p not equal to 0.5`.
+A single observation, $x$, is taken from a discrete random variable $X \sim B ( 15 , p )$ to test $\mathrm{H}_{0} ∶ p = 0.5$ against  $\mathrm{H}_{1} ∶ p \ne 0.5$.
 
 For the purposes of this test, one of the critical regions is specified as being $X\geq12$.
 
@@ -488,7 +488,7 @@ The probability of a student in a primary school library returning his or her bo
 
 **Q26** [2 marks]
 
-Joanna takes a random sample of 30 students who have checked out books and finds that under the new incentive scheme 15 of them return their books on time.  She calculates the following probabilities for the random variable  `X space tilde space B left parenthesis 30 comma 0.35 right parenthesis` :
+Joanna takes a random sample of 30 students who have checked out books and finds that under the new incentive scheme 15 of them return their books on time.  She calculates the following probabilities for the random variable  $X \sim B ( 30 , 0.35 )$ :
 
 $P(X=14)=0.06112$
 
@@ -512,7 +512,7 @@ Write a conclusion for the hypothesis test, in context, if Joanna had chosen a s
 
 In a school where all the teachers drink coffee in the staffroom, a headteacher wants to see if using a new brand of coffee in the staffroom improves teachers’ report writing punctuality.  Previously, 75% of teachers in her school would meet the deadline for writing reports.  After the new brand of coffee is introduced the headteacher takes a random sample of 15 teachers, and conducts an experiment to test whether the proportion of teachers meeting the deadline on the next set of reports has improved.  The test is conducted at the 5% significance level, using the following hypotheses:
 
-`straight H subscript 0 ∶ p equals 0.75 space space space space space space space straight H subscript 1 ∶ p greater than 0.75`
+$\mathrm{H}_{0} ∶ p = 0.75 \mathrm{H}_{1} ∶ p > 0.75$
 
 (i) Write down a suitable distribution for the random variable $X$, the number of teachers in the headteacher’s sample who meet the deadline.
 
@@ -526,7 +526,7 @@ In a school where all the teachers drink coffee in the staffroom, a headteacher 
 
 A hypothesis test at the 6% significance level is carried out on a coin using the following hypotheses:
 
-`straight H subscript 0 ∶ p equals 1 half space space space space space space space space straight H subscript 1 colon p not equal to 1 half`
+$\mathrm{H}_{0} ∶ p = 1 \frac{1}{2} \mathrm{H}_{1} : p \ne 1 \frac{1}{2}$
 
 (i) Give an example of what the parameter, $p$, could represent.
 
@@ -536,7 +536,7 @@ A hypothesis test at the 6% significance level is carried out on a coin using th
 
 **Q28** [2 marks]
 
-A single observation $x$ is to be taken from a binomial distribution `X space tilde space B left parenthesis 100 comma p right parenthesis` to test the hypotheses for the coin. One tail of the critical region is found to be  $X\leq6$.
+A single observation $x$ is to be taken from a binomial distribution $X \sim B ( 100 , p )$ to test the hypotheses for the coin. One tail of the critical region is found to be  $X\leq6$.
 
 (i) Using your knowledge of the binomial distribution $B(100,0.5)$, write down the other tail of the critical region.
 
@@ -548,7 +548,7 @@ A single observation $x$ is to be taken from a binomial distribution `X space ti
 
 A study of ladybirds in the UK found that 65% of all ladybirds are found to be of the seven-spot species.  Alex believes that more than 65% of the ladybirds in his garden are of the seven-spot species.  He conducts a hypothesis test at the 5% significance level by collecting a sample of 25 ladybirds from his garden and counting the number of them that are seven-spot ladybirds.
 
-(i) Alex uses the random variable `X space tilde space B left parenthesis n comma p right parenthesis` to represent the number of seven-spot ladybirds in his sample.  Explain what $n$ and $p$ represent in the context of Alex’ experiment.
+(i) Alex uses the random variable $X \sim B ( n , p )$ to represent the number of seven-spot ladybirds in his sample.  Explain what $n$ and $p$ represent in the context of Alex’ experiment.
 
 (ii) State an assumption Alex has made in order to use the distribution in part (a)(i).
 
@@ -586,7 +586,7 @@ Write down the greatest possible probability of the hypothesis test resulting in
 
 **Q31** [3 marks]
 
-For the random variable `X space tilde space B left parenthesis 20 comma 0.3 right parenthesis` calculate
+For the random variable $X \sim B ( 20 , 0.3 )$ calculate
 
 (i) $P(X\leq2)$
 
@@ -596,7 +596,7 @@ For the random variable `X space tilde space B left parenthesis 20 comma 0.3 rig
 
 A hypothesis test is to be carried out using an observation of the random variable $X$ to test the hypotheses:
 
-`straight H subscript 0 ∶ p equals 0.3 space space space space space space space space space straight H subscript 1 ∶ p less than 0.3`
+$\mathrm{H}_{0} ∶ p = 0.3 \mathrm{H}_{1} ∶ p < 0.3$
 
 Before carrying out the test, a significance level of 5% is chosen. The critical region is defined as $X\leq2.$
 
@@ -610,9 +610,9 @@ Before carrying out the test, a significance level of 5% is chosen. The critical
 
 Alina is running for student council president at her school.  She claims she has the support of 60% of students in the school.  A rival candidate, John, wants to test at the 10% level of significance whether Alina is overestimating her support.
 
-In mathematical terms, the experiment John conducts uses an observation of the random variable  `X space tilde space B left parenthesis 100 comma p right parenthesis space space`to test the hypotheses:
+In mathematical terms, the experiment John conducts uses an observation of the random variable  $X \sim B ( 100 , p )$to test the hypotheses:
 
-`straight H subscript 0 ∶ p equals 0.6 space space space space space space space space space space space straight H subscript 1 ∶ p less than 0.6`
+$\mathrm{H}_{0} ∶ p = 0.6 \mathrm{H}_{1} ∶ p < 0.6$
 
 (i) State how many people are in John’s sample and explain what the parameter $p$ means in the context of this question.
 

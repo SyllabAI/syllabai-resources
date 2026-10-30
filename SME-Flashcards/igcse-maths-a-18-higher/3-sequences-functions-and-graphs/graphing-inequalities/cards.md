@@ -60,16 +60,16 @@ The region **above **the line satisfies the inequality.
 
 **FRONT**
 
-How could you use the point `open parentheses 0 comma space 0 close parentheses` to determine which **side **of the line $2x+3y=12$ satisfies the inequality $2x+3y>12$?
+How could you use the point $( 0 , 0 )$ to determine which **side **of the line $2x+3y=12$ satisfies the inequality $2x+3y>12$?
 
 
 **BACK**
 
-To use the point `open parentheses 0 comma space 0 close parentheses` to determine which **side **of the line $2x+3y=12$ satisfies the inequality $2x+3y>12$:
+To use the point $( 0 , 0 )$ to determine which **side **of the line $2x+3y=12$ satisfies the inequality $2x+3y>12$:
 
 - Substitute $x=0$ and $y=0$ into $2x+3y$.
-- If the answer is **greater than 12** then the side of the line containing `open parentheses 0 comma space 0 close parentheses` satisfies the inequality.
-- If the answer is **less than 12** then the side of the line which does not contain `open parentheses 0 comma space 0 close parentheses` satisfies the inequality.
+- If the answer is **greater than 12** then the side of the line containing $( 0 , 0 )$ satisfies the inequality.
+- If the answer is **less than 12** then the side of the line which does not contain $( 0 , 0 )$ satisfies the inequality.
 
 
 

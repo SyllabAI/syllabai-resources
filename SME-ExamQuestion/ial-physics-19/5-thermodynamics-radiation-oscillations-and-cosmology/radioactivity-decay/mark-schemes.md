@@ -505,7 +505,7 @@ $92=90+Z_{X}$
 
 so $Z_{X}=2$
 
-- A particle with $A=4$ and $Z=2$ is an alpha particle (`alpha presubscript 2 presuperscript 4`)
+- A particle with $A=4$ and $Z=2$ is an alpha particle ($alpha_{2}^{4}$)
 
 **A** is incorrect because a beta-minus particle (`^{\,0}_{-1}\beta`) has $A = 0$ and $Z = - 1$.
 

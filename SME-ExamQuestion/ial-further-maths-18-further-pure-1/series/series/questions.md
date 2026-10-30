@@ -6,7 +6,7 @@
 ## Q1 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured — from paper Specimen · WFM01/01
-Use the standard results for `sum from r equals 1 to n of r` and for $\sum_{r = 1}^{n} r^{3}$ to show that, for all positive integers $n$,
+Use the standard results for $\sum_{r = 1}^{n} r$ and for $\sum_{r = 1}^{n} r^{3}$ to show that, for all positive integers $n$,
 
 $\sum_{r = 1}^{n} r ( r^{2} - 3 ) = \frac{n}{4} ( n + a ) ( n + b ) ( n + c )$
 
@@ -58,7 +58,7 @@ where $a$, $b$ and $c$ are integers to be determined.
 
 **Solutions relying entirely on calculator technology are not acceptable.**
 
-Use the standard results for `sum from r equals 1 to n of r` and $\sum_{r = 1}^{n} r^{2}$ to show that for all positive integers `equation`$n$
+Use the standard results for $\sum_{r = 1}^{n} r$ and $\sum_{r = 1}^{n} r^{2}$ to show that for all positive integers `equation`$n$
 
 $\sum_{r = 1}^{n} ( 7 r - 5 )^{2} = \frac{n}{6} ( 7 n + 1 ) ( A n + B )$
 
@@ -67,7 +67,7 @@ where $A$and $B$ are integers to be determined.
 ## Q6 — medium — 8 marks · exam-questions
 
 ### 8((a)) — 5 marks — structured — from paper June 2022 · WFM01/01
-Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and `sum from r equals 1 to n of r` to show that for all positive integers $n$
+Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and $\sum_{r = 1}^{n} r$ to show that for all positive integers $n$
 
 $\sum_{r = 0}^{n} ( r + 1 ) ( r + 2 ) = 1 \frac{1}{3} ( n + 1 ) ( n + 2 ) ( n + 3 )$
 
@@ -147,7 +147,7 @@ where $a$ and $b$ are integers to be determined.
 ## Q11 — medium — 9 marks · exam-questions
 
 ### 4((a)) — 5 marks — structured — from paper October 2020 · WFM01/01
-Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and `sum from r equals 1 to n of r`  to show that
+Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and $\sum_{r = 1}^{n} r$  to show that
 
 $\sum_{r = 1}^{n} ( 2 r - 1 )^{2} = 1 \frac{1}{3} n ( 4 n^{2} - 1 )$
 

@@ -20,7 +20,7 @@ Calculate the time period of the longer pendulum, *T*<sub>1 </sub>and the shorte
 
 Calculate the time period of the whole oscillation, *T*:
 
-- `T space equals 1 half open parentheses T subscript 1 space plus space T subscript 2 close parentheses space equals 1 half open parentheses 2.01 space plus space 1.74 close parentheses` **[1 mark]**
+- $T = 1 \frac{1}{2} ( T_{1} + T_{2} ) = 1 \frac{1}{2} ( 2.01 + 1.74 )$ **[1 mark]**
 - $T=1.875=1.9s$ **[1 mark]**
 
 **[Total: 3 marks]**

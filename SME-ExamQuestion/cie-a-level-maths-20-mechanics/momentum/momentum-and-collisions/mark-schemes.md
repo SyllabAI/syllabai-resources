@@ -1978,7 +1978,7 @@ $m = \frac{6}{8}$
 > **B1**: $m = 0 . 75$ reached from correct working. As the answer is given, the equation and its rearrangement must be seen.
 The change in momentum is the momentum after the collision minus the momentum before it, keeping the positive direction from part (a)
 
-`text Change in momentum of  end text A equals open parentheses 3 cross times 4 close parentheses minus open parentheses 3 cross times 6 close parentheses`
+$\text{Change \text{in} \text{momentum} } A = ( 3 \\times 4 ) - ( 3 \\times 6 )$
 
 **[M1]**
 

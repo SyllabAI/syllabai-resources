@@ -160,7 +160,7 @@
       {
        "latex": "\\frac{\\text{Amount}}{\\text{Total}}",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mtext>Amount</mtext><mtext>Total</mtext></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator text Amount end text over denominator text Total end text end fraction"
+       "alt": "(text Amount end text)/(text Total end text)"
       },
       {
        "latex": "\\times100",
@@ -170,7 +170,7 @@
       {
        "latex": "\\frac{1.2}{16}\\times100",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>1</mn><mo>.</mo><mn>2</mn></mrow><mn>16</mn></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 1.2 over denominator 16 end fraction cross times 100"
+       "alt": "(1.2)/(16) x 100"
       }
      ]
     }
@@ -321,7 +321,7 @@
       {
        "latex": "\\frac{\\mathrm{Amount}}{\\mathrm{Original}}",
        "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mi>Amount</mi><mi>Original</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 14px style Amount over Original end style"
+       "alt": "Amount / Original"
       },
       {
        "latex": "\\times100",
@@ -413,12 +413,12 @@
       {
        "latex": "\\frac{\\mathrm{after}-\\mathrm{before}}{\\mathrm{before}}\\times100",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>after</mi><mo>-</mo><mi>before</mi></mrow><mi>before</mi></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator after minus before over denominator before end fraction cross times 100"
+       "alt": "(after - before)/(before) x 100"
       },
       {
        "latex": "\\frac{4.6-5}{5}\\times100=-8",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>4</mn><mo>.</mo><mn>6</mn><mo>-</mo><mn>5</mn></mrow><mn>5</mn></mfrac><mo>&#215;</mo><mn>100</mn><mo>=</mo><mo>-</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 4.6 minus 5 over denominator 5 end fraction cross times 100 equals negative 8"
+       "alt": "(4.6 - 5)/(5) x 100 = - 8"
       }
      ]
     }
@@ -992,12 +992,12 @@
       {
        "latex": "\\frac{\\mathrm{after}-\\mathrm{before}}{\\mathrm{before}}\\times100",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>after</mi><mo>-</mo><mi>before</mi></mrow><mi>before</mi></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator after minus before over denominator before end fraction cross times 100"
+       "alt": "(after - before)/(before) x 100"
       },
       {
        "latex": "\\frac{4784-4600}{4600}\\times100",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>4784</mn><mo>-</mo><mn>4600</mn></mrow><mn>4600</mn></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 4784 minus 4600 over denominator 4600 end fraction cross times 100"
+       "alt": "(4784 - 4600)/(4600) x 100"
       }
      ]
     }
@@ -1033,12 +1033,12 @@
       {
        "latex": "\\frac{\\mathrm{after}-\\mathrm{before}}{\\mathrm{before}}\\times100",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>after</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mi>before</mi></mrow><mi>before</mi></mfrac><mo>&#215;</mo><mn>100</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator after space minus space before over denominator before end fraction cross times 100"
+       "alt": "(after - before)/(before) x 100"
       },
       {
        "latex": "\\frac{7566-7275}{7275}\\times100=4",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>7566</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>7275</mn></mrow><mn>7275</mn></mfrac><mo>&#215;</mo><mn>100</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 7566 space minus space 7275 over denominator 7275 end fraction cross times 100 space equals space 4"
+       "alt": "(7566 - 7275)/(7275) x 100 = 4"
       }
      ]
     }

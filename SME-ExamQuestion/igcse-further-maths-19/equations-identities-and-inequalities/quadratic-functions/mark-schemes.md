@@ -446,7 +446,7 @@ Evaluate this and round to 3 significant figures
 
 $V = 466 . 945 \dots$
 
-`V equals 467 space open parentheses 3 space straight s. straight f. close parentheses`
+$V = 467 ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -1125,7 +1125,7 @@ Substitute back to find $y$, using $y = 2 x^{2}$ because it is the easier of the
 
 $y = \frac{1}{2}$
 
-`A equals open parentheses 1 half comma space 1 half close parentheses`
+$A = ( 1 \frac{1}{2} , 1 \frac{1}{2} )$
 
 **[B1]**
 
@@ -2967,7 +2967,7 @@ Find $y$ from the equation of $l$, using $k = - 2$ so the gradient is $- 1$
 
 `y = - 1 \left(- 1\right) + 1`
 
-`A equals open parentheses negative 1 comma space 2 close parentheses`
+$A = ( - 1 , 2 )$
 
 **[A1]**
 

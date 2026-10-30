@@ -195,10 +195,10 @@ Data for a nucleus and some particles are given in Table 9.1.
 
 | **nucleus or particle** | **mass / u** |
 |---|---|
-| `La presubscript 57 presuperscript 139` | 138.955 |
+| $La_{57}^{139}$ | 138.955 |
 | `n _ 0 ^ 1` | 1.00863 |
 | `p _ 1 ^ 1` | 1.00728 |
-| `e presubscript negative 1 end presubscript presuperscript 0` | 5.49 × 10<sup>–4</sup> |
+| `e _ - 1 ^ 0` | 5.49 × 10<sup>–4</sup> |
 
 One nuclear reaction that can take place in a nuclear reactor may be represented, in part, by the equation shown below.
 
@@ -226,7 +226,7 @@ nucleus or particle | mass / u
 
 [3]
 
-(ii) Calculate the binding energy per nucleon, in MeV, of lanthanum-139 ( `La presubscript 57 presuperscript 139`).
+(ii) Calculate the binding energy per nucleon, in MeV, of lanthanum-139 ( $La_{57}^{139}$).
 
 binding energy per nucleon = ..................................... MeV [3]
 
@@ -295,8 +295,8 @@ The binding energy per nucleon *E* is given in Table 1.1 below:
 
 | **nuclide** | ***E***** / MeV** |
 |---|---|
-| `Sr presubscript 38 presuperscript 95` | 8.74 |
-| `Xe presubscript 54 presuperscript 139` | 8.39 |
+| $Sr_{38}^{95}$ | 8.74 |
+| $Xe_{54}^{139}$ | 8.39 |
 | `U _ 92 ^ 235` | 7.60 |
 
 A nuclear reactor, operating at 27% efficiency, outputs 1500 MW. It uses enriched fuel containing 2% uranium–235 and 98% uranium–238.
@@ -353,9 +353,9 @@ Show that approximately 32 gamma-ray photons are released in this process.
 
 Mass of `U _ 92 ^ 235` = 235.0439u
 
-Mass of `Te presubscript 52 presuperscript 138` = 137.9603u
+Mass of $Te_{52}^{138}$ = 137.9603u
 
-Mass of `Zr presubscript 40 presuperscript 98` = 97.9197u
+Mass of $Zr_{40}^{98}$ = 97.9197u
 
 Mass of `n _ 0 ^ 1` = 1.0087u
 
@@ -367,7 +367,7 @@ You may use the fact that 1 u is the equivalent of 931.5 MeV c<sup>–2</sup>.
 
 A different fission process occurs. Fission of uranium-235 is triggered again by the absorption of a slow-moving neutron. Gamma-ray photons of wavelength 2.5 × 10^–12^ m are released. The process is described by the equation below: \$\$\_{92}^{235}U + \_{0}^{1}n \rightarrow \_{52}^{138}Te + \_{40}^{98}Zr + \gamma\$\$ In this process, 90% of the energy released is carried away as kinetic energy of the two daughter nuclei. Mass of \$\$\_{52}^{138}Te\$\$ = 137.9603u; Mass of \$\$\_{40}^{98}Zr\$\$ = 97.9197u
 
-Assuming the uranium nucleus is initially at rest, show that the `Zr presubscript 40 presuperscript 98` nucleus is emitted with a speed about 1.4 times larger than the `Te presubscript 52 presuperscript 138` nucleus.
+Assuming the uranium nucleus is initially at rest, show that the $Zr_{40}^{98}$ nucleus is emitted with a speed about 1.4 times larger than the $Te_{52}^{138}$ nucleus.
 
 ### Q8 — medium — 16 marks
 
@@ -408,21 +408,21 @@ Use the data to calculate the energy, in MeV, released in this reaction.
 |   | **binding energy per nucleon / MeV** |
 |---|---|
 | `U _ 92 ^ 235` | 7.59 |
-| `Sr presubscript 38 presuperscript 90` | 8.70 |
-| `Xe presubscript 54 presuperscript 143` | 8.20 |
+| $Sr_{38}^{90}$ | 8.70 |
+| $Xe_{54}^{143}$ | 8.20 |
 
 [2]
 
 **Q8** [4 marks]
 
-Under the right conditions, a hydrogen-2 $\mathrm{H} pre^{2}$ nucleus can fuse with a hydrogen-1 $\mathrm{H} pre^{1}$ to make a helium-3 `He presuperscript 3` nucleus. The values of binding energy per nucleon for these nuclei are shown in Table 1.3.
+Under the right conditions, a hydrogen-2 $\mathrm{H} pre^{2}$ nucleus can fuse with a hydrogen-1 $\mathrm{H} pre^{1}$ to make a helium-3 $\text{He} pre^{3}$ nucleus. The values of binding energy per nucleon for these nuclei are shown in Table 1.3.
 
 **Table 1.3**
 
 | **Nuclei** | **binding energy per nucleon / MeV** |
 |---|---|
 | $\mathrm{H} pre^{2}$ | 0.864 |
-| `He presuperscript 3` | 2.235 |
+| $\text{He} pre^{3}$ | 2.235 |
 
 (i) Write down the nuclear equation for this reaction.
 

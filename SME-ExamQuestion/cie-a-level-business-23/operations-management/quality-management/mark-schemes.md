@@ -435,9 +435,7 @@ $=5,100\times0.03\,\,=153\mathrm{units}$
 
 Cost of correcting substandard output
 
-`equals space 153 space cross times space $ 70 space
-
-equals space $ 10 comma 710`
+$= 153 \\times \$ 70 = \$ 10 , 710$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings

@@ -12,7 +12,7 @@
 
 ![Isosceles triangle with one angle labelled theta, and sides adjacent to that angle labelled 17 cm and x cm, marked "NOT TO SCALE".](assets/001-isosceles-triangle-with-one-angle-labelled-theta.png)
 
-`sin open parentheses theta degree close parentheses equals 3 over 5`
+$\sin ( \\theta ^{\circ} ) = \frac{3}{5}$
 The area of the triangle is 102 cm<sup>2</sup>.
 
 Calculate the value of $x$.
@@ -1095,7 +1095,7 @@ The diagram shows an equilateral triangle *ABC* with sides of length 10 cm.
 
 Work out the area of the shaded region.
 
-Give your answer in the form `open parentheses straight a square root of 3 minus straight b over straight c straight pi close parentheses space cm squared` where $a,b$ and $c$ are integers.
+Give your answer in the form $( \mathrm{a} \sqrt{3} - \frac{\mathrm{b}}{\mathrm{c}} \mathrm{\pi } ) cm^{2}$ where $a,b$ and $c$ are integers.
 
 ......................................... cm<sup>2</sup>
 

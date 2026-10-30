@@ -32,7 +32,7 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. `2 open parentheses x plus 3 close parentheses`."
+     "md": "E.g. $2 ( x + 3 )$."
     }
    ],
    "back_blocks": [
@@ -42,11 +42,11 @@
     },
     {
      "type": "paragraph",
-     "md": "So `2 open parentheses x plus 3 close parentheses` becomes $2x+6$ from $2\\timesx+2\\times3$."
+     "md": "So $2 ( x + 3 )$ becomes $2x+6$ from $2\\timesx+2\\times3$."
     }
    ],
-   "front_md": "Explain how to **expand** a single bracket.\n\nE.g. `2 open parentheses x plus 3 close parentheses`.\n",
-   "back_md": "Expanding a bracket means multiplying the term outside the bracket by **each term** inside the bracket.\n\nSo `2 open parentheses x plus 3 close parentheses` becomes $2x+6$ from $2\\timesx+2\\times3$.\n",
+   "front_md": "Explain how to **expand** a single bracket.\n\nE.g. $2 ( x + 3 )$.\n",
+   "back_md": "Expanding a bracket means multiplying the term outside the bracket by **each term** inside the bracket.\n\nSo $2 ( x + 3 )$ becomes $2x+6$ from $2\\timesx+2\\times3$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -62,7 +62,7 @@
     },
     {
      "type": "paragraph",
-     "md": "`negative 2 open parentheses 1 minus x close parentheses` expands to $-2-2x$."
+     "md": "$- 2 ( 1 - x )$ expands to $-2-2x$."
     }
    ],
    "back_blocks": [
@@ -72,15 +72,15 @@
     },
     {
      "type": "paragraph",
-     "md": "`negative 2 open parentheses 1 minus x close parentheses` can be thought of as `open parentheses negative 2 close parentheses cross times 1 plus open parentheses negative 2 close parentheses cross times open parentheses negative x close parentheses`."
+     "md": "$- 2 ( 1 - x )$ can be thought of as $( - 2 ) \\\\times 1 + ( - 2 ) \\\\times ( - x )$."
     },
     {
      "type": "paragraph",
      "md": "Multiplying **two negatives** gives a **positive**, so the answer is $-2+2x$."
     }
    ],
-   "front_md": "**True or False?**\n\n`negative 2 open parentheses 1 minus x close parentheses` expands to $-2-2x$.\n",
-   "back_md": "**False.**\n\n`negative 2 open parentheses 1 minus x close parentheses` can be thought of as `open parentheses negative 2 close parentheses cross times 1 plus open parentheses negative 2 close parentheses cross times open parentheses negative x close parentheses`.\n\nMultiplying **two negatives** gives a **positive**, so the answer is $-2+2x$.\n",
+   "front_md": "**True or False?**\n\n$- 2 ( 1 - x )$ expands to $-2-2x$.\n",
+   "back_md": "**False.**\n\n$- 2 ( 1 - x )$ can be thought of as $( - 2 ) \\\\times 1 + ( - 2 ) \\\\times ( - x )$.\n\nMultiplying **two negatives** gives a **positive**, so the answer is $-2+2x$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -92,21 +92,21 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "How can you** simplify** `3 open parentheses x plus 5 plus x close parentheses` **before** expanding the brackets?"
+     "md": "How can you** simplify** $3 ( x + 5 + x )$ **before** expanding the brackets?"
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "You can simplify `3 open parentheses x plus 5 plus x close parentheses` before expanding by first **collecting like terms** inside the brackets to give `3 open parentheses 2 x plus 5 close parentheses`."
+     "md": "You can simplify $3 ( x + 5 + x )$ before expanding by first **collecting like terms** inside the brackets to give $3 ( 2 x + 5 )$."
     },
     {
      "type": "paragraph",
-     "md": "This can also be written as `3 open parentheses 5 plus 2 x close parentheses`."
+     "md": "This can also be written as $3 ( 5 + 2 x )$."
     }
    ],
-   "front_md": "How can you** simplify** `3 open parentheses x plus 5 plus x close parentheses` **before** expanding the brackets?\n",
-   "back_md": "You can simplify `3 open parentheses x plus 5 plus x close parentheses` before expanding by first **collecting like terms** inside the brackets to give `3 open parentheses 2 x plus 5 close parentheses`.\n\nThis can also be written as `3 open parentheses 5 plus 2 x close parentheses`.\n",
+   "front_md": "How can you** simplify** $3 ( x + 5 + x )$ **before** expanding the brackets?\n",
+   "back_md": "You can simplify $3 ( x + 5 + x )$ before expanding by first **collecting like terms** inside the brackets to give $3 ( 2 x + 5 )$.\n\nThis can also be written as $3 ( 5 + 2 x )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -122,21 +122,21 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses`."
+     "md": "E.g. $2 ( x + 1 ) + 3 ( x - 1 )$."
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "To simplify expressions like `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` you **expand the brackets** then **collect like terms**."
+     "md": "To simplify expressions like $2 ( x + 1 ) + 3 ( x - 1 )$ you **expand the brackets** then **collect like terms**."
     },
     {
      "type": "paragraph",
-     "md": "So `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` expands to give $2x+2+3x-3$.\n The terms are then collected to give $5x-1$."
+     "md": "So $2 ( x + 1 ) + 3 ( x - 1 )$ expands to give $2x+2+3x-3$.\n The terms are then collected to give $5x-1$."
     }
    ],
-   "front_md": "Explain how to** simplify **an expression with two sets of brackets\n\nE.g. `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses`.\n",
-   "back_md": "To simplify expressions like `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` you **expand the brackets** then **collect like terms**.\n\nSo `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` expands to give $2x+2+3x-3$.\n The terms are then collected to give $5x-1$.\n",
+   "front_md": "Explain how to** simplify **an expression with two sets of brackets\n\nE.g. $2 ( x + 1 ) + 3 ( x - 1 )$.\n",
+   "back_md": "To simplify expressions like $2 ( x + 1 ) + 3 ( x - 1 )$ you **expand the brackets** then **collect like terms**.\n\nSo $2 ( x + 1 ) + 3 ( x - 1 )$ expands to give $2x+2+3x-3$.\n The terms are then collected to give $5x-1$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -152,7 +152,7 @@
     },
     {
      "type": "paragraph",
-     "md": "`3 open parentheses x plus 2 close parentheses` expands to $3x+6$, then the 3's cancel to give $x+2$."
+     "md": "$3 ( x + 2 )$ expands to $3x+6$, then the 3's cancel to give $x+2$."
     }
    ],
    "back_blocks": [
@@ -162,15 +162,15 @@
     },
     {
      "type": "paragraph",
-     "md": "You **cannot cancel** the 3's because `3 open parentheses x plus 2 close parentheses` is an **expression**, not an equation."
+     "md": "You **cannot cancel** the 3's because $3 ( x + 2 )$ is an **expression**, not an equation."
     },
     {
      "type": "paragraph",
-     "md": "You can only cancel both sides by 3 if you had an equation, like `3 open parentheses x plus 2 close parentheses equals 9`."
+     "md": "You can only cancel both sides by 3 if you had an equation, like $3 ( x + 2 ) = 9$."
     }
    ],
-   "front_md": "**True or False?**\n\n`3 open parentheses x plus 2 close parentheses` expands to $3x+6$, then the 3's cancel to give $x+2$.\n",
-   "back_md": "**False.**\n\nYou **cannot cancel** the 3's because `3 open parentheses x plus 2 close parentheses` is an **expression**, not an equation.\n\nYou can only cancel both sides by 3 if you had an equation, like `3 open parentheses x plus 2 close parentheses equals 9`.\n",
+   "front_md": "**True or False?**\n\n$3 ( x + 2 )$ expands to $3x+6$, then the 3's cancel to give $x+2$.\n",
+   "back_md": "**False.**\n\nYou **cannot cancel** the 3's because $3 ( x + 2 )$ is an **expression**, not an equation.\n\nYou can only cancel both sides by 3 if you had an equation, like $3 ( x + 2 ) = 9$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -186,7 +186,7 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. `2 x squared open parentheses x plus x squared close parentheses`."
+     "md": "E.g. $2 x^{2} ( x + x^{2} )$."
     }
    ],
    "back_blocks": [
@@ -196,15 +196,15 @@
     },
     {
      "type": "paragraph",
-     "md": "The  highest power of $x$ in `2 x squared open parentheses x plus x squared close parentheses` is $x^{4}$."
+     "md": "The  highest power of $x$ in $2 x^{2} ( x + x^{2} )$ is $x^{4}$."
     },
     {
      "type": "paragraph",
      "md": "This can be found by multiplying $x^{2}$ outside the bracket by the highest power, $x^{2}$, from inside the bracket."
     }
    ],
-   "front_md": "How do you find the **highest power** of $x$ when expanding expressions?\n\nE.g. `2 x squared open parentheses x plus x squared close parentheses`.\n",
-   "back_md": "The **highest power** of $x$ will come from multiplying the outside term by the inside term with the highest power.\n\nThe  highest power of $x$ in `2 x squared open parentheses x plus x squared close parentheses` is $x^{4}$.\n\nThis can be found by multiplying $x^{2}$ outside the bracket by the highest power, $x^{2}$, from inside the bracket.\n",
+   "front_md": "How do you find the **highest power** of $x$ when expanding expressions?\n\nE.g. $2 x^{2} ( x + x^{2} )$.\n",
+   "back_md": "The **highest power** of $x$ will come from multiplying the outside term by the inside term with the highest power.\n\nThe  highest power of $x$ in $2 x^{2} ( x + x^{2} )$ is $x^{4}$.\n\nThis can be found by multiplying $x^{2}$ outside the bracket by the highest power, $x^{2}$, from inside the bracket.\n",
    "spec_links": [],
    "flags": []
   }

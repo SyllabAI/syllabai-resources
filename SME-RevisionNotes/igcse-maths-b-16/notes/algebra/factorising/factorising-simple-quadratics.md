@@ -147,9 +147,7 @@ guided_study: true
 > > *We need two numbers that multiply to give -21, and sum to give -4*
 > *+3 and -7 satisfy this*
 > 
-> `3 cross times open parentheses negative 7 close parentheses equals negative 21
-> 
-> 3 plus open parentheses negative 7 close parentheses equals negative 4`
+> $3 \\times ( - 7 ) = - 21 3 + ( - 7 ) = - 4$
 > 
 > > *Write down the brackets*
 > 
@@ -164,9 +162,7 @@ guided_study: true
 > > *We need two numbers that multiply to 6, and sum to -5*
 > *-3 and -2 satisfy this*
 > 
-> `open parentheses negative 3 close parentheses cross times open parentheses negative 2 close parentheses equals 6
-> 
-> open parentheses negative 3 close parentheses plus open parentheses negative 2 close parentheses equals negative 5`
+> $( - 3 ) \\times ( - 2 ) = 6 ( - 3 ) + ( - 2 ) = - 5$
 > 
 > > *Split the middle term*
 > 
@@ -193,9 +189,7 @@ guided_study: true
 > > *We need two numbers that multiply to -24, and sum to -2*
 > *+4, and -6 satisfy this*
 > 
-> `4 cross times open parentheses negative 6 close parentheses equals negative 24
-> 
-> 4 plus open parentheses negative 6 close parentheses equals negative 2`
+> $4 \\times ( - 6 ) = - 24 4 + ( - 6 ) = - 2$
 > 
 > > *Use these to split the -2**x** term and write in a grid*
 > 

@@ -10,7 +10,7 @@
 
 **Q1** [1 mark]
 
-The random variable `X space tilde B left parenthesis 80 comma 0.05 right parenthesis` is approximated by `Y space tilde P o left parenthesis lambda right parenthesis`.
+The random variable $X \sim B ( 80 , 0.05 )$ is approximated by $Y \sim P o ( \lambda )$.
 
 Find the value of $λ$ using $λ=np$.
 
@@ -30,7 +30,7 @@ Find
 
 **Q2** [1 mark]
 
-The random variable `X tilde B left parenthesis n comma p right parenthesis` can be approximated by `Y tilde P o left parenthesis lambda right parenthesis` when certain conditions are fulfilled.
+The random variable $X \sim B ( n , p )$ can be approximated by $Y \sim P o ( \lambda )$ when certain conditions are fulfilled.
 
 State the condition for $n$ that is required to use this approximation.
 
@@ -43,19 +43,19 @@ State whether $p$ needs to be close to 0 or close to 0.5.
 For each of the following random variables, $X$:
 
 - State, with reasons, whether $X$ can be approximated by a Poisson distribution,
-- If appropriate, write down the Poisson approximation to $X$ in the form `Y space tilde space P o left parenthesis lambda right parenthesis`, giving the value of $λ$.
+- If appropriate, write down the Poisson approximation to $X$ in the form $Y \sim P o ( \lambda )$, giving the value of $λ$.
 
-(i) `X tilde B left parenthesis 6 comma 0.45 right parenthesis`
+(i) $X \sim B ( 6 , 0.45 )$
 
-(ii) `X tilde B left parenthesis 60 comma 0.05 right parenthesis`
+(ii) $X \sim B ( 60 , 0.05 )$
 
-(iii) `X tilde B left parenthesis 60 comma 0.45 right parenthesis`
+(iii) $X \sim B ( 60 , 0.45 )$
 
 ### Q3 — easy — 9 marks
 
 **Q3** [2 marks]
 
-The random variable `X space tilde P o left parenthesis 25 right parenthesis` is approximated by `Y tilde space N left parenthesis mu comma sigma squared right parenthesis`.
+The random variable $X \sim P o ( 25 )$ is approximated by $Y \sim N ( \mu , \sigma ^{2} )$.
 
 Write down the value of $μ$ and explain why $σ=5$.
 
@@ -75,28 +75,28 @@ Explain why a continuity correction is needed when using this approximation.
 
 **Q4** [2 marks]
 
-(i) Describe the conditions when `X space tilde B left parenthesis n comma p right parenthesis` can be approximated by `space S tilde P o left parenthesis lambda right parenthesis`.
+(i) Describe the conditions when $X \sim B ( n , p )$ can be approximated by $S \sim P o ( \lambda )$.
 
-(ii) Describe the conditions when `X space tilde B left parenthesis n comma p right parenthesis` can be approximated by `T tilde N left parenthesis mu comma sigma squared right parenthesis`.
+(ii) Describe the conditions when $X \sim B ( n , p )$ can be approximated by $T \sim N ( \mu , \sigma ^{2} )$.
 
 **Q4** [5 marks]
 
 For each of the following random variables, $X$:
 
 - State, with reasons, whether $X$ can be approximated by a Poisson distribution, a normal distribution or neither,
-- If appropriate, write down the approximation to $X$ in the form `Y tilde P o left parenthesis lambda right parenthesis space or space Y tilde N left parenthesis mu comma sigma squared right parenthesis`,  giving the values of any parameters.
+- If appropriate, write down the approximation to $X$ in the form $Y \sim P o ( \lambda ) \text{or} Y \sim N ( \mu , \sigma ^{2} )$,  giving the values of any parameters.
 
-(i) `X tilde B left parenthesis 100 comma 0.02 right parenthesis`
+(i) $X \sim B ( 100 , 0.02 )$
 
-(ii) `X tilde B left parenthesis 10 comma 0.02 right parenthesis`
+(ii) $X \sim B ( 10 , 0.02 )$
 
-(iii) `X tilde B left parenthesis 100 comma 0.2 right parenthesis`
+(iii) $X \sim B ( 100 , 0.2 )$
 
 ### Q5 — easy — 5 marks
 
 **Q5** [1 mark]
 
-The random variable `X space tilde P o left parenthesis lambda right parenthesis` can be approximated by `Y space tilde N left parenthesis mu comma sigma squared right parenthesis` when certain conditions are fulfilled.
+The random variable $X \sim P o ( \lambda )$ can be approximated by $Y \sim N ( \mu , \sigma ^{2} )$ when certain conditions are fulfilled.
 
 State the condition for $λ$ which is required to use this approximation.
 
@@ -105,13 +105,13 @@ State the condition for $λ$ which is required to use this approximation.
 For each of the following random variables, $X$:
 
 - State, with reasons, whether $X$ can be approximated by a normal distribution,
-- If appropriate, write down the normal approximation to $X$ in the form `Y space tilde N left parenthesis mu comma sigma squared right parenthesis`, giving the values of $μ\mathrm{and}σ$.
+- If appropriate, write down the normal approximation to $X$ in the form $Y \sim N ( \mu , \sigma ^{2} )$, giving the values of $μ\mathrm{and}σ$.
 
-(i) `X tilde P o left parenthesis 100 right parenthesis`
+(i) $X \sim P o ( 100 )$
 
-(ii) `X tilde P o left parenthesis 4 right parenthesis`
+(ii) $X \sim P o ( 4 )$
 
-(iii) `X tilde P o left parenthesis 50 right parenthesis`
+(iii) $X \sim P o ( 50 )$
 
 ### Q6 — easy — 7 marks
 
@@ -135,7 +135,7 @@ For each of the following scenarios, identify the name of the distribution (if a
 
 **Q7** [1 mark]
 
-The random variable `W space tilde P o left parenthesis 105 right parenthesis`.
+The random variable $W \sim P o ( 105 )$.
 
 Explain why a normal distribution can be used to approximate $W$.
 
@@ -145,7 +145,7 @@ Find, using the appropriate normal approximation:
 
 (i) $P(80<W<100)$
 
-(ii) `P left parenthesis vertical line W minus 105 vertical line greater or equal than 15 right parenthesis`
+(ii) `P ( | W - 105 | >= 15 )`
 
 **Q7** [4 marks]
 
@@ -283,7 +283,7 @@ Using an approximating distribution, find the probability that the number of dai
 
 **Q17** [1 mark]
 
-The random variable `T space tilde P o left parenthesis 200 right parenthesis`.
+The random variable $T \sim P o ( 200 )$.
 
 Write down the normal distribution which can be used to approximate $T$. Explain why a normal distribution is suitable to approximate $T$.
 
@@ -303,11 +303,11 @@ Using the normal approximation, find the largest integer value of $t$ such that 
 
 **Q18** [5 marks]
 
-The random variable `X space tilde P o left parenthesis lambda right parenthesis`. Given that $P(X\geq100)=0.999$, use an approximating distribution to find the value of $λ$.
+The random variable $X \sim P o ( \lambda )$. Given that $P(X\geq100)=0.999$, use an approximating distribution to find the value of $λ$.
 
 **Q18** [7 marks]
 
-The random variable `Y space tilde B left parenthesis n comma p right parenthesis`.
+The random variable $Y \sim B ( n , p )$.
 
 (i) Given that $p=0.00025$ and $P(Y>0)=0.847$ correct to 3 decimal places, use a suitable approximation to find the value of $n$.
 
@@ -375,7 +375,7 @@ Using the Poisson distribution, find the probability at most 5 clients with ging
 
 **Q22** [1 mark]
 
-The random variable `X space tilde B left parenthesis 60 comma 0.08 right parenthesis` is approximated by `Y space tilde P o left parenthesis lambda right parenthesis`.
+The random variable $X \sim B ( 60 , 0.08 )$ is approximated by $Y \sim P o ( \lambda )$.
 
 Explain why this approximation is valid and state the value of $λ$.
 
@@ -393,7 +393,7 @@ Hence find the percentage error when a Poisson distribution is used to approxima
 
 **Q23** [1 mark]
 
-The random variable `S space tilde P o left parenthesis 75 right parenthesis`.
+The random variable $S \sim P o ( 75 )$.
 
 Write down the normal distribution which can be used to approximate $S$.
 
@@ -413,7 +413,7 @@ Using the normal approximation, find the largest integer value of $s$ such that 
 
 **Q24** [1 mark]
 
-The random variable `X space tilde P o left parenthesis 40 right parenthesis` is approximated by `Y tilde N left parenthesis mu comma sigma squared right parenthesis`.
+The random variable $X \sim P o ( 40 )$ is approximated by $Y \sim N ( \mu , \sigma ^{2} )$.
 
 Explain why this approximation is valid and state the values of $μ\mathrm{and}σ$.
 

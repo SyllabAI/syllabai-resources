@@ -73,7 +73,7 @@ Comment on this suggestion.
 ## Q3 — medium — 8 marks · structured-questions
 
 ### 1() — 1 mark — command: state — structured
-Carbon-14, `scriptbase text C end text end scriptbase presuperscript 14`, is a radioactive isotope with a half-life of $5730 \text{years}$. It forms in the atmosphere and is absorbed by living organisms.
+Carbon-14, `text C end text ^ 14`, is a radioactive isotope with a half-life of $5730 \text{years}$. It forms in the atmosphere and is absorbed by living organisms.
 
 State what is meant by the term half-life.
 

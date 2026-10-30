@@ -740,7 +740,7 @@ i) *By adding two previous terms to find the next term, write two equations*
 $2 + d = e \textcircled{1}
 d + e = 10 \textcircled{2}$
 
-> *We now have two simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution In *`circle enclose 2`*, replace "**e**" with "2 + **d** "*
+> *We now have two simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution In *$\textcircled{2}$*, replace "**e**" with "2 + **d** "*
 
 $d+2+d=10$
 
@@ -752,7 +752,7 @@ $2d+2=10\,2d=8$
 
 $d=4$* ***[1]**
 
-> *Substitute the found value of **d** (or **e** depending on the method used) into one of the simultaneous equations to find the remaining variable. For example, substituting **d** = 4 into *`circle enclose 1`
+> *Substitute the found value of **d** (or **e** depending on the method used) into one of the simultaneous equations to find the remaining variable. For example, substituting **d** = 4 into *$\textcircled{1}$
 
 $2+4=e$
 
@@ -764,14 +764,14 @@ $- 33 + x = y \textcircled{1}
 x + y = z \textcircled{2}
 y + z = 18 \textcircled{3}$
 
-> *We have three simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution In *`circle enclose 2`*, replace "**y**" with "−33 + **x**"*
+> *We have three simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution In *$\textcircled{2}$*, replace "**y**" with "−33 + **x**"*
 
 $x + ( - 33 + x ) = z
 2 x - 33 = z \textcircled{4}$
 
 **[1]**
 
-> *In *`circle enclose 3`*, replace "**y**" with "-33 + **x**" and "**z**" with "2**x** − 33". (The brackets in the line below are not necessary, they are just to make the substitutions clearer)*
+> *In *$\textcircled{3}$*, replace "**y**" with "-33 + **x**" and "**z**" with "2**x** − 33". (The brackets in the line below are not necessary, they are just to make the substitutions clearer)*
 
 $( - 33 + x ) + ( 2 x - 33 ) = 18$
 
@@ -783,13 +783,13 @@ $\begin{array}{rcl} - 33 + x + 2 x - 33 & = 18 \\ 3 x - 66 & = 18 \\ 3 x & = 84 
 
 $x=28$** [1]**
 
-> *Substitute "**x** = 28" into *`circle enclose 4`* to find **z*
+> *Substitute "**x** = 28" into *$\textcircled{4}$* to find **z*
 
 $\begin{gathered} 2 ( 28 ) - 33 & = z \\ 56 - 33 & = z \end{gathered}$
 
 $z=23$** [1]**
 
-> *Substitute "**x** = 28" into *`circle enclose 1`*  to find **y*
+> *Substitute "**x** = 28" into *$\textcircled{1}$*  to find **y*
 
 $-33+28=y$
 
@@ -1151,7 +1151,7 @@ $1031 = k ( 206 ) + r$
 $\textcircled{1} 41 k + r = 206
 \textcircled{2} 206 k + r = 1031$
 
-> *Subtract equation *`circle enclose 1`* from equation *`circle enclose 2`* to eliminate *$r$
+> *Subtract equation *$\textcircled{1}$* from equation *$\textcircled{2}$* to eliminate *$r$
 
 $\textcircled{2} - \textcircled{1} : 165 k = 825$
 
@@ -1496,7 +1496,7 @@ $\begin{gathered} m [ 2 a + ( m - 1 ) d ] & = 78 \\ m ( 2 a + m d - d ) & = 78 \
 
 $\begin{gathered} m [ 2 a + ( 2 m - 1 ) d ] & = 320 \\ m ( 2 a + 2 m d - d ) & = 320 \\ 2 m a + 2 m^{2} d - m d & = 320 \textcircled{2} \end{gathered}$
 
-> *Subtract equation *`circle enclose 1`* from equation *`circle enclose 2`*.*
+> *Subtract equation *$\textcircled{1}$* from equation *$\textcircled{2}$*.*
 
 > $m^{2}d=242$* *
 

@@ -304,7 +304,7 @@ Complete the following table.
 | atom | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
 | $Ga_{31}^{69}$ |   |   |   |
-| `Ga presubscript 31 presuperscript 71` |   |   |   |
+| $Ga_{31}^{71}$ |   |   |   |
 
 *Source: 2016 Jan42 Q1*
 
@@ -472,7 +472,7 @@ Complete the table.
 
 | particle | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
-| `Li presubscript 3 presuperscript 7` |   |   |   |
+| $Li_{3}^{7}$ |   |   |   |
 | $\mathrm{S} pre_{16} pre^{34^{2} -}$ |   |   |   |
 |   | 19 | 22 | 18 |
 
@@ -708,7 +708,7 @@ Complete the table to show the number of electrons, neutrons and protons in each
 
 **Q10** [3 marks]
 
-$Na_{11}^{22}$, `Na presubscript 11 presuperscript 23` and $Na_{11}^{24}$ are isotopes of sodium.
+$Na_{11}^{22}$, $Na_{11}^{23}$ and $Na_{11}^{24}$ are isotopes of sodium.
 
 Describe how these sodium isotopes are the same and how they are different in terms of the total number of protons, neutrons and electrons in each.
 
@@ -730,7 +730,7 @@ different:
 
 Isotopes are defined as atoms of the same element with the same number of protons (and electrons) but different numbers of neutrons.
 
-$Na_{11}^{22}$, `Na presubscript 11 presuperscript 23` and  `Na presubscript 11 presuperscript 24` are isotopes of sodium.
+$Na_{11}^{22}$, $Na_{11}^{23}$ and  $Na_{11}^{24}$ are isotopes of sodium.
 
 Why do all three isotopes have an overall charge of zero?
 
@@ -957,13 +957,13 @@ ii) $Sc_{21}^{45}$ represents an atom of scandium. How many nucleons and how man
 
 **Q14** [3 marks]
 
-Two different atoms of sodium are `Na presubscript 11 presuperscript 23` and $Na_{11}^{24}$.
+Two different atoms of sodium are $Na_{11}^{23}$ and $Na_{11}^{24}$.
 
 i) Explain why these two atoms are isotopes.
 
 [2]
 
-ii) `Na presubscript 11 presuperscript 24` is radioactive. It changes into an atom of a different element which has one more proton. Identify this element.
+ii) $Na_{11}^{24}$ is radioactive. It changes into an atom of a different element which has one more proton. Identify this element.
 
 [1]
 
@@ -1282,15 +1282,15 @@ Complete the table to show the number of protons, neutrons and electrons present
 
 |   | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
-| `Mg presubscript 12 presuperscript 24` |   |   |   |
-| `Mg presubscript 12 presuperscript 26` |   |   |   |
+| $Mg_{12}^{24}$ |   |   |   |
+| $Mg_{12}^{26}$ |   |   |   |
 
 *Source: June 2019 0620/41/04 Q1B*
 
 
 **Q22** [1 mark]
 
-What term is used to describe atoms of the same element, such as $Mg_{12}^{24}$ and `Mg presubscript 12 presuperscript 26`?
+What term is used to describe atoms of the same element, such as $Mg_{12}^{24}$ and $Mg_{12}^{26}$?
 
 *Source: June 2019 0620/41/04 Q1B*
 

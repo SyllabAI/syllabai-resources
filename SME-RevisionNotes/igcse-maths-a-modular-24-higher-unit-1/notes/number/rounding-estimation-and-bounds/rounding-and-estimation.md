@@ -63,7 +63,7 @@ guided_study: true
 > > *Identify the second decimal place (5)*
 > *Circle the digit to the right of the second decimal place (4)*
 > 
-> `345.25 circle enclose 4`
+> $345.25 \textcircled{4}$
 > 
 > > *As this digit is less than 5 we will round the number down (the 5 stays as a 5)*
 > *No zeroes are required after the second decimal place*
@@ -75,7 +75,7 @@ guided_study: true
 > > *Identify the second decimal place (9)*
 > *Circle the digit to the right of the second decimal place (5)*
 > 
-> `0.29 circle enclose 5 space 631`
+> $0.29 \textcircled{5} 631$
 > 
 > > *As this digit is greater than or equal to 5 we will round the number up*
 > 
@@ -92,7 +92,7 @@ guided_study: true
 > > *Identify the second decimal place (9)*
 > *Circle the digit to the right of the second decimal place (8)*
 > 
-> `4.99 circle enclose 8`
+> $4.99 \textcircled{8}$
 > 
 > > *As this digit is greater than or equal to 5 we will round the number up*
 > 
@@ -206,7 +206,7 @@ guided_study: true
 > 
 > > *Circle the digit on the right of the third significant figure (2)*
 > 
-> `345 space circle enclose 2 56`
+> $345 \textcircled{2} 56$
 > 
 > > *This digit is less than 5 so round down (the 5 stays as a 5)*
 > 
@@ -219,7 +219,7 @@ guided_study: true
 > 
 > > *Circle the digit to the right of the third significant figure (6)*
 > 
-> `0.002 95 circle enclose 6 314`
+> $0.002 95 \textcircled{6} 314$
 > 
 > > *6 is greater than 5 so we need to round up (the 5 increases by 1 to 6)*
 > 
@@ -232,7 +232,7 @@ guided_study: true
 > 
 > > *Circle the digit to the right of the third significant figure (7)*
 > 
-> `3.99 circle enclose 7`
+> $3.99 \textcircled{7}$
 > 
 > > *This value is greater than 5 so it will round up*
 > 

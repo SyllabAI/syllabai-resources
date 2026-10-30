@@ -30,7 +30,7 @@ Expand and simplify
 ### 1() — 4 marks — structured
 (i) A triangle has base $(6x+8)$ and height $2x$ units. Find an expression for the area of the triangle.
 
-(ii) A cube has side length of `open parentheses 3 x space minus space 5 close parentheses` units. Find an expression for the volume of the cube.
+(ii) A cube has side length of $( 3 x - 5 )$ units. Find an expression for the volume of the cube.
 
 ## Q4 — easy — 5 marks · exam-questions
 

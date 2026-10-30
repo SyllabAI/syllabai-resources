@@ -294,9 +294,9 @@ $P=257.6\times2.2$ **[1 mark]**
 $P=$ $567\text{W}$ **[1 mark]**
 
 > **[mark-scheme]**
-> 1 mark for finding the total force along the slope (`F equals W subscript parallel to plus F subscript R`)
+> 1 mark for finding the total force along the slope ($F = W_{parallel} \text{to} + F_{R}$)
 > 
-> - Allow ecf from part (a) if an incorrect value of `W subscript parallel to` is used
+> - Allow ecf from part (a) if an incorrect value of $W_{parallel} \text{to}$ is used
 > 
 > 1 mark for substitution into $\DeltaW=F\Deltas$ and $P=W/t$ (or $P=Fv$)
 > 

@@ -8,7 +8,7 @@
 ### 1() — 2 marks — structured
 Calculate
 
-`sum from r equals 1 to 5 of 2 r plus 1`
+$\sum_{r = 1}^{5} 2 r + 1$
 
 ### 2() — 2 marks — structured
 The sum given in part [a] is an arithmetic series. Write down the first term and the common difference.
@@ -115,7 +115,7 @@ $\sum_{r = 1}^{n} r^{2} = \frac{n ( n + 1 ) ( 2 n + 1 )}{6}$
 
 Using that formula,
 
-Calculate `sum from r equals 1 to 50 of u subscript r`
+Calculate $\sum_{r = 1}^{50} u_{r}$
 
 ### 3() — 3 marks — structured
 Find the value of  $51^{2}+52^{2}+53^{2}+...$$+99^{2}+100^{2}$, i.e. the sum of the squares of all the integers between 51 and 100 inclusive.
@@ -174,7 +174,7 @@ $\sum_{r = 1}^{n} ( 2 r )^{2} = \frac{2 n ( n + 1 ) ( 2 n + 1 )}{3}$ and $\sum_{
 
 Using those formulas,
 
-Show that `sum from r equals 1 to 100 of u subscript r equals sum from r equals 1 to 100 of r`.
+Show that $\sum_{r = 1}^{100} u_{r} = \sum_{r = 1}^{100} r$.
 
 ## Q16 — very_hard — 4 marks · exam-questions
 
@@ -215,7 +215,7 @@ Calculate the value of $x$.
 ### 1() — 5 marks — structured
 A sequence is defined for $k\geq1$ by $u_{k} = \sqrt{13} + ( - 2 )^{k - 1}$ .
 
-Calculate `sum from r equals 11 to 23 of u subscript r` , giving your answer as an exact value.
+Calculate $\sum_{r = 11}^{23} u_{r}$ , giving your answer as an exact value.
 
 ## Q21 — very_hard — 5 marks · exam-questions
 

@@ -49,7 +49,7 @@ guided_study: false
 
   - The sum of the data is represented by
 
-`sum from i=1 to n of x_ i=x_ 1+x_ 2+...+x_ n`
+$\sum_{i=1}^{n} x_ i=x_ 1+x_ 2+...+x_ n$
 
 - This is usually written $\underset{}{\sum}x$ and reads as ‘sigma x’
 

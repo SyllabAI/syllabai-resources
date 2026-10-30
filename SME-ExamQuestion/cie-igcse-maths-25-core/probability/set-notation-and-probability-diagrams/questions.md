@@ -76,7 +76,7 @@ Y = {multiples of 3}
 
 Y = {3, 6, 9, 12, 15}
 
-Find `straight n open parentheses Y apostrophe close parentheses`
+Find $\mathrm{n} ( Y ' )$
 
 ### Q3 — hard — 6 marks
 
@@ -118,11 +118,11 @@ Complete the Venn diagram.
 
 **Q4** [1 mark]
 
-Find `straight n open parentheses A intersection B close parentheses`.
+Find $\mathrm{n} ( A \cap B )$.
 
 **Q4** [1 mark]
 
-Find `straight n open parentheses A union B apostrophe close parentheses`.
+Find $\mathrm{n} ( A \cup B ' )$.
 
 ### Q5 — hard — 3 marks
 
@@ -237,7 +237,7 @@ ii) Write down one number that is in set $O$, but not in set $F$.
 
 [1]
 
-iii) Find `straight n open parentheses F union O close parentheses`.
+iii) Find $\mathrm{n} ( F \cup O )$.
 
 [1]
 
@@ -295,7 +295,7 @@ B = {$x$ : $x$ is a multiple of 3}
 
 ![qp8d-0580-32-paper-3-nov-2020-cie-igcse-maths](assets/023-qp8d-0580-32-paper-3-nov-2020-cie-igcse-maths.png)
 
-i) Write down `straight n open parentheses A close parentheses`.
+i) Write down $\mathrm{n} ( A )$.
 
 [1]
 
@@ -317,7 +317,7 @@ iiib) in $A\cupB$
 
 iv) Complete the statement.
 
-`A intersection B equals open curly brackets x space colon space x space is space............................... close curly brackets`
+$A \cap B = \{ x : x \text{is} ............................... \}$
 
 [1]
 
@@ -340,7 +340,7 @@ ii) Work out the number of students who like bananas.
 
 [1]
 
-iii) Work out  `n open parentheses A union B close parentheses`.
+iii) Work out  $n ( A \cup B )$.
 
 [1]
 
@@ -401,7 +401,7 @@ Complete the Venn diagram.
 
 ![H] = {children who own a hamster}
 
-Write down `n open parentheses R intersection H close parentheses.`
+Write down $n ( R \cap H ).$
 
 *Source: Nov 2020 0580/13 Q21B*
 

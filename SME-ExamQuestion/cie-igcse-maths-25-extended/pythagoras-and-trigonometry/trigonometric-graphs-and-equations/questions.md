@@ -128,7 +128,7 @@ The diagrams show the graph of a function.   Write down the function.
 
 ![cie-igcse-2020-may-jun-p4-tz3-q10aii](assets/015-cie-igcse-2020-may-jun-p4-tz3-q10aii.png)
 
-`straight f open parentheses x close parentheses equals`................................................
+$\mathrm{f} ( x ) =$................................................
 
 *Source: 2020 May/June 0580/43 Q10A*
 

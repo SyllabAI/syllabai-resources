@@ -109,7 +109,7 @@ What does **AND** mean for combined probabilities?
 
 **AND** means **multiply** ($\times$) and is used for **independent events** to find the **probability of both events **occurring.
 
-E.g. the probability of events A **and** B occurring is `straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`.
+E.g. the probability of events A **and** B occurring is $\mathrm{P} ( A ) \\times \mathrm{P} ( B )$.
 
 
 
@@ -124,7 +124,7 @@ What does **OR** mean for combined probabilities?
 
 **OR** means **add** (+) and is used for **mutually exclusive** **events** to find the **probability of one event or the other event **occurring.
 
-E.g. the probability of either event *A* and/or event *B* occurring is `straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`.
+E.g. the probability of either event *A* and/or event *B* occurring is $\mathrm{P} ( A ) + \mathrm{P} ( B )$.
 
 
 
@@ -156,7 +156,7 @@ State the** equation** for the probability of** two independent events**, $A$ an
 
 If $A$ and $B$ are **independent events**, then the probability of both events occurring is:
 
-`straight P open parentheses A space and space B close parentheses equals straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`.
+`P ( A and B ) = P ( A ) x P ( B )`.
 
 
 
@@ -171,7 +171,7 @@ State the **equation** for the probability of one or the other of **two mutually
 
 If $A$ and $B$ are **mutually exclusive events**, then the probability of one or the other of them occurring is:
 
-`straight P open parentheses A space or space B close parentheses equals straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`.
+$\mathrm{P} ( A \text{or} B ) = \mathrm{P} ( A ) + \mathrm{P} ( B )$.
 
 
 
@@ -197,7 +197,7 @@ What is the** notation** for the **conditional probability** of event $A$ occurr
 
 **BACK**
 
-The **notation** for the **conditional probability **of event $A$ occurring,** given** that event $B$ has occurred, is `straight P open parentheses A vertical line B close parentheses`.
+The **notation** for the **conditional probability **of event $A$ occurring,** given** that event $B$ has occurred, is $\mathrm{P} ( A \vert B )$.
 
 
 
@@ -205,12 +205,12 @@ The **notation** for the **conditional probability **of event $A$ occurring,** g
 
 **FRONT**
 
-What might `straight P open parentheses passes vertical line no space revision close parentheses` mean in the context of a student preparing for an exam?
+What might `P ( passes | no revision )` mean in the context of a student preparing for an exam?
 
 
 **BACK**
 
-`straight P open parentheses passes vertical line no space revision close parentheses` would be the **probability** that the student **passes** the exam,** given** that the student has done **no revision**.
+`P ( passes | no revision )` would be the **probability** that the student **passes** the exam,** given** that the student has done **no revision**.
 
 
 
@@ -250,15 +250,15 @@ The question may need to be interpreted to identify the conditional aspect.
 
 **FRONT**
 
-What is the **difference** between `straight P open parentheses A vertical line B close parentheses` and `straight P open parentheses B vertical line A close parentheses`?
+What is the **difference** between $\mathrm{P} ( A \vert B )$ and $\mathrm{P} ( B \vert A )$?
 
 
 **BACK**
 
-The **difference** between `straight P open parentheses A vertical line B close parentheses` and `straight P open parentheses B vertical line A close parentheses` is this:
+The **difference** between $\mathrm{P} ( A \vert B )$ and $\mathrm{P} ( B \vert A )$ is this:
 
-- `straight P open parentheses A vertical line B close parentheses` is the probability that $A$ happens, given that $B$ has happened.
-- `straight P open parentheses B vertical line A close parentheses` is the probability that $B$ happens, given that $A$ has happened.
+- $\mathrm{P} ( A \vert B )$ is the probability that $A$ happens, given that $B$ has happened.
+- $\mathrm{P} ( B \vert A )$ is the probability that $B$ happens, given that $A$ has happened.
 
 
 

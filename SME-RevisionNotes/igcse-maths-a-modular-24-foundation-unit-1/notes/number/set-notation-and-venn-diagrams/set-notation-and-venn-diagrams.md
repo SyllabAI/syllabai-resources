@@ -55,7 +55,7 @@ guided_study: false
 - $\in$ means "**is an element of**"
 
   - And $\notin$ means "is not an element of"
-  - E.g. `3 element of open curly brackets 1 comma 2 comma 3 close curly brackets` and `4 not an element of open curly brackets 1 comma 2 comma 3 close curly brackets`
+  - E.g. $3 \in \{ 1 , 2 , 3 \}$ and `4 not an in { 1 , 2 , 3 }`
 - $\emptyset$ is the **empty set**
 
   - This is the set which does not contain any elements
@@ -136,7 +136,7 @@ guided_study: false
   - A region **outside the circles**
   
     - $A'\capB'$
-    - This can also be written as `(A union B) apostrophe`
+    - This can also be written as $(A \cup B) '$
 
 > **Worked Example**
 > Two sets *A* and *B* are shown in the Venn diagram.

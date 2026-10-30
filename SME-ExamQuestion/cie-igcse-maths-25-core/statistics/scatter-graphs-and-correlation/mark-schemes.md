@@ -69,7 +69,7 @@ Draw a vertical line up from 4 to your line
 ### Q3
 > *Plot the coordinates:*
 
-`open parentheses 20 comma space 33 close parentheses comma space open parentheses 44 comma space 52 close parentheses comma space open parentheses 37 comma space 44 close parentheses comma space open parentheses 46 comma space 52 close parentheses`
+$( 20 , 33 ) , ( 44 , 52 ) , ( 37 , 44 ) , ( 46 , 52 )$
 
 ![igcse-cie-may-2019-q6a](assets/010-igcse-cie-may-2019-q6a.png)
 
@@ -357,11 +357,11 @@ $44,51,52,55,77,85,90,103,110,135$
 
 > *Median = middle value. *
 
-`up diagonal strike 44 comma space up diagonal strike 51 comma space up diagonal strike 52 comma space up diagonal strike 55 comma space 77 comma space 85 comma space up diagonal strike 90 comma space up diagonal strike 103 comma space up diagonal strike 110 comma space up diagonal strike 135`
+$\cancel{44} , \cancel{51} , \cancel{52} , \cancel{55} , 77 , 85 , \cancel{90} , \cancel{103} , \cancel{110} , \cancel{135}$
 
 > *The middle value is halfway between 77 and 85. Add together the two numbers and divide by 2. *
 
-> `open parentheses 77 plus 85 close parentheses divided by 2 equals 81`* *
+> $( 77 + 85 ) \div 2 = 81$* *
 
 **81 kW ****[1]**
 (i) *Plot the two points on the scatter graph. Make sure to plot them the correct way round.                                            *

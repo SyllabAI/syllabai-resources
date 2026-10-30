@@ -11,7 +11,7 @@ Expand and simplify $(m+9)(m--5)$
 ## Q2 — medium — 1 marks · exam-questions
 
 ### 13((a)) — 1 mark — command: expand — structured — from paper 2023 June · 4MA1/2F
-Expand `x open parentheses 3 minus x close parentheses`
+Expand $x ( 3 - x )$
 
 ## Q3 — medium — 1 marks · exam-questions
 
@@ -21,4 +21,4 @@ Expand $x(x+3)$
 ## Q4 — medium — 2 marks · exam-questions
 
 ### 1() — 2 marks — command: simplify — structured
-Expand and simplify `open parentheses p minus 6 close parentheses open parentheses p plus 11 close parentheses`
+Expand and simplify $( p - 6 ) ( p + 11 )$

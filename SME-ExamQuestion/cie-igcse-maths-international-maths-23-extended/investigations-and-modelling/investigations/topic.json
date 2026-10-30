@@ -268,7 +268,7 @@
       {
        "latex": "\\frac{K_{n-1}}{K_{n}}=\\frac{\\mathrm{previous} \\mathrm{term}}{\\mathrm{current} \\mathrm{term}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>K</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><msub><mi>K</mi><mi>n</mi></msub></mfrac><mo>=</mo><mfrac><mrow><mi>previous</mi><mo>&#160;</mo><mi>term</mi></mrow><mrow><mi>current</mi><mo>&#160;</mo><mi>term</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "K subscript n minus 1 end subscript over K subscript n equals fraction numerator previous space term over denominator current space term end fraction"
+       "alt": "K _ n - 1 / K _ n = (previous term)/(current term)"
       },
       {
        "latex": "n",
@@ -466,7 +466,7 @@
       {
        "latex": "\\frac{1+\\sqrt{8x+1}}{4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mn>8</mn><mi>x</mi><mo>+</mo><mn>1</mn></msqrt></mrow><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 plus square root of 8 x plus 1 end root over denominator 4 end fraction"
+       "alt": "(1 + sqrt( 8 x + 1 ))/(4)"
       },
       {
        "latex": "H_{n}",
@@ -481,7 +481,7 @@
       {
        "latex": "\\frac{1+\\sqrt{8H_{n}+1}}{4}=n",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mn>8</mn><msub><mi>H</mi><mi>n</mi></msub><mo>+</mo><mn>1</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 plus square root of 8 H subscript n plus 1 end root over denominator 4 end fraction equals n"
+       "alt": "(1 + sqrt( 8 H _ n + 1 ))/(4) = n"
       },
       {
        "latex": "H_{n}",
@@ -555,7 +555,7 @@
       {
        "latex": "\\frac{1+\\sqrt{8x+1}}{4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mn>8</mn><mi>x</mi><mo>+</mo><mn>1</mn></msqrt></mrow><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 plus square root of 8 x plus 1 end root over denominator 4 end fraction"
+       "alt": "(1 + sqrt( 8 x + 1 ))/(4)"
       },
       {
        "latex": "x=6",
@@ -617,7 +617,7 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "**Extract:**\n\nTo test whether a number, x, is a hexagonal number or not, substitute it into the formula:\n\n(fraction numerator 1 plus square root of 8 x plus 1 end root over denominator 4 end fraction)\n\nIf the output is a positive integer, then it is a hexagonal number.\n\nA student believes that the number 1 is the only square number that is also a hexagonal number.\n\nUse the number 1225 to show that the student is **not **correct.\n\nYou must show your working clearly.",
+     "problem_md": "**Extract:**\n\nTo test whether a number, x, is a hexagonal number or not, substitute it into the formula:\n\n((1 + sqrt( 8 x + 1 ))/(4))\n\nIf the output is a positive integer, then it is a hexagonal number.\n\nA student believes that the number 1 is the only square number that is also a hexagonal number.\n\nUse the number 1225 to show that the student is **not **correct.\n\nYou must show your working clearly.",
      "solution_md": "> *Use your calculator to find the square root of 1225*\n\n$\\sqrt{1225}=35$\n\n**[1]**\n\n> *Use the test given above to show that 1225 is a hexagonal number*\n\n$\\begin{gathered} \\frac{1 + \\sqrt{8 x + 1} }{4} & = \\frac{1 + \\sqrt{8 \\times 1225 + 1} }{4} \\end{gathered}$\n\n**[1]**\n\n> *Simplify*\n\n$\\begin{gathered} \\frac{1 + \\sqrt{9800 + 1} }{4} & = \\frac{1 + \\sqrt{9801} }{4} \\\\ = \\frac{1 + 99}{4} \\\\ = \\frac{100}{4} \\\\ = 25 \\end{gathered}$\n\nT**he formula gives 25 which is a positive integer so 1225 is a hexagonal number**\n\n**The student is not correct because **$35^{2}=1225$** so 1225 is also a square number ****[1]**",
      "equations": [
       {
@@ -672,7 +672,7 @@
       {
        "latex": "R_{n}=\\frac{2}{2n-1}-\\frac{1}{n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R subscript n equals fraction numerator 2 over denominator 2 n minus 1 end fraction minus 1 over n"
+       "alt": "R _ n = (2)/(2 n - 1) - 1 / n"
       },
       {
        "latex": "R_{n}",
@@ -702,7 +702,7 @@
       {
        "latex": "R_{n}=\\frac{1}{2n^{2}-n}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mi>n</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R subscript n equals fraction numerator 1 over denominator 2 n squared minus n end fraction"
+       "alt": "R _ n = (1)/(2 n ^2 - n)"
       },
       {
        "latex": "n",
@@ -717,7 +717,7 @@
       {
        "latex": "R_{n}=\\frac{1}{2n^{2}-n}=\\frac{1}{H_{n}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mi>n</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msub><mi>H</mi><mi>n</mi></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R subscript n equals fraction numerator 1 over denominator 2 n squared minus n end fraction equals 1 over H subscript n"
+       "alt": "R _ n = (1)/(2 n ^2 - n) equals 1 over H subscript n"
       }
      ]
     }

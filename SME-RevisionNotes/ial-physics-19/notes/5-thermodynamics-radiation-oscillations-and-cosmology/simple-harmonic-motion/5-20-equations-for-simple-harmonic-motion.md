@@ -92,7 +92,7 @@ guided_study: false
 > 
 > Since the mass is released at t = 0 at its maximum displacement, the displacement equation will be with the cosine function:
 > 
-> `x=A cos left parenthesis ω t right parenthesis`
+> $x=A \cos ( ω t )$
 > 
 > **Step 2: Calculate angular frequency**
 > 

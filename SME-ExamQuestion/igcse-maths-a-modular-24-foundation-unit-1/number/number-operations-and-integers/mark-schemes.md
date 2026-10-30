@@ -36,7 +36,7 @@ $2^{3}\times3^{3}\times5^{2}\times7$
 ### 2((b)) — 1 marks
 > *Finding the difference means to subtract the two values and can be entered on a calculator*
 
-`12 minus open parentheses negative 9 close parentheses equals 21`
+$12 - ( - 9 ) = 21$
 
 **Final answer:** **21**<sup>**o**</sup>**C**
 
@@ -103,7 +103,7 @@ $4^{2}-14=2$
 
 > *Put the brackets about this to subtract 2*
 
-`2 cross times 6 minus open parentheses 4 squared minus 14 close parentheses equals 10`
+$2 \\times 6 - ( 4^{2} - 14 ) = 10$
 
 **[B1]**
 
@@ -150,7 +150,7 @@ $379\div30=12.633...$
 
 > *Subtract the cost of 12 naans *
 
-`379 space minus space open parentheses 12 space cross times space 30 close parentheses space equals space 379 space minus space 360 space equals space 19`
+$379 - ( 12 \\times 30 ) = 379 - 360 = 19$
 
 **Final answer:** **19**
 

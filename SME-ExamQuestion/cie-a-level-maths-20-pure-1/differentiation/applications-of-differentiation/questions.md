@@ -438,7 +438,7 @@ Find the coordinates of $Q$.
 
 **Q35** [3 marks]
 
-Given that `y equals 4 over x minus cube root of 27 over x end root`, find
+Given that $y = \frac{4}{x} - \sqrt[3]{ \frac{27}{x} }$, find
 
 $\frac{\text{d}y}{\text{d}x}$
 

@@ -650,13 +650,7 @@ Product differentiation is the actions of a business to make its product distinc
 
 $\mathrm{Selling} \mathrm{price}=\mathrm{Total} \mathrm{cost} \mathrm{per} \mathrm{unit}+\mathrm{Mark}-\mathrm{up}$
 
-`equals space 20 space cross times space 10 space equals space $ 200
-
-equals space $ 250 space plus space $ 25 space plus space $ 25 space equals space $ 300
-
-equals space $ 300 space plus space $ 200 space equals space $ 500
-
-equals space $ 500 space cross times space 1.5 space equals space $ 750`
+$= 20 \\times 10 = \$ 200 = \$ 250 + \$ 25 + \$ 25 = \$ 300 = \$ 300 + \$ 200 = \$ 500 = \$ 500 \\times 1.5 = \$ 750$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings

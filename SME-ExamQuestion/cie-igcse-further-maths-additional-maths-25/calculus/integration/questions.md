@@ -269,7 +269,7 @@ Show that $\frac{3}{2x-3}+\frac{3}{2x+3}$ can be written as $\frac{12x}{4x^{2}-9
 
 **Extract:**
 
-fraction numerator 3 over denominator 2 x minus 3 end fraction plus fraction numerator 3 over denominator 2 x plus 3 end fraction can be written as fraction numerator 12 x over denominator 4 x squared minus 9 end fraction
+$\frac{3}{2 x - 3} + \frac{3}{2 x + 3} \text{can} \text{be} \text{written} \text{as} \frac{12 x}{4 x^{2} - 9}$
 
 Hence find $\int \frac{12 x}{4 x^{2} - 9} \mathrm{d} x$, giving your answer as a single logarithm and an arbitrary constant.
 
@@ -280,9 +280,9 @@ Hence find $\int \frac{12 x}{4 x^{2} - 9} \mathrm{d} x$, giving your answer as a
 
 **Extract:**
 
-Hence find integral fraction numerator 12 x over denominator 4 x squared minus 9 end fraction straight d x, giving your answer as a single logarithm and an arbitrary constant.
+`Hence find integral (12 x)/(4 x ^2 - 9) d x, giving your answer as a single logarithm and an arbitrary constant.`
 
-Answer: 3 over 2 ln open parentheses 4 x to the power of 2 space end exponent minus space 9 close parentheses space plus thin space c
+$Answer: \frac{3}{2} \ln ( 4 x^{2 } - 9 ) + \text{thin} c$
 
 Given that $\int_{2}^{a} \frac{12 x}{4 x^{2} - 9} \mathrm{d} x = \ln 5 \sqrt{5}$, where $a>2$, find the exact value of $a$.
 

@@ -9,7 +9,7 @@ To show that the molecular formula of **Q** is C<sub>10</sub>H<sub>12</sub>O:
 
 |   | C | H | O |
 |---|---|---|---|
-| Mass | 14.6 x `open parentheses 12 over 44 close parentheses` = 3.982 g | 3.58 x `open parentheses 2 over 18 close parentheses` = 0.398 g | 4.91 - (3.982 + 0.398) = 0.53 g |
+| Mass | 14.6 x $( \frac{12}{44} )$ = 3.982 g | 3.58 x $( \frac{2}{18} )$ = 0.398 g | 4.91 - (3.982 + 0.398) = 0.53 g |
 | Moles | $\frac{3.982}{12}$ = 0.332 mol | $\frac{0.398}{1}$ = 0.398 mol | $\frac{0.53}{16}$ = 0.0331 mol |
 | Ratio | 10 | 12 | 1 |
 

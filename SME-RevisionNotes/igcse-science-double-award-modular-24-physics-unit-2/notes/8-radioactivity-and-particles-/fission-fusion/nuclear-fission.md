@@ -89,7 +89,7 @@ guided_study: false
 > 
 > Which answer shows the section missing from this equation?
 > 
-> **A.  ** `n presubscript 0 presuperscript 3`
+> **A.  ** $n_{0}^{3}$
 > 
 > **B.  ** $\ \\gamma pre_{0} pre^{0}$
 > 

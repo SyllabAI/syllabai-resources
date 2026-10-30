@@ -127,7 +127,7 @@ $N=3$
 
 - The nuclide notion for an alpha particle is:
 
-$\ \\alpha pre_{2} pre^{4}$ or `He presubscript 2 presuperscript 4`
+$\ \\alpha pre_{2} pre^{4}$ or $He_{2}^{4}$
 
 - Alpha is a **highly** ionising form of radiation
 

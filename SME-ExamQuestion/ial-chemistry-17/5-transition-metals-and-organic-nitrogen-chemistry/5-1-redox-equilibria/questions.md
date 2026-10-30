@@ -45,7 +45,7 @@ i) Write the ionic equation for the disproportionation of manganate(VI) ions, $\
 
 **(2)**
 
-ii) Calculate `E subscript cell superscript ⦵` for the disproportionation of manganate(VI) ions in **acidic **conditions, stating whether or not the reaction is thermodynamically feasible.
+ii) Calculate `E _ ^ ⦵` for the disproportionation of manganate(VI) ions in **acidic **conditions, stating whether or not the reaction is thermodynamically feasible.
 
 **(2)**
 
@@ -361,7 +361,7 @@ What concentrations of the **original** solutions are needed for the resulting m
 ## Q10 — medium — 2 marks · multiple-choice-questions
 
 ### 3((a)) — 1 mark — multiple_choice — from paper Jan 2021 · WCH15/01
-An electrochemical cell is set up to measure `E subscript cell superscript ⦵` for the reaction
+An electrochemical cell is set up to measure `E _ ^ ⦵` for the reaction
 
 Fe (s) + Sn<sup>2+ </sup>(aq) → Fe<sup>2+ </sup>(aq) + Sn (s)
 
@@ -372,7 +372,7 @@ What is the cell diagram for this cell?
 - **D.** Fe<sup>2+</sup>(aq) | Fe(s) || Sn(s) | Sn<sup>2+</sup>(aq)
 
 ### 3((b)) — 1 mark — multiple_choice — from paper Jan 2021 · WCH15/01
-The standard electrode potential for the Fe / Fe<sup>2+</sup> electrode system is −0.44 V and `E subscript cell superscript ⦵` for the reaction is +0.30 V.
+The standard electrode potential for the Fe / Fe<sup>2+</sup> electrode system is −0.44 V and `E _ ^ ⦵` for the reaction is +0.30 V.
 
 What is the standard electrode potential for the Sn / Sn<sup>2+</sup> electrode system?
 - **A.** −0.74 V
@@ -450,7 +450,7 @@ Which is the equation for the overall cell reaction under standard conditions?
 - **D.** $\mathrm{VO}_{2}^{+}(\mathrm{aq})$ + 3Ag<sup>+</sup>(aq) + H<sub>2</sub>O(l) $\rightarrow$VO<sup>2+</sup>(aq) + 3Ag(s) + 2H<sup>+</sup>(aq)
 
 ### 3((d)) — 1 mark — multiple_choice — from paper Jan 2022 · WCH15/01
-Which is the value of `E subscript cell superscript ⦵` in volts?
+Which is the value of `E _ ^ ⦵` in volts?
 - **A.** −1.80
 - **B.** −0.20
 - **C.** +0.20

@@ -163,7 +163,7 @@ How do you **sketch **the line $y=mx+c$?
 
 To **sketch **the line $y=mx+c$:
 
-- plot the point `open parentheses 0 comma space c close parentheses`
+- plot the point $( 0 , c )$
 - find another point by substituting in another value for  $x$
 - plot that point and draw a straight line going through both points
 

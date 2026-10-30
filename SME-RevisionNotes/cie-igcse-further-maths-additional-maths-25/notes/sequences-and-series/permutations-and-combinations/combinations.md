@@ -66,13 +66,13 @@ guided_study: false
 ### What do I need to know about combinations?
 
 - The formula $C pre^{n}_{r} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$ is also known as a **binomial** coefficient
-- `size 16px C presuperscript size 16px n_ size 16px n size 16px=size 16px C presuperscript size 16px n_ size 16px 0 size 16px=size 16px 1`
+- $\text{size} 16px C pre^{size} 16px n_ \text{size} 16px n \text{size} 16px=size 16px C pre^{size} 16px n_ \text{size} 16px 0 \text{size} 16px=size 16px 1$
 
   - It is easy to see that there is only one way of arranging *n* objects out of *n* and also there can only be one way of arranging 0 objects out of *n*
   - By considering the formula for this, it reinforces the fact that 0! Must equal 1
 - The binomial coefficients are symmetrical, so $\text{size} 16px C pre^{size} 16px n_{size 16px r \text{size} 16px = \text{size} 16px C pre^{size} 16px n_{size} 16px n \text{size} 16px - \text{size} 16px r}$
 
-  - This can be seen by considering the formula for `C presuperscript n subscript r`
+  - This can be seen by considering the formula for $C pre^{n}_{r}$
   - $C pre^{n}_{n - r} = \frac{n factorial}{( n - r ) \text{factorial} ( n - ( n - r ) ) factorial} = \frac{n factorial}{r \text{factorial} ( n - r ) factorial} = C pre^{n}_{r}$
 
 ### How do I know when to multiply or add?

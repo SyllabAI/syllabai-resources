@@ -14,7 +14,7 @@ All measurements are in centimetres.
 
 ![Net of a cuboid with dimensions labelled as x, y, and x-3. The net includes six rectangles connected, with a note indicating not to scale.](assets/001-net-of-a-cuboid-with-dimensions-labelled-as-x-y-.png)
 
-This is the net of a cuboid with edges of length $x,y$ and `open parentheses x minus 3 close parentheses`.
+This is the net of a cuboid with edges of length $x,y$ and $( x - 3 )$.
 
 Find an expression, in terms of $x$ and $y$, for the perimeter of the net.
 Give your answer in its simplest form.

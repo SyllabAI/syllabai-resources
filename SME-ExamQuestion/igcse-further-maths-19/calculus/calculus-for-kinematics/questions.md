@@ -8,7 +8,7 @@
 ### 4((a)) — 2 marks — structured — from paper Specimen · 4PM1/01
 A particle $P$ is moving along the $x$-axis.
 
-At time $t$ seconds `space left parenthesis t space greater-than or slanted equal to space 0 right parenthesis` the velocity, $v$ m/s, of  $P$is given by $v=4t^{2}--19t+12$
+At time $t$ seconds `( t greater-than or slanted equal to 0 )` the velocity, $v$ m/s, of  $P$is given by $v=4t^{2}--19t+12$
 
 Find the values of $t$for which $P$ is instantaneously at rest.
 
@@ -27,7 +27,7 @@ Find the value of $t$ when $a=0$
 ### 5((a)) — 3 marks — structured — from paper June 2024 · Paper 1
 A particle $P$ is moving along the $x$-axis.
 
-At time $t$ seconds `open parentheses t space greater-than or slanted equal to space 0 close parentheses` the acceleration, $a$ m/s<sup>2</sup> , of $P$is given by  $a=3t-4$
+At time $t$ seconds `( t greater-than or slanted equal to 0 )` the acceleration, $a$ m/s<sup>2</sup> , of $P$is given by  $a=3t-4$
 
 When$t=0$, $P$ is at rest.
 
@@ -39,7 +39,7 @@ At time $T$seconds, $T>0$, $P$ is instantaneously at rest.
 Find the value of $T$
 
 ### 5((c)) — 4 marks — structured — from paper June 2024 · Paper 1
-When $t=0$, $P$ is at the point with coordinates `open parentheses negative 10 comma space 0 close parentheses`
+When $t=0$, $P$ is at the point with coordinates $( - 10 , 0 )$
 
 Find the displacement of $P$ from the origin when $t=3$
 
@@ -48,7 +48,7 @@ Find the displacement of $P$ from the origin when $t=3$
 ### 5((a)) — 3 marks — structured — from paper Nov 2024 · Paper 1
 A particle $P$ is moving along a straight line.
 
-At time  $t$ seconds `open parentheses space t space greater-than or slanted equal to space 0 space close parentheses`, the velocity, $v$ m/s, of $P$ is given by
+At time  $t$ seconds `( t greater-than or slanted equal to 0 )`, the velocity, $v$ m/s, of $P$ is given by
 
 $v=3t^{2}-16t+5$
 
@@ -81,7 +81,7 @@ Find the exact distance $MN$
 ### 3() — 4 marks — structured — from paper November 2023 · Paper 2
 A particle $P$ moves along the $x$-axis.
 
-At time $t$ seconds `open parentheses t greater-than or slanted equal to 0 close parentheses` the acceleration, $am/s^{2}$ , of  $P$ is given by $a=6t-16$
+At time $t$ seconds `( t greater-than or slanted equal to 0 )` the acceleration, $am/s^{2}$ , of  $P$ is given by $a=6t-16$
 
 When $t=0$,  $P$ is at the origin and is moving with velocity 12 $m/s$.
 
@@ -98,7 +98,7 @@ Find an expression in terms of $t$ for
 ### 3((b)) — 3 marks — structured — from paper November 2023 · Paper 2
 A particle $P$ moves along the $x$-axis.
 
-At time $t$ seconds `open parentheses t greater-than or slanted equal to 0 close parentheses` the acceleration, $am/s^{2}$ , of  $P$ is given by $a=6t-16$
+At time $t$ seconds `( t greater-than or slanted equal to 0 )` the acceleration, $am/s^{2}$ , of  $P$ is given by $a=6t-16$
 
 When $t=0$,  $P$ is at the origin and is moving with velocity 12 $m/s$.
 

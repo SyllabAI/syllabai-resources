@@ -81,9 +81,9 @@ Write down the value of $x$
 ### 1() — 3 marks — command: find — structured
 The diagram below shows a triangle $PRQ$ and straight line $PQS$. The diagram is not drawn to scale.
 
-- Angle `P R Q equals open parentheses 8 x plus 2 close parentheses degree`
-- Angle `Q P R equals open parentheses 11 x plus 10 close parentheses degree`
-- Angle `R Q S equals open parentheses 15 x plus 32 close parentheses degree`
+- Angle $P R Q = ( 8 x + 2 )^{\circ}$
+- Angle $Q P R = ( 11 x + 10 )^{\circ}$
+- Angle $R Q S = ( 15 x + 32 )^{\circ}$
 
 ![Triangle PQR with angles P (11x+10)° and R (8x+2)° and angle Q is missing. Angle (15x+32)°is adjacent to angle Q.](assets/001-triangle-pqr-with-angles-p-11x-10-and-r-8x-2-and.png)
 

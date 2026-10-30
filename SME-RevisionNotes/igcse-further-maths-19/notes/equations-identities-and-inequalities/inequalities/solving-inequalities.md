@@ -55,25 +55,25 @@ guided_study: false
 
 - We use **curly brackets** and a** colon** in **set notation**
 
-  - `open curly brackets x colon space... close curly brackets` means "*x* is in the set such that ..."
+  - $\{ x : ... \}$ means "*x* is in the set such that ..."
   
-    - e.g. the set of all *x* such that *x* is greater than 3 is written `open curly brackets x colon space x greater than 3 close curly brackets`
+    - e.g. the set of all *x* such that *x* is greater than 3 is written $\{ x : x > 3 \}$
 
 - If *x* is **between** two values
 
   - you can write it as a single set
   
-    - e.g. if *x* is greater than 3 **and** less than or equal to 5, then in set notation `open curly brackets x colon space 3 less than x less or equal than 5 close curly brackets`
+    - e.g. if *x* is greater than 3 **and** less than or equal to 5, then in set notation `{ x colon 3 less than x <= 5 }`
   - or you can write it as separate sets, using the **intersection** symbol, $\cap$
   
-    - so the above example could also be written in set notation as `open curly brackets x colon x greater than 3 close curly brackets intersection open curly brackets x colon x less or equal than 5 close curly brackets`
+    - so the above example could also be written in set notation as `{ x colon x greater than 3 } AND { x colon x <= 5 }`
   - Either way will get the marks, unless a question specifically **asks for** one or the other
 
 - If *x* is **less than one value OR greater than another value** (disjoint sets)
 
   - then the two end values must be written in separate sets using the **union** symbol, $\cup$
   
-    - e.g. if *x* is less than 3 **or** greater than or equal to 5, then in set notation `open curly brackets x colon x less than 3 close curly brackets union open curly brackets x colon greater or equal than 5 close curly brackets`
+    - e.g. if *x* is less than 3 **or** greater than or equal to 5, then in set notation `{ x colon x less than 3 } OR { x colon >= 5 }`
 
 ### How do I solve double inequalities?
 

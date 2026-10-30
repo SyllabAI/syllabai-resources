@@ -547,11 +547,11 @@ Up to **three**** from the following:**
 
 ![edexcel-ial-oct-2021-unit-1-q8c---ma](assets/014-edexcel-ial-oct-2021-unit-1-q8c-ma.png)
 
-(iii) The value of Σ `open parentheses straight O minus straight E close parentheses squared over straight E` is calculated as follows:
+(iii) The value of Σ `( O - E ) ^2 / E` is calculated as follows:
 
 - 0.0375 + 0.2083 + 0.5333 = 0.8 / 0.78 / 0.779 / 0.7791; **[1 mark]**
 
-> *Because we have already calculated the individual values of *`open parentheses straight O minus straight E close parentheses squared over straight E`*, the sigma sign Σ just means we add all the values up to find a total. *
+> *Because we have already calculated the individual values of *`( O - E ) ^2 / E`*, the sigma sign Σ just means we add all the values up to find a total. *
 
 (iv) A critical value table could be used to accept or reject a null hypothesis for this experiment as follows:
 

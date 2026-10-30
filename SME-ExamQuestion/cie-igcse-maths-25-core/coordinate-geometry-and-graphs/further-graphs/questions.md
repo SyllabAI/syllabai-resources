@@ -386,7 +386,7 @@ $y=$ ............................ [3]
 
 **Q9** [8 marks]
 
-i) Complete the table of values for `y equals x open parentheses 3 minus x close parentheses`.
+i) Complete the table of values for $y = x ( 3 - x )$.
 
 | $x$ | $-4$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $4$ |
 |---|---|---|---|---|---|---|---|
@@ -394,7 +394,7 @@ i) Complete the table of values for `y equals x open parentheses 3 minus x close
 
 [3]
 
-ii) On the grid, draw the graph of `y equals x open parentheses 3 minus x close parentheses` for `negative 4 less-than or slanted equal to x less-than or slanted equal to 4.`
+ii) On the grid, draw the graph of $y = x ( 3 - x )$ for `negative 4 less-than or slanted equal to x less-than or slanted equal to 4.`
 
 ![q8cii-058032-march2019-cie-igcse-maths-core](assets/038-q8cii-058032-march2019-cie-igcse-maths-core.png)
 

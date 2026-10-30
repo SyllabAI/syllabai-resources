@@ -25,8 +25,8 @@ $Q = 120 \text{C}$
 ### Q2
 **Final answer:** **The correct answer is C**
 
-- To calculate the cost, the electrical energy used must first be found in kilowatt-hours `open parentheses kWh close parentheses`
-- The power $P$ of the heater must be converted from watts `open parentheses straight W close parentheses` to kilowatts `open parentheses kW close parentheses` by dividing by $1000$
+- To calculate the cost, the electrical energy used must first be found in kilowatt-hours `( kWh )`
+- The power $P$ of the heater must be converted from watts $( \mathrm{W} )$ to kilowatts `( kW )` by dividing by $1000$
 
 $P=\frac{2000}{1000}=2.0\text{kW}$
 

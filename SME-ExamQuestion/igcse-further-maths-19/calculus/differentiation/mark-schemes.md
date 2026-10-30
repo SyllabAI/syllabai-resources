@@ -772,7 +772,7 @@ Work that out, keeping full accuracy until the last line
 
 - $4 \text{ln} 2 - \frac{3}{2} = 1 . 27258 \dots$ and `\frac{1}{16} \left(\text{ln} 2\right)^{2} = 0 . 03002 \ldots`
 
-`A equals 1.3 space open parentheses 1 space straight d. straight p. close parentheses`
+$A = 1.3 ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 

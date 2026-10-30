@@ -40,7 +40,7 @@ guided_study: true
 > **Worked Example**
 > State the number of protons, neutrons and electrons in these two isotopes of chlorine:
 > 
-> `Cl presubscript 17 presuperscript 35`,  `Cl presubscript 17 presuperscript 37`
+> $Cl_{17}^{35}$,  $Cl_{17}^{37}$
 > 
 > **Answer:**
 > 

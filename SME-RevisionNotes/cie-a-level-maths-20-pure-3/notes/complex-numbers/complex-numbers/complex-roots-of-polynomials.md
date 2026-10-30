@@ -52,7 +52,7 @@ guided_study: true
   - This means that `z−(m+n straight i)` and `z−(m−n straight i)`are **factors** of the quadratic equation
   - Therefore `z²+b z+c=left square bracket z−(m+n straight i) right square bracket left square bracket z−(m−n straight i) right square bracket`
   
-    - Writing this as the difference of two squares - `left parenthesis (z−m)−n straight i right parenthesis left parenthesis (z−m)+n straight i right parenthesis` - will speed up expanding
+    - Writing this as the difference of two squares - $( (z−m)−n \mathrm{i} ) ( (z−m)+n \mathrm{i} )$ - will speed up expanding
   - **Expanding** and **simplifying** gives us a quadratic equation where $b$ and $c$ are **real** numbers
 
 > **Worked Example**
@@ -103,7 +103,7 @@ guided_study: true
 - Steps to solve a cubic equation with complex roots
 
   - If we are told that** **$m+ni$ is a root, then we know $m-ni$ is also a root
-  - This means that `left parenthesis z−(m+n straight i) right parenthesis` and $(z-(m-ni))$ are **factors** of the cubic equation
+  - This means that $( z−(m+n \mathrm{i} ) )$ and $(z-(m-ni))$ are **factors** of the cubic equation
   - **Multiply** the above factors together gives us a quadratic factor of the form $(Az^{2}+Bz+C)$
   - We need to find the third factor $(z-α)$
   - **Multiply** the factors and **equate** to our original equation to get

@@ -10,7 +10,7 @@
 
 **Q1** [4 marks]
 
-(i) Write $6x-0.5x^{2}-7$ in the form `y equals a open parentheses x minus p close parentheses squared plus q`
+(i) Write $6x-0.5x^{2}-7$ in the form $y = a ( x - p )^{2} + q$
 
 (ii) Hence, write down the coordinates of the turning point on the curve with equation $y=6x-0.5x^{2}-7$
 
@@ -45,7 +45,7 @@ C (.............. , ..............)
 
 **Q3** [2 marks]
 
-Write  $x^{2}+10x+14$  in the form  `open parentheses x plus a close parentheses squared space plus b.`
+Write  $x^{2}+10x+14$  in the form  $( x + a )^{2} + b.$
 
 *Source: 2020	May/June 0580/41 Q8C*
 
@@ -112,7 +112,7 @@ ii) the coordinates of the turning point.
 
 On the diagram,
 
-Sketch the graph of `space y equals open parentheses x minus 1 close parentheses squared`.
+Sketch the graph of $y = ( x - 1 )^{2}$.
 
 *Source: 2020 May/June 0580/42 Q9C*
 

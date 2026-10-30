@@ -393,8 +393,8 @@ Determine the average values of Z
 | **substance** | **main elements** | **Final answer:** **average ****Z** |
 |---|---|---|
 | muscle | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$ | **Final answer:** **5** |
-| bone | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$,  $\mathrm{P} pre_{15}$,  `Ca presubscript 20` | **Final answer:** **10** |
-| contrast media | $\mathrm{I} pre_{53}$,  `Ba presubscript 56` | **Final answer:** **55** |
+| bone | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$,  $\mathrm{P} pre_{15}$,  $\text{Ca} pre_{20}$ | **Final answer:** **10** |
+| contrast media | $\mathrm{I} pre_{53}$,  $\text{Ba} pre_{56}$ | **Final answer:** **55** |
 
 - Average values of *Z* calculated; **[1 mark]**
 

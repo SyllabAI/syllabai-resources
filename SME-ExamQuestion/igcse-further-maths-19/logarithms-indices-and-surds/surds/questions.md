@@ -37,8 +37,8 @@ Show your working clearly.
 
 Figure 1 shows the triangle $ABC$
 
-`angle A B C equals 90 degree      A B equals left parenthesis 2 plus 4 square root of 5 right parenthesis text  cm end text      B C equals left parenthesis a plus b square root of 5 right parenthesis text  cm  end text` where $a$ and $b$ are integers.
+$\text{angle} A B C = 90^{\circ}      A B = ( 2 + 4 \sqrt{5} ) \text{ cm}      B C = ( a + b \sqrt{5} ) \text{ \text{cm} }$ where $a$ and $b$ are integers.
 
-The area of triangle `A B C equals open parentheses 34 plus 11 square root of 5 close parentheses space cm squared`
+The area of triangle $A B C = ( 34 + 11 \sqrt{5} ) cm^{2}$
 
 Without using a calculator, find the value of  $a$ and the value of  $b$

@@ -38,11 +38,11 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. the probability of events A **and** B occurring is `straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`."
+     "md": "E.g. the probability of events A **and** B occurring is $\\mathrm{P} ( A ) \\\\times \\mathrm{P} ( B )$."
     }
    ],
    "front_md": "What does **AND** mean for combined probabilities?\n",
-   "back_md": "**AND** means **multiply** ($\\times$) and is used for **independent events** to find the **probability of both events **occurring.\n\nE.g. the probability of events A **and** B occurring is `straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`.\n",
+   "back_md": "**AND** means **multiply** ($\\times$) and is used for **independent events** to find the **probability of both events **occurring.\n\nE.g. the probability of events A **and** B occurring is $\\mathrm{P} ( A ) \\\\times \\mathrm{P} ( B )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -64,11 +64,11 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. the probability of either event *A* and/or event *B* occurring is `straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`."
+     "md": "E.g. the probability of either event *A* and/or event *B* occurring is $\\mathrm{P} ( A ) + \\mathrm{P} ( B )$."
     }
    ],
    "front_md": "What does **OR** mean for combined probabilities?\n",
-   "back_md": "**OR** means **add** (+) and is used for **mutually exclusive** **events** to find the **probability of one event or the other event **occurring.\n\nE.g. the probability of either event *A* and/or event *B* occurring is `straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`.\n",
+   "back_md": "**OR** means **add** (+) and is used for **mutually exclusive** **events** to find the **probability of one event or the other event **occurring.\n\nE.g. the probability of either event *A* and/or event *B* occurring is $\\mathrm{P} ( A ) + \\mathrm{P} ( B )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -120,11 +120,11 @@
     },
     {
      "type": "paragraph",
-     "md": "`straight P open parentheses A space and space B close parentheses equals straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`."
+     "md": "`P ( A and B ) = P ( A ) x P ( B )`."
     }
    ],
    "front_md": "State the** equation** for the probability of** two independent events**, $A$ and $B$, occurring together.\n",
-   "back_md": "If $A$ and $B$ are **independent events**, then the probability of both events occurring is:\n\n`straight P open parentheses A space and space B close parentheses equals straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`.\n",
+   "back_md": "If $A$ and $B$ are **independent events**, then the probability of both events occurring is:\n\n`P ( A and B ) = P ( A ) x P ( B )`.\n",
    "spec_links": [],
    "flags": []
   },
@@ -146,11 +146,11 @@
     },
     {
      "type": "paragraph",
-     "md": "`straight P open parentheses A space or space B close parentheses equals straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`."
+     "md": "$\\mathrm{P} ( A \\text{or} B ) = \\mathrm{P} ( A ) + \\mathrm{P} ( B )$."
     }
    ],
    "front_md": "State the **equation** for the probability of one or the other of **two mutually exclusive events**, $A$ and $B$, occurring.\n",
-   "back_md": "If $A$ and $B$ are **mutually exclusive events**, then the probability of one or the other of them occurring is:\n\n`straight P open parentheses A space or space B close parentheses equals straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`.\n",
+   "back_md": "If $A$ and $B$ are **mutually exclusive events**, then the probability of one or the other of them occurring is:\n\n$\\mathrm{P} ( A \\text{or} B ) = \\mathrm{P} ( A ) + \\mathrm{P} ( B )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -190,11 +190,11 @@
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "The **notation** for the **conditional probability **of event $A$ occurring,** given** that event $B$ has occurred, is `straight P open parentheses A vertical line B close parentheses`."
+     "md": "The **notation** for the **conditional probability **of event $A$ occurring,** given** that event $B$ has occurred, is $\\mathrm{P} ( A \\vert B )$."
     }
    ],
    "front_md": "What is the** notation** for the **conditional probability** of event $A$ occurring, **given** that event $B$ has occurred?\n",
-   "back_md": "The **notation** for the **conditional probability **of event $A$ occurring,** given** that event $B$ has occurred, is `straight P open parentheses A vertical line B close parentheses`.\n",
+   "back_md": "The **notation** for the **conditional probability **of event $A$ occurring,** given** that event $B$ has occurred, is $\\mathrm{P} ( A \\vert B )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -206,17 +206,17 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "What might `straight P open parentheses passes vertical line no space revision close parentheses` mean in the context of a student preparing for an exam?"
+     "md": "What might `P ( passes | no revision )` mean in the context of a student preparing for an exam?"
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "`straight P open parentheses passes vertical line no space revision close parentheses` would be the **probability** that the student **passes** the exam,** given** that the student has done **no revision**."
+     "md": "`P ( passes | no revision )` would be the **probability** that the student **passes** the exam,** given** that the student has done **no revision**."
     }
    ],
-   "front_md": "What might `straight P open parentheses passes vertical line no space revision close parentheses` mean in the context of a student preparing for an exam?\n",
-   "back_md": "`straight P open parentheses passes vertical line no space revision close parentheses` would be the **probability** that the student **passes** the exam,** given** that the student has done **no revision**.\n",
+   "front_md": "What might `P ( passes | no revision )` mean in the context of a student preparing for an exam?\n",
+   "back_md": "`P ( passes | no revision )` would be the **probability** that the student **passes** the exam,** given** that the student has done **no revision**.\n",
    "spec_links": [],
    "flags": []
   },
@@ -284,21 +284,21 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "What is the **difference** between `straight P open parentheses A vertical line B close parentheses` and `straight P open parentheses B vertical line A close parentheses`?"
+     "md": "What is the **difference** between $\\mathrm{P} ( A \\vert B )$ and $\\mathrm{P} ( B \\vert A )$?"
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "The **difference** between `straight P open parentheses A vertical line B close parentheses` and `straight P open parentheses B vertical line A close parentheses` is this:"
+     "md": "The **difference** between $\\mathrm{P} ( A \\vert B )$ and $\\mathrm{P} ( B \\vert A )$ is this:"
     },
     {
      "type": "bullets",
-     "md": "- `straight P open parentheses A vertical line B close parentheses` is the probability that $A$ happens, given that $B$ has happened.\n- `straight P open parentheses B vertical line A close parentheses` is the probability that $B$ happens, given that $A$ has happened."
+     "md": "- $\\mathrm{P} ( A \\vert B )$ is the probability that $A$ happens, given that $B$ has happened.\n- $\\mathrm{P} ( B \\vert A )$ is the probability that $B$ happens, given that $A$ has happened."
     }
    ],
-   "front_md": "What is the **difference** between `straight P open parentheses A vertical line B close parentheses` and `straight P open parentheses B vertical line A close parentheses`?\n",
-   "back_md": "The **difference** between `straight P open parentheses A vertical line B close parentheses` and `straight P open parentheses B vertical line A close parentheses` is this:\n\n- `straight P open parentheses A vertical line B close parentheses` is the probability that $A$ happens, given that $B$ has happened.\n- `straight P open parentheses B vertical line A close parentheses` is the probability that $B$ happens, given that $A$ has happened.\n",
+   "front_md": "What is the **difference** between $\\mathrm{P} ( A \\vert B )$ and $\\mathrm{P} ( B \\vert A )$?\n",
+   "back_md": "The **difference** between $\\mathrm{P} ( A \\vert B )$ and $\\mathrm{P} ( B \\vert A )$ is this:\n\n- $\\mathrm{P} ( A \\vert B )$ is the probability that $A$ happens, given that $B$ has happened.\n- $\\mathrm{P} ( B \\vert A )$ is the probability that $B$ happens, given that $A$ has happened.\n",
    "spec_links": [],
    "flags": []
   },

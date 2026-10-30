@@ -55,7 +55,7 @@ guided_study: false
 > 
 > > *Use sum limits from 1 to 6*
 > 
-> > `sum from k equals 1 to 6 of u subscript k space`
+> > $\sum_{k = 1}^{6} u_{k}$
 > 
 > *Note that '*$n$*' is replaced by '*$k$*' to match the variable used for the sigma sum*
 > 
@@ -73,7 +73,7 @@ guided_study: false
 > 
 > > *This is very similar to the above, but the sum limits will start at 1 and go to* $n$
 > 
-> `sum from k equals 1 to n of u subscript k`
+> $\sum_{k = 1}^{n} u_{k}$
 > 
 > > *Be careful here  –* $k$ *is the variable for the sigma sum, and* $n$ *means we're going up to the* $n$<sup>*th*</sup> *term*
 > 

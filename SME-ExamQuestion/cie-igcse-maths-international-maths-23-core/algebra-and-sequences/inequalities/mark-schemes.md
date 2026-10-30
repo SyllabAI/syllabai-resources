@@ -53,7 +53,7 @@ $y>7$  **[1]**
 
 ### Q4
 > *Recall that*
-* *$3^{2}=9$* and *`open parentheses negative 3 close parentheses squared equals 9`
+* *$3^{2}=9$* and *$( - 3 )^{2} = 9$
 
 > *Consider the first option*
 * *$2\frac{7}{8}$* is less than 3, and not negative, so when squared, will not be larger than 9*
@@ -66,7 +66,7 @@ $y>7$  **[1]**
 
 > *Consider the fourth option*
 
-> * *$-\frac{7}{2}$* is equivalent to *$-3.5$*, and *`open parentheses negative 3.5 close parentheses squared`* will be larger than 9*
+> * *$-\frac{7}{2}$* is equivalent to *$-3.5$*, and *$( - 3.5 )^{2}$* will be larger than 9*
 
 > *So option four is correct*
 

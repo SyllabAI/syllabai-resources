@@ -80,7 +80,7 @@ i) The ionic equation for the disproportionation of manganate(VI) ions, $\mathrm
 - Writing the balanced equation:
 3MnO<sub>4</sub><sup>2−</sup> + 4H<sup>+ </sup>⇌ 2MnO<sub>4</sub><sup>−</sup> + MnO<sub>2</sub> + 2H<sub>2</sub>O; **[1 mark]**
 
-ii) Calculating `E subscript cell superscript ⦵` for the disproportionation of manganate(VI) ions in **acidic **condition and whether or not the reaction is thermodynamically feasible:
+ii) Calculating `E _ ^ ⦵` for the disproportionation of manganate(VI) ions in **acidic **condition and whether or not the reaction is thermodynamically feasible:
 
 - $E_{cell} ^{\circ}$ = 2.26 − 0.56; **[1 mark]**
 - = (+)1.70 (V)
@@ -133,8 +133,8 @@ The equilibrium has significant concentrations of reactants and products; **[1 m
   - $E_{cell} ^{\circ} = E_{reduction} ^{\circ} - E_{oxidation} ^{\circ}$* = +2.26 - (+0.56) = +1.70 V*
   - *You would gain these two marks if:*
   
-    - *You used equations 1 and 5 and gave *`E subscript cell superscript ⦵`* = +1.51 - (+0.56) = +0.95 V and stated that the reaction was feasible*
-    - *You used the alkaline half-equations and gave *`E subscript cell superscript ⦵`* = +0.59 − (+)0.56 = +0.03 V and stated that the reaction was feasible*
+    - *You used equations 1 and 5 and gave *`E _ ^ ⦵`* = +1.51 - (+0.56) = +0.95 V and stated that the reaction was feasible*
+    - *You used the alkaline half-equations and gave *`E _ ^ ⦵`* = +0.59 − (+)0.56 = +0.03 V and stated that the reaction was feasible*
   - *You would gain one mark for a correct value for the cell potential, without a comment on the feasibility*
 - *In part (iii)*
 
@@ -692,21 +692,21 @@ percentage by mass of V = **81.4%** **[1 mark]**
 - The electrode system Fe<sup>3+</sup>/Fe<sup>2+</sup> undergoes reduction as it is gaining electrons:
 
   - Fe<sup>3+</sup> + e<sup>-</sup> → Fe<sup>2+</sup>
-  - Therefore, `E subscript reduction superscript ⦵` = +0.77 V
+  - Therefore, `E _ reduction ^ ⦵` = +0.77 V
 - The electrode system Ti<sup>2+</sup>/Ti undergoes oxidation as it gains elections:
 
   - Ti<sup>2+</sup> + 2e<sup>-</sup> → Ti
-  - Therefore, the standard electrode potential for this system is `E subscript oxidation superscript ⦵`
+  - Therefore, the standard electrode potential for this system is `E _ oxidation ^ ⦵`
 - Substituting values into the equation for standard cell potential:
 
-  - +2.40 = +0.77 - `E subscript oxidation superscript ⦵`
-  - Therefore `E subscript oxidation superscript ⦵` = +0.77 - 2.40 =** -1.63 V**
+  - +2.40 = +0.77 - `E _ oxidation ^ ⦵`
+  - Therefore `E _ oxidation ^ ⦵` = +0.77 - 2.40 =** -1.63 V**
 
 **A** is incorrect as the electrode potential for the Fe<sup>3+</sup>/ Fe<sup>2+</sup> electrode system has been added to the Eo cell value instead of being subtracted
 
 **C** is incorrect as  the value should have a negative sign
 
-**D** is incorrect as the value should have a negative sign and the electrode potential for the Fe<sup>3+</sup>/ Fe<sup>2+</sup>electrode system has been added to the `E subscript cell superscript ⦵` value instead of being subtracted
+**D** is incorrect as the value should have a negative sign and the electrode potential for the Fe<sup>3+</sup>/ Fe<sup>2+</sup>electrode system has been added to the `E _ ^ ⦵` value instead of being subtracted
 
 ### 2((b)) — 1 marks
 **Correct answer: C** — 

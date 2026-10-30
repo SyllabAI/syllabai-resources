@@ -428,7 +428,7 @@ $\text{efficiency} = \frac{\text{useful energy output}}{\text{total energy input
 
 - Substitute the known values:
 
-`text efficiency end text equals 24 over 200 cross times 100 equals 12 percent sign` **[1 mark]**
+$\text{efficiency} = \frac{24}{200} \\times 100 = 12 \%$ **[1 mark]**
 
 > **[mark-scheme]**
 > 1 mark for calculating the useful energy output of 24 J
@@ -685,7 +685,7 @@ Calculate the energy output in J/s:
 - $\mathrm{GPE}=mgh$
 
   - Taking *m* to be the total mass of 30 people
-  - `G P E space equals space open parentheses 30 space cross times space 78 close parentheses space cross times space 10 space cross times space 5.0`
+  - $G P E = ( 30 \\times 78 ) \\times 10 \\times 5.0$
   - GPE = 117 000 J per minute
 - Converting to GPE per second
 

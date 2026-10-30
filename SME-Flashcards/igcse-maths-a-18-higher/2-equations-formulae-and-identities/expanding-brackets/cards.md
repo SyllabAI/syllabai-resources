@@ -11,14 +11,14 @@ Source: https://www.savemyexams.com/igcse/maths/edexcel/a/18/higher/flashcards/2
 
 Explain how to **expand** a single bracket.
 
-E.g. `2 open parentheses x plus 3 close parentheses`.
+E.g. $2 ( x + 3 )$.
 
 
 **BACK**
 
 Expanding a bracket means multiplying the term outside the bracket by **each term** inside the bracket.
 
-So `2 open parentheses x plus 3 close parentheses` becomes $2x+6$ from $2\timesx+2\times3$.
+So $2 ( x + 3 )$ becomes $2x+6$ from $2\timesx+2\times3$.
 
 
 
@@ -28,14 +28,14 @@ So `2 open parentheses x plus 3 close parentheses` becomes $2x+6$ from $2\timesx
 
 **True or False?**
 
-`negative 2 open parentheses 1 minus x close parentheses` expands to $-2-2x$.
+$- 2 ( 1 - x )$ expands to $-2-2x$.
 
 
 **BACK**
 
 **False.**
 
-`negative 2 open parentheses 1 minus x close parentheses` can be thought of as `open parentheses negative 2 close parentheses cross times 1 plus open parentheses negative 2 close parentheses cross times open parentheses negative x close parentheses`.
+$- 2 ( 1 - x )$ can be thought of as $( - 2 ) \\times 1 + ( - 2 ) \\times ( - x )$.
 
 Multiplying **two negatives** gives a **positive**, so the answer is $-2+2x$.
 
@@ -45,14 +45,14 @@ Multiplying **two negatives** gives a **positive**, so the answer is $-2+2x$.
 
 **FRONT**
 
-How can you** simplify** `3 open parentheses x plus 5 plus x close parentheses` **before** expanding the brackets?
+How can you** simplify** $3 ( x + 5 + x )$ **before** expanding the brackets?
 
 
 **BACK**
 
-You can simplify `3 open parentheses x plus 5 plus x close parentheses` before expanding by first **collecting like terms** inside the brackets to give `3 open parentheses 2 x plus 5 close parentheses`.
+You can simplify $3 ( x + 5 + x )$ before expanding by first **collecting like terms** inside the brackets to give $3 ( 2 x + 5 )$.
 
-This can also be written as `3 open parentheses 5 plus 2 x close parentheses`.
+This can also be written as $3 ( 5 + 2 x )$.
 
 
 
@@ -62,14 +62,14 @@ This can also be written as `3 open parentheses 5 plus 2 x close parentheses`.
 
 Explain how to** simplify **an expression with two sets of brackets
 
-E.g. `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses`.
+E.g. $2 ( x + 1 ) + 3 ( x - 1 )$.
 
 
 **BACK**
 
-To simplify expressions like `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` you **expand the brackets** then **collect like terms**.
+To simplify expressions like $2 ( x + 1 ) + 3 ( x - 1 )$ you **expand the brackets** then **collect like terms**.
 
-So `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` expands to give $2x+2+3x-3$.
+So $2 ( x + 1 ) + 3 ( x - 1 )$ expands to give $2x+2+3x-3$.
  The terms are then collected to give $5x-1$.
 
 
@@ -80,16 +80,16 @@ So `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minu
 
 **True or False?**
 
-`3 open parentheses x plus 2 close parentheses` expands to $3x+6$, then the 3's cancel to give $x+2$.
+$3 ( x + 2 )$ expands to $3x+6$, then the 3's cancel to give $x+2$.
 
 
 **BACK**
 
 **False.**
 
-You **cannot cancel** the 3's because `3 open parentheses x plus 2 close parentheses` is an **expression**, not an equation.
+You **cannot cancel** the 3's because $3 ( x + 2 )$ is an **expression**, not an equation.
 
-You can only cancel both sides by 3 if you had an equation, like `3 open parentheses x plus 2 close parentheses equals 9`.
+You can only cancel both sides by 3 if you had an equation, like $3 ( x + 2 ) = 9$.
 
 
 
@@ -99,14 +99,14 @@ You can only cancel both sides by 3 if you had an equation, like `3 open parenth
 
 How do you find the **highest power** of $x$ when expanding expressions?
 
-E.g. `2 x squared open parentheses x plus x squared close parentheses`.
+E.g. $2 x^{2} ( x + x^{2} )$.
 
 
 **BACK**
 
 The **highest power** of $x$ will come from multiplying the outside term by the inside term with the highest power.
 
-The  highest power of $x$ in `2 x squared open parentheses x plus x squared close parentheses` is $x^{4}$.
+The  highest power of $x$ in $2 x^{2} ( x + x^{2} )$ is $x^{4}$.
 
 This can be found by multiplying $x^{2}$ outside the bracket by the highest power, $x^{2}$, from inside the bracket.
 
@@ -116,12 +116,12 @@ This can be found by multiplying $x^{2}$ outside the bracket by the highest powe
 
 **FRONT**
 
-When **expanding double brackets**, e.g. `open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses`, what does the acronym **FOIL** stand for?
+When **expanding double brackets**, e.g. $( x + 2 ) ( x - 3 )$, what does the acronym **FOIL** stand for?
 
 
 **BACK**
 
-When **expanding double brackets**, e.g. `open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses`, the acronym **FOIL** is used to identify which terms should be multiplied together.
+When **expanding double brackets**, e.g. $( x + 2 ) ( x - 3 )$, the acronym **FOIL** is used to identify which terms should be multiplied together.
 
 - F = First (the first term from each bracket, e.g. $x\timesx=x^{2}$)
 - O = Outside (the outer term from each bracket, e.g. $x\times-3=-3x$)
@@ -136,16 +136,16 @@ When **expanding double brackets**, e.g. `open parentheses x plus 2 close parent
 
 **True or False?**
 
-When expanding double brackets such as `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses`, **every term in the left bracket** gets multiplied by **every term in the right bracket**.
+When expanding double brackets such as $( x + 1 ) ( x + 2 )$, **every term in the left bracket** gets multiplied by **every term in the right bracket**.
 
 
 **BACK**
 
 **True.**
 
-When expanding double brackets like `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses`, **every term in the left bracket** gets multiplied by **every term in the right bracket**.
+When expanding double brackets like $( x + 1 ) ( x + 2 )$, **every term in the left bracket** gets multiplied by **every term in the right bracket**.
 
-E.g. `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses equals x cross times x plus x cross times 2 plus 1 cross times x plus 1 cross times 2`.
+E.g. $( x + 1 ) ( x + 2 ) = x \\times x + x \\times 2 + 1 \\times x + 1 \\times 2$.
 
 
 
@@ -153,7 +153,7 @@ E.g. `open parentheses x plus 1 close parentheses open parentheses x plus 2 clos
 
 **FRONT**
 
-The double brackets `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses` can be expanded to $x^{2}+2x+x+2$.
+The double brackets $( x + 1 ) ( x + 2 )$ can be expanded to $x^{2}+2x+x+2$.
 
 What **next step **is required?
 
@@ -193,7 +193,7 @@ When you collect terms at the end, you will have an expression that is **mathema
 
 **True or False?**
 
-`open parentheses x plus 5 close parentheses squared equals x squared plus 25`.
+$( x + 5 )^{2} = x^{2} + 25$.
 
 
 **BACK**
@@ -201,7 +201,7 @@ When you collect terms at the end, you will have an expression that is **mathema
 **False.**
 
 To square a single bracket, you first need to write it as **double brackets**, 
-e.g.`open parentheses x plus 5 close parentheses squared equals open parentheses x plus 5 close parentheses open parentheses x plus 5 close parentheses`.
+e.g.$( x + 5 )^{2} = ( x + 5 ) ( x + 5 )$.
 
 Then expand the double brackets to get $x^{2}+5x+5x+25$.
 
@@ -217,14 +217,14 @@ The incorrect answer of $x^{2}+25$ is missing the middle term, $10x$.
 
 **True or False?**
 
-When expanding `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses`, you can choose which pair of brackets to multiply out first (the order does not matter).
+When expanding $( x + 1 ) ( x + 2 ) ( x + 3 )$, you can choose which pair of brackets to multiply out first (the order does not matter).
 
 
 **BACK**
 
 **True.**
 
-When expanding `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses`, you can choose which pair of brackets to multiply out first (the order does not matter).
+When expanding $( x + 1 ) ( x + 2 ) ( x + 3 )$, you can choose which pair of brackets to multiply out first (the order does not matter).
 
 
 
@@ -232,7 +232,7 @@ When expanding `open parentheses x plus 1 close parentheses open parentheses x p
 
 **FRONT**
 
-The expression `open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses` can be written as `open parentheses x plus 1 close parentheses open parentheses x squared plus 3 x plus 2 x plus 6 close parentheses`.
+The expression $( x + 1 ) ( x + 2 ) ( x + 3 )$ can be written as $( x + 1 ) ( x^{2} + 3 x + 2 x + 6 )$.
 
 What should be the next step, **before **expanding any more brackets?
 
@@ -241,7 +241,7 @@ What should be the next step, **before **expanding any more brackets?
 
 The expression should be **simplified** by **collecting like terms** in the second bracket.
 
-So `open parentheses x plus 1 close parentheses open parentheses x squared plus 3 x plus 2 x plus 6 close parentheses` becomes `open parentheses x plus 1 close parentheses open parentheses x squared plus 5 x plus 6 close parentheses`.
+So $( x + 1 ) ( x^{2} + 3 x + 2 x + 6 )$ becomes $( x + 1 ) ( x^{2} + 5 x + 6 )$.
 
 This reduces the next expansion from 8 calculations to 6 calculations!
 
@@ -253,16 +253,16 @@ This reduces the next expansion from 8 calculations to 6 calculations!
 
 **True or False?**
 
-The $x^{3}$ term in the expansion of `open parentheses x plus 1 close parentheses open parentheses 2 x plus 1 close parentheses open parentheses 1 plus 3 x close parentheses` can be determined **without** expanding fully.
+The $x^{3}$ term in the expansion of $( x + 1 ) ( 2 x + 1 ) ( 1 + 3 x )$ can be determined **without** expanding fully.
 
 
 **BACK**
 
 **True.**
 
-You can see that the $x^{3}$ term in the expansion of `open parentheses x plus 1 close parentheses open parentheses 2 x plus 1 close parentheses open parentheses 1 plus 3 x close parentheses` will be $6x^{3}$ by:
+You can see that the $x^{3}$ term in the expansion of $( x + 1 ) ( 2 x + 1 ) ( 1 + 3 x )$ will be $6x^{3}$ by:
 
-1. Writing the brackets in order, `open parentheses x plus 1 close parentheses open parentheses 2 x plus 1 close parentheses open parentheses 3 x plus 1 close parentheses`
+1. Writing the brackets in order, $( x + 1 ) ( 2 x + 1 ) ( 3 x + 1 )$
 2. Multiplying the $x$ terms together, $x\times2x\times3x$
 
 This gives $6x^{3}$, without needing to expand fully.
@@ -273,14 +273,14 @@ This gives $6x^{3}$, without needing to expand fully.
 
 **FRONT**
 
-Explain the** process** for expanding an expression such as `open parentheses x minus 2 close parentheses cubed`.
+Explain the** process** for expanding an expression such as $( x - 2 )^{3}$.
 
 
 **BACK**
 
-To expand `open parentheses x minus 2 close parentheses cubed`, you need to:
+To expand $( x - 2 )^{3}$, you need to:
 
-1. Write it as a **triple bracket **expansion, `open parentheses x minus 2 close parentheses open parentheses x minus 2 close parentheses open parentheses x minus 2 close parentheses`.
+1. Write it as a **triple bracket **expansion, $( x - 2 ) ( x - 2 ) ( x - 2 )$.
 2. Pick **two brackets** and **expand **and simplify them.
 3. Expand this result with the remaining bracket.
 4. Simplify the final answer by **collecting like terms**.

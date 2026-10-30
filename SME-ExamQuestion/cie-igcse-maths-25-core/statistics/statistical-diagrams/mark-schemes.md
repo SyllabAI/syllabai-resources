@@ -8,7 +8,7 @@
 ### Q1
 The partial circles seem to be given in quarters of a circle
 
-- i.e. `1 fourth comma space space 2 over 4 open parentheses equals 1 half close parentheses comma space 3 over 4`
+- i.e. $1 \frac{1}{4} , \frac{2}{4} ( = 1 \frac{1}{2} ) , \frac{3}{4}$
 
 It would make sense then if a full circle represented 4 students (with each quarter circle being 1 student)
 
@@ -298,7 +298,7 @@ i) *The sum of angles in a pie chart must equal *$360^{\circ}$
 
 > *Subtract the known angles from *$360^{\circ}$* to determine the angle for Tuna*
 
-`360 minus open parentheses 120 plus 72 plus 32 close parentheses`
+$360 - ( 120 + 72 + 32 )$
 
 **[1]**
 
@@ -319,7 +319,7 @@ $360\times\frac{15}{120}=45$
 
 > *Use the formula: Frequency = (Angle*$\times$*Total frequency)*$\div360$* to determine the pie chart sector angle for Herring and Tuna. (This is a rearrangement of the formula used to find the angle of a sector in a pie chart)*
 
-*Herring: *`open parentheses 32 cross times 45 close parentheses divided by 360 equals 4`
+*Herring: *$( 32 \\times 45 ) \div 360 = 4$
 
 > * *
 
@@ -330,7 +330,7 @@ $360\times\frac{15}{120}=45$
 | Herring | *4* | 32° |
 | Tuna |   | *136°* |
 
-*  Tuna: *`open parentheses 136 cross times 45 close parentheses divided by 360 equals 17`
+*  Tuna: *$( 136 \\times 45 ) \div 360 = 17$
 
 | Type of fish | Number of fish | Pie chart sector angle |
 |---|---|---|
@@ -380,7 +380,7 @@ ii) *Centre the protractor at the centre of the circle with *$0^{\circ}$* follow
 
 > *Calculate the number of people who were taught by Mr Jones and Mrs Brown*
 
-`80 minus open parentheses 14 plus 18 plus 15 close parentheses equals 33`
+$80 - ( 14 + 18 + 15 ) = 33$
 
 > *As twice as many students were taught by Mrs Brown than Mr Jones, this can be expressed as the ratio*
 
@@ -388,7 +388,7 @@ $2:1$
 
 > *Share the number of students into this ratio*
 
-`33 divided by open parentheses 1 plus 2 close parentheses equals 11`
+$33 \div ( 1 + 2 ) = 11$
 
 **[1]**
 
@@ -435,7 +435,7 @@ iii) *The mean is the sum of all the data points, divided by the total frequency
 
 > *The sum of all the data points is calculated by multiplying the number of penalties by their frequency, and adding these together*
 
-`open parentheses 0 cross times 16 close parentheses plus open parentheses 1 cross times 19 close parentheses plus open parentheses 2 cross times 14 close parentheses plus open parentheses 3 cross times 10 close parentheses plus open parentheses 4 cross times 5 close parentheses plus open parentheses 5 cross times 2 close parentheses`
+$( 0 \\times 16 ) + ( 1 \\times 19 ) + ( 2 \\times 14 ) + ( 3 \\times 10 ) + ( 4 \\times 5 ) + ( 5 \\times 2 )$
 
 $=0+19+28+30+20+10$
 
@@ -577,7 +577,7 @@ $5-0=5$
 
 > *v) There are 14 students out of a total of 50 who drink fewer than 2 glasses of water.*
 
-`straight P open parentheses fewer space than space 2 space glasses close parentheses space equals 14 over 50`
+$\mathrm{P} ( \text{fewer} \text{than} 2 \text{glasses} ) = \frac{14}{50}$
 
 **[1]**
 
@@ -988,7 +988,7 @@ v) *The mean is the sum of all the data values, divided by the number of data va
 
 > *The sum of all the data values is calculated by multiplying the number of people in each car by the frequency, and adding these values together*
 
-`open parentheses 1 cross times 8 close parentheses plus open parentheses 2 cross times 5 close parentheses plus open parentheses 3 cross times 3 close parentheses plus open parentheses 4 cross times 5 close parentheses plus open parentheses 5 cross times 2 close parentheses plus open parentheses 6 cross times 1 close parentheses equals 63`
+$( 1 \\times 8 ) + ( 2 \\times 5 ) + ( 3 \\times 3 ) + ( 4 \\times 5 ) + ( 5 \\times 2 ) + ( 6 \\times 1 ) = 63$
 
 **[1]**
 
@@ -1097,7 +1097,7 @@ $68-16=52$
 ### Q30
 > *Subtract the number of cars that are not purple from the total number of cars*
 
-`50 minus open parentheses 11 plus 14 plus 9 plus 5 plus 3 close parentheses equals 8`
+$50 - ( 11 + 14 + 9 + 5 + 3 ) = 8$
 
 **[1]**
 

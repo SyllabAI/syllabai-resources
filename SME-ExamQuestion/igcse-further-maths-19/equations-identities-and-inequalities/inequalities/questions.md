@@ -79,7 +79,7 @@ Show, by shading, the region $R$defined by the inequalities
 `y less-than or slanted equal to 2 x plus 5      4 y greater-than or slanted equal to x minus 8      5 y plus 3 x less-than or slanted equal to 30`
 
 ### 5((c)) — 3 marks — structured — from paper June 2023 · Paper 2
-For all points in $R$ with coordinates `open parentheses x comma space y close parentheses`
+For all points in $R$ with coordinates $( x , y )$
 
 $P=2x-5y$
 
@@ -106,7 +106,7 @@ Show, by shading on your graph, the region $R$ defined by the inequalities
 ![Graph with x-axis from -6 to 6 and y-axis from -4 to 8, grids marked at each unit. Origin is labelled O, and axes have arrows.](assets/003-graph-with-x-axis-from-6-to-6-and-y-axis-from-4-.png)
 
 ### 4((c)) — 4 marks — structured — from paper November 2023 · Paper 2
-For all points in $R$, with coordinates `open parentheses x comma space y close parentheses`
+For all points in $R$, with coordinates $( x , y )$
 
 $P=2y-3x$
 

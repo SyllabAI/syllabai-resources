@@ -684,7 +684,7 @@ Show that 70 students took between 45 and 70 minutes to complete the race.
 ### 10((a)) — 4 marks — command: draw — structured — from paper June 2017 · J560/06
 Ana records the amount of money spent by 140 customers in her shop on one day
 
-| **Amount spent **`stretchy left parenthesis £ bold italic a stretchy right parenthesis` | **Frequency** |
+| **Amount spent **$( £ \boldsymbol{a} )$ | **Frequency** |
 |---|---|
 | `0 less than a less-than or slanted equal to 5` | 35 |
 | `5 less than a less-than or slanted equal to 10` | 42 |

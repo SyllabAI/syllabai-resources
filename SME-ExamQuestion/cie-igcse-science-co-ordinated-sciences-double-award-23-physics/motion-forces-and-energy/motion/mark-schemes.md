@@ -17,11 +17,11 @@ $\mathrm{distance}=\mathrm{speed}\times\mathrm{time}=\mathrm{area} \mathrm{under
 
 $\mathrm{distance}=10\times15=150m$
 
-**A **is incorrect as this is the area between $0\text{s}$ and $10\text{s}$ `open parentheses 1 half cross times 10 cross times 10 space equals space 50 space straight m close parentheses`
+**A **is incorrect as this is the area between $0\text{s}$ and $10\text{s}$ $( 1 \frac{1}{2} \\times 10 \\times 10 = 50 \mathrm{m} )$
 
-**B** is incorrect as it uses the formula for the area of a triangle instead of a rectangle `open parentheses 1 half cross times 10 cross times 15 space equals space 75 space straight m close parentheses`
+**B** is incorrect as it uses the formula for the area of a triangle instead of a rectangle $( 1 \frac{1}{2} \\times 10 \\times 15 = 75 \mathrm{m} )$
 
-**D** is incorrect as it uses the total time of $25\text{s}$ instead of the interval where speed was constant `open parentheses 50 space plus thin space 150 space equals space 200 space straight m close parentheses`
+**D** is incorrect as it uses the total time of $25\text{s}$ instead of the interval where speed was constant $( 50 + \text{thin} 150 = 200 \mathrm{m} )$
 
 ### Q2
 **Final answer:** **The correct answer is C**
@@ -35,11 +35,11 @@ $\mathrm{distance}=\mathrm{speed}\times\mathrm{time}=\mathrm{area} \mathrm{under
 
 $\mathrm{distance}=10\times15=150m$
 
-**A **is incorrect as this is the area between $0\text{s}$ and $10\text{s}$ `open parentheses 1 half cross times 10 cross times 10 space equals space 50 space straight m close parentheses`
+**A **is incorrect as this is the area between $0\text{s}$ and $10\text{s}$ $( 1 \frac{1}{2} \\times 10 \\times 10 = 50 \mathrm{m} )$
 
-**B** is incorrect as it uses the formula for the area of a triangle instead of a rectangle `open parentheses 1 half cross times 10 cross times 15 space equals space 75 space straight m close parentheses`
+**B** is incorrect as it uses the formula for the area of a triangle instead of a rectangle $( 1 \frac{1}{2} \\times 10 \\times 15 = 75 \mathrm{m} )$
 
-**D** is incorrect as it uses the total time of $25\text{s}$ instead of the interval where speed was constant `open parentheses 50 space plus thin space 150 space equals space 200 space straight m close parentheses`
+**D** is incorrect as it uses the total time of $25\text{s}$ instead of the interval where speed was constant $( 50 + \text{thin} 150 = 200 \mathrm{m} )$
 
 ### Q3
 **Final answer:** **The correct answer is ****C**** because:**

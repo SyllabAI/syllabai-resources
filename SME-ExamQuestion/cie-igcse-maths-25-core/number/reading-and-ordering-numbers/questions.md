@@ -20,7 +20,7 @@ In a particular year, the lowest temperature recorded at Rovaniemi in Finland wa
 
 Here are four number cards.
 
-`box enclose 3 space space space box enclose 2 space space space box enclose 7 space space space box enclose 9`
+`box 3 box 2 box 7 box 9`
 
 Use each card once and make the largest odd number.
 

@@ -345,7 +345,7 @@ Find the angle between $F_{1}$ and $-j$.
 ### 2() — 6 marks — structured
 The resultant of $F_{1}$ and $F_{2}$ is $R$.
 
-Given that $R$ is parallel to the vector $3i-j$, and that `open vertical bar bold R close vertical bar equals square root of 160`, find the values of $a\mathrm{and}b$.
+Given that $R$ is parallel to the vector $3i-j$, and that $( \text{vertical} \text{bar} R ) \text{vertical} \text{bar} = \sqrt{160}$, find the values of $a\mathrm{and}b$.
 
 ## Q32 — very_hard — 9 marks · exam-questions
 

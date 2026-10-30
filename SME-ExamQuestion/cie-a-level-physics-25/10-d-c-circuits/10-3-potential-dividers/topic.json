@@ -370,21 +370,21 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript equals V subscript i n end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses",
+       "alt": "V _ o u t = V _ i n x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V_{o u t} = V_{i n} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript i n end subscript equals V subscript o u t end subscript divided by open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses equals V subscript o u t end subscript cross times open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 end fraction close parentheses",
+       "alt": "V _ i n = V _ o u t / ( (R _ 1)/(R _ 1 + R _ 2) ) = V _ o u t x ( (R _ 1 + R _ 2)/(R _ 1) )",
        "render": "$V_{i n} = V_{o u t} \\div ( \\frac{R_{1}{R_{1} + R_{2} } ) = V_{o} u t} \\times ( \\frac{R_{1} + R_{2} }{R_{1} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript i n end subscript equals V subscript o u t end subscript open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 end fraction close parentheses equals fraction numerator 4.8 open parentheses 10 plus 15 close parentheses over denominator 10 end fraction equals 12 space straight V",
+       "alt": "V _ i n = V _ o u t ( (R _ 1 + R _ 2)/(R _ 1) ) = (4.8 ( 10 + 15 ))/(10) = 12 V",
        "render": "$V_{i n} = V_{o u t} ( \\frac{R_{1} + R_{2} }{R_{1} } ) = \\frac{4.8 ( 10 + 15 )}{10} = 12 \\mathrm{V}$",
        "via": "alt-transpile"
       }
@@ -464,12 +464,12 @@
       {
        "latex": "\\frac{e.m.f}{1.1}=\\frac{0.90}{0.70}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>e</mi><mo>.</mo><mi>m</mi><mo>.</mo><mi>f</mi></mrow><mrow><mn>1</mn><mo>.</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>90</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>70</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator e. m. f over denominator 1.1 end fraction equals fraction numerator 0.90 over denominator 0.70 end fraction"
+       "alt": "(e. m. f)/(1.1) = (0.90)/(0.70)"
       },
       {
        "latex": "e.m.f=\\frac{0.90}{0.70}\\times1.1=1.41V",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>e</mi><mo>.</mo><mi>m</mi><mo>.</mo><mi>f</mi><mo> </mo><mo>=</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>90</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>70</mn></mrow></mfrac><mo>×</mo><mn>1</mn><mo>.</mo><mn>1</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>41</mn><mo> </mo><mi>V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "e. m. f space equals fraction numerator 0.90 over denominator 0.70 end fraction cross times 1.1 equals 1.41 space V"
+       "alt": "e. m. f = (0.90)/(0.70) x 1.1 = 1.41 V"
       }
      ]
     }
@@ -527,7 +527,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals V subscript e. m. f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses",
+       "alt": "V _ 2 = V _ e. m. f x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V_{2 = V_{e.} m. f} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
@@ -539,14 +539,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals 25 cross times open parentheses fraction numerator 4 over denominator 4 plus 1 end fraction close parentheses equals 20 space V",
+       "alt": "V _ 2 = 25 x ( (4)/(4 + 1) ) = 20 V",
        "render": "$V_{2} = 25 \\times ( \\frac{4}{4 + 1} ) = 20 V$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals 25 cross times open parentheses fraction numerator 0 over denominator 0 plus 1 end fraction close parentheses equals 0 space V",
+       "alt": "V _ 2 = 25 x ( (0)/(0 + 1) ) = 0 V",
        "render": "$V_{2} = 25 \\times ( \\frac{0}{0 + 1} ) = 0 V$",
        "via": "alt-transpile"
       }
@@ -657,7 +657,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript P equals V cross times open parentheses fraction numerator R subscript P over denominator R subscript P plus R subscript Q end fraction close parentheses",
+       "alt": "V _ P = V x ( (R _ P)/(R _ P + R _ Q) )",
        "render": "$V_{P} = V \\times ( \\frac{R_{P} }{R_{P} + R_{Q} } )$",
        "via": "alt-transpile"
       },
@@ -781,7 +781,7 @@
       {
        "latex": "I=\\frac{V}{R}=\\frac{9.0\\times10^{-3}}{36}=2.5\\times10^{-4}A=250\\times10^{-6}A",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>I</mi><mo>=</mo><mfrac><mi>V</mi><mi>R</mi></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><mo>.</mo><mn>0</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mn>36</mn></mfrac><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mo> </mo><mi>A</mi><mo>=</mo><mn>250</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mo> </mo><mi mathvariant=\"normal\">A</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "I equals V over R equals fraction numerator 9.0 cross times 10 to the power of negative 3 end exponent over denominator 36 end fraction equals 2.5 cross times 10 to the power of negative 4 end exponent space A equals 250 cross times 10 to the power of negative 6 end exponent space straight A"
+       "alt": "I = V / R = (9.0 x 10 ^ - 3 )/(36) = 2.5 x 10 ^ - 4 A = 250 x 10 ^ - 6 A"
       }
      ]
     }
@@ -849,7 +849,7 @@
       {
        "latex": "=\\frac{ρL}{A}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>L</mi></mrow><mi>A</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "equals fraction numerator rho L over denominator A end fraction"
+       "alt": "= (rho L)/(A)"
       },
       {
        "latex": "V=IR",
@@ -878,14 +878,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals open parentheses E over L close parentheses cross times open parentheses L minus x close parentheses equals fraction numerator open parentheses L minus x close parentheses over denominator L end fraction cross times E",
+       "alt": "V _ 2 = ( E / L ) x ( L - x ) = (( L - x ))/(L) x E",
        "render": "$V_{2} = ( \\frac{E}{L} ) \\times ( L - x ) = \\frac{( L - x )}{L} \\times E$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "equals V subscript 1 over V subscript 2 equals open parentheses x over L close parentheses E divided by fraction numerator open parentheses L minus x close parentheses over denominator L end fraction E equals fraction numerator x over denominator L minus x end fraction",
+       "alt": "= V _ 1 / V _ 2 = ( x / L ) E / (( L - x ))/(L) E = (x)/(L - x)",
        "render": "$= \\frac{V_{1}}{V_{2}} = ( \\frac{x}{L} ) E \\div \\frac{ ( L - x ) }{L} E = \\frac{x}{L - x}$",
        "via": "alt-transpile"
       },
@@ -902,12 +902,12 @@
       {
        "latex": "\\frac{L-x}{x}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>L</mi><mo>-</mo><mi>x</mi></mrow><mi>x</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator L minus x over denominator x end fraction"
+       "alt": "(L - x)/(x)"
       },
       {
        "latex": "\\frac{x}{L-x}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>x</mi><mrow><mi>L</mi><mo>-</mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator x over denominator L minus x end fraction"
+       "alt": "(x)/(L - x)"
       }
      ]
     }
@@ -1210,7 +1210,7 @@
       {
        "latex": "R=\\frac{ρL}{A}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>L</mi></mrow><mi>A</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R equals fraction numerator rho L over denominator A end fraction"
+       "alt": "R = (rho L)/(A)"
       },
       {
        "latex": "VαL",
@@ -1278,34 +1278,34 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V equals V subscript 0 cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses",
+       "alt": "V = V _ 0 x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V = V_{0} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": "V=\\frac{V_{0}R_{1}}{R_{1}+R_{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>V</mi><mo>=</mo><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mo> </mo><msub><mi>R</mi><mn>1</mn></msub></mrow><mrow><msub><mi>R</mi><mn>1</mn></msub><mo> </mo><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "V equals fraction numerator V subscript 0 space R subscript 1 over denominator R subscript 1 space plus R subscript 2 end fraction"
+       "alt": "V = (V _ 0 R _ 1)/(R _ 1 + R _ 2)"
       },
       {
        "latex": "\\frac{V_{0}R_{1}}{R_{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mo> </mo><msub><mi>R</mi><mn>1</mn></msub></mrow><msub><mi>R</mi><mn>2</mn></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator V subscript 0 space R subscript 1 over denominator R subscript 2 end fraction"
+       "alt": "(V _ 0 R _ 1)/(R _ 2)"
       },
       {
        "latex": "\\frac{V_{0}R_{1}}{R_{1}+R_{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mo> </mo><msub><mi>R</mi><mn>1</mn></msub></mrow><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator V subscript 0 space R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction"
+       "alt": "(V _ 0 R _ 1)/(R _ 1 + R _ 2)"
       },
       {
        "latex": "\\frac{V_{0}R_{2}}{R_{1}+R_{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mo> </mo><msub><mi>R</mi><mn>2</mn></msub></mrow><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator V subscript 0 space R subscript 2 over denominator R subscript 1 plus R subscript 2 end fraction"
+       "alt": "(V _ 0 R _ 2)/(R _ 1 + R _ 2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "fraction numerator V subscript 0 open parentheses R subscript 1 plus R subscript 2 close parentheses over denominator R subscript 1 end fraction",
+       "alt": "(V _ 0 ( R _ 1 + R _ 2 ))/(R _ 1)",
        "render": "$\\frac{V_{0} ( R_{1} + R_{2} )}{R_{1} }$",
        "via": "alt-transpile"
       }
@@ -1365,7 +1365,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript equals V subscript 0 cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus R subscript 2 end fraction close parentheses",
+       "alt": "V _ o u t = V _ 0 x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V_{o u t} = V_{0} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
@@ -1377,21 +1377,21 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript space alpha space fraction numerator 1 over denominator open parentheses R subscript 1 plus R subscript 2 close parentheses end fraction",
+       "alt": "V _ o u t alpha (1)/(( R _ 1 + R _ 2 ))",
        "render": "$V_{o u t} \\\\alpha \\frac{1}{( R_{1} + R_{2} )}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript space alpha space fraction numerator 2 R subscript 1 over denominator open parentheses 2 R subscript 1 plus 1 half R subscript 2 close parentheses end fraction",
+       "alt": "V _ o u t alpha (2 R _ 1)/(( 2 R _ 1 + 1 half R _ 2 ))",
        "render": "$V_{o u t} \\\\alpha \\frac{2 R_{1} }{( 2 R_{1} + 1 \\frac{1}{2} R_{2} )}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript space alpha space open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses equals open parentheses fraction numerator 10 over denominator 10 plus 10 end fraction close parentheses equals 0.5 space",
+       "alt": "V _ o u t alpha ( (R _ 1)/(R _ 1 + R _ 2) ) = ( (10)/(10 + 10) ) = 0.5",
        "render": "$V_{o u t} \\\\alpha ( \\frac{R_{1} }{R_{1} + R_{2} } ) = ( \\frac{10}{10 + 10} ) = 0.5$",
        "via": "alt-transpile"
       },
@@ -1403,7 +1403,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript space alpha space fraction numerator 2 R subscript 1 over denominator open parentheses 2 R subscript 1 plus 1 half R subscript 2 close parentheses end fraction equals open parentheses fraction numerator 20 over denominator 20 plus 5 end fraction close parentheses equals 0.8",
+       "alt": "V _ o u t alpha (2 R _ 1)/(( 2 R _ 1 + 1 half R _ 2 )) = ( (20)/(20 + 5) ) = 0.8",
        "render": "$V_{o u t} \\\\alpha \\frac{2 R_{1} }{( 2 R_{1} + 1 \\frac{1}{2} R_{2} )} = ( \\frac{20}{20 + 5} ) = 0.8$",
        "via": "alt-transpile"
       }
@@ -1463,7 +1463,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals V subscript e. m. f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses",
+       "alt": "V _ 2 = V _ e. m. f x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V_{2 = V_{e.} m. f} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
@@ -1475,14 +1475,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals 9 cross times open parentheses fraction numerator 50 over denominator 50 plus 10 end fraction close parentheses equals 7.5 space straight V",
+       "alt": "V _ 2 = 9 x ( (50)/(50 + 10) ) = 7.5 V",
        "render": "$V_{2} = 9 \\times ( \\frac{50}{50 + 10} ) = 7.5 \\mathrm{V}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 2 equals 9 cross times open parentheses fraction numerator 0 over denominator 10 plus 0 end fraction close parentheses equals 0 space straight V",
+       "alt": "V _ 2 = 9 x ( (0)/(10 + 0) ) = 0 V",
        "render": "$V_{2} = 9 \\times ( \\frac{0}{10 + 0} ) = 0 \\mathrm{V}$",
        "via": "alt-transpile"
       }
@@ -1594,26 +1594,26 @@
       {
        "latex": "P=VI=\\frac{V^{2}}{R}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mi>V</mi><mi>I</mi><mo>=</mo><mfrac><msup><mi>V</mi><mrow><mo> </mo><mn>2</mn></mrow></msup><mi>R</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "P equals V I equals V to the power of space 2 end exponent over R"
+       "alt": "P = V I = V ^ 2 / R"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript h e a t e r end subscript equals V subscript e. m. f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses",
+       "alt": "V _ h e a t e r = V _ e. m. f x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V_{h e a t e r} = V_{e. m. f} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript h e a t e r end subscript equals 20 cross times open parentheses fraction numerator 6.5 over denominator 6.5 plus 1.5 end fraction close parentheses equals 16.25 space straight V",
+       "alt": "V _ h e a t e r = 20 x ( (6.5)/(6.5 + 1.5) ) = 16.25 V",
        "render": "$V_{h e a t e r} = 20 \\times ( \\frac{6.5}{6.5 + 1.5} ) = 16.25 \\mathrm{V}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "P equals fraction numerator V space squared over denominator R end fraction equals fraction numerator open parentheses 16.25 close parentheses squared over denominator 6.5 end fraction equals 40.625 space straight W",
+       "alt": "P = (V ^2)/(R) = (( 16.25 ) ^2)/(6.5) = 40.625 W",
        "render": "$P = \\frac{V^{2}}{R} = \\frac{( 16.25 )^{2}}{6.5} = 40.625 \\mathrm{W}$",
        "via": "alt-transpile"
       }
@@ -1673,32 +1673,32 @@
       {
        "latex": "\\frac{l}{XY}\\timesE_{1}=\\frac{100}{100+R}\\timesE_{2}\\,",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>l</mi><mrow><mi>X</mi><mi>Y</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>100</mn><mrow><mn>100</mn><mo>+</mo><mi>R</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>2</mn></msub><mspace linebreak=\"newline\"/></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator l over denominator X Y end fraction cross times E subscript 1 equals fraction numerator 100 over denominator 100 plus R end fraction cross times E subscript 2\n"
+       "alt": "(l)/(X Y) x E _ 1 = (100)/(100 + R) x E _ 2\n"
       },
       {
        "latex": "\\frac{l'}{XY}\\timesE_{1}=E_{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>l</mi><mo>'</mo></mrow><mrow><mi>X</mi><mi>Y</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><msub><mi>E</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator l apostrophe over denominator X Y end fraction cross times E subscript 1 equals E subscript 2"
+       "alt": "(l ')/(X Y) x E _ 1 = E _ 2"
       },
       {
        "latex": "\\frac{l}{XY}\\timesE_{1}=\\frac{100}{100+R}\\times\\frac{l'}{XY}\\timesE_{1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mi>l</mi><mrow><mi>X</mi><mi>Y</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>100</mn><mrow><mn>100</mn><mo>+</mo><mi>R</mi></mrow></mfrac><mo>×</mo><mfrac><mrow><mi>l</mi><mo>'</mo></mrow><mrow><mi>X</mi><mi>Y</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>1</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator l over denominator X Y end fraction cross times E subscript 1 equals fraction numerator 100 over denominator 100 plus R end fraction cross times fraction numerator l apostrophe over denominator X Y end fraction cross times E subscript 1"
+       "alt": "(l)/(X Y) x E _ 1 = (100)/(100 + R) x (l ')/(X Y) x E _ 1"
       },
       {
        "latex": "\\frac{30.0}{XY}\\timesE_{1}=\\frac{100}{100+R}\\times\\frac{48.3}{XY}\\timesE_{1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>30</mn><mo>.</mo><mn>0</mn></mrow><mrow><mi>X</mi><mi>Y</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>100</mn><mrow><mn>100</mn><mo>+</mo><mi>R</mi></mrow></mfrac><mo>×</mo><mfrac><mrow><mn>48</mn><mo>.</mo><mn>3</mn></mrow><mrow><mi>X</mi><mi>Y</mi></mrow></mfrac><mo>×</mo><msub><mi>E</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 30.0 over denominator X Y end fraction cross times E subscript 1 equals fraction numerator 100 over denominator 100 plus R end fraction cross times fraction numerator 48.3 over denominator X Y end fraction cross times E subscript 1"
+       "alt": "(30.0)/(X Y) x E _ 1 = (100)/(100 + R) x (48.3)/(X Y) x E _ 1"
       },
       {
        "latex": "30.0=\\frac{100}{100+R}\\times48.3",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>30</mn><mo>.</mo><mn>0</mn><mo>=</mo><mfrac><mn>100</mn><mrow><mn>100</mn><mo>+</mo><mi>R</mi></mrow></mfrac><mo>×</mo><mn>48</mn><mo>.</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "30.0 equals fraction numerator 100 over denominator 100 plus R end fraction cross times 48.3"
+       "alt": "30.0 = (100)/(100 + R) x 48.3"
       },
       {
        "latex": "100+R=\\frac{100\\times48.3}{30.0}=161",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>100</mn><mo>+</mo><mi>R</mi><mo>=</mo><mfrac><mrow><mn>100</mn><mo>×</mo><mn>48</mn><mo>.</mo><mn>3</mn></mrow><mrow><mn>30</mn><mo>.</mo><mn>0</mn></mrow></mfrac><mo>=</mo><mn>161</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "100 plus R equals fraction numerator 100 cross times 48.3 over denominator 30.0 end fraction equals 161"
+       "alt": "100 + R = (100 x 48.3)/(30.0) = 161"
       },
       {
        "latex": "R=161-100=61Ω",
@@ -1762,12 +1762,12 @@
       {
        "latex": "I=\\frac{2.000}{R+5.0}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>000</mn></mrow><mrow><mi>R</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "I space equals fraction numerator space 2.000 over denominator R space plus space 5.0 end fraction"
+       "alt": "I = ( 2.000)/(R + 5.0)"
       },
       {
        "latex": "k=\\frac{I\\times5.0}{100.0}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>100</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "k space equals fraction numerator space I space cross times space 5.0 over denominator 100.0 end fraction"
+       "alt": "k = ( I x 5.0)/(100.0)"
       },
       {
        "latex": "V_{solar}=k\\times40.0",
@@ -1782,29 +1782,29 @@
       {
        "latex": "V_{wire}=I\\times5.0=\\frac{2.0\\times5.0}{R+5.0}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mrow><mi>w</mi><mi>i</mi><mi>r</mi><mi>e</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>0</mn></mrow><mrow><mi>R</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "V subscript w i r e end subscript space equals space I space cross times space 5.0 space equals space fraction numerator 2.0 space cross times space 5.0 over denominator R space plus space 5.0 end fraction"
+       "alt": "V _ w i r e = I x 5.0 = (2.0 x 5.0)/(R + 5.0)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "k space equals fraction numerator space V subscript w i r e end subscript over denominator 100.0 end fraction space equals fraction numerator space 10 over denominator 100 open parentheses R space plus space 5 close parentheses end fraction space equals fraction numerator space 0.1 over denominator R space plus space 5 end fraction",
+       "alt": "k = ( V _ w i r e)/(100.0) = ( 10)/(100 ( R + 5 )) = ( 0.1)/(R + 5)",
        "render": "$k = \\frac{ V_{w i r e} }{100.0} = \\frac{ 10}{100 ( R + 5 )} = \\frac{ 0.1}{R + 5}$",
        "via": "alt-transpile"
       },
       {
        "latex": "5.0\\times10^{-3}=\\frac{0.1}{R+5}\\times40",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow><mrow><mi>R</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn></mrow></mfrac><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>40</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "5.0 cross times 10 to the power of negative 3 end exponent space equals fraction numerator space 0.1 over denominator R space plus space 5 end fraction space cross times space 40"
+       "alt": "5.0 x 10 ^ - 3 = ( 0.1)/(R + 5) x 40"
       },
       {
        "latex": "5.0\\times10^{-3}=\\frac{4.0}{R+5}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>0</mn></mrow><mrow><mi>R</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "5.0 cross times 10 to the power of negative 3 end exponent space equals fraction numerator space 4.0 over denominator R space plus space 5 end fraction"
+       "alt": "5.0 x 10 ^ - 3 = ( 4.0)/(R + 5)"
       },
       {
        "latex": "R+5=\\frac{4.0}{5.0\\times10^{-3}}=800",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>5</mn><mo>&#160;</mo><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>800</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R space plus space 5 space space equals fraction numerator space 4.0 over denominator 5.0 cross times 10 to the power of negative 3 end exponent end fraction space equals space 800"
+       "alt": "R + 5 = ( 4.0)/(5.0 x 10 ^ - 3 ) = 800"
       },
       {
        "latex": "R=795Ω",
@@ -1995,7 +1995,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "equals 100 plus open square brackets 1 over 100 plus 1 over 100 close square brackets to the power of negative 1 end exponent equals 100 plus 50 equals 150 space straight k straight capital omega",
+       "alt": "= 100 + [ 1 / 100 + 1 / 100 ] ^ - 1 = 100 + 50 = 150 k capital omega",
        "render": "`= 100 + [ 1 / 100 + 1 / 100 ] ^ - 1 = 100 + 50 = 150 k capital omega`",
        "via": "alt-transpile"
       },
@@ -2007,7 +2007,7 @@
       {
        "latex": "\\frac{6.0}{150}=40\\mathrm{μA}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>6</mn><mo>.</mo><mn>0</mn></mrow><mn>150</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>40</mn><mo> </mo><mi>μA</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 6.0 over denominator 150 end fraction space equals space 40 space straight mu straight A"
+       "alt": "(6.0)/(150) = 40 mu A"
       },
       {
        "latex": "=\\frac{40}{2}=20\\mathrm{μA}",
@@ -2070,21 +2070,21 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript equals V cross times open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 plus R subscript 2 plus R subscript 3 end fraction close parentheses",
+       "alt": "V _ o u t = V x ( (R _ 1 + R _ 2)/(R _ 1 + R _ 2 + R _ 3) )",
        "render": "$V_{o u t} = V \\times ( \\frac{R_{1} + R_{2} }{R_{1} + R_{2} + R_{3} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "equals 9.0 space cross times open parentheses fraction numerator 2 plus 3 over denominator 2 plus 3 plus 4 end fraction close parentheses equals 5.0 space straight V",
+       "alt": "= 9.0 x ( (2 + 3)/(2 + 3 + 4) ) = 5.0 V",
        "render": "$= 9.0 \\times ( \\frac{2 + 3}{2 + 3 + 4} ) = 5.0 \\mathrm{V}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "equals 9.0 cross times open parentheses fraction numerator 2 plus 0 over denominator 2 plus 3 plus 4 end fraction close parentheses equals 2.0 space straight V",
+       "alt": "= 9.0 x ( (2 + 0)/(2 + 3 + 4) ) = 2.0 V",
        "render": "$= 9.0 \\times ( \\frac{2 + 0}{2 + 3 + 4} ) = 2.0 \\mathrm{V}$",
        "via": "alt-transpile"
       }
@@ -2144,14 +2144,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript equals V subscript i n end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses",
+       "alt": "V _ o u t = V _ i n x ( (R _ 1)/(R _ 1 + R _ 2) )",
        "render": "$V_{o u t} = V_{i n} \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript equals 9 cross times open parentheses fraction numerator 5 over denominator 5 plus 5 end fraction close parentheses equals 4.5 space straight V",
+       "alt": "V _ o u t = 9 x ( (5)/(5 + 5) ) = 4.5 V",
        "render": "$V_{o u t} = 9 \\times ( \\frac{5}{5 + 5} ) = 4.5 \\mathrm{V}$",
        "via": "alt-transpile"
       }
@@ -2216,7 +2216,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "I equals V over R equals fraction numerator 3.0 space V over denominator open parentheses 1500 plus 1500 close parentheses end fraction equals 0.001 space A",
+       "alt": "I = V / R = (3.0 V)/(( 1500 + 1500 )) = 0.001 A",
        "render": "$I = \\frac{V}{R} = \\frac{3.0 V}{( 1500 + 1500 )} = 0.001 A$",
        "via": "alt-transpile"
       },
@@ -2237,7 +2237,7 @@
       {
        "latex": "R_{V}=\\frac{4.5}{0.001}=4500Ω=4.5kΩ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>V</mi></msub><mo>=</mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>001</mn></mrow></mfrac><mo>=</mo><mn>4500</mn><mo> </mo><mi>Ω</mi><mo>=</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo> </mo><mi>k</mi><mi>Ω</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R subscript V equals fraction numerator 4.5 over denominator 0.001 end fraction equals 4500 space capital omega equals 4.5 space k capital omega"
+       "alt": "R _ V = (4.5)/(0.001) = 4500 capital omega = 4.5 k capital omega"
       }
      ]
     }
@@ -2439,7 +2439,7 @@
       {
        "latex": "I=\\frac{9.00}{2400}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>9</mn><mo>.</mo><mn>00</mn></mrow><mn>2400</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "I space equals space fraction numerator 9.00 over denominator 2400 end fraction"
+       "alt": "I = (9.00)/(2400)"
       },
       {
        "latex": "I=",
@@ -2449,7 +2449,7 @@
       {
        "latex": "3.75\\times10^{-3}A",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>75</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "3.75 cross times 10 to the power of negative 3 end exponent space straight A"
+       "alt": "3.75 x 10 ^ - 3 A"
       },
       {
        "latex": "R_{L}",
@@ -2459,7 +2459,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript 1 space equals space open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus space R subscript 2 end fraction close parentheses E",
+       "alt": "V _ 1 = ( (R _ 1)/(R _ 1 + R _ 2) ) E",
        "render": "$V_{1} = ( \\frac{R_{1} }{R_{1} + R_{2} } ) E$",
        "via": "alt-transpile"
       },
@@ -2471,12 +2471,12 @@
       {
        "latex": "\\frac{9.0}{12.0}=\\frac{2400}{2400+R_{L}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>9</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>2400</mn><mrow><mn>2400</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><msub><mi>R</mi><mi>L</mi></msub></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 9.0 over denominator 12.0 end fraction space equals space fraction numerator 2400 over denominator 2400 space plus space R subscript L end fraction"
+       "alt": "(9.0)/(12.0) = (2400)/(2400 + R _ L)"
       },
       {
        "latex": "R_{L}=\\frac{2400\\times12.0}{9.0}-2400",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>L</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2400</mn><mo>&#215;</mo><mn>12</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>9</mn><mo>.</mo><mn>0</mn></mrow></mfrac><mo>-</mo><mn>2400</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R subscript L space equals space fraction numerator 2400 cross times 12.0 over denominator 9.0 end fraction minus 2400"
+       "alt": "R _ L = (2400 x 12.0)/(9.0) - 2400"
       },
       {
        "latex": "R_{L}=",
@@ -2921,7 +2921,7 @@
       {
        "latex": "\\frac{5-1.16}{30}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>5</mn><mo>-</mo><mn>1</mn><mo>.</mo><mn>16</mn></mrow><mn>30</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 5 minus 1.16 over denominator 30 end fraction"
+       "alt": "(5 - 1.16)/(30)"
       },
       {
        "latex": "I_{3}",
@@ -3020,17 +3020,17 @@
       {
        "latex": "\\frac{l_{1}}{l_{2}}=\\frac{E.m.foftestcell}{E_{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>l</mi><mn>1</mn></msub><msub><mi>l</mi><mn>2</mn></msub></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>E</mi><mo>.</mo><mi>m</mi><mo>.</mo><mi>f</mi><mo>&#160;</mo><mi>o</mi><mi>f</mi><mo>&#160;</mo><mi>t</mi><mi>e</mi><mi>s</mi><mi>t</mi><mo>&#160;</mo><mi>c</mi><mi>e</mi><mi>l</mi><mi>l</mi></mrow><msub><mi>E</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "l subscript 1 over l subscript 2 space equals fraction numerator space E. m. f space o f space t e s t space c e l l over denominator E subscript 2 end fraction"
+       "alt": "l _ 1 / l _ 2 = ( E. m. f o f t e s t c e l l)/(E _ 2)"
       },
       {
        "latex": "E.m.foftestcell=E_{2}\\times\\frac{l_{1}}{l_{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>.</mo><mi>m</mi><mo>.</mo><mi>f</mi><mo>&#160;</mo><mi>o</mi><mi>f</mi><mo>&#160;</mo><mi>t</mi><mi>e</mi><mi>s</mi><mi>t</mi><mo>&#160;</mo><mi>c</mi><mi>e</mi><mi>l</mi><mi>l</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>E</mi><mn>2</mn></msub><mo>&#160;</mo><mo>&#215;</mo><mfrac><mrow><mo>&#160;</mo><msub><mi>l</mi><mn>1</mn></msub></mrow><msub><mi>l</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "E. m. f space o f space t e s t space c e l l space equals space E subscript 2 space cross times fraction numerator space l subscript 1 over denominator l subscript 2 end fraction"
+       "alt": "E. m. f o f t e s t c e l l = E _ 2 x ( l _ 1)/(l _ 2)"
       },
       {
        "latex": "E.m.foftestcell=1.545\\times\\frac{25.6}{37.2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>.</mo><mi>m</mi><mo>.</mo><mi>f</mi><mo>&#160;</mo><mi>o</mi><mi>f</mi><mo>&#160;</mo><mi>t</mi><mi>e</mi><mi>s</mi><mi>t</mi><mo>&#160;</mo><mi>c</mi><mi>e</mi><mi>l</mi><mi>l</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>545</mn><mo>&#160;</mo><mo>&#215;</mo><mfrac><mrow><mo>&#160;</mo><mn>25</mn><mo>.</mo><mn>6</mn></mrow><mrow><mn>37</mn><mo>.</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "E. m. f space o f space t e s t space c e l l space equals space 1.545 space cross times fraction numerator space 25.6 over denominator 37.2 end fraction"
+       "alt": "E. m. f o f t e s t c e l l = 1.545 x ( 25.6)/(37.2)"
       },
       {
        "latex": "E.m.foftestcell=1.06V",
@@ -3098,7 +3098,7 @@
       {
        "latex": "R_{T}=\\frac{V}{I}=\\frac{30}{1.94\\times10^{-3}}=15.46\\mathrm{kΩ}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi mathvariant=\"normal\">T</mi></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>V</mi></mrow><mi>I</mi></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>30</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>94</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>15</mn><mo>.</mo><mn>46</mn><mo>&#160;</mo><mi>k&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R subscript straight T space equals fraction numerator space V over denominator I end fraction space equals fraction numerator space 30 over denominator 1.94 space cross times space 10 to the power of negative 3 end exponent end fraction space equals space 15.46 space straight k straight capital omega"
+       "alt": "R _ T = ( V)/(I) = ( 30)/(1.94 x 10 ^ - 3 ) = 15.46 k capital omega"
       },
       {
        "latex": "15.46=R_{\\mathrm{parallel}}+8.0\\RightarrowR_{parallel}=15.46-8.0=7.46\\mathrm{kΩ}",
@@ -3108,12 +3108,12 @@
       {
        "latex": "\\frac{1}{R_{parallel}}=\\frac{1}{R_{2}}+\\frac{1}{R_{LDR}}\\Rightarrow\\frac{1}{7.46}=\\frac{1}{12.0}+\\frac{1}{R_{LDR}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><msub><mi>R</mi><mrow><mi>p</mi><mi>a</mi><mi>r</mi><mi>a</mi><mi>l</mi><mi>l</mi><mi>e</mi><mi>l</mi></mrow></msub></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><msub><mi>R</mi><mn>2</mn></msub></mfrac><mo>&#160;</mo><mo>+</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><msub><mi>R</mi><mrow><mi>L</mi><mi>D</mi><mi>R</mi></mrow></msub></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mn>7</mn><mo>.</mo><mn>46</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><mo>&#160;</mo><mo>+</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><msub><mi>R</mi><mrow><mi>L</mi><mi>D</mi><mi>R</mi></mrow></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "1 over R subscript p a r a l l e l end subscript space equals fraction numerator space 1 over denominator R subscript 2 end fraction space plus fraction numerator space 1 over denominator R subscript L D R end subscript end fraction space space space rightwards double arrow space space space fraction numerator 1 over denominator 7.46 end fraction space equals fraction numerator space 1 over denominator 12.0 end fraction space plus fraction numerator space 1 over denominator R subscript L D R end subscript end fraction"
+       "alt": "1 / R _ p a r a l l e l = ( 1)/(R _ 2) + ( 1)/(R _ L D R) <-> (1)/(7.46) = ( 1)/(12.0) + ( 1)/(R _ L D R)"
       },
       {
        "latex": "R_{\\mathrm{LDR}}=\\frac{1}{\\frac{1}{7.46}-\\frac{1}{12.0}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>LDR</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><mrow><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mrow><mn>7</mn><mo>.</mo><mn>46</mn></mrow></mfrac></mstyle><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mstyle></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R subscript LDR space equals space fraction numerator space 1 over denominator begin display style fraction numerator 1 over denominator 7.46 end fraction end style space minus space begin display style fraction numerator space 1 over denominator 12.0 end fraction end style end fraction"
+       "alt": "$R_{LDR} = \\frac{ 1}{\\frac{1}{7.46} - \\frac{ 1}{12.0}}$"
       },
       {
        "latex": "R_{\\mathrm{LDR}}=19.7=20\\mathrm{kΩ}",
@@ -3193,21 +3193,21 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "V subscript o u t end subscript space equals space V subscript i n space end subscript cross times space open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus thin space R subscript 2 end fraction close parentheses space",
+       "alt": "V _ o u t = V _ i n x ( (R _ 1)/(R _ 1 + thin R _ 2) )",
        "render": "$V_{o u t} = V_{i n } \\times ( \\frac{R_{1} }{R_{1} + R_{2} } )$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "R subscript 2 space equals space open parentheses fraction numerator R subscript 1 space cross times space V subscript i n end subscript space over denominator V subscript o u t end subscript end fraction close parentheses space minus space R subscript 1",
+       "alt": "R _ 2 = ( (R _ 1 x V _ i n )/(V _ o u t) ) - R _ 1",
        "render": "$R_{2 = ( \\frac{R_{1} \\times V_{i} n} }{V_{o u t} } ) - R_{1}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "R subscript 2 space equals space open parentheses fraction numerator 6.5 space cross times space 24.0 over denominator 7.0 end fraction close parentheses space minus space 6.5",
+       "alt": "R _ 2 = ( (6.5 x 24.0)/(7.0) ) - 6.5",
        "render": "$R_{2} = ( \\frac{6.5 \\times 24.0}{7.0} ) - 6.5$",
        "via": "alt-transpile"
       },
@@ -3240,7 +3240,7 @@
       {
        "latex": "\\frac{24.0}{2}=12V",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow><mn>2</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>12</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 24.0 over denominator 2 end fraction space equals space 12 space straight V"
+       "alt": "(24.0)/(2) = 12 V"
       }
      ]
     },
@@ -3267,12 +3267,12 @@
       {
        "latex": "R_{\\mathrm{XY}}=\\frac{V}{I_{\\mathrm{XY}}}=\\frac{24.0}{1.02}=23.529Ω",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>XY</mi></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>V</mi></mrow><msub><mi>I</mi><mi>XY</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>24</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>02</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>23</mn><mo>.</mo><mn>529</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R subscript XY space equals fraction numerator space V over denominator I subscript XY end fraction space equals fraction numerator space 24.0 over denominator 1.02 end fraction space equals space 23.529 space straight capital omega"
+       "alt": "R _ XY = ( V)/(I _ XY) = ( 24.0)/(1.02) = 23.529 capital omega"
       },
       {
        "latex": "R_{L}=\\frac{V}{I}=\\frac{12}{3.10}=3.87Ω",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>L</mi></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>V</mi></mrow><mi>I</mi></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>12</mn></mrow><mrow><mn>3</mn><mo>.</mo><mn>10</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>87</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R subscript L space equals fraction numerator space V over denominator I end fraction space equals fraction numerator space 12 over denominator 3.10 end fraction space equals space 3.87 space straight capital omega"
+       "alt": "R _ L = ( V)/(I) = ( 12)/(3.10) = 3.87 capital omega"
       },
       {
        "latex": null,
@@ -3284,12 +3284,12 @@
       {
        "latex": "\\frac{1}{R_{T}}=\\frac{1}{R_{series}}+\\frac{1}{R_{XY}}=\\frac{1}{7.74}+\\frac{1}{23.529}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><msub><mi>R</mi><mi>T</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><msub><mi>R</mi><mrow><mi>s</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>e</mi><mi>s</mi></mrow></msub></mfrac><mo>+</mo><mo>&#8201;</mo><mfrac><mn>1</mn><msub><mi>R</mi><mrow><mi>X</mi><mi>Y</mi></mrow></msub></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>1</mn></mrow><mrow><mn>7</mn><mo>.</mo><mn>74</mn></mrow></mfrac><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mfrac><mn>1</mn><mrow><mn>23</mn><mo>.</mo><mn>529</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "1 over R subscript T space equals fraction numerator space 1 over denominator R subscript s e r i e s end subscript end fraction plus thin space 1 over R subscript X Y end subscript space equals fraction numerator space 1 over denominator 7.74 end fraction space plus thin space fraction numerator 1 over denominator 23.529 end fraction"
+       "alt": "1 / R _ T = ( 1)/(R _ s e r i e s) + thin 1 / R _ X Y = ( 1)/(7.74) + thin (1)/(23.529)"
       },
       {
        "latex": "\\frac{1}{R_{T}}=0.1712",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>1</mn><mo>&#160;</mo></mrow><msub><mi>R</mi><mi mathvariant=\"normal\">T</mi></msub></mfrac><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>1712</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 space over denominator R subscript straight T end fraction equals space 0.1712"
+       "alt": "(1 )/(R _ T) = 0.1712"
       },
       {
        "latex": "R_{T}=5.824=5.82Ω",
@@ -3349,7 +3349,7 @@
       {
        "latex": "V=IR\\RightarrowI=\\frac{V}{R}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>I</mi><mi>R</mi><mo>&#8201;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>I</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>V</mi></mrow><mi>R</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "V space equals space I R thin space space space rightwards double arrow space space space I space equals fraction numerator space V over denominator R end fraction"
+       "alt": "V = I R thin <-> I = ( V)/(R)"
       },
       {
        "latex": "I\\propto\\frac{1}{R}",
@@ -3469,7 +3469,7 @@
       {
        "latex": "R_{T}=\\frac{V}{I}=\\frac{32}{2.3}=13.91Ω",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>T</mi></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>V</mi></mrow><mi>I</mi></mfrac><mo>&#160;</mo><mo>=</mo><mfrac><mn>32</mn><mrow><mn>2</mn><mo>.</mo><mn>3</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>13</mn><mo>.</mo><mn>91</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "R subscript T space equals fraction numerator space V over denominator I end fraction space equals fraction numerator 32 over denominator 2.3 end fraction space equals space 13.91 space straight capital omega"
+       "alt": "R _ T = ( V)/(I) = (32)/(2.3) = 13.91 capital omega"
       }
      ]
     },
@@ -3496,7 +3496,7 @@
       {
        "latex": "R_{T}=\\frac{V}{I}=\\frac{15}{2.3}=6.52Ω",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>T</mi></msub><mo>=</mo><mfrac><mi>V</mi><mi>I</mi></mfrac><mo>=</mo><mfrac><mn>15</mn><mrow><mn>2</mn><mo>.</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mn>6</mn><mo>.</mo><mn>52</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R subscript T equals V over I equals fraction numerator 15 over denominator 2.3 end fraction equals 6.52 space straight capital omega"
+       "alt": "R _ T = V / I = (15)/(2.3) = 6.52 capital omega"
       },
       {
        "latex": "\\frac{1}{R_{T}} = \\frac{1}{R_{Q}} + \\frac{1}{R}",
@@ -3506,7 +3506,7 @@
       {
        "latex": "R_{Q}=\\frac{1}{\\frac{1}{R_{T}}-\\frac{1}{R}}=\\frac{1}{\\frac{1}{6.52}-\\frac{1}{7.0}}=95Ω",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>R</mi><mi>Q</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><msub><mi>R</mi><mi>T</mi></msub></mfrac></mstyle><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mi>R</mi></mfrac></mstyle></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mrow><mn>6</mn><mo>.</mo><mn>52</mn></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>7</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mstyle></mfrac><mo>=</mo><mn>95</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "R subscript Q equals fraction numerator 1 over denominator 1 over R subscript T minus 1 over R end fraction equals fraction numerator 1 over denominator fraction numerator 1 over denominator 6.52 end fraction minus fraction numerator 1 over denominator 7.0 end fraction end fraction equals 95 space straight capital omega"
+       "alt": "R _ Q = (1)/(1 / R _ T - 1 / R) = (1)/((1)/(6.52) - (1)/(7.0)) = 95 capital omega"
       },
       {
        "latex": "R = \\frac{V}{I}",
@@ -3538,7 +3538,7 @@
       {
        "latex": "\\frac{V^{2}}{resistance}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msup><mi>V</mi><mn>2</mn></msup><mrow><mi>r</mi><mi>e</mi><mi>s</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator V squared over denominator r e s i s t a n c e end fraction"
+       "alt": "(V ^2)/(r e s i s t a n c e)"
       }
      ]
     }
@@ -3614,12 +3614,12 @@
       {
        "latex": "V_{out}=\\frac{R_{1}}{R_{1}+R_{2}}\\timesV_{in}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><msub><mi>R</mi><mn>1</mn></msub></mrow><mrow><msub><mi>R</mi><mn>1</mn></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "V subscript o u t end subscript space equals fraction numerator space R subscript 1 over denominator R subscript 1 space plus thin space R subscript 2 end fraction space cross times space V subscript i n end subscript"
+       "alt": "V _ o u t = ( R _ 1)/(R _ 1 + thin R _ 2) x V _ i n"
       },
       {
        "latex": "V_{out}=\\frac{8.0}{8.0+6.0}\\times32",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>8</mn><mo>.</mo><mn>0</mn><mo> </mo></mrow><mrow><mn>8</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>+</mo><mo> </mo><mn>6</mn><mo>.</mo><mn>0</mn></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mn>32</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "V subscript o u t end subscript space equals space fraction numerator 8.0 space over denominator 8.0 space plus thin space 6.0 end fraction space cross times space 32 space"
+       "alt": "V _ o u t = (8.0 )/(8.0 + thin 6.0) x 32"
       },
       {
        "latex": "V_{out}=18.2857=18V",
@@ -3757,7 +3757,7 @@
       {
        "latex": "\\frac{R_{1}}{R_{1}+R_{2}}V_{IN}",
        "mathml": "<math style=\"font-family:stix\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><msub><mi>R</mi><mn>1</mn></msub><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><msub><mi>V</mi><mrow><mi>I</mi><mi>N</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction V subscript I N end subscript"
+       "alt": "(R _ 1)/(R _ 1 + R _ 2) V _ I N"
       },
       {
        "latex": "V_{1}",
@@ -3767,7 +3767,7 @@
       {
        "latex": "\\frac{4}{4+2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>4</mn><mrow><mn>4</mn><mo>+</mo><mn>2</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 4 over denominator 4 plus 2 end fraction"
+       "alt": "(4)/(4 + 2)"
       },
       {
        "latex": "\\frac{4}{6}",
@@ -3792,12 +3792,12 @@
       {
        "latex": "V_{OUT}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>V</mi><mrow><mi>O</mi><mi>U</mi><mi>T</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style V subscript O U T end subscript end style"
+       "alt": "V _ O U T"
       },
       {
        "latex": "\\frac{R_{3}}{R_{3}+R_{4}}V_{IN}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><msub><mi>R</mi><mn>3</mn></msub><mrow><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><msub><mi>R</mi><mn>4</mn></msub></mrow></mfrac><msub><mi>V</mi><mrow><mi>I</mi><mi>N</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator R subscript 3 over denominator R subscript 3 plus R subscript 4 end fraction V subscript I N end subscript"
+       "alt": "(R _ 3)/(R _ 3 + R _ 4) V _ I N"
       },
       {
        "latex": "V_{3}",
@@ -3807,7 +3807,7 @@
       {
        "latex": "\\frac{3}{3+1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>3</mn><mrow><mn>3</mn><mo>+</mo><mn>1</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 3 over denominator 3 plus 1 end fraction"
+       "alt": "(3)/(3 + 1)"
       },
       {
        "latex": "\\frac{3}{4}",
@@ -3847,22 +3847,22 @@
       {
        "latex": "\\frac{R_{2}}{R_{2}+R_{1}}V_{IN}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><msub><mi>R</mi><mn>2</mn></msub><mrow><msub><mi>R</mi><mn>2</mn></msub><mo>+</mo><msub><mi>R</mi><mn>1</mn></msub></mrow></mfrac><msub><mi>V</mi><mrow><mi>I</mi><mi>N</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator R subscript 2 over denominator R subscript 2 plus R subscript 1 end fraction V subscript I N end subscript"
+       "alt": "(R _ 2)/(R _ 2 + R _ 1) V _ I N"
       },
       {
        "latex": "V_{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>V</mi><mn>2</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style V subscript 2 end style"
+       "alt": "V _ 2"
       },
       {
        "latex": "\\frac{2}{2+4}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><mn>4</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 2 over denominator 2 plus 4 end fraction"
+       "alt": "(2)/(2 + 4)"
       },
       {
        "latex": "\\frac{2}{6}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>2</mn><mn>6</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style 2 over 6 end style"
+       "alt": "2 / 6"
       },
       {
        "latex": "R_{4}",
@@ -3877,7 +3877,7 @@
       {
        "latex": "R_{3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>R</mi><mn>3</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style R subscript 3 end style"
+       "alt": "R _ 3"
       },
       {
        "latex": "V_{OUT}",
@@ -3887,7 +3887,7 @@
       {
        "latex": "\\frac{R_{4}}{R_{4}+R_{3}}V_{IN}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><msub><mi>R</mi><mn>4</mn></msub><mrow><msub><mi>R</mi><mn>4</mn></msub><mo>+</mo><msub><mi>R</mi><mn>3</mn></msub></mrow></mfrac><msub><mi>V</mi><mrow><mi>I</mi><mi>N</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style fraction numerator R subscript 4 over denominator R subscript 4 plus R subscript 3 end fraction V subscript I N end subscript end style"
+       "alt": "(R _ 4)/(R _ 4 + R _ 3) V _ I N"
       },
       {
        "latex": "V_{4}",
@@ -3897,7 +3897,7 @@
       {
        "latex": "\\frac{1}{1+3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mn>3</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 1 over denominator 1 plus 3 end fraction"
+       "alt": "(1)/(1 + 3)"
       },
       {
        "latex": "\\frac{1}{4}",
@@ -3934,39 +3934,39 @@
      ],
      "part_tier": null,
      "problem_md": "Fig. 1.4 shows another potential divider circuit which includes a thermistor with resistance *R*.\n\n![5-3-s-q--q4d-hard-aqa-a-level-physics](assets/074-5-3-s-q-q4d-hard-aqa-a-level-physics.png)\n\n**Fig. 1.4**\n\nThe battery has an EMF of 12 V, with negligible internal resistance. At room temperature, the resistance of the thermistor is 5 kΩ.\n\nCalculate the current in the battery at room temperature.",
-     "solution_md": "List the known quantities:\n\n- Resistance of the thermistor (at room temperature), *R* = 5 kΩ = 5000 Ω\n- Resistance between AC = 20 kΩ = 20 000 Ω\n- Resistance between CE = 20 kΩ = 20 000 Ω\n- Resistance between BD = 10 kΩ = 10 000 Ω\n- EMF of the battery = 12 V\n\nDetermine the series resistances:\n\n- Resistors in series $R_{T} = R_{1} + R_{2} + R_{3} + \\times \\times \\times$\n- There are two resistors in series between** **A and E, so $R_{T}=R_{1}+R_{2}$\n- Therefore, the total resistance between** **A and E = resistance between AC + resistance between CE = 20 000 + 20 000 = 40 000 Ω **AND**\n- There are two resistors in series between B and F, so $R_{T}=R_{1}+R_{2}$\n- Therefore, the total resistance between B and F = resistance between BD + resistance of the thermistor (at room temperature) = 10 000 + 5000 = 15 000 Ω **[1 mark]**\n\nDetermine the total resistance of the circuit:\n\n- Resistors in parallel `1 over R subscript T equals 1 over R subscript 1 plus 1 over R subscript 2 plus 1 over R subscript 3 plus times times times`\n- The resistance between** **A and E is in parallel to the resistance between B and F\n- Therefore $\\frac{1}{R_{T}}=\\frac{1}{R_{1}}+\\frac{1}{R_{2}}=\\frac{1}{40000}+\\frac{1}{15000}=\\frac{11}{120000}$\n- Therefore *R*<sub>T</sub> = $\\frac{120000}{11}$ = 10 909 Ω **[1 mark]**\n\nDetermine the current through the battery:\n\n- Using Ohm’s law across the battery, *V* = *IR*\n- *V* is the EMF *ϵ *of the cell\n- Therefore 12 = *I* × 10 909\n- *I* = $\\frac{12}{10909}$ = 1.1 × 10<sup>–3</sup> A **[1 mark]**\n\n**[Total: 3 marks]**",
+     "solution_md": "List the known quantities:\n\n- Resistance of the thermistor (at room temperature), *R* = 5 kΩ = 5000 Ω\n- Resistance between AC = 20 kΩ = 20 000 Ω\n- Resistance between CE = 20 kΩ = 20 000 Ω\n- Resistance between BD = 10 kΩ = 10 000 Ω\n- EMF of the battery = 12 V\n\nDetermine the series resistances:\n\n- Resistors in series $R_{T} = R_{1} + R_{2} + R_{3} + \\times \\times \\times$\n- There are two resistors in series between** **A and E, so $R_{T}=R_{1}+R_{2}$\n- Therefore, the total resistance between** **A and E = resistance between AC + resistance between CE = 20 000 + 20 000 = 40 000 Ω **AND**\n- There are two resistors in series between B and F, so $R_{T}=R_{1}+R_{2}$\n- Therefore, the total resistance between B and F = resistance between BD + resistance of the thermistor (at room temperature) = 10 000 + 5000 = 15 000 Ω **[1 mark]**\n\nDetermine the total resistance of the circuit:\n\n- Resistors in parallel $\\frac{1}{R} _{T} = \\frac{1}{R} _{1} + \\frac{1}{R} _{2} + \\frac{1}{R} _{3} + \\times \\times \\times$\n- The resistance between** **A and E is in parallel to the resistance between B and F\n- Therefore $\\frac{1}{R_{T}}=\\frac{1}{R_{1}}+\\frac{1}{R_{2}}=\\frac{1}{40000}+\\frac{1}{15000}=\\frac{11}{120000}$\n- Therefore *R*<sub>T</sub> = $\\frac{120000}{11}$ = 10 909 Ω **[1 mark]**\n\nDetermine the current through the battery:\n\n- Using Ohm’s law across the battery, *V* = *IR*\n- *V* is the EMF *ϵ *of the cell\n- Therefore 12 = *I* × 10 909\n- *I* = $\\frac{12}{10909}$ = 1.1 × 10<sup>–3</sup> A **[1 mark]**\n\n**[Total: 3 marks]**",
      "equations": [
       {
        "latex": null,
        "mathml": null,
-       "alt": "begin mathsize 16px style R subscript T equals R subscript 1 plus R subscript 2 plus R subscript 3 plus times times times end style",
+       "alt": "R _ T = R _ 1 + R _ 2 + R _ 3 + * * *",
        "render": "$R_{T} = R_{1} + R_{2} + R_{3} + \\times \\times \\times$",
        "via": "alt-transpile"
       },
       {
        "latex": "R_{T}=R_{1}+R_{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>R</mi><mi>T</mi></msub><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style R subscript T equals R subscript 1 plus R subscript 2 end style"
+       "alt": "R _ T = R _ 1 + R _ 2"
       },
       {
        "latex": "R_{T}=R_{1}+R_{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>R</mi><mi>T</mi></msub><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style R subscript T equals R subscript 1 plus R subscript 2 end style"
+       "alt": "R _ T = R _ 1 + R _ 2"
       },
       {
        "latex": "\\frac{1}{R_{T}}=\\frac{1}{R_{1}}+\\frac{1}{R_{2}}=\\frac{1}{40000}+\\frac{1}{15000}=\\frac{11}{120000}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>1</mn><msub><mi>R</mi><mi>T</mi></msub></mfrac><mo>=</mo><mfrac><mn>1</mn><msub><mi>R</mi><mn>1</mn></msub></mfrac><mo>+</mo><mfrac><mn>1</mn><msub><mi>R</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>40</mn><mo>&#160;</mo><mn>000</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>15</mn><mo>&#160;</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mfrac><mn>11</mn><mrow><mn>120</mn><mo>&#160;</mo><mn>000</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "begin mathsize 16px style 1 over R subscript T equals 1 over R subscript 1 plus 1 over R subscript 2 equals fraction numerator 1 over denominator 40 space 000 end fraction plus fraction numerator 1 over denominator 15 space 000 end fraction equals fraction numerator 11 over denominator 120 space 000 end fraction end style"
+       "alt": "1 / R _ T = 1 / R _ 1 + 1 / R _ 2 = (1)/(40 000) + (1)/(15 000) = (11)/(120 000)"
       },
       {
        "latex": "\\frac{120000}{11}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mn>120</mn><mo>&#160;</mo><mn>000</mn></mrow><mn>11</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 120 space 000 over denominator 11 end fraction"
+       "alt": "(120 000)/(11)"
       },
       {
        "latex": "\\frac{12}{10909}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>12</mn><mrow><mn>10</mn><mo>&#160;</mo><mn>909</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 12 over denominator 10 space 909 end fraction"
+       "alt": "(12)/(10 909)"
       }
      ]
     }

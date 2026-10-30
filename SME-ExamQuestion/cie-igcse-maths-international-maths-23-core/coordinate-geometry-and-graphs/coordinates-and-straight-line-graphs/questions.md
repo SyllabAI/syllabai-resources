@@ -66,7 +66,7 @@ $A,B,C$ and $D$ are four equations of straight line graphs.
 
 i) Write down the letter of the graph that
 
-a) passes through the point `open parentheses 1 comma negative 1 close parentheses`,
+a) passes through the point $( 1 , - 1 )$,
 
 [1]
 
@@ -78,7 +78,7 @@ c) has a gradient of -4.
 
 [1]
 
-ii) The point `open parentheses p comma space minus 26 close parentheses` lies on the line $y=-3x+4$.
+ii) The point $( p , - 26 )$ lies on the line $y=-3x+4$.
 
 Work out the value of $p$.
 
@@ -112,7 +112,7 @@ and
 
 ![q8b-058032-mayjune2019-cie-igcse-maths-core](assets/005-q8b-058032-mayjune2019-cie-igcse-maths-core.png)
 
-i) On the grid, draw the line through the point `open parentheses negative 3 comma negative 2 close parentheses` that is perpendicular to the $y$-axis.
+i) On the grid, draw the line through the point $( - 3 , - 2 )$ that is perpendicular to the $y$-axis.
 
 [1]
 

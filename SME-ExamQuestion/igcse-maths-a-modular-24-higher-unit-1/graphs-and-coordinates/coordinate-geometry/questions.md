@@ -300,7 +300,7 @@ Work out the coordinates of $D$.
 ### 3() — 1 mark — command: circle — structured — from paper Nov 2017 · 8300/2H
 Circle the point that does **not** lie on the curve   $y=x^{3}$
 
-| `open parentheses negative 1 half comma space minus 1 over 8 close parentheses` | $(5,125)$ | `open parentheses 1 third comma space 1 over 9 close parentheses` | $(--1,--1)$ |
+| $( - 1 \frac{1}{2} , - \frac{1}{8} )$ | $(5,125)$ | $( 1 \frac{1}{3} , \frac{1}{9} )$ | $(--1,--1)$ |
 |---|---|---|---|
 
 ## Q26 — hard — 3 marks · exam-questions

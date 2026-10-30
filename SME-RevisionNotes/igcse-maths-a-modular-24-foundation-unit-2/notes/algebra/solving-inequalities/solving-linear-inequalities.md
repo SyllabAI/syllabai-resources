@@ -26,9 +26,7 @@ guided_study: true
 - When you **multiply **or **divide** both sides by a **negative **number, you must **flip the sign** of the inequality
 
   - E.g. 
-  `space 1 less than 2
-  open parentheses cross times negative 1 close parentheses space space space space space space space space space space space space space space space space space space space open parentheses cross times negative 1 close parentheses
-  space minus 1 greater than negative 2`
+  $1 < 2 ( \\times - 1 ) ( \\times - 1 ) - 1 > - 2$
 - **Never multiply **or **divide** by a **variable **(*x*) as this could be **positive or negative**
 - The **safest way **to rearrange is simply to **add** and **subtrac**t to move all the terms onto **one side**
 

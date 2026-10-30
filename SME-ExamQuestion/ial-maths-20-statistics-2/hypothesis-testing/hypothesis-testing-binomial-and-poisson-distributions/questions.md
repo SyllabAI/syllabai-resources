@@ -19,7 +19,7 @@ Anna is carrying out a two-tailed hypothesis test. Explain how what is being tes
 ## Q2 — easy — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-For the random variable `X space tilde space B left parenthesis 20 comma 0.3 right parenthesis` calculate
+For the random variable $X \sim B ( 20 , 0.3 )$ calculate
 
 (i) $P(X\leq2)$
 
@@ -28,7 +28,7 @@ For the random variable `X space tilde space B left parenthesis 20 comma 0.3 rig
 ### 2() — 2 marks — structured
 A hypothesis test is to be carried out using an observation of the random variable $X$ to test the hypotheses:
 
-`H subscript 0 ∶ p equals 0.3 space space space space space space space space space space space H subscript 1 ∶ p less than 0.3`
+$H_{0} ∶ p = 0.3 H_{1} ∶ p < 0.3$
 
 Before carrying out the test, a significance level of 5% is chosen. The critical region is defined as $X\leq2.$
 
@@ -52,9 +52,9 @@ A mathematics teacher makes silly mistakes at the average rate of 20 per day and
 ### 1() — 3 marks — structured
 Alina is running for student council president at her school.  She claims she has the support of 60% of students in the school.  A rival candidate, John, wants to test at the 10% level of significance whether Alina is overestimating her support.
 
-In mathematical terms, the experiment John conducts uses an observation of the random variable `space X space tilde space B left parenthesis 100 comma p right parenthesis` to test the hypotheses:
+In mathematical terms, the experiment John conducts uses an observation of the random variable $X \sim B ( 100 , p )$ to test the hypotheses:
 
-`H subscript 0 ∶ p equals 0.6 space space space space space space space space space space space space H subscript 1 ∶ p less than 0.6`
+$H_{0} ∶ p = 0.6 H_{1} ∶ p < 0.6$
 
 (i) State how many people are in John’s sample and explain what the parameter $p$ means in the context of this question. Explain why
 
@@ -83,7 +83,7 @@ Write down the critical value and the critical region for John’s test.
 ### 1() — 3 marks — structured
 A hypothesis test at the 6% significance level is carried out on a coin using the following hypotheses:
 
-`H subscript 0 ∶ p equals 1 half space space space space space space space H subscript 1 colon p not equal to 1 half`
+$H_{0} ∶ p = 1 \frac{1}{2} H_{1} : p \ne 1 \frac{1}{2}$
 
 (i) Give an example of what the parameter, $p$, could represent.
 
@@ -92,7 +92,7 @@ A hypothesis test at the 6% significance level is carried out on a coin using th
 (iii) This is a two-tailed test. Explain what should be done with the 6% significance level.
 
 ### 2() — 2 marks — structured
-A single observation $x$ is to be taken from a binomial distribution `space X space tilde space B left parenthesis 100 comma p right parenthesis` to test the hypotheses for the coin. One tail of the critical region is found to be $X\leq6$.
+A single observation $x$ is to be taken from a binomial distribution $X \sim B ( 100 , p )$ to test the hypotheses for the coin. One tail of the critical region is found to be $X\leq6$.
 
 (i) Using your knowledge of the binomial distribution $B(100,0.5)$, write down the other tail of the critical region.
 
@@ -103,7 +103,7 @@ A single observation $x$ is to be taken from a binomial distribution `space X sp
 ### 1() — 4 marks — structured
 In a school where all the teachers drink coffee in the staffroom, a headteacher wants to see if using a new brand of coffee in the staffroom improves teachers’ report writing punctuality.  Previously, 75% of teachers in her school would meet the deadline for writing reports.  After the new brand of coffee is introduced the headteacher takes a random sample of 15 teachers, and conducts an experiment to test whether the proportion of teachers meeting the deadline on the next set of reports has improved.  The test is conducted at the 5% significance level, using the following hypotheses:
 
-`H subscript 0 ∶ p equals 0.75 space space space space space space space space H subscript 1 ∶ p greater than 0.75`
+$H_{0} ∶ p = 0.75 H_{1} ∶ p > 0.75$
 
 (i) Write down a suitable distribution for the random variable $X$, the number of teachers in the headteacher’s sample who meet the deadline.
 
@@ -116,7 +116,7 @@ In a school where all the teachers drink coffee in the staffroom, a headteacher 
 ### 1() — 4 marks — structured
 A study of ladybirds in the UK found that 65% of all ladybirds are found to be of the seven-spot species.  Alex believes that more than 65% of the ladybirds in his garden are of the seven-spot species.  He conducts a hypothesis test at the 5% significance level by collecting a sample of 25 ladybirds from his garden and counting the number of them that are seven-spot ladybirds.
 
-(i) Alex uses the random variable `space X space tilde space B left parenthesis n comma p right parenthesis` to represent the number of seven-spot ladybirds in his sample.  Explain what  and  represent in the context of Alex’ experiment.
+(i) Alex uses the random variable $X \sim B ( n , p )$ to represent the number of seven-spot ladybirds in his sample.  Explain what  and  represent in the context of Alex’ experiment.
 
 (ii) State an assumption Alex has made in order to use the distribution in part (a)(i).
 
@@ -139,7 +139,7 @@ The probability of a student in a primary school library returning his or her bo
 (ii) Write down the conditions under which Joanna could use a binomial probability distribution to model this problem.
 
 ### 2() — 2 marks — structured
-Joanna takes a random sample of 30 students who have checked out books and finds that under the new incentive scheme 15 of them return their books on time.  She calculates the following probabilities for the random variable `X space tilde space B left parenthesis 30 comma 0.35 right parenthesis`:
+Joanna takes a random sample of 30 students who have checked out books and finds that under the new incentive scheme 15 of them return their books on time.  She calculates the following probabilities for the random variable $X \sim B ( 30 , 0.35 )$:
 
 $P(X=14)=0.06112\,P(X=15)=0.03511\,P(X\geq16)=0.03008$
 
@@ -177,7 +177,7 @@ Determine the critical region for this hypothesis test and hence, write down the
 ## Q10 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A single observation is taken from a discrete random variable `space X tilde B left parenthesis 15 comma 0.4 right parenthesis` to test $H_{0}:p=0.4$ against $H_{1}:p<0.4$.
+A single observation is taken from a discrete random variable $X \sim B ( 15 , 0.4 )$ to test $H_{0}:p=0.4$ against $H_{1}:p<0.4$.
 
 Using a 5% level of significance, find the critical region for this test.
 
@@ -189,7 +189,7 @@ State a conclusion to the hypothesis test for this value, giving a reason for yo
 ## Q11 — medium — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Harry is using the random variable `space X tilde B left parenthesis 40 comma 0.15 right parenthesis` to test the hypotheses:
+Harry is using the random variable $X \sim B ( 40 , 0.15 )$ to test the hypotheses:
 
 $H_{0}:p=0.15\,H_{1}:p\neq0.15$
 
@@ -200,7 +200,7 @@ Harry states that the critical regions are $X\leq2$ and $X\geq11$
 (ii) State, with a reason, the conclusion of Harry’s test given that a value of $x=10$ is observed for the test statistic.
 
 ### 2() — 4 marks — structured
-Sally is using the random variable `Y tilde B left parenthesis 35 comma 0.03 right parenthesis` to test the hypotheses:
+Sally is using the random variable $Y \sim B ( 35 , 0.03 )$ to test the hypotheses:
 
 $H_{0}:p=0.03\,H_{1}:p>0.03$
 
@@ -378,7 +378,7 @@ Find the probability of incorrectly rejecting the null hypothesis.
 ## Q24 — hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A single observation is taken from a discrete random variable `X tilde B left parenthesis 25 comma p right parenthesis` to test the hypotheses
+A single observation is taken from a discrete random variable $X \sim B ( 25 , p )$ to test the hypotheses
 
 $H_{0}:p=\frac{a}{10}$        $H_{1}:p\neq\frac{a}{10}$
 
@@ -429,7 +429,7 @@ Using a suitable approximation, test at the 5% significance level whether or not
 ## Q28 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A single observation, $x$, is taken from a discrete random variable `space X tilde B left parenthesis 25 comma p right parenthesis` to test `H subscript 0 ∶ p equals 0.2` against  `H subscript 1 ∶ p not equal to 0.2`.
+A single observation, $x$, is taken from a discrete random variable $X \sim B ( 25 , p )$ to test $H_{0} ∶ p = 0.2$ against  $H_{1} ∶ p \ne 0.2$.
 
 For the purposes of this test, the critical regions are specified as being $X\leq1$ and $X\geq9$.
 
@@ -520,18 +520,18 @@ Use this test statistic to test, at the 5% level of significance, whether the pr
 ## Q34 — very_hard — 9 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A random variable has distribution `X tilde B left parenthesis 20 comma p right parenthesis`.
+A random variable has distribution $X \sim B ( 20 , p )$.
 
 In order to test the hypotheses
 
-`H subscript 0 ∶ p equals 0.45`      `H subscript 1 ∶ p not equal to 0.45`
+$H_{0} ∶ p = 0.45$      $H_{1} ∶ p \ne 0.45$
 
 a random observation of $X$ is taken and found to be 5.
 
 Carry out a hypothesis test at the 10% significance level.
 
 ### 2() — 3 marks — structured
-Another random variable has distribution `Y tilde B left parenthesis m comma p right parenthesis`.
+Another random variable has distribution $Y \sim B ( m , p )$.
 
 A random observation of $Y$ is taken and found to be 1. Using the same hypotheses as above, find the maximum value of $m$ for which $H_{0}$ would not be rejected at the 10% significance level.
 

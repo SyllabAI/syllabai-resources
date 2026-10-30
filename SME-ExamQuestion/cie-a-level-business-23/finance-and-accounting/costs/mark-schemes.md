@@ -244,17 +244,11 @@ equals space 5 space customers`
 
 $\mathrm{Total} \mathrm{costs}=\mathrm{Fixed} \mathrm{costs}+(\mathrm{Variable} \mathrm{cost} \mathrm{per} \mathrm{customer}\times\mathrm{Number} \mathrm{of} \mathrm{customers})$
 
-`$ 42 straight m space equals space $ 12 straight m space plus space left parenthesis $ 3 space cross times space straight Q right parenthesis space space
-
-$ 30 straight m space equals space $ 3 space cross times space straight Q space space
-
-straight Q space equals space 10 comma 000 comma 000 space customers`
+$\$ 42 \mathrm{m} = \$ 12 \mathrm{m} + ( \$ 3 \\times \mathrm{Q} ) \$ 30 \mathrm{m} = \$ 3 \\times \mathrm{Q} \mathrm{Q} = 10 , 000 , 000 \text{customers}$
 
 Total revenue
 
-`equals space $ 11 space cross times space 10 comma 000 comma 000 space
-
-equals space $ 110 comma 000 comma 000`
+$= \$ 11 \\times 10 , 000 , 000 = \$ 110 , 000 , 000$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -291,15 +285,11 @@ $\mathrm{Total} \mathrm{revenue}=\mathrm{Price}\times\mathrm{Quantity}$
 
 Medium units
 
-`equals space $ 900 space cross times space 3 comma 500 space
-
-equals space $ 3 comma 150 comma 000`
+$= \$ 900 \\times 3 , 500 = \$ 3 , 150 , 000$
 
 Large units
 
-`equals space $ 2 comma 000 space cross times space 800 space
-
-equals space $ 1 comma 600 comma 000`
+$= \$ 2 , 000 \\times 800 = \$ 1 , 600 , 000$
 
 Total revenue
 
@@ -437,28 +427,19 @@ Overall, I would recommend Obi chooses Van A **[E]**. Although the two vans cost
 
 **Price for one van, three days**
 
-`Day space 1 colon space $ 250 space space
-Day space 2 space left parenthesis 10 percent sign space discount right parenthesis space equals space $ 250 space cross times space 0.9 space equals space $ 225 space space
-Day space 3 space left parenthesis 10 percent sign space discount right parenthesis space equals space $ 250 space cross times space 0.9 space equals space $ 225 space space
-Total space per space van space equals space $ 250 space plus space $ 225 space plus space $ 225 space equals space $ 700`
+`Day 1 colon $ 250 Day 2 ( 10 % discount ) = $ 250 x 0.9 = $ 225 Day 3 ( 10 % discount ) = $ 250 x 0.9 = $ 225 Total per van = $ 250 + $ 225 + $ 225 = $ 700`
 
 **Total revenue for two vans**
 
-`equals space $ 700 space cross times space 2 space
-
-equals space $ 1 comma 400`
+$= \$ 700 \\times 2 = \$ 1 , 400$
 
 **Cost for one van, three days**
 
-`equals space $ 170 space cross times space 3 space
-
-equals space $ 510`
+$= \$ 170 \\times 3 = \$ 510$
 
 **Total cost for two vans**
 
-`equals space $ 510 space cross times space 2 space
-
-equals space $ 1 comma 020`
+$= \$ 510 \\times 2 = \$ 1 , 020$
 
 **Profit **`space equals space $ 1 comma 400 space minus space $ 1 comma 020 space equals space $ 380`
 
@@ -475,29 +456,21 @@ equals space $ 1 comma 020`
 
 Profit per service
 
-`equals space $ 250 space minus space left parenthesis $ 50 space plus space $ 60 right parenthesis space
-
-equals space $ 140`
+$= \$ 250 - ( \$ 50 + \$ 60 ) = \$ 140$
 
 Profit from 1,000 standard services
 
-`equals space $ 140 space cross times space 1 comma 000 space
-
-equals space $ 140 comma 000`
+$= \$ 140 \\times 1 , 000 = \$ 140 , 000$
 
 **Advanced services**
 
 Profit per service
 
-`equals space $ 400 space minus space left parenthesis $ 60 space plus space $ 100 right parenthesis space
-
-equals space $ 240`
+$= \$ 400 - ( \$ 60 + \$ 100 ) = \$ 240$
 
 Profit from 200 advanced services
 
-`equals space $ 240 space cross times space 200 space
-
-equals space $ 48 comma 000`
+$= \$ 240 \\times 200 = \$ 48 , 000$
 
 **Total profit**
 
@@ -563,11 +536,7 @@ Another way is that it helps with pricing decisions **[K]**. An entrepreneur lau
 
 $\mathrm{Total} \mathrm{costs}=\mathrm{Total} \mathrm{variable} \mathrm{costs}+\mathrm{fixed} \mathrm{costs}$
 
-`equals space left parenthesis $ 40 space cross times space 7500 right parenthesis space plus space left parenthesis $ 500 comma 000 space cross times space 0.9 right parenthesis
-
-equals space $ 300 comma 000 space plus space $ 450 comma 000
-
-equals space $ 750 comma 000`
+$= ( \$ 40 \\times 7500 ) + ( \$ 500 , 000 \\times 0.9 ) = \$ 300 , 000 + \$ 450 , 000 = \$ 750 , 000$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings

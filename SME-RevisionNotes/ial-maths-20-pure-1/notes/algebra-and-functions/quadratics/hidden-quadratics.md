@@ -21,13 +21,13 @@ guided_study: true
 
 - Hidden quadratic equations are quadratics written in terms of a function** **$f(x)$
 - A normal quadratic appears in the form $ax^{2}+bx+c=0$
-- Whereas a hidden quadratic appears in the form `a open square brackets f left parenthesis x right parenthesis close square brackets²+b open square brackets f left parenthesis x right parenthesis close square brackets+c=0`
+- Whereas a hidden quadratic appears in the form $a [ f ( x ) ]²+b [ f ( x ) ]+c=0$
 - This might look complicated but it simply means $x$ has been replaced by $f(x)$
 - e.g. $\mathrm{sin}^{2}x+2\mathrm{sin}x-3=0$ is just the hidden quadratic of $x^{2}+2x-3=0$ where $f(x)=\mathrm{sin}x$
 
 ### How do I solve hidden quadratic equations?
 
-- First rearrange the function into the form `a open square brackets f left parenthesis x right parenthesis close square brackets²+b open square brackets f left parenthesis x right parenthesis close square brackets+c=0`
+- First rearrange the function into the form $a [ f ( x ) ]²+b [ f ( x ) ]+c=0$
 - Replacing the function and solving the 'normal' quadratic first
 - Then substitute the function back into the solutions to solve the original quadratic ![Further Solving of Quadratic Equations Notes Diagram 2, A Level & AS Level Pure Maths Revision Notes](assets/2268b1a94745-2-2-5-further-solving-of-quadratic-equations-not.png)
 

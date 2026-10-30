@@ -74,7 +74,7 @@ $a\times10^{n}$
 ![Steps showing division of 324 by 10 repeatedly, resulting in 0.0000324, which equals 3.24 times 10 to the power of minus 5.](../../../assets/beb16df77056-65324-standard-form-less-than-1.png)
 
 > **Exam Hint**
-> On some calculators, typing in a very large or very small number and pressing `box enclose equals` will convert it to standard form.
+> On some calculators, typing in a very large or very small number and pressing `box =` will convert it to standard form.
 
 > **Worked Example**
 > (a) Without a calculator, write 0.007052 in standard form.

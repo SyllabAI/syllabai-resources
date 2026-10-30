@@ -1296,7 +1296,7 @@ $\begin{gathered} \bar{x} & = \frac{240}{12} = 20 \end{gathered}$
 ### 16() — 3 marks
 > *In this case, the mean age will be given by the formula*
 
-`Mean space age space open parentheses x with italic bar on top close parentheses equals fraction numerator Total space of space the space ages space open parentheses T close parentheses over denominator Number space of space children space open parentheses n close parentheses end fraction`
+$\text{Mean} \text{age} ( x \text{with} \text{bar} \text{on} \text{top} ) = \frac{Total \text{ages} ( T )}{Number \text{children} ( n )}$
 
 > *From the first piece of information*
 

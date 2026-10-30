@@ -67,17 +67,7 @@ guided_study: false
 - At 0 units of output, total costs are made up exclusively of fixed costs
 - At 500 units, the total costs are £11,800
 
-`Total space Variable space Costs space equals space Units space cross times space Variable space Cost space per space Unit
-
-equals space 500 space cross times space £ 7.60
-
-equals space £ 3 comma 800
-
-Total space Costs space equals space Fixed space Costs space plus space Total space Variable space Costs
-
-equals space £ 8 comma 000 space plus space £ 3 comma 800
-
-equals space £ 11 comma 800`
+`Total Variable Costs = Units x Variable Cost per Unit = 500 x £ 7.60 = £ 3 , 800 Total Costs = Fixed Costs + Total Variable Costs = £ 8 , 000 + £ 3 , 800 = £ 11 , 800`
 
 - In the chart, the total costs line **slopes upwards **because total variable costs increase as output increases
 - **Revenue** is the quantity sold x selling price

@@ -26,7 +26,7 @@ Use the regression line in part (a) to predict the download speed in a village t
 
 **Q1** [1 mark]
 
-A data point `open parentheses x comma space y close parentheses` is removed from the table.
+A data point $( x , y )$ is removed from the table.
 
 A student calculates the regression line for the remaining data and claims that it has the equation $y=140+0.27x$.
 

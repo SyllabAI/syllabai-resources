@@ -174,7 +174,7 @@ $E=\Deltamc^{2}$
   - Carbon-12 and oxygen-16 can be considered to be three and four helium nuclei, respectively, bound together
 
 > **Worked Example**
-> Determine the binding energy per nucleon of iron-56, `Fe presubscript 26 presuperscript 56`, in MeV.
+> Determine the binding energy per nucleon of iron-56, $Fe_{26}^{56}$, in MeV.
 > 
 > - Mass of a neutron = 1.675 × 10<sup>-27</sup> kg
 > - Mass of a proton = 1.673 × 10<sup>-27</sup> kg

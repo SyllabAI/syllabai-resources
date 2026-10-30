@@ -31,7 +31,7 @@ You must show all your working.
 Ahmed sells different types of cake in his shop.
 The cost of each cake depends on its type and its size.
 
-Every small cake costs `$ x` and every large cake costs `$ left parenthesis 2 x space plus space 1 right parenthesis`.
+Every small cake costs `$ x` and every large cake costs $\$ ( 2 x + 1 )$.
 
 Petra spends \$20 on small coffee cakes and \$10 on large coffee cakes. 
 The total number of cakes is 45.
@@ -52,7 +52,7 @@ Show all your working.
 Ahmed sells different types of cake in his shop. 
 The cost of each cake depends on its type and its size.
 
-Every small cake costs `$ x` and every large cake costs `$ left parenthesis 2 x space plus space 1 right parenthesis`The total cost of 3 small lemon cakes and 2 large lemon cakes is \$12.36.
+Every small cake costs `$ x` and every large cake costs $\$ ( 2 x + 1 )$The total cost of 3 small lemon cakes and 2 large lemon cakes is \$12.36.
 
 Find the cost of a small lemon cake.
 

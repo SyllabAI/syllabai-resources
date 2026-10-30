@@ -179,7 +179,7 @@
       {
        "latex": "ρ=\\frac{mass}{volume}=\\frac{m_{m}}{V_{m}}=\\frac{m_{m}}{\\frac{4}{3}πr_{m}^{3}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#961;</mi><mo>=</mo><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><mrow><mi>v</mi><mi>o</mi><mi>l</mi><mi>u</mi><mi>m</mi><mi>e</mi></mrow></mfrac><mo>=</mo><mfrac><msub><mi>m</mi><mi>m</mi></msub><msub><mi>V</mi><mi>m</mi></msub></mfrac><mo>=</mo><mfrac><msub><mi>m</mi><mi>m</mi></msub><mrow><mstyle displaystyle=\"true\"><mfrac><mn>4</mn><mn>3</mn></mfrac></mstyle><mi>&#960;</mi><msup><msub><mi>r</mi><mi>m</mi></msub><mn>3</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "rho equals fraction numerator m a s s over denominator v o l u m e end fraction equals m subscript m over V subscript m equals fraction numerator m subscript m over denominator 4 over 3 pi r subscript m cubed end fraction"
+       "alt": "rho = (m a s s)/(v o l u m e) = m _ m / V _ m = (m _ m)/(4 / 3 pi r _ m ^3)"
       },
       {
        "latex": "m_{m}=\\frac{4}{3}πρr_{m}^{3}",
@@ -194,17 +194,17 @@
       {
        "latex": "g_{m}=\\frac{Gm_{m}}{r_{m}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>g</mi><mi>m</mi></msub><mo>=</mo><mfrac><mrow><mi>G</mi><msub><mi>m</mi><mi>m</mi></msub></mrow><msup><msub><mi>r</mi><mi>m</mi></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "g subscript m equals fraction numerator G m subscript m over denominator r subscript m squared end fraction"
+       "alt": "g _ m = (G m _ m)/(r _ m ^2)"
       },
       {
        "latex": "3.2=\\frac{Gm_{m}}{r_{m}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>2</mn><mo>=</mo><mfrac><mrow><mi>G</mi><msub><mi>m</mi><mi>m</mi></msub></mrow><msup><msub><mi>r</mi><mi>m</mi></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "3.2 equals fraction numerator G m subscript m over denominator r subscript m squared end fraction"
+       "alt": "3.2 = (G m _ m)/(r _ m ^2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "3.2 equals fraction numerator G cross times open parentheses 4 over 3 pi rho r subscript m cubed close parentheses over denominator r subscript m squared end fraction equals G cross times 4 over 3 pi rho r subscript m",
+       "alt": "3.2 = (G x ( 4 / 3 pi rho r _ m ^3 ))/(r _ m ^2) = G x 4 / 3 pi rho r _ m",
        "render": "$3.2 = \\frac{G \\times ( \\frac{4}{3} pi \\text{rho} r_{m} ^{3} ) }{r_{m} ^{2} } = G \\times \\frac{4}{3} pi \\text{rho} r_{m}$",
        "via": "alt-transpile"
       },
@@ -223,12 +223,12 @@
       {
        "latex": "g_{p}=\\frac{Gm_{p}}{r_{p}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>g</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><mi>G</mi><msub><mi>m</mi><mi>p</mi></msub></mrow><msup><msub><mi>r</mi><mi>p</mi></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "g subscript p equals fraction numerator G m subscript p over denominator r subscript p squared end fraction"
+       "alt": "g _ p = (G m _ p)/(r _ p ^2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "g subscript p equals fraction numerator G cross times open parentheses 4 over 3 pi rho left parenthesis 2.6 r subscript m right parenthesis cubed close parentheses over denominator left parenthesis 2.6 r subscript m right parenthesis squared end fraction",
+       "alt": "g _ p = (G x ( 4 / 3 pi rho ( 2.6 r _ m ) ^3 ))/(( 2.6 r _ m ) ^2)",
        "render": "$g_{p} = \\frac{G \\times ( \\frac{4}{3} pi \\text{rho} ( 2.6 r_{m} ) ^{3} ) }{( 2.6 r_{m} ) ^{2} }$",
        "via": "alt-transpile"
       },
@@ -328,12 +328,12 @@
       {
        "latex": "\\frac{Gm_{m}}{R_{m}^{2}}=\\frac{Gm_{p}}{R_{p}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>G</mi><msub><mi>m</mi><mi>m</mi></msub></mrow><msup><msub><mi>R</mi><mi>m</mi></msub><mn>2</mn></msup></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><msub><mi>m</mi><mi>p</mi></msub></mrow><msup><msub><mi>R</mi><mi>p</mi></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator G m subscript m over denominator R subscript m squared end fraction space equals space fraction numerator G m subscript p over denominator R subscript p squared end fraction"
+       "alt": "(G m _ m)/(R _ m ^2) = (G m _ p)/(R _ p ^2)"
       },
       {
        "latex": "\\frac{m_{m}}{R_{m}^{2}}=\\frac{2.6^{3}m_{m}}{R_{p}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>m</mi><mi>m</mi></msub><msup><msub><mi>R</mi><mi>m</mi></msub><mn>2</mn></msup></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><msup><mrow><mn>2</mn><mo>.</mo><mn>6</mn></mrow><mn>3</mn></msup><msub><mi>m</mi><mi>m</mi></msub></mrow><msup><msub><mi>R</mi><mi>p</mi></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "m subscript m over R subscript m squared space equals space fraction numerator 2.6 cubed m subscript m over denominator R subscript p squared end fraction"
+       "alt": "m _ m / R _ m ^2 = (2.6 ^3 m _ m)/(R _ p ^2)"
       },
       {
        "latex": "\\frac{R_{p}^{2}}{R_{m}^{2}}=2.6^{3}",
@@ -403,21 +403,21 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals fraction numerator G M subscript 1 M subscript 2 space over denominator r squared end fraction space equals space fraction numerator G M m space over denominator open parentheses R space plus space h close parentheses squared end fraction",
+       "alt": "F = (G M _ 1 M _ 2 )/(r ^2) = (G M m )/(( R + h ) ^2)",
        "render": "$F = \\frac{G M_{1} M_{2} }{r^{2}} = \\frac{G M m }{( R + h )^{2}}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "M space equals space fraction numerator F space open parentheses R space plus space h close parentheses squared space over denominator G m end fraction",
+       "alt": "M = (F ( R + h ) ^2 )/(G m)",
        "render": "$M = \\frac{F ( R + h )^{2} }{G m}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "M space equals space fraction numerator 13.3 cross times open parentheses space open parentheses 3400 space plus space 25 close parentheses space cross times space 10 cubed close parentheses squared space over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space 3.67 end fraction",
+       "alt": "M = (13.3 x ( ( 3400 + 25 ) x 10 ^3 ) ^2 )/(( 6.67 x 10 ^ - 11 ) x 3.67)",
        "render": "$M = \\frac{13.3 \\times ( ( 3400 + 25 ) \\times 10^{3} )^{2} }{( 6.67 \\times 10^{- 11} ) \\times 3.67}$",
        "via": "alt-transpile"
       },
@@ -451,24 +451,24 @@
       {
        "latex": "F=\\frac{mv^{2}}{r}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>r</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals fraction numerator space m v squared over denominator r end fraction"
+       "alt": "F = ( m v ^2)/(r)"
       },
       {
        "latex": "v=ωr=\\frac{2πr}{T}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#969;</mi><mi>r</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>2</mn><mi>&#960;</mi><mo>&#160;</mo><mi>r</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "space v space equals space omega r space equals fraction numerator space 2 pi space r over denominator T end fraction"
+       "alt": "v = omega r = ( 2 pi r)/(T)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals fraction numerator space m open parentheses fraction numerator 2 pi r over denominator T end fraction close parentheses squared over denominator r end fraction space equals space fraction numerator m space cross times 4 pi squared r space over denominator T squared end fraction",
+       "alt": "F = ( m ( (2 pi r)/(T) ) ^2)/(r) = (m x 4 pi ^2 r )/(T ^2)",
        "render": "$F = \\frac{ m ( \\frac{2 \\pi r}{T} )^{2}}{r} = \\frac{m \\times 4 \\pi ^{2} r }{T^{2}}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator 3.67 space cross times space 4 pi squared space cross times space open parentheses open parentheses 3400 space cross times space 10 cubed close parentheses space plus space open parentheses 25 space cross times 10 cubed close parentheses close parentheses space over denominator open parentheses 88620 close parentheses squared end fraction space space equals space 6.3 space cross times space 10 to the power of negative 2 end exponent space straight N",
+       "alt": "F = (3.67 x 4 pi ^2 x ( ( 3400 x 10 ^3 ) + ( 25 x 10 ^3 ) ) )/(( 88620 ) ^2) = 6.3 x 10 ^ - 2 N",
        "render": "$F = \\frac{3.67 \\times 4 \\pi ^{2} \\times ( ( 3400 \\times 10^{3} ) + ( 25 \\times 10^{3} ) ) }{( 88620 )^{2}} = 6.3 \\times 10^{- 2} \\mathrm{N}$",
        "via": "alt-transpile"
       }
@@ -496,32 +496,32 @@
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = ( G M)/(r ^2)"
       },
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = ( G M)/(r ^2)"
       },
       {
        "latex": "F=\\frac{GM_{1}M_{2}}{r^{2}}=\\frac{GMm}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>G</mi><msub><mi>M</mi><mn>1</mn></msub><msub><mi>M</mi><mn>2</mn></msub></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>G</mi><mi>M</mi><mi>m</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals fraction numerator space G M subscript 1 M subscript 2 over denominator r squared end fraction space equals fraction numerator space G M m over denominator r squared end fraction"
+       "alt": "F = ( G M _ 1 M _ 2)/(r ^2) = ( G M m)/(r ^2)"
       },
       {
        "latex": "g=\\frac{F}{m}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>F</mi></mrow><mi>m</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space F over denominator m end fraction"
+       "alt": "g = ( F)/(m)"
       },
       {
        "latex": "g=\\frac{\\frac{GMm}{r^{2}}}{m}=\\frac{GMm}{r^{2}m}=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mfrac><mrow><mo> </mo><mi>G</mi><mi>M</mi><mi>m</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mstyle><mi>m</mi></mfrac><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>G</mi><mi>M</mi><mi>m</mi></mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mi>m</mi></mrow></mfrac><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator fraction numerator space G M m over denominator r squared end fraction over denominator m end fraction space equals fraction numerator space G M m over denominator r squared m end fraction space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = (( G M m)/(r ^2))/(m) = ( G M m)/(r ^2 m) = ( G M)/(r ^2)"
       },
       {
        "latex": "g=\\frac{F}{M}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo> </mo><mi>F</mi></mrow><mi>M</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space F over denominator M end fraction"
+       "alt": "g = ( F)/(M)"
       }
      ]
     },
@@ -547,14 +547,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction space equals space fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6.374 space cross times space 10 to the power of 23 close parentheses space space over denominator open parentheses open parentheses 3400 space cross times space 10 cubed close parentheses space plus space open parentheses 50 space cross times space 10 cubed close parentheses close parentheses squared end fraction",
+       "alt": "g = ( G M)/(r ^2) = (( 6.67 x 10 ^ - 11 ) x ( 6.374 x 10 ^ 23 ) )/(( ( 3400 x 10 ^3 ) + ( 50 x 10 ^3 ) ) ^2)",
        "render": "$g = \\frac{ G M}{r^{2}} = \\frac{( 6.67 \\times 10^{- 11} ) \\times ( 6.374 \\times 10^{23} ) }{( ( 3400 \\times 10^{3} ) + ( 50 \\times 10^{3} ) )^{2}}$",
        "via": "alt-transpile"
       },
       {
        "latex": "g=a=3.57N\\mathrm{kg}^{-1}=3.5ms^{-2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>a</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>57</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi><mo>&#160;</mo><msup><mi>kg</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "g space equals space a space equals space 3.57 space straight N space kg to the power of negative 1 end exponent space equals space 3.5 space straight m space straight s to the power of negative 2 end exponent"
+       "alt": "g = a = 3.57 N kg ^ - 1 = 3.5 m s ^ - 2"
       }
      ]
     }
@@ -601,29 +601,29 @@
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals space fraction numerator G M over denominator r squared end fraction"
+       "alt": "g = (G M)/(r ^2)"
       },
       {
        "latex": "g=\\frac{GM}{r^{2}}\\RightarrowM=\\frac{r^{2}g}{G}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>M</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><msup><mi>r</mi><mn>2</mn></msup><mi>g</mi></mrow><mi>G</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals space fraction numerator G M over denominator r squared end fraction space space space space space rightwards double arrow space space space space M space equals space fraction numerator r squared g over denominator G end fraction"
+       "alt": "g = (G M)/(r ^2) <-> M = (r ^2 g)/(G)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "space rho space equals space M over V space equals space fraction numerator r squared g over denominator G end fraction cross times open parentheses fraction numerator 3 over denominator 4 straight pi r cubed end fraction close parentheses",
+       "alt": "rho = M / V = (r ^2 g)/(G) x ( (3)/(4 pi r ^3) )",
        "render": "$\\\\rho = \\frac{M}{V} = \\frac{r^{2} g}{G} \\times ( \\frac{3}{4 \\mathrm{\\pi } r^{3}} )$",
        "via": "alt-transpile"
       },
       {
        "latex": "ρ=\\frac{3r^{2}g}{4πr^{3}G}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>&#961;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><msup><mi>r</mi><mn>2</mn></msup><mi>g</mi></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn>3</mn></msup><mi>G</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "space rho space equals space fraction numerator 3 r squared g over denominator 4 straight pi r cubed G end fraction"
+       "alt": "rho = (3 r ^2 g)/(4 pi r ^3 G)"
       },
       {
        "latex": "ρ=\\frac{3g}{4πGr}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>&#961;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mi>g</mi></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>G</mi><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "space rho space equals space fraction numerator 3 g over denominator 4 straight pi G r end fraction"
+       "alt": "rho = (3 g)/(4 pi G r)"
       }
      ]
     },
@@ -655,19 +655,19 @@
       {
        "latex": "ρ=\\frac{3g}{4πGr}\\Rightarrowg=\\frac{4πGrρ}{3}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#961;</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>g</mi></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>G</mi><mi>r</mi></mrow></mfrac><mo>&#8658;</mo><mi>g</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mi>G</mi><mi>r</mi><mi>&#961;</mi></mrow><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "rho equals fraction numerator 3 g over denominator 4 straight pi G r end fraction rightwards double arrow g equals fraction numerator 4 straight pi G r rho over denominator 3 end fraction"
+       "alt": "rho = (3 g)/(4 pi G r) <-> g = (4 pi G r rho)/(3)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "g equals fraction numerator 4 straight pi cross times open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses open parentheses 1700 cross times 10 cubed close parentheses open parentheses 3340 close parentheses over denominator 3 end fraction",
+       "alt": "g = (4 pi x ( 6.67 x 10 ^ - 11 ) ( 1700 x 10 ^3 ) ( 3340 ))/(3)",
        "render": "$g = \\frac{4 \\mathrm{\\pi } \\times ( 6.67 \\times 10^{- 11} ) ( 1700 \\times 10^{3} ) ( 3340 )}{3}$",
        "via": "alt-transpile"
       },
       {
        "latex": "\\frac{3.34\\times10^{-3}\\mathrm{kg}}{1\\times10^{-6}m^{3}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3</mn><mo>.</mo><mn>34</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi>kg</mi></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mn>3</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 3.34 cross times 10 to the power of negative 3 end exponent space kg over denominator 1 cross times 10 to the power of negative 6 end exponent space straight m cubed end fraction"
+       "alt": "(3.34 x 10 ^ - 3 kg)/(1 x 10 ^ - 6 m ^3)"
       }
      ]
     },
@@ -693,24 +693,24 @@
       {
        "latex": "g=\\frac{GM}{R^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals space fraction numerator G M over denominator R squared end fraction"
+       "alt": "g = (G M)/(R ^2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "g space equals space fraction numerator G M subscript P over denominator open parentheses 3 R close parentheses squared end fraction space equals space fraction numerator G M subscript P over denominator 9 R squared end fraction",
+       "alt": "g = (G M _ P)/(( 3 R ) ^2) = (G M _ P)/(9 R ^2)",
        "render": "$g = \\frac{G M_{P} }{( 3 R )^{2}} = \\frac{G M_{P} }{9 R^{2}}$",
        "via": "alt-transpile"
       },
       {
        "latex": "\\frac{GM}{R^{2}}=\\frac{GM_{P}}{9R^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>P</mi></msub></mrow><mrow><mn>9</mn><msup><mi>R</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator G M over denominator R squared end fraction space equals space fraction numerator G M subscript P over denominator 9 R squared end fraction"
+       "alt": "(G M)/(R ^2) = (G M _ P)/(9 R ^2)"
       },
       {
        "latex": "M_{P}=\\frac{9R^{2}}{G}\\times\\frac{GM}{R^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>M</mi><mi>P</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>9</mn><msup><mi>R</mi><mn>2</mn></msup></mrow><mi>G</mi></mfrac><mo>&#215;</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "M subscript P space equals space fraction numerator 9 R squared over denominator G end fraction cross times fraction numerator G M over denominator R squared end fraction"
+       "alt": "M _ P = (9 R ^2)/(G) x (G M)/(R ^2)"
       },
       {
        "latex": "M_{P}=9M",
@@ -748,7 +748,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "open parentheses 4 R comma space fraction numerator 9 g over denominator 16 end fraction close parentheses",
+       "alt": "( 4 R , (9 g)/(16) )",
        "render": "$( 4 R , \\frac{9 g}{16} )$",
        "via": "alt-transpile"
       },
@@ -834,17 +834,17 @@
       {
        "latex": "\\frac{3480\\times10^{3}}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3480</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 3480 cross times 10 cubed over denominator 2 end fraction"
+       "alt": "(3480 x 10 ^3)/(2)"
       },
       {
        "latex": "g_{M}=\\frac{GM_{M}}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>g</mi><mi>M</mi></msub><mo>=</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>M</mi></msub></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "g subscript M equals fraction numerator G M subscript M over denominator r squared end fraction"
+       "alt": "g _ M = (G M _ M)/(r ^2)"
       },
       {
        "latex": "M_{M}=\\frac{g_{M}r^{2}}{G}=\\frac{1.63\\times(1.74\\times10^{6})^{2}}{6.67\\times10^{-11}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>M</mi><mi>M</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>g</mi><mi>M</mi></msub><mo>&#160;</mo><msup><mi>r</mi><mn>2</mn></msup></mrow><mi>G</mi></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>.</mo><mn>63</mn><mo>&#215;</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>74</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mn>6</mn><mo>.</mo><mn>67</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "M subscript M equals fraction numerator g subscript M space r squared over denominator G end fraction equals fraction numerator 1.63 cross times left parenthesis 1.74 cross times 10 to the power of 6 right parenthesis squared over denominator 6.67 cross times 10 to the power of negative 11 end exponent end fraction"
+       "alt": "M _ M = (g _ M r ^2)/(G) = (1.63 x ( 1.74 x 10 ^ 6 ) ^2)/(6.67 x 10 ^ - 11 )"
       }
      ]
     },
@@ -915,12 +915,12 @@
       {
        "latex": "g_{ISS}=\\frac{GM_{E}}{r_{ISS\\rightarrowE}^{2}}+\\frac{GM_{M}}{r_{ISS\\rightarrowM}^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>g</mi><mrow><mi>I</mi><mi>S</mi><mi>S</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>E</mi></msub></mrow><msup><msub><mi>r</mi><mrow><mi>I</mi><mi>S</mi><mi>S</mi><mo>&#8594;</mo><mi>E</mi></mrow></msub><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>M</mi></msub></mrow><msup><msub><mi>r</mi><mrow><mi>I</mi><mi>S</mi><mi>S</mi><mo>&#8594;</mo><mi>M</mi></mrow></msub><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "g subscript I S S end subscript equals fraction numerator G M subscript E over denominator r subscript I S S rightwards arrow E end subscript squared end fraction plus fraction numerator G M subscript M over denominator r subscript I S S rightwards arrow M end subscript squared end fraction"
+       "alt": "g _ I S S = (G M _ E)/(r _ I S S -> E ^2) + (G M _ M)/(r _ I S S -> M ^2)"
       },
       {
        "latex": "g_{ISS}=\\frac{(6.67\\times10^{-11})\\times(5.97\\times10^{24})}{(6.78\\times10^{6})^{2}}+\\frac{(6.67\\times10^{-11})\\times(7.40\\times10^{22})}{(3.87\\times10^{8})^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>g</mi><mrow><mi>I</mi><mi>S</mi><mi>S</mi></mrow></msub><mo>=</mo><mfrac><mrow><mo>(</mo><mn>6</mn><mo>.</mo><mn>67</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup><mo>)</mo><mo>&#215;</mo><mo>(</mo><mn>5</mn><mo>.</mo><mn>97</mn><mo>&#215;</mo><msup><mn>10</mn><mn>24</mn></msup><mo>)</mo></mrow><msup><mrow><mo>(</mo><mn>6</mn><mo>.</mo><mn>78</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mo>(</mo><mn>6</mn><mo>.</mo><mn>67</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup><mo>)</mo><mo>&#215;</mo><mo>(</mo><mn>7</mn><mo>.</mo><mn>40</mn><mo>&#215;</mo><msup><mn>10</mn><mn>22</mn></msup><mo>)</mo></mrow><msup><mrow><mo>(</mo><mn>3</mn><mo>.</mo><mn>87</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "g subscript I S S end subscript equals fraction numerator left parenthesis 6.67 cross times 10 to the power of negative 11 end exponent right parenthesis cross times left parenthesis 5.97 cross times 10 to the power of 24 right parenthesis over denominator left parenthesis 6.78 cross times 10 to the power of 6 right parenthesis squared end fraction plus fraction numerator left parenthesis 6.67 cross times 10 to the power of negative 11 end exponent right parenthesis cross times left parenthesis 7.40 cross times 10 to the power of 22 right parenthesis over denominator left parenthesis 3.87 cross times 10 to the power of 8 right parenthesis squared end fraction"
+       "alt": "g _ I S S = (( 6.67 x 10 ^ - 11 ) x ( 5.97 x 10 ^ 24 ))/(( 6.78 x 10 ^ 6 ) ^2) + (( 6.67 x 10 ^ - 11 ) x ( 7.40 x 10 ^ 22 ))/(( 3.87 x 10 ^ 8 ) ^2)"
       },
       {
        "latex": "g_{ISS}",
@@ -956,7 +956,7 @@
       {
        "latex": "M=\\frac{gr^{2}}{G}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>M</mi><mo>=</mo><mfrac><mrow><mi>g</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><mi>G</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "M equals fraction numerator g r squared over denominator G end fraction"
+       "alt": "M = (g r ^2)/(G)"
       },
       {
        "latex": "\\frac{M}{V}",
@@ -971,14 +971,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "rho equals fraction numerator open parentheses fraction numerator g r squared over denominator G end fraction close parentheses over denominator open parentheses 4 over 3 pi r cubed close parentheses end fraction equals fraction numerator 3 g r squared over denominator 4 G pi r cubed end fraction",
+       "alt": "rho = (( (g r ^2)/(G) ))/(( 4 / 3 pi r ^3 )) = (3 g r ^2)/(4 G pi r ^3)",
        "render": "$\\\\rho = \\frac{( \\frac{g r^{2}}{G} )}{( \\frac{4}{3} \\pi r^{3} )} = \\frac{3 g r^{2}}{4 G \\pi r^{3}}$",
        "via": "alt-transpile"
       },
       {
        "latex": "ρ=\\frac{3g}{4Gπr}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#961;</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>g</mi></mrow><mrow><mn>4</mn><mi>G</mi><mi>&#960;</mi><mi>r</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "rho equals fraction numerator 3 g over denominator 4 G pi r end fraction"
+       "alt": "rho = (3 g)/(4 G pi r)"
       },
       {
        "latex": "g=\\frac{4}{3}Gπrρ",
@@ -1014,14 +1014,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "g subscript Y over g subscript X equals space fraction numerator 9 g over denominator g end fraction space equals space fraction numerator 4 over 3 G pi space r subscript Y space open parentheses 3 rho close parentheses over denominator 4 over 3 G pi space r subscript X space rho end fraction",
+       "alt": "g _ Y / g _ X = (9 g)/(g) = (4 / 3 G pi r _ Y ( 3 rho ))/(4 / 3 G pi r _ X rho)",
        "render": "`g _ Y / g _ X = (9 g)/(g) = (4 / 3 G pi r _ Y ( 3 rho ))/(4 / 3 G pi r _ X rho)`",
        "via": "alt-transpile"
       },
       {
        "latex": "9=\\frac{3r_{Y}}{r_{X}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><msub><mi>r</mi><mi>Y</mi></msub></mrow><msub><mi>r</mi><mi>X</mi></msub></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "9 space equals space fraction numerator 3 r subscript Y over denominator r subscript X end fraction"
+       "alt": "9 = (3 r _ Y)/(r _ X)"
       },
       {
        "latex": "r_{Y}=3r_{X}",
@@ -1053,14 +1053,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "rho subscript Y over rho subscript X space equals space fraction numerator open parentheses m subscript Y over V subscript Y close parentheses over denominator open parentheses m subscript X over V subscript X close parentheses end fraction space equals space m subscript Y over m subscript X space cross times space V subscript X over V subscript Y",
+       "alt": "rho _ Y / rho _ X = (( m _ Y / V _ Y ))/(( m _ X / V _ X )) = m _ Y / m _ X x V _ X / V _ Y",
        "render": "`rho _ Y / rho _ X = (( m _ Y / V _ Y ))/(( m _ X / V _ X )) = m _ Y / m _ X x V _ X / V _ Y`",
        "via": "alt-transpile"
       },
       {
        "latex": "\\frac{3ρ}{ρ}=\\frac{m_{Y}}{m_{X}}\\times\\frac{V_{X}}{27V_{X}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>3</mn><mi>&#961;</mi></mrow><mi>&#961;</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><msub><mi>m</mi><mi>Y</mi></msub><msub><mi>m</mi><mi>X</mi></msub></mfrac><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mfrac><msub><mi>V</mi><mi>X</mi></msub><mrow><mn>27</mn><msub><mi>V</mi><mi>X</mi></msub></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator 3 rho over denominator rho end fraction space equals space m subscript Y over m subscript X space cross times space fraction numerator V subscript X over denominator 27 V subscript X end fraction"
+       "alt": "(3 rho)/(rho) = m _ Y / m _ X x (V _ X)/(27 V _ X)"
       },
       {
        "latex": "\\frac{m_{Y}}{m_{X}}=3\\times27",
@@ -1126,12 +1126,12 @@
       {
        "latex": "F=\\frac{GM_{S}M_{E}}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>S</mi></msub><msub><mi>M</mi><mi>E</mi></msub></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator G M subscript S M subscript E over denominator r squared end fraction"
+       "alt": "F = (G M _ S M _ E)/(r ^2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 3.33 cross times 10 to the power of 5 close parentheses cross times open parentheses 5.97 cross times 10 to the power of 24 close parentheses squared over denominator open parentheses 1.47 cross times 10 to the power of 11 close parentheses squared end fraction",
+       "alt": "F = (( 6.67 x 10 ^ - 11 ) x ( 3.33 x 10 ^ 5 ) x ( 5.97 x 10 ^ 24 ) ^2)/(( 1.47 x 10 ^ 11 ) ^2)",
        "render": "$F = \\frac{( 6.67 \\times 10^{- 11} ) \\times ( 3.33 \\times 10^{5} ) \\times ( 5.97 \\times 10^{24} )^{2}}{( 1.47 \\times 10^{11} )^{2}}$",
        "via": "alt-transpile"
       }
@@ -1160,7 +1160,7 @@
       {
        "latex": "\\frac{gravitationalfieldstrengthonMars}{gravitationalfieldstrengthonEarth}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>g</mi><mi>r</mi><mi>a</mi><mi>v</mi><mi>i</mi><mi>t</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>a</mi><mi>l</mi><mo>&#160;</mo><mi>f</mi><mi>i</mi><mi>e</mi><mi>l</mi><mi>d</mi><mo>&#160;</mo><mi>s</mi><mi>t</mi><mi>r</mi><mi>e</mi><mi>n</mi><mi>g</mi><mi>t</mi><mi>h</mi><mo>&#160;</mo><mi>o</mi><mi>n</mi><mo>&#160;</mo><mi>M</mi><mi>a</mi><mi>r</mi><mi>s</mi></mrow><mrow><mi>g</mi><mi>r</mi><mi>a</mi><mi>v</mi><mi>i</mi><mi>t</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>a</mi><mi>l</mi><mo>&#160;</mo><mi>f</mi><mi>i</mi><mi>e</mi><mi>l</mi><mi>d</mi><mo>&#160;</mo><mi>s</mi><mi>t</mi><mi>r</mi><mi>e</mi><mi>n</mi><mi>g</mi><mi>t</mi><mi>h</mi><mo>&#160;</mo><mi>o</mi><mi>n</mi><mo>&#160;</mo><mi>E</mi><mi>a</mi><mi>r</mi><mi>t</mi><mi>h</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator g r a v i t a t i o n a l space f i e l d space s t r e n g t h space o n space M a r s over denominator g r a v i t a t i o n a l space f i e l d space s t r e n g t h space o n space E a r t h end fraction"
+       "alt": "(g r a v i t a t i o n a l f i e l d s t r e n g t h o n M a r s)/(g r a v i t a t i o n a l f i e l d s t r e n g t h o n E a r t h)"
       },
       {
        "latex": "R_{E}=1.7R_{M}",
@@ -1185,12 +1185,12 @@
       {
        "latex": "F=\\frac{GMm}{d^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><mi>M</mi><mi>m</mi></mrow><msup><mi>d</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator G M m over denominator d squared end fraction"
+       "alt": "F = (G M m)/(d ^2)"
       },
       {
        "latex": "\\frac{F_{M}}{F_{E}}=\\frac{GM_{M}M_{S}}{d_{M}^{2}}\\times\\frac{d_{E}^{2}}{GM_{E}M_{S}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>F</mi><mi>M</mi></msub><msub><mi>F</mi><mi>E</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>M</mi></msub><msub><mi>M</mi><mi>S</mi></msub></mrow><msup><msub><mi>d</mi><mi>M</mi></msub><mn>2</mn></msup></mfrac><mo>&#215;</mo><mfrac><msup><msub><mi>d</mi><mi>E</mi></msub><mn>2</mn></msup><mrow><mi>G</mi><msub><mi>M</mi><mi>E</mi></msub><msub><mi>M</mi><mi>S</mi></msub></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F subscript M over F subscript E space equals space fraction numerator G M subscript M M subscript S over denominator d subscript M squared end fraction cross times fraction numerator d subscript E squared over denominator G M subscript E M subscript S end fraction"
+       "alt": "F _ M / F _ E = (G M _ M M _ S)/(d _ M ^2) x (d _ E ^2)/(G M _ E M _ S)"
       },
       {
        "latex": null,
@@ -1209,12 +1209,12 @@
       {
        "latex": "g=\\frac{GM}{R^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals space fraction numerator G M over denominator R squared end fraction"
+       "alt": "g = (G M)/(R ^2)"
       },
       {
        "latex": "\\frac{g_{M}}{g_{E}}=\\frac{GM_{M}}{R_{M}^{2}}\\times\\frac{R_{E}^{2}}{GM_{E}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><msub><mi>g</mi><mi>M</mi></msub><msub><mi>g</mi><mi>E</mi></msub></mfrac><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mi>M</mi></msub></mrow><msup><msub><mi>R</mi><mi>M</mi></msub><mn>2</mn></msup></mfrac><mo>&#215;</mo><mfrac><msup><msub><mi>R</mi><mi>E</mi></msub><mn>2</mn></msup><mrow><mi>G</mi><msub><mi>M</mi><mi>E</mi></msub></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g subscript M over g subscript E equals space fraction numerator G M subscript M over denominator R subscript M squared end fraction cross times fraction numerator R subscript E squared over denominator G M subscript E end fraction"
+       "alt": "g _ M / g _ E = (G M _ M)/(R _ M ^2) x (R _ E ^2)/(G M _ E)"
       },
       {
        "latex": null,
@@ -1233,7 +1233,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "g subscript M over g subscript E space equals space fraction numerator 1.64 cross times 10 to the power of 21 over denominator 3.66 cross times 10 to the power of 22 end fraction open parentheses 1.5 close parentheses squared open parentheses 1.7 close parentheses squared",
+       "alt": "g _ M / g _ E = (1.64 x 10 ^ 21)/(3.66 x 10 ^ 22) ( 1.5 ) ^2 ( 1.7 ) ^2",
        "render": "`g _ M / g _ E = (1.64 x 10 ^ 21)/(3.66 x 10 ^ 22) ( 1.5 ) ^2 ( 1.7 ) ^2`",
        "via": "alt-transpile"
       },
@@ -1330,7 +1330,7 @@
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = ( G M)/(r ^2)"
       }
      ]
     },
@@ -1375,12 +1375,12 @@
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = ( G M)/(r ^2)"
       },
       {
        "latex": "F_{G}=\\frac{GMm}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>G</mi></msub><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>G</mi><mi>M</mi><mi>m</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F subscript G space equals fraction numerator space G M m over denominator r squared end fraction"
+       "alt": "F _ G = ( G M m)/(r ^2)"
       },
       {
        "latex": "F_{G}",
@@ -1395,7 +1395,7 @@
       {
        "latex": "g=\\frac{F_{g}}{m}\\rightarrowF_{g}=mg",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><msub><mi>F</mi><mi>g</mi></msub></mrow><mi>m</mi></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mo>&#160;</mo><msub><mi>F</mi><mi>g</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>m</mi><mi>g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space F subscript g over denominator m end fraction space space rightwards arrow space space F subscript g space equals space m g"
+       "alt": "g = ( F _ g)/(m) -> F _ g = m g"
       },
       {
        "latex": "F_{g}=F_{G}",
@@ -1405,19 +1405,19 @@
       {
        "latex": "mg=\\frac{GMm}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mi>g</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>G</mi><mi>M</mi><mi>m</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "m g space equals fraction numerator space G M m over denominator r squared end fraction"
+       "alt": "m g = ( G M m)/(r ^2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "up diagonal strike m g space equals fraction numerator space G M up diagonal strike m over denominator r squared end fraction",
+       "alt": "/ m g = ( G M / m)/(r ^2)",
        "render": "$\\cancel{m} g = \\frac{ G M \\cancel{m} }{r^{2}}$",
        "via": "alt-transpile"
       },
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = ( G M)/(r ^2)"
       }
      ]
     },
@@ -1443,19 +1443,19 @@
       {
        "latex": "g=\\frac{GM}{r^{2}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mi>G</mi><mi>M</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals fraction numerator space G M over denominator r squared end fraction"
+       "alt": "g = ( G M)/(r ^2)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "g space equals space fraction numerator 6.67 cross times 10 to the power of negative 11 end exponent space cross times space 5.68 cross times 10 to the power of 26 over denominator open parentheses 5.82 cross times 10 to the power of 7 close parentheses squared end fraction",
+       "alt": "g = (6.67 x 10 ^ - 11 x 5.68 x 10 ^ 26)/(( 5.82 x 10 ^ 7 ) ^2)",
        "render": "$g = \\frac{6.67 \\times 10^{- 11} \\times 5.68 \\times 10^{26} }{( 5.82 \\times 10^{7} )^{2}}$",
        "via": "alt-transpile"
       },
       {
        "latex": "g=11.2N\\mathrm{kg}^{-1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11</mn><mo>.</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi><mo>&#160;</mo><msup><mi>kg</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "g space equals space 11.2 space straight N space kg to the power of negative 1 end exponent"
+       "alt": "g = 11.2 N kg ^ - 1"
       }
      ]
     }

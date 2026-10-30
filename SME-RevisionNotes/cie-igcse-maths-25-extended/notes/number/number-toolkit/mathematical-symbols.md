@@ -66,10 +66,10 @@ guided_study: true
   
     - inverse of squaring
     - e.g.  $\sqrt{81}=9$ because  $9^{2}=81$
-  - `cube root of blank`  **Cube root**
+  - $\sqrt[3]{ }$  **Cube root**
   
     - inverse of cubing
-    - e.g.  `cube root of 64 equals 4` because  $4^{3}=64$
+    - e.g.  $\sqrt[3]{64} = 4$ because  $4^{3}=64$
   - $\pm$  **Plus Minus**
   
     - used to allow for both a positive and negative answer (two distinct answers)

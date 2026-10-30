@@ -26,7 +26,7 @@ How many quarks make up a proton ?
 
 **Q3** [1 mark]
 
-In a nucleus of Tritium, `H presubscript 1 presuperscript 3` , how many ‘down’ quarks are there?
+In a nucleus of Tritium, $H_{1}^{3}$ , how many ‘down’ quarks are there?
 
 ### Q4 — hard — 1 marks
 
@@ -119,7 +119,7 @@ What is the quark combination of the π<sup>+</sup> particle?
 
 **Q15** [1 mark]
 
-What are the numbers of hadrons, baryons and mesons in an atom of  `L presubscript 3 presuperscript 7 i`?
+What are the numbers of hadrons, baryons and mesons in an atom of  $L_{3}^{7} i$?
 
 |   | **Hadrons** | **Baryons** | **Mesons** |
 |---|---|---|---|
@@ -240,7 +240,7 @@ Show that an anti-proton has a relative charge of −*e*, where *e*  is the elem
 
 **Q3** [1 mark]
 
-State the number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27`.
+State the number of 'up' quarks in the nucleus of $Al_{13}^{27}$.
 
 **Q3** [2 marks]
 

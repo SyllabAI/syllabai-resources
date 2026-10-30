@@ -79,7 +79,7 @@ $h^{12}$
 ### 20((c)) — 2 marks
 > *Apply the power to each factor in the bracket*
 
-`2 to the power of 4 space cross times space open parentheses g cubed close parentheses to the power of 4 space cross times space open parentheses k to the power of 5 close parentheses to the power of 4`
+$2^{4} \\times ( g^{3} )^{4} \\times ( k^{5} )^{4}$
 
 > *Simplify, using the laws of indices to raise indices to a new power, multiply their powers*
 

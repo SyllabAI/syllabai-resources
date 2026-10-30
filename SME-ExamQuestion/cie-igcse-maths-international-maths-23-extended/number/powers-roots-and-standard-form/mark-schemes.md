@@ -29,7 +29,7 @@ $\frac{0.1^{3}-0.5^{2}}{0.3^{4}}=-30.740740...$
 
 > *Round the final answer to *$2$* significant figures*
 
-* *`negative 30. left enclose 7 40740...`
+* *`- 30. left 7 40740...`
 
 $-31$
 

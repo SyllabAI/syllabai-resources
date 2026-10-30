@@ -281,7 +281,7 @@ $21 \text{e}^{x} - 4 = 5 \text{e}^{2x}$
 
 becomes
 
-`5 open parentheses _ _ _ _ _ _ close parentheses squared minus _ _ _ _ _ _ open parentheses text e end text to the power of x close parentheses plus _ _ _ _ _ _ equals 0`
+`5 ( _ _ _ _ _ _ ) ^2 - _ _ _ _ _ _ ( text e end text ^ x ) + _ _ _ _ _ _ = 0`
 
 
 **BACK**

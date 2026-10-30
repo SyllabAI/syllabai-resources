@@ -77,7 +77,7 @@ guided_study: true
 > *Count in 0.01's, identify the first number below (345.25) and the next number above (345.26)*
 > *Circle the digit to the right of the second decimal place (4)*
 > 
-> `345.25 circle enclose 4`
+> $345.25 \textcircled{4}$
 > 
 > > *As this digit is less than 5 we will round the number down*
 > 
@@ -87,7 +87,7 @@ guided_study: true
 > *Count in 0.01's, identify the first number below (0.29) and the next number above (0.30)*
 > *Circle the digit to the right of the second decimal place (5)*
 > 
-> `0.29 circle enclose 5 space 631`
+> $0.29 \textcircled{5} 631$
 > 
 > > *As this digit is greater than or equal to 5 we will round the number up*
 > 
@@ -99,7 +99,7 @@ guided_study: true
 > *Count in 0.01's, identify the first number below (4.99) and the next number above (5.00)*
 > *Circle the digit to the right of the second decimal place (8)*
 > 
-> `4.99 circle enclose 8`
+> $4.99 \textcircled{8}$
 > 
 > > *As this digit is greater than or equal to 5 we will round the number up*
 > 

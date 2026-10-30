@@ -10,7 +10,7 @@
 
 **Q1** [2 marks]
 
-The population mean of the random variable  `X space tilde space N left parenthesis mu comma 5 squared right parenthesis` is being tested using a null hypothesis  $H_{0}:μ=p$ against the alternative hypothesis  $H_{1}:μ\neqp.$ A random sample of 16 observations is taken from the population and the sample mean is calculated as $\overline{x}=s.$ There is insufficient evidence to reject the null hypothesis using a 5% level of significance.
+The population mean of the random variable  $X \sim N ( \mu , 5^{2} )$ is being tested using a null hypothesis  $H_{0}:μ=p$ against the alternative hypothesis  $H_{1}:μ\neqp.$ A random sample of 16 observations is taken from the population and the sample mean is calculated as $\overline{x}=s.$ There is insufficient evidence to reject the null hypothesis using a 5% level of significance.
 
 When $p=30$ find the range of values for $s$.
 
@@ -106,7 +106,7 @@ Margot repeats the same test but with a different random sample of 20 snails. Wr
 
 There is a large cohort of students studying the statistics course at the University of Bernoulli.  The students’ marks on an exam can be modelled by a normal distribution with mean $μ$ and standard deviation 12.  The lecturer, Jacob, is trying to demonstrate the power of hypothesis testing.  He knows the true value of $μ$ to be 59 but he keeps this a secret from the students.
 
-Jacob asks the students to use the mean of a random sample of 25 exam results to test the null hypothesis `H subscript 0 ∶ mu equals 55` against the alternate hypothesis `H subscript 1 ∶ mu greater than 55`.  Jacob calculates the probability of the test producing a Type II error to be 0.325.
+Jacob asks the students to use the mean of a random sample of 25 exam results to test the null hypothesis $H_{0} ∶ \mu = 55$ against the alternate hypothesis $H_{1} ∶ \mu > 55$.  Jacob calculates the probability of the test producing a Type II error to be 0.325.
 
 (i) The students calculate the probability that their test will result in a Type I error, find this probability.
 
@@ -120,13 +120,13 @@ Dr Yassin is a newly qualified dentist.  The length of time it takes him to perf
 
 433        381       498       363      419
 
-Dr Holden uses a 5% level of significance to test `straight H subscript 0 ∶ mu equals 420`  against `straight H subscript 1 ∶ mu not equal to 420`.
+Dr Holden uses a 5% level of significance to test $\mathrm{H}_{0} ∶ \mu = 420$  against $\mathrm{H}_{1} ∶ \mu \ne 420$.
 
 Given that the result of the hypothesis test is that there is insufficient evidence to reject at the 5% level of significance, find an inequality for the length of time, $t$ , for the sixth procedure.
 
 **Q7** [4 marks]
 
-If Dr Holden had instead used the alternative hypothesis `straight H subscript 1 ∶ mu less than 420` then the result would have been different.
+If Dr Holden had instead used the alternative hypothesis $\mathrm{H}_{1} ∶ \mu < 420$ then the result would have been different.
 
 Using this information, find an improved inequality for $t$.
 
@@ -134,7 +134,7 @@ Using this information, find an improved inequality for $t$.
 
 **Q8** [1 mark]
 
-The Starlighter is a new brand of flashlight.  It is known that the brightness, $B$ lumens, of the light emitted from a Starlighter follows a normal distribution with a standard deviation of 15 lumens.  Annie, a salesperson, claims that the mean brightness of a Starlighter is greater than 110 lumens.  To test her claim, the null hypothesis `straight H subscript 0 ∶ mu equals 110` is used with a 5% level of significance.
+The Starlighter is a new brand of flashlight.  It is known that the brightness, $B$ lumens, of the light emitted from a Starlighter follows a normal distribution with a standard deviation of 15 lumens.  Annie, a salesperson, claims that the mean brightness of a Starlighter is greater than 110 lumens.  To test her claim, the null hypothesis $\mathrm{H}_{0} ∶ \mu = 110$ is used with a 5% level of significance.
 
 Write down a suitable alternative hypothesis to test Annie’s claim.
 
@@ -158,9 +158,9 @@ Given that the mean of sample is $\overline{b}=114.5$lumens,
 
 **Q9** [2 marks]
 
-A random sample of 25 independent observations of the random variable `X space tilde N left parenthesis 50 comma 10 ² right parenthesis` is taken. The sample mean, $̅X$ is calculated.
+A random sample of 25 independent observations of the random variable $X \sim N ( 50 , 10 ² )$ is taken. The sample mean, $̅X$ is calculated.
 
-Explain why `̅ X space tilde N left parenthesis 50 comma 2 squared right parenthesis`.
+Explain why `̅ X tilde N ( 50 , 2 ^2 )`.
 
 **Q9** [4 marks]
 
@@ -220,7 +220,7 @@ By standardising and using the table of critical values for the normal distribut
 
 **Q12** [1 mark]
 
-A hypothesis test is used to investigate the population mean of the random variable `X tilde N left parenthesis mu comma 10 squared right parenthesis`. A random sample of size 16 is used to test the null hypothesis `H subscript 0 ∶ mu equals 25`.
+A hypothesis test is used to investigate the population mean of the random variable $X \sim N ( \mu , 10^{2} )$. A random sample of size 16 is used to test the null hypothesis $H_{0} ∶ \mu = 25$.
 
 Write down the probability of a Type I error if a 10% significance level is used.
 
@@ -228,19 +228,19 @@ Write down the probability of a Type I error if a 10% significance level is used
 
 Find the probability of a Type I error given that the rejection region is
 
-(i) `open parentheses ̅ X less than 21 close parentheses`
+(i) `( ̅ X less than 21 )`
 
-(ii) `open parentheses ̅ X less than 21 close parentheses space o r space open parentheses ̅ X greater than 29 close parentheses`
+(ii) `( ̅ X less than 21 ) o r ( ̅ X greater than 29 )`
 
 **Q12** [2 marks]
 
-Given that the rejection region is `open parentheses ̅ X greater than 29 close parentheses`, find the probability of a Type II error if the true mean is 27.
+Given that the rejection region is `( ̅ X greater than 29 )`, find the probability of a Type II error if the true mean is 27.
 
 ### Q13 — easy — 5 marks
 
 **Q13** [4 marks]
 
-A random sample of size 100 is taken from a population given by `X tilde N left parenthesis mu comma 9 right parenthesis`.
+A random sample of size 100 is taken from a population given by $X \sim N ( \mu , 9 )$.
 
 A two-tailed test is used to investigate the null hypothesis $H_{0}:μ=50$ at the 10% level of significance.
 
@@ -266,7 +266,7 @@ The wingspan of a small white butterfly, $W$ cm, follows a normal distribution w
 
 Kenzie uses a random sample of 6 small white butterflies and finds that the mean wingspan is 2.65 cm.  Kenzie starts off the hypothesis test as follows:
 
-`I f space H subscript 0 i s space t r u e space t h e n space W tilde space N left parenthesis 4.1 comma space 0.8 squared right parenthesis`
+$I f H_{0} i s t r u e t h e n W \sim N ( 4.1 , 0.8^{2} )$
 
 $P(W<2.65)=P(Z<-1.8125)\,=1-0.9651\,=0.0349<0.05$
 
@@ -284,7 +284,7 @@ Identify and explain the two mistakes that Kenzie has made in his hypothesis tes
 
 **Q15** [5 marks]
 
-The population mean of the random variable `X space tilde space N left parenthesis mu comma 6 squared right parenthesis`  is being tested using a null hypothesis $H_{0}:μ=15$ against the alternative hypothesis $H_{1}:μ<15.$ A random sample of 10 observations is taken from the population and the sample mean is calculated as $\overline{x}$.
+The population mean of the random variable $X \sim N ( \mu , 6^{2} )$  is being tested using a null hypothesis $H_{0}:μ=15$ against the alternative hypothesis $H_{1}:μ<15.$ A random sample of 10 observations is taken from the population and the sample mean is calculated as $\overline{x}$.
 
 (i) Write down the distribution of the sample mean,$\overline{X}$.
 
@@ -294,7 +294,7 @@ The population mean of the random variable `X space tilde space N left parenthes
 
 **Q15** [4 marks]
 
-The population mean of the random variable `Y tilde N left parenthesis mu comma 10 right parenthesis` is being tested using a null hypothesis $H_{0}:μ=0$ against an alternative hypothesis.  A random sample of 36 observations is taken from the population and the critical region for the test is $\overline{Y}>0.7778$.
+The population mean of the random variable $Y \sim N ( \mu , 10 )$ is being tested using a null hypothesis $H_{0}:μ=0$ against an alternative hypothesis.  A random sample of 36 observations is taken from the population and the critical region for the test is $\overline{Y}>0.7778$.
 
 (I) Write down the appropriate alternative hypothesis for the test.
 
@@ -350,7 +350,7 @@ Comment on the validity of the conclusion of the test based on this information.
 
 **Q18** [1 mark]
 
-The time, $X$ seconds, that it takes Pierre to run a 400 m race can be modelled using `X space tilde space N left parenthesis 87 comma 16 right parenthesis`. Pierre changes his diet and claims that the time it takes him to run 400 m has decreased.
+The time, $X$ seconds, that it takes Pierre to run a 400 m race can be modelled using $X \sim N ( 87 , 16 )$. Pierre changes his diet and claims that the time it takes him to run 400 m has decreased.
 
 Write suitable null and alternative hypotheses to test Pierre’s claim.
 
@@ -436,15 +436,15 @@ Would the outcome of the test have been different if a 10% level of significance
 
 **Q22** [3 marks]
 
-The standard normal distribution is denoted by `Z space tilde space N left parenthesis 0 comma 1 squared right parenthesis` .
+The standard normal distribution is denoted by $Z \sim N ( 0 , 1^{2} )$ .
 
-(i) Write down a formula that links the standard normal distribution,$Z$ , to the distribution  `X with bar on top tilde space N left parenthesis mu comma sigma squared over n right parenthesis`.
+(i) Write down a formula that links the standard normal distribution,$Z$ , to the distribution  $\bar{X} \sim N ( \mu , \frac{\sigma ^{2}}{n} )$.
 
 (ii) Find the value of $d$  such that  $P(Z<d)=0.05$ , correct to 3 decimal places.
 
 **Q22** [4 marks]
 
-The population mean of the random variable `X tilde space N left parenthesis mu comma 10 squared right parenthesis` is being tested using a null hypothesis  $H_{0}:μ=30$ against the alternative hypothesis  $H_{1}:μ<30$.  A random sample of  observations is taken from the population and the sample mean is calculated as 28.
+The population mean of the random variable $X \sim N ( \mu , 10^{2} )$ is being tested using a null hypothesis  $H_{0}:μ=30$ against the alternative hypothesis  $H_{1}:μ<30$.  A random sample of  observations is taken from the population and the sample mean is calculated as 28.
 
 Using a 5% level of significance, there is not enough evidence to reject the null hypothesis.
 
@@ -520,17 +520,17 @@ Given that the actual value for the population mean is 15.3 g, find the probabil
 
 **Q26** [3 marks]
 
-A random sample of 25 observations from the random variable `X tilde space N left parenthesis mu comma 60 squared right parenthesis` is used to test the null hypothesis `straight H subscript 0 ∶ mu equals 400` against different alternative hypotheses.
+A random sample of 25 observations from the random variable $X \sim N ( \mu , 60^{2} )$ is used to test the null hypothesis $\mathrm{H}_{0} ∶ \mu = 400$ against different alternative hypotheses.
 
-Given that `straight H subscript 1 ∶ mu greater than 400`, find the rejection region for $̅X$ for the test using a 5% level of significance.
-
-**Q26** [3 marks]
-
-Given that `H subscript 1 ∶ mu less than 400` and that the rejection region is $̅X<382$, find the probability of a Type I error.
+Given that $\mathrm{H}_{1} ∶ \mu > 400$, find the rejection region for $̅X$ for the test using a 5% level of significance.
 
 **Q26** [3 marks]
 
-Given that `H subscript 1 ∶ mu not equal to 400`, determine the conclusion to the test using a 5% significance level if the sample mean is $̅x=379$.
+Given that $H_{1} ∶ \mu < 400$ and that the rejection region is $̅X<382$, find the probability of a Type I error.
+
+**Q26** [3 marks]
+
+Given that $H_{1} ∶ \mu \ne 400$, determine the conclusion to the test using a 5% significance level if the sample mean is $̅x=379$.
 
 ### Q27 — hard — 8 marks
 
@@ -540,7 +540,7 @@ Pizza Prince is a fast-food restaurant which is known for their Crown pizza.  Th
 
 A restaurant inspector believes that the mean weight of the Crown pizza is less than 350 g.  She visits the restaurant over the period of a week, and samples and weighs five randomly selected Crown pizzas.  She uses the data to carry out a hypothesis test at the 5% level of significance.
 
-She tests `straight H subscript 0 ∶ mu equals 350`  against  `straight H subscript 1 ∶ mu less than 350.`
+She tests $\mathrm{H}_{0} ∶ \mu = 350$  against  $\mathrm{H}_{1} ∶ \mu < 350.$
 
 When the inspector writes up her report, she can only find the values for four of the weights, these are shown below:
 
@@ -558,11 +558,11 @@ Using this information, write down an inequality for $w$.
 
 **Q28** [1 mark]
 
-Given that `Z tilde space N left parenthesis 0 comma space 1 squared right parenthesis`, find the value of $d$  such that  $P(Z>d)=0.1$, correct to 3 decimal places.
+Given that $Z \sim N ( 0 , 1^{2} )$, find the value of $d$  such that  $P(Z>d)=0.1$, correct to 3 decimal places.
 
 **Q28** [4 marks]
 
-The population mean of the random variable `X space tilde N left parenthesis mu comma 5 squared right parenthesis`   is being tested using a null hypothesis $H_{0}:μ=20$ against the alternative hypothesis  $H_{1}:μ>20.$  A random sample of  observations is taken from the population and the sample mean is calculated as 22.
+The population mean of the random variable $X \sim N ( \mu , 5^{2} )$   is being tested using a null hypothesis $H_{0}:μ=20$ against the alternative hypothesis  $H_{1}:μ>20.$  A random sample of  observations is taken from the population and the sample mean is calculated as 22.
 
 Using a 10% level of significance, the null hypothesis is rejected. Find the smallest possible value of the sample size $n$.
 

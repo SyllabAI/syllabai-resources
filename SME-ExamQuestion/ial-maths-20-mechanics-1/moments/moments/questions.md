@@ -10,13 +10,13 @@ The *moment* of a force about a given point is found by multiplying the magnitud
 
 ![pUAdUPdi_1](assets/017-puadupdi-1.png)
 
-`Clockwise space moment space of space bold italic F space about space P equals vertical line bold italic F vertical line cross times d`
+$\text{Clockwise} \text{moment} \boldsymbol{F} \text{about} P = \vert \boldsymbol{F} \vert \\times d$
 
 If the distance known is not the perpendicular distance, then trigonometry may be used to find the perpendicular distance and calculate the moment:
 
 ![qVPI_MP7_2](assets/018-qvpi-mp7-2.png)
 
-`Clockwise space moment space of space bold italic F space about space P equals vertical line bold italic F vertical line cross times d space sin space theta`
+$\text{Clockwise} \text{moment} \boldsymbol{F} \text{about} P = \vert \boldsymbol{F} \vert \\times d \sin \theta$
 
 Note that the direction, clockwise or anticlockwise, must be specified when talking about a moment.  The standard units for moments are newton metres (N m).
 

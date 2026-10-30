@@ -51,9 +51,9 @@
 
 Substitute each x value into the equation of the line
 
-`2 minus open parentheses 1 half cross times negative 3 close parentheses equals 3.5`
+$2 - ( 1 \frac{1}{2} \\times - 3 ) = 3.5$
 
-`2 minus open parentheses 1 half cross times negative 2 close parentheses equals 3`
+$2 - ( 1 \frac{1}{2} \\times - 2 ) = 3$
 
 Plot coordinates on the graph to form a straight line
 
@@ -99,7 +99,7 @@ $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\frac{-3-0}{0-2}=\frac{3}{2}$
 
 **[B1]**
 
-> *The y-intercept is given in the question *`open parentheses 0 comma space minus 3 close parentheses`
+> *The y-intercept is given in the question *$( 0 , - 3 )$
 
 $y=\frac{3}{2}x-3$
 

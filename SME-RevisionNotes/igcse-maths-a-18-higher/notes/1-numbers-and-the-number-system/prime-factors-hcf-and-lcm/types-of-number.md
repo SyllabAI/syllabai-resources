@@ -38,7 +38,7 @@ You will come across vocabulary such as
   - For example, 0, 3, $\frac{1}{3}$, $\frac{3}{7}$, $-\frac{7}{3}$ are rational numbers
 - **Irrational numbers** are real numbers that are **not **rational numbers
 
-  - For example, π, $\sqrt{2}$, `cube root of 5` are irrational numbers
+  - For example, π, $\sqrt{2}$, $\sqrt[3]{5}$ are irrational numbers
 
 ### What are multiples?
 
@@ -202,9 +202,9 @@ You will come across vocabulary such as
 
   - For example, 3 is the cube root of 27
   - It is the inverse of cubing
-  - Cube roots are indicated by the symbol `cube root of space space end root`
+  - Cube roots are indicated by the symbol $\sqrt[3]{ }$
   
-    - e.g.  The cube root of 64 would be written as `cube root of 64`
+    - e.g.  The cube root of 64 would be written as $\sqrt[3]{64}$
   - You should remember the values of the following cube roots:
   
     - `∛(1 comma ∛(8 comma ∛(27 comma ∛(64 comma ∛(125 comma ∛(1000`

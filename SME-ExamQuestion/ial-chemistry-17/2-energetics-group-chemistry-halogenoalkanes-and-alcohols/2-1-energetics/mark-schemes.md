@@ -221,7 +221,7 @@ ii) The enthalpy change of combustion, Δ<sub>c</sub>*H*, of 2‐methylpropan‐
   - *If the temperature increases in temperature, it is an exothermic reaction and Δ**H **should be negative*
 
 ### 21((b)) — 5 marks
-i) No ∆<sub>f</sub>`H to the power of ⦵`value has been given for oxygen because:
+i) No ∆<sub>f</sub>`H ^ ⦵`value has been given for oxygen because:
 
 - Oxygen is an element
 **AND**

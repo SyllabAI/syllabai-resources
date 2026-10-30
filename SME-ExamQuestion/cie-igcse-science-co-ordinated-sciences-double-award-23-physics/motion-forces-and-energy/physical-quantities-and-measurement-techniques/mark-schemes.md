@@ -49,7 +49,7 @@ $\frac{1462.5}{60}$ = 24.375 minutes
 
   - $\mathrm{average} \mathrm{time}=\frac{\mathrm{total} \mathrm{time}}{\mathrm{number} \mathrm{of} \mathrm{laps}}$
   - $\mathrm{average} \mathrm{time}=\frac{79.21}{5}$
-  - `average space time space equals space 15.8 space straight s space open parentheses 3 space straight s. straight f. close parentheses`
+  - $\text{average} \text{time} = 15.8 \mathrm{s} ( 3 \mathrm{s} . \mathrm{f} . )$
 - The second stopwatch reading is only given as a “red herring” in this question.
 
 **A **is incorrect as the correct values have not been used to calculate the average speed.

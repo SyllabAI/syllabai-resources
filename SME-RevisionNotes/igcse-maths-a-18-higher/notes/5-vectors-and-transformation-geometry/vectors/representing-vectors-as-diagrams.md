@@ -29,7 +29,7 @@ guided_study: false
 - Vectors are written in** bold** when typed to **show** that they are a vector and not a scalar
 
   - When writing a vector in an exam you should **underline** the letter to show it is a vector
-  - $a$ when **typed** and `bottom enclose a` when **handwritten**
+  - $a$ when **typed** and `bottom a` when **handwritten**
   
     - You will **not lose marks** if you forget to underline vectors
 

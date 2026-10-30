@@ -44,7 +44,7 @@ show that $\mathrm{sin}AFB=\frac{\sqrt{2}+\sqrt{6}}{4}$
 ### 9((b)) — 5 marks — structured — from paper June 2024 · Paper 2
 Without using a calculator,
 
-show that `B F space equals space 12 open parentheses 3 square root of 2 space minus space square root of 6 close parentheses`cm
+show that $B F = 12 ( 3 \sqrt{2} - \sqrt{6} )$cm
 
 ### 9((c)) — 3 marks — structured — from paper June 2024 · Paper 2
 The angle between the plane $AEB$and the plane $ABCD$is $65^{\circ}$

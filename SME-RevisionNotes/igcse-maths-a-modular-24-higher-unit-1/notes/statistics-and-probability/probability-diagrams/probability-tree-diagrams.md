@@ -65,10 +65,10 @@ guided_study: true
 - Conditional probability questions are sometimes introduced by the expression **'given that...'**
 
   - e.g. 'Find the probability that the team win their next game given that they lost their previous game'
-- The** notation** `straight P (A vertical line B)` is often used for conditional probabilities
+- The** notation** $\mathrm{P} (A \vert B)$ is often used for conditional probabilities
 
   - That is read as 'the probability of *A* given *B'*
-  - e.g. `straight P (win vertical line lose)` is the probability a team wins, given that they lost the previous game
+  - e.g. $\mathrm{P} (win \vert lose)$ is the probability a team wins, given that they lost the previous game
 
 > **Exam Hint**
 > When multiplying along branches with fractions, **don't cancel fractions** in your working.

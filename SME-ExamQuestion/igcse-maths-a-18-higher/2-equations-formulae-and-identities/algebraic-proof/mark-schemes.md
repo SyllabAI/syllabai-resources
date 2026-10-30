@@ -315,7 +315,7 @@ $n=1k=1^{2}+9\times1+1=11prime\,n=2k=2^{2}+9\times2+1=23prime\,n=3k=3^{2}+9\time
 ## Q11 — medium — 1 marks · exam-questions
 
 ### 12((b)) — 1 marks
-**Final answer:** **True **`box enclose bold ✓`**    **
+**Final answer:** **True **`box ✓`**    **
 
 **   **$\frac{20 \cancel{n} }{2 \cancel{n} } = 10$**.  As 20****n**** is divisble by 2****n**** for all values of ****n****, 2****n**** is always a factor of 20****n**** ****[1]**
 

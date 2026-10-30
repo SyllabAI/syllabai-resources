@@ -590,7 +590,7 @@ On the grid, draw the graph of $y=\frac{3}{10}x^{3}-2x$ for $-3\leqx\leq3$.
 On the grid, draw the graph of y = 3/10 x^3 - 2x for -3 <= x <= 3.
 On the grid, draw a suitable straight line to solve the equation 3/10 x^3 - 2x = 1/2 (1 - x) for -3 <= x <= 3.
 
-On the grid, draw a suitable straight line to solve the equation `space 3 over 10 x cubed minus 2 x equals 1 half open parentheses 1 minus x close parentheses` for $-3\leqx\leq3.$
+On the grid, draw a suitable straight line to solve the equation $\frac{3}{10} x^{3} - 2 x = 1 \frac{1}{2} ( 1 - x )$ for $-3\leqx\leq3.$
 
 $x=$....................... or $x=$....................... or $x=$......................
 
@@ -618,7 +618,7 @@ $n=$..................................................
 
 **Q14** [4 marks]
 
-The diagram shows the graph of `y equals f open parentheses x close parentheses` where `f open parentheses x close parentheses equals x squared minus 2 over x minus 2 comma space x not equal to 0`.
+The diagram shows the graph of $y = f ( x )$ where $f ( x ) = x^{2} - \frac{2}{x} - 2 , x \ne 0$.
 
 ![cie-igcse-2019-may-jun-p4-tz3-q5a](assets/049-cie-igcse-2019-may-jun-p4-tz3-q5a.png)
 

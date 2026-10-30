@@ -251,7 +251,7 @@ Which of these describes what happens to the strontium-90 nucleus when it emits 
 ### 9((a)) — 6 marks — command: multiple — structured — from paper 2016 June · 1PR
 Tritium is an isotope of hydrogen that decays by emitting beta particles. It is used in some luminous signs.
 
-The symbol for tritium is `H presubscript 1 presuperscript 3`.
+The symbol for tritium is $H_{1}^{3}$.
 
 (i) Determine the number of protons and the number of neutrons in a single atom of tritium.
 
@@ -344,7 +344,7 @@ The table describes the nuclei of four atoms.
 
 | uranium-234 | uranium-235 | plutonium-238 | americium-238 |
 |---|---|---|---|
-| `U _ 92 ^ 234` | `U _ 92 ^ 235` | `Pu presubscript 94 presuperscript 238` | `Am presubscript 95 presuperscript 238` |
+| `U _ 92 ^ 234` | `U _ 92 ^ 235` | $Pu_{94}^{238}$ | $Am_{95}^{238}$ |
 
 (i) Which two nuclei have the same number of protons?
 
@@ -443,7 +443,7 @@ Which nucleus needs the largest number of electrons to form a neutral atom?
 ### 1((a)) — 1 mark — multiple_choice — from paper 2013 January · 1P
 Tellurium-120 is an isotope of tellurium.
 
-It has the symbol `Te presubscript 52 presuperscript 120`
+It has the symbol $Te_{52}^{120}$
 
 The number of protons, neutrons and electrons in a neutral tellurium-120 atom is
 - **A.** p = 120n = 52e = 120
@@ -476,15 +476,15 @@ ii) Why are some isotopes described as stable?
 **[1]**
 
 ### 14((b)) — 4 marks — command: multiple — structured — from paper 2013 June · 1PR
-(i) Use the grid in part (a) to calculate the number of neutrons in a `Po presubscript blank presuperscript 210` nucleus.
+(i) Use the grid in part (a) to calculate the number of neutrons in a $\text{Po} pre_{ } pre^{210}$ nucleus.
 
 **[1]**
 
-(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of `Pb presubscript blank presuperscript 210` decays to form `Bi presubscript blank presuperscript 210`.
+(ii) Describe what happens to the number of protons and the number of neutrons when a nucleus of $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
 
 **[2]**
 
-(iii)  State the type of decay that occurs when `Pb presubscript blank presuperscript 210` decays to form `Bi presubscript blank presuperscript 210`.
+(iii)  State the type of decay that occurs when $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$.
 
 **[1]**
 

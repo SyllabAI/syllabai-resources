@@ -92,7 +92,7 @@ Find the first term and common difference of $A$
 ### 2((b)) — 4 marks — structured — from paper November 2024 · Paper 1
 The $n$th term of $A$  is $u_{n}$
 
-Find the value of `sum from r equals 15 to 60 of u subscript r`
+Find the value of $\sum_{r = 15}^{60} u_{r}$
 
 ### 2((c)) — 4 marks — structured — from paper November 2024 · Paper 1
 The sum to $n$ terms of $A$ is $S_{n}$

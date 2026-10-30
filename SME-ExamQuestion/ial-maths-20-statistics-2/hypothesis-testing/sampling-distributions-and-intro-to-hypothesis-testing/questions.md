@@ -61,7 +61,7 @@ For the following null and alternative hypotheses, state whether the test is a o
 ## Q5 — easy — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-In a quiz, students have to choose the correct answer to each question from three possible options.  There is only one correct answer for each question.  Ethan got $k$ answers correct, and he claims that he merely guessed the answer to every question but his teacher believes he used some knowledge in the quiz.  She uses the null hypothesis `H subscript 0 ∶ p equals 1 third` to test her belief at the 10% significance level.
+In a quiz, students have to choose the correct answer to each question from three possible options.  There is only one correct answer for each question.  Ethan got $k$ answers correct, and he claims that he merely guessed the answer to every question but his teacher believes he used some knowledge in the quiz.  She uses the null hypothesis $H_{0} ∶ p = 1 \frac{1}{3}$ to test her belief at the 10% significance level.
 
 (i) If the teacher wishes to test to see if Ethan was trying to get the answers correct, rather than guessing them at random, write down the alternative hypothesis she should use and explain the conditions under which the null hypothesis would be rejected.
 
@@ -166,7 +166,7 @@ The random variable $X$ is defined as
 
 Write down the sampling distribution of the statistic
 
-`Y equals sum from 1 to n of X`
+$Y = \sum_{1}^{n} X$
 
 ## Q10 — medium — 6 marks · exam-questions
 
@@ -358,7 +358,7 @@ Given that the game was played 100 times on the day in question,
 ### 1() — 3 marks — structured
 A group of high school statistics students are investigating the probability of winning a game called *Chi Squares.*  Their teacher claims that they have more than a 60% chance of winning the game.  To test the claim, they play 30 games of *Chi Squares* and win 80% of them.  They perform a hypothesis test using a 5% level of significance.  Below are shown the solutions of two students, Gertrude and Nate:
 
-| Gertrude’s solution<br><br>`H subscript 0 ∶ p equals 0.6<br>H subscript 1 ∶ p greater or equal than 0.6` | Nate’s solution<br><br>`H subscript 0 ∶ p equals 0.6<br>H subscript 1 ∶ p greater than 24 over 30 equals 0.8` |
+| Gertrude’s solution<br><br>`H _ 0 ∶ p = 0.6 | H _ 1 ∶ p >= 0.6` | Nate’s solution<br><br>$H_{0} ∶ p = 0.6<br>H_{1} ∶ p > \frac{24}{30} = 0.8$ |
 |---|---|
 | Let  be the number of games won,<br><br>$X \sim B ( 30 , 0.6 )$<br><br>$P(X=24)=0.0115$<br><br>$0.0115<0.05$so do not reject $H_{0}$ | Let  be the number of games won,<br><br>$X \sim B ( 30 , 0.6 )$<br><br>$P(X>24)=0.0057$<br><br>$0.0057<0.05$ so reject $H_{0}$ |
 
@@ -452,12 +452,12 @@ The table below shows the probabilities for different values that $X \sim B ( 40
 | 37 | $0.020520$ |
 | 36 | $0.047452$ |
 
-A test of the null hypothesis $H_{0}:p=0.8$ against the alternative hypothesis `H subscript 1 ∶ p greater than 0.8` is carried out for the random variable $X \sim B ( 40 , p ).$
+A test of the null hypothesis $H_{0}:p=0.8$ against the alternative hypothesis $H_{1} ∶ p > 0.8$ is carried out for the random variable $X \sim B ( 40 , p ).$
 
 Using a 5% level of significance, find the values of $X$ which would lead to the rejection of the null hypothesis.
 
 ### 3() — 3 marks — structured
-A second test is carried out with the same null hypothesis against the alternative hypothesis `H subscript 1 ∶ p not equal to 0.8.`
+A second test is carried out with the same null hypothesis against the alternative hypothesis $H_{1} ∶ p \ne 0.8.$
 
 Given that $x=38$ is a critical value, find the minimum level of significance for the test.
 
@@ -519,26 +519,26 @@ Given that $X \sim B ( 40 , 0.3 )$ then:
 
 $P(X\leq5)=0.008618\,P(X=6)=k\,P(X=7)=0.031522$
 
-When a sample of size 40 is used to test `H subscript 0 ∶ p equals 0.3` against `H subscript 1 ∶ p less than 0.3`, it is known that $x=6$ is the critical value using a 5% level of significance.  Use the probabilities above to find upper and lower bounds for the value of $k$.
+When a sample of size 40 is used to test $H_{0} ∶ p = 0.3$ against $H_{1} ∶ p < 0.3$, it is known that $x=6$ is the critical value using a 5% level of significance.  Use the probabilities above to find upper and lower bounds for the value of $k$.
 
 ### 2() — 2 marks — structured
-When a sample of size 40 is used to test  `H subscript 0 ∶ p equals 0.3` against `H subscript 1 ∶ p not equal to 0.3`, it is known that $x=6$ is one of the two critical values using a 5% level of significance.  Use the probabilities above to find an improvement for one of the bounds for the value of $k$.
+When a sample of size 40 is used to test  $H_{0} ∶ p = 0.3$ against $H_{1} ∶ p \ne 0.3$, it is known that $x=6$ is one of the two critical values using a 5% level of significance.  Use the probabilities above to find an improvement for one of the bounds for the value of $k$.
 
 ## Q30 — very_hard — 9 marks · exam-questions
 
 ### 1() — 2 marks — structured
 If $X \sim B ( n , p )$ then $P(X=0)=(1-p)^{n}$ and $P(X=n)=p^{n}$.
 
-A sample of size 30 is used to test the null hypothesis `H subscript 0 ∶ p equals 0.9` against the alternative hypothesis `H subscript 1 ∶ p greater than 0.9` using a $k$% level of significance.
+A sample of size 30 is used to test the null hypothesis $H_{0} ∶ p = 0.9$ against the alternative hypothesis $H_{1} ∶ p > 0.9$ using a $k$% level of significance.
 
 Given that there is at least one value that leads to the rejection of the null hypothesis, find the range of values for $k$.
 
 ### 2() — 3 marks — structured
-A sample of size 100 is used to test the null hypothesis `H subscript 0 ∶ p equals q` against the alternative hypothesis `H subscript 1 ∶ p less than q` using a 5% level of significance.
+A sample of size 100 is used to test the null hypothesis $H_{0} ∶ p = q$ against the alternative hypothesis $H_{1} ∶ p < q$ using a 5% level of significance.
 
 Given that there are no critical values for this test, find the range of values for $q.$
 
 ### 3() — 4 marks — structured
-A sample of size $m$ is used to test the null hypothesis `H subscript 0 ∶ p equals 0.2` against the alternative hypothesis `H subscript 1 ∶ p not equal to 0.2` using a 1% level of significance.
+A sample of size $m$ is used to test the null hypothesis $H_{0} ∶ p = 0.2$ against the alternative hypothesis $H_{1} ∶ p \ne 0.2$ using a 1% level of significance.
 
 Given that there is exactly one critical region for this test, find the range of values for $m$.

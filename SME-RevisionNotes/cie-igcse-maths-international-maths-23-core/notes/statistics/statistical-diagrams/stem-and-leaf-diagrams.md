@@ -104,7 +104,7 @@ Key: 1|8 means 18 years old
 > | * * | * ****Blood pressure reduction*** |
 > |---|---|
 > | ***1*** | *2   6   7   8   9* |
-> | ***2*** | `circle enclose 1` *3   4* |
+> | ***2*** | $\textcircled{1}$ *3   4* |
 > | ***3*** | *1   4* |
 > | ***4*** | *0* |
 > 

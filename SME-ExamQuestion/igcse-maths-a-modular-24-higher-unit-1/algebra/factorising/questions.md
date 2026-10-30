@@ -66,7 +66,7 @@ Factorise          $x^{2}+7x$
 Factorise        $a^{2}-b^{2}$
 
 ### 15((b)) — 3 marks — command: simplify — structured — from paper 2018	June · 1MA1/1H
-Hence, or otherwise, simplify fully `open parentheses x squared plus 4 close parentheses squared space minus space open parentheses x squared space minus space 2 close parentheses squared`
+Hence, or otherwise, simplify fully $( x^{2} + 4 )^{2} - ( x^{2} - 2 )^{2}$
 
 ## Q11 — medium — 2 marks · exam-questions
 
@@ -182,7 +182,7 @@ Tenzin is given this question.
 
 Here is his answer.
 
-| `2 x squared plus 6 x equals x open parentheses 2 x plus 6 close parentheses` |
+| $2 x^{2} + 6 x = x ( 2 x + 6 )$ |
 |---|
 
 Explain why Tenzin’s answer is not correct.
@@ -208,7 +208,7 @@ Factorise  $3x^{2}+11x--20$
 Simplify fully      $\frac{n^{7}\timesn^{3}}{n^{6}}$
 
 ### 12((b)) — 2 marks — command: simplify — structured — from paper 2016	November  · 1MA0/2H
-Expand and simplify      `x open parentheses x space minus space 2 close parentheses space plus space 2 x open parentheses x space plus space 3 close parentheses`
+Expand and simplify      $x ( x - 2 ) + 2 x ( x + 3 )$
 
 ### 12((c)) — 1 mark — command: factorise — structured — from paper 2016	November  · 1MA0/2H
 Factorise   $5y-15$

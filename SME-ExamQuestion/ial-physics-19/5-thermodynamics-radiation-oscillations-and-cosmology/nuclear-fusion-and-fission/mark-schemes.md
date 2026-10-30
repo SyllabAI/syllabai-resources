@@ -432,7 +432,7 @@ Calculate the number of atoms in the sample after 7 days, $N$:
   - The resulting nucleus is more stable, so energy has been **released**
 - This means statement **D **is correct
 
-**A **is incorrect as `Fe presubscript blank presuperscript 56` is the **most stable** isotope, not the most unstable, so is not readily able to undergo fission
+**A **is incorrect as $\text{Fe} pre_{ } pre^{56}$ is the **most stable** isotope, not the most unstable, so is not readily able to undergo fission
 
 **B **is incorrect as the graph shows the **binding energy per nucleon** and not the overall binding energy released from the fission and fusion processes
 
@@ -475,4 +475,4 @@ Calculate the number of atoms in the sample after 7 days, $N$:
 
 **B** can be deduced because high-mass nuclei lie to the right of the iron peak; splitting them (fission) also moves up the curve toward iron, which releases energy.
 
-**D** can be deduced because `Fe presuperscript 56` sits at the peak of the curve, so it has the greatest binding energy per nucleon, making it the most stable nuclide.
+**D** can be deduced because $\text{Fe} pre^{56}$ sits at the peak of the curve, so it has the greatest binding energy per nucleon, making it the most stable nuclide.

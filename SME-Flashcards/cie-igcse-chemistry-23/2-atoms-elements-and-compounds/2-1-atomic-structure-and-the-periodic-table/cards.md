@@ -349,12 +349,12 @@ The sub-atomic particle that is not found inside the nucleus is the **electron**
 
 **FRONT**
 
-Calculate the number of protons, neutrons and electrons in an atom of `Al presubscript 13 presuperscript 27`.
+Calculate the number of protons, neutrons and electrons in an atom of $Al_{13}^{27}$.
 
 
 **BACK**
 
-The number of protons, neutrons and electrons in an atom of `Al presubscript 13 presuperscript 27` are:
+The number of protons, neutrons and electrons in an atom of $Al_{13}^{27}$ are:
 
 - Protons = 13
 - Neutrons = 27 - 13 = 14

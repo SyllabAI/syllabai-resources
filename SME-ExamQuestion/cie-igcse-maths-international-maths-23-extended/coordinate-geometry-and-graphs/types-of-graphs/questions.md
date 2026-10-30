@@ -64,7 +64,7 @@ Match the graphs to the equations.
 
 **Q5** [4 marks]
 
-The curve $C$ has equation `y equals open parentheses x minus 3 close parentheses squared minus 5`
+The curve $C$ has equation $y = ( x - 3 )^{2} - 5$
 
 Using the axes below, sketch the curve $C$. 
 On your sketch show clearly
@@ -144,7 +144,7 @@ $y=\frac{1}{x}$
 
 **Q10** [4 marks]
 
-On the diagram, sketch the graph of `y equals open parentheses x plus 1 close parentheses open parentheses x minus 3 close parentheses squared`.
+On the diagram, sketch the graph of $y = ( x + 1 ) ( x - 3 )^{2}$.
 
 Label the values where the graph meets the $x$-axis and the $y$-axis.
 
@@ -157,4 +157,4 @@ Label the values where the graph meets the $x$-axis and the $y$-axis.
 
 **Q11** [1 mark]
 
-Write down the equation of the line of symmetry of the graph with equation `y equals open parentheses x minus 2 close parentheses open parentheses x plus 2 close parentheses`.
+Write down the equation of the line of symmetry of the graph with equation $y = ( x - 2 ) ( x + 2 )$.

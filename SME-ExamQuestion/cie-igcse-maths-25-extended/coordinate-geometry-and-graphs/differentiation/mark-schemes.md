@@ -334,7 +334,7 @@ $\begin{gathered} 3 a + b & = 7 \textcircled{1} \\ 2 a + b & = 3 \textcircled{2}
 
 **[1]**
 
-> *Substitute this into *`circle enclose 1`* or *`circle enclose 2`*. Choosing *`circle enclose 1`*;*
+> *Substitute this into *$\textcircled{1}$* or *$\textcircled{2}$*. Choosing *$\textcircled{1}$*;*
 
 $\begin{gathered} 3 ( 4 ) + b & = 7 \\ 12 + b & = 7 \\ b = - 5 \end{gathered}$
 

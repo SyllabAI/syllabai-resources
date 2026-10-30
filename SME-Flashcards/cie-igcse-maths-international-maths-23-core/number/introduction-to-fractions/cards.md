@@ -117,14 +117,14 @@ Spec links: `spcpt_CMmCdHzzw6vSwwk6`
 
 Complete the working, which finds $\frac{9}{10}$ of $15$ by first writing the fraction as a **decimal**:
 
-`\frac{9}{10} \text{ of } 15 = \_\_\_\_\_\_ \times 15 = \_\_\_\_\_\_`
+`\frac{9}{10}  15 = \_\_\_\_\_\_ \times 15 = \_\_\_\_\_\_`
 
 
 **BACK**
 
 The completed working is:
 
-$\frac{9}{10} \text{of} 15 = 0 . 9 \times 15 = 13 . 5$
+$\frac{9}{10}  15 = 0 . 9 \times 15 = 13 . 5$
 
 Writing the fraction as a decimal turns the whole thing into a single multiplication.
 
@@ -147,7 +147,7 @@ How do you turn "$\frac{2}{3}$ of $60$" into a multiplication of two fractions?
 
 The word **of** means multiply, and a whole number can be written as a fraction over $1$:
 
-$\frac{2}{3} \text{of} 60 = \frac{2}{3} \times \frac{60}{1} = \frac{120}{3} = 40$
+$\frac{2}{3}  60 = \frac{2}{3} \times \frac{60}{1} = \frac{120}{3} = 40$
 
 
 Spec links: `spcpt_CMmCdHzzw6vSwwk6`

@@ -59,11 +59,11 @@ $0.047$ **[1]**
 ### Q4
 > *Round each value to 1 significant figure*
 
-`104.3 almost equal to 100 space open parentheses 1 sf close parentheses`
+$104.3 \approx 100 ( 1 \text{sf} )$
 
-`8.72 almost equal to 9 space open parentheses 1 sf close parentheses`
+$8.72 \approx 9 ( 1 \text{sf} )$
 
-`7.389 almost equal to 7 space open parentheses 1 sf close parentheses`
+$7.389 \approx 7 ( 1 \text{sf} )$
 
 > *Substitute these values in place of the original and evaluate*
 
@@ -78,13 +78,13 @@ $=\frac{10}{2}=5$
 ### Q5
 > *Round each value to the first significant figure*
 
-`1.6 equals 2 space open parentheses 1 s f close parentheses`
+$1.6 = 2 ( 1 s f )$
 
-`9.6 equals 10 space open parentheses 1 s f close parentheses`
+$9.6 = 10 ( 1 s f )$
 
-`5.9 equals 6 space open parentheses 1 s f close parentheses`
+$5.9 = 6 ( 1 s f )$
 
-`4.3 equals 4 space open parentheses 1 s f close parentheses`
+$4.3 = 4 ( 1 s f )$
 
 > *Write the original calculation with each value rounded to 1 significant figure*
 

@@ -471,7 +471,7 @@ $C pre^{4}_{1} \times C pre^{5}_{2}$
 
 > *To work out the number of different teams that have three women:*
 
-`scriptbase C subscript 3 end scriptbase presuperscript 5`
+`C _ 3 ^ 5`
 
 > *Add together to work out the number of teams that have two women and one man **or **three women.*
 
@@ -678,11 +678,11 @@ $12+12+18=42$
 > $42$* *$[ 1 ]$
 
 ### Q13
-> *Substitute *$n=n$* and *$r=4$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`
+> *Substitute *$n=n$* and *$r=4$* into the formula *`C _ r ^ n`
 
 $\frac{n factorial}{( n - 4 ) \text{factorial} 4 factorial}$
 
-> *Substitute *$n = ( n + 1 )$* and *$r=5$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`
+> *Substitute *$n = ( n + 1 )$* and *$r=5$* into the formula *`C _ r ^ n`
 
 $\frac{( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \text{factorial} 5 factorial}$
 
@@ -785,7 +785,7 @@ $2160$** [1]**
 ### Q16
 i) *There are 13 people to choose from for five spots on the committee, therefore *
 
-`C presuperscript 13 subscript 5`
+$C pre^{13}_{5}$
 
 $1287$ **[1]**
 
@@ -807,7 +807,7 @@ $C pre^{10}_{2} = 45$
 
 $45$ **[1]**
 
-`C presuperscript 3 subscript 3`** is not required as **$C pre^{3}_{3} = 1$** **
+$C pre^{3}_{3}$** is not required as **$C pre^{3}_{3} = 1$** **
 
 ### Q17
 i) *There are *$8$* digits to choose from, and we need a *$5$* digit number.  *

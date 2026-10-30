@@ -407,7 +407,7 @@ Three bags contain $x$, $x+5$ and $x+10$ marbles each.
 
 If there are 75 marbles in total, then an equation can be formed by **adding** all the quantities up and setting them **equal to** 75.
 
-This gives `x plus open parentheses x plus 5 close parentheses plus open parentheses x plus 10 close parentheses equals 75`.
+This gives $x + ( x + 5 ) + ( x + 10 ) = 75$.
 
 Examiners want to see this full equation (before simplifying or solving).
 
@@ -426,12 +426,12 @@ If the total perimeter of the **regular pentagon** below is $100$ cm, show how t
 
 The pentagon being **regular** means the side lengths are all **equal**.
 
-If the total perimeter of a regular pentagon with side length `open parentheses x plus 2 close parentheses` is $100$ cm, then:
+If the total perimeter of a regular pentagon with side length $( x + 2 )$ is $100$ cm, then:
 
-1. Find the total perimeter in terms of $x$ by multiplying `open parentheses x plus 2 close parentheses` by 5
+1. Find the total perimeter in terms of $x$ by multiplying $( x + 2 )$ by 5
 2. Set this equal to 100
 
-This forms the equation `5 open parentheses x plus 2 close parentheses equals 100`.
+This forms the equation $5 ( x + 2 ) = 100$.
 
 
 
@@ -441,16 +441,16 @@ This forms the equation `5 open parentheses x plus 2 close parentheses equals 10
 
 **True or False?**
 
-If the interior angles of an $n$-sided polygon are given algebraically in terms of $x$, you can calculate the size of $x$ as the **total sum of the angles** will always be `180 open parentheses n minus 2 close parentheses`.
+If the interior angles of an $n$-sided polygon are given algebraically in terms of $x$, you can calculate the size of $x$ as the **total sum of the angles** will always be $180 ( n - 2 )$.
 
 
 **BACK**
 
 **True.**
 
-If the interior angles of an $n$-sided polygon are given algebraically in terms of $x$, you can calculate the size of $x$ as the total sum of the angles will always be `180 open parentheses n minus 2 close parentheses`.
+If the interior angles of an $n$-sided polygon are given algebraically in terms of $x$, you can calculate the size of $x$ as the total sum of the angles will always be $180 ( n - 2 )$.
 
-E.g. for any hexagon (regular or irregular), the sum of its interior angles will always be `180 open parentheses 6 minus 2 close parentheses equals 720 degree`. 
+E.g. for any hexagon (regular or irregular), the sum of its interior angles will always be $180 ( 6 - 2 ) = 720^{\circ}$. 
 So if the interior angles are in terms of $x$, add them together and set equal to $720^{\circ}$.
 
 

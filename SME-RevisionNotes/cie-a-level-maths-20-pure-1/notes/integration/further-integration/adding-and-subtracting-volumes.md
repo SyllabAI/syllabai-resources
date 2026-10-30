@@ -34,7 +34,7 @@ guided_study: true
     - Where a, b, c & d are all positive and a < b and c < d
   - The volume of revolution of this rectangle would be
   
-    - `V=π integral_ a superscript b d² d x−π integral_ a superscript b c² d x`
+    - $V=π integral_ a^{b} d² d x−π integral_ a^{b} c² d x$
 
 #### How do I know whether to add or subtract volumes of revolution?
 
@@ -99,7 +99,7 @@ guided_study: true
 > 
 >   - This is possible when the limits for each function are often the same in subtraction questions
 > 
-> `V=π integral_ a superscript b y_ 1² d x−π integral_ a superscript b y_ 2² d x=π integral_ a superscript b stretchy left parenthesis y_ 1²−y_ 2² stretchy right parenthesis d x`
+> $V=π integral_ a^{b} y_ 1² d x−π integral_ a^{b} y_ 2² d x=π integral_ a^{b} ( y_ 1²−y_ 2² ) d x$
 > 
 > - This doesn’t really apply to addition questions as if the limits are the same, you would be adding some of the same volume twice
 > - If in any doubt avoid this approach as **accuracy** is far more important

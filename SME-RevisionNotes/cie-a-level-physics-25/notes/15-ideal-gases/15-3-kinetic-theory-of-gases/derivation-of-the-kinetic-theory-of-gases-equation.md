@@ -102,7 +102,7 @@ $c^{2}=c_{x}^{2}+c_{y}^{2}+c_{z}^{2}$
 
 `< c _ x ^ 2 > = < c _ y ^ 2 > = < c _ z ^ 2 >`
 
-- Therefore, the mean square speed in the $x$-direction `open angle brackets c subscript x superscript 2 close angle brackets` accounts for a third of the total mean square speed `< c ^2 >`
+- Therefore, the mean square speed in the $x$-direction `< c _ x ^ 2 >` accounts for a third of the total mean square speed `< c ^2 >`
 
 $( \text{angle} \text{brackets} c_{x}^{2} ) \text{angle} \text{brackets} = 1 \frac{1}{3} ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 
@@ -169,10 +169,10 @@ $p = 1 \frac{1}{3} \\rho ( \text{angle} \text{brackets} c^{2} ) \text{angle} \te
 - Where
 
   - $c$ = velocity of **one **gas molecule (m s<sup>-1</sup>)
-  - `open angle brackets c close angle brackets` = **average **velocity of the molecules in a gas (m s<sup>-1</sup>)
+  - `< c >` = **average **velocity of the molecules in a gas (m s<sup>-1</sup>)
   - `< c ^2 >` = **average **of the **square **of the** **speeds of the molecules in a gas (m<sup>2</sup> s<sup>-2</sup>)
 - Since there are a large number of molecules in a gas, travelling in all directions in 3D space, this results in a large range of values of $c$
-- The average velocity `open angle brackets c close angle brackets` of all the molecules in a gas gives a net zero value overall
+- The average velocity `< c >` of all the molecules in a gas gives a net zero value overall
 
   - This is because velocity is a vector, so some molecules will have a negative direction and others a positive direction
 - Squaring the velocities gives positive values only
@@ -183,4 +183,4 @@ $c_{r. m. s} = \sqrt{( \text{angle} \text{brackets} c^{2} ) \text{angle} bracket
 
 - $c_{r.m.s}$ is known as the** root-mean-square** speed and has units of **m s**<sup>**-1**</sup>
 
-  - The root-mean-square speed $c_{r.m.s}$ is **not** the same as the mean speed `open angle brackets c close angle brackets`
+  - The root-mean-square speed $c_{r.m.s}$ is **not** the same as the mean speed `< c >`

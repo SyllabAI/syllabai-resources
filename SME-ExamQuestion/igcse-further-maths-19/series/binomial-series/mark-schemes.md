@@ -790,7 +790,7 @@ Work this out, keeping full accuracy until the end
 
 `\int_{0}^{0 . 2} \text{g} \left(x\right) \textrm{ } \text{d} x \approx 0 . 5324053 \ldots`
 
-`integral subscript 0 superscript 0.2 end superscript text g end text open parentheses x close parentheses text end text text d end text x almost equal to 0.5324 text end text open parentheses 4 space straight s. straight f. close parentheses`
+`integral _ 0 ^ 0.2 text g end text ( x ) text end text text d end text x ~= 0.5324 text end text ( 4 s. f. )`
 
 **[A1]**
 

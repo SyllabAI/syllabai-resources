@@ -23,7 +23,7 @@ Prove that the sum of two odd numbers is even.
 ## Q4 — easy — 1 marks · exam-questions
 
 ### 1() — 1 mark — structured
-Explain why `open parentheses x minus 3 close parentheses squared space greater or equal than 0` for all real values of $x$.
+Explain why `( x - 3 ) ^2 >= 0` for all real values of $x$.
 
 ## Q5 — easy — 2 marks · exam-questions
 
@@ -33,7 +33,7 @@ Prove that the product of two even numbers is a multiple of 4.
 ## Q6 — easy — 2 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Use a counter-example to show that `square root of open parentheses x squared close parentheses end root space not equal to x`.
+Use a counter-example to show that $\sqrt{( x^{2} )} \ne x$.
 
 ## Q7 — easy — 2 marks · exam-questions
 

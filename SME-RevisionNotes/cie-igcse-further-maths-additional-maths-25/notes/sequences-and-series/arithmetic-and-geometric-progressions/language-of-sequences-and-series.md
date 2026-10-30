@@ -44,11 +44,7 @@ guided_study: false
 > 
 > > *Substitute **n **in for each term that you want to find. *
 > 
-> `u subscript 1 space equals space 5 space minus space 2 open parentheses 1 close parentheses space equals space 3
-> u subscript 2 space equals space 5 space minus space 2 open parentheses 2 close parentheses space equals space 1
-> u subscript 3 space equals space 5 space minus space 2 open parentheses 3 close parentheses space equals space minus 1
-> u subscript 4 space equals space 5 space minus space 2 open parentheses 4 close parentheses space equals space minus 3
-> u subscript 5 space equals space 5 space minus space 2 open parentheses 5 close parentheses space equals space minus 5`
+> $u_{1} = 5 - 2 ( 1 ) = 3 u_{2} = 5 - 2 ( 2 ) = 1 u_{3} = 5 - 2 ( 3 ) = - 1 u_{4} = 5 - 2 ( 4 ) = - 3 u_{5} = 5 - 2 ( 5 ) = - 5$
 > 
 > **Final answer:** **The first five terms are 3, 1, -1, -3, -5**
 > 
@@ -76,7 +72,7 @@ guided_study: false
 
 - Be careful, the limits don’t have to start with 1
 
-  - For example `sum from k=0 to 4 of left parenthesis 2k+1 right parenthesis`  or  `sum from k=7 to 14 of left parenthesis 2k−13 right parenthesis`
+  - For example $\sum_{k=0}^{4} ( 2k+1 )$  or  $\sum_{k=7}^{14} ( 2k−13 )$
   - *r* and *k* are commonly used variables within sigma notation
 
 > **Exam Hint**

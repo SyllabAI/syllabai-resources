@@ -162,7 +162,7 @@ Option **B** is incorrect because:
 
   - $f_{s}=440$ Hz
   - `v equals 340` m s<sup>−1</sup>
-  - `v subscript s equals 30` m s<sup>−1</sup>
+  - $v_{s} = 30$ m s<sup>−1</sup>
 
 - Therefore
 

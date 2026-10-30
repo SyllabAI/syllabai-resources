@@ -738,7 +738,7 @@ The diagram shows an equilateral triangle *ABC* with sides of length 10 cm.
 
 Work out the area of the shaded region.
 
-Give your answer in the form `open parentheses straight a square root of 3 minus straight b over straight c straight pi close parentheses space cm squared` where $a,b$ and $c$ are integers.
+Give your answer in the form $( \mathrm{a} \sqrt{3} - \frac{\mathrm{b}}{\mathrm{c}} \mathrm{\pi } ) cm^{2}$ where $a,b$ and $c$ are integers.
 
 ......................................... cm<sup>2</sup>
 

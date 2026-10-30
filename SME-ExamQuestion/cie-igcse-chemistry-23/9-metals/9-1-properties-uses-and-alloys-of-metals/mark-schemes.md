@@ -615,13 +615,13 @@ i) The completed table should look as follows:
 
 | particle | protons | electrons | neutrons |
 |---|---|---|---|
-| `Sr presubscript blank presuperscript 88` | 38 | 38 | 50 |
+| $\text{Sr} pre_{ } pre^{88}$ | 38 | 38 | 50 |
 | $\text{Sr} pre_{ } pre^{90}$ | 38 | 38 | 52 |
 | $\text{Zn} pre_{ } pre^{65^{2} +}$ | 30 | 28 | 35 |
 
 - Each correct row; **[1 mark]**
 
-ii) `Sr presubscript blank presuperscript 90` and $\text{Sr} pre_{ } pre^{88}$ are isotopes because:
+ii) $\text{Sr} pre_{ } pre^{90}$ and $\text{Sr} pre_{ } pre^{88}$ are isotopes because:
 
 - (They have the) same number of protons and different number of neutrons; **[1 mark]**
 

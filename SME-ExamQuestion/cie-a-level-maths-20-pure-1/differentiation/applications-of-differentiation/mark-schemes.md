@@ -2177,7 +2177,7 @@ $( 3 x - 2 ) ( x + 1 ) = 0   \Rightarrow   x = \frac{2}{3}$* or *$x = - 1$
 
 The question asks for coordinates, so substitute each $x$-value back into the equation of the curve. Writing every term over 27 keeps the first one tidy
 
-`y equals 4 open parentheses 2 over 3 close parentheses minus open parentheses 2 over 3 close parentheses squared minus 2 open parentheses 2 over 3 close parentheses cubed equals 44 over 27`
+$y = 4 ( \frac{2}{3} ) - ( \frac{2}{3} )^{2} - 2 ( \frac{2}{3} )^{3} = \frac{44}{27}$
 
 $y = 4 ( - 1 ) - ( - 1 )^{2} - 2 ( - 1 )^{3} = - 4 - 1 + 2 = - 3$
 

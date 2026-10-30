@@ -31,15 +31,11 @@
 
 Calculate the cost before the rate change
 
-`equals space 12 comma 000 space cross times space 4.5 space
-
-equals space straight L $ 54 comma 000`
+$= 12 , 000 \\times 4.5 = \mathrm{L} \$ 54 , 000$
 
 Calculate the cost now
 
-`equals space 12 comma 000 space cross times space 5.0 space
-
-equals space straight L $ 60 comma 000`**       [1]**
+$= 12 , 000 \\times 5.0 = \mathrm{L} \$ 60 , 000$**       [1]**
 
 Calculate the cost increase
 

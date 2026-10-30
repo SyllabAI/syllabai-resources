@@ -1767,7 +1767,7 @@ $V = \frac{72\sqrt{2}π}{5}$
 
 Evaluate this and round to 2 decimal places
 
-`V equals 63.98 space open parentheses 2 space straight d. straight p. close parentheses`
+$V = 63.98 ( 2 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 

@@ -6,7 +6,7 @@
 
 
 ### Q1
-The completed electron configuration of  `Fe presubscript 56 presuperscript 26` is:
+The completed electron configuration of  $Fe_{56}^{26}$ is:
 
 ![Electron box diagram showing the complete electron configuration of iron with argon core, 4s2 and 3d6 subshells filled](assets/002-electron-box-diagram-showing-the-complete-electr.png)
 

@@ -248,7 +248,7 @@ Give your answer correct to 1 decimal place.
 100 students were each asked how much money, `$ m`, they spent in one week. 
 The frequency table shows the results.
 
-| Amount `left parenthesis $ m right parenthesis` | $0<m\leq5$ | $5<m\leq10$ | $10<m\leq20$ | $20<m\leq30$ | $30<m\leq50$ |
+| Amount $( \$ m )$ | $0<m\leq5$ | $5<m\leq10$ | $10<m\leq20$ | $20<m\leq30$ | $30<m\leq50$ |
 |---|---|---|---|---|---|
 | Frequency | 16 | 38 | 30 | 9 | 7 |
 

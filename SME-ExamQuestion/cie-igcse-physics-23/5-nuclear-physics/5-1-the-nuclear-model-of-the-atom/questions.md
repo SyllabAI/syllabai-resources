@@ -27,7 +27,7 @@ What is the number of neutrons and the number of electrons in this atom?
 
 The nuclide notations for two atoms, P and Q, are shown.
 
-`scriptbase text P end text end scriptbase presubscript 6 presuperscript 12`‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ `scriptbase text Q end text end scriptbase presubscript 6 presuperscript 14`
+`text P end text _ 6 ^ 12`‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ `text Q end text _ 6 ^ 14`
 
 Which statement is correct?
 
@@ -326,7 +326,7 @@ Using the information in Fig. 11.1, write in the empty boxes to complete
 
 **Q2** [3 marks]
 
-Two of the isotopes of hydrogen are hydrogen-2 * ( *`H presubscript 1 presuperscript 2`) and hydrogen-3 ( `H presubscript 1 presuperscript 3`). ** **
+Two of the isotopes of hydrogen are hydrogen-2 * ( *$H_{1}^{2}$) and hydrogen-3 ( $H_{1}^{3}$). ** **
 
 (i) State **one** similarity in the composition of their nuclei.
 
@@ -351,7 +351,7 @@ In a nuclear fusion reactor, a nucleus of hydrogen-2 fuses with a nucleus of hyd
 
 (ii) Using nuclide notation, complete the equation for this reaction.
 
-`H presubscript 1 presuperscript 2`  +   `H presubscript 1 presuperscript 3`       ⟶
+$H_{1}^{2}$  +   $H_{1}^{3}$       ⟶
 
 [2]
 
@@ -362,7 +362,7 @@ In a nuclear fusion reactor, a nucleus of hydrogen-2 fuses with a nucleus of hyd
 
 **Q3** [1 mark]
 
-The nuclide notation `X presubscript Z presuperscript A` describes the nucleus of one type of atom.
+The nuclide notation $X pre_{Z} pre^{A}$ describes the nucleus of one type of atom.
 
 On Fig. 11.1 draw a line from each symbol to the correct description for that symbol.
 
@@ -476,7 +476,7 @@ State a suitable material that will absorb all types of naturally occurring nucl
 
 A nucleus of americium-241 has the nuclide notation shown.
 
-`space presubscript 95 presuperscript 241 A m`
+$space_{95}^{241} A m$
 
 (i) Determine the number of neutrons in a nucleus of americium-241.
 
@@ -600,7 +600,7 @@ Explain the meaning of the term isotope.
 
 When the nucleus of one particular isotope of uranium decays, it releases a β-particle. In the periodic table the entry for this isotope looks like this:
 
-`U presubscript 92 presuperscript 239`
+$U_{92}^{239}$
 
 State the proton number, the mass number and the neutron number of this isotope.
 
@@ -641,7 +641,7 @@ Fig. 12.1 shows a diagram to represent a helium atom, and an incomplete key.
 
 The table in Fig. 12.2 compares two isotopes of helium.
 
-|   | `He presubscript 2 presuperscript 3` | `He presubscript 2 presuperscript 5` |
+|   | $He_{2}^{3}$ | $He_{2}^{5}$ |
 |---|---|---|
 | number of protons |   |   |
 | number of neutrons |   |   |
@@ -825,10 +825,10 @@ State one similarity between this atom and a neutral atom of a different isotope
 
 Isotope X has 13 nucleons therefore, atomic number, A = 13
 Isotope X has 5 protons, therefore, proton number, Z = 5
-Hence, the nuclide notation is: X presubscript 5 presuperscript 13
-Recall the nuclide notation for a β-particle: beta presubscript −1 presuperscript 0
+`Hence, the nuclide notation is: X _ 5 ^ 13`
+`Recall the nuclide notation for a β-particle: beta _ −1 ^ 0`
 Consider the radioactive decay equation:
-X presubscript 5 presuperscript 13 → beta presubscript −1 presuperscript 0 + Y presubscript ? presuperscript ?
+`X _ 5 ^ 13 → beta _ −1 ^ 0 + Y _ ? ^ ?`
 Balance the atomic and proton numbers for both sides of the equation:
 Atomic numbers: 13 = 0 + ?
 Hence, atomic number for Y = 13
@@ -836,13 +836,13 @@ Proton numbers: 5 = −1 + ?
 5 + 1 = ?
 Hence, proton number = 6
 Obtain the nuclide notation for Y:
-Y presubscript 6 presuperscript 13
+$Y_{6}^{13}$
 
 The isotope of element X is radioactive. It decays to form an isotope of element Y by emitting a β-particle.
 
 (i) Using Fig. 10.1 deduce the nuclide notation for the isotope of Y produced by this decay.
 
-nuclide notation: `Y presubscript..... end presubscript presuperscript..... end presuperscript` [3]
+nuclide notation: `Y _..... ^.....` [3]
 
 (ii) β-particles ionise the air they pass through less strongly than the same number of α-particles.
 
@@ -878,7 +878,7 @@ The charge on electrons orbiting the nucleus is ................................
 
 A nucleus of radium-226 has the nuclide notation shown.
 
-`Ra presubscript 88 presuperscript 226`
+$Ra_{88}^{226}$
 
 (i) Determine the number of protons in a nucleus of radium-226.
 
@@ -1030,7 +1030,7 @@ Table 1.1 describes four nuclides. The nuclide notation for lead-206 is missing.
 
 | name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |
 |---|---|---|---|---|
-| nuclide notation | `Ra presubscript 88 presuperscript 222` | `Rn presubscript 86 presuperscript 222` | `Pb presubscript 82 presuperscript 216` |   |
+| nuclide notation | $Ra_{88}^{222}$ | $Rn_{86}^{222}$ | $Pb_{82}^{216}$ |   |
 
 **Table 1.1**
 

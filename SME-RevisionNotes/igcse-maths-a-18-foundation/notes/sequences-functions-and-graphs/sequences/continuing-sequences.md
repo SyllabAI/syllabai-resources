@@ -24,23 +24,19 @@ guided_study: true
   - The first differences are the values the sequence changes by each time
 - For example
 
-  - `4 comma space space space space space 7 comma space space space space space space 10 comma space space space space space 13
-  space space open parentheses plus 3 close parentheses space space open parentheses plus 3 close parentheses space space open parentheses plus 3 close parentheses`
+  - $4 , 7 , 10 , 13 ( + 3 ) ( + 3 ) ( + 3 )$
   
     - The first differences are all +3
     - The next term is 13 + 3 = 16
-  - `6 comma space space space space space 1 comma space space space space space minus 4 comma space space space space minus 9
-  space space open parentheses negative 5 close parentheses space space open parentheses negative 5 close parentheses space space open parentheses negative 5 close parentheses`
+  - $6 , 1 , - 4 , - 9 ( - 5 ) ( - 5 ) ( - 5 )$
   
     - The first differences are all -5
     - The next term is -9 - 5 = -14
-  - `2 comma space space space space space 8 comma space space space space space space 15 comma space space space space space 23
-  space space open parentheses plus 6 close parentheses space space open parentheses plus 7 close parentheses space space open parentheses plus 8 close parentheses`
+  - $2 , 8 , 15 , 23 ( + 6 ) ( + 7 ) ( + 8 )$
   
     - The first differences increase by 1
     - The next term is 23 + 9 = 32
-  - `1 comma space space space space space space 3 comma space space space space space space space 7 comma space space space space space space 15
-  space space open parentheses plus 2 close parentheses space space open parentheses plus 4 close parentheses space space open parentheses plus 8 close parentheses`
+  - $1 , 3 , 7 , 15 ( + 2 ) ( + 4 ) ( + 8 )$
   
     - The first differences double each time
     - The next term is 15 + 16 = 31
@@ -74,8 +70,7 @@ guided_study: true
 > 
 > > *Look at the first differences (the values the sequence changes by each time)*
 > 
-> `16 comma space space space space space space space 19 comma space space space space space space space space 25 comma space space space space space space space space 37 comma space space space space space space space space 61
-> space space space space space open parentheses plus 3 close parentheses space space space space open parentheses plus 6 close parentheses space space space space space open parentheses plus 12 close parentheses space space space open parentheses plus 24 close parentheses`
+> $16 , 19 , 25 , 37 , 61 ( + 3 ) ( + 6 ) ( + 12 ) ( + 24 )$
 > 
 > > *The differences are doubling each time, so the next difference will be  2 × 24 = 48*
 > 

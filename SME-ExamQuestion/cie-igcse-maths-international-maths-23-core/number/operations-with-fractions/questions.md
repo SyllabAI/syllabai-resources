@@ -64,7 +64,7 @@ You must show all your working and give your answer as a fraction in its simples
 
 **Q6** [4 marks]
 
-**Without using a calculator**, work out `open parentheses 2 1 third minus 7 over 8 close parentheses cross times 6 over 25`.
+**Without using a calculator**, work out $( 2 1 \frac{1}{3} - \frac{7}{8} ) \\times \frac{6}{25}$.
 
 You must show all your working and give your answer as a fraction in its simplest form.
 

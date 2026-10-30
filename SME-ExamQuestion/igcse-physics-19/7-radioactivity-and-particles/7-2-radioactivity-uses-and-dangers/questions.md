@@ -305,7 +305,7 @@ An unstable isotope of strontium has a half-life of 28.8 years.
 
 It is a beta emitter and can be represented by this symbol.
 
-`Sr presubscript 38 presuperscript 90`
+$Sr_{38}^{90}$
 
 (i) What is the mass number of this isotope?
 

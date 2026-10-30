@@ -287,13 +287,13 @@ $\begin{gathered} 8 + a + b & = - 4 \\ a + b & = - 12 \textcircled{2} \end{gathe
 
 $\begin{gathered} 2 a + b & = - 25 \textcircled{1} \\ a + b & = - 12 \textcircled{2} \end{gathered}$
 
-> *Subtract *`circle enclose 2`* from *`circle enclose 1`*, taking care with the negative numbers*
+> *Subtract *$\textcircled{2}$* from *$\textcircled{1}$*, taking care with the negative numbers*
 
 $\begin{gathered} \textcircled{1} - \textcircled{2} : a & = - 13 \end{gathered}$
 
 **any valid attempt to solve simultaneous equations ****[1]**
 
-> *And substitute *$a=-13$* into *`circle enclose 1`* or *`circle enclose 2`* (*`circle enclose 2`* is easier) to obtain *$a$
+> *And substitute *$a=-13$* into *$\textcircled{1}$* or *$\textcircled{2}$* (*$\textcircled{2}$* is easier) to obtain *$a$
 
 $\begin{gathered} a + b & = - 12 \\ - 13 + b & = - 12 \\ b = 1 \end{gathered}$
 

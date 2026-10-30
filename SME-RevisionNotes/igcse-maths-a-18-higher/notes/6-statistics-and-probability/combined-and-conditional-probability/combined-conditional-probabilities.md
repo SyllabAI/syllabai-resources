@@ -206,14 +206,11 @@ guided_study: true
 > - *Find two numbers that multiply to give 3×-6=-18 and add to give -17*
 > - *1 and -18*
 > 
-> `3 x squared plus x minus 18 x minus 6
-> x open parentheses 3 x plus 1 close parentheses minus 6 open parentheses 3 x plus 1 close parentheses
-> open parentheses 3 x plus 1 close parentheses open parentheses x minus 6 close parentheses`
+> $3 x^{2} + x - 18 x - 6 x ( 3 x + 1 ) - 6 ( 3 x + 1 ) ( 3 x + 1 ) ( x - 6 )$
 > 
 > > *Solve the quadratic equation*
 > 
-> `open parentheses 3 x plus 1 close parentheses open parentheses x minus 6 close parentheses equals 0
-> x equals negative 1 third comma space x equals 6`
+> $( 3 x + 1 ) ( x - 6 ) = 0 x = - 1 \frac{1}{3} , x = 6$
 > 
 > > $x$ *needs to be a positive whole number*
 > 

@@ -1191,7 +1191,7 @@ Determine the series resistances:
 
 Determine the total resistance of the circuit:
 
-- Resistors in parallel `1 over R subscript T equals 1 over R subscript 1 plus 1 over R subscript 2 plus 1 over R subscript 3 plus times times times`
+- Resistors in parallel $\frac{1}{R} _{T} = \frac{1}{R} _{1} + \frac{1}{R} _{2} + \frac{1}{R} _{3} + \times \times \times$
 - The resistance between** **A and E is in parallel to the resistance between B and F
 - Therefore $\frac{1}{R_{T}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}=\frac{1}{40000}+\frac{1}{15000}=\frac{11}{120000}$
 - Therefore *R*<sub>T</sub> = $\frac{120000}{11}$ = 10 909 Ω **[1 mark]**

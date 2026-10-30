@@ -70,7 +70,7 @@ $\mathrm{nuclear} \mathrm{charge}=\mathrm{number} \mathrm{of} \mathrm{protons} \
   - So the relative charge of carbon is 6 × (+1) = 6
 
 > **Worked Example**
-> What is the relative charge of the chromium nucleus `Cr presubscript 24 presuperscript 52 ?`
+> What is the relative charge of the chromium nucleus $Cr_{24}^{52} ?$
 > 
 > **Answer:**
 > 
@@ -83,7 +83,7 @@ $\mathrm{nuclear} \mathrm{charge}=\mathrm{number} \mathrm{of} \mathrm{protons} \
 > 
 > - This chromium nucleus has 24 protons
 > 
-> `Cr presubscript 24 presuperscript 52`
+> $Cr_{24}^{52}$
 > 
 > **Step 2: State the relative mass of 1 proton **
 > 

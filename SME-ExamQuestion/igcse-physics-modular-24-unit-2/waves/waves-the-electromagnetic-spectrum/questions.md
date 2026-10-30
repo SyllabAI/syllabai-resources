@@ -715,7 +715,7 @@ A scanner emits an ultrasound wave into the patient and records any reflections.
 
 A technician calculates the depth of the reflection using the equation
 
-`d e p t h space equals space 1 half cross times open parentheses s p e e d space o f space u l t r a s o u n d space i n space p a t i e n t space cross times t i m e space r e c o r d e d space b y space s c a n n e r close parentheses`Explain why the technician uses the value $\frac{1}{2}$ in the equation.
+$d e p t h = 1 \frac{1}{2} \\times ( s p e e d o f u l t r a s o u n d i n p a t i e n t \\times t i m e r e c o r d e d b y s c a n n e r )$Explain why the technician uses the value $\frac{1}{2}$ in the equation.
 
 **(2)**
 

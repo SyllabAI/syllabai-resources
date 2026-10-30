@@ -91,7 +91,7 @@ $\int_{1}^{2} \frac{x}{x + 4} d x = 1 + 4 I n \frac{5}{6}$
 ### 1() — 6 marks — structured
 Use integration by parts to find, in terms of e, the exact value of
 
-`integral subscript 0 superscript 1`(5x - 4)e<sup>3x</sup> dx
+$\int_{0}^{1}$(5x - 4)e<sup>3x</sup> dx
 
 ## Q11 — medium — 7 marks · exam-questions
 

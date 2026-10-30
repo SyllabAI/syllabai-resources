@@ -62,7 +62,7 @@ guided_study: false
 - $\in$ means "**is an element of**"
 
   - And $\notin$ means "is not an element of"
-  - E.g. `3 element of open curly brackets 1 comma 2 comma 3 close curly brackets` and `4 not an element of open curly brackets 1 comma 2 comma 3 close curly brackets`
+  - E.g. $3 \in \{ 1 , 2 , 3 \}$ and `4 not an in { 1 , 2 , 3 }`
 - $\emptyset$ is the **null set** (also known as the **empty set**)
 
   - This is the set which does not contain any elements

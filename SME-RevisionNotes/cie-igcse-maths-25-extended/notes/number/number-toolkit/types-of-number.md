@@ -204,9 +204,9 @@ Knowing what each of these terms mean is essential.
 
   - For example, 3 is the cube root of 27
   - It is the inverse of cubing
-  - Cube roots are indicated by the symbol `cube root of space space end root`
+  - Cube roots are indicated by the symbol $\sqrt[3]{ }$
   
-    - e.g.  The cube root of 64 would be written as `cube root of 64`
+    - e.g.  The cube root of 64 would be written as $\sqrt[3]{64}$
   - You should remember the values of the following cube roots:
   
     - `∛(1 comma ∛(8 comma ∛(27 comma ∛(64 comma ∛(125 comma ∛(1000`

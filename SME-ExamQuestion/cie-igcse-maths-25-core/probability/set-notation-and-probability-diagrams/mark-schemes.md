@@ -46,15 +46,15 @@ To find the probability of one of these options happening add the two probabilit
 ### Q2
 List the positive integers less than 16
 
-`xi equals open curly brackets 1 comma 2 comma 3 comma 4 comma 5 comma 6 comma 7 comma 8 comma 9 comma 10 comma 11 comma 12 comma 13 comma 14 comma 15 close curly brackets`
+$\xi = \{ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 \}$
 
 List the prime numbers (numbers that only have 2 factors one and themselves) and multiples of 3
 
 - Remember 1 isn't a prime as it's only factor is 1
 
-`X equals open curly brackets 2 comma 3 comma 5 comma 7 comma 11 comma 13 close curly brackets`
+$X = \{ 2 , 3 , 5 , 7 , 11 , 13 \}$
 
-`Y equals open curly brackets 3 comma 6 comma 9 comma 12 comma 15 close curly brackets`
+$Y = \{ 3 , 6 , 9 , 12 , 15 \}$
 
 Place your numbers in the Venn diagram
 
@@ -95,9 +95,7 @@ $Y'$ means the elements not in $Y$
 > **[exam-tip]**
 > In other words, the branches at a given split must add to 1 and therefore
 > 
-> `straight P open parentheses M close parentheses plus 2 over 3 equals 1
-> straight P open parentheses M close parentheses equals 1 minus 2 over 3
-> straight P open parentheses M close parentheses equals 1 third`
+> $\mathrm{P} ( M ) + \frac{2}{3} = 1 \mathrm{P} ( M ) = 1 - \frac{2}{3} \mathrm{P} ( M ) = 1 \frac{1}{3}$
 > 
 > You can also find this by counting the number of possibilities. The number can land on six numbers, two of which are greater than 4.
 > 
@@ -150,16 +148,15 @@ $\frac{8}{9}$
 ### Q4
 > *Identify the elements in both *$A$*and *$B$
 
-$A\capB$`equals open curly brackets 3 comma space 9 close curly brackets`
+$A\capB$$= \{ 3 , 9 \}$
 
 > *Identify the elements only in *$A$* and only in *$B$
 
-`A intersection B apostrophe equals open curly brackets 6 comma space 10 comma space 12 close curly brackets
-A apostrophe intersection B equals open curly brackets 2 comma space 4 comma space 5 comma space 11 comma space 13 comma space 14 close curly brackets`
+$A \cap B ' = \{ 6 , 10 , 12 \} A ' \cap B = \{ 2 , 4 , 5 , 11 , 13 , 14 \}$
 
 > *Identify any elements not in either *$A$* or *$B$
 
-`open parentheses A union B close parentheses apostrophe equals open curly brackets 1 comma space 7 comma space 8 close curly brackets`
+$( A \cup B ) ' = \{ 1 , 7 , 8 \}$
 
 ![Venn diagram with sets A and B. A contains 6, 10, 12; B contains 2, 4, 5, 11, 13, 14; intersection has 3, 9; universal set includes 1, 7, 8.](assets/008-venn-diagram-with-sets-a-and-b-a-contains-6-10-1.png)
 
@@ -175,7 +172,7 @@ A apostrophe intersection B equals open curly brackets 2 comma space 4 comma spa
 
 > *Therefore the number of elements in the intersection, *
 
-`straight n open parentheses A intersection B close parentheses equals 2`
+$\mathrm{n} ( A \cap B ) = 2$
 
 **[B1]**
 > *Elements in *$A$
@@ -192,7 +189,7 @@ $10,12,6,3,9,1,7,8$
 
 > *Therefore the number of elements in the set is *
 
-`straight n open parentheses A union B apostrophe close parentheses equals 8`
+$\mathrm{n} ( A \cup B ' ) = 8$
 
 **[B1]**
 
@@ -208,7 +205,7 @@ $120-25=95$
 
 > *Determine the number of people who play golf and tennis by finding the difference between the number of people who play golf (*$75$*) added to the number of people who play tennis (*$50$*), and the calculated number of people who play golf or tennis (*$95$*)*
 
-`open parentheses 75 plus 50 close parentheses minus 95 equals 30`
+$( 75 + 50 ) - 95 = 30$
 
 > *Write this value into the Venn diagram at the intersection of the two sets*
 
@@ -472,7 +469,7 @@ $\frac{12}{19}$* ***[1]**
 
 **15** **[1]**
 
-** **(iii) `n open parentheses A union B close parentheses`* means the number of students who like apples **or **bananas.*
+** **(iii) $n ( A \cup B )$* means the number of students who like apples **or **bananas.*
 
 > *Add together the three numbers from inside both circles. *
 
@@ -523,7 +520,7 @@ $19-14=5$
 
 > *Add together all the numbers inside the circles and subtract from the total number of students, 40. *
 
-> `40 minus open parentheses 10 plus 14 plus 5 close parentheses equals 11`* *
+> $40 - ( 10 + 14 + 5 ) = 11$* *
 
 > *Put 11 into the box, outside the circles.*
 
@@ -687,11 +684,11 @@ i) *The probabilities of all possible outcomes of an event add up to 1*
 
 > *The probability that Arun plays football on a Saturday is *$\frac{3}{4}$*, the only other option for Arun is that he does not play football To find the probability that Arun does not play, subtract the probability that he does plays from 1*
 
-`straight P open parentheses Arun space does space not space play close parentheses equals 1 minus 3 over 4 equals 1 fourth`
+$\mathrm{P} ( \text{Arun} \text{does} \text{not} \text{play} ) = 1 - \frac{3}{4} = 1 \frac{1}{4}$
 
 > *The probability that Bob plays football on a Saturday is *$\frac{2}{5}$*, the only other option for Bob is that he does not play football To find the probability that Bob does not play, subtract the probability that he does plays from 1*
 
-`straight P open parentheses Bob space does space not space play close parentheses equals 1 minus 2 over 5 equals 3 over 5`
+$\mathrm{P} ( \text{Bob} \text{does} \text{not} \text{play} ) = 1 - \frac{2}{5} = \frac{3}{5}$
 
 > *The probability that Bob plays is not affected by whether or not Arun plays football*
 

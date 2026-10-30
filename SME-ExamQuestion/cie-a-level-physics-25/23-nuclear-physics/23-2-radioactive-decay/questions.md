@@ -155,7 +155,7 @@ The element neptunium has at least 24 isotopes. One of the isotopes is neptunium
 
 (i) State what is meant by *isotopes* and circle the possible isotopes of neptunium
 
-| `Np presubscript 93 presuperscript 239` | `Np presubscript 94 presuperscript 231` | `Np presubscript 93 presuperscript 219` | `Np presubscript 90 presuperscript 231` | `Np presubscript 93 presuperscript 244` |
+| $Np_{93}^{239}$ | $Np_{94}^{231}$ | $Np_{93}^{219}$ | $Np_{90}^{231}$ | $Np_{93}^{244}$ |
 |---|---|---|---|---|
 
 [3]
@@ -189,11 +189,11 @@ Use Fig. 1.2 to complete the following nuclear decay equations
 
 **Q4** [2 marks]
 
-Rubidium (Rb) was found in samples of moon rock which were retrieved from the Apollo missions. The isotope `R presubscript 37 presuperscript 87 b` is known to have a half-life of 4.90 × 10<sup>10</sup>years.
+Rubidium (Rb) was found in samples of moon rock which were retrieved from the Apollo missions. The isotope $R_{37}^{87} b$ is known to have a half-life of 4.90 × 10<sup>10</sup>years.
 
-One of the moon rock samples contains 1.2 mg of `R presubscript 37 presuperscript 87 b`.
+One of the moon rock samples contains 1.2 mg of $R_{37}^{87} b$.
 
-Show that the mass of `R presubscript 37 presuperscript 87 b` that the rock sample contained when the moon was formed 4.47 ×10<sup>9 </sup>years ago was about 1.3 mg.
+Show that the mass of $R_{37}^{87} b$ that the rock sample contained when the moon was formed 4.47 ×10<sup>9 </sup>years ago was about 1.3 mg.
 
 **Q4** [3 marks]
 
@@ -203,7 +203,7 @@ Rubidium (Rb) was found in samples of moon rock which were retrieved from the Ap
 
 Decay constant of Rb-87, λ = 0.693/t½ = 0.693/(4.90 × 10^10) = 1.41 × 10^–11 year^–1
 
-Calculate the activity of 1.2 mg of `R presubscript 37 presuperscript 87 b`.
+Calculate the activity of 1.2 mg of $R_{37}^{87} b$.
 
 **Q4** [4 marks]
 
@@ -369,7 +369,7 @@ Show that the total activity of the mixture at time *t *= 48 years is equal to $
 
 **Q8** [3 marks]
 
-An isotope of polonium-213 (`Po presubscript 84 presuperscript 213`) first decays into an isotope of lead-209 (`Pb presubscript 82 presuperscript 209`) and then decays into the stable isotope of bismuth (Bi).
+An isotope of polonium-213 ($Po_{84}^{213}$) first decays into an isotope of lead-209 ($Pb_{82}^{209}$) and then decays into the stable isotope of bismuth (Bi).
 
 Fig. 1.1 shows two arrows on a neutron number *N* against proton number* Z *chart to illustrate these two decays.
 
@@ -395,9 +395,9 @@ $Po_{84}^{213} \rightarrow Pb_{82}^{209} + .....................$
 
 A pure sample of polonium-213 is produced in a research laboratory.
 
-The half-life of `Po presubscript 84 presuperscript 213` is very small compared with the half-life of `Pb presubscript 82 presuperscript 209`. After a very short time, the ionising radiation detected from the sample is mainly from the beta-minus decay of the lead-209 nuclei.
+The half-life of $Po_{84}^{213}$ is very small compared with the half-life of $Pb_{82}^{209}$. After a very short time, the ionising radiation detected from the sample is mainly from the beta-minus decay of the lead-209 nuclei.
 
-The half-life of `Pb presubscript 82 presuperscript 209` is 3.3 hours.
+The half-life of $Pb_{82}^{209}$ is 3.3 hours.
 
 (i) State what is meant by the *decay constant *of a radioactive isotope.
 
@@ -415,7 +415,7 @@ The half-life of \$\$\_{82}^{209}Pb\$\$ is very small compared with the half-lif
 
 Calculate the decay constant of lead-209: Decay constant of lead-209, \$\$\lambda = 5 . 83 \times 10^{- 5} s^{- 1}\$\$
 
-The activity of the sample of `Pb presubscript 82 presuperscript 209` after 7.0 hours is 12 kBq.
+The activity of the sample of $Pb_{82}^{209}$ after 7.0 hours is 12 kBq.
 
 Calculate the initial activity of the sample of polonium-213.
 

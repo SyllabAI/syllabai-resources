@@ -641,9 +641,9 @@ State the differences between isotopes of the same element:
 **[Total: 3 marks]**
 
 ### 14((b)) — 4 marks
-(i) To use the grid to find the number of neutrons in `Po presubscript blank presuperscript 210`:
+(i) To use the grid to find the number of neutrons in $\text{Po} pre_{ } pre^{210}$:
 
-Read the number of protons in `Po presubscript blank presuperscript 210` from the grid:
+Read the number of protons in $\text{Po} pre_{ } pre^{210}$ from the grid:
 
 ![7-1-sqs-q7a-markscheme](assets/013-7-1-sqs-q7a-markscheme.png)
 
@@ -652,7 +652,7 @@ Read the number of protons in `Po presubscript blank presuperscript 210` from th
 
   - 210 − 84 = 126; **[1 mark]**
 
-(ii) When a nucleus of `Pb presubscript blank presuperscript 210` decays to form a nucleus of `Bi presubscript blank presuperscript 210`:
+(ii) When a nucleus of $\text{Pb} pre_{ } pre^{210}$ decays to form a nucleus of $\text{Bi} pre_{ } pre^{210}$:
 
 State what happens to the number of protons:
 
@@ -663,7 +663,7 @@ State what happens to the number of neutrons:
 
 - The neutron number decreases by 1; **[1 mark]**
 
-(iii) When `Pb presubscript blank presuperscript 210` decays to form `Bi presubscript blank presuperscript 210`:
+(iii) When $\text{Pb} pre_{ } pre^{210}$ decays to form $\text{Bi} pre_{ } pre^{210}$:
 
 - A neutron becomes a proton
 - This is beta decay; **[1 mark]**

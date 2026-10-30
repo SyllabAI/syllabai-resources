@@ -87,7 +87,7 @@ Place the following Group 1 metals in order from least to most reactive.
 ### 3() — 4 marks — command: multiple — structured
 #### Separate: Chemistry Only
 
-i)The chemical symbol for the Group 1 metal sodium is `Na presubscript 11 presuperscript 23`.
+i)The chemical symbol for the Group 1 metal sodium is $Na_{11}^{23}$.
 
 State the number of electrons in one atom of sodium.
 

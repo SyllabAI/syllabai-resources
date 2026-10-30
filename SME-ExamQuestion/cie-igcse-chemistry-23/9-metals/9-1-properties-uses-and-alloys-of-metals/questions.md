@@ -623,13 +623,13 @@ i) Complete the following table that shows the number of protons, electrons and 
 
 | particle | protons | electrons | neutrons |
 |---|---|---|---|
-| `Sr presubscript blank presuperscript 88` |   |   |   |
+| $\text{Sr} pre_{ } pre^{88}$ |   |   |   |
 | $\text{Sr} pre_{ } pre^{90}$ |   |   |   |
 | $\text{Zn} pre_{ } pre^{65^{2} +}$ |   |   |   |
 
 [3]
 
-ii) Explain why `Sr presubscript blank presuperscript 88` and `Sr presubscript blank presuperscript 90` are isotopes.
+ii) Explain why $\text{Sr} pre_{ } pre^{88}$ and $\text{Sr} pre_{ } pre^{90}$ are isotopes.
 
 [1]
 

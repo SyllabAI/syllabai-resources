@@ -84,7 +84,7 @@ Which row of the table gives correct values of the new volume and the new temper
 ### 7() — 1 mark — multiple_choice — from paper June 2021 · WPH15/01
 Helium gas in a closed cylinder is heated until the pressure exerted by the helium is four times the original pressure. The volume occupied by the helium stays constant.
 
-The mean square speed of the helium molecules before heating is `open angle brackets v subscript 1 superscript 2 close angle brackets`. The mean square speed of the helium molecules after heating is `< v _ F ^ 2 >`.
+The mean square speed of the helium molecules before heating is `< v _ 1 ^ 2 >`. The mean square speed of the helium molecules after heating is `< v _ F ^ 2 >`.
 
 What is the ratio $\frac{( \text{angle} \text{brackets} v_{F}^{2} ) \text{angle} brackets}{( \text{angle} \text{brackets} v_{1}^{2} ) \text{angle} brackets}$?
 - **A.** 1

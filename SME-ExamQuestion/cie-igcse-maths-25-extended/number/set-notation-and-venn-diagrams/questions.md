@@ -98,7 +98,7 @@ $n(A'\cupB'\cupC')$
 
 **Q4** [4 marks]
 
-`calligraphic E = left curly bracket x colon x`is an integer and `1 less or equal than x less or equal than 10 right curly bracket`
+`calligraphic E = left curly bracket x colon x`is an integer and `1 <= x <= 10 right curly bracket`
  `A = left curly bracket x colon x`is even`right curly bracket` 
 `4 in A AND B n ( A AND B ) = 1 ( A OR B ) ' = left curly bracket 1 , 7 , 9 right curly bracket`
 

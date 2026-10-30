@@ -1084,7 +1084,7 @@ Take the cube root, keeping full accuracy on the calculator
 
 $x = 3 . 26371 \dots$
 
-`x equals 3.26 space open parentheses 3 space straight s. straight f. close parentheses`
+$x = 3.26 ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -1144,7 +1144,7 @@ Evaluate the two terms and add them
 
 $S = 15 . 9777 \dots$
 
-`S equals 16 space open parentheses 2 space straight s. straight f. close parentheses`
+$S = 16 ( 2 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -1769,7 +1769,7 @@ $5 x - 2 = 0$
 
 $x = \frac{2}{5}$
 
-`open parentheses 2 over 5 comma space 0 close parentheses`
+$( \frac{2}{5} , 0 )$
 
 **[B1]**
 
@@ -2150,7 +2150,7 @@ Take the cube root, keeping full accuracy on the calculator
 
 $x = 2 . 27140 \dots$
 
-`x equals 2.27 space open parentheses 3 space straight s. straight f. close parentheses`
+$x = 2.27 ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -2219,7 +2219,7 @@ Evaluate the two terms and add them
 
 $S = 123 . 822 \dots$
 
-`S equals 124 space open parentheses 3 space straight s. straight f. close parentheses`
+$S = 124 ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -2356,7 +2356,7 @@ Evaluate that, keeping full accuracy until the last line
 
 - $\frac{3\text{e}^{5}}{2^{\frac{3}{2}}} = 157 . 4166 \dots$
 
-`delta y almost equal to 0.79 space open parentheses 2 space straight s. straight f. close parentheses`
+$\delta y \approx 0.79 ( 2 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -3734,7 +3734,7 @@ Work that out, keeping full accuracy until the last line
 
 - $4 \text{ln} 2 - \frac{3}{2} = 1 . 27258 \dots$ and `\frac{1}{16} \left(\text{ln} 2\right)^{2} = 0 . 03002 \ldots`
 
-`A equals 1.3 space open parentheses 1 space straight d. straight p. close parentheses`
+$A = 1.3 ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 

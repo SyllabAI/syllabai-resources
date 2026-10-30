@@ -21,9 +21,9 @@ Write down the centre and the radius for each of the following circles
 
 (i) $x^{2}+y^{2}=5^{2}$,
 
-(ii) `open parentheses x plus 3 close parentheses squared plus open parentheses y minus 2 close parentheses squared equals 49`,
+(ii) $( x + 3 )^{2} + ( y - 2 )^{2} = 49$,
 
-(iii) `x squared plus open parentheses y plus 4 close parentheses squared equals 144`.
+(iii) $x^{2} + ( y + 4 )^{2} = 144$.
 
 ## Q3 — easy — 4 marks · exam-questions
 
@@ -32,7 +32,7 @@ On separate diagrams sketch the circles with the following equations
 
 (i) $x^{2}+y^{2}=9$
 
-(ii) `open parentheses x minus 4 close parentheses squared plus open parentheses y minus 3 close parentheses squared equals 4 squared`
+(ii) $( x - 4 )^{2} + ( y - 3 )^{2} = 4^{2}$
 
 ## Q4 — easy — 6 marks · exam-questions
 
@@ -42,7 +42,7 @@ On separate diagrams sketch the circles with the following equations
 (ii) Complete the square of $y^{2}-6y$.
 
 ### 2() — 4 marks — structured
-(i) Use your answers to part (a) to show that the equation  $x^{2}+y^{2}+4x-6y+4=0$  can be written in the form  `open parentheses x plus 2 close parentheses squared plus open parentheses y minus 3 close parentheses squared equals 9`.
+(i) Use your answers to part (a) to show that the equation  $x^{2}+y^{2}+4x-6y+4=0$  can be written in the form  $( x + 2 )^{2} + ( y - 3 )^{2} = 9$.
 
 (ii) Hence, write down the centre and the radius of the circle with equation $x^{2}+y^{2}+4x-6y+4=0.$
 
@@ -58,7 +58,7 @@ Find the centre and radius of the circle.
 ### 1() — 3 marks — structured
 Determine if the circles with equations
 
-`open parentheses x plus 4 close parentheses squared plus y squared equals 9 space space and space open parentheses space x minus 2 close parentheses squared plus y squared equals 9`
+`( x + 4 ) ^2 + y ^2 = 9 and ( x - 2 ) ^2 + y ^2 = 9`
 
 intersect once, twice or not at all.  Fully explain your answer.
 
@@ -70,7 +70,7 @@ On a sketch show how a circle and a line can either have 0, 1 or 2 intersections
 ## Q8 — easy — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The line with equation $y=x-1$ intersects the circle with equation `open parentheses x minus 5 close parentheses squared plus open parentheses y minus 4 close parentheses squared equals 18` at two distinct points. Find the coordinates of the two points of intersection.
+The line with equation $y=x-1$ intersects the circle with equation $( x - 5 )^{2} + ( y - 4 )^{2} = 18$ at two distinct points. Find the coordinates of the two points of intersection.
 
 ## Q9 — medium — 4 marks · exam-questions
 
@@ -80,7 +80,7 @@ A circle has centre (6, -5) and goes through the point (1, 7).  Find the equatio
 ## Q10 — medium — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Show that $x^{2}+y^{2}+2x-6y+9=0$ can be written in the form  `open parentheses x minus a close parentheses squared plus open parentheses y minus b close parentheses squared equals r squared`, where $a$*, *$b$ and $r$ are integers to be found.
+Show that $x^{2}+y^{2}+2x-6y+9=0$ can be written in the form  $( x - a )^{2} + ( y - b )^{2} = r^{2}$, where $a$*, *$b$ and $r$ are integers to be found.
 
 ### 2() — 2 marks — structured
 Hence write down the centre and radius of the circle with equation $x^{2}+y^{2}+2x-6y+9=0.$
@@ -97,7 +97,7 @@ The line$x+y=-7$meets the circle with equation $(x-1)^{2}+(y-2)^{2}=50$.
 ## Q12 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The line$7x+y=-6$intersects the circle `space open parentheses x minus 2 close parentheses squared plus open parentheses y minus 5 close parentheses squared equals 25 space`at the points $A$and $B$. Find the coordinates of $A$and $B$.
+The line$7x+y=-6$intersects the circle $( x - 2 )^{2} + ( y - 5 )^{2} = 25$at the points $A$and $B$. Find the coordinates of $A$and $B$.
 
 ## Q13 — medium — 7 marks · exam-questions
 
@@ -127,7 +127,7 @@ Hence find the equation of the circle.
 ### 1() — 6 marks — structured
 $C_{2}$Circles $C_{1}$, $C_{2}$ and $C_{3}$ all have their centres on the $x$-axis.
 
-Circle $C_{1}$ has equation `open parentheses x plus 7 close parentheses squared plus y squared equals 4`.
+Circle $C_{1}$ has equation $( x + 7 )^{2} + y^{2} = 4$.
 
 Circle $C_{3}$ has equation $x^{2}+y^{2}-10x+16=0$.
 
@@ -164,7 +164,7 @@ The points *A *(-3, 1) and *B *(3, -7) are the two endpoints of the diameter *AB
 ## Q18 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Show that $x^{2}+y^{2}+5x-2y-5=0$ can be written in the form `open parentheses x minus a close parentheses squared plus open parentheses y minus b close parentheses squared equals r squared`, where $a,b$ and $r$ are constants to be found.
+Show that $x^{2}+y^{2}+5x-2y-5=0$ can be written in the form $( x - a )^{2} + ( y - b )^{2} = r^{2}$, where $a,b$ and $r$ are constants to be found.
 
 ### 2() — 2 marks — structured
 Hence write down the centre and radius of the circle with equation $x^{2}+y^{2}+5x-2y-5=0.$
@@ -209,7 +209,7 @@ Hence find the equation of the circle.
 ## Q23 — hard — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Triangle $ABC$ has vertices $A$(-8, 1), $B$(12, 16) and $C$(12, 1).  A circle with equation `open parentheses x minus 7 close parentheses squared plus open parentheses y minus 6 close parentheses squared equals 25` touches Triangle $ABC$ at the three points $P,Q$and $R$, as shown in the diagram below:
+Triangle $ABC$ has vertices $A$(-8, 1), $B$(12, 16) and $C$(12, 1).  A circle with equation $( x - 7 )^{2} + ( y - 6 )^{2} = 25$ touches Triangle $ABC$ at the three points $P,Q$and $R$, as shown in the diagram below:
 
 ![q7-3-2-circles-hard-a-level-maths-pure-screenshot](assets/026-q7-3-2-circles-hard-a-level-maths-pure-screensho.png)
 

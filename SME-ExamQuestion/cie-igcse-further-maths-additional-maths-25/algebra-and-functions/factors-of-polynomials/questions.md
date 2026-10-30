@@ -10,7 +10,7 @@
 
 **Q1** [5 marks]
 
-The three roots of `straight p open parentheses x close parentheses equals 0` , where `straight p open parentheses x close parentheses equals 2 x cubed plus a x squared plus b x plus c` are $x=\frac{1}{2},x=n$ and $x=-n$, where $a,b,c$ and $n$ are integers. The $y$-intercept of the graph of $y=p(x)$ is 4. Find $p(x)$, simplifying your coefficients.
+The three roots of $\mathrm{p} ( x ) = 0$ , where $\mathrm{p} ( x ) = 2 x^{3} + a x^{2} + b x + c$ are $x=\frac{1}{2},x=n$ and $x=-n$, where $a,b,c$ and $n$ are integers. The $y$-intercept of the graph of $y=p(x)$ is 4. Find $p(x)$, simplifying your coefficients.
 
 *Source: june 2020 0606/22 Q4*
 
@@ -21,7 +21,7 @@ The three roots of `straight p open parentheses x close parentheses equals 0` , 
 
 $p(x)=2x^{3}-3x^{2}-23x+12$
 
-Find the value of `straight p open parentheses 1 half close parentheses`.
+Find the value of $\mathrm{p} ( 1 \frac{1}{2} )$.
 
 *Source: Nov 2020 0606/21 Q7A*
 

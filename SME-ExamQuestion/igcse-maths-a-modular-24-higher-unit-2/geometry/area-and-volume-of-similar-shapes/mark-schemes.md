@@ -98,7 +98,7 @@ $b - a = 1197 \textcircled{1}$
 
 $b = \frac{27}{8} a \textcircled{2}$
 
-> * Substitute *`circle enclose 2`* into *`circle enclose 1`* to form an equation in *$a$
+> * Substitute *$\textcircled{2}$* into *$\textcircled{1}$* to form an equation in *$a$
 
 $\frac{27}{8}a-a=1197$
 
@@ -201,7 +201,7 @@ $a + b = 1800 \textcircled{1}$
 
 $b = \frac{169}{81} a \textcircled{2}$
 
-> *Substitute *`circle enclose 2`* into *`circle enclose 1`* to form an equation in *$a$
+> *Substitute *$\textcircled{2}$* into *$\textcircled{1}$* to form an equation in *$a$
 
 $a+\frac{169}{81}a=1800$
 

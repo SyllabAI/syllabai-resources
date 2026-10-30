@@ -8,7 +8,7 @@
 ### 11((a)) — 3 marks — command: calculate — structured — from paper Oct/Nov 2021 · WPH14/01
 There is an electric field around a helium nucleus.
 
-Calculate the electric potential at a distance 26.6 × 10<sup>–12 </sup>m from a helium `He presubscript 2 presuperscript 4` nucleus.
+Calculate the electric potential at a distance 26.6 × 10<sup>–12 </sup>m from a helium $He_{2}^{4}$ nucleus.
 
 Electric potential = .........................................
 

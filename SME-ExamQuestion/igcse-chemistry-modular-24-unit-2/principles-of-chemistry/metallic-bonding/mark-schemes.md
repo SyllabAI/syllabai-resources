@@ -399,9 +399,9 @@ The completed table should include:
 
 | **particle** | **number of protons** | **number of electrons** | **number of neutrons** |
 |---|---|---|---|
-| `Ga presubscript 31 presuperscript 71` | 31 | 31 | 40 |
+| $Ga_{31}^{71}$ | 31 | 31 | 40 |
 | $\text{Ga} pre_{31} pre^{71^{3} +}$ | 31 | 28 | 40 |
-| `Ga presubscript 31 presuperscript 69` | 31 | 31 | 38 |
+| $Ga_{31}^{69}$ | 31 | 31 | 38 |
 
 - Each correct row; **[1 mark]**
 

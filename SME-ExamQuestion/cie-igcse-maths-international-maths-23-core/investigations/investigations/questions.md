@@ -209,13 +209,13 @@ You must show your working clearly.
 
 To test whether a number is a hexagonal number or not, substitute it into the formula:
 
-[fraction numerator 1 plus square root of 8 cross times open parentheses number close parentheses plus 1 end root over denominator 4 end fraction]
+$[ \frac{1 + \sqrt{8 \\times ( \text{number} ) + 1} }{4} ]$
 
 If the output is a whole number, then it is a hexagonal number.
 
 For example, to test if 6 is a hexagonal number, substitute it into the formula:
 
-[table row cell fraction numerator 1 plus square root of 8 cross times 6 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 48 plus 1 end root over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus square root of 49 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 7 over denominator 4 end fraction end cell row blank equals cell 8 over 4 end cell row blank equals 2 end table]
+$[ \begin{gathered} \frac{1 + \sqrt{8 \\times 6 + 1} }{4} & = \frac{1 + \sqrt{48 + 1} }{4} \\ = \frac{1 + \sqrt{49} }{4} \\ = \frac{1 + 7}{4} \\ = \frac{8}{4} \\ = 2 \end{gathered} ]$
 
 The output is 2, which is a whole number, so 6 is a hexagonal number.
 

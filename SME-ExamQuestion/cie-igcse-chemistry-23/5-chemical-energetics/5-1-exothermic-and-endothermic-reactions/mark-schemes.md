@@ -679,8 +679,8 @@ a) How many more protons, electrons and neutrons are there in one atom of lantha
 
 **[Total: 3 marks]**
 
-- *Caesium / *`Cs presubscript 55 presuperscript 133`* has 55 protons, 55 electrons and 133 - 55 = 78 neutrons*
-- *Lanthanum / *`La presubscript 57 presuperscript 139`* has 57 protons, 57 electrons and 139 - 57 = 82 neutrons*
+- *Caesium / *$Cs_{55}^{133}$* has 55 protons, 55 electrons and 133 - 55 = 78 neutrons*
+- *Lanthanum / *$La_{57}^{139}$* has 57 protons, 57 electrons and 139 - 57 = 82 neutrons*
 - *Therefore, lanthanum has 2 more protons, 2 more electrons and 4 more neutrons*
 b)
 

@@ -54,8 +54,8 @@ guided_study: true
 
   - `U _ 92 ^ 235` is an unstable isotope of uranium
   - `n _ 0 ^ 1` is a neutron
-  - `space Kr presubscript 36 presuperscript 92` is an unstable isotope of krypton
-  - `Ba presubscript 56 presuperscript 141` is an unstable isotope of barium
+  - $Kr_{36}^{92}$ is an unstable isotope of krypton
+  - $Ba_{56}^{141}$ is an unstable isotope of barium
 
 #### Nuclear fission of uranium-235
 
@@ -116,8 +116,8 @@ $92+0=36+56+(3\times0)$
 - Where:
 
   - `H _ 1 ^ 2` is deuterium (isotope of hydrogen with 1 proton and 1 neutron)
-  - `H presubscript 1 presuperscript 1` is hydrogen (with one proton)
-  - `He presubscript 2 presuperscript 3` is an isotope of helium (with two protons and one neutron)
+  - $H_{1}^{1}$ is hydrogen (with one proton)
+  - $He_{2}^{3}$ is an isotope of helium (with two protons and one neutron)
 
 ### Nuclear fusion mass and energy values
 

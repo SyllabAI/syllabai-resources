@@ -138,7 +138,7 @@ Define the **integrand**.
 
 The function that is being integrated: everything between the integral sign and the $\text{d} x$.
 
-In `integral open parentheses 4 x cubed minus 7 close parentheses text d end text x` the integrand is $4 x^{3} - 7$.
+In $\int ( 4 x^{3} - 7 ) \text{d} x$ the integrand is $4 x^{3} - 7$.
 
 
 Spec links: `spcpt_hBBQtQpzy6DFVZ5J`

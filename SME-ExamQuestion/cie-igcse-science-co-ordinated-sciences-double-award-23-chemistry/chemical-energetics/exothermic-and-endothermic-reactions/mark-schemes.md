@@ -10,11 +10,11 @@
 
 There is an **increase in temperature **in **exothermic **reactions, while there is a **decrease in temperature **in **endothermic **reactions
 
-- Work out the change in temperature for each reaction `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals space f i n a l space t e m p e r a t u r e space minus space i n i t i a l space t e m p e r a t u r e`
-- Temperature change for W `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 20 space minus space 10 space equals space 10 space degree C`
-- Temperature change for X `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 25 space minus space 23 space equals space 2 space degree C`
-- Temperature change for Y `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 13 space minus space 15 space equals space minus 2 space degree C`
-- Temperature change for Z `c h a n g e space i n space t e m p e r a t u r e space open parentheses increment T close parentheses space equals 12 space minus 22 space equals space minus 10 space degree C`
+- Work out the change in temperature for each reaction `c h a n g e i n t e m p e r a t u r e ( increment T ) = f i n a l t e m p e r a t u r e - i n i t i a l t e m p e r a t u r e`
+- Temperature change for W `c h a n g e i n t e m p e r a t u r e ( increment T ) = 20 - 10 = 10 deg C`
+- Temperature change for X `c h a n g e i n t e m p e r a t u r e ( increment T ) = 25 - 23 = 2 deg C`
+- Temperature change for Y `c h a n g e i n t e m p e r a t u r e ( increment T ) = 13 - 15 = - 2 deg C`
+- Temperature change for Z `c h a n g e i n t e m p e r a t u r e ( increment T ) = 12 - 22 = - 10 deg C`
 - W has the **largest positive temperature increase** (**+10 °C**), so it releases the most amount of energy to the surroundings
 - Therefore, **W is the most exothermic reaction**
 

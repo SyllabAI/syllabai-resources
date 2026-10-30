@@ -18,7 +18,7 @@ Find the maximum number of oranges that a paper bag can hold before the probabil
 
 **Q2** [4 marks]
 
-The random variables `X tilde space N left parenthesis 50 comma 9 squared right parenthesis space a n d space Y tilde space N left parenthesis 400 comma 150 right parenthesis` are independent.
+The random variables $X \sim N ( 50 , 9^{2} ) a n d Y \sim N ( 400 , 150 )$ are independent.
 
 Find $P(Y<7X+40)$.
 
@@ -88,7 +88,7 @@ Show that $E(̅X)=μ$ and $Var(̅X)=\frac{σ^{2}}{n}$.
 
 **Q6** [4 marks]
 
-Two friends, Forrest and Gumpy, are planning to run a marathon together. The distributions `F space tilde N left parenthesis 253 comma 95 right parenthesis space and space G space tilde N left parenthesis 281 comma 52 right parenthesis` are used to model the times in minutes it takes Forrest and Gumpy to complete a marathon respectively. It can be assumed that their times are independent.
+Two friends, Forrest and Gumpy, are planning to run a marathon together. The distributions `F tilde N ( 253 , 95 ) and G tilde N ( 281 , 52 )` are used to model the times in minutes it takes Forrest and Gumpy to complete a marathon respectively. It can be assumed that their times are independent.
 
 Find the probability that Forrest completes the marathon quicker than Gumpy.
 
@@ -114,7 +114,7 @@ The probability of rolling a 6 on a biased die is $p$. In a game, this die is ro
 
 **Q8** [7 marks]
 
-In a video game a player gets points for completing a level and for defeating enemies, these points are independent of each other. The amount of points a player gets for completing the level and for defeating an enemy can be modelled as `L space tilde N left parenthesis 500 comma 220 right parenthesis space and space E tilde N left parenthesis 150 comma 85 right parenthesis` respectively.
+In a video game a player gets points for completing a level and for defeating enemies, these points are independent of each other. The amount of points a player gets for completing the level and for defeating an enemy can be modelled as `L tilde N ( 500 , 220 ) and E tilde N ( 150 , 85 )` respectively.
 
 In a bonus stage, the points for completing the level are tripled and there are five enemies (points for defeating enemies are not tripled), the total score is the sum of the points for completing the level and defeating the enemies. The top 10% of scores make the leadership board.
 
@@ -171,13 +171,13 @@ Using the formulae $E(aX+b)=aE(X)+b\mathrm{and}Var(aX+b)=a^{2}Var(X)$, find the 
 
 If $X$ is normally distributed, then $aX+b$ is normally distributed for any constants $a$ and $b$.
 
-Using the formulae $E(aX+b)=aE(X)+b\mathrm{and}Var(aX+b)=a^{2}Var(X)$, show that, if `X tilde N left parenthesis mu comma sigma squared right parenthesis` then:
+Using the formulae $E(aX+b)=aE(X)+b\mathrm{and}Var(aX+b)=a^{2}Var(X)$, show that, if $X \sim N ( \mu , \sigma ^{2} )$ then:
 
-`a X plus b tilde space N left parenthesis a mu plus b comma a squared sigma squared right parenthesis`
+$a X + b \sim N ( a \mu + b , a^{2} \sigma ^{2} )$
 
 **Q11** [4 marks]
 
-The random variable `X space tilde N left parenthesis 50 comma 16 right parenthesis`, write down the distribution for the random variable:
+The random variable $X \sim N ( 50 , 16 )$, write down the distribution for the random variable:
 
 (i) $2X+10$
 
@@ -187,7 +187,7 @@ The random variable `X space tilde N left parenthesis 50 comma 16 right parenthe
 
 **Q11** [4 marks]
 
-The random variable `Y tilde N left parenthesis 15 comma 5 squared right parenthesis`
+The random variable $Y \sim N ( 15 , 5^{2} )$
 
 (i) Find $P(Y<18)$
 
@@ -225,11 +225,11 @@ Find the mean and variance of $3S+2T$.
 
 If $X\mathrm{and}Y$ are normally distributed and independent then $X+Y$ is also normally distributed. As $aX+b$ is also normally distributed it follows that $aX+bY$ is normally distributed.
 
-In particular, if `X tilde N left parenthesis mu subscript x comma sigma subscript x superscript 2 right parenthesis space and space Y tilde N left parenthesis mu subscript y comma sigma subscript y superscript 2 right parenthesis` are two independent distributions, then:
+In particular, if `X tilde N ( mu _ x , sigma _ x ^ 2 ) and Y tilde N ( mu _ y , sigma _ y ^ 2 )` are two independent distributions, then:
 
-`X plus Y tilde space N left parenthesis a mu subscript x plus b mu subscript y comma a squared sigma subscript x superscript 2 plus b squared sigma subscript y superscript 2 right parenthesis`
+$X + Y \sim N ( a mu_{x} + b mu_{y} , a^{2} sigma_{x}^{2} + b^{2} sigma_{y}^{2} )$
 
-The random variables `R space tilde N left parenthesis 10 comma 16 right parenthesis comma space space S space tilde N left parenthesis 15 comma 9 right parenthesis space and space space T space tilde N left parenthesis 25 comma 25 right parenthesis` are independent.
+The random variables `R tilde N ( 10 , 16 ) , S tilde N ( 15 , 9 ) and T tilde N ( 25 , 25 )` are independent.
 
 Write down the distribution of:
 

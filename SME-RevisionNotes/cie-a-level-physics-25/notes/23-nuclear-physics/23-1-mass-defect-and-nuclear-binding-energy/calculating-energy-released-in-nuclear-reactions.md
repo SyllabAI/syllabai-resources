@@ -45,8 +45,8 @@ guided_study: true
 > 
 > | nuclide | E / MeV |
 > |---|---|
-> | `Sr presubscript 38 presuperscript 95` | 8.74 |
-> | `Xe presubscript 54 presuperscript 139` | 8.39 |
+> | $Sr_{38}^{95}$ | 8.74 |
+> | $Xe_{54}^{139}$ | 8.39 |
 > | `U _ 92 ^ 235` | 7.60 |
 > 
 > **Answer:**

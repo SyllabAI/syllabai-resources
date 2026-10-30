@@ -159,12 +159,7 @@ Determine which set of decision variables lead to the **maximum** or **minimum**
 > > *For the two vertices that are not obvious, solve the appropriate simultaneous equations*
 > *(Your calculator may have a simultaneous equation solver that you can use)*
 > 
-> `bold italic y bold minus bold 2 bold italic x bold equals bold 2 bold comma bold space bold italic x bold plus bold 4 bold italic y bold equals bold 17
-> y equals 2 plus 2 x
-> x plus 4 open parentheses 2 plus 2 x close parentheses equals 17
-> 9 x equals 9
-> x equals 1 comma space y equals 2 plus 2 open parentheses 1 close parentheses equals 4
-> stretchy left parenthesis 1 comma space 4 stretchy right parenthesis`
+> $\boldsymbol{y} - 2 \boldsymbol{x} = 2 , \boldsymbol{x} + 4 \boldsymbol{y} = 17 y = 2 + 2 x x + 4 ( 2 + 2 x ) = 17 9 x = 9 x = 1 , y = 2 + 2 ( 1 ) = 4 ( 1 , 4 )$
 > 
 > $x+4y=17,x+y=8\,x=8-y\,8-y+4y=17\,3y=9\,y=3,x=8-3=5\,(5,3)$
 > 

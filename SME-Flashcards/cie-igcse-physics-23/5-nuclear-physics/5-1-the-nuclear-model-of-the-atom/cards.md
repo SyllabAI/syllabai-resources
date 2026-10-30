@@ -211,12 +211,12 @@ The atomic number (proton number) determines which element an atom is.
 
 **FRONT**
 
-What is the **proton number** of an atom with the nuclide notation `Al presubscript 13 presuperscript 27`?
+What is the **proton number** of an atom with the nuclide notation $Al_{13}^{27}$?
 
 
 **BACK**
 
-The **proton number** of an atom with the nuclide notation `Al presubscript 13 presuperscript 27` is **13**.
+The **proton number** of an atom with the nuclide notation $Al_{13}^{27}$ is **13**.
 
 
 
@@ -267,12 +267,12 @@ An element may have more than one isotope.
 
 **FRONT**
 
-The nuclide notation for an isotope of iron is `Fe presubscript 26 presuperscript 58`. How many neutrons does an atom of iron `Fe presubscript 26 presuperscript 58` contain?
+The nuclide notation for an isotope of iron is $Fe_{26}^{58}$. How many neutrons does an atom of iron $Fe_{26}^{58}$ contain?
 
 
 **BACK**
 
-An atom of iron `Fe presubscript 26 presuperscript 58` contains **32** neutrons.
+An atom of iron $Fe_{26}^{58}$ contains **32** neutrons.
 
 
 
@@ -423,12 +423,12 @@ The relative mass of a nucleus is the **same **as the nucleon number.
 
 **FRONT**
 
-What is the relative charge on the nucleus of an atom of `Mg presubscript 12 presuperscript 24`?  **(Extended Tier Only)**
+What is the relative charge on the nucleus of an atom of $Mg_{12}^{24}$?  **(Extended Tier Only)**
 
 
 **BACK**
 
-The relative charge on the nucleus of an atom of `Mg presubscript 12 presuperscript 24` is **+12**.
+The relative charge on the nucleus of an atom of $Mg_{12}^{24}$ is **+12**.
 
 
 
@@ -436,12 +436,12 @@ The relative charge on the nucleus of an atom of `Mg presubscript 12 presuperscr
 
 **FRONT**
 
-What is the relative mass of the nucleus of an atom of  `Br presubscript 35 presuperscript 80`? **(Extended Tier Only)**
+What is the relative mass of the nucleus of an atom of  $Br_{35}^{80}$? **(Extended Tier Only)**
 
 
 **BACK**
 
-The relative mass of the nucleus of an atom of  `Br presubscript 35 presuperscript 80` is **80**.
+The relative mass of the nucleus of an atom of  $Br_{35}^{80}$ is **80**.
 
 
 

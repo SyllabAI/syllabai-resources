@@ -441,7 +441,7 @@ Find the range of values of $t$ where $t>1$ for which both particles are moving 
 ### 21() — 5 marks — command: solve — structured — from paper June 2021 · 4MA1/2H
 The point A is the only stationary point on the curve with equation $y=kx^{2}+\frac{16}{x}$  where $k$is a constant.
 
-Given that the coordinates of $A$ are `open parentheses 2 over 3 comma space a close parentheses`
+Given that the coordinates of $A$ are $( \frac{2}{3} , a )$
 
 find the value of $a$. 
 Show your working clearly.
@@ -467,7 +467,7 @@ A particle $P$ is moving along a straight line.
 
 The fixed point $O$ lies on the line.
 
-At time t seconds `left parenthesis t space greater-than or slanted equal to space 0 right parenthesis`, the displacement of $P$ from $O$ is s metres where
+At time t seconds `( t greater-than or slanted equal to 0 )`, the displacement of $P$ from $O$ is s metres where
 
 $s=t^{3}--9t^{2}+33t--6$
 
@@ -490,7 +490,7 @@ $AB=x\mathrm{cm}BC=y\mathrm{cm}$
 The perimeter of $ABCED$is 100 cm.
  The area of $ABCED$is $R$ cm<sup>2</sup>
 
-Show that `R equals x over 4 open parentheses 200 minus open square brackets 6 minus square root of 3 close square brackets x close parentheses`
+Show that $R = \frac{x}{4} ( 200 - [ 6 - \sqrt{3} ] x )$
 
 ### 19((b)) — 3 marks — command: explain — structured — from paper Nov 2021 · 4MA1/1H
 (i) Find the value of $x$ for which $R$ has its maximum value.

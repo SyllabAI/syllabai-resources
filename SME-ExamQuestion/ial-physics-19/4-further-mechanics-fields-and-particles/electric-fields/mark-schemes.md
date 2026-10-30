@@ -12,7 +12,7 @@ List the known quantities:
 - Coulomb's law constant, $k=\frac{1}{4πε_{0}}$ = 8.99 × 109 N m<sup>2</sup> C<sup>–2</sup>
 - Distance, *r* = 26.6 × 10<sup>–12 </sup>m
 
-Calculate the charge of the `He presubscript 2 presuperscript 4` nucleus:
+Calculate the charge of the $He_{2}^{4}$ nucleus:
 
 - *Q* = 2e = 2 × (1.6 × 10<sup>–19</sup>) C **[1 mark]**
 

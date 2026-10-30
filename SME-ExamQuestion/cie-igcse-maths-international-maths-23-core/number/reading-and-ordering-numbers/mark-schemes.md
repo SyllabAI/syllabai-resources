@@ -8,7 +8,7 @@
 ### Q1
 (i) *Subtract Wednesday's minimum temperature from Wednesday's maximum temperature. *
 
-`15 minus open parentheses negative 4 close parentheses equals 19`
+$15 - ( - 4 ) = 19$
 
 $19^{\circ}C$* ***[1]**
 
@@ -81,19 +81,19 @@ $28-21=7$
 
 > *Oslo:*
 
-`1 minus open parentheses negative 3 close parentheses equals 4`
+$1 - ( - 3 ) = 4$
 
 > * *
 
 > *Toronto:*
 
-`open parentheses negative 8 close parentheses minus open parentheses negative 18 close parentheses equals 10`
+$( - 8 ) - ( - 18 ) = 10$
 
 > * *
 
 > *Seoul:*
 
-`4 minus open parentheses negative 5 close parentheses equals 9`
+$4 - ( - 5 ) = 9$
 
 > * *
 
@@ -130,7 +130,7 @@ $-3-7=-10$
 **-10°C**** ****[1]**
 > *To find the difference, subtract*
 
-`4 space minus space open parentheses negative 4 close parentheses space equals space 4 space plus thin space 4 space equals space 8`
+`4 - ( - 4 ) = 4 + thin 4 = 8`
 
 **8**** ****[1]**
 
@@ -144,13 +144,13 @@ $5-7=-2$
 ### Q10
 (i) *Subtract the lower temperature (the cool box temperature of *$-3^{\circ}C$*) from the higher temperature (the fridge temperature of *$4^{\circ}C$*). *
 
-> `4 minus open parentheses negative 3 close parentheses equals 7`* *
+> $4 - ( - 3 ) = 7$* *
 
 $7^{\circ}C$* ***[1]**
 
 (ii) *Subtract the lower temperature (the freezer temperature of *$-19^{\circ}C$*) from the higher temperature (the cool box temperature of *$-3^{\circ}C$*). *
 
-> `negative 3 minus open parentheses negative 19 close parentheses equals 16`*  *
+> $- 3 - ( - 19 ) = 16$*  *
 
 $16^{\circ}C$* ***[1]**
 
@@ -172,7 +172,7 @@ $-1^{\circ}C$* ***[1]**
 ### Q12
 > *Subtract the smaller temperature from the larger one to find the difference.*
 
-`5 minus open parentheses negative 6 close parentheses equals 11`
+$5 - ( - 6 ) = 11$
 
 $11^{\circ}C$* ***[1]**
 
@@ -188,7 +188,7 @@ $-14^{\circ}C$** [1]**
 ### Q14
 > *The difference is a subtraction of the two temperatures*
 
-`4 minus open parentheses negative 3 close parentheses equals 4 plus 3 equals 7`
+$4 - ( - 3 ) = 4 + 3 = 7$
 
 **7° C**** [1]**
 > *As the temperature has fallen by *$4^{\circ}C$*, subtract this from the temperature at midday*
@@ -211,7 +211,7 @@ $120020$* ***[1]*** *
 
 > * *
 
-> `open parentheses negative 11 close parentheses minus open parentheses negative 23 close parentheses equals 12`* *
+> $( - 11 ) - ( - 23 ) = 12$* *
 
 $12^{\circ}C$* ***[1]**
 

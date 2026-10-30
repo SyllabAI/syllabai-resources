@@ -21,12 +21,12 @@ Identify which of the following are geometric sequences. For those that are, wri
 ### 1() — 2 marks — structured
 Evaluate
 
-`sum from r equals 1 to 5 of` $3 ( 2^{r} )$
+`SUM_ r = 1 to 5 of` $3 ( 2^{r} )$
 
 ### 2() — 2 marks — structured
 Evaluate.
 
-`sum from r equals 4 to 8 of` $( - 1 )^{r} ( 2^{r} )$
+`SUM_ r = 4 to 8 of` $( - 1 )^{r} ( 2^{r} )$
 
 ## Q3 — easy — 3 marks · exam-questions
 

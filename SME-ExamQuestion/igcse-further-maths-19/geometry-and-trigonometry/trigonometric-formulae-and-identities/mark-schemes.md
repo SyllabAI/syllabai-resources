@@ -33,7 +33,7 @@ $A B^{2} = 136 + 60 \sqrt{3}$
 
 $A B = 15 . 4894 \dots$
 
-`A B equals 15.5 text end text text cm end text text end text open parentheses 3 space straight s. straight f. close parentheses`
+$A B = 15.5 \text{end \text{text cm} text} ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -845,7 +845,7 @@ Triangle $F X C$ has its right angle at $X$, with $F X$ opposite the angle at $C
 
 `\angle F C X = 42.186 \ldots ^{\circ}`
 
-`angle F C X equals 42.2 degree text end text left parenthesis 1 space straight d. straight p. right parenthesis`
+$\text{angle} F C X = 42.2^{\circ} \text{text} \text{text} ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 
@@ -2566,7 +2566,7 @@ A triangle can hold only one obtuse angle, and `\angle A B C` has it, so take th
 
 `\angle B C A = 25.07 \ldots ^{\circ}`
 
-`angle B C A equals 25.1 degree text end text left parenthesis 1 space straight d. straight p. right parenthesis`
+$\text{angle} B C A = 25.1^{\circ} \text{text} \text{text} ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 

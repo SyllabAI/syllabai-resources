@@ -36,7 +36,7 @@ $60\times60=3600$
 
 $3600\div80=45$* laps*
 
-`open parentheses 60 cross times 60 close parentheses divided by 80`* ***[1]**
+$( 60 \\times 60 ) \div 80$* ***[1]**
 
 **45 ****[1]**
 

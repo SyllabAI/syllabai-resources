@@ -742,14 +742,14 @@ Purpose of F: the carry **[1]**
 > **[mark-scheme]**
 > **One** mark for correct working from points **(Max 2)**, for example:
 > 
-> `equation`**(Y =)** `straight A with bar on top. straight B with bar on top. straight C with bar on top. straight D with bar on top space plus stack space straight A with bar on top. straight B with bar on top. straight C. stack straight D space with bar on top plus stack space straight A with bar on top. straight B. straight C with bar on top. straight D with bar on top space plus space straight A with bar on top. straight B. straight C. straight D with bar on top space`
+> `equation`**(Y =)** $\bar{A} . \bar{B} . \bar{C} . \bar{D} + \bar{A} . \bar{B} . \mathrm{C} . \mathrm{D} \text{spac} \bar{e} + \bar{A} . \mathrm{B} . \bar{C} . \bar{D} + \bar{A} . \mathrm{B} . \mathrm{C} . \bar{D}$
 > $(Y=)\overline{A}.\overline{D}.(\overline{B}.\overline{C}+\overline{B}.C+B.\overline{C}+B.C)$$(Y=)\overline{A}.\overline{D}.(\overline{B}.(\overline{C}+C)+B.(\overline{C}+C))$
 > $(Y=)\overline{A}\overline{.D}.(\overline{B}.(1)+B.(1))$
 > $(Y=)\overline{A}.\overline{D}.(\overline{B}+B)$
-> `left parenthesis straight Y space equals right parenthesis space straight A with bar on top. straight D with bar on top. left parenthesis 1 right parenthesis space`
+> $( \mathrm{Y} = ) \bar{A} . \bar{D} . ( 1 )$
 > 
 > **One** mark for correct answer 
-> `left parenthesis straight Y space equals right parenthesis space straight A with bar on top. straight D with bar on top`
+> $( \mathrm{Y} = ) \bar{A} . \bar{D}$
 
 ### Q24
 | **A** | **B** | **C** | **X** |
@@ -770,10 +770,10 @@ Purpose of F: the carry **[1]**
 > (T =) X.Y.Z + X.$\overline{Y.}$Z + $\overline{X}$`equation`
 >            Distributive law
 > 
-> (T=) X.Z.(Y +`straight Y with bar on top` ) +  $\overline{X}$
+> (T=) X.Z.(Y +$\bar{Y}$ ) +  $\overline{X}$
 >          Complement law
 > 
-> (T=) X.Z.(1) + `straight X with bar on top`
+> (T=) X.Z.(1) + $\bar{X}$
 >           Identity law
 > 
 > (T=) X.Z + $\overline{X}$

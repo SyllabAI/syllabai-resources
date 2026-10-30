@@ -22,7 +22,7 @@ guided_study: true
 - You can use a **graphic display calculator** to **solve inequalities **of the form
 
   - `straight f_ 1 (x) greater than straight f_ 2 (x)` or `straight f_ 1 (x) less than straight f_ 2 (x)`
-  - `straight f_ 1 (x) greater or equal than straight f_ 2 (x)` or `straight f_ 1 (x) less or equal than straight f_ 2 (x)`
+  - `f_ 1 (x) >= f_ 2 (x)` or `f_ 1 (x) <= f_ 2 (x)`
 - First, turn the inequality into an **equation** and **solve** `straight f_ 1 (x)=straight f_ 2 (x)`
 
   - Read the revision note on Using Calculators to Solve Equations to see how

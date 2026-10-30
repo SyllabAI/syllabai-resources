@@ -153,9 +153,7 @@ guided_study: false
 > 
 > **Step 1: Calculate monthly variable costs**
 > 
-> `equals space 12 comma 400 space cross times space $ 1.24
-> 
-> equals space $ 15 comma 376`       **(1)**
+> $= 12 , 400 \\times \$ 1.24 = \$ 15 , 376$       **(1)**
 > 
 > **Step 2: Calculate monthly total costs**
 > 
@@ -165,9 +163,7 @@ guided_study: false
 > 
 > **Step 3: Calculate annual total costs**
 > 
-> `equals space $ 41 comma 076 space cross times space 12 space months
-> 
-> equals space $ 492 comma 912`       **(1)**
+> `= $ 41 , 076 x 12 months = $ 492 , 912`       **(1)**
 
 ### Average costs (AC)
 

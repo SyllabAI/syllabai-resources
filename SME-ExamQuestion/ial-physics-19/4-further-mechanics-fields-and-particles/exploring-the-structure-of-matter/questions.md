@@ -209,7 +209,7 @@ Which of the following statements does **not** help to explain why electrons can
 ### 1() — 1 mark — multiple_choice — from paper 2022 Jan · WPH14/01
 `O _ 8 ^ 17` is an isotope of oxygen.
 
-Which row of the table gives the number of nucleons and the number of neutrons in an atom of `O presubscript 8 presuperscript 17`?
+Which row of the table gives the number of nucleons and the number of neutrons in an atom of $O_{8}^{17}$?
 
 |   | **Number of nucleons** | **Number of neutrons** |
 |---|---|---|

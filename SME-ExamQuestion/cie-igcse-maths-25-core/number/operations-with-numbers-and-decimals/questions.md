@@ -20,7 +20,7 @@ $9+4-3\times7=70$
 
 Work out
 
-`4 plus open parentheses negative 11 close parentheses`
+$4 + ( - 11 )$
 
 ### Q3 — medium — 2 marks
 
@@ -42,13 +42,13 @@ If 967 seats have been sold for a show, how many seats are still available?
 
 **Q5** [3 marks]
 
-Work out                      `open parentheses 9 plus 2 squared minus 4 cross times 2 close parentheses plus square root of 144`
+Work out                      $( 9 + 2^{2} - 4 \\times 2 ) + \sqrt{144}$
 
 ### Q6 — hard — 1 marks
 
 **Q6** [1 mark]
 
-Calculate `18 divided by open parentheses 10 minus 4 close parentheses minus 11 cross times 4 plus 9 cross times open parentheses 6 plus 1 close parentheses`
+Calculate $18 \div ( 10 - 4 ) - 11 \\times 4 + 9 \\times ( 6 + 1 )$
 
 ### Q7 — hard — 2 marks
 
@@ -92,15 +92,11 @@ $3\times2-4-7=9$
 
 **Q9** [3 marks]
 
-Jamie has incorrectly tried to calculate: `3 cross times 2 cubed plus square root of 25 cross times open parentheses 3 squared cross times 2 plus 3 close parentheses`
+Jamie has incorrectly tried to calculate: $3 \\times 2^{3} + \sqrt{25} \\times ( 3^{2} \\times 2 + 3 )$
 
 His working is shown below.
 
-`3 cross times 2 cubed plus square root of 25 cross times open parentheses 3 squared cross times 2 plus 3 close parentheses
-3 cross times 2 cubed plus square root of 25 cross times open parentheses 40 close parentheses
-6 cubed plus 5 cross times open parentheses 40 close parentheses
-216 plus 200
-416`
+$3 \\times 2^{3} + \sqrt{25} \\times ( 3^{2} \\times 2 + 3 ) 3 \\times 2^{3} + \sqrt{25} \\times ( 40 ) 6^{3} + 5 \\times ( 40 ) 216 + 200 416$
 
 Identify the two mistakes that have been made, and find the correct final answer.
 
@@ -217,7 +213,7 @@ Subtract 9 from 2.
 
 **Q17** [1 mark]
 
-Calculate `3 plus 2 cross times open parentheses 8 minus 6 close parentheses`
+Calculate $3 + 2 \\times ( 8 - 6 )$
 
 ### Q18 — easy — 2 marks
 
@@ -252,7 +248,7 @@ Work out   $48\div3-5\times2$
 
 **Q20** [2 marks]
 
-Calculate `7 cross times open parentheses 2 cross times 4 close parentheses plus 8 cross times open parentheses 2 plus 6 close parentheses`
+Calculate $7 \\times ( 2 \\times 4 ) + 8 \\times ( 2 + 6 )$
 
 ### Q21 — easy — 2 marks
 

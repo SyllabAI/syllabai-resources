@@ -350,7 +350,7 @@
 > - $2\times\mathrm{udd}$ gives 2 up quarks and 4 down quarks
 
 ### Q2
-The number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27` is:
+The number of 'up' quarks in the nucleus of $Al_{13}^{27}$ is:
 
 Determine the number of protons and neutrons:
 
@@ -399,7 +399,7 @@ Compare charges on both sides:
 
 - `B _ 5 ^ 10` **[1 mark]**
 - `beta _ 1 ^ 0 ^ ( + ) end ^ / e _ 1 ^ 0 ^ +` **[1 mark]**
-- `nu presubscript 0 presuperscript 0` **[1 mark]** ** **
+- $nu_{0}^{0}$ **[1 mark]** ** **
 
 (ii) The change of quark is:
 

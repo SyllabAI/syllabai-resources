@@ -188,7 +188,7 @@ Leaving your answers as single fractions, find an expression for
 
 **Q10** [2 marks]
 
-Given that `open parentheses x minus 1 close parentheses squared` is a factor of $x^{3}-3x+2$, solve the equation $\text{f} ( x ) = \text{g} ( x )$.
+Given that $( x - 1 )^{2}$ is a factor of $x^{3}-3x+2$, solve the equation $\text{f} ( x ) = \text{g} ( x )$.
 
 ### Q11 — very_hard — 9 marks
 

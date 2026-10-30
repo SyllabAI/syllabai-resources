@@ -384,7 +384,7 @@ $E$ = {$x$ : $x$ is a positive integer less than 20} A = {$x$ : $x$ is an even n
 
 ![qp8d-0580-32-paper-3-nov-2020-cie-igcse-maths](assets/017-qp8d-0580-32-paper-3-nov-2020-cie-igcse-maths.png)
 
-i) Write down n `open parentheses A close parentheses`.
+i) Write down n $( A )$.
 
 [1]
 
@@ -406,7 +406,7 @@ iiib) in $A\cupB$
 
 iv) Complete the statement.
 
-`A intersection B equals open curly brackets x space colon space x space is space............................... close curly brackets`
+$A \cap B = \{ x : x \text{is} ............................... \}$
 
 [1]
 

@@ -587,7 +587,7 @@ $\text{Total} \text{sales} = \frac{\$ 15 , 000}{\$ 500 , 000} \times 100
 ### Q19
 **\$90,000 ****[3]**
 
-$BH \text{apostrophe} \mathrm{s} \text{market} \text{share} = 100 - Total \text{market} \text{share} of \text{competitors} = 100 - 85 \% = 15 \%$     **[1]**
+$BH ' \mathrm{s} \text{market} \text{share} = 100 - Total \text{market} \text{share} of \text{competitors} = 100 - 85 \% = 15 \%$     **[1]**
 
 `Market share value = % market share x Total market value = 15 % x $ 600 , 000 = $ 90 , 000`      **[2]**
 

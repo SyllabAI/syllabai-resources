@@ -12,7 +12,7 @@
 
 Solve
 
-`5 open parentheses x minus 1 close parentheses equals 3 x plus 7`
+$5 ( x - 1 ) = 3 x + 7$
 
 ### Q2 — hard — 2 marks
 
@@ -61,7 +61,7 @@ In this part, all measurements are in centimetres.
 
 ![qp7f-0580-33-paper-3-nov-2020-cie-igcse-maths](assets/001-qp7f-0580-33-paper-3-nov-2020-cie-igcse-maths.png)
 
-The diagram shows a kite with sides `open parentheses 2 x plus 5 close parentheses` and `open parentheses 3 x minus 1 close parentheses`. The perimeter of the kite is 33 cm.
+The diagram shows a kite with sides $( 2 x + 5 )$ and $( 3 x - 1 )$. The perimeter of the kite is 33 cm.
 
 Work out the length of a shorter side.
 
@@ -211,7 +211,7 @@ $x$= .............................................. [3]
 
 Solve.
 
-`5 open parentheses 2 x plus 4 close parentheses equals 85`
+$5 ( 2 x + 4 ) = 85$
 
 $x$ = .................................................
 
@@ -232,7 +232,7 @@ ii) $4x-2=28$
 
 `x space equals space................................................. space left square bracket 2 right square bracket`
 
-iii) `3 open parentheses 2 x plus 7 close parentheses equals 12`
+iii) $3 ( 2 x + 7 ) = 12$
 
 `x space equals space................................................. space left square bracket 3 right square bracket`
 
@@ -287,7 +287,7 @@ ii) $7x-3=2x+11$
 
 $x$= ................................................... [2]
 
-iii) `3 open parentheses 2 x minus 1 close parentheses equals 27`
+iii) $3 ( 2 x - 1 ) = 27$
 
 $x$ = ................................................... [3]
 
@@ -317,7 +317,7 @@ $x$=.....................................[3]
 
 Solve.
 
-`8 open parentheses w plus 11 close parentheses equals 120`
+$8 ( w + 11 ) = 120$
 
 $w$ = ...................................................
 

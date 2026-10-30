@@ -65,21 +65,17 @@ ii) $24\div6+2\times3=2$
 
 **Q4** [1 mark]
 
-Calculate `18 divided by open parentheses 10 minus 4 close parentheses minus 11 cross times 4 plus 9 open parentheses 6 plus 1 close parentheses`
+Calculate $18 \div ( 10 - 4 ) - 11 \\times 4 + 9 ( 6 + 1 )$
 
 ### Q5 — hard — 3 marks
 
 **Q5** [3 marks]
 
-Jamie has incorrectly tried to calculate: `3 cross times 2 cubed plus square root of 25 open parentheses 3 squared cross times 2 plus 3 close parentheses`
+Jamie has incorrectly tried to calculate: $3 \\times 2^{3} + \sqrt{25} ( 3^{2} \\times 2 + 3 )$
 
 His working is shown below.
 
-`3 cross times 2 cubed plus square root of 25 open parentheses 3 squared cross times 2 plus 3 close parentheses
-3 cross times 2 cubed plus square root of 25 open parentheses 40 close parentheses
-6 cubed plus 5 open parentheses 40 close parentheses
-216 plus 200
-416`
+$3 \\times 2^{3} + \sqrt{25} ( 3^{2} \\times 2 + 3 ) 3 \\times 2^{3} + \sqrt{25} ( 40 ) 6^{3} + 5 ( 40 ) 216 + 200 416$
 
 Identify the two mistakes that have been made, and find the correct final answer.
 
@@ -179,7 +175,7 @@ $4\times6-2+1=17$
 
 **Q12** [1 mark]
 
-Calculate `3 plus 2 cross times open parentheses 8 minus 6 close parentheses`
+Calculate $3 + 2 \\times ( 8 - 6 )$
 
 ### Q13 — easy — 2 marks
 
@@ -225,4 +221,4 @@ Give your answer correct to 1 decimal place.
 
 **Q16** [1 mark]
 
-Calculate `7 open parentheses 2 cross times 4 close parentheses plus 8 open parentheses 2 plus 6 close parentheses`
+Calculate $7 ( 2 \\times 4 ) + 8 ( 2 + 6 )$

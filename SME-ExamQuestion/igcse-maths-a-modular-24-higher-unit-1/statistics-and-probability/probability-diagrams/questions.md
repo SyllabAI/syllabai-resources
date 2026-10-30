@@ -6,9 +6,7 @@
 ## Q1 — easy — 5 marks · exam-questions
 
 ### 1((a)) — 3 marks — command: complete — structured — from paper June 2019 · 1MA1/3H
-`calligraphic E space equals space open curly brackets 1 comma space 2 comma space 3 comma space 4 comma space 5 comma space 6 comma space 7 comma space 8 comma space 9 close curly brackets
-A space equals space open curly brackets 1 comma space 5 comma space 6 comma space 8 comma space 9 close curly brackets
-B space equals space open curly brackets 2 comma space 6 comma space 9 close curly brackets`
+`calligraphic E = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 } A = { 1 , 5 , 6 , 8 , 9 } B = { 2 , 6 , 9 }`
 
 ![q4a-5-2-easy-edexcel-gcse-maths](assets/130-q4a-5-2-easy-edexcel-gcse-maths.png)
 
@@ -649,19 +647,16 @@ Find the probability that this student studies Mathematics, given that they stud
 ## Q40 — hard — 6 marks · exam-questions
 
 ### 1() — 2 marks — command: complete — structured
-$A$ and $B$are two sets. `straight n open parentheses xi close parentheses equals 37
-straight n open parentheses A close parentheses equals 22
-straight n open parentheses A intersection B close parentheses equals 12
-straight n open parentheses A union B close parentheses equals 30` Complete the Venn diagram to show the **number of elements** in each region.
+$A$ and $B$are two sets. $\mathrm{n} ( \xi ) = 37 \mathrm{n} ( A ) = 22 \mathrm{n} ( A \cap B ) = 12 \mathrm{n} ( A \cup B ) = 30$ Complete the Venn diagram to show the **number of elements** in each region.
 
 ### 2() — 2 marks — command: find — structured
 Find
 
-i) `straight n open parentheses A intersection B apostrophe close parentheses`
+i) $\mathrm{n} ( A \cap B ' )$
 
 [1]
 
-ii) `straight n open parentheses A apostrophe union B apostrophe close parentheses`
+ii) $\mathrm{n} ( A ' \cup B ' )$
 
 [1]
 
@@ -940,7 +935,7 @@ The house does **not **have a garage.
 What is the probability that it does **not **have a shed?
 
 ### 20((c)) — 2 marks — command: show — structured — from paper Nov 2019 · 8300/1H
-Show that      `text P end text open parentheses straight G intersection straight S close parentheses apostrophe greater than straight P open parentheses straight G union straight S apostrophe close parentheses`
+Show that      $\text{P} ( \mathrm{G} \cap \mathrm{S} ) ' > \mathrm{P} ( \mathrm{G} \cup \mathrm{S} ' )$
 
 ## Q55 — hard — 4 marks · exam-questions
 
@@ -1052,7 +1047,7 @@ Work out an estimate for the number of days Barney will be late for college next
 ## Q60 — very_hard — 5 marks · exam-questions
 
 ### 16() — 2 marks — command: find — structured — from paper Nov 2021 · 4MA1/1H
-There are 32 students in a class. In one term these 32 students each took a test in Maths `open parentheses M close parentheses`, in English `open parentheses E close parentheses` and in French `open parentheses F close parentheses`.
+There are 32 students in a class. In one term these 32 students each took a test in Maths $( M )$, in English $( E )$ and in French $( F )$.
 
 25 students passed the test in Maths. 
 20 students passed the test in English. 

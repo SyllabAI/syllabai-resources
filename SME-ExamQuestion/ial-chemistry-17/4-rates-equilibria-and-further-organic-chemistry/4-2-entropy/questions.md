@@ -20,11 +20,11 @@ The equation for the formation of ammonia in the Haber Process is shown
 
 1⁄2N<sub>2 </sub>(g) +1 1⁄2H<sub>2 </sub>(g) ⇌ NH<sub>3 </sub>(g)
 
-At 298 K the standard entropy change of the system, `increment S subscript system superscript ⦵` = –98 JK<sup>–1</sup>mol<sup>–1</sup>.
+At 298 K the standard entropy change of the system, `increment S _ system ^ ⦵` = –98 JK<sup>–1</sup>mol<sup>–1</sup>.
 
-Calculate the standard entropy of one mole of ammonia. Use the value of `increment S subscript system superscript ⦵` and the data in the table.
+Calculate the standard entropy of one mole of ammonia. Use the value of `increment S _ system ^ ⦵` and the data in the table.
 
-| **Substance** | **Standard molar entropy, **`S to the power of ⦵`**/JK**<sup>**–1**</sup>**mol**<sup>**–1**</sup> |
+| **Substance** | **Standard molar entropy, **`S ^ ⦵`**/JK**<sup>**–1**</sup>**mol**<sup>**–1**</sup> |
 |---|---|
 | N<sub>2</sub> | 192 |
 | H<sub>2</sub> | 131 |
@@ -165,7 +165,7 @@ Which of these is thermodynamically feasible?
 ### 3() — 1 mark — multiple_choice — from paper Oct 2021 · WCH14/01
 Ammonium nitrate is very soluble in water.
 
-NH<sub>4</sub>NO<sub>3 </sub>(s) + aq → N$H_{4}^{+}$ (aq) + N$O_{3}^{-}$ (aq)  ∆`H to the power of ⦵`= +25.8 kJ mol<sup>−1</sup>
+NH<sub>4</sub>NO<sub>3 </sub>(s) + aq → N$H_{4}^{+}$ (aq) + N$O_{3}^{-}$ (aq)  ∆`H ^ ⦵`= +25.8 kJ mol<sup>−1</sup>
 
 What is the best explanation for this?
 - **A.** all ammonium salts are soluble in water
@@ -178,7 +178,7 @@ What is the best explanation for this?
 ### 4() — 1 mark — multiple_choice — from paper Oct 2021 · WCH14/01
 The decomposition of calcium carbonate is an important reaction in the manufacture of cement.
 
-CaCO<sub>3 </sub>(s) → CaO (s) + CO<sub>2 </sub>(g)     ∆`H to the power of ⦵`= +178 kJ mol<sup>−1</sup>
+CaCO<sub>3 </sub>(s) → CaO (s) + CO<sub>2 </sub>(g)     ∆`H ^ ⦵`= +178 kJ mol<sup>−1</sup>
 
 What are the signs of the entropy change of the system, ∆*S*<sub>system</sub> , and of the entropy change of the surroundings, ∆*S*<sub>surroundings</sub> ?
 
@@ -196,7 +196,7 @@ What are the signs of the entropy change of the system, ∆*S*<sub>system</sub> 
 ## Q9 — medium — 1 marks · multiple-choice-questions
 
 ### 5() — 1 mark — multiple_choice — from paper Oct 2021 · WCH14/01
-The standard molar entropy, `S to the power of ⦵`, of a substance
+The standard molar entropy, `S ^ ⦵`, of a substance
 - **A.** is not affected by changes of state or changes in temperature
 - **B.** only changes when the temperature changes
 - **C.** only changes when the substance changes state

@@ -908,9 +908,7 @@ equals space 0.15`    **[1]**
 
 Multiply the outcome by 100 to calculate the percentage
 
-`equals space 0.15 space cross times space 100
-
-equals space 15 percent sign`   ** [1]**
+$= 0.15 \\times 100 = 15 \%$   ** [1]**
 
 > **[exam-tip]**
 > Profit margins must always be expressed as a percentage
@@ -1019,9 +1017,7 @@ equals space 0.45`    **[1]**
 
 Multiply the outcome by 100 to calculate the % gross profit margin
 
-`equals space 0.45 space cross times space 100
-
-equals space 45 percent sign`    **[1]**
+$= 0.45 \\times 100 = 45 \%$    **[1]**
 
 > **[exam-tip]**
 > Your answer must be expressed as a percentage

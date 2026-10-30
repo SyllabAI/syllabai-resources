@@ -38,7 +38,7 @@ The diagram shows a sequence of bases in a DNA template (antisense) strand.
 
 (i) The table shows some statements about the new complementary DNA strand and the mRNA strand synthesised using this sequence of bases.
 
-For each statement, put **one** cross `box enclose bold cross times` in the appropriate box, in each row, to show the correct statement about these strands.
+For each statement, put **one** cross `box x` in the appropriate box, in each row, to show the correct statement about these strands.
 
 **(3)**
 

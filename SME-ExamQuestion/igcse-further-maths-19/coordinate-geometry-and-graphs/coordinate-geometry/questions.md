@@ -127,7 +127,7 @@ Show, by shading, the region $R$defined by the inequalities
 `y less-than or slanted equal to 2 x plus 5      4 y greater-than or slanted equal to x minus 8      5 y plus 3 x less-than or slanted equal to 30`
 
 ### 5((c)) — 3 marks — structured — from paper June 2023 · Paper 2
-For all points in $R$ with coordinates `open parentheses x comma space y close parentheses`
+For all points in $R$ with coordinates $( x , y )$
 
 $P=2x-5y$
 
@@ -136,7 +136,7 @@ Using your graph, find the least value of $P$
 ## Q7 — medium — 9 marks · exam-questions
 
 ### 4((a)) — 3 marks — structured — from paper November 2023 · Paper 1
-The point $A$ with coordinates `open parentheses 12 comma space 14 close parentheses` and the point $B$ with coordinates `open parentheses q comma space 2 close parentheses` where $q$ is a constant, lie on the straight line with equation $3y-2x-p=0$ where $p$ is a constant.
+The point $A$ with coordinates $( 12 , 14 )$ and the point $B$ with coordinates $( q , 2 )$ where $q$ is a constant, lie on the straight line with equation $3y-2x-p=0$ where $p$ is a constant.
 
 Find the value of $p$and the value of $q$
 
@@ -164,7 +164,7 @@ Show, by shading on your graph, the region $R$ defined by the inequalities
 `y greater-than or slanted equal to negative x minus 1`  and  `y greater-than or slanted equal to 3 x minus 8` and  `2 y less-than or slanted equal to x plus 8`
 
 ### 4((c)) — 4 marks — structured — from paper November 2023 · Paper 2
-For all points in $R$, with coordinates `open parentheses x comma space y close parentheses`
+For all points in $R$, with coordinates $( x , y )$
 
 $P=2y-3x$
 

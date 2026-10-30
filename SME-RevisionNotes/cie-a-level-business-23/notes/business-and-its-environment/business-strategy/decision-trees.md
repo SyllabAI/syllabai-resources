@@ -94,19 +94,11 @@ guided_study: false
 
 - Using the example above, the expected value of opening a new store is
 
-`equals space left parenthesis £ 420 comma 000 space cross times space 0.7 right parenthesis space plus space left parenthesis negative £ 24 comma 000 space cross times space 0.3 right parenthesis space space
-
-equals space £ 294 comma 000 space plus space minus £ 7 comma 200 space
-
-equals space £ 286 comma 800 space`
+$= ( £ 420 , 000 \\times 0.7 ) + ( - £ 24 , 000 \\times 0.3 ) = £ 294 , 000 + - £ 7 , 200 = £ 286 , 800$
 
 - Using the example above the expected value of expanding the website is
 
-`equals space left parenthesis £ 480 comma 000 space cross times space 0.6 right parenthesis space plus space space left parenthesis negative £ 32 comma 000 space cross times space 0.4 right parenthesis space
-
-equals space £ 288 comma 000 space space plus space minus £ 12 comma 800
-
-equals space £ 275 comma 200`
+$= ( £ 480 , 000 \\times 0.6 ) + ( - £ 32 , 000 \\times 0.4 ) = £ 288 , 000 + - £ 12 , 800 = £ 275 , 200$
 
 - As the expected value of opening a new store is higher, at £286,800, than that of expanding the website  at £275,200, the business **should open a new store**
 
@@ -129,23 +121,11 @@ equals space £ 275 comma 200`
 
 - The expected value of launching a new product is
 
-`equals space left parenthesis £ 520 comma 000 space cross times space 0.6 right parenthesis space plus space left parenthesis negative £ 54 comma 000 space cross times space 0.4 right parenthesis space minus space £ 280 comma 000 space space
-
-equals space £ 312 comma 000 space plus space minus £ 21 comma 600 space minus space £ 280 comma 000 space space
-
-equals space £ 290 comma 400 space minus space £ 280 comma 000 space space
-
-equals space £ 10 comma 400`
+$= ( £ 520 , 000 \\times 0.6 ) + ( - £ 54 , 000 \\times 0.4 ) - £ 280 , 000 = £ 312 , 000 + - £ 21 , 600 - £ 280 , 000 = £ 290 , 400 - £ 280 , 000 = £ 10 , 400$
 
 - The expected value of improving the existing product is
 
-`equals space left parenthesis £ 225 comma 000 space cross times space 0.9 right parenthesis space plus space left parenthesis negative £ 22 comma 000 space cross times space 0.1 right parenthesis space minus space £ 190 comma 000 space space
-
-equals space £ 202 comma 500 space plus space minus £ 2 comma 200 space minus space £ 190 comma 000 space space
-
-equals space £ 200 comma 300 space minus space £ 190 comma 000 space space
-
-equals space £ 10 comma 300 space`
+$= ( £ 225 , 000 \\times 0.9 ) + ( - £ 22 , 000 \\times 0.1 ) - £ 190 , 000 = £ 202 , 500 + - £ 2 , 200 - £ 190 , 000 = £ 200 , 300 - £ 190 , 000 = £ 10 , 300$
 
 - As the expected value of launching a new product is marginally higher, at £10,400 ,than that of improving the existing product, at £10,300, the business should choose the option to **launch a new product **
 
@@ -169,19 +149,11 @@ equals space £ 10 comma 300 space`
 > 
 > **Step 1: Calculate the expected value of redeveloping the product**
 > 
-> `equals space left parenthesis £ 840 comma 000 space cross times space 0.5 right parenthesis space plus space space left parenthesis negative £ 84 comma 000 space cross times space 0.5 right parenthesis space
-> 
-> equals space £ 420 comma 000 space space space space space space space plus space space space space minus £ 42 comma 000 space space
-> 
-> equals space £ 378 comma 000 space space space space space space space space space space space space space space space space space space space space space space space space space space space space`    **(2)**
+> $= ( £ 840 , 000 \\times 0.5 ) + ( - £ 84 , 000 \\times 0.5 ) = £ 420 , 000 + - £ 42 , 000 = £ 378 , 000$    **(2)**
 > 
 > **Step 2: Calculate the expected value of the advertising campaign**
 > 
-> `equals space left parenthesis £ 660 comma 000 space cross times space 0.6 right parenthesis space plus space left parenthesis negative £ 76 comma 000 space cross times space 0.4 right parenthesis space space
-> 
-> equals space £ 396 comma 000 space plus space minus £ 30 comma 400 space space
-> 
-> equals space £ 365 comma 600 space space space space space space space space space space space space space space space space space space space space space space space space space space space space`**   ** **(2)**
+> $= ( £ 660 , 000 \\times 0.6 ) + ( - £ 76 , 000 \\times 0.4 ) = £ 396 , 000 + - £ 30 , 400 = £ 365 , 600$**   ** **(2)**
 > 
 > **Step 3: Interpret the outcomes and make a decision**
 > 

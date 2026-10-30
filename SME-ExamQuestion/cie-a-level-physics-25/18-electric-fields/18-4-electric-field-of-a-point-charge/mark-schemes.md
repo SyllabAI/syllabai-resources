@@ -61,7 +61,7 @@ Determine the ratio of the electric field strengths:
 
 **[Total: 2 marks]**
 
-> *You must remember that the composition of an α-particle, which is the same as a helium nucleus (*`He presubscript 2 presuperscript 4`*) is 2 protons and 2 neutrons.*
+> *You must remember that the composition of an α-particle, which is the same as a helium nucleus (*$He_{2}^{4}$*) is 2 protons and 2 neutrons.*
 
 > *Remember **Q** in the electric field strength equation is the charge that is producing the field. The α-particle experiences the field of the gold nucleus, and vice versa. Since the α-particle has much less charge, it is expected that it will produce a much smaller electric field strength.*
 The direction the α–particle will travel in after it is momentarily stationary is:

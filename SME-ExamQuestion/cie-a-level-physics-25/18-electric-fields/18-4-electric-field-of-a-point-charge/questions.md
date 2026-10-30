@@ -10,7 +10,7 @@
 
 **Q1** [3 marks]
 
-An α-particle is moving directly towards a stationary gold nucleus (`Au presubscript 79 presuperscript 197`).
+An α-particle is moving directly towards a stationary gold nucleus ($Au_{79}^{197}$).
 
 The α-particle and the gold nucleus may be considered to be solid spheres with the charge and mass concentrated at the centre of each sphere.
 

@@ -315,7 +315,7 @@ Complete Table 6.1 to show the number of protons, neutrons, and electrons in an 
 
 | particle | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
-| `Mg presubscript 12 presuperscript 24` |   |   |   |
+| $Mg_{12}^{24}$ |   |   |   |
 | $\text{Be} pre_{4} pre^{9^{2} +}$ |   |   |   |
 
 **Q1** [2 marks]
@@ -449,7 +449,7 @@ You will need to use the Periodic Table.
 
 | particle | number of protons | number of electrons | number of neutrons | symbol or formula |
 |---|---|---|---|---|
-| A | 4 | 4 | 5 | `Be presubscript 4 presuperscript 9` |
+| A | 4 | 4 | 5 | $Be_{4}^{9}$ |
 | B | 19 | 18 | 20 |   |
 | C | 30 | 30 | 35 |   |
 | D | 8 | 10 | 8 |   |
@@ -1034,7 +1034,7 @@ ii) Identify the reducing agent in this reaction. Explain your answer.
 
 **Q15** [3 marks]
 
-Magnesium exists as three isotopes, `Mg presubscript 12 presuperscript 24`, `Mg presubscript 12 presuperscript 25` and `Mg presubscript 12 presuperscript 26`.
+Magnesium exists as three isotopes, $Mg_{12}^{24}$, $Mg_{12}^{25}$ and $Mg_{12}^{26}$.
 
 Magnesium reacts with oxygen to form the ionic compound magnesium oxide.
 

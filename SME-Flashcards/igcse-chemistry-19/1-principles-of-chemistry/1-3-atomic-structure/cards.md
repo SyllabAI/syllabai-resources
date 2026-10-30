@@ -195,12 +195,12 @@ The number of electrons in an atom is the same as the number of protons / the at
 
 **FRONT**
 
-Calculate the number of protons, neutrons and electrons in an atom of `Al presubscript 13 presuperscript 27`.
+Calculate the number of protons, neutrons and electrons in an atom of $Al_{13}^{27}$.
 
 
 **BACK**
 
-The number of protons, neutrons and electrons in an atom of `Al presubscript 13 presuperscript 27` are:
+The number of protons, neutrons and electrons in an atom of $Al_{13}^{27}$ are:
 
 - Protons = 13
 - Neutrons = 27 - 13 = 14

@@ -46,7 +46,7 @@ The **cube root** of the **volume** **scale factor** can be used to find an **un
 
 The **cube root** of the **volume** **scale factor** is the **length scale factor**. This can be used to find an **unknown length**.
 
-E.g. you can find length $x$ by finding the volume scale factor, $\frac{448}{56}=8$, taking its cube root, `cube root of 8 equals 2`, and multiplying the result by the corresponding length on object A, $x=7\times2=14\mathrm{cm}$.
+E.g. you can find length $x$ by finding the volume scale factor, $\frac{448}{56}=8$, taking its cube root, $\sqrt[3]{8} = 2$, and multiplying the result by the corresponding length on object A, $x=7\times2=14\mathrm{cm}$.
 
 ![Two similar objects. Object A has a volume of 56 cm^3 and object B has a volume of 448 cm^3. The volume scale factor is therefore 8. A length of 7 cm is marked on object A and the corresponding length on object B is labelled x.](assets/2bbd0e2874f2-45207-2024-06-24-0ng-kleki.png)
 

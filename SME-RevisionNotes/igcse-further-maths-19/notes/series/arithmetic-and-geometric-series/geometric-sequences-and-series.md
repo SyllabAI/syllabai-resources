@@ -200,9 +200,9 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
   
     - `open vertical bar r close vertical bar less than 1`**  **is the same as   $-1<r<1$
     - In this case the sum to infinity can be calculated
-  - If  `open vertical bar r close vertical bar greater or equal than 1`  then the sequence **does not converge**
+  - If  `| r | >= 1`  then the sequence **does not converge**
   
-    - `open vertical bar r close vertical bar greater or equal than 1`  is the same as  $r\leq-1$  or  $r\geq1$
+    - `| r | >= 1`  is the same as  $r\leq-1$  or  $r\geq1$
     - In this case the sum to infinity cannot be calculated
 - If $\vert r \vert < 1$, then the sum **converges** to a finite value given by the formula
 

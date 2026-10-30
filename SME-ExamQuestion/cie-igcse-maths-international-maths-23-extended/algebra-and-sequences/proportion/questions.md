@@ -24,7 +24,7 @@ $y$ = ...............................................
 
 **Q2** [1 mark]
 
-$y$ is inversely proportional to `open parentheses x plus 3 close parentheses squared` 
+$y$ is inversely proportional to $( x + 3 )^{2}$ 
 When $x=2$, $y=8$.
 
 Find $y$ when $x=7$.
@@ -49,7 +49,7 @@ $y$= ............................................
 
 **Q4** [2 marks]
 
-$m$ varies inversely with the square of `open parentheses p minus 1 close parentheses`. 
+$m$ varies inversely with the square of $( p - 1 )$. 
 When $p=4,m=5.$ 
 Find $m$ when $p=6$.
 

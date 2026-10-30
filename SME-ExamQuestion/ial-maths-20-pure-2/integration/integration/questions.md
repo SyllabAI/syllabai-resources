@@ -281,7 +281,7 @@ $\int_{4}^{9} \frac{x^{2} + 1}{ \sqrt{x} } d x$
 ### 1() — 5 marks — structured
 Given
 
-`integral subscript 1 superscript p`( $1+\frac{1}{x^{2}}$) $dx=\frac{15}{4}$
+$\int_{1}^{p}$( $1+\frac{1}{x^{2}}$) $dx=\frac{15}{4}$
 
 find the value of the constant $p$, where $p>0$.
 

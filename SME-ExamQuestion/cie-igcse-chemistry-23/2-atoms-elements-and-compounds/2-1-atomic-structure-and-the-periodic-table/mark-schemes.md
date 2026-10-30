@@ -294,8 +294,8 @@ c) The completed table should look as follows:
 
 | atom | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
-| `Ga presubscript 31 presuperscript 69` | **31** | **38** | **31** |
-| `Ga presubscript 31 presuperscript 71` | **31** | **40** | **31** |
+| $Ga_{31}^{69}$ | **31** | **38** | **31** |
+| $Ga_{31}^{71}$ | **31** | **40** | **31** |
 |   | Correct column;** [1 mark]** | Correct column;** [1 mark]** | Correct column;** [1 mark]** |
 
 **[Total: 3 marks]**
@@ -309,7 +309,7 @@ c) The completed table should look as follows:
   - *The atom has no charge*
   
     - *Therefore, the number of electrons = number of protons = 31*
-- *For *`Ga presubscript 31 presuperscript 71`
+- *For *$Ga_{31}^{71}$
 
   - *Number of protons = 31*
   - *Number of protons + number of neutrons = 71*
@@ -347,7 +347,7 @@ Particle E:
 - *You can figure out the charge by looking at the difference between the number of protons and electrons*
 b) The atom in the table which is an isotope of the atom which has the composition 11p, 11e and 14n is:
 
-- Particle **B** / `Na presubscript 11 presuperscript 23` / sodium; **[1 mark]**
+- Particle **B** / $Na_{11}^{23}$ / sodium; **[1 mark]**
 - (Because) they have the same proton number 
 **OR **
 (Because) they have the same number of protons (and electrons) 
@@ -1421,8 +1421,8 @@ The completed table should look as follows:
 | particle | number of protons | number of electrons | number of neutrons |
 |---|---|---|---|
 | `K _ 19 ^ 39`; **[1 mark]** | 19 | 19 | 20 |
-| `Fe presubscript 26 presuperscript 56` | 26 | 26 | 30 |
-| `Li presubscript 3 presuperscript 7 superscript plus`; **[1 mark]** | 3 | 2 | 4; **[1 mark]** |
+| $Fe_{26}^{56}$ | 26 | 26 | 30 |
+| `Li _ 3 ^ 7 ^ +`; **[1 mark]** | 3 | 2 | 4; **[1 mark]** |
 | $\text{Ga} pre_{31} pre^{70^{3} +}$ | 31 | 28 | 39 |
 | $\text{Se} pre_{34} pre^{79^{2} -}$; **[1 mark]** | 34 | 36 | 45 |
 
@@ -1544,8 +1544,8 @@ b) The completed table is:
 
 |   | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
-| `Mg presubscript 12 presuperscript 24` | **Final answer:** **12** | **Final answer:** **12** | **Final answer:** **12** |
-| `Mg presubscript 12 presuperscript 26` | **Final answer:** **12** | **Final answer:** **14** | **Final answer:** **12** |
+| $Mg_{12}^{24}$ | **Final answer:** **12** | **Final answer:** **12** | **Final answer:** **12** |
+| $Mg_{12}^{26}$ | **Final answer:** **12** | **Final answer:** **14** | **Final answer:** **12** |
 
 - Each row; **[1 mark]**
 
@@ -1582,7 +1582,7 @@ e) The completed table is:
 | `Cl _ 17 ^ 37 ^ -` | 17 | 20 | 18 |
 
 - $Be_{4}^{9}$; **[1 mark]**
-- `Cl presubscript 17 presuperscript 37 superscript minus`; **[3 marks]**
+- `Cl _ 17 ^ 37 ^ -`; **[3 marks]**
 
 **[Total: 4 marks]**
 
@@ -1598,7 +1598,7 @@ e) The completed table is:
   - *You will score 2 marks for this element being chlorine *
   
     - *Cl*<sup>*–*</sup>
-  - *You will score all 3 marks for   *`Cl presubscript 17 presuperscript 37 superscript minus`
+  - *You will score all 3 marks for   *`Cl _ 17 ^ 37 ^ -`
   - *Again, look at the number of protons to identify the element = chlorine*
   - *The mass number is found by adding the protons and neutrons together so 20 + 17 = 37 *
   - *There is one more electron than proton so the ion has a single negative charge*

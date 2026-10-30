@@ -137,7 +137,7 @@ A geometric progression has a first term of 3 and a second term of 2.4.
 
 a equals 3
 
-r equals fraction numerator 2.4 over denominator 3 end fraction
+$r = \frac{2.4}{3}$
 
 r equals 0.8
 

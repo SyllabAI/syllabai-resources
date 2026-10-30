@@ -20,7 +20,7 @@ guided_study: true
 #### What steps should I follow when carrying out a hypothesis test for the mean of a normal distribution?
 
 - Following these steps will help when carrying out a hypothesis test for the mean of a normal distribution:
-- **Step 1.**  Define the distribution of the **population mean** usually `X tilde size 16px N size 16px left parenthesis size 16px μ size 16px comma size 16px σ ^ size 16px 2 size 16px right parenthesis`
+- **Step 1.**  Define the distribution of the **population mean** usually `X tilde size 16px N size 16px ( size 16px μ size 16px , size 16px σ ^ size 16px 2 size 16px )`
 - **Step 2.  **Write the null and alternative hypotheses clearly
 
 - **Step 3.   **Assuming the null hypothesis to be true, define the **statistic**
@@ -55,8 +55,8 @@ guided_study: true
 - The population mean is tested by looking at the mean of a sample taken from the population
 
   - The sample mean is denoted $\overline{x}$
-  - For a random variable `X tilde size 16px N size 16px left parenthesis size 16px μ size 16px comma size 16px σ ^ size 16px 2 size 16px right parenthesis` the distribution of the sample mean would be `X with bar on top tilde N left parenthesis μ comma σ ² / n right parenthesis`
-- To carry out a hypothesis test with the normal distribution, the **statistic used to carry out the test **will be the **sample mean, **`top enclose X`
+  - For a random variable `X tilde size 16px N size 16px ( size 16px μ size 16px , size 16px σ ^ size 16px 2 size 16px )` the distribution of the sample mean would be $\bar{X} \sim N ( μ , σ ² / n )$
+- To carry out a hypothesis test with the normal distribution, the **statistic used to carry out the test **will be the **sample mean, **$\vec{X}$
 
   - Remember that the **variance** of the sample mean distribution will be the variance of the population distribution **divided by *****n***
   - the **mean** of the sample mean distribution will be the same as the mean of the population distribution
@@ -108,7 +108,7 @@ guided_study: true
     - Check that the two critical values are the same distance from the mean
 
 > **Worked Example**
-> The time,  minutes, that it takes Amelea to complete a 1000-piece puzzle can be modelled using `X tilde straight N left parenthesis 204 comma 81 right parenthesis` .  Amelea gets prescribed a new pair of glasses and claims that the time it takes her to complete a 1000-piece puzzle has decreased.  Wearing her new glasses, Amelea completes 12 separate 1000-piece puzzles and calculates her mean time on these puzzles to be 201 minutes.  Use these 12 puzzles as a sample to test, at the 5% level of significance, whether there is evidence to support Amelea’s claim. You may assume the variance is unchanged.
+> The time,  minutes, that it takes Amelea to complete a 1000-piece puzzle can be modelled using $X \sim \mathrm{N} ( 204 , 81 )$ .  Amelea gets prescribed a new pair of glasses and claims that the time it takes her to complete a 1000-piece puzzle has decreased.  Wearing her new glasses, Amelea completes 12 separate 1000-piece puzzles and calculates her mean time on these puzzles to be 201 minutes.  Use these 12 puzzles as a sample to test, at the 5% level of significance, whether there is evidence to support Amelea’s claim. You may assume the variance is unchanged.
 > 
 > **Answer:**
 > 

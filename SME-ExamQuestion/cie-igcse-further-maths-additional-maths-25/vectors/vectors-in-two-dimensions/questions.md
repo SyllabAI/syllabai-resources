@@ -298,7 +298,7 @@ The point $A$ is the mid‑point of $BC$. Find the value of $x$ and of $y$.
 
 Relative to an origin O, the position vectors of the points A, B, C and D are
 
-stack O A with rightwards arrow on top space equals open parentheses table row 6 row cell negative 5 end cell end table close parentheses comma space stack O B space with rightwards arrow on top equals open parentheses table row 10 row 3 end table close parentheses comma space stack O C with rightwards arrow on top space equals space open parentheses table row x row y end table close parentheses space a n d space stack O D with rightwards arrow on top space equals space open parentheses table row 12 row 7 end table close parentheses
+$ O \vec{A} = ( \begin{gathered} 6 \\ - 5 \end{gathered} ) , O B \text{spac} \vec{e} = ( \begin{gathered} 10 \\ 3 \end{gathered} ) , O \vec{C} = ( \begin{gathered} x \\ y \end{gathered} ) a n d O \vec{D} = ( \begin{gathered} 12 \\ 7 \end{gathered} )$
 
 The point $E$ lies on $OD$ such that $OE:OD$ is $1:1+λ$. Find the value of $λ$ such that $\overset{\rightarrow}{BE}$ is parallel to the $x$‑axis.
 

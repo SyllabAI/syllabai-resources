@@ -11,9 +11,9 @@ A continuous random variable can take any value within a given range.  Many natu
 Give a different example of a quantity that could be modelled using the normal distribution.
 
 ### 2() — 3 marks — structured
-The graph of the normal distribution has a characteristic bell shape that is symmetrical about the mean, $μ$.  If $X$ has a normal distribution with a mean,$μ$ , and variance,$σ^{2}$,  then it can be written as `X tilde space N left parenthesis mu comma sigma squared right parenthesis.`
+The graph of the normal distribution has a characteristic bell shape that is symmetrical about the mean, $μ$.  If $X$ has a normal distribution with a mean,$μ$ , and variance,$σ^{2}$,  then it can be written as $X \sim N ( \mu , \sigma ^{2} ).$
 
-For `X tilde N left parenthesis mu comma sigma squared right parenthesis`, state:
+For $X \sim N ( \mu , \sigma ^{2} )$, state:
 
 (i) $P(X<μ)$
 
@@ -27,7 +27,7 @@ Using your answers to part (b), or otherwise, explain why there is no difference
 ## Q2 — easy — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-For the standard normal distribution, `Z tilde straight N left parenthesis 0 comma 1 ² right parenthesis` , the probability  $P(Z\leqz)$ can be written as $Φ(z)$.
+For the standard normal distribution, $Z \sim \mathrm{N} ( 0 , 1 ² )$ , the probability  $P(Z\leqz)$ can be written as $Φ(z)$.
 
 The value of $Φ(0.23)$ would be found in the table by looking up $z=0.23$ to get the answer $Φ(0.23)=0.5910$.
 
@@ -46,7 +46,7 @@ Use the table of $z$-values in the formula booklet to write down the value of:
 ## Q3 — easy — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For the standard normal distribution,  `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
+For the standard normal distribution,  $Z \sim N ( 0 , 1^{2} )$, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
 
 To solve $Φ(z)=0.6808$  we would find the value 0.6808 in a column with heading $Φ(z)$ and read off the corresponding $z$-value, so  $Φ(0.47)=0.6808$.
 
@@ -72,7 +72,7 @@ Use the table of percentage points to find the value of $z$ such that:
 ## Q4 — easy — 9 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For the standard normal distribution, `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
+For the standard normal distribution, $Z \sim N ( 0 , 1 ² )$, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
 
 To calculate $P(Z>z)$ the following formulae can be used:
 
@@ -103,7 +103,7 @@ Use the formulae above to rewrite each equation in the form $Φ(z)=p$, $Φ(-z)=p
 ## Q5 — easy — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-For the standard normal distribution,  `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
+For the standard normal distribution,  $Z \sim N ( 0 , 1 ² )$, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
 
 The table of $z$-values does not contain negative $z$-values. To calculate probabilities involving negative $z$-values the following formulae can be used:
 
@@ -131,7 +131,7 @@ Use the formula above to find the value of $Φ(z)$  and then use the table of $z
 ## Q6 — easy — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For the standard normal distribution, `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
+For the standard normal distribution, $Z \sim N ( 0 , 1 ² )$, the probability $P(Z\leqz)$ can be written as $Φ(z)$.
 
 To calculate the probability between two values the following formula can be used:
 
@@ -157,13 +157,13 @@ Use the formula above to rewrite the following in the form $Φ(b)-Φ(a)=p$  and 
 ## Q7 — easy — 14 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For the standard normal distribution, `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z<z)$ can be written as $Φ(z)$.
+For the standard normal distribution, $Z \sim N ( 0 , 1 ² )$, the probability $P(Z<z)$ can be written as $Φ(z)$.
 
-A random variable `X tilde N left parenthesis mu comma sigma squared right parenthesis` can be coded to `Z tilde N left parenthesis 0 comma 1 squared right parenthesis comma` using the formula:
+A random variable $X \sim N ( \mu , \sigma ^{2} )$ can be coded to $Z \sim N ( 0 , 1^{2} ) ,$ using the formula:
 
 $Z=\frac{(X-μ)}{σ}$
 
-For the random variable `X tilde space N left parenthesis 21 comma 4 squared right parenthesis`,
+For the random variable $X \sim N ( 21 , 4^{2} )$,
 
 (i) write down the values of $μ$ and $σ$,
 
@@ -174,7 +174,7 @@ For the random variable `X tilde space N left parenthesis 21 comma 4 squared rig
 (iv) calculate $P(X>26)$.
 
 ### 2() — 6 marks — structured
-For the random variable `X space tilde space N left parenthesis 54 comma 5 squared right parenthesis`, write in terms of $Φ(z)$ and hence find:
+For the random variable $X \sim N ( 54 , 5^{2} )$, write in terms of $Φ(z)$ and hence find:
 
 (i) $P(X\leq60)$
 
@@ -183,7 +183,7 @@ For the random variable `X space tilde space N left parenthesis 54 comma 5 squar
 (iii) $P(X\geq58)$.
 
 ### 3() — 4 marks — structured
-For `space X space tilde space N left parenthesis 187 comma 100 right parenthesis`,
+For $X \sim N ( 187 , 100 )$,
 
 (i) explain why $σ=10$,
 
@@ -194,7 +194,7 @@ For `space X space tilde space N left parenthesis 187 comma 100 right parenthesi
 ## Q8 — medium — 10 marks · exam-questions
 
 ### 1() — 2 marks — structured
-For the random variable,`space space X space tilde space N left parenthesis 32 comma 9 right parenthesis`,
+For the random variable,$X \sim N ( 32 , 9 )$,
 
 (i) Write down the mean and standard deviation.
 
@@ -217,7 +217,7 @@ Use the formula $Z=\frac{X-μ}{σ}$ to find appropriate $z$-values and then use 
 ## Q9 — medium — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For the standard normal distribution `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`, use the table of $z$-values to find:
+For the standard normal distribution $Z \sim N ( 0 , 1^{2} )$, use the table of $z$-values to find:
 
 (i) $P(Z<1.5)$
 
@@ -226,7 +226,7 @@ For the standard normal distribution `Z tilde N left parenthesis 0 comma 1 squar
 (iii) $P(-2.1<Z<-0.3)$
 
 ### 2() — 3 marks — structured
-The random variable `X tilde N left parenthesis 2 comma 0.1 squared right parenthesis.`
+The random variable $X \sim N ( 2 , 0.1^{2} ).$
 
 Using the coding relationship between $X$ and $Z$, find the values of $a,b,c$ and $d$ such that:
 
@@ -239,7 +239,7 @@ Using the coding relationship between $X$ and $Z$, find the values of $a,b,c$ an
 ## Q10 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The random variable `X space tilde space N left parenthesis 50 comma 49 right parenthesis`
+The random variable $X \sim N ( 50 , 49 )$
 
 (i) Write down the values of $μ$ and $σ$ .
 
@@ -255,7 +255,7 @@ The random variable `X space tilde space N left parenthesis 50 comma 49 right pa
 ## Q11 — medium — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For the random variable `space X space tilde space N left parenthesis mu comma 36 right parenthesis` it is known that $P(X<51)=0.8665$.
+For the random variable $X \sim N ( \mu , 36 )$ it is known that $P(X<51)=0.8665$.
 
 (i) Write down the value of $σ$.
 
@@ -266,7 +266,7 @@ For the random variable `space X space tilde space N left parenthesis mu comma 3
 (iv) Hence calculate the value of $μ$.
 
 ### 2() — 3 marks — structured
-For the random variable `Y tilde N left parenthesis 93 comma space sigma squared right parenthesis` it is known that $P(Y>101)=0.0735$.
+For the random variable $Y \sim N ( 93 , \sigma ^{2} )$ it is known that $P(Y>101)=0.0735$.
 
 (i) Calculate the value of $z$ such that $P(Z>z)=0.0735$.
 
@@ -277,7 +277,7 @@ For the random variable `Y tilde N left parenthesis 93 comma space sigma squared
 ## Q12 — medium — 10 marks · exam-questions
 
 ### 1() — 5 marks — structured
-For the random variable `X tilde N left parenthesis 23 comma space 4 squared right parenthesis` find the following probabilities:
+For the random variable $X \sim N ( 23 , 4^{2} )$ find the following probabilities:
 
 (i) $P(X<20)$
 
@@ -286,7 +286,7 @@ For the random variable `X tilde N left parenthesis 23 comma space 4 squared rig
 (iii) $P(20\leqX<29)$
 
 ### 2() — 5 marks — structured
-For the random variable `Y tilde N left parenthesis 100 comma space 225 right parenthesis` find the following probabilities:
+For the random variable $Y \sim N ( 100 , 225 )$ find the following probabilities:
 
 (i) $P(Y\leq90)$
 
@@ -297,7 +297,7 @@ For the random variable `Y tilde N left parenthesis 100 comma space 225 right pa
 ## Q13 — medium — 7 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The random variable `X tilde N left parenthesis 10 comma space 9 right parenthesis`.
+The random variable $X \sim N ( 10 , 9 )$.
 
 Find the value of $a$ and the value of $b$, each to 2 decimal places, such that:
 
@@ -311,7 +311,7 @@ Use a sketch of the distribution of $X$ to explain why $P(a\leqX\leqb)=0.45$.
 ## Q14 — medium — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The random variable `X tilde N left parenthesis mu comma space sigma squared right parenthesis`. It is known that $P(X>36.88)=0.025$ and $P(X<27.16)=0.1$
+The random variable $X \sim N ( \mu , \sigma ^{2} )$. It is known that $P(X>36.88)=0.025$ and $P(X<27.16)=0.1$
 
 Find the values of $a$ and $b$ for which $P(Z>a)=0.025$ and  $P(Z<b)=0.1$,  where $Z$ is the standard normal variable. Give your answers correct to 4 decimal places.
 
@@ -328,7 +328,7 @@ By solving the simultaneous equations in (b), determine the values of $μ$ and $
 ## Q15 — hard — 8 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The test scores, $X$, of a group of RAF recruits in an aptitude test are modelled as a normal distribution with `X tilde N left parenthesis 210 comma 27.8 squared right parenthesis`.
+The test scores, $X$, of a group of RAF recruits in an aptitude test are modelled as a normal distribution with $X \sim N ( 210 , 27.8^{2} )$.
 
 (i) Find the values of $a$ and $b$ such that $P(X<a)=0.25$ and $P(X>b)=0.25$.
 
@@ -342,7 +342,7 @@ One of the recruits, Amelia, achieves a score of 231. Determine whether Amelia w
 ## Q16 — hard — 10 marks · exam-questions
 
 ### 1() — 8 marks — structured
-The random variable `X tilde N left parenthesis 13 comma space 15 right parenthesis`.
+The random variable $X \sim N ( 13 , 15 )$.
 
 Find the value of $a$, to 3 significant figures, such that:
 
@@ -358,7 +358,7 @@ Explain why there are no values of $a$ such that $P(14\leqX\leqa)=0.5$.
 ## Q17 — hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The standard normal distribution is `Z tilde space N left parenthesis 0 comma space 1 squared right parenthesis`.
+The standard normal distribution is $Z \sim N ( 0 , 1^{2} )$.
 
 (i) Write down, to 4 decimal places, the value of $z$ for which $P(Z>z)=0.1$.
 
@@ -372,7 +372,7 @@ Use your answer to part (a)(ii) to find the range of possible weights, to the ne
 ## Q18 — hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The random variable `X tilde N left parenthesis mu comma sigma squared right parenthesis`.  It is known that $P(X>34.451)=0.001$ and $P(X<14.792)=0.1977.$
+The random variable $X \sim N ( \mu , \sigma ^{2} )$.  It is known that $P(X>34.451)=0.001$ and $P(X<14.792)=0.1977.$
 
 (i) Use the relationship between $X$ and the standard normal variable $Z$ to show that the following equation must be true:
 
@@ -426,7 +426,7 @@ Find the probability that neither of the bags will contain less than 2.96 kg of 
 ## Q22 — very_hard — 9 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The test scores, $X$, of a group of Royal Navy recruits in an aptitude test are modelled as a normal distribution with  `X tilde N left parenthesis 520 comma space 89.9 squared right parenthesis`.
+The test scores, $X$, of a group of Royal Navy recruits in an aptitude test are modelled as a normal distribution with  $X \sim N ( 520 , 89.9^{2} )$.
 
 Find the interquartile range of the scores.
 
@@ -438,7 +438,7 @@ Given that Mervyn, one of the recruits, has been offered a role within the subma
 ## Q23 — very_hard — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The distribution of the test scores, $X$, of a group of British Army officer cadets on an aviation aptitude test is modelled as a normal distribution with  `X tilde N left parenthesis 120 comma space 26.5 squared right parenthesis`.
+The distribution of the test scores, $X$, of a group of British Army officer cadets on an aviation aptitude test is modelled as a normal distribution with  $X \sim N ( 120 , 26.5^{2} )$.
 
 Only cadets who score in the top 10% on the test are eligible to proceed directly to helicopter pilot training.  Cadets whose scores are between the 40th and 90th percentiles, however, are eligible to resit the test in an attempt to improve their scores.
 
@@ -452,7 +452,7 @@ Given that it is only possible to receive an integer number of marks as a score 
 ## Q24 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-The weight, $W$ kg, of the feed in a sack of pheasant feed produced by a certain manufacturer is modelled as `W tilde N open parentheses 20 comma space 1 over 3600 close parentheses.`
+The weight, $W$ kg, of the feed in a sack of pheasant feed produced by a certain manufacturer is modelled as $W \sim N ( 20 , \frac{1}{3600} ).$
 
 Roger buys three sacks of the manufacturer’s pheasant feed to feed to the pheasants who have begun showing up at his backyard bird feeding station.
 
@@ -488,4 +488,4 @@ The Monkey Puzzle Tree Marketing Board has proposed a new scheme that will measu
 Find the range of possible puzzlingness measurements for a saleable monkey puzzle tree. Your answer should be given in terms of $μ$ and $σ$.
 
 ### 2() — 3 marks — structured
-Given that $P(X<μ-8)=0.2$  find `space P left parenthesis X greater than mu plus 8 │ X greater than mu minus 8 right parenthesis.`
+Given that $P(X<μ-8)=0.2$  find $P ( X > \mu + 8 │ X > \mu - 8 ).$

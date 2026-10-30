@@ -10,11 +10,11 @@
 
 **Q1** [3 marks]
 
-`straight f open parentheses x close parentheses equals p sin open parentheses q x close parentheses`
+$\mathrm{f} ( x ) = p \sin ( q x )$
 
-The amplitude of `straight f open parentheses x close parentheses` is 4 and the period is 120°.
+The amplitude of $\mathrm{f} ( x )$ is 4 and the period is 120°.
 
-Find the exact value of `straight f open parentheses 45 close parentheses`.
+Find the exact value of $\mathrm{f} ( 45 )$.
 
 ### Q2 — very_hard — 2 marks
 
@@ -22,7 +22,7 @@ Find the exact value of `straight f open parentheses 45 close parentheses`.
 
 ![x-y coordinate plane with x-axis from -360 to 360 and y-axis from -3 to 3. A graph in a negative parabola shape has a maximum point at (0, 3) and meets the x axis at -360 and 360](assets/001-x-y-coordinate-plane-with-x-axis-from-360-to-360.png)
 
-The diagram shows the graph of  `straight f open parentheses x close parentheses equals a space cos space open parentheses b x close parentheses` for  $0\leqx\leq360.$
+The diagram shows the graph of  $\mathrm{f} ( x ) = a \cos ( b x )$ for  $0\leqx\leq360.$
 
 (i)   Write down the amplitude and period of$f(x)$.
 
@@ -42,7 +42,7 @@ Period ................................................
 
 ![Graph of y = cos^2(x) from 0 to 360 degrees, showing two complete waves entirely above or on the x axis with peaks at 0, 180 and 360 degrees and troughs at 90 and 270 degrees.](assets/002-graph-of-y-cos-2-x-from-0-to-360-degrees-showing.png)
 
-The diagram shows the graph of  `straight f open parentheses x close parentheses equals open parentheses cos space x degree close parentheses squared` for  $0\leqx\leq360.$
+The diagram shows the graph of  $\mathrm{f} ( x ) = ( \cos x^{\circ} )^{2}$ for  $0\leqx\leq360.$
 
 Write down the amplitude and period of$f(x)$.
 
@@ -54,9 +54,9 @@ Period ................................................
 
 **Q4** [2 marks]
 
-`straight f open parentheses x close parentheses equals 3 sin open parentheses 4 x degree close parentheses`
+$\mathrm{f} ( x ) = 3 \sin ( 4 x^{\circ} )$
 
-Find the amplitude and period of  `straight f open parentheses x close parentheses`.
+Find the amplitude and period of  $\mathrm{f} ( x )$.
 
 Amplitude = ................................................
 
@@ -77,7 +77,7 @@ Solve the equation  $\mathrm{sin}x=-0.75$  for  $0^{^{\circ}}\leqx\leq360^{\circ
 
 ![Oscillating graph on a set of axes, x axis from 0 to 360 and y axis from -3 to 3. Graph goes through the points (0,3), (90,-3), (180,3), (270,-3) and (360,3).](assets/004-oscillating-graph-on-a-set-of-axes-x-axis-from-0.png)
 
-The graph shows `straight f open parentheses x close parentheses equals a cos open parentheses b x close parentheses degree`.
+The graph shows $\mathrm{f} ( x ) = a \cos ( b x )^{\circ}$.
 
 Find the value of $a$ and the value of $b$.
 
@@ -101,9 +101,9 @@ Write down the period of $f(x)$.
 
 $f(x)=p\mathrm{cos}(qx)$
 
-The amplitude of `straight f open parentheses x close parentheses` is 3 and the period is 30°.
+The amplitude of $\mathrm{f} ( x )$ is 3 and the period is 30°.
 
-Find `straight f open parentheses 10 close parentheses`.
+Find $\mathrm{f} ( 10 )$.
 
 *Source: 2025 Specimen 4 Q15*
 
@@ -201,7 +201,7 @@ The diagrams show the graph of a function.   Write down the function.
 
 ![cie-igcse-2020-may-jun-p4-tz3-q10aii](assets/017-cie-igcse-2020-may-jun-p4-tz3-q10aii.png)
 
-`straight f open parentheses x close parentheses equals`................................................
+$\mathrm{f} ( x ) =$................................................
 
 *Source: 2020 May/June 0580/43 Q10A*
 

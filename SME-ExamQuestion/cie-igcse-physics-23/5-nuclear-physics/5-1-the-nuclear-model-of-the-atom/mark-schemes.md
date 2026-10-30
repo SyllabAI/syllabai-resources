@@ -294,7 +294,7 @@ The completed table for the radioactive isotope of carbon is as follows:
 $H_{1}^{2} + H_{1}^{3} \rightarrow H_{2}^{4} e + n_{0}^{1}$
 
 - Correct nuclide notation for helium: $X_{2}^{4} \text{or} H_{2}^{4} e \text{or} \\alpha pre_{2} pre^{4}$ ; **[1 mark]**
-- Correct nuclide notation for neutron: `n presubscript 0 presuperscript 1`; **[1 mark]**
+- Correct nuclide notation for neutron: $n_{0}^{1}$; **[1 mark]**
 
 **Total: [5 marks]**
 
@@ -313,7 +313,7 @@ Use data from the table to write down the nuclide equation for this decay:
 `C _ 6 ^ 14 -> N _ 7 ^ 14 + e _ - 1 ^ 0`    **OR**    `C _ 6 ^ 14 - e _ - 1 ^ 0 -> N _ 7 ^ 14`
 
 - `C _ 6 ^ 14` on left hand side; **[1 mark]**
-- `blank presubscript 7 presuperscript 14`on right hand side; **[1 mark]**
+- $blank_{7}^{14}$on right hand side; **[1 mark]**
 - N on right hand side; **[1 mark]**
 - `( + e _ - 1 ^ 0 )` on right hand side **OR** `( - e _ - 1 ^ 0 )` on left hand side; **[1 mark]**
 
@@ -388,7 +388,7 @@ When a nucleus of carbon-14 emits a β-particle:
 ### Q6
 (i) To determine the number of neutrons in a nucleus:
 
-- The symbol for this nucleus is `space presubscript 95 presuperscript 241 A m`
+- The symbol for this nucleus is $space_{95}^{241} A m$
 
   - Therefore there are **241** nucleons, of which **95** are protons
 - The number of neutrons = 241 − 95 = <u>146</u>; **[1 mark]**
@@ -468,7 +468,7 @@ A table with ticks in the correct boxes would look like:
 ### Q8
 The symbols for isotopes of hydrogen are:
 
-- hydrogen-1: `H presubscript 1 presuperscript 1`** AND**
+- hydrogen-1: $H_{1}^{1}$** AND**
 - hydrogen-2: `H _ 1 ^ 2`** AND**
 - hydrogen-3: `H _ 1 ^ 3` **[1 mark]**
 
@@ -483,8 +483,8 @@ The symbols for isotopes of hydrogen are:
 `H _ 1 ^ 2 + H _ 1 ^ 3 -> n _ 0 ^ 1 + He _ 2 ^ 4`
 
 - Identifies the 'one other particle' is helium / alpha particle; **[1 mark]**
-- Correct nuclide notation of the free neutron `n presubscript 0 presuperscript 1`; **[1 mark]**
-- Correct nuclide notation of the helium / alpha particle `He presubscript 2 presuperscript 4` or $\ \\alpha pre_{2} pre^{4}$; **[1 mark]**
+- Correct nuclide notation of the free neutron $n_{0}^{1}$; **[1 mark]**
+- Correct nuclide notation of the helium / alpha particle $He_{2}^{4}$ or $\ \\alpha pre_{2} pre^{4}$; **[1 mark]**
 
 **[Total: 5 marks]**
 
@@ -543,7 +543,7 @@ A completed diagram which would score two marks is:
 **[Total: 2 marks]**
 A correctly completed table which would score 2 marks would look like:
 
-|   | `He presubscript 2 presuperscript 3` | `He presubscript 2 presuperscript 5` |
+|   | $He_{2}^{3}$ | $He_{2}^{5}$ |
 |---|---|---|
 | number of protons | **Final answer:** **2** | **Final answer:** **2** |
 | number of neutrons | **Final answer:** **1** | **Final answer:** **3** |
@@ -584,9 +584,9 @@ A correctly completed table which would score 2 marks would look like:
 
 `n _ 0 ^ 1 + U _ 92 ^ 235 -> Ba _ 56 ^ 141 + Kr _ 36 ^ 92 + 3 n _ 0 ^ 1`
 
-- Correct notation for `n presubscript bold 0 presuperscript bold 1`, `U _ 92 ^ 235` **AND** `3 n _ 0 ^ 1`; **[1 mark]**
-- Correct calculation of 141, `Ba presubscript 56 presuperscript bold 141`; **[1 mark]**
-- Correct calculation of 36, `Kr presubscript bold 36 presuperscript 92`; **[1 mark]**
+- Correct notation for $n pre_{0} pre^{1}$, `U _ 92 ^ 235` **AND** `3 n _ 0 ^ 1`; **[1 mark]**
+- Correct calculation of 141, $\text{Ba} pre_{56} pre^{141}$; **[1 mark]**
+- Correct calculation of 36, $\text{Kr} pre_{36} pre^{92}$; **[1 mark]**
 
 *Example of calculation:*
 
@@ -769,12 +769,12 @@ Subtract the proton or atomic number from the larger number (the total nucleons)
 
 Recall that isotopes have the same number of protons:
 
-- Therefore the notation has the smaller number the same;  `space presubscript 88 presuperscript blank R a`
+- Therefore the notation has the smaller number the same;  $pre_{88} pre^{ } R a$
 
 Recall that the name of the isotope tells the total number of nucleons:
 
 - Therefore the notation for radium-223 will have the larger number as 223
-- The nuclide should be written `space presubscript 88 presuperscript 223 R a` **[1 mark]**
+- The nuclide should be written $space_{88}^{223} R a$ **[1 mark]**
 
 **[Total: 3 marks]**
 To calculate the time for a sample to decay:
@@ -940,36 +940,36 @@ Nuclides which have the same number of protons but different numbers of neutrons
 
 - Lead-216 and lead-206;** [1 mark]**
 
-  - Number of protons = bottom number, `Pb presubscript bold 82 presuperscript 216`, `Pb presubscript bold 82 presuperscript 206`
+  - Number of protons = bottom number, $\text{Pb} pre_{82} pre^{216}$, $\text{Pb} pre_{82} pre^{206}$
 
 (ii) Complete Table 1.1:
 
 | name of nuclide | radium-222 | radon-222 | lead-216 | lead-206 |
 |---|---|---|---|---|
-| nuclide notation | `Ra presubscript 88 presuperscript 222` | `Rn presubscript 86 presuperscript 222` | `Pb presubscript 82 presuperscript 216` | `Pb presubscript bold 82 presuperscript bold 206` |
+| nuclide notation | $Ra_{88}^{222}$ | $Rn_{86}^{222}$ | $Pb_{82}^{216}$ | $\text{Pb} pre_{82} pre^{206}$ |
 
-- Correct notation for lead-206, `Pb presubscript 82 presuperscript 206`; **[1 mark]**
+- Correct notation for lead-206, $Pb_{82}^{206}$; **[1 mark]**
 
 **[Total: 2 marks]**
 (i) The nuclides which have the same number of nucleons are:
 
 - Radium-222 and radon-222; **[1 mark]**
 
-  - Nucleon number = top number, `Ra presubscript 88 presuperscript bold 222`, `Rn presubscript 86 presuperscript bold 222`
+  - Nucleon number = top number, $\text{Ra} pre_{88} pre^{222}$, $\text{Rn} pre_{86} pre^{222}$
 
 (ii) The nuclides which have the same number of neutrons are:
 
 - Radium-222 and lead-216; **[1 mark]**
 
   - Number of neutrons = nucleon number − atomic number
-  - `Ra presubscript bold 88 presuperscript bold 222`: 222 − 88 = 134
-  - `Pb presubscript bold 82 presuperscript bold 216`: 216 − 82 = 134
+  - $\text{Ra} pre_{88} pre^{222}$: 222 − 88 = 134
+  - $\text{Pb} pre_{82} pre^{216}$: 216 − 82 = 134
 
 (iii) The nuclide which has the most electrons is:
 
 - Radium-222; **[1 mark]**
 
-  - Number of electrons = number of protons, `Ra presubscript bold 88 presuperscript 222`
+  - Number of electrons = number of protons, $\text{Ra} pre_{88} pre^{222}$
 
 **[Total: 3 marks]**
 

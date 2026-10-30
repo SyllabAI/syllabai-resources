@@ -614,7 +614,7 @@ Multiplying by the cost gives the income
 
 **[M1]**
 
-The maximum occurs when `open parentheses c minus 37.5 close parentheses` is 0
+The maximum occurs when $( c - 37.5 )$ is 0
 
 $\text{price} = \text{£} 37 . 50$
 

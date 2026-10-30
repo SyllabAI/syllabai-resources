@@ -169,7 +169,7 @@ $m^{15}\divm^{5}$
 
 **Q13** [1 mark]
 
-`open parentheses k cubed close parentheses to the power of 5`
+$( k^{3} )^{5}$
 
 *Source: June 2020 0580/13 Q14C*
 
@@ -178,7 +178,7 @@ $m^{15}\divm^{5}$
 
 **Q14** [1 mark]
 
-Simplify `open parentheses w to the power of 5 close parentheses to the power of 4`
+Simplify $( w^{5} )^{4}$
 
 *Source: Specimen 2020 0580/01 Q24B*
 
@@ -198,7 +198,7 @@ $m$ = ...................................................
 
 **Q15** [1 mark]
 
-`open parentheses x squared close parentheses to the power of n equals x to the power of 12`
+$( x^{2} )^{n} = x^{12}$
 
 Find the value of $n$.
 
@@ -213,7 +213,7 @@ $n$ = ...................................................
 
 Simplify
 
-`open parentheses x to the power of 8 close parentheses cubed`
+$( x^{8} )^{3}$
 
 *Source: June 2019 0580/12 Q19B*
 
@@ -250,7 +250,7 @@ $x=$........................
 
 Simplify.
 
-`open parentheses y to the power of 5 close parentheses cubed`
+$( y^{5} )^{3}$
 
 *Source: March 2019 0580/12 Q12A*
 
@@ -259,7 +259,7 @@ Simplify.
 
 **Q20** [1 mark]
 
-Simplify `open parentheses x to the power of 5 close parentheses squared`.
+Simplify $( x^{5} )^{2}$.
 
 *Source: Feb/March 2018 0580/12 Q12B*
 
@@ -277,7 +277,7 @@ $t^{21}\divt^{7}$
 
 **Q21** [1 mark]
 
-`open parentheses u to the power of 5 close parentheses to the power of 5`
+$( u^{5} )^{5}$
 
 *Source: June 2019 0580/11 Q11B*
 

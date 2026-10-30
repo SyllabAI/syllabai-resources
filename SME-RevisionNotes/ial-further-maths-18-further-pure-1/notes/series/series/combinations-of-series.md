@@ -39,7 +39,7 @@ guided_study: false
   - $( n + 1 )$
 - You may be required to write series as the **difference of two sums**
 
-  - `sum from r=5 to 10 of r=sum from r=1 to 10 of r−sum from r=1 to 4 of r`
+  - $\sum_{r=5}^{10} r= \sum_{r=1}^{10} r− \sum_{r=1}^{4} r$
 
 > **Exam Hint**
 > Exam questions often refer to these three formulae as the "standard summation formulae".
@@ -101,6 +101,6 @@ guided_study: false
 > 
 > $\begin{gathered} 3 ( n^{2} + n - 2 ) & = 40 n + 20 \\ 3 n^{2} - 37 n - 26 & = 0 \\ ( 3 n + 2 ) ( n - 13 ) & = 0 \\ n = - \frac{2}{3} \text{or} n = 13 \end{gathered}$
 > 
-> > $n$ *must be a positive integer (as it is used in sigma notation,* `sum from r equals 1 to n of`*)*
+> > $n$ *must be a positive integer (as it is used in sigma notation,* `SUM_ r = 1 to n of`*)*
 > 
 > $n=13$

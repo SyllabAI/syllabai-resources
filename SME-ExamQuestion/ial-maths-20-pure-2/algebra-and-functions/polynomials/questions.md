@@ -11,7 +11,7 @@ Use the factor theorem to verify that $(x-2)$ is a factor of $x^{3}-x^{2}-14x+24
 ## Q2 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Divide  $x^{3}+6x^{2}+11x+6$  by  `open parentheses x plus 2 close parentheses`.
+Divide  $x^{3}+6x^{2}+11x+6$  by  $( x + 2 )$.
 
 ## Q3 — easy — 6 marks · exam-questions
 
@@ -186,7 +186,7 @@ Factorise $f(x)$ completely.
 ## Q23 — hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-Given that `open parentheses x plus 4 close parentheses` is a factor of the function $f(x)=px^{3}+(5p+1)x^{2}+5qx-2q-2$ and that the remainder when `f open parentheses x close parentheses`  is divided by `open parentheses x plus 1 close parentheses` is $-12$,  find the values of the constants *p* and *q*.
+Given that $( x + 4 )$ is a factor of the function $f(x)=px^{3}+(5p+1)x^{2}+5qx-2q-2$ and that the remainder when $f ( x )$  is divided by $( x + 1 )$ is $-12$,  find the values of the constants *p* and *q*.
 
 ## Q24 — hard — 4 marks · exam-questions
 

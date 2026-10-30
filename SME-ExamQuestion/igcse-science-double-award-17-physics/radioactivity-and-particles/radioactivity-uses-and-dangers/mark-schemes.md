@@ -632,11 +632,11 @@ State the change to activity per half-life:
 
 Calculate the activity of the sample after 24 hours:
 
-- `Activity space equals 420 cross times open parentheses 1 half close parentheses to the power of 4 equals 26 space MBq`** [1 mark]**
+- $\text{Activity} = 420 \\times ( 1 \frac{1}{2} )^{4} = 26 \text{MBq}$** [1 mark]**
 
 **[Total: 5 marks]**
 
-> `open parentheses 1 half close parentheses to the power of 4`* is the same as *`open parentheses 1 half close parentheses cross times open parentheses 1 half close parentheses cross times open parentheses 1 half close parentheses cross times open parentheses 1 half close parentheses`* or *$\frac{1}{16}$*.*
+> $( 1 \frac{1}{2} )^{4}$* is the same as *$( 1 \frac{1}{2} ) \\times ( 1 \frac{1}{2} ) \\times ( 1 \frac{1}{2} ) \\times ( 1 \frac{1}{2} )$* or *$\frac{1}{16}$*.*
 
 ## Q17 — hard — 9 marks · exam-questions
 

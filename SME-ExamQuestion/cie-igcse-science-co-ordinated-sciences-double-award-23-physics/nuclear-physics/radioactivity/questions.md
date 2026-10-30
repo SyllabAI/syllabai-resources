@@ -10,7 +10,7 @@
 
 **Q1** [1 mark]
 
-A nucleus of radium-226 (`Ra presubscript 88 presuperscript 226`) undergoes alpha decay.
+A nucleus of radium-226 ($Ra_{88}^{226}$) undergoes alpha decay.
 
 What are the nucleon number and the proton number of the new nucleus formed?
 
@@ -151,7 +151,7 @@ Which statement about **α**-particles is correct?
 
 **Extended tier only**
 
-Strontium-90 is a radioactive substance with the nuclide symbol `S presubscript 38 presuperscript 90 r` .
+Strontium-90 is a radioactive substance with the nuclide symbol $S_{38}^{90} r$ .
 
 It decays by emitting radiation, as shown by the following equation.
 

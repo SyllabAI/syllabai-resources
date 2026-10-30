@@ -46,7 +46,7 @@ The melting temperature is determined for impure crystals of an organic compound
 ### 13() — 1 mark — multiple_choice — from paper Jan 2022 · WCH14/01
 But-2-ene-1,4-diol may be converted into 2-oxobutanedioic acid in a two-step synthesis through an intermediate compound **W.**
 
-HOCH<sub>2</sub>CH$=$CHCH<sub>2</sub>OH   `rightwards arrow from Step space 1 to steam space and space straight H subscript 2 SO subscript 4 of` **W**  $\underset{\mathrm{Step}2}{\rightarrow}$  HO<sub>2</sub>CCOCH<sub>2</sub>CO<sub>2</sub>H           but-2-ene-1,4-diol                                                         2-oxobutanedioic acid
+HOCH<sub>2</sub>CH$=$CHCH<sub>2</sub>OH   `-> from Step 1 to steam and H _ 2 SO _ 4 of` **W**  $\underset{\mathrm{Step}2}{\rightarrow}$  HO<sub>2</sub>CCOCH<sub>2</sub>CO<sub>2</sub>H           but-2-ene-1,4-diol                                                         2-oxobutanedioic acid
 
 Identify the intermediate compound **W** and the reagent for Step **2**.
 

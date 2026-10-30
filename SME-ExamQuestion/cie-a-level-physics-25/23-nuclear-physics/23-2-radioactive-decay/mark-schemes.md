@@ -164,7 +164,7 @@ Determine the half−life of the sample:
 
 Possible isotopes of neptunium:
 
-- `Np presubscript 93 presuperscript 239`, `Np presubscript 93 presuperscript 219`, `Np presubscript 93 presuperscript 244` (all three circled); **[1 mark]**
+- $Np_{93}^{239}$, $Np_{93}^{219}$, $Np_{93}^{244}$ (all three circled); **[1 mark]**
 
 (ii) Half-life is defined as:
 
@@ -177,7 +177,7 @@ The correct expression is:
 
 **[Total: 6 marks]**
 
-> *For part (i), make sure to look carefully at each option - the two incorrect options *`Np presubscript 94 presuperscript 231`* and *`Np presubscript 90 presuperscript 231`* have atomic (proton) numbers of 94 and 90 which means they would be completely **different elements*
+> *For part (i), make sure to look carefully at each option - the two incorrect options *$Np_{94}^{231}$* and *$Np_{90}^{231}$* have atomic (proton) numbers of 94 and 90 which means they would be completely **different elements*
 
 > *For part (ii), you needed to realise that the probability per second of decay of a nucleus is the definition of **decay constant **and that you need to multiply the **half-life by 60** to convert it into seconds*
 The correct nuclear decay equations are:
@@ -197,15 +197,15 @@ The correct nuclear decay equations are:
 ### Q4
 List the known quantities:
 
-- Half-life of `R presubscript 37 presuperscript 87 b`, $t_{\frac{1}{2}}$= 4.90 × 10<sup>10 </sup>years
-- Current mass of `R presubscript 37 presuperscript 87 b`, *m* = 1.2 mg = 1.2 × 10<sup>–3 </sup>g
+- Half-life of $R_{37}^{87} b$, $t_{\frac{1}{2}}$= 4.90 × 10<sup>10 </sup>years
+- Current mass of $R_{37}^{87} b$, *m* = 1.2 mg = 1.2 × 10<sup>–3 </sup>g
 - Time since the formation of the moon, *t* = 4.47 × 10<sup>9</sup> years** **
 
 Calculate the decay constant  of the rubidium using the expression from the formula page:
 
 - $λ=\frac{0.693}{t_{\frac{1}{2}}}=\frac{0.693}{4.90\times10^{10}}$ = 1.41 × 10<sup>–11 </sup>year<sup>–1 </sup>**[1 mark] **
 
-Use the decay equation from the formula page to calculate the mass *m* of `R presubscript 37 presuperscript 87 b` present in the rock sample 4.47 × 10<sup>9 </sup>years ago:
+Use the decay equation from the formula page to calculate the mass *m* of $R_{37}^{87} b$ present in the rock sample 4.47 × 10<sup>9 </sup>years ago:
 
 - $x=x_{0}e^{-λt}$ so *m* =$m_{0}e^{-λt}$ (because mass *m* is proportional to number of nuclei $x$)
 - (1.20 × 10<sup>–3</sup>) = $m_{0} e^{- ( 1.41 \times 10^{-11} } ) \times ( 4.47 \times 10^{9 )}$ = 0.939 ×$m_{0}$
@@ -216,14 +216,14 @@ Use the decay equation from the formula page to calculate the mass *m* of `R pre
 > *All quantities such as number of radioactive nuclei, activity and mass of radioactive material decay exponentially and follow the equation *$x=x_{0}e^{-λt}$*. This is given on your formula page in your exam, but you must understand the quantities that **x** can represent.*
 List the known quantities:
 
-- Mass of `R presubscript 37 presuperscript 87 b`, *m* = 1.2 mg = 1.2 × 10<sup>–6</sup> kg
-- Decay constant of `R presubscript 37 presuperscript 87 b`, $λ$= 1.41 × 10<sup>–11</sup>year<sup>–1</sup> (from part a)
+- Mass of $R_{37}^{87} b$, *m* = 1.2 mg = 1.2 × 10<sup>–6</sup> kg
+- Decay constant of $R_{37}^{87} b$, $λ$= 1.41 × 10<sup>–11</sup>year<sup>–1</sup> (from part a)
 
 From data page:
 
 - Unified atomic mass unit, *u* = 1.66 × 10<sup>–27</sup> kg
 
-Calculate the number of nuclei, *N* , in 1.2 mg of  `R presubscript 37 presuperscript 87 b` :
+Calculate the number of nuclei, *N* , in 1.2 mg of  $R_{37}^{87} b$ :
 
 - $N=\frac{\mathrm{mass}}{\mathrm{mass} \mathrm{of} \mathrm{one} \mathrm{nucleus}}=\frac{\mathrm{mass}}{87u}$
 - *N* =$\frac{1.2 \times 10^{- 6} }{87 \times ( 1.66 \times 10^{- 27} )}$ = 8.3 × 10<sup>18 </sup>**[1 mark]**** **
@@ -232,7 +232,7 @@ Calculate the decay constant in seconds:
 
 - $λ$=  $\frac{1.41\times10^{-11}}{365\times24\times60\times60}$ = 4.5 × 10<sup>–19</sup> s<sup>–1 </sup>**[1 mark]**** **
 
-Calculate the activity of  `R presubscript 37 presuperscript 87 b` using the decay constant and the number of nuclei:
+Calculate the activity of  $R_{37}^{87} b$ using the decay constant and the number of nuclei:
 
 - *A* = *λN*
 - *A *= (4.5 × 10<sup>–19</sup>) × (8.3 × 10<sup>18</sup>) = 3.7 Bq **[1 mark] **
@@ -398,7 +398,7 @@ Use the exponential decay equation:
 ### Q7
 Recall the proton and mass number of alpha and beta particles:
 
-- An alpha particle has 2 protons and 4 neutrons / `alpha presubscript 2 presuperscript 4` **AND** A beta particle is an electron / `beta presubscript negative 1 end presubscript presuperscript 0` **[1 mark] **
+- An alpha particle has 2 protons and 4 neutrons / $alpha_{2}^{4}$ **AND** A beta particle is an electron / `beta _ - 1 ^ 0` **[1 mark] **
 
 Calculate the new proton and mass number after 8 alpha decays, labelling this unknown isotope as Y:
 
@@ -407,7 +407,7 @@ Calculate the new proton and mass number after 8 alpha decays, labelling this un
 
 Calculate the change in proton number from isotope Y to lead-206:
 
-- `Y presubscript 76 presuperscript 206` to `P presubscript 82 presuperscript 206 b` means the proton number must increase by 6
+- $Y_{76}^{206}$ to $P_{82}^{206} b$ means the proton number must increase by 6
 - `Y _ 76 ^ 206 -> P _ 82 ^ 206 b + 6 beta _ - 1 ^ 0`** [1 mark]**
 - This means 6 beta particles are emitted: X = 6 **[1 mark]**
 

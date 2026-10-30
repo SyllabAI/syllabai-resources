@@ -151,7 +151,7 @@ $7304.3478...\div1000=7.3043...$
 ### Q7
 > *Multiply \$575 by the exchange rate for euros*
 
-`575 cross times 0.88 equals € 506`
+$575 \\times 0.88 = € 506$
 
 **[1]**
 
@@ -161,7 +161,7 @@ $7304.3478...\div1000=7.3043...$
 
 > *Calculate 55% of the number of euros*
 
-`506 cross times 0.55 equals € 278.30`
+$506 \\times 0.55 = € 278.30$
 
 **[1]**
 
@@ -412,7 +412,7 @@ iii) *Subtract the times for one bus at these two places*
 
 > * *
 
-`open parentheses 5 cross times 10 close parentheses plus 5.5 equals 55.5 space hours`
+$( 5 \\times 10 ) + 5.5 = 55.5 \text{hours}$
 
 * ***[1]**
 

@@ -122,7 +122,7 @@ A machine computes a calculation in time, $t$ seconds, that is proportional to t
 Show that the constant of proportionality is 0.001.
 
 ### 2() — 2 marks — structured
-Hence write down an equation linking the number of processes `open parentheses p close parentheses` to the time taken `open parentheses t close parentheses`.
+Hence write down an equation linking the number of processes $( p )$ to the time taken $( t )$.
 
 ### 3() — 2 marks — structured
 Find the time it takes for the machine to compute a calculation involving 200 processes.
@@ -222,7 +222,7 @@ The diagram below shows the graph of the equation $y=\frac{a}{x^{2}}$, where $a>
 Sketch the graph of $y=\frac{a}{x^{2}}$, where $a<0$.
 
 ### 2() — 2 marks — structured
-Given that $m$ is a negative real number, state with a reason, which graph passes through the point `open parentheses m comma space m to the power of 4 close parentheses`.
+Given that $m$ is a negative real number, state with a reason, which graph passes through the point $( m , m^{4} )$.
 
 ## Q26 — very_hard — 5 marks · exam-questions
 
@@ -265,6 +265,6 @@ Find the time it takes for the machine to compute a calculation involving 250 pr
 On separate diagrams, sketch the graphs of $y=\frac{a}{x^{2}}$, where $a>0$ and $y=\frac{a}{x^{2}}$, where $a<0$.
 
 ### 2() — 3 marks — structured
-One of the graphs passes through the point with coordinates `open parentheses m comma space m to the power of 6 close parentheses`.
+One of the graphs passes through the point with coordinates $( m , m^{6} )$.
 
 Write $a$ in terms of $m$ and, justifying your answer, state which graph this point must lie on.

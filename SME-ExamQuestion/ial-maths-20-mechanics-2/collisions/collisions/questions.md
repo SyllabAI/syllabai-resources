@@ -18,14 +18,14 @@ Find the magnitude of the impulse.
 ### 1() — 1 mark — structured
 The velocity $v$ m s<sup>-1</sup> of a particle $P$, after $t$ seconds, is given by
 
-`bold v equals open parentheses 3 t minus 4 close parentheses bold i plus open parentheses t squared plus 1 close parentheses bold j.`
+$v = ( 3 t - 4 ) i + ( t^{2} + 1 ) j.$
 
 Find the velocity of $P$ when $t=2$.
 
 ### 2() — 3 marks — structured
-The mass of particle $P$ is 1.25 kg. When $t=2$, the particle $P$ receives an impulse `open parentheses space 3 bold i minus 7 bold j close parentheses`N s.
+The mass of particle $P$ is 1.25 kg. When $t=2$, the particle $P$ receives an impulse $( 3 i - 7 j )$N s.
 
-Show that $P$ is moving with velocity `open parentheses 4.4 bold i minus 0.6 bold j close parentheses` m s<sup>-1</sup> immediately after it receives the impulse.
+Show that $P$ is moving with velocity $( 4.4 i - 0.6 j )$ m s<sup>-1</sup> immediately after it receives the impulse.
 
 ### 3() — 2 marks — structured
 Find the speed of $P$ immediately after it receives the impulse
@@ -122,7 +122,7 @@ Given that there is another collision between $M$ and $N$, show that $e>\frac{1}
 ## Q8 — medium — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Kelsie is playing squash. The squash ball, of mass 0.025 kg, is moving with velocity `open parentheses negative 2 bold i plus 3 bold j close parentheses` m s<sup>-1</sup>  when Kelsie strikes it with her squash racket.  Immediately after being struck, the ball has velocity `space open parentheses 23 bold i plus 15 bold j close parentheses space`m s<sup>-1</sup>.
+Kelsie is playing squash. The squash ball, of mass 0.025 kg, is moving with velocity $( - 2 i + 3 j )$ m s<sup>-1</sup>  when Kelsie strikes it with her squash racket.  Immediately after being struck, the ball has velocity $( 23 i + 15 j )$m s<sup>-1</sup>.
 
 Find the magnitude of the impulse exerted by the racket on the ball.
 
@@ -134,7 +134,7 @@ Find the angle between the vector $i$and the impulse exerted by the racket.  Giv
 ### 1() — 5 marks — structured
 A mouse of mass 0.8 kg is running on a smooth horizontal surface and its position vector, $r$ metres, at time $t$ seconds is given by
 
-`bold r equals open parentheses 2 t minus 0.1 t cubed close parentheses bold i plus open parentheses 5 t minus 7 close parentheses bold j to the power of blank`
+$r = ( 2 t - 0.1 t^{3} ) i + ( 5 t - 7 ) j^{ }$
 
 Calculate the speed of the mouse when $t=4$.
 
@@ -175,9 +175,9 @@ Show that the total kinetic energy lost in the collision is 140 J.
 ### 1() — 6 marks — structured
 A smooth sphere $P$ of mass $2m$ is moving along a straight line on a smooth horizontal surface when it collides with another smooth sphere $Q$ of mass $3m$.  The spheres collide directly.  Immediately before the collision, $P$ has speed $u$ and $Q$ is at rest.  Immediately after the collision, the direction of motion of $P$ is unchanged.  The coefficient of restitution between $P$ and $Q$ is $e$.  The spheres can be modelled as particles with the same radii.
 
-i) Show that the speed of $P$ immediately after the collision is  `1 fifth open parentheses 2 minus 3 e close parentheses u`.
+i) Show that the speed of $P$ immediately after the collision is  $1 \frac{1}{5} ( 2 - 3 e ) u$.
 
-ii) Show that the speed of $Q$ immediately after the collision is  `2 over 5 open parentheses 1 plus e close parentheses u`.
+ii) Show that the speed of $Q$ immediately after the collision is  $\frac{2}{5} ( 1 + e ) u$.
 
 ### 2() — 2 marks — structured
 Find the range of possible values of $e$.
@@ -196,9 +196,9 @@ ii) Find the loss in kinetic energy in the collision.
 ### 1() — 6 marks — structured
 Three uniform spheres $A,B\mathrm{and}C$ of equal radius move in the same direction on the same straight line on a smooth horizontal table with $B$ in the middle of $A$ and $C$.  The masses of $A,B$ and $C$ are $m,3m\mathrm{and}5m$ respectively and $A$ moves with speeds $12u$ while $B\mathrm{and}C$ are at rest.  $A\mathrm{and}B$ collide directly which does not change the direction of motion of $A$. The coefficient of restitution between $A\mathrm{and}B$ is $e$.
 
-Show that the speed of $B$ immediately after it collides with $A$ is `3 open parentheses 1 plus e close parentheses u`.
+Show that the speed of $B$ immediately after it collides with $A$ is $3 ( 1 + e ) u$.
 
-Show that the speed of $A$ immediately after it collides with $B$ is `3 open parentheses 1 minus 3 e close parentheses u`.
+Show that the speed of $A$ immediately after it collides with $B$ is $3 ( 1 - 3 e ) u$.
 
 ### 2() — 5 marks — structured
 In the subsequent motion, $B$ collides directly with $C$.  The coefficient of restitution between $B$ and $C$ is  $\frac{1}{2}$.
@@ -229,12 +229,12 @@ State, with a reason, whether there will be another collision between $P\mathrm{
 ## Q16 — medium — 8 marks · exam-questions
 
 ### 1() — 1 mark — structured
-Two particles $A\mathrm{and}B$ have masses 2 kg and 3 kg respectively.  $A\mathrm{and}B$ are moving along the same straight line on a smooth horizontal plane.  The velocity of  $A$is `open parentheses 3 bold i minus 2 bold j close parentheses` m s<sup>-1</sup>**  **and the velocity of $B$ is `open parentheses lambda bold i plus 10 bold j close parentheses` m s<sup>-1</sup>.
+Two particles $A\mathrm{and}B$ have masses 2 kg and 3 kg respectively.  $A\mathrm{and}B$ are moving along the same straight line on a smooth horizontal plane.  The velocity of  $A$is $( 3 i - 2 j )$ m s<sup>-1</sup>**  **and the velocity of $B$ is $( \lambda i + 10 j )$ m s<sup>-1</sup>.
 
 Write down the value of $λ$.
 
 ### 2() — 3 marks — structured
-$A\mathrm{and}B$ collide directly.  The velocity of $A$ immediately after the collision is `open parentheses negative 6 bold i plus 4 bold j close parentheses` m s<sup>-1</sup>.
+$A\mathrm{and}B$ collide directly.  The velocity of $A$ immediately after the collision is $( - 6 i + 4 j )$ m s<sup>-1</sup>.
 
 Find the velocity of $B$ immediately after the collision.
 
@@ -244,7 +244,7 @@ Calculate the magnitude of the impulse exerted on $A$ by $B$ in the collision.
 ## Q17 — hard — 7 marks · exam-questions
 
 ### 1() — 7 marks — structured
-A ball of mass 0.5 kg is moving with velocity `open parentheses negative 5 bold i minus 7 bold j close parentheses` m s<sup>-1</sup> when it is kicked by a child. The magnitude of the impulse exerted by the child on the ball is 6.5 N s.  Immediately after the child kicks the ball, the velocity of the ball is `open parentheses 7 bold i plus k bold j close parentheses` m s<sup>-1</sup>.
+A ball of mass 0.5 kg is moving with velocity $( - 5 i - 7 j )$ m s<sup>-1</sup> when it is kicked by a child. The magnitude of the impulse exerted by the child on the ball is 6.5 N s.  Immediately after the child kicks the ball, the velocity of the ball is $( 7 i + k j )$ m s<sup>-1</sup>.
 
 Find the two possible values of $k$.
 
@@ -253,14 +253,14 @@ Find the two possible values of $k$.
 ### 1() — 6 marks — structured
 An eagle of mass 5 kg is flying in a horizontal plane with velocity $(6i)$ m s<sup>-1</sup> when it is spotted by a birdwatcher.  The acceleration of the eagle, $a$ m s<sup>-2</sup>, is given by
 
-`bold a equals open parentheses 0.2 t plus 0.3 close parentheses bold i plus open parentheses 0.1 t squared close parentheses bold j comma`
+$a = ( 0.2 t + 0.3 ) i + ( 0.1 t^{2} ) j ,$
 
 where $t$ is the time in seconds since the eagle was spotted by the birdwatcher.
 
 Find the speed of the eagle two seconds after it was spotted by the birdwatcher.
 
 ### 2() — 3 marks — structured
-Two seconds after the birdwatcher spotted the eagle, the eagle receives an impulse `open parentheses 10 bold i minus 11 bold j close parentheses` N s due to a gust of wind.
+Two seconds after the birdwatcher spotted the eagle, the eagle receives an impulse $( 10 i - 11 j )$ N s due to a gust of wind.
 
 Find the velocity of the eagle immediately after the receiving the impulse due to the gust of wind.
 
@@ -296,7 +296,7 @@ Give one form of energy into which the lost kinetic energy could have been trans
 ### 1() — 5 marks — structured
 Two smooth spheres $S\mathrm{and}T$ with the same radii have masses $4m$ and $7m$ respectively. The spheres are moving in opposite directions along a straight line on a smooth horizontal table when they collide directly. Immediately before the collision, the speed of $S$ is $5u$ and the speed of $T$ is $2u$. The collision causes the directions of motion to be reversed for both $S$ and $T$. The coefficient of restitution between $S\mathrm{and}T$ is $e$.
 
-By modelling the spheres as particles, show that the speed of $T$ immediately after the collision is `2 over 11 open parentheses 3 plus 14 e close parentheses u.`
+By modelling the spheres as particles, show that the speed of $T$ immediately after the collision is $\frac{2}{11} ( 3 + 14 e ) u.$
 
 ### 2() — 4 marks — structured
 Find the range of possible values of $e$.
@@ -316,14 +316,14 @@ Find the coefficient of restitution between the marble and the ground.
 ### 1() — 6 marks — structured
 Three small balls $A,B\mathrm{and}C$ of equal radius have masses $2m,3m\mathrm{and}7m$ respectively. The three balls lie in the same straight line on a smooth horizontal ground with $B$ in the middle of $A\mathrm{and}C$. $A\mathrm{and}B$ are projected towards each other in opposite directions with speeds $5u$ and $3u$ respectively. $A\mathrm{and}B$ collide directly which causes the direction of motion of $B$ to reverse. The coefficient of restitution between $A\mathrm{and}B$ is $e$.
 
-i) Show that the speed of $B$immediately after the collision with $A$ is `1 fifth open parentheses 1 plus k e close parentheses u`, where $k$ is a constant to be found.
+i) Show that the speed of $B$immediately after the collision with $A$ is $1 \frac{1}{5} ( 1 + k e ) u$, where $k$ is a constant to be found.
 
 ii) Hence state the maximum speed of $B$ immediately after the collision with $A$.
 
 ### 2() — 5 marks — structured
 After $A\mathrm{and}B$ collide, $B$moves with constant speed towards $C$ which is at rest. $B\mathrm{and}C$ collide directly and the coefficient of restitution between $B\mathrm{and}C$ is  $\frac{5}{9}$.
 
-Show that the speed of $B$ immediately after the collision with $C$ is `4 over 225 open parentheses 1 plus 16 e close parentheses u` and that the direction of motion of $B$ is reversed.
+Show that the speed of $B$ immediately after the collision with $C$ is $\frac{4}{225} ( 1 + 16 e ) u$ and that the direction of motion of $B$ is reversed.
 
 ### 3() — 3 marks — structured
 Given that $e=\frac{1}{20}$, determine whether there will be another collision between $A\mathrm{and}B$.
@@ -333,7 +333,7 @@ Given that $e=\frac{1}{20}$, determine whether there will be another collision b
 ### 1() — 6 marks — structured
 Two particles $S\mathrm{and}T$ have masses $3m\mathrm{and}7m$ respectively. $S$ is moving with speed $6u$ along a straight line on a smooth horizontal surface towards $T$. $T$ is moving along the same straight line towards $S$ with speed $u$. $S$ and $T$ collide directly. The coefficient between S and $T$ is $e$.
 
-i) Show that the speed of $T$immediately after the collision is `1 over 10 open parentheses 11 plus 21 e close parentheses u`.
+i) Show that the speed of $T$immediately after the collision is $\frac{1}{10} ( 11 + 21 e ) u$.
 
 ii) State whether it is possible for the collision to cause $T$ to come to rest.
 
@@ -349,7 +349,7 @@ ii) find the range of possible values of $f$ in the case that $e=0.5$.
 ## Q25 — very_hard — 9 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A particle of mass 4 kg is moving with velocity `open parentheses negative 4 bold i plus 10 bold j close parentheses` m s<sup>-1</sup> when it receives an impulse $Q$** **N s.  Immediately after receiving the impulse, the particle moves with velocity `open parentheses 2 k bold i plus left parenthesis k minus 2 right parenthesis bold j close parentheses` m s<sup>-1</sup>, where $k$ is a constant.
+A particle of mass 4 kg is moving with velocity $( - 4 i + 10 j )$ m s<sup>-1</sup> when it receives an impulse $Q$** **N s.  Immediately after receiving the impulse, the particle moves with velocity $( 2 k i + ( k - 2 ) j )$ m s<sup>-1</sup>, where $k$ is a constant.
 
 Given that the magnitude of $Q$ is $8\sqrt{145}$, show that one possible value of $k$ is 10 and find the other possible value.
 
@@ -361,7 +361,7 @@ ii) For $k=10$, find the impulse in the form $Q=ai+bj.$
 ## Q26 — very_hard — 9 marks · exam-questions
 
 ### 1() — 9 marks — structured
-A force $F$** **N acts on a particle $P$ of mass 5 kg.  At time $t$ seconds, `bold F equals open parentheses 2 t cubed close parentheses bold i plus open parentheses 2 minus 10 t close parentheses bold j`. When $t=1$, the velocity of $P$ is `open parentheses bold space bold i minus 3 bold j close parentheses space`m s<sup>-1</sup>.  When $t=k$, $P$ receives an impulse `open parentheses space 20 bold i plus 41 bold j space close parentheses`N s and immediately after this impulse the velocity of $P$ is `open parentheses space 13 bold i minus 2 bold j bold space close parentheses`m s<sup>-1</sup>.
+A force $F$** **N acts on a particle $P$ of mass 5 kg.  At time $t$ seconds, $F = ( 2 t^{3} ) i + ( 2 - 10 t ) j$. When $t=1$, the velocity of $P$ is $( i - 3 j )$m s<sup>-1</sup>.  When $t=k$, $P$ receives an impulse $( 20 i + 41 j )$N s and immediately after this impulse the velocity of $P$ is $( 13 i - 2 j )$m s<sup>-1</sup>.
 
 Find the value of $k$.
 

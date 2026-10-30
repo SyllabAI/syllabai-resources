@@ -129,7 +129,7 @@ e.g.     $P("6\mathrm{on}a\mathrm{dice}"\mathrm{AND}"\mathrm{heads} \mathrm{on}a
 
 $P(A\mathrm{OR}B)=P(A\cupB)=P(A)+P(B)$
 
-e.g.  `straight P left parenthesis " 6 on straight a dice " bold OR " heads on straight a coin " right parenthesis=1 / 6+1 half=4 / 6=(2 / 3)`
+e.g.  $\mathrm{P} ( " 6 \text{on} \mathrm{a} \text{dice} " \text{OR} " \text{heads} \text{on} \mathrm{a} \text{coin} " )=1 / 6+1 \frac{1}{2}=4 / 6=(2 / 3)$
 
 - **Mutually** **exclusive** events generally refer to events from the same (single trial of an) ***experiment***
 - Mutually exclusive events cannot be independent; the outcome of one event means the probability of the other event is zero

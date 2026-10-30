@@ -77,7 +77,7 @@ Find the values of *t* when $y=0$ and hence write down the coordinates of the *x
 ### 1() — 2 marks — structured
 A curve *C* is defined by the parametric equations  $x=t+1$  and $y=t^{2}-1$.
 
-Show that the equation of the curve can be given in the Cartesian form `space y equals straight f open parentheses x close parentheses`, with `space straight f open parentheses x close parentheses equals x squared minus 2 x`.
+Show that the equation of the curve can be given in the Cartesian form $y = \mathrm{f} ( x )$, with $\mathrm{f} ( x ) = x^{2} - 2 x$.
 
 ### 2() — 3 marks — structured
 Sketch the graph of  $y=f(x)$, labelling any points where the graph intercepts the coordinate axes.
@@ -102,9 +102,9 @@ The curve defined parametrically by  $x=pt^{3}$  and  $y=2t+1$, where $p$ is a n
 ## Q8 — easy — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A curve *C *is defined by the parametric equations  $x=e^{t}$  and `space y equals vertical line t vertical line`, where $t\inℝ$.
+A curve *C *is defined by the parametric equations  $x=e^{t}$  and $y = \vert t \vert$, where $t\inℝ$.
 
-Show that$y=f(x)$, where `straight f open parentheses x close parentheses equals open vertical bar ln space x close vertical bar` .
+Show that$y=f(x)$, where $\mathrm{f} ( x ) = \left| \ln x \right|$ .
 
 ### 2() — 2 marks — structured
 Sketch the graph of *C*, labelling any points where the graph intercepts the coordinate axes.
@@ -155,7 +155,7 @@ A curve *C* has parametric equations
 
 $x=2t-1$   $y=4t^{2}+3$
 
-Find a Cartesian equation for the curve *C* in the form `y equals f open parentheses x close parentheses`.
+Find a Cartesian equation for the curve *C* in the form $y = f ( x )$.
 
 ## Q12 — medium — 4 marks · exam-questions
 
@@ -192,7 +192,7 @@ A curve *C* is defined by the parametric equations
 
 $x=t^{2}+1$   $y=t^{2}-1$
 
-Show that the equation of the curve can be given in the Cartesian form `y equals straight f open parentheses x close parentheses`,  with  `straight f open parentheses x close parentheses equals x minus 2`.
+Show that the equation of the curve can be given in the Cartesian form $y = \mathrm{f} ( x )$,  with  $\mathrm{f} ( x ) = x - 2$.
 
 ### 2() — 2 marks — structured
 Assuming there are no restrictions on the values of* t*, find the domain and range of $f(x)$.
@@ -310,7 +310,7 @@ A curve *C *is defined by the parametric equations
 
 $x=t^{4}-4t^{2}$    $y=4t$    $t\inℝ$
 
-Show that the Cartesian equation of $C$ can be written in the form `x equals space 1 over 256 space straight f open parentheses y close parentheses`, where `straight f open parentheses y close parentheses` is a function of *y*.
+Show that the Cartesian equation of $C$ can be written in the form $x = \frac{1}{256} \mathrm{f} ( y )$, where $\mathrm{f} ( y )$ is a function of *y*.
 
 ### 2() — 4 marks — structured
 Sketch the curve *C.*
@@ -345,7 +345,7 @@ Sketch the graph of *C*.
 ### 1() — 5 marks — structured
 The curve *C* has parametric equations
 
-`space x equals t ln open parentheses space t squared plus 0.75 space close parentheses`     and    $y=t$
+$x = t \ln ( t^{2} + 0.75 )$     and    $y=t$
 
 (i) Complete the table below.
 
@@ -400,7 +400,7 @@ $x=a\mathrm{cos}2t+p$         $y=b\mathrm{sin}2t+q$
 
 where *a* and *b* are non-zero constants, and *p* and *q* are constants.
 
-(i) Show that if `vertical line a vertical line equals vertical line b vertical line` then this is the equation of a circle, giving the equation of the circle in Cartesian form.
+(i) Show that if $\vert a \vert = \vert b \vert$ then this is the equation of a circle, giving the equation of the circle in Cartesian form.
 
 (ii) State the centre and radius of the circle.
 
@@ -456,7 +456,7 @@ Find the possible values of $m$.
 ## Q32 — very_hard — 9 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Show that $\mathrm{cos}θ-\sqrt{3}\mathrm{sin}θ$ can be written as `2 cos space open parentheses theta plus pi over 3 close parentheses` .
+Show that $\mathrm{cos}θ-\sqrt{3}\mathrm{sin}θ$ can be written as $2 \cos ( \theta + \frac{\pi }{3} )$ .
 
 ### 2() — 6 marks — structured
 A curve *C* is defined by the parametric equations

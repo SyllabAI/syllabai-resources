@@ -222,7 +222,7 @@ Justifying your answer, show that
 $R=\frac{12100}{v}-17g.$
 
 ### 2() — 2 marks — structured
-The car later moves down the same hill along the line of greatest slope. It travels at the same speed as it did when it travelled up the hill.  The resistance to motion on the car from non-gravitational forces has increased to `open parentheses R plus 300 close parentheses space straight N` and the engine is now working at a constant rate of $P$ kW.
+The car later moves down the same hill along the line of greatest slope. It travels at the same speed as it did when it travelled up the hill.  The resistance to motion on the car from non-gravitational forces has increased to $( R + 300 ) \mathrm{N}$ and the engine is now working at a constant rate of $P$ kW.
 
 Show that
 
@@ -336,7 +336,7 @@ Given that the ambulance takes 5 seconds to move from points $B$ to $C$, find th
 ## Q24 — very_hard — 11 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A trailer of mass $m$ kg is being towed by a car of mass $3m$ kg along a straight, horizontal road.  The trailer is connected to the car by a light inextensible towbar acting parallel to the line of motion of the car.  There is a constant resistance to motion acting on the trailer of magnitude $RN$  and a resistance to motion acting on the car of magnitude `open parentheses R plus k v close parentheses space straight N` where $v$ ms<sup>-1</sup> is the speed of the car and $k$ is a constant.  The maximum power that the car’s engine can produce when travelling at its greatest speed of 30 m s<sup>-1</sup> is 48.84 kW.  At the instant when the car and trailer are both travelling at a constant speed of 14 m s<sup>-1</sup>, the engine of the car is working at a constant rate of 21 kW.
+A trailer of mass $m$ kg is being towed by a car of mass $3m$ kg along a straight, horizontal road.  The trailer is connected to the car by a light inextensible towbar acting parallel to the line of motion of the car.  There is a constant resistance to motion acting on the trailer of magnitude $RN$  and a resistance to motion acting on the car of magnitude $( R + k v ) \mathrm{N}$ where $v$ ms<sup>-1</sup> is the speed of the car and $k$ is a constant.  The maximum power that the car’s engine can produce when travelling at its greatest speed of 30 m s<sup>-1</sup> is 48.84 kW.  At the instant when the car and trailer are both travelling at a constant speed of 14 m s<sup>-1</sup>, the engine of the car is working at a constant rate of 21 kW.
 
 Find
 

@@ -24,7 +24,7 @@ guided_study: false
   - There is an $x^{2}$ term and any **inequality sign**, $\geq,\leq,>,<$
   - They can usually be **factorised**
   
-    - For example, `(x−2)(x−5) greater or equal than 0`
+    - For example, `(x−2)(x−5) >= 0`
 - **Solutions** to quadratic inequalities are **ranges of **$x$** values**
 
   - For example, $1\leqx\leq4$
@@ -34,7 +34,7 @@ guided_study: false
 - Quadratic inequalities are** solved **by **sketching a graph**
 
   - The solutions then appears along the $x$-axis
-- For example, to solve `(x−2)(x−5) greater or equal than 0`
+- For example, to solve `(x−2)(x−5) >= 0`
 
   - Sketch the graph of `y=(x−2)(x−5)`
   
@@ -47,7 +47,7 @@ guided_study: false
   
     - $x\leq2$ or $x\geq5$
     - Use the word "**or**" for two separate parts
-    - In** set notation** this is `open curly brackets x colon x less or equal than 2 close curly brackets union open curly brackets x colon x greater or equal than 5 close curly brackets`
+    - In** set notation** this is `{ x colon x <= 2 } OR { x colon x >= 5 }`
 
 ![Graph of quadratic inequality (x-2)(x-5) ≥ 0, showing shading for x ≤ 2 and x ≥ 5, and the quadratic function y = (x-2)(x-5) plotted, crossing x at 2 and 5.](../../../assets/b6ea98fb89cf-4010-quadratic-inequality-1.png)
 
@@ -59,13 +59,13 @@ guided_study: false
 - If the quadratic inequality is $ax^{2}+bx+c\leq0$ where $a$ is positive
 
   - then shade the part of the curve** below **the $x$-axis
-- For example, to solve `(x−2)(x−5) less or equal than 0`
+- For example, to solve `(x−2)(x−5) <= 0`
 
   - Repeat the process above but shade where the curve is below the $x$-axis
   
     - The solution is $2\leqx\leq5$
     - (You do not use the word "or", but could say $x\geq2$ "**and**" $x\leq5$)
-    - In** set notation** this is `open curly brackets x colon x greater or equal than 2 close curly brackets intersection open curly brackets x colon x less or equal than 5 close curly brackets`, or alternatively `open curly brackets x colon space 2 less or equal than x less or equal than 5 close curly brackets`
+    - In** set notation** this is `{ x colon x >= 2 } AND { x colon x <= 5 }`, or alternatively `{ x colon 2 <= x <= 5 }`
 
 ![Graph depicting the quadratic inequality (x - 2)(x - 5) ≤ 0. The highlighted area shows y = (x - 2)(x - 5) between x = 2 and x = 5, inclusive.](../../../assets/fccf7a41d20c-63132-quadratic-inequality-2.png)
 
@@ -116,9 +116,7 @@ guided_study: false
 > 
 > > *Find the roots of the quadratic*
 > 
-> `x squared minus x minus 2 equals 0
-> open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses equals 0
-> x equals 2 comma space x equals negative 1`
+> $x^{2} - x - 2 = 0 ( x - 2 ) ( x + 1 ) = 0 x = 2 , x = - 1$
 > 
 > > *Sketch the graph and identify the parts which are above the **x**-axis*
 > 

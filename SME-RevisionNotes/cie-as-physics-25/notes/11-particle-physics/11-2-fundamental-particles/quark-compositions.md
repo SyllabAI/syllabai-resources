@@ -31,7 +31,7 @@ guided_study: true
 - You will be expected to remember these quark combinations for exam questions
 
 > **Worked Example**
-> State how many 'up' quarks there are in the nucleus of iron, `Fe presubscript 26 presuperscript 56`.
+> State how many 'up' quarks there are in the nucleus of iron, $Fe_{26}^{56}$.
 > 
 > **Answer: **
 > 

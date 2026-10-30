@@ -121,7 +121,7 @@ Explain why the isotopes of polonium exhibit the same chemical properties but th
 
 The symbols below describe two isotopes of the element antimony.
 
-`Sb presubscript 51 presuperscript 121`      `Sb presubscript 51 presuperscript 123`
+$Sb_{51}^{121}$      $Sb_{51}^{123}$
 
 Define the term *isotope*.
 

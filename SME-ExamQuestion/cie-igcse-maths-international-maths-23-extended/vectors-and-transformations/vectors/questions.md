@@ -144,7 +144,7 @@ Find $u--2v.$
 
 **Extract:**
 
-bold italic v space equals space open parentheses table row cell negative 12 end cell row 5 end table close parentheses
+$\boldsymbol{v} = ( \begin{gathered} - 12 \\ 5 \end{gathered} )$
 
 Find $\vert v \vert$ .
 

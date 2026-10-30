@@ -81,9 +81,7 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Issued} \mathrm{shares}+\mathrm{Rese
 > 
 > **Step 3:** **Multiple the outcome by 100 and express the result as a percentage**
 > 
-> `equals space 0.22 space cross times space 100
-> 
-> equals space 22 percent sign`       **(1)**
+> $= 0.22 \\times 100 = 22 \%$       **(1)**
 > 
 > - **22% of Walders Travel Ltd's capital structure is made up of long-term loans, showing it is a low-geared business**
 

@@ -56,9 +56,9 @@ Describe a test, and its positive result, to confirm the presence of the sulfate
 ### 1((c)) — 4 marks — command: multiple — structured — from paper Oct 2021 · WCH16/01
 An electrochemical cell was made from the electrode systems represented by these half-equations:
 
-Cu<sup>2+</sup>(aq) + 2e<sup>– </sup>⇌ Cu(s)  `E to the power of ⦵`= +0.34V Fe<sup>3+</sup>(aq) + e<sup>−         </sup>⇌ Fe<sup>2+</sup>(aq) `E to the power of ⦵`= +0.77V
+Cu<sup>2+</sup>(aq) + 2e<sup>– </sup>⇌ Cu(s)  `E ^ ⦵`= +0.34V Fe<sup>3+</sup>(aq) + e<sup>−         </sup>⇌ Fe<sup>2+</sup>(aq) `E ^ ⦵`= +0.77V
 
-i) Calculate `E subscript cell superscript ⦵` for the electrochemical cell.
+i) Calculate `E _ ^ ⦵` for the electrochemical cell.
 
 **(1)**
 

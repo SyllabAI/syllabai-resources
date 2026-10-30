@@ -85,7 +85,7 @@ Complex numbers are a set of numbers which contain both a real part and an imagi
 - Because $i^{2}=-1$ this can lead to some interesting results for higher powers of i
 
   - $i^{3}=i^{2}\timesi=-i$
-  - `bold i^4=left parenthesis bold i² right parenthesis²=(−1)²=1`
+  - $i^4=( i² )²=(−1)²=1$
   - $i^{5}=(i^{2})^{2}\timesi=i$
   - `bold i^6=(bold i²)³=(−1)³=blank−1`
 - We can use this same approach of using i<sup>2</sup> to deal with much higher powers

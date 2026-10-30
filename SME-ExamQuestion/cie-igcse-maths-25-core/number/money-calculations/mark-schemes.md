@@ -106,7 +106,7 @@ $320\div10=32$
 **[B1]**
 > *Multiply the litres she will need by the price per litre*
 
-`32 cross times 1.5 equals £ 48`
+$32 \\times 1.5 = £ 48$
 
 **[B1]**
 
@@ -193,7 +193,7 @@ $9\frac{1}{4}$* hours = *`$ 12.00`
 
 > * *
 
-`$ 2.65 cross times 2.8 equals $ 7.42`
+$\$ 2.65 \\times 2.8 = \$ 7.42$
 
 **[1]**
 
@@ -367,7 +367,7 @@ $1.89\div1.05=1.8$
 
 > *ii) Find the cost of two programmes*
 
-`2 space cross times space $ 3.75 space equals space $ 7.50`
+$2 \\times \$ 3.75 = \$ 7.50$
 
 > *Subtract this from \$10*
 
@@ -439,7 +439,7 @@ $4\times38+2\times50=202\mathrm{hours} \mathrm{worked}$
 
 > *Multiply by the amount paid per hour.*
 
-`202 space cross times space 11.40 space equals space $ 2302.80`
+$202 \\times 11.40 = \$ 2302.80$
 
 ** ****[1]**
 
@@ -477,7 +477,7 @@ $126+24=150$
 
 > * *
 
-`120 minus open parentheses 53 plus 65 close parentheses equals 2`
+$120 - ( 53 + 65 ) = 2$
 
 **[1]**
 
@@ -517,7 +517,7 @@ $8.25\times1.5=12.375$
 
 > *Multiply this value by the number of extra hours she works*
 
-`12.375 cross times 8 equals $ 99` *extra*
+$12.375 \\times 8 = \$ 99$ *extra*
 
 **[1]**
 
@@ -530,7 +530,7 @@ $280.50+99=379.50$
 ### Q19
 > *Determine the total cost of the 6 apples*
 
-`6 cross times 32 equals 192 space cents space equals $ 1.92`
+$6 \\times 32 = 192 \text{cents} = \$ 1.92$
 
 **[1]**
 
@@ -541,11 +541,11 @@ $280.50+99=379.50$
 **\$ 8.08**** ****[1]**
 > *Determine the cost of the green grapes and the red grapes by multiplying the cost by the mass*
 
-`0.6 cross times 3.1 equals $ 1.86`
+$0.6 \\times 3.1 = \$ 1.86$
 
 **[1]**
 
-`3 over 4 cross times 2.8 equals $ 2.10`
+$\frac{3}{4} \\times 2.8 = \$ 2.10$
 
 > *Add these values together to get the total cost*
 
@@ -556,12 +556,12 @@ $280.50+99=379.50$
 `bold $ bold 3 bold. bold 96`** [1]**
 > *Use the formula: Percentage = *$\frac{\mathrm{Amount}}{\mathrm{Total}}$$\times100$* where the amount is *`$ 12`* and the total is *`$ 75`
 
-`12 over 75 cross times 100 equals 16 percent sign`
+$\frac{12}{75} \\times 100 = 16 \%$
 
 **Final answer:** **16 % ****[1]**
 > *Calculate *`60 percent sign`* of the amount and add this onto the original amount*
 
-`open parentheses 1.5 cross times 0.6 close parentheses plus 1.5 equals $ 2.40`
+$( 1.5 \\times 0.6 ) + 1.5 = \$ 2.40$
 
 **[1]**
 
@@ -570,9 +570,9 @@ $280.50+99=379.50$
 ### Q20
 > *Work out the cost of the paint and the brushes.*
 
-`3 space cross times space $ 15.95 space equals space $ 47.85`
+$3 \\times \$ 15.95 = \$ 47.85$
 
-`2 space cross times space $ 7.50 space equals space $ 15`
+$2 \\times \$ 7.50 = \$ 15$
 
 ** ****one value correct ****[1]**
 

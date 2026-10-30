@@ -80,10 +80,10 @@ guided_study: true
 
 - To sketch a region that satisfies multiple inequalities, we need to find the **intersection** of all the regions (where all regions overlap)
 
-  - E.g. the region satisfied by `2 less than open vertical bar z close vertical bar less or equal than 5` can be found as follows…
+  - E.g. the region satisfied by `2 less than | z | <= 5` can be found as follows…
   
     - Using diagonal lines in the same direction, lightly shade the region $\vert z \vert > 2$(the outside of a circle of radius 2 about the origin)
-    - Using diagonal lines in a different direction, lightly shade the region `open vertical bar z close vertical bar less or equal than 5` (the inside of a circle of radius 5 about the origin)
+    - Using diagonal lines in a different direction, lightly shade the region `| z | <= 5` (the inside of a circle of radius 5 about the origin)
     - Where the diagonal lines **cross each other** highlights the region satisfying both inequalities; this should be shaded** boldly**
   - E.g. the region satisfied by $\left| z - \mathrm{i} \right| < \vert z - 1 \vert$ and $0 \text{less} \text{or} \text{equal} \text{than} \text{arg} z \text{less} \text{or} \text{equal} \text{than} \frac{3 \pi }{4}$ can be found as follows…
   

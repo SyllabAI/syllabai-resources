@@ -12,7 +12,7 @@
 
 In a group of 200 students:
 
-- 120 study Chemistry `open parentheses C close parentheses`,
+- 120 study Chemistry $( C )$,
 - 90 study Geography $(G)$,
 - 50 study both Chemistry and Geography.
 
@@ -24,11 +24,11 @@ A student is selected at random.
 
 Find:
 
-(i) `P open parentheses C union G close parentheses`.
+(i) $P ( C \cup G )$.
 
-(ii) `P open parentheses open parentheses C union G close parentheses apostrophe close parentheses`.
+(ii) $P ( ( C \cup G ) ' )$.
 
-(iii) `P open parentheses open parentheses C intersection G close parentheses apostrophe close parentheses`.
+(iii) $P ( ( C \cap G ) ' )$.
 
 ### Q2 — easy — 1 marks
 

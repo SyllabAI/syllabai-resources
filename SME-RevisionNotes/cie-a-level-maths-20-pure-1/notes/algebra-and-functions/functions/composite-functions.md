@@ -29,7 +29,7 @@ guided_study: true
 
   - $fg(x)$
   - $f(g(x))$
-  - `f open square brackets g left parenthesis x right parenthesis close square brackets`
+  - $f [ g ( x ) ]$
   - $(f\circg)(x)$
   - All of these mean “$f$ of $g(x)$”
 

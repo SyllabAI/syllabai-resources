@@ -20,7 +20,7 @@ To factorise simple expressions like $6x+8$:
 2. Write this factor **outside** a set of brackets
 3. Write inside the brackets what you must multiply the factor by to get the **original **expression
 
-So $6x+8$ becomes `2 open parentheses 3 x plus 4 close parentheses`.
+So $6x+8$ becomes $2 ( 3 x + 4 )$.
 
 
 
@@ -62,7 +62,7 @@ The highest common factor in $4x^{2}+12x$ is $4x$, not $2x$.
 
 **FRONT**
 
-An expression is factorised to get `5 open parentheses x minus 1 close parentheses`.
+An expression is factorised to get $5 ( x - 1 )$.
 
 How can this result be** checked**?
 
@@ -71,7 +71,7 @@ How can this result be** checked**?
 
 This result can be checked by **expanding the expression**.
 
-So `5 open parentheses x minus 1 close parentheses` expands to give $5x-5$.
+So $5 ( x - 1 )$ expands to give $5x-5$.
 
 If that was the original question, then the factorised expression is correct.
 
@@ -95,7 +95,7 @@ E.g. $-2$ can be factorised out from the expression $-2x-4$.
 You **can **factorise out negative numbers. 
 Just be very careful with the signs.
 
-E.g. $-2x-4$ factorises to `negative 2 open parentheses x plus 2 close parentheses`.
+E.g. $-2x-4$ factorises to $- 2 ( x + 2 )$.
 
 
 
@@ -105,18 +105,18 @@ E.g. $-2x-4$ factorises to `negative 2 open parentheses x plus 2 close parenthes
 
 **True or False?**
 
-The expression `3 x open parentheses 5 x plus 10 close parentheses` is factorised fully.
+The expression $3 x ( 5 x + 10 )$ is factorised fully.
 
 
 **BACK**
 
 **False**.
 
-The expression `3 x open parentheses 5 x plus 10 close parentheses` is not factorised fully.
+The expression $3 x ( 5 x + 10 )$ is not factorised fully.
 
 You can still take out a 5 from inside the brackets.
 
-This gives `15 x open parentheses x plus 2 close parentheses`, which is now factorised **fully**.
+This gives $15 x ( x + 2 )$, which is now factorised **fully**.
 
 
 
@@ -139,14 +139,14 @@ E.g. $x^{2}+6x-2$ is a quadratic expression.
 
 **FRONT**
 
-An expression $x^{2}+8x+12$ factorises to `open parentheses x plus p close parentheses open parentheses x plus q close parentheses`.
+An expression $x^{2}+8x+12$ factorises to $( x + p ) ( x + q )$.
 
 Explain how the numbers $p$ and $q$ relate to the numbers $8$ and $12$.
 
 
 **BACK**
 
-If $x^{2}+8x+12$ factorises to `open parentheses x plus p close parentheses open parentheses x plus q close parentheses`, then:
+If $x^{2}+8x+12$ factorises to $( x + p ) ( x + q )$, then:
 
 - $p+q=8$ (the numbers must add to give 8).
 - $pq=12$ (the numbers must multiply to give 12).
@@ -159,14 +159,14 @@ If $x^{2}+8x+12$ factorises to `open parentheses x plus p close parentheses open
 
 **True or False?**
 
-If  $x^{2}-54x+288$ factorises to `open parentheses x plus p close parentheses open parentheses x plus q close parentheses` then $p$ and $q$ must both be negative.
+If  $x^{2}-54x+288$ factorises to $( x + p ) ( x + q )$ then $p$ and $q$ must both be negative.
 
 
 **BACK**
 
 **True.**
 
-If  $x^{2}-54x+288$ factorises to `open parentheses x plus p close parentheses open parentheses x plus q close parentheses`, then $p$ and $q$ **multiply** to give 288, which is positive.  That means that $p$ and $q$ could both be positive or both be negative.
+If  $x^{2}-54x+288$ factorises to $( x + p ) ( x + q )$, then $p$ and $q$ **multiply** to give 288, which is positive.  That means that $p$ and $q$ could both be positive or both be negative.
 
 But since $p$ and $q$ **add** to give -54 which is negative, then at least one of them is negative.
 
@@ -187,7 +187,7 @@ A quadratic expression will **always factorise** into **double brackets**.
 
 **False.**
 
-The quadratic expression $x^{2}+5x$ with no constant term factorises to `x open parentheses x plus 5 close parentheses` which is **not** a double bracket expansion.
+The quadratic expression $x^{2}+5x$ with no constant term factorises to $x ( x + 5 )$ which is **not** a double bracket expansion.
 
 
 
@@ -200,7 +200,7 @@ Define the **difference of two squares **when talking about factorisation.
 
 **BACK**
 
-The difference of two squares says that $a^{2}-b^{2}$ factorises into the double brackets `open parentheses a plus b close parentheses open parentheses a minus b close parentheses`.
+The difference of two squares says that $a^{2}-b^{2}$ factorises into the double brackets $( a + b ) ( a - b )$.
 
 
 
@@ -210,14 +210,14 @@ The difference of two squares says that $a^{2}-b^{2}$ factorises into the double
 
 **True or False?**
 
-$x^{2}-81$ is `open parentheses x plus 9 close parentheses open parentheses x minus 9 close parentheses` but not `open parentheses x minus 9 close parentheses open parentheses x plus 9 close parentheses`.
+$x^{2}-81$ is $( x + 9 ) ( x - 9 )$ but not $( x - 9 ) ( x + 9 )$.
 
 
 **BACK**
 
 **False**.
 
-$x^{2}-81$ can be written as `open parentheses x plus 9 close parentheses open parentheses x minus 9 close parentheses` or as `open parentheses x minus 9 close parentheses open parentheses x plus 9 close parentheses`, because they both expand to give $x^{2}-81$.
+$x^{2}-81$ can be written as $( x + 9 ) ( x - 9 )$ or as $( x - 9 ) ( x + 9 )$, because they both expand to give $x^{2}-81$.
 
 
 
@@ -227,14 +227,14 @@ $x^{2}-81$ can be written as `open parentheses x plus 9 close parentheses open p
 
 **True or False?**
 
-$x^{2}-81$ is `open parentheses x plus 9 close parentheses open parentheses x minus 9 close parentheses` but not `open parentheses 9 plus x close parentheses open parentheses 9 minus x close parentheses`.
+$x^{2}-81$ is $( x + 9 ) ( x - 9 )$ but not $( 9 + x ) ( 9 - x )$.
 
 
 **BACK**
 
 **True**.
 
-$x^{2}-81$ is `open parentheses x plus 9 close parentheses open parentheses x minus 9 close parentheses` but not `open parentheses 9 plus x close parentheses open parentheses 9 minus x close parentheses`. The second one expands to give $81-x^{2}$, not $x^{2}-81$.
+$x^{2}-81$ is $( x + 9 ) ( x - 9 )$ but not $( 9 + x ) ( 9 - x )$. The second one expands to give $81-x^{2}$, not $x^{2}-81$.
 
 
 
@@ -251,7 +251,7 @@ It is **impossible **to factorise a quadratic expression with **no middle term**
 
 **False.**
 
-The quadratic expression $x^{2}-9$ has no middle term in $x$but factorises into `open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses` using the** difference of two squares**.
+The quadratic expression $x^{2}-9$ has no middle term in $x$but factorises into $( x + 3 ) ( x - 3 )$ using the** difference of two squares**.
 
 
 
@@ -264,9 +264,9 @@ Explain how to use the difference of two squares to factorise $4x^{2}-25$.
 
 **BACK**
 
-To factorise $4x^{2}-25$ using difference of two squares, the $4x^{2}$ can be thought of as `open parentheses 2 x close parentheses squared`. So $4x^{2}-25$ is `open parentheses 2 x close parentheses squared minus 5 squared`.
+To factorise $4x^{2}-25$ using difference of two squares, the $4x^{2}$ can be thought of as $( 2 x )^{2}$. So $4x^{2}-25$ is $( 2 x )^{2} - 5^{2}$.
 
-The difference of two squares can then be used where $a=2x$ and $b=5$, giving `open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses`.
+The difference of two squares can then be used where $a=2x$ and $b=5$, giving $( 2 x + 5 ) ( 2 x - 5 )$.
 
 
 
@@ -279,10 +279,10 @@ Explain how to use the difference of two squares to factorise $5x^{2}-45$.
 
 **BACK**
 
-To factorise $5x^{2}-45$ using difference of two squares, first factorise out the 5 to get `5 open parentheses x squared minus 9 close parentheses`.
+To factorise $5x^{2}-45$ using difference of two squares, first factorise out the 5 to get $5 ( x^{2} - 9 )$.
 
 Then use the** difference of two squares** for the $x^{2}-9$ part.
 
-This gives `5 open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses`.
+This gives $5 ( x + 3 ) ( x - 3 )$.
 
 

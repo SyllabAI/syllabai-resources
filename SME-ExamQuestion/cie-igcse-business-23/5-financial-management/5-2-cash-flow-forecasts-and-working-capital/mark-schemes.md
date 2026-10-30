@@ -155,9 +155,7 @@ equals space $ 300`     **[1]**
 
 Add net cash flow to the opening balance to calculate month 3's closing balance
 
-`equals space $ 300 space plus space open parentheses $ 1200 close parentheses
-
-equals space open parentheses $ 900 close parentheses`    **[1]**
+$= \$ 300 + ( \$ 1200 ) = ( \$ 900 )$    **[1]**
 
 > **[mark-scheme]**
 > - Award 1 mark for each correct calculation
@@ -232,9 +230,7 @@ equals space $ 10 comma 000`    **[1]**
 
 To find Y (closing balance), add net cash flow to the opening balance
 
-`equals space $ 50 comma 000 space plus space open parentheses $ 30 comma 000 close parentheses
-
-equals space $ 20 comma 000`   ** [1]**
+$= \$ 50 , 000 + ( \$ 30 , 000 ) = \$ 20 , 000$   ** [1]**
 
 > **[mark-scheme]**
 > - Award 1 mark for each correct calculation (max 2)

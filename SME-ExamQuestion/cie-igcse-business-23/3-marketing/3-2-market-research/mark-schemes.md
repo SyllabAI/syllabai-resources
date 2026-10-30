@@ -475,9 +475,7 @@ $=700\div2,000\,\,=0.35$    **[1]**
 
 Multiple the outcome by 100 to calculate the percentage
 
-`equals space space 0.35 space cross times space 100
-
-equals space 35 percent sign`    **[1]**
+$= 0.35 \\times 100 = 35 \%$    **[1]**
 
 > **[mark-scheme]**
 > - Application, 2

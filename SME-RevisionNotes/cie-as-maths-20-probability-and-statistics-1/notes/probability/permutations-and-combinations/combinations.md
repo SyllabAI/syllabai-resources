@@ -57,7 +57,7 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
   - This would include *r*! ways of repeating each combination
   - The formula for *r ***combinations** of *n *items is $\frac{P pre^{n}_{r} }{r factorial} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$
 - The function $\frac{n factorial}{( n - r ) \text{factorial} r factorial}$ can be written as $C pre^{n}_{r}$ or $( \begin{gathered} n \\ r \end{gathered} )$  and is often read as ‘*n choose r’*
-- Make sure you can find and use the `size 16px C presuperscript size 16px n subscript size 16px r`button on your calculator
+- Make sure you can find and use the $\text{size} 16px C pre^{size} 16px n_{size} 16px r$button on your calculator
 - The formulae for permutations and combinations satisfy the following relationship:
 
 `Error converting from MathML to accessible text.`
@@ -65,13 +65,13 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
 #### What do I need to know about combinations?
 
 - The formula $C pre^{n}_{r} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$ is also known as a **binomial** coefficient
-- `size 16px C presuperscript size 16px n_ size 16px n size 16px=size 16px C presuperscript size 16px n_ size 16px 0 size 16px=size 16px 1`
+- $\text{size} 16px C pre^{size} 16px n_ \text{size} 16px n \text{size} 16px=size 16px C pre^{size} 16px n_ \text{size} 16px 0 \text{size} 16px=size 16px 1$
 
   - It is easy to see that there is only one way of arranging *n* objects out of *n* and also there can only be one way of arranging 0 objects out of *n*
   - By considering the formula for this, it reinforces the fact that 0! Must equal 1
 - The binomial coefficients are symmetrical, so $\text{size} 16px C pre^{size} 16px n_{size 16px r \text{size} 16px = \text{size} 16px C pre^{size} 16px n_{size} 16px n \text{size} 16px - \text{size} 16px r}$
 
-  - This can be seen by considering the formula for `size 16px C presuperscript size 16px n subscript size 16px r`
+  - This can be seen by considering the formula for $\text{size} 16px C pre^{size} 16px n_{size} 16px r$
   - $\text{size} 16px C pre^{size} 16px n_{size 16px n \text{size} 16px - \text{size} 16px r} \text{size} 16px = \frac{size 16px n \text{size} 16px factorial}{( n - r ) \text{size} 16px \text{factorial} \text{size} 16px ( \text{size} 16px n \text{size} 16px - \text{size} 16px ( \text{size} 16px n \text{size} 16px - \text{size} 16px r \text{size} 16px ) \text{size} 16px ) \text{size} 16px factorial} \text{size} 16px = \frac{size 16px n \text{size} 16px factorial}{r \text{factorial} ( n - r ) factorial} \text{size} 16px = \text{size} 16px C pre^{size} 16px n_{size} 16px r$
 
 #### How do I know when to multiply or add?

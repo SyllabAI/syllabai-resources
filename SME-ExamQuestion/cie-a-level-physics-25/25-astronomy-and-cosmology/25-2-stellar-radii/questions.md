@@ -58,7 +58,7 @@ Assess the accuracy of this statement.
 
 **Q2** [4 marks]
 
-Fig. 1.1 shows the logarithmic relationship between luminosity `L over L subscript ☉` and temperature `T over T subscript ☉` for a sample of stars, where *L*<sub>☉</sub> and *T*<sub>☉</sub> represent the luminosity and temperature of the Sun respectively.
+Fig. 1.1 shows the logarithmic relationship between luminosity `L / L _ ☉` and temperature `T / T _ ☉` for a sample of stars, where *L*<sub>☉</sub> and *T*<sub>☉</sub> represent the luminosity and temperature of the Sun respectively.
 
 Two stars, X and Y, are shown with their corresponding radii, in terms of the radius of the Sun *R*<sub>☉</sub>.
 

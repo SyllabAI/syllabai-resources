@@ -28,7 +28,7 @@ When dividing ***complex*** numbers, we can use the **complex conjugate** to mak
   - $z+z^{*}$ is always real because $(a+bi)+(a-bi)=2a$
   
     - For example: $(6+5i)+(6-5i)=6+6+5i-5i=12$
-  - $z-z^{*}$ is always imaginary because `(a+b straight i)−left parenthesis a−b straight i right parenthesis=2b straight i`
+  - $z-z^{*}$ is always imaginary because $(a+b \mathrm{i} )−( a−b \mathrm{i} )=2b \mathrm{i}$
   
     - For example: $(6+5i)-(6-5i)=6-6+5i-(-5i)=10i$
   - $z\timesz^{*}$ is always real because `(a+b straight i)(a−b straight i)=a²+a b straight i−a b straight i−b² straight i²=a²+b²` (as $i^{2}=-1$)

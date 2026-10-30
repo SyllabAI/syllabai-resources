@@ -165,7 +165,7 @@
       {
        "latex": "v=\\frac{18}{2.0}=9.0\\text{m/s}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>18</mn><mrow><mn>2</mn><mo>.</mo><mn>0</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>0</mn><mtext>&#160;m/s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "v space equals space fraction numerator 18 over denominator 2.0 end fraction space equals space 9.0 text  m/s end text"
+       "alt": "v = (18)/(2.0) = 9.0 text m/s end text"
       }
      ]
     }
@@ -260,63 +260,63 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell change space in space momentum space end cell equals cell space final space momentum space minus space initial space momentum end cell end table",
+       "alt": "| change in momentum | = final momentum - initial momentum | |",
        "render": "$\\begin{array}{ccc} \\text{change} in \\text{momentum} & = & \\text{final} \\text{momentum} - \\text{initial} \\text{momentum} \\end{array}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell increment p space end cell equals cell space p subscript final space minus space p subscript initial end cell end table",
+       "alt": "| increment p | = p _ final - p _ initial | |",
        "render": "$\\begin{gathered} \\Delta p & = p_{final} - p_{initial} \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell space p subscript initial space end subscript end cell equals cell space 1.2 space kg space cross times space 2.0 space straight m divided by straight s space equals space 2.4 space kg space straight m divided by straight s end cell end table",
+       "alt": "| p _ initial | = 1.2 kg x 2.0 m / s = 2.4 kg m / s | |",
        "render": "$\\begin{gathered} p_{initial } & = 1.2 \\text{kg} \\times 2.0 \\mathrm{m} \\div \\mathrm{s} = 2.4 \\text{kg} \\mathrm{m} \\div \\mathrm{s} \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell italic space p subscript final space end subscript end cell equals cell space 1.2 space kg space cross times space 5.0 space straight m divided by straight s space equals space 6.0 space kg space straight m divided by straight s end cell end table",
+       "alt": "| p _ final | = 1.2 kg x 5.0 m / s = 6.0 kg m / s | |",
        "render": "$\\begin{gathered} p_{final } & = 1.2 \\text{kg} \\times 5.0 \\mathrm{m} \\div \\mathrm{s} = 6.0 \\text{kg} \\mathrm{m} \\div \\mathrm{s} \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell increment p space end cell equals cell space p subscript final space minus space p subscript initial space equals space 6.0 space minus space 2.4 space equals space 3.6 space kg space straight m divided by straight s end cell end table",
+       "alt": "| increment p | = p _ final - p _ initial = 6.0 - 2.4 = 3.6 kg m / s | |",
        "render": "$\\begin{gathered} \\Delta p & = p_{final} - p_{initial} = 6.0 - 2.4 = 3.6 \\text{kg} \\mathrm{m} \\div \\mathrm{s} \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell impulse space end cell equals cell space F increment t space equals space increment open parentheses m v close parentheses space equals space increment p space end cell end table",
+       "alt": "| impulse | = F increment t = increment ( m v ) = increment p | |",
        "render": "$\\begin{gathered} \\text{impulse} & = F \\Delta t = \\Delta ( m v ) = \\Delta p \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell increment t space end cell equals cell space fraction numerator increment p over denominator F end fraction end cell end table",
+       "alt": "| increment t | = (increment p)/(F) | |",
        "render": "$\\begin{gathered} \\Delta t & = \\frac{\\Delta p}{F} \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "table row cell increment t space end cell equals cell space fraction numerator 3.6 space kg space straight m divided by straight s over denominator 4.0 space straight N end fraction space equals space 0.90 space straight s end cell end table",
+       "alt": "| increment t | = (3.6 kg m / s)/(4.0 N) = 0.90 s | |",
        "render": "$\\begin{gathered} \\Delta t & = \\frac{3.6 \\text{kg} \\mathrm{m} \\div \\mathrm{s} }{4.0 \\mathrm{N} } = 0.90 \\mathrm{s} \\end{gathered}$",
        "via": "alt-transpile"
       },
       {
        "latex": "\\Deltat=\\frac{m\\Deltav}{F}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mo>&#8710;</mo><mi>v</mi></mrow><mi>F</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "increment t space equals space fraction numerator m increment v over denominator F end fraction"
+       "alt": "increment t = (m increment v)/(F)"
       },
       {
        "latex": "\\Deltav",
@@ -408,7 +408,7 @@
       {
        "latex": "v=\\frac{0.03}{0.16}=0.1875m/s",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>03</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>16</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>1875</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "v space equals fraction numerator space 0.03 over denominator 0.16 end fraction space equals space 0.1875 space straight m divided by straight s"
+       "alt": "v = ( 0.03)/(0.16) = 0.1875 m / s"
       }
      ]
     }
@@ -627,12 +627,12 @@
       {
        "latex": "F=\\frac{\\Deltap}{\\Deltat}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>p</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator increment p over denominator increment t end fraction"
+       "alt": "F = (increment p)/(increment t)"
       },
       {
        "latex": "F=\\frac{0.60}{0.60}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>60</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>60</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "F space equals fraction numerator space 0.60 over denominator 0.60 end fraction"
+       "alt": "F = ( 0.60)/(0.60)"
       },
       {
        "latex": "F=1.0N",
@@ -938,7 +938,7 @@
       {
        "latex": "I=\\frac{\\Deltap}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>p</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
-       "alt": "I space equals space fraction numerator increment p over denominator t end fraction"
+       "alt": "I = (increment p)/(t)"
       },
       {
        "latex": "I=Ft",
@@ -948,7 +948,7 @@
       {
        "latex": "F=\\frac{Δp}{Δt}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >F</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mi mathvariant=\"normal\">Δ</mi><mi>p</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator straight capital delta p over denominator straight capital delta t end fraction"
+       "alt": "F = ( capital delta p)/( capital delta t)"
       },
       {
        "latex": "I=m(v-u)",
@@ -1205,12 +1205,12 @@
       {
        "latex": "F=\\frac{m\\Deltav}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi >F</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mi>m</mi><mo>∆</mo><mi>v</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "space F space equals space fraction numerator m increment v over denominator t end fraction"
+       "alt": "F = (m increment v)/(t)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator 150 cross times 10 blank to the power of negative 3 end exponent space cross times space 220 over denominator 0.025 end fraction space equals space 1320 space straight N space equals space 1.3 space cross times 10 cubed space straight N space open parentheses 2 space straight s. straight f. close parentheses",
+       "alt": "F = (150 x 10 _ ^ - 3 x 220)/(0.025) = 1320 N = 1.3 x 10 ^3 N ( 2 s. f. )",
        "render": "$F = \\frac{150 \\times 10^{- 3} \\times 220}{0.025} = 1320 \\mathrm{N} = 1.3 \\times 10^{3} \\mathrm{N} ( 2 \\mathrm{s} . \\mathrm{f} . )$",
        "via": "alt-transpile"
       }
@@ -1585,7 +1585,7 @@
       {
        "latex": "v=\\frac{0.18}{2.0}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>18</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "v space equals space fraction numerator 0.18 over denominator 2.0 end fraction"
+       "alt": "v = (0.18)/(2.0)"
       },
       {
        "latex": "v=",
@@ -1646,17 +1646,17 @@
       {
        "latex": "F=\\frac{\\Deltap}{\\Deltat}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>p</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator increment p over denominator increment t end fraction"
+       "alt": "F = (increment p)/(increment t)"
       },
       {
        "latex": "F=\\frac{m\\Deltav}{\\Deltat}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mo>&#8710;</mo><mi>v</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator m increment v over denominator increment t end fraction"
+       "alt": "F = (m increment v)/(increment t)"
       },
       {
        "latex": "F=\\frac{2.0\\times0.09}{0.50}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>09</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>50</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator 2.0 cross times 0.09 over denominator 0.50 end fraction"
+       "alt": "F = (2.0 x 0.09)/(0.50)"
       },
       {
        "latex": "F=",
@@ -1671,7 +1671,7 @@
       {
        "latex": "F=\\frac{\\Deltap}{\\Deltat}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>=</mo><mfrac><mrow><mo>&#8710;</mo><mi>p</mi></mrow><mrow><mo>&#8710;</mo><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "F equals fraction numerator increment p over denominator increment t end fraction"
+       "alt": "F = (increment p)/(increment t)"
       },
       {
        "latex": "\\frac{2.0\\times0.090}{0.50}",
@@ -1681,7 +1681,7 @@
       {
        "latex": "\\frac{0.18}{0.50}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>18</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>50</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "fraction numerator 0.18 over denominator 0.50 end fraction"
+       "alt": "(0.18)/(0.50)"
       },
       {
        "latex": "0.36N",
@@ -1800,14 +1800,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator m open parentheses v space minus space u close parentheses over denominator t end fraction",
+       "alt": "F = (m ( v - u ))/(t)",
        "render": "$F = \\frac{m ( v - u )}{t}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator 0.046 cross times open parentheses 65 space minus space 0 close parentheses over denominator 5.0 cross times 10 to the power of negative 4 end exponent end fraction",
+       "alt": "F = (0.046 x ( 65 - 0 ))/(5.0 x 10 ^ - 4 )",
        "render": "$F = \\frac{0.046 \\times ( 65 - 0 )}{5.0 \\times 10^{- 4} }$",
        "via": "alt-transpile"
       },
@@ -2020,7 +2020,7 @@
       {
        "latex": "v=\\frac{8.0}{12.0}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>8</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "v space equals space fraction numerator 8.0 over denominator 12.0 end fraction"
+       "alt": "v = (8.0)/(12.0)"
       },
       {
        "latex": "v=0.67m/s",
@@ -2081,7 +2081,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "f o r c e comma space F space equals space fraction numerator open parentheses m v space minus space m u close parentheses over denominator t end fraction",
+       "alt": "f o r c e , F = (( m v - m u ))/(t)",
        "render": "$f o r c e , F = \\frac{( m v - m u )}{t}$",
        "via": "alt-transpile"
       },
@@ -2098,17 +2098,17 @@
       {
        "latex": "force=\\frac{impulse}{time}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>c</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>i</mi><mi>m</mi><mi>p</mi><mi>u</mi><mi>l</mi><mi>s</mi><mi>e</mi></mrow><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "f o r c e space equals space fraction numerator i m p u l s e over denominator t i m e end fraction"
+       "alt": "f o r c e = (i m p u l s e)/(t i m e)"
       },
       {
        "latex": "force=\\frac{4.2}{60}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>c</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>2</mn></mrow><mn>60</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "f o r c e space equals space fraction numerator 4.2 over denominator 60 end fraction"
+       "alt": "f o r c e = (4.2)/(60)"
       },
       {
        "latex": "totalforce=20\\times\\frac{4.2}{60}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo> </mo><mi>f</mi><mi>o</mi><mi>r</mi><mi>c</mi><mi>e</mi><mo> </mo><mo>=</mo><mo> </mo><mn>20</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>2</mn></mrow><mn>60</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "t o t a l space f o r c e space equals space 20 space cross times space fraction numerator 4.2 over denominator 60 end fraction"
+       "alt": "t o t a l f o r c e = 20 x (4.2)/(60)"
       }
      ]
     }
@@ -2195,7 +2195,7 @@
       {
        "latex": "F=\\frac{-430}{1.2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>-</mo><mn>430</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>2</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator negative 430 over denominator 1.2 end fraction"
+       "alt": "F = (- 430)/(1.2)"
       }
      ]
     },
@@ -2264,14 +2264,14 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "space v subscript A B end subscript space equals space fraction numerator m subscript A space v subscript A space plus space m subscript B space v subscript B over denominator open parentheses m subscript A plus space m subscript B close parentheses end fraction",
+       "alt": "v _ A B = (m _ A v _ A + m _ B v _ B)/(( m _ A + m _ B ))",
        "render": "$v_{A B} = \\frac{m_{A} v_{A} + m_{B} v_{B} }{( m_{A} + m_{B} )}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "space v subscript A B end subscript space equals space fraction numerator open parentheses 27 space 000 cross times 3.6 close parentheses space minus space open parentheses 22 space 000 cross times 2.4 close parentheses over denominator open parentheses 27 space 000 space plus space 22 space 000 close parentheses end fraction",
+       "alt": "v _ A B = (( 27 000 x 3.6 ) - ( 22 000 x 2.4 ))/(( 27 000 + 22 000 ))",
        "render": "$v_{A B} = \\frac{( 27 000 \\times 3.6 ) - ( 22 000 \\times 2.4 )}{( 27 000 + 22 000 )}$",
        "via": "alt-transpile"
       },
@@ -2335,7 +2335,7 @@
       {
        "latex": "a=\\frac{v-u}{t}=\\frac{0-0.91}{180}=-5.1\\times10^{-3}m/s^{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>v</mi><mo> </mo><mo>-</mo><mo> </mo><mi>u</mi></mrow><mi>t</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>0</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>91</mn></mrow><mn>180</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mo> </mo><mn>5</mn><mo>.</mo><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo> </mo><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "a space equals space fraction numerator v space minus space u over denominator t end fraction space equals space fraction numerator 0 space minus space 0.91 over denominator 180 end fraction space equals space minus space 5.1 cross times 10 to the power of negative 3 end exponent space m divided by s squared"
+       "alt": "a = (v - u)/(t) = (0 - 0.91)/(180) = - 5.1 x 10 ^ - 3 m / s ^2"
       }
      ]
     },
@@ -2433,26 +2433,26 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator m open parentheses v space minus space u close parentheses over denominator t end fraction",
+       "alt": "F = (m ( v - u ))/(t)",
        "render": "$F = \\frac{m ( v - u )}{t}$",
        "via": "alt-transpile"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "F space equals space fraction numerator 0.046 space cross times open parentheses 65 space minus space 0 close parentheses over denominator open parentheses 5.0 space cross times space 10 to the power of negative 4 end exponent close parentheses end fraction",
+       "alt": "F = (0.046 x ( 65 - 0 ))/(( 5.0 x 10 ^ - 4 ))",
        "render": "$F = \\frac{0.046 \\times ( 65 - 0 )}{( 5.0 \\times 10^{- 4} )}$",
        "via": "alt-transpile"
       },
       {
        "latex": "a=\\frac{v-u}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >a</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mi>v</mi><mo> </mo><mo>-</mo><mo> </mo><mi>u</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "a space equals space fraction numerator v space minus space u over denominator t end fraction"
+       "alt": "a = (v - u)/(t)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "a space equals space fraction numerator 65 space minus space 0 over denominator open parentheses 5.4 space cross times space 10 to the power of negative 4 end exponent close parentheses end fraction",
+       "alt": "a = (65 - 0)/(( 5.4 x 10 ^ - 4 ))",
        "render": "$a = \\frac{65 - 0}{( 5.4 \\times 10^{- 4} )}$",
        "via": "alt-transpile"
       },
@@ -2549,7 +2549,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "v space equals space fraction numerator 0.019 over denominator open parentheses 1.1 space cross times space 10 to the power of negative 4 end exponent close parentheses end fraction",
+       "alt": "v = (0.019)/(( 1.1 x 10 ^ - 4 ))",
        "render": "$v = \\frac{0.019}{( 1.1 \\times 10^{- 4} )}$",
        "via": "alt-transpile"
       },
@@ -2566,7 +2566,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "E subscript k space equals space 1 half space cross times space open parentheses 1.1 space cross times space 10 to the power of negative 4 end exponent close parentheses space cross times space open parentheses 173 close parentheses squared",
+       "alt": "E _ k = 1 half x ( 1.1 x 10 ^ - 4 ) x ( 173 ) ^2",
        "render": "$E_{k} = 1 \\frac{1}{2} \\times ( 1.1 \\times 10^{- 4} ) \\times ( 173 )^{2}$",
        "via": "alt-transpile"
       },
@@ -2672,7 +2672,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "I space equals space 200 space straight N space cross times space open parentheses 11 space cross times space 10 to the power of negative 3 end exponent close parentheses space straight s",
+       "alt": "I = 200 N x ( 11 x 10 ^ - 3 ) s",
        "render": "$I = 200 \\mathrm{N} \\times ( 11 \\times 10^{- 3} ) \\mathrm{s}$",
        "via": "alt-transpile"
       },
@@ -2715,7 +2715,7 @@
       {
        "latex": "v=\\frac{2.2}{0.450}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>450</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "v space equals space fraction numerator 2.2 over denominator 0.450 end fraction"
+       "alt": "v = (2.2)/(0.450)"
       }
      ]
     },
@@ -2751,7 +2751,7 @@
       {
        "latex": "u_{m}=\\frac{m_{b}v_{b}}{m_{m}}=\\frac{0.45\\times4.9}{1.36}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>u</mi><mi>m</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><msub><mi>m</mi><mi>b</mi></msub><msub><mi>v</mi><mi>b</mi></msub></mrow><msub><mi>m</mi><mi>m</mi></msub></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>45</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>9</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>36</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
-       "alt": "u subscript m space equals space fraction numerator m subscript b v subscript b over denominator m subscript m end fraction space equals space fraction numerator 0.45 space cross times space 4.9 over denominator 1.36 end fraction"
+       "alt": "u _ m = (m _ b v _ b)/(m _ m) = (0.45 x 4.9)/(1.36)"
       },
       {
        "latex": "u_{m}=1.6m/s",
@@ -2848,7 +2848,7 @@
       {
        "latex": null,
        "mathml": null,
-       "alt": "I m p u l s e space equals space 400 space cross times space open parentheses 6 space cross times space 10 to the power of negative 3 end exponent close parentheses",
+       "alt": "I m p u l s e = 400 x ( 6 x 10 ^ - 3 )",
        "render": "$I m p u l s e = 400 \\times ( 6 \\times 10^{- 3} )$",
        "via": "alt-transpile"
       },
@@ -2884,7 +2884,7 @@
       {
        "latex": "v=\\frac{2.4}{0.056}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>4</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>056</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "v space equals space fraction numerator 2.4 over denominator 0.056 end fraction"
+       "alt": "v = (2.4)/(0.056)"
       }
      ]
     }
@@ -2967,27 +2967,27 @@
       {
        "latex": "F=\\frac{Δp}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>=</mo><mfrac><mrow><mi>&#916;</mi><mi>p</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F equals fraction numerator capital delta p over denominator t end fraction"
+       "alt": "F = (capital delta p)/(t)"
       },
       {
        "latex": "force=\\frac{-3.2\\times10^{7}}{80}=-4.0\\times10^{5}N",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>c</mi><mi>e</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>-</mo><mn>3</mn><mo>.</mo><mn>2</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><mn>80</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mo>-</mo><mn>4</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>&#160;</mo><mi>N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "f o r c e space equals space fraction numerator negative 3.2 space cross times space 10 to the power of 7 over denominator 80 end fraction space equals space minus 4.0 space cross times space 10 to the power of 5 space N"
+       "alt": "f o r c e = (- 3.2 x 10 ^ 7)/(80) = - 4.0 x 10 ^ 5 N"
       },
       {
        "latex": "F=\\frac{Impulse}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >F</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mi>I</mi><mi>m</mi><mi>p</mi><mi>u</mi><mi>l</mi><mi>s</mi><mi>e</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator I m p u l s e over denominator t end fraction"
+       "alt": "F = (I m p u l s e)/(t)"
       },
       {
        "latex": "F=\\frac{\\Deltap}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi >F</mi><mo > </mo><mo >=</mo><mo > </mo><mfrac ><mrow><mo>∆</mo><mi>p</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator increment p over denominator t end fraction"
+       "alt": "F = (increment p)/(t)"
       },
       {
        "latex": null,
        "mathml": null,
-       "alt": "f o r c e space equals space fraction numerator c h a n g e space i n space m o m e n t u m over denominator t i m e space open parentheses t a k e n close parentheses end fraction",
+       "alt": "f o r c e = (c h a n g e i n m o m e n t u m)/(t i m e ( t a k e n ))",
        "render": "$f o r c e = \\frac{c h a n g e i n m o m e n t u m}{t i m e ( t a k e n )}$",
        "via": "alt-transpile"
       }
@@ -3123,7 +3123,7 @@
       {
        "latex": "v_{p}=\\frac{m_{b}\\timesv_{b}}{m_{p}}=\\frac{0.05\\times2.0}{0.5}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>v</mi><mi>p</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>m</mi><mi>b</mi></msub><mo>×</mo><mo> </mo><msub><mi>v</mi><mi>b</mi></msub></mrow><msub><mi>m</mi><mi>p</mi></msub></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>5</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "v subscript p space equals space fraction numerator m subscript b cross times space v subscript b over denominator m subscript p end fraction space equals space fraction numerator 0.05 space cross times space 2.0 over denominator 0.5 end fraction"
+       "alt": "v _ p = (m _ b x v _ b)/(m _ p) = (0.05 x 2.0)/(0.5)"
       },
       {
        "latex": "v_{p}=0.2m/s",
@@ -3184,7 +3184,7 @@
       {
        "latex": "F=\\frac{0.1}{0.6}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>1</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>6</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator 0.1 over denominator 0.6 end fraction"
+       "alt": "F = (0.1)/(0.6)"
       },
       {
        "latex": "F=0.1\\overset{.}{6}",
@@ -3280,7 +3280,7 @@
       {
        "latex": "F=\\frac{I}{t}=\\frac{mΔv}{t}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>I</mi><mi>t</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mo>&#160;</mo><mi mathvariant=\"normal\">&#916;</mi><mi>v</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space I over t space equals space fraction numerator m space straight capital delta v over denominator t end fraction"
+       "alt": "F = I / t = (m capital delta v)/(t)"
       },
       {
        "latex": null,
@@ -3299,7 +3299,7 @@
       {
        "latex": "F_{A}=\\frac{mΔv}{t}=\\frac{38100}{0.3}=127000N",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>A</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mo>&#160;</mo><mi mathvariant=\"normal\">&#916;</mi><mi>v</mi></mrow><mi>t</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>38</mn><mo>&#160;</mo><mn>100</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mn>127</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F subscript A space equals space fraction numerator m space straight capital delta v over denominator t end fraction space equals space fraction numerator 38 space 100 over denominator 0.3 end fraction equals 127 space 000 space straight N"
+       "alt": "F _ A = (m capital delta v)/(t) = (38 100)/(0.3) = 127 000 N"
       },
       {
        "latex": null,
@@ -3318,7 +3318,7 @@
       {
        "latex": "F_{B}=\\frac{mΔv}{t}=\\frac{47100}{0.7}=67000N",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi mathvariant=\"bold-italic\">B</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mo>&#160;</mo><mi mathvariant=\"normal\">&#916;</mi><mi>v</mi></mrow><mi>t</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>47</mn><mo>&#160;</mo><mn>100</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>7</mn></mrow></mfrac><mo>=</mo><mn>67</mn><mo>&#160;</mo><mn>000</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F subscript bold italic B space equals space fraction numerator m space straight capital delta v over denominator t end fraction space equals space fraction numerator 47 space 100 over denominator 0.7 end fraction equals 67 space 000 space straight N"
+       "alt": "F _ B = (m capital delta v)/(t) = (47 100)/(0.7) = 67 000 N"
       }
      ]
     }
@@ -3378,7 +3378,7 @@
       {
        "latex": "v=\\frac{p}{m}=\\frac{36}{0.03}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>p</mi><mi>m</mi></mfrac><mo> </mo><mo>=</mo><mfrac><mn>36</mn><mrow><mn>0</mn><mo>.</mo><mn>03</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "v space equals space p over m space equals fraction numerator 36 over denominator 0.03 end fraction"
+       "alt": "v = p / m = (36)/(0.03)"
       },
       {
        "latex": "v=1200m/s",
@@ -3456,7 +3456,7 @@
       {
        "latex": "F=\\frac{I}{Δt}=\\frac{9.8}{0.0045}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>I</mi><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac><mo> </mo><mo>=</mo><mfrac><mrow><mn>9</mn><mo>.</mo><mn>8</mn><mo> </mo></mrow><mrow><mn>0</mn><mo>.</mo><mn>0045</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator I over denominator straight capital delta t end fraction space equals fraction numerator 9.8 space over denominator 0.0045 end fraction"
+       "alt": "F = (I)/( capital delta t) = (9.8 )/(0.0045)"
       },
       {
        "latex": null,
@@ -3638,7 +3638,7 @@
       {
        "latex": "F=\\frac{2.15}{0.1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>15</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "F space equals space fraction numerator 2.15 over denominator 0.1 end fraction"
+       "alt": "F = (2.15)/(0.1)"
       },
       {
        "latex": "F=21.5",

@@ -66,7 +66,7 @@ $Po_{84}^{212} \rightarrow Pb_{82}^{208} + \ \\alpha pre_{2} pre^{4}$
   - The nucleus loses 4 nucleons: **nucleon number decreases by 4**
 
 > **Worked Example**
-> The radioactive nucleus `Rn presubscript 86 presuperscript 222` undergoes alpha decay into a daughter nucleus Po.
+> The radioactive nucleus $Rn_{86}^{222}$ undergoes alpha decay into a daughter nucleus Po.
 > 
 > ![Grid of proton number (83 to 87) against neutron number (132 to 136) with four labelled points: A at 132 neutrons and 86 protons, B at 132 and 84, C at 134 and 84, and D at 136 and 84](assets/a921864de08b-11-1-5-we-alpha-decay-question-cie-new.png)
 > 

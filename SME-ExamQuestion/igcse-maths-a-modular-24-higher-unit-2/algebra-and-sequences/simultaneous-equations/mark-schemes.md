@@ -375,7 +375,7 @@ d + e = 10 \textcircled{2}$
 
 > *We now have two simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution *
 
-> *In *`circle enclose 2`*, replace "**e**" with "2 + **d** "*
+> *In *$\textcircled{2}$*, replace "**e**" with "2 + **d** "*
 
 $d+2+d=10$
 
@@ -387,7 +387,7 @@ $2d+2=10\,2d=8$
 
 $d=4$* ***[1]**
 
-> *Substitute the found value of **d** (or **e** depending on the method used) into one of the simultaneous equations to find the remaining variable. For example, substituting **d** = 4 into *`circle enclose 1`
+> *Substitute the found value of **d** (or **e** depending on the method used) into one of the simultaneous equations to find the remaining variable. For example, substituting **d** = 4 into *$\textcircled{1}$
 
 $2+4=e$
 
@@ -401,14 +401,14 @@ y + z = 18 \textcircled{3}$
 
 > *We have three simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution *
 
-> *In *`circle enclose 2`*, replace "**y**" with "−33 + **x**"*
+> *In *$\textcircled{2}$*, replace "**y**" with "−33 + **x**"*
 
 $x + ( - 33 + x ) = z
 2 x - 33 = z \textcircled{4}$
 
 **[1]**
 
-> *In *`circle enclose 3`*, replace "**y**" with "-33 + **x**" and "**z**" with "2**x** − 33". (The brackets in the line below are not necessary, they are just to make the substitutions clearer)*
+> *In *$\textcircled{3}$*, replace "**y**" with "-33 + **x**" and "**z**" with "2**x** − 33". (The brackets in the line below are not necessary, they are just to make the substitutions clearer)*
 
 $( - 33 + x ) + ( 2 x - 33 ) = 18$
 
@@ -420,13 +420,13 @@ $\begin{array}{rcl} - 33 + x + 2 x - 33 & = 18 \\ 3 x - 66 & = 18 \\ 3 x & = 84 
 
 $x=28$** [1]**
 
-> *Substitute "**x** = 28" into *`circle enclose 4`* to find **z*
+> *Substitute "**x** = 28" into *$\textcircled{4}$* to find **z*
 
 $\begin{gathered} 2 ( 28 ) - 33 & = z \\ 56 - 33 & = z \end{gathered}$
 
 $z=23$** [1]**
 
-> *Substitute "**x** = 28" into *`circle enclose 1`*  to find **y*
+> *Substitute "**x** = 28" into *$\textcircled{1}$*  to find **y*
 
 $-33+28=y$
 
@@ -623,17 +623,17 @@ $\begin{gathered} 7 g & = 3 r + 3 g \\ 3 r - 4 g & = 0 \textcircled{1} \end{gath
 
 $\begin{gathered} 13 g + 39 & = 6 r + 6 g + 30 \\ 6 r - 7 g & = 9 \textcircled{2} \end{gathered}$
 
-> *Solve *`circle enclose 1`* and *`circle enclose 2`* simultaneously.*
+> *Solve *$\textcircled{1}$* and *$\textcircled{2}$* simultaneously.*
 
 $\begin{gathered} \textcircled{1} 3 r & = 4 g \\ r = \frac{4}{3} g \end{gathered}$
 
-> *Substitute into *`circle enclose 2`*.*
+> *Substitute into *$\textcircled{2}$*.*
 
 $\begin{gathered} 6 ( \frac{4}{3} g ) - 7 g & = 9 \\ g = 9 \end{gathered}$
 
 **[1]**
 
-> *Find **r **by substituting this value of **g** back into equation** *`circle enclose 1`*.*
+> *Find **r **by substituting this value of **g** back into equation** *$\textcircled{1}$*.*
 
 $r = \frac{4}{3} ( 9 ) = 12$
 

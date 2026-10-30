@@ -22,7 +22,7 @@ $m=$ ..................... or $m=$.....................
 
 **Q2** [2 marks]
 
-Write $x^{2}-18x-27$ in the form `space open parentheses x plus k close parentheses squared plus h`.
+Write $x^{2}-18x-27$ in the form $( x + k )^{2} + h$.
 
 *Source: 2020 May/June 0580/23 Q18A*
 

@@ -26,7 +26,7 @@ guided_study: true
 
 - Be careful – the limits don't have to start with 1!
 
-  - For example: `sum from r equals 0 to 4 of left parenthesis 2 r plus 1 right parenthesis` or `sum from r equals 7 to 11 of left parenthesis 2 r minus 13 right parenthesis`
+  - For example: $\sum_{r = 0}^{4} ( 2 r + 1 )$ or $\sum_{r = 7}^{11} ( 2 r - 13 )$
 
 ### How do I use sigma notation?
 
@@ -43,9 +43,9 @@ guided_study: true
 
   - For example:
 
-`sum from r=1 to 6 of left parenthesis 4r+7 right parenthesis+sum from r=7 to 11 of left parenthesis 4r+7 right parenthesis=sum from r=1 to 11 of left parenthesis 4r+7 right parenthesis`
+$\sum_{r=1}^{6} ( 4r+7 )+ \sum_{r=7}^{11} ( 4r+7 )= \sum_{r=1}^{11} ( 4r+7 )$
 
-`sum from r=1 to 100 of left parenthesis 7×2^r right parenthesis−sum from r=1 to 50 of left parenthesis 7×2^r right parenthesis=sum from r=51 to 100 of left parenthesis 7×2^r right parenthesis`
+$\sum_{r=1}^{100} ( 7×2^r )− \sum_{r=1}^{50} ( 7×2^r )= \sum_{r=51}^{100} ( 7×2^r )$
 
 > **Exam Hint**
 > Be careful when more than one letter appears in a sigma notation question.

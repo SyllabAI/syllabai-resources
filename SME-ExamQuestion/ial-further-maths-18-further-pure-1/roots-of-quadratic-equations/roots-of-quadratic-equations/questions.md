@@ -64,7 +64,7 @@ determine the value of $α^{2}+β^{2}$
 ### 5((c)) — 6 marks — structured — from paper January 2024 · WFM01/01
 find a quadratic equation which has roots
 
-`open parentheses alpha minus 1 over beta squared close parentheses    text and end text    open parentheses beta minus 1 over alpha squared close parentheses`
+`( alpha - 1 / beta ^2 ) text and end text ( beta - 1 / alpha ^2 )`
 
 giving your answer in the form $px^{2}+qx+r=0$ where $p$, $q$ and $r$ are integers to be determined.
 

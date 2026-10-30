@@ -10,7 +10,7 @@
 
 **Q1** [3 marks]
 
-The table below shows the cumulative probabilities for different values that `X tilde B left parenthesis 10 comma 0.5 right parenthesis space` can take:
+The table below shows the cumulative probabilities for different values that $X \sim B ( 10 , 0.5 )$ can take:
 
 | $x$ | $P(X\leqx)$ |
 |---|---|
@@ -45,7 +45,7 @@ Describe one adjustment Kieran could make to his test to give a more reliable co
 
 At *Hilbert’s Hotel* three quarters of customers leave feedback upon departure by writing a comment in a book on the reception desk.  Karla, the manager, decides to get rid of the feedback book and instead leaves a feedback form in each room.  To test whether this new system has made a difference to the proportion of guests who leave feedback, Karla forms a sample using the next 80 room bookings.  Once the 80 sets of guests leave *Hilbert’s Hotel*, Karla counts that 65 feedback forms have been completed.
 
-When `X tilde B left parenthesis 80 comma space 3 over 4 right parenthesis space space space`the following probabilities are given:
+When $X \sim B ( 80 , \frac{3}{4} )$the following probabilities are given:
 
 $P(X<65)=0.8792$
 
@@ -71,7 +71,7 @@ Explain whether Karla’s claim is valid.
 
 Joel is a manager at a swimming pool and claims that less than half of customers wear goggles in the water.  Joel forms a sample using the next 100 swimmers and he notes that 42 of them wear goggles.
 
-If `X tilde B left parenthesis 100 comma 0.5 right parenthesis` then:
+If $X \sim B ( 100 , 0.5 )$ then:
 
 $P(X<42)=0.0443$
 
@@ -97,9 +97,9 @@ Explain how this information affects the conclusion to the hypothesis test.
 
 A group of high school statistics students are investigating the probability of winning a game called *Chi Squares.*  Their teacher claims that they have more than a 60% chance of winning the game.  To test the claim, they play 30 games of *Chi Squares* and win 80% of them.  They perform a hypothesis test using a 5% level of significance.  Below are shown the solutions of two students, Gertrude and Nate:
 
-| Gertrude’s solution<br><br>`straight H subscript 0 ∶ p equals 0.6`<br><br>`straight H subscript 1 ∶ p greater or equal than 0.6` | Nate’s solution<br><br>`straight H subscript 0 ∶ p equals 0.6`<br><br>`straight H subscript 1 ∶ p greater than 24 over 30 equals 0.8` |
+| Gertrude’s solution<br><br>$\mathrm{H}_{0} ∶ p = 0.6$<br><br>`H _ 1 ∶ p >= 0.6` | Nate’s solution<br><br>$\mathrm{H}_{0} ∶ p = 0.6$<br><br>$\mathrm{H}_{1} ∶ p > \frac{24}{30} = 0.8$ |
 |---|---|
-| Let $X$ be the number of games won,<br> `X tilde B left parenthesis 30 comma 0.6 right parenthesis`<br><br>$P(X=24)=0.0115$<br><br>$0.0115<0.05$ do not reject $H_{0}$ | Let  be the number of games won, <br>`X tilde B left parenthesis 30 comma 0.6 right parenthesis`<br><br>$P(X>24)=0.0057$<br><br>$0.0057<0.05$ so reject $H_{0}$ |
+| Let $X$ be the number of games won,<br> $X \sim B ( 30 , 0.6 )$<br><br>$P(X=24)=0.0115$<br><br>$0.0115<0.05$ do not reject $H_{0}$ | Let  be the number of games won, <br>$X \sim B ( 30 , 0.6 )$<br><br>$P(X>24)=0.0057$<br><br>$0.0057<0.05$ so reject $H_{0}$ |
 
 You are given that the students have correctly calculated their probabilities.
 
@@ -141,7 +141,7 @@ For each of the following scenarios, explain whether a 1%, 5% or 10% level of si
 
 It is known that historically 40% of all bees in a certain part of the UK belonged to pollinating species. Farmers in the area, however, believe that that percentage has decreased in the past ten years. They design an experiment in which they will safely catch 200 bees in the area, check which species they belong to, and then release them. The farmers carry out a hypothesis test at the 10% significance level.
 
-They calculate that for `X tilde B left parenthesis 200 comma 0.4 right parenthesis`.
+They calculate that for $X \sim B ( 200 , 0.4 )$.
 
 $P(X<70)=0.063903\,P(X=70)=0.020495\,P(X=71)=0.025018$
 
@@ -153,7 +153,7 @@ Find the probability of a Type I error. Justify your answer.
 
 **Q6** [2 marks]
 
-It is discovered subsequently that in fact only 30% of bees in the area now belong to pollinating species. Given that for `X tilde B left parenthesis 200 comma 0.3 right parenthesis`.
+It is discovered subsequently that in fact only 30% of bees in the area now belong to pollinating species. Given that for $X \sim B ( 200 , 0.3 )$.
 
 $P(X\geq70)=0.072786\,P(X=70)=0.018579\,P(X<70)=0.927214$
 
@@ -167,7 +167,7 @@ Explain one advantage of using critical regions instead of finding probabilities
 
 **Q7** [1 mark]
 
-A test of the null hypothesis  $H_{0}:p=0.2$ against the alternative hypothesis $H_{1}:p<0.2$ is carried out for the random variable `X tilde B left parenthesis n comma p right parenthesis`.
+A test of the null hypothesis  $H_{0}:p=0.2$ against the alternative hypothesis $H_{1}:p<0.2$ is carried out for the random variable $X \sim B ( n , p )$.
 
 The table below shows the probabilities for different values that can take:
 
@@ -191,7 +191,7 @@ Calculate $P(X\leq3)$.
 
 **Q8** [1 mark]
 
-A two-tailed test of the null hypothesis $H_{0}:p=0.23$ is carried out for the random variable `X tilde B left parenthesis 60 comma p right parenthesis`.
+A two-tailed test of the null hypothesis $H_{0}:p=0.23$ is carried out for the random variable $X \sim B ( 60 , p )$.
 
 Write down the alternative hypothesis.
 
@@ -217,7 +217,7 @@ Find the actual level of significance of this test.
 
 **Q9** [2 marks]
 
-A test of the null hypothesis  $H_{0}:p=0.3$  is carried out for the random variable `X tilde B left parenthesis 25 comma p right parenthesis`. The observed value of the test statistic is $x=3$. You are given the following probabilities:
+A test of the null hypothesis  $H_{0}:p=0.3$  is carried out for the random variable $X \sim B ( 25 , p )$. The observed value of the test statistic is $x=3$. You are given the following probabilities:
 
 $P(X<3)=0.00896$
 
@@ -243,7 +243,7 @@ State suitable null and alternative hypotheses to test this claim.
 
 **Q10** [1 mark]
 
-Given that for this hypothesis test the random variable to be used is `X tilde B left parenthesis 160 comma p right parenthesis`, describe in context what $X$ represents.
+Given that for this hypothesis test the random variable to be used is $X \sim B ( 160 , p )$, describe in context what $X$ represents.
 
 **Q10** [2 marks]
 
@@ -263,7 +263,7 @@ State suitable null and alternative hypotheses to test this claim.
 
 After the engineer is finished, the manager of the company takes a random sample of 100 toys and finds that 2 of them are faulty.
 
-Given that $P(X\leq2)=0.01127$ when `X tilde B left parenthesis 100 comma 0.08 right parenthesis`, determine the outcome of the hypothesis test using a 1% level of significance. Give your conclusion in context.
+Given that $P(X\leq2)=0.01127$ when $X \sim B ( 100 , 0.08 )$, determine the outcome of the hypothesis test using a 1% level of significance. Give your conclusion in context.
 
 ### Q12 — medium — 7 marks
 
@@ -315,7 +315,7 @@ Chase buys a board game which contains a six-sided dice. He rolls the dice 150 t
 
 **Q14** [3 marks]
 
-Given that $P(X\leq15)=0.01452$ when  `X tilde B left parenthesis 150 comma space 1 over 6 right parenthesis`,  test Chase’s belief that the dice is not fair, using a 2% level of significance.
+Given that $P(X\leq15)=0.01452$ when  $X \sim B ( 150 , \frac{1}{6} )$,  test Chase’s belief that the dice is not fair, using a 2% level of significance.
 
 ### Q15 — medium — 5 marks
 
@@ -361,21 +361,21 @@ Given that $x=36$, comment on the headteacher’s claim.
 
 **Q17** [2 marks]
 
-If `X tilde B left parenthesis n comma p right parenthesis` then $P(X=0)=(1-p)^{n}$ and $P(X=n)=p^{n}$.
+If $X \sim B ( n , p )$ then $P(X=0)=(1-p)^{n}$ and $P(X=n)=p^{n}$.
 
-A sample of size 30 is used to test the null hypothesis `straight H subscript 0 ∶ p equals 0.9` against `text H end text subscript 1 ∶ p greater than 0.9` the alternative hypothesis using a $k$% level of significance.
+A sample of size 30 is used to test the null hypothesis $\mathrm{H}_{0} ∶ p = 0.9$ against $\text{H}_{1} ∶ p > 0.9$ the alternative hypothesis using a $k$% level of significance.
 
 Given that there is at least one value that leads to the rejection of the null hypothesis, find the range of values for $k$.
 
 **Q17** [3 marks]
 
-A sample of size 100 is used to test the null hypothesis  `straight H subscript 0 ∶ p equals q` against the alternative hypothesis `straight H subscript 1 ∶ p less than q` using a 5% level of significance.
+A sample of size 100 is used to test the null hypothesis  $\mathrm{H}_{0} ∶ p = q$ against the alternative hypothesis $\mathrm{H}_{1} ∶ p < q$ using a 5% level of significance.
 
 Given that there are no critical values for this test, find the range of values for $q$.
 
 **Q17** [4 marks]
 
-A sample of size $m$ is used to test the null hypothesis `straight H subscript 0 ∶ p equals 0.2` against the alternative hypothesis `straight H subscript 1 ∶ p not equal to 0.2` using a 1% level of significance.
+A sample of size $m$ is used to test the null hypothesis $\mathrm{H}_{0} ∶ p = 0.2$ against the alternative hypothesis $\mathrm{H}_{1} ∶ p \ne 0.2$ using a 1% level of significance.
 
 Given that there is exactly one critical region for this test, find the range of values for $m$.
 
@@ -383,7 +383,7 @@ Given that there is exactly one critical region for this test, find the range of
 
 **Q18** [4 marks]
 
-Given that `X tilde B left parenthesis 40 comma 0.3 right parenthesis` then:
+Given that $X \sim B ( 40 , 0.3 )$ then:
 
 $P(X\leq5)=0.008618$
 
@@ -391,11 +391,11 @@ $P(X=6)=k$
 
 $P(X=7)=0.031522$
 
-When a sample of size 40 is used to test `straight H subscript 0 ∶ p equals 0.3` against `straight H subscript 1 ∶ p less than 0.3`, it is known that $x=6$ is the critical value using a 5% level of significance. Use the probabilities above to find upper and lower bounds for the value of $k$.
+When a sample of size 40 is used to test $\mathrm{H}_{0} ∶ p = 0.3$ against $\mathrm{H}_{1} ∶ p < 0.3$, it is known that $x=6$ is the critical value using a 5% level of significance. Use the probabilities above to find upper and lower bounds for the value of $k$.
 
 **Q18** [2 marks]
 
-When a sample of size 40 is used to test `straight H subscript 0 ∶ p equals 0.3` against `straight H subscript 1 ∶ p not equal to 0.3`, it is known that $x=6$is one of the two critical values using a 5% level of significance. Use the probabilities above to find an improvement for one of the bounds for the value of $k$.
+When a sample of size 40 is used to test $\mathrm{H}_{0} ∶ p = 0.3$ against $\mathrm{H}_{1} ∶ p \ne 0.3$, it is known that $x=6$is one of the two critical values using a 5% level of significance. Use the probabilities above to find an improvement for one of the bounds for the value of $k$.
 
 ### Q19 — very_hard — 7 marks
 
@@ -425,7 +425,7 @@ In the context of hypothesis testing, explain the term:
 
 **Q20** [3 marks]
 
-The table below shows the probabilities for different values that `X tilde B left parenthesis 40 comma 0.8 right parenthesis space`can take:
+The table below shows the probabilities for different values that $X \sim B ( 40 , 0.8 )$can take:
 
 | $x$ | $P(X=x)$ |
 |---|---|
@@ -435,13 +435,13 @@ The table below shows the probabilities for different values that `X tilde B lef
 | 37 | 0.020520 |
 | 36 | 0.047452 |
 
-A test of the null hypothesis  $H_{0}:p=0.8$ against the alternative hypothesis `straight H subscript 1 ∶ p greater than 0.8` is carried out for the random variable `space X tilde B left parenthesis 40 comma p right parenthesis.`
+A test of the null hypothesis  $H_{0}:p=0.8$ against the alternative hypothesis $\mathrm{H}_{1} ∶ p > 0.8$ is carried out for the random variable $X \sim B ( 40 , p ).$
 
 Using a 5% level of significance, find the values of $X$ which would lead to the rejection of the null hypothesis.
 
 **Q20** [3 marks]
 
-A second test is carried out with the same null hypothesis against the alternative hypothesis `H subscript 1 ∶ p not equal to 0.8.`
+A second test is carried out with the same null hypothesis against the alternative hypothesis $H_{1} ∶ p \ne 0.8.$
 
 Given that $x=38$ is a critical value, find the minimum level of significance for the test.
 
@@ -451,7 +451,7 @@ Given that $x=38$ is a critical value, find the minimum level of significance fo
 
 Frank is the owner of a factory which has recently opened near a school where Hilda is the headteacher.  Before the factory opened, the attendance rate at the school was good 90% of the time.  Hilda claims that the proportion of days when the attendance rate is good has decreased and she suspects this is due to the fumes from the factory making the children sick.  Frank disagrees and claims that the factory has made no difference to the attendance rate.  To test their claims a sample of 40 days is taken and on 32 days the attendance rate is good.
 
-If `space X tilde B left parenthesis 40 comma 0.9 right parenthesis space` then:
+If $X \sim B ( 40 , 0.9 )$ then:
 
 $P(X<32)=0.015495$
 
@@ -483,7 +483,7 @@ State, with a reason, whether a one-tailed test or a two-tailed test would have 
 
 Meditest is a company manufacturing medical tests which are used to determine whether a patient has a certain illness.  Meditest claims that the tests are 95% accurate, however a particular hospital will only purchase the tests if they are more than 95% accurate.  Meditest test the accuracy of their product using a sample of 250 patients with the illness and agree on a 1% level of significance. They discover that the tests are accurate for 245 out of the 250 patients.
 
-If `X tilde B left parenthesis 250 comma 0.95 right parenthesis` then $P(X=245)=0.008515$ and $P(X>245)=0.004571$.
+If $X \sim B ( 250 , 0.95 )$ then $P(X=245)=0.008515$ and $P(X>245)=0.004571$.
 
 Stating your hypotheses clearly, test whether Meditest’s product is more than 95% accurate using a 1% level of significance.
 
@@ -499,7 +499,7 @@ Comment on the validity of Meditest’s report to the hospital.
 
 Two volunteers at a national park, Owen and Cathy, have begun a campaign to stop people leaving their litter behind after visiting the park.  To see whether their campaign has had an effect, Owen conducts a hypothesis test at the 10% significance level, using the following hypotheses:
 
-`straight H subscript 0 ∶ p equals 0.2 comma space space space space space straight H subscript 1 ∶ p not equal to 0.2`
+$\mathrm{H}_{0} ∶ p = 0.2 , \mathrm{H}_{1} ∶ p \ne 0.2$
 
 (i) State the percentage of people who left litter behind in the national park before the start of the campaign.
 
@@ -515,7 +515,7 @@ With reference to the hypotheses above, state with a reason whether Owen should 
 
 Cathy conducted her own hypothesis test at the 10% significance level, using the same sample data as Owen, but instead she used the following hypotheses:
 
-`straight H subscript 0 ∶ p equals 0.2 comma space space space space straight H subscript 1 ∶ p less than 0.2`
+$\mathrm{H}_{0} ∶ p = 0.2 , \mathrm{H}_{1} ∶ p < 0.2$
 
 (i) Explain how Cathy’s hypothesis test is different to Owen’s.
 
@@ -565,11 +565,11 @@ After carrying out the test, Marta had evidence to conclude that people are more
 
 For the following null and alternative hypotheses, state whether the test is a one-tailed or a two-tailed test and give a suitable example context for each problem.
 
-(i) `straight H subscript 0 ∶ p equals 0.5 comma space straight H subscript 1 ∶ p greater than 0.5.`
+(i) $\mathrm{H}_{0} ∶ p = 0.5 , \mathrm{H}_{1} ∶ p > 0.5.$
 
-(ii) `straight H subscript 0 ∶ p equals 1 over 6 comma space straight H subscript 1 ∶ p not equal to 1 over 6.`
+(ii) $\mathrm{H}_{0} ∶ p = \frac{1}{6} , \mathrm{H}_{1} ∶ p \ne \frac{1}{6.}$
 
-(iii) `H subscript 0 ∶ p equals 0.3 comma space H subscript 1 ∶ p less than 0.3.`
+(iii) $H_{0} ∶ p = 0.3 , H_{1} ∶ p < 0.3.$
 
 ### Q27 — easy — 6 marks
 
@@ -577,7 +577,7 @@ For the following null and alternative hypotheses, state whether the test is a o
 
 A hypothesis test at the 4% significance level is carried out on a spinner with four sectors using the following hypotheses:
 
-`straight H subscript 0 ∶ p equals 1 fourth comma space straight H subscript 1 ∶ p not equal to 1 fourth comma`
+$\mathrm{H}_{0} ∶ p = 1 \frac{1}{4} , \mathrm{H}_{1} ∶ p \ne 1 \frac{1}{4} ,$
 
 (i) Describe what the parameter, , could be defined as.
 
@@ -651,7 +651,7 @@ In fact, 15 of the 20 people correctly identify the drink made by BestBubbles.
 
 **Q30** [6 marks]
 
-In a quiz, students have to choose the correct answer to each question from three possible options. There is only one correct answer for each question. Ethan got $k$ answers correct, and he claims that he merely guessed the answer to every question but his teacher believes he used some knowledge in the quiz.  he uses the null hypothesis  `straight H subscript 0 ∶ p equals 1 third`  to test her belief at the 10% significance level.
+In a quiz, students have to choose the correct answer to each question from three possible options. There is only one correct answer for each question. Ethan got $k$ answers correct, and he claims that he merely guessed the answer to every question but his teacher believes he used some knowledge in the quiz.  he uses the null hypothesis  $\mathrm{H}_{0} ∶ p = 1 \frac{1}{3}$  to test her belief at the 10% significance level.
 
 (i) If the teacher wishes to test to see if Ethan was trying to get the answers correct, rather than guessing them at random, write down the alternative hypothesis she should use and explain the conditions under which the null hypothesis would be rejected.
 

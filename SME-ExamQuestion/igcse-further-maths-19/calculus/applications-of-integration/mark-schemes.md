@@ -490,7 +490,7 @@ Evaluate this and round to 3 significant figures
 
 $V = 466 . 945 \dots$
 
-`V equals 467 space open parentheses 3 space straight s. straight f. close parentheses`
+$V = 467 ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[A1]**
 
@@ -558,7 +558,7 @@ Substitute back to find $y$, using $y = 2 x^{2}$ because it is the easier of the
 
 $y = \frac{1}{2}$
 
-`A equals open parentheses 1 half comma space 1 half close parentheses`
+$A = ( 1 \frac{1}{2} , 1 \frac{1}{2} )$
 
 **[B1]**
 
@@ -2141,7 +2141,7 @@ $V = \frac{72\sqrt{2}π}{5}$
 
 Evaluate this and round to 2 decimal places
 
-`V equals 63.98 space open parentheses 2 space straight d. straight p. close parentheses`
+$V = 63.98 ( 2 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 
@@ -2362,7 +2362,7 @@ Work that out, keeping full accuracy until the last line
 
 - $4 \text{ln} 2 - \frac{3}{2} = 1 . 27258 \dots$ and `\frac{1}{16} \left(\text{ln} 2\right)^{2} = 0 . 03002 \ldots`
 
-`A equals 1.3 space open parentheses 1 space straight d. straight p. close parentheses`
+$A = 1.3 ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 

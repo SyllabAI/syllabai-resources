@@ -56,7 +56,7 @@ $6d^{2}e-9e^{2}$
 
 Expand the brackets and simplify.
 
-`4 open parentheses 2 m plus 3 close parentheses minus 5 open parentheses m minus 2 close parentheses`
+$4 ( 2 m + 3 ) - 5 ( m - 2 )$
 
 *Source: Nov 2020 0580/13 Q17*
 
@@ -78,7 +78,7 @@ $12b+8b^{2}$
 
 i) Multiply out the brackets.
 
-`x open parentheses 3 minus 5 x close parentheses`
+$x ( 3 - 5 x )$
 
 [2]
 
@@ -106,7 +106,7 @@ $3x^{2}-12xy$
 
 Expand and simplify.
 
-`open parentheses m minus 3 close parentheses open parentheses m plus 2 close parentheses`
+$( m - 3 ) ( m + 2 )$
 
 *Source: March 2020 0580/12 Q18B*
 
@@ -117,7 +117,7 @@ Expand and simplify.
 
 Expand and simplify.
 
-`open parentheses x minus 5 close parentheses open parentheses x minus 7 close parentheses`
+$( x - 5 ) ( x - 7 )$
 
 *Source: June 2020 0580/11 Q17*
 
@@ -126,7 +126,7 @@ Expand and simplify.
 
 **Q10** [2 marks]
 
-Expand `x open parentheses 2 y plus x close parentheses`
+Expand $x ( 2 y + x )$
 
 *Source: Nov 2019 0580/32 Q9C*
 
@@ -137,7 +137,7 @@ Expand `x open parentheses 2 y plus x close parentheses`
 
 Expand.
 
-`x squared open parentheses x minus 7 close parentheses`
+$x^{2} ( x - 7 )$
 
 *Source: June 2019 0580/12 Q16A*
 
@@ -175,7 +175,7 @@ $8g^{2}-4g$
 
 **Q14** [2 marks]
 
-Expand and simplify `open parentheses x plus 3 close parentheses open parentheses x plus 5 close parentheses.`
+Expand and simplify $( x + 3 ) ( x + 5 ).$
 
 *Source: Nov 2019 0580/13 Q12*
 
@@ -231,7 +231,7 @@ Factorise $5y-6py$
 
 Multiply out.
 
-`9 open parentheses 3 minus x close parentheses`
+$9 ( 3 - x )$
 
 *Source: June 2020 0580/31 Q8C*
 
@@ -242,7 +242,7 @@ Multiply out.
 
 Expand.
 
-`5 open parentheses x minus 3 close parentheses`
+$5 ( x - 3 )$
 
 *Source: Nov 2020 0580/31 Q4B*
 

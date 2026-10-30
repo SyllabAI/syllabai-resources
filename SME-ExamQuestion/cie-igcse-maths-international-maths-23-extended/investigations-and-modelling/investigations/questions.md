@@ -157,7 +157,7 @@ Explain your answer.
 
 To test whether a number, x, is a hexagonal number or not, substitute it into the formula:
 
-(fraction numerator 1 plus square root of 8 x plus 1 end root over denominator 4 end fraction)
+$( \frac{1 + \sqrt{8 x + 1} }{4} )$
 
 If the output is a positive integer, then it is a hexagonal number.
 

@@ -164,15 +164,15 @@
     },
     {
      "type": "paragraph",
-     "md": "`n plus open parentheses n plus 1 close parentheses`"
+     "md": "$n + ( n + 1 )$"
     },
     {
      "type": "paragraph",
-     "md": "This shows an integer, $n$, being summed with the next (consecutive) integer, `open parentheses n plus 1 close parentheses`."
+     "md": "This shows an integer, $n$, being summed with the next (consecutive) integer, $( n + 1 )$."
     }
    ],
    "front_md": "What is the first line of algebra when proving that the sum of two consecutive integers is odd?\n",
-   "back_md": "The first line of algebra when proving that the sum of two consecutive integers is odd is:\n\n`n plus open parentheses n plus 1 close parentheses`\n\nThis shows an integer, $n$, being summed with the next (consecutive) integer, `open parentheses n plus 1 close parentheses`.\n",
+   "back_md": "The first line of algebra when proving that the sum of two consecutive integers is odd is:\n\n$n + ( n + 1 )$\n\nThis shows an integer, $n$, being summed with the next (consecutive) integer, $( n + 1 )$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -188,7 +188,7 @@
     },
     {
      "type": "paragraph",
-     "md": "If $n$ is an integer, then `2 open parentheses n squared plus n close parentheses plus 1` is odd."
+     "md": "If $n$ is an integer, then $2 ( n^{2} + n ) + 1$ is odd."
     }
    ],
    "back_blocks": [
@@ -198,15 +198,15 @@
     },
     {
      "type": "paragraph",
-     "md": "If $n$ is an integer, then `2 open parentheses n squared plus n close parentheses plus 1` is odd."
+     "md": "If $n$ is an integer, then $2 ( n^{2} + n ) + 1$ is odd."
     },
     {
      "type": "paragraph",
      "md": "It has the form of an odd number, `Error converting from MathML to accessible text.`, as $n^{2}+n$ is an integer."
     }
    ],
-   "front_md": "**True or False?**\n\nIf $n$ is an integer, then `2 open parentheses n squared plus n close parentheses plus 1` is odd.\n",
-   "back_md": "**True.**\n\nIf $n$ is an integer, then `2 open parentheses n squared plus n close parentheses plus 1` is odd.\n\nIt has the form of an odd number, `Error converting from MathML to accessible text.`, as $n^{2}+n$ is an integer.\n",
+   "front_md": "**True or False?**\n\nIf $n$ is an integer, then $2 ( n^{2} + n ) + 1$ is odd.\n",
+   "back_md": "**True.**\n\nIf $n$ is an integer, then $2 ( n^{2} + n ) + 1$ is odd.\n\nIt has the form of an odd number, `Error converting from MathML to accessible text.`, as $n^{2}+n$ is an integer.\n",
    "spec_links": [],
    "flags": []
   },
@@ -222,7 +222,7 @@
     },
     {
      "type": "paragraph",
-     "md": "`2 open parentheses n plus 1 half close parentheses` represents an even integer, as it is written in the form `2 cross times open parentheses... close parentheses`."
+     "md": "$2 ( n + 1 \\frac{1}{2} )$ represents an even integer, as it is written in the form $2 \\\\times (... )$."
     }
    ],
    "back_blocks": [
@@ -232,19 +232,19 @@
     },
     {
      "type": "paragraph",
-     "md": "It is true that even numbers are written in the form `2 cross times open parentheses... close parentheses` but the part inside the brackets must be an integer."
+     "md": "It is true that even numbers are written in the form $2 \\\\times (... )$ but the part inside the brackets must be an integer."
     },
     {
      "type": "paragraph",
-     "md": "The problem with `2 open parentheses n plus 1 half close parentheses` is that the part inside the brackets has a $\\frac{1}{2}$ in it, so would never be an integer."
+     "md": "The problem with $2 ( n + 1 \\frac{1}{2} )$ is that the part inside the brackets has a $\\frac{1}{2}$ in it, so would never be an integer."
     },
     {
      "type": "paragraph",
-     "md": "Alternatively, you could expand the brackets to see that `2 open parentheses n plus 1 half close parentheses equals 2 n plus 1` which is odd (assuming $n$ is an integer)."
+     "md": "Alternatively, you could expand the brackets to see that $2 ( n + 1 \\frac{1}{2} ) = 2 n + 1$ which is odd (assuming $n$ is an integer)."
     }
    ],
-   "front_md": "**True or False?**\n\n`2 open parentheses n plus 1 half close parentheses` represents an even integer, as it is written in the form `2 cross times open parentheses... close parentheses`.\n",
-   "back_md": "**False.**\n\nIt is true that even numbers are written in the form `2 cross times open parentheses... close parentheses` but the part inside the brackets must be an integer.\n\nThe problem with `2 open parentheses n plus 1 half close parentheses` is that the part inside the brackets has a $\\frac{1}{2}$ in it, so would never be an integer.\n\nAlternatively, you could expand the brackets to see that `2 open parentheses n plus 1 half close parentheses equals 2 n plus 1` which is odd (assuming $n$ is an integer).\n",
+   "front_md": "**True or False?**\n\n$2 ( n + 1 \\frac{1}{2} )$ represents an even integer, as it is written in the form $2 \\\\times (... )$.\n",
+   "back_md": "**False.**\n\nIt is true that even numbers are written in the form $2 \\\\times (... )$ but the part inside the brackets must be an integer.\n\nThe problem with $2 ( n + 1 \\frac{1}{2} )$ is that the part inside the brackets has a $\\frac{1}{2}$ in it, so would never be an integer.\n\nAlternatively, you could expand the brackets to see that $2 ( n + 1 \\frac{1}{2} ) = 2 n + 1$ which is odd (assuming $n$ is an integer).\n",
    "spec_links": [],
    "flags": []
   },
@@ -266,15 +266,15 @@
     },
     {
      "type": "paragraph",
-     "md": "`open parentheses 3 n close parentheses squared` and `open parentheses 3 n plus 3 close parentheses squared` are squares of two consecutive multiples of 3."
+     "md": "$( 3 n )^{2}$ and $( 3 n + 3 )^{2}$ are squares of two consecutive multiples of 3."
     },
     {
      "type": "paragraph",
-     "md": "`open parentheses 3 n plus 3 close parentheses squared minus open parentheses 3 n close parentheses squared` is the difference between the squares of two consecutive multiples of 3."
+     "md": "$( 3 n + 3 )^{2} - ( 3 n )^{2}$ is the difference between the squares of two consecutive multiples of 3."
     },
     {
      "type": "paragraph",
-     "md": "So the answer is `open parentheses 3 n plus 3 close parentheses squared minus open parentheses 3 n close parentheses squared`."
+     "md": "So the answer is $( 3 n + 3 )^{2} - ( 3 n )^{2}$."
     },
     {
      "type": "paragraph",
@@ -282,7 +282,7 @@
     }
    ],
    "front_md": "How do you write an algebraic expression for the difference between the squares of two consecutive multiples of 3?\n",
-   "back_md": "$3n$ and $3n+3$ are two consecutive multiples of 3.\n\n`open parentheses 3 n close parentheses squared` and `open parentheses 3 n plus 3 close parentheses squared` are squares of two consecutive multiples of 3.\n\n`open parentheses 3 n plus 3 close parentheses squared minus open parentheses 3 n close parentheses squared` is the difference between the squares of two consecutive multiples of 3.\n\nSo the answer is `open parentheses 3 n plus 3 close parentheses squared minus open parentheses 3 n close parentheses squared`.\n\nNote also how you usually write the bigger number subtract the smaller number, so that the overall result is positive.\n",
+   "back_md": "$3n$ and $3n+3$ are two consecutive multiples of 3.\n\n$( 3 n )^{2}$ and $( 3 n + 3 )^{2}$ are squares of two consecutive multiples of 3.\n\n$( 3 n + 3 )^{2} - ( 3 n )^{2}$ is the difference between the squares of two consecutive multiples of 3.\n\nSo the answer is $( 3 n + 3 )^{2} - ( 3 n )^{2}$.\n\nNote also how you usually write the bigger number subtract the smaller number, so that the overall result is positive.\n",
    "spec_links": [],
    "flags": []
   },
@@ -304,7 +304,7 @@
     },
     {
      "type": "paragraph",
-     "md": "One way show that $8n+5$ is odd is to rewrite $8n+5$ as $8n+4+1$ then factorise out a 2 to get `2 open parentheses 4 n plus 2 close parentheses plus 1`."
+     "md": "One way show that $8n+5$ is odd is to rewrite $8n+5$ as $8n+4+1$ then factorise out a 2 to get $2 ( 4 n + 2 ) + 1$."
     },
     {
      "type": "paragraph",
@@ -312,11 +312,11 @@
     },
     {
      "type": "paragraph",
-     "md": "If you factorised 4 out instead to get `4 open parentheses 2 n plus 1 close parentheses plus 1`, you would need an extra line of working to explain how to get to the form `Error converting from MathML to accessible text.`."
+     "md": "If you factorised 4 out instead to get $4 ( 2 n + 1 ) + 1$, you would need an extra line of working to explain how to get to the form `Error converting from MathML to accessible text.`."
     }
    ],
    "front_md": "How could you show that $8n+5$ is odd (assuming $n$ is an integer)?\n",
-   "back_md": "Odd numbers have the form `Error converting from MathML to accessible text.`.\n\nOne way show that $8n+5$ is odd is to rewrite $8n+5$ as $8n+4+1$ then factorise out a 2 to get `2 open parentheses 4 n plus 2 close parentheses plus 1`.\n\nThis now has the form of an odd number as given above.\n\nIf you factorised 4 out instead to get `4 open parentheses 2 n plus 1 close parentheses plus 1`, you would need an extra line of working to explain how to get to the form `Error converting from MathML to accessible text.`.\n",
+   "back_md": "Odd numbers have the form `Error converting from MathML to accessible text.`.\n\nOne way show that $8n+5$ is odd is to rewrite $8n+5$ as $8n+4+1$ then factorise out a 2 to get $2 ( 4 n + 2 ) + 1$.\n\nThis now has the form of an odd number as given above.\n\nIf you factorised 4 out instead to get $4 ( 2 n + 1 ) + 1$, you would need an extra line of working to explain how to get to the form `Error converting from MathML to accessible text.`.\n",
    "spec_links": [],
    "flags": []
   },

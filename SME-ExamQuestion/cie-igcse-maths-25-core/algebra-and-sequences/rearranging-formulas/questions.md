@@ -87,7 +87,7 @@ $y=$ .................................................
 
 **Q7** [2 marks]
 
-Rearrange `T equals 5 open parentheses p plus 2 close parentheses` to make $p$ the subject.
+Rearrange $T = 5 ( p + 2 )$ to make $p$ the subject.
 
 $p$ = ...................................................
 
@@ -122,7 +122,7 @@ $r=$ ...............................
 
 **Q10** [2 marks]
 
-Rearrange `2 open parentheses w plus h close parentheses equals P` to make $w$ the subject.
+Rearrange $2 ( w + h ) = P$ to make $w$ the subject.
 
 $w=$ ..............................
 
@@ -196,6 +196,6 @@ $m=$...........................
 
 Make $x$ the subject of the following formula
 
-`T equals 1 third open parentheses 5 x plus 2 close parentheses`
+$T = 1 \frac{1}{3} ( 5 x + 2 )$
 
 $x=$ .............................

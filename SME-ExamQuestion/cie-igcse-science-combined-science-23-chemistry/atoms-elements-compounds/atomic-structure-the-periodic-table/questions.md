@@ -12,7 +12,7 @@
 
 The symbol for an atom of iron is shown:
 
-`F presubscript 26 presuperscript 56 e`
+$F_{26}^{56} e$
 
 Deduce the number of electrons and the number of neutrons in this atom.
 

@@ -376,7 +376,7 @@ are simultaneous equations, where $k$ is a constant.
 Find the respective sets of values for k for which the simultaneous equations have one, two, and no solutions.
 
 ### 2() — 3 marks — structured
-Given that the simultaneous equations have exactly one solution, find all possible pairs `open parentheses x comma space y close parentheses` that might correspond to that solution. Give all your values for $x$ and $y$ in the form $a\sqrt{6}$, where $a$ is a rational number.
+Given that the simultaneous equations have exactly one solution, find all possible pairs $( x , y )$ that might correspond to that solution. Give all your values for $x$ and $y$ in the form $a\sqrt{6}$, where $a$ is a rational number.
 
 ## Q33 — very_hard — 8 marks · exam-questions
 

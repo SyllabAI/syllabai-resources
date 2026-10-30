@@ -44,9 +44,9 @@ guided_study: true
 - **Visualising** and sketching the solid formed can help with starting problems
 - Familiarity with applying the volume of revolution formulae for rotations around both the *x* and *y* axes
 
-*x*-axis `V=π integral_ a superscript b y² d x`
+*x*-axis $V=π integral_ a^{b} y² d x$
 
-*y*-axis `V=π integral_ c superscript d x² d y`
+*y*-axis $V=π integral_ c^{d} x² d y$
 
 - The volume of a solid may involve adding or subtracting different volumes of revolution
 

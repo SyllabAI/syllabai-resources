@@ -595,7 +595,7 @@ Taking moments about the fish:
 
 Rearrange the equation to make *F*<sub>*A *</sub>the subject:
 
-- `F subscript A space equals space open parentheses y over x close parentheses F subscript B` **[1 mark]**
+- $F_{A} = ( \frac{y}{x} ) F_{B}$ **[1 mark]**
 
 Consider the distances *x *and *y*:
 

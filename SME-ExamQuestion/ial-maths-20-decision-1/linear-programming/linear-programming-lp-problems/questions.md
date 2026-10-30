@@ -287,7 +287,7 @@ Write down an inequality, with integer coefficients, to model this constraint.
 ### 5((b)) — 3 marks — structured — from paper June 2019 · WDM11/01
 Two further constraints are
 
-$x+y+z\geq250$and `space space x less or equal than 0.2 open parentheses x plus y plus z close parentheses`
+$x+y+z\geq250$and `x <= 0.2 ( x + y + z )`
 
 Use these two constraints to write down statements, in context, that describe the number of different sizes of shirt the manager will order.
 

@@ -331,7 +331,7 @@ Moles of H<sub>2</sub>O = 0.175; **[1 mark]**
 ## Q5 — easy — 1 marks · multiple-choice-questions
 
 ### 5() — 1 marks
-**Correct answer: B** — `Sn presubscript 50 presuperscript 124`
+**Correct answer: B** — $Sn_{50}^{124}$
 
 **Final answer:** **The correct answer is ****B**** because:**
 

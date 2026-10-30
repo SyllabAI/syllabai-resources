@@ -24,7 +24,7 @@ guided_study: false
 - It finds an **approximation** of the area by finding the **sum of the areas** of trapeziums beneath the curve
 - The **formula **for an **estimate** of the area when splitting it into *n* strips (trapezium) is
 
-`integral_ a superscript b y d x≈1 half h left curly bracket left parenthesis y_ 0+y_ n right parenthesis+2 left parenthesis y_ 1+y_ 2+...+y_ n−1 end_ right parenthesis right curly bracket` where $h=\frac{b-a}{n}$
+$integral_ a^{b} y d x≈1 \frac{1}{2} h \text{curly} ( y_ 0+y_ n )+2 ( y_ 1+y_ 2+...+y_ n−1 end_ ) \text{curly} $ where $h=\frac{b-a}{n}$
 
 - If you have ***n *****strips** then you need ***n *****+ 1 *****y*****-values**
 

@@ -114,7 +114,7 @@ guided_study: true
 
   - Time can be given in **hours/minutes/seconds**, e.g. 3 hours 46 minutes
   - Time can be given as a **decimal**, e.g. 2.7 hours
-- You can use the **degrees, minutes and seconds function** `box enclose degree apostrophe double apostrophe end enclose` to enter time on your calculator
+- You can use the **degrees, minutes and seconds function** `box deg ' double '` to enter time on your calculator
 
   - E.g. 3 minutes 45 seconds would be entered as $0^{\circ}3'45''$
   - You can convert between an answer on the calculator, given in either format of time, by pressing this button

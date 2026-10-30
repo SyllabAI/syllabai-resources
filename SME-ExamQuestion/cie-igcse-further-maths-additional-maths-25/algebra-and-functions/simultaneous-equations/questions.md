@@ -30,9 +30,9 @@ Find the coordinates of the points of intersection of the curve $x^{2}+xy=9$ and
 
 Solve the simultaneous equations.
 
-`log subscript 3 open parentheses x plus y close parentheses equals 2`
+$log_{3} ( x + y ) = 2$
 
-`2 log subscript 3 open parentheses x plus 1 close parentheses equals log subscript 3 open parentheses y plus 2 close parentheses`
+$2 log_{3} ( x + 1 ) = log_{3} ( y + 2 )$
 
 *Source: Nov 2020 0606/22 Q4*
 

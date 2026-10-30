@@ -69,7 +69,7 @@ $x = \frac{775}{76}$
 
 Then $y = 9 - x$ gives the other coordinate
 
-`V equals open parentheses 775 over 76 comma negative 91 over 76 close parentheses`
+$V = ( \frac{775}{76} , - \frac{91}{76} )$
 
 **[A1]**
 
@@ -328,7 +328,7 @@ $x + 3 y = 10$
 
 Adding the two equations removes $x$ and leaves $8 y = 20$
 
-`A equals open parentheses 5 over 2 comma space 5 over 2 close parentheses`
+$A = ( \frac{5}{2} , \frac{5}{2} )$
 
 **[A1]**
 
@@ -342,7 +342,7 @@ $x + 3 y = 24$
 
 Substituting $x = 24 - 3 y$ into the first gives $96 - 12 y + 8 y = 65$, so $4 y = 31$
 
-`B equals open parentheses 3 over 4 comma space 31 over 4 close parentheses`
+$B = ( \frac{3}{4} , \frac{31}{4} )$
 
 **[A1]**
 

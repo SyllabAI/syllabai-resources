@@ -11,14 +11,14 @@ Source: https://www.savemyexams.com/igcse/maths/cie/25/core/flashcards/algebra-a
 
 Explain how to **expand** a single bracket.
 
-E.g. `2 open parentheses x plus 3 close parentheses`.
+E.g. $2 ( x + 3 )$.
 
 
 **BACK**
 
 Expanding a bracket means multiplying the term outside the bracket by **each term** inside the bracket.
 
-So `2 open parentheses x plus 3 close parentheses` becomes $2x+6$ from $2\timesx+2\times3$.
+So $2 ( x + 3 )$ becomes $2x+6$ from $2\timesx+2\times3$.
 
 
 
@@ -28,14 +28,14 @@ So `2 open parentheses x plus 3 close parentheses` becomes $2x+6$ from $2\timesx
 
 **True or False?**
 
-`negative 2 open parentheses 1 minus x close parentheses` expands to $-2-2x$.
+$- 2 ( 1 - x )$ expands to $-2-2x$.
 
 
 **BACK**
 
 **False.**
 
-`negative 2 open parentheses 1 minus x close parentheses` can be thought of as `open parentheses negative 2 close parentheses cross times 1 plus open parentheses negative 2 close parentheses cross times open parentheses negative x close parentheses`.
+$- 2 ( 1 - x )$ can be thought of as $( - 2 ) \\times 1 + ( - 2 ) \\times ( - x )$.
 
 Multiplying **two negatives** gives a **positive**, so the answer is $-2+2x$.
 
@@ -45,14 +45,14 @@ Multiplying **two negatives** gives a **positive**, so the answer is $-2+2x$.
 
 **FRONT**
 
-How can you** simplify** `3 open parentheses x plus 5 plus x close parentheses` **before** expanding the brackets?
+How can you** simplify** $3 ( x + 5 + x )$ **before** expanding the brackets?
 
 
 **BACK**
 
-You can simplify `3 open parentheses x plus 5 plus x close parentheses` before expanding by first **collecting like terms** inside the brackets to give `3 open parentheses 2 x plus 5 close parentheses`.
+You can simplify $3 ( x + 5 + x )$ before expanding by first **collecting like terms** inside the brackets to give $3 ( 2 x + 5 )$.
 
-This can also be written as `3 open parentheses 5 plus 2 x close parentheses`.
+This can also be written as $3 ( 5 + 2 x )$.
 
 
 
@@ -62,14 +62,14 @@ This can also be written as `3 open parentheses 5 plus 2 x close parentheses`.
 
 Explain how to** simplify **an expression with two sets of brackets
 
-E.g. `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses`.
+E.g. $2 ( x + 1 ) + 3 ( x - 1 )$.
 
 
 **BACK**
 
-To simplify expressions like `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` you **expand the brackets** then **collect like terms**.
+To simplify expressions like $2 ( x + 1 ) + 3 ( x - 1 )$ you **expand the brackets** then **collect like terms**.
 
-So `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minus 1 close parentheses` expands to give $2x+2+3x-3$.
+So $2 ( x + 1 ) + 3 ( x - 1 )$ expands to give $2x+2+3x-3$.
  The terms are then collected to give $5x-1$.
 
 
@@ -80,16 +80,16 @@ So `2 open parentheses x plus 1 close parentheses plus 3 open parentheses x minu
 
 **True or False?**
 
-`3 open parentheses x plus 2 close parentheses` expands to $3x+6$, then the 3's cancel to give $x+2$.
+$3 ( x + 2 )$ expands to $3x+6$, then the 3's cancel to give $x+2$.
 
 
 **BACK**
 
 **False.**
 
-You **cannot cancel** the 3's because `3 open parentheses x plus 2 close parentheses` is an **expression**, not an equation.
+You **cannot cancel** the 3's because $3 ( x + 2 )$ is an **expression**, not an equation.
 
-You can only cancel both sides by 3 if you had an equation, like `3 open parentheses x plus 2 close parentheses equals 9`.
+You can only cancel both sides by 3 if you had an equation, like $3 ( x + 2 ) = 9$.
 
 
 
@@ -99,14 +99,14 @@ You can only cancel both sides by 3 if you had an equation, like `3 open parenth
 
 How do you find the **highest power** of $x$ when expanding expressions?
 
-E.g. `2 x squared open parentheses x plus x squared close parentheses`.
+E.g. $2 x^{2} ( x + x^{2} )$.
 
 
 **BACK**
 
 The **highest power** of $x$ will come from multiplying the outside term by the inside term with the highest power.
 
-The  highest power of $x$ in `2 x squared open parentheses x plus x squared close parentheses` is $x^{4}$.
+The  highest power of $x$ in $2 x^{2} ( x + x^{2} )$ is $x^{4}$.
 
 This can be found by multiplying $x^{2}$ outside the bracket by the highest power, $x^{2}$, from inside the bracket.
 
@@ -224,7 +224,7 @@ To factorise simple expressions like $6x+8$:
 2. Write this factor **outside** a set of brackets
 3. Write inside the brackets what you must multiply the factor by to get the **original **expression
 
-So $6x+8$ becomes `2 open parentheses 3 x plus 4 close parentheses`.
+So $6x+8$ becomes $2 ( 3 x + 4 )$.
 
 
 
@@ -266,7 +266,7 @@ The highest common factor in $4x^{2}+12x$ is $4x$, not $2x$.
 
 **FRONT**
 
-An expression is factorised to get `5 open parentheses x minus 1 close parentheses`.
+An expression is factorised to get $5 ( x - 1 )$.
 
 How can this result be** checked**?
 
@@ -275,7 +275,7 @@ How can this result be** checked**?
 
 This result can be checked by **expanding the expression**.
 
-So `5 open parentheses x minus 1 close parentheses` expands to give $5x-5$.
+So $5 ( x - 1 )$ expands to give $5x-5$.
 
 If that was the original question, then the factorised expression is correct.
 
@@ -299,7 +299,7 @@ E.g. $-2$ can be factorised out from the expression $-2x-4$.
 You **can **factorise out negative numbers. 
 Just be very careful with the signs.
 
-E.g. $-2x-4$ factorises to `negative 2 open parentheses x plus 2 close parentheses`.
+E.g. $-2x-4$ factorises to $- 2 ( x + 2 )$.
 
 
 
@@ -309,17 +309,17 @@ E.g. $-2x-4$ factorises to `negative 2 open parentheses x plus 2 close parenthes
 
 **True or False?**
 
-The expression `3 x open parentheses 5 x plus 10 close parentheses` is factorised fully.
+The expression $3 x ( 5 x + 10 )$ is factorised fully.
 
 
 **BACK**
 
 **False**.
 
-The expression `3 x open parentheses 5 x plus 10 close parentheses` is not factorised fully.
+The expression $3 x ( 5 x + 10 )$ is not factorised fully.
 
 You can still take out a 5 from inside the brackets.
 
-This gives `15 x open parentheses x plus 2 close parentheses`, which is now factorised **fully**.
+This gives $15 x ( x + 2 )$, which is now factorised **fully**.
 
 

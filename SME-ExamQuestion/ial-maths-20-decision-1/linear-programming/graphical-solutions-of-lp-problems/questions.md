@@ -87,7 +87,7 @@ Determine how much flour and how many eggs Martin will have left over after maki
 ### 7((a)) — 8 marks — structured — from paper June 2022 · WDM11/01
 ![Diagram showing shaded region with overlapping lines, forming a triangle with points A, B, C inside. Axes are labelled x and y with equations.](assets/019-diagram-showing-shaded-region-with-overlapping-l.png)
 
-Figure 5 shows the constraints of a linear programming problem in $x$ and $y$, where $R$ is the feasible region. The equations of two of the lines and the three intersection points, $A$, $B$ and $C$, are shown. The coordinates of C are`open parentheses 35 over 4 comma 15 over 4 close parentheses`
+Figure 5 shows the constraints of a linear programming problem in $x$ and $y$, where $R$ is the feasible region. The equations of two of the lines and the three intersection points, $A$, $B$ and $C$, are shown. The coordinates of C are$( \frac{35}{4} , \frac{15}{4} )$
 
 The objective function is   $P=x+3y$
 
@@ -350,7 +350,7 @@ Write down an inequality, with integer coefficients, to model this constraint.
 ### 5((b)) — 3 marks — structured — from paper June 2019 · WDM11/01
 Two further constraints are
 
-$x+y+z\geq250$and `x less or equal than 0.2 open parentheses x plus y plus z close parentheses`
+$x+y+z\geq250$and `x <= 0.2 ( x + y + z )`
 
 Use these two constraints to write down statements, in context, that describe the number of different sizes of shirt the manager will order.
 

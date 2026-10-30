@@ -49,7 +49,7 @@ The binomial distribution is an example of a discrete probability distribution. 
 
   - The distribution is **symmetrical**
   - The distribution is **bell-shaped**
-- If *X* follows a normal distribution then it is denoted `X tilde N left parenthesis μ comma σ ² right parenthesis`
+- If *X* follows a normal distribution then it is denoted $X \sim N ( μ , σ ² )$
 
   - μ is the mean
   - σ<sup>2</sup> is the variance

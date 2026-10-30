@@ -108,7 +108,7 @@ $\frac{m}{v}-\frac{t}{b}=\frac{m-t}{R}$
 
 **Q9** [3 marks]
 
-Rearrange  `2 open parentheses 4 x minus y close parentheses equals 5 x minus 3`  to make $y$ the subject.
+Rearrange  $2 ( 4 x - y ) = 5 x - 3$  to make $y$ the subject.
 
 $y$ = ...................................................
 
@@ -172,7 +172,7 @@ $a$ =  ...................................................
 
 **Q14** [3 marks]
 
-Make* t* the subject of the formula  `2 open parentheses d minus t close parentheses equals 4 t plus 7`
+Make* t* the subject of the formula  $2 ( d - t ) = 4 t + 7$
 
 *Source: 2012	June 1MA0/2H Q20*
 

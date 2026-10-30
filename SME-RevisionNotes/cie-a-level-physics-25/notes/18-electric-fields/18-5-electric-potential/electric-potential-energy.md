@@ -110,7 +110,7 @@ $\Delta E_{p} = q \Delta V = \frac{Q q}{4 \mathrm{\pi } \epsilon_{0} } ( \frac{1
 ***When a small mass is lifted on Earth, there is an increase in gravitational potential energy. This is similar to the increase in electric potential energy when a negative charge moves away from a positive charge***
 
 > **Worked Example**
-> An α-particle `He presubscript 2 presuperscript 4` is moving directly towards a stationary gold nucleus `Au presubscript 79 presuperscript 197`.
+> An α-particle $He_{2}^{4}$ is moving directly towards a stationary gold nucleus $Au_{79}^{197}$.
 > 
 > At a distance of 4.7 × 10<sup>−15</sup> m the α-particle momentarily comes to rest.
 > 

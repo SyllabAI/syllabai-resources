@@ -141,7 +141,7 @@ The *resultant* of a number of forces given in vector form is found by adding th
 
 A particle is acted upon by two forces, $F_{1}$ and $F_{2}$,  given in vector form as
 
-`bold F subscript 1 space equals space open parentheses 4.7 bold i space plus space 2.8 bold j close parentheses space straight N space space space space space space space and space space space space space space space bold F subscript 2 space equals space open parentheses 1.6 bold i space minus space 1.2 bold j close parentheses space straight N`
+`F _ 1 = ( 4.7 i + 2.8 j ) N and F _ 2 = ( 1.6 i - 1.2 j ) N`
 
 The resultant of $F_{1}$ and $F_{2}$ is **R**.
 

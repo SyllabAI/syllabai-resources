@@ -60,9 +60,9 @@ guided_study: false
     - 5<sup>3</sup> = 125
   - Unlike square roots, each number only has** one cube root**
   - Every **positive** and **negative** **number** has** one real cube root**
-  - The notation `cube root of blank` refers to the **cube root** of a number
+  - The notation $\sqrt[3]{ }$ refers to the **cube root** of a number
   
-    - `cube root of 125 equals 5`
+    - $\sqrt[3]{125} = 5$
 
 ### How do I estimate a root?
 

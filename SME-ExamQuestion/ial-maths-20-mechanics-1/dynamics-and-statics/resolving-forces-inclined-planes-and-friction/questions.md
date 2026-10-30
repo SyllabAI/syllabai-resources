@@ -63,7 +63,7 @@ The following diagram depicts a particle $A$ of mass $m\mathrm{kg}$ on a slope t
 
 ![3-3-q-5-e-a-level-maths-mechanics](assets/007-3-3-q-5-e-a-level-maths-mechanics.png)
 
-The weight of the particle is indicated by the force $W=mg$.  As shown, the weight may be decomposed into its components `W subscript perpendicular` and `W subscript parallel to`,  where $W_{perpendicular} = m g \cos \\theta$ is the component of the weight perpendicular to the surface of the slope and $W_{parallel} \text{to} = m g s i n \\theta$ is the component of the weight parallel to the surface of the slope.
+The weight of the particle is indicated by the force $W=mg$.  As shown, the weight may be decomposed into its components $W_{perpendicular}$ and $W_{parallel} \text{to}$,  where $W_{perpendicular} = m g \cos \\theta$ is the component of the weight perpendicular to the surface of the slope and $W_{parallel} \text{to} = m g s i n \\theta$ is the component of the weight parallel to the surface of the slope.
 
 A particle of mass 5 kg is sliding down a smooth slope that is angled at $30^{\circ}$ to the horizontal.
 

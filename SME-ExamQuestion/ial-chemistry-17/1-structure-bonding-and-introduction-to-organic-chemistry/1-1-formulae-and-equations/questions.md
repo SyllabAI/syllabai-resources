@@ -133,8 +133,8 @@ Which of these compounds has the same empirical and molecular formulae?
 ### 5() — 1 mark — multiple_choice — from paper Jan 2021 · WCH11/01
 Which of these atoms has the most neutrons?
 - **A.** $In_{49}^{115}$
-- **B.** `Sn presubscript 50 presuperscript 124`
-- **C.** `Sb presubscript 51 presuperscript 123`
+- **B.** $Sn_{50}^{124}$
+- **C.** $Sb_{51}^{123}$
 - **D.** $Te_{52}^{124}$
 
 ## Q6 — easy — 1 marks · multiple-choice-questions

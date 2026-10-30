@@ -5,9 +5,9 @@
 ## Q1 — hard — 5 marks · exam-questions
 
 ### 22() — 5 marks
-> *Calculate the sum of interior angles for a pentagon using *`open parentheses n minus 2 close parentheses cross times 180`
+> *Calculate the sum of interior angles for a pentagon using *$( n - 2 ) \\times 180$
 
-`open parentheses 5 minus 2 close parentheses cross times 180 equals 540`
+$( 5 - 2 ) \\times 180 = 540$
 
 > *Calculate one interior angle of a regular pentagon by dividing by the 5 equal angles*
 
@@ -17,7 +17,7 @@ $540\div5=108$
 
 > *Calculate the sum of interior angles for an octagon*
 
-`open parentheses 8 minus 2 close parentheses cross times 180 equals 1080`
+$( 8 - 2 ) \\times 180 = 1080$
 
 > *Calculate one interior angle of a regular octagon by dividing by the 8 equal angles*
 
@@ -35,7 +35,7 @@ $1080\div8=135$
 
 > *Calculate angle *$y$*using the sum of angles in a triangle rule*
 
-`180 minus open parentheses 27 plus 27 close parentheses equals 126`
+$180 - ( 27 + 27 ) = 126$
 
 **[M1]**
 

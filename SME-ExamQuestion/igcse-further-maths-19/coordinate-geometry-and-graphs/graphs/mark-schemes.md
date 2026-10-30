@@ -205,7 +205,7 @@ A negative divided by a negative is positive
 
 $y = \frac{-5}{-1}$
 
-`open parentheses 0 comma space 5 close parentheses`
+$( 0 , 5 )$
 
 **[B1]**
 
@@ -225,7 +225,7 @@ $y = \frac{-5}{-1}$
 > 
 > The question asks for coordinates.
 > 
-> - Give the answer as `open parentheses 0 comma space 5 close parentheses` rather than just 5, so there is no doubt which axis it is on
+> - Give the answer as $( 0 , 5 )$ rather than just 5, so there is no doubt which axis it is on
 
 ### 7((c)) — 1 marks
 An asymptote parallel to the $x$-axis is a horizontal line, and it is the value $y$ approaches as $x$ becomes very large
@@ -1036,7 +1036,7 @@ $5 x - 2 = 0$
 
 $x = \frac{2}{5}$
 
-`open parentheses 2 over 5 comma space 0 close parentheses`
+$( \frac{2}{5} , 0 )$
 
 **[B1]**
 

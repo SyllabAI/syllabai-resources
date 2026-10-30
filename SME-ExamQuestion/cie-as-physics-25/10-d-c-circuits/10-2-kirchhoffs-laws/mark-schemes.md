@@ -10,12 +10,12 @@
 
 - First, we must find the equivalent resistance of all the resistors combined
 - We'll start with the two 4.0 Ω resistors, let's call these *R*<sub>*1*</sub>* *and *R*<sub>*2*</sub>
-- For resistors in parallel : `1 over R equals 1 over R subscript 1 plus 1 over R subscript 2 plus times times times plus 1 over R subscript n`
+- For resistors in parallel : $\frac{1}{R} = \frac{1}{R} _{1} + \frac{1}{R} _{2} + \times \times \times + \frac{1}{R} _{n}$
 
   - $\frac{1}{R_{1+2}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}=\frac{1}{4}+\frac{1}{4}=\frac{1}{2}$
   - So, $R_{1+2}=2.0$ Ω
 - Next, we'll add the combined *R*<sub>*1*</sub> and *R*<sub>*2*</sub> in series with *R*<sub>*3*</sub>
-- For resistors in series : `R equals R subscript 1 plus R subscript 2 plus times times times plus R subscript n`
+- For resistors in series : $R = R_{1} + R_{2} + \times \times \times + R_{n}$
 
   - So, $R_{1+2+3}=2+2=4.0$ Ω
 - And then, to get the total resistance, we'll add the combined 3 resistors in parallel with *R*<sub>*4*</sub>
@@ -207,7 +207,7 @@
 **Final answer:** **The correct answer is ****C ****because:**
 
 - Let the total resistance of the circuit be R
-- For resistors in parallel : `1 over R equals 1 over R subscript 1 plus 1 over R subscript 2 plus times times times plus 1 over R subscript n`
+- For resistors in parallel : $\frac{1}{R} = \frac{1}{R} _{1} + \frac{1}{R} _{2} + \times \times \times + \frac{1}{R} _{n}$
 
   - $\frac{1}{R}=\frac{1}{1}+\frac{1}{2}+\frac{1}{5}=1.7$
   - So, the total resistance is $R=\frac{1}{1.7}=0.588Ω$

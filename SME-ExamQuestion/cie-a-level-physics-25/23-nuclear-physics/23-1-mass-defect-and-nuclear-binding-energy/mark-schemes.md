@@ -303,9 +303,9 @@ List the known quantities:
 - Number of neutrons = 139 − 57 = 82
 - Rest mass of a neutron, $m_{n}$ = 1.00863u
 - Rest mass of a proton, $m_{p}$ = 1.00728u
-- Mass of `space presubscript 57 presuperscript 139 La` = 138.955u
+- Mass of $space_{57}^{139} \text{La}$ = 138.955u
 
-Calculate the mass defect, $\Deltam$ of `La presubscript 57 presuperscript 139`:
+Calculate the mass defect, $\Deltam$ of $La_{57}^{139}$:
 
 - $\Deltam=82m_{n}+57m_{p}-massofnuclide$
 - $\Delta m = ( 82 \times 1.00863 ) u + ( 57 \times 1.00728 ) u - 138.955 u$
@@ -324,7 +324,7 @@ Calculate the binding energy per nucleon:
   - *J and eV*
   - *u and kg*
 - *Read** the **question carefully** to apply the correct conversions*
-State and explain whether the binding energy per nucleon of uranium-235 (`U _ 92 ^ 235`) is greater, equal to or less than the binding energy per nucleon of lanthanum-139 (`La presubscript 57 presuperscript 139`):
+State and explain whether the binding energy per nucleon of uranium-235 (`U _ 92 ^ 235`) is greater, equal to or less than the binding energy per nucleon of lanthanum-139 ($La_{57}^{139}$):
 
 State:
 
@@ -531,12 +531,12 @@ Show that approximately 32 gamma-ray photons are released in this process:
 
 List the known quantities:
 
-- Mass of `U presubscript 92 presuperscript 235 space`= 235.0439u
-- Mass of `Te presubscript 52 presuperscript 138` = 137.9603u
-- Mass of `Zr presubscript 40 presuperscript 98` = 97.9197u
-- Mass of `n presubscript 0 presuperscript 1` = 1.0087u
+- Mass of $U_{92}^{235}$= 235.0439u
+- Mass of $Te_{52}^{138}$ = 137.9603u
+- Mass of $Zr_{40}^{98}$ = 97.9197u
+- Mass of $n_{0}^{1}$ = 1.0087u
 - Wavelength of $γ$ photons emitted = 2.5 × 10<sup>–12</sup> m
-- % of energy released as kinetic energy of `Te presubscript 52 presuperscript 138` and `Zr presubscript 40 presuperscript 98` = 90%
+- % of energy released as kinetic energy of $Te_{52}^{138}$ and $Zr_{40}^{98}$ = 90%
 - Atomic mass unit: 1 u = 931.5 MeV c<sup>–2</sup>
 - 1 eV = 1.60 × 10<sup>–19</sup> J
 - Planck’s constant, *h* = 6.63 × 10<sup>−34</sup> J s (from data page)

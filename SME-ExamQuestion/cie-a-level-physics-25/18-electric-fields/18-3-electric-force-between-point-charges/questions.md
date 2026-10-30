@@ -45,7 +45,7 @@ Calculate the magnitude and explain the presence of the instantaneous torque whe
 
 Two charged objects X and Y are made to circle a point O. X and Y are at a distance, *d* = 1.8 × 10^−8^ m and they have equal masses, where *m* = 1.7 × 10^−9^ kg as shown in Fig. 1.1. The objects carry an equal but opposite charge, where the magnitude *q* = 3.2 × 10^−19^ C.
 
-The particles X and Y in part a) are replaced with a gold nucleus `Au presubscript 79 presuperscript 197` of radius 7.0 fm, and an alpha particle of radius 1.7 fm. They are circling point O with the same separation *d *and are no longer in an electric field.
+The particles X and Y in part a) are replaced with a gold nucleus $Au_{79}^{197}$ of radius 7.0 fm, and an alpha particle of radius 1.7 fm. They are circling point O with the same separation *d *and are no longer in an electric field.
 
 Show that the separation of the gold nucleus and the alpha particle is around 9 × 10<sup>−15</sup> larger than the separation of particles X and Y.
 

@@ -18,7 +18,7 @@ Which properties should the radioactive source have?
 
 **Q2** [1 mark]
 
-A nucleus of radium-226 (`Ra presubscript 88 presuperscript 226`) undergoes alpha decay.
+A nucleus of radium-226 ($Ra_{88}^{226}$) undergoes alpha decay.
 
 What are the nucleon number and the proton number of the new nucleus formed?
 
@@ -278,7 +278,7 @@ Which equation correctly describes this process?
 
 **Extended tier only**
 
-Strontium-90 is a radioactive substance with the nuclide symbol `S presubscript 38 presuperscript 90 r` .
+Strontium-90 is a radioactive substance with the nuclide symbol $S_{38}^{90} r$ .
 
 It decays by emitting radiation, as shown by the following equation.
 
@@ -354,7 +354,7 @@ Define the half-life of a radioactive isotope.
 
 **Q1** [2 marks]
 
-Strontium-90 (`scriptbase text Sr end text end scriptbase presubscript 38 presuperscript 90`) decays by the emission of beta ($\text{β}$) particles to an isotope of yttrium ($Y$).
+Strontium-90 (`text Sr end text _ 38 ^ 90`) decays by the emission of beta ($\text{β}$) particles to an isotope of yttrium ($Y$).
 
 Complete the nuclide equation for this decay.
 
@@ -493,9 +493,9 @@ Calculate the mass of this isotope that remains in the sample after 18 years.
 
 **Q6** [2 marks]
 
-An iodine isotope `I presubscript 53 presuperscript 135` decays beta emission. The daughter particle is an isotope of xenon (Xe).
+An iodine isotope $I_{53}^{135}$ decays beta emission. The daughter particle is an isotope of xenon (Xe).
 
-State the number of each type of particle in a neutral atom of `I presubscript 53 presuperscript 135`.
+State the number of each type of particle in a neutral atom of $I_{53}^{135}$.
 
 **Q6** [2 marks]
 
@@ -578,7 +578,7 @@ State which of these types of radiation can pass through paper.
 
 Barium-137 is a radioactive isotope. The nuclide notation for barium-137 is
 
-`B presubscript 56 presuperscript 137 a`
+$B_{56}^{137} a$
 
 Determine the number of neutrons in a nucleus of barium-137.
 
@@ -734,7 +734,7 @@ Explain why the isotope from part **(c)** would be an inappropriate radioactive 
 
 **Q12** [3 marks]
 
-Radon-222 is radioactive. It can be represented as `Rn presubscript 86 presuperscript 222`.
+Radon-222 is radioactive. It can be represented as $Rn_{86}^{222}$.
 
 For a neutral atom of radon-222, state
 
@@ -779,7 +779,7 @@ number = ...........................................................
 
 Astatine-210 is a radioactive material. The nucleus of astatine can be represented by the symbol shown.
 
-`A presubscript 85 presuperscript 210 t`
+$A_{85}^{210} t$
 
 Complete the table to describe the nucleus of astatine-210.
 
@@ -969,7 +969,7 @@ explanation: ...................................................................
 
 [1]
 
-(iv) The source used is strontium-90. A nucleus of strontium-90 can be described as `space presubscript 38 presuperscript 90 Sr`. State the number of protons in a nucleus of strontium-90.
+(iv) The source used is strontium-90. A nucleus of strontium-90 can be described as $space_{38}^{90} \text{Sr}$. State the number of protons in a nucleus of strontium-90.
 
 [1]
 
@@ -1246,11 +1246,11 @@ Complete the table below for three types of emission from radioactive sources.
 
 State the type of radiation emitted when
 
-(i) an americium nucleus ( `Am presubscript 95 presuperscript 241`) decays into a neptunium nucleus (`Np presubscript 93 presuperscript 237`),
+(i) an americium nucleus ( $Am_{95}^{241}$) decays into a neptunium nucleus ($Np_{93}^{237}$),
 
 [1]
 
-(ii) a phosphorus nucleus (`P _ 15 ^ 32`) decays into a silicon nucleus ( `Si presubscript 16 presuperscript 32`).
+(ii) a phosphorus nucleus (`P _ 15 ^ 32`) decays into a silicon nucleus ( $Si_{16}^{32}$).
 
 [1]
 

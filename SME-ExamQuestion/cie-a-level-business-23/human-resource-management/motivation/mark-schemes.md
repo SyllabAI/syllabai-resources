@@ -333,11 +333,11 @@ Overall, a consultative leadership style is the most important strategy because 
 
 Director's share of the profit
 
-`0.25 percent sign space space cross times space $ 12 straight m space equals space $ 30 comma 000`
+$0.25 \% \\times \$ 12 \mathrm{m} = \$ 30 , 000$
 
 Manager's share of the profit
 
-`0.10 percent sign space space cross times space $ 12 straight m space equals space $ 12 comma 000`
+$0.10 \% \\times \$ 12 \mathrm{m} = \$ 12 , 000$
 
 Difference
 

@@ -89,9 +89,9 @@ What is the first line of algebra when proving that the sum of two consecutive i
 
 The first line of algebra when proving that the sum of two consecutive integers is odd is:
 
-`n plus open parentheses n plus 1 close parentheses`
+$n + ( n + 1 )$
 
-This shows an integer, $n$, being summed with the next (consecutive) integer, `open parentheses n plus 1 close parentheses`.
+This shows an integer, $n$, being summed with the next (consecutive) integer, $( n + 1 )$.
 
 
 
@@ -101,14 +101,14 @@ This shows an integer, $n$, being summed with the next (consecutive) integer, `o
 
 **True or False?**
 
-If $n$ is an integer, then `2 open parentheses n squared plus n close parentheses plus 1` is odd.
+If $n$ is an integer, then $2 ( n^{2} + n ) + 1$ is odd.
 
 
 **BACK**
 
 **True.**
 
-If $n$ is an integer, then `2 open parentheses n squared plus n close parentheses plus 1` is odd.
+If $n$ is an integer, then $2 ( n^{2} + n ) + 1$ is odd.
 
 It has the form of an odd number, `Error converting from MathML to accessible text.`, as $n^{2}+n$ is an integer.
 
@@ -120,18 +120,18 @@ It has the form of an odd number, `Error converting from MathML to accessible te
 
 **True or False?**
 
-`2 open parentheses n plus 1 half close parentheses` represents an even integer, as it is written in the form `2 cross times open parentheses... close parentheses`.
+$2 ( n + 1 \frac{1}{2} )$ represents an even integer, as it is written in the form $2 \\times (... )$.
 
 
 **BACK**
 
 **False.**
 
-It is true that even numbers are written in the form `2 cross times open parentheses... close parentheses` but the part inside the brackets must be an integer.
+It is true that even numbers are written in the form $2 \\times (... )$ but the part inside the brackets must be an integer.
 
-The problem with `2 open parentheses n plus 1 half close parentheses` is that the part inside the brackets has a $\frac{1}{2}$ in it, so would never be an integer.
+The problem with $2 ( n + 1 \frac{1}{2} )$ is that the part inside the brackets has a $\frac{1}{2}$ in it, so would never be an integer.
 
-Alternatively, you could expand the brackets to see that `2 open parentheses n plus 1 half close parentheses equals 2 n plus 1` which is odd (assuming $n$ is an integer).
+Alternatively, you could expand the brackets to see that $2 ( n + 1 \frac{1}{2} ) = 2 n + 1$ which is odd (assuming $n$ is an integer).
 
 
 
@@ -146,11 +146,11 @@ How do you write an algebraic expression for the difference between the squares 
 
 $3n$ and $3n+3$ are two consecutive multiples of 3.
 
-`open parentheses 3 n close parentheses squared` and `open parentheses 3 n plus 3 close parentheses squared` are squares of two consecutive multiples of 3.
+$( 3 n )^{2}$ and $( 3 n + 3 )^{2}$ are squares of two consecutive multiples of 3.
 
-`open parentheses 3 n plus 3 close parentheses squared minus open parentheses 3 n close parentheses squared` is the difference between the squares of two consecutive multiples of 3.
+$( 3 n + 3 )^{2} - ( 3 n )^{2}$ is the difference between the squares of two consecutive multiples of 3.
 
-So the answer is `open parentheses 3 n plus 3 close parentheses squared minus open parentheses 3 n close parentheses squared`.
+So the answer is $( 3 n + 3 )^{2} - ( 3 n )^{2}$.
 
 Note also how you usually write the bigger number subtract the smaller number, so that the overall result is positive.
 
@@ -167,11 +167,11 @@ How could you show that $8n+5$ is odd (assuming $n$ is an integer)?
 
 Odd numbers have the form `Error converting from MathML to accessible text.`.
 
-One way show that $8n+5$ is odd is to rewrite $8n+5$ as $8n+4+1$ then factorise out a 2 to get `2 open parentheses 4 n plus 2 close parentheses plus 1`.
+One way show that $8n+5$ is odd is to rewrite $8n+5$ as $8n+4+1$ then factorise out a 2 to get $2 ( 4 n + 2 ) + 1$.
 
 This now has the form of an odd number as given above.
 
-If you factorised 4 out instead to get `4 open parentheses 2 n plus 1 close parentheses plus 1`, you would need an extra line of working to explain how to get to the form `Error converting from MathML to accessible text.`.
+If you factorised 4 out instead to get $4 ( 2 n + 1 ) + 1$, you would need an extra line of working to explain how to get to the form `Error converting from MathML to accessible text.`.
 
 
 

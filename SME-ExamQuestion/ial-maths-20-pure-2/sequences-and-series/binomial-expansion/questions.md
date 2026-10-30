@@ -10,9 +10,9 @@ Evaluate
 
 (i) $4!$
 
-(ii)  `C presuperscript 5 subscript 2`
+(ii)  $C pre^{5}_{2}$
 
-(iii)  `C presuperscript 6 subscript 3`
+(iii)  $C pre^{6}_{3}$
 
 ## Q2 — easy — 2 marks · exam-questions
 
@@ -206,7 +206,7 @@ Find the coefficient of the term in $x^{4}$ in the expansion of $(4-3x)^{7}.$.
 ## Q32 — very_hard — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Given that `C presuperscript n subscript 3 equals 35` find the value of $n$.
+Given that $C pre^{n}_{3} = 35$ find the value of $n$.
 
 ## Q33 — very_hard — 7 marks · exam-questions
 

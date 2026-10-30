@@ -546,7 +546,7 @@ ii) $n(Aʹ\capBʹ)$
 
 [1]
 
-iii) $n ( [ A \text{intersection} B ] \text{union} C )$
+iii) $n ( [ A \cap B ] \cup C )$
 
 [1]
 

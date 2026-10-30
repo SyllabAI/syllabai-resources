@@ -420,7 +420,7 @@ Calculate the mitotic index of the tissue sample in Fig. 2.
 
 The mitotic index is the proportion of cells in a tissue sample that are undergoing mitosis and can be calculated as follows:
 
-Mitotic space index space equals space fraction numerator Number space of space cells space undergoing space mitosis over denominator Total space number space of space cells end fraction
+$\text{Mitotic} \text{index} = \frac{Number \text{cells} \text{undergoing} mitosis}{Total \text{number} cells}$
 
 From the mark scheme: 19 cells undergoing mitosis AND 74 cells in total; mitotic index = 0.26 / 26%
 
@@ -436,7 +436,7 @@ Fig. 2 below shows a sample of root tissue collected by a researcher.
 
 The mitotic index is the proportion of cells in a tissue sample that are undergoing mitosis and can be calculated as follows:
 
-Mitotic space index space equals space fraction numerator Number space of space cells space undergoing space mitosis over denominator Total space number space of space cells end fraction
+$\text{Mitotic} \text{index} = \frac{Number \text{cells} \text{undergoing} mitosis}{Total \text{number} cells}$
 
 Calculate the mitotic index of the tissue sample in Fig. 2.
 

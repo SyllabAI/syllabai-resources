@@ -65,14 +65,14 @@ E.g. The number of elements in set* A*.
 
 **FRONT**
 
-What **region** in the Venn diagram represents the **union **of* A* and *B*, `open parentheses A union B close parentheses`?
+What **region** in the Venn diagram represents the **union **of* A* and *B*, $( A \cup B )$?
 
 ![A Venn diagram with a rectangle containing two circles, sets A and B.](assets/c719be6df610-6663-2024-06-26-0lv-kleki.png)
 
 
 **BACK**
 
-The union of A and B, `open parentheses straight A union straight B close parentheses`, is the set of **all elements in** **A or B or both**.
+The union of A and B, $( \mathrm{A} \cup \mathrm{B} )$, is the set of **all elements in** **A or B or both**.
 
 ![A Venn diagram with two overlapping circles labelled A and B inside a rectangle labelled U, representing a universal set. Both circles are shaded.](assets/4bf2657f139f-3104-2024-06-26-0lu-kleki-1.png)
 
@@ -102,7 +102,7 @@ The regions** not in the *****A***** circle**, (everything outside *A*), represe
 
 **True or False?**
 
-The region shaded below represents the** intersection** of *A* and *B*, `open parentheses A intersection B close parentheses`.
+The region shaded below represents the** intersection** of *A* and *B*, $( A \cap B )$.
 
 ![Venn diagram with three overlapping circles labelled A, B, and C within a rectangle labeled U. The middle regions, where all three circles overlap, is shaded.](assets/0ef6fa9eb9f4-17374-2024-06-26-0lx-kleki.png)
 
@@ -111,9 +111,9 @@ The region shaded below represents the** intersection** of *A* and *B*, `open pa
 
 **False.**
 
-The region shown is the intersection of A, B and C, `open parentheses straight A intersection straight B intersection straight C close parentheses`.
+The region shown is the intersection of A, B and C, $( \mathrm{A} \cap \mathrm{B} \cap \mathrm{C} )$.
 
-The intersection of A and B, `open parentheses straight A intersection straight B close parentheses`, is:
+The intersection of A and B, $( \mathrm{A} \cap \mathrm{B} )$, is:
 
 ![A Venn diagram with three intersecting circles labelled A, B, and C within a rectangle labelled U. The intersection of circles A and B is shaded.](assets/b9ef70d9cf82-7362-2024-06-26-0lx-kleki-1.png)
 

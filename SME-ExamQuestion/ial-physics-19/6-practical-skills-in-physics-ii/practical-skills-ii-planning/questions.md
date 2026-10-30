@@ -19,7 +19,7 @@ T = ...........................................
 ### 2((b)) — 6 marks — command: plan — structured — from paper Oct/Nov 2021 · WPH16/01
 A student suggests that an approximate relationship between *T* and *h* is given by
 
-`T squared equals pi squared over g open parentheses 2 l minus h close parentheses`
+$T^{2} = \frac{\pi ^{2}}{g} ( 2 l - h )$
 
 Devise a plan to test the validity of the relationship using a graphical method.
 

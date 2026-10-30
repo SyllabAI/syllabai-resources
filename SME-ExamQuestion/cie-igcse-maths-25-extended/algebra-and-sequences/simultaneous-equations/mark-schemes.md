@@ -266,18 +266,18 @@ x = - 2.79 , y = 2 ( - 2.79 ) + 1 = - 4.58$
 **A**** and ****B**** are interchangeable so it doesn't matter which pair of coordinates you write in ****A**** and which in ****B**
 
 ### Q6
-> *Let's label the first equation *`circle enclose 1`* and the second equation *`circle enclose 2`
+> *Let's label the first equation *$\textcircled{1}$* and the second equation *$\textcircled{2}$
 
 $\begin{gathered} 1 \frac{1}{2} x - 3 y & = 9 \textcircled{1} \\ 5 x + y & = 28 \textcircled{2} \end{gathered}$
 
 > *Now we need to multiply one of the equations to get the same number of *$x$*s in both or the same number of *$y$*s in both*
 
 > *Method 1 *
-*Multiply *`circle enclose 1`* by 10 to get *$5x$* in both equations. We'll call the new equation *`circle enclose 3`
+*Multiply *$\textcircled{1}$* by 10 to get *$5x$* in both equations. We'll call the new equation *$\textcircled{3}$
 
 $\begin{gathered} \textcircled{1} \times 10 : 5 x - 30 y & = 90 \textcircled{3} \end{gathered}$
 
-> *Subtract *`circle enclose 2`* from *`circle enclose 3`* to eliminate the *$x$*s*
+> *Subtract *$\textcircled{2}$* from *$\textcircled{3}$* to eliminate the *$x$*s*
 
 > $\begin{gathered} 5 x - 30 y & = 90 \textcircled{3} \\ 5 x + y & = 28 \textcircled{2} \\ \textcircled{3} - \textcircled{2} : - 31 y & = 62 \end{gathered}$*                       *
 
@@ -289,7 +289,7 @@ $\begin{array}{rcl} y = - 2 \end{array}$
 
 **correctly finding **$y$** ****[1]**
 
-> *We need to substitute *$y=-2$* into one of the equations and solve to find *$x$*. This will work for any of *`circle enclose 1`*, *`circle enclose 2`* or *`circle enclose 3`* but *`circle enclose 2`* looks like the easiest option*
+> *We need to substitute *$y=-2$* into one of the equations and solve to find *$x$*. This will work for any of *$\textcircled{1}$*, *$\textcircled{2}$* or *$\textcircled{3}$* but *$\textcircled{2}$* looks like the easiest option*
 
 $\begin{gathered} 5 x + ( - 2 ) & = 28 \\ 5 x & = 30 \\ x = 6 \end{gathered}$
 
@@ -300,11 +300,11 @@ $x=6,y=-2$
 **Don't forget to state both **$x$** and **$y$** clearly in conclusion**
 
 > *Method 2 *
-*Multiply *`circle enclose 2`* by 3 to get "*$3y$*" in both equations. We'll call the new equation *`circle enclose 3`
+*Multiply *$\textcircled{2}$* by 3 to get "*$3y$*" in both equations. We'll call the new equation *$\textcircled{3}$
 
 $\begin{gathered} \textcircled{2} \times 3 : 15 x + 3 y & = 84 \textcircled{3} \end{gathered}$
 
-> *We have "*$3y$*" in both equations but one is negative and one is positive. So we add *`circle enclose 1`* to *`circle enclose 3`* to eliminate the *$y$*s*
+> *We have "*$3y$*" in both equations but one is negative and one is positive. So we add *$\textcircled{1}$* to *$\textcircled{3}$* to eliminate the *$y$*s*
 
 > $\begin{gathered} 1 \frac{1}{2} x - 3 y & = 9 \textcircled{1} \\ 15 x + 3 y & = 84 \textcircled{3} \\ \textcircled{1} + \textcircled{3} : 15 1 \frac{1}{2} x & = 93 \end{gathered}$*                       *
 
@@ -317,7 +317,7 @@ $\begin{gathered} x = 6 \end{gathered}$
 **correctly finding **$x$** ****[1]**
 
 > *We need to substitute *$x=6$* into one of the equations and solve to find *$x$*. *
-*This will work for any of *`circle enclose 1`*, *`circle enclose 2`* or *`circle enclose 3`* but *`circle enclose 2`* looks like the easiest option*
+*This will work for any of *$\textcircled{1}$*, *$\textcircled{2}$* or *$\textcircled{3}$* but *$\textcircled{2}$* looks like the easiest option*
 
 $\begin{gathered} 5 ( 6 ) + y & = 28 \\ 30 + y & = 28 \\ y = - 2 \end{gathered}$
 
@@ -692,7 +692,7 @@ $\begin{gathered} a + b & = 5 \frac{5}{6} \textcircled{1} \\ 4 a + 2 b & = 14 \f
 
 $a=\frac{3}{2}$** [1]**
 
-> *Substitute this value of *$a$* into equation *`circle enclose 1`* and solve for *$b$
+> *Substitute this value of *$a$* into equation *$\textcircled{1}$* and solve for *$b$
 
 $\begin{gathered} \frac{3}{2} + b & = 5 \frac{5}{6} \end{gathered}$
 

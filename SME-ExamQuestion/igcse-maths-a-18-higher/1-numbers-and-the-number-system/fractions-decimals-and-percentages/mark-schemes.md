@@ -706,7 +706,7 @@ $\textcircled{2} C = \frac{7}{8} \times B$
 
 $C=31.50$
 
-> *We can then substitute this into equation *`circle enclose 2`
+> *We can then substitute this into equation *$\textcircled{2}$
 
 $31.50=\frac{7}{8}\timesB$
 
@@ -716,7 +716,7 @@ $\begin{gathered} 252 = 7 B \\ 36 = B \end{gathered}$
 
 **[1]**
 
-> *We can then substitute this into equation *`circle enclose 1`
+> *We can then substitute this into equation *$\textcircled{1}$
 
 $\begin{gathered} 1.2 \times 36 & = A \end{gathered}$
 

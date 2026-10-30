@@ -81,7 +81,7 @@
 
 > *List the numbers that go in B from the set of numbers*
 
-`B equals open curly brackets 5 comma space 10 comma space 15 comma space 20 close curly brackets`
+$B = \{ 5 , 10 , 15 , 20 \}$
 
 > *Any numbers that appear in the lists for **A** **and** **B** go in the overlapping circles on the Venn diagram*
 
@@ -128,7 +128,7 @@
 **[B1]**
 
 ### 15((c)) — 1 marks
-> $A\cupB$* is anything contained in the circles so *`open parentheses A space union space B close parentheses apostrophe`* is anything outside of the circles*
+> $A\cupB$* is anything contained in the circles so *$( A \cup B ) '$* is anything outside of the circles*
 
 **Final answer:** **6, 8, 12, 14, 16**
 

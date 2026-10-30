@@ -262,7 +262,7 @@ Using Fig. 1.1, determine
 
 [1]
 
-(ii) the mean voltage `open angle brackets V close angle brackets`
+(ii) the mean voltage `< V >`
 
 [1]
 

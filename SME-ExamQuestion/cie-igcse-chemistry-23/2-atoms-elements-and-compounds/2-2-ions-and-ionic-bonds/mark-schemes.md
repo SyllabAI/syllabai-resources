@@ -279,8 +279,8 @@
 > Focus your explanation on **collision frequency**, not energy. **Temperature is the only factor that affects the average kinetic energy of the particles.**
 | particle | number of protons | number of neutrons | number of electrons |
 |---|---|---|---|
-| `Mg presubscript 12 presuperscript 24` | **Final answer:** **12** | **Final answer:** **12** | **Final answer:** **12** |
-| `Be presubscript 4 presuperscript 9` | **Final answer:** **4** | **Final answer:** **5** | **Final answer:** **2** |
+| $Mg_{12}^{24}$ | **Final answer:** **12** | **Final answer:** **12** | **Final answer:** **12** |
+| $Be_{4}^{9}$ | **Final answer:** **4** | **Final answer:** **5** | **Final answer:** **2** |
 
 **[3 marks]**
 
@@ -461,7 +461,7 @@ a) The completed table should look as follows:
 
 | particle | number of protons | number of electrons | number of neutrons | symbol or formula |
 |---|---|---|---|---|
-| A | 4 | 4 | 5 | `Be presubscript 4 presuperscript 9` |
+| A | 4 | 4 | 5 | $Be_{4}^{9}$ |
 | B | 19 | 18 | 20 | `K _ 19 ^ 39 ^ +`; **[2 marks]** |
 | C | 30 | 30 | 35 | $Zn_{30}^{65}$; **[1 mark]** |
 | D | 8 | 10 | 8 | $O pre_{8} pre^{16^{2} - sign}$; **[2 marks]** |

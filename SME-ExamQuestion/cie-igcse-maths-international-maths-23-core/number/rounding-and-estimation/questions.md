@@ -111,7 +111,7 @@ Write 6.8167 correct to 3 significant figures.
 
 **Q10** [2 marks]
 
-Calculate `cube root of 40`
+Calculate $\sqrt[3]{40}$
 
 Give your answer correct to 4 decimal places
 

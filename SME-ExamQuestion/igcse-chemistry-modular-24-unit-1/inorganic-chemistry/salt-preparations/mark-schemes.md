@@ -755,7 +755,7 @@ The mass of magnesium carbonate the student should react with dilute nitric acid
 - *M*<sub>r</sub> Mg(NO<sub>3</sub>)<sub>2</sub> = 148 
 **AND** 
 *M*<sub>r</sub>of MgCO<sub>3</sub> = 84; **[1 mark]**
-- Moles of magnesium nitrate= `open parentheses 11 over 148 close parentheses` = 0.0743 mol; **[1 mark]**
+- Moles of magnesium nitrate= $( \frac{11}{148} )$ = 0.0743 mol; **[1 mark]**
 - Mass of MgCO<sub>3</sub>=  (0.0743 x 84) = 6.24 g; **[1 mark]**
 
 **[Total: 3 marks]**

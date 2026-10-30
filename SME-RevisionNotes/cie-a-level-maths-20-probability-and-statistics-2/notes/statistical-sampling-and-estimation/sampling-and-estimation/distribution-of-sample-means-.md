@@ -25,7 +25,7 @@ guided_study: true
   - Collecting the data could compromise the individual data values and therefore taking a census could destroy the population
   - Instead, the population mean can be estimated by taking the mean from a sample from within the population
 - If a sample of size $n$  is taken from a population, $X$, and the mean of the sample, $\overline{x}$ is calculated then the distribution of the sample means, $\overline{X}$ , is the distribution of all values that the sample mean could take
-- If the population, $X$*,*  has a normal distribution with mean, *µ* , and variance, *σ*<sup>*2*</sup>* * , then the mean expected value of the distribution of the sample means, `top enclose X` would still be *µ* but the variance would be reduced
+- If the population, $X$*,*  has a normal distribution with mean, *µ* , and variance, *σ*<sup>*2*</sup>* * , then the mean expected value of the distribution of the sample means, $\vec{X}$ would still be *µ* but the variance would be reduced
 
   - Taking a mean of a sample will reduce the effect of any extreme values
   - The greater the sample size, the less varied the distribution of the sample means would be
@@ -34,7 +34,7 @@ guided_study: true
   - Mean, $\overline{x}$ = *µ*
   - Variance $\frac{σ^{2}}{n}$
   - Standard deviation $\frac{σ}{\sqrt{n}}$
-- For a random variable `X tilde straight N left parenthesis μ comma σ ² right parenthesis` the distribution of the sample mean would be `stack X with bar on top tilde N (μ comma σ ² / n)`
+- For a random variable $X \sim \mathrm{N} ( μ , σ ² )$ the distribution of the sample mean would be $ \bar{X} \sim N (μ , σ ² / n)$
 - The standard deviation of the distribution of the sample means depends on the sample size, $n$
 
   - It is inversely proportional to the square root of the sample size
@@ -43,7 +43,7 @@ guided_study: true
 ![5-3-1-sample-means-diagram-1](../../../assets/9277ccbb9aa1-5-3-1-sample-means-diagram-1.png)
 
 > **Worked Example**
-> A random sample of 10 observations is taken from the population of the random variable `X tilde N left parenthesis 30 comma 25 right parenthesis` and the sample mean is calculated as $\overline{x}$ .  Write down the distribution of the sample mean, $\overline{X}$
+> A random sample of 10 observations is taken from the population of the random variable $X \sim N ( 30 , 25 )$ and the sample mean is calculated as $\overline{x}$ .  Write down the distribution of the sample mean, $\overline{X}$
 > 
 > **Answer:**
 > 

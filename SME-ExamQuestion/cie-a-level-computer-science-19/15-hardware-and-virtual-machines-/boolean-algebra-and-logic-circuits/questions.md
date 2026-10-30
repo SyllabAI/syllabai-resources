@@ -577,7 +577,7 @@ This diagram represents a logic circuit.
 Simplify the given Boolean expression using Boolean algebra. 
 Show your working.
 
-**Y** = `straight A with bar on top. straight B with bar on top. straight C with bar on top. straight D with bar on top space plus space straight A with bar on top. straight B with bar on top. straight C. straight D with bar on top space plus space straight A with bar on top. straight B. straight C with bar on top. straight D with bar on top space plus space straight A with bar on top. straight B. straight C. straight D with bar on top`
+**Y** = $\bar{A} . \bar{B} . \bar{C} . \bar{D} + \bar{A} . \bar{B} . \mathrm{C} . \bar{D} + \bar{A} . \mathrm{B} . \bar{C} . \bar{D} + \bar{A} . \mathrm{B} . \mathrm{C} . \bar{D}$
 
 *Source: November 2023 9618/33 Q6B*
 
@@ -621,7 +621,7 @@ Simplify the following expression using Boolean algebra.
 
 Show all the stages in your simplification.
 
-**T = X.Y.Z + X.**$\overline{Y.}$**Z + **`straight X with bar on top`
+**T = X.Y.Z + X.**$\overline{Y.}$**Z + **$\bar{X}$
 
 *Source: November 2023 9618/32 Q7C*
 

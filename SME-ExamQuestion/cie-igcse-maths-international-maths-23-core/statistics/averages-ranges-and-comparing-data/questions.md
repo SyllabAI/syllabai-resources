@@ -75,7 +75,7 @@ Work out the range of the five numbers.
 
 The mean of three numbers is 150.
 
-The numbers are 361, 2$n$ and `open parentheses n minus 1 close parentheses` .
+The numbers are 361, 2$n$ and $( n - 1 )$ .
 
 Find the value of $n$.
 

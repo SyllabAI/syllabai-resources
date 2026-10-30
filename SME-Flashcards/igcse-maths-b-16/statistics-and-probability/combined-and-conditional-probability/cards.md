@@ -16,7 +16,7 @@ What does **AND** mean for combined probabilities?
 
 **AND** means **multiply** ($\times$) and is used for **independent events** to find the **probability of both events **occurring.
 
-E.g. the probability of events A **and** B occurring is `straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`.
+E.g. the probability of events A **and** B occurring is $\mathrm{P} ( A ) \\times \mathrm{P} ( B )$.
 
 
 
@@ -31,7 +31,7 @@ What does **OR** mean for combined probabilities?
 
 **OR** means **add** (+) and is used for **mutually exclusive** **events** to find the **probability of one event or the other event **occurring.
 
-E.g. the probability of either event *A* and/or event *B* occurring is `straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`.
+E.g. the probability of either event *A* and/or event *B* occurring is $\mathrm{P} ( A ) + \mathrm{P} ( B )$.
 
 
 
@@ -63,7 +63,7 @@ State the** equation** for the probability of** two independent events**, $A$ an
 
 If $A$ and $B$ are **independent events**, then the probability of both events occurring is:
 
-`straight P open parentheses A space and space B close parentheses equals straight P open parentheses A close parentheses cross times straight P open parentheses B close parentheses`.
+`P ( A and B ) = P ( A ) x P ( B )`.
 
 
 
@@ -78,7 +78,7 @@ State the **equation** for the probability of one or the other of **two mutually
 
 If $A$ and $B$ are **mutually exclusive events**, then the probability of one or the other of them occurring is:
 
-`straight P open parentheses A space or space B close parentheses equals straight P open parentheses A close parentheses plus straight P open parentheses B close parentheses`.
+$\mathrm{P} ( A \text{or} B ) = \mathrm{P} ( A ) + \mathrm{P} ( B )$.
 
 
 

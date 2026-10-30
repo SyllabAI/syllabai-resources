@@ -389,12 +389,12 @@
       {
        "latex": "n=0,n-1=0\\mathrm{or}\\frac{n-2}{6}-3=0",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mi>or</mi><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mfrac><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow><mn>6</mn></mfrac><mo>-</mo><mn>3</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "n equals 0 comma space space space space n minus 1 equals 0 space space space space or space space space space fraction numerator n minus 2 over denominator 6 end fraction minus 3 equals 0"
+       "alt": "n = 0 , n - 1 = 0 or (n - 2)/(6) - 3 = 0"
       },
       {
        "latex": "\\frac{n-2}{6}=3",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow><mn>6</mn></mfrac><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
-       "alt": "fraction numerator n minus 2 over denominator 6 end fraction equals 3"
+       "alt": "(n - 2)/(6) = 3"
       },
       {
        "latex": "n=20",
@@ -660,7 +660,7 @@
      ],
      "part_tier": null,
      "problem_md": "A team of 3 people is to be selected from 4 men and 5 women. Find the number of different teams that could be selected which include at least 2 women.",
-     "solution_md": "> *For there to be **at least **three women, there could either be two women and one man, or three women.*\n\n> *To work out the number of different teams that have two women and one man:*\n\n$C pre^{4}_{1} \\times C pre^{5}_{2}$\n\n> *   *\n\n> *To work out the number of different teams that have three women:*\n\n`scriptbase C subscript 3 end scriptbase presuperscript 5`\n\n> *Add together to work out the number of teams that have two women and one man **or **three women.*\n\n`C ^ 4 _ 1 x C ^ 5 _ 2 + C _ 3 ^ 5`\n\n$[ 1 ]$\n\n$50 [ 1 ]$"
+     "solution_md": "> *For there to be **at least **three women, there could either be two women and one man, or three women.*\n\n> *To work out the number of different teams that have two women and one man:*\n\n$C pre^{4}_{1} \\times C pre^{5}_{2}$\n\n> *   *\n\n> *To work out the number of different teams that have three women:*\n\n`C _ 3 ^ 5`\n\n> *Add together to work out the number of teams that have two women and one man **or **three women.*\n\n`C ^ 4 _ 1 x C ^ 5 _ 2 + C _ 3 ^ 5`\n\n$[ 1 ]$\n\n$50 [ 1 ]$"
     }
    ]
   },
@@ -1045,7 +1045,7 @@
      ],
      "part_tier": null,
      "problem_md": "Given that $45 \\times \\mathrm{C} pre^{n}_{4} = ( n + 1 ) \\times^{n + 1} \\mathrm{C}_{5}$, find the value of $n$.",
-     "solution_md": "> *Substitute *$n=n$* and *$r=4$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`\n\n$\\frac{n factorial}{( n - 4 ) \\text{factorial} 4 factorial}$\n\n> *Substitute *$n = ( n + 1 )$* and *$r=5$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`\n\n$\\frac{( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \\text{factorial} 5 factorial}$\n\n> *Substitute into the given equation.*\n\n$45 \\times \\frac{n factorial}{( n - 4 ) \\text{factorial} 4 factorial} = \\frac{( n + 1 ) ( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \\text{factorial} 5 factorial}$\n\n$[ 1 ]$\n\n> *Simplify.*\n\n$\\frac{45 n factorial}{24 ( n - 4 ) factorial} = \\frac{( n + 1 ) ( n + 1 ) factorial}{120 ( n - 4 ) factorial}$\n\n> *Multiply both sides by *$24 ( n - 4 ) \\text{factorial}$\n\n$45 n \\text{factorial} = \\frac{24 ( n + 1 ) ( n + 1 ) \\text{factorial} ( n - 4 ) factorial}{120 ( n - 4 ) factorial}$\n\n> *Cancel *$( n - 4 ) \\text{factorial}$* from top and bottom.*\n\n$45 = \\frac{24 ( n + 1 ) ( n + 1 ) factorial}{120 n factorial}$\n\n$\\frac{( n + 1 ) factorial}{n factorial} = n + 1$*,* *simplify.*\n\n$45 = \\frac{( n + 1 )^{2}}{5}$\n\n> *Rearrange to achieve a quadratic equation.*\n\n$n^{2}+2n-224=0$\n\n$[ 1 ]$\n\n> *Factorise.*\n\n$( n + 16 ) ( n - 14 ) = 0$\n\n$[ 1 ]$\n\n> *Solve.*\n\n$n=-16$ *and *$n=14$\n\n> $n$* cannot be negative.*\n\n$n=14$* *$[ 1 ]$",
+     "solution_md": "> *Substitute *$n=n$* and *$r=4$* into the formula *`C _ r ^ n`\n\n$\\frac{n factorial}{( n - 4 ) \\text{factorial} 4 factorial}$\n\n> *Substitute *$n = ( n + 1 )$* and *$r=5$* into the formula *`C _ r ^ n`\n\n$\\frac{( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \\text{factorial} 5 factorial}$\n\n> *Substitute into the given equation.*\n\n$45 \\times \\frac{n factorial}{( n - 4 ) \\text{factorial} 4 factorial} = \\frac{( n + 1 ) ( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \\text{factorial} 5 factorial}$\n\n$[ 1 ]$\n\n> *Simplify.*\n\n$\\frac{45 n factorial}{24 ( n - 4 ) factorial} = \\frac{( n + 1 ) ( n + 1 ) factorial}{120 ( n - 4 ) factorial}$\n\n> *Multiply both sides by *$24 ( n - 4 ) \\text{factorial}$\n\n$45 n \\text{factorial} = \\frac{24 ( n + 1 ) ( n + 1 ) \\text{factorial} ( n - 4 ) factorial}{120 ( n - 4 ) factorial}$\n\n> *Cancel *$( n - 4 ) \\text{factorial}$* from top and bottom.*\n\n$45 = \\frac{24 ( n + 1 ) ( n + 1 ) factorial}{120 n factorial}$\n\n$\\frac{( n + 1 ) factorial}{n factorial} = n + 1$*,* *simplify.*\n\n$45 = \\frac{( n + 1 )^{2}}{5}$\n\n> *Rearrange to achieve a quadratic equation.*\n\n$n^{2}+2n-224=0$\n\n$[ 1 ]$\n\n> *Factorise.*\n\n$( n + 16 ) ( n - 14 ) = 0$\n\n$[ 1 ]$\n\n> *Solve.*\n\n$n=-16$ *and *$n=14$\n\n> $n$* cannot be negative.*\n\n$n=14$* *$[ 1 ]$",
      "equations": [
       {
        "latex": "n",
@@ -1228,7 +1228,7 @@
      ],
      "part_tier": null,
      "problem_md": "A committee of 5 people is to be formed from 6 doctors, 4 dentists and 3 nurses. Find the number of different committees that could be formed if\n\n(i) there are no restrictions,\n\n[1]\n\n(ii) the committee contains at least one doctor,\n\n[2]\n\n(iii) the committee contains all the nurses.\n\n[1]",
-     "solution_md": "i) *There are 13 people to choose from for five spots on the committee, therefore *\n\n`C presuperscript 13 subscript 5`\n\n$1287$ **[1]**\n\nii) *To ensure that the committee contains at least one doctor, we need to subtract the committees that would only comprise of dentists and nurses, i.e. the committees that would contain no doctors*\n\n$C pre^{7}_{5} = 21$\n\n> *Therefore, the number of committees that would have at least one doctor would be*\n\n$1287-21$\n\n**[1]**\n\n$1266$** [1]**\n\niii) *To ensure that the committee contains all 3 of the nurses, it means we have to choose the remaining 2 people for the committee from the 6 doctors and 4 dentists. *\n\n$C pre^{10}_{2} = 45$\n\n$45$ **[1]**\n\n`C presuperscript 3 subscript 3`** is not required as **$C pre^{3}_{3} = 1$** **",
+     "solution_md": "i) *There are 13 people to choose from for five spots on the committee, therefore *\n\n$C pre^{13}_{5}$\n\n$1287$ **[1]**\n\nii) *To ensure that the committee contains at least one doctor, we need to subtract the committees that would only comprise of dentists and nurses, i.e. the committees that would contain no doctors*\n\n$C pre^{7}_{5} = 21$\n\n> *Therefore, the number of committees that would have at least one doctor would be*\n\n$1287-21$\n\n**[1]**\n\n$1266$** [1]**\n\niii) *To ensure that the committee contains all 3 of the nurses, it means we have to choose the remaining 2 people for the committee from the 6 doctors and 4 dentists. *\n\n$C pre^{10}_{2} = 45$\n\n$45$ **[1]**\n\n$C pre^{3}_{3}$** is not required as **$C pre^{3}_{3} = 1$** **",
      "equations": [
       {
        "latex": "1287",

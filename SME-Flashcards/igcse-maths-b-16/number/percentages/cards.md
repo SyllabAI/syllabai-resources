@@ -50,7 +50,7 @@ E.g. Find 12 as a percentage of 80.
 
 To find one number as a percentage of another number, **divide** the **first number by the second number** then **multiply by 100**.
 
-E.g. To find 12 as a percentage of 80, `12 over 80 cross times 100 equals 15 percent sign`.
+E.g. To find 12 as a percentage of 80, $\frac{12}{80} \\times 100 = 15 \%$.
 
 
 

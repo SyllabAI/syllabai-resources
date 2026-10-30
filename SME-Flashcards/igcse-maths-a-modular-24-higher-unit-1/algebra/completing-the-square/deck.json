@@ -28,21 +28,21 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "When **completing the square** for the expression $x^{2}+bx+c$, explain how to find the value of $p$ in the expression `open parentheses x plus p close parentheses squared plus q`."
+     "md": "When **completing the square** for the expression $x^{2}+bx+c$, explain how to find the value of $p$ in the expression $( x + p )^{2} + q$."
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "**Completing the square** for  $x^{2}+bx+c$ gives the form `open parentheses x plus p close parentheses squared plus q`."
+     "md": "**Completing the square** for  $x^{2}+bx+c$ gives the form $( x + p )^{2} + q$."
     },
     {
      "type": "paragraph",
      "md": "The value of $p$ is **half **of the value of** **$b$**. **"
     }
    ],
-   "front_md": "When **completing the square** for the expression $x^{2}+bx+c$, explain how to find the value of $p$ in the expression `open parentheses x plus p close parentheses squared plus q`.\n",
-   "back_md": "**Completing the square** for  $x^{2}+bx+c$ gives the form `open parentheses x plus p close parentheses squared plus q`.\n\nThe value of $p$ is **half **of the value of** **$b$**. **\n",
+   "front_md": "When **completing the square** for the expression $x^{2}+bx+c$, explain how to find the value of $p$ in the expression $( x + p )^{2} + q$.\n",
+   "back_md": "**Completing the square** for  $x^{2}+bx+c$ gives the form $( x + p )^{2} + q$.\n\nThe value of $p$ is **half **of the value of** **$b$**. **\n",
    "spec_links": [],
    "flags": []
   },
@@ -58,7 +58,7 @@
     },
     {
      "type": "paragraph",
-     "md": "The coordinates of the **turning point** (vertex) of the quadratic curve `y equals open parentheses x plus 3 close parentheses squared plus 5` are `open parentheses 3 comma space 5 close parentheses`."
+     "md": "The coordinates of the **turning point** (vertex) of the quadratic curve $y = ( x + 3 )^{2} + 5$ are $( 3 , 5 )$."
     }
    ],
    "back_blocks": [
@@ -68,19 +68,19 @@
     },
     {
      "type": "paragraph",
-     "md": "The coordinates of the turning point (vertex) of the quadratic curve `y equals open parentheses x plus 3 close parentheses squared plus 5` are **not** `open parentheses 3 comma space 5 close parentheses`."
+     "md": "The coordinates of the turning point (vertex) of the quadratic curve $y = ( x + 3 )^{2} + 5$ are **not** $( 3 , 5 )$."
     },
     {
      "type": "paragraph",
-     "md": "The correct coordinates are `open parentheses negative 3 comma space 5 close parentheses`."
+     "md": "The correct coordinates are $( - 3 , 5 )$."
     },
     {
      "type": "paragraph",
-     "md": "This is a common mistake in the exam! If `y equals open parentheses x plus p close parentheses squared plus q` is the curve, then `open parentheses negative p comma space q close parentheses` are the coordinates of the turning point."
+     "md": "This is a common mistake in the exam! If $y = ( x + p )^{2} + q$ is the curve, then $( - p , q )$ are the coordinates of the turning point."
     }
    ],
-   "front_md": "**True or False?**\n\nThe coordinates of the **turning point** (vertex) of the quadratic curve `y equals open parentheses x plus 3 close parentheses squared plus 5` are `open parentheses 3 comma space 5 close parentheses`.\n",
-   "back_md": "**False.**\n\nThe coordinates of the turning point (vertex) of the quadratic curve `y equals open parentheses x plus 3 close parentheses squared plus 5` are **not** `open parentheses 3 comma space 5 close parentheses`.\n\nThe correct coordinates are `open parentheses negative 3 comma space 5 close parentheses`.\n\nThis is a common mistake in the exam! If `y equals open parentheses x plus p close parentheses squared plus q` is the curve, then `open parentheses negative p comma space q close parentheses` are the coordinates of the turning point.\n",
+   "front_md": "**True or False?**\n\nThe coordinates of the **turning point** (vertex) of the quadratic curve $y = ( x + 3 )^{2} + 5$ are $( 3 , 5 )$.\n",
+   "back_md": "**False.**\n\nThe coordinates of the turning point (vertex) of the quadratic curve $y = ( x + 3 )^{2} + 5$ are **not** $( 3 , 5 )$.\n\nThe correct coordinates are $( - 3 , 5 )$.\n\nThis is a common mistake in the exam! If $y = ( x + p )^{2} + q$ is the curve, then $( - p , q )$ are the coordinates of the turning point.\n",
    "spec_links": [],
    "flags": []
   },
@@ -102,7 +102,7 @@
     },
     {
      "type": "paragraph",
-     "md": "This gives `a open square brackets x squared plus b over a x plus c over a close square brackets`."
+     "md": "This gives $a [ x^{2} + \\frac{b}{a} x + \\frac{c}{a} ]$."
     },
     {
      "type": "paragraph",
@@ -110,11 +110,11 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. to complete the square of the expression $3x^{2}+12x-8$, the first step would be to factorise out $3$, giving `3 open square brackets x squared plus 4 x minus 8 over 3 close square brackets`."
+     "md": "E.g. to complete the square of the expression $3x^{2}+12x-8$, the first step would be to factorise out $3$, giving $3 [ x^{2} + 4 x - \\frac{8}{3} ]$."
     }
    ],
    "front_md": "What is the **first step **to **completing the square** of the quadratic expression   $ax^{2}+bx+c$ where $a$ is** not** equal to 1, e.g. $3x^{2}+12x-8$?\n",
-   "back_md": "The first step to completing the square of the quadratic expression   $ax^{2}+bx+c$ where $a$ is** **not equal to 1 is to **factorise out** $a$.\n\nThis gives `a open square brackets x squared plus b over a x plus c over a close square brackets`.\n\nYou can then complete the square inside the big brackets.\n\nE.g. to complete the square of the expression $3x^{2}+12x-8$, the first step would be to factorise out $3$, giving `3 open square brackets x squared plus 4 x minus 8 over 3 close square brackets`.\n",
+   "back_md": "The first step to completing the square of the quadratic expression   $ax^{2}+bx+c$ where $a$ is** **not equal to 1 is to **factorise out** $a$.\n\nThis gives $a [ x^{2} + \\frac{b}{a} x + \\frac{c}{a} ]$.\n\nYou can then complete the square inside the big brackets.\n\nE.g. to complete the square of the expression $3x^{2}+12x-8$, the first step would be to factorise out $3$, giving $3 [ x^{2} + 4 x - \\frac{8}{3} ]$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -130,7 +130,7 @@
     },
     {
      "type": "paragraph",
-     "md": "The coordinates of the **turning points** on the curves `y equals open parentheses x plus 2 close parentheses squared plus 4` and `y equals 3 open parentheses x plus 2 close parentheses squared plus 4` are the** same**."
+     "md": "The coordinates of the **turning points** on the curves $y = ( x + 2 )^{2} + 4$ and $y = 3 ( x + 2 )^{2} + 4$ are the** same**."
     }
    ],
    "back_blocks": [
@@ -140,15 +140,15 @@
     },
     {
      "type": "paragraph",
-     "md": "The coordinates of the **turning points** on the curves `y equals open parentheses x plus 2 close parentheses squared plus 4` and `y equals 3 open parentheses x plus 2 close parentheses squared plus 4` are the** same**."
+     "md": "The coordinates of the **turning points** on the curves $y = ( x + 2 )^{2} + 4$ and $y = 3 ( x + 2 )^{2} + 4$ are the** same**."
     },
     {
      "type": "paragraph",
-     "md": "The coordinates of the turning point on `y equals a open parentheses x plus p close parentheses squared plus q` are always `open parentheses negative p comma space q close parentheses`, regardless of the value of $a$ (even if $a<0$)."
+     "md": "The coordinates of the turning point on $y = a ( x + p )^{2} + q$ are always $( - p , q )$, regardless of the value of $a$ (even if $a<0$)."
     }
    ],
-   "front_md": "**True or False?**\n\nThe coordinates of the **turning points** on the curves `y equals open parentheses x plus 2 close parentheses squared plus 4` and `y equals 3 open parentheses x plus 2 close parentheses squared plus 4` are the** same**.\n",
-   "back_md": "**True**.\n\nThe coordinates of the **turning points** on the curves `y equals open parentheses x plus 2 close parentheses squared plus 4` and `y equals 3 open parentheses x plus 2 close parentheses squared plus 4` are the** same**.\n\nThe coordinates of the turning point on `y equals a open parentheses x plus p close parentheses squared plus q` are always `open parentheses negative p comma space q close parentheses`, regardless of the value of $a$ (even if $a<0$).\n",
+   "front_md": "**True or False?**\n\nThe coordinates of the **turning points** on the curves $y = ( x + 2 )^{2} + 4$ and $y = 3 ( x + 2 )^{2} + 4$ are the** same**.\n",
+   "back_md": "**True**.\n\nThe coordinates of the **turning points** on the curves $y = ( x + 2 )^{2} + 4$ and $y = 3 ( x + 2 )^{2} + 4$ are the** same**.\n\nThe coordinates of the turning point on $y = a ( x + p )^{2} + q$ are always $( - p , q )$, regardless of the value of $a$ (even if $a<0$).\n",
    "spec_links": [],
    "flags": []
   },
@@ -160,25 +160,25 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "Explain how writing $x^{2}-4x+9$ in the form `open parentheses x minus 2 close parentheses squared plus 5` shows that any output of the function `straight f open parentheses x close parentheses equals x squared minus 4 x plus 9` is always greater than or equal to 5."
+     "md": "Explain how writing $x^{2}-4x+9$ in the form $( x - 2 )^{2} + 5$ shows that any output of the function $\\mathrm{f} ( x ) = x^{2} - 4 x + 9$ is always greater than or equal to 5."
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "If $x^{2}-4x+9$ can be written as `open parentheses x minus 2 close parentheses squared plus 5` by **completing the square**, then  `straight f open parentheses x close parentheses equals x squared minus 4 x plus 9` can be written as `straight f open parentheses x close parentheses equals open parentheses x minus 2 close parentheses squared plus 5`."
+     "md": "If $x^{2}-4x+9$ can be written as $( x - 2 )^{2} + 5$ by **completing the square**, then  $\\mathrm{f} ( x ) = x^{2} - 4 x + 9$ can be written as $\\mathrm{f} ( x ) = ( x - 2 )^{2} + 5$."
     },
     {
      "type": "paragraph",
-     "md": "The coordinates of the **turning point** will be `open parentheses 2 comma space 5 close parentheses`."
+     "md": "The coordinates of the **turning point** will be $( 2 , 5 )$."
     },
     {
      "type": "paragraph",
-     "md": "As this is a **positive quadratic**, the turning point will be a **minimum **and the therefore the value of `straight f open parentheses x close parentheses` will always be greater than or equal to 5."
+     "md": "As this is a **positive quadratic**, the turning point will be a **minimum **and the therefore the value of $\\mathrm{f} ( x )$ will always be greater than or equal to 5."
     }
    ],
-   "front_md": "Explain how writing $x^{2}-4x+9$ in the form `open parentheses x minus 2 close parentheses squared plus 5` shows that any output of the function `straight f open parentheses x close parentheses equals x squared minus 4 x plus 9` is always greater than or equal to 5.\n",
-   "back_md": "If $x^{2}-4x+9$ can be written as `open parentheses x minus 2 close parentheses squared plus 5` by **completing the square**, then  `straight f open parentheses x close parentheses equals x squared minus 4 x plus 9` can be written as `straight f open parentheses x close parentheses equals open parentheses x minus 2 close parentheses squared plus 5`.\n\nThe coordinates of the **turning point** will be `open parentheses 2 comma space 5 close parentheses`.\n\nAs this is a **positive quadratic**, the turning point will be a **minimum **and the therefore the value of `straight f open parentheses x close parentheses` will always be greater than or equal to 5.\n",
+   "front_md": "Explain how writing $x^{2}-4x+9$ in the form $( x - 2 )^{2} + 5$ shows that any output of the function $\\mathrm{f} ( x ) = x^{2} - 4 x + 9$ is always greater than or equal to 5.\n",
+   "back_md": "If $x^{2}-4x+9$ can be written as $( x - 2 )^{2} + 5$ by **completing the square**, then  $\\mathrm{f} ( x ) = x^{2} - 4 x + 9$ can be written as $\\mathrm{f} ( x ) = ( x - 2 )^{2} + 5$.\n\nThe coordinates of the **turning point** will be $( 2 , 5 )$.\n\nAs this is a **positive quadratic**, the turning point will be a **minimum **and the therefore the value of $\\mathrm{f} ( x )$ will always be greater than or equal to 5.\n",
    "spec_links": [],
    "flags": []
   }

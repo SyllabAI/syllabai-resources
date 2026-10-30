@@ -99,7 +99,7 @@ $8.4\times10^{7}$
 ### 23((c)) — 2 marks
 > $K$* is the number of times the number of neurons in a monkey brain needs to be multiplied to get the number of neurons in a human brain. Use the inverse operation to work it out*
 
-`open parentheses 8.5 space cross times space 10 to the power of 10 close parentheses space divided by space open parentheses 1.47 space cross times space 10 to the power of 9 close parentheses`
+$( 8.5 \\times 10^{10} ) \div ( 1.47 \\times 10^{9} )$
 
 **[M1]**
 

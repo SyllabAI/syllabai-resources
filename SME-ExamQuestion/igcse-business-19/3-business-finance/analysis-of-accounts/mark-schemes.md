@@ -522,9 +522,7 @@ Final answer =** 2.74**
 ### 1((e)) — 2 marks
 $90 - 10 = 80$     **[1 mark]**
 
-`80 over 160 space cross times space 100
-
-equals space 50 percent sign`     **[1 mark]**
+$\frac{80}{160} \\times 100 = 50 \%$     **[1 mark]**
 
 > **[mark-scheme]**
 > Award 1 mark for correctly calculating operating profit ($90 - 10 = 80$) or correctly substituting numbers into the operating profit margin formula.

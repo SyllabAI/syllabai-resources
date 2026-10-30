@@ -11,14 +11,14 @@ Source: https://www.savemyexams.com/igcse/maths/cie/25/core/flashcards/algebra-a
 
 **True or False?**
 
-The expression `4 open parentheses a plus b close parentheses` means `4 cross times open parentheses a plus b close parentheses`.
+The expression $4 ( a + b )$ means $4 \\times ( a + b )$.
 
 
 **BACK**
 
 **True.**
 
-The expression `4 open parentheses a plus b close parentheses` means `4 cross times open parentheses a plus b close parentheses`.
+The expression $4 ( a + b )$ means $4 \\times ( a + b )$.
 
 
 
@@ -251,7 +251,7 @@ What does **substitution** mean in algebra?
 
 **Substitution **in algebra** **is the process of replacing letters in a formula with their corresponding numerical values (inputs) in order to calculate an output of the formula.
 
-E.g. If $v=3$ and $a=-5$, substituting them into the formula $a^{2}+2v=t$ would give `open parentheses negative 5 close parentheses plus 2 cross times 3 equals t`.
+E.g. If $v=3$ and $a=-5$, substituting them into the formula $a^{2}+2v=t$ would give $( - 5 ) + 2 \\times 3 = t$.
 
 
 
@@ -261,7 +261,7 @@ E.g. If $v=3$ and $a=-5$, substituting them into the formula $a^{2}+2v=t$ would 
 
 **True or False?**
 
-When substituting in the number $g=-3$ you should replace $g$* *with `open parentheses negative 3 close parentheses`, not $-3$.
+When substituting in the number $g=-3$ you should replace $g$* *with $( - 3 )$, not $-3$.
 
 
 **BACK**
@@ -272,7 +272,7 @@ It is important to put brackets around any **negative** numbers that you substit
 
 E.g. Substitute $g=-3$ into the expression  $4g^{2}$.
 
-If you use brackets it will give you the correct answer `4 cross times open parentheses negative 3 close parentheses squared equals 4 cross times 9 equals 36`.
+If you use brackets it will give you the correct answer $4 \\times ( - 3 )^{2} = 4 \\times 9 = 36$.
 
 If you don't use brackets it will give an incorrect answer $4\times-3^{2}=4\times-9=-36$.
 
@@ -305,7 +305,7 @@ E.g. $A=l\timesw$ can be rearranged as $l=\frac{A}{w}$ if you know the values of
 
 It is a good idea to **simplify **an expression before substituting in values.
 
-E.g. simplifying the expression `2 a plus 7 t minus 2 open parentheses 5 a plus t close parentheses` to $5t-8a$ before substitution.
+E.g. simplifying the expression $2 a + 7 t - 2 ( 5 a + t )$ to $5t-8a$ before substitution.
 
 
 **BACK**
@@ -324,7 +324,7 @@ Doing this reduces the number of substitutions you need to do (and the number of
 
 **True or False?**
 
-Substituting $y=2$ into $-3y^{2}$ will give `open parentheses negative 6 close parentheses squared` which is $36$.
+Substituting $y=2$ into $-3y^{2}$ will give $( - 6 )^{2}$ which is $36$.
 
 
 **BACK**
@@ -400,13 +400,13 @@ This expression cannot be simplified any further.
 
 **True or False?**
 
-$4q^{3}$ and `negative 8 q open parentheses q squared close parentheses` are **like terms**.
+$4q^{3}$ and $- 8 q ( q^{2} )$ are **like terms**.
 
 
 **BACK**
 
 **True.**
 
-$4q^{3}$ and `negative 8 q open parentheses q squared close parentheses` are **like terms** as `negative 8 q open parentheses q squared close parentheses` simplifies to $-8q^{3}$.
+$4q^{3}$ and $- 8 q ( q^{2} )$ are **like terms** as $- 8 q ( q^{2} )$ simplifies to $-8q^{3}$.
 
 

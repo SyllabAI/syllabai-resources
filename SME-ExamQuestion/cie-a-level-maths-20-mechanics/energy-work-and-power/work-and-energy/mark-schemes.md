@@ -212,7 +212,7 @@ Compare the two ramps, remembering that the gain in potential energy is the same
 > **B1**: A clear comparison of the two totals and the correct conclusion. Because the result is given, both friction values must be present and the comparison must be explicit.
 The work Jason does supplies the gain in gravitational potential energy and the work done against friction, with no kinetic energy left over
 
-`1850 equals 720 plus open parentheses 1247.07 horizontal ellipsis close parentheses mu`
+`1850 = 720 + ( 1247.07 horizontal ellipsis ) mu`
 
 **[M1 A1]**
 

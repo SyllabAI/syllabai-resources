@@ -69,7 +69,7 @@ guided_study: false
 > 
 > > *Now just use laws of indices again to write the answer in the requested form*
 > 
-> $\begin{array}{ccc} f^{ } \text{apostrophe} \text{stretchy} ( x \text{stretchy} ) & = & 3 x^{ } 2 - \frac{1}{ } x^{ } 2\end{array}$
+> $\begin{array}{ccc} f ' ( x ) & = & 3 x 2 - \frac{1}{ } x 2\end{array}$
 > 
 > (b) Hence write down the answer to the indefinite integral  $\int ( 3 x^{2} - \frac{1}{x^{2}} ) \mathrm{d} x$.
 > 

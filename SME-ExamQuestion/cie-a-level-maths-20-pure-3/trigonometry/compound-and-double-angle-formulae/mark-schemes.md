@@ -1595,13 +1595,13 @@ $\equiv \frac{\text{tan}A+\frac{2\text{tan}A}{1-\text{tan}^{2}A}}{1-\text{tan}A\
 
 Write the numerator as a single fraction over $1 - \text{tan}^{2}  A$
 
-`\text{numerator} \equiv \dfrac{\text{tan} \; A\left(1 - \text{tan}^2 \; A\right) + 2 \; \text{tan} \; A}{1 - \text{tan}^2 \; A} \equiv \dfrac{3 \; \text{tan} \; A - \text{tan}^3 \; A}{1 - \text{tan}^2 \; A}`
+` \equiv \dfrac{\text{tan} \; A\left(1 - \text{tan}^2 \; A\right) + 2 \; \text{tan} \; A}{1 - \text{tan}^2 \; A} \equiv \dfrac{3 \; \text{tan} \; A - \text{tan}^3 \; A}{1 - \text{tan}^2 \; A}`
 
 **[M1]**
 
 Do the same with the denominator
 
-`\text{denominator} \equiv \dfrac{\left(1 - \text{tan}^2 \; A\right) - 2 \; \text{tan}^2 \; A}{1 - \text{tan}^2 \; A} \equiv \dfrac{1 - 3 \; \text{tan}^2 \; A}{1 - \text{tan}^2 \; A}`
+` \equiv \dfrac{\left(1 - \text{tan}^2 \; A\right) - 2 \; \text{tan}^2 \; A}{1 - \text{tan}^2 \; A} \equiv \dfrac{1 - 3 \; \text{tan}^2 \; A}{1 - \text{tan}^2 \; A}`
 
 **[A1]**
 

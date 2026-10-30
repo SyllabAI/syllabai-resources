@@ -22,8 +22,7 @@ $OCB=90^{\circ}\,OAB=90^{\circ}$
 
 > *Calculate angle *$x$*using  the sum of angles in a quadrilateral equals 360° rule*
 
-`x equals 360 minus open parentheses 90 plus 90 plus 52 close parentheses
-x equals 128`
+$x = 360 - ( 90 + 90 + 52 ) x = 128$
 
 *Because angles in a quadrilateral add up to 360**<sup>o</sup>*
 

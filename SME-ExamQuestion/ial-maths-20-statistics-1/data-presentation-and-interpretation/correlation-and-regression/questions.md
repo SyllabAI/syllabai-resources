@@ -111,7 +111,7 @@ Eight food critics are asked to give a rating, $x$ out of ten, for a new restaur
 
 (ii) Show that the value of $\sumx^{2}$ is 312.
 
-(iii) Use your answers to part (i) and (ii) and the formula `S subscript x x end subscript equals sum x squared minus open parentheses sum x close parentheses squared over n` to find the value of $S_{xx}$.
+(iii) Use your answers to part (i) and (ii) and the formula $S_{x x} = \text{sum} x^{2} - \frac{( \text{sum} x )^{2}}{n}$ to find the value of $S_{xx}$.
 
 ### 2() — 2 marks — structured
 The ratings, $y$ out of ten  given to a different restaurant by the same food critics are summarised below:
@@ -138,7 +138,7 @@ The heights, $h$ metres rounded to 1 decimal place, and the weights, $w$ kg roun
 |---|---|---|---|---|---|---|
 | **Weight, **$w$ **kg** | 96 | 103 | 98 | 99 | 102 | 101 |
 
-Use the formula `S subscript h h end subscript equals sum h squared minus open parentheses sum h close parentheses squared over n` to find the value of $S_{hh}.$
+Use the formula $S_{h h} = \text{sum} h^{2} - \frac{( \text{sum} h )^{2}}{n}$ to find the value of $S_{hh}.$
 
 ### 2() — 1 mark — structured
 Use the code $x=w-100$to complete the table below.

@@ -3854,7 +3854,7 @@
      ],
      "part_tier": null,
      "problem_md": "Calculate the sum of all the odd numbers between $0$ and $150$:\n\n$1 + 3 + 5 + \\dots + 149$",
-     "solution_md": "This is an arithmetic progression with $a = 1$, $d = 2$ and last term $149$; find the number of terms from $u_{n} = 149$ using `u subscript n equals a plus open parentheses n minus 1 close parentheses d`\n\n$1 + ( n - 1 ) ( 2 ) = 149 \\Rightarrow n = 75$\n\n**[B1]**\n\nUse $S_{n} = \\frac{n}{2} ( a + l )$ with $n = 75$\n\n$S_{75} = \\frac{75}{2} ( 1 + 149 )$\n\n**[M1]**\n\n$S_{75} = 5625$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Correct number of terms, $n = 75$ (seen or implied).\n> \n> **M1**: Substitute $a = 1$, $l = 149$ and your $n$ into a correct sum formula.\n> \n> **A1**: Correct value $5625$. (This equals $75^{2}$ — the sum of the first $m$ odd numbers is always $m^{2}$.)",
+     "solution_md": "This is an arithmetic progression with $a = 1$, $d = 2$ and last term $149$; find the number of terms from $u_{n} = 149$ using $u_{n} = a + ( n - 1 ) d$\n\n$1 + ( n - 1 ) ( 2 ) = 149 \\Rightarrow n = 75$\n\n**[B1]**\n\nUse $S_{n} = \\frac{n}{2} ( a + l )$ with $n = 75$\n\n$S_{75} = \\frac{75}{2} ( 1 + 149 )$\n\n**[M1]**\n\n$S_{75} = 5625$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Correct number of terms, $n = 75$ (seen or implied).\n> \n> **M1**: Substitute $a = 1$, $l = 149$ and your $n$ into a correct sum formula.\n> \n> **A1**: Correct value $5625$. (This equals $75^{2}$ — the sum of the first $m$ odd numbers is always $m^{2}$.)",
      "equations": [
       {
        "latex": "0",

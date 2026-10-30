@@ -59,7 +59,7 @@ When glucose is made in photosynthesis, light energy is transferred to chemical 
 
 The correct balanced equation for photosynthesis is:
 
-`6 CO subscript 2 space plus space 6 straight H subscript 2 straight O space rightwards arrow from chlorophyll to light of space straight C subscript 6 straight H subscript 12 straight O subscript 6 space plus space 6 straight O subscript 2`
+$6 CO_{2} + 6 \mathrm{H}_{2} \mathrm{O} \rightarrow \text{from} \text{chlorophyll} \text{to} \text{light} \mathrm{C}_{6} \mathrm{H}_{12} \mathrm{O}_{6} + 6 \mathrm{O}_{2}$
 
 6 molecules of carbon dioxide react with 6 molecules of water to form 1 molecule of glucose and 6 molecules of oxygen.
 

@@ -103,7 +103,7 @@ Write an expression, in terms of $n$, for the number of white dots in Diagram $n
 
 Write an expression, in terms of n, for the number of white dots in Diagram n.
 
-The expression for the total number of dots in Diagram $n$ is  `1 half open parentheses 3 n squared space minus space n close parentheses`.
+The expression for the total number of dots in Diagram $n$ is  $1 \frac{1}{2} ( 3 n^{2} - n )$.
 
 i) Find the total number of dots in Diagram 8.
 

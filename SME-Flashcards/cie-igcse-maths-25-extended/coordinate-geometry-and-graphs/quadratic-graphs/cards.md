@@ -24,12 +24,12 @@ The vertex of a quadratic graph will be a maximum point if the coefficient of $x
 
 **FRONT**
 
-Where does the graph of `y equals 3 open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses` **cross the *****x*****-axis**?
+Where does the graph of $y = 3 ( x - 1 ) ( x + 2 )$ **cross the *****x*****-axis**?
 
 
 **BACK**
 
-The graph of `y equals 3 open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses` **crosses the *****x*****-axis** at `open parentheses 1 comma space 0 close parentheses` and `open parentheses negative 2 comma space 0 close parentheses`.
+The graph of $y = 3 ( x - 1 ) ( x + 2 )$ **crosses the *****x*****-axis** at $( 1 , 0 )$ and $( - 2 , 0 )$.
 
 To find these roots, make each factor equal to zero to find the *x*-coordinate:
 
@@ -60,17 +60,17 @@ To find the coordinates of the **turning point** of a quadratic graph, you can e
 
 **True or False?**
 
-The** turning point **of `y equals 4 minus open parentheses x minus 1 close parentheses squared` is at the point `open parentheses 4 comma space 1 close parentheses`.
+The** turning point **of $y = 4 - ( x - 1 )^{2}$ is at the point $( 4 , 1 )$.
 
 
 **BACK**
 
 **False.**
 
-The** turning point **of `y equals 4 minus open parentheses x minus 1 close parentheses squared` is **not at the point **`open parentheses 4 comma space 1 close parentheses`.
+The** turning point **of $y = 4 - ( x - 1 )^{2}$ is **not at the point **$( 4 , 1 )$.
 
 The *x*-coordinate is the value that makes the squared bracket equal to zero.
 
-The coordinates should be `open parentheses 1 comma space 4 close parentheses`.
+The coordinates should be $( 1 , 4 )$.
 
 

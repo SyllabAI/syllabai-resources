@@ -7,9 +7,9 @@
 ### 20((a)) — 2 marks
 > *Substitute the *$x$* values into the equation to calculate the *$y$* values (be careful when squaring negative numbers!)*
 
-`open parentheses negative 3 close parentheses squared minus open parentheses negative 3 close parentheses minus 4 equals 8`
+$( - 3 )^{2} - ( - 3 ) - 4 = 8$
 
-`open parentheses negative 1 close parentheses squared minus open parentheses negative 1 close parentheses minus 4 equals negative 2`
+$( - 1 )^{2} - ( - 1 ) - 4 = - 2$
 
 $0^{2}-0-4=-4$
 

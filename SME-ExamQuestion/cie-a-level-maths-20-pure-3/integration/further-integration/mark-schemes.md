@@ -1896,9 +1896,7 @@ Integrate
 
 Substitute the limits
 
-`equals 1 over 12 open parentheses open parentheses 3 open parentheses 2 close parentheses minus 1 close parentheses to the power of 4 minus open parentheses 3 open parentheses 0 close parentheses minus 1 close parentheses to the power of 4 close parentheses
-equals 1 over 12 open parentheses 5 to the power of 4 minus open parentheses negative 1 close parentheses to the power of 4 close parentheses
-equals 624 over 12`
+$= \frac{1}{12} ( ( 3 ( 2 ) - 1 )^{4} - ( 3 ( 0 ) - 1 )^{4} ) = \frac{1}{12} ( 5^{4} - ( - 1 )^{4} ) = \frac{624}{12}$
 
 **[M1]**
 

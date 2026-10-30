@@ -612,6 +612,6 @@ Write a **formula **for the **position vector** of the **midpoint **of *A* and *
 
 Points *A* and *B* have position vectors $a$ and $b$, respectively.
 
-A **formula **for the **position vector** of the **midpoint **of *A* and *B* is `1 half open parentheses bold a plus bold b close parentheses`.
+A **formula **for the **position vector** of the **midpoint **of *A* and *B* is $1 \frac{1}{2} ( a + b )$.
 
 

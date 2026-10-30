@@ -42,14 +42,14 @@ What does it mean to **solve a quadratic equation **by** factorising**?
 
 **True or False?**
 
-If  `open parentheses x plus 4 close parentheses open parentheses x minus 1 close parentheses equals 0`,  then either  $x+4=0$  or  $x-1=0$.
+If  $( x + 4 ) ( x - 1 ) = 0$,  then either  $x+4=0$  or  $x-1=0$.
 
 
 **BACK**
 
 **True.**
 
-If  `open parentheses x plus 4 close parentheses open parentheses x minus 1 close parentheses equals 0`,  then either  $x+4=0$  or  $x-1=0$.
+If  $( x + 4 ) ( x - 1 ) = 0$,  then either  $x+4=0$  or  $x-1=0$.
 
 
 
@@ -59,14 +59,14 @@ If  `open parentheses x plus 4 close parentheses open parentheses x minus 1 clos
 
 **True or false?**
 
-The solutions of the equation `open parentheses x minus 2 close parentheses open parentheses x plus 5 close parentheses equals 0` are $x=-2$ and $x=5$.
+The solutions of the equation $( x - 2 ) ( x + 5 ) = 0$ are $x=-2$ and $x=5$.
 
 
 **BACK**
 
 **False.**
 
-To find the solutions of the equation `open parentheses x minus 2 close parentheses open parentheses x plus 5 close parentheses equals 0`, you should solve the linear equations $x-2=0$ and $x+5=0$.
+To find the solutions of the equation $( x - 2 ) ( x + 5 ) = 0$, you should solve the linear equations $x-2=0$ and $x+5=0$.
 
 The solutions are $x=2$ and $x=-5$.
 
@@ -78,12 +78,12 @@ Note that the signs in front of 2 and 5 are the 'other way round' to how they ap
 
 **FRONT**
 
-What **two linear equations** should you solve to find the solutions of the quadratic equation `open parentheses 8 x plus 7 close parentheses open parentheses 2 x minus 3 close parentheses equals 0`?
+What **two linear equations** should you solve to find the solutions of the quadratic equation $( 8 x + 7 ) ( 2 x - 3 ) = 0$?
 
 
 **BACK**
 
-To find the solutions of the quadratic equation  `open parentheses 8 x plus 7 close parentheses open parentheses 2 x minus 3 close parentheses equals 0`,  you should solve the linear equations  $8x+7=0$  and  $2x-3=0$.
+To find the solutions of the quadratic equation  $( 8 x + 7 ) ( 2 x - 3 ) = 0$,  you should solve the linear equations  $8x+7=0$  and  $2x-3=0$.
 
 The solutions are $x=-\frac{7}{8}$ and $x=\frac{3}{2}$.
 
@@ -95,14 +95,14 @@ The solutions are $x=-\frac{7}{8}$ and $x=\frac{3}{2}$.
 
 **True or false?**
 
-$x=0$ is **one of the solutions** of the quadratic equation `x open parentheses 5 x minus 1 close parentheses equals 0`.
+$x=0$ is **one of the solutions** of the quadratic equation $x ( 5 x - 1 ) = 0$.
 
 
 **BACK**
 
 **True.**
 
-If `x open parentheses 5 x minus 1 close parentheses equals 0`, then either $x=0$ or $5x-1=0$.
+If $x ( 5 x - 1 ) = 0$, then either $x=0$ or $5x-1=0$.
 
 So $x=0$ is one of the solutions.
 

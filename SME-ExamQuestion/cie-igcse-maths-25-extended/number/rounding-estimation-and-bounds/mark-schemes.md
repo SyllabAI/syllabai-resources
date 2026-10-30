@@ -414,7 +414,7 @@ $\mathrm{P} = 2 ( 10.75 ) + 2 ( 8.55 )$
 *Use the next digit to determine whether the 6 stays or rounds up to 7.* 
 *If the digit is 5 or above then you round up.*
 
-`0.04 bottom enclose 6 box enclose 8 75`
+`0.04 bottom 6 box 8 75`
 
 **0.047** **[1]**
 

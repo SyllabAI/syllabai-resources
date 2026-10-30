@@ -566,13 +566,13 @@ $\text{f}^{-1} ( x ) = \frac{x}{k}$
 
 **[A1]**
 
-You have to show that `\text{f}^{-1}(x) = \tfrac{1}{k}\,\text{f}\left(\tfrac{1}{k}x\right)`, so find an expression for `text f end text open parentheses 1 over k x close parentheses`
+You have to show that `\text{f}^{-1}(x) = \tfrac{1}{k}\,\text{f}\left(\tfrac{1}{k}x\right)`, so find an expression for $\text{f} ( \frac{1}{k} x )$
 
 $\text{f} ( x ) = k x$
 
 `\text{f}\left(\tfrac{1}{k}x\right) = k \cdot \tfrac{1}{k}x = x`
 
-Now simplify the right-hand side of `\text{f}^{-1}(x) = \tfrac{1}{k}\,\text{f}\left(\tfrac{1}{k}x\right)`, using `text f end text open parentheses 1 over k x close parentheses equals x`
+Now simplify the right-hand side of `\text{f}^{-1}(x) = \tfrac{1}{k}\,\text{f}\left(\tfrac{1}{k}x\right)`, using $\text{f} ( \frac{1}{k} x ) = x$
 
 `\tfrac{1}{k}\,\text{f}\left(\tfrac{1}{k}x\right) = \tfrac{1}{k} \cdot x = \dfrac{x}{k}`
 

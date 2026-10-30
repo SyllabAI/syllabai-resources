@@ -98,7 +98,7 @@ $F=ρgV$
 > 
 > - Cancelling *g:*
 > 
-> `ρ _ i V_ i up diagonal strike g=ρ _ w V_ w up diagonal strike g`
+> $ρ _ i V_ i \cancel{g} =ρ _ w V_ w \cancel{g}$
 > 
 > - Dividing by $p_{w}V_{i}$
 > 

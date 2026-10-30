@@ -904,7 +904,7 @@ $u_{9} = 145$
 > **B1**: Correct ninth term $u_{9} = 145$ (follow-through using your positive value of $r$).
 
 ### Q23
-This is an arithmetic progression with $a = 1$, $d = 2$ and last term $149$; find the number of terms from $u_{n} = 149$ using `u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+This is an arithmetic progression with $a = 1$, $d = 2$ and last term $149$; find the number of terms from $u_{n} = 149$ using $u_{n} = a + ( n - 1 ) d$
 
 $1 + ( n - 1 ) ( 2 ) = 149 \Rightarrow n = 75$
 

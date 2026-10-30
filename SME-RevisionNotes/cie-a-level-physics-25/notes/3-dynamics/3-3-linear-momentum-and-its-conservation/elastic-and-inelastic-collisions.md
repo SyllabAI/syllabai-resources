@@ -96,11 +96,11 @@ $E_{k}=\frac{1}{2}mv^{2}$
 > 
 > **Step 2: Write an expression for the kinetic energy of the system after the collision**
 > 
-> `E_ k a f t e r end_=1 half (m_ x+m_ y) v_ x+y end_ superscript 2`
+> `E_ k a f t e r end_=1 half (m_ x+m_ y) v_ x+y end_ ^ 2`
 > 
 > - Both trolleys are of equal mass, therefore *m*<sub>x</sub> + *m*<sub>y</sub> = 2*m*
 > 
-> `E_ k a f t e r end_=1 half (2m) v_ x+y end_ superscript 2`
+> `E_ k a f t e r end_=1 half (2m) v_ x+y end_ ^ 2`
 > 
 > **Step 3: Use conservation of momentum to find the speed after the collision**
 > 
@@ -110,7 +110,7 @@ $E_{k}=\frac{1}{2}mv^{2}$
 > 
 > **Step 4: Compare the expressions and determine if they are equal**
 > 
-> `E_ k a f t e r end_=1 half left parenthesis 2m right parenthesis (v_ x / 2)²=1 fourth m v_ x superscript 2`
+> $E_ k a f t e r end_=1 \frac{1}{2} ( 2m ) (v_ x / 2)²=1 \frac{1}{4} m v_ x^{2}$
 > 
 > $E_{kbefore}=\frac{1}{2}mv_{x}^{2}$
 > 

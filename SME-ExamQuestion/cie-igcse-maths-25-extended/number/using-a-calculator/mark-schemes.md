@@ -137,7 +137,7 @@ $\frac{29^{2} - 4.6}{ \sqrt{( 35 - 1.9^{3} )} }$
 
 > *6 is the fourth significant figure*
 
-`157. circle enclose 6 68255`
+$157. \textcircled{6} 68255$
 
 > *After the 6, there is another 6, so it will round up*
 
