@@ -76,7 +76,7 @@ def main() -> int:
 
     # pools + indexes + note substrate (same assembly as the engines)
     regs: dict[str, dict] = {}
-    pools, texts, pool_ids = {}, {}, {}
+    pools, texts, pool_ids, pool_codes = {}, {}, {}, {}
     sub_pts, top_titles = {}, {}
     for l in LANES_3:
         qual = json.loads(git("show", f"{sha}:spec-links/{l}.json"))["qual"]
@@ -86,6 +86,7 @@ def main() -> int:
         pools[l] = pts
         texts[l] = [(p, vf.norm(p.get("text"))) for p in pts]
         pool_ids[l] = {p["id"]: str(p.get("official_code")) for p in pts}
+        pool_codes[l] = {str(p.get("official_code")) for p in pts}
         sp: dict[str, list] = {}
         for p in pts:
             st = norm_sub((p.get("subsection") or {}).get("title") or "")
@@ -229,7 +230,7 @@ def main() -> int:
             for c in it.get("codes") or []:
                 code = c.get("official_code")
                 tier = c.get("tier") or ""
-                if code not in pool_ids[l]:
+                if code not in pool_codes[l]:
                     errors.append(f"{l}:{iid}:code-not-in-pool:{code}")
                     continue
                 if c.get("via") == "wave3-cascade-of-record-sid-row":
