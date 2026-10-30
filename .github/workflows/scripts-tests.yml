@@ -91,6 +91,8 @@ jobs:
                   d = json.load(open(p))
               except Exception:
                   continue
+              if not all(isinstance(d.get(k), dict) for k in ('new', 'gone', 'changed')):
+                  continue
               keys = list(d.get('new', {})) + list(d.get('gone', {})) + list(d.get('changed', {}))
               if all(k.startswith('official-4ch1-') for k in keys):
                   elig.append(p)
